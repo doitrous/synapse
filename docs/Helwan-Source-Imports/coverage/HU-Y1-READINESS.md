@@ -303,8 +303,15 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   ten rationale-only slides yield 14 handles after thirteen identical wording/option repeats
   and the altered Case-25 semantic collapse. Nine prior eligible-LCS reuses leave a +5 new-only
   delta, bringing eligible LCS to 434/242/196 and 9/49/138. Case 34 remains a complete keyless
-  differential—no answer is inferred. The 110-page CBL source is fully inventoried; broader
-  LCS S1 still awaits its remaining rank-4/rank-5 local-source families and consolidation.
+  differential—no answer is inferred. The 110-page CBL source is fully inventoried. Family 24
+  next closes the direct Helwan-labelled tier-4 Anatomy lecture `src_85203d8d86d05275cf7d`
+  across all 52 rendered pages: its three marked `Interactive Question` prompts have no
+  answer-reveal or printed-key convention. Two scopes exactly reuse Family-20 LCS handles and
+  the motor supply of muscles of mastication is one new tested scope, bringing LCS to **437
+  prompts / 242 printed keys / 197 concepts = 9 live / 49 pending / 139 new**. The
+  rank-4/rank-5 local-source debt is now 52 path instances / 50 unique hashes, beginning next
+  with tier-4 `src_95c1a0516668c3eda345`; broader LCS S1 remains incomplete pending that debt
+  and consolidation.
 
 ## HU-PSY-104 psychology S1 family checkpoint
 

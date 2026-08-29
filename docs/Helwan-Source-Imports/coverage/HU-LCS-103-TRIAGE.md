@@ -2873,8 +2873,69 @@ malformed items also remain unchanged. The complete 110-page CBL source is now c
   Joint Diseases cover/objectives pp. 36–37 and Cases 12–20 pp. 38–70; General / Soft Tissue
   & Bone Neoplasia cover p. 71 and Cases 21–34 pp. 72–109; closing/source p. 110. No page
   remains in this source.
-- Broader LCS-103 S1 remains incomplete until the rank-4/rank-5 local-source remainder is
-  assigned as another bounded family and the separate anatomy/histology and pathology/
-  physiology/pharmacology/biochemistry scopes are consolidated.
+- Broader LCS-103 S1 remains incomplete. After Family 24, the rank-4/rank-5 local-source
+  remainder is **52 path instances / 50 unique hashes**: the two duplicate tier-4 path pairs
+  remain path provenance, not extra source families. The next manifest-order evidence gate is
+  `src_95c1a0516668c3eda345`, `Nervesand Vessels of Head and Neck 4.pdf` (28 pages; tier 4;
+  native text; local LCS Anatomy theoretical path). The separate anatomy/histology and
+  pathology/physiology/pharmacology/biochemistry scopes also await consolidation.
 - No download was performed. No S2 work is authorised until rank 1–6 triage is consolidated
   and `/root` issues the fresh literal `TRIAGE APPROVED` for Helwan Year 1.
+
+## Family 24 — Tier-4 Anatomy lecture interactive-question gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_85203d8d86d05275cf7d` |
+| Manifest / recomputed SHA-256 | `85203d8d86d05275cf7d2569aa49690a45194b7f77bc27f339e59089f73e34bc` |
+| Local path | `Year 1/LCS 103/Anatomy/Theoretical/Head & Neck/Lec 10 - Temporal & Infratemporal Fossa/Anatomy_Lecture_Temporal_Infratemporal_Fossa_Muscles_Of_Mastication.pdf` |
+| Manifest class | Helwan `HU_Y1` / `HU-LCS-103` / Anatomy / Theoretical / tier 4 / 52 native-text pages |
+| Visible provenance | p. 1 prints `Ass. Prof. Dr. Eman El Sawaf`, `Anatomy & Embryology Department`, `Faculty Of Medicine`, and `Capital University (Formerly Helwan)`; p. 2 prints `Locomotor Module` / `Anatomy` / `Head & Neck` |
+| Container / boundary | Unencrypted 52-page PowerPoint PDF, 720 × 540 pt, no form or JavaScript; every physical page was rendered and read. Pages 1–18 are lecture setup, p. 19 is the first interactive prompt, pp. 20–49 remain instructional material, p. 50 is the final interactive prompt, and pp. 51–52 are references/closing. |
+| Authority | Direct, Helwan-labelled tier-4 teaching evidence. It is not a sitting paper or official key, and the embedded checks are formative `Interactive Question` slides rather than an independently administered assessment. |
+
+The full-source gate finds exactly three complete printed prompts: p. 19 asks for the contents
+of the infratemporal fossa; p. 32 asks for temporalis origin, insertion, nerve supply and
+action; p. 50 asks which listed cranial nerve supplies the muscles of mastication. There are
+**zero printed keys**. The surrounding explanatory slides are not converted into keys: p. 16–18
+list teaching content, pp. 24–31 teach temporalis anatomy, and p. 29 states mandibular-nerve
+innervation, but none is an answer reveal, underlined/coloured option, answer line or keyed
+copy of its interactive prompt. The p. 50 choices are all visibly unmarked. No complete
+question, answer-space, option set or answer-reveal occurs elsewhere in the 52-page source.
+
+### Source-first handles, search and overlap result
+
+The three prompts have no within-source copies or semantic collapse. Each received four
+`find-existing` query forms across live/pending state and all source-import roots (**3 × 4 =
+12 invocations**), then a direct comparison with accepted prior LCS and the separately tracked
+external Histology banks.
+
+| Source prompt | Handle | Search / prior-LCS result | Disposition |
+|---|---|---|---|
+| p. 19 `List the contents of the infratemporal fossa?` | `infratemporal-fossa` | Exact accepted Family-20 temporal M4 handle. The sole live chorda-tympani mention is narrower than fossa contents; no external-bank same-scope handle. | prior eligible-LCS reuse; inherited new |
+| p. 32 temporalis OINA request | `temporalis-oina` | Exact accepted Family-20 temporal M2 handle. No substantive live/pending or external-bank same-scope concept supersedes the prior LCS scope. | prior eligible-LCS reuse; inherited new |
+| p. 50 CN supply MCQ | `mandibular-nerve-motor-supply-to-muscles-of-mastication` | The earlier `mandibular-nerve-branches` handle covers branches/foramen-ovale context, not this motor-supply question. No live, pending, external-bank or accepted prior-LCS same-scope hit. | new; NEU/ANA |
+
+The source-level handle result is **0 live / 0 pending / 3 new**. Module novelty is separate:
+two handles reuse eligible LCS and one is new to eligible LCS, so the module delta is **+1
+concept = 0 live / 0 pending / +1 new**. This teaching-source result does not promote the
+source to a sitting assessment or an official key.
+
+| Family-24 evidence bucket | Prompt occurrences | Printed keys | Source handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS reuse | 2 | 0 | 2 | 0 | 0 | 0 | 0 |
+| New eligible-LCS tested scope | 1 | 0 | 1 | 1 | 0 | 0 | 1 |
+| **Family 24 assessment evidence** | **3** | **0** | **3** | **1** | **0** | **0** | **1** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 23 | 434 | 242 | 196 | 9 | 49 | 138 |
+| Family 24 net delta | +3 | +0 | +1 | +0 | +0 | +1 |
+| **LCS-103 cumulative after Family 24** | **437** | **242** | **197** | **9** | **49** | **139** |
+
+Arithmetic checks: `2 + 1 = 3` prompts and handles; `0 + 0 + 3 = 3` source dispositions;
+`2 prior eligible + 1 new-to-eligible = 3`; `434 + 3 = 437`; `242 + 0 = 242`; `196 + 1 =
+197`; and `9 + 49 + 139 = 197`. No ID, content record, catalogue update, import or source
+copy was created.
