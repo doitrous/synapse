@@ -3797,3 +3797,107 @@ tier-6 `src_fd15c91d0058b3c25d86` · `Flashcards_Bacterial_Morphology_and_Struct
 Notes and Summaries`. Its manifest snippet begins with a question/answer flashcard pair, so it
 requires a bounded source-format, prompt/answer, provenance, dedupe, and prior-BMS gate before
 any count is accepted.
+
+## Family 29 — tier-6 Bacterial Morphology and Structure CSV flashcards
+
+### Source identity, complete-file boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_fd15c91d0058b3c25d86` · `Flashcards_Bacterial_Morphology_and_Structure.csv` |
+| SHA-256 / boundary | `fd15c91d0058b3c25d86ad642cd290ddcf586a142671c0445f7b9e6ab592d432` · 1,130 bytes · ten CSV records, each with exactly two fields |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6 · CSV |
+| Visible provenance | filename identifies `Flashcards_Bacterial_Morphology_and_Structure`; the file has no header row or embedded author, university, department, examiner, date, sitting, marks, or official-key metadata |
+| Read boundary | the complete local file was parsed with a CSV-aware reader and all ten ordered two-field records were inspected; no partial or malformed record exists |
+
+The stable two-column convention is flashcard front followed by printed back. Nine fronts are
+explicit questions or commands and row 9 is a declarative identification clue; its paired
+`Plasmids` back makes it a complete prompt–answer flashcard rather than an unpaired teaching
+statement. This is Helwan-local **study material**, not an exam, recoverable sitting,
+departmental bank, response sheet, or official key. The second-column values are therefore
+counted as printed study-flashcard answers only.
+
+### Prompt, printed-answer, repeat, collapse, and placement ledger
+
+| Ref | Source-first flashcard front | Printed back | Tested handle · placement |
+|---|---|---|---|
+| F29-Q01 | Which component of the Gram-negative outer membrane is responsible for the release of `$TNF-\alpha$` and `$IL-1$`? | Lipid A | `gram-negative-lipid-a-tnf-il1-release` · `inf` |
+| F29-Q02 | Name the unique Gram-positive cell wall component that induces inflammatory cytokines and mediates adherence. | Lipoteichoic acid | `gram-positive-lipoteichoic-acid-cytokines-adherence` · `inf` |
+| F29-Q03 | In Gram-negative bacteria, where is the specific site for `$\beta$`-lactamase enzyme activity? | Periplasmic space | `gram-negative-periplasmic-beta-lactamase-site` · `inf` |
+| F29-Q04 | Which bacterial genus is characterized by a complete lack of a cell wall and the presence of sterols? | Mycoplasma | `mycoplasma-no-cell-wall-sterol-membrane` · `inf` |
+| F29-Q05 | What chemical component provides bacterial endospores with their characteristic heat resistance? | Calcium dipicolinate | `endospore-heat-resistance-calcium-dipicolinate` · `inf` |
+| F29-Q06 | Which specific structure mediates the transfer of genetic material between bacteria during conjugation? | Sex pilus | `conjugation-sex-pilus-dna-transfer` · `inf` |
+| F29-Q07 | What are the two individual subunits that comprise the prokaryotic `$70S$` ribosome? | `$30S$` and `$50S$` | `prokaryotic-70s-ribosome-30s-50s-subunits` · `inf` |
+| F29-Q08 | The `$H$`-antigen used in laboratory serotyping is associated with which bacterial appendage? | Flagella | `bacterial-h-antigen-flagella-serotyping` · `inf` |
+| F29-Q09 | Small, circular extrachromosomal `$DNA$` molecules that frequently harbor antibiotic resistance genes. | Plasmids | `plasmid-small-circular-extrachromosomal-resistance-genes` · `inf` |
+| F29-Q10 | Which virulence factor is associated with a positive Quellung reaction and protects against phagocytosis? | Capsule | `capsule-quellung-antiphagocytic-virulence` · `inf` |
+
+There are **10 complete prompt occurrences, 10 printed study-flashcard answers, 10 retained
+records, and 10 source-distinct tested handles**. There is no exact copy occurrence and no
+within-source semantic collapse. Source wording and mathematical markup are preserved without
+fact repair or inference.
+
+### Search-before-mint register and prior-BMS adjudication
+
+Each source handle received four fresh required searches across live state and all pending
+import roots: **40 required searches**. Literal searches returned no same-scope hit; manual
+exact-scope review reopened four pending records. The external disposition is `0 live / 4
+pending / 6 no same-scope match`. Broader or adjacent records were not promoted to exact hits:
+the toxic-lipid-A and septic-shock records do not state Q01's named cytokines; the Gram-negative
+wall and beta-lactamase-inactivation records do not state Q03's periplasmic site; the flagellin
+record does not state Q08's H-antigen serotyping relation; the live plasmid label and pending
+R-plasmid record each cover only part of Q09's combined clue; and the capsule-functions record
+does not state the Quellung reaction tested by Q10.
+
+| Handle · ref | Four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `gram-negative-lipid-a-tnf-il1-release` · Q01 | `Lipid A TNF alpha IL 1`; `gram negative outer membrane Lipid A`; `endotoxin cytokine release TNF IL1`; `LPS lipid A inflammatory cytokines` | new; pending `CON-INF-BF26D7E563FB78` identifies toxic lipid A and `CON-INF-D60EAAF763C476` covers a massive septic-shock cytokine response, but neither states the named TNF-alpha/IL-1 release relation | none; Family-13 Q07 is the broader toxic-LPS scope |
+| `gram-positive-lipoteichoic-acid-cytokines-adherence` · Q02 | `lipoteichoic acid cytokines adherence`; `gram positive unique wall component`; `lipoteichoic acid TNF IL1`; `lipoteichoic acid bacterial adherence` | pending `CON-INF-7E3B831D71A008`; its definition states that lipoteichoic acid contributes to both adhesion and immune activation | none; delta |
+| `gram-negative-periplasmic-beta-lactamase-site` · Q03 | `periplasmic beta lactamase`; `gram negative beta lactamase periplasmic space`; `beta lactamase activity site gram negative`; `periplasm enzyme beta lactamase` | new; pending `CON-INF-0DD46C0FD80938` covers periplasmic proteins and `CON-INF-64A7823DCEC6E5` covers beta-lactamase drug inactivation, but neither states this enzyme-site relation | none; Family-11 Q17 tests the resistance mechanism rather than its Gram-negative location |
+| `mycoplasma-no-cell-wall-sterol-membrane` · Q04 | `Mycoplasma no cell wall sterols`; `bacterial genus lacks cell wall sterol membrane`; `Mycoplasma sterols membrane`; `wall deficient bacteria Mycoplasma` | pending `CON-INF-7CCB09F434AF06`; definition explicitly joins the sterol-containing membrane to permanent absence of peptidoglycan wall | none; prior Mycoplasma prompts test antibiotic resistance, not the structural identification pair |
+| `endospore-heat-resistance-calcium-dipicolinate` · Q05 | `calcium dipicolinate spore heat resistance`; `endospore heat resistance component`; `bacterial spore calcium dipicolinate`; `dipicolinic acid thermal resistance spores` | new | none; delta |
+| `conjugation-sex-pilus-dna-transfer` · Q06 | `sex pilus conjugation transfer`; `bacterial genetic material transfer sex pilus`; `conjugation structure sex pilus`; `sex pili DNA transfer bacteria` | pending `CON-INF-B7F47EC7A8F7FA`; exact sex-pilus/direct-contact transfer mechanism | exact collapse to Family-27 Q06 and Family-17 Q01 |
+| `prokaryotic-70s-ribosome-30s-50s-subunits` · Q07 | `70S ribosome 30S 50S subunits`; `prokaryotic ribosome subunits`; `bacterial ribosome 30S 50S`; `70S ribosomal subunits bacteria` | pending `CON-INF-29351FD540E214`; definition explicitly states 70S = 30S + 50S | none; Family-11 Q13 contrasts 70S and 80S but does not ask the two bacterial subunits |
+| `bacterial-h-antigen-flagella-serotyping` · Q08 | `H antigen flagella serotyping`; `bacterial H antigen appendage`; `flagellar H antigen`; `H antigen laboratory serotyping` | new; pending `CON-INF-83707B09F53803` covers flagellin and motility only | none; Family-13 Q03 tests flagellar location, not H-antigen serotyping |
+| `plasmid-small-circular-extrachromosomal-resistance-genes` · Q09 | `plasmids circular extrachromosomal DNA resistance genes`; `small circular DNA antibiotic resistance bacteria`; `plasmid resistance gene carriage`; `extrachromosomal DNA plasmid` | new; live `CON-DEV-FE47A8F9B0768E` covers small circular extrachromosomal DNA and pending `CON-INF-134BE2C9B827D5` covers R-plasmid resistance genes, but neither record covers the combined clue | none; Family-27 Q13 and Family-11 Q23 separately test different plasmid-property and R-factor scopes |
+| `capsule-quellung-antiphagocytic-virulence` · Q10 | `capsule Quellung antiphagocytic`; `positive Quellung reaction capsule`; `bacterial capsule protects phagocytosis`; `capsule virulence factor Quellung` | new; pending `CON-INF-25846A77987558` covers antiphagocytic virulence and generic identification but does not state Quellung | none; narrower two-clue identification remains distinct from Family-12 S03's four-function enumeration |
+
+External arithmetic is `0 + 4 + 6 = 10`. Prior-BMS arithmetic is `10 source handles - 1`
+accepted same-scope overlap `= 9` concept additions. As in earlier families, broader prior
+enumerations or adjacent applied relations do not erase a narrower tested claim.
+
+### Family-29 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 29 auxiliary | Auxiliary cumulative (Families 12–29) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 10 | 181 | 765 | 946 |
+| Printed study-flashcard answer occurrences | 10 | 125 | 405 | 530 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 10 | 178 | 552 | 730 |
+| Source-distinct tested handles | 10 | 176 | — | — |
+| External live / pending / no same-scope match | 0 / 4 / 6 | — | — | family-local disposition |
+| Handles already represented in Families 1–28 | 1 | 34 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +9 | +142 over primary | — | `372 + 142 = 514` |
+| **Distinct tested concepts** | **+9** | **142 auxiliary additions** | **372** | **514** |
+
+Family arithmetic is `10 observed - 0 exact copies = 10 retained`, `10 retained - 0 semantic
+collapses = 10 source handles`, `0 + 4 + 6 = 10`, and `10 - 1 = 9` concept additions. The
+primary checkpoint remains **765 / 405 / 552 / 372**. Auxiliary cumulative arithmetic is `171
++ 10 = 181` observed, `115 + 10 = 125` printed study answers, `168 + 10 = 178` retained, `166
++ 10 = 176` source handles, and `133 + 9 = 142` concepts over primary. The all-eligible
+inventory becomes **946 / 530 / 730 / 514**. This tier-6 flashcard source cannot raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 29
+
+`src_fd15c91d0058b3c25d86` is exhausted: all ten ordered CSV records have one source assignment,
+one printed flashcard back, and one four-query search row; no record remains to resume. The next
+manifest-ordered local BMS-102 candidate is tier-6 `src_36d454220999db6c0a84` · `Helwan S2
+Micro Antimicrobial Chemotherapy part 1.pdf`, SHA-256
+`36d454220999db6c0a848e460cbc4de4023a5bd9accadb9be1b251f9749cf019`, seven native-text pages
+under `Microbiology / Notes and Summaries`. Its first-page snippet is `Helwan University , S2 ,
+Lecture 3 Part 1`; it requires a bounded seven-page provenance, prompt-versus-teaching,
+answer-convention, duplicate, and prior-BMS gate before any count is accepted.
