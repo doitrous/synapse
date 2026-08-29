@@ -99,6 +99,17 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   237 distinct concepts. The questionable dysplasia/carcinoma-in-situ source keys remain
   source evidence rather than being silently corrected. Other pathology/microbiology sources
   remain S1 debt.
+- The Circulatory 1 pair `src_16f3e72b07c1848bea17` (40 unkeyed DOCX prompts) and
+  `src_ece98ba3324ee657c538` (malformed solved PDF) is triaged across all 13 pages. It adds
+  93 observed occurrences: 45 exact repeats leave 48 retained wordings; 28 printed key
+  occurrences support 27 retained scopes because one answer repeats. The answer-only clinical
+  Q10 is not promoted to a prompt, while the changed postmastectomy limb wording and
+  compensatory-vasodilation rationale stay as source evidence.
+- Family 6 records 0 live, 19 scope-proven pending and 20 no-same-scope external results
+  across 39 handles. Nine overlaps yield a +30 concept delta and a cumulative BMS-102
+  pathology checkpoint of 542 observed prompts, 191 printed key occurrences, 347 retained
+  records and 267 distinct concepts. The next source is Infection MCQs
+  `src_f4017e73dcc32d5e9934`; other pathology/microbiology sources remain S1 debt.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 

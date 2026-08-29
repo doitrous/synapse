@@ -1068,3 +1068,198 @@ dimensions. Cumulative arithmetic is `325 + 124 = 449` observed prompts,
   assessment evidence remain S1 debt.
 - Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
   readiness, claim, download, commit, or push action is authorised in this lane.
+
+## Family 6 — Circulatory 1 continuous-assessment solved/unsolved pair
+
+### Source identity, page boundary, and observed counts
+
+This is the next evidence-ranked tier-3 pathology pair after the general-neoplasia pair.
+Both local files were read in full from 150-dpi renders. The DOCX was rendered through a
+temporary PDF solely to establish its four-page visual boundary; the source files and the
+repository corpus were not changed.
+
+| Copy | Manifest source | Verified SHA-256 | Rendered/native pages | Role |
+|---|---|---|---:|---|
+| unsolved | `src_16f3e72b07c1848bea17` · `MCQs - College MCQs continous self assessement circulatory 1.docx` | `16f3e72b07c1848bea1715628719383222b5b2510cc65775423b87dc356001a8` | 4 rendered | 40-prompt unkeyed question copy |
+| solved | `src_ece98ba3324ee657c538` · `MCQs - College MCQs continous self assessement circulatory 1 answers.pdf` | `ece98ba3324ee657c53854561eb805b59feaf1dcc23eb499382f97adcf144c39` | 9 native | malformed partial keyed copy plus answer section |
+
+The unsolved DOCX has 40 prompts: a 20-prompt general block (`10 MCQ + 5 true/false +
+5 short-answer`) and a 20-prompt clinical block (`10 MCQ + 5 true/false + 5
+short/case`). It prints no answer. The solved PDF is not a simple keyed twin. It contains:
+
+- seven initially keyed prompts (`S-K01..S-K07`);
+- the same seven prompts repeated in a malformed numbered block (`S-R01..S-R07`),
+  where only `S-R06` repeats an `Answer:` line;
+- an unkeyed exact copy of all 20 general DOCX prompts;
+- 19 printed prompts from the clinical DOCX block: 18 exact copies, plus clinical Q7
+  changed from the DOCX's anatomically questionable `lower limb` after mastectomy to
+  `upper limb`; clinical MCQ10 is absent from the solved question pages; and
+- a later 20-answer clinical section, including a visibly printed answer for that absent
+  clinical MCQ10.
+
+Therefore observed prompt arithmetic is `40 + 7 + 7 + 20 + 19 = 93`. Exact wording
+repeats are `7 malformed-bank + 20 general-copy + 18 clinical-copy = 45`, leaving
+`93 - 45 = 48` retained wording records. Printed-key arithmetic is `7 initial Answer:
+lines + 1 repeated Answer: line + 20 clinical answers = 28` key occurrences. Those 28
+occurrences cover 27 retained prompt scopes because the key for `S-K06` is printed twice.
+No key is inferred for an unkeyed prompt, and no questionable source wording or key is
+silently repaired.
+
+### Source-assignment ledger
+
+`retain` marks the wording record kept after exact-copy dedupe. A handle is a tested-scope
+search label, not a proposed ID. Seven scope-tight collapse groups reduce the 48 retained
+wordings by nine: `SK01+UG02`, `SK04+UG04`, `SK05+UG01`, `SK06+UG05+UC14`,
+`SK07+UG08+UC03`, `UC07+SC07`, and `UG11+UC08`. Broad comparisons are not collapsed
+into single-disease examples, and disease-specific mechanisms are not collapsed into a
+generic parent.
+
+| Ref | Observed prompt → visibly printed key, where present | Assignment | Search handle |
+|---|---|---|---|
+| F6-SK01 | NOT a cause of generalized oedema → venous obstruction | retain; also UG02 | `generalized-edema-causes-localized-venous-obstruction` |
+| F6-SK02 | Primary mechanism of inflammatory oedema → increased vascular permeability | retain | `inflammatory-edema-increased-permeability` |
+| F6-SK03 | Condition commonly associated with pitting oedema → congestive heart failure | retain | `pitting-edema-congestive-heart-failure` |
+| F6-SK04 | Most likely non-pitting oedema cause → filariasis | retain; also UG04 | `lymphatic-obstruction-nonpitting-edema` |
+| F6-SK05 | Hyperaemia versus congestion → active versus passive | retain; also UG01 | `hyperemia-versus-congestion-active-passive` |
+| F6-SK06 | Chronic passive liver congestion → nutmeg appearance | retain; also UG05, UC14; key also printed at SR06 | `chronic-passive-liver-congestion-nutmeg-appearance` |
+| F6-SK07 | Mitral-stenosis pulmonary congestion microscopy → heart-failure cells | retain; also UG08, UC03 | `pulmonary-congestion-heart-failure-cells` |
+| F6-UG01 | Main difference between hyperaemia and congestion | retain; collapse to SK05 | `hyperemia-versus-congestion-active-passive` |
+| F6-UG02 | Cause of generalized oedema | retain; collapse to SK01 | `generalized-edema-causes-localized-venous-obstruction` |
+| F6-UG03 | Pulmonary oedema effects: hypoxia, infection risk and impaired gas exchange | retain; unkeyed | `pulmonary-edema-complications` |
+| F6-UG04 | Oedema associated with lymphatic obstruction | retain; collapse to SK04 | `lymphatic-obstruction-nonpitting-edema` |
+| F6-UG05 | Classic chronic passive liver-congestion feature | retain; collapse to SK06 | `chronic-passive-liver-congestion-nutmeg-appearance` |
+| F6-UG06 | Cause of cardiogenic shock | retain; unkeyed | `myocardial-infarction-cardiogenic-shock` |
+| F6-UG07 | Haemorrhage within peritoneal cavity term | retain; unkeyed | `hemoperitoneum-definition` |
+| F6-UG08 | Condition with heart-failure cells | retain; collapse to SK07 | `pulmonary-congestion-heart-failure-cells` |
+| F6-UG09 | Primary mediator of anaphylactic shock | retain; unkeyed | `histamine-anaphylactic-shock-mediator` |
+| F6-UG10 | NOT a septic-shock feature | retain; unkeyed | `septic-shock-features-bradycardia-exception` |
+| F6-UG11 | Hypovolaemic shock from blood/plasma loss | retain; also UC08 | `hypovolemic-shock-blood-loss` |
+| F6-UG12 | Petechial haemorrhage larger than ecchymosis | retain; unkeyed | `petechiae-versus-ecchymosis-size` |
+| F6-UG13 | Neurogenic shock from spinal injury/severe pain and lost vascular tone | retain; unkeyed | `neurogenic-shock-loss-vascular-tone` |
+| F6-UG14 | Thrombus as clot formed and remaining inside vessel | retain; unkeyed | `thrombus-intravascular-remains-definition` |
+| F6-UG15 | Haemostasis and homeostasis have the same meaning | retain; unkeyed | `hemostasis-versus-homeostasis-distinction` |
+| F6-UG16 | Differences between pitting and non-pitting oedema | retain; unkeyed | `pitting-versus-nonpitting-edema` |
+| F6-UG17 | Three stages of shock progression and characteristics | retain; unkeyed | `shock-progression-three-stages` |
+| F6-UG18 | Nutmeg-liver macroscopic and microscopic features | retain; unkeyed | `nutmeg-liver-macro-microscopic-features` |
+| F6-UG19 | Four haemorrhage types classified by location | retain; unkeyed | `hemorrhage-location-classification` |
+| F6-UG20 | Major embolism causes and progression to infarction | retain; unkeyed | `embolism-causes-infarction-mechanism` |
+| F6-UC01 | CHF, crackles and leg oedema → increased capillary hydrostatic pressure | retain; later printed clinical key | `heart-failure-edema-hydrostatic-pressure` |
+| F6-UC02 | Painful unilateral leg swelling after knee replacement → DVT | retain; later printed clinical key | `postoperative-dvt-diagnosis` |
+| F6-UC03 | Mitral stenosis and pulmonary congestion → haemosiderin alveolar macrophages | retain; later printed key; collapse to SK07 | `pulmonary-congestion-heart-failure-cells` |
+| F6-UC04 | Nephrotic periorbital oedema → reduced plasma oncotic pressure | retain; later printed clinical key | `nephrotic-edema-reduced-oncotic-pressure` |
+| F6-UC05 | Swollen calf, hypoxia, haemoptysis and chest pain → pulmonary embolism | retain; later printed clinical key | `dvt-pulmonary-embolism-clinical-pathway` |
+| F6-UC06 | Atherosclerotic patient with ischaemic stroke → thromboembolism | retain; later printed clinical key | `thromboembolic-ischemic-stroke` |
+| F6-UC07 | Postmastectomy swollen erythematous **lower limb** | retain unkeyed wording; questionable source anatomy preserved; also SC07 | `postmastectomy-lymphedema-lymphatic-obstruction` |
+| F6-UC08 | Trauma, 70/40, tachycardia, cold clammy skin → hypovolaemic shock | retain; later printed clinical key; collapse with UG11 | `hypovolemic-shock-blood-loss` |
+| F6-UC09 | Cirrhotic ascites → raised hydrostatic and reduced oncotic pressure | retain; later printed clinical key | `cirrhotic-ascites-hydrostatic-oncotic-pressure` |
+| F6-UC10 | Bee-sting hypotension and bronchospasm → epinephrine | retain; prompt occurs only in DOCX; answer visibly printed in solved answer section | `anaphylactic-shock-epinephrine-treatment` |
+| F6-UC11 | DVT plus PFO permits paradoxical embolism → true | retain; later printed clinical key | `paradoxical-embolism-pfo` |
+| F6-UC12 | Right failure causes pulmonary and left failure systemic congestion → false | retain; later printed clinical key | `heart-failure-sided-congestion-reversal` |
+| F6-UC13 | IgE anaphylaxis causes systemic vasodilatation/permeability → true | retain; later printed clinical key | `anaphylactic-shock-ige-vasodilation-permeability` |
+| F6-UC14 | Chronic liver venous congestion produces nutmeg appearance → true | retain; later printed key; collapse to SK06 | `chronic-passive-liver-congestion-nutmeg-appearance` |
+| F6-UC15 | Early septic shock has warm extremities from `compensatory vasodilation` → true | retain; questionable printed rationale preserved | `early-septic-shock-warm-extremities` |
+| F6-UC16 | Sudden painful pale pulseless leg → acute limb ischaemia from embolus/thrombus; heparin, imaging and revascularisation | retain; later printed clinical key | `acute-limb-ischemia-embolism-management` |
+| F6-UC17 | AF with pain out of proportion → mesenteric embolic ischaemia; CT angiography | retain; later printed clinical key | `atrial-fibrillation-mesenteric-ischemia` |
+| F6-UC18 | Chronic leg swelling and ankle pigmentation → venous insufficiency from valve failure | retain; later printed clinical key | `chronic-venous-insufficiency-valve-failure` |
+| F6-UC19 | Dyspnoea after long-haul flight → DVT-derived PE from immobility/stasis | retain; later printed clinical key | `long-haul-flight-dvt-pulmonary-embolism` |
+| F6-UC20 | Refractory haemorrhagic shock with coagulopathy → DIC with microthrombi/factor consumption | retain; later printed clinical key | `dic-hemorrhagic-shock-consumption-coagulopathy` |
+| F6-SC07 | Postmastectomy swollen erythematous **upper limb** → lymphatic obstruction | retain as changed wording with later printed clinical key; collapse to UC07 | `postmastectomy-lymphedema-lymphatic-obstruction` |
+
+Every excluded occurrence remains assigned below. `S-R06` is both an exact prompt repeat
+and the one repeat carrying a second printed key occurrence.
+
+| Repeat block | Assignment |
+|---|---|
+| F6-SR01..SR07 | seven exact repeats → SK01..SK07; only SR06 repeats its `Answer:` line |
+| F6-SG01..SG20 | 20 exact repeats of DOCX general prompts → UG01..UG20; no printed keys |
+| F6-SC01..SC06, SC08..SC09, SC11..SC20 | 18 exact repeats → UC01..UC06, UC08..UC09, UC11..UC20; no inline keys |
+
+Assignment is one-to-one: `48 retained + 45 exact repeats = 93` observed occurrences.
+The seven explicit collapse groups reduce 48 retained wordings by nine, yielding
+**39 source-distinct tested handles**.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 39 handles received four required searches (distinctive wording, alias,
+synonym, and mechanism/structure): **156 required searches** across live state, all pending
+import roots, and Families 1–5 of this ledger. Follow-ups inspected full pending records
+for oedema, post-MI shock, DVT, atrial septal defect/PFO, heart-failure cells, anaphylaxis,
+right/left heart failure, peripheral arterial disease, chronic venous insufficiency, septic
+shock and DIC. A disease-adjacent record, generic parent, multi-record inference, or record
+that omits a tested qualifier is not credited as same scope.
+
+| Handle · retained refs | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `hyperemia-versus-congestion-active-passive` · SK05,UG01 | `hyperemia congestion active passive`; `hyperaemia versus congestion`; `active arterial flow passive venous stasis`; `congestion tissue hypoxia` | new; acute-heart-failure congestion is not this comparison | collapse to F2 `hyperaemia-versus-congestion` |
+| `generalized-edema-causes-localized-venous-obstruction` · SK01,UG02 | `generalized edema causes venous obstruction`; `generalized versus localized oedema`; `cardiac failure generalized edema`; `venous obstruction localized edema` | pending `ART-CVS-OEDEMA`; it explicitly separates bilateral/generalised causes from unilateral local venous obstruction | collapse to F2 `generalized-oedema-patterns` |
+| `pulmonary-edema-complications` · UG03 | `pulmonary edema hypoxia gas exchange infection`; `pulmonary oedema complications`; `alveolar fluid impaired oxygenation`; `lung edema clinical effects` | new; acute-heart-failure records support hypoxia but not the full hypoxia/infection/gas-exchange set | delta |
+| `lymphatic-obstruction-nonpitting-edema` · SK04,UG04 | `lymphatic obstruction non-pitting edema`; `filariasis nonpitting oedema`; `lymphedema pitting pattern`; `protein rich lymphatic edema` | pending `ART-CVS-OEDEMA`; it states lymphatic obstruction including filariasis and non-pitting lymphoedema | collapse to F2 `pitting-oedema-patterns` |
+| `chronic-passive-liver-congestion-nutmeg-appearance` · SK06,UG05,UC14 | `chronic passive congestion nutmeg liver`; `nutmeg liver venous congestion`; `centrilobular hepatic congestion`; `congestive hepatopathy morphology` | new | delta |
+| `myocardial-infarction-cardiogenic-shock` · UG06 | `myocardial infarction cardiogenic shock`; `cardiogenic shock pump failure`; `acute MI shock cause`; `ventricular dysfunction hypotension` | pending `ART-CVS-POST-MI-COMPLICATIONS`; it directly links large myocardial loss/pump failure to cardiogenic shock | delta |
+| `hemoperitoneum-definition` · UG07 | `hemoperitoneum definition`; `haemoperitoneum blood peritoneal cavity`; `intraperitoneal hemorrhage term`; `blood in abdomen pathology` | new | collapse to F2 `haemoperitoneum-definition` |
+| `pulmonary-congestion-heart-failure-cells` · SK07,UG08,UC03 | `pulmonary congestion heart failure cells`; `hemosiderin laden alveolar macrophages`; `mitral stenosis siderophages`; `chronic lung congestion macrophages` | pending `ART-108-PAT-PATHOLOGICAL-PIGMENTS` and `CON-RES-D8B1BE3C6CFABD`; both directly tie chronic pulmonary congestion to haemosiderin-laden alveolar macrophages | delta |
+| `histamine-anaphylactic-shock-mediator` · UG09 | `histamine anaphylactic shock mediator`; `anaphylaxis primary mediator`; `mast cell histamine hypotension`; `IgE shock vasoactive amine` | pending `CON-FND-7D406E91EA3BF2` and the connective-tissue-cell article; allergen-bound IgE releases mast-cell histamine causing anaphylactic hypotension | delta |
+| `septic-shock-features-bradycardia-exception` · UG10 | `septic shock bradycardia exception`; `septic shock features hypotension warm extremities`; `early sepsis tachycardia vasodilation`; `multi organ dysfunction septic shock` | new; `ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK` has hypotension/multiorgan dysfunction but not the full feature set or bradycardia exception | delta |
+| `hypovolemic-shock-blood-loss` · UG11,UC08 | `hypovolemic shock blood plasma loss`; `hemorrhage volume depletion shock`; `trauma cold clammy hypotension`; `low circulating volume shock` | new | delta |
+| `petechiae-versus-ecchymosis-size` · UG12 | `petechiae ecchymosis size`; `petechial hemorrhage smaller ecchymosis`; `purpura size classification`; `skin hemorrhage diameter` | new | collapse to F2 `petechiae-size-classification` |
+| `neurogenic-shock-loss-vascular-tone` · UG13 | `neurogenic shock loss vascular tone`; `spinal cord injury shock vasodilation`; `severe pain neurogenic shock`; `sympathetic tone hypotension` | new | delta |
+| `thrombus-intravascular-remains-definition` · UG14 | `thrombus clot inside vessel remains`; `thrombus definition intravascular clot`; `antemortem adherent blood clot`; `thrombosis during life vessel` | new; platelet/haemostasis material does not carry the full definition | collapse to F2 `thrombosis-definition-risk` |
+| `hemostasis-versus-homeostasis-distinction` · UG15 | `hemostasis homeostasis distinction`; `haemostasis versus homeostasis`; `stop bleeding versus physiologic equilibrium`; `medical terminology hemostasis` | new | delta; no prior single handle tests the terminology distinction |
+| `pitting-versus-nonpitting-edema` · UG16 | `pitting versus non-pitting edema`; `pitting oedema clinical comparison`; `dependent indentation lymphatic edema`; `edema physical sign difference` | pending `ART-CVS-OEDEMA`; its examination section directly distinguishes mobile pitting fluid from non-pitting lymphoedema/myxoedema | collapse to F2 `pitting-oedema-patterns` |
+| `shock-progression-three-stages` · UG17 | `shock progression three stages`; `nonprogressive progressive irreversible shock`; `compensated decompensated shock`; `shock stage characteristics` | new | delta |
+| `nutmeg-liver-macro-microscopic-features` · UG18 | `nutmeg liver macroscopic microscopic features`; `centrilobular congestion necrosis liver`; `red brown mottled congestive liver`; `chronic passive hepatic congestion histology` | new | delta; broader morphology than the appearance-only handle |
+| `hemorrhage-location-classification` · UG19 | `hemorrhage classified by location`; `hemothorax hemopericardium hemoperitoneum hemarthrosis`; `bleeding body cavity types`; `localized hemorrhage terminology` | new | delta; the earlier single-term handle is not the four-term classification |
+| `embolism-causes-infarction-mechanism` · UG20 | `embolism causes infarction`; `embolus vascular occlusion ischemic necrosis`; `types embolism tissue infarct`; `embolism pathophysiology organ injury` | new; cardiovascular hits are organ-specific or omit the requested cause-to-infarction account | delta |
+| `heart-failure-edema-hydrostatic-pressure` · UC01 | `heart failure edema increased hydrostatic pressure`; `congestive heart failure pitting edema mechanism`; `venous pressure fluid transudation`; `cardiac edema Starling force` | pending `ART-CVS-OEDEMA`; it directly assigns heart-failure oedema to raised capillary hydrostatic pressure | delta; narrower than F2 generic oedema mechanisms |
+| `postoperative-dvt-diagnosis` · UC02 | `postoperative deep vein thrombosis diagnosis`; `knee replacement unilateral leg swelling`; `surgery venous stasis DVT`; `painful swollen leg thrombus` | pending `ART-CVS-DVT`; it names orthopaedic surgery, unilateral painful swelling and DVT investigation | delta; not the same as generic prior risk recognition |
+| `nephrotic-edema-reduced-oncotic-pressure` · UC04 | `nephrotic syndrome edema decreased oncotic pressure`; `proteinuria hypoalbuminemia periorbital edema`; `renal edema plasma protein loss`; `low colloid osmotic pressure nephrosis` | pending `ART-CVS-OEDEMA`; it directly assigns nephrotic oedema to reduced plasma oncotic pressure | delta; narrower than F2 generic oedema causes |
+| `dvt-pulmonary-embolism-clinical-pathway` · UC05 | `DVT pulmonary embolism calf swelling hemoptysis`; `venous thrombus embolizes lungs`; `pulmonary thromboembolism hypoxia chest pain`; `deep vein clot pulmonary circulation` | pending `ART-CVS-DVT`; it states DVT embolises to pulmonary circulation and lists breathlessness, pleuritic pain, haemoptysis and hypoxia | collapse to F3 `dvt-pulmonary-embolism-pathway` |
+| `thromboembolic-ischemic-stroke` · UC06 | `thromboembolism ischemic stroke atherosclerosis`; `carotid cardiac embolic stroke`; `arterial thromboembolus cerebral infarction`; `sudden focal deficit vascular occlusion` | new; available cardiovascular records mention stroke without this tested atherosclerotic thromboembolic mechanism | delta |
+| `postmastectomy-lymphedema-lymphatic-obstruction` · UC07,SC07 | `postmastectomy lymphedema lymphatic obstruction`; `radical mastectomy swollen arm`; `axillary lymph disruption edema`; `breast surgery nonpitting edema` | new; oedema and breast-drainage records would require a multi-record inference and neither states postmastectomy lymphoedema | delta |
+| `cirrhotic-ascites-hydrostatic-oncotic-pressure` · UC09 | `cirrhosis ascites hydrostatic oncotic pressure`; `portal hypertension hypoalbuminemia ascites`; `liver failure fluid accumulation mechanism`; `cirrhotic edema dual Starling forces` | new; `ART-CVS-OEDEMA` mentions low albumin in liver disease but does not state the tested dual portal-hydrostatic plus oncotic mechanism | delta |
+| `anaphylactic-shock-epinephrine-treatment` · UC10 | `anaphylactic shock epinephrine treatment`; `bee sting hypotension bronchospasm immediate management`; `intramuscular adrenaline anaphylaxis`; `IgE emergency vasopressor` | pending `PRA-REN-CASE-ANAPHYLAXIS`; it directly teaches adrenaline as first-line treatment of anaphylaxis with airway and circulatory compromise | delta |
+| `paradoxical-embolism-pfo` · UC11 | `paradoxical embolism patent foramen ovale`; `venous thrombus systemic circulation PFO`; `right to left shunt embolus`; `DVT bypass lungs embolization` | pending `ART-CVS-ASD`; it states a venous thrombus can bypass the pulmonary filter during transient right-to-left reversal and identifies PFO | delta |
+| `heart-failure-sided-congestion-reversal` · UC12 | `right left heart failure congestion reversal`; `right heart systemic venous congestion left pulmonary`; `sided heart failure circulation`; `heart failure congestion distribution` | pending right-/acute-heart-failure articles; they directly distinguish systemic venous congestion on the right from pulmonary congestion on the left | delta |
+| `anaphylactic-shock-ige-vasodilation-permeability` · UC13 | `anaphylactic shock IgE vasodilation permeability`; `type one hypersensitivity shock mechanism`; `mast cell systemic vascular leak`; `anaphylaxis distributive shock pathophysiology` | pending `ART-101-HIS-CONNECTIVE-TISSUE-CELLS`; it explicitly traces allergen-IgE mast-cell discharge to severe vasodilatation, permeability and hypotension | delta |
+| `early-septic-shock-warm-extremities` · UC15 | `early septic shock warm extremities`; `warm shock peripheral vasodilation`; `sepsis early hyperdynamic phase`; `septic shock warm then cold` | new; septic-shock records do not carry the early warm-extremity phase | delta |
+| `acute-limb-ischemia-embolism-management` · UC16 | `acute limb ischemia embolism heparin thrombectomy`; `pain pallor pulseless leg management`; `arterial occlusion immediate anticoagulation`; `acute extremity ischemia vascular imaging` | new; `ART-CVS-PERIPHERAL-ARTERIAL-DISEASE` recognises the emergency but omits the tested embolus/thrombus plus immediate heparin/revascularisation scope | delta |
+| `atrial-fibrillation-mesenteric-ischemia` · UC17 | `atrial fibrillation mesenteric ischemia`; `abdominal pain out of proportion embolism`; `superior mesenteric artery embolus CTA`; `acute bowel ischemia cardioembolic` | new | delta |
+| `chronic-venous-insufficiency-valve-failure` · UC18 | `chronic venous insufficiency valve failure`; `leg edema hyperpigmentation venous stasis`; `venous ulcer compression therapy`; `chronic lower limb venous hypertension` | pending `ART-CVS-VENOUS-INSUFFICIENCY` and `CON-CVS-C0C6010B529BF8`; both directly state failed valves, ambulatory venous hypertension, oedema and pigmentation | delta |
+| `long-haul-flight-dvt-pulmonary-embolism` · UC19 | `long haul flight DVT pulmonary embolism`; `immobility venous stasis air travel`; `flight shortness breath thromboembolism`; `travel associated pulmonary embolus` | pending `ART-CVS-DVT`; it names long-haul immobility as stasis and DVT embolisation to the pulmonary circulation | delta; the travel precipitant makes this narrower than F3's generic DVT-to-PE route |
+| `dic-hemorrhagic-shock-consumption-coagulopathy` · UC20 | `DIC hemorrhagic shock consumption coagulopathy`; `microthrombi clotting factor consumption bleeding`; `disseminated intravascular coagulation trauma`; `refractory shock coagulopathy organ failure` | pending `CON-HEM-33CFB175D5114C`; it explicitly states shock-triggered widespread clotting with platelet/factor consumption and bleeding | collapse to F3 `dic-systemic-coagulation-activation` |
+| `pitting-edema-congestive-heart-failure` · SK03 | `pitting edema congestive heart failure`; `cardiac edema indentation`; `dependent pitting oedema CHF`; `heart failure fluid sign` | pending `ART-CVS-OEDEMA`; one record identifies cardiac oedema and distinguishes pitting fluid on examination | delta; CHF association is not F2's inflammatory/lymphatic pattern |
+| `inflammatory-edema-increased-permeability` · SK02 | `inflammatory edema increased vascular permeability`; `inflammation capillary leak edema`; `protein rich exudate swelling`; `vascular permeability inflammatory fluid` | pending `ART-CVS-OEDEMA`; it directly assigns inflammatory oedema to increased capillary permeability | delta; narrower than F2 generic oedema causes |
+
+### Family-6 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 6 | Cumulative after Family 6 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 93 | 542 |
+| Printed key occurrences | 28 | 191 |
+| Retained question records after exact-wording dedupe | 48 | 347 |
+| Source-distinct tested concepts | 39 | — |
+| External live / pending / no same-scope match | 0 / 19 / 20 | family-local disposition |
+| Family-6 handles already represented in Families 1–5 | 9 | subtract from Family-6 concept addition |
+| Cross-family concept delta | 30 | `39 - 9 = 30` |
+| **Cumulative distinct tested concepts** | **+30** | **267** |
+
+External arithmetic is `0 + 19 + 20 = 39`. The nine prior-BMS-102 overlaps are
+hyperaemia/congestion, generalized-oedema patterns, lymphatic/non-pitting pattern,
+haemoperitoneum, petechiae size, thrombus definition, pitting/non-pitting comparison,
+DVT-to-PE, and DIC systemic activation. External and prior-family dispositions remain
+separate dimensions. Cumulative arithmetic is `449 + 93 = 542` observed prompts,
+`163 + 28 = 191` printed key occurrences, `299 + 48 = 347` retained question records,
+and `237 + (39 - 9) = 267` distinct tested concepts.
+
+### Exact remaining debt after Family 6
+
+- The Circulatory 1 pair is fully bounded: all 13 rendered/native pages, 93 observed
+  prompt occurrences, 45 exact repeats, 48 retained wordings, 28 printed key occurrences
+  and 39 tested handles have an assignment and a search row.
+- The next evidence-ranked local pathology question family is the tier-3 seven-page
+  `src_f4017e73dcc32d5e9934` · `MCQs - INFECTION MCQs.pdf`; it must be rendered and
+  adjudicated source-first before lower-ranked pathology material.
+- Other remaining pathology revision/assessment banks and all BMS-102 microbiology
+  assessment evidence remain S1 debt.
+- Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
+  readiness, claim, download, commit, or push action is authorised in this lane.
