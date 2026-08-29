@@ -1620,3 +1620,149 @@ occurrences, `381 + 62 = 443` retained records, and `290 + (43 - 11) = 322` conc
 - Other pathology revision/assessment banks and all BMS-102 microbiology assessment
   evidence remain S1 debt. Tutorial 103/LCS material remains excluded. No S2 content,
   IDs, imports, catalogue, readiness, claim, download, commit, or push action is authorised.
+
+## Family 9 — pathology cell-accumulation MCQ and written bank
+
+### Source identity, classification, and read boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_9a70f046e6b0b21ba4ee` |
+| Manifest SHA-256 | `9a70f046e6b0b21ba4ee0a0e0cf7fd5bbec02579156088d72c0dc24312dbfd78` |
+| Recomputed SHA-256 | `9a70f046e6b0b21ba4ee0a0e0cf7fd5bbec02579156088d72c0dc24312dbfd78` |
+| File | `MCQs - L4 MCQ.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · Questions/MCQs · tier 3 |
+| Container and family boundary | Seven A4 pages: one cover plus six printed content pages; all seven pages are this bounded family |
+| Read method | native text extracted for transcription; all seven pages rendered at 150 dpi and visually checked because the manifest marks the text layer `ocr-needed` |
+
+This is mixed-format pathology assessment evidence on cell accumulation and extracellular
+deposition: 25 MCQs followed by two definitions, six enumerations, and one discussion
+prompt. The source labels the topic `Cell Accumulation`; it is not microbiology evidence.
+
+### Prompt, printed-key, repeat, and collapse ledger
+
+The rendered source has 34 prompt occurrences: 25 numbered MCQs and nine written prompts.
+All 25 MCQs carry a visibly printed single-letter key; none of the written prompts has a
+printed answer. The printed sequence is `1 A; 2 C; 3 B; 4 B; 5 D; 6 B; 7 B; 8 D;
+9 A; 10 C; 11 C; 12 C; 13 C; 14 C; 15 B; 16 C; 17 D; 18 D; 19 A; 20 B;
+21 D; 22 C; 23 E; 24 D; 25 C`.
+
+Q18 is visibly keyed `D`, which corresponds to `Leukoderma`, although its stem asks for
+the disorder with disturbed purine/nucleoprotein metabolism and increased serum uric acid.
+That questionable key is preserved exactly as printed and is not repaired or used to infer
+the answer.
+
+| Ref | Source-first prompt assignment | Printed key | Repeat / tested-handle assignment |
+|---|---|---|---|
+| F9-Q01 | Exception among examples of dystrophic calcification | A | retain → `dystrophic-calcification-characteristics-examples` |
+| F9-Q02 | Russell bodies in rhinoscleroma plasma cells as hyaline change | C | retain → `russell-bodies-intracellular-hyaline` |
+| F9-Q03 | Homogeneous retractile glassy material as hyaline change | B | retain → `hyaline-change-definition` |
+| F9-Q04 | Arteriolar-wall hyaline change due to benign hypertension | B | retain → `arteriolar-hyaline-benign-hypertension` |
+| F9-Q05 | Congo red plus polarised light gives amyloid apple-green birefringence | D | retain → `amyloid-congo-red-apple-green` |
+| F9-Q06 | False statement about amyloid: intracellular rather than extracellular fibrillary protein | B | retain → `amyloidosis-extracellular-fibrillary-definition` |
+| F9-Q07 | Exception among dystrophic-calcification characteristics: elevated calcium | B | retain; collapse to Q01 |
+| F9-Q08 | Exception among metastatic-calcification characteristics: infarct involvement | D | retain → `metastatic-calcification-viable-tissue-hypercalcaemia` |
+| F9-Q09 | Altered examples for the dystrophic-calcification exception | A | retain; collapse to Q01 |
+| F9-Q10 | Altered examples for the dystrophic-calcification exception | C | retain; collapse to Q01 |
+| F9-Q11 | Fourth event in renal-failure/hyperparathyroidism/calcium-deposition sequence | C | retain → `renal-failure-hyperparathyroidism-calcification-sequence` |
+| F9-Q12 | Metastatic calcification associated with hyperparathyroidism | C | retain → `hyperparathyroidism-metastatic-calcification` |
+| F9-Q13 | Altered examples for the dystrophic-calcification exception | C | retain; collapse to Q01 |
+| F9-Q14 | Primary haemochromatosis caused by chromosome-6 inborn iron-absorption error | C | retain → `primary-hemochromatosis-chromosome-six` |
+| F9-Q15 | Exception among primary-haemochromatosis features: repeated haemolysis | B | retain → `primary-hemochromatosis-clinical-features` |
+| F9-Q16 | Amyloidosis as abnormal extracellular proteinaceous deposition in tissues and vessels | C | retain; collapse to Q06 |
+| F9-Q17 | Exception among gross characteristics of an amyloid-laden organ | D | retain → `amyloid-organ-gross-morphology` |
+| F9-Q18 | Purine/nucleoprotein disturbance with increased serum uric acid | D | retain → `purine-hyperuricemia-disease-identification`; questionable key preserved |
+| F9-Q19 | Meningioma psammoma bodies as dystrophic calcification | A | retain; collapse to Q01 |
+| F9-Q20 | Exception among causes of hypercalcaemia: hypovitaminosis D | B | retain → `hypercalcemia-causes-hypovitaminosis-d-exception` |
+| F9-Q21 | Exception among metastatic-calcification sites: fibrosed cardiac valves | D | retain → `metastatic-calcification-deposition-sites` |
+| F9-Q22 | Exception among causes of melanin hyperpigmentation: vitiligo | C | retain → `melanin-hyperpigmentation-causes` |
+| F9-Q23 | Organ least likely to receive deposits in primary haemosiderosis: brain | E | retain → `primary-hemosiderosis-brain-sparing` |
+| F9-Q24 | Widespread calcification with bony metastases as metastatic/high-calcium deposition | D | retain; collapse to Q08 |
+| F9-Q25 | Plasma-cell myeloma as a common systemic-amyloidosis example | C | retain → `systemic-amyloidosis-myeloma-example` |
+| F9-WD01 | Define hyalinosis | — | retain; collapse to Q03 |
+| F9-WD02 | Define pathological calcification | — | retain → `pathological-calcification-definition` |
+| F9-WE01 | Enumerate examples of intracellular hyalinosis | — | retain → `intracellular-hyalinosis-examples` |
+| F9-WE02 | Enumerate examples of extracellular hyalinosis | — | retain → `extracellular-hyalinosis-examples` |
+| F9-WE03 | Enumerate systemic amyloidosis examples and the cause of each | — | retain; collapse to Q25 |
+| F9-WE04 | Enumerate causes of increased melanin pigment | — | retain; collapse to Q22 |
+| F9-WE05 | Enumerate causes of localised haemosiderosis | — | retain → `localized-hemosiderosis-causes` |
+| F9-WE06 | Enumerate causes of haemochromatosis/generalised haemosiderosis | — | retain → `generalized-hemosiderosis-causes` |
+| F9-WC01 | Discuss staining and microscopic examination of amyloidosis | — | retain → `amyloidosis-staining-microscopy` |
+
+There is no exact or punctuation-only wording repeat, so all 34 observed prompts remain
+retained records. Six scope-tight multi-prompt groups contribute ten concept reductions:
+the six-record dystrophic-calcification group (five reductions), and five two-record groups
+for the hyaline definition, amyloidosis definition, metastatic-calcification setting,
+melanin causes, and systemic-amyloidosis/myeloma classification. Thus `34 - 0 = 34`
+retained records and `34 - 10 = 24` source-distinct tested handles. Every observed prompt
+is assigned exactly once.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 24 handles received four required searches: **96 required searches** across
+live state, all pending import roots, and Families 1–8 of this ledger. Follow-ups inspected
+the full records for hyaline change, haemosiderin, primary haemochromatosis, dystrophic and
+metastatic calcification, systemic amyloidosis, Congo-red staining, psammoma bodies, gout,
+urate metabolism, and hyperparathyroidism. A generic parent, absence from an organ list,
+or a proposition requiring two records to infer was not credited.
+
+| Handle · retained refs | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `dystrophic-calcification-characteristics-examples` · Q01,Q07,Q09,Q10,Q13,Q19 | `dystrophic calcification examples`; `normal serum calcium damaged tissue`; `primary hyperparathyroidism dystrophic exception`; `psammoma bodies meningioma calcification` | pending `CON-FND-33466CEBFC4EBA`; it directly gives damaged tissue, normal serum calcium, and representative examples. Live `CON-NEU-344CEA02284052` additionally supplies the meningioma-psammoma instance | collapse to F2 `dystrophic-metastatic-calcification` |
+| `russell-bodies-intracellular-hyaline` · Q02 | `Russell bodies hyaline change`; `plasma cell immunoglobulin inclusion`; `intracellular hyalinosis example`; `rhinoscleroma Russell bodies` | pending `CON-FND-5CB8B822A9A6AF`; it directly names Russell bodies as intracellular hyaline in plasma cells | delta |
+| `hyaline-change-definition` · Q03,WD01 | `hyaline change definition`; `homogeneous glassy pink material`; `hyalinosis definition`; `intracellular extracellular hyaline` | pending `CON-FND-5CB8B822A9A6AF`; exact general definition | delta |
+| `arteriolar-hyaline-benign-hypertension` · Q04 | `arteriolar hyaline benign hypertension`; `hyaline arteriolosclerosis`; `plasma protein basement membrane arterioles`; `hypertension arteriolar hyalinosis` | pending `CON-FND-5CB8B822A9A6AF`; it directly assigns arteriolar-wall hyaline to long-standing hypertension and diabetes | delta |
+| `amyloid-congo-red-apple-green` · Q05 | `Congo red amyloid apple green`; `amyloid polarised light`; `amyloid birefringence stain`; `Congo red diagnostic amyloidosis` | pending `CON-FND-4867DD3814D088`; exact stain, optical method, and colour | collapse to F2 `amyloid-staining` |
+| `amyloidosis-extracellular-fibrillary-definition` · Q06,Q16 | `amyloidosis extracellular fibrillary protein`; `amyloid definition vessel walls`; `abnormal proteinaceous deposit tissues organs`; `amyloid intracellular exception` | pending `CON-FND-D955408D228002`; exact extracellular fibrillary-protein definition and vessel-wall location | collapse to F2 `amyloidosis-definition` |
+| `metastatic-calcification-viable-tissue-hypercalcaemia` · Q08,Q24 | `metastatic calcification viable tissue hypercalcaemia`; `multiple organ calcification high calcium`; `dystrophic versus metastatic calcification`; `bony metastases metastatic calcification` | pending `CON-FND-87392C49DB246C`; it directly covers viable tissue, hypercalcaemia, and diffuse skeletal-metastasis bone destruction | collapse to F2 `dystrophic-metastatic-calcification` |
+| `renal-failure-hyperparathyroidism-calcification-sequence` · Q11 | `renal failure hyperparathyroidism calcification sequence`; `renal failure calcium deposition fourth event`; `secondary hyperparathyroidism hypercalcemia kidney calcification`; `renal failure bone calcium mobilisation order` | new; pending `CON-FND-87392C49DB246C` names chronic renal failure/secondary hyperparathyroidism but does not establish the tested event order | delta |
+| `hyperparathyroidism-metastatic-calcification` · Q12 | `hyperparathyroidism metastatic calcification`; `PTH hypercalcaemia calcium deposition`; `metastatic calcification endocrine cause`; `parathyroid tumour calcification viable tissue` | pending `CON-FND-87392C49DB246C`; it directly names elevated PTH as a cause of metastatic calcification | delta; narrower than F2 comparison handle |
+| `primary-hemochromatosis-chromosome-six` · Q14 | `primary hemochromatosis chromosome 6`; `bronzed diabetes inborn iron absorption`; `hereditary haemochromatosis gene defect`; `primary iron overload congenital` | pending `CON-FND-B9A3C8B28B1443`; exact congenital chromosome-6 iron-absorption defect | delta |
+| `primary-hemochromatosis-clinical-features` · Q15 | `primary hemochromatosis clinical features`; `bronze skin cirrhosis diabetes`; `hemolysis exception hemochromatosis`; `iron overload organ manifestations` | pending `CON-FND-B9A3C8B28B1443`; it directly covers iron overload, cirrhosis, diabetes, and bronze skin; haemolysis belongs to secondary overload | delta |
+| `amyloid-organ-gross-morphology` · Q17 | `amyloid organ gross morphology`; `amyloidosis enlarged pale waxy organ`; `stretched capsule amyloid deposition`; `amyloid cut surface bulging exception` | new; pending systemic and organ-specific amyloid records do not state this complete generic gross exception set | delta |
+| `purine-hyperuricemia-disease-identification` · Q18 | `purine metabolism hyperuricemia disease`; `increased serum uric acid gout`; `nucleoprotein metabolism urate`; `gout biochemical definition` | new; live gout records and pending purine records separately cover urate production and gout, but no same-scope record states this identification proposition; the questionable printed key cannot supply it | delta; F2 `gout-pathology` asks morphology, not this biochemical identification |
+| `hypercalcemia-causes-hypovitaminosis-d-exception` · Q20 | `hypercalcemia causes hypovitaminosis D exception`; `causes of hypercalcaemia`; `vitamin D deficiency serum calcium`; `milk alkali immobilisation sarcoidosis hypercalcemia` | pending `CON-FND-87392C49DB246C`; its cause list directly includes immobilisation, hypervitaminosis D, PTH/bone destruction, and milk-alkali syndrome, distinguishing the tested hypovitaminosis-D exception | delta |
+| `metastatic-calcification-deposition-sites` · Q21 | `metastatic calcification deposition sites`; `gastric fundus lung kidney arteries calcium`; `fibrosed cardiac valves calcification exception`; `metastatic calcium renal tubules alveolar walls` | pending `CON-FND-87392C49DB246C`; exact viable-tissue site list, whereas fibrosed valves are dystrophic | delta |
+| `melanin-hyperpigmentation-causes` · Q22,WE04 | `melanin hyperpigmentation causes`; `Addison chloasma sun melanoma pigmentation`; `vitiligo hyperpigmentation exception`; `causes increased melanin pigment` | pending `CON-FND-AA9A76DBB4EE6B`; it directly enumerates the tested causes and excludes vitiligo | delta |
+| `primary-hemosiderosis-brain-sparing` · Q23 | `primary hemosiderosis brain sparing`; `iron overload organ least likely brain`; `hemochromatosis deposition liver pancreas heart skin`; `generalized hemosiderosis organ distribution` | new; pending iron-overload records enumerate affected organs but absence of brain from those lists is not evidence for the tested least-likely comparison | delta |
+| `systemic-amyloidosis-myeloma-example` · Q25,WE03 | `systemic amyloidosis myeloma`; `plasma cell myeloma AL amyloid`; `systemic amyloidosis examples causes`; `primary myeloma associated amyloidosis` | pending `CON-FND-E3F496F6DDD7C3`; exact systemic classification, examples, and myeloma-associated cause | delta; broader than F2's amyloidosis definition |
+| `pathological-calcification-definition` · WD02 | `pathological calcification definition`; `abnormal calcium deposition tissues`; `dystrophic metastatic calcification classification`; `calcium salts outside bone teeth` | pending `CON-FND-33466CEBFC4EBA`; its opening directly defines pathological calcification and its two classes | delta; F2 tested the dystrophic/metastatic contrast, not the umbrella definition |
+| `intracellular-hyalinosis-examples` · WE01 | `intracellular hyalinosis examples`; `Russell bodies Mallory hyaline`; `intracellular hyaline change list`; `plasma cell hepatocyte hyaline inclusions` | pending `CON-FND-5CB8B822A9A6AF`; exact intracellular examples | delta |
+| `extracellular-hyalinosis-examples` · WE02 | `extracellular hyalinosis examples`; `old scar leiomyoma arteriolar hyaline`; `extracellular hyaline change list`; `hyalinised collagen vessel wall` | pending `CON-FND-5CB8B822A9A6AF`; exact extracellular examples | delta |
+| `localized-hemosiderosis-causes` · WE05 | `localized hemosiderosis causes`; `hemosiderin after local hemorrhage`; `heart failure cells local iron pigment`; `extravasated red cells hemosiderin macrophages` | pending `CON-FND-5DBC795B58DC74`; it directly explains localised haemosiderosis after tissue haemorrhage | delta |
+| `generalized-hemosiderosis-causes` · WE06 | `generalized hemosiderosis causes`; `systemic iron overload transfusion hemolysis absorption`; `hemochromatosis causes iron overload`; `generalised haemosiderin deposition` | pending `CON-FND-5DBC795B58DC74`; exact increased absorption, haemolysis, and repeated-transfusion causes; `CON-FND-B9A3C8B28B1443` separately covers the primary hereditary form | delta |
+| `amyloidosis-staining-microscopy` · WC01 | `amyloidosis staining microscopic examination`; `amyloid H E Congo red methyl violet`; `amyloid microscopy pink extracellular`; `amyloid stain and M E` | pending `CON-FND-4867DD3814D088`; its definition directly supplies H&E, Congo red/polarised light, and metachromatic-stain appearances | delta; broader than F2's single staining proposition |
+
+### Family-9 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 9 | Cumulative after Family 9 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 34 | 678 |
+| Printed key occurrences | 25 | 318 |
+| Retained question records after wording dedupe | 34 | 477 |
+| Source-distinct tested concepts | 24 | — |
+| External live / pending / no same-scope match | 0 / 20 / 4 | family-local disposition |
+| Family-9 handles already represented in Families 1–8 | 4 | subtract from Family-9 concept addition |
+| Cross-family concept delta | 20 | `24 - 4 = 20` |
+| **Cumulative distinct tested concepts** | **+20** | **342** |
+
+External arithmetic is `0 + 20 + 4 = 24`. The four prior-BMS-102 relations are the
+dystrophic-calcification comparison/examples, amyloid staining, amyloidosis definition,
+and metastatic-calcification comparison. The shared Family-2 comparison handle accounts
+for two distinct Family-9 source handles—dystrophic and metastatic—so both are subtracted
+from Family-9's addition. External and prior-family dimensions remain separate. Cumulative
+arithmetic is `644 + 34 = 678` observed prompts, `293 + 25 = 318` printed key occurrences,
+`443 + 34 = 477` retained records, and `322 + (24 - 4) = 342` concepts.
+
+### Exact remaining debt after Family 9
+
+- `src_9a70f046e6b0b21ba4ee` is fully bounded: all seven native/rendered pages, 34 prompt
+  occurrences, 25 printed keys, zero wording repeats, 34 retained records, and 24 tested
+  handles have an assignment and four-query search row. Q18's questionable printed `D`
+  remains preserved rather than repaired.
+- The next ranked nonduplicate local pathology question family is tier-3
+  `src_a2b7d25d987469febab8` · `MCQs - MCQ Pathology.pdf` (six pages, native text). It
+  requires source-first rendering and adjudication before the lower-ranked banks.
+- Other pathology revision/assessment banks and all BMS-102 microbiology assessment
+  evidence remain S1 debt. Tutorial 103/LCS material remains excluded. No S2 content,
+  IDs, imports, catalogue, readiness, claim, download, commit, or push action is authorised.

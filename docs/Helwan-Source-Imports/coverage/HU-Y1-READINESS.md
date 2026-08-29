@@ -114,11 +114,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   relations—pyaemia, primary-TB site and tubercle morphology—produce a +23 concept delta.
 - Inflammation MCQs `src_6050cec97addd49101a3` add 68 visibly keyed MCQs. Six exact repeats
   leave 62 retained records and 43 handles (2 live / 5 pending / 36 new); 11 scope-tight
-  prior-family relations produce a +32 concept delta. BMS-102 pathology now totals 644 observed
-  prompts, 293 printed key occurrences, 443 retained records and 322 distinct concepts. Q17,
-  Q49, Q56, Q60 and Q68 retain their questionable printed keys as source evidence. The
-  intervening `src_932f5302a132003041e5` is a manifest duplicate, so next is nonduplicate
-  `src_9a70f046e6b0b21ba4ee` (L4 MCQs); other pathology/microbiology sources remain S1 debt.
+  prior-family relations produce a +32 concept delta.
+- Cell Accumulation MCQs `src_9a70f046e6b0b21ba4ee` add 25 visibly keyed MCQs and nine
+  unkeyed written prompts. With zero exact repeats, all 34 records remain; six collapse groups
+  yield 24 handles (0 live / 20 pending / 4 new), four of which reuse prior-family scope for a
+  +20 delta. BMS-102 pathology now totals 678 observed prompts, 318 printed key occurrences,
+  477 retained records and 342 distinct concepts. Q18's questionable printed `D`/Leukoderma
+  remains source evidence without repair. Next is `src_a2b7d25d987469febab8` pathology MCQs;
+  other pathology/microbiology sources remain S1 debt.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
