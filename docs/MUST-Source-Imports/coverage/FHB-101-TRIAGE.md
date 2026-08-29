@@ -2132,3 +2132,65 @@ At source-concept search level the results are **live 12 / pending 14 / new 33**
 **Remaining file list:** removing these three complete substantive-text inventory paths and their one shared hash leaves **78 selected inventory paths / 76 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `7635e708b47a7f4fb54d6d7b66cdcc934cf8d50e1d31376eb7a5929cc5c32beb`.  By the pinned triage text classification, the remaining debt is **35 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `30 + 76 = 106` selected unique hashes.  The next evidence-ranked substantive candidate to gate is the fourteen-page Physiology `MCQs - Final Physiology MCQ Revision FHB101.pdf` (`8c9858100455f46cdc85ee85b0719630703a458e164e71bdb80e8f7a1d01f89a`).
 
 **BLOCKED — S1 cannot be approved:** this exact-duplicate assessment family is fully processed, but the remaining 78 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Final Physiology MCQ Revision FHB101
+
+The asserted starting remaining-hash checksum `7635e708b47a7f4fb54d6d7b66cdcc934cf8d50e1d31376eb7a5929cc5c32beb` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 76 hashes before this pass.  The next evidence-ranked substantive candidate is the single local `05 MCQs` paper below.  Its numbered MCQs, immediately aligned `Answer:` statements, and page-12 `Practical / Final Questions` assessment section establish one self-contained assessment source.  All fourteen pages were rendered and read; page 14 is author/reviewer credits only.  Every printed answer is transcribed as shown, without correction: in particular Q11 visibly prints `c) Coagulation` despite the stem's vitamin wording.
+
+| Department | Category | Source path | SHA-256 | Pages read | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `05 MCQs` | `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Final Physiology MCQ Revision FHB101.pdf` | `8c9858100455f46cdc85ee85b0719630703a458e164e71bdb80e8f7a1d01f89a` | 14 | 47 | 47 |
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+Each named handle was searched with the manual live-and-pending finder using four narrow terms recorded below; the first two phrases are the primary pair and the second two are the disambiguating pair.  A live result takes precedence over a pending result.  `Prior FHB` means only a cross-source triage collapse, not a content ID, placement, or source record.
+
+| Printed prompt refs | Directly aligned printed answer evidence (transcribed only) | Source-distinct tested concept (four search terms) | Search and prior-FHB disposition |
+|---|---|---|---|
+| 1–4, 16 | `b) MCH`; `c) Anemia`; `b) Iron deficiency`; `c) Macrocytic anemia`; `b) Microcytic hypochromic` | Anaemia indices and morphological patterns (`microcytic hypochromic anemia`; `red cell indices MCH`; `macrocytic anemia`; `normocytic anemia`) | live-hit; exact prior-FHB anaemia-indices assignment — duplicate. |
+| 5 | `c) Pernicious anemia` | Pernicious anaemia and intrinsic-factor deficiency (`pernicious anemia`; `intrinsic factor B12`; `vitamin B12 absorption`; `megaloblastic anemia`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 6–7 | `c) Hypoxia due to lung or heart disease`; `c) Anemia` | Secondary polycythaemia and anaemia-related viscosity (`secondary polycythemia`; `hypoxia polycythemia`; `anemia viscosity`; `blood viscosity`) | live-hit; prior FHB already assigns both red-cell-mass and anaemia-viscosity scopes — duplicate. |
+| 8 | `b) Factor XIII` | Factor-XIII fibrin stabilisation (`factor XIII fibrin`; `fibrin stabilization`; `fibrin stabilizing factor`; `factor XIII`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 9 | `c) Factor XII` | Intrinsic contact activation by factor XII (`factor XII collagen`; `intrinsic contact pathway`; `factor XII activation`; `contact activation`) | new externally; exact prior-FHB assignment — duplicate. |
+| 10 | `c) Anti-thrombin III` | Heparin enhancement of antithrombin III (`antithrombin III heparin`; `heparin anticoagulant`; `antithrombin`; `heparin mechanism`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 11, 14, 22; Practical 4 | printed `c) Coagulation`; `c) Vitamin K deficiency`; `b) II, VII, IX, X`; `a) PT` | Vitamin-K-dependent haemostasis, neonatal flora, and PT (`vitamin K clotting factors`; `vitamin K newborn`; `prothrombin time`; `factors II VII IX X`) | pending-hit; exact prior-FHB vitamin-K/test-pattern assignment — duplicate. |
+| 12 | `c) Coagulation` | Platelet factor 3 as coagulation surface (`platelet factor 3`; `platelet phospholipid surface`; `PF3 coagulation`; `platelet membrane PF3`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 13 | `c) It occurs when platelets drop below 50,000/mm` | Thrombocytopenic purpura and low platelet count (`thrombocytopenic purpura`; `platelet count thrombocytopenia`; `purpura bleeding`; `platelet below 50000`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 15 | `d) Factor XI` | Serum factor consumption and contact factors (`serum clotting factors`; `factor XI serum`; `factor consumption coagulation`; `contact group factors`) | new externally; prior FHB already assigns factor/serum consumption properties — duplicate. |
+| 17 | `c) GP VI` | GP-VI collagen receptor in platelet adhesion (`GP VI platelet`; `platelet collagen receptor`; `glycoprotein VI`; `collagen platelet adhesion`) | new; prior FHB has von-Willebrand adhesion, but not this directly printed GP-VI receptor handle — cumulative new addition. |
+| 18 | `b) P2Y1 and P2Y12` | ADP platelet receptors (`P2Y1 P2Y12`; `ADP platelet receptor`; `platelet ADP receptors`; `P2Y12 platelet`) | new; prior FHB assigns ADP aggregation but not the directly printed receptor pair — cumulative new addition. |
+| 19 | `b) Dense granules` | Dense-granule ADP, serotonin, and calcium contents (`platelet dense granules`; `serotonin ADP calcium`; `dense granule platelets`; `platelet granules`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 20, 25, 34 | `b) Phosphorylation of myosin`; `c) Pseudopodia and granule release`; `d) Formation of temporary hemostatic plug at injury site` | Platelet activation, shape change, and primary plug (`platelet shape change`; `platelet pseudopodia`; `platelet activation`; `primary hemostatic plug`) | new externally; exact prior-FHB platelet-activation assignment — duplicate. |
+| 21, 29 | `c) Prostacyclin`; printed `Prostacyclin` | Endothelial prostacyclin inhibition of platelet aggregation (`prostacyclin platelet aggregation`; `endothelium prostacyclin`; `platelet aggregation inhibition`; `prostacyclin`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 23 | `c) Factor VIII` | Haemophilia A / factor-VIII deficiency (`hemophilia A factor VIII`; `factor VIII deficiency`; `hemophilia A`; `antihemophilic factor A`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 24 | `b) Starts with factor X` | Common coagulation pathway from factor X (`common coagulation pathway`; `factor X prothrombin`; `common pathway factor X`; `coagulation factor X`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 26 | `c) Thrombin` | Thrombin conversion of fibrinogen to fibrin (`thrombin fibrinogen fibrin`; `fibrinogen to fibrin`; `thrombin`; `fibrin formation`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 27, 31 | `c) Fibrinolysis`; `c) Activates plasminogen` | tPA, plasminogen, plasmin, and fibrinolysis (`tissue plasminogen activator`; `plasminogen plasmin`; `plasmin fibrinolysis`; `tPA`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 28 | `c) Tissue factor` | Extrinsic pathway and tissue factor (`extrinsic pathway tissue factor`; `tissue thromboplastin`; `factor VII extrinsic`; `extrinsic coagulation`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 30 | `c) IX, X, XI and XII` | Antithrombin target factors (`antithrombin inhibits factors`; `antithrombin IX X XI XII`; `antithrombin targets`; `natural anticoagulant antithrombin`) | new; the printed target-factor scope is not assigned by the prior heparin-enhancement handle — cumulative new addition. |
+| 32, 40 | `b) Factor IX`; `b) Factor IX` | Haemophilia B / factor-IX deficiency (`hemophilia B factor IX`; `factor IX deficiency`; `antihemophilia B`; `Christmas disease`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 33, 39 | `c) Platelet-derived growth factor (PDGF)`; `a) PDGF` | Alpha-granule PDGF (`platelet alpha granules`; `platelet derived growth factor`; `PDGF platelets`; `alpha granules`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 35 | `c) DIC` | Disseminated intravascular coagulation (`disseminated intravascular coagulation`; `DIC bleeding clotting`; `DIC`; `excessive bleeding clotting`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 36 | `c) Vasoconstriction` | Injury-induced vascular vasoconstriction (`hemostasis vasoconstriction`; `vascular injury vasoconstriction`; `initial response vascular injury`; `hemostasis`) | new externally; exact prior-FHB assignment — duplicate. |
+| 37 | `d) oxalate salts` | Physiological versus laboratory anticoagulants (`natural anticoagulants`; `oxalate salts anticoagulant`; `physiological anticoagulation`; `anticoagulant classification`) | new; the printed exclusion of oxalate salts is a distinct comparison from prior FHB physiological-anticoagulation mechanisms — cumulative new addition. |
+| 38, 42 | `c) Help platelet adhesion to subendothelium`; `b) GP Ib and von Willebrand factor` | Von-Willebrand / GP-Ib platelet adhesion (`von Willebrand platelet adhesion`; `GP Ib von Willebrand`; `platelet adhesion collagen`; `von Willebrand factor`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 41 | `c) Factor XIII` | Factor-XIII formation in liver and platelets (`factor XIII liver platelets`; `factor XIII synthesis`; `factor XIII platelets`; `factor XIII source`) | new; source/production is distinct from the earlier fibrin-stabilisation handle — cumulative new addition. |
+| Practical 1–5 | `d) PT`; `c) aPTT`; `c) Bleeding time`; `a) PT`; `b) Hemophilia A` | Haemostasis laboratory test patterns (`prothrombin time extrinsic pathway`; `aPTT hemophilia`; `bleeding time platelet function`; `vitamin K PT`) | pending-hit; exact prior-FHB haemostasis-test-pattern assignment — duplicate. |
+
+Page-level arithmetic is pages 1–11 `3 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 3 = 42`, pages 12–13 `3 + 2 = 5`, and page 14 `0`; therefore `42 + 5 = 47` numbered printed prompts.  Every prompt has an immediately printed `Answer:` or answer line, giving **47** keys / answers.  The 29 named assignment/search rows reconcile one-to-one.  The explicit source collapses are 1–4/16, 6–7, 11/14/22/Practical 4, 20/25/34, 21/29, 27/31, 32/40, 33/39, and 38/42.
+
+At source-concept search level the results are **live 11 / pending 9 / new 9**.  After prior-FHB deduplication, the surviving additions are the GP-VI collagen receptor; P2Y1/P2Y12 ADP receptors; antithrombin target factors; physiological-versus-oxalate anticoagulant classification; and factor-XIII formation in liver/platelets.  The cumulative delta is **live 0 / pending 0 / new 5**, or **+5** concepts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including Final Physiology MCQ Revision) | 1208 | 943 | 313 | 64 | 71 | 178 | TBD |
+
+**Completed-source delta:** `+47` questions, `+47` printed keys / answers, `+29` source-distinct tested concepts / `+5` after source-level collapse and prior-FHB deduplication.  The cumulative search buckets reconcile exactly: `64 + 71 + 178 = 313`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Final Physiology MCQ Revision
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **77 selected inventory paths / 75 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `dac4204ccc435cfbbf578b4b4ac903a3148f37040478150b01f73f3c7de30ea3`.  By the pinned triage text classification, the remaining debt is **34 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `31 + 75 = 106` selected unique hashes.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 77 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
