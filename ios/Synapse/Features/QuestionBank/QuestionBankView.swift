@@ -27,7 +27,10 @@ struct QuestionBankView: View {
                     EmptyStateView(symbol: "questionmark.circle", title: "No questions yet", detail: reason)
                 } else {
                     switch model.phase {
-                    case .building: SessionBuilder(model: model, store: qbank)
+                    case .building: SessionBuilder(model: model, store: qbank, onRefresh: {
+                        await sync.refresh()
+                        await model.load()
+                    })
                     case .running: Runner(model: model, store: qbank)
                     case .finished: Results(model: model)
                     }
@@ -68,6 +71,9 @@ private struct SessionBuilder: View {
     @Environment(\.strings) private var strings
     @Bindable var model: QuestionBankModel
     var store: QBankStore
+    /// Pull-to-refresh: sync the catalogue then reload. Passed in because the
+    /// SyncEngine lives on the parent, not this builder.
+    var onRefresh: () async -> Void
 
     @State private var choosing = false
     @State private var tab = Tab.new
@@ -251,6 +257,12 @@ private struct SessionBuilder: View {
         .listStyle(.insetGrouped)
         .scrollContentBackground(.hidden)
         .background(Theme.paper)
+        // The reading surfaces all pull to refresh; the question bank should too,
+        // so a student who just had a new sitting published can reach for it
+        // without relaunching. (offline-questions audit, gap: no pull-to-refresh.)
+        .refreshable {
+            await onRefresh()
+        }
     }
 
     private var matching: Int { model.inScope.count }
