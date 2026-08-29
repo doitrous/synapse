@@ -132,5 +132,11 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   prompts and no keys. N9 and N10 collapse into the existing obturator-nerve origin/course/
   branches handle, leaving three pending-only auxiliary handles. The auxiliary-note total is
   now 18 numbered statements and assessment totals remain unchanged.
-- Continue the remaining two anatomy quiz-content images, then pathology assessment images
-  and Tutorial 103; this remains S1 evidence only.
+- The fourth anatomy image `src_5bb02d6293fb60233949` is handwritten gluteal-region notes:
+  seven numbered statements, no assessment prompts and no keys. Its asterisk is emphasis
+  rather than a response mark, and N6's crossed-out word remains unreconstructed. N2 and N4
+  collapse to the existing piriformis handle, leaving six auxiliary handles (0 live, 2
+  pending, 4 new); the GSF/LSF shorthand is preserved as source evidence. The auxiliary-note
+  total is now 25 numbered statements and assessment totals remain unchanged.
+- Continue the final anatomy quiz-content image, then pathology assessment images and Tutorial
+  103; this remains S1 evidence only.

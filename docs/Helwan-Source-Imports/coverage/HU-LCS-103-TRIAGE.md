@@ -635,12 +635,94 @@ collapse gives `4 - 1 = 3` handles; all three handles are pending. Module arithm
 `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Family 5's malformed auxiliary
 handle remain outside tested-concept totals; Family 6 adds no unresolved handle.
 
+## Family 7 — fourth Anatomy quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_5bb02d6293fb60233949` |
+| Manifest SHA-256 | `5bb02d6293fb602339498e26592f10f6a7c476fa6ed5a304c9cbf93d7b4dd8d0` |
+| Recomputed SHA-256 | `5bb02d6293fb602339498e26592f10f6a7c476fa6ed5a304c9cbf93d7b4dd8d0` |
+| File | `Most important notes anatomy (Quiz content)4.jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Anatomy/Assessments/Quizzes/Most important notes anatomy (Quiz content)4.jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Anatomy · Assessments/Quizzes |
+| Container | one 1920 × 2560 progressive JPEG photograph of a ruled spiral-notebook page |
+| Read method | original-resolution visual read, source-first |
+
+The page is headed `C) Gluteal Region` and contains seven entirely handwritten numbered
+study-note statements. It has no interrogative stem, choices, blank response area, typeset
+solution or answer-key layout. The handwritten asterisk beside N5 is an emphasis mark beside
+a note, not a response or key. Therefore the source contributes **zero complete prompts,
+zero incomplete prompts and zero printed or handwritten answer keys**. All seven numbered
+statements are auxiliary evidence only.
+
+### Exact note-statement inventory
+
+| Note | Visible handwritten statement | Prompt status | Key status |
+|---:|---|---|---|
+| N1 | `Gluteus Medius & Minimus → Prevent Pelvic Drop → Known By Trendelenberg Test` | source spelling preserved; note, not a prompt | none |
+| N2 | `Most Superior Deep → Piriformis` | note, not a prompt | none |
+| N3 | `Most Inferior Deep → Quadratus Femoris` | note, not a prompt | none |
+| N4 | `Nerve to Piriformis → (S1 & S2)` | note, not a prompt | none |
+| N5 | `Pudendal Nerve & Vessels → Pass from GSF & LSF`; a handwritten asterisk follows | shorthand preserved; note, not a prompt | emphasis only, not a key |
+| N6 | `Nerves of [one word scribbled out] Gluteal Region → Originate from Pelvis (Sacral Plexus)` | surviving statement is complete; crossed-out text is not reconstructed | none |
+| N7 | `Posterior Cutaneous Nerve of thigh → Medial to Sciatic Nerve` | note, not a prompt | none |
+| **Family 7** | **7 complete numbered note statements** | **0 complete / 0 incomplete prompts** | **0** |
+
+There is no exact repeated statement. N2 and N4 provide position and root value for the same
+piriformis coverage concept and collapse to the prior `piriformis-oina` handle. The other
+five statements remain separate, so seven statement assignments yield six source-distinct
+handles.
+
+### Statement-to-handle assignment and search ledger
+
+All six handles received four required searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root and the accepted prior-LCS
+ledger: **6 × 4 = 24 required invocations**. Four broad-token follow-ups (`Trendelenburg`,
+`pudendal nerve`, `sacral plexus`, `posterior cutaneous nerve`) resolved phrase-order and
+hyphen variation, for **28 invocations total**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `N1→gluteus-medius-minimus-pelvic-stability` | `gluteus medius minimus pelvic stability`; `prevent pelvic drop`; `Trendelenburg test abductors`; `superior gluteal nerve pelvic drop` | Pending Alexandria concept owns the paired muscles' pelvic stabilisation and Trendelenburg mechanism. The two prior individual OINA handles do not absorb this combined clinical mechanism one-to-one. | note-only candidate; external pending | — |
+| 2 | `N2→piriformis-oina` | `piriformis muscle`; `piriformis most superior deep`; `nerve to piriformis`; `piriformis S1 S2` | Exact Family-1/2 handle; its prior disposition remains new. | prior LCS (inherited new) | — |
+| 3 | `N3→quadratus-femoris-oina` | `quadratus femoris`; `quadratus femoris most inferior`; `nerve to quadratus femoris`; `deep gluteal muscles order` | Exact Family-2 handle; external short-rotator material still lacks the full muscle scope, so its prior disposition remains new. | prior LCS (inherited new) | — |
+| 4 | `N4→piriformis-oina` | same four queries as assignment 2; one collapsed handle is searched once | Second assignment to the same prior muscle handle; N2 and N4 are not exact repeats. | prior LCS (inherited new) | — |
+| 5 | `N5→sciatic-foramina-contents` | `pudendal nerve greater sciatic foramen`; `pudendal vessels lesser sciatic foramen`; `GSF LSF pudendal`; `pudendal nerve exits reenters pelvis` | Exact prior Family-1/2 handle. Pending Alexandria material owns passage of pudendal nerve and internal pudendal vessels through both foramina. | prior LCS (inherited pending) | — |
+| 6 | `N6→gluteal-region-nerves-sacral-plexus` | `gluteal region nerves sacral plexus`; `nerves of gluteal region`; `sacral plexus gluteal nerves`; `pelvic origin gluteal nerves` | Pending records cover individual sacral-plexus nerves, not this source's collective origin statement for the region. | note-only candidate; external new | NEU/ANA |
+| 7 | `N7→posterior-cutaneous-nerve-thigh-course` | `posterior cutaneous nerve of thigh`; `posterior femoral cutaneous nerve`; `medial to sciatic nerve`; `posterior thigh nerve relation sciatic` | Pending articles mention the nerve's territory and a superficial relation to the sciatic nerve, but no same-scope concept owns the handwritten medial relation. | note-only candidate; external new | NEU/ANA |
+
+### Family-7 checkpoint and cumulative LCS-103 delta
+
+| Family-7 evidence bucket | Numbered note assignments | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 4 | 3 | 0 | 1 | 2 | 0 |
+| New-to-LCS resolved note-only candidates | 3 | 3 | 0 | 1 | 2 | 0 |
+| **Family 7 auxiliary evidence** | **7** | **6** | **0** | **2** | **4** | **0** |
+
+These are auxiliary evidence dispositions, not a tested-concept delta. The assessment-led
+module delta is **+0 observed prompts, +0 printed keys and +0 resolved tested concepts**.
+Across Families 4–7, the separate auxiliary-note count is now `5 + 9 + 4 + 7 = 25`
+numbered statements.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 6 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 7 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 7** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `4 prior assignments + 3 new-to-LCS assignments = 7`; one piriformis
+collapse gives `7 - 1 = 6` handles; `0 live + 2 pending + 4 new + 0 unresolved = 6`.
+Module arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Family
+5's malformed auxiliary handle remain outside tested-concept totals; Family 7 adds no
+unresolved handle.
+
 ## Exact next debt
 
-- The next untriaged local Anatomy quiz-content image is `src_5bb02d6293fb60233949`.
-  The final Anatomy image follows: `src_086eb3c89677239baa74`. Their visual prompt/note
-  classification, key status, repeat collapse and semantic search remain wholly outside this
-  checkpoint.
+- The final untriaged local Anatomy quiz-content image is `src_086eb3c89677239baa74`.
+  Its visual prompt/note classification, key status, repeat collapse and semantic search
+  remain wholly outside this checkpoint.
 - The three local Pathology quiz-content images in the actual-assessment lane,
   `src_4ee3e3e63fa0804576fb`, `src_e8309c2953d770051cf0`, and
   `src_758188828699ae3569f4` remain after the Anatomy images. Their content counts and key
