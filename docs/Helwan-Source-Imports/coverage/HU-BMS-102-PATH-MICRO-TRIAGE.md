@@ -1957,3 +1957,45 @@ records, and `342 + (44 - 44) = 342` concepts.
 - Other pathology revision/assessment banks and all BMS-102 microbiology assessment
   evidence remain S1 debt. Tutorial 103/LCS material remains excluded. No S2 content,
   IDs, imports, catalogue, readiness, claim, download, commit, or push action is authorised.
+
+## Post-Family-10 provenance gate — Cairo University/Kasr bank excluded
+
+`src_9d41f1584e849028c619` · `MCQs - PATHO MCQ القصر.pdf` is **external/reference-only**, not
+Helwan assessment signal. It contributes zero prompts, zero printed answers, zero retained
+records, and zero tested concepts to this ledger. No source-first question extraction was
+started.
+
+The exclusion is supported by four independent provenance facts:
+
+- the manifest records `originUniversityHint: ["Kasr Alainy"]`, while the filename itself
+  includes `القصر`;
+- the rendered cover states `MCQ PATHOLOGY (PART 1) (YEAR ONE)` and credits Dr Shaimaa
+  Abdel Salam and Dr Randa Said Taha as `Lecturers Of Pathology Cairo University`;
+- a corresponding 102-page copy is stored in the local Kasr library at
+  `1. Kasr Alainy Books/5. Pathology/MCQs/PATHO MCQ .pdf`; the PDFs have different byte
+  hashes (`9d41f158...ee13` versus `c8b7322f...1efb`) and file sizes, so this is not claimed
+  as a byte duplicate, but 100 of 102 mechanically rendered page images match exactly and
+  the other two are visually near-identical, establishing the same bank/source variant;
+- the standing authority rule says another university's paper or MCQ bank cannot be used
+  as this university's signal.
+
+The next three manifest rows are also ineligible without further work:
+`src_c38d862b8115f8d408de` (`Patho MCQ [108]`) and the unsolved/solved Dr Tarek pair
+`src_4954ce2cf6d26c70bbf5` / `src_aeaf894072d90a35c1b0` each carry the same explicit
+`Kasr Alainy` origin hint. The following pathology row,
+`src_3f8527b376185eb3c2eb` · `Pathology - INT mcq.pdf`, is also excluded: its cover is
+`NERD ... INT 108`, and its SHA-256 is byte-identical to the file stored under
+`Kasr Alainy/y1/108 INT/Department Questions/Department Question Bank - DOIT-2 IMPORTANT
+Pathology - INT MCQ (2).pdf`.
+
+The next clearly Helwan-attributed, non-external BMS-102 question source is therefore
+microbiology tier-3 `src_4abfcc7807e4409a34dd` ·
+`MCQs - Helwan S2 Micro Antimicrobial Chemotherapy MCQ.pdf` (9 native-text pages,
+SHA-256 `4abfcc7807e4409a34dd0e6c9983937a17f07120b3852351a6d2d79ff5e9ee04`). Its filename
+and embedded PDF title both say `Helwan S2`; it is the next eligible bounded family. The
+intervening generic pathology banks beginning with `src_6c9475dcb27ad5dada45` remain
+provenance debt and must not outrank this explicitly Helwan-attributed source without a
+separate origin ruling.
+
+The accepted cumulative checkpoint therefore remains **735 observed prompts / 375 printed
+answer occurrences / 522 retained question records / 342 distinct tested concepts**.

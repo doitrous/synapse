@@ -124,8 +124,13 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   44 handles (1 live / 9 pending / 34 new), every one an exact prior Family-1/2 scope reuse,
   hence zero concept delta. M14/M22's conflicting keys, T18/T25 `Ture`, and T27's questionable
   `False` remain preserved. BMS-102 pathology totals 735 observed prompts, 375 printed answers,
-  522 retained records and 342 distinct concepts. `src_9d41f1584e849028c619` has a manifest
-  Kasr origin hint and requires provenance/eligibility adjudication before any Helwan count.
+  522 retained records and 342 distinct concepts. Provenance review excludes
+  `src_9d41f1584e849028c619`: its cover credits Cairo University, its manifest carries the
+  Kasr hint, and 100/102 rendered pages exactly match a local Kasr copy (the remaining two
+  visually match). The next three Kasr-hint rows and byte-identical Kasr `src_3f8527b376185eb3c2eb`
+  are also non-Helwan; none changes the checkpoint. Continue the explicitly Helwan-attributed
+  microbiology source `src_4abfcc7807e4409a34dd` (9 pages); generic pathology provenance debt
+  remains excluded until separately ruled.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
