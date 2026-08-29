@@ -19,6 +19,9 @@ const val DASHBOARD_ROUTE = "dashboard"
 /** Task 6's Question Bank flow route (see [com.synapse.app.feature.qbank.QuestionBankRoot]). */
 const val QUESTION_BANK_ROUTE = "question_bank"
 
+/** Plan 05 Task 4's Flashcards flow route (see [com.synapse.app.feature.flashcards.FlashcardsRoot]). */
+const val FLASHCARDS_ROUTE = "flashcards"
+
 /**
  * One entry in the student's primary navigation, mirroring the web app's
  * `studentNav` groups (`src/components/shell/nav.ts`) collapsed to the set
@@ -44,7 +47,7 @@ val STUDENT_DESTINATIONS: List<StudentDestination> = listOf(
     StudentDestination(DASHBOARD_ROUTE, "Dashboard", Icons.Filled.Home),
     StudentDestination("library", "Library", Icons.AutoMirrored.Filled.List),
     StudentDestination(QUESTION_BANK_ROUTE, "Question Bank", Icons.Filled.CheckCircle),
-    StudentDestination("flashcards", "Flashcards", Icons.Filled.Refresh),
+    StudentDestination(FLASHCARDS_ROUTE, "Flashcards", Icons.Filled.Refresh),
     StudentDestination("resources", "Resources", Icons.Filled.Info),
     StudentDestination("notebook", "Notebook", Icons.Filled.Edit),
     StudentDestination("whiteboard", "Whiteboard", Icons.Filled.Create),
@@ -58,7 +61,7 @@ val STUDENT_DESTINATIONS: List<StudentDestination> = listOf(
  * — a full ten-item bar would be unusable, so this curates the destinations a
  * student reaches for most; the rest stay reachable once a drawer/rail lands.
  */
-private val PRIMARY_ROUTES = setOf(DASHBOARD_ROUTE, "library", "flashcards", "calendar", "account")
+private val PRIMARY_ROUTES = setOf(DASHBOARD_ROUTE, "library", FLASHCARDS_ROUTE, "calendar", "account")
 
 val PRIMARY_DESTINATIONS: List<StudentDestination> =
     STUDENT_DESTINATIONS.filter { it.route in PRIMARY_ROUTES }
