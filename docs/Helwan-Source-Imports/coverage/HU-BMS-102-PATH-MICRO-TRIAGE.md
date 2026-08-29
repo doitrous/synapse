@@ -3457,3 +3457,58 @@ answer lists are assigned once. The next manifest-ordered local BMS-102 candidat
 under `Microbiology / Notes and Summaries`. Its first-page snippet is an individually attributed
 `BY :MALAK SAMEH` factual map. It requires a bounded visual assessment-versus-teaching-material
 gate before any prompt or concept count is accepted.
+
+## Family 25 — tier-6 Bacterial Physiology and Metabolism teaching-map gate
+
+### Source identity, full-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_1b11a0212785abda19b6` · `Bacterial Physiology and Metabolism.pdf` |
+| SHA-256 / boundary | `1b11a0212785abda19b62ea1ef029264a8544eca9c35b36e03c8afa7b44bfa39` · one native-text landscape page, 1,782.96 × 1,432.08 pt |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6 |
+| Visible provenance | XMind teaching map titled `Bacterial Physiology and Metabolism`, individually attributed `BY :MALAK SAMEH`; PDF title `Xmind`, creator `Chromium`, producer `Skia/PDF m136`, created 13 March 2026 |
+| Read boundary | the sole page was native-text inspected, rendered at 5,944 × 4,774 pixels, and visually read in full |
+
+The page is a declarative teaching map, not an assessment or prompt-and-answer bank. A central
+topic fans into six complete first-level branches: `Bacterial Reproduction`, `Bacterial Growth
+Curve`, `Bacterial Metabolism`, `Bacterial Nutrition`, `Bacterial Gaseous Requirements`, and
+`Temperature for Growth`. Their child nodes are topic labels and factual statements—for example
+binary-fission steps, growth-curve phases, oxygen classes, nutritional groups, temperature/pH
+ranges, catabolism/anabolism, and respiration/fermentation facts. None is written as an
+interrogative or imperative prompt; none supplies an answer blank, option set, key, highlighted
+choice, question number, marking instruction, or prompt-to-answer convention. The visible
+`BY :MALAK SAMEH` label is authorship, not a response cue.
+
+### Zero-prompt adjudication and separated evidence dimensions
+
+| Measure | Family 25 gate | Auxiliary cumulative (Families 12–25) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 141 | 765 | 906 |
+| Printed study-bank answer occurrences | 0 | 85 | 405 | 490 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 0 | 138 | 552 | 690 |
+| Source-distinct tested handles | 0 | 137 | — | — |
+| Required searches | 0 | — | — | no prompt-derived handle exists |
+| Cross-family concept delta | +0 | +109 over primary | — | `372 + 109 = 481` |
+| **Distinct tested concepts** | **+0** | **109 auxiliary additions** | **372** | **481** |
+
+Complete-page arithmetic is therefore `0 prompts - 0 copies = 0 retained`, `0 printed answers`,
+`0 prompt-derived handles`, `0 required searches`, and `+0` concepts. The primary checkpoint
+remains **765 / 405 / 552 / 372**; auxiliary cumulative remains **141 / 85 / 138 / 137 / +109**;
+and all eligible S1 evidence remains **906 / 490 / 690 / 481**. Declarative teaching nodes are
+not converted into inferred questions or answers, and this tier-6 map cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 25
+
+`src_1b11a0212785abda19b6` is exhausted: its sole rendered page contains no countable prompt or
+answer unit and has no resume boundary. The next manifest-ordered local BMS-102 candidate is
+tier-6 `src_83d5b4ce25d71ae6747f` · `Bacterial cell physiology SEQ.pdf`, SHA-256
+`83d5b4ce25d71ae6747f3a784cdd1ca8ddaac9be98726f244d470eda58cf2938`, three native-text pages
+under `Microbiology / Notes and Summaries`. Its first-page snippet exposes numbered written
+questions with immediate answer lists, so it requires a bounded all-page prompt, printed-answer,
+repeat/collapse, search, and prior-BMS review before any count is accepted.
