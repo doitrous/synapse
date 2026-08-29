@@ -64,6 +64,13 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - The bounded continuation is the same source’s printed pp. 249–255: 105 raw prompts, 20
   exact repeated model-prompt occurrences, and 85 retained records before concept collapse
   and search. Tutorial 103 (pp. 256–262) remains excluded for LCS-103 review.
+- The pp. 249–255 continuation is now also triaged: 74 Family-2 tested concepts after 11
+  within-family collapses, with 2 live, 18 scope-proven pending and 54 no-same-scope
+  external results (296 required plus 53 follow-up searches). Seven of its concepts already
+  occur in Family 1, so the module delta is +67 and the bounded cumulative checkpoint is
+  157 observed prompts, one printed key, 137 retained records and 118 distinct concepts.
+- Tutorial 103 remains LCS-103-owned; other BMS-102 pathology and microbiology sources are
+  still S1 debt. This is evidence only: no IDs, content, import or approval were created.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
