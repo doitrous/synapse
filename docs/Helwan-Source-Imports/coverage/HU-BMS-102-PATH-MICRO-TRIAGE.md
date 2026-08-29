@@ -2670,3 +2670,69 @@ The next fragment is the contiguous two-image `bacterial g...` sequence in sourc
 `src_93a472d70e8e1e7e9cfc` (slide 49/52) then `src_7c972883ff48c23103f3`
 (slide 50/52), both 1280 × 768. It requires visible-only inventory and treatment of the
 pale-green choice highlights as unproven digital annotations, not printed keys.
+
+## Family 17 — tier-6 auxiliary `bacterial g...` slides 49–50 fragment
+
+### Source boundary and answer-mark ruling
+
+| Source order | Manifest source | SHA-256 | Visible boundary | Raster |
+|---:|---|---|---|---|
+| 1 | `src_93a472d70e8e1e7e9cfc` · `2026-07-20 05.57.09.jpg` | `93a472d70e8e1e7e9cfcc84aa9bda3ae222a5483ac3610a60fc837136af77cda` | `bacterial g...`, slide 49 of 52 | 1280 × 768 JPEG |
+| 2 | `src_7c972883ff48c23103f3` · `2026-07-20 05.57.11.jpg` | `7c972883ff48c23103f346eef9f60ba5edf06565bfb93309b2310e9927fbd568` | same deck, slide 50 of 52 | 1280 × 768 JPEG |
+
+Both images were read at original resolution. They are contiguous slides, but remain only a
+two-image fragment of a 52-slide deck. Each slide contains one fully visible MCQ; there are two
+complete prompt units and zero cropped/incomplete units. Pale-green highlights mark stem clues
+and choices. They are unproven digital annotations, not a printed answer convention or official
+key, so Family 17 records two visible answer annotations and zero printed-answer occurrences.
+
+### Visible-prompt assignment, repeat, and collapse ledger
+
+| Ref | Slide | Fully visible prompt assignment | Visible annotation | Tested handle |
+|---|---:|---|---|---|
+| F17-Q01 | 49 | Process using a sex pilus to transfer a resistance plasmid carrying transposons | pale-green highlight · A, conjugation | `conjugation-transfers-resistance-plasmid-with-transposons` |
+| F17-Q02 | 50 | Process by which the diphtheria-toxin gene is acquired during lysogenic conversion | pale-green highlight · B, transduction | `diphtheria-toxin-gene-transduction-lysogenic-conversion` |
+
+The prompts test different gene-transfer mechanisms and organisms. There are zero copy repeats,
+zero semantic collapses, two retained records, and two source-distinct handles.
+
+### Search-before-mint and prior-BMS-102 adjudication
+
+Each handle received four required searches: **eight required searches** across live state, all
+pending roots, and Families 1–16.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `conjugation-transfers-resistance-plasmid-with-transposons` · Q01 | `resistance plasmid transposon conjugation`; `sex pilus plasmid transfer`; `conjugation antibiotic resistance genes`; `plasmid carrying transposons gene transfer` | pending `CON-INF-B7F47EC7A8F7FA`; its definition directly states sex-pilus-mediated plasmid transfer by conjugation | none; Family-11 separates R-plasmids/transposition and Family-12 only enumerates transfer classes, so this relation is an auxiliary delta |
+| `diphtheria-toxin-gene-transduction-lysogenic-conversion` · Q02 | `diphtheria toxin gene transduction`; `Corynebacterium lysogenic conversion bacteriophage`; `toxin gene acquired by phage`; `prophage diphtheria toxin gene transfer` | pending `CON-INF-BFFA74CFBB0B25`; its definition directly states prophage-gene incorporation changing bacterial phenotype | none; Family-12's prophage-outcome list and transduction comparison do not test this organism-specific acquisition relation, so auxiliary delta |
+
+### Family-17 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 17 auxiliary | Auxiliary cumulative (Families 12–17) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 2 | 65 | 765 | 830 |
+| Printed answer occurrences | 0 | 35 | 405 | 440 |
+| Visible unproven answer annotations | 2 | 30 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 0 | — | excluded from totals |
+| Retained question records | 2 | 65 | 552 | 617 |
+| Source-distinct tested concepts | 2 | 65 | — | — |
+| External live / pending / no same-scope match | 0 / 2 / 0 | — | — | family-local disposition |
+| Handles already represented in Families 1–16 | 0 | four auxiliary records reuse primary scope through Family 15 | — | subtract before concept addition |
+| Cross-family concept delta | +2 | +61 over primary | — | `372 + 61 = 433` |
+| **Distinct tested concepts** | **+2** | **61 auxiliary additions** | **372** | **433** |
+
+Family arithmetic is `0 + 2 + 0 = 2`. The primary assessment checkpoint remains
+`765 / 405 / 552 / 372`. The auxiliary cumulative becomes `63 + 2 = 65` prompts,
+`35 + 0 = 35` printed answers, `63 + 2 = 65` retained records, and
+`59 + 2 = 61` concept additions over primary. The all-eligible inventory becomes
+`828 + 2 = 830` prompts, `440 + 0 = 440` printed answers, `615 + 2 = 617` retained
+records, and `431 + 2 = 433` concepts.
+
+### Exact next auxiliary screenshot debt
+
+The next fragment is the five-image, non-contiguous `General vir...` sequence in visible source
+order: `src_0fc230c86383f76329b6` (slide 7/53), `src_e0928be0be4ed846220d`
+(21/53), `src_ec1ee4de5212860ccb3e` (28/53), `src_e11ef4bbfe64901c50cc`
+(33/53), and `src_1e8051f1079e1aad0da9` (39/53), all 1280 × 768. It requires
+visible-only inventory, explicit gap boundaries, and separate treatment of red digital
+boxes/circles and the black handwritten `latent`; none is printed-key evidence.
