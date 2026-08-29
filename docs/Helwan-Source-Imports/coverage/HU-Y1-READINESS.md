@@ -316,7 +316,13 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   242 printed keys / 197 concepts = 9 live / 49 pending / 139 new**. The rank-4/rank-5
   local-source debt is now 51 path instances / 49 unique hashes, beginning next with tier-4
   `src_c9f3a9a347a23822db32` (`Face.pdf`, 63 pages); broader LCS S1 remains incomplete pending
-  that debt and consolidation.
+  that debt and consolidation. The Face lecture is now closed across all 63 rendered pages:
+  its two explicitly labelled interactive prompts have no printed answer reveal or key, and
+  its two source-distinct scopes are both new after four searches each and prior-LCS comparison.
+  Eligible LCS is now **440 prompts / 242 printed keys / 199 concepts = 9 live / 49 pending /
+  141 new**. The rank-4/rank-5 local-source debt is **50 path instances / 48 unique hashes**;
+  next is tier-4 Anatomy `src_d32797506d25c0624326` (`Scalp.pdf`, 38 pages). No ID or content
+  record was created; broader LCS S1 remains incomplete pending that debt and consolidation.
 
 ## HU-PSY-104 psychology S1 family checkpoint
 

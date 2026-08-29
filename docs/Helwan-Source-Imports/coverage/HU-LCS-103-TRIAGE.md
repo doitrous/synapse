@@ -2999,3 +2999,63 @@ manifest-order evidence gate is tier-4 Anatomy source `src_c9f3a9a347a23822db32`
 (63 pages; SHA-256 `c9f3a9a347a23822db328f3fc95a5208fccb94f161b7b054d1d93a567b8730be`).
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 26 — Tier-4 Face lecture interactive-prompt family
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_c9f3a9a347a23822db32` |
+| File / SHA-256 | `Face.pdf` / `c9f3a9a347a23822db328f3fc95a5208fccb94f161b7b054d1d93a567b8730be` |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 · native PDF · 63 pages |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Head & Neck/Lec 8 - Scalp & Face/Face.pdf` |
+| Visible provenance | Ass. Prof. Dr. Eman El Sawaf · Anatomy & Embryology · Faculty of Medicine · Capital University (Formerly Helwan) |
+| Authority finding | Direct local Helwan-labelled teaching lecture; it is not an examination, department question bank, or official answer key. |
+
+The manifest hash was recomputed and matched. All **63 physical pages** were rendered and
+read. Pages 1–33 and 35–60 are declarative teaching: objectives, headings, diagrams,
+captions, clinical illustrations, tables and reference material. Pages 62–63 are references
+and closing material. None is treated as an assessment prompt, answer reveal or key.
+
+Only these complete, explicitly labelled interactive prompts qualify:
+
+| Page | Printed prompt observation | Printed key treatment |
+|---:|---|---|
+| 34 | `Mention the origin, insertion and nerve supply of orbital part of orbicularis oculi muscle?` | No answer reveal or printed key. Nearby teaching text is not retrofitted into an answer. |
+| 61 | `Which branch of the facial nerve supplies the orbicularis oris muscle?` with options Temporal / Zygomatic / Buccal / Cervical | Options are visibly unmarked; the preceding muscle table is teaching material, not an answer reveal. No answer is inferred. |
+
+This is a complete source closure, not a partial screen: **2 prompt occurrences / 0 directly
+printed keys**. No objectives, captions, diagrams, ordinary teaching statements, or the
+unmarked multiple-choice options were counted as keys.
+
+### Source-first handles, searches and overlap
+
+| Source handle | Prompt scope retained | Required `find-existing` query set | Search / prior-LCS result | Disposition |
+|---|---|---|---|---|
+| `orbital-part-orbicularis-oculi-oina` | Orbital orbicularis oculi origin, insertion and nerve supply | orbital part orbicularis oculi origin insertion nerve supply; orbicularis oculi orbital part facial nerve; orbicularis oculi oina; orbicularis oculi temporal zygomatic facial nerve | Four searches found no live or pending same-scope record. The broader Family-20 `facial-nerve-expression` handle is not this OINA scope. | new · MSK/ANA |
+| `orbicularis-oris-facial-nerve-branch-innervation` | Facial-nerve branch innervating orbicularis oris | orbicularis oris facial nerve buccal branch; buccal branch supplies orbicularis oris; facial nerve branches orbicularis oris; orbicularis oris motor innervation | Four searches found no live or pending same-scope record. The broader Family-20 `facial-nerve-expression` handle is not this named branch-innervation scope. | new · NEU/ANA |
+
+The ledger has two source-distinct handles and **2 × 4 = 8** required searches. There are no
+literal duplicates, semantic collapses, external-bank matches, or prior eligible-LCS matches.
+Both source and additive module disposition are therefore **0 live / 0 pending / 2 new**.
+
+| Family-26 evidence bucket | Prompt occurrences | Printed keys | Source handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| New tested scopes | 2 | 0 | 2 | 2 | 0 | 0 | 2 |
+| **Family 26 assessment evidence** | **2** | **0** | **2** | **2** | **0** | **0** | **2** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 25 | 438 | 242 | 197 | 9 | 49 | 139 |
+| Family 26 net delta | +2 | +0 | +2 | +0 | +0 | +2 |
+| **LCS-103 cumulative after Family 26** | **440** | **242** | **199** | **9** | **49** | **141** |
+
+Arithmetic checks: `2 prompts = 2 source handles`; `0 + 0 + 2 = 2`; `438 + 2 = 440`;
+`242 + 0 = 242`; `197 + 2 = 199`; and `9 + 49 + 141 = 199`. Removing this unique source
+from the accepted Family-25 remainder leaves **50 rank-4/rank-5 path instances / 48 unique
+hashes**. The next manifest-order evidence gate is tier-4 Anatomy source
+`src_d32797506d25c0624326`, `Scalp.pdf` (38 pages; SHA-256
+`d32797506d25c062432627346e867c97ff3f5992a907b1933d68ed3eb5aafd28`). Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
