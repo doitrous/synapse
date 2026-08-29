@@ -1461,3 +1461,29 @@ The visible slides are unkeyed image-identification prompts: their image-title b
 **Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`.  By the pinned triage text classification, it remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The 101-page source above remains included because pages 11–101 are unread.
 
 **BLOCKED — S1 cannot be approved:** this source itself is still incomplete beyond page 10, and the remaining 92 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: resume this source at page 11 or complete another evidence-ranked unread substantive source without treating this partial screen as completed.
+
+## Bounded continuation screen — Histology final-revision-question paper, pages 11–20 of 101
+
+This pass resumes the same local source at its recorded next unread page: source SHA-256 `c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983`, 101 source pages, following rendered/read pages 1–10.  All and only pages **11–20** were rendered and read.  No natural source boundary occurs within this range; pages 21–101 remain unread.  The source therefore remains `sourceProcessed=false`, and its path/hash remain in the unchanged source remainder.
+
+### Observed page-boundary prompt accounting
+
+Pages 11–15 each print the repeated three-part form `Identify`, `Mention the site`, and `Why did you identify that`, for `5 × 3 = 15` observed prompts.  Pages 16–20 each print `Identify` and `What is the stain used`, for `5 × 2 = 10` observed prompts.  The exact page-11–20 tally is `15 + 10 = 25` printed prompts and **0** printed keys/answers.  Together with the prior pages 1–10 record, pages 1–20 have 50 observed prompts and 0 printed keys; neither observation tally is entered into completed-source totals.
+
+### Assignment, duplicate/composite, and search boundary
+
+The two repeated response forms are explicit duplicates of form, and each multi-line form is a composite response request.  Their image-title bands remain blacked out/blank and this range supplies no keyed answer, so no named semantic target or source-supported concept can be assigned without inferring the identification or stain.  The assignment and search ledgers thus remain exactly `0 named concepts ↔ 0 search rows`; no live, pending, new, external, or prior-FHB deduplication result is claimed.  No source-level concept collapse is made from repeated form alone.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources unchanged; bounded Histology pages 1–20 excluded) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** +0 questions, +0 printed keys / answers, +0 source-distinct tested concepts.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — source remains incomplete after page 20
+
+**Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 21–101 are unread.
+
+**BLOCKED — S1 cannot be approved:** resume this source at exact next page 21; do not treat the bounded pages 1–20 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
