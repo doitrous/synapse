@@ -2437,3 +2437,99 @@ source order: `src_8d15675c64dff6d1ec34` (slide 8/28),
 `src_dff3d4836500b7ebf23a` (26/28). It requires visible-only prompt inventory, explicit gap
 boundaries, and separate treatment of blue freehand answers/checks/crosses versus straight red
 underline annotations. No unseen slide or whole-deck total may be inferred.
+
+## Family 14 — tier-6 auxiliary `lec2 bacter...` screenshot fragment
+
+### Source boundary and answer-mark ruling
+
+| Source order | Manifest source | SHA-256 | Visible boundary | Raster |
+|---:|---|---|---|---|
+| 1 | `src_8d15675c64dff6d1ec34` · `2026-07-20 05.56.51.jpg` | `8d15675c64dff6d1ec34e42a7b7cefafa4d545ac9761f987bd68f552b3c3ad7c` | `lec2 bacter...`, slide 8 of 28 | 1280 × 768 JPEG |
+| 2 | `src_1f60d4e52d281b431dc7` · `2026-07-20 05.56.54.jpg` | `1f60d4e52d281b431dc7a1662489328dfc269e4b7ad8e900a7a797265e080517` | same deck, slide 11 of 28 | 1280 × 768 JPEG |
+| 3 | `src_8748f9e48befcfdfb730` · `2026-07-20 05.56.58.jpg` | `8748f9e48befcfdfb73092e90fa846ed79e156a6645560d7ae0bd8cc8a501166` | same deck, slide 23 of 28 | 1280 × 768 JPEG |
+| 4 | `src_dff3d4836500b7ebf23a` · `2026-07-20 05.57.00.jpg` | `dff3d4836500b7ebf23aeb00760c684bf04073d76f1024e1c9b71fb9004d2850` | same deck, slide 26 of 28 | 1280 × 768 JPEG |
+
+All four images were read at original resolution. They are one deck fragment in ascending slide
+order, but gaps 9–10, 12–22, 24–25, and 27–28 remain unseen. Only the 13 fully visible prompt
+units are inventoried; there are zero cropped/incomplete prompt units. Slide 26's first statement
+prints `e.g.` without a named organism, but the complete statement box is visible, so this is a
+source omission rather than an image crop.
+
+Slides 8, 11 and 26 use blue freehand fill-ins/checks/crosses. Slide 23 uses straight red digital
+underlines. Neither mark type is an official printed-answer convention, and the raster captures
+cannot establish key authority. Family 14 therefore records 13 visible answer annotations and
+zero printed answer occurrences.
+
+### Visible-prompt assignment, repeat, and collapse ledger
+
+| Ref | Slide | Fully visible prompt assignment | Visible annotation | Tested handle |
+|---|---:|---|---|---|
+| F14-Q01 | 8 | Name the process by which bacteria reproduce | blue freehand `binary fission` | `bacterial-reproduction-binary-fission` |
+| F14-Q02 | 8 | Define doubling time and state its printed range | blue freehand definition and `20 min` to `24 h` | `bacterial-doubling-time-definition-and-range` |
+| F14-Q03 | 11 | Lag phase has no cell division | blue check | `bacterial-growth-curve-lag-no-division` |
+| F14-Q04 | 11 | Log phase does not have equal formation and death with a constant population | blue cross | `bacterial-growth-curve-log-rapid-net-growth` |
+| F14-Q05 | 11 | Stationary phase does not have rapid steadily increasing division | blue cross | `bacterial-growth-curve-stationary-balanced-population` |
+| F14-Q06 | 11 | Decline phase has death exceeding multiplication and decreasing viable count | blue check | `bacterial-growth-curve-decline-death-exceeds-growth` |
+| F14-Q07 | 23 | Bacteria requiring oxygen for growth | red underline · obligate aerobes | `obligate-aerobe-oxygen-requirement` |
+| F14-Q08 | 23 | Microaerophiles require oxygen below atmospheric tension | red underline · low oxygen tension | `microaerophile-low-oxygen-tension` |
+| F14-Q09 | 23 | Aerotolerant bacteria use fermentative metabolism but tolerate oxygen through SOD | red underline | `aerotolerant-fermentation-oxygen-tolerance-sod` |
+| F14-Q10 | 23 | Bacteria growing only in complete absence of oxygen | red underline · obligate anaerobes | `obligate-anaerobe-oxygen-absence` |
+| F14-Q11 | 26 | Certain bacteria require 5–20% CO2 | blue check | `bacterial-high-co2-growth-requirement` |
+| F14-Q12 | 26 | Most pathogenic bacteria grow in the narrow pH range 7.2–7.6 | blue check | `pathogenic-bacteria-optimum-ph-range` |
+| F14-Q13 | 26 | Optimum bacterial growth occurs at 37°C | blue check | `pathogenic-bacteria-optimum-growth-temperature` |
+
+No full prompt is repeated. Q03–Q06 test four different growth-curve phases; Q07–Q10 test four
+different oxygen-response classes. Their shared templates do not make them copies or semantic
+collapses. Q11–Q13 test three different environmental requirements. Thus there are zero copy
+occurrences, zero semantic collapses, 13 retained records, and 13 source-distinct handles.
+
+### Search-before-mint and prior-BMS-102 adjudication
+
+Each handle received four required searches: **52 required searches** across live state, all
+pending import roots, and Families 1–13. Scope-proven pending records were re-opened; definitions
+or objectives that test only an adjacent phase/condition were not treated as matches.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacterial-reproduction-binary-fission` · Q01 | `bacteria reproduce binary fission`; `bacterial reproduction process`; `binary fission bacteria`; `bacterial cell division name` | new | none; auxiliary delta |
+| `bacterial-doubling-time-definition-and-range` · Q02 | `bacterial doubling time definition`; `time required bacteria double number`; `bacterial doubling time 20 minutes 24 hours`; `range bacterial generation time` | new; tumour-doubling records are wrong scope | none; auxiliary delta |
+| `bacterial-growth-curve-lag-no-division` · Q03 | `lag phase no cell division`; `bacterial growth curve lag phase`; `lag adaptation without division`; `lag versus stationary phase` | pending `CON-INF-6D56F46B5F1EF4`; exact lag-phase scope | none; auxiliary delta |
+| `bacterial-growth-curve-log-rapid-net-growth` · Q04 | `log phase rapid bacterial division`; `exponential growth increasing cell number`; `log phase dying equals formed false`; `bacterial growth curve logarithmic phase` | new; pending antibiotic-sensitivity record is a different log-phase scope | none; auxiliary delta |
+| `bacterial-growth-curve-stationary-balanced-population` · Q05 | `stationary phase equal growth death`; `stationary bacterial population constant`; `bacterial growth curve balanced phase`; `stationary phase not rapid increase` | pending `CON-INF-6D56F46B5F1EF4`; exact balanced-stationary scope | none; auxiliary delta |
+| `bacterial-growth-curve-decline-death-exceeds-growth` · Q06 | `decline phase death exceeds multiplication`; `bacterial death phase viable count decreases`; `growth curve decline phase`; `dying bacteria exceed formed cells` | new; the pending lag-versus-stationary objective does not test decline | none; auxiliary delta |
+| `obligate-aerobe-oxygen-requirement` · Q07 | `obligate aerobes require oxygen`; `bacteria grow only presence oxygen`; `oxygen requirement bacterial classification`; `obligate aerobic growth` | pending `CON-INF-D31966C6CEF85C`; its definition explicitly distinguishes obligate aerobes | none; auxiliary delta |
+| `microaerophile-low-oxygen-tension` · Q08 | `microaerophile low oxygen tension`; `microaerophile below atmospheric oxygen`; `trace oxygen bacterial growth`; `microaerophilic bacteria definition` | pending `CON-INF-D31966C6CEF85C`; exact microaerophile scope | none; auxiliary delta |
+| `aerotolerant-fermentation-oxygen-tolerance-sod` · Q09 | `aerotolerant fermentative metabolism oxygen`; `aerotolerant bacteria superoxide dismutase`; `oxygen tolerant anaerobic metabolism`; `aerotolerant definition bacteria` | new; pending ROS-enzyme and oxygen-classification records do not state this aerotolerant composite | none; auxiliary delta |
+| `obligate-anaerobe-oxygen-absence` · Q10 | `obligate anaerobes complete absence oxygen`; `bacteria grow only without oxygen`; `oxygen toxic obligate anaerobe`; `obligate anaerobic growth` | pending `CON-INF-D31966C6CEF85C`, supported also by `CON-INF-2E9D6F833A7D5E` | none; auxiliary delta |
+| `bacterial-high-co2-growth-requirement` · Q11 | `bacteria require 5-20 percent CO2`; `capnophilic increased carbon dioxide`; `high CO2 bacterial growth`; `bacterial CO2 requirement` | pending `CON-INF-3D845DC6B07880`; its definition identifies increased-CO2 growth as capnophilic | none; auxiliary delta |
+| `pathogenic-bacteria-optimum-ph-range` · Q12 | `pathogenic bacteria pH 7.2-7.6`; `bacterial optimum pH range`; `narrow pH pathogenic species`; `bacterial growth neutral pH` | new | none; auxiliary delta |
+| `pathogenic-bacteria-optimum-growth-temperature` · Q13 | `optimum bacterial growth 37 C`; `pathogenic bacteria body temperature`; `bacterial growth temperature 37 degrees`; `mesophilic pathogen optimum temperature` | new; pending mesophile classifications do not state the tested 37°C optimum | none; auxiliary delta |
+
+### Family-14 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 14 auxiliary | Auxiliary cumulative (Families 12–14) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 13 | 57 | 765 | 822 |
+| Printed answer occurrences | 0 | 35 | 405 | 440 |
+| Visible unproven answer annotations | 13 | 22 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 0 | — | excluded from totals |
+| Retained question records | 13 | 57 | 552 | 609 |
+| Source-distinct tested concepts | 13 | 57 | — | — |
+| External live / pending / no same-scope match | 0 / 6 / 7 | — | — | family-local disposition |
+| Handles already represented in Families 1–13 | 0 | Family 12 has one primary overlap | — | subtract before concept addition |
+| Cross-family concept delta | +13 | +56 over primary | — | `372 + 56 = 428` |
+| **Distinct tested concepts** | **+13** | **56 auxiliary additions** | **372** | **428** |
+
+Family arithmetic is `0 + 6 + 7 = 13`. The primary assessment checkpoint remains
+`765 / 405 / 552 / 372`. The auxiliary cumulative is `44 + 13 = 57` prompts,
+`35 + 0 = 35` printed answers, `44 + 13 = 57` retained records, and
+`43 + 13 = 56` concept additions over primary. The all-eligible inventory becomes
+`809 + 13 = 822` prompts, `440 + 0 = 440` printed answers, `596 + 13 = 609` retained
+records, and `415 + 13 = 428` concepts.
+
+### Exact next auxiliary screenshot debt
+
+The next fragment is single-image `src_26552d7fe7222dafad6c` ·
+`2026-07-20 05.57.04.jpg`, visible as `Antimicrob...` slide 42 of 45 at 1000 × 600.
+It requires visible-only prompt inventory and separate treatment of red text highlights and the
+orange drawn arrow as unproven annotations, not printed answer evidence.

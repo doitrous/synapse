@@ -144,14 +144,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   prompt reuses Family 11, giving +34 concepts. The primary BMS assessment checkpoint remains
   765/405/552/372; the separately labelled all-eligible-evidence inventory is 800/440/587/406.
   The study bank contributes no exam, sitting, recurrence, mark-weight or official-key signal.
-- The bounded tier-6 `Lec 1 102` slides-53–54 fragment
-  `src_007c979153847950dca6` then `src_ee460385eb5caf5cdc6a` is triaged as nine fully visible
-  auxiliary study prompts: zero printed answers, nine separately recorded unproven digital marks,
-  no repeats/collapses/prior-BMS overlap, and 0/1/8 live/pending/new. It adds +9 only to the
-  all-eligible inventory, now 809/440/596/415; primary remains 765/405/552/372. The remaining
-  tier-6 images are incomplete deck fragments without official exam/sitting or key authority.
-  Next is the visible-only non-contiguous `lec2 bacter...` slides 8/11/23/26 fragment, retaining
-  freehand/checklist versus digital-mark treatment and proving prompt-level duplicates first.
+- The bounded tier-6 `Lec 1 102` slides-53–54 fragment contributes nine fully visible auxiliary
+  prompts and nine unproven digital marks, but zero printed answers or key authority. The
+  non-contiguous `lec2 bacter...` slides 8/11/23/26 fragment adds 13 visible auxiliary prompts,
+  zero printed answers and 13 unproven blue/red annotations (0/6/7 live/pending/new), without
+  repeats, collapses or prior-BMS overlap. Primary remains 765/405/552/372; the F12–14 auxiliary
+  checkpoint is 57 prompts/35 printed answers/57 retained/+56 concepts and 22 annotations, while
+  all eligible evidence is 822/440/609/428. Next is single-image `Antimicrob...` slide 42/45,
+  retaining its red highlight/orange arrow as annotation rather than a key.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
