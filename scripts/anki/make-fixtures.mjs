@@ -136,23 +136,44 @@ function concatBytes(chunks) {
 }
 
 /**
- * Hand-encodes the minimal media-map protobuf the container reader expects:
- * a flat stream of (field 1 = index varint, field 2 = name string) pairs,
- * one pair per media entry, in order. This is a project-internal minimal
- * scheme (see task brief), not a claim of bit-compatibility with real
- * Anki's media manifest proto.
+ * Encodes Anki's real media manifest — a `MediaEntries` protobuf:
+ *
+ *   message MediaEntries {
+ *     message MediaEntry { string name = 1; uint32 size = 2; bytes sha1 = 3;
+ *                          optional uint32 legacy_zip_filename = 255; }
+ *     repeated MediaEntry entries = 1;
+ *   }
+ *
+ * The zip asset for the i-th entry is named by its 0-based index `i` (real
+ * exports omit `legacy_zip_filename`). Each entry here also carries `size`
+ * (field 2, varint) and `sha1` (field 3, bytes) so the reader's generic
+ * unknown-field skip is exercised, not just the fields it reads.
  */
+function encodeMediaEntry({ name, size, sha1 }) {
+  const chunks = []
+  // field 1, wire type 2 (string name)
+  const nameBytes = strToU8(name)
+  chunks.push(encodeVarint((1 << 3) | 2))
+  chunks.push(encodeVarint(nameBytes.length))
+  chunks.push(nameBytes)
+  // field 2, wire type 0 (uint32 size) — reader must skip this generically
+  chunks.push(encodeVarint((2 << 3) | 0))
+  chunks.push(encodeVarint(size))
+  // field 3, wire type 2 (bytes sha1) — reader must skip this generically
+  chunks.push(encodeVarint((3 << 3) | 2))
+  chunks.push(encodeVarint(sha1.length))
+  chunks.push(sha1)
+  return concatBytes(chunks)
+}
+
 function encodeMediaMap(entries) {
   const chunks = []
-  for (const { index, name } of entries) {
-    // field 1, wire type 0 (varint): tag = (1 << 3) | 0
-    chunks.push(encodeVarint((1 << 3) | 0))
-    chunks.push(encodeVarint(index))
-    // field 2, wire type 2 (length-delimited): tag = (2 << 3) | 2
-    const nameBytes = strToU8(name)
-    chunks.push(encodeVarint((2 << 3) | 2))
-    chunks.push(encodeVarint(nameBytes.length))
-    chunks.push(nameBytes)
+  for (const entry of entries) {
+    const sub = encodeMediaEntry(entry)
+    // top-level field 1, wire type 2 (length-delimited MediaEntry submessage)
+    chunks.push(encodeVarint((1 << 3) | 2))
+    chunks.push(encodeVarint(sub.length))
+    chunks.push(sub)
   }
   return concatBytes(chunks)
 }
@@ -233,7 +254,10 @@ async function buildModernPackage(SQL) {
 
   const anki21b = assertZstdRoundTrips(realSqlite, 'collection.anki21b (real db)')
 
-  const mediaMapProto = encodeMediaMap([{ index: 0, name: 'a.png' }])
+  // A dummy 20-byte SHA1 so the manifest carries a realistic `sha1` field
+  // (which the reader must skip). Value is irrelevant to the tests.
+  const dummySha1 = Uint8Array.from({ length: 20 }, (_, i) => (i * 7 + 1) & 0xff)
+  const mediaMapProto = encodeMediaMap([{ name: 'a.png', size: PNG_BYTES.length, sha1: dummySha1 }])
   const mediaZstd = assertZstdRoundTrips(mediaMapProto, 'media map protobuf')
 
   // Exercise the "media asset bytes may themselves be zstd-framed" path too.
