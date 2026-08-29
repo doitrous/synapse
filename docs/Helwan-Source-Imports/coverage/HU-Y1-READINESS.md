@@ -71,6 +71,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   157 observed prompts, one printed key, 137 retained records and 118 distinct concepts.
 - Tutorial 103 remains LCS-103-owned; other BMS-102 pathology and microbiology sources are
   still S1 debt. This is evidence only: no IDs, content, import or approval were created.
+- The paired Circulatory 2 assessment copies `src_557920d8b7726db4f14b` (unsolved) and
+  `src_2b465fab7f0bfd7dd687` (solved) add 58 observed occurrences: 28 exact cross-copy
+  repeats collapse to 30 retained keyed MCQs, with 26 source-distinct handles after four
+  within-family collapses. The solved companion supplies all 30 printed keys.
+- Family 3 records 0 live, 7 scope-proven pending and 19 no-same-scope external results.
+  Five handles overlap Families 1–2, yielding a +21 concept delta and a cumulative
+  BMS-102 pathology checkpoint of 215 observed prompts, 31 keys, 167 retained records and
+  139 distinct concepts. Other pathology/microbiology sources remain S1 debt.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 

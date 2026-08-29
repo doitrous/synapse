@@ -408,3 +408,164 @@ concept arithmetic is `85 retained - 11 within-family collapses = 74`, then
   to the LCS-103 owner as a cross-module source candidate.
 - Other BMS-102 pathology question-source rows and all BMS-102 microbiology evidence
   remain S1 debt. No S2 work is authorised without literal `TRIAGE APPROVED` from `/root`.
+
+## Family 3 — pathology continuous assessment, Circulatory 2 solved/unsolved pair
+
+### Source selection, identity, and page boundary
+
+After the tier-1 department-book Tutorial 102 pages were exhausted, the next bounded
+exam-paper-first family is the manifest-paired, assessment-labelled Circulatory 2 MCQ
+source. Both members are tier 3, but the solved companion prints a key immediately after
+every prompt and is therefore stronger evidence than an unkeyed generic revision bank.
+No Tutorial 103 page or LCS-owned source is included.
+
+| Copy | Manifest source | Manifest and recomputed SHA-256 | Native pages | Source status |
+|---|---|---|---:|---|
+| Unsolved | `src_557920d8b7726db4f14b` | `557920d8b7726db4f14b89d1c9ee69ece6db28d037485355c39d129767e9f4ee` | 6 | Pathology · Questions/MCQs · tier 3; 28 printed prompts, no printed key |
+| Solved | `src_2b465fab7f0bfd7dd687` | `2b465fab7f0bfd7dd687716d258a5e0f613132f974be6700fd588b33f96c5809` | 7 | Same paired family; `solvedCopy: true`; 30 prompts and 30 immediately printed keys |
+
+All 13 native pages were rendered at 150 dpi and read visually, with native extraction
+used only to check transcription. The unsolved copy prints Q1–21, Q23–26 and Q28–30;
+Q22 and Q27 are absent, and its p. 6 is only the continuation of Q30's options. The
+solved copy prints Q1–30. Thus the pair contains 58 observed prompt occurrences, not 60.
+
+### Source-assignment ledger and printed keys
+
+`F3-A` denotes the solved answer copy and `F3-Q` the unsolved copy. Each retained row
+maps to one and only one search handle. The four repeated tested scopes are collapsed
+only after the 30 retained records are assigned: Q2+Q4, Q3+Q26, Q13+Q29, and Q14+Q23.
+
+| Ref | Observed prompt scope | Source-first assignment | Printed key |
+|---|---|---|---|
+| F3-A01 | Primary function of haemostasis | retain → `hemostasis-primary-function` | B · stop bleeding from ruptured vessels |
+| F3-A02 | Main thrombosis cause in atherosclerosis | retain → `endothelial-injury-thrombosis` | B · endothelial injury |
+| F3-A03 | Factor most associated with venous thrombosis | retain → `venous-stasis-thrombosis` | C · slow flow and stasis |
+| F3-A04 | Condition most likely to produce a thrombus | retain; collapse → `endothelial-injury-thrombosis` | A · endothelial injury |
+| F3-A05 | Vessel in which a red thrombus is most common | retain → `red-thrombus-venous-location` | B · veins |
+| F3-A06 | Feature that is not characteristic of a thrombus | retain → `thrombus-morphologic-characteristics` | B · smooth surface |
+| F3-A07 | Thrombus versus postmortem clot | retain → `thrombus-versus-postmortem-clot` | C · living person versus after death |
+| F3-A08 | Item that is not a thrombosis risk | retain → `thrombosis-risk-factor-recognition` | D · high platelet count |
+| F3-A09 | Appearance of Lines of Zahn | retain → `lines-of-zahn-appearance` | A · alternating white and red layers |
+| F3-A10 | Primary cause of DIC | retain → `dic-systemic-coagulation-activation` | C · systemic activation of coagulation |
+| F3-A11 | Common site of venous thrombosis | retain → `venous-thrombosis-common-site` | B · leg veins |
+| F3-A12 | Complete obstruction of a small artery by thrombus | retain → `occlusive-thrombus-definition` | B · occlusive thrombus |
+| F3-A13 | Embolism following DVT | retain → `dvt-pulmonary-embolism-pathway` | C · pulmonary embolism |
+| F3-A14 | Condition commonly associated with fat embolism | retain → `fat-embolism-fracture-association` | B · bone fracture |
+| F3-A15 | Embolism caused by air introduced into circulation | retain → `air-embolism-definition` | B · air embolism |
+| F3-A16 | Phase associated with amniotic fluid embolism | retain → `amniotic-fluid-embolism-labor-timing` | B · uterine contractions during labour |
+| F3-A17 | Key feature of septic embolism | retain → `septic-embolism-pyaemic-abscess` | C · pyaemic abscess at impaction |
+| F3-A18 | Hypercoagulability from increased hepatic coagulation factors | retain → `malignancy-hypercoagulability` | B · tumours |
+| F3-A19 | Embolism containing malignant cells | retain → `tumor-embolism-malignant-cells` | B · tumour embolism |
+| F3-A20 | Cause of thromboembolism | retain → `thromboembolism-thrombus-detachment` | B · detachment of a thrombus |
+| F3-A21 | Thrombus effect with good collateral circulation | retain → `thrombus-outcome-good-collaterals` | B · transient ischaemia |
+| F3-A22 | Embolism that can cause a systemic issue | retain → `tumor-embolism-systemic-consequence` | B · tumour embolism |
+| F3-A23 | Condition linked to fat embolism syndrome | retain; collapse → `fat-embolism-fracture-association` | C · bone fractures |
+| F3-A24 | Result of embolism from a cardiac thrombus | retain → `cardiac-thrombus-systemic-embolism` | C · systemic arterial blockage |
+| F3-A25 | Effect of an embolus in the portal vein | retain → `portal-venous-embolus-liver-infarction` | B · liver infarction |
+| F3-A26 | Major factor in venous thrombosis | retain; collapse → `venous-stasis-thrombosis` | B · slow flow and stasis |
+| F3-A27 | Embolism involving fat globules in blood | retain → `fat-embolism-definition` | C · fat embolism |
+| F3-A28 | Common site for an arterial thrombus | retain → `arterial-thrombus-aneurysm-site` | B · aneurysms |
+| F3-A29 | Destination event after a venous thrombus reaches the right heart | retain; collapse → `dvt-pulmonary-embolism-pathway` | A · pulmonary embolism |
+| F3-A30 | Common cause of air embolism | retain → `air-embolism-large-vein-trauma` | C · trauma to large veins |
+| F3-Q01 | Same wording as solved Q1 | cross-copy wording repeat → F3-A01; exclude | none |
+| F3-Q02 | Same wording as solved Q2 | cross-copy wording repeat → F3-A02; exclude | none |
+| F3-Q03 | Same wording as solved Q3 | cross-copy wording repeat → F3-A03; exclude | none |
+| F3-Q04 | Same wording as solved Q4 | cross-copy wording repeat → F3-A04; exclude | none |
+| F3-Q05 | Same wording as solved Q5 | cross-copy wording repeat → F3-A05; exclude | none |
+| F3-Q06 | Same wording as solved Q6 | cross-copy wording repeat → F3-A06; exclude | none |
+| F3-Q07 | Same wording as solved Q7 | cross-copy wording repeat → F3-A07; exclude | none |
+| F3-Q08 | Same wording as solved Q8 | cross-copy wording repeat → F3-A08; exclude | none |
+| F3-Q09 | Same wording as solved Q9 | cross-copy wording repeat → F3-A09; exclude | none |
+| F3-Q10 | Same wording as solved Q10 | cross-copy wording repeat → F3-A10; exclude | none |
+| F3-Q11 | Same wording as solved Q11 | cross-copy wording repeat → F3-A11; exclude | none |
+| F3-Q12 | Same wording as solved Q12 | cross-copy wording repeat → F3-A12; exclude | none |
+| F3-Q13 | Same wording as solved Q13 | cross-copy wording repeat → F3-A13; exclude | none |
+| F3-Q14 | Same wording as solved Q14 | cross-copy wording repeat → F3-A14; exclude | none |
+| F3-Q15 | Same wording as solved Q15 | cross-copy wording repeat → F3-A15; exclude | none |
+| F3-Q16 | Same wording as solved Q16 | cross-copy wording repeat → F3-A16; exclude | none |
+| F3-Q17 | Same wording as solved Q17 | cross-copy wording repeat → F3-A17; exclude | none |
+| F3-Q18 | Same wording as solved Q18 | cross-copy wording repeat → F3-A18; exclude | none |
+| F3-Q19 | Same wording as solved Q19 | cross-copy wording repeat → F3-A19; exclude | none |
+| F3-Q20 | Same wording as solved Q20 | cross-copy wording repeat → F3-A20; exclude | none |
+| F3-Q21 | Same wording as solved Q21 | cross-copy wording repeat → F3-A21; exclude | none |
+| F3-Q23 | Same wording as solved Q23 | cross-copy wording repeat → F3-A23; exclude | none |
+| F3-Q24 | Same wording as solved Q24 | cross-copy wording repeat → F3-A24; exclude | none |
+| F3-Q25 | Same wording as solved Q25 | cross-copy wording repeat → F3-A25; exclude | none |
+| F3-Q26 | Same wording as solved Q26 | cross-copy wording repeat → F3-A26; exclude | none |
+| F3-Q28 | Same wording as solved Q28 | cross-copy wording repeat → F3-A28; exclude | none |
+| F3-Q29 | Same wording as solved Q29 | cross-copy wording repeat → F3-A29; exclude | none |
+| F3-Q30 | Same wording as solved Q30 | cross-copy wording repeat → F3-A30; exclude | none |
+
+Assignment arithmetic is `30 solved + 28 unsolved = 58` observed rows; the 28 unsolved
+rows are cross-copy wording repeats, leaving 30 retained records. Four within-family
+tested-scope collapses then yield `30 - 4 = 26` source-distinct handles. All 30 keys above
+are visibly printed in the solved companion; none is inferred for the unsolved copy.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 26 handles received four required searches (distinctive wording, alias,
+synonym, and mechanism/structure): **104 required searches**. Targeted exact follow-ups
+resolved primary haemostasis, Virchow triad, DIC, DVT/pulmonary embolism, embolism
+subtypes, and the live large-vein air-entry record. Scope was live state, all pending
+roots searched by `find-existing.mjs`, and Families 1–2 of this BMS-102 ledger. A broad
+article or parent topic was rejected unless it stated the tested proposition.
+
+| Handle · retained refs | Four required queries | External disposition and decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `hemostasis-primary-function` · A01 | `hemostasis primary function`; `haemostasis purpose`; `stop bleeding ruptured vessels`; `vascular injury blood loss` | pending `CON-HEM-C62DE76BB2BDCD`; its primary-haemostasis objective explicitly ends in arresting bleeding | delta |
+| `endothelial-injury-thrombosis` · A02,A04 | `endothelial injury thrombosis`; `atherosclerosis thrombus cause`; `endothelial damage clot`; `Virchow triad endothelium` | pending `CON-CVS-1DBCD5D81337B5` | collapse to Family-2 `thrombosis-definition-risk` |
+| `venous-stasis-thrombosis` · A03,A26 | `venous thrombosis stasis`; `slow blood flow thrombus`; `venous stasis clot`; `Virchow triad abnormal flow` | pending `CON-CVS-1DBCD5D81337B5` | collapse to Family-2 `thrombosis-definition-risk` |
+| `red-thrombus-venous-location` · A05 | `red thrombus veins`; `venous red thrombus`; `red clot vessel type`; `erythrocyte rich thrombus` | new; no same-scope record | delta |
+| `thrombus-morphologic-characteristics` · A06 | `thrombus morphology`; `firm friable thrombus`; `adherent thrombus wall`; `thrombus surface appearance` | new; organ-specific thrombus mentions do not supply the morphology set | delta |
+| `thrombus-versus-postmortem-clot` · A07 | `thrombus postmortem clot`; `antemortem versus postmortem clot`; `thrombus formed during life`; `postmortem blood clot` | new externally | related but not same scope as Family-2 `thrombosis-definition-risk`: Family 2 tests formation during life, while this handle tests the full antemortem-versus-postmortem comparison; delta |
+| `thrombosis-risk-factor-recognition` · A08 | `thrombosis risk factors`; `bed rest smoking thrombosis`; `heart disease thrombus risk`; `platelet count thrombosis risk` | pending `CON-CVS-1DBCD5D81337B5`; it assigns thrombosis risks to Virchow-triad arms | collapse to Family-2 `thrombosis-definition-risk` |
+| `lines-of-zahn-appearance` · A09 | `lines of Zahn`; `Zahn lines thrombus`; `alternating pale red layers`; `laminated thrombus` | new | delta |
+| `dic-systemic-coagulation-activation` · A10 | `DIC systemic coagulation activation`; `disseminated intravascular coagulation cause`; `consumption coagulopathy mechanism`; `widespread microthrombi` | pending `CON-HEM-33CFB175D5114C`, which states widespread clotting with consumptive bleeding | delta |
+| `venous-thrombosis-common-site` · A11 | `venous thrombosis common site`; `deep leg vein thrombosis`; `DVT lower limb`; `leg veins thrombus` | pending `ART-CVS-DVT`; its definition states deep vein thrombosis is most commonly in the lower limb | delta |
+| `occlusive-thrombus-definition` · A12 | `occlusive thrombus definition`; `small artery complete occlusion`; `mural versus occlusive thrombus`; `thrombus vessel lumen obstruction` | new; coronary occlusive-thrombus mentions are disease-specific | delta |
+| `dvt-pulmonary-embolism-pathway` · A13,A29 | `DVT pulmonary embolism`; `venous thrombus right heart lung`; `deep vein thromboembolism`; `pulmonary embolus source` | pending `ART-CVS-DVT` and the pending pulmonary-embolism-after-bed-rest question; both state the DVT-to-pulmonary-circulation route | delta |
+| `fat-embolism-fracture-association` · A14,A23 | `fat embolism bone fracture`; `fracture fat embolism syndrome`; `long bone fracture embolus`; `marrow fat bloodstream` | new | delta |
+| `air-embolism-definition` · A15 | `air embolism definition`; `air introduced circulation`; `gas embolus bloodstream`; `intravascular air` | new; live `CON-FND-8419792B7B2569` is the external-jugular injury mechanism, not the general definition | delta; Family-2 `embolism-definition-types` is a broader parent scope, not this subtype proposition |
+| `amniotic-fluid-embolism-labor-timing` · A16 | `amniotic fluid embolism labor`; `amniotic embolism uterine contractions`; `obstetric embolism timing`; `amniotic fluid circulation childbirth` | new | delta |
+| `septic-embolism-pyaemic-abscess` · A17 | `septic embolism pyaemic abscess`; `pyemic abscess embolus`; `infected embolus impaction`; `septic emboli metastatic abscess` | new externally | collapse to Family-1 `pyaemia-definition` |
+| `malignancy-hypercoagulability` · A18 | `malignancy hypercoagulability`; `tumor coagulation factor synthesis`; `cancer thrombosis risk`; `Trousseau syndrome mechanism` | new; Virchow-triad pending record names malignancy as a risk but does not state increased hepatic coagulation-factor production | delta |
+| `tumor-embolism-malignant-cells` · A19 | `tumor embolism malignant cells`; `malignant cell embolus`; `cancer cells bloodstream embolism`; `neoplastic emboli` | new | delta |
+| `thromboembolism-thrombus-detachment` · A20 | `thromboembolism thrombus detachment`; `detached thrombus embolus`; `thromboembolus origin`; `embolism from thrombus` | new externally; a DVT article alias does not define general thromboembolism | collapse to Family-2 `embolism-definition-types`, whose retained definition begins with detached intravascular material |
+| `thrombus-outcome-good-collaterals` · A21 | `thrombus good collateral circulation`; `collaterals transient ischemia`; `thrombus outcome ischemia`; `vascular occlusion collateral flow` | new | related but not same scope as Family-2 `thrombosis-outcomes`, which tests thrombus fate rather than the tissue effect of collaterals; delta |
+| `tumor-embolism-systemic-consequence` · A22 | `tumor embolism systemic issue`; `systemic tumor emboli`; `malignant embolism consequence`; `neoplastic vascular dissemination` | new | delta |
+| `cardiac-thrombus-systemic-embolism` · A24 | `cardiac thrombus systemic embolism`; `heart thrombus arterial blockage`; `left heart embolus systemic circulation`; `cardioembolic arterial occlusion` | new; myocardial mural-thrombus mentions do not state this complete route | delta |
+| `portal-venous-embolus-liver-infarction` · A25 | `portal vein embolus liver infarction`; `portal embolism hepatic infarct`; `portal venous occlusion liver`; `embolus portal circulation` | new | delta |
+| `fat-embolism-definition` · A27 | `fat embolism definition`; `fat globules bloodstream`; `marrow fat embolus`; `circulating fat droplets` | new; broader embolism-type records do not state this subtype proposition | delta |
+| `arterial-thrombus-aneurysm-site` · A28 | `arterial thrombus aneurysm`; `arterial thrombosis common site`; `aneurysm thrombus formation`; `abnormal flow arterial clot` | new; Laplace/aneurysm-growth records are different scope | delta |
+| `air-embolism-large-vein-trauma` · A30 | `air embolism large vein trauma`; `large vein injury air entry`; `external jugular air embolism`; `venous trauma gas embolus` | new; live `CON-FND-8419792B7B2569` is specific to the external jugular at its fascial piercing and does not cover the source's general large-vein-trauma scope | delta |
+
+### Family-3 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 3 | Cumulative after Family 3 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 58 | 215 |
+| Printed keys | 30 | 31 |
+| Retained question records after wording dedupe | 30 | 167 |
+| Source-distinct tested concepts | 26 | — |
+| External live / pending / no same-scope match | 0 / 7 / 19 | family-local disposition |
+| Family-3 handles already represented in Families 1–2 | 5 | subtract from Family-3 concept addition |
+| Cross-family concept delta | 21 | `26 - 5 = 21` |
+| **Cumulative distinct tested concepts** | **+21** | **139** |
+
+External arithmetic is `0 + 7 + 19 = 26`. The five prior-BMS-102 overlaps are three
+handles already represented by Family-2 `thrombosis-definition-risk`, one by Family-2
+`embolism-definition-types`, and one by Family-1 `pyaemia-definition`. They are separate
+from external disposition: several prior overlaps also have an external pending record.
+Cumulative arithmetic is `157 + 58 = 215` observed prompts, `1 + 30 = 31` printed keys,
+`137 + 30 = 167` retained records, and `118 + (26 - 5) = 139` distinct concepts.
+
+### Exact remaining debt after Family 3
+
+- The Circulatory 2 solved/unsolved pair is fully bounded: all 13 native pages were read,
+  all 58 prompt occurrences assigned, and all 30 printed keys counted once.
+- The remaining tier-3 BMS-102 pathology question rows include the other continuous-
+  assessment topics (for example Neoplasia 4) and other local question/revision banks.
+- All BMS-102 microbiology evidence remains S1 debt.
+- Tutorial 103/LCS material remains explicitly excluded from this lane. No S2 content,
+  IDs, imports, catalogue changes, or readiness claims are authorised without literal
+  `TRIAGE APPROVED` from `/root`.
