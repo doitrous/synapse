@@ -18,7 +18,12 @@ import { publishedQuestions } from './publishedQuestions.js'
 
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 const PINS_KEY = 'synapse-qotd-pins-v1'
-const HISTORY_LIMIT = 60
+// Bounds the per-user date window used for streaks. A daily feature can never
+// have a current streak longer than days-since-launch, so 400 (>1 year) means
+// `current` never caps in practice; `longest` only under-reports a true streak
+// beyond this window. Kept consistent between the personal and leaderboard
+// paths so their `current` values agree for any realistic streak.
+const HISTORY_LIMIT = 400
 
 /** Unsigned 32-bit FNV-1a. Mirrors the client's hash32 in src/data/qotdCohort.ts. */
 export function hashText(input) {
@@ -215,32 +220,56 @@ export async function recordQotdAnswer(userId, input) {
   const correct = answerIndex === key.correctIndex
   // INSERT IGNORE makes the day's answer immutable — a second submit is a no-op,
   // never an overwrite (the unique PK is (user_id, qotd_date)).
-  await pool.query(
+  const [result] = await pool.query(
     `INSERT IGNORE INTO qotd_answers
        (user_id, student_id, university_id, year, term, qotd_date, question_id, answer_index, correct)
      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
     [userId, profile.id, profile.universityId, profile.year, 'current', date, questionId, answerIndex, correct ? 1 : 0],
   )
+  // A duplicate submit was ignored: the authoritative answer is the one already
+  // stored, so report that — never the resubmission — even to a client that
+  // bypassed its own double-answer guard.
+  let effectiveCorrect = correct
+  if (result.affectedRows === 0) {
+    const [stored] = await pool.query(
+      'SELECT correct FROM qotd_answers WHERE user_id = ? AND qotd_date = ? LIMIT 1',
+      [userId, date],
+    )
+    if (stored.length) effectiveCorrect = Boolean(stored[0].correct)
+  }
   const dates = await answeredDates(userId)
   const { current, longest } = computeStreak(dates, date)
-  return { correct, correctIndex: key.correctIndex, current, longest }
+  return { correct: effectiveCorrect, correctIndex: key.correctIndex, current, longest }
 }
 
 export async function qotdLeaderboard(userId, { limit = 50 } = {}) {
   const profile = await studentProfile(userId)
   if (!profile?.universityId || !profile?.year) return { error: 'profile_incomplete' }
-  const [rows] = await pool.query(
-    `SELECT a.user_id AS userId,
-            COALESCE(s.username, CONCAT('student-', LEFT(s.id, 6))) AS username,
-            s.profile_icon AS profileIcon,
-            COUNT(*) AS totalAnswered,
-            SUM(a.correct = 1) AS totalCorrect,
-            GROUP_CONCAT(DATE_FORMAT(a.qotd_date, '%Y-%m-%d')) AS dates
-       FROM qotd_answers a JOIN students s ON s.id = a.student_id
-      WHERE a.university_id = ? AND a.year = ? AND a.term = 'current'
-      GROUP BY a.user_id, s.username, s.profile_icon, s.id`,
-    [profile.universityId, profile.year],
-  )
+  // The current-streak ranking is computed from each student's answered dates.
+  // GROUP_CONCAT is bounded by group_concat_max_len (default ~1024 bytes ≈ 93
+  // dates) and, unordered, would truncate in undefined order — dropping exactly
+  // the recent dates the streak needs. Run on one dedicated connection so the
+  // raised session limit applies to the SELECT, and order the concat DESC so
+  // recent dates are the ones that survive if the cap is ever reached.
+  const conn = await pool.getConnection()
+  let rows
+  try {
+    await conn.query('SET SESSION group_concat_max_len = 1000000')
+    ;[rows] = await conn.query(
+      `SELECT a.user_id AS userId,
+              COALESCE(s.username, CONCAT('student-', LEFT(s.id, 6))) AS username,
+              s.profile_icon AS profileIcon,
+              COUNT(*) AS totalAnswered,
+              SUM(a.correct = 1) AS totalCorrect,
+              GROUP_CONCAT(DATE_FORMAT(a.qotd_date, '%Y-%m-%d') ORDER BY a.qotd_date DESC) AS dates
+         FROM qotd_answers a JOIN students s ON s.id = a.student_id
+        WHERE a.university_id = ? AND a.year = ? AND a.term = 'current'
+        GROUP BY a.user_id, s.username, s.profile_icon, s.id`,
+      [profile.universityId, profile.year],
+    )
+  } finally {
+    conn.release()
+  }
   const today = cairoDate(new Date())
   const ranked = rows
     .map((r) => ({
@@ -282,7 +311,6 @@ export async function qotdFriends(userId) {
   const friends = rows.map((r) => ({
     userId: r.userId, name: r.name, answered: Boolean(r.answered),
     correct: viewerAnswered && r.answered ? Boolean(r.correct) : null,
-    current: 0,
   }))
   return { date, viewerAnswered, friends }
 }

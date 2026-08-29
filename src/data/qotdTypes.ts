@@ -64,7 +64,6 @@ export interface QotdFriendRow {
   answered: boolean
   /** null until the viewer has answered today (no spoilers). */
   correct: boolean | null
-  current: number
 }
 
 export interface QotdFriendsResponse {

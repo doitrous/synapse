@@ -35,9 +35,9 @@ export function Sidebar({
   const identity = useIdentity()
   const groups = navFor(portal, identity.tabs)
   const escalationCount = useOpenEscalationCount()
-  // Cheap once-per-mount read (identity + the published pool, already used
-  // elsewhere in the shell); only the student sidebar renders the dot it feeds.
-  const qotd = useQotd()
+  // Only the student sidebar renders the dot this feeds, so the hook does no
+  // work (and makes no request) off the student app.
+  const qotd = useQotd(portal === 'student')
   const qotdUnanswered = portal === 'student' && !qotd.loading && !qotd.answered
   // `audience`, not `profile`: the roster record is authoritative but often
   // absent, and `audience` is the merge of it with what the student told

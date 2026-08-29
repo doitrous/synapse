@@ -28,6 +28,10 @@ import {
  * Demo: the identical selection algorithm (Lane A) runs locally over the
  * published pool, and the answer log lives in a local `app_state` document
  * (localStorage in demo, per `usePersistentState`).
+ *
+ * `enabled` lets a caller mounted in every portal (the sidebar badge) skip all
+ * work off the student app — with it false the hook makes no request and
+ * returns an inert, unanswered state.
  */
 export interface QotdState {
   loading: boolean
@@ -43,8 +47,9 @@ export interface QotdState {
 }
 
 const EMPTY_HISTORY: string[] = []
+const NOOP_ANSWER = async (): Promise<void> => {}
 
-export function useQotd(): QotdState {
+export function useQotd(enabled = true): QotdState {
   const identity = useIdentity()
   const questions = usePublishedQuestions()
   const questionsById = useMemo(() => new Map(questions.map((q) => [q.id, q] as const)), [questions])
@@ -52,10 +57,10 @@ export function useQotd(): QotdState {
 
   /* ---- live mode: server is authoritative ---------------------------- */
   const [live, setLive] = useState<QotdTodayResponse | null>(null)
-  const [liveLoading, setLiveLoading] = useState(API_MODE)
+  const [liveLoading, setLiveLoading] = useState(API_MODE && enabled)
 
   const loadLive = useCallback(async () => {
-    if (!API_MODE) return
+    if (!API_MODE || !enabled) return
     setLiveLoading(true)
     try {
       setLive(await apiGet<QotdTodayResponse>('/qotd/today'))
@@ -64,9 +69,14 @@ export function useQotd(): QotdState {
     } finally {
       setLiveLoading(false)
     }
-  }, [])
+  }, [enabled])
 
-  useEffect(() => { void loadLive() }, [loadLive])
+  // Refetch when the cohort resolves (e.g. onboarding completes mid-session and
+  // the profile gains a university/year), not only on remount.
+  useEffect(() => {
+    void loadLive()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loadLive, identity.audience.universityId, identity.audience.year])
 
   /* ---- demo mode: identical selection, run locally -------------------- */
   // Demo candidates carry no curriculum scope tags — the student `Question`
@@ -81,10 +91,15 @@ export function useQotd(): QotdState {
     year: identity.audience.year,
     yearId: identity.audience.yearId,
   }
-  // The admin pin document. Read in both modes so the demo selector honours a
-  // pin exactly as the server does in live mode; the live branch ignores the
-  // result (it never calls the local selector), so registering it is harmless.
-  const [pins] = usePersistentState<QotdPins>(QOTD_PINS_KEY, {})
+  // The admin pin document, read straight from localStorage in demo mode so the
+  // local selector honours a pin exactly as the server does in live mode. Read
+  // directly rather than via usePersistentState because that hook would hydrate
+  // the shared key from the server in live mode — a request a student is not
+  // authorised to make (it 403s) and whose result the live branch never uses.
+  const pins = useMemo<QotdPins>(() => {
+    if (API_MODE || !enabled || typeof window === 'undefined') return {}
+    try { return JSON.parse(window.localStorage.getItem(QOTD_PINS_KEY) ?? '{}') as QotdPins } catch { return {} }
+  }, [enabled])
   const demoQuestionId = useMemo(
     () => selectQotdId(candidates, cohort, date, pins),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -137,6 +152,15 @@ export function useQotd(): QotdState {
     setLocalAnswers((prev) => [...prev, { date, questionId: demoQuestionId, answerIndex: index, correct: wasCorrect }])
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [answered, live?.questionId, demoQuestionId, questionsById, date, setLocalAnswers])
+
+  // Disabled (e.g. the sidebar badge off the student app): report a stable,
+  // unanswered, request-free state. All hooks above still ran, so order holds.
+  if (!enabled) {
+    return {
+      loading: false, date, question: null, answered: false, answerIndex: null,
+      correct: null, current: 0, longest: 0, history: EMPTY_HISTORY, answer: NOOP_ANSWER,
+    }
+  }
 
   return { loading, date, question, answered, answerIndex, correct, current, longest, history, answer }
 }
