@@ -57,6 +57,17 @@ struct SignedInView: View {
             // before drawing itself.
             await assistant.loadStatus()
         }
+        // A tapped reminder routes here, once there is a tab bar to route
+        // it to. The native app has no dedicated Question of the Day screen
+        // yet (that lives on the web app today — see
+        // docs/superpowers/plans/2026-08-29-question-of-the-day-reminders.md,
+        // Lane R3); Today is the closest existing destination and where a
+        // native QotD surface would most likely land.
+        .onChange(of: PushRegistrar.shared.pendingRoute) { _, route in
+            guard route != nil else { return }
+            tab = .today
+            _ = PushRegistrar.shared.consumePendingRoute()
+        }
     }
 
     /// Five tabs, deliberately.
@@ -115,7 +126,7 @@ struct SignedInView: View {
             // which then refreshes through the ordinary path. Set before the
             // first refresh so a nudge arriving during it is not dropped.
             PushRegistrar.shared.onNudge = { [weak sync] in await sync?.refresh() }
-            PushRegistrar.shared.start(api: auth.api)
+            await PushRegistrar.shared.start(api: auth.api)
 
             await sync.refresh()
             // After the sync: resolving the cohort needs the universities
