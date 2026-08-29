@@ -3972,3 +3972,58 @@ pages under `Microbiology / Notes and Summaries`. The manifest marks it as the n
 name twin of `src_cffa6fc24a66eb43efbe`; it therefore requires a bounded eight-page provenance,
 prompt-versus-teaching, answer-convention, and exact-byte/twin adjudication gate before any
 count is accepted.
+
+## Family 31 — tier-6 Antimicrobial Chemotherapy part 2 non-preferred-twin gate
+
+### Exact manifest/twin adjudication before any content count
+
+| Field | Verified result |
+|---|---|
+| Candidate source | `src_f99d5dfc770975400c78` · `Helwan S2 Micro Antimicrobial chemotherapy part 2..pdf` |
+| Candidate SHA-256 / size / boundary | `f99d5dfc770975400c785cb1b1484b8b50ec07d8072e8c0058682e828ec55a72` · 346,398 bytes · eight native-text pages |
+| Candidate manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6 · `twinPreferred: false` |
+| Preferred twin | `src_cffa6fc24a66eb43efbe` · `Helwan S2 Micro Antimicrobial chemotherapy part 2.pdf` |
+| Preferred SHA-256 / size / boundary | `cffa6fc24a66eb43efbe51993e5477f42863012f2b9caa546ce13de8e1de99d4` · 379,006 bytes · nine native-text pages · `twinPreferred: true` |
+| Byte comparison | **different**: recomputed SHA-256s differ and `cmp` confirms different bytes; this is not an exact duplicate. |
+| Visible provenance | Both files have the same Mustafa Elsudani PDF author/title metadata. Candidate p. 1 begins at printed page 8; preferred p. 1 begins at printed page 7, confirming distinct source boundaries rather than an exact path duplicate. |
+
+The candidate is nevertheless manifest-marked as the **non-preferred name twin** of the preferred
+nine-page source. Under the ranked source/twin rule it is not independently countable, even
+though its bytes differ: no candidate prompt/answer/key inventory, search register, concept
+handle, source disposition, or cross-family delta is admitted. The candidate's first-page
+teaching text was used only to confirm the printed-boundary distinction; this is not a
+content-family read or source-content import.
+
+The countable next treatment is **only** a bounded full-source gate for preferred
+`src_cffa6fc24a66eb43efbe`: render/read its nine pages, establish its own teaching-versus-prompt
+and answer-convention boundary, then determine any source-first overlap. It must not inherit
+counts from the non-preferred candidate merely because the names are twins.
+
+### Family-31 zero-delta checkpoint
+
+| Measure | Family 31 non-preferred gate | Auxiliary cumulative (Families 12–30) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 181 | 765 | 946 |
+| Printed study-answer occurrences | 0 | 125 | 405 | 530 |
+| Retained question records | 0 | 178 | 552 | 730 |
+| Source-distinct tested handles | 0 | 176 | — | — |
+| Required searches | 0 | — | — | no countable prompt-derived handle |
+| Cross-family concept delta | +0 | +142 over primary | — | `372 + 142 = 514` |
+| **Distinct tested concepts** | **+0** | **142 auxiliary additions** | **372** | **514** |
+
+Twin-gate arithmetic is `0` observed prompts, `0` printed answers, `0` retained records,
+`0` handles, `0` searches and `+0` concepts. The primary checkpoint remains
+**765 / 405 / 552 / 372**; auxiliary cumulative remains **181 / 125 / 178 / 176 / +142**; and
+all eligible S1 evidence remains **946 / 530 / 730 / 514**. This gate cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status; no readiness or claims
+file change is warranted.
+
+### Exact next debt after Family 31
+
+`src_f99d5dfc770975400c78` is fully resolved as a non-preferred-name-twin gate and has no
+resume boundary. The next mandated local BMS-102 treatment is its preferred twin
+`src_cffa6fc24a66eb43efbe` · `Helwan S2 Micro Antimicrobial chemotherapy part 2.pdf`,
+SHA-256 `cffa6fc24a66eb43efbe51993e5477f42863012f2b9caa546ce13de8e1de99d4`, nine native-text
+pages under `Microbiology / Notes and Summaries`. It requires its own complete nine-page
+provenance, prompt-versus-teaching, answer-convention and source-first overlap gate before any
+count is accepted.
