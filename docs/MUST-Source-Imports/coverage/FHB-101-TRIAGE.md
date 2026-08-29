@@ -1351,3 +1351,29 @@ At source-concept level this family is live 0 / pending 5 / new 13.  After withi
 **Remaining file list:** 95 selected inventory paths / 90 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `ae5428d6eda6bd04d6dae2725bb890fa3092912ba19393e7dc6df83d48315681`.  By the pinned triage text classification, it contains 51 substantive-text, six sparse-text, and 38 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 95 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
+
+## Continuation pass — Physiology WBC final-slide family
+
+The asserted starting remaining-hash checksum `ae5428d6eda6bd04d6dae2725bb890fa3092912ba19393e7dc6df83d48315681` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 90 hashes before this pass.  The next evidence-ranked unread substantive local FHB source is the 20-page Physiology WBC final-slide paper, ahead of the remaining 56- and 101-page EOM papers.  All 20 pages were rendered and read.  It is a lecture-slide deck rather than an exam: pages 1–19 are titled exposition on WBCs, ABO/Rh groups, and transfusion, while page 20 is a decorative closing slide.  None contains a printed question, answer-key entry, blank, or answer-marking convention.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Physiology/06 EOM Exams/EOM - 10- (❌FINAL) WBCs.pdf` | `492fc275403ca0435a94d678378c2c8d444248134d1a0621d7476952eab8db41` | 20 | 0 | 0 |
+
+### Printed-prompt and search ledgers
+
+The assignment ledger has zero rows and the search ledger has zero rows: no page contains an observed prompt to assign or a printed key to recover.  The deck's topical headings and explanatory slide text are not reclassified as prompts, composite prompts, or answers.  Deriving concepts or conducting deduplication searches from those headings would be inference outside the printed-question-only triage rule.  The two ledgers therefore reconcile exactly as `0 assignments ↔ 0 searches`, with no source-level collapse and no live, pending, or new concept delta.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Physiology WBC final-slide family) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Observed delta:** +0 questions, +0 printed keys / answers, +0 source-distinct tested concepts / +0 after within-source and cross-source deduplication.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology WBC final-slide family
+
+**Remaining file list:** 94 selected inventory paths / 89 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `82ac56f5828f613581daa1fbf4f1a90de41ad8b79a2f7e088263173528784c4a`.  By the pinned triage text classification, it contains 50 substantive-text, six sparse-text, and 38 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 94 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
