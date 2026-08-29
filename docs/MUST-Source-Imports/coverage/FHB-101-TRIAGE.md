@@ -110,3 +110,120 @@ The source contributes three question-to-concept assignments but only one newly 
 **Remaining file list:** 111 selected inventory paths / 104 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `abae3dd35968a276f9c70c0c96480719e3b8d113c18c4afc5cf63b8366bcab04`.  It contains 66 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 111 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — final revision MCQs, Fall 2023–2024 answered duplicate family
+
+The asserted starting remaining-hash checksum `abae3dd35968a276f9c70c0c96480719e3b8d113c18c4afc5cf63b8366bcab04` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 104 hashes before this pass.  The next selected unread substantive EOM family is the exact two-path duplicate below.  All ten pages were rendered and read; grey highlighting identifies every printed answer, so all 48 keys below are transcribed from the page rather than inferred.
+
+| Inventory paths (both `06 EOM Exams`) | SHA-256 | Pages | Printed questions read | Printed keys recovered |
+|---|---|---:|---:|---:|
+| `Year 1/Semester 101/FHB 101/Anatomy/06 EOM Exams/EOM MCQs - FHB revision (Final Fall 2023-2024) - answered (2).pdf`; `Year 1/Semester 101/FHB 101/Physiology/06 EOM Exams/EOM MCQs - FHB revision (Final Fall 2023-2024) - answered (2).pdf` | `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f` | 10 | 48 | 48 |
+
+Although carried in both departmental inventory folders, this is one exact document and is counted once.  Its printed content is blood/erythropoiesis physiology; no Anatomy-specific item was manufactured from the duplicate path.
+
+| Q | Printed answer recovered | Assigned tested concept |
+|---:|---|---|
+| 1 | `d. Late erythroblast` | Haemoglobin accumulation during erythroblast maturation |
+| 2 | `d. Third trimester of intrauterine life` | Fetal-to-medullary haematopoietic-site transition |
+| 3 | `a. Ferritin` | Intracellular ferric-iron storage |
+| 4 | `b. It enhances formation and docking of ferroportin` | Hepcidin–ferroportin regulation of iron export |
+| 5 | `d. It increases hepcidin formation and secretion` | Erythroferrone regulation of hepcidin |
+| 6 | `b. Intrinsic factor` | Intrinsic-factor-dependent vitamin B12 absorption |
+| 7 | `d. Newly born infants` | Physiological polycythaemia / neonatal haemoglobin |
+| 8 | `c. Acid-base buffer` | Globin moiety and haemoglobin buffering |
+| 9 | `b. Carriage of oxygen molecules` | Heme moiety and oxygen binding |
+| 10 | `d. Glycosylated hemoglobin` | HbA1c as glycaemic-control marker |
+| 11 | `a. Eryptosis` | Programmed erythrocyte death |
+| 12 | `c. Sepsis` | Sepsis as an eryptosis-promoting factor |
+| 13 | `a. Hyperdynamic circulation` | Clinical effects of polycythaemia / raised viscosity |
+| 14 | `a. Normocytic normochromic` | Acute blood-loss anaemia pattern |
+| 15 | `a. 85-90 femtoliter` | Normal mature-red-cell volume (MCV) |
+| 16 | `d. Rouleaux formation` | Rouleaux formation |
+| 17 | `a. Spleen` | Reticuloendothelial clearance of old erythrocytes |
+| 18 | `d. High barometric pressure increases erythrocyte count in peripheral blood` | Physiological polycythaemia / neonatal haemoglobin |
+| 19 | `b. Determination of blood grouping` | Erythrocyte-membrane versus cytoplasmic functions |
+| 20 | `c. It is impermeable to ions and inorganic solutes` | Erythrocyte-membrane properties |
+| 21 | `d. Hemoglobin content is decrease by ≥ 50% normal` | Severe-anaemia transfusion threshold (as printed) |
+| 22 | `d. Reticulocyte` | Reticulocytes in marrow and peripheral blood |
+| 23 | `c. Testosterone` | Testosterone stimulation of erythropoiesis |
+| 24 | `c. It is downregulated by erythroferrone` | Hepcidin–ferroportin regulation of iron export |
+| 25 | `d. It increases hepcidin formation and secretion` | Erythroferrone regulation of hepcidin |
+| 26 | `d. Chronic inflammation` | Hepcidin–ferroportin regulation of iron export |
+| 27 | `c. Erythropoietin (EPO)` | Erythropoietin-stimulated erythropoiesis |
+| 28 | `c. Calcium salts` | Dietary calcium and intestinal iron absorption |
+| 29 | `b. Folic acid is important to RBC maturation` | Folate in erythroid maturation (printed wrong-statement choice) |
+| 30 | `d. Vitamin B12 (Cobalamin)` | Vitamin B12 dietary source |
+| 31 | `d. Red bone marrow of irregular bones` | Age-related distribution of active red marrow |
+| 32 | `a. Anemia caused by BM depression is characterized by low MVC & low MCH` | Bone-marrow-depression anaemia pattern (printed incorrect-statement choice) |
+| 33 | `a. 2 alpha and 2 beta chains` | Adult haemoglobin globin-chain composition |
+| 34 | `b. Red bone marrow` | Age-related distribution of active red marrow |
+| 35 | `a. Vitamin B12 deficiency` | Vitamin-B12 deficiency and defective erythrocyte maturation |
+| 36 | `c. Mean corpuscular volume (MCV) is about 87 cubic µm` | Normal mature-red-cell volume (MCV) |
+| 37 | `b. Is produced by the gastric parietal cells` | Intrinsic-factor-dependent vitamin B12 absorption |
+| 38 | `a. It is not found in the vertebrae of adults` | Age-related distribution of active red marrow |
+| 39 | `d. Is decreased if the stomach loses the ability to produce a normal gastric juice` | Intrinsic-factor-dependent vitamin B12 absorption |
+| 40 | `d. Hypertension` | Incompatible-transfusion consequences |
+| 41 | `b. Group O Rh -ve` | ABO/Rh blood compatibility |
+| 42 | `c. Carbon monoxide` | Carbon-monoxide affinity for haemoglobin |
+| 43 | `d. Iron is present in adult normal hemoglobin in ferric form` | Haemoglobin iron oxidation state (printed incorrect-statement choice) |
+| 44 | `d. Living at high altitudes` | Physiological polycythaemia / neonatal haemoglobin |
+| 45 | `b. Iron deficiency anemia is microcytic` | Iron-deficiency microcytic anaemia |
+| 46 | `b. They are responsible for the major part of blood viscosity` | Erythrocyte contribution to blood viscosity |
+| 47 | `b. Takes place in the reticuloendothelial system` | Reticuloendothelial clearance of old erythrocytes |
+| 48 | `c. It produces aplastic anemia` | Vitamin-B12 deficiency and defective erythrocyte maturation |
+
+The family yields 33 distinct source concepts after within-paper collapse.  Six map to concepts already represented in the completed sources (intrinsic-factor/B12 absorption; polycythaemia; MCV/anaemia classification; erythropoietic response to hypoxia/EPO; B12-dependent maturation; iron-deficiency microcytosis), so it adds 27 cumulative distinct concepts.
+
+## Tested-concept search ledger — Fall 2023–2024 family
+
+Every source-distinct concept was checked with the manual search tool against both its compact distinctive term and a separate synonym/phrase recorded in the table.  `live-hit` and `pending-hit` mean the tool returned a live or unimported record respectively; no identifier is proposed here.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Haemoglobin accumulation during erythroblast maturation (`late erythroblast`; `erythroblast hemoglobin`) | new — TBD |
+| Fetal-to-medullary haematopoietic-site transition (`fetal hematopoiesis`; `marrow third trimester`) | new — TBD |
+| Intracellular ferric-iron storage (`ferritin`; `intracellular iron`) | pending-hit |
+| Hepcidin–ferroportin regulation of iron export (`hepcidin`; `ferroportin`) | pending-hit |
+| Erythroferrone regulation of hepcidin (`erythroferrone`; `erythroferrone hepcidin`) | new — TBD |
+| Intrinsic-factor-dependent vitamin B12 absorption (`intrinsic factor`; `cobalamin gastric`) | pending-hit; already represented in the completed-source ledger |
+| Physiological polycythaemia / neonatal haemoglobin (`neonatal hemoglobin`; `physiological polycythemia`) | pending-hit through the earlier `polycythaemia` result |
+| Globin moiety and haemoglobin buffering (`globin buffer`; `hemoglobin acid-base`) | new — TBD |
+| Heme moiety and oxygen binding (`heme oxygen`; `haem oxygen`) | pending-hit |
+| HbA1c as glycaemic-control marker (`glycosylated hemoglobin`; `HbA1c`) | pending-hit |
+| Programmed erythrocyte death / its sepsis trigger (`eryptosis`; `sepsis eryptosis`) | new — TBD |
+| Acute blood-loss anaemia pattern (`acute blood loss`; `normocytic anemia`) | live-hit |
+| Normal mature-red-cell volume (MCV) (`mean corpuscular volume`; `MCV`) | pending-hit; already represented in the completed-source ledger |
+| Rouleaux formation (`rouleaux`; `red cell aggregation`) | pending-hit |
+| Reticuloendothelial clearance of old erythrocytes (`erythrocyte breakdown`; `reticuloendothelial`) | live-hit |
+| Erythrocyte-membrane functions and properties (`erythrocyte membrane`; `RBC membrane`) | live-hit |
+| Severe-anaemia transfusion threshold (`blood transfusion threshold`; `anemia transfusion`) | new — TBD |
+| Reticulocytes in marrow and peripheral blood (`reticulocyte`; `circulating reticulocytes`) | live-hit |
+| Testosterone stimulation of erythropoiesis (`testosterone erythropoiesis`; `androgen erythropoiesis`) | new — TBD |
+| Erythropoietin-stimulated erythropoiesis (`erythropoietin`; `EPO erythroid`) | pending-hit; already represented in the completed-source ledger |
+| Dietary calcium and intestinal iron absorption (`calcium iron`; `iron absorption calcium`) | new — TBD |
+| Folate in erythroid maturation (`folate`; `folic acid`) | pending-hit |
+| Vitamin B12 dietary source (`vitamin B12`; `cobalamin`) | pending-hit |
+| Age-related distribution of active red marrow (`active marrow`; `red marrow distribution`) | new — TBD |
+| Bone-marrow-depression anaemia pattern (`bone marrow depression anemia`; `marrow failure anemia`) | new — TBD |
+| Adult haemoglobin globin-chain composition (`adult hemoglobin`; `alpha beta globin`) | live-hit |
+| Vitamin-B12 deficiency and defective erythrocyte maturation (`B12 maturation`; `megaloblastic`) | pending-hit; already represented in the completed-source ledger |
+| Incompatible-transfusion consequences (`incompatible transfusion`; `transfusion reaction`) | live-hit |
+| ABO/Rh blood compatibility (`blood compatibility`; `ABO Rh`) | new — TBD |
+| Carbon-monoxide affinity for haemoglobin (`carbon monoxide`; `carboxyhemoglobin`) | live-hit |
+| Haemoglobin iron oxidation state (`ferrous iron`; `hemoglobin iron`) | new — TBD |
+| Iron-deficiency microcytic anaemia (`iron deficiency`; `microcytic`) | live-hit; already represented in the completed-source ledger |
+| Erythrocyte contribution to blood viscosity (`erythrocyte viscosity`; `hematocrit viscosity`) | new — TBD |
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources: 2026 duplicate family + Anatomy EOM Fall 2025 + Fall 2023–2024 answered duplicate family) | 87 | 59 | 64 | 19 | 20 | 25 | TBD |
+
+**Observed delta:** +48 questions, +48 printed keys, +33 source-distinct tested concepts / +27 after cross-source deduplication.  The cumulative search buckets reconcile exactly: `19 + 20 + 25 = 64`; no module ID, content record, or placement was created.
+
+## Remaining sources / blocker — after Fall 2023–2024 family
+
+**Remaining file list:** 109 selected inventory paths / 103 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `ac1ee45623f6a35a97b87170181f14bf12e50b512c8f6be2c668ab5cca8f7291`.  It contains 64 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 109 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
