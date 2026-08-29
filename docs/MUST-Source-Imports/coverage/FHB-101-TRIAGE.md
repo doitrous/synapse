@@ -725,3 +725,105 @@ At source-concept level this family is live 3 / pending 4 / new 4.  The 29 print
 **Remaining file list:** 101 selected inventory paths / 96 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `214570ae28dbef1ba4e2ff6e580e3f27dd0f5e4dee0fb522bd71d20b8fe9c938`.  By the pinned triage text classification, it contains 56 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 101 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — Histology BMS 101 final training questions
+
+The asserted starting remaining-hash checksum `214570ae28dbef1ba4e2ff6e580e3f27dd0f5e4dee0fb522bd71d20b8fe9c938` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 96 hashes before this pass.  The next evidence-ranked unread substantive `06 EOM Exams` source is the bounded five-page Histology BMS 101 final-training paper, ahead of the remaining 17-page and 59-page substantive Physiology EOM papers.  All five pages were rendered and read.  The paper prints prompts and options only: it contains no printed, highlighted, or model-answer key.  No answer was inferred, medically corrected, or supplied from any other source.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Histology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - Training questions BMS 101 (final).pdf` | `23248abb15aad2399e99a4cf7c5d0d0aca0070287efb5e24739a982b83c8fafa` | 5 | 37 | 0 |
+
+### Printed-prompt assignment ledger
+
+The visible crossed-out Cell-division MCQ 4 is retained as a read printed prompt, explicitly marked below; its strike-through is not a key.  Each numbered short question is counted as one printed prompt even where it contains several blanks.
+
+| Source ref | Printed prompt read | Assigned tested concept |
+|---|---|---|
+| I-Q1 | Protein-forming-cell features, `EXCEPT` | Smooth versus rough endoplasmic reticulum |
+| I-Q2 | Endogenous cytoplasmic pigments, `EXCEPT` | Endogenous cytoplasmic pigments |
+| I-Q3 | Ribosomes, false statement | Ribosome structure and forms |
+| I-Q4 | Transfer vesicles, `EXCEPT` | Golgi transfer vesicles and protein modification |
+| I-Q5 | Euchromatin features, `EXCEPT` | Euchromatin versus heterochromatin |
+| I-Q6 | Demonstration of glycogen | PAS glycogen histochemistry |
+| I-Q7 | Meaning of supravital staining | Supravital staining |
+| I-Q8 | Organelle containing DNA | Mitochondrial structure and functions |
+| I-Q9 | Smooth-endoplasmic-reticulum functions, `EXCEPT` | Smooth versus rough endoplasmic reticulum |
+| I-Q10 | Nucleolus characters, `EXCEPT` | Nucleolus structure and associated chromatin |
+| I-Q11 | True statement about mitosis | Mitosis versus meiosis |
+| I-Q12 | Electron-microscopic nuclear-heterochromatin distribution, `EXCEPT` | Euchromatin versus heterochromatin |
+| I-Q13 | Centriole cross-section by electron microscopy | Centriole microtubule arrangement |
+| I-Q14 | Golgi-apparatus statements, `EXCEPT` | Golgi transfer vesicles and protein modification |
+| I-Q15 | Fate of free-polysome-synthesised protein | Free polysomes and cytoplasmic protein synthesis |
+| I-Q16 | Lysosome statements, `EXCEPT` | Primary and secondary lysosomes |
+| I-SQ1 | rER abundance/basophilia and sER glycogen synthesis | Smooth versus rough endoplasmic reticulum |
+| I-SQ2 | Organelles producing primary lysosomes and energy | Golgi transfer vesicles and protein modification; Mitochondrial structure and functions |
+| I-SQ3 | Two cytoplasmic intermediate-filament types and sites | Intermediate filaments |
+| I-SQ4 | Four secondary-lysosome types | Primary and secondary lysosomes |
+| I-SQ5 | Four components of the nucleus | Nuclear components |
+| II-Q1 | Chromosomal inversion | Numerical and structural chromosomal aberrations |
+| II-Q2 | Classification of nerve cells | Non-renewing, potentially renewable, and continuously renewing cells |
+| II-Q3 | Chromosomes at the end of mitotic telophase | Chromosome state at telophase |
+| II-Q4 | Meiosis-I prophase stage of crossing over (visibly crossed out) | Meiotic crossing-over stage |
+| II-Q5 | Metaphase features, `EXCEPT` | Mitosis stages and their features |
+| II-Q6 | Mitosis stage where nucleolus/nuclear membrane disappear | Mitosis stages and their features |
+| II-Q7 | Isochromosomes | Numerical and structural chromosomal aberrations |
+| II-Q8 | False statement about Barr body | Barr body (sex chromatin) |
+| II-Q9 | Continuously renewing cells | Non-renewing, potentially renewable, and continuously renewing cells |
+| II-Q10 | Down-syndrome characteristics, `EXCEPT` | Down syndrome trisomy 21 |
+| II-Q11 | Centromere position in metacentric chromosome | Chromosome classification by centromere position |
+| II-SQ1 | Mitosis-versus-meiosis comparison | Mitosis versus meiosis |
+| II-SQ2 | Barr-body appearance and associated syndromes | Barr body (sex chromatin) |
+| II-SQ3 | Chromosome types by centromere site | Chromosome classification by centromere position |
+| II-SQ4 | Sex-chromosome numerical-abnormality examples | Sex-chromosome aneuploidy |
+| II-SQ5 | Interphase stages | Interphase stages |
+
+The 37 visible prompts collapse to 25 source-distinct tested concepts.  Seven are already represented in the completed FHB ledger: smooth-versus-rough ER, ribosome structure, mitochondrial structure, numerical/structural chromosomal aberrations, mitosis stages, Barr body, and mitosis versus meiosis.  This family therefore adds 18 cumulative distinct concepts.
+
+### Tested-concept search ledger — Histology BMS 101 final-training family
+
+Each source-distinct concept was searched with the manual tool using both phrases shown, across live state and every pending import root.  A live result takes precedence over pending.  The seven FHB duplicates add no new cumulative bucket even where the manual's current result differs from their earlier classification.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Smooth versus rough endoplasmic reticulum (`protein forming cells`; `rough endoplasmic reticulum`) | live-hit; already triaged in FHB |
+| Endogenous cytoplasmic pigments (`endogenous cytoplasmic pigments`; `lipofuscin melanin`) | new — TBD |
+| Ribosome structure and forms (`ribosome structure`; `ribosome rRNA`) | pending-hit; already triaged in FHB |
+| Golgi transfer vesicles and protein modification (`Golgi transfer vesicles`; `Golgi protein modification`) | new — TBD |
+| Euchromatin versus heterochromatin (`euchromatin`; `active chromatin`; `nuclear heterochromatin`; `peripheral chromatin`) | pending-hit; both Cell-section prompts collapse here |
+| PAS glycogen histochemistry (`PAS glycogen stain`; `glycogen histochemistry`) | new — TBD |
+| Supravital staining (`supravital staining`; `vital cell stain`) | new — TBD |
+| Mitochondrial structure and functions (`mitochondrial DNA`; `mitochondrial genome`) | pending-hit; already triaged in FHB |
+| Nucleolus structure and associated chromatin (`nucleolus structure`; `nucleolus associated chromatin`) | new — TBD |
+| Centriole microtubule arrangement (`centriole microtubules`; `centriole triplets`) | new — TBD |
+| Free polysomes and cytoplasmic protein synthesis (`free polysomes`; `cytoplasmic protein synthesis`) | new — TBD |
+| Primary and secondary lysosomes (`lysosome function`; `secondary lysosomes`) | pending-hit |
+| Intermediate filaments (`intermediate filaments`; `cytoplasmic intermediate filaments`) | pending-hit |
+| Nuclear components (`nucleus components`; `nuclear envelope chromatin nucleolus`) | new — TBD |
+| Numerical and structural chromosomal aberrations (`chromosome inversion`; `structural chromosomal inversion`) | pending-hit; already triaged in FHB |
+| Non-renewing, potentially renewable, and continuously renewing cells (`continuously renewing cells`; `labile cells`) | pending-hit |
+| Chromosome state at telophase (`telophase chromosomes`; `mitosis chromosomes telophase`) | new — TBD |
+| Meiotic crossing-over stage (`meiotic crossing over`; `pachytene crossing over`) | new — TBD |
+| Mitosis stages and their features (`metaphase features`; `prophase nuclear membrane`) | new — TBD; already triaged in FHB |
+| Barr body (sex chromatin) (`Barr body`; `sex chromatin`) | pending-hit; already triaged in FHB |
+| Down syndrome trisomy 21 (`Down syndrome trisomy 21`; `Down syndrome karyotype`) | new — TBD |
+| Chromosome classification by centromere position (`metacentric chromosome`; `centromere chromosome classification`) | new — TBD |
+| Mitosis versus meiosis (`mitosis meiosis`; `mitosis versus meiosis`) | pending-hit; already triaged in FHB |
+| Sex-chromosome aneuploidy (`sex chromosome aneuploidy`; `Turner Klinefelter`) | new — TBD |
+| Interphase stages (`interphase stages`; `G1 S G2`) | new — TBD |
+
+At source-concept level this family is live 1 / pending 9 / new 15.  After within-source collapse and cross-source deduplication, its cumulative delta is live 0 / pending 4 / new 14.  No module ID, content record, placement, source, or catalogue entry was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Histology BMS 101 final-training family) | 392 | 326 | 213 | 56 | 61 | 96 | TBD |
+
+**Observed delta:** +37 questions, +0 printed keys/answers, +25 source-distinct tested concepts / +18 after within-source and cross-source deduplication.  The cumulative search buckets reconcile exactly: `56 + 61 + 96 = 213`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Histology BMS 101 final-training family
+
+**Remaining file list:** 100 selected inventory paths / 95 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `22f41bd70b97225d0aa8ae97046d962331f5a3673576ed82bb53eebc991c57b2`.  By the pinned triage text classification, it contains 55 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 100 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
