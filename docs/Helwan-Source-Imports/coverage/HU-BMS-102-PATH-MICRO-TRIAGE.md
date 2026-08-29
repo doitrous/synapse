@@ -4787,3 +4787,40 @@ BMS-102 candidate is tier-6 `src_77ef53b0e649aa01e12e` · `Micro.pdf`, SHA-256
 `77ef53b0e649aa01e12e8f773f667ec5b7533ac8d82e05bf40bfd4a19091ad5d`, two pages under
 `Microbiology / Notes and Summaries`; it needs its own source and authority gate before any
 count is admitted.
+
+## Family 44 — tier-6 Micro bacterial-structure teaching-map gate
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_77ef53b0e649aa01e12e` |
+| SHA-256 / boundary | `77ef53b0e649aa01e12e8f773f667ec5b7533ac8d82e05bf40bfd4a19091ad5d` · two visual pages |
+| Authority | Unattributed handwritten-style bacterial-structure teaching map; no exam, response field, answer key, university, sitting, or marks convention |
+| Read boundary | Both pages rendered and visually read in full |
+
+The maps cover cell-wall layers, capsule, flagella, pili, endospores, membrane, mesosomes,
+nucleoid, ribosomes, inclusions, and plasmids. All material is declarative labels, arrows,
+examples, and diagrams; no learner prompt, options, response blank, answer convention, or
+correctness mark appears. Coloured text is not treated as an answer.
+
+The complete-source gate is **0 prompt occurrences / 0 printed-answer occurrences / 0 retained
+records / 0 handles / 0 required searches / +0 concepts**.
+
+| Measure | Family 44 gate | Auxiliary cumulative (Families 12–44) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Newly admitted prompts / printed answers | 0 / 0 | 235 / 169 | 765 / 405 | 1,000 / 574 |
+| Newly retained records / handles | 0 / 0 | 232 / 229 | 552 / — | 784 |
+| Cross-family concept delta | +0 | +170 over primary | 372 | `372 + 170 = 542` |
+| **Distinct tested concepts** | **+0** | **170 auxiliary additions** | **372** | **542** |
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**235 / 169 / 232 / 229 / +170**; all eligible evidence remains
+**1,000 / 574 / 784 / 542**. This gate changes no official-key, readiness, or claims status.
+
+### Exact next debt after Family 44
+
+`src_77ef53b0e649aa01e12e` is exhausted across both pages. The next manifest-ordered local
+BMS-102 candidate is tier-6 `src_8767df268e582bed0d7c` ·
+`Mind_Map_Bacterial_Morphology_and_Structure.pdf`, SHA-256
+`8767df268e582bed0d7c09a7bf9b815502e3f12394a6824df69ffe159d368ec4`, one page under
+`Microbiology / Notes and Summaries`; it needs its own source and authority gate before any
+count is admitted.
