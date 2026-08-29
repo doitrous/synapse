@@ -3145,3 +3145,80 @@ and their immediate four-item printed answer lists: complications of antibacteri
 then non-genetic resistance origins. They must be processed as a separate auxiliary family, with
 their same-scope F12-A06/F12-A05 relations and source wording/order preserved. Family 20 adds no
 exam year, sitting, recurrence, marks, or official-key signal.
+
+## Family 21 — tier-6 antimicrobial-chemotherapy written study prompts
+
+### Source boundary and authority
+
+| Field | Value |
+|---|---|
+| Source | `src_e89478440e99a6b8a854` · `Antimicrobial chemotherapy.pdf` |
+| SHA-256 / page | `e89478440e99a6b8a854a9ca7e38b792c5904634a7f6aa2d6f2ae44809340e0f` · p. 6 |
+| Counted boundary | the two written enumerate prompts held after Family 20, each with its immediate four-item printed answer list |
+| Excluded boundary | Q1-Q35 and their red answer table were counted once in Family 20 and are not recounted |
+| Authority | tier-6 Helwan-local auxiliary study bank; no exam/sitting/marks/official-key authority |
+
+Each written prompt has one immediately printed answer block. Following the established written-bank
+count convention, the four bullets under a prompt form one printed answer occurrence rather than
+four independent answers. Family 21 therefore has two observed prompts and two printed study-bank
+answer occurrences. The spelling and order below are source-preserved rather than corrected.
+
+### Source-order prompt, answer-block, and reuse ledger
+
+| Ref | Source prompt | Immediate printed answer block, in source order | Tested handle · placement | Prior BMS-102 relation |
+|---|---|---|---|---|
+| F21-W01 | `Enumerate 4 Complications of antibacterial chemotherapy :` | `1- Development of drug resistance`; `2- Drug toxicity`; `3- Superinfection`; `4- Hypersensitivity` | `antimicrobial-chemotherapy-complications` · `pharm` | same scope as F12-A06; reuse, no concept delta |
+| F21-W02 | `Enumerate 4 non-genatic drug resistance to antimicrobial agents :` | `1- metabolic incactivity`; `2- loss of target structure`; `3- bacteria maybe walled off`; `4- intrinsic natural resistance` | `nongenetic-antimicrobial-resistance-origins` · `inf` | same scope as F12-A05; reuse, no concept delta |
+
+The two prompts are not copies of one another and test different umbrella lists, so there are zero
+within-family repeats or collapses: `2 - 0 = 2` retained records and two source-distinct handles.
+Their wording and bullet order differ slightly from Family 12, but tested scope is identical. Both
+are therefore subtracted only at the prior-BMS concept-delta step.
+
+### Search-before-mint adjudication
+
+Each handle received four required searches: **eight required searches** across live state, all
+pending import roots, and Families 1-20.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `antimicrobial-chemotherapy-complications` · W01 | `antimicrobial chemotherapy complications`; `drug resistance toxicity superinfection hypersensitivity`; `complications antibiotic therapy list`; `adverse consequences antimicrobial chemotherapy` | new externally; live/pending records cover individual adverse outcomes, not the complete four-item classification | collapse to F12-A06 |
+| `nongenetic-antimicrobial-resistance-origins` · W02 | `nongenetic antimicrobial resistance`; `walled off metabolic inactivity loss target intrinsic`; `non genetic origins drug resistance`; `physiologic antimicrobial resistance bacteria` | new externally; narrower resistance examples do not replace this complete four-origin list | collapse to F12-A05 |
+
+External arithmetic is `0 live + 0 pending + 2 no same-scope = 2`. Prior-BMS arithmetic is
+`2 source handles - 2 accepted Family-12 overlaps = 0` concept additions.
+
+### Family-21 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 21 auxiliary | Auxiliary cumulative (Families 12-21) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 2 | 126 | 765 | 891 |
+| Printed study-bank answer occurrences | 2 | 72 | 405 | 477 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Retained question records | 2 | 125 | 552 | 677 |
+| Source-distinct tested handles | 2 | 124 | — | — |
+| External live / pending / no same-scope match | 0 / 0 / 2 | — | — | family-local disposition |
+| Handles already represented in Families 1-20 | 2 | 26 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +98 over primary | — | `372 + 98 = 470` |
+| **Distinct tested concepts** | **+0** | **98 auxiliary additions** | **372** | **470** |
+
+Family arithmetic is `2 observed - 0 copies = 2 retained`, `0 + 0 + 2 = 2`, and
+`2 - 2 = 0` concept additions. The primary assessment checkpoint remains
+**765 / 405 / 552 / 372**. Auxiliary cumulative arithmetic is `124 + 2 = 126` observed,
+`70 + 2 = 72` printed answers, `123 + 2 = 125` retained, `122 + 2 = 124` source
+handles, and unchanged `+98` concepts over primary. The all-eligible inventory becomes
+**891 / 477 / 677 / 470**. Because this is auxiliary-only, zero-delta concept reuse, neither
+readiness nor claims requires a Family-21 change.
+
+### Exact next debt after Family 21
+
+`src_e89478440e99a6b8a854` is now exhausted: all 35 MCQs, the matched letter table, both written
+prompts and both immediate answer blocks have been assigned once. The next manifest-ordered local
+BMS-102 source is tier-6 `src_dba9c6c7880aa06f75e5` · `Bacterial Genetics (1).pdf`, SHA-256
+`dba9c6c7880aa06f75e5391d3b36dff15fd84bc36a379cb9f9d6e5d934fe8fa2`, one native-text
+large-format page. Native inspection shows an XMind factual mind map headed `BY MALAK SAMEH`, not
+an assessment or visible prompt bank. Its next action is a bounded provenance/teaching-material
+gate with expected zero prompt delta unless a visual review identifies actual question syntax;
+it must not be promoted to primary assessment evidence.
