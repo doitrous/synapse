@@ -1,4 +1,5 @@
 import type { Difficulty } from './qbank'
+import type { QuestionSource } from './questionSource.ts'
 
 /**
  * What a student actually did, item by item.
@@ -57,6 +58,12 @@ export interface AttemptRecord {
   correctIndex?: number
   /** The most specific authored curriculum label available for this item. */
   subtopic?: string
+  /**
+   * The question's MCQ source, snapshotted at attempt time so per-source stats
+   * stay stable even if the question is later re-tagged — the same reason
+   * `subjectId` and `difficulty` are snapshotted here rather than looked up.
+   */
+  source?: QuestionSource
   /**
    * Whole-sitting timing, repeated on the records written at submission.
    * Legacy records have neither field and continue to use their per-question

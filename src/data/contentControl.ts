@@ -1,6 +1,7 @@
 import type { Status } from './admin.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
+import type { QuestionSource } from './questionSource.ts'
 import type { AnswerLetter, MediaPlacement, MediaSlot } from './mediaLibrary.ts'
 import type { ArticleSection } from './userLibrary.ts'
 import type { DeckAuthoringData } from './decks.ts'
@@ -292,6 +293,8 @@ export interface QuestionTags {
   examWeightByYear?: Record<string, number>
   /** If set, the question applies ONLY to these year/university IDs. */
   questionOnlyFor?: string[]
+  /** The student-facing MCQ source bucket. The single source of truth, copied to `Question.source`. */
+  sourceCategory?: QuestionSource
 }
 
 export interface QuestionAuthoringData {
