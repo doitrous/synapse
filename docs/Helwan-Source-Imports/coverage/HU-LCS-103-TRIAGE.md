@@ -2221,3 +2221,51 @@ remain unchanged. Across Families 17–19 this source is now closed at **77 comp
   lower-ranked local College/Student MCQ or practical sources. No download is needed.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.
+
+## Provenance validation — Anatomy department-book tutorial source
+
+### Scope-only verdict for `src_065497f15835733031c0`
+
+| Evidence field | Source-first finding |
+|---|---|
+| SHA-256 | manifest and recomputation agree: `065497f15835733031c07a03549fa21ab7a89c602b6f0cbb68f9777375a2cfda` |
+| Container | 10-page, native-text, unencrypted, non-interactive PDF 1.7; A4; no form or JavaScript |
+| Manifest ownership | unique manifest hash occurrence; `HU_Y1` · `HU-LCS-103` · Anatomy · Questions/MCQs · `isDepartmentBook: true` · source tier 1 |
+| Organised path / filename | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Anatomy/Questions/MCQs/DPT BOOK MCQs - Department MCQs TUTORIAL of Department Book Anatomy.pdf` |
+| Visible pagination | physical p. 1 prints only `TUTORIAL` with book page `218`; physical pp. 2–9 continue book pages `219`–`226`; physical p. 10 is an unnumbered online-quiz screenshot |
+| Visible scope headings | hip and gluteal region; thigh; leg; foot; lower-limb embryology; face and scalp; temporal and infratemporal regions; neck |
+| Conflicting provenance | no other module code, year, institution, external-university label, author, edition or date is printed anywhere in the ten-page excerpt |
+| Read method | all ten pages rendered at 180 dpi and visually read for scope markers only; native text used to confirm the continuous page-number sequence; no prompt/key inventory and no download |
+
+The apparent `TUTORIAL 218` conflict is resolved: the visual source does **not** identify a
+Tutorial 218 or module 218. It prints the generic title `TUTORIAL` above the first book-page
+footer `218`, followed by consecutive footers `219`–`226`. The manifest first-page snippet
+flattened the title and footer into one phrase.
+
+The internal topic sequence also matches the local `HU-LCS-103` Anatomy source tree at high
+specificity. Its lower-limb sections align with the declared LCS lectures for anterior/
+medial/posterior thigh and gluteal region, leg, hip/knee/ankle joints, development of limbs
+and foot. Its head-and-neck sections align with the declared LCS lectures for scalp/face,
+neck triangles and temporal/infratemporal fossa. The already-accepted LCS written EOM also
+tests temporal/infratemporal and neck-region scopes. No competing manifest owner or duplicate
+hash exists.
+
+**Verdict: eligible `HU-LCS-103` Anatomy department-book/tutorial question evidence.** The
+evidence supports module ownership and the source's department-book rank; it does not support
+calling the excerpt a sitting exam or independently naming Helwan on the printed pages. Any
+institution attribution remains manifest/path-level provenance. This validation contributes
+**zero prompts, zero keys and zero concepts**: eligible cumulative remains `308 / 182 / 153 =
+9 live / 37 pending / 107 new`; external and auxiliary checkpoints are unchanged.
+
+### Refreshed exact next debt
+
+- Process this same now-validated source as the next bounded LCS family. Render/read all ten
+  pages source-first and inventory MCQ plus short-essay/written prompts without inferring keys.
+- Distinguish three key mechanisms visible during scope review: underlined answer choices,
+  explicit printed `Answer:` lines, and unmarked items. Physical p. 10 is a screenshot of
+  online quiz forms and visibly repeats some earlier questions; prove every repeat before
+  collapse and do not treat empty radio buttons or `Submit Answers` controls as keys.
+- Build the normal one-to-one assignment/search ledger and compute additive counts only in
+  that later family. No download is needed.
+- No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
+  `TRIAGE APPROVED` for Helwan Year 1.

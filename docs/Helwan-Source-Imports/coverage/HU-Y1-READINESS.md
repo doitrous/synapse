@@ -260,6 +260,10 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   LCS-103 to 308/182/153 and 9/37/107. Q73 preserves its option `t(11;14)` versus key-text
   `t(14;11)` mismatch, alongside the other source-quality risks; none is repaired. Q50's p. 23
   continuation remained Family-18 evidence and Q51 begins immediately after it.
-- Before counting the next ranked LCS source, resolve whether `src_065497f15835733031c0` is
-  eligible LCS department-book evidence, cross-module context, or misfiled/external: its manifest
-  says LCS/department book, but its printed first-page identifier is `TUTORIAL 218`.
+- Scope-only review accepts `src_065497f15835733031c0` as local LCS-103 Anatomy department-book
+  tutorial evidence without changing any count: the rendered cover prints generic `TUTORIAL`
+  above book page 218, followed by consecutive book pages 219–226, rather than a Tutorial or
+  module identifier `218`. Manifest/path provenance establishes its HU/LCS ownership; its printed
+  pages independently establish neither Helwan attribution nor a sitting exam. Eligible evidence
+  stays 308/182/153 and 9/37/107. Inventory its question, written and key mechanisms source-first
+  next, and prove online-screenshot repeats before any additive count.
