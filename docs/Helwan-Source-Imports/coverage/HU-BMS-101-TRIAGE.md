@@ -198,3 +198,38 @@ node -e "const r=require('/private/tmp/hu-bms101-search.json'); console.log(JSON
 
 The last command must report `{"concepts":180,"queries":720}` before semantic
 adjudication begins. It does not author or alter source content.
+
+### Semantic adjudication batch 1 — first 20 unadjudicated handles
+
+The deterministic selection excludes the four already-completed handles named above and is
+the first 20 remaining rows in `triage-bms101-search.mjs`. The runner transcript was made
+with `--limit=23` (the three leading completed rows plus these 20): 92 queries in that
+partial transcript, with these rows contributing exactly 80. `pending` below means an
+unimported same-idea/same-scope record was read; it is not inferred from an incidental
+substring hit. In particular, the live airway-radius hit for `brachioradialis-insertion`
+and the live amniotic-fluid-function hits for `polyhydramnios` are near-misses, not merges.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| brachioradialis-insertion — `aa8 A2, p. 3` | `brachioradialis`; `brachioradial`; `elbow flexor`; `radius` | Pending `docs/Kasr-Source-Imports/question/101-ISK-mcq.md` explicitly states that brachioradialis inserts on the lower radius; no live airway-radius merge. | pending |
+| allantois-origin — `aa8 A3, p. 3` | `allantois`; `allantoic`; `umbilical`; `yolk sac` | Pending `CON-DEV-1D10DF3B716A70` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` says the allantois extends from the caudal wall of the secondary yolk sac. | pending |
+| subscapularis-attachment — `aa8 A4, p. 3` | `subscapularis`; `subscapular`; `lesser tubercle`; `scapula` | Pending `CON-MSK-38A32E79B1412F` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` assigns subscapularis alone to the lesser tuberosity. | pending |
+| ulnar-nerve-medial-epicondyle — `aa8 A5, p. 4` | `ulnar nerve`; `ulnar`; `medial epicondyle`; `cubital tunnel` | Pending `CON-MSK-F0F2BDF778A2DD` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` describes its course behind the medial epicondyle. | pending |
+| polyhydramnios — `aa8 A6, p. 4` | `polyhydramnios`; `amniotic fluid`; `hydramnios`; `fetal swallowing` | Pending `ART-101-ANA-AMNIOTIC-FLUID` in `docs/Kasr-Source-Imports/article/101-ISK-anatomy.md` gives the >2 L full-term threshold and swallowing-related causes. | pending |
+| thenar-innervation — `aa8 A8, p. 5` | `thenar`; `thenar muscles`; `recurrent median`; `median nerve` | Pending `CON-MSK-8FB16415EFF905` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` assigns all three thenar muscles to the recurrent median branch. | pending |
+| coracobrachialis-innervation — `aa8 A9, p. 5` | `coracobrachialis`; `coracobrachial`; `musculocutaneous`; `anterior arm` | Pending `CON-MSK-F125616F7ED37A` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` names the musculocutaneous muscular branch to coracobrachialis. | pending |
+| flexor-carpi-radialis-innervation — `aa8 A10, p. 5` | `flexor carpi`; `FCR`; `median nerve`; `forearm flexor` | Pending `CON-MSK-46C40109E7D957` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` names FCR among the anterior-compartment muscles supplied by median nerve. | pending |
+| anatomical-snuffbox-border — `aa8 A11, p. 6` | `snuffbox`; `anatomical snuffbox`; `radial border`; `extensor pollicis` | Pending `CON-MSK-1424177E093253` in `docs/Kasr-Source-Imports/concept/101-ISK-concepts.md` gives the APL/EPB anterior and EPL posterior boundaries. | pending |
+| ulnar-artery-course — `aa8 A12, p. 6` | `ulnar artery`; `ulnar`; `palmar arch`; `forearm artery` | Pending `CON-MSK-25C6698A72A982` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` gives its forearm course, wrist relations and superficial-arch termination. | pending |
+| gastrulation-germ-layers — `aa8 A13; b7c A1, pp. 6/2` | `gastrulation`; `germ layer`; `trilaminar`; `epiblast` | Pending `CON-DEV-215BD7E9E58872` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` defines gastrulation and makes all three germ layers epiblast-derived. | pending |
+| placental-barrier-fourth-month — `aa8 A14; b7c A10, pp. 6/4` | `placental barrier`; `placenta barrier`; `fourth month`; `trophoblast` | Pending `CON-DEV-2D15CFF44F825F` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` distinguishes the early four-layer from late two-layer barrier. | pending |
+| fetal-placenta — `aa8 A15, p. 7` | `fetal placenta`; `chorionic plate`; `fetal surface`; `chorion` | Pending `CON-DEV-D870770450E17D` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` identifies chorionic plate/chorion frondosum as the fetal part and describes its surface. | pending |
+| hypothenar-innervation — `aa8 A16, p. 8` | `hypothenar`; `hypothenar muscles`; `deep ulnar`; `ulnar nerve` | Pending `CON-MSK-8FB16415EFF905` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` assigns the three hypothenar muscles to the deep ulnar branch. | pending |
+| axillary-artery-branches — `aa8 A-W1, p. 9` | `axillary artery`; `axillary`; `thoracoacromial`; `subscapular artery` | Pending `CON-MSK-C608D59631E713` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` enumerates branches by all three artery parts. | pending |
+| paraxial-mesoderm-derivatives — `aa8 A-W2, p. 9` | `paraxial`; `somite`; `sclerotome`; `dermomyotome` | Pending `CON-DEV-5E63C211DEEE00` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` maps somite divisions to vertebrae/discs, dermis and skeletal muscle. | pending |
+| radial-artery-branches — `aa8 A-W3, p. 10` | `radial artery`; `radial`; `deep palmar`; `dorsal carpal` | Pending `CON-MSK-58D5F74E9595C3` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` gives superficial palmar, first dorsal metacarpal, princeps pollicis and radialis indicis branches. | pending |
+| lateral-plate-mesoderm-derivatives — `aa8 A-W4, p. 10` | `lateral plate`; `splanchnic mesoderm`; `somatic mesoderm`; `intraembryonic coelom` | Pending `CON-DEV-2E3E3098D90C0C` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` gives somatopleuric and splanchnopleuric derivatives. | pending |
+| syncytiotrophoblast-features — `b7c A2, p. 2` | `syncytiotrophoblast`; `syncytio`; `trophoblast`; `hCG` | Live `CON-OBS-D7FC4AD8756594`, “Syncytiotrophoblast is persistent multinucleated dark layer with microvilli and age-increasing syncytial knots”, has the same feature scope; pending implantation records are not needed for this merge. | live |
+| implantation-timing — `b7c A3, p. 2` | `implantation`; `implant`; `blastocyst`; `endometrium` | Pending `CON-DEV-E08715FEB6438D` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` gives day-7 onset, day-9 embedding and day-11 completion. | pending |
+
+Batch delta: `live +1`, `pending +19`, `new +0`; no concept ID is minted by this ledger.
