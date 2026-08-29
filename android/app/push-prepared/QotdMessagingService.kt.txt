@@ -1,0 +1,101 @@
+package com.synapse.android.core.push
+
+/*
+ * PREPARED, NOT BUILT.
+ *
+ * This file is a `.kt.txt` template, not a compiled source. It sits outside
+ * every Gradle source set on purpose: the default Kotlin/Android source set
+ * for this module is `src/main/java` (plus `src/main/kotlin`), and a real
+ * `.kt` file here would be picked up and compiled whether or not anything
+ * referenced it. `FirebaseMessagingService` and `RemoteMessage` below come
+ * from `com.google.firebase:firebase-messaging`, which this project does not
+ * depend on — adding a compiled file that imports them would break the
+ * build the moment `google-services.json` is missing, which it is today.
+ *
+ * To activate: follow docs/qotd-android-push-enablement.md, then move this
+ * file to `android/app/src/main/java/com/synapse/android/core/push/QotdMessagingService.kt`
+ * (dropping the `.txt` extension) and register the service in
+ * AndroidManifest.xml.
+ */
+
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.content.Context
+import android.content.Intent
+import android.os.Build
+import androidx.core.app.NotificationCompat
+import com.google.firebase.messaging.FirebaseMessagingService
+import com.google.firebase.messaging.RemoteMessage
+import com.synapse.android.MainActivity
+
+/**
+ * Receives the Question-of-the-Day alert `server/src/fcm.js` sends.
+ *
+ * Mirrors the shape `buildFcmMessage` in `server/src/fcm.js` builds: a
+ * `notification` block (title/body, auto-displayed by the OS while the app
+ * is backgrounded) plus a `data.path` — the in-app route to open on tap.
+ * FCM does not auto-display the `notification` block while the app is
+ * foregrounded, so this service builds and shows it itself in both cases,
+ * for one consistent behaviour regardless of app state.
+ */
+class QotdMessagingService : FirebaseMessagingService() {
+
+    override fun onNewToken(token: String) {
+        super.onNewToken(token)
+        // Wire to the app's real token provider on activation — see
+        // AppGraph.kt for how `authBackend::accessToken` is threaded through
+        // to SynapseApi today; PushTokenRegistrar wants the same shape.
+        PushTokenRegistrar.registerToken(
+            context = applicationContext,
+            fcmToken = token,
+            baseUrl = /* AppConfig.fromBuild().apiBaseUrl */ "",
+            bearerToken = null,
+        )
+    }
+
+    override fun onMessageReceived(message: RemoteMessage) {
+        super.onMessageReceived(message)
+        val title = message.notification?.title ?: message.data["title"] ?: "Question of the Day"
+        val body = message.notification?.body ?: message.data["body"]
+            ?: "Today's question is waiting — keep your streak going."
+        val path = message.data["path"] ?: "/app/qotd"
+        showNotification(title, body, path)
+    }
+
+    private fun showNotification(title: String, body: String, path: String) {
+        val manager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            manager.createNotificationChannel(
+                NotificationChannel(CHANNEL_ID, "Question of the Day", NotificationManager.IMPORTANCE_DEFAULT),
+            )
+        }
+
+        val intent = Intent(this, MainActivity::class.java).apply {
+            putExtra(EXTRA_PATH, path)
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+        }
+        val pendingIntent = PendingIntent.getActivity(
+            this,
+            0,
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+        )
+
+        val notification = NotificationCompat.Builder(this, CHANNEL_ID)
+            .setSmallIcon(android.R.drawable.ic_dialog_info) // replace with a real app icon on activation
+            .setContentTitle(title)
+            .setContentText(body)
+            .setAutoCancel(true)
+            .setContentIntent(pendingIntent)
+            .build()
+
+        manager.notify(NOTIFICATION_ID, notification)
+    }
+
+    private companion object {
+        const val CHANNEL_ID = "qotd_reminders"
+        const val NOTIFICATION_ID = 1001
+        const val EXTRA_PATH = "path"
+    }
+}
