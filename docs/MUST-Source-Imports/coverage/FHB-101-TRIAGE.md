@@ -1828,3 +1828,36 @@ The assignment and search ledgers above reconcile one-to-one at **14 named conce
 **Remaining file list:** removing the three complete substantive-text inventory paths and their two unique hashes leaves **86 selected inventory paths / 82 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `40f2bfe018b7f354c604835870d6321af7f2043f19092c5fb1fc67999ed9442f`.  By the pinned triage text classification, the remaining debt is **43 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `24 + 82 = 106` selected unique hashes.
 
 **BLOCKED — S1 cannot be approved:** this assessment family is fully processed, but the remaining 86 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Histology Cytology (Nucleus) midterm MCQ family
+
+The asserted starting remaining-hash checksum `40f2bfe018b7f354c604835870d6321af7f2043f19092c5fb1fc67999ed9442f` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 82 hashes before this pass.  The next evidence-ranked substantive local source is the two-page Histology Cytology (Nucleus) MCQ paper, ahead of the remaining two-page Physiology midterm.  Both pages were rendered and read.  Page 1 supplies nine numbered MCQ prompts and page 2 supplies their printed answer table, establishing an **assessment** source rather than teaching or practical material.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Histology | `08 Midterm Exams` | `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Cytology MCQ (Nucleus).pdf` | `871ca5046ee04990d95ead25942884a31d840009afe4e76d77779e13d294e294` | 2 | 9 | 9 |
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+| Printed prompt refs | Printed key / answer as shown | Source-distinct tested concept | Search and duplicate/collapse result |
+|---|---|---|---|
+| 1–2 | `1 C`; `2 D` | Euchromatin versus heterochromatin | The complementary euchromatin/heterochromatin prompts explicitly collapse into one chromatin-state concept.  `euchromatin` is pending-hit; `nuclear heterochromatin` returned no current record.  This exact comparison is already triaged in FHB. |
+| 3–4 | `3 C`; `4 B` | Pars granulosa and pars fibrosa rRNA states | The paired nucleolar-part prompts explicitly collapse.  `pars granulosa` and `pars fibrosa` are pending-hit; prior FHB already records nucleolus structure/ribosome production, so this adds no second FHB concept.  The potentially counterintuitive printed letters are preserved without correction. |
+| 5–6 | `5 B`; `6 D` | Nuclear versus nucleolar components, including nucleolar sap | The two complementary `all except` component prompts collapse to one boundary concept.  `nucleus components` and `nucleolar sap` returned no current record, but prior FHB already assigns nuclear components and nucleolus structure; this is a prior-FHB duplicate. |
+| 7–9 | `7 B`; `8 C`; `9 A` | Outer/inner nuclear-membrane morphology and nuclear-envelope properties | The outer-membrane, inner-membrane, and general-envelope prompts are one structure/property family.  `outer nuclear membrane` is pending-hit; `inner nuclear membrane` returned no current record.  Earlier FHB nuclear-components work does not assign this detailed envelope morphology, so it remains distinct. |
+
+The assignment and search ledgers reconcile one-to-one at **4 named concepts ↔ 4 search rows**.  The explicit source-level collapses are Q1–2 (chromatin states), Q3–4 (nucleolar parts), Q5–6 (component boundary), and Q7–9 (one nuclear-envelope structure/property family).  At source-concept search level the results are live 0 / pending 3 / new 1.  After prior-FHB deduplication, only the nuclear-envelope morphology family remains: cumulative delta **live 0 / pending 1 / new 0**, or **+1** distinct concept.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the Histology Cytology (Nucleus) midterm MCQ family) | 970 | 789 | 267 | 60 | 65 | 142 | TBD |
+
+**Completed-source delta:** `+9` questions, `+9` printed keys / answers, `+4` source-distinct tested concepts / `+1` after source-level collapse and prior-FHB deduplication.  The cumulative search buckets reconcile exactly: `60 + 65 + 142 = 267`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Histology Cytology (Nucleus) midterm MCQ family
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **85 selected inventory paths / 81 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `ffc15dff857e2661d95076a9a55ea123cdf8f5e9308629ad7d28cf35ac372835`.  By the pinned triage text classification, the remaining debt is **42 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `25 + 81 = 106` selected unique hashes.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 85 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
