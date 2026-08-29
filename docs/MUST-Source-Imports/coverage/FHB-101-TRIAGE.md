@@ -2674,3 +2674,49 @@ unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending 
 Placenta**. Q91–136 and the nine p. 33 written prompts remain outside completed-source totals
 until their source-level collapse, four searches per handle, and prior-FHB adjudication are
 recorded.
+
+## Bounded continuation — General Embryology, Section X: Placenta
+
+This continuation retains the same single selected Anatomy `05 MCQs` path, exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`, and full-source
+visual inventory of **145 prompt occurrences / 145 directly printed answer occurrences**.
+All and only **source pages 24–27, Section X** were assigned in this pass. They visibly print
+Q91–110 with four immediate answer lines: **20 complete MCQs / 20 directly printed answer
+letters**. Source page 28 begins `Section XI: Umbilical Cord, Amnion, and Umbilical Vesicle`
+at Q111 and is the next natural boundary.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q91, Q98, Q105 | `91 B`; `98 A`; `105 C` | Placental transfer and metabolic functions plus the printed electrolyte-homeostasis exception (`placental function`; `placenta metabolism`; `placenta gas exchange`; `electrolyte homeostasis placenta`) | new at the current search scope; prior nutrient/gas-transfer and metabolic assignments do not own Q105's printed exception claim — bounded candidate addition. |
+| Q92, Q95, Q104 | `92 C`; `95 C`; `104 B` | Full-term placental weight and fetal/maternal gross surfaces, including cotyledons and amniotic covering (`full term placenta`; `placenta cotyledons`; `fetal placenta surface`; `placenta weight 500g`) | new externally; exact collective reuse of prior-FHB full-term weight/gross-surface and cotyledon assignments — duplicate. |
+| Q93–Q94, Q96 | `93 B`; `94 A`; `96 B` | Fetal chorion-frondosum and maternal decidua-basalis components, with cord attachment to the fetal side (`chorion frondosum`; `decidua basalis`; `umbilical cord connection`; `fetal maternal placenta`) | live-hit at the decidua-basalis/component scope; exact prior-FHB placental-component and cord-connection assignments — duplicate. |
+| Q97 | `C` | Two-layer placental membrane in the last trimester (`placental membrane`; `placental barrier`; `last trimester membrane`; `two placental layers`) | pending-hit at the exact late-barrier scope; exact prior-FHB placental-membrane-layer assignment — duplicate. |
+| Q99, Q106–Q110 | `99 C`; `106 C`; `107 C`; `108 B`; `109 B`; `110 B` | Syncytial-trophoblast endocrine functions: hCG, progesterone, estrogen and somatomammotropin (`placental hormones`; `hCG corpus luteum`; `syncytiotrophoblast progesterone estrogen`; `placental somatomammotropin`) | live-hit at the placental-hormone scope; prior hCG/corpus-luteum work does not own the broader printed progesterone, estrogen and somatomammotropin family — bounded candidate addition. |
+| Q100–Q102 | `100 B`; `101 C`; `102 B` | Placenta previa, tubal ectopic pregnancy and placenta accreta as implantation abnormalities (`placenta previa`; `ectopic pregnancy`; `placenta accreta`; `abnormal placental implantation`) | live-hit; exact prior-FHB previa/ectopic/accreta assignments — duplicate. |
+| Q103 | `C` | Placental expulsion within 30 minutes after birth (`placenta expelled after birth`; `placenta delivery 30 minutes`; `third stage labor placenta`; `placental expulsion time`) | new; no exact prior-FHB assignment — bounded candidate addition. |
+
+The 20 observations collapse source-first to **seven handles**: one placental-function handle;
+one gross-weight/surface handle; one fetal/maternal-component and cord-side handle; one late
+placental-membrane handle; one endocrine-hormone handle; one implantation-abnormality handle;
+and one placental-expulsion handle. The assignment and query ledger reconciles exactly as **7
+handles × 4 phrases = 28 required searches**. Exact-scope source disposition is **3 live / 1
+pending / 3 new**.
+
+Four handles exactly reuse completed prior-FHB scope: gross placental features, fetal/maternal
+components and cord connection, late placental-membrane layers, and the three implantation
+abnormalities. The broader endocrine family survives as live; the printed electrolyte-
+homeostasis exception and 30-minute expulsion timing survive as new. The provisional post-
+prior-FHB result is therefore **1 live / 0 pending / 2 new** and remains excluded while this
+34-page source is incomplete. Q105's printed `C` is retained as a low-authority source claim;
+it is not medically repaired or promoted to official-key authority.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **Q111 on source page 28, Section XI:
+Umbilical Cord, Amnion, and Umbilical Vesicle**. Q111–136 and the nine p. 33 written prompts
+remain outside completed-source totals until their source-level collapse, four searches per
+handle, and prior-FHB adjudication are recorded.
