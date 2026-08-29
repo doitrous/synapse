@@ -42,12 +42,70 @@ struct BoardPoint: Codable, Equatable, Sendable {
     var y: Double
 }
 
+/// A picture on the board. Newer boards reference managed media by `documentId`;
+/// legacy boards keep an inline `src` — both are preserved verbatim.
+struct BoardImage: Codable, Identifiable, Equatable, Sendable {
+    var id: String
+    var x: Double
+    var y: Double
+    var width: Double
+    var height: Double
+    var documentId: String?
+    var src: String?
+    var alt: String
+    var sizeBytes: Double?
+}
+
+/// A file pinned to the board (its bytes live in the student's document store).
+struct BoardFile: Codable, Identifiable, Equatable, Sendable {
+    var id: String
+    var x: Double
+    var y: Double
+    var documentId: String
+    var name: String
+    var sizeBytes: Double
+    /// "pdf" | "file"; kept as a string so a new kind never fails the decode.
+    var kind: String
+}
+
+/// One freehand line, as a flat `x, y, x, y…` list in board coordinates.
+struct InkStroke: Codable, Identifiable, Equatable, Sendable {
+    var id: String
+    var points: [Double]
+    var color: String
+    var width: Double
+}
+
+/// A ready-made icon from the shared library, placed on the board.
+struct ReadyElement: Codable, Identifiable, Equatable, Sendable {
+    var id: String
+    var x: Double
+    var y: Double
+    var width: Double
+    var height: Double
+    var readyItemId: String
+}
+
+/// Everything on a board.
+///
+/// Ported from `src/data/whiteboard.ts`. The collections after the original
+/// three are optional so a board saved before they existed still reads — and,
+/// just as importantly, so **iOS preserves web-authored ink, pictures, files and
+/// ready items on save even though it does not yet render them all**. Dropping
+/// them was the old single-key model's silent data loss.
 struct BoardState: Codable, Equatable, Sendable {
     var notes: [BoardNote] = []
     var links: [BoardLink] = []
     var frames: [BoardFrame] = []
+    var images: [BoardImage]?
+    var files: [BoardFile]?
+    var ink: [InkStroke]?
+    var readyItems: [ReadyElement]?
+    /// Whether freehand ink paints above the other elements; absent = below.
+    var inkAbove: Bool?
 
-    static let storageKey = "synapse.whiteboard.board"
+    /// The retired single-board key. Read once to migrate, never written again.
+    static let legacyStorageKey = "synapse.whiteboard.board"
     static let empty = BoardState()
 }
 

@@ -12,7 +12,15 @@ struct WhiteboardView: View {
     let api: SynapseAPI
     let sync: SyncEngine
 
+    /// The active board's state — what the editor reads and writes. Kept as a
+    /// flat `BoardState` so the note/link/frame editing code is unchanged; the
+    /// surrounding `collection` carries the other boards and every element type
+    /// iOS does not yet render, so a save never drops them.
     @State private var board = BoardState.empty
+    @State private var collection = WhiteboardCollection(
+        activeBoardId: "default", boards: [], sharedBoards: [], migratedFromSingleBoard: false
+    )
+    @State private var activeBoardId = "default"
     @State private var isLoading = true
 
     @State private var offset = CGSize.zero
@@ -295,13 +303,35 @@ struct WhiteboardView: View {
     private func load() async {
         isLoading = true
         defer { isLoading = false }
-        if let remote = try? await api.userState(BoardState.self, key: BoardState.storageKey) {
-            board = remote.value ?? .empty
+        let now = Date()
+
+        // Prefer the live multi-board document.
+        if let remote = try? await api.userState(WhiteboardCollection.self, key: whiteboardCollectionKey),
+           let stored = remote.value, !stored.boards.isEmpty {
+            collection = stored
+            activeBoardId = stored.activeBoardId
+            board = Whiteboards.activeBoard(stored, now: now).state
+            return
         }
+
+        // No collection yet: fold a retired single-board drawing into a new
+        // collection if one exists, otherwise start empty. Either way the app
+        // now reads and writes boards.v1 like the website.
+        var next = Whiteboards.emptyCollection(now: now)
+        if let legacy = try? await api.userState(BoardState.self, key: BoardState.legacyStorageKey),
+           let legacyState = legacy.value {
+            next = Whiteboards.migrateSingleBoard(legacyState, into: next, owner: .local, now: now)
+        }
+        collection = next
+        activeBoardId = next.activeBoardId
+        board = Whiteboards.activeBoard(next, now: now).state
     }
 
     private func save() async {
-        await sync.write(key: BoardState.storageKey, value: board)
+        // Write the edited state back into the active board, preserving every
+        // other board and every element type this editor does not touch.
+        collection = Whiteboards.updateState(collection, id: activeBoardId, board, now: Date())
+        await sync.write(key: whiteboardCollectionKey, value: collection)
     }
 }
 
