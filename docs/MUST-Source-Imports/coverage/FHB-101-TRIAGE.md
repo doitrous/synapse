@@ -1710,3 +1710,35 @@ The final-range prompts identify only an unnamed image-dependent epithelium type
 **Remaining file list:** removing this one now-complete `empty-text` inventory row and its unique hash leaves **91 selected inventory paths / 86 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `83191167c32b0d9c4af7d883bbaf90916c78cb1866182c9e95d85cf1e9e25380`.  By the pinned triage text classification, the remaining debt is **48 substantive-text, six sparse-text, and 37 empty-text** rows.
 
 **BLOCKED — S1 cannot be approved:** this source is fully processed and has no resume page, but the remaining 91 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Anatomy Embryology written-final question sheet, Fall 2023
+
+The asserted starting remaining-hash checksum `83191167c32b0d9c4af7d883bbaf90916c78cb1866182c9e95d85cf1e9e25380` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 86 hashes before this pass.  With the substantive `06 EOM Exams` families exhausted, the next evidence-ranked substantive `05 MCQs` source is the smallest remaining unique paper: the two-page written-final question sheet below, ahead of larger MCQ and midterm sources.  Both pages were rendered and read.  Its heading and response blanks establish an **assessment** source, not a lecture or practical-teaching source.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Anatomy | `05 MCQs` | `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - [Unsolved]Embryology written questions.pdf` | `c7f9044d4f8c67e9369999ae71692dd98b153cfa68038a3f0115ede546873fe9` | 2 | 3 | 0 |
+
+### Observed prompt, assignment, and search ledger
+
+| Page | Printed prompt observation | Printed key / answer | Source-supported tested concept | Search and deduplication result |
+|---:|---|---|---|---|
+| 1 | `Embryologic derivatives of the ectoderm include three parts:` | None printed | Ectodermal derivatives | `ectoderm derivatives` and `surface ectoderm`: no current record returned; the same prompt is already assigned in prior FHB triage to `surface ectoderm / ectoderm derivatives` (previous new—TBD), so this is a prior-FHB duplicate. |
+| 1 | `Derivatives of the intra embryonic mesoderm include …` | None printed | Intraembryonic mesoderm subdivisions and derivatives | `intraembryonic mesoderm`: live records returned; `paraxial intermediate lateral plate mesoderm`: no record returned.  The same prior-FHB prompt/concept assignment is already triaged, so this is a prior-FHB duplicate. |
+| 2 | `Derivatives of the Endoderm include …` | None printed | Endodermal derivatives | `endoderm`: live and pending records returned; `gastrointestinal epithelial lining`: no record returned.  The same prior-FHB prompt/concept assignment is already triaged, so this is a prior-FHB duplicate. |
+
+Page 1 contains two numbered Roman-numeral prompts and page 2 contains the third.  The A/B/C labels and blank list entries beneath each are response subparts, not separately printed question prompts.  The exact arithmetic is `2 + 1 = 3` prompts and **0** printed keys/answers.  This unmarked question sheet repeats the three prompt stems already read in the answered FHB Embryology EOM paper; it supplies no model answer, highlighted option, or new source-supported target.  The one-to-one assignment/search ledger has three rows, but all are prior-FHB duplicates: **0 new distinct concepts**, **0 live/pending/new bucket change**, and no inferred answer or correction.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the Anatomy Embryology written-final question sheet) | 924 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** `+3` questions, `+0` printed keys / answers, `+0` source-distinct tested concepts.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Anatomy written-final question sheet
+
+**Remaining file list:** removing this one complete substantive-text inventory row and its unique hash leaves **90 selected inventory paths / 85 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `49da0c06ec2faa168542d858d677034457a053226b6306873be1de555276bd31`.  By the pinned triage text classification, the remaining debt is **47 substantive-text, six sparse-text, and 37 empty-text** rows.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 90 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
