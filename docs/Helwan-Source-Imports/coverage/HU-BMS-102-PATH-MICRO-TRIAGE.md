@@ -3606,3 +3606,138 @@ genetics.pdf`, SHA-256 `cbd8c1f138d11dc541a9f60999383c2a04cb2fe6953c354750bbb246
 four native-text pages under `Microbiology / Notes and Summaries`.  It requires a bounded
 all-page prompt, printed-answer, repeat/collapse, search, and prior-BMS review before any count
 is accepted.
+
+## Family 27 — tier-6 Bacterial genetics MCQ study bank
+
+### Source identity, full-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_cbd8c1f138d11dc541a9` · `Bacterial genetics.pdf` |
+| SHA-256 / boundary | `cbd8c1f138d11dc541a9f60999383c2a04cb2fe6953c354750bbb24638886427` · four native-text letter-size pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; non-preferred same-name twin of `src_1245d519caac809922c3` |
+| Visible provenance | Word-authored document headed `Bacterial genetics`; PDF author `Eman Ibrahem Hefny Ibrahem`, creator `Microsoft Word`, created 21 August 2025 |
+| Read boundary | native text inspected and all four pages rendered at 1,530 × 1,980 pixels and visually read in full |
+
+The source has no university/faculty masthead, module code, examiner, date or sitting, marks,
+candidate instructions, or official-key provenance. It is a Helwan-local, individually
+attributed **study bank**, not an exam, recoverable sitting, departmental bank, or official key.
+Pages 1–3 contain 23 numbered MCQs, and a red `Key Answers` table begins on p. 3 and continues
+on p. 4 with one letter for every MCQ. The 23 letters are counted only as printed study-bank
+answer occurrences.
+
+### Prompt, printed-answer, repeat, collapse, and placement ledger
+
+| Ref | Page(s) | Source-first prompt assignment | Printed answer | Tested handle · placement |
+|---|---:|---|---:|---|
+| F27-Q01 | 1, 3 key | Exception among bacteriophage properties: human infection, bacterial gene transfer, toxin production, and bacterial typing | A | `bacteriophage-host-transfer-toxin-typing-properties` · `inf` |
+| F27-Q02 | 1, 3 key | Exception among genotypic-variation mechanisms | B · sporulation | `genotypic-variation-mechanisms-not-sporulation` · `inf` |
+| F27-Q03 | 1, 3 key | Gene-transfer process requiring cell contact | B · conjugation | `conjugation-requires-direct-cell-contact` · `inf` |
+| F27-Q04 | 1, 3 key | Method used to trace the source of infection | A · phage typing | `phage-typing-infection-source-tracing` · `inf` |
+| F27-Q05 | 1, 3 key | Name of the non-toxigenic-to-toxigenic bacterial change | D · lysogenic conversion | `lysogenic-conversion-nontoxigenic-to-toxigenic-change` · `inf` |
+| F27-Q06 | 1, 3 key | Name of gene transfer by sex pili between bacteria | D · none of the above | `sex-pilus-gene-transfer-conjugation-omitted-option` · `inf` |
+| F27-Q07 | 1, 3 key | Defining content of a lysogenic bacterial cell | A · prophage | `lysogenic-bacterial-cell-contains-prophage` · `inf` |
+| F27-Q08 | 1, 4 key | Factor required for conjugation | B · fertility factor | `conjugation-requires-fertility-factor` · `inf` |
+| F27-Q09 | 1–2, 4 key | Reversibility of phenotypic variation | C · reversible | `phenotypic-variation-reversible` · `inf` |
+| F27-Q10 | 2, 4 key | True property of genotypic variation | A · due to gene transfer | `genotypic-variation-due-to-gene-transfer` · `inf` |
+| F27-Q11 | 2, 4 key | Bacteriophage state during lysogeny | B · latent in host cell | `lysogeny-bacteriophage-latent-in-host` · `inf` |
+| F27-Q12 | 2, 4 key | Gene source conferring new properties during lysogenic conversion | C · prophage genes | `lysogenic-conversion-prophage-gene-properties` · `inf` |
+| F27-Q13 | 2, 4 key | Exception among double-stranded-DNA, chromosome-dependence, size, and cloning-vector plasmid properties | B | `plasmid-properties-independent-chromosome-replication` · `inf` |
+| F27-Q14 | 2, 4 key | Mobile bacterial DNA segment that moves within the genome | B · transposons | `transposon-mobile-bacterial-dna-segment` · `inf` |
+| F27-Q15 | 2, 4 key | Name of a bacterial-chromosome DNA nucleotide-sequence change | B · mutation | `bacterial-mutation-dna-sequence-change` · `inf` |
+| F27-Q16 | 2, 4 key | Bacterial transformation depends on recipient competence | E | `bacterial-transformation-requires-competence` · `inf` |
+| F27-Q17 | 2–3, 4 key | Gene-transfer process requiring cell-to-cell contact | B · conjugation | collapse to `conjugation-requires-direct-cell-contact` · `inf` |
+| F27-Q18 | 3, 4 key | Bacteriophage-mediated transfer in which the phage carries host-cell DNA | C · transduction | `transduction-phage-mediated-host-dna-transfer` · `inf` |
+| F27-Q19 | 3, 4 key | Generalized transduction occurs during the bacteriophage lytic cycle | A | `generalized-transduction-lytic-cycle` · `inf` |
+| F27-Q20 | 3, 4 key | Transformation by uptake of DNA released from dying bacteria | B | `transformation-dying-bacteria-free-dna-uptake` · `inf` |
+| F27-Q21 | 3, 4 key | Transfer of naked DNA in solution from donor to recipient | C · transformation | `transformation-naked-dna-in-solution` · `inf` |
+| F27-Q22 | 3, 4 key | True statement that calcium chloride can induce recipient competence for transformation | A | `transformation-cacl2-induced-competence` · `inf` |
+| F27-Q23 | 3, 4 key | Particular-gene transfer by a temperate phage | C · specialized transduction | `specialized-transduction-temperate-phage-particular-gene` · `inf` |
+
+There are 23 complete prompt occurrences and 23 printed study-bank answer letters. Q03 and Q17
+are wording variants of the same direct-cell-contact distinction, so they remain two retained
+question records but collapse to one source handle. No two complete prompts are literal copies;
+the other prompts test distinct definitions, conditions, mechanisms, or subtype properties.
+Thus the source has **23 retained records and 22 source-distinct tested handles**.
+
+The printed source is preserved without answer repair. In Q06, `conjugation` is absent from the
+options and the table keys `D · None of the above`; Q13 prints `Replicate dependably on the
+bacterial chromosome` and keys B; Q17 adds a duplicate `Conjugation` option E but keys B; Q20
+prints both the dying-bacteria DNA-uptake statement and `permanent genotypic change` while keying
+B; and Q23 prints `trapeduced`. These are low-authority source claims or wording risks, not
+silently corrected medical facts.
+
+### Search-before-mint register and prior-BMS adjudication
+
+Each of the 22 source handles received four fresh required searches across live state and all
+pending import roots: **88 required searches**. The literal runs returned no match; manual
+exact-scope follow-up reopened the pending records cited below. The external disposition is
+`0 live / 15 pending / 7 no same-scope match`. The live plasmid record
+`CON-DEV-FE47A8F9B0768E` states only that plasmids are small circular extrachromosomal DNA;
+it does not cover Q13's chromosome-dependent-replication exception/composite and is not a
+same-scope live match.
+
+| Handle · ref | Four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacteriophage-host-transfer-toxin-typing-properties` · Q01 | `bacteriophage properties`; `bacteriophage infect bacteria not humans`; `bacteriophage toxin production`; `bacteriophage gene transfer typing` | new | none; Family-12 G03 is a narrower uses list and does not cover the host/property composite |
+| `genotypic-variation-mechanisms-not-sporulation` · Q02 | `bacterial genotypic variation mechanisms`; `conjugation transduction transformation mutation variation`; `genotypic variation gene transfer bacteria`; `sporulation phenotypic not genotypic` | pending `CON-INF-3576B51A9E5B1B`; explicitly distinguishes reversible spore formation from genotypic mutation | none; Family-12 G06 omits mutation and the phenotypic sporulation exception |
+| `conjugation-requires-direct-cell-contact` · Q03,Q17 | `bacterial conjugation direct cell contact`; `cell to cell contact bacterial gene transfer`; `conjugation contact dependent`; `bacterial gene transfer requires cell contact` | pending `CON-INF-B7F47EC7A8F7FA`; direct-contact mechanism | none; earlier resistance-plasmid conjugation is a different applied relation |
+| `phage-typing-infection-source-tracing` · Q04 | `phage typing source infection`; `bacteriophage epidemiological tracing`; `phage typing bacterial strains`; `trace source infection bacteriophage` | new | none; narrower single-use recognition is not collapsed into Family-12 G03's four-use enumeration |
+| `lysogenic-conversion-nontoxigenic-to-toxigenic-change` · Q05 | `lysogenic conversion toxigenic strain`; `non toxigenic to toxigenic phage`; `lysogenic conversion bacterial phenotype`; `bacterial toxigenicity lysogenic conversion` | pending `CON-INF-BFFA74CFBB0B25`; exact phenotype-change scope | none; Family-17 Q02 asks for the transfer process in an organism-specific toxin example |
+| `sex-pilus-gene-transfer-conjugation-omitted-option` · Q06 | `sex pilus gene transfer`; `gene transfer by sex pili between bacteria`; `sex pili conjugation`; `bacterial sex pilus transfer process` | pending `CON-INF-B7F47EC7A8F7FA`; exact sex-pilus mechanism | collapse to Family-17 Q01's sex-pilus identification scope; current missing-option key risk is preserved separately |
+| `lysogenic-bacterial-cell-contains-prophage` · Q07 | `lysogenic cell contains prophage`; `lysogen definition prophage`; `bacterial lysogen integrated phage`; `prophage in lysogenic bacterium` | new; conversion record does not define a lysogenic cell | exact collapse to Family-16 Q02 |
+| `conjugation-requires-fertility-factor` · Q08 | `fertility factor conjugation`; `conjugation requires F factor`; `F plasmid bacterial conjugation`; `fertility plasmid gene transfer` | pending `CON-INF-B7F47EC7A8F7FA`; exact F-plasmid requirement | none; delta |
+| `phenotypic-variation-reversible` · Q09 | `bacterial phenotypic variation reversible`; `phenotypic versus genotypic variation`; `environmental reversible bacterial variation`; `sporulation phenotypic variation` | pending `CON-INF-3576B51A9E5B1B`; exact reversibility distinction | none; delta |
+| `genotypic-variation-due-to-gene-transfer` · Q10 | `genotypic variation due to gene transfer`; `bacterial gene transfer heritable variation`; `genotypic not environmental reversible`; `bacterial genotypic variation true property` | new; the variation record does not state the tested gene-transfer cause | none; delta |
+| `lysogeny-bacteriophage-latent-in-host` · Q11 | `bacteriophage latent host cell`; `prophage latency bacterium`; `phage state during lysogeny`; `lysogeny bacteriophage latent` | new; conversion record does not test the phage's latent state | none; Family-16 asks what a lysogenic cell contains, not the phage-state relation |
+| `lysogenic-conversion-prophage-gene-properties` · Q12 | `prophage genes new bacterial properties`; `lysogenic conversion prophage genes`; `phage encoded genes bacterial phenotype`; `new properties conferred prophage` | pending `CON-INF-BFFA74CFBB0B25`; exact prophage-gene relation | none; organism-specific Family-17 Q02 asks for transduction rather than this causal gene source |
+| `plasmid-properties-independent-chromosome-replication` · Q13 | `bacterial plasmid properties`; `plasmid independent replication chromosome`; `plasmid double stranded DNA cloning vector`; `plasmid smaller than bacterial chromosome` | new; live extrachromosomal-DNA label is narrower than the keyed exception/composite | none; delta |
+| `transposon-mobile-bacterial-dna-segment` · Q14 | `bacterial transposon mobile DNA`; `DNA segment moves genome`; `jumping genes bacteria`; `transposon chromosome plasmid movement` | pending `CON-INF-D6A264E108B348`; exact mobile-DNA definition | collapse to Family-11 Q24's transposon mobility between plasmids and chromosomes |
+| `bacterial-mutation-dna-sequence-change` · Q15 | `bacterial mutation nucleotide sequence change`; `DNA sequence alteration bacteria`; `genotypic mutation definition`; `bacterial chromosome mutation` | pending `CON-INF-3576B51A9E5B1B`; definition explicitly contrasts DNA-sequence-level mutation | none; Family-12 G05 enumerates mutation mechanisms rather than defining mutation |
+| `bacterial-transformation-requires-competence` · Q16 | `bacterial transformation naked DNA competence`; `transformation requires competent recipient`; `competence bacteria DNA uptake`; `transformation competence not F factor` | pending `CON-INF-42D77BF4AB3ADD`; exact competence requirement | none; delta |
+| `transduction-phage-mediated-host-dna-transfer` · Q18 | `bacteriophage carries host cell DNA`; `phage mediated bacterial gene transfer`; `bacterial transduction definition`; `host DNA bacteriophage transfer` | pending `CON-INF-E9C14F5981ACE5`; definition explicitly states bacteriophage-mediated gene transfer | none; earlier comparison and organism-specific application are different scopes |
+| `generalized-transduction-lytic-cycle` · Q19 | `generalized transduction lytic cycle`; `random bacterial DNA phage transfer`; `virulent phage generalized transduction`; `generalized transduction host DNA` | pending `CON-INF-E9C14F5981ACE5`; exact lytic/virulent-phage subtype property | none; the single-property recognition remains distinct from Family-12 G07's three-row comparison |
+| `transformation-dying-bacteria-free-dna-uptake` · Q20 | `dying bacteria DNA uptake transformation`; `bacteria release DNA transformation`; `free donor DNA recipient transformation`; `transformation extracellular DNA uptake` | pending `CON-INF-42D77BF4AB3ADD`; exact donor-release and uptake relation | none; delta |
+| `transformation-naked-dna-in-solution` · Q21 | `transformation soluble DNA recipient`; `naked DNA solution bacterial transfer`; `donor recipient naked DNA transformation`; `soluble extracellular DNA transformation` | pending `CON-INF-42D77BF4AB3ADD`; exact soluble-DNA definition | none; delta |
+| `transformation-cacl2-induced-competence` · Q22 | `calcium chloride induced competence`; `CaCl2 bacterial transformation`; `recipient bacteria calcium chloride competence`; `chemical induction competence transformation` | new; the pending transformation record requires competence but does not cover CaCl2 induction | none; delta |
+| `specialized-transduction-temperate-phage-particular-gene` · Q23 | `specialized transduction temperate phage`; `specific bacterial gene phage transfer`; `lysogenic phage specialized transduction`; `prophage adjacent gene transfer` | pending `CON-INF-E9C14F5981ACE5`; exact temperate-phage/specific-gene subtype property | none; narrower recognition is distinct from Family-12 G07's comparison table |
+
+External arithmetic is `0 + 15 + 7 = 22`. Prior-BMS arithmetic is `22 source handles - 3`
+accepted same-scope overlaps `= 19` concept additions. Broader prior enumerations/comparison
+tables and applied organism/resistance relations are not used to erase narrower tested claims.
+
+### Family-27 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 27 auxiliary | Auxiliary cumulative (Families 12–27) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 23 | 171 | 765 | 936 |
+| Printed study-bank answer occurrences | 23 | 115 | 405 | 520 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 23 | 168 | 552 | 720 |
+| Source-distinct tested handles | 22 | 166 | — | — |
+| External live / pending / no same-scope match | 0 / 15 / 7 | — | — | family-local disposition |
+| Handles already represented in Families 1–26 | 3 | 33 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +19 | +133 over primary | — | `372 + 133 = 505` |
+| **Distinct tested concepts** | **+19** | **133 auxiliary additions** | **372** | **505** |
+
+Family arithmetic is `23 observed - 0 exact copies = 23 retained`, `23 retained - 1 semantic
+collapse = 22 source handles`, `0 + 15 + 7 = 22`, and `22 - 3 = 19` concept additions. The
+primary checkpoint remains **765 / 405 / 552 / 372**. Auxiliary cumulative arithmetic is `148
++ 23 = 171` observed, `92 + 23 = 115` printed answers, `145 + 23 = 168` retained, `144 + 22
+= 166` source handles, and `114 + 19 = 133` concepts over primary. The all-eligible inventory
+becomes **936 / 520 / 720 / 505**. This tier-6 study bank cannot raise exam/sitting, recurrence,
+mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 27
+
+`src_cbd8c1f138d11dc541a9` is exhausted across all four rendered pages: all 23 numbered MCQs,
+23 printed study-bank letters, and 22 source handles have one source assignment and one
+four-query search row; no page remains to resume. The next manifest-ordered local BMS-102
+candidate is tier-6 `src_42abe73ef515cfe405c6` · `Bacteriology and Bacterial Structure.pdf`,
+SHA-256 `42abe73ef515cfe405c691ae2c20e3f36b75ce8efc6153f3045327710680231d`, one native-text page
+under `Microbiology / Notes and Summaries`. Its first-page snippet is a declarative
+`Microbiology Overview` / prokaryotic-cell teaching map attributed `BY:MALAKSAMEH`; it requires
+a bounded one-page visual prompt-versus-declarative-node gate before any count is accepted.
