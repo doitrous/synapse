@@ -309,6 +309,30 @@ export async function migrate() {
         throw error
       }
     }
+
+    // QotD reminders: device_tokens gains web-push subscription columns and a
+    // wider platform enum. Guarded by lookups so a DB that already has them boots.
+    const [platformCol] = await conn.query(
+      `SELECT COLUMN_TYPE AS type FROM information_schema.columns
+        WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = 'platform'`,
+    )
+    if (platformCol.length && !platformCol[0].type.includes("'web'")) {
+      await conn.query(
+        "ALTER TABLE device_tokens MODIFY COLUMN platform ENUM('ios','android','web') NOT NULL DEFAULT 'ios'",
+      )
+    }
+    for (const [column, definition] of [
+      ['web_endpoint', 'TEXT NULL'],
+      ['web_p256dh', 'VARCHAR(255) NULL'],
+      ['web_auth', 'VARCHAR(255) NULL'],
+    ]) {
+      const [found] = await conn.query(
+        `SELECT 1 FROM information_schema.columns
+          WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = ?`,
+        [column],
+      )
+      if (!found.length) await conn.query(`ALTER TABLE device_tokens ADD COLUMN ${column} ${definition}`)
+    }
   } finally {
     conn.release()
   }

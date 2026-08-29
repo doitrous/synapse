@@ -446,10 +446,13 @@ ALTER TABLE user_documents ADD INDEX IF NOT EXISTS idx_user_documents_source (us
 CREATE TABLE IF NOT EXISTS device_tokens (
   token        VARCHAR(255) PRIMARY KEY,
   user_id      VARCHAR(64) NOT NULL,
-  platform     ENUM('ios') NOT NULL DEFAULT 'ios',
+  platform     ENUM('ios','android','web') NOT NULL DEFAULT 'ios',
   environment  ENUM('sandbox','production') NOT NULL DEFAULT 'production',
   locale       VARCHAR(16) NULL,
   app_version  VARCHAR(32) NULL,
+  web_endpoint TEXT NULL,
+  web_p256dh   VARCHAR(255) NULL,
+  web_auth     VARCHAR(255) NULL,
   created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   last_seen_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   INDEX idx_device_tokens_user (user_id)
@@ -779,6 +782,19 @@ CREATE TABLE IF NOT EXISTS qotd_answers (
   answered_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (user_id, qotd_date),
   INDEX idx_qotd_cohort (university_id, year, term, qotd_date)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* One row per Cairo-local day the reminder dispatch has run. INSERT IGNORE
+   against the primary key is the exactly-once claim: whichever tick or
+   instance inserts first runs the dispatch, every other tick sees
+   affectedRows === 0 and no-ops. Tallies are written back after the run for
+   observability, never read to decide whether to send. */
+CREATE TABLE IF NOT EXISTS qotd_reminder_runs (
+  run_date      DATE PRIMARY KEY,
+  dispatched_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  push_sent     INT NOT NULL DEFAULT 0,
+  email_sent    INT NOT NULL DEFAULT 0,
+  skipped       INT NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /* ── Build Maristanas ───────────────────────────────────────────────────

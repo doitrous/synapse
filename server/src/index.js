@@ -66,6 +66,7 @@ import {
 } from './enrollmentChanges.js'
 import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
 import { qotdToday, recordQotdAnswer, qotdLeaderboard, qotdFriends } from './qotd.js'
+import { startQotdReminderScheduler } from './qotdReminders.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
 import { activityTrackingSummary } from './studyTrackingAdmin.js'
 import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
@@ -1179,19 +1180,38 @@ function normaliseDeviceToken(value) {
  * student's reminders.
  */
 app.post('/api/devices', requireAuthenticated, wrap(async (req, res) => {
+  const platform = ['ios', 'android', 'web'].includes(req.body?.platform) ? req.body.platform : 'ios'
+  const locale = typeof req.body?.locale === 'string' ? req.body.locale.slice(0, 16) : null
+  const appVersion = typeof req.body?.appVersion === 'string' ? req.body.appVersion.slice(0, 32) : null
+
+  if (platform === 'web') {
+    // A web subscription's identity is its endpoint (used as the PK token).
+    const sub = req.body?.subscription
+    const endpoint = typeof sub?.endpoint === 'string' ? sub.endpoint : null
+    const p256dh = typeof sub?.keys?.p256dh === 'string' ? sub.keys.p256dh : null
+    const auth = typeof sub?.keys?.auth === 'string' ? sub.keys.auth : null
+    if (!endpoint || !p256dh || !auth) return res.status(400).json({ error: 'invalid web subscription' })
+    await pool.query(
+      `INSERT INTO device_tokens (token, user_id, platform, environment, locale, app_version, web_endpoint, web_p256dh, web_auth)
+       VALUES (?, ?, 'web', 'production', ?, ?, ?, ?, ?)
+       ON DUPLICATE KEY UPDATE user_id = VALUES(user_id), locale = VALUES(locale),
+         app_version = VALUES(app_version), web_endpoint = VALUES(web_endpoint),
+         web_p256dh = VALUES(web_p256dh), web_auth = VALUES(web_auth), last_seen_at = CURRENT_TIMESTAMP`,
+      [endpoint, req.identity.id, locale, appVersion, endpoint, p256dh, auth],
+    )
+    return res.json({ ok: true })
+  }
+
   const token = normaliseDeviceToken(req.body?.token)
   if (!token) return res.status(400).json({ error: 'invalid device token' })
   const environment = req.body?.environment === 'sandbox' ? 'sandbox' : 'production'
-  const locale = typeof req.body?.locale === 'string' ? req.body.locale.slice(0, 16) : null
-  const appVersion = typeof req.body?.appVersion === 'string' ? req.body.appVersion.slice(0, 32) : null
   await pool.query(
     `INSERT INTO device_tokens (token, user_id, platform, environment, locale, app_version)
-     VALUES (?, ?, 'ios', ?, ?, ?)
-     ON DUPLICATE KEY UPDATE
-       user_id = VALUES(user_id), environment = VALUES(environment),
-       locale = VALUES(locale), app_version = VALUES(app_version),
-       last_seen_at = CURRENT_TIMESTAMP`,
-    [token, req.identity.id, environment, locale, appVersion],
+     VALUES (?, ?, ?, ?, ?, ?)
+     ON DUPLICATE KEY UPDATE user_id = VALUES(user_id), platform = VALUES(platform),
+       environment = VALUES(environment), locale = VALUES(locale),
+       app_version = VALUES(app_version), last_seen_at = CURRENT_TIMESTAMP`,
+    [token, req.identity.id, platform, environment, locale, appVersion],
   )
   res.json({ ok: true })
 }))
@@ -3326,10 +3346,21 @@ app.get('/api/mail/attachment/:id', wrap(async (req, res) => {
   res.send(Buffer.from(a.b64 || '', 'base64'))
 }))
 
-// Send + record. attachments: [{ filename, contentType, content_b64 }]
-app.post('/api/mail/send', wrap(async (req, res) => {
-  const { from, to, cc, bcc, subject, html, text, category, headers = {}, attachments = [] } = req.body || {}
-  if (!to || !subject) return res.status(400).json({ error: 'to and subject required' })
+/**
+ * Send one email through Resend, applying suppression and one-click
+ * unsubscribe, and log it. Extracted from the `/api/mail/send` handler so the
+ * QotD reminder dispatch (and any future caller) shares the exact same
+ * suppression/unsubscribe/logging path rather than forking it.
+ *
+ * Returns `{ id, status, resendId, suppressed? }` on success (`status` is
+ * one of 'Suppressed' | 'Queued' | 'Sent'), or `{ error, status }` — a
+ * message plus the HTTP status the caller should respond with — for the two
+ * failure cases the old route handled inline (missing to/subject, Resend
+ * error). Callers that are not an HTTP route (the reminder dispatch) just
+ * check `result.status === 'Sent' || result.status === 'Queued'`.
+ */
+async function sendMail({ from, to, cc, bcc, subject, html, text, category, headers = {}, attachments = [] }) {
+  if (!to || !subject) return { error: 'to and subject required', status: 400 }
   const fromAddr = from || MAIL_FROM
   const id = `mail-${randomUUID().slice(0, 12)}`
   const recipients = Array.isArray(to) ? to : [to]
@@ -3342,7 +3373,7 @@ app.post('/api/mail/send', wrap(async (req, res) => {
     allowed.push(address)
   }
   if (recipients.length && !allowed.length) {
-    return res.json({ id, status: 'Suppressed', resendId: null, suppressed: recipients.length })
+    return { id, status: 'Suppressed', resendId: null, suppressed: recipients.length }
   }
 
   // One-click unsubscribe. Gmail and Outlook surface their own control when these
@@ -3363,7 +3394,7 @@ app.post('/api/mail/send', wrap(async (req, res) => {
       headers: Object.keys(outHeaders).length ? outHeaders : undefined,
       attachments: attachments.map((a) => ({ filename: a.filename, content: a.content_b64 })),
     })
-    if (error) return res.status(502).json({ error: error.message })
+    if (error) return { error: error.message, status: 502 }
     status = 'Sent'; resendId = data?.id ?? null
   }
   await pool.query(
@@ -3374,7 +3405,14 @@ app.post('/api/mail/send', wrap(async (req, res) => {
     await pool.query('INSERT INTO attachments (id, email_id, filename, content_type, size_bytes, content_b64) VALUES (?,?,?,?,?,?)',
       [`att-${randomUUID().slice(0, 12)}`, id, a.filename, a.contentType || 'application/octet-stream', a.size || 0, a.content_b64 || null])
   }
-  res.json({ id, status, resendId })
+  return { id, status, resendId }
+}
+
+// Send + record. attachments: [{ filename, contentType, content_b64 }]
+app.post('/api/mail/send', wrap(async (req, res) => {
+  const result = await sendMail(req.body || {})
+  if (result.error) return res.status(result.status ?? 400).json({ error: result.error })
+  res.json(result)
 }))
 
 // Verified Resend email.received webhook → retrieve and store the complete
@@ -3557,6 +3595,7 @@ migrate()
         .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
         .catch((error) => console.error('Medical resource index warm-up failed:', error.message))
     })
+    startQotdReminderScheduler()
     // Recovery-point creation must never prevent the HTTP server from coming
     // online. A backup failure is reported for operators but is non-fatal.
     try {

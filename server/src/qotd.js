@@ -175,7 +175,7 @@ function computeStreak(dates, todayIso) {
   return { current, longest }
 }
 
-async function todaysQuestionId(cohort, isoDate) {
+export async function todaysQuestionId(cohort, isoDate) {
   const [ledger, pins] = await Promise.all([readState(LEDGER_KEY), readState(PINS_KEY)])
   return selectQotdId(candidatesFromLedger(ledger), cohort, isoDate, pins ?? {})
 }
