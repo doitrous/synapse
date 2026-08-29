@@ -52,3 +52,15 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - Overall Year-1 readiness remains `PLANNED_FRESH_TRIAGE_REQUIRED`: BMS-102, LCS-103 and
   PSY-104 still require their ranked S1 dispatches, and the seven unscoped sources remain
   S0-owned. The next ranked action is HU-BMS-102 pathology + microbiology triage.
+
+## HU-BMS-102 pathology + microbiology S1 family checkpoint
+
+- Pathology Tutorial 102, printed pp. 242–248 from `src_88169dc9b6ad00181a0d`, is triaged:
+  52 prompts (28 MCQ, 24 written/completion/T-F), one visibly printed key, and 51
+  de-duplicated tested-concept handles.
+- The completed Family-1 search register records 0 live, 6 scope-proven pending and 45 new
+  dispositions (51 handles; 204 required plus 78 follow-up searches). It is evidence only:
+  no IDs, content, import or approval were created.
+- The bounded continuation is the same source’s printed pp. 249–255: 105 raw prompts, 20
+  exact repeated model-prompt occurrences, and 85 retained records before concept collapse
+  and search. Tutorial 103 (pp. 256–262) remains excluded for LCS-103 review.
