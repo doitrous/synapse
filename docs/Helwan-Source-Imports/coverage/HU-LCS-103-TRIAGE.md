@@ -2513,3 +2513,124 @@ at physical p. 35; the Joint Diseases cover on p. 36 is the next hard boundary.
 This gate contributes **zero prompts, zero keys and zero concepts**. The accepted eligible
 checkpoint therefore remains **370 observed prompts / 209 printed keys / 183 concepts = 9
 live / 49 pending / 125 new**; the external bank and auxiliary dimensions are unchanged.
+
+## Family 21 — CBL Bone Diseases, Cases 1–11
+
+### Bounded source identity and classification
+
+| Field | Verified Family-21 result |
+|---|---|
+| Manifest source | `src_79b0f17a5426e5773083` |
+| Manifest / recomputed SHA-256 | `79b0f17a5426e57730835bca39abda5e82ac8f6c72db7f513cc7a24a805daa55` |
+| Local file | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 LCS CBL.pdf` |
+| Container | 110-page native-text PDF; the bounded Family-21 section is physical pp. 2–35 |
+| Visible section boundary | p. 1 is the `CBL Bone Diseases` cover; Cases 1–11 occupy pp. 2–35; p. 36 starts `CBL Joint Diseases` |
+| Evidence class | eligible lower-authority `HU-LCS-103` teaching/revision assessment evidence; question occurrences and printed red-option reveals count, rationale-only slides do not |
+| Review method | every physical page 2–35 rendered at 220 dpi and visually read; native text used only as a transcription aid; no download |
+
+The bounded section contains **22 complete MCQ prompt-slide occurrences**: an unkeyed question
+slide and a repeated keyed question slide for each of Cases 1–11. It contains **11 printed
+keys**, one red option on each keyed repeat. The 12 additional rationale-only teaching slides
+on pp. 14–15, 18–19, 22–23, 26–27, 30–31 and 34–35 are not extra prompts, and their
+`CORRECT` / `Incorrect` prose does not create extra keys. Red words in the stems of Cases
+6–11 are clue emphasis, not answers.
+
+### Source-order occurrence, key and copy ledger
+
+Every one of the 22 observed prompt occurrences is assigned once below. All eleven unkeyed
+question slides remain observed prompt evidence even though the immediately following copy
+supplies the answer reveal.
+
+| Case | Physical pages | First occurrence | Keyed repeat / printed key | Handle assignment and repeat treatment |
+|---:|---:|---|---|---|
+| 1 | 2–3 | complete unkeyed MCQ | complete repeat; `C Osteomyelitis` red | both → `chronic-pyogenic-osteomyelitis-clinical-diagnosis`; same-case exact wording/options collapse |
+| 2 | 4–5 | complete unkeyed MCQ | complete repeat; `C Pott's disease` red | both → `pott-disease-clinical-pathologic-diagnosis`; same-case exact wording/options collapse |
+| 3 | 6–7 | complete unkeyed MCQ | complete repeat; `E Pyogenic osteomyelitis` red | both → `chronic-pyogenic-osteomyelitis-clinical-diagnosis`; same-case repeat collapses, then semantic collapse with Case 1 |
+| 4 | 8–9 | complete unkeyed MCQ | complete repeat; `C Staph aureus` red | both → `staphylococcus-aureus-pyogenic-osteomyelitis`; same-case exact wording/options collapse |
+| 5 | 10–11 | complete unkeyed MCQ | complete repeat; `E Stress fracture` red | both → `stress-fracture-clinical-radiologic-pattern`; capitalization-only `On radiological` / `on radiological` alteration retained but collapsed to one prompt form |
+| 6 | 12–13 | complete unkeyed MCQ | complete repeat; `D Osteoporosis` red | both → `osteoporosis-density-and-fragility-diagnosis`; same-case exact wording/options collapse |
+| 7 | 16–17 | complete unkeyed MCQ | visibly collided/malformed but complete keyed copy; `B Paget disease of bone` red | both → `older-adult-high-alp-skull-bone-disorder-differential`; malformed keyed rendering preserved, same intended stem/options collapsed |
+| 8 | 20–21 | complete unkeyed MCQ | complete repeat; `E Congestive heart failure` red | both → `paget-disease-cardiac-and-joint-complications`; same-case exact wording/options collapse |
+| 9 | 24–25 | complete unkeyed MCQ | complete repeat; `B Osteogenesis imperfecta` red | both → `osteogenesis-imperfecta-type-I-collagen`; same-case exact wording/options collapse |
+| 10 | 28–29 | complete unkeyed MCQ | complete repeat; `E Poor alignment` red | both → `fracture-nonunion-risk-poor-alignment`; same-case exact wording/options collapse |
+| 11 | 32–33 | complete unkeyed MCQ | complete repeat; `D Achondroplasia` red | both → `achondroplasia-clinical-pattern`; same-case exact wording/options collapse |
+
+The eleven within-case copy collapses reduce 22 occurrences to 11 prompt forms. Cases 1 and
+3 are separate clinical occurrences but ask the same chronic-pyogenic-osteomyelitis diagnosis
+objective and collapse semantically. Thus `22 - 11 - 1 = 10` source-distinct handles.
+
+Two explanation sequences require explicit source-risk preservation:
+
+- Case 6's p. 13 red `D Osteoporosis` and p. 14 `(D) CORRECT` agree. On p. 15, however,
+  `(E)` discusses McCune-Albright/fibrous dysplasia, which is absent from the five printed
+  options, and `(F)` discusses metastases although metastatic breast carcinoma is printed as
+  option E. The one mapped printed key remains red D; the shifted/malformed explanation is
+  not silently reconciled.
+- Case 10's p. 29 red `E Poor alignment` conflicts with the p. 30–31 explanation lettering:
+  the rationale introduces absent option A `Diabetes mellitus`, shifts the printed options,
+  and calls `(F) CORRECT` for poor alignment although the MCQ has only A–E. The one mapped
+  printed key remains red E, and the rationale conflict is retained for review.
+
+### Search-before-mint and prior-LCS disposition ledger
+
+Each of the ten source-distinct handles received one query against each required surface:
+live state (`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), all prior source-import lanes, and the accepted prior-LCS
+ledger. That is **10 × 4 = 40 required invocations**. Taxonomy leaves, MCQ-option strings and
+incidental mentions were rejected as substantive coverage. The separately tracked external
+Histology bank has no exact same-scope handle; its osteoporosis/calcitonin treatment record
+is narrower and does not alter the eligible disposition.
+
+| # | Case assignment → handle | Four-query bundle | Corpus / prior-LCS result | Source disposition | Eligible-module effect |
+|---:|---|---|---|---|---|
+| 1 | Cases 1,3 → `chronic-pyogenic-osteomyelitis-clinical-diagnosis` | `chronic osteomyelitis`; `draining sinus bone infection`; `pyogenic osteomyelitis diagnosis`; `sequestrum involucrum sinus` | Prior LCS owns the narrower sequestrum/involucrum/cloaca terminology and diabetic-foot or sickle-cell contexts, not this clinical diagnosis objective. No substantive live or pending match. | new | +1 new |
+| 2 | Case 2 → `pott-disease-clinical-pathologic-diagnosis` | `Pott disease`; `tuberculous spondylitis`; `spinal tuberculosis`; `vertebral tuberculosis granulomatous` | No substantive live, pending, external-bank or prior eligible-LCS record owns the combined clinical/pathologic diagnosis. | new | +1 new |
+| 3 | Case 4 → `staphylococcus-aureus-pyogenic-osteomyelitis` | `staphylococcus aureus osteomyelitis`; `staph aureus bone infection`; `pyogenic osteomyelitis organism`; `osteomyelitis causative organism` | Other osteomyelitis records own diabetic, sickle-cell or morphologic contexts, not the keyed organism relationship. | new | +1 new |
+| 4 | Case 5 → `stress-fracture-clinical-radiologic-pattern` | `stress fracture`; `fatigue fracture`; `athletic overuse fracture`; `periosteal bone formation fissure` | No substantive live, pending, external-bank or prior-LCS same-scope record. | new | +1 new |
+| 5 | Case 6 → `osteoporosis-density-and-fragility-diagnosis` | `osteoporosis`; `fragility fracture`; `vertebral compression fracture osteoporosis`; `postmenopausal bone loss` | Exact accepted Family-17/18 eligible handle; pending `CON-MSK-89674D65B2316B` owns density loss and fracture risk. | pending; prior eligible-LCS reuse | +0 |
+| 6 | Case 7 → `older-adult-high-alp-skull-bone-disorder-differential` | `Paget disease bone`; `osteitis deformans`; `mosaic bone alkaline phosphatase`; `enlarged skull hearing loss` | Exact accepted Family-12 eligible handle; no substantive corpus match supersedes its inherited new disposition. | prior eligible-LCS reuse; inherited new | +0 |
+| 7 | Case 8 → `paget-disease-cardiac-and-joint-complications` | `Paget high output heart failure`; `Paget congestive heart failure`; `bone hypervascularity cardiac failure`; `Paget complications` | Exact accepted Family-18 eligible handle; no substantive live or pending record owns the complication pair. | prior eligible-LCS reuse; inherited new | +0 |
+| 8 | Case 9 → `osteogenesis-imperfecta-type-I-collagen` | `osteogenesis imperfecta`; `type I collagen bone fractures`; `blue sclera hearing loss`; `brittle bone disease` | Exact accepted Family-17 eligible handle, previously promoted from auxiliary evidence; no substantive live/pending match. | prior eligible-LCS reuse; inherited new | +0 |
+| 9 | Case 10 → `fracture-nonunion-risk-poor-alignment` | `fracture nonunion`; `pseudarthrosis`; `poor alignment fracture healing`; `delayed union malalignment` | Exact accepted Family-17 eligible handle; pending fractured-neck material is vascular rather than alignment-mechanism coverage. | prior eligible-LCS reuse; inherited new | +0 |
+| 10 | Case 11 → `achondroplasia-clinical-pattern` | `achondroplasia`; `short limbed dwarfism`; `FGFR3 dwarfism`; `rhizomelic short stature` | Exact prior-LCS auxiliary-only handle from Family 9, never counted in tested totals; no substantive live or pending record owns the pattern. | prior-LCS auxiliary promotion; new | +1 new |
+
+Source-disposition arithmetic is **0 live + 1 pending + 9 new = 10** handles. Module novelty
+is separate: **5 prior eligible reuse + 5 new to eligible = 10**. All five net concepts are
+new, so the eligible delta resolves as **0 live + 0 pending + 5 new**. The pending status on
+the osteoporosis handle is inherited evidence for a concept already counted in the baseline,
+not a new pending concept.
+
+### Family-21 checkpoint and cumulative LCS-103 delta
+
+| Family-21 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS reuse (Cases 6–10) | 10 | 5 | 5 | 0 | 0 | 0 | 0 |
+| New-to-eligible handles (Cases 1/3, 2, 4, 5, 11) | 12 | 6 | 5 | 5 | 0 | 0 | 5 |
+| **Family 21 assessment evidence** | **22** | **11** | **10** | **5** | **0** | **0** | **5** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 20 | 370 | 209 | 183 | 9 | 49 | 125 |
+| Family 21 net delta | +22 | +11 | +5 | +0 | +0 | +5 |
+| **LCS-103 cumulative after Family 21** | **392** | **220** | **188** | **9** | **49** | **130** |
+
+Arithmetic checks: `11 cases × 2 complete prompt slides = 22`; `11 keyed repeats × 1 red
+option = 11` keys; `22 - 11 same-case copy collapses = 11` prompt forms; `11 - 1 Case-1/
+Case-3 semantic collapse = 10` source-distinct handles; `5 prior eligible reuse + 5 net =
+10`; `0 + 1 + 9 = 10` source dispositions; `0 + 0 + 5 = 5` net dispositions; `370 + 22
+= 392`; `209 + 11 = 220`; `183 + 5 = 188`; and `9 + 49 + 130 = 188`. The 12
+rationale-only teaching slides add no assessment counts. The external bank remains separately
+unchanged at `241 prompts / 241 keys / 75 handles = 9 live / 66 pending / 0 new`; the 50
+auxiliary notes and tracked unresolved/malformed items also remain unchanged.
+
+## Exact next debt
+
+- Continue the same local source with the next hard-bounded section, `CBL Joint Diseases`:
+  physical p. 36 is the cover, p. 37 is a teaching-objectives slide, and **Cases 12–20 occupy
+  physical pp. 38–70**. Inventory only pp. 38–70 in the next bounded family.
+- Preserve the already-proven Case-20 exception: pp. 69 and 70 are both complete MCQs with
+  the same stem/lead-in but altered option sets; p. 70 has red `D Ganglion cyst`. Retain both
+  as prompt occurrences, preserve both visible option sets and the reveal, and decide semantic
+  collapse separately rather than calling them exact copies.
+- No download is needed. The later General / Soft Tissue & Bone Neoplasia section remains
+  deferred behind completion of Joint Diseases.

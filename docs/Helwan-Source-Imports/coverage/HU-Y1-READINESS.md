@@ -283,6 +283,10 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   not independent printed Helwan or sitting-exam authority. The tier-3 CBL pack
   `src_79b0f17a5426e5773083` is now provenance-gated as lower-authority teaching/revision
   evidence: 110 pages, Utah WebPath markers, and no independent Helwan/module/sitting label.
-  It adds zero counts. Its first bounded extraction is Bone Diseases pp. 2–35; Case-20 pp.69–70
-  are complete altered occurrences, with p.70's red `d. Ganglion cyst` preserved as a key, not
-  a copy/crop claim or premature semantic collapse.
+  Bone Diseases pp.2–35 is now closed: 22 complete MCQ occurrences and 11 red-option keys;
+  eleven within-case copies plus the Case-1/Case-3 collapse leave 10 handles. Five prior
+  eligible-LCS reuses and five new-only additions bring eligible LCS to 392/220/188 and
+  9/49/130. Case-6 shifted explanation lettering and Case-10's red-E versus rationale-F
+  conflict remain source-preserved. Next bounded extraction is Joint Diseases pp.38–70;
+  Case-20 pp.69–70 remain complete altered occurrences, with p.70's red `d. Ganglion cyst`
+  preserved as a key, not a copy/crop claim or premature semantic collapse.
