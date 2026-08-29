@@ -933,3 +933,135 @@ At source-concept level this family is live 1 / pending 4 / new 20.  After cross
 **Remaining file list:** 99 selected inventory paths / 94 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `92027903e598ccedd0bd7fa2a5f67bf0554d9ed30a9f4ce9c86b894523905b0f`.  By the pinned triage text classification, it contains 54 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 99 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the remaining unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — Physiology final 180-question family
+
+The asserted starting remaining-hash checksum `92027903e598ccedd0bd7fa2a5f67bf0554d9ed30a9f4ce9c86b894523905b0f` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 94 hashes before this pass.  The remaining evidence-ranked substantive `06 EOM Exams` family is the 59-page Physiology final paper below.  All 59 pages were rendered and read.  Its title page explicitly states that it contains 180 questions, with 30 questions for each of six sections.  Every visible question has an on-page printed `Answer:` statement; all 180 were counted as printed answers and none was inferred, corrected, or supplied from elsewhere.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Physiology/06 EOM Exams/EOM MCQs - Physiology FHB101 Questions (Final).pdf` | `6c2aa8130c1d9d73c68acaf44ba2f39f5ce9709c9c8f332cda5cd2751a973f7b` | 59 | 180 | 180 |
+
+### Printed-question / answer and concept ledger
+
+The six section headings each number their prompts 1–30; the section label is therefore retained with every range.  `Answer:` is printed directly beneath each prompt or option set.  The assignments below account for every observed prompt; overlapping ranges represent genuinely overlapping concepts rather than extra questions.
+
+| Printed prompts read | Assigned tested concept |
+|---|---|
+| Iron 1–3 | Daily iron requirement and total-body iron distribution |
+| Iron 4–6, 9, 13, 16, 21, 23; Anaemia 26–27 | Intestinal iron absorption, reduction, transport, and dietary modifiers |
+| Iron 7–8 | Ferritin storage and hemosiderosis |
+| Iron 10–12, 14, 17, 19–20, 24, 28 | Vitamin-B12 transport, binding, storage, absorption, and dietary source |
+| Iron 15, 18, 22, 25, 29–30 | Folate/B12-dependent DNA synthesis and macrocytic erythroid maturation |
+| Iron 26 | Copper as a haemoglobin-formation cofactor |
+| Iron 27; Anaemia 19, 28, 30 | Iron-deficiency microcytic anaemia |
+| Anaemia 1–10, 22–23 | Anaemia definition and red-cell indices/patterns |
+| Anaemia 11 | Aplastic anaemia after marrow irradiation |
+| Anaemia 12–13, 20 | Hypoxic symptoms and vasodilation-related cardiac workload in anaemia |
+| Anaemia 14–16 | Primary and secondary polycythaemia |
+| Anaemia 17, 24–25 | Intrinsic haemolytic anaemia, including sickle-cell anaemia |
+| Anaemia 18, 21 | Pernicious anaemia and intrinsic-factor deficiency |
+| Anaemia 29 | Increased folate requirement in pregnancy |
+| Hemostasis 1–2 | Haemostasis purpose and injury-induced vascular vasoconstriction |
+| Hemostasis 3, 16 | Platelet count and bone-marrow production |
+| Hemostasis 4, 10, 27 | Platelet adhesion to collagen through von Willebrand factor |
+| Hemostasis 5, 11, 23 | ADP-driven platelet aggregation and irreversible fusion |
+| Hemostasis 6, 8–9, 13–14, 18, 24–25, 28–30; Anti-clotting 5, 17, 29–30 | Platelet eicosanoids: thromboxane, prostacyclin, arachidonic acid, phospholipase A2, cyclooxygenase, and aspirin |
+| Hemostasis 7 | Platelet factor 3 as a coagulation-factor surface |
+| Hemostasis 12, 15, 20 | Alpha granules and PDGF-mediated vessel-wall repair |
+| Hemostasis 17 | Platelet contractile proteins and activation shape change |
+| Hemostasis 19 | Platelet open-canalicular system |
+| Hemostasis 21–22 | Dense-granule contents and platelet serotonin-mediated vasoconstriction |
+| Coagulation 1–3, 11, 15, 26 | Fibrin-clot formation, fibrinogen, and thrombin |
+| Coagulation 4, 27 | Vitamin-K-dependent factor/prothrombin synthesis |
+| Coagulation 5, 8, 17–18, 23, 28–30 | Intrinsic contact pathway, factor-XII activation, and its slower sequence |
+| Coagulation 6, 12, 19, 21 | Extrinsic tissue-thromboplastin pathway and its speed |
+| Coagulation 7, 15, 17, 22 | Common pathway: factor X and prothrombin-to-thrombin conversion |
+| Coagulation 9 | Factor XIII fibrin-clot stabilization |
+| Coagulation 10, 20, 24 | Thrombin feedback, factor-VIII coagulation activity, and factor-VIII/von-Willebrand association |
+| Coagulation 13–14 | Factor-V sources and serum consumption after clotting |
+| Coagulation 25, 28 | Calcium activation and high-molecular-weight-kininogen/kallikrein contact cofactors |
+| Anti-clotting 1–3, 26–27 | Physiological anticoagulation by smooth endothelium and hepatic removal of activated factors |
+| Anti-clotting 4, 6, 28 | Heparin enhancement of antithrombin III |
+| Anti-clotting 7–10, 18, 21, 24 | Thrombomodulin–thrombin activation of protein C with protein-S cofactor action |
+| Anti-clotting 11–12, 14–16, 19–20, 22–23, 25 | Tissue plasminogen activator, plasminogen/plasmin, fibrinolysis, and therapeutic tPA |
+| Anti-clotting 13, 16, 22 | Fibrin-degradation products and thrombin inhibition |
+| Abnormalities 1–2, 12–13, 25, 28–29 | Thrombocytopenic purpura, petechiae, platelet function, and bleeding time |
+| Abnormalities 3, 14, 17, 26 | Vitamin-K source, neonatal intestinal-flora deficiency, and prolonged PT/clotting time |
+| Abnormalities 4–6, 19–21 | Haemophilia and factor-VIII/intrinsic-pathway abnormalities |
+| Abnormalities 7–8, 11, 22–23 | Venous stasis, endothelial roughness, varicosities, and thrombosis risk |
+| Abnormalities 9–10, 24 | Disseminated intravascular coagulation and excessive thromboplastin/dialysis association |
+| Abnormalities 14–15, 30 | Whole-blood clotting time and its screening role |
+| Abnormalities 16–18, 27 | Prothrombin time for the extrinsic pathway |
+| Abnormalities 18–20 | Activated partial thromboplastin time for the intrinsic pathway |
+
+The 180 questions collapse to 46 source-distinct tested concepts.  Twenty-seven reproduce concepts already represented by the completed FHB physiology sources, including iron absorption/storage, B12/folate maturation, iron-deficiency and aplastic anaemia, polycythaemia, platelet count/adhesion/eicosanoids/PF3, intrinsic/extrinsic/common coagulation, vitamin K, factor XIII, antithrombin/heparin, protein C/S/thrombomodulin, plasmin, thrombocytopenia, haemophilia, DIC, and the haemostasis test-pattern family.  This paper therefore adds 19 cumulative distinct concepts.
+
+### Tested-concept search ledger — Physiology final 180-question family
+
+Each source-distinct concept was searched with the manual tool using both phrases shown, across live state and every pending import root.  A live result takes precedence over pending.  `Already triaged` describes cross-source FHB collapse only; it is not an ID, placement, or content record.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Daily iron requirement and total-body iron distribution (`daily iron intake`; `body iron distribution`) | new — TBD |
+| Intestinal iron absorption, reduction, transport, and dietary modifiers (`iron absorption`; `ferrous ferric iron`) | live-hit; already triaged in FHB |
+| Ferritin storage and hemosiderosis (`iron stores ferritin`; `hemosiderosis`) | pending-hit; already triaged in FHB |
+| Vitamin-B12 transport, binding, storage, absorption, and dietary source (`transcobalamin vitamin B12`; `cobalamin dietary source`) | new — TBD |
+| Folate/B12-dependent DNA synthesis and macrocytic erythroid maturation (`folate B12 nuclear maturation`; `macrocytic anemia`) | live-hit; already triaged in FHB |
+| Copper as a haemoglobin-formation cofactor (`copper hemoglobin formation`; `copper deficiency hemoglobin`) | new; already triaged in FHB |
+| Iron-deficiency microcytic anaemia (`iron deficiency anemia`; `microcytic hypochromic anemia`) | live-hit; already triaged in FHB |
+| Anaemia definition and red-cell indices/patterns (`anemia definition hemoglobin`; `red cell indices MCH`) | new — TBD |
+| Aplastic anaemia after marrow irradiation (`aplastic anemia`; `aplastic anemia radiation`) | live-hit; already triaged in FHB |
+| Hypoxic symptoms and vasodilation-related cardiac workload in anaemia (`anemia hypoxia dyspnea`; `anemia cardiac work`) | new; already triaged in FHB |
+| Primary and secondary polycythaemia (`polycythemia`; `physiological polycythemia`) | pending-hit; already triaged in FHB |
+| Intrinsic haemolytic anaemia, including sickle-cell anaemia (`hereditary spherocytosis`; `sickle cell anemia`) | live-hit; hereditary spherocytosis is a cumulative addition |
+| Pernicious anaemia and intrinsic-factor deficiency (`pernicious anemia intrinsic factor`; `vitamin B12 absorption`) | pending-hit; already triaged in FHB |
+| Increased folate requirement in pregnancy (`folate pregnancy demand`; `folic acid pregnancy`) | new — TBD |
+| Haemostasis purpose and injury-induced vascular vasoconstriction (`hemostasis blood loss`; `hemostasis vasoconstriction`) | new — TBD |
+| Platelet count and bone-marrow production (`platelet count`; `platelet production bone marrow`) | live-hit; already triaged in FHB |
+| Platelet adhesion to collagen through von Willebrand factor (`von Willebrand platelet adhesion`; `platelet adhesion collagen`) | pending-hit; already triaged in FHB |
+| ADP-driven platelet aggregation and irreversible fusion (`platelet aggregation ADP`; `dense granules ADP platelet`) | new — TBD |
+| Platelet factor 3 as a coagulation-factor surface (`platelet factor 3`; `platelet phospholipid surface`) | live-hit; already triaged in FHB |
+| Alpha granules and PDGF-mediated vessel-wall repair (`platelet alpha granules`; `platelet derived growth factor`) | new — TBD |
+| Platelet contractile proteins and activation shape change (`platelet contractile proteins`; `platelet shape change`) | new — TBD |
+| Platelet open-canalicular system (`open canalicular system`; `open canalicular system platelets`) | live-hit — cumulative addition |
+| Dense-granule contents and platelet serotonin-mediated vasoconstriction (`serotonin platelets`; `serotonin vasoconstriction platelets`) | new — TBD |
+| Platelet eicosanoids: thromboxane, prostacyclin, arachidonic acid, phospholipase A2, cyclooxygenase, and aspirin (`aspirin thromboxane prostacyclin`; `thromboxane synthetase`) | live-hit; already triaged in FHB |
+| Fibrin-clot formation, fibrinogen, and thrombin (`fibrinogen factor I`; `factor X thrombin fibrin`) | new; already triaged in FHB |
+| Vitamin-K-dependent factor/prothrombin synthesis (`vitamin K clotting factors`; `vitamin K prothrombin`) | new; already triaged in FHB |
+| Intrinsic contact pathway, factor-XII activation, and its slower sequence (`intrinsic coagulation pathway`; `factor XII collagen`) | pending-hit; already triaged in FHB |
+| Extrinsic tissue-thromboplastin pathway and its speed (`extrinsic coagulation pathway`; `tissue thromboplastin`) | live-hit; already triaged in FHB |
+| Common pathway: factor X and prothrombin-to-thrombin conversion (`common coagulation pathway`; `factor X prothrombin thrombin`) | new; already triaged in FHB |
+| Factor XIII fibrin-clot stabilization (`factor XIII fibrin`; `factor XIII fibrin stabilization`) | live-hit; already triaged in FHB |
+| Thrombin feedback, factor-VIII coagulation activity, and factor-VIII/von-Willebrand association (`factor VIII von Willebrand`; `factor VIII C`) | new — TBD |
+| Factor-V sources and serum consumption after clotting (`factor V liver platelets`; `factor V serum`) | new — TBD |
+| Calcium activation and high-molecular-weight-kininogen/kallikrein contact cofactors (`high molecular weight kininogen`; `plasma kallikrein`) | new — TBD |
+| Physiological anticoagulation by smooth endothelium and hepatic removal of activated factors (`smooth vascular endothelium`; `liver removes activated clotting factors`) | new — TBD |
+| Heparin enhancement of antithrombin III (`antithrombin III heparin`; `heparin anticoagulant`) | live-hit; already triaged in FHB |
+| Thrombomodulin–thrombin activation of protein C with protein-S cofactor action (`thrombomodulin protein C`; `protein C protein S`) | new; already triaged in FHB |
+| Tissue plasminogen activator, plasminogen/plasmin, fibrinolysis, and therapeutic tPA (`tissue plasminogen activator`; `plasminogen plasmin`) | live-hit — cumulative addition |
+| Fibrin-degradation products and thrombin inhibition (`fibrin degradation products`; `FDP thrombin inhibition`) | new — TBD |
+| Thrombocytopenic purpura, petechiae, platelet function, and bleeding time (`thrombocytopenic purpura`; `bleeding time platelet function`) | pending-hit; already triaged in FHB |
+| Vitamin-K source, neonatal intestinal-flora deficiency, and prolonged PT/clotting time (`vitamin K newborn`; `vitamin K intestinal flora`) | new — TBD |
+| Haemophilia and factor-VIII/intrinsic-pathway abnormalities (`hemophilia factor VIII`; `hemophilia coagulation time`) | pending-hit; already triaged in FHB |
+| Venous stasis, endothelial roughness, varicosities, and thrombosis risk (`venous stasis thrombosis`; `vascular endothelium thrombosis`) | new — TBD |
+| Disseminated intravascular coagulation and excessive thromboplastin/dialysis association (`disseminated intravascular coagulation`; `DIC excessive bleeding clotting`) | pending-hit; already triaged in FHB |
+| Whole-blood clotting time and its screening role (`whole blood clotting time`; `clotting time test`) | pending-hit; already triaged in FHB through the haemostasis test-pattern concept |
+| Prothrombin time for the extrinsic pathway (`prothrombin time`; `prothrombin time extrinsic pathway`) | pending-hit; already triaged in FHB through the haemostasis test-pattern concept |
+| Activated partial thromboplastin time for the intrinsic pathway (`activated partial thromboplastin time`; `APTT intrinsic pathway`) | pending-hit; already triaged in FHB through the haemostasis test-pattern concept |
+
+At source-concept level this family is live 13 / pending 11 / new 22.  After within-source collapse and cross-source deduplication, its cumulative delta is live 3 / pending 0 / new 16.  No module ID, content record, placement, source, or catalogue entry was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Physiology final 180-question family) | 694 | 627 | 236 | 59 | 62 | 115 | TBD |
+
+**Observed delta:** +180 questions, +180 printed keys/answers, +46 source-distinct tested concepts / +19 after within-source and cross-source deduplication.  The cumulative search buckets reconcile exactly: `59 + 62 + 115 = 236`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology final 180-question family
+
+**Remaining file list:** 98 selected inventory paths / 93 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `51728d786ae3170d33bb6445f5f3ae89fca90b81f2e1fdcf2521134d24eacaa0`.  By the pinned triage text classification, it contains 53 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 98 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
