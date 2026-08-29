@@ -470,11 +470,99 @@ Arithmetic checks: `4 prior + 1 note-only = 5` statement assignments; `0 + 2 + 3
 evidence dispositions; module arithmetic remains `4 + 25 + 53 = 82`. Family 3's one
 unresolved phase-4 crop handle also remains outside these tested-concept totals.
 
+## Family 5 — second Anatomy quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_2da654a75a9d236de8a7` |
+| Manifest SHA-256 | `2da654a75a9d236de8a75af2a47c33a56a32bb94856faed3bd194fe6ed130f48` |
+| Recomputed SHA-256 | `2da654a75a9d236de8a75af2a47c33a56a32bb94856faed3bd194fe6ed130f48` |
+| File | `Most important notes anatomy (Quiz content)2.jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Anatomy/Assessments/Quizzes/Most important notes anatomy (Quiz content)2.jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Anatomy · Assessments/Quizzes |
+| Container | one 1920 × 2560 progressive JPEG photograph of a ruled spiral-notebook page |
+| Read method | original-resolution visual read, source-first |
+
+This is another entirely handwritten study-note page, not an assessment sheet. Two numbered
+statements continue the preceding anterior-thigh section and seven more sit under the heading
+`B) Medial Compartement of Thigh` (spelling preserved). There are no interrogative stems,
+choices, blanks, response marks, typeset solutions or answer-key layout. Consequently the
+page contributes **zero complete prompts, zero incomplete prompts and zero printed or
+handwritten answer keys**. The nine complete numbered statements are retained only as
+auxiliary quiz-content evidence.
+
+### Exact note-statement inventory
+
+| Visible section / note | Handwritten statement, transcribed source-first | Prompt status | Key status |
+|---|---|---|---|
+| preceding section · N6 | `Varicose Veins (Great Saphenous) graft for Cardiac Surgeries` | note, not a prompt | none |
+| preceding section · N7 | `Femoral Nerve → Terminate 1 inch (4 cm) below inguinal ligament` | complete but apparently malformed note, not a prompt | none |
+| medial compartment · N1 | `layers`: anterior → `Pectineus`, `Adductor longus`; middle → `Adductor Brevis`; posterior → `Adductor Magnus` | note, not a prompt | none |
+| medial compartment · N2 | `Most Medial → Gracilis (Extend below knee)` | note, not a prompt | none |
+| medial compartment · N3 | `Pectineus Has dual Nerve Supply → Femoral Nerve`, `Accessory Obturator` | note, not a prompt | none |
+| medial compartment · N4 | `Obturator Externus → lateral Rotation (Hip)` | note, not a prompt | none |
+| medial compartment · N5 | `Ischial Part of Adductor Magnus → Extension (Hip)` | note, not a prompt | none |
+| medial compartment · N6 | `Gracilis → Flexion (Thigh & knee)`, `Medial Rotation (knee)` | note, not a prompt | none |
+| medial compartment · N7 | `Boundaries of Adductor Canal`: floor → `Adductor longus & Magnus`; roof → `Sartorius & Deep fascia`; anterolateral → `Vastus Medialis` | note, not a prompt | none |
+| **Family 5** | **9 complete numbered note statements** | **0 complete / 0 incomplete prompts** | **0** |
+
+The preceding-section N7 statement is fully visible, but it says `Femoral Nerve` where its
+`4 cm below the inguinal ligament` wording resembles descriptions elsewhere of the femoral
+sheath. The
+ledger neither corrects the noun nor merges the statement into `femoral-sheath`; it preserves
+an `as-written` unresolved handle. There is no exact repeated statement. The two gracilis
+statements ask for different attributes but collapse to the one prior `gracilis-oina`
+coverage handle, so nine statement assignments yield eight source-distinct handles.
+
+### Statement-to-handle assignment and search ledger
+
+All eight handles received four searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root and the accepted prior-LCS
+ledger: **8 × 4 = 32 required invocations**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `preceding N6→great-saphenous-vein` | `great saphenous vein`; `long saphenous vein`; `saphenous vein graft`; `coronary bypass conduit` | Exact prior-LCS handle. Pending Kasr material already includes varicose-vein mechanism and great-saphenous harvest for coronary bypass. | prior LCS (inherited pending) | — |
+| 2 | `preceding N7→as-written-femoral-nerve-termination` | `femoral nerve terminates`; `termination of femoral nerve`; `femoral nerve below inguinal ligament`; `femoral nerve 4 cm` | No same-wording result. Pending sheath records describe the upper `3–4 cm` below the ligament, but the source explicitly names the nerve; silent repair would change the evidence. | unresolved malformed auxiliary handle | — |
+| 3 | `medial N1→medial-thigh-compartment-layers` | `medial compartment thigh layers`; `adductor compartment layers`; `pectineus adductor longus anterior layer`; `adductor brevis middle layer` | General medial-compartment material names the muscles but no live or pending record owns this exact anterior/middle/posterior layer arrangement. | note-only candidate; external new | MSK/ANA |
+| 4 | `medial N2→gracilis-oina` | `gracilis`; `gracilis insertion`; `gracilis below knee`; `gracilis flexion medial rotation` | Exact Family-1 handle; external group mentions remain narrower than the muscle's combined position, insertion and actions. | prior LCS (inherited new) | — |
+| 5 | `medial N3→pectineus-innervation` | `pectineus innervation`; `pectineus nerve supply`; `femoral nerve pectineus`; `accessory obturator pectineus` | Femoral- and obturator-nerve overviews mention pectineus separately, but no same-scope record owns the handwritten dual-supply claim including accessory obturator. | note-only candidate; external new | MSK/ANA |
+| 6 | `medial N4→obturator-externus-action` | `obturator externus`; `external obturator muscle`; `lateral rotation hip`; `short lateral rotators hip` | Pending Kasr hip-movement record includes obturator externus among the short lateral rotators and can absorb this action statement. | note-only candidate; external pending | — |
+| 7 | `medial N5→adductor-magnus-oina` | `adductor magnus`; `hamstring part adductor magnus`; `ischial part adductor magnus`; `hip extension adductor magnus` | Exact prior Family-1 handle, whose live attachment/action records already own the muscle and can absorb the ischial-part action. | prior LCS (inherited live) | — |
+| 8 | `medial N6→gracilis-oina` | same four queries as assignment 4; one handle is searched once, not double-counted | Second statement assignment to the same Family-1 handle; this is the source's one explicit semantic collapse, not an exact repeat. | prior LCS (inherited new) | — |
+| 9 | `medial N7→adductor-canal` | `adductor canal boundaries`; `subsartorial canal walls`; `Hunter canal boundaries`; `sartorius vastus medialis adductor longus magnus` | Exact Family-1 handle. The pending Kasr record owns the three walls and distinguishes the fibrous roof from the covering sartorius. | prior LCS (inherited pending) | — |
+
+### Family-5 checkpoint and cumulative LCS-103 delta
+
+| Family-5 evidence bucket | Numbered note assignments | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 5 | 4 | 1 | 2 | 1 | 0 |
+| New-to-LCS resolved note-only candidates | 3 | 3 | 0 | 1 | 2 | 0 |
+| As-written malformed auxiliary evidence | 1 | 1 | 0 | 0 | 0 | 1 |
+| **Family 5 auxiliary evidence** | **9** | **8** | **1** | **3** | **3** | **1** |
+
+These are auxiliary evidence dispositions, not a tested-concept delta. The assessment-led
+module delta is **+0 observed prompts, +0 printed keys and +0 resolved tested concepts**.
+Across Families 4–5, the separate auxiliary-note count is now `5 + 9 = 14` statements.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 4 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 5 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 5** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `5 prior assignments + 3 resolved note-only assignments + 1 malformed
+assignment = 9`; one within-source gracilis collapse gives `9 - 1 = 8` handles;
+`1 live + 3 pending + 3 new + 1 unresolved = 8`. Module arithmetic remains
+`4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and this Family-5 malformed note
+remain outside tested-concept totals.
+
 ## Exact next debt
 
-- The next untriaged local Anatomy quiz-content image is `src_2da654a75a9d236de8a7`,
-  `Most important notes anatomy (Quiz content)2.jpg`. The other three Anatomy images follow:
-  `src_9b509a75a7e648219f37`, `src_5bb02d6293fb60233949`, and
+- The next untriaged local Anatomy quiz-content image is `src_9b509a75a7e648219f37`.
+  The remaining two Anatomy images follow: `src_5bb02d6293fb60233949` and
   `src_086eb3c89677239baa74`. Their visual prompt/note classification, key status, repeat
   collapse and semantic search remain wholly outside this checkpoint.
 - The three local Pathology quiz-content images in the actual-assessment lane,

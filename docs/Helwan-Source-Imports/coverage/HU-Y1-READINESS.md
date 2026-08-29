@@ -112,3 +112,10 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   3 new as auxiliary evidence), but it leaves all assessment counts and dispositions unchanged.
 - Continue the remaining four anatomy quiz-content images, then pathology assessment images
   and Tutorial 103; this remains S1 evidence only.
+- The second anatomy image `src_2da654a75a9d236de8a7` is also handwritten notes: nine
+  statements, no assessment prompts and no keys. One statement literally names the femoral
+  nerve with a 4-cm-below-ligament termination; it is retained only as unresolved malformed
+  auxiliary evidence, not silently converted to femoral sheath. The combined auxiliary-note
+  total is 14 statements and assessment totals remain unchanged.
+- Continue the remaining three anatomy quiz-content images, then pathology assessment images
+  and Tutorial 103; this remains S1 evidence only.
