@@ -3517,3 +3517,121 @@ manifest-order gate is tier-5 Anatomy practical source `src_c3469062f5d94b4598cd
 `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 3 - Medial Compartment of the Thigh & Gluteal Region/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 32 — Tier-5 medial-thigh and gluteal virtual-lab teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_c3469062f5d94b4598cd` |
+| File / SHA-256 | `medial compartment and gluteal region-1.pdf` / `c3469062f5d94b4598cd466365727e6296e31327587c49604cc3888d98209e2f` |
+| File boundary | 2,194,779 bytes · native PDF · 30 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 3 - Medial Compartment of the Thigh & Gluteal Region/medial compartment and gluteal region-1.pdf` |
+| Visible provenance | title page prints `Anatomy of medial compartment of the thigh and gluteal region`, `Dr. Alaa Mohamed` and `Assistant lecturer`; PDF author is `Alaa Mohamed` and creator/producer is Microsoft PowerPoint for Microsoft 365 |
+| Authority finding | Helwan-local virtual-lab teaching deck by manifest/path placement; it is not an exam, station sheet, response form, question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **30 physical pages** were rendered and
+read. Page 1 is the title page, pp. 2–29 are medial-thigh and gluteal-region teaching slides,
+and p. 30 is a closing `Thank you` slide. No page prints an instruction to identify a
+structure, explicit practical/station prompt, ordinary question, response field, blank answer
+area, mark allocation, correctness convention, printed assessment answer or key. Named
+structures, attachment statements, colour regions and arrows are simultaneous teaching
+mappings, not answers to an assessment prompt.
+
+### Complete defensible teaching-slide and mapping inventory
+
+| Physical page | Source-first teaching slide / plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 2 | thigh-compartment cross-section | 6 named cross-section mappings |
+| 3 | medial-compartment anterior-layer model | 2 muscle/layer mappings; one large content rectangle is visibly blank |
+| 4 | medial-compartment layers and colour-coded muscle/landmark diagram | 15 unique mappings: 3 layer relations, 8 skeletal/ligament labels and 4 muscle-colour relations |
+| 5 | pectineus model identification | 1 mapping |
+| 6 | adductor magnus, adductor longus and gracilis model identification | 3 mappings |
+| 7 | gracilis position in the medial compartment | 1 printed mapping; 9 other leader-line callouts are blank |
+| 8 | medial-compartment muscle origins on the hip bone | 8 mappings |
+| 9 | pectineus origin/insertion and selected hip-bone labels | 4 mappings; one further hip-bone leader line is blank |
+| 10 | pectineus and adductor-longus insertions | 2 mappings |
+| 11 | adductor-brevis insertion | 2 mappings |
+| 12 | adductor-magnus pubic- and ischial-part insertions | 4 mappings |
+| 13 | obturator-externus insertion | 1 mapping |
+| 14 | upper-femur anterior/posterior landmarks | 8 mappings |
+| 15 | gracilis insertion | 1 mapping |
+| 16 | superficial/deep gluteal-muscle classification | 9 group-membership mappings |
+| 17 | unlabelled femur and gluteal-model montage | 0 directly printed mappings; retained as one teaching composition, not inferred |
+| 18 | gluteus-maximus model identification | 1 mapping |
+| 19 | gluteus-medius illustration | 1 printed mapping; 2 further leader-line labels are blank |
+| 20 | gluteus-minimus model identification | 1 mapping |
+| 21 | superficial-gluteal origins and gluteal lines | 6 mappings; one additional iliac-crest arrow is unlabelled |
+| 22 | continuation of gluteus-maximus origin on sacrum/coccyx | 1 composite mapping |
+| 23 | superficial-gluteal insertions on the femur | 3 mappings |
+| 24 | tensor-fasciae-latae origin, insertion and model identification | 3 mappings |
+| 25 | deep-gluteal group and model identification | 9 mappings: 5 group memberships plus 4 model identifications |
+| 26 | piriformis origin | 1 mapping |
+| 27 | obturator-internus and quadratus-femoris origins | 2 mappings |
+| 28 | piriformis and quadratus-femoris insertions | 2 mappings |
+| 29 | obturator-internus insertion | 1 mapping |
+
+The **28 content-slide occurrences are 28 source-distinct teaching compositions**. Reused
+base illustrations or laboratory-model photographs carry different directly printed labels
+and remain distinct evidence plates; no complete page is an exact copy. The mapping
+arithmetic is `6 + 2 + 15 + 1 + 3 + 1 + 8 + 4 + 2 + 2 + 4 + 1 + 8 + 1 + 9 + 0 + 1 +
+1 + 1 + 6 + 1 + 3 + 3 + 9 + 1 + 2 + 2 + 1 = 98`. The unresolved-residue arithmetic is
+`1 + 9 + 1 + 2 + 1 = 14` blank, masked or unlabelled callouts/regions. Repeated facts on
+genuinely different teaching plates remain evidence occurrences; within-plate duplicate
+wording is counted once. The assessment boundary is **0 practical/station prompts / 0
+ordinary questions / 0 printed assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 28 slides consolidate to ten source-level teaching scopes. This scope collapse does not
+delete plate or mapping evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `medial-thigh-compartment-layers` · pp. 2–7 | medial compartment thigh layers; adductor compartment layers; pectineus adductor longus anterior layer; adductor brevis middle layer | no direct live/pending hit; exact accepted Family-5 auxiliary handle owns the anterior/middle/posterior layer arrangement — prior LCS reuse |
+| `medial-thigh-muscle-origins` · pp. 8–9 | medial thigh muscle origins; adductor longus brevis gracilis origins; pectineus obturator externus origins; adductor magnus pubic ischial origins | no direct live/pending hit; individual prior OINA facts do not jointly own this six-muscle attachment-map scope — new |
+| `medial-thigh-muscle-insertions` · pp. 9–15 | medial thigh muscle insertions; adductor longus brevis femur insertions; adductor magnus adductor tubercle insertion; gracilis pectineus obturator externus insertions | no direct live/pending hit; individual prior OINA facts do not jointly own this multi-muscle attachment-map scope — new |
+| `superficial-and-deep-gluteal-muscle-classification` · pp. 16–20, 25 | superficial deep gluteal muscles; gluteal muscle layers classification; gluteus maximus medius minimus tensor fascia lata; piriformis obturator internus gemelli quadratus femoris | no direct live/pending hit; individual muscle handles and the deep-gluteal action handle do not own the printed superficial/deep classification — new |
+| `superficial-gluteal-muscle-origins` · pp. 21–22 | superficial gluteal muscle origins; gluteus maximus medius minimus origins; gluteal lines muscle origins; gluteus maximus sacrum coccyx origin | no direct live/pending hit; accepted gluteus-maximus/medius/minimus OINA handles jointly own these three origins — prior LCS reuse |
+| `superficial-gluteal-muscle-insertions` · p. 23 | superficial gluteal muscle insertions; gluteus maximus medius minimus insertions; gluteal muscle greater trochanter insertions; gluteus maximus gluteal tuberosity iliotibial tract | no direct live/pending hit; accepted gluteus-maximus/medius/minimus OINA handles jointly own these three insertions — prior LCS reuse |
+| `tensor-fasciae-latae-origin-insertion` · p. 24 | tensor fascia lata origin insertion; tensor fascia lata iliac crest; tensor fascia lata iliotibial tract; TFL OINA | no direct live/pending hit; prior iliotibial-tract evidence owns the insertion only, not the muscle's origin-and-insertion scope — new |
+| `piriformis-origin-insertion-and-identification` · pp. 25–26, 28 | piriformis origin insertion; piriformis sacrum greater trochanter; piriformis OINA; piriformis identification model | no direct live/pending hit; exact accepted `piriformis-oina` scope — prior LCS reuse |
+| `obturator-internus-origin-insertion-and-identification` · pp. 25, 27, 29 | obturator internus origin insertion; obturator internus obturator membrane greater trochanter; obturator internus OINA; obturator internus identification | no direct live/pending hit; exact accepted `obturator-internus-oina` scope — prior LCS reuse |
+| `quadratus-femoris-origin-insertion-and-identification` · pp. 25, 27–28 | quadratus femoris origin insertion; quadratus femoris ischium quadrate tubercle; quadratus femoris OINA; quadratus femoris identification | no direct live/pending hit; exact accepted `quadratus-femoris-oina` scope — prior LCS reuse |
+
+All **10 × 4 = 40** required searches completed with no direct live or pending hit. The raw
+external result is `0 live / 0 pending / 10 new`; exact accepted-prior comparison removes six
+module additions, leaving **+4 new practical-teaching scopes**. Component overlap does not
+absorb the two composite medial-attachment maps, the gluteal-layer classification or the
+tensor-fasciae-latae attachment scope.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 32 | Family 32 delta | After Family 32 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 46 verified minimum | +28 | 74 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 391 verified minimum | +98 | 489 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 18 | +14 | 32 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 16 | +0 / +0 / +4 | 0 / 0 / 20 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-31
+remainder leaves **44 rank-4/rank-5 path instances / 42 unique hashes**. The next
+manifest-order gate is tier-5 Anatomy practical source `src_b912e8878c85ce34a74a`,
+`posterior compartement of the thigh.pdf` (31 native-text pages; SHA-256
+`b912e8878c85ce34a74a263d1796ce6e6d52fb8790722f73f039cb225c48156d`) under
+`Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 4 - Posterior Compartment of the Thigh/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
