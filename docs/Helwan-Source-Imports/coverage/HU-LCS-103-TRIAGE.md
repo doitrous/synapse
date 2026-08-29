@@ -2457,3 +2457,59 @@ items also remain unchanged. This ten-page department-book tutorial source is no
   treating all 110 pages as assessment by filename.
 - No download is needed. No S2 work is authorised until ranks 1–6 are consolidated and
   `/root` issues the literal `TRIAGE APPROVED` for Helwan Year 1.
+
+## Next-source gate — tier-3 CBL teaching/revision case bank (zero delta)
+
+### Identity, provenance and eligible evidence class
+
+| Field | Verified gate result |
+|---|---|
+| Manifest source | `src_79b0f17a5426e5773083` |
+| Manifest / recomputed SHA-256 | `79b0f17a5426e57730835bca39abda5e82ac8f6c72db7f513cc7a24a805daa55` |
+| Local file | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 LCS CBL.pdf` |
+| Path normalization | the manifest's stored path/filename contains extra spaces around `LCS CBL`; the present organised file uses single spaces, and its recomputed hash proves content identity |
+| Container | 110-page, 4:3 landscape, native-text, unencrypted PDF 1.7; PowerPoint metadata; no form or JavaScript |
+| Authorship / date metadata | title `PowerPoint Presentation`; author `Dr. Hebat Allah Amin`; created and modified 2024-05-14 |
+| Visible provenance | the first and last slides print `http://library.med.utah.edu/WebPath/webpath.html#MENU`; thematic covers name `CBL` and Dr. Hebat Allah A. Amin, but no visible Helwan, faculty, module, year or sitting label was found in the inspected scope markers |
+| Authority | eligible lower-authority `HU-LCS-103` teaching/revision assessment evidence by manifest and organised module path; not a sitting paper, department book or independently proven college-origin source |
+| Gate method | native text scanned page-by-page for all 110 physical pages; title, initial prompt/key pair, rationale pages, every thematic boundary, the Case-20 exception and closing slides rendered at 170 dpi and visually checked; no download |
+
+This is a **hybrid CBL teaching/revision case bank**, not a continuous exam paper. It contains
+complete case-based MCQs, repeated answer-reveal slides and teaching rationale slides. The
+repeated keyed version normally preserves the preceding stem and options while coloring the
+correct option red; for example, physical pp. 2–3 repeat Case 1 verbatim and p. 3 colors
+`c. Osteomyelitis`, while pp. 4–5 do the same for Case 2 and `c. Pott's disease`. Red text in
+a stem is not automatically a key: physical p. 38 highlights diagnostic clues in red while
+leaving every option black. Later `CORRECT` / `Incorrect` rationale slides corroborate the
+same answer but are teaching evidence, not additional prompts or separately counted keys.
+
+The copy pattern must be proved case by case rather than assumed globally. Physical pp. 69
+and 70 are both complete Case-20 MCQs with the same stem and lead-in but altered option sets:
+p. 69 prints `b. Aneurysmal bone cyst` and `c. Cystic rheumatoid
+nodule`, while p. 70 prints `b. Aneurysmal bone cyst` and `c. Bursitis`, with all five options
+visible and `d. Ganglion cyst` colored red. The later extraction must retain both as separate
+complete prompt occurrences because they are not exact prompt copies, preserve the red key
+and option-set conflict, and decide any semantic concept collapse separately under the normal
+repeat rules. Other altered or explanation-only slides must receive the same source-first
+treatment during their bounded extraction.
+
+### Proven natural sections and safe extraction order
+
+| Natural section | Physical pages | Visible structure | Extraction disposition |
+|---|---:|---|---|
+| `CBL Bone Diseases` | cover p. 1; Cases 1–11 on pp. 2–35 | question → keyed-repeat pairs; some later cases add one or two `CORRECT` / `Incorrect` rationale slides | **first countable bounded section: physical pp. 2–35 only** |
+| `CBL Joint Diseases` | cover p. 36; objectives p. 37; Cases 12–20 on pp. 38–70 | teaching objectives, question/keyed-copy families and rationale slides; Case 20 ends with the complete altered keyed duplicate/reveal noted above | second bounded section after Bone Diseases closes; p. 37 remains teaching, not assessment |
+| `CBL General/ Soft Tissue & Bone Neoplasia` | cover p. 71; Cases 21–34 on pp. 72–109; closing/source slide p. 110 | question/keyed-copy families plus selected rationale slides | third bounded section; p. 110 is non-assessment |
+
+For the first countable pass, render and read **every physical page 2–35** and create a
+source-order ledger for Cases 1–11. Record each complete unkeyed and keyed question-slide
+occurrence, prove exact versus altered copies from the visible stem and option order, collapse
+same-case repeats before concept arithmetic, and map the red answer reveal plus any later
+`CORRECT` rationale to one source key for that case rather than double-counting corroboration.
+Rationale-only slides remain teaching evidence. Search every resulting handle against live,
+pending, prior eligible LCS and the separately tracked external bank before disposition. Stop
+at physical p. 35; the Joint Diseases cover on p. 36 is the next hard boundary.
+
+This gate contributes **zero prompts, zero keys and zero concepts**. The accepted eligible
+checkpoint therefore remains **370 observed prompts / 209 printed keys / 183 concepts = 9
+live / 49 pending / 125 new**; the external bank and auxiliary dimensions are unchanged.

@@ -274,5 +274,9 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   18 prior eligible-LCS handles leave a +30 concept delta (0/12/18), bringing eligible LCS to
   370/209/183 and 9/49/125. The p10 screenshot adds no keys: all five antecedents are underlined,
   but the screenshot's radio controls are unselected. Its ownership remains manifest/path-level,
-  not independent printed Helwan or sitting-exam authority. Next rule tier-3
-  `src_79b0f17a5426e5773083` source-first for provenance and assessment-versus-teaching status.
+  not independent printed Helwan or sitting-exam authority. The tier-3 CBL pack
+  `src_79b0f17a5426e5773083` is now provenance-gated as lower-authority teaching/revision
+  evidence: 110 pages, Utah WebPath markers, and no independent Helwan/module/sitting label.
+  It adds zero counts. Its first bounded extraction is Bone Diseases pp. 2–35; Case-20 pp.69–70
+  are complete altered occurrences, with p.70's red `d. Ganglion cyst` preserved as a key, not
+  a copy/crop claim or premature semantic collapse.
