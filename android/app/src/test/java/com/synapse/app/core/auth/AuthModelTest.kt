@@ -92,10 +92,22 @@ class AuthModelTest {
 
     @Test fun accessTokenDelegatesToBackend() = runTest {
         val backend = FakeAuthBackend()
-        backend.accessTokenValue = "the-token"
+        backend.nextSession = session(verified = true, token = "the-token")
         val model = AuthModel(backend) { true }
+        model.signIn("a@b.com", "pw")
 
         assertEquals("the-token", model.accessToken())
+    }
+
+    @Test fun signInVerifiedButConfirmSessionFalseClearsBackendSession() = runTest {
+        val backend = FakeAuthBackend()
+        backend.nextSession = session(verified = true)
+        val model = AuthModel(backend) { false }
+
+        model.signIn("a@b.com", "pw")
+
+        assertEquals(AuthState.SignedOut, model.state.value)
+        assertEquals(null, model.accessToken())
     }
 }
 
@@ -109,8 +121,6 @@ private class FakeAuthBackend : AuthBackend {
 
     /** Session restore() should find as already persisted (e.g. from a saved token). */
     var restoredSession: Session? = null
-
-    var accessTokenValue: String? = null
 
     val sendResetCalls = mutableListOf<String>()
 
@@ -134,5 +144,5 @@ private class FakeAuthBackend : AuthBackend {
         sendResetCalls += email
     }
 
-    override suspend fun accessToken(): String? = accessTokenValue
+    override suspend fun accessToken(): String? = _session.value?.accessToken
 }

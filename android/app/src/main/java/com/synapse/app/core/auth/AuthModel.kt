@@ -61,7 +61,13 @@ class AuthModel(
             session == null -> AuthState.SignedOut
             !session.emailVerified -> AuthState.NeedsEmailVerify
             confirmSession() -> AuthState.SignedIn(session)
-            else -> AuthState.SignedOut
+            else -> {
+                // The server rejected /api/session for an otherwise-verified session: clear the
+                // backend session too, so accessToken() (used by the API layer's auth header)
+                // stops handing out a token for a session the server no longer honors.
+                backend.signOut()
+                AuthState.SignedOut
+            }
         }
     }
 }
