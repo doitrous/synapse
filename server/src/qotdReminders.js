@@ -1,5 +1,9 @@
 import { pool } from './db.js'
 import { cairoDate, todaysQuestionId } from './qotd.js'
+import { sendApnsAlert } from './push.js'
+import { sendFcmAlert } from './fcm.js'
+import { sendWebPush } from './webPush.js'
+import { sendReminderEmail } from './qotdReminderEmail.js'
 
 /** Cairo wall-clock parts of an instant. */
 function cairoParts(now) {
@@ -89,10 +93,12 @@ export async function sendPushToUser(userId, notification) {
   return { sent, of: devices.length }
 }
 
-// R2/R3/R4 replace these with the real senders; the shell keeps R0 self-contained.
-async function sendApnsAlertMaybe() { return false }
-async function sendFcmAlertMaybe() { return false }
-async function sendWebPushMaybe() { return false }
+// Per-platform senders. Each is a no-op returning false unless its own channel
+// is configured (APNs keys / FCM service account / VAPID keys), so an
+// un-provisioned platform simply sends nothing.
+async function sendApnsAlertMaybe(device, notification) { return sendApnsAlert(device, notification) }
+async function sendFcmAlertMaybe(device, notification) { return sendFcmAlert(device, notification) }
+async function sendWebPushMaybe(device, notification) { return sendWebPush(device, notification) }
 
 /**
  * The daily job. Claims the day (exactly-once), then sends one reminder to each
@@ -130,9 +136,6 @@ export async function dispatchQotdReminders(now = new Date()) {
   )
   return { date, claimed: true, push, email, skipped }
 }
-
-// R1 replaces this with the real email sender.
-async function sendReminderEmail() { return false }
 
 let schedulerStarted = false
 

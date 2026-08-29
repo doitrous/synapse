@@ -67,6 +67,7 @@ import {
 import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
 import { qotdToday, recordQotdAnswer, qotdLeaderboard, qotdFriends } from './qotd.js'
 import { startQotdReminderScheduler } from './qotdReminders.js'
+import { setMailer } from './qotdReminderEmail.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
 import { activityTrackingSummary } from './studyTrackingAdmin.js'
 import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
@@ -1227,6 +1228,21 @@ app.delete('/api/devices/:token', requireAuthenticated, wrap(async (req, res) =>
   const token = normaliseDeviceToken(req.params.token)
   if (!token) return res.status(400).json({ error: 'invalid device token' })
   await pool.query('DELETE FROM device_tokens WHERE token = ? AND user_id = ?', [token, req.identity.id])
+  res.json({ ok: true })
+}))
+
+/**
+ * Remove a web-push subscription. Its identity is the endpoint URL, which is not
+ * a hex APNs token, so it cannot go through the token-validating DELETE above.
+ * Scoped to the caller's own rows.
+ */
+app.post('/api/devices/web/unsubscribe', requireAuthenticated, wrap(async (req, res) => {
+  const endpoint = typeof req.body?.endpoint === 'string' ? req.body.endpoint : null
+  if (!endpoint) return res.status(400).json({ error: 'endpoint required' })
+  await pool.query(
+    "DELETE FROM device_tokens WHERE platform = 'web' AND web_endpoint = ? AND user_id = ?",
+    [endpoint, req.identity.id],
+  )
   res.json({ ok: true })
 }))
 
@@ -3595,6 +3611,7 @@ migrate()
         .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
         .catch((error) => console.error('Medical resource index warm-up failed:', error.message))
     })
+    setMailer(sendMail) // inject the email sender the reminder dispatcher uses
     startQotdReminderScheduler()
     // Recovery-point creation must never prevent the HTTP server from coming
     // online. A backup failure is reported for operators but is non-fatal.
