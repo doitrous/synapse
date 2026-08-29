@@ -3901,3 +3901,74 @@ Micro Antimicrobial Chemotherapy part 1.pdf`, SHA-256
 under `Microbiology / Notes and Summaries`. Its first-page snippet is `Helwan University , S2 ,
 Lecture 3 Part 1`; it requires a bounded seven-page provenance, prompt-versus-teaching,
 answer-convention, duplicate, and prior-BMS gate before any count is accepted.
+
+## Family 30 — tier-6 Antimicrobial Chemotherapy part 1 teaching-lecture gate
+
+### Source identity, complete-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_36d454220999db6c0a84` · `Helwan S2 Micro Antimicrobial Chemotherapy part 1.pdf` |
+| SHA-256 / boundary | `36d454220999db6c0a848e460cbc4de4023a5bd9accadb9be1b251f9749cf019` · 1,012,730 bytes · seven native-text pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6 · PDF |
+| Visible provenance | physical page 1 states `Helwan University , S2 , Lecture 3 Part 1`; content pages carry `TOP Microbiology Notes` and `Dr Mustafa Elsudani` headers |
+| Read boundary | all seven physical pages were rendered and read in order, including the title page, tables, highlighted headings, figures, and the final-page cartoon dialogue |
+
+The file is a Helwan-attributed **teaching lecture**, not an exam, recoverable sitting,
+departmental question bank, response sheet, or official key. It contains no question numbering,
+interrogative or command stem, options, blank, response line, exercise instruction, answer label,
+correctness marking, or answer convention. Headings such as `Definition`, `Importance`, and
+`Examples` introduce declarative notes rather than student tasks. The speech bubbles in the
+competitive-inhibition cartoon (`HEY! That's MY enzyme!` / `Whatever. Don't see your name on
+it.`) are illustrative dialogue, not assessment prompts or answers.
+
+### Complete seven-page visual inventory
+
+| Physical page | Visible content | Prompt / answer ruling |
+|---:|---|---|
+| 1 | `Microbiology TOP NOTES` cover; culture-dish image; `Helwan University , S2 , Lecture 3 Part 1` | title/provenance only; `0 / 0` |
+| 2 | definitions of antimicrobial chemotherapy and antibiotic; natural, synthetic, and semisynthetic agents | declarative teaching only; `0 / 0` |
+| 3 | bacteriostatic-versus-bactericidal and broad-versus-narrow-spectrum comparison tables | teaching comparisons and examples only; `0 / 0` |
+| 4 | selective-toxicity definition and importance | declarative definition and explanation only; `0 / 0` |
+| 5 | five mechanism headings; cell-wall inhibition, beta-lactams/PBPs, and vancomycin | numbered teaching taxonomy and examples only; `0 / 0` |
+| 6 | membrane-disruption and protein-synthesis inhibition; 70S/80S subunits and drug examples | declarative teaching only; `0 / 0` |
+| 7 | nucleic-acid synthesis inhibition and competitive inhibition; sulphonamide/PABA example and cartoon | declarative teaching plus illustrative dialogue only; `0 / 0` |
+
+The complete-file count is therefore **0 complete prompt occurrences, 0 printed answer
+occurrences, 0 retained question records, and 0 prompt-derived tested handles**. No teaching
+node is converted into an inferred question, and no highlighted or coloured phrase is treated
+as an answer mark or key.
+
+### Family-30 zero-delta checkpoint and separated evidence dimensions
+
+| Measure | Family 30 gate | Auxiliary cumulative (Families 12–30) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 181 | 765 | 946 |
+| Printed study-answer occurrences | 0 | 125 | 405 | 530 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 0 | 178 | 552 | 730 |
+| Source-distinct tested handles | 0 | 176 | — | — |
+| Required searches | 0 | — | — | no prompt-derived handle exists |
+| Cross-family concept delta | +0 | +142 over primary | — | `372 + 142 = 514` |
+| **Distinct tested concepts** | **+0** | **142 auxiliary additions** | **372** | **514** |
+
+Complete-page arithmetic is `0 prompts - 0 copies = 0 retained`, `0 printed answers`, `0
+prompt-derived handles`, `0 required searches`, and `+0` concepts. The primary checkpoint
+remains **765 / 405 / 552 / 372**; auxiliary cumulative remains **181 / 125 / 178 / 176 / +142**;
+and all eligible S1 evidence remains **946 / 530 / 730 / 514**. The lecture contributes teaching
+context only and cannot raise exam/sitting, recurrence, mark-weight, official-key, readiness,
+or claims status, so no readiness or claims file changes are warranted.
+
+### Exact next debt after Family 30
+
+`src_36d454220999db6c0a84` is exhausted: all seven physical pages have an explicit page-level
+ruling and no resume boundary remains. The next manifest-ordered local BMS-102 candidate is
+tier-6 `src_f99d5dfc770975400c78` · `Helwan S2 Micro Antimicrobial chemotherapy part 2..pdf`,
+SHA-256 `f99d5dfc770975400c785cb1b1484b8b50ec07d8072e8c0058682e828ec55a72`, eight native-text
+pages under `Microbiology / Notes and Summaries`. The manifest marks it as the non-preferred
+name twin of `src_cffa6fc24a66eb43efbe`; it therefore requires a bounded eight-page provenance,
+prompt-versus-teaching, answer-convention, and exact-byte/twin adjudication gate before any
+count is accepted.
