@@ -40,14 +40,15 @@ Study-loop UI, Basic + **Cloze** authoring and rendering, the **FSRS opt-in deck
 ## Shipped since (wave-1)
 - **Question Bank pull-to-refresh** (`d89bffb1`) — the audit's missing-refresh gap.
 - **Whiteboard sync fix** (`21a624cb`) — iOS now reads/writes the live `synapse.whiteboard.boards.v1` multi-board document and **preserves every element type** (ink/images/files/ready-items) it doesn't render, so a phone save never strips a web board. Legacy single-board drawings migrate on first load. Verified live: a legacy board migrated and the edit wrote `boards.v1` (`migratedFromSingleBoard:true`) — confirmed in the outbox.
+- **Resources "My uploads"** (`2246f08b`) — the personal document locker over the chunked `/api/my-documents` REST contract (`SynapseAPI` list/create/upload-chunk/complete/rename/delete/download; `MyDocumentStore`; `MyUploadsView` reached from a Resources toolbar button). List + upload (PhotosPicker / fileImporter) + rename + delete + usage. Build + 623-test suite green; live UI screenshot was blocked by the sim host crashing (the race above — now fixed). **Still to do for Resources:** the in-app rich-text editor Omar asked for, and opening/previewing an uploaded doc (download API exists; needs a QuickLook screen). The `ResourceFileStore.swift:61` video→`.pdf` bug is still open.
 
-## Known latent bug (flagged, not fixed)
-- **`SynapseAPI.send`/`get` EXC_BAD_ACCESS** under concurrent requests (release-during-dealloc race), seen in a crash log. Several features fire concurrent `userState` calls. Worth a dedicated fix (a task chip was spawned).
+## Fixed
+- **`SynapseAPI` concurrent-request crash** (`923807fa`) — `lastDiagnostic`/`lastTokenError` were unlocked `nonisolated(unsafe)` statics assigned from concurrent `send()` fan-outs, double-freeing the Optional's buffer (`_swift_release_dealloc` / EXC_BAD_ACCESS). Now serialized behind an `NSLock`; `APIConcurrencyTests` is a TSan regression guard. This was also what made the test-host crash at bootstrap and the app launch blank intermittently.
 
 ## Next, in order
 1. **Widgets + focus timer** — BLOCKED on a new Xcode extension target (objectVersion-77 pbxproj; risky to add by hand). Needs a one-time Xcode "New Target → Widget Extension + App Group" from Omar; then build the shared snapshot + widgets + ActivityKit focus timer on top.
 2. **Question Bank images** — the media model + `MediaFileStore` (auth'd `/api/media/:id`) + rendering. NOTE: the KAU-Y1 test cohort has **zero** questions with images (checked the ledger), so this is a blind/unit-tested build until content has one.
-3. **Resources "My uploads"** — the shared My-Documents chunked-upload client + UI (also fixes the `ResourceFileStore.swift:61` video→.pdf bug).
+3. **Resources polish** (My uploads itself shipped, see above) — the in-app rich-text editor Omar asked for; open/preview an uploaded doc via QuickLook (`SynapseAPI.downloadMyDocument` exists); the `ResourceFileStore.swift:61` video→`.pdf` bug.
 4. **Wave-2 audits+build**: University, Essay Questions, Maristanas, Minigames. (Calendar + Medical Taxonomy already exist on iOS.)
 5. **Flashcards polish**: Browse/stats, GRDB offline cache, audio/occlusion authoring, rich-text rendering. Plus QBank offline cold-launch fallback (bug G2) + question-media rendering.
    - Widgets detail when unblocked: App Group + a shared Codable snapshot the app writes on sync; widgets for Today/Flashcards-due (`FlashcardStore.entries` is `nonisolated` for this) / Everyday Question; Focus timer as an ActivityKit Live Activity (`Features/Reader/StudyTimer.swift` to generalize).
