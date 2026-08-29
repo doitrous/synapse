@@ -1996,3 +1996,47 @@ At source-concept search level the results are live 0 / pending 5 / new 5.  Afte
 **Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **82 selected inventory paths / 78 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `0e0cc64d95d6d07201042a213b8449c1bb7d978adde961012cb318b22065cc7b`.  By the pinned triage text classification, the remaining debt is **39 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `28 + 78 = 106` selected unique hashes.
 
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 82 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Histology Revision Answers 2026 family
+
+The asserted starting remaining-hash checksum `0e0cc64d95d6d07201042a213b8449c1bb7d978adde961012cb318b22065cc7b` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 78 hashes before this pass.  The next deterministic substantive local source is the four-page Histology Revision Answers 2026 paper.  The pinned ledger has no paired question-only inventory row, so the source gate is satisfied by its self-contained printed questions and answer lines.  All four pages were rendered and read.  Its numbered MCQ/T-F format and an `Answer:` line after each item establish an **assessment** source, not lecture or practical-teaching material; all answer wording below is transcribed only from that printed convention.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Histology | `08 Midterm Exams` | `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology_Revision_Answers 2026.pdf` | `c4bf2ad6ce516b135823e91d7b02814107a4822f7b35ca7e4e23eb76807b3452` | 4 | 30 | 30 |
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+| Printed prompt refs | Printed key / answer as shown | Source-distinct tested concept | Search and prior-FHB deduplication result |
+|---|---|---|---|
+| 1–2, 7, 11, 27, 29 | `TRUE`; `FALSE`; `MTOCs`; `FALSE`; `Alpha & beta tubulin dimers`; `False` | Microtubule structure, dynamics, organisation, transport, and mitotic-spindle role | The diameter, MTOC, tubulin-dimer, transport, and spindle-fibre statements explicitly collapse as one microtubule family.  `microtubule` is pending-hit; prior FHB already assigns cytoskeletal support/transport and mitotic-spindle function. |
+| 3, 16, 18, 21 | `TRUE`; `TRUE`; `FALSE`; `Genetically active chromatin` | Chromatin state, basophilia, and heterochromatic nuclei | The heterochromatin/euchromatin and nuclear-basophilia prompts collapse.  `euchromatin` is pending-hit; the chromatin-state family is already triaged in FHB. |
+| 4, 13, 22, 24 | `TRUE`; `False`; `TRUE`; `FALSE` | Cytoplasmic pigment classification | The myoglobin, melanin, residual-body, and carotene statements are one pigment-classification family.  `endogenous cytoplasmic pigments` returned no current record, but the same family is already triaged in FHB. |
+| 5, 10, 14, 23 | `Ribophorens`; `True`; `It is formed in the nucleolus`; `FALSE` | Ribosome formation, rRNA, and rough-ER attachment | The four rRNA/nucleolus/ribosome-attachment statements collapse.  `ribosome structure` is pending-hit; ribosome structure and forms are already triaged in FHB. |
+| 6, 8 | `Myosin`; `TRUE` | Myosin thick filaments and actin–myosin contractility | The thick-filament and contractile-cell statements collapse.  `myosin thick filament` returned no current record, but prior FHB already assigns skeletal-muscle excitation–contraction and cross-bridge cycling. |
+| 9, 25 | `FALSE`; `Nine peripheral duplets and two central singlets` | Ciliary/flagellar epithelial specialisation and axonemal arrangement | The respiratory-epithelium and ciliary-shaft prompts collapse as one motile-cilium family.  `cilium microtubule arrangement` returned no current record; ciliary microtubule arrangement is already triaged in FHB. |
+| 12 | `Pinocytic vesicle fused with primary lysosome` | Multivesicular bodies as secondary lysosomes | `multivesicular body` is pending-hit; prior FHB already assigns primary and secondary lysosomes. |
+| 15 | `Acid phosphatase staining` | Lysosomal visualisation by acid-phosphatase histochemistry | `acid phosphatase staining` returned no current record, but lysosome visualisation/histochemical staining is already triaged in FHB. |
+| 17 | `FALSE` | Cytoplasmic protein storage as an energy source | `cytoplasmic protein storage` returned no current record; no earlier FHB assignment covers this specific storage claim, so this is a new cumulative addition. |
+| 20 | `FALSE` | Proteasomal degradation versus fatty-acid breakdown | `proteasome` is pending-hit; no earlier FHB assignment covers proteasomal degradation, so this is a pending cumulative addition. |
+| 26 | `Smooth endoplasmic reticulum` | Smooth-ER detoxification | `smooth endoplasmic reticulum detoxification` returned no current record; smooth-versus-rough ER function is already triaged in FHB. |
+| 28 | `False` | Golgi exit-face secretory-vesicle budding | `Golgi secretory vesicles` returned no current record; Golgi protein modification and packaging are already triaged in FHB. |
+| 30 | `FALSE` | Nuclear sap relationship to cytoplasm | `nuclear sap` is pending-hit; this is within the nuclear-components family already triaged in FHB. |
+
+Page 1 prints prompts 1–9 (9), page 2 prints prompts 10–19 (10), page 3 prints prompts 20–27 (8), and page 4 prints prompts 28–30 (3): `9 + 10 + 8 + 3 = 30` prompts.  Each has one visibly printed `Answer:` line, including prompt 19 whose answer continues on page 3, giving **30** printed keys / answers.  The assignment and search ledgers reconcile one-to-one at **13 named concepts ↔ 13 search rows**.  The explicit source-level collapses are 1–2/7/11/27/29, 3/16/18/21, 4/13/22/24, 5/10/14/23, 6/8, and 9/25; the remaining rows are singly assigned.
+
+At source-concept search level the results are live 0 / pending 6 / new 7.  After prior-FHB deduplication, cytoplasmic protein storage and proteasomal degradation remain distinct.  The cumulative delta is **live 0 / pending 1 / new 1**, or **+2** concepts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the Histology Revision Answers 2026 family) | 1083 | 819 | 288 | 62 | 68 | 158 | TBD |
+
+**Completed-source delta:** `+30` questions, `+30` printed keys / answers, `+13` source-distinct tested concepts / `+2` after source-level collapse and prior-FHB deduplication.  The cumulative search buckets reconcile exactly: `62 + 68 + 158 = 288`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Histology Revision Answers 2026 family
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **81 selected inventory paths / 77 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `6fc97adb7112baa380fc052f0507ef5e4f4c36d6ba80174e5ccbcd34d0f747a2`.  By the pinned triage text classification, the remaining debt is **38 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `29 + 77 = 106` selected unique hashes.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 81 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
