@@ -34,8 +34,8 @@
     "recoveryManifestTsv": "41d75ce7cbda7588df8899dfca164162f3f4617947aa5bee4ed985ee919b70b0",
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
-    "readinessMarkdown": "eac000e16bf829233498e8022fa88771484ea1feba49be85fa62cb97ee8cd293",
-    "triageMarkdown": "2d0f96e2f9cca615afeb9ee57adabdbe067a20345d83f2b54a9acd0a939d4ebb"
+    "readinessMarkdown": "54d69d3021e9ec24b86a387d9761d380026ba0ff1bde34ed40fe647947a1a5a6",
+    "triageMarkdown": "63f88dab052d489718ea618d66c4b00308f3fa1c4e3ce30f4403a56905fe74da"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -74,22 +74,23 @@
       "5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56",
       "56137b8483844ab6aa52d12ee164beaac03207d97195414019bf70a4350dfeb4",
       "5a363e2f09c2b2ac7d13d5a29adf9a6a0d1e97dfe70f74f885529285516aaf76",
+      "a433bee65fdb0cdb5a5f9f17948789d58e91f49a633a7502672e5981efa05662",
       "a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec",
       "a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95",
       "e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb"
     ],
-    "uniqueSha256": 11
+    "uniqueSha256": 12
   },
   "remaining": {
-    "inventoryMetadataRows": 100,
-    "uniqueSha256": 95,
-    "sortedNewlineSha256": "22f41bd70b97225d0aa8ae97046d962331f5a3673576ed82bb53eebc991c57b2",
+    "inventoryMetadataRows": 99,
+    "uniqueSha256": 94,
+    "sortedNewlineSha256": "92027903e598ccedd0bd7fa2a5f67bf0554d9ed30a9f4ce9c86b894523905b0f",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 5,
       "audit-not-found": 6,
       "empty-text": 41,
       "sparse-text": 6,
-      "substantive-text": 42
+      "substantive-text": 41
     }
   },
   "triageCheckpointRemainingExtractionDebt": {
@@ -99,8 +100,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 106,
-    "processedUniqueSha256": 11,
-    "remainingUniqueSha256": 95,
+    "processedUniqueSha256": 12,
+    "remainingUniqueSha256": 94,
     "processedPlusRemaining": 106
   },
   "year1RecoveryOutcomes": [

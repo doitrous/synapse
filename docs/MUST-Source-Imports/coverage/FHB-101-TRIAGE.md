@@ -827,3 +827,109 @@ At source-concept level this family is live 1 / pending 9 / new 15.  After withi
 **Remaining file list:** 100 selected inventory paths / 95 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `22f41bd70b97225d0aa8ae97046d962331f5a3673576ed82bb53eebc991c57b2`.  By the pinned triage text classification, it contains 55 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 100 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — Physiology FHB final-revision paper
+
+The asserted starting remaining-hash checksum `22f41bd70b97225d0aa8ae97046d962331f5a3673576ed82bb53eebc991c57b2` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 95 hashes before this pass.  The next evidence-ranked unread substantive `06 EOM Exams` source is the 17-page Physiology FHB final-revision paper, ahead of the remaining 59-page substantive Physiology EOM paper.  All 17 pages were rendered and read.  Page 17 is a printed answer-key page.  Its Blood key deliberately leaves printed Blood Q53 blank; that missing letter was not inferred.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Physiology/06 EOM Exams/EOM MCQs - Physiology final revision 101.pdf` | `a433bee65fdb0cdb5a5f9f17948789d58e91f49a633a7502672e5981efa05662` | 17 | 122 | 121 |
+
+### Printed-key and question-to-concept ledger
+
+The source contains 12 separately numbered Body-fluids MCQs, 106 separately numbered Blood MCQs, and four separately numbered Clinical-case MCQs.  The printed key recovers all 12 Body-fluids letters, 105 Blood letters (all except Q53), and all four Clinical-case letters.  The assignments below account for every visible prompt; overlapping ranges reflect genuinely overlapping tested concepts, not additional questions.
+
+| Printed-key range | Printed keys transcribed from page 17 |
+|---|---|
+| BF 1–12 | `A B B C B C B C C B B A` |
+| B 1–10 | `A C B A D B D C D D` |
+| B 11–20 | `B B C D C A D A D C` |
+| B 21–30 | `A C B B D D B B C D` |
+| B 31–40 | `D A D A B C D A C D` |
+| B 41–50 | `C A D C A D D C D B` |
+| B 51–60 | `D D — B D B D A C C` (Q53 has no printed letter) |
+| B 61–70 | `D A C D A D B D D C` |
+| B 71–80 | `D A C C B C A D B C` |
+| B 81–90 | `D B D D B A B C A D` |
+| B 91–100 | `C D A D A C B C B D` |
+| B 101–106 | `B D B D D B` |
+| Clinical 1–4 | `A B C B` |
+
+| Printed prompts | Assigned tested concept |
+|---|---|
+| BF 1–4, 12 | Body-water compartment proportions |
+| BF 5–6 | Intracellular and extracellular electrolyte distribution |
+| BF 7–11 | Fluid balance, dehydration, and overhydration |
+| B 1, 6, 12 | Mature-red-cell morphology and anucleate state |
+| B 53 | Mature-red-cell absence of mitochondria |
+| B 1, 6, 19–21 | Physiological polycythaemia and high-altitude erythropoiesis |
+| B 2, 14, 23, 25, 58 | Pernicious anaemia and intrinsic-factor-dependent B12 absorption |
+| B 3, 9, 57 | Albumin oncotic pressure and hypoalbuminaemic oedema |
+| B 4, 8, 15–18 | Plasma-protein composition, synthesis, and A/G ratio |
+| B 5, 10, 19–20, 54–56; C 1 | Erythropoietin response to hypoxia and renal anaemia |
+| B 7, 11 | Haemoglobin gas carriage and buffering |
+| B 13, 24, 26–27, 30, 51 | Iron absorption, transport, and storage |
+| B 22, 29, 32, 65; C 2–3 | Iron-deficiency microcytic anaemia |
+| B 28, 31; C 4 | Folate/B12-dependent nuclear maturation and macrocytic anaemia |
+| B 33, 36, 44, 67, 75–77, 83, 101 | Extrinsic coagulation pathway and tissue factor |
+| B 33, 41, 50, 60, 73–74 | Intrinsic contact pathway and factor-XII activation |
+| B 35, 46, 59, 78–80 | Common pathway: factor X, thrombin, and fibrinogen |
+| B 34, 40, 43, 61, 66, 72, 94–97, 100, 105 | Vitamin-K-dependent haemostasis and biliary obstruction |
+| B 37–39, 42, 62, 64, 84, 92 | Platelet activation, aspirin, thromboxane, and prostacyclin |
+| B 39, 68, 70–71, 96, 102 | Thrombocytopenia, purpura, and bleeding time |
+| B 37, 46, 68–70, 77, 80–82, 86, 98–99, 103–104 | Haemophilia and coagulation-versus-bleeding test patterns |
+| B 45, 47–48, 88–91, 93 | Protein-C/protein-S and thrombomodulin anticoagulation |
+| B 49, 52, 87, 92–93, 105–106 | Antithrombin III and heparin anticoagulation |
+| B 85, 88 | Plasmin-mediated fibrinolysis |
+| B 63 | Sex difference in erythrocyte sedimentation rate |
+
+The 122 visible prompts collapse to 25 source-distinct tested concepts.  Twenty-one reproduce concepts already represented in the completed FHB ledger: body-water compartments, electrolyte distribution, fluid balance, red-cell morphology, polycythaemia, B12/folate and iron handling, albumin/plasma proteins, erythropoietin, haemoglobin buffering/carriage, extrinsic/intrinsic/common coagulation, vitamin K, platelet haemostasis, thrombocytopenia, haemophilia, and antithrombin/heparin.  This family therefore adds four cumulative distinct concepts.
+
+### Tested-concept search ledger — Physiology final-revision family
+
+Each source-distinct concept was searched with the manual tool using both phrases shown, across live state and every pending import root.  A live result takes precedence over pending.  The 21 FHB duplicates add no new cumulative bucket even when the manual's current result differs from the earlier family’s result.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Body-water compartment proportions (`body water compartments`; `intracellular extracellular fluid`) | new; already triaged in FHB |
+| Intracellular and extracellular electrolyte distribution (`intracellular extracellular electrolytes`; `intracellular ions potassium`) | new; already triaged in FHB |
+| Fluid balance, dehydration, and overhydration (`fluid balance dehydration`; `overhydration water balance`) | new; already triaged in FHB |
+| Mature-red-cell morphology and anucleate state (`erythrocyte biconcave membrane`; `mature erythrocyte nucleus`) | new; already triaged in FHB |
+| Mature-red-cell absence of mitochondria (`mature red cell mitochondria`; `erythrocyte mitochondria`) | new — TBD |
+| Physiological polycythaemia and high-altitude erythropoiesis (`physiological polycythemia`; `high altitude erythrocytes`) | new; already triaged in FHB |
+| Pernicious anaemia and intrinsic-factor-dependent B12 absorption (`pernicious anemia intrinsic factor`; `vitamin B12 absorption`) | pending-hit; already triaged in FHB |
+| Albumin oncotic pressure and hypoalbuminaemic oedema (`albumin oncotic pressure`; `plasma protein edema`) | new; already triaged in FHB |
+| Plasma-protein composition, synthesis, and A/G ratio (`plasma protein synthesis`; `albumin globulin ratio`) | new; already triaged in FHB |
+| Erythropoietin response to hypoxia and renal anaemia (`erythropoietin hypoxia`; `renal erythropoietin anemia`) | new; already triaged in FHB |
+| Haemoglobin gas carriage and buffering (`hemoglobin buffering`; `carbaminohemoglobin`) | pending-hit; already triaged in FHB |
+| Iron absorption, transport, and storage (`iron absorption transferrin`; `iron storage ferritin`) | new; already triaged in FHB |
+| Iron-deficiency microcytic anaemia (`iron deficiency microcytic anemia`; `microcytic hypochromic anemia`) | pending-hit; already triaged in FHB |
+| Folate/B12-dependent nuclear maturation and macrocytic anaemia (`folate B12 nuclear maturation`; `macrocytic anemia`) | live-hit; already triaged in FHB |
+| Extrinsic coagulation pathway and tissue factor (`extrinsic pathway tissue factor`; `factor VII tissue thromboplastin`) | new; already triaged in FHB |
+| Intrinsic contact pathway and factor-XII activation (`intrinsic pathway contact activation`; `factor XII collagen`) | new; already triaged in FHB |
+| Common pathway: factor X, thrombin, and fibrinogen (`common coagulation pathway`; `factor X prothrombin thrombin`) | new; already triaged in FHB |
+| Vitamin-K-dependent haemostasis and biliary obstruction (`vitamin K clotting factors`; `bile duct obstruction vitamin K`) | new; already triaged in FHB |
+| Platelet activation, aspirin, thromboxane, and prostacyclin (`platelet aspirin thromboxane`; `prostacyclin platelet aggregation`) | new; already triaged in FHB |
+| Thrombocytopenia, purpura, and bleeding time (`platelet count thrombocytopenia`; `purpura bleeding time`) | new; already triaged in FHB |
+| Haemophilia and coagulation-versus-bleeding test patterns (`hemophilia coagulation time`; `hemophilia A factor VIII`) | new; already triaged in FHB |
+| Protein-C/protein-S and thrombomodulin anticoagulation (`protein C protein S`; `thrombomodulin protein C`) | new — TBD |
+| Antithrombin III and heparin anticoagulation (`antithrombin heparin`; `heparin anticoagulant`) | new; already triaged in FHB |
+| Plasmin-mediated fibrinolysis (`plasmin fibrinolysis`; `plasminogen fibrin lysis`) | new — TBD |
+| Sex difference in erythrocyte sedimentation rate (`ESR sex difference`; `erythrocyte sedimentation rate`) | pending-hit — TBD |
+
+At source-concept level this family is live 1 / pending 4 / new 20.  After cross-source deduplication, its cumulative delta is live 0 / pending 1 / new 3.  No module ID, content record, placement, source, or catalogue entry was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Physiology final-revision family) | 514 | 447 | 217 | 56 | 62 | 99 | TBD |
+
+**Observed delta:** +122 questions, +121 printed keys/answers, +25 source-distinct tested concepts / +4 after cross-source deduplication.  The cumulative search buckets reconcile exactly: `56 + 62 + 99 = 217`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology final-revision family
+
+**Remaining file list:** 99 selected inventory paths / 94 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `92027903e598ccedd0bd7fa2a5f67bf0554d9ed30a9f4ce9c86b894523905b0f`.  By the pinned triage text classification, it contains 54 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 99 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the remaining unread substantive `06 EOM Exams` source family, then update from observed questions only.
