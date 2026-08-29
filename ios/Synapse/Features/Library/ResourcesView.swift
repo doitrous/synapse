@@ -37,6 +37,17 @@ struct ResourcesView: View {
             .navigationTitle(strings("Resources"))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
+                    // The student's own files — reachable whether or not the
+                    // catalogue has anything for their cohort.
+                    NavigationLink {
+                        MyUploadsView(api: api)
+                    } label: {
+                        Image(systemName: "tray.and.arrow.up")
+                    }
+                    .tint(Theme.primary)
+                    .accessibilityLabel(strings("My uploads"))
+                }
+                ToolbarItem(placement: .topBarTrailing) {
                     Button {
                         savedOnly.toggle()
                     } label: {

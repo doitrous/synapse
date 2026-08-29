@@ -590,3 +590,94 @@ struct SynapseAPI {
         return formatter
     }()
 }
+
+// MARK: - My uploads (the personal document locker)
+
+/// Ported from the live-mode half of `src/lib/useMyDocuments.ts`. Same file as
+/// the client so these can reuse its private request helpers.
+extension SynapseAPI {
+
+    /// The student's own documents, newest first, with their space usage.
+    func myDocuments() async throws -> MyDocumentsList {
+        try await get(MyDocumentsList.self, ["my-documents"])
+    }
+
+    /// Create the record and open a chunked upload session. The server owns the
+    /// storage path; this only says what the file is called.
+    func createMyDocument(
+        title: String, fileName: String, mimeType: String,
+        sourceKind: String = "resource", sourceId: String? = nil
+    ) async throws -> MyDocumentUpload {
+        struct Body: Encodable {
+            let title: String; let fileName: String; let mimeType: String
+            let sourceKind: String; let sourceId: String?
+        }
+        let data = try await send(
+            ["my-documents"], method: "POST",
+            body: Body(title: title, fileName: fileName, mimeType: mimeType, sourceKind: sourceKind, sourceId: sourceId)
+        )
+        return try Self.decoder.decode(MyDocumentUpload.self, from: data)
+    }
+
+    /// Push one chunk of the file — a raw body, not JSON.
+    func uploadMyDocumentChunk(documentId: String, uploadId: String, index: Int, data: Data) async throws {
+        var request = URLRequest(url: url(["my-documents", documentId, "chunks", uploadId, String(index)]))
+        request.httpMethod = "PUT"
+        if let accessToken = try await token() {
+            request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+        }
+        request.setValue("application/octet-stream", forHTTPHeaderField: "Content-Type")
+        request.httpBody = data
+        let response: URLResponse
+        do {
+            (_, response) = try await urlSession.data(for: request)
+        } catch {
+            throw APIError.transient(status: nil)
+        }
+        guard let http = response as? HTTPURLResponse else { throw APIError.malformed("chunk: not HTTP") }
+        switch http.statusCode {
+        case 200...299: return
+        case 401: throw APIError.unauthorized
+        case 403: throw APIError.forbidden
+        case 404: throw APIError.notFound
+        default: throw APIError.transient(status: http.statusCode)
+        }
+    }
+
+    /// Assemble the pushed chunks into the finished document.
+    func completeMyDocument(documentId: String, uploadId: String, totalChunks: Int, sizeBytes: Int) async throws {
+        struct Body: Encodable { let totalChunks: Int; let sizeBytes: Int }
+        _ = try await send(
+            ["my-documents", documentId, "chunks", uploadId, "complete"], method: "POST",
+            body: Body(totalChunks: totalChunks, sizeBytes: sizeBytes)
+        )
+    }
+
+    func renameMyDocument(id: String, title: String) async throws {
+        struct Body: Encodable { let title: String }
+        _ = try await send(["my-documents", id], method: "PATCH", body: Body(title: title))
+    }
+
+    func deleteMyDocument(id: String) async throws {
+        _ = try await send(["my-documents", id], method: "DELETE", body: Optional<Int>.none)
+    }
+
+    /// Download a finished document to a file on disk. Bearer-authed, so a plain
+    /// URL will not do — the same reason `downloadResource` streams to disk.
+    func downloadMyDocument(id: String, onProgress: @escaping @Sendable (Double) -> Void) async throws -> URL {
+        var request = URLRequest(url: url(["my-documents", id, "file"]))
+        request.httpMethod = "GET"
+        if let accessToken = try await token() {
+            request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+        }
+        let (temporary, response) = try await urlSession.download(for: request, delegate: ProgressDelegate(onProgress))
+        guard let http = response as? HTTPURLResponse, (200...299).contains(http.statusCode) else {
+            throw APIError.transient(status: (response as? HTTPURLResponse)?.statusCode)
+        }
+        let destination = FileManager.default.temporaryDirectory
+            .appendingPathComponent("mydoc-\(id)")
+        try? FileManager.default.removeItem(at: destination)
+        try FileManager.default.moveItem(at: temporary, to: destination)
+        return destination
+    }
+}
