@@ -6,6 +6,9 @@
  * sanitized. A later mapper/commit stage is responsible for safety.
  */
 
+import type { BasicNote, DeckRecord, Note } from '../../data/flashcards/model.ts'
+import { escapeHtml, sanitizeRich } from '../../data/flashcards/richText.ts'
+
 export interface ParsedRow {
   front: string
   back: string
@@ -161,4 +164,37 @@ export function detectTextFormat(text: string): TextFormat {
   const headerCells = firstLine.split(',').map((c) => c.trim().toLowerCase())
   if (headerCells.includes('front') && headerCells.includes('back')) return 'csv'
   return 'pipe'
+}
+
+export interface TextImportOptions {
+  deckId: string
+  deckName: string
+  /** True for Anki `#html:true` content (kept as HTML, sanitized); else plain text is escaped. */
+  html: boolean
+  now: Date
+  idFactory: () => string
+}
+
+/** Turns parsed rows into a deck + Basic notes ready for `mergeImport`. */
+export function rowsToBasicNotes(
+  rows: ParsedRow[],
+  opts: TextImportOptions,
+): { decks: DeckRecord[]; notes: Note[] } {
+  const iso = opts.now.toISOString()
+  const toField = (value: string) => (opts.html ? sanitizeRich(value) : escapeHtml(value))
+  const deck: DeckRecord = { id: opts.deckId, name: opts.deckName.trim() || 'Imported', createdAt: iso }
+  const notes: Note[] = rows
+    .filter((row) => row.front.trim().length > 0 || row.back.trim().length > 0)
+    .map(
+      (row): BasicNote => ({
+        id: opts.idFactory(),
+        type: 'basic',
+        deckId: deck.id,
+        tags: row.tags.filter((tag) => tag.trim().length > 0),
+        createdAt: iso,
+        updatedAt: iso,
+        fields: { front: toField(row.front), back: toField(row.back) },
+      }),
+    )
+  return { decks: [deck], notes }
 }

@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { parsePipeLines, parseFrontBackTagsCsv, parseAnkiCsv, detectTextFormat } from './csvText.ts'
+import { parsePipeLines, parseFrontBackTagsCsv, parseAnkiCsv, detectTextFormat, rowsToBasicNotes } from './csvText.ts'
 
 test('parsePipeLines: one card per line, split on first pipe', () => {
   const rows = parsePipeLines('Q1 | A1\nQ2 | A2 | ignored-extra')
@@ -47,4 +47,34 @@ test('parseFrontBackTagsCsv: an embedded newline inside a quoted field is preser
 test('parseAnkiCsv: #separator:comma is honored as a literal-char separator alias', () => {
   const text = '#separator:comma\nFront,Back'
   assert.deepEqual(parseAnkiCsv(text), [{ front: 'Front', back: 'Back', tags: [] }])
+})
+
+test('rowsToBasicNotes: builds a deck + escaped basic notes, dropping empty rows', () => {
+  let n = 0
+  const { decks, notes } = rowsToBasicNotes(
+    [
+      { front: 'a < b', back: 'x', tags: ['t1', ''] },
+      { front: '', back: '', tags: [] },
+    ],
+    { deckId: 'deck-x', deckName: 'My Import', html: false, now: new Date('2026-08-30T00:00:00.000Z'), idFactory: () => `note-${n++}` },
+  )
+  assert.equal(decks.length, 1)
+  assert.equal(decks[0].name, 'My Import')
+  assert.equal(notes.length, 1)
+  assert.equal(notes[0].type, 'basic')
+  assert.equal((notes[0] as { fields: { front: string } }).fields.front, 'a &lt; b')
+  assert.deepEqual(notes[0].tags, ['t1'])
+})
+
+test('rowsToBasicNotes: html mode sanitizes instead of escaping', () => {
+  const { notes } = rowsToBasicNotes([{ front: '<b>bold</b><script>x</script>', back: '', tags: [] }], {
+    deckId: 'd',
+    deckName: 'D',
+    html: true,
+    now: new Date('2026-08-30T00:00:00.000Z'),
+    idFactory: () => 'note-1',
+  })
+  const front = (notes[0] as { fields: { front: string } }).fields.front
+  assert.match(front, /<b>bold<\/b>/)
+  assert.doesNotMatch(front, /<script>/)
 })
