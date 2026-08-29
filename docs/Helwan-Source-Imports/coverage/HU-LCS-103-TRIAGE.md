@@ -2269,3 +2269,191 @@ institution attribution remains manifest/path-level provenance. This validation 
   that later family. No download is needed.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.
+
+## Family 20 — Anatomy department-book tutorial, complete source
+
+### Source identity, complete visual read and assessment boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_065497f15835733031c0` |
+| Manifest / recomputed SHA-256 | `065497f15835733031c07a03549fa21ab7a89c602b6f0cbb68f9777375a2cfda` |
+| File | `DPT BOOK MCQs - Department MCQs TUTORIAL of Department Book Anatomy.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Anatomy/Questions/MCQs/DPT BOOK MCQs - Department MCQs TUTORIAL of Department Book Anatomy.pdf` |
+| Authority | eligible `HU-LCS-103` Anatomy department-book/tutorial question evidence, source tier 1; not represented as a sitting exam |
+| Container | 10-page A4, native-text, unencrypted, non-interactive PDF 1.7; no form or JavaScript |
+| Visible source pagination | physical p. 1 cover/book p. 218; physical pp. 2–9 carry book pp. 219–226; physical p. 10 is an unnumbered online-quiz screenshot |
+| Read method | all ten pages rendered at 180 dpi and visually read; physical pp. 2–9 were rerendered at 300 dpi for key-mark verification; native text used only to cross-check wording and page transitions; no download |
+
+The source contains **62 complete assessment-prompt occurrences**: **45 MCQ occurrences**
+and **17 written/short-essay prompts**. There is no practical, specimen, image-dependent,
+completion or table item. Five of the 45 MCQ occurrences are exact screenshot repeats on
+physical p. 10; they remain observed question records but do not create new prompt forms or
+concept handles. The 57 unique prompt forms collapse through nine further same-concept
+assignments to 48 source-distinct tested handles.
+
+### Page, prompt-type and printed-key inventory
+
+| Physical page | Visible assessment content | MCQ occurrences | Written prompts | Printed keys |
+|---:|---|---:|---:|---:|
+| 1 | tutorial cover only | 0 | 0 | 0 |
+| 2 | hip/gluteal M1–M5; hip W1 | 5 | 1 | 0 |
+| 3 | hip W2–W5; thigh W1–W3; thigh M1–M4 | 4 | 7 | 4 underlines |
+| 4 | thigh M5–M6; leg M1–M2 and W1–W2; foot W1–W2 | 4 | 4 | 4 underlines |
+| 5 | foot M1–M3; lower-limb embryology M1–M4 | 7 | 0 | 4 explicit `Answer:` lines |
+| 6 | embryology M5; face/scalp M1–M4 and W1–W2; temporal M1 | 6 | 2 | 4 underlines + 2 explicit `Answer:` lines |
+| 7 | temporal M2–M7; M7 continues on p. 8 | 6 | 0 | 5 explicit `Answer:` lines |
+| 8 | temporal M7 answer and M8–M10; neck W1–W3; neck M1 starts | 4 | 3 | 4 explicit `Answer:` lines |
+| 9 | neck M1 continuation and M2–M5 | 4 | 0 | 0 |
+| 10 | five online-quiz screenshot repeats | 5 | 0 | 0 |
+| **Family 20** | **complete ten-page source** | **45** | **17** | **27** |
+
+The **27 recovered printed keys** comprise **12 typeset underlined choices** and **15
+explicit `Answer:` lines**. The other 35 prompt occurrences are unkeyed as printed: 18 MCQ
+occurrences and all 17 written prompts. Physical p. 10's radio circles are all empty and its
+`Submit Answers` / `Clear Answers` controls expose no result state, so neither the circles
+nor the controls are answer evidence. No handwriting or reader annotation appears.
+
+Source-key risks remain uncorrected in S1. Thigh M5's underlined option D begins with the
+malformed wording `Allows has`; leg M1 underlines D, `tendon perforates the superior extensor
+retinaculum`, despite its unusual wording; embryology M1 explicitly keys lower-limb-bud
+appearance as `C) Week 5`, while pending 103-BMS material states the fourth week; embryology
+M5 explicitly keys `C) Lumbar somites (L3–L5)`, a narrow segmental formulation requiring
+review; and temporal M3 keys `C) Superficial temporal artery`, although `temporal region`
+does not specify whether it means surface scalp or the deeper temporalis/fossa. Because this
+is a department tutorial/question bank rather than a sitting paper, any outright error is a
+later editorial-key decision, not a silent S1 repair.
+
+### Exact-repeat proof and one-to-one source-order assignment
+
+Physical p. 10 reproduces five earlier stems **with the same option text and order**:
+`p10-1 = thigh M1` (quadriceps-group exception), `p10-2 = thigh M3` (anterior-thigh
+innervation), `p10-3 = thigh M6` (femoral-canal position), `p10-4 = face/scalp M1` (scalp
+movement plane), and `p10-5 = face/scalp M3` (facial-expression nerve). The earlier copies
+carry five underlined keys among them; the screenshot copies carry none. The ledger therefore
+counts five additional observed records and zero additional keys, then collapses all five
+before source-distinct handle arithmetic.
+
+| Evidence block | One-to-one assignments in source order |
+|---|---|
+| Hip/gluteal | `M1→quadratus-femoris-oina`; `M2→inferior-gluteal-artery`; `M3→sciatic-nerve-course-termination-branches`; `M4→inferior-gluteal-artery`; `M5→hip-joint-classification`; `W1→posterior-femoral-cutaneous-branches`; `W2→deep-gluteal-muscle-actions`; `W3→sciatic-foramina-contents`; `W4→hip-joint-ligaments`; `W5→hip-joint-blood-supply` |
+| Thigh | `W1→femoral-triangle-anatomy`; `W2→femoral-artery`; `W3→sciatic-nerve-course-termination-branches`; `M1→quadriceps-femoris-components`; `M2→adductor-canal`; `M3→femoral-nerve-roots-course-and-distribution`; `M4→femoral-artery`; `M5→adductor-canal`; `M6→femoral-sheath` |
+| Leg / foot | `leg M1→tibialis-anterior-oina`; `leg M2→flexor-digitorum-longus-oina`; `leg W1→superficial-posterior-leg-compartment`; `leg W2→deep-fibular-nerve-terminal-branches`; `foot W1→medial-plantar-nerve-branches`; `foot W2→intrinsic-foot-layers`; `foot M1→foot-arches`; `foot M2→intrinsic-foot-layers`; `foot M3→inversion-eversion-joints` |
+| Embryology | `M1→lower-limb-bud-development`; `M2→lower-limb-muscle-embryology`; `M3→lower-limb-medial-rotation`; `M4→apical-ectodermal-ridge`; `M5→lower-limb-bud-development` |
+| Face / scalp | `M1→scalp-layers-and-movement-plane`; `M2→scalp-arterial-supply`; `M3→facial-nerve-expression`; `M4→face-sensory-supply`; `W1→scalp-layers-and-movement-plane`; `W2→scalp-face-venous-drainage` |
+| Temporal / infratemporal | `M1→temporal-fossa`; `M2→temporalis-oina`; `M3→superficial-temporal-artery`; `M4→infratemporal-fossa`; `M5→mandibular-nerve-branches`; `M6→lateral-pterygoid-oina`; `M7→temporomandibular-joint`; `M8→temporomandibular-joint`; `M9→pterygoid-plexus-connections`; `M10→temporomandibular-joint` |
+| Neck | `W1→median-neck-region`; `W2→carotid-triangle`; `W3→anterior-jugular-vein`; `M1→deep-cervical-lymph-nodes`; `M2→carotid-sheath`; `M3→left-subclavian-first-part-relations`; `M4→scalenus-anterior-relations`; `M5→greater-occipital-nerve` |
+| Physical p. 10 | `repeat 1→quadriceps-femoris-components`; `repeat 2→femoral-nerve-roots-course-and-distribution`; `repeat 3→femoral-sheath`; `repeat 4→scalp-layers-and-movement-plane`; `repeat 5→facial-nerve-expression` |
+
+Beyond the five exact repeats, nine repeated assignments are explicit semantic collapses:
+the two inferior-gluteal-artery MCQs, the hip MCQ plus thigh written sciatic-nerve prompts,
+the written and MCQ femoral-artery prompts, the two adductor-canal MCQs, written layer-three
+plus lumbrical-layer foot prompts, the two lower-limb-bud prompts, the written plus MCQ scalp-
+layer prompts, and three TMJ prompts collapsing to one handle. Thus `62 - 5 = 57` unique
+prompt forms and `57 - 9 = 48` source-distinct handles.
+
+### Search-before-mint, prior-LCS and external-bank disposition ledger
+
+Each of the 48 handles received four `find-existing` query forms across live state, pending
+state and every source-import root, followed by direct canonical-key/definition scans and
+comparison with accepted prior LCS. That is **48 × 4 = 192 required invocations**. Twelve
+targeted follow-ups (`trochanteric anastomosis`, `hip anastomoses`, `six lateral`, `short
+external`, `paraxial mesoderm`, `myotome`, `limb muscles`, `hypaxial`, `limb buds form`,
+`lower limb rotates`, `quadriceps`, `facial nerve`) give **204 query invocations total**.
+The explicit external bank remains Histology scope; none of its 75 handles owns
+an Anatomy handle below. A narrower live fact or an article mention is not treated as a
+same-scope concept hit.
+
+| # | Prompt assignment(s) → handle | Four-query bundle | Same-scope result | Disposition |
+|---:|---|---|---|---|
+| 1 | hip M1 → `quadratus-femoris-oina` | `quadratus femoris`; `nerve to quadratus femoris`; `inferior gemellus`; `short lateral rotator` | Exact prior Family-2 tested handle; pending lateral-rotator material still omits full OINA/nerve scope. | prior eligible-LCS reuse; inherited new |
+| 2 | hip M2,M4 → `inferior-gluteal-artery` | `inferior gluteal artery`; `inferior gluteal vessel`; `sciatic nerve arterial branch`; `internal iliac posterior branch` | Exact prior Family-2 handle; no substantive corpus match supersedes it. | prior eligible-LCS reuse; inherited new |
+| 3 | hip M3; thigh W3 → `sciatic-nerve-course-termination-branches` | `sciatic nerve course`; `sciatic nerve termination`; `sciatic nerve branches`; `tibial common fibular division` | Pending 103-BMS concepts separately own the pelvis-to-lower-thigh course and terminal/muscular/articular branches. | pending; new to eligible LCS |
+| 4 | hip M5 → `hip-joint-classification` | `hip joint type`; `ball and socket hip`; `synovial hip joint`; `multiaxial hip` | Pending 103-BMS hip-movement concept explicitly begins with the polyaxial ball-and-socket synovial classification. | pending; new to eligible LCS |
+| 5 | hip W1 → `posterior-femoral-cutaneous-branches` | `posterior cutaneous nerve thigh`; `posterior femoral cutaneous`; `inferior cluneal nerve`; `perineal branch posterior thigh` | Prior auxiliary evidence covers only a medial course relation, not the requested branch list; no substantive concept hit. | new; NEU/ANA |
+| 6 | hip W2 → `deep-gluteal-muscle-actions` | `deep gluteal muscles`; `short lateral rotators`; `obturator internus gemelli`; `lateral rotation hip` | Pending AU/103-BMS concepts own the six short lateral rotators and their shared lateral-rotation action. | pending; new to eligible LCS |
+| 7 | hip W3 → `sciatic-foramina-contents` | `greater sciatic foramen`; `lesser sciatic foramen`; `sciatic foramina contents`; `piriformis foramen contents` | Exact prior eligible handle; pending AU material owns both foramina and the piriformis partition. | prior eligible-LCS reuse; inherited pending |
+| 8 | hip W4 → `hip-joint-ligaments` | `iliofemoral ligament`; `pubofemoral ligament`; `ischiofemoral ligament`; `hip ligament` | Exact prior eligible handle; pending AU and 103-BMS concepts own the capsular ligament set. | prior eligible-LCS reuse; inherited pending |
+| 9 | hip W5 → `hip-joint-blood-supply` | `hip joint blood supply`; `arterial supply hip`; `retinacular arteries hip`; `medial circumflex femoral hip` | Pending AU trochanteric-anastomosis and 103-BMS acetabular-branch concepts jointly own the named arterial supply route. | pending; new to eligible LCS |
+| 10 | thigh W1 → `femoral-triangle-anatomy` | `femoral triangle`; `Scarpa triangle`; `femoral triangle boundaries`; `femoral triangle contents` | Exact prior eligible handle; pending 103-BMS/AU material owns the boundaries and contents. | prior eligible-LCS reuse; inherited pending |
+| 11 | thigh W2,M4 → `femoral-artery` | `femoral artery`; `femoral artery branches`; `profunda femoris`; `lateral circumflex femoral` | Exact prior eligible handle; pending records extend branches/relations but do not create a second LCS concept. | prior eligible-LCS reuse; inherited new |
+| 12 | thigh M1 + p10 repeat 1 → `quadriceps-femoris-components` | `quadriceps components`; `quadriceps femoris group`; `vastus rectus femoris`; `anterior thigh muscles` | Pending 103-BMS quadriceps concept explicitly names all four heads and articularis genus. | pending; new to eligible LCS |
+| 13 | thigh M2,M5 → `adductor-canal` | `adductor canal`; `Hunter canal`; `subsartorial canal`; `adductor canal contents` | Exact prior eligible handle; pending 103-BMS owns walls, contents and femoral-vessel relations. | prior eligible-LCS reuse; inherited pending |
+| 14 | thigh M3 + p10 repeat 2 → `femoral-nerve-roots-course-and-distribution` | `femoral nerve`; `L2 L3 L4 femoral`; `anterior thigh motor nerve`; `femoral nerve distribution` | Exact prior eligible handle; pending 103-BMS/AU material owns anterior-compartment motor distribution. | prior eligible-LCS reuse; inherited pending |
+| 15 | thigh M6 + p10 repeat 3 → `femoral-sheath` | `femoral sheath`; `femoral canal`; `sheath compartments`; `femoral canal medial vein` | Exact prior eligible handle; pending concepts explicitly place the canal medial to the femoral vein. | prior eligible-LCS reuse; inherited pending |
+| 16 | leg M1 → `tibialis-anterior-oina` | `tibialis anterior`; `tibialis anterior insertion`; `deep fibular nerve tibialis`; `ankle dorsiflexion inversion` | Exact prior eligible handle; group-action hits remain narrower than the requested muscle anatomy. | prior eligible-LCS reuse; inherited new |
+| 17 | leg M2 → `flexor-digitorum-longus-oina` | `flexor digitorum longus`; `FDL muscle`; `tibial nerve FDL`; `lateral four toes flexion` | Exact prior eligible handle; no substantive same-scope concept hit. | prior eligible-LCS reuse; inherited new |
+| 18 | leg W1 → `superficial-posterior-leg-compartment` | `superficial posterior leg`; `posterior compartment leg muscles`; `gastrocnemius soleus plantaris`; `tibial nerve calf` | Ankle and tibial-injury material mentions gastrocnemius/soleus or calf paralysis but does not own the three-muscle compartment plus nerve-supply objective. | new; MSK/ANA |
+| 19 | leg W2 → `deep-fibular-nerve-terminal-branches` | `deep fibular nerve terminal`; `deep peroneal nerve branches`; `medial terminal branch deep fibular`; `lateral terminal branch deep fibular` | No substantive live, pending, prior-LCS or external-bank handle owns the two terminal divisions. | new; NEU/ANA |
+| 20 | foot W1 → `medial-plantar-nerve-branches` | `medial plantar nerve`; `medial plantar branches`; `proper plantar digital nerve`; `common plantar digital nerves` | Live cutaneous territory and a pending article are narrower/non-concept evidence; no concept owns the requested branch list. | new; NEU/ANA |
+| 21 | foot W2,M2 → `intrinsic-foot-layers` | `layers of sole`; `third layer foot`; `plantar muscle layers`; `intrinsic foot muscles` | Exact prior eligible handle; no substantive corpus record supersedes its inherited disposition. | prior eligible-LCS reuse; inherited new |
+| 22 | foot M1 → `foot-arches` | `foot arches`; `longitudinal arch foot`; `transverse arch foot`; `peroneus longus arch` | Pending AU concept owns all three arches and specifically the peroneus-longus tie beam of the transverse arch. | pending; new to eligible LCS |
+| 23 | foot M3 → `inversion-eversion-joints` | `inversion eversion joints`; `subtalar joint movement`; `talocalcaneonavicular movement`; `transverse tarsal joint` | Pending AU/103-BMS concepts explicitly place inversion/eversion at subtalar plus transverse-tarsal/talocalcaneonavicular joints, not the ankle. | pending; new to eligible LCS |
+| 24 | embryo M1,M5 → `lower-limb-bud-development` | `lower limb bud`; `limb bud week five`; `lower limb somite level`; `L2 S2 limb bud` | Pending 103-BMS limb-bud concept owns timing and formation; extend for segmental level. The source's Week-5 key conflicts with that pending fourth-week statement. | pending; new to eligible LCS; key review |
+| 25 | embryo M2 → `lower-limb-muscle-embryology` | `lower limb muscle embryology`; `limb muscles paraxial mesoderm`; `somite myotome limb`; `limb muscle precursor` | Pending 101-ISK somite/dermomyotome concept owns muscle derivation from paraxial-mesoderm myotome and can absorb the limb-specific overlay. | pending; new to eligible LCS |
+| 26 | embryo M3 → `lower-limb-medial-rotation` | `lower limb rotation`; `medial rotation limb bud`; `limb development rotation`; `ninety degree medial rotation` | Pending 103-BMS limb-bud concept explicitly owns 90-degree medial lower-limb rotation. | pending; new to eligible LCS |
+| 27 | embryo M4 → `apical-ectodermal-ridge` | `apical ectodermal ridge`; `AER limb`; `proximodistal limb growth`; `limb bud ectoderm` | The same pending 103-BMS limb-bud concept owns the AER; extend it for the keyed proximodistal-growth mechanism. | pending; new to eligible LCS |
+| 28 | face M1,W1 + p10 repeat 4 → `scalp-layers-and-movement-plane` | `scalp layers`; `SCALP layers`; `loose areolar scalp`; `scalp movement plane` | No substantive live, pending, prior-LCS or external-bank concept owns the five layers plus movement plane. | new; MSK/ANA |
+| 29 | face M2 → `scalp-arterial-supply` | `scalp arterial supply`; `blood supply scalp`; `superficial temporal occipital arteries`; `internal external carotid scalp` | No same-scope concept owns the combined internal- and external-carotid scalp supply. | new; CVS/ANA |
+| 30 | face M3 + p10 repeat 5 → `facial-nerve-expression` | `facial expression nerve`; `facial nerve motor face`; `muscles facial expression innervation`; `cranial nerve seven face` | Live extracranial facial-nerve course is a narrower relation and does not own motor supply to facial-expression muscles. | new; NEU/ANA |
+| 31 | face M4 → `face-sensory-supply` | `sensory supply face`; `facial sensation`; `trigeminal divisions face`; `great auricular angle mandible` | Exact prior eligible handle; no substantive same-scope corpus hit. | prior eligible-LCS reuse; inherited new |
+| 32 | face W2 → `scalp-face-venous-drainage` | `scalp venous drainage`; `face venous drainage`; `veins of scalp`; `facial vein termination` | Live anterior-scalp drainage owns only one territory, not the requested five veins and terminations. | new; CVS/ANA |
+| 33 | temporal M1 → `temporal-fossa` | `temporal fossa`; `temporal region anatomy`; `temporalis fossa`; `temporal fossa boundary` | Exact prior eligible handle; live chorda-tympani mention is incidental. | prior eligible-LCS reuse; inherited new |
+| 34 | temporal M2 → `temporalis-oina` | `temporalis muscle`; `temporalis action`; `jaw closing temporalis`; `mandible elevation temporalis` | No substantive same-scope concept hit. | new; MSK/ANA |
+| 35 | temporal M3 → `superficial-temporal-artery` | `superficial temporal artery`; `temporal region blood supply`; `terminal external carotid temporal`; `scalp artery temple` | No substantive same-scope concept hit; preserve the source's ambiguous surface-versus-deep temporal wording. | new; CVS/ANA; key review |
+| 36 | temporal M4 → `infratemporal-fossa` | `infratemporal fossa`; `infratemporal orbit communication`; `inferior orbital fissure`; `infratemporal opening` | Exact prior eligible handle; live chorda-tympani course is narrower than fossa communications. | prior eligible-LCS reuse; inherited new |
+| 37 | temporal M5 → `mandibular-nerve-branches` | `mandibular nerve`; `V3 foramen ovale`; `mandibular division trigeminal`; `infratemporal nerve` | Exact prior eligible V3 handle can absorb its foramen-ovale entry into the infratemporal fossa. | prior eligible-LCS reuse; inherited new |
+| 38 | temporal M6 → `lateral-pterygoid-oina` | `lateral pterygoid`; `lateral pterygoid action`; `mandible protrusion depression`; `muscle of mastication opening` | No substantive same-scope concept hit. | new; MSK/ANA |
+| 39 | temporal M7,M8,M10 → `temporomandibular-joint` | `temporomandibular joint`; `TMJ articular disc`; `TMJ lateral ligament`; `synovial jaw joint` | A glossary word-part and incidental fibrocartilage mentions do not own classification, disc compartments and lateral-ligament attachment. | new; MSK/ANA |
+| 40 | temporal M9 → `pterygoid-plexus-connections` | `pterygoid plexus`; `pterygoid venous plexus`; `cavernous sinus communication`; `emissary veins pterygoid` | Exact prior eligible handle; live `CON-FND-1DE320DE8928B2` owns its communication route. | prior eligible-LCS reuse; inherited live |
+| 41 | neck W1 → `median-neck-region` | `median neck structures`; `midline neck structures`; `median part neck`; `anterior median neck` | No substantive same-scope concept hit. | new; MSK/ANA |
+| 42 | neck W2 → `carotid-triangle` | `carotid triangle`; `carotid region`; `triangle boundaries contents`; `anterior triangle neck` | Exact prior eligible handle; no substantive same-scope corpus hit. | prior eligible-LCS reuse; inherited new |
+| 43 | neck W3 → `anterior-jugular-vein` | `anterior jugular vein`; `jugular venous arch`; `superficial neck vein`; `anterior neck venous drainage` | No substantive same-scope concept hit. | new; CVS/ANA |
+| 44 | neck M1 → `deep-cervical-lymph-nodes` | `deep cervical lymph nodes`; `upper deep cervical nodes`; `jugulodigastric node`; `cervical lymph drainage` | No substantive same-scope concept hit. | new; LYM/ANA |
+| 45 | neck M2 → `carotid-sheath` | `carotid sheath`; `carotid sheath contents`; `vagus internal jugular carotid`; `hypoglossal carotid sheath` | Pending 101-ISK deep-fascia concept explicitly owns carotid artery, internal jugular vein and vagus as the sheath contents. | pending; new to eligible LCS |
+| 46 | neck M3 → `left-subclavian-first-part-relations` | `left subclavian artery first part`; `first part subclavian relations`; `thoracic duct subclavian artery`; `ansa subclavia subclavian` | No substantive same-scope concept hit. | new; CVS/ANA |
+| 47 | neck M4 → `scalenus-anterior-relations` | `scalenus anterior relations`; `anterior scalene surface`; `phrenic nerve scalenus anterior`; `subclavian vein anterior scalene` | Brachial-plexus and fascia mentions are narrower than the requested anterior-surface relation set. | new; MSK/ANA |
+| 48 | neck M5 → `greater-occipital-nerve` | `greater occipital nerve`; `dorsal ramus C2`; `occipital scalp nerve`; `semispinalis trapezius nerve` | Prior general scalp-sensory scope is broader but does not own the nerve's course, branches and muscular relations; no substantive concept hit. | new; NEU/ANA |
+
+Source-disposition arithmetic is **1 live + 18 pending + 29 new = 48** handles. Module
+novelty is separate: **18 prior eligible-LCS handles + 30 new-to-eligible handles = 48**.
+The 30 net handles resolve as **0 live + 12 pending + 18 new**. The five exact screenshot
+repeats and nine other repeated same-concept assignments create no additional handle.
+
+### Family-20 checkpoint and cumulative LCS-103 delta
+
+| Family-20 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS handle reuse | 24 | 12 | 18 | 0 | 0 | 0 | 0 |
+| New-to-eligible pending handles | 15 | 6 | 12 | 12 | 0 | 12 | 0 |
+| New-to-eligible new handles | 23 | 9 | 18 | 18 | 0 | 0 | 18 |
+| **Family 20 assessment** | **62** | **27** | **48** | **30** | **0** | **12** | **18** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 19 | 308 | 182 | 153 | 9 | 37 | 107 |
+| Family 20 net delta | +62 | +27 | +30 | +0 | +12 | +18 |
+| **LCS-103 cumulative after Family 20** | **370** | **209** | **183** | **9** | **49** | **125** |
+
+Arithmetic checks: page prompt totals are `0 + 6 + 11 + 8 + 7 + 8 + 6 + 7 + 4 + 5 =
+62`; type totals are `45 + 17 = 62`; key mechanisms are `12 underlines + 15 Answer lines =
+27`; `62 - 5 exact repeats = 57` unique forms; `57 - 9 semantic repeats = 48` handles;
+`18 prior + 30 net = 48`; `1 + 18 + 29 = 48`; `0 + 12 + 18 = 30`; `308 + 62 =
+370`; `182 + 27 = 209`; `153 + 30 = 183`; and `9 + 49 + 125 = 183`. The
+external bank remains separately unchanged at `241 prompts / 241 keys / 75 handles = 9 live
+/ 66 pending / 0 new`. The 50 auxiliary notes and previously tracked unresolved/malformed
+items also remain unchanged. This ten-page department-book tutorial source is now closed.
+
+## Exact next debt
+
+- Return to the remaining direct, non-external tier-3 college sources before student or
+  external banks. The next explicit module-labelled local candidate is
+  `src_79b0f17a5426e5773083`, `MCQs - College MCQs 103 LCS CBL .pdf`: 110 pages, native text,
+  manifest SHA-256 `79b0f17a5426e57730835bca39abda5e82ac8f6c72db7f513cc7a24a805daa55`,
+  `HU_Y1` / `HU-LCS-103` / All Subjects / Questions/MCQs, source tier 3.
+- Its first-page snippet says `CBL Bone Diseases` and names Dr. Hebat Allah A. Amin, so begin
+  with source-first provenance and assessment-versus-teaching classification. If it is a
+  mixed CBL pack, inventory one explicit natural question section at a time rather than
+  treating all 110 pages as assessment by filename.
+- No download is needed. No S2 work is authorised until ranks 1–6 are consolidated and
+  `/root` issues the literal `TRIAGE APPROVED` for Helwan Year 1.
