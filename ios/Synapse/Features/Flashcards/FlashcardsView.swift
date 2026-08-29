@@ -158,6 +158,23 @@ struct DeckDetailView: View {
     private var counts: DeckCounts { store.counts(forDeck: deckId) }
     private var deckName: String { store.deck(deckId)?.name ?? "" }
 
+    /// The deck's scheduler, opting a deck into FSRS (or back to SM-2) while
+    /// keeping whatever daily limits it already had.
+    private var schedulerBinding: Binding<SchedulerType> {
+        Binding(
+            get: { store.deck(deckId)?.config?.scheduler ?? .sm2 },
+            set: { newValue in
+                let existing = store.deck(deckId)?.config
+                let config = DeckConfig(
+                    scheduler: newValue,
+                    newPerDay: existing?.newPerDay ?? SrsConfig.anki.newPerDay,
+                    maxReviewsPerDay: existing?.maxReviewsPerDay ?? SrsConfig.anki.maxReviewsPerDay
+                )
+                Task { await store.setDeckConfig(deckId, config) }
+            }
+        )
+    }
+
     var body: some View {
         List {
             Section {
@@ -184,6 +201,21 @@ struct DeckDetailView: View {
                         .font(Theme.ui(16))
                         .foregroundStyle(Theme.ink)
                 }
+            }
+            .listRowBackground(Theme.surface)
+
+            Section {
+                Picker(strings("Scheduler"), selection: schedulerBinding) {
+                    Text(strings("SM-2")).tag(SchedulerType.sm2)
+                    Text(strings("FSRS")).tag(SchedulerType.fsrs)
+                }
+                .pickerStyle(.menu)
+                .tint(Theme.primary)
+            } header: {
+                Text(strings("Scheduling")).font(Theme.panelTitle()).foregroundStyle(Theme.ink2).textCase(nil)
+            } footer: {
+                Text(strings("SM-2 is the classic algorithm. FSRS learns from your review history to space cards more precisely."))
+                    .font(Theme.ui(12)).foregroundStyle(Theme.ink3)
             }
             .listRowBackground(Theme.surface)
         }

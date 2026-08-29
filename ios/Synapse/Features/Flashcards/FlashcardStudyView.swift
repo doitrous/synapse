@@ -61,7 +61,7 @@ struct FlashcardStudyView: View {
     private func cardBody(card: Card, note: FlashcardNote) -> some View {
         ScrollView {
             VStack(spacing: 20) {
-                Text(front(note))
+                frontText(card, note)
                     .font(Theme.display(22))
                     .foregroundStyle(Theme.ink)
                     .multilineTextAlignment(.center)
@@ -69,11 +69,20 @@ struct FlashcardStudyView: View {
 
                 if revealed {
                     Divider().overlay(Theme.line).padding(.horizontal, 40)
-                    Text(back(note))
+                    backText(card, note)
                         .font(Theme.ui(18))
                         .foregroundStyle(Theme.ink2)
                         .multilineTextAlignment(.center)
                         .frame(maxWidth: .infinity)
+
+                    // A cloze note's "extra" sits under the revealed sentence.
+                    if note.type == .cloze, let extra = note.fields.extra, !Self.plain(extra).isEmpty {
+                        Text(Self.plain(extra))
+                            .font(Theme.ui(14))
+                            .foregroundStyle(Theme.ink3)
+                            .multilineTextAlignment(.center)
+                            .frame(maxWidth: .infinity)
+                    }
                 }
             }
             .padding(28)
@@ -174,6 +183,42 @@ struct FlashcardStudyView: View {
 
     // MARK: rendering
 
+    /// The card's active cloze number, from its template key `c<n>`.
+    private func activeNumber(_ card: Card) -> Int? {
+        card.templateKey.hasPrefix("c") ? Int(card.templateKey.dropFirst()) : nil
+    }
+
+    private func frontText(_ card: Card, _ note: FlashcardNote) -> Text {
+        if note.type == .cloze, let n = activeNumber(card) {
+            return Self.clozeText(Cloze.renderSide(note.fields.text ?? "", activeNumber: n, side: .front))
+        }
+        return Text(front(note))
+    }
+
+    private func backText(_ card: Card, _ note: FlashcardNote) -> Text {
+        if note.type == .cloze, let n = activeNumber(card) {
+            return Self.clozeText(Cloze.renderSide(note.fields.text ?? "", activeNumber: n, side: .back))
+        }
+        return Text(back(note))
+    }
+
+    /// Compose cloze cells into one run: the active blank and its answer stand
+    /// out in the accent; the surrounding text and sibling deletions read
+    /// plainly. Whitespace inside each run is kept (unlike `plain`) so the
+    /// sentence does not collapse around the blank.
+    static func clozeText(_ cells: [ClozeCell]) -> Text {
+        cells.reduce(Text(verbatim: "")) { acc, cell in
+            switch cell {
+            case .text(let t):
+                return acc + Text(unhtml(t))
+            case .blank(let hint):
+                return acc + Text(hint.map { "[\(unhtml($0))]" } ?? "[…]").foregroundColor(Theme.primary).bold()
+            case .answer(let a):
+                return acc + Text(unhtml(a)).foregroundColor(Theme.primary).bold()
+            }
+        }
+    }
+
     private func front(_ note: FlashcardNote) -> String {
         switch note.type {
         case .basic: return Self.plain(note.fields.front)
@@ -188,6 +233,17 @@ struct FlashcardStudyView: View {
         case .cloze: return Self.plain(note.fields.extra)
         case .imageOcclusion: return Self.plain(note.fields.back)
         }
+    }
+
+    /// Strip HTML tags and decode the common entities, but keep whitespace as-is.
+    static func unhtml(_ s: String) -> String {
+        s.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression)
+            .replacingOccurrences(of: "&nbsp;", with: " ")
+            .replacingOccurrences(of: "&amp;", with: "&")
+            .replacingOccurrences(of: "&lt;", with: "<")
+            .replacingOccurrences(of: "&gt;", with: ">")
+            .replacingOccurrences(of: "&#39;", with: "'")
+            .replacingOccurrences(of: "&quot;", with: "\"")
     }
 
     /// Plain text for a rich-text field. Web cards carry sanitized HTML; a
