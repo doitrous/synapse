@@ -37,11 +37,20 @@ Study-loop UI, Basic + **Cloze** authoring and rendering, the **FSRS opt-in deck
 
 **Remaining Flashcards polish (later):** Browse/stats view, GRDB offline cache (flashcards.md §4.2), card audio + image-occlusion authoring, rich-text rendering (currently HTML is stripped to plain text in `FlashcardStudyView.plain/unhtml`), quick-add from Question Bank/Reader. No catalogue decks exist for the KAU Y1 test cohort, so the provided-deck path is unit-tested and will show a "Shared" deck once one is published.
 
+## Shipped since (wave-1)
+- **Question Bank pull-to-refresh** (`d89bffb1`) — the audit's missing-refresh gap.
+- **Whiteboard sync fix** (`21a624cb`) — iOS now reads/writes the live `synapse.whiteboard.boards.v1` multi-board document and **preserves every element type** (ink/images/files/ready-items) it doesn't render, so a phone save never strips a web board. Legacy single-board drawings migrate on first load. Verified live: a legacy board migrated and the edit wrote `boards.v1` (`migratedFromSingleBoard:true`) — confirmed in the outbox.
+
+## Known latent bug (flagged, not fixed)
+- **`SynapseAPI.send`/`get` EXC_BAD_ACCESS** under concurrent requests (release-during-dealloc race), seen in a crash log. Several features fire concurrent `userState` calls. Worth a dedicated fix (a task chip was spawned).
+
 ## Next, in order
-1. **Widgets + focus timer** (Omar request, no audit yet — do it yourself): Widget Extension target + App Group + a shared Codable "snapshot" the app writes on sync; widgets for Today/Calendar, Flashcards-due (`FlashcardStore.entries` is `nonisolated` for this), Everyday Question, Focus timer (ActivityKit Live Activity; `Features/Reader/StudyTimer.swift` exists to generalize).
-2. **Other wave-1**: QBank question-images (`MediaFileStore` clone of `ResourceFileStore`) + pull-to-refresh + offline cold-launch fallback; Whiteboard **legacy-key fix** (`synapse.whiteboard.board` → `synapse.whiteboard.boards.v1`); Resources My-uploads + video `.pdf` bug (`ResourceFileStore.swift:61`).
-3. **Wave-2 audits+build**: University, Essay Questions, Maristanas, Minigames. (Calendar + Medical Taxonomy already exist on iOS.)
-4. **Flashcards polish** (see the section above): Browse/stats, GRDB offline cache, audio/occlusion, rich-text rendering.
+1. **Widgets + focus timer** — BLOCKED on a new Xcode extension target (objectVersion-77 pbxproj; risky to add by hand). Needs a one-time Xcode "New Target → Widget Extension + App Group" from Omar; then build the shared snapshot + widgets + ActivityKit focus timer on top.
+2. **Question Bank images** — the media model + `MediaFileStore` (auth'd `/api/media/:id`) + rendering. NOTE: the KAU-Y1 test cohort has **zero** questions with images (checked the ledger), so this is a blind/unit-tested build until content has one.
+3. **Resources "My uploads"** — the shared My-Documents chunked-upload client + UI (also fixes the `ResourceFileStore.swift:61` video→.pdf bug).
+4. **Wave-2 audits+build**: University, Essay Questions, Maristanas, Minigames. (Calendar + Medical Taxonomy already exist on iOS.)
+5. **Flashcards polish**: Browse/stats, GRDB offline cache, audio/occlusion authoring, rich-text rendering. Plus QBank offline cold-launch fallback (bug G2) + question-media rendering.
+   - Widgets detail when unblocked: App Group + a shared Codable snapshot the app writes on sync; widgets for Today/Flashcards-due (`FlashcardStore.entries` is `nonisolated` for this) / Everyday Question; Focus timer as an ActivityKit Live Activity (`Features/Reader/StudyTimer.swift` to generalize).
 
 ## Rules
 Small commits, explicit `git add ios/`. Rebase + re-fetch `origin/main` before every push. Never touch `package.json` or `scripts/kasr/`. Verify UI on the simulator (q@hotmail.com/000000).
