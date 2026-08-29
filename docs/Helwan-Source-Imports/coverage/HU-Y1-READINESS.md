@@ -138,5 +138,10 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   collapse to the existing piriformis handle, leaving six auxiliary handles (0 live, 2
   pending, 4 new); the GSF/LSF shorthand is preserved as source evidence. The auxiliary-note
   total is now 25 numbered statements and assessment totals remain unchanged.
-- Continue the final anatomy quiz-content image, then pathology assessment images and Tutorial
-  103; this remains S1 evidence only.
+- The final anatomy image `src_086eb3c89677239baa74` is handwritten posterior-thigh notes:
+  two diagram-statements, no assessment prompts and no keys. Its legible `Upper Medial →
+  Semimembranosus` conflicts with the pending upper-lateral anatomy wording, so the source
+  atom is retained with a pending conflict rather than silently normalised. AVN/NVA boxes are
+  preserved unexpanded annotation, not keys. The two auxiliary handles are 0 live, 1 pending
+  and 1 new; all five anatomy images total 27 numbered notes, with assessment totals unchanged.
+- Continue pathology assessment images, then Tutorial 103; this remains S1 evidence only.

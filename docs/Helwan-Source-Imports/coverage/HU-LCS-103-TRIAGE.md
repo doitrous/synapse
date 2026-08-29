@@ -718,15 +718,87 @@ Module arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop
 5's malformed auxiliary handle remain outside tested-concept totals; Family 7 adds no
 unresolved handle.
 
+## Family 8 — fifth and final Anatomy quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_086eb3c89677239baa74` |
+| Manifest SHA-256 | `086eb3c89677239baa743d3720429c23f87b168f24074acbb056076adba25248` |
+| Recomputed SHA-256 | `086eb3c89677239baa743d3720429c23f87b168f24074acbb056076adba25248` |
+| File | `Most important notes anatomy (Quiz content)5.jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Anatomy/Assessments/Quizzes/Most important notes anatomy (Quiz content)5.jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Anatomy · Assessments/Quizzes |
+| Container | one 1920 × 2560 progressive JPEG photograph of a ruled spiral-notebook page |
+| Read method | original-resolution visual read, source-first |
+
+The page is headed `D) Posterior Compartment of Thigh` and contains two completely visible
+numbered handwritten diagram-statements. It has no interrogative stem, answer choices, blank
+response area, typeset solution or answer-key layout. The blue `AVN`/`NVA` boxes and red
+outlines annotate the second diagram; colour does not turn them into answer marks or a key.
+The source therefore contributes **zero complete prompts, zero incomplete prompts and zero
+printed or handwritten answer keys**. Both numbered diagrams remain auxiliary evidence only.
+
+### Exact note-statement inventory
+
+| Note | Visible handwritten statement | Prompt status | Key status |
+|---:|---|---|---|
+| N1 | Ischial-tuberosity sketch: `Upper Medial → Semimembranosus`; `lower Medial → Semitendinosus`, `long head of Biceps Femoris` | `Upper Medial` is preserved despite conflict with pending anatomy wording; note, not a prompt | none |
+| N2 | `Floor of Popliteal fossa`: `Upper → Popliteal Surface → AVN`; `Middle → Capsule of Knee → NVA` (vertical); `lower → Fascia → NVA` | blue abbreviations are preserved without expansion; note, not a prompt | annotations only, not a key |
+| **Family 8** | **2 complete numbered diagram-statements** | **0 complete / 0 incomplete prompts** | **0** |
+
+There is no exact repeat and no within-source semantic collapse: two statements map
+one-to-one to two source-distinct coverage handles. N1's handle is identifiable despite the
+directional conflict, so the conflict is retained on the pending match rather than repaired
+or converted into a separate invented concept. N2's `AVN`/`NVA` letters are not expanded
+beyond what is visible.
+
+### Statement-to-handle assignment and search ledger
+
+Both handles received four required searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root and the accepted prior-LCS
+ledger: **2 × 4 = 8 required invocations**. Two broad-token follow-ups (`hamstrings`,
+`popliteal fossa`) resolved phrase-order misses, for **10 invocations total**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `N1→hamstring-origins-ischial-tuberosity` | `hamstring origin ischial tuberosity`; `semimembranosus upper medial`; `semitendinosus biceps femoris lower medial`; `ischial tuberosity hamstring facets` | Pending Kasr/Alexandria hamstring records own the three-muscle origin scope and state semitendinosus plus long-head biceps on the lower medial area. They state semimembranosus on the **upper lateral** area, conflicting with this source's legible `Upper Medial`; the source atom is preserved and not silently normalised. | note-only candidate; external pending with conflict | — |
+| 2 | `N2→popliteal-fossa` | `popliteal fossa floor`; `popliteal surface femur capsule fascia`; `popliteal fossa AVN`; `artery vein nerve popliteal fossa` | Exact Family-1 handle. Pending component records cover the floor structures and nerve–vein–artery depth order, but no record absorbs the whole fossa scope; the prior disposition remains new. | prior LCS (inherited new) | — |
+
+### Family-8 checkpoint and cumulative LCS-103 delta
+
+| Family-8 evidence bucket | Numbered note assignments | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 1 | 1 | 0 | 0 | 1 | 0 |
+| New-to-LCS resolved note-only candidates | 1 | 1 | 0 | 1 | 0 | 0 |
+| **Family 8 auxiliary evidence** | **2** | **2** | **0** | **1** | **1** | **0** |
+
+These are auxiliary evidence dispositions, not a tested-concept delta. The assessment-led
+module delta is **+0 observed prompts, +0 printed keys and +0 resolved tested concepts**.
+Across Families 4–8, all five Anatomy images contribute `5 + 9 + 4 + 7 + 2 = 27`
+numbered auxiliary statements, no prompts and no keys.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 7 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 8 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 8** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `1 prior assignment + 1 new-to-LCS assignment = 2`; no collapse leaves
+two handles; `0 live + 1 pending + 1 new + 0 unresolved = 2`. Module arithmetic remains
+`4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Family 5's malformed auxiliary
+handle remain outside tested-concept totals; Family 8 adds a recorded source conflict but no
+unresolved semantic handle.
+
 ## Exact next debt
 
-- The final untriaged local Anatomy quiz-content image is `src_086eb3c89677239baa74`.
-  Its visual prompt/note classification, key status, repeat collapse and semantic search
-  remain wholly outside this checkpoint.
-- The three local Pathology quiz-content images in the actual-assessment lane,
-  `src_4ee3e3e63fa0804576fb`, `src_e8309c2953d770051cf0`, and
-  `src_758188828699ae3569f4` remain after the Anatomy images. Their content counts and key
-  status have not yet been claimed.
+- All five local Anatomy quiz-content images are now triaged. The next untriaged local
+  Pathology quiz-content image is `src_4ee3e3e63fa0804576fb`, `Most important notes
+  pathology (Quiz content).jpg`. The other two Pathology images follow:
+  `src_e8309c2953d770051cf0` and `src_758188828699ae3569f4`. Their visual prompt/note
+  classification, key status, repeat collapse and semantic search remain wholly outside this
+  checkpoint.
 - Pathology `TUTORIAL 103` is explicitly LCS-103 evidence even though it resides in the
   BMS-102 department-bank PDF `src_88169dc9b6ad00181a0d`. Printed pp. 256–262 (physical
   pp. 16–22) contain **33 raw prompts**: 19 MCQs and 14 written/completion/table prompts,
