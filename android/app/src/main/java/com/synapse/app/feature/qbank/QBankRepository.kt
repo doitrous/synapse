@@ -28,6 +28,7 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
 import java.time.Instant
 import javax.inject.Inject
+import kotlin.coroutines.cancellation.CancellationException
 
 /** The shared, admin-authored ledger every student catalogue is projected from. */
 internal const val CONTENT_LEDGER_KEY = "synapse-admin-content-ledger-v4"
@@ -130,7 +131,13 @@ class QBankRepository @Inject constructor(
             )
         }
         if (verified.isEmpty()) return
-        runCatching { qbankApi.postAttempts(VerifiedAttemptsBody(verified)) }
+        try {
+            qbankApi.postAttempts(VerifiedAttemptsBody(verified))
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            // Best-effort: a failed leaderboard POST never fails the local attempt write.
+        }
     }
 
     /**
