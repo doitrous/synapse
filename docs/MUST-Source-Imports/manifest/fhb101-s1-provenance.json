@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "fhb101-s1-evidence-snapshot/v1",
+  "scope": "FHB 101 S1 metadata-only durable evidence snapshot; no source content is imported.",
+  "sourceRoot": "<MUST_ROOT>",
+  "liveSourceVerification": false,
+  "selector": {
+    "module": "FHB 101",
+    "categories": [
+      "05 MCQs",
+      "06 EOM Exams",
+      "07 EOY Exams",
+      "08 Midterm Exams"
+    ],
+    "inventoryRows": 115,
+    "uniqueSha256": 106,
+    "duplicatePaths": 9
+  },
+  "selectorCounts": {
+    "subjects": {
+      "Anatomy": 27,
+      "Histology": 57,
+      "Physiology": 31
+    },
+    "categories": {
+      "05 MCQs": 48,
+      "06 EOM Exams": 21,
+      "07 EOY Exams": 0,
+      "08 Midterm Exams": 46
+    }
+  },
+  "inputSha256": {
+    "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
+    "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
+    "recoveryManifestTsv": "41d75ce7cbda7588df8899dfca164162f3f4617947aa5bee4ed985ee919b70b0",
+    "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
+    "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
+    "readinessMarkdown": "e6280bf2565a3b32ac63aa9b6dc828fab012fa4fd2dcf772c586df28e276c2b3",
+    "triageMarkdown": "3d753641b62c9ecfeb61c65e83f37ae6927e9a759ac5691c4ff6554d81599b28"
+  },
+  "inputMetadata": {
+    "inventoryDeclaredFileMetadata": true,
+    "inspectedTextDiagnostics": "sample-length classification only; raw samples are excluded"
+  },
+  "academicPackageFhbStructure": {
+    "universityId": "must",
+    "yearId": "MUST_Y1",
+    "courseId": "must-must-y1-fhb-101",
+    "moduleId": "FHB 101",
+    "term": "Semester 101",
+    "evidenceState": "verified",
+    "originalPath": "Year 1/Semester 101/FHB 101",
+    "directoryManifestSha256": "5d45c57f30123f72c6b4322aa52accf618d15570e1070aadf7487cef04b0090f",
+    "fileCount": 198
+  },
+  "selectedInventory": {
+    "inventoryMetadataRows": 115,
+    "uniqueSha256": 106,
+    "sortedNewlineSha256": "f20dfde82d0db130f07d57ef570cae71b873203604661ebe5a9128976ef43270"
+  },
+  "auditSampleStatusCounts": {
+    "audit-extract-failed": 5,
+    "audit-not-found": 6,
+    "empty-text": 41,
+    "sparse-text": 6,
+    "substantive-text": 57
+  },
+  "processedFamilies": {
+    "sha256": [
+      "3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a",
+      "349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f",
+      "5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56",
+      "a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec",
+      "a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95",
+      "e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb"
+    ],
+    "uniqueSha256": 6
+  },
+  "remaining": {
+    "inventoryMetadataRows": 106,
+    "uniqueSha256": 100,
+    "sortedNewlineSha256": "226fc42be94f6b996c8134be81601e7696133184b5b6af0a290dec39416b8918",
+    "auditSampleStatusCounts": {
+      "audit-extract-failed": 5,
+      "audit-not-found": 6,
+      "empty-text": 41,
+      "sparse-text": 6,
+      "substantive-text": 48
+    }
+  },
+  "triageCheckpointRemainingExtractionDebt": {
+    "emptyTextRows": 39,
+    "sparseTextRows": 6,
+    "source": "pinned triage/readiness checkpoint; not replaced by audit-sample status counts"
+  },
+  "reconciliation": {
+    "selectedUniqueSha256": 106,
+    "processedUniqueSha256": 6,
+    "remainingUniqueSha256": 100,
+    "processedPlusRemaining": 106
+  },
+  "year1RecoveryOutcomes": [
+    {
+      "row": 1,
+      "semester": "Semester 101",
+      "sourcePriority": "3 Official lecture/material",
+      "existingEquivalent": true,
+      "validationClass": "confirmed-content-equivalent",
+      "outcome": "covered-equivalent",
+      "intendedDestination": "<MUST_ROOT>/Year 1/Semester 101/Semester-wide Resources/00 Module-wide/01 University Material/🚨 قوائم تشغيل سنة أولى 🚨.pdf"
+    },
+    {
+      "row": 2,
+      "semester": "Semester 101",
+      "sourcePriority": "1 Actual exam/EOM/EOY/midterm",
+      "existingEquivalent": false,
+      "validationClass": "unvalidated-unresolved",
+      "outcome": "unresolved",
+      "intendedDestination": "<MUST_ROOT>/Year 1/Semester 101/MSK 101-2/Pharmacology/04 Summaries and Revision/Important notes for pharma.jpg"
+    },
+    {
+      "row": 3,
+      "semester": "Semester 101",
+      "sourcePriority": "3 Official lecture/material",
+      "existingEquivalent": false,
+      "validationClass": "unvalidated-unresolved",
+      "outcome": "unresolved",
+      "intendedDestination": "<MUST_ROOT>/Year 1/Semester 101/University Requirements and Activities/00 Module-wide/01 University Material/5 الجهاز العضلي.pptx"
+    },
+    {
+      "row": 4,
+      "semester": "Semester 102",
+      "sourcePriority": "5 Administration/lower priority",
+      "existingEquivalent": false,
+      "validationClass": "unvalidated-unresolved",
+      "outcome": "unresolved",
+      "intendedDestination": "<MUST_ROOT>/Year 1/Semester 102/00 Administration/Student Distributions/Academic Sec distribution.pdf"
+    },
+    {
+      "row": 5,
+      "semester": "Semester 102",
+      "sourcePriority": "5 Administration/lower priority",
+      "existingEquivalent": true,
+      "validationClass": "confirmed-content-equivalent",
+      "outcome": "covered-equivalent",
+      "intendedDestination": "<MUST_ROOT>/Year 1/Semester 102/00 Administration/Assessments and Results/❗️MID-TERM TABLE.jpg"
+    }
+  ]
+}

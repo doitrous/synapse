@@ -8,7 +8,7 @@ This is a source-file priority decision, not a claim that 10 keys have been read
 
 ## Evidence and blocker
 
-The counter reads root evidence only; it does not copy, fetch, transform, import, or alter it. At this run the academic package SHA-256 was `a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c`. The package/audit inputs are untracked WIP outside this worktree, so this branch records only the deterministic result. This does not block the authorised read-only FHB 101 triage dispatch; it blocks a portable S1 hand-off and issuing `TRIAGE APPROVED` until Omar accepts or lands a reviewed evidence snapshot.
+The counter reads root evidence only; it does not copy, fetch, transform, import, or alter it. At this run the academic package SHA-256 was `a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c`. The package/audit inputs are untracked WIP outside this worktree. The durable metadata-only FHB 101 evidence snapshot now records their input hashes, source-root token, selected inventory metadata rows, recovery outcomes, and pinned remaining checksum in `manifest/fhb101-s1-ledger.tsv` and `manifest/fhb101-s1-provenance.json`; its audit-sample labels do not replace the checkpoint’s separate extraction debt. It does not copy source content or verify live source files. This removes the portable-evidence-snapshot blocker, but not the literal `TRIAGE APPROVED` gate.
 
 ## FHB 101 S1 checkpoint status
 
