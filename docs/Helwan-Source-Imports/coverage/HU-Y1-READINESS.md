@@ -150,11 +150,13 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   annotations (0/0/3 live/pending/new), with no prior same-scope overlap, so it adds +3 concepts.
   Primary remains 765/405/552/372. Accepted F17 adds the bounded `bacterial g...` slides
   49–50/52: 2 complete MCQs, 0 printed answers and 2 pale-green unproven annotations; its
-  two handles are scope-proven pending and neither overlaps prior BMS evidence. The F12–17
-  auxiliary checkpoint is 65 prompts/35 printed answers/65 retained/+61 concepts and 30
-  annotations; all eligible evidence is 830/440/617/433. Next is the non-contiguous `General
-  vir...` screenshot sequence, retaining red boxes/circles and handwritten `latent` as
-  annotations rather than a key.
+  two handles are scope-proven pending and neither overlaps prior BMS evidence. Accepted F18
+  adds the non-contiguous `General vir...` slides 7/21/28/33/39: 14 complete prompts, 0
+  printed answers, 14 red unproven annotations and 13 handles after the inverse chronic/latent
+  pair collapse; it contributes 0/6/7 and +13 with no exact BMS overlap. The F12–18 auxiliary
+  checkpoint is 79 prompts/35 printed answers/79 retained/78 handles/+74 concepts and 44
+  annotations; all eligible evidence is 844/440/631/446. Next is `Lec3 sterili...` slide
+  41/42, retaining red ticks as checklist bullets rather than a key.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 

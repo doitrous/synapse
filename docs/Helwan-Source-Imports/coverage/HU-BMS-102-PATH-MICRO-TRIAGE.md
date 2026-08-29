@@ -2736,3 +2736,98 @@ order: `src_0fc230c86383f76329b6` (slide 7/53), `src_e0928be0be4ed846220d`
 (33/53), and `src_1e8051f1079e1aad0da9` (39/53), all 1280 × 768. It requires
 visible-only inventory, explicit gap boundaries, and separate treatment of red digital
 boxes/circles and the black handwritten `latent`; none is printed-key evidence.
+
+## Family 18 — tier-6 auxiliary `General vir...` screenshot fragment
+
+### Source boundary and answer-mark ruling
+
+| Source order | Manifest source | SHA-256 | Visible boundary | Raster |
+|---:|---|---|---|---|
+| 1 | `src_0fc230c86383f76329b6` · `2026-07-20 05.58.14.jpg` | `0fc230c86383f76329b6ff269e5be00a416944a71f3f2a052fdcc1120f3fca60` | `General vir...`, slide 7 of 53 | 1280 × 768 JPEG |
+| 2 | `src_e0928be0be4ed846220d` · `2026-07-20 05.58.12.jpg` | `e0928be0be4ed846220d6971077e3e0b4c76b5528b0cfdff285725687160f923` | same deck, slide 21 of 53 | 1280 × 768 JPEG |
+| 3 | `src_ec1ee4de5212860ccb3e` · `2026-07-20 05.58.09.jpg` | `ec1ee4de5212860ccb3ebdba21fc4158e7edfad45e377d3cebd397fa67f9644b` | same deck, slide 28 of 53 | 1280 × 768 JPEG |
+| 4 | `src_e11ef4bbfe64901c50cc` · `2026-07-20 05.58.05.jpg` | `e11ef4bbfe64901c50cc5824785a1fd247b4b6777368f2f042bb1ee87c3660c7` | same deck, slide 33 of 53 | 1280 × 768 JPEG |
+| 5 | `src_1e8051f1079e1aad0da9` · `2026-07-20 05.58.17.jpg` | `1e8051f1079e1aad0da990763a3f33110afd52bd2d0ebe51610f9f2885d9f93f` | same deck, slide 39 of 53 | 1280 × 768 JPEG |
+
+All images were read at original resolution and ordered by visible slide counter, not capture
+timestamp. Gaps 8–20, 22–27, 29–32, 34–38, and 40–53 remain unseen. The five images contain 14
+fully visible prompt units and zero cropped/incomplete units.
+
+Red digital boxes/circles mark a choice for all 14 prompts. Slide 39 additionally has a black
+freehand `latent` correction beside the first statement. These are annotation evidence, not an
+official printed answer convention or key. Family 18 records 14 visibly annotated prompts and
+zero printed-answer occurrences.
+
+### Visible-prompt assignment, repeat, and collapse ledger
+
+| Ref | Slide | Fully visible prompt assignment | Visible annotation | Tested handle |
+|---|---:|---|---|---|
+| F18-Q01 | 7 | Virus as the smallest infectious agent with a broad host range | red box · first option | `viruses-smallest-infectious-agents-broad-host-range` |
+| F18-Q02 | 7 | Viruses are obligate intracellular parasites | red box · D | `viruses-obligate-intracellular-parasites` |
+| F18-Q03 | 21 | Capsid consists of capsomers whose arrangement determines viral symmetry | red box · C | `viral-capsomers-arrangement-determines-symmetry` |
+| F18-Q04 | 21 | Viral nucleic acid is infectious and coreless particles are non-infectious | red box · A | `viral-nucleic-acid-infectivity` |
+| F18-Q05 | 21 | Viral envelope may carry glycoprotein spike-like projections | red box · B | `viral-envelope-glycoprotein-spikes` |
+| F18-Q06 | 28 | Cell culture as a monolayer derived from animal/human tissue | red circle · true | `cell-culture-monolayer-definition` |
+| F18-Q07 | 28 | Primary cell lines are not human-embryo fibroblast diploid lines | red circle · false | `primary-versus-human-diploid-cell-line-origin` |
+| F18-Q08 | 28 | Human diploid cell lines divide for up to 50 passages | red circle · true | `human-diploid-cell-line-finite-passages` |
+| F18-Q09 | 33 | Viral attachment requires specific host-cell receptors | red circle · false on the negated statement | `viral-attachment-specific-host-receptors` |
+| F18-Q10 | 33 | Non-enveloped virions enter by endocytosis and undergo lysosomal uncoating | red circle · true | `nonenveloped-virus-endocytosis-lysosomal-uncoating` |
+| F18-Q11 | 33 | Enveloped viruses enter by envelope/cell-membrane fusion releasing nucleocapsid | red circle · true | `enveloped-virus-membrane-fusion-entry` |
+| F18-Q12 | 33 | Eclipse is the post-penetration period with no detectable infectious virus | red circle · true | `viral-eclipse-no-detectable-infectious-virus` |
+| F18-Q13 | 39 | Chronic infection is not hidden persistence with periodic reactivation | red circle · false plus black `latent` | `latent-not-chronic-hidden-periodic-reactivation` |
+| F18-Q14 | 39 | Latent infection is hidden persistence with periodic reactivation | red circle · true | collapse to `latent-not-chronic-hidden-periodic-reactivation` |
+
+Q13 and Q14 are inverse true/false phrasings of the same latent-versus-chronic distinction, so
+they retain two prompt records but collapse to one tested handle. The other prompts test distinct
+properties, structures, culture systems, or replication stages. Family 18 therefore has zero
+copy occurrences, one semantic collapse, 14 retained records, and 13 source-distinct handles.
+
+### Search-before-mint and prior-BMS-102 adjudication
+
+Each of the 13 handles received four required searches: **52 required searches** across live
+state, all pending roots, and Families 1–17.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `viruses-smallest-infectious-agents-broad-host-range` · Q01 | `viruses smallest infectious agents`; `viruses infect man animals insects plants bacteria`; `virus broad host range`; `smallest infectious agent virus definition` | new; pending general-property records omit the tested host-range statement | none; Family-12 says only `very small`, so auxiliary delta |
+| `viruses-obligate-intracellular-parasites` · Q02 | `viruses obligate intracellular parasites`; `virus cannot replicate outside host cell`; `obligate intracellular virus definition`; `virus true property intracellular` | pending `CON-INF-1165F8B9564697`; exact property | none; Family-12's six-property composite is broader, so auxiliary delta |
+| `viral-capsomers-arrangement-determines-symmetry` · Q03 | `viral capsid capsomers arrangement symmetry`; `capsomers determine viral symmetry`; `capsid small protein subunits`; `viral capsid structure true` | new; pending `CON-INF-80960EC6FD48EC` states capsomer composition but not the tested arrangement-to-symmetry relation | none; auxiliary delta |
+| `viral-nucleic-acid-infectivity` · Q04 | `viral nucleic acid infectious part`; `coreless viral particles noninfectious`; `viral genome infectivity`; `virus nucleic acid responsible replication` | new | none; auxiliary delta |
+| `viral-envelope-glycoprotein-spikes` · Q05 | `viral envelope glycoprotein spikes`; `envelope spike like projections virus`; `viral glycoprotein peplomers`; `virus envelope surface proteins` | pending `CON-INF-62046515A155BD`; its label directly places attachment glycoproteins on the viral envelope | none; auxiliary delta |
+| `cell-culture-monolayer-definition` · Q06 | `cell culture monolayer definition`; `animal human tissue monolayer flat container`; `viral cell culture definition`; `tissue culture monolayer cells` | new | none; auxiliary delta |
+| `primary-versus-human-diploid-cell-line-origin` · Q07 | `primary cell line embryo fibroblast false`; `primary cell culture fresh tissue`; `human embryo fibroblasts diploid cell line`; `primary versus diploid cell line` | new | none; auxiliary delta |
+| `human-diploid-cell-line-finite-passages` · Q08 | `human diploid cell line 50 passages`; `diploid cell strain finite passages`; `WI-38 50 passages`; `human embryonic fibroblast cell line lifespan` | new | none; auxiliary delta |
+| `viral-attachment-specific-host-receptors` · Q09 | `viral attachment requires specific receptors`; `virus host cell receptor attachment`; `viral adsorption specific receptor`; `virus attachment receptor dependence` | pending `CON-INF-62046515A155BD`; exact receptor-dependent attachment scope | none; auxiliary delta |
+| `nonenveloped-virus-endocytosis-lysosomal-uncoating` · Q10 | `non enveloped virus endocytosis lysosomal uncoating`; `naked virion penetration endocytosis`; `viral entry nonenveloped endosome`; `lysosomal enzymes viral uncoating` | pending `CON-INF-F595E6CEC3AFD2`; its definition directly includes endocytic viral entry | none; Family-12's cycle sequence does not test this entry mechanism, so auxiliary delta |
+| `enveloped-virus-membrane-fusion-entry` · Q11 | `enveloped virus fusion cell membrane`; `viral envelope penetration fusion nucleocapsid`; `enveloped virion entry mechanism`; `membrane fusion virus entry` | pending `CON-INF-F595E6CEC3AFD2`; exact envelope-fusion scope | none; auxiliary delta |
+| `viral-eclipse-no-detectable-infectious-virus` · Q12 | `viral eclipse period no infectious virus detectable`; `eclipse phase after penetration virus`; `viral replication eclipse definition`; `no infectious virions inside cell eclipse` | new; pending cycle sequence names stages but does not define eclipse | none; auxiliary delta |
+| `latent-not-chronic-hidden-periodic-reactivation` · Q13,Q14 | `latent infection hidden periodic reactivation`; `chronic versus latent viral infection`; `virus persists occult reactivation`; `latent infection definition virus` | pending `CON-INF-4EC402ABB55946`; exact latent-infection definition | none; Family-12's pattern-classification list is broader, so auxiliary delta |
+
+### Family-18 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 18 auxiliary | Auxiliary cumulative (Families 12–18) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 14 | 79 | 765 | 844 |
+| Printed answer occurrences | 0 | 35 | 405 | 440 |
+| Visible unproven answer annotations | 14 | 44 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 0 | — | excluded from totals |
+| Retained question records | 14 | 79 | 552 | 631 |
+| Source-distinct tested concepts | 13 | 78 | — | — |
+| External live / pending / no same-scope match | 0 / 6 / 7 | — | — | family-local disposition |
+| Handles already represented in Families 1–17 | 0 | four auxiliary records reuse primary scope through Family 15 | — | subtract before concept addition |
+| Cross-family concept delta | +13 | +74 over primary | — | `372 + 74 = 446` |
+| **Distinct tested concepts** | **+13** | **74 auxiliary additions** | **372** | **446** |
+
+Family arithmetic is `0 + 6 + 7 = 13`. The primary assessment checkpoint remains
+`765 / 405 / 552 / 372`. The auxiliary cumulative becomes `65 + 14 = 79` prompts,
+`35 + 0 = 35` printed answers, `65 + 14 = 79` retained records, `65 + 13 = 78`
+source-distinct handles, and `61 + 13 = 74` concept additions over primary. The all-eligible
+inventory becomes `830 + 14 = 844` prompts, `440 + 0 = 440` printed answers,
+`617 + 14 = 631` retained records, and `433 + 13 = 446` concepts.
+
+### Exact next auxiliary screenshot debt
+
+The final timestamped screenshot fragment is single-image `src_28b252c04e1daed171e1` ·
+`2026-07-20 05.58.21.jpg`, visible as `Lec3 sterili...` slide 41 of 42 at 1280 × 768.
+Its repeated red ticks are checklist bullets beside every prompt, not answer marks; visible-only
+inventory must therefore treat the slide as unkeyed.
