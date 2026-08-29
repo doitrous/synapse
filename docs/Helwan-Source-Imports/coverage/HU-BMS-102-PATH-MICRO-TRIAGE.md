@@ -3512,3 +3512,97 @@ tier-6 `src_83d5b4ce25d71ae6747f` · `Bacterial cell physiology SEQ.pdf`, SHA-25
 under `Microbiology / Notes and Summaries`. Its first-page snippet exposes numbered written
 questions with immediate answer lists, so it requires a bounded all-page prompt, printed-answer,
 repeat/collapse, search, and prior-BMS review before any count is accepted.
+
+## Family 26 — tier-6 Bacterial cell physiology SEQ written study bank
+
+### Source identity, full-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_83d5b4ce25d71ae6747f` · `Bacterial cell physiology SEQ.pdf` |
+| SHA-256 / boundary | `83d5b4ce25d71ae6747f3a784cdd1ca8ddaac9be98726f244d470eda58cf2938` · three native-text A4 pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; no examiner, sitting, marks, or official-key metadata |
+| Visible provenance | Canva document headed `Bacterial cell physiology SEQ`; PDF title matches, creator/producer Canva |
+| Read boundary | native text inspected and all three pages rendered and visually read in full |
+
+This is a Helwan-local, low-authority written **study bank**, not an exam, recoverable sitting,
+departmental bank, or official answer source.  Pages 1–3 print seven numbered imperative or
+interrogative prompts, each followed immediately by a green answer list or explanatory block.
+All seven answer blocks are counted only as printed study-bank answers.  The source's wording
+(`mesosomes`, `Glycolytic cycle`, temperature ranges, and growth-curve descriptions) is retained
+as source evidence and is not silently corrected or promoted as verified medical fact.
+
+### Prompt, printed-answer, collapse, and placement ledger
+
+| Ref | Page | Source-first prompt assignment | Immediate printed answer block | Tested handle · placement |
+|---|---:|---|---|---|
+| F26-W01 | 1 | Steps of bacterial binary fission | Four-step elongation/chromosome, mesosome attachment, separation, and temporary-arrangement list | `bacterial-binary-fission-steps-and-arrangement` · `inf` |
+| F26-W02 | 1 | Mechanisms by which bacterial cells produce energy | Oxidation and sugar-breakdown explanations, including anaerobic lactic acid and aerobic Krebs-cycle text | `bacterial-energy-production-oxidation-and-sugar-breakdown` · `inf` |
+| F26-W03 | 2 | Differentiate autotrophs and heterotrophs | Side-by-side inorganic/light-or-oxidation versus organic nutrient/medical-importance comparison | `bacterial-autotroph-heterotroph-nutrition-comparison` · `inf` |
+| F26-W04 | 2 | Bacterial types by oxygen requirement | Five-class obligate-aerobe, obligate-anaerobe, facultative-anaerobe, aerotolerant, and microaerophile list | `bacterial-oxygen-requirement-categories` · `inf` |
+| F26-W05 | 3 | Importance of bacterial temperature for study | Pathogenic 25–40 °C/37 °C optimum and non-pathogenic below-20/above-55 °C statements | `bacterial-growth-temperature-ranges-and-optimum` · `inf` |
+| F26-W06 | 3 | Bacterial growth curve | Four printed lag, logarithmic, stationary, and decline phase descriptions | `bacterial-growth-curve-four-phase-descriptions` · `inf` |
+| F26-W07 | 3 | Define bacterial doubling time | Printed duplicate-time definition and 20-minute/24-hour range | `bacterial-doubling-time-definition-and-range` · `inf` |
+
+There are seven complete prompt occurrences, seven immediately paired printed study-bank answer
+blocks, no copy occurrence, and seven retained source records / tested handles.  No prompt is
+inferred from headings, decorative text, or the bacterial illustration.
+
+### Search-before-mint register and prior-BMS adjudication
+
+Each retained handle received four fresh required searches across live state and all pending import
+roots: **28 required searches**.  The literal search output did not surface a same-scope record,
+but required manual exact-scope follow-up found three pending concepts: autotroph/heterotroph
+nutrition `CON-INF-841FAB7F11BA18`, oxygen-requirement classes `CON-INF-D31966C6CEF85C`, and
+the four bacterial growth-curve phase definitions `CON-INF-6D56F46B5F1EF4`.  The family-level
+external disposition is therefore `0 live / 3 pending / 4 no same-scope match`.  Prior-BMS
+collapse is separate: the current full binary-fission *steps* remain distinct from Family-14's
+one-term reproduction-name prompt, but the full four-phase growth-curve explanation is exhausted
+by Family-14 Q03–Q06 and the doubling-time definition/range is an exact Family-14 Q02 match.
+
+| Handle · ref | Four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacterial-binary-fission-steps-and-arrangement` · W01 | `bacterial binary fission steps`; `bacterial chromosome duplication mesosome`; `binary fission daughter cell arrangement`; `bacterial reproduction binary fission` | new | distinct from Family-14 Q01, which asks only the name of the reproductive process |
+| `bacterial-energy-production-oxidation-and-sugar-breakdown` · W02 | `bacterial energy production oxidation sugar breakdown`; `bacterial oxidation hydrogen acceptor`; `bacterial fermentation pyruvic acid energy`; `bacterial aerobic anaerobic energy production` | new | none; delta |
+| `bacterial-autotroph-heterotroph-nutrition-comparison` · W03 | `bacterial autotroph heterotroph comparison`; `autotroph inorganic heterotroph organic bacteria`; `bacterial nutritional groups autotroph heterotroph`; `bacterial light inorganic oxidation metabolism` | pending `CON-INF-841FAB7F11BA18`; exact autotroph-versus-heterotroph nutrition scope | none; delta |
+| `bacterial-oxygen-requirement-categories` · W04 | `bacterial oxygen requirement categories`; `obligate facultative anaerobe microaerophile`; `aerotolerant anaerobe superoxide dismutase`; `bacterial oxygen classification` | pending `CON-INF-D31966C6CEF85C`; same oxygen-requirement classification scope, with the source additionally listing aerotolerant bacteria | broader five-category source scope is distinct from Family-14 Q07's obligate-aerobe-only prompt |
+| `bacterial-growth-temperature-ranges-and-optimum` · W05 | `bacterial growth temperature pathogenic 37`; `bacterial temperature range growth`; `nonpathogenic bacteria temperature below 20 above 55`; `optimum bacterial growth temperature` | new | none; delta |
+| `bacterial-growth-curve-four-phase-descriptions` · W06 | `bacterial growth curve four phases`; `lag log stationary decline bacterial growth`; `bacterial growth curve phase definitions`; `stationary decline phase bacteria` | pending `CON-INF-6D56F46B5F1EF4`; its definition explicitly covers lag, log, stationary, and decline phases | collapse to Family-14 Q03–Q06, which together test the same four printed phase descriptions |
+| `bacterial-doubling-time-definition-and-range` · W07 | `bacterial doubling time 20 minutes 24 hours`; `time bacteria double number`; `bacterial generation time definition`; `rapid slow growing bacteria doubling` | new externally | exact collapse to Family-14 Q02 |
+
+External arithmetic is `0 + 3 + 4 = 7`.  Prior-BMS arithmetic is `7 source handles - 2 accepted
+Family-14 overlaps = 5` concept additions.
+
+### Family-26 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 26 auxiliary | Auxiliary cumulative (Families 12–26) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 7 | 148 | 765 | 913 |
+| Printed study-bank answer occurrences | 7 | 92 | 405 | 497 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 7 | 145 | 552 | 697 |
+| Source-distinct tested handles | 7 | 144 | — | — |
+| External live / pending / no same-scope match | 0 / 3 / 4 | — | — | family-local disposition |
+| Handles already represented in Families 1–25 | 2 | 30 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +5 | +114 over primary | — | `372 + 114 = 486` |
+| **Distinct tested concepts** | **+5** | **114 auxiliary additions** | **372** | **486** |
+
+Family arithmetic is `7 observed - 0 copies = 7 retained`, `0 + 3 + 4 = 7`, and `7 - 2 = 5`
+concept additions.  The primary checkpoint remains **765 / 405 / 552 / 372**.  Auxiliary
+cumulative arithmetic is `141 + 7 = 148` observed, `85 + 7 = 92` printed answers, `138 + 7 =
+145` retained, `137 + 7 = 144` source handles, and `109 + 5 = 114` concepts over primary.  The
+all-eligible inventory becomes **913 / 497 / 697 / 486**.  This tier-6 study bank cannot raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 26
+
+`src_83d5b4ce25d71ae6747f` is exhausted across all three rendered pages: all seven complete
+written prompt/answer pairs are assigned once and no page remains to resume.  The next
+manifest-ordered local BMS-102 candidate is tier-6 `src_cbd8c1f138d11dc541a9` · `Bacterial
+genetics.pdf`, SHA-256 `cbd8c1f138d11dc541a9f60999383c2a04cb2fe6953c354750bbb24638886427`,
+four native-text pages under `Microbiology / Notes and Summaries`.  It requires a bounded
+all-page prompt, printed-answer, repeat/collapse, search, and prior-BMS review before any count
+is accepted.
