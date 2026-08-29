@@ -64,3 +64,16 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - The bounded continuation is the same source’s printed pp. 249–255: 105 raw prompts, 20
   exact repeated model-prompt occurrences, and 85 retained records before concept collapse
   and search. Tutorial 103 (pp. 256–262) remains excluded for LCS-103 review.
+
+## HU-LCS-103 anatomy S1 family checkpoint
+
+- Anatomy written EOM `src_c690a159f01583eedac8`, printed pp. 1–5, is triaged: 77 written
+  prompts, zero printed keys, and 59 tested-concept handles after 18 explicit source-level
+  semantic collapses.
+- The completed Family-1 register records 4 live, 11 scope-proven pending and 44 new
+  dispositions (59 handles; 236 required plus 10 abbreviation follow-up searches). It is
+  evidence only: no IDs, content, import or approval were created.
+- Continue the remaining actual-assessment sources, beginning `src_5423328a4798dba3c3be`
+  (75 raw MCQs with 75 apparent printed keys). Tutorial 103, printed pp. 256–262 in the
+  BMS-102 pathology-bank PDF, is LCS-103 evidence: 33 raw prompts (19 MCQ, 14
+  written/completion/table) and no visibly printed answer marks.
