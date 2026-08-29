@@ -2194,3 +2194,95 @@ At source-concept search level the results are **live 11 / pending 9 / new 9**. 
 **Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **77 selected inventory paths / 75 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `dac4204ccc435cfbbf578b4b4ac903a3148f37040478150b01f73f3c7de30ea3`.  By the pinned triage text classification, the remaining debt is **34 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `31 + 75 = 106` selected unique hashes.
 
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 77 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Anatomy + Embryology highlighted excerpt
+
+The asserted starting remaining-hash checksum `dac4204ccc435cfbbf578b4b4ac903a3148f37040478150b01f73f3c7de30ea3` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 75 hashes before this pass.  The next evidence-ranked substantive candidate is the single local `05 MCQs` excerpt below.  It has only the title `Fhb`, department headings, numbered MCQs and yellow-highlighted options; it supplies no university, exam sitting, date, marks or official-key claim.  It is therefore a local highlighted revision source, not an official paper or official key.
+
+| Department | Category | Source path | SHA-256 | Pages rendered/read | Complete visible prompts | Directly printed answers |
+|---|---|---|---|---:|---:|---:|
+| Anatomy / Embryology | `05 MCQs` | `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - Anatomy + Embryology MCQs.pdf` | `545c5a3a4537d35c2e8228f261dfb48f87ea216c6cc89c016c603d0062a2d916` | 7 | 40 | 40 yellow highlights |
+
+The source has one selected inventory path and no byte-identical path duplicate.  Its first
+40 visible prompts and options are, after whitespace normalisation, an exact ordered match to
+the Anatomy/Embryology prefix of accepted `FHB FINAL` hash
+`28d4f5ec3791a9e54c086fa7c77614bd1f575b04ce655f3d8fd287b6980a1c97`.
+This content duplication is handled below at the prompt/handle level; the different SHA remains
+an independently processed source.
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+Each named handle received four manual live-and-pending searches: the first two terms retain
+the accepted primary pair and the second two are disambiguating searches.  `Prior FHB` denotes
+the exact accepted `FHB FINAL` assignment, not a content ID or placement.
+
+| Printed prompt refs | Yellow-highlighted answer as shown | Source-distinct tested concept (four search terms) | Search and prior-FHB disposition |
+|---|---|---|---|
+| Anatomy 1 | `c) 12 pairs` | Cranial-nerve count (`cranial nerves`; `twelve cranial nerve pairs`; `cranial nerves 12 pairs`; `cranial nerve pairs`) | live-hit; exact prior-FHB assignment — duplicate. |
+| Anatomy 2, 18, 21 | `c) cornea`; `c. epidermis.`; `b. Cornea.` | Avascular cornea and epidermis (`avascular cornea`; `cornea blood vessels absent`; `epidermis avascular`; `avascular epidermis`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 3 | `d) The aorta is the main trunk of the arterial system` | Aorta as main arterial trunk (`main trunk arterial system`; `aorta arterial system`; `aorta main arterial trunk`; `arterial system aorta`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 4, 19 | `c) Has loose texture`; `c. External ear.` | Superficial-fascia texture and distribution (`superficial fascia loose`; `loose superficial fascia`; `external ear superficial fascia`; `superficial fascia distribution`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 5 | `d) A prime mover is responsible for initiation of the movement` | Prime mover / agonist (`prime mover muscle`; `agonist initiates movement`; `prime mover initiation`; `agonist muscle movement`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 6 | `a. Articulating bones are separated from each other by disc of fibrocartilage` | Cartilaginous-joint structure (`cartilaginous joint`; `fibrocartilage joint`; `cartilaginous joint disc`; `secondary cartilaginous joint`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| Anatomy 7, 14 | `b. A diaphysis.`; `a. Periosteum.` | Long-bone regions and periosteal growth in girth (`long bone periosteum girth`; `long bone growth width periosteum`; `diaphysis long bone`; `periosteal bone growth`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 8–9, 11–12 | `d. Circumduction is a multi-axial movement.`; `e. None of the above is correct.`; `d. Superficial.`; `d. Supination.` | Anatomical movements and directions (`supination circumduction`; `anatomical movements rotation`; `superficial anatomical term`; `pronation supination movement`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 10, 17 | `d. They contain motor units.`; `a. Number of its fibers.` | Motor units and determinants of muscle force (`motor unit force contraction`; `muscle force number fibers`; `skeletal muscle motor units`; `force contraction muscle fibres`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 13 | `b. Connective tissue.` | Connective tissue in wound repair (`connective tissue wound repair`; `tissue repair wounds`; `wound healing connective tissue`; `connective tissue repair`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 15 | `b. Synovial joints.` | Fibrous capsule of a synovial joint (`synovial joint capsule`; `fibrous capsule joint`; `synovial joint fibrous capsule`; `joint capsule synovial`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| Anatomy 16 | `A. Origin` | Fixed muscle end as origin (`muscle origin insertion`; `fixed end muscle origin`; `origin fixed muscle end`; `muscle attachment origin`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 20 | `b. Arterioles.` | Arterioles as resistance vessels in hypertension (`arterioles hypertension`; `resistance vessels hypertension`; `arteriolar resistance blood pressure`; `arterioles blood pressure`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 22 | `c. Brain.` | Absence of conventional lymph vessels in brain (`brain lymph vessels`; `brain lymphatics absent`; `central nervous system lymphatics`; `conventional lymph vessels brain`) | new externally; exact prior-FHB assignment — duplicate. |
+| Anatomy 23–24 | `b. Ganglion.`; `c. Spinal ganglion.` | Peripheral ganglia and the spinal ganglion (`spinal ganglion`; `nerve cells outside CNS ganglion`; `peripheral ganglion`; `sensory spinal ganglion`) | new externally; Q24's terse stem and highlighted `Spinal ganglion` are preserved; exact prior-FHB assignment — duplicate. |
+| Anatomy 25 | `c. End arteries.` | End arteries lack neighbouring anastomoses (`end arteries`; `arteries no anastomosis`; `end artery anastomosis`; `anatomical end artery`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 1 | `c- It about 50 cm at full term` | Umbilical-cord length at term (`umbilical cord length`; `fifty centimetres cord`; `umbilical cord 50 cm`; `full term umbilical cord`) | new externally; exact prior-FHB assignment — duplicate. |
+| Embryology 2 | `d- Gives the fetal part of the placenta` | Amnion and fetal-membrane function (`amnion fetal movements`; `fetal membranes function`; `amnion function`; `amnion placenta`) | new externally; medically questionable highlighted fetal-placenta option preserved; exact prior-FHB assignment — duplicate. |
+| Embryology 3 | `a- The placental membrane is formed of 4 layers` | Placental-membrane layers (`placental membrane`; `placental membrane layers`; `four layers placental barrier`; `placental barrier structure`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 4 | `a- It is discoid in shape` | Full-term placental gross form (`full term placenta`; `placenta discoid shape`; `full term placenta gross`; `placenta shape`) | new externally; exact prior-FHB assignment — duplicate. |
+| Embryology 5 | `a- The maternal side of the placenta is divided into about 20 cotyledons` | Maternal placental cotyledons (`placenta cotyledons`; `maternal placenta lobules`; `maternal placental cotyledons`; `twenty cotyledons placenta`) | new externally; exact prior-FHB assignment — duplicate. |
+| Embryology 6–7 | `b- The sclerotome`; `a- The somites` | Somites from paraxial mesoderm and sclerotome (`paraxial mesoderm`; `somites`; `somite sclerotome`; `paraxial mesoderm somites`) | live-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 8–9 | `c- The nerve ganglia`; `a- The neural tube and neural crest` | Neural-crest and neuroectoderm derivatives (`neural crest`; `nerve ganglia embryo`; `neuroectoderm derivatives`; `neural tube neural crest`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 10 | `b) All the three germ layers` | Epiblast as source of three germ layers (`three germ layers`; `epiblast`; `epiblast germ layers`; `gastrulation epiblast`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 11 | `d. The embryo becomes cylindrical` | Embryonic folding and cylindrical body form (`embryonic folding`; `embryo cylindrical folding`; `body folding embryo`; `cylindrical embryo`) | live-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 12–13 | `b. is the primordial axis of the embryo`; `a. Leads to the development of notochord` | Notochord and primitive-streak relationship (`primitive streak`; `notochord development`; `notochord primordial axis`; `primitive streak notochord`) | live-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 14 | `a. is the embedding of the blastocyst into the endometrium of the uterus` | Implantation definition (`implantation`; `blastocyst endometrium`; `implantation definition`; `blastocyst embeds endometrium`) | live-hit; exact prior-FHB assignment — duplicate. |
+| Embryology 15 | `c. It is the process where the male and female gametes fuse` | Fertilisation definition (`fertilization`; `gamete fusion`; `fertilization definition`; `male female gametes fuse`) | live-hit; exact prior-FHB assignment — duplicate. |
+
+Page-level prompt arithmetic is General Anatomy `6 + 7 + 6 + 6 = 25` and Embryology
+`5 + 7 + 3 = 15`, yielding **40 complete visible prompts**.  Every one has exactly one
+yellow-highlighted option, yielding **40 directly printed answer occurrences**.  The text layer
+also exposes Histology Q16–17 below the final visible Embryology content, but those two items are
+clipped outside the rendered page and have no recoverable visible highlights; they are recorded
+as excluded text-layer residue and create neither prompts nor keys.
+
+The 28 named assignment/search rows reconcile one-to-one.  Source-first collapses are Anatomy
+2/18/21, 4/19, 7/14, 8–9/11–12, 10/17 and 23–24; Embryology 6–7, 8–9 and 12–13.  Current
+four-query source disposition is **6 live / 6 pending / 16 new**.  Every handle exactly reuses
+the already accepted `FHB FINAL` assignment, so prior-FHB deduplication leaves **0 live / 0
+pending / 0 new** and zero cumulative concept delta.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including Anatomy + Embryology highlighted excerpt) | 1248 | 983 | 313 | 64 | 71 | 178 | TBD |
+
+**Completed-source delta:** `+40` question occurrences, `+40` printed highlighted answers,
+`+28` source-distinct handles and `+0` after exact prior-FHB deduplication.  The cumulative
+search buckets remain `64 + 71 + 178 = 313`; no module ID, content record, placement, source
+or catalogue entry was created.
+
+## Remaining sources / blocker — after Anatomy + Embryology highlighted excerpt
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique
+hash leaves **76 selected inventory paths / 74 unique SHA-256s**.  Their sorted,
+newline-joined hash set (no trailing newline) checksum is
+`f6d8fad4b30e00426937139fd08c4956e28d8332d1f9cc188ff49c291bcbcfd4`.
+By the pinned triage text classification, the remaining debt is **33 substantive-text, six
+sparse-text and 37 empty-text** rows.  The processed/remaining hash accounting is
+`32 + 74 = 106` selected unique hashes.  The next evidence-ranked substantive candidate is the
+seven-page Anatomy `MCQs - Embryology.pdf`
+(`140d0fd692d7c58f752faf2b50169a3c006d42e1becc93641532b0f8e92cdef7`).
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the
+remaining 76 selected source paths still require complete printed-question/key and
+source-supported concept triage before approval.
