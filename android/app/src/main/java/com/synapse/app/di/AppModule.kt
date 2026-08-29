@@ -19,6 +19,7 @@ import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.cache.room.RoomLocalStore
 import com.synapse.app.core.cache.room.SynapseDatabase
 import com.synapse.app.core.config.AppConfig
+import com.synapse.app.core.media.MediaCache
 import com.synapse.app.core.sync.STUDENT_READABLE_KEYS
 import com.synapse.app.core.sync.SyncEngine
 import com.synapse.app.design.ThemePreference
@@ -27,8 +28,16 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import kotlinx.serialization.json.Json
 import okhttp3.OkHttpClient
+import java.io.File
+import javax.inject.Qualifier
 import javax.inject.Singleton
+
+/** Distinguishes the per-device QBank offline-pins [DataStore] from [ThemePreference]'s. */
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class QBankPinsDataStore
 
 /**
  * The app's Hilt object graph. Breaks the api/auth cycle deliberately: the
@@ -90,6 +99,25 @@ object AppModule {
     @Singleton
     fun provideQBankApi(config: AppConfig, authBackend: AuthBackend): QBankApi =
         RetrofitQBankApi(config, authBackend::accessToken)
+
+    @Provides
+    @Singleton
+    fun provideJson(): Json = Json { ignoreUnknownKeys = true }
+
+    @Provides
+    @Singleton
+    fun provideMediaCache(@ApplicationContext context: Context, api: QBankApi): MediaCache {
+        val cacheDir = File(context.filesDir, "qbank-media").apply { mkdirs() }
+        return MediaCache(cacheDir, api)
+    }
+
+    @Provides
+    @Singleton
+    @QBankPinsDataStore
+    fun provideQBankPinsDataStore(@ApplicationContext context: Context): DataStore<Preferences> =
+        PreferenceDataStoreFactory.create(
+            produceFile = { context.preferencesDataStoreFile("qbank-pins") }
+        )
 
     @Provides
     @Singleton

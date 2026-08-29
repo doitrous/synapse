@@ -10,8 +10,10 @@ import retrofit2.HttpException
 import retrofit2.Retrofit
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import retrofit2.http.Body
+import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.POST
+import retrofit2.http.Path
 import java.io.IOException
 
 /** One attempt as submitted for server-side re-grading/verification. */
@@ -32,6 +34,9 @@ data class VerifiedAttemptsBody(val attempts: List<VerifiedAttempt>)
 
 interface QBankApi {
     suspend fun postAttempts(body: VerifiedAttemptsBody)
+
+    /** Raw bytes for one media asset, by its (already sha-derived) id. Caller closes the body. */
+    suspend fun getMedia(id: String): ResponseBody
 }
 
 /**
@@ -78,8 +83,13 @@ class RetrofitQBankApi(
         call { service.postAttempts(bearer(), body).close() }
     }
 
+    override suspend fun getMedia(id: String): ResponseBody = call { service.getMedia(bearer(), id) }
+
     private interface Service {
         @POST("qbank/attempts")
         suspend fun postAttempts(@Header("Authorization") auth: String, @Body body: VerifiedAttemptsBody): ResponseBody
+
+        @GET("media/{id}")
+        suspend fun getMedia(@Header("Authorization") auth: String, @Path("id") id: String): ResponseBody
     }
 }
