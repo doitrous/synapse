@@ -1,8 +1,33 @@
 import initSqlJs, { type Database, type SqlJsStatic } from 'sql.js'
-import { existsSync } from 'node:fs'
-import { fileURLToPath } from 'node:url'
 
 let cached: Promise<SqlJsStatic> | null = null
+
+/**
+ * Minimal shapes of the two Node builtins we need at runtime under Node
+ * (tests, scripts) but must never reference statically: this module ships in
+ * the browser bundle, checked against a browser-only tsconfig that carries no
+ * `@types/node` at all (`types: ["vite/client"]`). TypeScript special-cases
+ * `node:*` specifiers — even a literal `import('node:fs')` inside a dynamic
+ * `import()`, or a `declare module 'node:fs'` augmentation, gets rejected
+ * ("cannot be found... install @types/node") because that program has no
+ * Node types to resolve or augment. Passing the specifier through a plain
+ * string parameter (see `importNode` below) keeps it a runtime-only value:
+ * TypeScript never tries to resolve a non-literal specifier, so it types the
+ * dynamic import as `Promise<any>` and we cast it to the shape we need here.
+ */
+interface NodeUrlModule {
+  fileURLToPath(url: URL | string): string
+}
+interface NodeFsModule {
+  existsSync(path: string): boolean
+}
+interface NodeProcessModule {
+  cwd(): string
+}
+
+async function importNode<T>(specifier: string): Promise<T> {
+  return (await import(specifier)) as T
+}
 
 /**
  * Resolve the sql.js wasm file on disk when running under Node (tests, SSR,
@@ -13,32 +38,39 @@ let cached: Promise<SqlJsStatic> | null = null
  *
  * Primary resolution is relative to this module's own location (works no
  * matter the process cwd); if that doesn't exist on disk for some reason, we
- * fall back to resolving from `process.cwd()`.
+ * fall back to resolving from the current working directory.
  */
-function locateNodeWasm(file: string): string {
+async function locateNodeWasm(file: string): Promise<string> {
+  const { fileURLToPath } = await importNode<NodeUrlModule>('node:url')
+  const { existsSync } = await importNode<NodeFsModule>('node:fs')
+
   const viaModuleUrl = fileURLToPath(
     new URL(`../../../node_modules/sql.js/dist/${file}`, import.meta.url),
   )
   if (existsSync(viaModuleUrl)) return viaModuleUrl
 
-  const viaCwd = fileURLToPath(
-    new URL(`node_modules/sql.js/dist/${file}`, `file://${process.cwd()}/`),
-  )
-  return viaCwd
+  const { cwd } = await importNode<NodeProcessModule>('node:process')
+  return fileURLToPath(new URL(`node_modules/sql.js/dist/${file}`, `file://${cwd()}/`))
 }
 
 /**
  * Load sql.js once and cache the promise. In the browser the wasm is served
  * from `/sql-wasm.wasm` (vendored into `public/`, no CDN fetch — CSP-safe).
  * Under Node (e.g. `node --test`) `locateFile` resolves the wasm file from
- * `node_modules/sql.js/dist/` on disk.
+ * `node_modules/sql.js/dist/` on disk. The Node-only resolution happens once,
+ * before `initSqlJs` is called, so the `locateFile` callback itself stays a
+ * plain synchronous function (sql.js does not await it).
  */
 export function loadSqlJs(): Promise<SqlJsStatic> {
   if (!cached) {
-    cached = initSqlJs({
-      locateFile: (file: string) =>
-        typeof window === 'undefined' ? locateNodeWasm(file) : `/${file}`,
-    })
+    cached = (async () => {
+      const wasmPath =
+        typeof window === 'undefined' ? await locateNodeWasm('sql-wasm.wasm') : undefined
+
+      return initSqlJs({
+        locateFile: (file: string) => wasmPath ?? `/${file}`,
+      })
+    })()
   }
   return cached
 }
