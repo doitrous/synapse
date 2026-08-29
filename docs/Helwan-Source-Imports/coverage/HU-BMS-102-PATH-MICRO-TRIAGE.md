@@ -1263,3 +1263,154 @@ and `237 + (39 - 9) = 267` distinct tested concepts.
   assessment evidence remain S1 debt.
 - Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
   readiness, claim, download, commit, or push action is authorised in this lane.
+
+## Family 7 — pathology infection MCQ bank
+
+### Source identity, classification, and read boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_f4017e73dcc32d5e9934` |
+| Manifest SHA-256 | `f4017e73dcc32d5e993414b160127e0bcd8bd569f3f7005c0dd835f630fa07ac` |
+| Recomputed SHA-256 | `f4017e73dcc32d5e993414b160127e0bcd8bd569f3f7005c0dd835f630fa07ac` |
+| File | `MCQs - INFECTION MCQs.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · Questions/MCQs · tier 3 |
+| Container and family boundary | seven native-text A4 pages; all seven pages are this bounded family |
+| Read method | native text extracted for transcription and all seven pages rendered at 150 dpi and visually checked |
+
+This is **pathology assessment evidence**, not a microbiology-bank family. Organisms and
+microbiological terms appear in the options, but the tested scopes are pathology of
+infection and haematogenous spread, septicaemia/toxaemia, granulomatous morphology,
+tuberculosis tissue reactions, actinomycosis pathology, and bilharzial carcinogenesis.
+There are no laboratory-identification, culture, staining, antimicrobial, or other
+microbiology-method prompts.
+
+### Prompt, printed-key, repeat, and collapse ledger
+
+The source has 34 numbered MCQs and 34 visibly printed single-letter keys. There is no
+missing numbered prompt, unnumbered prompt, orphaned key, answer section, or key inferred
+from medical knowledge. The printed sequence is `1 B; 2 A; 3 A; 4 B; 5 B; 6 A; 7 C;
+8 C; 9 C; 10 B; 11 E; 12 B; 13 B; 14 C; 15 D; 16 D; 17 C; 18 A; 19 C; 20 B;
+21 D; 22 D; 23 B; 24 D; 25 E; 26 C; 27 D; 28 D; 29 B; 30 C; 31 C; 32 A;
+33 A; 34 E`.
+
+Questionable source keys are preserved, not repaired. Q10 prints `B` while also listing
+leukopenia among septicaemia features. Q13 and Q23 print delayed hypersensitivity as the
+sole pathogenicity answer even though intracellular survival is also relevant. Q33's
+vague `Ghon's focus consists of TB reaction` prints `A`. These remain source facts only.
+
+| Ref | Source-first prompt assignment | Printed key | Wording / tested-handle assignment |
+|---|---|---|---|
+| F7-Q01 | Systemic-venous septic emboli lodging in lung capillaries | B | retain → `pulmonary-pyemia-systemic-venous-septic-emboli` |
+| F7-Q02 | Best definition of infection | A | retain → `infection-pathogenic-microorganism-invasion-definition` |
+| F7-Q03 | Meaning of toxaemia | A | retain → `toxemia-bacterial-toxins-in-blood-definition` |
+| F7-Q04 | Exception among effects of acute toxaemia | B | retain → `acute-toxemia-pathologic-effects` |
+| F7-Q05 | Small nonmultiplying bacterial load in blood without toxicity | B | retain → `bacteremia-small-nonmultiplying-bacterial-circulation` |
+| F7-Q06 | Tooth extraction as an association of bacteraemia | A | retain; collapse to Q05 |
+| F7-Q07 | Virulent bacteria and toxins multiplying in blood | C | retain → `septicemia-bacteria-toxin-multiplication-blood-definition` |
+| F7-Q08 | True pathological feature of septicaemia | C | retain → `septicemia-pathologic-features-acute-spleen` |
+| F7-Q09 | Acute dark, fluid splenic pulp association | C | retain; collapse to Q08 |
+| F7-Q10 | Exception among pathological features of septicaemia | B | retain; collapse to Q08; questionable key preserved |
+| F7-Q11 | Septic emboli causing multiple organ abscesses | E | retain → `pyemia-septic-emboli-multiple-abscesses` |
+| F7-Q12 | HIV, fever, sweats, haemoptysis and caseous sputum diagnosis | B | retain → `pulmonary-tuberculosis-hiv-caseous-hemoptysis-diagnosis` |
+| F7-Q13 | Pathogenicity of tubercle bacillus, five-option form | B | retain → `tuberculosis-pathogenicity-delayed-hypersensitivity`; questionable key preserved |
+| F7-Q14 | Cellular origin of epithelioid cell: histiocyte wording | C | retain → `epithelioid-cell-macrophage-histiocyte-origin` |
+| F7-Q15 | Cellular origin of epithelioid cell: macrophage wording | D | retain; collapse to Q14 |
+| F7-Q16 | Organ in which bilharziasis is precancerous | D | retain → `schistosomiasis-bladder-cancer-association` |
+| F7-Q17 | Organism causing suppurative granulomatous infection | C | retain → `actinomycosis-suppurative-granulomatous-infection` |
+| F7-Q18 | Most common site of actinomycosis | A | retain → `actinomycosis-cervicofacial-common-site` |
+| F7-Q19 | Granuloma in which sulphur granules occur | C | retain → `actinomycosis-sulfur-granules` |
+| F7-Q20 | Meaning of primary tuberculosis | B | retain → `primary-tuberculosis-no-prior-infection-definition` |
+| F7-Q21 | Listed organ affected by primary tuberculosis | D | retain → `primary-tuberculosis-organ-sites-intestine-kidney-exception` |
+| F7-Q22 | Exception among sites of primary tuberculosis | D | retain; collapse to Q21 |
+| F7-Q23 | Pathogenicity of tubercle bacillus, four-option form | B | retain; changed option set, not an exact wording repeat; collapse to Q13 |
+| F7-Q24 | Disease associated with a caseating granuloma | D | retain → `tuberculosis-caseating-granuloma-necrosis` |
+| F7-Q25 | Exception among TB-granuloma components | E | retain → `tuberculous-granuloma-tubercle-components` |
+| F7-Q26 | Exception among tubercle components | C | retain; collapse to Q25 |
+| F7-Q27 | Exception among primary pulmonary-TB features | D | retain → `primary-pulmonary-tuberculosis-complex-features-apical-cavity-exception` |
+| F7-Q28 | Necrosis type characteristic of TB | D | retain; collapse to Q24 |
+| F7-Q29 | Cause of caseous necrosis in TB | B | retain → `tuberculosis-caseous-necrosis-hypersensitivity-mechanism` |
+| F7-Q30 | Mechanism for extensive destruction and little node involvement in secondary TB | C | retain → `secondary-tuberculosis-extensive-hypersensitivity-little-nodes` |
+| F7-Q31 | Route producing miliary TB | C | retain → `miliary-tuberculosis-hematogenous-spread` |
+| F7-Q32 | Exception among components of the primary complex | A | retain → `primary-tuberculosis-complex-components` |
+| F7-Q33 | Reaction comprising Ghon's focus | A | retain → `ghon-focus-tuberculous-reaction`; vague key preserved |
+| F7-Q34 | True statement about childhood pulmonary TB | E | retain → `childhood-pulmonary-tuberculosis-primary-complex` |
+
+There are **zero exact wording repeats**. Q13 and Q23 share the same stem but not the
+same option set, so both remain question records. Seven explicit tested-scope groups
+collapse Q05+Q06, Q08+Q09+Q10, Q13+Q23, Q14+Q15, Q21+Q22, Q24+Q28, and
+Q25+Q26. Those groups produce eight reductions: `34 retained - 8 = 26`
+source-distinct tested handles. Assignment is one-to-one: `34 retained + 0 repeats = 34`
+observed occurrences.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 26 handles received four required searches (distinctive wording, alias,
+synonym, and mechanism/structure): **104 required searches** across live state, pending
+import roots, and Families 1–6 of this ledger. Follow-ups inspected the underlying live
+concept and evidence spans for bacteraemia, toxaemia, TB hypersensitivity, epithelioid
+cells, secondary pulmonary TB, and actinomycosis, plus pending caseation, infection,
+bilharzial bladder cancer, miliary TB, Ghon focus, and primary-complex records. Evidence
+text attached to a different live concept was not promoted into a same-scope concept.
+
+| Handle · retained refs | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `pulmonary-pyemia-systemic-venous-septic-emboli` · Q01 | `pulmonary pyemia systemic venous septic emboli`; `pulmonary pyaemia definition`; `septic emboli lung capillaries`; `venous pyemic emboli lung` | new; general infection-spread and pyaemia records do not classify this pulmonary subtype | delta; narrower than F1 `pyaemia-definition` |
+| `infection-pathogenic-microorganism-invasion-definition` · Q02 | `infection invasion pathogenic microorganism definition`; `infection definition pathology`; `pathogen invades body tissues`; `microbial invasion host definition` | new; pending host-relationship material classifies parasitism/commensalism and HAI, not the general invasion definition | delta |
+| `toxemia-bacterial-toxins-in-blood-definition` · Q03 | `toxemia bacterial toxins blood definition`; `toxaemia definition`; `circulating bacterial toxin without bacteria`; `bacterial toxin bloodstream` | new; a toxaemia sentence occurs only inside evidence attached to the live bacteraemia concept, not as a live/pending same-scope record | delta |
+| `acute-toxemia-pathologic-effects` · Q04 | `acute toxemia pathologic effects`; `acute toxaemia kidney myocardium liver`; `toxic myocarditis fatty change focal necrosis`; `reactive amyloidosis chronic toxin exception` | new | delta |
+| `bacteremia-small-nonmultiplying-bacterial-circulation` · Q05,Q06 | `bacteremia small number bacteria blood no multiplication`; `bacteraemia definition tooth extraction`; `transient bacteremia dental extraction`; `bacteria circulation without toxemia` | live `CON-INF-58732B86935585`; it directly defines low-dose/low-virulence organisms circulating in blood and its evidence covers the source scope | delta |
+| `septicemia-bacteria-toxin-multiplication-blood-definition` · Q07 | `septicemia bacteria multiply toxins blood definition`; `septicaemia definition pathology`; `virulent bacteria bloodstream multiplication`; `bacterial proliferation toxemia sepsis` | new; organism-specific neonatal septicaemia and septic-shock records do not define septicaemia | delta |
+| `septicemia-pathologic-features-acute-spleen` · Q08,Q09,Q10 | `septicemia pathological features acute splenomegaly`; `dark fluid splenic pulp septicemia`; `adrenal hemorrhage petechiae leukopenia septicemia`; `subacute endocarditis septicemia exception` | new | delta |
+| `pyemia-septic-emboli-multiple-abscesses` · Q11 | `pyemia septic emboli multiple abscesses`; `pyaemia definition pathology`; `septic embolic abscess organs`; `circulating infected emboli capillaries` | new externally | collapse to F1 `pyaemia-definition` |
+| `pulmonary-tuberculosis-hiv-caseous-hemoptysis-diagnosis` · Q12 | `pulmonary tuberculosis HIV caseous hemoptysis`; `night sweats blood stained caseous sputum TB`; `immunocompromised pulmonary TB diagnosis`; `tuberculous cough caseous material` | new; the live fibrocaseous-TB complication record supports haemoptysis only, not this HIV clinical-diagnosis set | delta |
+| `tuberculosis-pathogenicity-delayed-hypersensitivity` · Q13,Q23 | `tuberculosis pathogenicity delayed hypersensitivity`; `tubercle bacillus type four reaction`; `TB tissue injury cell mediated hypersensitivity`; `mycobacterium virulence hypersensitivity` | live `CON-INF-2383B7D853A480`; it directly states cell-mediated hypersensitivity and TB tissue necrosis | delta |
+| `epithelioid-cell-macrophage-histiocyte-origin` · Q14,Q15 | `epithelioid cell transformed macrophage histiocyte`; `epithelioid cells origin granuloma`; `activated macrophage epithelial appearance`; `histiocyte to epithelioid cell` | live `CON-INF-8658F6CDBBB685`; its evidence explicitly says activated macrophages become epithelioid histiocytes | delta |
+| `schistosomiasis-bladder-cancer-association` · Q16 | `schistosomiasis bladder cancer association`; `bilharziasis precancerous bladder`; `Schistosoma haematobium squamous carcinoma`; `urinary schistosomiasis malignancy` | new; bladder-carcinoma material does not state the schistosomal association | delta |
+| `actinomycosis-suppurative-granulomatous-infection` · Q17 | `actinomycosis suppurative granulomatous infection`; `suppurative granuloma infectious disease`; `actinomycotic abscess granuloma`; `chronic pyogranulomatous actinomycosis` | live `CON-INF-E5F0904F30665E`; the concept states granulomatous infection and its direct evidence states multiple abscesses and pus | delta; F1's exception prompt is broader and not this classification proposition |
+| `actinomycosis-cervicofacial-common-site` · Q18 | `actinomycosis cervicofacial common site`; `cervicofacial actinomycosis most common`; `lumpy jaw actinomyces`; `actinomycosis anatomic distribution` | live `CON-INF-C9F6C2E233F44E`; its direct evidence gives cervicofacial disease as 60% | delta |
+| `actinomycosis-sulfur-granules` · Q19 | `actinomycosis sulfur granules`; `actinomycotic sulphur granule`; `branching bacteria granules pus`; `sulfur granule granuloma` | live `CON-INF-E5F0904F30665E` | delta; F1's multi-feature exception is not this atomic association |
+| `primary-tuberculosis-no-prior-infection-definition` · Q20 | `primary tuberculosis no prior infection definition`; `primary TB first exposure`; `previously uninfected host tuberculosis`; `primary versus reinfection TB` | new; available primary/secondary and intestinal-complex records do not state the first-infection definition | delta; related but narrower than F2 `primary-secondary-tuberculosis` |
+| `primary-tuberculosis-organ-sites-intestine-kidney-exception` · Q21,Q22 | `primary tuberculosis organ sites intestine kidney exception`; `primary TB intestinal focus tonsil skin`; `sites of primary tuberculosis`; `extrapulmonary primary TB site` | new externally; the live intestinal-complex record is one organ-specific complex, not the tested site set | collapse to F2 `primary-tb-organ-site` |
+| `tuberculosis-caseating-granuloma-necrosis` · Q24,Q28 | `tuberculosis caseating granuloma necrosis`; `caseation necrosis characteristic TB`; `caseous granuloma diagnosis`; `tuberculous necrosis type` | pending `CON-FND-5B3B6BA12670C7`; it directly defines caseation as the cheese-like necrosis occurring mainly in TB | delta; related to, but more atomic than, F2 `tubercle-morphology` |
+| `tuberculous-granuloma-tubercle-components` · Q25,Q26 | `tuberculous granuloma tubercle components`; `epithelioid Langhans lymphocytes caseation`; `TB granuloma Mikulicz eosinophil exception`; `tubercle morphology cellular composition` | new; the live epithelioid/giant-cell record omits the complete component-and-exception scope | collapse to F2 `tubercle-morphology` |
+| `primary-pulmonary-tuberculosis-complex-features-apical-cavity-exception` · Q27 | `primary pulmonary tuberculosis features apical cavity exception`; `primary TB Ghon focus lymphangitis hilar nodes`; `childhood pulmonary TB subpleural granuloma`; `primary versus secondary apical cavitation` | new; live secondary-apical and intestinal-primary-complex records do not provide this pulmonary primary-feature set | delta; F2 comparison is a broader parent prompt |
+| `tuberculosis-caseous-necrosis-hypersensitivity-mechanism` · Q29 | `tuberculosis caseous necrosis hypersensitivity mechanism`; `caseation caused by delayed hypersensitivity`; `TB necrosis immune mediated`; `type four reaction caseous necrosis` | live `CON-INF-2383B7D853A480`; it directly joins cell-mediated hypersensitivity to TB tissue necrosis | delta |
+| `secondary-tuberculosis-extensive-hypersensitivity-little-nodes` · Q30 | `secondary tuberculosis extensive hypersensitivity little lymph nodes`; `postprimary TB tissue destruction lymphadenopathy`; `reactivation tuberculosis hypersensitivity reaction`; `secondary TB cavitation immune injury` | new; live `CON-INF-960322B18A55D8` covers apical origin and immunity-dependent course, not extensive hypersensitivity with scant node involvement | delta; the exact proposition is not stated by F2's broad comparison prompt |
+| `miliary-tuberculosis-hematogenous-spread` · Q31 | `miliary tuberculosis hematogenous spread`; `miliary TB blood dissemination`; `tubercle bacilli bloodstream millet lesions`; `disseminated TB route` | new; generic infection-spread records do not state miliary TB | delta; F2 `primary-tb-dissemination` is expressly primary-TB complication scope |
+| `primary-tuberculosis-complex-components` · Q32 | `primary tuberculosis complex components`; `Ghon focus lymphangitis lymphadenitis`; `primary complex excludes bacteremia`; `tuberculosis primary complex definition` | new; live `CON-INF-89928D37B49595` is specifically the intestinal primary complex and cannot stand for the pulmonary/Ghon complex | delta |
+| `ghon-focus-tuberculous-reaction` · Q33 | `Ghon focus tuberculous reaction`; `Ghon focus definition`; `subpleural primary TB lesion`; `primary pulmonary focus histology` | new; no same-scope Ghon-focus record | delta |
+| `childhood-pulmonary-tuberculosis-primary-complex` · Q34 | `childhood pulmonary tuberculosis primary complex`; `childhood type TB primary complex`; `pediatric primary pulmonary TB`; `primary versus secondary childhood tuberculosis` | new; no same-scope childhood-primary-complex record | delta |
+
+### Family-7 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 7 | Cumulative after Family 7 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 34 | 576 |
+| Printed key occurrences | 34 | 225 |
+| Retained question records after exact-wording dedupe | 34 | 381 |
+| Source-distinct tested concepts | 26 | — |
+| External live / pending / no same-scope match | 7 / 1 / 18 | family-local disposition |
+| Family-7 handles already represented in Families 1–6 | 3 | subtract from Family-7 concept addition |
+| Cross-family concept delta | 23 | `26 - 3 = 23` |
+| **Cumulative distinct tested concepts** | **+23** | **290** |
+
+External arithmetic is `7 + 1 + 18 = 26`. The three prior-BMS-102 overlaps are Family-1
+`pyaemia-definition` and Family-2 `primary-tb-organ-site` and `tubercle-morphology`.
+External and prior-family dispositions are separate dimensions. Cumulative arithmetic is
+`542 + 34 = 576` observed prompt occurrences, `191 + 34 = 225` printed key occurrences,
+`347 + 34 = 381` retained question records, and `267 + (26 - 3) = 290` distinct
+tested concepts.
+
+### Exact remaining debt after Family 7
+
+- `src_f4017e73dcc32d5e9934` is fully bounded: all seven native/rendered pages, 34
+  numbered prompts, 34 printed keys, zero exact repeats, 34 retained records, and 26
+  tested handles have a one-to-one assignment and search row.
+- The next evidence-ranked local pathology question family is tier-3
+  `src_6050cec97addd49101a3` · `MCQs - Inflammation MCQ.pdf` (12 pages). It must be
+  rendered and adjudicated source-first before lower-ranked pathology material.
+- Other remaining pathology revision/assessment banks and all BMS-102 microbiology
+  assessment evidence remain S1 debt.
+- Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
+  readiness, claim, download, commit, or push action is authorised in this lane.

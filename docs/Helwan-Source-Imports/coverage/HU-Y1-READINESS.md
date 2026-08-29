@@ -108,8 +108,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - Family 6 records 0 live, 19 scope-proven pending and 20 no-same-scope external results
   across 39 handles. Nine overlaps yield a +30 concept delta and a cumulative BMS-102
   pathology checkpoint of 542 observed prompts, 191 printed key occurrences, 347 retained
-  records and 267 distinct concepts. The next source is Infection MCQs
-  `src_f4017e73dcc32d5e9934`; other pathology/microbiology sources remain S1 debt.
+  records and 267 distinct concepts.
+- Infection MCQs `src_f4017e73dcc32d5e9934` add 34 visibly keyed MCQs with no exact wording
+  repeats and 26 tested handles (7 live / 1 pending / 18 new). Three exact prior-family
+  relations—pyaemia, primary-TB site and tubercle morphology—produce a +23 concept delta;
+  BMS-102 pathology now totals 576 observed prompts, 225 printed key occurrences, 381 retained
+  records and 290 distinct concepts. Q10, Q13/Q23 and Q33 keep their questionable printed keys
+  as source evidence. The next source is Inflammation MCQs `src_6050cec97addd49101a3`; other
+  pathology/microbiology sources remain S1 debt.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
