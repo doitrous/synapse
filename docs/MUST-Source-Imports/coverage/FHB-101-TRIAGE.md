@@ -2805,3 +2805,84 @@ questions`**, beginning with `I- Embryologic derivatives of the ectoderm include
 parts`. The nine p. 33 written prompts and their nine matching p. 34 answer blocks remain
 outside completed-source totals until their source-level collapse, four searches per handle,
 and prior-FHB adjudication are recorded.
+
+## Final continuation — General Embryology Short Essay questions
+
+Source pages 33–34 complete the same 34-page student-authored General Embryology revision
+bank at exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`. Page 33 visibly
+prints **nine complete enumerate prompts**: the ectoderm three-part umbrella plus its surface-
+ectoderm, neural-tube and neural-crest subprompts; the intraembryonic-mesoderm three-part
+umbrella plus its paraxial, intermediate and lateral-plate subprompts; and the endoderm-
+derivatives prompt. Page 34 prints **nine directly matching answer blocks**. No response line,
+teaching heading or isolated answer-list item was counted as an additional prompt.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External, same-source and prior-FHB disposition |
+|---|---|---|---|
+| I, A–C | `Surface Ectoderm`; `Neural Tube`; `Neural Crest`; followed by the listed surface-ectoderm, neural-tube and neural-crest derivatives | Ectodermal divisions and their surface/neural-tube/neural-crest derivatives (`ectoderm derivatives`; `surface ectoderm`; `neural tube`; `neural crest`) | pending-hit at the exact derivative scope; exact same-source Section IX and prior-FHB reuse — duplicate. |
+| II | `paraxial mesoderm`; `intermediate mesoderm`; `lateral plate mesoderm` | Intraembryonic-mesoderm subdivisions (`intraembryonic mesoderm`; `paraxial intermediate lateral plate`; `mesoderm subdivisions`; `embryonic mesoderm`) | live-hit; exact same-source Section IX and prior-FHB reuse — duplicate. |
+| II-a | Sclerotome, myotome and dermatome derivative lists | Paraxial-mesoderm/somite compartments and derivatives (`sclerotome`; `myotome`; `dermatome`; `somite derivatives`) | live-hit; exact same-source Section IX and prior-FHB reuse — duplicate. |
+| II-b | `the urogenital structures` | Intermediate-mesoderm urogenital derivatives (`intermediate mesoderm`; `urogenital structures`; `kidney embryology`; `ureter embryology`) | new externally; exact same-source Section IX and prior-FHB reuse — duplicate. |
+| II-c | Parietal- and visceral-layer, body-wall/gut-wall, lymphatic, vascular and blood-cell derivatives | Lateral-plate-mesoderm layers and derivatives (`lateral plate mesoderm`; `parietal mesoderm`; `visceral mesoderm`; `intraembryonic coelom`) | live-hit; exact same-source Section IX and prior-FHB reuse — duplicate. |
+| III | Gastrointestinal epithelial lining; respiratory epithelial lining; `The Germ cells` | Endodermal derivative list (`endoderm`; `gastrointestinal epithelial lining`; `respiratory epithelium`; `endoderm derivatives`) | pending-hit at the exact derivative scope; exact same-source Section IX and prior-FHB reuse — duplicate. |
+
+The nine written observations collapse source-first to **six handles**: I/A/B/C form one
+ectodermal-division-and-derivative family; II, II-a, II-b, II-c and III remain separately
+assigned. The query ledger therefore reconciles exactly as **6 handles × 4 phrases = 24
+required searches**, with exact-scope source disposition **3 live / 2 pending / 1 new**. All
+six handles exactly reuse the already assigned Section IX scope within this source and exact
+prior-FHB scope, so the written section contributes **zero** additional source-distinct or
+post-prior-FHB concepts. The printed `The Germ cells` endoderm answer is preserved as a low-
+authority source claim without medical correction or official-key uplift.
+
+## Whole-source closure — General Embryology MCQs and Short Essays
+
+The full visual inventory now closes at **145 complete prompt occurrences / 145 directly
+printed answer occurrences**: Q1–136 contribute `136 / 136`, and pp. 33–34 contribute `9 /
+9`. Pages 1–5 contain only front matter, and the p. 15 `V.IMP.` germ-cell line is declarative
+teaching text. No prompt or answer was inferred.
+
+Section-local source-first handle arithmetic is
+`13 + 3 + 6 + 7 + 2 + 8 + 7 + 4 + 7 + 6 = 63`. Whole-source comparison makes exactly nine
+further collapses: the Section VI and VII chorionic-villus-development handles merge; the
+Section VII and IX epiblast/three-germ-layer handles merge; the Section X placental-expulsion
+timing and Section XII parturition-stage handles merge; and all six written-section handles
+reuse Section IX. The closed source therefore contains **54 source-distinct handles**. Their
+exact external-search buckets reconcile as **15 live / 16 pending / 23 new = 54**.
+
+Exact prior-FHB comparison removes 33 already-owned handles. The **21 surviving concepts**
+reconcile as follows:
+
+| Final bucket | Count | Surviving exact scope |
+|---|---:|---|
+| Live | 1 | Expanded syncytiotrophoblast placental-endocrine family. |
+| Pending | 5 | Connecting-stalk/chorionic-cavity relationship; chorion-frondosum/stem-villus organisation; expanded amniotic-fluid volume and turnover; umbilical-vesicle regression/vitelline-duct relationship; dizygotic/fraternal twins. |
+| New | 15 | Paired primary-gonad classification; meiotic-disturbance/Down-syndrome causal relation; paternal X/Y sex determination; embryonic-versus-gestational-age origin; decidual reaction; bilaminar-disc/early-cavity development; notochord signaling targets; third-week disc elongation; placental electrolyte-homeostasis exception; parturition sequence with placental-expulsion timing; expanded umbilical-cord/Wharton's-jelly structure; conjoined twins; higher-order multiple pregnancy; intrauterine duration/trimesters; crown-rump-length measurement. |
+
+The source-wide completed delta is therefore **+145 questions / +145 directly printed
+answers / +21 concepts = +1 live / +5 pending / +15 new**. The completed-source cumulative
+table becomes:
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1415 | 1150 | 337 | 65 | 76 | 196 | TBD |
+
+The cumulative buckets reconcile exactly as `65 + 76 + 196 = 337`. The source is now
+`sourceProcessed=true` for triage purposes. No module ID, content record, placement, source,
+catalogue entry or authority claim was created.
+
+## Remaining sources / blocker — after General Embryology closure
+
+Removing this one selected substantive-text path and its unique hash leaves **74 selected
+inventory paths / 72 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`127fb8a90b807537207e3ac96de52e3364b5351b206e6d41c21cb2440b41c3cd`. Pinned triage debt
+becomes **31 substantive-text / six sparse-text / 37 empty-text** rows. The processed/remaining
+unique-hash accounting is now **`34 + 72 = 106`**.
+
+The next evidence-ranked substantive source is the single 17-page Anatomy `05 MCQs` path
+`Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - General embryology questions.pdf`, SHA-256
+`98361efdecd40f23a8e444b97fabf08cb8c5933c6d8f7bb10aa10c0e75d1551b`.
+
+**BLOCKED — S1 cannot be approved:** the closed General Embryology source is removed from
+the remainder, but the remaining 74 selected paths still require complete source-level triage.
