@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  accuracyOf, bySession, bySubject, byDifficulty, currentStreak, dailyCounts, distinctItems,
+  accuracyOf, bySession, bySubject, byDifficulty, bySource, currentStreak, dailyCounts, distinctItems,
   firstAttemptSplit, hourHistogram, localDay, longestStreak, marked, medianSeconds,
   sessionDetail, weakest,
 } from './attemptStats.ts'
@@ -329,4 +329,17 @@ test('a topic missed repeatedly across sittings is surfaced separately', () => {
     attempt({ sessionId: 's1', itemId: 'd', topic: 'Conduction', correct: false }),
   ], 's1')
   assert.deepEqual(detail.repeatedWeaknesses, ['Valves'])
+})
+
+test('bySource groups attempts by source bucket, keyed on .key', () => {
+  const rows = bySource([
+    attempt({ itemId: 'a', source: 'dept-mcq', correct: true }),
+    attempt({ itemId: 'b', source: 'dept-mcq', correct: false }),
+    attempt({ itemId: 'c', source: 'past-paper', correct: true }),
+    attempt({ itemId: 'd', source: undefined, correct: true }),
+  ])
+  const mcq = rows.find((r) => r.key === 'dept-mcq')!
+  assert.equal(mcq.attempts, 2)
+  assert.equal(mcq.correct, 1)
+  assert.ok(rows.find((r) => r.key === 'unspecified'))
 })
