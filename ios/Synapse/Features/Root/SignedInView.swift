@@ -20,7 +20,7 @@ struct SignedInView: View {
     /// every redraw.
     @State private var tab = Destination.today
 
-    enum Destination: String, Hashable { case today, library, questions, resources, more }
+    enum Destination: String, Hashable { case today, questions, flashcards, library, more }
 
     var body: some View {
         Group {
@@ -68,12 +68,15 @@ struct SignedInView: View {
         }
     }
 
-    /// Five tabs, deliberately.
+    /// Five tabs, deliberately — the two surfaces a student opens every day get
+    /// one, the rest are one tap deeper.
     ///
-    /// A sixth makes iOS fold one away into "More", and the one it folds is the
-    /// last — so a study surface would disappear behind a menu. Account is
-    /// reached from the Today screen instead: it is opened once a term, not
-    /// once a session.
+    /// iOS folds a sixth tab into a menu it names itself, so five is the budget.
+    /// Questions and Flashcards are the daily practice-and-review loop and each
+    /// earns a slot; the Library holds all reading, with Resources reached from
+    /// its toolbar; everything occasional lives in the More hub. Account is
+    /// reached from the Today screen: it is opened once a term, not once a
+    /// session.
     private func tabs(_ container: Container) -> some View {
         let audience = container.audienceStore.audience
 
@@ -85,14 +88,14 @@ struct SignedInView: View {
                     openTab: { tab = $0 }
                 )
             }
-            Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
-                LibraryView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
-            }
             Tab(strings("Questions"), systemImage: "questionmark.circle", value: Destination.questions) {
                 QuestionBankView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
-            Tab(strings("Resources"), systemImage: "folder", value: Destination.resources) {
-                ResourcesView(store: container.store, sync: container.sync, audience: audience, api: auth.api)
+            Tab(strings("Flashcards"), systemImage: "rectangle.on.rectangle.angled", value: Destination.flashcards) {
+                FlashcardsView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
+            }
+            Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
+                LibraryView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
             Tab(strings("More"), systemImage: "square.grid.2x2", value: Destination.more) {
                 MoreView(

@@ -20,6 +20,13 @@ struct LibraryView: View {
     }
     let sync: SyncEngine
     let api: SynapseAPI
+    /// Kept so the Resources catalogue — reached from this tab's toolbar rather
+    /// than a tab of its own — can be built with the same cache and cohort.
+    let store: LocalStore
+    let audience: StudentAudience
+    /// The resource catalogue, presented over the library the way a citation's
+    /// source already is.
+    @State private var showingResources = false
 
     /// A document a citation pointed at.
     struct SourceRequest: Identifiable, Equatable {
@@ -42,6 +49,8 @@ struct LibraryView: View {
         _files = State(wrappedValue: ResourceFileStore(api: api))
         self.sync = sync
         self.api = api
+        self.store = store
+        self.audience = audience
     }
 
     var body: some View {
@@ -66,6 +75,24 @@ struct LibraryView: View {
             .background(Theme.paper)
             .navigationTitle(strings("Library"))
             .navigationBarTitleDisplayMode(.large)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    // Resources lost its own tab so Flashcards could have one;
+                    // it lives here, one tap from the reading it sits beside.
+                    Button {
+                        showingResources = true
+                    } label: {
+                        Image(systemName: "folder")
+                            .flipsForRightToLeftLayoutDirection(true)
+                    }
+                    .tint(Theme.primary)
+                    .accessibilityLabel(strings("Resources"))
+                }
+            }
+            .sheet(isPresented: $showingResources) {
+                ResourcesView(store: store, sync: sync, audience: audience, api: api)
+                    .localisedSheet()
+            }
         }
         .searchable(text: $query, prompt: "Search the library")
         .task {
