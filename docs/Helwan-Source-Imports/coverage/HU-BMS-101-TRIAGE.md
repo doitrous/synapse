@@ -155,9 +155,9 @@ near-duplicate questions to their authoring concepts, and only then issue a comp
 
 ## Continuation checkpoint — 2026-08-29
 
-The tested-concept collapse has now been made explicit as the 180-row deterministic register
-in `scripts/helwan/triage-bms101-search.mjs`. It includes the four previously completed
-assignments and 176 remaining assignments, each with precisely four manual-required queries:
+The tested-concept collapse is now explicit as the 179-row deterministic register in
+`scripts/helwan/triage-bms101-search.mjs`. It includes the four previously completed
+assignments and 175 remaining assignments, each with precisely four manual-required queries:
 distinctive term, alias, synonym and mechanism/structure. This is a concept register, not an
 ID list; its slugs are triage handles only.
 
@@ -182,7 +182,7 @@ rows in the evidence table above (`morula-timing`, `ubiquitin-protein-degradatio
 
 ### Exact remaining register
 
-There are exactly 176 undisposed handles: every row in the helper's `register` constant except
+There are exactly 175 undisposed handles: every row in the helper's `register` constant except
 the four named completed handles immediately above. The continuation worker must read each
 row's four-query evidence, retain only same-idea/same-scope live IDs or pending paths, and
 record a `new` result only when all four are absent or demonstrated near-misses. This is an
@@ -196,7 +196,7 @@ HU_TRIAGE_WORKERS=8 node scripts/helwan/triage-bms101-search.mjs > /private/tmp/
 node -e "const r=require('/private/tmp/hu-bms101-search.json'); console.log(JSON.stringify({concepts:r.concepts.length,queries:r.concepts.reduce((n,x)=>n+x.queryHits.length,0)}))"
 ```
 
-The last command must report `{"concepts":180,"queries":720}` before semantic
+The last command must report `{"concepts":179,"queries":716}` before semantic
 adjudication begins. It does not author or alter source content.
 
 ### Semantic adjudication batch 1 — first 20 unadjudicated handles
@@ -374,3 +374,37 @@ idea is already pending.
 | connective-tissue-receptors — `aa8 H1, p. 28` | `connective tissue receptor`; `mechanoreceptor`; `Pacinian`; `Ruffini` | Pending `CON-DER-56784AB396C13E` in `docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md` locates Meissner corpuscles in papillary dermis and Pacinian/Ruffini/Krause receptors in reticular dermis. | pending |
 
 Batch delta: `live +1`, `pending +15`, `new +4`; no concept ID is minted by this ledger.
+
+### Semantic adjudication batch 6 — next 20 unadjudicated handles
+
+This deterministic slice is unadjudicated ordinals 105–124 and contributes exactly 80
+searches. Re-reading the printed prompts and key corrected seven misassigned handles.
+`aa8 H7` and `H16` are one same-idea/same-scope proposition — coronary arteries have
+both internal and external elastic laminae — so the duplicate register row was collapsed.
+The register consequently has 179 handles / 716 queries; ordinal 124 is now
+`capillary-types-and-sites`. This is a documented true collapse, not a new record.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| astrocyte-blood-brain-barrier-maintenance — `aa8 H2` | `astrocyte`; `astrocytes`; `blood brain barrier`; `BBB` | The printed stem asks the cell maintaining BBB integrity after traumatic injury (key C, astrocytes). Live `CON-NEU-93CD087BDE3F7B` assigns astrocytes to BBB formation and maintenance, the exact scope. | live |
+| vinca-alkaloids — `aa8 H3` | `vinca`; `vincristine`; `vinblastine`; `microtubule` | No same-scope record states vinca-alkaloid microtubule action. | new |
+| crossing-over — `aa8 H4` | `crossing over`; `crossing-over`; `meiosis`; `chiasma` | Pending `CON-FND-FD0B2BBE1B5120` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-histology-concepts.md` explicitly places exchange of non-sister chromatid segments in prophase I. | pending |
+| sympathetic-ganglion-vascularity — `aa8 H5` | `sympathetic ganglion`; `sympathetic ganglia`; `ganglion vascularity`; `blood supply` | The printed question asks which listed structure is vascular (key A, sympathetic ganglia). Ganglion-type and sympathetic-injury records do not establish relative ganglionic vascularity. | new |
+| purkinje-fibre-size — `aa8 H6` | `Purkinje fibre`; `Purkinje fibers`; `ventricular muscle cells`; `contractile ventricular cells` | The true statement is that Purkinje fibres are larger than contractile ventricular cells (key A). Pending `CON-MSK-5EA95D36121EF8` in `docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md` explicitly states that they are larger than ordinary cardiac muscle fibres. | pending |
+| coronary-artery-elastic-laminae — `aa8 H7; H16` | `coronary artery`; `internal elastic`; `external elastic`; `elastic lamina` | H7 identifies coronary artery as the vessel with prominent internal and external laminae (key C); H16 asks the same proposition directly (key C). Live muscular-artery lamina records do not state the coronary-artery application, so they are not same-scope merges. | new |
+| nucleolar-disappearance — `aa8 H8` | `nucleolus`; `nucleolar`; `mitosis`; `prophase` | Nuclear-envelope and generic mitosis records do not state nucleolar disappearance during prophase. | new |
+| down-syndrome — `aa8 H9` | `Down syndrome`; `trisomy 21`; `Down`; `chromosome` | Live `CON-DEV-243DD717D2FDA3`, “Down syndrome and extra chromosome 21”, has the exact syndrome/chromosome scope. | live |
+| turner-syndrome — `aa8 H10` | `Turner syndrome`; `45,X`; `Turner`; `sex chromosome` | Pending `CON-DEV-451A64C9445CAB` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` identifies Turner syndrome as monosomy with 45 chromosomes. | pending |
+| dorsal-root-ganglion — `aa8 H11` | `dorsal root ganglion`; `spinal ganglion`; `DRG`; `pseudounipolar` | No same-scope dorsal-root/spinal-ganglion morphology record exists. | new |
+| spinal-ganglion-blood-supply — `aa8 H12` | `spinal ganglion`; `dorsal root ganglion`; `ganglion blood supply`; `poor blood supply` | The question asks which ganglion is poorly supplied with blood (key B, spinal ganglion). Epithelial avascularity and non-vascular ganglion records are near-misses; no same-scope record exists. | new |
+| desmin-intermediate-filament — `aa8 H13` | `desmin`; `intermediate filament`; `muscle filament`; `cytoskeleton` | Pending `CON-FND-6268E97A4A9F26` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` explicitly names desmin as the intermediate filament of muscle. | pending |
+| mast-cell-histamine — `aa8 H14` | `mast cell`; `histamine`; `mast`; `granule` | Pending `CON-FND-7D406E91EA3BF2` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` states mast-cell storage and IgE-triggered release of histamine. | pending |
+| keratin — `aa8 H17` | `keratin`; `keratinization`; `keratinocyte`; `epidermis` | Pending `CON-FND-6268E97A4A9F26` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` identifies cytokeratin as epithelium's intermediate filament; protein-classification hits are near-misses. | pending |
+| pancreatic-salivary-ducts — `aa8 H18` | `pancreatic duct`; `salivary duct`; `duct epithelium`; `stratified cuboidal` | Main-pancreatic-duct and generic large-gland-duct records do not establish the pancreatic-versus-salivary duct epithelium comparison. | new |
+| purkinje-fibre-subendocardial-location — `aa8 H19` | `Purkinje fibre`; `Purkinje fibers`; `subendocardial`; `endocardium` | The printed question asks their site (key A, subendocardial space). Pending `CON-CVS-6799821893D6D2` in `docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md` places the Purkinje network beneath the endocardium. | pending |
+| cellular-pigments — `aa8 H20; H22` | `haemosiderin`; `hemosiderin`; `lipofuscin`; `macrophage pigment` | Pending `CON-HEM-A858B859CA693E` in `docs/Kasr-Source-Imports/concept/102-INT-physiology-concepts.md` establishes ferritin/haemosiderin storage in liver cells and spleen; pending `CON-FND-5DBC795B58DC74` establishes macrophage RBC breakdown into haemosiderin. Together they cover the two printed pigment contexts. | pending |
+| isochromosome-transverse-centromere-division — `aa8 H21` | `isochromosome`; `transverse centromere`; `centromere division`; `identical arms` | The printed stem describes transverse centromere division producing identical arms (key B, isochromosome). Pending `CON-DEV-D2BA4082190B3F` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` explicitly states this mechanism. | pending |
+| epidermal-layers — `aa8 H-W1` | `epidermal layers`; `epidermis`; `stratum`; `keratinocyte` | Pending `docs/Kasr-Source-Imports/article/103-BMS-histology.md` and its epidermal-layer concepts (`CON-DER-743AA0CD69B8A4`, `CON-DER-AB2A559A79ACB3`) cover the layer sequence and terminal-layer morphology. | pending |
+| capillary-types-and-sites — `aa8 H-W2` | `fenestrated capillary`; `capillary`; `sinusoid`; `continuous capillary` | Pending `CON-CVS-132A76916FEC05` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` gives fenestrated-capillary sites; its linked live continuous/sinusoidal record completes the requested types-and-sites scope. | pending |
+
+Batch delta: `live +2`, `pending +11`, `new +7`; no concept ID is minted by this ledger.

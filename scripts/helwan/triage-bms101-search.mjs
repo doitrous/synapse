@@ -113,25 +113,24 @@ cytokinesis\tcytokinesis|cell division|cleavage furrow|actin ring
 meiosis-tetrads\ttetrad|tetrads|meiosis|crossing over
 topoisomerase-i-vs-ii\ttopoisomerase I|topoisomerase II|topoisomerase|DNA topology
 connective-tissue-receptors\tconnective tissue receptor|mechanoreceptor|Pacinian|Ruffini
-traumatic-brain-oedema\tbrain oedema|cerebral oedema|traumatic brain|blood brain barrier
+astrocyte-blood-brain-barrier-maintenance\tastrocyte|astrocytes|blood brain barrier|BBB
 vinca-alkaloids\tvinca|vincristine|vinblastine|microtubule
 crossing-over\tcrossing over|crossing-over|meiosis|chiasma
-vascular-tissue-classification\tvascular tissue|blood vessel|artery vein|capillary
-basic-tissue-classification\tbasic histology|tissue classification|epithelium|connective tissue
-elastic-laminae\telastic lamina|internal elastic|external elastic|artery
+sympathetic-ganglion-vascularity\tsympathetic ganglion|sympathetic ganglia|ganglion vascularity|blood supply
+purkinje-fibre-size\tPurkinje fibre|Purkinje fibers|ventricular muscle cells|contractile ventricular cells
+coronary-artery-elastic-laminae\tcoronary artery|internal elastic|external elastic|elastic lamina
 nucleolar-disappearance\tnucleolus|nucleolar|mitosis|prophase
 down-syndrome\tDown syndrome|trisomy 21|Down|chromosome
 turner-syndrome\tTurner syndrome|45,X|Turner|sex chromosome
 dorsal-root-ganglion\tdorsal root ganglion|spinal ganglion|DRG|pseudounipolar
-avascular-epithelium\tavascular|epithelium|blood vessels|diffusion
+spinal-ganglion-blood-supply\tspinal ganglion|dorsal root ganglion|ganglion blood supply|poor blood supply
 desmin-intermediate-filament\tdesmin|intermediate filament|muscle filament|cytoskeleton
 mast-cell-histamine\tmast cell|histamine|mast|granule
-coronary-circulation\tcoronary|coronary artery|heart blood supply|epicardium
 keratin\tkeratin|keratinization|keratinocyte|epidermis
 pancreatic-salivary-ducts\tpancreatic duct|salivary duct|duct epithelium|stratified cuboidal
-purkinje-fibres\tPurkinje fibre|Purkinje|cardiac conduction|subendocardial
+purkinje-fibre-subendocardial-location\tPurkinje fibre|Purkinje fibers|subendocardial|endocardium
 cellular-pigments\thaemosiderin|hemosiderin|lipofuscin|macrophage pigment
-chromosome-morphology\tchromosome morphology|chromosome|centromere|metacentric
+isochromosome-transverse-centromere-division\tisochromosome|transverse centromere|centromere division|identical arms
 epidermal-layers\tepidermal layers|epidermis|stratum|keratinocyte
 capillary-types-and-sites\tfenestrated capillary|capillary|sinusoid|continuous capillary
 medium-artery-vein-comparison\tmedium artery|medium vein|artery vein|tunica media
