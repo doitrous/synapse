@@ -21,6 +21,25 @@ struct MyDocument: Codable, Identifiable, Equatable, Sendable {
     var sourceId: String?
 
     var isPDF: Bool { mediaType == "pdf" }
+
+    /// The file extension a previewer needs to recognise the bytes.
+    ///
+    /// The download endpoint hands back an extensionless temp file, and
+    /// QuickLook decides how to render purely from the path extension — a PDF
+    /// named without `.pdf` opens as a wall of raw bytes. Prefer the original
+    /// upload's own extension, then fall back to the media type, then the mime.
+    var previewExtension: String {
+        if let fileName {
+            let ext = (fileName as NSString).pathExtension
+            if !ext.isEmpty { return ext.lowercased() }
+        }
+        if isPDF { return "pdf" }
+        if let mimeType, let sub = mimeType.split(separator: "/").last, !sub.isEmpty {
+            let lower = sub.lowercased()
+            return lower == "jpeg" ? "jpg" : lower
+        }
+        return "dat"
+    }
 }
 
 /// The listing, with the student's space usage.

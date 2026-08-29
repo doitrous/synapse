@@ -44,7 +44,11 @@ struct MyUploadsView: View {
             } else {
                 Section {
                     ForEach(docs.items) { doc in
-                        row(doc)
+                        NavigationLink {
+                            MyDocumentPreviewView(doc: doc, store: docs)
+                        } label: {
+                            row(doc)
+                        }
                             .swipeActions(edge: .trailing) {
                                 Button(role: .destructive) {
                                     Task { await docs.remove(doc.id) }
