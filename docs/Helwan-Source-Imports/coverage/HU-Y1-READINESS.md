@@ -41,3 +41,14 @@ root_audit_status=READ_ONLY_RECONCILIATION_ONLY
 S0 may dispatch its reconciliation owner. S1 is planned but not approved: every ranked
 dispatch in `HU-Y1-S1-WAVE-PLAN.md` remains triage-only until a fresh consolidated Helwan
 Year-1 table receives literal `TRIAGE APPROVED`.
+
+## HU-BMS-101 S1 module completion
+
+- The official EOM and formative-answer packet is fully triaged: 260 retained questions,
+  260 printed keys, and 179 de-duplicated tested-concept handles.
+- The completed four-query semantic ledger records 10 live, 126 pending and 43 new
+  dispositions; 0 handles remain unadjudicated. It is an S1 evidence result only: no IDs,
+  content, import or approval were created.
+- Overall Year-1 readiness remains `PLANNED_FRESH_TRIAGE_REQUIRED`: BMS-102, LCS-103 and
+  PSY-104 still require their ranked S1 dispatches, and the seven unscoped sources remain
+  S0-owned. The next ranked action is HU-BMS-102 pathology + microbiology triage.

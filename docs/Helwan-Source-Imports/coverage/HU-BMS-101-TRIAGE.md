@@ -131,11 +131,11 @@ would violate the S1 search rule. The next triage worker must continue from the 
 above, record all four queries per assignment, then count `live` / `pending` / `new` from
 the completed search ledger.
 
-## Consolidated S1 checkpoint (completed subset)
+## Consolidated S1 checkpoint (complete module triage)
 
 | Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
 |---|---:|---:|---:|---:|---:|---:|---|
-| HU-BMS-101 — source inventory and key recovery | 260 | 260 | Not counted — full dedupe/search register incomplete | 0 confirmed | 4 confirmed | 0 designated | Not applicable until all searches finish |
+| HU-BMS-101 — all subjects | 260 | 260 | 179 | 10 | 126 | 43 | Per-handle evidence and disposition are recorded below; no record is minted or placed at S1. |
 
 ## Reproducible count command
 
@@ -148,10 +148,9 @@ node -e "const raw=[48,85,57,71]; console.log(JSON.stringify({raw:raw.reduce((a,
 
 ## Required next action
 
-Continue the multi-query ledger for every remaining tested-concept assignment, consolidate
-near-duplicate questions to their authoring concepts, and only then issue a complete
-`live` / `pending` / `new` table to `/root`. No S2 activity is authorised pending a fresh
-`TRIAGE APPROVED`.
+Send this complete module table to `/root` for the consolidated Helwan Year-1 S1 view. No S2
+activity is authorised unless `/root` gives a fresh literal `TRIAGE APPROVED` for Helwan Year
+1; completion of this module's S1 evidence checkpoint is not that approval.
 
 ## Continuation checkpoint — 2026-08-29
 
@@ -483,3 +482,31 @@ Against the committed `144/180 = 7 live / 106 pending / 31 new` base, this corre
 `live +1`, `pending +12`, `new +7`. P18/P24 add provenance to an existing pending handle and
 do not add a bucket. The source-first collapse changes only the total denominator: cumulative
 is `164/179 = 8 live / 118 pending / 38 new`, with `15` handles remaining.
+
+### Semantic adjudication batch 9 — final 15 unadjudicated handles
+
+This final deterministic slice is register ordinals 165–179 and contributes exactly 60
+searches. Each apparent match was read at the asserted scope: tonicity is not the same as a
+saline-induced compartment shift. No ID is minted.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| carrier-stereospecificity-saturation — `b7c P91–92, pp. 21–22` | `carrier saturation`; `stereospecificity`; `carrier`; `transport maximum` | Live `CON-FND-DF7D6BE0B98F86` states facilitated diffusion is substrate-specific, and live `CON-FND-7E16CDFECE29B4` states carrier saturation imposes its maximum rate; together they cover the two printed carrier properties. | live |
+| fluid-shifts-solute-load — `b7c P93, p. 22` | `fluid shift`; `solute load`; `osmolarity`; `ECF ICF` | The pending tonicity record distinguishes hypertonic from hypotonic solutions but does not state the tested compartmental fluid shift after a solute load. | new |
+| melanocyte-photoprotection — `b7c P102, p. 24` | `melanocyte`; `melanin`; `photoprotection`; `ultraviolet` | Pending `CON-DER-71C980D8864B73` in `docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md`, with `article/103-BMS-histology.md`, directly identifies melanocytes as protecting skin from ultraviolet light through UV-responsive melanin synthesis. | pending |
+| action-potential-upstroke — `867 P1/P3` | `action potential`; `upstroke`; `sodium influx`; `depolarisation` | Pending `CON-NEU-7A30FECF042995` in `docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md` directly states that the nerve action-potential depolarisation/upstroke is regenerative sodium influx. | pending |
+| potassium-equilibrium-potential — `867 P2` | `potassium equilibrium`; `equilibrium potential`; `Nernst`; `potassium` | Pending `CON-NEU-8CC845C16CE133` gives the Nernst single-ion calculation and the approximately −94 mV potassium equilibrium potential. | pending |
+| potassium-efflux-repolarisation — `867 P4` | `repolarisation`; `potassium efflux`; `action potential`; `potassium channel` | Pending `CON-NEU-DD9033DCA3AAF1` in `docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md` states delayed potassium efflux during repolarisation and slow potassium-channel closure in hyperpolarisation. | pending |
+| sodium-channel-block — `867 P6` | `sodium channel block`; `sodium channel`; `local anaesthetic`; `action potential` | Pending `CON-NEU-77596C8A899A7E` states that reduced sodium permeability from local anaesthetic stabilises the membrane and that tetrodotoxin sodium-channel blockade prevents an action potential. | pending |
+| siadh-compartments — `867 P7` | `SIADH`; `ADH`; `hyponatraemia`; `body fluid` | No candidate states SIADH's body-fluid-compartment consequences; general ADH and body-fluid records are near-misses. | new |
+| hypertonic-saline-compartments — `867 P8` | `hypertonic saline`; `hypertonic`; `ECF ICF`; `fluid shift` | The pending tonicity record labels a solution hypertonic relative to plasma but does not establish the tested ECF/ICF shift after hypertonic saline. | new |
+| hypotonic-saline-compartments — `867 P9` | `hypotonic saline`; `hypotonic`; `ECF ICF`; `fluid shift` | The pending tonicity record labels a solution hypotonic relative to plasma but does not establish the tested ECF/ICF shift after hypotonic saline. | new |
+| body-fluid-volume-calculation — `867 P10–12` | `ICF volume`; `plasma volume`; `interstitial fluid`; `body fluid compartment` | Pending `docs/Kasr-Source-Imports/article/102-INT-physiology-blood-ans.md` gives ICF as TBW−ECF, plasma-volume indicators, and ISF as ECF−plasma; pending `CON-HEM-887A8CA1A1A3DC` supplies the haematocrit red-cell fraction. Together they cover all three printed calculations. | pending |
+| sodium-nernst-potential — `867 P13` | `sodium Nernst`; `Nernst`; `sodium equilibrium`; `membrane potential` | Pending `CON-NEU-8CC845C16CE133` gives the Nernst single-ion calculation and the approximately +61 mV sodium equilibrium potential. | pending |
+| sodium-potassium-atpase-inhibition — `867 P14` | `Na/K ATPase`; `sodium potassium pump`; `ouabain`; `active transport` | Pending `CON-CVS-7A8A04F61D44D1` in `docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md` gives the electrogenic Na+-K+ ATPase stoichiometry and the effect of digitalis inhibition on intracellular sodium/Na+-Ca++ exchange. | pending |
+| hyperkalaemic-weakness — `867 P15` | `hyperkalaemic weakness`; `hyperkalaemia`; `muscle weakness`; `membrane potential` | The pending nerve-excitability record states hyperkalaemic depolarisation with raised excitability; it does not establish the tested hyperkalaemic-weakness mechanism. | new |
+| potassium-current-driving-force — `867 P16` | `driving force`; `potassium current`; `potassium`; `membrane potential` | Live `CON-NEU-BA127208F5318E` states that at normal RMP potassium's electrical gradient opposes its chemical gradient but the net electrochemical gradient remains outward, the exact driving-force relation. | live |
+
+Against the committed `164/179 = 8 live / 118 pending / 38 new` base, this final batch is
+`live +2`, `pending +8`, `new +5`; cumulative is `179/179 = 10 live / 126 pending / 43 new`.
+All 179 register handles are now adjudicated; 0 remain unadjudicated, and no record was created.
