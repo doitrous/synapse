@@ -60,7 +60,7 @@ class QBankRepositoryTest {
     fun setup() {
         localStore = FakeLocalStore()
         synapseApi = FakeSynapseApi()
-        syncEngine = SyncEngine(synapseApi, localStore, readableKeys = emptyList())
+        syncEngine = SyncEngine(synapseApi, localStore, readableKeys = emptyList(), userStateKeys = emptyList())
         qbankApi = FakeQBankApi()
 
         val context = ApplicationProvider.getApplicationContext<android.content.Context>()
@@ -329,6 +329,7 @@ private class FakeLocalStore : LocalStore {
     val catalogue = linkedMapOf<String, Pair<String, String>>()
     val outbox = linkedMapOf<String, String>()
     val attemptsById = linkedMapOf<String, ModelAttemptRecord>()
+    val userState = linkedMapOf<String, Triple<String, String?, String?>>() // json, savedAt, serverUpdatedAt
 
     override suspend fun putCatalogue(key: String, updatedAt: String, json: String) {
         catalogue[key] = updatedAt to json
@@ -342,9 +343,14 @@ private class FakeLocalStore : LocalStore {
     override suspend fun putAttempts(items: List<ModelAttemptRecord>) { items.forEach { attemptsById[it.id] = it } }
     override suspend fun attempts(month: String): List<ModelAttemptRecord> =
         attemptsById.values.filter { it.month == month }
+    override suspend fun putUserState(key: String, json: String, savedAt: String?, serverUpdatedAt: String?) {
+        userState[key] = Triple(json, savedAt, serverUpdatedAt)
+    }
+    override suspend fun getUserState(key: String): String? = userState[key]?.first
+    override suspend fun userStateSavedAt(key: String): String? = userState[key]?.second
 
     override suspend fun clearAll() {
-        catalogue.clear(); outbox.clear(); attemptsById.clear()
+        catalogue.clear(); outbox.clear(); attemptsById.clear(); userState.clear()
     }
 }
 

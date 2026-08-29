@@ -16,11 +16,13 @@ import com.synapse.app.core.auth.DataStoreTokenStore
 import com.synapse.app.core.auth.SupabaseAuthBackend
 import com.synapse.app.core.auth.TokenStore
 import com.synapse.app.core.cache.LocalStore
+import com.synapse.app.core.cache.room.MIGRATION_1_2
 import com.synapse.app.core.cache.room.RoomLocalStore
 import com.synapse.app.core.cache.room.SynapseDatabase
 import com.synapse.app.core.config.AppConfig
 import com.synapse.app.core.media.MediaCache
 import com.synapse.app.core.sync.STUDENT_READABLE_KEYS
+import com.synapse.app.core.sync.STUDENT_USER_STATE_KEYS
 import com.synapse.app.core.sync.SyncEngine
 import com.synapse.app.design.ThemePreference
 import dagger.Module
@@ -67,7 +69,9 @@ object AppModule {
     @Provides
     @Singleton
     fun provideSynapseDatabase(@ApplicationContext context: Context): SynapseDatabase =
-        Room.databaseBuilder(context, SynapseDatabase::class.java, "synapse.db").build()
+        Room.databaseBuilder(context, SynapseDatabase::class.java, "synapse.db")
+            .addMigrations(MIGRATION_1_2)
+            .build()
 
     @Provides
     @Singleton
@@ -127,7 +131,7 @@ object AppModule {
     @Provides
     @Singleton
     fun provideSyncEngine(api: SynapseApi, store: LocalStore): SyncEngine =
-        SyncEngine(api, store, STUDENT_READABLE_KEYS)
+        SyncEngine(api, store, STUDENT_READABLE_KEYS, STUDENT_USER_STATE_KEYS)
 
     @Provides
     @Singleton

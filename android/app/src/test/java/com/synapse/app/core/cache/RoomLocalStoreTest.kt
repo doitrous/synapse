@@ -41,8 +41,40 @@ class RoomLocalStoreTest {
     }
     @Test fun clearAllWipesEverything() = runTest {
         store.putCatalogue("k", "t", "{}"); store.enqueue("x", "y")
+        store.putUserState("synapse.flashcards.decks.v1", "{}", savedAt = "2026-08-29T10:00:00Z", serverUpdatedAt = null)
         store.clearAll()
         assertNull(store.getCatalogue("k")); assertTrue(store.pendingOutbox().isEmpty())
+        assertNull(store.getUserState("synapse.flashcards.decks.v1"))
+    }
+
+    @Test fun userStateUpsertAndRead() = runTest {
+        store.putUserState("synapse.flashcards.decks.v1", "{\"decks\":[]}", savedAt = "2026-08-29T10:00:00Z", serverUpdatedAt = null)
+        assertEquals("{\"decks\":[]}", store.getUserState("synapse.flashcards.decks.v1"))
+        assertEquals("2026-08-29T10:00:00Z", store.userStateSavedAt("synapse.flashcards.decks.v1"))
+    }
+
+    @Test fun userStateUpsertOverwritesPreviousValue() = runTest {
+        store.putUserState("k", "{\"a\":1}", savedAt = "2026-08-29T10:00:00Z", serverUpdatedAt = null)
+        store.putUserState("k", "{\"a\":2}", savedAt = "2026-08-29T11:00:00Z", serverUpdatedAt = "2026-08-29T11:00:00Z")
+        assertEquals("{\"a\":2}", store.getUserState("k"))
+        assertEquals("2026-08-29T11:00:00Z", store.userStateSavedAt("k"))
+    }
+
+    @Test fun userStateReadsNullWhenAbsent() = runTest {
+        assertNull(store.getUserState("nope"))
+        assertNull(store.userStateSavedAt("nope"))
+    }
+
+    @Test fun databaseOpensAtVersion2AndUserStateTableIsUsable() = runTest {
+        // A fresh in-memory build at the current (version-2) schema, independent of `store`/`db`
+        // from setup(), proves UserStateEntity/UserStateDao are wired into SynapseDatabase.
+        val freshDb = Room.inMemoryDatabaseBuilder(ApplicationProvider.getApplicationContext(), SynapseDatabase::class.java)
+            .allowMainThreadQueries()
+            .build()
+        val freshStore = RoomLocalStore(freshDb)
+        freshStore.putUserState("k", "{}", savedAt = null, serverUpdatedAt = "2026-08-29T00:00:00Z")
+        assertEquals("{}", freshStore.getUserState("k"))
+        freshDb.close()
     }
 
     @Test fun outboxPreservesFifoEnqueueOrder() = runTest {

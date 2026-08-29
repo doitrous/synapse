@@ -21,10 +21,12 @@ class SyncEngine(
     private val api: SynapseApi,
     private val store: LocalStore,
     private val readableKeys: List<String>,
+    private val userStateKeys: List<String>,
 ) {
     suspend fun refresh(now: Instant): SyncResult {
         pullCatalogues()
         pullAttempts(now)
+        pullUserState()
         return drainOutbox()
     }
 
@@ -70,12 +72,39 @@ class SyncEngine(
     }
 
     /**
+     * Pulls every singleton user-owned document in [userStateKeys] so a fresh device
+     * (or a device that never wrote a given key) has the student's own data offline.
+     * Per-key failure is skipped, not fatal — one broken key must not block the rest
+     * of the refresh. [StatePrecedence.localCopyWins] guards against clobbering a
+     * pending local write that is strictly newer than what the server has.
+     */
+    private suspend fun pullUserState() {
+        for (key in userStateKeys) {
+            val serverDoc = try {
+                api.getUserState(key)
+            } catch (e: Exception) {
+                if (e is CancellationException) throw e
+                continue
+            }
+            if (StatePrecedence.localCopyWins(store.userStateSavedAt(key), serverDoc.updatedAt)) continue
+            store.putUserState(key, serverDoc.value.toString(), savedAt = serverDoc.updatedAt, serverUpdatedAt = serverDoc.updatedAt)
+        }
+    }
+
+    /**
      * Public write path. Refuses shared/admin keys (the server enforces ownership
-     * too; this catches the mistake early). Enqueues to the outbox first — the
-     * caller never waits on the network — then drains.
+     * too; this catches the mistake early). Writes through to the durable
+     * [LocalStore.putUserState] first — so a [LocalStore.getUserState] read
+     * immediately after `write` returns the new value even with no network — with
+     * `serverUpdatedAt = null`: a local write's server timestamp is genuinely
+     * unknown until the next [pullUserState] re-establishes it, and leaving the
+     * previous `serverUpdatedAt` in place would let a stale server pull look
+     * newer than it is. Then enqueues to the outbox — the caller never waits on
+     * the network — and drains.
      */
     suspend fun write(key: String, json: String, savedAt: Instant) {
         require(StateOwnership.isUserOwned(key)) { "Refusing to write shared/admin key from client: $key" }
+        store.putUserState(key, json, savedAt = savedAt.toString(), serverUpdatedAt = null)
         store.enqueue(key, json)
         drainOutbox()
     }

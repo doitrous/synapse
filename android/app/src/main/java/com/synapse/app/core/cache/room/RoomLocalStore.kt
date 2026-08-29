@@ -13,6 +13,7 @@ class RoomLocalStore(
     private val catalogueDao = db.catalogueDao()
     private val outboxDao = db.outboxDao()
     private val attemptDao = db.attemptDao()
+    private val userStateDao = db.userStateDao()
     private val jsonFormat = Json { ignoreUnknownKeys = true }
 
     override suspend fun putCatalogue(key: String, updatedAt: String, json: String) {
@@ -45,11 +46,20 @@ class RoomLocalStore(
             AttemptRecord(id = it.id, month = it.month, payload = jsonFormat.decodeFromString(JsonObject.serializer(), it.json))
         }
 
+    override suspend fun putUserState(key: String, json: String, savedAt: String?, serverUpdatedAt: String?) {
+        userStateDao.upsert(UserStateEntity(key = key, json = json, savedAt = savedAt, serverUpdatedAt = serverUpdatedAt))
+    }
+
+    override suspend fun getUserState(key: String): String? = userStateDao.json(key)
+
+    override suspend fun userStateSavedAt(key: String): String? = userStateDao.savedAt(key)
+
     override suspend fun clearAll() {
         db.withTransaction {
             catalogueDao.clear()
             outboxDao.clear()
             attemptDao.clear()
+            userStateDao.clear()
         }
     }
 }

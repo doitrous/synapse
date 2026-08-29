@@ -44,3 +44,18 @@ interface AttemptDao {
     @Query("DELETE FROM attempt")
     suspend fun clear(): Int
 }
+
+@Dao
+interface UserStateDao {
+    @Upsert
+    suspend fun upsert(entity: UserStateEntity): Long
+
+    @Query("SELECT json FROM user_state WHERE key=:key")
+    suspend fun json(key: String): String?
+
+    @Query("SELECT savedAt FROM user_state WHERE key=:key")
+    suspend fun savedAt(key: String): String?
+
+    @Query("DELETE FROM user_state")
+    suspend fun clear(): Int
+}

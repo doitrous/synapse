@@ -59,7 +59,7 @@ class QuestionBankViewModelTest {
 
     private fun repository(): QBankRepository {
         val api = FakeSynapseApi()
-        val syncEngine = SyncEngine(api, localStore, readableKeys = emptyList())
+        val syncEngine = SyncEngine(api, localStore, readableKeys = emptyList(), userStateKeys = emptyList())
         val qbankApi = FakeQBankApi()
         val context = ApplicationProvider.getApplicationContext<android.content.Context>()
         val mediaCache = MediaCache(File(context.cacheDir, "qbank-vm-test-${System.nanoTime()}"), qbankApi)
@@ -146,6 +146,7 @@ class QuestionBankViewModelTest {
         val catalogue = linkedMapOf<String, Pair<String, String>>()
         val outbox = linkedMapOf<String, String>()
         val attemptsById = linkedMapOf<String, AttemptRecord>()
+        val userState = linkedMapOf<String, Triple<String, String?, String?>>() // json, savedAt, serverUpdatedAt
         override suspend fun putCatalogue(key: String, updatedAt: String, json: String) { catalogue[key] = updatedAt to json }
         override suspend fun catalogueUpdatedAt(key: String): String? = catalogue[key]?.first
         override suspend fun getCatalogue(key: String): String? = catalogue[key]?.second
@@ -154,7 +155,12 @@ class QuestionBankViewModelTest {
         override suspend fun clearOutbox(key: String) { outbox.remove(key) }
         override suspend fun putAttempts(items: List<AttemptRecord>) { items.forEach { attemptsById[it.id] = it } }
         override suspend fun attempts(month: String): List<AttemptRecord> = attemptsById.values.filter { it.month == month }
-        override suspend fun clearAll() { catalogue.clear(); outbox.clear(); attemptsById.clear() }
+        override suspend fun putUserState(key: String, json: String, savedAt: String?, serverUpdatedAt: String?) {
+            userState[key] = Triple(json, savedAt, serverUpdatedAt)
+        }
+        override suspend fun getUserState(key: String): String? = userState[key]?.first
+        override suspend fun userStateSavedAt(key: String): String? = userState[key]?.second
+        override suspend fun clearAll() { catalogue.clear(); outbox.clear(); attemptsById.clear(); userState.clear() }
     }
 
     private class FakeSynapseApi : SynapseApi {
