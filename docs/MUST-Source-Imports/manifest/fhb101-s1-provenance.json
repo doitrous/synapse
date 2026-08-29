@@ -35,7 +35,7 @@
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
     "readinessMarkdown": "fb39928898daa2ca822d39a4839946259fb60fd411a51c72e8c71f1137902f08",
-    "triageMarkdown": "a1bfbfef3c8718fb8a9f5084437d448a62ec9cc042daa49ce7026c9f89fca217"
+    "triageMarkdown": "01b07979dda3f216ab2363f5c95a0eaa488fe3b3610c43074139d76c9d77d6a8"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -91,11 +91,11 @@
   "partialCoverage": {
     "sha256": "c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983",
     "sourcePages": 101,
-    "renderedReadPages": "1-80",
-    "printedPromptObservations": 89,
+    "renderedReadPages": "1-90",
+    "printedPromptObservations": 95,
     "printedKeyObservations": 0,
     "namedConceptsAssigned": 0,
-    "resumeAtPage": 81,
+    "resumeAtPage": 91,
     "sourceProcessed": false
   },
   "remaining": {

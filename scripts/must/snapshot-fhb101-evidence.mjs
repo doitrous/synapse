@@ -18,11 +18,11 @@ const CATEGORIES = ['05 MCQs', '06 EOM Exams', '07 EOY Exams', '08 Midterm Exams
 const PARTIAL_SCREEN = {
   sha256: 'c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983',
   sourcePages: 101,
-  renderedReadPages: '1-80',
-  printedPromptObservations: 89,
+  renderedReadPages: '1-90',
+  printedPromptObservations: 95,
   printedKeyObservations: 0,
   namedConceptsAssigned: 0,
-  resumeAtPage: 81,
+  resumeAtPage: 91,
   sourceProcessed: false,
 }
 const PROCESSED_FAMILY_HASHES = [
@@ -114,7 +114,7 @@ function expectedTriageState(readiness, triage) {
   if (!readiness.includes(remainingChecksum) || !triage.includes(remainingChecksum)) throw new Error('Triage/readiness evidence does not pin the selected remaining checksum')
   if (!readiness.includes(PARTIAL_SCREEN.sha256)) throw new Error('Readiness evidence no longer retains the partially screened source')
   if (PROCESSED_FAMILY_HASHES.includes(PARTIAL_SCREEN.sha256)) throw new Error('Partially screened source must not be marked processed')
-  for (const fragment of ['pages 1–80', '73 + 16 = 89', 'pages 81–101 are unread', '0 named concepts']) {
+  for (const fragment of ['pages 1–90', '89 + 6 = 95', 'pages 91–101 are unread', '0 named concepts']) {
     if (!triage.includes(fragment)) throw new Error(`Triage evidence does not pin partial-screen boundary: ${fragment}`)
   }
   return remainingChecksum

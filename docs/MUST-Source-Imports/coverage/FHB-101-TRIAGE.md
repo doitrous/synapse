@@ -1643,3 +1643,29 @@ The printed text names only generic organelles/structures or coloured-arrow plac
 **Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 81–101 are unread.
 
 **BLOCKED — S1 cannot be approved:** resume this source at exact next page 81; do not treat the bounded pages 1–80 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
+
+## Bounded continuation screen — Histology final-revision-question paper, pages 81–90 of 101
+
+This pass resumes the same local 101-page source at exact page 81, retaining SHA-256 `c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983`.  All and only pages **81–90** were rendered and read.  No natural source boundary occurs; pages 91–101 remain unread.  The source remains `sourceProcessed=false` and remains in the unchanged path/hash remainder.
+
+### Observed page-boundary prompt accounting
+
+Page 81 visibly prints two observations: `What is the labeled structure?` and `What is the sex chromosome complement of this patient?`.  Page 82 visibly prints `What is your diagnosis?` and `What is the sex of this patient?`; page 83 prints the same two observations.  Pages 84–90 contain image panels, arrows, circled regions, or blacked-out label areas, but no visible assessment prompt or key/answer.  The exact observed arithmetic is `(3 × 2) + (7 × 0) = 6` prompts and **0** printed keys/answers.  The accumulated pages 1–90 observation is therefore `89 + 6 = 95` prompts and 0 printed keys, still excluded from completed-source totals.
+
+### Assignment, duplicate/composite, and search boundary
+
+The six visible prompts request a labelled structure, chromosomal complement, diagnosis, or sex only by reference to their images.  They print neither an identity/diagnosis nor a keyed result; the page 81 chromosome picture and the repeated diagnosis/sex requests do not supply a source-named assessed target.  No image identification, arrow target, blacked-out label, or answer is inferred.  The assignment/search ledger therefore remains exactly `0 named concepts ↔ 0 search rows`; no concept-level duplicate, collapse, external hit, or prior-FHB hit is claimed.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources unchanged; bounded Histology pages 1–90 excluded) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** +0 questions, +0 printed keys / answers, +0 source-distinct tested concepts.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — source remains incomplete after page 90
+
+**Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 91–101 are unread.
+
+**BLOCKED — S1 cannot be approved:** resume this source at exact next page 91; do not treat the bounded pages 1–90 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
