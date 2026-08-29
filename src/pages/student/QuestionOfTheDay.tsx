@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Check, Flame, Share2, Trophy, Users, X } from 'lucide-react'
+import { Bell, BellRing, Check, Flame, Share2, Trophy, Users, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -11,6 +11,7 @@ import { Avatar } from '@/components/ui/Avatar'
 import { QuestionView } from '@/components/qbank/QuestionView'
 import { useQotd } from '@/lib/useQotd'
 import { useIdentity } from '@/lib/useIdentity'
+import { useWebPush } from '@/lib/useWebPush'
 import { useT } from '@/lib/i18n'
 import { API_MODE, apiGet } from '@/lib/api'
 import { formatLongDate } from '@/lib/format'
@@ -184,6 +185,46 @@ function QotdFriendsPanel({ data, loading }: { data: QotdFriendsResponse | null;
   )
 }
 
+/**
+ * Unobtrusive opt-in for the daily reminder (web push). Only ever rendered
+ * when the browser supports push and the app has a backend to register a
+ * subscription against — a demo/localStorage session has no `/devices`
+ * endpoint to call. Denied permission cannot be re-requested from script, so
+ * that state renders as a quiet note rather than a dead button.
+ */
+function QotdReminderControl() {
+  const t = useT()
+  const push = useWebPush()
+  const [busy, setBusy] = useState(false)
+
+  if (!push.supported || !API_MODE) return null
+  if (push.permission === 'denied') {
+    return <span className="text-[11.5px] text-ink-3">{t('Reminders blocked — allow notifications in your browser to enable.')}</span>
+  }
+
+  async function handleClick() {
+    setBusy(true)
+    try {
+      if (push.subscribed) await push.unsubscribe()
+      else await push.subscribe()
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  return (
+    <Button
+      variant={push.subscribed ? 'secondary' : 'ghost'}
+      size="sm"
+      iconLeft={push.subscribed ? BellRing : Bell}
+      loading={busy}
+      onClick={() => { void handleClick() }}
+    >
+      {push.subscribed ? t('Reminders on') : t('Remind me')}
+    </Button>
+  )
+}
+
 export function QuestionOfTheDay() {
   const t = useT()
   const identity = useIdentity()
@@ -240,7 +281,12 @@ export function QuestionOfTheDay() {
       <PageHeader
         title={t('Question of the Day')}
         description={formatLongDate(new Date())}
-        actions={<Badge tone="primary" dot>{`🔥 ${qotd.current}`}</Badge>}
+        actions={
+          <div className="flex flex-wrap items-center justify-end gap-2.5">
+            <QotdReminderControl />
+            <Badge tone="primary" dot>{`🔥 ${qotd.current}`}</Badge>
+          </div>
+        }
       />
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.7fr)]">
