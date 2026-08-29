@@ -316,9 +316,17 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   its exact repeat Q14 prints `D`, so the conflict remains unresolved. Further tested-scope
   collapse yields 48 handles, all searched with four query forms and adjudicated 0 live / 0
   pending / 48 new. No ID or content record was created.
-- The remaining 21 PSY-104 manifest paths are administration/teaching context (15 unique
-  hashes), not additional question evidence. With no official exam, sitting, mark or key
-  source locally, PSY-104 is checkpointed as `needs Omar sources`; see
-  `coverage/HU-PSY-104-TRIAGE.md`. Overall Year-1 S1 remains
+- The remaining 21 PSY-104 manifest paths have now been audited and locally accounted for:
+  one portfolio, ten lecture-category paths, eight case-scenario paths and two notes/summaries.
+  Five duplicate-hash groups account for six extra path instances, leaving exactly 15 unique
+  hashes. Twenty paths remain exact; the Lecture-4 Personality file has filename drift only
+  and retains its exact manifest SHA. The portfolio is administrative, the lectures and notes
+  are teaching context, and the case decks contain unkeyed teaching checks rather than another
+  standalone assessment bank or answer key. None adds assessment occurrences at this gate.
+- Every local PSY-104 assessment path is therefore exhausted, so the module is
+  `complete-awaiting-consolidated-approval` for S1 inventory purposes. This is not a sufficiency
+  claim: there is still no official exam, sitting, mark or official-key source locally, and
+  Q12/Q14 retain their conflicting printed study-bank answers. PSY-104 remains `needs Omar
+  sources`; see `coverage/HU-PSY-104-TRIAGE.md`. Overall Year-1 S1 remains
   `PLANNED_FRESH_TRIAGE_REQUIRED`, and S2 remains blocked pending the full-year checkpoint and
   literal `TRIAGE APPROVED`.

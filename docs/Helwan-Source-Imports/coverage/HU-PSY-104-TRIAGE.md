@@ -1,6 +1,7 @@
 # HU-PSY-104 psychology S1 triage
 
-Status: **Family 1 complete; module checkpointed with insufficient assessment authority.**
+Status: **Complete awaiting consolidated approval; local assessment paths exhausted, with
+insufficient official assessment authority.**
 This is source triage only. It creates no ID or student-facing content and does not authorise
 S2 without a fresh literal `TRIAGE APPROVED` for Helwan Year 1.
 
@@ -148,17 +149,50 @@ The answer total is `66 MCQ key letters + 12 short-answer blocks = 78`; it is no
 of 78 official keys. All 78 records are question-traceable S1 evidence. No article, question,
 written, practical, relation, ID, catalogue change or import batch was created.
 
-## Exact remaining debt and blocker
+## Module-completeness audit and external source gap
 
-- The only manifest row classified as `Questions` for HU-PSY-104 is now fully read and
-  closed; there is no second local question-category source to dispatch.
-- The other 21 HU-PSY-104 manifest paths are administration/teaching context: one portfolio,
-  ten lecture-category paths, eight case-scenario paths and two notes/summaries. SHA dedupe reduces
-  those 21 paths to 15 unique local files. They may explain a banked scope after an authority
-  review, but they do not create additional assessment occurrences.
-- This bank supplies no official exam/sitting/mark/repetition signal, and its study-bank
-  answers include an exact-repeat key conflict. Therefore the module is **not** presented as
-  adequate official assessment coverage. The chief of staff should record `needs Omar
-  sources`: an actual Helwan PSY-104 paper, official/department question bank, or official key.
-- Browser escalation is not attempted in this family. Until stronger evidence arrives, the
-  48-handle table is a complete bounded S1 checkpoint, not authority to enter S2.
+All 22 HU-PSY-104 manifest paths are now accounted for. The accepted question bank is the
+only `Questions` row; the remaining 21 paths were checked against the manifest, recomputed
+local hashes and full deck-level visual reads. Their exact category accounting is:
+
+| Manifest category | Paths | Unique hashes in category | Audit ruling |
+|---|---:|---:|---|
+| Questions | 1 | 1 | Family 1 fully triaged above |
+| Portfolios and Logbooks | 1 | 1 | Administration, outcomes, timetable and assessment structure only; no paper, question set, response sheet or key |
+| Lectures | 10 | 7 | Teaching lectures/decks; no standalone assessment bank or answer-key section |
+| Case Scenarios | 8 | 5 | Unkeyed teaching checks/case prompts; no response fields, answer convention or assessment/key authority |
+| Notes and Summaries | 2 | 2 | Quick-revision tables; no assessment or key source |
+| **All HU-PSY-104** | **22** | **16** | **One question-bank hash plus 15 administration/teaching hashes** |
+
+The five duplicate-hash groups explain all six extra path instances in the 21-path
+non-question remainder:
+
+| SHA-256 prefix | Manifest path instances | Duplicate accounting |
+|---|---:|---|
+| `a7be07ad6f92` | 2 | Case-1 path and Lecture-1 path share the same teaching deck |
+| `7f3ef28c3b1e` | 2 | Case-5 and Case-6 paths are byte-identical |
+| `1db3bed1e041` | 3 | Case-7, Case-8 and Case-9 paths are byte-identical |
+| `eaee91bc1f32` | 2 | Lecture-2 and Lecture-3 paths are byte-identical |
+| `9a991822b058` | 2 | Lecture-5 and Lecture-6 paths are byte-identical |
+
+Twenty non-question files remain at their exact manifest paths and recompute to the recorded
+SHA-256. The Lecture-4 manifest path ends in `4-personality - Copy.pdf`; its local organised
+file is now named `4-personality.pdf` in the same directory and recomputes to the exact
+manifest SHA `8ab36dc98aa8140b5cf5fded189e76cdabd476f5c54338e4dba94462fa1636aa`.
+This is filename drift, not a missing or additional source. Thus the 21 remaining paths reduce
+exactly to 15 hashes and every local PSY-104 source is exhausted for S1 assessment triage.
+
+The teaching case decks do contain complete unkeyed case questions, but they are embedded
+lecture/revision checks rather than another standalone assessment or question-bank source.
+They are not extracted, promoted or counted as assessment occurrences at this consolidation
+gate. The portfolio confirms that quizzes and MCQ/case-scenario assessment methods exist, but
+provides only administration and grade structure—not the underlying paper, recoverable
+questions or an official key.
+
+This local-inventory completion does **not** cure the authority gap. The Family-1 bank supplies
+no official exam/sitting/mark/repetition signal, and exact-repeat Q12/Q14 still print conflicting
+answers (`B` versus `D`). Record `needs Omar sources`: an actual Helwan PSY-104 paper,
+official/department question bank, or official key. HU-PSY-104 is therefore
+`complete-awaiting-consolidated-approval` for S1 inventory purposes while assessment coverage
+remains insufficient; the full Helwan Year-1 checkpoint and fresh literal `TRIAGE APPROVED`
+still gate S2.
