@@ -2634,3 +2634,124 @@ auxiliary notes and tracked unresolved/malformed items also remain unchanged.
   collapse separately rather than calling them exact copies.
 - No download is needed. The later General / Soft Tissue & Bone Neoplasia section remains
   deferred behind completion of Joint Diseases.
+
+## Family 22 — CBL Joint Diseases, Cases 12–20
+
+### Bounded source identity and assessment classification
+
+| Field | Verified Family-22 result |
+|---|---|
+| Manifest source | `src_79b0f17a5426e5773083` |
+| Manifest / recomputed SHA-256 | `79b0f17a5426e57730835bca39abda5e82ac8f6c72db7f513cc7a24a805daa55` |
+| Local file | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 LCS CBL.pdf` |
+| Bounded section | physical pp. 38–70, Cases 12–20 only; p. 36 cover and p. 37 objectives excluded |
+| Hard next boundary | p. 71 is the `CBL GENERAL/ SOFT TISSUE & BONE NEOPLASIA` cover; Case 21 begins on p. 72 |
+| Evidence class | eligible lower-authority `HU-LCS-103` teaching/revision assessment evidence |
+| Review method | every physical page 38–70 rendered at 220 dpi and visually read; native text used only as a transcription aid; no download |
+
+This 33-page section contains three visually different slide classes:
+
+- **14 complete MCQ prompt occurrences**: nine first question slides, four full keyed copies,
+  and the complete altered Case-20 keyed occurrence.
+- **four answer-only reveal slides** on pp. 39, 47, 59 and 63. Each prints a red answer option
+  and therefore supplies one key, but it does not repeat the complete stem/options and is not
+  counted as another prompt occurrence.
+- **15 rationale-only teaching slides** on pp. 40–41, 44–45, 48–49, 52–53, 56–57,
+  60–61, 64 and 67–68. `CORRECT` statements corroborate the reveal but create neither an
+  additional prompt nor an additional key.
+
+Red phrases in the stems are teaching emphasis. A key is counted only when a specific option
+is red on a reveal slide. There are therefore **nine printed keys**, one for each Case 12–20.
+
+### Source-order prompt, reveal and rationale ledger
+
+| Case | Physical pages | Complete prompt occurrences | Printed reveal / key | Rationale-only pages | One-to-one assignment and copy treatment |
+|---:|---:|---:|---|---:|---|
+| 12 | 38–41 | 1 (p. 38) | p. 39 answer-only; `C Osteoarthritis` red | 2 | p. 38 → `osteoarthritis-clinical-etiology-differential`; p. 39 is key evidence, not a prompt |
+| 13 | 42–45 | 2 (pp. 42–43) | p. 43 full keyed copy; `C Hyperuricemia` red | 2 | both → `malignancy-associated-gout-hyperuricemia`; identical wording/options collapse, despite changed illustration |
+| 14 | 46–49 | 1 (p. 46) | p. 47 answer-only; `A Chronic renal failure` red | 2 | p. 46 → `malignancy-associated-gout-hyperuricemia`; p. 47 is key evidence, not a prompt; semantic collapse with Case 13 |
+| 15 | 50–53 | 2 (pp. 50–51) | p. 51 full keyed copy; `B Ankylosing spondylitis` red | 2 | both → `ankylosing-spondylitis-clinical-and-sacroiliac-ankylosis-pattern`; identical wording/options collapse |
+| 16 | 54–57 | 2 (pp. 54–55) | p. 55 full keyed copy; `D Anti-citrullinated peptide` red | 2 | both → `rheumatoid-arthritis-anti-ccp-serology`; identical wording/options collapse despite image/layout change |
+| 17 | 58–61 | 1 (p. 58) | p. 59 answer-only; `D Osteoarthritis` red | 2 | p. 58 → `osteoarthritis-clinical-etiology-differential`; p. 59 is key evidence, not a prompt; semantic collapse with Case 12 |
+| 18 | 62–64 | 1 (p. 62) | p. 63 answer-only; `A Ankylosis` red | 1 | p. 62 → `ankylosing-spondylitis-clinical-and-sacroiliac-ankylosis-pattern`; p. 63 is key evidence, not a prompt; semantic collapse with Case 15 |
+| 19 | 65–68 | 2 (pp. 65–66) | p. 66 full keyed copy; `C Juvenile idiopathic arthritis` red | 2 | both → `juvenile-idiopathic-arthritis-clinical-pattern`; identical wording/options collapse |
+| 20 | 69–70 | 2 (pp. 69–70) | p. 70 complete altered keyed occurrence; `D Ganglion cyst` red | 0 | both → `ganglion-cyst-clinicopathologic-pattern`; two complete occurrences retained, then semantically collapsed |
+| **Family 22** | **38–70** | **14** | **9 printed keys** | **15** | **all occurrences assigned once** |
+
+The four exact wording/option repeats in Cases 13, 15, 16 and 19 reduce 14 complete prompt
+occurrences to ten prompt forms. Four separately proven semantic collapses then reduce ten
+forms to six handles: Cases 12/17 share osteoarthritis recognition; Cases 13/14 share the
+accepted gout/hyperuricaemia/trigger scope; Cases 15/18 share the same ankylosing-spondylitis
+clinical and sacroiliac-ankylosis pattern; and Case-20 pp. 69/70 ask the same ganglion-cyst
+diagnosis. Thus `14 - 4 - 4 = 6` source-distinct handles.
+
+Case 20 is not an exact-copy collapse. Both pp. 69 and 70 have the same complete stem and
+lead-in, but p. 69 prints option C `Cystic rheumatoid nodule`, while p. 70 replaces it with
+`Bursitis`; p. 70 also replaces the image and colors D `Ganglion cyst` red. Both prompt
+occurrences and both option sets are preserved before their shared concept assignment.
+
+Two further source-quality risks remain literal:
+
+- Case 16's p. 57 `(E) Incorrect` explanation says ankylosis can occur with severe rheumatoid
+  arthritis, but printed option E is `Borrelia burgdorferi antibody`. The explanation does not
+  correspond to that option. Red D and p. 56 `(D) CORRECT` agree, so D remains the one mapped
+  printed key while the E-rationale mismatch remains flagged.
+- Case 19's p. 68 option-B rationale omits the opening parenthesis and runs
+  `burgdorferiinfection` together. This malformed rationale does not alter red C on p. 66.
+
+### Search-before-mint and prior-LCS disposition ledger
+
+Each of the six source-distinct handles received one query against each required surface:
+live state (`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), every prior source-import lane, and the accepted prior-LCS
+ledger. That is **6 × 4 = 24 required invocations**. Four additional wording variants for the
+new ankylosing, juvenile-arthritis and ganglion scopes give **28 invocations total**. The
+separately tracked external Histology bank contains no same-scope record.
+
+| # | Case assignment → handle | Four-query bundle | Corpus / prior-LCS result | Source disposition | Eligible-module effect |
+|---:|---|---|---|---|---|
+| 1 | Cases 12,17 → `osteoarthritis-clinical-etiology-differential` | `osteoarthritis`; `osteophytes joint space narrowing`; `Heberden nodes osteoarthritis`; `weight-bearing joint pain use` | Exact accepted Family-12/18/19 eligible handle. Current corpus matches remain taxonomy/incidental only. | prior eligible-LCS reuse; inherited new | +0 |
+| 2 | Cases 13,14 → `malignancy-associated-gout-hyperuricemia` | `gout hyperuricemia`; `needle-shaped urate crystals`; `renal failure gout tophus`; `podagra hyperuricemia` | Exact accepted Family-17/18/19 live handle; Family 19 already extended it across podagra, renal-failure tophus and other non-malignancy triggers. | live; prior eligible-LCS reuse | +0 |
+| 3 | Cases 15,18 → `ankylosing-spondylitis-clinical-and-sacroiliac-ankylosis-pattern` | `ankylosing spondylitis`; `inflammatory back pain activity`; `HLA-B27 sacroiliitis`; `bony ankylosis spine` | No substantive live, pending, external-bank or prior-LCS record owns the clinical-plus-sacroiliac pattern. | new | +1 new |
+| 4 | Case 16 → `rheumatoid-arthritis-anti-ccp-serology` | `anti-citrullinated peptide`; `anti-CCP rheumatoid arthritis`; `swan-neck anti-CCP`; `rheumatoid serology` | Exact accepted Family-19 eligible handle; no substantive external record supersedes its inherited new disposition. | prior eligible-LCS reuse; inherited new | +0 |
+| 5 | Case 19 → `juvenile-idiopathic-arthritis-clinical-pattern` | `juvenile idiopathic arthritis`; `Still disease arthritis`; `child fever lymphadenopathy arthritis`; `ANA juvenile rheumatoid arthritis` | No substantive live, pending, external-bank or prior-LCS same-scope record. | new | +1 new |
+| 6 | Case 20 → `ganglion-cyst-clinicopathologic-pattern` | `ganglion cyst`; `wrist ganglion fibrous wall`; `cyst no epithelial lining wrist`; `painless fluctuant wrist swelling` | No substantive live, pending, external-bank or prior-LCS same-scope record. Prior popliteal-bursitis and carpal-tunnel handles are different objectives. | new | +1 new |
+
+Source-disposition arithmetic is **1 live + 0 pending + 5 new = 6** handles. Module novelty
+is separate: **3 prior eligible reuse + 3 new to eligible = 6**. The three net concepts all
+resolve as new, so the eligible delta is **0 live + 0 pending + 3 new**.
+
+### Family-22 checkpoint and cumulative LCS-103 delta
+
+| Family-22 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS reuse (OA, gout, RA anti-CCP) | 7 | 5 | 3 | 0 | 0 | 0 | 0 |
+| New-to-eligible handles (ankylosing spondylitis, JIA, ganglion cyst) | 7 | 4 | 3 | 3 | 0 | 0 | 3 |
+| **Family 22 assessment evidence** | **14** | **9** | **6** | **3** | **0** | **0** | **3** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 21 | 392 | 220 | 188 | 9 | 49 | 130 |
+| Family 22 net delta | +14 | +9 | +3 | +0 | +0 | +3 |
+| **LCS-103 cumulative after Family 22** | **406** | **229** | **191** | **9** | **49** | **133** |
+
+Arithmetic checks: prompt-slide counts are `1 + 2 + 1 + 2 + 2 + 1 + 1 + 2 + 2 = 14`;
+the nine cases provide nine red-option keys; `14 - 4 exact repeats = 10` prompt forms;
+`10 - 4 semantic collapses = 6` handles; `3 prior eligible reuse + 3 net = 6`; `1 + 0 +
+5 = 6` source dispositions; `0 + 0 + 3 = 3` net dispositions; `14 prompt slides + 4
+answer-only reveals + 15 rationale-only slides = 33` bounded physical pages; `392 + 14 =
+406`; `220 + 9 = 229`; `188 + 3 = 191`; and `9 + 49 + 133 = 191`. The external
+bank remains separately unchanged at `241 prompts / 241 keys / 75 handles = 9 live / 66
+pending / 0 new`; the 50 auxiliary notes and tracked unresolved/malformed items also remain
+unchanged. The Joint Diseases section is now closed.
+
+## Exact next debt
+
+- Continue the same source with its final assessment section, `CBL GENERAL/ SOFT TISSUE &
+  BONE NEOPLASIA`: physical p. 71 is the cover, **Cases 21–34 occupy physical pp. 72–109**,
+  and p. 110 is the closing/source slide. The next bounded inventory is pp. 72–109 only.
+- Preserve question slides, red-option keyed copies, answer-only reveals and rationale-only
+  teaching slides as separate evidence classes; do not infer a regular copy pattern from the
+  earlier sections.
+- No download is needed. After Cases 21–34 close, this 110-page CBL source can be marked
+  fully inventoried.

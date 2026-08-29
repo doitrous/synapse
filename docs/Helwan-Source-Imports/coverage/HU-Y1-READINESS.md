@@ -290,6 +290,9 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   eleven within-case copies plus the Case-1/Case-3 collapse leave 10 handles. Five prior
   eligible-LCS reuses and five new-only additions bring eligible LCS to 392/220/188 and
   9/49/130. Case-6 shifted explanation lettering and Case-10's red-E versus rationale-F
-  conflict remain source-preserved. Next bounded extraction is Joint Diseases pp.38–70;
-  Case-20 pp.69–70 remain complete altered occurrences, with p.70's red `d. Ganglion cyst`
-  preserved as a key, not a copy/crop claim or premature semantic collapse.
+  conflict remain source-preserved. Joint Diseases pp.38–70 is also closed: 14 complete MCQ
+  occurrences, four answer-only reveals, 15 rationale slides and nine red keys yield six
+  handles after four exact and four semantic collapses. Its +3 new-only delta brings eligible
+  LCS to 406/229/191 and 9/49/133. Case-16's mismatched E rationale, Case-19 typo and the
+  complete altered Case-20 pair remain source-preserved. Next bounded extraction is CBL General/
+  Soft Tissue & Bone Neoplasia pp.72–109 only.
