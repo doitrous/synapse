@@ -4617,3 +4617,56 @@ next manifest-ordered local BMS-102 candidate is tier-6
 SHA-256 `345e192618eaa531a357662a9995c7a29c08909805cf05061a9fce662e2a3316`, one native-text
 page under `Microbiology / Notes and Summaries`; it needs its own source and authority gate
 before any count is admitted.
+
+## Family 40 — tier-6 Sterilization slide-41 duplicate gate
+
+### Source identity, render boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_345e192618eaa531a357` |
+| Byte-verified local path | Manifest directory is stale; exact bytes are at `BMS 102/Microbiology/Theoretical/Lec3 sterilization _ disinfection2020 (1).pdf` |
+| SHA-256 / boundary | `345e192618eaa531a357662a9995c7a29c08909805cf05061a9fce662e2a3316` · one native-text page |
+| Visible source form | A single annotated teaching-slide capture, with no university, department, examiner, sitting, marks, or official-key provenance |
+| Read result | Full page rendered and read: the ten numbered units reproduce the Family-19 slide-41 sequence |
+
+The source reproduces Family 19's Q1–Q10 in the same order and boundary: Q1–Q8 and Q10 are
+complete prompts; Q9 remains the bare assertion `Kill all vegetative forms of bacteria, HBV
+and bacterial spores.` and has no command, subject, blank, or true/false cue. It is therefore
+again incomplete and has no tested handle.
+
+The yellow true/false choices, red ticks, and red handwritten notes are study annotations within
+a slide capture rather than a printed official key convention. They are not counted as printed
+answers, and no handwriting is transcribed as a repaired source answer. The page supplies **10
+observed units / 0 printed answer or key occurrences / 9 complete prompt occurrences / 0 newly
+retained records / 0 new handles**.
+
+### Exact prior-BMS reuse and search gate
+
+Every complete prompt is an exact prior-F19 scope: Q1→F19-Q01, Q2→F19-Q02, Q3→F19-Q03,
+Q4→F19-Q04, Q5→F19-Q05, Q6→F19-Q06, Q7→F19-Q07, Q8→F19-Q08, and Q10→F19-Q10. The
+already-recorded four-query registers for those nine exact handles are reused; Q9 has no
+source-supported handle and therefore no search row. There is no fresh search, external
+classification, or concept increment. This gate preserves F19's answer-treatment and avoids
+counting the same slide content twice.
+
+| Measure | Family 40 duplicate gate | Auxiliary cumulative (Families 12–40) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Newly admitted prompt occurrences | 0 | 235 | 765 | 1,000 |
+| Newly admitted printed-answer occurrences | 0 | 169 | 405 | 574 |
+| Newly retained records / handles | 0 / 0 | 232 / 229 | 552 / — | 784 |
+| Cross-family concept delta | +0 | +170 over primary | 372 | `372 + 170 = 542` |
+| **Distinct tested concepts** | **+0** | **170 auxiliary additions** | **372** | **542** |
+
+The primary checkpoint remains **765 / 405 / 552 / 372**; auxiliary remains
+**235 / 169 / 232 / 229 / +170**; and all eligible S1 evidence remains
+**1,000 / 574 / 784 / 542**. This duplicate annotated slide adds no official-key, exam/sitting,
+recurrence, mark-weight, readiness, or claims signal.
+
+### Exact next debt after Family 40
+
+`src_345e192618eaa531a357` is exhausted across its sole page. The next manifest-ordered local
+BMS-102 candidate is tier-6 `src_33620685b5927f926a0d` · `Micro 1.pdf`, SHA-256
+`33620685b5927f926a0d0e98712b871fab452ecdb87477a7fb8de3e227304d0e`, two native-text pages
+under `Microbiology / Notes and Summaries`; it needs its own source and authority gate before
+any count is admitted.
