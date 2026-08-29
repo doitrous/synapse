@@ -17,8 +17,8 @@ export type TextFormat = 'pipe' | 'csv' | 'anki'
 /**
  * RFC-4180-style delimited text splitter. Handles double-quoted fields,
  * embedded delimiters/newlines inside quotes, and `""` as an escaped quote.
- * Rows are split on bare `\n` or `\r\n` (not inside quotes). Trailing
- * fully-blank rows are dropped.
+ * Rows are split on bare `\n` or `\r\n` (not inside quotes). Blank rows are
+ * skipped wherever they occur, not just at the end of the text.
  */
 function splitDelimited(text: string, delim: string): string[][] {
   const records: string[][] = []

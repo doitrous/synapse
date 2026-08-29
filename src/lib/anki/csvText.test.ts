@@ -33,3 +33,18 @@ test('detectTextFormat: #-headers => anki, comma header => csv, else pipe', () =
   assert.equal(detectTextFormat('front,back,tags\nA,B,'), 'csv')
   assert.equal(detectTextFormat('A | B'), 'pipe')
 })
+
+test('parseFrontBackTagsCsv: an escaped "" quote inside a quoted field decodes to a literal quote', () => {
+  const rows = parseFrontBackTagsCsv('front,back,tags\n"She said ""hi""",back1,tag1')
+  assert.deepEqual(rows, [{ front: 'She said "hi"', back: 'back1', tags: ['tag1'] }])
+})
+
+test('parseFrontBackTagsCsv: an embedded newline inside a quoted field is preserved, not treated as a row break', () => {
+  const rows = parseFrontBackTagsCsv('front,back,tags\n"line1\nline2",back2,tag2')
+  assert.deepEqual(rows, [{ front: 'line1\nline2', back: 'back2', tags: ['tag2'] }])
+})
+
+test('parseAnkiCsv: #separator:comma is honored as a literal-char separator alias', () => {
+  const text = '#separator:comma\nFront,Back'
+  assert.deepEqual(parseAnkiCsv(text), [{ front: 'Front', back: 'Back', tags: [] }])
+})
