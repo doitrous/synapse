@@ -12,7 +12,7 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 
 ## FHB 101 S1 checkpoint status
 
-**`checkpointed-incomplete`.** The completed read-only sources now yield 87 questions, 59 printed keys, and 64 tested concepts (19 live-hit / 20 pending-hit / 25 new, all placement TBD). The Fall 2025 Anatomy EOM written final added three printed question/answer pairs and one newly distinct concept; the Fall 2023–2024 answered final-revision duplicate added 48 printed question/key pairs and 27 newly distinct concepts after cross-source deduplication. The remaining source set is 109 inventory rows and the exact 103 SHA-256 values below. Its sorted-newline set checksum is `ac1ee45623f6a35a97b87170181f14bf12e50b512c8f6be2c668ab5cca8f7291`; it excludes the completed 2026 duplicate-family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95`, Fall 2025 Anatomy EOM hash `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec`, and Fall 2023–2024 answered-final-revision hash `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
+**`checkpointed-incomplete`.** The completed read-only sources now yield 165 questions, 136 printed keys, and 93 tested concepts (32 live-hit / 28 pending-hit / 33 new, all placement TBD). The Fall 2025 Anatomy EOM written final added three printed question/answer pairs and one newly distinct concept; the Fall 2023–2024 answered final-revision duplicate added 48 printed question/key pairs and 27 newly distinct concepts; and the General Embryology final-night/Fall-final family added 78 printed questions, 77 printed keys (Q27 is explicitly marked wrong, so no answer was inferred), and 29 newly distinct concepts after cross-source deduplication. The remaining source set is 108 inventory rows and the exact 102 SHA-256 values below. Its sorted-newline set checksum is `3084eb6d68a52f0d4954d50f0f5b9c23b0e17dcedcf2da2abb3894254cc7e1ca`; it excludes the completed 2026 duplicate-family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95`, Fall 2025 Anatomy EOM hash `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec`, Fall 2023–2024 answered-final-revision hash `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f`, and General Embryology hash `3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
 
 ```text
 001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b
@@ -39,7 +39,6 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 2dec835c8d017c992f906882435e68e992181cb41b5323df635c89f48d6f0098
 2e869cc596ae375f593d7b899b2090c4bcb3ef4cd29e1fd4b68c01860de91a60
 2f57b61e7071d6e87a5ae7a0464cbae2ab7d2cef7f12941420473966fd89aa58
-3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a
 345d7475ddb0ac4653ec09742516bc8e4c76e697be3eea96cc578dd8a4a50f8b
 3617ee832b59ed14004cf501b2a502b27051b9b1d80ef5bdf3dd9bab4a7eff72
 4247d855313f6cdffdeaacb7cd2b12b2f7b33711d35c392720aaa8ceaedd6f93

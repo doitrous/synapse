@@ -227,3 +227,117 @@ Every source-distinct concept was checked with the manual search tool against bo
 **Remaining file list:** 109 selected inventory paths / 103 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `ac1ee45623f6a35a97b87170181f14bf12e50b512c8f6be2c668ab5cca8f7291`.  It contains 64 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 109 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — General Embryology final-night / Fall final 2025 family
+
+The asserted starting remaining-hash checksum `ac1ee45623f6a35a97b87170181f14bf12e50b512c8f6be2c668ab5cca8f7291` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 103 hashes before this pass.  The next evidence-ranked unread substantive `06 EOM Exams` source was selected because it is an EOM-family paper with its printed `Model Answers of Embryology FHB` page, including a separately labelled Fall final 2025 key.  All eleven pages were rendered and read; its text layer is substantive.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed questions read | Printed keys recovered |
+|---|---|---|---|---:|---:|---:|
+| Anatomy | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Anatomy/06 EOM Exams/EOM MCQs - General Embryology 101 Final night exams questions.pdf` | `3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a` | 11 | 78 | 77 |
+
+The 78 questions comprise 65 numbered `Final M.C.Qs` (the printed series skips 44), five matching prompts, seven Fall final 2025 MCQs, and one Fall final 2025 essay.  The printed key supplies 64 option keys for the 65-numbered MCQs: item 27 is explicitly marked `سؤال غلط` ("wrong question") instead of an answer option.  The five matching keys, seven Fall-final option keys, and the one printed essay answer were transcribed as printed; no answer was inferred or medically corrected.
+
+### Question/key assignment ledger
+
+`M` denotes the five printed matching prompts; `F` denotes Fall final 2025 MCQs; `E` denotes its written prompt.  Every printed question is represented below, while repeated prompts are collapsed only for the assigned tested concept.
+
+| Printed question(s) read | Printed answer(s) recovered, transcribed only | Assigned tested concept |
+|---|---|---|
+| 1 | `a. Endometrium` | Endometrial uterine lining |
+| 2, 26 | `2 b. Umbilical vesicle`; `26 b. Endoderm` | Primordial-germ-cell origin and migration |
+| 3, 6, 7, 65 | `3 b. Uterine tube`; `6 a. Fertilization`; `7 b. Ampulla`; `65 c. Ampulla of the uterine tube` | Fertilization: definition and usual tubal/ampullary site |
+| 4, 60, F2 | `4 c. Gametogenesis`; `60 c. 22 autosomes and one sex chromosome`; `F2 E. Female gamete contains 22 autosomes and one sex chromosome` | Gametogenesis and gamete chromosome complement |
+| 5 | `b. Secondary oocyte` | Secondary oocyte as the female gamete |
+| 8, 10, 30, F4 | `8 a. Blastogenesis`; `10 c. Blastocyst`; `30 c. about 600 blastomeres`; `F4 A. 1st week` | Morula-to-blastocyst development and timing |
+| 9, 61, F3 | `9 c. Epiblast`; `61 b. Epiblast`; `F3 B. Epiblast` | Epiblast as the floor of the amniotic cavity |
+| 11, 12 | `11 c. 500 gm`; `12 d. The fetal surface is rough` | Full-term placenta: weight and gross surfaces |
+| 13, 34, 64 | `13 a. Neural crest`; `34 a. Neural crest`; `64 b. Neural crest` | Neural-crest derivatives |
+| 14, 33, 63, M3 | `14 d. It gives somites`; `33 b. Neural tube`; `63 a. Brain`; `M3 a. Spinal cord` | Neural-tube derivatives |
+| 15, 31, 57, M5, F6 | `15 c. Trophoblast`; `31 a. Epiblast`; `57 b. Epiblast`; `M5 b. Epiblast`; `F6 D. Epiblast` | Embryonic germ layers and their epiblast source |
+| 16, 17 | `16 b. Syncytiotrophoblast`; `17 c. Cytotrophoblast` | Trophoblast layers |
+| 18, 19, 20, 28, 62 | `18 c. Implantation`; `19 a. Upper posterior wall`; `20 b. 10th day`; `28 d. usually followed by cleavage`; `62 d. Upper posterior wall` | Implantation: process, timing, site, and features |
+| 23, 24, 56 | `23 b. Notochord`; `24 b. Nucleus pulposus`; `56 b. Remnants of notochord` | Notochord and nucleus-pulposus derivative |
+| 25, 42 | `25 b. Folding`; `42 a. Formation of the umbilical ring` | Embryonic folding and umbilical-ring formation |
+| 27 | Printed `سؤال غلط` (wrong question); no answer option is printed. | Cleavage |
+| 29 | `a. Formation of notochord` | Outcomes of fertilization |
+| 32 | `c. Ectoderm` | Surface-ectoderm derivative |
+| 35, M2 | `35 c. Somites`; `M2 c. Somites` | Somite formation from paraxial mesoderm |
+| 36, 41 | `36 b. 44`; `41 b. Their number is about 14` | Somite number |
+| 37 | `b. Bones & cartilage` | Sclerotome derivatives |
+| 38, 39 | `38 a. Muscles`; `39 c. Dermis of skin` | Myotome and dermatome derivatives |
+| 40 | `c. Urinary system` | Intermediate-mesoderm urinary-system derivative |
+| 45 | `b. Placenta` | Placental nutrition and gas-exchange function |
+| 46 | `c. 2` | Number of placental membranes late in pregnancy |
+| 47 | `b. Placenta praevia` | Placenta praevia |
+| 48 | `a. 2 arteries, 1 vein` | Umbilical-cord vessels |
+| 49 | `b. 50 cm` | Umbilical-cord length |
+| 50 | `a. One zygote` | Monozygotic twinning |
+| 51, 52 | `51 b. Embryo`; `52 c. Fetus` | Embryonic and fetal periods |
+| 53 | `b. Polyhydramnios` | Polyhydramnios |
+| 54 | `c. Uterine tube` | Ectopic pregnancy: usual tubal site |
+| 21, 22, 55 | `21 b. Gastrulation`; `22 a. Primitive streak`; `55 c. Primitive streak` | Gastrulation and primitive streak |
+| 58 | `b. Peritoneal cavity` | Intraembryonic coelom derivative |
+| 43, 59, M1, F5, E | `43 a. Lining of GIT`; `59 b. Endoderm`; `M1 e. Epithelium of G.I.T.`; `F5 B. Endoderm`; `E: epithelial lining of gastrointestinal and respiratory tracts; germ cells` | Endodermal derivatives |
+| 66, M4, F7 | `66 a. Chorion frondosum`; `M4 d. Decidua basalis`; `F7 A. Decidua basalis` | Placental fetal and maternal components |
+| F1 | `B. Testes` | Male primary sex organ |
+
+### Tested-concept search ledger — General Embryology family
+
+Each source-distinct concept was searched with the manual tool using the two recorded phrases.  `live-hit` takes precedence when either query returns live state; otherwise a pending result is retained.  `Already triaged` means question-to-concept deduplication against an earlier completed FHB source, not a proposed identifier or placement.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Endometrial uterine lining (`endometrium`; `uterine lining`) | pending-hit |
+| Primordial-germ-cell origin and migration (`primordial germ cell`; `umbilical vesicle`) | new — TBD |
+| Fertilization: definition and usual tubal/ampullary site (`fertilization ampulla`; `site fertilization`) | new — TBD; already triaged as a new FHB concept |
+| Gametogenesis and gamete chromosome complement (`gametogenesis`; `gamete chromosomes`) | pending-hit; already triaged |
+| Secondary oocyte as the female gamete (`secondary oocyte`; `female gamete`) | live-hit |
+| Morula-to-blastocyst development and timing (`blastocyst`; `morula cavity`) | live-hit |
+| Epiblast as the floor of the amniotic cavity (`epiblast`; `amniotic cavity`) | live-hit |
+| Full-term placenta: weight and gross surfaces (`full term placenta`; `placental fetal surface`) | new — TBD |
+| Neural-crest derivatives (`neural crest`; `suprarenal medulla`) | pending-hit |
+| Neural-tube derivatives (`neural tube`; `brain spinal cord`) | live-hit |
+| Embryonic germ layers and their epiblast source (`three germ layers`; `epiblast`) | pending-hit |
+| Trophoblast layers (`syncytiotrophoblast`; `cytotrophoblast`) | live-hit |
+| Implantation: process, timing, site, and features (`implantation day`; `implantation site`) | new — TBD |
+| Notochord and nucleus-pulposus derivative (`notochord`; `nucleus pulposus`) | pending-hit |
+| Embryonic folding and umbilical-ring formation (`embryonic folding`; `umbilical ring`) | live-hit |
+| Cleavage (`cleavage`; `morula`) | pending-hit |
+| Outcomes of fertilization (`fertilization outcomes`; `diploid chromosomes`) | new — TBD |
+| Surface-ectoderm derivative (`surface ectoderm`; `ectoderm derivatives`) | new — TBD; already triaged as a new FHB concept |
+| Somite formation from paraxial mesoderm (`somites`; `paraxial mesoderm`) | live-hit |
+| Somite number (`somite number`; `fifth week somites`) | pending-hit |
+| Sclerotome derivatives (`sclerotome`; `vertebrae ribs`) | pending-hit; already triaged |
+| Myotome and dermatome derivatives (`myotome`; `dermatome`) | live-hit |
+| Intermediate-mesoderm urinary-system derivative (`intermediate mesoderm`; `urinary system embryology`) | new — TBD |
+| Placental nutrition and gas-exchange function (`placenta gas exchange`; `placental function`) | new — TBD |
+| Number of placental membranes late in pregnancy (`placental membranes`; `placental membrane`) | pending-hit |
+| Placenta praevia (`placenta previa`; `lower uterine segment placenta`) | live-hit |
+| Umbilical-cord vessels (`umbilical cord vessels`; `two arteries one vein`) | new — TBD |
+| Umbilical-cord length (`umbilical cord length`; `fifty centimetres cord`) | new — TBD |
+| Monozygotic twinning (`monozygotic twins`; `identical twins`) | live-hit |
+| Embryonic and fetal periods (`embryonic period`; `fetal period`) | live-hit |
+| Polyhydramnios (`polyhydramnios`; `amniotic fluid excess`) | pending-hit |
+| Ectopic pregnancy: usual tubal site (`ectopic pregnancy`; `tubal implantation`) | live-hit; already triaged |
+| Gastrulation and primitive streak (`primitive streak`; `gastrulation first sign`) | live-hit; already triaged |
+| Intraembryonic coelom derivative (`intraembryonic coelom`; `peritoneal cavity`) | live-hit |
+| Endodermal derivatives (`endoderm`; `gastrointestinal epithelial lining`) | live-hit; already triaged |
+| Placental fetal and maternal components (`decidua basalis`; `maternal placenta`) | live-hit; already triaged |
+| Male primary sex organ (`male primary sex organ`; `testes`) | live-hit |
+
+The family has 37 source-distinct tested concepts.  Eight reproduce already-triaged FHB concepts (fertilization site, gametogenesis/gamete complement, surface ectoderm, sclerotome, ectopic pregnancy, gastrulation/primitive streak, endodermal derivatives, and placental components), so it adds 29 cumulative distinct concepts.  At source-concept level its result split is live 17 / pending 10 / new 10; the non-duplicated delta is live 13 / pending 8 / new 8.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources: 2026 duplicate family + Anatomy EOM Fall 2025 + Fall 2023–2024 answered duplicate family + General Embryology final-night/Fall final 2025 family) | 165 | 136 | 93 | 32 | 28 | 33 | TBD |
+
+**Observed delta:** +78 questions, +77 printed keys, +37 source-distinct tested concepts / +29 after cross-source deduplication.  The cumulative search buckets reconcile exactly: `32 + 28 + 33 = 93`; no module ID, content record, or placement was created.
+
+## Remaining sources / blocker — after General Embryology family
+
+**Remaining file list:** 108 selected inventory paths / 102 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `3084eb6d68a52f0d4954d50f0f5b9c23b0e17dcedcf2da2abb3894254cc7e1ca`.  It contains 63 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 108 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
