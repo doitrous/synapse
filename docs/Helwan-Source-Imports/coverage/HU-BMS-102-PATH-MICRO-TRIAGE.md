@@ -4027,3 +4027,114 @@ SHA-256 `cffa6fc24a66eb43efbe51993e5477f42863012f2b9caa546ce13de8e1de99d4`, nine
 pages under `Microbiology / Notes and Summaries`. It requires its own complete nine-page
 provenance, prompt-versus-teaching, answer-convention and source-first overlap gate before any
 count is accepted.
+
+## Family 32 — tier-6 preferred Antimicrobial Chemotherapy part 2 lecture questions
+
+### Source identity, complete-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_cffa6fc24a66eb43efbe` · `Helwan S2 Micro Antimicrobial chemotherapy part 2.pdf` |
+| SHA-256 / size / boundary | `cffa6fc24a66eb43efbe51993e5477f42863012f2b9caa546ce13de8e1de99d4` · 379,006 bytes · nine native-text A4 pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6 · `nameTwinOf: src_cffa6fc24a66eb43efbe` · `twinPreferred: true` |
+| Visible provenance | pages carry `TOP Microbiology Notes` / `Dr Mustafa Elsudani`; PDF title points to `Helwan S2 Micro Antimicrobial Chemotherapy.doc`, author `Mustafa Elsudani`, producer `Microsoft: Print To PDF` |
+| Read boundary | all nine physical pages were native-text inspected, rendered at 1,190 × 1,684 pixels, and visually read in order; printed page numbers run 7–15 |
+
+This preferred file is counted from its own nine-page evidence only; no prompt, answer, or
+teaching item is inherited from the rejected eight-page name twin. It is a Helwan-local
+**teaching lecture / notes source**, not an exam, recoverable sitting, departmental question
+bank, response sheet, or official key. Pages 1–8 are declarative lecture content. Physical p. 9
+is explicitly headed `In-Lecture Questions` and supplies two complete fill-in prompts, one MCQ,
+and an immediate printed `Answers` table. Those three table entries are printed study/lecture
+answers, not an official exam key.
+
+### Complete nine-page prompt-versus-teaching inventory
+
+| Physical page | Printed page | Visible content | Prompt / printed-answer ruling |
+|---:|---:|---|---:|
+| 1 | 7 | five mechanisms of antimicrobial resistance and examples | declarative teaching only; `0 / 0` |
+| 2 | 8 | non-genetic versus genetic acquired resistance; metabolic inactivity, target loss, and abscess sequestration | declarative teaching only; `0 / 0` |
+| 3 | 9 | intrinsic, plasmid-, transposon-, and integron-mediated resistance | declarative teaching only; `0 / 0` |
+| 4 | 10 | chromosomal resistance and development-of-resistance complications | declarative teaching only; `0 / 0` |
+| 5 | 11 | drug toxicity, superinfection, and hypersensitivity | declarative teaching only; `0 / 0` |
+| 6 | 12 | five chemoprophylaxis examples | numbered declarative examples, not response tasks; `0 / 0` |
+| 7 | 13 | clinical-use aim and principles | declarative teaching guidance only; `0 / 0` |
+| 8 | 14 | indifference, addition, synergism, and antagonism table plus culture-plate image | declarative comparison/illustration only; `0 / 0` |
+| 9 | 15 | two `Complete` blanks, one `Choose the correct answer` MCQ, and immediate `Answers` table | **3 / 3** |
+
+Headings, numbered taxonomies, coloured emphasis, checkmarks, examples, and the culture-plate
+image on pp. 1–8 are not converted into inferred questions or answers. Complete-file arithmetic
+is therefore **3 complete prompt occurrences, 3 directly printed study-answer occurrences, 3
+retained records, and 3 source-distinct tested handles**. There is no exact within-source copy
+and no semantic collapse.
+
+### Prompt, printed-answer, placement, and wording ledger
+
+| Ref | Page | Source-first prompt assignment | Printed answer | Tested handle · placement |
+|---|---:|---|---|---|
+| F32-Q01 | 9 | Agent that inhibits bacterial multiplication but does not kill bacteria | `Bacteriostatic drug` | `bacteriostatic-agent-definition` · `pharm` |
+| F32-Q02 | 9 | Ability of an antimicrobial agent to harm a pathogen without harming the host | `Selective toxicity` | `antimicrobial-selective-toxicity-definition` · `pharm` |
+| F32-Q03 | 9 | Exception among cell-wall, protein, nucleic-acid, and modified-target antimicrobial mechanisms of action | `D` · Synthesis of modified target | `antimicrobial-action-mechanism-exception-modified-target` · `pharm` |
+
+The wording and answer table are transcribed without repair. Q03's modified-target option is
+also taught on physical p. 1 as a **resistance** mechanism; the source's own action-versus-
+resistance distinction is preserved rather than used to invent a different key. The answers
+have lecture-study authority only.
+
+### Search-before-mint register and prior-BMS adjudication
+
+Each of the three source handles received four fresh required searches across live state and
+all pending import roots: **12 required searches**. Manual exact-scope follow-up confirms the
+external disposition **1 live / 0 pending / 2 no same-scope match**. All three prompts are also
+the complete, exact prompt scopes already inventoried from the single Family-15 lecture
+screenshot; their newly visible printed answer table raises answer-occurrence evidence but does
+not create a new concept.
+
+| Handle · ref | Four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacteriostatic-agent-definition` · Q01 | `bacteriostatic definition`; `inhibits bacterial multiplication not kill`; `bacteriostatic agent reversible growth inhibition`; `bacteriostatic versus bactericidal definition` | live `CON-INF-4E8ECDA3106CD7`; exact reversible growth-inhibition definition | exact collapse to Family-15 Q01, Family-20 Q09, and Family-11 Q04 |
+| `antimicrobial-selective-toxicity-definition` · Q02 | `selective toxicity definition antimicrobial`; `harm pathogen without harming host`; `antimicrobial selective toxicity`; `chemotherapeutic agent host pathogen toxicity` | new externally | exact collapse to Family-15 Q02, Family-20 Q26, and Family-11 Q09 |
+| `antimicrobial-action-mechanism-exception-modified-target` · Q03 | `antimicrobial mechanism exception modified target`; `modified target resistance not drug action`; `mechanisms action antimicrobial agents list`; `cell wall protein nucleic acid synthesis modified target` | new externally; mechanism-specific records do not state the tested classification exception | exact collapse to Family-15 Q03; Family-12 already owns the action-mechanism classes and separately places modified target under resistance |
+
+External arithmetic is `1 + 0 + 2 = 3`. Prior-BMS arithmetic is `3 source handles - 3`
+accepted same-scope overlaps `= 0` concept additions. The preferred file adds preferred-source and
+printed-answer evidence for the three existing local scopes; it does not inherit or duplicate
+the non-preferred twin's zero-delta gate.
+
+### Family-32 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 32 auxiliary | Auxiliary cumulative (Families 12–32) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 3 | 184 | 765 | 949 |
+| Printed study-answer occurrences | 3 | 128 | 405 | 533 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 3 | 181 | 552 | 733 |
+| Source-distinct tested handles | 3 | 179 | — | — |
+| External live / pending / no same-scope match | 1 / 0 / 2 | — | — | family-local disposition |
+| Handles already represented in Families 1–31 | 3 | 37 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +142 over primary | — | `372 + 142 = 514` |
+| **Distinct tested concepts** | **+0** | **142 auxiliary additions** | **372** | **514** |
+
+Family arithmetic is `3 observed - 0 exact copies = 3 retained`, `3 retained - 0 semantic
+collapses = 3 source handles`, `1 + 0 + 2 = 3`, and `3 - 3 = 0` concept additions. The primary
+checkpoint remains **765 / 405 / 552 / 372**. Auxiliary cumulative arithmetic is `181 + 3 =
+184` observed, `125 + 3 = 128` printed study answers, `178 + 3 = 181` retained, `176 + 3 =
+179` source handles, and concepts remain **+142** over primary. The all-eligible inventory
+becomes **949 / 533 / 733 / 514**. This tier-6 lecture source cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status; no readiness or claims
+change is warranted.
+
+### Exact next debt after Family 32
+
+`src_cffa6fc24a66eb43efbe` is exhausted: all nine rendered pages have one explicit
+prompt-versus-teaching ruling, all three prompts and printed study answers are assigned once,
+and all three handles have one four-query search row. No page remains to resume. The next
+manifest-ordered local BMS-102 candidate is tier-6 `src_18cd7982180151db2cee` · `Helwan S2
+Micro Bacterial Variation.pdf`, SHA-256
+`18cd7982180151db2ceebec0dd9e7640c0e88f154a22799fad47e6b9eaa40e7c`, eight native-text
+pages under `Microbiology / Notes and Summaries`. It requires a bounded complete-page
+provenance, prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate
+before any count is accepted.
