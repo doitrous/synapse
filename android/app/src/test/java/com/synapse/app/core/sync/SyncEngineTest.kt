@@ -93,6 +93,16 @@ class SyncEngineTest {
         engine.refresh(NOW)
         assertEquals(setOf("x", "y"), store.attemptsById.keys)  // merged, not replaced
     }
+
+    @Test fun retryableEntryIsKeptForNextDrain() = runTest {
+        store.enqueue("synapse.notebook.a", "{}")
+        api.putErrors["synapse.notebook.a"] = ApiError.Retryable(RuntimeException("network"))
+        val result = engine.refresh(NOW)
+        assertEquals(0, result.pushed)
+        assertEquals(0, result.abandoned)
+        assertFalse(result.stoppedUnauthorized)
+        assertEquals(1, store.outbox.size)  // left in the outbox for the next drain
+    }
 }
 
 private class FakeApi : SynapseApi {

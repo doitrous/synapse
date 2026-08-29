@@ -8,6 +8,7 @@ import com.synapse.app.core.model.StateDoc
 import kotlinx.serialization.json.Json
 import java.time.Instant
 import java.time.ZoneOffset
+import kotlin.coroutines.cancellation.CancellationException
 
 /**
  * The sole network caller. Screens read [LocalStore]; only this class talks to
@@ -36,6 +37,7 @@ class SyncEngine(
         val manifest = try {
             api.manifest()
         } catch (e: Exception) {
+            if (e is CancellationException) throw e
             null
         }
         val keys = if (manifest == null) {
@@ -47,6 +49,7 @@ class SyncEngine(
             val doc = try {
                 api.getState(key)
             } catch (e: Exception) {
+                if (e is CancellationException) throw e
                 continue
             }
             store.putCatalogue(key, doc.updatedAt ?: "", Json.encodeToString(StateDoc.serializer(), doc))
@@ -60,6 +63,7 @@ class SyncEngine(
         val remote = try {
             api.getAttempts(month)
         } catch (e: Exception) {
+            if (e is CancellationException) throw e
             return
         }
         store.putAttempts(remote)
