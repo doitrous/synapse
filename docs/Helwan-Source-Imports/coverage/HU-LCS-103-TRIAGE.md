@@ -969,17 +969,99 @@ arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Fa
 malformed auxiliary handle remain outside tested-concept totals; Family 10 adds neither an
 assessment prompt nor an unresolved handle.
 
+## Family 11 — third and final Pathology quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_758188828699ae3569f4` |
+| Manifest SHA-256 | `758188828699ae3569f40ab702bb53654038b3fb65a072ea1c182d2d8c1b7512` |
+| Recomputed SHA-256 | `758188828699ae3569f40ab702bb53654038b3fb65a072ea1c182d2d8c1b7512` |
+| File | `Most important notes pathology (Quiz content)3.jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Pathology/Assessments/Quizzes/Most important notes pathology (Quiz content)3.jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Pathology · Assessments/Quizzes |
+| Container | one 1920 × 2560 progressive JPEG photograph of a ruled spiral-notebook page, photographed sideways |
+| Read method | original-resolution visual read after orientation correction, source-first |
+
+The page is one entirely handwritten `Bone Tumors` classification diagram. Three arrows
+lead to `Diaphysis`, `Metaphysis` and `Epiphysis`, beneath which six tumour-location bullets
+remain readable. There is no interrogative stem, answer choice, blank response area, typeset
+solution, response mark or key layout. It therefore contributes **zero complete prompts,
+zero incomplete prompts and zero printed or handwritten answer keys**. The six readable
+bullets remain auxiliary evidence only.
+
+A seventh dash under `Diaphysis` is followed by text that has been fully scribbled out. It
+is recorded as a deleted source mark but is neither reconstructed nor counted as a statement,
+prompt, key or unresolved semantic handle.
+
+### Exact note-statement inventory
+
+| Diagram branch / atom | Visible handwritten statement | Prompt status | Key status |
+|---|---|---|---|
+| Diaphysis · D1 | `Osteoid Osteoma` | unnumbered location note, not a prompt | none |
+| Diaphysis · D2 | `Ewing's Sarcoma` | unnumbered location note, not a prompt | none |
+| Diaphysis · deleted line | one bullet's following text is completely scribbled out | deleted mark; not counted as a prompt or statement | none |
+| Metaphysis · M1 | `Osteoblastoma` | unnumbered location note; conflicts with Family 10's posterior-vertebral wording but is not corrected | none |
+| Metaphysis · M2 | `Osteo chondroma` | source spacing preserved; unnumbered location note, not a prompt | none |
+| Metaphysis · M3 | `Osteo Sarcoma` | source spacing preserved; unnumbered location note, not a prompt | none |
+| Epiphysis · E1 | `Giant Cell Tumor (Osteoclastoma)` | unnumbered location note, not a prompt | none |
+| **Family 11** | **6 complete visible tumour-location bullet statements; one fully deleted bullet outside counts** | **0 complete / 0 incomplete prompts** | **0** |
+
+There is no exact repeated statement within this source and no within-source semantic
+collapse: six visible bullet assignments yield six disease handles. Five handles reuse
+Family 10 disease concepts with a new location attribute; only the osteochondroma handle is
+new to LCS-103. Reusing a handle does not erase the source's six distinct bullet occurrences.
+
+### Statement-to-handle assignment and search ledger
+
+All six handles received four required searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root and the accepted prior-LCS
+ledger: **6 × 4 = 24 required invocations**. Six exact disease-name follow-ups resolved
+phrase-order and cross-lane hits, for **30 invocations total**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `D1→osteoid-osteoma-clinical-pattern` | `osteoid osteoma diaphysis`; `osteoid osteoma shaft`; `osteoid osteoma location`; `diaphyseal bone tumor` | Exact Family-10 disease handle; its clinical-pattern record can absorb the diaphyseal location. No substantive external location record was found. | prior LCS (inherited new) | — |
+| 2 | `D2→ewing-sarcoma-clinical-radiology` | `Ewing sarcoma diaphysis`; `Ewing tumor shaft`; `onion skin diaphysis`; `Ewing long bone location` | Exact Family-10 disease handle; attach the diaphyseal location to that source concept. Exact-word follow-up finds no substantive external disease record. | prior LCS (inherited new) | — |
+| 3 | `M1→osteoblastoma-clinical-pattern` | `osteoblastoma metaphysis`; `osteoblastoma long bone location`; `giant osteoid osteoma metaphysis`; `metaphyseal osteoblastoma` | Exact Family-10 disease handle, but the current diagram's `Metaphysis` conflicts with Family 10's legible `Posterior Components of Vertebrae`. Both source atoms remain attached to one handle and neither is silently normalised. No external record resolves the conflict. | prior LCS (inherited new) with source conflict | — |
+| 4 | `M2→osteochondroma-typical-location` | `osteochondroma metaphysis`; `cartilage cap exostosis`; `metaphyseal exostosis`; `osteochondroma growth plate` | A BMS-102 triage item mentions osteochondroma only as a hamartoma option; it does not own this metaphyseal-location scope and is not substantive live/import-ready coverage. No same-scope record exists. | note-only candidate; external new | MSK/PATH |
+| 5 | `M3→osteosarcoma-radiographic-signs` | `osteosarcoma metaphysis`; `osteogenic sarcoma metaphyseal`; `sunburst metaphysis`; `distal femur osteosarcoma` | Exact Family-10 disease handle; attach the metaphyseal location to its Codman-triangle/sunburst scope. The separate BMS-102 sunburst handle remains triage evidence rather than substantive coverage. | prior LCS (inherited new); cross-lane triage match | — |
+| 6 | `E1→giant-cell-tumor-stromal-cell-biology` | `giant cell tumor epiphysis`; `osteoclastoma epiphysis`; `epiphyseal bone tumor`; `giant cell tumor long bone end` | Exact Family-10 disease handle; its source concept can absorb the epiphyseal location. No substantive external giant-cell-tumour location record was found. | prior LCS (inherited new) | — |
+
+### Family-11 checkpoint and cumulative LCS-103 delta
+
+| Family-11 evidence bucket | Visible bullet assignments | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 5 | 5 | 0 | 0 | 5 | 0 |
+| New-to-LCS resolved note-only candidates | 1 | 1 | 0 | 0 | 1 | 0 |
+| **Family 11 auxiliary evidence** | **6** | **6** | **0** | **0** | **6** | **0** |
+
+These are auxiliary evidence dispositions, not a tested-concept delta. The assessment-led
+module delta is **+0 observed prompts, +0 printed keys and +0 resolved tested concepts**.
+Anatomy remains at 27 auxiliary statements; all three Pathology images now contribute
+`10 + 7 + 6 = 23`, for `27 + 23 = 50` auxiliary statements across both subjects. The
+fully deleted Diaphysis bullet is recorded outside that count.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 10 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 11 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 11** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `5 prior + 1 new-to-LCS = 6` visible bullet assignments; no within-source
+repeat or collapse leaves six handles; `0 live + 0 pending + 6 new + 0 unresolved = 6`.
+Module arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Family
+5's malformed auxiliary handle remain outside tested-concept totals; Family 11 adds one
+recorded source conflict but no unresolved handle.
+
 ## Exact next debt
 
-- All five local Anatomy quiz-content images and the first two Pathology quiz-content images
-  are now triaged. The next and final untriaged local Pathology image is
-  `src_758188828699ae3569f4`, `Most important notes pathology (Quiz content)3.jpg`. Its
-  visual prompt/note classification, key status, repeat collapse and semantic search remain
-  wholly outside this checkpoint.
+- All five Anatomy and all three Pathology quiz-content images are now visually triaged.
 - Pathology `TUTORIAL 103` is explicitly LCS-103 evidence even though it resides in the
   BMS-102 department-bank PDF `src_88169dc9b6ad00181a0d`. Printed pp. 256–262 (physical
   pp. 16–22) contain **33 raw prompts**: 19 MCQs and 14 written/completion/table prompts,
-  with no visually printed answer marks. It remains excluded from BMS-102 and queued here
-  after the remaining actual assessments.
+  with no visually printed answer marks. It remains excluded from BMS-102 and is now the
+  exact next LCS-103 debt.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.

@@ -163,6 +163,12 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   scribbled N14 fragment is not reconstructed or counted. Its seven auxiliary handles are all
   new; osteoid osteoma is distinct from Family-9 osteoma, and the osteosarcoma sunburst/Codman
   collision is only separate BMS triage evidence, not substantive coverage. The auxiliary-note
-  total is now 44, with assessment totals unchanged.
-- Continue the final pathology assessment image, then Tutorial 103; this remains S1 evidence
-  only.
+  total is 44 before the final image, with assessment totals unchanged.
+- The third pathology image `src_758188828699ae3569f4` is a sideways handwritten Bone Tumors
+  diagram: six readable location bullets, no assessment prompts and no keys. Its deleted
+  Diaphysis bullet is not reconstructed or counted. Five bullets reuse Family-10 disease
+  handles (inherited new); osteochondroma is the only new location handle. The source's
+  osteoblastoma/Metaphysis atom conflicts with its earlier posterior-vertebral note and stays
+  preserved. All eight local images are now triaged: 50 auxiliary statements and unchanged
+  assessment totals.
+- Continue Tutorial 103; this remains S1 evidence only.
