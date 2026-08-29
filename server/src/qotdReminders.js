@@ -1,9 +1,26 @@
 import { pool } from './db.js'
 import { cairoDate, todaysQuestionId } from './qotd.js'
-import { sendApnsAlert } from './push.js'
+import { sendApnsAlert, isConfigured as apnsConfigured } from './push.js'
 import { sendFcmAlert } from './fcm.js'
 import { sendWebPush } from './webPush.js'
 import { sendReminderEmail } from './qotdReminderEmail.js'
+
+/**
+ * Which push platforms can actually deliver right now, by their own config.
+ *
+ * A student is only treated as a "push device" holder for platforms that can
+ * deliver — otherwise a dormant platform (e.g. iOS tokens registered by the
+ * silent-sync pipeline while APNs alert keys are absent) would win the
+ * prefer-push-else-email choice and the student would silently get nothing,
+ * even with a deliverable email address.
+ */
+function deliverablePlatforms() {
+  const set = []
+  if (apnsConfigured()) set.push('ios')
+  if (process.env.FCM_SERVICE_ACCOUNT) set.push('android')
+  if (process.env.VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) set.push('web')
+  return set
+}
 
 /** Cairo wall-clock parts of an instant. */
 function cairoParts(now) {
@@ -65,12 +82,12 @@ async function unansweredStudents(date) {
   return rows
 }
 
-/** user_id → number of registered push devices, for the whole recipient set. */
-async function pushDeviceCounts(userIds) {
-  if (!userIds.length) return new Map()
+/** user_id → number of registered devices on a DELIVERABLE platform. */
+async function pushDeviceCounts(userIds, platforms) {
+  if (!userIds.length || !platforms.length) return new Map()
   const [rows] = await pool.query(
-    'SELECT user_id AS userId, COUNT(*) AS n FROM device_tokens WHERE user_id IN (?) GROUP BY user_id',
-    [userIds],
+    'SELECT user_id AS userId, COUNT(*) AS n FROM device_tokens WHERE user_id IN (?) AND platform IN (?) GROUP BY user_id',
+    [userIds, platforms],
   )
   return new Map(rows.map((r) => [r.userId, Number(r.n)]))
 }
@@ -110,31 +127,46 @@ export async function dispatchQotdReminders(now = new Date()) {
   const [claim] = await pool.query('INSERT IGNORE INTO qotd_reminder_runs (run_date) VALUES (?)', [date])
   if (claim.affectedRows === 0) return { skipped: 'already_ran', date }
 
-  const students = await unansweredStudents(date)
-  // Drop students whose cohort has no question today (nothing to remind about).
-  const groups = groupByCohort(students)
-  const cohortHasQuestion = new Map()
-  for (const [key, { cohort }] of groups) {
-    cohortHasQuestion.set(key, Boolean(await todaysQuestionId(cohort, date)))
-  }
-  const eligible = students.filter((s) => cohortHasQuestion.get(`${s.universityId}|${s.year}|${s.yearId ?? ''}`))
+  try {
+    const students = await unansweredStudents(date)
+    // Drop students whose cohort has no question today (nothing to remind about).
+    // A cohort whose question cannot be resolved (bad app_state, DB blip) is
+    // skipped rather than aborting the whole run.
+    const groups = groupByCohort(students)
+    const cohortHasQuestion = new Map()
+    for (const [key, { cohort }] of groups) {
+      try {
+        cohortHasQuestion.set(key, Boolean(await todaysQuestionId(cohort, date)))
+      } catch (error) {
+        cohortHasQuestion.set(key, false)
+        console.error('qotd reminder: could not resolve question for cohort', key, error?.message)
+      }
+    }
+    const eligible = students.filter((s) => cohortHasQuestion.get(`${s.universityId}|${s.year}|${s.yearId ?? ''}`))
 
-  const deviceCounts = await pushDeviceCounts(eligible.map((s) => s.userId))
-  let push = 0, email = 0, skipped = 0
-  for (const s of eligible) {
-    const channel = resolveChannel({ hasPushDevice: (deviceCounts.get(s.userId) ?? 0) > 0, hasEmail: Boolean(s.email) })
-    try {
-      if (channel === 'push') { const r = await sendPushToUser(s.userId, REMINDER); r.sent > 0 ? push++ : skipped++ }
-      else if (channel === 'email') { const ok = await sendReminderEmail(s, REMINDER); ok ? email++ : skipped++ }
-      else skipped++
-    } catch (error) { skipped++; console.error('qotd reminder failed for', s.userId, error?.message) }
-  }
+    const deviceCounts = await pushDeviceCounts(eligible.map((s) => s.userId), deliverablePlatforms())
+    let push = 0, email = 0, skipped = 0
+    for (const s of eligible) {
+      const channel = resolveChannel({ hasPushDevice: (deviceCounts.get(s.userId) ?? 0) > 0, hasEmail: Boolean(s.email) })
+      try {
+        if (channel === 'push') { const r = await sendPushToUser(s.userId, REMINDER); r.sent > 0 ? push++ : skipped++ }
+        else if (channel === 'email') { const ok = await sendReminderEmail(s, REMINDER); ok ? email++ : skipped++ }
+        else skipped++
+      } catch (error) { skipped++; console.error('qotd reminder failed for', s.userId, error?.message) }
+    }
 
-  await pool.query(
-    'UPDATE qotd_reminder_runs SET push_sent = ?, email_sent = ?, skipped = ? WHERE run_date = ?',
-    [push, email, skipped, date],
-  )
-  return { date, claimed: true, push, email, skipped }
+    await pool.query(
+      'UPDATE qotd_reminder_runs SET push_sent = ?, email_sent = ?, skipped = ? WHERE run_date = ?',
+      [push, email, skipped, date],
+    )
+    return { date, claimed: true, push, email, skipped }
+  } catch (error) {
+    // Setup failed after the day was claimed. Release the claim so the next tick
+    // inside the send window retries, rather than burning the whole day's run.
+    await pool.query('DELETE FROM qotd_reminder_runs WHERE run_date = ?', [date]).catch(() => {})
+    console.error('qotd reminder dispatch aborted; released claim for', date, error?.message)
+    return { error: 'dispatch_failed', date }
+  }
 }
 
 let schedulerStarted = false
