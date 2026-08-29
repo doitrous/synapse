@@ -10,5 +10,8 @@ interface LocalStore {
     suspend fun clearOutbox(key: String)
     suspend fun putAttempts(items: List<AttemptRecord>)
     suspend fun attempts(month: String): List<AttemptRecord>
+    suspend fun putUserState(key: String, json: String, savedAt: String?, serverUpdatedAt: String?)
+    suspend fun getUserState(key: String): String?
+    suspend fun userStateSavedAt(key: String): String?
     suspend fun clearAll()
 }

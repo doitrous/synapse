@@ -16,6 +16,7 @@ import com.synapse.app.core.auth.DataStoreTokenStore
 import com.synapse.app.core.auth.SupabaseAuthBackend
 import com.synapse.app.core.auth.TokenStore
 import com.synapse.app.core.cache.LocalStore
+import com.synapse.app.core.cache.room.MIGRATION_1_2
 import com.synapse.app.core.cache.room.RoomLocalStore
 import com.synapse.app.core.cache.room.SynapseDatabase
 import com.synapse.app.core.config.AppConfig
@@ -67,7 +68,9 @@ object AppModule {
     @Provides
     @Singleton
     fun provideSynapseDatabase(@ApplicationContext context: Context): SynapseDatabase =
-        Room.databaseBuilder(context, SynapseDatabase::class.java, "synapse.db").build()
+        Room.databaseBuilder(context, SynapseDatabase::class.java, "synapse.db")
+            .addMigrations(MIGRATION_1_2)
+            .build()
 
     @Provides
     @Singleton
