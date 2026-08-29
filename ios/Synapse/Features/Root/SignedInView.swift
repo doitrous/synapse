@@ -57,16 +57,14 @@ struct SignedInView: View {
             // before drawing itself.
             await assistant.loadStatus()
         }
-        // A tapped reminder routes here, once there is a tab bar to route
-        // it to. The native app has no dedicated Question of the Day screen
-        // yet (that lives on the web app today — see
-        // docs/superpowers/plans/2026-08-29-question-of-the-day-reminders.md,
-        // Lane R3); Today is the closest existing destination and where a
-        // native QotD surface would most likely land.
+        // A tapped daily reminder brings the Today tab forward; DashboardView
+        // hosts the Question of the Day card and sheet, so it consumes the
+        // "/app/qotd" route and opens the screen. Any other route is handled
+        // (and consumed) here.
         .onChange(of: PushRegistrar.shared.pendingRoute) { _, route in
-            guard route != nil else { return }
+            guard let route else { return }
             tab = .today
-            _ = PushRegistrar.shared.consumePendingRoute()
+            if route != "/app/qotd" { _ = PushRegistrar.shared.consumePendingRoute() }
         }
     }
 

@@ -19,6 +19,7 @@ struct DashboardView: View {
     @State private var articleCount = 0
     @State private var questionCount = 0
     @State private var showingAccount = false
+    @State private var showingQotd = false
     /// Both calendars, merged, so "what is next" answers from whichever has it.
     /// Concept id → the name a person would recognise.
     ///
@@ -43,10 +44,19 @@ struct DashboardView: View {
 
     private var audience: StudentAudience { audienceStore.audience }
 
+    /// Open the Question of the Day if a reminder tap asked for it, and consume
+    /// the pending route so it fires once.
+    private func openQotdIfRequested() {
+        guard PushRegistrar.shared.pendingRoute == "/app/qotd" else { return }
+        _ = PushRegistrar.shared.consumePendingRoute()
+        showingQotd = true
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
+                    QotdCard { showingQotd = true }
                     if model.summary.attempts == 0 {
                         firstRun
                         nextOnSchedule
@@ -82,14 +92,21 @@ struct DashboardView: View {
                 AccountView(user: user, auth: auth, sync: sync, audienceStore: audienceStore)
             .localisedSheet()
             }
+            .sheet(isPresented: $showingQotd) {
+                QotdView(store: library, sync: sync, api: api, audience: audience)
+            }
         }
         .task {
             await mastery.load()
             await refresh()
+            openQotdIfRequested()
         }
         .onChange(of: sync.status) { _, status in
             if case .done = status { Task { await refresh(); await mastery.load() } }
         }
+        // A tapped daily reminder deep-links here. Consuming the route is this
+        // screen's job — SignedInView only brings the Today tab forward.
+        .onChange(of: PushRegistrar.shared.pendingRoute) { _, _ in openQotdIfRequested() }
         .refreshable {
             await sync.refresh()
             await mastery.load()
