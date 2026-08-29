@@ -73,7 +73,13 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - The completed Family-1 register records 4 live, 11 scope-proven pending and 44 new
   dispositions (59 handles; 236 required plus 10 abbreviation follow-up searches). It is
   evidence only: no IDs, content, import or approval were created.
-- Continue the remaining actual-assessment sources, beginning `src_5423328a4798dba3c3be`
-  (75 raw MCQs with 75 apparent printed keys). Tutorial 103, printed pp. 256–262 in the
-  BMS-102 pathology-bank PDF, is LCS-103 evidence: 33 raw prompts (19 MCQ, 14
+- Locomotor quiz exams `src_5423328a4798dba3c3be`, pp. 1–11, add 75 observed MCQs and
+  75 printed answer-column keys. Two exact repeat forms collapse to 29 source-distinct
+  handles; 15 reuse Family-1 coverage and 14 are new to LCS-103 (0 live, 5 pending, 9 new).
+- The cumulative Family-1/2 checkpoint is 152 observed prompts, 75 printed keys and 73
+  tested concepts: 4 live, 16 scope-proven pending and 53 new. It remains evidence only;
+  no IDs, content, import or approval were created.
+- Next is `src_414df0f15610aa4232f0` (physio previous exams), followed by the remaining
+  anatomy/pathology assessment images. Tutorial 103, printed pp. 256–262 in the BMS-102
+  pathology-bank PDF, is LCS-103 evidence: 33 raw prompts (19 MCQ, 14
   written/completion/table) and no visibly printed answer marks.

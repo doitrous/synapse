@@ -158,16 +158,141 @@ Arithmetic: `4 + 11 + 44 = 59` dispositions; `77 - 18 = 59` source-distinct hand
 This is the first bounded LCS-103 family, not the consolidated module or Helwan Year-1
 triage checkpoint.
 
+## Family 2 — five anatomy locomotor quiz exams
+
+### Source identity and read method
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_5423328a4798dba3c3be` |
+| Manifest SHA-256 | `5423328a4798dba3c3be58543155dee7da4efd04ef9c57886d6a6b657a21bf91` |
+| Recomputed SHA-256 | `5423328a4798dba3c3be58543155dee7da4efd04ef9c57886d6a6b657a21bf91` |
+| File | `Exams for Locomotor Quiz.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Assessments/Exams/Exams for Locomotor Quiz.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · All Subjects · Assessments/Exams |
+| Container | 11 native-text, unencrypted A4 PDF pages; five consecutively numbered anatomy exams |
+| This bounded family | Exam 1 pp. 1–2; Exam 2 pp. 3–4; Exam 3 pp. 5–6; Exam 4 pp. 7–8; Exam 5 pp. 9–11 |
+| Read method | `pdftotext -layout` transcription checked against every page rendered at 180 dpi |
+
+All 11 rendered pages show a pale-yellow answer column separated from the option text by a
+vertical rule. Each of the 75 question rows has one large bold letter in that column. Those
+letters are therefore **75 printed keys**, not incidental option labels or later handwriting.
+S1 records the printed letters as evidence and does not silently correct their medical content.
+
+### Exact question and key inventory
+
+| Exam | Physical pages | Raw MCQ records | Printed keys | Printed key sequence Q1→Q15 |
+|---:|---:|---:|---:|---|
+| 1 | 1–2 | 15 | 15 | `A A D D C B C C D D C B A E D` |
+| 2 | 3–4 | 15 | 15 | `A B B B D C B A A E A E D C A` |
+| 3 | 5–6 | 15 | 15 | `B A B C A C C D C C D C A A E` |
+| 4 | 7–8 | 15 | 15 | `D B B C A C B B D C B D A B A` |
+| 5 | 9–11 | 15 | 15 | `D C E C D D D D D B B D C E B` |
+| **Family 2** | **1–11** | **75** | **75** | **75 one-letter answer-column marks** |
+
+Arithmetic: `5 × 15 = 75` observed MCQ records and `15 + 15 + 15 + 15 + 15 = 75`
+printed keys. Two later occurrences are exact prompt repeats apart from numbering/layout:
+Exam 2 Q5 repeats Exam 1 Q4, and Exam 5 Q13 repeats Exam 5 Q4. Thus the source contains
+**73 unique prompt forms**, but all **75 observed exam occurrences and 75 printed keys** remain
+counted as assessment evidence.
+
+The transcription also preserves source defects instead of repairing them: Exam 1 Q14's
+key `E` selects printed compound option `B&D`; Exam 2 Q10 and Q12 each key printed compound
+option `C & D`; Exam 1 Q13 ends with the truncated option `d-magnus`; Exam 3 Q12 has the
+malformed singular/directional stem; Exam 4 Q8 duplicates the `d.` option label; Exam 4 Q11
+omits a positional preposition; and Exam 5 Q5 retains printed key `D` despite its dual-lesion
+stem being a content-review risk. These are keyed source records, not S1 corrections.
+
+### Question-to-handle assignment ledger
+
+Every observed question occurrence is assigned once below. Repeated handles are deliberate
+semantic collapses, while the two exact repeats remain visibly attached to both source locations.
+
+| Evidence | One-to-one assignments in question order |
+|---|---|
+| Exam 1 · Q1–Q15 | `Q1→saphenous-opening`; `Q2→iliotibial-tract`; `Q3→hip-flexor-identification`; `Q4→obturator-nerve-roots-and-distribution`; `Q5→adductor-magnus-oina`; `Q6→femoral-triangle-anatomy`; `Q7→femoral-sheath`; `Q8→femoral-artery`; `Q9→femoral-sheath`; `Q10→adductor-canal`; `Q11→femoral-nerve-roots-course-and-distribution`; `Q12→gluteus-maximus-oina`; `Q13→gluteus-medius-oina`; `Q14→sciatic-foramina-contents`; `Q15→inferior-gluteal-artery` |
+| Exam 2 · Q1–Q15 | `Q1→iliotibial-tract`; `Q2→sartorius-oina`; `Q3→rectus-femoris-oina`; `Q4→articularis-genu-oina`; `Q5→obturator-nerve-roots-and-distribution` (**exact repeat of E1Q4**); `Q6→femoral-triangle-anatomy`; `Q7→femoral-sheath`; `Q8→adductor-canal`; `Q9→femoral-nerve-roots-course-and-distribution`; `Q10→saphenous-nerve-sensory-territory`; `Q11→gluteus-maximus-oina`; `Q12→sciatic-foramina-contents`; `Q13→quadratus-femoris-oina`; `Q14→popliteal-artery`; `Q15→femoral-sheath` |
+| Exam 3 · Q1–Q15 | `Q1→sartorius-oina`; `Q2→quadriceps-femoris-action`; `Q3→femoral-triangle-anatomy`; `Q4→adductor-canal`; `Q5→femoral-nerve-roots-course-and-distribution`; `Q6→gluteus-minimus-oina`; `Q7→sciatic-foramina-contents`; `Q8→adductor-canal`; `Q9→adductor-canal`; `Q10→obturator-nerve-roots-and-distribution`; `Q11→obturator-internus-oina`; `Q12→adductor-canal`; `Q13→adductor-canal`; `Q14→gluteal-intramuscular-injection`; `Q15→femoral-sheath` |
+| Exam 4 · Q1–Q15 | `Q1→sartorius-oina`; `Q2→rectus-femoris-oina`; `Q3→femoral-triangle-anatomy`; `Q4→adductor-canal`; `Q5→femoral-nerve-roots-course-and-distribution`; `Q6→obturator-nerve-roots-and-distribution`; `Q7→iliotibial-tract`; `Q8→superior-gluteal-artery`; `Q9→quadratus-femoris-oina`; `Q10→obturator-nerve-roots-and-distribution`; `Q11→saphenous-opening`; `Q12→major-lower-limb-nerve-injury-deformities`; `Q13→superior-gemellus-oina`; `Q14→femoral-sheath`; `Q15→femoral-nerve-roots-course-and-distribution` |
+| Exam 5 · Q1–Q15 | `Q1→femoral-nerve-roots-course-and-distribution`; `Q2→rectus-femoris-oina`; `Q3→gluteus-maximus-oina`; `Q4→sciatic-foramina-contents`; `Q5→biceps-femoris-oina`; `Q6→obturator-nerve-roots-and-distribution`; `Q7→femoral-sheath`; `Q8→obturator-nerve-roots-and-distribution`; `Q9→obturator-nerve-roots-and-distribution`; `Q10→adductor-magnus-oina`; `Q11→sciatic-foramina-contents`; `Q12→sciatic-foramina-contents`; `Q13→sciatic-foramina-contents` (**exact repeat of E5Q4**); `Q14→sciatic-foramina-contents`; `Q15→piriformis-oina` |
+
+There are **29 source-distinct handles**. The assignment collapse is `75 - 29 = 46` repeated
+concept assignments, including the two exact prompt repeats. Fifteen handles already exist in
+Family 1; the other fourteen are a net addition to LCS-103.
+
+### Search-before-mint register and semantic dispositions
+
+All 29 handles received four searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root, and the accepted Family-1
+LCS ledger. This is **29 × 4 = 116 search invocations**. A glossary-only or narrower mention
+does not count as same-scope coverage. `prior LCS` means the Family-2 question attaches to an
+already counted LCS-103 handle and creates no cumulative concept delta.
+
+| # | Handle / evidence | Four required queries | Same-idea/same-scope result | Family-2 bucket | Placement if new |
+|---:|---|---|---|---|---|
+| 1 | `saphenous-opening` · E1Q1, E4Q11 | `saphenous opening`; `fossa ovalis`; `cribriform fascia`; `great saphenous vein opening` | Pending AU-MED-105 concept owns the opening, cribriform fascia and vein passage. | pending | — |
+| 2 | `iliotibial-tract` · E1Q2, E2Q1, E4Q7 | `iliotibial tract`; `iliotibial band`; `tensor fascia lata insertion`; `lateral thigh fascia` | A glossary term and a gluteus-maximus insertion sentence do not cover the tract's attachments and classification. | new | MSK/ANA |
+| 3 | `hip-flexor-identification` · E1Q3 | `hip flexor muscle`; `thigh flexor`; `psoas major action`; `flexion of hip joint` | No same-scope hit. | new | MSK/ANA |
+| 4 | `obturator-nerve-roots-and-distribution` · E1Q4, E2Q5, E3Q10, E4Q6/Q10, E5Q6/Q8/Q9 | `obturator nerve`; `L2 L3 L4 obturator`; `medial thigh cutaneous`; `obturator nerve injury` | Pending Kasr/AU concepts together own L2–4 origin, divisions, medial-compartment motor supply and medial-thigh sensation; extend rather than mint. | pending | — |
+| 5 | `adductor-magnus-oina` · E1Q5, E5Q10 | `adductor magnus`; `adductor hiatus`; `hamstring part adductor magnus`; `adductor magnus innervation` | Exact Family-1 handle; inherited live disposition. | prior LCS | — |
+| 6 | `femoral-triangle-anatomy` · E1Q6, E2Q6, E3Q3, E4Q3 | `femoral triangle`; `Scarpa triangle`; `femoral triangle boundaries`; `femoral triangle floor` | Pending Kasr article/concept family owns the triangle and its contents; extend it for complete boundary/floor scope. | pending | — |
+| 7 | `femoral-sheath` · E1Q7/Q9, E2Q7/Q15, E3Q15, E4Q14, E5Q7 | `femoral sheath`; `femoral canal`; `sheath compartments`; `femoral hernia` | Exact Family-1 handle; inherited pending disposition. | prior LCS | — |
+| 8 | `femoral-artery` · E1Q8 | `femoral artery`; `superficial femoral`; `femoral artery branches`; `lower limb artery` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+| 9 | `adductor-canal` · E1Q10, E2Q8, E3Q4/Q8/Q9/Q12/Q13, E4Q4 | `adductor canal`; `Hunter canal`; `subsartorial canal`; `canal contents` | Exact Family-1 handle; inherited pending disposition. | prior LCS | — |
+| 10 | `femoral-nerve-roots-course-and-distribution` · E1Q11, E2Q9, E3Q5, E4Q5/Q15, E5Q1 | `femoral nerve`; `L2 L3 L4 femoral`; `anterior thigh motor nerve`; `femoral nerve injury` | Pending Kasr concept covers origin, thigh course, branches and quadriceps-loss injury; AU adds cutaneous distribution. | pending | — |
+| 11 | `gluteus-maximus-oina` · E1Q12, E2Q11, E5Q3 | `gluteus maximus`; `gluteus maximus insertion`; `inferior gluteal nerve`; `powerful hip extension` | Exact Family-1 handle; inherited pending disposition. | prior LCS | — |
+| 12 | `gluteus-medius-oina` · E1Q13 | `gluteus medius`; `gluteus medius insertion`; `superior gluteal nerve`; `thigh abduction pelvic stability` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+| 13 | `sciatic-foramina-contents` · E1Q14, E2Q12, E3Q7, E5Q4/Q11–Q14 | `greater sciatic foramen`; `lesser sciatic foramen`; `sciatic foramina contents`; `piriformis foramen contents` | Exact Family-1 handle; inherited pending disposition. | prior LCS | — |
+| 14 | `inferior-gluteal-artery` · E1Q15 | `inferior gluteal artery`; `inferior gluteal vessel`; `sciatic nerve arterial branch`; `internal iliac posterior branch` | No same-scope hit. | new | CVS/ANA |
+| 15 | `sartorius-oina` · E2Q2, E3Q1, E4Q1 | `sartorius`; `sartorius origin insertion`; `femoral nerve sartorius`; `femoral triangle boundary` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+| 16 | `rectus-femoris-oina` · E2Q3, E4Q2, E5Q2 | `rectus femoris`; `rectus femoris origin`; `femoral nerve quadriceps`; `hip flexion knee extension` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+| 17 | `articularis-genu-oina` · E2Q4 | `articularis genu`; `articularis genus`; `femoral nerve articularis`; `suprapatellar bursa` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+| 18 | `saphenous-nerve-sensory-territory` · E2Q10 | `saphenous nerve`; `saphenous sensory territory`; `medial malleolus sensation`; `saphenous nerve injury` | Only a glossary label matches; the sensory-loss objective is absent. | new | NEU/ANA |
+| 19 | `quadratus-femoris-oina` · E2Q13, E4Q9 | `quadratus femoris`; `quadrate tubercle`; `nerve to quadratus femoris`; `lateral rotation hip` | Pending short-rotator group sentence supplies action only, not the requested insertion/nerve scope. | new | MSK/ANA |
+| 20 | `popliteal-artery` · E2Q14 | `popliteal artery`; `genicular branches`; `femoral continuation`; `popliteal fossa artery` | Exact Family-1 handle; inherited pending disposition. | prior LCS | — |
+| 21 | `quadriceps-femoris-action` · E3Q2 | `quadriceps femoris`; `quadriceps action`; `knee extension muscle`; `extensor of leg` | Pending Kasr concept explicitly owns quadriceps as the knee extensor. | pending | — |
+| 22 | `gluteus-minimus-oina` · E3Q6 | `gluteus minimus`; `gluteus minimus insertion`; `superior gluteal nerve`; `hip abduction medial rotation` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+| 23 | `obturator-internus-oina` · E3Q11 | `obturator internus`; `obturator internus insertion`; `nerve to obturator internus`; `short lateral rotator hip` | Pending short-rotator group sentence supplies action only, not full muscle scope. | new | MSK/ANA |
+| 24 | `gluteal-intramuscular-injection` · E3Q14 | `gluteal intramuscular injection`; `upper outer quadrant gluteal`; `safe gluteal injection site`; `sciatic nerve injection injury` | No same-scope hit. | new | MSK/ANA |
+| 25 | `superior-gluteal-artery` · E4Q8 | `superior gluteal artery`; `superior gluteal vessel`; `internal iliac posterior division`; `gluteal artery origin` | No same-scope hit. | new | CVS/ANA |
+| 26 | `major-lower-limb-nerve-injury-deformities` · E4Q12 | `superior gluteal nerve`; `tensor fascia lata nerve`; `gluteus medius minimus nerve`; `superior gluteal nerve injury` | Exact Family-1 composite handle; its superior-gluteal injury component absorbs the tested motor distribution. Inherited new disposition. | prior LCS | — |
+| 27 | `superior-gemellus-oina` · E4Q13 | `superior gemellus`; `gemellus superior`; `nerve to obturator internus`; `superior gemellus innervation` | No same-scope hit. | new | MSK/ANA |
+| 28 | `biceps-femoris-oina` · E5Q5 | `biceps femoris`; `biceps femoris insertion`; `common fibular biceps`; `short head biceps innervation` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+| 29 | `piriformis-oina` · E5Q15 | `piriformis`; `piriformis insertion`; `nerve to piriformis`; `piriformis roots S1 S2` | Exact Family-1 handle; inherited new disposition. | prior LCS | — |
+
+### Family-2 checkpoint and cumulative LCS-103 delta
+
+| Bucket | Source-distinct handles | Live | Pending | New |
+|---|---:|---:|---:|---:|
+| Reused Family-1 LCS handles | 15 | 1 | 5 | 9 |
+| New-to-LCS handles from Family 2 | 14 | 0 | 5 | 9 |
+| **Family-2 tested handles** | **29** | **1** | **10** | **18** |
+
+Only new-to-LCS handles change the module total. Net delta is therefore **+75 observed MCQ
+records, +75 printed keys, +14 distinct concepts = +0 live, +5 pending, +9 new**.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Family 1 baseline | 77 | 0 | 59 | 4 | 11 | 44 |
+| Family 2 net delta | +75 | +75 | +14 | +0 | +5 | +9 |
+| **LCS-103 cumulative after Family 2** | **152** | **75** | **73** | **4** | **16** | **53** |
+
+Arithmetic checks: `15 prior + 14 new-to-LCS = 29`; `0 + 5 + 9 = 14`; `59 + 14 = 73`;
+`4 + 16 + 53 = 73`; `77 + 75 = 152`; `0 + 75 = 75`. The cumulative question total is
+observed source occurrences; collapsing the two exact repeats yields `152 - 2 = 150` unique
+prompt forms across these two families because Family 1 had no exact repeated prompt.
+
 ## Exact next debt
 
-- The next actual-assessment source is `src_5423328a4798dba3c3be`, `Exams for Locomotor
-  Quiz.pdf`: 11 pages containing five printed exams of 15 MCQs each (**75 raw MCQs**).
-  Each item has a printed answer letter in the answer-side layout (**75 apparent printed
-  keys**), but source-first duplicate collapse, rendered-key verification and semantic
-  search are not included in Family 1.
-- The remaining actual-assessment family also includes `src_414df0f15610aa4232f0`
-  (`physio previous exams.pdf`, four pages) plus five anatomy and three pathology quiz
-  images. They outrank department banks and must be triaged before lower-authority banks.
+- The next untriaged actual-assessment PDF is `src_414df0f15610aa4232f0`, `physio previous
+  exams.pdf` (four pages). Its rendered prompt/key count, repeat collapse and semantic search
+  remain wholly outside this checkpoint.
+- Eight local quiz-content images remain in the actual-assessment lane: Anatomy
+  `src_773a3d8e00f38cedff12`, `src_2da654a75a9d236de8a7`,
+  `src_9b509a75a7e648219f37`, `src_5bb02d6293fb60233949`,
+  `src_086eb3c89677239baa74`; Pathology `src_4ee3e3e63fa0804576fb`,
+  `src_e8309c2953d770051cf0`, `src_758188828699ae3569f4`. Their content counts and key
+  status have not yet been claimed.
 - Pathology `TUTORIAL 103` is explicitly LCS-103 evidence even though it resides in the
   BMS-102 department-bank PDF `src_88169dc9b6ad00181a0d`. Printed pp. 256–262 (physical
   pp. 16–22) contain **33 raw prompts**: 19 MCQs and 14 written/completion/table prompts,
