@@ -60,7 +60,7 @@ class QBankRepositoryTest {
     fun setup() {
         localStore = FakeLocalStore()
         synapseApi = FakeSynapseApi()
-        syncEngine = SyncEngine(synapseApi, localStore, readableKeys = emptyList())
+        syncEngine = SyncEngine(synapseApi, localStore, readableKeys = emptyList(), userStateKeys = emptyList())
         qbankApi = FakeQBankApi()
 
         val context = ApplicationProvider.getApplicationContext<android.content.Context>()

@@ -59,7 +59,7 @@ class QuestionBankViewModelTest {
 
     private fun repository(): QBankRepository {
         val api = FakeSynapseApi()
-        val syncEngine = SyncEngine(api, localStore, readableKeys = emptyList())
+        val syncEngine = SyncEngine(api, localStore, readableKeys = emptyList(), userStateKeys = emptyList())
         val qbankApi = FakeQBankApi()
         val context = ApplicationProvider.getApplicationContext<android.content.Context>()
         val mediaCache = MediaCache(File(context.cacheDir, "qbank-vm-test-${System.nanoTime()}"), qbankApi)

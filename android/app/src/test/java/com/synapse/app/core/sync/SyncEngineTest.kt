@@ -15,9 +15,11 @@ import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import java.time.Instant
+import kotlin.coroutines.cancellation.CancellationException
 
 /** A fixed clock so the month used for attempt pulls is deterministic. */
 private val NOW: Instant = Instant.parse("2026-08-15T00:00:00Z")
@@ -26,7 +28,8 @@ class SyncEngineTest {
     private val api = FakeApi()
     private val store = FakeStore()
     private val readable = listOf("synapse-admin-content-ledger-v4", "synapse-glossary-v1")
-    private val engine = SyncEngine(api, store, readable)
+    private val userStateKeys = listOf("synapse.flashcards.decks.v1", "synapse.flashcards.dailyCounts.v1")
+    private val engine = SyncEngine(api, store, readable, userStateKeys)
 
     @Test fun manifestDiffOnlyRefetchesChangedKeys() = runTest {
         store.catalogue["k1"] = "t1" to "{}"            // already have k1 at t1
@@ -103,6 +106,61 @@ class SyncEngineTest {
         assertFalse(result.stoppedUnauthorized)
         assertEquals(1, store.outbox.size)  // left in the outbox for the next drain
     }
+
+    // --- write-through -------------------------------------------------------
+
+    @Test fun writeIsReadableOfflineImmediatelyWithNoRefresh() = runTest {
+        engine.write("synapse.flashcards.decks.v1", "{\"decks\":[1]}", NOW)
+
+        // No refresh() was called -- getUserState must already see the write.
+        assertEquals("{\"decks\":[1]}", store.getUserState("synapse.flashcards.decks.v1"))
+        assertEquals(NOW.toString(), store.userStateSavedAt("synapse.flashcards.decks.v1"))
+    }
+
+    // --- pullUserState ---------------------------------------------------------
+
+    @Test fun pullUserStateTakesTheServerCopyWhenNoLocalCopyExists() = runTest {
+        api.states["synapse.flashcards.decks.v1"] =
+            StateDoc(value = JsonPrimitive("server"), updatedAt = "2026-08-10T00:00:00Z")
+
+        engine.refresh(NOW)
+
+        assertEquals("\"server\"", store.getUserState("synapse.flashcards.decks.v1"))
+        assertEquals("2026-08-10T00:00:00Z", store.userStateSavedAt("synapse.flashcards.decks.v1"))
+    }
+
+    @Test fun pullUserStateKeepsTheLocalCopyWhenItIsStrictlyNewerThanTheServer() = runTest {
+        // Simulates a pending local write the outbox hasn't pushed yet.
+        store.putUserState("synapse.flashcards.decks.v1", "{\"local\":true}", savedAt = "2026-08-20T00:00:00Z", serverUpdatedAt = null)
+        api.states["synapse.flashcards.decks.v1"] =
+            StateDoc(value = JsonPrimitive("stale-server"), updatedAt = "2026-08-10T00:00:00Z")
+
+        engine.refresh(NOW)
+
+        assertEquals("{\"local\":true}", store.getUserState("synapse.flashcards.decks.v1"))  // untouched
+    }
+
+    @Test fun pullUserStateSkipsAFailingKeyWithoutAbortingTheRest() = runTest {
+        api.getUserStateErrors["synapse.flashcards.decks.v1"] = RuntimeException("network down")
+        api.states["synapse.flashcards.dailyCounts.v1"] =
+            StateDoc(value = JsonPrimitive("ok"), updatedAt = "2026-08-10T00:00:00Z")
+
+        engine.refresh(NOW)  // must not throw
+
+        assertNull(store.getUserState("synapse.flashcards.decks.v1"))
+        assertEquals("\"ok\"", store.getUserState("synapse.flashcards.dailyCounts.v1"))
+    }
+
+    @Test fun pullUserStatePropagatesCancellation() = runTest {
+        api.getUserStateErrors["synapse.flashcards.decks.v1"] = CancellationException("cancelled")
+        var threw = false
+        try {
+            engine.refresh(NOW)
+        } catch (e: CancellationException) {
+            threw = true
+        }
+        assertTrue(threw)
+    }
 }
 
 private class FakeApi : SynapseApi {
@@ -111,6 +169,7 @@ private class FakeApi : SynapseApi {
     val states = mutableMapOf<String, StateDoc>()
     var attemptList = mutableListOf<AttemptRecord>()
     val putErrors = mutableMapOf<String, ApiError>()
+    val getUserStateErrors = mutableMapOf<String, Throwable>()
     val fetchedStateKeys = mutableListOf<String>()
     val putCalls = mutableListOf<String>()
 
@@ -123,7 +182,10 @@ private class FakeApi : SynapseApi {
         fetchedStateKeys += key
         return states[key] ?: StateDoc(JsonNull, updatedAt = manifestMap[key])
     }
-    override suspend fun getUserState(key: String): StateDoc = states[key] ?: StateDoc(JsonNull)
+    override suspend fun getUserState(key: String): StateDoc {
+        getUserStateErrors[key]?.let { throw it }
+        return states[key] ?: StateDoc(JsonNull)
+    }
     override suspend fun putUserState(key: String, doc: StateDoc) {
         putCalls += key
         putErrors[key]?.let { throw ApiException(it) }

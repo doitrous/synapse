@@ -34,7 +34,7 @@ class DashboardRepositoryTest {
 
     @Test fun refreshSuccessReturnsASyncedOkState() = runTest {
         val store = FakeStore()
-        val repository = DashboardRepository(store, SyncEngine(FakeApi(), store, emptyList()))
+        val repository = DashboardRepository(store, SyncEngine(FakeApi(), store, emptyList(), emptyList()))
 
         val state = repository.refresh(NOW)
 
@@ -49,7 +49,7 @@ class DashboardRepositoryTest {
         // escape SyncEngine.refresh (every other internal call site swallows exceptions).
         store.enqueue("synapse.notebook.notes", "{}")
         api.putUserStateError = IOException("no network")
-        val repository = DashboardRepository(store, SyncEngine(api, store, emptyList()))
+        val repository = DashboardRepository(store, SyncEngine(api, store, emptyList(), emptyList()))
 
         val state = repository.refresh(NOW)
 
@@ -63,7 +63,7 @@ class DashboardRepositoryTest {
             StateDoc.serializer(),
             StateDoc(value = JsonObject(mapOf("name" to JsonPrimitive("Nour")))),
         )
-        val repository = DashboardRepository(store, SyncEngine(FakeApi(), store, emptyList()))
+        val repository = DashboardRepository(store, SyncEngine(FakeApi(), store, emptyList(), emptyList()))
 
         val state = repository.refresh(NOW)
 
@@ -72,7 +72,7 @@ class DashboardRepositoryTest {
 
     @Test fun greetingNameIsNullWhenNoProfileCatalogueDocExists() = runTest {
         val store = FakeStore()
-        val repository = DashboardRepository(store, SyncEngine(FakeApi(), store, emptyList()))
+        val repository = DashboardRepository(store, SyncEngine(FakeApi(), store, emptyList(), emptyList()))
 
         val state = repository.refresh(NOW)
 

@@ -37,7 +37,7 @@ class DashboardViewModelTest {
     @After fun tearDown() { Dispatchers.resetMain() }
 
     private fun repository(api: VmFakeApi = VmFakeApi(), store: VmFakeStore = VmFakeStore()): DashboardRepository =
-        DashboardRepository(store, SyncEngine(api, store, emptyList()))
+        DashboardRepository(store, SyncEngine(api, store, emptyList(), emptyList()))
 
     @Test fun initTriggersARefreshThatLandsOnContentWhenSyncSucceeds() = runTest {
         val viewModel = DashboardViewModel(repository())
