@@ -202,5 +202,12 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   from eligible Helwan assessment totals. Q122–Q126 are practical-relevant preparation-method
   MCQs, not separate practical artifacts; the eligible LCS-103 checkpoint remains 201/75/111
   and 5/28/78. This remains S1 evidence only.
-- The next LCS-103 debt is likewise external-labelled source `src_7f33f41ffaff192e3bc8`; review
-  its eligibility before source triage.
+- The external-labelled Muscle bank `src_7f33f41ffaff192e3bc8` is now triaged: 100 keyed MCQ
+  occurrences and 26 handles (4 live / 22 pending / 0 new). Page 17's dangling blank `e.` follows
+  complete keyed Q100 and creates no new prompt; pages 18–20 provide all 100 keys. The bank is
+  explicitly external, so Cartilage/Bone plus Muscle now total 241 prompts/keys and 75 handles
+  (9 live / 66 pending / 0 new) outside eligible Helwan assessment totals. Family-14 Q26 is a
+  practical-relevant MCQ, not a separate practical artifact; eligible LCS-103 remains 201/75/111
+  and 5/28/78. This remains S1 evidence only.
+- Continue rank-5 LCS-103 source `src_103bc8809c3045ada51d`, then
+  `src_5328082a807132f5cb29`, with source-first eligibility and prompt/key triage.

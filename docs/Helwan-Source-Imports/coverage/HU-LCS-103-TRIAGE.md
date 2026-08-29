@@ -1376,12 +1376,153 @@ arithmetic remains `5 + 28 + 78 = 111`. The 50 auxiliary note statements, Family
 unresolved crop and Family 5's malformed note also remain unchanged and outside these raw
 external-bank totals.
 
+## Family 14 — external-labelled Histology Muscle MCQ bank
+
+### Source identity, provenance and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_7f33f41ffaff192e3bc8` |
+| Manifest SHA-256 | `7f33f41ffaff192e3bc8959d58591efdc6157e078241de89be990e8c695d4ff0` |
+| Recomputed SHA-256 | `7f33f41ffaff192e3bc8959d58591efdc6157e078241de89be990e8c695d4ff0` |
+| File | `MCQs - External Histo Muscle MCQ & answers JPG.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External Histo Muscle MCQ & answers JPG.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · All Subjects · Questions/MCQs · solved copy · source tier 3 |
+| External provenance | the filename explicitly says `External`; that source label is preserved and excludes this bank from eligible Helwan assessment totals |
+| Container | 20-page, unencrypted, non-interactive PDF; pages 1–17 are scanned question sheets and pages 18–20 are a native-text answer list |
+| Read method | all 20 physical pages rendered at 160 dpi and visually read source-first; text extraction used only to cross-check the printed answer list; no download |
+
+This is a solved **assessment bank**, not teaching prose. The question sequence is Q1–Q100.
+Q49 continues from p. 8 to p. 9, Q63 from p. 10 to p. 11 and Q82 from p. 13 to
+p. 14; each is counted at its starting page only. Q100 has a complete stem and options
+`a`–`d` on p. 16, followed by a dangling empty option label `e.` on p. 17. The blank label
+is preserved as source damage but is neither a second prompt nor an absent key. Pages
+18–20 print one answer letter for every Q1–Q100. No answer is inferred or medically
+repaired, including where a printed answer appears questionable.
+
+### Page-by-page prompt and printed-key inventory
+
+| Physical page | Visible content | Prompt occurrences | Printed key entries |
+|---:|---|---:|---:|
+| 1 | Q1–Q6 | 6 | 0 |
+| 2 | Q7–Q12 | 6 | 0 |
+| 3 | Q13–Q17 | 5 | 0 |
+| 4 | Q18–Q23 | 6 | 0 |
+| 5 | Q24–Q29 | 6 | 0 |
+| 6 | Q30–Q35 | 6 | 0 |
+| 7 | Q36–Q41 | 6 | 0 |
+| 8 | Q42–Q49; Q49 continues | 8 | 0 |
+| 9 | Q49 continuation, then Q50–Q56 | 7 | 0 |
+| 10 | Q57–Q63; Q63 continues | 7 | 0 |
+| 11 | Q63 continuation, then Q64–Q69 | 6 | 0 |
+| 12 | Q70–Q75 | 6 | 0 |
+| 13 | Q76–Q82; Q82 continues | 7 | 0 |
+| 14 | Q82 continuation, then Q83–Q88 | 6 | 0 |
+| 15 | Q89–Q94 | 6 | 0 |
+| 16 | Q95–Q100 stem and options `a`–`d` | 6 | 0 |
+| 17 | dangling empty option label `e.` from Q100 | 0 | 0 |
+| 18 | answer list Q1–Q44 | 0 | 44 |
+| 19 | answer list Q45–Q88 | 0 | 44 |
+| 20 | answer list Q89–Q100 | 0 | 12 |
+| **Family 14 raw external bank** | **all pages** | **100** | **100** |
+
+Q26 is **practical-relevant** because it asks the learner to interpret a histological
+preparation and identify the red/fatigue-resistant skeletal-muscle fibre. It remains one
+of the 100 keyed MCQs and is not double-counted as practical output. There are no
+stand-alone slides, spotters, specimens, teaching plates or non-assessment practical tasks.
+
+### One-to-one assignment, search and disposition ledger
+
+Every prompt occurrence is assigned exactly once below. The 100 occurrences collapse to
+26 source-distinct handles, so `100 - 26 = 74` occurrences are explicit repeats or
+same-objective variants. Family 13's 49 Cartilage/Bone handles have no same-scope match,
+so all 26 handles are new to the separately tracked external-bank inventory. Prior-LCS
+dedupe is still applied: Q79 reuses the accepted
+`inherited-progressive-muscle-wasting-differential` scope; the earlier physiology handles
+for muscle-type comparison, excitation–contraction coupling and neuromuscular transmission
+remain different-grain and are not silently merged with histological morphology or disease
+identity here.
+
+Each handle received one search in each required surface: live state (`server/data` and
+`src/data`), pending state (`docs/import-ready` and `docs/questions-import-ready`), every
+prior `docs/*-Source-Imports` lane, and accepted prior LCS. That is **26 × 4 = 104 required
+invocations**. One terminology/phrase-order follow-up per handle gives **130 total
+invocations**.
+
+| # | Prompt assignment → handle | Four-query bundle | Same-scope result | External-bank disposition |
+|---:|---|---|---|---|
+| 1 | Q1,Q22,Q37,Q44,Q61 → `muscle-myofilament-identities-and-anchors` | `actin myofilament`; `myosin myofilament`; `thin filament`; `actin Z line` | Pending skeletal/smooth-muscle articles own actin, myosin and their attachment sites together. | pending |
+| 2 | Q2,Q17,Q26,Q30–Q34,Q41,Q48–Q50,Q66 → `skeletal-muscle-red-white-fiber-comparison` | `red white muscle fibers`; `slow fast twitch`; `myoglobin mitochondria glycogen`; `fatigue aerobic anaerobic` | Pending `CON-MSK-3E5F54D8D58E9C` and the Histology fibre-type material own the comparison. | pending; Q26 practical-relevant |
+| 3 | Q3,Q23,Q60,Q84 → `smooth-muscle-contractile-apparatus-dense-bodies-caveolae` | `smooth muscle dense bodies`; `caveolae`; `smooth actin myosin`; `no sarcomere` | Pending smooth-muscle article owns the irregular filaments, dense bodies and caveolae substitutions. | pending |
+| 4 | Q4,Q13,Q16,Q39,Q40,Q54,Q75 → `muscle-type-histology-comparison` | `skeletal cardiac smooth comparison`; `central nuclei`; `striated muscle types`; `muscle gap junctions` | Pending comparison table owns the morphology/junction scope; prior-LCS `muscle-type-physiology-comparison` is related but different-grain. | pending |
+| 5 | Q10,Q20,Q43,Q45,Q47,Q52,Q67,Q73,Q91 → `skeletal-muscle-fiber-lm-phenotype-and-sites` | `skeletal muscle LM`; `multinucleated peripheral`; `sarcolemma basal lamina`; `longitudinal striations` | Pending skeletal-muscle article owns the full LM phenotype and named sites. | pending |
+| 6 | Q38,Q74,Q86,Q89 → `cardiac-myocyte-histologic-phenotype` | `cardiac myocyte histology`; `cardiac fiber myocytes`; `few myofibrils SR`; `myocardium muscle` | Pending cardiac-muscle article owns cell composition, branching, nuclei and organelle comparison. | pending |
+| 7 | Q29,Q46,Q53,Q71,Q72 → `smooth-muscle-histologic-phenotype-and-sites` | `smooth muscle spindle`; `smooth muscle sites`; `visceral involuntary`; `blood vessel smooth muscle` | Pending smooth-muscle and comparison articles own this phenotype/site scope. | pending |
+| 8 | Q5,Q12,Q14,Q35,Q42,Q51,Q55,Q59,Q82,Q95,Q96 → `sarcomere-band-line-architecture` | `sarcomere Z to Z`; `A I H M band`; `anisotropic A band`; `striations dark light` | Live `ART-MSK-TOP-B54C248DF1` owns the A/I pattern and the H-zone/M-line relationship. | live |
+| 9 | Q11,Q70,Q90,Q98 → `sarcomere-band-changes-during-contraction` | `sarcomere contraction changes`; `H zone disappears`; `A band constant`; `I band shortens` | Live `ART-MSK-TOP-B54C248DF1` owns the complete change pattern without filament shortening. | live |
+| 10 | Q6,Q18,Q28,Q36,Q57,Q97 → `skeletal-muscle-connective-tissue-organization` | `endomysium perimysium epimysium`; `muscle fascicle`; `cardiac delicate connective tissue`; `muscle coverings` | Live fragments cover endomysium/epimysium; the pending skeletal/comparison articles own the complete three-layer and fascicle scope. | pending |
+| 11 | Q19,Q58 → `musculotendinous-junction-connective-tissue-continuity` | `musculotendinous junction`; `epimysium tendon`; `muscle collagen tendon`; `force transfer tendon` | Live `ART-MSK-TOP-B54C248DF1` explicitly owns muscle-connective-tissue continuity into tendon collagen. | live |
+| 12 | Q15,Q21,Q56,Q69 → `skeletal-muscle-sarcoplasm-and-myofibril-organization` | `skeletal sarcoplasm organelles`; `myofibrils full length`; `mitochondria between myofibrils`; `glycogen myoglobin muscle` | Pending skeletal-muscle article owns the full internal organisation. | pending |
+| 13 | Q7,Q9,Q24,Q87 → `intercalated-disc-components-orientation-and-functions` | `intercalated disc junctions`; `transverse component`; `lateral gap junction`; `desmosome fascia adherens` | Pending cardiac-muscle article owns both disc orientations and their mechanical/electrical functions. | pending |
+| 14 | Q8,Q100 → `myocardial-infarction-fibrous-scar-repair` | `myocardial infarction fibrous`; `cardiac regeneration`; `cardiac scar`; `myocyte injury repair` | Pending cardiac-muscle article states that infarcted cardiac muscle heals by fibrous tissue. | pending; Q100 retains dangling blank `e.` |
+| 15 | Q25,Q27,Q62–Q64,Q76 → `muscle-tubular-systems-t-tubules-triads-diads-sr` | `T tubule function`; `skeletal triad A-I`; `cardiac diad Z line`; `sarcoplasmic reticulum myofibrils` | Live state owns a skeletal triad fragment; pending skeletal/cardiac articles own the full comparative scope. | pending |
+| 16 | Q68 → `skeletal-muscle-hypertrophy-existing-fiber-enlargement` | `skeletal hypertrophy`; `exercise fibre size`; `existing fibers enlarge`; `muscle hyperplasia` | Live `ART-MSK-TOP-B54C248DF1` states that exercise enlarges existing skeletal fibres. | live |
+| 17 | Q65,Q80 → `atrial-myocyte-endocrine-anp-function` | `atrial natriuretic hormone`; `atrial granules`; `cardiac endocrine function`; `ANP diuretic` | Pending cardiac-muscle article owns atrial granules, endocrine function and urinary sodium/water effect. | pending |
+| 18 | Q77,Q81,Q92 → `purkinje-fiber-histologic-identification` | `Purkinje fibre histology`; `few peripheral myofibrils`; `no striations`; `eccentric nucleus gap junctions` | Pending cardiac-muscle article owns the complete Purkinje phenotype. | pending |
+| 19 | Q78 → `muscle-tissue-mesodermal-origin` | `muscle mesoderm`; `myoblast mesenchyme`; `skeletal myotome`; `smooth cardiac mesoderm` | Live state has narrower cardiac/somite derivatives; pending Histology and embryology records own the all-muscle statement. | pending |
+| 20 | Q79 → `inherited-progressive-muscle-wasting-differential` | `muscular dystrophy dystrophin`; `progressive muscle wasting`; `satellite cell dystrophin`; `muscle degeneration inherited` | Exact accepted prior-LCS tested handle; pending `CON-MSK-9D01E2358A65E2` owns the disease scope. | pending; prior-LCS scope reuse |
+| 21 | Q83 → `titin-z-line-to-m-line-thick-filament-anchor` | `titin Z M line`; `titin myosin anchor`; `sarcomere elastic protein`; `titin actin exception` | Pending skeletal-muscle written/concept material owns titin's span and anchoring role. | pending |
+| 22 | Q85 → `myasthenia-gravis-acetylcholine-receptor-autoimmunity` | `myasthenia gravis`; `acetylcholine receptor antibody`; `respiratory failure`; `autoimmune neuromuscular` | Pending neuromuscular-junction article owns the receptor-autoantibody mechanism; prior-LCS transmission/drug handle is related but different-grain. | pending |
+| 23 | Q88 → `pregnant-uterus-smooth-muscle-hypertrophy-hyperplasia` | `pregnant uterus smooth muscle`; `smooth hypertrophy hyperplasia`; `uterine size pregnancy`; `smooth muscle regeneration` | Pending smooth-muscle article explicitly owns both hypertrophy and hyperplasia in pregnancy. | pending |
+| 24 | Q93 → `endocardium-inner-myocardial-lining` | `endocardium myocardium lining`; `heart wall inner layer`; `endocardial endothelium`; `subendocardial connective tissue` | Live state owns only the endothelial subfact; pending heart-wall material owns the complete inner-lining scope. | pending |
+| 25 | Q94 → `epicardium-visceral-pericardium-outer-heart-layer` | `epicardium visceral pericardium`; `heart outer layer`; `mesothelium loose connective`; `epicardium myocardium` | Pending `CON-CVS-CC8835108F512C` owns the complete epicardial definition. | pending |
+| 26 | Q99 → `muscle-spindle-skeletal-muscle-modification` | `muscle spindle modification`; `skeletal muscle spindle`; `muscle type modification`; `Purkinje versus spindle` | Pending Histology comparison table explicitly names muscle spindle as the skeletal-muscle modification. | pending |
+
+Disposition arithmetic is **4 live + 22 pending + 0 external-new = 26** source-distinct
+handles. There is no prior-external overlap with Family 13, so all 26 extend the separate
+external-bank concept inventory. Coverage matches do not promote this explicitly external
+source into eligible Helwan scope.
+
+### Family-14 checkpoint and cumulative LCS-103 delta
+
+| Family-14 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Explicitly external assessment bank | 100 | 100 | 26 | 4 | 22 | 0 |
+| Of which practical-relevant MCQs (already included above) | 1 | 1 | 1 | 0 | 1 | 0 |
+| **Eligible Helwan assessment delta** | **+0** | **+0** | **+0** | **+0** | **+0** | **+0** |
+
+The accepted eligible-module checkpoint therefore stays unchanged:
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 13 | 201 | 75 | 111 | 5 | 28 | 78 |
+| Family 14 eligible delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 14** | **201** | **75** | **111** | **5** | **28** | **78** |
+
+The separately tracked external bank now totals:
+
+| External-bank checkpoint | Prompt occurrences | Printed keys | Distinct handles | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Family 13 Cartilage/Bone | 141 | 141 | 49 | 5 | 44 | 0 |
+| Family 14 Muscle | +100 | +100 | +26 | +4 | +22 | +0 |
+| **External-bank cumulative** | **241** | **241** | **75** | **9** | **66** | **0** |
+
+Arithmetic checks: question pages give `75 + 7 + 6 + 6 + 6 = 100` starts; answer
+pages give `44 + 44 + 12 = 100` printed letters; `100 - 74 = 26` source handles;
+`4 + 22 + 0 = 26`; and external cumulative is `141 + 100 = 241` prompts/keys,
+`49 + 26 = 75` handles and `5 + 4 = 9` live plus `44 + 22 = 66` pending.
+Eligible cumulative remains `5 + 28 + 78 = 111`. The 50 auxiliary note statements,
+Family 3's unresolved crop and Family 5's malformed note remain unchanged and outside both
+assessment totals.
+
 ## Exact next debt
 
-- The first solved external Histology source is now fully inventoried but excluded from the
-  eligible Helwan assessment delta because its filename explicitly labels it `External`.
-- Rank 4 still precedes rank 5. The next named local source is
-  `src_7f33f41ffaff192e3bc8`, `MCQs - External Histo Muscle MCQ & answers JPG.pdf`
-  (20 pages). It requires the same source-first external-provenance and eligibility review.
+- Both explicitly external rank-4 Histology banks are now fully inventoried and remain
+  excluded from eligible Helwan assessment totals.
+- Rank 5 is next. The first named local source in the wave plan is
+  `src_103bc8809c3045ada51d`, `MCQs - College MCQs Physiology 103 tutorial with answers.pdf`
+  (23 pages, solved, native-text, tier 3). It requires source-first prompt/key inventory,
+  authority review and dedupe before the second named rank-5 source
+  `src_5328082a807132f5cb29`.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.
