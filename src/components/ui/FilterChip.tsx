@@ -18,7 +18,7 @@ export function FilterChip({
       onClick={onClick}
       aria-pressed={active}
       className={cn(
-        'inline-flex h-10 items-center gap-1.5 rounded-full border px-3 text-[12.5px] font-medium transition-colors sm:h-7',
+        'inline-flex h-10 items-center gap-1.5 rounded-md border px-3 text-[12.5px] font-medium transition-colors sm:h-7',
         active
           ? 'border-primary-line bg-primary-tint text-primary-strong'
           : 'border-line bg-surface text-ink-2 hover:border-line-2 hover:text-ink',

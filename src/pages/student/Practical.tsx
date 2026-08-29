@@ -636,7 +636,7 @@ function OralTab() {
                       type="button"
                       onClick={() => markOral(current.id, m)}
                       className={cn(
-                        'inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[12px] font-medium transition-colors',
+                        'inline-flex items-center gap-1.5 rounded-md border px-3 py-1 text-[12px] font-medium transition-colors',
                         active
                           ? m === 'got'
                             ? 'border-success/40 bg-success-tint text-success'

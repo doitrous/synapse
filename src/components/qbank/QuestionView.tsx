@@ -11,6 +11,8 @@ import { useMediaRecords } from '@/lib/useMediaRecords'
 import { getSubject } from '@/data/subjects'
 import { cn } from '@/lib/cn'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
+import { answerPercentages, type AnswerDistribution } from '@/data/answerDistribution'
 
 /**
  * A question as it is put to a student — the same one everywhere.
@@ -39,6 +41,7 @@ export function QuestionView({
   revealed,
   correctIndex,
   onChoose,
+  distribution,
 }: {
   question: Question
   /** The option this student picked, or null before they have. */
@@ -51,11 +54,20 @@ export function QuestionView({
    */
   correctIndex?: number
   onChoose: (index: number) => void
+  /**
+   * The peer answer breakdown for this question, once revealed. Fetched by the
+   * caller (via `useAnswerDistribution`) and passed in — this component stays
+   * presentational and never fetches for itself. Absent, null, or ineligible
+   * all render exactly as if the feature did not exist.
+   */
+  distribution?: AnswerDistribution | null
 }) {
   const mediaRecords = useMediaRecords()
   const answer = correctIndex ?? question.options.findIndex((option) => option.correct)
   const highlights = useQuestionHighlights(question.id)
   const containerRef = useRef<HTMLDivElement>(null)
+  const showStats = revealed && Boolean(distribution?.eligible) && Boolean(distribution?.counts)
+  const percentages = showStats ? answerPercentages(distribution!.counts!, distribution!.total) : null
 
   function optionClasses(index: number): string {
     if (!revealed) {
@@ -132,11 +144,20 @@ export function QuestionView({
                   <PlacedMedia placements={placementsFor(question.media, 'explanation', LETTERS[index])} records={mediaRecords} />
                 )}
               </span>
+              {percentages && (
+                <span className="tnum shrink-0 self-start pt-0.5 font-mono text-[12px] font-semibold text-ink-2">
+                  {percentages[index] ?? 0}%
+                </span>
+              )}
             </>
           )
           const shape = cn('flex w-full items-start gap-3 rounded-xl border p-3.5 text-start transition-colors', optionClasses(index))
+          const tone = index === answer ? 'correct' as const : chosen === index ? 'wrong' as const : 'neutral' as const
           return revealed ? (
-            <div key={index} className={shape}>{body}</div>
+            <div key={index} className={cn(shape, 'relative overflow-hidden')}>
+              {body}
+              {percentages && <AnswerStatBar pct={percentages[index] ?? 0} tone={tone} />}
+            </div>
           ) : (
             <button
               key={index}

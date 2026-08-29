@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Building2, Users, Plug, Flag, IdCard, Hammer, Activity, Highlighter, RotateCcw, CircleCheck, TrendingDown, TrendingUp } from 'lucide-react'
+import { Building2, Users, Plug, Flag, IdCard, Hammer, Activity, Highlighter, RotateCcw, CircleCheck, TrendingDown, TrendingUp, BarChart3 } from 'lucide-react'
 import { API_MODE, apiGet } from '@/lib/api'
 import { institution, roles, integrations, featureFlags } from '@/data/admin'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -25,6 +25,10 @@ import {
   analyzeHighlightBehavior, classifyAnswerChanges, DEFAULT_STUDY_TRACKING_SETTINGS, flattenHighlightStore,
   STUDY_TRACKING_SETTINGS_KEY, type StudyTrackingSettings,
 } from '@/data/studyTracking'
+import {
+  ANSWER_STATS_CONFIG_KEY, DEFAULT_ANSWER_STATS_CONFIG, normaliseAnswerStatsConfig,
+  type AnswerStatsConfig,
+} from '@/data/answerStats'
 
 interface CohortActivity {
   answerChanges: {
@@ -66,6 +70,8 @@ export function Settings() {
   const [studentId, setStudentId] = usePersistentState<StudentIdDiscount>(STUDENT_ID_DISCOUNT_STORAGE_KEY, DEFAULT_STUDENT_ID_DISCOUNT)
   const [maristana, setMaristana] = usePersistentState<MaristanaConfig>(MARISTANA_CONFIG_KEY, DEFAULT_MARISTANA_CONFIG)
   const [studyTracking, setStudyTracking] = usePersistentState<StudyTrackingSettings>(STUDY_TRACKING_SETTINGS_KEY, DEFAULT_STUDY_TRACKING_SETTINGS)
+  const [answerStats, setAnswerStats] = usePersistentState<AnswerStatsConfig>(ANSWER_STATS_CONFIG_KEY, DEFAULT_ANSWER_STATS_CONFIG)
+  const answerStatsEnabled = normaliseAnswerStatsConfig(answerStats).enabled
   const [connected, setConnected] = useState<Set<string>>(
     () => new Set(integrations.filter((i) => i.connected).map((i) => i.name)),
   )
@@ -388,6 +394,28 @@ export function Settings() {
               )}
             </div>
           )}
+        </div>
+      </Panel>
+
+      <Panel className="mb-4">
+        <PanelHeader title="Peer answer breakdown" icon={BarChart3} />
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-3 p-5">
+          <div className="min-w-0 flex-1">
+            <p className="text-[13.5px] font-medium text-ink">Show peer answer breakdown to students</p>
+            <p className="mt-0.5 max-w-xl text-[12.5px] leading-relaxed text-ink-2">
+              When on, a student who reveals a question sees the share of peers who chose each option —
+              "40% chose C" — computed from verified attempts within their own university and year. It stays
+              hidden on any question until at least 10 students in that cohort have answered it.
+            </p>
+          </div>
+          <label className="flex items-center gap-2 text-[12.5px] text-ink-2">
+            <Toggle
+              checked={answerStatsEnabled}
+              onChange={(enabled) => setAnswerStats({ enabled })}
+              label="Show peer answer breakdown to students"
+            />
+            {answerStatsEnabled ? 'Shown to students' : 'Hidden'}
+          </label>
         </div>
       </Panel>
 

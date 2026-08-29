@@ -235,6 +235,41 @@ function labelsFor(record: unknown): string[] {
   ])
 }
 
+/**
+ * A module's coverage, merged from every subject beneath it — any depth.
+ *
+ * Coverage is chosen per subject, so "what does this module cover" has to walk
+ * the whole tree, the same way `mergeCurricula` walks the admin-side
+ * `ModuleSubject` tree it is chosen on. This is the read-only counterpart: the
+ * source here is whatever `ProjectionSubject[]` a student's own page actually
+ * receives, live from the server or from the demo projection (whose
+ * `coverage` field mirrors `ModuleSubject.curriculum` field-for-field).
+ *
+ * Only `articleIds` and `topicNodeIds` are merged — the two lists a caller
+ * needs to resolve "which library articles does this module cover" — but the
+ * shape is easy to widen if a future caller needs the other lists too.
+ */
+export function mergeModuleCoverage(module: Pick<ProjectionModule, 'coverage' | 'subjects'>): { articleIds: string[]; topicNodeIds: string[] } {
+  const articleIds = new Set<string>()
+  const topicNodeIds = new Set<string>()
+  const absorb = (coverage: ProjectionCoverage | undefined) => {
+    coverage?.articleIds?.forEach((id) => articleIds.add(id))
+    coverage?.topicNodeIds?.forEach((id) => topicNodeIds.add(id))
+  }
+  const visit = (list: ProjectionSubject[] | undefined) => {
+    (list ?? []).forEach((subject) => {
+      absorb(subject.coverage)
+      visit(subject.children)
+    })
+  }
+  // A module may carry its own coverage directly (a server could choose to
+  // roll it up server-side) in addition to whatever its subjects carry — both
+  // are absorbed so neither source can be silently dropped.
+  absorb(module.coverage)
+  visit(module.subjects)
+  return { articleIds: [...articleIds], topicNodeIds: [...topicNodeIds] }
+}
+
 function countCoverage(coverage: ProjectionCoverage | undefined): number {
   if (!coverage) return 0
   if (coverage.counts) {
