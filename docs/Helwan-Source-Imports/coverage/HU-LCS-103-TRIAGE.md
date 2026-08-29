@@ -2755,3 +2755,126 @@ unchanged. The Joint Diseases section is now closed.
   earlier sections.
 - No download is needed. After Cases 21–34 close, this 110-page CBL source can be marked
   fully inventoried.
+
+## Family 23 — CBL General / Soft Tissue & Bone Neoplasia, Cases 21–34
+
+### Bounded source identity and assessment classification
+
+| Field | Verified Family-23 result |
+|---|---|
+| Manifest source | `src_79b0f17a5426e5773083` |
+| Manifest / recomputed SHA-256 | `79b0f17a5426e57730835bca39abda5e82ac8f6c72db7f513cc7a24a805daa55` |
+| Local file | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 LCS CBL.pdf` |
+| Bounded section | physical pp. 72–109, Cases 21–34 only; p. 71 cover and p. 110 closing/source slide excluded |
+| Source closure | Cases 21–34 are the final assessment section; after this family all 110 physical pages have been classified |
+| Evidence class | eligible lower-authority `HU-LCS-103` teaching/revision assessment evidence |
+| Review method | every physical page 72–109 rendered at 180 dpi and visually read; native text and extracted font colours used only to cross-check wording and red-option reveals; no download |
+
+This 38-page section contains **28 complete MCQ prompt occurrences**, exactly two complete
+question slides for each of Cases 21–34. Thirteen second occurrences, Cases 21–33, print one
+red answer option and therefore supply **13 printed keys**. Case 34's second occurrence adds a
+histology image but leaves every option black; there is no answer text or later rationale, so
+Case 34 remains a complete unkeyed MCQ and no answer is inferred.
+
+Ten slides are rationale-only teaching evidence: pp. 84–85, 88–89, 92, 95–96, 99 and
+102–103. Their `CORRECT` / `Incorrect` prose corroborates the already red option for Cases
+26–31 but creates neither an additional prompt nor an additional key. There are no
+answer-only reveal slides in this section. Red wording in first-occurrence stems is clue
+emphasis, not a key.
+
+### Source-order prompt, reveal and rationale ledger
+
+| Case | Physical pages | Complete prompt occurrences | Printed reveal / key | Rationale-only pages | One-to-one assignment and copy treatment |
+|---:|---:|---:|---|---:|---|
+| 21 | 72–73 | 2 | p. 73 full keyed occurrence; `C Rhabdomyosarcoma` red | 0 | both → `childhood-vaginal-rhabdomyosarcoma-clinicopathologic-pattern`; identical wording/options collapse |
+| 22 | 74–75 | 2 | p. 75 full keyed occurrence; `C Synovial sarcoma` red | 0 | both → `synovial-sarcoma-young-adult-thigh-clinicopathologic-pattern`; identical wording/options collapse |
+| 23 | 76–77 | 2 | p. 77 full keyed occurrence; `B Colonic adenocarcinoma` red | 0 | both → `familial-adenomatous-polyposis-associated-colonic-adenocarcinoma`; identical wording/options collapse |
+| 24 | 78–79 | 2 | p. 79 full keyed occurrence; `B Fibrosarcoma` red | 0 | both → `fibrosarcoma-herringbone-spindle-cell-pattern`; identical wording/options collapse |
+| 25 | 80–81 | 2 | p. 81 complete keyed occurrence; `B Hemangioma` red | 0 | both → `infantile-hemangioma-clinical-course`; p. 80 prints `His mother` while p. 81 prints `Heris mother`, so the two forms are retained then semantically collapsed |
+| 26 | 82–85 | 2 | p. 83 full keyed occurrence; `D Giant cell tumor` red | 2 | both → `giant-cell-tumor-stromal-cell-biology`; identical wording/options collapse |
+| 27 | 86–89 | 2 | p. 87 full keyed occurrence; `D Chondrosarcoma` red | 2 | both → `chondrosarcoma-vs-osteosarcoma-comparison`; identical wording/options collapse and extend the accepted pelvic-site/morphology scope |
+| 28 | 90–92 | 2 | p. 91 full keyed occurrence; `A Ewing sarcoma` red | 1 | both → `ewing-sarcoma-clinical-radiology`; identical wording/options collapse |
+| 29 | 93–96 | 2 | p. 94 full keyed occurrence; `B Osteosarcoma` red | 2 | both → `sunburst-periosteal-lifting-bone-tumor-differential`; identical wording/options collapse and extend the accepted osteoid/metaphyseal scope |
+| 30 | 97–99 | 2 | p. 98 full keyed occurrence; `A Osteochondroma` red | 1 | both → `osteochondroma-typical-location`; identical wording/options collapse |
+| 31 | 100–103 | 2 | p. 101 full keyed occurrence; `C Osteoid osteoma` red | 2 | both → `osteoid-osteoma-clinicoradiologic-pattern`; identical wording/options collapse |
+| 32 | 104–105 | 2 | p. 105 full keyed occurrence; `D Lipoma` red | 0 | both → `lipoma-clinicopathologic-pattern`; identical wording/options collapse despite changed gross/microscopic illustration |
+| 33 | 106–107 | 2 | p. 107 full keyed occurrence; `E Liposarcoma` red | 0 | both → `liposarcoma-retroperitoneal-clinicopathologic-pattern`; identical wording/options collapse despite changed gross/microscopic illustration |
+| 34 | 108–109 | 2 | none; all options remain black on both slides | 0 | both → `bland-fibrous-finger-mass-differential`; identical wording/options collapse, but the option-neutral differential remains keyless |
+| **Family 23** | **72–109** | **28** | **13 printed keys** | **10** | **all occurrences assigned once** |
+
+The thirteen identical wording/option repeats in Cases 21–24 and 26–34 reduce 28 complete
+occurrences to 15 prompt forms. Case 25's two visibly different forms then collapse onto the
+same clinical-course objective. Thus `28 - 13 - 1 = 14` source-distinct handles, one per case.
+The different clinical, gross and microscopic images remain attached to their own source
+occurrences even where the wording/options collapse.
+
+Case 34 is not silently keyed as fibroma. Its handle records what the complete source actually
+tests—a painless finger mass with bland hypocellular spindle-cell morphology and five printed
+diagnostic options—without converting medical inference into source authority.
+
+### Search-before-mint and prior-LCS disposition ledger
+
+Each of the fourteen source-distinct handles received one query against each required surface:
+live state (`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), every prior source-import lane, and the accepted prior-LCS
+ledger. That is **14 × 4 = 56 required invocations**. A glossary-only `lipoma` hit and broad
+tumour mentions were rejected as substantive coverage. The separately tracked external
+Histology bank contains no same-scope handle for the five module additions.
+
+| # | Case assignment → handle | Four-query bundle | Corpus / prior-LCS result | Source disposition | Eligible-module effect |
+|---:|---|---|---|---|---|
+| 1 | Case 21 → `childhood-vaginal-rhabdomyosarcoma-clinicopathologic-pattern` | `vaginal rhabdomyosarcoma`; `sarcoma botryoides`; `childhood genitourinary rhabdomyosarcoma`; `pleomorphic malignant cells vaginal mass` | No substantive live, pending, external-bank or prior eligible-LCS same-scope record. | new | +1 new |
+| 2 | Case 22 → `synovial-sarcoma-young-adult-thigh-clinicopathologic-pattern` | `synovial sarcoma`; `young adult thigh sarcoma`; `biphasic spindle epithelial tumor`; `t(X;18) SS18` | No substantive live, pending, external-bank or prior-LCS same-scope record. | new | +1 new |
+| 3 | Case 23 → `familial-adenomatous-polyposis-associated-colonic-adenocarcinoma` | `familial adenomatous polyposis`; `hundreds colorectal polyps`; `APC colonic adenocarcinoma`; `young adult polyposis colon cancer` | No substantive live, pending, external-bank or prior-LCS record owns the polyposis-plus-invasive-gland diagnosis scope. | new | +1 new |
+| 4 | Case 24 → `fibrosarcoma-herringbone-spindle-cell-pattern` | `fibrosarcoma`; `herringbone pattern`; `uniform spindle cells`; `malignant fibroblast fascicles` | Exact accepted Family-17 live handle; live `CON-DER-78AF0815FE7330` owns the herringbone fascicular spindle-cell pattern. | live; prior eligible-LCS reuse | +0 |
+| 5 | Case 25 → `infantile-hemangioma-clinical-course` | `infantile hemangioma`; `strawberry hemangioma`; `postnatal growth spontaneous regression`; `child vascular tumor involution` | Exact accepted Family-19 eligible handle; live capillary/cavernous records remain morphology-only, so its inherited new disposition stands. | prior eligible-LCS reuse; inherited new | +0 |
+| 6 | Case 26 → `giant-cell-tumor-stromal-cell-biology` | `giant cell tumor bone`; `osteoclastoma epiphysis`; `soap bubble distal radius`; `multinucleated giant cells spindle stroma` | Exact accepted Family-12/19 eligible handle owns adult epiphyseal site, soap-bubble imaging and stromal-cell biology. | prior eligible-LCS reuse; inherited new | +0 |
+| 7 | Case 27 → `chondrosarcoma-vs-osteosarcoma-comparison` | `chondrosarcoma`; `pelvic cartilage tumor`; `bluish white calcified mass`; `older adult destructive cartilage neoplasm` | Exact accepted Family-12/17/19 handle already absorbs pelvic-site and chondroid-matrix morphology. | prior eligible-LCS reuse; inherited new | +0 |
+| 8 | Case 28 → `ewing-sarcoma-clinical-radiology` | `Ewing sarcoma`; `t(11;22) bone tumor`; `onion skin diaphysis`; `small round blue cell bone` | Exact accepted Family-18 eligible handle owns the age, diaphyseal onion-skin and round-blue-cell scope; this case adds the printed translocation. | prior eligible-LCS reuse; inherited new | +0 |
+| 9 | Case 29 → `sunburst-periosteal-lifting-bone-tumor-differential` | `osteosarcoma`; `Codman triangle osteoid`; `metaphyseal malignant bone tumor`; `osteoid producing sarcoma` | Exact accepted Family-12/17 eligible handle; no substantive corpus record supersedes its inherited new disposition. | prior eligible-LCS reuse; inherited new | +0 |
+| 10 | Case 30 → `osteochondroma-typical-location` | `osteochondroma`; `cartilage capped exostosis`; `metaphyseal bony projection`; `growth plate hamartoma` | Exact accepted Family-19 eligible handle, itself promoted from auxiliary location evidence. | prior eligible-LCS reuse; inherited new | +0 |
+| 11 | Case 31 → `osteoid-osteoma-clinicoradiologic-pattern` | `osteoid osteoma`; `nocturnal pain aspirin`; `radiolucent nidus`; `cortical sclerosis osteoid` | Exact accepted Family-17/19 eligible handle owns night pain, aspirin response, cortical nidus and surrounding sclerosis. | prior eligible-LCS reuse; inherited new | +0 |
+| 12 | Case 32 → `lipoma-clinicopathologic-pattern` | `lipoma`; `encapsulated mature adipocytes`; `benign adipocytic tumor`; `painless soft yellow mass` | Exact accepted Family-18 eligible handle; the pending glossary occurrence is not substantive coverage. | prior eligible-LCS reuse; inherited new | +0 |
+| 13 | Case 33 → `liposarcoma-retroperitoneal-clinicopathologic-pattern` | `liposarcoma`; `retroperitoneal adipocytic sarcoma`; `lipoblast hyperchromatic nucleus`; `myxoid fatty tumor` | No substantive live, pending, external-bank or prior-LCS same-scope record. | new | +1 new |
+| 14 | Case 34 → `bland-fibrous-finger-mass-differential` | `finger fibroma`; `benign fibrous tumor`; `hypocellular bland spindle cells`; `painless finger fibrous mass` | No substantive live, pending, external-bank or prior-LCS same-scope record. The handle stays option-neutral because the source prints no key. | new; keyless | +1 new |
+
+Source-disposition arithmetic is **1 live + 0 pending + 13 new = 14** handles. Module
+novelty is separate: **9 prior eligible reuse + 5 new to eligible = 14**. All five net
+concepts resolve as new, so the eligible delta is **0 live + 0 pending + 5 new**.
+
+### Family-23 checkpoint, cumulative LCS-103 delta and source closure
+
+| Family-23 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS reuse (Cases 24–32) | 18 | 9 | 9 | 0 | 0 | 0 | 0 |
+| New-to-eligible keyed handles (Cases 21–23 and 33) | 8 | 4 | 4 | 4 | 0 | 0 | 4 |
+| New-to-eligible keyless differential (Case 34) | 2 | 0 | 1 | 1 | 0 | 0 | 1 |
+| **Family 23 assessment evidence** | **28** | **13** | **14** | **5** | **0** | **0** | **5** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 22 | 406 | 229 | 191 | 9 | 49 | 133 |
+| Family 23 net delta | +28 | +13 | +5 | +0 | +0 | +5 |
+| **LCS-103 cumulative after Family 23** | **434** | **242** | **196** | **9** | **49** | **138** |
+
+Arithmetic checks: `14 cases × 2 complete prompt slides = 28`; Cases 21–33 provide 13
+red-option keys and Case 34 provides none; `28 - 13 identical wording/option repeats = 15`
+prompt forms; `15 - 1 altered Case-25 semantic collapse = 14` handles; `9 prior eligible
+reuse + 5 net = 14`; `1 + 0 + 13 = 14` source dispositions; `0 + 0 + 5 = 5` net
+dispositions; `28 prompt slides + 10 rationale-only slides = 38` bounded physical pages;
+`406 + 28 = 434`; `229 + 13 = 242`; `191 + 5 = 196`; and `9 + 49 + 138 =
+196`. The external bank remains separately unchanged at `241 prompts / 241 keys / 75
+handles = 9 live / 66 pending / 0 new`; the 50 auxiliary notes and tracked unresolved/
+malformed items also remain unchanged. The complete 110-page CBL source is now closed.
+
+## Exact next debt
+
+- `src_79b0f17a5426e5773083` is fully inventoried: p. 1 cover; Bone Diseases pp. 2–35;
+  Joint Diseases cover/objectives pp. 36–37 and Cases 12–20 pp. 38–70; General / Soft Tissue
+  & Bone Neoplasia cover p. 71 and Cases 21–34 pp. 72–109; closing/source p. 110. No page
+  remains in this source.
+- Broader LCS-103 S1 remains incomplete until the rank-4/rank-5 local-source remainder is
+  assigned as another bounded family and the separate anatomy/histology and pathology/
+  physiology/pharmacology/biochemistry scopes are consolidated.
+- No download was performed. No S2 work is authorised until rank 1–6 triage is consolidated
+  and `/root` issues the fresh literal `TRIAGE APPROVED` for Helwan Year 1.
