@@ -4216,3 +4216,52 @@ The primary checkpoint remains **765 / 405 / 552 / 372**; auxiliary remains **18
 ### Exact next debt after Family 34
 
 `src_86e6231218411e301648` is exhausted with a page-level teaching-versus-prompt ruling across all four pages and no resume boundary. The next manifest-ordered local BMS-102 candidate is tier-6 `src_1d0357e450d1f20d3b78` · `Helwan S2 Micro Lecture 1 Part 2.pdf`, SHA-256 `1d0357e450d1f20d3b78456befeecefbad000cbf9a0b5bf584bfaa2396c2995a`, ten native-text pages under `Microbiology / Notes and Summaries`; it requires its own complete provenance, prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any count is admitted.
+
+## Family 35 — tier-6 Micro Lecture 1 Part 2 teaching-notes gate
+
+| Field | Verified result |
+|---|---|
+| Source | `src_1d0357e450d1f20d3b78` · `Helwan S2 Micro Lecture 1 Part 2.pdf` |
+| SHA-256 / boundary | `1d0357e450d1f20d3b78456befeecefbad000cbf9a0b5bf584bfaa2396c2995a` · 1,360,410 bytes · ten native-text pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; the manifest directory is stale, while the exact byte-verified local file is currently under `Microbiology / Theoretical` (no manifest mutation) |
+| Visible provenance | p. 1 visibly says `Helwan University , S2 , Lecture 1 Part 2`; pp. 2–10 carry `TOP Microbiology Notes` / `Dr Mustafa Elsudani` headers |
+| Read boundary | all ten physical pages rendered and visually read in order |
+
+This Helwan-local **teaching-notes** source is not an exam, recoverable sitting,
+departmental question bank, response form, or official key. Page 1 is its cover; p. 2 explains
+the cell membrane; p. 3 covers mesosomes, nucleoid, and ribosomes; p. 4 covers inclusions and
+plasmids; p. 5 covers capsule; p. 6 covers glycocalyx and flagella; p. 7 covers pili; pp. 8–9
+cover endospores and sporulation; and p. 10 supplies lecture additions. All visible material is
+declarative headings, statements, labelled figures, tables, and explanatory lists. There is no
+complete learner prompt, interrogative/command stem, response field, blank, answer convention,
+correctness mark, or printed key.
+
+The complete-source result is **0 prompt occurrences / 0 printed answer or key occurrences / 0
+retained records / 0 source-derived tested handles**. No heading, definition, labelled diagram,
+table, list, or red emphasis is converted into an inferred question or answer. With no handle,
+source-first duplicate comparison, four-query search rows, external disposition, and prior-BMS
+overlap are **not applicable**.
+
+| Measure | Family 35 gate | Auxiliary cumulative (Families 12–35) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 184 | 765 | 949 |
+| Printed study-answer occurrences | 0 | 128 | 405 | 533 |
+| Retained question records | 0 | 181 | 552 | 733 |
+| Source-distinct tested handles / required searches | 0 / 0 | 179 / — | — | — |
+| Cross-family concept delta | +0 | +142 over primary | 372 | `372 + 142 = 514` |
+| **Distinct tested concepts** | **+0** | **142 auxiliary additions** | **372** | **514** |
+
+The primary checkpoint remains **765 / 405 / 552 / 372**; auxiliary remains **184 / 128 /
+181 / 179 / +142**; and all eligible S1 evidence remains **949 / 533 / 733 / 514**. This
+teaching-only zero-delta gate cannot raise exam/sitting, recurrence, mark-weight, official-key,
+readiness, or claims status, so no readiness or claims file change is warranted.
+
+### Exact next debt after Family 35
+
+`src_1d0357e450d1f20d3b78` is exhausted with a page-level teaching-versus-prompt ruling across
+all ten pages and no resume boundary. The next manifest-ordered local BMS-102 candidate is tier-6
+`src_5ab9094d19f098a42657` · `Helwan S2 Micro Lecture 2.pdf`, SHA-256
+`5ab9094d19f098a426574f6b1633050dc01016c85538ff6a6da0a79239d745c9`, twelve native-text pages
+under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
+prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
+count is admitted.
