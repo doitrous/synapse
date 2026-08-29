@@ -4749,3 +4749,41 @@ BMS-102 candidate is tier-6 `src_260bd3ff4c75e271bb44` · `Micro 4.pdf`, SHA-256
 `260bd3ff4c75e271bb443573b4646e3873dcb3e4bae3d44d92c82344254f912b`, two pages under
 `Microbiology / Notes and Summaries`; it needs its own source and authority gate before any
 count is admitted.
+
+## Family 43 — tier-6 Micro 4 teaching-map gate
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_260bd3ff4c75e271bb44` |
+| SHA-256 / boundary | `260bd3ff4c75e271bb443573b4646e3873dcb3e4bae3d44d92c82344254f912b` · two visual pages |
+| Authority | Unattributed handwritten-style bacterial-pathogenesis teaching map; no exam, response field, key, university, sitting, or marks convention |
+| Read boundary | Both pages rendered and visually read in full |
+
+Page 1 maps pathogenicity, virulence, adherence, invasive factors, and intracellular survival.
+Page 2 maps exotoxin/endotoxin and their mechanisms. All visible matter is declarative headings,
+arrows, examples, diagrams, and a comparison table; there is no learner prompt, option set,
+response blank, answer convention, or correctness mark. No content is inferred from colour or
+highlighting.
+
+The complete-source gate is **0 prompt occurrences / 0 printed-answer occurrences / 0 retained
+records / 0 handles / 0 required searches / +0 concepts**. Existing topical overlap is
+descriptive only and requires no prompt-level dedupe.
+
+| Measure | Family 43 gate | Auxiliary cumulative (Families 12–43) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Newly admitted prompts / printed answers | 0 / 0 | 235 / 169 | 765 / 405 | 1,000 / 574 |
+| Newly retained records / handles | 0 / 0 | 232 / 229 | 552 / — | 784 |
+| Cross-family concept delta | +0 | +170 over primary | 372 | `372 + 170 = 542` |
+| **Distinct tested concepts** | **+0** | **170 auxiliary additions** | **372** | **542** |
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**235 / 169 / 232 / 229 / +170**; all eligible evidence remains
+**1,000 / 574 / 784 / 542**. This gate changes no official-key, readiness, or claims status.
+
+### Exact next debt after Family 43
+
+`src_260bd3ff4c75e271bb44` is exhausted across both pages. The next manifest-ordered local
+BMS-102 candidate is tier-6 `src_77ef53b0e649aa01e12e` · `Micro.pdf`, SHA-256
+`77ef53b0e649aa01e12e8f773f667ec5b7533ac8d82e05bf40bfd4a19091ad5d`, two pages under
+`Microbiology / Notes and Summaries`; it needs its own source and authority gate before any
+count is admitted.
