@@ -65,6 +65,7 @@ import {
   applyDirectEnrollmentChange,
 } from './enrollmentChanges.js'
 import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
+import { qotdToday, recordQotdAnswer, qotdLeaderboard, qotdFriends } from './qotd.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
 import { activityTrackingSummary } from './studyTrackingAdmin.js'
 import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
@@ -835,6 +836,35 @@ app.get('/api/leaderboards', requireAuthenticated, wrap(async (req, res) => {
     term: req.query?.term ? String(req.query.term) : 'current',
     limit: Math.min(Number(req.query?.limit) || 50, 100),
   })
+  if (result.error) return res.status(409).json(result)
+  res.json(result)
+}))
+
+/* ── Question of the Day ────────────────────────────────────────────────── */
+
+app.get('/api/qotd/today', requireAuthenticated, wrap(async (req, res) => {
+  const result = await qotdToday(req.identity.id)
+  if (result.error) return res.status(result.error === 'profile_incomplete' ? 409 : 400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/qotd/answer', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordQotdAnswer(req.identity.id, req.body ?? {})
+  if (result.error) {
+    const code = result.error === 'profile_incomplete' ? 409 : result.error === 'not_todays_question' ? 409 : 400
+    return res.status(code).json(result)
+  }
+  res.json(result)
+}))
+
+app.get('/api/qotd/leaderboard', requireAuthenticated, wrap(async (req, res) => {
+  const result = await qotdLeaderboard(req.identity.id, { limit: Math.min(Number(req.query?.limit) || 50, 100) })
+  if (result.error) return res.status(409).json(result)
+  res.json(result)
+}))
+
+app.get('/api/qotd/friends', requireAuthenticated, wrap(async (req, res) => {
+  const result = await qotdFriends(req.identity.id)
   if (result.error) return res.status(409).json(result)
   res.json(result)
 }))

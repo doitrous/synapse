@@ -759,6 +759,28 @@ CREATE TABLE IF NOT EXISTS qbank_attempts (
   INDEX idx_qbank_concept_scope (university_id, year, term, verified_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+/* ── Question of the Day ──────────────────────────────────────────────────
+   A separate progress track: one shared question per (university, year)
+   cohort per Cairo-local day, answered inline. Never joined with or written
+   alongside qbank_attempts — that structural separation is the whole point
+   (see docs/superpowers/specs/2026-08-29-question-of-the-day-design.md §11).
+   One row per (user_id, qotd_date): a second POST is a no-op, never an
+   overwrite. */
+CREATE TABLE IF NOT EXISTS qotd_answers (
+  user_id       VARCHAR(64) NOT NULL,
+  student_id    VARCHAR(64) NOT NULL,
+  university_id VARCHAR(64) NOT NULL,
+  year          VARCHAR(32) NOT NULL,
+  term          VARCHAR(64) NOT NULL DEFAULT 'current',
+  qotd_date     DATE NOT NULL,
+  question_id   VARCHAR(96) NOT NULL,
+  answer_index  INT NOT NULL,
+  correct       TINYINT(1) NOT NULL,
+  answered_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id, qotd_date),
+  INDEX idx_qotd_cohort (university_id, year, term, qotd_date)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 /* ── Build Maristanas ───────────────────────────────────────────────────
    Active study time is a server-clocked minute ledger. The unique bucket per
    student prevents two tabs, retries, or replayed requests from creating more
