@@ -559,12 +559,88 @@ assignment = 9`; one within-source gracilis collapse gives `9 - 1 = 8` handles;
 `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and this Family-5 malformed note
 remain outside tested-concept totals.
 
+## Family 6 — third Anatomy quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_9b509a75a7e648219f37` |
+| Manifest SHA-256 | `9b509a75a7e648219f37b44c85b774a360e5e6abfbde29696d9582eff8caedbf` |
+| Recomputed SHA-256 | `9b509a75a7e648219f37b44c85b774a360e5e6abfbde29696d9582eff8caedbf` |
+| File | `Most important notes anatomy (Quiz content)3.jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Anatomy/Assessments/Quizzes/Most important notes anatomy (Quiz content)3.jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Anatomy · Assessments/Quizzes |
+| Container | one 1920 × 2560 progressive JPEG photograph of a ruled spiral-notebook page |
+| Read method | original-resolution visual read, source-first |
+
+This page continues the same handwritten medial-thigh study notes. It contains four complete
+numbered statements, N8–N11, plus an unnumbered alias bubble. It has no interrogative stem,
+answer choices, blank response area, response mark, typeset solution or answer-key layout.
+It therefore contributes **zero complete prompts, zero incomplete prompts and zero printed
+or handwritten answer keys**. The four numbered statements remain auxiliary evidence only;
+the alias bubble is attached to N8 rather than inflated into a fifth statement.
+
+### Exact note-statement inventory
+
+| Note | Visible handwritten statement | Prompt status | Key status |
+|---:|---|---|---|
+| N8 | `Content of Adductor Canal`: `Femoral Artery & Vein`; `Descending Genicular Artery`; `Saphenous Nerve`; `Nerve to Vastus Medialis`. Unnumbered bubble: `Adductor Canal = Subsartorial Canal = Hunter's Canal`. | note, not a prompt | none |
+| N9 | `Obturator Nerve → Originate from Posterior Abdominal Wall` | broad wording preserved; note, not a prompt | none |
+| N10 | `Adductor Brevis → Take Supply from Posterior & Anterior Branches of Obturator` | `nerve` is not repeated after `Obturator`; intelligible note, not repaired | none |
+| N11 | `Obturator Artery → Originate from Pelvic Cavity` | broad wording preserved; note, not a prompt | none |
+| **Family 6** | **4 complete numbered note statements plus one attached alias annotation** | **0 complete / 0 incomplete prompts** | **0** |
+
+There is no exact repeated statement. N9 and N10 are different statements but collapse to
+one coverage handle because the existing obturator-nerve origin/course/branches concept owns
+both the nerve's origin and its division-specific supply to adductor brevis. Thus four
+statement assignments yield three source-distinct handles.
+
+### Statement-to-handle assignment and search ledger
+
+All three handles received four required searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root and the accepted prior-LCS
+ledger: **3 × 4 = 12 required invocations**. Three broad-token follow-ups (`obturator nerve`,
+`adductor brevis`, `obturator artery`) resolved phrase-order misses, for **15 invocations
+total**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `N8→adductor-canal` | `adductor canal contents`; `subsartorial canal contents`; `Hunter canal contents`; `femoral vessels saphenous nerve nerve to vastus medialis` | Exact prior Family-1/5 handle. Pending Kasr concept owns the three aliases and the four principal contents. The note additionally names the descending genicular artery, which can be retained as source wording without minting a second canal concept. | prior LCS (inherited pending) | — |
+| 2 | `N9→obturator-nerve-origin-course-branches` | `obturator nerve origin`; `lumbar plexus obturator nerve`; `anterior posterior obturator branches`; `both divisions obturator nerve adductor brevis` | Pending Kasr concept owns origin from the posterior abdominal-wall lumbar plexus, course and division-specific branches. | note-only candidate; external pending | — |
+| 3 | `N10→obturator-nerve-origin-course-branches` | same four queries as assignment 2; one collapsed handle is searched once | The same pending record explicitly states that adductor brevis receives branches from both anterior and posterior divisions. | note-only candidate; external pending | — |
+| 4 | `N11→obturator-artery-origin-course` | `obturator artery origin`; `obturator artery pelvic cavity`; `internal iliac obturator artery`; `anterior division internal iliac obturator` | Pending Kasr obturator nerve/artery article owns the artery's pelvic origin from the anterior division of the internal iliac artery and its course through the obturator canal. | note-only candidate; external pending | — |
+
+### Family-6 checkpoint and cumulative LCS-103 delta
+
+| Family-6 evidence bucket | Numbered note assignments | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 1 | 1 | 0 | 1 | 0 | 0 |
+| New-to-LCS resolved note-only candidates | 3 | 2 | 0 | 2 | 0 | 0 |
+| **Family 6 auxiliary evidence** | **4** | **3** | **0** | **3** | **0** | **0** |
+
+These are auxiliary evidence dispositions, not a tested-concept delta. The assessment-led
+module delta is **+0 observed prompts, +0 printed keys and +0 resolved tested concepts**.
+Across Families 4–6, the separate auxiliary-note count is now `5 + 9 + 4 = 18` numbered
+statements; the unnumbered N8 alias bubble is not added to that count.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 5 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 6 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 6** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `1 prior assignment + 3 new-to-LCS assignments = 4`; one semantic
+collapse gives `4 - 1 = 3` handles; all three handles are pending. Module arithmetic remains
+`4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Family 5's malformed auxiliary
+handle remain outside tested-concept totals; Family 6 adds no unresolved handle.
+
 ## Exact next debt
 
-- The next untriaged local Anatomy quiz-content image is `src_9b509a75a7e648219f37`.
-  The remaining two Anatomy images follow: `src_5bb02d6293fb60233949` and
-  `src_086eb3c89677239baa74`. Their visual prompt/note classification, key status, repeat
-  collapse and semantic search remain wholly outside this checkpoint.
+- The next untriaged local Anatomy quiz-content image is `src_5bb02d6293fb60233949`.
+  The final Anatomy image follows: `src_086eb3c89677239baa74`. Their visual prompt/note
+  classification, key status, repeat collapse and semantic search remain wholly outside this
+  checkpoint.
 - The three local Pathology quiz-content images in the actual-assessment lane,
   `src_4ee3e3e63fa0804576fb`, `src_e8309c2953d770051cf0`, and
   `src_758188828699ae3569f4` remain after the Anatomy images. Their content counts and key

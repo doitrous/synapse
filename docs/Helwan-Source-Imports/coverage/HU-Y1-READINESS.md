@@ -127,5 +127,10 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   nerve with a 4-cm-below-ligament termination; it is retained only as unresolved malformed
   auxiliary evidence, not silently converted to femoral sheath. The combined auxiliary-note
   total is 14 statements and assessment totals remain unchanged.
-- Continue the remaining three anatomy quiz-content images, then pathology assessment images
+- The third anatomy image `src_9b509a75a7e648219f37` is a continuation of the handwritten
+  notes: four numbered statements plus an attached adductor-canal alias bubble, no assessment
+  prompts and no keys. N9 and N10 collapse into the existing obturator-nerve origin/course/
+  branches handle, leaving three pending-only auxiliary handles. The auxiliary-note total is
+  now 18 numbered statements and assessment totals remain unchanged.
+- Continue the remaining two anatomy quiz-content images, then pathology assessment images
   and Tutorial 103; this remains S1 evidence only.
