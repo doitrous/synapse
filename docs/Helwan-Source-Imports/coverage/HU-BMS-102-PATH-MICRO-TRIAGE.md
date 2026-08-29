@@ -4824,3 +4824,34 @@ BMS-102 candidate is tier-6 `src_8767df268e582bed0d7c` ·
 `8767df268e582bed0d7c09a7bf9b815502e3f12394a6824df69ffe159d368ec4`, one page under
 `Microbiology / Notes and Summaries`; it needs its own source and authority gate before any
 count is admitted.
+
+## Family 45 — tier-6 Bacterial Morphology and Structure mind-map gate
+
+| Field | Verified result |
+|---|---|
+| Source | `src_8767df268e582bed0d7c` · `Mind_Map_Bacterial_Morphology_and_Structure.pdf` |
+| SHA-256 / boundary | `8767df268e582bed0d7c09a7bf9b815502e3f12394a6824df69ffe159d368ec4` · one rendered page |
+| Authority / ruling | XMind presentation-style teaching map, with no exam, response field, answer key, university, sitting, or marks convention |
+
+The complete map is a declarative structural blueprint of prokaryotic bacterial morphology,
+cell-wall branches, external appendages/spores, cytoplasm, and clinical correlations. It has no
+learner prompt, option set, response blank, answer convention, or correctness mark. Labels such
+as `PORTAL` denote the map's topical taxonomy rather than questions. The complete-source gate
+is **0 prompt occurrences / 0 printed-answer occurrences / 0 retained records / 0 handles / 0
+required searches / +0 concepts**.
+
+| Measure | Family 45 gate | Auxiliary cumulative | All eligible S1 evidence |
+|---|---:|---:|---:|
+| Newly admitted prompts / answers / records / handles | 0 / 0 / 0 / 0 | 235 / 169 / 232 / 229 | 1,000 / 574 / 784 |
+| Cross-family concept delta | +0 | +170 over primary | **542** |
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**235 / 169 / 232 / 229 / +170**; all eligible evidence remains
+**1,000 / 574 / 784 / 542**. No readiness or claims status changes.
+
+### Exact next debt after Family 45
+
+`src_8767df268e582bed0d7c` is exhausted. Next: tier-6
+`src_3a7e4b5193cfba3bc75a` · `Virology & Mycology.pdf`, SHA-256
+`3a7e4b5193cfba3bc75ad66f0241124510fe6f531ab27378e8c4f4e12bd70a74`, four pages; apply a
+fresh source and authority gate before any count is admitted.
