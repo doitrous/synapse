@@ -1214,13 +1214,174 @@ occurrences = 29` handles; `1 + 3 + 25 = 29`; `168 + 33 = 201`; `75 + 0 = 75`;
 Family 5's malformed auxiliary note remain outside tested-concept totals. Family 12 adds
 neither an unresolved concept nor an inferred key.
 
+## Family 13 — external-labelled Histology Cartilage & Bone MCQ bank
+
+### Source identity, provenance and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_5da6cd6d288fb46dba2f` |
+| Manifest SHA-256 | `5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb` |
+| Recomputed SHA-256 | `5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb` |
+| File | `MCQs - External Histo Cartilage & Bone MCQ + answers JPG.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External Histo Cartilage & Bone MCQ + answers JPG.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · All Subjects · Questions/MCQs · solved copy · source tier 3 |
+| External provenance | the filename explicitly says `External`; that label is source authority and is not overridden by folder placement or the answer list |
+| Container | 23-page, unencrypted, non-interactive A4 PDF; pages 1–19 are question sheets and pages 20–23 are an answer list |
+| Read method | all 23 pages rendered at 160 dpi and visually read source-first; OCR/text extraction used only to cross-check numbering and the printed answer list; no download |
+
+This is a solved **assessment bank**, not teaching prose and not a practical handout. Pages
+1–19 contain 141 complete MCQ occurrences. The printed sequence is Q1–Q140, but the source
+prints two different questions as `41`; both occurrences are retained as Q41a and Q41b.
+Pages 20–23 print 141 corresponding answer-letter entries: two separate `41` entries (`B`
+then `D`) align by source order with Q41a and Q41b. No answer is inferred or medically
+repaired, including when a source key may look questionable.
+
+The first prompt on p. 10 begins visibly as `7 is the connective tissue covering which
+surrounds cartilage?`; its intended sequence position is supported by the surrounding Q71
+and Q73 and by the printed `72-C` key, but the damaged stem prefix is not reconstructed.
+It remains one complete, malformed, keyed prompt. Several later prompts visibly omit some
+option labels while preserving every option text and its order (notably Q73, Q80, Q88,
+Q91–Q92, Q116, Q120–Q122 and Q130–Q136). They remain complete keyed prompts; the missing
+labels are not silently supplied.
+
+### Page-by-page prompt and printed-key inventory
+
+| Physical page | Visible content | Prompt occurrences | Printed key entries |
+|---:|---|---:|---:|
+| 1 | Q1–Q6 | 6 | 0 |
+| 2 | Q7–Q12 | 6 | 0 |
+| 3 | Q13–Q17 | 5 | 0 |
+| 4 | Q18–Q26 | 9 | 0 |
+| 5 | Q27–Q36 | 10 | 0 |
+| 6 | Q37–Q46, including distinct Q41a/Q41b | 11 | 0 |
+| 7 | Q47–Q53 | 7 | 0 |
+| 8 | Q54–Q61 | 8 | 0 |
+| 9 | Q62–Q71 | 10 | 0 |
+| 10 | malformed-prefix Q72, then Q73–Q80 | 9 | 0 |
+| 11 | Q81–Q87 | 7 | 0 |
+| 12 | Q88–Q94 | 7 | 0 |
+| 13 | Q95–Q101 | 7 | 0 |
+| 14 | Q101 option `d` continues, then Q102–Q108 | 7 | 0 |
+| 15 | Q109–Q115 | 7 | 0 |
+| 16 | Q116–Q122 | 7 | 0 |
+| 17 | Q123–Q129 | 7 | 0 |
+| 18 | Q130–Q136 | 7 | 0 |
+| 19 | Q137–Q140 | 4 | 0 |
+| 20 | answer list Q1–Q44, including two separate Q41 letters | 0 | 45 |
+| 21 | answer list Q45–Q88 | 0 | 44 |
+| 22 | answer list Q89–Q132 | 0 | 44 |
+| 23 | answer list Q133–Q140 | 0 | 8 |
+| **Family 13 raw external bank** | **all pages** | **141** | **141** |
+
+Five assessment prompts, Q122–Q126, are **practical-relevant**: they test decalcified
+versus ground-bone preparation and what each preparation demonstrates. They remain inside
+the 141 MCQs and are not double-counted as practical records. There are no stand-alone
+slides, spotters, specimens, teaching plates or non-assessment practical tasks in this PDF.
+
+### One-to-one assignment, search and disposition ledger
+
+Every one of the 141 prompt occurrences is assigned below exactly once. Repeated and
+same-objective prompts collapse to 49 source-distinct handles, so `141 - 49 = 92` repeat
+occurrences. Exact or near-exact repeats include Q4/Q40, Q5/Q44, Q23/Q77, Q30/Q33,
+Q51/Q72, Q52/Q68, Q55/Q65, Q89/Q96 and Q139/Q140; the larger groups below make every
+other semantic collapse explicit. The duplicated printed number `41` does not cause a
+collapse because Q41a and Q41b test different concepts.
+
+Each handle received one search in each required surface: live state (`server/data` and
+`src/data`), pending state (`docs/import-ready` and `docs/questions-import-ready`), every
+prior `docs/*-Source-Imports` lane, and accepted prior LCS. That is **49 × 4 = 196 required
+invocations**. One broad terminology/phrase-order follow-up per handle gives **245 total
+invocations**. No exact prior-LCS tested handle is reused; prior LCS bone-matrix and metabolic
+table material is related but different-grain and therefore not collapsed.
+
+| # | Prompt assignment → handle | Four-query bundle | Same-scope result | External-bank disposition |
+|---:|---|---|---|---|
+| 1 | Q1,Q29 → `endochondral-ossification-long-bone-regions` | `endochondral ossification`; `intracartilaginous`; `diaphysis ossification`; `epiphysis ossification` | Pending `ART-103-HIS-BONE-OSSIFICATION` owns the two centres and cartilage-model route. | pending |
+| 2 | Q2,Q14,Q42,Q43,Q111 → `osteoblast-bone-forming-cell-alkaline-phosphatase` | `osteoblast alkaline phosphatase`; `bone building cell`; `laying down new bone`; `osteoblast matrix secretion` | Pending bone-cell and ossification records own the forming-cell/ALP scope. | pending |
+| 3 | Q3,Q38 → `compact-bone-dense-definition` | `compact bone`; `dense bone`; `compact cancellous`; `bone density terminology` | Pending compact/spongy article owns the equivalence and structure. | pending |
+| 4 | Q4,Q40,Q47 → `osteon-haversian-system-compact-bone-unit` | `Haversian system`; `osteon`; `cylindrical compact bone`; `compact bone unit` | Live `ART-MSK-TOP-3E60C20647` owns the Haversian/osteon lamellar unit; pending material is fuller but not a reason to duplicate. | live |
+| 5 | Q5,Q18,Q44,Q101,Q121 → `bone-matrix-type-i-collagen-acidophilia` | `bone matrix`; `type I collagen bone`; `bone acidophilia`; `calcified collagen` | Live matrix records are narrower; pending bone-matrix material owns type-I collagen and acidophilia together. | pending |
+| 6 | Q6,Q35,Q46,Q52,Q68 → `hyaline-cartilage-growth-plate-articular-fetal-sites` | `hyaline growth plate`; `articular cartilage`; `fetal skeleton cartilage`; `epiphyseal cartilage` | Pending cartilage-types/ossification records own all three site roles. | pending |
+| 7 | Q7,Q12,Q19,Q115 → `osteocyte-canaliculi-processes-gap-junctions` | `osteocyte canaliculi`; `osteocyte processes`; `gap junction bone`; `canaliculi branches` | Pending compact-bone/bone-cell material owns the canalicular process network. | pending |
+| 8 | Q8 → `osteoclast-howship-lacuna` | `Howship lacuna`; `osteoclast hollow`; `resorption bay`; `bone eroding cavity` | Pending `ART-103-HIS-BONE-CELLS` explicitly owns the osteoclast site. | pending |
+| 9 | Q9 → `osteoid-unmineralized-bone-matrix` | `osteoid`; `unmineralized bone matrix`; `organic bone matrix`; `osteoblast osteoid` | Pending bone-cell/matrix material owns the definition; Family 12's tumour-matrix handle is different-grain. | pending |
+| 10 | Q10,Q11,Q108 → `endosteum-medullary-cavity-lining` | `endosteum`; `medullary cavity lining`; `inner bone surface`; `bone marrow cavity layer` | Pending bone-coverings record owns the full definition. | pending |
+| 11 | Q13,Q15,Q16 → `compact-vs-spongy-bone-sites` | `compact spongy sites`; `diaphysis compact`; `epiphysis spongy`; `flat short irregular bone` | Pending compact/spongy article owns the distribution. | pending |
+| 12 | Q17,Q32,Q36,Q105 → `spongy-bone-trabecular-architecture` | `trabeculae`; `spongy bone spicules`; `cancellous septa`; `irregular bone lamellae` | Pending compact/spongy article owns the branching lamellar architecture. | pending |
+| 13 | Q21,Q88 → `cartilage-isogenous-group-cell-nest` | `isogenous group`; `cell nest`; `chondrocytes same lacuna`; `cartilage cell cluster` | Pending cartilage-cell article owns the 2–8-cell group. | pending |
+| 14 | Q22,Q23,Q27,Q56,Q57,Q63,Q64,Q69,Q70,Q71,Q76–Q79 → `cartilage-types-anatomic-sites` | `cartilage sites`; `epiglottis cartilage`; `meniscus fibrocartilage`; `elastic hyaline fibrocartilage` | Pending `ART-103-HIS-CARTILAGE-TYPES` owns the complete site table. | pending |
+| 15 | Q24,Q90,Q95 → `cartilage-matrix-basophilia-metachromasia` | `cartilage basophilia`; `metachromasia`; `sulfated GAG`; `hematoxylin cartilage` | Pending cartilage-cell article owns sulfated GAG basophilia/metachromasia. | pending |
+| 16 | Q25 → `volkmann-canals-connect-osteons` | `Volkmann canals`; `Haversian connectors`; `transverse bone canal`; `osteon connection` | Pending compact-bone article owns the transverse/oblique connections. | pending |
+| 17 | Q26 → `osteoclast-multinucleation-identity` | `multinucleated osteoclast`; `bone cell several nuclei`; `osteoclast fusion`; `giant bone cell` | Pending bone-cell article owns origin by fusion and multinucleation. | pending |
+| 18 | Q28,Q41a,Q49 → `sharpey-fibers-tendon-ligament-attachment` | `Sharpey fibers`; `perforating fibers`; `ligament bone anchor`; `collagen into bone` | Pending compact-bone/periosteum material owns the attachment. | pending |
+| 19 | Q30,Q33,Q102 → `osteoclast-bone-resorption-identity` | `osteoclast resorption`; `bone breakdown cell`; `bone eroding cell`; `bone destroying cell` | Live bone-metabolism material explicitly owns activated osteoclast resorption. | live |
+| 20 | Q31 → `bone-specialized-connective-tissue` | `bone connective tissue`; `hard connective tissue`; `bone basic tissue`; `calcified matrix tissue` | Live `ART-MSK-TOP-3E60C20647` defines bone as hard connective tissue with calcified matrix. | live |
+| 21 | Q34 → `intramembranous-ossification-direct-bone-formation` | `intramembranous ossification`; `direct bone formation`; `no cartilage template`; `mesenchymal bone` | Pending ossification article owns the direct route. | pending |
+| 22 | Q37,Q41b,Q48,Q104,Q136 → `osteocyte-lacuna-mature-maintenance-viability` | `mature bone cell`; `osteocyte lacuna`; `bone maintaining cell`; `osteocyte viability` | Pending bone-coverings/cells material owns mature osteocyte site and function. | pending |
+| 23 | Q39 → `bone-lining-cell-resting-osteoblast` | `bone lining cell`; `resting osteoblast`; `flattened osteoblast`; `bone surface cell` | Pending bone-cell article explicitly owns the flattened lining-cell fate. | pending |
+| 24 | Q45,Q107 → `periosteum-bone-covering-functions` | `periosteum`; `bone covering`; `periosteum functions`; `muscle attachment bone` | Pending bone-coverings article owns covering, nutrition, attachment and growth. | pending |
+| 25 | Q50,Q55,Q65,Q73,Q97 → `chondroblast-vs-chondrocyte-maturity-matrix` | `chondroblast`; `chondrocyte`; `cartilage matrix cell`; `mature cartilage cell` | Pending cartilage-cell article owns both stages and matrix secretion. | pending |
+| 26 | Q51,Q72,Q86 → `perichondrium-cartilage-covering-composition` | `perichondrium`; `cartilage covering`; `perichondrium vessels nerves`; `perichondrium collagen I` | Pending cartilage-cell article owns both layers and composition. | pending |
+| 27 | Q53 → `megakaryocyte-single-multilobed-nucleus` | `megakaryocyte multilobed`; `single lobed nucleus`; `osteoclast megakaryocyte`; `marrow giant cell` | Pending bone-matrix comparison and ISK marrow records own the discriminator. | pending |
+| 28 | Q54,Q74,Q85,Q92,Q93 → `cartilage-avascular-nutrition-repair` | `avascular cartilage`; `cartilage diffusion`; `synovial nutrition`; `cartilage capillary matrix` | Pending cartilage-cell article owns avascularity and both diffusion routes. | pending |
+| 29 | Q58,Q60 → `cartilage-mesenchymal-origin-and-specialized-ct` | `cartilage mesenchyme`; `specialized connective tissue`; `cartilage origin`; `undifferentiated mesenchymal cells` | Live mesenchymal hits concern marrow; pending cartilage-cell material owns this exact origin/classification. | pending |
+| 30 | Q59 → `connective-tissue-proper-classification` | `connective tissue proper`; `loose connective tissue`; `specialized connective tissue`; `areolar classification` | Pending ISK histology material owns the soft-matrix/CT-proper classification. | pending |
+| 31 | Q61,Q94 → `cartilage-three-type-classification-basis` | `three cartilage types`; `cartilage classification`; `fiber type matrix amount`; `hyaline elastic fibrocartilage` | Pending cartilage articles own the three types and classification basis. | pending |
+| 32 | Q62,Q67,Q81 → `chondrocyte-lacuna-and-general-phenotype` | `chondrocyte lacuna`; `single chondrocyte`; `cartilage cell lacuna`; `chondrocyte phenotype` | Pending cartilage-cell article owns the lacunar phenotype. | pending |
+| 33 | Q66,Q91 → `hyaline-cartilage-glassy-type-ii-collagen` | `hyaline glassy`; `type II collagen`; `transparent cartilage matrix`; `hyaline matrix fibers` | Pending cartilage articles own both features. | pending |
+| 34 | Q80 → `cartilage-matrix-firm-flexible` | `firm flexible cartilage`; `rubbery matrix`; `cartilage ground substance`; `cartilage matrix consistency` | Pending cartilage-cell article defines the matrix as firm, rubbery and flexible. | pending |
+| 35 | Q75,Q82,Q83,Q100 → `fibrocartilage-type-i-collagen-perichondrium-absence` | `white fibrocartilage`; `type I collagen`; `no perichondrium`; `thick collagen bundles` | Pending cartilage-types article owns the full pattern. | pending |
+| 36 | Q84,Q89,Q96,Q98,Q99 → `cartilage-appositional-vs-interstitial-growth` | `cartilage appositional`; `cartilage interstitial`; `chondroblast growth`; `chondrocyte growth` | Pending cartilage-cell article explicitly separates the two mechanisms. | pending |
+| 37 | Q87 → `elastic-cartilage-fibers-type-ii-collagen` | `yellow elastic cartilage`; `elastic fibers`; `type II collagen elastic`; `elastic cartilage matrix` | Pending cartilage-types article owns the combination. | pending |
+| 38 | Q139,Q140 → `deep-chondrocyte-phenotype` | `deep chondrocytes`; `lipid glycogen chondrocyte`; `pale basophilic chondrocyte`; `old chondrocyte shape` | Pending cartilage-cell article owns the deep-cell phenotype; two exception forms collapse. | pending |
+| 39 | Q103,Q119,Q130–Q132 → `bone-cell-cytoplasm-organelle-comparison` | `negative Golgi image`; `osteoblast RER`; `osteoclast mitochondria`; `osteogenic ribosomes` | Pending bone-cell/coverings records own the LM/EM comparison. | pending |
+| 40 | Q20,Q106,Q120,Q134 → `bone-appositional-growth-surfaces-width` | `bone appositional growth`; `periosteum endosteum`; `long bone width`; `bone growth surfaces` | Pending bone-coverings/ossification records own outward/inward surface growth. | pending |
+| 41 | Q109,Q110,Q112,Q114,Q116 → `epiphyseal-plate-zone-sequence-cell-changes` | `epiphyseal zones`; `proliferative hypertrophy`; `zone invasion`; `zone ossification` | Pending ossification article owns the ordered zones and changes. | pending |
+| 42 | Q117 → `osteoporosis-calcitonin-treatment` | `calcitonin osteoporosis`; `osteoclast inhibition`; `bone fracture treatment`; `C-cell calcitonin` | Pending 103-BMS histology concept explicitly states calcitonin use in osteoporosis. | pending |
+| 43 | Q118 → `fracture-healing-periosteum-thickening` | `fracture periosteum`; `periosteal thickening`; `osteogenic layer fracture`; `bone repair periosteum` | Pending bone-coverings article explicitly owns marked periosteal thickening during fracture repair. | pending |
+| 44 | Q122–Q126 → `bone-histology-preparation-ground-vs-decalcified` | `Grinding method`; `decalcified bone`; `ground compact bone`; `bone preparation histology` | Pending bone-matrix/classification article owns preparation choice and demonstrated structures. | pending; practical-relevant |
+| 45 | Q127–Q129,Q133 → `osteoclast-vesicular-acid-enzyme-resorption-mechanism` | `exocytotic vesicles`; `endocytotic vesicles`; `H ion Howship`; `ruffled border osteoclast` | Pending bone-cell article owns vesicles, acid, proteolytic enzymes and ruffled border. | pending |
+| 46 | Q137 → `osteoclast-remodeling-functions` | `osteoclast remodelling`; `marrow cavity widening`; `fracture growth remodeling`; `osteoclast function` | Pending bone-cell/ossification material owns resorption and remodelling. | pending |
+| 47 | Q113 → `bone-lamellae-composition-organization` | `concentric lamellae`; `calcified collagen lamellae`; `Haversian canal layers`; `bone lamellae` | Live `CON-MSK-52DC4C4BF9126D` owns calcified collagen lamellae and live Haversian material owns their concentric organization. | live |
+| 48 | Q135 → `long-bone-length-epiphyseal-plate` | `long bone length`; `epiphyseal plate`; `longitudinal growth`; `growth plate length` | Pending ossification article owns longitudinal growth at the plate. | pending |
+| 49 | Q138 → `bone-no-interstitial-growth` | `no interstitial growth`; `osteocytes cannot divide`; `bone growth limitation`; `appositional only bone` | Live `CON-MSK-CCDCEC8F7ACBC0` owns the no-interstitial-growth fact. | live |
+
+Disposition arithmetic is **5 live + 44 pending + 0 external-new = 49** source-distinct
+handles. These are coverage results for an explicitly external bank, not authority to add
+the source to Helwan-owned assessment scope. The answers remain useful source provenance,
+and the five practical-relevant prompts remain useful evidence, but neither changes the
+eligible Helwan module totals.
+
+### Family-13 checkpoint and cumulative LCS-103 delta
+
+| Family-13 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Explicitly external assessment bank | 141 | 141 | 49 | 5 | 44 | 0 |
+| Of which practical-relevant MCQs (already included above) | 5 | 5 | 1 | 0 | 1 | 0 |
+| **Eligible Helwan assessment delta** | **+0** | **+0** | **+0** | **+0** | **+0** | **+0** |
+
+The accepted eligible-module checkpoint therefore stays unchanged:
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 12 | 201 | 75 | 111 | 5 | 28 | 78 |
+| Family 13 eligible delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 13** | **201** | **75** | **111** | **5** | **28** | **78** |
+
+Arithmetic checks: pages 1–19 give `141` prompt occurrences; pages 20–23 give
+`45 + 44 + 44 + 8 = 141` printed key entries; `141 - 92 = 49` handles; and
+`5 + 44 + 0 = 49`. The external bank is recorded separately, so eligible cumulative
+arithmetic remains `5 + 28 + 78 = 111`. The 50 auxiliary note statements, Family 3's
+unresolved crop and Family 5's malformed note also remain unchanged and outside these raw
+external-bank totals.
+
 ## Exact next debt
 
-- Tutorial 103 and all eight Anatomy/Pathology quiz-content images are now visually triaged.
-- Rank 4 (`HU-LCS-103 · anatomy + histology`) remains ahead of rank 5 in the committed wave
-  plan. Its next named, local, solved question source is
-  `src_5da6cd6d288fb46dba2f`, `MCQs - External Histo Cartilage & Bone MCQ + answers JPG.pdf`
-  (23 pages). It is the exact next bounded LCS-103 evidence debt; its explicit `External`
-  label must be preserved during eligibility review rather than assumed eligible.
+- The first solved external Histology source is now fully inventoried but excluded from the
+  eligible Helwan assessment delta because its filename explicitly labels it `External`.
+- Rank 4 still precedes rank 5. The next named local source is
+  `src_7f33f41ffaff192e3bc8`, `MCQs - External Histo Muscle MCQ & answers JPG.pdf`
+  (20 pages). It requires the same source-first external-provenance and eligibility review.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.

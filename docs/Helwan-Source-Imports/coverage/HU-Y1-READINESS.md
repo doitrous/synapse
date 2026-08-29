@@ -189,5 +189,12 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   are 1 live, 3 pending and 25 new, bringing LCS-103 to 201 observed prompts, 75 keys and
   111 concepts (5 live / 28 pending / 78 new); the 50 auxiliary notes stay outside those
   assessment totals.
-- The next LCS-103 debt is external-labelled source `src_5da6cd6d288fb46dba2f`; preserve and
-  assess its eligibility before source triage. This remains S1 evidence only.
+- The external-labelled Cartilage & Bone bank `src_5da6cd6d288fb46dba2f` has now been
+  completely inventoried: 141 complete MCQ occurrences and 141 printed key entries, including
+  the two source-ordered Q41 entries (`B`, then `D`), collapse to 49 coverage handles (5 live /
+  44 pending / 0 new). The filename’s explicit `External` provenance excludes the entire bank
+  from eligible Helwan assessment totals. Q122–Q126 are practical-relevant preparation-method
+  MCQs, not separate practical artifacts; the eligible LCS-103 checkpoint remains 201/75/111
+  and 5/28/78. This remains S1 evidence only.
+- The next LCS-103 debt is likewise external-labelled source `src_7f33f41ffaff192e3bc8`; review
+  its eligibility before source triage.
