@@ -2504,3 +2504,47 @@ unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending 
 Implantation**. Q26–136 and the nine p. 33 written prompts remain outside completed-source
 totals until their source-level collapse, four searches per handle, and prior-FHB adjudication
 are recorded.
+
+## Bounded continuation — General Embryology, Section VI: Implantation
+
+This continuation retains the same single selected Anatomy `05 MCQs` path and exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`. Its local file is
+still 801,278 bytes and 34 pages, and the full-source visual inventory remains **145 prompt
+occurrences / 145 directly printed answer occurrences**. All and only **source pages 11–13,
+Section VI** were assigned in this pass. They visibly print Q26–40 and three immediate answer
+lines, so the bounded arithmetic is **15 complete MCQs / 15 directly printed answer letters**.
+Source page 14 begins `Section VII: Gastrulation` at Q41 and is the next natural boundary.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q26–Q29 | `26 B`; `27 B`; `28 B`; `29 B` | Implantation process, usual upper-posterior uterine site, day-10 completion, and closing-plug epithelial repair (`implantation`; `blastocyst implantation endometrium`; `implantation upper posterior uterine fundus`; `implantation complete day 10 closing plug`) | live-hit after exact-scope comparison; exact prior-FHB implantation process/site/timing assignment — duplicate. |
+| Q30 | `B` | Decidual reaction as glycogen- and lipid-rich endometrium (`decidua glycogen lipids`; `decidual reaction endometrium`; `endometrium decidua second week`; `decidua pregnancy glycogen`) | new at this search scope; prior decidua-division and placental-component assignments do not own this biochemical reaction — bounded candidate addition. |
+| Q31, Q33–Q35 | `31 A`; `33 B`; `34 A`; `35 B` | Bilaminar-disc and early cavity-wall development: epiblast/hypoblast, amnioblasts, umbilical-vesicle wall, and extraembryonic mesoderm (`bilaminar germ disc`; `epiblast hypoblast`; `amniotic cavity umbilical vesicle`; `second week embryoblast`) | new at this search scope; prior epiblast-floor and germ-layer assignments do not own this printed second-week structure family — bounded candidate addition. |
+| Q32 | `B` | Trophoblast differentiation into cytotrophoblast and syncytiotrophoblast (`trophoblast`; `syncytiotrophoblast`; `cytotrophoblast`; `trophoblast layers`) | live-hit; exact prior-FHB trophoblast-layers assignment — duplicate. |
+| Q36, Q38 | `36 D`; `38 A` | End-of-second-week chorionic-villus formation and primary/secondary stages (`chorionic villi`; `primary secondary chorionic villi`; `chorionic villi end second week`; `chorionic villus development`) | live-hit; exact prior-FHB chorionic-villus development assignment — duplicate. |
+| Q37, Q39–Q40 | `37 B`; `39 B`; `40 B` | Chorion formation, connecting-stalk suspension, and the extraembryonic-mesodermal chorionic cavity (`extraembryonic mesoderm`; `chorionic cavity`; `connecting stalk`; `chorion formation`) | pending-hit at the exact chorionic-cavity scope; prior chorion-formation work does not own the combined connecting-stalk/cavity relationship — bounded candidate addition. |
+
+The 15 observations collapse source-first to **six handles**. Q26–29 form one implantation
+process/site/timing family; Q31/Q33–35 form one bilaminar-disc and early-cavity family;
+Q36/Q38 form one chorionic-villus timing/stage family; Q37/Q39/Q40 form one chorion,
+connecting-stalk and chorionic-cavity family; Q30 and Q32 remain separately assigned. The
+assignment and query ledger therefore reconciles exactly as **6 handles × 4 phrases = 24
+required searches**. Exact-scope source disposition is **3 live / 1 pending / 2 new**.
+
+Implantation, trophoblast differentiation and chorionic-villus development exactly reuse
+completed prior-FHB scope. The decidual reaction, bilaminar-disc/early-cavity family and
+expanded connecting-stalk/chorionic-cavity relationship survive prior-FHB comparison. The
+provisional post-prior-FHB result is therefore **0 live / 1 pending / 2 new**. It remains
+excluded from completed totals because the 34-page source is still incomplete. All printed
+answer letters are preserved as source claims without medical correction or authority uplift.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **Q41 on source page 14, Section VII:
+Gastrulation**. Q41–136 and the nine p. 33 written prompts remain outside completed-source
+totals until their source-level collapse, four searches per handle, and prior-FHB adjudication
+are recorded.
