@@ -2548,3 +2548,49 @@ unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending 
 Gastrulation**. Q41–136 and the nine p. 33 written prompts remain outside completed-source
 totals until their source-level collapse, four searches per handle, and prior-FHB adjudication
 are recorded.
+
+## Bounded continuation — General Embryology, Section VII: Gastrulation
+
+This continuation retains the same single selected Anatomy `05 MCQs` path, exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`, and full-source
+visual inventory of **145 prompt occurrences / 145 directly printed answer occurrences**.
+All and only **source pages 14–16, Section VII** were assigned in this pass. They visibly
+print Q41–55 and three immediate answer lines: **15 complete MCQs / 15 directly printed
+answer letters**. The standalone `V.IMP. Germ cells are derived from endoderm` line on p. 15
+is declarative teaching text, not a prompt or key. Source page 17 begins `Section VIII:
+Folding of the embryo` at Q56 and is the next natural boundary.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q41, Q43–Q44 | `41 B`; `43 A`; `44 B` | Gastrulation as morphogenesis, with primitive streak as its first visible caudal-median sign (`gastrulation`; `primitive streak`; `first sign gastrulation`; `primitive streak caudal median plane`) | pending-hit at the exact gastrulation scope; exact prior-FHB gastrulation/primitive-streak assignment — duplicate. |
+| Q42, Q50 | `42 C`; `50 A` | Third-week three-germ-layer formation from epiblast (`three germ layers`; `epiblast germ layers`; `gastrulation third week`; `germ layers third week`) | pending-hit; exact prior-FHB epiblast/germ-layer assignment — duplicate. |
+| Q45–Q46, Q51 | `45 A`; `46 B`; `51 B` | Primitive node and primitive-streak relationship to notochordal-process development (`primitive node`; `notochordal process primitive node`; `primitive streak notochord`; `notochord development`) | pending-hit at the primitive-node scope; exact prior-FHB notochord/primitive-streak development assignment — duplicate. |
+| Q47, Q52, Q55 | `47 B`; `52 B`; `55 B` | Notochord as embryonic axis and inducer of central nervous system, neural tube, somites and axial skeleton (`notochord embryonic axis`; `notochord central nervous system`; `notochord neural tube somites`; `notochord induction`) | new at this search scope; prior notochord-development assignment does not own these printed signaling targets — bounded candidate addition. |
+| Q48 | `C` | Notochord remnant as nucleus pulposus (`notochord nucleus pulposus`; `notochord remnant`; `nucleus pulposus embryo`; `intervertebral disc notochord`) | new externally; exact prior-FHB notochord-remnant/nucleus-pulposus assignment — duplicate. |
+| Q49, Q54 | `49 B`; `54 B` | Third-week gastrulation changing the embryonic disc to a flat elongated form (`gastrulation embryonic disc shape`; `flat elongated embryonic disc`; `third week embryonic disc`; `gastrulation morphogenesis`) | new at this search scope; prior fourth-week folding/cylindrical-form work does not own this third-week elongation claim — bounded candidate addition. |
+| Q53 | `C` | Vascular tertiary chorionic villi at the end of the third week (`tertiary chorionic villi`; `chorionic villi blood vessels`; `chorionic villi third week`; `chorionic villi stages`) | pending-hit; exact prior-FHB chorionic-villus developmental-stage assignment — duplicate. |
+
+The 15 observations collapse source-first to **seven handles**: Q41/Q43/Q44 form one
+gastrulation-and-primitive-streak family; Q42/Q50 one germ-layer family; Q45/Q46/Q51 one
+primitive-node/notochord-development family; Q47/Q52/Q55 one notochord-signaling family;
+Q49/Q54 one disc-shape family; Q48 and Q53 remain separately assigned. The assignment and
+query ledger therefore reconciles exactly as **7 handles × 4 phrases = 28 required searches**.
+Exact-scope source disposition is **0 live / 4 pending / 3 new**.
+
+Five handles exactly reuse completed prior-FHB scope: gastrulation/primitive streak,
+epiblast-derived germ layers, primitive-node/notochord development, the nucleus-pulposus
+remnant, and chorionic-villus stages. Notochord signaling targets and third-week disc
+elongation survive prior-FHB comparison. The provisional post-prior-FHB result is therefore
+**0 live / 0 pending / 2 new** and remains excluded while this 34-page source is incomplete.
+All printed answer letters are preserved as low-authority source claims without correction.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **Q56 on source page 17, Section VIII:
+Folding of the embryo**. Q56–136 and the nine p. 33 written prompts remain outside completed-
+source totals until their source-level collapse, four searches per handle, and prior-FHB
+adjudication are recorded.
