@@ -2922,3 +2922,78 @@ question-bearing candidate is tier-6 `src_e89478440e99a6b8a854` ·
 under BMS-102 Microbiology `Notes and Summaries`, not assessments, and requires a source-first
 study-bank/provenance ruling plus copy/concept dedupe against Families 11, 12 and 15 before any
 auxiliary count.
+
+## Post-Family-19 tier-6 antimicrobial-chemotherapy PDF gate
+
+### Source identity, provenance, and authority ruling
+
+| Field | Gate evidence |
+|---|---|
+| Candidate | `src_e89478440e99a6b8a854` · `Antimicrobial chemotherapy.pdf` |
+| SHA-256 / boundary | `e89478440e99a6b8a854a9ca7e38b792c5904634a7f6aa2d6f2ae44809340e0f` · six native-text letter-size pages |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; no external-university hint |
+| PDF metadata | author `GG`; Microsoft Word 2010 creator/producer; created 17 August 2025; no title, subject, instructor, module code, or exam metadata |
+| Read method | all six pages extracted natively, rendered at 120 dpi, and visually checked |
+
+The file is **not an exam paper, recovered sitting, department bank, or official key**. It has no
+Helwan/faculty masthead, instructor attribution, date or sitting, candidate instructions, duration,
+marks, or exam section labels. Its repeated devotional page header, concise re-authored stems,
+spelling artefacts such as `eppected`, `epample`, `topicity` and `non-genatic`, and the stray
+`QuizYs` text in Q30 instead support a compiled study-bank classification.
+
+The manifest's `nameTwinOf` points to preferred tier-4 theoretical source
+`src_bd6d792541ed79e0e692` · `Antimicrobial chemotherapy.pdf` (46 pages; SHA-256
+`bd6d792541ed79e0e692652157092fec0c7ee969a0b225e10155b2364a0010a8`). That lecture is
+explicitly headed `Dr. Ehab M. Fahmy` and `Faculty of Medicine, Helwan University`. The candidate
+is not a byte duplicate of it, but its questions and answer content closely follow that lecture's
+definitions, drug examples, mechanisms, resistance origins, complications and combinations.
+This supports Helwan-local **tier-6 auxiliary study-prompt eligibility**, not primary assessment or
+official-answer authority. The manifest path for the preferred twin retains a stale leading hyphen;
+the local no-hyphen file has the manifest SHA above. No manifest edit is made here.
+
+### Natural source sections and answer convention
+
+| Natural section | Visible source boundary | Prompt/answer convention | Gate disposition |
+|---|---|---|---|
+| MCQ bank | Q1-Q35 across pp. 1-6 | 35 unmarked four-option MCQs followed by a complete red 35-entry letter table on p. 6 | first countable auxiliary family after assignment/dedupe/search |
+| Written enumerate block | two prompts on p. 6: four complications; four non-genetic resistance origins | each prompt is immediately followed by a four-item printed answer list | separate second family because its answer convention and form differ from the MCQ block |
+
+The red Q1-Q35 table is a clearly printed answer convention and the two written lists are clearly
+printed answer blocks. If later counted, they are answer occurrences supplied by this study bank,
+not an independently verified or official key. The gate observes **35 MCQ units plus two written
+prompt-and-answer units**, but adds none of them to any checkpoint before the one-to-one assignment,
+within-source collapse, external search and prior-family adjudication are complete.
+
+### Copy and dedupe gate against Families 11, 12, and 15
+
+This file is not byte-identical to Family 11 (`4abfcc7807e4409a34dd...`), Family 12
+(`d903b650cb8226a7e414...`), or Family 15's raster (`26552d7fe7222dafad6c...`). Native-text and
+visual comparison found no whole prompt copied verbatim from those families. The source is instead
+heavily **concept-redundant** with their lecture-derived material, so file-level distinctness cannot
+be used as concept distinctness.
+
+| Prior family | Candidate relations requiring prompt-level disposition before counting |
+|---|---|
+| Family 11 primary | Q2, Q4, Q6-Q10, Q13, Q15-Q17, Q19, Q25-Q27, Q29-Q30, Q32 and Q34-Q35 are direct same-scope or very close restatements of accepted F11 handles. Q1, Q3, Q20-Q21, Q23 and Q31 touch accepted F11 material but may test a narrower application or different relation and must not be auto-collapsed. |
+| Family 12 auxiliary | Q33 is an exception-form reuse candidate for F12-A04's resistance-mechanism classification. The two written prompts reproduce F12-A06's four complications and F12-A05's four non-genetic origins at the same tested scope, although wording/order are not verbatim. Narrow applications such as Q14 and Q27 must remain separate unless the source-first handle proves the same umbrella scope. |
+| Family 15 auxiliary | Q9 restates F15-Q01's bacteriostatic definition and Q26 restates F15-Q02's selective-toxicity definition. The candidate has no direct copy of F15-Q03's antimicrobial-action exception prompt. |
+| Within this candidate | Q7 versus Q9 is the clearest potential same-concept collision (host clearance versus the bacteriostatic definition). Q2/Q21, Q8/Q31, Q10/Q29 and Q20/Q23 are related pairs but test mechanism/origin, spectrum/treatment, different clinical indications, or use/example respectively; each needs an explicit retain-or-collapse row rather than a bulk assumption. |
+
+The count pass must therefore preserve a 1:1 source assignment for all 35 MCQs, explicitly record
+every retained/collapsed relation above, then run the required four searches per retained
+source-supported handle against live state, all pending roots, and prior BMS-102. The two written
+prompts must be held for the subsequent section because their same-scope Family-12 reuse is already
+visible at this gate.
+
+### Zero-delta checkpoint and first countable family
+
+This gate contributes **zero observed prompts, zero printed answers, zero retained records, and
+zero concepts**. The primary assessment checkpoint remains **765 / 405 / 552 / 372**. Auxiliary
+Families 12-19 remain **89 observed / 35 printed answers / 88 retained / 87 source handles / +83
+concepts**, and all eligible evidence remains **854 / 440 / 640 / 455**.
+
+The first countable next family is the candidate's bounded **Q1-Q35 MCQ bank**, including its
+matched p. 6 red answer table. It is eligible only in the auxiliary/all-eligible dimension. The two
+written enumerate prompts and immediate lists form the next separate bounded family; neither
+section may change the primary assessment checkpoint or create exam-year, recurrence, marks, or
+official-key signal.

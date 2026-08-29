@@ -159,8 +159,11 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   the 9 retained handles are 0/0/9 and add +9. The F12–19 auxiliary checkpoint is 89 observed
   prompts/35 printed answers/88 retained/87 handles/+83 concepts, plus 44 annotations, 10
   checklist bullets and one excluded incomplete unit; all eligible evidence is 854/440/640/455.
-  Next is tier-6 `src_e89478440e99a6b8a854` `Antimicrobial chemotherapy.pdf`, requiring a
-  provenance/study-bank and source-first dedupe gate before count extraction.
+  Tier-6 `src_e89478440e99a6b8a854` `Antimicrobial chemotherapy.pdf` is now provenance-gated:
+  a six-page lower-authority study bank derived from the preferred 46-page Helwan lecture twin,
+  not an exam or official-key authority. Its 35 MCQs/red answer table and two written answer
+  blocks contribute zero counts until source-order dedupe and scope adjudication. First countable
+  unit is Q1–35 with its table; hold the written pair separately.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
