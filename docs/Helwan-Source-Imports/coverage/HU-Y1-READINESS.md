@@ -298,5 +298,10 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   occurrences, four answer-only reveals, 15 rationale slides and nine red keys yield six
   handles after four exact and four semantic collapses. Its +3 new-only delta brings eligible
   LCS to 406/229/191 and 9/49/133. Case-16's mismatched E rationale, Case-19 typo and the
-  complete altered Case-20 pair remain source-preserved. Next bounded extraction is CBL General/
-  Soft Tissue & Bone Neoplasia pp.72–109 only.
+  complete altered Case-20 pair remain source-preserved. CBL General / Soft Tissue & Bone
+  Neoplasia pp.72–109 is now also closed: 28 complete MCQ occurrences, 13 red-option keys and
+  ten rationale-only slides yield 14 handles after thirteen identical wording/option repeats
+  and the altered Case-25 semantic collapse. Nine prior eligible-LCS reuses leave a +5 new-only
+  delta, bringing eligible LCS to 434/242/196 and 9/49/138. Case 34 remains a complete keyless
+  differential—no answer is inferred. The 110-page CBL source is fully inventoried; broader
+  LCS S1 still awaits its remaining rank-4/rank-5 local-source families and consolidation.
