@@ -1767,3 +1767,159 @@ auxiliary-note delta.
   prompt/key review.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.
+
+## Family 17 — Pathology LCS question bank, Q1–Q24
+
+### Source identity, authority and bounded read
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_23d4ed4d5e4f3f7c9764` |
+| Manifest SHA-256 | `23d4ed4d5e4f3f7c9764477023894a609c7c4520e3129a7f50fb6c24efe6f1fc` |
+| Recomputed SHA-256 | `23d4ed4d5e4f3f7c9764477023894a609c7c4520e3129a7f50fb6c24efe6f1fc` |
+| File | `MCQs - College MCQs LCS Q-BANK (PATHO).pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Pathology/Questions/MCQs/MCQs - College MCQs LCS Q-BANK (PATHO).pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Pathology · Questions/MCQs · question bank · tier 3 |
+| Printed provenance | cover prints `LCS QUESTIONS BANK`, `Made by : Dr. Hebatallah Amin`, and `Collected by : Eyad Ahmed & Eman Hefny` |
+| Authority decision | eligible direct LCS Pathology question-bank evidence; lower than a sitting or department book, but not labelled `External`; no university or official-exam status is inferred beyond manifest placement |
+| Container | 37-page, unencrypted, non-interactive PDF 1.7; 612 × 865.543 pt; native text layer; no form or JavaScript |
+| This bounded family | physical p. 1 cover; Q1–Q24 across physical pp. 2–11; their printed key entries on physical p. 35 |
+| Read method | all 11 relevant source pages and the first key page rendered at 160 dpi and visually read; native text used only to cross-check wording; no download |
+
+The source has a clean three-part question/key structure: Q1–Q24 map to key p. 35,
+Q25–Q50 map to key p. 36, and Q51–Q77 map to key p. 37. Family 17 therefore stops at
+the first natural key boundary. Physical p. 11 contains all of Q23 and Q24, then begins
+Q25; that next question is excluded rather than counted as a cropped Family-17 prompt.
+
+All 24 in-scope questions are complete five-option MCQs. Physical p. 35 prints one answer
+letter and answer text for each of Q1–Q24, so the family contributes **24 printed keys**.
+There is no handwriting, circling, highlighting or annotation on the question pages. The
+cover is provenance evidence and p. 35 is a key page; neither is teaching material or an
+assessment prompt. There is no practical, specimen, image/trace interpretation, table,
+completion or stand-alone written item in this bounded section.
+
+### Page and key inventory
+
+| Physical page | Complete prompt starts / visible continuation | MCQ prompts counted | Printed keys counted |
+|---:|---|---:|---:|
+| 1 | cover | 0 | 0 |
+| 2 | Q1–Q3 (Q3 options continue) | 3 | 0 |
+| 3 | Q3 option E; Q4–Q5 (Q5 options continue) | 2 | 0 |
+| 4 | Q5 options D–E; Q6–Q8 (Q8 options continue) | 3 | 0 |
+| 5 | Q8 options B–E; Q9–Q10 (Q10 options continue) | 2 | 0 |
+| 6 | Q10 options B–E; Q11–Q12 (Q12 options continue) | 2 | 0 |
+| 7 | Q12 options C–E; Q13–Q15 (Q15 stem continues) | 3 | 0 |
+| 8 | Q15 continuation/options; Q16–Q17 (Q17 options continue) | 2 | 0 |
+| 9 | Q17 options C–E; Q18–Q19 | 2 | 0 |
+| 10 | Q20–Q22 (Q22 stem continues) | 3 | 0 |
+| 11 | Q22 continuation/options; Q23–Q24; excluded Q25 start | 2 | 0 |
+| 35 | printed `KEY ANSWERS` entries 1–24 | 0 | 24 |
+| **Family 17** | **Q1–Q24 plus matched key section** | **24** | **24** |
+
+The printed key sequence is `B E A D B A B A B B B D B C B E A D A C C E D B`.
+S1 preserves the source rather than repairing it. In particular: Q1 uses “more than 2
+standard deviations” rather than a conventional diagnostic threshold; Q15 asks for the
+“confirmatory diagnosis” while keying the investigation `MRI showing disc protrusion`;
+Q18 keys `Leukemia` for a secondary-gout malignancy association; Q20 keys
+`Corticosteroids` as the single “best treatment” after a decade of rheumatoid disease; and
+Q23 changes the female patient's pronoun to `his`. All remain complete keyed source records,
+with those wording or clinical-quality risks flagged for later review.
+
+### One-to-one prompt assignment and collapse ledger
+
+Every observed MCQ occurrence is assigned exactly once. There is no exact repeated full
+prompt. Five semantic repetitions collapse the 24 occurrences to 19 source-distinct
+handles: Q1/Q23 are osteoporosis diagnosis/fragility presentations; Q4/Q5/Q21 are a single
+myeloma diagnostic pattern; Q12/Q15 are the same disc-prolapse vignette asking diagnosis
+then confirmation; and Q18/Q22 are the same gout presentation asking the malignant
+association then the expected urate abnormality. Q13 and Q19 reuse two already-counted
+eligible Family-12 handles; their prompt/key occurrences remain counted but their concepts
+do not re-enter the module delta.
+
+| Evidence | One-to-one assignment in source order |
+|---|---|
+| Q1–Q6 | `Q1→osteoporosis-density-and-fragility-diagnosis`; `Q2→fracture-nonunion-risk-poor-alignment`; `Q3→aneurysmal-bone-cyst-clinicoradiologic-pattern`; `Q4→multiple-myeloma-clinical-diagnostic-pattern`; `Q5→multiple-myeloma-clinical-diagnostic-pattern`; `Q6→osteoid-osteoma-clinicoradiologic-pattern` |
+| Q7–Q12 | `Q7→fibrosarcoma-herringbone-spindle-cell-pattern`; `Q8→lumbar-disc-prolapse-cauda-equina-compression`; `Q9→hyperthyroidism-secondary-osteoporosis`; `Q10→diabetic-foot-ulcer-secondary-osteomyelitis`; `Q11→carpal-tunnel-syndrome-surgical-treatment`; `Q12→lumbar-disc-prolapse-clinical-diagnosis-and-mri-confirmation` |
+| Q13–Q18 | `Q13→sunburst-periosteal-lifting-bone-tumor-differential`; `Q14→multiple-myeloma-prognosis-beta2-microglobulin`; `Q15→lumbar-disc-prolapse-clinical-diagnosis-and-mri-confirmation`; `Q16→osteogenesis-imperfecta-type-I-collagen`; `Q17→postmenopausal-high-turnover-osteoporosis`; `Q18→malignancy-associated-gout-hyperuricemia` |
+| Q19–Q24 | `Q19→chondrosarcoma-vs-osteosarcoma-comparison`; `Q20→rheumatoid-arthritis-treatment-corticosteroids`; `Q21→multiple-myeloma-clinical-diagnostic-pattern`; `Q22→malignancy-associated-gout-hyperuricemia`; `Q23→osteoporosis-density-and-fragility-diagnosis`; `Q24→carpal-tunnel-associated-conditions-exception` |
+
+The Q19 assignment extends the accepted comparison handle with the keyed chondrosarcoma
+diagnostic pattern; it does not assert that the Family-17 prompt itself asks for a
+comparison. Q6 and Q16 promote/extend prior auxiliary-only osteoid-osteoma and
+osteogenesis-imperfecta evidence into eligible assessment concepts, so both enter the
+tested-concept delta once.
+
+### Search-before-mint and disposition ledger
+
+Each of the 19 handles received one search in each required surface: live state
+(`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), every prior source-import lane, and accepted prior LCS.
+That is **19 × 4 = 76 required invocations**. Eleven narrower scope/phrase follow-ups for
+fracture alignment, myeloma, diabetic osteomyelitis, disc imaging, carpal-tunnel treatment,
+secondary osteoporosis and prognostic wording give **87 search invocations total**.
+Taxonomy-only leaves and question-option mentions are not substantive coverage.
+
+| # | Prompt assignment → handle | Four-query bundle | Corpus / prior-LCS result | Disposition |
+|---:|---|---|---|---|
+| 1 | Q1,Q23 → `osteoporosis-density-and-fragility-diagnosis` | `osteoporosis densitometry`; `low bone mass`; `fragility fracture`; `bone resorption exceeds formation` | Pending `CON-MSK-89674D65B2316B` and its Histology article own progressive density loss, fracture risk and excess resorption. Prior LCS has demographic, glucocorticoid and algorithm scopes, not this tested diagnosis handle. | pending; new to eligible LCS |
+| 2 | Q2 → `fracture-nonunion-risk-poor-alignment` | `fracture nonunion`; `poor alignment`; `malalignment healing`; `mechanical stability union` | Pending fractured-neck records own vascular nonunion, and Histology owns callus biology, but neither makes poor alignment the risk mechanism. | new |
+| 3 | Q3 → `aneurysmal-bone-cyst-clinicoradiologic-pattern` | `aneurysmal bone cyst`; `expansile lytic lesion`; `blood filled bone cyst`; `reactive rim metaphysis` | No substantive live, pending, external-bank or prior-LCS same-scope record. | new |
+| 4 | Q4,Q5,Q21 → `multiple-myeloma-clinical-diagnostic-pattern` | `multiple myeloma CRAB`; `M spike`; `lytic bone lesions`; `plasma cell marrow tumor` | Pending `ART-108-PAT-AMYLOIDOSIS` identifies myeloma as a marrow plasma-cell tumour with extensive bone erosion and monoclonal immunoglobulin/light-chain production; it can absorb the diagnostic cluster. Prior LCS's primary-bone-tumour ranking note is narrower. | pending; new to eligible LCS |
+| 5 | Q6 → `osteoid-osteoma-clinicoradiologic-pattern` | `osteoid osteoma`; `nocturnal pain NSAID`; `radiolucent nidus`; `sclerotic bone under 1 cm` | Exact prior auxiliary disease handle supplies pain/size/site clues but was outside tested totals; no substantive live or pending record owns the full pattern. | prior-LCS auxiliary promotion; new |
+| 6 | Q7 → `fibrosarcoma-herringbone-spindle-cell-pattern` | `fibrosarcoma`; `herringbone pattern`; `uniform spindle cells`; `malignant fibroblast fascicles` | Live `CON-DER-78AF0815FE7330` exactly owns fibrosarcoma spindle-cell fascicles in a herringbone pattern. | live; new to eligible LCS |
+| 7 | Q8 → `lumbar-disc-prolapse-cauda-equina-compression` | `cauda equina`; `urinary retention back pain`; `disc prolapse emergency`; `lumbosacral root compression` | Pending disc records teach general nerve-root compression but do not own the cauda-equina/urinary-retention syndrome. | new |
+| 8 | Q9 → `hyperthyroidism-secondary-osteoporosis` | `hyperthyroidism osteoporosis`; `thyrotoxicosis bone loss`; `secondary osteoporosis`; `thyroid excess bone turnover` | Searches return only osteoporosis/thyroid taxonomy or unrelated scopes; no substantive same-scope record. | new |
+| 9 | Q10 → `diabetic-foot-ulcer-secondary-osteomyelitis` | `diabetic foot ulcer`; `diabetes osteomyelitis`; `contiguous bone infection`; `heel ulcer bone complication` | Osteomyelitis records are pathogen, chronic-morphology or amyloidosis contexts; none owns diabetic-foot contiguous spread. | new |
+| 10 | Q11 → `carpal-tunnel-syndrome-surgical-treatment` | `carpal tunnel release`; `endoscopic decompression`; `refractory carpal tunnel`; `median nerve surgery` | Pending Anatomy owns carpal-tunnel causes, sensory/motor findings and deformity, but no treatment or release procedure. | new |
+| 11 | Q12,Q15 → `lumbar-disc-prolapse-clinical-diagnosis-and-mri-confirmation` | `lumbar prolapsed nucleus pulposus`; `straight leg raise sciatica`; `disc protrusion MRI`; `radiating back pain` | Pending `CON-MSK-9C7E37FE296254` and its article own nucleus-pulposus herniation, radiating root pain and disc-prolapse diagnosis; extend for the source's MRI confirmation wording. | pending; new to eligible LCS |
+| 12 | Q13 → `sunburst-periosteal-lifting-bone-tumor-differential` | `sunburst pattern`; `periosteal lifting`; `Codman triangle`; `osteosarcoma radiology` | Exact accepted Family-12 tested handle; Family-17 adds a printed osteosarcoma key. No substantive live/pending record supersedes its inherited new disposition. | prior eligible-LCS reuse; inherited new |
+| 13 | Q14 → `multiple-myeloma-prognosis-beta2-microglobulin` | `beta 2 macroglobulin`; `myeloma prognosis`; `myeloma staging`; `albumin plasma cell prognosis` | No substantive live, pending, external-bank or prior-LCS prognostic/staging record. | new |
+| 14 | Q16 → `osteogenesis-imperfecta-type-I-collagen` | `osteogenesis imperfecta`; `type I collagen`; `lethal fetal fractures`; `brittle bone mutation` | Prior LCS auxiliary clinical-features evidence and a separate Helwan BMS triage handle are related, but neither is counted substantive tested coverage; generic collagen records do not own the disease link. | prior-LCS auxiliary promotion/extension; new |
+| 15 | Q17 → `postmenopausal-high-turnover-osteoporosis` | `high turnover osteoporosis`; `postmenopausal osteoporosis`; `low estrogen bone loss`; `osteoclast resorption menopause` | Pending Alexandria osteoporosis material owns postmenopausal oestrogen loss and accelerated resorption; extend it for the high-turnover label. Prior LCS demographic note was auxiliary only. | pending; new to eligible LCS |
+| 16 | Q18,Q22 → `malignancy-associated-gout-hyperuricemia` | `secondary metabolic gout`; `leukemia purine catabolism`; `tophi needle crystals`; `serum uric acid` | Live `CON-REN-B9E0531973510E` states that cancer/leukaemia cause secondary metabolic gout through purine catabolism; live gout/tophi and urate material supplies the presentation/laboratory side. | live; new to eligible LCS |
+| 17 | Q19 → `chondrosarcoma-vs-osteosarcoma-comparison` | `chondrosarcoma`; `popcorn calcification`; `chondroid matrix`; `chondrosarcoma osteosarcoma comparison` | Exact accepted Family-12 tested comparison handle can absorb the chondrosarcoma morphology and keyed diagnosis. | prior eligible-LCS reuse; inherited new |
+| 18 | Q20 → `rheumatoid-arthritis-treatment-corticosteroids` | `rheumatoid arthritis corticosteroids`; `RA treatment`; `erosive inflammatory arthritis therapy`; `glucocorticoid rheumatoid` | Prior LCS owns an unkeyed clinical/aetiology differential, while pending Pathology mentions RA only as an autoimmune/fibrinoid-necrosis example. No treatment record owns the printed key. | new; printed key requires review |
+| 19 | Q24 → `carpal-tunnel-associated-conditions-exception` | `carpal tunnel association`; `pregnancy carpal tunnel`; `thyroid diabetes carpal tunnel`; `diabetes insipidus exception` | Pending Anatomy lists local mechanical causes and owns syndrome findings, but not the systemic association/exception set. | new |
+
+Source-disposition arithmetic is **2 live + 4 pending + 13 new = 19** source-distinct
+handles. Two of those 13 new-disposition handles are already-counted eligible Family-12
+concepts, so module novelty is separate: **2 prior eligible reuse + 17 new to eligible =
+19**. The 17 net concepts resolve as **2 live + 4 pending + 11 new**.
+
+### Family-17 checkpoint and cumulative LCS-103 delta
+
+| Family-17 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS handle reuse (Q13, Q19) | 2 | 2 | 2 | 0 | 0 | 0 | 0 |
+| New-to-eligible live handles | 3 | 3 | 2 | 2 | 2 | 0 | 0 |
+| New-to-eligible pending handles | 8 | 8 | 4 | 4 | 0 | 4 | 0 |
+| New-to-eligible new handles | 11 | 11 | 11 | 11 | 0 | 0 | 11 |
+| **Family 17 assessment** | **24** | **24** | **19** | **17** | **2** | **4** | **11** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 16 | 231 | 105 | 117 | 6 | 32 | 79 |
+| Family 17 net delta | +24 | +24 | +17 | +2 | +4 | +11 |
+| **LCS-103 cumulative after Family 17** | **255** | **129** | **134** | **8** | **36** | **90** |
+
+Arithmetic checks: `3 + 2 + 3 + 2 + 2 + 3 + 2 + 2 + 3 = 22` prompt starts on
+physical pp. 2–10, plus Q23 and Q24 on p. 11 give 24 unique numbered prompts. The five
+semantic repeats give `24 - 5 = 19` handles; `2 + 4 + 13 = 19`; `2 prior eligible + 17
+new to eligible = 19`; `2 + 4 + 11 = 17`; `231 + 24 = 255`; `105 + 24 = 129`; `117
++ 17 = 134`; and `8 + 36 + 90 = 134`. The external-bank checkpoint remains separately
+unchanged at `241 prompts / 241 keys / 75 handles = 9 live / 66 pending / 0 new`. The 50
+Anatomy/Pathology auxiliary notes, Family 3's unresolved crop, Family 5's malformed note and
+Family 16's nine teaching statements also remain unchanged.
+
+## Exact next debt
+
+- Continue the same local source at the next natural section: complete Q25–Q50, beginning
+  on physical p. 11 and ending on physical p. 22, matched only to printed key entries
+  25–50 on physical p. 36. Expected bounded inventory before visual verification is 26 MCQs
+  and 26 printed key entries.
+- The final section after that is Q51–Q77 with printed key entries 51–77 on physical p. 37.
+  No part of either later section contributes to Family-17 counts.
+- After this 77-question source closes, return to the committed rank order for the remaining
+  local LCS theoretical/practical evidence. No download is needed or authorised.
+- No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
+  `TRIAGE APPROVED` for Helwan Year 1.
