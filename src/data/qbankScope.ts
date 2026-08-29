@@ -1,5 +1,6 @@
 import type { LibTopic } from '@/data/library'
 import type { Question } from '@/data/qbank'
+import { bucketOf, type SourceBucket } from './questionSource.ts'
 
 /**
  * A session scope is a set of keys, each either a whole topic (`t:<topicId>`)
@@ -51,6 +52,20 @@ export function questionsInScope(pool: Question[], scope: Scope, libraryTopics: 
     (q) =>
       q.libraryRefs.some((ref) => subtopicIds.has(ref.id)) || topicTitles.has(q.topic.toLowerCase()),
   )
+}
+
+/**
+ * Narrow a question set to the chosen MCQ source buckets. An empty selection
+ * means "all sources" — the pre-feature behaviour — so an untouched builder is
+ * unchanged. Untagged questions match only when the `'unspecified'` bucket is
+ * explicitly selected.
+ */
+export function questionsInSources(
+  questions: readonly Question[],
+  sources: ReadonlySet<SourceBucket>,
+): Question[] {
+  if (sources.size === 0) return questions.slice()
+  return questions.filter((q) => sources.has(bucketOf(q.source)))
 }
 
 /** The prefix that marks a topic the questions named rather than the library. */
