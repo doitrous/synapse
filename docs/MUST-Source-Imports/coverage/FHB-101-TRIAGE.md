@@ -2594,3 +2594,39 @@ unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending 
 Folding of the embryo**. Q56–136 and the nine p. 33 written prompts remain outside completed-
 source totals until their source-level collapse, four searches per handle, and prior-FHB
 adjudication are recorded.
+
+## Bounded continuation — General Embryology, Section VIII: Folding of the embryo
+
+This continuation retains the same single selected Anatomy `05 MCQs` path, exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`, and full-source
+visual inventory of **145 prompt occurrences / 145 directly printed answer occurrences**.
+All and only **source page 17, Section VIII** was assigned in this pass. It visibly prints
+Q56–60 and one immediate answer line: **5 complete MCQs / 5 directly printed answer letters**.
+Source page 18 begins `Section IX: Derivatives of Germ Layers` at Q61 and is the next natural
+boundary.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q56–Q58 | `56 C`; `57 A`; `58 B` | Fourth-week embryonic folding, its head/tail/lateral regions, and resulting umbilical ring (`embryonic folding`; `folding fourth week`; `head tail lateral folds`; `umbilical ring formation`) | live-hit; exact prior-FHB embryonic-folding/umbilical-ring assignment — duplicate. |
+| Q59–Q60 | `59 B`; `60 B` | Chorion-frondosum formation at the embryonic pole and chorionic-plate stem-villus organisation (`chorion frondosum`; `chorion frondosum chorionic villi`; `chorionic plate stem villi`; `twenty stem villi placenta`) | pending-hit at the chorion-frondosum scope; prior placental-component work names chorion frondosum but does not own this printed formation/stem-villus relationship — bounded candidate addition. |
+
+The five observations collapse source-first to **two handles**: Q56–58 form one folding and
+umbilical-ring family, while Q59–60 form one chorion-frondosum/chorionic-plate villous-
+organisation family. The assignment and query ledger reconciles exactly as **2 handles × 4
+phrases = 8 required searches**. Exact-scope source disposition is **1 live / 1 pending / 0
+new**. Folding/umbilical-ring scope is an exact prior-FHB reuse. The chorion-frondosum
+formation/stem-villus relationship survives the narrower prior placental-component assignment,
+so the provisional post-prior-FHB result is **0 live / 1 pending / 0 new**. It remains excluded
+while this 34-page source is incomplete. Printed answer letters are preserved without medical
+correction or authority uplift.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **Q61 on source page 18, Section IX:
+Derivatives of Germ Layers**. Q61–136 and the nine p. 33 written prompts remain outside
+completed-source totals until their source-level collapse, four searches per handle, and
+prior-FHB adjudication are recorded.
