@@ -3222,3 +3222,47 @@ large-format page. Native inspection shows an XMind factual mind map headed `BY 
 an assessment or visible prompt bank. Its next action is a bounded provenance/teaching-material
 gate with expected zero prompt delta unless a visual review identifies actual question syntax;
 it must not be promoted to primary assessment evidence.
+
+## Family 22 — tier-6 Bacterial Genetics teaching-map gate (zero count)
+
+### Source identity, rendered boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_dba9c6c7880aa06f75e5` · `Bacterial Genetics (1).pdf` |
+| SHA-256 / boundary | `dba9c6c7880aa06f75e5391d3b36dff15fd84bc36a379cb9f9d6e5d934fe8fa2` · one native-text, large-format page |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; no examiner, sitting, marks, or official-key metadata |
+| Visible provenance | XMind document headed `Bacterial Genetics` and `BY MALAK SAMEH`; PDF creator `Chromium`, producer `Skia/PDF m136`, created 26 April 2026 |
+| Rendered boundary | the sole page was rendered and read in full; it is now classified, not left as an unreviewed prompt source |
+
+The page is a radial factual teaching map.  Its branches cover bacteriophages and lytic/lysogenic
+cycles, bacterial genome/plasmids/transposable elements, variation and gene transfer, recombinant
+DNA technology, and diagnostic molecular-biology methods.  Every visible node is a declarative
+heading or explanatory statement.  The page contains no complete question stem, answer choices,
+response space, answer label, keyed option, model-answer convention, or marking convention.
+`BY MALAK SAMEH` is an individual attribution, not a Helwan departmental or assessment marker.
+
+### Count and source-disposition result
+
+| Measure | Family 22 result | Reason |
+|---|---:|---|
+| Complete prompt occurrences | 0 | The factual labels and explanatory map nodes are not recast as questions. |
+| Printed key / answer occurrences | 0 | No answer convention or answer-only reveal is printed. |
+| Retained records / tested handles | 0 / 0 | No assessment unit exists to assign, collapse, or search. |
+| Live / pending / new disposition | 0 / 0 / 0 | Search-before-mint is not invoked without a source-supported tested handle. |
+| Primary, auxiliary, and all-eligible checkpoints | unchanged | Teaching material receives no prompt or concept delta. |
+
+This one-page tier-6 source is exhausted as teaching-material evidence with a **zero** prompt,
+key, retained-record, handle, and concept delta.  It is not promoted to primary assessment
+evidence, and no content record, ID, catalogue edit, import, or download is created.
+The unchanged primary checkpoint is **765 / 405 / 552 / 372**; the unchanged auxiliary
+checkpoint is **126 observed / 72 printed answers / 125 retained / 124 source handles / +98
+concepts over primary**; and the unchanged all-eligible checkpoint is **891 / 477 / 677 / 470**.
+
+### Exact next gate
+
+The next manifest-ordered local BMS-102 candidate is tier-6
+`src_cfed91d1a068ca1f0a41` · `Bacterial Pathogenesis (1).pdf`, SHA-256
+`cfed91d1a068ca1f0a417cf3b4d917e76ed9dd5d0026a16bea9692312ae90260`, one native-text page
+under `Microbiology / Notes and Summaries`.  It requires the same bounded visual
+assessment-versus-teaching-material ruling before any count or concept work.
