@@ -1669,3 +1669,44 @@ The six visible prompts request a labelled structure, chromosomal complement, di
 **Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 91–101 are unread.
 
 **BLOCKED — S1 cannot be approved:** resume this source at exact next page 91; do not treat the bounded pages 1–90 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
+
+## Completed source screen — Histology final-revision-question paper, pages 91–101 of 101
+
+This final pass resumes the same local source at exact page 91: `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - FHB final revision 2025 Questions.pdf`, SHA-256 `c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983`, 101 source pages.  All and only pages **91–101** were rendered and read.  Together with the durable pages 1–90 record, this establishes rendered/read coverage of **pages 1–101 of 101**; the source is now `sourceProcessed=true`.
+
+### Observed page-boundary prompt accounting
+
+| Source page | Visible printed prompt observations | Printed keys / answers |
+|---|---:|---:|
+| 91 | 2 | 0 |
+| 92 | 2 | 0 |
+| 93 | 2 | 0 |
+| 94 | 2 | 0 |
+| 95 | 2 | 0 |
+| 96 | 0 | 0 |
+| 97 | 0 | 0 |
+| 98 | 0 | 0 |
+| 99 | 2 | 0 |
+| 100 | 2 | 0 |
+| 101 | 2 | 0 |
+| **Pages 91–101** | **16** | **0** |
+
+Pages 91, 92, 94, 95, 99, 100, and 101 each visibly print an `Identify this type of epithelium` request and a site request; page 93 visibly prints an arrow-target request and a site request.  Pages 96–98 contain only image panels, arrows, or covered label areas, with no visible assessment prompt or key/answer.  Thus the final range is `2 + 2 + 2 + 2 + 2 + 0 + 0 + 0 + 2 + 2 + 2 = 16` prompts and **0** printed keys/answers.  The exact full-source total is `95 + 16 = 111` prompts and **0** printed keys/answers.
+
+### Assignment, duplicate/composite, and search boundary
+
+The final-range prompts identify only an unnamed image-dependent epithelium type, an unnamed arrow target, or an unnamed site; none prints the target identity, a site, or a keyed result.  The repeated two-part identify/site forms are duplicate composite response requests, not source-named answers.  No image identification, arrow target, covered label, or answer is inferred anywhere in pages 1–101.  The completed-source assignment/search ledger is therefore exactly **0 named concepts ↔ 0 search rows**; no concept-level duplicate, collapse, external hit, or prior-FHB hit is claimed.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the 101-page Histology final-revision-question paper) | 921 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** `+111` questions, `+0` printed keys / answers, `+0` source-distinct tested concepts.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker after full-source completion
+
+**Remaining file list:** removing this one now-complete `empty-text` inventory row and its unique hash leaves **91 selected inventory paths / 86 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `83191167c32b0d9c4af7d883bbaf90916c78cb1866182c9e95d85cf1e9e25380`.  By the pinned triage text classification, the remaining debt is **48 substantive-text, six sparse-text, and 37 empty-text** rows.
+
+**BLOCKED — S1 cannot be approved:** this source is fully processed and has no resume page, but the remaining 91 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
