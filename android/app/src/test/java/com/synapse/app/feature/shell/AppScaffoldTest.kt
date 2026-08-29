@@ -1,6 +1,9 @@
 package com.synapse.app.feature.shell
 
 import androidx.compose.material3.Text
+import androidx.compose.ui.semantics.SemanticsActions
+import androidx.compose.ui.semantics.getOrNull
+import androidx.compose.ui.test.SemanticsNodeInteraction
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.junit4.createComposeRule
@@ -17,7 +20,7 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
 /**
- * Exercises [AppScaffold]'s top bar title, bottom nav, and placeholder routing. Uses a
+ * Exercises [AppScaffold]'s top bar title, bottom nav, drawer, and placeholder routing. Uses a
  * plain (non-Hilt) `createComposeRule()` host, so [AppScaffold]'s `dashboardContent` is
  * overridden with a Hilt-free stand-in here — the real `DashboardScreen` resolves its
  * `@HiltViewModel` via `hiltViewModel()`, which needs a Hilt-aware host activity and is
@@ -44,6 +47,25 @@ class AppScaffoldTest {
         }
     }
 
+    /**
+     * Invokes a node's `OnClick` semantics action directly instead of [performClick]'s touch-based
+     * dispatch. [ModalNavigationDrawer][androidx.compose.material3.ModalNavigationDrawer] positions
+     * its `drawerContent` via a runtime offset that opens once [drawerState][androidx.compose.material3.DrawerState]
+     * transitions to `Open`; under Robolectric, synthetic touch input dispatched at that
+     * post-open, correctly-reported position doesn't reliably reach the drawer's content (a known
+     * Robolectric limitation with drawer-style offset/translated layouts — see e.g.
+     * robolectric/robolectric#5102 and #932 for the same gap on the View-system `DrawerLayout`).
+     * The node's semantics config still exposes a live `OnClick` action reflecting the exact same
+     * click handler a real touch would invoke, so calling it directly still exercises real
+     * production behavior; only the touch-simulation step is bypassed.
+     */
+    private fun SemanticsNodeInteraction.performDrawerItemClick() {
+        val node = fetchSemanticsNode()
+        val onClick = node.config.getOrNull(SemanticsActions.OnClick)
+        checkNotNull(onClick) { "Node has no OnClick semantics action" }
+        onClick.action?.invoke()
+    }
+
     @Test
     fun rendersDashboardTitleOnStart() {
         setScaffold()
@@ -55,8 +77,10 @@ class AppScaffoldTest {
     fun clickingABottomNavPlaceholderDestinationNavigatesToIt() {
         setScaffold()
 
-        // "Library" is a placeholder destination (Task 6 only builds Dashboard).
-        composeTestRule.onNodeWithText("Library").performClick()
+        // "Library" is a placeholder destination (Task 6 only builds Dashboard). The drawer
+        // (always present in the tree, just off-screen when closed) also has a "Library" entry,
+        // so target the bottom nav one by tag rather than by text.
+        composeTestRule.onNodeWithTag(bottomNavItemTag("library")).performClick()
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Library")
         composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
@@ -95,5 +119,57 @@ class AppScaffoldTest {
         composeTestRule.onNodeWithTag(THEME_TOGGLE_TAG).performClick()
 
         assert(lastChoice != null) { "expected onThemeChange to be invoked" }
+    }
+
+    @Test
+    fun hamburgerButtonIsDisplayedOnStartScreen() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(NAV_DRAWER_BUTTON_TAG).assertIsDisplayed()
+    }
+
+    @Test
+    fun openingDrawerAndClickingQuestionBankNavigatesToQbankContentSeam() {
+        composeTestRule.setContent {
+            val navController = rememberNavController()
+            SynapseTheme(ThemeChoice.Light) {
+                AppScaffold(
+                    navController = navController,
+                    themeChoice = ThemeChoice.Light,
+                    onThemeChange = {},
+                    dashboardContent = { Text("Dashboard") },
+                    qbankContent = { Text("QBankStandIn") },
+                )
+            }
+        }
+
+        composeTestRule.onNodeWithTag(NAV_DRAWER_BUTTON_TAG).performClick()
+        composeTestRule.waitForIdle()
+        // The hamburger must actually open the drawer: the item is on-screen only when the
+        // drawer is Open (it's translated off-screen while Closed). assertIsDisplayed is
+        // bounds-based, so — unlike touch dispatch — it isn't subject to the Robolectric
+        // limitation performDrawerItemClick works around, and it fails if the hamburger were
+        // wired to a no-op or to close().
+        composeTestRule.onNodeWithTag(drawerItemTag(QUESTION_BANK_ROUTE)).assertIsDisplayed()
+        composeTestRule.onNodeWithTag(drawerItemTag(QUESTION_BANK_ROUTE)).performDrawerItemClick()
+        composeTestRule.waitForIdle()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Question Bank")
+        composeTestRule.onNodeWithText("QBankStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun openingDrawerAndClickingAPlaceholderDestinationNavigatesToIt() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(NAV_DRAWER_BUTTON_TAG).performClick()
+        composeTestRule.waitForIdle()
+        // Confirm the hamburger actually opened the drawer (see the QBank drawer test).
+        composeTestRule.onNodeWithTag(drawerItemTag("resources")).assertIsDisplayed()
+        composeTestRule.onNodeWithTag(drawerItemTag("resources")).performDrawerItemClick()
+        composeTestRule.waitForIdle()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Resources")
+        composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
     }
 }
