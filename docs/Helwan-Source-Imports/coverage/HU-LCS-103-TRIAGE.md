@@ -3059,3 +3059,67 @@ hashes**. The next manifest-order evidence gate is tier-4 Anatomy source
 `d32797506d25c062432627346e867c97ff3f5992a907b1933d68ed3eb5aafd28`). Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 27 — Tier-4 Scalp lecture interactive-prompt family
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_d32797506d25c0624326` |
+| File / SHA-256 | `Scalp.pdf` / `d32797506d25c062432627346e867c97ff3f5992a907b1933d68ed3eb5aafd28` |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 · native PDF · 38 pages |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Head & Neck/Lec 8 - Scalp & Face/Scalp.pdf` |
+| Visible provenance | Ass. Prof. Dr. Eman El Sawaf · Anatomy & Embryology · Faculty of Medicine · Capital University (Formerly Helwan) |
+| Authority finding | Direct local Helwan-labelled teaching lecture; it is not an examination, department question bank, or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **38 physical pages** were rendered and
+read. Pages 1–18 and 20–35 are declarative teaching: cover/module framing, objectives,
+headings, diagrams, anatomy descriptions, clinical illustrations, tables, summaries and
+captions. Pages 37–38 are references and closing material. They are not counted as prompts,
+answer reveals or keys.
+
+Only these complete, explicitly labelled interactive prompts qualify:
+
+| Physical page | Printed prompt observation | Printed key treatment |
+|---:|---|---|
+| 19 | `List the layers of the scalp?` | No answer reveal or printed key. The surrounding lecture layer diagrams/text are not converted into a key. |
+| 36 | `Which branch of the facial nerve supplies the frontal bellies of occipitofrontalis muscle?` with options Temporal / Zygomatic / Buccal / Cervical | Options are visibly unmarked; the earlier motor-innervation slide is teaching material, not an answer reveal. No answer is inferred. |
+
+This is a complete source closure: **2 prompt occurrences / 0 directly printed keys**. No
+objective, caption, diagram, table, lecture statement, or unmarked option is treated as a
+printed answer.
+
+### Source-first handles, searches and overlap
+
+| Source handle | Prompt scope retained | Required `find-existing` query set | Search / prior-LCS result | Disposition |
+|---|---|---|---|---|
+| `scalp-layers` | Five anatomical layers of the scalp | scalp layers; five layers scalp; loose areolar scalp; scalp movement plane | All four searches returned no live or pending record. Accepted Family-20 `scalp-layers-and-movement-plane` owns the complete five-layer scope and absorbs this subset. | prior eligible-LCS reuse; inherited new |
+| `frontalis-temporal-branch-facial-nerve-innervation` | Temporal facial-nerve branch supplying frontal bellies of occipitofrontalis | frontalis temporal branch facial nerve; temporal branch frontal belly; occipitofrontalis motor innervation; facial nerve frontal bellies | All four searches returned no live or pending record. The broader Family-20 `facial-nerve-expression` handle, like it was for Family-26 named facial branches, does not own this named branch-to-muscle relation. | new · NEU/ANA |
+
+The ledger has two source-distinct handles and **2 × 4 = 8** successful `find-existing`
+invocations. There are no literal duplicates, semantic collapses, or external-bank matches.
+The source-level result is **0 live / 0 pending / 2 new**; one exact prior eligible-LCS reuse
+leaves an additive module delta of **0 live / 0 pending / 1 new**.
+
+| Family-27 evidence bucket | Prompt occurrences | Printed keys | Source handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS reuse | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
+| New named branch-to-muscle scope | 1 | 0 | 1 | 1 | 0 | 0 | 1 |
+| **Family 27 assessment evidence** | **2** | **0** | **2** | **1** | **0** | **0** | **1** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 26 | 440 | 242 | 199 | 9 | 49 | 141 |
+| Family 27 net delta | +2 | +0 | +1 | +0 | +0 | +1 |
+| **LCS-103 cumulative after Family 27** | **442** | **242** | **200** | **9** | **49** | **142** |
+
+Arithmetic checks: `2 prompts = 2 source handles`; `0 + 0 + 2 = 2`; `1 prior eligible +
+1 new-to-eligible = 2`; `440 + 2 = 442`; `242 + 0 = 242`; `199 + 1 = 200`; and
+`9 + 49 + 142 = 200`. Removing this unique source from the accepted Family-26 remainder
+leaves **49 rank-4/rank-5 path instances / 47 unique hashes**. The next manifest-order
+evidence gate is tier-5 all-subject practical source `src_6da2de9f2e39f6bdcb46`,
+`practical L.L HELWAN.pdf` (11 pages; SHA-256
+`6da2de9f2e39f6bdcb46c092922b8982ae54b6aef6e43f942dd1b534891e129c`). Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.

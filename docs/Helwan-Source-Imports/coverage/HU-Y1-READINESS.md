@@ -323,6 +323,15 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   141 new**. The rank-4/rank-5 local-source debt is **50 path instances / 48 unique hashes**;
   next is tier-4 Anatomy `src_d32797506d25c0624326` (`Scalp.pdf`, 38 pages). No ID or content
   record was created; broader LCS S1 remains incomplete pending that debt and consolidation.
+  The Scalp lecture is now closed across all 38 rendered pages: its two explicitly labelled
+  interactive prompts have no printed answer reveal or key. The five scalp layers exactly
+  reuse the accepted Family-20 layer handle, while the temporal facial-nerve branch to the
+  frontal bellies is a new named relation after four searches and prior-LCS comparison. Eligible
+  LCS is now **442 prompts / 242 printed keys / 200 concepts = 9 live / 49 pending / 142 new**.
+  The rank-4/rank-5 local-source debt is **49 path instances / 47 unique hashes**; next is
+  tier-5 all-subject practical `src_6da2de9f2e39f6bdcb46` (`practical L.L HELWAN.pdf`, 11
+  pages). No ID or content record was created; broader LCS S1 remains incomplete pending that
+  debt and consolidation.
 
 ## HU-PSY-104 psychology S1 family checkpoint
 
