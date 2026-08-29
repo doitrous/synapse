@@ -4364,9 +4364,9 @@ prompt ruling; all 13 prompts and the three immediate explanation blocks are ass
 the ten F14 repeats plus the three new-scope search rows are recorded. The next manifest-ordered
 local BMS-102 candidate is tier-6 `src_eda7d78bef722719dd68` · `Helwan S2 Micro Lecture 4.pdf`,
 SHA-256 `eda7d78bef722719dd689b8973c57504176260e094b7bcd77c59c6285348c531`, nine native-text
-pages under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
-prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
-count is admitted.
+ pages under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
+ prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
+ count is admitted.
 
 ## Family 37 — tier-6 Micro Lecture 4 teaching-notes gate
 
@@ -4418,3 +4418,97 @@ tier-6 `src_9cd5c3597f6a69f61135` · `Helwan S2 Micro Sterilization.pdf`, SHA-25
 pages under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
 prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
 count is admitted.
+
+## Family 38 — tier-6 Sterilization in-lecture study bank
+
+### Source identity, full-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_9cd5c3597f6a69f61135` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/Helwan S2 Micro Sterilization.pdf` |
+| SHA-256 / size | `9cd5c3597f6a69f611359a007889669dca09aa2f5cbbea28bea7f8bb97d9e723` / 2,020,152 bytes |
+| Format / authority | 22 native-text pages; tier-6 TOP Microbiology Notes by Dr Mustafa Elsudani; study-bank material, not an official assessment or answer-key authority |
+| Render boundary | All physical pp. 1–22 rendered and read: pp. 1–16 are declarative teaching; the complete assessment block is pp. 17–22 |
+
+The assessment block has five true/false prompts (Q1–Q5), five short/fill prompts (Q6–Q10),
+seven MCQs (Q11–Q17), and three essays (Q18–Q20). Every one has an immediately printed
+answer occurrence. Q20 has a complete prompt and directly printed answer material, but its
+answer tail ends at the source's final chemical-disinfectants heading on p. 22; no continuation
+or missing tail is inferred.
+
+| Source prompt | Direct printed answer convention | Retained handle / disposition |
+|---|---|---|
+| F38-Q01 autoclave oxidative destruction | Answer: False | Exact prior reuse F19-Q03 |
+| F38-Q02 autoclave efficiency | Answer: True | Exact prior reuse F19-Q04 |
+| F38-Q03 materials unsuitable for autoclaving | Answer: False | Exact prior reuse F19-Q05 |
+| F38-Q04 plasma-gas temperature | Answer: False | Exact prior reuse F19-Q07 |
+| F38-Q05 phenolics/chlorine as skin antiseptics | Answer: False | Exact prior reuse F19-Q10 |
+| F38-Q06 sterilization definition | Printed definition answer | Exact prior reuse F19-Q01 |
+| F38-Q07 disinfectant versus antiseptic | Printed distinction answer | Exact prior reuse F19-Q02 |
+| F38-Q08 pressure and boiling point | Printed answer | Exact prior reuse F19-Q06 |
+| F38-Q09 pasteurization definition | Printed answer | Exact prior reuse F19-Q08 |
+| F38-Q10 pasteurization: vegetative forms, not spores | Printed answer | New complete handle; F19-Q09 was only an incomplete unprompted assertion |
+| F38-Q11 hot-air oven time/temperature | Printed option letter | New handle |
+| F38-Q12 incinerator use | Printed option letter | New handle |
+| F38-Q13 autoclave principle | Printed option letter | New handle |
+| F38-Q14 simple autoclave | Printed option letter | New handle |
+| F38-Q15 steam-jacketed gravity displacement autoclave | Printed option letter | New handle |
+| F38-Q16 ethylene oxide property | Printed option letter | New handle |
+| F38-Q17 plasma-gas property | Printed option letter | New handle |
+| F38-Q18 define sterilization and disinfection | Immediate Answer block | Composite prior reuse of F19-Q01 and F19-Q02 |
+| F38-Q19 importance of sterilization/disinfection | Immediate Answer block | New handle |
+| F38-Q20 methods, principles, and uses | Immediate Answer block; final-page tail not extended | New handle |
+
+There are **20 complete prompt occurrences / 20 directly printed answer occurrences / 20
+retained records / 20 source-distinct tested handles**, with **no within-source literal copies**.
+The printed answers remain study-bank annotations only; they do not upgrade academic authority.
+
+### Source-first reuse, searches, and concept delta
+
+Nine handles are exact prior-BMS reuses (F19-Q01 through Q08 except Q09, plus F19-Q10).
+F38-Q18 is source-distinct but a composite prior-BMS reuse of F19-Q01 and F19-Q02. The other
+ten handles, including the newly complete F38-Q10, are new to prior BMS and produce a
+**+10 concept delta**. F19-Q09 cannot be reused because that older source only showed a bare
+assertion rather than a complete prompt.
+
+| Fresh handle | Four-query exact-scope search outcome | External disposition |
+|---|---|---|
+| F38-Q10 pasteurization result | vegetative bacteria not spores; kills vegetative forms; spore survival milk; microbiology spores not killed | 0 live / 0 pending / no same-scope |
+| F38-Q11 hot-air oven | 160 2 hours; dry heat 170 1 hour; glassware oils powders; temperature duration | 0 / 0 / no same-scope |
+| F38-Q12 incineration | contaminated biological materials; biological waste sterilization; destruction contaminated material; red heat versus incineration | 0 / 0 / no same-scope |
+| F38-Q13 autoclave principle | closed vessel pressure boiling point; steam pressure 100; water under pressure; physical principle | 0 / 0 / no same-scope |
+| F38-Q14 simple autoclave | construction; safety valve manometer; perforated tray; components | 0 / 0 / no same-scope |
+| F38-Q15 steam-jacketed autoclave | gravity displacement; versus simple; automatic control; air replacement/drying | 0 / 0 / no same-scope |
+| F38-Q16 ethylene oxide | lethal alkylating agent; spores/heat-sensitive devices; toxic/explosive/carcinogenic; 55 degrees/aeration | 0 / 0 / no same-scope |
+| F38-Q17 plasma gas | long narrow lumen; laparoscopes/arthroscopes; hydrogen peroxide surgical instruments; non-toxic/aeration | 0 / 0 / no same-scope |
+| F38-Q18 definitions composite | sterilization/disinfection definitions; versus definition; all microbes/spores versus inanimate; define microbiology | 0 / 0 / no same-scope |
+| F38-Q19 importance | laboratory/patient; sterile technique/test validity; importance; safety/instruments | 0 / 0 / no same-scope |
+| F38-Q20 methods/principles/uses | methods/principles/uses; heat/gas/radiation/filtration; microbiology methods; comparison/uses | 0 / 0 / no same-scope |
+
+All eleven fresh-scope four-query checks returned no existing exact-scope record. Across the
+family the external disposition is therefore **0 live / 0 pending / 20 no same-scope**; this is
+a record-existence result, not medical verification.
+
+| Measure | Family 38 | Auxiliary cumulative (Families 12–38) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 20 | 217 | 765 | 982 |
+| Printed study-answer occurrences | 20 | 151 | 405 | 556 |
+| Retained question records | 20 | 214 | 552 | 766 |
+| Source-distinct tested handles / required searches | 20 / 80 | 212 / — | — | — |
+| Cross-family concept delta | +10 | +155 over primary | 372 | `372 + 155 = 527` |
+| **Distinct tested concepts** | **+10** | **155 auxiliary additions** | **372** | **527** |
+
+The primary checkpoint remains **765 / 405 / 552 / 372**. The auxiliary checkpoint is now
+**217 / 151 / 214 / 212 / +155**, and all eligible S1 evidence is **982 / 556 / 766 / 527**.
+No readiness or claims status changes: tier-6 study-bank evidence cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 38
+
+`src_9cd5c3597f6a69f61135` is exhausted across all twenty-two pages, with no resume boundary.
+The next manifest-ordered local BMS-102 candidate is tier-6
+`src_e121796ed9807de71e51` · `Introduction to Bacteriology and Bacterial Structure.pdf`,
+SHA-256 `e121796ed9807de71e51a739df2cf3aa5b11b1b2f62c5d49817f4e5fddb3f499`, four native-text
+pages under `Microbiology / Notes and Summaries`; it requires its own authority and
+prompt-versus-teaching gate before any count is admitted.
