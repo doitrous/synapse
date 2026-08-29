@@ -1617,3 +1617,29 @@ The sole visible prompt supplies no named place or keyed result, and the image m
 **Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 71–101 are unread.
 
 **BLOCKED — S1 cannot be approved:** resume this source at exact next page 71; do not treat the bounded pages 1–70 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
+
+## Bounded continuation screen — Histology final-revision-question paper, pages 71–80 of 101
+
+This pass resumes the same local 101-page source at exact page 71, retaining SHA-256 `c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983`.  All and only pages **71–80** were rendered and read.  No natural source boundary occurs; pages 81–101 remain unread.  The source remains `sourceProcessed=false` and remains in the unchanged path/hash remainder.
+
+### Observed page-boundary prompt accounting
+
+Page 71 visibly prints three observations: `Identify the organelle (A)`, `Identify the organelle (B)`, and `differentiate between A & B`.  Page 72 visibly prints the two arrow-target observations `Identify the organelle pointed to by the yellow arrow & mention its function.` and `The red arrow points to....`; neither supplies an identity or key.  Page 73 visibly prints two observations with unnamed image/arrow targets.  Pages 74, 75, 76, and 80 contain image panels, arrows, letters/numerals, or covered label areas, but no visible assessment prompt or key/answer.  Pages 77, 78, and 79 visibly print three, four, and two observations respectively, each requesting an unnamed organelle, structure, or arrow target; none prints an answer/key.  The exact observed arithmetic is `3 + 2 + 2 + (4 × 0) + 3 + 4 + 2 = 16` prompts and **0** printed keys/answers.  The accumulated pages 1–80 observation is therefore `73 + 16 = 89` prompts and 0 printed keys, still excluded from completed-source totals.
+
+### Assignment, duplicate/composite, and search boundary
+
+The printed text names only generic organelles/structures or coloured-arrow placeholders, and it supplies neither an identity nor a keyed result.  The broad nucleus-structure heading on page 74 likewise does not resolve its arrows.  No image identification, arrow target, covered label, or answer is inferred.  The assignment/search ledger therefore remains exactly `0 named concepts ↔ 0 search rows`; no concept-level duplicate, collapse, external hit, or prior-FHB hit is claimed.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources unchanged; bounded Histology pages 1–80 excluded) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** +0 questions, +0 printed keys / answers, +0 source-distinct tested concepts.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — source remains incomplete after page 80
+
+**Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 81–101 are unread.
+
+**BLOCKED — S1 cannot be approved:** resume this source at exact next page 81; do not treat the bounded pages 1–80 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
