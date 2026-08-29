@@ -4367,3 +4367,54 @@ SHA-256 `eda7d78bef722719dd689b8973c57504176260e094b7bcd77c59c6285348c531`, nine
 pages under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
 prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
 count is admitted.
+
+## Family 37 — tier-6 Micro Lecture 4 teaching-notes gate
+
+| Field | Verified result |
+|---|---|
+| Source | `src_eda7d78bef722719dd68` · `Helwan S2 Micro Lecture 4.pdf` |
+| SHA-256 / boundary | `eda7d78bef722719dd689b8973c57504176260e094b7bcd77c59c6285348c531` · 838,971 bytes · nine native-text pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; the manifest directory is stale, while the exact byte-verified local file is currently under `Microbiology / Theoretical` (no manifest mutation) |
+| Visible provenance | p. 1 visibly says `Helwan University , S2 , Lecture 4`; pp. 2–9 carry `TOP Microbiology Notes` / `Dr Mustafa Elsudani` headers |
+| Read boundary | all nine physical pages rendered and visually read in order |
+
+This Helwan-local **teaching-notes** source is not an exam, recoverable sitting,
+departmental question bank, response form, or official key. Page 1 is its cover; p. 2 presents
+microorganism classes and routes to opportunism; p. 3 defines carrier and infection versus
+disease; p. 4 diagrams the infection cycle and disease-production factors; p. 5 presents
+pathogenicity/virulence and their categories; p. 6 lists adherence and invasive factors; p. 7
+covers intracellular survival, antigenic variation, and an exotoxin/endotoxin comparison; p. 8
+lists toxin-action mechanisms; p. 9 lists Koch's four postulates. All visible material is
+declarative headings, definitions, diagrams, comparisons, labelled lists, and numbered factual
+criteria. There is no complete learner prompt, interrogative/command stem, response field,
+blank, answer convention, correctness mark, or printed key.
+
+The complete-source result is **0 prompt occurrences / 0 printed answer or key occurrences / 0
+retained records / 0 source-derived tested handles**. Neither a heading (`Why Carriers Are
+Serious?`), a numbered toxin mechanism, nor Koch's numbered criteria is converted into an
+inferred question or answer. With no handle, source-first duplicate comparison, four-query
+search rows, external disposition, and prior-BMS overlap are **not applicable**.
+
+| Measure | Family 37 gate | Auxiliary cumulative (Families 12–37) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 197 | 765 | 962 |
+| Printed study-answer occurrences | 0 | 131 | 405 | 536 |
+| Retained question records | 0 | 194 | 552 | 746 |
+| Source-distinct tested handles / required searches | 0 / 0 | 192 / — | — | — |
+| Cross-family concept delta | +0 | +145 over primary | 372 | `372 + 145 = 517` |
+| **Distinct tested concepts** | **+0** | **145 auxiliary additions** | **372** | **517** |
+
+The primary checkpoint remains **765 / 405 / 552 / 372**; auxiliary remains **197 / 131 /
+194 / 192 / +145**; and all eligible S1 evidence remains **962 / 536 / 746 / 517**. This
+teaching-only zero-delta gate cannot raise exam/sitting, recurrence, mark-weight, official-key,
+readiness, or claims status, so no readiness or claims file change is warranted.
+
+### Exact next debt after Family 37
+
+`src_eda7d78bef722719dd68` is exhausted with a page-level teaching-versus-prompt ruling across
+all nine pages and no resume boundary. The next manifest-ordered local BMS-102 candidate is
+tier-6 `src_9cd5c3597f6a69f61135` · `Helwan S2 Micro Sterilization.pdf`, SHA-256
+`9cd5c3597f6a69f611359a007889669dca09aa2f5cbbea28bea7f8bb97d9e723`, twenty-two native-text
+pages under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
+prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
+count is admitted.
