@@ -152,3 +152,49 @@ Continue the multi-query ledger for every remaining tested-concept assignment, c
 near-duplicate questions to their authoring concepts, and only then issue a complete
 `live` / `pending` / `new` table to `/root`. No S2 activity is authorised pending a fresh
 `TRIAGE APPROVED`.
+
+## Continuation checkpoint — 2026-08-29
+
+The tested-concept collapse has now been made explicit as the 180-row deterministic register
+in `scripts/helwan/triage-bms101-search.mjs`. It includes the four previously completed
+assignments and 176 remaining assignments, each with precisely four manual-required queries:
+distinctive term, alias, synonym and mechanism/structure. This is a concept register, not an
+ID list; its slugs are triage handles only.
+
+The runner invokes the prescribed `find-existing.mjs` command for each query, whose scope is
+live state, `docs/import-ready`, `docs/questions-import-ready` and every
+`docs/*-Source-Imports` root. It has no write/import/mint path. A completed execution over
+the original 178 new register rows ran 712 queries (four per row); the two already-proven
+rows added afterwards are the existing `myelinated-conduction` and
+`blind-ended-lymphatic-capillaries` entries above.
+
+Runner output is deliberately neutral: every transcript row is marked
+`UNADJUDICATED` and contains only its four queries plus raw matching lines. It emits no
+`live`, `pending` or `new` disposition field or count; those labels require the subsequent
+same-idea/same-scope review and are not inferred from substring output.
+
+**Do not convert the raw runner's substring matches into dispositions.** The raw output is a
+search transcript, not semantic evidence: for example, a query for `radius` returns an airway
+resistance concept, and a query for `AUG` returns a pancreatic secretion record. Calling those
+`live` would fabricate a merge. The only completed, scope-adjudicated subset remains the four
+rows in the evidence table above (`morula-timing`, `ubiquitin-protein-degradation`,
+`myelinated-conduction`, `blind-ended-lymphatic-capillaries`): 0 live, 4 pending, 0 new.
+
+### Exact remaining register
+
+There are exactly 176 undisposed handles: every row in the helper's `register` constant except
+the four named completed handles immediately above. The continuation worker must read each
+row's four-query evidence, retain only same-idea/same-scope live IDs or pending paths, and
+record a `new` result only when all four are absent or demonstrated near-misses. This is an
+exact remaining register by executable source, not an estimate; it deliberately records no
+unproven live/pending ID or path.
+
+Reproduce the query transcript and its structural count with:
+
+```bash
+HU_TRIAGE_WORKERS=8 node scripts/helwan/triage-bms101-search.mjs > /private/tmp/hu-bms101-search.json
+node -e "const r=require('/private/tmp/hu-bms101-search.json'); console.log(JSON.stringify({concepts:r.concepts.length,queries:r.concepts.reduce((n,x)=>n+x.queryHits.length,0)}))"
+```
+
+The last command must report `{"concepts":180,"queries":720}` before semantic
+adjudication begins. It does not author or alter source content.
