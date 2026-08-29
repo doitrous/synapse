@@ -4,12 +4,13 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 // Build-time secrets, gitignored. Absent on a fresh clone → empty BuildConfig
-// fields → AppConfig.isConfigured is false (a "Not configured" state), never a
-// compile failure.
+// fields → AppConfig.isConfigured is false (a "Not configured" state).
 val secretsFile = rootProject.file("secrets.properties")
 val secrets = Properties().apply {
     if (secretsFile.exists()) secretsFile.inputStream().use { load(it) }
@@ -38,10 +39,14 @@ android {
     kotlinOptions { jvmTarget = "17" }
     testOptions { unitTests { isIncludeAndroidResources = true } } // Robolectric
     buildTypes { release { isMinifyEnabled = false } }
-    buildFeatures { buildConfig = true }
+    buildFeatures {
+        buildConfig = true
+        compose = true
+    }
 }
 dependencies {
     implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.retrofit)
     implementation(libs.okhttp)
@@ -51,10 +56,37 @@ dependencies {
     implementation(libs.room.ktx)
     ksp(libs.room.compiler)
 
+    // Compose
+    implementation(platform(libs.compose.bom))
+    implementation(libs.compose.material3)
+    implementation(libs.compose.ui)
+    implementation(libs.compose.ui.graphics)
+    implementation(libs.compose.ui.tooling.preview)
+    debugImplementation(libs.compose.ui.tooling)
+    implementation(libs.activity.compose)
+    implementation(libs.navigation.compose)
+    implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
+
+    // Hilt (KSP)
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler)
+    implementation(libs.hilt.navigation.compose)
+    implementation(libs.hilt.work)
+    ksp(libs.androidx.hilt.compiler)
+
+    // Work, DataStore, Coil
+    implementation(libs.work.runtime.ktx)
+    implementation(libs.datastore.preferences)
+    implementation(libs.coil.compose)
+
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.robolectric)
     testImplementation(libs.androidx.test.core)
     testImplementation(libs.room.testing)
     testImplementation(libs.mockwebserver)
+    testImplementation(platform(libs.compose.bom))
+    testImplementation(libs.compose.ui.test.junit4)
+    debugImplementation(libs.compose.ui.test.manifest)
 }
