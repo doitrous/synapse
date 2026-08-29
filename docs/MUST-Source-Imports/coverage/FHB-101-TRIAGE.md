@@ -2630,3 +2630,47 @@ unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending 
 Derivatives of Germ Layers**. Q61–136 and the nine p. 33 written prompts remain outside
 completed-source totals until their source-level collapse, four searches per handle, and
 prior-FHB adjudication are recorded.
+
+## Bounded continuation — General Embryology, Section IX: Derivatives of Germ Layers
+
+This continuation retains the same single selected Anatomy `05 MCQs` path, exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`, and full-source
+visual inventory of **145 prompt occurrences / 145 directly printed answer occurrences**.
+All and only **source pages 18–23, Section IX** were assigned in this pass. They visibly
+print Q61–90 with six immediate answer lines: **30 complete MCQs / 30 directly printed answer
+letters**. Source page 24 begins `Section X: Placenta` at Q91 and is the next natural boundary.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q61 | `C` | Epiblast as source of all three embryonic germ layers (`three germ layers`; `epiblast`; `embryonic germ layers`; `epiblast source`) | pending-hit; exact prior-FHB epiblast/germ-layer assignment — duplicate. |
+| Q62–Q65, Q77–Q78, Q83–Q84 | `62 A`; `63 B`; `64 B`; `65 B`; `77 B`; `78 C`; `83 C`; `84 A` | Ectoderm, neuroectoderm, neural tube, neural crest, epidermis and their printed derivatives (`ectoderm derivatives`; `neural crest`; `neural tube`; `epidermis ectoderm`) | pending-hit at the exact neural-tube/crest derivative scope; exact prior-FHB ectodermal/neural derivative assignments — duplicate. |
+| Q66–Q67, Q79, Q86, Q89 | `66 C`; `67 B`; `79 B`; `86 B`; `89 B` | Intraembryonic-mesoderm subdivisions, paraxial somites, and musculoskeletal derivatives (`intraembryonic mesoderm`; `paraxial mesoderm`; `mesoderm musculoskeletal`; `mesoderm subdivisions`) | live-hit; exact prior-FHB intraembryonic-mesoderm subdivision/derivative assignment — duplicate. |
+| Q68, Q80 | `68 B`; `80 A` | Somite number at the end of week five and its use for embryonic age (`somite number`; `fifth week somites`; `somite age`; `44 somites`) | pending-hit; exact prior-FHB somite-number assignment — duplicate. |
+| Q69–Q72, Q88 | `69 B`; `70 A`; `71 B`; `72 B`; `88 A` | Somite location, sclerotome/myotome/dermatome organisation, and axial/dermal/muscle derivatives (`sclerotome`; `myotome`; `dermatome`; `somites`) | live-hit; exact prior-FHB somite-compartment and derivative assignments — duplicate. |
+| Q73, Q87 | `73 B`; `87 B` | Intermediate-mesoderm urogenital, kidney and ureter derivatives (`intermediate mesoderm`; `urogenital structures`; `kidney embryology`; `ureter embryology`) | new at the current search scope; exact prior-FHB intermediate-mesoderm/urogenital assignment — duplicate. |
+| Q74–Q75, Q81–Q82, Q85, Q90 | `74 C`; `75 B`; `81 B`; `82 B`; `85 B`; `90 C` | Lateral-plate parietal/visceral layers, intraembryonic coelom, body cavities and gut-wall contributions (`intraembryonic coelom`; `lateral plate mesoderm`; `parietal mesoderm`; `visceral mesoderm`) | live-hit; exact prior-FHB lateral-plate/coelom layer-and-derivative assignment — duplicate. |
+| Q76 | `B` | Endodermal gastrointestinal and respiratory epithelial linings (`endoderm`; `gastrointestinal epithelial lining`; `respiratory epithelium`; `endoderm derivatives`) | pending-hit at the exact embryologic-derivative scope; exact prior-FHB endodermal-derivative assignment — duplicate. |
+
+The 30 observations collapse source-first to **eight handles**: one epiblast/germ-layer
+handle; one ectoderm/neural derivative handle; one intraembryonic-mesoderm subdivision handle;
+one somite-count/age handle; one somite-compartment/derivative handle; one intermediate-
+mesoderm/urogenital handle; one lateral-plate/coelom handle; and one endodermal-lining handle.
+The assignment and query ledger reconciles exactly as **8 handles × 4 phrases = 32 required
+searches**. Exact-scope source disposition is **3 live / 4 pending / 1 new**.
+
+All eight handles exactly reuse completed prior-FHB scope, including the externally new
+intermediate-mesoderm search result, which is already a durable prior-FHB assignment. The
+provisional post-prior-FHB result is therefore **0 live / 0 pending / 0 new** and remains
+excluded while this 34-page source is incomplete. All printed answer letters are preserved
+without medical correction or authority uplift.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **Q91 on source page 24, Section X:
+Placenta**. Q91–136 and the nine p. 33 written prompts remain outside completed-source totals
+until their source-level collapse, four searches per handle, and prior-FHB adjudication are
+recorded.
