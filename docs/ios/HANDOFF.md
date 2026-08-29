@@ -32,13 +32,16 @@ Masterbrain handoff for the native iOS student app (Connect Cortex). Admin stays
 - **Cloze** uses `NSString`/`NSRegularExpression` (UTF-16 offsets) to match JS string semantics.
 - `Synapse/` is a synchronized file-system group — new files under it are auto-added to the app target. A **new extension target (widgets) is NOT** — that's a real `.pbxproj` change.
 
+## Flashcards — feature-complete for this scope (verified on the sim)
+Study-loop UI, Basic + **Cloze** authoring and rendering, the **FSRS opt-in deck toggle**, and **provided (catalogue) decks** are all shipped and verified live (create deck → add Basic/Cloze card → study with correct SM-2 *and* FSRS intervals → grade/advance/session-complete). `FlashcardStore` reads through a merged view (own collection + provided decks). Files: `Core/Flashcards/*`, `Features/Flashcards/*`, `Core/Flashcards/DeckProjection.swift`, `ContentKind.deck`.
+
+**Remaining Flashcards polish (later):** Browse/stats view, GRDB offline cache (flashcards.md §4.2), card audio + image-occlusion authoring, rich-text rendering (currently HTML is stripped to plain text in `FlashcardStudyView.plain/unhtml`), quick-add from Question Bank/Reader. No catalogue decks exist for the KAU Y1 test cohort, so the provided-deck path is unit-tested and will show a "Shared" deck once one is published.
+
 ## Next, in order
-1. **Flashcards study-loop UI** (needs the sim → do the ⌘Q restart first). Replace the `FlashcardsView` placeholder: deck list (`store.decks`, `store.counts`), study loop (reveal → 4 grade buttons showing `scheduler.preview` intervals → `store.grade`), add-card (Basic+Cloze), FSRS toggle in deck options. Wire `FlashcardStore(api:sync:)` in `FlashcardsView`, `.task { await store.load() }`. See `docs/ios/audit/flashcards.md` §4.3 build order.
-2. **Provided decks** — `ContentKind.deck` + `LedgerDecoder` extension (`ios/Synapse/Core/…/ContentItem.swift`) so catalogue decks appear.
-3. **Widgets + focus timer** (Omar request, no audit yet — do it yourself): Widget Extension target + App Group + a shared Codable "snapshot" the app writes on sync; widgets for Today/Calendar, Flashcards-due (`FlashcardStore.entries` is `nonisolated` for this), Everyday Question, Focus timer (ActivityKit Live Activity; `Features/Reader/StudyTimer.swift` exists to generalize).
-4. **Later flashcards**: Browse/stats, GRDB offline cache (§4.2), audio/occlusion authoring.
-5. **Other wave-1**: QBank question-images (`MediaFileStore` clone of `ResourceFileStore`) + pull-to-refresh + offline cold-launch fallback; Whiteboard **legacy-key fix** (`synapse.whiteboard.board` → `synapse.whiteboard.boards.v1`); Resources My-uploads + video `.pdf` bug (`ResourceFileStore.swift:61`).
-6. **Wave-2 audits+build**: University, Essay Questions, Maristanas, Minigames. (Calendar + Medical Taxonomy already exist on iOS.)
+1. **Widgets + focus timer** (Omar request, no audit yet — do it yourself): Widget Extension target + App Group + a shared Codable "snapshot" the app writes on sync; widgets for Today/Calendar, Flashcards-due (`FlashcardStore.entries` is `nonisolated` for this), Everyday Question, Focus timer (ActivityKit Live Activity; `Features/Reader/StudyTimer.swift` exists to generalize).
+2. **Other wave-1**: QBank question-images (`MediaFileStore` clone of `ResourceFileStore`) + pull-to-refresh + offline cold-launch fallback; Whiteboard **legacy-key fix** (`synapse.whiteboard.board` → `synapse.whiteboard.boards.v1`); Resources My-uploads + video `.pdf` bug (`ResourceFileStore.swift:61`).
+3. **Wave-2 audits+build**: University, Essay Questions, Maristanas, Minigames. (Calendar + Medical Taxonomy already exist on iOS.)
+4. **Flashcards polish** (see the section above): Browse/stats, GRDB offline cache, audio/occlusion, rich-text rendering.
 
 ## Rules
 Small commits, explicit `git add ios/`. Rebase + re-fetch `origin/main` before every push. Never touch `package.json` or `scripts/kasr/`. Verify UI on the simulator (q@hotmail.com/000000).
