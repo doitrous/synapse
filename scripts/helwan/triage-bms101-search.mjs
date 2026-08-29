@@ -154,7 +154,7 @@ urinary-oral-epithelia\turothelium|transitional epithelium|oral epithelium|strat
 vasa-vasorum\tvasa vasorum|vasorum|large artery|blood vessel wall
 barbiturate-neurotransmission\tbarbiturate|GABA|neurotransmission|chloride channel
 synaptic-fatigue\tsynaptic fatigue|synaptic|fatigue|neurotransmitter depletion
-skin-ageing\tskin ageing|aging skin|skin|collagen
+age-related-sweating-thermoregulation\tageing|aging|sweat gland|thermoregulation
 thermoregulation\tthermoregulation|temperature regulation|heat loss|hypothalamus
 temporal-summation\ttemporal summation|summation|synapse|postsynaptic
 potassium-and-resting-potential\thypokalaemia|hyperkalaemia|potassium|resting membrane potential
@@ -165,12 +165,11 @@ chemical-synapse-sequence\tchemical synapse|synaptic transmission|vesicle releas
 intracellular-potassium\tintracellular potassium|ICF potassium|potassium|body fluid
 ipsp-inhibitory-neurotransmitter\tIPSP|inhibitory postsynaptic|inhibitory neurotransmitter|GABA
 cleavage-lines\tcleavage lines|Langer lines|incision|skin tension
-diarrhoeal-fluid-balance\tdiarrhoea|diarrheal|fluid balance|extracellular fluid
 calcium-homeostasis\tcalcium homeostasis|calcium|parathyroid|calcitriol
 diffusion-and-facilitated-diffusion\tfacilitated diffusion|diffusion|carrier|passive transport
 convergence\tconvergence|neural convergence|synapse|neuronal circuit
 energy-independent-transport\tpassive transport|energy independent|diffusion|osmosis
-dehydration-vomiting\tdehydration|vomiting|fluid loss|hypokalaemia
+uncompensated-water-loss-ecf-volume\tuncompensated water loss|water loss|extracellular volume|dehydration
 steady-state-osmolarity\tsteady state|osmolarity|osmolality|body fluids
 epinephrine-actions\tepinephrine|adrenaline|sympathetic|beta receptor
 osmosis\tosmosis|osmotic|water movement|semipermeable

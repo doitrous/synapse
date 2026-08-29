@@ -87,8 +87,8 @@ whose prompt explicitly combines the two named elements.
 
 | Evidence references | Tested concept family and printed coverage |
 |---|---|
-| `aa8 P1–13, pp. 36–39` | barbiturate neurotransmission; synaptic fatigue; skin ageing; thermoregulation; temporal summation; hypokalaemia; hyperkalaemia; myelinated conduction; resting membrane potential; potassium permeability; calcium-dependent transmitter release; ECF/ICF osmolarity; heat loss |
-| `aa8 P14–26, pp. 39–44` | chemical-synapse sequence; ICF potassium; IPSP; incision/cleavage lines; diarrhoeal fluid balance; calcium homeostasis; diffusion; convergence; energy-independent transport; dehydration; vomiting/hypokalaemia; steady-state osmolarity; diarrhoeal muscle weakness |
+| `aa8 P1–13, pp. 36–39` | barbiturate neurotransmission; synaptic fatigue; age-related sweating/thermoregulation; thermoregulation; temporal summation; hypokalaemia; hyperkalaemia; myelinated conduction; resting membrane potential; potassium permeability; calcium-dependent transmitter release; ECF/ICF osmolarity; heat loss |
+| `aa8 P14–26, pp. 39–44` | chemical-synapse sequence; ICF potassium; IPSP; incision/cleavage lines; diarrhoeal hypokalaemic hyperpolarisation; calcium homeostasis; diffusion; convergence; energy-independent transport; uncompensated-water-loss ECF-volume loss; vomiting/hypokalaemic hyperpolarisation; steady-state osmolarity; diarrhoeal muscle weakness |
 | `aa8 P-W1–2, p. 45` | neural pathway types; long-term synaptic effects |
 | `b7c P78–89, pp. 19–21` | inhibitory neurotransmitter; membrane permeability; ICF potassium; heat loss; epinephrine actions; simple/facilitated diffusion; ICF/ECF osmolarity; passive transport; myelinated conduction; temporal summation; heat loss; incision/cleavage lines |
 | `b7c P90–103, pp. 21–25` | osmosis; carrier stereospecificity; carrier saturation; fluid shifts after solute load; resting membrane potential; convergence; skin ageing; IPSP; calcium-channel blockade; hypokalaemia/RMP; potassium-determined RMP; saltatory conduction; melanocyte photoprotection; myelinated conduction (repeat of P86) |
@@ -155,9 +155,9 @@ near-duplicate questions to their authoring concepts, and only then issue a comp
 
 ## Continuation checkpoint — 2026-08-29
 
-The tested-concept collapse is now explicit as the 180-row deterministic register in
+The tested-concept collapse is now explicit as the 179-row deterministic register in
 `scripts/helwan/triage-bms101-search.mjs`. It includes the four previously completed
-assignments and 176 remaining assignments, each with precisely four manual-required queries:
+assignments and 175 remaining assignments, each with precisely four manual-required queries:
 distinctive term, alias, synonym and mechanism/structure. This is a concept register, not an
 ID list; its slugs are triage handles only.
 
@@ -167,7 +167,8 @@ live state, `docs/import-ready`, `docs/questions-import-ready` and every
 the original 178 new register rows ran 712 queries (four per row); the two already-proven
 rows added afterwards are the existing `myelinated-conduction` and
 `blind-ended-lymphatic-capillaries` entries above. The repaired register restores the
-omitted `thin-versus-thick-skin` handle for `b7c H65`.
+omitted `thin-versus-thick-skin` handle for `b7c H65`. The later source-first collapse of the
+duplicate diarrhoeal/vomiting potassium relation reduces the current register to 179 handles.
 
 Runner output is deliberately neutral: every transcript row is marked
 `UNADJUDICATED` and contains only its four queries plus raw matching lines. It emits no
@@ -183,7 +184,7 @@ rows in the evidence table above (`morula-timing`, `ubiquitin-protein-degradatio
 
 ### Exact remaining register
 
-There are exactly 176 undisposed handles: every row in the helper's `register` constant except
+There are exactly 175 undisposed handles: every row in the helper's `register` constant except
 the four named completed handles immediately above. The continuation worker must read each
 row's four-query evidence, retain only same-idea/same-scope live IDs or pending paths, and
 record a `new` result only when all four are absent or demonstrated near-misses. This is an
@@ -197,7 +198,7 @@ HU_TRIAGE_WORKERS=8 node scripts/helwan/triage-bms101-search.mjs > /private/tmp/
 node -e "const r=require('/private/tmp/hu-bms101-search.json'); console.log(JSON.stringify({concepts:r.concepts.length,queries:r.concepts.reduce((n,x)=>n+x.queryHits.length,0)}))"
 ```
 
-The last command must report `{"concepts":180,"queries":720}` before semantic
+The last command must report `{"concepts":179,"queries":716}` before semantic
 adjudication begins. It does not author or alter source content.
 
 ### Semantic adjudication batch 1 — first 20 unadjudicated handles
@@ -311,7 +312,7 @@ Batch delta: `live +0`, `pending +12`, `new +8`; no concept ID is minted by this
 ### Semantic adjudication batch 4 — next 20 unadjudicated handles
 
 The deterministic selection continues after batch 3: the next twenty undisposed rows of
-`triage-bms101-search.mjs` are rows 65–84 of its 180-row register. They contribute exactly
+`triage-bms101-search.mjs` are rows 65–84 of its then-180-row register. They contribute exactly
 80 searches, four per handle. Every disposition below follows the named record's text and
 scope, rather than a substring hit: a generic visual/retinal fact does not cover the visual
 cycle, generic allosteric regulation does not establish sigmoidality/cooperativity, and
@@ -382,8 +383,9 @@ This deterministic slice is unadjudicated ordinals 105–124 and contributes exa
 searches. Re-reading the printed prompts and key corrected seven misassigned handles.
 `aa8 H7` and `H16` are one same-idea/same-scope proposition — coronary arteries have
 both internal and external elastic laminae — so the duplicate register row was collapsed.
-The register consequently has 180 handles / 720 queries; ordinal 124 is now
-`capillary-types-and-sites`. This is a documented true collapse, not a new record.
+The register then had 180 handles / 720 queries; the later source-first collapse documented in
+batch 8 leaves 179 / 716. Ordinal 124 is now `capillary-types-and-sites`. This is a documented
+true collapse, not a new record.
 
 | Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
 |---|---|---|---|
@@ -442,3 +444,42 @@ root-hair plexus; and generic GABA records do not establish a barbiturate mechan
 | barbiturate-neurotransmission — `aa8 P1, p. 36` | `barbiturate`; `GABA`; `neurotransmission`; `chloride channel` | GABA precursor records do not state the barbiturate receptor/chloride-channel effect; no same-scope live or pending record exists. | new |
 
 Batch delta: `live +0`, `pending +16`, `new +4`; no concept ID is minted by this ledger.
+
+### Semantic adjudication batch 8 — next 20 unadjudicated handles
+
+Source-first correction: `aa8 P3` tests reduced thermoregulation with ageing and `b7c P96`
+tests reduced sweat-gland activity, so they are one age-related sweating/thermoregulation
+scope, not the wrinkle-only skin-ageing record. `aa8 P18` (diarrhoea) and `P24` (vomiting)
+both test hypokalaemic membrane hyperpolarisation and are source references for the earlier
+potassium/resting-potential handle, not separate concepts. `aa8 P23` is instead the distinct
+uncompensated-water-loss → decreased-ECF-volume proposition. Removing the duplicate leaves
+179 handles / 716 queries; deterministic ordinals 145–164 remain exactly 20 / 80 by pulling
+former ordinal 165 (`osmosis`) into this batch. No ID is minted.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| synaptic-fatigue — `aa8 P2, p. 36` | `synaptic fatigue`; `synaptic`; `fatigue`; `neurotransmitter depletion` | Pending `CON-NEU-64B329335E9489` in `docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md` states that neuromuscular transmission fatigues with repeated stimulation because acetylcholine vesicles are exhausted. | pending |
+| age-related-sweating-thermoregulation — `aa8 P3; b7c P96, pp. 36/22` | `ageing`; `aging`; `sweat gland`; `thermoregulation` | Pending eccrine-gland records establish cooling by sweating but not the age-related decrease; live `CON-DER-3076014D01EA15` is wrinkle/elasticity only. Neither is the tested age-related sweating/thermoregulation scope. | new |
+| thermoregulation — `aa8 P4, p. 37` | `thermoregulation`; `temperature regulation`; `heat loss`; `hypothalamus` | The anterior-hypothalamus and eccrine-gland records are partial temperature-related facts; none establishes the tested thermoregulatory scope. | new |
+| temporal-summation — `aa8 P5; b7c P87, pp. 37/20` | `temporal summation`; `summation`; `synapse`; `postsynaptic` | Pending `CON-NEU-7E784A50D2BBAF` in `docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md` states that rapid repeated subthreshold stimuli summate to firing level because the local response has no refractory period. | pending |
+| potassium-and-resting-potential — `aa8 P6–7/P18/P24; b7c P99/P100, pp. 37/40/43/22–23` | `hypokalaemia`; `hyperkalaemia`; `potassium`; `resting membrane potential` | Pending `CON-NEU-77596C8A899A7E` in `docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md` distinguishes hyperkalaemic depolarisation from hypokalaemic hyperpolarisation and relates extracellular potassium to resting potential; P18 and P24 are the same relation after diarrhoeal/vomiting potassium loss. | pending |
+| resting-membrane-potential — `aa8 P9; b7c P94, pp. 38/22` | `resting membrane potential`; `RMP`; `membrane potential`; `potassium permeability` | Live `CON-NEU-763D2F7A1571C9`, “Diffusion is the principal determinant of resting membrane potential,” has the asked mechanism scope. | live |
+| calcium-transmitter-release — `aa8 P11; b7c P97, pp. 38/23` | `calcium channel`; `calcium dependent`; `neurotransmitter release`; `presynaptic` | Pending `CON-MSK-77D955AAB4D0FA` in `docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md` gives presynaptic calcium entry, vesicle rupture and acetylcholine release in sequence. | pending |
+| body-fluid-osmolarity — `aa8 P12; b7c P84, pp. 38/20` | `osmolarity`; `osmolality`; `ECF`; `ICF` | Pending `CON-NEU-1D5DC2D67A5291` in `docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md` states that ICF and ECF osmolarity is each about 300 mOsm/L and distinguishes tonicity. | pending |
+| chemical-synapse-sequence — `aa8 P14; b7c P-W1, pp. 39/26` | `chemical synapse`; `synaptic transmission`; `vesicle release`; `calcium channel` | Pending `CON-MSK-77D955AAB4D0FA` in `docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md` supplies the ordered presynaptic-calcium, vesicle-release, postsynaptic-channel and transmitter-clearance sequence. | pending |
+| intracellular-potassium — `aa8 P15; b7c P80, pp. 39/19` | `intracellular potassium`; `ICF potassium`; `potassium`; `body fluid` | Pending `CON-FND-0592C1390E1B57` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-physiology-concepts.md` explicitly places potassium (with phosphate and proteins) at higher intracellular concentration. | pending |
+| ipsp-inhibitory-neurotransmitter — `aa8 P16; b7c P95, pp. 40/22` | `IPSP`; `inhibitory postsynaptic`; `inhibitory neurotransmitter`; `GABA` | No candidate identifies the tested inhibitory postsynaptic potential/neurotransmitter relation; generic synapse and GABA-adjacent hits are not that scope. | new |
+| cleavage-lines — `aa8 P17; b7c P89, pp. 40/21` | `cleavage lines`; `Langer lines`; `incision`; `skin tension` | No candidate establishes the relation between cleavage lines, incision orientation and skin tension. | new |
+| calcium-homeostasis — `aa8 P19, p. 41` | `calcium homeostasis`; `calcium`; `parathyroid`; `calcitriol` | Calcium distribution, isolated parathyroid disease and calcitriol glossary hits do not establish the tested homeostatic relation. | new |
+| diffusion-and-facilitated-diffusion — `aa8 P20; b7c P83, pp. 41/20` | `facilitated diffusion`; `diffusion`; `carrier`; `passive transport` | Pending `CON-NEU-1D5DC2D67A5291` in `docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md` distinguishes simple diffusion, carrier-mediated facilitated diffusion and osmosis, including passive down-gradient movement. | pending |
+| convergence — `aa8 P21; b7c P99, pp. 42/22` | `convergence`; `neural convergence`; `synapse`; `neuronal circuit` | Reflex-arc and generic synapse records do not establish neural convergence. | new |
+| energy-independent-transport — `aa8 P22, p. 42` | `passive transport`; `energy independent`; `diffusion`; `osmosis` | Pending `CON-NEU-1D5DC2D67A5291` in `docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md` establishes diffusion, facilitated diffusion and osmosis as passive, down-gradient transport. | pending |
+| uncompensated-water-loss-ecf-volume — `aa8 P23, p. 42` | `uncompensated water loss`; `water loss`; `extracellular volume`; `dehydration` | Aldosterone-deficiency and respiratory-water-loss records are cause-specific near-misses; none states uncompensated water loss causing decreased ECF volume. | new |
+| steady-state-osmolarity — `aa8 P25, p. 43` | `steady state`; `osmolarity`; `osmolality`; `body fluids` | Pending `CON-NEU-1D5DC2D67A5291` in `docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md` gives the shared approximately 300 mOsm/L ICF/ECF body-fluid osmolarity relevant to the steady-state item. | pending |
+| epinephrine-actions — `b7c P82, p. 20` | `epinephrine`; `adrenaline`; `sympathetic`; `beta receptor` | Pending `CON-NEU-F16D60268905BC` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` states that adrenaline acts on both alpha and beta receptors, with both excitatory and inhibitory effects. | pending |
+| osmosis — `b7c P90, p. 21` | `osmosis`; `osmotic`; `water movement`; `semipermeable` | Pending `CON-NEU-1D5DC2D67A5291` in `docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md` defines osmosis as water movement across a membrane permeable to water but not solute. | pending |
+
+Against the committed `144/180 = 7 live / 106 pending / 31 new` base, this corrected batch is
+`live +1`, `pending +12`, `new +7`. P18/P24 add provenance to an existing pending handle and
+do not add a bucket. The source-first collapse changes only the total denominator: cumulative
+is `164/179 = 8 live / 118 pending / 38 new`, with `15` handles remaining.
