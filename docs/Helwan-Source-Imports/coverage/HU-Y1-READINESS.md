@@ -163,7 +163,11 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   a six-page lower-authority study bank derived from the preferred 46-page Helwan lecture twin,
   not an exam or official-key authority. Its 35 MCQs/red answer table and two written answer
   blocks contribute zero counts until source-order dedupe and scope adjudication. First countable
-  unit is Q1–35 with its table; hold the written pair separately.
+  unit is Q1–35 with its table; hold the written pair separately. Accepted Family 20 adds
+  35 complete MCQs and 35 study-bank answer occurrences, with no within-source collapse.
+  Its 4/8/23 source split and 20 exact prior-BMS reuses leave +15; primary remains
+  765/405/552/372, auxiliary F12–20 is 124/70/123/122/+98, and all eligible evidence is
+  889/475/675/470. Next is the held two-prompt written block with its immediate lists.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
