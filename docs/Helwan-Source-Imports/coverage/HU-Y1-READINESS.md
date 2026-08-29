@@ -144,4 +144,10 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   atom is retained with a pending conflict rather than silently normalised. AVN/NVA boxes are
   preserved unexpanded annotation, not keys. The two auxiliary handles are 0 live, 1 pending
   and 1 new; all five anatomy images total 27 numbered notes, with assessment totals unchanged.
-- Continue pathology assessment images, then Tutorial 103; this remains S1 evidence only.
+- The first pathology image `src_4ee3e3e63fa0804576fb` is handwritten Pathology Notes: ten
+  numbered statements, no assessment prompts and no keys. Its ten auxiliary handles have 0
+  live, 3 pending and 7 new dispositions; the pending scopes are osteoporosis demographics,
+  vitamin-D-deficiency rickets/osteomalacia, and vitamin-C-deficiency scurvy findings. The
+  auxiliary-note total is now 37 across anatomy and pathology, with assessment totals unchanged.
+- Continue the remaining two pathology assessment images, then Tutorial 103; this remains S1
+  evidence only.

@@ -791,12 +791,101 @@ two handles; `0 live + 1 pending + 1 new + 0 unresolved = 2`. Module arithmetic 
 handle remain outside tested-concept totals; Family 8 adds a recorded source conflict but no
 unresolved semantic handle.
 
+## Family 9 — first Pathology quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_4ee3e3e63fa0804576fb` |
+| Manifest SHA-256 | `4ee3e3e63fa0804576fb50ecce0b19b49e941cfe40d62054652edba301c9f9ee` |
+| Recomputed SHA-256 | `4ee3e3e63fa0804576fb50ecce0b19b49e941cfe40d62054652edba301c9f9ee` |
+| File | `Most important notes pathology (Quiz content).jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Pathology/Assessments/Quizzes/Most important notes pathology (Quiz content).jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Pathology · Assessments/Quizzes |
+| Container | one 1920 × 2560 progressive JPEG photograph of a ruled spiral-notebook page |
+| Read method | original-resolution visual read, source-first; manifest OCR used only as a transcription cross-check |
+
+The page is explicitly headed `Pathology Notes` and contains ten entirely handwritten,
+numbered fact statements. It has no interrogative stem, answer choices, blank response area,
+typeset solution, response mark or answer-key layout. Its arrows link disease names to
+features, mechanisms or morphology; they are explanatory note structure rather than answer
+marks. The source therefore contributes **zero complete prompts, zero incomplete prompts
+and zero printed or handwritten answer keys**. All ten statements remain auxiliary evidence
+only.
+
+### Exact note-statement inventory
+
+| Note | Visible handwritten statement | Prompt status | Key status |
+|---:|---|---|---|
+| N1 | `Achondroplasia → Dwarfism` | note, not a prompt | none |
+| N2 | `Osteogenesis Imperfecta → Blue sclera / Hear loss / Imperfect teeth` | source's `Hear loss` wording preserved; note, not a prompt | none |
+| N3 | `Osteopetrosis → Marble Bone disease (Osteoclast dysfunction)` | note, not a prompt | none |
+| N4 | `Osteoporosis → Elderly & Postmenopausal Women` | note, not a prompt | none |
+| N5 | `Osteomalacia & Rickets → ↓ Vit D` | note, not a prompt | none |
+| N6 | `Scurvy → ↓ Vit C → Subperiosteal Hemorrhages` | note, not a prompt | none |
+| N7 | `Hyperparathyroidism → Osteitis Fibrosa Cystica` | note, not a prompt | none |
+| N8 | `Paget's Disease → Males Over 50`; stages: `Initial Osteolytic`; `Mixed → Mosaic Pattern & Jigsaw Puzzle`; `Quiescent → Cotton-Wool` | note, not a prompt | none |
+| N9 | `Osteomyelitis`: `Separation → Sequestrum`; `New → Involucrum`; `Opening has Pus → Cloaca` | terse source wording preserved; note, not a prompt | none |
+| N10 | `Osteoma → Dense ivory-like bony Mass` | note, not a prompt | none |
+| **Family 9** | **10 complete numbered note statements** | **0 complete / 0 incomplete prompts** | **0** |
+
+There is no exact repeated statement and no within-source semantic collapse. Each numbered
+statement maps one-to-one to one source-distinct coverage handle, so ten assignments yield
+ten handles. None repeats a prior LCS-103 handle: the accepted LCS assessment and Anatomy-note
+families do not own these pathology disease scopes.
+
+### Statement-to-handle assignment and search ledger
+
+All ten handles received four required searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root and the accepted prior-LCS
+ledger: **10 × 4 = 40 required invocations**. Ten broad disease-name follow-ups resolved
+phrase-order and narrower-mention hits, for **50 invocations total**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `N1→achondroplasia-clinical-pattern` | `achondroplasia`; `dwarfism achondroplasia`; `short-limbed dwarfism`; `FGFR3 achondroplasia` | No substantive live, pending or prior-lane record owns the disease's clinical pattern; the only source hit is the Helwan manifest/source itself. | note-only candidate; external new | MSK/PATH |
+| 2 | `N2→osteogenesis-imperfecta-clinical-features` | `osteogenesis imperfecta`; `brittle bone disease`; `blue sclera hearing loss imperfect teeth`; `type I collagen osteogenesis` | A prior Helwan BMS-101 lane has a narrower osteogenesis-imperfecta/type-I-collagen handle and a pending vitamin MCQ uses the disease only as a collagen-disorder distractor. Neither owns this blue-sclera, hearing-loss and tooth-feature cluster. | note-only candidate; external new | MSK/PATH |
+| 3 | `N3→osteopetrosis-osteoclast-dysfunction` | `osteopetrosis`; `marble bone disease`; `osteoclast dysfunction`; `dense brittle bone osteopetrosis` | A pending histology article names osteopetrosis only as an example of net bone gain; it does not own the disease mechanism or marble-bone scope. | note-only candidate; external new | MSK/PATH |
+| 4 | `N4→osteoporosis-demographic-risk` | `osteoporosis`; `postmenopausal women bone loss`; `elderly osteoporosis`; `estrogen deficiency osteoporosis` | Pending Alexandria anatomy records explicitly own age, sex, menopause and postmenopausal oestrogen loss as osteoporosis determinants. Taxonomy-only live leaves are not counted as substantive coverage. | note-only candidate; external pending | — |
+| 5 | `N5→osteomalacia-rickets-vitamin-D-deficiency` | `osteomalacia rickets`; `vitamin D deficiency bone`; `adult rickets osteomalacia`; `defective mineralization` | Pending Kasr biochemistry records explicitly state that vitamin-D deficiency causes rickets in children and osteomalacia in adults. | note-only candidate; external pending | — |
+| 6 | `N6→scurvy-bone-findings` | `scurvy bone`; `vitamin C deficiency`; `subperiosteal hemorrhage`; `defective collagen bleeding` | Pending Kasr/ISK records own vitamin-C deficiency as scurvy with defective collagen and bleeding manifestations. They can absorb this bone-specific subperiosteal-haemorrhage extension without creating an unrelated objective. | note-only candidate; external pending | — |
+| 7 | `N7→hyperparathyroidism-osteitis-fibrosa-cystica` | `osteitis fibrosa cystica`; `hyperparathyroidism bone`; `brown tumors`; `PTH osteoclastic resorption` | Hyperparathyroidism appears elsewhere only in narrower calcification contexts; no substantive record owns osteitis fibrosa cystica. | note-only candidate; external new | MSK/PATH |
+| 8 | `N8→paget-disease-stages-imaging` | `Paget disease bone`; `osteitis deformans`; `mosaic jigsaw cotton wool`; `osteolytic mixed quiescent stages` | Pending pathology mentions Paget disease only as accelerated bone turnover causing metastatic calcification. It does not own the stage sequence, mosaic/jigsaw morphology or cotton-wool appearance. | note-only candidate; external new | MSK/PATH |
+| 9 | `N9→chronic-osteomyelitis-sequestrum-involucrum-cloaca` | `osteomyelitis sequestrum`; `involucrum`; `cloaca osteomyelitis`; `dead bone new bone pus opening` | Existing osteomyelitis mentions are pathogen- or amyloidosis-context references. Exact follow-up found no record for the sequestrum–involucrum–cloaca terminology; unrelated embryology `cloaca` hits are rejected. | note-only candidate; external new | MSK/PATH |
+| 10 | `N10→osteoma-morphology` | `osteoma`; `ivory osteoma`; `dense bony mass`; `benign bone forming tumor` | Word-boundary follow-up found no substantive osteoma record; apparent broad hits were osteomalacia substrings or taxonomy context. | note-only candidate; external new | MSK/PATH |
+
+### Family-9 checkpoint and cumulative LCS-103 delta
+
+| Family-9 evidence bucket | Numbered note assignments | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 0 | 0 | 0 | 0 | 0 | 0 |
+| New-to-LCS resolved note-only candidates | 10 | 10 | 0 | 3 | 7 | 0 |
+| **Family 9 auxiliary evidence** | **10** | **10** | **0** | **3** | **7** | **0** |
+
+These are auxiliary evidence dispositions, not a tested-concept delta. The assessment-led
+module delta is **+0 observed prompts, +0 printed keys and +0 resolved tested concepts**.
+The five Anatomy images remain at 27 numbered auxiliary statements; the first Pathology
+image adds 10, for `27 + 10 = 37` auxiliary statements across both subjects.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 8 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 9 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 9** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `0 prior + 10 new-to-LCS = 10` statement assignments; no repeat or
+collapse leaves ten handles; `0 live + 3 pending + 7 new + 0 unresolved = 10`. Module
+arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Family 5's
+malformed auxiliary handle remain outside tested-concept totals; Family 9 adds neither an
+assessment prompt nor an unresolved handle.
+
 ## Exact next debt
 
-- All five local Anatomy quiz-content images are now triaged. The next untriaged local
-  Pathology quiz-content image is `src_4ee3e3e63fa0804576fb`, `Most important notes
-  pathology (Quiz content).jpg`. The other two Pathology images follow:
-  `src_e8309c2953d770051cf0` and `src_758188828699ae3569f4`. Their visual prompt/note
+- All five local Anatomy quiz-content images and the first Pathology quiz-content image are
+  now triaged. The next untriaged local Pathology image is `src_e8309c2953d770051cf0`,
+  `Most important notes pathology (Quiz content)2.jpg`; `src_758188828699ae3569f4`,
+  `Most important notes pathology (Quiz content)3.jpg`, follows. Their visual prompt/note
   classification, key status, repeat collapse and semantic search remain wholly outside this
   checkpoint.
 - Pathology `TUTORIAL 103` is explicitly LCS-103 evidence even though it resides in the
