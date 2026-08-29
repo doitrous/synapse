@@ -3220,3 +3220,90 @@ already contains `identify this bone` instructions, so it requires a full page-l
 station/prompt, printed-key, image-dependence, repeat and prior-LCS gate. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 29 — Tier-5 mixed lower-limb practical assessment and teaching pack
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_1c10b647790aca3d4183` |
+| File / SHA-256 | `practical helwan locomotor 1.pdf` / `1c10b647790aca3d41833edb5e54fc5f354963a23c3f203da963df2f7970a2c3` |
+| File boundary | 2,835,262 bytes · native PDF · 41 physical pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Practical · tier 5 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Practical/practical helwan locomotor 1.pdf` |
+| Visible provenance | the pages carry `Practical` / `Anatomy practical`, `lower limb` or `lower limb & H&N`, and `Dr/ M. Ali`; the PDF producer is iLovePDF |
+| Authority finding | Helwan-local practical teaching/revision material by manifest placement; it is not an exam, recoverable sitting, station sheet, response form, department question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **41 physical pages** were rendered and
+read. Pages 1–5 each contain an explicit `Question ??` block tied to the labelled image on that
+page. Pages 6–9 are lower-limb labelled teaching plates only; pp. 10–25 are skull teaching and
+reference pages; pp. 26–35 are labelled anatomy-practical model pages; and pp. 36–41 are
+summary/reference tables. The source has no response field, blank answer area, mark allocation,
+station/sitting convention, printed answer block or assessment key.
+
+Five teaching-only residues are preserved outside assessment counts: two rule blanks on pp.
+14–15, two `???` attachment callouts on p. 19, and one forced-inspiration rule blank on p. 38.
+The teaching portion mixes multi-figure labelled plates, declarative prose and tables, so it is
+not assigned a fabricated aggregate label count. That unquantified teaching residue does not
+alter Family 28's separately verified 9-plate / 153-mapping quantitative checkpoint.
+
+### Complete assessment prompt classification
+
+| Ref / physical page | Image-specific prompt scope | Printed key treatment |
+|---|---|---|
+| P1 / p. 1 | Hip-bone identification, side, articulations, joint types and attached structures | none; the simultaneous labelled plate is teaching context, not an assessment key |
+| P2 / p. 2 | Hip-joint ligament identification, attachments and functions | none; the simultaneous labelled ligament plate is teaching context |
+| P3 / p. 3 | Femur identification, side, articulations, joint types and attached structures | none; the simultaneous labelled plate is teaching context |
+| P4 / p. 4 | Anterior-view femoral/hip attachment map with origin, insertion, nerve supply and action of the attached muscles | none; printed labels are teaching context |
+| P5 / p. 5 | Posterior-view femoral/hip attachment map with origin, insertion, nerve supply and action of the attached muscles | none; printed labels are teaching context |
+
+P1 and P3 use the same generic bone instruction, and P4 and P5 use the same generic muscle
+instruction. They remain **five prompt occurrences and five source-distinct image scopes**:
+the paired pages show different bones or different attachment views, so wording repetition does
+not make any occurrence a copy. There are three literal stem forms but no semantic collapse.
+
+### Five-scope searches and prior-LCS adjudication
+
+| Practical assessment handle | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `hip-bone-side-articulations-and-attached-structures` | hip bone landmark identification lateral medial view; innominate bone side joint muscle attachments; hip bone side determination landmarks; hip bone articulations muscle attachments anatomy | no direct live or pending record; broader composite than Family 28's two landmark-only teaching plates — new |
+| `hip-joint-ligament-identification-attachments-and-functions` | hip joint ligaments attachments functions; iliofemoral pubofemoral ischiofemoral ligaments; ligaments of hip joint functions attachments; capsular ligaments hip stability | no direct search hit; exact accepted Family-1/Family-20 `hip-joint-ligaments` reuse, inheriting its pending disposition |
+| `femur-side-articulations-and-attached-structures` | femur landmark identification anterior posterior view; femur side joint muscle attachments; femur side determination osteology landmarks; femur articulations muscle attachments anatomy | no direct live or pending record; broader composite than Family 28's two landmark-only teaching plates — new |
+| `femur-anterior-attachment-plate-muscle-oina` | anterior medial thigh muscle origins insertions map; quadriceps adductors attachment sites femur hip bone; anterior thigh muscles origin insertion nerve action; medial thigh muscles origin insertion nerve action | no direct live or pending record; individual prior OINA facts do not own this whole image-specific multi-muscle plate — new |
+| `femur-posterior-attachment-plate-muscle-oina` | posterior thigh gluteal muscle origins insertions map; hamstring gluteal attachment sites femur hip bone; posterior thigh muscles origin insertion nerve action; gluteal muscles origin insertion nerve action | no direct live or pending record; individual prior OINA facts do not own this whole image-specific multi-muscle plate — new |
+
+All **5 × 4 = 20** searches completed with no direct live or pending record. Exact prior-LCS
+comparison changes only P2: raw external search disposition is `0 live / 0 pending / 5 new`,
+while source classification after the accepted-prior relation is **0 live / 1 inherited pending
+/ 4 new**. The inherited pending handle is not a module addition, so the net module delta is
+`0 / 0 / +4`. Partial component overlap does not absorb P1, P3, P4 or P5's wider
+image-specific assessment scopes.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 29 | Family 29 delta | After Family 29 |
+|---|---:|---:|---:|
+| Eligible observed question records | 442 | +5 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 200 | +4 | 204 |
+| Question live / pending / new | 9 / 49 / 142 | +0 / +0 / +4 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 0 | +5 | 5 |
+| Distinct practical teaching plates, quantified | 9 | unquantified mixed residue | 9 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 153 | unquantified mixed residue | 153 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 1 | +5 | 6 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical content records created | 0 | +0 | 0 |
+
+Arithmetic checks: `5 prompts = 5 image-specific handles`; `0 + 1 + 4 = 5`; `442 + 5 =
+447`; `242 + 0 = 242`; `200 + 4 = 204`; and `9 + 49 + 146 = 204` after the one inherited
+pending prior reuse is removed from the module delta. The eligible LCS checkpoint is therefore
+**447 prompts / 242 printed keys / 204 concepts = 9 live / 49 pending / 146 new**.
+
+Removing this unique tier-5 source from the accepted Family-28 remainder leaves **47
+rank-4/rank-5 path instances / 45 unique hashes**. The next manifest-order gate is tier-5
+Anatomy practical source `src_01ed16d14274951518d4`, `Bones of the lower limb.pdf` (17 pages;
+SHA-256 `01ed16d14274951518d40b1ed757ca1acdb981688af7763a0569fe3cad6a95e5`) under
+`Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 1 - Bones of the Lower Limb/`. Broader
+LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
+source copy was created.

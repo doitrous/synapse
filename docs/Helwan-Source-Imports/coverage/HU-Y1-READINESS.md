@@ -344,6 +344,20 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   is **48 paths / 46 hashes**; next is tier-5 `src_1c10b647790aca3d4183`, `practical helwan
   locomotor 1.pdf` (41 pages). No ID or content record was created; broader LCS S1 remains
   incomplete pending that debt and consolidation.
+- Family 29 closes that 41-page mixed practical pack. Pages 1–5 contain five explicit,
+  image-dependent practical prompts and zero printed assessment keys; repeated generic stems
+  remain separate because the hip bone, hip ligaments, femur, anterior attachment map and
+  posterior attachment map are distinct image scopes. Twenty searches plus prior-LCS review
+  classify them as **0 live / 1 inherited pending / 4 new**: only the hip-joint-ligament scope
+  exactly reuses accepted prior LCS evidence, so the module delta is `0 / 0 / +4`. Eligible LCS
+  question evidence is now **447 prompts / 242 printed keys / 204 concepts = 9 live / 49
+  pending / 146 new**. The accepted practical
+  assessment dimension is **5 prompt occurrences / 0 printed assessment keys**; Family 28's
+  separately quantified teaching minimum remains **9 plates / 153 mappings**, while Family
+  29's mixed teaching residue is explicitly unquantified rather than treated as zero. The
+  rank-4/rank-5 debt is **47 paths / 45 hashes**; next is tier-5 Anatomy practical
+  `src_01ed16d14274951518d4`, `Bones of the lower limb.pdf` (17 pages). No ID or content record
+  was created; broader LCS S1 remains incomplete.
 
 ## HU-PSY-104 psychology S1 family checkpoint
 
