@@ -1923,3 +1923,148 @@ Family 16's nine teaching statements also remain unchanged.
   local LCS theoretical/practical evidence. No download is needed or authorised.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.
+
+## Family 18 — Pathology LCS question bank, Q25–Q50
+
+### Source identity, corrected page boundary and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_23d4ed4d5e4f3f7c9764` |
+| Manifest / recomputed SHA-256 | `23d4ed4d5e4f3f7c9764477023894a609c7c4520e3129a7f50fb6c24efe6f1fc` |
+| File | `MCQs - College MCQs LCS Q-BANK (PATHO).pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Pathology/Questions/MCQs/MCQs - College MCQs LCS Q-BANK (PATHO).pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Pathology · Questions/MCQs · question bank · tier 3 |
+| Container | same 37-page, native-text, unencrypted, non-interactive PDF 1.7 verified in Family 17 |
+| This bounded family | Q25 begins on physical p. 11; Q25–Q50 occupy physical pp. 11–22, with Q50 options C–E continuing at the top of physical p. 23; matched printed keys are on physical p. 36 |
+| Read method | physical pp. 11–23 and key p. 36 rendered at 160 dpi and visually read; on p. 23 only the Q50 continuation is in scope; no download |
+
+The committed debt described Q25–Q50 as physical pp. 11–22, but the visual source shows
+that Q50's final three options continue at the top of p. 23. Family 18 includes that
+continuation so Q50 remains complete, then stops before Q51. This boundary correction does
+not change the expected count: there are **26 complete five-option MCQs and 26 printed key
+entries**. There is no handwriting, highlighting or answer mark on the question pages;
+physical p. 36 is a designed `KEY ANSWERS` page with one letter and answer text per item.
+There is no practical, specimen, image/trace, table, completion or written item.
+
+### Page and printed-key inventory
+
+| Physical page | In-scope prompt starts / continuation | MCQs counted | Printed keys |
+|---:|---|---:|---:|
+| 11 | Q25 starts after excluded Family-17 Q22–Q24 | 1 | 0 |
+| 12 | Q25 continues; Q26–Q27 | 2 | 0 |
+| 13 | Q27 continues; Q28–Q29 | 2 | 0 |
+| 14 | Q30–Q31 | 2 | 0 |
+| 15 | Q31 continues; Q32–Q34 | 3 | 0 |
+| 16 | Q34 continues; Q35–Q36 | 2 | 0 |
+| 17 | Q36 continues; Q37–Q38 | 2 | 0 |
+| 18 | Q39–Q41 | 3 | 0 |
+| 19 | Q41 continues; Q42–Q43 | 2 | 0 |
+| 20 | Q43 continues; Q44–Q45 | 2 | 0 |
+| 21 | Q45 continues; Q46–Q48 | 3 | 0 |
+| 22 | Q48 continues; Q49–Q50 | 2 | 0 |
+| 23 | Q50 options C–E only; Q51 excluded | 0 | 0 |
+| 36 | printed `KEY ANSWERS` entries 25–50 | 0 | 26 |
+| **Family 18** | **Q25–Q50 plus matched key section** | **26** | **26** |
+
+The printed key sequence is `B B B E D A B B B E E A C D C D E B D A C A A C B A`.
+Source risks remain attached without correction: Q30/Q31/Q44 print haemoglobin `5.4 g/L`;
+Q38 describes peripheral neuropathy in a `newly diagnosed` type-1 diabetic; Q41 first says
+there is no inter-attack mobility limitation and then says there is minimal limitation;
+Q46's popliteal clear-fluid swelling is keyed `Bursitis`; and Q50 calls the patient
+`asymptomatic`, then gives severe symptoms, later changes the pronoun to `she`, and keys
+bisphosphonates as “immediate” therapy after hydration. All are complete keyed source
+records, not S1 repairs.
+
+### One-to-one assignment and repeat/collapse ledger
+
+Every MCQ occurrence is assigned once. There is no exact full-prompt repeat. Ten repeated
+concept assignments collapse 26 occurrences to 16 source-distinct handles. Q25/Q33/Q43
+share the osteoarthritis pattern; Q26/Q27 share Paget complications; Q30/Q31/Q44/Q47/Q49
+share the accepted myeloma diagnostic scope; Q34/Q50 form one sequential hypercalcaemia-
+management handle; and Q39/Q41/Q48 share the accepted gout clinical/laboratory/crystal
+scope. Seven handles reuse accepted eligible-LCS concepts and nine enter the eligible module
+total for the first time.
+
+| Evidence | One-to-one assignments in source order |
+|---|---|
+| Q25–Q30 | `Q25→osteoarthritis-clinical-etiology-differential`; `Q26→paget-disease-cardiac-and-joint-complications`; `Q27→paget-disease-cardiac-and-joint-complications`; `Q28→osteoma-morphology`; `Q29→sickle-cell-disease-osteomyelitis-predisposition`; `Q30→multiple-myeloma-clinical-diagnostic-pattern` |
+| Q31–Q36 | `Q31→multiple-myeloma-clinical-diagnostic-pattern`; `Q32→adamantinoma-clinicoradiologic-immunophenotypic-pattern`; `Q33→osteoarthritis-clinical-etiology-differential`; `Q34→severe-hypercalcemia-sequential-saline-bisphosphonate-management`; `Q35→lumbar-disc-prolapse-clinical-diagnosis-and-mri-confirmation`; `Q36→ewing-sarcoma-clinical-radiology` |
+| Q37–Q42 | `Q37→osteoporosis-density-and-fragility-diagnosis`; `Q38→diabetic-foot-ulcer-secondary-osteomyelitis`; `Q39→malignancy-associated-gout-hyperuricemia`; `Q40→lipoma-clinicopathologic-pattern`; `Q41→malignancy-associated-gout-hyperuricemia`; `Q42→carpal-tunnel-syndrome-clinical-diagnosis` |
+| Q43–Q50 | `Q43→osteoarthritis-clinical-etiology-differential`; `Q44→multiple-myeloma-clinical-diagnostic-pattern`; `Q45→glucocorticoid-induced-osteoporosis`; `Q46→popliteal-bursitis-clinical-pattern`; `Q47→multiple-myeloma-clinical-diagnostic-pattern`; `Q48→malignancy-associated-gout-hyperuricemia`; `Q49→multiple-myeloma-clinical-diagnostic-pattern`; `Q50→severe-hypercalcemia-sequential-saline-bisphosphonate-management` |
+
+The names of accepted prior handles are retained even when this source extends their scope:
+Q35 adds annulus-fibrosus tearing to the prior disc-prolapse handle, Q38 adds peripheral
+neuropathy upstream of the prior diabetic-foot/osteomyelitis pathway, and Q39/Q41/Q48 add
+non-malignancy gout presentations to the prior hyperuricaemia/crystal scope. Q28 and Q36
+promote accepted auxiliary-only osteoma and Ewing evidence into tested evidence, so each
+enters the assessment delta once.
+
+### Search-before-mint and disposition ledger
+
+Each of the 16 handles received one search in each required surface: live state
+(`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), every prior source-import lane, and accepted prior LCS.
+That is **16 × 4 = 64 required invocations**. Five narrower scope checks for substantive
+osteoarthritis, hypercalcaemia treatment, sickle-cell osteomyelitis, adamantinoma and
+popliteal bursitis give **69 search invocations total**. Taxonomy leaves, glossary word
+parts, option mentions and a DVT article's incidental Baker-cyst differential are rejected
+as substantive coverage.
+
+| # | Prompt assignment → handle | Four-query bundle | Corpus / prior-LCS result | Disposition |
+|---:|---|---|---|---|
+| 1 | Q25,Q33,Q43 → `osteoarthritis-clinical-etiology-differential` | `osteoarthritis`; `osteophytes`; `joint space narrowing`; `degenerative joint pattern` | Exact accepted Family-12 tested handle. Current live hits are taxonomy-only and pending mentions are incidental, so its inherited new disposition remains. | prior eligible-LCS reuse; inherited new |
+| 2 | Q26,Q27 → `paget-disease-cardiac-and-joint-complications` | `Paget heart failure`; `Paget secondary osteoarthritis`; `mosaic bone complication`; `high-output heart failure bone` | Prior LCS owns auxiliary stages/imaging and a tested Paget differential, but no record owns the cardiac/joint complication pair. No substantive external match. | new |
+| 3 | Q28 → `osteoma-morphology` | `osteoma`; `ivory bony mass`; `mature lamellar bone mass`; `dense forehead bone tumor` | Exact prior auxiliary handle, previously outside tested totals. Broader hits are osteomalacia substrings, taxonomy or option noise; no substantive corpus record. | prior-LCS auxiliary promotion; new |
+| 4 | Q29 → `sickle-cell-disease-osteomyelitis-predisposition` | `sickle cell osteomyelitis`; `Salmonella osteomyelitis`; `hemoglobinopathy bone infection`; `sickle bone pain` | No substantive live, pending, external-bank or prior-LCS same-scope record. | new |
+| 5 | Q30,Q31,Q44,Q47,Q49 → `multiple-myeloma-clinical-diagnostic-pattern` | `multiple myeloma`; `plasma cell M spike`; `Bence-Jones proteins`; `lytic bone lesions` | Exact accepted Family-17 handle; pending `ART-108-PAT-AMYLOIDOSIS` owns the plasma-cell, monoclonal-protein and bone-erosion cluster. | pending; prior eligible-LCS reuse |
+| 6 | Q32 → `adamantinoma-clinicoradiologic-immunophenotypic-pattern` | `adamantinoma`; `palisading epithelial tibia`; `cytokeratin vimentin bone`; `tibial epithelial tumor` | Pending intermediate-filament material explains cytokeratin/vimentin generally but does not own adamantinoma, its tibial lesion or palisading pattern. | new |
+| 7 | Q34,Q50 → `severe-hypercalcemia-sequential-saline-bisphosphonate-management` | `hypercalcemia normal saline`; `hypercalcaemia hydration`; `bisphosphonate hypercalcemia`; `malignancy hypercalcemia treatment` | Pending calcium records address mechanisms, excitability or metastatic calcification, not acute treatment sequencing. No substantive live or prior-LCS match. | new; both printed treatment keys require review |
+| 8 | Q35 → `lumbar-disc-prolapse-clinical-diagnosis-and-mri-confirmation` | `annulus fibrosus tear`; `disc herniation annulus`; `nucleus pulposus prolapse`; `lumbar PNP etiology` | Exact accepted Family-17 pending handle; `CON-MSK-9C7E37FE296254` already owns herniation through the annulus and can absorb the keyed tear. | pending; prior eligible-LCS reuse |
+| 9 | Q36 → `ewing-sarcoma-clinical-radiology` | `Ewing sarcoma`; `onion skin`; `round blue cells`; `Homer Wright pseudorosettes` | Exact prior auxiliary handle owns age/site/onion-skin clues and was outside tested totals. No substantive live or pending disease record owns the combined pattern. | prior-LCS auxiliary promotion/extension; new |
+| 10 | Q37 → `osteoporosis-density-and-fragility-diagnosis` | `osteoporosis fragility`; `hip vertebral fracture`; `low bone density fracture`; `resorption exceeds formation` | Exact accepted Family-17 handle; pending `CON-MSK-89674D65B2316B` owns density loss and fracture risk. | pending; prior eligible-LCS reuse |
+| 11 | Q38 → `diabetic-foot-ulcer-secondary-osteomyelitis` | `diabetic foot neuropathy`; `peripheral neuropathy ulcer`; `diabetic ulcer osteomyelitis`; `diabetic foot infection` | Exact accepted Family-17 handle; no substantive external record owns the full neuropathy→ulcer→bone-infection pathway, so the inherited new disposition remains. | prior eligible-LCS reuse; inherited new |
+| 12 | Q39,Q41,Q48 → `malignancy-associated-gout-hyperuricemia` | `gout`; `hyperuricemia`; `needle-shaped crystals`; `tophus first MTP` | Exact accepted Family-17 live handle; live secondary-gout, acute-gout and tophus records own the laboratory/crystal pattern. The current occurrences add non-malignancy presentations. | live; prior eligible-LCS reuse |
+| 13 | Q40 → `lipoma-clinicopathologic-pattern` | `lipoma`; `mature white adipocytes`; `yellow encapsulated mass`; `benign adipose tumor` | The pending glossary only illustrates the `-oma` suffix, and the prior LCS adult-frequency ranking does not own this morphology/diagnosis pattern. No substantive live hit. | new |
+| 14 | Q42 → `carpal-tunnel-syndrome-clinical-diagnosis` | `carpal tunnel syndrome`; `median nerve compression`; `thenar weakness paresthesia`; `repetitive manual wrist` | Pending `CON-MSK-9B52018C4649BD` and its Anatomy article own the sensory/motor clinical syndrome. Prior LCS treatment and association-exception handles are different objectives. | pending; new to eligible LCS |
+| 15 | Q45 → `glucocorticoid-induced-osteoporosis` | `glucocorticoid osteoporosis`; `corticosteroid bone loss`; `steroid-induced osteoporosis`; `cortisone osteoporosis` | Exact accepted Family-16 tested handle; no substantive live/pending record supersedes its inherited new disposition. | prior eligible-LCS reuse; inherited new |
+| 16 | Q46 → `popliteal-bursitis-clinical-pattern` | `popliteal bursitis`; `Baker cyst`; `popliteal swelling clear fluid`; `gastrocnemius semimembranosus bursa` | The only pending Baker-cyst hit is an incidental DVT differential; no record owns this keyed popliteal clear-fluid pattern. | new; printed `Bursitis` key requires review |
+
+Source-disposition arithmetic is **1 live + 4 pending + 11 new = 16** handles. Module
+novelty is separate: **7 prior eligible reuse + 9 new to eligible = 16**. The nine net
+concepts resolve as **0 live + 1 pending + 8 new**.
+
+### Family-18 checkpoint and cumulative LCS-103 delta
+
+| Family-18 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS reuse | 15 | 15 | 7 | 0 | 0 | 0 | 0 |
+| New-to-eligible pending clinical diagnosis | 1 | 1 | 1 | 1 | 0 | 1 | 0 |
+| New-to-eligible new handles | 10 | 10 | 8 | 8 | 0 | 0 | 8 |
+| **Family 18 assessment** | **26** | **26** | **16** | **9** | **0** | **1** | **8** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 17 | 255 | 129 | 134 | 8 | 36 | 90 |
+| Family 18 net delta | +26 | +26 | +9 | +0 | +1 | +8 |
+| **LCS-103 cumulative after Family 18** | **281** | **155** | **143** | **8** | **37** | **98** |
+
+Arithmetic checks: page-start counts are `1 + 2 + 2 + 2 + 3 + 2 + 2 + 3 + 2 + 2 +
+3 + 2 = 26`; p. 23 contributes only Q50 continuation; `26 - 10 repeated assignments =
+16` handles; `1 + 4 + 11 = 16`; `7 + 9 = 16`; `0 + 1 + 8 = 9`; `255 + 26 =
+281`; `129 + 26 = 155`; `134 + 9 = 143`; and `8 + 37 + 98 = 143`. The external
+bank remains separately unchanged at `241 prompts / 241 keys / 75 handles = 9 live / 66
+pending / 0 new`. The 50 auxiliary notes and previously tracked unresolved/malformed items
+remain unchanged; Q28 and Q36 are promotions from that auxiliary evidence, not new note
+statements.
+
+## Exact next debt
+
+- Continue the same source with Q51–Q77. Q51 begins on physical p. 23 immediately after
+  the Q50 continuation; Q77 ends on physical p. 34; printed keys 51–77 are on physical
+  p. 37. Expected inventory before full visual verification is 27 MCQs and 27 key entries.
+- No part of Q51 or later content contributes to Family-18 counts.
+- After the 77-question bank closes, return to the committed evidence rank for remaining
+  local LCS theoretical/practical sources. No download is needed or authorised.
+- No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
+  `TRIAGE APPROVED` for Helwan Year 1.

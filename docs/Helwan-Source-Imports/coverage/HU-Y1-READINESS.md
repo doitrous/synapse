@@ -238,11 +238,11 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   statements are not assessment prompts or auxiliary-note additions. This lower-authority revision
   evidence does not elevate the source to a sitting exam; external-bank totals remain 241/241/75
   and 9/66/0.
-- Direct Pathology question bank `src_23d4ed4d5e4f3f7c9764` Family 17 is now triaged through
-  its first natural key boundary: Q1–Q24 are 24 complete five-option MCQs with 24 printed p. 35
-  key entries, collapsing to 19 handles (2 live / 4 pending / 13 new). Two inherited
-  Family-12 handles leave a +17 eligible-concept delta, bringing LCS-103 to 255/129/134 and
-  8/36/90. Q1/Q15/Q18/Q20/Q23's wording or clinical-quality risks are source-preserved, not
-  repaired. No Q25 material was counted.
-- Continue the same source at Q25–Q50, physical pp. 11–22, matched only to printed key entries
-  25–50 on p. 36; no later section contributes to the Family-17 checkpoint.
+- Direct Pathology question bank `src_23d4ed4d5e4f3f7c9764` Family 18 is now triaged through
+  Q50: Q25–Q50 are 26 complete five-option MCQs with 26 printed p. 36 key entries, collapsing
+  to 16 handles (1 live / 4 pending / 11 new). Seven reuse eligible-LCS scope, leaving a +9
+  delta (0 live / 1 pending / 8 new) and bringing LCS-103 to 281/155/143 and 8/37/98. Q50's
+  options C–E on physical p. 23 are included to complete the item; Q51 is excluded. Q30/Q31/Q44,
+  Q38, Q41, Q46, and Q50's source-quality risks are preserved, not repaired.
+- Continue the same source at Q51–Q77, physical pp. 23–34, matched only to printed key entries
+  51–77 on p. 37; no later section contributes to the Family-18 checkpoint.
