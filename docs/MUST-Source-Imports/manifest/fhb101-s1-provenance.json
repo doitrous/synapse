@@ -34,8 +34,8 @@
     "recoveryManifestTsv": "41d75ce7cbda7588df8899dfca164162f3f4617947aa5bee4ed985ee919b70b0",
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
-    "readinessMarkdown": "98b57018baba7ea381fb87c7643272253e4f014773d3c904971ed601091f8a18",
-    "triageMarkdown": "c0ebab36217cbfa88b80be83952b5279de529abd610b367d155bbb2105e50813"
+    "readinessMarkdown": "fb39928898daa2ca822d39a4839946259fb60fd411a51c72e8c71f1137902f08",
+    "triageMarkdown": "425a3425fe6b1d60612cc7dec4114ee2b025ca3153b0070184080715a5869225"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -77,6 +77,7 @@
       "5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56",
       "56137b8483844ab6aa52d12ee164beaac03207d97195414019bf70a4350dfeb4",
       "5a363e2f09c2b2ac7d13d5a29adf9a6a0d1e97dfe70f74f885529285516aaf76",
+      "5f1087b43622a1285ea2d011bd808ab42992a7630b9790b8e8803a3831ef419b",
       "6c2aa8130c1d9d73c68acaf44ba2f39f5ce9709c9c8f332cda5cd2751a973f7b",
       "7eae568758b50729de376c829bf30c964bddc048bb74dc49210ad40d2ed019db",
       "a433bee65fdb0cdb5a5f9f17948789d58e91f49a633a7502672e5981efa05662",
@@ -85,17 +86,17 @@
       "e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb",
       "ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af"
     ],
-    "uniqueSha256": 18
+    "uniqueSha256": 19
   },
   "remaining": {
-    "inventoryMetadataRows": 93,
-    "uniqueSha256": 88,
-    "sortedNewlineSha256": "de4e5416ee969c81deb92444c57f010d9ca8c2ea5f0411409b11b3177a412e8d",
+    "inventoryMetadataRows": 92,
+    "uniqueSha256": 87,
+    "sortedNewlineSha256": "26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 6,
       "empty-text": 40,
-      "sparse-text": 4,
+      "sparse-text": 3,
       "substantive-text": 40
     }
   },
@@ -106,8 +107,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 106,
-    "processedUniqueSha256": 18,
-    "remainingUniqueSha256": 88,
+    "processedUniqueSha256": 19,
+    "remainingUniqueSha256": 87,
     "processedPlusRemaining": 106
   },
   "year1RecoveryOutcomes": [

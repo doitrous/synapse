@@ -34,6 +34,7 @@ const PROCESSED_FAMILY_HASHES = [
   '137b732d2192915c54a3b9b3b9fa245e48f991cabfd1d88c4212e279837e1c9b',
   '492fc275403ca0435a94d678378c2c8d444248134d1a0621d7476952eab8db41',
   '7eae568758b50729de376c829bf30c964bddc048bb74dc49210ad40d2ed019db',
+  '5f1087b43622a1285ea2d011bd808ab42992a7630b9790b8e8803a3831ef419b',
 ]
 
 function argument(name) {
@@ -99,7 +100,7 @@ function expectedTriageState(readiness, triage) {
   for (const hash of PROCESSED_FAMILY_HASHES) {
     if (!readiness.includes(hash) || !triage.includes(hash)) throw new Error(`Triage evidence does not pin processed family hash ${hash}`)
   }
-  const remainingChecksum = 'de4e5416ee969c81deb92444c57f010d9ca8c2ea5f0411409b11b3177a412e8d'
+  const remainingChecksum = '26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a'
   if (!readiness.includes(remainingChecksum) || !triage.includes(remainingChecksum)) throw new Error('Triage/readiness evidence does not pin the selected remaining checksum')
   return remainingChecksum
 }
@@ -211,7 +212,7 @@ const selectedChecksum = sha256(selectedHashes.join('\n'))
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent from selected ledger: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (remainingHashes.length !== 88 || processedHashes.length + remainingHashes.length !== selectedHashes.length) throw new Error('Processed and remaining hashes do not reconcile to 106')
+if (remainingHashes.length !== 87 || processedHashes.length + remainingHashes.length !== selectedHashes.length) throw new Error('Processed and remaining hashes do not reconcile to 106')
 const remainingChecksum = sha256(remainingHashes.join('\n'))
 if (remainingChecksum !== expectedRemainingChecksum) throw new Error(`Remaining checksum drift: ${remainingChecksum}`)
 

@@ -1403,3 +1403,31 @@ The assignment ledger has zero rows and the search ledger has zero rows: no rend
 **Remaining file list:** 93 selected inventory paths / 88 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `de4e5416ee969c81deb92444c57f010d9ca8c2ea5f0411409b11b3177a412e8d`.  By the pinned triage text classification, it contains 49 substantive-text, six sparse-text, and 38 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 93 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
+
+## Continuation pass — Histology final practical-revision 2024 family
+
+The asserted starting remaining-hash checksum `de4e5416ee969c81deb92444c57f010d9ca8c2ea5f0411409b11b3177a412e8d` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 88 hashes before this pass.  The next evidence-ranked unread substantive local FHB source is the remaining 56-page Histology final practical-revision paper, ahead of the 101-page final-revision-question paper.  All 56 pages were rendered and read.  Its opening page explicitly calls it `FINAL REVISION FHB Module Practical Slides`; the rest are labelled microscopy, epithelial, pigment, organelle, and karyotype/cytogenetics images, then a closing slide.  None contains a printed question stem, response form, answer-key entry, model answer, or marking convention.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Histology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM - FINAL REVISION (Pr) FHB101 24.pdf` | `5f1087b43622a1285ea2d011bd808ab42992a7630b9790b8e8803a3831ef419b` | 56 | 0 | 0 |
+
+### Assessment, practical-teaching, and search ledgers
+
+The assignment ledger has zero rows and the search ledger has zero rows: no rendered page contains an observed printed prompt to assign or a printed key to recover.  Some figures include arrows, coloured or white-covered callouts, or numbered structures, but those appear within otherwise titled practical teaching slides and are neither phrased as questions nor paired with answer spaces or a key.  They are not inferred as composite prompts or answers.  The ledgers therefore reconcile exactly as `0 assignments ↔ 0 searches`, with no duplicate, composite, or source-level assessment collapse; no live, pending, or new concept delta follows, and no search or deduplication row is warranted.
+
+**Practical-teaching relevance (separate from assessment triage):** this deck visibly rehearses identification of organelles, epithelial types, pigments, stains, karyotypes, and cytogenetic variants.  It substantially overlaps the preceding 2025 practical deck at that teaching-material level, but because neither source supplies printed assessment prompts or keys, that visual/topical repetition produces no prior-FHB assessment-concept duplicate or collapse.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Histology final practical-revision 2024 family) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Observed delta:** +0 questions, +0 printed keys / answers, +0 source-distinct tested concepts / +0 after within-source and cross-source deduplication.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Histology final practical-revision 2024 family
+
+**Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`.  By the pinned triage text classification, it contains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 92 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
