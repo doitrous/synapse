@@ -2303,3 +2303,44 @@ mark-weight or official-key claims.
 - Generic pathology banks beginning with `src_6c9475dcb27ad5dada45` remain provenance debt.
   Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue, readiness,
   claim, download, commit, or push action is authorised.
+
+## Post-Family-12 tier-6 screenshot provenance and sequence gate
+
+The 16 timestamp-named JPEGs from `2026-07-20 05.56.34.jpg` through
+`2026-07-20 05.58.21.jpg` are **not one ordered question bank**. All 16 manifest rows are
+Helwan `HU_Y1` / `HU-BMS-102` / Microbiology / `Notes and Summaries`, tier 6, with no
+external-university hint; all 16 images were opened at original resolution. Their visible PDF
+viewer tabs and slide counters divide them into seven underlying deck fragments. Capture-time
+order is not source order.
+
+| Available fragment in source order | Visible source boundary | Source IDs in source order | Mark/provenance ruling |
+|---|---|---|---|
+| `Lec 1 102` | slides 53–54 of 55 | `src_007c979153847950dca6`, `src_ee460385eb5caf5cdc6a` | Straight green underlines are systematic digital answer marks, not handwriting, but the raster captures cannot prove they were printed in the original deck; no official key |
+| `lec2 bacter...` | non-contiguous slides 8, 11, 23, 26 of 28 | `src_8d15675c64dff6d1ec34`, `src_1f60d4e52d281b431dc7`, `src_8748f9e48befcfdfb730`, `src_dff3d4836500b7ebf23a` | Blue freehand fill-ins/checks/crosses and red underline annotations; handwriting is not a printed answer convention |
+| `Antimicrob...` | slide 42 of 45 | `src_26552d7fe7222dafad6c` | Red text highlight plus orange drawn arrow are annotation overlays, not an official printed key |
+| `lec5-Bacter...` | slide 54 of 57 | `src_370d6e8e26fcff9dec00` | Blue handwritten fill-in plus pale-green digital answer highlights; no official key |
+| `bacterial g...` | slides 49–50 of 52 | `src_93a472d70e8e1e7e9cfc`, `src_7c972883ff48c23103f3` | Pale-green digital highlights systematically mark choices, but are unproven annotation/reveal marks rather than a printed key section |
+| `General vir...` | non-contiguous slides 7, 21, 28, 33, 39 of 53 | `src_0fc230c86383f76329b6`, `src_e0928be0be4ed846220d`, `src_ec1ee4de5212860ccb3e`, `src_e11ef4bbfe64901c50cc`, `src_1e8051f1079e1aad0da9` | Red digital boxes/circles mark choices; slide 39 also has a black handwritten `latent`; neither establishes an official printed key |
+| `Lec3 sterili...` | slide 41 of 42 | `src_28b252c04e1daed171e1` | Repeated red ticks are printed checklist bullets beside every prompt, not answer marks; the visible slide is unkeyed |
+
+The first two manifest rows therefore reverse source order: `src_ee460385eb5caf5cdc6a`
+is slide 54, while the next capture `src_007c979153847950dca6` is slide 53. The exact next
+countable auxiliary image family is the bounded **available `Lec 1 102` slides 53–54 fragment**,
+in the order `src_007c979153847950dca6` then `src_ee460385eb5caf5cdc6a`. It must be described
+as a two-image fragment of a 55-slide deck, not as the whole lecture or an exam. Only prompts
+fully visible in those two images may later be counted.
+
+All 16 SHA-256 values are distinct, and visual comparison found no repeated full screenshot or
+verbatim prompt copied across the 16 captures. There is substantial topic-level overlap across
+the fragments and with Families 11–12, so prompt-level copy and concept dedupe remains mandatory
+when each fragment is counted. Missing slides also prevent claims about unseen prompt totals or
+deck completeness.
+
+No visible slide carries an official exam masthead, sitting/date, marks, candidate instructions,
+or official answer table. Local Helwan corpus placement with no external attribution supports
+future **tier-6 auxiliary study-prompt** eligibility only. Systematic flattened highlights,
+underlines, boxes, or circles may be recorded separately as visible digital answer marks after
+prompt-by-prompt adjudication; freehand fills/checks/crosses and checklist bullets are not printed
+answer occurrences. This gate adds zero prompts, zero printed answers, zero retained records, and
+zero concepts: the primary assessment checkpoint remains `765 / 405 / 552 / 372`, and the
+all-eligible inventory remains `800 / 440 / 587 / 406`.

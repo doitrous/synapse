@@ -144,9 +144,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   prompt reuses Family 11, giving +34 concepts. The primary BMS assessment checkpoint remains
   765/405/552/372; the separately labelled all-eligible-evidence inventory is 800/440/587/406.
   The study bank contributes no exam, sitting, recurrence, mark-weight or official-key signal.
-- Before counting the next tier-6 screenshot sequence beginning `src_ee460385eb5caf5cdc6a`,
-  rule provenance, sequence, answer marks and cross-image duplication; generic pathology
-  provenance debt remains excluded until separately ruled.
+- The post-Family-12 tier-6 screenshot gate groups all 16 local Microbiology images into seven
+  incomplete deck fragments, with no official exam/sitting or key authority. The exact next
+  bounded auxiliary fragment is `Lec 1 102` slides 53–54 in source order
+  `src_007c979153847950dca6` then `src_ee460385eb5caf5cdc6a`; it is not a whole lecture.
+  Systematic digital marks are unproven annotation/reveal marks, while handwriting and checklist
+  ticks are not answer occurrences. The gate adds zero counts: primary remains 765/405/552/372
+  and all eligible evidence remains 800/440/587/406. Count only fully visible prompts after
+  prompt-level duplicate review; generic pathology provenance debt remains separately excluded.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
