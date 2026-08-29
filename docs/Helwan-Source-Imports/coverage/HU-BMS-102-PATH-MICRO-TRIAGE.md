@@ -3346,3 +3346,114 @@ under `Microbiology / Notes and Summaries`. The manifest marks it as the preferr
 and its first-page snippet exposes a numbered MCQ bank. It requires a bounded full-page prompt,
 printed-answer, within-source repeat, cross-family overlap, and search-before-mint review before
 any count is accepted.
+
+## Family 24 — tier-6 Bacterial Pathogenesis MCQ-and-written study bank
+
+### Source identity, rendered boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_b7a88a664b612d2c3242` · `Bacterial Pathogenesis.pdf` |
+| SHA-256 / boundary | `b7a88a664b612d2c3242fb960cbffe92d3c34eec72e1a0928ad942054f6c1f46` · three native-text letter-size pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; preferred same-name twin of `src_cfed91d1a068ca1f0a41` |
+| Visible provenance | Word-authored study document headed `Bacterial Pathogenesis`; PDF author `Eman Ibrahem Hefny Ibrahem`, creator/producer `Microsoft Word for Microsoft 365`, created 18 August 2025 |
+| Read boundary | native text inspected and all three pages rendered at 1,530 × 1,980 pixels and read in full |
+
+The document has no university/faculty masthead, module code, examiner, date or sitting, marks,
+candidate instructions, or official provenance for its key. Pages 1–2 present ten numbered
+four-option MCQs and two short-essay prompts; page 3 is explicitly headed `Key Answers` and prints ten answer
+letters followed by the two essay prompts and their answer lists. This is a Helwan-local,
+individually attributed **study bank**, not an exam, recoverable sitting, departmental bank, or
+official key. Its printed answers are counted as available study-bank answers only.
+
+### Prompt, printed-answer, repeat, collapse, and placement ledger
+
+The source contains ten MCQ stems and two essay stems on pp. 1–2. Page 3 repeats both essay
+stems above their printed answer lists, producing **14 visible prompt occurrences**. The two
+answer-page copies are exact wording repeats after spacing normalization, so `14 - 2 = 12`
+retained question records and 12 source-distinct tested handles. Q01 and Q02 remain separate:
+Q01 applies displacement to *E. coli* and a urinary-tract outcome, while Q02 tests the general
+new-site condition. All ten MCQs have one printed key letter, and both essays have one immediate
+printed list, yielding **12 printed study-bank answer occurrences**.
+
+| Ref | Page(s) | Source-first prompt assignment | Printed answer | Tested handle · placement |
+|---|---:|---|---|---|
+| F24-Q01 | 1, 3 key | Outcome when normal gastrointestinal *E. coli* moves to the urinary tract | C · urinary tract infection | `ectopic-e-coli-urinary-tract-infection` · `inf` |
+| F24-Q02 | 1, 3 key | Condition in which normal flora can cause disease | C · enter a new body site | `normal-flora-new-site-opportunistic-disease` · `inf` |
+| F24-Q03 | 1, 3 key | Carrier type that continues shedding the organism for years | C · chronic carrier | `chronic-carrier-years-shedding` · `inf` |
+| F24-Q04 | 1, 3 key | Exception among carrier characteristics | A · have clinical symptoms | `bacterial-carrier-asymptomatic-transmission-characteristics` · `inf` |
+| F24-Q05 | 1, 3 key | Structure enabling *E. coli* attachment to urinary-tract epithelium | B · pili | `e-coli-urinary-epithelium-pili-adherence` · `inf` |
+| F24-Q06 | 1, 3 key | *S. aureus* protein said by the source to bind the Fc portion of IgA | B · Protein A | `staphylococcus-protein-a-fc-printed-iga` · `inf` |
+| F24-Q07 | 2, 3 key | True compositional property of exotoxins | D · protein in nature | `exotoxin-protein-nature` · `inf` |
+| F24-Q08 | 2, 3 key | Bacterial component containing endotoxin | B · cell wall | `endotoxin-cell-wall-component` · `inf` |
+| F24-Q09 | 2, 3 key | Exception among endotoxin effects | C · specific organ damage | `endotoxin-generalized-not-specific-organ-effect` · `inf` |
+| F24-Q10 | 2, 3 key | Exotoxin feature said by the source to permit toxoid conversion for vaccination | A · high antigenicity | `exotoxin-toxoid-conversion-high-antigenicity-printed-key` · `inf` |
+| F24-W01 | 2, 3 repeat/answer | Enumerate bacterial virulence factors | five-category list | `bacterial-virulence-factor-categories` · `inf` |
+| F24-W02 | 2, 3 repeat/answer | Enumerate bacterial adherence factors | pili, fimbria, glycocalyx, `techoic acid` | `bacterial-adherence-factor-categories` · `inf` |
+
+Q06's printed IgA wording and Q10's printed high-antigenicity causal wording are preserved as
+low-authority source claims, not silently corrected or promoted as verified medical facts.
+Likewise, the source spelling `techoic acid` is retained as source evidence. These caveats do not
+change the count of genuinely printed answers.
+
+### Search-before-mint register and prior-BMS adjudication
+
+Each of the 12 retained handles received four fresh required searches across live state and all
+pending import roots: **48 required searches**. All 48 returned no match, so the family-level
+external disposition is `0 live / 0 pending / 12 no same-scope match`. Prior-BMS review then
+separately collapses only W01 to accepted Family-12 `F12-P03`. Narrow single-fact toxin prompts
+are not collapsed into Family-12's nine-row exotoxin/endotoxin comparison, and the applied or
+single-condition prompts remain distinct from Family-12's broader enumeration prompts.
+
+| Handle · ref | Four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `ectopic-e-coli-urinary-tract-infection` · Q01 | `E coli gastrointestinal flora urinary tract infection`; `E coli moves GI tract urinary tract`; `normal flora new site E coli UTI`; `ectopic normal flora urinary infection` | new | none; applied organism/site/outcome scope is narrower than F12-P01 |
+| `normal-flora-new-site-opportunistic-disease` · Q02 | `normal flora disease new site`; `commensal bacteria enter new body site`; `normal flora opportunistic new location`; `normal flora causes disease outside original site` | new | none; single-condition recognition is distinct from F12-P01's three-condition enumeration |
+| `chronic-carrier-years-shedding` · Q03 | `chronic carrier sheds organism years`; `carrier type years shedding microorganism`; `permanent chronic bacterial carrier`; `chronic carrier definition infection` | new | none; delta |
+| `bacterial-carrier-asymptomatic-transmission-characteristics` · Q04 | `bacterial carrier characteristics asymptomatic transmission`; `carrier no clinical symptoms not confined bed`; `infection carrier carry microorganisms transmit`; `carrier characteristics microbiology` | new | none; narrower characteristic exception than F12-P02/F23-W01 seriousness list |
+| `e-coli-urinary-epithelium-pili-adherence` · Q05 | `E coli urinary epithelium pili attachment`; `uropathogenic E coli pili adherence`; `E coli attachment urinary tract structure`; `pili urinary tract colonization E coli` | new | none; applied organism/site scope is distinct from F12-S04's ordinary-versus-sex-pilus functions |
+| `staphylococcus-protein-a-fc-printed-iga` · Q06 | `Staphylococcus aureus Protein A Fc portion IgA`; `protein A binds Fc immunoglobulin`; `staphylococcal protein A IgA printed claim`; `S aureus antiphagocytic protein A Fc` | new | none; no earlier tested prompt handle at this printed scope |
+| `exotoxin-protein-nature` · Q07 | `exotoxin protein nature`; `exotoxins are proteins`; `bacterial exotoxin composition protein`; `protein nature exotoxin` | new | none; single-property recognition is distinct from F12-P04's nine-row comparison |
+| `endotoxin-cell-wall-component` · Q08 | `endotoxin bacterial cell wall component`; `endotoxin part of cell wall`; `lipopolysaccharide cell wall endotoxin`; `bacterial component containing endotoxin` | new | none; single-component recognition is distinct from F12-P04's nine-row comparison |
+| `endotoxin-generalized-not-specific-organ-effect` · Q09 | `endotoxin generalized not specific organ effect`; `endotoxin fever DIC hypotension`; `endotoxin nonspecific action`; `specific organ damage not endotoxin` | new | none; effect exception is distinct from F12-P04's comparison-table scope |
+| `exotoxin-toxoid-conversion-high-antigenicity-printed-key` · Q10 | `exotoxin toxoid conversion high antigenicity`; `exotoxin converted into toxoid vaccination`; `toxoid convertibility exotoxin feature`; `exotoxin antigenicity toxoid printed key` | new | none; the source's causal keyed claim is not the same scope as F12-P04's separate immunogenicity/convertibility rows |
+| `bacterial-virulence-factor-categories` · W01 | `bacterial virulence factor categories`; `adherence invasive intracellular antigen variation toxins`; `enumerate virulence factors bacteria`; `classes virulence factors bacteria` | new externally | exact collapse to F12-P03; same five-category prompt and answer scope |
+| `bacterial-adherence-factor-categories` · W02 | `bacterial adherence factors pili fimbriae glycocalyx teichoic acid`; `enumerate bacterial adherence factors`; `microbial adherence factor categories`; `pili fimbria glycocalyx teichoic acid adhesion` | new | none; delta |
+
+External arithmetic is `0 + 0 + 12 = 12`. Prior-BMS arithmetic is `12 source handles - 1`
+exact accepted overlap `= 11` concept additions.
+
+### Family-24 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 24 auxiliary | Auxiliary cumulative (Families 12-24) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 14 | 141 | 765 | 906 |
+| Printed study-bank answer occurrences | 12 | 85 | 405 | 490 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 2 | 2 auxiliary copies | — | the two essay stems repeated on p. 3 |
+| Retained question records | 12 | 138 | 552 | 690 |
+| Source-distinct tested handles | 12 | 137 | — | — |
+| External live / pending / no same-scope match | 0 / 0 / 12 | — | — | family-local disposition |
+| Handles already represented in Families 1-23 | 1 | 28 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +11 | +109 over primary | — | `372 + 109 = 481` |
+| **Distinct tested concepts** | **+11** | **109 auxiliary additions** | **372** | **481** |
+
+Family arithmetic is `14 observed - 2 exact copies = 12 retained`, `0 + 0 + 12 = 12`, and
+`12 - 1 = 11` concept additions. The primary checkpoint remains **765 / 405 / 552 / 372**.
+Auxiliary cumulative arithmetic is `127 + 14 = 141` observed, `73 + 12 = 85` printed answers,
+`126 + 12 = 138` retained, `125 + 12 = 137` source handles, and `98 + 11 = 109` concepts over
+primary. The all-eligible inventory becomes **906 / 490 / 690 / 481**. This tier-6 study bank
+cannot raise exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 24
+
+`src_b7a88a664b612d2c3242` is exhausted across all three rendered pages: all ten MCQs, both
+original essay stems, both answer-page copies, ten printed answer letters and two printed essay
+answer lists are assigned once. The next manifest-ordered local BMS-102 candidate is tier-6
+`src_1b11a0212785abda19b6` · `Bacterial Physiology and Metabolism.pdf`, SHA-256
+`1b11a0212785abda19b62ea1ef029264a8544eca9c35b36e03c8afa7b44bfa39`, one native-text page
+under `Microbiology / Notes and Summaries`. Its first-page snippet is an individually attributed
+`BY :MALAK SAMEH` factual map. It requires a bounded visual assessment-versus-teaching-material
+gate before any prompt or concept count is accepted.
