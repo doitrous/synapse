@@ -2720,3 +2720,42 @@ unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending 
 Umbilical Cord, Amnion, and Umbilical Vesicle**. Q111–136 and the nine p. 33 written prompts
 remain outside completed-source totals until their source-level collapse, four searches per
 handle, and prior-FHB adjudication are recorded.
+
+## Bounded continuation — General Embryology, Section XI: Umbilical Cord, Amnion, and Umbilical Vesicle
+
+This continuation retains the same single selected Anatomy `05 MCQs` path, exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`, and full-source
+visual inventory of **145 prompt occurrences / 145 directly printed answer occurrences**.
+All and only **source pages 28–29, Section XI** were assigned in this pass. They visibly print
+Q111–121 with two immediate answer lines: **11 complete MCQs / 11 directly printed answer
+letters**. Source page 30 begins `Section XII: Twins` at Q122 and is the next natural boundary.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q111–Q113 | `111 B`; `112 B`; `113 C` | Full-term umbilical-cord length, two-artery/one-vein contents, and Wharton's-jelly support (`umbilical cord length`; `umbilical cord vessels`; `Wharton jelly`; `umbilical cord structure`) | new at the current search scope; prior cord-length and vessel assignments do not own the printed Wharton's-jelly structural claim — bounded candidate addition. |
+| Q114, Q121 | `114 B`; `121 A` | Amnion as a fluid-filled sac and its printed function/exception family (`amnion function`; `amniotic sac embryo`; `amnion fluid filled sac`; `fetal membrane amnion`) | new externally; exact prior-FHB amnion/fetal-membrane-function assignment — duplicate. |
+| Q115–Q117 | `115 B`; `116 C`; `117 B` | Amniotic-fluid excess, deficiency and three-hour content turnover (`polyhydramnios`; `oligohydramnios`; `amniotic fluid turnover`; `amniotic fluid three hours`) | pending-hit; prior polyhydramnios/amniotic-fluid work does not own the oligohydramnios threshold and turnover claim — bounded candidate addition. |
+| Q118–Q120 | `118 B`; `119 A`; `120 B` | Tenth-week umbilical-vesicle regression, primordial-germ-cell source and vitelline-duct connection (`umbilical vesicle`; `vitelline duct`; `primordial germ cells umbilical vesicle`; `yolk sac tenth week`) | pending-hit at the vitelline-duct scope; prior germ-cell-source work does not own the printed regression/duct relationship — bounded candidate addition. |
+
+The 11 observations collapse source-first to **four handles**: one umbilical-cord structure
+handle; one amnion sac/function handle; one amniotic-fluid volume/turnover handle; and one
+umbilical-vesicle regression/germ-cell/vitelline-duct handle. The assignment and query ledger
+reconciles exactly as **4 handles × 4 phrases = 16 required searches**. Exact-scope source
+disposition is **0 live / 2 pending / 2 new**.
+
+The amnion-function handle exactly reuses completed prior-FHB scope. The expanded cord-
+structure handle survives as new, while the expanded amniotic-fluid and umbilical-vesicle
+handles survive as pending. The provisional post-prior-FHB result is therefore **0 live / 2
+pending / 1 new** and remains excluded while this 34-page source is incomplete. All printed
+answer letters are preserved without medical correction or authority uplift.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **Q122 on source page 30, Section XII:
+Twins**. Q122–136 and the nine p. 33 written prompts remain outside completed-source totals
+until their source-level collapse, four searches per handle, and prior-FHB adjudication are
+recorded.
