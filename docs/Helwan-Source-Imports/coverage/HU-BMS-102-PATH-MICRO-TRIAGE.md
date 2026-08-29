@@ -3266,3 +3266,83 @@ The next manifest-ordered local BMS-102 candidate is tier-6
 `cfed91d1a068ca1f0a417cf3b4d917e76ed9dd5d0026a16bea9692312ae90260`, one native-text page
 under `Microbiology / Notes and Summaries`.  It requires the same bounded visual
 assessment-versus-teaching-material ruling before any count or concept work.
+
+## Family 23 — tier-6 Bacterial Pathogenesis teaching map with one embedded written prompt
+
+### Source identity, rendered boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_cfed91d1a068ca1f0a41` · `Bacterial Pathogenesis (1).pdf` |
+| SHA-256 / boundary | `cfed91d1a068ca1f0a417cf3b4d917e76ed9dd5d0026a16bea9692312ae90260` · one native-text page, 1,675.92 × 1,777.92 points |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; no examiner, sitting, marks, or official-key metadata |
+| Visible provenance | XMind document headed `Bacterial Pathogenesis` and `BY:MALAK SAMEH`; PDF creator `Chromium`, producer `Skia/PDF m136`, created 26 April 2026 |
+| Read boundary | native text inspected and the sole page rendered at 3,771 × 4,000 pixels and read in full |
+
+This is an individually attributed factual teaching map, not a departmental handout, exam,
+recoverable sitting, or official answer source. Its branches summarize pathogen definitions,
+Koch's postulates, carriers, infection requirements, disease-production factors, virulence,
+exotoxin, endotoxin, and their comparison. Most branch labels (`Definitions`, `Carrier Types`,
+`Infection Requirements`, `Characteristics`, and similar) are organizational headings rather
+than prompts and are not recast as questions.
+
+One branch is different: **`Why carriers are serious`** is a complete interrogative written
+prompt even without terminal punctuation. Its four child nodes (`Not confined to bed`, `No
+symptoms`, `Normal public interaction`, and `Carry organism during entire epidemic period`) form
+one visibly paired printed answer block. No other complete prompt, answer choice set, response
+space, answer label, keyed option, model-answer convention, or marking convention appears.
+
+### Source-first assignment, search, and prior-BMS adjudication
+
+| Ref | Source-first prompt assignment | Printed answer | Tested handle · placement |
+|---|---|---|---|
+| F23-W01 | Why carriers are serious in spreading infection | four visibly connected reasons | `infection-carrier-spread-significance` · `inf` |
+
+The source contains one prompt occurrence and one immediately connected answer block. There is
+no within-source repeat, so it yields one retained source record and one source-distinct handle.
+The exact handle received four fresh required searches across live state and all pending import
+roots:
+
+| Four required queries | External result | Prior BMS-102 relation |
+|---|---|---|
+| `carrier spread infection significance`; `asymptomatic carrier epidemic spread`; `why carriers serious infection spread`; `infection carrier no manifestations` | no live or pending same-scope match; externally new | collapse to accepted Family-12 `F12-P02`; that source asks why carriers are serious in spreading infection and prints the same four reasons at the same tested scope |
+
+External arithmetic is `0 live + 0 pending + 1 no same-scope = 1`. Prior-BMS arithmetic is
+`1 source handle - 1 accepted Family-12 overlap = 0` concept additions. The map's paraphrases
+(`No symptoms` for `No manifestations` and `Normal public interaction` for `Communicate
+normally`) do not create a distinct concept.
+
+### Family-23 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 23 auxiliary | Auxiliary cumulative (Families 12-23) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 1 | 127 | 765 | 892 |
+| Printed study-bank answer occurrences | 1 | 73 | 405 | 478 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Retained question records | 1 | 126 | 552 | 678 |
+| Source-distinct tested handles | 1 | 125 | — | — |
+| External live / pending / no same-scope match | 0 / 0 / 1 | — | — | family-local disposition |
+| Handles already represented in Families 1-22 | 1 | 27 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +98 over primary | — | `372 + 98 = 470` |
+| **Distinct tested concepts** | **+0** | **98 auxiliary additions** | **372** | **470** |
+
+Family arithmetic is `1 observed - 0 copies = 1 retained`, `0 + 0 + 1 = 1`, and
+`1 - 1 = 0` concept additions. The primary checkpoint stays **765 / 405 / 552 / 372**.
+Auxiliary cumulative arithmetic is `126 + 1 = 127` observed, `72 + 1 = 73` printed answers,
+`125 + 1 = 126` retained, `124 + 1 = 125` source handles, and unchanged `+98` concepts over
+primary. The all-eligible inventory becomes **892 / 478 / 678 / 470**. This low-authority
+teaching-map prompt cannot raise exam/sitting, recurrence, mark-weight, key-authority, readiness,
+or claims status.
+
+### Exact next debt after Family 23
+
+`src_cfed91d1a068ca1f0a41` is exhausted: its sole rendered page contributes exactly one embedded
+written prompt-and-answer pair and no other assessment unit. The next manifest-ordered local
+BMS-102 candidate is tier-6 `src_b7a88a664b612d2c3242` · `Bacterial Pathogenesis.pdf`, SHA-256
+`b7a88a664b612d2c3242fb960cbffe92d3c34eec72e1a0928ad942054f6c1f46`, three native-text pages
+under `Microbiology / Notes and Summaries`. The manifest marks it as the preferred same-name twin,
+and its first-page snippet exposes a numbered MCQ bank. It requires a bounded full-page prompt,
+printed-answer, within-source repeat, cross-family overlap, and search-before-mint review before
+any count is accepted.
