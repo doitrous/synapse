@@ -2939,3 +2939,63 @@ Arithmetic checks: `2 + 1 = 3` prompts and handles; `0 + 0 + 3 = 3` source dispo
 `2 prior eligible + 1 new-to-eligible = 3`; `434 + 3 = 437`; `242 + 0 = 242`; `196 + 1 =
 197`; and `9 + 49 + 139 = 197`. No ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 25 — Tier-4 Anatomy lecture interactive-prompt family
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_95c1a0516668c3eda345` |
+| Manifest / recomputed SHA-256 | `95c1a0516668c3eda3458aecd774b45c0ee4559278f9c788162ae302d53dc88a` |
+| Local path | `Year 1/LCS 103/Anatomy/Theoretical/Head & Neck/Lec 11 - Blood Vessels & Nerves of Head & Neck/Nervesand Vessels of Head and Neck 4.pdf` |
+| Manifest class | Helwan `HU_Y1` / `HU-LCS-103` / Anatomy / Theoretical / tier 4 / 28 native-text pages |
+| Visible provenance | p. 1 prints `Nerves and Vessels of Head and Neck`, `By; Dr. Sarah Arakib`, and `MD Anatomy and Embryology`; the source itself prints no university, module, assessment or sitting label. |
+| Container / boundary | Unencrypted 28-page PowerPoint PDF, 960 × 540 pt, no form or JavaScript; every physical page was rendered at original resolution and read. Pages 1–12 are teaching slides, p. 13 contains the sole interactive prompt, pp. 14–27 return to teaching material, and p. 28 is the closing slide. |
+| Authority | Manifest/path-assigned tier-4 local teaching evidence. It is not a sitting paper, department bank or official key; its single embedded question is formative lecture evidence only. |
+
+The full-source gate finds exactly **one complete prompt occurrence** and **zero printed keys**.
+On p. 13, `Clinical importance ??` follows the `Pterygoid plexus` heading and its connection
+bullets, so the visible context makes the requested target complete: clinical importance of
+the pterygoid plexus. The surrounding statements are lecture teaching, not an answer reveal,
+answer convention or keyed response. In particular, the slide prints facial-vein and
+cavernous-sinus communications but does not print a labelled answer or state the clinical
+consequence; none is inferred from medical knowledge. No other complete question, response
+field, option set, answer line, highlighted choice or answer reveal occurs on pp. 1–28.
+
+### Source-first handle, search and overlap result
+
+The single occurrence produces one source handle, `pterygoid-plexus-clinical-importance`.
+It received four required `find-existing` searches across live/pending state and all
+source-import roots: `pterygoid plexus clinical importance`, `pterygoid venous plexus
+cavernous sinus infection`, `pterygoid plexus danger area face`, and `pterygoid plexus
+dental infection spread` (**1 × 4 = 4 invocations**). The four direct query runs returned no
+new same-string record, but scope comparison resolves it to accepted Family-1 handle
+`pterygoid-plexus-connections`: that handle already owns the pterygoid plexus's facial and
+cavernous-sinus communications and is live through `CON-FND-1DE320DE8928B2`. Family 20 also
+reused that same handle. Therefore this source occurrence is **prior eligible-LCS reuse;
+inherited live**, not a new concept.
+
+| Family-25 evidence bucket | Prompt occurrences | Printed keys | Source handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS reuse | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
+| **Family 25 assessment evidence** | **1** | **0** | **1** | **0** | **0** | **0** | **0** |
+
+The source-level handle result is **1 live / 0 pending / 0 new**; the module net is zero
+because that live scope was already counted in Family 1. Source disposition and additive
+module disposition are intentionally kept separate.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 24 | 437 | 242 | 197 | 9 | 49 | 139 |
+| Family 25 net delta | +1 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 25** | **438** | **242** | **197** | **9** | **49** | **139** |
+
+Arithmetic checks: `1 prompt = 1 source handle`; `1 + 0 + 0 = 1` source disposition;
+`1 prior eligible + 0 new-to-eligible = 1`; `437 + 1 = 438`; `242 + 0 = 242`;
+`197 + 0 = 197`; and `9 + 49 + 139 = 197`. Removing this unique source from the accepted
+Family-24 remainder leaves **51 rank-4/rank-5 path instances / 49 unique hashes**. The next
+manifest-order evidence gate is tier-4 Anatomy source `src_c9f3a9a347a23822db32`, `Face.pdf`
+(63 pages; SHA-256 `c9f3a9a347a23822db328f3fc95a5208fccb94f161b7b054d1d93a567b8730be`).
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.

@@ -309,9 +309,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   answer-reveal or printed-key convention. Two scopes exactly reuse Family-20 LCS handles and
   the motor supply of muscles of mastication is one new tested scope, bringing LCS to **437
   prompts / 242 printed keys / 197 concepts = 9 live / 49 pending / 139 new**. The
-  rank-4/rank-5 local-source debt is now 52 path instances / 50 unique hashes, beginning next
-  with tier-4 `src_95c1a0516668c3eda345`; broader LCS S1 remains incomplete pending that debt
-  and consolidation.
+  next tier-4 Anatomy lecture `src_95c1a0516668c3eda345` is now also closed across all 28
+  rendered pages. Its sole context-complete `Clinical importance ??` pterygoid-plexus prompt
+  has no printed key and exactly reuses the live Family-1 `pterygoid-plexus-connections`
+  handle, so it adds one observed prompt but zero concepts. Eligible LCS is now **438 prompts /
+  242 printed keys / 197 concepts = 9 live / 49 pending / 139 new**. The rank-4/rank-5
+  local-source debt is now 51 path instances / 49 unique hashes, beginning next with tier-4
+  `src_c9f3a9a347a23822db32` (`Face.pdf`, 63 pages); broader LCS S1 remains incomplete pending
+  that debt and consolidation.
 
 ## HU-PSY-104 psychology S1 family checkpoint
 
