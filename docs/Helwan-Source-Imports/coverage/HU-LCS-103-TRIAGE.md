@@ -3635,3 +3635,125 @@ manifest-order gate is tier-5 Anatomy practical source `src_b912e8878c85ce34a74a
 `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 4 - Posterior Compartment of the Thigh/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 33 — Tier-5 posterior-thigh and popliteal-fossa virtual-lab teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_b912e8878c85ce34a74a` |
+| File / SHA-256 | `posterior compartement of the thigh.pdf` / `b912e8878c85ce34a74a263d1796ce6e6d52fb8790722f73f039cb225c48156d` |
+| File boundary | 14,607,924 bytes · native PDF · 31 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 4 - Posterior Compartment of the Thigh/posterior compartement of the thigh.pdf` |
+| Visible provenance | title page prints `Presented by/ Nourhan . A . S . Elsadany` and `Posterior Compartment Of the thigh`; PDF producer is Skia/PDF m136 |
+| Authority finding | Helwan-local virtual-lab teaching deck by manifest/path placement; it is not an exam, station sheet, response form, question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **31 physical pages** were rendered and
+read. Page 1 is the title page, pp. 2–29 are posterior-thigh and popliteal-fossa teaching
+slides with two section dividers and two exact complete-slide content copies, p. 30 is a quote
+slide, and p. 31 is a closing `Thank you` slide. No page prints an instruction to identify a
+structure, explicit practical/station prompt, ordinary question, response field, blank answer
+area, mark allocation, correctness convention, printed assessment answer or key. The hidden
+text-layer phrase `Q&A / Panel discussion session` is not visibly printed on p. 31 and is not
+counted. Named structures, attachment statements and arrows are simultaneous teaching
+mappings, not answers to an assessment prompt.
+
+### Complete defensible teaching-slide and mapping inventory
+
+| Physical page | Source-first teaching slide / plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 2 | thigh mid-shaft cross-section and compartment relations | 25 mappings: 22 named structures/relations plus 3 compartment names |
+| 3 | `Posterior Compartment Of the thigh` divider | no plate or mapping |
+| 4 | posterior-compartment functions, members and nerve supply | 11 mappings |
+| 5 | posterior-thigh model identification | 7 mappings |
+| 6 | letter-labelled posterior-thigh model | 16 mappings |
+| 7 | posterior lower-limb muscle/nerve illustration | 21 unique mappings; `Tibial nerve` is printed twice on the same plate and counted once |
+| 8 | posterior/anterior hip-and-thigh muscle plate | 24 mappings |
+| 9 | exact complete-slide content copy of p. 5 | 0 additional plate or mapping after copy collapse |
+| 10 | hamstring members and common characteristics | 8 mappings |
+| 11 | semimembranosus origin, insertion and nerve supply | 3 unique mappings; the repeated cropped hip-bone figure contains 10 unresolved callout residues and one tibial label is visibly masked |
+| 12 | semitendinosus origin, insertion and nerve supply | 3 unique mappings; repeats the same 10 unresolved hip-bone callout residues from p. 11, so they are not recounted |
+| 13 | unlabelled posterior-thigh model montage | 0 mappings; retained as one teaching composition, not inferred |
+| 14 | biceps-femoris long/short-head origins, insertion and supply | 7 mappings |
+| 15 | highlighted hip/femur/fibula attachment montage | 0 printed mappings; repeats p. 11's 10 hip-bone residues and adds 5 fibular leader-line residues |
+| 16 | popliteal-fossa location, borders, floor and roof | 14 mappings |
+| 17 | posterior-knee model with an unlabelled yellow marker | 0 mappings; one unresolved marker |
+| 18 | popliteal-fossa contents | 4 mappings |
+| 19 | `vessels` divider | no plate or mapping |
+| 20 | sciatic-nerve origin and termination | 2 mappings |
+| 21 | popliteal-artery origin and termination | 2 mappings |
+| 22 | popliteal-vein beginning/termination and tibial-nerve origin/termination | 4 mappings |
+| 23 | exact complete-slide content copy of p. 7 | 0 additional plate or mapping after copy collapse |
+| 24 | common-peroneal-nerve origin, termination and terminal branches | 4 mappings |
+| 25 | tibial-nerve origin and termination | 2 mapping occurrences; the same two facts appear within p. 22 but this is a distinct teaching composition |
+| 26 | sciatic/common-peroneal/tibial nerves and popliteal vessels on a model | 5 mappings |
+| 27 | unlabelled posterior-leg model montage | 0 mappings; retained as one teaching composition, not inferred |
+| 28 | unlabelled posterior-thigh/lower-leg model montage | 0 mappings; retained as one teaching composition, not inferred |
+| 29 | model with four leader arrows whose labels are grey-blocked or absent | 0 mappings; four unresolved callouts |
+
+The **26 content-slide occurrences consolidate to 24 source-distinct teaching compositions**
+because p. 9 copies p. 5 and p. 23 copies p. 7. The mapping arithmetic after those two copy
+collapses is `25 + 11 + 7 + 16 + 21 + 24 + 8 + 3 + 3 + 7 + 14 + 4 + 2 + 2 + 4 + 4 +
+2 + 5 = 162`. The unique unresolved-residue arithmetic is `10 + 1 + 5 + 1 + 4 = 21`:
+the ten cropped hip-bone callouts recur on pp. 11, 12 and 15 but are counted once, while the
+masked tibial label, five fibular leader lines, yellow posterior-knee marker and four blocked
+p. 29 callouts are source-distinct. Coloured dots/circles that only highlight attachment sites
+are annotations, not missing printed answers, and are not counted as mappings or keys.
+Repeated facts on genuinely different teaching compositions remain evidence occurrences, but
+complete-slide copies and repeated residue are not inflated. The assessment boundary is **0
+practical/station prompts / 0 ordinary questions / 0 printed assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 24 compositions consolidate to eleven source-level teaching scopes. This scope collapse
+does not delete plate or mapping evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `posterior-thigh-compartment-muscles-and-supply` · pp. 2, 4–9 | posterior thigh compartment muscles; posterior thigh hamstring compartment organization; posterior compartment thigh nerve supply; posterior thigh muscles sciatic tibial division | no direct live/pending hit; individual prior muscle OINA handles do not own the compartment-organisation composite — new |
+| `hamstring-members-and-common-criteria` · p. 10 | hamstring muscles common criteria; hamstring four common features; hamstring origin insertion knee hip action; true hamstring muscle definition | no direct live/pending hit; prior three-muscle origin and individual OINA evidence do not own the printed membership-plus-four-criteria scope — new |
+| `semimembranosus-oina` · p. 11 | semimembranosus origin insertion nerve supply; semimembranosus OINA; semimembranosus ischial tuberosity medial tibial condyle; semimembranosus tibial sciatic nerve | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `semitendinosus-oina` · p. 12 | semitendinosus origin insertion nerve supply; semitendinosus OINA; semitendinosus ischial tuberosity medial tibia; semitendinosus tibial sciatic nerve | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `biceps-femoris-oina` · pp. 14–15 | biceps femoris origin insertion nerve supply; biceps femoris OINA; biceps femoris long short head attachments; biceps femoris fibular head nerve supply | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `popliteal-fossa` · pp. 16–18 | popliteal fossa boundaries roof floor contents; popliteal fossa anatomy; popliteal fossa borders hamstrings gastrocnemius; popliteal fossa contents artery vein tibial nerve | no direct live/pending hit; exact accepted Family-1 scope and Family-6 reuse — prior LCS reuse |
+| `sciatic-nerve-origin-and-termination` · pp. 20, 26 | sciatic nerve origin termination; sciatic nerve sacral plexus popliteal fossa termination; sciatic nerve tibial common fibular division; sciatic nerve posterior thigh course termination | no direct live/pending hit; narrower reuse of accepted `sciatic-nerve-course-termination-branches`, which retains its inherited pending disposition — prior LCS reuse |
+| `popliteal-artery-origin-and-termination` · pp. 21, 26 | popliteal artery origin termination; femoral artery adductor hiatus popliteal artery; popliteal artery termination anterior posterior tibial; popliteal artery anatomy | no direct live/pending hit; exact origin/termination subset of accepted `popliteal-artery`, which retains its inherited pending disposition — prior LCS reuse |
+| `popliteal-vein-beginning-and-termination` · pp. 22, 26 | popliteal vein beginning termination; popliteal vein anterior posterior tibial veins; popliteal vein adductor hiatus femoral vein; popliteal vein anatomy | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `tibial-nerve-origin-and-termination` · pp. 22, 25–26 | tibial nerve origin termination; tibial nerve popliteal fossa medial lateral plantar; tibial nerve sciatic division termination; tibial nerve anatomy | no direct live/pending hit; prior sciatic-nerve and nerve-injury records do not own this individual nerve's full origin/termination scope — new |
+| `common-peroneal-nerve-origin-termination-and-branches` · pp. 24, 26 | common peroneal nerve origin termination branches; common fibular nerve popliteal fossa branches; common peroneal nerve superficial deep terminal branches; common fibular nerve sciatic division neck fibula | no direct live/pending hit; prior sciatic-nerve and nerve-injury records do not own this individual nerve's origin/termination/terminal-branch scope — new |
+
+All **11 × 4 = 44** required searches completed with no direct live or pending hit. The raw
+external result is `0 live / 0 pending / 11 new`; exact accepted-prior comparison removes six
+module additions, leaving **+5 new practical-teaching scopes**. Component overlap does not
+absorb the posterior-compartment composite, the hamstring criteria, popliteal-vein course or
+the two individual terminal-nerve scopes.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 33 | Family 33 delta | After Family 33 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 74 verified minimum | +24 | 98 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 489 verified minimum | +162 | 651 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 32 | +21 | 53 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 20 | +0 / +0 / +5 | 0 / 0 / 25 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-32
+remainder leaves **43 rank-4/rank-5 path instances / 41 unique hashes**. The next
+manifest-order gate is tier-5 Anatomy practical source `src_f45d7e77bbde568d6505`, `Leg
+final.pdf` (49 native-text pages; SHA-256
+`f45d7e77bbde568d6505d31c1b5ff93b798369337dbd80fd5d067f1a1c9f8fc7`) under `Year 1/LCS
+103/Anatomy/Practical Labs/Virtual Lab 5 - Leg/`. Broader LCS-103 S1 remains incomplete. No
+download, ID, content record, catalogue update, import or source copy was created.
