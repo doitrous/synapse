@@ -1,9 +1,21 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
 }
+
+// Build-time secrets, gitignored. Absent on a fresh clone → empty BuildConfig
+// fields → AppConfig.isConfigured is false (a "Not configured" state), never a
+// compile failure.
+val secretsFile = rootProject.file("secrets.properties")
+val secrets = Properties().apply {
+    if (secretsFile.exists()) secretsFile.inputStream().use { load(it) }
+}
+fun secret(key: String): String = secrets.getProperty(key).orEmpty()
+
 android {
     namespace = "com.synapse.app"
     compileSdk = 36
@@ -14,6 +26,10 @@ android {
         versionCode = 1
         versionName = "0.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "API_HOST", "\"${secret("API_HOST")}\"")
+        buildConfigField("String", "SUPABASE_HOST", "\"${secret("SUPABASE_HOST")}\"")
+        buildConfigField("String", "SUPABASE_ANON_KEY", "\"${secret("SUPABASE_ANON_KEY")}\"")
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -22,6 +38,7 @@ android {
     kotlinOptions { jvmTarget = "17" }
     testOptions { unitTests { isIncludeAndroidResources = true } } // Robolectric
     buildTypes { release { isMinifyEnabled = false } }
+    buildFeatures { buildConfig = true }
 }
 dependencies {
     implementation(libs.kotlinx.coroutines.core)
@@ -39,4 +56,5 @@ dependencies {
     testImplementation(libs.robolectric)
     testImplementation(libs.androidx.test.core)
     testImplementation(libs.room.testing)
+    testImplementation(libs.mockwebserver)
 }
