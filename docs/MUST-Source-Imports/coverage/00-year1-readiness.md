@@ -12,11 +12,11 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 
 ## FHB 101 S1 checkpoint status
 
-**`checkpointed-incomplete`.** The completed read-only sources yield 1024 questions, 789 printed keys, and 284 tested concepts (62 live-hit / 67 pending-hit / 155 new, all placement TBD). The three-page Anatomy training sheet contributes 44 prompts, no key, and 12 after-deduplication concepts; Q38 is absent and not inferred. The remaining source set is 83 inventory rows and 79 SHA-256 values, checksum `a8d1a7d1aebc51d2f677145d9f4e92bebf1473385e94827655a038b11e04654e`; debt is 37 empty-text plus 6 sparse-text rows.
+**`checkpointed-incomplete`.** The completed read-only sources yield 1053 questions, 789 printed keys, and 286 tested concepts (62 live-hit / 67 pending-hit / 157 new, all placement TBD). The four-page Histology quiz-training paper contributes 29 prompts, no printed key, and two after-deduplication concepts. The remaining source set is 82 inventory rows and 78 SHA-256 values, checksum `0e0cc64d95d6d07201042a213b8449c1bb7d978adde961012cb318b22065cc7b`; debt is 37 empty-text plus 6 sparse-text rows.
 
 Completed source-family hashes: `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95`, `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec`, `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f`, `3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a`, `e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb`, `5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56`, `14aca09deac964563bef09fe2f12b651db40c7d789bad98527d56f90d74f8668`, `441ea28e2179fa0488d8afed03d595aae31e97087607c13d16c929fe0db62906`, `56137b8483844ab6aa52d12ee164beaac03207d97195414019bf70a4350dfeb4`, `5a363e2f09c2b2ac7d13d5a29adf9a6a0d1e97dfe70f74f885529285516aaf76`, `23248abb15aad2399e99a4cf7c5d0d0aca0070287efb5e24739a982b83c8fafa`, `a433bee65fdb0cdb5a5f9f17948789d58e91f49a633a7502672e5981efa05662`, `6c2aa8130c1d9d73c68acaf44ba2f39f5ce9709c9c8f332cda5cd2751a973f7b`, `2e869cc596ae375f593d7b899b2090c4bcb3ef4cd29e1fd4b68c01860de91a60`, `ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af`, `137b732d2192915c54a3b9b3b9fa245e48f991cabfd1d88c4212e279837e1c9b`, `492fc275403ca0435a94d678378c2c8d444248134d1a0621d7476952eab8db41`, `7eae568758b50729de376c829bf30c964bddc048bb74dc49210ad40d2ed019db`, `5f1087b43622a1285ea2d011bd808ab42992a7630b9790b8e8803a3831ef419b`, `c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983`, `c7f9044d4f8c67e9369999ae71692dd98b153cfa68038a3f0115ede546873fe9`, `a52b8c4a67088411b314bcab37820383ad7a32b05b03f0d293e84421db34f195`, `bc12b680f19c703645cc26e0296cd5ab27b66d565c8480c0a07859842bee3d07`, `784b370995586c0c1adac303fff438cc0c6faad9897a678229dfe6b2d3beec80`, and `871ca5046ee04990d95ead25942884a31d840009afe4e76d77779e13d294e294`.
 
-Additional completed source-family hashes: `6ce0f81b5a2ab455d7194a47cb0833680b3dedfeb8840fbae72332a4afb8c206`, `814bbedd8906d5c163797afbf65ccc4bf49b9698a278a2e9fa78f8596fc26d24`.
+Additional completed source-family hashes: `6ce0f81b5a2ab455d7194a47cb0833680b3dedfeb8840fbae72332a4afb8c206`, `814bbedd8906d5c163797afbf65ccc4bf49b9698a278a2e9fa78f8596fc26d24`, `6cf74ccb49a440815850ef9f458f80f31200f7b70fa8361f473af2ba3baaed89`.
 
 ```text
 001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b
@@ -54,7 +54,6 @@ Additional completed source-family hashes: `6ce0f81b5a2ab455d7194a47cb0833680b3d
 6846577508f49244d715afb12267b8b6db92ef5d9140be391919a040d2ba70de
 685e671956525d3ba1c709981d9fe1f97920fc1929e6f2a28ca2fc7fdc5b1746
 6ce0f81b5a2ab455d7194a47cb0833680b3dedfeb8840fbae72332a4afb8c206
-6cf74ccb49a440815850ef9f458f80f31200f7b70fa8361f473af2ba3baaed89
 6de1106a6b875c69f3d94467d1e5e51ae1895cb689e42daffb9bfe02e68af847
 6ea8ad8bf30d8191cb7aa1d1a073efa5c5e8832a9182c96264db8fe8a1622af6
 71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3

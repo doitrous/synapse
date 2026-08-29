@@ -1955,3 +1955,44 @@ At source-concept search level the results are live 3 / pending 4 / new 15.  Aft
 **Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **83 selected inventory paths / 79 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `a8d1a7d1aebc51d2f677145d9f4e92bebf1473385e94827655a038b11e04654e`.  By the pinned triage text classification, the remaining debt is **40 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `27 + 79 = 106` selected unique hashes.
 
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 83 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Histology quiz-training family
+
+The asserted starting remaining-hash checksum `a8d1a7d1aebc51d2f677145d9f4e92bebf1473385e94827655a038b11e04654e` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 79 hashes before this pass.  The next evidence-ranked substantive local source is the four-page Histology quiz-training paper.  All four pages were rendered and read.  Its `Quiz Training Q`, `Choose the correct answer`, numbered MCQ, and numbered short-question forms establish an **assessment** source, not lecture or practical-teaching material.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Histology | `05 MCQs` | `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Training questions for QUIZ.pdf` | `6cf74ccb49a440815850ef9f458f80f31200f7b70fa8361f473af2ba3baaed89` | 4 | 29 | 0 |
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+| Printed prompt refs | Printed key / answer | Source-distinct tested concept | Search and prior-FHB deduplication result |
+|---|---|---|---|
+| MCQ 1, 5, 10; short 1, 10, 12 | None printed | Rough/smooth endoplasmic-reticulum morphology and functions | The repeated protein-forming, smooth-ER, glycogen, calcium-storage, and basophilia prompts collapse as one ER family.  `protein forming cells` is pending-hit; prior FHB already assigns smooth-versus-rough ER. |
+| MCQ 2, 7; short 4 | None printed | Ribosome structure and free/attached protein synthesis | The repeated ribosome/free-polysome prompts collapse.  `ribosome structure` is pending-hit; the ribosome/free-polysome concepts are already triaged in FHB. |
+| MCQ 3, 6; short 2 | None printed | Golgi transfer vesicles, protein modification, and primary-lysosome production | The Golgi prompts explicitly collapse.  Both search phrases returned no current record, but prior FHB already assigns Golgi transfer vesicles/protein modification. |
+| MCQ 4; short 2–3 | None printed | Mitochondrial DNA, energy production, and visualisation | The mitochondrial prompts collapse.  `mitochondrial DNA` is pending-hit; prior FHB already assigns mitochondrial structure/functions. |
+| MCQ 8, 12, 14–15; short 8–9, 13 | None printed | Lysosome properties, visualisation, secondary forms, pH, and residual bodies | The lysosome and secondary-lysosome prompts collapse.  `secondary lysosomes` is pending-hit; this family is already triaged in FHB. |
+| MCQ 9; short 5, 7 | None printed | Scanning/light microscopy image, magnification, and resolution | The microscopy-comparison prompts collapse.  Both search phrases returned no current record; this is a new addition. |
+| MCQ 11 | None printed | Cell-membrane trilaminar structure and receptors | `plasma membrane receptors` is pending-hit; prior FHB already assigns cell-membrane structure and signalling. |
+| MCQ 13; short 6, 14 | None printed | Exocytosis, endocytosis, early endosomes, and uptake routes | The vesicular-transport prompts collapse.  Both search phrases returned no current record, but prior FHB already assigns coated-vesicle uptake/endocytosis. |
+| Short 11 | None printed | Glycocalyx (cell coat) composition | Both search phrases returned no current record; prior FHB already assigns cell-surface glycocalyx. |
+| Short 3 | None printed | Organelle-specific histochemical staining | Both `Golgi stain` and `mitochondrial stain` returned no current record.  The paired stain-identification prompt is not a prior-FHB assignment, so it is a new addition. |
+
+Page 1 prints MCQ 1–7 (7 prompts), page 2 prints MCQ 8–14 (7), page 3 prints MCQ 15 plus short questions 1–8 (9), and page 4 prints short questions 9–14 (6): `7 + 7 + 9 + 6 = 29` prompts.  Each numbered short question is counted once even when it has several blanks or subparts.  No page contains a printed answer table, highlighted option, model answer, or consistent marking convention, giving **0** printed keys / answers.  The assignment and search ledgers reconcile one-to-one at **10 named concepts ↔ 10 search rows**.
+
+At source-concept search level the results are live 0 / pending 5 / new 5.  After prior-FHB deduplication, only the microscopy-comparison and organelle-specific-staining families remain distinct.  The cumulative delta is **live 0 / pending 0 / new 2**, or **+2** concepts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the Histology quiz-training family) | 1053 | 789 | 286 | 62 | 67 | 157 | TBD |
+
+**Completed-source delta:** `+29` questions, `+0` printed keys / answers, `+10` source-distinct tested concepts / `+2` after source-level collapse and prior-FHB deduplication.  The cumulative search buckets reconcile exactly: `62 + 67 + 157 = 286`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Histology quiz-training family
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **82 selected inventory paths / 78 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `0e0cc64d95d6d07201042a213b8449c1bb7d978adde961012cb318b22065cc7b`.  By the pinned triage text classification, the remaining debt is **39 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `28 + 78 = 106` selected unique hashes.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 82 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
