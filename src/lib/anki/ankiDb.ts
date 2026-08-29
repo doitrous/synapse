@@ -272,7 +272,8 @@ function decksFromTable(db: Database): Record<string, AnkiDeck> {
     const did = asString(row.id)
     // Modern deck names use "\x1f" as the hierarchy separator internally; the
     // mapper flattens hierarchy anyway, so normalize it to Anki's "::" here.
-    decks[did] = { id: did, name: asString(row.name).replace(/\x1f/g, '::') }
+    // eslint-disable-next-line no-control-regex -- 0x1f is Anki's deck-hierarchy separator
+    decks[did] = { id: did, name: asString(row.name).replace(/\u001f/g, '::') }
   }
   return decks
 }
