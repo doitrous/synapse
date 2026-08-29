@@ -225,5 +225,13 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   scope and three are pending-only module additions, bringing eligible LCS-103 to 212/86/114
   and 5/31/78. Its status as tutorial/self-assessment evidence does not elevate it to a
   sitting exam; the external-bank totals remain separately 241/241/75 and 9/66/0.
-- Continue rank-5 `src_5328082a807132f5cb29` with source-first subject split, prompt/key
-  inventory and cross-family dedupe.
+- Eligible lower-authority quick revision `src_5328082a807132f5cb29` is now triaged: 19
+  systematically underlined keyed MCQs produce 10 source handles (1 live / 8 pending / 1 new).
+  Seven reuse eligible LCS scope; the three module additions are live hypertrophy promoted from
+  the external bank, pending isometric-versus-isotonic comparison, and new glucocorticoid-induced
+  osteoporosis, bringing eligible LCS-103 to 231/105/117 and 6/32/79. Q20–Q21's nine teaching
+  statements are not assessment prompts or auxiliary-note additions. This lower-authority revision
+  evidence does not elevate the source to a sitting exam; external-bank totals remain 241/241/75
+  and 9/66/0.
+- Continue rank-5 `src_23d4ed4d5e4f3f7c9764` with source-first prompt/key inventory and
+  cross-family dedupe.

@@ -1647,13 +1647,123 @@ The external-bank cumulative stays separately unchanged at
 Anatomy/Pathology notes and the two previously tracked malformed/unresolved items are also
 unchanged.
 
+## Family 16 — Loco-cordination 103 quick revision
+
+### Source identity, provenance and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_5328082a807132f5cb29` |
+| Manifest SHA-256 | `5328082a807132f5cb293ed83e5492fa1920ec89dfc511ad2258d87086a418e9` |
+| Recomputed SHA-256 | `5328082a807132f5cb293ed83e5492fa1920ec89dfc511ad2258d87086a418e9` |
+| File | `MCQs - College MCQs 103 quick revision with answers.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 quick revision with answers.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · All Subjects · Questions/MCQs · solved · tier 3 |
+| Source label | printed title `Loco-cordination 103` and closing credit `Dr.Noha Osama`; filename's `College MCQs` label is not an explicit `External` label |
+| Authority decision | eligible module-specific revision/self-assessment evidence, lower than a sitting or department exam; no institution is inferred beyond manifest provenance |
+| Paired-copy rule | manifest-preferred member of the three-file quick-revision pair/name-twin set; the two companion files are not separately counted |
+| Container | three-page, unencrypted, non-interactive 612 × 792 pt PDF with a native text layer |
+| Read method | all three pages rendered at 180 dpi and visually read source-first; native text used only to cross-check wording; no download |
+
+The opening instruction says to choose an answer from the following MCQs. Q1–Q19 each have
+exactly one digitally printed underline beneath an answer option. The filename says `with
+answers`, and the underlining is systematic, so these are **19 printed keys**: `1-d, 2-a,
+3-b, 4-c, 5-a, 6-c, 7-b, 8-c, 9-c, 10-c, 11-c, 12-c, 13-c, 14-c, 15-a, 16-a,
+17-c, 18-a, 19-c`. The underlined title and the underlined `Don't forget` headings on p. 3
+are formatting, not answer marks.
+
+Q20 and Q21 are numbered teaching reminders, not questions: they have no interrogative,
+response blank or option set. Q20 contributes six visible osteoporosis/calcium/osteoblast/
+osteoclast statements and Q21 contributes three potassium-disorder statements. These nine
+teaching statements remain outside assessment counts and outside the 50 Anatomy/Pathology
+image-note statements. Source wording such as `Loco-cordination`, `bone remolding`, `forum`,
+`kalemia` and `muscle weakens` is preserved without repair.
+
+### Page, assessment-type and subject inventory
+
+| Physical page | Visible source units | MCQ prompts | Printed keys | Teaching-only statements | Classification |
+|---:|---|---:|---:|---:|---|
+| 1 | Q1–Q6 | 6 | 6 | 0 | keyed assessment |
+| 2 | Q7–Q15 | 9 | 9 | 0 | keyed assessment |
+| 3 | Q16–Q19; numbered reminders Q20–Q21 | 4 | 4 | 9 | keyed assessment followed by teaching context |
+| **Family 16** | **all pages** | **19** | **19** | **9** | **eligible keyed revision MCQs; teaching kept separate** |
+
+At primary-subject grain, 16 assessment occurrences are Physiology (Q1–Q11, Q13 and
+Q16–Q19), one is integrated bone Pathology/Pharmacology (Q12), and two are
+neuromuscular Pharmacology (Q14–Q15). This is a source-first split of an `All Subjects`
+container, not a change to manifest placement. There is no practical, specimen, image,
+trace, table, completion item or stand-alone written assessment.
+
+There is no exact repeat within the source. Nine repeated concept assignments collapse 19
+occurrences to ten handles: Q1/Q17 share contraction-type comparison; Q2/Q6/Q8/Q9/Q19
+share skeletal coupling; Q3/Q4 share muscle-type comparison; Q7/Q10 share length–tension;
+and Q14/Q15/Q18 share neuromuscular transmission. Across families, Q3, Q5, Q7 and Q10 are
+exact or formatting-only repeats of Family-15 Q1, Q2, Q4 and Q6 respectively. Their prompt
+and key occurrences remain counted, but their accepted concepts do not re-enter the module
+delta.
+
+### One-to-one assignment, search and disposition ledger
+
+Every one of the 19 MCQs is assigned exactly once below. Each of the ten handles received
+one search in each required surface: live state (`server/data` and `src/data`), pending state
+(`docs/import-ready` and `docs/questions-import-ready`), every prior
+`docs/*-Source-Imports` lane, and accepted prior LCS. That is **10 × 4 = 40 required
+invocations**. Twelve narrower phrase and scope checks for the contraction, remodelling,
+smooth-muscle and hypertrophy ambiguities give **52 search invocations total**. Manifest
+snippets from the paired copies are provenance hits, not semantic coverage.
+
+| # | Prompt assignment → handle | Four-query bundle | Prior-LCS / external / corpus result | Disposition |
+|---:|---|---|---|---|
+| 1 | Q1,Q17 → `isometric-vs-isotonic-contraction-comparison` | `isometric isotonic`; `standing posture contraction`; `isotonic energy`; `mechanical efficiency muscle` | Live mechanical-muscle material has narrower facts, but not the keyed posture/energy comparison. Pending `103-BMS-physiology` owns the seven-property comparison, including posture, work, energy and efficiency. No prior-LCS or external-bank same-scope handle. | pending; new to eligible LCS |
+| 2 | Q2,Q6,Q8,Q9,Q19 → `skeletal-muscle-excitation-contraction-coupling` | `excitation contraction coupling`; `sarcoplasmic calcium removal`; `T tubule spread`; `troponin ryanodine receptor` | Exact accepted Family-3/15 handle; pending coupling material owns calcium release/reuptake, T-tubule propagation, troponin and ryanodine-channel scope. | pending; prior-LCS reuse |
+| 3 | Q3,Q4 → `muscle-type-physiology-comparison` | `involuntary muscle types`; `smooth skeletal comparison`; `smooth muscle fatigue`; `cardiac smooth involuntary` | Exact accepted Family-3/15 handle; pending comparison material owns action and fatigue resistance. Q3 is a cross-family repeat of Family-15 Q1. | pending; prior-LCS reuse |
+| 4 | Q5 → `smooth-muscle-contraction-regulation` | `calmodulin smooth muscle`; `MLCK`; `smooth contraction regulation`; `troponin calmodulin comparison` | Exact accepted Family-3/15 handle and cross-family repeat of Family-15 Q2; pending smooth-muscle material owns calmodulin–MLCK regulation. | pending; prior-LCS reuse |
+| 5 | Q7,Q10 → `skeletal-muscle-length-tension-relationship` | `skeletal length tension`; `initial muscle length`; `muscle length force`; `filament overlap tension` | Exact accepted Family-15 handle. Q7 states the positive relation and Q10 negates it; both are cross-family repeats of Family-15 Q4/Q6 and collapse semantically here. | pending; prior-LCS reuse |
+| 6 | Q11 → `nerve-action-potential` | `absolute refractory period`; `sodium channel inactivation`; `normal increased excitability`; `nerve action potential phases` | Exact accepted Family-3 handle; pending action-potential material owns the absolute-refractory sodium-inactivation mechanism. | pending; prior-LCS reuse |
+| 7 | Q12 → `glucocorticoid-induced-osteoporosis` | `cortisone osteoporosis`; `glucocorticoid bone loss`; `bone remodelling steroid`; `osteoporosis calcitonin` | Prior LCS and pending records own narrower remodelling, demographic-risk and calcitonin fragments, but no substantive live, pending, external-bank or prior-LCS record owns the steroid-induced osteoporosis scope tested by the printed `c` key. | new; new to eligible LCS |
+| 8 | Q13 → `visceral-smooth-muscle-properties` | `single unit smooth muscle`; `multiple unit innervation`; `smooth muscle gap junctions`; `visceral smooth muscle` | Exact accepted Family-3 handle already owns single-unit syncytial spread and gap-junction behaviour; Family-15 teaching context adds no separate tested concept. | pending; prior-LCS reuse |
+| 9 | Q14,Q15,Q18 → `neuromuscular-junction-transmission` | `motor end plate nicotinic`; `acetylcholine receptor blocker`; `presynaptic calcium channel`; `neurotransmitter release muscle` | Exact accepted Family-3 handle; pending NMJ material owns nicotinic-receptor activation/blockade and presynaptic calcium-dependent transmitter release. | pending; prior-LCS reuse |
+| 10 | Q16 → `skeletal-muscle-hypertrophy-existing-fiber-enlargement` | `skeletal muscle hypertrophy`; `exercise enlarges existing fibers`; `weight training muscle mass`; `fiber size versus number` | Exact Family-14 external-bank handle and substantive live concept `CON-MSK-0BE756765378A6` state that exercise enlarges existing fibres. This eligible prompt promotes the scope into eligible LCS totals without altering the external bank. | live; new to eligible LCS, external-bank overlap |
+
+Source-disposition arithmetic is **1 live + 8 pending + 1 new = 10** handles. Module
+novelty is a separate dimension: seven handles reuse eligible prior-LCS tested scope and
+three are new to eligible totals. Those three resolve as one live hypertrophy handle, one
+pending contraction-comparison handle and one new glucocorticoid-osteoporosis handle.
+
+### Family-16 checkpoint and cumulative LCS-103 delta
+
+| Family-16 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS handle reuse | 15 | 15 | 7 | 0 | 0 | 0 | 0 |
+| New-to-eligible pending comparison | 2 | 2 | 1 | 1 | 0 | 1 | 0 |
+| External-bank handle promoted by eligible evidence | 1 | 1 | 1 | 1 | 1 | 0 | 0 |
+| New corpus handle | 1 | 1 | 1 | 1 | 0 | 0 | 1 |
+| **Family 16 assessment** | **19** | **19** | **10** | **3** | **1** | **1** | **1** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 15 | 212 | 86 | 114 | 5 | 31 | 78 |
+| Family 16 net delta | +19 | +19 | +3 | +1 | +1 | +1 |
+| **LCS-103 cumulative after Family 16** | **231** | **105** | **117** | **6** | **32** | **79** |
+
+Arithmetic checks: `6 + 9 + 4 = 19` MCQs and printed keys; `19 - 9 repeated concept
+assignments = 10` source handles; `7 prior eligible + 3 new to eligible = 10`; `1 + 8 + 1
+= 10`; `212 + 19 = 231`; `86 + 19 = 105`; `114 + 3 = 117`; and `6 + 32 + 79 =
+117`. The explicit external-bank checkpoint stays separately unchanged at `241 prompts /
+241 keys / 75 handles = 9 live / 66 pending / 0 new`. The 50 Anatomy/Pathology auxiliary
+notes, Family 3's unresolved crop and Family 5's malformed note also remain unchanged. The
+nine Family-16 teaching statements are separately reported context, not assessment or
+auxiliary-note delta.
+
 ## Exact next debt
 
-- Rank-5 Physiology tutorial `src_103bc8809c3045ada51d` is fully inventoried as eligible,
-  lower-authority tutorial/self-assessment evidence rather than a sitting exam.
-- The next named rank-5 local source is `src_5328082a807132f5cb29`,
-  `MCQs - College MCQs 103 quick revision with answers.pdf` (3 pages, solved, native-text,
-  tier 3, preferred member of its paired/twin set). It requires source-first subject split,
-  prompt/key inventory and cross-family dedupe.
+- The two named rank-5 solved tutorial/revision sources are fully inventoried as eligible,
+  lower-authority evidence; the two non-preferred quick-revision companions remain excluded
+  from additive counts unless a later reconciliation proves unique source material.
+- The next evidence-ranked local rank-5 source is `src_23d4ed4d5e4f3f7c9764`,
+  `MCQs - College MCQs LCS Q-BANK (PATHO).pdf` (37 pages, native text, tier 3). Its manifest
+  first-page snippet identifies `LCS QUESTIONS BANK` / `Dr. Hebatallah Amin`,
+  making it the next direct, non-external Pathology question-bank family for source-first
+  prompt/key review.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.
