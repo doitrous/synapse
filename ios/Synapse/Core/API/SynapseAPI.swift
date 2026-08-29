@@ -128,10 +128,30 @@ struct SynapseAPI {
     static let log = Logger(subsystem: "com.synapse.app", category: "api")
 
     #if DEBUG
+    /// Debug diagnostics the sign-in screen surfaces. Written from `send` on
+    /// whatever thread `URLSession` resumes on, and from the token provider —
+    /// and the screens that fan out reads (Adaptive study loads six, Billing
+    /// six, Question Bank four, Flashcards two) drive several `send` calls at
+    /// once. A bare `nonisolated(unsafe) static var String?` was then assigned
+    /// from two threads simultaneously: overwriting the `Optional<String>`
+    /// releases the previous value's buffer, and two threads releasing it at
+    /// once double-freed it — the intermittent `_swift_release_dealloc` crash
+    /// reported from `send`/`get`. Every access goes through a lock, the same
+    /// pattern `StubProtocol` and `Box` already use for shared static state.
+    private static let diagnosticsLock = NSLock()
+    nonisolated(unsafe) private static var _lastDiagnostic: String?
+    nonisolated(unsafe) private static var _lastTokenError: String?
+
     /// What the last request did, for a debug build to show on screen.
-    nonisolated(unsafe) static var lastDiagnostic: String?
+    static var lastDiagnostic: String? {
+        get { diagnosticsLock.lock(); defer { diagnosticsLock.unlock() }; return _lastDiagnostic }
+        set { diagnosticsLock.lock(); defer { diagnosticsLock.unlock() }; _lastDiagnostic = newValue }
+    }
     /// Why reading the access token failed, if it did.
-    nonisolated(unsafe) static var lastTokenError: String?
+    static var lastTokenError: String? {
+        get { diagnosticsLock.lock(); defer { diagnosticsLock.unlock() }; return _lastTokenError }
+        set { diagnosticsLock.lock(); defer { diagnosticsLock.unlock() }; _lastTokenError = newValue }
+    }
     #endif
 
     private let baseURL: URL
