@@ -98,3 +98,11 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   anatomy/pathology assessment images. Tutorial 103, printed pp. 256–262 in the BMS-102
   pathology-bank PDF, is LCS-103 evidence: 33 raw prompts (19 MCQ, 14
   written/completion/table) and no visibly printed answer marks.
+- Cropped physiology excerpts `src_414df0f15610aa4232f0` now add 16 observed numbered
+  records: 15 complete MCQs and one incomplete phase-4 diagram stem. Handwritten ticks,
+  circles and underlines are not printed keys, so the source adds zero keys. Nine resolved
+  physiology concepts are all scope-proven pending; the incomplete stem is preserved as one
+  unresolved evidence handle and excluded from concept totals.
+- LCS-103 Families 1–3 now total 168 observed prompts, 75 printed keys and 82 resolved
+  tested concepts: 4 live, 25 pending and 53 new. Continue the five anatomy assessment
+  images, then pathology assessment images and Tutorial 103; this remains S1 evidence only.

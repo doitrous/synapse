@@ -282,16 +282,129 @@ Arithmetic checks: `15 prior + 14 new-to-LCS = 29`; `0 + 5 + 9 = 14`; `59 + 14 =
 observed source occurrences; collapsing the two exact repeats yields `152 - 2 = 150` unique
 prompt forms across these two families because Family 1 had no exact repeated prompt.
 
+## Family 3 — physiology previous-exam scan excerpts
+
+### Source identity and read method
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_414df0f15610aa4232f0` |
+| Manifest SHA-256 | `414df0f15610aa4232f058ba5e2c9fae747cbecc9ecbbf210f2f2a45a0c47cde` |
+| Recomputed SHA-256 | `414df0f15610aa4232f058ba5e2c9fae747cbecc9ecbbf210f2f2a45a0c47cde` |
+| File | `physio previous exams.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Physiology/Assessments/Exams/physio previous exams.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Physiology · Assessments/Exams |
+| Container | four unencrypted A4 PDF pages; each page is a cropped scan with a CamScanner watermark |
+| Text-layer finding | `pdftotext -layout` returns only the four CamScanner watermarks; the assessment content is image-only despite the manifest's native-text flag |
+| Read method | all four pages rendered at 220 dpi and read visually, source-first |
+
+These are four cropped excerpts, not four complete exam sheets. The source shows sporadic
+diagonal ticks, circles and underlines in pencil/pen on some questions and options. They are
+non-typeset annotations, do not appear for every row and are not accompanied by an answer
+table or printed solution legend. Consequently **zero printed keys** are recovered; no mark is
+promoted to a key and no answer is inferred from physiology knowledge.
+
+### Exact prompt inventory
+
+| Physical page | Visible numbered evidence | Complete MCQs | Truncated numbered stems | Printed keys |
+|---:|---|---:|---:|---:|
+| 1 | Q26 neuromuscular transmission; Q27 skeletal excitation–contraction coupling; Q28 repolarisation | 3 | 0 | 0 |
+| 2 | Model A Q23 protein shared by smooth/striated muscle; Q24 visceral smooth muscle; Q25 phase-[4] diagram stem | 2 | 1 | 0 |
+| 3 | Q18 miniature end-plate potential; Q19 resting membrane potential; Q20 nerve action potential; Q21 myasthenia drug mechanism; Q22 skeletal excitation–contraction coupling | 5 | 0 | 0 |
+| 4 | Q15 curare at the neuromuscular junction; Q16 sodium-conductance event; Q17 skeletal excitation–contraction coupling; Q18 enzyme opposing smooth-muscle contraction; Q19 cross-muscle property | 5 | 0 | 0 |
+| **Family 3** |  | **15** | **1** | **0** |
+
+Arithmetic: `3 + 3 + 5 + 5 = 16` observed numbered prompt records, of which `15` are
+complete MCQs and `1` is a truncated stem. Page 2 Q25 reads “In the diagram below, which
+statement is true about phase [4]?” but the diagram and complete option set fall outside that
+crop. An orphan option-`d` tail above page 1 Q26 may continue Q25, but it does not make the
+item answerable. Q25 remains an observed prompt record and unresolved evidence debt, not a
+mintable concept. The orphan fragments above page 1 Q26 and page 3 Q18 are not separately
+numbered prompts and are not counted. The source has no exact repeated prompt; reused numbers
+on different scan excerpts carry different stems.
+
+Source defects are retained rather than repaired: page 1 Q28 option `d` ends “appearance of
+response”; page 3 Q22 prints the length threshold as `2.2μ`; page 4 Q19 begins with the
+grammatically incomplete “A property shared by:”; and page 2 Q25 lacks its defining figure
+and choices. The ledger records only what is visible.
+
+### Prompt-to-handle assignment ledger
+
+Every numbered prompt occurrence is assigned exactly once. `unresolved-phase-4-diagram` is
+an evidence handle only; it is excluded from tested-concept arithmetic until its missing
+diagram/options are recovered from another authorised local source.
+
+| Evidence | One-to-one assignments in source order |
+|---|---|
+| Physical p. 1 · Q26–Q28 | `Q26→neuromuscular-junction-transmission`; `Q27→skeletal-muscle-excitation-contraction-coupling`; `Q28→nerve-action-potential` |
+| Physical p. 2 · Q23–Q25 | `Q23→muscle-type-physiology-comparison`; `Q24→visceral-smooth-muscle-properties`; `Q25→unresolved-phase-4-diagram` |
+| Physical p. 3 · Q18–Q22 | `Q18→miniature-endplate-potential`; `Q19→resting-membrane-potential`; `Q20→nerve-action-potential`; `Q21→neuromuscular-junction-transmission`; `Q22→skeletal-muscle-excitation-contraction-coupling` |
+| Physical p. 4 · Q15–Q19 | `Q15→neuromuscular-junction-transmission`; `Q16→membrane-sodium-conductance-events`; `Q17→skeletal-muscle-excitation-contraction-coupling`; `Q18→smooth-muscle-contraction-regulation`; `Q19→muscle-type-physiology-comparison` |
+
+The 15 complete prompts collapse to **9 resolved tested-concept handles**: three
+neuromuscular-junction prompts collapse to one, three skeletal coupling prompts to one, two
+nerve-action-potential prompts to one, and two muscle-comparison prompts to one. That is
+`15 - 9 = 6` repeated concept assignments. Adding the one unresolved evidence handle gives
+`9 + 1 = 10` source handles for all 16 numbered records.
+
+### Search-before-mint register and semantic dispositions
+
+All ten handles received four required searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root, and the accepted prior-LCS
+ledger: **10 × 4 = 40 required invocations**. Fifteen follow-ups (`T-tubules`,
+`sarcoplasmic reticulum`, `troponin C`, `cross-bridge`, `smooth muscle`, `single-unit`,
+`gap junction`, `calmodulin`, `miniature end-plate`, `end-plate potential`, `Na+`,
+`myosin light-chain kinase`, `MLCK`, `myosin phosphatase`, `Rho-kinase`) resolved punctuation
+and hyphen variants, for **55 invocations total**. There is no prior-LCS physiology handle in
+Families 1–2; all nine resolved handles are new to LCS-103 but already pending elsewhere.
+
+| # | Handle / evidence | Four required queries | Same-idea/same-scope result | Disposition | Placement if new |
+|---:|---|---|---|---|---|
+| 1 | `neuromuscular-junction-transmission` · p1Q26, p3Q21, p4Q15 | `neuromuscular junction`; `neuromuscular transmission`; `curare acetylcholine`; `acetylcholinesterase myasthenia` | Pending Kasr concepts/articles own the presynaptic-calcium → acetylcholine → end-plate → acetylcholinesterase sequence, transmission properties and drug classes. | pending | — |
+| 2 | `skeletal-muscle-excitation-contraction-coupling` · p1Q27, p3Q22, p4Q17 | `excitation contraction coupling`; `skeletal muscle calcium coupling`; `T tubule calcium release`; `troponin tropomyosin cross bridge` | Hyphen-aware follow-ups find the pending Kasr coupling article and concept: T-tubule depolarisation, SR calcium, troponin C, tropomyosin and ATP-dependent cross-bridge cycling. | pending | — |
+| 3 | `nerve-action-potential` · p1Q28, p3Q20 | `nerve action potential`; `action potential repolarization`; `sodium activation potassium channel`; `absolute refractory period` | Pending Kasr article/concepts own the ionic phases, repolarisation and absolute refractory period. | pending | — |
+| 4 | `muscle-type-physiology-comparison` · p2Q23, p4Q19 | `skeletal smooth muscle comparison`; `cardiac smooth skeletal muscle`; `muscle type shared properties`; `actin smooth striated` | Pending Kasr skeletal/cardiac/smooth comparison record can absorb the shared-protein and shared-property prompts. | pending | — |
+| 5 | `visceral-smooth-muscle-properties` · p2Q24 | `visceral smooth muscle`; `single unit smooth muscle`; `smooth muscle gap junctions`; `smooth muscle stretch contraction` | Pending Kasr smooth-muscle article owns single-unit syncytial spread, gap junctions, stretch response and slow-wave behaviour. | pending | — |
+| 6 | `unresolved-phase-4-diagram` · p2Q25 | `which statement is true about phase 4`; `diagram phase 4`; `phase four physiology`; `action potential phase 4` | No same-scope hit, but the missing diagram/options prevent semantic identification. This is not safe to mint or place. | unresolved | — |
+| 7 | `miniature-endplate-potential` · p3Q18 | `miniature endplate potential`; `miniature end plate potential`; `spontaneous acetylcholine quantum`; `single receptor ion channel endplate` | Hyphen-aware follow-up finds the pending Kasr concept defining the spontaneous depolarisation from one acetylcholine vesicle at rest. | pending | — |
+| 8 | `resting-membrane-potential` · p3Q19 | `resting membrane potential`; `nerve resting potential`; `selective sodium potassium permeability`; `membrane potential excitability` | Pending Kasr/AU concepts own definition and selective-ion-permeability mechanism; the one live diffusion fact is narrower. | pending | — |
+| 9 | `membrane-sodium-conductance-events` · p4Q16 | `sodium conductance`; `sodium permeability membrane`; `end plate potential sodium`; `sodium conductance action potential` | Pending Kasr nerve-action-potential and neuromuscular-transmission material owns sodium influx and the cationic end-plate potential; extend the comparison rather than mint. | pending | — |
+| 10 | `smooth-muscle-contraction-regulation` · p4Q18 | `smooth muscle contraction regulation`; `myosin phosphatase smooth muscle`; `myosin light chain kinase`; `Rho kinase smooth muscle` | Pending Kasr smooth-muscle article explicitly gives calcium–calmodulin–MLCK activation and myosin-phosphatase dephosphorylation/relaxation. | pending | — |
+
+### Family-3 checkpoint and cumulative LCS-103 delta
+
+| Family-3 bucket | Resolved tested concepts | Live | Pending | New | Unresolved evidence handles |
+|---|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 0 | 0 | 0 | 0 | 0 |
+| New-to-LCS resolved handles | 9 | 0 | 9 | 0 | 0 |
+| Cropped evidence not semantically placeable | 0 | 0 | 0 | 0 | 1 |
+| **Family 3** | **9** | **0** | **9** | **0** | **1** |
+
+Net module delta is **+16 observed prompt records, +0 printed keys, +9 resolved distinct
+concepts = +0 live, +9 pending, +0 new**, plus one unresolved crop handle that does not enter
+concept totals.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 2 | 152 | 75 | 73 | 4 | 16 | 53 |
+| Family 3 net delta | +16 | +0 | +9 | +0 | +9 | +0 |
+| **LCS-103 cumulative after Family 3** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `9 pending + 1 unresolved = 10` source handles; `15 complete - 6 repeated
+concept assignments = 9` resolved concepts; `73 + 9 = 82`; `4 + 25 + 53 = 82`;
+`152 + 16 = 168`; `75 + 0 = 75`. Because Family 3 has no exact repeated prompt, the
+cross-family unique-form count becomes `150 + 16 = 166`, including the one truncated form.
+
 ## Exact next debt
 
-- The next untriaged actual-assessment PDF is `src_414df0f15610aa4232f0`, `physio previous
-  exams.pdf` (four pages). Its rendered prompt/key count, repeat collapse and semantic search
-  remain wholly outside this checkpoint.
-- Eight local quiz-content images remain in the actual-assessment lane: Anatomy
+- The next untriaged actual-assessment family is the five local Anatomy quiz-content images:
   `src_773a3d8e00f38cedff12`, `src_2da654a75a9d236de8a7`,
-  `src_9b509a75a7e648219f37`, `src_5bb02d6293fb60233949`,
-  `src_086eb3c89677239baa74`; Pathology `src_4ee3e3e63fa0804576fb`,
-  `src_e8309c2953d770051cf0`, `src_758188828699ae3569f4`. Their content counts and key
+  `src_9b509a75a7e648219f37`, `src_5bb02d6293fb60233949`, and
+  `src_086eb3c89677239baa74`. Their rendered prompt/key count, repeat collapse and semantic
+  search remain wholly outside this checkpoint.
+- The three local Pathology quiz-content images in the actual-assessment lane,
+  `src_4ee3e3e63fa0804576fb`, `src_e8309c2953d770051cf0`, and
+  `src_758188828699ae3569f4` remain after the Anatomy images. Their content counts and key
   status have not yet been claimed.
 - Pathology `TUTORIAL 103` is explicitly LCS-103 evidence even though it resides in the
   BMS-102 department-bank PDF `src_88169dc9b6ad00181a0d`. Printed pp. 256–262 (physical
