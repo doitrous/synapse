@@ -569,3 +569,252 @@ Cumulative arithmetic is `157 + 58 = 215` observed prompts, `1 + 30 = 31` printe
 - Tutorial 103/LCS material remains explicitly excluded from this lane. No S2 content,
   IDs, imports, catalogue changes, or readiness claims are authorised without literal
   `TRIAGE APPROVED` from `/root`.
+
+## Family 4 — pathology continuous assessment, Neoplasia 4 solved/unsolved pair
+
+### Source selection, identity, and page boundary
+
+After the Tutorial 102 department-book pages and the Circulatory 2 assessment pair were
+bounded, the next exam-paper-first local family is the tier-3 Neoplasia 4 continuous-
+assessment pair. The unsolved copy contributes an exact duplicate of the first 40
+questions in the solved companion; the solved companion then adds a separate 30-question
+Tumor Growth and Kinetics / angiogenesis / progression / host-response / tumour-antigen
+block. No Tutorial 103 or LCS-owned source is included.
+
+| Copy | Manifest source | Manifest and recomputed SHA-256 | Native pages | Source status |
+|---|---|---|---:|---|
+| Unsolved | `src_e1aac4e34bf9379bb178` | `e1aac4e34bf9379bb178edcc7d328b96ed8ca5f49ac912cf010ab240e42433d6` | 9 | Pathology · Questions/MCQs · tier 3; 40 prompts, no printed keys |
+| Solved | `src_83c77a2c46ce746c1981` | `83c77a2c46ce746c19816a5f4b67b99adc035c61691b3f32c1c5090ccaef4961` | 16 | Paired answer copy; `solvedCopy: true`; 70 prompts and 70 printed keys |
+
+All 25 native pages were rendered at 150 dpi and read visually, with native extraction
+used only to check transcription. A few question-number glyphs are clipped or absent
+(unsolved A1; both copies B1, B11, and B13), but the ordered stems, option blocks, answer
+lines, and section boundaries make the 10 + 30 + 30 structure unambiguous.
+
+### Source-assignment ledger and printed keys
+
+`F4-A` is the first specific 10-question block in the solved copy, `F4-B` the following
+30-question paraphrase/general block, and `F4-C` the separate marked 30-question block.
+`F4-UA` and `F4-UB` are the exact unsolved-copy occurrences. Every retained record maps
+to one search handle. Sixteen retained records collapse at identical tested scope only
+after assignment: B01–B10 into A01–A10; C03 into A02/B02; C16 into B11; B22 into B13;
+C18 into B25; C26 into C01; and C27 into C05.
+
+| Ref | Observed prompt scope | Source-first assignment | Printed key |
+|---|---|---|---|
+| F4-A01 | FAP mutation | retain → `fap-apc-cell-cycle-control` | APC |
+| F4-A02 | Limitless replication hallmark | retain → `telomerase-limitless-replication` | telomerase |
+| F4-A03 | Small-cell lung/neuroendocrine oncogene | retain → `small-cell-lung-myc-cell-cycle` | MYC |
+| F4-A04 | Late suppressor loss in colon progression | retain → `colon-cancer-late-tp53-apoptosis` | TP53 |
+| F4-A05 | Malignancy associated with chronic HBV | retain → `hepatitis-b-hepatocellular-carcinoma` | hepatocellular carcinoma |
+| F4-A06 | Process promoted by VEGF | retain → `tumor-angiogenic-factor-process` | angiogenesis |
+| F4-A07 | Burkitt lymphoma alteration | retain → `burkitt-lymphoid-translocation-proliferation` | t(8;14) |
+| F4-A08 | Li-Fraumeni tumour spectrum | retain → `li-fraumeni-soft-tissue-breast-cancers` | sarcomas and breast cancers |
+| F4-A09 | Consequence of E-cadherin loss | retain → `adhesion-loss-metastatic-potential` | increased metastatic potential |
+| F4-A10 | Malignancy associated with BCL2 overexpression | retain → `bcl2-follicular-lymphoma` | follicular lymphoma |
+| F4-B01 | FAP condition mechanism | retain; collapse → `fap-apc-cell-cycle-control` | mutations affecting cell-cycle control |
+| F4-B02 | Enzyme class enabling limitless replication | retain; collapse → `telomerase-limitless-replication` | enzymes maintaining chromosome ends |
+| F4-B03 | Small-cell lung pathway | retain; collapse → `small-cell-lung-myc-cell-cycle` | cell-cycle dysregulation |
+| F4-B04 | Late colon-progression function loss | retain; collapse → `colon-cancer-late-tp53-apoptosis` | control of programmed cell death |
+| F4-B05 | Chronic viral hepatitis malignancy | retain; collapse → `hepatitis-b-hepatocellular-carcinoma` | liver cancer |
+| F4-B06 | Process driven by angiogenic factors | retain; collapse → `tumor-angiogenic-factor-process` | angiogenesis |
+| F4-B07 | Aggressive lymphoid malignancy mechanism | retain; collapse → `burkitt-lymphoid-translocation-proliferation` | chromosomal translocations causing proliferation |
+| F4-B08 | Inherited syndrome tumour combination | retain; collapse → `li-fraumeni-soft-tissue-breast-cancers` | soft-tissue and breast cancers |
+| F4-B09 | Consequence of tumour-cell adhesion loss | retain; collapse → `adhesion-loss-metastatic-potential` | increased metastatic potential |
+| F4-B10 | Excess anti-apoptotic protein malignancy | retain; collapse → `bcl2-follicular-lymphoma` | blood cancer |
+| F4-B11 | Immune cell that detects and eliminates tumour cells | retain → `cytotoxic-lymphocyte-tumor-killing` | cytotoxic lymphocytes |
+| F4-B12 | Receptor-blocker resistance mechanism | retain → `targeted-therapy-bypass-resistance` | alternative signalling pathways |
+| F4-B13 | Tumour avoidance of immune detection | retain → `immune-checkpoint-tumor-evasion` | immune-checkpoint upregulation |
+| F4-B14 | Process enabling invasion and metastasis | retain → `extracellular-matrix-degradation-metastasis` | extracellular-matrix degradation |
+| F4-B15 | TKI-resistance mechanism | retain → `tyrosine-kinase-inhibitor-secondary-mutation-resistance` | secondary mutations |
+| F4-B16 | EMT-associated characteristic | retain → `emt-apoptosis-resistance` | resistance to apoptosis |
+| F4-B17 | Cancer-cachexia mechanism | retain → `cancer-cachexia-systemic-catabolism` | systemic inflammation and catabolism |
+| F4-B18 | Hereditary-cancer-syndrome basis | retain → `hereditary-cancer-germline-tumor-suppressors` | germline tumour-suppressor mutations |
+| F4-B19 | Trigger for tumour angiogenesis | retain → `hypoxia-driven-tumor-angiogenesis` | decreased oxygen / hypoxia |
+| F4-B20 | Basis of genomic instability | retain → `dna-repair-loss-genomic-instability` | impaired DNA repair |
+| F4-B21 | Defining malignant-versus-benign feature | retain → `malignant-versus-benign-invasion` | invasion |
+| F4-B22 | Resistance to immune-mediated destruction | retain; collapse → `immune-checkpoint-tumor-evasion` | checkpoint molecules |
+| F4-B23 | Treatment for a mutation-driven tumour | retain → `mutation-targeted-therapy-selection` | targeted therapy |
+| F4-B24 | Tumour-suppressor function | retain → `tumor-suppressor-protein-function` | prevent uncontrolled growth |
+| F4-B25 | Microenvironmental immune suppression | retain → `immunosuppressive-cytokine-tumor-escape` | immunosuppressive cytokines |
+| F4-B26 | Dormant tumour-cell survival | retain → `tumor-dormancy-low-metabolism` | decreased metabolic activity |
+| F4-B27 | Primary EMT function | retain → `emt-promotes-metastasis` | metastasis |
+| F4-B28 | Targeting cancer metabolism | retain → `glycolysis-targeted-cancer-metabolism` | block glycolysis |
+| F4-B29 | HIF metabolic effect | retain → `hif-glycolytic-enzyme-upregulation` | upregulates glycolytic enzymes |
+| F4-B30 | Cancer-stem-cell recurrence mechanism | retain → `cancer-stem-cell-treatment-resistance-recurrence` | chemotherapy/radiation resistance |
+| F4-C01 | Cancer initiation | retain → `cancer-initiation-irreversible-dna-damage` | irreversible genetic changes |
+| F4-C02 | Cancer promotion | retain → `tumor-promotion-clonal-expansion` | clonal expansion |
+| F4-C03 | Mechanism of cellular immortality | retain; collapse → `telomerase-limitless-replication` | telomerase |
+| F4-C04 | Growth-fraction definition | retain → `tumor-growth-fraction-definition` | percentage of proliferating tumour cells |
+| F4-C05 | Consequence of high growth fraction | retain → `growth-fraction-chemotherapy-sensitivity` | increased chemotherapy sensitivity |
+| F4-C06 | Least contributor to decreased tumour-cell loss | retain → `tumor-cell-loss-factor-exception` | Bcl2 overexpression |
+| F4-C07 | Factor not directly influencing doubling time | retain → `tumor-doubling-time-determinants` | angiogenesis |
+| F4-C08 | Tumour-heterogeneity definition | retain → `tumor-heterogeneity-definition` | genetic and phenotypic variability |
+| F4-C09 | Maximum avascular tumour size | retain → `avascular-tumor-size-limit-2mm` | 2 mm |
+| F4-C10 | Tumour-cell angiogenic factor | retain → `fgf-tumor-angiogenic-factor` | FGF |
+| F4-C11 | Macrophage-secreted angiogenic factor | retain → `macrophage-tgf-alpha-tumor-angiogenesis` | TGF-alpha |
+| F4-C12 | Why angiogenesis is critical | retain → `angiogenesis-oxygen-nutrient-supply` | oxygen and nutrient supply |
+| F4-C13 | Tumour-progression definition | retain → `tumor-progression-acquired-malignant-characteristics` | acquired malignant characteristics over time |
+| F4-C14 | Cause of tumour heterogeneity | retain → `mutation-accumulation-tumor-heterogeneity` | mutation accumulation |
+| F4-C15 | Gene loss causing genetic instability | retain → `p53-loss-genetic-instability` | p53 |
+| F4-C16 | Cell responsible for direct tumour killing | retain; collapse → `cytotoxic-lymphocyte-tumor-killing` | cytotoxic T lymphocyte |
+| F4-C17 | Innate antitumour cell | retain → `natural-killer-innate-antitumor-immunity` | natural killer cell |
+| F4-C18 | Tumour immune-escape mechanism | retain; collapse → `immunosuppressive-cytokine-tumor-escape` | TGF-beta secretion |
+| F4-C19 | Evidence for immune surveillance | retain → `spontaneous-regression-immune-surveillance` | spontaneous tumour regression |
+| F4-C20 | Exception among antitumour effectors | retain → `antitumor-effector-mechanisms-exception` | neutrophils |
+| F4-C21 | Antigen exclusive to tumour cells | retain → `tumor-specific-antigen-exclusivity` | tumour-specific antigen |
+| F4-C22 | Antigen on tumour and some normal cells | retain → `tumor-associated-antigen-normal-tumor-expression` | tumour-associated antigen |
+| F4-C23 | Marker in normal and neoplastic prostate | retain → `psa-normal-neoplastic-prostate` | PSA |
+| F4-C24 | Tumour associated with elevated AFP | retain → `afp-hepatocellular-carcinoma` | hepatocellular carcinoma |
+| F4-C25 | Tumour monitored with CEA | retain → `cea-colon-cancer-monitoring` | colon adenocarcinoma |
+| F4-C26 | Initiation-stage transformation | retain; collapse → `cancer-initiation-irreversible-dna-damage` | DNA damage |
+| F4-C27 | Chemotherapy-resistant growth pattern | retain; collapse → `growth-fraction-chemotherapy-sensitivity` | low growth fraction |
+| F4-C28 | Mechanism reducing apoptosis | retain → `bcl2-reduced-tumor-cell-loss-apoptosis` | Bcl2 overexpression |
+| F4-C29 | Final stage in tumour progression | retain → `metastasis-final-stage` | metastasis |
+| F4-C30 | Unchecked replication despite DNA damage | retain → `p53-inactivation-dna-damage-checkpoint` | p53 inactivation |
+| F4-UA01 | Exact unsolved copy of solved A01 | cross-copy wording repeat → F4-A01; exclude | none |
+| F4-UA02 | Exact unsolved copy of solved A02 | cross-copy wording repeat → F4-A02; exclude | none |
+| F4-UA03 | Exact unsolved copy of solved A03 | cross-copy wording repeat → F4-A03; exclude | none |
+| F4-UA04 | Exact unsolved copy of solved A04 | cross-copy wording repeat → F4-A04; exclude | none |
+| F4-UA05 | Exact unsolved copy of solved A05 | cross-copy wording repeat → F4-A05; exclude | none |
+| F4-UA06 | Exact unsolved copy of solved A06 | cross-copy wording repeat → F4-A06; exclude | none |
+| F4-UA07 | Exact unsolved copy of solved A07 | cross-copy wording repeat → F4-A07; exclude | none |
+| F4-UA08 | Exact unsolved copy of solved A08 | cross-copy wording repeat → F4-A08; exclude | none |
+| F4-UA09 | Exact unsolved copy of solved A09 | cross-copy wording repeat → F4-A09; exclude | none |
+| F4-UA10 | Exact unsolved copy of solved A10 | cross-copy wording repeat → F4-A10; exclude | none |
+| F4-UB01 | Exact unsolved copy of solved B01 | cross-copy wording repeat → F4-B01; exclude | none |
+| F4-UB02 | Exact unsolved copy of solved B02 | cross-copy wording repeat → F4-B02; exclude | none |
+| F4-UB03 | Exact unsolved copy of solved B03 | cross-copy wording repeat → F4-B03; exclude | none |
+| F4-UB04 | Exact unsolved copy of solved B04 | cross-copy wording repeat → F4-B04; exclude | none |
+| F4-UB05 | Exact unsolved copy of solved B05 | cross-copy wording repeat → F4-B05; exclude | none |
+| F4-UB06 | Exact unsolved copy of solved B06 | cross-copy wording repeat → F4-B06; exclude | none |
+| F4-UB07 | Exact unsolved copy of solved B07 | cross-copy wording repeat → F4-B07; exclude | none |
+| F4-UB08 | Exact unsolved copy of solved B08 | cross-copy wording repeat → F4-B08; exclude | none |
+| F4-UB09 | Exact unsolved copy of solved B09 | cross-copy wording repeat → F4-B09; exclude | none |
+| F4-UB10 | Exact unsolved copy of solved B10 | cross-copy wording repeat → F4-B10; exclude | none |
+| F4-UB11 | Exact unsolved copy of solved B11 | cross-copy wording repeat → F4-B11; exclude | none |
+| F4-UB12 | Exact unsolved copy of solved B12 | cross-copy wording repeat → F4-B12; exclude | none |
+| F4-UB13 | Exact unsolved copy of solved B13 | cross-copy wording repeat → F4-B13; exclude | none |
+| F4-UB14 | Exact unsolved copy of solved B14 | cross-copy wording repeat → F4-B14; exclude | none |
+| F4-UB15 | Exact unsolved copy of solved B15 | cross-copy wording repeat → F4-B15; exclude | none |
+| F4-UB16 | Exact unsolved copy of solved B16 | cross-copy wording repeat → F4-B16; exclude | none |
+| F4-UB17 | Exact unsolved copy of solved B17 | cross-copy wording repeat → F4-B17; exclude | none |
+| F4-UB18 | Exact unsolved copy of solved B18 | cross-copy wording repeat → F4-B18; exclude | none |
+| F4-UB19 | Exact unsolved copy of solved B19 | cross-copy wording repeat → F4-B19; exclude | none |
+| F4-UB20 | Exact unsolved copy of solved B20 | cross-copy wording repeat → F4-B20; exclude | none |
+| F4-UB21 | Exact unsolved copy of solved B21 | cross-copy wording repeat → F4-B21; exclude | none |
+| F4-UB22 | Exact unsolved copy of solved B22 | cross-copy wording repeat → F4-B22; exclude | none |
+| F4-UB23 | Exact unsolved copy of solved B23 | cross-copy wording repeat → F4-B23; exclude | none |
+| F4-UB24 | Exact unsolved copy of solved B24 | cross-copy wording repeat → F4-B24; exclude | none |
+| F4-UB25 | Exact unsolved copy of solved B25 | cross-copy wording repeat → F4-B25; exclude | none |
+| F4-UB26 | Exact unsolved copy of solved B26 | cross-copy wording repeat → F4-B26; exclude | none |
+| F4-UB27 | Exact unsolved copy of solved B27 | cross-copy wording repeat → F4-B27; exclude | none |
+| F4-UB28 | Exact unsolved copy of solved B28 | cross-copy wording repeat → F4-B28; exclude | none |
+| F4-UB29 | Exact unsolved copy of solved B29 | cross-copy wording repeat → F4-B29; exclude | none |
+| F4-UB30 | Exact unsolved copy of solved B30 | cross-copy wording repeat → F4-B30; exclude | none |
+
+Assignment arithmetic is `40 unsolved + 70 solved = 110` observed occurrences. The 40
+unsolved rows are exact cross-copy wording repeats, leaving 70 retained records. The 16
+within-family tested-scope collapses above yield `70 - 16 = 54` source-distinct handles.
+The solved A+B block prints 40 answer lines and the solved C block prints 30 marked
+answers, so all 70 keys are printed; none is inferred for an unsolved occurrence.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 54 handles received four required searches (distinctive wording, alias,
+synonym, and mechanism/structure): **216 required searches**. Targeted follow-ups covered
+FAP/APC, telomerase, MYC/small-cell lung carcinoma, Li-Fraumeni, E-cadherin, BCL2,
+tumour immunity/checkpoints, EMT, cachexia, growth fraction/heterogeneity, p53, tumour
+antigens and tumour markers. Scope included live state, all pending import roots, and
+Families 1–3 of this BMS-102 ledger. Parent-topic and two-record composites were rejected
+unless one record directly stated the tested proposition.
+
+| Handle · retained refs | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `fap-apc-cell-cycle-control` · A01,B01 | `familial adenomatous polyposis APC`; `FAP APC mutation`; `APC cell cycle control`; `colonic epithelium uncontrolled proliferation` | new; no same-scope record | delta |
+| `telomerase-limitless-replication` · A02,B02,C03 | `telomerase limitless replication`; `tumor cell immortality`; `chromosome end maintenance cancer`; `telomere shortening neoplasm` | pending `CON-FND-73C77966B56FED`; it states telomerase extends chromosome-end repeats to offset replication loss | delta |
+| `small-cell-lung-myc-cell-cycle` · A03,B03 | `small cell lung MYC`; `small blue neuroendocrine tumor MYC`; `MYC amplification lung carcinoma`; `small cell lung cell cycle dysregulation` | new; no same-scope record | delta |
+| `colon-cancer-late-tp53-apoptosis` · A04,B04 | `colon cancer late TP53`; `adenoma carcinoma sequence p53`; `late loss programmed cell death colon`; `colorectal progression apoptosis control` | new; general p53 records do not state its late colon-progression position | delta |
+| `hepatitis-b-hepatocellular-carcinoma` · A05,B05 | `hepatitis B hepatocellular carcinoma`; `HBV liver cancer`; `chronic hepatitis B malignancy`; `viral integration hepatocarcinogenesis` | new; no same-scope record | delta |
+| `tumor-angiogenic-factor-process` · A06,B06 | `tumor angiogenic factors`; `VEGF angiogenesis cancer`; `blood vessel formation tumor`; `neoplastic angiogenesis` | new; no same-scope record | delta |
+| `burkitt-lymphoid-translocation-proliferation` · A07,B07 | `Burkitt t(8;14)`; `Burkitt MYC translocation`; `aggressive lymphoid chromosomal translocation`; `lymphoid malignancy increased proliferation` | new; no same-scope record | delta |
+| `li-fraumeni-soft-tissue-breast-cancers` · A08,B08 | `Li-Fraumeni sarcoma breast cancer`; `TP53 inherited cancer syndrome`; `soft tissue breast cancer predisposition`; `Li Fraumeni tumor spectrum` | new; no same-scope record | delta |
+| `adhesion-loss-metastatic-potential` · A09,B09 | `E-cadherin loss metastasis`; `cell adhesion loss tumor invasion`; `adhesion molecule metastatic potential`; `CDH1 cancer spread` | new externally | collapse to Family-1 `adhesion-molecule-loss-in-metastasis` |
+| `bcl2-follicular-lymphoma` · A10,B10 | `BCL2 follicular lymphoma`; `t(14;18) antiapoptotic lymphoma`; `Bcl-2 blood cancer`; `anti-apoptotic protein lymphoid malignancy` | new externally; pending Bcl-2 records do not identify follicular lymphoma | collapse to Family-1 `bcl2-associated-lymphoma-mechanism` |
+| `cytotoxic-lymphocyte-tumor-killing` · B11,C16 | `cytotoxic lymphocyte tumor killing`; `CTL anti-tumor immunity`; `cytotoxic T cell cancer cell death`; `direct killing tumor cells lymphocyte` | live `CON-IMM-019A95FA52738F`; it directly states MHC-I tumour-antigen recognition and tumour-cell killing | delta |
+| `targeted-therapy-bypass-resistance` · B12 | `targeted therapy bypass resistance`; `alternative signaling pathway resistance`; `growth factor receptor inhibitor resistance`; `oncogenic pathway bypass` | new; no same-scope record | delta |
+| `immune-checkpoint-tumor-evasion` · B13,B22 | `immune checkpoint tumor evasion`; `checkpoint molecule immune destruction resistance`; `cancer immune checkpoint expression`; `T cell inhibition tumor escape` | new; broad immune-escape records do not state checkpoint upregulation | delta |
+| `extracellular-matrix-degradation-metastasis` · B14 | `extracellular matrix degradation metastasis`; `proteolytic enzyme tumor invasion`; `ECM breakdown cancer spread`; `matrix remodeling metastasis` | new; no same-scope record | delta |
+| `tyrosine-kinase-inhibitor-secondary-mutation-resistance` · B15 | `tyrosine kinase inhibitor secondary mutation`; `TKI resistance target mutation`; `lung cancer acquired kinase inhibitor resistance`; `secondary mutation targeted drug resistance` | new; no same-scope record | delta |
+| `emt-apoptosis-resistance` · B16 | `EMT apoptosis resistance`; `epithelial mesenchymal transition cell death`; `EMT therapy resistance`; `mesenchymal transition antiapoptotic` | new; no same-scope record | delta |
+| `cancer-cachexia-systemic-catabolism` · B17 | `cancer cachexia systemic inflammation`; `tumor cachexia catabolic pathways`; `malignancy muscle fat breakdown`; `cancer wasting cytokines` | new; no same-scope mechanism record | related but narrower than Family-1 cachexia terminology; delta |
+| `hereditary-cancer-germline-tumor-suppressors` · B18 | `hereditary cancer germline tumor suppressor`; `inherited cancer syndrome suppressor gene`; `germline mutation malignancy predisposition`; `autosomal dominant cancer susceptibility` | new; no same-scope record | delta |
+| `hypoxia-driven-tumor-angiogenesis` · B19 | `hypoxia tumor angiogenesis`; `low oxygen angiogenic factor secretion`; `decreased oxygen cancer blood vessels`; `hypoxic neoplasm vascularization` | new; no same-scope record | delta |
+| `dna-repair-loss-genomic-instability` · B20 | `DNA repair loss genomic instability`; `impaired DNA damage repair cancer`; `mutation accumulation repair defect tumor`; `genome instability neoplasm` | new; generic DNA-repair records do not state this neoplastic consequence | delta |
+| `malignant-versus-benign-invasion` · B21 | `malignant benign invasion`; `tumor invasion distinguishes malignancy`; `benign versus malignant localized`; `surrounding tissue invasion neoplasm` | new externally | collapse to Family-1 `benign-versus-malignant-tumour` |
+| `mutation-targeted-therapy-selection` · B23 | `driver mutation targeted therapy`; `genetic mutation cancer treatment selection`; `molecularly targeted therapy tumor`; `oncogenic driver precision treatment` | new; no same-scope record | delta |
+| `tumor-suppressor-protein-function` · B24 | `tumor suppressor protein function`; `prevent uncontrolled cell growth`; `growth inhibitor cancer gene`; `cell cycle restraint tumor suppressor` | pending Kasr glossary `tumor suppressor gene` and `ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES`; both directly state cycle arrest/death/repair as the cancer brake | delta |
+| `immunosuppressive-cytokine-tumor-escape` · B25,C18 | `immunosuppressive cytokine tumor escape`; `TGF beta cancer immune evasion`; `tumor microenvironment immune suppression`; `cancer stromal cytokine immune attack` | new; no same-scope record | delta |
+| `tumor-dormancy-low-metabolism` · B26 | `tumor dormancy low metabolism`; `quiescent cancer cell metastasis`; `dormant tumor cell survival`; `metastatic dormancy metabolic activity` | new; no same-scope record | delta |
+| `emt-promotes-metastasis` · B27 | `EMT promotes metastasis`; `epithelial mesenchymal transition invasion`; `mesenchymal motility tumor progression`; `cancer cellular plasticity spread` | new; no same-scope record | delta |
+| `glycolysis-targeted-cancer-metabolism` · B28 | `cancer metabolism blocking glycolysis`; `Warburg effect targeted therapy`; `glycolysis inhibitor tumor`; `aerobic glycolysis treatment` | new; general glycolysis records do not state cancer-treatment targeting | delta |
+| `hif-glycolytic-enzyme-upregulation` · B29 | `HIF glycolytic enzymes`; `hypoxia inducible factor cancer glycolysis`; `HIF metabolic adaptation tumor`; `hypoxia upregulates glycolysis` | new; no same-scope record | delta |
+| `cancer-stem-cell-treatment-resistance-recurrence` · B30 | `cancer stem cell treatment resistance recurrence`; `tumor initiating cell chemotherapy radiation`; `self renewal cancer relapse`; `cancer stemness therapy resistance` | new; no same-scope record | delta |
+| `cancer-initiation-irreversible-dna-damage` · C01,C26 | `cancer initiation irreversible DNA damage`; `neoplastic transformation initiation stage`; `growth regulatory gene mutation initiation`; `tumor natural history initiation` | new; no same-scope record | related but narrower than Family-1 initiation/progression/heterogeneity outline; delta |
+| `tumor-promotion-clonal-expansion` · C02 | `tumor promotion clonal expansion`; `promotion phase transformed cells`; `cancer development promotion`; `neoplastic promoter proliferation` | new; no same-scope record | delta |
+| `tumor-growth-fraction-definition` · C04 | `tumor growth fraction definition`; `percentage proliferating tumor cells`; `growth fraction neoplasm`; `cell kinetics proliferative fraction` | new; no same-scope record | delta |
+| `growth-fraction-chemotherapy-sensitivity` · C05,C27 | `growth fraction chemotherapy sensitivity`; `high growth fraction chemo response`; `low growth fraction drug resistance`; `tumor kinetics chemotherapy` | new; no same-scope record | delta |
+| `tumor-cell-loss-factor-exception` · C06 | `tumor cell loss factor exception`; `least contributes decreased cell loss tumors`; `increased apoptosis Bcl-2 telomerase tumor cell loss`; `tumor production cell loss ratio` | new; no same-scope record. The printed Bcl2 key conflicts with the pending record's anti-apoptotic role, so the key is preserved as source evidence but is neither corrected nor treated as an external match | delta |
+| `bcl2-reduced-tumor-cell-loss-apoptosis` · C28 | `BCL2 reduced tumor cell loss`; `Bcl-2 overexpression apoptosis cancer`; `antiapoptotic tumor survival`; `decreased apoptosis neoplasm` | pending `CON-FND-1F66060A9C2625`; it directly classifies Bcl-2 as anti-apoptotic | delta |
+| `tumor-doubling-time-determinants` · C07 | `tumor doubling time determinants`; `growth fraction cell loss doubling`; `neoplasm cell cycle duration`; `tumor kinetics doubling time` | new; no same-scope record | delta |
+| `tumor-heterogeneity-definition` · C08 | `tumor heterogeneity definition`; `genetic phenotypic variability tumor cells`; `intratumoral heterogeneity`; `neoplastic cell variability` | new; no same-scope record | related but narrower than Family-1 initiation/progression/heterogeneity outline; delta |
+| `avascular-tumor-size-limit-2mm` · C09 | `tumor size without angiogenesis 2 mm`; `avascular tumor maximum size`; `diffusion limit neoplasm 2mm`; `angiogenic switch size threshold` | new; no same-scope record | delta |
+| `fgf-tumor-angiogenic-factor` · C10 | `FGF tumor angiogenesis`; `fibroblast growth factor neovascularization cancer`; `angiogenic factor tumor cell FGF`; `cancer blood vessel growth factor` | new; no same-scope record | delta |
+| `macrophage-tgf-alpha-tumor-angiogenesis` · C11 | `macrophage TGF alpha tumor angiogenesis`; `tumor invading macrophage angiogenic factor`; `TGF-alpha neoplastic vascularization`; `macrophage secretion cancer blood vessels` | new; no same-scope record | delta |
+| `angiogenesis-oxygen-nutrient-supply` · C12 | `tumor angiogenesis oxygen nutrient supply`; `cancer blood vessels progression`; `neoplasm vascular nutrition`; `angiogenesis supports tumor growth` | new; no same-scope record | delta |
+| `tumor-progression-acquired-malignant-characteristics` · C13 | `tumor progression acquired malignant characteristics`; `neoplastic progression definition`; `malignant evolution over time`; `cancer progression phenotype` | new; no same-scope record | related but narrower than Family-1 initiation/progression/heterogeneity outline; delta |
+| `mutation-accumulation-tumor-heterogeneity` · C14 | `mutation accumulation tumor heterogeneity`; `genetic instability intratumor diversity`; `cancer clonal evolution variability`; `neoplastic heterogeneity mechanism` | new; no same-scope record | delta |
+| `p53-loss-genetic-instability` · C15 | `p53 loss genetic instability`; `TP53 genome stability tumor`; `p53 mutation accumulation cancer`; `tumor suppressor DNA instability` | pending `ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES`; its clinical-significance section explicitly states that p53 mutation causes genomic instability | delta |
+| `natural-killer-innate-antitumor-immunity` · C17 | `natural killer innate antitumor immunity`; `NK cells cancer response`; `innate immune cell tumor killing`; `natural killer neoplasm surveillance` | new; separate live records identify NK cells as innate and as tumour killers, but no single same-scope record states the complete tested proposition | delta |
+| `spontaneous-regression-immune-surveillance` · C19 | `spontaneous tumor regression immune surveillance`; `cancer immune surveillance evidence`; `immune system detects tumors regression`; `neoplasm surveillance theory` | new; surveillance records do not state spontaneous regression as evidence | delta |
+| `antitumor-effector-mechanisms-exception` · C20 | `antitumor effector mechanisms`; `tumor immunity cytotoxic T NK macrophage`; `neutrophils anti-cancer immunity exception`; `immune effector cancer cells` | new externally | collapse to Family-1 `antitumour-effector-mechanisms` |
+| `tumor-specific-antigen-exclusivity` · C21 | `tumor specific antigen exclusively tumor cells`; `TSA cancer antigen`; `unique neoplastic antigen`; `tumor antigen classification` | new; live tumour-antigen records do not define TSA exclusivity | delta |
+| `tumor-associated-antigen-normal-tumor-expression` · C22 | `tumor associated antigen normal tumor cells`; `TAA cancer normal tissue`; `shared neoplastic antigen`; `tumor associated antigen definition` | new; no same-scope definition | delta |
+| `psa-normal-neoplastic-prostate` · C23 | `PSA normal neoplastic prostate`; `prostate specific antigen tumor marker expression`; `PSA prostate tissue cancer`; `prostate marker normal malignant` | new; no same-scope record | delta |
+| `afp-hepatocellular-carcinoma` · C24 | `AFP hepatocellular carcinoma`; `alpha fetoprotein liver cancer`; `HCC tumor marker AFP`; `hepatoma fetal protein marker` | new externally | collapse to Family-1 `afp-associated-tumour-differential` |
+| `cea-colon-cancer-monitoring` · C25 | `CEA colon cancer monitoring`; `carcinoembryonic antigen colorectal follow-up`; `colon adenocarcinoma tumor marker`; `CEA surveillance malignancy` | new externally | collapse to Family-1 `malignant-tumour-marker-pairing` |
+| `metastasis-final-stage` · C29 | `metastasis final stage cancer`; `tumor natural history metastatic stage`; `neoplasm progression final phase`; `cancer invasion progression metastasis` | new; no same-scope record | delta |
+| `p53-inactivation-dna-damage-checkpoint` · C30 | `p53 inactivation DNA damage checkpoint`; `unchecked replication damaged DNA tumor`; `TP53 cell cycle arrest cancer`; `genome damage tumor suppressor checkpoint` | pending `CON-FND-1F66060A9C2625` and Kasr glossary `p53`; both state p53 arrests the cycle after DNA damage | delta |
+
+### Family-4 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 4 | Cumulative after Family 4 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 110 | 325 |
+| Printed keys | 70 | 101 |
+| Retained question records after wording dedupe | 70 | 237 |
+| Source-distinct tested concepts | 54 | — |
+| External live / pending / no same-scope match | 1 / 5 / 48 | family-local disposition |
+| Family-4 handles already represented in Families 1–3 | 6 | subtract from Family-4 concept addition |
+| Cross-family concept delta | 48 | `54 - 6 = 48` |
+| **Cumulative distinct tested concepts** | **+48** | **187** |
+
+External arithmetic is `1 + 5 + 48 = 54`. The five pending handles are telomerase,
+tumour-suppressor function, Bcl2-mediated apoptosis reduction, p53-loss genomic
+instability, and p53 DNA-damage checkpoint function. The six prior-BMS-102 overlaps are
+adhesion loss/metastasis, BCL2-associated lymphoma, benign-versus-malignant invasion,
+the antitumour-effector exception set, AFP/HCC, and CEA/colon cancer. External and prior-
+family dispositions are separate dimensions. Cumulative arithmetic is
+`215 + 110 = 325` observed prompts, `31 + 70 = 101` printed keys,
+`167 + 70 = 237` retained records, and `139 + (54 - 6) = 187` distinct concepts.
+
+### Exact remaining debt after Family 4
+
+- The Neoplasia 4 pair is fully bounded: all 25 native pages, 110 prompt occurrences,
+  and 70 printed keys have been assigned; the unsolved copy adds no unique wording.
+- Remaining tier-3 pathology rows include the other local continuous-assessment and
+  revision-bank families (including the general neoplasia, Circulatory 1, and infection
+  banks) and must be ranked source-by-source before use.
+- All BMS-102 microbiology question evidence remains S1 debt.
+- Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
+  readiness, claim, download, commit, or push action is authorised in this lane.

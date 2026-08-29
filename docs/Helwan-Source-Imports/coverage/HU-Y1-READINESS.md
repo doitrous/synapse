@@ -79,6 +79,16 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   Five handles overlap Families 1–2, yielding a +21 concept delta and a cumulative
   BMS-102 pathology checkpoint of 215 observed prompts, 31 keys, 167 retained records and
   139 distinct concepts. Other pathology/microbiology sources remain S1 debt.
+- The Neoplasia 4 assessment pair `src_e1aac4e34bf9379bb178` (40 unkeyed unsolved
+  occurrences) and `src_83c77a2c46ce746c1981` (70 solved/keyed occurrences) is now
+  triaged across all 25 pages. Its 40 exact cross-copy repeats leave 70 retained keyed
+  MCQs and 54 tested handles after 16 within-family collapses.
+- Family 4 records 1 live, 5 scope-proven pending and 48 no-same-scope external results.
+  Six handles overlap Families 1–3, yielding a +48 concept delta and a cumulative BMS-102
+  pathology checkpoint of 325 observed prompts, 101 printed keys, 237 retained records and
+  187 distinct concepts. The source's conflicting Bcl2 mark in C06 remains distinct from
+  C28's Bcl2 anti-apoptotic proposition; p53 scope claims cite direct pending body evidence.
+  Other pathology/microbiology sources remain S1 debt.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
