@@ -1513,3 +1513,29 @@ The repeated two-part stain form and single `Identify` form are duplicate respon
 **Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 31–101 are unread.
 
 **BLOCKED — S1 cannot be approved:** resume this source at exact next page 31; do not treat the bounded pages 1–30 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
+
+## Bounded continuation screen — Histology final-revision-question paper, pages 31–40 of 101
+
+This pass resumes the same local 101-page source at exact page 31, retaining SHA-256 `c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983`.  All and only pages **31–40** were rendered and read.  No natural source boundary occurs; pages 41–101 remain unread.  The source remains `sourceProcessed=false` and remains in the unchanged path/hash remainder.
+
+### Observed page-boundary prompt accounting
+
+Pages 31–40 show image panels with arrows, numerals, blacked or white-covered label areas, and on page 34 a visible image-use restriction; none visibly prints an assessment prompt or a key/answer.  Arrows, image numbering, caption fragments, and redacted label bands are not countable prompt text.  The exact observed arithmetic is `(10 × 0) = 0` prompts and **0** printed keys/answers.  The accumulated pages 1–40 observation is therefore `60 + 0 = 60` prompts and 0 printed keys, still excluded from completed-source totals.
+
+### Assignment, duplicate/composite, and search boundary
+
+The range repeats the same image-led/arrow-only response convention without a printed semantic target or keyed answer.  No image identification, arrow target, or covered label is inferred.  The assignment/search ledger therefore remains exactly `0 named concepts ↔ 0 search rows`; no concept-level duplicate, collapse, external hit, or prior-FHB hit is claimed.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources unchanged; bounded Histology pages 1–40 excluded) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** +0 questions, +0 printed keys / answers, +0 source-distinct tested concepts.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — source remains incomplete after page 40
+
+**Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`; debt remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The current source remains included because pages 41–101 are unread.
+
+**BLOCKED — S1 cannot be approved:** resume this source at exact next page 41; do not treat the bounded pages 1–40 evidence as source completion.  The remaining 92 selected source paths still require full printed-question/key and concept triage.
