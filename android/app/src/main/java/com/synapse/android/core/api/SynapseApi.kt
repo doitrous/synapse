@@ -1,6 +1,10 @@
 package com.synapse.android.core.api
 
 import com.synapse.android.core.CortexJson
+import com.synapse.android.core.model.QotdAnswerResult
+import com.synapse.android.core.model.QotdFriends
+import com.synapse.android.core.model.QotdLeaderboard
+import com.synapse.android.core.model.QotdToday
 import com.synapse.android.core.sync.StateOwnership
 import java.io.IOException
 import java.time.Instant
@@ -8,13 +12,16 @@ import java.time.format.DateTimeParseException
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.booleanOrNull
+import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.contentOrNull
 import kotlinx.serialization.json.intOrNull
+import kotlinx.serialization.json.put
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.MediaType.Companion.toMediaType
@@ -138,6 +145,30 @@ class SynapseApi(
         request("PUT", StateOwnership.pathFor(key), body)
     }
 
+    // --- Question of the Day ---
+
+    /** Today's QotD status for the caller's cohort. The question body is resolved from the local ledger by [QotdToday.questionId]. */
+    suspend fun qotdToday(): QotdToday = decodeQotdToday(requestObject("GET", "/api/qotd/today"))
+
+    /**
+     * Answer today's question. `answerIndex` is a position in the option list
+     * (blank options dropped, the order the server marks against), not a label.
+     * The server marks it and returns the outcome; the app never self-marks QotD.
+     */
+    suspend fun qotdAnswer(questionId: String, answerIndex: Int): QotdAnswerResult {
+        val body = buildJsonObject {
+            put("questionId", questionId)
+            put("answerIndex", answerIndex)
+        }.toString()
+        return decodeQotdAnswer(requestObject("POST", "/api/qotd/answer", body))
+    }
+
+    /** The cohort leaderboard (server caps the size; no query is sent). */
+    suspend fun qotdLeaderboard(): QotdLeaderboard = decodeQotdLeaderboard(requestObject("GET", "/api/qotd/leaderboard"))
+
+    /** Today's results for the caller's friends. */
+    suspend fun qotdFriends(): QotdFriends = decodeQotdFriends(requestObject("GET", "/api/qotd/friends"))
+
     private fun decodeRemoteState(root: JsonObject): RemoteState {
         val value = root["value"]?.takeUnless { it is JsonNull }
         val updatedAtElement = root["updatedAt"]
@@ -203,6 +234,69 @@ class SynapseApi(
     private fun JsonElement?.booleanOrMalformed(field: String): Boolean =
         (this as? JsonPrimitive)?.booleanOrNull ?: throw ApiError.Malformed("expected a boolean at $field")
 
+    private fun JsonElement?.intOrMalformed(field: String): Int =
+        (this as? JsonPrimitive)?.intOrNull ?: throw ApiError.Malformed("expected an int at $field")
+
+    private fun decodeQotdToday(obj: JsonObject): QotdToday = QotdToday(
+        date = obj["date"].stringOrMalformed("qotd.today.date"),
+        questionId = obj["questionId"].stringOrNull(),
+        answered = obj["answered"].booleanOrMalformed("qotd.today.answered"),
+        answerIndex = (obj["answerIndex"] as? JsonPrimitive)?.intOrNull,
+        correct = (obj["correct"] as? JsonPrimitive)?.booleanOrNull,
+        current = obj["current"].intOrMalformed("qotd.today.current"),
+        longest = obj["longest"].intOrMalformed("qotd.today.longest"),
+        history = ((obj["history"] as? JsonArray) ?: emptyList()).mapNotNull { it.stringOrNull() },
+    )
+
+    private fun decodeQotdAnswer(obj: JsonObject): QotdAnswerResult = QotdAnswerResult(
+        correct = obj["correct"].booleanOrMalformed("qotd.answer.correct"),
+        correctIndex = obj["correctIndex"].intOrMalformed("qotd.answer.correctIndex"),
+        current = obj["current"].intOrMalformed("qotd.answer.current"),
+        longest = obj["longest"].intOrMalformed("qotd.answer.longest"),
+    )
+
+    private fun decodeQotdLeaderboard(obj: JsonObject): QotdLeaderboard {
+        val scope = obj["scope"].asObjectOrMalformed("qotd.leaderboard.scope")
+        val viewer = obj["viewer"].asObjectOrMalformed("qotd.leaderboard.viewer")
+        return QotdLeaderboard(
+            scope = QotdLeaderboard.Scope(
+                universityId = scope["universityId"].stringOrMalformed("qotd.leaderboard.scope.universityId"),
+                year = scope["year"].stringOrMalformed("qotd.leaderboard.scope.year"),
+            ),
+            rows = ((obj["rows"] as? JsonArray) ?: emptyList()).map { row ->
+                val r = row.asObjectOrMalformed("qotd.leaderboard.row")
+                QotdLeaderboard.Row(
+                    rank = r["rank"].intOrMalformed("qotd.leaderboard.row.rank"),
+                    userId = r["userId"].stringOrMalformed("qotd.leaderboard.row.userId"),
+                    username = r["username"].stringOrMalformed("qotd.leaderboard.row.username"),
+                    profileIcon = r["profileIcon"].stringOrNull(),
+                    current = r["current"].intOrMalformed("qotd.leaderboard.row.current"),
+                    totalCorrect = r["totalCorrect"].intOrMalformed("qotd.leaderboard.row.totalCorrect"),
+                    totalAnswered = r["totalAnswered"].intOrMalformed("qotd.leaderboard.row.totalAnswered"),
+                )
+            },
+            viewer = QotdLeaderboard.Viewer(
+                rank = (viewer["rank"] as? JsonPrimitive)?.intOrNull,
+                total = viewer["total"].intOrMalformed("qotd.leaderboard.viewer.total"),
+                current = viewer["current"].intOrMalformed("qotd.leaderboard.viewer.current"),
+            ),
+        )
+    }
+
+    private fun decodeQotdFriends(obj: JsonObject): QotdFriends = QotdFriends(
+        date = obj["date"].stringOrMalformed("qotd.friends.date"),
+        viewerAnswered = obj["viewerAnswered"].booleanOrMalformed("qotd.friends.viewerAnswered"),
+        friends = ((obj["friends"] as? JsonArray) ?: emptyList()).map { element ->
+            val friend = element.asObjectOrMalformed("qotd.friends.friend")
+            QotdFriends.Friend(
+                userId = friend["userId"].stringOrMalformed("qotd.friends.friend.userId"),
+                name = friend["name"].stringOrMalformed("qotd.friends.friend.name"),
+                answered = friend["answered"].booleanOrMalformed("qotd.friends.friend.answered"),
+                correct = (friend["correct"] as? JsonPrimitive)?.booleanOrNull,
+            )
+        },
+    )
+
     /** Issues the request and parses the body as a JSON object, translating both HTTP and shape failures into [ApiError]. */
     private suspend fun requestObject(method: String, path: String, body: String? = null): JsonObject {
         val raw = request(method, path, body)
@@ -222,6 +316,7 @@ class SynapseApi(
         when (method) {
             "GET" -> builder.get()
             "PUT" -> builder.put((body ?: "{}").toRequestBody(JSON_MEDIA_TYPE))
+            "POST" -> builder.post((body ?: "{}").toRequestBody(JSON_MEDIA_TYPE))
             else -> throw IllegalArgumentException("unsupported method $method")
         }
 

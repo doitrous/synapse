@@ -115,6 +115,63 @@ class SynapseApiTest {
         assertNull(server.takeRequest().getHeader("Authorization"))
     }
 
+    @Test fun `qotd today decodes, keeping questionId optional and history as strings`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"date":"2026-08-29","questionId":"q-hf-1","answered":true,"answerIndex":1,"correct":true,"current":3,"longest":5,"history":["2026-08-29","2026-08-28"]}"""
+        ))
+        val today = api.qotdToday()
+        assertEquals("/api/qotd/today", server.takeRequest().path)
+        assertEquals("q-hf-1", today.questionId)
+        assertEquals(1, today.answerIndex)
+        assertEquals(3, today.current)
+        assertEquals(listOf("2026-08-29", "2026-08-28"), today.history)
+    }
+
+    @Test fun `qotd today tolerates a null questionId`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"date":"2026-08-29","questionId":null,"answered":false,"answerIndex":null,"correct":null,"current":0,"longest":0,"history":[]}"""
+        ))
+        val today = api.qotdToday()
+        assertNull(today.questionId)
+        assertNull(today.answerIndex)
+        assertNull(today.correct)
+        assertTrue(today.history.isEmpty())
+    }
+
+    @Test fun `qotd answer posts questionId and answerIndex and decodes the marked result`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"correct":false,"correctIndex":2,"current":0,"longest":5}"""))
+        val result = api.qotdAnswer(questionId = "q-hf-1", answerIndex = 1)
+        val request = server.takeRequest()
+        assertEquals("POST", request.method)
+        assertEquals("/api/qotd/answer", request.path)
+        assertEquals("""{"questionId":"q-hf-1","answerIndex":1}""", request.body.readUtf8())
+        assertEquals(false, result.correct)
+        assertEquals(2, result.correctIndex)
+    }
+
+    @Test fun `qotd leaderboard decodes scope, rows, and viewer`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"scope":{"universityId":"kau","year":"Year 2"},"rows":[{"rank":1,"userId":"u1","username":"amir","profileIcon":null,"current":7,"totalCorrect":20,"totalAnswered":22}],"viewer":{"rank":4,"total":30,"current":3}}"""
+        ))
+        val board = api.qotdLeaderboard()
+        assertEquals("kau", board.scope.universityId)
+        assertEquals(1, board.rows.first().rank)
+        assertEquals("amir", board.rows.first().username)
+        assertNull(board.rows.first().profileIcon)
+        assertEquals(4, board.viewer.rank)
+    }
+
+    @Test fun `qotd friends withhold correctness with a null until the viewer answers`() = runBlocking {
+        server.enqueue(MockResponse().setBody(
+            """{"date":"2026-08-29","viewerAnswered":false,"friends":[{"userId":"u2","name":"Sara","answered":true,"correct":null}]}"""
+        ))
+        val friends = api.qotdFriends()
+        assertEquals(false, friends.viewerAnswered)
+        assertEquals("Sara", friends.friends.first().name)
+        assertEquals(true, friends.friends.first().answered)
+        assertNull(friends.friends.first().correct)
+    }
+
     // Fixture shape copied from server/src/index.js:146-153.
     @Test fun `session decodes every field for a signed-in user`() = runBlocking {
         server.enqueue(MockResponse().setBody(

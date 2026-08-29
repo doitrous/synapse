@@ -70,6 +70,11 @@ Nothing here sends a single Android push until every step below is done.
    - Replace the placeholder small icon
      (`android.R.drawable.ic_dialog_info`) with a real notification icon from
      `android/app/src/main/res/`.
+   - Route the notification tap to the native QotD screen: the reminder now has
+     a real destination — the `"qotd"` bottom-bar tab (`ROUTE_QOTD` in
+     `feature/root/RootScreen.kt`, hosting `QotdRoute`). Set the tap's
+     `PendingIntent` to open `MainActivity` and navigate to that route (e.g. an
+     intent extra the root reads on start and passes to `navigateToTab("qotd")`).
 
 ## 4. Register the service in the manifest
 
