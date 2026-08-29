@@ -148,6 +148,12 @@ class SupabaseAuthBackend(
                 // rather than surfacing an error from a silent, app-launch refresh.
                 tokenStore.clear()
                 null
+            } catch (e: IOException) {
+                // No network during a silent, app-launch refresh (Retrofit throws
+                // IOException directly for connectivity failures, not AuthException).
+                // Degrade to signed-out rather than crashing cold-start; keep the
+                // stored tokens so restore can retry once connectivity returns.
+                null
             }
         }
     }

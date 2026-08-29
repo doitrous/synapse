@@ -3,6 +3,7 @@ package com.synapse.app.core.auth
 import kotlinx.coroutines.test.runTest
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
+import okhttp3.mockwebserver.SocketPolicy
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
@@ -105,6 +106,21 @@ class SupabaseAuthBackendTest {
         assertEquals(0, server.requestCount)
     }
 
+    /**
+     * Regression test for a cold-start crash: Retrofit suspend calls throw
+     * [java.io.IOException] directly (not [AuthException]) when the device has no
+     * network. A silent, app-launch [SupabaseAuthBackend.restore] must degrade to
+     * signed-out rather than let that exception escape and crash the app.
+     */
+    @Test fun restoreWhenOfflineEmitsNullSessionWithoutThrowing() = runTest {
+        tokenStore.saved = Tokens(accessToken = "old-access", refreshToken = "old-refresh")
+        server.enqueue(MockResponse().setSocketPolicy(SocketPolicy.DISCONNECT_AT_START))
+
+        backend.restore()
+
+        assertNull(backend.session.value)
+    }
+
     @Test fun signOutClearsTokensAndSession() = runTest {
         server.enqueue(
             MockResponse().setResponseCode(200).setBody(
@@ -137,6 +153,80 @@ class SupabaseAuthBackendTest {
         backend.signIn("a@b.com", "pw")
 
         assertEquals(ANON_KEY, server.takeRequest().getHeader("apikey"))
+    }
+
+    @Test fun signUpHappyPathEmitsSession() = runTest {
+        server.enqueue(
+            MockResponse().setResponseCode(200).setBody(
+                """
+                {
+                  "access_token": "at-789",
+                  "refresh_token": "rt-789",
+                  "user": {
+                    "id": "user-2",
+                    "email": "new@b.com",
+                    "email_confirmed_at": "2026-08-20T10:00:00Z"
+                  }
+                }
+                """.trimIndent()
+            )
+        )
+
+        backend.signUp("new@b.com", "pw")
+
+        val session = backend.session.value
+        assertEquals("user-2", session?.userId)
+        assertEquals("at-789", session?.accessToken)
+        assertTrue(session?.emailVerified == true)
+        assertEquals(Tokens("at-789", "rt-789"), tokenStore.saved)
+    }
+
+    /**
+     * GoTrue's `signup` endpoint nests the user under `user` only when a session
+     * is also issued; with email confirmation required it instead returns the
+     * user's fields flattened at the top level and omits `access_token`. That
+     * must not be mistaken for a signed-in session.
+     */
+    @Test fun signUpPendingConfirmationDoesNotEmitSession() = runTest {
+        server.enqueue(
+            MockResponse().setResponseCode(200).setBody(
+                """
+                {
+                  "id": "user-3",
+                  "email": "pending@b.com"
+                }
+                """.trimIndent()
+            )
+        )
+
+        backend.signUp("pending@b.com", "pw")
+
+        assertNull(backend.session.value)
+        assertNull(tokenStore.saved)
+    }
+
+    @Test fun sendResetPostsToRecoverEndpointAndSucceeds() = runTest {
+        server.enqueue(MockResponse().setResponseCode(200).setBody(""))
+
+        backend.sendReset("a@b.com")
+
+        val request = server.takeRequest()
+        assertTrue(request.path!!.contains("recover"))
+        assertEquals(ANON_KEY, request.getHeader("apikey"))
+        assertTrue(request.body.readUtf8().contains("a@b.com"))
+    }
+
+    @Test fun sendResetThrowsOnNonSuccess() = runTest {
+        server.enqueue(
+            MockResponse().setResponseCode(400).setBody(
+                """{"error":"bad_request","error_description":"Invalid email"}"""
+            )
+        )
+
+        val error = runCatching { backend.sendReset("bad@b.com") }.exceptionOrNull()
+
+        assertTrue(error is AuthException)
+        assertEquals("Invalid email", error?.message)
     }
 }
 
