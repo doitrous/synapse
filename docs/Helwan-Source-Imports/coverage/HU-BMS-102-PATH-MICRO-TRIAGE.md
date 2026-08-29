@@ -2602,3 +2602,71 @@ The next fragment is single-image `src_370d6e8e26fcff9dec00` ·
 `2026-07-20 05.57.07.jpg`, visible as `lec5-Bacter...` slide 54 of 57 at 1280 × 768.
 It requires visible-only prompt inventory and separation of the blue handwritten fill-in from
 the pale-green digital choice highlights; neither is printed-key evidence.
+
+## Family 16 — tier-6 auxiliary `lec5-Bacter...` slide-54 fragment
+
+### Source boundary and answer-mark ruling
+
+| Manifest source | SHA-256 | Visible boundary | Raster |
+|---|---|---|---|
+| `src_370d6e8e26fcff9dec00` · `2026-07-20 05.57.07.jpg` | `370d6e8e26fcff9dec004439a7edfd675a2323f49d46d5a354a03591b4fb1ba2` | `lec5-Bacter...`, slide 54 of 57 | 1280 × 768 JPEG |
+
+The image was read at original resolution. It is one complete visible slide from a 57-slide deck;
+slides 1–53 and 55–57 are not inferred. One fill-in and two MCQs are fully visible, giving three
+complete prompt units and zero cropped/incomplete units.
+
+The fill-in has a blue freehand answer, while each MCQ has a pale-green digital choice highlight.
+Neither mark type is a printed answer convention or an official key. Family 16 records three
+visible answer annotations and zero printed-answer occurrences.
+
+### Visible-prompt assignment, repeat, and collapse ledger
+
+| Ref | Slide | Fully visible prompt assignment | Visible annotation | Tested handle |
+|---|---:|---|---|---|
+| F16-Q01 | 54 | Genetic location carrying genes essential for bacterial growth | blue freehand `chromosomes` | `essential-bacterial-growth-genes-on-chromosome` |
+| F16-Q02 | 54 | A lysogenic bacterial cell contains a prophage | pale-green highlight · D | `lysogenic-bacterial-cell-contains-prophage` |
+| F16-Q03 | 54 | Plasmids carry optional/dispensable genes | pale-green highlight · D | `plasmids-carry-dispensable-genes` |
+
+The three prompts test chromosome, prophage, and plasmid properties respectively. There are zero
+wording repeats, zero semantic collapses, three retained records, and three source-distinct
+handles.
+
+### Search-before-mint and prior-BMS-102 adjudication
+
+Each handle received four required searches: **12 required searches** across live state, all
+pending roots, and Families 1–15.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `essential-bacterial-growth-genes-on-chromosome` · Q01 | `essential bacterial genes chromosome`; `genes essential bacterial growth carried chromosome`; `bacterial chromosome essential genes`; `chromosome versus plasmid essential genes` | new | none; Family-12's genome-component list does not test essential-gene location, so auxiliary delta |
+| `lysogenic-bacterial-cell-contains-prophage` · Q02 | `lysogenic bacterial cell contains prophage`; `lysogen definition prophage`; `bacterial lysogen integrated phage`; `prophage in lysogenic bacterium` | new; pending `CON-INF-BFFA74CFBB0B25` tests phenotype change through lysogenic conversion, not this cell-definition scope | none; Family-12 tests prophage outcomes rather than what defines the cell, so auxiliary delta |
+| `plasmids-carry-dispensable-genes` · Q03 | `plasmids carry optional genes`; `plasmid dispensable genes`; `bacterial plasmid nonessential genetic material`; `plasmid genes not essential growth` | new; resistance-plasmid records are narrower examples | none; Family-12's genome-component list does not test dispensability, so auxiliary delta |
+
+### Family-16 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 16 auxiliary | Auxiliary cumulative (Families 12–16) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 3 | 63 | 765 | 828 |
+| Printed answer occurrences | 0 | 35 | 405 | 440 |
+| Visible unproven answer annotations | 3 | 28 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 0 | — | excluded from totals |
+| Retained question records | 3 | 63 | 552 | 615 |
+| Source-distinct tested concepts | 3 | 63 | — | — |
+| External live / pending / no same-scope match | 0 / 0 / 3 | — | — | family-local disposition |
+| Handles already represented in Families 1–15 | 0 | four auxiliary records reuse primary scope through Family 15 | — | subtract before concept addition |
+| Cross-family concept delta | +3 | +59 over primary | — | `372 + 59 = 431` |
+| **Distinct tested concepts** | **+3** | **59 auxiliary additions** | **372** | **431** |
+
+Family arithmetic is `0 + 0 + 3 = 3`. The primary assessment checkpoint remains
+`765 / 405 / 552 / 372`. The auxiliary cumulative becomes `60 + 3 = 63` prompts,
+`35 + 0 = 35` printed answers, `60 + 3 = 63` retained records, and
+`56 + 3 = 59` concept additions over primary. The all-eligible inventory becomes
+`825 + 3 = 828` prompts, `440 + 0 = 440` printed answers, `612 + 3 = 615` retained
+records, and `428 + 3 = 431` concepts.
+
+### Exact next auxiliary screenshot debt
+
+The next fragment is the contiguous two-image `bacterial g...` sequence in source order:
+`src_93a472d70e8e1e7e9cfc` (slide 49/52) then `src_7c972883ff48c23103f3`
+(slide 50/52), both 1280 × 768. It requires visible-only inventory and treatment of the
+pale-green choice highlights as unproven digital annotations, not printed keys.
