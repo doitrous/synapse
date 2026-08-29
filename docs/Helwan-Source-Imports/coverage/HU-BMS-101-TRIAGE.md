@@ -306,3 +306,37 @@ HNPCC association.
 | mismatch-repair-hnpcc — `aa8 B19; b7c B38, pp. 16/10` | `mismatch repair`; `HNPCC`; `Lynch`; `DNA repair` | Pending repair records define mismatch repair after proofreading failure, but neither HNPCC nor Lynch yields a hit; the disease-association scope is absent. | new |
 
 Batch delta: `live +0`, `pending +12`, `new +8`; no concept ID is minted by this ledger.
+
+### Semantic adjudication batch 4 — next 20 unadjudicated handles
+
+The deterministic selection continues after batch 3: the next twenty undisposed rows of
+`triage-bms101-search.mjs` are rows 65–84 of its 180-row register. They contribute exactly
+80 searches, four per handle. Every disposition below follows the named record's text and
+scope, rather than a substring hit: a generic visual/retinal fact does not cover the visual
+cycle, generic allosteric regulation does not establish sigmoidality/cooperativity, and
+generic proofreading does not establish bacterial DNA-polymerase-III proofreading.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| trna-and-aminoacylation — `aa8 B20, p. 16` | `tRNA`; `aminoacyl`; `aminoacyl tRNA synthetase`; `anticodon` | Pending `CON-FND-89278C7DEE1C9C` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` states that aminoacyl-tRNA synthetases activate amino acids and load each onto its matching tRNA in the ATP-consuming two-step reaction. | pending |
+| competitive-inhibition — `aa8 B21, p. 16` | `competitive inhibition`; `competitive inhibitor`; `Vmax`; `Michaelis` | Pending `CON-FND-CB8584ED2F3C49` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` gives active-site competition, increased apparent Km with unchanged Vmax, and reversal by excess substrate. | pending |
+| tissue-hypoxia — `aa8 B22, p. 17` | `tissue hypoxia`; `hypoxia`; `oxygen delivery`; `cyanide` | Pending `CON-FND-CFB54F33867C57` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-metabolism-concepts.md` explains cyanide's Complex-IV block and failed oxidative phosphorylation despite normal oxygen delivery: the histotoxic-tissue-hypoxia mechanism tested. | pending |
+| vitamin-a-visual-cycle — `aa8 B23, p. 17` | `vitamin A`; `retinal`; `visual cycle`; `rhodopsin` | Live `CON-NEU-C5F79F69D989D4` only states 11-cis retinol-to-retinal conversion; the pending vitamin-A and rhodopsin records are respectively broad vision facts and a glossary label. None gives the vitamin-A visual-cycle/rhodopsin scope. | new |
+| allosteric-kinetics — `aa8 B24, p. 17` | `allosteric`; `allosteric enzyme`; `sigmoidal`; `cooperativity` | Pending `CON-FND-6BBAC69900B22F` gives distinct-site conformational regulation, but the `sigmoidal` and `cooperativity` queries return no record; it is not the kinetic-curve scope. | new |
+| creatine-kinase-isoenzymes — `aa8 B25, p. 17` | `creatine kinase`; `CK`; `isoenzyme`; `CK-MB` | Pending `CON-FND-DD3EE5EC8C07D1` in `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` identifies CK as M/B dimers forming three tissue isoenzymes and contrasts them with LDH isoenzymes. | pending |
+| promoter-mutation — `aa8 B26, p. 18` | `promoter`; `promoter mutation`; `transcription`; `RNA polymerase` | The live promoter-DNA-methylation record and pending TATA/CAAT/GC promoter records treat epigenetic silencing or normal promoter elements, not the effect of a promoter mutation on transcription. | new |
+| niacin-deficiency — `aa8 B27; B42, pp. 18/21` | `niacin`; `pellagra`; `vitamin B3`; `NAD` | Pending `CON-FND-C9E5128193029E` in `docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md` identifies niacin as the NAD+/NADP+ precursor and directly gives pellagra as its deficiency. | pending |
+| vitamin-c-collagen-hydroxylation — `aa8 B29; B37, pp. 18/20` | `vitamin C`; `ascorbic`; `collagen hydroxylation`; `proline` | Pending `CON-FND-96FF52D15F67AE` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` states vitamin-C-dependent hydroxylation of proline and lysine during collagen synthesis. | pending |
+| vitamin-d-rickets — `aa8 B30, p. 19` | `vitamin D`; `rickets`; `calcitriol`; `bone mineralization` | Pending `CON-FND-46B9F239340ED9` in `docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md` gives renal 1-hydroxylase activation to calcitriol, bone calcification and deficiency rickets. | pending |
+| prokaryotic-eukaryotic-translation — `aa8 B32, p. 19` | `translation`; `prokaryotic`; `eukaryotic`; `ribosome` | Pending records separately cover eukaryotic initiation and bacterial 70S ribosomes, but none compares prokaryotic with eukaryotic translation; the broad live bacterial-ribosome fact is a near-match. | new |
+| primase — `aa8 B33, p. 19` | `primase`; `RNA primer`; `DNA replication`; `Okazaki` | Pending `CON-FND-75C487BD0973FA` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` states that primase lays the required short RNA primer before DNA polymerase can synthesize a new strand. | pending |
+| two-three-bpg — `aa8 B34; B51, pp. 19/25` | `2,3-BPG`; `BPG`; `haemoglobin`; `oxygen affinity` | Pending `CON-HEM-6B557A065A8D90` in `docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md` explicitly states that 2,3-BPG binds haemoglobin and lowers oxygen affinity. | pending |
+| copper-dependent-enzymes — `aa8 B39, p. 21` | `copper`; `copper enzyme`; `lysyl oxidase`; `ceruloplasmin` | Pending `docs/Alexandria-Source-Imports/question/AU-MED-102-biochem-nitrogen-blood-mcq.md` (Q11) explicitly states that copper is a cofactor for cytochrome oxidase and ceruloplasmin, covering the copper-dependent-enzyme scope. | pending |
+| ldh-isoenzymes — `aa8 B43, p. 21` | `LDH`; `lactate dehydrogenase`; `isoenzyme`; `lactate` | Pending `CON-FND-DD3EE5EC8C07D1` in `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` identifies five H/M-subunit LDH tissue isoenzymes and their diagnostic distribution. | pending |
+| lyase-enzyme-class — `aa8 B44, p. 22` | `lyase`; `enzyme class`; `cleavage`; `synthase` | ATP-citrate lyase and HMG-CoA lyase records name individual enzymes only; none states the lyase enzyme-class cleavage mechanism. | new |
+| z-dna — `aa8 B45, p. 22` | `Z-DNA`; `Z DNA`; `left handed`; `DNA conformation` | All four queries return no same-scope record. | new |
+| nucleosome-function — `aa8 B46, p. 22` | `nucleosome`; `histone octamer`; `chromatin`; `DNA packaging` | Pending `CON-FND-3660CDEFA054C3` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` describes the H2A/H2B/H3/H4 octamer and its DNA-packaging role. | pending |
+| dna-polymerase-iii-proofreading — `aa8 B47, p. 23` | `DNA polymerase III`; `polymerase III`; `proofreading`; `exonuclease` | Pending `CON-FND-7302601EA492D2` covers generic replication proofreading, but both polymerase-III queries return no record; it does not establish the bacterial polymerase-III scope. | new |
+| complex-iv — `aa8 B-W1, p. 26` | `complex IV`; `cytochrome c oxidase`; `ETC`; `oxygen acceptor` | Pending `CON-FND-CFB54F33867C57` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-metabolism-concepts.md` identifies cytochrome oxidase as Complex IV and directly covers its cyanide inhibition, the examined Complex-IV inhibitor scope. | pending |
+
+Batch delta: `live +0`, `pending +13`, `new +7`; no concept ID is minted by this ledger.
