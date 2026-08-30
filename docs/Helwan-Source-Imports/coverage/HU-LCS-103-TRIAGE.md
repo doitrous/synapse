@@ -20932,3 +20932,99 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 oversized page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:**
 32 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 199 — Tier-6 oversized lower-limb muscle-action reference map
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_dbea380c57c7673c3204` / `dbea380c57c7673c32046910bf8c979402ad0acedbe45fb800da255ee769d238` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/Muscles actions of the Lower limb.pdf` |
+| Physical verification | **49,084 bytes; one native-text oversized page; 1272.96 x 1933.92 pt; untagged; unencrypted; PDF 1.4**. Full hash, byte size, page count and geometry match. The page was rendered completely at 160 dpi to a 2,829 x 4,298 RGB image and inspected in complete-page and high-resolution band views; the native layer contains exactly one physical-page terminator. The document reports no form and qpdf confirms no AcroForm fields. |
+| Visible / metadata provenance | The sole visible title is `Muscles actions of the Lower limb`. No author, institution, university, module, cohort, sitting, marks or key claim appears. Metadata identifies Chromium/Skia PDF m87 and 21 May 2021 creation/modification, but adds no content authority. |
+| Authority finding | Unattributed tier-6 completed teaching-reference evidence. Its folder placement and metadata do not establish a Helwan assessment sitting, learner response form, practical station or official key. |
+
+The complete oversized canvas is one central mind map with **25 completed action branches / 72
+printed action-to-muscle link occurrences**. The physical inventory closes as follows:
+
+| Completed branch group | Action branches | Printed muscle-link occurrences |
+|---|---:|---:|
+| hip flexion, extension and adduction | 3 | 13 |
+| hip medial/lateral rotation, abduction, combined abduction/lateral rotation, opposite-side pelvic-drop prevention and stabilization | 6 | 22 |
+| knee flexion, extension, medial/lateral rotation, unlocking and stabilization | 6 | 15 |
+| ankle dorsiflexion and plantar flexion | 2 | 10 |
+| foot inversion, eversion and medial/lateral/transverse arch support | 4 | 8 |
+| big-toe and lateral-four-toe flexion/extension | 4 | 4 |
+| **Total** | **25** | **72** |
+
+There is **no assessment inventory**. The title, action nodes and muscle leaves all supply
+their information simultaneously; no question, learner instruction, response space, masked
+answer, selection state, delayed reveal or key appears. Exact assessment delta is **0 eligible
+or external prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `Dorai flexion`, `Flexor hallicuis
+longus`, `Quadrats femoris`, `Prevention of the pelvic drop on opposite sides`, every repeated
+muscle occurrence and every printed action membership. Inventory does not medically or
+editorially repair, infer or endorse any link.
+
+### Practical and image boundary
+
+The page is a completed text mind map: it contains no anatomy photograph, specimen, model,
+masked structure, numbered identification station, learner-completed map, response blank or
+practical key. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0
+residues / 0 keys / 0 practical teaching scopes**. The 72 completed semantic links are
+theoretical-reference occurrences and do not enter the practical mapping ledger.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The 25 branches consolidate to seven complete theoretical teaching handles:
+
+| Teaching handle | One query on each required surface | Complete-scope result |
+|---|---|---|
+| hip flexion/extension/adduction muscles | hip flexion extension adduction iliopsoas gluteus maximus adductors | Accepted Families 39–41, 46 and later lower-limb summaries own the complete action/muscle scope — prior-LCS reuse. |
+| hip abduction/rotation/pelvic stabilization muscles | hip abduction rotation pelvic drop stabilization gluteus piriformis obturator | Accepted Families 40, 46, 194–195 and later banks own the complete mechanics — prior-LCS reuse. |
+| knee flexion/extension/rotation/unlocking/stabilization muscles | knee flexion extension rotation unlocking stabilization quadriceps hamstrings popliteus | Accepted Families 42, 44, 46, 65, 151, 176 and 181 own the complete movement/muscle scope — prior-LCS reuse. |
+| ankle dorsiflexion/plantar-flexion muscles | ankle dorsiflexion plantar flexion tibialis gastrocnemius soleus | Accepted Families 43–44, 46 and later lower-limb banks own the complete action/muscle scope — prior-LCS reuse. |
+| foot inversion/eversion muscles | foot inversion eversion tibialis fibularis peroneus | Accepted Families 43–44, 46 and later lower-limb banks own the complete action/muscle scope — prior-LCS reuse. |
+| foot arch-support muscles | foot medial lateral transverse arch tibialis fibularis peroneus | Accepted Families 43–44, 46 and later lower-limb banks own the complete support scope — prior-LCS reuse. |
+| toe flexion/extension muscles | great big toe lateral four toes flexion extension hallucis digitorum | Accepted Families 43–44, 46 and later lower-limb banks own the complete toe-action scope — prior-LCS reuse. |
+
+Each of the **seven accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **7 x 4 =
+28 required search invocations**. The surface searches found live and pending component
+coverage; complete-scope accepted-ledger comparison establishes **7 prior-LCS theoretical
+reuses / 0 additive live / 0 additive pending / 0 additive new teaching scopes**. Declarative
+theoretical scopes do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 198's remainder. Removing its sole path changes the remainder
+from **32 paths / 31 unique hashes** to **31 paths / 30 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **22 paths / 22 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 198's checksums were
+`ef468433b736696a53478cbc9f9c8db927b9ca0b03678e3576f9d7a366b5eab4` (paths) and
+`67265267d42eddd674ac3ec772dadf3557ddfc8491a7a3edcd8136ff361444af` (unique hashes).
+For the exact post-Family-199 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`428713959fbd42723927b75f76cd5aa797439a60da6a5306d7e2560a3b2ff79e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`07a636dc95f8b240d2f8cf90c67e820763397e6b6e2e16abfea5c418bd22438b`.
+
+The exact next manifest-order debt is tier-6 `src_09a09e8a424b15141ecd`, `Nerves of lower
+limb_202146_16538.pdf` (27,088 bytes; two native-text 2011.92 x 1243.92 pt pages; untagged;
+unencrypted; PDF 1.4; SHA-256
+`09a09e8a424b15141ecd8c9b2596cd91482ab0283e341a2659b076a4e4ceb537`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until both
+oversized pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:**
+31 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
+update, import or source copy was created.
