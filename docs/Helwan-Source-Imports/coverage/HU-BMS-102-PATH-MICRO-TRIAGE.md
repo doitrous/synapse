@@ -10389,3 +10389,85 @@ with `Circulatory 1`, homeostasis, hemostasis, and edema. Microsoft Word metadat
 adjudication. Its complete rendered content, provenance/date boundary, teaching/prompt/key/
 written/practical classification, and overlap with Family 94 and prior circulatory evidence are
 the exact next-source blockers.
+
+## Family 95 — Circulatory disturbance 1 teaching summary
+
+### Source identity, render boundary, provenance conflict, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_b0c65040fd6056fedf38` · `Circulatory disturbance 1.pdf` |
+| SHA-256 / size | `b0c65040fd6056fedf384b1806141c54d0b65f99efe63ea3bbf6d17bf6b70a71` · 186,715 bytes |
+| Placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / complete read boundary | Nine native-text portrait A4 595.32×841.92-point pages; all nine rendered at 150 dpi into non-empty 1241×1754-pixel images and visually read at original detail |
+| Native layer | 1,473 words / 14,039 bytes extracted across the complete PDF; the renders establish the fully populated comparison tables, section hierarchy, footer attribution, and absence of response blanks |
+| Visible provenance | Page 1 is headed `Circulatory 1`; every page visibly carries the footer `DR Ahmed Hassan`. This supports visible attribution to Dr Ahmed Hassan, but no university, module code, academic year, teaching date, or assessment sitting is printed. Manifest placement supports BMS-102 routing but cannot supply those absent visible fields. |
+| Metadata conflict/caution | Microsoft Word metadata names author `Alnoaman` and gives April 5, 2025 creation/modification timestamps. The metadata author conflicts with the visible Dr Ahmed Hassan footer and is not used to override it; the timestamps are file-production fields, not proof of teaching date, academic year, or sitting. |
+| Authority | Tier-6 pathology teaching summary. It is neither an assessment instrument nor an official answer key. |
+
+### Complete page-first teaching, prompt/key, written, practical, and callout inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Homeostasis definition/aim, hemostasis definition/aim/abnormalities, and edema definition/pathogenesis | declarative teaching and completed table; no task or response space |
+| 2 | Edema classified as inflammatory/non-inflammatory, localized/generalized, and pitting/non-pitting, with supplied characteristics and causes | fully populated comparison tables, not a fill-in exercise |
+| 3 | Edema morphology; subcutaneous, pulmonary, and brain edema; clinical/pathologic effects; nutmeg-liver and heart-failure-cell notes | declarative teaching; `N.B.` is an emphasis box, not a prompt |
+| 4 | Hyperemia and congestion definitions/causes; right-sided-heart-failure findings; early nutmeg liver versus late cardiac cirrhosis gross morphology | completed teaching comparison; no written or practical request |
+| 5 | Microscopic early/late congested-liver changes; chronic venous congestion of lung/brown induration; acute and chronic local venous congestion | completed teaching tables and causal bullets |
+| 6–7 | Hemorrhage definition/causes; external, internal-cavity, and interstitial sites/types; petechiae/purpura, ecchymosis and hematoma; effects of rapid, severe, and chronic blood loss | completed terminology and consequence tables; no candidate command |
+| 8–9 | Shock definition, signs, causes and cardiogenic, hypovolemic, septic, anaphylactic, and neurogenic types; early compensated, decompensated reversible, and irreversible progression | declarative teaching and fully populated progression table |
+
+Headings such as `Def`, `Aim`, `Causes`, `Types`, `Effect`, `Pathogenesis`, `Sites`, `N/E`, and
+`M/E` label supplied teaching content. Numbered lists enumerate causes, signs, types, or stages;
+they are not numbered questions. All tables are already populated, and no color, underline,
+footer, or callout establishes an answer-key convention.
+
+There is no exam heading, candidate instruction, question stem, option set, unanswered blank,
+written exercise, practical/image-identification request, student response, mark allocation, or
+separate answer key anywhere in the nine pages. The source therefore contributes **0 prompt
+occurrences / 0 printed or handwritten teaching-answer occurrences / 0 unkeyed occurrences / 0
+prompt-like residues / 0 retained records / 0 source-distinct tested handles / 0 concept
+additions**.
+
+### Source-first zero gate, prior-BMS adjudication, and cumulative arithmetic
+
+The source substantially overlaps Family 94's connection map and prior BMS-102 evidence on edema,
+hyperemia, congestion, hemorrhage, and shock, but completed declarative teaching does not create a
+source-tested handle. With no accepted handle, the exact source-first gate is **0 handles × 4 = 0
+required searches**. No external search row or prior-BMS tested-handle reuse is fabricated.
+
+| Measure | Family 95 | Auxiliary cumulative (Families 12–95) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 847 | 765 | 1,612 |
+| Printed/handwritten teaching-answer occurrences | 0 | 470 | 405 | 875 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 788 | 552 | 1,340 |
+| Source-distinct tested handles / required searches | 0 / 0 | 712 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +487 over primary | 372 | `372 + 487 = 859` |
+| **Distinct tested concepts** | **+0** | **487 auxiliary additions** | **372** | **859** |
+
+The checksum closes: `0` accepted prompts yield `0` answer occurrences, unkeyed occurrences,
+residues, retained records, handles, searches, external dispositions, prior-handle reuses, or
+concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**847 / 470 / 788 / 712 / +487**; and all eligible evidence remains
+**1,612 / 875 / 1,340 / 859**. Family 95 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, student-response, readiness, or claims status.
+
+### Exact next debt after Family 95
+
+`src_b0c65040fd6056fedf38` is exhausted across all nine pages: every source/provenance field,
+visible-versus-metadata author boundary, teaching definition, completed table/list, heading and
+callout convention, prompt/key/written/practical absence, zero search gate, and unchanged
+arithmetic term is assigned once, with **zero source remainder** and no Family-95 blocker. The
+exact next manifest-ordered BMS-102 record is tier-6 `src_5621c7022d99d93ed5c0` · `Circulatory
+disturbance 2.pdf`, SHA-256
+`5621c7022d99d93ed5c0bf0e0128e302183d32dd83ad1bb807b03b4578d0a78a`, 167,298 bytes, five
+native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its first-page snippet opens
+with `Circulatory disturbance 2: Thrombosis`, hemostasis, thrombus definition, and Virchow's
+triad. Microsoft Word metadata again names `Alnoaman` and gives an April 4, 2025 production
+timestamp; both require visible-source adjudication. Its complete rendered content, provenance/
+date boundary, teaching/prompt/key/written/practical classification, and overlap with Families
+94–95 and prior circulatory evidence are the exact next-source blockers.
