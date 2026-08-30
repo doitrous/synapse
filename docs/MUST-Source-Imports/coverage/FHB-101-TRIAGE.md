@@ -6233,3 +6233,33 @@ Removing this one empty-text path and unique hash leaves **19 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 2 Notes (online) (by Linah).pdf`, SHA-256 `168c6d4fa11fc30119b28a38b3f4f68e788c0e08dc37aef12ea13eb3fc1acdd3`, 4 pages.
 
 **BLOCKED — S1 cannot be approved:** 19 selected source paths remain untriaged.
+
+## Completed source — Histology Lec 2 Notes (online) (by Linah)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 2 Notes (online) (by Linah).pdf` | `168c6d4fa11fc30119b28a38b3f4f68e788c0e08dc37aef12ea13eb3fc1acdd3` | 4 | empty-text | pages 1–4 rendered and read | Samsung-produced image-only export of handwritten online lecture notes attributed by filename to Linah. Its SHA and page content differ from the preceding three-page lecture-note file: this is a topical continuation, not a byte or page-sequence duplicate. It prints no institution, department, lecturer, sitting, marks or examination/key claim and is a student teaching source. |
+
+### Exact teaching / assessment boundary
+
+Page 1 explains passive, active and bulk membrane transport. Page 2 covers coated vesicles, a dwarfism clinical statement and mitochondrial structure. Page 3 continues mitochondrial functions/clinical application and compares rough with smooth ER. Page 4 gives two ER clinical-application statements. Red stars, underlining, highlights and `Clinical Application` headings mark emphasis; they neither ask for a response nor provide a marking convention.
+
+The exact boundary is therefore **0 prompt occurrences / 0 key observations / 0 prompt-matched recovered answers**. There is no practical-identification or written-answer task. With no source-tested prompt, there is no accepted concept handle: **0 handles × 4 = 0 searches**, no live/pending/new split and no prior-FHB collapse operation.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7155 | 6740 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **18 selected inventory paths / 18 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `53d8c45f52a6e13a97b9ba4e8fa1430580fb62d9a5b67f25df36e453aba4d56c`. Pinned triage debt becomes **zero substantive-text / four sparse-text / 14 empty-text** rows, and unique-hash accounting is **`88 + 18 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 3 Notes (by Linah).pdf`, SHA-256 `5582d9ca8f95ba200f9f2b6d68895ea51e2bd2b90be14158cbd1656542a7b5f2`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 18 selected source paths remain untriaged.
