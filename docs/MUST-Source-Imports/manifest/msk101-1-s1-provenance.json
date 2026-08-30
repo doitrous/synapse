@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "d7e7501efe143647c3e820d6166fc35996f2b18e197955aeb95a4317cdfa2980",
-    "triageMarkdown": "254b168aae9ecee83e4ddd1ae7afadec7d8a703e83ee4545bc4ae2893d8eb8ae"
+    "readinessMarkdown": "7a5b8467f2163c621a4ffc24c4850b7ec9d153175c5013e258e858629e64f5c3",
+    "triageMarkdown": "2d217186375e9fbcf9258cbfa6e1b59ba273f787cc9f148c68b79eccb7ca0e11"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -92,6 +92,7 @@
       "be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4",
       "c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64",
       "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
+      "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
       "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
@@ -107,7 +108,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 55
+    "uniqueSha256": 56
   },
   "completedSourceCoverage": [
     {
@@ -1570,10 +1571,50 @@
         "near-repeated pectoralis-minor, scapulohumeral, clavipectoral-fascia and medial-rotation items remain counted as printed occurrences",
         "all thirty-three answers are source-absent and none is inferred from anatomy knowledge"
       ]
+    },
+    {
+      "sha256": "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "printedQuestionLabels": "Q1-Q31",
+      "printedPromptObservations": 31,
+      "objectiveMcqPrompts": 31,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 31,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 31,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Abdelsalam Bakr student training-question document created in Microsoft Word on 23 October 2025; no printed institution, department, examiner, sitting, marks, assessment instruction or official-key claim",
+      "boundaryDisposition": "continuous Q1-Q31 sequence of text-only MCQs across all eight pages; no answers or key, written prompts, practical or image-identification prompts, teaching pages or answer-only material",
+      "siblingComparison": {
+        "distinctFrom": "59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3",
+        "distinctDisposition": "different visible prompt sequence from Training Questions 2",
+        "exactNormalizedPromptSequenceCarrier": {
+          "sha256": "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
+          "path": "Anatomy_MSK101-1_Training_Questions.pdf",
+          "normalizedTextChars": 7938
+        }
+      },
+      "preservedSourceDefects": [
+        "Q12 supplies only three options",
+        "Q23, Q30 and Q31 each supply five options while most items supply four",
+        "near-repeated brachial-plexus and axillary-artery prompts remain counted as printed occurrences",
+        "all thirty-one answers are source-absent and none is inferred from anatomy knowledge"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 5928,
+    "printedPromptObservations": 5959,
     "printedKeyObservations": 5788,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
@@ -1581,15 +1622,15 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 47,
-    "uniqueSha256": 46,
-    "sortedNewlineSha256": "80ead454bd745bc88cc182dffb1aaaa70de69e4010e5b7192328430910136ae7",
+    "inventoryMetadataRows": 46,
+    "uniqueSha256": 45,
+    "sortedNewlineSha256": "17170d9ff2b71a3a815489dafef41cb3460b117cae2db97e6abc290690b825d2",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 20
+      "substantive-text": 19
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1597,12 +1638,12 @@
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 20
+    "substantive-text": 19
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 55,
-    "remainingUniqueSha256": 46,
+    "processedUniqueSha256": 56,
+    "remainingUniqueSha256": 45,
     "processedPlusRemaining": 101
   }
 }
