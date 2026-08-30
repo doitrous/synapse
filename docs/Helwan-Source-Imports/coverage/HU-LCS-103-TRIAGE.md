@@ -15210,3 +15210,122 @@ SHA-256 `44ab7f7a56a9753d565c5037ac9202355d5a5c4ba899afb08d8f40636532ac7a`).
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 92 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 139 — Tier-3 student-authored fully keyed lower-limb MCQ bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_44ab7f7a56a9753d565c` / `44ab7f7a56a9753d565c5037ac9202355d5a5c4ba899afb08d8f40636532ac7a` |
+| File / boundary | `MCQs - Student MCQs Lower limb Mcqs.pdf` · 269,940 bytes · untagged, unencrypted PDF 1.3 · 24 physical US-Letter native-text pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - Student MCQs Lower limb Mcqs.pdf` |
+| Visible / metadata provenance | Page 1 prints an eight-part lower-limb contents list; p. 2 begins `Anatomy lower limb part 2`; every page carries the same decorative Arabic devotional header. PDF metadata supplies only iOS Quartz production and 16 August 2025 creation/modification, with no author or title. No page or metadata identifies Helwan University, a faculty, instructor, cohort, formal exam, sitting or official answer authority. |
+| Authority finding | The manifest explicitly identifies a student MCQ compilation. Its body establishes LCS-103 lower-limb relevance, but not eligible Helwan assessment or official-key authority; all governed occurrences remain external. |
+
+The assigned hash, byte size and 24-page physical boundary were recomputed and match. All 24
+pages were rendered at 120 dpi and read visually against the complete native text layer. Page
+1 is an uncounted contents page. Pages 2–22 carry a continuous Q1–Q180 sequence, and the
+`Key Answers` beginning beneath Q180 on p. 22 and continuing through pp. 23–24 supplies one
+printed letter for every number. The exact source sections close as:
+
+| Source section | Prompt range | MCQ prompts / letter keys |
+|---|---:|---:|
+| Popliteal fossa and posterior thigh | Q1–Q37 | 37 / 37 |
+| Posterior compartment of leg | Q38–Q54 | 17 / 17 |
+| Anterior and lateral compartments of leg | Q55–Q62 | 8 / 8 |
+| Hip and knee joints | Q63–Q83 | 21 / 21 |
+| Foot | Q84–Q100 | 17 / 17 |
+| Embryology | Q101–Q114 | 14 / 14 |
+| Lower-limb vessels and nerves | Q115–Q150 | 36 / 36 |
+| Mixed lower-limb questions | Q151–Q180 | 30 / 30 |
+| **Exact total** | **Q1–Q180** | **180 / 180** |
+
+The complete boundary is therefore **180 external MCQ occurrences / 180 printed answer
+letters / 0 unkeyed occurrences / 0 written prompts**. Section headings and the cover contents
+are navigation, not assessment prompts or teaching scopes. Split stems and repeated `Question:`
+labels inside clinical vignettes remain part of their numbered occurrence.
+
+Source defects are preserved without editorial or medical repair. Q30 has only A–C choices
+and prints `C`; Q34 and Q82 are two-choice true/false items with printed `A` and `B`; Q68 adds
+compound option `E/ c&d` and prints `E`; Q77 has only A/B and prints `A`; Q123 labels its last
+two distinct choices both `C`, while the grid prints `C`, so the source identifies a key letter
+but cannot disambiguate the intended option text. Q133 has only A–C and prints `C`; Q161
+contains malformed calcaneal nerve/artery option text; Q166 prints the option label `1B.`; and
+Q162 prints `E`. Every printed state is counted once exactly as supplied, without inference.
+
+### Teaching and practical boundary
+
+The entire bank is prose-only. There is no anatomical image, specimen, radiograph, clinical
+photograph, diagram, station, apparatus task, masked label, learner-completed map or standalone
+teaching section. Decorative headers/borders and the red answer grid are page furniture or an
+assessment-key container, not practical plates. The source adds **0 practical prompts / 0
+teaching plates / 0 mappings / 0 practical residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 180 occurrences collapse to **12 source-distinct tested handles**: posterior thigh and
+hamstrings; popliteal fossa and Baker cyst; posterior-leg muscles and Achilles mechanics;
+anterior/lateral leg compartments; hip joint; knee joint; foot dorsum, retinacula and tarsal
+tunnel; sole and foot arches; limb embryology; lower-limb arteries; lower-limb veins; and
+lower-limb nerves. Mixed-section clinical occurrences are assigned once to their governing
+regional handle rather than forming a duplicate catch-all handle.
+
+The exact four-query ledger was:
+
+| Handle | Live query | Pending query | Prior-import query | Accepted-LCS query |
+|---|---|---|---|---|
+| Posterior thigh/hamstrings | `hamstring muscles anatomy` | `posterior thigh compartment` | `biceps femoris semitendinosus semimembranosus` | `posterior thigh anatomy` |
+| Popliteal fossa/Baker cyst | `popliteal fossa contents` | `Baker cyst anatomy` | `popliteal fossa boundaries relations` | `popliteal fossa anatomy` |
+| Posterior leg/Achilles | `posterior leg muscles` | `Achilles tendon calf squeeze` | `gastrocnemius soleus plantaris popliteus` | `posterior compartment leg anatomy` |
+| Anterior/lateral leg | `anterior lateral leg muscles` | `fibularis dorsiflexion eversion` | `tibialis anterior extensor fibularis` | `anterolateral leg anatomy` |
+| Hip joint | `hip joint anatomy` | `hip joint ligaments capsule` | `acetabular labrum hip stability` | `hip joint lower limb` |
+| Knee joint | `knee joint anatomy` | `cruciate collateral ligament knee` | `knee bursae menisci capsule` | `knee joint lower limb` |
+| Foot dorsum/retinacula | `foot dorsum anatomy` | `extensor retinaculum tarsal tunnel` | `dorsalis pedis foot dorsum` | `foot dorsum retinacula anatomy` |
+| Sole/arches | `sole foot arches` | `intrinsic foot muscles arches` | `plantar layers longitudinal transverse arch` | `sole foot arches anatomy` |
+| Limb development | `limb embryology development` | `apical ectodermal ridge limb` | `limb rotation digit development` | `limb development embryology` |
+| Lower-limb arteries | `lower limb arteries` | `femoral popliteal tibial arteries` | `genicular anastomosis dorsalis pedis` | `lower limb arterial anatomy` |
+| Lower-limb veins | `lower limb veins` | `great small saphenous veins` | `femoral popliteal venous anatomy` | `lower limb venous anatomy` |
+| Lower-limb nerves | `lower limb nerves` | `tibial common fibular nerves` | `saphenous sural deep superficial fibular` | `lower limb nerve anatomy` |
+
+All **12 × 4 = 48 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Prior-external-first
+comparison finds all twelve handles represented across Families 86, 88, 94, 97, 100, 103,
+107–115, 118–124, 127, 129–131, 133–134 and 137. Accepted Anatomy Families 39–48
+corroborate curricular fit but cannot promote this student-authored bank into eligible Helwan
+evidence. Reconciliation is **12 prior-external reuses + 0 external additions = 12**;
+eligible and external concept-state deltas are zero. Search/render scratch stayed outside the
+worktree under `/private/tmp/lcs103-family139/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **6,318 / 6,052 / 221 = 12 / 135 / 74** to **6,498 external prompts / 6,232
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `6,318 + 180 = 6,498`, `6,052 + 180 = 6,232`, `221 + 0 = 221`, and `12 + 135 +
+74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in the Family-138 remainder. Removing its sole path leaves **91
+all-rank path instances / 86 unique hashes**: tier 3 **9 paths / 9 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 138's prior checksums are
+`6dc33349f423d02460ea86b19a8d1b935b92bf5ad50a5b91450a8ef4025f964a` (paths) and
+`60b0ee84ee543e1f0e61683bbcb8fbbcb80148bae908675587338c75f74a81b2` (unique hashes).
+For the exact post-Family-139 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`008ffe8af39e5def7d209d667a9077ed55e7ab3f88f46960168b4186840a83d2`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`02e65e70f545f92da90fe0014ce7198946c2446784f13999345b63e879b18569`.
+
+The exact next tier-3 manifest-order debt is `src_86030ade72934abe76ed`, manifest
+`MCQs - Student MCQs Multiple MCQ  Head &Neck .PDF`, whose existing normalized local file is
+`MCQs - Student MCQs Multiple MCQ Head &Neck.PDF` (287,881 bytes; 14 physical native-text
+pages; SHA-256 `86030ade72934abe76ed4656899f1073b6c22cc5945018a5ac56d28f42b2d4ee`).
+It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 91 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
