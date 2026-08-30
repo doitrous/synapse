@@ -605,10 +605,43 @@ The source is now `sourceProcessed=true`. Its completed delta is **+95 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — New MCQ for histology
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - New MCQ for histology .pdf` | `71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3` | 24 | empty-text audit sample | pages 1–24 rendered and read | iOS 14.3 Quartz image-only export created 22 December 2020. The scans are annotated Dr Kandeel study sheets spanning broad cytology, epithelium, connective tissue, cytogenetics and nervous tissue, with no MSK-specific title, institution, department approval, sitting, marks or official-key claim. It is a misfiled broad FHB study compilation, not a documented MSK exam or official key. |
+
+### Exact assessment, answer, teaching and source-defect boundary
+
+The source interleaves highlighted MCQ sheets, photographed handwritten keys and whiteboard teaching notes. The exact assessment inventory is **271 prompt occurrences / 268 prompt-matched recovered answers**:
+
+| Sequence | Prompt boundary | Prompt occurrences | Prompt-matched recovered answers | Key observations / defects |
+|---|---|---:|---:|---|
+| Cytology | pages 1–5 and 7–8 | 100 | 100 | Printed labels Q1–Q103 omit Q5, Q77, Q80 and Q82 and insert a second Q6 between Q44 and Q45. The photographed key mirrors the 100 printed occurrences. |
+| Epithelium | pages 9–11 | 45 | 44 | The page-12 key has 45 tokens, but Q33 is explicitly `X` and has no highlighted option. |
+| Connective tissue | pages 13–17 | 79 | 78 | The page-18 key has 79 tokens, but Q37 is marked cancelled in Arabic and has no selected option. |
+| Cytogenetics | pages 19–21 | 32 | 32 | Q3 is printed twice for distinct prompts. The photographed key has 31 numbered tokens, but all 32 prompts have visible selected options. |
+| Nervous tissue | page 23 | 15 | 14 | The otherwise unnumbered prompt between Q12 and Q14 is the key's Q13; it is explicitly `X` and has no selected option. |
+| **Total** |  | **271** | **268** | **270 photographed key tokens; three are cancellation/non-answer tokens, while duplicated cytogenetics Q3 is recovered from its visible selections.** |
+
+Pages 6, 12, 18, 22 and 24, plus note panels on pages 8 and 21, are teaching/key material rather than additional assessment prompts. There are **0 written prompts, 0 practical prompts and 0 image-identification prompts**. Highlighted options and photographed keys are duplicate evidence for the same answers and are not double-counted. No cancelled answer was inferred and no marked selection was medically corrected.
+
+### Exact cross-module duplicate and search disposition
+
+This MSK inventory file is byte-identical to the already completed FHB 101 path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - New MCQ for histology .pdf`: both have SHA-256 `71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3`. The FHB triage already records the same 271/268 boundary, source defects, **39 accepted handles and exactly 156 searches**. Repeating those searches would double-count an exact byte duplicate.
+
+The MSK occurrence therefore has **0 accepted new handles / 0 repeated searches**. Its distinct MSK inventory occurrence is retained as processed, while the cross-module family delta is **+0 questions / +0 answers / +0 concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. The MSK cumulative total remains **1338 questions / 1268 answers / 27 concepts**, split **0 live / 1 pending / 26 new**.
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these eighteen processed paths and unique hashes leaves **85 selected inventory paths / 83 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ba35926911f5a40b7d92bfe56bbd0378459bc9e09f34b73a0477d48bcfa400d0`. Remaining audit-review debt is 45 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`18 + 83 = 101`**.
+Removing these nineteen processed paths and unique hashes leaves **84 selected inventory paths / 82 unique SHA-256s**. Their sorted, newline-joined hash checksum is `1cdfde44cfb2058582b632eab33d5488277802a973d769d21dc20a03ee71c4ff`. Remaining audit-review debt is 45 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`19 + 82 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - New MCQ for histology .pdf`, SHA-256 `71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3`, 24 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - SKELETAL MUSCLE BY SALAMA.pdf`, SHA-256 `0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a`, 12 pages.
 
-**BLOCKED — S1 cannot be approved:** 85 selected inventory paths / 83 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 84 selected inventory paths / 82 unique hashes remain untriaged.

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "ff8e90bb76cc8ba50d4c48774adf990266c0a82285aca5175ab7422031d8f330",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "e93da2a74764025855f1868069365f21c8f79d8a02627aa1a07bfcac56db0a2d",
-    "triageMarkdown": "8302d901ffc1dd3266d520a2c330193dee8712c3e090bd0e1108bb5c22120323"
+    "readinessMarkdown": "6f8f4a573421b5496c6ad894890826dc315aa80905c6d109934bccb238395f9d",
+    "triageMarkdown": "a6865aa67da7ed67eeeb639b887372bc59cb88ed510b3705c3a6b2ab8a873933"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -60,6 +60,7 @@
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
+      "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
@@ -70,7 +71,7 @@
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 18
+    "uniqueSha256": 19
   },
   "completedSourceCoverage": [
     {
@@ -334,6 +335,33 @@
       "pendingHits": 0,
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
+      "sourcePages": 24,
+      "renderedReadPages": "1-24",
+      "printedPromptObservations": 271,
+      "printedKeyObservations": 268,
+      "sourceAbsentAnswers": 3,
+      "crossModuleExactDuplicateOf": {
+        "module": "FHB 101",
+        "sha256": "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3"
+      },
+      "referenceFhbAcceptedSourceHandles": 39,
+      "referenceFhbSearchesRun": 156,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "preservedSourceDefects": [
+        "cytology omits labels 5, 77, 80 and 82 and repeats label 6",
+        "epithelium 33 cancelled",
+        "connective tissue 37 cancelled",
+        "cytogenetics label 3 repeated",
+        "nervous tissue 13 cancelled"
+      ]
     }
   ],
   "triageCumulative": {
@@ -345,13 +373,13 @@
     "newConcepts": 26
   },
   "remaining": {
-    "inventoryMetadataRows": 85,
-    "uniqueSha256": 83,
-    "sortedNewlineSha256": "ba35926911f5a40b7d92bfe56bbd0378459bc9e09f34b73a0477d48bcfa400d0",
+    "inventoryMetadataRows": 84,
+    "uniqueSha256": 82,
+    "sortedNewlineSha256": "1cdfde44cfb2058582b632eab33d5488277802a973d769d21dc20a03ee71c4ff",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
-      "empty-text": 15,
+      "empty-text": 14,
       "sparse-text": 8,
       "substantive-text": 45
     }
@@ -359,14 +387,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
     "audit-not-found": 14,
-    "empty-text": 15,
+    "empty-text": 14,
     "sparse-text": 8,
     "substantive-text": 45
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 18,
-    "remainingUniqueSha256": 83,
+    "processedUniqueSha256": 19,
+    "remainingUniqueSha256": 82,
     "processedPlusRemaining": 101
   }
 }
