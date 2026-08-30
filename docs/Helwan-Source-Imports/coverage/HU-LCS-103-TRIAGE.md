@@ -18382,3 +18382,123 @@ The exact next manifest-order debt is tier-6 `src_65d4d6b6251c096723e2`, `Muscle
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 58
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 173 — Tier-6 Helwan muscle-physiology teaching summary with answered hypokalaemia activity
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_65d4d6b6251c096723e2` / `65d4d6b6251c096723e29649d0b2dc9b5204667e9499eb0249e21320acf2ff97` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/Muscle Helwan.pdf` |
+| Physical verification | **3,340,232 bytes; 20 native-text portrait-A4 pages; 595.32 × 841.92 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | Every page prints `Physiology`, `Muscles` and `Dr. El-Sawy`; metadata names author `Mamdouh`, Microsoft Word LTSC creator/producer and 3 July 2025 creation/modification. The local filename and LCS-103 manifest placement establish Helwan summary provenance. No page prints an examination sitting, cohort, marks or answer-key label. |
+| Authority finding | Course-local tier-6 teaching summary with one answered case activity and one scaffolded learner-response sequence. It is not a recoverable sitting, response form, practical station or official marking guide. |
+
+All **20/20 pages** were rendered at 150 dpi, inspected at full resolution and read against
+the native text layer. The complete physical boundary is:
+
+| Physical pages | Complete source-first composition | Assessment / practical boundary |
+|---:|---|---|
+| 1–2 | muscle definition, proportions, types, functions and functional histology | declarative teaching; the `MCQ` / `WRITTEN` icons mark high-yield statements, not prompts |
+| 3–4 | skeletal-muscle organization, sarcotubular system, T tubules, sarcoplasmic reticulum and triad | fully labelled explanatory diagrams; no hidden label or response field |
+| 5–7 | myofibril, sarcomere, bands, thick/thin filament proteins and enlarged labelled structural diagrams | declarative teaching only |
+| 8–10 | excitation–contraction coupling, calcium/troponin/tropomyosin control, cross-bridge cycling, rigor mortis and relaxation | declarative teaching and fully labelled pathway diagrams only |
+| 11–12 | skeletal/smooth/cardiac comparison, action potentials, contraction timing and calcium sources | completed comparison and labelled graphs, not assessment plates |
+| 13 | functional/structural filaments, dystrophin/Duchenne, excitability–contractility relations and muscle twitch | declarative teaching only |
+| 14 | length–tension, force–velocity, isometric and isotonic relations | completed teaching graphs and statements |
+| 15 | fatigue, oxygen debt, muscle metabolism and motor-unit organization | declarative teaching and labelled diagram |
+| 16 | regulation through spindle/reflex/higher centres, functional evaluation and clinical examination | declarative teaching sequence |
+| 17 | unitary/multiunit smooth muscle and calcium–calmodulin–MLCK contraction | declarative teaching and fully labelled pathway |
+| 18 | completed table of common primary muscular abnormalities | supplied teaching table; no masked cells or learner instruction |
+| 19 | vomiting/hypokalaemia case followed by three numbered written prompts and three directly printed answer units | **3 eligible written prompts / 3 printed answers** |
+| 20 | four numbered questions on potassium gradient, equilibrium-potential sign, hyperpolarization and muscle excitability; accompanying graph explicitly prints `Hyperpolarization: movement of RMP further away from zero` | **4 eligible scaffolded written prompts / 1 directly printed answer unit**; other implications are not inferred as keys |
+
+The exact assessment boundary is therefore **7 eligible ordinary written prompt occurrences /
+4 directly printed keys-or-answers / 0 external prompts / 0 practical or station prompts**.
+The p. 20 four-step sequence is one independently answerable causal-chain handle, so the seven
+occurrences collapse to four tested handles. The p. 19 prose supplies one direct answer per
+numbered prompt; on p. 20 only the graph's verbatim `Hyperpolarization` label is a source answer
+unit. The direction/sign, gradient and excitability consequences are not silently inferred into
+three additional keys.
+
+All other `MCQ` and `WRITTEN` badges are emphasis icons attached to declarative teaching
+statements. Every anatomical, physiological and clinical image is already fully labelled and
+serves theoretical explanation. The practical delta is exactly **0 prompts / 0 teaching plates /
+0 mappings / 0 unresolved residues / 0 practical assessment keys / 0 practical scopes**.
+Source wording and labels are preserved without repair, including `m. excitability`, `mEq./L`,
+`Acid-base balance`, `K+ homeostasis in vomiting` and the printed source arrows.
+
+### Assessment handles, exact searches and prior-LCS reconciliation
+
+| Source prompt → collapsed handle | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| p. 19 Q1 → `vomiting-hypokalaemia-muscle-cramp-mechanism` | hypokalemia muscle cramps mechanism vomiting; vomiting hypokalaemia muscle cramps; low potassium skeletal muscle irritability; muscle cramps hypokalaemia excitability | Exact accepted Family 75 p. 54A handle owns the tested mechanism. This source newly supplies a printed answer, not a new concept — prior eligible-LCS reuse; **1 key**. |
+| p. 19 Q2 → `vomiting-hypokalaemia-investigation-selection-and-justification` | hypokalemia vomiting investigations; vomiting ECG hypokalaemia; metabolic alkalosis investigations potassium loss; hypokalaemia workup justify | Exact accepted Family 75 p. 54B handle owns the investigation/justification request — prior eligible-LCS reuse; **1 key**. |
+| p. 19 Q3 → `severe-hypokalaemia-most-serious-cardiac-risk` | severe hypokalemia cardiac arrhythmia risk; low potassium ventricular arrhythmia; hypokalaemia serious cardiac risk; vomiting hypokalaemia fatal complication | Exact accepted Family 75 p. 54C handle owns the serious-risk request — prior eligible-LCS reuse; **1 key**. |
+| p. 20 Q1–Q4 → `hypokalaemia-gradient-negative-equilibrium-potential-hyperpolarization-reduced-excitability` | hypokalemia membrane hyperpolarization reduced excitability; potassium equilibrium potential hypokalaemia; low extracellular potassium negative potential; hypokalaemia skeletal muscle excitability | Exact accepted Family 75 p. 56A–D causal-chain handle owns all four scaffolded prompts — prior eligible-LCS reuse; **1 key**. |
+
+Each of the **four accepted assessment handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **4 × 4 = 16 required search invocations**. Broad partial matches occur across
+the first three surfaces; exact comparison with Family 75 is decisive. Final module concept
+delta is **0 live / 0 pending / 0 new** because all four tested handles are exact prior eligible-
+LCS reuses. All seven source prompt occurrences and all four direct source answers remain
+counted independently of concept reuse.
+
+### Theoretical teaching handles, exact searches and prior-LCS reconciliation
+
+The twenty page compositions collapse source-first to twelve complete teaching handles:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `muscle-definition-types-functions-and-functional-histology` · pp. 1–2 | skeletal cardiac smooth muscle types; muscle functions movement posture heat; muscle functional histology; musculoskeletal muscle types | Exact accepted Family 75 opening muscle-system scope — prior-LCS reuse. |
+| `skeletal-muscle-organization-sarcotubular-system-and-triad` · pp. 3–4 | skeletal muscle organization; sarcotubular system; T tubule sarcoplasmic reticulum; skeletal muscle triad | Exact accepted Family 75 structure/coupling teaching — prior-LCS reuse. |
+| `myofibril-sarcomere-bands-and-filament-proteins` · pp. 5–7 | sarcomere bands Z line; actin myosin sarcomere; thick thin filament proteins; myofibril structure | Exact accepted Family 75 sarcomere scope — prior-LCS reuse. |
+| `excitation-contraction-coupling-cross-bridge-rigor-and-relaxation` · pp. 8–10 | excitation contraction coupling; cross bridge ATP muscle; calcium troponin tropomyosin; rigor mortis muscle relaxation | Exact accepted Family 75 coupling/cross-bridge scope — prior-LCS reuse. |
+| `skeletal-smooth-cardiac-action-potential-and-calcium-comparison` · pp. 11–12 | skeletal smooth cardiac comparison; muscle action potential calcium; cardiac smooth skeletal contraction; muscle calcium sources comparison | Exact accepted Family 75 muscle-comparison scope — prior-LCS reuse. |
+| `muscle-properties-dystrophin-excitability-contractility-and-twitch` · p. 13 | dystrophin muscle; muscle twitch contractility; excitability contractility; Duchenne dystrophin | Exact accepted Family 75 properties/Duchenne/twitch scopes — prior-LCS reuse. |
+| `length-tension-force-velocity-isometric-and-isotonic-relations` · p. 14 | length tension muscle; force velocity muscle; isometric isotonic; afterload shortening | Exact accepted Family 75 mechanics scope — prior-LCS reuse. |
+| `fatigue-oxygen-debt-metabolism-and-motor-unit` · p. 15 | muscle fatigue oxygen debt; muscle energy exercise; motor unit muscle; postexercise oxygen | Exact accepted Family 75 fatigue/metabolism/motor-unit teaching — prior-LCS reuse. |
+| `muscle-regulation-spindle-reflex-evaluation-and-examination` · p. 16 | muscle spindle reflex; muscle contraction higher centres; musculoskeletal evaluation; muscle examination power | Exact accepted Family 75 regulation and clinical-evaluation scopes — prior-LCS reuse. |
+| `smooth-muscle-types-calmodulin-mlck-mechanism` · p. 17 | smooth muscle calmodulin; MLCK smooth muscle; unitary multiunit smooth muscle; smooth muscle contraction | Exact accepted Family 75 smooth-muscle mechanism scope — prior-LCS reuse. |
+| `common-primary-muscular-abnormalities` · p. 18 | primary muscular abnormalities; muscle disease table; muscular abnormalities clinical; muscle pathology abnormalities | Exact accepted Family 75 p. 52 abnormality teaching — prior-LCS reuse. |
+| `vomiting-hypokalaemia-homeostasis-membrane-excitability-and-risk` · pp. 19–20 | hypokalemia membrane excitability; vomiting alkalosis potassium; potassium homeostasis vomiting; electrolyte imbalance muscle | Exact accepted Family 75 pp. 53–59 clinical/electrolyte scopes — prior-LCS reuse. |
+
+Each of the **twelve accepted teaching handles** received exactly one query on each required
+surface, giving **12 × 4 = 48 required search invocations**. Broad live/pending/source-import
+fragments do not supersede exact accepted Family 75 source-level ownership. Final teaching
+disposition is **12 prior-LCS theoretical-teaching reuses / 0 additive live / 0 additive
+pending / 0 additive new scopes**. Together with the assessment ledger, **64/64 required
+search invocations** completed.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment advances from **1,070 / 703 / 337** by **+7 observed prompts / +4 direct
+keys-or-answers / +0 distinct concepts** to **1,077 observed questions / 707 printed keys-or-
+answers / 337 distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment
+remains **6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135
+pending / 74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156
+residues / 13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `7 = 3 + 4`, `4 = 3 + 1`, `1,077 = 1,070 + 7`, `707 = 703 + 4`,
+`337 = 337 + 0`, and `12 + 111 + 214 = 337`.
+
+This source hash occurs once in Family 172's remainder. Removing its sole path changes the
+all-rank remainder from **58 paths / 54 unique hashes** to **57 paths / 53 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **43 paths / 42 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 172's prior checksums are
+`503732f1926310ef8e305edc877ed5c47c85cc3cf9a5825ec02b97fbc1a84d3d` (paths) and
+`837f12ee876299cfbebe14055cf3ffa3f5dc1850ce811553592f8a9e8b4ab6bb` (unique hashes).
+For the exact post-Family-173 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0c368e59101551f59eda7145aa9d05f831a388d090014985661fcde5f2c75dbd`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`33319673762d864da7ff1adabb0ff6a5c4cd0f1b8ab3d7a04df70f9d906eb8ab`.
+
+The exact next manifest-order debt is tier-6 `src_033ed1d6b9fdd8722b7b`,
+`Notes_260514_181426 (1).pdf` (3,108,928 bytes; 2 OCR-needed pages; unencrypted; 600 × 848 pt;
+SHA-256 `033ed1d6b9fdd8722b7b20721a9012fba7ead0520326d11dec92d88d2f03af7d`)
+under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until both
+pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 57
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
