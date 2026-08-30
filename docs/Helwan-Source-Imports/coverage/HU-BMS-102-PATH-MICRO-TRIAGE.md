@@ -19975,7 +19975,7 @@ The exact next unprocessed manifest record is tier-4 `src_a9ccc0b353dbbd7670cb` 
 `a9ccc0b353dbbd7670cba31bd0156f9cf2490911d5567594809c65f3017a8514`, **60 native-text
 960×540 landscape pages**, **3,237,850 bytes**, under `Pathology / Theoretical / Lec 12 -
 Neoplasia 3`. The manifest
-records an on-page 2024 sitting-year signal while its visible first-page snippet identifies
-Academic Year 2024/2025, Year 1, Semester 2, and BMS-102. Its exact size, complete visible
-authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
+records a 2024 page-derived year field while its visible first-page snippet identifies Academic
+Year 2024/2025, Year 1, Semester 2, and BMS-102. Its complete visible authority/date boundary,
+teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
