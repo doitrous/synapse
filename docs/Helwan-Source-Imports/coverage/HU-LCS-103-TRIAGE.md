@@ -12888,3 +12888,92 @@ pages; SHA-256 `0e8202e39fbd93bc21b8cca5d38b0a4213f052e9230355b9ec05200004168336
 It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 118 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 113 — Tier-3 external Lower Limb MCQ Test with filename-only 2020 claim
+
+### Exact identity, authority and complete ten-page OCR boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_0e8202e39fbd93bc21b8` / `0e8202e39fbd93bc21b8cca5d38b0a4213f052e9230355b9ec05200004168336` |
+| File / boundary | `MCQs - External MCQs Anatomy Lower Limb MCQ 2020.pdf` · 1,799,833 bytes · unencrypted, untagged image PDF · 10 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy Lower Limb MCQ 2020.pdf` |
+| Visible / container provenance | Pages print `LOWER LIMB MCQ TEST`, `KEY FOR LOWER LIMB MCQ TEST` and a CamScanner watermark. Metadata names CamScanner as author, `intsig.com pdf producer` as producer and the opaque title/subject `UII2G10_02_2021_00_32_05(1)`; no creation or modification date is populated. |
+| Authority/date finding | The manifest filename's `2020` is rejected as sitting/date authority: no page prints 2020, an institution, faculty, module/cohort, examiner, sitting or official-key mark, while the opaque container title itself includes `2021`. This remains an external review/test bank under the explicit `External MCQs` path, not eligible Helwan assessment evidence. |
+
+The assigned hash, byte size and ten-page boundary were recomputed and match. Native extraction
+contains only page separators, so every page was rendered at 180 dpi, independently OCRed and
+read visually in source order. Pages 1–9 each contain five MCQs, and p. 10 contains Q46–Q47
+followed by one complete five-column key grid. The source PDF itself was not changed.
+
+| Physical pages | Visible units | MCQ prompts | Written prompts | Printed source-marked keys |
+|---|---|---:|---:|---:|
+| pp. 1–9 | Q1–Q45, five per page | 45 | 0 | 45 |
+| p. 10 | Q46–Q47 plus key Q1–Q47 | 2 | 0 | 2 |
+| **Family 113** | **Q1–Q47 once each** | **47** | **0** | **47** |
+
+The key grid contains one `a`–`d` mark for every Q1–Q47 with no missing number, duplicate
+number or out-of-range option letter. All 47 marks remain literal source evidence; none was
+medically corrected or used to promote the source's authority. There is no declarative
+teaching-only section, illustration, specimen, radiograph, micrograph, practical station,
+masked label, apparatus task or response form. Boundary is therefore **47 external MCQs /
+0 written / 47 printed keys / 0 unkeyed / 0 teaching-only units**. Practical delta is exactly
+**0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 47 occurrences form the following exhaustive one-assignment partition:
+
+| Source-first tested handle | Assigned prompts | Occurrences |
+|---|---|---:|
+| anterior/medial thigh muscles, attachments, actions and innervation | Q1, Q9–Q10, Q17, Q20, Q23, Q27, Q29, Q33, Q39, Q45 | 11 |
+| femoral triangle, ring, canal and sheath | Q6–Q8, Q36, Q41 | 5 |
+| lumbar plexus, femoral nerve and thigh cutaneous branches | Q11, Q16, Q21–Q22, Q31 | 5 |
+| gluteal muscles and sciatic foramina | Q13, Q15, Q30, Q32, Q42 | 5 |
+| sciatic/common-fibular nerve course and injury | Q18–Q19, Q25 | 3 |
+| hip-joint ligaments and stability | Q2, Q12 | 2 |
+| knee ligaments, popliteal fossa and unlocking | Q3–Q4, Q14, Q37, Q43 | 5 |
+| leg/foot movers and extensor-retinaculum relations | Q5, Q24, Q28 | 3 |
+| intrinsic-foot muscles and plantar-nerve supply | Q26, Q34–Q35, Q44 | 4 |
+| foot inversion/eversion and ankle ligament | Q38, Q40 | 2 |
+| limb-bud timing and digit anomalies | Q46–Q47 | 2 |
+| **Family 113** | **Q1–Q47 once each** | **47** |
+
+Each of the **11 handles** received one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **11 × 4 = 44 required search invocations**.
+Prior-external-first comparison maps all 11 to Family 86's lower-limb compilation, which
+contains exact prompt repeats and the same broad thigh, gluteal, neurovascular, joint, foot and
+limb-development domains. Accepted Families 20 and 39–48 independently own or corroborate
+the module scopes but cannot promote this external source. Reconciliation is **11
+prior-external reuses + 0 external additions = 11**, so external and eligible concept-state
+deltas are both zero. The exact 44-query ledger is preserved at
+`tmp/pdfs/lcs103-family113/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,477 / 3,390 / 221 = 12 / 135 / 74** to **3,524 external prompts / 3,437
+source-marked keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `3,477 + 47 = 3,524`, `3,390 + 47 = 3,437`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-112 remainder. Removing its sole path leaves
+**117 all-rank path instances / 109 unique hashes**: tier 3 **35 paths / 32 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 112's prior checksums are
+`7cde47c5785576802ba1e42bf84b96f77dfbfcbea981ac2f03fe1b4b95b7853e` (paths) and
+`97b1114ce70908e357340f2597dcaca45983b7d3df2dd1a3e8894d9077c8d5bf` (unique hashes).
+For the exact post-Family-113 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`5544145f9118319ed800142a93afc7e2108bfbbf34c4bda032fb079baea6efca`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`a9e07a787bfbc37076a1cd0cff54ee2d228f11b25a55d09015d876c557b72801`.
+
+The exact next tier-3 manifest-order debt is `src_43448731db34c1226402`,
+`MCQs - External MCQs Anatomy Lower Limb MCQ 2021.pdf` (471,620 bytes; 10 native pages;
+SHA-256 `43448731db34c122640219372f05e091b666cde533584ad6f9a87c254c76cb35`).
+It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 117 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
+record, catalogue update, import or source copy was created.
