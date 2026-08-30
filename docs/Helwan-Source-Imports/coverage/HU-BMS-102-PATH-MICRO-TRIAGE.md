@@ -10214,3 +10214,101 @@ file nested under `Theoretical / Lec 3 - Cell Injury 2` has a different SHA). It
 identifies `CELL INJURY 2`, Dr Enas Megahed Elhosary, Lecturer of Pathology, Faculty of Medicine,
 Helwan University. Its complete teaching/prompt/key boundary, preferred-twin identity, local-path
 resolution, and overlap with Families 90–91 are the exact next-source blockers.
+
+## Family 93 — preferred-name Cell Injury 2 annotated teaching variant
+
+### Source identity, local-path resolution, render boundary, and visible provenance
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_034276f9ba5a61ea711a` · `Cell-injury-lecture-2.pdf` |
+| SHA-256 / size | `034276f9ba5a61ea711a37a89f27bb5fd0df62d98abc12be5619656edc749111` · 8,573,598 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6 · manifest-preferred name twin; no external-university hint |
+| Exact local resolution | The manifest Notes-and-Summaries path is stale. The SHA-matching source is the file directly under `Pathology / Theoretical / Cell-injury-lecture-2.pdf`. The same-name file nested under `Pathology / Theoretical / Lec 3 - Cell Injury 2` is a different, non-current source: SHA-256 `f777eedff88b6dca216656eb373fb0612128fff63276683e7299bd8c97ae77a4`, 1,707,380 bytes. It is not substituted, merged, or counted here. |
+| Format / complete read boundary | 37 native-text landscape 791×445-point pages; all 37 rendered at 100 dpi and visually read at full available detail. Thirty-four renders are non-empty 1099×619-pixel images; pages 4, 7, and 11 are non-empty 1099×777-pixel images. |
+| Native layer | 1,390 words / 10,645 bytes extracted across the complete PDF. Image- and handwriting-heavy pages 4–11, 16–17, 26, and 36–37 require the renders rather than text extraction alone. |
+| Visible provenance | The cover visibly reads `CELL INJURY 2`, `Dr/ Enas Megahed Elhosary`, `Lecturer of Pathology`, `Faculty of Medicine`, and `Helwan University`. This supports Helwan authorship and instructor attribution; no academic year, teaching date, or exam sitting is visible. |
+| Metadata caution | Creator and producer are both `PDFium`; the creation-date field is empty. These file fields add no date, delivery, or sitting evidence. |
+| Authority | Tier-6 annotated lecture teaching material. It is neither an assessment instrument nor an official answer key. |
+
+### Page-first teaching, annotation, prompt/key, written, and practical inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Lecture cover and visible Helwan/instructor identity | provenance only |
+| 2 | Objectives and intended learning outcomes for cell injury | teaching objectives; no candidate-response command |
+| 3–4 | Apoptosis definition, physiological and pathological settings, plus expanded handwritten examples of physiologic and excessive/insufficient apoptosis | declarative teaching and annotations; no assessment task |
+| 5–8 | Apoptosis mechanisms and morphology; intrinsic/mitochondrial, extrinsic/death-receptor, and execution pathways; caspases, apoptotic bodies, membrane flipping, and completed pathway diagrams | completed printed/handwritten teaching explanations; question marks are answered in place |
+| 9–10 | Labelled apoptosis histology and completed apoptosis-versus-necrosis diagrams | completed image labels and teaching comparison, not an image-identification station |
+| 11–12 | Dysregulated-apoptosis consequences and completed feature-by-feature necrosis-versus-apoptosis table | declarative teaching; no blank table or response register |
+| 13 | Clinicopathological examples of reversible injury, necrosis, and apoptosis, with handwritten ischemia–reperfusion and DNA-damage notes | teaching synthesis and causal annotations; no case prompt or required response |
+| 14–18 | Intracellular-accumulation classes; hyalinosis definition, examples, gross/microscopic teaching and labelled micrographs; mucoid change and labelled example | completed teaching plates; no written exercise or practical station |
+| 19–24 | Endogenous/exogenous pigment classification; pathological pigmentation; melanin, hemosiderin, hemosiderosis, hemochromatosis, lipofuscin, and brown atrophy | declarative teaching and emphasis annotations only |
+| 25–32 | Amyloidosis definition, morphology, stains, labelled renal micrographs, systemic/localized and AL/AA patterns, and renal, hepatic, splenic, cardiac, and gastrointestinal involvement | completed teaching text and images; no identification request or response blank |
+| 33–36 | Pathologic calcification definition and morphology; dystrophic, metastatic, and stone patterns; gout morphology and completed gross/microscopic labels | declarative teaching and completed labels; no assessment or practical command |
+| 37 | `Thank you` closing slide | non-assessment closing residue |
+
+Highlights, arrows, circles, underlines, color shifts, Arabic/English side notes, and completed gross
+or histology labels consistently encode teaching emphasis or explanation, not correctness. Page
+5's literal `(why??)` is embedded inside the apoptosis-mechanism explanation and immediately
+resolved by the same source's membrane-integrity, non-leakage, and phagocytic-recognition notes.
+It is an instructor/audience-rhetorical callout, not a candidate-facing prompt, source key, or
+student-response residue.
+
+The source is a close annotated teaching variant of Family 90: it preserves the same Cell Injury
+2 arc, adds the clinicopathological-examples slide now at page 13, and omits Family 90's two
+hydropic-degeneration slides, producing 37 rather than 38 pages. Annotations and some layouts
+differ, so it is not a byte-identical duplicate; nevertheless, the overlap is teaching-only and
+does not create a tested proposition. Family 91's single-page concept-map composite also reuses
+topics from this same teaching arc, but contains no assessment occurrence to inherit here.
+
+There is no exam heading, numbered question set, candidate command, option set, answer register,
+unanswered blank, written exercise, practical station, image-identification request, student
+response, mark allocation, or separate printed key anywhere in the 37 pages. The source therefore
+contributes **0 prompt occurrences / 0 printed or handwritten teaching-answer occurrences / 0
+unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 source-distinct tested
+handles / 0 concept additions**.
+
+### Source-first zero gate, prior-BMS adjudication, and cumulative arithmetic
+
+The lecture overlaps prior BMS-102 teaching on apoptosis, intracellular deposits, pigmentation,
+amyloidosis, calcification, and gout, especially Families 90–91, but declarative or completed-label
+overlap does not create an assessment handle. With no accepted handle, the exact source-first gate
+is **0 handles × 4 = 0 required searches**. No external search row or prior-BMS tested-handle reuse
+is fabricated.
+
+| Measure | Family 93 | Auxiliary cumulative (Families 12–93) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 847 | 765 | 1,612 |
+| Printed/handwritten teaching-answer occurrences | 0 | 470 | 405 | 875 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 788 | 552 | 1,340 |
+| Source-distinct tested handles / required searches | 0 / 0 | 712 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +487 over primary | 372 | `372 + 487 = 859` |
+| **Distinct tested concepts** | **+0** | **487 auxiliary additions** | **372** | **859** |
+
+The checksum closes: `0` accepted prompts yield `0` answer occurrences, unkeyed occurrences,
+residues, retained records, handles, searches, external dispositions, prior-handle reuses, or
+concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**847 / 470 / 788 / 712 / +487**; and all eligible evidence remains
+**1,612 / 875 / 1,340 / 859**. Family 93 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, student-response, readiness, or claims status.
+
+### Exact next debt after Family 93
+
+`src_034276f9ba5a61ea711a` is exhausted across all 37 pages: the stale manifest path, exact
+SHA-matching direct-Theoretical file, different-SHA nested same-name file, visible provenance,
+every teaching slide, annotation/callout convention, completed diagram/table/image label,
+variant-overlap relation, prompt/key/written/practical absence, zero search gate, and unchanged
+arithmetic term is assigned once, with **zero source remainder** and no Family-93 blocker. The
+exact next manifest-ordered BMS-102 record is tier-6 `src_12fbda05af3743557ab3` · `Circulation
+connections.pdf`, SHA-256
+`12fbda05af3743557ab38870df80d75d755a016fe57c63979ab899a06f6d5f2f`, 954,676 bytes, three
+native-text portrait 594×846-point pages under `Pathology / Notes and Summaries`. Its first-page
+snippet begins a `Connection Map` for circulatory disturbances, while iOS Quartz metadata gives a
+March 6, 2025 file-production timestamp. Its complete rendered content, visible provenance,
+metadata/date limitation, teaching/prompt/key/written/practical boundary, and overlap with prior
+circulatory material are the exact next-source blockers.
