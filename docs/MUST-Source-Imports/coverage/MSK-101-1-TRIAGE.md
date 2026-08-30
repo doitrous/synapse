@@ -571,10 +571,44 @@ The source is now `sourceProcessed=true`. Its completed delta is **+0 questions 
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histology MSK101-1 Training Questions Final
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Training Questions Final.pdf` | `847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124` | 28 | substantive-text audit sample | pages 1–28 rendered and read | Microsoft Word 2024 export authored by Abdelsalam Bakr, created and modified 15 January 2026. The title is `Histology MSK101-1 Training Questions Final`; no institution, department, examiner, sitting, marks or official-key authority is printed. It is a local answered training bank, not a documented MUST exam sitting or official key. |
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+Pages 1–27 contain **95 consecutively numbered MCQs (1–95)**. Page 28 contains a complete **95-entry printed answer key**. The exact assessment boundary is therefore **95 prompt occurrences / 95 printed and recovered answers / 0 source-absent answers**. There are **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-only pages**. No printed answer was inferred or academically corrected.
+
+### Distinct expanded compilation, source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+The 95-item sequence is not an exact prompt-sequence duplicate of the prior 43-item cases family or any other processed bank: it is a longer, distinct compilation. It nevertheless reuses and expands many previously observed stems and semantic scopes. All 95 occurrences were assigned once across five source-first handles, reconciling as **14 + 23 + 21 + 18 + 19 = 95**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **5 × 4 = 20 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 14, cartilage types, cells, growth, matrix and intervertebral disc (`cartilage interstitial appositional growth chondrocyte chondroblast`; `hyaline elastic fibrocartilage sites perichondrium`; `intervertebral disc fibrocartilage Masson trichrome`; `cartilage matrix collagen type II lacunae`) | no external live/pending hit; same cartilage-cell, growth, site, matrix and disc scopes as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H2 | 23, skeletal-muscle fiber types, sarcomere, sheaths, dystrophin and regeneration (`skeletal muscle red white intermediate fibers swimmers`; `sarcomere A band I band H zone M line Z line`; `dystrophin titin satellite cells muscle regeneration`; `epimysium perimysium endomysium skeletal muscle`) | no external live/pending hit; same skeletal-muscle architecture, protein, dystrophy and repair scopes as completed MSK muscle assignments — **prior-MSK collapse**. |
+| H3 | 21, epidermal layers/cells, junctions, pigment and vitiligo (`epidermis Merkel Langerhans melanocyte keratinocyte`; `stratum spinosum desmosomes hemidesmosomes epidermal barrier`; `melanocyte tyrosinase melanosomes vitiligo neural crest`; `epidermal layers stratum basale granulosum lucidum corneum`) | no external live/pending hit; same epidermal-cell, junction, pigment and skin-disease scopes as completed MSK skin assignments — **prior-MSK collapse**. |
+| H4 | 18, bone cells, ossification, growth plate, remodeling and osteoporosis (`osteoblast osteoclast osteocyte bone fracture remodeling`; `epiphyseal plate proliferation hypertrophy calcification invasion`; `intramembranous ossification osteoporosis bone growth`; `Howship lacuna osteoclast bone resorption calcium`) | no external live/pending hit; same bone-cell, growth-plate, ossification, remodeling and osteoporosis scopes as completed MSK cartilage/bone assignments — **prior-MSK collapse**. |
+| H5 | 19, connective-tissue cells/fibers, adipose tissue and mast-cell allergy (`mast plasma macrophage reticular cells connective tissue`; `white brown adipose cytochrome oxidase hypothermia`; `collagen type I Masson trichrome tendon connective tissue`; `mast cell allergy plasma cell antibodies connective tissue`) | no external live/pending hit; same connective-tissue cell/fiber, adipose and mast-cell scopes as completed MSK connective-tissue assignments — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 5 externally new source handles**. Prior-MSK collapse removes all five, producing a completed-source concept delta of **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+95 questions / +95 answers / +0 post-prior concepts**. Cumulative arithmetic is **1243 + 95 = 1338 questions**, **1173 + 95 = 1268 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1338 | 1268 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these seventeen processed paths and unique hashes leaves **86 selected inventory paths / 84 unique SHA-256s**. Their sorted, newline-joined hash checksum is `c3b753278a615e6b24c64726d5d07b0375fbcd897f68f35fae38b3ce05d6b68e`. Remaining audit-review debt is 46 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`17 + 84 = 101`**.
+Removing these eighteen processed paths and unique hashes leaves **85 selected inventory paths / 83 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ba35926911f5a40b7d92bfe56bbd0378459bc9e09f34b73a0477d48bcfa400d0`. Remaining audit-review debt is 45 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`18 + 83 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Training Questions Final.pdf`, SHA-256 `847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124`, 28 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - New MCQ for histology .pdf`, SHA-256 `71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3`, 24 pages.
 
-**BLOCKED — S1 cannot be approved:** 86 selected inventory paths / 84 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 85 selected inventory paths / 83 unique hashes remain untriaged.

@@ -28,10 +28,10 @@
     }
   },
   "inputSha256": {
-    "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
-    "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "88f2f2e2de470ca0848a81d394cfc50b845b8b510a3a0f826d9462160a535a45",
-    "triageMarkdown": "57ea157ae4affedd81132c659aed36e6f6b42d0c2cd94c09cef295092414356a"
+    "inventoryTsv": "ff8e90bb76cc8ba50d4c48774adf990266c0a82285aca5175ab7422031d8f330",
+    "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
+    "readinessMarkdown": "e93da2a74764025855f1868069365f21c8f79d8a02627aa1a07bfcac56db0a2d",
+    "triageMarkdown": "8302d901ffc1dd3266d520a2c330193dee8712c3e090bd0e1108bb5c22120323"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -60,6 +60,7 @@
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
+      "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
       "b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9",
@@ -69,7 +70,7 @@
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 17
+    "uniqueSha256": 18
   },
   "completedSourceCoverage": [
     {
@@ -318,26 +319,41 @@
       "searchesRun": 0,
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
+      "sourcePages": 28,
+      "renderedReadPages": "1-28",
+      "questionPages": "1-27",
+      "keyPages": "28",
+      "printedPromptObservations": 95,
+      "printedKeyObservations": 95,
+      "acceptedSourceHandles": 5,
+      "searchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1243,
-    "printedKeyObservations": 1173,
+    "printedPromptObservations": 1338,
+    "printedKeyObservations": 1268,
     "namedConceptsAssigned": 27,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 26
   },
   "remaining": {
-    "inventoryMetadataRows": 86,
-    "uniqueSha256": 84,
-    "sortedNewlineSha256": "c3b753278a615e6b24c64726d5d07b0375fbcd897f68f35fae38b3ce05d6b68e",
+    "inventoryMetadataRows": 85,
+    "uniqueSha256": 83,
+    "sortedNewlineSha256": "ba35926911f5a40b7d92bfe56bbd0378459bc9e09f34b73a0477d48bcfa400d0",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 15,
       "sparse-text": 8,
-      "substantive-text": 46
+      "substantive-text": 45
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -345,12 +361,12 @@
     "audit-not-found": 14,
     "empty-text": 15,
     "sparse-text": 8,
-    "substantive-text": 46
+    "substantive-text": 45
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 17,
-    "remainingUniqueSha256": 84,
+    "processedUniqueSha256": 18,
+    "remainingUniqueSha256": 83,
     "processedPlusRemaining": 101
   }
 }

@@ -24,9 +24,10 @@ const PROCESSED_FAMILY_HASHES = [
   '4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e',
   'b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9',
   '628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84',
+  '847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = 'c3b753278a615e6b24c64726d5d07b0375fbcd897f68f35fae38b3ce05d6b68e'
+const REMAINING_CHECKSUM = 'ba35926911f5a40b7d92bfe56bbd0378459bc9e09f34b73a0477d48bcfa400d0'
 
 function option(name) {
   const prefix = `${name}=`
@@ -103,10 +104,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 15, 'sparse-text': 8, 'substantive-text': 46 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 15, 'sparse-text': 8, 'substantive-text': 45 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=46-substantive/8-sparse/15-empty/14-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=45-substantive/8-sparse/15-empty/14-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -122,7 +123,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '1243', '1173', '27']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '1338', '1268', '27']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -156,7 +157,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 17 || remainingHashes.length !== 84 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 18 || remainingHashes.length !== 83 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -164,7 +165,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 15, 'sparse-text': 8, 'substantive-text': 46 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 15, 'sparse-text': 8, 'substantive-text': 45 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -202,8 +203,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[14], sourcePages: 11, renderedReadPages: '1-11', questionPages: '1-11', inlineAnswerPages: '1-11', printedPromptObservations: 67, printedKeyObservations: 67, acceptedSourceHandles: 4, searchesRun: 16, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 2, sourceProcessed: true, preservedSourceDefects: ['distinct prompts share labels 38 and 39', 'two distinct prompts labelled 54'] },
     { sha256: PROCESSED_FAMILY_HASHES[15], sourcePages: 16, renderedReadPages: '1-16', teachingPages: '2-8', questionPages: '9-16', keyPages: '16', printedPromptObservations: 25, printedKeyObservations: 25, acceptedSourceHandles: 7, searchesRun: 28, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 2, sourceProcessed: true },
     { sha256: PROCESSED_FAMILY_HASHES[16], sourcePages: 12, renderedReadPages: '1-12', questionPages: '1-12', printedPromptObservations: 43, printedKeyObservations: 0, exactPromptSequenceDuplicateOf: PROCESSED_FAMILY_HASHES[4], familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true },
+    { sha256: PROCESSED_FAMILY_HASHES[17], sourcePages: 28, renderedReadPages: '1-28', questionPages: '1-27', keyPages: '28', printedPromptObservations: 95, printedKeyObservations: 95, acceptedSourceHandles: 5, searchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true },
   ],
-  triageCumulative: { printedPromptObservations: 1243, printedKeyObservations: 1173, namedConceptsAssigned: 27, liveHits: 0, pendingHits: 1, newConcepts: 26 },
+  triageCumulative: { printedPromptObservations: 1338, printedKeyObservations: 1268, namedConceptsAssigned: 27, liveHits: 0, pendingHits: 1, newConcepts: 26 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
