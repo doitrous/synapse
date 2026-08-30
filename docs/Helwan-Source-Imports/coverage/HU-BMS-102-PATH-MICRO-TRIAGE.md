@@ -13088,3 +13088,79 @@ manifest record is tier-6 `src_11281fc305c4b47d187f` · `inflammation-notes(1).p
 three native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its unusually small
 ReportLab-generated carrier, visible versus metadata provenance, and complete teaching-note
 versus prompt/key boundary are the exact next-source blockers.
+
+## Family 124 — Three-page inflammation slide-summary text carrier
+
+### Source identity, unusually small native carrier, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_11281fc305c4b47d187f` · `inflammation-notes(1).pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `11281fc305c4b47d187f91e268c678ea31a9cf765a7d7f66d90e4f5da2809c6d` · 5,736 bytes |
+| Format / complete visual boundary | Three native-text portrait A4 pages (595.276×841.89 points). All three pages were rendered at 180 dpi into three non-empty 1489×2105-pixel images and read individually at original detail; there is no page, crop, or visual remainder. |
+| Small-carrier / native-text reality | The complete PDF contains 503 coherent words: 3,528 layout-extraction bytes and 3,471 raw-extraction bytes. It has no embedded raster/vector image objects and uses only unembedded standard Helvetica and Helvetica-Bold Type-1 fonts. The visible blue heading bars, black body text, and white background are native drawing/text operations, so the unusually small size is internally consistent and the manifest's `native` label is accurate. |
+| Visible provenance | No cover, university, faculty, module code, author/instructor, academic year, lecture date, assessment label, or sitting is visible. Parenthetical references such as `Slides 4-6`, `Slide 7`, and `Slides 30-32` identify summarized slide ranges only; they do not establish the unseen deck's identity or provenance. |
+| Metadata caution | Metadata is anonymous/unspecified and identifies ReportLab as producer with 8 March 2026 creation/modification timestamps. These are file-production fields only, not visible authorship, note date, academic year, lecture date, or sitting. |
+| Authority | Tier-6 local declarative inflammation summary. It is not a candidate paper, question set, response sheet, practical station, or official key. |
+
+### Complete page-first teaching-note, prompt, key, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | Inflammation concept and three goals; cardinal local signs and their vascular/pain mechanisms; systemic manifestations/pyrogens; leukocytosis and acute-phase investigations | Declarative summary headings and bullet points only; **0 prompts / 0 answers**. |
+| 2 | Chronic-versus-acute cell predominance; vascular sequence and mediators; three increased-permeability mechanisms; exudate formation and definition | Completed teaching prose and numbered mechanism list; **0 / 0**. |
+| 3 | Transudate statement; intravascular and extravascular leukocyte-journey steps; recognition, engulfment, phagolysosome degradation, ROS killing, and acute-cell apoptosis | Completed teaching prose and process lists; **0 / 0**. |
+
+No heading or bullet is phrased as a question or imperative. Slide-range labels, numbers, colons,
+hyphen bullets, definitions, process steps, and capitalization do not encode candidate tasks or
+answer correctness. There is no case stem, option set, blank, response space, mark allocation,
+image/slide identification request, student annotation, concealed practical label, or separate
+key convention.
+
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0
+printed/source-supplied answer occurrences / 0 unkeyed prompt occurrences / 0 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted tested handle survives the completed declarative-note boundary. Exactly four
+searches are required only per accepted handle, so the source-first gate is exactly **0 handles
+× 4 = 0 required and completed searches**; no empty query or external-disposition row is
+fabricated. The note thematically condenses acute-inflammation material already visible in
+Families 105 and 122, but this is a source-level teaching relation only. With no tested handle,
+prior-BMS tested-handle reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 124 | Auxiliary cumulative (Families 12–124) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,028 | 765 | 1,793 |
+| Printed/source-supplied answer occurrences | 0 | 608 | 405 | 1,013 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 968 | 552 | 1,520 |
+| Source-distinct tested handles / required searches | 0 / 0 | 866 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +566 over primary | 372 | `372 + 566 = 938` |
+| **Distinct tested concepts** | **+0** | **566 auxiliary additions** | **372** | **938** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answers, unkeyed items,
+residues, retained records, tested handles, searches, external dispositions, prior-handle reuses,
+or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**1,028 / 608 / 968 / 866 / +566**; and all eligible evidence remains
+**1,793 / 1,013 / 1,520 / 938**. Family 124 contributes teaching notes only. It cannot establish
+an assessment, official key, dated sitting, recurrence, mark weight, student response, readiness,
+or claims status.
+
+### Exact next debt after Family 124
+
+`src_11281fc305c4b47d187f` is exhausted across all three pages: every native-text line, heading,
+slide-range reference, teaching statement, provenance limitation, zero-search gate, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-124 blocker. The exact next
+unprocessed manifest record is tier-6 non-preferred name twin `src_f660b7c9959ce8d1cde0` ·
+`introducTION.pdf`, SHA-256
+`f660b7c9959ce8d1cde0caf723b319815e8c49955d5fc5213607077dcb5e5bd4`, 660,346 bytes,
+11 native-text portrait US-letter pages under `Pathology / Notes and Summaries`; the manifest
+links it to preferred twin `src_4823964a3f81b3b2ecbb`. Its exact carrier/twin reuse, visible Dr
+Ahmed Hassan prompt/key convention, metadata-production caution, and complete assessment
+boundary are the exact next-source blockers.
