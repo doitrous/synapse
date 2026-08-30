@@ -14610,3 +14610,149 @@ manifest record is tier-5 `src_37644f108b9cb25e865c` ·
 organized carrier is locally available. Its duplicate-carrier relation, visible Dr Enas/Helwan
 provenance, complete cell-injury/inflammation teaching-versus-practical/prompt/key boundary,
 search gate, prior reuse, and arithmetic are the exact next-source blockers.
+
+## Family 139 — Dr Enas Elhosary Helwan cell-injury and inflammation virtual lab
+
+### Exact duplicate object, full render boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_37644f108b9cb25e865c` · `Cell injury and inflammation (Virtual Lab).pdf` under `Pathology / Practical Labs / Prelabs / Pre Lab 2 - Cell Injury & Inflammation` |
+| SHA-256 / size | `37644f108b9cb25e865c797c930f14ebe12ef02ef7434158ad08d0a60bc1a8d5` · 8,801,121 bytes |
+| Exact duplicate-carrier reconciliation | The prelab carrier and manifest-preferred `Pathology / Practical Labs / Virtual / Virtual Lab 1 - CBL Cell Injury ⁄ Inflammation/Cell injury and inflammation (Virtual Lab).pdf` both independently hash to the same SHA and are each 8,801,121 bytes. They are one byte-identical object, not two evidence families; the preferred Virtual placement adds no second prompt, answer, or handle occurrence. |
+| Format / complete visual boundary | 71 native-text landscape pages, each 720×540 points. All 71 pages were rendered at 150 dpi into 71 non-empty 1500×1125-pixel images and read individually at full detail; four complete contact sheets, layout extraction, and raw extraction were also read through the final page separator. There is no page, crop, image, label, response line, arrow, or text remainder. |
+| Native-text reality | Layout extraction contains 1,523 words / 14,286 bytes and raw extraction contains 1,322 words / 10,485 bytes. The native layer captures the stems, options, headings, and most labels, while visual review is necessary to join case photographs, arrows, response lines, and diagnosis-disclosing plates to their governing text. The manifest's `native` label is accurate; the rendered pages control classification. |
+| Visible provenance | Page 1 visibly reads `Cell Injury & Inflammation (Virtual Lab)`, `Dr/ Enas Megahed Elhosary`, `Lecturer of pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes named instructor, faculty, university, and virtual-lab teaching provenance. No module code, academic year, delivery date, candidate identity, or sitting is visible. |
+| Metadata caution | Metadata title is generic `PowerPoint Presentation`; author is `Maha`; creator/producer is Microsoft PowerPoint; creation/modification timestamp is 29 March 2026. `Maha` conflicts with the visible Dr Enas attribution, and the production timestamp cannot establish a lab date, academic year, or assessment sitting. |
+| Authority | Instructor-attributed Helwan tier-5 practical/virtual-lab teaching deck containing interleaved unkeyed learner operations. It is useful for practical-image and written-prompt evidence, but it is not an authenticated candidate paper, official station register, response sheet, or official key. |
+
+### Complete page-first teaching, case, prompt, answer, and practical boundary
+
+| Pages | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1–5 | Provenance cover; homeostasis, injury response, and completed reversible/irreversible outcome diagrams | Cover and declarative teaching only; **0 prompts / 0 answers**. |
+| 6 | `Draw diagram for cell with reversible vs irreversible cell injury`, followed by open drawing space | **1 unkeyed drawing/written prompt / 0 answers**. |
+| 7–14 | Adaptation teaching; BPH case narrative; labelled obstruction, gross, microscopic, and diagnosis-disclosing `OSPE: Benign prostatic hyperplasia (BPH)` plates | The case has no operative question. `OSPE` is a teaching label on already answered plates, not a station number, hidden-label task, or candidate response boundary; **0 / 0**. |
+| 15–21 | Endometrial-hyperplasia case and labelled morphology; reversible injury, fatty change, and labelled gross/microscopic teaching | Completed case/plate teaching; **0 / 0**. |
+| 22–24 | Obese diabetic 55-year-old with anemia, raised liver enzymes, and enlarged bright liver; gross liver image; then `Describe the gross picture` and `What is your diagnosis?` with response lines | **2 unkeyed practical case/image written operations / 0 answers**. Earlier fatty-change teaching supplies context but does not fill either response line or create a source key. |
+| 25–33 | Amyloidosis definition and labelled liver/spleen gross/microscopy; response-to-injury and necrosis-type teaching; first TB-lung case narrative | Completed teaching and one case setup without an operative task; **0 / 0**. |
+| 34 | TB-lung gross image and `This type of necrosis is:` with caseous/coagulative/gangrenous/liquefactive options | **1 unkeyed image-bearing MCQ / 0 answers**. No option is marked. |
+| 35–36 | Brain-infarct case narrative/image and the same four-option necrosis-type stem | **1 unkeyed image-bearing MCQ / 0 answers**. |
+| 37 | Black-toes image and the same four-option necrosis-type stem | **1 unkeyed image-bearing MCQ / 0 answers**. |
+| 38–42 | Acute-inflammation classification, exudate functions, cells, and completed leukocyte-migration diagrams | Declarative/labelled teaching; **0 / 0**. |
+| 43 | `Draw a sketch representing Neutrophil migration` through margination/rolling, firm adhesion, diapedesis, and chemotaxis, followed by open drawing space | **1 unkeyed drawing/written prompt / 0 answers**. |
+| 44–49 | Acute non-suppurative and chronic-inflammation teaching; fifth-case abscess narrative and gross photographs | Completed teaching and case setup; **0 / 0**. |
+| 50 | `What is the expected nature of the evacuated fluid?` and `What is the type of this disease?`, each with a response line | **2 unkeyed practical case/image written operations / 0 answers**. |
+| 51–55 | Sixth-case appendicitis narrative and gross/microscopy images; then `What is the nature of the yellowish material on the surface & lumen of appendix do you expect to find?` with response line | **1 unkeyed practical case/image written operation / 0 answers** on p.55; p.51–54 are case/plate context. |
+| 56–58 | Boiling-oil burn case, blister photograph, then `What type of inflammation do you suspect?` and `What is your diagnosis?` with one response line | **2 unkeyed practical case/image written operations / 0 answers**. The likely teaching inference is not a printed source answer. |
+| 59–66 | Allergic-rhinitis/nasal-polyp and tuberculosis case narratives; labelled nasal-polyp and granuloma teaching images/diagrams | Completed teaching/case context without an operative task; **0 / 0**. |
+| 67 | One granuloma field with two numbered four-option arrow-identification stems: green arrow and red arrows | **2 unkeyed image-bearing MCQs / 0 answers**. Arrow colors locate structures but do not mark an option or supply a key. |
+| 68–70 | Diagnosis-disclosing `Tuberculous Granuloma` teaching plate; `Describe the microscopic picture`; `Draw a Microscopic Sketch representing the structure of caseating granuloma`, each followed by response/drawing space | P.68 is labelled teaching; pp.69–70 contribute **2 unkeyed operations / 0 answers**: one practical image-description and one drawing/written prompt. |
+| 71 | `Thank you` | Closing slide only; **0 / 0**. |
+
+The exact raw format split is **5 image-bearing MCQs** (pp.34, 36, 37, and the two p.67 arrow
+items), **8 practical case/image written operations** (two each on pp.24, 50, and 58; one each
+on pp.55 and 69), and **3 drawing/written operations** (pp.6, 43, and 70): `5 + 8 + 3 = 16`.
+All **16 prompt occurrences are unkeyed**. There is no highlighted/selected option, filled response,
+answer reveal, student handwriting, correction, mark allocation, station timer, examiner direction,
+or separate key register. Diagnosis-disclosing BPH, nasal-polyp, and tuberculous-granuloma plates,
+including the slide literally headed `OSPE`, remain supplied teaching evidence outside prompt and
+answer arithmetic.
+
+Two same-proposition collapses preserve every occurrence. The p.50 evacuated abscess fluid and
+p.55 yellow appendiceal surface/lumen material both ask the learner to identify **purulent material
+/ pus** and collapse to one handle. The p.69 microscopic-description and p.70 microscopic-sketch
+operations both test the **structure of a caseating granuloma** and collapse despite different
+response modality. No other operations collapse: gross description versus diagnosis, inflammation
+class versus lesion diagnosis, and the two arrow colors ask distinct propositions. Thus the source
+retains **16 question records / 14 source-distinct tested handles**.
+
+### Source-first handle inventory, exactly-four-search ledger, and prior-BMS adjudication
+
+| Ref | Source-tested scope / source answer | Handle / prior-BMS assignment |
+|---|---|---|
+| F139-Q01 · p.6 | Draw reversible-versus-irreversible cell-injury comparison; none | `reversible-irreversible-cell-injury-diagram` · exact Family-2 `reversible-irreversible-cell-injury` reuse; later Family-73/112 items are further reuses/components |
+| F139-Q02 · p.24a | Describe fatty-liver gross picture; none | `fatty-liver-gross-description` · exact Family-2 `fatty-change-characteristics` / Family-112 `steatosis-morphology` reuse |
+| F139-Q03 · p.24b | Diagnose the obese diabetic patient's enlarged bright gross liver; none | `fatty-liver-gross-specimen-diagnosis` · new; Family 92 tests the later biopsy/signet-ring association, not gross-specimen diagnosis |
+| F139-Q04 · p.34 | TB-lung image: identify necrosis type; none | `tuberculosis-lung-caseous-necrosis` · exact Family-7/73 `tuberculosis-caseating-granuloma-necrosis` reuse |
+| F139-Q05 · p.36 | Brain-infarct image: identify necrosis type; none | `cerebral-infarct-liquefactive-necrosis` · exact Family-73/112 reuse |
+| F139-Q06 · p.37 | Black-toes image: identify necrosis type; none | `black-toes-gangrenous-necrosis` · new; Family 86 tests diabetes association and Family 118 tests the narrower dry-gangrene subtype |
+| F139-Q07 · p.43 | Sketch margination/rolling → adhesion → diapedesis → chemotaxis; none | `neutrophil-recruitment-sequence-sketch` · exact Family-1/10 `leukocyte-recruitment-stages` reuse |
+| F139-Q08,Q10 · pp.50a,55 | Identify evacuated/yellow appendiceal material as purulent material/pus; none | `abscess-appendix-purulent-material` · new; prior pus-composition handles test constituents, not material identification in these fields |
+| F139-Q09 · p.50b | Classify abscess disease type; none | `abscess-localized-suppurative-type` · exact Family-2/8/123 localized suppurative abscess reuse |
+| F139-Q11 · p.58a | Classify inflammation in the boiling-oil blister case; none | `burn-blister-inflammation-type` · exact Family-2/8 `serous-inflammation-burn` reuse |
+| F139-Q12 · p.58b | Diagnose the boiling-oil blister lesion; none | `boiling-oil-burn-blister-diagnosis` · new; prior burn/serous handles classify inflammation rather than this lesion-level diagnosis |
+| F139-Q13 · p.67a | Identify the green-arrow central granuloma structure; none | `granuloma-central-caseation-arrow` · new; prior caseation handles classify disease/necrosis but do not test this arrow-localized structure |
+| F139-Q14 · p.67b | Identify the red-arrow multinucleated structures; none | `granuloma-giant-cell-arrow` · new; prior giant-cell-origin and composite granuloma handles do not test image-arrow recognition |
+| F139-Q15,Q16 · pp.69–70 | Describe/sketch the microscopic structure of a caseating granuloma; none | `caseating-granuloma-microscopic-structure` · exact Family-2 `granulomatous-inflammation` / Family-88 `granuloma-microscopic-features` reuse |
+
+Every accepted handle received exactly four fresh searches across live repository state, pending
+import state, and prior BMS-102 Families 1–138: **14 × 4 = 56 required and completed searches**.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `reversible-irreversible-cell-injury-diagram` | `draw reversible irreversible cell injury diagram`; `reversible versus irreversible cell injury comparison`; `reversible irreversible injury morphology`; `cell injury reversible irreversible sketch` | no same-scope | exact Family-2 reuse |
+| `fatty-liver-gross-description` | `fatty liver gross description`; `steatosis gross morphology`; `yellow greasy enlarged liver fatty change`; `fatty liver gross specimen features` | pending morphology coverage in `CON-FND-3B89025E2FB4E0` + `CON-FND-70554B38361679` | exact Family-2/112 reuse |
+| `fatty-liver-gross-specimen-diagnosis` | `obese diabetic bright enlarged liver diagnosis`; `fatty liver gross specimen diagnosis`; `hepatic steatosis gross image identification`; `obesity diabetes bright liver pathology` | no same-scope | no exact prior; delta |
+| `tuberculosis-lung-caseous-necrosis` | `tuberculosis lung caseous necrosis type`; `TB lung necrosis caseous`; `caseation necrosis tuberculosis`; `tuberculous lung necrosis identification` | pending exact caseation coverage in `CON-FND-5B3B6BA12670C7` | exact Family-7/73 reuse |
+| `cerebral-infarct-liquefactive-necrosis` | `brain infarct necrosis liquefactive`; `cerebral infarct liquefactive necrosis`; `CNS infarction necrosis type`; `brain ischemia liquefaction pathology` | pending exact site/type coverage in `CON-FND-88508ABAB84A67` | exact Family-73/112 reuse |
+| `black-toes-gangrenous-necrosis` | `black toes gangrenous necrosis`; `ischemic black toes necrosis type`; `toe gangrene necrosis identification`; `dry black toes gangrenous change` | no same-scope | related prior scopes are not exact; delta |
+| `neutrophil-recruitment-sequence-sketch` | `neutrophil margination rolling adhesion diapedesis chemotaxis`; `leukocyte recruitment sequence`; `draw neutrophil migration acute inflammation`; `selectin integrin transmigration chemotaxis sequence` | no same-scope | exact Family-1/10 reuse |
+| `abscess-appendix-purulent-material` | `abscess evacuated fluid pus`; `yellow material appendix pus`; `purulent material abscess appendix`; `nature of abscess fluid pus` | no same-scope | prior composition/classification scopes differ; delta |
+| `abscess-localized-suppurative-type` | `abscess acute localized suppurative inflammation`; `type of disease abscess suppurative`; `localized purulent inflammation diagnosis`; `abscess inflammation classification` | no same-scope | exact Family-2/8/123 reuse |
+| `burn-blister-inflammation-type` | `burn blister serous inflammation`; `boiling oil burn inflammation type`; `serous inflammatory response skin blister`; `burn acute non suppurative inflammation` | no same-scope | exact Family-2/8 reuse |
+| `boiling-oil-burn-blister-diagnosis` | `boiling oil blister diagnosis`; `burn blister gross diagnosis`; `thermal injury bulla pathology diagnosis`; `second degree burn blister identification` | no same-scope | no exact prior; delta |
+| `granuloma-central-caseation-arrow` | `granuloma green arrow central caseation`; `caseating granuloma central necrosis identification`; `tuberculous granuloma arrow caseation`; `granuloma pink center caseous necrosis` | no same-scope; pending `CON-FND-5B3B6BA12670C7` is a non-arrow caseation fact only | no exact prior arrow-identification handle; delta |
+| `granuloma-giant-cell-arrow` | `granuloma red arrows giant cells`; `Langhans giant cells image identification`; `multinucleated giant cells granuloma arrows`; `tuberculous granuloma giant cell recognition` | no same-scope | prior origin/composite scopes differ; delta |
+| `caseating-granuloma-microscopic-structure` | `describe microscopic caseating granuloma`; `draw caseating granuloma structure`; `tuberculous granuloma microscopic features`; `caseation epithelioid giant cells lymphocytes sketch` | no same-scope composite owner | exact Family-2/88 reuse |
+
+External exact-scope disposition is **0 live / 3 pending / 11 no same-scope = 14 handles**. The
+eight exact prior-BMS reuses are the reversible/irreversible comparison, fatty-change gross
+morphology, TB caseous-necrosis type, cerebral-infarct liquefaction, leukocyte-recruitment
+sequence, localized suppurative abscess classification, burn/serous classification, and
+caseating-granuloma microscopic structure. Family 139 therefore adds `14 - 8 = 6` concepts.
+
+### Family-139 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 139 | Auxiliary cumulative (Families 12–139) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 16 | 1,209 | 765 | 1,974 |
+| Printed/source-supplied answer occurrences | 0 | 721 | 405 | 1,126 |
+| Unkeyed prompt occurrences | 16 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 16 | 1,144 | 552 | 1,696 |
+| Source-distinct tested handles / required searches | 14 / 56 | 1,026 / — | — | — |
+| External live / pending / no same-scope | 0 / 3 / 11 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 8 | — | — | subtract before concept addition |
+| Cross-family concept delta | +6 | +662 over primary | 372 | `372 + 662 = 1,034` |
+| **Distinct tested concepts** | **+6** | **662 auxiliary additions** | **372** | **1,034** |
+
+The checksum closes without remainder: `16 = 0 + 16` answered/unkeyed prompts; all 16 wordings
+are retained; `16 - 2 same-proposition reductions = 14` handles; searches are `14 × 4 = 56`;
+external disposition is `0 + 3 + 11 = 14`; and concept arithmetic is `14 - 8 prior exact reuses
+= 6`. Auxiliary arithmetic is `1,193 + 16 = 1,209` prompts, `721 + 0 = 721` answers, `1,128 +
+16 = 1,144` retained records, `1,012 + 14 = 1,026` handles, and `656 + 6 = 662` concept
+additions. All eligible arithmetic is `765 + 1,209 = 1,974`, `405 + 721 = 1,126`, `552 +
+1,144 = 1,696`, and `372 + 662 = 1,034`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now **1,209 / 721 / 1,144 / 1,026 /
++662**; and all eligible evidence is **1,974 / 1,126 / 1,696 / 1,034**. Family 139 cannot
+establish an administered station set, official key, academic date, recurrence, formal mark
+weight, student response, readiness, or claims status.
+
+### Exact next debt after Family 139
+
+`src_37644f108b9cb25e865c` is exhausted once across both byte-identical carriers and all 71 pages:
+every visible/metadata provenance field, teaching diagram, case narrative, labelled image, `OSPE`
+teaching caption, MCQ option set, drawing command, response line, arrow, unkeyed operation,
+same-proposition collapse, source-first search packet, prior-BMS relation, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-139 blocker. The exact next unique
+manifest record is tier-5 `src_201a33661e033200981c` ·
+`Repair, Circulatory and Benign tumor (Virtual Lab).pdf`, SHA-256
+`201a33661e033200981ce9d9a8bbac3ef4ca2c6d8a4ddd96b1658b76d0827614`, 8,791,309 bytes,
+63 native-text 960×540-point landscape pages under `Pathology / Practical Labs / Prelabs / Pre Lab
+3 - Repair & Circulation`.
+The manifest snippet visibly attributes `Repair, Circulatory & BENGIN TUMOR (Virtual Lab)` to Dr
+Enas Megahed Elhosary, Faculty of Medicine, Helwan University. Its exact carrier, complete
+teaching-versus-practical/prompt/key boundary, searches, prior reuse, and arithmetic are the exact
+next-source blockers.
