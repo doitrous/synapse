@@ -92,9 +92,10 @@ const PROCESSED_FAMILY_HASHES = [
   '7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043',
   'c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424',
   'bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec',
+  '3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = 'b9d055f7e745b67df4c9f3bb05c2a7c6c03a4ad75bb43b5191214ec074de1618'
+const REMAINING_CHECKSUM = '7c02402dab10c943b8240726aa7928849bef0a9bd8f6d7998b509228ea3b479e'
 
 function option(name) {
   const prefix = `${name}=`
@@ -171,10 +172,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 12, 'empty-text': 4 }
+  const expected = { 'audit-not-found': 12, 'empty-text': 3 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/0-sparse/4-empty/12-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/0-sparse/3-empty/12-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -224,7 +225,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 85 || remainingHashes.length !== 16 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 86 || remainingHashes.length !== 15 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -232,7 +233,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 4 }
+const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 3 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -338,6 +339,7 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[82], sourcePages: 1, renderedReadPages: '1', teachingPages: '1', diagrammedTeachingRegions: 4, namedOrGroupedArteryEntries: 10, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'filename-attributed Yumna handwritten teaching sheet scanned with CamScanner and produced by iOS Quartz on 28 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears, and filename-only midterm part wording is not assessment authority', boundaryDisposition: 'single scanned teaching diagram with four labeled arterial-anastomosis regions and ten named or grouped arterial entries; arrows and branches explain vascular connections but do not form objective, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['handwritten ditto marks and terminology remain uncorrected', 'edge-clipped text is retained only as visibly present and is not reconstructed', 'CamScanner author metadata is not promoted to named authorship or faculty authority'] },
     { sha256: PROCESSED_FAMILY_HASHES[83], sourcePages: 3, renderedReadPages: '1-3', teachingPages: '1-3', muscleProfiles: 3, explanatoryOriginInsertionNerveActionFields: 12, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'visibly bylined Maii Mahmoud learner teaching handout scanned with CamScanner and produced by iOS Quartz on 11 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears', boundaryDisposition: 'three teaching-only pages profile pectoralis minor, subclavius and pectoralis major using already labeled anatomical illustrations and twelve handwritten origin, insertion, nerve-supply and action fields; no objective, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['source spelling including Pectralis remains uncorrected', 'page-1 near the tip not the tip correction remains a source annotation', 'text clipped within embedded notebook photographs is retained only as visible and is not reconstructed', 'labeled third-party illustrations remain teaching aids and are not manufactured into practical prompts'] },
     { sha256: PROCESSED_FAMILY_HASHES[84], sourcePages: 2, renderedReadPages: '1-2', teachingPages: '1-2', anatomicalSpaceProfiles: 4, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'filename-attributed Yumna handwritten teaching notes scanned with CamScanner and produced by iOS Quartz on 31 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears, and filename-only midterm wording is not assessment authority', boundaryDisposition: 'two teaching-only pages profile the lower triangular, upper triangular, quadrangular and deltopectoral spaces through immediately supplied locations, boundaries and transmitted structures; question-mark shorthand organizes notes and does not create objective, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['source spelling including deto pectrol remains uncorrected', 'page-edge clipping and the visibly incomplete phrase presents inferior and lateral are not reconstructed', 'selective boundary and transmitted-structure facts remain source observations rather than endorsed anatomy claims'] },
+    { sha256: PROCESSED_FAMILY_HASHES[85], sourcePages: 3, renderedReadPages: '1-3', teachingPages: '1-3', labeledTeachingFigures: 4, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'filename-attributed nay and visibly signed Nayrose learner teaching summary produced by iLovePDF with modification on 30 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears', boundaryDisposition: 'three teaching-only pages cover mammary-gland gross anatomy, arterial supply, lymphatic drainage, lymph-vessel plexuses, applied anatomy, breast-cancer observations and examination reminders; four already labeled schematic figures and one immediately completed question-like sentence do not create objective, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['selective anatomy statements and page-2 quadrant-to-node mappings remain uncorrected', 'page-3 applied and clinical claims remain source observations rather than endorsed guidance', 'the highlighted what-gives-contour sentence remains teaching prose because its answer is supplied inline without response structure'] },
   ],
   triageCumulative: { printedPromptObservations: 6997, printedKeyObservations: 6793, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },

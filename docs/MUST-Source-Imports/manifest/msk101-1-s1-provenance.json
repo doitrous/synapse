@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "39e5084224133c5582a77aa40ce9bf4a5583d5dc1c277d300268bf3b44ef9d7e",
-    "triageMarkdown": "bf6061f3987c95ec8e42616bfc1a138bf8872489de73b54d68a471f252b8f295"
+    "readinessMarkdown": "10489d632c41e8ea847b98028536b6d08ee62834a38b9acde4f31aa098e5abb9",
+    "triageMarkdown": "f1634864ee71440d26031abc726deb75d5fbd3c4d7f3cd97b32ae71cf1fc48cd"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,6 +69,7 @@
       "3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b",
       "396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358",
       "3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b",
+      "3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa",
       "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
       "43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3",
@@ -137,7 +138,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 85
+    "uniqueSha256": 86
   },
   "completedSourceCoverage": [
     {
@@ -2727,6 +2728,34 @@
         "page-edge clipping and the visibly incomplete phrase presents inferior and lateral are not reconstructed",
         "selective boundary and transmitted-structure facts remain source observations rather than endorsed anatomy claims"
       ]
+    },
+    {
+      "sha256": "3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "teachingPages": "1-3",
+      "labeledTeachingFigures": 4,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed nay and visibly signed Nayrose learner teaching summary produced by iLovePDF with modification on 30 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "three teaching-only pages cover mammary-gland gross anatomy, arterial supply, lymphatic drainage, lymph-vessel plexuses, applied anatomy, breast-cancer observations and examination reminders; four already labeled schematic figures and one immediately completed question-like sentence do not create objective, written, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "selective anatomy statements and page-2 quadrant-to-node mappings remain uncorrected",
+        "page-3 applied and clinical claims remain source observations rather than endorsed guidance",
+        "the highlighted what-gives-contour sentence remains teaching prose because its answer is supplied inline without response structure"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2738,22 +2767,22 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 16,
-    "uniqueSha256": 16,
-    "sortedNewlineSha256": "b9d055f7e745b67df4c9f3bb05c2a7c6c03a4ad75bb43b5191214ec074de1618",
+    "inventoryMetadataRows": 15,
+    "uniqueSha256": 15,
+    "sortedNewlineSha256": "7c02402dab10c943b8240726aa7928849bef0a9bd8f6d7998b509228ea3b479e",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
-      "empty-text": 4
+      "empty-text": 3
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
-    "empty-text": 4
+    "empty-text": 3
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 85,
-    "remainingUniqueSha256": 16,
+    "processedUniqueSha256": 86,
+    "remainingUniqueSha256": 15,
     "processedPlusRemaining": 101
   }
 }

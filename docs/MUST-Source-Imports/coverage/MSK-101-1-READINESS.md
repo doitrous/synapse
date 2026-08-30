@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The eighty-five completed read-only source hashes cover eighty-seven selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed two-page `Spaces midterm (By Yumna).pdf`, SHA-256 `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`, is a handwritten teaching-only summary of **4 anatomical spaces with their locations, boundaries and transmitted structures / 0 objective / 0 written / 0 practical or image-identification prompts / 0 keys or unkeyed assessment prompts**. Filename attribution supports a learner-created Yumna artifact only; CamScanner/iOS metadata and filename-only `midterm` wording provide no institution, examiner, sitting, marks or official-key claim. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The eighty-six completed read-only source hashes cover eighty-eight selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed three-page `Summary of mammary gland (by nay).pdf`, SHA-256 `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`, is an illustrated teaching-only summary of **gross anatomy, arterial supply, lymphatic drainage, lymph-vessel plexuses, applied anatomy, breast-cancer notes and examination reminders / 0 objective / 0 written / 0 practical or image-identification prompts / 0 keys or unkeyed assessment prompts**. The filename and visible `Nayrose.` signature support a learner-created artifact only; iLovePDF metadata provide no institution, examiner, sitting, marks or official-key claim. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`.
+Latest processed family hash: `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`.
 
-Recent processed family hash retained for reconciliation: `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424`.
+Recent processed family hash retained for reconciliation: `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -80,8 +80,10 @@ Current teaching-source append: `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e0
 
 Current teaching-source append: `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`.
 
-Removing them leaves **16 inventory paths / 16 unique SHA-256s**, checksum `b9d055f7e745b67df4c9f3bb05c2a7c6c03a4ad75bb43b5191214ec074de1618`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 4 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Summary of mammary gland (by nay).pdf`, SHA-256 `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`, 3 pages.
+Removing them leaves **15 inventory paths / 15 unique SHA-256s**, checksum `7c02402dab10c943b8240726aa7928849bef0a9bd8f6d7998b509228ea3b479e`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 3 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 16 selected inventory paths / 16 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - connectivetissue_dr.ImanNabil.pdf`, SHA-256 `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`, 40 pages.
+
+**BLOCKED — S1 cannot be approved:** 15 selected inventory paths / 15 unique hashes remain untriaged.

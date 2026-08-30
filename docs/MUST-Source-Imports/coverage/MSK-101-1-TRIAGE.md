@@ -3445,3 +3445,41 @@ Removing the eighty-five processed unique hashes leaves **16 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Summary of mammary gland (by nay).pdf`, SHA-256 `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 16 selected inventory paths / 16 unique hashes remain untriaged.
+
+## Completed teaching-only source — Summary of mammary gland (by nay)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Summary of mammary gland (by nay).pdf` | `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa` | 3 | empty-text audit sample | pages 1–3 rendered and read | Filename-attributed `nay` illustrated handwritten teaching summary; each page visibly carries the signature `Nayrose.`. Metadata has no author or title and identifies only iLovePDF as producer with modification on 30 October 2024. No institution, department, examiner, sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Summary of mammary gland (by nay).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+All three pages are teaching notes. Page 1 covers the mammary gland's site, extent, apex, base, axillary tail, nipple, areola, lobes, ducts and supporting structures. Page 2 covers arterial supply and regional lymphatic drainage. Page 3 covers lymph-vessel plexuses, applied anatomy, breast-cancer observations and examination reminders. Four already labeled schematic figures accompany the notes.
+
+The highlighted sentence `what gives the contour shape and size of the breast` is immediately completed by `is subcutaneous fat` and functions as explanatory study prose rather than an assessment prompt. The exact boundary is **3 teaching-only pages / 4 labeled teaching figures / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. No figure has hidden labels, an identification instruction or response space.
+
+### Authority, source truth and search gate
+
+The filename and visible signature establish learner-level attribution only. iLovePDF production metadata and placement in a Midterm folder do not authenticate a MUST/MSK assessment, examiner or faculty key. Spelling, selective anatomy statements, the page-2 quadrant-to-node mappings and page-3 applied or clinical claims remain uncorrected source observations rather than endorsed guidance.
+
+No assessment prompt or candidate handle exists, so source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Prior-MSK prompt deduplication is not applicable to teaching-only notes.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **6997 questions / 6793 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6997 | 6793 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-six processed unique hashes leaves **15 selected inventory paths / 15 unique SHA-256s**. Their sorted, newline-joined hash checksum is `7c02402dab10c943b8240726aa7928849bef0a9bd8f6d7998b509228ea3b479e`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 3 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`86 + 15 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - connectivetissue_dr.ImanNabil.pdf`, SHA-256 `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`, 40 pages.
+
+**BLOCKED — S1 cannot be approved:** 15 selected inventory paths / 15 unique hashes remain untriaged.
