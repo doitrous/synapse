@@ -12185,3 +12185,87 @@ native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its full 
 visible `PATHOLOSIS 2026` / Helwan / Dr Tarek / first-year provenance and date authority,
 teaching-versus-prompt/key/callout boundary, source-first searches, and prior-BMS reuse are the
 exact next-source blockers.
+
+## Family 115 — Helwan first-year `PATHOLOSIS 2026` teaching excerpt
+
+### Source identity, complete render/native boundary, provenance, and carrier continuity
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_80f1f5e8c456f6cc8115` · `Pathology BMS II.pdf` |
+| SHA-256 / size | `80f1f5e8c456f6cc8115a0dffca94f123aa388dcfb3e0a49b390b1408dc856c1` · 6,987,117 bytes |
+| Format / complete visual boundary | Forty-seven native-text portrait A4 pages, each 595.32×841.92 points. All 47 pages rendered into 47 non-empty 1241×1754-pixel images and every render was read individually at original detail; there is no file-page or crop remainder. |
+| Native-text reality | Coherent extraction contains 9,205 words / 79,662 bytes and agrees with the rendered prose, tables, diagrams, arrows, and image captions. Visual layout controls the boundary; the manifest's `native` label is accurate. The PDF has no form, encryption, or JavaScript. |
+| Visible provenance | The cover visibly reads the literal title `PATHOLOSIS`, `2026`, `HELWAN UN.`, `Dr .TAREK`, and `For1st year HELWAN university students`. Content-page headers repeat `PATHOLOSIS`, `2026`, `HELWAN UN.`, and `Dr. TAREK`. This establishes visible Helwan first-year teaching attribution and a 2026 document-edition/course-date signal. The misspelled title is preserved rather than silently corrected. |
+| Date / module caution | The visible `2026` is not an assessment sitting, answer-key date, or publication certification. No page prints `BMS 102`; module routing comes from the manifest/folder, while the visible source supports only first-year Helwan pathology teaching. PDF metadata exposes no title, author, creator, producer, or creation/modification date that could strengthen provenance. |
+| Printed-page continuity | Physical pp. 2–28 carry printed pages 1–27; physical p. 29 resumes at printed page 88, initially finishing a neoplasia/TNM section before beginning circulatory disturbance, and physical pp. 30–47 continue through printed page 106. The source ends during the teaching list `Types of Toxemia`. This is a selected/excerpted carrier with a visible 27→88 discontinuity, not evidence that uncarried printed pages 28–87 were inspected or absent from an original book. All 47 pages actually present are exhausted. |
+| Authority | Tier-6 notes-and-summaries teaching compilation. It is not an exam, practical station, candidate response sheet, or official answer key. |
+
+### Complete page-first teaching, callout, practical, and prompt/key inventory
+
+| Physical pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Provenance cover with title, year, university, instructor, and audience | Declarative cover; **0 prompts / 0 answers / 0 residues**. |
+| 2–4 | Introduction to pathology; diagnostic pathology and laboratory accession/processing; routine/special stains, immunofluorescence, electron microscopy, immunohistochemistry, and molecular techniques; transition to cell injury | Completed definitions, workflows, and method mappings; **0 / 0 / 0**. |
+| 5–12 | Cell-injury causes and mechanisms; reversible injury; cloudy/hydropic and fatty change; necrosis definition, morphology, patterns, examples, and fate; apoptosis; necrosis-versus-apoptosis comparison; mucoid and hyaline changes | Supplied teaching prose, labelled diagrams, populated comparisons, and completed gross/microscopy images; **0 / 0 / 0**. |
+| 13–17 | Pigments, haemosiderin/haemochromatosis, dystrophic/metastatic calcification, systemic/local amyloidosis, organ/stain patterns, and gout | Completed definitions, causal mappings, tables, captions, and image labels; **0 / 0 / 0**. |
+| 18–28 | Acute and chronic inflammation; vascular/cellular exudates, chemotaxis and phagocytosis; local/systemic features and outcomes; suppurative/non-suppurative patterns, granuloma, mediators, repair, and cell types | Populated teaching tables, flowcharts, labelled morphology, and declarative callouts; **0 / 0 / 0**. |
+| 29 | Tail of a neoplasia section: TNM/prognostic factors and malignant names with benign-sounding endings; then hyperaemia | Mid-section supplied reference content across the printed-page jump, not a response fragment or prompt residue; **0 / 0 / 0**. |
+| 30–36 | Congestion, oedema, haemorrhage, shock, and the beginning of thrombosis | Completed mechanisms, classifications, effects, and labelled images; **0 / 0 / 0**. |
+| 37–44 | Thrombosis mechanisms/morphology/types/fate; DIC and clot comparison; embolism and pulmonary/systemic/fat/amniotic/air/tumour/parasitic/foreign-body forms; ischaemia/infarction and organ patterns | Completed teaching diagrams, comparisons, examples, and captions; **0 / 0 / 0**. |
+| 45–47 | Gangrene types and examples, including diabetic, bed-sore, infective, and gas gangrene; bacterial infection, bacteraemia, and toxemia teaching, ending mid-topic | Supplied continuation prose. The carrier endpoint does not create a learner blank, command, or answer residue; **0 / 0 / 0**. |
+
+Headings and callouts such as `Definition`, `Cause`, `Types`, `Fate`, `Effects`, `Depends on`,
+`So...`, `N.B.`, arrows, highlighted terms, and labelled gross/histology photographs organize
+already supplied teaching. Populated table cells and diagram labels are reference mappings, not
+answers to source-visible questions. No page contains an interrogative stem, learner command,
+option set, response blank, candidate instruction, mark allocation, image-identification task,
+student response, selective correctness mark, or separate answer register.
+
+The exact source boundary is therefore **0 raw prompt occurrences / 0 printed teaching-answer
+occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 source-
+distinct tested handles / 0 concept additions**.
+
+### Prior-source relation, source-first zero gate, and cumulative arithmetic
+
+Family 115 revisits broad cell-injury, accumulation, inflammation, repair, neoplasia, and
+circulatory-disturbance material already represented in primary chapters and multiple auxiliary
+families. Its labelled images, populated tables, and declarative mappings are teaching support,
+not tested propositions. The printed-page discontinuity and mid-topic endpoint likewise do not
+convert surrounding prose into assessment evidence, so no prior exact handle can be reused.
+
+No accepted assessment handle survives the completed teaching boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated, and thematic teaching overlap adds no tested concept.
+
+| Measure | Family 115 | Auxiliary cumulative (Families 12–115) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 959 | 765 | 1,724 |
+| Printed teaching-answer occurrences | 0 | 540 | 405 | 945 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 899 | 552 | 1,451 |
+| Source-distinct tested handles / required searches | 0 / 0 | 806 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +542 over primary | 372 | `372 + 542 = 914` |
+| **Distinct tested concepts** | **+0** | **542 auxiliary additions** | **372** | **914** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**959 / 540 / 899 / 806 / +542**; and all eligible evidence remains
+**1,724 / 945 / 1,451 / 914**. Family 115 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 115
+
+`src_80f1f5e8c456f6cc8115` is exhausted across all 47 file pages: every visible teaching block,
+table, diagram, image label, callout, provenance field, printed-page discontinuity, endpoint,
+prompt absence, prior-source relation, and zero-gate arithmetic term is assigned once, with
+**zero source remainder** and no Family-115 blocker. The exact next manifest record is tier-6
+`src_29d33a6f133ccbd05ee8` · `Repair - Inflammation - Circulatory written.pdf`, SHA-256
+`29d33a6f133ccbd05ee8c62ccac5f106fe4747f76b765e8a25d1e1596c8a0363`, 140,650 bytes, four
+native-text portrait US-letter pages under `Pathology / Notes and Summaries`. Its complete
+render/read, visible provenance versus metadata author/date, written prompt-versus-supplied-answer
+boundary, source-first four-search packets, and prior-BMS reuse are the exact next-source blockers.
