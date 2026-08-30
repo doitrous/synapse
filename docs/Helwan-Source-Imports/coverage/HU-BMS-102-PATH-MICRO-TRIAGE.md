@@ -7842,3 +7842,178 @@ lecture to Reem Abdelrahman, Lecturer of Microbiology and Immunology, Faculty of
 Helwan University; the PDF metadata author is `Esraa`. Its full provenance, metadata conflict,
 teaching/prompt/answer boundary, and prior-BMS relationship are the next-source processing
 blockers: fully render and visually adjudicate the complete source before admitting any count.
+
+## Family 70 — tier-4 Helwan sterilization and disinfection lecture
+
+### Source identity, complete visual boundary, and provenance ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_cf79a07d410cc87b8400` · `sterilization & disinfection2 (1).pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 7 - Sterilization & Disinfection/sterilization & disinfection2 (1).pdf` |
+| SHA-256 / size | `cf79a07d410cc87b840053488aa918107aa19fe0ab56ff9499b383e514d93a33` · 1,907,088 bytes |
+| Format / read boundary | 46 native-text landscape 720×540-point pages; native text extracted, all 46 pages rendered at 110 dpi and read in six ordered contact sheets, and every prompt-bearing or prompt-like page reopened at full-page resolution |
+| Visible provenance | The p. 1 cover attributes `STERILIZATION & DISINFECTION` to Reem Abdelrahman, Lecturer of Microbiology and Immunology, Faculty of Medicine, **Helwan University**, for 2025–2026 |
+| Metadata conflict | PDF metadata says `Author: Esraa`; the complete visible cover attribution is the authoritative authorship/institution boundary, so the deck is recorded as Reem Abdelrahman/Helwan material and the metadata conflict is preserved rather than silently reconciled |
+| Authority | Tier-4 local theoretical teaching deck; no examiner, sitting, marks, candidate instructions, response form, departmental question-bank designation, or official exam-key section |
+
+The deck combines a repeated ten-line pre/post checklist, declarative teaching, embedded
+`Explain`/`Think` prompts, and seven MCQs. The identical red ticks beside every checklist line are
+non-answer bullets. Checklist item 9 on both pp. 2 and 45 (`Kill all vegetative forms ... HBV and
+bacterial spores`) has no instruction, true/false cue, subject, or response operation and is an
+incomplete source fragment. The other nine checklist lines are complete but unmarked; earlier
+teaching propositions do not turn them into printed answers. By contrast, pp. 25–26 and 40 use a
+stable source-native red underline beneath exactly one option per MCQ, so those seven are printed
+teaching-answer occurrences. Pages 12, 14, and 38 visibly pair a prompt with its answer on the
+same slide. The five `Explain` prompts on pp. 9, 15, and 19 have no explicit mapped answer and
+remain unkeyed.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1 | Helwan cover | provenance only; **0 / 0** |
+| 2 | `Pretest`: nine complete prompts plus one incomplete item 9 fragment | **10 observed / 0**; item 9 excluded from retention |
+| 3–8 | objectives, definitions, importance, classification map, and heat overview | declarative teaching only; **0 / 0** |
+| 9 | three hot-air-oven precaution statements each followed by `Explain` | **3 / 0** |
+| 10–11 | illustrations and moist-heat/pasteurization teaching | teaching only; **0 / 0** |
+| 12 | hospital location where boiling is still used, with `neonatal ICU` highlighted immediately before the prompt | **1 / 1** |
+| 13 | autoclave pressure/temperature principle | declarative teaching only; **0 / 0** |
+| 14 | why autoclaving is most efficient, followed by four reasons | **1 / 1** |
+| 15 | why timing starts at the stated point in the simple-autoclave procedure | **1 / 0** |
+| 16–18 | autoclave diagrams and uses | teaching only; **0 / 0** |
+| 19 | why the steam-jacketed autoclave allows better air replacement | **1 / 0** |
+| 20–24 | autoclave diagrams/types and monitoring methods | teaching only; **0 / 0** |
+| 25 | three MCQs with source-native red underlines | **3 / 3** |
+| 26 | two MCQs with source-native red underlines | **2 / 2** |
+| 27–37 | gaseous sterilization, radiation, filtration, and illustrations | declarative teaching only; **0 / 0** |
+| 38 | how air is freed of microorganisms, immediately answered with HEPA passage | **1 / 1** |
+| 39 | HEPA illustrations | teaching only; **0 / 0** |
+| 40 | two gaseous-sterilizer MCQs with source-native red underlines | **2 / 2** |
+| 41–44 | disinfectants/antiseptics, activity factors, and recap map | declarative teaching only; **0 / 0** |
+| 45 | exact repeat of the ten p. 2 checklist lines | **10 observed / 0**; nine complete copies excluded and item 9 again incomplete |
+| 46 | `THANK YOU` closing | **0 / 0** |
+
+The prompt-start checksum is `10 + 3 + 1 + 1 + 1 + 1 + 3 + 2 + 1 + 2 + 10 = 35`
+observed units. Of those, two item-9 occurrences are incomplete and nine complete p. 45 lines
+are literal copies of p. 2. Thus `35 - 2 incomplete - 9 copies = 24 retained records`. The
+source prints **10 teaching-answer occurrences** (three same-slide mappings plus seven underlined
+MCQ options) and has **23 complete unkeyed prompt occurrences** before copy exclusion. There are
+zero semantic reductions among the retained records, so there are **24 source-distinct tested
+handles**.
+
+### Prompt, answer, copy, and prior-BMS assignment
+
+| Ref(s) | Page(s) | Complete source-tested scope / answer status | Handle / prior assignment |
+|---|---:|---|---|
+| F70-Q01,Q26 | 2,45 | Define sterilization; unkeyed | `sterilization-definition` · Q26 literal copy excluded; exact Family 19 Q01 reuse |
+| F70-Q02,Q27 | 2,45 | Differentiate disinfectant and antiseptic; unkeyed | `disinfectant-versus-antiseptic` · Q27 copy; exact Family 19 Q02 reuse |
+| F70-Q03,Q28 | 2,45 | Autoclaving acts by oxidative destruction; unkeyed T/F | `autoclave-oxidative-destruction-claim` · Q28 copy; exact Family 19 Q03 reuse |
+| F70-Q04,Q29 | 2,45 | Autoclaving is the most efficient sterilization method; unkeyed T/F | `autoclave-most-efficient-sterilization-claim` · Q29 copy; exact Family 19 Q04 reuse |
+| F70-Q05,Q30 | 2,45 | Syringes, sterile gloves, and catheters can be autoclaved; unkeyed T/F | `autoclave-suitability-syringes-gloves-catheters` · Q30 copy; exact Family 19 Q05 reuse |
+| F70-Q06,Q31 | 2,45 | Effect of double/triple atmospheric pressure on boiling point; unkeyed choice | `pressure-effect-on-water-boiling-point` · Q31 copy; exact Family 19 Q06 reuse |
+| F70-Q07,Q32 | 2,45 | Plasma-gas sterilization is high-temperature; unkeyed T/F | `plasma-gas-sterilizer-temperature-classification` · Q32 copy; exact Family 19 Q07 reuse |
+| F70-Q08,Q33 | 2,45 | Define pasteurization; unkeyed | `pasteurization-definition` · Q33 copy; exact Family 19 Q08 reuse |
+| F70-I01,I02 | 2,45 | Bare `Kill all vegetative forms ... HBV and bacterial spores` lines | incomplete source fragments; excluded with no handle/search |
+| F70-Q09,Q34 | 2,45 | Phenolics/chlorine as skin antiseptics; unkeyed T/F | `phenolics-chlorine-skin-antiseptic-suitability` · Q34 copy; exact Family 19 Q10 reuse |
+| F70-Q10 | 9 | Why instruments must be perfectly dry before hot-air-oven sterilization; unkeyed | `hot-air-oven-instruments-perfectly-dry-reason` · new |
+| F70-Q11 | 9 | Why hot-air-oven overloading must be avoided; unkeyed | `hot-air-oven-avoid-overloading-reason` · new |
+| F70-Q12 | 9 | Why the hot-air oven must cool before opening; unkeyed | `hot-air-oven-cool-before-opening-reason` · new |
+| F70-Q13 | 12 | Hospital location where boiling remains used; `neonatal ICU` | `boiling-method-neonatal-icu-use` · new |
+| F70-Q14 | 14 | Reasons for autoclave efficiency; four printed reasons | `autoclave-efficiency-heat-steam-latent-reasons` · new; broader than the prior T/F claim |
+| F70-Q15 | 15 | Why the simple-autoclave cycle is timed after continuous steam release; unkeyed | `simple-autoclave-cycle-start-continuous-steam` · exact Family 56 Q06/Q07 reuse |
+| F70-Q16 | 19 | Why steam-jacketed gravity displacement improves air replacement; unkeyed | `steam-jacketed-air-replacement-external-steam` · new; causal scope narrower than the later comparison MCQ |
+| F70-Q17 | 25 | Hot-air-oven time/temperature; underlined C | `hot-air-oven-time-temperature-cycle` · exact Family 38 Q11 / Family 56 Q04 reuse |
+| F70-Q18 | 25 | Method for destroying contaminated biological materials; underlined B · incinerator | `incineration-contaminated-biological-material-use` · exact Family 38 Q12 reuse |
+| F70-Q19 | 25 | Autoclave closed-vessel/pressure principle; underlined B | `closed-vessel-pressure-autoclave-principle` · exact Family 38 Q13 reuse |
+| F70-Q20 | 26 | Simple-autoclave construction; underlined A | `simple-autoclave-construction-components` · exact Family 38 Q14 reuse |
+| F70-Q21 | 26 | Advantage of steam-jacketed gravity displacement over simple autoclave; underlined C | `steam-jacketed-gravity-displacement-advantages` · exact Family 38 Q15 reuse |
+| F70-Q22 | 38 | How air filters remove microorganisms; immediate HEPA-passage answer | `hepa-filtration-method` · exact Family 56 Q12 reuse |
+| F70-Q23 | 40 | True ethylene-oxide property; underlined D · lethal alkylating/sporicidal action | `ethylene-oxide-sporicidal-alkylating-property` · exact Family 38 Q16 reuse |
+| F70-Q24 | 40 | True plasma-gas property; underlined B · long narrow lumen instruments | `plasma-gas-long-narrow-lumen-instruments` · exact Family 38 Q17 / Family 56 Q09 reuse |
+
+The p. 45 checklist is content-identical to Family 19's slide-41/42 screenshot, but the visible
+counter conflicts with this 46-page deck; it is recorded as an exact scope/text reuse rather than
+asserted as that fragment's physical parent. The full native carrier proves only that its seven
+red MCQ underlines are embedded source teaching marks. It does not convert the unmarked checklist
+into keyed material or retroactively change Family 19's answer ruling.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 24 handles received exactly four fresh source-first searches across live state,
+every pending import root, and prior BMS-102 evidence: **96 required searches**. Reopened
+external disposition is **0 live / 0 pending / 24 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External result | Prior BMS-102 relation |
+|---|---|---|---|
+| `sterilization-definition` · Q01 | `sterilization definition microbiology`; `complete destruction microorganisms spores`; `sterilization versus disinfection`; `microbial sterilization meaning` | no same-scope | exact F19 reuse |
+| `disinfectant-versus-antiseptic` · Q02 | `disinfectant versus antiseptic`; `disinfectant inanimate antiseptic living tissue`; `difference disinfection antisepsis`; `chemical agent skin versus object` | no same-scope | exact F19 reuse |
+| `autoclave-oxidative-destruction-claim` · Q03 | `autoclave oxidative destruction false`; `autoclave moist heat protein denaturation`; `autoclave mechanism microorganisms`; `steam sterilization mechanism` | no same-scope | exact F19 reuse |
+| `autoclave-most-efficient-sterilization-claim` · Q04 | `autoclave most efficient sterilization`; `steam under pressure efficiency`; `autoclave sterilization method comparison`; `most reliable sterilization method` | no same-scope | exact F19 reuse |
+| `autoclave-suitability-syringes-gloves-catheters` · Q05 | `autoclave syringes sterile gloves catheters`; `heat sensitive equipment autoclave`; `materials unsuitable autoclaving`; `steam sterilization medical disposables` | no same-scope | exact F19 reuse |
+| `pressure-effect-on-water-boiling-point` · Q06 | `pressure increases boiling point water`; `double atmospheric pressure autoclave boiling`; `steam pressure temperature relation`; `autoclave pressure boiling point` | no same-scope | exact F19 reuse |
+| `plasma-gas-sterilizer-temperature-classification` · Q07 | `plasma gas sterilizer low temperature`; `hydrogen peroxide plasma high temperature false`; `plasma sterilization heat sensitive`; `gas plasma sterilizer temperature` | no same-scope | exact F19 reuse |
+| `pasteurization-definition` · Q08 | `pasteurization definition microbiology`; `heat treatment reduce pathogens milk`; `pasteurization not sterilization`; `pasteurization temperature process` | no same-scope | exact F19 reuse |
+| `phenolics-chlorine-skin-antiseptic-suitability` · Q09 | `phenolic chlorine skin antiseptic`; `chlorine releasing compounds living tissue`; `phenol disinfectant not antiseptic`; `chemical disinfectant skin suitability` | no same-scope | exact F19 reuse |
+| `hot-air-oven-instruments-perfectly-dry-reason` · Q10 | `hot air oven instruments perfectly dry reason`; `dry heat sterilization instruments must be dry`; `moisture hot air oven sterilization precaution`; `why dry instruments before hot air oven` | no same-scope | none; delta |
+| `hot-air-oven-avoid-overloading-reason` · Q11 | `hot air oven avoid overloading reason`; `overloading dry heat sterilizer heat circulation`; `hot air oven load spacing sterilization`; `why not overload hot air oven` | no same-scope | none; delta |
+| `hot-air-oven-cool-before-opening-reason` · Q12 | `hot air oven cool before opening reason`; `do not open dry heat sterilizer until cool`; `hot glassware thermal shock hot air oven`; `why cool hot air oven before opening` | no same-scope | none; delta |
+| `boiling-method-neonatal-icu-use` · Q13 | `boiling method neonatal ICU use`; `hospital boiling disinfection neonatal intensive care`; `where boiling method still used hospital`; `boiling surgical equipment neonatal ICU` | no same-scope | none; delta |
+| `autoclave-efficiency-heat-steam-latent-reasons` · Q14 | `autoclave efficiency reasons heat steam latent heat`; `why autoclave most efficient sterilization`; `steam penetration condensation latent heat autoclave`; `autoclave efficiency high temperature nontoxic rapid` | no same-scope | none; delta |
+| `simple-autoclave-cycle-start-continuous-steam` · Q15 | `simple autoclave cycle starts continuous steam`; `autoclave timing after air expelled`; `steam release continuous stream autoclave time`; `simple autoclave cycle calculation` | no same-scope | exact F56 reuse |
+| `steam-jacketed-air-replacement-external-steam` · Q16 | `steam jacketed autoclave better air replacement`; `external steam source gravity displacement air`; `double wall steam jacket autoclave air removal`; `why steam jacketed replaces air better` | no same-scope | none; delta |
+| `hot-air-oven-time-temperature-cycle` · Q17 | `hot air oven time temperature cycle`; `dry heat 160 2 hours 170 1 hour`; `hot air sterilization duration differential`; `hot air oven temperature duration` | no same-scope | exact F38/F56 reuse |
+| `incineration-contaminated-biological-material-use` · Q18 | `incineration contaminated biological materials`; `biological waste sterilization incinerator`; `destruction contaminated material incineration`; `red heat versus incineration` | no same-scope | exact F38 reuse |
+| `closed-vessel-pressure-autoclave-principle` · Q19 | `autoclave principle closed vessel pressure boiling point`; `steam pressure water above 100`; `water heated closed vessel under pressure`; `physical principle autoclave` | no same-scope | exact F38 reuse |
+| `simple-autoclave-construction-components` · Q20 | `simple autoclave construction`; `safety valve manometer steam discharge tap`; `simple autoclave perforated tray components`; `metal cylinder tightly fitting lid autoclave` | no same-scope | exact F38 reuse |
+| `steam-jacketed-gravity-displacement-advantages` · Q21 | `steam jacketed gravity displacement autoclave`; `steam jacketed versus simple autoclave`; `automatic control air replacement drying`; `steam jacketed autoclave advantages` | no same-scope | exact F38 reuse |
+| `hepa-filtration-method` · Q22 | `HEPA filtration method`; `high efficiency particulate air filter sterilization`; `HEPA removes microbes by filtration`; `air sterilization HEPA mechanism` | no same-scope | exact F56 reuse |
+| `ethylene-oxide-sporicidal-alkylating-property` · Q23 | `ethylene oxide lethal alkylating agent spores`; `ethylene oxide sterilizer true property`; `EO gas kills all microbes including spores`; `ethylene oxide sporicidal mechanism` | no same-scope | exact F38 reuse |
+| `plasma-gas-long-narrow-lumen-instruments` · Q24 | `long narrow lumen sterilization method`; `plasma gas laparoscope narrow lumen`; `hydrogen peroxide plasma surgical instruments`; `plasma sterilizer true property` | no same-scope | exact F38/F56 reuse |
+
+Eighteen handles are exact prior-BMS reuses; the six explanatory/setting handles Q10–Q14 and
+Q16 are new. Therefore **24 - 18 = +6 concepts**.
+
+| Measure | Family 70 | Auxiliary cumulative (Families 12–70) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 35 | 673 | 765 | 1,438 |
+| Printed teaching-answer occurrences | 10 | 358 | 405 | 763 |
+| Complete unkeyed prompt occurrences | 23 | — | — | tracked separately |
+| Incomplete source fragments | 2 excluded | — | — | tracked separately |
+| Exact complete prompt copies | 9 excluded | — | — | p. 45 repeats p. 2 |
+| Retained question records | 24 | 636 | 552 | 1,188 |
+| Source-distinct tested handles / required searches | 24 / 96 | 601 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 24 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 18 | — | — | subtract before concept addition |
+| Cross-family concept delta | +6 | +416 over primary | 372 | `372 + 416 = 788` |
+| **Distinct tested concepts** | **+6** | **416 auxiliary additions** | **372** | **788** |
+
+The checksum closes without remainder: `35 observed - 2 incomplete - 9 complete copies = 24`
+retained records; `33 complete prompt occurrences - 10 printed answers = 23 unkeyed`; handle
+assignment is `24 - 0 semantic reductions = 24`; searches are `24 × 4 = 96`; external
+disposition is `0 + 0 + 24 = 24`; and concept arithmetic is `24 - 18 prior exact reuses = 6`.
+Auxiliary cumulative arithmetic is `638 + 35 = 673` prompts, `348 + 10 = 358` answers, `612 +
+24 = 636` retained records, `577 + 24 = 601` source handles, and `410 + 6 = 416` concept
+additions. All eligible arithmetic is `765 + 673 = 1,438`, `405 + 358 = 763`, `552 + 636 =
+1,188`, and `372 + 416 = 788`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**673 / 358 / 636 / 601 / +416**; and all eligible evidence is
+**1,438 / 763 / 1,188 / 788**. This Helwan-local teaching lecture contributes auxiliary
+pre/post, explanatory, and underlined-answer evidence only. It cannot independently raise exam/
+sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 70
+
+`src_cf79a07d410cc87b8400` is exhausted across all 46 pages: every provenance/objective/
+reference/closing page, declarative teaching slide, complete prompt, incomplete checklist
+fragment, literal copy, teaching-answer mark, unkeyed occurrence, retained record, handle, search
+row, prior-BMS reuse, and visible-cover-versus-metadata authorship decision is assigned once,
+with **zero source remainder** and no Family-70 blocker. The next manifest-ordered unprocessed
+BMS-102 record is tier-4 `src_173699352aab6917ba0e` · `Hand hygiene.pdf`, SHA-256
+`173699352aab6917ba0e2a0ec106fe2ba24ff46b23d3341ec2915dfdb2ce7ee5`, 4,841,961 bytes,
+72 native-text landscape 720×540-point pages under `Microbiology / Theoretical / Lec 8 - Hand
+Hygiene`. Its manifest first-page snippet attributes the source to Dr. Esraa Farag, Lecturer of
+Medical Microbiology and Immunology, Faculty of Medicine, Capital University, despite the Helwan
+folder placement; PDF metadata title `on control` and author `h` are non-authoritative. Its full
+provenance, teaching/prompt/answer boundary, and prior-BMS relationship are the next-source
+processing blockers: fully render and visually adjudicate the complete source before admitting
+any count.
