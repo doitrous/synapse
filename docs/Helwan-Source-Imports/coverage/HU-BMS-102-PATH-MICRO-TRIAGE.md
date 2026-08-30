@@ -13402,3 +13402,109 @@ tier-6 non-preferred carrier `src_b99cdce420e0a8647a09` · `neoplasia 4 (1).pdf`
 to the preferred local carrier `neoplasia 4.pdf` of the same manifest object. Their exact
 carrier authority, visible Dr Ahmed Hassan neoplasia teaching/prompt/key boundary, metadata
 provenance, and prior-neoplasia reuse are the exact next-source blockers.
+
+## Family 127 — Dr Ahmed Hassan Neoplasia 4 teaching deck and unkeyed interactive questions
+
+### Source identity, duplicate-carrier adjudication, complete render boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest object | Tier-6 `src_b99cdce420e0a8647a09` under `Pathology / Notes and Summaries` |
+| First/non-preferred carrier | `neoplasia 4 (1).pdf` · SHA-256 `b99cdce420e0a8647a0993c19e9f52d81227e1b7724187c825e39a88bbc61b02` · 774,929 bytes |
+| Preferred carrier | `neoplasia 4.pdf` · the same SHA and 774,929 bytes; byte-for-byte comparison passes |
+| Carrier ruling | The two manifest rows share one source ID, point to exact duplicates, and are one evidentiary object. The non-preferred carrier supplies the source boundary below; the preferred duplicate adds **0 prompts / 0 answers / 0 retained records / 0 handles / +0 concepts**. |
+| Format / complete visual boundary | Sixteen native-text portrait A4 pages (595.32×842.04 points). All 16 pages were rendered from the exact object at 150 dpi into 16 non-empty 1241×1755-pixel images and read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent layout and raw extraction each contain 2,014 words, with 19,565 and 13,435 bytes respectively. Both agree with the rendered diagrams, teaching tables, MCQ stems/options, and page boundaries. The manifest's `native` label is accurate. |
+| Visible provenance | Every page visibly prints `PATHOLOGY`, `Neoplasia`, `DR . AHMED HASSAN`, and a page number; p.1 visibly titles the lecture `Neoplasia 4`. This establishes Dr Ahmed Hassan neoplasia-teaching provenance. No university, faculty, module code, academic year, lecture date, exam label, or sitting is visible. |
+| Metadata caution | Metadata author is `Hossam mohammed`; creator/producer is Microsoft Word 2019; creation/modification timestamps are 15 April 2025. These are file-production fields only. They do not override the visible Dr Ahmed Hassan credit or establish academic year, lecture date, assessment date, or sitting. |
+| Authority | Local tier-6 instructor teaching deck with unkeyed interactive MCQs. It is not a candidate paper, official departmental question bank, response sheet, practical station, or official key. |
+
+### Complete page-first teaching, prompt, answer, and practical boundary
+
+| Page(s) | Complete visible content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–9 | Molecular basis and hallmarks of cancer; proto-oncogenes; tumor-suppressor and DNA-repair genes; apoptosis, telomeres, angiogenesis, invasion/metastasis, multistep carcinogenesis, and colon adenoma-carcinoma progression | Declarative teaching, completed tables, and labelled diagrams only; **0 / 0**. |
+| 10 | `Interactivequestions`: FAP-associated mutation, limitless-replication hallmark, late colon-progression suppressor loss, and adhesion-loss consequence | Four complete five-option MCQs; **4 / 0**. |
+| 11 | Unchecked replication despite DNA damage; then natural history and promotion teaching | One complete five-option MCQ followed by declarative teaching; **1 / 0**. |
+| 12–14 | Tumor-growth kinetics/chemotherapy; tumor-host interaction, immune surveillance/escape/effectors; tumor-specific and tumor-associated antigens | Declarative teaching only; **0 / 0**. |
+| 15 | `Interactivequestions`: antitumor immune mechanism, metastasis driver, tumor-suppressor function, and chemotherapy resistance | Four complete five-option MCQs; **4 / 0**. |
+| 16 | Initiation stage, evidence for immune surveillance, exclusive tumor antigen, and repeated unchecked-replication item | Four complete five-option MCQs; **4 / 0**. |
+
+No option is bolded, colored, ticked, highlighted, underlined differently, isolated in a key
+column, or followed by an answer slide. The skull-and-crossbones glyph is used as a generic bullet
+throughout teaching tables and question stems; it does not encode correctness. Answers are not
+inferred from preceding teaching, option plausibility, or prior sources. Thus all **13** prompt
+occurrences are unkeyed and the object supplies **0** printed/source-supplied answers.
+
+The final p.16 unchecked-replication item exactly copies the p.11 stem and options and is excluded
+from retention. The remaining items test distinct scopes: adhesion loss and extracellular-matrix
+degradation are separate metastasis steps; no other wording or semantic collapse is warranted.
+Therefore **13 - 1 exact copy = 12 retained records**, yielding **12 source-distinct tested
+handles**. There is no written-answer prompt, fill-in, response space, mark allocation, candidate
+annotation, image-identification request, practical station, key residue, or prompt-like remainder.
+
+### Source-first 12-handle ledger, exactly four searches each, and prior-BMS collapse
+
+All 12 surviving handles received exactly four fresh searches across live state, pending import
+roots, and prior BMS-102 evidence: **48 required and completed searches**.
+
+| Ref(s) / handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| Q01 · `fap-apc-cell-cycle-control` | `familial adenomatous polyposis APC`; `FAP APC mutation`; `adenomatous polyposis coli gene`; `APC familial colon cancer` | no same-scope | exact Family 4 A01/B01 reuse |
+| Q02 · `telomerase-limitless-replication` | `limitless replicative potential telomerase`; `activation telomerase cancer hallmark`; `telomere maintenance tumor immortality`; `cancer cells reactivate telomerase` | pending `CON-FND-73C77966B56FED` | exact Family 4 A02/B02/C03 reuse |
+| Q03 · `colon-cancer-late-tp53-apoptosis` | `colon cancer progression late p53`; `late event TP53 colon carcinoma`; `adenoma carcinoma sequence p53 loss`; `loss p53 chromosome 17p carcinoma` | no same-scope | exact Family 4 A04/B04 reuse |
+| Q04 · `adhesion-loss-metastatic-potential` | `loss cell adhesion enhanced metastasis`; `E cadherin loss metastatic potential`; `tumor adhesion molecules invasion`; `detachment tumor cells E cadherin` | no same-scope | exact Family 4 A09/B09 reuse; Family 4 already collapses to Family 1 |
+| Q05,Q13 · `p53-inactivation-dna-damage-checkpoint` | `p53 inactivation unchecked replication DNA damage`; `loss p53 DNA damage cell cycle`; `p53 checkpoint damaged tumor cells`; `p53 guardian genome cell cycle arrest` | pending `CON-FND-1F66060A9C2625` and Kasr `p53` glossary record | exact Family 4 C30 reuse; Q13 is the excluded source copy |
+| Q06 · `cytotoxic-lymphocyte-tumor-killing` | `cytotoxic lymphocytes eliminate cancer cells`; `CTL antitumor immunity mechanism`; `immune surveillance cytotoxic T cells tumor`; `cancer cell killing cytotoxic lymphocyte` | live `CON-IMM-019A95FA52738F` | exact Family 4 B11/C16 reuse |
+| Q07 · `extracellular-matrix-degradation-metastasis` | `extracellular matrix degradation metastasis`; `MMP tumor invasion ECM degradation`; `proteolytic degradation key metastasis`; `cancer invasion basement membrane MMP` | no same-scope | exact Family 4 B14 reuse |
+| Q08 · `tumor-suppressor-protein-function` | `tumor suppressor proteins prevent uncontrolled growth`; `tumor suppressor genes inhibit cell proliferation`; `function tumor suppressor protein`; `loss growth inhibitory signals cancer` | pending Kasr `tumor suppressor gene` glossary and `ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES` | exact Family 4 B24 reuse |
+| Q09 · `growth-fraction-chemotherapy-sensitivity` | `low growth fraction chemotherapy resistance`; `tumor growth fraction anticancer agents resistance`; `chemotherapy effective dividing cells growth fraction`; `slow proliferating tumor resistant chemotherapy` | no same-scope | exact Family 4 C05/C27 reuse |
+| Q10 · `cancer-initiation-irreversible-dna-damage` | `initiation stage cancer neoplastic transformation DNA damage`; `tumor initiation irreversible DNA mutation`; `carcinogenesis initiation transformed cell`; `initiator causes permanent genetic damage` | no same-scope | exact Family 4 C01/C26 reuse |
+| Q11 · `spontaneous-regression-immune-surveillance` | `spontaneous tumor regression immune surveillance`; `immune surveillance theory spontaneous regression`; `melanoma choriocarcinoma spontaneous regression immunity`; `evidence host immune defense tumor regression` | no same-scope | exact Family 4 C19 reuse |
+| Q12 · `tumor-specific-antigen-exclusivity` | `tumor specific antigen only tumor cells`; `TSA absent normal cells`; `tumor-specific versus tumor-associated antigen`; `exclusive antigen malignant cells` | no same-scope | exact Family 4 C21 reuse |
+
+External disposition is **1 live / 3 pending / 8 no same-scope**, totaling all 12 handles. Every
+handle is already represented exactly in Family 4, so prior-BMS exact handle reuse is **12** and
+concept arithmetic is **12 - 12 = +0**.
+
+### Family-127 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 127 | Auxiliary cumulative (Families 12–127) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 13 | 1,101 | 765 | 1,866 |
+| Printed/source-supplied answer occurrences | 0 | 668 | 405 | 1,073 |
+| Unkeyed prompt occurrences | 13 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 12 | 1,036 | 552 | 1,588 |
+| Source-distinct tested handles / required searches | 12 / 48 | 920 / — | — | — |
+| External live / pending / no same-scope | 1 / 3 / 8 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 12 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +584 over primary | 372 | `372 + 584 = 956` |
+| **Distinct tested concepts** | **+0** | **584 auxiliary additions** | **372** | **956** |
+
+The checksum closes: prompt starts are `4 + 1 + 4 + 4 = 13`; printed answers are zero and all
+13 occurrences are unkeyed; `13 - 1 exact copy = 12` retained records; there are zero semantic
+reductions, so handles are 12; searches are `12 × 4 = 48`; external disposition is `1 + 3 + 8
+= 12`; and concept arithmetic is `12 - 12 prior exact reuses = 0`. Auxiliary cumulative
+arithmetic is `1,088 + 13 = 1,101` prompts, `668 + 0 = 668` answers, `1,024 + 12 = 1,036`
+retained records, `908 + 12 = 920` handles, and `584 + 0 = 584` concept additions. All eligible
+arithmetic is `765 + 1,101 = 1,866`, `405 + 668 = 1,073`, `552 + 1,036 = 1,588`, and `372
++ 584 = 956`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,101 / 668 / 1,036 / 920 / +584**; and all eligible evidence is
+**1,866 / 1,073 / 1,588 / 956**. Family 127 is auxiliary unkeyed instructor-interactive evidence
+only. It cannot establish an official exam, dated sitting, recurrence, mark weight, official key,
+student response, readiness, or claims status.
+
+### Exact next debt after Family 127
+
+`src_b99cdce420e0a8647a09` is exhausted across both byte-identical carriers and all 16 pages:
+every teaching table/diagram, prompt, unkeyed option set, exact copy, retained record, tested
+handle, required search, external disposition, prior reuse, metadata limitation, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-127 blocker. The exact next
+unprocessed manifest record is tier-6 `src_f6fca68de35044b8d06c` · `patho 1.pdf`, SHA-256
+`f6fca68de35044b8d06ceecc179eff8e43993f5e38a082fd89e45ce88fd3f101`, 7,610,636 bytes,
+two OCR-needed landscape A4 pages under `Pathology / Notes and Summaries`. Its dense handwritten
+cell-injury maps, visible provenance/annotation boundary, any embedded prompt/answer or practical
+content, source-first gate, and prior-BMS reuse are the exact next-source blockers.
