@@ -16505,3 +16505,91 @@ The exact next manifest-order debt is tier-6 `src_3f0791caafde419165d0`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 79 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 152 — Tier-6 anonymous handwritten scalp teaching sheet
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_3f0791caafde419165d0` / `3f0791caafde419165d0429aa44ff05cad048b39b27e7daeab0cab1f02a3b3bd` |
+| File / boundary | `2026-07-20 05.33.07.jpg` · 310,176 bytes · progressive JFIF 1.01 JPEG · sRGB · 1816 × 2560 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.33.07.jpg` |
+| Visible / embedded provenance | The sheet is headed `Scalp` and contains colour-coded handwritten notes. It prints no author, institution, lecturer, module, date, source citation, exam label or answer-key convention. The JFIF carries dimensions/profile but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is anonymous tertiary teaching-note evidence, not a Helwan-authored lecture, assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. Its top section defines the
+scalp and gives anterior, posterior and lateral extents; the middle section expands the
+`S C A L P` mnemonic into five layers and marks the loose-areolar/subaponeurotic space as a
+danger area associated with bleeding and `black eyes`; and the lower section summarizes the
+frontal and occipital bellies of occipitofrontalis with origins, aponeurotic insertions and
+facial-nerve branches.
+
+There is **no assessment inventory**. `Extent`, `layers` and `Muscles` are section labels;
+arrows and braces organize supplied facts. No interrogative, learner instruction, response
+field, blank, mark allocation, option set, correctness mark or answer reveal appears. The
+exact boundary is therefore **0 eligible or external assessment prompts / 0 keys-or-answers /
+0 written prompts / 0 unkeyed assessment prompts**.
+
+Source wording is preserved without repair. The sheet prints `Supaponeurotic Space`,
+`black eyes`, `Aricular` in the posterior-auricular branch phrase and the lateral extent as
+plural `Superior temporal lines`. These are source states, not inferred prompts or silently
+corrected anatomy.
+
+### Practical and image boundary
+
+This is a handwritten textual teaching composition with arrows and mnemonic lettering, not
+an anatomical specimen, histology/radiology plate, numbered station or learner-completed
+map. All relations are already supplied. It adds **0 practical prompts / 0 teaching plates /
+0 mappings / 0 practical residues / 0 practical keys** and **0 live / 0 pending / 0 new**
+practical-teaching scopes.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The image consolidates to **3 source-distinct teaching handles**. Each handle received one
+query on each required surface.
+
+| Teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Scalp anterior/posterior/lateral surface extent · top section | `scalp extent`; `eyebrows superior nuchal line`; `external occipital protuberance`; `superior temporal lines` | Accepted posterior-skull and scalp records contain individual landmarks, but no governed prior handle owns the complete three-sided surface extent | additive theoretical scope; new |
+| Five scalp layers plus loose-areolar danger-area significance · middle section | `skin connective tissue epicranial aponeurosis`; `loose areolar tissue pericranium`; `dangerous area scalp`; `black eye scalp bleeding` | Exact accepted Families 20, 27, 36, 63 and later external-bank scalp-layer/clinical scopes jointly own the layer and subaponeurotic behavior | prior-LCS teaching/tested reuse |
+| Occipitofrontalis frontal/occipital bellies, attachments and nerve supply · lower section | `occipitofrontalis muscle`; `frontal belly temporal branch facial nerve`; `occipital belly posterior auricular`; `epicranial aponeurosis` | Exact accepted Families 27 and 36 complete OINA/branch scope | prior-LCS teaching/tested reuse |
+
+All **3 × 4 = 12 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **2 prior-LCS reuses + 1 additive theoretical teaching scope**. The
+theoretical teaching-scope delta is **0 live / 0 pending / 1 new**. It does not enter the
+eligible tested-concept or practical-teaching-scope totals. Search matches establish coverage
+only and do not validate or repair the anonymous notes.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This source hash occurs once in Family 151's remainder. Removing its sole path leaves **78
+all-rank path instances / 73 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **64 / 62**, and rank 9 **14 / 11**. Family 151's prior checksums are
+`deb5b25d014955965790608bcdead9ba8b3bda4697d293e09fcbde79102178f0` (paths) and
+`3e3d41c5a784c24dab04753bdfcd5bf4f4bc31e5f3b7e2103f1e4713cd284911` (unique hashes).
+For the exact post-Family-152 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`2bd57c0ad2a300082523aa4a00b1cf9014db5c03d7678840b3d7badcd541b6d3`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`98c28ad6031ad75c71e76376f2dbd4b30b7869c0908a00f4bef34533d1d519e5`.
+
+The exact next manifest-order debt is tier-6 `src_dec41bb7254c27aa920c`,
+`2026-07-20 05.33.15.jpg` (330,152 bytes; 1816 × 2560 JPEG; SHA-256
+`dec41bb7254c27aa920cb419657c942f8b72d3a3cb190479e8b65141343133a8`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 78 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
