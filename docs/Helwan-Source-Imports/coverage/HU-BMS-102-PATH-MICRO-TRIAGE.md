@@ -8706,3 +8706,74 @@ one 1280×960 JPEG under `Pathology / Notes and Summaries`. It is visibly circle
 `Cell injury II` / `accumulation` handwritten sequence. Its complete teaching/prompt/answer and
 annotation boundary, provenance/timestamp limitation, relation to the following circled page 2,
 and overlap with Family 74/prior BMS evidence are the next-source blockers.
+
+## Family 77 — handwritten `Cell Injury II / Accumulation` page 1 screenshot
+
+### Source identity, original-image boundary, provenance, and sequence ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_d44579b1a1e5b3691978` · `2026-07-20 06.14.21.jpg` |
+| SHA-256 / size | `d44579b1a1e5b3691978093b17fd1ba83e1cb54380d10b7db98e330b3a862368` · 210,151 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×960 JPEG; opened and read at original resolution |
+| Visible source identity | Handwritten sheet circled `1`, headed `Cell injury II` and `accumulation`; no institution, module, author, instructor, date, assessment label, or key designation |
+| Embedded date metadata | None recovered; the filename/manifest timestamp is not visible source provenance |
+
+The sheet begins a second handwritten pair after Families 75–76. It compares hyalinosis,
+amyloidosis, calcification, gout, and mucoid change in five completed columns, with rows for
+definition, gross appearance, microscopic appearance, and related diseases. The immediately
+following `2026-07-20 06.14.23.jpg` is visibly circled page `2`, headed `Cell injury II` and
+`classification of Amyloidosis`, and continues the same paper, ink, camera angle, and teaching
+style. The page numbers establish sequence; the filenames do not establish authorship, lecture
+date, exam date, or sitting year.
+
+### Teaching, annotation, prior-carrier relation, and zero gate
+
+All cells are already filled with declarative notes. Pink highlighting marks the page/topic
+headings; red emphasis marks selected terms such as `extracellular`; blue, black, and red ink
+separate completed content. Circles, underlines, arrows, and brace-like divisions organize the
+table and stain list. They are not response marks. The row labels `def`, `gross`, `Micro`, and
+`related diseases` are categories, not questions or fill-in prompts.
+
+No stem, command, blank, option set, response frame, audience question, prompt-like residue, or
+answer register is visible. The material substantially restates Family-74 pp. 3–5 teaching on
+hyaline, amyloid, calcium, and related accumulations, but the handwritten paraphrase is neither
+a pixel duplicate nor new assessment evidence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 77 | Auxiliary cumulative (Families 12–77) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 77 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 77
+
+`src_d44579b1a1e5b3691978` is exhausted: every heading, comparison column/row, stain list,
+completed teaching statement, annotation convention, prompt absence, Family-74 overlap,
+handwritten sequence relation, timestamp limitation, zero search gate, and unchanged arithmetic
+is assigned once, with **zero source remainder** and no Family-77 blocker. The exact next
+manifest-ordered BMS-102 record is tier-6 `src_9e19a1f77a84493d195f` ·
+`2026-07-20 06.14.23.jpg`, SHA-256
+`9e19a1f77a84493d195f6b551408401a456a2293dcfc5e7284127e9341eb1a51`, 207,273 bytes,
+one 1280×960 JPEG under `Pathology / Notes and Summaries`. It is visibly circled page 2 of the
+same `Cell injury II` pair and compares organ patterns of amyloidosis. Its complete
+teaching/prompt/answer and annotation boundary, provenance/timestamp limitation, relationship
+to Family 77 and Family 74, and independent zero-or-count ruling are the next-source blockers.
