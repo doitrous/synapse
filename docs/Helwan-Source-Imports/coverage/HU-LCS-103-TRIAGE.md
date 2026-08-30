@@ -9550,3 +9550,134 @@ pages; SHA-256 `092fe6875fa92be8195bd0ece965889eec8088b0594f3c51c5674005f2dc08db
 under `Year 1/LCS 103/All Subjects/Questions/MCQs/`. **Overall LCS-103 S1 remains `S1
 TRIAGE — NOT APPROVED`:** 153 tier-3/tier-6/rank-9 path debts remain. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 78 — Tier-3 external Head-and-Neck Anatomy keyed review bank
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_092fe6875fa92be8195b` |
+| File / SHA-256 | `MCQs - ALLAWI H&N MCQ.pdf` / `092fe6875fa92be8195bd0ece965889eec8088b0594f3c51c5674005f2dc08db` |
+| File boundary | 670,655 bytes · unencrypted PDF · 15 physical native-text pages · A4, 595.5 × 842.25 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - ALLAWI H&N MCQ.pdf` |
+| Visible provenance | The cover prints `Anatomy MCQ File`, `HEAD & NECK`, a Dr Allawi logo, QR branding and `@THEBESTANATOMIST`. All question pages print `Dr/ M. Ali`; their inherited header says `Anatomy lower limb` although every question is head-and-neck. No Helwan University, faculty, module, LCS-103, sitting or cohort mark is visible. PDF metadata exposes only producer `iLovePDF` and modification date 26 July 2025. The QR target was not opened or inferred. |
+| Authority finding | Externally branded keyed review compilation, not direct Helwan assessment evidence, a formal sitting paper, a response form, a practical station sheet or an official Helwan answer key. It remains outside eligible Helwan counts and extends the separately tracked external-bank ledger only. |
+
+The assigned SHA-256, byte size and 15-page boundary were recomputed and match. All 15 pages
+were rendered at 180 dpi and read visually against the native text layer. Physical p. 1 is a
+decorative cover. Physical pp. 2–15 are printed question pages 1–14 and contain Q1–Q80, with
+one answer letter printed beside every question.
+
+| Physical page | Visible question boundary | Prompt occurrences | Printed answer letters |
+|---:|---|---:|---:|
+| 1 | cover only | 0 | 0 |
+| 2 | Q1–Q5 | 5 | 5 |
+| 3 | Q6–Q12 | 7 | 7 |
+| 4 | Q13–Q18 | 6 | 6 |
+| 5 | Q19–Q23 | 5 | 5 |
+| 6 | Q24–Q29 | 6 | 6 |
+| 7 | Q30–Q34 | 5 | 5 |
+| 8 | Q35–Q40 | 6 | 6 |
+| 9 | Q41–Q44 | 4 | 4 |
+| 10 | Q45–Q48 | 4 | 4 |
+| 11 | Q49–Q55 | 7 | 7 |
+| 12 | Q56–Q62 | 7 | 7 |
+| 13 | Q63–Q69 | 7 | 7 |
+| 14 | Q70–Q76 | 7 | 7 |
+| 15 | Q77–Q80 | 4 | 4 |
+| **Family 78 raw external bank** | **Q1–Q80** | **80** | **80** |
+
+There are no declarative teaching pages beyond the decorative cover and no practical/station
+plate inventory. The source has no specimen/image-identification task, teaching plate,
+apparatus task, masked label, response blank or unresolved callout. Its practical delta is
+exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical
+scopes**.
+
+Three printed-key risks are retained without silent repair. Q28 prints `D` (`only a and b`)
+for ansa-cervicalis supply although option `b` is geniohyoid, supplied by C1 travelling with
+the hypoglossal nerve. Q46 prints `E` (buccinator) for inability to whistle or puff the cheeks,
+but option `A` (orbicularis oris) also participates, making the stem/option set ambiguous.
+Q56 prints `C` (`both A and B`) for the digastric muscle although statement B says it crosses
+the posterior triangle; the printed combination therefore requires review.
+
+### One-to-one assignment, searches and external-bank disposition
+
+Every occurrence is assigned exactly once. The 80 MCQs collapse to **25 source-distinct
+handles**, so `80 - 25 = 55` occurrences are exact repeats or same-objective variants. Each
+handle received four required searches across live state, pending state, `docs/import-ready`,
+`docs/questions-import-ready`, every source-import root and accepted prior LCS: **25 × 4 =
+100 required search invocations**.
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope / prior-LCS result | External-bank disposition |
+|---|---|---|---|
+| Q1,Q44,Q77 → `temporomandibular-joint-classification-disc-and-movement` | temporomandibular joint disc synovial; TMJ modified hinge; articular disc lateral pterygoid; temporomandibular movement | exact accepted Family-20 TMJ handle; no substantive complete live/pending record | new; prior eligible-LCS scope reuse |
+| Q3,Q8,Q11,Q47,Q54 → `lateral-pterygoid-protrusion-and-jaw-opening` | lateral pterygoid protrusion; lateral pterygoid opens jaw; jaw depression pterygoid; muscle protrudes mandible | exact accepted Family-20 lateral-pterygoid handle; no substantive complete live/pending record | new; prior eligible-LCS scope reuse |
+| Q2,Q13,Q45 → `chorda-tympani-taste-and-secretomotor-functions` | chorda tympani taste; anterior two-thirds taste; chorda tympani salivation; facial nerve anterior tongue | live chorda course and secretomotor records own only part of this combined taste/secretomotor objective; no accepted prior tested handle owns the complete scope | new |
+| Q4 → `tip-of-nose-cutaneous-supply-v1` | tip of nose ophthalmic; nose cutaneous V1; external nasal nerve tip; ophthalmic division nose | accepted Family-1/20 face-sensory handle can absorb the named territory; no substantive complete live/pending record | new; prior eligible-LCS scope reuse |
+| Q5,Q53,Q78,Q79 → `infratemporal-fossa-boundaries-contents-and-communications` | infratemporal fossa contents; infratemporal boundaries; infratemporal communications; geniculate ganglion infratemporal | exact accepted Families 1/20/24 handle; incidental live chorda course is narrower | new; prior eligible-LCS scope reuse |
+| Q6,Q9,Q12,Q40,Q52 → `middle-and-accessory-meningeal-artery-relations` | accessory meningeal foramen ovale; middle meningeal maxillary artery; auriculotemporal middle meningeal; meningeal artery infratemporal | accepted Family-1 maxillary-artery branch handle owns the branch family; Q9/Q40 and Q12/Q52 are exact same-objective pairs | new; prior eligible-LCS scope reuse |
+| Q7,Q57,Q67 → `sternocleidomastoid-relations-action-and-oina` | sternocleidomastoid origin insertion; SCM accessory nerve; sternocleidomastoid rotation; sternocleidomastoid platysma | exact accepted Family-1 SCM handle | new; prior eligible-LCS scope reuse |
+| Q10,Q27,Q36 → `cervical-plexus-and-phrenic-nerve-branches` | cervical plexus phrenic; phrenic C3 C4 C5; phrenic anterior scalene; greater occipital cervical plexus | accepted Family-1 cervical-plexus handle owns the branch classification; narrower phrenic records do not supersede it | new; prior eligible-LCS scope reuse |
+| Q14,Q15,Q34,Q59,Q71–Q74 → `posterior-triangle-boundaries-contents-floor-and-nerves` | posterior triangle contents; posterior triangle boundaries; posterior triangle floor; posterior triangle accessory nerve | exact accepted Family-1 posterior-triangle handle | new; prior eligible-LCS scope reuse |
+| Q16,Q42,Q60,Q61 → `carotid-and-scalp-arterial-branch-classification` | external carotid branches; scalp arterial supply; supratrochlear internal carotid; ascending pharyngeal scalp | accepted Family-20 scalp-arterial handle owns the combined internal-/external-carotid supply classification | new; prior eligible-LCS scope reuse |
+| Q17,Q23,Q80 → `submandibular-triangle-floor-and-contents` | submandibular triangle contents; digastric triangle floor; submandibular region lingual nerve; submandibular triangle hypoglossal | exact accepted Family-1 submandibular-triangle handle | new; prior eligible-LCS scope reuse |
+| Q18,Q22,Q49,Q56,Q70 → `digastric-muscle-relations-and-dual-innervation` | digastric dual innervation; posterior belly digastric facial; anterior belly digastric mylohyoid; digastric intermediate tendon | no accepted prior tested handle owns this complete muscle-specific relation set | new; Q56 key review |
+| Q19 → `scalp-emissary-vein-dural-sinus-communication` | emissary veins dural; scalp veins dural sinus; valveless emissary vein; diploic emissary scalp | broader accepted scalp drainage does not own the direct dural-sinus connection | new |
+| Q62 → `scalp-five-layers-and-movement-plane` | scalp layers; SCALP skin connective; loose areolar scalp; pericranium scalp layer | exact accepted Family-20 scalp-layer handle | new; prior eligible-LCS scope reuse |
+| Q20,Q29,Q38,Q39,Q41,Q46,Q48,Q63,Q76 → `facial-nerve-terminal-branches-and-expression-motor-supply` | facial nerve terminal branches; facial expression facial nerve; orbicularis facial nerve; buccinator facial nerve | accepted Family-20 facial-expression handle owns the motor classification; Family-26 owns a named branch subset | new; prior eligible-LCS scope reuse; Q46 key review |
+| Q21 → `auriculotemporal-nerve-v3-origin-and-scalp-supply` | auriculotemporal mandibular division; auriculotemporal V3; auriculotemporal scalp; auriculotemporal trigeminal branch | accepted Family-1 mandibular-nerve branch handle owns the V3 relation | new; prior eligible-LCS scope reuse |
+| Q24 → `carotid-bifurcation-in-carotid-triangle` | common carotid bifurcation carotid triangle; carotid bifurcation triangle; external internal carotid cervical triangle; carotid triangle common-carotid division | accepted Family-1/20 carotid-triangle handle can absorb the named content relation | new; prior eligible-LCS scope reuse |
+| Q25,Q28,Q35,Q50,Q51,Q55,Q68,Q69 → `infrahyoid-membership-and-ansa-c1-innervation` | infrahyoid muscles ansa cervicalis; thyrohyoid C1; sternohyoid ansa; geniohyoid infrahyoid | no prior eligible tested handle owns the complete membership plus ansa-versus-C1 distinction; later accepted sources teach it only | new; Q28 key review |
+| Q26 → `mandibular-nerve-exit-via-foramen-ovale` | mandibular nerve foramen ovale; V3 foramen ovale; mandibular division leaves cranium; foramen ovale trigeminal | exact accepted Family-20 mandibular-nerve handle explicitly absorbs foramen-ovale entry | new; prior eligible-LCS scope reuse |
+| Q30,Q33,Q37 → `retromandibular-and-external-jugular-vein-formation` | retromandibular vein maxillary; external jugular posterior auricular; retromandibular superficial temporal; external jugular retromandibular division | accepted Family-20 scalp/face venous-drainage handle owns the named formation chain; Q30/Q37 repeat | new; prior eligible-LCS scope reuse |
+| Q31,Q32 → `ansa-cervicalis-superior-root-and-location` | ansa cervicalis superior root; ansa cervicalis C1; ansa cervicalis carotid triangle; descendens hypoglossi ansa | accepted Family-1 cervical-plexus handle owns the ansa branch relation; no complete live/pending record supersedes it | new; prior eligible-LCS scope reuse |
+| Q43 → `second-part-maxillary-artery-branches` | second part maxillary artery; pterygoid part maxillary; deep temporal masseteric buccal; labyrinthine maxillary artery | exact accepted Family-1 maxillary-artery branch handle | new; prior eligible-LCS scope reuse |
+| Q58 → `pterygoid-plexus-venous-connections` | pterygoid plexus cavernous; pterygoid plexus facial vein; pterygoid plexus ophthalmic; pterygoid plexus maxillary vein | live anterior facial-vein communication plus exact accepted Family-1/20 connection handle can absorb the remaining routes | live; prior eligible-LCS scope reuse |
+| Q64–Q66 → `muscles-of-mastication-membership-and-actions` | muscles of mastication masseter; temporalis elevates retracts; mastication mandibular nerve; buccinator muscle of mastication | accepted prior prompts own individual temporalis/lateral-pterygoid/TMJ relations but not this complete four-muscle membership/action comparison | new |
+| Q75 → `temporal-fossa-boundaries-contents-and-communications` | temporal fossa contents; temporal fossa boundaries; temporal fossa temporalis; temporal fossa communications | exact accepted Family-1/20 temporal-fossa handle | new; prior eligible-LCS scope reuse |
+
+Disposition arithmetic is **1 live / 0 pending / 24 external-new = 25** source-distinct
+handles. Twenty handles reuse accepted eligible-LCS scope and five do not; all 25 nevertheless
+extend the separately tracked external-bank inventory because Families 13–14 contain only
+Histology and have no same-scope external Anatomy handle. Coverage matches do not promote
+this externally branded source into eligible Helwan scope.
+
+### Assessment, practical and all-rank remainder checkpoint
+
+The eligible Helwan checkpoint is unchanged at **589 questions / 299 printed keys / 295
+distinct tested concepts = 11 live / 102 pending / 182 new**. The external-bank checkpoint
+changes as follows:
+
+| External-bank evidence | Prompt occurrences | Printed keys | Distinct handles | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Before Family 78 | 241 | 241 | 75 | 9 | 66 | 0 |
+| Family 78 | +80 | +80 | +25 | +1 | +0 | +24 |
+| **After Family 78** | **321** | **321** | **100** | **10** | **66** | **24** |
+
+Arithmetic checks are `80 prompts = 5 + 7 + 6 + 5 + 6 + 5 + 6 + 4 + 4 + 7 + 7 + 7 +
+7 + 4`, `80 printed letters`, `25 handles = 80 - 55 same-objective repeats`, `1 + 0 +
+24 = 25`, `321 = 241 + 80`, `100 = 75 + 25`, and `10 + 66 + 24 = 100`.
+Practical totals remain **7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**,
+with practical scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the manifest. Removing its sole row from the accepted
+Family-77 remainder leaves **152 all-rank path instances / 143 unique hashes**: tier 3 **70
+paths / 66 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. The
+Family-77 remainder recomputes first to path checksum
+`0a88badef2804a657a472a763999f214529f93ca5ebb4f1a9c3984f48dec732e` and unique-hash
+checksum `136fe6a42850d5732da4247994e2e802a267b3a92c7406550ec3660517f437c6`.
+For the exact post-Family-78 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`548d5751210d73bcf1f0f1cb46d5247ee03c5df06420eb55c1c2d98707bc9eba`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`b15e156db6961266f9f5aed54f327280b963e695b270b41bda77d9de57b80b23`.
+
+The exact next direct/non-external tier-3 manifest-order debt is
+`src_dc883db2a46aec7986e5`, `MCQs - College MCQs 103 LMC SEQs _ SAQs.pdf` (169,031 bytes;
+12 native-text pages; SHA-256
+`dc883db2a46aec7986e5772fe0431e1afe04f3aeeb51b2925c7f73f1bd073f2d`) under
+`Year 1/LCS 103/All Subjects/Questions/MCQs/`. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 152 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
