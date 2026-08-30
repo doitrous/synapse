@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "1c06e6c59f9db6bba23136caa552f2e972ae95df5817b785809b0353f8c5fe9c",
-    "triageMarkdown": "cf469f0f07620c2eaf2bd31dbea98580678208c36310e55edc9e155dc50e60d2"
+    "readinessMarkdown": "14625cb5281da1532045bcb299a6e196bf1e8b66eebe16f3206cc812f2f4ce63",
+    "triageMarkdown": "520258e4f055d3e80671bca5bcf2bd867d622614a339835813e99ae01e0f423d"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -87,6 +87,7 @@
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84",
       "9bec4ac1744857b7b7c9def17233b243eacb320575eb276ead57cbe2a4b7e8aa",
+      "a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c",
       "a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
       "af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80",
@@ -119,7 +120,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 67
+    "uniqueSha256": 68
   },
   "completedSourceCoverage": [
     {
@@ -2061,37 +2062,71 @@
         "printed wording and academically questionable answer selections remain source observations and are not corrected",
         "one repeated answer line in extracted text at the Q109 page boundary is a text-layer artifact and is counted once from the visual pages"
       ]
+    },
+    {
+      "sha256": "a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c",
+      "sourcePages": 9,
+      "renderedReadPages": "1-9",
+      "questionPages": "1-8",
+      "keyPages": "9",
+      "printedPromptObservations": 30,
+      "objectiveMcqPrompts": 30,
+      "printedKeyObservations": 30,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 30,
+      "familyAnswerDelta": 30,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceConnectiveTissueAcceptedSourceHandles": 5,
+      "referenceConnectiveTissueSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Department of Histology teaching MCQ sheet naming Prof. Dr. El-Hosseiny I. El-Desoky and Prof. Dr. Sanaa A. El-Sherbiny, created in Microsoft Word 2010 on 2 February 2021; no institution, exam sitting, marks or MUST/MSK exam claim appears",
+      "boundaryDisposition": "continuous Q1-Q30 conventional MCQ sequence on pages 1-8 followed by a complete Q1-Q30 answer key on page 9; no written, practical, image-identification, teaching-only, answer-only or source-unkeyed material",
+      "priorCarrierComparison": {
+        "sha256": "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
+        "disposition": "distinct prompt sequence from the completed 247-item Dr Abdelwahab carrier; all source-first connective-tissue scopes nevertheless collapse to its completed five-handle family"
+      },
+      "preservedSourceDefects": [
+        "source spelling and terminology such as charactertics, specefic, demonestrate and Verhoff remain uncorrected",
+        "academically questionable wording and keyed choices remain source observations rather than reconstructed answers"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6431,
-    "printedKeyObservations": 6241,
+    "printedPromptObservations": 6461,
+    "printedKeyObservations": 6271,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 35,
-    "uniqueSha256": 34,
-    "sortedNewlineSha256": "b5cd6b146d358152a22e97c4c525fd260162cb4f98180dc3434a2c74199a791f",
+    "inventoryMetadataRows": 34,
+    "uniqueSha256": 33,
+    "sortedNewlineSha256": "0d5e7f8f0b35d4c7c3fe7f4684f33756603f56b12598c8d5036fa728c6d8e184",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 11
+      "substantive-text": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 11
+    "substantive-text": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 67,
-    "remainingUniqueSha256": 34,
+    "processedUniqueSha256": 68,
+    "remainingUniqueSha256": 33,
     "processedPlusRemaining": 101
   }
 }

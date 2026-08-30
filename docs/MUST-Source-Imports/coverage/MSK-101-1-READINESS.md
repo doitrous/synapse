@@ -8,9 +8,9 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The sixty-seven completed read-only source hashes cover sixty-eight selected inventory paths, represent forty-seven distinct prompt families and yield **6431 questions / 6241 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 59-page `200 Connective tissue Practice Questions` file, SHA-256 `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e`, contains one continuous **Q1–Q200 conventional MCQ sequence / 200 inline printed answers / 0 written / 0 practical or image-identification / 0 unkeyed prompts**. Eleven exact normalized stem groups account for twelve repeated occurrences, leaving 188 normalized unique stems, but the physical source boundary remains 200 observations. All source-first scopes collapse to the completed connective-tissue family, so the exactly-four-search gate resolves to **0 surviving handles × 4 = 0 new searches**, contributing **+200 questions / +200 answers / +0 concepts**.
+The sixty-eight completed read-only source hashes cover sixty-nine selected inventory paths, represent forty-eight distinct prompt families and yield **6461 questions / 6271 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed nine-page `4 THE CONNECTIVE TISSUE PROPER MCQ` file, SHA-256 `a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c`, contains **30 conventional MCQs on pages 1–8 / a complete 30-entry key on page 9 / 0 written / 0 practical or image-identification / 0 unkeyed prompts**. It is a Department of Histology teaching MCQ sheet naming Prof. Dr. El-Hosseiny I. El-Desoky and Prof. Dr. Sanaa A. El-Sherbiny, but it has no institution, exam sitting, marks or MUST/MSK exam claim. Its distinct prompt sequence is not the earlier 247-item Dr Abdelwahab carrier, while all scopes collapse to that completed connective-tissue family. The exactly-four-search gate therefore resolves to **0 surviving handles × 4 = 0 new searches**, contributing **+30 questions / +30 answers / +0 concepts**.
 
-Latest processed family hash: `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e`.
+Latest processed family hash: `a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c`.
 
 Recent processed family hash retained for reconciliation: `1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c`.
 
@@ -30,10 +30,12 @@ Prior processed-family append: `b056fb53551b129db6de71e24002e2240baa8aa5a360ebf0
 
 Current normalized-sibling carrier append: `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2`.
 
-Current processed-family append: `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e`.
+Prior processed-family append: `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e`.
 
-Removing them leaves **35 inventory paths / 34 unique SHA-256s**, checksum `b5cd6b146d358152a22e97c4c525fd260162cb4f98180dc3434a2c74199a791f`. The pinned remaining audit-review debt is 11 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current processed-family append: `a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/4 THE CONNECTIVE TISSUE PROPER MCQ.pdf`, SHA-256 `a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c`, 9 pages.
+Removing them leaves **34 inventory paths / 33 unique SHA-256s**, checksum `0d5e7f8f0b35d4c7c3fe7f4684f33756603f56b12598c8d5036fa728c6d8e184`. The pinned remaining audit-review debt is 10 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 35 selected inventory paths / 34 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Connective Tissue mcq (by Μοχάναντ).pdf`, SHA-256 `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`, 14 pages.
+
+**BLOCKED — S1 cannot be approved:** 34 selected inventory paths / 33 unique hashes remain untriaged.
