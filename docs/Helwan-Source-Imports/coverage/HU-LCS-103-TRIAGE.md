@@ -16005,3 +16005,102 @@ under `Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until
 is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 84 tier-3/tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 147 — Tier-3 external student keyed Physiology muscle-and-bone revision bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_a8e020b0227a15c1da15` / `a8e020b0227a15c1da150919f14983f168164ec741ad903914f64df0c3584f70` |
+| File / boundary | `MCQs - Student MCQ Physio 103 Mcqs.pdf` · 542,187 bytes · tagged, unencrypted PDF 1.7 · 8 physical native-text US-Letter pages |
+| Manifest placement | `HU-LCS-103` · Physiology · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Questions/MCQs/MCQs - Student MCQ Physio 103 Mcqs.pdf` |
+| Visible / metadata provenance | P. 1 is headed `Muscle Physiology`; p. 5 introduces `Bone Physiology`; religious study reminders border the pages. Metadata names `Eman Ibrahem Hefny Ibrahem` as author and Microsoft Word for Microsoft 365 as creator/producer, created and modified 18 August 2025. No page names an instructor, university, faculty, formal exam, cohort or sitting. |
+| Authority finding | The manifest's explicit `Student MCQ` label, personal-author metadata and absence of institutional or instructor authority establish a student-authored external revision compilation. Its topical fit does not promote it into eligible Helwan assessment authority. |
+
+The assigned SHA-256, byte size and eight-page boundary were recomputed and match. All eight
+pages were rendered at 140 dpi and read visually against the complete native text layer. The
+source begins with five muscle MCQs numbered Q1–Q5 across pp. 1–2, then resets numbering and
+prints Q1–Q20 on muscle physiology across pp. 2–5 and Q21–Q37 on bone/calcium physiology
+across pp. 5–8. P. 8 then prints a complete answer list for both numbering sequences. The
+complete assessment boundary is therefore **42 external MCQ occurrences / 42 source-printed
+keys / 0 written prompts / 0 unkeyed prompts**.
+
+The first five-key sequence is **A, A, C, C, C**. The reset Q1–Q37 sequence is **C, B, C,
+C, D, B, C, A, A, B, A, B, B, C, B, D, B, B, C, C, A, D, A, A, F, C, B, B, C, C,
+D, C, B, B, C, B, D**. Triage preserves these letters literally. Reset Q14 repeats Q13's
+ryanodine-receptor stem but supplies `IP3 / VGCC / T-tubules / Ligand-Gated Calcium
+Channels` and marks `C`; Q26 asks for structural functions of `calcium` while presenting the
+source's bone-function choices and marks `C` (`Storehouse`); and Q31 asks for the body's
+highest calcium percentage, omits `bones and teeth`, and marks `D` (`Teeth`). These defects
+are source evidence and are not medically repaired.
+
+### Practical and teaching boundary
+
+The document contains prose MCQs, option lists, section headings and a terminal answer list.
+Its borders and religious text are page furniture, not teaching plates or callouts. There is
+no specimen, image-identification task, micrograph, radiograph, trace, apparatus, station,
+masked label, learner-completed map, response blank or practical key. The source adds **0
+practical prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0 practical keys /
+0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 42 occurrences consolidate to **14 source-distinct tested handles**. Every handle received
+one query on each required surface.
+
+| Handle / source questions | Live query | Pending query | Prior-import query | Accepted-LCS query | Disposition |
+|---|---|---|---|---|---|
+| Skeletal relaxation, SERCA, tropomyosin and rigor · opening Q1–Q4 | `muscle relaxation active process SERCA` | `tropomyosin troponin calcium relaxation` | `rigor mortis missing ATP` | `skeletal muscle relaxation cross bridge` | prior-external reuse; accepted Families 15, 99, 144 and 146 corroborate |
+| Afterload–shortening-velocity relation · opening Q5 | `afterload velocity shortening decreases` | `force velocity relationship afterload` | `muscle afterload shortening velocity` | `afterload muscle contraction` | prior-external reuse |
+| Smooth-muscle depolarisation, calcium sources, CICR and RyR · reset Q1,Q11–Q14 | `smooth muscle depolarization calcium entry` | `calcium induced calcium release smooth muscle` | `ryanodine receptor smooth muscle` | `smooth muscle calcium source ECF SR` | prior-external reuse |
+| Single-/multi-unit smooth muscle, pacemaking and innervation · reset Q2–Q3,Q17 | `single unit smooth muscle pacemaker` | `multiunit smooth muscle dense innervation iris` | `smooth muscle unitary gap junctions` | `iris gastrointestinal smooth muscle` | prior-external reuse |
+| Skeletal/smooth control and shared contraction features · reset Q4,Q20 | `skeletal voluntary involuntary reflexes` | `skeletal smooth shared intracellular calcium` | `muscle types functional comparison` | `skeletal smooth muscle similarities` | prior-external reuse |
+| Oxygen debt, fatigue site and 100-metre energy source · reset Q5–Q6,Q10 | `oxygen debt myoglobin lactic acid` | `neuromuscular junction first fatigue` | `100 meter phosphagen system` | `muscle energy systems exercise` | prior-external reuse |
+| Smooth-muscle MLCK/MLCP contraction, relaxation and energy economy · reset Q7–Q8,Q15–Q16 | `smooth muscle MLCK MLCP relaxation` | `calmodulin myosin phosphorylation smooth muscle` | `smooth muscle slow low ATP` | `smooth contraction relaxation sequence` | prior-external reuse |
+| Motor-unit components · reset Q9 | `motor unit anterior horn cell nerve fibers` | `motor neuron muscle fibers definition` | `motor unit physiology` | `motor unit consists anterior horn` | prior-external reuse |
+| Vomiting-related hypokalaemia mechanism and ECG priority · reset Q18–Q19 | `vomiting aldosterone renal potassium excretion` | `hypokalemia arrhythmia ECG first` | `metabolic alkalosis potassium vomiting` | `hypokalemia clinical assessment` | prior-external reuse; accepted Family 146 supplies direct-course corroboration at adjacent grain |
+| Calcium feedback and blood-calcium dependence of contraction · reset Q21–Q22 | `calcium homeostasis negative feedback` | `blood calcium muscle contraction cardiac smooth` | `extracellular calcium contraction` | `calcium feedback physiology` | prior-external reuse |
+| PTH/calcitonin control of calcium · reset Q23–Q24,Q33–Q37 | `PTH low calcium stimulus bone resorption` | `calcitonin inhibits osteoclast bone deposition` | `parathyroid calcium kidney intestine` | `PTH calcitonin calcium regulation` | prior-external reuse; accepted Family 146 corroborates |
+| Bone determinants, structural functions and mineral content · reset Q25–Q27 | `bone growth hormones activity age gender` | `structural functions bone respiration protection motion` | `bone inorganic component calcium` | `bone physiology structural metabolic` | prior-external reuse; accepted Family 146 corroborates |
+| Bone repair and disorder classification · reset Q28–Q29 | `bone repair second step callus formation` | `osteoporosis osteomalacia osteoarthritis osteogenesis` | `bone repair sequence disorders` | `bone disease physiology MCQ` | prior-external reuse |
+| Calcium functions, body distribution and serum range · reset Q30–Q32 | `intracellular calcium functions clotting` | `highest body calcium teeth bone` | `normal serum calcium 9 11` | `calcium distribution blood cells teeth` | prior-external reuse; accepted Family 146 corroborates |
+
+All **14 × 4 = 56 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Prior-external-first
+comparison yields **14 prior-external reuses + 0 external additions = 14 handles**. Search
+matches establish coverage only and do not supply, infer or repair the source's key. Visual and
+search scratch stayed outside the worktree under `/private/tmp/lcs103-family147/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+changes from **6,753 / 6,487 / 221 = 12 / 135 / 74** to **6,795 external prompts / 6,529
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `6,753 + 42 = 6,795`, `6,487 + 42 = 6,529`, `221 + 0 = 221`, and `12 + 135 + 74 =
+221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 146's remainder. Removing its sole path leaves **83
+all-rank path instances / 78 unique hashes**: tier 3 **1 path / 1 unique hash within tier**,
+tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 146's prior checksums are
+`ae67e66bd3da0ce09de30124f1f61307472a13d069333ee8e25fad53b8306747` (paths) and
+`24f1679c58b18356b41aa6cbce214184b84c59476968d922f87dda9fafa2d232` (unique hashes).
+For the exact post-Family-147 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`d140584903498c59c7ab2bc51922006c06062e7667a80b008e339d253c3d2404`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`0c7a81d355416cc8276918c2561a980fde6650daca8a745ecff905b5e38fc623`.
+
+The exact next tier-3 manifest-order debt is `src_10e8553062fe8a279449`,
+`MCQs - mcq physiology ai.pdf` (93,302 bytes; 4 physical native-text US-Letter pages;
+SHA-256 `10e8553062fe8a27944946393c3a3335c3c25bbb20e528abe48cc41416ce00df`)
+under `Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until every page
+is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 83 tier-3/tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
