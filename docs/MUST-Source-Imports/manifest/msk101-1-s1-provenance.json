@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "3bf465b41d0a1baa760fd3e03f2938b9447e6dff35f88df6e108698024ec92ab",
-    "triageMarkdown": "2949686e14bdd97c4015f409445dd8935457087a224a12087704bfb4821310e5"
+    "readinessMarkdown": "84c832820a18cd75082d2c42ed5a325bcb580a6052dc63cf78c272310c091047",
+    "triageMarkdown": "8625624e274d3f33be3cf2116135be11fa55135e0975dfe11328e34a1b606f87"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -101,6 +101,7 @@
       "841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
+      "9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc",
       "95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c",
@@ -151,7 +152,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 99
+    "uniqueSha256": 100
   },
   "completedSourceCoverage": [
     {
@@ -3237,6 +3238,39 @@
         "digital handwriting, spelling, table wording and selective anatomy claims remain uncorrected source observations",
         "completed comparison-table headings and highlighted facts are teaching aids and are not manufactured into written prompts"
       ]
+    },
+    {
+      "sha256": "9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc",
+      "sourceImages": 1,
+      "originalPixelDimensions": "960x1280",
+      "renderedReadImages": "1",
+      "teachingChartImages": 1,
+      "connectiveTissueSections": 3,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "unattributed photographed handwritten connective-tissue teaching chart; the JPEG supplies no visible institution, department, examiner, sitting, marks or official-key claim, and filename-only Midterm wording is not assessment authority",
+      "boundaryDisposition": "one fully populated 960x1280 teaching-chart image divides connective tissue into cellular components, fibres and ground substance and supplies all listed cell products, fibre types, collagen details, reticular-fibre reactions and matrix constituents inline; no blank label, response instruction, objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material exists",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "the photographed sheet is rotated relative to portrait viewing but remains fully legible at original resolution",
+        "handwritten spelling, abbreviations, highlighted annotations and selective histology claims remain uncorrected source observations",
+        "the filename phrase Midterm part 2 is not promoted to examination authority or a scored prompt"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3248,20 +3282,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 2,
-    "uniqueSha256": 2,
-    "sortedNewlineSha256": "a364e82dc58eff95efe8f6d6cec0199980a04554a93c46a3ba4cb2e3c58d1053",
+    "inventoryMetadataRows": 1,
+    "uniqueSha256": 1,
+    "sortedNewlineSha256": "2020901a622124cf2577269b3afcbe2f7b838df8e225a1bf2e03c3cac075dc2e",
     "auditSampleStatusCounts": {
-      "audit-not-found": 2
+      "audit-not-found": 1
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 2
+    "audit-not-found": 1
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 99,
-    "remainingUniqueSha256": 2,
+    "processedUniqueSha256": 100,
+    "remainingUniqueSha256": 1,
     "processedPlusRemaining": 101
   }
 }

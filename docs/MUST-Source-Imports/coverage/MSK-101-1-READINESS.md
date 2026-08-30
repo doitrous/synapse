@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The ninety-nine completed read-only source hashes cover one hundred one selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed five-page `muscles of the upper limb MVU (by Lujain Saleh).pdf`, SHA-256 `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`, is a filename-attributed Lujain Saleh digital handwritten teaching carrier. Its exact boundary is **5 completed comparative teaching-table pages / 21 named muscle profiles / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename attribution and iOS Quartz metadata do not establish visible authorship, institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The one hundred completed read-only source hashes cover one hundred two selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed one-image `CT Midterm part 2.jpg`, SHA-256 `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`, is an unattributed photographed handwritten connective-tissue teaching chart. Its exact boundary is **1 teaching-chart image at 960×1280 / 3 connective-tissue sections / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename-only Midterm wording does not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`.
+Latest processed family hash: `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`.
 
-Recent processed family hash retained for reconciliation: `bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f`.
+Recent processed family hash retained for reconciliation: `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -108,8 +108,10 @@ Current teaching-source append: `bf3712a9218a5620df0175cd8ca7aa893586dede5d30286
 
 Current teaching-source append: `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`.
 
-Removing them leaves **2 inventory paths / 2 unique SHA-256s**, checksum `a364e82dc58eff95efe8f6d6cec0199980a04554a93c46a3ba4cb2e3c58d1053`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 2 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm part 2.jpg`, SHA-256 `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`, one image.
+Removing them leaves **1 inventory path / 1 unique SHA-256**, checksum `2020901a622124cf2577269b3afcbe2f7b838df8e225a1bf2e03c3cac075dc2e`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 1 audit-not-found row. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 2 selected inventory paths / 2 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm.jpg`, SHA-256 `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7`, one image.
+
+**BLOCKED — S1 cannot be approved:** 1 selected inventory path / 1 unique hash remains untriaged.

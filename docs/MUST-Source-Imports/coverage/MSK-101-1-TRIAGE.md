@@ -3977,3 +3977,41 @@ Removing the ninety-nine processed unique hashes leaves **2 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm part 2.jpg`, SHA-256 `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`, one image.
 
 **BLOCKED — S1 cannot be approved:** 2 selected inventory paths / 2 unique hashes remain untriaged.
+
+## Completed teaching-only source — CT Midterm part 2
+
+| Source path | SHA-256 | Images | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm part 2.jpg` | `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc` | 1 | audit-not-found inventory label | original 960×1280 image inspected | Unattributed photographed handwritten connective-tissue teaching chart. The JPEG contains no visible institution, department, examiner, examination sitting, marks or official key. Filename-only `Midterm part 2` wording does not authenticate assessment authority. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm part 2.jpg" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+The single rotated photograph shows one fully populated handwritten teaching chart. Its three main sections cover connective-tissue cells, fibres and ground substance. The cellular section supplies mast-cell products, plasma-cell products and matrix examples; the fibre section supplies collagen, elastic and reticular-fibre features; and the ground-substance section supplies tissue-fluid and ground-substance constituents. All terms, arrows, reactions and examples are already filled in.
+
+The exact boundary is **1 teaching-chart image at 960×1280 / 3 connective-tissue sections / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. There is no blank label, learner instruction, response space or station direction.
+
+### Authority, source truth and search gate
+
+The image is an unattributed photograph of handwritten notes. Nothing visible establishes a MUST/MSK institution, department, examiner, sitting, marks or official assessment key, and filename-only `Midterm part 2` wording is not promoted to examination authority. Handwritten spelling, abbreviations, highlighted annotations and selective histology claims remain uncorrected observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. The fully populated chart is not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the one hundred processed unique hashes leaves **1 selected inventory path / 1 unique SHA-256**. Its sorted, newline-joined hash checksum is `2020901a622124cf2577269b3afcbe2f7b838df8e225a1bf2e03c3cac075dc2e`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 1 audit-not-found row, and unique-hash accounting is **`100 + 1 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm.jpg`, SHA-256 `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7`, one image.
+
+**BLOCKED — S1 cannot be approved:** 1 selected inventory path / 1 unique hash remains untriaged.
