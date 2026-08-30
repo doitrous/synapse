@@ -7734,3 +7734,111 @@ and Immunology, while the PDF metadata author is `Rania Talaat`; no institution 
 that incomplete boundary. Its full provenance, teaching/prompt/answer boundary, and prior-BMS
 relationship are the next-source processing blockers: fully render and visually adjudicate the
 complete source before admitting any count.
+
+## Family 69 — tier-4 Capital University bacterial-variation and recombinant-DNA lecture
+
+### Source identity, complete visual boundary, and provenance ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_edf2fa28c773be395a67` · `bacterial genetics part 2.pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 6 - Bacterial Genetics 2/bacterial genetics part 2.pdf` |
+| SHA-256 / size | `edf2fa28c773be395a6730fc753bd7c6d286d14325a2ea9fd89dfefe87d82bad` · 1,601,567 bytes |
+| Format / read boundary | 52 native-text landscape 959.76×540-point pages; native text extracted, all 52 pages rendered at 110 dpi and read in seven ordered contact sheets, and pp. 1 and 49–50 reopened at full-page resolution |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Theoretical` · tier 4; `originUniversityHint` is null |
+| Visible provenance | The p. 1 cover carries a generic `Faculty of Medicine` emblem and an explicit Capital University logo; it attributes `Bacterial variation and recombinant DNA technology` to Dr. Rania Talaat Abdel Haleem, Lecturer of Medical Microbiology and Immunology |
+| Provenance adjudication | The explicit Capital University logo controls institutional origin; the generic faculty emblem does not name another institution. This is Capital University teaching material stored in the Helwan BMS-102 folder, not Helwan-authored material. PDF metadata author `Rania Talaat` supports the named lecturer but does not alter the institutional ruling; the manifest is preserved unchanged. |
+| Authority | Externally authored theoretical teaching deck; no examiner, sitting, date, marks, candidate instructions, response form, departmental question-bank designation, or official exam key |
+
+Pages 2–48 are objectives and declarative teaching: phenotypic/genotypic variation, mutation,
+transformation, conjugation, generalized/specialized transduction, recombination, restriction
+enzymes, cloning vectors, recombinant-DNA technique/applications, nucleic-acid probes, and PCR.
+Diagrams, tables, numbered processes, headings, and labelled lists are not recast as questions.
+Pages 49–50 are explicitly headed `SELF-ASSESSMENT QUESTIONS` and contain one complete four-
+option MCQ each. Neither slide marks an option, and no answer page follows. Pages 51–52 are
+references and closing material.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | Capital University cover and learning objectives | provenance/teaching only; **0 / 0** |
+| 3–28 | variation, mutation, three gene-transfer mechanisms, transduction comparison, and recombination | declarative teaching only; **0 / 0** |
+| 29–43 | recombinant-DNA definition, enzymes, vectors, technique, and applications | declarative teaching only; **0 / 0** |
+| 44–48 | diagnostic molecular biology, nucleic-acid probes, hybridization, and PCR | declarative teaching only; **0 / 0** |
+| 49 | complete sex-pilus/resistance-plasmid/transposon process MCQ | **1 / 0** |
+| 50 | complete diphtheria-toxin-gene acquisition MCQ | **1 / 0** |
+| 51–52 | references and `THANK YOU` closing | **0 / 0** |
+
+The complete source therefore contains **2 prompt occurrences / 0 printed answer or key
+occurrences / 2 unkeyed prompt occurrences**. There are zero literal prompt copies, zero
+semantic collapses, zero cropped/incomplete units, **2 retained records**, and **2 source-
+distinct tested handles**. Answers are not inferred from preceding teaching, medical knowledge,
+or another source.
+
+### Prompt, clean-carrier relationship, and prior-BMS assignment
+
+| Ref | Page | Complete source-tested scope | Printed-answer ruling / handle / prior assignment |
+|---|---:|---|---|
+| F69-Q01 | 49 | Process involving a sex pilus and transfer of a resistance plasmid carrying transposons | no printed answer · `conjugation-transfers-resistance-plasmid-with-transposons` · exact Family 17 Q01 reuse |
+| F69-Q02 | 50 | Process by which the diphtheria-toxin gene is acquired during lysogenic conversion | no printed answer · `diphtheria-toxin-gene-transduction-lysogenic-conversion` · exact Family 17 Q02 reuse |
+
+Pages 49–50 are the clean underlying 49/52 and 50/52 slides captured in Family 17's two JPEGs:
+their headings, stems, options, ordering, and page counters agree. The PDF itself contains no
+highlight or answer convention. Family 17's pale-green digital choice highlights remain
+source-local unproven annotations and are not imported into Family 69 as printed answers or key
+evidence. This clean-carrier relationship adds no new handle and does not retroactively alter the
+earlier fragment's answer classification.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the two handles received exactly four fresh source-first searches across live state,
+every pending import root, and prior BMS-102 evidence: **8 required searches**. Reopened
+external disposition is **0 live / 2 pending / 0 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `conjugation-transfers-resistance-plasmid-with-transposons` · Q01 | `resistance plasmid transposon conjugation`; `sex pilus plasmid transfer`; `conjugation antibiotic resistance genes`; `plasmid carrying transposons gene transfer` | pending `CON-INF-B7F47EC7A8F7FA`; its definition directly states sex-pilus-mediated plasmid transfer by conjugation | exact Family 17 Q01 reuse |
+| `diphtheria-toxin-gene-transduction-lysogenic-conversion` · Q02 | `diphtheria toxin gene transduction`; `Corynebacterium lysogenic conversion bacteriophage`; `toxin gene acquired by phage`; `prophage diphtheria toxin gene transfer` | pending `CON-INF-BFFA74CFBB0B25`; its definition directly states prophage-gene incorporation changing bacterial phenotype | exact Family 17 Q02 reuse |
+
+Both source handles are exact prior-BMS reuses, so **2 - 2 = +0 concepts**.
+
+| Measure | Family 69 | Auxiliary cumulative (Families 12–69) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 2 | 638 | 765 | 1,403 |
+| Printed teaching-answer occurrences | 0 | 348 | 405 | 753 |
+| Unkeyed prompt occurrences | 2 | — | — | tracked separately |
+| Retained question records | 2 | 612 | 552 | 1,164 |
+| Source-distinct tested handles / required searches | 2 / 8 | 577 / — | — | — |
+| External live / pending / no same-scope | 0 / 2 / 0 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 2 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +410 over primary | 372 | `372 + 410 = 782` |
+| **Distinct tested concepts** | **+0** | **410 auxiliary additions** | **372** | **782** |
+
+The checksum closes without remainder: `2` prompt starts receive `0` printed answers and leave
+`2` unkeyed occurrences; retention is `2 - 0 copies = 2`; handle assignment is `2 - 0 semantic
+reductions = 2`; searches are `2 × 4 = 8`; external disposition is `0 + 2 + 0 = 2`; and
+concept arithmetic is `2 - 2 prior exact reuses = 0`. Auxiliary cumulative arithmetic is `636
++ 2 = 638` prompts, `348 + 0 = 348` answers, `610 + 2 = 612` retained records, `575 + 2 =
+577` source handles, and `410 + 0 = 410` concept additions. All eligible arithmetic is `765 +
+638 = 1,403`, `405 + 348 = 753`, `552 + 612 = 1,164`, and `372 + 410 = 782`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**638 / 348 / 612 / 577 / +410**; and all eligible evidence is
+**1,403 / 753 / 1,164 / 782**. This externally authored teaching lecture contributes only
+auxiliary unkeyed self-assessment evidence. It cannot establish Helwan authorship or independently
+raise exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 69
+
+`src_edf2fa28c773be395a67` is exhausted across all 52 pages: every provenance/objective/
+reference/closing page, declarative teaching slide, unkeyed self-assessment prompt, clean-carrier
+relationship, retained record, handle, search row, prior-BMS reuse, and Capital-University-versus-
+Helwan-folder provenance decision is assigned once, with **zero source remainder** and no
+Family-69 blocker. The next manifest-ordered unprocessed BMS-102 record is tier-4
+`src_cf79a07d410cc87b8400` · `sterilization & disinfection2 (1).pdf`, SHA-256
+`cf79a07d410cc87b840053488aa918107aa19fe0ab56ff9499b383e514d93a33`, 1,907,088 bytes,
+46 native-text landscape 720×540-point pages under `Microbiology / Theoretical / Lec 7 -
+Sterilization & Disinfection`. Its manifest first-page snippet visibly attributes the 2025–2026
+lecture to Reem Abdelrahman, Lecturer of Microbiology and Immunology, Faculty of Medicine,
+Helwan University; the PDF metadata author is `Esraa`. Its full provenance, metadata conflict,
+teaching/prompt/answer boundary, and prior-BMS relationship are the next-source processing
+blockers: fully render and visually adjudicate the complete source before admitting any count.
