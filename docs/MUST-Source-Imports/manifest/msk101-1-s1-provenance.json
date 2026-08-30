@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "8b4b9d41c8aa88fe87d7ef525a507dff1e721b5379b6c9dac2c81f7274d86d58",
-    "triageMarkdown": "066c9b553430c902ce0d527db848611b69ec905e56c3f0a6adce4287cc428211"
+    "readinessMarkdown": "f070514f9de750dbf055afddaae433e2d90dfb3135f9112839f054da8e9c4b65",
+    "triageMarkdown": "d4f9775209d33c8e70eef27b8a104e47ede922e65db58e760676509511556644"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -65,6 +65,7 @@
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
+      "565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363",
       "60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609",
@@ -101,7 +102,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 49
+    "uniqueSha256": 50
   },
   "completedSourceCoverage": [
     {
@@ -1325,6 +1326,41 @@
         "Q16 lists the superficial terminal radial-nerve branch among cubital-fossa contents",
         "inconsistent spelling and numbering are retained"
       ]
+    },
+    {
+      "sha256": "565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1",
+      "sourcePages": 5,
+      "renderedReadPages": "1-5",
+      "teachingPages": "1-5",
+      "teachingTableRows": 35,
+      "printedPromptObservations": 0,
+      "writtenPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "image-only handwritten upper-limb muscle teaching tables with CamScanner/iOS metadata dated 14 January 2025; EOM folder and final filename do not authenticate a MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "thirty-five named muscle rows across five teaching tables; no question, written prompt, MCQ, practical, image-identification, answer-only or unkeyed assessment material",
+      "teachingBoundary": {
+        "upperArmRows": 4,
+        "anteriorForearmRows": 8,
+        "posteriorForearmSuperficialRows": 7,
+        "posteriorForearmDeepRows": 5,
+        "handRows": 11
+      },
+      "preservedSourceDefects": [
+        "flexor carpi radialis insertion is written as 2nd and 3rd metacarpal bones",
+        "extensor carpi radialis brevis action is written as extension and abduction",
+        "mixed origin and action shorthand is retained without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1336,13 +1372,13 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 53,
-    "uniqueSha256": 52,
-    "sortedNewlineSha256": "88fc21739df3745a9ea92c435b934e88901e3fc2799938fc603eecc6cd22b464",
+    "inventoryMetadataRows": 52,
+    "uniqueSha256": 51,
+    "sortedNewlineSha256": "d76f04f79fe68c3d2043f43415f57f617a447d5083f98a20dd416803c394b612",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
-      "empty-text": 9,
+      "empty-text": 8,
       "sparse-text": 6,
       "substantive-text": 22
     }
@@ -1350,14 +1386,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
     "audit-not-found": 13,
-    "empty-text": 9,
+    "empty-text": 8,
     "sparse-text": 6,
     "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 49,
-    "remainingUniqueSha256": 52,
+    "processedUniqueSha256": 50,
+    "remainingUniqueSha256": 51,
     "processedPlusRemaining": 101
   }
 }

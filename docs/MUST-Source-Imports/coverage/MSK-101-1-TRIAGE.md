@@ -1877,3 +1877,48 @@ Removing the forty-nine processed unique hashes leaves **53 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Anatomy 101 muscles ( final ).pdf`, SHA-256 `565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1`, 5 pages.
 
 **BLOCKED — S1 cannot be approved:** 53 selected inventory paths / 52 unique hashes remain untriaged.
+
+## Completed source — Anatomy 101 muscles ( final )
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Anatomy 101 muscles ( final ).pdf` | `565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1` | 5 | empty-text audit sample | pages 1–5 rendered and read | Image-only handwritten notebook tables headed `Muscles of upper limb 1` through `5`. CamScanner/iOS Quartz metadata dates the scan to 14 January 2025. No printed author, institution, department, examiner, sitting, marks or assessment/key claim appears; the EOM folder and `final` filename do not authenticate a MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Anatomy 101 muscles ( final ).pdf" purpose="source"}
+
+### Exact teaching, assessment, practical and image boundary
+
+Every page is a handwritten teaching table. The rows list muscles and descriptive attributes; none is phrased, numbered or spatially structured as a question, scored prompt, station, exercise or answer key.
+
+| Page | Teaching table | Named muscle rows | Assessment prompts | Answers/keys | Practical/image-identification |
+|---|---|---:|---:|---:|---:|
+| 1 | Upper arm: origin, insertion, nerve supply and action | 4 | 0 | 0 | 0 |
+| 2 | Front of forearm: origin, insertion, nerve supply and action | 8 | 0 | 0 | 0 |
+| 3 | Back of forearm, superficial group | 7 | 0 | 0 | 0 |
+| 4 | Back of forearm, deep group | 5 | 0 | 0 | 0 |
+| 5 | Muscles of the hand: nerve supply and action | 11 | 0 | 0 | 0 |
+| **Total** | **Teaching-only** | **35** | **0** | **0** | **0** |
+
+There are no MCQs, written prompts, practical stations, diagrams requiring identification, photographs used as prompts, answer-only pages or unkeyed assessment material. Handwritten content remains a source observation without academic correction; for example, the tables print flexor carpi radialis insertion as `2nd & 3rd metacarpal bones`, extensor carpi radialis brevis action as `extension & abduction`, and mixed origin/action shorthand throughout.
+
+### Source-first assessment gate
+
+Because the full source is teaching-only, there is no assessment prompt family to collapse and no source handle eligible for search. The exactly-four-search gate resolves as **`0 accepted handles × 4 = 0 searches`**. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its boundary is **35 teaching-table rows / 0 prompt observations / 0 answer observations**, so its delta is **+0 questions / +0 answers / +0 concepts**. Cumulative totals remain **5502 questions / 5395 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5502 | 5395 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty processed unique hashes leaves **52 selected inventory paths / 51 unique SHA-256s**. Their sorted, newline-joined hash checksum is `d76f04f79fe68c3d2043f43415f57f617a447d5083f98a20dd416803c394b612`. Remaining audit-review debt is 22 substantive-text / 6 sparse-text / 8 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`50 + 51 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - Anatomy MSK101-1 Exam Night Notes (Final).pdf`, SHA-256 `edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 52 selected inventory paths / 51 unique hashes remain untriaged.
