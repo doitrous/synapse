@@ -6861,3 +6861,136 @@ OCR-needed pages; SHA-256
 between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 57 — Tier-4 Histology cartilage lecture with one unkeyed self-test MCQ
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_252ae116a3911d2020a2` |
+| Manifest file / SHA-256 | `cartilage2  medical - record - Copy - Copy.pdf` / `252ae116a3911d2020a2d814ccf5ec639b698ca9ba0e05320c245f793f7982e6` |
+| File boundary | 2,291,006 bytes · unencrypted PDF · 33 physical OCR-needed pages · 792 × 612 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Theoretical · `Lec 1 - Cartilage` · tier 4 |
+| Local corpus path used | `Year 1/LCS 103/Histology/Theoretical/Lec 1 - Cartilage/cartilage2 medical - record.pdf` |
+| Name reconciliation | The exact manifest-named path is absent locally, but the organised one-space filename above recomputes to the assigned SHA-256 and byte size exactly; it is the same source under a normalised local name. |
+| Visible provenance | p. 2 prints `CARTILAGE`, `DR\HEBA ABD ALRAZAK`, `Lecturer of histology Helwan University`; the dated footer on pp. 31–32 prints `11 May 2026` and `Module: BMS-101`, retained as an internal module-label conflict with the LCS-103 manifest/path placement |
+| Authority finding | Direct local Helwan-labelled tier-4 teaching lecture under the assigned LCS-103 corpus path. It is not a sitting paper, question bank, practical response form or official answer key; the stale/conflicting `BMS-101` footer is preserved rather than silently normalised. |
+
+The SHA-256, byte size and 33-page boundary were recomputed and match the assigned source.
+All 33 pages were rendered at 180 dpi and visually read with page-level OCR support; all 33
+complete-page renders have distinct SHA-256 values. Page 1 is a devotional opener, p. 2 is
+title/provenance, p. 3 states objectives, pp. 4–31 contain the complete cartilage lecture,
+p. 32 is a single `TEST YOUR SELF` multiple-choice prompt, and p. 33 is the closing slide.
+
+The p. 3 `Mention`/`Describe` lines are learning objectives, not learner response tasks. All
+lists, arrows, micrographs and diagrams on pp. 4–31 are simultaneous declarative teaching.
+The arrows on pp. 15–17 point to structures identified by the adjacent chondroblast prose;
+all other embedded labels are likewise legible, so there is **no masked or unresolved
+teaching callout**. Page 32 alone has an interrogative stem plus four mutually exclusive
+lettered options and therefore is an ordinary formative MCQ. The lecture states the relevant
+site facts earlier, but neither p. 32 nor p. 33 prints a correctness mark, answer letter or
+delayed reveal; no key is inferred from teaching order.
+
+### Complete teaching-composition and assessment-boundary inventory
+
+| Physical pages | Source-first instructional composition | Teaching occurrences | Ordinary prompts | Printed keys |
+|---:|---|---:|---:|---:|
+| 4–6 | cartilage definition, general characters and mechanical/support functions | 3 | 0 | 0 |
+| 7–9 | cells/fibres/matrix composition, three-type classification and labelled comparison | 3 | 0 | 0 |
+| 10–14 | hyaline appearance/sites, perichondrium structure and perichondrial functions | 5 | 0 | 0 |
+| 15–18 | chondroblast origin, site, LM morphology, functions and unlabelled EM | 4 | 0 | 0 |
+| 19–23 | chondrocyte morphology/division/function plus type-II collagen and ground substance | 5 | 0 | 0 |
+| 24–25 | yellow elastic cartilage structure and sites | 2 | 0 | 0 |
+| 26–29 | white fibrocartilage structure, lack of perichondrium, sites and toughness | 4 | 0 | 0 |
+| 30 | intervertebral-disc annulus/nucleus structure and prolapse/root-compression relation | 1 | 0 | 0 |
+| 31 | appositional versus interstitial cartilage growth | 1 | 0 | 0 |
+| 32 | `Where are Sites of hyaline cartilage?` with options A–D | 0 | 1 | 0 |
+| **Total** | **complete content boundary** | **28** | **1** | **0** |
+
+The **28 teaching-slide occurrences are 28 source-distinct instructional compositions**.
+Complete-render SHA-256 and semantic comparison found no full-page copy to collapse. The
+source boundary is therefore **28 teaching compositions / 1 ordinary MCQ / 0 printed keys /
+0 practical or station prompts / 0 response blanks / 0 masked assessment callouts / 0
+unresolved teaching callouts**. As theoretical material, it adds **0 practical plates, 0
+practical mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 32 → `hyaline-cartilage-growth-plate-and-articular-sites` | hyaline cartilage sites; epiphyseal plate articular surface hyaline; elastic fibrocartilage site distractors; where is hyaline cartilage found | pending `ART-103-HIS-CARTILAGE-TYPES` owns the site table; exact accepted Family-13 `hyaline-cartilage-growth-plate-articular-fetal-sites` and Family-56 cartilage-site scope own this same tested objective | pending; prior-LCS scope reuse; new to eligible LCS because the prior exact prompt family was external-only |
+
+The one occurrence is one source-distinct tested handle: `1 - 0 repeats = 1`. Its four
+required searches completed across live state, pending state, all source-import roots and
+accepted prior LCS. Assessment disposition is **0 live / 1 pending / 0 new = 1**. The option
+pair that matches the earlier teaching is not promoted into a key; the printed-key delta is
+zero.
+
+### Source-first theoretical scopes, searches and prior-LCS adjudication
+
+The 28 teaching compositions consolidate to eleven source-level theoretical scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `cartilage-definition-general-characters-and-functions` · pp. 4–6 | cartilage definition firm rubbery matrix; cartilage mesenchymal avascular diffusion; cartilage no lymphatics nerves; cartilage support attachment airway shock absorption | pending cartilage material owns the characteristics/functions; accepted Family-13 general cartilage handles and Family-56 overview jointly own the core — prior LCS reuse |
+| `cartilage-composition-and-three-type-classification` · pp. 7–9 | cartilage cells fibers ground substance; chondroblast chondrocyte collagen elastic; three types cartilage classification; hyaline elastic fibrocartilage matrix comparison | pending cartilage cell/type material owns the composition/classification; accepted Families 13 and 56 own the same core — prior LCS reuse |
+| `hyaline-cartilage-appearance-and-sites` · pp. 10–11 | hyaline cartilage glassy translucent; hyaline cartilage fetal skeleton; epiphyseal costal articular cartilage; respiratory passage hyaline cartilage | pending cartilage-types material owns appearance and sites; accepted Family-13 hyaline/site handles and Family-56 site scope own the core — prior LCS reuse |
+| `perichondrium-structure-and-functions` · pp. 12–14 | perichondrium two layers; outer fibrous inner chondrogenic; perichondrium nutrition appositional growth; perichondrium muscle attachment articular absence | pending cartilage-cell/written material owns both layers and functions; accepted Family-13 and Family-56 perichondrium scopes own the same core — prior LCS reuse |
+| `chondroblast-origin-lm-em-and-functions` · pp. 15–18 | chondroblast origin inner perichondrium; chondroblast LM basophilic spindle; chondroblast EM histology; chondroblast appositional growth collagen II | pending cartilage-cell material owns the phenotype/functions; accepted Family-13 and Family-56 chondroblast scopes own the same core — prior LCS reuse |
+| `chondrocyte-morphology-isogenous-groups-and-functions` · pp. 19–21 | chondrocyte morphology lacuna nucleus; chondrocyte isogenous cell nest; mature chondrocyte cannot divide; chondrocyte matrix interstitial growth | pending cartilage-cell material owns the full relation; accepted Family-13 and Family-56 chondrocyte scopes own the same core — prior LCS reuse |
+| `hyaline-type-ii-fibres-and-ground-substance` · pp. 22–23 | hyaline collagen II refractive index; cartilage collagen after ground substance digestion; cartilage proteoglycan chondroitin sulfate; cartilage matrix homogeneous basophilic | pending cartilage-cell/type material owns fibre and matrix composition; accepted Family-13 matrix handles and Family-56 hyaline-matrix scope own the core — prior LCS reuse |
+| `yellow-elastic-cartilage-structure-and-sites` · pp. 24–25 | yellow elastic cartilage structure; elastic cartilage perichondrium collagen II; ear pinna epiglottis Eustachian tube cartilage; elastic cartilage branching fibers sites | pending cartilage-types material owns the structure/sites; accepted Family-13 and Family-56 elastic-cartilage scopes own the same core — prior LCS reuse |
+| `white-fibrocartilage-structure-sites-and-function` · pp. 26–29 | white fibrocartilage collagen I rows; fibrocartilage no perichondrium; fibrocartilage sites meniscus symphysis; fibrocartilage strong tough function | pending cartilage-types material owns phenotype/sites; accepted Family-13 and Family-56 fibrocartilage scopes own the same core — prior LCS reuse |
+| `intervertebral-disc-structure-prolapse-and-root-compression` · p. 30 | intervertebral disc annulus fibrosus nucleus pulposus; white fibrocartilage disc structure; nucleus pulposus herniation; disc prolapse nerve root compression | pending Histology/Anatomy material owns the complete structure/clinical relation; accepted Family-17 owns clinical prolapse and accepted cartilage scopes own the site, but no prior LCS handle owns this complete composite — additive theoretical scope |
+| `cartilage-appositional-versus-interstitial-growth` · p. 31 | cartilage appositional interstitial growth; chondroblast matrix outside cartilage; chondrocyte division inside cartilage; cartilage growth limited adults | pending cartilage-cell material owns both mechanisms; exact accepted Family-13 growth handle and Family-56 cell scopes own the same core — prior LCS reuse |
+
+All **11 × 4 = 44** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **0 live / 11 pending / 0 new**. Exact accepted-
+prior comparison prevents ten repeated module additions, leaving **ten prior-LCS reuses /
+one additive theoretical teaching scope (pending)**. Together with the assessment handle,
+Family 57 completed **48 required searches**. Declarative teaching scopes do not enter the
+eligible tested-concept count, and no theoretical scope enters the practical-teaching-scope
+counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 57 | Family 57 delta | After Family 57 |
+|---|---:|---:|---:|
+| Eligible observed question records | 510 | +1 | 511 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 246 | +1 | 247 |
+| Question live / pending / new | 9 / 82 / 155 | +0 / +1 / +0 | 9 / 83 / 155 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 387 verified minimum | +0 | 387 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,423 verified minimum | +0 | 2,423 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 135 | +0 | 135 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 73 | +0 / +0 / +0 | 0 / 0 / 73 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `33 = 4 framing/closing pages + 28 teaching
+compositions + 1 assessment page`, `28 = 3 + 3 + 5 + 4 + 5 + 2 + 4 + 1 + 1`, `1 = 1
+prompt - 0 repeats`, `511 = 510 + 1`, `264 = 264 + 0`, `247 = 246 + 1`, `9 + 83 +
+155 = 247`, `387 + 0 = 387`, `2,423 + 0 = 2,423`, `135 + 0 = 135`, and `73 + 0 =
+73`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-56
+remainder leaves **19 rank-4/rank-5 path instances / 17 unique hashes**. The Family-56
+method was reproduced first: its 20/18 row sets recomputed to
+`0b03bff5371fa3e2a22d0c4ba0f459133a947f84f01771f6afaa59b845c8ce3a` and
+`69405653348e8adb9db144dcbc722feb6e6ae5c36e44f55d88cc1208fb5a4196`.
+For the exact post-Family-57 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`247e5121430294c35ac6d8c31c5564c9e47e1c793bcc4c419b5720bfc73b38dc`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`a17789d8e8d39545fecbcbb4763713a6187a1962fff7670222005cefbcabcf0b`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Histology theoretical source
+`src_11f398fe99ee4128f6f8`, `bone 1 - record.pdf` (2,434,527 bytes; 42 OCR-needed pages;
+SHA-256 `11f398fe99ee4128f6f87771ca1f5d0632a9a102c7e6cfce63f4e80120af5297`)
+under `Year 1/LCS 103/Histology/Theoretical/Lec 2 - Bone I/`. Tier-6 and rank-9 source debts
+between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
