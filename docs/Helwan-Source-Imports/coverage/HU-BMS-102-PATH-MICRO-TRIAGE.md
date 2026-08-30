@@ -7620,3 +7620,117 @@ Immunology, Faculty of Medicine–Capital University and Acting Head of Microbio
 That second provenance conflict, preferred-twin relationship, and its unread complete teaching/
 prompt/answer boundary are the next-source processing blockers: fully render and visually
 adjudicate the source before admitting any count.
+
+## Family 68 — tier-4 preferred Capital University bacterial-genetics lecture carrier
+
+### Source identity, complete visual boundary, and provenance ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_1245d519caac809922c3` · `BACTERIAL GENETICS [1].pdf`; manifest-preferred same-name twin |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 5 - Bacterial Genetics 1/BACTERIAL GENETICS [1].pdf` |
+| SHA-256 / size | `1245d519caac809922c3e2db0ae5587e6c5ba2e7bae1518feadaaa8f5b4a1dd9` · 2,192,977 bytes |
+| Format / read boundary | 52 native-text landscape 792×612-point pages; native text extracted, all 52 pages rendered at 110 dpi and read in seven ordered contact sheets, and pp. 1 and 49–50 reopened at full-page resolution |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Theoretical` · tier 4; `originUniversityHint` is null |
+| Visible provenance | The p. 1 Capital University logo and cover attribute `BACTERIAL GENETICS (1)` to Ehab Mohamed Fahmy, Associate Professor of Medical Microbiology and Immunology, Faculty of Medicine–Capital University, Acting Head of Microbiology Department |
+| Provenance adjudication | The explicit cover controls authorship: this is Capital University teaching material stored in the Helwan BMS-102 folder, not Helwan-authored material. The empty PDF `Author` field and Microsoft Print to PDF producer do not alter that ruling; the manifest is preserved unchanged. |
+| Authority | Externally authored theoretical teaching deck; no examiner, sitting, date, marks, candidate instructions, response form, departmental question-bank designation, or official exam key |
+
+Pages 2–48 are objectives and declarative teaching: bacteriophage morphology, lytic and
+temperate cycles, prophage outcomes and phage uses, bacterial genome elements, chromosome
+structure/replication/expression, plasmid properties and types, plasmid-borne functions,
+transposable elements, and prophage DNA. Images, headings, numbered mechanisms, lists,
+comparison tables, and the p. 38 `compare` graphic are teaching content, not inferred prompts.
+Page 49 is explicitly headed `Questions` and contains one completion plus two four-option MCQs.
+Page 50 is explicitly headed `Answers` and maps all three prompts one-to-one. Pages 51–52 are
+references and the closing slide.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | Capital University cover and objectives | provenance/teaching only; **0 / 0** |
+| 3–19 | bacteriophage structure, replication cycles, prophage outcomes, and practical uses | declarative teaching only; **0 / 0** |
+| 20–30 | genes, bacterial-genome components, chromosome structure, replication, and expression | declarative teaching only; **0 / 0** |
+| 31–43 | plasmid definition, conjugative/non-conjugative comparison, functions, and examples | declarative teaching only; **0 / 0** |
+| 44–48 | transposable elements, transposon diagrams, and prophage definition | declarative teaching only; **0 / 0** |
+| 49 | one complete fill-in and two complete four-option MCQs | **3 / 0** |
+| 50 | explicit `Answers`: chromosome, D, D | **0 / 3** |
+| 51–52 | references and `Thank You` closing | **0 / 0** |
+
+The complete source therefore contains **3 prompt occurrences / 3 printed teaching-answer
+occurrences / 0 unkeyed prompt occurrences**. There are zero literal prompt copies, zero
+semantic collapses, zero cropped/incomplete units, **3 retained records**, and **3 source-
+distinct tested handles**. Page 50's explicit answer register is a source-authored teaching
+answer convention, not an official exam key.
+
+### Prompt, answer, preferred-carrier relationship, and prior-BMS assignment
+
+| Ref | Page(s) | Complete source-tested scope / printed answer | Handle / prior assignment |
+|---|---:|---|---|
+| F68-Q01 | 49–50 | Genetic location carrying genes essential for bacterial growth; `The chromosome` | `essential-bacterial-growth-genes-on-chromosome` · exact Family 16 Q01 reuse |
+| F68-Q02 | 49–50 | Defining content of a lysogenic bacterial cell; D · prophage | `lysogenic-bacterial-cell-contains-prophage` · exact Family 16 Q02 / Family 27 Q07 reuse |
+| F68-Q03 | 49–50 | Correct plasmid property among insertion, essential-growth genes, linear form, and optional genes; D · carry optional/dispensable genes | `plasmids-carry-dispensable-genes` · exact Family 16 Q03 reuse; Family 49 Q33 carries the same accepted scope |
+
+This PDF is the manifest-preferred theoretical carrier associated with the tier-6 bacterial-
+genetics name-twin gate after Family 27. It is not byte-identical to that four-page study bank,
+and its 48 teaching pages are not promoted to assessment records. The three prompts also match
+Family 16's slide-54/57 screenshot scopes, but this 52-page deck is not claimed as that fragment's
+physical parent because its page counter and deck boundary differ. Family 68 independently
+records its own clean printed answer page; it does not convert earlier screenshot annotations
+into printed-key evidence.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the three handles received exactly four fresh source-first searches across live state,
+every pending import root, and prior BMS-102 evidence: **12 required searches**. Reopened
+external disposition is **0 live / 0 pending / 3 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `essential-bacterial-growth-genes-on-chromosome` · Q01 | `essential bacterial genes chromosome`; `genes essential bacterial growth carried chromosome`; `bacterial chromosome essential genes`; `chromosome versus plasmid essential genes` | no same-scope | exact Family 16 Q01 reuse |
+| `lysogenic-bacterial-cell-contains-prophage` · Q02 | `lysogenic bacterial cell contains prophage`; `lysogen definition prophage`; `bacterial lysogen integrated phage`; `prophage in lysogenic bacterium` | no same-scope; lysogenic-conversion records test phenotype change, not this cell-definition scope | exact Family 16 Q02 / Family 27 Q07 reuse |
+| `plasmids-carry-dispensable-genes` · Q03 | `plasmids carry optional genes`; `plasmid dispensable genes`; `bacterial plasmid nonessential genetic material`; `plasmid genes not essential growth` | no same-scope | exact Family 16 Q03 / Family 49 Q33 reuse |
+
+All **3** source handles are exact prior-BMS reuses, so **3 - 3 = +0 concepts**.
+
+| Measure | Family 68 | Auxiliary cumulative (Families 12–68) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 3 | 636 | 765 | 1,401 |
+| Printed teaching-answer occurrences | 3 | 348 | 405 | 753 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Retained question records | 3 | 610 | 552 | 1,162 |
+| Source-distinct tested handles / required searches | 3 / 12 | 575 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 3 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 3 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +410 over primary | 372 | `372 + 410 = 782` |
+| **Distinct tested concepts** | **+0** | **410 auxiliary additions** | **372** | **782** |
+
+The checksum closes without remainder: `3` prompt starts receive `3` printed teaching answers
+and leave `0` unkeyed occurrences; retention is `3 - 0 copies = 3`; handle assignment is `3 - 0
+semantic reductions = 3`; searches are `3 × 4 = 12`; external disposition is `0 + 0 + 3 = 3`;
+and concept arithmetic is `3 - 3 prior exact reuses = 0`. Auxiliary cumulative arithmetic is
+`633 + 3 = 636` prompts, `345 + 3 = 348` answers, `607 + 3 = 610` retained records, `572 + 3
+= 575` source handles, and `410 + 0 = 410` concept additions. All eligible arithmetic is `765
++ 636 = 1,401`, `405 + 348 = 753`, `552 + 610 = 1,162`, and `372 + 410 = 782`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**636 / 348 / 610 / 575 / +410**; and all eligible evidence is
+**1,401 / 753 / 1,162 / 782**. This externally authored teaching lecture contributes only
+auxiliary question/answer evidence. It cannot establish Helwan authorship or independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 68
+
+`src_1245d519caac809922c3` is exhausted across all 52 pages: every provenance/objective/
+reference/closing page, declarative teaching slide, prompt, printed teaching answer, retained
+record, preferred-twin relationship, handle, search row, prior-BMS reuse, and Capital-University-
+versus-Helwan-folder provenance decision is assigned once, with **zero source remainder** and no
+Family-68 blocker. The next manifest-ordered unprocessed BMS-102 record is tier-4
+`src_edf2fa28c773be395a67` · `bacterial genetics part 2.pdf`, SHA-256
+`edf2fa28c773be395a6730fc753bd7c6d286d14325a2ea9fd89dfefe87d82bad`, 1,601,567 bytes,
+52 native-text landscape 959.76×540-point pages under `Microbiology / Theoretical / Lec 6 -
+Bacterial Genetics 2`. Its manifest first-page snippet identifies `Bacterial variation and
+recombinant DNA technology` by Dr. Rania Talaat Abdel Haleem, Lecturer of Medical Microbiology
+and Immunology, while the PDF metadata author is `Rania Talaat`; no institution is admitted from
+that incomplete boundary. Its full provenance, teaching/prompt/answer boundary, and prior-BMS
+relationship are the next-source processing blockers: fully render and visually adjudicate the
+complete source before admitting any count.
