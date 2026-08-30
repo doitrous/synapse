@@ -7954,3 +7954,142 @@ native-text pages; SHA-256
 omits one of the manifest's two spaces after `103`. Tier-6 and rank-9 source debts between
 rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains incomplete. No
 download, ID, content record, catalogue update, import or source copy was created.
+
+## Family 65 — Tier-4 Pathology theoretical Joint Diseases and Tumours lecture with five unkeyed self-test MCQs
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_6995e894c8b7f13c8809` |
+| File / SHA-256 | manifest `103  (3) joints.pdf`; local normalized `103 (3) joints.pdf` / `6995e894c8b7f13c88097fced41e6d68b9af3d2a05b8a49203eff09d46be5378` |
+| File boundary | 1,210,435 bytes · unencrypted PDF · 31 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Pathology · Theoretical · `Lec 2 - Joint Diseases & Tumors` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Pathology/Theoretical/Lec 2 - Joint Diseases & Tumors/103 (3) joints.pdf` |
+| Visible provenance | p. 1 prints `Locomotor Pathology 103`, `Lecture 3`, `Joints` and `Dr Rofanda Bakeer`; the manifest folder calls this `Lec 2`; PDF metadata retains the unrelated title `Respiratory Module Lecture 1`, author `lenovo`, and Microsoft PowerPoint 2016 creator/producer |
+| Authority finding | Manifest/path-placed local module theoretical teaching and self-test evidence. It is not a recoverable sitting, department question bank, response form, practical station or official answer key. The visible lecture number and manifest-folder number are retained without reconciliation. |
+
+The assigned SHA-256, byte size and 31-page boundary were recomputed and match the source.
+All 31 pages were rendered at 160 dpi and read against the complete native text layer; all
+31 complete-page renders have distinct SHA-256 values. Page 1 is the title/provenance slide;
+pp. 2–24 are declarative teaching; p. 25 is the `Test Yourself` divider; pp. 26–30 contain
+one MCQ each; and p. 31 is the graphic closing slide.
+
+The labelled diagrams and photomicrographs on pp. 6, 11, 15, 18, 21 and 24 are simultaneous
+declarative teaching: disease names and findings are printed on the same pages, with no
+learner request, blank or masked label. Page 21's printed `Physaliferous cells` label is
+preserved as source wording. None of the five option sets is marked, coloured, ticked or
+followed by a delayed reveal. The complete source boundary is therefore **23 theoretical
+teaching compositions / 5 ordinary assessment prompt occurrences / 0 printed keys / 0
+practical or station prompts / 0 practical teaching plates / 0 practical mappings / 0 masked
+or unresolved practical callouts**. No medically inferable option is promoted into a key.
+
+### Complete teaching and assessment inventory
+
+| Physical pages | Source-first composition | Teaching compositions | Assessment / key boundary |
+|---:|---|---:|---:|
+| 2–3 | objectives and joint-disease aetiologic/classification frame | 2 | 0 |
+| 4–8 | osteoarthritis definition, primary/secondary causes, clinical pattern, diagram, radiology and morphology | 5 | 0 |
+| 9–11 | rheumatoid-arthritis multisystem clinic, laboratory/radiology and synovial histology | 3 | 0 |
+| 12–13 | suppurative and tuberculous arthritis | 2 | 0 |
+| 14–16 | gout stages/podagra/tophi and pseudogout | 3 | 0 |
+| 17–19 | ganglion cyst and bursitis | 3 | 0 |
+| 20–24 | chordoma, chondroblastoma and chondrosarcoma | 5 | 0 |
+| 26 | leading cause of disability after age 55 differential | 0 | 1 ordinary MCQ; 0 keys |
+| 27 | low-trauma hip and vertebral-fracture differential | 0 | 1 ordinary MCQ; 0 keys |
+| 28 | destructive calcified pelvic bluish-white tumour differential | 0 | 1 ordinary MCQ; 0 keys |
+| 29 | cytopenic back-pain, jelly-like marrow-aspirate cell-type differential | 0 | 1 ordinary MCQ; 0 keys |
+| 30 | febrile child with diaphyseal small-round-blue-cell tumour differential | 0 | 1 ordinary MCQ; 0 keys |
+| **Total** | **complete in-scope content boundary** | **23** | **5 prompts / 0 keys** |
+
+The five assessment pages are five source-distinct prompts and map to five source-distinct
+tested handles; there is no within-source wording repeat or response-unit collapse. The
+complete physical-page arithmetic is **31 = 3 title/divider/closing pages + 23 teaching
+compositions + 5 assessment pages**. No complete teaching page is duplicated.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 26 → `older-adult-leading-disability-arthropathy-differential` | most common cause disability over 55; older adult leading disability arthritis; osteoarthritis disability elderly; arthritis disability age 55 | accepted OA handles own clinical/aetiologic features but not this age-bounded leading-disability ranking; no complete external record owns it | new; no printed key |
+| p. 27 → `osteoporosis-density-and-fragility-diagnosis` | elderly hip vertebral fracture; osteoporosis fragility fracture; femoral head T10 compression fracture; low trauma fracture osteoporosis | exact accepted Family-17/18/19 eligible handle; pending density/fragility material owns the clinical core | pending; prior eligible-LCS reuse; no concept delta; no printed key |
+| p. 28 → `chondrosarcoma-clinicoradiologic-gross-diagnosis` | pelvic ischium destructive calcified mass; bluish white cartilage tumor pelvis; chondrosarcoma pelvic mass calcification; chondrosarcoma clinicoradiologic diagnosis | accepted Family-17/19 keyed chondrosarcoma evidence already owns the pelvic, calcified, destructive and bluish-white diagnostic pattern | prior eligible-LCS reuse; inherited new; no concept delta; no printed key |
+| p. 29 → `multiple-myeloma-marrow-plasma-cell-diagnostic-pattern` | dark red jelly bone marrow aspirate; multiple myeloma plasma cells marrow; pancytopenia back pain plasma cells; sternal marrow aspirate plasma cells | accepted multiple-myeloma diagnostic handle plus pending marrow-plasma-cell evidence owns the cytopenia, back-pain and aspirate-cell core | pending; prior eligible-LCS reuse; no concept delta; no printed key |
+| p. 30 → `ewing-sarcoma-small-round-blue-cell-diaphyseal-diagnosis` | child diaphyseal small round blue cells; Ewing sarcoma femur fever; Ewing diaphysis round blue cell; pediatric bone mass Ewing diagnosis | accepted Family-18/20 eligible Ewing handle owns child age, diaphyseal site, fever and small-round-blue-cell pattern | prior eligible-LCS reuse; inherited new; no concept delta; no printed key |
+
+All **5 × 4 = 20** assessment searches completed across live state, pending state, every
+source-import root and accepted prior LCS. At direct complete-scope grain the five handles are
+**0 live / 2 pending / 3 external new**. Exact prior-eligible adjudication removes four
+already tested scopes, leaving `5 tested handles - 4 prior eligible handles = 1 added
+concept` and a module delta of **0 live / 0 pending / 1 new**. Search matches establish
+coverage only and do not supply answer text or keys.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The 23 teaching compositions consolidate to 12 source-level theoretical scopes. Scope collapse
+does not delete page, diagram, label or source-wording evidence.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `joint-disease-objectives-and-etiologic-classification` · pp. 2–3 | joint disease classification etiology; osteoarthritis rheumatoid suppurative tuberculous arthritis; cystic lesions joints ganglion bursitis; joint tumor nature behavior prognosis | no substantive complete external or accepted prior-LCS taxonomy — new theoretical teaching |
+| `osteoarthritis-primary-secondary-pathogenesis-clinic-radiology-morphology` · pp. 4–8 | primary secondary osteoarthritis causes; osteoarthritis Heberden nodes; osteoarthritis joint space osteophytes loose bodies; osteoarthritis microcysts damaged cartilage | accepted OA clinical/aetiologic, age and keyed diagnostic evidence jointly owns the disease core — prior LCS reuse |
+| `rheumatoid-arthritis-multisystem-clinic-labs-radiology-synovial-histology` · pp. 9–11 | rheumatoid arthritis systemic manifestations; rheumatoid factor ESR ulnar deviation; rheumatoid synovium villous hypertrophy; rheumatoid lymphoid follicles histology | accepted RA clinical/aetiologic, serologic and joint-pattern evidence owns the core — prior LCS reuse |
+| `suppurative-arthritis-routes-organisms-and-clinical-pattern` · p. 12 | suppurative arthritis hematogenous spread; septic arthritis causative organisms; infectious arthritis joint effusion neutrophilic leukocytosis; suppurative arthritis immunocompromised | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `tuberculous-arthritis-spread-sites-and-morphology` · p. 13 | tuberculous arthritis hematogenous spread; Pott disease tuberculous spondylitis; tuberculous arthritis caseating tubercles; tuberculous joint rice bodies caries | prior Pott-disease evidence is narrower and does not own the complete joint spread/site/morphology scope — new theoretical teaching |
+| `gout-purine-urate-stages-podagra-tophi-histology` · pp. 14–15 | gout purine metabolism hyperuricemia; gout clinical stages; podagra monosodium urate tophi; gout tophus histology giant cells | live gout/urate and accepted Family-62 clinical/crystal/practical evidence jointly owns the core — prior LCS reuse |
+| `pseudogout-calcium-pyrophosphate-and-associations` · p. 16 | pseudogout calcium pyrophosphate; pyrophosphate arthropathy; pseudogout metabolic associations; CPPD elderly joint disease | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `ganglion-cyst-clinic-pathogenesis-gross-histology` · pp. 17–18 | ganglion cyst dorsum wrist; ganglion clear mucinous fluid; ganglion cyst synovial lining histology; ganglion cyst pathogenesis | exact accepted Family-21 clinicopathologic and Family-62 practical evidence owns the core — prior LCS reuse |
+| `bursitis-causes-gross-and-histologic-pattern` · p. 19 | bursitis mechanical trauma; housemaids knee tennis elbow bursitis; bursitis thick walled bursal sac; bursitis granulation tissue histology | accepted popliteal-bursitis clinical evidence is narrower and does not own the complete cause/gross/histology scope — new theoretical teaching |
+| `chordoma-origin-site-clinic-gross-and-microscopy` · pp. 20–21 | chordoma notochord origin; chordoma sacral spheno-occipital; chordoma physaliphorous cells; chordoma gelatinous gross histology | accepted Family-63 chordoma-origin/microscopy handle owns the core — prior LCS reuse |
+| `chondroblastoma-age-site-radiology-gross-and-histology` · p. 22 | chondroblastoma epiphysis under 20; chondroblastoma calcified lytic lesion; chondroblastoma chicken wire calcification; chondroblastoma giant cells histology | prior epiphyseal-tumour differential is narrower and no accepted complete disease scope exists — new theoretical teaching |
+| `chondrosarcoma-classification-clinic-gross-and-histology` · pp. 23–24 | chondrosarcoma central peripheral; chondrosarcoma bluish white gelatinous mass; chondrosarcoma anaplastic cartilage lobules; chondrosarcoma metastasis lung liver kidney brain | accepted chondrosarcoma assessment/morphology and Family-62 practical evidence owns the core — prior LCS reuse |
+
+All **12 × 4 = 48** teaching-scope searches completed across live state, pending state, all
+source-import roots and accepted prior LCS. At complete-scope grain the direct external result
+is **0 live / 0 pending / 12 new**. Exact accepted-prior comparison prevents six repeated
+module additions, leaving **6 prior-LCS reuses / 6 new theoretical-teaching scopes**. Together
+with the assessment handles, Family 65 completed **68 required searches**. Declarative
+teaching scopes do not enter eligible tested-concept or practical-scope counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 65 | Family 65 delta | After Family 65 |
+|---|---:|---:|---:|
+| Eligible observed question records | 527 | +5 | 532 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 255 | +1 | 256 |
+| Question live / pending / new | 10 / 86 / 159 | +0 / +0 / +1 | 10 / 86 / 160 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `31 = 3 + 23 + 5`, `23 = 2 + 5 + 3 + 2 + 3
++ 3 + 5`, `5 = 5 prompts - 0 repeated source occurrences`, `1 added concept = 5 tested
+handles - 4 prior eligible handles`, `532 = 527 + 5`, `265 = 265 + 0`, `256 = 255 + 1`,
+`10 + 86 + 160 = 256`, `6 + 0 = 6`, `398 + 0 = 398`, `2,496 + 0 = 2,496`, `136 +
+0 = 136`, and `74 + 0 = 74`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-64
+remainder leaves **11 rank-4/rank-5 path instances / 9 unique hashes**. The Family-64
+method was reproduced first: its 12/10 row sets recomputed to
+`ccdda56b5597164f9a6ea9810a7b41ba8a13415a8a2d53f6a42c2b86724e2942` and
+`6873596c38d12745f5e5e48ae9734fff171928e756c60aa91fe9077368bda6ea`.
+For the exact post-Family-65 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`2532b563552e572beb00e32f39fcc6c477834ceef7b891b2331617f5cecc652e`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`21aa1ba9ec98c5797c4ab5bccb6243d42972938390d271731211a39d60175ac5`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Pathology theoretical source
+`src_237f83bb42bf143fefdf`, manifest `103  (4) Soft Tissue Tumors.pdf` (1,870,745 bytes;
+29 native-text pages; SHA-256
+`237f83bb42bf143fefdfd1bb5be5fefda31fa451da2ae98c4c71944c852a312a`) under `Year 1/LCS
+103/Pathology/Theoretical/Lec 3 - Soft Tissue Lesions & Tumors/`; the local normalized
+filename omits one of the manifest's two spaces after `103`. Tier-6 and rank-9 source debts
+between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
