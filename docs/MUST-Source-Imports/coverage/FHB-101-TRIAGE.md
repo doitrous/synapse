@@ -6483,3 +6483,56 @@ Removing this one empty-text path and unique hash leaves **11 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/General anatomy (FHB 101).pdf`, SHA-256 `248048db0f9ccc82dd0f3cf28a176ace8a4615fed998da046c6746fe23d388d5`, 31 pages.
 
 **BLOCKED — S1 cannot be approved:** 11 selected source paths remain untriaged.
+
+## Completed source — General anatomy (FHB 101)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/General anatomy (FHB 101).pdf` | `248048db0f9ccc82dd0f3cf28a176ace8a4615fed998da046c6746fe23d388d5` | 31 | sparse-text (pinned checkpoint; audit sample unavailable) | pages 1–31 rendered and read | Microsoft Word 365 export created 11 November 2024 and credited on-page to Youssef BenAhmed / Mucize Doctors Team for MUST medicine students, 2024/25. It is a student-authored revision bank, not an official departmental paper or key. |
+
+### Exact assessment / key boundary
+
+Page 1 is a cover declaring “150 MCQs on general anatomy.” Pages 2–31 contain exactly 150 four-option MCQs in 12 numbered sections: anatomical planes and terms (20), skin (5), fascia (10), skeletal system (15), bones (20), cartilages (10), joints (20), muscles (15), nerve supply and action of muscles (10), cardiovascular system (10), lymphatic system (5), and nervous system (10). Every content page prints a five-item answer block at its foot. The blocks cover every numbered prompt once and contain no extra key entries.
+
+The exact boundary is therefore **150 prompt occurrences / 150 printed key observations / 150 prompt-matched recovered answers**. There is no practical-identification, essay or teaching-passage boundary, and no answer was inferred, corrected or promoted beyond the source.
+
+### Source-first handles, four searches, and prior-FHB dedupe
+
+All 150 prompts were assigned once across 14 source-first handles. Each handle received four exact phrase searches across live, server, pending/import-ready and documentation evidence, for **14 × 4 = 56 searches**.
+
+| Handle | Prompt scope (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| H1 | Anatomical position, planes, directional and movement terms (`anatomical position palms forward`; `median plane equal halves`; `coronal plane anterior posterior`; `adduction abduction movement`) | live-hit; exact completed prior-FHB general-anatomy reuse. |
+| H2 | Skin layers, dermis, cleavage/Langer lines and incision direction (`epidermis superficial skin layer`; `Langer lines dermis collagen`; `cleavage lines surgical incision`; `dermis connective tissue`) | new externally; exact completed prior-FHB reuse. |
+| H3 | Superficial/deep fascia, septa, retinacula and fascial spaces (`superficial fascia loose adipose tissue`; `deep fascia intermuscular septa`; `retinacula deep fascia`; `fascial spaces blood pus`) | new externally; exact completed prior-FHB reuse. |
+| H4 | Axial/appendicular skeleton, vertebrae, ribs and adult bone count (`axial appendicular skeleton`; `cervical vertebrae seven`; `floating ribs sternum`; `adult skeleton 206 bones`) | pending-hit; exact completed prior-FHB reuse. |
+| H5 | Bone cells, types, structure and growth (`osteoblast bone formation osteoclast resorption`; `sesamoid bone patella`; `pneumatic bone air spaces`; `epiphyseal plate bone lengthening`) | new externally; exact completed prior-FHB reuse. |
+| H6 | Cartilage types, sites and regeneration (`hyaline cartilage most abundant`; `elastic cartilage epiglottis auricle`; `fibrocartilage intervertebral discs`; `cartilage poor regenerative capacity`) | new externally; exact completed prior-FHB reuse. |
+| H7 | Fibrous, cartilaginous and synovial joint classification (`fibrous joint suture gomphosis`; `primary cartilaginous synchondrosis`; `secondary cartilaginous intervertebral disc`; `synovial joint cavity`) | pending-hit; exact completed prior-FHB reuse. |
+| H8 | Synovial-joint axes, structures and examples (`hinge joint knee`; `pivot joint atlanto axial`; `saddle joint thumb`; `plane joint intercarpal`) | pending-hit; exact completed prior-FHB reuse. |
+| H9 | Muscle tissue types and gross anatomy (`skeletal muscle voluntary striated`; `smooth muscle spindle shaped`; `cardiac muscle intercalated discs`; `muscle origin insertion belly`) | new externally; exact completed prior-FHB reuse. |
+| H10 | Muscle roles, movements, motor units and properties (`prime mover antagonist synergist fixator`; `supination pronation movement`; `motor unit muscle fibers`; `muscle elasticity extensibility`) | pending-hit; exact completed prior-FHB reuse. |
+| H11 | Motor/sensory roots, denervation, referred pain and mixed nerves (`anterior root motor posterior root sensory`; `referred pain distant origin`; `mixed nerve sensory motor fibers`; `denervated muscle atrophy`) | new externally; exact completed prior-FHB reuse. |
+| H12 | Vessels, coronary supply, arteriovenous anastomoses and sinusoids (`pulmonary artery deoxygenated blood`; `coronary artery heart muscle`; `arteriovenous anastomosis arteries veins`; `blood sinusoids liver spleen marrow`) | new externally; exact completed prior-FHB reuse. |
+| H13 | Lymphatic drainage, nodes, thoracic duct and absent sites (`thoracic duct largest lymphatic`; `lymph nodes filter lymph`; `lymphatic vessels absent brain cartilage`; `lymphatic system drains tissue fluid`) | pending-hit; exact completed prior-FHB reuse. |
+| H14 | CNS/PNS, neurons and autonomic control (`central peripheral nervous system`; `neuron functional unit nervous system`; `autonomic nervous system involuntary`; `motor neuron CNS muscles`) | pending-hit; exact completed prior-FHB reuse. |
+
+The source-level external split is **1 live / 6 pending / 7 new = 14 accepted handles**. Every handle reproduces a completed prior-FHB assignment already established by the general-anatomy banks, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+150 questions / +150 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7306 | 6891 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one sparse-text path and unique hash leaves **10 selected inventory paths / 10 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `a3a83bcd375ec452e045303e061a821ba196190eee2ffd31a5471e4cd2c650e9`. Pinned triage debt becomes **zero substantive-text / three sparse-text / seven empty-text** rows, and unique-hash accounting is **`96 + 10 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Easy_Medicine_.pdf`, SHA-256 `833bde7eae7d5da6b9ba4032670ad61dee9b49bbb617b82e5910e2690b436607`, 41 pages.
+
+**BLOCKED — S1 cannot be approved:** 10 selected source paths remain untriaged.
