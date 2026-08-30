@@ -52,9 +52,10 @@ const PROCESSED_FAMILY_HASHES = [
   'd35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135',
   '60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609',
   'eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb',
+  '76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = 'ce01144baaa0cf78a783aa8ed64cbe1cf465ea23536ab1fbffd67a34f7255a3d'
+const REMAINING_CHECKSUM = 'd75257005b47e36e29d23191198500c088d62d09744b5643aff841c9e7ce276e'
 
 function option(name) {
   const prefix = `${name}=`
@@ -131,10 +132,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 10, 'sparse-text': 7, 'substantive-text': 24 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 10, 'sparse-text': 7, 'substantive-text': 23 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=24-substantive/7-sparse/10-empty/13-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=23-substantive/7-sparse/10-empty/13-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -184,7 +185,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 45 || remainingHashes.length !== 56 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 46 || remainingHashes.length !== 55 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -192,7 +193,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 10, 'sparse-text': 7, 'substantive-text': 24 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 10, 'sparse-text': 7, 'substantive-text': 23 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -258,6 +259,7 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[42], sourcePages: 41, renderedReadPages: '1-41', questionPages: '1-22', answerPages: '22-41', printedPromptObservations: 142, objectiveMcqPrompts: 142, figureSupportedMcqPrompts: 8, standalonePracticalOrImagePrompts: 0, printedKeyObservations: 142, sourceAbsentAnswers: 0, familyQuestionDelta: 142, familyAnswerDelta: 142, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'external Upper Limb textbook-review chapter excerpt, internal pages 169-209; no authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'continuous Q1-Q142 five-option clinical MCQs with one keyed explanation each; eight figure-supported questions remain MCQs and add no separate practical/image occurrences', preservedSourceDefects: ['visible figure numbering skips Fig. 6-8 and Fig. 6-9', 'Q110 points to Fig. 6-3 on internal page 180 although the figure appears on internal page 173'] },
     { sha256: PROCESSED_FAMILY_HASHES[43], sourcePages: 42, renderedReadPages: '1-42', coverPages: '1-2', contentsPages: '3', questionPages: '4-41', answerPages: '42', printedPromptObservations: 153, objectiveMcqPrompts: 153, printedKeyObservations: 153, inlineDuplicateAnswerStylingPrompts: 16, standalonePracticalOrImagePrompts: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 153, familyAnswerDelta: 153, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Mohey Hulail/Zagazig University external upper-limb MCQ compilation; no authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'continuous Q1-Q153 MCQ bank with a complete terminal answer table; Q50-Q65 inline bold styling duplicates rather than adds to the 153 prompt-matched key observations; no written, practical or image-identification prompts', preservedSourceDefects: ['Q59 option-weight distinction is visually ambiguous; terminal table entry 59 b retained without inference'] },
     { sha256: PROCESSED_FAMILY_HASHES[44], sourcePages: 23, renderedReadPages: '1-23', questionPages: '1-23', inlineKeyPages: '1-18', printedPromptObservations: 180, objectiveMcqPrompts: 180, printedKeyObservations: 138, visibleUnkeyedPrompts: 42, sourceAbsentAnswers: 42, exactSectionDuplicateOf: { sha256: PROCESSED_FAMILY_HASHES[30], sourcePages: '33-55', promptObservations: 180, keyObservations: 138 }, normalizedTextSha256: '1e953f9e5c01c3dff24f1409939e27b4d82e442048455b99d33e44ee7bfc5a72', familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'standalone Final MCQS export with ISHCenter/Word metadata; no authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'continuous Q1-Q180 MCQ bank; Q1-Q138 have one underlined key each and Q139-Q180 are unkeyed; no written, practical or image-identification prompts', preservedSourceDefects: ['typographic and spelling defects retained', 'Q139-Q180 have no printed answer'] },
+    { sha256: PROCESSED_FAMILY_HASHES[45], sourcePages: 16, renderedReadPages: '1-16', questionAndInlineKeyPages: '1-16', printedPromptObservations: 80, objectiveMcqPrompts: 80, printedKeyObservations: 80, sourceAbsentAnswers: 0, exactSectionDuplicateOf: { sha256: PROCESSED_FAMILY_HASHES[33], sourcePages: '49-64', promptObservations: 80, keyObservations: 80 }, normalizedTextSha256: 'cc95660cd4839cb063a5fec8463d49ed433a18de79a559d7697619754506b58c', familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'standalone Word/PrimoPDF upper-limb MCQ export with unauthenticated Dr.WhO metadata and uninterpretable footer; no authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'continuous Q1-Q80 five-option MCQ bank with one inline Answer line per prompt; no written, practical, image-identification, teaching-only, answer-only or unkeyed material', preservedSourceDefects: ['garbled repeated footer retained without interpretation'] },
   ],
   triageCumulative: { printedPromptObservations: 5036, printedKeyObservations: 4929, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },

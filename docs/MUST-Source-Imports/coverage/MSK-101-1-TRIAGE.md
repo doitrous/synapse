@@ -1695,3 +1695,47 @@ Removing the forty-five processed unique hashes leaves **57 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Uper limb anatomy _MCQs.pdf`, SHA-256 `76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c`, 16 pages.
 
 **BLOCKED — S1 cannot be approved:** 57 selected inventory paths / 56 unique hashes remain untriaged.
+
+## Completed source — Uper limb anatomy _MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Uper limb anatomy _MCQs.pdf` | `76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c` | 16 | substantive-text audit sample | pages 1–16 rendered and read | The PDF title is `Microsoft Word - UPPER LIMB MCQ`; metadata names author `Dr.WhO`, Microsoft Word and PrimoPDF, created/modified 13 December 2007. The repeated printed footer is mojibake/uninterpretable. Neither metadata nor footer authenticates a MUST institution, department, examiner, sitting, marks or official faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Uper limb anatomy _MCQs.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+All sixteen pages print one continuous sequence of eighty numbered five-option MCQs, Q1–Q80. Every prompt is immediately followed by one explicit inline `Answer <letter>` line.
+
+| Format | Prompt observations | Printed key observations | Source-absent answers |
+|---|---:|---:|---:|
+| Conventional MCQ | 80 | 80 | 0 |
+| Written / practical / standalone image identification | 0 | 0 | 0 |
+| **Total** | **80** | **80** | **0** |
+
+There are no diagrams, radiographs, photographs, response spaces, teaching-only pages, answer-only pages or unkeyed prompts. Printed wording and keys remain source observations without academic correction. The garbled repeated footer is preserved as a source defect rather than interpreted as author or authority evidence.
+
+### Exact-section duplicate and search disposition
+
+Raw layout extraction is byte-identical to physical pages 49–64 of completed `4-Upperlimb MCQs.pdf`, SHA-256 `d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0`. Both sections contain 17,077 extracted characters and 13,741 whitespace-normalized characters; their whitespace-normalized SHA-256 is `cc95660cd4839cb063a5fec8463d49ed433a18de79a559d7697619754506b58c`. Prompt order, all eighty inline keys and the garbled footer are identical.
+
+This is therefore an **exact section duplicate**, not a new prompt family. Its regional scopes are the already completed Upper Limb Anatomy H1–H5 handles. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its visible boundary is recorded as 80 prompts / 80 answers, but exact-section reconciliation gives **+0 questions / +0 answer observations / +0 concepts**. Cumulative totals remain **5036 questions / 4929 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5036 | 4929 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-six processed unique hashes leaves **56 selected inventory paths / 55 unique SHA-256s**. Their sorted, newline-joined hash checksum is `d75257005b47e36e29d23191198500c088d62d09744b5643aff841c9e7ce276e`. Remaining audit-review debt is 23 substantive-text / 7 sparse-text / 10 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`46 + 55 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Upper Limb MCQ by Dr.JALAL.pdf`, SHA-256 `af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80`, 62 pages.
+
+**BLOCKED — S1 cannot be approved:** 56 selected inventory paths / 55 unique hashes remain untriaged.
