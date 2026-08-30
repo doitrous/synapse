@@ -14426,3 +14426,93 @@ blocker. The exact next unprocessed manifest record is tier-6 `src_da778776f7970
 five native-text pages under `Pathology / Notes and Summaries`. Its complete practical-image
 carrier boundary, visible provenance, diagnosis-label versus prompt/key/station classification,
 source-first search gate, prior-BMS reuse, and arithmetic are the exact next-source blockers.
+
+## Family 137 — anonymous pre-labelled all-pathology practical image atlas
+
+### Source identity, complete native/visual boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_da778776f797055f1228` · `عملي الباثو كله.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `da778776f797055f1228a32817d1c33bbe84104a331a2b4b24f41d2dc81ccf54` · 1,920,410 bytes |
+| Format / complete visual boundary | Five portrait A4 pages, each 595.32×841.92 points. All five pages were rendered at 200 dpi into five non-empty 1654×2339-pixel images and read individually at full detail; layout and raw extraction were also read through the final page separator. There is no page, crop, field, label, or text remainder. |
+| Native-text reality | The sparse native layer contains 55 layout words / 854 bytes and 53 raw words / 464 bytes. It captures many p.1–2 and p.4–5 headings but omits raster-baked labels, including the complete p.3 grid. The manifest's `native` label is accurate at carrier level, but only the rendered pages expose the full plate and caption boundary; visual review therefore controls. |
+| Visible provenance | No page supplies a cover, author, institution, faculty, module code, cohort, academic year, date, or assessment marker. The Arabic filename means an all-pathology practical collection, but the filename and folder establish routing/topic only, not authorship or an administered practical. |
+| Metadata caution | Metadata title is the generic `Microsoft Word - New Microsoft Word Document.docx`; author is blank; producer is `Microsoft: Print To PDF`; creation/modification timestamp is 7 May 2026. These are production fields only and cannot establish compiler, teaching year, practical date, or sitting. |
+| Authority | Anonymous tier-6 labelled visual revision atlas. Supplied diagnoses and morphology captions preserve useful practical-teaching evidence, but the carrier is not a candidate paper, station set, slide register, response sheet, or official key. |
+
+### Complete labelled-plate, prompt, answer, and practical boundary
+
+| Page | Complete visible diagnostic/morphology groups | Boundary ruling |
+|---:|---|---:|
+| 1 | `Serous Burn Inflammation`, `Abscess`, `Begnin Prostate Hyperplaisa`, `Chronic ulcer`, `Scar`, `Granulation Tissue`, `Fistula`, `Sinus`, and `Keloid` | **9 supplied-label teaching groups**. A second clipped/orphan `Fistula` noun appears at the lower edge without another visible field; it is a layout/caption residue, not a new plate or task. |
+| 2 | `Contracture`, `Chronic Ulcer`, `Epidymoid Cyst`, `Wet Gangrene`, `Infarction`, `Keloid`, `Lipeoma`, and `Fibroadenoma` | **8 supplied-label teaching groups**. |
+| 3 | `Metastatic LN Breast Cancer`, `Basal Cell Carcinoma`, `Squamos Cell Carcinoma`, two distinct `Squamos papilloma` fields, `Actinomycosis`, `Hemangiona`, `Lipeoma`, `Liver cirehosis`, `Tuberculosis`, `Begnin Prostate Hyperplasia`, and `Appendicitis` | **12 supplied-label teaching groups**. This whole page is raster content absent from native extraction. Repeated diagnoses remain distinct displayed fields, not prompt duplicates. |
+| 4 | `Liver Fatty Change`, two distinct `Squamos/Squamous Cell Carcinoma` fields, `ACTINOMYCOSIS`, `Malignant Criteria`, `Lipeoma`, an internally labelled arterial thrombus/Lines-of-Zahn diagram, `Granuloma`, `Hemangioma`, `Amyloid Degradtion`, `Endometrial Hyperplasia`, and `Nodular Prostate HyperPlasia` | **12 supplied-caption teaching groups**. `Malignant Criteria` and colored arrows are explanatory morphology markup, not an identification command or response. |
+| 5 | Two liver-cirrhosis groups (one captioned gross/microscopic field and one internally labelled low-power diagram), `Epidmoid Cyst`, a two-field `Granulation tissue = capillaries + fibroblasts` group, `Breast Carcinoma`, `Deep Vein Thrombus`, a two-field `Basal Cell Carcinoma` group, `Fibroadenoma`, and a two-field `Colon Adenocarcinoma` group | **9 supplied-caption teaching groups**. Multi-field composites remain one group where one heading/caption governs both views. |
+
+The complete carrier therefore contains **50 labelled/captioned diagnostic or morphology teaching
+groups**: `9 + 8 + 12 + 12 + 9 = 50`. There is **no unlabeled diagnostic plate**: the apparently
+unheaded inset on p.5 belongs to the adjacent two-field granulation-tissue group, and the other
+multi-image blocks share visible governing labels. Original misspellings such as `Begnin`,
+`Lipeoma`, `Squamos`, `Hemangiona`, `cirehosis`, `Degradtion`, and `Epidmoid/Epidymoid` are
+preserved as source text rather than silently normalized.
+
+Every diagnosis is already supplied beside, above, below, or inside its image group. No page asks
+the reader to identify, describe, compare, diagnose, enumerate criteria, or perform an action.
+There is no question number, MCQ option set, blank, response space, mark allocation, station
+number, timing, specimen-handling instruction, candidate/examiner direction, keyed reveal, hidden
+label, handwritten/student response, or correction layer. An image-rich practical topic does not
+become a practical assessment record without an operative task and response boundary.
+
+The exact source boundary is therefore **0 MCQ prompts / 0 written prompts / 0 practical-station
+prompts / 0 printed or source-supplied answer occurrences / 0 unkeyed prompts / 0 prompt-like
+residues / 0 retained question records / 0 source-distinct tested handles**, alongside the 50
+labelled teaching groups preserved for later authoring.
+
+### Source-first zero gate, prior-BMS teaching relation, and cumulative arithmetic
+
+No accepted tested handle survives the complete pre-labelled teaching boundary. Exactly four
+searches are required only per accepted handle, so the source-first gate is **0 handles × 4 = 0
+required and completed searches**; no empty query or fabricated result row is added. Many labels
+overlap prior BMS-102 teaching and practical-image subjects—including inflammation/repair,
+circulatory disturbance, cell injury, benign and malignant tumors, tuberculosis, actinomycosis,
+and the labelled fields in Families 113, 114, 119, and 134—but teaching/plate overlap is not a
+tested-handle reuse. Prior-BMS exact handle reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 137 | Auxiliary cumulative (Families 12–137) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,193 | 765 | 1,958 |
+| Printed/source-supplied answer occurrences | 0 | 721 | 405 | 1,126 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,128 | 552 | 1,680 |
+| Source-distinct tested handles / required searches | 0 / 0 | 1,012 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +656 over primary | 372 | `372 + 656 = 1,028` |
+| **Distinct tested concepts** | **+0** | **656 auxiliary additions** | **372** | **1,028** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answer occurrences,
+unkeyed occurrences, residues, retained records, handles, searches, external dispositions,
+prior-handle reuses, or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary
+remains **1,193 / 721 / 1,128 / 1,012 / +656**; and all eligible evidence remains **1,958 / 1,126
+/ 1,680 / 1,028**. Family 137 cannot establish an administered practical, official plate key,
+Helwan authorship, date, recurrence, mark weight, student response, readiness, or claims status.
+
+### Exact next debt after Family 137
+
+`src_da778776f797055f1228` is exhausted across all five pages: every image group, supplied label,
+internal annotation, composite-field relation, repeated diagnosis, source misspelling, orphan noun
+caption, native-layer omission, metadata limitation, practical-versus-teaching ruling, zero-search
+gate, prior-teaching relation, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-137 blocker. The exact next unprocessed manifest record is preferred tier-5
+`src_4823964a3f81b3b2ecbb` · `Introduction-(-Virtual-Lab).pdf`, SHA-256
+`4823964a3f81b3b2ecbb48619c7f5076f623934198864da2befc32347264be81`, 37 native-text pages
+under `Pathology / Practical Labs / Prelabs / Pre Lab 1 - Orientation`. The manifest snippet
+visibly attributes `Introduction to pathology (Virtual Lab)` to Dr Enas Megahed Elhosary,
+Faculty of Medicine, Helwan University. The exact SHA carrier is absent from the current local
+corpus copy; Family 125 already proves that local `introducTION.pdf` is a different 11-page Ahmed
+Hassan keyed-MCQ source rather than a content duplicate. Carrier recovery, then complete render,
+provenance, teaching-versus-practical/prompt/key boundary, searches, prior reuse, and arithmetic
+are the exact next-source blockers.
