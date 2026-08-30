@@ -15706,3 +15706,78 @@ and no Family-147 blocker. The exact next manifest record is tier-1 department-b
 filename is normalized without the space before `.pdf`. Its exact department/college authority,
 complete render/OCR boundary, MCQ/key convention, prior-source reuse, searches, and arithmetic
 are the exact next-source blockers.
+
+## Family 148 — exact revisit of the already exhausted pathology department-book object
+
+### Source identity, complete render/OCR boundary, authority, and prior ownership
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-1 department-book source `src_88169dc9b6ad00181a0d` · manifest `DPT BOOK MCQs - اسئلة كتاب القسم باثو College MCQs .pdf`; the SHA-matching local filename is normalized without the space before `.pdf` |
+| SHA-256 / size | `88169dc9b6ad00181a0d085489284934c5661fe950be822a59ef26ba5e6ae128` · 1,554,279 bytes |
+| Format / complete visual boundary | Twenty-two scanned A4 pages, each 595×842 points. All 22 pages were rendered at 220 dpi into 22 non-empty 1819×2573-pixel images and read individually; four ordered contact sheets and English/Arabic OCR of every page were also read. Native extraction is only 22 form-feed bytes / 0 words, so the manifest's `ocr-needed` label is accurate. |
+| Container structure | Physical p.1 is a department `TUTORIAL` cover. Physical pp.2–8 are printed pp.242–248 headed `TUTORIAL 102`; pp.9–15 are printed pp.249–255 and continue Tutorial 102; pp.16–22 are printed pp.256–262 explicitly headed `TUTORIAL 103`. There is no page or crop remainder. |
+| Authority | Tier-1 Department of Pathology question/tutorial book. The department-book identity and exact local manifest placement are strong source authority, but authority does not permit a second count of an object already exhausted in the same ledger. |
+| Exact prior object match | Family 1 already governs Tutorial-102 printed pp.242–248 and Family 2 governs printed pp.249–255 under this same source ID and SHA. This is not a twin, alias, or near-duplicate: it is the **identical manifest object**. Their path-normalization note already records the same missing pre-extension space. |
+
+### Exact prior BMS-102 boundary and cross-module remainder
+
+| Physical / printed pages | Previously governed content | Family-148 ruling |
+|---:|---|---:|
+| 1 / 241 | Department of Pathology `TUTORIAL` cover | Provenance/divider only; **0 prompts / 0 answers**. |
+| 2–8 / 242–248 | Tutorial 102 introduction, adaptation/cell injury, inflammation, infection, healing/repair, haemodynamic disorders, and neoplasia | Exact Family-1 scope: **52 raw prompts / 1 visibly underlined option key / 52 retained records / 51 handles**. Already counted; Family 148 adds zero. |
+| 9–15 / 249–255 | Tutorial-102 main pool and Models 1–5 | Exact Family-2 scope: **105 raw prompts / 0 keys / 85 retained records after 20 wording-copy exclusions / 74 source handles**. Seven handles reuse Family 1, giving Family 2's already-counted `+67` concept delta. Family 148 adds zero. |
+| 16–22 / 256–262 | `TUTORIAL 103`: 19 bone/rheumatology MCQs plus 11 comparison/enumerate/completion operations | **30 cross-module unkeyed prompts**, outside HU-BMS-102. They remain excluded and routed to the LCS-103 owner; Family 148 neither imports, searches, nor edits LCS evidence. |
+
+The exact BMS-102 object checksum remains **157 raw prompt occurrences / 1 printed answer /
+137 retained records / 125 family-local handles / 118 cross-family distinct concepts**. Those
+figures are historical Family-1/2 evidence, not a Family-148 delta: `52 + 105 = 157`, `52 + 85 =
+137`, `51 + 74 = 125` source handles, and `51 + (74 - 7 Family-1 reuses) = 118` concepts.
+
+The sole printed BMS-102 key remains the Family-1 p.243 Chapter-3 Q1 underline. No second answer
+convention appears in Tutorial 102. Tutorial 103 contains no visible option selection or answer
+register. Its radiographic wording and laboratory table are text-only prompts without embedded
+diagnostic plates; no practical station, candidate response, timer, marking checklist, or official
+exam key appears anywhere in the carrier.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 148 accepts **0 new handles**. Families 1–2 already performed exactly four required searches
+for every accepted handle: `51 × 4 = 204` for Family 1 and `74 × 4 = 296` for Family 2, plus their
+documented targeted follow-ups. Re-running searches for an identical SHA/source/page boundary
+would create duplicate reconciliation packets rather than new evidence. The governed Family-148
+calculation is therefore `0 new handles × 4 = 0 new required searches`; **0 new searches were run**.
+
+Tutorial-103 prompts are not candidate BMS-102 handles and are likewise not searched here. This
+preserves the established LCS ownership boundary rather than silently converting a cross-module
+book section into BMS evidence.
+
+### Family-148 exact-reuse checkpoint and cumulative arithmetic
+
+| Measure | Previously counted in Families 1–2 | Family 148 delta | Primary cumulative | Auxiliary cumulative | All eligible S1 evidence |
+|---|---:|---:|---:|---:|---:|
+| Raw BMS-102 prompt occurrences | 157 | 0 | 765 | 1,279 | 2,044 |
+| Printed/source-supplied answer occurrences | 1 | 0 | 405 | 766 | 1,171 |
+| Retained question records | 137 | 0 | 552 | 1,204 | 1,756 |
+| Family-local handles / new searches | 125 / already complete | 0 / 0 | — | — | — |
+| Distinct concepts after F1→F2 collapse | 118 | +0 | 372 | +686 over primary | 1,058 |
+| Cross-module Tutorial-103 prompts | 30 excluded | 0 | — | — | — |
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains **1,279 / 766 / 1,204 / 1,082 /
++686**; and all eligible evidence remains **2,044 / 1,171 / 1,756 / 1,058**. The exact-reuse
+checksum is `157 prior BMS occurrences × 0 new-object multiplier = 0`; search arithmetic is `0 ×
+4 = 0`; and Tutorial-103 arithmetic remains `19 MCQs + 11 written/completion operations = 30`
+excluded prompts.
+
+### Exact next debt after Family 148
+
+`src_88169dc9b6ad00181a0d` is exhausted with **zero Family-148 source remainder**: all 22 pages,
+department/tutorial provenance, the blank/native-text reality, Tutorial-102 prior-family boundary,
+sole underline key, exact wording-copy history, completed historical search packets, and Tutorial-
+103 cross-module exclusion are assigned once without duplicating any count. The exact next manifest
+record is tier-3 `src_e446a1e064b3d421e312` · `MCQs - Cell injury 1 MCQ.pdf`, SHA-256
+`e446a1e064b3d421e3128f4aada63c4980e18c5d9c61039da6852432f07decbc`, 152,914 bytes,
+eight native-text A4 pages under `Pathology / Questions / MCQs`. Metadata author is `Alnoaman`
+with creation timestamp 6 April 2025; its visible authority/date, complete prompt/key convention,
+same-source copies, prior-BMS reuse, four-search packets, and arithmetic are the exact next-source
+blockers.
