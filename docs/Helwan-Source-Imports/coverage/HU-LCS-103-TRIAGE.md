@@ -6477,3 +6477,126 @@ SHA-256 `8b8f579ff4ea709713b0008e9a17688c5a6de706e861cfe55351487a0fa3d970`)
 under `Year 1/LCS 103/Biochemistry/Theoretical/Revision/`. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 54 — Tier-4 Biochemistry revision question set without printed keys
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_8b8f579ff4ea709713b0` |
+| File / SHA-256 | `103 revision.pdf` / `8b8f579ff4ea709713b0008e9a17688c5a6de706e861cfe55351487a0fa3d970` |
+| File boundary | 174,605 bytes · unencrypted PDF · 6 physical native-text pages · 612 × 792 pt |
+| Manifest placement | `HU-LCS-103` · Biochemistry · Theoretical/Revision · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Biochemistry/Theoretical/Revision/103 revision.pdf` |
+| Visible provenance | p. 1 prints `103 Revision`; PDF author is `Rehab Elsayed Mohammed Elkoseir` and creator/producer is Microsoft Word for Microsoft 365; no university, sitting, mark or answer-key label is printed |
+| Authority finding | Manifest/path-placed local tier-4 module revision question set. It is not a recoverable sitting paper or official department key, and it prints no answer convention. |
+
+The SHA-256, byte size and six-page boundary were recomputed and match the assigned source.
+All six pages were rendered at 200 dpi and read against the native text layer; all six
+complete page renders have distinct SHA-256 values. Questions begin immediately below the
+p. 1 title and continue through the final line of p. 6; there is no separate teaching,
+reference or closing page.
+
+The full-source gate finds **30 complete ordinary assessment-prompt occurrences: 22 MCQs and
+eight written prompts**. Every MCQ option is visibly unmarked. There is no underline,
+colour, bolding, tick, answer list, `Correct Answer`, model response or other correctness
+convention, and the written prompts have no response text. The source therefore contributes
+**zero printed keys**. None is a practical/station task, image-identification station,
+response form or mark-bearing practical instruction, and no prompt is masked or unresolved.
+
+### Complete page, prompt-type and semantic-collapse inventory
+
+| Physical page | Complete source prompts | MCQ / written occurrences |
+|---:|---|---:|
+| 1 | serum creatinine interpretation; creatine amino-acid precursors; exercise glycogen-breakdown stimulus; oxygen debt; myoglobin function | 5 / 0 |
+| 2 | mitochondrial impairment/least-affected activity; hypoxia metabolic shift; fatigue correction; energy-source order; phosphagen components/synthesis; creatine-P synthesis | 3 / 3 |
+| 3 | DMD gene product; DMD inheritance; Pompe enzyme; DMD fibre-loss mechanism; infantile-Pompe cardiac-failure mechanism | 5 / 0 |
+| 4 | Gower-sign diagnosis; exercise-cramp deficient enzyme; correctly matched disease/enzyme pair; dystrophin role; Pompe biochemical defect; McArdle/Tarui comparison | 3 / 3 |
+| 5 | active vitamin-D form; biologically active calcium fraction; first vitamin-D hydroxylation; calbindin-mediated absorption; adult demineralisation diagnosis | 5 / 0 |
+| 6 | vitamin-D activation sequence; describe vitamin-D synthesis/activation; FGF23 phosphate-regulation role | 1 / 2 |
+| **Total** | **30 complete prompt occurrences** | **22 MCQs / 8 written** |
+
+There are no literal duplicate prompts. Semantic collapse assigns the 30 occurrences to
+**24 source-first tested handles**: DMD gene/fibre-loss/role prompts collapse three-to-one;
+Pompe enzyme MCQ and biochemical-defect request collapse two-to-one; the two McArdle enzyme
+MCQs collapse two-to-one; and the vitamin-D first-site, sequence and synthesis prompts
+collapse three-to-one. All other prompts remain source-distinct. No option text is promoted
+to declarative teaching or a key, so this assessment-only source adds **0 teaching
+compositions, 0 practical plates, 0 practical mappings and 0 residues**.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+| Source-first assessment handle / occurrences | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `serum-creatinine-as-impaired-kidney-function-marker` · 1 | serum creatinine impaired kidney function; elevated creatinine renal impairment; creatinine kidney marker; serum creatinine interpretation | pending renal/creatinine material owns the marker relation — pending |
+| `creatine-amino-acid-precursors` · 1 | creatine synthesis glycine arginine methionine; amino acids required creatine synthesis; creatine precursors amino acids; glycine arginine methionine creatine | pending amino-acid material owns the three precursors — pending |
+| `exercise-muscle-glycogen-breakdown-stimuli` · 1 | exercise glycogen breakdown calcium epinephrine; muscle glycogen phosphorylase Ca epinephrine; intense exercise glycogenolysis stimulus; calcium catecholamine muscle glycogen | pending muscle-energy material owns calcium/epinephrine activation — pending |
+| `oxygen-debt-postexercise-recovery` · 1 | oxygen debt heavy breathing exercise; restore oxygen debt; postexercise oxygen consumption; vigorous exercise recovery oxygen | pending muscle-physiology material owns the recovery mechanism — pending |
+| `myoglobin-oxygen-storage-in-muscle` · 1 | myoglobin oxygen storage muscle; myoglobin deficiency muscle oxygen; muscle oxygen binding pigment; myoglobin function skeletal muscle | pending skeletal-muscle material owns the oxygen-storage role — pending |
+| `short-sprint-low-mitochondrial-dependence` · 1 | mitochondrial impairment short sprint; aerobic metabolism activity least affected; sprint phosphagen mitochondria; endurance versus sprint mitochondria | pending muscle-energy material owns duration/system dependence — pending |
+| `hypoxia-shifts-muscle-to-anaerobic-glycolysis` · 1 | oxygen deficiency anaerobic glycolysis muscle; hypoxia metabolic shift glycolysis; low oxygen muscle energy metabolism; anaerobic glycolysis oxygen supply | pending muscle-energy material owns the metabolic shift — pending |
+| `muscle-fatigue-lactate-and-metabolic-changes` · 1 | muscle fatigue lactate metabolic changes; ATP depletion fatigue correction; causes of muscle fatigue exercise; lactate accumulation muscle fatigue | pending muscle-fatigue material owns the metabolic-cause scope — pending |
+| `muscle-energy-systems-in-order` · 1 | energy sources muscle contraction order; phosphagen glycolytic aerobic sequence; muscle ATP systems in order; duration energy system muscle | exact accepted Family-51 tested handle `muscle-energy-systems-by-activity-duration`; pending physiology owns it — prior eligible-LCS reuse |
+| `phosphagen-system-components` · 1 | phosphagen system components; ATP creatine phosphate system; high energy phosphate components; explain phosphagen synthesis component | pending phosphagen material owns the component scope — pending |
+| `creatine-phosphate-synthesis` · 1 | creatine phosphate synthesis; phosphocreatine formation creatine kinase; synthesis creatine P muscle; creatine phosphorylation ATP | pending creatine/phosphagen material owns the formation step — pending |
+| `duchenne-dystrophin-role-and-fibre-loss` · 3 | DMD dystrophin gene; role dystrophin skeletal muscle; Duchenne loss muscle fibers; dystrophin actin extracellular matrix | pending dystrophy material owns the molecular mechanism; accepted Families 12/15 tested dystrophin-linked progressive fibre loss — prior eligible-LCS reuse |
+| `duchenne-x-linked-recessive-inheritance` · 1 | Duchenne X linked recessive; DMD inheritance pattern; dystrophin disease inheritance; Duchenne carrier mother male child | pending DMD material owns the inheritance pattern — pending |
+| `pompe-acid-alpha-glucosidase-deficiency` · 2 | Pompe alpha 1 4 glucosidase deficiency; GSD II lysosomal enzyme; Pompe biochemical defect; acid maltase deficiency Pompe | pending GSD material owns the enzyme defect — pending |
+| `pompe-cardiac-glycogen-accumulation` · 1 | Pompe cardiac failure glycogen accumulation; infantile Pompe cardiomyopathy; glycogen cardiac muscle Pompe; GSD II heart failure mechanism | pending GSD material owns the cardiac mechanism — pending |
+| `gower-sign-duchenne-diagnosis` · 1 | Gower sign Duchenne diagnosis; child climbs legs standing DMD; progressive weakness Gower manoeuvre; five year old Gower muscular dystrophy | pending DMD material owns the diagnostic phenotype — pending |
+| `mcardle-myophosphorylase-deficiency` · 2 | McArdle myophosphorylase deficiency; GSD V exercise cramps; muscle glycogen breakdown enzyme McArdle; disease enzyme correctly matched McArdle | pending GSD material owns the enzyme/disease association — pending |
+| `mcardle-versus-tarui-comparison` · 1 | compare McArdle Tarui; myophosphorylase versus PFK deficiency; GSD V versus VII; McArdle Tarui clinical biochemical | pending GSD material owns both disease components; no accepted prior tested comparison — pending |
+| `calcitriol-active-vitamin-d` · 1 | biologically active vitamin D calcitriol; active vitamin D form; calcidiol versus calcitriol; 1 25 dihydroxy vitamin D active | pending vitamin-D material owns the active-form distinction — pending |
+| `ionized-calcium-biologically-active-fraction` · 1 | biologically active plasma calcium ionized; serum calcium fractions active; ionized versus protein bound calcium; active calcium fraction | pending calcium material owns the fraction distinction — pending |
+| `vitamin-d-skin-liver-kidney-activation-sequence` · 3 | vitamin D activation sequence; skin liver kidney vitamin D; first hydroxylation liver; describe vitamin D synthesis activation | pending vitamin-D material owns the complete sequence — pending |
+| `calcitriol-calbindin-intestinal-calcium-absorption` · 1 | vitamin D calbindin calcium absorption; calcitriol intestinal calcium protein; calbindin synthesis vitamin D; vitamin D gut calcium mechanism | pending vitamin-D material owns calbindin induction — pending |
+| `adult-demineralized-bone-osteomalacia` · 1 | adult demineralized bone fractures osteomalacia; rickets versus osteomalacia adult; vitamin D deficiency adult bone; osteomalacia fracture diagnosis | pending vitamin-D/osteomalacia material owns the adult phenotype — pending |
+| `fgf23-phosphate-lowering-role` · 1 | FGF23 phosphate regulation role; FGF23 phosphate lowering; fibroblast growth factor 23 phosphaturia; osteocyte FGF23 plasma phosphate | live state owns phosphate-triggered FGF23 but not the requested lowering-role scope; no pending complete handle or prior tested scope — new |
+
+All **24 × 4 = 96** required assessment searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. The direct
+source-handle result is **0 live / 23 pending / 1 new**. Exact accepted-prior comparison
+removes the two already tested LCS handles, leaving a tested-concept delta of **0 live / 21
+pending / 1 new = 22**. The 30 printed prompt occurrences remain counted even where their
+scopes collapse or reuse prior concepts; no answer is inferred from any search result.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 54 | Family 54 delta | After Family 54 |
+|---|---:|---:|---:|
+| Eligible observed question records | 480 | +30 | 510 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 224 | +22 | 246 |
+| Question live / pending / new | 9 / 61 / 154 | +0 / +21 / +1 | 9 / 82 / 155 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 309 verified minimum | +0 | 309 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,098 verified minimum | +0 | 2,098 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 92 | +0 | 92 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 71 | +0 / +0 / +0 | 0 / 0 / 71 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `30 = 22 MCQs + 8 written`, `30 prompt
+occurrences collapse to 24 handles`, `24 = 2 prior eligible reuses + 21 pending additions +
+1 new addition`, `480 + 30 = 510`, `264 + 0 = 264`, `224 + 22 = 246`, `9 + 82 + 155 =
+246`, `309 + 0 = 309`, `2,098 + 0 = 2,098`, `92 + 0 = 92`, and `71 + 0 = 71`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-53
+remainder leaves **22 rank-4/rank-5 path instances / 20 unique hashes**. The Family-53
+method was reproduced first: its 23/21 row sets recomputed to
+`51369aec195ab6614119fae66193f800a07fb682192fab6dcf310490c47c4221` and
+`362bb3986aea43034da3a6ec4ed81def25c7b907bc8b4effd1fbfb218193386d`.
+For the exact post-Family-54 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`18408ea1128ac8614594cc65604e168fcf83b17d18ee8c8d0f5ea5902e677fc9`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`4929d719e8d12036f78ab78bc9adc2a523dfe0788abf97a049f2ca62481a2102`.
+The next rank-4/rank-5 manifest-order gate is tier-5 Histology practical source
+`src_a5deaaf750c18cfcf6ed`, `Virtual lab (1) bms 103.pdf` (2,242,092 bytes; 27 native-text
+pages; SHA-256 `a5deaaf750c18cfcf6ed2053d57aebd113b32981d8ce66ecb523d258186aedc9`)
+under `Year 1/LCS 103/Histology/Practical Labs/Virtual Lab 1 - Bone/`. Tier-6 source debts
+between the two manifest indices remain outside this rank-4/rank-5 remainder. Broader
+LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
+source copy was created.
