@@ -5789,3 +5789,167 @@ The next manifest-order gate is tier-5 Biochemistry practical source
 103/Biochemistry/Practical/Virtual Lab 1 - Enzymes of Bone & Muscle/`. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 49 — Tier-5 electrophoresis and muscle/bone-isoenzyme practical teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_6c61774894408ad18245` |
+| File / SHA-256 | `Compressed_Electrophoresis_&_muscle_and_bone_isoenzymes_final1.pdf` / `6c61774894408ad18245ea59f3dedea6be09e1e9216f8f9b5717b83e8aecc726` |
+| File boundary | 3,278,162 bytes · unencrypted PDF · 54 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Biochemistry · Practical · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Biochemistry/Practical/Virtual Lab 1 - Enzymes of Bone & Muscle/Compressed_Electrophoresis_&_muscle_and_bone_isoenzymes_final1.pdf` |
+| Visible provenance | p. 1 prints `Electrophoresis`; the PDF title is `Proteins and Electrophoresis`, author is `Roger Bertholf`, and creator/producer is Aspose.Slides for Java 25.7; many slides visibly retain CamScanner/template marks |
+| Authority finding | Manifest/path-placed local tier-5 practical teaching evidence. It is not a sitting paper, station sheet, response form, question bank or official answer key. |
+
+The SHA-256, byte size and 54-page boundary were recomputed and match the assigned source.
+All 54 pages were rendered at 160 dpi and read against the native text layer; all 54 complete
+page renders have distinct SHA-256 values. Pages 1–28 teach electrophoresis, pp. 29–46 teach
+muscle/bone isoenzyme principles and muscle-enzyme patterns, and pp. 47–53 teach bone-enzyme
+patterns; p. 54 is the closing slide.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. The gels, tables, labelled equipment, disease associations and
+interpretive captions are all simultaneous declarative teaching. No page asks the learner to
+identify or calculate anything, supplies an option set, provides a response field, awards
+marks, or reveals an answer after an assessment stem. The empty squares on pp. 43 and 53 are
+list bullets, not answer boxes.
+
+### Complete practical-plate, mapping and residue inventory
+
+One mapping is one directly printed term/value/disease-to-role, tissue, band, component or
+workflow relation. A repeated label on the same composition is counted once; related facts on
+different source-distinct pages remain separate evidence occurrences. Figure letters, slide
+titles, publisher marks and polarity symbols without a named relation are not mappings.
+
+| Physical page | Source-first practical teaching composition | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 3 | electrophoresis definition | 1 mapping |
+| 4 | charge-dependent migration toward anode or cathode | 2 mappings |
+| 5 | clinical applications/specimen classes | 4 mappings |
+| 6 | protein ionisation and cathodal migration in acid pH | 3 mappings |
+| 7 | protein ionisation and anodal migration in alkaline pH | 3 mappings |
+| 8 | isoelectric pH, electrical neutrality and non-migrating zwitterion | 3 mappings |
+| 9 | determinants of net protein charge | 2 mappings |
+| 10 | cation/zwitterion/anion state-and-charge schematic | 3 mappings |
+| 11 | nucleic-acid charge and size-dependent separation | 2 mappings |
+| 12 | labelled DNA nucleotide/backbone diagram | 6 readable mappings; 1 right-edge base-name callout is source-cropped and unresolved |
+| 13 | five electrophoresis components | 5 mappings |
+| 14 | horizontal chamber, power supply, electrodes and migration direction | 4 mappings |
+| 15 | electrophoresis tank, buffer, gel and colour-coded electrodes | 5 mappings |
+| 16 | unlabelled horizontal electrophoresis apparatus photograph | 0 mappings |
+| 17 | vertical electrophoresis apparatus and current-flow schematic | 6 mappings |
+| 18 | voltage/current, heat, evaporation and buffer-concentration effects | 4 mappings |
+| 19 | buffer-pH control of protein charge and mobility | 2 mappings |
+| 20 | stabilising-matrix rationale against heat-driven diffusion/mixing | 3 mappings |
+| 21 | support-media types and common research matrices | 7 mappings |
+| 22 | agarose source, properties and high-molecular-weight uses | 7 mappings |
+| 23 | agarose-gel casting, well formation, loading and migration workflow | 10 mappings |
+| 24 | polyacrylamide-gel low-molecular-weight use | 1 mapping |
+| 25 | dilution of high-protein serum before loading | 1 mapping |
+| 26 | protein, haemoglobin, enzyme and DNA detection stains | 5 mappings |
+| 27 | qualitative gel inspection and quantitative densitometry | 2 mappings |
+| 28 | five factors affecting migration rate | 5 mappings |
+| 30 | isoenzyme definition | 1 mapping |
+| 31 | isoenzyme tissue specificity and physical/chemical properties | 6 mappings |
+| 33 | four clinical roles of serum-enzyme assay | 4 mappings |
+| 35 | serum aldolase/CPK/transaminase links to muscle diseases | 6 mappings |
+| 36 | aldolase isoenzymes, subunits and tissue distribution | 8 mappings |
+| 37 | clinical causes of increased serum aldolase | 3 mappings |
+| 38 | CK1/BB, CK2/MB and CK3/MM tissue assignments | 3 mappings |
+| 39 | healthy, myocardial-infarction and muscle-disease CK patterns | 3 mappings |
+| 40 | CK-MB gel lanes/bands and cardiac-disease interpretation | 7 mappings |
+| 41 | CK isoform gel, age lanes and skeletal-muscle interpretation | 9 mappings |
+| 42 | CK fraction/densitometry profile, lanes and skeletal-muscle interpretation | 8 mappings |
+| 43 | LDH1–LDH5 subunit compositions and tissue assignments | 11 mappings |
+| 44 | LDH isoenzyme tissue-distribution and disease-elevation table | 19 mappings |
+| 45 | normal, liver-damage, myocardial-infarction and muscle-damage LDH profiles | 24 mappings |
+| 46 | LDH1–LDH5 gel bands, sample lanes and LDH5 interpretation | 14 mappings |
+| 48 | alkaline/acid-phosphatase associations in bone disease | 8 mappings |
+| 49 | body-source diagram of six alkaline-phosphatase isoenzymes | 6 mappings |
+| 50 | ALP tissue concentrations, membrane association and disease elevations | 9 mappings |
+| 51 | ALP isoform mobility order and normal/liver-disease profiles | 8 mappings |
+| 52 | acid-phosphatase main, other and rare source hierarchy | 11 mappings |
+| 53 | ACP reference interval and clinical associations | 7 mappings |
+
+The **47 content-page occurrences are 47 source-distinct practical teaching plates**. The
+seven non-plate pages are the title, contents, four section dividers and closing slide (pp. 1,
+2, 29, 32, 34, 47 and 54). No exact complete-page copy is present. The mapping arithmetic is
+`34 + 62 + 7 + 4 + 115 + 49 = 271`. The single residue is the visibly cropped right-edge
+base-name callout on p. 12; it is not inferred into the mapping count. Other edge-cropped
+headers/captions on pp. 44 and 51 remain legible context and are neither blanks nor unresolved
+callouts. The assessment boundary is therefore **47 practical teaching plates / 271 printed
+teaching mappings / 1 unresolved teaching callout / 0 practical or station prompts / 0
+ordinary questions / 0 printed assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 47 plates consolidate to 16 source-level practical teaching scopes. Scope collapse does
+not delete plate, mapping, page or source-wording evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `electrophoresis-definition-and-clinical-applications` · pp. 3–5 | electrophoresis charged particles electric field; electrophoresis clinical applications; plasma protein electrophoresis definition; electrophoretic separation hemoglobin isoenzymes | no substantive live/pending or accepted prior-LCS complete-scope handle — new |
+| `protein-charge-ph-and-isoelectric-migration` · pp. 6–10 | protein charge acid alkaline pH electrophoresis; isoelectric pH zwitterion migration; protein cation cathode alkaline anode; net charge protein pH amino acid groups | no substantive complete-scope match — new |
+| `nucleic-acid-electrophoresis-by-size` · pp. 11–12 | nucleic acid electrophoresis size phosphate; DNA negative charge electrophoresis; DNA fragments migrate positive electrode; nucleic acid gel size separation | no substantive complete-scope match — new |
+| `electrophoresis-components-and-equipment` · pp. 13–20 | electrophoresis components buffer support medium; horizontal electrophoresis chamber equipment; vertical electrophoresis buffer samples gel; electrophoresis driving force constant voltage | no substantive complete-scope match — new |
+| `agarose-versus-polyacrylamide-support-media` · pp. 21–24 | agarose gel high molecular weight; polyacrylamide gel low molecular weight; electrophoresis support media matrix; agarose gel casting comb wells | no substantive complete-scope match — new |
+| `electrophoresis-sample-detection-and-evaluation` · pp. 25–27 | electrophoresis sample preparation staining; silver Ponceau enzyme DNA staining; gel qualitative quantitative densitometer; electrophoresis detecting system evaluation | no substantive complete-scope match — new |
+| `electrophoretic-migration-rate-factors` · p. 28 | electrophoretic migration factors charge size field; electrophoresis supporting media temperature; rate of migration electrophoresis; electrophoretic mobility determinants | no substantive complete-scope match — new |
+| `isoenzyme-definition-properties-and-clinical-role` · pp. 30–33 | isoenzymes definition same reaction; isoenzyme electrophoretic mobility amino acid; isoenzymes tissue distribution clinical diagnosis; serum enzyme assay differential diagnosis prognosis | no substantive complete-scope match — new |
+| `serum-enzyme-markers-in-muscle-disease` · p. 35 | serum enzymes muscle disease aldolase CPK SGOT; muscular dystrophy enzyme markers; myopathy serum enzyme assay; muscle disease CK aldolase transaminase | no substantive complete-scope match — new |
+| `aldolase-isoenzymes-and-clinical-significance` · pp. 36–37 | serum aldolase isoenzymes tetramer A B; aldolase tissue distribution muscle liver brain heart; aldolase elevated muscular dystrophy; clinical significance serum aldolase | no substantive complete-scope match — new |
+| `creatine-kinase-isoenzymes-and-diagnostic-patterns` · pp. 38–42 | creatine kinase isoenzymes CK BB MB MM; CK MB myocardial infarction electrophoresis; CK MM skeletal muscle disease; creatine kinase electrophoretic pattern | no substantive complete-scope match — new |
+| `ldh-isoenzymes-tissues-and-diagnostic-patterns` · pp. 43–46 | LDH isoenzymes tissue distribution; LDH electrophoretic patterns myocardial infarction; LDH 5 skeletal muscle disease; LDH isoenzyme elevations table | no substantive complete-scope match — new |
+| `alkaline-phosphatase-metabolic-bone-disease-elevation` · pp. 48, 50 | alkaline phosphatase metabolic bone disease; rickets osteomalacia Paget ALP; osteoblast alkaline phosphatase bone marker; metabolic bone ALP elevation | accepted Families 12–13 and 25 jointly own the metabolic-bone/osteoblast/Paget ALP subset — prior LCS reuse |
+| `alp-tissue-sources-and-systemic-elevations` · pp. 49–50 | ALP tissue sources liver bone placenta intestine; alkaline phosphatase systemic disease elevations; ALP hepatobiliary osteoblast membrane enzyme; alkaline phosphatase liver bone malignancy | prior ALP handles are bone-limited; no accepted complete tissue/systemic scope — new |
+| `alp-isoenzyme-electrophoretic-profiles` · p. 51 | alkaline phosphatase isoenzymes electrophoresis; ALP liver bone placental isoforms; alkaline phosphatase electrophoretic mobility; ALP isoform liver disease profile | no substantive complete-scope match — new |
+| `acid-phosphatase-sources-and-clinical-significance` · pp. 48, 52–53 | acid phosphatase tissue sources; acid phosphatase prostate bone liver spleen; acid phosphatase clinical significance; ACP Paget Gaucher hairy cell leukemia | no substantive complete-scope match — new |
+
+All **16 × 4 = 64** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and source-import roots. The direct
+complete-scope external result is **0 live / 0 pending / 16 new**. Exact accepted-prior
+comparison prevents one repeated module addition, leaving **one prior-LCS reuse / 15 new
+practical-teaching scopes**. There is no assessment handle to search; teaching scopes do not
+enter the eligible tested-concept count.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 49 | Family 49 delta | After Family 49 |
+|---|---:|---:|---:|
+| Eligible observed question records | 458 | +0 | 458 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 211 | +0 | 211 |
+| Question live / pending / new | 9 / 56 / 146 | +0 / +0 / +0 | 9 / 56 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +47 | 298 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +271 | 2,042 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +1 | 92 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +15 | 0 / 0 / 70 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `47 = 26 + 2 + 1 + 12 + 6`, `271 = 34 + 62
++ 7 + 4 + 115 + 49`, `458 + 0 = 458`, `242 + 0 = 242`, `211 + 0 = 211`, `9 + 56 +
+146 = 211`, `251 + 47 = 298`, `1,771 + 271 = 2,042`, `91 + 1 = 92`, and `55 + 15 =
+70`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-48
+remainder leaves **27 rank-4/rank-5 path instances / 25 unique hashes**. The Family-48
+method was reproduced first: its 28/26 row sets recomputed to
+`3b59b1059becca688eccdc6ba9d4e0e013627536fef4fcffce9700415de95d0d` and
+`1c92beac847af1a40fc7d26821f91c476e50311420edb84844722aff099de9a1`.
+For the exact post-Family-49 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`5d7901670d066b2f4bc2fba6ed5c1bbaab8d269b147a110dcb26bb6dab4ff2eb`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`5b8d0de62e55be15b393a46b39e58e949e01fec1a8514f734006c53e24f27ba7`.
+The next manifest-order gate is tier-5 Biochemistry practical source
+`src_ce57f137927ce4b3058c`, `CBL muscles and bone.pdf` (535,598 bytes; 34 native-text
+pages; SHA-256 `ce57f137927ce4b3058cda875c78554dda4a97502a3feed5b923e2165b948977`)
+under `Year 1/LCS 103/Biochemistry/Practical/Virtual Lab 2 - CBL/`. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
