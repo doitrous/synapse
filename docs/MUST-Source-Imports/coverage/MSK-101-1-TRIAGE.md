@@ -480,10 +480,43 @@ The source is now `sourceProcessed=true`. Its completed delta is **+69 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histo MCQ Dr.Zahra [Skin]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Skin].pdf` | `4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e` | 11 | substantive-text audit sample | pages 1–11 rendered and read | Branded `HISTOLOGY — DR. AHMED ZAHRA — MCQ`; iLovePDF-produced file modified 30 January 2023. It names the instructor but provides no institution, department, sitting, marks or official-key statement. Inline answers are preserved as the document's own key, not promoted to validated faculty-exam authority. |
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+Pages 1–11 contain **67 skin MCQ occurrences**, and every prompt has an adjacent inline printed answer. The exact boundary is therefore **67 prompt occurrences / 67 printed-key observations / 0 source-absent answers**. Distinct prompts share printed labels 38 and 39, and two distinct prompts are labelled 54; all are retained as separate source observations. There is no separate key section and there are **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-only pages**.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 67 occurrences were assigned once across four handles, reconciling as **37 + 17 + 5 + 8 = 67**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **4 × 4 = 16 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 37, epidermal layers, keratinization, thick/thin skin and dermis (`epidermis stratum basale spinosum granulosum lucidum corneum`; `thick thin skin epidermal layers stratum lucidum`; `papillary reticular dermis collagen vascular corpuscles`; `keratohyaline granules desmosomes epidermal renewal`) | no external live/pending hit; same epidermal-layer, barrier, junction and dermal scopes as completed MSK histology cases/final bank — **prior-MSK collapse**. |
+| H2 | 17, melanocytes, Langerhans cells and Merkel cells (`melanocyte Langerhans Merkel cells epidermis origin function`; `melanocytes melanosomes cytocrine secretion stratum basale`; `Langerhans antigen presenting cells stratum spinosum vital stain`; `Merkel cells mechanoreceptors fingertips stratum basale`) | no external live/pending hit; same specialized epidermal-cell scope as completed MSK histology cases/final bank — **prior-MSK collapse**. |
+| H3 | 5, hair follicles, sebaceous glands and arrector pili (`hair follicle sebaceous gland arrector pili skin`; `sebaceous gland holocrine branched alveolar hair follicle duct`; `arrector pili smooth muscle dermis thin skin`; `hair follicle epithelial cells sebaceous arrector pili`) | no external live/pending hit and no prior MSK appendage handle — **new**. |
+| H4 | 8, eccrine and apocrine sweat glands (`eccrine apocrine sweat glands ducts stratified cuboidal`; `eccrine sweat gland clear dark cells myoepithelial`; `apocrine sweat gland secretory cells myoepithelial`; `eccrine merocrine apocrine skin histology`) | no external live/pending hit and no prior MSK sweat-gland handle — **new**. |
+
+The source-level result is **0 live / 0 pending / 4 externally new source handles**. Prior-MSK collapse removes H1–H2; H3 and H4 survive, producing a completed-source concept delta of **0 live / 0 pending / 2 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+67 questions / +67 answers / +2 post-prior concepts**. Cumulative arithmetic is **1151 + 67 = 1218 questions**, **1081 + 67 = 1148 answers**, and **23 + 2 = 25 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1218 | 1148 | 25 | 0 | 1 | 24 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these fourteen processed paths and unique hashes leaves **89 selected inventory paths / 87 unique SHA-256s**. Their sorted, newline-joined hash checksum is `f13869324b0c147c0b75fbcc30549b6734efbf55a9661eaf9c4658f958c4953d`. Remaining audit-review debt is 49 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`14 + 87 = 101`**.
+Removing these fifteen processed paths and unique hashes leaves **88 selected inventory paths / 86 unique SHA-256s**. Their sorted, newline-joined hash checksum is `2218c018a71fd22997b4006dbef4233e4887152806d38a5125f43ddbd501395a`. Remaining audit-review debt is 48 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`15 + 86 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Skin].pdf`, SHA-256 `4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e`, 11 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MSK - Clinical Applications - Mohamed Eissa (MMSU).pdf`, SHA-256 `b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9`, 16 pages.
 
-**BLOCKED — S1 cannot be approved:** 89 selected inventory paths / 87 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 88 selected inventory paths / 86 unique hashes remain untriaged.

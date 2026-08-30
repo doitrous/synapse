@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "e4c88164c699722fa2351e9d8732fa00a49de1784726d5374204ad8d9a0cf050",
-    "triageMarkdown": "5b8a9b360ed3e2f85b161d03f28efccb96ddbef6722d30aad58d90f12021963e"
+    "readinessMarkdown": "3a10b7024fec5b356982b13f290799867b98ad25ddfae4dd78d52d5b8f695313",
+    "triageMarkdown": "ee67e18482f71e5fe09bbe6b7e10c1e80ac06ea0782e67b45fabdb9dbac3e801"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -57,6 +57,7 @@
       "3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b",
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
+      "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
@@ -66,7 +67,7 @@
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 14
+    "uniqueSha256": 15
   },
   "completedSourceCoverage": [
     {
@@ -265,26 +266,45 @@
       "pendingHits": 0,
       "newConceptsAfterPriorMskCollapse": 2,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
+      "sourcePages": 11,
+      "renderedReadPages": "1-11",
+      "questionPages": "1-11",
+      "inlineAnswerPages": "1-11",
+      "printedPromptObservations": 67,
+      "printedKeyObservations": 67,
+      "acceptedSourceHandles": 4,
+      "searchesRun": 16,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 2,
+      "sourceProcessed": true,
+      "preservedSourceDefects": [
+        "distinct prompts share labels 38 and 39",
+        "two distinct prompts labelled 54"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1151,
-    "printedKeyObservations": 1081,
-    "namedConceptsAssigned": 23,
+    "printedPromptObservations": 1218,
+    "printedKeyObservations": 1148,
+    "namedConceptsAssigned": 25,
     "liveHits": 0,
     "pendingHits": 1,
-    "newConcepts": 22
+    "newConcepts": 24
   },
   "remaining": {
-    "inventoryMetadataRows": 89,
-    "uniqueSha256": 87,
-    "sortedNewlineSha256": "f13869324b0c147c0b75fbcc30549b6734efbf55a9661eaf9c4658f958c4953d",
+    "inventoryMetadataRows": 88,
+    "uniqueSha256": 86,
+    "sortedNewlineSha256": "2218c018a71fd22997b4006dbef4233e4887152806d38a5125f43ddbd501395a",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 15,
       "sparse-text": 8,
-      "substantive-text": 49
+      "substantive-text": 48
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -292,12 +312,12 @@
     "audit-not-found": 14,
     "empty-text": 15,
     "sparse-text": 8,
-    "substantive-text": 49
+    "substantive-text": 48
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 14,
-    "remainingUniqueSha256": 87,
+    "processedUniqueSha256": 15,
+    "remainingUniqueSha256": 86,
     "processedPlusRemaining": 101
   }
 }
