@@ -5771,3 +5771,61 @@ Removing this one substantive-text path and unique hash leaves **29 selected inv
 The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology MCQ till Midterm by Absalam101.pdf`, SHA-256 `4247d855313f6cdffdeaacb7cd2b12b2f7b33711d35c392720aaa8ceaedd6f93`, 59 pages.
 
 **BLOCKED — S1 cannot be approved:** 29 selected source paths remain untriaged.
+
+## Completed source — Histology MCQ till Midterm by Absalam101
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology MCQ till Midterm by Absalam101.pdf` | `4247d855313f6cdffdeaacb7cd2b12b2f7b33711d35c392720aaa8ceaedd6f93` | 59 | substantive-text | pages 1–59 rendered and read | Tagged Microsoft Word for Microsoft 365 PDF authored in metadata as `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud`, created and modified 10 November 2024. The cover reads `Histology Questions till Midterm`, states `200 Questions in total`, and credits `Absalam101`; every page carries that handle. It prints no institution, department, official-paper claim, sitting controls or marks. It is a named author-produced revision bank, not an official MUST examination or official key. |
+
+### Exact prompt and embedded-key boundary
+
+The source contains four consecutive parts, each restarting at Q1 and ending at Q50. Part 1 covers general histology, the cell, membrane and membranous organelles; Part 2 centres on Golgi, lysosomes, peroxisomes and organelle classification; Part 3 covers ribosomes, cytoskeleton, cilia and inclusions; Part 4 covers the nucleus, chromatin and nucleolus. All **200** numbered occurrences are text-only four-option MCQs, and every occurrence is followed immediately by one explicit printed `Answer:` line.
+
+The exact boundary is therefore **200 prompt occurrences / 200 printed answers / 200 prompt-matched recovered answers**. There is no practical image, written/essay prompt, answer exposition, teaching-only passage, missing key or orphan answer. The four repeated Q1–Q50 sequences are separate printed prompts, not duplicate labels within a sequence. No answer was inferred, corrected or supplied from another source.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 200 prompts were assigned once to the 19 topic handles below. Each handle received the four identifying searches printed in its row, for **19 × 4 = 76 searches**. The part-level scopes are representative anchors; a prompt that names several structures remains owned by its primary tested proposition.
+
+| Printed scope | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Part 1 general-histology occurrences | Histology/cytology scope and H&E acidophilia/basophilia (`histology tissue structure`; `cytology cell study`; `acidophilic basophilic H&E`; `histology light microscopy stain`) | new externally; exact prior-FHB histology/H&E reuse. |
+| Part 1 cell-organisation occurrences | Cell, cytosol, organelle and inclusion classification (`cell organelle inclusion classification`; `membranous nonmembranous organelles`; `cell functional structural unit`; `cytosol cytoplasm organelle`) | new externally; exact prior-FHB cell-organisation reuse. |
+| Part 1 membrane occurrences | Membrane structure/composition, glycocalyx and cholesterol-dependent fluidity (`cell membrane trilaminar structure`; `integral peripheral membrane protein`; `glycocalyx cell recognition`; `cholesterol membrane fluidity`) | new externally; exact prior-FHB membrane/glycocalyx reuse. |
+| Part 1 transport/receptor occurrences | Passive/active and vesicular transport, clathrin and cell receptors (`active passive membrane transport`; `endocytosis phagocytosis pinocytosis`; `clathrin coated vesicle receptor`; `membrane receptor cell response`) | pending-hit; exact prior-FHB membrane-transport/receptor reuse. |
+| Parts 1–2 mitochondrial occurrences | Mitochondrial cristae, ATP, genome, stains and energy failure (`mitochondria cristae ATP`; `mitochondria Janus green iron hematoxylin`; `mitochondrial DNA enzymes`; `mitochondrial energy deficiency`) | new externally; exact prior-FHB mitochondrial reuse. |
+| Parts 1 and 3 rER/ribosome occurrences | Rough-ER cisternae/ribophorins and free/bound ribosomal protein synthesis (`rough ER ribophorin cisternae`; `ribosome protein synthesis`; `free bound ribosomes`; `rough ER protein secreting cell`) | pending-hit; exact prior-FHB rER/ribosome reuse. |
+| Part 1 smooth-ER occurrences | Smooth-ER lipid/steroid synthesis, detoxification and calcium handling (`smooth ER lipid steroid synthesis`; `smooth ER detoxification`; `smooth ER calcium muscle contraction`; `smooth ER tubular cisternae`) | new externally; exact prior-FHB smooth-ER reuse. |
+| Part 2 Golgi occurrences | Golgi polarity, protein modification/packaging, staining and vesicles (`Golgi cis trans face`; `Golgi protein modification packaging`; `Golgi silver negative image`; `Golgi secretory transfer vesicle`) | new externally; exact prior-FHB Golgi reuse. |
+| Part 2 lysosomal occurrences | Acid hydrolases, primary/secondary forms, autophagy and intracellular digestion (`lysosome acid hydrolase`; `primary secondary lysosome`; `autophagy residual body`; `lysosome intracellular digestion`) | pending-hit; exact prior-FHB lysosome reuse. |
+| Part 2 peroxisomal occurrences | Catalase/peroxide handling, tissue distribution, lipid metabolism and enzyme synthesis (`peroxisome catalase peroxide`; `peroxisome liver kidney`; `peroxisome lipid alcohol metabolism`; `peroxisome free ribosome enzyme`) | new externally; exact prior-FHB peroxisome reuse. |
+| Part 3 general-cytoskeleton occurrences | Cytoskeletal classes, visualisation, cell shape and movement (`cytoskeleton cell shape movement`; `cytoskeleton structural support`; `cytoskeleton immunohistochemistry`; `cytoskeleton microtubule microfilament intermediate`) | pending-hit; exact prior-FHB cytoskeleton reuse. |
+| Part 3 microtubule/centriole occurrences | Tubulin, centriole/centrosome organisation, spindle and intracellular transport (`microtubule tubulin 24 nm`; `centriole nine triplets`; `centrosome MTOC spindle`; `microtubule cell division transport`) | pending-hit; exact prior-FHB microtubule/centriole reuse. |
+| Part 3 microfilament occurrences | Actin/myosin, cleavage-furrow and motile/contractile roles (`microfilament actin myosin`; `microfilament cleavage furrow`; `microfilament cell movement`; `actin filament contraction`) | pending-hit; exact prior-FHB microfilament reuse. |
+| Part 3 intermediate-filament occurrences | Stable tissue-specific support filaments and nuclear lamins (`intermediate filament structural support`; `lamin nuclear envelope`; `intermediate filament stable`; `intermediate filament tissue type`) | new externally; exact prior-FHB intermediate-filament reuse. |
+| Part 3 cilia/flagella occurrences | Axoneme, dynein, basal body and immotile-cilia/infertility effects (`cilia axoneme 9 plus 2`; `dynein cilia flagella movement`; `immotile cilia infertility`; `centriole basal body cilia`) | new externally; exact prior-FHB cilia/flagella reuse. |
+| Part 3 proteasome occurrences | Ubiquitin-tagged proteasomal degradation, barrel structure and disease (`proteasome ubiquitin degradation`; `proteasome barrel rings`; `proteasome damaged protein`; `proteasome neurodegeneration`) | new externally; exact prior-FHB proteasome reuse. |
+| Parts 2–3 inclusion/stain occurrences | Lipofuscin, endogenous pigments, glycogen/lipid inclusions and histochemistry (`lipofuscin aging pigment`; `melanin hemoglobin endogenous pigment`; `glycogen lipid inclusions`; `PAS Sudan histochemistry`) | new externally; exact prior-FHB inclusion/pigment/histochemistry reuse. |
+| Part 4 nuclear-envelope occurrences | Double nuclear envelope, pore transport, lamina and rough-ER continuity (`nuclear envelope double membrane`; `nuclear pore complex transport`; `nuclear lamina lamins`; `outer nuclear membrane rough ER`) | new externally; exact prior-FHB nuclear-envelope reuse. |
+| Part 4 nucleolus/chromatin occurrences | Nucleolar rRNA/ribosome formation, chromatin states and nuclear control (`nucleolus rRNA ribosome`; `euchromatin heterochromatin`; `nuclear sap nucleoplasm`; `nucleus genetic information division`) | new externally; exact prior-FHB nucleolus/chromatin reuse. |
+
+The source-level search split is **0 live / 6 pending / 13 new = 19 handles**. Every handle reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+200 questions / +200 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 6818 | 6454 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **28 selected inventory paths / 28 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `f1cfa480d8a3389f4f5fd2409be91d8a7278ace053b07a0fa7031f1601331157`. Pinned triage debt becomes **two substantive-text / five sparse-text / 21 empty-text** rows, and unique-hash accounting is **`78 + 28 = 106`**.
+
+The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/introduction and cytology mcq.pdf`, SHA-256 `a44fb9d4295209c4722a348a02a865d9e18dacfcd75901dbaccc943c23a6a2ff`, 35 pages.
+
+**BLOCKED — S1 cannot be approved:** 28 selected source paths remain untriaged.
