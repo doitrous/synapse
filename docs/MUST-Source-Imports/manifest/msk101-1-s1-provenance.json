@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "9409cf6a3999aa04ff5e8301f49c10875f1de4589b36eb196057c563f2c5acaf",
-    "triageMarkdown": "a2fd8cd01be02f2e3a92bb66ed227637b814d5c079225e0a76516e097c6891dd"
+    "readinessMarkdown": "2a6ec69ba0db2a38ceb028a04a38b6f1eb8be9fe30f7080b3e3f482b7874d384",
+    "triageMarkdown": "a15fed955c8fa94b994b09526b98730b933e6304fda71aa9a4629e9356290cac"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -52,6 +52,7 @@
   "processedFamilies": {
     "sha256": [
       "000e8e77fc82ffc6d211870fa3f07cb0fcc334a3b9b64c8596f445670f996e4f",
+      "0856251edfee586c1b993f1898529f765d033c498cb03fd0fcff2f3b9ce2b6f7",
       "0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a",
       "12bb34d47ef4f248cd224da7063e493d07ab6990e5b6b87455872d9bccd8eb6a",
       "13bb48d71c0acabc39e05f22177b5a44eebd1dc849093754b083cdab57cc1a00",
@@ -83,7 +84,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 31
+    "uniqueSha256": 32
   },
   "completedSourceCoverage": [
     {
@@ -665,26 +666,88 @@
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true,
       "boundaryDisposition": "thirty teaching-only pages; fourteen written prompts with answers; Q1-Q138 keyed; Q139-Q180 visible but unkeyed"
+    },
+    {
+      "sha256": "0856251edfee586c1b993f1898529f765d033c498cb03fd0fcff2f3b9ce2b6f7",
+      "sourcePages": 78,
+      "renderedReadPages": "1-78",
+      "questionPages": "1-78",
+      "keyPages": "5,9-10,14-15,20-21,27-28,41-43,58-60,69-70,77-78",
+      "printedPromptObservations": 336,
+      "objectiveMcqPrompts": 336,
+      "printedKeyObservations": 336,
+      "objectiveKeyObservations": 336,
+      "visibleUnkeyedPrompts": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 336,
+      "familyAnswerDelta": 336,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "student-authored MUCIZE DOCTORS MSK 101-2 practice compendium; not an authenticated MUST/MSK 101-1 exam",
+      "bankBoundary": {
+        "elbowAnastomosis": {
+          "prompts": 20,
+          "keys": 20
+        },
+        "cubitalFossa": {
+          "prompts": 15,
+          "keys": 15
+        },
+        "anteriorForearmMuscles": {
+          "prompts": 26,
+          "keys": 26
+        },
+        "posteriorForearmMuscles": {
+          "prompts": 32,
+          "keys": 32
+        },
+        "retinacula": {
+          "prompts": 31,
+          "keys": 31
+        },
+        "jointsAndSuperficialVeins": {
+          "prompts": 66,
+          "keys": 66
+        },
+        "nerves": {
+          "prompts": 75,
+          "keys": 75
+        },
+        "arteries": {
+          "prompts": 38,
+          "keys": 38
+        },
+        "handAndPalmarSpaces": {
+          "prompts": 33,
+          "keys": 33
+        }
+      }
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2457,
-    "printedKeyObservations": 2371,
+    "printedPromptObservations": 2793,
+    "printedKeyObservations": 2707,
     "namedConceptsAssigned": 32,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 31
   },
   "remaining": {
-    "inventoryMetadataRows": 71,
-    "uniqueSha256": 70,
-    "sortedNewlineSha256": "600daffc6488609c822a9b5661e3ff8c29b3231b29ef60f80824b1d5f4ce3534",
+    "inventoryMetadataRows": 70,
+    "uniqueSha256": 69,
+    "sortedNewlineSha256": "ca9e0cdcdc7288d44ef1f2ebe1c9094b83cb76c8053d2f4c261ffc1474b19248",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 7,
-      "substantive-text": 33
+      "substantive-text": 32
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -692,12 +755,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 7,
-    "substantive-text": 33
+    "substantive-text": 32
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 31,
-    "remainingUniqueSha256": 70,
+    "processedUniqueSha256": 32,
+    "remainingUniqueSha256": 69,
     "processedPlusRemaining": 101
   }
 }

@@ -1049,3 +1049,62 @@ Removing the thirty-one processed unique hashes, including both selected invento
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK 101-2 Anatomy Final MCQs_BenAhmed.pdf`, SHA-256 `0856251edfee586c1b993f1898529f765d033c498cb03fd0fcff2f3b9ce2b6f7`, 78 pages.
 
 **BLOCKED — S1 cannot be approved:** 71 selected inventory paths / 70 unique hashes remain untriaged.
+
+## Completed source — MSK 101-2 Anatomy Final MCQs_BenAhmed
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK 101-2 Anatomy Final MCQs_BenAhmed.pdf` | `0856251edfee586c1b993f1898529f765d033c498cb03fd0fcff2f3b9ce2b6f7` | 78 | substantive-text audit sample | pages 1–78 rendered and read | Microsoft Word for Microsoft 365 export authored by `200053737-Youssef Ahmed Mahmoud Suleiman`, created/modified 13 January 2025. Every page carries the `MUCIZE DOCTORS` watermark; no MUST institution, department, examiner, sitting, marks or official-key authority is printed. The title's `MSK 101-2` label also conflicts with its MSK 101-1 inventory location. It is a student-authored upper-limb practice compendium, not an authenticated MUST/MSK 101-1 exam or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK 101-2 Anatomy Final MCQs_BenAhmed.pdf" purpose="source"}
+
+### Exact MCQ, written, practical, image, key, unkeyed and teaching boundary
+
+The rendered source contains nine independently numbered MCQ banks, each followed by its own printed answer list:
+
+| Bank | Rendered pages | Visible MCQs | Printed answers |
+|---|---:|---:|---:|
+| Elbow anastomosis | 1–5 | 20 | 20 |
+| Cubital fossa | 6–10 | 15 | 15 |
+| Anterior forearm muscles | 10–15 | 26 | 26 |
+| Posterior forearm muscles | 15–21 | 32 | 32 |
+| Retinacula and tendon sheaths | 22–28 | 31 | 31 |
+| Shoulder/elbow/wrist joints and superficial veins | 28–43 | 66 | 66 |
+| Median, ulnar and radial nerves | 43–60 | 75 | 75 |
+| Radial/ulnar arteries and palmar/carpal arches | 61–70 | 38 | 38 |
+| Palmar fascia/spaces, intrinsic hand muscles and cutaneous nerves | 70–78 | 33 | 33 |
+| **Total** | **1–78** | **336** | **336** |
+
+The exact boundary is therefore **336 visible four-option MCQs / 336 printed answer observations / 0 unkeyed prompts / 0 written prompts / 0 practical prompts / 0 image-identification prompts / 0 teaching prompts**. Section headings, the watermark and answer explanations are not converted into assessment prompts. Printed wording and key selections are retained as source observations—including malformed terminology in the hand bank and internally questionable joint/arterial selections—without silent correction or inferred replacement.
+
+### Source-first handles, prior-family collapse and exactly-four-search gate
+
+The source is not byte-identical to a processed file, and its complete nine-bank sequence is not an exact prompt-sequence duplicate. All **336 prompt and 336 answer observations are therefore retained once**. Its content nevertheless falls wholly inside the five Anatomy handles established for the processed 225-prompt source and reused by its keyed siblings:
+
+| Reused handle | This source's bank scope | Prior-family disposition |
+|---|---|---|
+| H1 — arm/forearm muscles, attachments, actions and nerve supply | anterior and posterior forearm-muscle banks | prior-MSK collapse to completed H1 |
+| H2 — terminal nerves, branches, lesions and deformities | complete median/ulnar/radial nerve bank | prior-MSK collapse to completed H2 |
+| H3 — distal arteries, superficial veins and palmar/carpal arches | elbow anastomosis, artery and superficial-vein material | prior-MSK collapse to completed H3 |
+| H4 — shoulder, elbow, radioulnar and wrist joints | joint bank plus overlapping retinacular/snuff-box relations | prior-MSK collapse to completed H4 |
+| H5 — intrinsic hand muscles, retinacula and digital movements | retinaculum and hand/palmar-space banks | prior-MSK collapse to completed H5 |
+
+No genuinely new handle survives prior-MSK or cross-module reconciliation. The exactly-four-search requirement therefore resolves as **`0 new handles × 4 = 0 new searches`**; the prior family's **5 accepted handles / 20 completed searches** are cross-referenced rather than repeated. Source-level disposition is 0 live / 0 pending / 5 pre-prior candidates, all five collapsing to existing MSK coverage, for **0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its distinct source-family delta is **+336 questions / +336 answer observations / +0 concepts**. Cumulative arithmetic is **2457 + 336 = 2793 questions**, **2371 + 336 = 2707 answers**, and **32 + 0 = 32 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2793 | 2707 | 32 | 0 | 1 | 31 | TBD |
+
+No module ID, content record, answer correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the thirty-two processed unique hashes leaves **70 selected inventory paths / 69 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ca9e0cdcdc7288d44ef1f2ebe1c9094b83cb76c8053d2f4c261ffc1474b19248`. Remaining audit-review debt is 32 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`32 + 69 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Muscle_Table_Final (By Mariam).pdf`, SHA-256 `5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 70 selected inventory paths / 69 unique hashes remain untriaged.
