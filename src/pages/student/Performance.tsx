@@ -14,6 +14,7 @@ import { masteryBand } from '@/data/mastery'
 import { useMastery } from '@/lib/useMastery'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
+import { SourceCoveragePanel } from '@/components/performance/SourceCoverage'
 import { SessionLedgerPanel } from '@/components/performance/SessionLedger'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Meter } from '@/components/ui/Meter'
@@ -657,6 +658,7 @@ export function Performance() {
             />
           </Panel>
           <ConceptMasteryPanel />
+          <SourceCoveragePanel records={records} />
           <SessionLedgerPanel records={records} />
         </div>
       </PageContainer>
@@ -718,6 +720,7 @@ export function Performance() {
         <SessionLedgerPanel records={records} />
 
         <ConceptMasteryPanel />
+        <SourceCoveragePanel records={records} />
 
         <Panel>
           <PanelHeader title={t('Accuracy by subject')} icon={Table2} hint={`${t('Subjects with at least')} ${MIN_PER_SUBJECT} ${t('marked answers')}`} />

@@ -73,12 +73,15 @@ import { QuestionNavigator, type QuestionState } from '@/components/qbank/Questi
 import { StudyRail } from '@/components/qbank/StudyRail'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
 import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
-import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
+import { chooserTopics, questionsInScope, questionsInSources, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 import { useImmersion } from '@/components/shell/ImmersionContext'
 import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { answerPercentages } from '@/data/answerDistribution'
 import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
+import { FilterChip } from '@/components/ui/FilterChip'
+import { sourceOptions } from '@/data/sourceCoverage'
+import type { SourceBucket } from '@/data/questionSource'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
@@ -720,6 +723,7 @@ export function QuestionBank() {
   const [scope, setScope] = useState<Scope>(() => new Set())
   const [mode, setMode] = useState<Mode>('tutor')
   const [source, setSource] = useState<Source>('all')
+  const [sourceSel, setSourceSel] = useState<Set<SourceBucket>>(() => new Set())
   const [lenChoice, setLenChoice] = useState<'5' | '10' | '20' | '40' | 'custom'>('5')
   const [customLen, setCustomLen] = useState(15)
   const count = lenChoice === 'custom' ? Math.min(MAX_QUESTIONS, Math.max(1, customLen || 1)) : Number(lenChoice)
@@ -1014,9 +1018,30 @@ export function QuestionBank() {
     return articleQuestions
   }, [source, articleQuestions, flaggedQuestions, incorrectQuestions, omittedQuestions])
 
-  const available = useMemo(
+  const scoped = useMemo(
     () => questionsInScope(sourcePool, scope, libraryTopics),
     [sourcePool, libraryTopics, scope],
+  )
+  const sourceOpts = useMemo(() => sourceOptions(scoped), [scoped])
+  const showSourceFilter = sourceOpts.length >= 2
+  // Drop any selected bucket no longer present under the current scope/pool, so a
+  // stale selection can't silently empty the pool.
+  const effectiveSources = useMemo(() => {
+    const present = new Set(sourceOpts.map((o) => o.bucket))
+    return new Set([...sourceSel].filter((b) => present.has(b)))
+  }, [sourceSel, sourceOpts])
+  const available = useMemo(
+    () => (showSourceFilter ? questionsInSources(scoped, effectiveSources) : scoped),
+    [scoped, effectiveSources, showSourceFilter],
+  )
+
+  // The chapter tree's per-topic counts must reflect the same source filter as
+  // `available`, so a filtered session's totals match the tree. When no source
+  // filter is active (the shipping all-Unspecified state) this is exactly the
+  // previous `sourcePool`, so behaviour there is unchanged.
+  const treeCountPool = useMemo(
+    () => (showSourceFilter ? questionsInSources(sourcePool, effectiveSources) : sourcePool),
+    [showSourceFilter, sourcePool, effectiveSources],
   )
 
   const collections: Collection[] = useMemo(() => [
@@ -1609,6 +1634,32 @@ export function QuestionBank() {
                     : t('Narrowed to one of your lists — combine it with a topic below.')}
                 </p>
               </div>
+              {showSourceFilter && (
+                <div>
+                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('MCQ source')}</p>
+                  <div className="flex flex-wrap gap-2">
+                    {sourceOpts.map((opt) => (
+                      <FilterChip
+                        key={opt.bucket}
+                        active={effectiveSources.has(opt.bucket)}
+                        onClick={() => setSourceSel((cur) => {
+                          const next = new Set(cur)
+                          if (next.has(opt.bucket)) next.delete(opt.bucket)
+                          else next.add(opt.bucket)
+                          return next
+                        })}
+                      >
+                        {t(opt.label)} <span className="tnum ml-1 font-mono text-ink-3">{opt.count}</span>
+                      </FilterChip>
+                    ))}
+                  </div>
+                  <p className="mt-2 text-[11.5px] text-ink-3">
+                    {effectiveSources.size === 0
+                      ? t('All sources. Pick one or more to narrow the test.')
+                      : t('Only the selected sources are drawn from.')}
+                  </p>
+                </div>
+              )}
               <div>
                 <div className="mb-2 flex items-center justify-between">
                   <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
@@ -1622,7 +1673,7 @@ export function QuestionBank() {
                     is the exact set `available` below draws from, so every
                     number in the tree matches what starting a session would
                     actually contain. */}
-                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={sourcePool} />
+                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={treeCountPool} />
                 <p className="mt-2 text-[11.5px] text-ink-3">
                   {scope.size === 0
                     ? t('Nothing selected — questions are drawn from the whole bank.')
@@ -1740,6 +1791,7 @@ export function QuestionBank() {
               selectedIndex,
               ...(correctIndex >= 0 ? { correctIndex } : {}),
               ...(question.libraryRefs[0]?.title ? { subtopic: question.libraryRefs[0].title } : {}),
+              ...(question.source ? { source: question.source } : {}),
               ...(mode === 'timed' ? {
                 sessionDurationSeconds: elapsed,
                 sessionOvertimeSeconds: timing.overtime,
@@ -1855,6 +1907,7 @@ export function QuestionBank() {
       selectedIndex: chosenIndex,
       ...(correctIndex >= 0 ? { correctIndex } : {}),
       ...(question.libraryRefs[0]?.title ? { subtopic: question.libraryRefs[0].title } : {}),
+      ...(question.source ? { source: question.source } : {}),
       ...(mode === 'timed' ? {
         sessionDurationSeconds: elapsedRef.current,
         sessionOvertimeSeconds: timing.overtime,

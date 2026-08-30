@@ -49,6 +49,7 @@ export function managedQuestionToStudentQuestion(
     // vignette but never assessed, so surfacing them would send a student to
     // revise something this question did not measure.
     conceptIds: [...new Set([...(data.tags.mainConceptIds ?? []), ...data.tags.conceptIds])],
+    source: data.tags.sourceCategory,
   }
 }
 

@@ -1,4 +1,5 @@
 import type { MediaPlacement } from './mediaLibrary.ts'
+import type { QuestionSource } from './questionSource.ts'
 export type Difficulty = 'Easy' | 'Moderate' | 'Hard' | 'Challenging'
 
 /** The bands in ascending order of demand, for anything that has to rank them. */
@@ -55,6 +56,8 @@ export interface Question {
    * something this question never measured.
    */
   conceptIds?: string[]
+  /** Which MCQ source this question came from. Absent until tagged/backfilled. */
+  source?: QuestionSource
 }
 
 export const questions: Question[] = [

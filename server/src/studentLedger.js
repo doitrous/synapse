@@ -137,6 +137,13 @@ export const PUBLIC_FIELDS = new Set([
   'examRelevance', 'contextualConceptIds', 'questionType', 'mainConceptIds',
   'clinicalRelevance', 'academicRelevance', 'cognitiveEffortScore',
   'examWeightByYear', 'questionOnlyFor',
+  // The student-facing MCQ source bucket (Department MCQs / Department Book /
+  // Past Papers). Deliberately public and distinct from the private `source`/
+  // `sourceCitation` provenance above: the student filters tests by it and sees
+  // per-source coverage, so it must survive redaction to reach their screen —
+  // withholding it would leave `Question.source` empty in live mode and break
+  // the feature. It names a source *category*, never which paper an item came from.
+  'sourceCategory',
 ])
 
 /** Remove every private key at any depth, leaving the rest untouched. */
