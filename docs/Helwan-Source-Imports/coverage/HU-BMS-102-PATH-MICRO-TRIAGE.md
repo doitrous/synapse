@@ -12269,3 +12269,134 @@ prompt absence, prior-source relation, and zero-gate arithmetic term is assigned
 native-text portrait US-letter pages under `Pathology / Notes and Summaries`. Its complete
 render/read, visible provenance versus metadata author/date, written prompt-versus-supplied-answer
 boundary, source-first four-search packets, and prior-BMS reuse are the exact next-source blockers.
+
+## Family 116 — repair, inflammation, and circulatory written Q&A handout
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_29d33a6f133ccbd05ee8` · `Repair - Inflammation - Circulatory written.pdf` |
+| SHA-256 / size | `29d33a6f133ccbd05ee8c62ccac5f106fe4747f76b765e8a25d1e1596c8a0363` · 140,650 bytes |
+| Format / complete visual boundary | Four native-text portrait US-letter pages, each 612×792 points. All four pages rendered into four non-empty 1275×1650-pixel images and were read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent extraction contains 382 words / 3,283 bytes and agrees with every rendered heading, numbered command, lettered response, and comparison-table cell. Visual layout controls prompt/response grouping; the manifest's `native` label is accurate. The PDF has no form, encryption, or JavaScript. |
+| Visible provenance | The pages visibly print only the topic headings `Repair`, `Inflammation`, and `Circulatory disorders` plus the Q&A content. No university, faculty, module code, author, instructor, academic year, date, sitting, or page number appears. |
+| Metadata caution | PDF metadata names `Roaa Ahmed Abd Elrahman Hamed` as author, Microsoft Word for Microsoft 365 as creator/producer, and 2 August 2025 16:38:56 EEST as creation/modification time. These are file-production provenance only because none is visibly corroborated; they do not establish authorship, a Helwan teaching date, academic year, or assessment sitting. |
+| Authority | Tier-6 notes-and-summaries written study handout. The lists and table immediately beneath each command are source-supplied teaching answers, not an examiner-issued or official key. |
+
+### Complete page-first written-prompt, supplied-answer, and residue inventory
+
+| Page | Complete visible source content | Prompt / supplied-answer ruling |
+|---:|---|---:|
+| 1 | `Repair` Q1 extracellular-matrix components; Q2 healing growth factors; Q3 local healing factors; Q4 systemic healing factors | **4 written prompts / 4 complete supplied teaching answers**. |
+| 2 | Repair Q5 healing complications and Q6 bone-fracture-healing steps; `Inflammation` Q1 localized/diffuse suppurative types and Q2 non-suppurative types | **4 / 4**. |
+| 3 | Inflammation Q3 specific/granulomatous and non-specific chronic-inflammation types; `Circulatory disorders` Q1 oedema causes, Q2 Virchow-triad thrombosis causes, Q3 thrombus classification, and Q4 thrombus fates | **5 / 5**. |
+| 4 | Circulatory Q5 shock types and Q6 dry-versus-wet gangrene comparison | **2 / 2**. |
+
+The exact page checksum is `4 + 4 + 5 + 2 = 15` written prompts. Every command is followed
+immediately by one complete lettered list or populated comparison table, giving **15 source-
+supplied teaching-answer occurrences**. There is no blank, option set, missing list, candidate
+response, selective correctness mark, mark allocation, practical task, or separate answer
+register. Topic headings and lettered entries organize the completed Q&A; they are not extra
+prompts or key rows.
+
+Source wording is preserved without repair. In particular, the fracture sequence prints
+`Granular tissue`, and both gangrene `Cause` cells print `Anorexia` / `Anorexia or toxin`.
+Those possibly erroneous terms do not change the prompt boundary and are not silently normalized
+to different medical terms.
+
+The source therefore contributes **15 raw written-prompt occurrences / 15 printed teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like or partial-answer residues / 15
+retained question records**.
+
+### Source-first handle collapse and prior-BMS assignment
+
+| Ref(s) | Source-tested scope | Handle / prior assignment |
+|---|---|---|
+| F116-R01 | Collagen, elastic fibres, proteoglycans, adhesive glycoproteins, and basement membrane as extracellular-matrix components in healing | `extracellular-matrix-components-in-repair` · exact Family 87 reuse |
+| F116-R02 | EGF, FGF, PDGF, TNF, TGF-alpha, and TGF-beta as healing growth factors | `wound-healing-growth-factors` · exact Family 87 reuse |
+| F116-R03,R04 | Local and systemic factors affecting healing | `local-systemic-factors-affecting-healing` · two complementary retained records collapse to one source handle; exact Families 2/87 reuse |
+| F116-R05 | Complications of healing | `wound-healing-complications` · exact Families 2/87 reuse |
+| F116-R06 | Bone-fracture-healing sequence | `fracture-healing-stages` · exact Family 87 reuse |
+| F116-I01 | Localized and diffuse acute suppurative-inflammation types | `acute-suppurative-inflammation-types` · exact Family 88 reuse |
+| F116-I02 | Non-suppurative-inflammation types | `non-suppurative-inflammation-types` · exact Family 88 reuse |
+| F116-I03 | Specific/granulomatous versus non-specific chronic-inflammation types | `chronic-inflammation-types` · new; Family 88's granuloma-subtype and chronic-cellular-exudate handles do not test this high-level classification |
+| F116-C01 | Hydrostatic, osmotic, lymphatic, and sodium-water-retention causes of oedema | `oedema-causes` · exact Family 2 reuse |
+| F116-C02 | Endothelial injury, abnormal flow, and blood-composition change as Virchow-triad causes of thrombosis | `thrombosis-definition-risk` · exact Family 2 reuse; current cause-only scope is contained in the established definition/risk handle |
+| F116-C03 | Thrombus classification by colour, bacterial status, and site | `thrombus-classification` · new; prior teaching tables are not accepted prompts and prior thrombus handles test definition/risk, fate, or comparisons |
+| F116-C04 | Dissolution, recanalization, calcification, embolization, organization, propagation, and fragmentation as thrombus fates | `thrombosis-outcomes` · exact Family 2 reuse |
+| F116-C05 | Anaphylactic, hypovolaemic, cardiogenic, neurogenic, and septic shock types | `shock-classification` · exact Family 1 reuse |
+| F116-C06 | Dry-versus-wet gangrene comparison across mode, site, occlusion, cause, fluids, size, demarcation, toxemia, and course | `dry-versus-wet-gangrene` · new; prior families provide teaching only or individual gangrene facts, not this tested comparison |
+
+All 15 visibly distinct written records are retained. Only the two complementary local/systemic
+healing-factor prompts collapse semantically, so source-first arithmetic is `15 - 1 = 14`
+source-distinct tested handles.
+
+### Exactly four searches per accepted handle and exact-scope adjudication
+
+Every one of the 14 accepted handles received exactly four fresh source-first searches across
+live state, pending import roots, and prior BMS-102 Families 1–115: **14 × 4 = 56 required
+searches**. External exact-scope disposition is **0 live / 3 pending / 11 no same-scope**.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `wound-healing-growth-factors` | `wound healing growth factors`; `EGF PDGF FGF TGF wound repair`; `growth factors controlling healing process`; `TNF transforming growth factor repair` | no same-scope | exact F87 reuse |
+| `extracellular-matrix-components-in-repair` | `extracellular matrix components repair`; `collagen proteoglycans adhesive glycoproteins`; `ECM elastic fibers basement membrane`; `wound healing extracellular matrix composition` | no same-scope | exact F87 reuse |
+| `local-systemic-factors-affecting-healing` | `local systemic factors wound healing`; `factors impairing wound repair`; `infection nutrition diabetes glucocorticoids healing`; `vascular supply movement radiation foreign body wound` | no same-scope | exact F2/F87 reuse |
+| `wound-healing-complications` | `complications of wound healing`; `dehiscence keloid contracture sinus fistula`; `deficient excessive scar formation`; `incisional hernia stricture wound repair` | no same-scope | exact F2/F87 reuse |
+| `fracture-healing-stages` | `fracture healing stages`; `hematoma inflammation callus remodeling`; `woven bone cartilage lamellar bone fracture`; `bone repair demolition granulation tissue` | pending `CON-MSK-D95C0801FF59F3`; staged fracture-healing sequence | exact F87 reuse |
+| `acute-suppurative-inflammation-types` | `types acute suppurative inflammation`; `localized diffuse suppurative inflammation`; `abscess furuncle carbuncle cellulitis appendicitis`; `classification purulent inflammation` | no same-scope | exact F88 reuse |
+| `non-suppurative-inflammation-types` | `types non suppurative inflammation`; `serous serofibrinous catarrhal membranous necrotizing allergic`; `nonpurulent inflammation classification`; `bread and butter diphtheria cancrum oris inflammation` | no same-scope | exact F88 reuse |
+| `chronic-inflammation-types` | `types chronic inflammation`; `specific nonspecific chronic inflammation`; `granulomatous non granulomatous chronic inflammation`; `chronic inflammation classification granuloma` | no same-scope | none; delta |
+| `oedema-causes` | `causes of oedema`; `edema mechanisms`; `hydrostatic oncotic edema`; `lymphatic obstruction oedema` | pending `CON-CVS-6D8E2D62A9F51E`; oedema mechanisms | exact F2 reuse |
+| `thrombosis-definition-risk` | `thrombosis definition risk factors`; `thrombus Virchow triad`; `predisposing factors thrombosis`; `intravascular blood clot during life` | pending `CON-CVS-1DBCD5D81337B5`; Virchow-triad risk assignment | exact F2 reuse |
+| `thrombus-classification` | `classification of thrombus`; `pale red septic aseptic thrombus`; `thrombus classification color bacteria site`; `arterial venous cardiac thrombus types` | no same-scope | none; delta |
+| `thrombosis-outcomes` | `outcomes of thrombosis`; `fate of thrombus`; `propagation embolization organization`; `thrombus resolution recanalization` | no same-scope | exact F2 reuse |
+| `shock-classification` | `shock types`; `classification of shock`; `hypovolemic cardiogenic shock`; `circulatory shock` | no same-scope; external hits address individual shock questions rather than the general classification | exact F1 reuse |
+| `dry-versus-wet-gangrene` | `dry wet gangrene comparison`; `compare dry and wet gangrene`; `dry versus wet gangrene`; `gangrene mode site occlusion demarcation` | no same-scope | none; delta |
+
+Exactly **11** handles are prior-BMS exact reuses. Family 116 therefore adds `14 - 11 = 3`
+distinct tested concepts.
+
+### Family-116 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 116 | Auxiliary cumulative (Families 12–116) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 15 | 974 | 765 | 1,739 |
+| Printed teaching-answer occurrences | 15 | 555 | 405 | 960 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like / partial-answer residues | 0 | — | — | none |
+| Retained question records | 15 | 914 | 552 | 1,466 |
+| Source-distinct tested handles / required searches | 14 / 56 | 820 / — | — | — |
+| External live / pending / no same-scope | 0 / 3 / 11 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 11 | — | — | subtract before concept addition |
+| Cross-family concept delta | +3 | +545 over primary | 372 | `372 + 545 = 917` |
+| **Distinct tested concepts** | **+3** | **545 auxiliary additions** | **372** | **917** |
+
+The checksum closes without remainder: `4 + 4 + 5 + 2 = 15` prompts; each has one supplied
+response, giving 15 answer occurrences; all 15 records remain retained; one complementary
+local/systemic reduction gives `15 - 1 = 14` handles; searches are `14 × 4 = 56`; external
+disposition is `0 + 3 + 11 = 14`; and concept arithmetic is `14 - 11 prior exact reuses = 3`.
+Auxiliary cumulative arithmetic is `959 + 15 = 974` prompts, `540 + 15 = 555` answers, `899 +
+15 = 914` retained records, `806 + 14 = 820` handles, and `542 + 3 = 545` concept additions.
+All eligible arithmetic is `765 + 974 = 1,739`, `405 + 555 = 960`, `552 + 914 = 1,466`, and
+`372 + 545 = 917`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**974 / 555 / 914 / 820 / +545**; and all eligible evidence is
+**1,739 / 960 / 1,466 / 917**. Family 116 contributes tier-6 supplied-answer study evidence
+only. It cannot establish official key authority, a dated sitting, recurrence, mark weight,
+student response, readiness, or claims status.
+
+### Exact next debt after Family 116
+
+`src_29d33a6f133ccbd05ee8` is exhausted across all four pages: every visible heading, numbered
+prompt, supplied list/table response, literal source term, metadata/visible-provenance distinction,
+retained record, semantic collapse, required query, external disposition, prior-BMS relation, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-116 blocker. The
+exact next manifest record is tier-6 `src_b0d118dae8c72f3c7558` · `Repair 1 notes.pdf`, SHA-256
+`b0d118dae8c72f3c7558e20fd741426c7584a9817d3d52ebc9aa3ca5925d4e17`, 5,311,424 bytes, 34
+native-text 791×444.937-point landscape pages under `Pathology / Notes and Summaries`. Its full
+render/read, visible Dr Enas Elhosary / Faculty of Medicine / Helwan University provenance,
+teaching-versus-prompt/key/callout boundary, source-first searches, and prior-BMS reuse are the
+exact next-source blockers.
