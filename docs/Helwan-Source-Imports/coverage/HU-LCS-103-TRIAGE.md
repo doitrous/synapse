@@ -13997,3 +13997,102 @@ unclassified until its native document body and complete rendered boundary are r
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 106 tier-3/tier-6/rank-9 path
 debts remain. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 125 — Tier-3 external legacy-Word Head-and-Neck partially solved MCQ bank
+
+### Exact identity, safe render boundary and authority
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_800269da3bca93e7a200` / `800269da3bca93e7a200ada181777a9ba74f506dcc506373408e9e2b044688a6` |
+| File | `MCQs - External MCQs HEAD & NECK.doc` · 98,304 bytes · unencrypted OLE Compound Document V2 · Windows code page 1256 |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 · native legacy-DOC conversion required |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs HEAD & NECK.doc` |
+| Visible / metadata authority | The body supplies only the underlined title `HEAD & NECK`. Legacy Word metadata names author and last saver `acc`, creation 26 February 2006 and last save 13 May 2006. It supplies no university, Helwan, LCS-103, cohort, exam, year or sitting authority; the manifest filename explicitly classifies it as external. |
+
+The assigned SHA-256 and byte size were recomputed and match. The original `.doc` remained
+read-only. A temporary LibreOffice conversion under `tmp/pdfs/lcs103-family125/` produced
+**11 physical A4 pages**, all rendered at 160 dpi and visually read at full resolution; all
+11 page-image hashes are distinct. A separate read-only `textutil` extraction independently
+finds the complete sequential Q1–Q73 body. The legacy OLE property reports one page, but that
+stale application statistic is rejected in favor of the complete 11-page canonical render.
+
+The document contains **73 external MCQ occurrences**. Q1–Q48 each have exactly one option
+letter printed in simultaneous bold underline; a structural HTML conversion confirms exactly
+48 such `a)`–`e)` marks. Q49–Q73 contain no bold-underlined option, delayed answer list,
+explanation or other reveal. The exact boundary is therefore **73 external MCQs / 48 printed
+key marks / 25 unkeyed occurrences / 0 written prompts**. A marked option letter is counted
+as the source's key state but is not medically audited or repaired.
+
+Source wording is preserved. Examples include `superious`, `temoromandibular`,
+`portal-systeminc`, `secretomotor nerve suppy`, mixed `foramen rotundam` spelling and the
+source's `accessory (cranial part)` terminology. Internal scope repetitions also remain
+separate prompt occurrences: Q19/Q40 both test genioglossus protrusion, Q37/Q46 both test
+tip-of-nose sensation, and Q29/Q49 revisit parotid relations in different containers. They
+collapse at concept reconciliation only and are not deleted from the 73-source-occurrence
+inventory.
+
+### Assessment, teaching and practical boundary
+
+Every prompt is prose-only. There is no specimen, radiograph, clinical photograph,
+micrograph, diagram, station, apparatus task, masked label, response field or learner-
+completed mapping. Bold stems and underlined option letters are assessment typography, not
+practical plates or teaching callouts. The source adds **0 practical prompts / 0 teaching
+plates / 0 mappings / 0 residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 73 occurrences collapse to **21 source-distinct tested handles**: orbit/extraocular
+muscles and ocular motor nerves; skull-base foramina/canals and transmitted structures;
+tongue muscles/actions/innervation; pharyngeal and soft-palate muscles/swallowing; cervical
+sympathetic chain/stellate ganglion/Horner syndrome; facial nerve/chorda tympani/taste;
+pituitary/sella relations; head-and-neck lymphatics and tonsils; cervical oesophagus;
+parotid gland/duct/vessels/nerves; surface landmarks/posterior triangle/SCM; TMJ and muscles
+of mastication; cranial reflex/lesion localization; facial cutaneous territories; laryngeal
+cartilages/muscles/nerves; middle-ear routes and facial canal; infratemporal and
+pterygopalatine fossae; head-and-neck arteries/veins/carotid sheath; nose/paranasal sinuses;
+cervical-plexus motor branches; and the medial-lemniscus sensory pathway. Each occurrence is
+assigned once; repeated source scopes do not create second concept handles.
+
+Each handle received exactly one fresh search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **21 × 4 = 84 required search invocations**.
+Prior-external-first comparison finds all 21 already represented across Families 83–85,
+90–94, 105–112 and 121. Accepted head-and-neck evidence may corroborate scope but cannot
+promote this external legacy bank into eligible Helwan evidence. Reconciliation is **21
+prior-external reuses + 0 external additions = 21**; eligible and external concept-state
+deltas are zero. Exact query and result ledgers are preserved at
+`tmp/pdfs/lcs103-family125/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family125/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **4,931 / 4,783 / 221 = 12 / 135 / 74** to **5,004 external prompts / 4,831
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `4,931 + 73 = 5,004`, `4,783 + 48 = 4,831`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical
+delta from this source is zero.
+
+This source hash occurs once in the Family-124 remainder. Removing its sole path leaves
+**105 all-rank path instances / 97 unique hashes**: tier 3 **23 paths / 20 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 124's prior checksums are
+`facbc38ffe2ed100c9b57e4b62158c1cd4ef7a93f3561f79b0bb683f1f0ad5ba` (paths) and
+`2fbbeead9a264e85dc0eb6ca120eb7a829a33cdb00c143e10901d19464c85097` (unique hashes).
+For the exact post-Family-125 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`98134e08bae9c193827a53ded630efe6d0543c2540daf2c2418194b3d1e0b602`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`a42b22a5ddc9eacbe212d145010db301725e8ae2dad19788dc36994538755e3d`.
+
+The exact next tier-3 manifest-order debt is `src_8799bc2870fcaf648a13`, manifest
+`MCQs - External MCQs Head_Neck _mcqs.pdf` (92,907 bytes; 22 native pages; SHA-256
+`8799bc2870fcaf648a13dded620216df36918eca4517871f1807dc5585237caf`). The manifest-named
+local path is absent; its declared exact-copy path `MCQs - Head_Neck _mcqs.pdf` exists in the
+same directory and recomputes to the assigned hash and byte size. It remains unclassified
+until that normalized local copy's complete pages are read. **Overall LCS-103 remains `S1
+TRIAGE — NOT APPROVED`:** 105 tier-3/tier-6/rank-9 path debts remain. No download, source
+edit, ID, content record, catalogue update, import or source copy was created.
