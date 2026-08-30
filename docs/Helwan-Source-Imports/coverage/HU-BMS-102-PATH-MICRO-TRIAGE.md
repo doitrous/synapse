@@ -8848,3 +8848,72 @@ handwritten pathology comparison whose sequence/page relation is not yet visuall
 Its full teaching/prompt/answer and annotation boundary, provenance/timestamp limitation,
 relationship to adjacent images, and overlap with Family 74/prior BMS evidence are the
 next-source blockers.
+
+## Family 79 — six-panel digital necrosis recap screenshot
+
+### Source identity, original-image boundary, provenance, and sequence ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_8ddee8c5b140d98ecac4` · `2026-07-20 06.14.37.jpg` |
+| SHA-256 / size | `8ddee8c5b140d98ecac43185fd969c45a1fca0774b49180b478dbc0e00b5ab85` · 112,192 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×673 JPEG; opened and read at original resolution |
+| Visible source identity | Six black-background digital-note panels with multicolour handwriting; no page number, institution, module, author, instructor, date, assessment label, or key designation |
+| Embedded date metadata | None recovered; the filename/manifest timestamp is non-authoritative |
+
+The crop is a self-contained recap rather than a continuation of Families 77–78: its digital
+blackboard layout, aspect ratio, handwriting surface, and absence of a circled page number differ
+from the photographed paper pair. The next manifest image, `2026-07-20 06.14.44.jpg`, is a
+portrait apoptosis flowchart on a white background, so adjacency does not establish a numbered
+page sequence. The filename times show capture order only and cannot establish authorship,
+teaching date, or sitting year.
+
+### Teaching, annotation, overlap, and zero gate
+
+The six panels summarize gangrenous, fat, caseous, coagulative, liquefactive, and fibrinoid
+necrosis. Completed arrows connect mechanisms and outcomes; the coagulative panel uses a red
+check beside retained outlines and a red cross beside lost details. Those symbols assert two
+teaching statements inside a completed map; they do not answer a question. Yellow underlines,
+grey heading bubbles, white dividers, and red/yellow/green writing are structural emphasis.
+
+No stem, command, blank, option set, response frame, audience question, prompt-like residue, or
+answer register is present. The content restates Family-74 p. 2 and Family-76 necrosis teaching,
+but a differently rendered recap remains declarative teaching rather than assessment evidence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 79 | Auxiliary cumulative (Families 12–79) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 79 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 79
+
+`src_8ddee8c5b140d98ecac4` is exhausted: every panel, completed teaching arrow/statement,
+check/cross and color convention, prompt absence, non-sequence ruling, Family-74/76 overlap,
+timestamp limitation, zero search gate, and unchanged arithmetic is assigned once, with **zero
+source remainder** and no Family-79 blocker. The exact next manifest-ordered BMS-102 record is
+tier-6 `src_bdce762ced5550b9c9a0` · `2026-07-20 06.14.44.jpg`, SHA-256
+`bdce762ced5550b9c9a0f1168f36bb5eceb5e5f48cc5a8bcbe3d69632053aee5`, 73,844 bytes,
+one 912×1280 portrait JPEG under `Pathology / Notes and Summaries`. Its visible carrier is a
+completed T-lymphocyte/TNF/Fas/caspase apoptosis flowchart rather than a numbered continuation,
+but its full teaching/prompt/answer and annotation boundary, provenance/timestamp limitation,
+adjacent-image relationship, and overlap with Family 74/prior BMS evidence remain the exact
+next-source blockers.
