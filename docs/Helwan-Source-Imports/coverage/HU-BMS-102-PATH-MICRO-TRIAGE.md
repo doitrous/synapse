@@ -6512,3 +6512,129 @@ native-text landscape US-letter pages under `Microbiology / Practical Labs / Pre
 Antibiotic susceptibility testing`. Its unread 69-page prompt/teaching/answer boundary is the
 next-source processing blocker: fully render and visually adjudicate the complete source before
 admitting any count.
+
+## Family 59 — tier-5 Helwan antimicrobial-susceptibility practical lecture
+
+### Source identity, complete visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_42d84167051365e1dde0` · `3- Antibiotic Susceptibility testing.pdf` |
+| Local path | `BMS 102/Microbiology/Practical Labs/Pre Lab 3 - Antibiotic susceptibility testing/3- Antibiotic Susceptibility testing.pdf` |
+| SHA-256 / size | `42d84167051365e1dde02cb57535191f25f9330e969ead1a71bb2ccdbdadce43` · 4,433,727 bytes |
+| Format / read boundary | 69 native-text landscape US-letter pages; native text extracted, every page rendered at 110 dpi and read in five ordered contact sheets, and every prompt-bearing or prompt-like page reopened at full-page resolution |
+| Provenance | Visible Faculty of Medicine, Helwan University cover attributed to staff members of Microbiology and Immunology; PDF metadata title `Microsoft PowerPoint - 3- Antibiotic Susceptibility testing`, author `Dr.Ammar Atef` |
+| Authority | Helwan-local practical teaching lecture; no examiner, sitting, date, marks, candidate instructions, response form, departmental question-bank designation, or official key |
+
+This source uses three early question-to-teaching builds and five later revision question-to-red-
+answer builds. A complete question or option set is counted; its source-authored teaching map or
+highlighted repeat is a printed teaching answer. Process diagrams, photographs, labels,
+checklist bullets, `Read only` instructions, the p. 7 `What?/Where?/why?` presentation scaffold,
+and the p. 68 cartoon dialogue are not independent assessment prompts.
+
+| Physical pages | Complete visual content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | Helwan cover and two practical objectives | provenance/teaching only; `0 / 0` |
+| 3–5 | `Antimicrobials, meaning what?` followed by synthesis-target categories and a labelled mechanism diagram | **1 / 1** question/teaching-map reveal |
+| 6–9 | complete meaning-of-susceptibility question, non-independent `What?/Where?/why?` scaffold, three-part purpose answer, and identification/treatment diagram | **1 / 1**; scaffold not counted separately |
+| 10–46 | method classification, disc-diffusion materials and steps, CLSI example, susceptibility categories, tube-dilution MIC/MBC definitions, procedures, and labelled figures | declarative and `Read only` teaching only; `0 / 0` |
+| 47–53 | `What is the meaning of Epsilometer?` followed by strip definition, principles, procedure, and labelled plates | **1 / 1** question/teaching reveal |
+| 54 | `Now! Let's revise!` | section transition only; `0 / 0` |
+| 55–57 | unlabelled disc-diffusion, broth-dilution, and E-test images | revision plates without a stem or response instruction; `0 / 0` |
+| 58–59 | two identical true/false MIC-figure prompts; the second colours `false` red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 60–61 | two identical E-test MIC prompts; the second colours `1.5 µg/ml` red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 62–63 | two identical MBC-figure prompts; the second colours `32 µg/ml` red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 64–65 | two identical tube-dilution MIC prompts; the second colours `8 µg/ml` red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 66–67 | two identical principle-identification MCQs; the second colours `Diffusion` red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 68–69 | antibiotic-resistance Halloween cartoon and multilingual thank-you slide | illustrative dialogue/closing only; `0 / 0` |
+
+The complete source therefore contains **13 complete prompt occurrences / 8 printed teaching-
+answer occurrences / 5 unkeyed prompt occurrences**. The five highlighted revision copies use a
+stable red-answer convention, but all answers have practical-teaching authority only and are
+not an official exam key. The p. 7 scaffold is tracked as a non-independent prompt build and
+does not enter prompt, answer, retention, or handle counts.
+
+### Prompt, teaching-answer, copy, collapse, and prior-BMS inventory
+
+| Ref | Page(s) | Complete source-tested scope | Printed teaching answer | Handle / assignment |
+|---|---:|---|---|---|
+| F59-Q01 | 3–5 | Antimicrobials framed through inhibition of bacterial cell-wall, protein, and nucleic-acid synthesis, with the following diagram expanding the mechanism map | source-authored mechanism categories and diagram | `antimicrobial-action-mechanism-classes` · exact Family 12 A03 scope reuse |
+| F59-Q02 | 6–9 | Meaning and purpose of antimicrobial susceptibility testing as an in-vitro effectiveness test used to select the best active drug | the three-part p. 8 reveal | `antimicrobial-susceptibility-test-in-vitro-purpose` |
+| F59-Q03 | 47–48 | Meaning of the Epsilometer E-test | commercial gradient-impregnated strip for quantitative direct MIC determination | `epsilometer-e-test-gradient-strip-definition` |
+| F59-Q04 | 58 | True/false reading that the displayed tube-dilution MIC is `0.50 µg/ml` | `false` on the repeated reveal | `tube-dilution-mic-figure-reading` |
+| F59-Q05 | 59 | Literal Q04 copy with highlighted answer | `false` | copy excluded from retention |
+| F59-Q06 | 60 | MIC read from the displayed E-test strip | `1.5 µg/ml` | `e-test-mic-ellipse-strip-reading` |
+| F59-Q07 | 61 | Literal Q06 copy with highlighted answer | `1.5 µg/ml` | copy excluded from retention |
+| F59-Q08 | 62 | MBC read from the displayed dilution/subculture figure | `32 µg/ml` | `broth-dilution-mbc-subculture-figure-reading` |
+| F59-Q09 | 63 | Literal Q08 copy with highlighted answer | `32 µg/ml` | copy excluded from retention |
+| F59-Q10 | 64 | MIC read from a second displayed tube-dilution series | `8 µg/ml` | retained image/input variant; semantic collapse to `tube-dilution-mic-figure-reading` |
+| F59-Q11 | 65 | Literal Q10 copy with highlighted answer | `8 µg/ml` | copy excluded from retention |
+| F59-Q12 | 66 | Principle of the displayed disc-diffusion susceptibility test | B · diffusion | `disc-diffusion-susceptibility-test-principle` |
+| F59-Q13 | 67 | Literal Q12 copy with highlighted answer | B · diffusion | copy excluded from retention |
+
+Q05, Q07, Q09, Q11, and Q13 repeat their immediately preceding prompts exactly, including image
+and option order; only the red answer is added. Thus **13 observed - 5 literal copies = 8
+retained records**. Q04 and Q10 use different tube images and answer values but test the same
+MIC-reading operation, producing the sole semantic reduction. Therefore **8 retained records -
+1 semantic reduction = 7 source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the seven handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **28 required searches**. External
+disposition is **1 live / 0 pending / 6 no same-scope**. Live `CON-FND-F1947F79FDFB80`
+supplies Q02's laboratory-test/effective-regimen purpose; no exact live or pending record was
+found for the other six practical scopes.
+
+| Handle · ref(s) | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `antimicrobial-action-mechanism-classes` · Q01 | `antimicrobials inhibitors bacterial cell wall protein nucleic acid synthesis`; `meaning antimicrobial agents bacterial synthesis targets`; `antimicrobial mechanisms cell wall protein nucleic acid`; `antimicrobial target processes overview` | no same-scope complete enumeration | exact Family 12 A03 reuse; Families 15/32 test a modified-target exception rather than adding a new umbrella scope |
+| `antimicrobial-susceptibility-test-in-vitro-purpose` · Q02 | `antimicrobial susceptibility test in vitro purpose`; `drug effectiveness against bacterium select best drug`; `what is antimicrobial susceptibility testing`; `AST laboratory test guides effective treatment` | live `CON-FND-F1947F79FDFB80`; susceptibility testing identifies the effective regimen | none; Family 58 lists susceptibility testing as one reason to cultivate but does not define the test |
+| `epsilometer-e-test-gradient-strip-definition` · Q03 | `Epsilometer E test meaning antibiotic gradient strip`; `E test rectangular plastic strip decreasing antibiotic concentration`; `Epsilometer definition direct MIC determination`; `E test commercial quantitative diffusion dilution` | no same-scope | none; Family 55 is teaching-only |
+| `tube-dilution-mic-figure-reading` · Q04,Q05,Q10,Q11 | `tube dilution MIC figure lowest clear tube`; `read MIC broth dilution serial concentrations`; `minimum inhibitory concentration tube image interpretation`; `MIC first tube no visible growth dilution` | no same-scope | none; Family 55 is teaching-only |
+| `e-test-mic-ellipse-strip-reading` · Q06,Q07 | `E test MIC ellipse intersects strip 1.5`; `read Epsilometer MIC ellipse edge strip`; `E test figure MIC value interpretation`; `gradient diffusion MIC intersection scale` | no same-scope | none; delta |
+| `broth-dilution-mbc-subculture-figure-reading` · Q08,Q09 | `MBC figure subculture no growth lowest concentration`; `read minimum bactericidal concentration plate subculture`; `broth dilution MBC 32 micrograms figure`; `MBC lowest antibiotic concentration kills bacteria plate` | no same-scope | none; delta |
+| `disc-diffusion-susceptibility-test-principle` · Q12,Q13 | `disc diffusion antimicrobial susceptibility principle diffusion`; `Kirby Bauer principle antibiotic diffusion inhibition zone`; `antimicrobial susceptibility plate discs principle`; `disk diffusion qualitative susceptibility method diffusion` | no same-scope | none; Family 55 is teaching-only |
+
+The only prior-BMS exact handle is Q01. Therefore **7 handles - 1 prior exact reuse = +6
+concepts**.
+
+| Measure | Family 59 | Auxiliary cumulative (Families 12–59) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 13 | 513 | 765 | 1,278 |
+| Printed teaching-answer occurrences | 8 | 243 | 405 | 648 |
+| Non-independent prompt scaffold | 1 excluded | — | — | tracked separately |
+| Retained question records | 8 | 496 | 552 | 1,048 |
+| Source-distinct tested handles / required searches | 7 / 28 | 470 / — | — | — |
+| External live / pending / no same-scope | 1 / 0 / 6 | — | — | family-local disposition |
+| Cross-family concept delta | +6 | +343 over primary | 372 | `372 + 343 = 715` |
+| **Distinct tested concepts** | **+6** | **343 auxiliary additions** | **372** | **715** |
+
+The checksum closes without remainder: prompt starts are `1 + 1 + 1 + 2 + 2 + 2 + 2 + 2 =
+13`; teaching-answer alignment is `3 question reveals + 5 highlighted revision reveals = 8`,
+leaving `13 - 8 = 5` unkeyed prompt occurrences; retention is `13 - 5 literal copies = 8`;
+handle assignment is `8 - 1 semantic reduction = 7`; assignment is `13 - 13 = 0`
+unassigned; searches are `7 × 4 = 28`; external disposition is `1 + 0 + 6 = 7`; and concept
+arithmetic is `7 - 1 = 6`. Auxiliary cumulative arithmetic is `500 + 13 = 513` prompts, `235 +
+8 = 243` printed answers, `488 + 8 = 496` retained records, `463 + 7 = 470` source handles,
+and `337 + 6 = 343` concept additions over primary. All-eligible arithmetic is `765 + 513 =
+1,278`, `405 + 243 = 648`, `552 + 496 = 1,048`, and `372 + 343 = 715`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**513 / 243 / 496 / 470 / +343**; and all eligible evidence is
+**1,278 / 648 / 1,048 / 715**. This tier-5 practical lecture adds Helwan-local teaching and
+exercise evidence only; it cannot independently raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status, so no readiness or claims file change is warranted.
+
+### Exact next debt after Family 59
+
+`src_42d84167051365e1dde0` is exhausted across all 69 pages: every declarative slide, `Read
+only` procedure, labelled or unlabelled plate, complete question, source-internal reveal, literal
+copy, scaffold, retained record, tested handle, search row, external disposition, and prior-BMS
+decision is assigned once, with **zero source remainder** and no Family-59 blocker. The next
+manifest-ordered local BMS-102 candidate is tier-5 `src_a13e4536d8399d9733b5` ·
+`Lab Micro Questions.pdf`, SHA-256
+`a13e4536d8399d9733b57c74903d0fcaca09788f9b4363dfc74856726b73906f`, 74,731 bytes, 18
+native-text portrait US-letter pages under `Microbiology / Practical`. Its unread 18-page
+prompt/teaching/answer boundary is the next-source processing blocker: fully render and visually
+adjudicate the complete source before admitting any count.
