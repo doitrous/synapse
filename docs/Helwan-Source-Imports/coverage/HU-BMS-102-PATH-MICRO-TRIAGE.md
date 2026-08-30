@@ -22576,3 +22576,75 @@ increased isoniazid to reduced vitamin B6/neurotoxicity and an SLE-like effect. 
 timestamp is not an authenticated teaching or assessment date. Its provenance,
 teaching/prompt/answer/annotation boundary, prior-BMS reconciliation, arithmetic, and subsequent
 exact next debt remain to be separately adjudicated.
+
+## Family 222 — completed handwritten acetylator-phenotype toxicity teaching map
+
+### Source identity, complete full-resolution boundary, authority, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_d2938d9fec673f43b1e9` · `2026-07-20 06.27.53.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `d2938d9fec673f43b1e962ad8ca7f7ecbe4e4624e418eb1cc78715177e606e93` · **109,298 bytes** |
+| Format / complete read | **One 1126×1280 portrait progressive JPEG**, JFIF 1.01 at 96 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. |
+| Complete visible content | A completed handwritten `Acetylator phenotype` map places a liver drawing over `Acetylation` and branches to `Rapid` and `Slow`. The rapid branch maps increased toxic metabolites to hepatotoxicity. The slow branch numbers two supplied outcomes: increased isoniazid leading through reduced vitamin B6 to neurotoxicity, and an `SLE like effect`. The inventory preserves these source-displayed causal labels without silently correcting or expanding them. |
+| Visible/metadata provenance | No author, university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement only, while the filename timestamp remains a sequence aid rather than an authenticated teaching date or sitting. |
+| Sequence relation | This portrait note follows Family 221's handwritten pharmacogenetic/adverse-effect sheet and is followed by a 31-page keyed pharmacology quiz-review PDF. Adjacency supports notes-sequence context only; it does not turn the completed map into a question or answer key. |
+| Authority | Low-authority unattributed teaching note. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+Both phenotype branches, causal arrows, drug/vitamin labels, and toxic outcomes are already
+supplied. The handwriting, boxes, numbering, underlining, arrows, and liver sketch constitute the
+source's completed instructional annotation layer, not answer markings or requested operations.
+There is no imperative, interrogative, blank, option set, response area, mark allocation, delayed
+key, unlabeled specimen, requested identification, or candidate answer.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Acetylator phenotype, isoniazid toxicity, vitamin-B6 depletion,
+and adverse-effect concepts overlap Family 202's pharmacology bank, but completed declarative
+overlap is not a tested-proposition recurrence, so no prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 222 | Auxiliary cumulative (Families 12–222) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 222
+establishes completed acetylator-phenotype teaching and manifest-sequence evidence only, not
+assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 222
+
+`src_d2938d9fec673f43b1e9` is exhausted at full image resolution: every visible phenotype branch,
+causal arrow, label, outcome, annotation, emphasis mark, sketch, provenance limitation, timestamp
+caution, sequence relation, zero gate, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-222 blocker.
+
+The HU-BMS-102 manifest projection contains **362 selected paths / 348 unique hashes**. The prefix
+through this source is **283 paths / 276 unique hashes**, leaving exactly **79 selected paths / 72
+unique hashes** after Family 222. The checksums are **283 + 79 = 362 paths** and **276 + 72 = 348
+unique hashes**; none of the 72 suffix hashes repeats a prefix hash.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_992325268b40230b61a5` ·
+`4_5837145573588737774 3.pdf`, SHA-256
+`992325268b40230b61a593c4d7be80a981e76c0d5a6358f06a0ed00f4d23ca19`, **1,089,202 bytes**,
+**31 native-text portrait pages (612×865 pt)** under `Pharmacology / Notes and Summaries`. Its
+rendered first page visibly begins `Quiz review questions`, contains six four-option pharmacology
+MCQs with answer letters printed in a separate right-hand column, and carries `Dr. Omar Sheashaa`
+and `Page | 1`. Its full prompt/key/teaching boundary, provenance, four-search packets, prior-BMS
+reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
