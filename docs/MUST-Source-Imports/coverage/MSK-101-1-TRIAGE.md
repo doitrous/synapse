@@ -276,10 +276,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+78 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Connective tissue MCQ (Dr Abdelwahab)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Connective tissue MCQ د.عبدالوهاب.pdf` | `ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7` | 34 | empty-text audit sample; image-only scan | pages 1–34 rendered and read | CamScanner metadata and page branding identify Dr Abdelwahab. The contents labels a department-book block, exam-year blocks for 2019–2022 and extra questions, but no institution, department identity, sitting, marks or official-key authority is printed. The labels are retained as source provenance only: this is a local teaching/question compilation, not a documented MUST exam sitting or validated faculty key. |
+
+### Exact MCQ, matching, written, practical and key boundary
+
+Pages 1–2 are cover and contents/navigation. Pages 3–34 contain **247 assessment occurrences = 232 four-option MCQs + 15 matching rows**. The department-book block prints 30 MCQs with 30 keys, problem-solving prints 20 MCQs with 20 keys, and matching prints 15 keyed rows. The exam-labelled 2019–2022 blocks print 34 MCQs without keys. The extra bank prints 148 MCQ occurrences with 148 page-level keys. The exact answer boundary is therefore **213 printed/recovered answers / 34 source-absent answers**. There are **0 written prompts, 0 practical/image-identification prompts and 0 teaching-prose prompts**. No missing exam key was inferred or corrected.
+
+The extra-bank numbering is preserved exactly: page 25 ends with Q80, page 26 begins with a different prompt also labelled Q80, and the sequence later jumps from Q127 to Q130, with labels Q128–Q129 absent. Both distinct Q80 occurrences and keys count, giving 148 visible extra-bank occurrences despite a terminal label of Q149.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 247 occurrences were assigned once across five semantic handles, reconciling as **40 + 52 + 33 + 69 + 53 = 247**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **5 × 4 = 20 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 40, undifferentiated mesenchymal cells, pericytes, fibroblasts/fibrocytes and reticular cells (`undifferentiated mesenchymal cells pericytes fibroblasts connective tissue`; `fibroblast fibrocyte extracellular matrix synthesis wound healing`; `reticular cells connective tissue stroma`; `pericytes differentiate smooth muscle fibroblasts injury`) | no external live/pending hit; same progenitor/fibroblast/reticular-cell scope as completed MSK connective-tissue assignments — **prior-MSK collapse**. |
+| H2 | 52, macrophages, mast cells, plasma cells and immune reactions (`macrophage mast plasma cells connective tissue`; `mast cells histamine allergy anaphylaxis metachromasia`; `plasma cell clock face nucleus antibodies B lymphocyte`; `macrophage histiocyte phagocytosis lysosomes vital stain`) | no external live/pending hit; same specialized immune-cell scope as completed MSK connective-tissue assignments — **prior-MSK collapse**. |
+| H3 | 33, unilocular/white and multilocular/brown adipose cells, sites and functions (`unilocular multilocular adipocytes connective tissue`; `brown adipose thermogenesis cytochrome mitochondria newborn`; `white adipose leptin energy storage insulation`; `adipose tissue signet ring Sudan stain`) | no external live/pending hit; same adipose-cell scope as completed MSK connective-tissue assignments — **prior-MSK collapse**. |
+| H4 | 69, collagen, elastic and reticular fibers, matrix, stains and collagen-defect clinical prompts (`collagen elastic reticular fibers connective tissue stains`; `collagen vitamin C scurvy wound healing`; `reticular fibers type III collagen silver stain`; `elastic fibers orcein collagen fibers trichrome`) | no external live/pending hit; same connective-tissue fiber/matrix/stain scope as completed MSK assignments — **prior-MSK collapse**. |
+| H5 | 53, loose, dense regular/irregular, reticular, mucoid, adipose and elastic connective-tissue types/sites/functions (`loose areolar dense regular irregular connective tissue proper`; `mucoid reticular yellow elastic connective tissue sites`; `connective tissue ground substance nutrient waste diffusion`; `connective tissue proper types sites functions`) | no external live/pending hit; same connective-tissue classification/site/function scope as completed MSK assignments — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 5 externally new source handles**. Prior-MSK collapse removes all five, producing a completed-source concept delta of **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+247 questions / +213 answers / +0 post-prior concepts**. Cumulative arithmetic is **586 + 247 = 833 questions**, **550 + 213 = 763 answers**, and **21 + 0 = 21 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 833 | 763 | 21 | 0 | 1 | 20 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these eight processed paths and unique hashes leaves **95 selected inventory paths / 93 unique SHA-256s**. Their sorted, newline-joined hash checksum is `9fb91994a536e43f174f913cf4acedd40e89632cc3e1a31e482a6f4be9b99919`. Remaining audit-review debt is 53 substantive-text / 8 sparse-text / 17 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`8 + 93 = 101`**.
+Removing these nine processed paths and unique hashes leaves **94 selected inventory paths / 92 unique SHA-256s**. Their sorted, newline-joined hash checksum is `e2b745f62ade4d074f6ff0c55f1ff4c7326c896fc31f52d5844cef6226b2c8b1`. Remaining audit-review debt is 53 substantive-text / 8 sparse-text / 16 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`9 + 92 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Connective tissue MCQ د.عبدالوهاب.pdf`, SHA-256 `ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7`, 34 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Final HISTO MSK 24.pdf`, SHA-256 `98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd`, 32 pages.
 
-**BLOCKED — S1 cannot be approved:** 95 selected inventory paths / 93 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 94 selected inventory paths / 92 unique hashes remain untriaged.

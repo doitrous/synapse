@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "62922e0fa33ec7712321409c9ec27efb934d771e3780c87c5490a0141fd7a75a",
-    "triageMarkdown": "d257aad5fc75027d643e8f146d6244120b9da19593473400d095006ca4c340d4"
+    "readinessMarkdown": "672b23d658587491dc3b98125606d352d615391e3d392fb8ea6ad8e241c34073",
+    "triageMarkdown": "6d6e2dafe04e112a604f6a9d3fb7b5ca8d90b343f91595666f292b4f3eb3c84b"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -58,9 +58,10 @@
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
+      "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 8
+    "uniqueSha256": 9
   },
   "completedSourceCoverage": [
     {
@@ -167,24 +168,42 @@
       "pendingHits": 0,
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
+      "sourcePages": 34,
+      "renderedReadPages": "1-34",
+      "printedPromptObservations": 247,
+      "printedKeyObservations": 213,
+      "acceptedSourceHandles": 5,
+      "searchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "sourceAbsentAnswers": 34,
+      "preservedSourceDefects": [
+        "two distinct extra-bank prompts numbered 80",
+        "extra-bank labels 128 and 129 absent"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 586,
-    "printedKeyObservations": 550,
+    "printedPromptObservations": 833,
+    "printedKeyObservations": 763,
     "namedConceptsAssigned": 21,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 20
   },
   "remaining": {
-    "inventoryMetadataRows": 95,
-    "uniqueSha256": 93,
-    "sortedNewlineSha256": "9fb91994a536e43f174f913cf4acedd40e89632cc3e1a31e482a6f4be9b99919",
+    "inventoryMetadataRows": 94,
+    "uniqueSha256": 92,
+    "sortedNewlineSha256": "e2b745f62ade4d074f6ff0c55f1ff4c7326c896fc31f52d5844cef6226b2c8b1",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
-      "empty-text": 17,
+      "empty-text": 16,
       "sparse-text": 8,
       "substantive-text": 53
     }
@@ -192,14 +211,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
     "audit-not-found": 14,
-    "empty-text": 17,
+    "empty-text": 16,
     "sparse-text": 8,
     "substantive-text": 53
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 8,
-    "remainingUniqueSha256": 93,
+    "processedUniqueSha256": 9,
+    "remainingUniqueSha256": 92,
     "processedPlusRemaining": 101
   }
 }
