@@ -4536,3 +4536,78 @@ Removing this one substantive-text path and unique hash leaves **53 selected inv
 The next evidence-ranked substantive source is the single 34-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Department Questions.pdf`, SHA-256 `448345893d693ac8a08fd21a6ca326bc19cd1e4e36a1b26a03fb1d43c3f4b5e1`.
 
 **BLOCKED — S1 cannot be approved:** 53 selected source paths remain untriaged.
+
+## Completed source — Department Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Department Questions.pdf` | `448345893d693ac8a08fd21a6ca326bc19cd1e4e36a1b26a03fb1d43c3f4b5e1` | 34 | substantive-text | pages 1–34 rendered and read | Department-authored first-year question compendium from the Histology Department, Faculty of Medicine, Cairo University. It names department head Prof. Dr. Hend Shafik Bassioni and editor Prof. Dr. Noha Mohamed Afifi Amin and asserts publisher rights. It has no MUST affiliation, exam sitting, marks or claim to be an official MUST paper/key. |
+
+### Exact assessment, key and teaching boundary
+
+Pages 1–3 are cover, repeated cover and publication/authority matter, not assessment prompts. Pages 4–34 contain four self-contained question chapters with terminal printed keys. The exact inventory is **363 prompt occurrences / 360 prompt-matched printed answers**:
+
+| Chapter | Assessment forms | Prompt occurrences | Prompt-matched printed answers | Exact key boundary / defects |
+|---|---|---:|---:|---|
+| Cytology | 60 MCQs + 60 true/false + five 5-row matching tables | 145 | 144 | MCQ and matching keys are complete. The true/false key prints answer positions for all 60 items but leaves Q25 blank; no answer is inferred. |
+| Cytogenetics | 18 MCQs + 15 true/false + two 5-row matching tables | 43 | 41 | MCQ and matching keys are complete. The true/false key jumps from Q10 to Q13 and therefore omits Q11–12; neither answer is inferred. |
+| Epithelial tissue | 58 MCQs + 20 true/false + three 5-row matching tables | 93 | 93 | All prompt-matched answers are printed. |
+| Connective tissue | 37 MCQs + 30 true/false + three 5-row matching tables | 82 | 82 | All prompt-matched answers are printed. |
+| **Total** |  | **363** | **360** | **Three prompt answers are absent from the printed keys.** |
+
+Introductory instructions, chapter titles, clinical vignettes that serve as stems for numbered MCQs, matching options and answer tables are not double-counted as separate prompts. The printed answers are recorded as source evidence without medical correction. There are no lecture notes or explanatory teaching-answer passages beyond the correction phrases embedded in the true/false keys.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+`CY`, `G`, `E` and `T` identify the cytology, cytogenetics, epithelial-tissue and connective-tissue chapters; `M`, `F` and `X` identify MCQ, true/false and matching prompts. All 363 prompts are assigned exactly once to 28 handles below. Every handle received the four identifying searches printed in parentheses, for **28 × 4 = 112 searches**.
+
+| Printed refs | Source-distinct tested scope (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| CY-M1–15 | Cell membrane, glycocalyx, ribosomes and mitochondria (`cell membrane trilaminar`; `glycocalyx PAS`; `rough ER ribosome`; `Janus green mitochondria`) | new externally; exact prior-FHB cytology duplicate. |
+| CY-M16–30 | Golgi, smooth ER, lysosomes, peroxisomes and cell inclusions (`Golgi cis trans`; `smooth ER steroid detoxification`; `lysosome hydrolase`; `peroxisome catalase`) | pending-hit; exact prior-FHB organelle duplicate. |
+| CY-M31–45 | Cytoskeleton, centrioles, cilia and flagella (`microtubule protofilament`; `actin microfilament`; `centriole triplets`; `cilia axoneme`) | new externally; exact prior-FHB cytoskeleton duplicate. |
+| CY-M46–60 | Nuclear envelope, chromatin, nucleolus and cell-cycle morphology (`nuclear pore complex`; `euchromatin heterochromatin`; `nucleolus rRNA`; `cell cycle nucleus`) | pending-hit; exact prior-FHB nuclear duplicate. |
+| CY-F1–20 | Membrane transport and organelle structure/function (`active passive transport`; `rough smooth ER`; `mitochondrial cristae`; `Golgi secretory vesicle`) | new externally; exact prior-FHB cytology duplicate. |
+| CY-F21–40 | Lysosomal/peroxisomal functions and cytoskeletal structures (`lysosome autolysis`; `peroxisome oxidation`; `microtubule spindle`; `microfilament actin`) | new externally; exact prior-FHB cytology duplicate; CY-F25 is unkeyed. |
+| CY-F41–60 | Nuclear envelope, chromatin, nucleolus and division (`nuclear lamina`; `chromatin condensation`; `nucleolar parts`; `mitosis meiosis`) | pending-hit; exact prior-FHB nuclear/division duplicate. |
+| CY-XI–V:1–5 | Organelle morphology, function and staining matches (`organelle morphology match`; `organelle function match`; `histochemical stain organelle`; `cell inclusion pigment`) | new externally; exact prior-FHB cytology reinforcement. |
+| G-M1–9 | Cell cycle, mitosis/meiosis and numerical chromosome abnormalities (`cell cycle G1 S`; `mitosis meiosis`; `aneuploidy nondisjunction`; `Turner Klinefelter`) | pending-hit; exact prior-FHB cytogenetics duplicate. |
+| G-M10–18 | Structural chromosome abnormalities, Barr body and cell death (`chromosome translocation deletion`; `Philadelphia chromosome`; `Barr body`; `pyknosis karyorrhexis`) | pending-hit; exact prior-FHB cytogenetics duplicate. |
+| G-F1–15 | Chromosome terminology, renewal, stem cells and aberrations (`chromosome centromere telomere`; `cell renewal classification`; `stem cell potency`; `chromosome aberration`) | new externally; exact prior-FHB cytogenetics duplicate; G-F11–12 are unkeyed. |
+| G-XI–II:1–5 | Syndrome/karyotype and chromosome-structure matches (`karyotype syndrome match`; `chromosome morphology match`; `translocation syndrome`; `sex chromosome aneuploidy`) | new externally; exact prior-FHB cytogenetics reinforcement. |
+| E-M1–15 | Epithelial characteristics and simple epithelial types/sites (`epithelium avascular`; `simple squamous sites`; `endothelium mesothelium`; `simple cuboidal epithelium`) | new externally; exact prior-FHB epithelial duplicate. |
+| E-M16–30 | Columnar, pseudostratified, stratified and transitional epithelia (`simple columnar function`; `pseudostratified ciliated`; `stratified squamous`; `transitional epithelium bladder`) | pending-hit; exact prior-FHB epithelial-type duplicate. |
+| E-M31–45 | Exocrine-gland architecture and secretion modes (`exocrine gland duct`; `simple branched tubular`; `compound tubuloalveolar`; `merocrine apocrine holocrine`) | pending-hit; exact prior-FHB glandular-epithelium duplicate. |
+| E-M46–58 | Neuro/myoepithelium, surface specialisations, junctions and basement membrane (`organ of Corti neuroepithelium`; `myoepithelial salivary`; `epithelial junction complex`; `collagen VII anchoring fibril`) | live-hit; exact prior-FHB specialised-cell/junction/basement-membrane duplicate. |
+| E-F1–10 | Glandular, sensory and epithelial-type corrections (`salivary sebaceous secretion`; `taste bud neuroepithelium`; `tracheal epithelium`; `transitional binucleate cells`) | new externally; exact prior-FHB epithelium duplicate. |
+| E-F11–20 | Junctions, embryonic origin and apical specialisations (`gap junction narrow space`; `GI epithelium endoderm`; `stereocilia epididymis`; `microvilli absorption`) | new externally; exact prior-FHB epithelium duplicate. |
+| E-XI:1–5 | Epithelial type-to-site matches (`aorta endothelium`; `esophagus stratified squamous`; `bladder transitional`; `thyroid simple cuboidal`) | new externally; exact prior-FHB site/type reinforcement. |
+| E-XII–III:1–5 | Epithelial function and junction-type matches (`simple squamous gas exchange`; `cilia fluid movement`; `tight adherens desmosome`; `hemidesmosome basal cell`) | new externally; exact prior-FHB function/junction reinforcement. |
+| T-M1–10 | Mesenchymal cells, pericytes, fibroblasts and adipocytes (`undifferentiated mesenchymal cell`; `pericyte differentiation`; `fibroblast fibrocyte`; `unilocular multilocular adipocyte`) | new externally; exact prior-FHB stromal-cell duplicate. |
+| T-M11–20 | Reticular cells, macrophages, plasma/mast cells and fibres (`reticular cell morphology`; `histiocyte macrophage`; `plasma cell clock face`; `collagen elastic reticular fibers`) | new externally; exact prior-FHB connective-cell/fibre duplicate. |
+| T-M21–30 | Connective-tissue types, sites and functions (`loose areolar connective tissue`; `white adipose function`; `mucoid connective tissue`; `regular irregular dense connective tissue`) | new externally; exact prior-FHB connective-tissue-type duplicate. |
+| T-M31–37 | Scurvy and mast-cell clinical vignettes (`scurvy vitamin C collagen`; `bleeding gums nonhealing wound`; `mast cell itching histamine`; `toluidine blue metachromasia`) | new externally; exact prior-FHB clinical connective-tissue duplicate. |
+| T-F1–10 | Mesenchymal/pericyte, fibroblast and adipocyte corrections (`pericyte smooth muscle differentiation`; `fibroblast matrix secretion`; `Sudan III fat`; `brown fat cytochrome`) | new externally; exact prior-FHB stromal/adipose duplicate. |
+| T-F11–20 | Macrophage, reticular, plasma/mast-cell and fibre corrections (`macrophage lysosomes`; `reticular antigen presenting cell`; `plasma cell B lymphocyte`; `collagen acidophilic`) | new externally; exact prior-FHB connective-cell/fibre duplicate. |
+| T-F21–30 | Collagen types and connective-tissue sites/composition (`collagen I skin tendon`; `collagen II cartilage`; `collagen IV basal lamina`; `mucoid connective tissue fibers`) | new externally; exact prior-FHB connective-tissue duplicate. |
+| T-XI–III:1–5 | Cell, fibre and connective-tissue-type matches (`connective tissue cell match`; `collagen type site match`; `elastic reticular stain`; `connective tissue type site`) | new externally; exact prior-FHB connective-tissue reinforcement. |
+
+The source-level search result is **1 live / 7 pending / 20 new = 28 handles**. The higher source authority does not create new concept scope: every handle is an exact reuse of already processed FHB cytology, cytogenetics, epithelium or connective-tissue assignments. The post-prior-FHB result is therefore **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+363 questions / +360 prompt-matched recovered answers / +0 concepts**. The three missing key entries remain unkeyed, and the departmental authorship is preserved as provenance rather than misrepresented as MUST authority.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4430 | 4150 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **52 selected inventory paths / 50 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `89c640d0778ac573d575512b907f27d542b5dba6ae2398606f1ba8717d898d6c`. Pinned triage debt becomes **nine substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`56 + 50 = 106`**.
+
+The next evidence-ranked substantive source is the three-path exact-duplicate 37-page `FHB exam 101 2020_compressed-1.pdf` family under the Anatomy, Histology and Physiology `05 MCQs` folders, SHA-256 `62143e16ae5d80b75313c51fbf850cbe6fe0223940abc2131ab130cb7cf337c8`.
+
+**BLOCKED — S1 cannot be approved:** 52 selected source paths remain untriaged.
