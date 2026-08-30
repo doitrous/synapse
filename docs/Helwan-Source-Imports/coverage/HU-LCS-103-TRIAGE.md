@@ -12108,3 +12108,103 @@ filename collapses the doubled spaces; 10,430,692 bytes; 49 native pages; SHA-25
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 126 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 105 — Tier-3 external BIOTEST General, Head-and-Neck, Thorax and Abdomen keyed MCQ sampler
+
+### Exact identity, provenance and complete 49-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_e5ee308aba7c5dd81741` / `e5ee308aba7c5dd81741acdaf23a4fa17c04e700a9b10d9f2cf46ed596002c5c` |
+| File / boundary | Manifest `MCQs - External MCQs 1-  Anatomy MCQs Head , neck &  thorax.pdf`; normalized local filename collapses doubled spaces · 10,430,692 bytes · unencrypted, untagged PDF · 49 physical pages · 610.96 × 789.66 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs 1-  Anatomy MCQs Head , neck &  thorax.pdf` |
+| Visible / container provenance | The scan is a selected-page extraction from a `BIOTEST, INC.` Gross Anatomy bank. Its contents page numbers the parent sections General 1–80, Head & Neck 81–459, Thorax 460–643 and Abdomen 644–852. PDF metadata names author `Manal [ ASMA ]`, Hewlett-Packard Intelligent Scanning Technology as producer and 8 May 2003 as creation date. No Helwan University, faculty, LCS-103 cohort, sitting or official-key mark appears. |
+| Authority finding | External commercial/review-bank evidence. Only prompt occurrences directly within the accepted LCS-103 locomotor-foundation or Head-and-Neck boundary are retained as external assessment; the remaining General, upper-limb, Thorax and Abdomen material is excluded from LCS counts. Nothing in this source is promoted to eligible Helwan evidence. |
+
+The assigned hash, byte size and 49-page boundary were recomputed and match. Native text was
+extracted, and every page was rendered at 140 dpi and inspected visually in seven ordered
+batches, with the contents page, every question-page endpoint and the printed far-right
+answer letters checked. The PDF itself was not changed.
+
+| Physical boundary | Visible source units | Raw prompts / keys | LCS external prompts / keys | Excluded prompts / keys |
+|---|---|---:|---:|---:|
+| p. 1 | parent-bank contents page | 0 / 0 | 0 / 0 | 0 / 0 |
+| pp. 2–7 | sampled General Q1–Q7, Q16–Q22, Q30–Q37, Q45–Q52, Q60–Q66 and Q74–Q80 | 44 / 44 | 14 / 14 | 30 / 30 |
+| pp. 8–32 | sampled Head & Neck Q81–Q459, 185 printed occurrences | 185 / 185 | 184 / 184 | 1 / 1 |
+| pp. 33–46 | sampled Thorax Q460–Q643 | 93 / 93 | 0 / 0 | 93 / 93 |
+| pp. 47–49 | sampled Abdomen Q644–Q680 | 21 / 21 | 0 / 0 | 21 / 21 |
+| **Family 105** | **complete physical source** | **343 / 343** | **198 / 198** | **145 / 145** |
+
+The 14 accepted General occurrences are source Q5, Q16, Q19, Q21, Q31, Q32, Q37,
+Q47, Q60, Q64, Q65, Q76, Q78 and Q80: locomotor-system composition, plexus and
+dermatome foundations, synovial fluid, joint/cartilage classes and directly relevant
+head/knee/foot relations. The other 30 General occurrences are generic terminology,
+variation, planes, upper-limb, autonomic, CSF, radiology, age or other out-of-module
+material. Within the nominal Head-and-Neck run, source Q378 is explicitly a
+bronchopulmonary-segment question and is the sole prompt-level Thorax exception; it and its
+key are excluded once, not also counted in the later Thorax run.
+
+Source numbering is preserved rather than silently repaired. On p. 10 Q115 is cropped as
+`15`; p. 14 loses some hundreds digits; p. 25 prints Q346–Q348, then a distinct physical
+prompt numbered `340`, then Q349–Q352; p. 29 Q411 is cropped as `41`; and p. 44 Q611 is
+cropped as `61`. Each physical prompt is counted exactly once, so these scan/print defects
+do not add duplicates or gaps to the 343-occurrence boundary. Every MCQ carries one printed
+A–E answer letter at the far right. There is no separate answer table, written/essay prompt,
+teaching-only statement, specimen, radiograph, micrograph, practical station, masked label,
+apparatus task or response blank. Practical delta is exactly **0 prompts / 0 plates /
+0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The **198 retained occurrences** consolidate to **26 source-distinct tested handles**:
+locomotor/joint/cartilage foundations; plexus and dermatome foundations; head-and-neck
+muscles and triangles; pharynx/larynx/palate; tongue/oral cavity/tonsil; nose/sinuses and
+pterygopalatine region; skull foramina/fossae/fontanelles; orbit/eye/lacrimal apparatus;
+trigeminal and facial sensation; facial nerve and expression; vagus/glossopharyngeal/
+hypoglossal; cranial parasympathetic ganglia; middle and inner ear; TMJ and mastication;
+scalp and superficial face; carotid sheath/jugular/neck veins; head-and-neck arteries;
+salivary glands and ducts; thyroid and midline neck; dural/cavernous sinuses and meninges;
+infratemporal fossa and pterygoid plexus; cervical plexus/scalenes/root of neck;
+craniovertebral and cervical joints; head-and-neck lymphatics; face/skull/hyoid surface
+relations; and mixed neck relations/embryologic remnants. The physical-page ledger above is
+the occurrence authority; topic collapse does not renumber or double count malformed source
+identifiers.
+
+Each handle received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **26 × 4 = 104 required search invocations**.
+Prior-external-first comparison finds all 26 handles already represented in Families 78,
+90, 92 and 104; eligible Families 1 and 20–30 independently corroborate curriculum scopes
+but do not promote this external sampler. Reconciliation is **26 prior-external reuses + 0
+external additions = 26**. External concept-state delta and eligible concept delta are both
+zero. The exact 104-query ledger is preserved at
+`tmp/pdfs/lcs103-family105/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **2,698 / 2,614 / 221 = 12 / 135 / 74** to **2,896 external prompts / 2,812
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `2,698 + 198 = 2,896`, `2,614 + 198 = 2,812`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-104 remainder. Removing its sole path leaves
+**125 all-rank path instances / 117 unique hashes**: tier 3 **43 paths / 40 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 104's prior checksums are
+`37b32c3e57e28c7f19e8bf9e430cc5d5fd7353031418e88d2399c53ec83c1d77` (paths) and
+`a10fea691d4488421b5e74c7acb91c9b07dd0a8a55735f72444e42a0212155ac` (unique hashes).
+For the exact post-Family-105 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`77a8375507732c8fec3829a85ba98016ba8376852a65b3004d3cf1a5d0d8a0d0`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e51fed50df6979f5e0fd392e44a1d10ca03dc16d995ba6c8b34add33c0883347`.
+
+The exact next tier-3 manifest-order debt is `src_1d98ab9b9387dc489d87`, manifest
+`MCQs - External MCQs 2Head_and_Neck_Anatomy_MCQ_Multiple  - @Medicine_Way2.pdf`
+(normalized local filename collapses the doubled space; 1,491,275 bytes; 60 native pages;
+SHA-256 `1d98ab9b9387dc489d87912d33e999a8582a759f3a3d4327caeecf19d7a6b4a6`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 125 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
