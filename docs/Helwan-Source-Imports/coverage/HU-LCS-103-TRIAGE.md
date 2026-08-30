@@ -16204,3 +16204,107 @@ under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassifie
 page is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 82 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 149 — Tier-6 Helwan annotated teaching summary: approach to bone diseases, part 1
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_718e08dfb6d19109dabf` / `718e08dfb6d19109dabfbcbe4ba9392092defe7f322e661d0e0aecee7763f53d` |
+| File / boundary | `103 LCS Approach to Bone diseases 1_240716_164443.pdf` · 2,337,179 bytes · untagged, unencrypted PDF 1.7 · 37 physical OCR-needed 960 × 540 pt pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/103 LCS Approach to Bone diseases 1_240716_164443.pdf` |
+| Visible / metadata provenance | P. 2 is titled `APPROACH TO BONE DISEASES` and names `DR HEBAT ALLAH AMIN`; p. 37 cites WebPath, Robbins & Cotran and a `Locomotor Bank` at `helwanmed.ekb.eg` for student self-study and assessment. Samsung Electronics is creator/producer and the file was modified 16 July 2024. |
+| Authority finding | The named lecturer, Helwan-hosted repository reference, annotations and manifest placement establish in-module Helwan teaching provenance. The file is a lecture-summary deck, not an exam, marking guide or practical station set; its reference to a separate assessment bank does not confer assessment authority on these slides. |
+
+The assigned SHA-256, byte size and 37-page boundary were recomputed and match. All 37 pages
+were rendered at 180 dpi, OCRed, and read visually against the sparse native extraction. Pp.
+1–5 introduce the lecture, bone matrix/cells and remodelling; pp. 6–13 cover localized
+dysostoses, achondroplasia/thanatophoric dysplasia, osteogenesis imperfecta and
+osteopetrosis; pp. 14–27 cover osteoporosis, osteitis fibrosa cystica and
+rickets/osteomalacia; pp. 28–32 cover Paget disease; pp. 33–34 cover fractures and
+osteonecrosis; and pp. 35–37 provide the summary, closing image and references.
+
+There is **no assessment inventory**. P. 23's `Etiology?` is answered on the same slide by
+`Hyperparathyroidism`; p. 24's diagnostic question is a heading above the supplied laboratory
+approach; pp. 25–26's `Etiology?` cue sits inside an already explained rickets/osteomalacia
+sequence; and p. 29's Paget `Etiology??? / Stages??? / Complications` organizer is answered
+by pp. 30–32. These are lecturer-led recall/transition devices, not learner-response tasks.
+Objectives and summary verbs are likewise declarative. The exact boundary is therefore **0
+eligible or external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed
+assessment prompts**.
+
+Source annotations are preserved as evidence rather than repaired. P. 22 prints increased
+serum calcium yet also contains small text describing decreased calcium due to
+hyperparathyroidism; p. 28 labels `orthopnea` a Paget keyword; and p. 32 contains overwritten
+`renal failure`/`heart failure` text plus a claim that secondary osteosarcoma here is usually
+not fatal. These states do not become inferred questions or corrected teaching content.
+
+### Practical and image boundary
+
+The deck uses clinical photographs, skeletal diagrams, radiographs and histology images to
+illustrate named diseases. Every figure is embedded in an explanatory slide with a supplied
+title, diagnosis or callout. There is no specimen-identification instruction, masked label,
+numbered station, learner-completed map, trace-reading task, response blank or practical key.
+The images therefore remain declarative lecture evidence and add **0 practical prompts / 0
+teaching plates / 0 mappings / 0 practical residues / 0 practical keys**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The teaching sequence consolidates to **11 source-distinct handles**. Each handle received one
+query on each required surface.
+
+| Teaching handle | Live query | Pending query | Prior-import query | Accepted-LCS query | Disposition |
+|---|---|---|---|---|---|
+| Bone matrix, cells and basic multicellular-unit remodelling · pp. 4–5 | `bone remodeling basic multicellular unit osteoblast osteoclast` | `bone cells matrix remodeling` | `basic multicellular unit bone` | `osteoblast osteocyte osteoclast remodeling` | prior-LCS teaching reuse |
+| Localized dysostoses · p. 7 | `digital aplasia syndactyly polydactyly craniosynostosis` | `localized dysostosis congenital bone` | `syndactyly craniosynostosis` | `congenital bone localized dysostoses` | prior-LCS teaching reuse |
+| Achondroplasia and thanatophoric dysplasia · pp. 8–10 | `achondroplasia thanatophoric dysplasia` | `skeletal dysplasia cartilage growth` | `thanatophoric lethal dysplasia` | `achondroplasia autosomal dominant` | prior-LCS teaching reuse |
+| Osteogenesis imperfecta · pp. 11–12 | `osteogenesis imperfecta type one collagen` | `blue sclera dentinogenesis imperfecta fractures` | `osteogenesis imperfecta variants` | `brittle bone disease collagen` | prior-LCS teaching reuse |
+| Osteopetrosis · p. 13 | `osteopetrosis marble bone osteoclast` | `bone sclerosis marrow neural foramina` | `osteopetrosis pathogenesis` | `marble bone osteoclast dysfunction` | prior-LCS teaching reuse |
+| Osteoporosis · pp. 15–20 | `osteoporosis bone mass fracture kyphosis` | `osteoporosis risk factors histology` | `osteoporosis complications` | `osteoporosis metabolic bone disease` | prior-LCS teaching reuse |
+| Osteitis fibrosa cystica and hyperparathyroidism · pp. 21–24 | `osteitis fibrosa cystica brown tumor hyperparathyroidism` | `osteoporosis OFC laboratory differential` | `osteolytic lesions PTH calcium` | `osteitis fibrosa cystica diagnosis` | prior-LCS teaching reuse |
+| Rickets and osteomalacia · pp. 25–27 | `rickets osteomalacia unmineralized matrix` | `vitamin D deficiency bone mineralization` | `rickets clinical features` | `osteomalacia adult rickets child` | prior-LCS teaching reuse |
+| Paget disease etiology, phases and complications · pp. 28–32 | `Paget disease osteitis deformans mosaic pattern` | `Paget stages osteolytic mixed sclerotic` | `Paget SQSTM1 RANK OPG` | `Paget complications osteosarcoma` | prior-LCS teaching reuse |
+| Fracture definitions and classification · p. 33 | `simple compound comminuted displaced stress greenstick pathologic fracture` | `fracture classification bone` | `fracture types treatment` | `greenstick pathologic fracture` | additive theoretical scope; pending |
+| Osteonecrosis / avascular necrosis · p. 34 | `osteonecrosis avascular necrosis bone infarction` | `osteonecrosis etiology mechanisms` | `femoral head collapse ischemia` | `bone infarction corticosteroids sickle cell` | prior-LCS teaching reuse |
+
+All **11 × 4 = 44 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **10 prior-LCS teaching reuses + 1 additive theoretical teaching scope**.
+The fracture-classification scope is already represented on the pending surface and is
+therefore **0 live / 1 pending / 0 new**. Declarative theoretical teaching scopes do not enter
+the eligible tested-concept or practical-teaching-scope totals. Search matches establish
+coverage only and do not validate or repair the lecturer annotations. Render/OCR/search
+scratch stayed outside the worktree under `/private/tmp/lcs103-family149/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This source hash occurs once in Family 148's remainder. Removing its sole path leaves **81
+all-rank path instances / 76 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **67 / 65**, and rank 9 **14 / 11**. Family 148's prior checksums are
+`fefb7071f858b453ce3a3338a4ea5112b8bbbaf3fafb2a8e26de245df28eb80c` (paths) and
+`76847a0095d3a952f59a5fb37397ccaf1ab201abad8b75e2bad125261c686cf0` (unique hashes).
+For the exact post-Family-149 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`c4dc58dbd10e684393024a40118ec091be0a33237ff3de12bb51a0398a4a4dae`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`d1cda411627a098d800f52e4f3ab662fa55fe83b4f77d2d83a52e6b528365413`.
+
+The exact next manifest-order debt is tier-6 `src_f2e15ef3167cabd93105`, manifest
+`103 LCS Approach to Bone diseases 2  _240716_163251.pdf`, resolved to the existing normalized
+local filename with one pre-timestamp space (923,868 bytes; 18 physical OCR-needed pages;
+SHA-256 `f2e15ef3167cabd93105b49a0eeafba61dea3a8e620f548e1bb5563cc62521bc`)
+under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every
+page is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 81 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
