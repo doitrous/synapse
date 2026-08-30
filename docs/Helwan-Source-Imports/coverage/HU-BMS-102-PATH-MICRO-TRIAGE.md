@@ -22951,3 +22951,85 @@ visibly begins `Pharmacology / Anti-Viral drugs`, covers virus structure/replica
 treatment goals, and prints `DR . El-Sawy`. Its complete provenance, teaching/prompt/key/practical
 boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 226 — Dr El-Sawy anti-viral-drugs teaching handout
+
+### Source identity, complete render/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_b44edc9a8e7b79084af5` · `Antiviral drugs.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `b44edc9a8e7b79084af56095696c0ffdc9525ae7db79a625d68be0968e3e2d51` · **362,033 bytes** |
+| Format / complete visual boundary | **Five native-text portrait A4 pages, 595.32×841.92 points, PDF 1.7**. All five pages were rendered at 120 dpi into five non-empty 993×1,404-pixel images and read individually at full page detail; every heading, labelled diagram, list, comparison table, emphasis mark, footer, and page number is assigned below. There is no physical-page or crop remainder. |
+| Native-text reality | Layout extraction contains **564 words / 7,850 bytes** and raw extraction contains **564 words / 3,866 bytes**. Both agree with all five renders. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Visible provenance | Every page visibly prints `Pharmacology`, `Anti-Viral drugs`, `DR . El-Sawy`, and its page number. No university/faculty, BMS-102/module code, academic year, lecture date, assessment sitting, marks, candidate field, or departmental approval is visible. |
+| Metadata caution | PDF metadata names author `Mamdouh`, Microsoft Word LTSC as creator/producer, and 21 April 2026 as creation/modification date. These export fields conflict with or are weaker than the visible `DR . El-Sawy` attribution and cannot establish academic year, delivery date, sitting, or institutional authority. |
+| Authority | Local tier-6 instructor-attributed anti-viral pharmacology handout. It is relevant completed teaching evidence, but not an authenticated Helwan lecture, assessment, official answer key, or practical station. |
+
+### Complete page-first teaching, prompt, key, annotation, and practical boundary
+
+| Page | Exhausted visible content | Boundary ruling |
+|---:|---|---|
+| 1 | Virus structure and obligate intracellular dependence; fully labelled envelope/capsid/genome/enzyme diagram; completed attachment-to-release replication cycle; HCV treatment goals of viral eradication and sustained absent detectable viraemia | Completed teaching text and diagrams; **0 prompts / 0 answers / 0 practical**. The numbered goals and replication steps disclose content rather than request responses. |
+| 2 | Interferon source/classes, recombinant production, kinetics, antiviral and immune mechanisms, uses, and adverse effects | Completed teaching table; **0 / 0 / 0**. |
+| 3 | Ribavirin kinetics/mechanism/toxicity; sofosbuvir mechanism/adverse effects; ledipasvir mechanism/use | Completed teaching tables; **0 / 0 / 0**. |
+| 4 | HBV treatment with lamivudine/interferon; influenza treatment list; amantadine-oseltamivir-zanamivir pharmacokinetic, mechanism, use, and adverse-effect comparison | Completed teaching list and comparison table; **0 / 0 / 0**. |
+| 5 | Acyclovir-ganciclovir-foscarnet pharmacokinetic, mechanism, use, and adverse-effect comparison for herpes viruses | Completed teaching comparison table; **0 / 0 / 0**. |
+
+The exact source-local assessment boundary is **0 MCQs + 0 True/False + 0 written prompts + 0
+completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw prompt
+occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question records,
+and 0 prompt-like residues**. Numbered viral-replication stages, treatment goals, drug lists, uses,
+and adverse effects are completed instructional content. The labelled virus illustration and
+completed comparison tables neither conceal labels nor request identification, and colour/bold/
+underline emphasis does not create key directionality.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-handle
+row is fabricated. The handout revisits antiviral pharmacology propositions present in earlier
+teaching and assessment evidence, but teaching overlap is not a new tested-handle occurrence.
+Prior-BMS assessment reuse is therefore **0** and concept delta is **+0**.
+
+| Measure | Family 226 | Auxiliary cumulative (Families 12–226) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 226
+establishes completed anti-viral teaching and attribution evidence only, not assessment,
+official-key, practical, verified-date, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 226
+
+`src_b44edc9a8e7b79084af5` is exhausted across all five pages: every teaching statement, diagram
+label, list/table row, emphasis mark, attribution, metadata limitation, zero gate, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-226 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 226 is **287 paths / 280 unique hashes**, leaving exactly **75 selected paths / 68
+unique hashes**. Checksums are **287 + 75 = 362 paths** and **280 + 68 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `4c43dccfd6e4b9478013f957e2f6b9ee172e41b22b80d04c92af616594fdcd6d`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`a0d0a91b405320056c28322939f39fb9f6103718c344081cff4459b6cc6b05f7`.
+
+The exact next unprocessed BMS-102 record is tier-6 non-preferred name twin
+`src_1041cc853e02f4b0868b` · manifest `Cytotoxic Drugs--.pdf`, SHA-256
+`1041cc853e02f4b0868bbb20c345f34b4120f6d7424c99a84b854c03cd1be1e3`, **455,037 bytes**,
+**five native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. The manifest's
+double-hyphen path is absent locally; the exact-SHA carrier is normalized locally as `Cytotoxic
+Drugs.pdf` in the same folder. Its first page visibly begins `Pharmacology / Cytotoxic Drugs`,
+defines the drug class, lists six major classes, and prints `DR . El-Sawy`. Its name-twin relation
+to preferred tier-4 `src_96783a34a995a335e2b9`, complete provenance, teaching/prompt/key/practical
+boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
