@@ -22648,3 +22648,142 @@ rendered first page visibly begins `Quiz review questions`, contains six four-op
 MCQs with answer letters printed in a separate right-hand column, and carries `Dr. Omar Sheashaa`
 and `Page | 1`. Its full prompt/key/teaching boundary, provenance, four-search packets, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 223 — Dr Omar Sheashaa keyed pharmacology quiz-review question bank
+
+### Source identity, complete render/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_992325268b40230b61a5` · `4_5837145573588737774 3.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `992325268b40230b61a593c4d7be80a981e76c0d5a6358f06a0ed00f4d23ca19` · **1,089,202 bytes** |
+| Format / complete visual boundary | **31 native-text portrait pages, 612×865 points, PDF 1.4**. All 31 physical pages were rendered at 100 dpi into 31 page images and read individually; eight four-page contact sheets were also inspected. Physical pages 2, 13, 17, 18, and 31 were reopened individually to verify the source's blank-looking native-text blocks. There is no physical-page or crop remainder. |
+| Native-text reality | Coherent layout extraction contains **5,795 words / 46,922 bytes** and raw extraction contains **5,827 words / 33,667 bytes**. Both preserve 153 numbered prompt/key rows. Eleven rows have coherent native semantic text but fail to paint visibly in the page render; they are assigned below as source-rendering anomalies rather than silently discarded. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Visible provenance | Physical page 1 visibly titles the carrier `Quiz review questions`; every page footer visibly prints `Dr. Omar Sheashaa` and a source page number. No university/faculty, BMS-102/module code, academic year, sitting/date, marks, duration, candidate field, invigilation, or departmental approval is visible. |
+| Metadata caution | PDF metadata exposes no author, title, subject, creation date, or modification date. The filename's numeric token is not a verified sitting, year, or institutional identifier. |
+| Authority | Local tier-6 instructor-attributed keyed review bank. Its stable right-column letters are source-supplied study answers, but the carrier is not an authenticated Helwan exam or official departmental key. It is eligible auxiliary question evidence only. |
+
+### Complete page-first prompt, printed-key, rendering-defect, and practical boundary
+
+The 31 physical pages carry discontinuous printed source pagination and question numbering. Missing
+printed pages/questions are absent from this carrier, not unassigned content.
+
+| Physical page(s) | Printed page(s) / numbered source rows | Boundary ruling |
+|---:|---|---|
+| 1–4 | pp.1,3–5 · Q1–6, Q13–27 | **21 prompts / 21 keys**. Q13–15 are coherent native-text/key rows but visually blank; Q1–6 and Q16–27 render visibly. Printed page 2 and Q7–12 are absent. |
+| 5–8 | pp.6–9 · Q28–41 | **14 visible prompts / 14 keys**. |
+| 9–12 | pp.10–13 · Q42–64 | **23 visible prompts / 23 keys**. |
+| 13–16 | pp.14,22–24 · Q65–68, Q95–110 | **20 prompts / 20 keys**. Q67–68 are native-text/key rows that do not paint; Q65–66 and Q95–110 render visibly. Printed pp.15–21 and Q69–94 are absent. |
+| 17–18 | pp.25–26 · Q111–121 | **11 prompts / 11 keys**. Q114 and Q120–121 are native-text/key rows that do not paint; the other seven render visibly. |
+| 19–22 | pp.38–41 · Q180–195 | **16 visible prompts / 16 keys**. Printed pp.27–37 and Q122–179 are absent. |
+| 23–26 | pp.42–45 · Q196–216 | **21 visible prompts / 21 keys**. |
+| 27–30 | pp.46–49 · Q217–240 | **24 visible prompts / 24 keys**. |
+| 31 | p.50 · Q241–243 | **3 prompts / 3 keys**, all coherent in native text but visually blank in the render. |
+
+The exact source-local boundary is **153 raw numbered prompt occurrences = 152 MCQs + 1
+True/False operation (Q13)**. Every row has one isolated right-column source-supplied answer
+letter, so there are **153 answer occurrences / 0 unkeyed prompts**. Of those, **142 prompt/key
+rows are visibly rendered** and **11 are native-text/key rows hidden by the source's paint defect**:
+Q13–15, Q67–68, Q114, Q120–121, and Q241–243, whose native keys are respectively `A, A, C,
+E, C, A, B, D, C, B, C`. These rows remain countable because their complete stems, option sets,
+and aligned keys survive coherently in both native extractions; the visual failure is explicitly
+preserved as a carrier anomaly.
+
+The printed key is inventoried, never medically repaired. Notable caution rows include Q120's
+`B` for the sodium-bicarbonate/ephedrine item, Q210's `B` despite the separate option that induction
+takes about one week, and Q231's `B` for the griseofulvin inducer-exception item. Near-twin Q29/Q39
+also use different terminal letters because their available pKa option sets differ. These are
+source facts, not corrections or endorsements.
+
+There are **0 written-response prompts, 0 drawings, 0 image-identification operations, 0
+authenticated practical stations, 0 candidate responses, and 0 prompt-like residues**. Headers,
+footers, missing-number gaps, blank-looking render regions, and page continuations are assigned as
+provenance/layout evidence rather than additional prompts.
+
+### Retention, 103-handle source collapse, 412-search completion, and prior-BMS disposition
+
+Three literal replay rows are excluded from retention without losing their occurrences or keys:
+Q195→Q59 (oral route/first pass), Q202→Q60 (high protein binding/long action), and Q208→Q61
+(high first pass/low oral bioavailability). Altered-option near twins such as Q23/Q38, Q29/Q39,
+Q62/Q183/Q229, and Q109/Q117 remain retained. Therefore **`153 - 3 = 150 retained question
+records`**. Forty-seven same-source semantic reductions yield **103 source-distinct tested
+handles**.
+
+The accepted registry below assigns all 153 occurrences exactly once; comma-separated question
+references preserve every occurrence while preventing proposition double counting.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q6 | Q1,Q194,Q219 · `liver-chief-drug-metabolism-site`; Q2,Q97,Q187 · `simple-diffusion-passive-gradient-energy-carrier-ionization`; Q3 · `volume-distribution-reflects-distribution-extent`; Q4,Q25,Q35,Q198,Q217 · `bioavailability-systemic-available-fraction-definition`; Q5 · `cytochrome-p450-phase-one-enzyme-family`; Q6 · `preganglionic-sympathetic-acetylcholine` |
+| Q13–Q24 | Q13 · `adrenaline-hypotension-use`; Q14 · `adrenaline-epinephrine-synonym`; Q15 · `adrenaline-cardiac-beta-one-receptor`; Q16,Q31,Q40,Q102 · `intravenous-bioavailability-reference-and-100-percent`; Q17 · `first-pass-metabolism-liver-organ`; Q18,Q58,Q215,Q221 · `bbb-cns-penetration-lipid-solubility`; Q19,Q216 · `lipid-solubility-increases-drug-absorption`; Q20,Q95 · `pharmacokinetics-adme-not-uses-or-mechanism`; Q21 · `aspirin-nonionized-in-stomach`; Q22 · `amphetamine-high-pka-least-stomach-absorption`; Q23,Q38 · `lower-urine-ph-increases-weak-base-excretion`; Q24 · `hydrophilic-drug-low-membrane-penetration` |
+| Q26–Q41 | Q26,Q54 · `volume-distribution-amount-over-plasma-concentration`; Q27,Q63 · `volume-distribution-calculation-dose-over-concentration`; Q28 · `hypoalbuminemia-increases-free-drug-toxicity`; Q29,Q39 · `urine-acidification-high-pka-weak-base-excretion`; Q30 · `weak-acid-alkaline-weak-base-acidic-urine-excretion`; Q32 · `higher-ph-decreases-weak-acid-absorption`; Q33 · `albumin-bound-drug-displacement-competition`; Q34,Q61,Q104,Q208,Q213 · `first-pass-lowers-oral-bioavailability-and-raises-oral-dose`; Q36 · `amphetamine-ion-trapping-in-breast-milk`; Q37,Q201 · `bicarbonate-alkalinization-increases-weak-acid-excretion`; Q41,Q52 · `renal-impairment-gentamicin-maintenance-dose-adjustment` |
+| Q42–Q68 | Q42,Q99 · `phase-one-oxidation-reduction-hydrolysis-and-outcomes`; Q43 · `conjugation-couples-endogenous-substrate`; Q44,Q62,Q183,Q229 · `phase-two-reaction-identification`; Q45 · `microsomal-enzyme-induction-may-require-dose-increase`; Q46,Q119 · `loading-dose-initial-large-target-concentration-dose`; Q47,Q191 · `loading-dose-governed-by-vd-and-target-concentration`; Q48,Q55,Q56,Q65,Q105,Q203,Q218 · `biotransformation-increases-polarity-water-solubility-and-excretion`; Q49 · `phase-one-phase-two-water-solubilization-sequence`; Q50,Q204 · `prodrug-inactive-to-active-definition`; Q51 · `microsomal-drug-metabolizing-enzymes-inducible`; Q53 · `acidic-drugs-intestinal-absorption-source-exception`; Q57 · `oral-bioavailability-calculation`; Q59,Q101,Q195 · `oral-route-most-subject-to-first-pass`; Q60,Q202 · `high-protein-binding-prolongs-action`; Q64,Q106 · `phase-two-reaction-exception-reduction-or-hydrolysis`; Q66 · `total-body-water-loading-dose-calculation`; Q67,Q68 · `organophosphate-poisoning-symptom-set` |
+| Q96–Q121 | Q96 · `recombinant-dna-produced-insulin`; Q98 · `irritant-aqueous-drug-intravenous-route`; Q100 · `protein-bound-drug-reservoir-in-circulation`; Q103,Q223 · `elderly-patient-pk-changes-require-lower-dose`; Q107 · `placental-barrier-drug-transfer-properties`; Q108 · `teratogenicity-fetal-malformation-definition`; Q109,Q117 · `therapeutic-index-ld50-over-ed50`; Q110 · `weak-base-amphetamine-better-absorbed-intestine`; Q111 · `first-pass-gut-wall-liver-before-systemic-circulation`; Q112 · `microsomal-enzyme-inhibitor-decreases-drug-metabolism`; Q113 · `low-volume-distribution-intravascular-localization`; Q114 · `propranolol-competitive-antagonist-identification`; Q115 · `tetracyclines-avoid-during-lactation`; Q116 · `placebo-inert-substance-definition`; Q118,Q197 · `active-transport-specific-saturable-energy-not-ph-dependent`; Q120 · `bicarbonate-effect-on-ephedrine-excretion-source-key-anomaly`; Q121 · `gaba-a-receptor-not-g-protein-coupled` |
+| Q180–Q205 | Q180 · `drug-action-termination-metabolism-and-excretion`; Q181 · `unbound-drug-concentration-gradient-drives-distribution`; Q182 · `weak-acid-protonation-low-ph-increases-lipid-solubility`; Q184,Q232 · `cimetidine-p450-inhibition-potentiates-substrates`; Q185,Q225 · `drug-distribution-depends-on-perfusion-binding-and-tissue-affinity`; Q186,Q240 · `peroral-drugs-best-absorbed-small-intestine-duodenum`; Q188 · `solution-formulation-fastest-bioavailability`; Q189 · `tissue-storage-produces-large-volume-distribution`; Q190 · `pharmacologic-intensity-depends-receptor-site-concentration`; Q192 · `plasma-protein-binding-limits-volume-distribution`; Q193 · `initial-tissue-distribution-determined-by-blood-flow`; Q196 · `capillary-drug-diffusion-governed-by-blood-flow`; Q199 · `intact-skin-absorption-governed-by-lipid-solubility`; Q200 · `redistribution-feature-of-lipid-soluble-drugs`; Q205 · `cyp3a4-metabolizes-many-drugs-and-causes-interactions` |
+| Q206–Q243 | Q206 · `glucuronidation-most-common-conjugation-reaction`; Q207 · `acetylation-entirely-nonmicrosomal`; Q209 · `glomerular-filtration-limited-by-protein-binding`; Q210 · `microsomal-enzyme-induction-development-feature-source-key-anomaly`; Q211 · `oral-route-not-given-recumbent`; Q212 · `sublingual-route-advantages-local-effect-exception`; Q214 · `biotransformation-can-be-altered-by-other-drugs`; Q220 · `placental-drug-passage-passive-diffusion`; Q222 · `acidic-drugs-bind-plasma-albumin`; Q224 · `intravenous-route-emergency-and-dose-titration`; Q226 · `absorption-factors-dissolution-lipid-solubility-particle-size`; Q227 · `microsomal-oxidation-liver-kidney-lung-sites`; Q228 · `aspirin-hydrolysis-to-salicylate-and-acetate`; Q230 · `reduction-removes-oxygen-definition`; Q231 · `enzyme-inducer-exception-griseofulvin-source-key-anomaly`; Q233 · `repeated-drug-administration-enzyme-induction-effects`; Q234 · `sublingual-nitroglycerin-rapid-first-pass-avoidance`; Q235 · `volatile-drug-inhalation-route`; Q236 · `delayed-clinical-response-formulation-delivery-genetics-absorption`; Q237 · `intracellular-fluid-largest-body-compartment`; Q238 · `drug-action-duration-binding-metabolism-and-renal-excretion`; Q239 · `increased-gut-motility-decreases-drug-absorption`; Q241 · `ephedrine-mixed-direct-and-indirect-sympathomimetic-action`; Q242 · `ephedrine-systemic-use-narcolepsy`; Q243 · `amphetamine-side-effects-euphoria-and-insomnia` |
+
+Every accepted handle received exactly four fresh searches across live governed state,
+`docs/questions-import-ready`, pending Helwan import roots, and prior BMS-102 Families 1–222:
+**`103 × 4 = 412 required and completed searches`**. Each packet used the distinctive handle/stem,
+its tested proposition, a terminal/option phrase, and a prior-handle or topic/mechanism variant.
+External exact-scope disposition is **0 live / 0 pending / 103 no same-scope**.
+
+Exactly **17** handles reuse an accepted Family-202 pharmacology concept: liver as chief
+biotransformation site; systemic-fraction bioavailability; lipid-soluble CNS entry; lipid-soluble
+GI absorption; pharmacokinetics including excretion; hydrophilic poor membrane diffusion;
+hypoalbuminemia/free-drug toxicity; first-pass reduction of oral bioavailability; metabolism toward
+polar/excretable products; oral-route first pass; protein binding/long action; loading-dose dependence
+on Vd/target concentration; active transport not being pH-dependent; tissue storage/large Vd;
+perfusion-governed initial distribution; CYP3A4 interaction liability; and protein-binding limitation
+of glomerular filtration. No accepted assessment handle exists in Families 203–222. Therefore
+Family 223 adds **`103 - 17 = +86`** concepts.
+
+### Family-223 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 223 | Auxiliary cumulative (Families 12–223) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 153 = 152 MCQ + 1 T/F | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 153; 0 unkeyed | 1,828 | 405 | 2,233 |
+| Retained question records | 150 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 103 / 412 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 17 | — | — | subtract before concept addition |
+| Cross-family concept delta | +86 | +1,110 over primary | 372 | `372 + 1,110 = 1,482` |
+| **Distinct tested concepts** | **103 source-local / +86** | **1,110 additions** | **372** | **1,482** |
+
+Checksums: `152 + 1 = 153 prompts`; `142 visible + 11 native-only = 153 prompt/key rows`;
+`153 - 3 literal replay rows = 150 retained`; `150 - 47 semantic reductions = 103 handles`;
+`103 × 4 = 412 searches`; and `103 - 17 prior reuses = +86`. Auxiliary arithmetic is
+`2,637 + 153 = 2,790` prompts, `1,675 + 153 = 1,828` answers, `2,344 + 150 = 2,494`
+retained records, `2,124 + 103 = 2,227` handles, and `1,024 + 86 = 1,110` concept additions.
+All eligible arithmetic is `762 + 2,790 = 3,552`, `405 + 1,828 = 2,233`, `552 + 2,494 =
+3,046`, and `372 + 1,110 = 1,482`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,790 prompts / 1,828 answers /
+2,494 retained / 2,227 handles / +1,110 concepts**. All eligible is **3,552 / 2,233 / 3,046 /
+1,482**. Family 223 establishes instructor-attributed keyed review-bank evidence only, not an
+official exam, authenticated sitting/date, official key, recurrence, mark weight, practical station,
+student response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 223
+
+`src_992325268b40230b61a5` is exhausted across all 31 physical pages: every visible and native-only
+prompt/key row, source-number gap, literal replay, semantic cluster, rendering defect, anomalous key,
+search packet, prior-family relation, provenance limitation, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-223 blocker.
+
+The HU-BMS-102 manifest projection still contains **362 selected paths / 348 unique hashes**. The
+prefix through Family 223 is **284 paths / 277 unique hashes**, leaving exactly **78 selected paths /
+71 unique hashes**. Checksums are **284 + 78 = 362 paths** and **277 + 71 = 348 unique hashes**;
+the remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path
+ledger checksum is SHA-256 `addcd42049f0eaf9f11b892f9c593aafa280efc41ebd778729444360ab8e64ae`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`bd273507b6267a4a6503509006b44ac1b1beed2d6db86574ba08131d8867219a`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_c8b928b8f987feb27d07` · `ALL
+Pharmacokinetics.pdf`, SHA-256
+`c8b928b8f987feb27d07da248847eaa14d7f11542fa36e382f9b9c0e63b032fe`, **887,913 bytes**,
+**one native-text giant landscape page (5,671.92×6,326.88 pt)** under `Pharmacology / Notes and
+Summaries`. Its rendered source visibly begins a dense pharmacokinetics mind map with simple,
+active, and facilitated transport plus pinocytosis and routes/factors of absorption. Its complete
+teaching/prompt/key/annotation boundary, XMind/Chromium metadata caution, prior-BMS reuse,
+four-search gate, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
