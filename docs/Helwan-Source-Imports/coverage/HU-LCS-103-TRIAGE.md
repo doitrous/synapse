@@ -19464,3 +19464,105 @@ bytes; 5 native-text 288 × 432 pt pages; untagged; unencrypted; PDF 1.3; SHA-25
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 47
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 184 — Tier-6 student-supplied external head-and-neck highlighted MCQ collage
+
+### Exact identity, Unicode path normalization and authority
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_52d18f178aba50038900` / `52d18f178aba50038900fefdb6f3170890a8f11d64a22574c4d12f995753f5e1` |
+| Manifest / normalized local path | Manifest `Year 1/LCS 103/All Subjects/Notes and Summaries/اسئلة هيد اند نيك .pdf`; existing normalized local `Year 1/LCS 103/All Subjects/Notes and Summaries/اسئلة هيد اند نيك.pdf` |
+| Physical verification | **544,609 bytes; 5 physical native 288 × 432 pt pages; untagged; unencrypted; PDF 1.3**. The full hash, byte size, page count and geometry match; all five full-page render hashes are distinct. |
+| Visible / metadata provenance | P. 1 prints `Team El Sir`. P. 2 says the examples were obtained `by courtesy of students from groups 1, 5 and 9` in the form received, without content changes, and may help preparation for `4th credit`. Metadata says Telegram/iOS Quartz only. No page identifies a university, module code, faculty, formal sitting, examiner or official key. |
+| Authority finding | The explicit student-supplied disclaimer and absent institutional/sitting authority establish an external revision collage. Yellow highlighting is source answer annotation, not an official Helwan key. |
+
+All **5/5 pages** were rendered at 240 dpi, inspected at full resolution and read against the
+sparse native layer. The pages are screenshots/collages whose recoverable numbered prompts
+are non-contiguous and not in numerical page order. Exact occurrence inventory is:
+
+| Page | Recoverable prompt numbers | MCQs | Highlighted answers | Unkeyed |
+|---:|---|---:|---:|---:|
+| 1 | Q62, Q63, Q66–Q73 | 10 | 10 | 0 |
+| 2 | Q1, Q2, Q5–Q11, Q13, Q14 | 11 | 9 | 2: Q2 and Q6 |
+| 3 | Q48, Q49, Q54, Q55, Q58, Q59 | 6 | 6 | 0 |
+| 4 | Q15, Q17–Q19, Q21, Q27 | 6 | 6 | 0 |
+| 5 | Q31–Q36, Q41, Q44, Q46 | 9 | 9 | 0 |
+| **Total** | **complete recoverable source boundary** | **42** | **40** | **2** |
+
+Thus the assessment boundary is **42 external MCQ occurrences / 40 corresponding
+source-highlighted answers / 2 unkeyed prompts / 0 written prompts**. Faint or cropped
+question fragments do not supply a complete stem-plus-options occurrence. In particular, p.
+5 begins with a highlighted `Parotid gland` option and surrounding options but no recoverable
+stem or question number; that orphan fragment is retained as provenance evidence and receives
+no prompt, key or handle credit. No missing wording, number or answer is reconstructed.
+
+Source states remain literal and uncorrected. Examples include Q1's highlighted `Both B & C
+are correct`, Q10's numbered temporal-fossa-floor components, Q31's highlighted text naming
+`Trigeminal nerve (CN V) and facial nerve (CN V)`, Q55's option spelling `Buccal n`, Q69's
+upper/lower-lip wording, and Q73's highlighted `B and C are correct`. These are observations
+of source annotation, not endorsed or medically repaired answers.
+
+### Practical and teaching boundary
+
+Every image is a screenshot of prose questions and highlighted options. There is no anatomy
+model, specimen, radiograph, micrograph, diagram, masked callout, station, response blank,
+learner-completed map or standalone teaching composition. Screenshot toolbar icons and `Team
+El Sir` are page furniture. Exact delta is **0 practical prompts / 0 teaching plates / 0
+mappings / 0 practical residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 42 occurrences consolidate to **8 source-distinct tested handles**:
+
+| Tested handle | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `tmj-articulation-disc-ligaments-movements-and-muscle-actions` | temporomandibular joint movements ligaments disc; TMJ hinge gliding cavities lateral ligament; temporomandibular protrusion retrusion articular disk; TMJ anatomy movements ligaments | Prior external/accepted Families 86, 90, 92, 121, 125–126, 132, 138 and 140 own the complete scope. |
+| `mastication-muscles-v3-supply-and-infratemporal-relations` | muscles of mastication mandibular nerve; pterygoid masseter temporalis V3; muscles mastication action mandibular branch trigeminal; mastication muscles V3 anatomy | Prior external/accepted head-and-neck banks own the complete scope. |
+| `facial-expression-muscle-actions-and-facial-nerve-branches` | facial expression muscles facial nerve; buccinator orbicularis oculi oris innervation; facial nerve zygomatic buccal branches muscles; facial muscles nerve anatomy | Prior external Families 90, 92, 121, 125–126, 132, 138 and 140 own the complete scope. |
+| `parotid-gland-duct-relations-and-secretomotor-route` | parotid gland duct relations secretomotor; otic ganglion parotid gland facial nerve; parotid duct buccinator deepest structure; parotid gland anatomy | Prior external/accepted head-and-neck banks own the complete scope. |
+| `trigeminal-cutaneous-divisions-and-terminal-branches` | trigeminal sensory branches face mental nerve; ophthalmic maxillary mandibular cutaneous distribution; inferior alveolar mental supraorbital supratrochlear; trigeminal nerve face anatomy | Prior external Families 90, 92, 121, 125–126, 132, 138 and 140 own the complete scope. |
+| `lingual-nerve-chorda-tympani-and-anterior-tongue-supply` | chorda tympani lingual nerve tongue; anterior two thirds tongue innervation; chorda tympani joins lingual infratemporal fossa; tongue nerve supply anatomy | Prior external/accepted Families 90, 92, 121, 125–126, 132, 138 and 140 own the complete scope. |
+| `facial-scalp-arteries-veins-and-lymphatics` | facial arteries veins lymph drainage; retromandibular vein facial artery lymph nodes; external carotid superficial face submental lymph; facial vessels lymph anatomy | Prior external Families 90, 92, 121, 125–126, 132, 138 and 140 own the complete scope. |
+| `occipitofrontalis-scalp-and-epicranial-aponeurosis` | occipitofrontalis epicranial aponeurosis; scalp frontal occipital bellies tendon; epicranial aponeurosis occipitofrontalis; scalp anatomy | Prior external Families 90, 121, 125–126, 132, 138 and 140 own the complete scope. |
+
+Each of the **eight accepted handles** received exactly one query on each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **8 × 4 = 32 required
+search invocations**. Literal combined-phrase searches produced two accepted-ledger hits and
+no exact hit on the other surfaces; source-level semantic comparison is decisive. Final
+disposition is **8 prior external/LCS reuses / 0 additive live / 0 additive pending / 0
+additive new external concepts**. Searches do not validate or repair highlighted options.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **6,889 / 6,616 / 221** by **+42 / +40 / +0** to **6,931 external prompts / 6,656
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+checks are `6,889 + 42 = 6,931`, `6,616 + 40 = 6,656`, `221 + 0 = 221`, and `12 +
+135 + 74 = 221`.
+
+Practical totals remain **62 prompts / 516 plates / 3,016 mappings / 156 residues / 55
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 183's remainder. Removing its sole path changes the
+all-rank remainder from **47 paths / 44 unique hashes** to **46 paths / 43 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **32 paths / 32 unique hashes within tier**, and
+rank 9 remains **14 / 11**. Family 183's prior checksums are
+`b02eddccaa5e64a8a5afd1254902bf5986329768ada749e50c745c8a39db04b2` (paths) and
+`e1afc3d66cbbf038165d80fa318fe41f92b5f5e787bc499324d0903e9e72f9b6` (unique hashes).
+For the exact post-Family-184 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`faac697a7a757275e8b57c5e5acce74960a7d39d672b8dfc97021712e22b9178`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`2878df6a1a63ffaf1d6ac9f3dbef36a9ea45666c562f62a85bf8837113889bdb`.
+
+The exact next manifest-order debt is tier-6 `src_615e427e4992be8d70f9`,
+`زتونة (The Knee joint).pdf` (2,216,462 bytes; 5 native-text portrait-A4 pages; tagged;
+unencrypted; PDF 1.4; SHA-256
+`615e427e4992be8d70f97c8b6a9b833d68bfe0a97b0661e65de1a1a68f8a710c`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 46
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
