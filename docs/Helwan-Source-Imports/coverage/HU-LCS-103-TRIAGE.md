@@ -14198,3 +14198,101 @@ exists in the same directory and recomputes to the assigned hash and byte size. 
 unclassified until that normalized local copy's complete pages are read. **Overall LCS-103
 remains `S1 TRIAGE — NOT APPROVED`:** 104 tier-3/tier-6/rank-9 path debts remain. No
 download, source edit, ID, content record, catalogue update, import or source copy was created.
+
+## Family 127 — Tier-3 external Zagazig-labelled lower-limb scanned MCQ compilation with a twenty-key gap
+
+### Exact identity, normalized-copy resolution and authority
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_6eb6102ca9825ff408a3` / `6eb6102ca9825ff408a3a3a97da58504667f52b6818f6debc2f0b19ac23c94a4` |
+| File / boundary | Manifest `MCQs - External MCQs Lower limb MCQ الزقازيق.pdf`; exact-copy local `MCQs - External MCQs Lower limb MCQ.pdf` · 18,938,123 bytes · untagged, unencrypted image-only PDF 1.7 · 55 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local exact-copy path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Lower limb MCQ.pdf`; the manifest-named path is absent, and no source copy was created |
+| Visible / metadata authority | The page body supplies only `Lower limb` and regional headings. The manifest filename labels the bank external and `الزقازيق` (Zagazig); the rendered pages supply no Helwan, LCS-103, cohort, exam, year or sitting claim. Title/subject `Lower limb MCQ`, author `CamScanner` and `intsig.com` producer identify scan provenance only. |
+
+The normalized local file's assigned SHA-256, byte size, image-only state and 55-page
+boundary were recomputed and match. All 55 pages were rendered at 110 dpi, OCR-assisted and
+visually read at full resolution in physical order. Physical pp. 1–53 contain a continuous
+question sequence Q1–Q205; partially clipped or faint printed number prefixes are resolved
+only by the immediately adjacent sequence and the source's own answer-grid numbering, not by
+medical inference. No prompt is duplicated by the reverse-side show-through visible on many
+scans.
+
+Physical p. 54 prints answer rows Q1–Q150. Physical p. 55 prints Q171–Q205. It contains no
+Q151–Q170 answer rows: the faint inverted table beneath the p. 55 grid is paper show-through
+from the preceding answer table, not a second readable key container. The exact boundary is
+therefore **205 external MCQ occurrences / 185 printed keys / 20 unkeyed occurrences / 0
+written prompts**. The unkeyed interval is exactly Q151–Q170. All 205 prompt occurrences
+remain inventory even where stems repeat a clinical localization or regional fact.
+
+Source wording and printed grid states are preserved without repair. Examples include mixed
+`peroneal`/`fibular` terminology, `planter` for plantar, Q125's missing fifth option until the
+following page, and photographed crop/curvature effects at page edges. No option, prompt or
+answer is medically corrected, and no key is inferred for Q151–Q170.
+
+### Assessment, teaching and practical boundary
+
+Every prompt is prose-only. There is no specimen, radiograph, clinical photograph,
+micrograph, anatomical diagram, station, apparatus task, masked label or learner-completed
+mapping. The two printed answer grids are assessment-key containers, not practical plates;
+CamScanner watermarks, fingers, page curvature and reverse-side show-through are capture
+artifacts. The source adds **0 practical prompts / 0 teaching plates / 0 mappings / 0
+practical residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 205 occurrences collapse to **21 source-distinct tested handles**: fascia lata and the
+iliotibial tract; femoral triangle/sheath/canal and adductor canal; femoral/saphenous/thigh
+cutaneous nerves; anterior-thigh muscles and quadriceps; medial-thigh adductors and obturator
+nerve; gluteal muscles/nerves and Trendelenburg mechanics; deep gluteal region and sciatic
+foramina; sciatic nerve course and lesions; posterior thigh and hamstrings; popliteal fossa;
+lateral leg and superficial fibular nerve; anterior leg and deep fibular nerve; posterior leg
+and tibial nerve; lower-limb cutaneous territories; ankle retinacula and dorsum of foot; sole
+layers and intrinsic foot muscles; foot arches/supports; lower-limb arteries/veins/
+lymphatics; hip joint; knee joint; and ankle/subtalar/tibiofibular joints. Each occurrence is
+assigned once; regional and clinical repetitions do not create duplicate concept handles.
+
+Each handle received exactly one fresh search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **21 × 4 = 84 required search invocations**.
+Prior-external-first comparison finds all 21 represented across Families 86, 88, 94, 103,
+113–124. Accepted Families 39–48 corroborate the lower-limb curricular fit but cannot promote
+this external scan into eligible Helwan evidence. Reconciliation is **21 prior-external
+reuses + 0 external additions = 21**; eligible and external concept-state deltas are zero.
+Exact query and result ledgers are preserved at
+`tmp/pdfs/lcs103-family127/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family127/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **5,121 / 4,934 / 221 = 12 / 135 / 74** to **5,326 external prompts / 5,119
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `5,121 + 205 = 5,326`, `4,934 + 185 = 5,119`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical
+delta from this source is zero.
+
+The processed Zagazig-labelled manifest path shares its hash with the still-unadjudicated
+normalized-name manifest path. Removing this path therefore leaves **103 all-rank path
+instances / 97 unique hashes**: tier 3 **21 paths / 20 unique hashes within tier**, tier 6
+**68 / 66**, and rank 9 **14 / 11**. Family 126's prior checksums are
+`6cdd501273b0e11aac23600a35cbbc0b74ee4e91c3df832a70692ed072c5e553` (paths) and
+`a42b22a5ddc9eacbe212d145010db301725e8ae2dad19788dc36994538755e3d` (unique hashes).
+For the exact post-Family-127 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`e72bd3dc6eb4ecd34a555e31e86a1c2d434ba8c30066d1173e16bd1efcee9a40`;
+SHA-256 over sorted unique `sha256<LF>` rows remains
+`a42b22a5ddc9eacbe212d145010db301725e8ae2dad19788dc36994538755e3d`.
+
+The exact next tier-3 manifest-order debt is the separate path record
+`src_6eb6102ca9825ff408a3`, `MCQs - External MCQs Lower limb MCQ.pdf` (18,938,123 bytes;
+55 physical pages; SHA-256
+`6eb6102ca9825ff408a3a3a97da58504667f52b6818f6debc2f0b19ac23c94a4`). It is the same
+normalized local file just read and is bitwise identical to this family; it requires path
+adjudication with zero second content inventory. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 103 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
