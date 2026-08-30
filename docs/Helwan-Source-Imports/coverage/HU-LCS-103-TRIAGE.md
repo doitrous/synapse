@@ -21880,3 +21880,112 @@ pt pages; untagged; unencrypted; no form; PDF 1.7; SHA-256
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 22 tier-6/rank-9 path debts remain.
 No download, source edit, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 209 — Rank-9 anonymous anatomy enumeration bank with paired answers
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d8588f62176e0324d40c` / `d8588f62176e0324d40ca2b8ea1b0097b808dc2eadd8783aeda88b057e903185` |
+| Exact path | `Year 1/LCS 103/Anatomy/Questions/anatomy short essay questions with answers _240717_223413.pdf` |
+| Physical verification | **3,920,967 bytes; 32 native-text 612 x 792 pt US-Letter pages; untagged; unencrypted; no form; PDF 1.7 by pdfinfo**. Full hash, byte size, page count and geometry match. All 32 pages were rendered completely at 150 dpi to 32 distinct images, inspected at original resolution and read completely; OCR was used as a second check on pages 16–32. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | The pages print no author, institution, lecturer, module, cohort, exam, sitting, marks or key claim. Metadata names Samsung Electronics as creator/producer, has a malformed creation date and records modification on 17 July 2024, but no author. |
+| Authority finding | Anonymous rank-9 external revision-bank evidence. Manifest placement establishes LCS-103 topical relevance; neither the filename nor device metadata establishes Helwan authorship, a recoverable sitting or an official key. |
+
+The complete prompt occurrence ledger is exact:
+
+| Pages | Printed prompt range | Count |
+|---:|---|---:|
+| 1–4 | 1–22 | 22 |
+| 5–8 | 23–48 | 26 |
+| 9–12 | 49–70 | 22 |
+| 13–15 | 71–84 | 14 |
+| **Total** | **84 consecutively numbered enumeration prompts** | **84** |
+
+Page 1 opens with the heading `Enumerate`. Pages 1–15 then print prompts 1–84; page 15
+continues directly into answer 1 and the beginning of answer 2. Pages 15–31 supply the
+numbered answer sequence 1–84, with answer 84 ending on page 31. Page 32 is a visually
+confirmed ruled blank page. Thus the exact source arithmetic is **84 written prompts + 84
+paired printed answers + 0 unkeyed prompts = 84 complete prompt/answer pairs**. There are
+**0 MCQs, 0 option sets and 0 ordinary eligible questions**.
+
+The bank is external rather than eligible: no page supplies the institutional/date/sitting
+authority required for eligible Helwan assessment. Exact assessment delta is therefore **0
+eligible prompts / 0 eligible keys**, and **+84 external prompts / +84 external
+keys-or-answers**, all **84 written/short-answer enumeration prompts** and none ordinary MCQ.
+
+Source truth remains literal and unrepaired. This includes the opening `1.4 snsory
+innervasion of the scalp`, `main Veins of the lower limp`, `planter asoect`, `1muscles`,
+`sypply`, the source numbering/punctuation, and answer-side spellings and placements such as
+`Siciatic`, `gastrucnimius`, `calcenial`, `jagular` and `lateral loop of Thyroid gland`.
+Inventory records rather than medically repairs or endorses those printed states.
+
+### Practical and image boundary
+
+All pages are text-only ruled notes. No specimen, model, radiograph, histology field,
+numbered image, masked label, practical station, learner-completed map or response blank
+appears. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues /
+0 keys / 0 practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The 84 prompt/answer pairs collapse source-first to 12 complete external-written handles:
+
+| Handle / source prompts | One query on each required surface | Reconciliation |
+|---|---|---|
+| scalp layers, supply, drainage and innervation; mastication · 1–7 | scalp sensory motor vascular lymph layers mastication | prior-LCS external reuse |
+| neck triangles/fossae, boundaries and contents · 8, 10, 65–77, 81–84 | neck triangles fossae boundaries contents | prior-LCS external reuse |
+| TMJ and sternocleidomastoid · 78–80 | temporomandibular joint sternocleidomastoid | prior-LCS external reuse |
+| femoral triangle/canal, adductor canal and saphenous opening · 9, 11–13, 73–74 | femoral triangle canal adductor canal saphenous opening | prior-LCS external reuse |
+| popliteal fossa and greater/lesser sciatic foramina · 14–17 | popliteal fossa greater lesser sciatic foramina | prior-LCS external reuse |
+| femoral/obturator nerves and thigh arterial branches · 18–21, 75 | femoral obturator nerve thigh arterial branches | prior-LCS external reuse |
+| hip joint ligaments and supply · 22–24 | hip joint ligaments blood nerve supply | prior-LCS external reuse |
+| knee stability, bursae, ligaments and supply · 25–31 | knee stability bursae ligaments blood nerve supply | prior-LCS external reuse |
+| leg arteries, nerves, veins and lymphatics · 32–42 | leg arteries nerves veins lymphatic drainage | prior-LCS external reuse |
+| tibiofibular/ankle joints and ligaments · 43–49 | tibiofibular ankle joints ligaments | prior-LCS external reuse |
+| foot muscles, retinacular contents and arches · 50–58 | foot muscles retinacula arches | prior-LCS external reuse |
+| foot vascular/nerve supply and limb anomalies · 59–64 | foot vascular nerve supply limb anomalies | prior-LCS external reuse |
+
+Each of the **12 accepted handles** received exactly one search against each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **12 x 4 = 48
+required search invocations**. Live file-match counts were **81 / 44 / 8 / 90 / 3 / 35 /
+132 / 61 / 121 / 13 / 22 / 104**; pending/import-ready counts were **203 / 112 / 97 / 127 /
+100 / 200 / 285 / 272 / 188 / 95 / 117 / 244**; the prior-source lane returned no file
+match; and all 12 accepted-LCS searches matched. Item-level comparison with the accepted
+external banks gives **12 prior-LCS external-written reuses / 0 additive live / 0 additive
+pending / 0 additive new external concepts**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment becomes
+**7,396 prompts / 7,120 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Family 209 contributes **0 ordinary eligible, +84 external written and 0 practical
+prompts**; its 12 collapsed handles are all prior-LCS reuses, so external concept count and
+disposition remain unchanged.
+
+Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues / 87 keys**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical delta is
+zero.
+
+This hash occurs once in Family 208's remainder. Removing its sole path changes the remainder
+from **22 paths / 21 unique hashes** to **21 paths / 20 unique hashes**: tier 3 remains **0 /
+0**, tier 6 remains **13 paths / 13 unique hashes within tier**, and rank 9 becomes **8 paths /
+7 unique hashes within rank**. Family 208's checksums were
+`398cd08c8bcad05f055f05863f718801a57069f5e4ecc46917f0ab929564c7e8` (paths) and
+`abec00f953b91bcf9b14f57db27d5cdc0340e530a44119a6cc0321438f941d2c` (unique hashes).
+For the exact post-Family-209 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`bfffaed6b069d6566ffbda6258376f375b85fff7a17197e7b23e4ae2164432fc`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`435983b7b0372a6c6c707ad4cb7bcb017ef7edd711501569c2b87c930bc58c37`.
+
+The exact next manifest-order debt is tier-6 `src_f6ac2b86172de3aa9150`, `Bio 103.pdf`
+(353,705 bytes; 14 native-text 612 x 792 pt US-Letter pages; tagged; unencrypted; no form;
+PDF 1.7; SHA-256
+`f6ac2b86172de3aa9150b50ef92b343ba60dbea230b328c6c06309221e0dc807`) under `Year 1/LCS
+103/Biochemistry/Notes and Summaries/`. It remains unclassified until all 14 pages are
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 21 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
