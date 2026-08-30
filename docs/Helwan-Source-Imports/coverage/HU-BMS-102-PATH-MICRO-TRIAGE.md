@@ -14909,3 +14909,124 @@ Lab 4 - Malignant tumors`. The manifest snippet visibly attributes `Malignant TU
 Lab)` to Dr Enas Megahed Elhosary, Faculty of Medicine, Helwan University. Its complete carrier,
 teaching-versus-practical/prompt/key boundary, searches, prior reuse, and arithmetic are the exact
 next-source blockers.
+
+## Family 141 — Dr Enas Elhosary Helwan malignant-tumour virtual lab
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_759fc3552fb667ecb8db` · `Malignant tumor (Virtual Lab).pdf` under `Pathology / Practical Labs / Prelabs / Pre Lab 4 - Malignant tumors` |
+| SHA-256 / size | `759fc3552fb667ecb8db92e27ba820a966b291ea7a89dab74ddaab9ca52fdd4d` · 9,327,168 bytes |
+| Format / complete visual boundary | Forty-nine native-text landscape pages, each 960×540 points. All 49 pages were rendered at 150 dpi into 49 non-empty 2000×1125-pixel images and read individually at full detail; four complete contact sheets, per-page extraction, layout extraction, and raw extraction were also read through the closing slide. There is no page, crop, image, label, response area, or text remainder. |
+| Native-text reality | Layout extraction contains 870 words / 7,144 bytes and raw extraction contains 855 words / 6,175 bytes. Both preserve headings, commands, and teaching prose, while visual review is necessary to join microscope fields, labels, and the p.17 model drawing to their governing text. The manifest's `native` label is accurate and the rendered pages control classification. |
+| Visible provenance | Page 1 visibly reads `Malignant TUMORs (Virtual Lab)`, `Dr/ Enas Megahed Elhosary`, `Lecturer of pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes named instructor, faculty, university, and virtual-lab teaching provenance. No module code, academic year, delivery date, candidate identity, or sitting is visible. |
+| Metadata caution | Metadata title is generic `Title Layout`; author is `wafeya wesam`; creator/producer is Microsoft PowerPoint LTSC; creation/modification timestamp is 19 April 2026. The metadata author conflicts with the visible Dr Enas attribution, and the production timestamp cannot establish a lab date, academic year, or assessment sitting. |
+| Authority | Instructor-attributed Helwan tier-5 virtual-lab teaching deck with interleaved drawing and practical-image prompts. It is not an authenticated candidate practical, official OSPE/station register, response sheet, or official key. |
+
+### Complete page-first teaching, drawing, practical-image, and answer boundary
+
+| Pages | Complete visible content | Prompt / answer / practical ruling |
+|---:|---|---:|
+| 1–6 | Provenance cover; benign/locally malignant/malignant behaviour map; origin, growth, gross, capsule, spread, recurrence, cellular-atypia, anaplasia, and malignant-cell criteria | Completed declarative teaching and comparison diagrams; **0 prompts / 0 answers**. |
+| 7–16 | Normal-to-dysplasia-to-carcinoma-in-situ-to-invasive-cancer sequence; malignant-cell fields; differentiation grades; hyperchromasia, pleomorphism, abnormal mitosis, and completed malignant-criteria plate | Labelled process and morphology teaching; **0 / 0**. |
+| 17 | `Draw the cell with cytological evidence of malignancy`, beside a fully drawn and labelled model cell showing enlarged irregular nucleus, prominent nucleoli, and scant pale-blue cytoplasm | **1 drawing/written prompt / 1 same-slide source-supplied teaching answer**. The labelled model is the source answer, not an official key. |
+| 18–19 | Initiation, promotion, and progression definitions plus a completed multistep-carcinogenesis diagram | Completed teaching; **0 / 0**. |
+| 20 | `Design a chart representing multistep carcinogenesis` with no completed chart or linked reveal | **1 unkeyed drawing/written prompt / 0 answers**. |
+| 21–26 | Malignant-tumour behaviour/prognosis; locally malignant tumours; BCC diagnosis, process, full microscopy description, and three diagnosis-disclosing fields | Completed teaching and labelled plates; **0 / 0**. The parenthetical `Describe` on p.24 is an embedded teaching cue inside a completed morphology slide, not an independent response interval. |
+| 27 | Unlabelled BCC microscope field with `1. Describe` and `2. What is the diagnosis?` | **2 unkeyed practical image-written operations / 0 answers**. Earlier labelled BCC teaching is context, not a prompt-linked key. |
+| 28–30 | Malignant-epithelial-tumour section title; metastatic breast carcinoma to axillary lymph node diagnosis, process, complete microscopic description, and an additional unlabelled field | Completed diagnosis-disclosing teaching; **0 / 0**. The p.29 parenthetical `Describe` is embedded in supplied prose and is excluded as a teaching callout. |
+| 31 | New unlabelled tumour-bearing lymph-node field with `1. Describe` and `2. What is the diagnosis?` | **2 unkeyed practical image-written operations / 0 answers**. The earlier labelled field and prose are teaching context rather than a response-linked reveal. |
+| 32–48 | Squamous-cell carcinoma of skin and lung, keratin pearls, malignant criteria, bronchogenic SCC, colon adenocarcinoma gross types, microscopic morphology, and completed image sequences | Diagnosis-disclosing and declarative teaching; **0 / 0**. P.42's parenthetical `Mention the malignant characters` is a third embedded teaching callout, not an independently formatted response task. |
+| 49 | `Thank you` | Closing slide only; **0 / 0**. |
+
+The exact raw format split is **0 image-bearing MCQs**, **4 practical image-written operations**
+(description and diagnosis on pp.27 and 31), and **2 drawing/written operations** (pp.17 and
+20): `0 + 4 + 2 = 6`. These are practical-style learner operations inside a virtual-lab deck,
+not authenticated stations: no station number, timer, candidate/examiner instruction, mark
+allocation, checklist, response sheet, or student response is present. Exactly **1 prompt has a
+source-supplied teaching answer** on the same slide; the other **5 prompts are unkeyed**. The three
+embedded p.24, p.29, and p.42 teaching callouts remain outside assessment arithmetic. There are no
+prompt-like residues.
+
+All **6 prompt occurrences remain retained** and source-distinct. Description and diagnosis test
+different operations even when they govern the same field; the BCC and metastatic-breast-node
+fields test different lesions; and the two drawing commands test different processes. The exact
+boundary is therefore **6 raw prompts / 1 source-supplied answer / 5 unkeyed prompts / 0 residues /
+6 retained records / 6 source-distinct tested handles**.
+
+### Source-first handle inventory and prior-BMS assignment
+
+| Ref | Source-tested scope / source answer status | Handle / prior-BMS assignment |
+|---|---|---|
+| F141-Q01 · p.17 | Draw a cell with cytological evidence of malignancy; same-slide labelled model | `malignant-cell-cytology-drawing` · exact Family-5 `anaplasia-definition-morphology` reuse; drawing modality does not create a new tested cytologic proposition |
+| F141-Q02 · p.20 | Chart initiation → promotion → progression in carcinogenesis; unkeyed | `initiation-promotion-progression-carcinogenesis-chart` · new; Family 1's tumour progression/heterogeneity and invasion/metastasis prompts do not test this three-stage chemical-carcinogenesis sequence |
+| F141-Q03 · p.27a | Describe BCC microscopy; unkeyed | `basal-cell-carcinoma-microscopic-description` · exact Family-1 `scc-versus-bcc-morphology` reuse for the BCC morphology component |
+| F141-Q04 · p.27b | Diagnose an unlabelled BCC microscope field; unkeyed | `basal-cell-carcinoma-microscopy-identification` · exact Family-114 reuse |
+| F141-Q05 · p.31a | Describe metastatic breast carcinoma in axillary lymph-node microscopy; unkeyed | `metastatic-breast-carcinoma-lymph-node-microscopic-description` · new; Families 113/141 teach the morphology and Family 114 identifies a field, but no prior tested handle requests the complete description |
+| F141-Q06 · p.31b | Diagnose metastatic breast carcinoma in an axillary lymph-node field; unkeyed | `metastatic-breast-cancer-lymph-node-microscopy-identification` · exact Family-114 reuse |
+
+### Exactly four searches per accepted handle and external disposition
+
+All six accepted handles received exactly four fresh source-first searches across live and pending
+import state, followed by comparison with the complete prior BMS-102 ledger: **6 × 4 = 24 required
+and completed searches**.
+
+| Handle | Exactly four required queries | External exact-scope result |
+|---|---|---|
+| `malignant-cell-cytology-drawing` | `draw cytological evidence of malignancy`; `malignant cell enlarged irregular nucleus prominent nucleoli`; `cytologic criteria of malignancy drawing`; `anaplastic cell nuclear pleomorphism hyperchromasia` | no same-scope |
+| `initiation-promotion-progression-carcinogenesis-chart` | `design chart multistep carcinogenesis`; `initiation promotion progression carcinogenesis`; `multistage cancer development diagram`; `tumor initiation promotion progression sequence` | no same-scope |
+| `basal-cell-carcinoma-microscopic-description` | `describe basal cell carcinoma microscopy`; `basaloid nests peripheral palisading no keratinization`; `basal cell carcinoma histologic morphology`; `BCC dermal malignant basophilic cell masses description` | no same-scope |
+| `basal-cell-carcinoma-microscopy-identification` | `basal cell carcinoma microscopy identification`; `identify basal cell carcinoma histology image`; `basal cell carcinoma slide diagnosis`; `basal cell carcinoma microscopic field identification` | no same-scope |
+| `metastatic-breast-carcinoma-lymph-node-microscopic-description` | `describe metastatic breast carcinoma axillary lymph node microscopy`; `nodal tissue replaced by malignant epithelial nests desmoplasia`; `breast carcinoma lymph node histologic morphology`; `microscopic description metastatic breast cancer lymph node` | no same-scope |
+| `metastatic-breast-cancer-lymph-node-microscopy-identification` | `metastatic breast cancer lymph node microscopy identification`; `identify metastatic breast cancer lymph node histology image`; `metastatic breast cancer lymph node slide diagnosis`; `metastatic breast cancer lymph node microscopic field identification` | no same-scope |
+
+External exact-scope disposition is **0 live / 0 pending / 6 no same-scope = 6 handles**. Exact
+prior-BMS reuse applies to malignant-cell cytology, BCC microscopic description, BCC field
+identification, and metastatic-breast-node field identification: **4 reuses**. The three-stage
+carcinogenesis chart and metastatic-breast-node microscopic description remain new, so Family 141
+adds `6 - 4 = 2` concepts.
+
+### Family-141 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 141 | Auxiliary cumulative (Families 12–141) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 6 | 1,236 | 765 | 2,001 |
+| Printed/source-supplied answer occurrences | 1 | 733 | 405 | 1,138 |
+| Unkeyed prompt occurrences | 5 | — | — | tracked separately |
+| Excluded question-form teaching callouts | 3 | — | — | pp.24, 29, and 42, outside assessment arithmetic |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 6 | 1,171 | 552 | 1,723 |
+| Source-distinct tested handles / required searches | 6 / 24 | 1,051 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 6 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 4 | — | — | subtract before concept addition |
+| Cross-family concept delta | +2 | +673 over primary | 372 | `372 + 673 = 1,045` |
+| **Distinct tested concepts** | **+2** | **673 auxiliary additions** | **372** | **1,045** |
+
+The checksum closes without remainder: `6 = 1 + 5`; all six prompts are retained and source-
+distinct; searches are `6 × 4 = 24`; external disposition is `0 + 0 + 6 = 6`; and concept
+arithmetic is `6 - 4 prior exact reuses = 2`. Auxiliary arithmetic is `1,230 + 6 = 1,236`
+prompts, `732 + 1 = 733` answers, `1,165 + 6 = 1,171` retained records, `1,045 + 6 = 1,051`
+handles, and `671 + 2 = 673` concept additions. All eligible arithmetic is `765 + 1,236 =
+2,001`, `405 + 733 = 1,138`, `552 + 1,171 = 1,723`, and `372 + 673 = 1,045`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now **1,236 / 733 / 1,171 / 1,051 /
++673**; and all eligible evidence is **2,001 / 1,138 / 1,723 / 1,045**. Family 141 cannot
+establish an authenticated station set, official key, academic date, recurrence, mark weight,
+student response, readiness, or claims status.
+
+### Exact next debt after Family 141
+
+`src_759fc3552fb667ecb8db` is exhausted across all 49 pages: every visible/metadata provenance
+field, teaching diagram/plate, drawing task, practical image-written operation, same-slide answer,
+unkeyed prompt, embedded teaching callout, source-first search packet, prior-BMS relation, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-141 blocker. The
+immediately following manifest record, tier-5 `src_37644f108b9cb25e865c`, is the byte-identical
+preferred carrier already exhausted as Family 139 and adds no second evidence family. The exact
+next unique unprocessed manifest record is tier-5 `src_aa147d841f217a789ced` · `CBL circulatory
+102 nahed soliman.pdf`, SHA-256
+`aa147d841f217a789ced9987029a73b968f1a1e3778e3b2e862ca570b7fa30d5`, 565,476 bytes, 22
+native-text 720×540-point landscape pages under `Pathology / Practical Labs / Virtual / Virtual
+Lab 2 - CBL Circulatory`. Its manifest first-page snippet visibly reports academic year 2025/2026,
+Year 1, Semester 2, and BMS-102; the exact visible provenance, teaching/case/prompt/key/practical
+boundary, searches, prior reuse, and arithmetic are the next-source blockers.
