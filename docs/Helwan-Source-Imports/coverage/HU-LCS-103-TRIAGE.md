@@ -6358,3 +6358,122 @@ bytes; 35 native-text pages; SHA-256
 103/Biochemistry/Theoretical/Lec 3 - Vitamin D, Calcium & Phosphorus Metabolism/`. Broader
 LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 53 — Tier-4 vitamin-D, calcium, phosphorus and bone-metabolism teaching-only lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_011c744f3cf119c15f48` |
+| File / SHA-256 | `Vitamin D , phosphorus and Calcium metabolism.pdf` / `011c744f3cf119c15f48b55bcf97cf9ab6423f00fe6e92272960f2d67314616e` |
+| File boundary | 1,243,649 bytes · unencrypted PDF · 35 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Biochemistry · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Biochemistry/Theoretical/Lec 3 - Vitamin D, Calcium & Phosphorus Metabolism/Vitamin D , phosphorus and Calcium metabolism.pdf` |
+| Visible provenance | p. 1 prints `Vitamin D , phosphorus and Calcium metabolism`; PDF author is `Rehab Elsayed Mohammed Elkoseir` and creator/producer is Microsoft PowerPoint for Microsoft 365; no university, assessment or sitting label is printed |
+| Authority finding | Manifest/path-placed local tier-4 biochemistry lecture. It is not a sitting paper, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and 35-page boundary were recomputed and match the assigned source.
+All 35 pages were rendered at 170 dpi and read against the native text layer; all 35 complete
+page renders have distinct SHA-256 values. Page 1 is title/provenance, p. 2 states intended
+learning outcomes, pp. 3–10 teach bone matrix/cells/remodelling, p. 11 is a calcium section
+divider, and pp. 12–35 teach calcium, phosphate and vitamin-D metabolism and disorders.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. Every heading, list, reference range, dose table, pathway,
+clinical photograph and labelled diagram is simultaneous declarative teaching. No page
+contains an interrogative or imperative task, response field, option set, answer blank, mark
+allocation, correctness convention, answer reveal, masked label or unresolved callout.
+
+### Complete teaching-composition and assessment-boundary inventory
+
+| Physical pages | Source-first instructional compositions | Slide occurrences |
+|---:|---|---:|
+| 3–4 | bone composition and matrix proteins, including osteocalcin turnover marker | 2 |
+| 5–8 | osteoblast, osteocyte and osteoclast origins/functions, secretions and hormonal responsiveness | 4 |
+| 9–10 | bone-remodelling sequence and formation/resorption balance | 2 |
+| 12–14 | serum-calcium fractions/ranges, physiological roles and hypo-/hypercalcaemic muscle effects | 3 |
+| 15–18 | PTH, calcitriol, calcitonin, glucocorticoid, growth/sex-steroid and FGF23 regulation | 4 |
+| 19–23 | vitamin-D introduction, forms/sources, age-related dose table, absorption and transport | 5 |
+| 24–28 | skin/liver/kidney synthesis and activation pathways, cofactors and regulation diagrams | 5 |
+| 29–30 | vitamin-D functions and calcium/phosphate homeostasis | 2 |
+| 31–33 | deficiency, rickets/osteomalacia and type-I/type-II inherited vitamin-D-deficiency rickets | 3 |
+| 34 | renal osteodystrophy mechanism | 1 |
+| 35 | hypervitaminosis-D manifestations and metastatic calcification | 1 |
+| **Total** | **tier-4 instructional compositions** | **32** |
+
+The **32 content-slide occurrences are 32 source-distinct teaching compositions**. Complete-
+render SHA-256 and semantic comparison found no full-page copy to collapse. The source
+boundary is therefore **32 teaching compositions / 0 ordinary prompts / 0 practical or
+station prompts / 0 printed assessment keys / 0 residues**. As theoretical material, it
+adds **0 practical plates, 0 practical mappings and 0 practical residues** to the separated
+tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 32 compositions consolidate to 14 source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `bone-matrix-organic-inorganic-composition` · pp. 3–4 | bone matrix organic inorganic composition; bone type I collagen ninety percent; osteocalcin osteonectin bone matrix; serum osteocalcin turnover marker | pending bone-matrix material owns the composition; accepted Family-13 matrix handle owns the same core — prior LCS reuse |
+| `osteoblast-osteocyte-osteoclast-functions` · pp. 5–8 | osteoblast osteocyte osteoclast functions; osteoblast osteoid ALP; osteocyte sclerostin FGF23; osteoclast multinucleate bone resorption | pending bone-cell material owns the cell comparison; accepted Family-13 cell handles jointly own the core — prior LCS reuse |
+| `bone-remodeling-formation-resorption-balance` · pp. 9–10 | bone remodeling formation resorption balance; osteoblast osteoclast steady state; bone remodeling mechanical loading; formation less resorption osteoporosis | pending remodelling material owns the balance; accepted Family-13 osteoclast/remodelling handles own the core — prior LCS reuse |
+| `serum-calcium-fractions-ranges-and-physiological-roles` · pp. 12–13 | ionized protein bound complexed calcium; serum calcium fractions reference range; calcium muscle contraction neurotransmitter release; calcium coagulation bone structure | pending calcium/nerve-muscle material owns the fractions and major physiological roles — pending |
+| `hypocalcemia-hypercalcemia-muscle-effects` · p. 14 | hypocalcemia tetany hyperexcitability; hypercalcemia muscle weakness sodium channels; calcium neuromuscular excitability; abnormal calcium muscle function | pending calcium-excitability records own both direction-specific muscle effects — pending |
+| `pth-calcitriol-calcitonin-calcium-regulation` · pp. 15–16 | PTH calcitriol calcitonin calcium regulation; parathyroid hormone bone turnover plasma calcium; calcitriol intestinal calcium osteoblast; calcitonin osteoclast inhibition | pending calcium/bone records own the three-hormone regulation; accepted Family-13 PTH/calcitonin components are prior corroboration but not the full composite — pending |
+| `glucocorticoid-growth-and-sex-steroid-bone-effects` · p. 17 | glucocorticoids bone loss osteoporosis; growth hormone bone growth; estrogen androgen bone turnover; sex steroid deficiency osteoporosis | pending bone/endocrine records own the hormone-effect comparison — pending |
+| `fgf23-phosphate-regulation` · p. 18 | FGF23 phosphate lowering factor; plasma phosphate regulation; phosphate retention toxicity; osteocyte FGF23 phosphate | no direct complete-scope live/pending hit and no accepted prior-LCS handle — new theoretical teaching |
+| `vitamin-d-forms-sources-dose-absorption-and-transport` · pp. 19–23 | vitamin D2 D3 sources; vitamin D recommended dose age; vitamin D duodenum jejunum bile salts; chylomicron vitamin D binding protein transport | pending vitamin material owns the forms, sources and absorption/transport components — pending |
+| `vitamin-d-skin-liver-kidney-activation` · pp. 24–28 | vitamin D skin liver kidney activation; 7 dehydrocholesterol UV cholecalciferol; liver 25 hydroxylase calcidiol; kidney 1 alpha hydroxylase calcitriol | pending vitamin-D records own the complete two-hydroxylation pathway — pending |
+| `vitamin-d-calcium-phosphate-homeostasis-functions` · pp. 29–30 | vitamin D calcium phosphate homeostasis; calcitriol calbindin intestinal absorption; vitamin D renal calcium reabsorption; vitamin D bone mineralization mobilization | pending vitamin-D records own intestinal, renal and bone functions — pending |
+| `vitamin-d-deficiency-rickets-and-osteomalacia` · pp. 31–33 | vitamin D deficiency rickets osteomalacia; defective mineralization child adult; vitamin D dependent rickets type I II; 1 alpha hydroxylase receptor deficiency rickets | pending vitamin-D records own deficiency and inherited forms; accepted Families 12, 49 and 50 already own the rickets/osteomalacia core — prior LCS reuse |
+| `renal-osteodystrophy-calcitriol-pth-mechanism` · p. 34 | renal osteodystrophy calcitriol PTH; kidney disease hypocalcemia secondary hyperparathyroidism bone; renal failure impaired vitamin D activation; excessive bone turnover renal disease | chronic-renal/calcitriol hits are components, but no complete same-scope record or accepted prior-LCS handle — new theoretical teaching |
+| `hypervitaminosis-d-hypercalcemia-and-calcification` · p. 35 | hypervitaminosis D hypercalcemia; vitamin D toxicity polyuria thirst constipation; hypervitaminosis D metastatic calcification; vitamin D toxicity renal failure | cross-module calcification material is corroborating only; no complete HU-LCS-103 pending or accepted prior handle — new theoretical teaching |
+
+All **14 × 4 = 56** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **0 live / 11 pending / 3 new**. Exact accepted-
+prior comparison prevents four core bone/vitamin-D scopes from being added again, leaving
+**four prior-LCS reuses / ten additive theoretical teaching scopes (7 pending / 3 new)**.
+There is no assessment handle to search. Declarative teaching scopes do not enter the
+eligible tested-concept count, and no theoretical scope enters the practical-teaching-scope
+counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 53 | Family 53 delta | After Family 53 |
+|---|---:|---:|---:|
+| Eligible observed question records | 480 | +0 | 480 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 224 | +0 | 224 |
+| Question live / pending / new | 9 / 61 / 154 | +0 / +0 / +0 | 9 / 61 / 154 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 309 verified minimum | +0 | 309 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,098 verified minimum | +0 | 2,098 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 92 | +0 | 92 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 71 | +0 / +0 / +0 | 0 / 0 / 71 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `32 = 2 + 4 + 2 + 3 + 4 + 5 + 5 + 2 + 3 +
+1 + 1`, `0 prompts = 0 source handles`, `480 + 0 = 480`, `264 + 0 = 264`, `224 + 0 =
+224`, `9 + 61 + 154 = 224`, `309 + 0 = 309`, `2,098 + 0 = 2,098`, `92 + 0 = 92`, and
+`71 + 0 = 71`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-52
+remainder leaves **23 rank-4/rank-5 path instances / 21 unique hashes**. The Family-52
+method was reproduced first: its 24/22 row sets recomputed to
+`53260d735f7d79e43df34b596ed59b713a0b61790614bdcb70ae410903c048be` and
+`dce3f442251bfb6ea136a50f0dfd937b15fc684a5488d9322dc53d842ccf35dc`.
+For the exact post-Family-53 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`51369aec195ab6614119fae66193f800a07fb682192fab6dcf310490c47c4221`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`362bb3986aea43034da3a6ec4ed81def25c7b907bc8b4effd1fbfb218193386d`.
+The next manifest-order gate is tier-4 Biochemistry theoretical source
+`src_8b8f579ff4ea709713b0`, `103 revision.pdf` (174,605 bytes; 6 native-text pages;
+SHA-256 `8b8f579ff4ea709713b0008e9a17688c5a6de706e861cfe55351487a0fa3d970`)
+under `Year 1/LCS 103/Biochemistry/Theoretical/Revision/`. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
