@@ -12620,3 +12620,96 @@ record is tier-6 `src_f199437c6410f1b927b4` · `benign tumor 1.pdf`, SHA-256
 11 native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its full render/read,
 visible Dr Ahmed Hassan / `Pathology prelab benign tumours` provenance, metadata-author conflict,
 and teaching-versus-practical/prompt/key boundary are the exact next-source blockers.
+
+## Family 119 — Dr Ahmed Hassan benign-tumour prelab and fibroadenoma Q&A
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_f199437c6410f1b927b4` · `benign tumor 1.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `f199437c6410f1b927b437724c7cde31fb1732c328bc7a8a532d3d59bd026e4b` · 1,063,878 bytes |
+| Format / complete visual boundary | Eleven native-text portrait A4 pages, each 595.32×842.04 points. All 11 pages rendered at 200 dpi into 11 non-empty 1654×2339-pixel images and were read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent extraction contains 462 words / 5,742 bytes and 11 page separators. It agrees with the rendered headings, labels, two question lines, supplied responses, tables, and image sequence. Visual inspection controls the practical-image and prompt/answer boundary. The manifest's `native` label is accurate. The PDF has no form, JavaScript, or encryption. |
+| Visible provenance | The cover visibly reads `Pathology prelab benign tumours` and `Neoplasia`; every page carries `PATHOLOGY`, `Benign Tumors`, the footer `DR . AHMED HASSAN`, and page numbering 1–11. This establishes visible instructor attribution and prelab context. No university, faculty, module code, academic year, teaching date, practical station, or assessment sitting is printed. |
+| Metadata caution | Metadata names `Hossam mohammed` as author and gives Microsoft Word 2019 production timestamps of 10 April 2025. Those conflict with or are secondary to the visible Dr Ahmed Hassan footer and establish file production only; they do not prove authorship, institutional provenance, academic year, or sitting. |
+| Authority | Instructor-attributed tier-6 pathology prelab/teaching deck. It contains two immediately answered revision prompts, but it is not a candidate practical, authenticated station, official key, dated sitting, or student response sheet. |
+
+### Complete page-first teaching, practical-image, prompt, and supplied-answer inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Benign-versus-malignant naming table and completed gross-growth comparison diagram | Provenance and completed teaching; **0 prompts / 0 answers**. |
+| 2–3 | Squamous papilloma definition, gross/histology images and labels; benign adenoma versus adenocarcinoma mapping; colonic adenoma definition, gross and microscopic picture, precancerous status, and completed images | Labelled prelab teaching plates/tables; no learner instruction or response interval; **0 / 0**. |
+| 4 | Tubulovillous adenoma plate; fibroadenoma definition, gross field, and labelled intracanalicular/pericanalicular histology | Completed diagnosis and morphology teaching; **0 / 0**. |
+| 5 | Two labelled mixed pericanalicular/intracanalicular fibroadenoma fields plus a gross field; `What is the proper diagnosis?` followed by the printed diagnosis; `Describe the gross and microscopic picture?` followed by the complete gross and microscopic description | **2 prompts / 2 immediate source-supplied teaching answers**. The two commands are independently answerable; the coordinated gross/microscopic response remains one answer block for its one compound prompt. |
+| 6 | Lipoma gross/microscopic picture and benign/malignant bone-tumour mapping | Completed table and labelled images; **0 / 0**. |
+| 7–8 | Normal bone and osteochondroma gross/histology/radiology plates; completed osteochondroma morphology/transformation table; hemangioma definition, sites, gross picture, and cavernous histology | All diagnoses, structures, and descriptions are supplied; **0 / 0**. |
+| 9–11 | Labelled capillary-hemangioma and lymphangioma plates; lymphangioma definition, gross description/clinical and mesenteric examples, and final microscopic description | Completed teaching mappings and prose; **0 / 0**. |
+
+The prelab label, microscope icon, specimen photographs, histology fields, radiograph, arrows,
+colored emphasis, skull bullets, and table row labels do not independently create practical
+stations. Every image outside p. 5 is already titled or immediately described, and p. 5 itself
+prints both prompts and their answers on the same page. There is no hidden-image interval,
+candidate response space, option set, mark allocation, student writing, selective correctness
+mark, or separate answer register.
+
+The exact source boundary is therefore **2 raw prompt occurrences / 2 source-supplied teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 2 retained records**.
+The two wordings are neither literal nor semantic duplicates: one tests a mixed fibroadenoma
+diagnosis, while the other requests its gross and microscopic description. Both survive as
+**2 source-distinct tested handles**.
+
+### Exactly four searches per accepted handle and prior-BMS adjudication
+
+Each surviving handle received exactly four fresh source-first searches across live state and all
+pending import roots: **8 required searches**. External disposition is **0 live / 0 pending / 2 no
+same-scope**.
+
+| Handle · retained ref | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| `mixed-fibroadenoma-pattern-diagnosis` · Q1 | `mixed pericanalicular intracanalicular fibroadenoma diagnosis`; `fibroadenoma both growth patterns histology`; `breast lesion slit glands open lumina fibrous stroma`; `fibroadenoma practical diagnosis gross microscopy` | Family 5 tests a generic biphasic breast-mass diagnosis and Family 114 tests a generic fibroadenoma microscopy field; neither tests the present mixed pericanalicular/intracanalicular gross-plus-histology identification; delta |
+| `fibroadenoma-gross-microscopic-description` · Q2 | `fibroadenoma gross microscopic picture`; `well circumscribed capsulated grey tan mass fibroadenoma`; `slit like compressed glands open lumina fibrous stroma`; `breast fibroadenoma morphology gross histology` | Prior sources identify or label fibroadenoma but do not request this complete gross-and-microscopic description; delta |
+
+Prior-BMS exact handle reuse is **0**, so Family 119 adds `2 - 0 = 2` distinct concepts.
+Teaching-only overlap with Families 110, 111, and 113 does not consume either tested scope.
+
+### Family-119 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 119 | Auxiliary cumulative (Families 12–119) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 2 | 1,015 | 765 | 1,780 |
+| Printed teaching-answer occurrences | 2 | 596 | 405 | 1,001 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 2 | 955 | 552 | 1,507 |
+| Source-distinct tested handles / required searches | 2 / 8 | 853 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 2 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 0 | — | — | subtract before concept addition |
+| Cross-family concept delta | +2 | +557 over primary | 372 | `372 + 557 = 929` |
+| **Distinct tested concepts** | **+2** | **557 auxiliary additions** | **372** | **929** |
+
+The checksum closes without remainder: `2 = 2 + 0`; both prompt wordings remain retained and
+source-distinct; searches are `2 × 4 = 8`; external disposition is `0 + 0 + 2 = 2`; and
+concept arithmetic is `2 - 0 = 2`. Auxiliary arithmetic is `1,013 + 2 = 1,015` prompts,
+`594 + 2 = 596` answers, `953 + 2 = 955` retained records, `851 + 2 = 853` handles,
+and `555 + 2 = 557` concept additions. All eligible arithmetic is `765 + 1,015 = 1,780`,
+`405 + 596 = 1,001`, `552 + 955 = 1,507`, and `372 + 557 = 929`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,015 / 596 / 955 / 853 / +557**; and all eligible evidence is
+**1,780 / 1,001 / 1,507 / 929**. Family 119 cannot establish a Helwan-authored practical,
+official key, dated sitting, recurrence, mark weight, student response, readiness, or claims
+status.
+
+### Exact next debt after Family 119
+
+`src_f199437c6410f1b927b4` is exhausted across all 11 pages: every visible provenance field,
+completed teaching table/plate, specimen or histology image, question, supplied answer, practical-
+station exclusion, four-query packet, prior-BMS relation, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-119 blocker. The exact next manifest record is tier-6
+`src_b2a7008a71b901366946` · `circulation.pdf`, SHA-256
+`b2a7008a71b901366946fdbb0aa12d9bbab043a4b96ab052582da8c2983a3f29`, 665,132 bytes,
+one native-text 9828×22549.9-point giant portrait page under `Pathology / Notes and Summaries`.
+Its full-detail render/read, extreme-page geometry/native-text reality, visible provenance, and
+teaching-map versus prompt/key/annotation boundary are the exact next-source blockers.
