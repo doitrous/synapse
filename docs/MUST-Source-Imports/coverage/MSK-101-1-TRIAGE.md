@@ -1108,3 +1108,39 @@ Removing the thirty-two processed unique hashes leaves **70 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Muscle_Table_Final (By Mariam).pdf`, SHA-256 `5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 70 selected inventory paths / 69 unique hashes remain untriaged.
+
+## Completed teaching-only source — Muscle_Table_Final (By Mariam)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Muscle_Table_Final (By Mariam).pdf` | `5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363` | 3 | substantive-text audit sample | pages 1–3 rendered and read | Anonymous Microsoft Word 2016 export processed by iLovePDF, created/modified 24 October 2025. The only rendered title is `Final Complete Table of 15 Muscles`; no institution, department, examiner, sitting, marks, assessment instructions or official-key authority appears. It is a student reference table, not an authenticated MUST exam or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Muscle_Table_Final (By Mariam).pdf" purpose="source"}
+
+### Exact teaching, prompt, key, written, practical and image boundary
+
+Pages 1–2 form one landscape table headed `Final Complete Table of 15 Muscles`. Its fifteen rows are pectoralis major, pectoralis minor, subclavius, serratus anterior, trapezius, latissimus dorsi, deltoid, supraspinatus, infraspinatus, teres minor, subscapularis, teres major, levator scapulae, rhomboid minor and rhomboid major; the columns declaratively list origin, insertion, nerve supply and action. Page 3 is visually blank.
+
+The exact source boundary is **2 teaching/reference pages + 1 blank page / 0 MCQs / 0 written prompts / 0 practical prompts / 0 image-identification prompts / 0 printed answers / 0 response fields**. The title's word `Final` describes the table and is not evidence of a final examination. No declarative table row is recast as a question, concept handle or answer.
+
+### Handle, search and prior-family disposition
+
+Because no assessment prompt survives the source-first boundary, there is no accepted source handle to search or deduplicate. The exactly-four-search requirement resolves as **`0 handles × 4 = 0 searches`**. The muscle facts overlap prior proximal-upper-limb teaching and assessment scopes, but teaching overlap does not create an assessment concept or require repeated prior-family searches. Source-level disposition is therefore **0 live / 0 pending / 0 new concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**, so cumulative totals remain **2793 questions / 2707 answers / 32 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2793 | 2707 | 32 | 0 | 1 | 31 | TBD |
+
+No module ID, content record, answer, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the thirty-three processed unique hashes leaves **69 selected inventory paths / 68 unique SHA-256s**. Their sorted, newline-joined hash checksum is `d1b1de91bfc075ea7b8df93496fc8550660995ada1e85e14c968abb5a7959a58`. Remaining audit-review debt is 31 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`33 + 68 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - 4-Upperlimb MCQs.pdf`, SHA-256 `d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0`, 64 pages.
+
+**BLOCKED — S1 cannot be approved:** 69 selected inventory paths / 68 unique hashes remain untriaged.
