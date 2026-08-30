@@ -23378,3 +23378,94 @@ metadata names `Mamdouh` and dates the Word export 7 April 2026, neither of whic
 visible authorship or academic-year authority. Its complete render/native boundary, provenance,
 teaching/prompt/key/practical ruling, four-search gate, prior-BMS reconciliation, arithmetic, and
 subsequent exact next debt remain to be separately adjudicated.
+
+## Family 231 — Dr El-Sawy adverse-drug-reaction and altered-response teaching handout
+
+### Source identity, complete render/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_e5a845e28fef30138a40` · `HU-ARDS.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `e5a845e28fef30138a40e7936068ef2b3a3b85c3e47b828aa851d72d17458fab` · **339,368 bytes** |
+| Format / complete visual boundary | **Seven native-text portrait A4 pages, 595.32×841.92 points, PDF 1.7**. All seven pages were rendered at 180 dpi into seven non-empty 1,489×2,105-pixel images and read individually at original detail. Every title, definition, table cell, comparison row, example, continuation, footer, and page number is assigned below; there is no page or crop remainder. |
+| Native-text reality | Layout extraction contains **1,223 words / 12,824 bytes** and raw extraction contains **1,223 words / 8,616 bytes**. Both agree with the renders and preserve all seven teaching pages. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Visible provenance | Every page visibly carries `Pharmacology`, `Adverse Drug Reactions`, the footer `DR. El-Sawy`, and page numbering 1–7. This establishes visible Dr El-Sawy attribution and pharmacology-topic provenance, but no university/faculty, module code, academic year, date, assessment title, candidate field, or marks are visible. |
+| Metadata caution | Metadata author is `Mamdouh`; creator/producer is Microsoft Word LTSC; creation/modification is 7 April 2026. The author conflicts with the visible `DR. El-Sawy` footer, and the date is an export timestamp. Neither may override visible attribution or establish an academic year, teaching date, or sitting. |
+| Authority | Local tier-6 Dr El-Sawy teaching handout contextually placed in BMS-102. It is visibly authored teaching material, not an authenticated Helwan assessment, answer key, or practical station. |
+
+### Exhaustive page-first teaching, prompt, key, residue, and practical boundary
+
+| Page | Exhausted visible content | Boundary ruling |
+|---:|---|---|
+| 1 | Definitions of adverse drug event, adverse drug reaction, and side effect; four-feature side-effect/ADR comparison; Type A–F ADR classification | Completed definitions, comparison, and taxonomy only: **0 prompts / 0 answers / 0 practical**. The empty parentheses in `Comparision ( ) Side Effect & ADR` are a source typography residue, not a completion blank. |
+| 2 | Completed Type A–F descriptions: augmented pharmacological/side/toxic/interaction effects, bizarre allergy/idiosyncrasy, chronic tolerance/dependence, delayed teratogenicity/carcinogenicity, end-of-use examples, and primary/secondary treatment failure | Completed teaching table: **0 / 0 / 0**. Numbers enumerate disclosed categories and examples rather than learner tasks. |
+| 3 | Drug-dependence definition; four-row habituation/addiction comparison; pharmacogenetic/idiosyncratic-response definition; decreased-response mappings for succinylcholine, vitamin D, oral anticoagulants, and mydriatics | Completed comparison and condition mappings: **0 / 0 / 0**. |
+| 4 | Increased-response mappings for pseudocholinesterase deficiency, hereditary methemoglobinemia, G6PD deficiency, and rapid/slow acetylator phenotypes, with named drug examples | Completed condition/consequence mappings: **0 / 0 / 0**. |
+| 5 | Malignant-hyperthermia cause/course/treatment block; completed direction statements to increase dose for decreased hereditary response and decrease dose for increased hereditary response | Completed explanatory and management statements: **0 / 0 / 0**. The numbered `In case... We must...` lines supply their own conclusions and are not question/answer pairs. |
+| 6 | `Hyporeactivity to Drugs`: definition; tolerance, tachyphylaxis, desensitization, and drug-resistance forms; five mechanisms, including receptor desensitization/down-regulation, enzyme induction, mediator exhaustion, and physiological adaptation | Completed definition, comparison, and mechanisms: **0 / 0 / 0**. |
+| 7 | `Hyperreactivity to Drugs`: rebound/withdrawal definition and forms, receptor-up-regulation mechanism, gradual-withdrawal prevention, and four drug/clinical-situation/sudden-withdrawal mappings | Completed definition and teaching table: **0 / 0 / 0**. The beta-blocker consequence is visibly truncated at `Acute myocardial`; that incomplete source phrase is a teaching-text residue, not a response field. |
+
+The source contains no question mark, imperative assessment stem, options, response area, missing-
+term cue, candidate answer, key marker, image-identification request, or practical procedure. Section
+labels such as `Definition`, `Types`, `Forms`, `Mechanisms`, and `Prevention` introduce completed
+notes; underlines, coloured emphasis, arrows, numbered taxonomy, and comparison cells organize
+disclosed teaching content.
+
+The governed source-local assessment boundary is therefore **0 MCQs + 0 True/False + 0 written
+prompts + 0 completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw
+prompt occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question
+records, and 0 prompt-like residues**. Source wording—including `Comparision`, the repeated
+`2,7,9,10 (1972)` clotting-factor text, `IV Dantrolene 1 mg`, the hypo-/hyperreactivity headings,
+and the truncated `Acute myocardial` entry—is preserved as visible source truth rather than silently
+corrected or converted into medical guidance.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-handle
+row is fabricated. ADR classification, pharmacogenetic reactions, tolerance, dependence, receptor
+regulation, and withdrawal overlap prior BMS teaching or assessment concepts, but a completed
+teaching handout is not a new tested-handle occurrence. Prior-BMS assessment reuse is therefore
+**0** and concept delta is **+0**.
+
+| Measure | Family 231 | Auxiliary cumulative (Families 12–231) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 231
+establishes completed ADR/altered-response teaching and visible-author evidence only, not
+assessment, official-key, practical, verified-year, medical-guidance, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 231
+
+`src_e5a845e28fef30138a40` is exhausted across all seven pages: every definition, classification,
+comparison, condition mapping, mechanism, example, attribution/footer, source residue, metadata
+limitation, zero gate, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-231 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 231 is **292 paths / 285 unique hashes**, leaving exactly **70 selected paths / 63
+unique hashes**. Checksums are **292 + 70 = 362 paths** and **285 + 63 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `5b57d36f1e06022cb01bb2c1e08482b99b498297940677ba361856654bca2c23`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`ddec3576c53e00dd1c4217c67d29daf9e09c8f18068b9f2de23be521e7af32dc`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_ee3b50a7d8962978a76f` ·
+`KASR Pharmacology_Dose-Response.pdf`, SHA-256
+`ee3b50a7d8962978a76f23efa33af0045d7af8a3f15f96661008e8260a9f3889`, **16,725,824 bytes**,
+**13 OCR-needed 1,376×768-point landscape pages** under `Pharmacology / Notes and Summaries`.
+Its filename and manifest origin hint identify Kasr Alainy, so external-authority adjudication is
+required before eligibility; its first page visibly begins a dose-response-relationship teaching
+sheet. Its complete full-resolution/OCR boundary, provenance, teaching/prompt/key/practical ruling,
+four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
