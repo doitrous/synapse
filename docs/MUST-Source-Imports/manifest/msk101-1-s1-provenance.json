@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "812c7d7f579c2aa0f1265c5bf22269671befd4e1b1e3891bada20bfbd146efe3",
-    "triageMarkdown": "1aa32b3ea08d592c18e49a5c8fcaa2bbe988ec75037b24a220fa5eea04b7ff4f"
+    "readinessMarkdown": "dc2ec27b67f9f24238bb2df7f2d49f70efe0082af2309799f2485e63fd1df4c2",
+    "triageMarkdown": "30ecbe680184b9cb70872236e4cc907e7cf04d5c2cc6165c0f6131a727428264"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -89,6 +89,7 @@
       "af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80",
       "af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe",
       "b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7",
+      "b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005",
       "b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9",
       "bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7",
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
@@ -113,7 +114,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 61
+    "uniqueSha256": 62
   },
   "completedSourceCoverage": [
     {
@@ -1830,26 +1831,58 @@
         "the entire forty-item embryology bank is source-unkeyed",
         "printed wording and academically questionable keys are retained without correction"
       ]
+    },
+    {
+      "sha256": "b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005",
+      "sourcePages": 4,
+      "renderedReadPages": "1-4",
+      "assessmentPages": "1-4",
+      "printedPromptObservations": 17,
+      "objectiveMcqPrompts": 12,
+      "matchingPrompts": 5,
+      "printedKeyObservations": 17,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 17,
+      "familyAnswerDelta": 17,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Ahmed Hani Sobhi Sadiq student Upper Limb question sheet created in Writer and exported through LibreOffice 7.4 on 17 October 2024; no printed institution, department, examiner, sitting, marks or official faculty-key claim",
+      "boundaryDisposition": "continuous Q1-Q17 keyed assessment: twelve conventional MCQs plus five separately numbered matching rows Q3-Q7, followed by a complete model-answer line; no written, practical, image-identification, teaching-only, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "the matching instruction ends with parenthetical 14 without an explained marks label",
+        "Q1 option lettering prints d before c",
+        "Q15 merges options d and e on one line",
+        "model-answer spacing joins Q9 and Q10"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6079,
-    "printedKeyObservations": 5889,
+    "printedPromptObservations": 6096,
+    "printedKeyObservations": 5906,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 41,
-    "uniqueSha256": 40,
-    "sortedNewlineSha256": "a6eddfdcf811c151a259af11ba697307de0ed9f54e745f46b5894854bdb6b8b0",
+    "inventoryMetadataRows": 40,
+    "uniqueSha256": 39,
+    "sortedNewlineSha256": "4514eee4293aaf66612b46b5b489204ba6f1adbdd532ee1e005db3a2121eeba5",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 15
+      "substantive-text": 14
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1857,12 +1890,12 @@
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 15
+    "substantive-text": 14
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 61,
-    "remainingUniqueSha256": 40,
+    "processedUniqueSha256": 62,
+    "remainingUniqueSha256": 39,
     "processedPlusRemaining": 101
   }
 }

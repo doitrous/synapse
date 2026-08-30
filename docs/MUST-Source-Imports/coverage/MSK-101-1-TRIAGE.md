@@ -2406,3 +2406,49 @@ Removing the sixty-one processed unique hashes leaves **41 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/anatomy mcq (by Ahmed Hany).pdf`, SHA-256 `b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005`, 4 pages.
 
 **BLOCKED — S1 cannot be approved:** 41 selected inventory paths / 40 unique hashes remain untriaged.
+
+## Completed source — anatomy mcq (by Ahmed Hany)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/anatomy mcq (by Ahmed Hany).pdf` | `b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005` | 4 | substantive-text audit sample | pages 1–4 rendered and read | Ahmed Hani Sobhi Sadiq student `Upper Limb` question sheet created in Writer and exported through LibreOffice 7.4 on 17 October 2024. No printed institution, department, examiner, sitting, marks or official faculty-key claim appears; the author attribution and Midterm folder do not authenticate an examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/anatomy mcq (by Ahmed Hany).pdf" purpose="source"}
+
+### Exact MCQ, matching, key, written and practical boundary
+
+The four pages form one continuous Q1–Q17 assessment. Q1–Q2 and Q8–Q17 are conventional MCQs. The `3–7` instruction asks the reader to match five separately numbered left-column structures to five descriptions; each numbered row requires an independently recoverable response and is counted once. Page 4 ends with a complete `Model answers` line covering every label Q1–Q17.
+
+| Format | Printed prompts | Model-answer observations | Source-unkeyed |
+|---|---:|---:|---:|
+| Conventional MCQs Q1–Q2,Q8–Q17 | 12 | 12 | 0 |
+| Separately numbered matching rows Q3–Q7 | 5 | 5 | 0 |
+| **Total** | **17** | **17** | **0** |
+
+There are **0 written prompts / 0 practical or image-identification prompts / 0 teaching-only pages / 0 answer-only observations**. The parenthetical `(14)` after the matching instruction is retained as an unexplained source mark or notation and is not treated as a prompt or answer.
+
+Preserved defects include Q1 printing option d before c; Q15 merging options d and e on one line; Q13's key and wording being retained without academic correction; and the model-answer line joining Q9 and Q10 without a separating space. No answer is reconstructed or repaired.
+
+### Source-first collapse, search gate and prior-MSK disposition
+
+Candidate scopes are shoulder-girdle and carpal bones; definitions of axilla, pectoral/shoulder/back regions and cubital fossa; pectoral/back/scapular muscles; axillary walls and fascia; axillary artery and vein; brachial-plexus branches; and rotator-cuff anatomy. Every scope maps to the completed Upper Limb Anatomy H1–H5 family.
+
+No genuinely new accepted handle survives internal and prior-MSK reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct keyed assessment is now `sourceProcessed=true`. Its delta is **+17 questions / +17 answer observations / +0 concepts**. Cumulative arithmetic is **6079 + 17 = 6096 questions**, **5889 + 17 = 5906 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6096 | 5906 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-two processed unique hashes leaves **40 selected inventory paths / 39 unique SHA-256s**. Their sorted, newline-joined hash checksum is `4514eee4293aaf66612b46b5b489204ba6f1adbdd532ee1e005db3a2121eeba5`. Remaining audit-review debt is 14 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 2 audit-extract-failed rows, and unique-hash accounting is **`62 + 39 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/MCQs On Pect. Region-Final (By Youssef BenAhmed).pdf`, SHA-256 `6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609`, 10 pages.
+
+**BLOCKED — S1 cannot be approved:** 40 selected inventory paths / 39 unique hashes remain untriaged.
