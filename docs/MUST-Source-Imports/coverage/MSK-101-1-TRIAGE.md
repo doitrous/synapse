@@ -138,10 +138,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+216 question
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histology MSK101-1 Cases (Answers)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Cases (Answers).pdf` | `2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0` | 12 | substantive-text audit sample | pages 1–12 rendered and read | Microsoft Word 2024 export authored by Abdelsalam Bakr, created 15 January 2026. The heading is `Histology MSK101-1 Cases Questions`; no institution, department, examiner, sitting, marks or official-key authority is printed. Bold answer choices make it a self-contained answered local cases bank, not a documented MUST exam sitting or official key. |
+
+### Exact cases, MCQ, written, practical and key boundary
+
+All 12 pages contain assessment material. The exact source boundary is **43 four-option MCQs / 43 bold printed keys / 43 prompt-matched recovered answers**. There are **0 written prompts, 0 practical/image prompts and 0 teaching-only pages**. Page 1 repeats the Merkel-cell disc-ending question once; other cases recur with altered stems or answer targets. Repeats were retained as prompt occurrences and collapsed only at concept assignment. No answer was inferred or corrected.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 43 occurrences were assigned once across seven handles, reconciling as **10 + 9 + 7 + 7 + 2 + 4 + 4 = 43**. Each received exactly four searches across live, server, pending/import-ready and documentation evidence, for **7 × 4 = 28 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 10, epidermal cells/layers, dermis and junctions (`Merkel cells disc-like nerve ending epidermis`; `stratum spinosum desmosomes keratinocytes`; `papillary dermis type III collagen elastic vessels`; `stratum granulosum cement barrier skin`) | externally new; no prior skin handle — **new**. |
+| H2 | 9, cartilage, fibrocartilage and endochondral ossification (`articular cartilage no perichondrium`; `fibrocartilage intervertebral disc collagen Masson trichrome`; `endochondral ossification proliferation hypertrophy calcification invasion`; `chondrocytes interstitial growth cartilage`) | externally new; no prior cartilage handle — **new**. |
+| H3 | 7, bone cells, resorption and structure (`osteoclasts Howship lacuna bone resorption fracture remodeling`; `osteocytes gap junctions bone canaliculi`; `spongy bone marrow cavities compact bone Haversian`; `low calcium osteoclast function`) | externally new; no prior bone handle — **new**. |
+| H4 | 7, skeletal-muscle fiber types and sarcomere microstructure (`red white skeletal muscle fibers marathon sprinter`; `sarcomere I band actin M line`; `titin anchors myosin filaments sarcomere`; `skeletal muscle mitochondria smooth ER fibrils`) | externally new; no prior muscle handle — **new**. |
+| H5 | 2, skeletal-muscle regeneration (`satellite cells skeletal muscle regeneration`; `skeletal muscle fibers regeneration satellite cell differentiation`; `muscle weakness degenerated fibers satellite cells`; `skeletal muscle regenerative cells histology`) | externally new; no prior regeneration handle — **new**. |
+| H6 | 4, white/brown adipose tissue (`brown adipose heat newborn cytochrome oxidase`; `white adipose signet ring H&E`; `brown white adipose blood vessels fat droplets`; `adipose tissue thermogenesis hypothermia infant`) | externally new; exact reuse of completed MSK adipose scope — **prior-MSK collapse**. |
+| H7 | 4, connective-tissue cells and collagen fibers (`plasma cell clock face negative Golgi loose connective tissue`; `mast cells allergy histamine anaphylaxis connective tissue`; `macrophage reticular cell antigen presenting cells`; `regular collagen fibers Masson trichrome fibroblast`) | externally new; exact reuse of completed MSK connective-tissue cell/fiber scope — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 7 new**. Prior-MSK collapse removes H6 and H7, producing a completed-source concept delta of **0 live / 0 pending / 5 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+43 questions / +43 answers / +5 concepts**. Cumulative arithmetic is **261 + 43 = 304 questions**, **251 + 43 = 294 answers**, and **14 + 5 = 19 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 304 | 294 | 19 | 0 | 1 | 18 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these four substantive-text paths and unique hashes leaves **99 selected inventory paths / 97 unique SHA-256s**. Their sorted, newline-joined hash checksum is `0ca647ac43a558bbbeb18bbdd8ade773ef780c4734fc046949f1a3b142754be4`. Remaining audit-review debt is 55 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`4 + 97 = 101`**.
+Removing these five substantive-text paths and unique hashes leaves **98 selected inventory paths / 96 unique SHA-256s**. Their sorted, newline-joined hash checksum is `8fb2c044ab036fb4b81566ccf7cbc3d88c7b67ae4564592ad5e738127b00fa88`. Remaining audit-review debt is 54 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`5 + 96 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Cases (Answers).pdf`, SHA-256 `2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0`, 12 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage & Bone MCQ + answers JPG.pdf`, SHA-256 `5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb`, 23 pages.
 
-**BLOCKED — S1 cannot be approved:** 99 selected inventory paths / 97 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 98 selected inventory paths / 96 unique hashes remain untriaged.
