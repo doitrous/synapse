@@ -19852,3 +19852,109 @@ unencrypted; PDF 1.5; SHA-256
 and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 43 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 188 — Rank-9 external Module-103 muscle, cartilage and bone histology question bank
+
+### Exact identity, visible authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_70bdaae49cc4369c1686` / `70bdaae49cc4369c1686db42e0f1db2ee3ed6833157705ddbf193332ebb9bf97` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Questions/External Histo Questions on module 103.pdf` |
+| Physical verification | **887,652 bytes; 25 native-text portrait-A4 pages; 595.32 × 841.92 pt; tagged; unencrypted; PDF 1.5**. Full hash, byte size, page count and geometry match; all twenty-five 150-dpi full-page renders are distinct. |
+| Visible / metadata provenance | Every page prints `Dr. Kandeel`, `Questions` and `Module 103`; the bank contains no institution, cohort, formal sitting, year or official-key label. A generic cell illustration is footer furniture. Metadata separately names author `Esraa Tanany`, Word 2010 creator/producer and 17 May 2025 creation/modification. |
+| Authority finding | The manifest filename explicitly identifies an external bank, and neither the visible Module-103 footer nor lecturer name establishes Helwan sitting authority. The answer tables are source answers, not a Helwan official key. |
+
+All **25/25 pages** were rendered at 150 dpi, inspected at full resolution and read against
+the complete native layer. Exact source boundary is:
+
+| Pages | Source-first section | Prompt format and answer boundary |
+|---:|---|---:|
+| 1–9 → 10 | `Muscle Questions`: numbered Q1–Q100 plus Tables I–II, Q101–Q110; one consolidated answer page | 110 prompts / 110 answers = 100 MCQ-or-true/false + 10 text-matching |
+| 11–16 → 17 | `Cartilage Questions`: numbered Q1–Q61 plus two matching tables, Q62–Q71; one consolidated answer page | 71 prompts / 71 answers = 61 MCQ-or-true/false + 10 text-matching |
+| 18–24 → 25 | `Questions On Bone`: numbered Q1–Q65 plus four five-row matching tables; one consolidated answer page | 85 prompts / 84 answers = 65 MCQ-or-true/false + 20 text-matching; numbered Q21 is unkeyed |
+| **Total** | **complete recoverable bank** | **266 external prompts / 265 source answers / 1 unkeyed = 226 MCQ-or-true/false + 40 text-matching** |
+
+Arithmetic is `266 = 110 + 71 + 85 = 226 + 40`; `265 = 110 + 71 + 84`; and `1
+unkeyed = 266 - 265`. Bone Q21's answer cell prints only `----`, which is preserved as no
+answer content and is not reconstructed. Every other numbered and table-row item has exactly
+one source answer. There are **0 free-response written prompts**.
+
+Source wording and keys remain literal without editorial or medical repair. This includes
+`purkinge`, `sacromere`, `pericondrium`, `otseoclasts`, the source's duplicate/near-duplicate
+items, true/false option conventions, answer letters beyond `d` in matching/extended-choice
+items and all printed key states. No answer is endorsed merely by inventorying it.
+
+### Practical and teaching boundary
+
+The 25 pages contain prose option sets and text-only matching tables. There is no specimen,
+micrograph, diagram used by a question, masked structure, station, identification callout,
+response field or delayed image label. The generic footer cell icon is decorative furniture.
+Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys /
+0 teaching scopes**. Answer tables and textual matching columns do not become practical plates
+or standalone teaching compositions.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 266 occurrences consolidate to eighteen complete domain handles:
+
+| Domain handle | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| skeletal-muscle fibre architecture, nuclei, sarcoplasm and connective-tissue sheaths | skeletal muscle fiber histology connective tissue sheaths; sarcolemma sarcoplasm nuclei endomysium perimysium epimysium; skeletal muscle fiber structure branching sites histology; skeletal muscle fiber histology | Prior external/accepted muscle banks and Families 60, 75, 85, 142, 173, 182–183 own the scope. |
+| sarcomere bands, myofilaments and contraction changes | sarcomere bands myofilaments contraction histology; A band I band H zone Z line M line; sarcomere actin myosin band changes contraction; sarcomere band composition contraction | Prior Families 75, 85, 142, 173 and 182–183 own the scope. |
+| dystrophin, titin and dystroglycan relations | dystrophin titin dystroglycan skeletal muscle; muscle structural proteins dystrophin titin; dystrophin actin external lamina titin elastic lattice; dystrophin titin dystroglycan | Prior muscle/genetic sources and accepted Families 52, 75, 97, 142 and 180 own the scope. |
+| red-versus-white skeletal-muscle fibres | red white skeletal muscle fibers histology; slow twitch fast twitch myoglobin mitochondria glycogen; red white muscle fiber characteristics; red white skeletal muscle fibers | Prior accepted muscle banks/teaching own the complete fibre-type scope. |
+| triad, diad, T-tubule and sarcoplasmic-reticulum systems | triad diad T tubule sarcoplasmic reticulum muscle; skeletal cardiac muscle tubular system histology; T tubule A I junction Z line diad triad; triad diad tubular system | Prior Families 60, 75, 85, 142, 173 and 182–183 own the scope. |
+| skeletal-muscle development, growth, regeneration and dystrophy | skeletal muscle development regeneration satellite cells dystrophy; myoblast myotube hypertrophy skeletal muscle repair; skeletal muscle origin growth regeneration histology; skeletal muscle regeneration satellite cell | Prior Families 52, 75, 85, 142 and 180 own the scope. |
+| cardiac-muscle histology, intercalated discs, Purkinje fibres and repair | cardiac muscle histology intercalated disc Purkinje fibers; cardiac muscle diad BNP regeneration fibrosis; cardiac myocyte intercalated disc junctions Purkinje; cardiac muscle histology | Prior external/accepted histology banks own the complete scope. |
+| smooth-muscle histology, sites, caveolae, contraction and regeneration | smooth muscle histology caveolae dense bodies regeneration; smooth muscle sites structure contraction hyperplasia hypertrophy; smooth muscle spindle cells gap junctions pericytes; smooth muscle histology | Prior external/accepted histology banks own the complete scope. |
+| skeletal, cardiac and smooth-muscle comparison | skeletal cardiac smooth muscle comparison histology; muscle types structure function regeneration comparison; skeletal smooth cardiac muscle shared differences; skeletal cardiac smooth muscle comparison | Prior Families 75, 85, 99, 142, 173 and 182–183 own the comparison. |
+| cartilage matrix, cells, perichondrium, vascularity and growth | cartilage matrix cells perichondrium growth avascular; chondroblast chondrocyte appositional interstitial growth; cartilage histology matrix perichondrium cell nest; cartilage cells matrix perichondrium | Prior Families 57, 60, 77, 80, 84–85 and 142 own the scope. |
+| hyaline-cartilage structure, matrix and sites | hyaline cartilage structure matrix sites histology; hyaline cartilage collagen II costal articular epiphyseal; hyaline cartilage perichondrium cell nest GAG; hyaline cartilage histology | Prior external/accepted cartilage sources own the complete scope. |
+| elastic-cartilage structure, matrix and sites | elastic cartilage structure matrix sites histology; elastic cartilage ear epiglottis perichondrium; yellow elastic cartilage collagen II elastic fibers; elastic cartilage histology | Prior external/accepted cartilage sources own the complete scope. |
+| fibrocartilage structure, collagen and sites | fibrocartilage structure collagen I sites histology; white fibrocartilage intervertebral disc symphysis pubis; fibrocartilage chondrocytes rows no perichondrium; fibrocartilage histology | Prior external/accepted cartilage sources own the complete scope. |
+| bone matrix, compact/spongy architecture, osteons, lamellae and canals | bone matrix compact spongy osteon lamellae canals histology; Haversian Volkmann interstitial circumferential lamellae; compact spongy bone matrix collagen calcium histology; compact spongy bone histology | Prior Families 55, 58–59, 62, 64, 77, 80, 83, 85 and 142 own the scope. |
+| osteogenic cells, osteoblasts, osteocytes and osteoclasts | osteogenic osteoblast osteocyte osteoclast histology; bone cells functions origins Howship lacuna; osteoclast resorption osteoblast osteoid osteocyte canaliculi; bone cells histology | Prior external/accepted bone sources own the complete scope. |
+| periosteum, endosteum, appositional growth and repair | periosteum endosteum bone growth repair nourishment; periosteal layers osteogenic fibrous Sharpey fibers; periosteum endosteum appositional growth bone; periosteum endosteum histology | Prior bone sources own the complete scope. |
+| intramembranous/endochondral ossification and epiphyseal-plate zones | intramembranous endochondral ossification epiphyseal plate zones; bone development ossification remodeling stages; epiphyseal growth plate proliferation hypertrophy calcification ossification; endochondral ossification epiphyseal plate | Prior Families 55, 58–59, 64, 77, 80, 83, 85 and 142 own the scope. |
+| ground-versus-decalcified bone preparation | ground bone decalcified bone histology preparation; grinding method decalcification bone cells lamellae lacunae; ground section decalcified section bone histology; ground decalcified bone preparation | Prior accepted bone practical/theoretical sources own the scope. |
+
+Each of the **eighteen accepted handles** received exactly one query on each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **18 × 4 = 72
+required search invocations**. Literal combined-phrase searches produced eight accepted-ledger
+hits and no exact file hit on the other surfaces; complete-scope comparison establishes **18
+prior external/LCS reuses / 0 additive live / 0 additive pending / 0 additive external
+concepts**. All 266 source occurrences remain counted.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **6,945 / 6,670 / 221** by **+266 / +265 / +0** to **7,211 external prompts / 6,935
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+checks are `6,945 + 266 = 7,211`, `6,670 + 265 = 6,935`, `221 + 0 = 221`, and `12 +
+135 + 74 = 221`.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This hash occurs once in Family187's remainder. Removing its sole path changes the remainder
+from **43 paths / 42 unique hashes** to **42 paths / 41 unique hashes**: tier 3 remains **0 /
+0**, tier 6 remains **31 / 31**, and rank 9 becomes **11 paths / 10 unique hashes within
+rank**. Family187's checksums were
+`846ad80bb7182df635225ef85ebbb89dcc1aa6334e304e31ada3fcaee0fd6a60` (paths) and
+`1b497213103cd3c6b075403697e631645fde6ae50f66af2800a7f51041e39ad0` (unique hashes).
+For the exact post-Family188 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`60a816640069b7c5a3d419ee548353773b5cd7a2d62c12477811ec051a10af86`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`c20c8f82e40522bf1b1c268a771773431efe72e8d450eb234451fddf6e43e1f4`.
+
+The exact next manifest-order debt is rank-9 `src_66e410ea398a7dc0a491`, `Muscle.QUES.pdf`
+(288,360 bytes; 18 native-text portrait-US-Letter pages; tagged; unencrypted; PDF 1.7;
+SHA-256 `66e410ea398a7dc0a4911a21d91eaa821d5c2752fcab0bc401192978d7ad1e36`)
+under `Year 1/LCS 103/All Subjects/Questions/`. It remains unclassified until every page is
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 42
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
