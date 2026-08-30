@@ -21785,3 +21785,98 @@ untagged; unencrypted; no form; PDF 1.4; SHA-256
 and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 23 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 208 — Tier-6 anonymous handwritten lower-limb neurovascular maps
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_6b27ae6e20d11c6c2ce9` / `6b27ae6e20d11c6c2ce95e42bccfc77186b3dff4ddf238ce91b0400b6a85dc5e` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/summary of nerves & vessels of lower limb.pdf` |
+| Physical verification | **3,938,863 bytes; five OCR-needed 612 x 862.55 pt pages; untagged; unencrypted; no form; PDF 1.4 by pdfinfo**. Full hash, byte size, page count and geometry match. All five pages were rendered completely at 240 dpi to five distinct images, OCRed, inspected at original resolution and read completely. The extraction layer contains only five page terminators. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | No page prints an author, institution, lecturer, module, cohort, citation, date, sitting, marks or key claim. Metadata names iOS/Quartz producer and 24 May 2026 creation/modification, but no author. |
+| Authority finding | Anonymous tier-6 handwritten teaching-summary evidence. Manifest placement establishes LCS-103 topical relevance but not Helwan authorship, a recoverable sitting, response form, practical station or official key. |
+
+All **5/5 pages** are completed declarative teaching maps:
+
+| Page | Complete source-first composition |
+|---:|---|
+| 1 | sciatic-nerve roots and division; tibial, posterior-tibial, common-fibular, superficial/deep-fibular muscular/cutaneous/articular/terminal branches; short injury notes; one embedded typed sensory-distribution excerpt |
+| 2 | obturator-nerve lumbar roots plus anterior/posterior branch maps, shared adductor-brevis relation, articular and cutaneous distributions |
+| 3 | femoral-nerve lumbar roots, muscular/articular/cutaneous branches, inguinal-ligament course and anterior/posterior termination |
+| 4 | external-iliac to femoral/profunda/popliteal/anterior- and posterior-tibial/dorsalis-pedis arterial tree with named branches |
+| 5 | internal-iliac anterior/posterior divisions, inferior/superior gluteal and obturator arteries, selected branches and anastomotic territories |
+
+There is **no assessment inventory**. Every branch, distribution, relation, continuation and
+clinical consequence is supplied simultaneously; there is no learner instruction, question
+numbering, option set, blank, masked answer, response field, delayed reveal or key convention.
+Exact delta is **0 eligible or external prompts / 0 keys-or-answers / 0 written prompts / 0
+unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `Longest & Largest in diameter`,
+the common-fibular injury note `Foot drop (Plantar Flexion)`, the tibial injury note `dorsi
+flexion`, `Peroneal (Fibular)`, `Anterior tibial Nerve`, `Adductor Magnus (Pubic)`, `4/c.m
+below inguinal ligament`, the source branch placements, capitalization, arrows and spellings.
+Inventory neither medically repairs nor endorses those states.
+
+### Practical and image boundary
+
+The pages are completed schematic teaching charts, not specimen/model plates or learner maps.
+No structure is masked or numbered for identification, and no response blank or practical key
+appears. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues /
+0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The five pages consolidate to seven complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| sciatic division and injury patterns · p. 1 | sciatic tibial common fibular bifurcation hamstring paralysis foot drop injury | Accepted Families 40, 42, 45, 191–194 and later banks own the complete scope — prior-LCS reuse. |
+| tibial/posterior-tibial, sural and plantar branches · p. 1 | tibial popliteal posterior tibial sural medial lateral plantar branches | Accepted Families 42, 44–45, 191–194 and later banks own the complete scope — prior-LCS reuse. |
+| common-fibular superficial/deep branches · p. 1 | common fibular superficial deep cutaneous anterior lateral compartment branches | Accepted Families 43–45, 191–194 and later banks own the complete scope — prior-LCS reuse. |
+| obturator nerve · p. 2 | obturator anterior posterior branches adductor longus gracilis magnus externus | Accepted Families 39, 41, 45, 191–193 and later banks own the complete scope — prior-LCS reuse. |
+| femoral nerve · p. 3 | femoral muscular articular cutaneous saphenous branches course termination | Accepted Families 39, 41, 45, 191–193 and 205 own the complete scope — prior-LCS reuse. |
+| external-iliac-to-foot arterial tree · p. 4 | external iliac femoral profunda popliteal anterior posterior tibial dorsalis branches | Accepted Families 39, 42–45, 191–193 and 203 own the complete scope — prior-LCS reuse. |
+| internal-iliac gluteal and obturator arteries · p. 5 | internal iliac superior inferior gluteal obturator artery branches anastomoses | Accepted Families 40, 45, 191–195 and later banks own the complete scope — prior-LCS reuse. |
+
+Each of the **seven accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **7 x 4 =
+28 required search invocations**. The deliberately conjunctive literal queries returned no
+exact-file hit on any surface; complete-scope comparison against the accepted ledger is
+decisive and gives **7 prior-LCS theoretical reuses / 0 additive live / 0 additive pending /
+0 additive new teaching scopes**. Declarative theoretical scopes do not enter tested-concept
+or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues / 87 keys**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical delta is
+zero.
+
+This hash occurs once in Family 207's remainder. Removing its sole path changes the remainder
+from **23 paths / 22 unique hashes** to **22 paths / 21 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **13 paths / 13 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 207's checksums were
+`2ccb63a1f8c7ba3ce8b9cbe26aafa327baab803807f609c5c339aceb42d2f4bb` (paths) and
+`8345a6aaa6a5ef77c9af131664b6fb03988e605dfcd33ed878dc4a1a504cc0eb` (unique hashes).
+For the exact post-Family-208 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`398cd08c8bcad05f055f05863f718801a57069f5e4ecc46917f0ab929564c7e8`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`abec00f953b91bcf9b14f57db27d5cdc0340e530a44119a6cc0321438f941d2c`.
+
+The exact next manifest-order debt is rank-9 `src_d8588f62176e0324d40c`, `anatomy short
+essay questions with answers _240717_223413.pdf` (3,920,967 bytes; 32 native-text 612 x 792
+pt pages; untagged; unencrypted; no form; PDF 1.7; SHA-256
+`d8588f62176e0324d40ca2b8ea1b0097b808dc2eadd8783aeda88b057e903185`) under `Year 1/LCS
+103/Anatomy/Questions/`. It remains unclassified until all 32 pages are rendered and read.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 22 tier-6/rank-9 path debts remain.
+No download, source edit, ID, content record, catalogue update, import or source copy was
+created.
