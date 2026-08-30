@@ -20279,3 +20279,112 @@ neoplasia5.pdf`, SHA-256
 while metadata names `Mohammed Abdel-Latif` and records 20 April 2026. Its complete visible
 authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 193 — Nahed Soliman current BMS-102 Neoplasia 5 lecture and interactive questions
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_771db2e7413e8f717ff1` · `SMP neoplasia5.pdf` under the exact local `Pathology / Theoretical / Lec 15 - Neoplasia 5` folder |
+| SHA-256 / exact size | `771db2e7413e8f717ff1ac81db649431f538e96176c020fef46793d529cb619f` · **807,911 bytes** |
+| Format / complete read | **26 native-text 960×540-point landscape pages**. All 26 pages were rendered into 26 non-empty 1467×825-pixel images and read individually at original detail. Native extraction contains **840 words / 7,157 bytes**; high-detail visual inspection and OCR resolved the interactive controls and dense term-definition bank that the sparse native layer omits. |
+| Visible current authority | Page 1 visibly prints the Helwan pathology/faculty marks, Academic Year **2025/2026**, Year 1, Semester 2, and `Basic Medical Science (BMS-102)`. Page 2 visibly identifies `Neoplasia 5`, **Nahed Soliman**, Professor of Pathology and Head of Pathology Department, and 20 April 2026; the date/module footer continues through the deck. These source-facing fields establish a current dated Helwan BMS-102 theoretical lecture. |
+| Metadata caution | PDF metadata names `Mohammed Abdel-Latif` as author and Microsoft PowerPoint 2016 as creator/producer, with 20 April 2026 creation/modification. The conflicting metadata author is retained as carrier history; visible Nahed Soliman attribution controls source-facing authorship. |
+| Authority | Current tier-4 Helwan BMS-102 theoretical teaching material with visibly designated interactive T/F, MCQ, and matching operations. It supports auxiliary unkeyed prompt evidence, not an authenticated exam sitting, official departmental key, mark scheme, candidate response, or practical station. |
+
+### Complete page-first teaching, prompt, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–4 | Current cover, lecturer/module/date, section title, and objectives | Provenance and completed teaching plan; objective verbs are curriculum statements, not candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 5–16 | Local and systemic tumour effects; cachexia; paraneoplastic syndromes; laboratory diagnosis; tumour markers; and immunohistochemistry, with completed lists, diagrams, and examples | Declarative and diagnosis-disclosing teaching; **0 / 0 / 0**. |
+| 17–18 | Two `INTERACTIVE QUESTIONS` True/False term-definition operations: the eight commonly dysregulated cancer functions paired with the eight-hallmark list, and `Familial Cancer Syndromes` paired with a microbial-carcinogenesis definition | **2 T/F prompts / 0 supplied answers / 2 unkeyed**. Both True/False controls are visibly empty. The second operation tests the false pairing but does not print a correction. |
+| 19–22 | Four `INTERACTIVE QUESTIONS` MCQs: oncogene definition, progression definition, radiation-carcinogenesis definition, and somatic-mutation definition | **4 text MCQs / 0 supplied answers / 4 unkeyed**. Uniform circles and option formatting supply no key; the source's awkward p.22 wording is preserved rather than silently repaired. |
+| 23–25 | One matching exercise spread across three slides: 12 lettered terms on p.23 and 12 definition choices on pp.24–25, covering targeted therapy, metastatic steps, benign-tumour harms, cancer genetics/clonality/multistep development, malignant cytology, cancer risks, and microbial carcinogenesis | **12 matching prompt operations / 0 supplied answers / 12 unkeyed**. Each term-definition relation is one requested operation. The two complete banks are the question options, not a completed association or key: no line, number, selection, or feedback maps a term to a definition. |
+| 26 | References | Bibliographic teaching matter; **0 / 0 / 0**. |
+
+The governed boundary is therefore **18 raw prompt occurrences = 2 True/False + 4 MCQ + 12
+matching operations**, with **0 source-supplied answers + 18 visibly unkeyed operations**. There
+are **0 image prompts, 0 drawing tasks, 0 practical stations, 0 candidate responses, and 0
+unassigned residues**. Completed teaching lists, definition-bank text, objective verbs, option
+circles, slide numbers, footers, and references are assigned without becoming extra prompts or
+answers.
+
+### Source-first retention, semantic collapse, 17-handle search ledger, and prior-BMS reconciliation
+
+All **18 prompt occurrences remain retained**: no literal duplicate record is excluded. The p.18
+T/F mismatch and the p.23–25 `Microbial Carcinogenesis` matching item test the same generic
+microbial-carcinogenesis mechanism, so **`18 retained - 1 semantic reduction = 17 accepted
+handles`**. The remaining matching items request separate associations rather than one
+inseparable composite score. Every handle received exactly four fresh source-first searches across
+live governed state, `docs/questions-import-ready`, Helwan coverage, and prior BMS Families
+1–192: **`17 × 4 = 68 required and completed searches`**.
+
+| Ref(s) / accepted handle | Exactly four required queries | External exact-scope disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| p.17 · `cancer-eight-dysregulated-functions` | `hallmarks of cancer`; `eight dysregulated functions cancer`; `malignant transformation alterations`; `self sufficiency growth signals evasion apoptosis angiogenesis` | no same-scope | exact Family-1 `malignant-transformation-alterations` reuse |
+| p.18,p.23–25-L · `microbial-carcinogenesis-host-autonomous-growth` | `microbial carcinogenesis autonomous host growth`; `viral DNA insertion host genome cancer`; `microbial chronic inflammation neoplasia`; `viruses bacteria carcinogenesis mechanism` | no same-scope | prior pathogen-specific HBV, HPV, and H. pylori handles do not test the generic three-mechanism definition; **delta** |
+| p.19 · `oncogene-mutated-constitutively-active-proto-oncogene` | `oncogene mutated constitutively active proto-oncogene`; `oncogene definition`; `proto-oncogene activation autonomous growth`; `dominant growth-promoting cancer gene` | no same-scope | exact Family-5 `oncogene-mutated-growth-promoting-gene` reuse |
+| p.20 · `tumor-progression-mutation-accumulation-genetic-instability` | `tumor progression mutation accumulation genetic instability`; `progression accumulation of mutations cancer`; `genetic instability tumour progression`; `clonal evolution mutation accumulation` | no same-scope | contained by Family-1 `tumour-initiation-progression-heterogeneity` and Family-4 mutation-accumulation/genetic-instability scopes; reuse |
+| p.21 · `radiation-carcinogenesis-pyrimidine-dimer-dna-damage` | `radiation carcinogenesis pyrimidine dimers`; `UV light pyrimidine dimers skin cancer`; `ionizing radiation carcinogenesis`; `radiation DNA damage cancer definition` | no same-scope | prior radiation-risk and radiotherapy handles do not test this generic UV/ionizing carcinogenesis mechanism; **delta** |
+| p.22 · `somatic-mutation-body-cell-definition` | `somatic mutation cells elsewhere body`; `somatic versus germline mutation cancer`; `somatic mutation definition body cells`; `non-heritable acquired mutation tumor` | no same-scope | no prior accepted generic somatic-mutation definition; **delta** |
+| p.23–25-A · `targeted-molecular-therapy-definition` | `targeted molecular therapy specific molecules tumor growth`; `targeted therapy intracellular signaling angiogenesis apoptosis`; `molecularly targeted cancer therapy definition`; `targeted therapy immune recognition tumor cells` | no same-scope | Family-4 selects targeted therapy for a mutation-driven tumour but does not test this general mechanism definition; **delta** |
+| p.23–25-B · `metastatic-intravasation-vascular-entry` | `metastatic intravasation vascular entry`; `movement into lymphatic or blood vessels metastasis`; `tumor intravasation basement membrane endothelium`; `metastatic cells enter circulation` | no same-scope | exact Family-190 p.19 reuse |
+| p.23–25-C · `benign-neoplasm-harmful-effects` | `harmful effects benign neoplasms`; `benign tumor local destruction hormone production`; `benign neoplasm pain bleeding`; `benign tumor dangerous location functional effects` | no same-scope | prior benign-characteristic and adrenal-functional-effect handles do not test this generic local/functional harm set; **delta** |
+| p.23–25-D · `cancer-genetic-machinery-disease-basis` | `cancer disease of genes genetic machinery`; `basic pathogenic alteration genetic machinery cancer`; `genes normally present cells cancer`; `molecular basis neoplasia genetic disease` | no same-scope | contained by Family-1 malignant-transformation/molecular-basis scope; reuse |
+| p.23–25-E · `malignant-cytologic-features` | `cytologic features of malignancy`; `large irregular nuclei prominent nucleoli mitoses`; `anaplasia nuclear pleomorphism`; `malignant cell cytology criteria` | no same-scope | exact Family-5 `anaplasia-definition-morphology` and Family-141 cytology-drawing reuse |
+| p.23–25-F · `metastatic-invasion-proteolytic-stromal-degradation` | `metastatic invasion proteolytic enzymes`; `destruction movement through adjacent tissue tumor`; `extracellular matrix degradation metastasis`; `tumor invasion surrounding stroma proteases` | no same-scope | exact Family-4/127/191 extracellular-matrix-degradation reuse |
+| p.23–25-G · `cancer-development-risk-factor-categories` | `cancer risk factors environmental occupational socioeconomic race familial`; `risk factors developing cancer occupational exposure`; `cancer epidemiologic risk categories`; `environmental familial cancer risk factors` | no same-scope | prior lesion-specific risk prompts do not test this generic category set; **delta** |
+| p.23–25-H · `metastatic-colonization-host-growth-inhibition-evasion` | `metastatic growth elsewhere host tissue inhibitory signals`; `metastatic colonization growth inhibitory signals`; `secondary tumor growth distant tissue`; `metastatic cells avoid host growth inhibition` | no same-scope | contained by Family-190 `neoplasm-relative-autonomy-stop-signal-loss`; reuse |
+| p.23–25-I · `cancer-clonal-mutant-daughter-cell-advantage` | `cancer is clonal altered genes daughter cells`; `tumor clonality daughter cells mutation`; `clonal origin neoplasm inherited mutations`; `cancer clonal growth survival adaptation` | no same-scope | contained by Family-1 tumour-initiation/progression/clonal-evolution scope; reuse |
+| p.23–25-J · `cancer-multistep-multiple-genetic-hits` | `cancer multistep process multiple genetic hits`; `multiple mutations deletions translocations neoplasia`; `multistep carcinogenesis genetic alterations`; `single genetic alteration not enough cancer` | no same-scope | exact Family-1 multistep-carcinogenesis and Family-141 chart reuse |
+| p.23–25-K · `metastatic-extravasation-vascular-exit` | `metastatic extravasation movement out blood vessels`; `tumor extravasation lymph nodes organs`; `metastatic cells exit circulation endothelium`; `extravasation definition cancer metastasis` | no same-scope | Family-190 prints the term against a TNM definition but does not test the vascular-exit definition; **delta** |
+
+External exact-scope arithmetic is **0 live / 0 pending / 17 no same-scope**. Prior-BMS
+reconciliation assigns **10 exact/contained handle reuses** and **7 new scopes**, so **`17 - 10
+= +7 concepts`**. Declarative overlap within this deck and prior completed teaching preserves
+source context but does not independently zero a genuine present interactive operation.
+
+### Family-193 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 193 | Auxiliary cumulative (Families 12–193) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 18 = 2 T/F + 4 MCQ + 12 matching | 2,547 | 762 | 3,309 |
+| Source-supplied answers | 0; 18 unkeyed | 1,668 | 405 | 2,073 |
+| Retained question records | 18 | 2,256 | 552 | 2,808 |
+| Accepted handles / required searches | 17 / 68 | 2,038 / — | — | — |
+| Prior-BMS handle reuses | 10 | — | — | — |
+| Cross-family concept delta | +7 | +972 over primary | 372 | 1,344 |
+| **Distinct tested concepts** | **17 source-local** | **972 additions** | **372** | **1,344** |
+
+Checksums: `2 + 4 + 12 = 18 prompts`; `0 + 18 = 18 answer states`; `18 - 0 literal
+exclusions = 18 retained`; `18 - 1 semantic reduction = 17 handles`; `17 × 4 = 68 searches`;
+and `17 - 10 = +7`. Auxiliary arithmetic is `2,529 + 18 = 2,547`, `1,668 + 0 = 1,668`,
+`2,238 + 18 = 2,256`, `2,021 + 17 = 2,038`, and `965 + 7 = 972`. All eligible arithmetic
+is `762 + 2,547 = 3,309`, `405 + 1,668 = 2,073`, `552 + 2,256 = 2,808`, and `372 + 972
+= 1,344`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,547 prompts / 1,668 answers /
+2,256 retained / 2,038 handles / +972 concepts**. All eligible is **3,309 / 2,073 / 2,808 /
+1,344**. Family 193 establishes current Helwan theoretical teaching and unkeyed interactive-
+question evidence only, not an exam sitting, official departmental key, mark weight, candidate
+response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 193
+
+`src_771db2e7413e8f717ff1` is exhausted across all 26 pages: every visible current-authority and
+metadata field, objective, teaching list, diagram, T/F statement, MCQ, matching term and definition
+bank, empty response control, same-source semantic reduction, search packet, prior-family relation,
+reference, and arithmetic term is assigned once, with **zero source remainder** and no Family-193
+blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_7c79d90e00f17c534be6` · `Cell injury
+lecture 1.pdf`, SHA-256
+`7c79d90e00f17c534be66ba3cfa964bf2972c7a4767985e9c1a20d05469350f0`, **4,436,783 bytes**,
+**51 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 2 - Cell Injury
+1`. Its first visible text identifies `CELL INJURY 1`, Dr Enas Megahed Elhosary, Lecturer of
+Pathology, Faculty of Medicine, Helwan University, while metadata names `fmt` and records 23
+February 2026. Its complete visible authority/date boundary, teaching/prompt/key/callout/practical
+split, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
+adjudicated.
