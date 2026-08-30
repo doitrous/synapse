@@ -4903,3 +4903,57 @@ Removing this one empty-text path and unique hash leaves **44 selected inventory
 The next evidence-ranked `05 MCQs` source is the two-page, answer-labelled Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - [Answers] Blood Must.pdf`, SHA-256 `d738a7058cf60ce6456496a9d92ff33842e5cfd27693963a85079a2615ce151d`.
 
 **BLOCKED — S1 cannot be approved:** 44 selected source paths remain untriaged.
+
+## Completed source — [Answers] Blood Must
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - [Answers] Blood Must.pdf` | `d738a7058cf60ce6456496a9d92ff33842e5cfd27693963a85079a2615ce151d` | 2 | substantive text with a non-fatal malformed-AcroForm warning | pages 1–2 rendered and read | Microsoft Word document metadata names `Maher` as author. The pages print no institution, department, sitting, date, marks, model-answer label or official-key authority; the filename's `[Answers]` label and yellow/blue markings establish only a local answered study copy. |
+
+### Exact assessment / answer boundary and paired-source adjudication
+
+This is not an answer-only or orphan-key file. Page 1 prints Q1–Q13 and begins a first Q14; page 2 completes that Q14, then prints a second distinct prompt also numbered Q14, followed by Q15–Q18. Thus the exact boundary is **19 prompt occurrences**: `13 + 1 + 1 + 4 = 19`.
+
+Eighteen prompts have an unambiguous source answer: Q1 `B`; Q2 `C`; Q3 `D`; Q4 `B`; Q5 `C`; Q6 `C`; Q7 `A`; Q9 `C`; Q10 `A`; Q11 `C`; Q12 `A`; Q13 `A`; first Q14 `A`; second Q14 `C`; Q15 `C then D then A then B`; Q16 `A`; Q17 `C`; Q18 `C`. Q8 asks about dicoumarol but has neither a yellow highlight nor a discrete answer mark; the broad blue handwriting across its options cannot be assigned to one choice. Q8 therefore remains unkeyed. The complete source boundary is **19 questions / 18 prompt-matched recovered answers**; no missing Q8 answer was inferred from pharmacology or another file.
+
+The entire authoritative remaining Physiology set was checked for a paired clean-question copy: text-bearing PDFs were searched by the distinctive Q1/Q2/Q8/Q11 phrases, and all remaining image-only `05 MCQs` and `08 Midterm Exams` Physiology PDFs were page-rendered and OCR-searched. `Important Ques physio.pdf`, `Physiology (Intro+Blood) MCQs.pdf`, and `Physiology MCQ.pdf` contain overlapping iron/coagulation terminology, but their visible numbering, wording and sequences do not reproduce this 19-prompt block. No exact paired question source exists in the authoritative remaining set, so this self-contained answered copy is processed alone.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 19 prompts are assigned exactly once to 13 handles. Every handle received the four identifying searches printed below, for **13 × 4 = 52 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1, Q18 | Ferrous-state and gastric-HCl enhancement of intestinal iron absorption (`iron absorption ferrous state`; `ferrous ferric iron absorption`; `gastric HCl iron absorption`; `intestinal iron absorption`) | live-hit; exact prior-FHB duplicate. |
+| Q2–Q3 | Ileal vitamin-B12 absorption and intrinsic-factor deficiency (`vitamin B12 absorption ileum`; `intrinsic factor vitamin B12`; `intrinsic factor deficiency`; `pernicious anemia absorption`) | pending-hit; exact prior-FHB duplicate. |
+| Q4 | MCV/MCH classification of microcytic hypochromic anaemia (`microcytic hypochromic anemia`; `MCV MCH anemia classification`; `low MCV low MCH`; `anemia red cell indices`) | live-hit; exact prior-FHB duplicate. |
+| Q5 | Chemical-toxin production of haemolytic anaemia (`chemical toxins hemolytic anemia`; `excessive hemolysis anemia`; `toxin red cell hemolysis`; `acquired hemolytic anemia chemicals`) | new externally; exact prior-FHB haemolysis/anaemia duplicate. |
+| Q6 | Von-Willebrand-factor platelet adhesion to collagen (`von Willebrand platelet adhesion`; `platelet adhesion collagen`; `subendothelial collagen vWF`; `von Willebrand factor`) | pending-hit; exact prior-FHB duplicate. |
+| Q7 | Thrombin–thrombomodulin anticoagulant protein-C action (`thrombin thrombomodulin anticoagulant`; `thrombomodulin protein C`; `protein C anticoagulation`; `thrombin thrombomodulin complex`) | new externally; exact prior-FHB duplicate. |
+| Q8 | Oral dicoumarol/coumarin anticoagulation (`dicoumarol oral anticoagulant`; `coumarin vitamin K antagonist`; `dicoumarol onset action`; `dicoumarol antidote`) | live-hit at the previously assigned heparin/dicoumarol pharmacology scope; exact prior-FHB duplicate. |
+| Q9, Q13 | Vitamin-K source and obstructive-jaundice deficiency (`vitamin K intestinal flora`; `obstructive jaundice vitamin K`; `vitamin K deficiency bile`; `intestinal bacteria vitamin K`) | new externally; exact prior-FHB duplicate. |
+| Q10 | Bleeding time as a platelet-function test (`bleeding time platelet function`; `platelet function test`; `bleeding time hemostasis`; `primary hemostasis bleeding time`) | pending-hit; exact prior-FHB duplicate. |
+| Q11, both Q14s, Q15 | Intrinsic/extrinsic coagulation initiation and common-pathway sequence (`factor VII tissue thromboplastin`; `intrinsic coagulation pathway`; `prothrombin thrombin fibrin sequence`; `coagulation cascade sequence`) | pending-hit; exact prior-FHB pathway/cascade duplicate. |
+| Q12 | Aspirin reduction of platelet activation (`aspirin platelet activation`; `aspirin platelet aggregation`; `cyclooxygenase platelets aspirin`; `aspirin thromboxane platelet`) | new externally; exact prior-FHB duplicate. |
+| Q16 | Calcium, vitamin K and prothrombin as coagulation participants (`coagulation factors calcium vitamin K`; `gamma globulin coagulation`; `prothrombin clotting`; `not involved coagulation`) | live-hit at the existing coagulation-cascade scope; exact prior-FHB duplicate. |
+| Q17 | Maternal transmission of X-linked haemophilia (`X linked hemophilia inheritance`; `hemophilia mother sons`; `hemophilia carrier mother`; `hemophilia inheritance pattern`) | pending-hit; exact prior-FHB duplicate. |
+
+The source-level search split is **4 live / 5 pending / 4 new = 13 handles**. All 13 are exact reuse of completed prior-FHB scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+19 questions / +18 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4671 | 4389 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **43 selected inventory paths / 43 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `f1799b53db6caabd01f95366eca3c248c4d033bf75c0daa883e5480dbcc76bbb`. Pinned triage debt becomes **eight substantive-text / five sparse-text / 30 empty-text** rows, and unique-hash accounting is **`63 + 43 = 106`**.
+
+The next bounded `05 MCQs` source is the four-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physiology written.pdf`, SHA-256 `c8e53814c441fa19bcab20e99812075c163b53d9a8147a080927f81723da4438`.
+
+**BLOCKED — S1 cannot be approved:** 43 selected source paths remain untriaged.
