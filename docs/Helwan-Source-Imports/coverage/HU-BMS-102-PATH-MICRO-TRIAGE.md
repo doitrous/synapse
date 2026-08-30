@@ -5238,3 +5238,179 @@ blocker. The next manifest-ordered local BMS-102 candidate is tier-6
 nine OCR-needed pages under `Microbiology / Notes and Summaries`. Its OCR-needed nine-page
 boundary is the next-source processing blocker: fully render and visually adjudicate prompts,
 teaching material, and answer conventions before admitting any count.
+
+## Family 49 — tier-6 Medicine Way bacterial-structure MCQ excerpt
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_31809cbb6c6399e0784c` · `bacterial structure.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/bacterial structure.pdf` |
+| SHA-256 / size | `31809cbb6c6399e0784c023c095414617366e692430fa2694f11ff1e1ebf3ce4` · 2,015,669 bytes |
+| Format / read boundary | Nine OCR-needed A4 pages; all nine physical pages rendered at 220 dpi and visually read in full |
+| Authority | Medicine Way / Arabic `طريق الطب` channel-team compilation attributed on p. 1 to Mansour El Gazzar; no Helwan/university or faculty masthead, module code, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is the Medicine Way promotional cover and p. 2 is a generic illustrated
+`Microbiology MCQ` cover. They contain no assessment prompt or teaching proposition. Physical
+pp. 3–9 are assessment-form study material: a continuous detached MCQ excerpt numbered Q7–Q53.
+The missing Q1–Q6 and continuation beyond Q53 are not inferred. The numbering and exact Q48–Q53
+overlap with Family 48 establish that this is another excerpt from the same compiled study bank,
+not a recoverable paper or sitting.
+
+The prompt-start checksum is `0 + 0 + 7 + 7 + 7 + 7 + 6 + 7 + 6 = 47`. Every observed stem
+and option set is complete. There is no answer register, keyed letter, selected option,
+correctness annotation, response field, or repeatable answer convention. Uniform underlining
+formats stems rather than choosing options. The source therefore contains **47 complete prompt
+occurrences / 0 printed answer occurrences**. No option is promoted to an answer, and legacy
+mesosome wording and other source risks are preserved only as low-authority tested scope.
+
+### Complete prompt inventory, source-first collapse, and prior-BMS ledger
+
+| Ref(s) | Page | Complete source-tested scope without supplying an unprinted answer | Handle / assignment |
+|---|---:|---|---|
+| F49-Q07, Q49 | 3, 9 | Mycoplasma as the listed prokaryotic/bacterial exception with sterol in its cytoplasmic membrane | `mycoplasma-only-bacterial-sterol-membrane` · semantic collapse; exact F48-Q49 reuse |
+| F49-Q08 | 3 | Lipid A as the basis of Gram-negative endotoxin activity | `gram-negative-lipid-a-endotoxic-activity` |
+| F49-Q09, Q12 | 3 | Lipopolysaccharide as a major Gram-negative cell-wall component | Q12 is a literal copy of Q09 and excluded from retention; `gram-negative-wall-major-component-lps` |
+| F49-Q10 | 3 | Polypeptide composition of the *Bacillus anthracis* capsule | `bacillus-anthracis-polypeptide-capsule` · exact F39-Q12 reuse |
+| F49-Q11 | 3 | Capsule-property differential across glycocalyx identity, invasiveness, adherence, phagocytosis, and poly-D-glutamate composition | `bacterial-capsule-property-differential` |
+| F49-Q13 | 3 | Bacterial organ of locomotion | `flagella-bacterial-locomotion-organ` |
+| F49-Q14, Q31 | 4, 6 | Amphitrichous arrangement as one flagellum at each end | `amphitrichous-one-flagellum-each-end` · semantic collapse |
+| F49-Q15 | 4 | Lophotrichous arrangement as a tuft of flagella | `lophotrichous-tuft-of-flagella` |
+| F49-Q16 | 4 | Gram-group differential for absence of fimbriae | `fimbriae-gram-group-absence-differential` |
+| F49-Q17 | 4 | Ribosomal type present in bacteria | `bacterial-ribosome-70s` |
+| F49-Q18 | 4 | Bacterial-cell differential for metachromatic granules | `corynebacterium-metachromatic-granules` |
+| F49-Q19 | 4 | Number of chromosomes in the source's generic bacterial-cell model | `bacterial-single-chromosome-number` |
+| F49-Q20 | 4 | Endospore-property exception across Gram staining, resistance, extra-host formation, and adverse conditions | `endospore-property-exception-gram-stain` |
+| F49-Q21 | 5 | Organism/cell groups included among eukaryotes | `eukaryote-organism-group-inclusion` |
+| F49-Q22 | 5 | True bacterial statement identifying capsule association with virulence | `capsule-associated-bacterial-virulence` |
+| F49-Q23 | 5 | Structure absent from prokaryotic cells: a true nucleus | `prokaryote-lacks-true-nucleus` · exact F39-Q01 reuse |
+| F49-Q24 | 5 | Bacteria as the listed prokaryotic group | `bacteria-prokaryotic-classification` |
+| F49-Q25 | 5 | Binary fission as bacterial-cell multiplication | `bacterial-reproduction-binary-fission` · exact F14-Q01 reuse |
+| F49-Q26 | 5 | Mitochondria as the listed structure absent from bacterial cells | `bacterial-absence-mitochondria` |
+| F49-Q27 | 5 | Lipid A as a Gram-negative cell-wall component | `gram-negative-cell-wall-lipid-a-component` |
+| F49-Q28 | 6 | Ribosomes as the site of bacterial protein synthesis | `bacterial-ribosome-protein-synthesis-site` |
+| F49-Q29 | 6 | Protein composition as the true statement about bacterial flagella | `flagellum-protein-composition` |
+| F49-Q30 | 6 | Peritrichous arrangement as flagella around the cell | `peritrichous-flagella-around-cell` |
+| F49-Q32 | 6 | F plasmid as the genetic determinant for sex-pilus formation | `f-plasmid-sex-pilus-formation` |
+| F49-Q33 | 6 | Plasmids as dispensable rather than essential chromosomal genetic material | `plasmids-dispensable-genetic-elements` · exact F16-Q03 reuse |
+| F49-Q34 | 7 | False endospore statement framed as inability to return to vegetative growth | `endospore-regrowth-vegetation-property-exception` |
+| F49-Q35 | 7 | Polyphosphate composition of volutin granules | `volutin-granules-polyphosphate-composition` |
+| F49-Q36, Q39 | 7 | Capsule protection from phagocytosis | `capsule-antiphagocytic-protection` · semantic collapse; exact F39-Q10 reuse |
+| F49-Q37 | 7 | Mesosomes as cytoplasmic-membrane invaginations | `mesosome-cytoplasmic-membrane-invagination` |
+| F49-Q38 | 7 | Cytoplasmic membrane as the bacterial phospholipid bilayer | `bacterial-cytoplasmic-membrane-phospholipid-bilayer` |
+| F49-Q40 | 7 | Exception among multiplication, bacteriocin, antibiotic-resistance, and toxin production as plasmid-controlled processes | `plasmid-controlled-process-exception-multiplication` |
+| F49-Q41 | 8 | Transposon-property composite joining mobile-DNA movement and possible toxin-gene carriage | `transposon-mobile-dna-toxin-gene-properties` |
+| F49-Q42 | 8 | Transposon-property exception framed as autonomous replication | `transposon-property-exception-autonomous-replication` |
+| F49-Q43 | 8 | Chromosome as the carrier of genetic information essential for bacterial life | `essential-bacterial-genetic-information-chromosome` · exact F16-Q01 reuse |
+| F49-Q44 | 8 | Nuclear body as the listed essential bacterial-cell structure | `essential-bacterial-structure-nuclear-body` |
+| F49-Q45 | 8 | Sex pilus as the structure responsible for bacterial gene transfer | `sex-pilus-bacterial-gene-transfer` · exact F29-Q06/F39-Q08 reuse |
+| F49-Q46 | 8 | Col-factor plasmid carriage of bacteriocin-production information | `col-factor-plasmid-bacteriocin-carriage` |
+| F49-Q47 | 8 | Peptidoglycan layer as the basis of bacterial rigidity and shape | `peptidoglycan-bacterial-rigidity-shape` |
+| F49-Q48 | 9 | Inclusion granules as reserve nutrients | `inclusion-granules-reserve-nutrients` · exact F48-Q48 reuse |
+| F49-Q50 | 9 | Fimbriae contributing to pathogenicity through adhesion | `ordinary-fimbriae-host-adhesion` · exact F48-Q50/F39-Q06-Q17 reuse |
+| F49-Q51 | 9 | Stationary phase as the phase in which sporulation occurs | `sporulation-stationary-phase` · exact F48-Q51 reuse |
+| F49-Q52 | 9 | Bacterial growth defined as an increase in cell number | `bacterial-growth-increase-cell-number-definition` · exact F48-Q52 reuse |
+| F49-Q53 | 9 | Microaerophiles requiring oxygen at a low level | `microaerophile-low-oxygen-tension` · exact F48-Q53/F14-Q08 reuse |
+
+Q12 is the only literal full-prompt copy and is removed at the retained-record layer. Q07/Q49,
+Q14/Q31, and Q36/Q39 use different wording but test the same source scope, so all six occurrences
+remain retained while the three pairs collapse at the handle layer. No other pair is a copy or
+same-scope variant. Thus **47 observed - 1 copy = 46 retained records**, and **46 retained - 3
+semantic collapses = 43 source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 43 handles received exactly four required searches across live state, all pending
+import roots, and prior BMS-102 evidence: **172 required searches**. Exact prior registers were
+reused only after scope identity was confirmed; broader composites and partial records were
+rejected. External disposition is **0 live / 13 pending / 30 no same-scope**.
+
+| Handle · ref(s) | Exactly four required queries | External exact-scope result · prior-BMS relation |
+|---|---|---|
+| `mycoplasma-only-bacterial-sterol-membrane` · Q07,Q49 | `Mycoplasma sterol membrane` / `sterol absent bacterial membrane exception` / `only prokaryote sterol` / `bacterial cytoplasmic membrane cholesterol` | pending `CON-INF-F8912B54FCA3A5`; exact F48-Q49 reuse |
+| `gram-negative-lipid-a-endotoxic-activity` · Q08 | `endotoxic activity Lipid A` / `gram negative endotoxin active moiety` / `LPS toxicity lipid A` / `endotoxin component responsible activity` | pending `CON-INF-BF26D7E563FB78`; no prior exact scope |
+| `gram-negative-wall-major-component-lps` · Q09,Q12 | `major component gram negative cell wall` / `gram negative wall lipopolysaccharide` / `LPS cell wall component` / `gram negative peptidoglycan teichoic LPS differential` | pending `CON-INF-0DD46C0FD80938`; no prior exact scope; Q12 copy excluded |
+| `bacillus-anthracis-polypeptide-capsule` · Q10 | `Bacillus anthracis capsule polypeptide` / `anthrax capsule composition` / `poly D glutamate capsule anthracis` / `bacterial capsule protein exception` | no same-scope external; exact F39-Q12 reuse |
+| `bacterial-capsule-property-differential` · Q11 | `bacterial capsule properties differential` / `capsule glycocalyx invasiveness adherence` / `capsule phagocytosis poly D glutamate` / `bacterial capsule statement exception` | no same-scope; broader capsule material does not supply the differential; no prior exact scope |
+| `flagella-bacterial-locomotion-organ` · Q13 | `bacterial organ locomotion` / `flagella bacterial motility structure` / `pili cilia pseudopodia bacterial locomotion` / `bacterial flagellum movement organ` | pending `CON-INF-83707B09F53803`; no prior exact scope |
+| `amphitrichous-one-flagellum-each-end` · Q14,Q31 | `amphitrichous flagellum each end` / `one flagellum both ends bacteria` / `amphitrichate arrangement definition` / `bacterial flagella polar both ends` | no same-scope; no prior exact scope |
+| `lophotrichous-tuft-of-flagella` · Q15 | `lophotrichous tuft flagella` / `lophotrichate arrangement definition` / `bacterial tuft polar flagella` / `lophotrichous versus peritrichous` | no same-scope; no prior exact scope |
+| `fimbriae-gram-group-absence-differential` · Q16 | `fimbriae absent gram positive` / `fimbriae gram negative gram positive distribution` / `bacterial fimbriae absence differential` / `gram group pili presence` | no same-scope; no prior exact scope |
+| `bacterial-ribosome-70s` · Q17 | `bacterial ribosomes 70S` / `ribosome type bacteria` / `prokaryotic 70S ribosome` / `70S versus 80S bacteria` | pending `CON-INF-29351FD540E214`; prior selective-toxicity/subunit prompts differ |
+| `corynebacterium-metachromatic-granules` · Q18 | `Corynebacterium metachromatic granules` / `bacterial cells possess volutin granules` / `metachromatic granules organism differential` / `Corynebacterium diphtheriae granules` | no same-scope; no prior exact scope |
+| `bacterial-single-chromosome-number` · Q19 | `number chromosomes bacterium` / `bacteria single chromosome` / `bacterial chromosome count` / `prokaryote one chromosome` | no same-scope; prior composites do not isolate chromosome number |
+| `endospore-property-exception-gram-stain` · Q20 | `endospore gram stain exception` / `bacterial spore properties resistance` / `endospore formed adverse conditions outside host` / `spore stained by gram stain` | no same-scope; no prior exact scope |
+| `eukaryote-organism-group-inclusion` · Q21 | `eukaryotes include fungi human cells` / `virus bacteria fungi eukaryote differential` / `eukaryotic organism group classification` / `fungi human cell eukaryotic` | no same-scope; no prior exact scope |
+| `capsule-associated-bacterial-virulence` · Q22 | `capsule associated virulence bacteria` / `bacterial capsule virulence factor` / `capsule pathogenicity statement` / `antiphagocytic capsule virulence` | pending `CON-INF-25846A77987558`; prior enumerations/antiphagocytosis prompts differ |
+| `prokaryote-lacks-true-nucleus` · Q23 | `prokaryotic cells no true nucleus` / `bacteria lack nuclear membrane` / `prokaryote nucleus differential` / `bacterial cell true nucleus absent` | no same-scope external; exact F39-Q01 reuse |
+| `bacteria-prokaryotic-classification` · Q24 | `prokaryotes include bacteria` / `bacteria prokaryotic group` / `fungi human virus bacteria prokaryote` / `prokaryotic organism classification` | no same-scope; no prior exact scope |
+| `bacterial-reproduction-binary-fission` · Q25 | `bacterial cell multiplies binary fission` / `bacteria reproduce binary fission` / `bacterial multiplication process` / `binary fission not mitosis bacteria` | no same-scope external; exact F14-Q01 reuse |
+| `bacterial-absence-mitochondria` · Q26 | `bacterial cells lack mitochondria` / `prokaryote absent mitochondria` / `bacteria cell organelles differential` / `mitochondria versus 70S bacterial cell` | no same-scope; no prior exact scope |
+| `gram-negative-cell-wall-lipid-a-component` · Q27 | `Lipid A gram negative cell wall` / `gram negative LPS lipid A component` / `lipid A bacterial wall location` / `cell wall component gram negative lipid A` | pending `CON-INF-BF26D7E563FB78`; no prior exact scope |
+| `bacterial-ribosome-protein-synthesis-site` · Q28 | `site protein synthesis bacteria` / `bacterial ribosome protein synthesis` / `ribosomes versus mesosomes protein synthesis` / `prokaryotic translation site` | pending `CON-INF-29351FD540E214`; no prior exact scope |
+| `flagellum-protein-composition` · Q29 | `bacterial flagellum protein nature` / `flagellin protein subunit` / `flagella composition bacteria` / `flagellum LPS rigid adherence differential` | pending `CON-INF-83707B09F53803`; no prior exact scope |
+| `peritrichous-flagella-around-cell` · Q30 | `peritrichous flagella around cell` / `peritrichate bacterial arrangement` / `flagella distributed all around bacteria` / `peritrichous versus lophotrichous` | no same-scope; no prior exact scope |
+| `f-plasmid-sex-pilus-formation` · Q32 | `F plasmid sex pilus formation` / `fertility plasmid encodes sex pili` / `sex pili genes F factor` / `bacterial F factor pilus production` | no same-scope; conjugation records do not state the encoding relation; no prior exact scope |
+| `plasmids-dispensable-genetic-elements` · Q33 | `plasmids dispensable bacteria` / `plasmid nonessential genetic material` / `bacterial plasmids optional genes` / `plasmid versus chromosome essential life` | no same-scope external; exact F16-Q03 reuse |
+| `endospore-regrowth-vegetation-property-exception` · Q34 | `endospore vegetate again` / `bacterial spore germination vegetative cell` / `spore metabolically inactive reversible` / `endospore property false unable vegetate` | no same-scope; phenotypic-variation material is broader; no prior exact scope |
+| `volutin-granules-polyphosphate-composition` · Q35 | `volutin granules polyphosphate` / `metachromatic granules composition` / `volutin carbohydrate protein phosphate` / `Corynebacterium polyphosphate granules` | no same-scope; F39-Q13 tests phosphate storage, not composition |
+| `capsule-antiphagocytic-protection` · Q36,Q39 | `bacterial capsule protects phagocytosis` / `capsule antiphagocytic function` / `capsule resists phagocytosis` / `bacterial structure antiphagocytic` | no same-scope external; exact F39-Q10 reuse |
+| `mesosome-cytoplasmic-membrane-invagination` · Q37 | `mesosome cytoplasmic membrane invagination` / `bacterial mesosome definition` / `mesosome membrane derived structure` / `mesosome cell wall intranuclear differential` | pending `CON-INF-E4012E20B5A13D`; prior mesosome-function prompts differ |
+| `bacterial-cytoplasmic-membrane-phospholipid-bilayer` · Q38 | `bacterial phospholipid bilayer` / `cytoplasmic membrane bilayer bacteria` / `cell wall capsule spore phospholipid bilayer` / `bacterial membrane structure phospholipid` | no same-scope; sterol-comparison material is broader; no prior exact scope |
+| `plasmid-controlled-process-exception-multiplication` · Q40 | `plasmids control processes exception multiplication` / `plasmid bacteriocin toxin resistance genes` / `plasmid not bacterial multiplication` / `plasmid coded functions differential` | no same-scope; no prior exact scope |
+| `transposon-mobile-dna-toxin-gene-properties` · Q41 | `transposon mobile DNA toxin genes` / `transposons carry toxin production genes` / `mobile DNA sequence moves site` / `transposon property composite bacteria` | no same-scope; pending mobility record omits toxin-gene carriage; no prior exact scope |
+| `transposon-property-exception-autonomous-replication` · Q42 | `transposons autonomously replicate exception` / `transposon properties antibiotic resistance transmissible` / `transposon moves plasmid to plasmid` / `non autonomous replication transposon` | no same-scope; pending mobility record omits the exception; no prior exact scope |
+| `essential-bacterial-genetic-information-chromosome` · Q43 | `essential genetic information bacteria chromosome` / `bacterial chromosome essential life genes` / `chromosome versus plasmid essential information` / `genetic information bacterial survival` | no same-scope external; exact F16-Q01 reuse |
+| `essential-bacterial-structure-nuclear-body` · Q44 | `essential structure bacterial cell nuclear body` / `bacterial nucleoid essential structure` / `fimbriae inclusion plasmid nuclear body` / `essential prokaryotic cell component` | no same-scope; no prior exact scope |
+| `sex-pilus-bacterial-gene-transfer` · Q45 | `sex pilus bacterial gene transfer` / `bacterial conjugation sex pili` / `sex pili DNA transfer bacteria` / `gene transfer bacterial pilus` | pending `CON-INF-B7F47EC7A8F7FA`; exact F29-Q06/F39-Q08 reuse |
+| `col-factor-plasmid-bacteriocin-carriage` · Q46 | `Col factor plasmid bacteriocin` / `colicin plasmid genetic information` / `bacteriocin production Col plasmid` / `Col factor antibiotic toxin sex pili differential` | no same-scope; no prior exact scope |
+| `peptidoglycan-bacterial-rigidity-shape` · Q47 | `peptidoglycan bacterial rigidity shape` / `bacterial cell wall rigidity component` / `peptidoglycan gives cell shape` / `cell membrane capsule teichoic peptidoglycan rigidity` | pending `CON-INF-3FBC905C4F778F`; F39-Q02 tests the wall generally, not this mechanism |
+| `inclusion-granules-reserve-nutrients` · Q48 | `inclusion granules` / `reserve nutrients bacteria` / `bacterial inclusion bodies` / `storage granules bacteria` | no same-scope external; exact F48-Q48 reuse |
+| `ordinary-fimbriae-host-adhesion` · Q50 | `fimbriae bacterial adhesion` / `ordinary pili adherence` / `bacterial fimbriae pathogenicity` / `pili attach host cells` | no same-scope external; exact F48-Q50/F39-Q06-Q17 reuse |
+| `sporulation-stationary-phase` · Q51 | `sporulation stationary phase` / `bacterial sporulation growth phase` / `endospore formation stationary` / `spore formation nutrient depletion phase` | no same-scope external; exact F48-Q51 reuse |
+| `bacterial-growth-increase-cell-number-definition` · Q52 | `bacterial growth increase cell number` / `definition bacterial growth` / `microbial growth cell number` / `growth not cell size bacteria` | no same-scope external; exact F48-Q52 reuse |
+| `microaerophile-low-oxygen-tension` · Q53 | `microaerophile low oxygen tension` / `microaerophilic bacteria definition` / `bacteria require oxygen low level` / `trace oxygen bacterial growth` | pending `CON-INF-D31966C6CEF85C`; exact F48-Q53/F14-Q08 reuse |
+
+The 13 prior-BMS exact handles are Q07/Q49, Q10, Q23, Q25, Q33, Q36/Q39, Q43, Q45,
+Q48, Q50, Q51, Q52, and Q53. Therefore **43 handles - 13 prior exact reuses = +30
+concepts**.
+
+| Measure | Family 49 | Auxiliary cumulative (Families 12–49) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 47 | 346 | 765 | 1,111 |
+| Printed study-answer occurrences | 0 | 188 | 405 | 593 |
+| Retained question records | 46 | 342 | 552 | 894 |
+| Source-distinct tested handles / required searches | 43 / 172 | 331 / — | — | — |
+| External live / pending / no same-scope | 0 / 13 / 30 | — | — | family-local disposition |
+| Cross-family concept delta | +30 | +246 over primary | 372 | `372 + 246 = 618` |
+| **Distinct tested concepts** | **+30** | **246 auxiliary additions** | **372** | **618** |
+
+The checksum closes without remainder: prompt starts are
+`0 + 0 + 7 + 7 + 7 + 7 + 6 + 7 + 6 = 47`; key alignment is `47 - 0 = 47` unkeyed;
+retention is `47 - 1 literal copy = 46`; handle assignment is
+`46 records - 3 semantic collapses = 43`; assignment is `47 - 47 = 0` unassigned;
+searches are `43 × 4 = 172`; external disposition is `0 + 13 + 30 = 43`; and concept
+arithmetic is `43 - 13 = 30`. Auxiliary cumulative arithmetic is `299 + 47 = 346`
+prompts, `188 + 0 = 188` printed answers, `296 + 46 = 342` retained records,
+`288 + 43 = 331` source handles, and `216 + 30 = 246` concept additions over primary.
+All-eligible arithmetic is `765 + 346 = 1,111`, `405 + 188 = 593`,
+`552 + 342 = 894`, and `372 + 246 = 618`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**346 / 188 / 342 / 331 / +246**; and all eligible evidence is
+**1,111 / 593 / 894 / 618**. This tier-6 unkeyed excerpt cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 49
+
+`src_31809cbb6c6399e0784c` is exhausted across all nine pages: both covers, all 47 observed
+prompt occurrences, absence of a key convention, literal-copy removal, retained records,
+source-handle collapses, search rows, external dispositions, and prior-BMS decisions are assigned
+once, with **zero source remainder** and no Family-49 blocker. The next manifest-ordered local
+BMS-102 candidate is tier-6 `src_635db0cfbda1c834c519` · `general mycology.pdf`, SHA-256
+`635db0cfbda1c834c5199aa3c6710f815bff6d16a0c29ac1dd53ef31ce6b7470`, 717,355 bytes,
+three OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its OCR-needed three-page
+boundary is the next-source processing blocker: fully render and visually adjudicate prompt,
+teaching, and answer conventions before admitting any count.
