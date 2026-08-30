@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "8cb7164d398349a091eaea8f75d618c3e940c8043c843d74f3c64c8f4478a676",
-    "triageMarkdown": "a89077a1b3e406c9bcd389ae1da745d781a812008f59aacc8774a95a74d6e594"
+    "readinessMarkdown": "d7e7501efe143647c3e820d6166fc35996f2b18e197955aeb95a4317cdfa2980",
+    "triageMarkdown": "254b168aae9ecee83e4ddd1ae7afadec7d8a703e83ee4545bc4ae2893d8eb8ae"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -68,6 +68,7 @@
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
       "565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1",
+      "59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363",
       "60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609",
@@ -106,7 +107,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 54
+    "uniqueSha256": 55
   },
   "completedSourceCoverage": [
     {
@@ -1534,10 +1535,45 @@
         "printed key punctuation, capitalization, wording and academically questionable selections are retained without correction",
         "the closing Arabic note says the author could not finish the remainder and describes the compilation as covering about ninety percent of the curriculum"
       ]
+    },
+    {
+      "sha256": "59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "printedQuestionLabels": "Q1-Q33",
+      "printedPromptObservations": 33,
+      "objectiveMcqPrompts": 33,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 33,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 33,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Abdelsalam Bakr student training-question document created in Microsoft Word on 23 October 2025; no institution, department, examiner, sitting, marks, assessment instruction or official-key claim",
+      "boundaryDisposition": "continuous Q1-Q33 sequence of text-only MCQs across all eight pages; no answers or key, written prompts, practical or image-identification prompts, teaching pages or answer-only material",
+      "siblingComparison": {
+        "comparedSource": "Anatomy MSK101-1 Training Questions.pdf",
+        "disposition": "distinct sequence; sibling begins with axillary-artery and brachial-plexus questions rather than the current back/scapular and pectoral-region sequence"
+      },
+      "preservedSourceDefects": [
+        "Q9 carries five options while most items carry four",
+        "Q26 and Q29 repeat the same clavipectoral-fascia EXCEPT stem with different option sets",
+        "near-repeated pectoralis-minor, scapulohumeral, clavipectoral-fascia and medial-rotation items remain counted as printed occurrences",
+        "all thirty-three answers are source-absent and none is inferred from anatomy knowledge"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 5895,
+    "printedPromptObservations": 5928,
     "printedKeyObservations": 5788,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
@@ -1545,15 +1581,15 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 48,
-    "uniqueSha256": 47,
-    "sortedNewlineSha256": "06f50926aa760fb49a09d4c19d1a6d378978e1f536fb6e5bd5ec43c151ae8bfb",
+    "inventoryMetadataRows": 47,
+    "uniqueSha256": 46,
+    "sortedNewlineSha256": "80ead454bd745bc88cc182dffb1aaaa70de69e4010e5b7192328430910136ae7",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 21
+      "substantive-text": 20
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1561,12 +1597,12 @@
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 21
+    "substantive-text": 20
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 54,
-    "remainingUniqueSha256": 47,
+    "processedUniqueSha256": 55,
+    "remainingUniqueSha256": 46,
     "processedPlusRemaining": 101
   }
 }
