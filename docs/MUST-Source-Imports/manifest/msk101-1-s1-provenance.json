@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "8aed411df51b40b8366419e7d09dc61496f643c9c8dbd70e8949db455703607d",
-    "triageMarkdown": "ef4ea833b9a8404ad23d396b71e481fa182b5f58e91834ff474e8fa0b15551bb"
+    "readinessMarkdown": "b8a45a07e87ec9780f990632adbf3627e623ccaf7da4ad5e9e7f52fc7368e25a",
+    "triageMarkdown": "9417278d176202500d1f5e814a5cf405d5d93acb7306f6b2e268b4b35912792c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -129,6 +129,7 @@
       "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
       "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
       "d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0",
+      "d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1",
       "dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94",
@@ -139,7 +140,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 87
+    "uniqueSha256": 88
   },
   "completedSourceCoverage": [
     {
@@ -2813,6 +2814,45 @@
         "question numbering restarts at Q1 in each of the three blocks",
         "printed spelling, grammar, option order and academically questionable answer selections remain uncorrected source observations"
       ]
+    },
+    {
+      "sha256": "d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1",
+      "sourcePages": 232,
+      "renderedReadPages": "1-232",
+      "frontMatterPages": "1-4",
+      "teachingTextPages": "5-190",
+      "referencePages": "191",
+      "blankPages": "192",
+      "atlasDividerPages": "193",
+      "labeledAtlasPages": "194-226",
+      "slideIdentificationTeachingPages": "227-231",
+      "publisherImprintPages": "232",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "department-authored Histology & Cell Biology: A Text & Atlas for first-year medical students by staff members of the Histology Department, Faculty of Medicine, Cairo University; institutional textbook authority but not a MUST/MSK examination, examiner sitting or assessment key",
+      "boundaryDisposition": "cover, preface and contents on pages 1-4; eleven continuous textbook chapters on pages 5-190; references on page 191; blank page 192; atlas divider page 193; fully labeled teaching atlas on pages 194-226; labeled slide-identification schemes and high-power teaching slides on pages 227-231; publisher imprint on page 232; learning outcomes, labeled micrographs and scheme headings provide instruction rather than learner response structures, so no objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material survives",
+      "priorCarrierComparison": {
+        "disposition": "teaching scopes overlap completed MSK histology families, but no assessment prompt or candidate handle exists; source-first gate stops before search"
+      },
+      "preservedSourceDefects": [
+        "the PDF has an empty extractable text layer and was adjudicated from all 232 rendered pages",
+        "learning-outcome verbs are curricular objectives rather than assessment prompts",
+        "labeled atlas figures and slide-identification schemes are teaching aids and are not manufactured into practical stations",
+        "source wording, captions and textbook claims remain uncorrected observations"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2824,22 +2864,22 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 14,
-    "uniqueSha256": 14,
-    "sortedNewlineSha256": "5ce17c21c497890a3efa670f08a8d3d9f716864b681639c74a818df8521be72c",
+    "inventoryMetadataRows": 13,
+    "uniqueSha256": 13,
+    "sortedNewlineSha256": "abb42019744026d46e11af0ff7b5b940ee90df63fbefa3317c808081488093a7",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
-      "empty-text": 2
+      "empty-text": 1
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
-    "empty-text": 2
+    "empty-text": 1
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 87,
-    "remainingUniqueSha256": 14,
+    "processedUniqueSha256": 88,
+    "remainingUniqueSha256": 13,
     "processedPlusRemaining": 101
   }
 }
