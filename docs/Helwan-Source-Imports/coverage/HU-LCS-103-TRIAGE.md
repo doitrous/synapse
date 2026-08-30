@@ -4912,3 +4912,116 @@ The next manifest-order gate is tier-4 Anatomy theoretical source
 103/Anatomy/Theoretical/Lower Limb/Lec 3 - Posterior Compartment of Thigh & Popliteal
 Fossa/`. Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 42 — Tier-4 posterior-thigh and popliteal-fossa teaching-only lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_0e30d32f2bc49e81e838` |
+| File / SHA-256 | `posterior compartment of thigh and POP. fossa Dr Sarah .pdf` / `0e30d32f2bc49e81e838d8eaae5e461b648951e17f3bc8f52ee4ecbf45a67d2a` |
+| File boundary | 1,565,088 bytes · unencrypted PDF · 18 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | Manifest records `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 3 - Posterior Compartment of Thigh & Popliteal Fossa/posterior compartment of thigh and POP. fossa Dr Sarah .pdf`; the hash-matched local filename is normalized to `posterior compartment of thigh and POP. fossa Dr Sarah.pdf` without the pre-extension space |
+| Visible provenance | p. 1 prints `Posterior Compartment of the thigh And Popliteal Fossa`, `Dr. Sarah Arakib`, and `MD Anatomy and Embryology`; PDF author is `Shaimaa Helmy`; p. 3 alone prints footer `LCS - 105` |
+| Authority finding | Manifest/path-placed local tier-4 teaching evidence, with the visible `LCS - 105` footer discrepancy preserved as an authority caution. It is not a sitting paper, station sheet, response form, question bank or official answer key. |
+
+The SHA-256 and 18-page boundary were recomputed and match the manifest; the 1,565,088-byte
+hash-matched local file resolves the manifest filename's pre-extension-space discrepancy. All
+18 pages were rendered at 140 dpi and read against the native text layer. Page 1 is the title
+page, pp. 2–9 teach posterior-compartment muscles, pp. 10–17 teach the popliteal fossa and
+its vessels, and p. 18 is a motivational closing image.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. Every anatomical sentence, heading, label and arrow is
+simultaneous declarative teaching. No page contains an imperative or interrogative prompt,
+response field, blank answer area, option set, mark allocation, correctness convention or
+answer reveal.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's figures and labelled diagrams remain parts of tier-4 theoretical teaching
+compositions; they are not promoted into the tier-5 practical plate/mapping ledger.
+
+| Physical pages | Source-first instructional compositions | Slide occurrences |
+|---:|---|---:|
+| 2 | posterior-compartment/hamstring members and division-specific sciatic supply | 1 |
+| 3–4 | biceps-femoris origins, insertion, supply and actions | 2 |
+| 5–7 | semitendinosus origin, insertion, supply and actions | 3 |
+| 8–9 | semimembranosus origin, insertion, supply and actions | 2 |
+| 10–14 | popliteal-fossa location, roof, floor, borders and contents | 5 |
+| 15–16 | popliteal-artery origin, course, relations, termination and branches | 2 |
+| 17 | popliteal-vein origin, course, relations, termination and tributaries | 1 |
+| **Total** | **tier-4 instructional compositions** | **16** |
+
+The **16 content-slide occurrences are 16 source-distinct teaching compositions**. Pages 5
+and 6 repeat the semitendinosus insertion on different complete layouts, while pp. 15 and 17
+reuse the same neurovascular-relation diagram for different artery/vein teaching purposes.
+SHA-256 comparison of all 18 rendered complete pages found no exact full-page copy to
+collapse. The source boundary is therefore **16 teaching compositions / 0 ordinary
+questions / 0 practical or station prompts / 0 printed assessment keys / 0 assessment
+residues**. As theoretical material, its figures add **0 practical plates, 0 practical label
+mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 16 compositions consolidate to seven source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `posterior-thigh-compartment-muscles-and-supply` · p. 2 | posterior thigh compartment muscles; posterior thigh hamstring compartment organization; posterior compartment thigh nerve supply; posterior thigh muscles sciatic tibial division | no direct live/pending complete-scope hit; exact accepted Family-33 handle — prior LCS reuse |
+| `biceps-femoris-oina` · pp. 3–4 | biceps femoris origin insertion nerve supply; biceps femoris OINA; biceps femoris long short head attachments; biceps femoris fibular head nerve supply | no direct live/pending complete-scope hit; exact accepted Families 1 and 33 handle — prior LCS reuse |
+| `semitendinosus-oina` · pp. 5–7 | semitendinosus origin insertion nerve supply action; semitendinosus OINA; semitendinosus ischial tuberosity medial tibia; semitendinosus tibial sciatic nerve | no direct live/pending complete-scope hit; exact accepted Families 1 and 33 handle — prior LCS reuse |
+| `semimembranosus-oina` · pp. 8–9 | semimembranosus origin insertion nerve supply action; semimembranosus OINA; semimembranosus ischial tuberosity medial tibial condyle; semimembranosus tibial sciatic nerve | no direct live/pending complete-scope hit; exact accepted Families 1 and 33 handle — prior LCS reuse |
+| `popliteal-fossa` · pp. 10–14 | popliteal fossa boundaries roof floor contents; popliteal fossa anatomy; popliteal fossa borders hamstrings gastrocnemius; popliteal fossa contents artery vein tibial nerve | direct mentions are narrower than the whole fossa scope; exact accepted Families 1, 6 and 33 handle — prior LCS reuse |
+| `popliteal-artery` · pp. 15–16 | popliteal artery origin course termination branches; femoral artery adductor hiatus popliteal artery; popliteal artery anterior posterior tibial arteries; popliteal genicular branches | pending AU material owns continuation, termination and genicular branches; exact accepted Families 1, 2 and 33 handle — prior LCS reuse with inherited pending overlap |
+| `popliteal-vein-beginning-course-and-termination` · p. 17 | popliteal vein origin course termination tributaries; popliteal vein anterior posterior tibial veins; popliteal vein adductor hiatus femoral vein; small saphenous vein popliteal vein | small-saphenous and femoral-vein hits are component records, not the full vein scope; accepted Family-33 popliteal-vein handle owns the beginning/termination and this source supplies its course/tributary detail — prior LCS reuse |
+
+All **7 × 4 = 28** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **0 live / 1 pending / 6 new**; exact
+accepted-prior comparison removes all six apparent additions, leaving **seven prior-LCS
+reuses / zero new theoretical teaching scopes**. There is no assessment handle to search.
+These declarative scopes do not enter the eligible tested-concept count, and no theoretical
+scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 42 | Family 42 delta | After Family 42 |
+|---|---:|---:|---:|
+| Eligible observed question records | 451 | +0 | 451 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 207 | +0 | 207 |
+| Question live / pending / new | 9 / 52 / 146 | +0 / +0 / +0 | 9 / 52 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `16 = 1 + 2 + 3 + 2 + 5 + 2 + 1`, `0
+prompts = 0 source handles`, `451 + 0 = 451`, `242 + 0 = 242`, `207 + 0 = 207`, `9 + 52
++ 146 = 207`, `251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 =
+55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-41
+remainder leaves **34 rank-4/rank-5 path instances / 32 unique hashes**. The Family-41
+method was reproduced first: its 35/33 row sets recomputed to
+`1dbd85a53f419c225b4375271eaa34be43f2fc0fcba926dd117b79d4ca25ca6d` and
+`ab47730874ec211edeeb051115a8df87ac0c5c5fa1d1abadeda8a80923cafec3`.
+For the exact post-Family-42 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`e10573b0ff42f8932291623aaf7563ff9e396293eb5436a6a69cb869133c17cf`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`8bf87ec9940bf36a83da98958c336cc3be8b4c30e349e1d16ee95becd454c7b8`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_5f00bf0283978c12f4c9`, `Anatomy Lecture Anterolateral Comp. Of The Leg.pdf` (3,322,719
+bytes; 49 native-text pages; SHA-256
+`5f00bf0283978c12f4c9058883c6bd149b815e9148b63d38742a1c3ae9c1c04f`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 4 - Anterolateral & Posterior Compartment of
+Leg/`. Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue
+update, import or source copy was created.
