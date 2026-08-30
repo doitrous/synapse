@@ -11642,3 +11642,88 @@ and no Family-109 blocker. The exact next manifest record is tier-6 preferred na
 14 native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its preferred-twin
 authority, complete render/native reality, provenance, neoplasia teaching versus prompt/key/
 annotation boundary, and prior-source reuse are the exact next-source blockers.
+
+## Family 110 — Preferred handwritten neoplasia study notebook
+
+### Source identity, complete render/native boundary, provenance, and twin authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_052af40eb9eed11505ef` · `Neoplasia .pdf` |
+| SHA-256 / size | `052af40eb9eed11505ef6c96cc9e0a82c3a5fcb7c047abf882861e8cc3359f91` · 14,172,750 bytes |
+| Format / complete visual boundary | Fourteen portrait A4 pages, each exactly 595×842 points. All 14 pages rendered into 14 non-empty 1240×1755-pixel images and were read individually at original render detail; there is no page, crop, or visual remainder. |
+| Native/scan reality | Nominal extraction is only 14 words / 168 bytes: one `CamScanner` watermark per page. Each page instead carries one large raster notebook scan (1,952–2,208 pixels wide and 2,700–3,004 pixels high) plus the small CamScanner logo. The manifest's `native` label therefore describes the watermark layer, not the educational content; the visual scans control classification. |
+| Visible provenance | The scans visibly establish only a handwritten English-language neoplasia notebook and CamScanner production. Repeated Arabic notebook fields for topic and date are blank. No author, university, faculty, module code, academic year, teaching date, or assessment sitting is printed. |
+| Metadata caution | PDF metadata gives the title `Neoplasia `, author `CamScanner`, and producer `intsig.com pdf producer`; it supplies no reliable teaching-date or sitting evidence. These production fields do not establish authorship or institutional provenance. |
+| Preferred-twin authority | The manifest marks this 14-page carrier as the preferred name twin. The non-preferred `src_142aac5ab559bc1135a1` · `Neoplasia.pdf` is a different 196,147-byte, 10-page native-text Word-export handout (SHA-256 `142aac5ab559bc1135a190100947979895ebbc4e871a73abc4b26a1c20d88a74`), visibly beginning with a typed definition/structure/classification page and footer attribution to Dr. Ahmed Hassan. It is neither a byte/page twin nor an exact visual carrier of these handwritten scans. Preferred status controls record ordering and this carrier's authority only; it does not import the other file's content, attribution, prompts, or answers. |
+| Authority | Tier-6 notes-and-summaries teaching material. It is not an exam, candidate paper, practical station, response sheet, or official answer source. |
+
+### Complete page-first teaching, annotation, prompt/key, and residue inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---|---|---|
+| 1 | Atrophy, hypertrophy, hyperplasia, and metaplasia definitions, physiological/pathological examples, causes, and epithelial/connective-tissue forms | Completed adaptation teaching used to introduce neoplastic change; **0 prompts / 0 keys**. |
+| 2–4 | Papilloma, adenoma/cystadenoma and adenomatous polyp; lipoma, osteoma, chondroma, leiomyoma, lymphangioma, and capillary/cavernous hemangioma; SCC, adenocarcinoma variants, and malignant APUD tumors, with supplied sites, subtypes, morphology, and complications | Completed benign/malignant tumor classification and examples; all labels and branches are populated; **0 / 0**. |
+| 5–6 | Basal-cell carcinoma and mixed tumors; local, hematogenous, lymphatic, transcoelomic, and implantation spread; organ tropism; and chronic-irritation, metaplastic/hyperplastic, and benign-tumor precancerous lesions | Completed mechanisms, pathways, and lesion mappings; arrows are explanatory, not response marks; **0 / 0**. |
+| 7–9 | Dysplasia, carcinoma in situ, and low-/high-risk precancerous lesions; genetic, age, sex, hormonal, chemical, radiation, and viral carcinogenesis; genetic predisposition and malignant-transformation hallmarks; proto-oncogene activation; growth-factor/receptor, RAS, transcription, and cell-cycle oncogenes; tumor-suppressor mutation types and Rb, p53, DCC, APC, NF1, BRCA1/2, and WT1 examples | Completed pathogenesis, risk, gene, and progression teaching. Circled numerals enumerate supplied facts; they do not encode correctness; **0 / 0**. |
+| 10 | Invasion through attachment, extracellular-matrix degradation, and migration; initiation, promotion, local invasion, and metastasis; growth kinetics, angiogenesis, heterogeneity, and immune escape | Completed sequence and causal teaching; **0 / 0**. |
+| 11–12 | Tumor-specific and tumor-associated antigens; local and systemic effects of tumors; cachexia mechanisms; endocrine, hypercalcemic, neurologic/myopathic/encephalopathic, and thrombotic paraneoplastic syndromes | Completed classifications, examples, and mechanism branches; **0 / 0**. |
+| 13–14 | Laboratory diagnosis through tumor markers and their diagnostic/therapy/follow-up roles; hormonal, immunoglobulin, oncofetal, differentiation-specific, glycoprotein, enzyme, chromosomal, and molecular markers; immunohistochemical diagnosis and desmin, cytokeratin/EMA, S-100/NSE, LCA, CD20, CD3, and GFAP lineage mappings | Completed diagnostic and marker-reference teaching; **0 / 0**. |
+
+All page text is already supplied. Arrows, brackets, underlines, circles, numbering, and occasional
+cross-outs organize or correct the writer's completed notes; none establishes an answer convention.
+Faint reverse-side show-through is scan noise, not a hidden response layer. The repeated blank
+Arabic `topic` and `date` notebook-header fields are document-template residue rather than
+question blanks: no task refers to them, and they do not solicit pathology answers. No page has an
+exam heading, candidate instruction, interrogative stem, option set, mark allocation, practical
+identification request, student response, correctness mark, or separate printed key.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**.
+
+### Prior-source relation, source-first zero gate, and cumulative arithmetic
+
+The notebook supplies completed teaching for neoplasia scopes tested in the primary pathology
+chapter and Families 4–5, including benign/malignant tumor types, invasion and metastatic routes,
+carcinogenesis, oncogenes/tumor suppressors, tumor effects, and diagnostic markers. Its opening
+adaptation material is also thematically continuous with Families 85 and 109. These are teaching-
+source relations, not exact prompt-handle reuses: this carrier contains no tested stem or response
+frame, and it is not an exact page/image reuse of a prior family.
+
+No accepted assessment handle survives the completed-notebook boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated, and thematic support for prior assessment scopes adds no second concept.
+
+| Measure | Family 110 | Auxiliary cumulative (Families 12–110) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 866 | 765 | 1,631 |
+| Printed teaching-answer occurrences | 0 | 483 | 405 | 888 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 806 | 552 | 1,358 |
+| Source-distinct tested handles / required searches | 0 / 0 | 730 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**866 / 483 / 806 / 730 / +499**; and all eligible evidence remains
+**1,631 / 888 / 1,358 / 871**. Family 110 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 110
+
+`src_052af40eb9eed11505ef` is exhausted across all 14 pages: every visible teaching block,
+notebook annotation, blank header-field ruling, provenance limitation, native/raster caution,
+preferred-twin distinction, prior-source relation, and zero-gate arithmetic term is assigned
+once, with **zero source remainder** and no Family-110 blocker. The exact next manifest record is
+tier-6 non-preferred name twin `src_142aac5ab559bc1135a1` · `Neoplasia.pdf`, SHA-256
+`142aac5ab559bc1135a190100947979895ebbc4e871a73abc4b26a1c20d88a74`, 196,147 bytes, 10
+native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its complete render/read,
+visible Dr. Ahmed Hassan attribution versus metadata provenance, distinct typed-handout content,
+teaching versus prompt/key/callout boundary, and any prior-source reuse are the exact next-source
+blockers.
