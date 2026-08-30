@@ -3082,3 +3082,39 @@ Removing the seventy-six processed unique hashes leaves **25 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).pdf`, SHA-256 `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`, 1 page.
 
 **BLOCKED — S1 cannot be approved:** 25 selected inventory paths / 25 unique hashes remain untriaged.
+
+## Completed teaching-only source — upper-limb muscles and nerve-supply mind map
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).pdf` | `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965` | 1 | substantive-text audit sample | page 1 rendered and read | Filename-attributed Absalam101 upper-limb teaching mind map generated with react-pdf on 31 October 2024. The visible page and metadata contain no institution, department, examiner, sitting, marks or official-key claim. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).pdf" purpose="source"}
+
+### Exact prompt, key, practical and teaching boundary
+
+The single landscape page is a teaching mind map titled `Muscles and Nerve Supply in the Upper Limb Notes`. Its nine top-level branches cover adduction and medial rotation, extension, flexion, nerve supply to muscles, nerve-supply names derived from muscles, muscles with multiple origins, muscles with multiple insertions, angles of abduction and additional anatomical notes.
+
+All nodes are declarative labels or teaching statements. There are **0 MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 keys / 0 answer-only observations / 0 source-unkeyed assessment prompts**. Lines and color-coded branches organize the teaching material rather than create response-bearing image tasks.
+
+### Authority, prior-MSK reconciliation and search gate
+
+The filename attribution and PDF-generation metadata support a student note artifact, not an authenticated MUST/MSK examination or faculty key. Because no assessment prompt or handle exists, source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **6762 questions / 6572 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6762 | 6572 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, exam-authority claim, placement or catalogue entry was created. Source defects remain preserved: Latissimus Dorsi is described as the only muscle with a pelvic origin; the flat-shoulder note links accessory-nerve injury and shoulder droop to Latissimus Dorsi; `Triceps (elbow)` appears under shoulder-extension muscles; selective lists, capitalization and anatomical claims remain uncorrected.
+
+### Remaining sources / blocker
+
+Removing the seventy-seven processed unique hashes leaves **24 selected inventory paths / 24 unique SHA-256s**. Their sorted, newline-joined hash checksum is `8acbf1b0bb185c293114f0be7291ee31f570a4167024a7cbce3da9888809aea0`. Remaining audit-review debt is 0 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`77 + 24 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Dr.SOLTAN I Connective tissue Question Bank 101 (2025).pdf`, SHA-256 `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`, 24 pages.
+
+**BLOCKED — S1 cannot be approved:** 24 selected inventory paths / 24 unique hashes remain untriaged.

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "d1938eb97ea4ce4a4a2b6cb5c29df7fa77d0a494426b0a695fddc94d6b962d66",
-    "triageMarkdown": "9a4009ed5cea725c32623ad4884a98b9b613fdba22299fd893daa0145777a49e"
+    "readinessMarkdown": "260f0a93294d4e8ebd2506e3b007bcca666214e9eee8d339c3091db5c525edde",
+    "triageMarkdown": "8082511cba00578ef80cc14b9c148007202de6b07169efab35c3481e158926b7"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -96,6 +96,7 @@
       "a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c",
       "a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
+      "ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965",
       "af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80",
       "af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe",
       "b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd",
@@ -128,7 +129,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 76
+    "uniqueSha256": 77
   },
   "completedSourceCoverage": [
     {
@@ -2440,6 +2441,35 @@
         "first page retains chatbot-style Sure thing prose plus Markdown headings and option bullets",
         "source wording and academically questionable options or keys remain uncorrected"
       ]
+    },
+    {
+      "sha256": "ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965",
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "teachingPages": "1",
+      "topLevelTeachingBranches": 9,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Absalam101 upper-limb teaching mind map generated with react-pdf on 31 October 2024; the visible page and metadata contain no institution, department, examiner, sitting, marks or official-key claim",
+      "boundaryDisposition": "one landscape teaching mind map with nine top-level branches covering upper-limb movements, nerve supply, muscle origins and insertions, abduction angles and additional anatomical notes; no MCQ, written, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "Latissimus Dorsi is incorrectly listed as having an origin from the pelvis only",
+        "the flat-shoulder note attributes drooping after accessory-nerve injury to Latissimus Dorsi",
+        "the Triceps elbow entry appears under shoulder-extension muscles",
+        "source capitalization, selective lists and anatomical claims remain uncorrected"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2451,26 +2481,24 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 25,
-    "uniqueSha256": 25,
-    "sortedNewlineSha256": "3b9fa891e3f9f3f03d111cce261c767c6b83d9aff06076f09fea49a31a9ffc15",
+    "inventoryMetadataRows": 24,
+    "uniqueSha256": 24,
+    "sortedNewlineSha256": "8acbf1b0bb185c293114f0be7291ee31f570a4167024a7cbce3da9888809aea0",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
-      "sparse-text": 5,
-      "substantive-text": 1
+      "sparse-text": 5
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
-    "sparse-text": 5,
-    "substantive-text": 1
+    "sparse-text": 5
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 76,
-    "remainingUniqueSha256": 25,
+    "processedUniqueSha256": 77,
+    "remainingUniqueSha256": 24,
     "processedPlusRemaining": 101
   }
 }
