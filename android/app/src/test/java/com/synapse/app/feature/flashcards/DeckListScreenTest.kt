@@ -105,6 +105,15 @@ class DeckListScreenTest {
             decks.values.any { it.name == "Cranial nerves" },
         )
     }
+
+    // NOTE (review follow-up): the CRUD-dialog-stays-open regression (a post-mutation reload must
+    // not flash FlashcardsUiState.Loading and unmount the open ManageDeckDialog) cannot be faithfully
+    // reproduced here — the intermediate Loading only becomes a real, composed frame when the repo
+    // read genuinely hops dispatchers (real Room DAO), whereas this suite's synchronous fake
+    // LocalStore conflates it away in StateFlow before Compose observes it. The fix itself lives in
+    // FlashcardsViewModel.load() (emit Loading only when there is no Content yet) + hoisting the
+    // dialog-open state above the loading gate in DeckListScreen. Faithful coverage needs an
+    // instrumented (real-Room) test — tracked alongside the nav-drawer's emulator-smoke follow-up.
 }
 
 // --- Fakes --------------------------------------------------------------------

@@ -10,6 +10,7 @@ import com.synapse.app.core.flashcards.Grade
 import com.synapse.app.core.flashcards.StudyCard
 import com.synapse.app.core.flashcards.grade as computeGrade
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -138,7 +139,16 @@ class CardRunnerViewModel @Inject constructor(
         val next = computeGrade(current.schedule, answer, instant, AnkiDefaults)
 
         viewModelScope.launch {
-            gradeSink.persist(deckId, current.id, next, wasNew, instant)
+            try {
+                gradeSink.persist(deckId, current.id, next, wasNew, instant)
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                // Best-effort local write: flashcards grading intentionally has no save/retry UI
+                // (a grade is a self-report, not a marked answer). A failed persist must not crash
+                // the study session out from under the student mid-sitting — the next successful
+                // write, or the next refresh's server pull, reconciles.
+            }
         }
 
         studied++

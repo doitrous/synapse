@@ -76,9 +76,19 @@ class FlashcardsViewModel @Inject constructor(
         load()
     }
 
+    /**
+     * (Re)computes [uiState]. [Loading][FlashcardsUiState.Loading] is emitted only for the very
+     * first load, while there is nothing on screen yet — a post-mutation reload (every CRUD op
+     * ends here) recomputes [Content][FlashcardsUiState.Content] in place, so an open dialog and
+     * the deck list never flash away to a loading state mid-edit (a `Loading` frame would unmount
+     * `DeckListContent` and dispose its dialog-open state — closing `ManageDeckDialog` on every
+     * keystroke).
+     */
     fun load() {
         viewModelScope.launch {
-            _uiState.value = FlashcardsUiState.Loading
+            if (_uiState.value !is FlashcardsUiState.Content) {
+                _uiState.value = FlashcardsUiState.Loading
+            }
             _uiState.value = buildContent()
         }
     }

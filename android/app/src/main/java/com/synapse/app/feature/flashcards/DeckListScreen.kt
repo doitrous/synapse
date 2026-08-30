@@ -84,6 +84,13 @@ private fun DeckListContent(
     onUpdateCard: (String, String, String, String) -> Unit,
     onRemoveCard: (String, String) -> Unit,
 ) {
+    // Declared BEFORE the loading early-return so a (now first-load-only) Loading frame can never
+    // dispose this dialog-open state — defense in depth alongside FlashcardsViewModel.load() no
+    // longer flashing Loading on a post-mutation reload.
+    var creating by rememberSaveable { mutableStateOf(false) }
+    var managingDeckId by rememberSaveable { mutableStateOf<String?>(null) }
+    var deletingDeckId by rememberSaveable { mutableStateOf<String?>(null) }
+
     if (uiState !is FlashcardsUiState.Content) {
         Column(
             modifier = Modifier.fillMaxSize().testTag(FLASHCARDS_LOADING_TAG),
@@ -94,10 +101,6 @@ private fun DeckListContent(
         }
         return
     }
-
-    var creating by rememberSaveable { mutableStateOf(false) }
-    var managingDeckId by rememberSaveable { mutableStateOf<String?>(null) }
-    var deletingDeckId by rememberSaveable { mutableStateOf<String?>(null) }
 
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState()),
@@ -201,7 +204,7 @@ private fun DeckRow(
                 }
             }
             Text(
-                "${deck.dueCount} due · ${deck.freshCount} new",
+                "${deck.cards.size} cards · ${deck.dueCount} due · ${deck.freshCount} new",
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 2.dp),
             )
