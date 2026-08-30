@@ -380,10 +380,43 @@ The source is now `sourceProcessed=true`. Its completed delta is **+47 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histo MCQ Dr.Zahra [Bone]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Bone].pdf` | `c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5` | 6 | substantive-text audit sample | pages 1–6 rendered and read | Branded `HISTOLOGY — DR. AHMED ZAHRA — MCQ`; iLovePDF-produced file modified 30 January 2023. It names the instructor but provides no institution, department, sitting, marks or explicit official-key statement. The complete answer table is preserved as the document's own key, not promoted to validated faculty-exam authority. |
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+Pages 1–6 contain **46 consecutively numbered four-option bone MCQs**. Page 6 also contains a complete **46-entry answer table** for questions 1–46. The exact boundary is therefore **46 prompt occurrences / 46 printed-key observations / 0 source-absent answers**. There are **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-only pages**.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 46 occurrences were assigned once across four handles, reconciling as **8 + 24 + 8 + 6 = 46**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **4 × 4 = 16 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 8, bone matrix/osteoid, growth and periosteum/endosteum (`bone matrix type I collagen osteoid appositional growth`; `periosteum fibrous cellular layers Sharpey fibers`; `endosteum bone marrow cavities osteogenic lining`; `osteoid organic bone matrix alkaline phosphatase`) | no external live/pending hit; same matrix, covering and appositional-growth scopes as completed MSK bone assignments — **prior-MSK collapse**. |
+| H2 | 24, osteogenic cells, osteoblasts, osteocytes and osteoclasts (`osteoblast osteocyte osteoclast origin function cytoplasm`; `osteoclast ruffled clear vesicular basal zones`; `osteoclast carbonic anhydrase proteolytic enzymes Howship lacuna`; `osteocyte canaliculi gap junctions osteogenic cells`) | no external live/pending hit; same bone-cell identity, origin, morphology, resorption and maintenance scopes as completed MSK bone assignments — **prior-MSK collapse**. |
+| H3 | 8, compact/spongy architecture, osteons, canals and lamellae (`osteon Haversian Volkmann canals compact bone lamellae`; `concentric interstitial circumferential bone lamellae`; `spongy bone trabeculae irregular lamellae marrow cavities`; `compact bone structural unit osteon Haversian system`) | no external live/pending hit; same compact/cancellous architecture and bone-lamella scopes as completed MSK bone assignments — **prior-MSK collapse**. |
+| H4 | 6, epiphyseal-plate zones and endochondral ossification (`epiphyseal plate proliferation hypertrophy calcification invasion`; `endochondral ossification cancellous compact bone remodeling stages`; `growth plate chondrocytes glycogen alkaline phosphatase`; `cartilage cells die zone calcification epiphyseal plate`) | no external live/pending hit; same growth-plate and endochondral-ossification scopes as completed MSK cartilage/bone assignments — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 4 externally new source handles**. Prior-MSK collapse removes all four, producing a completed-source concept delta of **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+46 questions / +46 answers / +0 post-prior concepts**. Cumulative arithmetic is **991 + 46 = 1037 questions**, **921 + 46 = 967 answers**, and **21 + 0 = 21 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1037 | 967 | 21 | 0 | 1 | 20 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these eleven processed paths and unique hashes leaves **92 selected inventory paths / 90 unique SHA-256s**. Their sorted, newline-joined hash checksum is `0609d6089c85fe73c083c048c0adfacd72f6c99962d5c4394478b9440366a58a`. Remaining audit-review debt is 52 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`11 + 90 = 101`**.
+Removing these twelve processed paths and unique hashes leaves **91 selected inventory paths / 89 unique SHA-256s**. Their sorted, newline-joined hash checksum is `499f314db90f6965a7832a2c4366bd9aa689d289f2f1da98e7286ee1055a8e1b`. Remaining audit-review debt is 51 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`12 + 89 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Bone].pdf`, SHA-256 `c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5`, 6 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Cartilage].pdf`, SHA-256 `bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a`, 6 pages.
 
-**BLOCKED — S1 cannot be approved:** 92 selected inventory paths / 90 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 91 selected inventory paths / 89 unique hashes remain untriaged.
