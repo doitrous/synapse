@@ -10254,3 +10254,96 @@ The exact next tier-3 manifest-order debt is
 It remains external until its own pages prove otherwise. **Overall LCS-103 remains `S1
 TRIAGE — NOT APPROVED`:** 146 tier-3/tier-6/rank-9 path debts remain. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 85 — Tier-3 external first-year Histology MCQ-and-matching compilation
+
+### OCR reality, identity and provenance
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_0f76fe22ec0bc8879f65` |
+| Manifest / recomputed SHA-256 | `0f76fe22ec0bc8879f65c956cdb34de378c236acf22e24103eba5e2599bd6737` |
+| File / boundary | `MCQs - External Histo MCQ_103 (2025).pdf` · 5,896,303 bytes · unencrypted PDF · 20 physical raster-only pages · 556.985 × 811.796 pt |
+| OCR reality | Native extraction yields only 20 form-feed bytes. Every page was rendered at 200 dpi and visually read; OCR was used only as a navigation aid and not as authority for wording, letters or counts. |
+| Visible provenance | Scanned book spreads print `MCQ & MATCHING · HISTOLOGY - FIRST YEAR` and printed pages 28–49. No Helwan, module/cohort, instructor, sitting, academic-year or official-key provenance is printed. |
+| Authority finding | The explicit `External` filename and generic first-year textbook presentation keep all in-scope records in the external bank. Integumentary and Lymphatic chapters are out of LCS-103 scope and remain excluded. |
+
+Nine physical-page pairs are exact rendered-byte copies: **2=3, 4=5, 6=7, 8=9,
+10=11, 12=13, 14=15, 16=17 and 18=19**. Each second copy contributes zero second
+inventory. The source therefore contains 11 unique scanned spreads. The LCS-relevant
+Cartilage, Bone and Muscular Tissue chapters contain **143 complete keyed prompt units**:
+105 ordinary MCQs, 15 problem-solving MCQs and 23 matching rows. Matching rows are counted
+as prompt/key units, not as teaching mappings.
+
+| Physical source boundary after exact-copy collapse | Included prompts | Printed keys | Disposition |
+|---|---:|---:|---|
+| p. 1 right + p. 2: Cartilage MCQ Q1–Q23, problem solving Q1–Q4, matching Tables I–II (5 rows each) | 23 + 4 + 10 = 37 | 0 here | external LCS assessment |
+| p. 4 left: `Answers of cartilage` | 0 | 23 + 4 + 10 = 37 | paired keys |
+| p. 4 right + p. 6: Bone MCQ Q1–Q25 and problem solving Q1–Q4 | 25 + 4 = 29 | 0 here | external LCS assessment |
+| p. 8: Bone matching Tables I–IV (5 rows each), then `Answers of Bone` | 20 | 25 + 4 + 20 = 49 | external prompts plus paired keys |
+| p. 10 + p. 12: Muscular Tissue MCQ Q1–Q35 and problem solving Q1–Q3 | 35 + 3 = 38 | 0 here | external LCS assessment |
+| p. 14: Muscle problem solving Q4–Q7, matching Tables I–III (5 rows each), then answers | 4 + 15 = 19 | 35 + 7 + 15 = 57 | external prompts plus paired keys |
+| **Included LCS-103 external boundary** | **37 + 49 + 57 = 143** | **37 + 49 + 57 = 143** | **count once** |
+| p. 1 left: unlabeled prior-chapter problem/matching answer cells | 0 paired prompts | 25 orphan cells | excluded and not promoted |
+| pp. 16/18 + p. 20 left: Integumentary MCQ 1–19, problem solving 1–5, matching Tables 1–3 | 19 + 5 + 15 = 39 | 39 | out-of-module exclusion |
+| p. 20 right: opening Lymphatic System MCQ Q1–Q10 | 10 | 0 | incomplete out-of-module exclusion |
+
+Cartilage problem-solving Q4 asks which LM feature distinguishes cartilage types, and Muscle
+problem-solving Q5 asks what an H&E quadriceps biopsy of a sprint runner would show. These
+two image/microscopy-worded questions remain among the 143 assessment prompts; no source
+image, specimen, teaching plate or practical station accompanies them. Practical delta is
+therefore exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0
+practical scopes**.
+
+### Handle collapse, searches and prior-external reconciliation
+
+The 143 included units collapse to **54 source-distinct handles**: 14 Cartilage, 19 Bone and
+21 Muscle. Each handle received one search in each required surface—live, pending/import-
+ready, prior source-import lanes and accepted LCS—so **54 × 4 = 216 required search
+invocations**. Forty-eight handles reuse the Family-13/14 or Family-83 external inventory.
+Six scopes are new to the external inventory but already have substantive corpus or accepted
+LCS ownership: one live and five pending.
+
+| Section | Source units → accepted-handle reconciliation | Handle result |
+|---|---|---:|
+| Cartilage (37) | Reuses `cartilage-avascular-nutrition-repair`, `cartilage-matrix-firm-flexible`, `fibrocartilage-type-i-collagen-perichondrium-absence`, `cartilage-types-anatomic-sites`, `cartilage-mesenchymal-origin-and-specialized-ct`, `cartilage-isogenous-group-cell-nest`, `hyaline-cartilage-glassy-type-ii-collagen`, `cartilage-matrix-basophilia-metachromasia`, `elastic-cartilage-fibers-type-ii-collagen`, `cartilage-appositional-vs-interstitial-growth`, `chondroblast-vs-chondrocyte-maturity-matrix`, `cartilage-three-type-classification-basis` and `perichondrium-cartilage-covering-composition`; problem-solving Q1 promotes accepted pending `lumbar-disc-prolapse-clinical-diagnosis-and-mri-confirmation` into the external inventory. | 13 prior-external + 1 external addition = **14 pending** |
+| Bone (49) | Reuses `osteocyte-canaliculi-processes-gap-junctions`, `osteoblast-bone-forming-cell-alkaline-phosphatase`, `osteoporosis-calcitonin-treatment`, `osteon-haversian-system-compact-bone-unit`, `sharpey-fibers-tendon-ligament-attachment`, `epiphyseal-plate-zone-sequence-cell-changes`, `bone-matrix-type-i-collagen-acidophilia`, `osteoclast-howship-lacuna`, `bone-lamellae-composition-organization`, `osteocyte-lacuna-mature-maintenance-viability`, `osteoclast-multinucleation-identity`, `spongy-bone-trabecular-architecture`, `intramembranous-ossification-direct-bone-formation`, `osteoclast-vesicular-acid-enzyme-resorption-mechanism`, `bone-cell-cytoplasm-organelle-comparison`, Family-83 `osteogenic-cell-osteoblast-lineage-differentiation` and `compact-vs-spongy-bone-sites`; adds `osteoporosis-resorption-formation-imbalance` (pending) and `organic-vs-inorganic-bone-matrix-composition` (live). | 17 prior-external + 2 additions = **3 live / 16 pending** |
+| Muscle (57) | Reuses `muscle-type-histology-comparison`, `muscle-tissue-mesodermal-origin`, `skeletal-muscle-fiber-lm-phenotype-and-sites`, `skeletal-muscle-connective-tissue-organization`, `inherited-progressive-muscle-wasting-differential`, `skeletal-muscle-sarcoplasm-and-myofibril-organization`, `sarcomere-band-line-architecture`, `sarcomere-band-changes-during-contraction`, `muscle-tubular-systems-t-tubules-triads-diads-sr`, `skeletal-muscle-red-white-fiber-comparison`, `cardiac-myocyte-histologic-phenotype`, `intercalated-disc-components-orientation-and-functions`, `purkinje-fiber-histologic-identification`, `smooth-muscle-histologic-phenotype-and-sites`, `skeletal-muscle-hypertrophy-existing-fiber-enlargement`, `myocardial-infarction-fibrous-scar-repair`, `muscle-myofilament-identities-and-anchors` and `smooth-muscle-contractile-apparatus-dense-bodies-caveolae`; adds pending `oxytocin-uterine-smooth-muscle-contraction`, `myocardial-infarction-troponin-creatine-kinase-biomarkers` and `skeletal-muscle-regeneration-satellite-cells`. | 18 prior-external + 3 additions = **3 live / 18 pending** |
+| **Family 85** | **48 prior-external reuses + 6 external-inventory additions** | **6 live / 48 pending / 0 new = 54** |
+
+The six external additions contribute **1 live / 5 pending / 0 new** to cumulative external
+concept state. The remaining 48 handles contribute zero second concept inventory even though
+their distinct source prompt/key occurrences are retained. All printed source keys are
+preserved without medical repair.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **412 / 412 / 102 = 10 / 68 / 24** to **555 external questions / 555 printed keys /
+108 external concepts = 11 live / 73 pending / 24 new**. Arithmetic is `412 + 143 = 555`,
+`412 + 143 = 555`, `102 + 6 = 108`, `10 + 1 = 11`, `68 + 5 = 73`, and
+`11 + 73 + 24 = 108`. The 39 keyed Integumentary units, 10 unkeyed Lymphatic units and
+25 orphan answer cells remain outside every LCS cumulative. Practical totals remain **7
+prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0
+pending / 92 new**.
+
+This source hash occurs once in the audited remainder. Removing its sole path from Family
+84's accepted remainder leaves **145 all-rank path instances / 137 unique hashes**: tier 3
+**63 paths / 60 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**.
+Family 84's 146/138 row sets recompute first to path checksum
+`ae69cd97360ed4afd94e7c82da78e1c42d524761c0129db2f09ef1ace5d7a4b2` and unique-hash
+checksum `3dc2cd34118ad522a7318290693cc5e3ddb9f616d057ea123e21083c9336263e`.
+For the exact post-Family-85 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`4effddd87ee6a463f58574460e2aeb75bd53c84bb2c350366177e20b6ff83228`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`b28a971bef4b215d5a44f2543bddcd5ccf6f5da07217efd7c85beee18f457fe9`.
+
+The exact next tier-3 manifest-order debt is
+`src_9e3cbfb5ac875b83cc78`, `MCQs - External MCQs 4_5927241424679477703.pdf`
+(1,217,491 bytes; 82 native-text A4 pages; SHA-256
+`9e3cbfb5ac875b83cc785123d63191463e8124a01f4deaf49fb7035b15ec595a`).
+It remains external until its own pages prove otherwise. **Overall LCS-103 remains `S1
+TRIAGE — NOT APPROVED`:** 145 tier-3/tier-6/rank-9 path debts remain. No download, ID,
+content record, catalogue update, import or source copy was created.
