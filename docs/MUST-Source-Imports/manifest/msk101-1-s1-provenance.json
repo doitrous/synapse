@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "9d0599b25df084e3748b1f64d44974ac4ca7340acdb3596d3f78c62b1034e2b9",
-    "triageMarkdown": "0a28fd46105b8598c886101bab002559a21ad543cecec24a25ea71bae0cc4ec1"
+    "readinessMarkdown": "7fca51612ab155b065775da0921fb68cb19d75afc145c85ccfd51ddc9ea72378",
+    "triageMarkdown": "56920b0286ea0f17a67b0fe55bfd735e767bbe692b0ba222ee94d39073d60bfb"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,6 +69,7 @@
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
       "69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4",
       "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
+      "7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
@@ -89,7 +90,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 37
+    "uniqueSha256": 38
   },
   "completedSourceCoverage": [
     {
@@ -935,26 +936,58 @@
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true,
       "authorityDisposition": "standalone export of the Cairo University Upper Limb self-assessment section; faculty model answers but not an authenticated MUST/MSK examination or key"
+    },
+    {
+      "sha256": "7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f",
+      "sourcePages": 68,
+      "renderedReadPages": "1-68",
+      "coverPages": "1",
+      "objectiveQuestionPages": "2-57",
+      "objectiveKeyPages": "6,10,14,21,27,30,33,37,40,45,47,50,54,57",
+      "writtenPromptAndAnswerPages": "58-68",
+      "printedPromptObservations": 325,
+      "objectiveMcqPrompts": 255,
+      "writtenPrompts": 70,
+      "printedKeyObservations": 325,
+      "objectiveKeyObservations": 255,
+      "writtenAnswerObservations": 70,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 325,
+      "familyAnswerDelta": 325,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Mohamed Salama student-authored upper-limb MCQ and written revision compilation; no authenticated MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "fourteen keyed MCQ blocks totaling 255 prompts; one six-subprompt shoulder case; twelve answered joint prompts; fifty-two inline-labeled clinical-case subprompts; cover only on page 1",
+      "preservedSourceDefects": [
+        "three joke/garbled distractors are retained in the posterior-forearm and wrist blocks",
+        "the same initiator-of-supination-and-pronation MCQ appears twice with conflicting printed keys b and d"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4338,
-    "printedKeyObservations": 4231,
+    "printedPromptObservations": 4663,
+    "printedKeyObservations": 4556,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 65,
-    "uniqueSha256": 64,
-    "sortedNewlineSha256": "22111a2424461892cc60c5a612a060249b7afff9ac7adda0d292f94f773b9cf4",
+    "inventoryMetadataRows": 64,
+    "uniqueSha256": 63,
+    "sortedNewlineSha256": "2520c9dbb62366f81e0fcdca048feed8c741e762d2bf094ccd324b255630b158",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 7,
-      "substantive-text": 27
+      "substantive-text": 26
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -962,12 +995,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 7,
-    "substantive-text": 27
+    "substantive-text": 26
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 37,
-    "remainingUniqueSha256": 64,
+    "processedUniqueSha256": 38,
+    "remainingUniqueSha256": 63,
     "processedPlusRemaining": 101
   }
 }

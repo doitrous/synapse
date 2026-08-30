@@ -1341,3 +1341,49 @@ Removing the thirty-seven processed unique hashes leaves **65 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy vol 2 by salama .pdf`, SHA-256 `7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f`, 68 pages.
 
 **BLOCKED — S1 cannot be approved:** 65 selected inventory paths / 64 unique hashes remain untriaged.
+
+## Completed source — Anatomy vol 2 by salama
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy vol 2 by salama .pdf` | `7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f` | 68 | substantive-text audit sample | pages 1–68 rendered and read | Microsoft Word for Microsoft 365 export authored by Mohamed Salama, created/modified 18 January 2024. The title is `ANATOMY MCQS AND WRITTEN` and metadata subject is `BASMAGOLOGY BY SALAMA`. No institution, department, examiner, sitting, marks or official-key statement is printed. It is a student-authored Upper Limb revision compilation, not an authenticated MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy vol 2 by salama .pdf" purpose="source"}
+
+### Exact MCQ, written, case, answer, practical, image and teaching boundary
+
+Page 1 is cover only. Pages 2–57 contain fourteen MCQ blocks of **20 + 20 + 20 + 30 + 30 + 15 + 15 + 15 + 15 + 25 + 10 + 10 + 15 + 15 = 255 MCQs**. Each block has a printed answer sequence; the key-bearing physical pages are 6, 10, 14, 21, 27, 30, 33, 37, 40, 45, 47, 50, 54 and 57.
+
+Pages 58–59 contain one shoulder-dislocation case with six separately numbered subprompts and matched answers. Pages 60–65 contain twelve answered joint prompts: four shoulder, four radio-ulnar, two elbow and two wrist. Pages 66–68 contain ten short clinical cases whose inline labels form fifty-two separately answer-bearing subprompts: cases 1–7 and 9–10 have five each, while case 8 has seven. The written/case boundary is therefore **6 + 12 + 52 = 70 prompts / 70 printed answer observations**.
+
+| Format | Prompt observations | Printed answer observations | Source-absent answers |
+|---|---:|---:|---:|
+| MCQ | 255 | 255 | 0 |
+| Written / clinical-case subprompts | 70 | 70 | 0 |
+| **Total** | **325** | **325** | **0** |
+
+The full source boundary is **325 assessment prompt observations / 325 printed answer observations / 0 source-absent answers / 0 practical prompts / 0 image-identification prompts / one cover-only page**. Printed wording and key choices are preserved without academic correction. Three joke/garbled distractors remain visible in the posterior-forearm and wrist blocks. The identical `Which muscle is involved in initiating both supination and pronation?` MCQ appears twice, once keyed `b` and once keyed `d`; both occurrences and their conflicting printed keys are retained as source defects rather than adjudicated.
+
+### Source-first collapse and exactly-four-search gate
+
+The file is not an exact carrier duplicate of a processed source, so all 325 prompt and 325 answer observations contribute to the distinct source-family totals. Its arm/forearm muscles, vessels, terminal nerves and injuries, fossae/retinacula, upper-limb joints and clinical cases map wholly onto the completed Upper Limb Anatomy H1–H5 family. No genuinely new handle survives prior-MSK reconciliation.
+
+The exactly-four-search gate therefore resolves as **`0 new handles × 4 = 0 new searches`**. The prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced without rerunning identical queries. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its distinct source-family delta is **+325 questions / +325 answer observations / +0 concepts**. Cumulative arithmetic is **4338 + 325 = 4663 questions**, **4231 + 325 = 4556 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 4663 | 4556 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the thirty-eight processed unique hashes leaves **64 selected inventory paths / 63 unique SHA-256s**. Their sorted, newline-joined hash checksum is `2520c9dbb62366f81e0fcdca048feed8c741e762d2bf094ccd324b255630b158`. Remaining audit-review debt is 26 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`38 + 63 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (Answers) (By Sara Hafez).pdf`, SHA-256 `bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 64 selected inventory paths / 63 unique hashes remain untriaged.
