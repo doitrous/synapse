@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "7627d0d7feaee2381d6d2059030f160286a467c95af474ac2edf49b75275df54",
-    "triageMarkdown": "79ac9c4df8e5d9861c1c7c7bd25fc430b29067756ae5ac640b782886bae51ef4"
+    "readinessMarkdown": "69d1c7f04c5e2b442d9bed5d8b6118d193c2e8de139b18a61289e56dccf2c0b7",
+    "triageMarkdown": "2bcab6188eff675225be7a345332b3e387ec1d6022f33f7c053dc57c4d799df7"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -83,11 +83,12 @@
       "d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0",
       "dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
+      "eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94",
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 35
+    "uniqueSha256": 36
   },
   "completedSourceCoverage": [
     {
@@ -873,26 +874,54 @@
       "preservedSourceDefects": [
         "Lower Limb MCQ key cells for Q62, Q64, Q93, Q99, Q102 and Q106 are visibly blank and remain unkeyed"
       ]
+    },
+    {
+      "sha256": "eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94",
+      "sourcePages": 9,
+      "renderedReadPages": "1-9",
+      "writtenPromptAndInlineAnswerPages": "1-9",
+      "printedPromptObservations": 47,
+      "writtenPrompts": 47,
+      "printedKeyObservations": 47,
+      "writtenAnswerObservations": 47,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 47,
+      "familyAnswerDelta": 47,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "student-authored upper-limb written revision bank with inline bullet answers; title Final is not authenticated MUST/MSK exam or key authority",
+      "boundaryDisposition": "forty-seven visible written prompts, each immediately followed by bullet answers; no MCQ, practical, image-identification, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "posterior-compartment answer names superficial and deep extensor groups rather than enumerating their members",
+        "ulnar-nerve-in-forearm answer includes palmaris brevis",
+        "shoulder and wrist movement lists are visibly selective rather than exhaustive"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4291,
-    "printedKeyObservations": 4184,
+    "printedPromptObservations": 4338,
+    "printedKeyObservations": 4231,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 67,
-    "uniqueSha256": 66,
-    "sortedNewlineSha256": "415548650921c3c4bf043c4bcd54ba57600bcda6613585a3878d70a2e907e418",
+    "inventoryMetadataRows": 66,
+    "uniqueSha256": 65,
+    "sortedNewlineSha256": "4c03ed0e1e61b2c7942efe5002e419987838cab68f522896827c8cd4030f0fc1",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 7,
-      "substantive-text": 29
+      "substantive-text": 28
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -900,12 +929,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 7,
-    "substantive-text": 29
+    "substantive-text": 28
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 35,
-    "remainingUniqueSha256": 66,
+    "processedUniqueSha256": 36,
+    "remainingUniqueSha256": 65,
     "processedPlusRemaining": 101
   }
 }
