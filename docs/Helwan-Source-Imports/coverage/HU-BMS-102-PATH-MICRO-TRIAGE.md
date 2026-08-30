@@ -23293,3 +23293,88 @@ maintenance dose, therapeutic index, paediatric-dose rules, and body-surface-are
 complete full-resolution/OCR boundary, provenance, teaching/prompt/key/practical ruling,
 four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 230 — anonymous pharmacology equations and age-adjusted-dose reference sheet
+
+### Source identity, full-resolution/OCR boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_f9080e5f39d21e065bca` · `Equations.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `f9080e5f39d21e065bcaba0838d3ac2ac916b29d022f9cffa68090cc17064e1b` · **348,408 bytes** |
+| Format / complete visual boundary | **One OCR-needed 612×866-point portrait page, PDF 1.4**. The page was rendered at 300 dpi into one non-empty 2,550×3,609-pixel image, then read again through four overlapping 300-dpi sectional crops covering the complete sheet. Every heading, formula, explanatory annotation, divider, age range, arrow, and terminal line is assigned below; there is no page or crop remainder. |
+| OCR/native reality | Layout and raw native extraction each contain **0 words / 1 byte**. Tesseract OCR over the 300-dpi render produced **97 words / 501 bytes**; the visual read, not noisy OCR punctuation, controls the formula transcription. No form, JavaScript, encryption, interactive answer layer, or hidden native prompt layer exists. |
+| Visible provenance | The page has no visible title, author, instructor, university/faculty, module code, academic year, date, assessment label, candidate field, marks, or page number. Lined-paper styling, coloured section dividers, circles, boxes, and arrows are explanatory layout only. |
+| Metadata caution | The PDF exposes no title, author, subject, keywords, creation/modification date, creator, or producer. Therefore neither the filename nor notes-folder placement can establish authorship, academic year, teaching date, sitting, or official status. |
+| Authority | Local tier-6 anonymous pharmacology study/reference sheet. BMS-102 notes-folder placement establishes contextual course placement only; the carrier is not an authenticated Helwan lecture, assessment, answer key, or practical station. |
+
+### Complete formula-first teaching, prompt, key, annotation, and practical boundary
+
+| Visible area | Exhausted source content | Boundary ruling |
+|---|---|---|
+| Upper pharmacokinetics block | `Bioavailability (F) = AUC oral / AUC IV`; `LD = (Vd × Cp) / F`; the red annotation `Vd = Amount of drug in the body / Plasma drug concentration`; `MD = (Cl × Cp × T) / F`; and `Therapeutic index (TI) = TD50 / ED50` | **5 completed reference formulas / 0 prompts / 0 answers / 0 practical**. The circled `Vd` and its red definition are explanatory annotations, not a marked response. |
+| Paediatric-dosing block | Young's Rule `1–12`: `Age / (Age + 12) × Adult Dose`; Dilling's Rule `4–20`: `Age (Y) / 20 × Adult Dose`; Clark's Rule as `weight Pounds / 150 × Adult Dose` and `weight Kg / 70 × Adult Dose` | **4 completed reference formulas / 0 / 0 / 0**. Age ranges label rule applicability; they are not question numbering or marks. |
+| Surface-area and older-age block | `Surface Area Method = Body surface Area / 1.73 m² × Adult Dose`, labelled `(Most Accurate)`; the boxed/arrowed BSA expression `sqrt(Hight (cm) × weight (Kg) / 3600)`; `(60–70) (Y) → 2/3 Adult dose`; and `over 70 (Y) → 1/2 Adult dose` | **4 completed reference formulas/rules / 0 / 0 / 0**. The red box, arrow, radical sign, fraction bars, and brown age-dose note disclose reference content rather than solicit a response. |
+
+The exact carrier inventory is **`5 + 4 + 4 = 13` completed formula/reference propositions**.
+Source wording and notation—including `Hight`, `AUC oral / AUC IV`, the unexpanded `Cp`, `Cl`,
+`T`, and `F` symbols, `(Most Accurate)`, the stated age bands, and the older-age dose fractions—are
+preserved as source truth. In particular, the sheet does not state oral/IV dose normalization for
+bioavailability, does not define every dose-equation symbol, and supplies age-based shortcuts
+without clinical qualifications; this ledger records those visible propositions but does not repair,
+endorse, or convert them into medical guidance.
+
+The governed source-local assessment boundary is **0 MCQs + 0 True/False + 0 written prompts + 0
+completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw prompt
+occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question records,
+and 0 prompt-like residues**. No question mark, imperative stem, option set, missing-term cue,
+candidate response, answer marker, or key is visible. Mathematical fraction bars and the radical
+line are operators, not fillable blanks; all formula operands and results are already supplied.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-handle
+row is fabricated. Pharmacokinetic, therapeutic-index, and dose-calculation ideas overlap prior
+teaching and assessment material, but a completed anonymous formula reference is not a new tested-
+handle occurrence. Prior-BMS assessment reuse is therefore **0** and concept delta is **+0**.
+
+| Measure | Family 230 | Auxiliary cumulative (Families 12–230) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 230
+establishes completed pharmacology formula-reference and source-provenance evidence only, not
+assessment, official-key, practical, verified-date, readiness, medical-guidance, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 230
+
+`src_f9080e5f39d21e065bca` is exhausted across its sole page: every completed formula, operand,
+annotation, rule label, age range, source irregularity, metadata limitation, zero gate, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-230 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 230 is **291 paths / 284 unique hashes**, leaving exactly **71 selected paths / 64
+unique hashes**. Checksums are **291 + 71 = 362 paths** and **284 + 64 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `ac179e98c84194ea09a02d316c8430ea5a1527a2681db27e9406a56639eb517a`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`7e3cab10e791c054fd095c4e7c68782607b824b89d02c0b597c7ea8ff71bcb8b`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_e5a845e28fef30138a40` · `HU-ARDS.pdf`,
+SHA-256 `e5a845e28fef30138a40e7936068ef2b3a3b85c3e47b828aa851d72d17458fab`, **339,368 bytes**,
+**seven native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first page
+visibly begins `Pharmacology` and an `Adverse Drug Reactions` definition/comparison handout; PDF
+metadata names `Mamdouh` and dates the Word export 7 April 2026, neither of which may substitute for
+visible authorship or academic-year authority. Its complete render/native boundary, provenance,
+teaching/prompt/key/practical ruling, four-search gate, prior-BMS reconciliation, arithmetic, and
+subsequent exact next debt remain to be separately adjudicated.
