@@ -9146,3 +9146,155 @@ under `Year 1/LCS 103/Physiology/Theoretical/Lec 1 - Muscle Physiology/`. Tier-3
 rank-9 debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 75 — Tier-4 Physiology theoretical Muscle Physiology lecture
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_262c1ba3765a9922e9d4` |
+| File / SHA-256 | `Muscle-Phys-26.pdf` / `262c1ba3765a9922e9d48974891c6ae7d146fcd995cf59ce1aa0ed225ddba335` |
+| File boundary | 3,496,239 bytes · unencrypted PDF · 60 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Physiology · Theoretical · `Lec 1 - Muscle Physiology` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Theoretical/Lec 1 - Muscle Physiology/Muscle-Phys-26.pdf` |
+| Visible provenance | p. 1 prints `Muscle Physiology`, `Nermien Waly MD, PhD.` and the Capital University email address; metadata title is `Musculoskeletal Physiology`, author is `Waly, Nermien E`, and creator/producer is Microsoft PowerPoint 2010. |
+| Authority finding | Manifest/path-placed local tier-4 Physiology theoretical teaching deck with embedded homework, activity and learner questions. It is not a sitting paper, question bank, response form, practical station sheet or official answer key. |
+
+The assigned SHA-256, byte size and 60-page boundary were recomputed and match. All 60 pages
+were rendered at 180 dpi and read against the complete native text layer. Page 1 is
+title/provenance, pp. 2–3 are objectives, p. 4 is an engagement callout, pp. 5–15 are the
+muscle-system/NMJ/filament teaching sequence, p. 16 is a three-question DMD homework case,
+pp. 17–41 teach sarcomere mechanics, excitability and contractility with embedded questions,
+pp. 42–52 cover fatigue, oxygen debt, metabolism, regulation, evaluation, muscle-type
+comparison and ageing, pp. 53–59 are the electrolyte/hypokalaemia case and explanatory
+sequence, and p. 60 is references.
+
+The complete assessment gate finds **20 eligible ordinary written prompt occurrences / 5
+directly printed answer units / 0 practical or station prompts**. The exact prompt/key boundary
+is: p. 16 three unkeyed DMD homework requests; p. 26 one unkeyed electrical-stimulus rationale;
+p. 37 one motor-unit definition prompt with the printed `Anterior Horn Cell + Nerve Fibre +
+Muscle Fibre` answer; p. 38 three stimulus-strength/frequency/duration requests with `Treppe`
+and `Tetanus` printed for the first two; p. 42 three fatigue-outline requests plus one runner
+oxygen-debt case, with `O2 Debt!` printed as the case answer cue; p. 51 one unkeyed ageing
+reading activity; p. 54 three unkeyed hypokalaemia-case requests; and p. 56 four scaffolded
+hypokalaemia/excitability questions with the graph's printed `Hyperpolarization` answer unit.
+The four p. 56 prompts jointly test one causal-chain concept. Page 4's bare `Why?`, p. 7's
+`What are Muscle Functions?` and p. 24's sarcomere-cycling question are teaching callouts or
+rhetorical headings answered by their accompanying compositions, not learner-response tasks.
+Likewise, the p. 50 comparison table and all declarative diagram labels remain teaching.
+
+This theoretical deck contains no practical/station plate inventory. Its diagrams, graphs,
+tables and case illustrations support theoretical teaching or written prompts; none is framed
+as an identification station, masked-label task, specimen/image practical, rule blank or
+apparatus exercise. Therefore the practical delta is exactly **0 prompts / 0 plates / 0
+mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+One handle is one independently answerable tested concept. The four p. 56 questions are one
+scaffolded mechanism chain; all other prompt occurrences remain independently scoped.
+
+| Source prompt → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 16A → `duchenne-x-linked-recessive-inheritance` | Duchenne X linked recessive inheritance; DMD carrier mother affected son; Duchenne maternal uncle inheritance; dystrophin disease inheritance pattern | pending DMD material and exact accepted Family-54 tested handle own the inheritance pattern | prior eligible-LCS reuse; inherited pending; no printed key; concept delta +0 |
+| p. 16B → `dystrophin-loss-membrane-instability-progressive-muscle-weakness` | dystrophin loss membrane instability weakness; Duchenne muscle fibre degeneration mechanism; DMD pathophysiology muscle weakness; dystrophin actin extracellular matrix damage | pending dystrophy material and accepted Families 12/15/54 jointly own the tested molecular weakness mechanism | prior eligible-LCS reuse; inherited pending; no printed key; concept delta +0 |
+| p. 16C → `duchenne-case-next-diagnostic-and-family-counselling-step` | Duchenne next diagnostic step family counselling; DMD confirm diagnosis genetic testing CK; Gower calf hypertrophy diagnostic workup; counsel parents Duchenne muscular dystrophy | existing DMD records own diagnosis/inheritance components but no eligible handle owns this next-step request as framed | new; no printed key |
+| p. 26 → `electrical-stimulus-experimental-use-rationale` | why electrical stimulus used experimental muscle; electrical stimulus advantages excitable tissue experiment; laboratory muscle stimulation electrical controllable; electrical versus chemical mechanical thermal stimulus | Family 73 teaches laboratory electrical stimulation but no eligible tested handle owns the rationale request | new to eligible LCS; no printed key |
+| p. 37 → `motor-unit-definition-motor-neuron-and-innervated-fibres` | define motor unit motor neuron muscle fibres; anterior horn cell nerve fibre muscle fibre motor unit; motor neuron all innervated skeletal fibres; motor unit physiology definition | pending motor-unit material and Family-15 teaching own the definition, but no prior eligible tested handle does | pending; new to eligible LCS; 1 printed key |
+| p. 38A → `variable-stimulus-strength-treppe-and-recruitment-response` | variable stimulus strength skeletal muscle treppe; strength effect simple muscle twitch intact muscle; stimulus intensity muscle contraction recruitment; staircase phenomenon increasing stimulus strength | Family 73 practical teaching is narrower/different-grain and no eligible tested handle owns this strength-response request | new; 1 printed key |
+| p. 38B → `variable-stimulus-frequency-tetanus-response` | variable stimulus frequency tetanus muscle; frequency summation complete incomplete tetanus; repeated stimuli rate skeletal contraction; tetanus frequency muscle response | exact accepted Family-73 tested handle owns frequency summation/tetanus | prior eligible-LCS reuse; inherited new; 1 printed key; concept delta +0 |
+| p. 38C → `variable-stimulus-duration-contractile-response` | stimulus duration effect muscle contraction; variable duration electrical stimulus muscle; utilization time chronaxie contraction response; duration strength skeletal muscle stimulus | no substantive complete live, pending or accepted prior-LCS tested handle | new; no printed key |
+| p. 42A → `muscle-fatigue-cause-spectrum` | causes muscle fatigue blood flow ions lactate ATP; muscle fatigue mechanism causes; skeletal muscle fatigue metabolic causes; enumerate causes of muscle fatigue | pending fatigue material owns the cause spectrum; prior Families 51/73 are teaching corroboration rather than this tested handle | pending; new to eligible LCS; no printed key |
+| p. 42B → `muscle-fatigue-type-classification` | types of muscle fatigue central peripheral; classify skeletal muscle fatigue; muscle fatigue types physiology; central versus peripheral fatigue | no substantive complete live, pending or accepted prior-LCS tested handle | new; no printed key |
+| p. 42C → `physiological-significance-of-muscle-fatigue` | significance of muscle fatigue protective mechanism; physiological importance muscle fatigue; why fatigue protects muscle; muscle fatigue significance physiology | no substantive complete live, pending or accepted prior-LCS tested handle | new; no printed key |
+| p. 42D → `training-status-oxygen-debt-and-postexercise-recovery` | trained runner oxygen debt recovery breathing; oxygen debt heavy breathing after exercise; exercise training postexercise oxygen consumption; why untrained breathe longer exercise | pending material and exact accepted Family-54 oxygen-debt tested handle own the recovery mechanism | prior eligible-LCS reuse; inherited pending; 1 printed key; concept delta +0 |
+| p. 51 → `age-related-musculoskeletal-changes-and-clinical-implications` | age related musculoskeletal changes clinical implications; ageing skeletal muscle bone joint changes; sarcopenia osteoporosis ageing consequences; elderly musculoskeletal physiological changes | no complete external or accepted prior-LCS tested handle owns the requested system-wide change/implication scope | new; no printed key |
+| p. 54A → `vomiting-hypokalaemia-muscle-cramp-mechanism` | hypokalemia muscle cramps mechanism vomiting; low potassium skeletal muscle cramp excitability; alkalosis hypokalaemia muscle weakness cramps; explain cramps potassium 2.5 vomiting | fatigue/electrolyte fragments do not own this clinical mechanism request | new; no printed key |
+| p. 54B → `vomiting-hypokalaemia-investigation-selection-and-justification` | hypokalemia vomiting investigations ECG magnesium renal; workup severe hypokalaemia vomiting; investigate metabolic alkalosis potassium loss; hypokalaemia diagnostic tests justify | no substantive complete live, pending or accepted prior-LCS tested handle | new; no printed key |
+| p. 54C → `severe-hypokalaemia-most-serious-cardiac-risk` | severe hypokalemia cardiac arrhythmia risk; potassium 2.5 most serious complication; hypokalaemia ECG ventricular arrhythmia; fatal risk low potassium vomiting | no substantive complete live, pending or accepted prior-LCS tested handle | new; no printed key |
+| p. 56A–D → `hypokalaemia-gradient-negative-equilibrium-potential-hyperpolarization-reduced-excitability` | hypokalemia membrane hyperpolarization reduced excitability; low extracellular potassium equilibrium potential negative; potassium gradient resting membrane potential muscle; hypokalaemia skeletal muscle weakness excitability mechanism | pending resting-potential material owns components, but no record or accepted prior tested handle owns the complete four-step clinical chain | new; 1 printed key |
+
+All **17 × 4 = 68** required assessment searches completed across live state, pending state,
+`docs/import-ready`, `docs/questions-import-ready`, every source-import root and accepted prior
+LCS. Direct complete-scope disposition is **0 live / 5 pending / 12 new**. Exact accepted-
+prior adjudication removes the two DMD, tetanus and oxygen-debt repeats, leaving module concept
+delta **0 live / 2 pending / 11 new = 13**. All 20 question occurrences remain counted;
+the five keys are only the source's directly printed answer units identified above.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The complete page sequence consolidates to seventeen source-level theoretical scopes. Prompt
+pages remain in their source teaching scopes where they also carry declarative evidence; no
+page, diagram, table, callout or source wording is deleted by scope collapse.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `musculoskeletal-components-functions-muscle-types-and-movement-command` · pp. 5–9 | musculoskeletal components muscle functions types; skeletal cardiac smooth muscle types; muscle functions movement posture heat; motor command muscle contraction overview | pending comparison material and accepted Families 3/15 own the muscle-type/function core — prior LCS reuse |
+| `neuromuscular-junction-mepp-epp-transmission` · p. 10 | neuromuscular junction MEPP EPP; miniature end plate potential end plate potential; motor nerve acetylcholine muscle transmission; NMJ synaptic transmission skeletal muscle | pending NMJ material and exact accepted Family-3 teaching/tested evidence own the core — prior LCS reuse |
+| `skeletal-muscle-properties-myofilaments-dystrophin-and-duchenne` · pp. 11–16 | skeletal muscle properties myofilaments dystrophin; dystrophin cytoskeleton sarcolemma extracellular matrix; Duchenne X linked muscle weakness Gower; structural functional muscle filaments | pending muscle/dystrophy material and accepted Families 12/15/50/52 own the core — prior LCS reuse |
+| `sarcomere-structure-bands-z-lines-and-contraction-appearance` · pp. 17–21, 24 | sarcomere I A H bands Z line; resting contracted sarcomere appearance; actin myosin sarcomere arrangement; sarcomere structural terminology | accepted Families 51/60 and pending sarcomere material own the complete core — prior LCS reuse |
+| `excitation-contraction-coupling-and-cross-bridge-cycle` · pp. 22–23 | excitation contraction coupling T tubule SR calcium; cross bridge cycle ATP myosin actin; calcium troponin tropomyosin skeletal muscle; depolarization calcium release contraction | pending muscle-physiology material and accepted Family-51 teaching own the core — prior LCS reuse |
+| `excitability-definition-phases-criteria-and-accommodation` · pp. 25–29 | muscle excitability definition phases; refractory period subnormal supernormal phases; all or none fatigue excitable tissue criteria; accommodation slowly rising current muscle | no accepted prior complete theoretical scope owns the full phase/criteria/accommodation sequence — new theoretical teaching |
+| `stimulus-properties-intensity-duration-rheobase-and-chronaxie` · pp. 30–32 | stimulus intensity duration muscle rheobase chronaxie; strength duration curve utilization time; subthreshold threshold maximal supramaximal stimulus; stimulus characteristics excitable tissue | no accepted prior complete theoretical scope owns the full intensity/duration curve sequence — new theoretical teaching |
+| `factors-affecting-excitability-and-excitability-contractility-relations` · pp. 33–34 | factors affecting muscle excitability; excitability contractility relationship graph; temperature ions fatigue muscle excitability; electrical excitability versus mechanical contraction | no accepted prior complete scope owns both factor set and graph relation — new theoretical teaching |
+| `contractility-twitch-motor-unit-and-variable-stimulation-effects` · pp. 35–38 | skeletal muscle contractility twitch motor unit; simple muscle twitch phases motor unit; variable strength frequency duration contraction; treppe tetanus muscle response | accepted Families 15/73 jointly own the twitch, motor-unit and variable-stimulation core — prior LCS reuse |
+| `isometric-isotonic-length-tension-and-force-velocity-relations` · pp. 39–41 | isometric isotonic length tension force velocity; skeletal muscle length tension graph; afterload shortening velocity inverse; static dynamic muscle contraction | pending material and exact accepted Families 16/74 own the complete core — prior LCS reuse |
+| `muscle-fatigue-oxygen-debt-and-muscle-metabolism` · pp. 42–44 | muscle fatigue oxygen debt metabolism; postexercise oxygen recovery ATP creatine phosphate; causes types significance muscle fatigue; muscle energy systems exercise recovery | pending material and accepted Families 51/54/73 own the core — prior LCS reuse |
+| `muscle-contraction-regulation-spindle-reflex-and-higher-centres` · p. 45 | muscle contraction regulation spindle reflex arc; muscle spindle stretch reflex contraction; higher centre control skeletal muscle; reflex regulation muscle tone movement | no accepted prior complete theoretical scope owns this regulation sequence — new theoretical teaching |
+| `musculoskeletal-functions-clinical-evaluation-and-examination` · pp. 46–48 | musculoskeletal functional evaluation examination; assess muscle power tone reflex coordination; clinical examination muscle system; evaluate movement posture joint stability | no accepted prior complete theoretical scope owns the source's functional evaluation sequence — new theoretical teaching |
+| `smooth-muscle-types-mechanism-and-three-muscle-comparison` · pp. 49–50 | smooth muscle types contraction mechanism; skeletal smooth cardiac comparison; calmodulin MLCK smooth muscle contraction; excitation contraction comparison muscle types | pending comparison/smooth-muscle material and accepted Families 3/15/61 own the core — prior LCS reuse |
+| `age-related-musculoskeletal-changes-and-primary-muscle-abnormalities` · pp. 51–52 | age related musculoskeletal changes; sarcopenia ageing muscle bone joint; primary muscular abnormalities table; ageing clinical musculoskeletal implications | no accepted prior complete source scope owns this system-wide ageing/abnormality composition — new theoretical teaching |
+| `electrolyte-imbalance-hypokalaemia-manifestations-and-membrane-excitability` · pp. 53–56 | hypokalemia manifestations muscle cramps arrhythmia; low potassium membrane hyperpolarization; potassium equilibrium potential muscle excitability; electrolyte imbalance skeletal muscle physiology | no accepted prior complete theoretical scope owns the clinical-to-membrane sequence — new theoretical teaching |
+| `potassium-homeostasis-vomiting-alkalosis-raas-and-renal-loss` · pp. 57–59 | vomiting hypokalemia metabolic alkalosis RAAS; volume contraction aldosterone potassium loss; potassium homeostasis kidney vomiting; alkalemia hydrogen loss hypokalaemia | no accepted prior complete theoretical scope owns the source's vomiting/RAAS/homeostasis chain — new theoretical teaching |
+
+All **17 × 4 = 68** required teaching-scope searches completed across live state, pending
+state, all source-import roots and accepted prior LCS. At complete-scope grain the direct
+external result is **0 live / 9 pending / 8 new**. Exact accepted-prior comparison prevents
+nine repeated module additions, leaving **9 prior-LCS reuses / 8 new theoretical-teaching
+scopes**. Together with the assessment handles, Family 75 completed **136 required searches**.
+Declarative theoretical teaching scopes do not enter eligible tested-concept or practical-
+scope counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 75 | Family 75 delta | After Family 75 |
+|---|---:|---:|---:|
+| Eligible observed question records | 549 | +20 | 569 |
+| Eligible printed question keys | 280 | +5 | 285 |
+| Eligible distinct tested concepts | 269 | +13 | 282 |
+| Question live / pending / new | 10 / 89 / 170 | +0 / +2 / +11 | 10 / 91 / 181 |
+| Stand-alone practical/station prompt occurrences | 7 | +0 | 7 |
+| Distinct practical teaching plates, quantified | 458 verified minimum | +0 | 458 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,691 verified minimum | +0 | 2,691 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 149 | +0 | 149 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 92 | +0 / +0 / +0 | 0 / 0 / 92 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `20 prompts = 3 + 1 + 1 + 3 + 4 + 1 + 3 +
+4`, `5 printed keys = 1 + 2 + 1 + 1`, `17 tested handles = 20 prompts - 3 within-source
+scaffold collapses`, `13 added concepts = 17 handles - 4 prior eligible reuses`, `0 + 2 +
+11 = 13`, `569 = 549 + 20`, `285 = 280 + 5`, `282 = 269 + 13`, `10 + 91 + 181
+= 282`, `7 + 0 = 7`, `458 + 0 = 458`, `2,691 + 0 = 2,691`, `149 + 0 = 149`, and
+`92 + 0 = 92`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-74
+remainder leaves **1 rank-4/rank-5 path instance / 1 unique hash**. The Family-74 method was
+reproduced first: its 2/2 row sets recomputed to
+`0c90f44f6f95e51b1ef9a27ad50c24be50f4ee21d7972af13691c6ca69272a9b` and
+`17ffda8702120ca77191e13a70fe08aab0f053a91b7181fb109ae9b0922f5e91`.
+For the exact post-Family-75 manifest remainder, SHA-256 over the sole bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` row is
+`00169c2f4602122c27da8cf63aa62d7754b35ce081d2139db067207d8d8d2f4d`; SHA-256 over the
+sole sorted unique `sha256<LF>` row is
+`18de7621eee1edb36e76c514ae7eaa5053fc0a424695019399b39afd6a56550c`.
+
+The exact final rank-4/rank-5 manifest-order debt is tier-4 Physiology theoretical source
+`src_9ea48716e943c7679cc0`, `Bone physiology.pdf` (724,694 bytes; 29 native-text pages;
+SHA-256 `9ea48716e943c7679cc0d8876a36236ac439cc4b7afc4d91f086a31a36e22c5a`)
+under `Year 1/LCS 103/Physiology/Theoretical/Lec 2 - Bone Physiology & Age-related changes/`.
+Tier-3, tier-6 and rank-9 debts between rank-4/rank-5 gates remain outside this remainder.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
