@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "df40534ec5a5c89ebbe515f5e351311d451fb41ea40c3fc64f3d706b1b4f420d",
-    "triageMarkdown": "c015d771a329adf8eb14bc1b25d5075063568fd2870625b5b500eeb04bdacd5d"
+    "readinessMarkdown": "2b295a788dccd6d6515df11d057ca2a868dabb64f4515685e9ece460b155c758",
+    "triageMarkdown": "aea0dece4c1e2ac28fcca951e929d0df30b7f2838518ebb0820763292b7da332"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -86,6 +86,7 @@
       "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
+      "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
       "d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0",
       "dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
@@ -94,7 +95,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 42
+    "uniqueSha256": 43
   },
   "completedSourceCoverage": [
     {
@@ -1076,26 +1077,55 @@
         "Pectorals major/minor wording retained",
         "fourth block visibly duplicates option label b before Suprascapular"
       ]
+    },
+    {
+      "sha256": "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
+      "sourcePages": 41,
+      "renderedReadPages": "1-41",
+      "questionPages": "1-22",
+      "answerPages": "22-41",
+      "printedPromptObservations": 142,
+      "objectiveMcqPrompts": 142,
+      "figureSupportedMcqPrompts": 8,
+      "standalonePracticalOrImagePrompts": 0,
+      "printedKeyObservations": 142,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 142,
+      "familyAnswerDelta": 142,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "external Upper Limb textbook-review chapter excerpt, internal pages 169-209; no authenticated MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "continuous Q1-Q142 five-option clinical MCQs with one keyed explanation each; eight figure-supported questions remain MCQs and add no separate practical/image occurrences",
+      "preservedSourceDefects": [
+        "visible figure numbering skips Fig. 6-8 and Fig. 6-9",
+        "Q110 points to Fig. 6-3 on internal page 180 although the figure appears on internal page 173"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4741,
-    "printedKeyObservations": 4634,
+    "printedPromptObservations": 4883,
+    "printedKeyObservations": 4776,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 60,
-    "uniqueSha256": 59,
-    "sortedNewlineSha256": "ba80ad38cfccba147f268c40f08c703377c4de09e60db99e2e2a49df56787c66",
+    "inventoryMetadataRows": 59,
+    "uniqueSha256": 58,
+    "sortedNewlineSha256": "df17f9df32449af1bd3c2ec526164de0886420e97ed0aa327c63b2add5021f4a",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
       "empty-text": 11,
       "sparse-text": 7,
-      "substantive-text": 26
+      "substantive-text": 25
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1103,12 +1133,12 @@
     "audit-not-found": 13,
     "empty-text": 11,
     "sparse-text": 7,
-    "substantive-text": 26
+    "substantive-text": 25
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 42,
-    "remainingUniqueSha256": 59,
+    "processedUniqueSha256": 43,
+    "remainingUniqueSha256": 58,
     "processedPlusRemaining": 101
   }
 }
