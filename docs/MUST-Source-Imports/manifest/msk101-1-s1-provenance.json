@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "dadb46b9d9d00d0ea4d1c78818ac3b09ac8191a14ed3171aa55b1983113b4171",
-    "triageMarkdown": "add624425864ee41784019879e55de800d31079952df3127e4ab1b0bb52e967f"
+    "readinessMarkdown": "d8fc91d4f336728350e903f94a74a40478d16539d34a2f3950c8e8fb7c693205",
+    "triageMarkdown": "6812336051fde6c029dc1485dee574644917a17dae9fd095a19c72f1c25eeee1"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -68,6 +68,7 @@
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
+      "af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe",
       "b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7",
       "b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9",
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
@@ -78,7 +79,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 26
+    "uniqueSha256": 27
   },
   "completedSourceCoverage": [
     {
@@ -532,6 +533,19 @@
         "skeletal Q36 option Producing AT is truncated",
         "skeletal function stems repeat at Q32/Q46, Q39/Q48, Q40/Q49, Q41/Q47 and Q15/Q42"
       ]
+    },
+    {
+      "sha256": "af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "teachingPages": "1-3",
+      "printedPromptObservations": 0,
+      "printedKeyObservations": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "boundaryDisposition": "teaching/revision notes only; no assessment prompts"
     }
   ],
   "triageCumulative": {
@@ -543,14 +557,14 @@
     "newConcepts": 26
   },
   "remaining": {
-    "inventoryMetadataRows": 77,
-    "uniqueSha256": 75,
-    "sortedNewlineSha256": "91a8fa946089fea2dbe3e34e1d0f255ec2b88619da9b8a04ca1a67b136767e6e",
+    "inventoryMetadataRows": 76,
+    "uniqueSha256": 74,
+    "sortedNewlineSha256": "9a640c8a2072bd7f9e5202186bad1f0fc224eade5c8484c19c8e87bf2a0214ea",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
-      "sparse-text": 8,
+      "sparse-text": 7,
       "substantive-text": 38
     }
   },
@@ -558,13 +572,13 @@
     "audit-extract-failed": 3,
     "audit-not-found": 14,
     "empty-text": 14,
-    "sparse-text": 8,
+    "sparse-text": 7,
     "substantive-text": 38
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 26,
-    "remainingUniqueSha256": 75,
+    "processedUniqueSha256": 27,
+    "remainingUniqueSha256": 74,
     "processedPlusRemaining": 101
   }
 }

@@ -891,10 +891,36 @@ The source is now `sourceProcessed=true`. Its completed delta is **+148 question
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed teaching-only source — Histology MSK101-1 Exam Night Notes (Final)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - Histology MSK101-1 Exam Night Notes (Final).pdf` | `af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe` | 3 | sparse-text audit sample | pages 1–3 rendered and read | Microsoft Word for Microsoft 365 export created/modified 8 July 2025; metadata author `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud`. The title says `Histology MSK101-1 Exam Night Notes (Final)` and `Dr. Mohamed Ezzt's Notes`, while the footer says `By: Absalam101`. No institution, department, examiner, sitting, marks, prompt set or official-key claim is printed. It is a student-assembled exam-night note sheet attributed to an instructor's notes, not a documented examination or key. |
+
+### Exact MCQ, written, practical, image, key, unkeyed and teaching boundary
+
+All three pages are teaching/revision material. Pages 1–2 reproduce five numbered screenshot-note panels covering skeletal-muscle proteins/fibres/regeneration, epidermal cells/layers, cartilage cells/types/disc, bone cells/architecture/ossification and growth-plate stages. Page 3 is an `Important topics & notes` checklist. The prose uses conversational cues such as “don't forget” and “if asked,” but it does not print a question stem, response field, answer-choice set or keyed response.
+
+The exact assessment boundary is therefore **0 MCQs + 0 written prompts + 0 practical prompts + 0 image-identification prompts = 0 prompt occurrences / 0 key or answer observations / 0 unkeyed assessment prompts**. The five screenshot panels and the page-3 checklist are teaching/revision notes, not latent assessment items. No prompt or answer was inferred from predictive wording, the filename's `EOM MCQs` inventory category, `Exam Night Notes (Final)` title or topic list.
+
+### Source-first zero-handle gate and prior/cross-module disposition
+
+Because no assessment occurrence survives the source boundary, **0 accepted handles** exist. Under the exactly-four-search rule, the correct search ledger is **`0 handles × 4 = 0 searches`**. Prior-MSK and cross-module assessment dedupe are therefore not invoked; the teaching scopes overlap completed MSK skin, muscle, cartilage and bone evidence, but no question family or concept assignment is created.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**. The cumulative total remains **2232 questions / 2159 answers / 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2232 | 2159 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-six processed paths and unique hashes leaves **77 selected inventory paths / 75 unique SHA-256s**. Their sorted, newline-joined hash checksum is `91a8fa946089fea2dbe3e34e1d0f255ec2b88619da9b8a04ca1a67b136767e6e`. Remaining audit-review debt is 38 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`26 + 75 = 101`**.
+Removing these twenty-seven processed paths and unique hashes leaves **76 selected inventory paths / 74 unique SHA-256s**. Their sorted, newline-joined hash checksum is `9a640c8a2072bd7f9e5202186bad1f0fc224eade5c8484c19c8e87bf2a0214ea`. Remaining audit-review debt is 38 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`27 + 74 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - Histology MSK101-1 Exam Night Notes (Final).pdf`, SHA-256 `af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe`, 3 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - Anatomy MSK 1 final questions 2025 (Past exams).pdf`, SHA-256 `3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9`, 22 pages.
 
-**BLOCKED — S1 cannot be approved:** 77 selected inventory paths / 75 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 76 selected inventory paths / 74 unique hashes remain untriaged.
