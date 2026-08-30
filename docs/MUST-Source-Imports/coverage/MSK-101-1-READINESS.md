@@ -8,9 +8,9 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The sixty-five completed read-only source hashes cover sixty-six selected inventory paths, represent forty-six distinct prompt families and yield **6231 questions / 6041 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed thirty-eight-page `BONE BY SALAMA` file, SHA-256 `b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd`, is a Mohamed Salama student-authored bone summary and MCQ compilation, not a documented MUST exam or official key. Its exact boundary is **95 MCQs / 95 printed answers / 0 written / 0 practical or image-identification / 0 unkeyed prompts** across five keyed banks of 15 + 25 + 15 + 15 + 25. It is a distinct prompt carrier rather than an embedded sequence of the earlier 92-page `HISTO FINAL BY SALAMA`; all source-first bone scopes nevertheless collapse to completed MSK bone coverage. The exactly-four-search gate therefore resolves to **0 new handles × 4 = 0 new searches**, contributing **+95 questions / +95 answers / +0 concepts**.
+The sixty-six completed read-only source hashes cover sixty-seven selected inventory paths, represent forty-six distinct prompt families and yield **6231 questions / 6041 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed three-page `102 training questions` file, SHA-256 `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2`, contains **21 unkeyed prompts = 14 MCQs + 7 short-written prompts / 0 answers / 0 practical or image-identification prompts**. It is the clean normalized prompt-sequence sibling of the already processed three-page `MSK Training questions - answers` carrier: the same order, wording and forms differ only in `fibres`/`fibers` and spacing, while the prior sibling supplied twelve answer marks. The exactly-four-search gate therefore resolves to **0 surviving handles × 4 = 0 searches**, contributing **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd`.
+Latest processed family hash: `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2`.
 
 Recent processed family hash retained for reconciliation: `1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c`.
 
@@ -28,8 +28,10 @@ Newly processed family hashes: `3d57008c1670965ae13fe5d8045d1cc94313640de23803cb
 
 Current processed-family append: `b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd`.
 
-Removing them leaves **37 inventory paths / 36 unique SHA-256s**, checksum `7fb059d104f6148445ffe6b523bed4dbe9b76a3f6fc681f688eed1966d1133d7`. The pinned remaining audit-review debt is 13 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current normalized-sibling carrier append: `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/102 training questions.pdf`, SHA-256 `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2`, 3 pages.
+Removing them leaves **36 inventory paths / 35 unique SHA-256s**, checksum `23a024556fb177ac97ee68318d3e889f4fa37f576403e09d66a5d5e284c0f43c`. The pinned remaining audit-review debt is 12 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 37 selected inventory paths / 36 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/200 Connective tissue Practice Questions.pdf`, SHA-256 `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e`, 59 pages.
+
+**BLOCKED — S1 cannot be approved:** 36 selected inventory paths / 35 unique hashes remain untriaged.

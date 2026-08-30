@@ -2590,3 +2590,41 @@ Removing the sixty-five processed unique hashes leaves **37 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/102 training questions.pdf`, SHA-256 `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 37 selected inventory paths / 36 unique hashes remain untriaged.
+
+## Completed normalized sibling — 102 training questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/102 training questions.pdf` | `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2` | 3 | substantive-text audit sample | pages 1–3 rendered and read | Unattributed local `Training questions Connective Tissue` sheet created in Microsoft Word on 29 October 2024 with metadata author `a`. No institution, department, examiner, sitting, marks or official-key claim appears; the Midterm folder is inventory context, not examination authority. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/102 training questions.pdf" purpose="source"}
+
+### Exact MCQ, written, answer and practical boundary
+
+Pages 1–2 contain one continuous Q1–Q14 four-option MCQ sequence. Page 2 then begins `Short Questions` Q1, and page 3 continues Q2–Q7. The exact physical boundary is therefore **21 prompt occurrences = 14 MCQs + 7 short-written prompts / 0 answer observations / 21 source-unkeyed prompts**. There are **0 practical or image-identification prompts / 0 teaching-only pages / 0 answer-only observations**. Response lines and the blank white-versus-brown-adipose comparison table are written-answer spaces, not printed answers.
+
+Internal repetition is preserved at the occurrence boundary: MCQ Q4/Q8 repeat fibroblast fibre/matrix synthesis; Q2/Q7/Q9 repeat macrophage identity/function; Q3/Q14 and written Q2/Q5 repeat white/brown adipocyte scope; Q6/Q10 repeat plasma-cell origin; and the written prompts revisit connective-tissue type/site/fibre scopes. Printed spelling, punctuation and grammar remain uncorrected.
+
+### Normalized sibling reconciliation and search gate
+
+The prompt order, page structure, options and written forms match the previously processed `MSK Training questions - answers.pdf`, SHA-256 `43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903`. After lowercasing, normalizing `fibres` to `fibers`, and collapsing punctuation/spacing, both extracted prompt carriers have **3,643 normalized characters** and SHA-256 `7c4d5c24c6965b142f7d6f305a673272e870a8f3a256e8cc458e405cb5239d70`. The earlier carrier already counted all 21 prompts and supplied twelve visible answer marks; this clean sibling adds no prompt or answer observation to the family.
+
+All visible material maps one-for-one to the earlier H1 connective-tissue types/fibres/stains, H2 connective-tissue cells and H3 adipocyte assignments. After normalized-sibling and prior-MSK collapse, **zero accepted handles survive**. The exactly-four-search gate resolves as **`0 surviving handles × 4 = 0 searches`**; the prior family's **3 handles / 12 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct inventory hash is now `sourceProcessed=true`, while its normalized prompt family remains counted once. Its delta is **+0 questions / +0 answers / +0 concepts**. Cumulative totals remain **6231 questions / 6041 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6231 | 6041 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer inference, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-six processed unique hashes leaves **36 selected inventory paths / 35 unique SHA-256s**. Their sorted, newline-joined hash checksum is `23a024556fb177ac97ee68318d3e889f4fa37f576403e09d66a5d5e284c0f43c`. Remaining audit-review debt is 12 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`66 + 35 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/200 Connective tissue Practice Questions.pdf`, SHA-256 `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e`, 59 pages.
+
+**BLOCKED — S1 cannot be approved:** 36 selected inventory paths / 35 unique hashes remain untriaged.
