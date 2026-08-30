@@ -21685,3 +21685,103 @@ limb.pdf` (598,102 bytes; six native 540 x 720 pt pages; untagged; unencrypted; 
 and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 24 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 207 — Tier-6 anonymous dated lower-limb muscle reference deck
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_28e9c5a6860fc078292e` / `28e9c5a6860fc078292ea188e7c716ebf0dbe0978378ba983fd78399b5f85488` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/muscle of lower limb.pdf` |
+| Physical verification | **598,102 bytes; six native-text 540 x 720 pt pages; untagged; unencrypted; no form; PDF 1.5**. Full hash, byte size, page count and geometry match. All six pages were rendered completely at 180 dpi to six distinct 1,350 x 1,800 RGB images, inspected at original resolution and read against the complete native layer. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | Every page prints `11/11/2012`; p. 1 prints `Muscles of the Lower Limb`. No page names an author, institution, lecturer, module, citation, sitting or key. Metadata names Microsoft PowerPoint 2007 as creator, the same 11 November 2012 creation date, and an iOS/Quartz 5 November 2025 modification layer, but no author. |
+| Authority finding | Anonymous dated tier-6 teaching-reference evidence. Manifest placement establishes LCS-103 topical relevance; neither the visible date nor metadata establishes Helwan authorship, a recoverable assessment sitting, response form, practical station or official key. |
+
+All **6/6 pages** are complete mosaics of supplied reference cards:
+
+| Page | Complete source-first composition |
+|---:|---|
+| 1 | title panel plus iliacus, psoas major, tensor fasciae latae, sartorius and pectineus cards |
+| 2 | adductor brevis/longus/magnus, gracilis and gluteus maximus/medius cards |
+| 3 | gluteus minimus, piriformis, obturator externus/internus, superior/inferior gemelli, quadratus femoris and rectus femoris cards |
+| 4 | vastus lateralis/medialis/intermedius and biceps femoris, semitendinosus and semimembranosus cards |
+| 5 | popliteus, tibialis anterior, extensor digitorum/hallucis longus, fibularis longus/brevis and gastrocnemius cards |
+| 6 | soleus, plantaris, flexor digitorum/hallucis longus and tibialis posterior cards |
+| **Total** | **one title panel + 34 completed muscle-reference cards = 35 supplied teaching panels** |
+
+Each muscle card supplies a highlighted anatomical illustration plus origin, insertion,
+innervation and action simultaneously. There is **no assessment inventory**: no learner
+instruction, question numbering, option set, response field, masked label, mark allocation,
+delayed reveal or key convention appears. Dashed innervation lines on the psoas major,
+piriformis, obturator, gemellus and quadratus-femoris cards are printed reference states, not
+learner blanks. Exact delta is **0 eligible or external prompts / 0 keys-or-answers / 0
+written prompts / 0 unkeyed assessment prompts**.
+
+Blue handwriting and checkmarks are preserved as an annotation layer, including the partly
+legible psoas/pectineus notes, `fib`, `sciatic - N` and ticks beside selected fields; they do
+not define questions or a reproducible answer-key convention. Source wording and grouping
+remain unrepaired, including the headings `Muscles Moving (Lower) Leg - Anterior`, the source
+placements of rectus femoris and fibularis, dashed innervations and every printed OINA state.
+
+### Practical and image boundary
+
+The deck contains completed highlighted anatomical illustrations, but every muscle identity,
+view, relation and OINA field is already supplied within its explanatory card. There is no
+masked structure, numbered identification station, learner-completed map, response blank or
+practical key. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0
+residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The 34 cards consolidate to six complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| anterior hip flexors, tensor fasciae latae, sartorius and pectineus · p. 1 | iliacus psoas tensor fasciae latae sartorius pectineus OINA | Accepted Families 39, 41, 195 and 205 own the complete scope — prior-LCS reuse. |
+| medial-thigh adductors and gracilis · p. 2 | adductor brevis longus magnus gracilis medial thigh OINA | Accepted Families 39, 41 and later lower-limb summaries own the complete scope — prior-LCS reuse. |
+| gluteal muscles and short lateral rotators · pp. 2–3 | gluteus maximus medius minimus piriformis obturator gemelli quadratus OINA | Accepted Families 40, 194–195 and later summaries own the complete scope — prior-LCS reuse. |
+| quadriceps · pp. 3–4 | rectus femoris vastus lateralis medialis intermedius quadriceps OINA | Accepted Families 39, 41 and later lower-limb summaries own the complete scope — prior-LCS reuse. |
+| hamstrings and popliteus · pp. 4–5 | biceps femoris semitendinosus semimembranosus popliteus OINA | Accepted Families 42, 44 and later summaries own the complete scope — prior-LCS reuse. |
+| anterior, lateral and posterior leg muscles · pp. 5–6 | tibialis extensors fibularis gastrocnemius soleus plantaris long flexors posterior OINA | Accepted Families 43–45 and 202–206 own the complete scope — prior-LCS reuse. |
+
+Each of the **six accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **6 x 4 =
+24 required search invocations**. Live matches were **0 / 0 / 0 / 0 / 0 / 0** files;
+pending/import-ready matches were **18 / 17 / 23 / 21 / 19 / 18**; the prior-source lane had
+no complete-file match; and every accepted-LCS query matched. Complete-scope comparison gives
+**6 prior-LCS theoretical reuses / 0 additive live / 0 additive pending / 0 additive new
+teaching scopes**. Declarative theoretical scopes do not enter tested-concept or practical
+teaching-scope totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues / 87 keys**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical delta is
+zero.
+
+This hash occurs once in Family 206's remainder. Removing its sole path changes the remainder
+from **24 paths / 23 unique hashes** to **23 paths / 22 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **14 paths / 14 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 206's checksums were
+`7e590a92a706f59b2f3c4e5f8e1f2bb8724005e497a1529d1e4ae024852f9315` (paths) and
+`7f9b14f4ae67b9caf4d36c5a8a64fa04c51a9bb1d0107973432487cdaa97b8a3` (unique hashes).
+For the exact post-Family-207 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`2ccb63a1f8c7ba3ce8b9cbe26aafa327baab803807f609c5c339aceb42d2f4bb`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`8345a6aaa6a5ef77c9af131664b6fb03988e605dfcd33ed878dc4a1a504cc0eb`.
+
+The exact next manifest-order debt is tier-6 `src_6b27ae6e20d11c6c2ce9`, `summary of nerves
+& vessels of lower limb.pdf` (3,938,863 bytes; five OCR-needed 612 x 862.55 pt pages;
+untagged; unencrypted; no form; PDF 1.4; SHA-256
+`6b27ae6e20d11c6c2ce95e42bccfc77186b3dff4ddf238ce91b0400b6a85dc5e`) under `Year 1/LCS
+103/Anatomy/Notes and Summaries/`. It remains unclassified until all five pages are rendered
+and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 23 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
