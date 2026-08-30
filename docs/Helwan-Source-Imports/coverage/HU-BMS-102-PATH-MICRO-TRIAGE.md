@@ -6838,3 +6838,71 @@ Family-60 blocker. The next manifest-ordered local BMS-102 candidate is tier-5
 OCR-needed landscape 1280×720-point pages under `Microbiology / Practical`. Its unread 11-page
 prompt/teaching/answer boundary is the next-source processing blocker: fully render and visually
 adjudicate the complete source before admitting any count.
+
+## Family 61 — tier-5 practical-laboratory teaching collage
+
+### Source identity, complete visual boundary, and zero-assessment ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_abc9011879d91d9c2399` · `microbiology  lab.pdf` |
+| Local path | `BMS 102/Microbiology/Practical/microbiology  lab.pdf` |
+| SHA-256 / size | `abc9011879d91d9c2399070cb96560d4ad247f07354a77e2833c902aa850be1d` · 56,514,740 bytes |
+| Format / read boundary | 11 OCR-needed landscape 1280×720-point pages; native extraction is empty, all 11 pages rendered at 160 dpi, every page read in three ordered contact sheets, and prompt-like pp. 1 and 11 reopened at full-page resolution |
+| Provenance / authority | Image-only practical-laboratory collage with no visible university/faculty/module masthead, author, examiner, sitting, date, marks, instructions, response form, assessment-bank label, or key designation; manifest marks this as the preferred name twin of `src_e76e225d0160746d76d1` |
+
+This source is a photographed practical teaching atlas. Handwritten labels, numbered stickers,
+printed cards, equipment names, organism identifications, and worked method photographs directly
+identify what they show. They are teaching mappings, not blank identification stations or
+assessment prompts. The isolated `MIC??` annotation on p. 11 lacks a complete command, response
+frame, option set, or source-authored answer mapping and is retained only as one excluded
+prompt-like residue.
+
+| Physical page | Complete visual content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1 | Numbered light-microscope photographs plus a handwritten 1–11 part-name mapping | fully labelled practical teaching plate; **0 / 0** |
+| 2 | Gram-positive bacilli micrograph and handwritten identification | labelled organism plate; **0 / 0** |
+| 3 | Gram-negative bacilli micrograph and handwritten identification | labelled organism plate; **0 / 0** |
+| 4 | Gram-positive cocci-in-clusters micrograph and handwritten identification | labelled organism plate; **0 / 0** |
+| 5 | Acid-fast micrograph and handwritten `Ziehl-neelsen stain M.TB` label | labelled organism plate; **0 / 0** |
+| 6 | Bacteriological-loop card/photo plus peptone-water and nutrient-broth cards/tubes | declarative teaching/mapped specimens; **0 / 0** |
+| 7 | Nutrient-agar plate/slope and blood-agar cards/specimens | declarative teaching/mapped specimens; **0 / 0** |
+| 8 | Chocolate-agar, MacConkey-agar, and TSI cards/specimens | declarative teaching/mapped specimens; **0 / 0** |
+| 9 | Lowenstein–Jensen, blood-tellurite, and GasPak cards/specimens/equipment | declarative teaching/mapped specimens; **0 / 0** |
+| 10 | Safety cabinet, autoclave, and labelled mannitol-salt plate | equipment/organism teaching; **0 / 0** |
+| 11 | Labelled Mueller–Hinton agar, antibiotic discs, forceps/swab, disc-diffusion plate, and tube-dilution series; isolated `MIC??` beside a worked chart | demonstrations; one excluded residue; **0 / 0** |
+
+The complete source contributes **0 complete prompt occurrences / 0 printed answer occurrences /
+0 retained records / 0 source-distinct tested handles / 0 concept additions**. With no
+admissible handle, the source-first search gate is exactly **0 handles × 4 = 0 required
+searches**; there is no external or prior-BMS disposition ledger to fabricate.
+
+| Measure | Family 61 | Auxiliary cumulative (Families 12–61) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 571 | 765 | 1,336 |
+| Printed answer occurrences | 0 | 301 | 405 | 706 |
+| Incomplete prompt-like residues | 1 excluded | — | — | tracked separately |
+| Retained question records | 0 | 554 | 552 | 1,106 |
+| Source-distinct tested handles / required searches | 0 / 0 | 523 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Cross-family concept delta | +0 | +393 over primary | 372 | `372 + 393 = 765` |
+| **Distinct tested concepts** | **+0** | **393 auxiliary additions** | **372** | **765** |
+
+The checksum closes without remainder: `0` prompts produce `0` answers, retained records,
+handles, searches, external dispositions, and concept additions. Primary remains **765 / 405 /
+552 / 372**; auxiliary remains **571 / 301 / 554 / 523 / +393**; and all eligible evidence
+remains **1,336 / 706 / 1,106 / 765**. Teaching-only maps cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 61
+
+`src_abc9011879d91d9c2399` is exhausted across all 11 pages: every photograph, label, number
+mapping, declarative card, equipment demonstration, organism/media identification, and the one
+excluded `MIC??` residue is assigned once, with **zero source remainder** and no Family-61
+blocker. The next manifest-ordered local BMS-102 candidate is its non-preferred tier-5 name twin,
+`src_e76e225d0160746d76d1` · `microbiology lab.pdf`, SHA-256
+`e76e225d0160746d76d169bee40f69a4ba1a7675722bbddc0a79d9f47d358139`, 10,350,671 bytes,
+five OCR-needed landscape US-letter pages under `Microbiology / Practical`. Its unread five-page
+scope and byte-level relationship to the preferred 11-page carrier are the next-source blocker:
+fully render, compare, and adjudicate the complete twin before admitting or deduplicating any
+count.
