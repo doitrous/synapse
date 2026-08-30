@@ -8730,3 +8730,157 @@ under `Year 1/LCS 103/Pharmacology/Theoretical/Lec 6 - Drugs Affecting Calcium/`
 rank-9 source debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103
 S1 remains incomplete. No download, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 72 — Tier-4 Pharmacology Calcium Metabolism lecture with four keyed MEQs
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_d4997a0848a0aa52ae1a` |
+| File / SHA-256 | `26 Calcium Metabolism.pdf` / `d4997a0848a0aa52ae1a39d26515360f5e2de0bf630169aa0778a364396bd26a` |
+| File boundary | 408,873 bytes · unencrypted PDF · 24 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Pharmacology · Theoretical · `Lec 6 - Drugs Affecting Calcium` · instructor field `Ugs` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Pharmacology/Theoretical/Lec 6 - Drugs Affecting Calcium/26 Calcium Metabolism.pdf` |
+| Visible provenance | p. 1 prints only `CALCIUM METABOLISM`; metadata title is `Calcium Metabolism`, author is `mohamed abdelaziz`, and creator/producer is Microsoft PowerPoint LTSC; p. 2 says `postgraduate students`, which is preserved as a source statement without overriding the manifest's Year-1 module placement |
+| Authority finding | Manifest/path-placed local module theoretical lecture and revision-question evidence. It is not a recoverable sitting, department question bank, response form, practical station or official answer key, but pp. 21–24 explicitly print learner-facing MEQs and simultaneous `Model Answers`. |
+
+The assigned SHA-256, byte size and 24-page boundary were recomputed and match the manifest.
+All 24 pages were rendered at 160 dpi and read against the complete native text layer; all 24
+complete-page renders have distinct SHA-256 values. Page 1 is the title slide, pp. 2–20 are
+declarative calcium-metabolism teaching, and pp. 21–24 are four MEQ compositions containing
+15 independently answerable lettered subprompts and 15 simultaneous printed answer units.
+
+Page 14 has three locally empty formula fields after `UVB converts:`, `Liver Hydroxylation:`
+and `Kidney 1-alpha hydroxylase converts:`. They are teaching-layout omissions rather than
+imperative response blanks, and the exact pathway is explicitly supplied later in p. 21's
+model answer. They therefore contribute **3 source-resolved teaching callouts / 0 unresolved
+source-wide callouts**, not assessment prompts or practical residue. Page 20's memory-aid
+table is fully filled. No page contains a practical specimen, identification station, masked
+practical label, unkeyed option set or response form.
+
+The complete source boundary is therefore **19 theoretical teaching compositions / 15
+ordinary written prompt occurrences / 15 printed assessment keys / 0 practical or station
+prompts / 0 practical teaching plates / 0 practical mappings / 0 unresolved callouts**.
+
+### Complete teaching, assessment and key inventory
+
+| Physical pages | Source-first composition | Teaching compositions | Assessment / key boundary |
+|---:|---|---:|---:|
+| 2–7 | objectives, calcium introduction/distribution/functions, integrated homeostasis and bone-cell table | 6 | 0 |
+| 8–11 | intestinal absorption/mechanisms/factors and renal handling/hormonal-diuretic regulation | 4 | 0 |
+| 12–13 | PTH synthesis, stimulus, organ actions and net-effect table | 2 | 0 |
+| 14–18 | vitamin-D activation/regulation, deficiency disorders, calcitriol, calcitonin and FGF-23 | 5 | 0; p. 14's 3 local blanks are resolved on p. 21 |
+| 19–20 | take-home summary and fully filled hormone/organ memory aid | 2 | 0 |
+| 21 | `MEQ 2 — Vitamin D Metabolism`: synthesis/activation, calcitriol actions and deficiency causes | 0 | 3 prompt occurrences / 3 printed model-answer units |
+| 22 | `MEQ 3 — Hypercalcemia`: definition, causes, manifestations and treatment | 0 | 4 prompt occurrences / 4 printed model-answer units |
+| 23 | `MEQ 4 — Hypocalcemia`: causes, tetany, ECG changes and treatment | 0 | 4 prompt occurrences / 4 printed model-answer units |
+| 24 | `MEQ 5 — Osteoporosis`: definition, pathogenesis, risk factors and pharmacotherapy | 0 | 4 prompt occurrences / 4 printed model-answer units |
+| **Total** | **complete source boundary** | **19** | **15 prompts / 15 keys** |
+
+The physical-page arithmetic is **24 = 1 title page + 19 teaching pages + 4 simultaneous
+assessment/key pages**. The prompt/key arithmetic is **15 = 3 + 4 + 4 + 4**, and every
+lettered request has a same-letter model-answer unit. No medical inference is needed to create
+the key boundary.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+The 15 prompt occurrences consolidate to 14 tested handles because p. 24's definition and
+pathogenesis subprompts jointly test the already accepted osteoporosis density/resorption-
+formation handle. All other lettered requests are independently scoped.
+
+| Source prompt → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 21A → `vitamin-d-skin-liver-kidney-activation-sequence` | describe synthesis activation vitamin D; vitamin D activation skin liver kidney sequence; 7 dehydrocholesterol cholecalciferol calcidiol calcitriol; vitamin D synthesis hydroxylation MEQ | pending vitamin-D material owns the complete activation sequence; Family 53 owns it as teaching but not as an eligible tested handle | pending; new to eligible LCS; 1 printed key |
+| p. 21B → `calcitriol-multiorgan-actions` | explain actions of calcitriol; calcitriol intestinal calcium bone mineralization PTH suppression; active vitamin D organ actions; calcitriol kidney bone intestine parathyroid | pending vitamin-D material owns the multiorgan action pattern; Family 53 is teaching corroboration only | pending; new to eligible LCS; 1 printed key |
+| p. 21C → `vitamin-d-deficiency-cause-spectrum` | causes vitamin D deficiency malnutrition malabsorption CKD liver; vitamin D deficiency causes list; malabsorption chronic kidney liver disease vitamin D; etiology vitamin D deficiency | deficiency/disorder fragments do not own the source's complete cause list, and no prior eligible tested handle does | new; 1 printed key |
+| p. 22A → `hypercalcemia-definition-above-10-point-5-mg-dl` | define hypercalcemia serum calcium greater 10.5; hypercalcemia threshold 10.5 mg dL; high serum calcium definition; hypercalcaemia laboratory definition | no substantive complete external or accepted prior-LCS tested handle | new; 1 printed key |
+| p. 22B → `hypercalcemia-cause-spectrum` | hypercalcemia causes hyperparathyroidism malignancy vitamin D thiazide; etiology of hypercalcemia; granulomatous disease hypercalcemia causes; enumerate hypercalcemia causes | prior malignancy/calcium fragments do not own the complete five-cause spectrum | new; 1 printed key |
+| p. 22C → `hypercalcemia-clinical-manifestation-spectrum` | hypercalcemia manifestations stones bones constipation neuropsychiatric; clinical manifestations hypercalcemia; renal stones bone pain hypercalcemia; hypercalcemia symptoms neuropsychiatric gastrointestinal | no substantive complete external or accepted prior-LCS tested handle | new; 1 printed key |
+| p. 22D → `severe-hypercalcemia-sequential-saline-bisphosphonate-management` | hypercalcemia treatment hydration calcitonin bisphosphonates dialysis; severe hypercalcemia management; saline bisphosphonate calcitonin hypercalcemia; treat hypercalcemia dialysis | exact accepted Family-18 treatment handle owns the hydration/bisphosphonate core; the source adds calcitonin and severe-case dialysis wording without creating a new tested concept | prior eligible-LCS reuse; inherited new; 1 printed key; concept delta +0 |
+| p. 23A → `hypocalcemia-cause-spectrum` | hypocalcemia causes hypoparathyroidism vitamin D CKD hypomagnesemia; etiology of hypocalcemia; enumerate hypocalcemia causes; low calcium causes parathyroid kidney magnesium | no substantive complete external or accepted prior-LCS tested handle | new; 1 printed key |
+| p. 23B → `hypocalcemic-tetany-from-neuromuscular-hyperexcitability` | hypocalcemia tetany neuromuscular excitability; explain tetany low calcium; calcium decreases neuronal threshold tetany; hypocalcemic tetany mechanism | pending calcium-excitability material owns the mechanism; Family 53 is teaching corroboration only | pending; new to eligible LCS; 1 printed key |
+| p. 23C → `hypocalcemia-qt-interval-prolongation` | hypocalcemia ECG QT prolongation; low calcium electrocardiogram change; prolonged QT hypocalcaemia; ECG changes hypocalcemia | no substantive complete external or accepted prior-LCS tested handle | new; 1 printed key |
+| p. 23D → `hypocalcemia-calcium-and-vitamin-d-treatment` | hypocalcemia treatment IV calcium gluconate oral vitamin D; acute hypocalcemia management; treat symptomatic hypocalcemia; calcium gluconate vitamin D hypocalcemia | no substantive complete external or accepted prior-LCS tested handle | new; 1 printed key |
+| p. 24A–B → `osteoporosis-density-and-resorption-formation-pathogenesis` | osteoporosis low bone mass microarchitectural deterioration; define osteoporosis; osteoporosis resorption formation imbalance; osteoporosis definition pathogenesis | pending osteoporosis material and exact accepted Family-17/18 density/fragility handle own the definition and imbalance core | pending; prior eligible-LCS reuse; 2 printed keys; concept delta +0 |
+| p. 24C → `osteoporosis-risk-factor-spectrum` | osteoporosis risk factors aging menopause steroids smoking; enumerate osteoporosis risks; postmenopausal steroid smoking bone loss risk; osteoporosis risk factor spectrum | accepted age-, menopause- and glucocorticoid-specific handles are component evidence only; no one tested handle owns this four-factor request | new; 1 printed key |
+| p. 24D → `osteoporosis-bisphosphonate-denosumab-teriparatide-pharmacotherapy` | osteoporosis pharmacotherapy bisphosphonate denosumab teriparatide; treatment osteoporosis calcium vitamin D; osteoporosis drug therapy; antiresorptive anabolic osteoporosis management | calcitonin and calcium-management fragments do not own this antiresorptive/anabolic treatment set | new; 1 printed key |
+
+All **14 × 4 = 56** required assessment searches completed across live state, pending state,
+`docs/import-ready`, `docs/questions-import-ready`, every source-import root and accepted prior
+LCS. Direct complete-scope disposition is **0 live / 4 pending / 10 new**. Exact accepted-
+prior adjudication removes the inherited hypercalcemia-treatment and osteoporosis-definition/
+pathogenesis handles, leaving module concept delta **0 live / 3 pending / 9 new = 12**.
+Search matches establish coverage only; all 15 keys come directly from the source's printed
+`Model Answers` sections.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The 19 teaching compositions consolidate to ten source-level theoretical scopes. The p. 19
+summary and p. 20 memory aid collapse into their already listed source scopes; no page,
+reference value, table, callout or source wording is deleted.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `calcium-body-distribution-serum-range-and-physiological-functions` · pp. 2–5, 19 | calcium body distribution serum fractions physiological functions; total body calcium 99 percent bone teeth; normal serum calcium 8.5 10.5 mg dL; calcium neuromuscular cardiac coagulation signaling | pending calcium material and accepted Family-53 serum-calcium/functions scope own the core — prior LCS reuse |
+| `calcium-homeostasis-regulators-and-bone-cell-roles` · pp. 6–7, 19–20 | calcium homeostasis bone kidney intestine hormones; osteoblast osteoclast osteocyte functions; PTH vitamin D calcitonin FGF23 regulators; bone cells formation resorption mechanosensing | accepted Families 13 and 53 jointly own the bone-cell/regulator core — prior LCS reuse |
+| `intestinal-calcium-absorption-mechanisms-and-factors` · pp. 8–9 | intestinal calcium absorption TRPV6 calbindin; calcium ATPase sodium calcium exchanger intestine; vitamin D active transcellular calcium absorption; phytate oxalate glucocorticoid calcium absorption | pending calcium/vitamin-D material and accepted Family-53 absorption/function teaching own the core — prior LCS reuse |
+| `renal-calcium-handling-hormones-and-diuretics` · pp. 10–11 | renal calcium reabsorption proximal thick ascending distal; PTH distal calcium phosphate reabsorption 1 alpha hydroxylase; loop diuretics increase calcium excretion thiazide reduce; renal handling calcium nephron percentages | no complete external or accepted prior-LCS scope owns both nephron percentages and the loop/thiazide contrast — new theoretical teaching |
+| `pth-synthesis-stimulus-organ-actions-and-net-effects` · pp. 12–13 | PTH chief cells CaSR low ionized calcium; PTH RANKL osteoclast bone kidney intestine; PTH serum calcium phosphate urinary phosphate calcitriol; parathyroid hormone net effects calcium phosphate | accepted Family-53 PTH/calcium-regulation teaching owns the core — prior LCS reuse |
+| `vitamin-d-skin-liver-kidney-activation-and-regulation` · p. 14 | vitamin D skin liver kidney activation regulation; UVB 7 dehydrocholesterol cholecalciferol; liver 25 hydroxylation kidney 1 alpha hydroxylase; FGF23 inhibits calcitriol activation | pending vitamin-D material and exact accepted Family-53 activation scope own the core; p. 21 resolves the three local teaching omissions — prior LCS reuse |
+| `vitamin-d-deficiency-rickets-and-osteomalacia` · p. 15 | vitamin D deficiency rickets osteomalacia features; rickets bow legs rachitic rosary delayed dentition; osteomalacia bone pain fragility fractures; defective mineralization children adults vitamin D | exact accepted Family-53 deficiency scope and earlier rickets/osteomalacia evidence own the core — prior LCS reuse |
+| `calcitriol-multiorgan-calcium-phosphate-actions` · p. 16 | calcitriol actions intestine bone kidney parathyroid; calcitriol calcium phosphate absorption mineralization; excess calcitriol bone resorption suppresses PTH; active vitamin D physiological actions | pending vitamin-D material and accepted Family-53 homeostasis/functions scope own the core — prior LCS reuse |
+| `calcitonin-source-stimulus-and-actions` · p. 17 | calcitonin C cells hypercalcemia osteoclast inhibition; calcitonin renal calcium excretion; calcitonin physiological importance humans limited; thyroid parafollicular calcitonin bone resorption | accepted Families 13 and 53 calcitonin evidence own the core — prior LCS reuse |
+| `fgf23-source-phosphate-calcitriol-regulation` · p. 18 | FGF23 osteocyte osteoblast phosphate homeostasis; FGF23 reduces phosphate reabsorption; FGF23 suppresses 1 alpha hydroxylase calcitriol; fibroblast growth factor 23 functions | exact accepted Family-53 FGF-23 teaching scope owns the core — prior LCS reuse |
+
+All **10 × 4 = 40** required teaching-scope searches completed across live state, pending
+state, all source-import roots and accepted prior LCS. At complete-scope grain the direct
+external result is **0 live / 8 pending / 2 new**. Exact accepted-prior comparison prevents
+nine repeated module additions, leaving **9 prior-LCS reuses / 1 new theoretical-teaching
+scope**. Together with the assessment handles, Family 72 completed **96 required searches**.
+Declarative teaching scopes do not enter eligible tested-concept or practical-scope counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 72 | Family 72 delta | After Family 72 |
+|---|---:|---:|---:|
+| Eligible observed question records | 532 | +15 | 547 |
+| Eligible printed question keys | 265 | +15 | 280 |
+| Eligible distinct tested concepts | 256 | +12 | 268 |
+| Question live / pending / new | 10 / 86 / 160 | +0 / +3 / +9 | 10 / 89 / 169 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `24 = 1 + 19 + 4`, `19 = 6 + 4 + 2 + 5 +
+2`, `15 prompts = 3 + 4 + 4 + 4`, `15 printed keys = 3 + 4 + 4 + 4`, `14 tested
+handles = 15 prompts - 1 within-source concept collapse`, `12 added concepts = 14 handles -
+2 prior eligible reuses`, `0 + 3 + 9 = 12`, `547 = 532 + 15`, `280 = 265 + 15`, `268
+= 256 + 12`, `10 + 89 + 169 = 268`, `6 + 0 = 6`, `398 + 0 = 398`, `2,496 + 0 =
+2,496`, `136 + 0 = 136`, and `74 + 0 = 74`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-71
+remainder leaves **4 rank-4/rank-5 path instances / 4 unique hashes**. The Family-71 method
+was reproduced first: its 5/5 row sets recomputed to
+`9034c18e737ea147547342d9da33c0a1250d951eb5bb979663101e0fd333b362` and
+`df66823080e441afc56a07f61c2a1dcc57c3e351a5da245caacffc635d0676b0`.
+For the exact post-Family-72 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b084ddbff5b885b2708375ae2de9b116c242c25a1dd31e859ce1c940928e40fc`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`0db266826526e7def7158f3908bdfcb806156634d2d49a4631546752838d7046`.
+
+The exact next rank-4/rank-5 manifest-order gate is tier-5 Physiology practical source
+`src_e15c508e9a9bdef2e3b9`, manifest `103-LCS-SMT- virtual lab -26 .pdf` (960,704 bytes;
+20 native-text pages; SHA-256
+`e15c508e9a9bdef2e3b9d6f00b84693e0418784167cfbb491f5ae2e0f58781b1`) under `Year 1/LCS
+103/Physiology/Practical Labs/Virtual Lab 1 - Simple Muscle Twitch (SMT)/`. The exact
+manifest-named path has a space before `.pdf`; the local normalized filename omits that space
+and recomputes to the assigned hash and byte size. Tier-6 and rank-9 source debts between
+rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains incomplete. No
+download, ID, content record, catalogue update, import or source copy was created.
