@@ -18666,3 +18666,110 @@ under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassifie
 page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 55
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 176 — Tier-6 attributed popliteal-fossa teaching summary with keyed self-test
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_00ec490d3c55b87835f5` / `00ec490d3c55b87835f52ee61b8e046c467ee141e8a96f9d95b9afd8fed11959` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/Popliteal fossa.pdf` |
+| Physical verification | **581,094 bytes; 7 native-text landscape-A4 pages; 841.92 × 595.32 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | Every page prints `Anatomy of Popliteal fossa` and `Dr/ M. Ali`; metadata separately names author `Mohamed Mamdouh AbdAziz`, Microsoft Word for Microsoft 365 creator/producer and 18 May 2026 creation/modification. No university, cohort, examination sitting or marks are printed. |
+| Authority finding | Attributed local tier-6 teaching-summary evidence with an embedded answered self-test. The visible and metadata names are preserved as different source layers rather than conflated. This is not a recoverable sitting, response form, practical station or official marking guide. |
+
+All **7/7 pages** were rendered at 180 dpi, inspected at full resolution and read against the
+complete native text layer. The source-first page boundary is:
+
+| Pages | Complete supplied content | Assessment / practical boundary |
+|---:|---|---|
+| 1 | fossa shape, importance and site with fully labelled floor/site diagrams | one teaching composition |
+| 2 | four borders, anterior wall/floor, posterior wall/roof and superficial-fascia contents with fully labelled diagrams | one teaching composition |
+| 3 | fossa contents, `AVNN` order, artery/tibial-nerve depth notes and supplied vascular diagrams | one teaching composition; the lower diagram also has **5 unresolved `a`–`e` teaching callouts** without a local legend |
+| 4 | popliteal-artery beginning, course, termination and muscular/genicular/cutaneous/terminal branches | one teaching composition with fully labelled arterial diagram |
+| 5 | popliteal-vein beginning, course, termination, tributaries and `Serve And Volley Next Ball` mnemonic | one teaching composition with supplied regional diagram |
+| 6 | declarative summary of tibial/common-fibular nerves, small saphenous vein and popliteal artery relations | one teaching composition repeating, rather than extending, the p. 3 depth/relation scope |
+| 7 | `Test your self`: three four-option MCQs with yellow-highlighted choices `b) Posterior knee`, `b) Biceps femoris` and `a) Popliteal artery` | **3 eligible MCQ prompts / 3 directly printed keys** |
+
+The complete physical boundary is therefore **6 teaching compositions / 3 eligible MCQ
+prompt occurrences / 3 directly printed keys / 0 external prompts / 0 written prompts / 0
+unkeyed prompts**. Yellow highlighting is a consistent source correctness convention on all
+three self-test items. The five `a`–`e` boxes on p. 3 are unresolved teaching callouts in a
+theoretical diagram: no instruction asks the learner to identify them and no legend permits
+mapping, so no answer is inferred.
+
+All other images are fully labelled, simultaneous theoretical instruction. There is no
+specimen, model-identification instruction, station wording, response blank or masked
+assessment task. Practical delta is exactly **0 practical or station prompts / 0 teaching
+plates / 0 mappings / 0 practical residues / 0 practical keys / 0 practical scopes**. The five
+theoretical callouts are recorded above but do not enter the separated tier-5 practical residue
+ledger.
+
+Source wording and diagrams remain uncorrected evidence, including `posterior compartment of
+the leg and thigh`, `Posterior ligament of knee joint`, `Back of Knee joint`, `4 structures
+from Medial to lateral (AVNN)`, `the most deep`, `at adductor hiatus of the femoral artery`,
+and the source's vessel/nerve ordering and branch statements.
+
+### Assessment handles, exact searches and prior-LCS reconciliation
+
+| Source prompt → handle | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| p. 7 Q1 → `popliteal-fossa-posterior-knee-location` | popliteal fossa located posterior knee; posterior knee space popliteal fossa; popliteal fossa site lower thigh knee upper leg; popliteal fossa location | Exact subset of accepted Family 1 `popliteal-fossa` tested handle, with Families 33, 42 and 175 teaching corroboration — prior eligible-LCS reuse; printed `b`. |
+| p. 7 Q2 → `popliteal-fossa-superolateral-biceps-femoris-boundary` | popliteal fossa superolateral boundary biceps femoris; popliteal fossa borders hamstrings gastrocnemius; biceps femoris upper lateral popliteal fossa; popliteal fossa boundary | Exact subset of accepted Family 1 `popliteal-fossa` tested handle and Family 42 boundary evidence — prior eligible-LCS reuse; printed `b`. |
+| p. 7 Q3 → `popliteal-artery-deepest-fossa-content` | deepest structure popliteal fossa artery; popliteal artery deep anterior structure; artery vein nerve depth popliteal fossa; popliteal fossa deepest | Exact subset of accepted Family 1 popliteal-fossa/popliteal-artery tested evidence and Families 33/42/175 teaching — prior eligible-LCS reuse; printed `a`. |
+
+Each of the **three accepted assessment handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **3 × 4 = 12 required search invocations**. All three prompt occurrences and
+keys remain counted, while exact accepted-prior comparison yields module concept delta **0 live
+/ 0 pending / 0 new**.
+
+### Theoretical teaching handles, exact searches and prior-LCS reconciliation
+
+The six teaching compositions collapse to five complete teaching handles because p. 6 repeats
+the p. 3 depth/contents relations:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `popliteal-fossa-shape-site-and-regional-importance` · p. 1 | popliteal fossa shape site importance; posterior knee conduit neurovascular; popliteal fossa definition anatomy; popliteal fossa overview | Accepted Families 1, 33, 42 and 175 own the complete regional overview — prior-LCS reuse. |
+| `popliteal-fossa-borders-roof-floor-and-coverings` · p. 2 | popliteal fossa boundaries roof floor; popliteal surface femur knee capsule popliteus; small saphenous vein popliteal fascia; popliteal fossa floor roof | Accepted Families 1, 33, 42 and 175 own the complete boundary/covering scope — prior-LCS reuse. |
+| `popliteal-fossa-contents-depth-and-neural-relations` · pp. 3, 6 | popliteal fossa contents AVNN; popliteal artery vein tibial common fibular; popliteal fossa depth relations; popliteal fossa contents | Accepted Families 1, 33, 42 and 175 own the complete contents/depth scope — prior-LCS reuse. |
+| `popliteal-artery-origin-course-termination-and-branches` · p. 4 | popliteal artery origin course termination branches; femoral artery adductor hiatus popliteal; genicular branches popliteal artery; popliteal artery anatomy | Pending vascular material and accepted Families 1, 33 and 42 own the complete artery scope — prior-LCS reuse. |
+| `popliteal-vein-beginning-course-termination-and-tributaries` · p. 5 | popliteal vein beginning course termination tributaries; popliteal vein tibial venae comitantes; small saphenous termination popliteal vein; popliteal vein anatomy | Exact accepted Families 33 and 42 vein scope — prior-LCS reuse. |
+
+Each of the **five accepted teaching handles** received exactly one query on each required
+surface, giving **5 × 4 = 20 required search invocations**. Final disposition is **5 prior-LCS
+theoretical-teaching reuses / 0 additive live / 0 additive pending / 0 additive new scopes**.
+Together with assessment, **32/32 required search invocations** completed.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment advances from **1,077 / 707 / 337** by **+3 observed prompts / +3 direct
+keys / +0 distinct concepts** to **1,080 observed questions / 710 printed keys-or-answers /
+337 distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Arithmetic checks
+are `3 = 3 MCQs`, `3 = 3 highlighted choices`, `1,080 = 1,077 + 3`, `710 = 707 + 3`,
+`337 = 337 + 0`, and `12 + 111 + 214 = 337`.
+
+This source hash occurs once in Family 175's remainder. Removing its sole path changes the
+all-rank remainder from **55 paths / 52 unique hashes** to **54 paths / 51 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **40 paths / 40 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 175's prior checksums are
+`55523771aeffad48cdc04120778b050c17c85fb04f85ccdcc7efc42459b5e99b` (paths) and
+`f4eff72cb1839843ec9e9397f1621d9a8b1d3a262a547652786476ffae2e9dbc` (unique hashes).
+For the exact post-Family-176 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`93ac71d5ab1a6bc025822db95430f7e55dd0ee8e1c4aa03007b73b541da6089e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`2b7c214ecdfacda2a5ff4d22d4b5718b52dbcbe0d3d4e885e8d8c8e8e3181ee6`.
+
+The exact next manifest-order debt is tier-6 `src_1add1380ef6b5ce43bf8`,
+`bone disease 2.pdf` (414,961 bytes; 4 native-text portrait-A4 pages; unencrypted; 595.32 ×
+842.04 pt; SHA-256 `1add1380ef6b5ce43bf802cf2cd4de3c324d46304d08d1a2e26e31a4c18836b7`)
+under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every
+page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 54
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
