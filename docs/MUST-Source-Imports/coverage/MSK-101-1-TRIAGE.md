@@ -3483,3 +3483,43 @@ Removing the eighty-six processed unique hashes leaves **15 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - connectivetissue_dr.ImanNabil.pdf`, SHA-256 `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`, 40 pages.
 
 **BLOCKED — S1 cannot be approved:** 15 selected inventory paths / 15 unique hashes remain untriaged.
+
+## Completed source — connectivetissue_dr.ImanNabil
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - connectivetissue_dr.ImanNabil.pdf` | `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd` | 40 | empty-text audit sample | pages 1–40 rendered and read | Every slide carries `Dr. Iman Nabil` branding, and PDF metadata identifies only `Skia/PDF m82` as producer. No institution, department, examination sitting, marks or official faculty-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - connectivetissue_dr.ImanNabil.pdf" purpose="source"}
+
+### Exact objective, written, practical, image and key boundary
+
+The deck consists of twenty two-slide reveal pairs. Every odd page presents one four-option MCQ, and the immediately following even page repeats the same prompt and adds a large numeric answer at the bottom. The repeated reveal slide is the same assessment occurrence, not a second prompt. Three internally renumbered blocks contain five fibre/ground-substance questions on pages 1–10, seven connective-tissue-cell questions on pages 11–24 and eight connective-tissue-type questions on pages 25–40.
+
+The exact boundary is **20 objective MCQ prompt observations / 20 printed answer observations / 0 source-unkeyed prompts / 0 written prompts / 0 teaching-only prompts / 0 answer-only observations**. Sixteen MCQs incorporate a diagram, micrograph, cell ultrastructure or labeled anatomical image. Each image is part of its MCQ and answer-reveal pair; no image is presented as a separately scored practical station, so the boundary remains **16 image-supported objective MCQs / 0 separate practical or image-identification occurrences**.
+
+The visible answer numerals are preserved as printed observations. Question numbering restarts at Q1 for each block, and source wording, option order, spelling and academically questionable selections remain uncorrected rather than being reconstructed from histology knowledge.
+
+### Authority, source truth and search gate
+
+The visible branding establishes named-person teaching authorship but does not authenticate a MUST/MSK examination or faculty key. Folder placement and filename wording do not add institution, examiner, sitting, marks or official-key authority.
+
+Source-first scopes are collagen, elastic and reticular fibres and stains; ground substance and matrix; fibroblasts, macrophages, mast cells, plasma cells and mesenchymal cells; loose, dense regular, dense irregular, elastic, reticular, adipose and embryonic connective-tissue types; and representative sites or functions. Every scope maps to the completed prior-MSK connective-tissue family's five accepted handles and twenty completed searches. No genuinely new handle survives prior-MSK collapse, so the exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+20 questions / +20 answers / +0 concepts**. Cumulative arithmetic is **7017 questions / 6813 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7017 | 6813 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-seven processed unique hashes leaves **14 selected inventory paths / 14 unique SHA-256s**. Their sorted, newline-joined hash checksum is `5ce17c21c497890a3efa670f08a8d3d9f716864b681639c74a818df8521be72c`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 2 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`87 + 14 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - histo.pdf`, SHA-256 `d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1`, 232 pages.
+
+**BLOCKED — S1 cannot be approved:** 14 selected inventory paths / 14 unique hashes remain untriaged.

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "10489d632c41e8ea847b98028536b6d08ee62834a38b9acde4f31aa098e5abb9",
-    "triageMarkdown": "f1634864ee71440d26031abc726deb75d5fbd3c4d7f3cd97b32ae71cf1fc48cd"
+    "readinessMarkdown": "8aed411df51b40b8366419e7d09dc61496f643c9c8dbd70e8949db455703607d",
+    "triageMarkdown": "ef4ea833b9a8404ad23d396b71e481fa182b5f58e91834ff474e8fa0b15551bb"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -67,6 +67,7 @@
       "2b3046797114764969bbcd1b2826333c31b1d1177804327caf0187540d68fbfb",
       "2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0",
       "3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b",
+      "366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd",
       "396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358",
       "3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b",
       "3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa",
@@ -138,7 +139,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 86
+    "uniqueSha256": 87
   },
   "completedSourceCoverage": [
     {
@@ -2756,33 +2757,89 @@
         "page-3 applied and clinical claims remain source observations rather than endorsed guidance",
         "the highlighted what-gives-contour sentence remains teaching prose because its answer is supplied inline without response structure"
       ]
+    },
+    {
+      "sha256": "366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd",
+      "sourcePages": 40,
+      "renderedReadPages": "1-40",
+      "questionPages": "odd pages 1-39",
+      "repeatedPromptAndAnswerRevealPages": "even pages 2-40",
+      "assessmentBlocks": [
+        {
+          "pages": "1-10",
+          "topic": "connective-tissue fibres and ground substance",
+          "prompts": 5,
+          "answers": 5
+        },
+        {
+          "pages": "11-24",
+          "topic": "connective-tissue cells",
+          "prompts": 7,
+          "answers": 7
+        },
+        {
+          "pages": "25-40",
+          "topic": "connective-tissue types",
+          "prompts": 8,
+          "answers": 8
+        }
+      ],
+      "printedPromptObservations": 20,
+      "objectiveMcqPrompts": 20,
+      "printedKeyObservations": 20,
+      "objectiveKeyObservations": 20,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "imageSupportedMcqPrompts": 16,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 20,
+      "familyAnswerDelta": 20,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceConnectiveTissueAcceptedSourceHandles": 5,
+      "referenceConnectiveTissueSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "named Dr. Iman Nabil connective-tissue teaching MCQ slide deck produced through Skia/PDF m82; the visible pages and metadata name no institution, department, examination sitting, marks or official faculty-key claim",
+      "boundaryDisposition": "twenty MCQs arranged as three internally renumbered blocks of five, seven and eight items; every odd page presents one question and every following even page repeats the same question while adding a large numeric answer, so each two-slide reveal pair contributes one prompt and one answer observation; sixteen prompts include a supporting diagram, micrograph or anatomical image but none is a separately scored practical station; no written, teaching-only, answer-only or source-unkeyed material",
+      "priorCarrierComparison": {
+        "disposition": "distinct reveal-slide carrier whose fibres/matrix, connective-tissue-cell and connective-tissue-type/site scopes all collapse to the completed five-handle connective-tissue family"
+      },
+      "preservedSourceDefects": [
+        "the repeated prompt on each even answer-reveal slide is the same assessment occurrence and is not double counted",
+        "question numbering restarts at Q1 in each of the three blocks",
+        "printed spelling, grammar, option order and academically questionable answer selections remain uncorrected source observations"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6997,
-    "printedKeyObservations": 6793,
+    "printedPromptObservations": 7017,
+    "printedKeyObservations": 6813,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 15,
-    "uniqueSha256": 15,
-    "sortedNewlineSha256": "7c02402dab10c943b8240726aa7928849bef0a9bd8f6d7998b509228ea3b479e",
+    "inventoryMetadataRows": 14,
+    "uniqueSha256": 14,
+    "sortedNewlineSha256": "5ce17c21c497890a3efa670f08a8d3d9f716864b681639c74a818df8521be72c",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
-      "empty-text": 3
+      "empty-text": 2
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
-    "empty-text": 3
+    "empty-text": 2
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 86,
-    "remainingUniqueSha256": 15,
+    "processedUniqueSha256": 87,
+    "remainingUniqueSha256": 14,
     "processedPlusRemaining": 101
   }
 }

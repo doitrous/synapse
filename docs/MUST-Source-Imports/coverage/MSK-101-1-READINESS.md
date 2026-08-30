@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The eighty-six completed read-only source hashes cover eighty-eight selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed three-page `Summary of mammary gland (by nay).pdf`, SHA-256 `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`, is an illustrated teaching-only summary of **gross anatomy, arterial supply, lymphatic drainage, lymph-vessel plexuses, applied anatomy, breast-cancer notes and examination reminders / 0 objective / 0 written / 0 practical or image-identification prompts / 0 keys or unkeyed assessment prompts**. The filename and visible `Nayrose.` signature support a learner-created artifact only; iLovePDF metadata provide no institution, examiner, sitting, marks or official-key claim. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The eighty-seven completed read-only source hashes cover eighty-nine selected inventory paths, represent fifty-six distinct prompt families and yield **7017 questions / 6813 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed forty-page `MCQs - connectivetissue_dr.ImanNabil.pdf`, SHA-256 `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`, contains **20 objective MCQs / 20 numeric answer reveals / 16 image-supported MCQs / 0 written / 0 separate practical or image-identification prompts / 0 unkeyed prompts**. Its three internally renumbered blocks cover fibres/ground substance, connective-tissue cells and connective-tissue types. Every even page repeats the preceding odd-page prompt and adds the answer numeral, so each reveal pair is one assessment occurrence. The visible `Dr. Iman Nabil` branding supports named-person teaching authorship only; no institution, examiner, sitting, marks or official faculty-key claim appears. Every source-first scope collapses to the completed connective-tissue family's five handles and twenty searches, so **0 new handles × 4 = 0 new searches**, and the source contributes **+20 questions / +20 answers / +0 concepts**.
 
-Latest processed family hash: `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`.
+Latest processed family hash: `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`.
 
-Recent processed family hash retained for reconciliation: `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`.
+Recent processed family hash retained for reconciliation: `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -82,8 +82,10 @@ Current teaching-source append: `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5af
 
 Current teaching-source append: `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`.
 
-Removing them leaves **15 inventory paths / 15 unique SHA-256s**, checksum `7c02402dab10c943b8240726aa7928849bef0a9bd8f6d7998b509228ea3b479e`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 3 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current processed-family append: `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - connectivetissue_dr.ImanNabil.pdf`, SHA-256 `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`, 40 pages.
+Removing them leaves **14 inventory paths / 14 unique SHA-256s**, checksum `5ce17c21c497890a3efa670f08a8d3d9f716864b681639c74a818df8521be72c`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 2 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 15 selected inventory paths / 15 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - histo.pdf`, SHA-256 `d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1`, 232 pages.
+
+**BLOCKED — S1 cannot be approved:** 14 selected inventory paths / 14 unique hashes remain untriaged.
