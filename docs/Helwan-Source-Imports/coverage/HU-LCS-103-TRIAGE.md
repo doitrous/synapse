@@ -10751,3 +10751,134 @@ SHA-256 `9c1df6a5e1aab73e0f0c5d4ad2a69b4e3880a961949cdddb5e4a17b60801c2f0`). It 
 external until its own contents prove otherwise. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 141 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 90 — Tier-3 external Head-and-Neck native-DOCX keyed test bank
+
+### Exact identity, read-only rendering, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_9c1df6a5e1aab73e0f0c` / `9c1df6a5e1aab73e0f0c5d4ad2a69b4e3880a961949cdddb5e4a17b60801c2f0` |
+| File / container | `MCQs - External MCQs Head and Neck Test Questions.docx` · 869,173 bytes · valid Microsoft Word OOXML ZIP · 1,968 paragraphs / 1,622 non-empty · 2 answer tables · 13 inline GIF illustrations · 1 section |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External MCQs Head and Neck Test Questions.docx` |
+| Read-only render | Canonical bundled document renderer converted the untouched DOCX to a temporary 51-page A4 QA PDF and 51 PNGs; every rendered page was inspected visually. No source re-export, save or edit occurred. |
+| Visible / package provenance | The document prints only `Head and Neck Test Questions` and `Gross Anatomy`; it has no Helwan University, faculty, module, cohort, sitting or official-exam mark. Core OOXML metadata names author and last modifier `حسنين صفاء`, created 15 October 2015 and modified the same day. No comments or tracked insertions/deletions exist. |
+| Authority finding | External keyed anatomy review bank, not direct Helwan assessment evidence, a response form, a practical examination or an official Helwan key. |
+
+The assigned hash and byte size were recomputed, the OOXML archive passed integrity checks,
+and the complete 51-page render was reviewed. Pages 1–49 contain an uninterrupted **Q1–Q280**
+sequence. Pages 49–51 contain two answer tables covering every number Q1–Q280. Of those 280
+table cells, 278 print an A–E answer and two print `X` (Q136 and Q239); the `X` cells are
+retained as unresolved key markers rather than silently repaired into answers.
+
+| Rendered page boundary | Visible source units | Prompt occurrences | Usable A–E keys | Other key marks |
+|---|---|---:|---:|---:|
+| pp. 1–44 | Q1–Q250 | 250 | 0 | 0 |
+| pp. 45–48 | Q251–Q275, including the printed K-type instruction and its combination code | 25 | 0 | 0 |
+| p. 49 | Q276–Q280 plus answer-table cells Q1–Q10, Q41–Q50, Q81–Q90 and Q121–Q130 | 5 | 40 | 0 |
+| p. 50 | answer-table cells Q11–Q40, Q51–Q80, Q91–Q120 and Q131–Q160 | 0 | 119 | 1 (`X`, Q136) |
+| p. 51 | answer-table cells Q161–Q280 | 0 | 119 | 1 (`X`, Q239) |
+| **Whole source** | **Q1–Q280 plus complete 280-cell answer grid** | **280** | **278** | **2** |
+
+The page allocation above follows the answer grid's interleaved numeric columns. The K-type
+instruction is response-format guidance for Q251–Q268, not an extra prompt.
+
+Module fit was decided before inventory. Q4 is a cephalic-vein upper-limb question, and
+Q239–Q240 are generic neurohistology questions about oligodendrocytes and Nissl substance.
+They are outside the LCS-103 Head-and-Neck/locomotor boundary and contribute zero to every
+LCS cumulative. The accepted source boundary is therefore **277 external prompts / 276
+usable printed keys**, plus the unresolved accepted Q136 `X`; the excluded boundary is **3
+prompts / 2 usable printed keys + excluded Q239 `X`**. All other questions test Head-and-Neck
+gross anatomy and remain in module.
+
+Thirteen fully labelled textbook illustrations are interleaved on pp. 6, 7, 12, 16, 17, 19,
+23, 27, 31, 38, 40, 44 and 47: face/scalp vessels, mandible, bony framework, anterior and
+lateral skull, fascial layers, superficial neck vessels/nerves, facial-expression muscles,
+cutaneous nerves, thyroid, pharynx, oral/pharyngeal lymphatics and the medial nasal wall.
+They are declarative reference illustrations: no stem points to a letter, masked label or
+unknown structure in them. Thus they are **13 adjunct teaching figures**, not practical
+plates or mappings. There is no specimen, radiograph, micrograph, station, apparatus task,
+response blank or practical residue. Practical delta is exactly **0 prompts / 0 plates / 0
+mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 277 accepted occurrences collapse to **49 source-distinct tested handles** across 29
+primary domains. Each handle received exactly one search in the live, pending/import-ready,
+prior source-import and accepted-LCS surfaces: **49 × 4 = 196 required search invocations**.
+
+| Primary source-first domain | Accepted occurrences | Distinct handles |
+|---|---:|---:|
+| Cervical vertebrae and craniocervical joints | 11 | 2 |
+| Carotid body/sheath, bifurcation and ECA branches | 16 | 3 |
+| General cranial-nerve exits and attachments | 7 | 2 |
+| Larynx | 14 | 2 |
+| Thyroid and parathyroid | 6 | 1 |
+| Head-and-neck veins and plexuses | 15 | 2 |
+| Oral cavity and tongue | 12 | 1 |
+| Major salivary glands | 7 | 1 |
+| Cerebral arterial territories | 4 | 1 |
+| Meninges, CSF and dural sinuses | 11 | 3 |
+| Integrated/mixed Head-and-Neck relation sets | 37 | 2 |
+| TMJ and muscles of mastication | 4 | 1 |
+| Neck triangles | 2 | 1 |
+| Cervical sympathetic and cranial parasympathetic pathways | 11 | 2 |
+| Nasal cavity, sinuses and nasal neurovasculature | 15 | 3 |
+| Infratemporal and pterygopalatine fossae | 3 | 2 |
+| Skull bones, foramina and cranial fossae | 7 | 2 |
+| Trigeminal and facial/scalp cutaneous territories | 4 | 2 |
+| Suprahyoid, infrahyoid and other neck muscles | 7 | 1 |
+| Cervical plexus, ansa and phrenic nerve | 9 | 1 |
+| Orbit, extraocular muscles and lacrimal pathways | 20 | 2 |
+| Soft palate and pharynx | 14 | 2 |
+| Scalp layers, vessels, emissary and diploic veins | 2 | 2 |
+| Dentition, gingiva and alveolar nerves | 7 | 1 |
+| External/middle and inner ear | 18 | 2 |
+| Facial nerve and expression | 6 | 1 |
+| Pharyngeal-arch and facial-cleft development | 3 | 1 |
+| Deep cervical fascia and root of neck | 2 | 2 |
+| Regional lymphatics | 3 | 1 |
+| **Family 90 accepted boundary** | **277** | **49** |
+
+The domain rows are an exhaustive one-assignment partition of accepted questions; Q4 and
+Q239–Q240 are absent by the module gate. Prior-external-first comparison finds **16 exact
+Family-78 reuses** (scalp, triangles, cervical plexus, accessory relations, digastric/strap
+muscles, carotid bifurcation/ECA, venous formation, facial/trigeminal territories, TMJ and
+the infratemporal/pterygopalatine region) and **33 external additions**. Accepted Families
+1 and 20–30 already own or corroborate most curricular scopes, but that coverage cannot
+promote an externally sourced bank into eligible Helwan evidence. External concept-state
+delta is therefore **0 live / 0 pending / 33 new**. The exact 196-query ledger is preserved
+at `tmp/pdfs/lcs103-family90/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **1,229 / 1,229 / 185 = 12 / 133 / 40** to **1,506 external questions / 1,505 usable
+printed keys / 218 external concepts = 12 live / 133 pending / 73 new**. Arithmetic is
+`1,229 + 277 = 1,506`, `1,229 + 276 = 1,505`, `185 + 33 = 218`, `40 + 33 = 73`, and
+`12 + 133 + 73 = 218`. The accepted Q136 `X`, excluded Q239 `X`, three excluded prompts
+and two excluded A–E cells contribute zero usable keys or cumulative LCS evidence beyond the
+explicit exception ledger. Practical totals remain **7 prompts / 458 plates / 2,691 mappings
+/ 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-89 remainder. Removing its sole path leaves **140
+all-rank path instances / 132 unique hashes**: tier 3 **58 paths / 55 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 89's 141/133 row sets recompute
+first to path checksum
+`ad5ba4875967b0362d596fb3fc705fe56d92d8d7671723cf2fa1509bc87e0afe` and unique-hash
+checksum `41ee0479cdace8a9caf135e998e852a6f4295cb9023ab2b1a4d68b5617b9e3d1`.
+For the exact post-Family-90 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`af5ac63807a485baaa896cd2e9996aadb75f5bec9b6b8a27662e081164aa1af1`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`c5e9937faf22ffcd10461fe7e655536ba15e6c8efe8709613edaef7716e133d2`.
+
+The exact next tier-3 manifest-order debt is `src_cebdd150938d859a0a26`,
+`MCQs - External MCQs MCQ & Written questions on first 3 lectures.pdf` (8,093,303 bytes;
+17 native-text pages; SHA-256
+`cebdd150938d859a0a26b02dd1dd9ee4384d8027ffb18b884f064cc1028db839`). **Overall LCS-103
+remains `S1 TRIAGE — NOT APPROVED`:** 140 tier-3/tier-6/rank-9 path debts remain. No
+download, ID, content record, catalogue update, import, source copy or edited DOCX was
+created.
