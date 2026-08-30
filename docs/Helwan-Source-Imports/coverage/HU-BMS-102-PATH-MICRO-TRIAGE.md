@@ -17326,3 +17326,80 @@ bytes**, seven native-text portrait US-letter pages under `Pathology / Questions
 visible/metadata provenance, continuous-assessment authority, prompt/answer layer, relation to the
 following unsolved companion, collapse, searches, prior reuse, and arithmetic are the exact next-
 source blockers.
+
+## Family 161 — exact revisit of the Family-3 Circulatory 2 solved object
+
+### Source identity, full visual/native boundary, authority, and exact prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 solved companion `src_2b465fab7f0bfd7dd687` · `MCQs - College MCQs continous assessement CIRCULATTORY 2 answer.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `2b465fab7f0bfd7dd687716d258a5e0f613132f974be6700fd588b33f96c5809` · **138,419 bytes** |
+| Format / complete visual boundary | **Seven native-text portrait US-letter pages**. All seven rendered at 150 dpi into seven non-empty 1275×1650 images and were read through a complete 4×2 contact sheet and original page detail: pp.1–7 contain Q1–Q30, each immediately followed by `Answer:`. No cover, terminal key, image, page remainder, or hidden station layer exists. |
+| Native-text reality | Layout and raw extraction each contain **1,004 words**; layout is 6,362 bytes and raw is 6,290 bytes. All 30 numbered stems, four-option sets, and inline answers are coherent. OCR was unnecessary. |
+| Visible/metadata provenance | The pages print questions and inline answers but no visible university, faculty, instructor, module, assessment header, academic year, sitting date, marks, or candidate field. Metadata author is generic `User`; creator/producer is Microsoft Word; creation/modification time is 26 April 2025. Filename/manifest `continous assessement` wording and metadata are secondary carrier evidence, not visible proof of an administered assessment or date. |
+| Exact prior governance | Family 3 already records this exact source ID, SHA, seven-page solved boundary, all 30 prompts/answers, all four within-bank handle collapses, and all 104 original searches. This is the same physical content object, not a new copy, revision, answer layer, or recurrence. |
+| Authority | Solved keyed-study/continuous-assessment-labelled carrier of weak visible authority. Exact-object reuse cannot upgrade it to an official key, verified sitting, candidate response, or recurrence. |
+
+### Complete prompt/answer/format and solved-companion boundary
+
+The complete current object contains **30 raw text MCQ occurrences / 30 inline source-answer
+occurrences / 0 unkeyed / 0 T/F / 0 written operations / 0 image-bearing questions / 0 drawing
+tasks / 0 practical stations / 0 candidate responses / 0 residues**. Page starts are p.1 Q1–Q5,
+p.2 Q6–Q9, p.3 Q10–Q14, p.4 Q15–Q18, p.5 Q19–Q23, p.6 Q24–Q27, and
+p.7 Q28–Q30. Every printed `Answer:` line is assigned once and no separate key page exists.
+
+The manifest-paired next carrier `src_557920d8b7726db4f14b` is the six-page unkeyed prompt
+companion already exhausted jointly in Family 3. It prints the exact solved-copy wordings for
+Q1–Q21, Q23–Q26, and Q28–Q30 (**28 prompt occurrences**) while omitting Q22 and Q27 and all
+answer lines. Family 3's joint checksum is therefore already `30 solved + 28 unsolved = 58`
+observed carrier occurrences, 30 answers, 30 retained records, and 26 handles.
+
+Within the solved object, Family 3 already collapsed Q2/Q4 (endothelial injury), Q3/Q26 (venous
+stasis), Q13/Q29 (DVT-to-pulmonary-embolism), and Q14/Q23 (fracture-associated fat embolism),
+yielding **`30 - 4 = 26`** source handles. No new wording, answer, anomaly, or directionality is
+visible now.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 161 accepts **0 new retained records and 0 new handles**. Family 3 already ran exactly
+four searches for each of the object's 26 handles (**104 searches**) and reconciled their prior-
+BMS relations. Re-running them for the identical source ID/SHA/page/prompt/answer boundary would
+fabricate new work and imply false recurrence. The standing gate is therefore **`0 new handles ×
+4 = 0 required and completed new searches`**; no empty per-handle ledger is invented. Prior-BMS
+reuse and concept delta for the present revisit are both **0 family-local additions** because the
+entire object was already counted, not 26 newly imported reuses.
+
+### Family-161 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 161 addition | Auxiliary cumulative (Families 12–161) | Primary | All eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 30 solved | 0 | 2,118 | 765 | 2,883 |
+| Source-supplied answers | 30 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 30 originally | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 26 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 3 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **26 source-local** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The object checksum remains `30 MCQ = 30 answers`, `30 - 4 semantic reductions = 26 handles`,
+and Family 3's `26 × 4 = 104` completed searches. Family-161 arithmetic is independently zero:
+`0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`. Primary remains **765 / 405 /
+552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and all eligible remains **2,883 / 1,891 / 2,381 / 1,278**.
+
+Family 161 adds exact-carrier revisit and manifest-order evidence only. It establishes no new
+question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 161
+
+`src_2b465fab7f0bfd7dd687` is re-exhausted without double counting: every page, native stem,
+option, inline answer, metadata field, visible-authority absence, Family-3 identity, companion
+relation, original collapse/search boundary, zero gate, and cumulative term is assigned once, with
+**zero remainder** and no Family-161 blocker. The exact next manifest record is its already-
+governed tier-3 unkeyed companion `src_557920d8b7726db4f14b` · `MCQs - College MCQs
+continous assessement CIRCULATTORY 2.pdf`, SHA-256
+`557920d8b7726db4f14b89d1c9ee69ece6db28d037485355c39d129767e9f4ee`, **33,649
+bytes**, six native-text portrait US-letter pages under `Pathology / Questions / MCQs`. Its exact
+Family-3/F161 prompt replay, absent-answer state, zero-search gate, and unchanged arithmetic are
+the exact next-source blockers.
