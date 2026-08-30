@@ -15781,3 +15781,137 @@ eight native-text A4 pages under `Pathology / Questions / MCQs`. Metadata author
 with creation timestamp 6 April 2025; its visible authority/date, complete prompt/key convention,
 same-source copies, prior-BMS reuse, four-search packets, and arithmetic are the exact next-source
 blockers.
+
+## Family 149 — Ahmed-Hassan `Cell injury 1` keyed MCQ bank
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_e446a1e064b3d421e312` · `MCQs - Cell injury 1 MCQ.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / size | `e446a1e064b3d421e3128f4aada63c4980e18c5d9c61039da6852432f07decbc` · 152,914 bytes |
+| Format / complete visual boundary | Eight native-text portrait A4 pages, each 595.32×841.92 points. All eight pages were rendered at 150 dpi into eight non-empty 1241×1754-pixel images and read individually; two ordered contact sheets, layout extraction, and raw extraction were also read. There is no page, crop, row, option, key-letter, footer, or text remainder. |
+| Native-text reality | Layout extraction contains 1,631 words / 14,974 bytes and raw extraction contains 1,631 words / 9,204 bytes. Both preserve all 40 numbered stems, option sets, right-column letters, page numbers, and instructor footers. The manifest's `native` label is accurate. |
+| Visible provenance | Every page is headed `Cell injury 1`, visibly prints `DR. Ahmed Hassan`, and carries page numbering 1–8. No university/faculty name or logo, module code, academic year, exam date/sitting, marks, duration, candidate field, or official-key declaration is visible. |
+| Metadata caution | PDF author is `Alnoaman`; creator/producer is Microsoft Word 2019; creation/modification timestamp is 6 April 2025. The visible Ahmed-Hassan attribution controls over the conflicting author metadata. The timestamp establishes file production only, not an assessment sitting or academic-year claim. |
+| Authority | Local tier-3 instructor MCQ study bank with a stable printed letter-key column. It is eligible auxiliary keyed-question evidence, not an authenticated Helwan exam, official department key, or recurrence/weight signal. |
+
+### Complete page-first prompt, key, copy, practical, and anomaly boundary
+
+| Page | Visible numbered prompts | Prompt / printed-key ruling |
+|---:|---|---:|
+| 1 | Q1–Q5: adaptation exception; atrophy causes/pathological examples; uterine-pregnancy hypertrophy | **5 / 5** |
+| 2 | Q6–Q10: workload/metabolic-demand adaptations; earliest hypoxic injury; cloudy-swelling organelle and nuclei | **5 / 5** |
+| 3 | Q11–Q15: reversible response; fatty-change characteristics/mechanism; partial-hepatectomy response; hypertrophy definition | **5 / 5** |
+| 4 | Q16–Q20: cellular hypertrophy; hypertensive heart; post-nephrectomy kidney; two hyperplasia definitions | **5 / 5** |
+| 5 | Q21–Q25: smoker/bronchial metaplasia, two metaplasia definitions, gallbladder irritation, keratinizing bronchial epithelium | **5 / 5** |
+| 6 | Q26–Q30: repeated earliest-injury/nuclear/reversible-response items, sodium-water accumulation, burn hydropic change | **5 / 5** |
+| 7 | Q31–Q34: hepatocyte-vacuole contents, fatty-liver risk set, intracellular location, signet-ring cause set | **4 / 4** |
+| 8 | Q35–Q40: diphtheritic myocardial fat, two anemia/tiger-heart items, Sudan-III stain, pubertal breast hyperplasia, altered earliest-injury replay | **6 / 6** |
+
+The isolated capital letter in the far-right column aligned to each numbered row is stable across
+all pages and controls as the source-supplied study key. The exact sequence is `D D C D C / C D
+B C D / D E C E A / B E D B D / D A D E B / B D D C D / C E B E / E D C D B B`.
+Thus the carrier contains exactly **40 text MCQ occurrences / 40 source-supplied answer
+occurrences / 0 unkeyed prompts**. There are **0 written operations / 0 image-bearing prompts / 0
+practical stations / 0 drawing tasks / 0 candidate responses / 0 prompt-like residues**.
+
+Two literal wording copies are excluded from retention: Q26→Q8 and Q28→Q10; column layout and
+Q28's missing terminal colon do not create new records. Therefore **40 - 2 = 38 retained question
+records**. Six further same-source semantic reductions produce **32 accepted handles**: altered-
+option Q40→Q8; `Amyloidosis`/`Amyloid deposition` Q30→Q11; Q15↔Q16; Q19↔Q20; Q22↔Q23;
+and the anemia-to-myocardial-fatty-change operations Q36↔Q37. Occurrences and printed letters stay
+preserved even when they collapse.
+
+Source anomalies remain literal evidence, not repaired medicine: Q5 keys pregnant-uterus
+enlargement as hypertrophy without adding the coexisting hyperplasia; Q7 keys thyroid hyperplasia
+to the puberty/pregnancy metabolic-demand wording; Q9 keys mitochondria, whereas Family-125's
+malformed same-scope row embeds smooth endoplasmic reticulum and prints `C`; Q13 keys increased
+hepatic fatty-acid uptake as the corticosteroid mechanism; Q24 keys gallbladder-stone irritation;
+and Q25 calls bronchial keratinizing squamous epithelium metaplasia. Q40 changes Q8's distractor
+set but keeps the same cloudy-swelling answer.
+
+### Source-first 32-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 32 accepted handles received exactly four fresh searches across live state, pending import
+roots, and prior BMS-102 Families 1–148: **128 required and completed searches**.
+
+| Ref(s) / handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| Q1 · `adaptation-exception-apoptosis` | `adaptation except apoptosis`; `cellular adaptation apoptosis exception`; `atrophy hypertrophy hyperplasia metaplasia apoptosis`; `apoptosis not cellular adaptation` | no same-scope | none; delta |
+| Q2 · `atrophy-causes-exception-nephrectomy` | `atrophy causes nephrectomy exception`; `lack innervation blood supply aging atrophy`; `nephrectomy not cause atrophy`; `reduced hormonal stimulation atrophy` | no same-scope | none; delta |
+| Q3 · `pathological-atrophy-thymic-involution-exception` | `pathological atrophy thymic involution exception`; `thymus sexual maturation physiologic atrophy`; `pressure atrophy aortic aneurysm`; `polio denervation muscle atrophy` | no same-scope | none; delta |
+| Q4 · `atrophy-sudden-ischemia-exception` | `atrophy sudden cut blood supply`; `atrophy disuse senility denervation`; `acute ischemia necrosis not atrophy`; `sudden ischemia atrophy exception` | no same-scope | none; delta |
+| Q5 · `pregnant-uterus-hypertrophy-example` | `pregnant uterus hypertrophy example`; `uterus pregnancy cell enlargement`; `female uterus pregnancy hypertrophy`; `pregnancy hypertrophy versus hyperplasia uterus` | no same-scope | exact hypertrophy component of F98 `pregnant-uterus-hypertrophy-hyperplasia`; reuse |
+| Q6 · `workload-outflow-muscle-hypertrophy` | `increased workload muscle hypertrophy`; `outflow resistance hypertrophy`; `functional demand cell enlargement`; `pressure overload muscular hypertrophy` | no same-scope | exact F125 `hypertrophy-increased-workload-association`; reuse |
+| Q7 · `puberty-pregnancy-thyroid-hyperplasia-source-key` | `puberty pregnancy thyroid hyperplasia`; `increased metabolic demand thyroid hyperplasia`; `breast puberty hyperplasia pregnancy`; `thyroid hyperplasia source key` | no same-scope | none; source-specific delta |
+| Q8,Q26,Q40 · `hypoxia-earliest-cloudy-swelling` | `earliest cell injury hypoxia cloudy swelling`; `cloudy swelling earliest reversible change`; `initial morphologic hypoxic injury`; `lack oxygen first cell change` | pending `CON-FND-2DDF56DA42A0A8` supports early reversible morphology | exact F125 `cloudy-swelling-earliest-cell-injury`; reuse |
+| Q9 · `cloudy-swelling-organelle-mitochondria-source-key` | `cloudy swelling organelle mitochondria`; `key organelle pathogenesis cloudy swelling`; `cell swelling mitochondria source key`; `cloudy swelling smooth ER mitochondria` | no same-scope | exact F125 Q56 tested scope with conflicting malformed source assertion/key; reuse |
+| Q10,Q28 · `cloudy-swelling-nuclei-normal` | `cloudy swelling nuclei normal`; `nuclear changes cloudy degeneration`; `cloudy swelling no nuclear injury`; `cell swelling normal nucleus` | no same-scope | none; delta |
+| Q11,Q30 · `fatty-change-reversible-cellular-response` | `fatty change reversible response`; `cellular response irritation reversible fatty change`; `steatosis reversible cell injury`; `fatty change versus necrosis reversible` | pending reversible-injury composite support | exact F112 `reversible-cell-injury-types` membership; reuse |
+| Q12 · `fatty-change-irreversibility-exception` | `fatty change irreversible exception`; `fatty change characteristics reversible lesion`; `steatosis liver heart reversible`; `fatty degeneration not true irreversible` | pending `CON-FND-3B89025E2FB4E0` + `CON-FND-70554B38361679` | exact F2 `fatty-change-characteristics`; reuse |
+| Q13 · `corticosteroid-steatosis-fatty-acid-uptake` | `corticosteroid steatosis fatty acid uptake`; `cortisone hepatic uptake fatty acids`; `glucocorticoid fatty liver mechanism`; `steroids increase hepatic fatty acid uptake` | no same-scope | F2 predisposition is broader and does not test the keyed mechanism; delta |
+| Q14 · `partial-hepatectomy-surviving-cell-proliferation` | `partial hepatectomy surviving cells proliferate`; `liver regeneration partial hepatectomy`; `hepatocyte proliferation compensatory hyperplasia`; `remaining liver tissue proliferation` | no same-scope | prior repair teaching is not this tested operation; delta |
+| Q15,Q16 · `hypertrophy-increased-cell-size-definition` | `hypertrophy increased cell size definition`; `organ enlargement individual cell size`; `cellular hypertrophy meaning`; `hypertrophy versus hyperplasia size` | no same-scope | exact F125 Q13/Q14/Q15 handle; reuse |
+| Q17 · `hypertension-cardiac-hypertrophy` | `chronic hypertension cardiac hypertrophy`; `pressure overload heart cell enlargement`; `longstanding high blood pressure hypertrophy`; `myocardial hypertrophy hypertension` | no same-scope | prior workload and permanent-cell handles omit the hypertension vignette; delta |
+| Q18 · `contralateral-nephrectomy-compensatory-renal-hypertrophy` | `contralateral nephrectomy compensatory hypertrophy`; `kidney hypertrophy after nephrectomy`; `compensatory renal enlargement`; `remaining kidney hypertrophy` | no same-scope | none; delta |
+| Q19,Q20 · `hyperplasia-increased-cell-number-definition` | `hyperplasia increased cell number definition`; `increase number cellular elements`; `organ enlargement cell number`; `adaptive proliferation hyperplasia` | pending `CON-FND-022049C93C4CD0`; exact | exact F2/F125 reuse |
+| Q21 · `smoker-bronchial-squamous-metaplasia` | `chronic smoker bronchial squamous metaplasia`; `ciliated columnar replaced stratified squamous`; `trachea bronchi smoking metaplasia`; `respiratory epithelium squamous adaptation` | no same-scope | exact F98 `chronic-smoker-respiratory-squamous-metaplasia`; reuse |
+| Q22,Q23 · `metaplasia-adult-cell-type-replacement-definition` | `metaplasia adult cell type replacement`; `one differentiated cell type another`; `metaplasia definition pathology`; `mature tissue transformation same category` | pending `CON-FND-5AD09BF9FC2420`; exact general definition | exact F125 Q8 reuse |
+| Q24 · `gallbladder-stone-epithelial-metaplasia` | `gallbladder stone epithelial metaplasia`; `irritation gall bladder mucosa metaplasia`; `chronic cholelithiasis adaptive epithelium`; `gallbladder metaplastic change` | no same-scope | general/chronic-irritation handles omit this organ-stimulus mapping; delta |
+| Q25 · `bronchial-keratinizing-squamous-metaplasia` | `keratinizing squamous epithelium major bronchus`; `bronchial squamous metaplasia identification`; `bronchus keratinizing epithelial change`; `respiratory columnar to squamous metaplasia` | no same-scope | exact F125 Q11 identification; reuse |
+| Q27 · `reversible-injury-sodium-water-accumulation` | `reversible injury sodium water accumulation`; `cell swelling sodium and water`; `cloudy hydropic sodium pump injury`; `intracellular sodium reversible cell injury` | pending `CON-FND-375B9454502DE8`; exact mechanism | exact F73 `cloudy-swelling-sodium-accumulation`; reuse |
+| Q29 · `burn-epidermis-hydropic-degeneration` | `burn epidermal hydropic degeneration`; `excess fluid epidermal cells burn`; `vacuolar degeneration burned skin`; `hydropic change epidermis thermal injury` | no same-scope | prior hydropic-definition handle omits the burn/epidermis application; delta |
+| Q31 · `hepatocyte-clear-vacuoles-triglycerides` | `hepatocyte clear spaces triglycerides`; `fatty liver vacuoles triglyceride content`; `H E clear cytoplasmic spaces steatosis`; `lipid dissolved liver biopsy vacuoles` | pending steatosis definition/morphology support | exact atomic content of F112 `steatosis-definition`; reuse |
+| Q32 · `fatty-liver-etiology-set` | `fatty liver starvation alcohol obesity toxins`; `lipid accumulation liver causes all above`; `hepatic steatosis risk factors`; `fatty liver predisposing factors` | pending `CON-FND-A0BC07E35554B1`; exact cause-set support | exact F2 `fatty-liver-predisposition`; reuse |
+| Q33 · `hepatic-fat-hepatocyte-cytoplasm` | `fat liver cytoplasm hepatocytes`; `steatosis intracellular hepatocyte location`; `hepatic lipid cytoplasmic accumulation`; `fatty change portal stroma versus hepatocytes` | pending steatosis definition support | exact parenchymal-cell component of F112 `steatosis-definition`; reuse |
+| Q34 · `signet-ring-fatty-liver-etiology-set` | `signet ring hepatocyte hypoxia starvation carbon tetrachloride diabetes`; `fatty liver signet ring causes all above`; `eccentric nucleus hepatic steatosis etiologies`; `vacuolated liver cells fatty change causes` | pending general steatosis cause/morphology support, not the complete set | prior F92 signet-ring case and F2 predisposition split the scope; delta |
+| Q35 · `diphtheria-diffuse-myocardial-fatty-change` | `diphtheria diffuse myocardial fatty change`; `toxin fatty degeneration heart`; `myocardial steatosis diphtheria`; `diphtheritic toxic myocardial fatty change` | no same-scope | none; delta |
+| Q36,Q37 · `anemia-tiger-heart-fatty-change` | `anemia myocardium tiger heart fatty change`; `yellow myocardium patchy fatty change`; `tabby cat heart fatty degeneration`; `chronic anemia cardiac fatty change` | no same-scope | exact F125 Q18/Q58 reuse |
+| Q38 · `frozen-section-fat-sudan-iii` | `frozen section fat Sudan III`; `Sudan III lipid stain`; `fat demonstration frozen tissue`; `steatosis special stain Sudan` | no same-scope | prior teaching mentions fat stains but no accepted tested handle; delta |
+| Q39 · `pubertal-breast-physiologic-hyperplasia` | `puberty breast physiologic hyperplasia`; `female breast enlargement puberty hyperplasia`; `breast development increased cell number`; `physiological hyperplasia mammary gland puberty` | no same-scope | none; delta |
+
+External disposition is **0 live / 10 pending / 22 no same-scope**. Exactly **16** current handles
+are prior-BMS reuses: pregnant-uterus hypertrophy; workload hypertrophy; earliest cloudy swelling;
+cloudy-swelling organelle; reversible fatty change; fatty-change reversibility; hypertrophy and
+hyperplasia definitions; smoker and keratinizing-bronchus metaplasia; metaplasia definition;
+sodium-water accumulation; two steatosis-definition components; fatty-liver predisposition; and
+anemia/tiger-heart fatty change. Family 149 therefore adds `32 - 16 = 16` concepts.
+
+### Family-149 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 149 | Auxiliary cumulative (Families 12–149) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 40 | 1,319 | 765 | 2,084 |
+| Printed study-key occurrences | 40 | 806 | 405 | 1,211 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| Retained question records | 38 | 1,242 | 552 | 1,794 |
+| Accepted handles / required searches | 32 / 128 | 1,114 / — | — | — |
+| Prior-BMS handle reuses | 16 | — | — | — |
+| Cross-family concept delta | +16 | +702 over primary | 372 | 1,074 |
+| **Distinct tested concepts** | **32 source-local** | **702 auxiliary additions** | **372** | **1,074** |
+
+The source-local checksum closes as `7 pages × 5 prompts + 1 page × (4 + 6 - 5) = 40`, or
+directly `30 + 4 + 6 = 40`; all 40 prompts have letters. Retention closes as `40 - 2 literal
+copies = 38`; handle collapse closes as `38 - 6 semantic reductions = 32`; search arithmetic is
+`32 × 4 = 128`; and concept arithmetic is `32 - 16 prior reuses = +16`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary becomes **1,319 prompts / 806 answers /
+1,242 retained records / 1,114 accepted handles / +702 concepts over primary**. All eligible S1
+evidence becomes **2,084 prompts / 1,211 supplied answers / 1,794 retained records / 1,074
+distinct tested concepts**. Family 149 adds keyed auxiliary bank evidence only; it does not
+establish an authenticated Helwan exam, official key, practical station, recurrence, mark weight,
+candidate response, readiness, or claims status.
+
+### Exact next debt after Family 149
+
+`src_e446a1e064b3d421e312` is exhausted across all eight pages: every visible/metadata provenance
+field, numbered stem, option set, right-column letter, exact/semantic replay, source-key anomaly,
+format assignment, search packet, prior reuse, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-149 blocker. The exact next manifest record is tier-3
+`src_92a00e70d341f27e46fd` · `MCQs - Cell injury 2 MCQ.pdf`, SHA-256
+`92a00e70d341f27e46fde13c81d347bba647ad2f3de00dc38b803efe2bd2c429`, 116,933 bytes,
+five native-text A4 pages under `Pathology / Questions / MCQs`. Metadata author is `Alnoaman`
+with creation timestamp 6 April 2025; its visible Ahmed-Hassan series authority, complete
+prompt/key convention, same-source and Family-149 replays, prior-BMS reuse, four-search packets,
+and arithmetic are the exact next-source blockers.
