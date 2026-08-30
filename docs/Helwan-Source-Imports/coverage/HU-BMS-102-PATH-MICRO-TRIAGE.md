@@ -10026,3 +10026,81 @@ manifest OCR snippet begins with endogenous/exogenous pigments and intracellular
 while iOS Quartz metadata gives a March 1, 2026 production timestamp. Its complete rendered
 content, visible provenance, metadata/date limitation, teaching/prompt/key boundary, and possible
 single-page overlap with Family 90 are the exact next-source blockers.
+
+## Family 91 — single-page Cell Injury 2 concept-map composite
+
+### Source identity, render reality, and provenance caution
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_0de803ae1ae7c84c714c` · `Cell injury 2-1.pdf` |
+| SHA-256 / size | `0de803ae1ae7c84c714cea35b1e6591a4037f290540f8c3844121bf31af4ba7b` · 8,131,455 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / complete read boundary | One 4840×2692-point landscape page; rendered at 72 dpi to one non-empty 4840×2692-pixel image, then re-rendered and read as six 1612/1614×1346-pixel regions plus a dedicated attribution crop |
+| OCR/native adjudication | `pdftotext` returns only a form feed: 0 educational words / 1 byte. The page is an image/drawing composite with six color image objects and three soft masks, including an 8192×4557-pixel background image. The manifest's `ocr-needed` disposition is therefore accurate; its noisy OCR snippet is not treated as authoritative transcription. |
+| Visible provenance | An underlined `Dr. Kirolos` inscription appears between the two map areas, and the lower-right block is headed `notes on lecture:`. Neither states whether Dr. Kirolos authored, reviewed, or was merely credited for the notes. No university, faculty, module code, academic year, teaching date, or assessment label is visible on this page. |
+| Metadata caution | PDF producer is `iOS Version 26.3 (Build 23D127) Quartz PDFContext`; creation and modification timestamps are March 1, 2026. These establish file production only, not note authorship, lecture delivery, academic year, or exam sitting. |
+| Authority | Tier-6 completed handwritten/embedded teaching summary. It is not an assessment instrument, student answer sheet, or official key. |
+
+### Region-first teaching, embedded-excerpt, annotation, and prompt/key inventory
+
+| Region | Complete visible source content | Boundary ruling |
+|---|---|---|
+| Upper left | Central `intra cellular acumiliation` map with fat, water, protein, glycogen, mucin, and completed mucin notes for excess cellular mucin, signet-ring gastric carcinoma, and catarrhal rhinitis | completed teaching map; spelling and terminology preserved as source quality, not silently corrected |
+| Upper centre/right | Pigment map: exogenous inhalation/ingestion/inoculation; endogenous melanin, lipofuscin, and haemoglobin-derived bilirubin/haemosiderin/haematin; completed notes on albinism, brown atrophy, haemosiderosis, and primary/secondary haemochromatosis | completed teaching classification and explanations |
+| Lower left/centre | `Extra cellular deposits` map connecting renal, liver, spleen, cardiac, and gastrointestinal amyloidosis; embedded highlighted lecture excerpts supply the renal, liver, spleen, and cardiac morphology/consequence text | teaching derivative; no blank branch or image-identification command |
+| Lower right | Completed `notes on lecture:` list mapping primary amyloidosis to multiple myeloma, secondary amyloidosis to chronic inflammation, AL to plasma cells, AA to chronic inflammatory disease, and organ-specific renal/liver/spleen/cardiac/GIT consequences | completed revision summary; no prompt or response space |
+
+The embedded excerpts visibly reproduce teaching text already present in Family 90's lecture
+pages 24 and 29–33, while the surrounding handwriting reorganizes the same intracellular-
+accumulation, pigment, and amyloidosis material into overview maps. This establishes a derivative
+or companion-summary relationship to Family 90, not a new assessment occurrence. Red/orange
+branches, multicolor writing, yellow/pink highlights, underlines, and the outlined `diseases`
+word are organizational or emphasis annotations; none is a correctness-selection convention.
+
+There is no question stem, command, option set, unanswered blank, response frame, written
+exercise, practical station, image-identification request, student response, mark allocation,
+answer register, or separate key. The source contributes **0 prompt occurrences / 0 printed
+answer occurrences / 0 prompt-like residues / 0 retained records / 0 source-distinct tested
+handles / 0 concept additions**.
+
+### Source-first zero gate and cumulative arithmetic
+
+Because no assessment handle is accepted, the source-first gate is exactly **0 handles × 4 = 0
+required searches**. The Family-90 teaching overlap is documented above, but no external or
+prior-BMS search row is fabricated for declarative content.
+
+| Measure | Family 91 | Auxiliary cumulative (Families 12–91) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 845 | 765 | 1,610 |
+| Printed answer occurrences | 0 | 468 | 405 | 873 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 787 | 552 | 1,339 |
+| Source-distinct tested handles / required searches | 0 / 0 | 711 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +486 over primary | 372 | `372 + 486 = 858` |
+| **Distinct tested concepts** | **+0** | **486 auxiliary additions** | **372** | **858** |
+
+The checksum closes: `0` accepted prompts yield `0` answers, residues, retained records,
+handles, searches, external dispositions, prior-handle reuses, or concept additions. Primary
+remains **765 / 405 / 552 / 372**; auxiliary remains
+**845 / 468 / 787 / 711 / +486**; and all eligible evidence remains
+**1,610 / 873 / 1,339 / 858**. Family 91 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status.
+
+### Exact next debt after Family 91
+
+`src_0de803ae1ae7c84c714c` is exhausted across its one large composite page: every handwritten
+branch, embedded excerpt, highlight/underline convention, attribution clue, metadata/date
+limitation, Family-90 derivative relationship, prompt/key absence, zero search gate, and unchanged
+arithmetic term is assigned once, with **zero source remainder** and no Family-91 blocker. The
+exact next manifest-ordered BMS-102 record is tier-6 `src_3dccdd1df7a47ccf25b5` · `Cell injury
+lecture 1 1 (1).pdf`, SHA-256
+`3dccdd1df7a47ccf25b5c687aa032a7b783c8c6e0a59f33120e234bf9a393bf8`, 21,895,971 bytes,
+60 native-text landscape 791×445-point pages. The manifest places it under `Pathology / Notes
+and Summaries`, while the SHA-matching local file is currently under `Pathology / Theoretical`;
+its first-page text identifies `CELL INJURY 1`, Dr Enas Megahed Elhosary, Lecturer of Pathology,
+Faculty of Medicine, Helwan University. Its complete page content, manifest-versus-local
+placement, teaching/prompt/key boundary, visible provenance, and prior-BMS relationship are the
+exact next-source blockers.
