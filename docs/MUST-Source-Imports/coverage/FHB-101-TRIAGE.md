@@ -4265,3 +4265,74 @@ Removing this one substantive-text path and unique hash leaves **57 selected inv
 The next evidence-ranked substantive source is the single 17-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - QUESTION ON EPITHELIUM by DR.KANDEEL.pdf`, SHA-256 `994b3e415b43d5b276a810e5a74b177f5774d6d99b775a0e094b0914c76b2fbb`.
 
 **BLOCKED — S1 cannot be approved:** 57 selected source paths remain untriaged.
+
+## Completed source — QUESTION ON EPITHELIUM by DR.KANDEEL
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - QUESTION ON EPITHELIUM by DR.KANDEEL.pdf` | `994b3e415b43d5b276a810e5a74b177f5774d6d99b775a0e094b0914c76b2fbb` | 17 | substantive-text | pages 1–17 rendered and read | Local scanned Dr Kandeel study bank. It prints no institution, sitting, marks, department approval or official-paper/key authority. |
+
+### Exact assessment and printed-key boundary
+
+Page 1 is an epithelium cover. Pages 2–9 print `Questions on Epithelium` Q1–Q75 and their 75-entry key. Pages 10–14 print a second `Epithelial Tissue` Q1–Q58 sequence and its 58-entry key. Page 15 is a nervous-tissue cover; pages 16–17 print `Nervous Tissue` Q1–Q25 and 25 printed key tokens.
+
+The nervous key contains a visible numbering defect: after `16)a` it prints a second `15)b`, then continues with `18)d`. No answer is labelled Q17, and the duplicate `15)b` is not silently reassigned. The exact inventory is therefore **158 complete prompt occurrences / 158 printed answer-token occurrences / 157 prompt-matched recovered answers**: `75 + 58 + 25` prompts, `75 + 58 + 25` printed tokens, but `75 + 58 + 24` recoverable prompt-key links. The first epithelium key's Q7 multi-letter `a,c` is one answer occurrence. There are no teaching pages beyond the three covers, and no printed answer was corrected or inferred.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+`E1`, `E2` and `N` identify the 75-question epithelium, 58-question epithelium and 25-question nervous-tissue sequences. Every one of the 158 prompts is assigned exactly once to 33 handles. Each handle received the four searches printed below, for **33 × 4 = 132 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| E1:1–5,9; E2:2,8,23,32,35–36 | General epithelial origin, polarity, vascularity and renewal (`general epithelial characteristics`; `epithelium avascular`; `epithelium three germ layers`; `epithelial renewal basement membrane`) | new externally; exact prior-FHB duplicate. |
+| E1:6–11; E2:14,16,21 | Surface, glandular, myoepithelial and sensory-neuroepithelial functions/sites (`surface glandular neuroepithelium`; `myoepithelial contractile cells`; `taste bud neuroepithelium`; `macula crista sensory epithelium`) | pending-hit; exact prior-FHB duplicate. |
+| E1:12–13; E2:24 | Endocrine/exocrine and unicellular-gland classification (`endocrine exocrine glands`; `ductless endocrine secretory cells`; `goblet unicellular mucous gland`; `glandular epithelium classification`) | new externally; exact prior-FHB duplicate. |
+| E1:14–16; E2:3,15,17,22 | Merocrine, apocrine and holocrine secretion (`merocrine exocytosis`; `apocrine apical cytoplasm`; `holocrine whole cell`; `exocrine secretion mechanisms`) | new externally; exact prior-FHB duplicate. |
+| E1:17–19 | Simple/compound ducts and tubular/alveolar secretory units (`simple compound gland duct`; `branched secretory unit`; `simple coiled tubular gland`; `tubular alveolar gland`) | new externally; exact prior-FHB duplicate. |
+| E1:20,26,28–30; E2:1,4,11,19,34,37,39–40 | Simple-squamous structure, functions, endothelium and mesothelium (`simple squamous epithelium`; `endothelium mesothelium`; `simple squamous gas exchange`; `Bowman capsule squamous`) | new externally; exact prior-FHB duplicate. |
+| E1:21,24,31; E2:5,43 | Simple-cuboidal morphology, function and sites (`simple cuboidal epithelium`; `cuboidal secretion reabsorption`; `thyroid follicle cuboidal`; `kidney tubule cuboidal`) | new externally; exact prior-FHB duplicate. |
+| E1:22,25,27,32–33; E2:31,38,46 | Simple-columnar morphology, function and sites (`simple columnar epithelium`; `columnar absorption secretion`; `stomach intestine columnar`; `uterus columnar epithelium`) | new externally; exact prior-FHB duplicate. |
+| E1:23,34–37; E2:12,44,57 | Pseudostratified epithelium and motile cilia (`pseudostratified columnar epithelium`; `respiratory epithelium cilia`; `epididymis pseudostratified`; `motile cilia epithelium`) | pending-hit; exact prior-FHB duplicate. |
+| E1:38,42,44; E2:18,20,30,41,45,47 | Stratified-squamous layers, keratinisation and sites (`stratified squamous epithelium`; `keratinized epidermis`; `nonkeratinized esophagus`; `stratified squamous layers`) | pending-hit; exact prior-FHB duplicate. |
+| E1:39,41,45–48; E2:42 | Transitional epithelium, dome cells, layers and distension (`transitional epithelium bladder`; `urothelium dome cells`; `transitional epithelium layers`; `urothelial distension`) | new externally; exact prior-FHB duplicate. |
+| E1:40,49–50 | Stratified-cuboidal/columnar epithelia and sites (`stratified cuboidal ducts`; `stratified columnar epithelium`; `male urethra stratified columnar`; `stratified epithelium layers`) | pending-hit; exact prior-FHB duplicate. |
+| E1:51 | Smoking-associated squamous metaplasia (`smoker bronchial metaplasia`; `pseudostratified to squamous`; `epithelial metaplasia smoking`; `squamous metaplasia respiratory`) | new externally; exact prior-FHB duplicate. |
+| E1:52–54; E2:6–7,27,48,58 | Microvilli, brush border, actin core and terminal web (`microvilli actin core`; `brush border microvilli`; `terminal web spectrin`; `microvilli absorption`) | new externally; exact prior-FHB duplicate. |
+| E1:55–56 | Stereocilia structure and male-genital absorption (`stereocilia long microvilli`; `epididymis stereocilia`; `stereocilia absorption`; `male genital stereocilia`) | new externally; exact prior-FHB duplicate. |
+| E1:57; E2:49 | Hemidesmosomal epithelial attachment (`hemidesmosome basement membrane`; `epithelial basal attachment`; `hemidesmosome connective tissue`; `desmosome hemidesmosome distinction`) | new externally; exact prior-FHB duplicate. |
+| E1:58–61; E2:29,36 | Basement-membrane layers, collagen and anchoring fibrils (`basement membrane ultrastructure`; `basal lamina collagen IV`; `reticular lamina collagen III`; `collagen VII anchoring fibrils`) | new externally; exact prior-FHB duplicate. |
+| E1:62–63,72; E2:50,54,56 | Tight-junction morphology, apical position and barrier role (`zonula occludens tight junction`; `tight junction apical`; `tight junction narrow gap`; `tight junction barrier`) | new externally; exact prior-FHB duplicate. |
+| E1:64–67; E2:25,51 | Zonula-adherens belt, actin and spacing (`zonula adherens belt`; `adherens junction actin`; `adherens intercellular space`; `fascia zonula adherens`) | pending-hit; exact prior-FHB duplicate. |
+| E1:43,68–70; E2:13,52 | Desmosomal plaques, intermediate filaments and strength (`desmosome tonofilaments`; `macula adherens`; `desmosome intermediate filaments`; `strongest cell junction`) | new externally; exact prior-FHB duplicate. |
+| E1:71; E2:9,55 | Epithelial junctional-complex membership (`junctional complex epithelium`; `tight adherens desmosome`; `gap junction excluded complex`; `epithelial junction complex EM`) | pending-hit; exact prior-FHB duplicate. |
+| E1:73–75; E2:10,26,53 | Gap-junction connexons and ionic communication (`gap junction connexon`; `connexon six subunits`; `gap junction ion exchange`; `gap junction cell communication`) | new externally; exact prior-FHB duplicate. |
+| E2:28,33 | Ion-transporting epithelial cells and basal mitochondrial specialisation (`ion transporting epithelial cells`; `basal infoldings mitochondria`; `kidney tubule ion transport`; `tubular cristae steroid cells`) | new externally; exact prior-FHB duplicate. |
+| N1–3,N14 | Neuron as the nervous-system unit and dendritic stimulus reception (`neuron structural functional unit`; `dendrite receives stimuli`; `axon dendrite cell body`; `neuronal process polarity`) | pending-hit; exact prior-FHB process-polarity duplicate. |
+| N4 | Neuronal soma size (`neuron cell body size`; `neuronal soma diameter`; `perikaryon size micrometer`; `neuron cell body dimensions`) | new externally; no exact prior-FHB metric assignment — **new addition**. |
+| N5–7,N16–20 | Unipolar, bipolar and multipolar neuronal shapes/sites (`unipolar bipolar multipolar neuron`; `pseudounipolar sensory ganglion`; `pyramidal neuron cerebral cortex`; `stellate neuron spinal cord`) | new externally; prior FHB owns bipolar-neuron distribution only, not the complete morphological classification — **new addition**. |
+| N8,N15 | Nissl bodies/RER in neuronal soma and dendrites (`Nissl bodies rough ER`; `Nissl substance neuron`; `Nissl bodies dendrite`; `neuronal cytoplasmic basophilia`) | new externally; no exact prior-FHB assignment — **new addition**. |
+| N9–10 | Neuronal neurofilaments, neurofibrils and microtubules (`neuron neurofilaments`; `neurofibrils perikaryon processes`; `neuronal microtubules dendrite`; `neuron cytoskeleton`) | new externally; prior FHB owns axoplasmic transport, not this structural distribution — **new addition**. |
+| N11 | Centriole absence in non-renewing neurons (`neuron lacks centriole`; `non dividing neuron centriole`; `permanent cell neuron`; `neuron cell division`) | pending-hit; exact prior-FHB renewal-family duplicate. |
+| N12–13 | Lipofuscin and melanin in neurons (`neuronal lipofuscin`; `neuromelanin midbrain`; `golden brown neuronal pigment`; `neuron endogenous pigments`) | new externally; exact prior-FHB pigment-family duplicate. |
+| N21–23 | Sensory, motor and interneuron functional classes (`sensory motor interneuron`; `dorsal root ganglion sensory neuron`; `motor neuron effector muscle`; `interneuron spinal cord retina`) | new externally; no exact prior-FHB functional-class assignment — **new addition**. |
+| N24–25 | Golgi type-I and type-II neurons by axon length (`Golgi type I neuron`; `Golgi type II neuron`; `long axon projection neuron`; `short axon interneuron`) | new externally; no exact prior-FHB assignment — **new addition**. |
+
+The 133 epithelium prompts collapse to 24 handles with source disposition **0 live / 5 pending / 19 new**; all are exact reuse of the processed BenAhmed/Kandeel epithelium scope. The 25 nervous prompts collapse to nine handles with disposition **0 live / 2 pending / 7 new**. Three nervous handles are prior-FHB duplicates, leaving six new nervous-tissue scopes. Across the complete source, disposition is therefore **0 live / 7 pending / 26 new = 33 handles**, and the post-prior result is **0 live / 0 pending / 6 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+158 questions / +157 prompt-matched recovered answers / +6 concepts = +0 live / +0 pending / +6 new**. The unmatched duplicate key token is retained in the source-boundary inventory but does not inflate recovered-answer arithmetic.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3621 | 3354 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **56 selected inventory paths / 54 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `05371a25dda0d2f9b6b6ae508b59d8784053537827fdeb2ae56b84ca5f764c69`. Pinned triage debt becomes **13 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`52 + 54 = 106`**.
+
+The next evidence-ranked substantive source is the single 18-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium questions MCQ and Written.pdf`, SHA-256 `81bd1052dfcf4d1985205bbf7ae7aaf419eba184f7a2204af600f58e605a1b7f`.
+
+**BLOCKED — S1 cannot be approved:** 56 selected source paths remain untriaged.
