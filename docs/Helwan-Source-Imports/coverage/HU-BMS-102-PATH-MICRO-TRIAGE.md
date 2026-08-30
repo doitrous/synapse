@@ -6277,3 +6277,118 @@ manifest-ordered local BMS-102 candidate is tier-5 `src_380149e04961b8857343` ·
 native-text pages under `Microbiology / Practical Labs / Pre Lab 1 - Microscopy & Staining`.
 Its unread 88-page prompt/teaching/answer boundary is the next-source processing blocker: fully
 render and visually adjudicate the complete source before admitting any count.
+
+## Family 57 — tier-5 Helwan microscopy and bacterial-staining practical lecture
+
+### Source identity, complete visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_380149e04961b8857343` · `1- Microscopy and staining (1).PDF` |
+| Local path | `BMS 102/Microbiology/Practical Labs/Pre Lab 1 - Microscopy & Staining/1- Microscopy and staining (1).PDF` |
+| SHA-256 / size | `380149e04961b885734364f486d513a50d54aa5a9ff708b36660501a35bc94f7` · 3,973,709 bytes |
+| Format / read boundary | 88 native-text US-letter pages; native text extracted, every page rendered at 110 dpi and read in six ordered contact sheets, and every prompt-bearing or prompt-like page reopened at full-page resolution |
+| Authority | Faculty of Medicine, Helwan University practical lecture attributed collectively to the staff members of Microbiology and Immunology; no examiner, sitting, date, marks, candidate instructions, response form, or official-key designation |
+
+The file is a Helwan-local **practical teaching lecture**, not an exam or departmental question
+bank. Its page builds mix declarative notes, labelled apparatus and organism plates, procedural
+diagrams, video stills, recall blanks, and two reveal patterns. Only response-complete exercises
+are counted; images, headings, objectives, colour, labels, transition slides, and isolated
+question-mark residues are not converted into prompts or answers.
+
+| Physical pages | Complete visual content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–13 | Helwan cover, introductory image, objectives, microscope taxonomy, and labelled light-microscope parts | teaching/provenance only; `0 / 0` |
+| 14–18 | oil-immersion title, images, explanation, ray diagram, and magnification formula | declarative teaching; p. 14 has an image-obscured leftover `OIL IMMERSION LENS ?` text box that is not a complete visible prompt; `0 / 0` |
+| 19–20 | three complete multiplication exercises followed by a dedicated three-value reveal | **3 / 3** |
+| 21–24 | resolution definition and labelled light-microscope organism plates | teaching plates only; `0 / 0` |
+| 25 | ordered microscope-type list with slot 1 blank after the complete list and light-microscope section | **1 / 1** source-internal recall mapping |
+| 26–31 | electron-microscope section, labelled images, properties, and light/electron comparison table | teaching only; `0 / 0` |
+| 32 | same ordered microscope-type list with slots 1–2 blank after both sections | **2 / 2** source-internal recall mapping |
+| 33–36 | dark-ground microscope section, mechanism, use, and labelled organism plate | teaching only; `0 / 0` |
+| 37 | same ordered microscope-type list with slots 1–3 blank after all three sections | **3 / 3** source-internal recall mapping |
+| 38–48 | fluorescent-microscope section, examples, `LET'S REVIEW` transition, fully labelled microscope/Gram/dark-field/fluorescence plates, and bacterial-staining heading | labelled and declarative teaching only; `0 / 0` |
+| 49–58 | size/shape/arrangement, bacterial structure, diagnosis-method, and image plates | teaching only; p. 49's noun-phrase title plus question mark and p. 58's `Smear... / Film.........??` image fragment lack a complete requested operation or answer mapping and remain excluded residues; `0 / 0` |
+| 59–74 | microscopic-examination uses, stained/non-stained map, smear and Gram-stain procedures, labelled diagrams, and unlabelled illustrative micrographs | declarative teaching and practical plates only; `0 / 0` |
+| 75–82 | Ziehl–Neelsen and wet-mount definitions, procedures, diagrams, and labelled image | declarative teaching only; `0 / 0` |
+| 83–88 | wet-mount illustration, three embedded-video stills, closing cartoon, and thank-you slide | media/closing material only; `0 / 0` |
+
+The source therefore contains **9 complete prompt occurrences / 9 printed teaching-answer
+occurrences**. The three p. 19 equations have an explicit answer-reveal slide on p. 20. The six
+ordered type blanks use the exact numbered taxonomy printed on p. 6 and the corresponding
+section headings as a stable source-internal recall mapping; these are teaching answers, not an
+official key. The three incomplete prompt-like residues on pp. 14, 49, and 58 are tracked only
+as boundary decisions and do not enter prompt, answer, retention, or handle counts.
+
+### Prompt, teaching-answer, copy, and handle inventory
+
+| Ref | Page | Complete source-tested scope | Printed teaching answer | Handle / assignment |
+|---|---:|---|---|---|
+| F57-Q01 | 19–20 | Total magnification for 10× eyepiece and 10× objective | `100 TIMES` | `total-light-microscope-magnification-eyepiece-objective-product` |
+| F57-Q02 | 19–20 | Total magnification for 10× eyepiece and 40× objective | `400 TIMES` | retained input variant; semantic collapse to `total-light-microscope-magnification-eyepiece-objective-product` |
+| F57-Q03 | 19–20 | Total magnification for 10× eyepiece and 100× objective | `1000 times` | retained input variant; semantic collapse to `total-light-microscope-magnification-eyepiece-objective-product` |
+| F57-Q04 | 25 | Missing slot 1 in the ordered light/electron/dark-ground/fluorescent microscope taxonomy | `Light microscope` | `ordered-basic-microscope-types-recall` |
+| F57-Q05 | 32 | Missing slot 1 in the same ordered microscope taxonomy | `Light microscope` | literal Q04 copy excluded from retention |
+| F57-Q06 | 32 | Missing slot 2 in the ordered microscope taxonomy | `Electron microscope` | retained list-member variant; semantic collapse to `ordered-basic-microscope-types-recall` |
+| F57-Q07 | 37 | Missing slot 1 in the same ordered microscope taxonomy | `Light microscope` | literal Q04 copy excluded from retention |
+| F57-Q08 | 37 | Missing slot 2 in the same ordered microscope taxonomy | `Electron microscope` | literal Q06 copy excluded from retention |
+| F57-Q09 | 37 | Missing slot 3 in the ordered microscope taxonomy | `Dark-ground microscope` | retained list-member variant; semantic collapse to `ordered-basic-microscope-types-recall` |
+
+Q05 and Q07 are exact repeats of Q04, and Q08 is an exact repeat of Q06. Thus **9 observed - 3
+literal copies = 6 retained records**. The three numerical inputs exercise one multiplication
+relation, and the three retained taxonomy slots exercise one ordered enumeration. Therefore
+**6 retained records - 4 semantic reductions = 2 source-distinct tested handles**.
+
+### Four-query search register and prior-BMS adjudication
+
+Each of the two handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **8 required searches**. External
+disposition is **1 live / 0 pending / 1 no same-scope**.
+
+| Handle · refs | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `total-light-microscope-magnification-eyepiece-objective-product` · Q01–Q03 | `total microscope magnification eyepiece objective`; `10x eyepiece 10x 40x 100x objective`; `magnification power light microscope calculation`; `total magnification ocular lens times objective lens` | live `CON-FND-DACB83532148D6`; its definition states that total magnification equals objective power multiplied by eyepiece power | none; prior BMS-102 families contain no prompt-derived magnification-calculation handle |
+| `ordered-basic-microscope-types-recall` · Q04–Q09 | `types of microscopes light electron dark ground fluorescent`; `four microscope types light electron dark field fluorescent`; `light electron dark ground fluorescent microscope enumeration`; `microscope types sequential recall light electron dark ground` | no same-scope | none; Family 55 is teaching-only and contributes no prompt-derived handle |
+
+Prior Families 1–56 contain no exact prompt-derived scope for either handle. Therefore **2
+handles - 0 prior exact reuses = +2 concepts**.
+
+| Measure | Family 57 | Auxiliary cumulative (Families 12–57) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 9 | 492 | 765 | 1,257 |
+| Printed teaching-answer occurrences | 9 | 230 | 405 | 635 |
+| Incomplete prompt-like residues | 3 excluded | — | — | tracked separately |
+| Retained question records | 6 | 483 | 552 | 1,035 |
+| Source-distinct tested handles / required searches | 2 / 8 | 458 / — | — | — |
+| External live / pending / no same-scope | 1 / 0 / 1 | — | — | family-local disposition |
+| Cross-family concept delta | +2 | +332 over primary | 372 | `372 + 332 = 704` |
+| **Distinct tested concepts** | **+2** | **332 auxiliary additions** | **372** | **704** |
+
+The checksum closes without remainder: prompt starts are `3 + 1 + 2 + 3 = 9`; teaching-answer
+alignment is `3 reveal values + 6 mapped list values = 9`; retention is `9 - 3 literal copies =
+6`; handle assignment is `6 - 4 semantic reductions = 2`; assignment is `9 - 9 = 0`
+unassigned; searches are `2 × 4 = 8`; external disposition is `1 + 0 + 1 = 2`; and concept
+arithmetic is `2 - 0 = 2`. Auxiliary cumulative arithmetic is `483 + 9 = 492` prompts, `221 +
+9 = 230` printed answers, `477 + 6 = 483` retained records, `456 + 2 = 458` source handles,
+and `330 + 2 = 332` concept additions over primary. All-eligible arithmetic is `765 + 492 =
+1,257`, `405 + 230 = 635`, `552 + 483 = 1,035`, and `372 + 332 = 704`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**492 / 230 / 483 / 458 / +332**; and all eligible evidence is
+**1,257 / 635 / 1,035 / 704**. This tier-5 practical lecture adds Helwan-local teaching and
+exercise evidence only; it cannot independently raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status, so no readiness or claims file change is warranted.
+
+### Exact next debt after Family 57
+
+`src_380149e04961b8857343` is exhausted across all 88 pages: every teaching plate, labelled or
+unlabelled image, complete exercise, source-internal answer mapping, literal copy, incomplete
+residue, retained record, tested handle, search row, external disposition, and prior-BMS decision
+is assigned once, with **zero source remainder** and no Family-57 blocker. The next manifest-
+ordered local BMS-102 candidate is tier-5 `src_8196275856f156e4e7eb` ·
+`2- Cultivation & Culture media.pdf`, SHA-256
+`8196275856f156e4e7ebdffa7aaf89f9b16ef905db6e2057cfa71e05065cf8a4`, 6,296,973 bytes, 86
+native-text landscape US-letter pages under `Microbiology / Practical Labs / Pre Lab 2 -
+Cultivation & Culture media`. Its unread 86-page prompt/teaching/answer boundary is the next-
+source processing blocker: fully render and visually adjudicate the complete source before
+admitting any count.
