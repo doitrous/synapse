@@ -17115,3 +17115,92 @@ The exact next manifest-order debt is tier-6 `src_31e4f70a0fc3239cfe0a`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 72 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 159 — Tier-6 unattributed labelled anterior/medial-thigh teaching plate
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_31e4f70a0fc3239cfe0a` / `31e4f70a0fc3239cfe0ad0a8e233b179ee7b8cd986e7cac2e32f24405773ab3c` |
+| File / boundary | `2026-07-20 05.43.32.jpg` · 254,356 bytes · progressive JFIF 1.01 JPEG · sRGB · 72 dpi · 2048 × 1613 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.43.32.jpg` |
+| Visible / embedded provenance | The image is a labelled anterior/medial-thigh anatomical model composition. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile/density but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is unattributed tertiary teaching-plate evidence, not a Helwan-authored assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. Fifteen callout boxes label
+anterior/medial-thigh muscles, femoral neurovascular structures and their supplied nerve/root
+relations. Psoas major with anterior rami L1–3 is printed twice against the same composition;
+the duplicate callout is retained as source evidence but collapsed in the mapping inventory.
+
+There is **no assessment inventory**. Every pointer terminates in a supplied label and no
+instruction, interrogative, response field, blank, mark allocation, option set, correctness
+mark or separate answer reveal appears. The exact boundary is therefore **0 eligible or
+external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment
+prompts** and **0 practical/station prompts / 0 practical assessment keys**.
+
+Source wording is preserved without repair. The boxes print `Tensor fascia late`,
+`Pectineus` with `Obturator`, `Gracilis` with `Femoral n`, `Femoral n L2,3,4`, and
+adductor-magnus supply as `Obturator n and tibial division of sciatic`. These are retained
+source states, not silently corrected terminology, innervation or expansions.
+
+### Complete practical-plate, mapping and residue inventory
+
+This is **1 source-distinct labelled teaching plate**. One mapping is one directly printed
+label-to-structure, supply or root relation; a repeated structure/relation on this complete
+composition counts once. The fifteen boxes yield fourteen unique structure/location mappings
+after the duplicate psoas-major callout collapses. The supplied yellow/root text yields
+thirteen relations: one each for psoas major, iliacus, pectineus, tensor fasciae latae,
+adductor longus, femoral-nerve roots, gracilis, sartorius, rectus femoris, vastus lateralis
+and vastus medialis, plus two distinct printed nerve relations for adductor magnus. The exact
+inventory is therefore **1 teaching plate / 27 directly printed unique mappings / 0 masked or
+unresolved residues**. Supplied labels are not converted into an answer key.
+
+### Source-first practical teaching scope, exact searches and prior-LCS reconciliation
+
+The single composition consolidates to **1 source-distinct practical teaching handle**. It
+received one query on each required surface.
+
+| Practical teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Anterior/medial-thigh muscle and femoral-neurovascular model identification with printed innervation | `anterior medial thigh muscle model iliopsoas pectineus adductors quadriceps`; `femoral nerve artery vein thigh model`; `adductor magnus obturator tibial division sciatic`; `tensor fascia latae sartorius rectus vasti innervation model` | Accepted Families 31–32, 37, 39–41 and later lower-limb practical/tested scopes jointly own every printed component | prior-LCS practical/theoretical reuse |
+
+All **1 × 4 = 4 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **1 prior-LCS reuse + 0 additive practical-teaching scopes**. The
+practical-teaching-scope delta is **0 live / 0 pending / 0 new**. Search matches establish
+coverage only and do not validate or repair the unattributed labels.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 462 plates / 2,747 mappings / 149 residues / 13
+keys** by **+0 / +1 / +27 / +0 / +0** to **20 prompts / 463 plates / 2,774 mappings / 149
+residues / 13 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `462 + 1 = 463`, `2,747 + 27 = 2,774`, `149 + 0 = 149` and `13 + 0
+= 13`.
+
+This source hash occurs once in Family 158's remainder. Removing its sole path leaves **71
+all-rank path instances / 66 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **57 / 55**, and rank 9 **14 / 11**. Family 158's prior checksums are
+`fcec598c1fec0de3fa8903fcc98b22c582bfdd51e23f2eae76171efe1e78b52d` (paths) and
+`5b57a28a24d01395bc68284242be5bfd711154dceb09b26367b777080491250c` (unique hashes).
+For the exact post-Family-159 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`28692942f097d9417cff0ab245f5e6a6fd2e3176ad7e0659dd44ff90322e6839`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e31dbfc79b64131784bf087841bac3aab1980250e2703586388286c1f68060a0`.
+
+The exact next manifest-order debt is tier-6 `src_97bb023ec70059597754`,
+`2026-07-20 05.50.59.jpg` (181,407 bytes; 1010 × 1280 JPEG; SHA-256
+`97bb023ec7005959775491800c6153696aa731bc7a6201e67017a65a4a85c960`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 71 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
