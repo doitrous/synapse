@@ -19128,3 +19128,106 @@ Neoplasia, general pathology(MW).pdf`, SHA-256
 OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible identity,
 complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS disposition,
 arithmetic, and subsequent exact next-source debt remain to be separately reconciled.
+
+## Family 182 — provenance-unverified Medicine Way / general-pathology neoplasia compilation
+
+### Source identity, complete rendered/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_1402ebbe4bc10f6e9ce5` · `MCQs - mcq in Neoplasia, general pathology(MW).pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `1402ebbe4bc10f6e9ce52069bef06117c21bfffa700d09f6d017509adf44e413` · **3,319,242 bytes** |
+| Format / complete read | **32 OCR-needed A4 pages** at 595×842 pt. Native extraction was genuinely empty (**0 words; 32 form feeds**). All 32 pages were rendered at 110 dpi into 32 non-empty images (30 portrait 910×1287 and two landscape 1287×910) and read at original detail. OCR was attempted on every page, producing 23 non-empty text files (**3,311 words / 21,012 bytes**); the nine OCR-empty handwritten/image pages were fully resolved visually rather than treated as blank. |
+| Visible identity | Page 1 is the same Arabic `Medicine Way` public medical-books-channel cover used by Family 181 and credits `منصور الجزار`. Pages 2–6 carry a `Medicine Way| MW` watermark; pages 7–11 are a generic typed `Neoplasia` bank with key; pages 12–25 are a handwritten `Revision Chapter 5: Neoplasia` bank and answer sheet; pages 26–32 are a separate printed collection ending `collected by Mariam Sameh`. No page visibly names Helwan University, its Faculty of Medicine, BMS-102, an authenticated Helwan sitting, or an institutional key authority. |
+| Date and metadata caution | The printed source-page numbers and compilation numbering are carrier structure, not sitting dates. PDF modification time 26 January 2025 is carrier metadata only and does not authenticate authorship, teaching year, or a Helwan sitting. |
+| Authority / eligibility | The explicit public-channel cover/watermark and mixed generic, handwritten, and Mariam-Sameh-collected banks establish an externally compiled general-pathology carrier. Folder placement and manifest tier cannot supply the missing university/module/sitting marker. The source is indexed source-locally but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing generic-pathology provenance gate. |
+
+### Complete prompt, answer, format, anomaly, and practical boundary
+
+The complete carrier contains **183 raw prompt operations = 136 MCQs + 26 true/false statements
++ 21 individually matched items**, with **66 source-supplied answers + 117 visibly unkeyed
+operations**:
+
+- **Page 1:** public-channel cover only; 0 prompts and 0 answers.
+- **Pages 2–6:** **34 unkeyed Medicine-Way-watermarked MCQs**: Q108 and Q110–Q142. Page 2's
+  bare `109)` has no stem or choices and is preserved as numbering residue, not promoted to a
+  question. No option is underlined or otherwise source-keyed.
+- **Pages 7–11:** **28 typed MCQs**, Q1–Q28, followed on page 11 by a complete printed `KEY` with
+  **28 answer entries**. Q22 and Q28 visibly repeat the same autosomal-dominant cancer-syndrome
+  exception stem; both source occurrences and key entries remain preserved.
+- **Pages 12–24:** **38 handwritten MCQs**, Q1–Q38, on metaplasia/dysplasia, malignant spread,
+  tumour types, metastasis, oncogenes, tumour markers, immunohistochemistry, and carcinoma in
+  situ. Circled option letters are option labels, not selections. **Page 25** is a separate
+  handwritten answer sheet supplying exactly **38 answer entries**, one for each Q1–Q38.
+- **Pages 26–32:** an unkeyed printed collection carrying **83 operations = 36 MCQs Q388–Q423 +
+  26 true/false statements Q424–Q449 + 21 individually matched items across Q450–Q454**. The
+  five matching groups contain **5 + 4 + 3 + 5 + 4 = 21** left-side items. No answer table,
+  underlining, or completed matching links are visible. Page 32's `collected by Mariam Sameh` is
+  compiler attribution, not a key or institutional marker.
+
+The exact checksums are **`34 + 28 + 38 + 36 = 136 MCQs`; `136 + 26 true/false + 21 matching =
+183 prompts`; `28 typed-key answers + 38 handwritten-sheet answers = 66 answers`; therefore
+`183 − 66 = 117 unkeyed operations`**. There are **0 diagnostic images, 0 drawing tasks, 0
+practical stations, 0 candidate responses, and 0 unassigned residues**. Histologic or clinical
+descriptions remain text questions because the carrier supplies no specimen/image operation,
+station instruction, time, marks, or candidate field.
+
+All source wording, numbering, answer marks, and anomalies remain evidence without correction.
+This includes the empty Q109 slot, `chilled 140 years old`, `Orang tropism`, the source's
+spellings and older terminology, the keyed bank's repeated Q22/Q28, and any potentially
+disputable printed or handwritten answer letters. Neither solution layer is represented as an
+authenticated Helwan official key.
+
+### Internal recurrence, prior-BMS comparison, and governed zero-search gate
+
+The carrier contains extensive internal replay. The Medicine Way Q110–Q142 sequence and the later
+Q390–Q423 collection repeat many same or near-identical propositions on anaplasia, malignancy
+criteria, choristoma/hamartoma, sarcoma versus carcinoma, metastatic sites, angiogenesis, papilloma,
+malignant-ulcer edges, signet-ring carcinoma, carcinoma in situ, carcinogenic agents, HPV/EBV/HCV,
+grading, and staging. The typed keyed bank repeats its own Q22/Q28, while the handwritten bank
+revisits the same neoplasia taxonomy, spread, markers, and immunohistochemistry scopes. All raw
+occurrences and supplied/absent answer states remain preserved source-locally; no eligible
+semantic-collapse count is invented after exclusion.
+
+These scopes also overlap prior governed BMS neoplasia lectures, maps, written compilations,
+virtual-lab carriers, CBL material, and MCQ families. Institutional authority is resolved before
+semantic retention, however. Therefore neither internal recurrence nor prior overlap is assigned
+as eligible Helwan reuse.
+
+Family 182 yields **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted
+handles / 0 prior-BMS reuse assignments / +0 concepts**. Exactly four searches are required only
+per accepted new handle; the governed gate is **`0 accepted new handles × 4 = 0 required and
+completed searches`**. Searching provenance-excluded prompts cannot convert them into Helwan
+assessment evidence.
+
+### Family-182 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 182 source-local | Eligible delta | Auxiliary cumulative (Families 12–182) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 183 = 136 MCQ + 26 T/F + 21 matching | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 66; 117 unkeyed | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | provenance-excluded compilation | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external/generic only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-182 eligible arithmetic is independently zero. Corrected primary remains **762 / 405 / 552
+/ 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 182 establishes no Helwan question occurrence, official key, tested concept, sitting,
+recurrence, mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 182
+
+`src_1402ebbe4bc10f6e9ce5` is exhausted across all 32 pages: every cover field, prompt operation,
+option set, true/false statement, matching item, source-supplied answer, absent answer, empty Q109
+slot, internal replay, prior-evidence relation, provenance term, eligibility term, and cumulative
+term is assigned once, with **zero remainder** and no Family-182 blocker.
+
+The exact next manifest record is tier-3 source `src_ac20e1968492b0a2e1b8` · `MCQs - mcq in
+Repair, general pathology(MW).pdf`, SHA-256
+`ac20e1968492b0a2e1b8189067473dc2a880730bca97d33e7344c2d3784d96b1`, **1,401,194 bytes**, **14
+OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible identity,
+complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS disposition,
+arithmetic, and subsequent exact next-source debt remain to be separately reconciled.
