@@ -19958,3 +19958,90 @@ under `Year 1/LCS 103/All Subjects/Questions/`. It remains unclassified until ev
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 42
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 189 — Rank-9 attributed external muscle-histology fixed-choice bank with inline answers
+
+### Exact identity, visible authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_66e410ea398a7dc0a491` / `66e410ea398a7dc0a4911a21d91eaa821d5c2752fcab0bc401192978d7ad1e36` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Questions/Muscle.QUES.pdf` |
+| Physical verification | **288,360 bytes; 18 native-text portrait-US-Letter pages; 612 × 792 pt; tagged; unencrypted; PDF 1.7**. Full hash, byte size, page count and geometry match; all eighteen 160-dpi full-page renders are distinct. |
+| Visible / metadata provenance | Every page is headed `Muscle Questions` / `Histology`, attributes `By Dr. Shaaban`, and prints a page number. No page names a university, module code, cohort, formal sitting, year, marks or official key. Metadata names author `Ahmed Mohamed Shaaban`, Microsoft Word 365 creator/producer and 24 July 2025 creation/modification. |
+| Authority finding | Attributed question-bank evidence without recoverable Helwan/module/sitting authority. The answer letters printed in the right column are source answers, not a Helwan official key; the bank remains external assessment evidence. |
+
+All **18/18 pages** were rendered at 160 dpi, inspected at full resolution and read against
+the complete native layer. The document numbers Q1–Q66 continuously: pp. 1–17 contain four
+items each except p. 3, which contains Q9–Q11, and p. 18 contains Q66. Every occurrence has
+one inline answer letter in the right column. Exact boundary is **66 external fixed-choice
+prompts / 66 source answers / 0 unkeyed / 0 free-response written prompts**, split as **64
+four-or-five-option MCQs + 2 true/false items** (Q9 and Q66).
+
+Source states remain literal and unrepaired. This includes `fight bands`, `myogiobin`, the
+printed Q42 answer `D` beside `Less abundant glycogen`, Q60's printed five-times Purkinje
+answer, capitalization, punctuation and all other answer letters. Inventory does not endorse
+or medically correct any source answer.
+
+### Practical and teaching boundary
+
+All pages are prose option sets with inline answer columns. There is no micrograph, diagram,
+specimen, masked structure, station, response field, delayed image label or explanatory
+teaching composition. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings /
+0 residues / 0 keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 66 occurrences consolidate to nine complete muscle-histology handles:
+
+| Tested handle | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| muscle embryonic origin, functional cells, types and sites | muscle embryonic origin types sites histology; myoblast mesoderm skeletal cardiac smooth classification; muscle origin functional cell striated voluntary involuntary; muscle origin histology | Family188 and prior accepted muscle sources own the complete scope. |
+| skeletal-muscle fibre architecture, connective-tissue sheaths, nuclei and sarcoplasm | skeletal muscle fiber architecture connective tissue sheaths nuclei sarcoplasm; epimysium perimysium endomysium vascular nerve supply; skeletal muscle nuclei sarcoplasm myoglobin histology; skeletal muscle fiber histology | Family188 and prior external/accepted muscle banks own the complete scope. |
+| sarcoplasmic-reticulum calcium handling and triad system | sarcoplasmic reticulum triad calcium storage skeletal muscle; T tubule triad A I junction skeletal muscle; skeletal muscle sarcoplasmic reticulum tubular system histology; triad tubular system skeletal muscle | Families 75, 144–147, 173, 182–183 and 188 own the complete scope. |
+| sarcomere bands, myofilaments, titin/dystrophin/alpha-actinin and contraction | sarcomere myofilaments titin dystrophin alpha actinin contraction; A band I band H zone Z M line muscle proteins; sarcomere bands proteins contraction histology; sarcomere band composition contraction | Family188 and prior muscle sources own the complete scope. |
+| red-versus-white skeletal-muscle fibre classification | red white skeletal muscle fiber types histology; slow fast muscle mitochondria myoglobin glycogen ATP; skeletal muscle fiber classification red white; red white skeletal muscle fibers | Family188 and prior accepted muscle banks own the complete scope. |
+| skeletal-muscle regeneration and satellite cells | skeletal muscle regeneration satellite cells injury; muscle growth repair myoblast satellite cell; skeletal muscle regeneration histology dystrophy; skeletal muscle regeneration satellite cell | Families 52, 75, 85, 142, 180 and 188 own the complete scope. |
+| cardiac-muscle histology, intercalated discs, Purkinje fibres, BNP and repair | cardiac muscle histology intercalated discs Purkinje BNP; cardiac diad regeneration fibrosis myocardial infarction histology; cardiac muscle junctions Purkinje fibers congestive failure; cardiac muscle histology | Family188 and prior external/accepted histology banks own the complete scope. |
+| smooth-muscle histology, gap junctions and regeneration | smooth muscle histology caveolae gap junction regeneration; smooth muscle spindle nonstriated involuntary fatigue; smooth muscle structure contraction regeneration histology; smooth muscle histology | Family188 and prior external/accepted histology banks own the complete scope. |
+| skeletal, cardiac and smooth-muscle comparison | skeletal cardiac smooth muscle comparison histology; muscle types structural functional differences; skeletal cardiac smooth muscle shared characteristics; skeletal cardiac smooth muscle comparison | Families 75, 85, 99, 142, 173, 182–183 and 188 own the complete comparison. |
+
+Each of the **nine accepted handles** received exactly one query on each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **9 × 4 = 36
+required search invocations**. Literal combined-phrase searches produced seven accepted-ledger
+hits and no exact file hit on the other surfaces. Complete-scope comparison establishes **9
+prior external/LCS reuses / 0 additive live / 0 additive pending / 0 additive external
+concepts**. All 66 prompt and answer occurrences remain counted.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **7,211 / 6,935 / 221** by **+66 / +66 / +0** to **7,277 external prompts / 7,001
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+checks are `7,211 + 66 = 7,277`, `6,935 + 66 = 7,001`, `221 + 0 = 221`, and `12 +
+135 + 74 = 221`.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This hash occurs once in Family188's remainder. Removing its sole path changes the remainder
+from **42 paths / 41 unique hashes** to **41 paths / 40 unique hashes**: tier 3 remains **0 /
+0**, tier 6 remains **31 / 31**, and rank 9 becomes **10 paths / 9 unique hashes within
+rank**. Family188's checksums were
+`60a816640069b7c5a3d419ee548353773b5cd7a2d62c12477811ec051a10af86` (paths) and
+`c20c8f82e40522bf1b1c268a771773431efe72e8d450eb234451fddf6e43e1f4` (unique hashes).
+For the exact post-Family189 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`a0854fd8fcd6e44aae34eef83f6bbea513fe8f4faafa641e8b4945530367e76f`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`53dbda96a1fc5d54e8a69cb9c85db8ed503df54aecc39c205c3e33f2367d2222`.
+
+The exact next manifest-order debt is rank-9 `src_15f4c039b7b4b8f7c173`, `soft tissue
+questions.pdf` (155,146 bytes; 12 native-text portrait-US-Letter pages; untagged; unencrypted;
+PDF 1.4; SHA-256 `15f4c039b7b4b8f7c173ba107622b44f89d9693b7ebec12ba6b7fe31970c048a`)
+under `Year 1/LCS 103/All Subjects/Questions/`. It remains unclassified until every page is
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 41
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
