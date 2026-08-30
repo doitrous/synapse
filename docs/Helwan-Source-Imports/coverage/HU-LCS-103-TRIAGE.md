@@ -15091,3 +15091,122 @@ SHA-256 `01dd7811692c0c1a3e50d40637aeeed75d9d64570ad07450f464bd6998aab53e`).
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 93 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 138 — Tier-3 student-authored keyed head-and-neck assessment bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_01dd7811692c0c1a3e50` / `01dd7811692c0c1a3e50d40637aeeed75d9d64570ad07450f464bd6998aab53e` |
+| File / boundary | `MCQs - Student MCQs Head&Neck 1.PDF` · 472,048 bytes · tagged, unencrypted PDF 1.7 · 39 physical US-Letter native-text pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - Student MCQs Head&Neck 1.PDF` |
+| Visible / metadata provenance | The cover prints `Head &Neck`, `MCQ`, `SHORT ESSAY` and an eight-section contents list; every page carries the same decorative Arabic devotional header. Metadata names author `Eman Ibrahem Hefny Ibrahem`, Microsoft Word, and 21 August 2025 creation/modification. No page or metadata identifies Helwan University, a faculty, instructor, cohort, formal exam, sitting or official answer authority. |
+| Authority finding | The manifest explicitly identifies a student MCQ compilation. Its title and anatomy content establish LCS-103 relevance, but not eligible Helwan assessment or official-key authority; all governed occurrences remain external. |
+
+The assigned hash, byte size and 39-page physical boundary were recomputed and match. All 39
+pages were rendered at 120 dpi and read visually against the complete native text layer. The
+cover on p. 1 is an uncounted contents page. The eight source sections then close exactly as:
+
+| Source section | MCQ prompts / letter keys | Written prompts / printed answers |
+|---|---:|---:|
+| Scalp | 12 / 12 | 0 / 0 |
+| Face | 32 / 32 | 0 / 0 |
+| Temporal and infratemporal fossae | 24 / 24 | 8 / 8 |
+| Temporomandibular joint | 13 / 13 | 3 / 3 |
+| Muscles of mastication | 13 / 13 | 0 / 0 |
+| Anterior and posterior neck triangles | 27 / 27 | 0 / 0 |
+| Cervical plexus | 10 / 10 | 0 / 0 |
+| Muscles of the back | 14 / 14 | 0 / 0 |
+| **Exact total** | **145 / 145** | **11 / 11** |
+
+The complete boundary is therefore **156 external assessment occurrences / 156 printed
+keys-or-answers / 0 unkeyed occurrences = 145 MCQs + 11 short-essay prompts**. Dotted response
+lines do not add prompt occurrences, and each written answer section is answer content rather
+than a second prompt. Cover headings and contents entries are navigation, not teaching scopes.
+
+Source defects and annotations are preserved without editorial or medical repair. The
+temporal/infratemporal Q10 stem contains the parenthetical `(all answers are right)` while its
+separate answer grid prints `B`; the governed key remains `B`. Muscles-of-mastication Q12 has
+one printed `D` plus a highlighted explanation labelled with the Arabic `شرح الدكتوره`; this is
+one answer occurrence with explanatory annotation, not a second key or standalone teaching
+scope. Face Q3 offers only A/B/C and prints `C`. Back Q4 has the malformed option text
+`Latissimus dorsi bicipital groove → thoracodorsal nerve floor of` and prints `D`. These and
+all spelling, placement and formatting irregularities stay source-faithful.
+
+### Teaching and practical boundary
+
+Every assessed item is prose-only. There is no anatomical image, specimen, radiograph,
+clinical photograph, diagram, station, apparatus task, masked label, learner-completed map or
+standalone teaching section. Decorative borders/headers, dotted answer lines and red answer
+lists are page furniture or assessment containers, not practical plates. The source adds **0
+practical prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0 practical keys /
+0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 156 occurrences collapse to **11 source-distinct tested handles**: scalp layers, vessels
+and nerves; facial cutaneous innervation, facial nerve and muscles; facial vessels, danger
+area and lymphatics; temporal/infratemporal fossa boundaries, communications and contents;
+maxillary artery and pterygoid plexus; mandibular-nerve branches and parasympathetic routes;
+TMJ surfaces, disc, ligaments and movements; muscles of mastication; neck triangles and
+suprahyoid/infrahyoid muscles; cervical plexus and ansa cervicalis; and superficial back
+muscles with scapular nerve/action relationships. Clinical variants are assigned once to
+their governing regional handle.
+
+The exact four-query ledger was:
+
+| Handle | Live query | Pending query | Prior-import query | Accepted-LCS query |
+|---|---|---|---|---|
+| Scalp layers/vessels/nerves | `scalp layers anatomy` | `subaponeurotic scalp` | `scalp vessels nerves` | `scalp anatomy` |
+| Facial innervation and muscles | `facial nerve branches` | `trigeminal face cutaneous` | `buccinator facial nerve` | `face innervation anatomy` |
+| Facial vessels/danger area/lymphatics | `danger triangle face` | `facial artery vein` | `face lymphatic drainage` | `facial vessels anatomy` |
+| Temporal/infratemporal fossae | `infratemporal fossa contents` | `temporal fossa boundaries` | `pterygopalatine communication` | `infratemporal fossa anatomy` |
+| Maxillary artery/pterygoid plexus | `maxillary artery branches` | `pterygoid venous plexus` | `mandibular pterygoid parts maxillary` | `maxillary artery anatomy` |
+| Mandibular nerve and routes | `mandibular nerve branches` | `foramen ovale contents` | `auriculotemporal chorda tympani` | `mandibular nerve anatomy` |
+| Temporomandibular joint | `temporomandibular joint` | `TMJ articular disc` | `TMJ ligaments movements` | `TMJ anatomy` |
+| Muscles of mastication | `muscles of mastication` | `masseter temporalis pterygoid` | `mastication mandibular nerve` | `mastication anatomy` |
+| Neck triangles and strap muscles | `anterior triangle neck` | `carotid submandibular triangle` | `suprahyoid infrahyoid muscles` | `neck triangles anatomy` |
+| Cervical plexus/ansa cervicalis | `cervical plexus branches` | `ansa cervicalis` | `greater auricular transverse cervical` | `cervical plexus anatomy` |
+| Superficial back/scapular mechanics | `superficial back muscles` | `trapezius latissimus rhomboid` | `thoracodorsal dorsal scapular nerve` | `back muscles anatomy` |
+
+All **11 × 4 = 44 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Prior-external-first
+comparison finds all eleven handles represented across Families 83–86, 90–95, 105–112,
+121, 125–126 and 132; Family 95 supplies the prior external superficial-back coverage.
+Accepted Anatomy Families 35–45 corroborate curricular fit but cannot promote this
+student-authored bank into eligible Helwan evidence. Reconciliation is **11 prior-external
+reuses + 0 external additions = 11**; eligible and external concept-state deltas are zero.
+Search/render scratch stayed outside the worktree under `/private/tmp/lcs103-family138/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **6,162 / 5,896 / 221 = 12 / 135 / 74** to **6,318 external prompts / 6,052
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `6,162 + 156 = 6,318`, `5,896 + 156 = 6,052`, `221 + 0 = 221`, and `12 + 135 +
+74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in the Family-137 remainder. Removing its sole path leaves **92
+all-rank path instances / 87 unique hashes**: tier 3 **10 paths / 10 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 137's prior checksums are
+`c504619308e42ba38f2cbb5306fb507b439bd11c596ab02a3594737b9777e385` (paths) and
+`34ee3e8007f45d1f92d0c644791b9db1c8e1d5f2ce50aef6e46bc85f7007eae4` (unique hashes).
+For the exact post-Family-138 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`6dc33349f423d02460ea86b19a8d1b935b92bf5ad50a5b91450a8ef4025f964a`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`60b0ee84ee543e1f0e61683bbcb8fbbcb80148bae908675587338c75f74a81b2`.
+
+The exact next tier-3 manifest-order debt is `src_44ab7f7a56a9753d565c`,
+`MCQs - Student MCQs Lower limb Mcqs.pdf` (269,940 bytes; 24 physical native-text pages;
+SHA-256 `44ab7f7a56a9753d565c5037ac9202355d5a5c4ba899afb08d8f40636532ac7a`).
+It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 92 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
