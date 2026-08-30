@@ -3916,6 +3916,7 @@ incomplete. No download, ID, content record, catalogue update, import or source 
 created.
 
 
+
 ## Family 35 — Tier-5 skull-normae and mandible virtual-lab teaching deck
 
 ### Source identity, authority and full boundary
@@ -7573,6 +7574,7 @@ debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
 
+
 ## Family 62 — Tier-5 Pathology practical Lab 1 deck with one ordinary and one image-dependent unkeyed MCQ
 
 ### Source identity, authority and full boundary
@@ -7713,5 +7715,95 @@ The next rank-4/rank-5 manifest-order gate is tier-5 Pathology practical source
 SHA-256 `f370e46e69acd89946bbd95da53f945410bbf28e559088a1f5402059ab3a41d2`)
 under `Year 1/LCS 103/Pathology/Practical Labs/Practical Revision/`. Tier-6 and rank-9 source
 debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
+
+## Family 63 — Tier-5 Pathology practical-revision folder SEQ sheet with five unkeyed written prompts
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_f370e46e69acd89946bb` |
+| File / SHA-256 | `Pathology 103 SEQs.pdf` / `f370e46e69acd89946bbd95da53f945410bbf28e559088a1f5402059ab3a41d2` |
+| File boundary | 21,055 bytes · unencrypted PDF · 1 physical native-text page · 595.5 × 841.92 pt |
+| Manifest placement | `HU-LCS-103` · Pathology · Practical Labs · `Practical Revision` · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Pathology/Practical Labs/Practical Revision/Pathology 103 SEQs.pdf` |
+| Visible provenance | The sole page prints only `Pathology 103 SEQs`; PDF metadata gives title `Untitled design`, author `Mohanad` and Canva creator/producer, with no university, department, instructor, sitting, mark or key label |
+| Authority finding | Manifest/path-placed local module revision-question evidence. The printed module heading establishes LCS-103 relevance, but the source is not a recoverable sitting paper or official answer key. Despite its practical-revision folder, every task is ordinary written assessment rather than a specimen, image or station task. |
+
+The assigned SHA-256, byte size and one-page boundary were recomputed and match the manifest.
+The page was rendered at 180 dpi and read against the complete native text layer. It contains
+one heading followed by three numbered groups. Group 1 has three separately lettered,
+independently answerable comparisons; groups 2 and 3 each have one independently answerable
+composite request. Accordingly, the source contributes **five written prompt occurrences**,
+not merely the three outer numbers. The wording `Describe Chordoma as original and
+microscopic picture` is preserved as printed; `original` is not silently repaired to
+`origin` in the evidence layer.
+
+There is no image, specimen, labelled plate, response line, blank, option set, answer text,
+tick, highlight, delayed reveal or correctness convention. The complete source boundary is
+therefore **5 ordinary written question records / 0 printed keys / 0 practical or station
+prompts / 0 teaching plates / 0 teaching mappings / 0 masked or unresolved practical
+callouts**. No medically inferable answer is promoted into a key.
+
+### Exact prompt assignment, searches and prior-LCS adjudication
+
+| Source prompt → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| 1A, rheumatoid arthritis versus osteoarthritis → `rheumatoid-arthritis-vs-osteoarthritis-comparison` | rheumatoid arthritis osteoarthritis compare; RA OA comparison; inflammatory versus degenerative arthritis; rheumatoid versus osteoarthritis | external records contain disease fragments but no complete two-way comparison; accepted Family-12 `ra-oa-gout-comparison` already owns this comparison as a strict subset | prior eligible-LCS reuse; inherited new; no concept delta |
+| 1B, benign versus malignant soft-tissue tumours → `benign-vs-malignant-soft-tissue-tumor-comparison` | benign malignant soft tissue tumors compare; soft tissue tumor benign malignant; benign versus malignant mesenchymal tumor; soft tissue neoplasm behavior comparison | accepted Family-12 separately owns malignant-tumour enumeration and benign-tumour characteristics, but neither it nor a substantive external record owns the requested paired comparison | new |
+| 1C, osteoid osteoma versus osteoblastoma → `osteoblastoma-vs-osteoid-osteoma-comparison` | osteoid osteoma osteoblastoma compare; osteoblastoma versus osteoid osteoma; benign osteoid tumor comparison; osteoid osteoma size aspirin osteoblastoma | exact accepted Family-12 tested comparison handle; external hits are fragments rather than a superseding complete scope | prior eligible-LCS reuse; inherited new; no concept delta |
+| 2, chordoma as printed `original` plus microscopic picture → `chordoma-origin-and-microscopic-morphology` | chordoma origin microscopy; chordoma notochord physaliphorous cells; chordoma microscopic picture; chordoma sacrococcygeal origin histology | external embryology mentions of notochordal remnants do not own the pathology composite, and no accepted prior-LCS tested handle owns it | new; as-written wording retained |
+| 3, gout pathogenesis plus diagnostic hallmark → `gout-pathogenesis-and-diagnostic-hallmark` | gout pathogenesis hallmark diagnosis; urate crystal gout pathogenesis; gout diagnostic hallmark crystals; monosodium urate negatively birefringent | live gout/hyperuricaemia material owns overproduction-versus-underexcretion pathogenesis and urate-deposition diagnosis; accepted prior-LCS gout handles own clinical/crystal recognition but not this complete mechanism-plus-hallmark composite | live; additive to eligible LCS |
+
+The five source occurrences map one-to-one to five tested handles: there is no within-source
+semantic repeat or response-unit collapse. All **5 × 4 = 20** required searches completed
+across live state, pending state, `docs/import-ready`, `docs/questions-import-ready`, every
+source-import root and accepted prior LCS. Direct complete-scope disposition is **1 live / 0
+pending / 4 external new**. Exact accepted-prior adjudication removes two already tested
+comparisons, leaving the module concept delta **1 live / 0 pending / 2 new = 3**. Search
+matches establish coverage only; they supply neither answer text nor printed keys.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 63 | Family 63 delta | After Family 63 |
+|---|---:|---:|---:|
+| Eligible observed question records | 520 | +5 | 525 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 252 | +3 | 255 |
+| Question live / pending / new | 9 / 86 / 157 | +1 / +0 / +2 | 10 / 86 / 159 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `1 physical page = 1 heading-bearing assessment
+page`, `5 prompts = 3 lettered comparison units + 2 numbered composite units`, `5 tested
+handles - 2 prior eligible reuses = 3 added concepts`, `1 + 0 + 2 = 3`, `525 = 520 + 5`,
+`265 = 265 + 0`, `255 = 252 + 3`, `10 + 86 + 159 = 255`, `6 + 0 = 6`, `398 + 0 =
+398`, `2,496 + 0 = 2,496`, `136 + 0 = 136`, and `74 + 0 = 74`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-62
+remainder leaves **13 rank-4/rank-5 path instances / 11 unique hashes**. The Family-62
+method was reproduced first: its 14/12 row sets recomputed to
+`b8a548371d624eba4823dd133057547a2ffe1d499f97800cbff294c10b3dab46` and
+`51ced3587e996fe46adad4a7bcc2d68b4eaae8302f321bdb6f47314f71d13d94`.
+For the exact post-Family-63 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`8153903e8783e0270b3e82642a8cc3b0efcc74c89f32522fd4c9f1892f32d0fb`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`4275bc123b028640c1e7fe844847329e7030c721559945c26980efc63b7a9f7d`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Pathology theoretical source
+`src_3328fde7f743cd67dc9f`, manifest `103   (1) and (2)bone diseases and tumors.pdf`
+(863,512 bytes; 43 native-text pages; SHA-256
+`3328fde7f743cd67dc9fabcdd320e6337d1b38a2f6f36a7fa2e347ededf359cb`) under `Year
+1/LCS 103/Pathology/Theoretical/Lec 1 - Bone Diseases & Tumors/`; the local normalized
+filename omits the manifest's two extra spaces after `103`. Tier-6 and rank-9 source debts
+between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
