@@ -11085,3 +11085,94 @@ The exact next tier-3 manifest-order debt is `src_25ca49edf4d373e1b4ee`,
 LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 138 tier-3/tier-6/rank-9 path debts
 remain. No download, ID, content record, catalogue update, import, source copy or edited
 DOCX was created.
+
+## Family 93 — Tier-3 external mixed lower-limb MCQ and short-essay training sheet
+
+### Exact identity, provenance, module fit and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_25ca49edf4d373e1b4ee` / `25ca49edf4d373e1b4ee2cfe7ca94ead048906a86cc516e50f5c4345dd485241` |
+| File / boundary | `MCQs - External MCQs Training mcq.pdf` · 71,351 bytes · unencrypted PDF · 3 physical native-text US-Letter pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External MCQs Training mcq.pdf` |
+| Provenance | No university, faculty, cohort, module, instructor, sitting or official-key mark appears on the pages. PDF metadata names author `Marwa Hassan` and Microsoft Word for Microsoft 365 as creator/producer. The filename's `External MCQs` / `Training mcq` labels and absence of direct authority keep it external. |
+| Authority finding | External mixed training handout, not direct Helwan assessment evidence, a response form, practical examination or official answer key. |
+
+The assigned hash, byte size, native text layer and three-page boundary were recomputed and
+match. All three pages were rendered at 250 dpi and read visually. Pages 1–2 contain nine
+unnumbered MCQs; the ninth continues onto p. 3 only for its final option. Page 3 then prints
+a `Short essay questions` heading, a 12-mark instruction and three separately scored
+four-mark prompts.
+
+| Physical page | Visible boundary | MCQ prompts | Written prompts | Printed keys |
+|---:|---|---:|---:|---:|
+| 1 | long/great and short/small saphenous veins; plantarflexion; inversion | 4 | 0 | 0 |
+| 2 | eversion; foot arches; posterior tibial-nerve injury; second sole layer; transverse-arch support begins | 5 | 0 | 0 |
+| 3 | final option of the ninth MCQ; three four-mark short essays | 0 | 3 | 0 |
+| **Family 93** | **nine MCQs + three short essays** | **9** | **3** | **0** |
+
+Thus the assessment boundary is **12 unkeyed prompt occurrences = 9 MCQs + 3 written
+prompts**. The isolated strings `te.`, `dolla` and the malformed `LA.` option prefix are
+visible source transcription artifacts, not answer annotations or hidden keys. All 12
+prompts are in module: ten test lower-limb vessels, movements, nerves, intrinsic sole or
+arches; the other two written prompts test scalp nerves and digastric-triangle contents,
+both within accepted Head-and-Neck Anatomy.
+
+There is no declarative teaching section, anatomical illustration, specimen, radiograph,
+micrograph, practical station, teaching plate, masked label, apparatus task, response blank
+or unresolved practical callout. Practical delta is exactly **0 prompts / 0 plates / 0
+mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 12 occurrences collapse to **7 source-distinct tested handles**. Each received exactly
+one search in the live, pending/import-ready, prior source-import and accepted-LCS surfaces:
+**7 × 4 = 28 required search invocations**.
+
+| Source-first handle | Assigned occurrences | Count |
+|---|---|---:|
+| great/small saphenous tributaries and course | MCQ 1–2 | 2 |
+| ankle plantarflexion, inversion and eversion muscles | MCQ 3–5 | 3 |
+| foot-arch keystones and muscular support | MCQ 6 and 9 | 2 |
+| tibial-nerve branches, injury and sole deficit | MCQ 7 + written I | 2 |
+| intrinsic-sole second layer | MCQ 8 | 1 |
+| scalp cutaneous-nerve supply | written II | 1 |
+| submandibular/digastric-triangle contents | written III | 1 |
+| **Family 93** | **every prompt once** | **12** |
+
+All seven are exact prior-external reuses: lower-limb handles recur in Families 86 and 88,
+while the scalp and submandibular-triangle handles recur in Families 78, 90 and 92.
+Accepted Families 1, 20 and 39–48 independently own or corroborate the curriculum scopes.
+Prior-external reconciliation is therefore **7 reuses + 0 additions = 7**, external
+concept-state delta is **0 live / 0 pending / 0 new**, and eligible concept delta is zero.
+The exact 28-query ledger is preserved at `tmp/pdfs/lcs103-family93/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **1,703 / 1,671 / 218 = 12 / 133 / 73** to **1,715 external prompts / 1,671 printed
+keys / 218 external concepts = 12 live / 133 pending / 73 new**. Arithmetic is
+`1,703 + 12 = 1,715`, `1,671 + 0 = 1,671`, `218 + 0 = 218`, and
+`12 + 133 + 73 = 218`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings
+/ 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-92 remainder. Removing its sole path leaves **137
+all-rank path instances / 129 unique hashes**: tier 3 **55 paths / 52 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 92's 138/130 row sets recompute
+first to path checksum
+`7cedd623e38d73908b193426b7360221b0b5be701b247d291bf386f71091318e` and unique-hash
+checksum `bc20750d731f16ad0f89fb4f1e21ab754f1d3648249a11250e7cf3877eacf4f5`.
+For the exact post-Family-93 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`276f37429b2ef7482cd209c4ce4800c87f8baab1a0e78d32bd5adafd5e83223e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`2e671b96d91c9d82fbdebc4c289d45ebe4e4b68b176732b45e59883e5e8aaa5d`.
+
+The exact next tier-3 manifest-order debt is `src_0343b4105ee4af1105d4`,
+`MCQs - External MCQs lower.PDF` (450,716 bytes; 105 OCR-needed pages; SHA-256
+`0343b4105ee4af1105d42fe5b89a4907665ca430ad27e4815bb60c08e75d797e`). **Overall
+LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 137 tier-3/tier-6/rank-9 path debts
+remain. No download, ID, content record, catalogue update, import or source copy was
+created.
