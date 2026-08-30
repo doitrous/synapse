@@ -8334,3 +8334,145 @@ is `CamScanner`, and the source has no reliable native-text layer. Its full visi
 exam/sitting/key boundary, OCR-assisted inventory, and relationship to prior pathology evidence
 are the next-source processing blockers: fully render and visually adjudicate all five pages
 before admitting any count.
+
+## Family 73 — Pathology `Exam (2)` unkeyed worksheet
+
+### Source identity, visible provenance, authority, and read boundary
+
+| Field | Verified value |
+|---|---|
+| Source | `src_033a3dbfd821223cffbf` · `Patho Exam.pdf` |
+| SHA-256 | `033a3dbfd821223cffbf93bd369a58e326c40a3e36c92ec7e2f9d2d238417037` |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Assessments/Exams` · tier 9 |
+| Container and family boundary | Five OCR-needed portrait A4 pages; pp. 1–5 are the whole bounded family |
+| Read method | All five pages rendered at 220 dpi and visually read; local OCR used only as a transcription aid |
+| Visible source labels | `PATHOLOSIS` / `QUESTIONS` / `Dr. TAREK`; p. 1 additionally prints `Exam (2)` and a blank `Name` line |
+| PDF metadata | Title and subject `exam`; author `CamScanner`; iOS Quartz producer; created/modified 7 April 2023 |
+
+The carrier is an exam-like pathology worksheet, but it is **not recoverable as an official
+Helwan exam or dated sitting**. It has no university/faculty masthead, module code, academic
+year, date, duration, candidate instructions, total mark, official answer-key section, or
+authenticated sitting label. The repeated diagonal `PATHOLOSIS` watermark and `Dr. TAREK`
+credit establish the worksheet's own branding, not university authority. `Exam (2)` is preserved
+as a visible source label only; it cannot support an exam-year, sitting, recurrence, official-key,
+or mark-weight claim.
+
+The standing Family-12 rule expressly admits a tier-9 source as low-authority **auxiliary**
+evidence when it is local to the exact Helwan Year-1 BMS-102 corpus, has no external-university
+hint, and is module-aligned. This source meets that narrow rule, so it enters the auxiliary and
+all-eligible inventories below. It does not enter the primary assessment checkpoint. The four
+written prompts carry printed part marks totalling 10, but those local part marks cannot be
+projected into an official paper total or weighting.
+
+### Source-first prompt, key, repeat, and handle ledger
+
+The page arithmetic is `5 + 6 + 6 + 6 + 6 = 29` prompt occurrences: 25 numbered MCQs and
+four written prompts. No option is underlined, highlighted, ticked, circled, bolded selectively,
+or followed by an answer; there is no answer section. Therefore all **29** prompts are unkeyed
+and printed-answer occurrences are **zero**. Q4 and Q21 repeat the same stem and four options;
+the second occurrence is the sole exact copy, so `29 - 1 = 28` retained records.
+
+Source-first semantic adjudication produces 20 handles. Q2/Q7/Q15 are liquefactive-site
+variants; Q3/Q4/Q8/Q9/Q19/Q21 all test apoptosis characteristics by an exception/false-statement
+frame; Q6/Q24 both identify enzymatic fat necrosis in acute pancreatitis; and Q20/Q23 both
+separate reversible from irreversible injury features. These are semantic collapses, not omitted
+occurrences. The broader written prompts remain distinct from their narrower MCQ components.
+
+| Ref(s) | Page(s) | Source-first tested scope | Key boundary | Tested handle · primary placement |
+|---|---:|---|---|---|
+| F73-Q01 | 1 | Exception among gross, microscopic, and aetiologic features of caseous necrosis | none | `caseous-necrosis-feature-exception` · `fnd` |
+| F73-Q02,Q07,Q15 | 1,2,3 | Site/lesion identification and exception for liquefactive necrosis | none | `liquefactive-necrosis-site-identification` · `fnd` |
+| F73-Q03,Q04,Q08,Q09,Q19,Q21 | 1,2,4 | Exception/false-statement identification across apoptosis morphology, membrane integrity, inflammation, physiology, control, and phagocytosis | none; Q4/Q21 exact copy | `apoptosis-characteristics-exception` · `fnd` |
+| F73-Q05 | 1 | Ghost outline, nuclear loss, and eosinophilia as coagulative-necrosis morphology | none | `coagulative-necrosis-ghost-outline` · `fnd` |
+| F73-Q06,Q24 | 2,5 | Acute pancreatitis as the setting for enzymatic fat necrosis | none | `acute-pancreatitis-enzymatic-fat-necrosis` · `fnd` |
+| F73-Q10 | 2 | Exception among nuclear/cytoplasmic morphological changes of necrosis | none | `necrosis-morphologic-changes-exception` · `fnd` |
+| F73-Q11 | 2–3 | Trauma as the cause of breast fat necrosis | none | `traumatic-breast-fat-necrosis-cause` · `fnd` |
+| F73-Q12 | 3 | Caseation as the necrosis type in tuberculosis | none | `tuberculosis-caseation-necrosis-type` · `fnd` |
+| F73-Q13 | 3 | Fibrinoid necrosis of the arterial wall in polyarteritis nodosa | none | `polyarteritis-nodosa-fibrinoid-necrosis` · `fnd` |
+| F73-Q14 | 3 | Intracellular sodium accumulation underlying cloudy swelling | none | `cloudy-swelling-sodium-accumulation` · `fnd` |
+| F73-Q16 | 3 | Karyorrhexis as nuclear fragmentation in cell death | none | `karyorrhexis-nuclear-fragmentation` · `fnd` |
+| F73-Q17 | 3–4 | Apoptosis as programmed, gene-directed cell death | none | `apoptosis-programmed-cell-death-definition` · `fnd` |
+| F73-Q18 | 4 | Finely granular cytoplasmic appearance in cloudy swelling | none | `cloudy-swelling-finely-granular-cytoplasm` · `fnd` |
+| F73-Q20,Q23 | 4–5 | Exception/non-feature among reversible cell-injury changes | none | `reversible-cell-injury-feature-exception` · `fnd` |
+| F73-Q22 | 4 | Coagulative necrosis in myocardial infarction | none | `myocardial-infarction-coagulative-necrosis` · `fnd` |
+| F73-Q25 | 5 | Fibrinoid necrosis as the listed pattern without a gross appearance | none | `fibrinoid-necrosis-no-gross-appearance` · `fnd` |
+| F73-W01 | 5 | List patterns of necrosis (3 marks) | none | `necrosis-patterns-enumeration` · `fnd` |
+| F73-W02 | 5 | List morphological alterations in cell injury (2 marks) | none | `cell-injury-morphologic-alterations` · `fnd` |
+| F73-W03 | 5 | Discuss apoptosis definition and morphological changes (3 marks) | none | `apoptosis-definition-and-morphology` · `fnd` |
+| F73-W04 | 5 | Enumerate four causes of cell injury (2 marks) | none | `cell-injury-causes-enumeration` · `fnd` |
+
+### Four-query search register and prior-BMS-102 adjudication
+
+All 20 handles received exactly four fresh source-first searches across live state, all pending
+import roots, and Families 1–72 of this ledger: **80 required searches**. External exact-scope
+disposition is **0 live / 18 pending / 2 no same-scope**. A pending composite below means that
+the named pending records together cover the source handle; it is not a fabricated merged record.
+
+| Handle · ref(s) | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `caseous-necrosis-feature-exception` · Q01 | `caseous necrosis characteristics`; `caseation necrosis features`; `cheesy structureless pink necrosis`; `trauma adipose tissue necrosis` | pending `CON-FND-5B3B6BA12670C7`; gross/microscopic caseation features | related to F7 TB-type handle, but broader feature/exception scope; delta |
+| `liquefactive-necrosis-site-identification` · Q02,Q07,Q15 | `liquefactive necrosis sites`; `liquefactive necrosis CNS infarct`; `liquefactive necrosis abscess brain`; `renal infarct necrosis type` | pending `CON-FND-88508ABAB84A67`; brain/pus distribution and coagulative contrast | none; delta |
+| `apoptosis-characteristics-exception` · Q03,Q04,Q08,Q09,Q19,Q21 | `apoptosis characteristics exception`; `apoptotic cell morphology`; `apoptosis cell shrinkage membrane blebs`; `apoptosis inflammation phagocytosis` | pending composite `CON-FND-11D3CBC654E7F3`, `-A40D59DAB245EA`, `-46B3AD5A2D8294`, `-C6661CBD045436` | broader than F1's necrosis/apoptosis comparison; delta |
+| `coagulative-necrosis-ghost-outline` · Q05 | `coagulative necrosis ghost outline`; `coagulative necrosis preserved architecture`; `loss nuclei eosinophilic cytoplasm`; `coagulative necrosis morphology` | pending `CON-FND-5285A9707E61CA`; exact preserved-outline morphology | exact F2 `coagulative-necrosis-characteristics` reuse |
+| `acute-pancreatitis-enzymatic-fat-necrosis` · Q06,Q24 | `acute pancreatitis fat necrosis`; `enzymatic fat necrosis pancreas`; `pancreatic lipase fat necrosis`; `pancreatitis necrosis type` | pending `CON-FND-6626C19B61A23B`; exact setting/mechanism | none; delta |
+| `necrosis-morphologic-changes-exception` · Q10 | `necrosis morphological changes`; `pyknosis karyorrhexis karyolysis necrosis`; `necrotic cell shrinkage exception`; `cytoplasmic eosinophilia necrosis` | pending `CON-FND-8DA30AD870AC1E`; exact morphology set | prior narrower nuclear-change definitions do not cover this exception set; delta |
+| `traumatic-breast-fat-necrosis-cause` · Q11 | `traumatic fat necrosis breast`; `breast fat necrosis trauma`; `fat necrosis breast cause`; `nonenzymatic fat necrosis breast` | pending `CON-FND-6626C19B61A23B`; exact trauma/breast scope | none; delta |
+| `tuberculosis-caseation-necrosis-type` · Q12 | `tuberculosis caseation necrosis`; `TB necrosis type`; `caseating granuloma tuberculosis`; `tuberculous caseous necrosis` | pending `CON-FND-5B3B6BA12670C7`; exact | exact F7 `tuberculosis-caseating-granuloma-necrosis` reuse |
+| `polyarteritis-nodosa-fibrinoid-necrosis` · Q13 | `polyarteritis nodosa fibrinoid necrosis`; `PAN arterial wall necrosis`; `vasculitis fibrinoid necrosis`; `polyarteritis nodosa pathology` | pending `CON-FND-BA0739479AD0FC`; explicitly names polyarteritis nodosa | disease-specific application beyond F2's general vasculitis statement; delta |
+| `cloudy-swelling-sodium-accumulation` · Q14 | `cloudy swelling sodium accumulation`; `cell swelling sodium water`; `hydropic change sodium pump`; `cloudy swelling intracellular sodium` | pending `CON-FND-375B9454502DE8`; exact sodium-pump mechanism | none; delta |
+| `karyorrhexis-nuclear-fragmentation` · Q16 | `karyorrhexis nuclear fragmentation`; `fragmentation pyknotic nucleus`; `nuclear fragmentation cell death`; `karyorrhexis definition` | pending `CON-FND-8DA30AD870AC1E`; exact | exact F2 `karyorrhexis-definition` reuse |
+| `apoptosis-programmed-cell-death-definition` · Q17 | `apoptosis programmed cell death`; `gene directed cell death`; `apoptosis definition`; `programmed cell death definition` | pending `CON-FND-11D3CBC654E7F3`; exact | prior comparison/control handles are narrower or differently framed; delta |
+| `cloudy-swelling-finely-granular-cytoplasm` · Q18 | `cloudy swelling finely granular cytoplasm`; `cloudy swelling morphology`; `cloudy degeneration granular cytoplasm`; `hydropic swelling cytoplasm appearance` | pending `CON-FND-2DDF56DA42A0A8`; exact reversible-change morphology | none; delta |
+| `reversible-cell-injury-feature-exception` · Q20,Q23 | `reversible cell injury features`; `irreversible cell injury lysosomal enzymes`; `reversible injury ATP sodium pump ribosomes`; `reversible versus irreversible cell injury` | no single same-scope external record; pending mechanism records are components | exact F2 `reversible-irreversible-cell-injury` reuse |
+| `myocardial-infarction-coagulative-necrosis` · Q22 | `myocardial infarction coagulative necrosis`; `heart infarct necrosis type`; `ischemic necrosis myocardium`; `coagulative necrosis myocardial infarct` | pending `CON-FND-5285A9707E61CA`; infarct/coagulative scope | prior coagulative-morphology handle does not test the organ association; delta |
+| `fibrinoid-necrosis-no-gross-appearance` · Q25 | `fibrinoid necrosis gross appearance`; `fibrinoid necrosis microscopic only`; `necrosis not visible grossly`; `fibrinoid necrosis morphology` | no same-scope; pending fibrinoid record gives microscopic H&E appearance but does not state the source's gross-absence contrast | none; delta |
+| `necrosis-patterns-enumeration` · W01 | `patterns of necrosis`; `necrosis types classification`; `coagulative liquefactive caseous fat fibrinoid`; `morphologic patterns necrosis` | pending composite `CON-FND-5285A9707E61CA`, `-88508ABAB84A67`, `-5B3B6BA12670C7`, `-6626C19B61A23B`, `-BA0739479AD0FC` | individual prior handles do not replace this umbrella enumeration; delta |
+| `cell-injury-morphologic-alterations` · W02 | `morphologic alterations cell injury`; `cell injury morphology`; `reversible irreversible injury morphology`; `cellular injury morphologic changes` | pending composite `CON-FND-2DDF56DA42A0A8` and `-8DA30AD870AC1E` | broader than prior MCQ/definition handles; delta |
+| `apoptosis-definition-and-morphology` · W03 | `apoptosis definition morphology`; `apoptotic bodies cell shrinkage chromatin`; `morphologic changes apoptosis`; `apoptosis morphology discussion` | pending composite `CON-FND-11D3CBC654E7F3` and `-46B3AD5A2D8294` | combined written scope is not a prior exact handle; delta |
+| `cell-injury-causes-enumeration` · W04 | `causes of cell injury`; `cell injury etiologies`; `hypoxia chemicals infections immune injury`; `enumerate cell injury causes` | pending `CON-FND-8989A49BEBCF14`; exact | exact F1 `causes-of-cell-injury` reuse |
+
+Exactly **5** handles are prior-BMS reuses: Q05, Q12, Q16, Q20/Q23, and W04. Therefore
+Family 73 adds `20 - 5 = 15` distinct concepts.
+
+### Family-73 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 73 | Auxiliary cumulative (Families 12–73) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 29 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Unkeyed prompt occurrences | 29 | — | — | tracked separately |
+| Retained question records | 28 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 20 / 80 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 18 / 2 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 5 | — | — | subtract before concept addition |
+| Cross-family concept delta | +15 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+15** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes without remainder: `25 MCQ + 4 written = 29` prompts; `0` printed answers
+leave `29` unkeyed occurrences; `29 - 1 exact copy = 28` retained records; source semantic
+assignment yields 20 handles; searches are `20 × 4 = 80`; external disposition is
+`0 + 18 + 2 = 20`; and concept arithmetic is `20 - 5 prior exact reuses = 15`. Auxiliary
+cumulative arithmetic is `737 + 29 = 766` prompts, `390 + 0 = 390` answers,
+`700 + 28 = 728` retained records, `634 + 20 = 654` source handles, and
+`433 + 15 = 448` concept additions. All eligible arithmetic is `765 + 766 = 1,531`,
+`405 + 390 = 795`, `552 + 728 = 1,280`, and `372 + 448 = 820`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**766 / 390 / 728 / 654 / +448**; and all eligible evidence is
+**1,531 / 795 / 1,280 / 820**. Family 73 cannot independently raise official-exam, sitting,
+year, recurrence, answer-key, mark-weight, readiness, or claims status.
+
+### Exact next debt after Family 73
+
+`src_033a3dbfd821223cffbf` is exhausted across all five pages: every visible provenance label,
+prompt, option set, part mark, key absence, exact copy, semantic collapse, handle, required search,
+external disposition, prior-BMS relation, and tier-9 eligibility limitation is assigned once,
+with **zero source remainder** and no Family-73 blocker. The next manifest-ordered unprocessed
+BMS-102 record is tier-6 `src_6ab13ff7a0d3845d7a1e` · `108 new mapoma.pdf`, SHA-256
+`6ab13ff7a0d3845d7a1e6e596487a1f18f8aa6d79191f3f4fa811967940aa051`, 12,882,031 bytes,
+five native-text landscape A3 pages under `Pathology / Notes and Summaries`. PDF metadata title
+is Arabic `اولي بشري`, author is `Basmla Adel`, creator/producer are Canva, and the first-page
+manifest snippet begins a `CELL INJURY` adaptation/mechanism summary. Its full five-page
+teaching-versus-prompt boundary, embedded marks or answer conventions, provenance, search and
+prior-BMS relationship are the exact next-source blockers; no count is admitted before complete
+visual inspection.
