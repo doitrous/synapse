@@ -5122,3 +5122,62 @@ Removing this one empty-text path and unique hash leaves **40 selected inventory
 The next bounded `05 MCQs` source is the 15-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - physiology ques 1.pdf`, SHA-256 `af3e920291b581bbc053205c0f42229a4cee595d7a1a086011b4dcaec2f19ee6`.
 
 **BLOCKED — S1 cannot be approved:** 40 selected source paths remain untriaged.
+
+## Completed source — physiology ques 1
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - physiology ques 1.pdf` | `af3e920291b581bbc053205c0f42229a4cee595d7a1a086011b4dcaec2f19ee6` | 15 | empty-text image scan | pages 1–15 rendered and read | CamScanner-authored file headed `Blood Physiology – MCQ Exam (Another Set of 50 Questions)`; it prints no institution, department, sitting, date, marks, examiner or official-key claim. The numbered MCQs and terminal `Model Answers` establish a local assessment/revision bank, not teaching exposition or an official exam. |
+
+### Exact prompt, key and teaching boundary
+
+Pages 1–14 form one continuous assessment numbered Q1–Q50. Prompts split at page breaks were counted once: page 2 completes Q4, page 5 completes Q15, page 6 completes Q19, page 7 completes Q23, page 8 completes Q27, page 11 completes Q38, page 12 completes Q42, page 13 completes Q46, and page 14 completes Q50 before beginning `Model Answers`. Page 14 prints keys Q1–Q33; page 15 continues Q34–Q50. The exact boundary is therefore **50 prompt occurrences / 50 printed keys / 50 prompt-matched recovered answers**. It is a distinct second 50-item bank, not a byte or prompt-sequence duplicate of `DOC-20251228-WA0243..pdf`; its concepts overlap extensively. No answer was inferred, corrected or supplied from another file.
+
+The printed key is: Q1–Q10 `B,C,B,C,B,B,C,C,C,C`; Q11–Q20 `C,C,C,C,B,C,B,D,B,B`; Q21–Q30 `D,C,C,C,B,C,C,B,B,C`; Q31–Q40 `C,C,C,A,C,C,C,C,C,C`; Q41–Q50 `C,D,B,C,C,B,B,C,B,C`.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 50 prompts are assigned exactly once to 20 source-first handles. Each handle received the four identifying searches shown, for **20 × 4 = 80 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1–Q3 | Total body iron, macrophage recycling and daily loss (`total body iron 3 5 grams`; `iron recycling liver spleen macrophages`; `daily iron loss adult male`; `body iron stores`) | live-hit; exact prior-FHB iron-distribution/loss duplicate. |
+| Q4–Q6 | Non-heme sources, gastric reduction and pancreatic injury from iron overload (`nonheme iron plant foods`; `gastric HCl ferric ferrous`; `iron overload pancreatic diabetes`; `hemochromatosis pancreas`) | live-hit; exact prior-FHB iron-handling/overload duplicate. |
+| Q7–Q10 | Vitamin-B12 stores/requirement, folate heat loss and copper in erythropoiesis (`vitamin B12 liver storage`; `vitamin B12 daily requirement`; `folic acid destroyed cooking`; `copper cofactor erythropoiesis`) | new externally; exact reuse of completed prior-FHB B12/folate/erythropoiesis-factor scope. |
+| Q11–Q13 | Plasma-to-serum conversion, plasma water and chief anions (`plasma serum after clotting`; `plasma water 90 percent`; `plasma chloride bicarbonate anions`; `serum lacks fibrinogen`) | pending-hit; exact prior-FHB plasma-composition duplicate. |
+| Q14–Q19 | Plasma-protein size, turnover, regeneration, buffering, immunoglobulins and viscosity (`fibrinogen highest molecular weight`; `plasma proteins dynamic state`; `labile tissue protein plasma regeneration`; `plasma protein buffer weak acid base`) | pending-hit; exact reuse of completed prior-FHB plasma-protein scope. |
+| Q20 | Physiological ESR rise in pregnancy (`pregnancy ESR increased plasma proteins`; `ESR pregnancy fibrinogen`; `physiological ESR pregnancy`; `rouleaux pregnancy ESR`) | pending-hit; exact prior-FHB ESR duplicate. |
+| Q21 | Complete osmotic haemolysis of normal erythrocytes (`complete hemolysis NaCl 0.3`; `RBC osmotic fragility saline`; `normal erythrocyte complete hemolysis`; `osmotic fragility concentration`) | pending-hit; exact prior-FHB osmotic-fragility duplicate. |
+| Q22 | Food/drug-triggered haemolysis in G6PD deficiency (`G6PD foods drugs hemolysis`; `G6PD deficiency oxidant hemolysis`; `favism red cell hemolysis`; `G6PD drug induced anemia`) | live-hit; exact prior-FHB G6PD/haemolysis duplicate. |
+| Q23, Q41–Q43 | Anaemia/polycythaemia effects on viscosity, cardiac output and cyanosis (`anemia decreased blood viscosity`; `anemia cardiac output peripheral resistance`; `primary polycythemia bone marrow`; `polycythemia cyanosis RBC mass`) | live-hit; exact prior-FHB anaemia/polycythaemia duplicate. |
+| Q24–Q30 | Fetal erythropoiesis, interleukins, maturation, reticulocytes and hormonal/hypoxic regulation (`fetal erythropoiesis liver spleen`; `interleukins committed stem cells`; `reticulocyte intracellular structures`; `thyroid hormone erythropoiesis`) | pending-hit; exact reuse of completed prior-FHB erythropoiesis scope. |
+| Q31–Q34 | Factor-X activation of prothrombin, serum factor groups, factor XIII and extrinsic speed (`factor Xa prothrombin thrombin`; `clotting factors absent serum`; `factor XIII stabilizes fibrin`; `extrinsic pathway fewer factors`) | pending-hit; exact prior-FHB coagulation-cascade duplicate. |
+| Q35–Q36 | Local anticoagulation and healthy-endothelial prostacyclin (`anticlotting limits clot injury site`; `prostacyclin healthy endothelium`; `prostacyclin antiplatelet`; `physiological anticoagulation mechanisms`) | new externally; exact prior-FHB physiological-anticoagulant duplicate. |
+| Q37–Q38 | Vitamin-K-factor deficiency and haemophilia in the coagulation phase (`vitamin K clotting factor synthesis`; `hemophilia coagulation phase`; `vitamin K deficiency bleeding`; `hemophilia primary secondary hemostasis`) | live-hit; exact prior-FHB vitamin-K/haemophilia duplicate. |
+| Q39–Q40 | Macrocytic MCV and chronic-loss microcytic anaemia (`macrocytic anemia increased MCV`; `chronic blood loss microcytic hypochromic`; `anemia red cell indices`; `MCV macrocytosis`) | live-hit; exact prior-FHB anaemia-index duplicate. |
+| Q44 | Vasoconstriction as the first haemostatic response (`first step hemostasis vasoconstriction`; `vascular spasm hemostasis`; `vessel injury vasoconstriction`; `hemostasis phases`) | pending-hit; exact prior-FHB haemostasis duplicate. |
+| Q45–Q46 | Platelet anuclear state and microtubule-maintained discoid shape (`platelets cannot divide no nuclei`; `platelet microtubules disc shape`; `platelet cytoskeleton shape`; `platelet anucleate fragments`) | new externally; exact reuse of completed prior-FHB platelet-structure scope. |
+| Q47 | ADP activation through platelet P2Y receptors (`ADP P2Y platelet aggregation`; `P2Y receptor platelets`; `ADP platelet activation receptor`; `platelet aggregation ADP`) | new externally; exact prior-FHB platelet-activation duplicate. |
+| Q48 | Thrombin activation through platelet protease-activated receptors (`thrombin protease activated receptor platelets`; `PAR receptor platelet thrombin`; `thrombin platelet activation`; `protease activated receptors`) | new externally; exact prior-FHB thrombin/platelet duplicate. |
+| Q49 | Low intracellular cAMP as a platelet-activation signal (`low cAMP platelet activation`; `platelet cAMP inhibition activation`; `intracellular cAMP platelets`; `cAMP calcium platelet`) | live-hit; exact prior-FHB platelet-signalling duplicate. |
+| Q50 | Platelet-derived growth factor in tissue repair (`PDGF tissue repair`; `platelet derived growth factor repair`; `PDGF smooth muscle fibroblast`; `platelet growth factor wound healing`) | new externally; exact prior-FHB platelet-granule/repair duplicate. |
+
+The source-level search split is **7 live / 7 pending / 6 new = 20 handles**. Every handle is exact reuse of completed prior-FHB scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+50 questions / +50 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4886 | 4579 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **39 selected inventory paths / 39 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `7eec537ff6362872cc9d1b1ea52fff3f888c56f7e2a5c78953951e5a48320807`. Pinned triage debt becomes **eight substantive-text / five sparse-text / 26 empty-text** rows, and unique-hash accounting is **`67 + 39 = 106`**.
+
+The next bounded `05 MCQs` source is the 30-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physiology (Intro+Blood) MCQs.pdf`, SHA-256 `7be6cdf15892e27f1ee76f589d41ef072a3abf8f94d89b56e11782911da28380`.
+
+**BLOCKED — S1 cannot be approved:** 39 selected source paths remain untriaged.
