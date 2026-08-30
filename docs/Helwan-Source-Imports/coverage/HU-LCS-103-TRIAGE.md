@@ -14615,3 +14615,104 @@ pages; SHA-256 `119952df5f84c766dbb3078754c6f668ef333121d6b18743c73a9b1127b50e54
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 99 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 132 — Tier-3 external Zagazig-labelled head-and-neck and lymphatic MCQ scan
+
+### Exact identity, authority and complete 42-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_119952df5f84c766dbb3` / `119952df5f84c766dbb3078754c6f668ef333121d6b18743c73a9b1127b50e54` |
+| File / boundary | `MCQs - External MCQs Mcq Head & neck الزقازيق.pdf` · 6,964,704 bytes · untagged, unencrypted PDF 1.4 · 42 physical scan pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 · manifest origin hint `Zagazig` |
+| Visible / container provenance | Pages 95–136 of an unidentified printed question collection carry `Scanned by TapScanner`. There is no visible book title, author, Helwan mark, module, cohort, exam, year or sitting, and no author/title metadata. The filename and manifest classify the source as external and identify Zagazig only as an origin hint, not as Helwan authority. |
+
+The assigned SHA-256, byte size and 42-page boundary were recomputed and match. The nominal
+native layer contains only page-break scan fragments. All 42 pages were rendered at 120 dpi,
+OCRed pagewise and visually read in four ordered contact sheets, with question transitions and
+all three answer grids checked on full-page renders.
+
+| Physical boundary | Visible source section | Raw MCQs | Printed keys | LCS-retained MCQs / keys |
+|---|---|---:|---:|---:|
+| pp. 1–16 | `Head & Neck`: scalp, face, neck triangles, cervical plexus, carotid sheath, posterior triangle, mastication and TMJ, Q1–Q64 | 64 | 0 | 64 / 0 |
+| p. 17 | complete `Answers of head and neck MCQ` grid | 0 | 64 | 0 / 64 |
+| pp. 18–27 | first `The lymphatic system` bank, Q1–Q36 | 36 | 0 | 13 / 0 |
+| p. 28 | complete answer grid for first lymphatic bank | 0 | 36 | 0 / 13 |
+| pp. 29–41 | expanded/reordered second `The lymphatic system` bank, Q1–Q40 | 40 | 0 | 13 / 0 |
+| p. 42 | complete answer grid for second lymphatic bank | 0 | 40 | 0 / 13 |
+| **Complete physical source** | **three question sequences** | **140** | **140** | **90 / 90** |
+
+The head-and-neck sequence contributes 64 in-module MCQs. Within the first lymphatic bank,
+Q1–Q4 (head/neck), Q28–Q30 (lower limb) and Q31–Q36 (palatine tonsil) retain **13**;
+within the second bank, Q1–Q5, Q33–Q35 and Q36–Q40 retain **13**. Thus the exact LCS boundary
+is **90 external MCQs / 90 printed keys / 0 written prompts / 0 unkeyed retained
+occurrences**.
+
+The remaining **50 raw MCQs / 50 printed keys** are explicitly outside LCS-103: upper-limb
+lymphatics 4, breast 13, thorax/thoracic duct 17, thymus/spleen 9, and abdominopelvic
+lymphatics/cisterna chyli 7. Arithmetic is `64 + 36 + 40 = 140` raw prompts,
+`64 + 13 + 13 = 90` retained, `4 + 13 + 17 + 9 + 7 = 50` excluded, and
+`90 + 50 = 140`. The two lymphatic banks overlap topically but are visibly separate,
+differently ordered 36- and 40-question sequences, so their retained physical occurrences are
+not collapsed into one copy. Multi-letter answer cells in the second grid remain one printed
+key occurrence each and are not split or repaired.
+
+### Practical, image and teaching boundary
+
+Every retained and excluded prompt is prose-only. Clinical scenarios remain written MCQs.
+The source contains no anatomical figure, specimen, radiograph, micrograph, clinical image,
+masked label, response blank, apparatus task or learner-completed map. The three answer grids
+are assessment evidence, not practical plates. The source adds **0 practical prompts / 0
+teaching plates / 0 mappings / 0 practical residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first handles, exact searches and prior-external reconciliation
+
+The 90 retained occurrences collapse to **12 source-distinct tested handles**: scalp layers,
+vessels and danger area; facial-expression muscles and facial nerve; supra/infrahyoid muscles;
+cervical plexus and ansa cervicalis; anterior neck triangles and submandibular region; carotid
+triangle/sheath and neurovascular contents; posterior triangle; sternocleidomastoid and
+torticollis; infratemporal fossa and muscles of mastication; temporomandibular joint and
+mandibular movement; head/neck lymphatics and palatine tonsil; and lower-limb superficial
+lymphatics. Repeated clinical wording and the second lymphatic sequence reuse these handles.
+
+Each accepted handle received one fresh search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **12 × 4 = 48 required search invocations**.
+Prior-external-first comparison finds every handle already represented across Families 78,
+86, 90, 92, 103, 105–126 and 130. Accepted Anatomy sources corroborate scope but cannot
+promote this external scan into eligible Helwan evidence. Reconciliation is **12
+prior-external reuses + 0 external additions = 12**; eligible and external concept-state
+deltas are zero. Exact query and result ledgers are preserved at
+`tmp/pdfs/lcs103-family132/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family132/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **5,683 / 5,417 / 221 = 12 / 135 / 74** to **5,773 external prompts / 5,507
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `5,683 + 90 = 5,773`, `5,417 + 90 = 5,507`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. The 50 excluded prompts and keys do not enter LCS cumulative
+assessment.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical
+delta from this source is zero.
+
+This source hash occurs once in the Family-131 remainder. Removing its sole path leaves **98
+all-rank path instances / 93 unique hashes**: tier 3 **16 paths / 16 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 131's prior checksums are
+`0db1dc5fdfda80c3834b0cf9181e59140f07b6b2b93beb6c11fdf619b7570d69` (paths) and
+`67395d2f8a78b095b8057570c387156f67684fcb0f3e6df7db254cc6a09cfea8` (unique hashes).
+For the exact post-Family-132 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`cc0565c42bf235a5ab78375423251d3e936b9afcd3234fe4f9bb592cad6e95ab`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`377b33510fb92109cce1d1deacc9c558829e2de2feee2eaf8a4a9cf2bc3a2962`.
+
+The exact next tier-3 manifest-order debt is `src_ec63afba7bdca0712f1a`,
+`MCQs - External MCQs lower limb elbadry.pdf` (1,930,436 bytes; 19 physical pages;
+SHA-256 `ec63afba7bdca0712f1a6fd902de64e296cfde44c2617fe65c6e5323c6bef070`).
+It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 98 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
