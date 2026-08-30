@@ -18370,3 +18370,88 @@ SHA-256 `9d41f1584e849028c6191df0034ac4944f1de13ce99ff28ea0e43609e1c9ee13`, **4,
 102 OCR-needed portrait pages under `Pathology / Questions / MCQs`. Its explicit Kasr-Alainy/Cairo
 provenance, external/reference-only eligibility, exact variant relation, zero-count gate, and
 subsequent next-source debt require their separate manifest-order reconciliation.
+
+## Family 174 — Cairo University/Kasr pathology bank external-authority reconciliation
+
+### Source identity, full rendered/OCR boundary, provenance, and variant relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_9d41f1584e849028c619` · `MCQs - PATHO MCQ القصر.pdf` under the Helwan `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `9d41f1584e849028c6191df0034ac4944f1de13ce99ff28ea0e43609e1c9ee13` · **4,478,480 bytes** |
+| Format / complete visual boundary | **102 portrait raster pages** at 612×866.602 pt. All 102 pages were rendered at 120 dpi into 102 non-empty 1020×1445 images and reviewed page by page, including every question page, embedded image/diagram, divider, blank separator, and answer sheet. |
+| OCR/native-text reality | Native layout/raw extraction contains **0 words / 102 form-feed bytes** each: the carrier has no usable text layer. OCR was completed for all 102 rendered pages and produced **17,063 words / 107,340 bytes**. OCR corroborates the visible pagination, section numbering, prompt formats, and answer tables; the rendered pages remain controlling. |
+| Visible authority | Page 1 visibly states `MCQ PATHOLOGY (PART I) (YEAR ONE)` and names `DR. SHAIMAA ABDEL SALAM` and `DR. RANDA SAID TAHA` as `Lecturers Of Pathology Cairo University`. Page 2 repeats both names and prints Egyptian copyright-deposit number `17400`. This is affirmative Cairo University authorship, not ambiguous folder placement. |
+| Manifest/filename corroboration | The manifest records `originUniversityHint: ["Kasr Alainy"]`, while the local filename contains `القصر`. Both independently agree with the visible Cairo University cover. No Helwan university, faculty, instructor, module, or administration marker is visible anywhere in the carrier. |
+| Metadata caution | iOS 14.5 Quartz production, 21 April 2021 creation time, and 5 April 2025 modification time are carrier metadata only. They do not establish an exam sitting or change the visible university authority. |
+| External-library variant | The separately stored Kasr carrier `1. Kasr Alainy Books/5. Pathology/MCQs/PATHO MCQ .pdf` is also 102 pages but has SHA `c8b7322fc32bddf5bd2d4d8f72d70dabf7d6afb30ceeefcf606338d82f2c1efb` and size **6,263,958 bytes**. At the same 120-dpi render, **101/102 page PNGs are byte-identical**; the sole non-byte-identical render, source page 7, is visually indistinguishable at inspected detail. This proves the same external bank/source variant without falsely calling the PDFs byte-identical. |
+| Eligibility | **External/reference-only** under the standing university-authority rule. Another university's question bank and answer sheets cannot be counted as Helwan BMS-102 assessment evidence merely because one copy sits in a Helwan folder. |
+
+### Exhaustive page, section, prompt-format, and answer boundary
+
+The 102-page checksum is **61 question-bearing pages + 16 answer-sheet pages + 25 structural
+pages = 102**. Structural pages comprise the cover and dedication/copyright page, topic divider
+pages, blank separator pages, and the `Answer Sheets` divider/blank pair.
+
+The question layer contains **473 numbered source units** across nine sections: **86** cell
+injury/accumulations/depositions, **76** inflammation, **34** repair, **77** neoplasia, **79**
+infections, **60** circulatory disturbances, **16** environmental pathology, **20**
+hematopoietic/lymphoid, and **25** bone/joints. Thus `86 + 76 + 34 + 77 + 79 + 60 + 16 + 20 +
+25 = 473`. These are numbered bank units, not admitted Helwan raw-prompt counts: many units contain
+multiple suboperations.
+
+The visible formats include MCQ, T/F, fill-in, definition, enumeration, explanation, short written
+response, matching and comparison tables, case vignettes, and image/diagram identification or
+labelling. Image-bearing items remain bank questions rather than authenticated practical stations:
+the source supplies no OSPE station label, timing, marks, candidate field, physical-specimen
+instruction, or Helwan administration evidence.
+
+Page 85 is the `Answer Sheets` divider, page 86 is blank, and pages **87–102** supply sectioned
+answers for all nine topic groups. Those tables contain both letter/True-False entries and written
+`See below` explanations. They are source-supplied external-bank answers, not Helwan keys. No
+student response layer, sitting date, marks allocation, recurrence statement, or Helwan answer
+authority is present.
+
+### External-authority zero-handle, zero-search, and prior-dedupe gate
+
+University authority is an eligibility precondition. Because the carrier is affirmatively Cairo
+University/Kasr evidence, **0 numbered units are accepted as Helwan prompt records, 0 answers are
+accepted as Helwan key occurrences, 0 retained records survive, and 0 handles are admitted**.
+Prompt-by-prompt semantic collapse or prior-BMS recurrence credit would misattribute an external
+bank to Helwan and is therefore not performed.
+
+The standing search rule is satisfied by the zero gate: **`0 accepted new handles × 4 = 0 required
+and completed searches`**. Prior-BMS reuse and concept delta are both **0 Family-174 additions**.
+The full visual/OCR inventory and external-library comparison remain provenance evidence only.
+
+### Family-174 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted external source boundary | Family 174 eligible addition | Auxiliary cumulative (Families 12–174) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Numbered external-bank units | 473 | 0 prompts | 2,118 | 762 | 2,880 |
+| External source answer layer | pages 87–102 | 0 answers | 1,486 | 405 | 1,891 |
+| Eligible retained question records | external bank | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-174 eligible arithmetic is independently zero: `0 prompts + 0 answers + 0 retained + 0
+handles + 0 concepts`. Corrected primary remains **762 / 405 / 552 / 372**; auxiliary remains
+**2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles / +906 concepts**; and corrected
+all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 174 establishes no Helwan question occurrence, key, tested concept, sitting, recurrence,
+mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 174
+
+`src_9d41f1584e849028c619` is exhausted across all 102 pages: every question-bearing page,
+structural page, answer sheet, section, numbered unit, prompt format, image/diagram, visible and
+metadata provenance field, external-library variant relation, eligibility zero, and cumulative
+term is assigned once, with **zero remainder** and no Family-174 blocker. The exact next manifest
+record is tier-3 non-preferred name twin `src_c38d862b8115f8d408de` · `MCQs - Patho MCQ [108].pdf`,
+SHA-256 `c38d862b8115f8d408de460c5b2445f6b1f8bab7f610c3a680b22b1c42118ebb`, **6,038,111 bytes**,
+15 OCR-needed portrait pages under `Pathology / Questions / MCQs`. Its manifest also carries the
+Kasr-Alainy origin hint; its visible provenance, relation to preferred twin
+`src_0421fef5b554718d05bf`, external eligibility, full prompt/answer boundary, zero/search gate,
+arithmetic, and subsequent next-source debt remain to be separately reconciled.
