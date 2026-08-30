@@ -21887,3 +21887,75 @@ bacterial-enzyme deconjugation, prolonged action, and a broad-spectrum-antibioti
 filename timestamp is not an authenticated teaching or assessment date. Its heading-versus-map
 semantics, provenance, teaching/prompt/answer/annotation boundary, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 212 — completed breakthrough-pregnancy enterohepatic-recycling teaching map
+
+### Source identity, complete full-resolution boundary, provenance, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_4376fa002af8022dd501` · `2026-07-20 06.26.41.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `4376fa002af8022dd50150d6e1c100a7ed57ab7f2336bb231d44bd7679d2a49a` · **155,117 bytes** |
+| Format / complete read | **One 1280×1033 landscape progressive JPEG**, JFIF 1.01 at 851 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, watermark, or second page exists. |
+| Complete visible content | The handwritten headline is `Break through Pregnancy`. A completed bilingual anatomy/flow map links contraceptive pills to hepatic conjugation, bile and `C.B.D`, intestinal bacterial enzymes/deconjugation, reabsorption through the portal vein, and return to liver, with `prolonged Action` noted. A terminal broad-spectrum-antibiotic note explains loss of intestinal bacteria and altered stool/drug handling as the pathway underlying the headline. |
+| Heading-versus-map ruling | The headline names the clinical outcome illustrated by the completed mechanism; it is not a question or instruction. The anatomy and arrows form an enterohepatic-recycling explanation, not an unanswered case vignette or learner task. |
+| Visible/metadata provenance | No author, university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement only, while the filename timestamp remains a sequence aid rather than an authenticated teaching date or sitting. |
+| Sequence relation | This image follows the distribution/state teaching run and precedes a first-order versus zero-order elimination comparison. Adjacency supports reading order only and does not establish common authorship, sitting, or assessment recurrence. |
+| Authority | Low-authority bilingual handwritten teaching map. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+Every organ label, drug/bile branch, conjugation/deconjugation step, bacterial-enzyme relation,
+portal-vein arrow, prolonged-action result, antibiotic modifier, and Arabic gloss is already filled.
+Stars, arrows, underlining, and colour changes organize the teaching. No imperative, interrogative,
+blank, option set, response area, mark allocation, delayed key, unlabeled specimen, requested
+identification, or candidate answer is visible. The handwriting is the substantive source layer,
+not response annotation.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Drug interaction, duration, and elimination concepts overlap
+Family 202, but completed declarative overlap is not a tested-proposition recurrence, so no prior-
+BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 212 | Auxiliary cumulative (Families 12–212) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 212
+establishes completed breakthrough-pregnancy/enterohepatic-recycling teaching and manifest-sequence
+evidence only, not assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 212
+
+`src_4376fa002af8022dd501` is exhausted at full image resolution: every visible headline, anatomy
+label, conjugation/deconjugation step, bile/portal path, bacterial/drug modifier, English and Arabic
+note, arrow, emphasis mark, provenance limitation, timestamp caution, heading ruling, zero gate,
+and arithmetic term is assigned once, with **zero source remainder** and no Family-212 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_1f624c12c3651fc34bf6` ·
+`2026-07-20 06.26.48.jpg`, SHA-256
+`1f624c12c3651fc34bf61abb30d699a48bbb69f006cd6197145a262f011e3b63`, **103,710 bytes**,
+**1280×904 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed bilingual handwritten `Elimination` comparison: first-order elimination
+uses a constant ratio, is non-saturable, has constant half-life and uncommon accumulation, while
+zero-order elimination uses a constant amount, is saturable, has non-constant half-life and common
+accumulation, with corresponding curves; it carries a vertical CamScanner watermark. The filename
+timestamp is not an authenticated teaching or assessment date. Its provenance, teaching/prompt/
+answer/annotation boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
