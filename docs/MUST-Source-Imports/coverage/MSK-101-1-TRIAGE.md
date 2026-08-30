@@ -745,10 +745,47 @@ The source is now `sourceProcessed=true`. Its completed delta is **+54 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — histoooooo revised
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - histoooooo revised.pdf` | `14017cf209e94c9c5e431552ec4e934e42634c26a42e2bbbe9793736279e3f9f` | 29 | substantive-text audit sample | pages 1–29 rendered and read | Student compilation titled `histoooooo`, authored in PDF metadata by Abdulrahman Khalaf and branded `HISTOLOGY MCQs BY: ABOLMAGD`; created/modified 19 June 2024. The cover calls these “the most common MCQ questions” and warns not to study from them alone. It supplies no institution, department, examiner, sitting, marks or official-key claim. Year labels are compiler headings, not independently authenticated exam provenance. |
+
+### Exact assessment, answer, written, practical, image and source-defect boundary
+
+Pages 1–2 are cover and index only. Pages 3–5 contain 16 MCQs labelled `196 - END OF MODULE`; pages 6–8 contain 16 MCQs labelled `195 - END OF MODULE`; pages 9–12 contain 22 MCQs labelled `195 - WRITTEN`; pages 13–15 contain 22 MCQs labelled `195 - WRITTEN SUMMER`; page 16 contains six `2020 MCQ EXAM` prompts; pages 17–20 contain 23 `2019 MCQ EXAM` prompts; pages 21–24 contain 25 prompts labelled `(2014 - 2016 - 2017 - 2018) MCQ EXAMS`; page 25 contains five `2015 MCQ EXAM` prompts; pages 26–27 contain eight `2012 MCQ EXAM` prompts; and pages 28–29 contain ten `2011 MCQ EXAM` prompts. Both `WRITTEN` sections are four-option MCQ banks, not free-response writing. The cover's `HISTOLOGY PRACTICAL` graphic introduces no practical or image-identification prompt.
+
+The exact assessment boundary is **153 MCQ prompt occurrences / 151 reliable highlighted answer observations / 2 source-unkeyed answers**. There are **0 written-response prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-page prompts**. Source defects are preserved without correction: the `(2014–2018)` sequence jumps from label 24 to 26; its Q26 includes malformed option label `2c.`; the 2014–2018 muscle-spindle Q6 carries an ambiguous blue cross/check rather than a reliable selection; and the repeated 2015 muscle-spindle Q5 is crossed out without a selected answer. Those two crossed muscle-spindle prompts remain counted as prompts but not as answers. Other red-highlighted selections are source observations only; apparent wording or medical-key conflicts were not silently repaired.
+
+### Source-first handles, exact searches and prior-MSK collapse
+
+All 153 occurrences were assigned once across six handles, reconciling as **33 + 49 + 29 + 19 + 11 + 12 = 153**. Exactly four repository searches were run for each handle (**24 searches total**):
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 33, cartilage cells, matrix, types, growth and perichondrium (`cartilage chondroblast chondrocyte perichondrium growth`; `hyaline elastic fibrocartilage collagen type I II`; `cartilage lacunae isogenous groups appositional interstitial`; `intervertebral disc perichondrium epiphyseal cartilage`) | no live/pending hit; same cartilage-cell, matrix, type, growth and site scope as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H2 | 49, bone cells, matrix, osteons, lamellae, resorption and ossification (`bone osteoblast osteocyte osteoclast Howship lacuna`; `Haversian Volkmann canal osteon bone lamellae`; `spongy compact bone trabeculae marrow cavities`; `epiphyseal plate ossification osteogenic bone matrix`) | no live/pending hit; same bone-cell, matrix, osteonal, remodelling and ossification scope as completed MSK bone assignments — **prior-MSK collapse**. |
+| H3 | 29, skeletal-muscle ultrastructure, coverings, fibres, spindle and repair (`skeletal muscle sarcomere A I H Z line`; `skeletal muscle epimysium perimysium endomysium`; `skeletal muscle triad T tubule satellite regeneration`; `red white skeletal muscle fibers myoglobin glycogen`) | no live/pending hit; same skeletal-muscle morphology, fibre-type, spindle and regeneration scope as completed MSK muscle assignments — **prior-MSK collapse**. |
+| H4 | 19, cardiac muscle, intercalated discs, Purkinje fibres and injury (`cardiac muscle intercalated disc gap junction`; `Purkinje fibers myofibrils glycogen conduction`; `cardiac muscle atrial granules sodium water`; `myocardial infarction fibrous connective tissue regeneration`) | no live/pending hit; same cardiac/Purkinje, junctional and repair scope as completed MSK muscle assignments — **prior-MSK collapse**. |
+| H5 | 11, smooth-muscle morphology, caveolae, contraction and repair (`smooth muscle caveolae no T tubules`; `smooth muscle spindle nonstriated gap junction`; `smooth muscle hypertrophy hyperplasia regeneration`; `smooth muscle corkscrew nucleus contraction`) | no live/pending hit; same smooth-muscle structure, excitation and repair scope as completed MSK muscle assignments — **prior-MSK collapse**. |
+| H6 | 12, epidermal cells/layers, dermis and skin glands (`skin stratum basale Langerhans Birbeck granules`; `thick skin sweat glands sebaceous holocrine`; `dermis papillary reticular Meissner vascular`; `apocrine sweat gland hair follicle puberty`) | no live/pending hit; same epidermal, dermal and glandular scope as completed MSK skin assignments — **prior-MSK collapse**. |
+
+Source-level disposition is **0 live / 0 pending / 6 pre-prior candidates**, all six collapsing to prior MSK coverage. The post-prior concept delta is therefore **0**. The file is not byte-identical to a processed source and its historical-bank arrangement is distinct, so the 153 prompt and 151 reliable answer observations are counted once.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+153 questions / +151 answers / +0 post-prior concepts**. Cumulative arithmetic is **1462 + 153 = 1615 questions**, **1392 + 151 = 1543 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1615 | 1543 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-two processed paths and unique hashes leaves **81 selected inventory paths / 79 unique SHA-256s**. Their sorted, newline-joined hash checksum is `1c148b138b33fa67bf4a2ae40127f1b3a47b0246c24ad6b7d285b51f138651bb`. Remaining audit-review debt is 42 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`22 + 79 = 101`**.
+Removing these twenty-three processed paths and unique hashes leaves **80 selected inventory paths / 78 unique SHA-256s**. Their sorted, newline-joined hash checksum is `7a8ed01cfc3975d9694056feb8c7e701e14b05b71a670345355515bf7d1e8411`. Remaining audit-review debt is 41 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`23 + 78 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - histoooooo revised.pdf`, SHA-256 `14017cf209e94c9c5e431552ec4e934e42634c26a42e2bbbe9793736279e3f9f`, 29 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - skeletal pdf.pdf`, SHA-256 `b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7`, 18 pages.
 
-**BLOCKED — S1 cannot be approved:** 81 selected inventory paths / 79 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 80 selected inventory paths / 78 unique hashes remain untriaged.
