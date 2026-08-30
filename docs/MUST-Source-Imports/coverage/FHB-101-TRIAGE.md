@@ -5390,3 +5390,55 @@ Removing this one substantive-text path and unique hash leaves **36 selected inv
 The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Basis MCQ by Dr.Jalal.pdf`, SHA-256 `2c9ba7d2333e672e7ecca19f595c3e77c6df40c01d02f23f9acdbe947dc1ba3d`, 13 pages.
 
 **BLOCKED — S1 cannot be approved:** 36 selected source paths remain untriaged.
+
+## Completed source — Basis MCQ by Dr.Jalal
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Basis MCQ by Dr.Jalal.pdf` | `2c9ba7d2333e672e7ecca19f595c3e77c6df40c01d02f23f9acdbe947dc1ba3d` | 13 | empty-text image scan | pages 1–13 rendered and read | iOS 15.7 Quartz-produced scan titled `Basis of Human Anatomy`; the filename attributes Dr. Jalal, but the pages print no author, institution, department, sitting, date, marks or official-exam claim. It is an instructor-attributed local revision bank, not an official MUST examination. |
+
+### Exact prompt, key and teaching boundary
+
+Pages 1–9 contain a continuous **56-item single-best-answer MCQ bank**. Page 10 prints a complete `MODEL ANSWERS` table for Q1–Q56. Pages 11–12 then contain a separately numbered **29-item fill-in-the-blanks written bank**, and page 13 prints its complete 29-entry `MODEL ANSWERS` list. The exact source boundary is therefore **85 prompt occurrences / 85 printed keys / 85 prompt-matched recovered answers** (`56 MCQ + 29 written`). There is no practical-image identification and no teaching-only passage. Handwritten crosses beside several prompts are reader annotations and were not treated as answer evidence. No answer was inferred, corrected or supplied from another source.
+
+The printed MCQ key is Q1–Q10 `B,C,A,B,A,D,B,A,A,D`; Q11–Q20 `B,C,B,D,C,B,A,D,A,D`; Q21–Q30 `B,C,C,D,D,A,B,B,C,C`; Q31–Q40 `D,A,D,A,B,D,D,C,B,C`; Q41–Q50 `A,B,A,D,C,A,B,C,D,D`; Q51–Q56 `A,C,D,C,B,C`. The written model answers are numbered 1–29 and cover anatomical position/planes/directional and movement terms, superficial/deep-fascia examples, long-bone/cartilage terms and synovial-joint examples; all 29 link unambiguously to the preceding fill-in prompts.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 85 prompts are assigned exactly once to the 13 source-first handles below. Each handle received the four identifying searches shown, for **13 × 4 = 52 searches**. The written prompts are co-assigned with their matching MCQ scope rather than being double-counted as concepts.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| MCQ Q1–Q6,Q51–Q52; Written Q1–Q7 | Anatomical position, planes and directional terms (`anatomical position`; `median plane divides body`; `coronal plane perpendicular`; `medial lateral directional`) | live-hit; exact prior-FHB general-anatomy terminology reuse. |
+| Written Q8–Q15 | Flexion/extension, adduction/abduction, supination/pronation and inversion/eversion (`flexion extension movement`; `adduction abduction`; `supination pronation`; `inversion eversion`) | pending-hit; exact prior-FHB movement-terminology reuse. |
+| MCQ Q7–Q12,Q53–Q54; Written Q16–Q21 | Skin layers and superficial/deep-fascia specialisations (`epidermis stratified squamous`; `dermis collagen fibres`; `deep fascia intermuscular septa`; `retinacula tendons position`) | new externally; exact prior-FHB integument/fascia reuse. |
+| MCQ Q13–Q15,Q56; Written Q22 | Hyaline, elastic and fibrocartilage sites (`hyaline cartilage articular surface`; `elastic cartilage auricle`; `fibrocartilage intervertebral disc`; `cartilage tip nose`) | new externally; exact prior-FHB cartilage-type/site reuse. |
+| MCQ Q16–Q21,Q55 | Appendicular skeleton, ossification and long-bone parts/growth (`appendicular skeleton bones limbs`; `intramembranous ossification clavicle`; `diaphysis medullary cavity`; `epiphyseal plate length growth`) | pending-hit; exact prior-FHB skeletal-system/long-bone reuse. |
+| MCQ Q22–Q25; Written Q23–Q25 | Flat, pneumatic and sesamoid bone classification (`flat bone scapula ribs`; `pneumatic bone paranasal sinus`; `sesamoid bone patella`; `bone classification anatomy`) | new externally; exact prior-FHB expanded bone-shape reuse. |
+| MCQ Q26–Q29 | Fibrous and primary/secondary cartilaginous joints (`gomphosis tooth socket`; `skull sutures fibrous joint`; `primary cartilaginous epiphyseal plate`; `secondary cartilaginous intervertebral disc`) | pending-hit; exact prior-FHB joint-classification reuse. |
+| MCQ Q30–Q36; Written Q26–Q29 | Uniaxial, biaxial, polyaxial and plane synovial joints (`uniaxial elbow joint`; `biaxial wrist knee joint`; `polyaxial shoulder hip joint`; `plane synovial facet joint`) | pending-hit; exact prior-FHB synovial-joint reuse. |
+| MCQ Q37–Q38 | Skeletal and smooth muscle location/control (`skeletal muscle attached bones`; `smooth muscle blood vessel wall`; `cardiac muscle involuntary`; `muscle tissue types`) | new externally; exact prior-FHB muscle-type reuse. |
+| MCQ Q39–Q42 | Strap, intersected strap, multipennate and bipennate architecture (`sartorius strap muscle`; `rectus abdominis tendinous intersections`; `deltoid multipennate`; `rectus femoris bipennate`) | new externally; exact prior-FHB muscle-architecture reuse. |
+| MCQ Q43–Q44 | Right-atrial inflow and systemic circulation (`right atrium vena cava`; `systemic circulation aorta tissues`; `oxygenated blood systemic circulation`; `systemic circulation right ventricle`) | new externally; exact prior-FHB circulation reuse. |
+| MCQ Q45–Q46 | Pulmonary and hepatic-portal circulation (`pulmonary veins left atrium oxygenated`; `portal vein digestive system liver`; `hepatic portal circulation`; `pulmonary circulation right ventricle`) | new externally; exact prior-FHB circulation reuse. |
+| MCQ Q47–Q50 | Thoracic/right lymphatic ducts, brainstem components and spinal-cord segment count (`right lymphatic duct upper limb`; `thoracic duct right lower limb`; `brainstem midbrain pons medulla`; `spinal cord segments 31`) | pending-hit; exact prior-FHB lymphatic/CNS reuse. |
+
+The source-level search split is **1 live / 5 pending / 7 new = 13 handles**. All 13 reproduce completed prior-FHB assignments, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+85 questions / +85 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 5675 | 5367 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **35 selected inventory paths / 35 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `6374ce16c0c6f26e98094a24b485f6e3b43f5128619f6d5afe3cdda1899ee11f`. Pinned triage debt becomes **seven substantive-text / five sparse-text / 23 empty-text** rows, and unique-hash accounting is **`71 + 35 = 106`**.
+
+The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histo MCQ by Dr.Zahra [Cytology].pdf`, SHA-256 `6846577508f49244d715afb12267b8b6db92ef5d9140be391919a040d2ba70de`, 27 pages.
+
+**BLOCKED — S1 cannot be approved:** 35 selected source paths remain untriaged.
