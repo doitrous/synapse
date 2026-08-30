@@ -10761,3 +10761,87 @@ the SHA-matching local file is the normalized `Pathology / Theoretical / Infecti
 (5,800,694 bytes, 791×593.25 points). Its visible Helwan/Dr Enas Megahed Elhosary provenance,
 placement mismatch, complete teaching-versus-prompt/key boundary, and any dedupe/search ledger are
 the exact next-source blockers.
+
+## Family 99 — Infection annotated Helwan teaching deck
+
+### Source identity, SHA-resolved placement mismatch, render boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_aa988f58bda294baa828` · manifest `Infection Lecture.pdf.pdf` |
+| SHA-256 / size | `aa988f58bda294baa8281998dafba0c7cde5466e2edda93dda7e9ba608704f5e` · 5,800,694 bytes |
+| Manifest/local placement mismatch | Manifest records `Pathology / Notes and Summaries / Infection Lecture.pdf.pdf`, but that absolute path is absent. The unique SHA-matching local carrier is normalized `Pathology / Theoretical / Infection Lecture.pdf`; identity is anchored to the hash, not guessed from the similar name. |
+| Format / complete render boundary | 48 native-text landscape 791×593.25-point pages; all 48 rendered at 150 dpi into non-empty 1648×1236-pixel images and visually read at original detail |
+| Native layer | 928 words / 8,419 bytes extracted across the complete PDF. Image-only histology/gross plates and extensive handwritten annotations require the renders for the complete boundary. |
+| Visible provenance | The cover visibly states `Infection`, `Dr/ Enas Megahed Elhosary`, `Lecturer of Pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes visible Helwan/instructor attribution, but no module code, academic year, teaching date, or assessment sitting is printed. |
+| Metadata caution | Quartz metadata names only `iOS Version 18.3.2 (Build 22D82)` as producer and April 23, 2025 creation/modification timestamps. Those are file-production fields, not proof of lecture delivery date, academic year, or sitting. |
+| Authority | Tier-6 annotated pathology lecture material. It is not an exam, written exercise, practical station, response sheet, or official answer source. |
+
+### Complete page-first teaching, annotation, prompt/key, written, practical, and callout inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Lecture cover and Helwan/instructor identity | provenance only |
+| 2–6 | Infection definition, exogenous/endogenous sources, modes, bacterial effects, and blood-invasion branches | completed teaching definitions, lists, and diagrams with explanatory handwriting; **0 / 0** |
+| 7–16 | Bacteremia, toxemia, septicemia, and pyemia definitions, features, comparison, fate, embolic sequence, and chronic-infection split | completed teaching text/diagrams and annotations; no candidate task; **0 / 0** |
+| 17–25 | Tuberculosis definition/risk factors, HIV callout, human/bovine transmission, Ziehl-Neelsen plates, organism morphology/composition, first-three-week spread, and macrophage–lymphocyte response | completed teaching and annotated image/diagram labels. Page 22's handwritten `why imp?` beside tuberculoprotein is immediately resolved by `for tuberculin test` in the same completed composition diagram; rhetorical teaching transition, **not** an assessment prompt or answer-key entry |
+| 26–34 | Proliferative versus exudative tissue reactions, tubercle and Langhans-cell plates, caseation, exudative features, fate, and splenic TB images | declarative teaching, completed histology/gross labels, and emphasis annotations; no image-identification request |
+| 35–38 | Clinical picture/diagnosis, tuberculin-test image and threshold annotation, systemic distribution, and cellular-versus-exudative reaction comparison | completed teaching. Page 35's parenthetical `what's under microscope` merely glosses biopsy, with no response frame; **0 / 0** |
+| 39–44 | Primary-versus-secondary TB, entry-site mappings, primary/Ghon complex, reactivation/reinfection, and complications | completed comparison, diagrams, and teaching callouts; no blank or written prompt |
+| 45 | Syphilis definition, bloodstream route, endarteritis/perivascular reaction, granulation tissue, fibrosis, and necrosis | declarative teaching with handwritten gloss |
+| 46 | Actinomycosis definition, gross sulphur-granule pattern, and microscopic components | declarative teaching and emphasis annotations |
+| 47 | Schistosomiasis definition, hypersensitivity, and cellular/fibrocellular/fibrous granuloma patterns | declarative teaching |
+| 48 | `Thank you` closing image | non-assessment closing residue |
+
+Highlights, circles, arrows, underlines, color changes, handwritten examples, `imp`/`very imp`
+labels, and completed image labels mark teaching emphasis or explanation; they do not encode
+answer correctness. Page 22's question-like annotation is governed by the same completed
+rhetorical-callout rule used for Family 90: it occurs inside supplied teaching material, is
+answered in place, and offers no candidate-response space. No exam heading, numbered question
+set, candidate instruction, option set, unanswered blank, written exercise, practical/image-
+identification request, student response, mark allocation, or separate key occurs anywhere in the
+48 pages.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+The deck thematically overlaps prior BMS-102 infection, bacteremia/septicemia, embolic spread,
+granulomatous inflammation, and tuberculosis teaching, but declarative overlap does not create a
+tested handle. With no accepted handle, the source-first gate is exactly **0 handles × 4 = 0
+required searches**; no external-disposition or prior-handle row is fabricated.
+
+| Measure | Family 99 | Auxiliary cumulative (Families 12–99) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 864 | 765 | 1,629 |
+| Printed/handwritten teaching-answer occurrences | 0 | 482 | 405 | 887 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 805 | 552 | 1,357 |
+| Source-distinct tested handles / required searches | 0 / 0 | 729 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**864 / 482 / 805 / 729 / +499**; and all eligible evidence remains
+**1,629 / 887 / 1,357 / 871**. Family 99 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status.
+
+### Exact next debt after Family 99
+
+`src_aa988f58bda294baa828` is exhausted across all 48 pages: every provenance field, placement
+conflict, teaching slide, image plate, handwritten annotation, rhetorical callout, and zero-gate
+arithmetic term is assigned once, with **zero source remainder** and no Family-99 blocker. The exact
+next manifest record is tier-6 `src_b456676b291ae592fc48` · `Inflammation (1).pdf`, SHA-256
+`b456676b291ae592fc483ac19c9f933442c5b27af5c190a16de4043914e1674d`, 127,749 bytes, one
+native-text portrait A4 page under `Pathology / Notes and Summaries`. The manifest marks it
+non-preferred, near-duplicate of `src_214e45dfde3d765f38de` and
+`src_cd8dba9d1707e2b8f18a`, and name-twin of `src_50a7db1e5d21f2bd18c9`; its complete bilingual
+teaching/prompt boundary, provenance, exact visual reuse, and twin/near-duplicate adjudication are
+the exact next-source blockers.
