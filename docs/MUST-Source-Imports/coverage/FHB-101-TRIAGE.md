@@ -5181,3 +5181,76 @@ Removing this one empty-text path and unique hash leaves **39 selected inventory
 The next bounded `05 MCQs` source is the 30-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physiology (Intro+Blood) MCQs.pdf`, SHA-256 `7be6cdf15892e27f1ee76f589d41ef072a3abf8f94d89b56e11782911da28380`.
 
 **BLOCKED — S1 cannot be approved:** 39 selected source paths remain untriaged.
+
+## Completed source — Physiology (Intro+Blood) MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physiology (Intro+Blood) MCQs.pdf` | `7be6cdf15892e27f1ee76f589d41ef072a3abf8f94d89b56e11782911da28380` | 30 | empty-text image scan | pages 1–30 rendered and read | iLovePDF-produced scan of two numbered review-bank sections, `Introduction` and `BLOOD`; it prints no institution, department, sitting, date, marks, examiner or official-key claim. The continuous MCQ runs and two terminal `Key Answers of MCQ` tables establish a local assessment/revision bank, not teaching exposition or an official examination. |
+
+### Exact prompt, key and teaching boundary
+
+Pages 1–5 contain the complete `Introduction` assessment, Q1–Q23. Page 6 starts a separately numbered `BLOOD` assessment; pages 6–28 contain Q1–Q114, with Q101–Q106 on page 26, Q107–Q111 on page 27 and Q112–Q114 on page 28. Page 29 is the complete 23-entry Introduction key. Page 30 is the Blood key: it prints Q1–Q26 and Q28–Q114 but **omits Q27**. The exact source boundary is therefore **137 prompt occurrences / 136 printed keys / 136 prompt-matched recovered answers**. No teaching-only passage occurs, and no answer was inferred, corrected or supplied for Blood Q27.
+
+The printed Introduction key is Q1–Q10 `A,D,A,A,B,B,C,D,B,B`; Q11–Q20 `D,C,C,D,D,B,B,A,D,D`; Q21–Q23 `B,A,B`. The printed Blood key is Q1–Q10 `A,A,A,C,D,C,C,C,B,D`; Q11–Q20 `D,C,D,B,D,A,A,B,B,D`; Q21–Q26 `D,C,D,A,D,B`; Q27 **not printed**; Q28–Q40 `D,A,B,D,B,A,A,C,C,B,D,B,B`; Q41–Q50 `B,C,B,D,B,A,C,C,B,C`; Q51–Q60 `A,D,B,B,D,B,A,C,C,D`; Q61–Q70 `B,B,D,B,A,A,C,A,C,D`; Q71–Q80 `B,A,A,B,B,D,A,B,B,C`; Q81–Q90 `D,D,D,A,B,D,C,A,D,B`; Q91–Q100 `D,B,D,C,D,D,D,D,D,C`; Q101–Q110 `D,A,C,B,A,D,D,A,D,C`; Q111–Q114 `B,D,D,B`.
+
+This file is neither a byte duplicate nor a prompt-sequence duplicate of the two recently completed 50-item Blood banks. Fourteen exact within-source repeats were collapsed rather than counted twice as concepts: Blood Q10/Q55, Q14/Q62, Q15/Q63, Q16/Q68, Q17/Q73, Q18/Q79, Q23/Q82, Q24/Q84, Q25/Q86, Q26/Q92, Q30/Q111, Q31/Q109, Q34/Q57 and Q35/Q59. Its remaining scopes also reproduce concepts already assigned in completed FHB sources.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 137 prompts are assigned exactly once to 32 source-first handles. Each handle received four identifying searches, for **32 × 4 = 128 searches**. Later rows that contain an exact within-source repeat are explicitly cross-collapsed with the earlier assignment and do not create a second concept.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Intro Q1–Q3 | Membrane bilayer and membrane-protein carrier/channel/receptor functions (`cell membrane bilipid layer`; `main extracellular cation sodium`; `membrane proteins carriers channels receptors`; `lipid soluble molecules membrane`) | pending-hit; exact prior-FHB membrane-structure duplicate. |
+| Intro Q4–Q5 | Isotonic saline and sodium-coupled glucose transport (`isotonic saline 0.9`; `glucose sodium cotransport`; `secondary active glucose transport`; `isotonic NaCl physiology`) | new externally; exact prior-FHB isotonicity/transport duplicate. |
+| Intro Q6–Q9 | Sodium-potassium pump, integral proteins, diffusion thickness and connexons (`sodium potassium pump 3 sodium 2 potassium`; `integral membrane proteins enzymes receptors`; `diffusion membrane thickness`; `gap junction connexon`) | live-hit; exact prior-FHB membrane-transport/junction duplicate. |
+| Intro Q10–Q12 | Total-body water, ionic compartment distribution and direct compartment measurement (`total body water body weight`; `intracellular potassium phosphate`; `intracellular fluid not directly measured`; `body fluid compartment measurement`) | pending-hit; exact prior-FHB body-fluid duplicate. |
+| Intro Q13–Q16 | Voltage/ligand gating, diffusion determinants and active transport (`voltage gated channel membrane potential`; `ligand gated channel neurotransmitter`; `active transport electrochemical gradient`; `diffusion surface area temperature gradient`) | new externally; exact prior-FHB channel/transport duplicate. |
+| Intro Q17–Q22 | Facilitated diffusion, osmosis and secondary active transport (`facilitated diffusion glucose carrier`; `osmosis passive water movement`; `secondary active sodium glucose`; `membrane lipid solubility diffusion`) | new externally; exact prior-FHB membrane-transport duplicate. |
+| Intro Q23 | Reflex-arc components (`reflex arc afferent efferent`; `sensory receptor effector reflex`; `reflex arc components`; `efferent ganglion reflex arc`) | new externally; exact prior-FHB reflex-arc duplicate. |
+| Blood Q1–Q4 | Plasma proteins, A/G ratio, oncotic pressure and haematocrit (`plasma proteins albumin globulin ratio`; `albumin oncotic pressure`; `hematocrit packed cell volume`; `plasma fibrinogen molecular weight`) | pending-hit; exact prior-FHB plasma-protein/haematocrit duplicate. |
+| Blood Q5–Q7 | Erythrocyte life span, fetal production and erythropoietin regulation (`erythrocyte lifespan fetal liver spleen`; `erythropoietin kidney hypoxia`; `testosterone erythropoiesis`; `RBC biconcave flexible membrane`) | pending-hit; exact prior-FHB erythropoiesis duplicate. |
+| Blood Q8–Q11 | Iron deficiency, gastric B12/iron absorption and iron handling (`iron absorption ferrous vitamin C`; `intrinsic factor vitamin B12`; `ferritin transferrin iron`; `B12 folate nuclear maturation`) | live-hit; exact prior-FHB iron/B12 duplicate. |
+| Blood Q12–Q16 | Haemolytic, microcytic, macrocytic and aplastic anaemia (`hemolytic anemia spherocytosis thalassemia`; `microcytic iron deficiency`; `macrocytic B12 folate`; `aplastic anemia bone marrow`) | live-hit; exact prior-FHB anaemia-pattern duplicate. |
+| Blood Q17–Q20 | Vitamin-K factors, bleeding time, platelets and purpura (`vitamin K clotting factors`; `bleeding time thrombocytopenia aspirin`; `platelet thromboxane aggregation`; `purpura clotting time`) | live-hit; exact prior-FHB haemostasis duplicate. |
+| Blood Q21–Q25 | Haemophilia, extrinsic initiation, thromboxane and obstructive-jaundice bleeding (`hemophilia coagulation time`; `extrinsic tissue thromboplastin factor VII`; `common bile duct vitamin K bleeding`; `platelet phospholipid clot retraction`) | live-hit; exact prior-FHB coagulation/platelet duplicate. |
+| Blood Q26 | Factor VII in tissue-factor initiation (`factor VII tissue thromboplastin`; `coagulation factor VII vitamin K`; `factor VII extrinsic pathway`; `factor VII produced liver`) | pending-hit; exact prior-FHB extrinsic-pathway duplicate. |
+| Blood Q27–Q30 | ABO/Rh systems, erythroblastosis, stored-blood citrate and universal donation (`ABO universal donor agglutinogens`; `erythroblastosis fetalis anti-D`; `citrate stored blood anticoagulant`; `Rh D antigen pregnancy`) | live-hit; exact prior-FHB blood-group/transfusion duplicate. |
+| Blood Q31–Q35 | Anticoagulants, PCV, ESR and osmotic fragility (`dicumarol vitamin K antagonist`; `osmotic fragility spherocytosis thalassemia`; `ESR polycythemia malignancy`; `packed cell volume dehydration`) | pending-hit; exact prior-FHB anticoagulant/red-cell-test duplicate. |
+| Blood Q36–Q40 | Vitamin-K deficiency, in-vitro anticoagulation and intrinsic coagulation (`intrinsic pathway factor XII`; `heparin antithrombin III`; `factor XIII fibrin stabilization`; `thromboxane platelet release`) | pending-hit; exact prior-FHB coagulation duplicate. |
+| Blood Q41 | Group-O Rh-negative antigen/antibody pattern (`O negative ABO antibodies`; `Rh negative group O`; `universal recipient ABO`; `blood group O agglutinins`) | live-hit; exact prior-FHB blood-group duplicate. |
+| Blood Q42–Q48 | Plasma-protein synthesis, oncotic pressure and plasma-versus-serum composition (`plasma protein synthesis liver plasma cells`; `albumin colloid osmotic pressure`; `serum no fibrinogen`; `plasma crystalloid osmotic pressure`) | pending-hit; exact prior-FHB plasma-protein duplicate. |
+| Blood Q49–Q53 | Erythrocyte potassium, hypoxic EPO, polycythaemia, haemoglobin and chloride shift (`erythrocyte intracellular potassium`; `erythropoietin high altitude`; `polycythemia blood viscosity`; `hemoglobin ferrous four heme`) | live-hit; exact prior-FHB erythrocyte/haemoglobin duplicate. |
+| Blood Q54–Q56 | Transferrin/ferritin iron handling and B12/folate DNA synthesis (`venous RBC chloride shift swelling`; `iron transferrin ferritin`; `B12 folate DNA synthesis`; `hemoglobin synthesis iron`) | live-hit; Q55 is the exact within-source repeat of Q10, and the whole scope is prior-FHB reuse. |
+| Blood Q57–Q61 | ESR testing, osmotic fragility and haematocrit (`ESR sodium citrate anticoagulant`; `normal female hematocrit`; `osmotic fragility old RBC`; `hematocrit dehydration`) | pending-hit; Q57/Q59 repeat Q34/Q35 and the remaining scope is exact prior-FHB reuse. |
+| Blood Q62–Q69 | Anaemia classification/causes and flexible erythrocyte morphology (`pernicious anemia vitamin B12 malabsorption`; `normocytic acute blood loss`; `aplastic anemia marrow depression`; `polycythemia high altitude`) | live-hit; Q62/Q63/Q68 repeat Q14/Q15/Q16 and the whole scope is prior-FHB reuse. |
+| Blood Q70–Q78 | Intrinsic/extrinsic/common coagulation, vitamin K and antithrombin (`blood coagulation extrinsic tissue thromboplastin`; `intrinsic coagulation factor XII`; `antithrombin heparin activity`; `vitamin K factors II VII IX X`) | pending-hit; Q73 repeats Q17 and the whole scope is exact prior-FHB reuse. |
+| Blood Q79–Q82 | Bleeding time, platelet injury response and haemophilia (`bleeding time aspirin`; `hemophilia normal bleeding time`; `platelet vessel injury plug`; `clot retraction platelets`) | live-hit; Q79/Q82 repeat Q18/Q23 and the whole scope is prior-FHB reuse. |
+| Blood Q83–Q90 | Haemoglobin affinity, platelet thromboxane/aspirin and contact/vWF haemostasis (`hemoglobin fetal oxygen affinity`; `von Willebrand platelet adhesion`; `aspirin platelet aggregation`; `factor XII collagen contact`) | live-hit; Q84/Q86 repeat Q24/Q25 and the whole scope is prior-FHB reuse. |
+| Blood Q91–Q94 | Liver-dependent coagulation and protein-C/S/thrombomodulin anticoagulation (`liver disease postoperative bleeding`; `thrombomodulin thrombin protein C`; `protein S cofactor protein C`; `factor VII coagulation initiation`) | new externally; Q92 repeats Q26 and the whole scope is exact prior-FHB reuse. |
+| Blood Q95–Q103 | Leukocyte distribution, macrophage lineage, innate/adaptive immunity and antibody formation (`monocyte tissue macrophage`; `innate adaptive immunity lymphocytes`; `neutrophils most abundant leukocyte`; `B lymphocyte antibody secretion`) | new externally; exact prior-FHB leukocyte/immunity duplicate. |
+| Blood Q104–Q108 | T-cell roles, CD4/CD8 functions, placental IgG and neutrophilia (`T lymphocyte transplant rejection`; `helper T cell CD4 activation`; `cytotoxic T cell CD8`; `IgG crosses placenta`) | new externally; exact prior-FHB adaptive-immunity duplicate. |
+| Blood Q109 | Heparin, dicumarol, citrate and oxalate anticoagulant actions (`heparin antithrombin action`; `dicumarol prothrombin synthesis`; `citrate calcium chelation`; `oxalate calcium anticoagulant`) | live-hit; exact within-source repeat of Q31 and exact prior-FHB duplicate. |
+| Blood Q110–Q111 | ABO group-B antibodies and group-O donor antigens (`blood group B anti-A antibody`; `group O no A B antigens`; `ABO universal donor`; `agglutinogen agglutinin blood group`) | new externally; Q111 repeats Q30 and the whole scope is prior-FHB reuse. |
+| Blood Q112–Q114 | Incompatible-transfusion reaction, cross-matching and renal/shock complications (`transfusion reaction jaundice renal failure`; `cross matching before transfusion`; `incompatible transfusion shock`; `acid hematin renal tubules`) | new externally; exact prior-FHB transfusion-reaction duplicate. |
+
+The source-level search split is **13 live / 10 pending / 9 new = 32 handles**. Every handle is exact reuse of completed prior-FHB scope, and the fourteen source-internal repeats are cross-collapsed, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+137 questions / +136 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|
+| FHB 101 | 5023 | 4715 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **38 selected inventory paths / 38 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `2c245ef2c6481e5419adfaa2098e1e1c6ca533ae36ef5765c4b2d8a48e498ba8`. Pinned triage debt becomes **eight substantive-text / five sparse-text / 25 empty-text** rows, and unique-hash accounting is **`68 + 38 = 106`**.
+
+The next bounded `05 MCQs` source is the 110-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physiology MCQ.pdf`, SHA-256 `3617ee832b59ed14004cf501b2a502b27051b9b1d80ef5bdf3dd9bab4a7eff72`.
+
+**BLOCKED — S1 cannot be approved:** 38 selected source paths remain untriaged.
