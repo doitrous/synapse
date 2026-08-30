@@ -13187,3 +13187,79 @@ native-text US-Letter pages; SHA-256
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 115 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 116 — Tier-3 external Dr Alaa Head-and-Neck keyed MCQ set, MSK2 Part 1
+
+### Exact identity, authority and complete four-page native boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_a6a90ca50130b3567512` / `a6a90ca50130b3567512f495c9ddfc80646ca8c7a87a767f243145e5df7fc5ee` |
+| File / boundary | `MCQs - External MCQs Anatomy MCQ by Dr.ALAA [MSK2][Part.1].pdf` · 107,752 bytes · tagged, unencrypted native-text PDF · four physical US-Letter pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 · instructor field `Alaa` |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy MCQ by Dr.ALAA [MSK2][Part.1].pdf` |
+| Visible provenance | Every page is headed `HEAD AND NECK` / `M.C.Qs`; the document metadata names author `mahmood alaa`, Microsoft Word 2016 creator/producer and 27 December 2021 creation/modification. The pages show no university, Helwan, LCS-103, cohort, exam sitting or year label. |
+| Authority finding | `MSK2` and `Part.1` occur only in the filename, while the visible pages establish a Head-and-Neck keyed study set. Neither the filename's MSK2 label nor manifest placement can prove Helwan LCS-103 assessment authority. The source is retained only in the external-bank checkpoint. |
+
+The assigned hash, byte size and four-page boundary were recomputed and match. All four
+pages were rendered at 180 dpi, read visually and checked against the native text layer. The
+source PDF itself was not changed.
+
+The uninterrupted page boundary is exact: p. 1 prints MCQs Q1–Q5 and their five-letter key;
+p. 2 prints Q6–Q10 and five keys; p. 3 prints Q11–Q15 and five keys; p. 4 prints Q16–Q18
+and three keys. Thus the source contains **18 external MCQ occurrences / 18 printed keys / 0
+unkeyed occurrences**. The printed key sequence is preserved as source evidence exactly as
+shown: `c,d,b,b,b`; `c,b,b,b,a`; `b,c,b,d,c`; `b,c,b`. It is not medically repaired.
+
+There is no written or essay prompt, response blank, image, specimen, radiograph,
+micrograph, station, apparatus task, masked label or declarative teaching unit. The page
+heading and answer grids are assessment layout, not teaching or practical plates. Written,
+teaching and practical deltas are therefore exactly zero, including **0 practical prompts /
+0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, four-surface searches and prior reconciliation
+
+The 18 MCQs collapse to **eight source-distinct tested handles**: buccinator anatomy and
+supply; scalp layers and wound behavior; muscles-of-mastication actions and attachments;
+temporomandibular-joint structure and movement; mandibular-nerve branches and motor
+supply; maxillary-nerve distribution; ophthalmic-nerve cutaneous branches; and ocular-motor
+nerve injury localization. Every question is assigned once to one of those handles.
+
+Each handle received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **8 × 4 = 32 required search invocations**.
+Prior-external-first comparison finds all eight already represented across Families 78, 90,
+92, 104, 105 and 106. Accepted Families 1, 20 and 36 independently own or corroborate the
+curricular Head-and-Neck scopes, but cannot promote this externally attributed MSK2 set
+into eligible Helwan evidence. Reconciliation is **8 prior-external reuses + 0 external
+additions = 8**; both external and eligible concept-state deltas are zero. Exact query and
+result ledgers are preserved at `tmp/pdfs/lcs103-family116/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family116/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,827 / 3,691 / 221 = 12 / 135 / 74** to **3,845 external prompts / 3,709
+printed keys / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic is
+`3,827 + 18 = 3,845`, `3,691 + 18 = 3,709`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-115 remainder. Removing its sole path leaves
+**114 all-rank path instances / 106 unique hashes**: tier 3 **32 paths / 29 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 115's prior checksums are
+`f29b98282ccaffa42da46576d9b29dbd35b65b578b5406bee71d251da3bbb86e` (paths) and
+`bd34b72ec628a06bc30974b11d362cea4d711950123bc1d4c912209f5da304df` (unique hashes).
+For the exact post-Family-116 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`21bd5f9c5a836b4ed5bbaabde2f91d3c5c0fd88f2c12681d09e5e7cc3969c39b`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`f92eede08cc67ca3acfd9ec59032f78f39a2f203b57840946f4152dcb366c2bb`.
+
+The exact next tier-3 manifest-order debt is `src_cdd6cc4062497d209493`,
+`MCQs - External MCQs Anatomy MCQ by Dr.ALAA [MSK2][Part.2].pdf` (168,570 bytes; six
+native-text US-Letter pages; SHA-256
+`cdd6cc4062497d209493913a714f2f8b74bec32017058853b7b05abc804bf2b3`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 114 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
