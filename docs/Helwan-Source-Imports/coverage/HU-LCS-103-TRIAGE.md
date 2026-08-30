@@ -18061,3 +18061,97 @@ The exact next manifest-order debt is tier-6 `src_120c4be86ff0896fa08d`, `Docume
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 62
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 169 — Tier-6 externally attributed muscle-physiology MCQ compilation with handwritten keys
+
+### Provenance and source boundary
+
+| Evidence | Exact finding |
+|---|---|
+| Manifest source / SHA-256 | `src_120c4be86ff0896fa08d` / `120c4be86ff0896fa08da407ce8bd3d1665d4330d57b90c308daabe2a780def6` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/Document (1).pdf` |
+| Physical verification | **263,481 bytes; 14 native-text US-Letter pages; 612 × 792 pt; unencrypted; PDF 1.7**. The file hash, byte size, page count and dimensions match the manifest. |
+| Document metadata | Author `Adham Moussa`; Microsoft Word creator; created and modified 26 April 2021 at 19:50:07 EET. Metadata identifies a compiler, not a school, module, sitting or official key authority. |
+| Visible authority | P. 2 says `Junqueira’s MCQs`; pp. 4–5 say `BRS MCQs`; p. 11 prints a GoConqr `muscles-physiology-mcqs-pmu-2nd-year` URL and a BYJU'S muscle-contraction URL. No page displays Helwan, LCS-103, an exam year/sitting, faculty seal or official answer-key statement. The material is therefore retained only in the **external assessment lane**. |
+
+All **14/14 pages** were rendered and visually read. The complete physical boundary is:
+
+| Physical pages | Source-first content | Assessment / key disposition |
+|---:|---|---|
+| 1 | `Physiology MCQs` title page | teaching/title only; 0 prompts / 0 keys |
+| 2–3 | Junqueira-attributed sarcomere vignette and numeric Q67–70 | 4 external prompts; four handwritten values on p. 13 correspond directly |
+| 4–11 | BRS-attributed and unattributed muscle-physiology Q71–82, followed by two external URLs | 12 external MCQs; 12 handwritten letter answers on p. 13 correspond directly |
+| 12 | photographed `Lecture 1` handwritten answer grid, Q1–35 | 35 complete orphan key entries; their prompts are absent and they are excluded from all cumulative prompt/key counts |
+| 13 | photographed `Lecture 2` grid Q36–70 and `Lecture 3` grid Q71–82 | 47 complete entries: Q67–82 are the 16 corresponding source keys; Q36–66 are 31 additional orphan entries and are excluded. Cropped fragments at the extreme upper edge are remnants, not separately countable entries. |
+| 14 | blank page | 0 prompts / 0 keys |
+
+The source therefore contains **16 external prompts / 16 corresponding source keys**. The
+complete handwritten boundary is **82 legible key entries = 16 corresponding keys + 66
+orphan key-only entries**. Orphan entries are retained as provenance evidence only: absent
+prompts prevent their interpretation, handle creation or cumulative key credit.
+
+Q67–70 are keyed `1.50 µm`, `2.50 µm`, `2.25 µm` and `0.75 µm`; Q71–82 are keyed
+`E, C, B, B, A, E, B, D, C, D, C, D`. These are transcription of source marks, not
+medical correction. Source wording remains verbatim evidence, including `regulatory`,
+`Myocine`, `acytlcoline`, `reseptors`, `mtoneurons`, `occuring` and `T_tubules`.
+
+No page is a station, spotter, labelled teaching plate or practical prompt. The photographed
+answer grids are assessment-key evidence, not practical imagery. Practical delta is therefore
+**0 prompts / 0 plates / 0 mappings / 0 residues / 0 keys**, and practical teaching scopes do
+not change.
+
+### Source-first collapse, exact searches and prior-LCS reconciliation
+
+The 16 prompt occurrences collapse to ten accepted external handles:
+
+| Handle | Source occurrences | Four-search conclusion |
+|---|---:|---|
+| `sarcomere-band-length-change-during-contraction` | Q67–70 | Prior-LCS reuse: accepted Families 51, 75 and 144–148 already cover sarcomere, A-band and I-band behavior. |
+| `smooth-muscle-calmodulin-mlck-control` | Q71, Q77 | Prior-LCS reuse: accepted Families 75 and 144–148 own the calcium–calmodulin–MLCK scope. |
+| `skeletal-and-smooth-muscle-shared-calcium-ec-coupling` | Q72 | Prior-LCS reuse: accepted Families 75 and 144–148 own the shared intracellular-calcium mechanism. |
+| `skeletal-muscle-tetanus-calcium-accumulation` | Q73 | Prior-LCS reuse: accepted Families 75 and 144–148 own summation/tetanus calcium handling. |
+| `myasthenia-gravis-acetylcholinesterase-inhibitor-mechanism` | Q74, Q82 | Prior-LCS reuse: accepted Families 75 and 144–148 own neuromuscular-junction and AChE-inhibitor mechanisms. |
+| `skeletal-muscle-excitation-contraction-sequence` | Q75 | Prior-LCS reuse: accepted Families 75 and 144–148 own sarcolemmal/T-tubule/SR sequencing. |
+| `skeletal-muscle-rigor-atp-depletion` | Q76 | Prior-LCS reuse: accepted Families 51, 75 and 144–148 own ATP-dependent cross-bridge release. |
+| `myasthenia-gravis-acetylcholine-receptor-antibodies` | Q78 | Prior-LCS reuse: accepted Families 75 and 144–148 own postsynaptic ACh-receptor autoantibodies. |
+| `single-unit-smooth-muscle-gap-junctions-bladder-uterus` | Q79, Q81 | Prior-LCS reuse: accepted Families 75 and 144–148 own single-unit smooth muscle and gap-junction behavior. |
+| `multiunit-smooth-muscle-iris-innervation` | Q80 | Prior-LCS reuse: accepted Families 75 and 144–148 own multiunit iris smooth muscle. |
+
+Arithmetic is **16 source occurrences − 6 within-source repeat reductions = 10 handles**.
+Each handle received exactly one query on each required surface: live state,
+pending/import-ready state, prior source-import lanes and the accepted LCS ledger. That is
+**10 × 4 = 40 required search invocations**. Broad matches occur on the first three surfaces;
+item-level accepted-ledger comparison is decisive. All ten handles are **prior-LCS reuses**:
+**0 additive live / 0 additive pending / 0 additive new concepts**. No orphan key entry
+received a search because no corresponding source prompt exists.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **6,813 prompts / 6,547 source keys-or-answers / 221 external concepts** by
+**+16 / +16 / +0** to **6,829 / 6,563 / 221 = 12 live / 135 pending / 74 new**. Checks are
+`6,813 + 16 = 6,829`, `6,547 + 16 = 6,563` and `221 + 0 = 221`.
+
+Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues / 13 keys**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in Family 168's remainder. Removing its sole path leaves **61
+all-rank path instances / 57 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes **47
+paths / 46 unique hashes within tier**, and rank 9 remains **14 / 11**. Family 168's prior
+checksums are `1c271326c5c3cba96736bf876341793d03de723bed04ac2c80a5eea106685b7d`
+(paths) and `89b731f1849588b9ed633c78818e1f87c465a84aed0f35e530939fa7d3f56d28`
+(unique hashes). For the exact post-Family-169 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1b44e9e97cbfa5d6a13c5d35d1a140e9328e3b5e08e5a056d0d78b1e71af23c5`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`9ed40e8f94c074fdb12644cbcbf8ebe36001a8e52f185045267d04bdc8dd2c0b`.
+
+The exact next manifest-order debt is tier-6 duplicate path `src_d8f5ce54a5ff1e06ec77`,
+`HU-Bone.pdf` (898,870 bytes; 6 native-text A4 pages; SHA-256
+`d8f5ce54a5ff1e06ec7763872946918d3e12ee72243d99705edb8a86fccfe7df`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. Its hash is bitwise identical to the
+already inventoried `Bone Helwan.pdf` in Family 165, so the next family should consume only
+the separate manifest path with zero second-content inventory. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 61 tier-6/rank-9 path debts remain. No download, source edit,
+ID, content record, catalogue update, import or source copy was created.
