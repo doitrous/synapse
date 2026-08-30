@@ -4218,3 +4218,141 @@ The next manifest-order gate is tier-5 Anatomy practical source
 `7d5c2bbd2c34a93312a22fbcda9894293a34e35f42d8e126d8cb23393dc743a3`) under
 `Year 1/LCS 103/Anatomy/Practical/`. Broader LCS-103 S1 remains incomplete. No download,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 37 — Tier-5 labelled Anatomy practical-image atlas
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_7d5c2bbd2c34a93312a2` |
+| File / SHA-256 | `practical images  Anatomy _250703_123600 (1).pdf` / `7d5c2bbd2c34a93312a22fbcda9894293a34e35f42d8e126d8cb23393dc743a3` |
+| File boundary | 3,753,189 bytes · PDF · 27 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical/practical images  Anatomy _250703_123600 (1).pdf` |
+| Read method | all 27 pages rendered at 140 dpi and read; the text extractor returns only `CamScanner`, so the manifest's `native` text-layer label is not substantive anatomy text |
+| Authority finding | Manifest/path-assigned local practical teaching evidence. It is not an exam, station sheet, response form, question bank or official answer key. |
+
+The SHA-256, byte count and 27-page boundary were recomputed and match the manifest. The
+organised file currently present on disk has one space between `images` and `Anatomy`, while
+the manifest path and filename have two; the bytes and hash establish that this is the same
+source, and the manifest spelling remains the ledger identity. Every page is a CamScanner
+photograph of an anatomy model or skull with labels superimposed. No page prints an instruction
+to identify a structure, station stem, ordinary question, response field, answer blank, mark
+allocation, correctness convention, printed assessment answer or key. The simultaneous labels
+are therefore teaching mappings only, not assessment reveals.
+
+### Complete practical-plate, mapping and residue inventory
+
+One mapping is one directly printed label-to-structure or label-to-landmark relation. A label
+printed twice for the same structure on one composition is counted once; an alias printed in
+parentheses remains part of that one mapping. The small moulded manufacturer numbers visible
+on some plastic models are incidental surface markings, not authored callouts. Unlabelled
+model anatomy, coloured vessels, ink traces and page arrows are likewise not missing answers.
+
+| Physical page | Source-first teaching plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 1 | anterior/medial thigh model: iliopsoas, pectineus, adductors, gracilis and quadriceps | 8 mappings |
+| 2 | anterior thigh model: sartorius, rectus femoris, vasti and tensor fasciae latae | 5 mappings |
+| 3 | proximal anterior-thigh model including inguinal ligament and iliopsoas | 7 mappings |
+| 4 | medial/anterior thigh model including three adductors and three vasti | 8 mappings |
+| 5 | superficial posterior-leg model | 4 mappings |
+| 6 | posterior-thigh model: hamstrings, adductor magnus and gracilis | 6 mappings |
+| 7 | deep gluteal model: gluteus medius and five short lateral rotators | 6 mappings |
+| 8 | anterior/medial thigh overview | 5 mappings |
+| 9 | inferior extensor retinaculum | 1 mapping |
+| 10 | anterolateral thigh overview including iliotibial tract | 11 mappings |
+| 11 | anterior/lateral leg muscles and superficial fibular nerve | 6 mappings; `Fibularis (peroneus) longus` is one alias-bearing mapping |
+| 12 | deep posterior/lateral leg muscles | 6 mappings |
+| 13 | posterior thigh with sciatic nerve | 3 mappings |
+| 14 | sciatic nerve and its tibial/common-fibular terminal divisions | 3 mappings |
+| 15 | popliteal/posterior-leg nerve, artery and vein model | 8 mappings |
+| 16 | anterior-leg neurovascular model and patellar ligament | 3 mappings |
+| 17 | posterior skull/fontanelle, sutures and occipital landmarks | 8 unique mappings; the repeated `Lambdoid suture` label is counted once |
+| 18 | frontal skull bones and cavities | 7 unique mappings; the bilateral zygomatic-bone label is counted once |
+| 19 | tibial-plateau menisci and cruciate-ligament attachment sites | 4 mappings |
+| 20 | frontal skull nasal structures, conchae, meatus and foramina | 9 mappings |
+| 21 | lateral skull temporal lines, pterion/asterion and zygomatic landmarks | 10 unique mappings; the generic `Temporal line` duplicate is collapsed into its pointed superior-line mapping |
+| 22 | superior skull/fontanelle, bones and sutures | 5 unique mappings; bilateral `Parietal bone` is counted once |
+| 23 | frontal belly of occipitofrontalis and epicranial aponeurosis | 2 mappings |
+| 24 | temporal/infratemporal fossae and adjacent zygomatic/frontal processes | 4 mappings |
+| 25 | frontal skull orbital margins, fissures, canal, fossa and surface landmarks | 10 mappings |
+| 26 | facial-expression model: orbicularis-oculi parts, orbicularis oris and buccinator | 5 mappings |
+| 27 | norma basalis interna with internal occipital crest and protuberance | 2 mappings |
+
+The **27 physical-page occurrences are 27 source-distinct labelled photo compositions**.
+Several pages reuse the same plastic lower-limb or skull model, but angle, crop and printed
+label layer differ; there is no exact complete-page copy to collapse. The mapping arithmetic
+is `8 + 5 + 7 + 8 + 4 + 6 + 6 + 5 + 1 + 11 + 6 + 6 + 3 + 3 + 8 + 3 + 8 + 7 +
+4 + 9 + 10 + 5 + 2 + 4 + 10 + 5 + 2 = 156`. There are **0 masked or unresolved
+callouts** and **0 rule blanks**. The assessment boundary is **0 practical/station prompts /
+0 ordinary questions / 0 printed assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 27 compositions consolidate to 16 source-level teaching scopes. This scope collapse does
+not delete plate, mapping, page or source-wording evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `anterior-and-medial-thigh-muscle-model-identification` · pp. 1–4, 8, 10 | anterior medial thigh muscle model; anterior thigh muscle identification; medial thigh muscle model; sartorius quadriceps adductor model | no direct live/pending same-scope hit; accepted Families 31–32 compartment, layer and muscle scopes jointly own this identification subset — prior LCS reuse |
+| `posterior-thigh-muscle-model-identification` · p. 6 | posterior thigh muscle model; hamstring model identification; semimembranosus biceps femoris identification; posterior compartment thigh muscles | no direct live/pending same-scope hit; accepted Family-33 posterior-thigh and hamstring scopes own this labelled model subset — prior LCS reuse |
+| `deep-gluteal-muscle-model-identification` · p. 7 | deep gluteal muscle model; short lateral rotators hip; piriformis gemelli obturator internus quadratus; gluteal muscle identification model | no direct live/pending same-scope hit; accepted Family-32 classification and muscle-identification/OINA handles jointly own this subset — prior LCS reuse |
+| `leg-compartment-muscle-model-identification` · pp. 5, 11–12 | leg compartment muscle model; anterior lateral posterior leg muscles; tibialis extensor fibularis model; gastrocnemius soleus deep flexors | no direct live/pending same-scope hit; accepted Family-34 compartment and individual-muscle handles jointly own the labelled model scope — prior LCS reuse |
+| `inferior-extensor-retinaculum-identification` · p. 9 | inferior extensor retinaculum; ankle extensor retinaculum; Y shaped retinaculum; dorsum ankle retinaculum | the only external concept hit uses the retinaculum as an extensor-digitorum-brevis origin, not as this identification objective; accepted Family-1 `extensor-retinaculum-contents` owns the structure and absorbs the narrower label — prior LCS reuse |
+| `sciatic-nerve-and-terminal-divisions-identification` · pp. 13–14 | sciatic nerve bifurcation; sciatic tibial common fibular identification; posterior thigh sciatic nerve; sciatic nerve branches model | no direct live/pending same-scope hit; exact subset of accepted Family-33 sciatic origin/termination scope — prior LCS reuse |
+| `popliteal-and-posterior-leg-neurovascular-identification` · p. 15 | popliteal posterior leg neurovascular; popliteal artery vein tibial nerve; anterior posterior tibial fibular arteries; popliteal fossa neurovascular model | no direct live/pending same-scope hit; accepted Families 33–34 artery, vein, nerve and popliteal-fossa handles jointly own the printed labels — prior LCS reuse |
+| `anterior-leg-neurovascular-identification` · p. 16 | anterior leg neurovascular; deep fibular nerve anterior tibial artery; anterior compartment neurovascular bundle; tibial artery deep peroneal identification | no direct live/pending same-scope hit; accepted Family-34 anterior-compartment, deep-fibular and anterior-tibial handles jointly own this subset — prior LCS reuse |
+| `knee-menisci-and-cruciate-attachment-identification` · p. 19 | knee menisci cruciate attachments; tibial plateau ACL PCL attachments; medial lateral meniscus model; intercondylar area cruciate ligaments | no direct live/pending same-scope hit; accepted Family-1 `knee-menisci` and `cruciate-ligaments` handles jointly own the four labels — prior LCS reuse |
+| `norma-frontalis-bones-and-features` · pp. 18, 20, 25 | norma frontalis bones features; frontal skull view landmarks; nasal orbital cavity skull; nasal conchae foramina anterior skull | no direct live/pending same-scope hit; accepted Family-35 `norma-frontalis-bones-sutures-and-features` owns this scope — prior LCS reuse |
+| `norma-lateralis-bones-and-landmarks` · pp. 21, 24 | norma lateralis bones landmarks; lateral skull landmarks; pterion asterion zygomatic arch; temporal infratemporal fossa skull | no direct live/pending same-scope hit; accepted Family-35 `norma-lateralis-bones-sutures-and-landmarks` owns this scope — prior LCS reuse |
+| `norma-verticalis-bones-sutures-and-fontanelle` · p. 22 | norma verticalis bones sutures; superior skull view landmarks; anterior fontanelle pregma; coronal sagittal suture | no direct live/pending same-scope hit; accepted Family-35 `norma-verticalis-bones-sutures-and-landmarks` owns this scope — prior LCS reuse |
+| `norma-occipitalis-sutures-and-landmarks` · p. 17 | norma occipitalis landmarks; posterior skull landmarks; lambda nuchal lines; external occipital crest protuberance | no direct live/pending same-scope hit; accepted Family-35 `norma-occipitalis-bones-sutures-and-landmarks` owns this scope — prior LCS reuse |
+| `occipitofrontalis-and-epicranial-aponeurosis-identification` · p. 23 | occipitofrontalis epicranial aponeurosis; frontal belly occipitofrontalis; galea aponeurotica muscle; scalp muscle model | no direct live/pending same-scope hit; accepted Family-36 `occipitofrontalis-oina-and-identification` owns this two-label subset — prior LCS reuse |
+| `orbicularis-oculi-oris-and-buccinator-identification` · p. 26 | facial expression muscle model; orbicularis oculi parts; orbicularis oris buccinator; facial muscle identification | no direct live/pending same-scope hit; accepted Family-36 orbicularis-oculi, orbicularis-oris and buccinator handles jointly own the labelled subset — prior LCS reuse |
+| `norma-basalis-interna-occipital-landmarks` · p. 27 | norma basalis interna; internal cranial base landmarks; internal occipital crest protuberance; posterior cranial fossa landmarks | source inventories and question-bank mentions are not live/pending teaching records; Family-35 is external/posterior skull and does not own the internal cranial-base view — new |
+
+All **16 × 4 = 64** required searches completed. The raw external result is `0 live / 0
+pending / 16 new`: source-manifest/inventory strings and component mentions are not same-scope
+concept records. Exact accepted-prior comparison removes 15 module additions, leaving **+1
+new practical-teaching scope**. The new scope is the internal cranial-base view; Family-35's
+external occipital landmarks cannot absorb it.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 37 | Family 37 delta | After Family 37 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 224 verified minimum | +27 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,615 verified minimum | +156 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 54 | +0 / +0 / +1 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**. Arithmetic checks are `224 + 27 =
+251`, `1,615 + 156 = 1,771`, `91 + 0 = 91`, and `54 + 1 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-36
+remainder leaves **39 rank-4/rank-5 path instances / 37 unique hashes**. The Family-36
+method was reproduced first: its 40/38 row sets recomputed to
+`933253b563432615caf14639717de813dbf01f0d2af0263e3c1f1cb46772028a` and
+`81f8d837a8b153b406adb0cab050009241f56bbd05e83d524449ebba3bf20620`.
+For the exact post-Family-37 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`e27a55dc6341786d5d229699eb5a7c18ec9d4e8f8268b65ee74ad42f9892ea44`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`058a69c793791d55c7fb4ddeacf2242629e294d4bc0f109f93318074139fbba9`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_163c4a1fb9365979992a`, `Triangles of the Neck dr Sarah .pdf` (1,988,802 bytes; 23
+native-text pages; SHA-256
+`163c4a1fb9365979992a9a1d4e05762089c961e9d5bc6c8b55f322502e45545a`) under `Year 1/LCS
+103/Anatomy/Theoretical/Head & Neck/Lec 9 - Triangles of Neck/`. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
