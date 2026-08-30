@@ -16311,3 +16311,110 @@ four 600×848-point native-text portrait pages under `Pathology / Questions / MC
 producer metadata and 22 April 2025 modification timestamp remain secondary to visible
 provenance. Its full render/read, prompt/key convention, source-first collapse, prior-BMS reuse,
 four-search packets, and arithmetic are the exact next-source blockers.
+
+## Family 153 — Helwan Faculty of Medicine Cell Injury College MCQs
+
+### Source identity, complete render/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_eb6c011d344ff77c05e1` · `MCQs - College MCQs Cell injury dr Enas.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `eb6c011d344ff77c05e1f88837e2777d655d62ead15b4965890e2bb58ee41d7b` · **5,287,387 bytes** |
+| Format / complete visual boundary | Four portrait pages, each 600×848 points. All four rendered at 180 dpi into four non-empty 1500×2120-pixel images and were read individually at original detail. The four source-sized 1800×2545 raster images and the repeated logo crop were also inspected; there is no page, crop, question, option, key row, or footer remainder. |
+| Raster/OCR reality | Native layout and raw extraction each contain zero words and only four page separators. Image inventory shows one full-page 1800×2545 RGB image plus its soft mask on every page. English OCR was reconciled against the source pixels for transcription only. The manifest correctly says `ocr-needed`; the nominal PDF/page container does not supply a semantic text layer. |
+| Visible provenance | Every question panel repeats a shield visibly reading Arabic `كلية الطب جامعة حلوان` (Faculty of Medicine, Helwan University). This establishes visible institutional teaching-bank provenance. No visible slide names Dr Enas, so the filename is retained as a carrier label but does not independently establish instructor authorship. No module code, academic year, date/sitting, marks, duration, candidate field, or official-key declaration is visible. |
+| Metadata caution | Creator and producer are `Samsung Electronics`; no creation date is stored, and modification time is 22 April 2025. Those fields describe scanning/export only and do not establish authorship, teaching date, academic year, or assessment sitting. |
+| Authority | Helwan-branded tier-3 keyed College-MCQ study carrier. The separate terminal 1–11 letter list is a source-supplied study key. It is not a candidate paper, authenticated exam sitting, department-certified key register, or student response sheet. |
+
+### Complete page-first prompt, printed-key, format, and anomaly boundary
+
+| Page | Complete visible question sequence | Prompt / key ruling |
+|---:|---|---:|
+| 1 | Q1 TB-associated necrosis type; Q2 myocardial-infarction hypoxia biochemical event; Q3 necrosis pattern that does not appear grossly | **3 prompts**; terminal keys `A, E, D`. |
+| 2 | Q4 reversible cellular change in myocardium saved by thrombolysis; Q5 irreversible myocardial-injury morphology; Q6 interval to irreversible hypoxic brain injury | **3**; `D, E, A`. |
+| 3 | Q7 enzyme protecting against x-ray/radiolysis injury; Q8 premenstrual endometrial process; Q9 product whose mutational inactivation confers resistance to apoptosis-producing chemotherapy | **3**; `B, A, B`. |
+| 4 | Q10 cytochrome-c release in shrunken apoptotic tumour cells; Q11 calcium in hypoxic swelling/chromatin clumping and eventual death; followed by the complete numbered answer list | **2 prompts + 11 key entries**; Q10–Q11 `B, A`; complete list `1 A / 2 E / 3 D / 4 D / 5 E / 6 A / 7 B / 8 A / 9 B / 10 B / 11 A`. |
+
+The questions themselves are not visibly numbered; the source's terminal 1–11 list fixes their
+top-to-bottom, page-to-page order and supplies exactly one answer for each. The small red circular
+spots appear in blank slide areas or away from keyed options and recur as capture/pointer artifacts;
+they are not selective answer marks, student annotations, or corrections. The terminal list alone
+controls the key boundary.
+
+The exact source boundary is **11 text MCQ occurrences / 11 source-supplied answer occurrences /
+0 unkeyed prompts / 0 written operations / 0 image-bearing questions / 0 practical stations / 0
+drawing tasks / 0 candidate responses / 0 prompt-like residues**. All 11 wordings remain retained
+records and source-distinct handles; there is no literal or semantic duplicate within the carrier.
+
+Source wording is preserved without correction. Q3 uses `One of these types of necrosis don't
+appear grossly`; Q6 visibly prefixes its four time options with duplicated ordinal-like numerals
+(`1-`, `2-`, `3-`, `4-`) and keys A (`3 to 5 minutes`); Q10 capitalizes `Individual`; and Q11 asks
+which ion is `released from mitochondria` and keys Ca2+. None is silently normalized into a
+different proposition or answer.
+
+### Source-first 11-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 11 accepted handles received exactly four fresh source-first searches across live state,
+pending import roots, and prior BMS-102 Families 1–152: **44 required and completed searches**.
+External exact-scope disposition is **0 live / 4 pending / 7 no same-scope**. Prior-family reuse
+is a separate axis; an external pending or no-hit does not determine local concept novelty.
+
+| Ref / accepted handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| Q1 · `tuberculosis-caseation-necrosis-type` | `tuberculosis caseous necrosis`; `TB necrosis type`; `caseating granuloma tuberculosis`; `necrosis most characteristic TB` | pending `CON-FND-5B3B6BA12670C7`; exact | exact Families 7/73/150 reuse |
+| Q2 · `myocardial-hypoxia-anaerobic-glycolysis-glycogenolysis` | `myocardial hypoxia anaerobic glycolysis glycogenolysis`; `ischemia ATP depletion glycolysis`; `myocardial infarction hypoxic biochemical event`; `hypoxia lactic acid glycogen depletion` | no same-scope | prior teaching describes the pathway but no accepted prompt tests this biochemical response; delta |
+| Q3 · `fibrinoid-necrosis-no-gross-appearance` | `fibrinoid necrosis no gross appearance`; `necrosis type microscopic only`; `fibrinoid versus caseous coagulative gross`; `necrosis pattern not seen grossly` | no same-scope | exact Family-73 Q25 reuse |
+| Q4 · `reversible-ischemic-injury-er-swelling` | `reversible ischemic injury endoplasmic reticulum swelling`; `saved myocardium hypoxia cellular change`; `ER swelling reversible cell injury`; `thrombolysis reversible myocardial injury morphology` | pending reversible-injury morphology support | contained by Family-73 reversible-injury feature handle; reuse |
+| Q5 · `pyknotic-nuclei-irreversible-myocardial-injury` | `pyknotic nuclei irreversible myocardial injury`; `cell blebs glycogen mitochondrial swelling versus pyknosis`; `myocardial infarction nuclear irreversible change`; `pyknosis indicator irreversible injury` | pending `CON-FND-8DA30AD870AC1E`; nuclear-death morphology | contained by Family-73 reversible/irreversible feature and nuclear-morphology handles; reuse |
+| Q6 · `brain-hypoxia-irreversible-three-five-minutes` | `brain hypoxia irreversible three five minutes`; `neuronal anoxia irreversible injury interval`; `cerebral hypoxic tolerance time`; `brain cell death oxygen deprivation minutes` | no same-scope | no prior accepted prompt tests this time threshold; delta |
+| Q7 · `glutathione-peroxidase-radiolysis-ros-protection` | `glutathione peroxidase radiolysis water x rays`; `enzyme protects radiation free radical injury`; `hydroxyl radical antioxidant enzyme glutathione`; `x ray cell injury peroxide detoxification` | no same-scope | prior oxidative-stress teaching/definition does not test this enzyme-radiation application; delta |
+| Q8 · `premenstrual-endometrial-apoptosis` | `premenstrual endometrium apoptosis`; `day 28 menstrual cycle programmed cell death`; `endometrial breakdown physiologic apoptosis`; `menstruation apoptosis pathology` | no same-scope | prior apoptosis definition/physiologic teaching does not test this vignette; delta |
+| Q9 · `p53-loss-chemotherapy-apoptosis-resistance` | `p53 loss chemotherapy apoptosis resistance`; `tumor cells resistant apoptotic chemotherapy p53`; `breast metastasis p53 drug response`; `DNA damage p53 apoptosis cancer treatment` | no same-scope | prior p53 checkpoint/tumour handles do not test therapy-induced apoptosis resistance; delta |
+| Q10 · `mitochondrial-cytochrome-c-apoptosis-trigger` | `cytochrome c release apoptosis trigger`; `shrunken eosinophilic tumor cell chromatin condensation`; `mitochondrial intrinsic apoptosis cytosol`; `cytochrome c caspase activation cell death` | pending intrinsic-apoptosis mechanism support | prior accepted prompts cover apoptosis morphology/control but not this release-to-trigger relation; delta |
+| Q11 · `calcium-mediated-hypoxic-cell-injury` | `calcium hypoxic cell injury ATPase activation`; `mitochondrial calcium release cell swelling death`; `intracellular calcium protease phospholipase ATPase`; `hypoxia chromatin clumping calcium injury` | pending calcium/cell-injury mechanism support | contained by Family-112 `cell-injury-mechanisms`; reuse |
+
+Exactly **5** handles reuse prior BMS-tested scope: TB caseation, fibrinoid necrosis without gross
+appearance, reversible ER swelling, pyknosis as irreversible morphology, and calcium-mediated
+cell injury. The myocardial anaerobic response, brain time threshold, glutathione-peroxidase
+radiation protection, premenstrual apoptosis, p53-linked chemotherapy resistance, and cytochrome-c
+trigger therefore add **`11 - 5 = 6` concepts**.
+
+### Family-153 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 153 | Auxiliary cumulative (Families 12–153) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 11 | 1,455 | 765 | 2,220 |
+| Printed/source-supplied answer occurrences | 11 | 942 | 405 | 1,347 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| Retained question records | 11 | 1,377 | 552 | 1,929 |
+| Accepted handles / required searches | 11 / 44 | 1,222 / — | — | — |
+| External live / pending / no same-scope | 0 / 4 / 7 | — | — | family-local disposition |
+| Prior-BMS handle reuses | 5 | — | — | — |
+| Cross-family concept delta | +6 | +724 over primary | 372 | 1,096 |
+| **Distinct tested concepts** | **11 source-local** | **724 auxiliary additions** | **372** | **1,096** |
+
+The checksum closes as `3 + 3 + 3 + 2 = 11` prompts and `11` terminal key entries. Retention is
+`11 - 0 literal copies = 11`; no semantic reduction is warranted, so 11 handles survive;
+searches are `11 × 4 = 44`; external disposition is `0 + 4 + 7 = 11`; and concept arithmetic is
+`11 - 5 prior reuses = +6`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary becomes **1,455 prompts / 942 answers /
+1,377 retained records / 1,222 accepted handles / +724 concepts over primary**. All eligible S1
+evidence becomes **2,220 prompts / 1,347 supplied answers / 1,929 retained records / 1,096
+distinct tested concepts**. Family 153 adds Helwan-branded keyed auxiliary bank evidence only; it
+does not establish an authenticated exam, dated sitting, official key register, recurrence,
+mark weight, candidate response, readiness, or claims status.
+
+### Exact next debt after Family 153
+
+`src_eb6c011d344ff77c05e1` is exhausted across all four raster pages: every visible/metadata
+provenance field, full-page image, MCQ, option set, red capture artifact, terminal key entry,
+source anomaly, search packet, prior-BMS relation, format assignment, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-153 blocker. The exact next manifest
+record is tier-3 solved-copy `src_da5669433f02ac4d8e7b` · `MCQs - College MCQs Final Revision
+Answers.pdf`, SHA-256 `da5669433f02ac4d8e7b6342dc170e9c5e9d3b4336747f100d6d4fe35ac8eb5f`,
+**1,510,799 bytes**, 38 native-text 960×540-point landscape pages under `Pathology / Questions /
+MCQs`. Its visible Dr Enas Elhosary / Faculty of Medicine / Helwan University provenance,
+solved-answer authority, relation to the following unkeyed Questions twin, complete prompt/key
+boundary, source-first collapse, prior-BMS reuse, four-search packets, and arithmetic are the
+exact next-source blockers.
