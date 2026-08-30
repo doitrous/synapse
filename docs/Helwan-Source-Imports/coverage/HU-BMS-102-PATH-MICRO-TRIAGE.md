@@ -17814,3 +17814,86 @@ MCQs continous self assessement circulatory 1.docx`, SHA-256
 native-text DOCX previously rendered by Family 6 as four portrait pages under `Pathology /
 Questions / MCQs`. Its independent unkeyed prompt boundary, solved-companion relation, zero-search
 gate, arithmetic, and exact next-source blockers remain to be exhausted.
+
+## Family 167 — exact revisit of the Family-6 Circulatory-1 unkeyed companion
+
+### Source identity, complete visual/native boundary, authority, and exact prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 unkeyed `src_16f3e72b07c1848bea17` · `MCQs - College MCQs continous self assessement circulatory 1.docx` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `16f3e72b07c1848bea1715628719383222b5b2510cc65775423b87dc356001a8` · **24,421 bytes** |
+| Format / complete visual boundary | Native-text DOCX rendered read-only through LibreOffice to **four portrait US-letter pages** and four non-empty 1547×2002 PNGs. Every page was read at detail. The object contains two unkeyed 20-prompt blocks and no cover, answer layer, image, drawing, practical plate, candidate response, or hidden terminal material. |
+| Native-text reality | Native conversion contains **960 words / 7,190 bytes**; OOXML contains **40 numbered-list prompt items** and no `Answer:` label. The native layer and four-page visual boundary agree. |
+| Visible/metadata provenance | The pages begin directly with questions and show no university, faculty, instructor, module code, assessment title, academic year, sitting date, marks, or candidate field. OOXML metadata author/last modifier is generic `User`, with creation/modification time 26 February 2025. Filename/manifest `continous self assessement` and metadata time are secondary carrier evidence, not proof of an administered assessment or date. |
+| Exact prior governance | Family 6 already records this exact source ID/SHA together with solved PDF `src_ece98ba3324ee657c538`: all 93 joint prompt occurrences, 28 answer occurrences, 45 exact repeats, 48 retained wordings, seven scope-collapse groups, 39 handles, 156 searches, nine prior-BMS reuses, and +30 concepts. Family 166 independently re-exhausted the solved object immediately before this carrier. |
+| Authority | Unkeyed study/self-assessment-labelled carrier of weak visible institutional authority. It preserves source wording but establishes no official key, verified sitting, or recurrence. |
+
+### Complete unkeyed prompt/format and solved-companion boundary
+
+The current DOCX contains **40 raw prompt occurrences / 0 source-answer occurrences / 40
+unkeyed / 20 MCQ / 10 T/F / 10 written or case operations / 0 image-bearing questions / 0
+drawing tasks / 0 practical stations / 0 candidate responses / 0 residues**. Its first general
+block is `10 MCQ + 5 T/F + 5 short answer = 20`; its second clinical block is `10 MCQ + 5 T/F
++ 5 short-answer/case = 20`. Thus **`20 + 20 = 40`**, with every numbered list item assigned
+once.
+
+The solved PDF reprints all 20 general prompts and 18 clinical prompts exactly. Two current-DOCX
+wordings are not exact PDF prompt copies: clinical Q7 prints the anatomically questionable
+postmastectomy `lower limb`, while the PDF changes it to `upper limb`; and clinical Q10, the bee-
+sting anaphylaxis/epinephrine prompt, is absent from the PDF question pages although the PDF's
+later answer section supplies its answer. Both DOCX wordings remain retained source evidence.
+The limb variants collapse only at tested-scope level, and the answer-only PDF slot is not
+invented as an extra prompt.
+
+Joint Family-6 arithmetic remains **`40 DOCX + 53 PDF = 93` observed prompts**, **28 printed
+answers**, and **`93 - 45 exact repeats = 48` retained wording records**. The 45 repeats are seven
+within-PDF malformed repeats, 20 exact general DOCX/PDF repeats, and 18 exact clinical DOCX/PDF
+repeats. Twenty-seven retained scopes have supplied answers because one keyed prompt is answered
+twice. Nothing in the current exact-object revisit changes that prompt, answer, or key boundary.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 6's seven scope-tight collapse groups reduce 48 retained wordings by nine to **39 tested
+handles**. Family 6 already completed exactly four searches per handle (**`39 × 4 = 156`
+searches**) and reconciled nine prior-BMS reuses, yielding +30 concepts.
+
+Family 167 accepts **0 new retained records and 0 new handles**. Re-running searches for the exact
+source ID/SHA/page/prompt object would fabricate work and false recurrence. The standing gate is
+**`0 new handles × 4 = 0 required and completed new searches`**; no empty search ledger is
+invented. Prior reuse and concept delta are both **0 Family-167 additions**.
+
+### Family-167 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 167 addition | Auxiliary cumulative (Families 12–167) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 40 in current DOCX | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 0 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 48 across governed pair | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 39 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 6 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **39 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The governed pair checksum remains `40 + 53 = 93 prompts`, `28 answers`, `93 - 45 = 48
+retained`, `48 - 9 = 39 handles`, and Family 6's `39 × 4 = 156` completed searches. Family-167
+arithmetic is independently zero: `0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`.
+Corrected primary remains **762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486
+answers / 1,829 retained / 1,667 handles / +906 concepts**; and corrected all eligible remains
+**2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 167 adds exact-carrier revisit and manifest-order evidence only. It establishes no new
+question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 167
+
+`src_16f3e72b07c1848bea17` is re-exhausted without double counting: every rendered page, native
+prompt, option, T/F line, written/case operation, absent answer, exact PDF repeat, changed limb
+wording, PDF-answer-only companion slot, heading, metadata field, visible-authority limit,
+Family-6/166 companion relation, original collapse/search boundary, zero gate, and cumulative term
+is assigned once, with **zero remainder** and no Family-167 blocker. The exact next manifest
+record is tier-3 solved source `src_83c77a2c46ce746c1981` · `MCQs - College MCQs neoplasia 4
+answer.pdf`, SHA-256 `83c77a2c46ce746c19816a5f4b67b99adc035c61691b3f32c1c5090ccaef4961`,
+**454,079 bytes**, 16 native-text portrait US-letter pages under `Pathology / Questions / MCQs`.
+Its independent solved prompt/answer boundary, Family-4/163 unkeyed-companion relation, search
+gate, arithmetic, and exact next-source blockers remain to be exhausted.
