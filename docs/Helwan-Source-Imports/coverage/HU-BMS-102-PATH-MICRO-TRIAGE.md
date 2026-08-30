@@ -21750,3 +21750,71 @@ absorbed state across a lipid bilayer; a NotebookLM mark is printed at lower rig
 timestamp is not an authenticated teaching or assessment date. Its provenance, teaching/prompt/
 answer/annotation boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 210 — NotebookLM pKa and membrane-absorption teaching diagram
+
+### Source identity, complete full-resolution boundary, provenance, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_6d5d6f7c4afca77eba5e` · `2026-07-20 06.26.31.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `6d5d6f7c4afca77eba5e92d69907664ae55566a570f34dad6a59408de2d87321` · **118,168 bytes** |
+| Format / complete read | **One 1280×714 landscape progressive JPEG**, JFIF 1.01 at 72 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. A NotebookLM product mark is visible at lower right. |
+| Complete visible content | The finished title is `The Mechanics of pKa and Drug Absorption`. A blue `WATER ENVIRONMENT` is labelled ionized, water-soluble, and poorly absorbed; an orange `LIPID BILAYER` is labelled unionized, lipid-soluble, and rapidly absorbed. The central statement is `Theory of pKa = Lipid Solubility`, followed by the completed explanation that pKa determines the ratio of ionized to unionized forms and only the unionized form readily passes through cellular membranes. Arrows and coloured molecules show the two states and the `ABSORBED STATE`. |
+| Visible/metadata provenance | The NotebookLM mark attributes the diagram's production environment, not an instructor or institution. No author, university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement only. The filename timestamp remains sequencing metadata rather than an authenticated teaching date or sitting. |
+| Sequence relation | The image graphically restates Family 206's handwritten ionization/pKa map and precedes a Dr-Elsawy two-state comparison. This is teaching-sequence reuse, not an independently tested recurrence. Adjacency does not prove common authorship or an assessment event. |
+| Authority | Low-authority product-marked teaching graphic. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+Every environment, ionization state, solubility property, absorption outcome, membrane layer,
+molecule path, and explanatory statement is already labelled. The diagram is declarative and
+contains no imperative, interrogative, blank, option set, response area, mark allocation, delayed
+key, specimen, requested identification, handwriting, or candidate answer. The NotebookLM mark is
+provenance, not response annotation.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Its pKa, ionization, lipid-solubility, and membrane-absorption
+content overlaps Families 202 and 206–207, but completed declarative overlap is not a tested-
+proposition recurrence, so no prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 210 | Auxiliary cumulative (Families 12–210) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 210
+establishes completed product-marked pKa/absorption teaching and manifest-sequence evidence only,
+not assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 210
+
+`src_6d5d6f7c4afca77eba5e` is exhausted at full image resolution: every visible title, environment,
+membrane layer, molecule/state label, explanatory sentence, arrow, product mark, provenance
+limitation, timestamp caution, sequence relation, zero gate, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-210 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_43552ab55cdf37e1d291` ·
+`2026-07-20 06.26.34.jpg`, SHA-256
+`43552ab55cdf37e1d291ae1379e0bf2cb3bc9644baa2dbc253ba87d8c3b44045`, **59,100 bytes**,
+**1280×673 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed `The Two States of a Drug Molecule` comparison attributed to
+`Dr-Elsawy`: ionized drugs are water-soluble, polar, and charged, while unionized drugs are fat-
+soluble, non-polar, and non-charged. The filename timestamp is not an authenticated teaching or
+assessment date. Its provenance, teaching/prompt/answer/annotation boundary, prior-BMS
+reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
