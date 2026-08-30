@@ -90,9 +90,10 @@ const PROCESSED_FAMILY_HASHES = [
   '44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff',
   '1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8',
   '7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043',
+  'c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = 'd2bdc4a5bdc804213e57bc176419530baa753a0886e57db8fb7d334c818c1ce1'
+const REMAINING_CHECKSUM = '2e0744ef8896b190d28932df7752958adf8be7268e124dc3f543d6531aaaac9b'
 
 function option(name) {
   const prefix = `${name}=`
@@ -169,10 +170,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 12, 'empty-text': 6 }
+  const expected = { 'audit-not-found': 12, 'empty-text': 5 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/0-sparse/6-empty/12-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/0-sparse/5-empty/12-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -222,7 +223,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 83 || remainingHashes.length !== 18 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 84 || remainingHashes.length !== 17 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -230,7 +231,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 6 }
+const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 5 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -334,6 +335,7 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[80], sourcePages: 3, renderedReadPages: '1-3', teachingPages: '1-3', numberedTeachingTips: 21, additionalTeachingTopics: 15, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Absalam101 student compilation of Dr. Ahmed Essam notes, with Word metadata naming 200057470-Abdel Salam Muhammad Abdel Salam Mahmoud and creation date 8 July 2025; no institution, examiner, sitting, marks or official-key claim, so filename-only Exam Night and Midterm wording is not examination authority', boundaryDisposition: 'pages 1-2 contain twenty-one numbered declarative upper-limb teaching tips and page 3 lists fifteen further important-topic reminders; question-like shorthand inside the topic list has no response field, option set, station instruction or supplied key and remains teaching rather than assessment', preservedSourceDefects: ['the page-1 Arabic note says important content may appear in the exam but does not authenticate an exam sitting', 'Erb and Klumpke paralysis, breast drainage, axillary anatomy, rotator cuff and nerve injury claims remain uncorrected teaching observations'] },
     { sha256: PROCESSED_FAMILY_HASHES[81], sourcePages: 1, renderedReadPages: '1', teachingPages: '1', topLevelTeachingBranches: 6, namedOrGroupedMuscleEntries: 51, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'filename-attributed Abdulazim Mohamed teaching mind map produced by iPhone OS 7.0.4 Quartz PDFContext with 6 January 2014 metadata; no institution, department, examiner, sitting, marks or official-key claim appears', boundaryDisposition: 'single portrait teaching mind map with six regional branches and fifty-one named or grouped muscle entries summarizing origin, insertion, nerve supply and action; colored lines and labels organize explanatory facts and do not form objective, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['source spelling including Ulner and flexor terinaculum remains uncorrected', 'selective origin, insertion, nerve-supply and action statements remain source observations rather than endorsed anatomy claims', 'numbered intrinsic-muscle families remain grouped teaching entries rather than manufactured assessment occurrences'] },
     { sha256: PROCESSED_FAMILY_HASHES[82], sourcePages: 1, renderedReadPages: '1', teachingPages: '1', diagrammedTeachingRegions: 4, namedOrGroupedArteryEntries: 10, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'filename-attributed Yumna handwritten teaching sheet scanned with CamScanner and produced by iOS Quartz on 28 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears, and filename-only midterm part wording is not assessment authority', boundaryDisposition: 'single scanned teaching diagram with four labeled arterial-anastomosis regions and ten named or grouped arterial entries; arrows and branches explain vascular connections but do not form objective, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['handwritten ditto marks and terminology remain uncorrected', 'edge-clipped text is retained only as visibly present and is not reconstructed', 'CamScanner author metadata is not promoted to named authorship or faculty authority'] },
+    { sha256: PROCESSED_FAMILY_HASHES[83], sourcePages: 3, renderedReadPages: '1-3', teachingPages: '1-3', muscleProfiles: 3, explanatoryOriginInsertionNerveActionFields: 12, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'visibly bylined Maii Mahmoud learner teaching handout scanned with CamScanner and produced by iOS Quartz on 11 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears', boundaryDisposition: 'three teaching-only pages profile pectoralis minor, subclavius and pectoralis major using already labeled anatomical illustrations and twelve handwritten origin, insertion, nerve-supply and action fields; no objective, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['source spelling including Pectralis remains uncorrected', 'page-1 near the tip not the tip correction remains a source annotation', 'text clipped within embedded notebook photographs is retained only as visible and is not reconstructed', 'labeled third-party illustrations remain teaching aids and are not manufactured into practical prompts'] },
   ],
   triageCumulative: { printedPromptObservations: 6997, printedKeyObservations: 6793, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },

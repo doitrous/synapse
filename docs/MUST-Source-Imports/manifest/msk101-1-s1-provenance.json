@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "d0014033b42a9490fd28fc0ad6eab5966934f7afe6a299e3cb7713de1fd8055b",
-    "triageMarkdown": "af50d060668166bba919e9bfce204edcf2eb2a09222638b1f7829d5d43f7709f"
+    "readinessMarkdown": "1986480970a4f29fe5b0d9267b89ee2664e417970f99f9b443a22f875a7b8dae",
+    "triageMarkdown": "80f717047b99dd73ebad373a2598869b155b7c02f690bbeb9853f11af14a11cf"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -118,6 +118,7 @@
       "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
       "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
+      "c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424",
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
       "ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b",
       "ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9",
@@ -135,7 +136,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 83
+    "uniqueSha256": 84
   },
   "completedSourceCoverage": [
     {
@@ -2667,6 +2668,36 @@
         "edge-clipped text is retained only as visibly present and is not reconstructed",
         "CamScanner author metadata is not promoted to named authorship or faculty authority"
       ]
+    },
+    {
+      "sha256": "c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "teachingPages": "1-3",
+      "muscleProfiles": 3,
+      "explanatoryOriginInsertionNerveActionFields": 12,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "visibly bylined Maii Mahmoud learner teaching handout scanned with CamScanner and produced by iOS Quartz on 11 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "three teaching-only pages profile pectoralis minor, subclavius and pectoralis major using already labeled anatomical illustrations and twelve handwritten origin, insertion, nerve-supply and action fields; no objective, written, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "source spelling including Pectralis remains uncorrected",
+        "page-1 near the tip not the tip correction remains a source annotation",
+        "text clipped within embedded notebook photographs is retained only as visible and is not reconstructed",
+        "labeled third-party illustrations remain teaching aids and are not manufactured into practical prompts"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2678,22 +2709,22 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 18,
-    "uniqueSha256": 18,
-    "sortedNewlineSha256": "d2bdc4a5bdc804213e57bc176419530baa753a0886e57db8fb7d334c818c1ce1",
+    "inventoryMetadataRows": 17,
+    "uniqueSha256": 17,
+    "sortedNewlineSha256": "2e0744ef8896b190d28932df7752958adf8be7268e124dc3f543d6531aaaac9b",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
-      "empty-text": 6
+      "empty-text": 5
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
-    "empty-text": 6
+    "empty-text": 5
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 83,
-    "remainingUniqueSha256": 18,
+    "processedUniqueSha256": 84,
+    "remainingUniqueSha256": 17,
     "processedPlusRemaining": 101
   }
 }

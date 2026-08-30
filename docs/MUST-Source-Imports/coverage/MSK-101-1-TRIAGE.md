@@ -3369,3 +3369,41 @@ Removing the eighty-three processed unique hashes leaves **18 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pectoral region notes (by Maii Mahmoud✨).pdf`, SHA-256 `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 18 selected inventory paths / 18 unique hashes remain untriaged.
+
+## Completed teaching-only source — Pectoral region notes (by Maii Mahmoud)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pectoral region notes (by Maii Mahmoud✨).pdf` | `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424` | 3 | empty-text audit sample | pages 1–3 rendered and read | Each page visibly carries a `Maii Mahmoud ✨` byline and combines handwritten teaching notes with labeled third-party anatomical illustrations. PDF title is `Pectoral region notes`, author metadata is `CamScanner`, and iOS Quartz creation/modification is dated 11 October 2024. No institution, department, examiner, sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pectoral region notes (by Maii Mahmoud✨).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+Pages 1–3 are teaching profiles for pectoralis minor, subclavius and pectoralis major respectively. Each page combines one or more already labeled anatomical illustrations with handwritten origin, insertion, nerve-supply and action notes. This yields three muscle profiles and twelve explanatory origin/insertion/nerve/action fields.
+
+The exact boundary is **3 teaching-only pages / 3 muscle profiles / 12 explanatory fields / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. The anatomical images disclose their labels and accompany notes; no label is removed, no instruction asks for identification and no response space appears, so they are teaching illustrations rather than practical stations.
+
+### Authority, source truth and search gate
+
+The visible byline and filename establish a named Maii Mahmoud learner artifact only. CamScanner authorship, iOS production metadata and placement in a Midterm folder do not authenticate a MUST/MSK assessment, examiner or faculty key. Selective content, spelling such as `Pectralis`, the page-1 correction `near the tip not the tip`, and text clipped inside embedded notebook photographs remain source observations without reconstruction or academic correction.
+
+No assessment prompt or candidate handle exists, so source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Prior-MSK prompt deduplication is not applicable to teaching-only profiles.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **6997 questions / 6793 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6997 | 6793 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-four processed unique hashes leaves **17 selected inventory paths / 17 unique SHA-256s**. Their sorted, newline-joined hash checksum is `2e0744ef8896b190d28932df7752958adf8be7268e124dc3f543d6531aaaac9b`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 5 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`84 + 17 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Spaces midterm (By Yumna).pdf`, SHA-256 `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`, 2 pages.
+
+**BLOCKED — S1 cannot be approved:** 17 selected inventory paths / 17 unique hashes remain untriaged.
