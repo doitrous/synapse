@@ -5571,3 +5571,112 @@ SHA-256 `24071cf85eb1a9ea9c62b2019439c2e0822f1a4686815abf70781ab4ae828018`) unde
 103/Anatomy/Theoretical/Lower Limb/Lec 7 - Development of Limbs & Anatomy of Foot/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 47 — Tier-4 limb-development teaching-only lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_24071cf85eb1a9ea9c62` |
+| File / SHA-256 | `Development Limbs.pdf` / `24071cf85eb1a9ea9c62b2019439c2e0822f1a4686815abf70781ab4ae828018` |
+| File boundary | 320,989 bytes · unencrypted PDF · 7 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 7 - Development of Limbs & Anatomy of Foot/Development Limbs.pdf` |
+| Visible provenance | p. 1 prints `Development of Limbs`, `Dr. Sarah Arakib` and `MD Anatomy and Embryology`; PDF author is `Lenovo` and creator/producer is Microsoft PowerPoint for Microsoft 365 |
+| Authority finding | Manifest/path-placed local tier-4 embryology teaching evidence. It is not a sitting paper, station sheet, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and seven-page boundary were recomputed and match the assigned
+source. All seven pages were rendered at 180 dpi and read against the native text layer.
+Page 1 is the title/provenance slide, pp. 2–3 teach limb-bud formation and early patterning,
+p. 4 teaches limb rotation, p. 5 teaches limb ossification, p. 6 teaches congenital limb
+anomalies, and p. 7 closes with `Thank You`.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. Every sentence, heading, photograph and diagram is simultaneous
+declarative teaching. No page contains an instruction to identify a structure, interrogative
+stem, option set, response field, answer blank, mark allocation, correctness convention or
+answer reveal.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+| Physical page | Source-first instructional composition | Teaching occurrences / unresolved residue |
+|---:|---|---:|
+| 2 | fourth-week limb buds, tissue origins, somite-derived muscle, ectoderm and apical ectodermal ridge | 1 teaching composition; two opaque blue overprints mask embedded diagram labels |
+| 3 | hand/foot plates, limb constrictions, digit separation and condensation→chondrification→ossification sequence | 1 teaching composition |
+| 4 | seventh-week upper-limb lateral and lower-limb medial rotation | 1 teaching composition |
+| 5 | primary/secondary ossification-centre timing and diaphysis/epiphysis progression | 1 teaching composition |
+| 6 | brachydactyly, syndactyly, polydactyly and cleft-foot definitions | 1 teaching composition |
+| **Total** | **tier-4 instructional compositions** | **5 teaching compositions / 2 unresolved teaching-only figure labels** |
+
+The **five content-slide occurrences are five source-distinct teaching compositions**.
+SHA-256 comparison of all seven rendered complete pages found no exact full-page duplicate
+to collapse. The two opaque p. 2 rectangles are retained as unresolved embedded teaching
+callouts rather than silently reconstructed; because there is no student-facing instruction,
+response convention or answer reveal, they are **not ordinary assessment prompts, keys or
+assessment residues**, and because the source is theoretical they do not enter the tier-5
+practical residue ledger. The source boundary is therefore **5 teaching compositions / 0
+ordinary questions / 0 practical or station prompts / 0 printed assessment keys / 0
+assessment residues** and adds **0 practical plates, 0 practical label mappings and 0
+practical residues**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The five compositions consolidate to six source-level theoretical teaching scopes; p. 2
+supports three scopes without being counted three times in the physical-slide total.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `lower-limb-bud-development` · pp. 2–3 | lower limb bud development; limb buds fourth week; forelimb hindlimb outpocketings; limb bud mesenchymal core | pending 103-BMS material owns timing and formation; exact accepted Family-20 handle — prior LCS reuse |
+| `lower-limb-muscle-embryology` · p. 2 | lower limb muscle embryology; limb muscles dorsolateral somite; somitic cells migrate limb bud; limb muscle development myotome | pending embryology material owns the somite/myotome origin; exact accepted Family-20 handle — prior LCS reuse |
+| `apical-ectodermal-ridge-and-digit-separation` · pp. 2–3 | apical ectodermal ridge; AER limb development; AER digit separation cell death; hand plate footplate constrictions | pending 103-BMS AER material can absorb digit-separation detail; exact accepted Family-20 AER handle — prior LCS reuse |
+| `lower-limb-medial-rotation` · p. 4 | lower limb rotation; medial rotation limb bud; limb development rotation; ninety degree medial rotation | pending 103-BMS material owns the 90-degree medial rotation; exact accepted Family-20 handle — prior LCS reuse |
+| `limb-ossification-timeline` · pp. 3, 5 | limb ossification timeline; primary ossification centers twelfth week; limb bone chondrification ossification; diaphysis epiphysis birth ossification | no direct live/pending complete-scope hit and no accepted prior-LCS complete handle — new theoretical teaching |
+| `limb-reduction-and-digit-anomalies` · p. 6 | brachydactyly syndactyly polydactyly; cleft foot limb anomaly; congenital anomalies limbs digits; short fused extra digits | pending Kasr material owns these digit/cleft-foot anomalies; exact accepted Family-1 handle — prior LCS reuse |
+
+All **6 × 4 = 24** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **0 live / 5 pending / 1 new**; exact
+accepted-prior comparison prevents five repeated module additions, leaving **five prior-LCS
+reuses / one new theoretical teaching scope**. There is no assessment handle to search.
+Declarative teaching scopes do not enter the eligible tested-concept count, and no
+theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 47 | Family 47 delta | After Family 47 |
+|---|---:|---:|---:|
+| Eligible observed question records | 458 | +0 | 458 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 211 | +0 | 211 |
+| Question live / pending / new | 9 / 56 / 146 | +0 / +0 / +0 | 9 / 56 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `5 = 1 + 1 + 1 + 1 + 1`, `2 unresolved
+teaching labels = 0 assessment prompts + 0 practical residues`, `0 prompts = 0 source
+handles`, `458 + 0 = 458`, `242 + 0 = 242`, `211 + 0 = 211`, `9 + 56 + 146 = 211`,
+`251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-46
+remainder leaves **29 rank-4/rank-5 path instances / 27 unique hashes**. The Family-46
+method was reproduced first: its 30/28 row sets recomputed to
+`07baa4cee486ca13352a662bcb85745525027ecb37b91eee7f3d7ecd3e0978e7` and
+`af858e27a73011813da686f145d3f3ca27a0fdf8bf566414849f05d94fd68252`.
+For the exact post-Family-47 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`7e420c23d2b7b34280c93094595460743894aa1c6edaa5f32b8e60104be7b2d0`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`fc765beb04dfd0fdd1bb92c24861cab77a4eb2de6eee1915a30d83573bb6130d`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_c7d6856e377ba67b8a0a`, `Foot.pdf` (276,144 bytes; 10 native-text pages; SHA-256
+`c7d6856e377ba67b8a0ab10de783f92c4b581514e8a9e7dd75a13991aa4d036a`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 7 - Development of Limbs & Anatomy of Foot/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
