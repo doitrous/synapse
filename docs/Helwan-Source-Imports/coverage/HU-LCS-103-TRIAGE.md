@@ -12599,3 +12599,98 @@ The exact next tier-3 manifest-order debt is `src_bfa0f375372fa3714e09`,
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 121 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 110 — Tier-3 external Anatomy Lecture 4 leg neurovascular keyed question set
+
+### Exact identity, provenance and complete nine-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_bfa0f375372fa3714e09` / `bfa0f375372fa3714e09c3320df27f9e6a56d8263d4fdf3a246a08f0e6305403` |
+| File / boundary | `MCQs - External MCQs Anatomy Lecture 4.pdf` · 289,439 bytes · unencrypted, untagged PDF · 9 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy Lecture 4.pdf` |
+| Visible / container provenance | The document heading is `Anatomy Lecture 4 Questions:`. PDF metadata names author `312308310 Arwa Atef Mohamed Mohamed`, Microsoft Word 2016 creator/producer and 16 July 2024 creation/modification. It prints no Helwan University, faculty, LCS-103 cohort, sitting or official-key mark. |
+| Authority finding | External student/review question set under the manifest's explicit `External MCQs` path. Every prompt fits LCS-103 leg/foot neurovascular Anatomy, but none is eligible Helwan assessment evidence. |
+
+The assigned hash, byte size and nine-page boundary were recomputed and match. Native text
+was extracted, all nine pages were rendered at 150 dpi and read visually in source order from
+Q1 through the complete answer-grid endpoint. The source PDF itself was not changed.
+
+| Physical pages | Visible units | MCQ prompts | Written/fill prompts | Printed keys/answers |
+|---|---|---:|---:|---:|
+| p. 1 | Q1–Q7 | 7 | 0 | 7 |
+| p. 2 | Q8–Q14 | 7 | 0 | 7 |
+| p. 3 | Q15–Q21 | 7 | 0 | 7 |
+| p. 4 | Q22–Q29 | 8 | 0 | 8 |
+| p. 5 | Q30–Q37 | 8 | 0 | 8 |
+| p. 6 | Q38–Q45 | 8 | 0 | 8 |
+| p. 7 | Q46–Q54 | 9 | 0 | 9 |
+| p. 8 | Q55–Q61 | 5 | 2 | 7 |
+| p. 9 | answer grid Q1–Q61 | 0 | 0 | 0 additional prompts; 61 answers total above |
+| **Family 110** | **Q1–Q61 once each** | **59** | **2** | **61** |
+
+Q58 and Q59 are complete written fill prompts for the drainage of the small and long
+saphenous veins, and both have printed answers. No prompt is unkeyed. Q60's long description
+of superficial lymphatic routes is part of its numbered MCQ stem, not a separate teaching
+unit. There is no declarative teaching-only section, illustration, specimen, radiograph,
+micrograph, practical station, masked label, apparatus task or response form. Practical delta
+is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys /
+0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 61 occurrences form the following exhaustive one-assignment partition:
+
+| Source-first tested handle | Assigned prompts | Occurrences |
+|---|---|---:|
+| popliteal-artery course, termination and branches | Q1–Q4 | 4 |
+| anterior-tibial-artery course and relations | Q5–Q7, Q12–Q14, Q16 | 7 |
+| anterior-tibial branches and anastomoses | Q8–Q11 | 4 |
+| posterior-tibial-artery course and termination | Q15, Q17–Q21 | 6 |
+| posterior-tibial-artery branches | Q22–Q24 | 3 |
+| fibular-artery branches and anastomoses | Q25–Q31 | 7 |
+| sciatic-nerve division | Q32–Q33 | 2 |
+| tibial-nerve roots and branches | Q34, Q39 | 2 |
+| leg-and-foot cutaneous nerve territories | Q35–Q38, Q44–Q47 | 8 |
+| common, deep and superficial fibular nerves | Q40–Q43, Q48–Q49 | 6 |
+| deep lower-limb venous drainage | Q50–Q54 | 5 |
+| superficial saphenous venous drainage | Q55–Q59 | 5 |
+| lower-limb lymphatic drainage | Q60–Q61 | 2 |
+| **Family 110** | **Q1–Q61 once each** | **61** |
+
+Each of the **13 handles** received one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **13 × 4 = 52 required search invocations**.
+Prior-external-first comparison finds all 13 already represented in Family 86's lower-limb
+compilation; Families 39–45 independently own or corroborate the curriculum scopes but
+cannot promote this external source. Reconciliation is **13 prior-external reuses + 0
+external additions = 13**, so external and eligible concept-state deltas are both zero. The
+exact 52-query ledger is preserved at `tmp/pdfs/lcs103-family110/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,329 / 3,242 / 221 = 12 / 135 / 74** to **3,390 external prompts / 3,303
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `3,329 + 61 = 3,390`, `3,242 + 61 = 3,303`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-109 remainder. Removing its sole path leaves
+**120 all-rank path instances / 112 unique hashes**: tier 3 **38 paths / 35 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 109's prior checksums are
+`b51e6103accfea2c9b134f1d101e68213e459bc0fcfd8d9aed2544f28cd9069d` (paths) and
+`fcaa0a2d513516721c1abf65cd07bffff411077308fd6da8c91f9b7bb1f0d3e0` (unique hashes).
+For the exact post-Family-110 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0b561e720229837613b4b47d5189750256cf9e44502a6bd9d9e1a3cbfb86d30e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`32e4781904f9283c7134558998dc8552432b52d24a075dbe6e986908a14fc34d`.
+
+The exact next tier-3 manifest-order debt is `src_72441d361c843437605c`,
+`MCQs - External MCQs Anatomy Lecture 5.pdf` (267,193 bytes; 5 native pages; SHA-256
+`72441d361c843437605c383faa7d50129e886bc7551a1e0f5e3afc82c707cc53`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 120 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
