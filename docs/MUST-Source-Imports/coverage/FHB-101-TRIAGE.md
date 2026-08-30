@@ -6793,3 +6793,47 @@ Removing this pinned empty-text path and unique hash leaves **5 selected invento
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/blood (formative exam).pdf`, SHA-256 `22d1470f3f47d2765f6533e94fc54c0767f3667fc1ef67060c815283bb39adc4`, 2 pages.
 
 **BLOCKED — S1 cannot be approved:** 5 selected source paths remain untriaged.
+
+## Completed source — blood (formative exam)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/blood (formative exam).pdf` | `22d1470f3f47d2765f6533e94fc54c0767f3667fc1ef67060c815283bb39adc4` | 2 | audit-not-found (pinned empty-text extraction checkpoint) | pages 1–2 rendered and read | Microsoft Word export created and modified 10 November 2024, with metadata author `Maher`. The filename calls it a formative exam, but neither page prints an institution, department, examiner, sitting, date, marks, official key or document title. It is therefore a local underlined formative/revision sheet, not an official MUST examination or validated key. |
+
+### Exact prompt, answer and teaching boundary
+
+Page 1 contains Q1–Q9 and page 2 contains Q10. All ten are four-option MCQs, and each has exactly one visibly underlined option. There is no separate key, practical-identification item, written prompt or teaching-prose section. The exact boundary is therefore **10 prompt occurrences / 10 printed selected-option observations / 10 prompt-matched recovered answers**.
+
+The printed selections are Q1 `a` albumin, Q2 `a` A/G 1.2–1.6, Q3 `c` albumin has the highest plasma-protein concentration, Q4 `b` blood is 55% RBCs and 45% plasma, Q5 `b` sodium is the main plasma cation, Q6 `b` RBCs are biconvex, Q7 `c` interstitial fluid is the main part of ECF, Q8 `a` plasma proteins are dynamic structures, Q9 `d` erythropoietin speeds all stages of erythropoiesis, and Q10 `d` HbF has higher oxygen affinity than HbA. The visibly questionable Q4, Q6 and Q9 claims were retained exactly as printed; no answer was corrected or inferred.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+The source is byte-distinct and is not a prompt-sequence duplicate of a completed source. Its ten scopes are, however, direct or near repeats of concepts already assigned in the completed body-fluid, plasma-protein, RBC, erythropoietin and haemoglobin banks. All ten occurrences were assigned once across five handles, reconciling as **4 + 3 + 1 + 1 + 1 = 10**. Each handle received the four exact searches shown below across live, server, pending/import-ready and documentation evidence, for **5 × 4 = 20 searches**.
+
+| Handle | Assigned prompt occurrences and exactly four search phrases | External / prior-FHB disposition |
+|---|---|---|
+| H1 | Q1–Q3/Q8, plasma proteins, A/G ratio and albumin (`plasma protein colloidal osmotic pressure albumin`; `albumin globulin ratio 1.2 1.6`; `albumin highest concentration plasma proteins`; `plasma proteins dynamic structures coagulation`) | new externally; exact completed prior-FHB plasma-protein reuse. |
+| H2 | Q4–Q6, blood/plasma/RBC composition (`blood 55 percent RBC 45 percent plasma`; `plasma main cation sodium protein concentration`; `red blood cells 5.4 million potassium`; `blood viscosity mainly red blood cells`) | new externally; exact completed prior-FHB blood-composition/RBC reuse. |
+| H3 | Q7, body-fluid compartments (`interstitial fluid main extracellular compartment`; `intracellular fluid 40 percent body weight`; `extracellular fluid 20 percent body weight`; `chloride main extracellular anion`) | new externally; exact completed prior-FHB body-fluid reuse. |
+| H4 | Q9, erythropoietin and erythropoiesis (`erythropoietin secretion androgens acidosis`; `erythropoietin speeds erythropoiesis stages`; `erythropoietin kidney hypoxia adult`; `androgens stimulate erythropoiesis`) | new externally; exact completed prior-FHB erythropoietin reuse. |
+| H5 | Q10, fetal/adult haemoglobin oxygen affinity (`fetal hemoglobin higher oxygen affinity adult`; `hemoglobin carbon monoxide affinity`; `hemoglobin male concentration grams`; `ferrous ferric hemoglobin reducing agents`) | new externally; exact completed prior-FHB haemoglobin/HbF reuse. |
+
+The source-level external split is **0 live / 0 pending / 5 new = 5 accepted handles**. Every handle collapses to completed prior-FHB assignments, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+10 questions / +10 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 8043 | 7626 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this pinned empty-text path and unique hash leaves **4 selected inventory paths / 4 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `fe05f99605ed81f9dc515c499c537e185fadc7ce3f410fe1aea04a4063acd677`. Pinned triage debt becomes **zero substantive-text / zero sparse-text / four empty-text** rows, and unique-hash accounting is **`102 + 4 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology Notes (by Ziad).pdf`, SHA-256 `932903de6c1ea6b2fce84c5d8597d8402885492ec4848fdf39b495922b3797c7`, 8 pages.
+
+**BLOCKED — S1 cannot be approved:** 4 selected source paths remain untriaged.
