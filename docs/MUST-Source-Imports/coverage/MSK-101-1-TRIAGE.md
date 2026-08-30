@@ -2360,3 +2360,49 @@ Removing the sixty processed unique hashes leaves **42 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Solo mcqs anatomy.pdf`, SHA-256 `141e06b1f73fbf97641d4932acf78a782660835681941c18728361b8f87aa639`, 21 pages.
 
 **BLOCKED — S1 cannot be approved:** 42 selected inventory paths / 41 unique hashes remain untriaged.
+
+## Completed mixed-module source — Solo mcqs anatomy
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Solo mcqs anatomy.pdf` | `141e06b1f73fbf97641d4932acf78a782660835681941c18728361b8f87aa639` | 21 | substantive-text audit sample | pages 1–21 rendered and read | Solo Team student revision compilation created in Microsoft Word 2016 on 30 October 2024; metadata names Mostafa Rabea Alsayd Hafez and records iLovePDF as producer. No printed institution, department, examiner, sitting, marks or official faculty-key claim appears. The folder and revision branding do not authenticate a MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Solo mcqs anatomy.pdf" purpose="source"}
+
+### Exact prompt, key and cross-module boundary
+
+All 21 pages contain text-only MCQs. Pages 1–9 print a continuous Q1–Q36 regional-anatomy sequence. Page 10 prints Q37 and the complete Q1–Q37 answer table. Page 11 restarts numbering under the literal heading `Anatomy fhb`; pages 11–21 print Q1–Q40 on gametogenesis, early embryology, placentation and germ-layer derivatives without any selection, highlight, underline, inline answer or terminal key.
+
+| Pages | Visible bank | MCQ prompts | Printed answer observations | Source-unkeyed | Written | Practical/image | Teaching |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 1–10 | Upper limb, axilla, mammary gland and brachial plexus Q1–Q37 | 37 | 37 | 0 | 0 | 0 | 0 |
+| 11–21 | `Anatomy fhb` general embryology Q1–Q40 | 40 | 0 | 40 | 0 | 0 | 0 |
+| **Total** | **Two independently numbered MCQ banks** | **77** | **37** | **40** | **0** | **0** | **0** |
+
+The 40 absent embryology answers remain source-absent and are not inferred. The second bank is retained because it is physically present in the selected source, but its literal FHB label and general-embryology scope are recorded rather than silently reclassified as MSK regional anatomy.
+
+Preserved defects include the first bank's Q26 presenting `True` as option A followed by three unrelated anatomical statements; repeated mammary-lymphatic, clavipectoral-fascia, axillary-artery, brachial-plexus and axillary-nerve stems; the second bank's Q3 asking for the female gamete without printing an ovum/oocyte option; numbering restarting at Q1; and printed wording and academically questionable options and answers. No source claim is repaired.
+
+### Internal collapse, prior-MSK and cross-module disposition
+
+The first bank's candidate scopes are mammary-gland lymphatics, pectoral/scapular muscles, axilla and spaces, axillary vessels and brachial plexus. These map completely to the completed Upper Limb Anatomy H1–H5 family. The second bank's gametogenesis, fertilization, cleavage, implantation, gastrulation, notochord, germ-layer derivatives, somites and placenta map to the completed General Embryology handle already accepted in the Anatomy family and are also cross-module FHB material.
+
+No genuinely new handle survives internal, prior-MSK and cross-module reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct two-bank compilation is now `sourceProcessed=true`. Its delta is **+77 questions / +37 answer observations / +0 concepts**. Cumulative arithmetic is **6002 + 77 = 6079 questions**, **5852 + 37 = 5889 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6079 | 5889 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, inferred answer, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-one processed unique hashes leaves **41 selected inventory paths / 40 unique SHA-256s**. Their sorted, newline-joined hash checksum is `a6eddfdcf811c151a259af11ba697307de0ed9f54e745f46b5894854bdb6b8b0`. Remaining audit-review debt is 15 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 2 audit-extract-failed rows, and unique-hash accounting is **`61 + 40 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/anatomy mcq (by Ahmed Hany).pdf`, SHA-256 `b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 41 selected inventory paths / 40 unique hashes remain untriaged.
