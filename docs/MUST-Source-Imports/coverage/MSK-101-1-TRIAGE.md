@@ -1922,3 +1922,45 @@ Removing the fifty processed unique hashes leaves **52 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - Anatomy MSK101-1 Exam Night Notes (Final).pdf`, SHA-256 `edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 52 selected inventory paths / 51 unique hashes remain untriaged.
+
+## Completed source — Anatomy MSK101-1 Exam Night Notes (Final)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - Anatomy MSK101-1 Exam Night Notes (Final).pdf` | `edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012` | 3 | sparse-text audit sample | pages 1–3 rendered and read | Absalam101 student-compiled teaching summary titled `Anatomy MSK101-1 Exam Night Notes (Final)` and attributed to `Dr. Ahmed Essam's Notes`. Microsoft Word metadata names an individual author and dates creation to 8 July 2025, but the file prints no institution, department, examiner, sitting, marks, assessment instructions or key claim. The EOM folder, `Final` title and metadata do not authenticate a MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - Anatomy MSK101-1 Exam Night Notes (Final).pdf" purpose="source"}
+
+### Exact teaching, assessment, practical and image boundary
+
+Pages 1–2 reproduce eight numbered teaching-note screenshots. The blue numerals label note blocks rather than questions: the blocks state nerve supplies and injuries, nerve/artery relationships, muscle attachments, wrist-joint surfaces, palmar arches, and pronation/supination facts. Page 3 is headed `Some other Important topics & notes` and lists twelve revision topics. None of the blocks or list items requests a response, supplies options, leaves a blank, assigns marks, or identifies an answer key.
+
+| Pages | Teaching material | Teaching units | Assessment prompts | Answers/keys | Written | Practical/image-identification |
+|---|---|---:|---:|---:|---:|---:|
+| 1–2 | Numbered note screenshots | 8 | 0 | 0 | 0 | 0 |
+| 3 | Important-topic checklist | 12 | 0 | 0 | 0 | 0 |
+| **Total** | **Teaching-only** | **20** | **0** | **0** | **0** | **0** |
+
+There are no MCQs, short-answer or written prompts, practical stations, diagrams requiring identification, photographs used as prompts, answer-only pages or unkeyed assessment material. The embedded nerve-distribution diagrams illustrate teaching tables and do not ask the reader to identify a structure. Source wording remains observational and uncorrected, including the page-3 statement that the radial artery is the continuation of the brachial artery `in cubital fossa`, along with selective shorthand and spelling in the screenshots.
+
+### Source-first assessment gate
+
+Because the complete source is teaching-only, no assessment family or accepted source handle exists. The exactly-four-search gate resolves as **`0 accepted handles × 4 = 0 searches`**. Prior-MSK deduplication is therefore not applicable at prompt level, and source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its boundary is **8 teaching-note blocks + 12 checklist items / 0 prompt observations / 0 answer observations**, so its delta is **+0 questions / +0 answers / +0 concepts**. Cumulative totals remain **5502 questions / 5395 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5502 | 5395 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty-one processed unique hashes leaves **51 selected inventory paths / 50 unique SHA-256s**. Their sorted, newline-joined hash checksum is `92972629ed233f13f60e14388cd0cb070b56d9c67e2128182eb6674949c9ed90`. Remaining audit-review debt is 22 substantive-text / 5 sparse-text / 8 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`51 + 50 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK101-1 final ex 2020.pdf`, SHA-256 `3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b`, 34 pages.
+
+**BLOCKED — S1 cannot be approved:** 51 selected inventory paths / 50 unique hashes remain untriaged.

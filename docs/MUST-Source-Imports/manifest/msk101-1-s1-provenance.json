@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "f070514f9de750dbf055afddaae433e2d90dfb3135f9112839f054da8e9c4b65",
-    "triageMarkdown": "d4f9775209d33c8e70eef27b8a104e47ede922e65db58e760676509511556644"
+    "readinessMarkdown": "19ebccdadc027959913f907a62440a220b709dbe80a07d43f46678aa176bdeb5",
+    "triageMarkdown": "389ca9b9c0d82eef11cd5cc2d0de0b93d7847289790852f0ba6ff8d3c8ec173a"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -98,11 +98,12 @@
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94",
       "eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb",
+      "edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012",
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 50
+    "uniqueSha256": 51
   },
   "completedSourceCoverage": [
     {
@@ -1361,6 +1362,34 @@
         "extensor carpi radialis brevis action is written as extension and abduction",
         "mixed origin and action shorthand is retained without correction"
       ]
+    },
+    {
+      "sha256": "edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "teachingPages": "1-3",
+      "numberedTeachingNoteBlocks": 8,
+      "topicChecklistItems": 12,
+      "printedPromptObservations": 0,
+      "writtenPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Absalam101 student-compiled exam-night teaching summary attributed to Dr. Ahmed Essam notes; Word metadata and EOM/final naming do not authenticate a MUST/MSK examination or faculty key",
+      "boundaryDisposition": "eight numbered teaching-note screenshots on pages 1-2 and a twelve-item important-topic checklist on page 3; no question, written prompt, MCQ, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "radial artery is stated to continue the brachial artery in the cubital fossa without specifying the division level",
+        "source spelling and selective shorthand are retained without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1372,14 +1401,14 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 52,
-    "uniqueSha256": 51,
-    "sortedNewlineSha256": "d76f04f79fe68c3d2043f43415f57f617a447d5083f98a20dd416803c394b612",
+    "inventoryMetadataRows": 51,
+    "uniqueSha256": 50,
+    "sortedNewlineSha256": "92972629ed233f13f60e14388cd0cb070b56d9c67e2128182eb6674949c9ed90",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
       "empty-text": 8,
-      "sparse-text": 6,
+      "sparse-text": 5,
       "substantive-text": 22
     }
   },
@@ -1387,13 +1416,13 @@
     "audit-extract-failed": 3,
     "audit-not-found": 13,
     "empty-text": 8,
-    "sparse-text": 6,
+    "sparse-text": 5,
     "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 50,
-    "remainingUniqueSha256": 51,
+    "processedUniqueSha256": 51,
+    "remainingUniqueSha256": 50,
     "processedPlusRemaining": 101
   }
 }

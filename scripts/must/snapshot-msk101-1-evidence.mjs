@@ -57,9 +57,10 @@ const PROCESSED_FAMILY_HASHES = [
   'd1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45',
   '396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358',
   '565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1',
+  'edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = 'd76f04f79fe68c3d2043f43415f57f617a447d5083f98a20dd416803c394b612'
+const REMAINING_CHECKSUM = '92972629ed233f13f60e14388cd0cb070b56d9c67e2128182eb6674949c9ed90'
 
 function option(name) {
   const prefix = `${name}=`
@@ -136,10 +137,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 8, 'sparse-text': 6, 'substantive-text': 22 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 8, 'sparse-text': 5, 'substantive-text': 22 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=22-substantive/6-sparse/8-empty/13-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=22-substantive/5-sparse/8-empty/13-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -189,7 +190,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 50 || remainingHashes.length !== 51 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 51 || remainingHashes.length !== 50 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -197,7 +198,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 8, 'sparse-text': 6, 'substantive-text': 22 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 8, 'sparse-text': 5, 'substantive-text': 22 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -268,6 +269,7 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[47], sourcePages: 8, renderedReadPages: '1-8', writtenPromptAndInlineAnswerPages: '1-8', printedPromptObservations: 47, writtenPrompts: 47, printedKeyObservations: 47, writtenAnswerObservations: 47, sourceAbsentAnswers: 0, exactNormalizedContentDuplicateOf: PROCESSED_FAMILY_HASHES[35], normalizedTokenSha256: '4a0353df1c8925d6b25118ac9639a3d677595e0950d8bbcc10db0319ccd2a1dd', familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'student-authored Written 101 predicted anatomy upper-limb bank with Ibrahim Osama/Word metadata; no authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'twenty-seven written prompts followed by a second Q1-Q20 sequence, all with inline bullet answers; no MCQ, practical, image-identification, teaching-only, answer-only or unkeyed material', preservedSourceDefects: ['posterior-compartment answer names superficial and deep extensor groups rather than enumerating their members', 'ulnar-nerve-in-forearm answer includes palmaris brevis', 'shoulder and wrist movement lists are visibly selective rather than exhaustive'] },
     { sha256: PROCESSED_FAMILY_HASHES[48], sourcePages: 7, renderedReadPages: '1-7', writtenPromptAndInlineAnswerPages: '1-7', printedPromptObservations: 30, writtenPrompts: 30, printedKeyObservations: 30, writtenAnswerObservations: 30, sourceAbsentAnswers: 0, familyQuestionDelta: 30, familyAnswerDelta: 30, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'image-only handwritten Predicted Qs (Written) notebook scan with CamScanner metadata; no authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'continuous Q1-Q30 short-written sequence with one inline handwritten answer per numbered prompt; no MCQ, practical, image-identification, teaching-only, answer-only or unkeyed material', preservedSourceDefects: ['Q2 labels the first and second lumbrical branch as lateral and medial', 'Q6 lists carpal tunnel syndrome as a median-nerve injury outcome', 'Q9 mixes arterial and nerve terminations into the fourth extensor-retinaculum compartment', 'Q16 lists the superficial terminal radial-nerve branch among cubital-fossa contents', 'inconsistent spelling and numbering are retained'] },
     { sha256: PROCESSED_FAMILY_HASHES[49], sourcePages: 5, renderedReadPages: '1-5', teachingPages: '1-5', teachingTableRows: 35, printedPromptObservations: 0, writtenPrompts: 0, objectiveMcqPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'image-only handwritten upper-limb muscle teaching tables with CamScanner/iOS metadata dated 14 January 2025; EOM folder and final filename do not authenticate a MUST/MSK examination or faculty-key authority', boundaryDisposition: 'thirty-five named muscle rows across five teaching tables; no question, written prompt, MCQ, practical, image-identification, answer-only or unkeyed assessment material', teachingBoundary: { upperArmRows: 4, anteriorForearmRows: 8, posteriorForearmSuperficialRows: 7, posteriorForearmDeepRows: 5, handRows: 11 }, preservedSourceDefects: ['flexor carpi radialis insertion is written as 2nd and 3rd metacarpal bones', 'extensor carpi radialis brevis action is written as extension and abduction', 'mixed origin and action shorthand is retained without correction'] },
+    { sha256: PROCESSED_FAMILY_HASHES[50], sourcePages: 3, renderedReadPages: '1-3', teachingPages: '1-3', numberedTeachingNoteBlocks: 8, topicChecklistItems: 12, printedPromptObservations: 0, writtenPrompts: 0, objectiveMcqPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Absalam101 student-compiled exam-night teaching summary attributed to Dr. Ahmed Essam notes; Word metadata and EOM/final naming do not authenticate a MUST/MSK examination or faculty key', boundaryDisposition: 'eight numbered teaching-note screenshots on pages 1-2 and a twelve-item important-topic checklist on page 3; no question, written prompt, MCQ, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['radial artery is stated to continue the brachial artery in the cubital fossa without specifying the division level', 'source spelling and selective shorthand are retained without correction'] },
   ],
   triageCumulative: { printedPromptObservations: 5502, printedKeyObservations: 5395, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
