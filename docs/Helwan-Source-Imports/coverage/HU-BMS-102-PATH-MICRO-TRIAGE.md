@@ -23208,3 +23208,88 @@ visibly begins a dense `Type / No. / Drug / Notes` table covering anti-histamine
 and anti-viral agents. Its complete provenance, teaching/prompt/key/practical boundary,
 four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 229 — anonymous 56-row pharmacology drug-and-notes reference table
+
+### Source identity, complete render/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_7f1c43fd157557bb60da` · `Drugs.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `7f1c43fd157557bb60da8c5a713ca4f69b8dcb531654c0422ba175ed0ee6b467` · **186,198 bytes** |
+| Format / complete visual boundary | **Three native-text portrait A4 pages, 595.32×841.92 points, PDF 1.7**. All three pages were rendered at 180 dpi into three non-empty 1,489×2,105-pixel images and read individually at original detail. Every `Type / No. / Drug / Notes` row, category band, wrapped continuation, border, and terminal empty formatting row is assigned below; there is no page or crop remainder. |
+| Native-text reality | Layout extraction contains **907 words / 11,635 bytes** and raw extraction contains **907 words / 5,991 bytes**. Both preserve all 56 numbered drug-note rows and agree with the renders. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Visible provenance | The carrier has no visible author, instructor, university/faculty, module code, academic year, date, assessment title, marks, candidate field, or page number. Category labels and row numbering identify table structure only. |
+| Metadata caution | Metadata title is `New Microsoft Excel Worksheet.xlsx`, author is blank, producer is Microsoft Print To PDF, and creation/modification is 8 May 2026. These are spreadsheet/export fields and cannot establish authorship, academic year, teaching date, sitting, or institutional authority. |
+| Authority | Local tier-6 anonymous study/reference table. Exact BMS-102 notes-folder placement establishes contextual course placement only; the carrier is not an authenticated Helwan lecture, assessment, answer key, or practical station. |
+
+### Complete page-first row, teaching, prompt, key, and practical boundary
+
+| Page | Exhausted visible rows | Boundary ruling |
+|---:|---|---|
+| 1 | Rows 1–14 `AntiHistamines`: prostaglandins/leukotrienes, adrenaline/steroids, mast-cell stabilizers, first- and second-generation antihistamines; rows 15–25 `Serotnine`: serotonin and receptor/reuptake/metabolism agonist/antagonist examples; rows 26–31 `AntiViral`: ledipasvir, sofosbuvir, ribavirin, interferon, lamivudine, and amantadine | **31 completed drug-note mappings / 0 prompts / 0 answers / 0 practical**. |
+| 2 | Rows 32–36 continue `AntiViral`: oseltamivir, zanamivir-labelled `Zahmulic`, acyclovir, ganciclovir, foscarnet; rows 37–47 `AntiCancer`: alkylators, antimetabolites, plant alkaloids, cytotoxic antibiotics, and cisplatin | **16 completed drug-note mappings / 0 / 0 / 0**. |
+| 3 | Rows 48–56 `AntiFungal`: amphotericin B, flucytosine, fluconazole, ketoconazole, caspofungin/micafungin, griseofulvin, terbinafine, voriconazole, and nystatin | **9 completed drug-note mappings / 0 / 0 / 0**. The blank grey terminal cells are an Excel print-layout remainder, not response fields. |
+
+The exact carrier inventory is **`31 + 16 + 9 = 56` populated teaching/reference rows**. Source
+spellings and phrasing—including `AntiHistamines`, `Serotnine`, `Promezaline`, `Fluxotine`,
+`Lidipasvir`, `Sofusvabir`, `Leamivudine`, `Amentadine`, `Osteolamvir`, `Zahmulic`, `Foscarent`,
+and other grammatical/scientific irregularities—are retained as source truth, not silently repaired
+or treated as answer-key anomalies.
+
+The governed source-local assessment boundary is **0 MCQs + 0 True/False + 0 written prompts + 0
+completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw prompt
+occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question records,
+and 0 prompt-like residues**. Row numbers enumerate reference entries; category colours and the
+filled `Drug / Notes` columns disclose content rather than request learner responses.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-handle
+row is fabricated. Many rows repeat antiviral, antifungal, anticancer, antihistamine, and serotonin
+propositions present in prior teaching or assessment families, but populated reference-table
+overlap is not a new tested-handle occurrence. Prior-BMS assessment reuse is therefore **0** and
+concept delta is **+0**.
+
+| Measure | Family 229 | Auxiliary cumulative (Families 12–229) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 229
+establishes completed pharmacology reference-table and source-provenance evidence only, not
+assessment, official-key, practical, verified-date, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 229
+
+`src_7f1c43fd157557bb60da` is exhausted across all three pages: every populated reference row,
+category label, wrapped continuation, source spelling, blank formatting cell, metadata limitation,
+zero gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-229
+blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 229 is **290 paths / 283 unique hashes**, leaving exactly **72 selected paths / 65
+unique hashes**. Checksums are **290 + 72 = 362 paths** and **283 + 65 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `a6809d0fc6e16c56ad855ce275ce3588aba938bd8b6d1081c331e3ee10a27050`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`a0b5d47c9ee7cf242dc1bdc178eb17fe3e97787e8b7d258b439824dd00dc3874`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_f9080e5f39d21e065bca` ·
+`Equations.pdf`, SHA-256
+`f9080e5f39d21e065bcaba0838d3ac2ac916b29d022f9cffa68090cc17064e1b`, **348,408 bytes**,
+**one OCR-needed 612×866-point portrait page** under `Pharmacology / Notes and Summaries`. Its
+manifest snippet begins a dense pharmacology formula sheet covering bioavailability, loading and
+maintenance dose, therapeutic index, paediatric-dose rules, and body-surface-area calculation. Its
+complete full-resolution/OCR boundary, provenance, teaching/prompt/key/practical ruling,
+four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
