@@ -18739,3 +18739,95 @@ source `src_3f8527b376185eb3c2eb` · `MCQs - Pathology - INT mcq.pdf`, SHA-256
 16 OCR-needed portrait pages under `Pathology / Questions / MCQs`. Its visible `NERD` / `INT 108`
 authority, byte-identical Kasr-library carrier, complete prompt/key boundary, external zero gate,
 arithmetic, and subsequent next-source debt remain to be separately reconciled.
+
+## Family 178 — byte-identical Kasr NERD INT-108 pathology excerpt
+
+### Source identity, complete render/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_3f8527b376185eb3c2eb` · `MCQs - Pathology - INT mcq.pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `3f8527b376185eb3c2eb99c101ba1f3789d543d2f9849e71dadf15befd8f6ca4` · **3,782,128 bytes** |
+| Format / complete visual boundary | **16 portrait raster pages** at 1271×1797 pt. All 16 pages were rendered at 100 dpi into 16 non-empty 1766×2496 images and read at original detail. The bounded file is a pathology excerpt: 7 structural pages, 5 MCQ/key pages, and 4 written-prompt/answer pages. |
+| OCR/native-text reality | Native extraction contains **0 words / 16 form-feed bytes**. OCR across the complete render produced **2,691 words / 17,721 bytes** from the 13 text-bearing outputs; the three graphic-only section dividers correctly yielded no OCR text. Renders control structure, numbering, answer directionality, and anomalies. |
+| Visible identity | The cover and title identify the `NERD Medical Question Book`, `INT (108) Module`, `Multiple Choice & Short Essay Questions`, `1st Edition`, and the named collectors Mohamed Ramadan, Mayada Aziz, Nour Mohamed, and Mahmoud Abubakr, supervised by Omar Elazab. The title page states `For personal use only` and copyright © 2025. No Helwan identifier, official sitting, marks, candidate field, or faculty authentication is visible. |
+| Metadata caution | PDF title/subject `Pathology - INT`, CamScanner authorship, and `intsig.com` production identify export history only. They do not establish university or sitting authority. The visible 2025 copyright is edition/publication evidence, not an exam date. |
+| Exact external carrier | The file is byte-identical in size and SHA to `/Users/doitrous/Desktop/Kasr Alainy/y1/108 INT/Department Questions/Department Question Bank - DOIT-2 IMPORTANT Pathology - INT MCQ (2).pdf`. This exact duplicate confirms the standing post-Family-10 Kasr/INT-108 exclusion already recorded for this source. |
+| Authority / eligibility | External Kasr-library NERD module question excerpt. It is indexed for source-format, prompt, answer, anomaly, and provenance evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. Local Helwan-folder placement cannot override the exact external carrier. |
+
+### Complete prompt, answer, section, and practical boundary
+
+The complete source-local question layer is **62 prompt occurrences + 62 source-supplied answers**:
+
+- **Pages 1–5:** cover, title/copyright, contents, `Section I MCQ`, and `Part 1 Pathology`
+  structural pages. The contents project a larger combined pathology/pharmacology book; its listed
+  topics and absent printed pages are not questions carried by this 16-page excerpt.
+- **Pages 6–9:** pathology cellular-response-to-injury MCQ **Q1–Q38**. The visible matching block
+  Q9–Q13 contains five separately numbered source items and therefore remains five occurrences.
+  Case narratives and a stem describing microscopic findings remain text MCQs; none supplies an
+  image, specimen, station instruction, candidate operation, time, or mark allocation.
+- **Page 10:** one source-supplied answer-grid entry for each MCQ Q1–Q38: **38 answers**. The grid
+  is a source solution layer, not an authenticated Helwan key or candidate response.
+- **Pages 11–12:** `Section II Short Essay` and repeated `Part 1 Pathology` structural dividers.
+- **Pages 13–16:** **24 visible short-essay prompts with 24 adjacent supplied answers**. Source
+  numbering visibly contains Q1 and Q5–Q27; Q2–Q4 are absent from this carrier and are not
+  fabricated. Definitions, enumerations, mechanism questions, comparisons, and supplied tables
+  remain written study-book operations, not practical stations.
+
+The exact checksum is **`38 MCQs + 24 written = 62 prompts`; `38 grid entries + 24 adjacent
+written answers = 62 supplied answers`; `7 structural + 5 MCQ/key + 4 written/answer = 16
+pages`**. There are **0 diagnostic-image prompts, 0 drawing tasks, 0 authenticated practical
+stations, 0 candidate responses, and 0 unassigned residues**.
+
+Source anomalies are preserved rather than silently corrected. The missing written numbers Q2–Q4
+remain a visible numbering gap. Written Q16 requests four types of necrosis but supplies five;
+Q21 requests four physiological examples yet its fourth supplied item concerns defective cells
+with DNA damage; Q22 requests four pathological examples but supplies six; and Q26's comparison
+table visibly uses `Cytomegaly` under necrosis. Similar wording clusters across the MCQ and written
+sections remain source-local evidence and do not manufacture eligible recurrence.
+
+### Exact duplicate/external zero gate and search disposition
+
+Eligibility is resolved before semantic retention. The exact byte duplicate in the Kasr INT-108
+department-question library, visible `NERD` / `INT (108)` identity, and absence of Helwan
+counterevidence make all 62 prompts and 62 answers externally governed. Therefore Family 178
+yields **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted handles / 0
+prior-BMS reuse assignments / +0 concepts**. Potential overlaps with Families 174–177 and other
+cell-injury sources are not promoted into Helwan recurrence or answer authority.
+
+Exactly four searches are required only per accepted handle. The governed result is **`0 accepted
+handles × 4 = 0 required and completed searches`**. Searching excluded external prompts would not
+alter provenance and would fabricate an eligible recurrence ledger.
+
+### Family-178 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 178 source-local | Eligible delta | Auxiliary cumulative (Families 12–178) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 62 (38 MCQ + 24 written) | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 62 (38 grid + 24 adjacent) | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | external exact duplicate | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-178 eligible arithmetic is independently zero. Corrected primary remains **762 / 405 / 552
+/ 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 178 establishes no Helwan question occurrence, key, tested concept, sitting, recurrence,
+mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 178
+
+`src_3f8527b376185eb3c2eb` is exhausted across all 16 pages: every structural page, MCQ, answer-grid
+entry, visible written prompt, supplied written answer, numbering gap, anomaly, provenance field,
+exact external carrier, eligibility term, and cumulative term is assigned once, with **zero
+remainder** and no Family-178 blocker.
+
+The exact next manifest record is tier-3 source `src_6c9475dcb27ad5dada45` · `MCQs - mcq
+circulatory disturbances.pdf`, SHA-256
+`6c9475dcb27ad5dada4528ddac653af9be4ff5b9fb2161cb1334d3d8d556d199`, **457,122 bytes**, **28
+native-text portrait letter pages** under `Pathology / Questions / MCQs`. Its visible `MCQs
+Circulatory disturbances From 2004 to 2013 prepared by Dr.Hamza Kheder` provenance and date range,
+complete prompt/key boundary, four-search/prior-BMS disposition, arithmetic, and subsequent exact
+next-source debt remain to be separately reconciled.
