@@ -549,10 +549,32 @@ The source is now `sourceProcessed=true`. Its completed delta is **+25 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histology MSK101-1 Cases Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Cases Questions.pdf` | `628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84` | 12 | substantive-text audit sample | pages 1–12 rendered and read | Microsoft Word 2024 metadata names Abdelsalam Bakr and records creation on 15 January 2026. The document has no institution, department, examiner, sitting, marks or official-key statement. It is a local question-only study-bank copy, not a documented examination or official key. |
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+Pages 1–12 contain **43 four-option MCQ occurrences / 0 printed-key observations / 43 source-absent answers**. There are **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-only pages**. The repeated opening Merkel-cell prompt is retained as a second occurrence, matching the sibling source exactly. No absent answer was inferred.
+
+### Exact prompt-sequence duplicate and search disposition
+
+The full extracted text is byte-for-byte identical to the already processed answer-bearing sibling `MCQs - Histology MSK101-1 Cases (Answers).pdf`, SHA-256 `2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0`: both extractions contain 14,158 bytes and 553 lines, with the same 43 prompts, options, order and pagination. Full visual comparison confirms the material distinction: the sibling bolds one answer option for every prompt, while this copy removes that bold answer styling. This is therefore an **exact prompt-sequence duplicate**, not a new assessment family.
+
+The source has **0 accepted new handles / 0 searches**, because repeating searches for a byte-identical prompt sequence would double-count the already completed seven-handle, 28-search family. Its distinct inventory hash is retained as processed while its family delta remains zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**. The cumulative total remains **1243 questions / 1173 answers / 27 concepts**, split **0 live / 1 pending / 26 new**.
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these sixteen processed paths and unique hashes leaves **87 selected inventory paths / 85 unique SHA-256s**. Their sorted, newline-joined hash checksum is `6eee5285ed7214cd77d1aeda1cd7f41a56fc8f4f2dfc99836c6f1cbebcf7bee2`. Remaining audit-review debt is 47 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`16 + 85 = 101`**.
+Removing these seventeen processed paths and unique hashes leaves **86 selected inventory paths / 84 unique SHA-256s**. Their sorted, newline-joined hash checksum is `c3b753278a615e6b24c64726d5d07b0375fbcd897f68f35fae38b3ce05d6b68e`. Remaining audit-review debt is 46 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`17 + 84 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Cases Questions.pdf`, SHA-256 `628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84`, 12 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Training Questions Final.pdf`, SHA-256 `847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124`, 28 pages.
 
-**BLOCKED — S1 cannot be approved:** 87 selected inventory paths / 85 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 86 selected inventory paths / 84 unique hashes remain untriaged.
