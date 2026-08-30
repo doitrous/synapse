@@ -16407,3 +16407,101 @@ physical OCR-needed 960 × 540 pt pages; SHA-256
 is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 80 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 151 — Tier-6 Helwan annotated teaching summary: common joint diseases
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d4eb45627d2020a0e09e` / `d4eb45627d2020a0e09e41fe5cfb8052deeb79b6303386ab966d9b0d2df502df` |
+| File / boundary | `103 LSC Approach to common joint diseases_240716_162502.pdf` · 1,555,891 bytes · untagged, unencrypted PDF 1.7 · 22 physical OCR-needed 960 × 540 pt pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/103 LSC Approach to common joint diseases_240716_162502.pdf` |
+| Visible / metadata provenance | P. 2 prints `APPROACH TO JOINTS’ DISEASE DISEASES`; the file shares the Samsung Electronics creator/producer, 16 July 2024 timestamp lineage, widescreen layout and handwritten-annotation style of Families 149–150. This file itself does not print a lecturer name or reference page. |
+| Authority finding | Manifest placement and the immediately adjacent matched-deck lineage establish an in-module Helwan teaching summary. The absent lecturer name is not inferred from the sibling files. It is not an exam, marking guide or practical station set. |
+
+The assigned SHA-256, byte size and 22-page boundary were recomputed and match. All 22 pages
+were rendered at 180 dpi, OCRed, and read visually against the sparse native extraction. Pp.
+1–3 are opening/title/objectives; pp. 4–9 compare osteoarthritis and rheumatoid arthritis,
+including distribution, progression, deformities and rheumatoid nodules; p. 10 covers
+seronegative spondyloarthropathies; pp. 11–14 cover gout, pseudogout and a three-way
+differential organizer; pp. 15–16 cover juvenile idiopathic and suppurative arthritis; p. 17
+is a transition; pp. 18–20 compare ganglion/synovial cysts with tenosynovial giant-cell
+tumour; and pp. 21–22 are summary/closing pages.
+
+There is **no assessment inventory**. Pp. 7, 9 and 13 print `Osteoarthritis Nodules???`,
+`Type of necrosis???` and `Nodules???`, respectively, but each supplies its answer on the same
+teaching slide: Heberden/Bouchard nodes, fibrinoid necrosis and tophus/tophi. Pp. 11 and 17
+print `Any question` as generic audience invitations. P. 14's differential categories are a
+completed lecturer organizer, not a learner response task. Objectives, headings and the
+summary are declarative. The exact boundary is therefore **0 eligible or external assessment
+prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts**.
+
+Source wording is preserved without repair. The title repeats `DISEASE DISEASES`; p. 10
+prints the handwritten phrase `deminished Lumber Lordosis`; and p. 12 includes `pseudo
+gouty`, `hyperuricimia` and `kidney insufficiecny`. These states remain teaching evidence and
+are not transformed into inferred questions or medically corrected content.
+
+### Practical and image boundary
+
+The deck contains comparative joint diagrams, hand-distribution graphics, clinical hand and
+foot photographs, gross and histology images and cyst/tumour illustrations. Every image is
+embedded in an explanatory slide with a supplied diagnosis, label or lecturer annotation.
+There is no specimen-identification instruction, masked label, numbered station,
+learner-completed map, response blank or practical key. The images remain declarative
+teaching evidence and add **0 practical prompts / 0 teaching plates / 0 mappings / 0
+practical residues / 0 practical keys**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The sequence consolidates to **7 source-distinct teaching handles**. Each handle received one
+query on each required surface.
+
+| Teaching handle | Four surface query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Osteoarthritis versus rheumatoid arthritis mechanism, distribution and nodes · pp. 4–7 | `osteoarthritis rheumatoid`; `osteophyte`; `Heberden`; `Bouchard` | Exact accepted Families 12, 18–21, 63, 65 and 79 disease/comparison core | prior-LCS teaching/tested reuse |
+| Rheumatoid stages, deformities and fibrinoid-necrosis nodule · pp. 8–9 | `rheumatoid nodule`; `fibrinoid necrosis`; `swan neck`; `boutonniere` | Exact accepted Families 63, 65 and 79 rheumatoid/nodule scope | prior-LCS teaching/tested reuse |
+| Seronegative spondyloarthropathy shared features, HLA-B27 and ankylosis · p. 10 | `seronegative spondyloarthropathy`; `HLA-B27`; `ankylosis`; `ligamentous attachment` | Exact accepted Family 63 tested scope | prior-LCS tested reuse |
+| Gout versus pseudogout crystals, podagra and tophi · pp. 11–14 | `gout`; `pseudogout`; `urate`; `calcium pyrophosphate` | Live gout/urate material and exact accepted Families 17–21, 62, 63, 65 and 79 scope | live and prior-LCS teaching/tested reuse |
+| Juvenile idiopathic arthritis definition and rheumatoid comparison · p. 15 | `juvenile idiopathic arthritis`; `oligoarthritis`; `ANA seropositivity`; `juvenile rheumatoid arthritis` | Exact accepted Families 21, 63 and 79 scope | prior-LCS tested reuse |
+| Suppurative arthritis routes, organisms and age associations · p. 16 | `suppurative arthritis`; `septic arthritis`; `gonococcus`; `Haemophilus influenzae` | Exact accepted Families 65 and 143 teaching/tested scope | prior-LCS teaching/tested reuse |
+| Ganglion/synovial cyst versus tenosynovial giant-cell tumour · pp. 18–20 | `ganglion cyst`; `synovial cyst`; `tenosynovial giant cell tumor`; `cyst no epithelial lining` | Exact accepted Families 21, 62, 63–65 and 79 clinicopathologic/practical scope | prior-LCS teaching/tested reuse |
+
+All **7 × 4 = 28 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **7 prior-LCS reuses + 0 additive theoretical teaching scopes**. The
+teaching-scope delta is therefore **0 live / 0 pending / 0 new**. Declarative theoretical
+teaching scopes do not enter the eligible tested-concept or practical-teaching-scope totals.
+Search matches establish coverage only and do not validate or repair lecturer annotations.
+Render/OCR/search scratch stayed outside the worktree under `/private/tmp/lcs103-family151/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This source hash occurs once in Family 150's remainder. Removing its sole path leaves **79
+all-rank path instances / 74 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **65 / 63**, and rank 9 **14 / 11**. Family 150's prior checksums are
+`05e4aeb3afe03c584c347d7f476a5339c998233e32ffeca516b3f9642daed9de` (paths) and
+`98bcdf0306ce66c928a15e79ba6fd71ee01efde6178de3ae7b86b39db0c8ac00` (unique hashes).
+For the exact post-Family-151 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`deb5b25d014955965790608bcdead9ba8b3bda4697d293e09fcbde79102178f0`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`3e3d41c5a784c24dab04753bdfcd5bf4f4bc31e5f3b7e2103f1e4713cd284911`.
+
+The exact next manifest-order debt is tier-6 `src_3f0791caafde419165d0`,
+`2026-07-20 05.33.07.jpg` (310,176 bytes; 1816 × 2560 JPEG; SHA-256
+`3f0791caafde419165d0429aa44ff05cad048b39b27e7daeab0cab1f02a3b3bd`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 79 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.

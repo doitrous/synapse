@@ -19020,3 +19020,111 @@ injury, general pathology (MW).pdf`, SHA-256
 OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible `Medicine Way`
 identity, complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS
 disposition, arithmetic, and subsequent exact next-source debt remain to be separately reconciled.
+
+## Family 181 — provenance-unverified Medicine Way / general-pathology cell-injury compilation
+
+### Source identity, complete rendered/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_369f34ceda29106d72b2` · `MCQs - mcq in Cell injury, general pathology (MW).pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `369f34ceda29106d72b207f2a3b4f36f17891b90b6dd021fbbdb817b876fc748` · **3,929,355 bytes** |
+| Format / complete read | **42 OCR-needed A4 pages** at 595×842 pt. Native extraction was genuinely empty (**0 words; 42 form feeds**). All 42 pages were rendered at 110 dpi into 42 non-empty images (40 portrait 910×1287 and two landscape 1287×910), read at original detail, and independently OCRed to **6,866 words / 46,321 bytes**. |
+| Visible identity | Page 1 is an Arabic `Medicine Way` public medical-books-channel cover and credits `منصور الجزار`; pages 2–10 name `Dr. Tarek El Shamy`, while page 10 is only titled `Pathology Exam 1 (Cell Injury)`. Pages 11–16 are a handwritten `Hidden Assassin Chapter 1 MCQ` set and answer sheet. Pages 17–28 are a generic typed `PATHOLOGY MCQs` bank. Pages 29–42 are a dated historical question collection ending `collected by Mariam Sameh`. No page visibly names Helwan University, its Faculty of Medicine, BMS-102, an authenticated Helwan sitting, or an institutional key authority. |
+| Date and metadata caution | Dates attached to the final historical-bank questions range across older quizzes/rounds and belong to the compiled source-history labels; they do not authenticate one sitting or a Helwan sitting. PDF modification time 26 January 2025 is carrier metadata only. |
+| Authority / eligibility | The explicit public-channel cover and mixed generic/handwritten/historical banks establish an externally compiled general-pathology carrier. Dr Tarek's visible authorship authenticates his pages, not Helwan institutional use. Folder placement and manifest tier cannot supply the missing university/module/sitting marker, so the carrier is indexed source-locally but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing generic-pathology provenance gate. |
+
+### Complete prompt, answer, format, anomaly, and practical boundary
+
+The complete carrier contains **267 raw prompt operations = 204 MCQs + 39 matching items + 24
+written/complete/case suboperations**, with **149 source-supplied answers + 118 visibly unkeyed
+operations**:
+
+- **Page 1:** public-channel cover only; 0 prompts and 0 answers.
+- **Pages 2–9, Dr Tarek `Tutorial Cell Injury`:** **86 operations = 30 MCQs + 39 individually
+  numbered matching items + 17 written/comparison/case suboperations**. Printed answer letters or
+  matching pairs supply **53 answers = 18 MCQ answers + 35 matching answers**; the page-3
+  four-item matching set, all 17 written operations, and the tutorial's unkeyed MCQs remain
+  unkeyed. Eight of the MCQs are image-bearing, but remain MCQs because the question and options
+  are printed together and no station operation, time, mark, or candidate field is supplied.
+- **Page 10, `Pathology Exam 1 (Cell Injury)`:** **14 unkeyed operations = 7 MCQs + 3 `Complete`
+  items + 4 renal-case written suboperations**. The title supplies no university, date, marks,
+  candidate field, or answer layer.
+- **Pages 11–16:** **15 handwritten MCQs** on apoptosis and necrosis, followed by a separate
+  handwritten `answers` sheet supplying **15 answer entries**. The answer page is a solution layer
+  for Q1–Q15, not a sixteenth prompt and not an authenticated institutional key.
+- **Pages 17–28:** **81 keyed typed MCQs**. Numbering runs Q1–Q31 and then Q40–Q89; the visible
+  Q31→Q40 jump is preserved rather than repaired. Every one of the 81 occurrences has one visibly
+  underlined option, yielding **81 source-supplied answers**. Underlining is treated as the source's
+  answer annotation, not an official Helwan key.
+- **Pages 29–42:** **71 historical text MCQs**, numbered Q1–Q71, with question-level dates and
+  round/quiz labels. They carry **0 systematic answer entries**. Split option text at the right
+  margin (for example `a-...-70`) is part of the option layout, not an answer key; scattered plus,
+  bullet, crop, and OCR glyphs are inconsistent scan/layout residue and are not promoted to keys.
+  Page 42's `collected by Mariam Sameh` is compiler attribution only.
+
+The exact checksums are **`204 MCQs + 39 matching + 24 written = 267 prompts`** and **`53 tutorial
+answers + 15 handwritten-sheet answers + 81 underlined-option answers + 0 historical-bank answers
+= 149 answers`; therefore `267 − 149 = 118 unkeyed operations`**. There are **0 authenticated
+practical stations, 0 drawing tasks, 0 candidate responses, and 0 unassigned residues**. Gross,
+microscopic, and specimen images embedded beside eight MCQs remain image-bearing assessment
+evidence source-locally, but do not become practical records without a station or operation layer.
+
+All wording, numbering, answer marks, and anomalies remain source evidence without correction.
+This includes the Q31→Q40 jump, old question-level date tags, the page-6 black-leg image/key
+wording, misspellings such as `colliquative`, and potentially disputable underlined or tutorial
+answer choices. Nothing is silently normalized into an official answer.
+
+### Internal recurrence, prior-BMS comparison, and governed zero-search gate
+
+The carrier contains substantial internal recurrence. Examples include the typed bank's Q18/Q29
+free-radical enzyme proposition, Q15/Q42 cerebral liquefaction, Q22/Q45 metaplasia, Q43/Q51
+dystrophic calcification in tuberculosis, Q20/Q72 calcium-activated phospholipases, and Q70/Q84
+colliquative-necrosis features. The tutorial, handwritten set, typed bank, and historical bank also
+revisit apoptosis, necrosis, fatty change, calcification, pigments, and reversible/irreversible
+cell injury across their section boundaries. All raw occurrences and supplied/absent answer states
+are preserved source-locally; no eligible semantic-collapse count is invented after exclusion.
+
+The same broad propositions recur throughout prior governed BMS cell-injury evidence, including
+the cell-injury lectures/maps and MCQ families already reconciled before this source. Institutional
+authority is resolved before semantic retention, however. Therefore neither internal recurrence
+nor prior overlap is assigned as eligible Helwan reuse.
+
+Family 181 yields **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted
+handles / 0 prior-BMS reuse assignments / +0 concepts**. Exactly four searches are required only
+per accepted new handle; the governed gate is **`0 accepted new handles × 4 = 0 required and
+completed searches`**. Searching provenance-excluded prompts cannot convert them into Helwan
+assessment evidence.
+
+### Family-181 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 181 source-local | Eligible delta | Auxiliary cumulative (Families 12–181) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 267 = 204 MCQ + 39 matching + 24 written | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 149; 118 unkeyed | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | provenance-excluded compilation | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external/generic only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-181 eligible arithmetic is independently zero. Corrected primary remains **762 / 405 / 552
+/ 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 181 establishes no Helwan question occurrence, official key, tested concept, sitting,
+recurrence, mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 181
+
+`src_369f34ceda29106d72b2` is exhausted across all 42 pages: every cover field, prompt operation,
+option set, matching item, written suboperation, image-bearing MCQ, source-supplied answer, absent
+answer, numbering jump, date/history label, internal recurrence, prior-evidence relation,
+provenance term, eligibility term, and cumulative term is assigned once, with **zero remainder**
+and no Family-181 blocker.
+
+The exact next manifest record is tier-3 source `src_1402ebbe4bc10f6e9ce5` · `MCQs - mcq in
+Neoplasia, general pathology(MW).pdf`, SHA-256
+`1402ebbe4bc10f6e9ce52069bef06117c21bfffa700d09f6d017509adf44e413`, **3,319,242 bytes**, **32
+OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible identity,
+complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS disposition,
+arithmetic, and subsequent exact next-source debt remain to be separately reconciled.
