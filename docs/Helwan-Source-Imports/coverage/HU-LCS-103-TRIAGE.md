@@ -19256,3 +19256,123 @@ portrait-A4 pages; untagged; unencrypted; PDF 1.7; SHA-256
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 49 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 182 — Tier-6 anonymous external muscle-physiology MCQ excerpt with incomplete printed-key coverage
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_ac0216d26008c743b92c` / `ac0216d26008c743b92c3a482cb2c51437a5ddc6ee42ecc493655347fdfb62bb` |
+| Manifest / normalized local path | Manifest `Year 1/LCS 103/All Subjects/Notes and Summaries/muscle  phiso.pdf`; normalized local `Year 1/LCS 103/All Subjects/Notes and Summaries/muscle phiso.pdf` |
+| Physical verification | **6,646,960 bytes; 17 OCR-needed portrait-A4 pages; 595 × 842 pt; untagged; unencrypted; PDF 1.7**. The assigned full hash, byte size and page count match; all 17 complete-page render hashes are distinct. |
+| Visible / metadata provenance | The photographed printed pages carry the running section `Muscle` and original book-page numbers 64–75, but no title page, author, institution, lecturer, university, module, cohort, examination sitting or official-key statement. Metadata names `CamScanner` / `intsig.com pdf producer` only. |
+| Authority finding | Manifest placement establishes topical LCS-103 relevance, but the source itself is an anonymous scanned external question-bank/textbook excerpt. It cannot establish Helwan course-bank, sitting or official-key authority; all ordinary assessment occurrences remain external. |
+
+All **17/17 pages** were rendered at 180 dpi, inspected at full resolution and read with OCR
+support. Pages 1–15 contain one uninterrupted sequence **Q66–Q125 = 60 prose MCQ prompt
+occurrences**. Pages 16–17 contain cropped printed answer-table fragments. The exact prompt
+boundary is:
+
+| Physical pages | Complete source boundary | Prompts |
+|---:|---|---:|
+| 1–4 | Q66–Q81: neuromuscular transmission, excitation–contraction coupling, ATP, relaxation, sprint energy and training | 16 MCQs |
+| 5–7 | Q82–Q94: T tubules, fibre types, motor unit, curare, relaxation, treppe, heat, contraction types and mixed skeletal-muscle properties | 13 MCQs |
+| 8–11 | Q95–Q112: fatigue/blood supply, skeletal–smooth comparison, triad, length/energy, denervation, fast fibres, contraction mechanics and filament/band properties | 18 MCQs |
+| 12–15 | Q113–Q125: action potential, isometric contraction, coupling, visceral smooth muscle, contractile response and skeletal–smooth distinctions | 13 MCQs |
+| **Total** | **Q66–Q125** | **60 MCQs** |
+
+There are **0 written prompts / 0 images, traces or practical prompts**. The broad diagonal
+red-brown obstruction across pp. 1–4, 6 and 16 is part of the captured source image. It
+obscures some words and key-table cells but is neither a learner blank nor a practical
+residue; no obscured wording or answer is reconstructed.
+
+### Printed-key, handwritten-annotation and orphan-entry inventory
+
+The printed table supplies corresponding entries for **Q66–Q74 (9) + Q91–Q100 (10) +
+Q101–Q116 (16) + Q117–Q125 (9) = 44** source prompts. It additionally prints entries for
+**Q64, Q65 and Q126**, whose prompts are absent; those three orphan entries remain provenance
+evidence and receive no prompt, key or handle credit. The table omits Q75–Q90 from the
+recoverable scan.
+
+Among the omitted-table range, Q82–Q90 each have one visibly selected option on the question
+page: **B, C, E, A, B, A, C, C, D**. Q75–Q81 have no recoverable selected option. The exact
+assessment boundary is therefore **60 external MCQs / 53 corresponding source keys-or-
+answers / 7 unkeyed prompts**: `53 = 44 printed-table entries + 9 hand-mark-only entries`,
+and `60 = 53 keyed + 7 unkeyed`.
+
+Handwritten choices also coexist with the printed table on later pages. They are preserved as
+a parallel informal annotation layer, never counted as a second key or used to replace the
+printed table. Visible conflicts include Q97 handwritten B / table C, Q98 A / B, Q103 C / B,
+Q117 A and E / C, Q119 B and E / D, and Q125 E / D. The source's multiple marks and all
+printed wording remain uncorrected; no medical inference chooses between layers.
+
+### Practical and teaching boundary
+
+The source contains only prose MCQs, option lists, photographed page furniture and cropped
+answer tables. There is no specimen, model, micrograph, radiograph, graph, labelled teaching
+composition, station, masked callout, learner-completed map or response blank. The exact
+delta is **0 practical prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0
+practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-LCS reconciliation
+
+The 60 occurrences consolidate to **14 source-distinct tested handles**. Every handle received
+exactly one query on each of the four required surfaces; the query phrases below are listed in
+live / pending / prior-import / accepted-LCS order.
+
+| Tested handle | Exact four-query ledger | Reconciliation |
+|---|---|---|
+| Neuromuscular transmission, ACh release, EPP and curare · Q66–69,Q78,Q85,Q92–94 | `neuromuscular transmission acetylcholine`; `motor end plate curare cholinesterase`; `end plate potential magnesium acetylcholine release`; `neuromuscular junction acetylcholine curare` | Prior external and accepted Families 75, 144, 146, 148 and 169 own the complete scope. |
+| T tubules, SR and excitation–contraction coupling · Q70,Q75,Q77,Q82,Q90,Q92,Q98,Q115,Q123–124 | `T tubule skeletal muscle action potential`; `sarcoplasmic reticulum calcium coupling`; `excitation contraction T tubule calcium`; `sarcotubular system excitation contraction coupling` | Prior-LCS reuse across Families 75, 144 and 146–148. |
+| Calcium, troponin/tropomyosin and cross-bridge ATP · Q71–73,Q76,Q90,Q94,Q108,Q115,Q118,Q120,Q124 | `troponin tropomyosin cross bridge ATP`; `actin myosin ATP detachment`; `troponin C tropomyosin relaxing protein`; `calcium troponin tropomyosin cross bridge` | Prior-LCS reuse across Families 51, 75, 99 and 144–148. |
+| Skeletal-muscle relaxation and calcium reuptake · Q79,Q86,Q108 | `skeletal muscle relaxation calcium uptake`; `SERCA muscle relaxation`; `calcium pump sarcoplasmic reticulum relaxation`; `muscle relaxation acetylcholinesterase calcium reuptake` | Prior-LCS reuse across Families 75 and 146–147. |
+| Immediate and sprint muscle-energy systems · Q80,Q100 | `ATP CP 100 meter muscle`; `phosphagen system sprint`; `muscle immediate energy phosphate derivatives`; `muscle energy systems exercise` | Prior-LCS reuse across Families 51, 75 and 147. |
+| Training adaptation, fatigue, oxygen debt and McArdle disease · Q81,Q91–92,Q95–96,Q121 | `endurance training muscle fatigue`; `McArdle oxygen debt athlete`; `muscle training mitochondria myoglobin lactic acid`; `muscle fatigue oxygen debt training` | Prior-LCS reuse across Families 52, 75, 144 and 147–148. |
+| Red/white and fast/slow skeletal fibres · Q83,Q91,Q102 | `red white muscle fibers myoglobin`; `fast slow twitch muscle fibers`; `fast muscle ATPase posture fatigue`; `red white fast slow muscle` | Prior-LCS reuse across Families 75 and 144–147. |
+| Motor-unit definition and recruitment · Q84,Q121–122 | `motor unit muscle fibers`; `motor neuron innervates muscle fibers`; `motor unit definition physiology`; `motor unit physiology` | Prior-LCS reuse across Families 75, 144 and 146–147. |
+| Twitch, treppe, summation and tetanus · Q74,Q87,Q93,Q107,Q119 | `muscle twitch treppe summation`; `staircase tetanus skeletal muscle`; `treppe repeated stimulation contractile response`; `muscle twitch summation tetanus treppe` | Prior-LCS reuse across Families 74–75, 97, 99 and 144–147. |
+| Isometric/isotonic work, heat and force–velocity/length relations · Q88–89,Q99,Q104,Q106,Q110,Q114,Q119 | `isometric isotonic muscle contraction`; `muscle heat work force velocity`; `isometric heat isotonic work afterload`; `length tension force velocity isometric isotonic` | Prior-LCS reuse across Families 75, 97, 99 and 144–147. |
+| Sarcomere, bands and sliding-filament mechanics · Q90,Q108,Q112,Q118,Q120 | `sarcomere sliding filament band changes`; `A band I band H zone contraction`; `myosin cross bridge sarcomere length`; `sarcomere bands sliding filament` | Prior-LCS reuse across Families 51, 60, 75, 99 and 144–147. |
+| Denervation effects · Q101 | `denervation skeletal muscle atrophy`; `muscle fibrillation fasciculation denervation`; `denervated muscle acetylcholine hypersensitivity`; `denervation muscle physiology` | Prior-LCS reuse across Families 75 and later accepted physiology banks. |
+| Skeletal, cardiac and smooth-muscle comparison · Q93,Q97,Q103,Q105,Q110–111,Q122,Q125 | `skeletal cardiac smooth muscle comparison`; `muscle types properties contraction`; `skeletal smooth shared contractile properties`; `skeletal cardiac smooth muscle properties` | Prior-LCS reuse across Families 15, 60, 75 and 144–147. |
+| Visceral smooth-muscle rhythmicity, syncytium and electrophysiology · Q103,Q111,Q116–117,Q122,Q125 | `visceral smooth muscle syncytium`; `smooth muscle pacemaker rhythmicity`; `single unit smooth muscle gap junctions`; `visceral smooth muscle electrophysiology` | Prior-LCS reuse across Families 15, 75 and 144–148. |
+
+All **14 × 4 = 56 required search invocations** completed. Literal combined-string searches
+were sparse (two accepted-ledger hits and none on the other surfaces), so absence was not used
+as a novelty decision. Item-level comparison with the governed physiology banks and Family
+169 establishes **14 prior external/LCS reuses / 0 additive live / 0 additive pending / 0
+additive new external concepts**. No query supplies or repairs an answer.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **6,829 prompts / 6,563 source keys-or-answers / 221 external concepts** by **+60 /
++53 / +0** to **6,889 / 6,616 / 221 = 12 live / 135 pending / 74 new**. Arithmetic checks
+are `6,829 + 60 = 6,889`, `6,563 + 53 = 6,616`, `221 + 0 = 221`, and `12 + 135 +
+74 = 221`.
+
+Practical totals remain **62 prompts / 516 plates / 3,016 mappings / 156 residues / 55
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 181's remainder. Removing its sole path changes the
+all-rank remainder from **49 paths / 46 unique hashes** to **48 paths / 45 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **34 paths / 34 unique hashes within tier**, and
+rank 9 remains **14 / 11**. Family 181's prior checksums are
+`5b39a3bf828f595b969b5f11c43a744e3cc9511d9906a767011090d065468ccd` (paths) and
+`e231cc4b9fa7fe889cba162c220b03973ca704b88c5a12cca52937faeefe717f` (unique hashes).
+For the exact post-Family-182 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`337e19d350ed3049f07afebbc4c8b477823bb1a573f5c865bdb129bf312cc2ad`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`367da89ae2ad3adcbe42eb9678a8d25dcd4142c5c68ed8104e2eb769accaf0bf`.
+
+The exact next manifest-order debt is tier-6 `src_d19585986e01321bc78a`, `skletal muscle.pdf`
+(846,249 bytes; 5 native-text portrait-A4 pages; tagged; unencrypted; PDF 1.7; SHA-256
+`d19585986e01321bc78a83ea468a19ac3362b5b3cf98334a8e110ecdbe00e228`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 48
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
