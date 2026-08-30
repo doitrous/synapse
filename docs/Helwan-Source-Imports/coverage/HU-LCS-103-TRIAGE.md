@@ -15432,3 +15432,54 @@ already fully inventoried in Families 77 and 80, but this separate manifest path
 reconciled. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 90
 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 141 — Tier-3 final Histology path for the Family-77 question-deck bitstream
+
+### Exact duplicate-path identity and zero-second-inventory decision
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_cfe1bf246bd0aa85b06b` / `cfe1bf246bd0aa85b06b5a98d0d4ef74bb17dd9002a56eef66b66912d03a3508` |
+| Current manifest path | `Year 1/LCS 103/Histology/Questions/MCQs/MCQs - Histology College MCQs 103 question.pdf` |
+| File boundary | 593,337 bytes · 16 physical OCR-needed pages · tier 3 |
+| Already governed identical paths | Family 77: `Year 1/LCS 103/All Subjects/Questions/103 question.pdf`; Family 80: `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 question.pdf` |
+| Identity basis | All three manifest records share the same full SHA-256, byte size and page boundary, and the manifest's `duplicateOf` relation explicitly names the two already-consumed paths. |
+
+Family 77 already rendered and read the complete 16-page bitstream and inventoried **13
+eligible MCQ occurrences / 13 directly printed answer letters / 13 source handles**, including
+the source-printed alkaline-phosphatase key-risk note. Family 80 independently consumed the
+second manifest path without reinventory. Family 141 therefore adjudicates only this final
+Histology path and adds **0 assessment prompts / 0 assessment keys / 0 assessment concepts /
+0 searches / 0 practical prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0
+practical keys / 0 teaching scopes**. No second render, source-first collapse, search ledger,
+key inference or content inventory is created for bitwise-identical bytes.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+remains **6,560 external prompts / 6,294 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+Removing this last remaining path for the Family-77 hash from Family 140's remainder leaves
+**89 all-rank path instances / 84 unique hashes**: tier 3 **7 paths / 7 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. The path total falls by one and the unique-
+hash total now also falls by one because no unprocessed path retains this hash. Family 140's
+prior checksums are `1666d450bb7af4e559531cd3f12817fb8125673f852ee6d1fdfa26595b2fada7`
+(paths) and `62e8f6c5691724adb4c3db1206695cb62db947ee0b0b42cc46be6d0156a9449c`
+(unique hashes). For the exact post-Family-141 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`450e48def83ac83f0ecaca994a2a7e685405077df3350ea05a297566be20259e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`82be70d3cb36885ce0c5dbd69ce767841c31afa1eccd11dbc418b1ef24b12744`.
+
+The exact next tier-3 manifest-order debt is `src_667eb451ca7f342d6d69`,
+`MCQs - Histology Student MCQs 103.pdf` (444,035 bytes; 28 physical native-text pages;
+SHA-256 `667eb451ca7f342d6d69e90b84a5d31d65c0bee02a22eff8b5fa4dc129c49035`).
+It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 89 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
