@@ -4625,3 +4625,138 @@ native-text pages; SHA-256
 103/Anatomy/Theoretical/Lower Limb/Lec 12 - Muscles of Back/`. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 40 — Tier-4 Anatomy lecture interactive-question gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_88ff9464e6fabde88dcc` |
+| File / SHA-256 | `Anatomy Lecture Muscles of the back.pdf` / `88ff9464e6fabde88dccea091a860c912ef5cb9f88bd8cdd6161e6d0a4c12501` |
+| File boundary | 3,782,094 bytes · unencrypted PDF · 44 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 12 - Muscles of Back/Anatomy Lecture Muscles of the back.pdf` |
+| Visible provenance | p. 1 prints `Ass. Prof. Dr. Eman El Sawaf`, `Anatomy & Embryology Department`, `Faculty Of Medicine`, and `Capital University (Formerly Helwan)`; p. 2 prints `Locomotor Module`, `Anatomy`, and `Muscles Of The Back` |
+| Authority finding | Direct local Helwan-labelled tier-4 teaching evidence. It is not a sitting paper, station sheet, response form, department question bank or official answer key; the two embedded `Interactive Question` slides are formative lecture evidence. |
+
+The SHA-256, byte count and 44-page boundary were recomputed and match the manifest. All 44
+pages were rendered at 140 dpi and read against the native text layer. Pages 1–4 are
+provenance/title/objective/contents framing, pp. 5–30 are instructional material, p. 31 is
+the first interactive prompt, pp. 32–41 return to teaching, p. 42 is the second interactive
+prompt, p. 43 is the references slide and p. 44 is the closing slide.
+
+The full-source gate finds exactly **two complete printed prompt occurrences** and **zero
+printed keys**. Page 31 asks `Mention the action of trapezius muscle.` as an open prompt
+with no answer line, response field or answer reveal. Page 42 asks `What is the nerve supply
+of rhomboid muscles?` with four choices: `a. Thoracodorsal.`, `b. Suprascapular.`,
+`c. Subscapular.`, and `d. Dorsal scapular.` All four choices are visibly unmarked. The
+preceding teaching is not converted into a key: pp. 14–18 teach trapezius actions before the
+p. 31 prompt, while pp. 38 and 41 teach nerve supply before the p. 42 prompt, but none is an
+answer reveal, keyed copy, coloured/underlined option or correctness convention tied to the
+question. No other imperative/interrogative prompt, response area, option set, answer line,
+mark allocation or answer reveal occurs anywhere in the source.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's images and labelled diagrams remain parts of their tier-4 theoretical teaching
+compositions; they are not promoted into the tier-5 practical plate/mapping ledger.
+
+| Physical pages | Source-first instructional compositions | Slide occurrences |
+|---:|---|---:|
+| 5 | five-muscle back overview: trapezius, latissimus dorsi, levator scapulae, rhomboid minor and rhomboid major | 1 |
+| 6–18 | trapezius form, origins, insertion, nerve supply, fibre-specific actions and OINA summary | 13 |
+| 19–30 | latissimus-dorsi form, origins, insertion, nerve supply, actions and OINA summary | 12 |
+| 32–41 | levator-scapulae/rhomboid overview, origins, insertions, nerve supply, actions and three-muscle OINA summary | 10 |
+| **Total** | **tier-4 instructional compositions** | **36** |
+
+The **36 content-slide occurrences are 36 source-distinct teaching compositions**. Some
+base skeleton, bone and action photographs recur, and pp. 39–40 teach the same action scope,
+but their complete slide layouts, text layers and/or illustrative purpose differ. SHA-256
+comparison of all 44 rendered complete pages found no exact full-page copy to collapse. The
+source boundary is therefore **36 teaching compositions / 2 ordinary formative questions /
+0 practical or station prompts / 0 printed assessment keys / 0 assessment residues**.
+Because this is theoretical material, its instructional figures add **0 practical plates,
+0 practical label mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 36 compositions consolidate to four source-level theoretical teaching scopes. Page 5's
+overview supports all four handles without being counted more than once in the physical-slide
+total.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `trapezius-oina` · pp. 5–18 | trapezius origin insertion nerve supply; trapezius OINA; nuchal line clavicle acromion scapular spine; accessory nerve trapezius | the external accessory-nerve hit is a narrower pending paralysis-test scope, not the complete OINA handle; exact accepted Family-36 handle — prior LCS reuse |
+| `latissimus-dorsi-oina` · pp. 5, 19–30 | latissimus dorsi origin insertion nerve supply; latissimus dorsi OINA; thoracolumbar fascia bicipital groove; thoracodorsal nerve latissimus | no direct live/pending complete-scope hit; exact accepted Family-36 handle — prior LCS reuse |
+| `levator-scapulae-oina` · pp. 5, 32–41 | levator scapulae origin insertion nerve supply action; levator scapulae OINA; upper cervical transverse processes medial border scapula; dorsal scapular nerve levator scapulae | no direct live/pending complete-scope hit; exact accepted Family-36 handle — prior LCS reuse |
+| `rhomboid-minor-and-major-oina` · pp. 5, 32–41 | rhomboid major minor origin insertion nerve supply action; rhomboid OINA; C7 T5 spinous processes medial border scapula; dorsal scapular nerve rhomboid | no direct live/pending complete-scope hit; exact accepted Family-36 handle — prior LCS reuse |
+
+All **4 × 4 = 16** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete composite-scope level, the raw external result is **0 live / 0 pending / 4 new**;
+exact accepted-prior comparison removes all four apparent module additions, leaving **four
+prior-LCS reuses / zero new theoretical teaching scopes**. These declarative teaching scopes
+do not themselves enter the eligible tested-concept count, and no theoretical scope enters
+the practical-teaching-scope counter.
+
+### Assessment handles, searches and overlap result
+
+The two prompts are source-distinct and do not collapse semantically. Each received four
+required query forms across the same live/pending and source-import roots (**2 × 4 = 8
+invocations**), followed by direct record-level scope review.
+
+| Source prompt | Handle / four required queries | Search / prior-LCS result | Disposition |
+|---|---|---|---|
+| p. 31 trapezius-action request | `trapezius-actions` · trapezius suspends the shoulder girdle; lower fibres of trapezius depress; upper fibres elevate the scapula; middle fibres retract it | pending `101-ISK-mcq-concepts.md` handle `trapezius-attachments-actions-and-shoulder-drop` explicitly owns the upper-elevate, middle-retract, lower-depress and upward-rotation action scope; Family 36 taught trapezius OINA but no accepted prior LCS prompt tested its actions | new-to-eligible LCS; pending; NEU/ANA |
+| p. 42 rhomboid-innervation MCQ | `rhomboids-dorsal-scapular-innervation` · rhomboid nerve supply; dorsal scapular nerve; nerve to rhomboids; rhomboid major minor innervation | pending AU/Kasr dorsal-scapular-nerve concepts explicitly own supply to rhomboid major/minor; Family 36 taught rhomboid OINA but no accepted prior LCS prompt tested the nerve-supply fact | new-to-eligible LCS; pending; NEU/ANA |
+
+The source-level assessment result is **0 live / 2 pending / 0 new**. Neither source handle
+was previously counted in the eligible LCS tested-concept ledger, so both add to the module
+as pending concepts. Their printed source prompt wording remains the evidence; no answer is
+inferred from the pending records or from the lecture's earlier declarative slides.
+
+| Family-40 evidence bucket | Prompt occurrences | Printed keys | Source handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| New eligible-LCS tested scopes | 2 | 0 | 2 | 2 | 0 | 2 | 0 |
+| **Family 40 assessment evidence** | **2** | **0** | **2** | **2** | **0** | **2** | **0** |
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 40 | Family 40 delta | After Family 40 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +2 | 449 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +2 | 206 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +2 / +0 | 9 / 51 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `36 = 1 + 13 + 12 + 10`, `2 prompts = 2
+source handles`, `0 + 2 + 0 = 2` source dispositions, `0 prior eligible + 2 new-to-eligible
+= 2`, `447 + 2 = 449`, `242 + 0 = 242`, `204 + 2 = 206`, `9 + 51 + 146 = 206`,
+`251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-39
+remainder leaves **36 rank-4/rank-5 path instances / 34 unique hashes**. The Family-39
+method was reproduced first: its 37/35 row sets recomputed to
+`e3ed4abebff0d80f295bd0d0ffe59309aafaeba2c4a13a441b5388cee7c998c7` and
+`614cb4e3059ee93d431ef282b6b56bfd667cbc75753989c69081fadf158ff9aa`.
+For the exact post-Family-40 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`f8d66ea1a4cafc4dac50793a5ff7d4aea9e53fd17731f45adf8604cbcfda101c`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`6d6e8826dff9cbed6b80051ea84dc273ccb22adce7efdb9e2c8a17fe153af8d6`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_8bd8d156f885aecec812`, `Medial Compartment Of Thigh.pdf` (4,732,560 bytes; 56
+native-text pages; SHA-256
+`8bd8d156f885aecec812b9c00a42dbaf84ab2e1601779fdbc3dbe732640c788e`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 2 - Medial Compartment of Thigh & Gluteal Region 1,
+2/`. Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue
+update, import or source copy was created.
