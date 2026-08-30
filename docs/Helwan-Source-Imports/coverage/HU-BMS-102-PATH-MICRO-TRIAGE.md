@@ -21395,3 +21395,76 @@ diffusion, active transport, and pinocytosis across concentration gradient, ener
 protein use, and saturability. The filename timestamp is not an authenticated teaching or
 assessment date. Its question-mark header semantics, teaching/prompt/answer boundary, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 205 — completed Dr-Elsawy membrane-transport comparison table
+
+### Source identity, complete full-resolution boundary, authority, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_931bb772f5bbdbd43c1c` · `2026-07-20 06.26.09.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `931bb772f5bbdbd43c1c7b47dc742c0d99162decdfe15850dd7f4744c4e7474b` · **77,627 bytes** |
+| Format / complete read | **One 1280×561 landscape progressive JPEG**, JFIF 1.01 at 72 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. |
+| Complete visible content | A fully populated table compares `Simple Diffusion`, `Facilitated Diffusion`, `Active Transport`, and `Pinocytosis`. Concentration gradient is down/high-to-low, down/high-to-low, against/low-to-high, and N/A/vesicular; energy/ATP is no, no, yes, and yes; carrier protein is no, yes, yes, and no/engulfment; saturability is no, yes, yes, and N/A. `Dr-Elsawy` is printed above the table. |
+| Visible/metadata provenance | The visible `Dr-Elsawy` label is source attribution. No university, faculty, module code, academic year, lecture date, assessment title, marks, or candidate field is visible. Exact placement under Helwan BMS-102 pharmacology notes establishes contextual course placement only. The filename timestamp is sequencing metadata, not an authenticated teaching date or sitting. |
+| Sequence relation | Family 204 immediately precedes this table with a completed illustration of the same four transport mechanisms. The present image converts that teaching into a filled comparison grid rather than an assessment. The next manifest image `.06.26.18` moves to drug ionization/pKa. Adjacency does not itself authenticate date, sitting, or common authorship. |
+| Authority | Low-authority attributed teaching table. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, question-mark, prompt, answer, annotation, and practical boundary
+
+`Energy (ATP)?`, `Carrier Protein?`, and `Saturable?` are row-variable labels inside a completed
+comparison table. Each supplies four already populated cells in parallel with the non-interrogative
+`Concentration Gradient` row. They do not address a learner, request a response, leave a blank,
+provide answer options, allocate marks, or separate a later key. Their punctuation therefore does
+not create three assessment prompts or twelve question-answer pairs. The coloured arrows, `YES`/
+`NO` emphases, ATP icons, and `AGAINST` emphasis are teaching graphics rather than annotations or
+candidate markings.
+
+No imperative, response area, unanswered field, written task, unlabeled specimen, requested image
+identification, or practical operation is visible. The source contributes **0 raw prompt
+occurrences / 0 source-supplied answer occurrences / 0 unkeyed occurrences / 0 prompt-like
+residues / 0 retained records / 0 accepted handles / 0 practical stations / +0 concepts**.
+Its content exactly elaborates the adjacent Family-204 teaching image and overlaps transport/
+pharmacokinetic concepts in Family 202; completed declarative overlap is not a tested-proposition
+recurrence, so no prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 205 | Auxiliary cumulative (Families 12–205) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 205
+establishes a completed attributed transport-comparison teaching table and manifest-sequence
+evidence only, not assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 205
+
+`src_931bb772f5bbdbd43c1c` is exhausted at full image resolution: every visible header, row label,
+filled comparison cell, icon, emphasis mark, attribution, provenance limitation, timestamp caution,
+sequence relation, zero gate, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-205 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_d2f7799bdb3740eff822` ·
+`2026-07-20 06.26.18.jpg`, SHA-256
+`d2f7799bdb3740eff82207ddffbe0c23e59c8f70ca4060f1523381801e9369e5`, **143,711 bytes**,
+**1280×904 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed bilingual handwritten `Drug ionization [pKa]` map contrasting water-
+soluble ionized/poorly absorbed drug with lipid-soluble unionized/rapidly absorbed drug and the
+acidic-drug/basic-drug behaviour in acidic versus basic media; it carries a vertical CamScanner
+watermark. The filename timestamp is not an authenticated teaching or assessment date. Its
+provenance, bilingual teaching/prompt/answer/annotation boundary, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
