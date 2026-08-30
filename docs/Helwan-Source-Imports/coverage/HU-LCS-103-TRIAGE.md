@@ -16593,3 +16593,91 @@ The exact next manifest-order debt is tier-6 `src_dec41bb7254c27aa920c`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 78 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 153 — Tier-6 anonymous handwritten scalp vascular teaching sheet
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_dec41bb7254c27aa920c` / `dec41bb7254c27aa920cb419657c942f8b72d3a3cb190479e8b65141343133a8` |
+| File / boundary | `2026-07-20 05.33.15.jpg` · 330,152 bytes · progressive JFIF 1.01 JPEG · sRGB · 1816 × 2560 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.33.15.jpg` |
+| Visible / embedded provenance | The colour-coded handwritten sheet is headed `Blood Supply` and `Venous Drainage`. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is anonymous tertiary teaching-note evidence, not a Helwan-authored lecture, assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. Its upper section organizes
+common-carotid supply into external-carotid vessels in front of and behind the auricle and
+internal-carotid-derived anterior scalp vessels. Its lower section supplies four superficial
+venous drainage chains and a deep emissary-vein route from the subaponeurotic space to venous
+sinuses.
+
+There is **no assessment inventory**. `Blood Supply`, `Venous Drainage`, `Superficial` and
+`Deep` are section labels; arrows, numbers and braces organize already supplied vessel
+relations. No interrogative, learner instruction, response field, blank, mark allocation,
+option set, correctness mark or answer reveal appears. The exact boundary is therefore **0
+eligible or external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed
+assessment prompts**.
+
+Source wording is preserved without repair. The sheet prints `Superior temporal`, `Infront
+Auricle`, `Supra trochlear`, `Supra orbital`, `Retro mandibular` and the final emissary-vein
+line as `Communical Superficial Veins by Sinuses`. These states are retained rather than
+silently normalized or used to infer a missing question.
+
+### Practical and image boundary
+
+This is a handwritten textual teaching composition with arrows and coloured groupings, not
+an anatomical specimen, angiographic plate, numbered station or learner-completed map. All
+vascular relations are supplied. It adds **0 practical prompts / 0 teaching plates / 0
+mappings / 0 practical residues / 0 practical keys** and **0 live / 0 pending / 0 new**
+practical-teaching scopes.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The image consolidates to **3 source-distinct teaching handles**. Each handle received one
+query on each required surface.
+
+| Teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Scalp arterial supply by external-/internal-carotid source and auricular territory · upper section | `scalp arterial supply`; `superficial temporal occipital arteries`; `supratrochlear supraorbital`; `internal external carotid scalp` | Exact accepted Families 20, 36, 78 and later external-bank supply classification | prior-LCS teaching/tested reuse |
+| Superficial scalp venous drainage to facial, retromandibular, external-jugular and suboccipital/internal-jugular routes · lower section | `scalp venous drainage`; `supraorbital supratrochlear facial vein`; `retromandibular external jugular scalp`; `occipital suboccipital venous plexus` | Live anterior-scalp drainage plus exact accepted Families 20 and 78 formation/drainage scope | live and prior-LCS teaching/tested reuse |
+| Subaponeurotic emissary-vein communication with intracranial venous sinuses · lower section | `scalp emissary veins`; `subaponeurotic space emissary`; `superficial veins dural sinuses`; `danger area scalp venous` | Exact accepted Family 78 `scalp-emissary-vein-dural-sinus-communication` tested handle | prior-LCS tested reuse |
+
+All **3 × 4 = 12 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **3 prior-LCS reuses + 0 additive theoretical teaching scopes**. The
+theoretical teaching-scope delta is **0 live / 0 pending / 0 new**. It does not enter the
+eligible tested-concept or practical-teaching-scope totals. Search matches establish coverage
+only and do not validate or repair the anonymous notes.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This source hash occurs once in Family 152's remainder. Removing its sole path leaves **77
+all-rank path instances / 72 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **63 / 61**, and rank 9 **14 / 11**. Family 152's prior checksums are
+`2bd57c0ad2a300082523aa4a00b1cf9014db5c03d7678840b3d7badcd541b6d3` (paths) and
+`98c28ad6031ad75c71e76376f2dbd4b30b7869c0908a00f4bef34533d1d519e5` (unique hashes).
+For the exact post-Family-153 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`69c797b0cdc266a51586d087bf7b4747c74e4262682e3b481efe38bd7b65e644`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`f537a5926e7d94f5e55419651c9158841e771938fcfe36ed2422fffa188bf50b`.
+
+The exact next manifest-order debt is tier-6 `src_48a68ced0b58f01a25f0`,
+`2026-07-20 05.33.24.jpg` (239,235 bytes; 1816 × 2560 JPEG; SHA-256
+`48a68ced0b58f01a25f06e950e9c52419ccd28e34becba5ecab3128ad16c8664`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 77 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
