@@ -15520,3 +15520,98 @@ origin hint `Kasr Alainy`; its first-page snippet reads `final revision question
 `PATHOLOSIS`, and `Dr.TAREK`. Its exact carrier relationship to Family 145, visible institutional
 provenance, tier-9 authority, complete prompt/key boundary, and zero-versus-search gate are the
 exact next-source blockers.
+
+## Family 146 — Kasr-Al-Ainy-hinted Dr Tarek PATHOLOSIS revision compilation
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_0f3b4a2592f9854057f9` · `Final Revision Questions by Dr.Tarek [108].pdf` under the local `Pathology / Questions` folder |
+| SHA-256 / size | `0f3b4a2592f9854057f985d456ea4622fc98a8ded02d34ff0205b0f3df85b6e0` · 3,723,877 bytes |
+| Format / complete visual boundary | Seventy-one native-text portrait US-letter pages, each 612×792 points. All 71 pages were rendered at 120 dpi into 71 non-empty 1020×1320-pixel images and read individually; twelve ordered contact sheets, layout extraction, and raw extraction were also read. There is no page, crop, stem, option, key, bullet, footer, or text remainder. |
+| Native-text reality | Layout extraction contains 12,866 words / 95,590 bytes and raw extraction contains 12,861 words / 82,480 bytes. They preserve all MCQ stems/options, written-bank bullets, bold-option answers, answer registers, and malformed list entries. Visual review confirms boldface and key-table directionality, checkbox-like unkeyed options, and the absence of diagnostic images. The manifest's `native` label is accurate. |
+| Visible identity | Every page carries `final revision questions and answer`, `PATHOLOSIS`, `Dr.TAREK`, and a large `Dr. TAREK` watermark. No university/faculty masthead, module code, academic year, sitting, examiner signature, candidate field, official-key statement, or Helwan identifier is visible. |
+| Metadata / origin caution | Metadata title is `final revision questions and answer patholosis`, author is `Tarek Taher`, creator is Microsoft Word 2010, producer is iOS 16.5 Quartz PDFContext, and creation/modification timestamp is 11 June 2023. Those fields establish export history only. The manifest explicitly assigns the external origin hint `Kasr Alainy`, and `[108]` remains a filename/module label rather than proof of Helwan BMS-102 ownership. |
+| Relationship to Family 145 | Distinct, earlier carrier: different SHA, 71 rather than 74 pages, 2023 Word/iOS export, different page design, 12,866 rather than 16,518 layout words, and a materially different keyed/unkeyed mix. It reuses many PATHOLOSIS propositions later present in Family 145, but it is neither byte-identical nor a page-for-page copy. |
+| Authority / eligibility | External-origin-hinted tier-9 revision compilation found in a Helwan folder. Family 73's narrow tier-9 exception requires exact local placement **and no external-university hint**; this carrier fails that condition through the manifest's `Kasr Alainy` assignment and supplies no visible Helwan counter-evidence. It is indexed for provenance and source-format evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Complete page-first prompt, answer, and anomaly boundary
+
+| Pages | Complete visible source content | Source-local count / boundary ruling |
+|---:|---|---:|
+| 1 | Introduction: four MCQs with the correct option printed in bold, plus three bare written prompts | **7 prompts / 4 answers / 3 unkeyed**. Boldface is stable answer direction; the three written prompts have no supplied responses. |
+| 2–24 | Cell injury: 42 keyed MCQs with a following register; two additional bold-keyed MCQs; a 15-MCQ block with register; 61 further bold-keyed MCQs; and a 71-operation written bank whose final five T&F statements alone carry supplied answers | **191 / 125 / 66 unkeyed**: 120 keyed text MCQs + 71 written/T&F operations, of which 5 T&F are answered. Numbering jumps, repeated propositions, and duplicated headings remain source-local occurrences. |
+| 24–48 | Cell accumulations: a 23-MCQ block with register; 92 further bold-keyed MCQs; 38 unkeyed written-bank operations; ten bold-keyed case MCQs; two three-part written cases; and three answered T&F statements | **172 / 130 / 42 unkeyed**: 125 keyed MCQs + 47 written/case/T&F operations. Two case suboperations have inline answers, four do not, and the three T&F choices are printed. |
+| 49–53 | Techniques: 19 text MCQs with bold answers, three answered T&F statements, two answered short written applications, and five unkeyed enumerate/define operations | **29 / 24 / 5 unkeyed**. The source's bold option controls even where the wording or T&F label is questionable. |
+| 53–61 | General pathology cases: thirteen complete checkbox-style MCQs without a visible key, followed by a separately numbered ten-MCQ block with a printed ten-letter register | **23 / 10 / 13 unkeyed**. Several numbered cases replay earlier unnumbered vignettes, but both occurrences remain source-local records. |
+| 61–68 | `ADAPTATION, CELL INJURY AND ACCUMULATIONS`: 23 numbered MCQs followed by a complete letter register | **23 / 23 / 0 unkeyed**. |
+| 68–71 | Final `CELL INJURY` block: ten numbered MCQs followed by a complete letter register | **10 / 10 / 0 unkeyed**. |
+
+The exact source-local checksum is **455 prompt occurrences = 326 source-supplied answers +
+129 unkeyed prompts**. Format arithmetic is **324 text MCQs + 131 written/case/T&F
+operations = 455**. There are **0 image-bearing prompts / 0 practical stations / 0 drawing tasks /
+0 candidate responses**. Clinical vignettes remain text questions; no pathology plate, station
+number, candidate/examiner instruction, timer, mark allocation, checklist, or response field is
+present.
+
+Answer direction is counted only when visible: bold option text, an explicit letter register, inline
+case text, parenthetical T/F, or the two `Answer:` lines in Techniques. Checkbox-style case options
+without a key remain unkeyed. Bare written-bank bullets remain unkeyed even though the running
+header says `questions and answer`. Apparent defects are preserved without repair: numbering jumps
+and restarts, repeated and near-repeated stems, the fused bullet `Dystrophic calcification 21-
+Hepatic steatosis`, malformed `calcification9` question marks, and source-bold or T/F choices that
+conflict with standard pathology wording.
+
+### Zero-accepted-handle and zero-search authority gate
+
+No handle is accepted into the Helwan BMS-102 ledger. This is an authority exclusion, not a
+judgment that the questions lack educational value: the explicit `Kasr Alainy` manifest hint and
+absence of any visible Helwan counter-marker defeat the established no-external-university tier-9
+condition. The 455 source-local prompts and their keyed/unkeyed boundary remain preserved above,
+but yield **0 retained eligible records / 0 accepted handles / 0 prior-BMS reuse assignments / +0
+concepts**.
+
+Exactly four searches are required only per accepted handle. The governed gate is `0 accepted
+handles × 4 = 0 required searches`; **0 searches were run**. Search/collapse work across the many
+Family-145 and earlier PATHOLOSIS replays would create external-source reconciliation state but
+could not make this carrier Helwan-eligible.
+
+### Family-146 excluded-source checkpoint and cumulative arithmetic
+
+| Measure | Family 146 source-local | Eligible delta | Auxiliary cumulative (Families 12–146) | Primary checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 455 | 0 | 1,279 | 765 | 2,044 |
+| Printed/source-supplied answer occurrences | 326 | 0 | 766 | 405 | 1,171 |
+| Unkeyed prompt occurrences | 129 | 0 | — | — | none added |
+| Retained eligible question records | 0 | 0 | 1,204 | 552 | 1,756 |
+| Accepted handles / required searches | 0 / 0 | 0 / 0 | 1,082 / — | — | — |
+| Prior-BMS handle reuses | not adjudicated after exclusion | 0 | — | — | — |
+| Cross-family concept delta | +0 | +0 | +686 over primary | 372 | 1,058 |
+| **Distinct tested concepts** | **0 eligible** | **+0** | **686 auxiliary additions** | **372** | **1,058** |
+
+The page-group checksum is `7 Introduction + 191 Cell Injury + 172 Accumulations + 29
+Techniques + 23 Cases + 33 closing MCQs = 455 prompts`. Answers close as `4 + 125 + 130 +
+24 + 10 + 33 = 326`; unkeyed prompts close as `3 + 66 + 42 + 5 + 13 + 0 = 129`; and
+`326 + 129 = 455`. Eligible arithmetic is unchanged because `455 × 0 = 0`; search arithmetic is
+`0 × 4 = 0`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains **1,279 / 766 / 1,204 / 1,082 /
++686**; and all eligible evidence remains **2,044 / 1,171 / 1,756 / 1,058**. Family 146 cannot
+establish a Helwan exam, official key, authenticated practical, recurrence, mark weight, candidate
+response, readiness, or claims status.
+
+### Exact next debt after Family 146
+
+`src_0f3b4a2592f9854057f9` is exhausted across all 71 pages: every visual/metadata provenance
+field, manifest origin hint, distinct-carrier relation, MCQ and written occurrence, bold or register
+answer, unkeyed case, malformed bullet, numbering/replay anomaly, format assignment, authority
+exclusion, zero-search gate, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-146 blocker. The exact next manifest record is tier-9
+`src_523908ab67d7e6cf96c4` · manifest `Important Questions 108 Module .pdf`, SHA-256
+`523908ab67d7e6cf96c45047444b887c1f136a6213f1c8f16897ab61fb31225d`, 5,004,399 bytes,
+10 native-text US-letter pages under `Pathology / Questions`; the SHA-matching local filename is
+normalized to `Important Questions 108 Module.pdf`. Metadata title is `Microsoft Word - vip
+questions.docx` with creation timestamp 28 May 2023; its visible `108 module` authority, exact
+teaching-versus-prompt/answer boundary, tier-9 eligibility, prior-source relationship, and zero-
+versus-search gate are the exact next-source blockers.
