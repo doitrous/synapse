@@ -17284,3 +17284,86 @@ The exact next manifest-order debt is tier-6 `src_7ba9b1a87482c7ce6963`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 70 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 161 — Tier-6 unattributed handwritten mesenchymal-tumour teaching note
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_7ba9b1a87482c7ce6963` / `7ba9b1a87482c7ce6963f55e1dc9379510fcd1eb1b3fff24f48d0a43b74d931c` |
+| File / boundary | `2026-07-20 05.51.02.jpg` · 174,570 bytes · progressive JFIF JPEG · RGB · 72 dpi · 890 × 1280 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.51.02.jpg` |
+| Visible / embedded provenance | A photograph of handwritten notebook teaching notes headed `Mesenchy / C.T`. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile/density but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is unattributed tertiary teaching-note evidence, not a Helwan-authored assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. The upper half contrasts
+benign `-oma` and malignant `Sarcoma` naming for mesenchymal/connective-tissue tumours and
+lists handwritten naming examples/exceptions. The lower half defines a locally malignant
+category as very aggressive at its site but unable to metastasise, followed by basal-cell,
+adamantinoma and giant-cell-tumour examples.
+
+There is **no assessment inventory**. No instruction, interrogative, option set, response
+field, blank, mark allocation, correctness mark or separate answer reveal appears. There is
+also no specimen, radiograph, photomicrograph, labelled anatomical structure or station task.
+The exact boundary is therefore **0 eligible or external assessment prompts / 0
+keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts** and **0
+practical/station prompts / 0 practical teaching plates / 0 practical mappings / 0
+masked-or-unresolved practical residues / 0 practical assessment keys**.
+
+Source wording is preserved without repair, including `Mesenchy / C.T`, `Benig.`, `Malig.`,
+`oma`, `Sarcoma`, `fibro Sarcom`, `osteo`, `Chondro`, `locally malig.`, `V. agg. at its
+site`, `Can't Metast.`, `Basal cell carc.` and `Adamantinoma`. The parenthetical after
+`Giant cell tumor` is visibly cut off at the right image edge and remains unresolved
+teaching-only wording; it is not completed from medical inference and does not enter the
+practical-residue count.
+
+### Source-first theoretical teaching scopes, exact searches and prior-LCS reconciliation
+
+The complete note consolidates to two source-level theoretical teaching handles. Each
+received exactly one query on each required surface.
+
+| Theoretical teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Mesenchymal benign/malignant nomenclature and printed exceptions | `mesenchymal connective tissue benign oma sarcoma`; `benign mesenchymal tumor oma`; `malignant mesenchymal tumor sarcoma`; `melanoma lymphoma granuloma nomenclature exception` | Accepted Families 12, 64, 66 and 160 jointly own the tissue-origin, `-oma`/sarcoma and tumour-nomenclature core | prior-LCS theoretical reuse |
+| Locally malignant behaviour and example set | `locally malignant very aggressive at site cannot metastasize`; `basal cell carcinoma adamantinoma giant cell tumor`; `locally malignant tumor examples`; `osteoclastoma locally malignant` | Accepted Families 12, 64 and 66 jointly own benign/malignant behaviour and the printed giant-cell/bone/soft-tissue tumour components | prior-LCS theoretical reuse |
+
+All **2 × 4 = 8 required search invocations** completed across live, pending/import-ready,
+prior source-import and accepted-LCS surfaces. Direct combined-string matches were **0 / 0 /
+0 / 0**; exact accepted-prior comparison nonetheless confirms **2 prior-LCS reuses + 0 new
+theoretical teaching scopes** at source-scope grain. These teaching scopes do not enter
+assessment or practical-teaching-scope counts.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 463 plates / 2,774 mappings / 149 residues / 13
+keys**, and practical teaching scopes remain **0 live / 0 pending / 92 new**. The Family-161
+delta is exactly **+0 / +0 / +0 / +0 / +0** because this is a theoretical handwritten note,
+not a practical composition. Its one edge-cropped teaching phrase remains outside practical
+residue arithmetic.
+
+This source hash occurs once in Family 160's remainder. Removing its sole path leaves **69
+all-rank path instances / 64 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **55 / 53**, and rank 9 **14 / 11**. Family 160's prior checksums are
+`b20b0e83bc197d816421f04b30984468875999ddf95a4d7e2c311fb2edd7a2d9` (paths) and
+`226184c0990d687b7a03c55daecd55d76870dc7576dd79804e3655bbbd3f6258` (unique hashes).
+For the exact post-Family-161 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`fbfdf46d3da4d0a4f6adcd2bd8a304ec54b539109e572e6d51489ffda35f07d9`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`4784aa1e52346a75f74c34d2116a7bf738f001a9ecc2189bc4155903026b0a0a`.
+
+The exact next manifest-order debt is tier-6 `src_f2de332c31dbaf809252`,
+`2026-07-20 05.51.04.jpg` (165,826 bytes; 1280 × 1179 JPEG; SHA-256
+`f2de332c31dbaf809252fd5bc7cc175bf3d3e91a78cb64f23b262c913f9fa8e6`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 69 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
