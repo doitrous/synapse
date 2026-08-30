@@ -5002,3 +5002,64 @@ Removing this one empty-text path and unique hash leaves **42 selected inventory
 The next bounded `05 MCQs` source is the 15-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Important Ques physio.pdf`, SHA-256 `345d7475ddb0ac4653ec09742516bc8e4c76e697be3eea96cc578dd8a4a50f8b`.
 
 **BLOCKED — S1 cannot be approved:** 42 selected source paths remain untriaged.
+
+## Completed source — Important Ques physio
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Important Ques physio.pdf` | `345d7475ddb0ac4653ec09742516bc8e4c76e697be3eea96cc578dd8a4a50f8b` | 15 | empty-text image scan | pages 1–15 rendered and read | CamScanner-produced compilation titled `FHB Physiology - Final`; it prints no institution, department, sitting, date, marks, examiner or official-key claim. Its numbered MCQs and terminal `BLOOD` key establish a local assessment/revision bank, not teaching exposition or an official exam. |
+
+### Exact prompt, key and teaching boundary
+
+Pages 1–14 form one continuous MCQ assessment numbered Q1–Q90. Prompts split at page breaks were counted once: page 2 completes Q6, page 5 completes Q25, page 6 completes Q32, page 7 completes Q39, page 8 completes Q46, page 9 completes Q53, page 10 completes Q60, page 11 completes Q67, page 12 completes Q74, page 13 completes Q81, and page 14 completes Q88. Page 15 is a terminal answer table headed `BLOOD`, with one printed letter for every integer Q1–Q90. The exact boundary is therefore **90 prompt occurrences / 90 printed keys / 90 prompt-matched recovered answers**. No answer was inferred, corrected or supplied from another file.
+
+The printed key is: Q1–Q10 `D,D,D,C,B,D,C,A,B,C`; Q11–Q20 `A,A,A,A,D,A,A,D,C,C`; Q21–Q30 `C,D,D,A,C,C,A,C,C,C`; Q31–Q40 `A,B,A,B,D,C,C,B,B,B`; Q41–Q50 `B,A,C,D,B,D,C,C,C,C`; Q51–Q60 `A,B,C,D,B,D,C,B,D,C`; Q61–Q70 `C,D,A,C,A,D,B,A,D,A`; Q71–Q80 `C,C,B,C,A,D,B,C,D,B`; Q81–Q90 `D,D,D,A,B,C,A,D,C,D`.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 90 prompts are assigned exactly once to 22 source-first handles. Each handle received the four identifying searches shown, for **22 × 4 = 88 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1, Q18 | Adult erythropoiesis sites, age distribution and altitude response (`adult erythropoiesis site`; `red marrow erythropoiesis`; `erythropoiesis age distribution`; `high altitude erythropoiesis`) | live-hit; exact prior-FHB erythropoiesis duplicate. |
+| Q2–Q3, Q13–Q14, Q19–Q26 | Renal erythropoietin, hypoxic stimulus and erythroid action (`erythropoietin kidney`; `hypoxia erythropoietin`; `renal anemia erythropoietin`; `erythropoietin erythroid progenitors`) | pending-hit; exact prior-FHB erythropoietin/hypoxia duplicate. |
+| Q4, Q6, Q16, Q34, Q36–Q39 | Gastrointestinal reduction and absorption of iron (`iron absorption duodenum`; `ferrous ferric iron absorption`; `gastric acid iron absorption`; `intestinal iron uptake`) | live-hit; exact prior-FHB iron-handling duplicate. |
+| Q5 | Reticulocyte proportion and maturation (`reticulocyte percentage`; `reticulocytes immature erythrocytes`; `reticulocyte count`; `reticulocytosis`) | live-hit; exact prior-FHB reticulocyte duplicate. |
+| Q7, Q29–Q30 | Hepcidin–ferroportin control of iron availability (`hepcidin ferroportin`; `hepcidin iron absorption`; `hepcidin liver peptide`; `hepcidin macrophage iron`) | new externally; exact prior-FHB hepcidin duplicate. |
+| Q8–Q9, Q15, Q28, Q42–Q43, Q45, Q52, Q55, Q57 | Iron-deficiency and microcytic-hypochromic anaemia patterns (`iron deficiency microcytic anemia`; `hypochromic microcytic anemia`; `chronic blood loss iron deficiency`; `iron deficiency stages`) | live-hit; exact prior-FHB iron-deficiency duplicate. |
+| Q10 | Megakaryocyte origin of platelets (`platelets megakaryocytes`; `platelet origin bone marrow`; `megakaryocyte cytoplasm platelets`; `platelet production`) | new externally; exact prior-FHB platelet-origin duplicate. |
+| Q11, Q68 | Von-Willebrand-factor-mediated platelet adhesion (`von Willebrand platelet adhesion`; `platelet adhesion collagen`; `subendothelial collagen vWF`; `von Willebrand factor`) | pending-hit; exact prior-FHB platelet-adhesion duplicate. |
+| Q12, Q62 | Fibrinogen receptor and platelet aggregation (`glycoprotein IIb IIIa`; `platelet aggregation fibrinogen`; `GPIIb IIIa receptor`; `platelet aggregation receptor`) | pending-hit; exact prior-FHB platelet-aggregation duplicate. |
+| Q27 | Hypoxic secondary polycythaemia (`polycythemia high altitude`; `secondary polycythemia hypoxia`; `polycythemia red cell mass`; `relative absolute polycythemia`) | pending-hit; exact prior-FHB polycythaemia duplicate. |
+| Q31–Q33 | Transferrin transport, ferritin storage and body-iron distribution (`transferrin ferritin iron`; `iron storage ferritin`; `iron transport transferrin`; `body iron distribution`) | live-hit; exact prior-FHB iron-transport/storage duplicate. |
+| Q35, Q40–Q41, Q44, Q46–Q47, Q56 | Vitamin-B12/folate handling and macrocytic anaemia (`vitamin B12 folate macrocytic`; `intrinsic factor B12 absorption`; `megaloblastic anemia`; `folate deficiency anemia`) | pending-hit; exact prior-FHB B12/folate duplicate. |
+| Q48 | Aplastic anaemia and pancytopenia (`aplastic anemia pancytopenia`; `bone marrow failure anemia`; `aplastic anemia causes`; `pancytopenia marrow`) | live-hit; exact prior-FHB aplastic-anaemia duplicate. |
+| Q49–Q51, Q53–Q54 | Haemolytic and normocytic anaemia causes (`hemolytic anemia normocytic`; `hemolysis anemia`; `sickle cell hemolytic anemia`; `normocytic anemia causes`) | new externally; exact prior-FHB anaemia-pattern duplicate. |
+| Q58–Q59 | Red-cell indices and anaemia treatment choices (`MCV MCH anemia indices`; `anemia red cell indices`; `normocytic anemia treatment`; `iron anemia treatment`) | live-hit; exact prior-FHB red-cell-index/treatment duplicate. |
+| Q17, Q60, Q64, Q69, Q80 | Thrombocytopenia, purpura and bleeding-time interpretation (`bleeding time thrombocytopenia`; `purpura platelet count`; `platelet function bleeding time`; `hemophilia normal bleeding time`) | pending-hit; exact prior-FHB bleeding-time/platelet-count duplicate. |
+| Q61, Q63, Q65–Q67 | Platelet plug, granules, thromboxane and aspirin (`platelet plug formation`; `platelet dense granules`; `thromboxane A2 platelet`; `aspirin platelet cyclooxygenase`) | new externally; exact prior-FHB platelet-activation duplicate. |
+| Q70–Q75, Q84 | Intrinsic/extrinsic coagulation pathways and screening tests (`intrinsic extrinsic coagulation`; `prothrombin time extrinsic`; `aPTT intrinsic pathway`; `coagulation cascade`) | pending-hit; exact prior-FHB coagulation-pathway duplicate. |
+| Q76–Q77 | Thrombin action and fibrinogen-to-fibrin conversion (`thrombin fibrinogen fibrin`; `thrombin activates clotting factors`; `fibrin polymerization`; `fibrinogen liver protein`) | live-hit; exact prior-FHB thrombin/fibrin duplicate. |
+| Q78–Q79 | Factor IX/XI roles and haemophilia B/C (`factor IX hemophilia B`; `factor XI hemophilia C`; `factor IX coagulation`; `factor XI intrinsic pathway`) | pending-hit; exact prior-FHB clotting-factor/haemophilia duplicate. |
+| Q81–Q82, Q90 | Tissue factor and prostacyclin/thromboxane localization of clotting (`tissue thromboplastin factor VII`; `prostacyclin platelet inhibition`; `thromboxane prostacyclin balance`; `tissue factor extrinsic pathway`) | new externally; exact prior-FHB tissue-factor/prostacyclin duplicate. |
+| Q83, Q85–Q89 | Fibrinolysis and physiological anticoagulants (`plasmin fibrin lysis`; `antithrombin III`; `protein C protein S`; `thrombomodulin anticoagulant`) | new externally; exact prior-FHB fibrinolysis/anticoagulant duplicate. |
+
+The source-level search split is **7 live / 8 pending / 7 new = 22 handles**. Every handle is exact reuse of completed prior-FHB scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+90 questions / +90 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4786 | 4479 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **41 selected inventory paths / 41 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `a8a4b40162378b96e2ca268359160d937d8728c0c664811068ee64e157b36e49`. Pinned triage debt becomes **eight substantive-text / five sparse-text / 28 empty-text** rows, and unique-hash accounting is **`65 + 41 = 106`**.
+
+The next bounded `05 MCQs` source is the 15-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - DOC-20251228-WA0243..pdf`, SHA-256 `d9a07518aecda26323373d582d437e0b854a0bcf083cf21a730ab0aa2e266f06`.
+
+**BLOCKED — S1 cannot be approved:** 41 selected source paths remain untriaged.
