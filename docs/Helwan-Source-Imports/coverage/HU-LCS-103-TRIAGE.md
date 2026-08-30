@@ -5025,3 +5025,138 @@ bytes; 49 native-text pages; SHA-256
 103/Anatomy/Theoretical/Lower Limb/Lec 4 - Anterolateral & Posterior Compartment of
 Leg/`. Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 43 — Tier-4 anterolateral-leg lecture with two unkeyed formative prompts
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_5f00bf0283978c12f4c9` |
+| File / SHA-256 | `Anatomy Lecture Anterolateral Comp. Of The Leg.pdf` / `5f00bf0283978c12f4c9058883c6bd149b815e9148b63d38742a1c3ae9c1c04f` |
+| File boundary | 3,322,719 bytes · unencrypted PDF · 49 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 4 - Anterolateral & Posterior Compartment of Leg/Anatomy Lecture Anterolateral Comp. Of The Leg.pdf` |
+| Visible provenance | p. 1 prints `Dr. Eman El Sawaf`, `Anatomy & Embryology Department`, `Faculty Of Medicine`, and `Capital University (Formerly Helwan)`; PDF author is `User` and creator/producer is Microsoft PowerPoint 2019 |
+| Authority finding | Manifest/path-placed local tier-4 teaching evidence with two ordinary formative prompts. It is not a sitting paper, station sheet, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and 49-page boundary were recomputed and match the assigned source.
+All 49 pages were rendered at 140 dpi and read against the native text layer. Page 1 is the
+provenance slide, p. 2 is the module/anatomy/lower-limb title, pp. 3–4 orient the lower-limb
+bones and regions, pp. 5–6 state the objectives and contents, pp. 7–30 teach the anterior and
+lateral leg compartments with emphasis on the anterior muscles, p. 31 is an `Interactive
+Question`, pp. 32–46 teach the lateral-compartment muscles and summary, p. 47 is a second
+`Interactive Question`, p. 48 gives references and p. 49 closes with `Thank You`.
+
+Pages 31 and 47 are genuine ordinary formative prompts because they explicitly ask the
+student to produce or select an answer. Neither page prints a correctness mark, answer
+reveal, explanatory key or response already selected. Declarative attachment and action
+statements on earlier and later teaching slides remain simultaneous teaching evidence; they
+are not silently promoted into printed keys for either prompt.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's figures, muscle montages, arrows and labelled diagrams remain parts of tier-4
+theoretical teaching compositions; they are not promoted into the tier-5 practical
+plate/mapping ledger.
+
+| Physical pages | Source-first instructional composition or actual prompt | Teaching occurrences / assessment disposition |
+|---:|---|---:|
+| 3–4 | lower-limb bones, joints and named regions orientation | 2 teaching compositions |
+| 7–9 | leg compartments and anterior/lateral muscle membership | 3 teaching compositions |
+| 10–14 | anterior-compartment framework and position of tibialis anterior, extensor hallucis longus, extensor digitorum longus and fibularis tertius | 5 teaching compositions |
+| 15–18 | combined anterior-muscle origins and insertions | 4 teaching compositions |
+| 19–22 | individual attachment compositions for the four anterior-compartment muscles | 4 teaching compositions |
+| 23–30 | deep-fibular supply; dorsiflexion, toe-extension, inversion/eversion and medial-arch actions; consolidated anterior-compartment table | 8 teaching compositions |
+| 31 | `List the muscles which dorsiflex the foot at the ankle joint.` | 1 ordinary open prompt; no printed key |
+| 32–35 | lateral-compartment framework, muscle positions and origins | 4 teaching compositions |
+| 36–40 | combined and individual fibularis-longus/brevis insertions plus superficial-fibular supply | 5 teaching compositions |
+| 41–46 | eversion, plantar-flexion and arch support; consolidated lateral-muscle table and movement/attachment summary | 6 teaching compositions |
+| 47 | `Which one of the following muscles is inserted at the base of the 5th metatarsal bone?` with options `a. TA`, `b. TP`, `c. FL`, `d. FB` | 1 ordinary MCQ prompt; all four options visibly unmarked; no printed key |
+| **Total** | **tier-4 content plus actual prompts** | **41 teaching compositions / 2 ordinary prompts / 0 printed keys** |
+
+The **41 content-slide occurrences are 41 source-distinct teaching compositions**. Paired
+slides 26/27, 28/29, 41/42 and 43/44 repeat action wording while changing the complete image
+or layout, so none is an exact copy collapse. SHA-256 comparison of all 49 rendered complete
+pages found no exact full-page duplicate. The two prompt pages are source-distinct and test
+different concepts. The full boundary is therefore **41 teaching compositions / 2 ordinary
+questions / 0 practical or station prompts / 0 printed assessment keys / 0 assessment
+residues**. As theoretical material, its figures add **0 practical plates, 0 practical label
+mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 41 compositions consolidate to eight source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `lower-limb-bones-and-regions-orientation` · pp. 3–4 | lower limb major bones; lower limb regions; femur tibia fibula patella; gluteal thigh leg foot regions | no direct live/pending complete-scope hit; exact accepted Family-41 theoretical handle — prior LCS reuse |
+| `leg-compartments-and-anterolateral-contents` · pp. 7–9 | leg compartments anatomy; anterior lateral leg compartments; anterior leg muscles deep fibular nerve; lateral leg fibularis superficial nerve | pending AU material owns the anterior-compartment membership/supply component, while the combined anterolateral scope is already accepted across Family-34's two compartment handles — prior LCS reuse with pending overlap |
+| `tibialis-anterior-oina` · pp. 10–30 | tibialis anterior origin insertion nerve supply; tibialis anterior OINA; tibialis anterior tibia medial cuneiform; tibialis anterior dorsiflexion inversion | no direct live/pending complete-scope hit; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `extensor-hallucis-longus-oina` · pp. 10–30 | extensor hallucis longus origin insertion nerve supply; EHL muscle OINA; extensor hallucis longus fibula distal phalanx; extensor hallucis longus action deep fibular | group-level pending mentions do not own the complete OINA scope; exact accepted Family-34 handle — prior LCS reuse |
+| `extensor-digitorum-longus-oina` · pp. 10–30 | extensor digitorum longus origin insertion nerve supply; EDL muscle OINA; extensor digitorum longus fibula extensor expansion; extensor digitorum longus action deep fibular | group-level pending mentions do not own the complete OINA scope; exact accepted Family-34 handle — prior LCS reuse |
+| `fibularis-tertius-oina` · pp. 10–30 | fibularis tertius origin insertion nerve supply action; peroneus tertius OINA; fibularis tertius fifth metatarsal; peroneus tertius dorsiflexion eversion | no direct live/pending complete-scope hit; Family 34 owns only `peroneus-tertius-origin-and-insertion`, so the present nerve/action-complete OINA scope is new theoretical teaching |
+| `fibularis-longus-oina` · pp. 32–46 | fibularis longus origin insertion nerve supply; peroneus longus OINA; fibularis longus medial cuneiform first metatarsal; peroneus longus eversion plantarflexion arch | pending 103-BMS material owns the complete muscle scope; exact accepted Families 1 and 34 handle — prior LCS reuse with inherited pending overlap |
+| `fibularis-brevis-oina` · pp. 32–46 | fibularis brevis origin insertion nerve supply; peroneus brevis OINA; fibularis brevis fifth metatarsal; peroneus brevis eversion plantarflexion | pending 103-BMS material owns the complete muscle scope; exact accepted Family-34 handle — prior LCS reuse with pending overlap |
+
+All **8 × 4 = 32** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **0 live / 3 pending / 5 new**; exact
+accepted-prior comparison prevents seven repeated module additions, leaving **seven
+prior-LCS reuses / one new theoretical teaching scope**. Declarative teaching scopes do not
+enter the eligible tested-concept count, and no theoretical scope enters the
+practical-teaching-scope counter.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+| Source page / eligible handle | Source prompt inventory | Four required `find-existing` queries | External / prior-LCS result |
+|---|---|---|---|
+| 31 · `ankle-dorsiflexor-muscles` | open request to list the ankle dorsiflexors; no answer line or printed key | muscles dorsiflex ankle; ankle dorsiflexor muscles; anterior compartment dorsiflexors; tibialis anterior EHL EDL fibularis tertius | pending AU and 103-BMS records explicitly own the four-muscle dorsiflexor group; no earlier eligible LCS-103 question handle tests the collective list — pending, new-to-eligible |
+| 47 · `fibularis-brevis-fifth-metatarsal-insertion` | one four-option MCQ; all options unmarked and no printed key | fibularis brevis insertion; peroneus brevis fifth metatarsal; base fifth metatarsal muscle; fibularis brevis attachment | pending 103-BMS article/concept material explicitly owns the fifth-metatarsal insertion; Family-34 coverage is teaching-only and no earlier eligible LCS-103 question handle tests this fact — pending, new-to-eligible |
+
+All **2 × 4 = 8** required assessment-handle searches completed. The assessment result is
+**0 live / 2 pending / 0 new**, and prior-LCS comparison finds **zero eligible question-handle
+reuses / two new-to-eligible tested concepts**. The two prompt occurrences remain separate;
+the group-list request is not collapsed into the single-muscle insertion MCQ. No answer is
+inferred from the teaching slides or the external pending records, so the source contributes
+zero printed keys.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 43 | Family 43 delta | After Family 43 |
+|---|---:|---:|---:|
+| Eligible observed question records | 451 | +2 | 453 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 207 | +2 | 209 |
+| Question live / pending / new | 9 / 52 / 146 | +0 / +2 / +0 | 9 / 54 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `41 = 2 + 3 + 5 + 4 + 4 + 8 + 4 + 5 + 6`,
+`2 prompts = 2 source-distinct handles`, `451 + 2 = 453`, `242 + 0 = 242`, `207 + 2 =
+209`, `9 + 54 + 146 = 209`, `251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and
+`55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-42
+remainder leaves **33 rank-4/rank-5 path instances / 31 unique hashes**. The Family-42
+method was reproduced first: its 34/32 row sets recomputed to
+`e10573b0ff42f8932291623aaf7563ff9e396293eb5436a6a69cb869133c17cf` and
+`8bf87ec9940bf36a83da98958c336cc3be8b4c30e349e1d16ee95becd454c7b8`.
+For the exact post-Family-43 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`6687210268877d3424e4c0383917933fcbfd4978d9fb7579467028bb49589c44`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`560c0b9ac7d77a94d3429f52c7dc9c2d472ff0f2b09317d53dbc4b2226689902`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_59e94a40a806e17e000e`, `Anatomy Lecture Posterior Comp. Of The Leg.pdf` (3,728,172
+bytes; 55 native-text pages; SHA-256
+`59e94a40a806e17e000e2eace648f1b13e9730cf2f4e49b6d579c7e23397f58e`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 4 - Anterolateral & Posterior Compartment of Leg/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
