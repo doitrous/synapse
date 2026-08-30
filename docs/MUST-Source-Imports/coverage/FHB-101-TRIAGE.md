@@ -5442,3 +5442,60 @@ Removing this one empty-text path and unique hash leaves **35 selected inventory
 The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histo MCQ by Dr.Zahra [Cytology].pdf`, SHA-256 `6846577508f49244d715afb12267b8b6db92ef5d9140be391919a040d2ba70de`, 27 pages.
 
 **BLOCKED — S1 cannot be approved:** 35 selected source paths remain untriaged.
+
+## Completed source — Histo MCQ by Dr.Zahra [Cytology]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histo MCQ by Dr.Zahra [Cytology].pdf` | `6846577508f49244d715afb12267b8b6db92ef5d9140be391919a040d2ba70de` | 27 | substantive-text | pages 1–27 rendered and read | iOS 15.6.1 Quartz-produced document headed `MCQ IN HISTOLOGY — DR. AHMED ZAHRA — CYTOLOGY` on every content page. It names its instructor and subject but prints no institution, department, sitting, date, marks or official-exam claim; it is an instructor-authored cytology revision bank, not an official MUST examination. |
+
+### Exact prompt, key and teaching boundary
+
+Part A runs continuously from Q1 on page 1 through Q68 on page 9. Part B begins on page 9 and runs Q1–Q94 through page 20. Part C occupies pages 21–26 and runs Q1–Q38. Page 26 then prints a complete Q1–Q68 `Model answer part A` table; page 27 prints complete Q1–Q94 Part-B and Q1–Q38 Part-C model-answer tables. The exact source boundary is therefore **200 prompt occurrences / 200 printed keys / 200 prompt-matched recovered answers** (`68 + 94 + 38`). All are text-only MCQs: there is no practical-image identification, written/essay prompt or teaching-only passage, and no key number is omitted. No answer was inferred, corrected or supplied from another source.
+
+Parts A, B and C intentionally repeat many of the same cytology facts in different wording. Those occurrences remain in the prompt count but are co-assigned below and do not become duplicate concepts.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 200 prompts were mapped exactly once in the source-first working inventory to the 18 handles below. Each handle received the four identifying searches shown, for **18 × 4 = 72 searches**. The printed scopes in the table are representative cross-part anchors for the handle, not an exhaustive occurrence ledger; a prompt that mentions more than one structure remains owned by only its primary handle.
+
+| Representative printed scope | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| A1,A9,A14–A15,A66; B2,B7–B14,B81,B88–B89; C1 | Cell-membrane structure, composition, thickness and cholesterol (`cell membrane trilaminar`; `cell membrane 7.5 10 nm`; `cholesterol membrane stabilization`; `phospholipid hydrophilic heads`) | new externally; exact prior-FHB membrane-ultrastructure reuse. |
+| A16–A17,A33; B81 | Glycocalyx/cell-coat composition and roles (`glycocalyx PAS`; `cell coat recognition adhesion`; `glycocalyx carbohydrate membrane`; `cell coat receptors`) | new externally; exact prior-FHB glycocalyx reuse. |
+| A2,A6,A10,A19–A20,A47,A49; B14,B43–B44; C21–C24 | Endocytosis, exocytosis and clathrin-coated vesicles (`pinocytosis cell drinking`; `phagocytosis solid particles`; `receptor mediated endocytosis clathrin`; `coated vesicles clathrin`) | pending-hit; exact prior-FHB vesicular-transport reuse. |
+| A18,A59–A64; B15,B17–B18,B47–B51; C13–C16,C19–C20 | Cilia, flagella, axoneme and basal body (`cilia axoneme 9 2`; `basal body 9 triplets`; `flagellum single longer`; `dynein cilia movement`) | new externally; exact prior-FHB ciliary/flagellar reuse. |
+| A21,A28,A38,A50,A64–A65,A68; B4,B6,B22,B45–B50,B68,B86–B87; C2,C13,C20,C29 | Centrioles and microtubule organisation (`centriole 9 triplets microtubules`; `microtubules alpha beta tubulin`; `centriole mitotic spindle`; `microtubule 25 nm`) | pending-hit; exact prior-FHB centriole/microtubule reuse. |
+| A50,A52; B45,B52–B58,B68,B86; C20,C28 | Cytoskeletal and intermediate-filament types/functions (`keratin desmin vimentin intermediate filaments`; `microfilaments cleavage furrow`; `cytoskeleton microtubules microfilaments`; `glial neurofilaments`) | pending-hit; exact prior-FHB cytoskeleton reuse. |
+| A3–A4,A13,A23–A25; B1,B19,B23–B25,B38,B59,B82–B83,B92,B94; C25–C26 | Ribosome composition, basophilia and free/attached polysomes (`ribosome rRNA protein subunits`; `polysomes mRNA`; `free ribosomes intracellular protein`; `attached ribosomes export protein`) | pending-hit; exact prior-FHB ribosome/polysome reuse. |
+| A3,A24,A37,A44–A45; B26–B30,B80,B82,B94; C25,C27 | Rough-ER morphology, secreted-protein synthesis and transfer vesicles (`rough endoplasmic reticulum cisternae`; `RER secreted proteins`; `outer nuclear membrane continuous RER`; `transfer vesicles RER Golgi`) | pending-hit; exact prior-FHB rough-ER/protein-synthesis reuse. |
+| A11,A32,A46; B31–B34,B80; C30 | Smooth-ER lipid/steroid synthesis, detoxification and calcium/glycogen roles (`smooth ER detoxification drugs`; `smooth ER steroid lipid synthesis`; `sarcoplasmic reticulum calcium`; `smooth ER glycogen metabolism`) | new externally; exact prior-FHB smooth-ER reuse. |
+| A7,A29–A31,A37,A41,A47; B28–B29,B35–B37,B69,B82,B84; C27,C34 | Golgi morphology, staining, packaging and products (`Golgi silver stain`; `Golgi packages modifies proteins`; `negative Golgi image`; `Golgi secretory vesicles lysosomes`) | new externally; exact prior-FHB Golgi reuse. |
+| A22,A34–A36; B39–B41,B91; C4–C5,C9–C10 | Lysosomal enzymes, secondary forms and residual bodies (`lysosome acid phosphatase`; `primary secondary lysosome phagosome`; `residual body lipofuscin`; `autolysosome old organelle`) | pending-hit; exact prior-FHB lysosome reuse. |
+| B42,B70,B78–B79; C6–C8,C11,C35–C36 | Peroxisomal oxidation/catalase and ubiquitin-proteasome degradation (`peroxisome catalase hydrogen peroxide`; `proteasome ubiquitin protein degradation`; `peroxisome thyroid hormone activation`; `peroxisome beta oxidation`) | new externally; exact prior-FHB peroxisome/proteasome reuse. |
+| A5,A8,A12,A26–A28,A51,A65,A67; B20–B21,B85,B93; C2–C3,C11–C12,C33 | Mitochondrial structure, staining, genome and energy/calcium functions (`mitochondrial cristae ATP synthase`; `mitochondrial matrix Krebs cycle`; `mitochondria DNA RNA self duplication`; `mitochondria calcium metabolism`) | new externally; exact prior-FHB mitochondrial reuse. |
+| A39–A44; B5,B72–B77; C17–C18,C37–C38 | Nuclear envelope/pores, chromatin and nucleolus (`nuclear envelope pores perinuclear space`; `heterochromatin euchromatin`; `nucleolus pars fibrosa granulosa amorpha`; `nuclear pore complex`) | new externally; exact prior-FHB nuclear/chromatin/nucleolar reuse. |
+| A53–A58; B3,B40–B41,B61–B67,B71; C31–C32 | Glycogen/lipid inclusions and endogenous/exogenous pigments (`glycogen alpha beta granules`; `Best carmine glycogen PAS`; `Sudan III lipid`; `lipofuscin long lived cells`) | new externally; exact prior-FHB inclusion/pigment/histochemistry reuse. |
+| A16,A26,A29,A35,A55–A57,A65; B16,B22,B69,B91; C1–C2,C4,C7,C31–C33 | Organelle- and inclusion-specific histochemical stains (`iron hematoxylin mitochondria centrioles`; `Janus green mitochondria`; `silver stain Golgi`; `acid phosphatase lysosome`) | new externally; exact prior-FHB cytology-stain reuse. |
+| B59–B60,B85,B90 | Membranous versus non-membranous organelles (`membranous nonmembranous organelles`; `double membrane nucleus mitochondria`; `ribosome non membranous organelle`; `coated vesicle membranous organelle`) | new externally; exact prior-FHB organelle-classification reuse. |
+| A48 | Normal growth-hormone concentration with defective receptor in dwarfism (`dwarfism growth hormone receptor`; `growth hormone normal defective receptors`; `Laron dwarfism receptor`; `pituitary dwarfism growth hormone`) | new externally; exact prior-FHB receptor-resistance vignette reuse. |
+
+The source-level search split is **0 live / 6 pending / 12 new = 18 handles**. All 18 reproduce completed prior-FHB assignments, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+200 questions / +200 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 5875 | 5567 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **34 selected inventory paths / 34 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `c08c46716934ea11e7e869d5721e4b05e315f81a45326bc98b069fac721bbb40`. Pinned triage debt becomes **six substantive-text / five sparse-text / 23 empty-text** rows, and unique-hash accounting is **`72 + 34 = 106`**.
+
+The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Cytology MCQ Dr.Abdelwahab.pdf`, SHA-256 `a6de213a3876866fe421224a4c1ee0d9998f40beccb13d648b0f29fbfe9d303c`, 48 pages.
+
+**BLOCKED — S1 cannot be approved:** 34 selected source paths remain untriaged.
