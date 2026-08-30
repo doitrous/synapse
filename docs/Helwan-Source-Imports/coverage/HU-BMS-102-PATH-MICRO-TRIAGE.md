@@ -13933,3 +13933,165 @@ SHA-256 `bcfda49896dd7495479fe201c2573f5ea45ef294d441f58e491acb67f0fe51d4`,
 `Pathology / Notes and Summaries`. Its visible `BMS II Pathology Competition`, Dr Fatma Abdelsalam,
 Pathology Department / Helwan University provenance, metadata-author/date conflict, competition
 prompt/key boundary, source-first searches, and prior-BMS reuse are the exact next-source blockers.
+
+## Family 133 — Dr Fatma Abdelsalam BMS II pathology competition
+
+### Source identity, complete render/native boundary, provenance conflict, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_bcfda49896dd7495479f` · `pathology HU BMS2  competition-revision lecture.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `bcfda49896dd7495479fe201c2573f5ea45ef294d441f58e491acb67f0fe51d4` · 8,034,006 bytes |
+| Format / complete visual boundary | 61 native-text landscape pages, each 720×540 points. All 61 pages rendered at 150 dpi into 61 non-empty 1500×1125-pixel images; seven complete contact sheets and every original page were read. There is no page, crop, inset, image, or visual remainder. |
+| Native-text reality | Coherent layout extraction contains 1,150 words / 7,717 bytes and raw extraction contains 1,148 words / 7,197 bytes. They agree with the rendered stems, options, answer reveals, rules, score table, and closing slides; visual review controls the lung-image and key boundary. The manifest's `native` label is accurate. |
+| Visible provenance | Page 1 visibly reads `BMS II Pathology Competition`, `By Dr/ Fatma Abdelsalam`, `Lecturer of General Pathology`, `Pathology Department`, and `Helwan University`. This directly establishes the named instructor, department, university, and competition/revision context. No academic year, calendar date, candidate identity, or formal exam sitting is visible. |
+| Metadata conflict | PDF metadata names `fito ali` as author, PowerPoint 2016 as creator/producer, and 16 January 2019 as creation/modification date. The author conflicts with the visible Dr Fatma Abdelsalam attribution, and the timestamp is an invisible production field. Neither overrides the visible cover or establishes a teaching year or sitting. |
+| Competition/key convention | Page 2 visibly gives the five-team competition rules, per-question time/points, translation-only assistance, and reduced group-answer scoring. Page 3 instructs home users to write each answer before advancing to the next answer slide; page 4 assigns Q1–Q25 point values. Pages 5–54 then alternate exactly one numbered question slide with its next-slide answer reveal. This is a coherent source-supplied competition key convention. |
+| Authority | Instructor-attributed Helwan BMS II competition/revision deck with source-supplied answers. It is stronger than anonymous notes for provenance and keyed scope, but it is not a dated candidate paper, official institutional answer register, verified sitting, or student response sheet. |
+
+### Complete page-first competition, teaching, and practical boundary
+
+| Pages | Complete visible source content | Prompt / answer ruling |
+|---:|---|---:|
+| 1–4 | Helwan/Dr Fatma cover; competition rules; home-use answer-before-advance instruction; score grid assigning 10–50 points to Q1–Q25 | Provenance/instructions/scoring only; **0 prompts / 0 answers**. The score grid proves competition weighting but not a formal exam mark scheme. |
+| 5–14 | Q1 chronic-inflammation feature; Q2 mine-worker lung micrograph cause; Q3 six-row healing-outcome match; Q4 traumatic urine-to-rectum complication; Q5 recurrent-cystitis bladder granuloma, each followed by its answer slide | **5 / 5** complete prompt/reveal pairs. |
+| 15–24 | Q6 cardiac-valve thrombus term; Q7 coagulation-pathway factor exception; Q8 thrombosis-factor exception; Q9 clot-over-thrombus characteristic; Q10 travel-associated dyspnoea prevention exception, each followed by its answer | **5 / 5**. |
+| 25–34 | Q11 acute-ischaemia cause exception; Q12 infarct-morphology organ exception; Q13 labour-associated arrest; Q14 intravenous anabolic-steroid hazard; Q15 large-neck-vein injury complication, each followed by its answer | **5 / 5**. |
+| 35–44 | Q16 dry-gangrene feature exception; Q17 5-mm subcutaneous-bleed term; Q18 infective-gangrene type exception; Q19 spontaneous-bleeding cause exception; Q20 blanching 2-mm red spot, each followed by its answer | **5 / 5**. |
+| 45–54 | Q21 venous-thrombosis oedema mechanism; Q22 naked-granuloma diagnosis; Q23 non-staphylococcal condition; Q24 healing-wound branching-cell identification; Q25 progressive non-pitting upper-limb oedema vector exception, each followed by its answer | **5 / 5**. |
+| 55–61 | End slide, total/team-score slides, all-teams-win reveal, teamwork advice/maxim, and thank-you slide | Closing/teaching material only; **0 / 0**. |
+
+Q2 is an **image-bearing competition question**, not a practical station or teaching plate. It is
+numbered and point-weighted inside the same team competition as Q1–Q25, asks for one diagnosis
+from a displayed lung micrograph, and has the same immediate next-slide source answer as every
+other item. It has no station number, candidate sheet, timed practical instruction, specimen
+handling task, checklist, response form, examiner action, or separately authenticated plate
+register. The mine-worker lung-image recognition evidence is nevertheless preserved in the
+retained record for later authoring; classifying the carrier correctly does not discard its visual
+diagnostic signal.
+
+All 25 numbered questions have a single source-supplied answer reveal. `TIME OUT` text on Q2 and
+Q5 answer slides and the 30-second notice before Q18 are competition timing devices, not extra
+prompts or answers. Point values, rules, score cells, and teamwork advice are not learner-response
+records. There is no unanswered stem, blank, partial key, handwritten/student response, grading
+mark, correction layer, or prompt-like residue. The exact boundary is therefore **25 raw prompt
+occurrences / 25 printed answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 25
+retained question records**.
+
+### Source-first retained inventory and printed answers
+
+| Ref | Source-tested scope | Printed/source-supplied answer | Retained handle |
+|---|---|---|---|
+| F133-Q01 | Chronic-inflammation feature exception set | `End arteries` | `chronic-inflammation-end-arteries-keyed` |
+| F133-Q02 | Mine-worker dyspnoea lung-image cause | `Asbestosis`; chronic specific granulomatous inflammation | `asbestosis-mine-worker-lung-image` |
+| F133-Q03 | Match six tissues/diseases to resolution, regeneration, organization/fibrosis, or gliosis | `A-2, B-3, C-3, D-3, E-1, F-4` | `tissue-healing-outcome-matching` |
+| F133-Q04 | Traumatic urine passage from rectum after an abdominal stab | `Fistula` | `traumatic-vesicorectal-fistula` |
+| F133-Q05 | Recurrent cystitis with macrophage/lymphocyte/giant-cell/eosinophil bladder nodules | `Bilharziasis` | `bladder-bilharziasis-granuloma` |
+| F133-Q06 | Term for thrombi on cardiac valves | `Vegetations` | `cardiac-valve-thrombi-vegetations` |
+| F133-Q07 | Coagulation factor not common to intrinsic and extrinsic pathways | `Factor VII` | `factor-vii-extrinsic-pathway-only` |
+| F133-Q08 | Blood condition not contributing to thrombus formation | `Anemia` | `anemia-not-thrombus-formation` |
+| F133-Q09 | Characteristic favoring a clot over a thrombus | `Composed mainly of fibrin` | `clot-fibrin-characteristic` |
+| F133-Q10 | Measure that cannot prevent travel-associated thromboembolic dyspnoea | `Staying home & not travelling` | `travel-thromboembolism-prevention` |
+| F133-Q11 | Listed event not causing acute ischaemia | Arterial compression by enlarged lymph node | `arterial-compression-not-acute-ischemia` |
+| F133-Q12 | Infarction not presenting as pale, pyramidal, firm tissue | Cerebral infarction | `cerebral-infarction-not-pale-firm` |
+| F133-Q13 | Sudden dyspnoea/arrest during term labour | Amniotic-fluid embolism | `amniotic-fluid-embolism-delivery` |
+| F133-Q14 | Reason anabolic steroid should not be given intravenously | Introducing fat into circulation | `intravenous-steroid-fat-embolism` |
+| F133-Q15 | Immediate complication prevented by compressing a cut large neck vein | Introducing air into circulation | `neck-vein-injury-air-embolism` |
+| F133-Q16 | Feature not characteristic of dry gangrene | Formation of bubbles | `dry-gangrene-no-bubbles` |
+| F133-Q17 | Term for a 5-mm subcutaneous bleed | Purpura | `purpura-five-millimeter` |
+| F133-Q18 | Listed condition not an infective gangrene | Senile gangrene | `senile-gangrene-not-infective` |
+| F133-Q19 | Listed condition not causing spontaneous bleeding | Polycythemia | `polycythemia-not-spontaneous-bleeding` |
+| F133-Q20 | Blanching 2-mm red skin spot | Insect bite | `blanching-red-spot-insect-bite` |
+| F133-Q21 | Mechanism of oedema from venous thrombosis | Increased hydrostatic pressure | `venous-thrombosis-edema-hydrostatic` |
+| F133-Q22 | Discrete granulomas made only of large kidney-nucleated cells | Sarcoidosis | `sarcoidosis-naked-granulomas` |
+| F133-Q23 | Listed condition not caused by staphylococci | Gas gangrene | `gas-gangrene-not-staphylococcal` |
+| F133-Q24 | Branching healing-wound cell with pale nucleus, basophilic cytoplasm, and processes | Fibroblast | `healing-wound-branching-fibroblast` |
+| F133-Q25 | Vector exception for progressive non-pitting upper-limb oedema with thick skin | *Phlebotomus papatasi* | `lymphedema-vector-phlebotomus-exclusion` |
+
+Every wording remains a retained record and no two questions test the same source-level
+proposition. Q3 remains one composite matching handle because its six row assignments form one
+inseparable scored matching task. Source-first arithmetic is therefore **25 retained records = 25
+source-distinct tested handles**.
+
+### Exactly four searches per accepted handle and prior-BMS adjudication
+
+Every accepted handle received exactly four fresh source-first searches across live state, all
+pending import roots, and the prior BMS-102 ledger: **25 × 4 = 100 required and completed
+searches**. No external result supplied the same tested scope, so family-local external disposition
+is **0 live / 0 pending / 25 no same-scope**. Prior-family reuse is assigned separately below; a
+no-hit external packet does not make a repeated BMS-102 proposition new.
+
+| Handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| `chronic-inflammation-end-arteries-keyed` | `chronic inflammation end arteries`; `chronic inflammation characteristics`; `no fibrosis chronic inflammation`; `marked swelling neutrophils chronic` | no prior accepted prompt tests this keyed exception; delta |
+| `asbestosis-mine-worker-lung-image` | `asbestosis mine worker lung`; `asbestos lung granulomatous`; `chronic specific granulomatous asbestosis`; `dyspnea mine worker pathology` | prior pneumoconiosis/granuloma prompts do not test this image-and-occupation diagnosis; delta |
+| `tissue-healing-outcome-matching` | `liver resection regeneration hepatitis fibrosis skin dermis organization`; `healing outcome tissue matching`; `serous pericarditis resolution`; `brain infarction gliosis` | prior healing and infarct handles do not test this six-row composite; delta |
+| `traumatic-vesicorectal-fistula` | `bladder rectum fistula trauma`; `vesicorectal fistula stab wound`; `urine from rectum fistula`; `sinus fistula wound complication` | broader repair-complication prompts do not test this clinical diagnosis; delta |
+| `bladder-bilharziasis-granuloma` | `bladder granuloma bilharziasis`; `schistosomiasis bladder eosinophils giant cells`; `recurrent cystitis nodular collections`; `bilharzial granuloma bladder` | prior schistosomiasis and granuloma scopes do not test this bladder presentation; delta |
+| `cardiac-valve-thrombi-vegetations` | `cardiac valve thrombi vegetations`; `vegetations term valve thrombus`; `thrombi on cardiac valves`; `mural thrombus versus vegetation` | no prior accepted prompt tests the valve-thrombus term; delta |
+| `factor-vii-extrinsic-pathway-only` | `factor VII extrinsic not intrinsic`; `coagulation pathways factor VII`; `common pathway factors X I II`; `intrinsic extrinsic factor difference` | no prior accepted prompt tests this pathway exception; delta |
+| `anemia-not-thrombus-formation` | `anemia not thrombus formation`; `polycythemia thrombocytosis leukemia thrombosis`; `hypercoagulability blood cellular excess`; `anemia versus thrombosis` | contained by exact Family 3/118 thrombosis-risk-factor recognition; **reuse** |
+| `clot-fibrin-characteristic` | `clot composed mainly fibrin`; `clot versus thrombus characteristics`; `postmortem clot fibrin red cells`; `lines of Zahn attachment` | contained by exact Family 3 thrombus-versus-postmortem-clot comparison; **reuse** |
+| `travel-thromboembolism-prevention` | `travel pulmonary embolism prevention`; `long car travel DVT prevention`; `obesity dehydration immobilization embolism`; `staying home not travelling prevention` | Family 6 diagnoses travel-associated DVT/PE but does not test preventive measures; delta |
+| `arterial-compression-not-acute-ischemia` | `arterial compression chronic not acute ischemia`; `acute ischemia causes thrombus twisting embolus`; `enlarged lymph node arterial compression ischemia`; `sudden versus gradual ischemia cause` | prior infarction/ischaemia handles do not test the acute-cause exception; delta |
+| `cerebral-infarction-not-pale-firm` | `cerebral infarction not pale firm pyramidal`; `pale infarction kidney spleen heart`; `brain infarction liquefactive soft`; `infarct morphology organ` | exact Family 86 cerebral-infarct liquefactive/morphology scope; **reuse** |
+| `amniotic-fluid-embolism-delivery` | `amniotic fluid embolism delivery arrest`; `pregnant uterine contractions sudden dyspnea`; `labor shortness breath embolism`; `amniotic fluid embolism clinical event` | exact Families 3/118 labour-timing scope; **reuse** |
+| `intravenous-steroid-fat-embolism` | `intravenous anabolic steroid fat embolism`; `intramuscular not intravenous steroid oil embolism`; `injection fat into circulation`; `oil based steroid embolism` | prior fat-embolism prompts test fracture contexts, not this injection route; delta |
+| `neck-vein-injury-air-embolism` | `neck vein injury air embolism`; `large neck veins air sucked circulation`; `knife cut neck vein complication`; `open jugular vein air embolism` | exact Families 3/118 large-neck-vein air-embolism scope; **reuse** |
+| `dry-gangrene-no-bubbles` | `dry gangrene bubble formation`; `dry gangrene characteristics mummification`; `line demarcation separation dry gangrene`; `gas bubbles not dry gangrene` | prior dry/wet comparison and image diagnoses do not test this feature exception; delta |
+| `purpura-five-millimeter` | `purpura 5 mm subcutaneous bleeding`; `petechiae purpura size 5 mm`; `subcutaneous hemorrhage five millimeter`; `purpura size definition` | exact Family 2/6/10 haemorrhage-size classification; **reuse** |
+| `senile-gangrene-not-infective` | `senile gangrene not infective`; `infective gangrene types gas cancrum necrotizing`; `senile dry gangrene ischemic`; `gangrene infection classification` | prior gangrene prompts do not test infective-type membership; delta |
+| `polycythemia-not-spontaneous-bleeding` | `polycythemia spontaneous bleeding`; `thrombocytopenia hypofibrinogenemia vitamin C bleeding`; `causes spontaneous bleeding pathology`; `polycythemia thrombosis not bleeding` | no prior accepted prompt tests this bleeding-cause exception; delta |
+| `blanching-red-spot-insect-bite` | `blanching red skin spot insect bite`; `petechiae do not blanch pressure`; `two millimeter red spot blanching`; `purpura ecchymosis blanching` | size-classification handles do not test blanching or insect-bite recognition; delta |
+| `venous-thrombosis-edema-hydrostatic` | `venous thrombosis edema hydrostatic pressure`; `venous obstruction increased hydrostatic pressure edema`; `DVT leg edema mechanism`; `thrombosis edema capillary pressure` | prior generic oedema and heart-failure mechanism prompts do not test venous thrombosis as the cause; delta |
+| `sarcoidosis-naked-granulomas` | `sarcoidosis discrete naked granulomas`; `granulomas large kidney shaped nuclei`; `sarcoid noncaseating granuloma few lymphocytes`; `tuberculosis asbestosis silicosis granuloma comparison` | prior sarcoidosis/differential handles do not test naked-granuloma morphology; delta |
+| `gas-gangrene-not-staphylococcal` | `gas gangrene not staphylococci`; `staphylococci abscess pyemia thrombophlebitis`; `Clostridium gas gangrene cause`; `pathological conditions caused by staphylococcus` | prior staphylococcal suppuration handles do not test this four-condition exception; delta |
+| `healing-wound-branching-fibroblast` | `healing wound branching fibroblast`; `pale nucleus basophilic cytoplasm processes fibroblast`; `granulation tissue branching cell`; `fibroblast morphology wound biopsy` | prior granulation-tissue definitions do not test fibroblast morphology recognition; delta |
+| `lymphedema-vector-phlebotomus-exclusion` | `lymphedema vector phlebotomus papatasi`; `Culex Aedes Anopheles filariasis`; `nonpitting upper limb filarial edema`; `phlebotomus transmits leishmania not filaria` | prior non-pitting/filariasis prompts do not test the vector exception; delta |
+
+Exactly **6** handles are prior-BMS exact reuses: thrombosis-risk exclusion, clot-versus-thrombus
+comparison, cerebral-infarct morphology, amniotic-fluid embolism during labour, large-neck-vein air
+embolism, and haemorrhage-size classification. Family 133 therefore adds **`25 - 6 = 19`
+distinct tested concepts**.
+
+### Family-133 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 133 | Auxiliary cumulative (Families 12–133) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 25 | 1,133 | 765 | 1,898 |
+| Printed/source-supplied answer occurrences | 25 | 700 | 405 | 1,105 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 25 | 1,068 | 552 | 1,620 |
+| Source-distinct tested handles / required searches | 25 / 100 | 952 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 25 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 6 | — | — | subtract before concept addition |
+| Cross-family concept delta | +19 | +609 over primary | 372 | `372 + 609 = 981` |
+| **Distinct tested concepts** | **+19** | **609 auxiliary additions** | **372** | **981** |
+
+The checksum closes without remainder: `25 = 25 + 0` keyed/unkeyed prompts; all 25 wordings are
+retained; `25 - 0 same-source reductions = 25` handles; searches are `25 × 4 = 100`; external
+disposition is `0 + 0 + 25 = 25`; and concept arithmetic is `25 - 6 prior exact reuses = 19`.
+Auxiliary arithmetic is `1,108 + 25 = 1,133` prompts, `675 + 25 = 700` answers, `1,043 + 25 =
+1,068` retained records, `927 + 25 = 952` handles, and `590 + 19 = 609` concept additions. All
+eligible arithmetic is `765 + 1,133 = 1,898`, `405 + 700 = 1,105`, `552 + 1,068 = 1,620`, and
+`372 + 609 = 981`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,133 / 700 / 1,068 / 952 / +609**; and all eligible evidence is
+**1,898 / 1,105 / 1,620 / 981**. Family 133 cannot establish a dated sitting, recurrence, formal
+exam mark weight, official institutional key, student response, readiness, or claims status.
+
+### Exact next debt after Family 133
+
+`src_bcfda49896dd7495479f` is exhausted across all 61 pages: every visible and metadata provenance
+field, competition rule, point value, prompt, option set, lung image, answer reveal, timing device,
+closing/teamwork slide, source-first handle, four-query packet, external disposition, prior-BMS
+relation, Q2 image-versus-practical ruling, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-133 blocker. The exact next unprocessed manifest record is tier-6
+`src_945cafa1c8eb6ac0ef35` · `pathology slides.pdf`, SHA-256
+`945cafa1c8eb6ac0ef3552d6cf2a74b9af36e96e824e0bb3d8bec7bed8b95131`, 2,647,382 bytes,
+seven OCR-needed pages under `Pathology / Notes and Summaries`. Its complete raster/visual
+boundary, `fibroadenoma` first-page signal, provenance, teaching-versus-practical/image prompt and
+answer boundary, source-first gate, prior-BMS reuse, and arithmetic are the exact next-source
+blockers.
