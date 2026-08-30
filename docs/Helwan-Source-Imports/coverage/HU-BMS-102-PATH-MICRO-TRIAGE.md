@@ -14263,3 +14263,166 @@ native-text pages under `Pathology / Notes and Summaries`. Its complete `CHAPTER
 native/visual boundary, visible and metadata provenance, teaching-versus-prompt/answer/practical
 classification, source-first searches, prior-BMS reuse, and arithmetic are the exact next-source
 blockers.
+
+## Family 136 — anonymous annotated Chapter I neoplasia MCQ notebook
+
+### Source identity, complete native/visual boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_d02a10041b2c0c8531d6` · `دفتر_القشطة_المصنونة_للدرجة_المضمونة.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `d02a10041b2c0c8531d6aa4271e1f7197dbefb12a505113bb2f3aa430c32ff4a` · 4,990,402 bytes |
+| Format / complete visual boundary | 29 native-text portrait A4 pages, each 596×842 points. All 29 pages were rendered at 160 dpi into 29 non-empty images and read individually at full detail; layout and raw extraction were also read through the final page separator. There is no page, crop, inset, option, annotation, or text remainder. |
+| Native-text reality | Coherent layout extraction contains 5,654 words / 42,424 bytes and raw extraction contains 5,647 words / 34,380 bytes. Both agree with the rendered stems/options; visual review controls handwritten arrows, highlights, inserted screenshots, and the answer boundary. The manifest's `native` label is accurate. |
+| Visible provenance | Page 1 visibly prints only `CHAPTER I` and `NEOPLASIA`; pp.2–28 contain the numbered questions and private study markup; p.29 is a cat meme captioned in Arabic `امتياز يارب`. No page visibly names an author, university, faculty, module, cohort, academic year, teaching date, or sitting. Folder/manifest placement supports Helwan BMS-102 routing only. |
+| Metadata caution | Producer `iOS 18.5 Quartz PDFContext` and creation/modification timestamp 1 August 2025 are file-production metadata only. They do not establish authorship, teaching year, compilation date, or assessment sitting. |
+| Authority / annotation convention | Anonymous tier-6 privately annotated neoplasia revision bank. Yellow highlighting usually marks case clues, while multicolor handwritten arrows, notes, diagrams, and pasted teaching screenshots vary in function. Only a direct arrow, written option, or explanation that uniquely resolves the asked option is counted as a source-supplied answer. The annotations are not an official or uniformly reliable key; source errors are preserved rather than corrected. |
+
+### Complete page-first prompt, answer, teaching, and practical boundary
+
+| Pages | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | Designed `CHAPTER I / NEOPLASIA` cover | Heading only; **0 prompts / 0 answers**. |
+| 2–28 | Q1–Q60: sixty complete, distinctly worded clinical/general-neoplasia MCQs with five to seven options; yellow clue highlights; multicolor handwritten Arabic/English annotations, arrows, small diagrams, and a few pasted teaching screenshots | **60 MCQ prompts**. Exactly **21** have a direct source-annotation answer signal; the other **39** remain unkeyed. Explanatory markup not resolving the asked option remains teaching annotation. |
+| 29 | Cat image and Arabic aspiration `امتياز يارب` | Closing meme/prayer, not a prompt, answer, mark, or residue; **0 / 0**. |
+
+The 21 directly resolved source-answer occurrences are Q10 `B`, Q13 `C`, Q16 `A`, Q18 `B`,
+Q22 `C`, Q27 `A`, Q28 `C`, Q29 `B`, Q31 `E`, Q32 `C`, Q33 `B`, Q36 `D`, Q37 `B`,
+Q38 `D`, Q40 `F`, Q42 `A`, Q48 `D`, Q51 `C`, Q54 `D`, Q59 `A`, and Q60 `A`.
+Q13 is retained exactly as the source presents it: the arrow selects `C T-cell leukemia` while
+the nearby `HHV8` note does not support that selection. This inconsistency demonstrates why the
+annotations are source answers, not an authoritative key.
+
+Clue highlighting alone does not create an answer. In particular, Q8's `angiosarcoma` note does
+not answer its exposure question; Q12's `Philadelphia/leukemia` notes do not name the asked gene;
+Q25's `melanoma` note does not answer its risk-factor question; Q34's generic p53-like teaching
+note does not visibly name the selected gene; Q39's `soft tissue tumour` note does not answer the
+marker; Q41's `same idea` does not select an oncogene; Q43's radiation diagram lists several
+cancers; Q49's colon-gene list does not distinguish an option; Q50's sarcoma note does not
+resolve the diagnosis; Q52 explicitly expresses uncertainty; Q55's xeroderma diagnosis does not
+name the asked gene; and Q58 merely restates lymphocyte suppression. Numbered prayers and study
+comments are likewise not answer occurrences.
+
+There is no written-answer command, fill-in blank, response area, mark allocation, candidate
+identity, correction layer, practical station, gross specimen, microscope field, unlabeled plate,
+handling instruction, or examiner checklist. All 60 MCQ wordings are retained, and no two test
+the same complete proposition. The exact boundary is therefore **60 raw prompt occurrences / 21
+source-supplied answer occurrences / 39 unkeyed prompt occurrences / 0 prompt-like residues / 60
+retained question records / 60 source-distinct tested handles**.
+
+### Source-first inventory, exactly four searches per handle, and prior-BMS adjudication
+
+Every retained handle received exactly four fresh scope-specific searches across live state,
+pending import roots, and the complete prior BMS-102 ledger: **60 × 4 = 240 required and completed
+searches**. External disposition is **0 live / 2 pending / 58 no same-scope**; the pending hits are
+the already-known p53 DNA-damage-checkpoint and telomerase records. Prior-family reuse is assigned
+separately and is not inferred from broad topic overlap.
+
+| Ref · retained handle | Source-tested scope · source answer status | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|---|
+| Q01 · `breast-node-negative-better-prognosis` | breast node-negative best prognosis · unkeyed | `breast cancer node negative better prognosis`; `sentinel node no metastasis prognosis`; `breast carcinoma prognostic factors lymph nodes`; `node status versus ER tumor grade prognosis` | prior receptor-treatment and staging handles do not test this prognosis comparison; delta |
+| Q02 · `cecal-adenocarcinoma-kras-mutation` | cecal adenocarcinoma molecular finding · unkeyed | `cecal adenocarcinoma KRAS mutation`; `colon cancer occult blood K-RAS`; `colorectal adenocarcinoma molecular finding`; `cecum carcinoma vimentin KRAS` | no prior exact handle; delta |
+| Q03 · `dna-replication-s-g2-checkpoint` | checkpoint monitoring completed DNA replication · unkeyed | `DNA replication completion S G2 checkpoint`; `ionizing radiation replication checkpoint`; `S G2 cell cycle checkpoint chromosomes`; `checkpoint monitors DNA synthesis completion` | prior p53 G1 checkpoint is different; delta |
+| Q04 · `helicobacter-japan-gastric-cancer` | H. pylori-associated cancer in Japan · unkeyed | `Japan Helicobacter pylori stomach cancer`; `H pylori gastric adenocarcinoma risk`; `Japanese gastric cancer infection`; `bacterial carcinogenesis stomach` | exact Family 5 C17 reuse |
+| Q05 · `breast-t4n1m1-classification` | fixed breast mass, axillary node, lung metastases TNM · unkeyed | `breast fixed chest wall axillary lung T4 N1 M1`; `breast cancer TNM chest wall fixation`; `bilateral lung nodules breast metastasis stage`; `T4N1M1 breast carcinoma case` | prior TNM-component handle is broader; delta |
+| Q06 · `invasion-indicates-malignancy` | microscopic feature proving malignancy · unkeyed | `invasion indicates malignancy`; `malignant neoplasm adjacent tissue invasion`; `microscopic feature most malignant invasion`; `atypia pleomorphism versus invasion malignancy` | exact Families 4/5 reuse |
+| Q07 · `grade-one-stage-one-interpretation` | Grade I plus stage I interpretation · unkeyed | `grade I stage I tumor well differentiated localized`; `tumor grade one stage one meaning`; `differentiation and localization cancer grade stage`; `rectal cancer grade stage interpretation` | prior separate grade/TNM definitions do not test this combined interpretation; delta |
+| Q08 · `vinyl-chloride-hepatic-angiosarcoma` | exposure producing hepatic angiosarcoma · unkeyed | `vinyl chloride hepatic angiosarcoma`; `plastic pipe worker liver vascular tumor`; `spindle cells vascular channels vinyl chloride`; `occupational hepatic angiosarcoma risk` | no prior exact handle; delta |
+| Q09 · `rb-two-hit-retinoblastoma` | two-hit suppressor loss causing retinoblastoma · unkeyed | `RB two hit retinoblastoma`; `single wild type allele second mutation ocular tumor`; `retinoblastoma tumor suppressor inactivation`; `RB1 cell cycle progression child` | exact Family 5 C14 reuse |
+| Q10 · `childhood-radiation-papillary-thyroid-cancer` | papillary-thyroid risk factor · source `B` | `childhood radiation papillary thyroid carcinoma`; `thyroid cancer prior radiotherapy risk`; `young woman papillary thyroid radiation exposure`; `ionizing radiation thyroid neoplasm` | no prior exact handle; delta |
+| Q11 · `retroperitoneal-liposarcoma-diagnosis` | large retroperitoneal soft-tissue mass · unkeyed | `retroperitoneal 20 cm liposarcoma`; `large psoas obscuring soft tissue tumor`; `retroperitoneal sarcoma diagnosis`; `adult abdominal liposarcoma mass` | no prior exact handle; delta |
+| Q12 · `cml-abl-translocation-gene` | gene translocated in t(9;22) CML · unkeyed | `CML t(9;22) ABL gene`; `Philadelphia chromosome hybrid tyrosine kinase`; `BCR ABL translocation gene question`; `chronic myeloid leukemia ABL` | no prior exact handle; delta |
+| Q13 · `viral-oncogenesis-tcell-leukemia-source-answer` | virally associated neoplasm · source `C` with conflicting `HHV8` note | `viral oncogenesis T cell leukemia`; `HTLV T-cell leukemia association`; `HHV8 Kaposi not T-cell leukemia`; `source answer viral neoplasm T cell` | no prior exact source-answer scope; delta |
+| Q14 · `fish-identifies-gene-alteration` | method identifying cancer gene alteration · unkeyed | `FISH identifies gene alterations cancer`; `fluorescence in situ hybridization carcinogenesis`; `molecular analysis specific gene abnormality`; `FISH versus flow cytometry IHC` | prior molecular-method teaching is not a tested method-selection handle; delta |
+| Q15 · `cin1-colposcopy-management` | management of CIN-1/LSIL · unkeyed | `CIN 1 LSIL colposcopy management`; `low grade squamous intraepithelial lesion treatment`; `dysplastic Pap cervical biopsy colposcopy`; `CIN1 therapeutic strategy` | no prior exact handle; delta |
+| Q16 · `colon-cancer-microcytic-anemia` | lab finding with descending-colon cancer · source `A` | `colon cancer microcytic hypochromic anemia`; `colonic adenocarcinoma chronic blood loss anemia`; `descending colon mass microcytosis`; `occult colon malignancy iron deficiency` | no prior exact handle; delta |
+| Q17 · `stable-red-skin-nodule-hemangioma` | long-stable small red skin nodule · unkeyed | `stable red skin nodule hemangioma`; `teen chest vascular benign lesion`; `small reddish raised nodule years unchanged`; `cutaneous hemangioma diagnosis` | no prior exact handle; delta |
+| Q18 · `radon-squamous-lung-cancer-nonsmoker` | exposure linked to central SCC in nonsmoker · source `B` | `radon squamous lung cancer nonsmoker`; `perihilar SCC environmental exposure`; `radon lung carcinoma risk`; `nonsmoker hemoptysis squamous carcinoma exposure` | no prior exact handle; delta |
+| Q19 · `lung-scc-initial-lymphatic-spread` | initial metastatic pathway of lung SCC · unkeyed | `lung squamous carcinoma initial lymphatic spread`; `carcinoma common metastasis route lymphatics`; `hilar lung mass lymph node pathway`; `SCC first pathway metastasis` | exact Family 5 A19 reuse |
+| Q20 · `multiple-liver-masses-advanced-stage` | neoplasia characteristic shown by multiple liver masses · unkeyed | `multiple liver tumor masses advanced stage`; `metastatic liver nodules neoplasia stage`; `central necrosis multiple hepatic masses stage`; `metastases indicate advanced cancer stage` | prior spread-route handles do not test the stage inference; delta |
+| Q21 · `radiation-free-radical-tumor-response` | mechanism of SCC shrinkage after radiotherapy · unkeyed | `radiation therapy tumor response free radicals`; `ionizing radiation cancer cell free radical damage`; `SCC shrink radiation mechanism`; `radiotherapy DNA damage reactive oxygen species` | no prior exact handle; delta |
+| Q22 · `breast-er-status-directs-treatment` | tumor test directing breast therapy · source `C` | `breast estrogen receptor status directs treatment`; `ER testing breast carcinoma therapy`; `hormone receptor breast treatment selection`; `breast tumor molecular test treatment` | exact Family 5 B18 receptor-directed treatment reuse |
+| Q23 · `uterine-leiomyoma-slow-circumscribed` | slow circumscribed uterine nodule · unkeyed | `slow circumscribed uterine nodule leiomyoma`; `dome uterus solid asymptomatic mass`; `benign smooth muscle uterine tumor case`; `leiomyoma slowly enlarging six years` | no prior exact handle; delta |
+| Q24 · `lymphoma-clonality-immunohistochemistry` | method establishing lymphocyte clonality · unkeyed | `lymphoma clonality immunohistochemistry`; `lymph node neoplastic lymphocytes IHC markers`; `clonal lymphocyte population method`; `immunohistochemical markers clonality lymphoma` | no prior exact handle; delta |
+| Q25 · `melanoma-ultraviolet-risk` | major risk factor for pigmented melanoma · unkeyed | `melanoma chronic ultraviolet exposure risk`; `dark irregular hand nodule UV`; `cutaneous melanoma most important risk factor`; `sun exposure melanoma development` | no prior exact handle; delta |
+| Q26 · `stable-forearm-lipoma` | stable painless subcutaneous forearm mass · unkeyed | `stable painless subcutaneous forearm lipoma`; `rounded mobile forearm mass lipoma`; `young woman soft tissue benign mass`; `lipoma clinical diagnosis unchanged` | no prior exact handle; delta |
+| Q27 · `hpv-cervical-scc-risk` | most likely cervical-SCC risk factor · source `A` | `HPV risk cervical squamous carcinoma`; `cervical cancer commercial sex worker papillomavirus`; `human papillomavirus ectocervical SCC`; `cervical carcinoma principal risk factor` | Family 5 tests HPV16 E6/E7 mechanism, not this risk-factor selection; delta |
+| Q28 · `small-cell-lung-acth-cushing` | hormone in small-cell lung Cushing syndrome · source `C` | `small cell lung ACTH Cushing syndrome`; `SCLC ectopic ACTH immunohistochemistry`; `lung carcinoma hypertension bruising ACTH`; `paraneoplastic Cushing small cell` | no prior exact handle; delta |
+| Q29 · `virchow-node-gastric-primary` | primary for left supraclavicular metastasis · source `B` | `Virchow node gastric adenocarcinoma`; `left supraclavicular node stomach primary`; `Troisier sign gastric cancer`; `supraclavicular metastatic node origin` | exact Family 5 C04 reuse |
+| Q30 · `colon-cetuximab-signaling-pathway-source-scope` | pathway asked after source-described cetuximab/VEGF therapy · unkeyed | `colon cetuximab VEGF signaling pathway`; `cetuximab WNT colon source question`; `colorectal carcinoma pathway therapy`; `VEGF targeted therapy signaling options` | no prior exact source wording/key scope; delta |
+| Q31 · `ras-gtp-map-kinase-pathway` | pathway stimulated by constitutive RAS-GTP · source `E` | `RAS GTP MAP kinase pathway`; `blocked RAS GTP hydrolysis signaling`; `colon carcinoma RAS downstream pathway`; `constitutive RAS activates MAPK` | no prior exact handle; delta |
+| Q32 · `breast-cancer-high-s-phase` | cell-cycle phase increased in breast carcinoma · source `C` | `breast carcinoma increased S phase flow cytometry`; `neoplastic cells cell cycle S phase`; `high growth fraction breast tumor`; `aneuploid cancer flow cytometric phase` | prior growth-fraction handles test chemotherapy response, not phase identification; delta |
+| Q33 · `cdkn2-hypermethylation-epigenetic` | mechanism of CDKN2 hypermethylation · source `B` | `CDKN2 hypermethylation epigenetic alteration`; `gastric cancer gene promoter methylation`; `DNA methylation abnormal gene expression`; `epigenetic silencing CDKN2` | no prior exact handle; delta |
+| Q34 · `p53-inactivation-dna-damage-checkpoint` | missing G1 arrest protein after radiation · unkeyed | `p53 G1 arrest ionizing radiation`; `TP53 DNA damage checkpoint`; `absent p53 unregulated growth`; `p53 cell cycle arrest cancer` | pending `CON-FND-1F66060A9C2625`; exact Family 4 C30/Family 127 reuse |
+| Q35 · `her2-amplification-breast-cancer` | mechanism of HER2 overexpression · unkeyed | `HER2 positive breast cancer amplification`; `ER negative HER2 gene amplification`; `breast carcinoma abnormal HER2 expression`; `ERBB2 amplification mechanism` | no prior exact handle; delta |
+| Q36 · `ulcerative-colitis-premalignant` | chronic condition related to malignancy · source `D` | `ulcerative colitis premalignant colon cancer`; `chronic disease statistically related malignancy`; `IBD colorectal carcinoma risk`; `ulcerative colitis cancer predisposition` | no prior exact handle; delta |
+| Q37 · `kaposi-hhv8-aids` | infection causing Kaposi lesions in AIDS · source `B` | `Kaposi sarcoma HHV8 AIDS`; `reddish purple nodules oral thrush HHV8`; `human herpesvirus 8 Kaposi`; `AIDS skin neoplasm viral cause` | no prior exact handle; delta |
+| Q38 · `growth-fraction-chemotherapy-sensitivity` | parameter predicting diminished chemotherapy response · source `D` | `growth fraction chemotherapy sensitivity`; `low growth fraction diminished chemo response`; `ovarian tumor residual chemotherapy growth fraction`; `proliferating fraction anticancer response` | exact Family 4 C05/C27 and Family 127 Q09 reuse |
+| Q39 · `soft-tissue-sarcoma-vimentin` | marker in pleomorphic spindle-cell soft-tissue mass · unkeyed | `soft tissue sarcoma vimentin marker`; `pleomorphic spindle tumor vimentin positive`; `thigh mass IHC vimentin`; `mesenchymal neoplasm immunohistochemistry` | no prior exact handle; delta |
+| Q40 · `breast-best-prognosis-low-s-phase` | breast-cancer feature predicting best prognosis · source `F` | `breast cancer best prognosis decreased S phase`; `low proliferation fraction breast prognosis`; `cell cycle S phase tumor prognosis`; `breast grade stage molecular prognosis comparison` | chemotherapy-sensitivity handle is a different outcome; delta |
+| Q41 · `ras-oncogene-gtp-hydrolysis-loss` | oncogene unable to hydrolyze GTP · unkeyed | `RAS oncogene inability hydrolyze GTP`; `constitutively active GTPase bladder carcinoma`; `GTP bound RAS mutation cancer`; `oncogene single mutation GTP hydrolysis` | no prior exact handle; delta |
+| Q42 · `hpv-cervical-squamous-carcinoma` | neoplasm arising after untreated HPV change · source `A` | `HPV cervical squamous cell carcinoma`; `untreated papillomavirus cervical neoplasm`; `HPV infection progression SCC`; `abnormal Pap HPV cancer type` | Family 5 tests viral protein mechanism, not this outcome identification; delta |
+| Q43 · `strontium90-osteosarcoma-risk` | neoplasm associated with ingested strontium-90 · unkeyed | `strontium 90 osteosarcoma risk`; `radioactive fallout milk bone cancer`; `Sr90 food chain osteogenic sarcoma`; `radiation isotope bone neoplasm` | no prior exact handle; delta |
+| Q44 · `topoisomerase2-chemo-resistance` | molecule altered after DNA-strand-break therapy resistance · unkeyed | `topoisomerase II chemotherapy resistance`; `DNA strand break lung cancer drug resistance`; `altered topoisomerase 2 tumor response`; `acquired resistance topo II inhibitor` | no prior exact handle; delta |
+| Q45 · `telomerase-limitless-replication` | enzyme preventing chromosomal shortening · unkeyed | `telomerase chromosome shortening cancer`; `tumor limitless replication telomeres`; `enzyme repairs telomere shortening neoplasm`; `telomerase malignant cell divisions` | pending `CON-FND-73C77966B56FED`; exact Family 4/Family 127 reuse |
+| Q46 · `carcinoma-in-situ-confined-epithelium` | full-thickness atypia above basement membrane · unkeyed | `carcinoma in situ full thickness epithelium`; `intact basement membrane malignant cells`; `bladder CIS confined epithelium`; `preinvasive full thickness atypia` | exact Family 5 C10 and Family 98 Q03 reuse |
+| Q47 · `teratoma-three-germ-layers` | ovarian cyst with hair and multiple tissue types · unkeyed | `ovarian teratoma three germ layers hair`; `mature cystic teratoma cartilage epithelium`; `ovarian dermoid multiple tissues`; `totipotent tumor germ layers` | exact Family 5 A09 reuse |
+| Q48 · `p-glycoprotein-multidrug-resistance` | cause of second-line multidrug failure · source `D` | `P glycoprotein multidrug resistance cancer`; `drug efflux pump chemotherapy failure`; `small cell lung acquired multidrug resistance`; `MDR1 neoplastic treatment resistance` | no prior exact handle; delta |
+| Q49 · `sporadic-colon-acquired-tp53-mutation` | gene alteration in sporadic cecal carcinoma · unkeyed | `sporadic colon cancer acquired TP53 mutation`; `cecal adenocarcinoma p53 alteration`; `adenoma carcinoma sequence late p53`; `colon malignancy somatic TP53` | exact Family 4 A04/B04 and Family 127 Q03 reuse |
+| Q50 · `child-neck-rhabdomyosarcoma-vimentin` | child neck vimentin-positive sarcoma diagnosis · unkeyed | `child neck rhabdomyosarcoma vimentin`; `pediatric soft tissue spindle tumor neck`; `vimentin positive cytokeratin CD45 negative child`; `rhabdomyosarcoma neck mass diagnosis` | Family 5 orbital/cross-striation case is different; delta |
+| Q51 · `desmoplasia-fibrous-breast-mass` | fibrous response around infiltrating breast cancer · source `C` | `desmoplasia fibrous breast carcinoma mass`; `invasive breast cancer firm white stroma`; `desmoplastic reaction tumor gross`; `fibrous stromal response malignancy` | no prior exact handle; delta |
+| Q52 · `beta-catenin-metastatic-colon-cancer` | component altered to permit colon-to-lung spread · unkeyed | `beta catenin colon cancer metastasis`; `E cadherin catenin metastatic lung nodules`; `colorectal carcinoma adhesion molecular component`; `beta-catenin tumor invasion spread` | prior adhesion-loss handle tests the consequence, not this molecular selection; delta |
+| Q53 · `fibroadenoma-young-mobile-breast-mass` | young woman with mobile rubbery breast mass · unkeyed | `young woman mobile rubbery breast fibroadenoma`; `discrete breast mass no nodes fibroadenoma`; `clinical fibroadenoma diagnosis`; `benign breast mass age 22` | exact Family 5 B04 case-diagnosis reuse |
+| Q54 · `ebv-nasopharyngeal-carcinoma-east-asian` | EBV-associated tumor in East Asian patients · source `D` | `EBV nasopharyngeal carcinoma East Asian`; `Epstein Barr virus nasopharyngeal cancer`; `Asian ancestry EBV neoplasm`; `viral oncogenesis nasopharynx` | no prior exact handle; delta |
+| Q55 · `xpa-xeroderma-nucleotide-excision-repair` | gene lost in children with UV-related skin cancers · unkeyed | `XPA xeroderma pigmentosum nucleotide excision repair`; `children skin cancers defective NER gene`; `xeroderma gene XPA`; `UV DNA repair loss squamous basal cancer` | no prior exact handle; delta |
+| Q56 · `autosomal-dominant-familial-cancer-syndrome` | multigeneration early malignancies inheritance explanation · unkeyed | `autosomal dominant familial cancer syndrome`; `multiple generations early cancers inheritance`; `germline cancer predisposition dominant`; `hereditary cancer syndrome pedigree` | Family 4 tests germline suppressor basis, not this pedigree-mode selection; delta |
+| Q57 · `beta-catenin-loss-e-cadherin-metastasis` | gene mutation reducing surface E-cadherin · unkeyed | `beta catenin mutation decreased E cadherin`; `catenin adhesion loss metastasis`; `gene causing reduced E-cadherin surface`; `beta-catenin tumor invasion` | prior handles test E-cadherin-loss consequence, not the mutated gene; distinct from Q52; delta |
+| Q58 · `pd1-checkpoint-nsclc-immunotherapy` | checkpoint target for NSCLC immune suppression · unkeyed | `PD-1 checkpoint NSCLC immunotherapy`; `lung cancer anti tumor lymphocyte suppression target`; `monoclonal antibody PD1 non-small-cell`; `immune checkpoint pathway lung carcinoma` | prior checkpoint handle tests evasion, not therapeutic target selection; delta |
+| Q59 · `cdk4-g1-breast-target` | G1 target added to anti-estrogen therapy · source `A` | `CDK4 G1 breast cancer therapy`; `ER positive breast CDK4 inhibitor`; `cell cycle G1 monoclonal target`; `breast cancer CDK4 biotherapy` | no prior exact handle; delta |
+| Q60 · `mhc1-downregulation-tumor-immune-evasion` | mechanism evading stimulated cytotoxic lymphocytes · source `A` | `MHC class I downregulation tumor immune evasion`; `cancer avoids cytotoxic lymphocytes MHC I`; `tumor antigen presentation loss CTL`; `carcinoma immune destruction escape mechanism` | prior CTL/MHC recognition and checkpoint handles do not test MHC-I downregulation; delta |
+
+Exactly **13** handles are prior-BMS exact reuses: Q4, Q6, Q9, Q19, Q22, Q29, Q34, Q38,
+Q45, Q46, Q47, Q49, and Q53. Family 136 therefore adds **`60 - 13 = 47` distinct tested
+concepts**. The checksum remains independent of answer correctness: every direct annotation is
+counted once as source evidence, and no ambiguous clue or teaching note is promoted into a key.
+
+### Family-136 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 136 | Auxiliary cumulative (Families 12–136) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 60 | 1,193 | 765 | 1,958 |
+| Printed/source-supplied answer occurrences | 21 | 721 | 405 | 1,126 |
+| Unkeyed prompt occurrences | 39 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 60 | 1,128 | 552 | 1,680 |
+| Source-distinct tested handles / required searches | 60 / 240 | 1,012 / — | — | — |
+| External live / pending / no same-scope | 0 / 2 / 58 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 13 | — | — | subtract before concept addition |
+| Cross-family concept delta | +47 | +656 over primary | 372 | `372 + 656 = 1,028` |
+| **Distinct tested concepts** | **+47** | **656 auxiliary additions** | **372** | **1,028** |
+
+The checksum closes without remainder: `60 = 21 + 39` answered/unkeyed prompts; all 60 wordings
+are retained; `60 - 0 same-source reductions = 60` handles; searches are `60 × 4 = 240`;
+external disposition is `0 + 2 + 58 = 60`; and concept arithmetic is `60 - 13 prior exact reuses
+= 47`. Auxiliary arithmetic is `1,133 + 60 = 1,193` prompts, `700 + 21 = 721` answers, `1,068
++ 60 = 1,128` retained records, `952 + 60 = 1,012` handles, and `609 + 47 = 656` concept
+additions. All eligible arithmetic is `765 + 1,193 = 1,958`, `405 + 721 = 1,126`, `552 +
+1,128 = 1,680`, and `372 + 656 = 1,028`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now **1,193 / 721 / 1,128 / 1,012 /
++656**; and all eligible evidence is **1,958 / 1,126 / 1,680 / 1,028**. Family 136 cannot
+establish a Helwan-authored or dated sitting, recurrence, formal mark weight, official key,
+student response, readiness, or claims status.
+
+### Exact next debt after Family 136
+
+`src_d02a10041b2c0c8531d6` is exhausted across all 29 pages: every cover field, stem, option set,
+highlight, arrow, handwritten note, pasted teaching inset, source-answer signal, ambiguity,
+closing meme, native/visual field, metadata limitation, source-first query packet, prior-BMS
+relation, and arithmetic term is assigned once, with **zero source remainder** and no Family-136
+blocker. The exact next unprocessed manifest record is tier-6 `src_da778776f797055f1228` ·
+`عملي الباثو كله.pdf`, SHA-256
+`da778776f797055f1228a32817d1c33bbe84104a331a2b4b24f41d2dc81ccf54`, 1,920,410 bytes,
+five native-text pages under `Pathology / Notes and Summaries`. Its complete practical-image
+carrier boundary, visible provenance, diagnosis-label versus prompt/key/station classification,
+source-first search gate, prior-BMS reuse, and arithmetic are the exact next-source blockers.
