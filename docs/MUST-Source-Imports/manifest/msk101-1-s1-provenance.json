@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "dc2ec27b67f9f24238bb2df7f2d49f70efe0082af2309799f2485e63fd1df4c2",
-    "triageMarkdown": "30ecbe680184b9cb70872236e4cc907e7cf04d5c2cc6165c0f6131a727428264"
+    "readinessMarkdown": "a9a7a5d0a9db1d074bdfcc11600b4bfe708f92988dbc2488827b63a7183e046f",
+    "triageMarkdown": "b82a19485af2ae7dd60bbcc4b252911cb294efb84720edc6f1b32b733a89c775"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -75,6 +75,7 @@
       "60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609",
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
       "69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4",
+      "6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609",
       "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
       "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
       "76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c",
@@ -114,7 +115,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 62
+    "uniqueSha256": 63
   },
   "completedSourceCoverage": [
     {
@@ -1863,22 +1864,55 @@
         "Q15 merges options d and e on one line",
         "model-answer spacing joins Q9 and Q10"
       ]
+    },
+    {
+      "sha256": "6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609",
+      "sourcePages": 10,
+      "renderedReadPages": "1-10",
+      "teachingPages": "1",
+      "questionPages": "2-9",
+      "keyPages": "10",
+      "printedPromptObservations": 40,
+      "objectiveMcqPrompts": 40,
+      "printedKeyObservations": 40,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 40,
+      "familyAnswerDelta": 40,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Youssef BenAhmed student pectoral-region revision bank created in Microsoft Word for Microsoft 365 and exported through 4-Heights PDF Library on 19 October 2024; no printed institution, department, examiner, sitting, marks or official faculty-key claim",
+      "boundaryDisposition": "one teaching-only quick-review mind map followed by a continuous Q1-Q40 conventional MCQ sequence and one complete printed answer table; no written, practical, image-identification, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "page-1 hyperlink text prints Clickhere",
+        "Q5 uses the combined B&C option and Q10 uses A&C",
+        "Q40 carries five options while the other prompts carry four",
+        "the malformed AcroForm field-array warning does not obscure rendered content"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6096,
-    "printedKeyObservations": 5906,
+    "printedPromptObservations": 6136,
+    "printedKeyObservations": 5946,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 40,
-    "uniqueSha256": 39,
-    "sortedNewlineSha256": "4514eee4293aaf66612b46b5b489204ba6f1adbdd532ee1e005db3a2121eeba5",
+    "inventoryMetadataRows": 39,
+    "uniqueSha256": 38,
+    "sortedNewlineSha256": "317738419871ef8b778b26be6bb9693edc8b2beb6bc64e5f99bfd09d939326f6",
     "auditSampleStatusCounts": {
-      "audit-extract-failed": 2,
+      "audit-extract-failed": 1,
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
@@ -1886,7 +1920,7 @@
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-extract-failed": 2,
+    "audit-extract-failed": 1,
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
@@ -1894,8 +1928,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 62,
-    "remainingUniqueSha256": 39,
+    "processedUniqueSha256": 63,
+    "remainingUniqueSha256": 38,
     "processedPlusRemaining": 101
   }
 }

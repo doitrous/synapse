@@ -69,9 +69,10 @@ const PROCESSED_FAMILY_HASHES = [
   'ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b',
   '141e06b1f73fbf97641d4932acf78a782660835681941c18728361b8f87aa639',
   'b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005',
+  '6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '4514eee4293aaf66612b46b5b489204ba6f1adbdd532ee1e005db3a2121eeba5'
+const REMAINING_CHECKSUM = '317738419871ef8b778b26be6bb9693edc8b2beb6bc64e5f99bfd09d939326f6'
 
 function option(name) {
   const prefix = `${name}=`
@@ -148,10 +149,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 14 }
+  const expected = { 'audit-extract-failed': 1, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 14 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=14-substantive/5-sparse/7-empty/12-not-found/2-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=14-substantive/5-sparse/7-empty/12-not-found/1-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -167,7 +168,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6096', '5906', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6136', '5946', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -201,7 +202,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 62 || remainingHashes.length !== 39 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 63 || remainingHashes.length !== 38 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -209,7 +210,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 14 }
+const expectedRemainingDebt = { 'audit-extract-failed': 1, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 14 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -292,8 +293,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[59], sourcePages: 12, renderedReadPages: '1-12', assessmentPages: '1-12', printedPromptObservations: 64, objectiveMcqPrompts: 64, printedKeyObservations: 64, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, siblingPromptSequenceBlocks: [{ pages: '1-6', prompts: 31, answers: 31, siblingSha256: PROCESSED_FAMILY_HASHES[55], answerAlreadyRecoveredFrom: PROCESSED_FAMILY_HASHES[56], familyQuestionDelta: 0, familyAnswerDelta: 0 }, { pages: '7-12', prompts: 33, answers: 33, siblingSha256: PROCESSED_FAMILY_HASHES[54], familyQuestionDelta: 0, familyAnswerDelta: 33 }], familyQuestionDelta: 0, familyAnswerDelta: 33, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Muhammad Haitham Muhammad Ibrahim student midterm-question compilation created in Microsoft Word on 25 October 2025; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'two keyed MCQ blocks: Q1-Q31 on axillary artery and brachial plexus, followed by Q1-Q33 on pectoral, back and scapular muscles; both prompt sequences are lightly reworded sibling carriers of previously counted clean training-question banks; the first block answer family was already recovered from its annotated sibling, while the second block supplies thirty-three previously absent answers', preservedSourceDefects: ['the second block heading is only Follow', 'source numbering restarts at Q1', 'printed wording, spelling and academically questionable keys are retained without correction'] },
     { sha256: PROCESSED_FAMILY_HASHES[60], sourcePages: 21, renderedReadPages: '1-21', assessmentPages: '1-21', printedPromptObservations: 77, objectiveMcqPrompts: 77, printedKeyObservations: 37, sourceAbsentAnswers: 40, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, bankBoundary: [{ pages: '1-10', title: 'Solo Team upper-limb anatomy', prompts: 37, answers: 37, sourceAbsentAnswers: 0 }, { pages: '11-21', title: 'Anatomy fhb', prompts: 40, answers: 0, sourceAbsentAnswers: 40 }], familyQuestionDelta: 77, familyAnswerDelta: 37, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Solo Team student revision compilation with Microsoft Word 2016 metadata naming Mostafa Rabea Alsayd Hafez and an iLovePDF producer; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'two assessment-only MCQ banks: thirty-seven keyed upper-limb, axilla and mammary-gland items followed by forty unkeyed general-embryology items explicitly titled Anatomy fhb; no written, practical, image-identification, teaching-only or answer-only material', preservedSourceDefects: ['the second bank is labelled Anatomy fhb despite residing in the MSK inventory path', 'numbering restarts at Q1', 'the entire forty-item embryology bank is source-unkeyed', 'printed wording and academically questionable keys are retained without correction'] },
     { sha256: PROCESSED_FAMILY_HASHES[61], sourcePages: 4, renderedReadPages: '1-4', assessmentPages: '1-4', printedPromptObservations: 17, objectiveMcqPrompts: 12, matchingPrompts: 5, printedKeyObservations: 17, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 17, familyAnswerDelta: 17, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Ahmed Hani Sobhi Sadiq student Upper Limb question sheet created in Writer and exported through LibreOffice 7.4 on 17 October 2024; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'continuous Q1-Q17 keyed assessment: twelve conventional MCQs plus five separately numbered matching rows Q3-Q7, followed by a complete model-answer line; no written, practical, image-identification, teaching-only, answer-only or unkeyed material', preservedSourceDefects: ['the matching instruction ends with parenthetical 14 without an explained marks label', 'Q1 option lettering prints d before c', 'Q15 merges options d and e on one line', 'model-answer spacing joins Q9 and Q10'] },
+    { sha256: PROCESSED_FAMILY_HASHES[62], sourcePages: 10, renderedReadPages: '1-10', teachingPages: '1', questionPages: '2-9', keyPages: '10', printedPromptObservations: 40, objectiveMcqPrompts: 40, printedKeyObservations: 40, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 40, familyAnswerDelta: 40, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Youssef BenAhmed student pectoral-region revision bank created in Microsoft Word for Microsoft 365 and exported through 4-Heights PDF Library on 19 October 2024; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'one teaching-only quick-review mind map followed by a continuous Q1-Q40 conventional MCQ sequence and one complete printed answer table; no written, practical, image-identification, answer-only or unkeyed material', preservedSourceDefects: ['page-1 hyperlink text prints Clickhere', 'Q5 uses the combined B&C option and Q10 uses A&C', 'Q40 carries five options while the other prompts carry four', 'the malformed AcroForm field-array warning does not obscure rendered content'] },
   ],
-  triageCumulative: { printedPromptObservations: 6096, printedKeyObservations: 5906, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 6136, printedKeyObservations: 5946, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },

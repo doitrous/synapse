@@ -2452,3 +2452,48 @@ Removing the sixty-two processed unique hashes leaves **40 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/MCQs On Pect. Region-Final (By Youssef BenAhmed).pdf`, SHA-256 `6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609`, 10 pages.
 
 **BLOCKED — S1 cannot be approved:** 40 selected inventory paths / 39 unique hashes remain untriaged.
+
+## Completed source — MCQs On Pect. Region-Final (By Youssef BenAhmed)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/MCQs On Pect. Region-Final (By Youssef BenAhmed).pdf` | `6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609` | 10 | audit-extract-failed sample; live text extraction and rendering succeeded | pages 1–10 rendered and read | Youssef BenAhmed student revision bank created in Microsoft Word for Microsoft 365 and exported through 4-Heights PDF Library on 19 October 2024. The visible pages print the author name and `MCQs On Pect. Region`, but no institution, department, examiner, sitting, marks or official faculty-key claim. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/MCQs On Pect. Region-Final (By Youssef BenAhmed).pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and teaching boundary
+
+Page 1 is a `Quick Review` teaching mind map of the pectoral-region muscles and fascia. Pages 2–9 form one continuous Q1–Q40 conventional MCQ sequence. Page 10 prints one complete answer table for Q1–Q40 and a two-bullet explanatory note attached to the asterisk on Q8.
+
+| Format | Printed prompts | Printed answer observations | Source-unkeyed |
+|---|---:|---:|---:|
+| Conventional MCQs Q1–Q40 | 40 | 40 | 0 |
+| **Total** | **40** | **40** | **0** |
+
+There are **0 written prompts / 0 practical or image-identification prompts / 1 teaching-only page / 0 answer-only observations**. The mind map and the Q8 explanatory note teach or explain source material; neither is an additional assessment prompt or answer observation.
+
+Preserved source details and defects include the page-1 `Clickhere` hyperlink wording, Q5's combined `B&C` option, Q10's combined `A&C` option, Q40 carrying five options while the other prompts carry four, the asterisk attached to Q8, and all printed spelling, capitalization and academically questionable options or keys. The malformed AcroForm field-array warning does not obscure any rendered prompt or key and no source answer is repaired or reconstructed.
+
+### Source-first collapse, search gate and prior-MSK disposition
+
+The source-first scopes are pectoralis-major attachments, actions, relations and innervation; pectoralis-minor attachments, actions, relations and innervation; subclavius attachments, action and innervation; and clavipectoral-fascia attachments, contents and continuation into the axillary floor. Every scope maps completely to the completed Upper Limb Anatomy H1–H5 family.
+
+No genuinely new accepted handle survives internal and prior-MSK reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct keyed student revision bank is now `sourceProcessed=true`. Its delta is **+40 questions / +40 answer observations / +0 concepts**. Cumulative arithmetic is **6096 + 40 = 6136 questions**, **5906 + 40 = 5946 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6136 | 5946 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-three processed unique hashes leaves **39 selected inventory paths / 38 unique SHA-256s**. Their sorted, newline-joined hash checksum is `317738419871ef8b778b26be6bb9693edc8b2beb6bc64e5f99bfd09d939326f6`. Remaining audit-review debt is 14 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 1 audit-extract-failed row, and unique-hash accounting is **`63 + 38 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Review for Anatomy MSK101-1 Midterm.pdf`, SHA-256 `1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c`, 11 pages.
+
+**BLOCKED — S1 cannot be approved:** 39 selected inventory paths / 38 unique hashes remain untriaged.
