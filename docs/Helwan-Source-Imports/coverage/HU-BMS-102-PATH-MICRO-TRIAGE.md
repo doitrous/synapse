@@ -14516,3 +14516,97 @@ corpus copy; Family 125 already proves that local `introducTION.pdf` is a differ
 Hassan keyed-MCQ source rather than a content duplicate. Carrier recovery, then complete render,
 provenance, teaching-versus-practical/prompt/key boundary, searches, prior reuse, and arithmetic
 are the exact next-source blockers.
+
+## Family 138 — Dr Enas Elhosary Helwan Introduction to Pathology virtual-lab prelab
+
+### Exact-carrier recovery, twin adjudication, complete render boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Preferred tier-5 `src_4823964a3f81b3b2ecbb` · `Introduction-(-Virtual-Lab).pdf` under `Pathology / Practical Labs / Prelabs / Pre Lab 1 - Orientation` |
+| Organized exact carrier | `/Users/doitrous/Desktop/helwan/Year 1/BMS 102/Pathology/Practical Labs/Prelabs/Pre Lab 1 - Orientation/Introduction-(-Virtual-Lab).pdf` already exists in the manifest-organized folder; no download or transfer was needed. |
+| SHA-256 / size | `4823964a3f81b3b2ecbb48619c7f5076f623934198864da2befc32347264be81` · 1,780,473 bytes |
+| Local recovery proof | `/Users/doitrous/Downloads/Introduction-(-Virtual-Lab).pdf` is byte-identical with the same SHA and size. Repository, manifest, and local provenance searches expose no authoritative source URL, but recovery is complete because the organized carrier itself matches the expected object exactly. |
+| Distinct similarly named source | Local `introducTION.pdf` is the already-triaged Family-125 object: SHA `f660b7c9959ce8d1cde0caf723b319815e8c49955d5fc5213607077dcb5e5bd4`, 660,346 bytes, 11 portrait US-letter pages, visibly Dr Ahmed Hassan keyed MCQs. The present carrier is 37 landscape 720×540-point pages, visibly Dr Enas/Helwan declarative virtual-lab teaching. Different SHA, size, page count, geometry, author, category, and content prove a name-family relation, not duplication. |
+| Format / complete visual boundary | 37 native-text landscape pages, each 720×540 points. All 37 pages were rendered at 150 dpi into 37 non-empty 1500×1125-pixel images; two complete contact sheets and every ambiguous/question-form page were reviewed at original detail. Layout and raw extraction were read through the final page separator. There is no page, crop, image, label, question-form heading, or text remainder. |
+| Native-text reality | Coherent layout extraction contains 576 words / 5,182 bytes and raw extraction contains 521 words / 4,062 bytes. Both agree with the rendered definitions, gross-specimen mappings, preparation sequences, diagrams, labels, and closing slide. The manifest's `native` label is accurate; visual review controls image/callout placement. |
+| Visible provenance | Page 1 visibly reads `Introduction to pathology (Virtual Lab)`, `Dr/ Enas Megahed Elhosary`, `Lecturer of pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes named instructor, faculty, university, virtual-lab, and introductory-practical teaching provenance. No module code, academic year, lecture date, assessment label, candidate identity, or sitting is visible. |
+| Metadata caution | Metadata author `Maha`, title `PowerPoint Presentation`, Microsoft PowerPoint creator/producer, and 16 March 2026 timestamp are production fields only. `Maha` conflicts with the visible Dr Enas attribution, and the timestamp cannot establish an academic year, lab date, or sitting. |
+| Authority | Instructor-attributed Helwan tier-5 practical prelab/virtual-lab teaching deck. It is authoritative for teaching provenance and labelled practical mappings, but it is not a candidate paper, station set, response sheet, official plate register, or official key. |
+
+### Complete page-first teaching, question-form callout, and practical boundary
+
+| Pages | Complete visible content | Prompt / answer / practical ruling |
+|---:|---|---:|
+| 1 | Dr Enas/Faculty of Medicine/Helwan `Introduction to pathology (Virtual Lab)` cover | Provenance only; **0 prompts / 0 answers / 0 stations**. |
+| 2–5 | `Pathology?` with immediate `Study of the disease`; definition, aetiology, pathogenesis, pathological picture, prognosis, and complications; completed WHY/HOW/WHAT diagram | Declarative introductory teaching. The p.2 question-form title is answered visibly on the same slide and is an excluded rhetorical teaching callout, not an assessment item; **0 / 0 / 0**. |
+| 6–9 | `How to describe a gross specimen?` section title; initial handling, containers, delay handling, refrigeration, fixatives, 10% buffered formalin; completed gross-description framework | Completed teaching sequence. P.6, p.7's title and delay fragment, and p.9 are excluded question-form teaching callouts with their answers supplied in place; **0 / 0 / 0**. |
+| 10–14 | Two `Site?` slides mapping organs to pathological adjectives, followed by labelled heart/lung, colon/liver, spleen, and urinary-tract specimen photographs | Completed nomenclature and labelled teaching plates. The two `Site?` headings are excluded teaching callouts; all images disclose their mappings; **0 / 0 / 0**. |
+| 15–21 | Gross-descriptor photographs/mappings for size (`Atrophy`, `Voluminous`), shape (`Vermiform`, `Cauliflower`), surface (`Smooth`, `Irregular`), cut surface (`Multiple cystic spaces`, `Nodular`), capsule (`tense/stretched`), colour (`Dark brown or blackish nodules`, `Pale yellow foci`), and consistency (`Soft`, `Firm`, `Hard`) | Completed labelled practical teaching. `Size?`, `Shape?`, `Surface?`, `Capsule?`, `Colour?`, and `Consistency?` are excluded question-form callouts; `Cut surface:` is a declarative category. With every example answer printed on the same slide, there is no station or hidden-label task; **0 / 0 / 0**. |
+| 22–31 | `Introduction to slide preparation`; fixation/formalin, tissue dissection, paraffinization, dehydration, clearing, microtomy, deparaffinization, H&E staining, mounting, process photographs/diagrams, and completed stain-result colors | Completed workflow teaching and labelled process images; no candidate action or response boundary; **0 / 0 / 0**. |
+| 32–34 | Cytology definition; exfoliation, brushing, body-fluid aspiration, and FNAC sampling; advantages and disadvantages | Completed declarative teaching; **0 / 0 / 0**. |
+| 35–36 | Two microscope diagrams with every part and function visibly labelled | Supplied teaching diagrams, not identification stations; **0 / 0 / 0**. |
+| 37 | `Thank you` | Closing slide only; **0 / 0 / 0**. |
+
+Exactly **13 question-form teaching callouts** are visible: p.2 `Pathology?`; p.6 and p.9 `How
+to describe a gross specimen?`; p.7 `Initial Handling of the specimen?` plus its `???? If will be
+delayed` fragment; p.10–11 `Site?`; and p.15–17/p.19–21 `Size?`, `Shape?`, `Surface?`,
+`Capsule?`, `Colour?`, and `Consistency?`. They introduce completed definitions, lists, or
+same-slide labelled examples. None requests a learner response, carries an item number or mark,
+or withholds an answer; they are excluded teaching callouts rather than raw assessment prompts.
+
+There is no MCQ option set, written command, blank, response space, candidate/examiner
+instruction, station number, timer, score, unlabeled diagnostic field, answer-reveal sequence,
+student response, or correction layer. The exact boundary is therefore **0 raw assessment prompt
+occurrences / 0 printed or source-supplied answer occurrences / 0 unkeyed prompts / 13 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained question records / 0
+source-distinct tested handles / 0 practical-station records**. The labelled gross specimens,
+process images, stain results, cytology methods, and microscope diagrams remain preserved as
+teaching evidence for later authoring.
+
+### Source-first zero gate, prior-BMS teaching relation, and cumulative arithmetic
+
+No accepted tested handle survives the complete teaching-only boundary. Exactly four searches are
+required only per accepted handle, so the source-first gate is **0 handles × 4 = 0 required and
+completed searches**; no empty query or fabricated result row is added. The deck overlaps prior
+BMS-102 teaching on pathology definition, specimen handling, formalin, frozen/preparation methods,
+H&E, cytology, gross descriptors, and practical images, including Families 98, 112, 125, and 137.
+Teaching/callout overlap is not a tested-handle reuse. Prior-BMS exact handle reuse is **0** and
+concept delta is **+0**.
+
+| Measure | Family 138 | Auxiliary cumulative (Families 12–138) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,193 | 765 | 1,958 |
+| Printed/source-supplied answer occurrences | 0 | 721 | 405 | 1,126 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Excluded question-form teaching callouts | 13 | — | — | excluded from assessment arithmetic |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,128 | 552 | 1,680 |
+| Source-distinct tested handles / required searches | 0 / 0 | 1,012 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +656 over primary | 372 | `372 + 656 = 1,028` |
+| **Distinct tested concepts** | **+0** | **656 auxiliary additions** | **372** | **1,028** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answer occurrences,
+unkeyed occurrences, residues, retained records, handles, searches, external dispositions,
+prior-handle reuses, or concept additions; the 13 rhetorical teaching callouts remain outside
+assessment arithmetic. Primary remains **765 / 405 / 552 / 372**; auxiliary remains **1,193 /
+721 / 1,128 / 1,012 / +656**; and all eligible evidence remains **1,958 / 1,126 / 1,680 /
+1,028**. Family 138 cannot establish an administered practical, official key, date, recurrence,
+mark weight, student response, readiness, or claims status.
+
+### Exact next debt after Family 138
+
+`src_4823964a3f81b3b2ecbb` is recovered and exhausted across all 37 pages: every local carrier,
+hash, duplicate copy, false name-twin relation, visible/metadata provenance field, definition,
+question-form teaching callout, gross-specimen mapping, process step, photograph, label, diagram,
+teaching-versus-practical ruling, zero-search gate, prior-teaching relation, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-138 blocker. The exact next
+manifest record is tier-5 `src_37644f108b9cb25e865c` ·
+`Cell injury and inflammation (Virtual Lab).pdf`, SHA-256
+`37644f108b9cb25e865c797c930f14ebe12ef02ef7434158ad08d0a60bc1a8d5`, 8,801,121 bytes,
+71 native-text landscape 720×540-point pages under `Pathology / Practical Labs`; an exact
+organized carrier is locally available. Its duplicate-carrier relation, visible Dr Enas/Helwan
+provenance, complete cell-injury/inflammation teaching-versus-practical/prompt/key boundary,
+search gate, prior reuse, and arithmetic are the exact next-source blockers.
