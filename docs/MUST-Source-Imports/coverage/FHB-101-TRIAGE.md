@@ -6536,3 +6536,67 @@ Removing this one sparse-text path and unique hash leaves **10 selected inventor
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Easy_Medicine_.pdf`, SHA-256 `833bde7eae7d5da6b9ba4032670ad61dee9b49bbb617b82e5910e2690b436607`, 41 pages.
 
 **BLOCKED — S1 cannot be approved:** 10 selected source paths remain untriaged.
+
+## Completed source — Easy_Medicine_
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Easy_Medicine_.pdf` | `833bde7eae7d5da6b9ba4032670ad61dee9b49bbb617b82e5910e2690b436607` | 41 | audit-not-found (pinned sparse-text checkpoint) | pages 1–41 rendered and read | Cairo University Faculty of Medicine, Department of Anatomy and Embryology departmental `SELF ASSESSMENT QUESTIONS` compendium for first-year medical students. The cover names three professor authors, six assistant-professor authors and two revisers. This is a high-authority external teaching/self-assessment source, but it is not a MUST examination, sitting or official MUST key. |
+
+### Exact assessment, key and teaching boundary
+
+Page 1 is the departmental title and contributor page and page 2 is blank. Pages 3–19 contain Basis of Human Anatomy self-assessment: **51 MCQs**, **29 numbered fill-in prompts**, and **44 independently answerable rows across nine cross-matching tables**. Pages 20–41 contain General Embryology self-assessment: **88 MCQs**, **29 numbered fill-in prompts**, and **39 independently answerable rows across eight cross-matching tables**. The table instruction/container is not counted in addition to its independently keyed rows. Although the cover advertises “Problem Solving,” no problem-solving section occurs within this local PDF.
+
+The exact source boundary is therefore **280 prompt occurrences**: 139 MCQs + 58 fill-in prompts + 83 cross-match rows. The source prints **279 prompt-matched answer observations**: 139 MCQ keys + 58 numbered fill-in model answers + 82 cross-match keys. The anatomy question table 5 on page 17 asks five rows, but its page-19 model-answer table prints only rows 1–4; the fifth row, `Elbow`, is the sole orphan prompt. No answer is inferred or medically supplied for it. All other prompts are paired once with a printed model answer.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 280 prompts were assigned once across 25 source-first handles. Each handle received the four exact searches printed below across live, server, pending/import-ready and documentation evidence, for **25 × 4 = 100 searches**.
+
+| Handle | Prompt scope (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| A1 | Anatomical position, planes, directional and movement terms (`anatomical position palms forward`; `median plane equal halves`; `coronal plane anterior posterior`; `adduction abduction movement`) | live-hit; exact completed prior-FHB general-anatomy reuse. |
+| A2 | Skin and superficial/deep fascia (`epidermis superficial skin layer`; `superficial fascia loose adipose tissue`; `deep fascia intermuscular septa`; `fascial spaces blood pus`) | new externally; exact completed prior-FHB integument/fascia reuse. |
+| A3 | Cartilage, skeletal organisation, bone types and growth (`hyaline cartilage most abundant`; `sesamoid bone patella`; `epiphyseal plate bone lengthening`; `cartilage poor regenerative capacity`) | new externally; exact completed prior-FHB bone/cartilage reuse. |
+| A4 | Fibrous, cartilaginous and synovial joint classification (`fibrous joint suture gomphosis`; `primary cartilaginous synchondrosis`; `secondary cartilaginous intervertebral disc`; `synovial joint cavity`) | pending-hit; exact completed prior-FHB joint-classification reuse. |
+| A5 | Synovial axes and joint examples (`hinge joint knee`; `pivot joint atlanto axial`; `saddle joint thumb`; `plane joint intercarpal`) | pending-hit; exact completed prior-FHB synovial-joint reuse. |
+| A6 | Muscle tissue types, gross forms and attachments (`skeletal muscle voluntary striated`; `smooth muscle spindle shaped`; `cardiac muscle intercalated discs`; `muscle origin insertion belly`) | new externally; exact completed prior-FHB muscle reuse. |
+| A7 | Systemic, pulmonary, portal and arteriovenous circulation (`systemic pulmonary circulation`; `portal circulation two capillary beds`; `pulmonary artery deoxygenated blood`; `arteriovenous anastomosis arteries veins`) | new externally; exact completed prior-FHB circulation reuse. |
+| A8 | Lymphatic vessels, nodes, thoracic duct and absent sites (`thoracic duct largest lymphatic`; `lymph nodes filter lymph`; `lymphatic vessels absent brain cartilage`; `lymphatic system drains tissue fluid`) | pending-hit; exact completed prior-FHB lymphatic reuse. |
+| A9 | Brainstem, fourth ventricle, spinal cord and nervous-system divisions (`brain stem medulla pons midbrain`; `fourth ventricle pons medulla`; `spinal cord vertebral canal`; `central peripheral nervous system`) | pending-hit; exact completed prior-FHB nervous-system reuse. |
+| E1 | Gametes, gonads, gametogenesis and the secondary oocyte (`primary sex organ gonad gametes`; `gamete 22 autosomes sex chromosome`; `gametogenesis diploid haploid`; `secondary oocyte female gamete`) | pending-hit; exact completed prior-FHB gametogenesis reuse. |
+| E2 | Fertilisation, capacitation, acrosome and zona reactions (`fertilization ampulla uterine tube`; `fertilization restores diploid number`; `capacitation acrosome reaction`; `zona reaction polyspermy`) | pending-hit; exact completed prior-FHB fertilisation reuse. |
+| E3 | Cleavage, morula, blastocyst and cell allocation (`cleavage blastomeres morula`; `morula inner cell mass embryoblast`; `blastocyst formation first week`; `trophoblast outer cells morula`) | new externally; exact completed prior-FHB first-week reuse. |
+| E4 | Implantation and decidual reaction (`implantation upper posterior uterine wall`; `implantation closing plug day 10`; `decidua basalis capsularis parietalis`; `blastocyst implantation endometrium`) | new externally; exact completed prior-FHB implantation reuse. |
+| E5 | Bilaminar disc, trophoblast layers and second-week cavities (`second week bilaminar disc`; `cytotrophoblast syncytiotrophoblast`; `amnion hypoblast epiblast`; `extraembryonic mesoderm coelom`) | pending-hit; exact completed prior-FHB second-week reuse. |
+| E6 | Chorion, villi and connecting stalk (`chorion trophoblast extraembryonic mesoderm`; `primary secondary tertiary chorionic villi`; `connecting stalk amnion yolk sac`; `chorionic membrane second week`) | new externally; exact completed prior-FHB chorion/villus reuse. |
+| E7 | Gastrulation, primitive streak and notochord (`gastrulation primitive streak third week`; `three germ layers gastrulation`; `notochord primordial axis inducer`; `nucleus pulposus notochord remnant`) | pending-hit; exact completed prior-FHB gastrulation/notochord reuse. |
+| E8 | Neurulation and neural-crest derivatives (`neural plate neural groove tube`; `neural crest derivatives`; `neuropore closure`; `neurulation third week`) | pending-hit; exact completed prior-FHB neurulation reuse. |
+| E9 | Mesoderm, somites, intraembryonic coelom and germ-layer derivatives (`paraxial mesoderm somites`; `sclerotome myotome dermatome`; `intraembryonic coelom lateral plate`; `germ layer derivatives`) | live-hit; exact completed prior-FHB mesoderm/derivative reuse. |
+| E10 | Embryonic folding and primitive gut (`embryonic folding fourth week`; `head tail lateral folds`; `foregut midgut hindgut`; `stomodeum proctodeum`) | new externally; exact completed prior-FHB folding reuse. |
+| E11 | Placental parts, barrier and surfaces (`chorion frondosum fetal placenta`; `placenta decidua basalis`; `placental barrier fetal maternal blood`; `placental cotyledons maternal surface`) | new externally; exact completed prior-FHB placenta reuse. |
+| E12 | Amniotic-fluid origin, volume and disorders (`earliest source amniotic fluid`; `polyhydramnios oligohydramnios volume`; `renal agenesis oligohydramnios`; `amniotic fluid functions`) | pending-hit; exact completed prior-FHB amniotic-fluid reuse. |
+| E13 | Umbilical ring, physiological hernia, yolk sac and allantois (`umbilical cord two arteries one vein`; `physiological umbilical hernia`; `umbilical vesicle vitelline duct germ cells`; `allantois median umbilical ligament`) | new externally; exact completed prior-FHB fetal-membrane reuse. |
+| E14 | Fetal period, growth and measurements (`fetal period ninth week`; `crown heel length fetal measurement`; `duration pregnancy 266 days`; `full term fetal weight`) | new externally; exact completed prior-FHB fetal-growth reuse. |
+| E15 | Dizygotic, monozygotic and conjoined twins (`dizygotic twins two zygotes`; `monozygotic identical twins`; `conjoined twins incomplete division`; `twinning embryology classification`) | new externally; exact completed prior-FHB twinning reuse. |
+| E16 | Teratogenic period and chromosomal syndromes (`teratogenic period third eighth week`; `Down syndrome trisomy 21`; `Turner syndrome XO`; `Klinefelter syndrome XXY`) | new externally; exact completed prior-FHB teratology/genetics reuse. |
+
+The source-level external split is **2 live / 10 pending / 13 new = 25 accepted handles**. Every handle reproduces a completed prior-FHB assignment already established by the anatomy and embryology banks. The post-prior result is therefore **0 live / 0 pending / 0 new**, with zero cumulative concept delta.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+280 questions / +279 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7586 | 7170 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one sparse-text path and unique hash leaves **9 selected inventory paths / 9 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `9242011ec4e9038bece5bced6ca4cde2ff9685ac20c3efcc1809287ab854ca16`. Pinned triage debt becomes **zero substantive-text / two sparse-text / seven empty-text** rows, and unique-hash accounting is **`97 + 9 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/FHB Physiology MCQs.pdf`, SHA-256 `78a2e07d3c4d22724f5b83c0502bf7321b7f1516e295426d1d3fc34f6b9ba6ca`, 10 pages.
+
+**BLOCKED — S1 cannot be approved:** 9 selected source paths remain untriaged.
