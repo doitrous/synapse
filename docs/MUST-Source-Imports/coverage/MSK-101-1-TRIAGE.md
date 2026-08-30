@@ -513,10 +513,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+67 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histo MSK Clinical Applications (Mohamed Eissa, MMSU)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MSK - Clinical Applications - Mohamed Eissa (MMSU).pdf` | `b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9` | 16 | substantive-text audit sample | pages 1–16 rendered and read | Cover branded `MUST MEDICINE STUDENTS UNION — MMSU`, `Histology MSK Clinical applications`, year 2025, and Mohamed Eissa. Foxit PDF Creator metadata records creation in January 2023 and modification in January 2025. The student-union branding and named compiler establish a MUST-targeted student study aid, but no faculty department, examiner, sitting, marks or official-key authority is printed. |
+
+### Exact teaching, MCQ, written, practical, image and key boundary
+
+Page 1 is a cover. Pages 2–8 are **seven teaching-summary pages** covering connective-tissue reactions and disorders, cartilage/bone, skeletal muscle and skin clinical applications. Pages 9–16 contain **25 consecutively numbered four-option clinical MCQs**; page 16 also prints a complete **25-entry answer key**. The exact assessment boundary is **25 prompt occurrences / 25 printed and recovered answers / 0 source-absent answers**. There are **0 written prompts, 0 practical prompts and 0 image-identification prompts**. No key was inferred or academically corrected.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 25 assessment occurrences were assigned once across seven handles, reconciling as **5 + 6 + 2 + 3 + 3 + 4 + 2 = 25**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **7 × 4 = 28 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 5, IgE/mast-cell hypersensitivity and inflammatory edema (`IgE mast cell degranulation histamine allergy`; `eosinophils terminate allergic reaction histology`; `inflammation capillary permeability edema connective tissue`; `allergic reaction skin gastrointestinal respiratory mast cell`) | no external live/pending hit; same mast-cell/immune-reaction and connective-tissue inflammation scope as completed MSK connective-tissue assignments — **prior-MSK collapse**. |
+| H2 | 6, keloid/scurvy/tendon injury and fibroblast/myofibroblast repair (`keloid collagen deposition wound healing fibroblast`; `scurvy vitamin C collagen polymerization wound healing`; `tendonitis fibroblast collagen bundles cortisone`; `myofibroblast wound contraction actin myosin tissue repair`) | no external live/pending hit; same collagen-defect and wound-repair scope as completed MSK connective-tissue assignments — **prior-MSK collapse**. |
+| H3 | 2, Marfan syndrome, elastic fibers and aortic aneurysm (`Marfan syndrome elastic fibers aortic aneurysm`; `connective tissue elastic fiber defect Marfan histology`; `aorta elastic fibers aneurysm Marfan`; `Marfan fibrillin elastic tissue clinical histology`) | no external live/pending hit; same Marfan/elastic-fiber scope as the first completed MSK training bank — **prior-MSK collapse**. |
+| H4 | 3, disc herniation and vitamin-D/epiphyseal-plate bone defects (`intervertebral disc herniation fibrocartilage nucleus pulposus`; `rickets vitamin D epiphyseal plate histology`; `bone formation calcium vitamin D osteoclast`; `disc prolapse epiphyseal plate clinical histology`) | no external live/pending hit; same disc-prolapse and bone-formation/growth scopes as completed MSK cartilage/bone assignments — **prior-MSK collapse**. |
+| H5 | 3, Duchenne dystrophy, dystrophin, biopsy and failed satellite-cell repair (`Duchenne muscular dystrophy dystrophin satellite cells`; `muscle biopsy dystrophin connective tissue replacement`; `skeletal muscle hypertrophy fiber size not number`; `Duchenne X linked muscle degeneration regeneration`) | no external live/pending hit; same dystrophin/satellite-cell/regeneration scope as completed MSK muscle assignments — **prior-MSK collapse**. |
+| H6 | 4, albinism, vitiligo, psoriasis and UV-associated skin risk (`albinism tyrosinase melanin skin cancer`; `vitiligo autoimmune melanocyte destruction`; `psoriasis keratinocyte proliferation abnormal keratinization`; `skin pigmentation hair melanin pheomelanin clinical`) | no external live/pending hit and no prior MSK skin-disease handle — **new**. |
+| H7 | 2, cyanosis/anemia as visible skin and mucosal signs (`cyanosis skin mucous membranes low oxygen`; `pale conjunctiva palm anemia histology`; `peripheral cyanosis anemia skin color`; `translucent epidermis cyanosis anemia clinical signs`) | no external live/pending hit and no prior MSK visible-sign handle — **new**. |
+
+The source-level result is **0 live / 0 pending / 7 externally new source handles**. Prior-MSK collapse removes H1–H5; H6 and H7 survive, producing a completed-source concept delta of **0 live / 0 pending / 2 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+25 questions / +25 answers / +2 post-prior concepts**. Cumulative arithmetic is **1218 + 25 = 1243 questions**, **1148 + 25 = 1173 answers**, and **25 + 2 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1243 | 1173 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these fifteen processed paths and unique hashes leaves **88 selected inventory paths / 86 unique SHA-256s**. Their sorted, newline-joined hash checksum is `2218c018a71fd22997b4006dbef4233e4887152806d38a5125f43ddbd501395a`. Remaining audit-review debt is 48 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`15 + 86 = 101`**.
+Removing these sixteen processed paths and unique hashes leaves **87 selected inventory paths / 85 unique SHA-256s**. Their sorted, newline-joined hash checksum is `6eee5285ed7214cd77d1aeda1cd7f41a56fc8f4f2dfc99836c6f1cbebcf7bee2`. Remaining audit-review debt is 47 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`16 + 85 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MSK - Clinical Applications - Mohamed Eissa (MMSU).pdf`, SHA-256 `b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9`, 16 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Cases Questions.pdf`, SHA-256 `628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84`, 12 pages.
 
-**BLOCKED — S1 cannot be approved:** 88 selected inventory paths / 86 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 87 selected inventory paths / 85 unique hashes remain untriaged.
