@@ -9976,3 +9976,75 @@ systematically underlined solved twin of Family 81's same 15 prompts and must be
 as paired key evidence without a second prompt inventory. **Overall LCS-103 remains `S1
 TRIAGE — NOT APPROVED`:** 149 tier-3/tier-6/rank-9 path debts remain. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 82 — Tier-3 Loco-cordination paired solved-key sheet
+
+### Corrected source identity, visual convention and paired boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_b23eba9e2d391cb6e659` |
+| Manifest / recomputed SHA-256 | `b23eba9e2d391cb6e6591f4ab2058bac53c49ffc90102b471f3f6d28271313cb` |
+| Dispatch-hash correction | The task payload's longer hash after the 20-character source prefix did not match. The manifest and local bytes independently agree on the value above; source identity, name, size and page boundary otherwise match. |
+| File / boundary | `MCQs - College MCQs 103 quick revision with answers (1).pdf` · 231,213 bytes · unencrypted PDF · 2 physical native-text pages · US Letter, 612 × 792 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 · `solvedCopy: true` |
+| Paired unsolved source | Family 81 `src_f9b53d072c16796e4d2d`, the same 15 stems and option sets without option underlines |
+| Visible provenance | Both pages print `Loco-cordination 103`; no university, faculty, instructor, cohort or sitting mark. Metadata author is `Windows User`, creator/producer is Microsoft Word 2010, and creation/modification date is 1 January 2014. |
+| Authority finding | Lower-authority local module solved revision sheet. Its systematic answer underlines are paired key evidence, not an independent second prompt inventory or an official answer key. |
+
+The verified file was rendered at 200 dpi and both pages were visually read against the
+complete native text layer. Page 1 contains the same Family-81 Q1–Q7 and p. 2 the same
+Q8–Q15. Wording and options are unchanged. Exactly one answer option is underlined for every
+question. These are source text underlines, not PDF `/Highlight` annotations; the solved PDF
+has no highlight annotation array. Its exact printed answer sequence is:
+
+| Page | Paired Family-81 prompts | Source-underlined answers |
+|---:|---|---|
+| 1 | Q1–Q7 | `1-d, 2-b, 3-a, 4-b, 5-c, 6-a, 7-c` |
+| 2 | Q8–Q15 | `8-b, 9-b, 10-c, 11-c, 12-c, 13-c, 14-c, 15-c` |
+| **Family 82 paired recovery** | **15 already-counted prompts** | **15 printed keys recovered** |
+
+No answer is medically inferred or repaired. In particular, Q6 retains underlined
+`a. smooth muscle` despite its awkward wording; Q12 and Q14 retain their exception/negative
+polarity; and Q15 retains the source's single-unit gap-junction statement. Family 81's two
+green number-only annotations are absent here and did not influence this key sequence.
+
+### Dedupe, cumulative counts and broader remainder
+
+Family 82 reuses all nine Family-81 handles and its exact **9 × 4 = 36** completed search
+ledger. It adds **0 prompt occurrences / 15 paired printed keys / 0 tested concepts**, plus
+**0 practical prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical
+scopes**. A second prompt or search inventory would double-count the solved/unsolved pair.
+
+| Evidence dimension | Before Family 82 | Family 82 delta | After Family 82 |
+|---|---:|---:|---:|
+| Eligible observed question records | 679 | +0 | 679 |
+| Eligible printed question keys/answers | 374 | +15 | 389 |
+| Eligible distinct tested concepts | 317 | +0 | 317 |
+| Question live / pending / new | 12 / 103 / 202 | +0 / +0 / +0 | 12 / 103 / 202 |
+
+The external-bank checkpoint remains **321 questions / 321 printed keys / 100 concepts = 10
+live / 66 pending / 24 new**. Practical totals remain **7 prompts / 458 plates / 2,691
+mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**. Arithmetic
+checks are `7 + 8 = 15 paired option sets`, `7 + 8 = 15 systematic underlines`, `374 +
+15 = 389`, `679 + 0 = 679`, `317 + 0 = 317`, and `12 + 103 + 202 = 317`.
+
+This source hash occurs once in the audited remainder. Removing its sole path from Family
+81's accepted remainder leaves **148 all-rank path instances / 140 unique hashes**: tier 3
+**66 paths / 63 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**.
+Family 81's 149/141 row sets recompute first to path checksum
+`c401a63cb66c8d38afd950a758bd9f14d80c570de2626421181229c7d222b766` and unique-hash
+checksum `a1d7e224e32643a8b63a9f3be1dbd566fcaca69cf6d0b835afcfa394b80958a7`.
+For the exact post-Family-82 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`03d3a50eb9d93057acaf0d4351a7d64319eef09f6b69a07906834386e2252505`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`73314ba0fbe4769e3ecbebb7cedd62bbae59b7ea716c7686f71caaa848ce1cdd`.
+
+The exact next tier-3 manifest-order debt is externally labelled
+`src_c7075e4c777e946e43ff`, `MCQs - External Histo MCQ Dr.Zahra [Bone].pdf` (446,745
+bytes; 6 native-text pages; SHA-256
+`c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5`). It must remain
+outside eligible Helwan counts unless its own pages establish stronger provenance. **Overall
+LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 148 tier-3/tier-6/rank-9 path debts remain.
+No download, ID, content record, catalogue update, import or source copy was created.
