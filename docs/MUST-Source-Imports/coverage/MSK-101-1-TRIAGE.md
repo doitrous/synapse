@@ -3825,3 +3825,41 @@ Removing the ninety-five processed unique hashes leaves **6 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Back (by Roaa).pdf`, SHA-256 `c54fda8e9fb1d40780ad6de2014395a5d976c60987edb9a209a985dd0977508a`, 7 pages.
 
 **BLOCKED — S1 cannot be approved:** 6 selected inventory paths / 6 unique hashes remain untriaged.
+
+## Completed teaching-only source — Muscles Of The Back (by Roaa)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Back (by Roaa).pdf` | `c54fda8e9fb1d40780ad6de2014395a5d976c60987edb9a209a985dd0977508a` | 7 | audit-not-found inventory label | pages 1–7 rendered and read | Filename-attributed Roaa handwritten notes. Metadata title is `Muscles Of The Back`, creator is `Notes`, and the carrier was produced through iOS 17.5.1 Quartz on 27 October 2024. No visible byline, institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Back (by Roaa).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+All seven pages are fully populated handwritten teaching notes. Page 1 profiles trapezius and latissimus dorsi. Page 2 profiles supraspinatus, infraspinatus, teres minor and teres major. Page 3 profiles levator scapulae, rhomboid minor and rhomboid major. Page 4 covers deltoid, pages 5–6 cover serratus anterior and page 7 supplies deltoid relations. Across these sections the source names eleven muscles and supplies origins, insertions, actions, nerve supply, relations or applied observations through completed labels, diagrams and prose.
+
+The exact boundary is **7 teaching-only notebook pages / 11 named muscle profiles / 1 terminal deltoid-relations page / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. All labels, arrows, mnemonics and facts are disclosed; there is no hidden label, learner instruction, response space or station direction.
+
+### Authority, source truth and search gate
+
+The filename attributes Roaa and the Notes/iOS Quartz metadata supports production provenance only; no visible byline authenticates the attribution. Nothing in the carrier establishes a MUST/MSK institution, department, examiner, sitting, marks or official assessment key. Handwritten spelling, capitalization, page-reference notes, mnemonics and selective anatomy claims remain uncorrected observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Fully labeled teaching diagrams are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-six processed unique hashes leaves **5 selected inventory paths / 5 unique SHA-256s**. Their sorted, newline-joined hash checksum is `bce7b66ce1d43de35a2889c8101c21f76dd00819fd7630347ba27929f5d2df88`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 5 audit-not-found rows, and unique-hash accounting is **`96 + 5 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pect. Region, Axilla, Brachial Plexus (by Shahd Kamal).pdf`, SHA-256 `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495`, 7 pages.
+
+**BLOCKED — S1 cannot be approved:** 5 selected inventory paths / 5 unique hashes remain untriaged.
