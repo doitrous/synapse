@@ -11999,3 +11999,112 @@ omits the pre-extension space; 12,395,380 bytes; 33 OCR-needed pages; SHA-256
 external until its pages establish the exact module boundary. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 127 tier-3/tier-6/rank-9 path debts remain. No download,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 104 — Tier-3 external Dr Khaled Milad Head-and-Neck keyed MCQ compilation
+
+### Exact identity, provenance and complete 33-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_65249ccb61ee81a2662d` / `65249ccb61ee81a2662d7b0f749ac65a316b6b1484f28d990a62a16219e8fe41` |
+| File / boundary | Manifest `MCQs - تجمعية_أسئلة_د_خالد_ميلاد2003External MCQs .pdf`; normalized local filename omits the pre-extension space · 12,395,380 bytes · unencrypted, untagged PDF · 33 physical A4-landscape scan pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - تجمعية_أسئلة_د_خالد_ميلاد2003External MCQs .pdf` |
+| Visible / container provenance | The cover prints `Questions of the Head & Neck`, `years 2003–2012`, `prepared by Dr. Khaled Milad`, Arabic Al-Wafdeen-library stamps and `www.mdly.net`; question footers print `Head & Neck Anatomy MCQs by Dr. Khaled Milad`. PDF producer is Haru Free PDF Library 2.3.0RC2. No Helwan University, faculty, module, cohort, sitting or official-key mark appears. |
+| Authority finding | Externally prepared, retrospectively compiled Head-and-Neck Anatomy review evidence. Its subject matter fits accepted LCS-103 Anatomy, but the external branding and absent Helwan provenance keep it outside eligible Helwan assessment counts. |
+
+The assigned hash, byte size and 33-page boundary were recomputed and match. All 33 pages
+were rendered at 155 dpi, orientation-corrected only in temporary QA copies, OCRed pagewise
+and read visually in five ordered contact sheets, with the cover, question endpoints and both
+answer grids checked at full-page resolution. The source PDF itself was not changed.
+
+| Physical boundary | Visible source units | MCQ prompts | Source-marked keys |
+|---|---|---:|---:|
+| p. 1 | provenance cover | 0 | 0 |
+| pp. 2–31 | uninterrupted printed Q1–Q168, with handwritten/circled option annotations on the question pages | 168 | 0 |
+| p. 32 | answer table Q1–Q93 with handwritten A–E entries and marginal rationales | 0 | 93 |
+| p. 33 | answer table Q94–Q168 with handwritten A–E entries; template rows Q169–Q191 are blank | 0 | 75 |
+| **Family 104** | **complete keyed compilation** | **168** | **168** |
+
+Thus the exact assessment boundary is **168 external MCQ occurrences / 168 source-marked
+keys**. The circled choices beside the stems and the two terminal answer tables are parallel
+annotations of the same questions, not two key inventories. Blank answer-table rows Q169–
+Q191 do not create prompts, residues or keys. Handwritten marginal notes explain selected
+answers but do not form separately authored declarative teaching units. There is no written
+or essay prompt, specimen, radiograph, micrograph, practical station, teaching plate, masked
+label, apparatus task or response blank. Practical delta is exactly **0 prompts / 0 plates /
+0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 168 occurrences consolidate to **26 source-distinct tested handles**. The following
+one-assignment partition preserves every printed question once while collapsing repeated
+and near-repeated stems inside each source topic:
+
+| Source-first handle family | Assigned questions | Occurrences |
+|---|---|---:|
+| scalp layers, vessels, nerves and drainage | Q1–Q9 | 9 |
+| facial-expression and extraocular-muscle innervation | Q10–Q19 | 10 |
+| mastication membership and actions | Q20–Q25 | 6 |
+| sternocleidomastoid, styloid, digastric and suprahyoid muscles | Q26–Q31 | 6 |
+| pharyngeal, laryngeal, palatal and tongue muscles | Q32–Q39 | 8 |
+| posterior-triangle boundaries, floor and contents | Q40–Q49 | 10 |
+| carotid-sheath contents and relations | Q50–Q54 | 5 |
+| temporal and digastric-triangle relations | Q55–Q59 | 5 |
+| parotid-gland relations and secretomotor route | Q60–Q67 | 8 |
+| thyroid-gland relations, vessels and development | Q68–Q74 | 7 |
+| submandibular-gland relations and duct | Q75–Q77 | 3 |
+| jugular and regional venous drainage | Q78–Q82 | 5 |
+| cavernous and dural-sinus relations | Q83–Q90 | 8 |
+| head-and-neck lymphatic drainage | Q91–Q96 | 6 |
+| common, external and internal carotid arteries | Q97–Q103 | 7 |
+| maxillary, facial and subclavian arterial branches | Q104–Q108 | 5 |
+| trigeminal/facial territories and branches | Q109–Q114 | 6 |
+| vagus, glossopharyngeal and hypoglossal functions | Q115–Q121 | 7 |
+| cervical plexus, parasympathetic ganglia and cranial-nerve relations | Q122–Q129 | 8 |
+| taste, nasal cavity and paranasal sinuses | Q130–Q136 | 7 |
+| skull foramina, fossae and transmitted structures | Q137–Q140 | 4 |
+| temporomandibular joint and pneumatic skull bones | Q141–Q145 | 5 |
+| tongue and pharynx relations | Q146–Q151 | 6 |
+| tonsil, face, skull, neck and middle-ear relations | Q152–Q157 | 6 |
+| cavernous-sinus and infratemporal-fossa relations | Q158–Q162 | 5 |
+| submandibular-region and midline-neck structures | Q163–Q168 | 6 |
+| **Family 104** | **Q1–Q168 once each** | **168** |
+
+Each handle received exactly one search in the live, pending/import-ready, prior source-import
+and accepted-LCS surfaces: **26 × 4 = 104 required search invocations**. Prior-external-first
+comparison finds all 26 handles already represented in Families 78, 90 and 92; accepted
+Families 1 and 20–30 independently own or corroborate the curriculum scopes but cannot
+promote this external compilation into eligible Helwan evidence. Reconciliation is therefore
+**26 prior-external reuses + 0 external additions = 26**, external concept-state delta is
+**0 live / 0 pending / 0 new**, and eligible concept delta is zero. The exact 104-query
+ledger is preserved at `tmp/pdfs/lcs103-family104/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **2,530 / 2,446 / 221 = 12 / 135 / 74** to **2,698 external prompts / 2,614
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `2,530 + 168 = 2,698`, `2,446 + 168 = 2,614`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-103 remainder. Removing its sole path leaves **126
+all-rank path instances / 118 unique hashes**: tier 3 **44 paths / 41 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 103's prior checksums are
+`01aae171a2f8c2242ef59eab3c248ca4ce7091ab258b9af5f669f44ae61a0e32` (paths) and
+`153f2314556187652818f1c4be7a644b0e599e6c29d74dd0dc95a2de8a5b2a57` (unique hashes).
+For the exact post-Family-104 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`37b32c3e57e28c7f19e8bf9e430cc5d5fd7353031418e88d2399c53ec83c1d77`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`a10fea691d4488421b5e74c7acb91c9b07dd0a8a55735f72444e42a0212155ac`.
+
+The exact next tier-3 manifest-order debt is `src_e5ee308aba7c5dd81741`, manifest
+`MCQs - External MCQs 1-  Anatomy MCQs Head , neck &  thorax.pdf` (normalized local
+filename collapses the doubled spaces; 10,430,692 bytes; 49 native pages; SHA-256
+`e5ee308aba7c5dd81741acdaf23a4fa17c04e700a9b10d9f2cf46ed596002c5c`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 126 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
