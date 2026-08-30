@@ -6600,3 +6600,48 @@ Removing this one sparse-text path and unique hash leaves **9 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/FHB Physiology MCQs.pdf`, SHA-256 `78a2e07d3c4d22724f5b83c0502bf7321b7f1516e295426d1d3fc34f6b9ba6ca`, 10 pages.
 
 **BLOCKED — S1 cannot be approved:** 9 selected source paths remain untriaged.
+
+## Completed source — FHB Physiology MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/FHB Physiology MCQs.pdf` | `78a2e07d3c4d22724f5b83c0502bf7321b7f1516e295426d1d3fc34f6b9ba6ca` | 10 | substantive-text audit sample (pinned sparse-text extraction checkpoint) | pages 1–10 rendered and read | WPS Writer export created 12 November 2024, with metadata author `PC`. The cover reads `FHB Physiology MCQs + Answers - Explanation`, attributes the work to Ziad Ashraf and targets the `101 Midterm Exam 2024/2025`. It prints no institution, department, examiner, official sitting, marks or model-key authority, so it is a student-authored targeted revision bank, not an official MUST examination or key. |
+
+### Exact prompt, answer and teaching boundary
+
+Page 1 is the cover. Pages 2–5 contain Q1–Q17 four-option MCQs and five separately answerable matching rows Q18–Q22 sharing a six-item option bank. Q5 and Q16 cross page breaks and were counted once. The answer section begins with Q1 at the foot of page 5, continues through Q22 on page 9, and prints one selected letter plus an explanation for every prompt. Page 10 is blank.
+
+The exact boundary is therefore **22 prompt occurrences / 22 printed answer observations / 22 prompt-matched recovered answers**: 17 MCQs + five matching rows. Explanatory statements beneath a keyed letter are rationale, not additional prompts or answers. The source occasionally explains that more than one option is factually true while retaining one printed key; all keys are recorded as claimed and none is medically corrected or inferred.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 22 prompts were assigned once across six source-first handles. Each handle received the four exact searches printed below across live, server, pending/import-ready and documentation evidence, for **6 × 4 = 24 searches**.
+
+| Handle | Prompt scope (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| H1 | Erythrocyte structure, count and glycolytic ATP production (`RBC biconcave disc ATP glycolysis`; `red blood cell count males females`; `erythrocyte no nucleus`; `hemoglobin percent red cell weight`) | live-hit; exact completed prior-FHB erythrocyte reuse. |
+| H2 | Plasma proteins, liver synthesis and clotting (`plasma proteins albumin globulin fibrinogen`; `liver disease clotting factors bleeding`; `albumin lowest molecular weight plasma protein`; `fibrinogen important clotting factor`) | pending-hit; exact completed prior-FHB plasma-protein/coagulation reuse. |
+| H3 | Erythropoiesis, erythropoietin and hypoxic stimulus (`erythropoiesis committed stem cell normoblast`; `erythropoietin kidney hypoxia`; `sprinting stimulates erythropoiesis`; `hypoxia renal erythropoietin`) | pending-hit; exact completed prior-FHB erythropoiesis reuse. |
+| H4 | Body-fluid compartments, ions and blood/plasma volume (`total body water intracellular extracellular`; `plasma sodium chief cation`; `blood volume percent body weight`; `plasma volume body fluid compartments`) | pending-hit; exact completed prior-FHB body-fluid reuse. |
+| H5 | Haemoglobin structure/affinity, free plasma haemoglobin and iron distribution (`hemoglobin four polypeptide chains ferrous`; `hemoglobin oxygen affinity temperature fetus`; `free plasma hemoglobin cardiac output`; `body iron hemoglobin transferrin ferritin`) | live-hit; exact completed prior-FHB haemoglobin/iron reuse. |
+| H6 | Blood viscosity and physiological roles of body fluids (`blood viscosity three times water`; `blood viscosity anemia polycythemia`; `body fluids thermoregulation`; `body fluids transport signaling molecules`) | new externally; exact completed prior-FHB viscosity/fluid-function reuse. |
+
+The source-level external split is **2 live / 3 pending / 1 new = 6 accepted handles**. Every handle reproduces completed prior-FHB assignments from the blood and body-fluid banks, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+22 questions / +22 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7608 | 7192 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one pinned sparse-text path and unique hash leaves **8 selected inventory paths / 8 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `32645a1244a09b9dc54e0dade4a525d6a20ee4c24573654f6676e46f154f3344`. Pinned triage debt becomes **zero substantive-text / one sparse-text / seven empty-text** rows, and unique-hash accounting is **`98 + 8 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/MCQs On Physiology(FHB) Of Blood midterm_Benahmed.pdf`, SHA-256 `5e7a3a7c3a890ac633e79f1c39d84445c3af117b1b5910fbdd266cf7a55aee24`, 31 pages.
+
+**BLOCKED — S1 cannot be approved:** 8 selected source paths remain untriaged.
