@@ -99,6 +99,77 @@ test('holding the media tab does not license editing the rest of the question', 
   assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null }).ok, false)
 })
 
+test('a reviewer supplies a question request — placement and supplied ride the media tab', () => {
+  // The real fulfil: supplying media writes the placement into questionData.media
+  // AND marks the request supplied, in one change. A question renders media from
+  // its placements, not from the request, so the two are inseparable — and the
+  // media tab must license both, or the reviewer's work is refused and lost.
+  const before = { ...q('a', 'One'), questionData: { tags: {}, media: [], mediaRequests: [{ id: 'm1', status: 'needed' }] } }
+  const after = {
+    ...before,
+    questionData: {
+      ...before.questionData,
+      media: [{ id: 'plc-1', mediaId: 'med-1', slot: 'stem' }],
+      mediaRequests: [{ id: 'm1', status: 'supplied', mediaId: 'med-1' }],
+    },
+  }
+  const changes = diffDocument(LEDGER, [before], [after])
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, true)
+})
+
+test('a reviewer supplies an article request — the article media write rides the media tab', () => {
+  const before = { id: 'art', kind: 'article', title: 'A', articleData: { primaryNodeId: 'n1', media: [], mediaRequests: [{ id: 'm1', status: 'needed' }] } }
+  const after = {
+    ...before,
+    articleData: {
+      ...before.articleData,
+      media: [{ id: 'article-media-1', sourceId: 'med-1', url: '/media/med-1' }],
+      mediaRequests: [{ id: 'm1', status: 'supplied', mediaId: 'med-1' }],
+    },
+  }
+  const changes = diffDocument(LEDGER, [before], [after])
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, true)
+})
+
+test('a reviewer supplies a practical request — the nested mediaUrl write rides the media tab', () => {
+  const before = { id: 'prac', kind: 'practical', title: 'P', practicalData: { format: 'osce', mediaRequests: [{ id: 'm1', status: 'needed' }] } }
+  const after = {
+    ...before,
+    practicalData: {
+      ...before.practicalData,
+      mediaUrl: '/media/med-1', mediaType: 'image', mediaMimeType: 'image/png',
+      mediaRequests: [{ id: 'm1', status: 'supplied', mediaId: 'med-1' }],
+    },
+  }
+  const changes = diffDocument(LEDGER, [before], [after])
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, true)
+})
+
+test('the media tab does not license a content edit smuggled in beside a supply', () => {
+  // Supplying media may not double as a licence to rewrite the stem: a change
+  // that alters non-media content is still refused, even while attaching media.
+  const before = { ...q('a', 'One'), questionData: { tags: {}, media: [], mediaRequests: [{ id: 'm1', status: 'needed' }] } }
+  const after = {
+    ...q('a', 'Rewritten stem'),
+    questionData: {
+      tags: {},
+      media: [{ id: 'plc-1', mediaId: 'med-1', slot: 'stem' }],
+      mediaRequests: [{ id: 'm1', status: 'supplied', mediaId: 'med-1' }],
+    },
+  }
+  const changes = diffDocument(LEDGER, [before], [after])
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, false)
+})
+
+test('the media tab does not license a bare placement rewrite with no request supplied', () => {
+  // Writing media placements without supplying a request is content authoring,
+  // not a supply, and needs the owner tab.
+  const before = { ...q('a', 'One'), questionData: { tags: {}, media: [{ id: 'plc-1', mediaId: 'med-1', slot: 'stem' }] } }
+  const after = { ...before, questionData: { ...before.questionData, media: [{ id: 'plc-1', mediaId: 'med-2', slot: 'stem' }] } }
+  const changes = diffDocument(LEDGER, [before], [after])
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, false)
+})
+
 test('a change outside the caller scope is refused, and the request refuses whole', () => {
   const scope = { moduleIds: ['MOD_CVS'], yearIds: [] }
   const changes = diffDocument(LEDGER, [], [q('a', 'Mine'), q('b', 'Theirs', ['MOD_RES'])])

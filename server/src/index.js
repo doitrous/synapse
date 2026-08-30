@@ -1800,20 +1800,29 @@ async function enforceMediaSupply(conn, mergedLedger, storedLedger) {
     const claimsSupplied = request.status === 'supplied' && before?.status !== 'supplied'
     if (attachedNow || claimsSupplied) candidates.push(request)
   }
-  if (!candidates.length) return { ok: true }
+  if (!candidates.length) return { ok: true, readyMediaIds: new Set() }
 
   const mediaIds = [...new Set(candidates.map((request) => request.mediaId))]
   const [rows] = await conn.query('SELECT id, status FROM managed_media WHERE id IN (?)', [mediaIds])
   const statusById = new Map(rows.map((row) => [row.id, row.status]))
 
   const notReady = []
+  // The managed ids this save legitimately attaches, now verified ready. The
+  // descriptive media record (its alt text and rights) rides a second, separate
+  // save to the media document; until that lands the id is not yet "released",
+  // which would otherwise make supplying media to an already-published item fail
+  // purely on save ordering. Students never see the difference — they only ever
+  // receive released media (see redactMediaForStudent) — so the publish guard may
+  // safely treat a verified, just-attached asset as acceptable.
+  const readyMediaIds = new Set()
   for (const request of candidates) {
     const status = statusById.get(request.mediaId)
     if (status === undefined) continue // not a managed upload — legacy media, left as-is
     if (status !== 'ready') { notReady.push({ id: request.id, mediaId: request.mediaId, status }); continue }
     if (request.status !== 'supplied') request.status = 'supplied'
+    readyMediaIds.add(request.mediaId)
   }
-  return notReady.length ? { ok: false, notReady } : { ok: true }
+  return notReady.length ? { ok: false, notReady } : { ok: true, readyMediaIds }
 }
 
 /**
@@ -1948,11 +1957,32 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
       const catalogue = key === ACADEMIC_CATALOGUE_STATE_KEY
         ? merged.value
         : beforeCatalogue
+      // "Supplied" is the server's word, not the client's: a request may only
+      // become supplied with media that has finished verifying. Newly attached
+      // (or newly supplied-claiming) requests are checked against the media
+      // table; a ready managed upload is promoted to supplied here, and a request
+      // pointing at media that is still verifying or has failed is refused. This
+      // runs before the publish guard below so that guard can see the media just
+      // supplied as acceptable, rather than blocking on the descriptive record's
+      // separate, still-in-flight save.
+      let suppliedReadyMediaIds = new Set()
+      if (key === CONTENT_LEDGER_STATE_KEY) {
+        const supply = await enforceMediaSupply(conn, ledger, beforeLedger)
+        if (!supply.ok) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'media_not_ready',
+            reason: 'a request can be supplied only with media that has finished verifying',
+            requests: supply.notReady,
+          })
+        }
+        suppliedReadyMediaIds = supply.readyMediaIds
+      }
       const blockedItems = newlyMediaBlockedPublishedItems(
         beforeLedger,
         releasedMediaIdsFromDocument(beforeMedia),
         ledger,
-        releasedMediaIdsFromDocument(media),
+        new Set([...releasedMediaIdsFromDocument(media), ...suppliedReadyMediaIds]),
       )
       if (blockedItems.length) {
         await conn.rollback()
@@ -1980,22 +2010,6 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
         const nextIds = new Set((Array.isArray(media?.records) ? media.records : []).map((record) => record.id))
         removedMediaRecords = (Array.isArray(beforeMedia?.records) ? beforeMedia.records : [])
           .filter((record) => !nextIds.has(record.id))
-      }
-      if (key === CONTENT_LEDGER_STATE_KEY) {
-        // "Supplied" is the server's word, not the client's: a request may only
-        // become supplied with media that has finished verifying. Newly attached
-        // (or newly supplied-claiming) requests are checked against the media
-        // table; a ready managed upload is promoted to supplied here, and a request
-        // pointing at media that is still verifying or has failed is refused.
-        const supply = await enforceMediaSupply(conn, ledger, beforeLedger)
-        if (!supply.ok) {
-          await conn.rollback()
-          return res.status(409).json({
-            error: 'media_not_ready',
-            reason: 'a request can be supplied only with media that has finished verifying',
-            requests: supply.notReady,
-          })
-        }
       }
     }
 
