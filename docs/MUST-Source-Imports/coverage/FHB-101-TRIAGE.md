@@ -5715,3 +5715,59 @@ Removing this one substantive-text path and unique hash leaves **30 selected inv
 The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology FHB101 Training Questions.pdf`, SHA-256 `1f436a96117e21759285f2f2c549f37ad95d9939ed7068a5cff760baa43d562e`, 26 pages.
 
 **BLOCKED — S1 cannot be approved:** 30 selected source paths remain untriaged.
+
+## Completed source — Histology FHB101 Training Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology FHB101 Training Questions.pdf` | `1f436a96117e21759285f2f2c549f37ad95d9939ed7068a5cff760baa43d562e` | 26 | substantive-text | pages 1–26 rendered and read | Microsoft Word 2024 PDF metadata names `Abdelsalam Bakr` and dates creation/modification to 5 November 2025. The first-page title is `Histology FHB101 Training Questions`; a second block is headed `IMP`. It prints no institution, department, sitting, marks, official-paper claim or separate official-key authority. It is an author-named training/revision bank, not an official MUST examination. |
+
+### Exact prompt and embedded-answer boundary
+
+Pages 1–5 contain `Cell membrane and membranous organelles` Q1–Q20. Pages 6–26 contain the `IMP` block with **75 observed prompt occurrences**. Its nominal labels run Q1–Q70, but Q11 is absent and six labels identify two distinct prompts each: Q5, Q14, Q19, Q20, Q25 and Q39. Therefore the complete source contains **95 prompt occurrences**: `20 + (70 - 1 + 6) = 95`.
+
+Every prompt has exactly one answer option printed in bold on the same page. The exact boundary is therefore **95 prompts / 95 visually printed answers / 95 prompt-matched recovered answers**. There is no separate key, practical image, written/essay prompt, answer exposition, teaching-only passage or orphan answer. Duplicate labels are retained as distinct prompt occurrences; no answer was inferred, corrected or supplied from another source.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 95 prompt occurrences were assigned once to the 17 topic handles below. Each handle received the four recorded searches, for **17 × 4 = 68 searches**.
+
+| Printed scope | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Opening Q1–Q6 | Histology, cell/organelle and inclusion classification (`histology normal tissue structure`; `cell organelle inclusion classification`; `membranous nonmembranous organelles`; `inclusion not essential cell vitality`) | new externally; exact prior-FHB cell-organisation reuse. |
+| Membrane occurrences | Membrane trilaminar structure, phospholipid orientation, cholesterol and glycocalyx (`cell membrane trilaminar structure`; `phospholipid hydrophilic head tail`; `cholesterol membrane fluidity`; `glycocalyx transplant recognition`) | new externally; exact prior-FHB membrane/glycocalyx reuse. |
+| Transport/receptor occurrences | Pinocytosis/phagocytosis and receptor-mediated hormone/cholesterol handling (`pinocytosis fluid phagocytosis solid`; `cell receptor growth hormone dwarfism`; `receptor mediated endocytosis cholesterol`; `membrane vesicular transport`) | pending-hit; exact prior-FHB membrane-transport and receptor reuse. |
+| Mitochondrial occurrences | Janus-green staining, genome/replication, cristae and clinical energy failure (`mitochondria Janus green`; `mitochondrial DNA replication`; `mitochondrial cristae inner membrane`; `mitochondrial myopathy neuropathy`) | new externally; exact prior-FHB mitochondrial reuse. |
+| rER/ribosome occurrences | Rough-ER/ribosome protein synthesis, weak bone and basophilia (`rough ER ribosome protein synthesis`; `rough ER weak bone`; `rough ER protein hormone`; `ribosome cytoplasmic basophilia`) | pending-hit; exact prior-FHB rER/ribosome reuse. |
+| sER occurrences | Steroid synthesis, detoxification, glycogenolysis, bilirubin handling and calcium (`smooth ER steroid synthesis`; `smooth ER detoxification glycogenolysis`; `smooth ER neonatal jaundice`; `sarcoplasmic reticulum muscle contraction`) | new externally; exact prior-FHB smooth-ER reuse. |
+| Golgi occurrences | Golgi polarity, staining, protein processing and lysosome formation (`Golgi cis trans convex concave`; `Golgi silver negative image`; `Golgi protein sorting modification`; `Golgi lysosome formation`) | new externally; exact prior-FHB Golgi reuse. |
+| Lysosome occurrences | Lysosomal fusion forms, residual bodies and clinical storage/killing roles (`primary lysosome heterolysosome`; `multivesicular body pinocytic vesicle`; `lysosome residual body lipofuscin`; `lysosomal storage Gaucher neutrophil`) | pending-hit; exact prior-FHB lysosome reuse. |
+| Peroxisome occurrences | Peroxisomal catalase, enzyme/membrane origin and fission (`peroxisome catalase peroxide`; `peroxisome enzyme free ribosome`; `peroxisome membrane rough ER`; `peroxisome simple fission`) | new externally; exact prior-FHB peroxisome reuse. |
+| General cytoskeleton occurrences | Cytoskeletal visualisation, classes and cellular roles (`cytoskeleton immunohistochemistry fluorescence`; `cytoskeleton microtubule microfilament intermediate`; `cytoskeletal filament staining`; `cytoskeleton cell shape transport`) | pending-hit; exact prior-FHB cytoskeleton reuse. |
+| Microtubule occurrences | Colchicine/tubulin, spindle formation and developmental/therapeutic effects (`colchicine microtubule tubulin`; `microtubule mitotic spindle`; `microtubule neuron development`; `microtubule cancer therapy`) | pending-hit; exact prior-FHB microtubule reuse. |
+| Microfilament occurrences | Actin-core microvilli and contractile/cell-process roles (`microvilli actin filament core`; `microfilament muscle contraction`; `actin microvillus ultrastructure`; `microfilament cell process`) | pending-hit; exact prior-FHB microfilament reuse. |
+| Intermediate-filament occurrences | Lamins in nuclear-envelope cycling and vimentin in connective tissue (`lamin nuclear envelope mitosis`; `vimentin connective tissue`; `intermediate filament cell typing`; `intermediate filament mechanical support`) | new externally; exact prior-FHB intermediate-filament reuse. |
+| Cilia/flagella occurrences | Dynein/tubulin defects, sperm immotility and respiratory disease (`immotile cilia dynein`; `sperm flagella tubulin dynein`; `ciliary dyskinesia respiratory infection`; `microtubule cilia pairing`) | new externally; exact prior-FHB cilia/flagella reuse. |
+| Inclusion/pigment/stain occurrences | Lipofuscin, endogenous/exogenous pigments, glycogen/lipid and histochemistry (`lipofuscin golden brown pigment`; `endogenous exogenous pigment`; `PAS glycogen Best carmine`; `H&E lipid Golgi lysosome`) | new externally; exact prior-FHB inclusion/pigment/histochemistry reuse. |
+| Nuclear occurrences | Nucleolar rRNA and euchromatin/heterochromatin morphology/function (`nucleolus rRNA`; `euchromatin heterochromatin TEM`; `euchromatic vesicular nucleus`; `chromatin RNA protein synthesis`) | new externally; exact prior-FHB nucleolus/chromatin reuse. |
+| Proteasome occurrences | Ubiquitin-tagged proteasomal degradation and neurodegenerative accumulation (`proteasome ubiquitin protein degradation`; `proteasome barrel rings`; `proteasome neurodegeneration memory`; `misfolded protein proteasome`) | new externally; exact prior-FHB proteasome reuse. |
+
+The source-level search split is **0 live / 6 pending / 11 new = 17 handles**. Every handle reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+95 questions / +95 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 6618 | 6254 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **29 selected inventory paths / 29 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `0080183513bf729b2b2ba6b4b1b8753e9d22f64b3adb65891f1765b3abab22b8`. Pinned triage debt becomes **three substantive-text / five sparse-text / 21 empty-text** rows, and unique-hash accounting is **`77 + 29 = 106`**.
+
+The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology MCQ till Midterm by Absalam101.pdf`, SHA-256 `4247d855313f6cdffdeaacb7cd2b12b2f7b33711d35c392720aaa8ceaedd6f93`, 59 pages.
+
+**BLOCKED — S1 cannot be approved:** 29 selected source paths remain untriaged.
