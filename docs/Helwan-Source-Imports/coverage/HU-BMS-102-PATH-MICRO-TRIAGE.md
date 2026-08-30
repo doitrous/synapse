@@ -13584,3 +13584,107 @@ and no Family-128 blocker. The exact next unprocessed manifest record is tier-6
 three OCR-needed landscape A4 pages under `Pathology / Notes and Summaries`. Its dense handwritten
 circulatory-disturbance maps, provenance/annotation boundary, any embedded prompt/answer or
 practical content, source-first gate, and prior-BMS reuse are the exact next-source blockers.
+
+## Family 129 — anonymous handwritten circulatory-disturbance maps and filled nomenclature panel
+
+### Source identity, high-detail raster/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_9509c35265b5d8e7d8f9` · `patho 3.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `9509c35265b5d8e7d8f92931f0ca194560817dfbb2b28483a1acdc064d86a016` · 5,599,669 bytes |
+| Format / complete visual boundary | Three landscape A4 pages (842×595 points). All three pages were rendered at 300 dpi into three non-empty 3509×2480-pixel images and read at original detail. The PDF embeds ten raster panels, each reopened independently at native resolution to resolve the small completion fields and callouts; there is no page, crop, inset, or visual remainder. |
+| OCR/native reality | Layout and raw native extraction each contain no semantic text beyond page separators. Two independent English+Arabic Tesseract passes (`psm 6` and `psm 11`) produced 1,296 OCR words / 9,448 bytes in aggregate and were reconciled against the source pixels rather than treated as authority. The handwriting, diagrams, and supplied completion answers are raster/drawing content. The manifest's `ocr-needed` label is accurate. |
+| Visible provenance | No page shows a university, faculty, module code, author/instructor, academic year, lecture date, assessment label, sitting, page number, watermark, or ownership mark. The handwritten `circulatory disturbance` title and topic headings establish subject matter only. |
+| Metadata caution | The PDF has no metadata stream and no author, title, creator, producer, creation date, or modification date fields. Folder placement and manifest classification are retained, but no invisible provenance or date is inferred. |
+| Annotation ruling | Multicolor handwriting, arrows, highlights, grey label capsules, completion answers, empty checkboxes, and embedded teaching plates are internally consistent components of the source-authored summary. No visually separable student identity, response sheet, correction layer, grading mark, or answer-reveal sequence is present. |
+| Authority | Anonymous tier-6 pathology summary maps containing one filled nomenclature exercise. They are auxiliary keyed teaching evidence, not a candidate paper, official examiner key, authenticated practical station, or student response. |
+
+### Complete page-first teaching, prompt, supplied-answer, callout, and practical boundary
+
+| Page | Complete visible content | Prompt / answer ruling |
+|---:|---|---:|
+| 1 | Circulatory-disturbance overview linking vessel rupture/injury and homeostatic disturbance to hemorrhage, thrombosis, embolism, ischemia/infarction/gangrene, hemostasis/shock, and edema; edema definition, mechanisms, inflammatory/non-inflammatory causes, and localized/generalized distribution | A completed causal teaching map with labels and arrows only; **0 prompts / 0 answers**. |
+| 2 | Edema morphology, pitting/non-pitting patterns, sites, and complications; a `NOMENCLATURE` panel with seven explicit ellipsis completion fields and supplied printed/handwritten terms; hyperemia/congestion teaching; localized venous and pulmonary congestion diagrams; `LIST TYPES AND CAUSES OF HGE` followed immediately by the completed external/internal hemorrhage list | The seven visible completion fields retain response gaps and supplied answers: **7 prompts / 7 source-supplied answers**. The hemorrhage heading and its fully supplied list form one excluded in-place teaching callout, **0 / 0**. |
+| 3 | Hemorrhage definition, causes, sites, forms and clinical significance; petechial and organ images; shock definition, mechanisms and cardiogenic/hypovolemic/septic/anaphylactic/neurogenic types; `IDENTIFY STEPS OF PROGRESSION OF SHOCK` followed immediately by all three named stages and their features | Completed teaching, images, and one fully answered section callout; the shock heading has no response area or concealed answer and contributes **0 prompts / 0 answers**. |
+
+The seven nomenclature completions are: inflammatory edema as the exudative exception to edema
+fluid being a transudate; anasarca as generalized edema with serous-sac effusions; hydrothorax,
+hydropericardium, hydroperitoneum/ascites, and hydroarthrosis as fluid in their named cavities;
+and lymphatic-obstruction edema as lymphedema. Their empty left-margin checkboxes are unticked
+layout elements, not missing answers. Every ellipsis is filled, so no answer is inferred from
+surrounding teaching.
+
+The two red imperative headings are immediately completed by their own supplied lists and have
+no learner response gap; consistent with earlier BMS teaching carriers, they are excluded
+question-form teaching callouts rather than tested records. Arrows, labels, examples, causes,
+types, definitions, and image captions are completed teaching. There is no option set, mark
+allocation, candidate instruction, concealed diagnosis, practical station, student response,
+or prompt-like residue.
+
+The exact source boundary is therefore **7 raw prompt occurrences / 7 printed or handwritten
+source-supplied answer occurrences / 0 unkeyed prompt occurrences / 2 excluded question-form
+teaching callouts / 0 prompt-like residues / 7 retained records / 7 source-distinct tested
+handles**. The seven completion scopes are independently answerable and have no same-source
+wording or semantic duplicate.
+
+### Source-first seven-handle ledger, exactly four searches each, and prior-BMS collapse
+
+All seven accepted handles received exactly four fresh source-first searches across live state,
+pending import roots, and prior BMS-102 evidence: **7 × 4 = 28 required and completed searches**.
+The exact phrase packets returned no external same-scope record, giving external disposition
+**0 live / 0 pending / 7 no same-scope**.
+
+| Ref / handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| Q01 · `inflammatory-edema-transudate-exception` | `inflammatory edema exudate transudate`; `edema fluid transudate exception`; `exudate inflammatory edema protein`; `transudate versus exudate edema` | Family 2 separately tests early inflammatory transudate timing and exudate definition, Family 6 tests permeability-mediated inflammatory edema, and Family 8 tests exudate/transudate cellular content; none tests this edema-fluid exception statement; delta |
+| Q02 · `anasarca-generalized-edema-serous-effusions` | `anasarca generalized edema serous sacs`; `anasarca definition effusion`; `generalized edema body cavities`; `anasarca widespread subcutaneous edema` | exact Family 2 `anasarca-definition` reuse |
+| Q03 · `hydrothorax-pleural-cavity-fluid` | `hydrothorax fluid pleural cavity`; `pleural effusion hydrothorax definition`; `hydrothorax nomenclature edema`; `fluid in pleural sac hydrothorax` | prior pleural-effusion and edema teaching does not test the hydrothorax nomenclature definition; delta |
+| Q04 · `hydropericardium-pericardial-sac-fluid` | `hydropericardium fluid pericardial sac`; `pericardial effusion hydropericardium`; `hydropericardium nomenclature edema`; `fluid in pericardial cavity hydropericardium` | no prior accepted prompt tests this nomenclature definition; delta |
+| Q05 · `hydroperitoneum-ascites-peritoneal-cavity-fluid` | `hydroperitoneum ascites peritoneal cavity`; `ascites fluid peritoneal cavity`; `hydroperitoneum nomenclature edema`; `peritoneal effusion hydroperitoneum` | Family 2 tests haemoperitoneum, not serous-fluid hydroperitoneum/ascites; delta |
+| Q06 · `hydroarthrosis-joint-cavity-fluid` | `hydroarthrosis fluid joint cavity`; `joint effusion hydroarthrosis`; `hydroarthrosis nomenclature edema`; `fluid in articular cavity hydroarthrosis` | no prior accepted prompt tests this nomenclature definition; delta |
+| Q07 · `lymphedema-lymphatic-obstruction` | `lymphatic obstruction lymphedema`; `lymphedema definition blocked lymphatics`; `edema due to lymphatic obstruction`; `lymphoedema impaired lymph drainage` | Family 2 tests a pitting-pattern claim and Family 6 tests postmastectomy/filariasis manifestations; neither tests the generic nomenclature definition; delta |
+
+Prior-BMS exact tested-handle reuse is therefore **1**, and Family 129 adds `7 - 1 = 6`
+distinct tested concepts.
+
+### Family-129 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 129 | Auxiliary cumulative (Families 12–129) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 7 | 1,108 | 765 | 1,873 |
+| Printed/source-supplied answer occurrences | 7 | 675 | 405 | 1,080 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Excluded question-form teaching callouts | 2 | — | — | outside prompt totals |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 7 | 1,043 | 552 | 1,595 |
+| Source-distinct tested handles / required searches | 7 / 28 | 927 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 7 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 1 | — | — | subtract before concept addition |
+| Cross-family concept delta | +6 | +590 over primary | 372 | `372 + 590 = 962` |
+| **Distinct tested concepts** | **+6** | **590 auxiliary additions** | **372** | **962** |
+
+The checksum closes without remainder: `7 = 7 + 0`; all seven prompt wordings remain retained
+and source-distinct; searches are `7 × 4 = 28`; external disposition is `0 + 0 + 7 = 7`;
+and concept arithmetic is `7 - 1 prior exact reuse = 6`. Auxiliary cumulative arithmetic is
+`1,101 + 7 = 1,108` prompts, `668 + 7 = 675` answers, `1,036 + 7 = 1,043` retained records,
+`920 + 7 = 927` handles, and `584 + 6 = 590` concept additions. All eligible arithmetic is
+`765 + 1,108 = 1,873`, `405 + 675 = 1,080`, `552 + 1,043 = 1,595`, and `372 + 590 = 962`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,108 / 675 / 1,043 / 927 / +590**; and all eligible evidence is
+**1,873 / 1,080 / 1,595 / 962**. Family 129 is auxiliary keyed summary evidence only. It cannot
+establish an official assessment, dated sitting, recurrence, mark weight, official examiner key,
+student response, readiness, or claims status.
+
+### Exact next debt after Family 129
+
+`src_9509c35265b5d8e7d8f9` is exhausted across all three high-detail pages and all ten embedded
+raster panels: every teaching label/arrow, completion field, supplied answer, teaching callout,
+image, provenance limitation, OCR uncertainty, search packet, prior relation, and arithmetic term
+is assigned once, with **zero source remainder** and no Family-129 blocker. The exact next
+unprocessed manifest record is tier-6 `src_8bd14ff1fc2117e0f8b4` · `patho 4.pdf`, SHA-256
+`8bd14ff1fc2117e0f8b4e7ef094c08b5b50527097f6e8add183881ef38bc5006`, 5,029,655 bytes,
+two OCR-needed landscape A4 pages under `Pathology / Notes and Summaries`. Its dense handwritten
+acute/chronic-inflammation maps, provenance/annotation boundary, any embedded prompt/answer or
+practical content, source-first gate, and prior-BMS reuse are the exact next-source blockers.
