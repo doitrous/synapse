@@ -5613,3 +5613,51 @@ Removing this one empty-text path and unique hash leaves **32 selected inventory
 The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Cytology Clinical Applications - Mohamed Eissa.pdf`, SHA-256 `c87febba511ffa8db2f9ce53b9308edde620e6650c7464836fa7f46f9f65d2b4`, 7 pages.
 
 **BLOCKED — S1 cannot be approved:** 32 selected source paths remain untriaged.
+
+## Completed source — Cytology Clinical Applications - Mohamed Eissa
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Cytology Clinical Applications - Mohamed Eissa.pdf` | `c87febba511ffa8db2f9ce53b9308edde620e6650c7464836fa7f46f9f65d2b4` | 7 | audit-not-found (substantive PDF text) | pages 1–7 rendered and read | Foxit PDF Creator 10.0.1.3443 file created 13 January 2023 and modified 30 October 2024. The cover reads `Histology FHB Clinical applications`, carries the Pentagram mark and is signed `Mohamed Eissa`; no institution, department, sitting, marks or official-paper/key claim is printed. This is an instructor-authored teaching/revision handout, not an official MUST examination. |
+
+### Exact teaching, prompt and key boundary
+
+Page 1 is the cover. Pages 2–4 are explanatory teaching notes: eight numbered clinical-application entries plus a separate intermediate-filament tumour-typing entry. They state causes and outcomes but contain no question stem, response form or marking instruction, so they are not assessment prompts. Pages 5–7 separately print `Questions` Q1–Q10 as four-option MCQs; page 7 ends with an explicit complete `Answer Key` of `1 C, 2 B, 3 D, 4 C, 5 D, 6 A, 7 B, 8 C, 9 D, 10 A`.
+
+The exact assessment boundary is therefore **10 prompt occurrences / 10 printed key entries / 10 prompt-matched recovered answers**. There is no practical-image identification, written/essay prompt or orphan answer. The teaching-only hypercholesterolaemia and intermediate-filament/GFAP tumour-typing entries are not double-counted as tested concepts. No answer was inferred, corrected or supplied from another source.
+
+This PDF is byte-distinct from the earlier nine-page `Histology_FHB_Clinical_Applications_Mohamed_Eissa_MMSU (1).pdf`, SHA-256 `d6c7f6be8d5066df575221ff5f3c7903d2c5204b2fddd81481fbd383a1d14100`, but is a content-contained near-duplicate: its ten questions and ten answer letters reproduce Q1–Q10 of that completed source, while the earlier file additionally contains two Barr-body MCQs and further teaching pages.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All ten prompts were assigned once to seven source handles. Each handle received the four searches printed below, for **7 × 4 = 28 searches**.
+
+| Printed refs | Printed answers | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|---|
+| Q1,Q7 | `1 C`; `7 B` | Mitochondrial ATP failure producing muscle weakness/myopathy (`mitochondrial myopathy ATP deficiency`; `mitochondrial disease muscle weakness`; `mitochondrial energy deficiency`; `maternal mitochondrial myopathy`) | new externally; exact prior-FHB reuse from the completed nine-page Mohamed Eissa handout. |
+| Q2,Q3 | `2 B`; `3 D` | Rough-ER protein/collagen synthesis and weak-bone formation (`rough ER collagen weak bone`; `RER protein control fracture`; `rough ER bone matrix`; `rough ER collagen synthesis`) | pending-hit; exact prior-FHB reuse from the completed nine-page Mohamed Eissa handout. |
+| Q4 | `C` | Cell-receptor defects with normal hormone concentration and target-cell resistance (`growth hormone receptor normal hormone`; `hormone receptor resistance dwarfism`; `pseudohypoparathyroidism receptor`; `cell receptor normal hormone level`) | new externally; exact prior-FHB reuse from the completed nine-page Mohamed Eissa handout. |
+| Q5,Q10 | `5 D`; `10 A` | Dynein deficiency, immotile sperm/cilia and respiratory infection (`immotile cilia dynein`; `dynein sperm infertility`; `primary ciliary dyskinesia respiratory`; `immotile flagella male infertility`) | new externally; exact prior-FHB reuse from the completed nine-page Mohamed Eissa handout. |
+| Q6 | `A` | Smooth-ER bilirubin handling in neonatal jaundice (`smooth ER neonatal jaundice`; `bilirubin detoxification SER`; `neonatal jaundice liver smooth ER`; `smooth ER bilirubin metabolism`) | new externally; exact prior-FHB reuse from the completed nine-page Mohamed Eissa handout. |
+| Q8 | `C` | Antimitotic chemotherapy blocking microtubules and the mitotic spindle (`chemotherapy microtubule mitotic spindle`; `colchicine vincristine microtubules`; `antimitotic drugs cancer`; `microtubule arrest cell division`) | new externally; exact prior-FHB reuse from the completed nine-page Mohamed Eissa handout. |
+| Q9 | `D` | Proteasomal failure and neurodegenerative dysfunction (`proteasome Parkinson disease`; `proteasome neurodegeneration`; `unneeded protein accumulation neuron`; `defective proteasome memory behavior`) | pending-hit; exact prior-FHB reuse from the completed nine-page Mohamed Eissa handout. |
+
+The source-level search split is **0 live / 2 pending / 5 new = 7 handles**. Every handle reproduces an exact completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+10 questions / +10 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 6492 | 6128 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **31 selected inventory paths / 31 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `3c1d3b1ed5f4049cc40a096b2254432fee034d4a5d364dd9099da759e9cee33f`. Pinned triage debt becomes **five substantive-text / five sparse-text / 21 empty-text** rows, and unique-hash accounting is **`75 + 31 = 106`**.
+
+The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/FHB Histo MCQs Ziad Ashraf.pdf`, SHA-256 `b39cd6a2feeba48546e1cf82b7d0b03b5a54d0cde43cbb719c343f081c889cad`, 14 pages.
+
+**BLOCKED — S1 cannot be approved:** 31 selected source paths remain untriaged.
