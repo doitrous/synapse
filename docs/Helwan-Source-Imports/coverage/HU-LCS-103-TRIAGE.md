@@ -21213,3 +21213,94 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 29
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 202 — Tier-6 attributed posterior-thigh teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_5dcce43e91f2ed43650d` / `5dcce43e91f2ed43650d98ba5162ba6d3ef832661f77df2a43c1f567e84a4081` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/Posterior compartment of the thigh.pdf` |
+| Physical verification | **802,858 bytes; five native-text landscape-A4 pages; 841.92 x 595.32 pt; tagged; unencrypted; PDF 1.7**. Full hash, byte size, page count and geometry match. All five pages were rendered completely at 160 dpi to 1,871 x 1,323 RGB images, visually inspected and read against the native layer; all five render hashes are distinct and the native layer has exactly five physical-page terminators. The document reports no form and qpdf confirms no AcroForm fields. |
+| Visible / metadata provenance | Every page prints `Dr/ M. Ali`; pages 2–5 also print `Anatomy`. Metadata separately names author `Mohamed Mamdouh AbdAziz`, Microsoft Word for Microsoft 365 creator/producer and 18 May 2026 creation/modification. No university, module, cohort, sitting, marks or key claim appears. |
+| Authority finding | Attributed tier-6 teaching-summary evidence. Visible and metadata names remain separate source layers; neither establishes a recoverable Helwan assessment sitting, response form, practical station or official key. |
+
+All **5/5 pages** are completed declarative teaching compositions:
+
+| Page | Source-first composition |
+|---:|---|
+| 1 | posterior-compartment/hamstring membership, adductor-magnus note, collective actions, sciatic innervation and arterial supply, with fully labelled muscle/origin images |
+| 2 | biceps-femoris features, long/short-head origins, insertion, hip/knee actions and separate innervation, with fully labelled attachment images |
+| 3 | semitendinosus features, origin, pes-anserinus insertion, hip/knee actions and tibial-sciatic innervation, with fully labelled images |
+| 4 | semimembranosus features, origin, insertion, hip/knee actions and tibial-sciatic innervation, with fully labelled action/attachment images |
+| 5 | completed three-muscle origin/insertion/innervation/function comparison table |
+
+There is **no assessment inventory**. Every heading, checkbox-style bullet, table field,
+image label and colored action annotation supplies its information simultaneously; no
+question, learner instruction, response area, masked answer, selection state, delayed reveal
+or key appears. Exact assessment delta is **0 eligible or external prompts / 0 keys-or-
+answers / 0 written prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `Semitendonous`, `tibia .(SGS).`,
+`lies on the semimembranosus`, capitalization/spacing, page 1's group innervation `(L4-S3)`
+beside page 5's component `(L5-S2)` states and every printed attachment/action/table wording.
+Inventory does not medically or editorially repair, reconcile or endorse any difference.
+
+### Practical and image boundary
+
+The five pages contain drawings, photographs and movement diagrams, but every requested
+muscle, attachment and action is already labelled beside completed explanatory text. There is
+no masked structure, numbered identification station, learner-completed map, response blank
+or practical key. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0
+residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The five compositions consolidate to four theoretical teaching handles:
+
+| Teaching handle | One query on each required surface | Complete-scope result |
+|---|---|---|
+| posterior-thigh compartment membership, actions, supply and blood supply | posterior thigh hamstrings sciatic inferior gluteal perforating deep femoral | Accepted Families 1–2, 33, 42 and later lower-limb summaries own the complete group scope — prior-LCS reuse. |
+| biceps-femoris features and OINA | biceps femoris long short head origin insertion innervation action fibular head | Accepted Families 1, 33, 42 and later lower-limb banks own the complete muscle scope — prior-LCS reuse. |
+| semitendinosus features and OINA | semitendinosus origin insertion innervation action pes anserinus medial tibia | Accepted Families 1, 33, 42 and later lower-limb banks own the complete muscle scope — prior-LCS reuse. |
+| semimembranosus features and OINA | semimembranosus origin insertion innervation action medial tibial condyle | Accepted Families 1, 33, 42 and later lower-limb banks own the complete muscle scope — prior-LCS reuse. |
+
+Each of the **four accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **4 x 4 =
+16 required search invocations**. The surface searches found pending component coverage;
+complete-scope accepted-ledger comparison establishes **4 prior-LCS theoretical reuses / 0
+additive live / 0 additive pending / 0 additive new teaching scopes**. Declarative
+theoretical scopes do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 201's remainder. Removing its sole path changes the remainder
+from **29 paths / 28 unique hashes** to **28 paths / 27 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **19 paths / 19 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 201's checksums were
+`d2c2661a0237b581876aab8fa7805b94a71700746068b288b267b3baa20b35f0` (paths) and
+`eb41c60f43929072fbf7d11b0f1b6120f5ade14531d4c3f4279bd3ce75619adc` (unique hashes).
+For the exact post-Family-202 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`4f00bbd23b22617d97945b1b5382596d993543b8960020b5b17976788b0a30ee`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e5ff1d2e63d9727a3c310c490d41381a92ae82336eaade58f2c55127d20daaef`.
+
+The exact next manifest-order debt is tier-6 `src_f1e2d30af0f44e55db97`, `Vessels.pdf`
+(72,717,280 bytes; one native-text oversized 5153 x 2759.5 pt page; untagged; unencrypted;
+PDF 1.4; SHA-256
+`f1e2d30af0f44e55db9745b0cd6df3892a2d37306b69f86beddacbc119c181b0`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until the full
+oversized page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:**
+28 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
+update, import or source copy was created.
