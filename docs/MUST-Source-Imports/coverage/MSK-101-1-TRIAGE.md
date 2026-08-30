@@ -1651,3 +1651,47 @@ Removing the forty-four processed unique hashes leaves **58 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - MSK 101 Revision Final.pdf`, SHA-256 `eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb`, 23 pages.
 
 **BLOCKED — S1 cannot be approved:** 58 selected inventory paths / 57 unique hashes remain untriaged.
+
+## Completed source — MSK 101 Revision Final
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - MSK 101 Revision Final.pdf` | `eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb` | 23 | substantive-text audit sample | pages 1–23 rendered and read | The document prints only `Final MCQS` and `Shade the single best answer`. PDF metadata names `ISHCenter` and Microsoft Word 2019, created/modified 13 January 2025. Neither the title, filename nor metadata authenticates a MUST institution, department, examiner, sitting, marks or official key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - MSK 101 Revision Final.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and image boundary
+
+All twenty-three pages contain one continuous four-option bank Q1–Q180. Q1–Q138 each have exactly one underlined printed answer. Q139–Q180 have no underlined, bold, highlighted, annotated or separately tabulated answer and remain unkeyed.
+
+| Format | Prompt observations | Inline printed key observations | Source-absent answers |
+|---|---:|---:|---:|
+| Conventional MCQ | 180 | 138 | 42 |
+| Written / practical / standalone image identification | 0 | 0 | 0 |
+| **Total** | **180** | **138** | **42** |
+
+There are no teaching-only, answer-only, blank, written, practical or image-identification pages. Wording and printed answer choices remain source observations without academic correction. In particular, typographic and spelling defects such as `Unar`, `subrascapular`, `profounda`, `hummerus`, `lumbrical`, `dose` and `radel` are preserved rather than normalized into content claims.
+
+### Exact-section duplicate and search disposition
+
+The source's whitespace-normalized extracted text is exactly identical to pages 33–55 of completed `EOM - MSK FINAL ALL 2.pdf`, SHA-256 `91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7`: both sections contain 42,551 extracted characters, 36,130 normalized characters and normalized-text SHA-256 `1e953f9e5c01c3dff24f1409939e27b4d82e442048455b99d33e44ee7bfc5a72`. Prompt sequence, inline-key cutoff after Q138 and the forty-two unkeyed questions are identical.
+
+This is therefore an **exact section duplicate**, not a new prompt family. Its five regional scopes are the already completed Upper Limb Anatomy H1–H5 handles. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its visible boundary is recorded as 180 prompts / 138 answers, but exact-section reconciliation gives **+0 questions / +0 answer observations / +0 concepts**. Cumulative totals remain **5036 questions / 4929 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5036 | 4929 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-five processed unique hashes leaves **57 selected inventory paths / 56 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ce01144baaa0cf78a783aa8ed64cbe1cf465ea23536ab1fbffd67a34f7255a3d`. Remaining audit-review debt is 24 substantive-text / 7 sparse-text / 10 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`45 + 56 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Uper limb anatomy _MCQs.pdf`, SHA-256 `76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c`, 16 pages.
+
+**BLOCKED — S1 cannot be approved:** 57 selected inventory paths / 56 unique hashes remain untriaged.

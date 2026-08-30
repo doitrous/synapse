@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "6caec179e1546b493306f002b56e7e1a8843b8abdf993fbed722f8d656dcc21f",
-    "triageMarkdown": "04fe31ca8954e9919917f199141538917cd837b266444d161ea833b2d4c51810"
+    "readinessMarkdown": "9d75e9eef3b06f371f4ba40612bfd9b8b1b28330ac512922ed52e93a437e9a97",
+    "triageMarkdown": "8f4849ec6e5f99220a49d5d728917700a47cb3def7152fad9411f8b01c72e65c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -92,11 +92,12 @@
       "dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94",
+      "eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb",
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 44
+    "uniqueSha256": 45
   },
   "completedSourceCoverage": [
     {
@@ -1137,6 +1138,41 @@
       "preservedSourceDefects": [
         "Q59 option-weight distinction is visually ambiguous; terminal table entry 59 b retained without inference"
       ]
+    },
+    {
+      "sha256": "eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb",
+      "sourcePages": 23,
+      "renderedReadPages": "1-23",
+      "questionPages": "1-23",
+      "inlineKeyPages": "1-18",
+      "printedPromptObservations": 180,
+      "objectiveMcqPrompts": 180,
+      "printedKeyObservations": 138,
+      "visibleUnkeyedPrompts": 42,
+      "sourceAbsentAnswers": 42,
+      "exactSectionDuplicateOf": {
+        "sha256": "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
+        "sourcePages": "33-55",
+        "promptObservations": 180,
+        "keyObservations": 138
+      },
+      "normalizedTextSha256": "1e953f9e5c01c3dff24f1409939e27b4d82e442048455b99d33e44ee7bfc5a72",
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "standalone Final MCQS export with ISHCenter/Word metadata; no authenticated MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "continuous Q1-Q180 MCQ bank; Q1-Q138 have one underlined key each and Q139-Q180 are unkeyed; no written, practical or image-identification prompts",
+      "preservedSourceDefects": [
+        "typographic and spelling defects retained",
+        "Q139-Q180 have no printed answer"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1148,15 +1184,15 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 58,
-    "uniqueSha256": 57,
-    "sortedNewlineSha256": "cdae01979fa1db08656691be75dbcb7bb65c00ea7e152bb30ea0048b00f79241",
+    "inventoryMetadataRows": 57,
+    "uniqueSha256": 56,
+    "sortedNewlineSha256": "ce01144baaa0cf78a783aa8ed64cbe1cf465ea23536ab1fbffd67a34f7255a3d",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
       "empty-text": 10,
       "sparse-text": 7,
-      "substantive-text": 25
+      "substantive-text": 24
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1164,12 +1200,12 @@
     "audit-not-found": 13,
     "empty-text": 10,
     "sparse-text": 7,
-    "substantive-text": 25
+    "substantive-text": 24
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 44,
-    "remainingUniqueSha256": 57,
+    "processedUniqueSha256": 45,
+    "remainingUniqueSha256": 56,
     "processedPlusRemaining": 101
   }
 }
