@@ -12694,3 +12694,95 @@ The exact next tier-3 manifest-order debt is `src_72441d361c843437605c`,
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 120 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 111 — Tier-3 external Anatomy Lecture 5 ankle-and-foot keyed question set
+
+### Exact identity, provenance and complete five-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_72441d361c843437605c` / `72441d361c843437605c383faa7d50129e886bc7551a1e0f5e3afc82c707cc53` |
+| File / boundary | `MCQs - External MCQs Anatomy Lecture 5.pdf` · 267,193 bytes · unencrypted, untagged PDF · 5 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy Lecture 5.pdf` |
+| Visible / container provenance | The document heading is `Anatomy Lecture 5 Questions:`. PDF metadata names author `312308310 Arwa Atef Mohamed Mohamed`, Microsoft Word 2016 creator/producer and 14 July 2024 creation/modification. It prints no Helwan University, faculty, LCS-103 cohort, sitting or official-key mark. |
+| Authority finding | External student/review question set under the manifest's explicit `External MCQs` path. Every prompt fits LCS-103 ankle-and-foot Anatomy, but none is eligible Helwan assessment evidence. |
+
+The assigned hash, byte size and five-page boundary were recomputed and match. Native text was
+extracted, all five pages were rendered at 150 dpi and read visually in source order from Q1
+through the complete answer-grid endpoint. The source PDF itself was not changed.
+
+| Physical pages | Visible units | MCQ prompts | Written/fill prompts | Printed source-marked answer states |
+|---|---|---:|---:|---:|
+| p. 1 | Q1–Q7 | 7 | 0 | 7 |
+| p. 2 | Q8–Q15 | 8 | 0 | 8 |
+| p. 3 | Q16–Q24 | 9 | 0 | 9 |
+| p. 4 | Q25–Q32 | 8 | 0 | 8 |
+| p. 5 | answer grid Q1–Q32 | 0 | 0 | 0 additional prompts; 32 states total above |
+| **Family 111** | **Q1–Q32 once each** | **32** | **0** | **32** |
+
+All 32 source-marked answer states are retained exactly as printed evidence; none was medically
+inferred or repaired. The grid matches Family 110's first 32 cells at **31/32 positions** despite
+the unrelated question set: Q17 is the sole changed cell (`b` here versus `d` in Family 110),
+while the otherwise copied sequence retains impossible option letters Q4=`g` and Q15=`e` even
+though both prompts offer only `a`–`d`. This is explicit source-integrity debt, not permission to
+treat those marks as corrected keys. No prompt is omitted or reclassified as unkeyed merely
+because its printed state is anomalous.
+
+There is no declarative teaching-only section, illustration, specimen, radiograph, micrograph,
+practical station, masked label, apparatus task or response form. Practical delta is exactly
+**0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 32 occurrences form the following exhaustive one-assignment partition:
+
+| Source-first tested handle | Assigned prompts | Occurrences |
+|---|---|---:|
+| superior-tibiofibular-joint type and stability | Q1–Q4 | 4 |
+| distal-tibiofibular syndesmosis and interosseous membrane | Q5–Q6, Q8 | 3 |
+| ankle-joint type and movements | Q7, Q9 | 2 |
+| ankle ligament complexes and stability | Q10–Q15 | 6 |
+| foot-arch supporting ligaments and aponeurosis | Q16–Q21 | 6 |
+| foot inversion/eversion joint complex | Q22 | 1 |
+| subtalar-joint type, bones and movement | Q23–Q25 | 3 |
+| talocalcaneonavicular and calcaneocuboid joints | Q26–Q29 | 4 |
+| tarsometatarsal joints and transverse arch | Q30–Q31 | 2 |
+| metatarsophalangeal-joint classification | Q32 | 1 |
+| **Family 111** | **Q1–Q32 once each** | **32** |
+
+Each of the **10 handles** received one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **10 × 4 = 40 required search invocations**.
+Prior-external-first comparison finds all 10 already represented in Family 86's lower-limb
+compilation; Families 46 and 65 independently corroborate the curriculum scopes but cannot
+promote this external source. Reconciliation is **10 prior-external reuses + 0 external
+additions = 10**, so external and eligible concept-state deltas are both zero. The exact
+40-query ledger is preserved at `tmp/pdfs/lcs103-family111/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,390 / 3,303 / 221 = 12 / 135 / 74** to **3,422 external prompts / 3,335
+source-marked keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `3,390 + 32 = 3,422`, `3,303 + 32 = 3,335`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-110 remainder. Removing its sole path leaves
+**119 all-rank path instances / 111 unique hashes**: tier 3 **37 paths / 34 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 110's prior checksums are
+`0b561e720229837613b4b47d5189750256cf9e44502a6bd9d9e1a3cbfb86d30e` (paths) and
+`32e4781904f9283c7134558998dc8552432b52d24a075dbe6e986908a14fc34d` (unique hashes).
+For the exact post-Family-111 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`fd28587d93d0b7151164d21923e40f269da351205260da1bcaf91dfa1f9e53d7`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`7d8cfa0455835af22d0b681e5d548245346eec7cde8551cc7a8708b77b12992b`.
+
+The exact next tier-3 manifest-order debt is `src_ce4d37d574dffefafd9e`,
+`MCQs - External MCQs Anatomy Lecture 6.pdf` (299,634 bytes; 9 native pages; SHA-256
+`ce4d37d574dffefafd9eaf75d3256734b2341cc41787de9331efbcdede23ce6f`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 119 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
