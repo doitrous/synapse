@@ -18638,3 +18638,104 @@ solved companion `src_aeaf894072d90a35c1b0` · `MCQs - Patho MCQ by Dr.Tarek wit
 render/OCR boundary, Q1–Q28 replay, highlighted-answer directionality, additional seven-page
 scope, Kasr-Alainy origin hint, external zero gate, arithmetic, and subsequent next-source debt
 remain to be separately reconciled.
+
+## Family 177 — Kasr-hinted solved Dr Tarek cell-injury/accumulations bank
+
+### Source identity, complete render/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 solved companion `src_aeaf894072d90a35c1b0` · `MCQs - Patho MCQ by Dr.Tarek with answers [108].pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `aeaf894072d90a35c1b0231e830cfe45ec41577077b65ad01041dda105c8bf24` · **1,004,429 bytes** |
+| Format / complete visual boundary | **12 portrait raster A4 pages** at 595×842 pt. All 12 pages were rendered at 180 dpi into 12 non-empty 1488×2105 images and read at original detail. Pages 1–5 contain solved cell-injury Q1–Q28; pages 6–10 contain solved accumulations/depositions Q1–Q32; page 11 contains solved pathology-technique Q1–Q6; page 12 is truly blank. |
+| OCR/native-text reality | Native layout/raw extraction contains **0 words / 12 form-feed bytes** each. OCR was run across all renders and produced text for the 11 nonblank pages: **1,594 words / 10,527 bytes**. The blank final page correctly yields no text. OCR corroborates the numbering and wording; the renders control pink-highlight answer directionality and page structure. |
+| Visible identity | Each question page carries `PATHOLOSIS`, `QUESTIONS`, `Dr. TAREK`, and the diagonal `PATHOLOSIS` watermark. Handwritten labels mark `Cell injury`, `accumulations`, and `Tech.`. No university, faculty, module code, academic year, sitting, exam label, marks, candidate field, official-key statement, or Helwan identifier is visible. |
+| Metadata caution | Samsung Electronics creator/producer fields and the 8 June 2022 modification timestamp are export/scan history only. The creation field is malformed as literal `D:`. None establishes a university, sitting, or official key. |
+| Controlling external provenance | The manifest explicitly records `originUniversityHint: ["Kasr Alainy"]`; `[108]` remains a filename/module label. With no visible Helwan counterevidence, the established post-Family-10 external-origin rule controls. Local folder placement and Dr Tarek branding cannot convert the carrier to Helwan assessment evidence. |
+| Authority / eligibility | External-origin-hinted solved question bank. It is indexed for source-format, answer-annotation, and companion evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Complete solved prompt, answer, section, and practical boundary
+
+The complete source-local layer is **66 numbered text MCQs + 66 pink-highlighted answer
+selections**:
+
+- **Cell injury Q1–Q28, pages 1–5:** the exact Family-176 prompt layer in a separately rasterized
+  scan, now with one pink-highlighted option for every question. Q8, Q15, Q21, and Q27 continue
+  across page breaks without creating extra prompts.
+- **Accumulations/depositions Q1–Q32, pages 6–10:** steatosis, calcification, amyloid,
+  hemosiderin/hemochromatosis, melanin, lipofuscin, and hyaline-change MCQs, with one highlighted
+  answer per numbered item. Q32's stem appears at the bottom of page 9 and its highlighted answer
+  and remaining options continue onto page 10.
+- **Pathology techniques Q1–Q6, page 11:** cytology samples, paraffin embedding/fixation,
+  Papanicolaou stain, and immunohistochemistry MCQs, all highlighted once.
+- **Page 12:** blank scan only; no prompt, answer, annotation, residue, or hidden content.
+
+The highlights are the carrier's supplied solution convention: they are uniform across all three
+sections, the manifest marks this as a solved copy, and no candidate identity, response field,
+score, erasure, or examiner mark is present. They are source-supplied answers, not authenticated
+Helwan keys or student responses.
+
+Internal recurrence is preserved source-locally. The cell-injury section retains Family 176's
+exact copy pairs Q9→Q14 and Q17→Q18 and its four close repeat pairs. The accumulations section
+repeats propositions within its own sequence, including Q2→Q29 (dystrophic calcification),
+Q3→Q30 (metastatic calcification), the Congo-red cluster Q4/Q19/Q32, and steatosis/hyaline-change
+replays Q1/Q21 and Q5/Q22. Because authority is excluded first, these observations do not create
+an eligible semantic-collapse ledger.
+
+All source answers are preserved without silent correction. In particular, accumulations Q17
+highlights beta-2 microglobulin for Alzheimer amyloid; that visible selection is indexed as the
+source's answer even though the source supplies no validation or official-key authority. Original
+spelling, duplicated wording, option-letter gaps, and page-spanning fragments remain evidence.
+
+There are **0 written operations, 0 diagnostic images, 0 drawing tasks, 0 practical stations, and
+0 candidate responses**. Technique-topic MCQs do not become practical stations merely because
+they discuss specimen processing. The checksum is **`28 + 32 + 6 = 66 MCQs`, `66 highlighted
+answers`, `11 question-bearing pages + 1 blank page = 12 pages`**, with zero residue.
+
+### Family-176 companion replay and external zero gate
+
+Family 176 governed the distinct five-page native-text unsolved carrier
+`src_4954ce2cf6d26c70bbf5`. Family 177 pages 1–5 reproduce its Q1–Q28 wording/order and add the
+highlight solution layer. The carriers differ in SHA, size, page geometry, raster/native reality,
+page count, and scope; Family 177 additionally carries 38 questions and answers across
+accumulations and techniques. It is therefore a **solved expansion with a 28-prompt replay**, not
+an exact duplicate and not a reason to import answers into Family 176 retroactively.
+
+External eligibility is resolved before prompt retention. Thus the 66 source questions and 66
+source answers yield **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted
+handles / 0 prior-BMS reuse assignments / +0 concepts**.
+
+Exactly four searches are required only per accepted handle. The governed gate is **`0 accepted
+new handles × 4 = 0 required and completed searches`**. Searching excluded/replayed prompts would
+fabricate Helwan recurrence state and cannot change source authority.
+
+### Family-177 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 177 source-local | Eligible delta | Auxiliary cumulative (Families 12–177) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 66 MCQs | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 66 highlights | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | external solved bank | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-177 eligible arithmetic is independently zero: `0 prompts + 0 answers + 0 retained + 0
+handles + 0 concepts`. Corrected primary remains **762 / 405 / 552 / 372**; auxiliary remains
+**2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles / +906 concepts**; and corrected
+all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 177 establishes no Helwan question occurrence, key, tested concept, sitting, recurrence,
+mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 177
+
+`src_aeaf894072d90a35c1b0` is exhausted across all 12 pages: every section, stem, option,
+highlighted answer, page-spanning continuation, repeat, anomaly, blank page, visible and metadata
+provenance field, companion replay, external-eligibility zero, and cumulative term is assigned
+once, with **zero remainder** and no Family-177 blocker. The exact next manifest record is tier-3
+source `src_3f8527b376185eb3c2eb` · `MCQs - Pathology - INT mcq.pdf`, SHA-256
+`3f8527b376185eb3c2eb99c101ba1f3789d543d2f9849e71dadf15befd8f6ca4`, **3,782,128 bytes**,
+16 OCR-needed portrait pages under `Pathology / Questions / MCQs`. Its visible `NERD` / `INT 108`
+authority, byte-identical Kasr-library carrier, complete prompt/key boundary, external zero gate,
+arithmetic, and subsequent next-source debt remain to be separately reconciled.
