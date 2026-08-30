@@ -19896,3 +19896,86 @@ The exact next unprocessed manifest record is tier-4 `src_372f034f2d046c5628ba` 
 Its visible authority, metadata `fmt` authorship/date caution, complete teaching/prompt/key/
 callout/practical boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 189 — Enas Elhosary Repair (Healing) Lecture 1 teaching carrier
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_372f034f2d046c5628ba` · `Repair-Lecture-1_copy.pdf` under the exact local `Pathology / Theoretical / Lec 11 - Repair 1` folder |
+| SHA-256 / exact size | `372f034f2d046c5628ba26fd503d2c88ddbfde23a93ba268a3ce8a937ca7c6ee` · **1,578,249 bytes** |
+| Format / complete read | **32 native-text 960×540-point landscape pages**. All 32 pages were rendered into 32 non-empty 1467×825-pixel images and read individually at original detail. Coherent native extraction contains **1,455 words / 10,637 bytes** and agrees with every visible cover field, teaching heading, completed list, labelled diagram, gross photograph, histology image, callout, and terminal slide. |
+| Visible current authority | Page 1 visibly identifies `REPAIR (Healing) Lecture 1`, **Dr Enas Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**. This source-facing attribution and exact Helwan BMS-102 theoretical placement establish current Helwan teaching authority. No page prints an academic year or sitting date. |
+| Metadata caution | Metadata title is generic `PowerPoint Presentation`; author is `fmt`; creator/producer is Microsoft PowerPoint LTSC; and creation/modification is 27 March 2026. These are retained as carrier history only. They do not override visible Enas Elhosary authorship or independently authenticate a teaching year or exam sitting. |
+| Authority | Tier-4 Helwan theoretical teaching material. It supports lecture-topic and labelled-image provenance only, not an assessment occurrence, official key, mark scheme, candidate response, practical station, recurrence claim, readiness, or claims status. |
+
+### Complete page-first teaching, callout, prompt, answer, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–3 | Cover, objectives, healing definition, and regeneration-versus-fibrosis definitions | Provenance and declarative teaching. Objective verbs describe intended learning and are not candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 4–8 | Classification and examples of labile, stable, and permanent cells; two healing processes; completed regeneration/scar diagram; factors governing regenerative capacity | Completed teaching maps, lists, and labels; **0 / 0 / 0**. |
+| 9–11 | `What is resolution?`, `What are growth factors controlling healing process?`, and `What are extracellular matrix components (ECM)?` | Three question-form **teaching callouts**, each immediately and completely answered on the same slide by definitions/lists. They do not create assessment prompts or separately count supplied answers; **0 / 0 / 0**. |
+| 12–20 | Regeneration section; bone structure and seven-stage fracture-healing sequence with completed text and labelled schematic plates | Diagnosis- and stage-disclosing teaching. No image requests identification, response, drawing, or station action; **0 / 0 / 0**. |
+| 21–29 | Fibrosis section; definitions, scar phases, granulation tissue, scar maturation, parenchymal-organ fibrosis, liver cirrhosis and completed gross/microscopic illustrations | Declarative and label-disclosing teaching; **0 / 0 / 0**. |
+| 30–31 | CNS gliosis, peripheral-nerve degeneration/regeneration, and completed labelled neural-repair diagrams | Teaching text and completed diagrams; **0 / 0 / 0**. |
+| 32 | `Thank you` terminal slide | Closing residue only; **0 / 0 / 0**. |
+
+The complete governed boundary is therefore **0 raw prompt occurrences, 0 source-supplied answers,
+0 unkeyed operations, 0 retained question records, 0 image prompts, 0 drawing tasks, and 0
+practical stations**. Question punctuation on pages 9–11 structures an immediately answered
+lecture explanation; it is not a response request. All labelled images disclose their teaching
+meaning and lack station instructions, time, marks, blanks, candidate fields, or answer controls.
+
+### Prior-BMS comparison and governed zero-handle/search gate
+
+The lecture revisits repair topics already represented across prior BMS healing, inflammation,
+circulatory-disturbance, written, practical, virtual-lab, and MCQ families: regenerative capacity,
+fracture repair, granulation tissue, scar formation, cirrhosis, gliosis, and peripheral-nerve
+regeneration. Those teaching overlaps preserve curriculum context but cannot become tested-handle
+reuse without a present assessment operation.
+
+Family 189 therefore yields **0 accepted handles / 0 prior-BMS reuse assignments / +0 concepts**.
+Exactly four searches are required only per accepted handle, so the source-first gate is **`0
+accepted handles × 4 = 0 required and completed searches`**. No search packet is fabricated for
+an immediately answered heading, learning objective, declarative bullet, or labelled teaching
+image.
+
+### Family-189 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 189 source-local / eligible delta | Auxiliary cumulative (Families 12–189) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 / +0 | 2,497 | 762 | 3,259 |
+| Source-supplied answers | 0 / +0 | 1,668 | 405 | 2,073 |
+| Retained question records | 0 / +0 | 2,207 | 552 | 2,759 |
+| Accepted handles / required searches | 0 / 0 | 1,991 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | — |
+| Cross-family concept delta | +0 | +960 over primary | 372 | 1,332 |
+| **Distinct tested concepts** | **0 source-local / +0** | **960 additions** | **372** | **1,332** |
+
+Checksums: `0 prompts`; `0 answers`; `0 retained`; `0 handles`; `0 × 4 = 0 searches`; and
+`0 - 0 = +0 concepts`. Auxiliary remains **2,497 prompts / 1,668 answers / 2,207 retained /
+1,991 handles / +960 concepts**. Primary remains **762 / 405 / 552 / 372**. All eligible remains
+**3,259 / 2,073 / 2,759 / 1,332**.
+
+Family 189 establishes Helwan theoretical repair teaching only, not an exam sitting, official
+departmental key, mark weight, candidate response, practical station, tested recurrence,
+readiness, or claims status.
+
+### Exact next debt after Family 189
+
+`src_372f034f2d046c5628ba` is exhausted across all 32 pages: every visible authority and metadata
+field, objective, teaching slide, immediately answered callout, completed list, labelled diagram,
+gross or microscopic image, closing residue, prior-evidence relation, zero-search term, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-189 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_a9ccc0b353dbbd7670cb` · `SMP neoplasia
+3.pdf`, SHA-256
+`a9ccc0b353dbbd7670cba31bd0156f9cf2490911d5567594809c65f3017a8514`, **60 native-text
+960×540 landscape pages**, **3,237,850 bytes**, under `Pathology / Theoretical / Lec 12 -
+Neoplasia 3`. The manifest
+records an on-page 2024 sitting-year signal while its visible first-page snippet identifies
+Academic Year 2024/2025, Year 1, Semester 2, and BMS-102. Its exact size, complete visible
+authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
