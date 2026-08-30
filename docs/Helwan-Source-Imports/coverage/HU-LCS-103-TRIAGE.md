@@ -15329,3 +15329,106 @@ pages; SHA-256 `86030ade72934abe76ed4656899f1073b6c22cc5945018a5ac56d28f42b2d4ee
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 91 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 140 — Tier-3 student-authored keyed multiple-completion head-and-neck bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_86030ade72934abe76ed` / `86030ade72934abe76ed4656899f1073b6c22cc5945018a5ac56d28f42b2d4ee` |
+| Manifest / local file | Manifest `MCQs - Student MCQs Multiple MCQ  Head &Neck .PDF`; normalized local `MCQs - Student MCQs Multiple MCQ Head &Neck.PDF` |
+| File / boundary | 287,881 bytes · tagged, unencrypted PDF 1.7 · 14 physical US-Letter native-text pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - Student MCQs Multiple MCQ  Head &Neck .PDF` |
+| Visible / metadata provenance | Page 1 begins `Multiple MCQ:`; every page carries the same decorative Arabic devotional header. Metadata names author `Eman Ibrahem Hefny Ibrahem`, Microsoft Word, and 21 August 2025 creation/modification. No page or metadata identifies Helwan University, a faculty, instructor, cohort, formal exam, sitting or official answer authority. |
+| Authority finding | The manifest explicitly identifies a student MCQ compilation. Its body establishes LCS-103 head-and-neck relevance, but not eligible Helwan assessment or official-key authority; all governed occurrences remain external. |
+
+The assigned hash, byte size and 14-page physical boundary were recomputed and match. All 14
+pages were rendered at 120 dpi and read visually against the complete native text layer. Pages
+1–13 carry one uninterrupted Q1–Q62 sequence. Page 14's `ANSWERS :` grid supplies exactly one
+letter for every Q1–Q62. `Multiple MCQ` describes stems that ask for paired or sequenced facts;
+it does not turn each blank into a separate governed occurrence. The complete boundary is
+therefore **62 external MCQ occurrences / 62 printed answer letters / 0 unkeyed occurrences /
+0 written prompts**.
+
+Source defects are preserved without editorial or medical repair. Q4 requests a paired disc-
+surface completion but supplies three anatomical phrases per option and prints `C`; Q6 couples
+deep temporal and phrenic origins and prints `A`; Q11 compresses lingual artery/vein/nerve
+origins into one stem and prints `B`. Q37, Q41, Q45, Q47, Q59 and Q62 each supply only A–C
+choices yet retain printed keys `A`, `B`, `B`, `A`, `C` and `B`, respectively. Q46 adds
+compound option `D- B and c` plus `E- All the above` and prints `D`. None is split, inferred or
+medically repaired.
+
+### Teaching and practical boundary
+
+The entire bank is prose-only. There is no anatomical image, specimen, radiograph, clinical
+photograph, diagram, station, apparatus task, masked label, learner-completed map or standalone
+teaching section. Decorative headers/borders, the highlighted Q59 phrase and the red answer
+grid are page furniture or assessment formatting, not practical plates or teaching scopes.
+The source adds **0 practical prompts / 0 teaching plates / 0 mappings / 0 practical residues /
+0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 62 occurrences collapse to **9 source-distinct tested handles**: scalp layers; facial
+innervation and muscles; facial veins and lymphatics; infratemporal fossa and maxillary artery;
+mandibular nerve and anterior-tongue routes; TMJ; neck triangles and their vessels/viscera;
+cervical plexus, ansa, phrenic and sternocleidomastoid supply; and superficial back/scapular
+muscles. Compound completion stems are assigned once to their dominant regional handle.
+
+The exact four-query ledger was:
+
+| Handle | Live query | Pending query | Prior-import query | Accepted-LCS query |
+|---|---|---|---|---|
+| Scalp layers | `scalp layers anatomy` | `subaponeurotic scalp hemorrhage` | `epicranial aponeurosis scalp` | `scalp anatomy` |
+| Facial innervation/muscles | `facial nerve branches` | `face cutaneous innervation` | `orbicularis oculi facial nerve` | `face innervation anatomy` |
+| Facial veins/lymphatics | `facial veins lymphatics` | `retromandibular common facial vein` | `cavernous sinus facial vein lymph` | `facial vessels lymph anatomy` |
+| Infratemporal fossa/maxillary artery | `infratemporal fossa contents` | `maxillary artery divisions` | `pterygoid muscle maxillary artery` | `infratemporal maxillary artery anatomy` |
+| Mandibular nerve/tongue routes | `mandibular nerve branches` | `lingual chorda tympani nerve` | `inferior alveolar mental nerve` | `mandibular nerve tongue anatomy` |
+| Temporomandibular joint | `temporomandibular joint` | `TMJ articular disc movement` | `auriculotemporal TMJ innervation` | `TMJ anatomy` |
+| Neck triangles/vessels/viscera | `neck triangles contents` | `anterior posterior triangle neck` | `jugular veins thyroid phrenic triangle` | `neck triangles anatomy` |
+| Cervical plexus/ansa/SCM | `cervical plexus ansa` | `sternocleidomastoid accessory nerve` | `ansa cervicalis phrenic nerve` | `cervical plexus neck anatomy` |
+| Superficial back/scapular muscles | `superficial back muscles` | `trapezius latissimus rhomboid` | `thoracodorsal dorsal scapular accessory nerve` | `back muscles scapular anatomy` |
+
+All **9 × 4 = 36 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Prior-external-first
+comparison finds all nine handles in Family 138, with additional corroboration across Families
+83–86, 90–95, 105–112, 121, 125–126 and 132. Accepted Anatomy Families 35–45 corroborate
+curricular fit but cannot promote this student-authored bank into eligible Helwan evidence.
+Reconciliation is **9 prior-external reuses + 0 external additions = 9**; eligible and
+external concept-state deltas are zero. Search/render scratch stayed outside the worktree under
+`/private/tmp/lcs103-family140/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **6,498 / 6,232 / 221 = 12 / 135 / 74** to **6,560 external prompts / 6,294
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `6,498 + 62 = 6,560`, `6,232 + 62 = 6,294`, `221 + 0 = 221`, and `12 + 135 +
+74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in the Family-139 remainder. Removing its sole path leaves **90
+all-rank path instances / 85 unique hashes**: tier 3 **8 paths / 8 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 139's prior checksums are
+`008ffe8af39e5def7d209d667a9077ed55e7ab3f88f46960168b4186840a83d2` (paths) and
+`02e65e70f545f92da90fe0014ce7198946c2446784f13999345b63e879b18569` (unique hashes).
+For the exact post-Family-140 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1666d450bb7af4e559531cd3f12817fb8125673f852ee6d1fdfa26595b2fada7`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`62e8f6c5691724adb4c3db1206695cb62db947ee0b0b42cc46be6d0156a9449c`.
+
+The exact next tier-3 manifest-order debt is the remaining Histology path for
+`src_cfe1bf246bd0aa85b06b`, `MCQs - Histology College MCQs 103 question.pdf` (593,337
+bytes; 16 physical OCR-needed pages; SHA-256
+`cfe1bf246bd0aa85b06b5a98d0d4ef74bb17dd9002a56eef66b66912d03a3508`). The hash was
+already fully inventoried in Families 77 and 80, but this separate manifest path remains to be
+reconciled. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 90
+tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID, content record,
+catalogue update, import or source copy was created.
