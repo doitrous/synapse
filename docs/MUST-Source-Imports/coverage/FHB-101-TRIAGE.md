@@ -6837,3 +6837,37 @@ Removing this pinned empty-text path and unique hash leaves **4 selected invento
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology Notes (by Ziad).pdf`, SHA-256 `932903de6c1ea6b2fce84c5d8597d8402885492ec4848fdf39b495922b3797c7`, 8 pages.
 
 **BLOCKED — S1 cannot be approved:** 4 selected source paths remain untriaged.
+
+## Completed source — Physiology Notes (by Ziad)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology Notes (by Ziad).pdf` | `932903de6c1ea6b2fce84c5d8597d8402885492ec4848fdf39b495922b3797c7` | 8 | empty-text audit sample | pages 1–8 rendered and read | PDFium export created 13 October 2025. The pages are handwritten study notes with no printed institution, department, examiner, sitting, marks, assessment title or key authority. The filename credits Ziad. This is a personal teaching-note compilation, not an official MUST examination, formative paper or key. |
+
+### Exact prompt, answer and teaching boundary
+
+Page 1 is a handwritten `physiology` cover. Page 2 explains fluid compartments, fluid proportions, water balance and ADH. Pages 3–4 cover blood functions, cellular composition, erythrocyte structure/count/lifespan and haematocrit. Pages 5–6 cover plasma composition, plasma proteins, A/G ratio and protein functions. Pages 7–8 are nervous-system and autonomic-transmission diagrams. These are uninterrupted teaching notes.
+
+The page-3 parenthetical `How??` beside blood pressure/viscosity is an author-side reminder embedded within explanatory notes, not a numbered or response-bearing student prompt. Likewise, the page-8 Arabic drawing reminder and `Very important` annotation are study directives, not assessment questions. There is no question sequence, response form, selected option, answer table, model answer, practical-identification prompt or written-exam section. The exact source boundary is therefore **0 assessment prompts / 0 printed answers or key observations / 0 prompt-matched recovered answers**.
+
+### Source-first handles, searches and prior-FHB dedupe
+
+Because the complete visual boundary contains no assessment prompt, there are **0 accepted source-first handles** and therefore **0 × 4 = 0 warranted corpus searches**. The teaching scopes overlap already completed body-fluid, blood, plasma-protein, erythrocyte and autonomic-nervous-system material, but teaching statements are not converted into tested concepts or used to infer questions. The source-level and post-prior concept results are both **0 live / 0 pending / 0 new**, so the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 8043 | 7626 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this pinned empty-text path and unique hash leaves **3 selected inventory paths / 3 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `32eff32bb9bed7d646ec9d56f6e63957ec5ef7316a2160fea919c1f386e12ab0`. Pinned triage debt becomes **zero substantive-text / zero sparse-text / three empty-text** rows, and unique-hash accounting is **`103 + 3 = 106`**.
+
+The exact next source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 2 FHB BLOOD (By Shahd).pdf`, SHA-256 `490caa766860aa63f08e52766335bc864d2c0c67a7010ae1cfbd701a2dcb851d`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 3 selected source paths remain untriaged.
