@@ -2,7 +2,7 @@
 
 ## Scope and decision
 
-This is an incomplete S1 checkpoint, not `TRIAGE APPROVED`.  It records only questions read from the completed deduplicated source family and does not mint IDs, author content, or choose module placement.  Every proposed new item has placement **TBD**.
+This read-only S1 triage is now **`TRIAGE APPROVED`**. All 115 selected inventory paths / 106 unique hashes have complete visual-boundary, answer-recovery, source-first search and prior-FHB dedupe evidence below. The pass does not mint IDs or student content; every proposed new item retains placement **TBD**.
 
 ## Evidence / reproducibility
 
@@ -6939,3 +6939,45 @@ Removing this pinned empty-text path and unique hash leaves **1 selected invento
 The final remaining source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 4 FHB BLOOD (By Shahd).pdf`, SHA-256 `ef667f30ba5e438969644df9f48cabcd7f573988fe5c360afcb06d36b681e045`, 2 pages.
 
 **BLOCKED — S1 cannot be approved:** 1 selected source path remains untriaged.
+
+## Completed source — Physiology lecture 4 FHB BLOOD (By Shahd)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 4 FHB BLOOD (By Shahd).pdf` | `ef667f30ba5e438969644df9f48cabcd7f573988fe5c360afcb06d36b681e045` | 2 | empty-text audit sample | pages 1–2 rendered and read | Samsung Electronics PDF export last modified 4 November 2025. The filename credits Shahd. The pages are handwritten lecture notes with no institution, department, examiner, sitting, marks, assessment title or key authority; this is teaching material, not an official MUST examination, formative paper or key. |
+
+### Exact prompt, answer and teaching boundary
+
+Page 1 explains haemoglobin composition, HbA/HbF chains and oxygen affinity, oxygenation, oxygen capacity/affinity and carbaminohaemoglobin. Page 2 explains carboxyhaemoglobin, methaemoglobin and reductase deficiency. Almost all content is continuous exposition. One embedded calculation line on page 1 reads, in substance, `I have 13 grams of Hb: then O2 saturation is 13 × 1.33 = ___`; its explicit response blank makes it a teaching calculation prompt rather than merely a declarative example.
+
+The exact boundary is therefore **1 teaching calculation prompt occurrence / 0 printed answer or key observations / 0 prompt-matched recovered answers**. The unfilled blank is preserved as a source-level missing-answer defect; no arithmetic result was inferred or supplied. There is no MCQ sequence, selected option, answer table, model-answer section, practical-identification prompt or formal written-exam section.
+
+### Source-first handle, exactly four searches, and prior-FHB dedupe
+
+The single accepted prompt was assigned once to one source-first handle. It received exactly four searches across live, server, pending/import-ready and documentation evidence:
+
+| Handle | Assigned prompt occurrence and exactly four search phrases | External / prior-FHB disposition |
+|---|---|---|
+| H1 | Page-1 haemoglobin oxygen-capacity calculation (`1 gram hemoglobin can combine with 1.33 ml of oxygen`; `13 grams of Hb then oxygen saturation is 13 x 1.33`; `oxygen carrying capacity hemoglobin 1.33 ml`; `calculate oxygen saturation grams hemoglobin`) | new externally; exact completed prior-FHB haemoglobin oxygen-capacity reuse. |
+
+The source-level external split is **0 live / 0 pending / 1 new = 1 accepted handle**. It collapses to a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero. The surrounding teaching statements are not converted into tested concepts.
+
+### Completed-source delta and final cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+1 question / +0 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 8044 | 7626 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Zero remainder, approval gate and next lane
+
+Removing this final pinned empty-text path and unique hash leaves **0 selected inventory paths / 0 unique SHA-256s**. The SHA-256 of the empty, newline-free remaining-hash string is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`. Pinned triage debt is now **zero substantive-text / zero sparse-text / zero empty-text** rows, and unique-hash accounting is **`106 + 0 = 106`**.
+
+All 115 selected FHB 101 inventory paths across 106 unique hashes have now had their complete visual boundaries adjudicated. Every accepted prompt handle received exactly four searches, repeated scopes were collapsed within source and against prior FHB evidence, source-absent answers were recorded without inference, and the protected completed-source screen remains unchanged. The literal gate is therefore warranted:
+
+**TRIAGE APPROVED**
+
+This approval closes read-only FHB 101 S1 triage; it does not itself mint student content. Under the pinned Year 1 priority law, the next module lane is **MSK 101-1 S1 read-only assessment/key triage** (62 exam paths / six keyed-exam paths / 103 question-source paths). A compact high-signal opening source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/MSK Training questions - answers.pdf`, SHA-256 `43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903`, 3 pages; its selection should be pinned in the new module's own readiness/triage lane before processing.
