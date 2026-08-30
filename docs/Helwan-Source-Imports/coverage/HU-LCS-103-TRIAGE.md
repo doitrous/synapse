@@ -7275,3 +7275,151 @@ manifest-named next path is absent locally, but the organised filename without `
 recomputes to that assigned hash and byte size. Tier-6 and rank-9 source debts between
 rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains incomplete.
 No download, ID, content record, catalogue update, import or source copy was created.
+
+## Family 60 — Tier-4 Histology Skeletal Muscle I lecture with one keyed and one unkeyed prompt
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_c7b80e456abfe93b686e` |
+| Manifest file / SHA-256 | `muscle tissue 1 HELWAN record - Copy.pdf` / `c7b80e456abfe93b686e7d8b4c8341b8ea970b3476da61f43f5d114473a5199a` |
+| File boundary | 2,320,116 bytes · unencrypted PDF · 47 physical OCR-needed pages · 756 × 522 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Theoretical · `Lec 4 - Skeletal Muscles I` · tier 4 |
+| Local corpus path used | `Year 1/LCS 103/Histology/Theoretical/Lec 4 - Skeletal Muscles I/muscle tissue 1 HELWAN record.pdf` |
+| Name reconciliation | The exact manifest-named path is absent locally, but the organised filename without ` - Copy` recomputes to the assigned SHA-256 and byte size exactly; it is the same source under a normalised local name. |
+| Visible provenance | p. 3 prints `Skeletal muscle`, `Presented by Dr Heba abd alrazak`, `lecturer of histology`, `Faculty of Medicine`, `Helwan University`, and credits the PowerPoint to Dr Doaa Khaled and Dr Heba Abd Alrazak; pp. 13, 19–20 cite Mescher/Junqueira, and p. 45 lists the lecture references |
+| Authority finding | Direct local Helwan-labelled tier-4 teaching lecture under the assigned LCS-103 corpus path. It is not a sitting paper, question bank, practical response form or official answer key, but it contains one composite prompt followed by a direct answer/reveal and one separate unkeyed MCQ. |
+
+The SHA-256, byte size and 47-page boundary were recomputed and match the assigned source.
+All 47 pages were rendered at 180 dpi and visually read with page-level OCR support; all 47
+complete-page renders have distinct SHA-256 values. Pages 1–5 are the devotional/title/
+provenance/objective opening; pp. 6–34 teach skeletal-muscle structure and contraction, with
+section dividers on pp. 9 and 14; p. 35 asks one composite triad prompt; pp. 36–39 directly
+reveal its requested composition and level; pp. 40–43 teach fibre types; p. 44 is one
+unkeyed `TEST YOUR SELF` MCQ; and pp. 45–47 are references and closing slides.
+
+Page 35 is an actual learner-facing prompt because it explicitly asks what forms the triad
+and at what level it occurs. Pages 36–38 provide labelled triad diagrams and p. 39 explicitly
+prints one T-tubule plus two terminal cisternae at the A–I junction; together they are one
+directly printed delayed key for the single composite handle, not four additional questions.
+Page 44 offers four visibly unmarked options and has no later reveal, so no key is inferred
+from the earlier accessory-protein teaching. The `Red why??`/`White why???` wording on p. 42
+is embedded inside a simultaneously filled comparison table and is instructional emphasis,
+not a learner response task or separate question.
+
+The p. 19 micrograph contains **four unresolved teaching abbreviations** (`I`, `A`, `F`,
+`N`) without a local legend. The surrounding lecture permits an interpretation, but the
+letters remain unexpanded in the printed composition and are preserved as callout debt.
+All other diagram labels are explicit or are sequence/directional indicators. These four
+theoretical teaching callouts are not promoted into assessment blanks or practical mappings.
+
+### Complete teaching-composition and assessment/key boundary inventory
+
+| Physical pages | Source-first instructional composition | Teaching occurrences | Prompt/key disposition |
+|---:|---|---:|---:|
+| 6–8 | muscle origin, cell terminology, sarcoplasm and skeletal/cardiac/smooth comparison | 3 | 0 |
+| 10–13 | skeletal-muscle sites, embryonic myoblast fusion and satellite-cell regeneration | 4 | 0 |
+| 15–17 | epimysium/perimysium/endomysium and fascicle organisation | 3 | 0 |
+| 18–20 | skeletal-fibre LM phenotype plus longitudinal/transverse-section micrographs | 3 | 0 |
+| 21–22 | sarcoplasmic organelles, myofibrils, SR, mitochondria and inclusions | 2 | 0 |
+| 23–31 | sarcomere bands/lines/filaments, accessory proteins and thin-filament regulation | 9 | 0 |
+| 32–34 | calcium exposure, cross-bridge force and sliding-filament contraction/relaxation | 3 | 0 |
+| 35 | `Triad system???? formed of? Level?` | 0 | 1 composite open prompt |
+| 36–39 | triad diagrams and explicit composition/A–I-junction reveal | 0 | 1 printed key across 4 slides |
+| 40–43 | slow oxidative, fast glycolytic and intermediate fibre-type comparison | 4 | 0 |
+| 44 | myosin-binding accessory-protein MCQ with options Titin/Troponin/Dystrophin/Myomesin | 0 | 1 ordinary MCQ; 0 keys |
+| **Total** | **complete content boundary** | **31** | **2 prompt occurrences / 1 printed key** |
+
+The **31 teaching-page occurrences are 31 source-distinct instructional compositions**.
+Complete-render SHA-256 and semantic comparison found no full-page copy to collapse. The
+complete arithmetic is **47 = 10 framing/divider/reference/closing pages + 31 teaching
+compositions + 2 assessment pages + 4 answer/reveal pages**. The source boundary is
+therefore **31 teaching compositions / 2 ordinary prompt occurrences / 1 printed assessment
+key / 0 practical or station prompts / 0 response blanks / 0 masked assessment callouts / 4
+unresolved teaching callouts**. As theoretical material, it adds **0 practical plates, 0
+practical mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 35 with pp. 36–39 reveal → `skeletal-triad-composition-and-a-i-junction` | skeletal triad components; triad T tubule terminal cisternae; skeletal triad A-I junction; sarcomere two triads | pending skeletal/cardiac muscle material owns the complete triad relation; exact accepted Family-15 `muscle-tubular-systems-t-tubules-triads-diads-sr` handle owns this tested objective | pending; prior eligible-LCS reuse; 1 printed key; tested-concept delta +0 |
+| p. 44 → `myomesin-m-line-myosin-binding-protein` | myomesin myosin-binding protein; M-line accessory protein; myomesin thick-filament register; titin troponin dystrophin myomesin MCQ | no substantive live/pending hit and no accepted prior-LCS handle owns myomesin's M-line myosin-binding role | new to eligible LCS; no printed key |
+
+The two occurrences are two source-distinct question records. Tested-handle collapse is `2
+handles - 1 prior eligible handle = 1 new concept`; the p. 35 composite's two requested
+attributes remain one triad handle and one printed key. All **2 × 4 = 8** assessment searches
+completed across live state, pending state, all source-import roots and accepted prior LCS.
+The source-level assessment result is **0 live / 1 pending / 1 new**, but prior-eligible
+comparison removes the inherited pending triad handle from module delta, leaving **0 live /
+0 pending / 1 new = 1 added concept**.
+
+### Source-first theoretical scopes, searches and prior-LCS adjudication
+
+The 31 teaching compositions consolidate to ten source-level theoretical scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `muscle-origin-cell-terminology-and-three-type-overview` · pp. 6–8 | muscle tissue mesoderm myoblast myocyte; muscle fibre sarcoplasm sarcolemma SR; skeletal cardiac smooth comparison; voluntary striated involuntary muscle | pending muscle-comparison material owns the complete overview; accepted Family-15 type/origin handles and Family-51 skeletal-organisation scope own the core — prior LCS reuse |
+| `skeletal-muscle-myoblast-formation-and-satellite-cell-regeneration` · pp. 10–13 | myoblast fusion myotube skeletal fibre; satellite cell between sarcolemma basal lamina; satellite activation proliferation fusion; skeletal muscle regeneration injury | pending Histology material owns the full formation/regeneration sequence; accepted Family-15 origin/regeneration evidence owns the same core — prior LCS reuse |
+| `skeletal-muscle-connective-tissue-organisation` · pp. 15–17 | epimysium perimysium endomysium; skeletal muscle fascicle organization; muscle connective tissue vessels nerves; tendon epimysium continuity | pending skeletal-muscle material owns the three layers; exact accepted Family-15 connective-tissue handle owns the core — prior LCS reuse |
+| `skeletal-muscle-fibre-lm-phenotype-and-sections` · pp. 18–20 | skeletal muscle LM phenotype; long cylindrical multinucleated peripheral nuclei; skeletal muscle longitudinal transverse sections; skeletal muscle striations acidophilic sarcoplasm | pending skeletal-muscle material owns the phenotype; exact accepted Family-15 LM handle owns the same core — prior LCS reuse |
+| `skeletal-muscle-sarcoplasmic-organelles-and-inclusions` · pp. 21–22 | skeletal sarcoplasm organelles inclusions; myofibrils sarcoplasmic reticulum mitochondria; muscle myoglobin glycogen lipid; calcium storage SR muscle | pending skeletal-muscle material owns the complete internal organisation; exact accepted Family-15 sarcoplasm handle and Family-51 scope own the core — prior LCS reuse |
+| `sarcomere-band-line-and-filament-architecture` · pp. 23, 25–28, 30 | sarcomere Z to Z architecture; A I H bands M Z lines; actin myosin thin thick filaments; sarcomere contraction band changes | live sarcomere material owns the complete pattern; exact accepted Family-15 band/filament handles and Family-51 scopes own the core — prior LCS reuse |
+| `sarcomere-accessory-proteins-titin-dystrophin-alpha-actinin-myomesin` · pp. 24, 29 | sarcomere accessory proteins; titin dystrophin alpha actinin myomesin; Z-line thick filament anchoring proteins; myomesin M-line myosin binding | pending component records own titin/dystrophin but no substantive record or accepted prior-LCS complete scope owns the four-protein comparison — additive theoretical scope |
+| `thin-filament-calcium-troponin-tropomyosin-regulation` · pp. 31–32 | actin troponin tropomyosin complex; calcium binds troponin moves tropomyosin; myosin binding sites exposed actin; thin filament muscle regulation | pending nerve-muscle material owns the regulatory sequence; accepted Family-51 thin-filament scope and prior excitation-contraction evidence own the core — prior LCS reuse |
+| `sliding-filament-contraction-and-relaxation` · pp. 32–34 | sliding filament contraction relaxation; cross bridge binds actin generates force; sarcomere actin myosin overlap; I band H zone shortening A band constant | live/pending contraction material owns the full change pattern; exact accepted Family-15 contraction handle and Family-51 cycle scope own the core — prior LCS reuse |
+| `skeletal-muscle-red-white-intermediate-fibre-comparison` · pp. 40–43 | red white intermediate skeletal muscle fibers; slow oxidative fast glycolytic; myoglobin mitochondria capillaries fatigue; glycogen glycolytic oxidative fibre types | pending Histology fibre-type material owns the comparison; exact accepted Family-15 red/white handle owns the same core — prior LCS reuse |
+
+All **10 × 4 = 40** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **2 live / 7 pending / 1 new**. Exact accepted-
+prior comparison prevents nine repeated module additions, leaving **nine prior-LCS reuses /
+one additive theoretical scope**. Together with the assessment handles, Family 60 completed
+**48 required searches**. Declarative teaching scopes do not enter the eligible tested-
+concept count, and no theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 60 | Family 60 delta | After Family 60 |
+|---|---:|---:|---:|
+| Eligible observed question records | 514 | +2 | 516 |
+| Eligible printed question keys | 264 | +1 | 265 |
+| Eligible distinct tested concepts | 248 | +1 | 249 |
+| Question live / pending / new | 9 / 84 / 155 | +0 / +0 / +1 | 9 / 84 / 156 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 387 verified minimum | +0 | 387 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,423 verified minimum | +0 | 2,423 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 135 | +0 | 135 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 73 | +0 / +0 / +0 | 0 / 0 / 73 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `47 = 10 + 31 + 2 + 4`, `31 = 3 + 4 + 3 +
+3 + 2 + 9 + 3 + 4`, `4 unresolved teaching callouts = I + A + F + N on p. 19`, `2 = 2
+prompts - 0 repeated source occurrences`, `1 = 2 tested handles - 1 prior eligible handle`,
+`516 = 514 + 2`, `265 = 264 + 1`, `249 = 248 + 1`, `9 + 84 + 156 = 249`, `387 + 0
+= 387`, `2,423 + 0 = 2,423`, `135 + 0 = 135`, and `73 + 0 = 73`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-59
+remainder leaves **16 rank-4/rank-5 path instances / 14 unique hashes**. The Family-59
+method was reproduced first: its 17/15 row sets recomputed to
+`1544b5b078fcf1b5b04d31f1fabba5d07a2a1bd79850d05237eebadf6f559749` and
+`88e4f14504f52bc75bb1b9e02c941abdb60f7045e22f33e4a83a4263cc4ad259`.
+For the exact post-Family-60 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`d830cea21a5ccf8d420fdb8dca670227dedaf7398ac1165288243941239ca902`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`0c241f7e1789ffd01ee9b44655f1700a8d7494368fbc2dde0876ccdf4df1fba9`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Histology theoretical source
+`src_b0878e83f808ca239818`, `muscle tissue  HELWAN 2 iheba - record _Repaired_.pdf`
+(2,500,993 bytes; 47 OCR-needed pages; SHA-256
+`b0878e83f808ca2398187a5f03f40fe3fce592912ed776888082f43f474746e3`)
+under `Year 1/LCS 103/Histology/Theoretical/Lec 5 - Skeletal Muscles II/`. The exact
+manifest-named next path is absent locally, but the organised filename with normalised
+spacing and final `_Repaired.pdf` recomputes to that assigned hash and byte size. Tier-6 and
+rank-9 source debts between rank-4/rank-5 gates remain outside this remainder. Broader
+LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
+source copy was created.
