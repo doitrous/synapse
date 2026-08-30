@@ -17727,3 +17727,90 @@ answers.pdf`, SHA-256 `ece98ba3324ee657c53854561eb805b59feaf1dcc23eb499382f97adc
 **248,333 bytes**, nine native-text portrait US-letter pages under `Pathology / Questions / MCQs`.
 Its independent solved prompt/answer boundary, unkeyed-companion relation, prior-BMS collapse,
 search ledger, arithmetic, and exact next-source blockers remain to be exhausted.
+
+## Family 166 — exact revisit of the Family-6 Circulatory-1 solved carrier
+
+### Source identity, complete visual/native boundary, authority, and exact prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 solved `src_ece98ba3324ee657c538` · `MCQs - College MCQs continous self assessement circulatory 1 answers.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `ece98ba3324ee657c53854561eb805b59feaf1dcc23eb499382f97adcf144c39` · **248,333 bytes** |
+| Format / complete visual boundary | **Nine native-text portrait US-letter pages**. All nine rendered at 150 dpi into nine non-empty 1275×1650 images and were read at page detail. The object is a malformed partial-key carrier plus later answer section, not a simple solved copy. No cover, image, drawing, practical plate, candidate response, or hidden terminal material exists. |
+| Native-text reality | Layout and raw extraction each contain **1,954 words**, respectively **15,004 / 13,638 bytes**. The native and visual layers agree on 53 prompt occurrences, 33 option-A lines, eight inline `Answer:` lines, and the later 20-answer clinical section. OCR was unnecessary. |
+| Visible/metadata provenance | The first page visibly prints `Continuous assessment on circulatory disorder part 1`, but no university, faculty, instructor, module code, academic year, sitting date, marks, or candidate field. Metadata author is generic `User`; creator is Microsoft Word; creation/modification time is 26 April 2025. The title and metadata date are carrier evidence, not proof of Helwan administration, official-key status, or a sitting date. |
+| Exact prior governance | Family 6 already records this exact source ID/SHA together with its unkeyed DOCX companion `src_16f3e72b07c1848bea17`: all 93 joint prompt occurrences, 28 answer occurrences, 45 exact repeats, 48 retained wordings, seven scope-collapse groups, 39 handles, 156 searches, nine prior-BMS reuses, and +30 concepts. |
+| Authority | Solved continuous-assessment-labelled study carrier of weak visible institutional authority. Printed answers remain source-supplied evidence, including questionable rationale, but exact-object reuse cannot upgrade them to an official departmental key. |
+
+### Complete solved prompt/answer/format and companion boundary
+
+The current PDF contains **53 raw prompt occurrences**: seven initially keyed MCQs, the same seven
+MCQs in a malformed repeated block, all 20 unkeyed general-companion prompts, and 19 clinical-
+companion prompts. By current-object format this is **33 MCQ + 10 T/F + 10 written/case = 53**.
+There are **28 source-answer occurrences**: seven initial inline MCQ answers, one repeated inline
+answer for the chronic-passive-liver-congestion prompt, and the later 20-answer clinical section
+(`10 MCQ + 5 T/F + 5 written/case`). No current-object prompt or answer is image-bearing or
+practical.
+
+The malformed repeated block restarts at visible numbers 5–10 and uses number 8 twice. Only its
+chronic-passive-congestion item repeats an `Answer:` line; the other six remain prompt-only
+repeats. The clinical question block prints questions 1–9 and 11–20, omitting clinical Q10, while
+the later answer section prints answers 1–20. Clinical answer 10 (`epinephrine` for anaphylaxis)
+therefore has no prompt inside this PDF, but its prompt is visibly present in the paired DOCX; it
+is not promoted into a new PDF prompt. The PDF changes the DOCX's anatomically questionable
+postmastectomy `lower limb` to `upper limb`; both wordings remain preserved and are collapsed only
+at tested-scope level. The printed early-septic-shock rationale `compensatory vasodilation` also
+remains source evidence rather than a silent correction.
+
+Joint Family-6 arithmetic remains **`40 DOCX + 53 PDF = 93` observed prompts**, **28 printed
+answers**, and **`93 - 45 exact repeats = 48` retained wording records**. The 45 repeats are seven
+within-PDF malformed repeats, 20 exact general DOCX/PDF repeats, and 18 exact clinical DOCX/PDF
+repeats. Twenty-seven retained scopes have supplied answers because one keyed prompt is answered
+twice. Nothing in the present reinspection changes that assignment.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 6's seven scope-tight collapse groups reduce 48 retained wordings by nine to **39 tested
+handles**. Family 6 already completed exactly four searches per handle (**`39 × 4 = 156`
+searches**) and reconciled nine prior-BMS reuses, yielding +30 concepts.
+
+Family 166 accepts **0 new retained records and 0 new handles**. Re-running searches for the exact
+source ID/SHA/page/prompt/answer object would fabricate work and false recurrence. The standing
+gate is **`0 new handles × 4 = 0 required and completed new searches`**; no empty search ledger is
+invented. Prior reuse and concept delta are both **0 Family-166 additions**.
+
+### Family-166 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 166 addition | Auxiliary cumulative (Families 12–166) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 53 in current PDF | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 28 occurrences | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 48 across governed pair | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 39 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 6 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **39 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The governed pair checksum remains `40 + 53 = 93 prompts`, `28 answers`, `93 - 45 = 48
+retained`, `48 - 9 = 39 handles`, and Family 6's `39 × 4 = 156` completed searches. Family-166
+arithmetic is independently zero: `0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`.
+Corrected primary remains **762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486
+answers / 1,829 retained / 1,667 handles / +906 concepts**; and corrected all eligible remains
+**2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 166 adds exact-carrier revisit and manifest-order evidence only. It establishes no new
+question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 166
+
+`src_ece98ba3324ee657c538` is re-exhausted without double counting: every page, native prompt,
+option, inline answer, later answer, malformed number, exact repeat, changed companion wording,
+answer-only clinical slot, questionable rationale, section transition, metadata field, visible-
+authority limit, Family-6 companion relation, original collapse/search boundary, zero gate, and
+cumulative term is assigned once, with **zero remainder** and no Family-166 blocker. The exact
+next manifest record is its tier-3 unkeyed companion `src_16f3e72b07c1848bea17` · `MCQs - College
+MCQs continous self assessement circulatory 1.docx`, SHA-256
+`16f3e72b07c1848bea1715628719383222b5b2510cc65775423b87dc356001a8`, **24,421 bytes**, a
+native-text DOCX previously rendered by Family 6 as four portrait pages under `Pathology /
+Questions / MCQs`. Its independent unkeyed prompt boundary, solved-companion relation, zero-search
+gate, arithmetic, and exact next-source blockers remain to be exhausted.
