@@ -9423,3 +9423,130 @@ tier-6 summary/note debt and rank-9 external/review/reference debt remain outsid
 rank-4/rank-5 remainder rules. Those lower-authority lanes require their own explicit gates;
 the empty 0/0 checksum does not silently approve or erase them. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 77 — Tier-3 direct Helwan keyed Histology question deck and broader all-rank debt audit
+
+### Broader tier-3/tier-6/rank-9 debt reconciliation and priority decision
+
+Family 76 exhausted the separately gated rank-4/rank-5 queue, but did not approve the module.
+The manifest was therefore re-audited path-sensitively for all remaining `HU-LCS-103`
+sources in the standing lower-authority lanes: tier-3 question banks, tier-6 notes and
+summaries, and rank-9 external/review/reference records. Previously adjudicated lower-rank
+paths were removed only by exact manifest path/source identity; duplicate paths sharing an
+already-seen hash were not silently erased.
+
+Before Family 77, the exact broader remainder was **154 path instances / 144 unique hashes**:
+tier 3 contributed **72 paths / 67 unique hashes within tier**, tier 6 contributed **68 / 66**,
+and rank 9 contributed **14 / 11**. SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows was
+`c3fc5794cb2303cb734bf8c663451517de12d1aa66103948561499694a351786`;
+SHA-256 over sorted unique `sha256<LF>` rows was
+`136fe6a42850d5732da4247994e2e802a267b3a92c7406550ec3660517f437c6`.
+Direct, visibly Helwan-authored tier-3 evidence precedes student/external banks and the lower
+authority tier-6/rank-9 lanes. The first such manifest-order source was therefore selected as
+Family 77; this audit does not assert that every later tier-3 path has direct provenance.
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_cfe1bf246bd0aa85b06b` |
+| File / SHA-256 | `103 question.pdf` / `cfe1bf246bd0aa85b06b5a98d0d4ef74bb17dd9002a56eef66b66912d03a3508` |
+| File boundary | 593,337 bytes · unencrypted PDF · 16 physical OCR-needed pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Questions · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/103 question.pdf` |
+| Visible provenance | Page 2 prints the Faculty of Medicine, Helwan University mark and `DR/HEBA ABD ALRAZAK`, `Lecturer of Histology helwan university`; pp. 3–16 print `Module: LCS-103`, and pp. 3–15 print `27 June 2025`. PDF metadata title is `PowerPoint Presentation`, author `efrodeta abdo`, and creator/producer Microsoft PowerPoint 2013. |
+| Authority finding | Direct visibly Helwan-authored Histology question deck with an answer letter printed on every question slide. It is not labelled as a formal sitting paper, response form, practical station sheet or separate official answer key. |
+
+The assigned SHA-256, byte size and 16-page physical boundary were recomputed and match.
+All 16 pages were rendered at 200 dpi and read visually with OCR support. Page 1 is a
+decorative Arabic religious opening, p. 2 is provenance, pp. 3–15 are the complete question
+set and p. 16 is a closing slide. The source contains **13 ordinary written MCQ occurrences /
+13 directly printed answer letters / 13 distinct tested handles**. There are no repeated
+questions within this source, no unkeyed learner-response prompts and no declarative teaching
+slides to scope.
+
+The exact source prompt/key inventory is: p. 3 flat-bone-centre histological type → `D`
+(spongy bone); p. 4 Purkinje-fibre myofibril distribution → `B` (few and peripheral); p. 5
+bone-cell cytoplasm rich in alkaline phosphatase → source-printed `C` (osteocytes); p. 6
+intercalated-disc part running at right angles → `D` (transverse); p. 7 bone-forming cell →
+`A` (osteoblast); p. 8 smooth-muscle dense-body filaments → `A` (thin and intermediate);
+p. 9 sarcomere band/line sequence → `B`; p. 10 compact-bone structural unit → `A`
+(Haversian system); p. 11 muscular-dystrophy deficient protein → `C` (dystrophin); p. 12
+cartilage containing elastic fibres → `D` (elastic cartilage); p. 13 cartilage-model
+replacement by compact bone → `B` (intracartilaginous ossification); p. 14 skeletal-muscle
+triad site → `A` (A–I junction); and p. 15 white-fibrocartilage sites → `D` (semilunar knee
+cartilages and sternoclavicular joint). The p. 5 answer is recorded exactly as printed and is
+flagged for key review because accepted Histology evidence assigns alkaline-phosphatase-rich
+bone-forming cytoplasm to osteoblasts; triage does not silently repair the source.
+
+This written question deck contains no practical/station plate inventory. It has no specimen
+or image-identification task, teaching plate, apparatus task, masked label, rule blank or
+unresolved callout. Its practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0
+residues / 0 practical keys / 0 practical scopes**.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+| Source prompt → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 3 → `flat-bone-centre-spongy-bone-histology` | flat bone center spongy bone; diploë flat bone histology; compact tables spongy centre; histological type centre flat bones | pending compact/spongy-bone material owns the fact; accepted prior sources teach it, but no prior eligible tested handle owns this question | pending; new to eligible LCS; printed `D` |
+| p. 4 → `purkinje-fibre-few-peripheral-myofibrils` | Purkinje few myofibrils; Purkinje peripheral myofibrils; cardiac conducting fibre myofibrils; myofibrils in Purkinje fibres | pending cardiac-muscle material owns the phenotype; Family 14 overlap is external-bank only and later eligible sources are teaching, not tested prompts | pending; new to eligible LCS; printed `B` |
+| p. 5 → `bone-cell-alkaline-phosphatase-cytoplasm` | bone cell alkaline phosphatase; alkaline phosphatase osteoblast; osteocyte alkaline phosphatase; cytoplasm alkaline phosphatase bone | pending bone-cell material owns the objective and conflicts with source-printed `C`; no prior eligible tested handle owns it | pending; new to eligible LCS; printed `C`; key review |
+| p. 6 → `intercalated-disc-transverse-part-right-angle` | intercalated disc right angle; transverse part intercalated disc; intercalated transverse component; intercalated disc myofibril right angle | pending cardiac-muscle material owns the orientation; Family 14 is external-bank overlap only | pending; new to eligible LCS; printed `D` |
+| p. 7 → `osteoblast-bone-forming-cell` | osteoblast bone forming; bone-forming cell osteoblast; cell responsible for bone formation; osteogenic cell versus osteoblast | pending bone-cell material owns the objective; Family 13 overlap is external-bank only | pending; new to eligible LCS; printed `A` |
+| p. 8 → `smooth-muscle-dense-body-thin-and-intermediate-filaments` | dense body thin intermediate filaments; smooth muscle dense bodies; attachment plaque intermediate filament; actin intermediate filament dense body | exact accepted Family 61 eligible prompt promoted the attachment-plaque/dense-body objective | prior eligible-LCS reuse; inherited pending; printed `A`; delta +0 |
+| p. 9 → `sarcomere-band-line-sequence-z-i-a-h-m` | sarcomere Z I A H M sequence; Z line I band A band; sequence of sarcomere bands; Z disc H zone M line | live sarcomere architecture owns the complete ordering; Family 14 overlap is external-bank only, so this direct prompt is the eligible promotion | live; new to eligible LCS; printed `B` |
+| p. 10 → `osteon-haversian-system-compact-bone-unit` | osteon compact-bone unit; Haversian system structural unit; compact-bone structural unit; osteon Haversian system | exact accepted Family 59 eligible prompt already owns this handle | prior eligible-LCS reuse; inherited live; printed `A`; delta +0 |
+| p. 11 → `dystrophin-deficiency-muscular-dystrophy` | dystrophin muscular dystrophy; muscular dystrophy deficient protein; Duchenne dystrophin; deficiency of dystrophin | exact accepted Family 54 eligible prompt owns the deficient-protein objective; Family 75 further corroborates it | prior eligible-LCS reuse; inherited pending; printed `C`; delta +0 |
+| p. 12 → `elastic-fibre-cartilage-identification` | cartilage elastic fibres; elastic cartilage elastic fibers; matrix elastic fibres cartilage; identify elastic cartilage | pending cartilage material owns the phenotype; accepted prior eligible prompts do not own this identification | pending; new to eligible LCS; printed `D` |
+| p. 13 → `cartilage-model-replacement-endochondral-ossification` | cartilage model endochondral ossification; replacement of cartilage by bone; intracartilaginous ossification cartilage; endochondral compact bone | exact accepted Family 76 eligible ossification-route handle owns the classification | prior eligible-LCS reuse; inherited pending; printed `B`; delta +0 |
+| p. 14 → `skeletal-muscle-triad-at-a-i-junction` | triad A–I junction; skeletal muscle triad junction; triad terminal cisternae T tubule; A-I junction triad | exact accepted Family 60 keyed eligible triad handle owns the site | prior eligible-LCS reuse; inherited pending; printed `A`; delta +0 |
+| p. 15 → `white-fibrocartilage-meniscus-sternoclavicular-sites` | fibrocartilage meniscus sternoclavicular; white fibrocartilage sites; sternoclavicular fibrocartilage; meniscus fibrocartilage | pending cartilage material owns the sites; accepted prior eligible prompts do not own this site pair | pending; new to eligible LCS; printed `D` |
+
+All **13 × 4 = 52** required searches completed across live state, pending state,
+`docs/import-ready`, `docs/questions-import-ready`, every source-import root and accepted prior
+LCS. Direct complete-scope disposition is **2 live / 11 pending / 0 new**. Exact accepted-prior
+adjudication removes one inherited live handle and four inherited pending handles, leaving
+module concept delta **1 live / 7 pending / 0 new = 8**. All 13 question occurrences and all
+13 source-printed keys remain counted; deduplication affects tested-concept addition only.
+
+### Cumulative assessment, practical and broader remainder checkpoint
+
+| Evidence dimension | Before Family 77 | Family 77 delta | After Family 77 |
+|---|---:|---:|---:|
+| Eligible observed question records | 576 | +13 | 589 |
+| Eligible printed question keys | 286 | +13 | 299 |
+| Eligible distinct tested concepts | 287 | +8 | 295 |
+| Question live / pending / new | 10 / 95 / 182 | +1 / +7 / +0 | 11 / 102 / 182 |
+| Stand-alone practical/station prompt occurrences | 7 | +0 | 7 |
+| Distinct practical teaching plates, quantified | 458 verified minimum | +0 | 458 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,691 verified minimum | +0 | 2,691 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 149 | +0 | 149 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 92 | +0 / +0 / +0 | 0 / 0 / 92 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `13 prompts = pp. 3–15`, `13 printed keys = pp.
+3–15`, `13 tested handles`, `8 added concepts = 13 handles - 5 prior eligible reuses`, `1 +
+7 + 0 = 8`, `589 = 576 + 13`, `299 = 286 + 13`, `295 = 287 + 8`, `11 + 102 +
+182 = 295`, `7 + 0 = 7`, `458 + 0 = 458`, `2,691 + 0 = 2,691`, `149 + 0 =
+149`, and `92 + 0 = 92`. The separately tracked external-bank checkpoint remains **241
+questions / 241 printed keys / 75 distinct concepts = 9 live / 66 pending / 0 new**.
+
+The Family-77 hash occurs at three manifest paths. This family adjudicates only the exact
+`All Subjects/Questions/103 question.pdf` path; its two bitwise-identical College/Histology
+paths remain path debt, so the unique hash is retained. Removing that one row leaves **153
+broader path instances / 144 unique hashes**: tier 3 **71 paths / 67 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. SHA-256 over the exact post-Family-77
+bytewise path-sorted `corpusRelativePath<TAB>sha256<LF>` rows is
+`0a88badef2804a657a472a763999f214529f93ca5ebb4f1a9c3984f48dec732e`;
+SHA-256 over sorted unique `sha256<LF>` rows remains
+`136fe6a42850d5732da4247994e2e802a267b3a92c7406550ec3660517f437c6`.
+
+The exact next direct/non-external tier-3 manifest-order debt is
+`src_092fe6875fa92be8195b`, `MCQs - ALLAWI H&N MCQ.pdf` (670,655 bytes; 15 native-text
+pages; SHA-256 `092fe6875fa92be8195bd0ece965889eec8088b0594f3c51c5674005f2dc08db`)
+under `Year 1/LCS 103/All Subjects/Questions/MCQs/`. **Overall LCS-103 S1 remains `S1
+TRIAGE — NOT APPROVED`:** 153 tier-3/tier-6/rank-9 path debts remain. No download, ID,
+content record, catalogue update, import or source copy was created.
