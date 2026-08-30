@@ -21154,3 +21154,106 @@ prints `2022-Session`. Metadata title is `Session`, author is `zooma`, and creat
 21 February 2022. Its MHU/Helwan authority, date/sitting status, tier-9 eligibility, complete
 prompt/key/practical boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 202 — Abd El Kader/V.S Academy 2022 pharmacology final-revision bank for Helwan students
+
+### SHA-resolved path, complete render/native boundary, visible authority, and tier-9 eligibility
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_23907394d3f2bb16c68a` · `Final pharma Rev.pdf` |
+| Supplied/local path resolution | The supplied shorthand path `Pharmacology / Final pharma Rev.pdf` is absent. The exact manifest and unique SHA-matching carrier is `Pharmacology / Assessments / Exams / Final pharma Rev.pdf`; identity is anchored to the required hash rather than guessed from the missing path. |
+| SHA-256 / exact size | `23907394d3f2bb16c68a79cc656a48077e2ed744156a97f8823a53b05bd4551b` · **859,317 bytes** |
+| Format / complete read | **8 native-text 595.44×841.92-point portrait A4 pages**. All 8 pages were rendered into 8 non-empty 1241×1754-pixel images and read individually at full detail. Native extraction contains **1,842 words / 16,996 bytes** and agrees with every visible title, question number, stem, option, T/F control, graph, footer, formula, and teaching table. |
+| Visible provenance | Cover prints `Pharmacology`, `Session`, `Final Rev`, `1st Year`, `MHU`, `DR ABD EL KADER`, and V.S Academy. The Arabic V.S Academy strapline visibly says it serves students of **Helwan University**. Pages 2–8 repeat the Abd El Kader brand, `Pharma`, `1stYear`, and `2022-SESSION`. `MHU` is preserved without expansion. |
+| Metadata caution | Metadata title/subject are `Session`/`Rev`, author is `zooma`, creator/producer is Microsoft Word 2016, and creation/modification is 21 February 2022. Those fields agree temporally with the visible 2022 footer but do not prove administration, departmental approval, or an official sitting. |
+| Authority / tier-9 eligibility | Private tutor/academy final-revision material visibly targeted at Helwan students and stored in the exact Year-1 BMS-102 pharmacology assessment corpus. It has no other-university attribution and is module-aligned, so it meets the narrow Family-73 tier-9 exception as **low-authority auxiliary evidence**. It is not primary evidence and cannot establish an official Helwan exam, sitting, recurrence, departmental key, mark weight, or candidate response. |
+
+### Complete page-first prompt, answer, image, teaching, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 | Branded `Pharmacology Session Final Rev`, first-year, `MHU`, Abd El Kader, V.S Academy/Helwan-student cover | Provenance only; **0 prompts / 0 answers / 0 practical**. |
+| 2 · Q1–Q12 | Membrane transport/diffusion, CNS distribution, first-/zero-order kinetics, protein binding, weak-base ionization, metabolism polarity, and apparent-volume-of-distribution operations | **12 prompts = 6 text MCQs + 6 T/F / 0 supplied answers / 12 unkeyed**. |
+| 3 · Q13–Q19 | Glomerular-filtration clearance, gentamicin distribution, time to steady state, half-life determinants, loading-dose and target-time calculations, and EC50-versus-efficacy | **7 prompts = 5 text/calculation MCQs + 2 T/F / 0 answers / 7 unkeyed**. |
+| 4 · Q20–Q27 | Graph-based high-affinity partial-agonist identification, alpha-1/PLC signaling, therapeutic index, competitive antagonism, pharmacokinetic components, GI absorption, and passive permeability | **8 prompts = 6 text MCQs + 1 image/graph MCQ + 1 T/F / 0 answers / 8 unkeyed**. Q20 is an image-bearing MCQ, not a practical station. |
+| 5 · Q28–Q36 | Bioavailability, first-pass routes, sublingual/parenteral/intramuscular/intravenous administration, and route-characteristic exception operations | **9 prompts = 8 text MCQs + 1 T/F / 0 answers / 9 unkeyed**. Q28's malformed `fraction of an uncharged drugs` wording is preserved without repair. |
+| 6 · Q37–Q46 | Volume of distribution, metabolic activity, renal filtration, phase-II metabolism, half-life uses, biliary excretion, liver biotransformation, idiosyncrasy, conjugation, and elderly noncompliance | **10 prompts = 8 text MCQs + 2 T/F / 0 answers / 10 unkeyed**. Q41 permits both dosage-schedule and steady-state readings, and Q46 includes both polypharmacy and medication expense as plausible risks; no source key resolves either ambiguity. |
+| 7 · Q47–Q50 | Active transport, plasma-protein binding, bioavailability, and CYP3A4 interaction questions | **4 text MCQs / 0 answers / 4 unkeyed**. Q49 restates Q28's bioavailability proposition in standard wording. |
+| 7–8 after Q50 | `Ke = Clearance / Vd`; prodrug and active/less-active/inactive metabolite tables; oxidation/hydrolysis enzymes; inducers/inhibitors; newborn digoxin note | Completed teaching appendix, not a numbered answer key. Some facts can inform preceding questions, including Q50, but no table row is mapped as an answer occurrence; **0 prompts / 0 source-supplied answers / 0 practical**. |
+
+The exact source-local boundary is **50 raw prompt occurrences = 36 MCQs + 14 True/False
+operations**, with **0 source-supplied answers + 50 visibly unkeyed operations**. Q20 is the sole
+image/graph-bearing question; it remains an ordinary MCQ rather than a practical station. There are
+**0 drawing tasks, 0 authenticated practical stations, 0 candidate responses, and 0 residues**.
+Uniform typography, underlining, watermarks, and teaching tables do not encode correctness.
+
+### Retention, one semantic collapse, 196-search completion, and prior-BMS disposition
+
+All **50** numbered wordings remain retained records: no literal same-source replay is excluded.
+Q28 and Q49 test the same bioavailability/systemic-availability definition; Q28's anomalous
+`uncharged` modifier is preserved as source wording, while Q49 supplies the standard variant.
+They collapse to one tested handle without losing either occurrence. Q24 and Q25 remain separate
+because they test different pharmacokinetic components (biotransformation versus excretion).
+Thus **`50 retained - 1 semantic reduction = 49 source-distinct tested handles`**.
+
+The accepted handle registry is complete:
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q12 | `lipid-diffusion-transporter-density-exception`; `blood-to-tissue-aqueous-diffusion`; `cns-distribution-lipid-diffusion`; `lipid-diffusion-not-saturable`; `partition-coefficient-diffusion-rate`; `high-perfusion-fast-distribution`; `first-order-rate-proportional-concentration`; `protein-displacement-free-drug-toxicity`; `morphine-ph9-weak-base-uncharged`; `zero-order-half-life-not-constant`; `metabolism-more-polar-excretion`; `high-vd-tissue-binding` |
+| Q13–Q19 | `gfr-max-clearance-120`; `gentamicin-extracellular-water-vd`; `steady-state-time-independent-infusion-rate`; `half-life-vd-clearance`; `loading-dose-calculation`; `time-to-steady-state-four-half-lives`; `efficacy-emax-not-ec50` |
+| Q20–Q27 | `high-affinity-partial-agonist-curve`; `alpha1-gq-plc-ip3-dag`; `therapeutic-index-1000`; `competitive-antagonist-rightward-no-emax-change`; `pharmacokinetics-includes-biotransformation`; `pharmacokinetics-includes-excretion`; `gi-absorption-passive-lipid-diffusion`; `hydrophilic-no-passive-diffusion` |
+| Q28–Q36 | `bioavailability-systemic-unchanged-fraction` (also Q49); `bioavailability-absorption-first-pass`; `rectal-route-minimizes-first-pass`; `oral-route-first-pass`; `sublingual-fast-absorption`; `parenteral-faster-than-oral`; `intramuscular-oily-solutions`; `iv-oily-solutions-false`; `inhalation-slow-access-exception` |
+| Q37–Q46 | `lipophilic-wide-distribution-large-vd`; `metabolism-conjugation-decrease-activity`; `protein-bound-not-filtered-kidney`; `phase-ii-inactivation`; `half-life-dose-schedule-steady-state`; `biliary-active-secretion`; `liver-greatest-biotransformation`; `idiosyncratic-reaction-definition`; `conjugation-excludes-hydrolysis`; `elderly-noncompliance-risk` |
+| Q47–Q50 | `active-transport-not-ph-dependent`; `protein-binding-long-acting`; Q49→Q28; `cyp3a4-many-drugs-interactions` |
+
+Every one of the 49 accepted handles received exactly four fresh searches across live governed
+state, `docs/questions-import-ready`, pending Helwan import roots, and Families 1–201: **`49 × 4 =
+196 required and completed searches`**. Each packet used the distinctive stem phrase, the tested
+proposition, an option/terminal phrase, and a topic/mechanism variant. External exact-scope
+disposition is **0 live / 0 pending / 49 no same-scope**. The prior BMS ledger contains no accepted
+pharmacology handle at these scopes, so prior-BMS reuse is **0** and concept arithmetic is **`49 -
+0 = +49`**.
+
+### Family-202 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 202 | Auxiliary cumulative (Families 12–202) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 50 = 36 MCQ + 14 T/F | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0; 50 unkeyed | 1,675 | 405 | 2,080 |
+| Retained question records | 50 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 49 / 196 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | — |
+| Cross-family concept delta | +49 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **49 source-local / +49** | **1,024 additions** | **372** | **1,396** |
+
+Checksums: `36 + 14 = 50 prompts`; `0 + 50 = 50 answer states`; `50 - 0 literal exclusions =
+50 retained`; `50 - 1 semantic reduction = 49 handles`; `49 × 4 = 196 searches`; and `49 - 0
+prior reuses = +49`. Auxiliary arithmetic is `2,587 + 50 = 2,637` prompts, `1,675 + 0 = 1,675`
+answers, `2,294 + 50 = 2,344` retained records, `2,075 + 49 = 2,124` handles, and `975 + 49 =
+1,024` concepts. All eligible arithmetic is `762 + 2,637 = 3,399`, `405 + 1,675 = 2,080`,
+`552 + 2,344 = 2,896`, and `372 + 1,024 = 1,396`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,637 prompts / 1,675 answers /
+2,344 retained / 2,124 handles / +1,024 concepts**. All eligible is **3,399 / 2,080 / 2,896 /
+1,396**. Family 202 establishes low-authority Helwan-targeted pharmacology revision-question
+evidence only, not an official exam sitting, departmental key, recurrence, mark weight, practical
+station, readiness, or claims status.
+
+### Exact next debt after Family 202
+
+`src_23907394d3f2bb16c68a` is exhausted across all 8 pages: every path/provenance and metadata
+field, numbered stem, option set, T/F control, graph, wording ambiguity, teaching table, source
+handle, semantic collapse, search packet, authority limitation, prior-family relation, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-202 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_5b842f87f74bbf787c8a` ·
+`2026-07-20 06.26.01.jpg`, SHA-256
+`5b842f87f74bbf787c8a9ef20687f00645b1decfbafcaa533480a0a186990cd0`, **152,002 bytes**,
+**923×1280 portrait JPEG** under `Pharmacology / Notes and Summaries`. The original visibly shows
+a handwritten `Pharmacology - Lecture 1` abbreviation-expansion sheet (`PD`, `PK`, `S.E`, `ADR`,
+`D.F`, `BAV`, `A.T.S`, `IV`, `IM`, `SC`, and `CSF`) with a green check symbol. The filename
+timestamp is not an authenticated teaching or assessment date. Its provenance, sequence relation,
+teaching/prompt/answer/annotation boundary, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
