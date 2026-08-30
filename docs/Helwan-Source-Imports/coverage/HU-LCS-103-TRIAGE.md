@@ -16308,3 +16308,102 @@ under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassifie
 page is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 81 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 150 — Tier-6 Helwan annotated teaching summary: infective bone disease
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f2e15ef3167cabd93105` / `f2e15ef3167cabd93105b49a0eeafba61dea3a8e620f548e1bb5563cc62521bc` |
+| File / boundary | Manifest `103 LCS Approach to Bone diseases 2  _240716_163251.pdf`; normalized local filename has one pre-timestamp space · 923,868 bytes · untagged, unencrypted PDF 1.7 · 18 physical OCR-needed 960 × 540 pt pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/103 LCS Approach to Bone diseases 2  _240716_163251.pdf` |
+| Visible / metadata provenance | P. 2 is titled `APPROACH TO BONE DISEASES` and names `DR HEBAT ALLAH AMIN`; p. 18 repeats Family 149's WebPath, Robbins & Cotran and Helwan-hosted `Locomotor Bank` references. Samsung Electronics is creator/producer and the file was modified 16 July 2024. |
+| Authority finding | The matched lecturer/template/reference lineage and manifest placement establish the second part of the in-module Helwan teaching deck. It is not an exam, marking guide or practical station set; the link to a separate assessment bank does not turn these teaching slides into assessment evidence. |
+
+The assigned SHA-256, byte size and 18-page boundary were recomputed and match. All 18 pages
+were rendered at 180 dpi, OCRed, and read visually against the sparse native extraction. Pp.
+1–3 are opening/title/objectives; pp. 4–11 cover pyogenic osteomyelitis etiology, routes,
+pathogenesis, morphology and complications; pp. 12–15 cover mycobacterial osteomyelitis,
+tuberculous long/short-bone and vertebral patterns, differential diagnosis and cold abscess;
+and pp. 16–18 provide the summary, closing image and references.
+
+There is **no assessment inventory**. P. 10's `Any question` is a generic audience invitation.
+P. 11's `Complications???` is answered on that same slide. P. 14's `How to differentiate?`,
+`? Intervertebral disc!` and `What is cold abscess?` are lecturer-led organizer/callout text:
+the disc distinction is supplied on p. 14 and the cold-abscess definition follows on p. 15.
+Objectives, headings and the summary are declarative. The exact boundary is therefore **0
+eligible or external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed
+assessment prompts**.
+
+Source wording is preserved without repair. P. 4 prints `Staph auerus` and labels direct spread
+`endogenous & exogenous`; p. 11 prints `interlekuins` and `amylydosis` while also asserting
+chronic disease predisposition to SCC and osteosarcoma; pp. 12 and 14 print `paraplasia` among
+the TB-vertebrae keywords. These states remain teaching evidence, not inferred questions or
+medically corrected content.
+
+### Practical and image boundary
+
+The deck contains a clinical photograph and culture plate, osteomyelitis pathogenesis diagrams,
+gross and histology images, radiographs, a vertebral gross specimen image and a kyphosis
+illustration. Every image is embedded in an explanatory slide with a supplied diagnosis,
+caption or lecturer annotation. There is no specimen-identification instruction, masked label,
+numbered station, learner-completed map, response blank or practical key. The images remain
+declarative teaching evidence and add **0 practical prompts / 0 teaching plates / 0 mappings /
+0 practical residues / 0 practical keys**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The sequence consolidates to **6 source-distinct teaching handles**. Each handle received one
+query on each required surface.
+
+| Teaching handle | Live query | Pending query | Prior-import query | Accepted-LCS query | Disposition |
+|---|---|---|---|---|---|
+| Pyogenic osteomyelitis risk, organisms and hematogenous/direct routes · pp. 4–5 | `pyogenic osteomyelitis Staph aureus` | `hematogenous osteomyelitis bacteremia` | `trauma surgery prosthesis bone infection` | `pyogenic osteomyelitis routes` | prior-LCS teaching/tested reuse |
+| Pyogenic pathogenesis and sequestrum/involucrum morphology · pp. 6–9 | `osteomyelitis sequestrum involucrum` | `subperiosteal abscess osteomyelitis` | `dead bone reactive new bone sinus` | `chronic osteomyelitis morphology` | prior-LCS teaching/tested reuse |
+| Acute/chronic pyogenic manifestations and complications · p. 11 | `chronic osteomyelitis draining sinus amyloidosis` | `osteomyelitis local systemic complications` | `sinus tract SCC osteomyelitis` | `acute chronic osteomyelitis` | prior-LCS teaching/tested reuse |
+| Mycobacterial bone infection mechanism and clinicopathological pattern · p. 12 | `mycobacterial osteomyelitis type IV hypersensitivity` | `bone tuberculosis granulomatous reaction` | `TB bone tissue destruction T lymphocyte` | `tuberculous osteomyelitis mechanism` | additive theoretical scope; new |
+| Tuberculous long/short-bone patterns, caries, long sequestrum and dactylitis · p. 13 | `tuberculous dactylitis bone caries` | `bone TB long sequestrum endarteritis` | `tuberculosis long short bones` | `mycobacterial osteomyelitis distribution` | additive theoretical scope; new |
+| Pott disease, disc-based metastasis differential and cold abscess · pp. 12,14–15 | `Pott disease intervertebral disc metastasis` | `cold abscess tuberculous granulomas` | `vertebral tuberculosis kyphosis` | `Pott disease cold abscess` | prior-LCS teaching/tested reuse |
+
+All **6 × 4 = 24 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **4 prior-LCS reuses + 2 additive theoretical teaching scopes**. Neither
+the TB immune-mechanism nor long-/short-bone distribution scope has a substantive live,
+pending or accepted-LCS owner, so the additions are **0 live / 0 pending / 2 new**. Declarative
+theoretical teaching scopes do not enter the eligible tested-concept or practical-teaching-
+scope totals. Search matches establish coverage only and do not validate or repair the
+lecturer annotations. Render/OCR/search scratch stayed outside the worktree under
+`/private/tmp/lcs103-family150/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This source hash occurs once in Family 149's remainder. Removing its sole path leaves **80
+all-rank path instances / 75 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **66 / 64**, and rank 9 **14 / 11**. Family 149's prior checksums are
+`c4dc58dbd10e684393024a40118ec091be0a33237ff3de12bb51a0398a4a4dae` (paths) and
+`d1cda411627a098d800f52e4f3ab662fa55fe83b4f77d2d83a52e6b528365413` (unique hashes).
+For the exact post-Family-150 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`05e4aeb3afe03c584c347d7f476a5339c998233e32ffeca516b3f9642daed9de`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`98bcdf0306ce66c928a15e79ba6fd71ee01efde6178de3ae7b86b39db0c8ac00`.
+
+The exact next manifest-order debt is tier-6 `src_d4eb45627d2020a0e09e`,
+`103 LSC Approach to common joint diseases_240716_162502.pdf` (1,555,891 bytes; 22
+physical OCR-needed 960 × 540 pt pages; SHA-256
+`d4eb45627d2020a0e09e41fe5cfb8052deeb79b6303386ab966d9b0d2df502df`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 80 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
