@@ -17088,3 +17088,123 @@ College MCQs PATHO Q-BANK.pdf`, SHA-256
 duplicate-carrier authority, complete multi-section prompt/key boundary, source-first collapse,
 prior-BMS reconciliation, four-search packets for surviving handles, and arithmetic are the
 exact next-source blockers.
+
+## Family 159 — Eyad-Ahmed/Eman-Hefny compiled EKB pathology Q-bank object
+
+### Source identity, duplicate-carrier ruling, full boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_9bca614057658d04392e` · `MCQs - College MCQs PATHO Q-BANK.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `9bca614057658d04392e315313eb60db5cdcbfe70ff2b7be21fa7bde825f2331` · **3,501,612 bytes** |
+| Format / complete visual boundary | **73 native-text portrait A4 pages**. All 73 rendered at 110 dpi into 73 non-empty 910×1287 images. Three complete 5×5 contact sheets and all chapter/key boundaries were inspected: p.1 cover, p.2 index, p.3 Arabic compiler note, p.4 Cell Injury cover, pp.5–12 questions, p.13 key, p.14 Circulatory cover, pp.15–24 questions, p.25 key, p.26 Inflammation cover, pp.27–45 questions, pp.46–47 keys, p.48 Infection cover, pp.49–50 questions, p.51 key, p.52 Repair cover, pp.53–54 questions, p.55 key, p.56 Mixed cover, pp.57–71 questions, p.72 key, and p.73 closing encouragement. |
+| Native-text reality | Layout extraction contains **11,964 words / 80,078 bytes** and raw extraction **11,971 words / 76,831 bytes**. Every numbered stem, option, and key grid is coherent; OCR was not required. |
+| Exact manifest duplicate family | The manifest also names `Pathology / Questions / PATHO Q-BANK.pdf` as a byte-identical carrier of this SHA. That alias is absent locally, while the present carrier verifies the governed object. Both names therefore govern **one object**: this family counts/searches it once; the alias adds **0 prompts, answers, retained records, handles, or concepts** and must not become a later family. |
+| Visible provenance | Cover: `GENERAL PATHOLOGY Q-BANK` and `Compiled By Eyad Ahmed&Eman Hefny`. The Arabic note says they collected questions released on EKB, preserved question/answer wording, accidentally repeated some questions, and advise checking apparently wrong/unclear answers with the doctor/leaders. It thanks department head Dr Nahed Ahmed Soliman for providing the bank. |
+| Metadata / authority caution | Producer is iLovePDF and modification time 12 April 2025; no metadata author exists. These do not prove a sitting or academic year. This is a complete keyed student-compiled EKB study bank, not an administered exam, candidate script, official departmental answer register, or independently verified key. |
+
+### Complete chapter, format, key, teaching, and practical boundary
+
+| Physical pages | Source block | Prompt / supplied-key boundary |
+|---:|---|---:|
+| 1–4 | Cover, index, Arabic note, Cell Injury cover | **0 / 0**. |
+| 5–13 | Cell Injury Q1–Q56, then key | **56 / 56**, all text MCQs. |
+| 14–25 | Circulatory Q1–Q40, then key | **40 / 40**, all text MCQs. |
+| 26–47 | Inflammation Q1–Q129, then two key pages | **129 / 129** = **116 MCQs + 13 T/F**. |
+| 48–51 | Infection Q1–Q14, then key | **14 / 14** = **13 MCQs + 1 T/F**. |
+| 52–55 | Repair Q1–Q12, then key | **12 / 12**, all text MCQs. |
+| 56–72 | Mixed Q1–Q62, then key | **62 / 62** = **56 MCQs + 6 T/F**. |
+| 73 | `TRUST THE PROCESS / YOU'VE GOT THIS.` | **0 / 0**; closing encouragement. |
+
+The exact boundary is **313 prompts / 313 source-supplied key occurrences / 0 unkeyed / 293
+text MCQs / 20 T/F / 0 written or completion operations / 0 image-bearing questions / 0 drawing
+tasks / 0 practical stations / 0 candidate responses / 0 residues**. Covers, index, compiler note,
+and closing are navigation/provenance material. Vignettes describing gross or microscopic findings
+remain text questions, not practical records. All 313 key numbers close without omission. Printed
+T/F words are source answers; no answer is medically repaired around the compiler's express
+wrong/unclear-key warning.
+
+### Exact copy exclusions, semantic collapse, and accepted handles
+
+Normalized complete stem-and-option comparison finds **40 exact copies**. Second occurrences are:
+Cell Q30→Q6, Q33→Q16, Q35→Q5, Q41→Q21, Q48→Q25, Q54→Q45;
+Circulatory Q20→Q6, Q23→Q9; Inflammation Q72→Q41, Q88→Q43, Q97→Q94,
+Q98→Q29, Q102→Q28, Q104→Q17, Q105→Q5, Q107→Q91, Q108→Q73,
+Q110→Q2, Q111→Q78, Q114→Q69, Q120→Q44, Q125→Q62, Q126→Q10,
+Q127→Q46, Q129→Q7; Infection Q8→Q1, Q13→Q6, Q14→Q5; Repair Q5→Q3;
+Mixed Q15→Inflammation Q90, Q18→Mixed Q3, Q27→Circulatory Q14, Q29→
+Infection Q2, Q33→Cell Q17, Q43→Mixed Q2, Q44→Mixed Q31, Q45→Inflammation
+Q101, Q57→Cell Q10, Q60→Inflammation Q46, and Q62→Inflammation Q14.
+
+Fourteen orthographic/layout copies preserve the same complete question: Mixed Q23→Cell Q1;
+Cell Q38→Q2, Q46→Q23, Q55→Q31, Q53→Q44; Circulatory Q26→Q19;
+Inflammation Q117→Q3, Q121→Q26, Q124→Q51, Q116→Q54, Q115→Q67,
+Q113→Q70; Mixed Q39→Cell Q11 and Q4→Cell Q40. None of these 54 copy pairs has
+a conflicting terminal key. Retention is **`313 - 54 = 259`**.
+
+Four altered-wording/option-set pairs collapse only at handle level: Circulatory Q39→Q9
+(haematemesis), Q19→Q11 (post-fracture fat embolism), Q27→Q12 (urosepsis/septic shock),
+and Inflammation Q103→Q80 (first cellular event). Therefore **`259 - 4 = 255 handles`**.
+Related mechanisms, ranked exceptions, sites, and option-set propositions remain distinct.
+
+| Chapter | Raw | Copy exclusions | Retained | Semantic reductions | Handles |
+|---|---:|---:|---:|---:|---:|
+| Cell Injury | 56 | 10 | 46 | 0 | 46 |
+| Circulatory | 40 | 3 | 37 | 3 | 34 |
+| Inflammation | 129 | 23 | 106 | 1 | 105 |
+| Infection | 14 | 3 | 11 | 0 | 11 |
+| Repair | 12 | 1 | 11 | 0 | 11 |
+| Mixed | 62 | 14 | 48 | 0 | 48 |
+| **Total** | **313** | **54** | **259** | **4** | **255** |
+
+### Exactly four searches per handle and prior-BMS reconciliation
+
+All 255 handles received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan import coverage, and prior BMS-102 Families 1–158:
+**`255 × 4 = 1,020 required and completed searches`**. Each packet used the distinctive
+normalized stem, source-selected proposition, terminal question phrase, and combined stem/key
+concept. Copies and collapse targets receive no independent packet; the duplicate carrier alias
+receives no second packet.
+
+Prior adjudication assigns **158 handles** to already tested BMS scope and **97** to new scope:
+Cell Injury **32 reuse / 14 new**; Circulatory **20 / 14**; Inflammation **76 / 29**;
+Infection **9 / 2**; Repair **9 / 2**; Mixed **12 / 36**. Reuse covers prior adaptation,
+cell-death/accumulation, haemodynamic, inflammation, infection, repair, complement/phagocytosis,
+nutrition, and neoplasia tested propositions. New additions are narrower vignettes, ranked
+exceptions, source-specific option relations, and combined mechanism/site propositions. Family
+159 therefore adds **`255 - 158 = 97 concepts`**.
+
+### Family-159 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 159 | Auxiliary cumulative (Families 12–159) | Primary | All eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 313 | 2,077 | 765 | 2,842 |
+| Source-supplied answers | 313 | 1,445 | 405 | 1,850 |
+| Retained question records | 259 | 1,810 | 552 | 2,362 |
+| Handles / required searches | 255 / 1,020 | 1,650 / — | — | — |
+| Prior-BMS handle reuses | 158 | — | — | — |
+| Cross-family concept delta | +97 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **255 source-local** | **906 additions** | **372** | **1,278** |
+
+Checksums: `56 + 40 + 129 + 14 + 12 + 62 = 313`; `293 + 20 = 313`; `313 - 54 =
+259`; `259 - 4 = 255`; `255 × 4 = 1,020`; `255 - 158 = +97`. Auxiliary arithmetic is
+`1,764 + 313 = 2,077`, `1,132 + 313 = 1,445`, `1,551 + 259 = 1,810`, `1,395 +
+255 = 1,650`, and `809 + 97 = 906`. All eligible arithmetic is `765 + 2,077 = 2,842`,
+`405 + 1,445 = 1,850`, `552 + 1,810 = 2,362`, and `372 + 906 = 1,278`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary is now **2,077 prompts / 1,445 answers /
+1,810 retained / 1,650 handles / +906 concepts**. All eligible is **2,842 / 1,850 / 2,362 /
+1,278**. Family 159 establishes compiled keyed-study-bank evidence only, not an official key,
+exam sitting, recurrence, mark weight, response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 159
+
+`src_9bca614057658d04392e` is exhausted across all 73 pages and its byte-identical alias: every
+provenance field, compiler warning, navigation/closing element, stem, option, key, format, copy,
+collapse, handle, search packet, prior relation, duplicate-carrier zero, and arithmetic term is
+assigned once, with **zero remainder** and no Family-159 blocker. The exact next record is tier-3
+`src_4f5e06c1ac4a6efc2e69` · `MCQs - College MCQs Repair MCQs.pdf`, SHA-256
+`4f5e06c1ac4a6efc2e69032a33efaba33cf0310f7dea4001a416737ac439148f`, **490,944
+bytes**, eight native-text portrait US-letter pages under `Pathology / Questions / MCQs`. Its
+provenance, repair prompt/key boundary, collapse, searches, prior reuse, and arithmetic are the
+exact next-source blockers.
