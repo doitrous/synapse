@@ -16816,3 +16816,100 @@ Revision_ANSWERS.pdf`, SHA-256
 prompt-layer relation to Family 156, solved-mark convention, source-answer authority, format and
 key anomalies, source-first collapse, prior-BMS reconciliation, searches for any genuinely new
 handle, and arithmetic are the exact next-source blockers.
+
+## Family 157 — solved-answer companion to the First Revision bank
+
+### Source identity, full visual/native boundary, provenance, and exact replay proof
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 solved companion `src_2438bc5836e4ca80031e` · `MCQs - College MCQs First Revision_ANSWERS.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `2438bc5836e4ca80031eb6c5f14416badc83c4ab4f3b466d8e6fb46d70f65868` · **1,834,532 bytes** |
+| Format / complete visual boundary | **15 native-text 960×540-point landscape pages**. All 15 pages rendered at 160 dpi into 15 non-empty 2134×1200-pixel images and read individually at original detail: p.1 cover, pp.2–14 Q1–Q39 with the complete solution layer, and p.15 `Thank you`. No page, highlight, handwritten answer, correction, option, blank, or terminal remainder is omitted. |
+| Native/prompt-layer replay proof | Layout extraction is exactly **633 words / 4,694 bytes** and has the same SHA-256 as Family 156's extracted layout. Bounding-box XHTML differs only in metadata header fields; every prompt/option box is unchanged. Page count, geometry, 39 numbered prompts, option order, source wording, punctuation, and closing page therefore replay exactly. |
+| Visible provenance and authority | The unchanged cover visibly identifies `First Revision (Adaptation, Cell Injury, Inflammation)`, Dr Enas Elhosary, Lecturer of Pathology, Faculty of Medicine, Helwan University. Green highlights, green handwriting, red correction notes, and limited yellow emphasis form a systematic solved revision-bank layer. This is source-supplied answer evidence, not a candidate response or official department key register. |
+| Metadata caution | Creator/producer is `Samsung Electronics`; modification time is 13 November 2024, while creation is empty/malformed. These fields describe the solved-copy re-export only. They do not override visible authorship or establish sitting date, academic year, annotator identity, or official-key approval. |
+
+The native prompt layer is the complete exact replay of Family 156, but the overlaid solution
+images make this a distinct carrier and answer state. Prompt occurrences and answer occurrences
+are recorded for this carrier; wording, handles, and concepts are not counted twice.
+
+### Complete solution-mark, answer-copy, format, and anomaly boundary
+
+| Pages | Replayed prompts and complete answer layer | Source-supplied answer count |
+|---:|---|---:|
+| 1 | Unchanged cover | **0** |
+| 2–6 | Q1 B hypertrophy; Q2 B metaplasia; Q3 A muscles; Q4 A apoptosis; Q5 A hemochromatosis; Q6 C immediate/early response; Q7 C cellular adaptation; Q8 A atrophy; Q9 C hyperplasia | **9** |
+| 7 | Q10 `reversible` / `irreversible`; Q11 `Cellular adaptation`; Q12 `Atrophy, Hypertrophy, Hyperplasia, Metaplasia, Dysplasia`; Q13 hyperplasia `reversible`/microscopically normal versus neoplasia `irreversible`/microscopically abnormal | **4** |
+| 8 | Q14 necrosis and apoptosis; Q15 false; Q16 true; Q17 false | **4** |
+| 9 | Q18 extracellular/intracellular; Q19 exogenous/endogenous; Q20 `Carbon, Silica, Asbestosis`; Q21 bilirubin, melanin, hemosiderin; Q22 jaundice | **5** |
+| 10 | Q23 `Degeneration such as Amyloidosis`; Q24 `eosinophilic & proteinous` material deposited extracellularly `under epithelium of blood vessels`; Q25 false; Q26 metastatic and dystrophic; Q27 false | **5** |
+| 11 | Q28 three functions: dilution of toxins/bacteria, immunity/removal of necrotic tissue, and `inhibit tissue repair`; Q29 redness, heat, swelling, pain, loss of function; Q30 B increased blood flow due to regional vascular dilation | **3** |
+| 12 | Q31 suppurative/non-suppurative; Q32 exudate; Q33 B fibrinous pericarditis; Q34 pus | **4** |
+| 13–14 | Q35 false; Q36 true; Q37 A circulating organisms in blood; Q38 lymphocytes, plasma cells, fibroblast, multinucleated giant cell; Q39 Langhans | **5** |
+| 15 | Closing `Thank you` | **0** |
+
+The exact carrier boundary is **39 replayed prompt occurrences / 39 source-supplied answer
+occurrences / 0 unkeyed prompts / 12 answered MCQs / 7 answered true-false prompts / 20 answered
+completion or written operations / 0 image-bearing questions / 0 drawing tasks / 0 practical
+stations / 0 candidate responses / 0 prompt-like residues**. Green fill selects every MCQ answer;
+green handwriting fills each T/F and written response. Yellow marks only emphasize stem words and
+are not independent keys. Red notes beside Q6 label options A, B, and D `chronic`, supporting the
+green C selection rather than creating three extra answers.
+
+Source wording and supplied solutions are preserved without medical repair. In particular, Q11
+answers `Cellular adaptation`; Q20 lists `Carbon, Silica, Asbestosis`; Q23 gives amyloidosis as the
+example of degeneration; Q24 writes `proteinous` and places material under vessel `epithelium`;
+Q28's third function is `inhibit tissue repair`; Q31 supplies suppurative/non-suppurative despite
+the prompt's article pattern; and Q38 supplies lymphocytes, plasma cells, fibroblast, and a
+multinucleated giant cell. These are governed answer-copy facts and possible key anomalies, not
+authorised corrections.
+
+### Exact Family-156 collapse and zero-search gate
+
+All **39/39** numbered prompts replay Family 156 exactly. The solved carrier therefore adds **39
+raw carrier prompt occurrences and 39 answer occurrences**, but **0 new retained question
+records**, **0 new accepted handles**, and **+0 concepts**. No same-source semantic work remains
+after the complete prompt-layer identity proof. Because no genuinely new handle survives, the
+source-first search gate is correctly **zero**: `0 × 4 = 0` required searches. This zero gate is
+based on the full render and native/bounding-box comparison, not on filename similarity.
+
+### Family-157 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 157 | Auxiliary cumulative (Families 12–157) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 39 | 1,693 | 765 | 2,458 |
+| Source-supplied answer occurrences | 39 | 1,061 | 405 | 1,466 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| New retained question records after prior wording dedupe | 0 | 1,480 | 552 | 2,032 |
+| New accepted handles / required searches | 0 / 0 | 1,325 / — | — | — |
+| Exact prior-family prompt/handle replays | 39 | — | — | complete Family-156 collapse |
+| Cross-family concept delta | +0 | +761 over primary | 372 | 1,133 |
+| **Distinct tested concepts** | **0 new** | **761 auxiliary additions** | **372** | **1,133** |
+
+The checksum closes as `12 + 7 + 20 = 39` replayed prompts and 39 visibly supplied solutions;
+`39 - 39 exact Family-156 wording copies = 0` new retained records; zero surviving handles require
+zero searches; and concept delta is `0`. Auxiliary arithmetic is `1,654 + 39 = 1,693` prompts,
+`1,022 + 39 = 1,061` answers, `1,480 + 0 = 1,480` retained records, `1,325 + 0 = 1,325`
+handles, and `761 + 0 = 761` concept additions. All eligible arithmetic is `765 + 1,693 =
+2,458`, `405 + 1,061 = 1,466`, `552 + 1,480 = 2,032`, and `372 + 761 = 1,133`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary is now **1,693 prompts / 1,061 answers /
+1,480 retained records / 1,325 handles / +761 concepts over primary**. All eligible evidence is
+**2,458 prompts / 1,466 supplied answers / 2,032 retained records / 1,133 distinct tested
+concepts**. Family 157 adds solved-copy answer and carrier-occurrence evidence only; it establishes
+no new wording, handle, concept, official key, administered exam, dated sitting, recurrence, mark
+weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 157
+
+`src_2438bc5836e4ca80031e` is exhausted across all 15 pages: every visible/metadata provenance
+field, native prompt/option box, highlight, handwritten solution, red correction, yellow emphasis,
+answer anomaly, Family-156 replay relation, zero-search gate, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-157 blocker. The exact next manifest record is tier-3
+`src_d2b1aa67547a2309da4f` · `MCQs - College MCQs Neoplasia MCQs.pdf`, SHA-256
+`d2b1aa67547a2309da4fb74452f443bb9a625e24ff226e53ae5fc4b834bdfbbd`, **551,933 bytes**,
+15 native-text portrait US-letter pages under `Pathology / Questions / MCQs`. Its visible and
+Arabic/English provenance, authority, complete prompt/key boundary, source-first collapse,
+four-search packets for every surviving handle, prior-BMS reconciliation, arithmetic, and
+relation to earlier neoplasia banks are the exact next-source blockers.
