@@ -19231,3 +19231,99 @@ Repair, general pathology(MW).pdf`, SHA-256
 OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible identity,
 complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS disposition,
 arithmetic, and subsequent exact next-source debt remain to be separately reconciled.
+
+## Family 183 — provenance-unverified Medicine Way / general-pathology repair compilation
+
+### Source identity, complete rendered/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_ac20e1968492b0a2e1b8` · `MCQs - mcq in Repair, general pathology(MW).pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `ac20e1968492b0a2e1b8189067473dc2a880730bca97d33e7344c2d3784d96b1` · **1,401,194 bytes** |
+| Format / complete read | **14 OCR-needed portrait A4 pages** at 595×842 pt. Native extraction was genuinely empty (**0 words; 14 form feeds**). All 14 pages were rendered at 110 dpi into 14 non-empty 910×1287 images, read at original detail, and independently OCRed to **2,555 words / 15,939 bytes**. |
+| Visible identity | Page 1 is the same Arabic `Medicine Way` public medical-books-channel cover used by Families 181–182 and credits `منصور الجزار`. Page 2 carries a `Medicine Way| MW` watermark; pages 2–9 are a printed `Healing (Repair) and Bacterial Infection` bank; pages 10–14 are a later mixed repair, shock, thrombosis, embolism, infarction, and atherosclerosis sequence ending `collected by Mariam Sameh`. No page visibly names Helwan University, its Faculty of Medicine, BMS-102, an authenticated Helwan sitting, or an institutional key authority. |
+| Date and metadata caution | Printed page numerals and question numbers are carrier structure, not sitting dates. PDF modification time 26 January 2025 is carrier metadata only and does not authenticate authorship, teaching year, or a Helwan sitting. |
+| Authority / eligibility | The public-channel cover/watermark and mixed generic collected banks establish an externally compiled general-pathology carrier. Folder placement and manifest tier cannot supply the missing university/module/sitting marker. The source is indexed source-locally but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing generic-pathology provenance gate. |
+
+### Complete prompt, answer, format, anomaly, and practical boundary
+
+The complete carrier contains **127 raw prompt operations = 69 MCQs + 29 true/false statements
++ 29 individually matched items**, with **28 source-supplied answers + 99 visibly unkeyed
+operations**:
+
+- **Page 1:** public-channel cover only; 0 prompts and 0 answers.
+- **Pages 2–7:** **38 unkeyed MCQs**, Q64–Q101. No option is underlined, circled, or otherwise
+  selected. Printed source-page numerals at the upper margin are layout metadata rather than answer
+  letters.
+- **Pages 7–8:** **29 unkeyed true/false statements**, Q102–Q130. The `True or False` wording is
+  the response format, not a supplied truth value.
+- **Pages 8–9:** **29 individually matched items** across Q131–Q137. The seven groups contain
+  **4 + 4 + 5 + 4 + 4 + 3 + 5 = 29** left-side items. The right-side lettered choices are an
+  unmatched option bank; no completed links or answer grid are present.
+- **Pages 10–14:** **31 MCQs**, Q163–Q193. A visibly underlined option supplies **28 source-answer
+  annotations**; Q175, Q180, and Q189 have no selected option and remain unkeyed. The underlining
+  is preserved as the compiler's solution annotation, not promoted to an official Helwan key.
+
+The exact checksums are **`38 + 31 = 69 MCQs`; `69 + 29 true/false + 29 matching = 127 prompts`;
+`28 underlined-option answers`; therefore `127 − 28 = 99 unkeyed operations`**. There are **0
+diagnostic images, 0 drawing tasks, 0 practical stations, 0 candidate responses, and 0 unassigned
+residues**. All operations are text questions; no specimen/image operation, station instruction,
+time, mark, or candidate field appears.
+
+All source wording, numbering, answer marks, and anomalies remain evidence without correction.
+This includes the Q137→Q163 numbering jump, source spellings such as `sequelae`, the thick black
+viewer/crop bars crossing pages 13–14, and potentially disputable underlined choices (including
+the underlined options on splenic infarction and early myocardial-infarction diagnosis). The
+three visibly blank answer states are not inferred from subject knowledge.
+
+### Internal recurrence, prior-BMS comparison, and governed zero-search gate
+
+The carrier contains internal recurrence across healing, regeneration, scar formation, fracture
+repair, infection, shock, thrombosis, embolism, infarction, and atherosclerosis. The later Q163–Q193
+sequence revisits some propositions from the earlier repair bank, while the thrombosis/shock block
+contains repeated or closely related exception questions. All raw occurrences and supplied/absent
+answer states remain preserved source-locally; no eligible semantic-collapse count is invented
+after exclusion.
+
+The same broad propositions recur throughout prior governed BMS repair, infection, inflammation,
+circulatory-disturbance, written, practical, virtual-lab, and MCQ families. Institutional authority
+is resolved before semantic retention, however. Therefore neither internal recurrence nor prior
+overlap is assigned as eligible Helwan reuse.
+
+Family 183 yields **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted
+handles / 0 prior-BMS reuse assignments / +0 concepts**. Exactly four searches are required only
+per accepted new handle; the governed gate is **`0 accepted new handles × 4 = 0 required and
+completed searches`**. Searching provenance-excluded prompts cannot convert them into Helwan
+assessment evidence.
+
+### Family-183 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 183 source-local | Eligible delta | Auxiliary cumulative (Families 12–183) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 127 = 69 MCQ + 29 T/F + 29 matching | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 28; 99 unkeyed | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | provenance-excluded compilation | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external/generic only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-183 eligible arithmetic is independently zero. Corrected primary remains **762 / 405 / 552
+/ 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 183 establishes no Helwan question occurrence, official key, tested concept, sitting,
+recurrence, mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 183
+
+`src_ac20e1968492b0a2e1b8` is exhausted across all 14 pages: every cover field, prompt operation,
+option set, true/false statement, matching item, source-supplied answer, absent answer, numbering
+jump, viewer residue, internal recurrence, prior-evidence relation, provenance term, eligibility
+term, and cumulative term is assigned once, with **zero remainder** and no Family-183 blocker.
+
+The exact next manifest record is tier-3 source `src_5a816eabc9ffd3246fad` · `MCQs - mcq in
+inflammation,general pathology(MW).pdf`, SHA-256
+`5a816eabc9ffd3246fadef961d976bdfcebcdbe3e52c74d36f3061cced4cede9`, **2,884,270 bytes**, **29
+OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible identity,
+complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS disposition,
+arithmetic, and subsequent exact next-source debt remain to be separately reconciled.

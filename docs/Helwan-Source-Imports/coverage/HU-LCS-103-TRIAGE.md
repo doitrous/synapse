@@ -16853,3 +16853,92 @@ The exact next manifest-order debt is tier-6 `src_38f3206a78ca16e57db9`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 75 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 156 — Tier-6 unattributed labelled deep-gluteal/posterior-thigh teaching plate
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_38f3206a78ca16e57db9` / `38f3206a78ca16e57db948e4d8d34c621fe457473f797c53464a3b096294c559` |
+| File / boundary | `2026-07-20 05.43.20.jpg` · 126,610 bytes · progressive JFIF 1.01 JPEG · sRGB · 72 dpi · 1080 × 924 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.43.20.jpg` |
+| Visible / embedded provenance | The image is a labelled deep-gluteal/posterior-thigh anatomical model composition. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile/density but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is unattributed tertiary teaching-plate evidence, not a Helwan-authored assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. Eleven arrows label gluteus
+minimus, quadratus femoris, piriformis, superior/inferior gemelli, obturator internus, sciatic
+nerve, semimembranosus, short head of biceps femoris, tibial nerve and popliteal vessels. Ten
+additional printed lines supply muscle innervation, nerve divisions or root relations.
+
+There is **no assessment inventory**. Every arrow terminates in a supplied label and no
+instruction, interrogative, response field, blank, mark allocation, option set, correctness
+mark or separate answer reveal appears. The exact boundary is therefore **0 eligible or
+external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment
+prompts** and **0 practical/station prompts / 0 practical assessment keys**.
+
+Source wording is preserved without repair. The boxes print `Piriformis ms`, `N to
+piriformis S1,2`, `Sup. Gemellus`, `Inf. Gemellus`, lowercase `semimembranosus`, `Tibial n
+(medial popliteal n)` and `Nerve root: L4,5,S1,2,3`. These are retained source states, not
+silently normalized names, divisions or roots.
+
+### Complete practical-plate, mapping and residue inventory
+
+This is **1 source-distinct labelled teaching plate**. One mapping is one directly printed
+label-to-structure, supply, division or root relation. The eleven arrow labels yield eleven
+structure-location mappings. The ten yellow lines yield ten further relations: superior-
+gluteal supply to gluteus minimus; quadratus-femoris nerve supply; piriformis nerve/roots;
+obturator-internus nerve supply to superior gemellus and obturator internus; quadratus-
+femoris nerve supply to inferior gemellus; sciatic roots; tibial division to
+semimembranosus; common-fibular division to short-head biceps femoris; and tibial-nerve
+roots. The exact inventory is therefore **1 teaching plate / 21 directly printed mappings /
+0 masked or unresolved residues**. Supplied labels are not converted into an answer key.
+
+### Source-first practical teaching scope, exact searches and prior-LCS reconciliation
+
+The single composition consolidates to **1 source-distinct practical teaching handle**. It
+received one query on each required surface.
+
+| Practical teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Deep-gluteal and posterior-thigh model identification with muscle innervation, sciatic/tibial divisions and popliteal vessels | `deep gluteal muscle model piriformis gemelli obturator internus quadratus`; `gluteus minimus superior gluteal nerve model`; `sciatic tibial common fibular roots model`; `posterior thigh semimembranosus biceps popliteal vessels` | Accepted Families 32–34, 37 and later lower-limb practical/tested scopes jointly own every printed component | prior-LCS practical/theoretical reuse |
+
+All **1 × 4 = 4 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **1 prior-LCS reuse + 0 additive practical-teaching scopes**. The
+practical-teaching-scope delta is **0 live / 0 pending / 0 new**. Search matches establish
+coverage only and do not validate or repair the unattributed labels.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 459 plates / 2,699 mappings / 149 residues / 13
+keys** by **+0 / +1 / +21 / +0 / +0** to **20 prompts / 460 plates / 2,720 mappings / 149
+residues / 13 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `459 + 1 = 460`, `2,699 + 21 = 2,720`, `149 + 0 = 149` and `13 + 0
+= 13`.
+
+This source hash occurs once in Family 155's remainder. Removing its sole path leaves **74
+all-rank path instances / 69 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **60 / 58**, and rank 9 **14 / 11**. Family 155's prior checksums are
+`ad4c9cb906340ca2dea44b0278d1037cfc3d5e6ab468f1ff0961b496e5797c3c` (paths) and
+`f32fbb33381c875af6780da2467d4c7cb1d37a24e2c41ef2f35fa235de46be90` (unique hashes).
+For the exact post-Family-156 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`77bcd0b1444506a013117871a3278d06efa6c415fc68a0c37cc0d4e5c3a102e5`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`640cd5840fa190e097cdd71d3f7ebb4b52a6829495314d1a7589411d2f18a6f9`.
+
+The exact next manifest-order debt is tier-6 `src_be38ceaf2b38857d905b`,
+`2026-07-20 05.43.23.jpg` (66,370 bytes; 1080 × 760 JPEG; SHA-256
+`be38ceaf2b38857d905ba56ca06ab7022d2684837a71376faaeedd20e178656d`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 74 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
