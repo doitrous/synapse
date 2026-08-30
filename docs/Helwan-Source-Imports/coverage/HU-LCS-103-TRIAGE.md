@@ -8668,3 +8668,65 @@ pages; SHA-256 `d4997a0848a0aa52ae1a39d26515360f5e2de0bf630169aa0778a364396bd26a
 under `Lec 6 - Drugs Affecting Calcium/`. Tier-6 and rank-9 source debts between rank-4/rank-5
 gates remain outside this remainder. Broader LCS-103 S1 remains incomplete. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 71 — Tier-4 Pharmacology Corticosteroids duplicate-path adjudication
+
+### Exact path identity and zero-weight content boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_791096e550811606d4db` |
+| File / SHA-256 | `26 LECTURE ON CORTICOSTEROIDES PDF.pdf` / `791096e550811606d4dbcf8e19959834216a2a76aacbf85bc321112c5e419cac` |
+| File boundary | 1,061,618 bytes · unencrypted PDF · 27 physical native-text pages · 960 × 540 pt |
+| Adjudicated manifest path | `Year 1/LCS 103/Pharmacology/Theoretical/Lec 5 - Corticosteroids 2/26 LECTURE ON CORTICOSTEROIDES PDF.pdf` · tier 4 · `twinPreferred: false` |
+| Accepted twin path | `Year 1/LCS 103/Pharmacology/Theoretical/Lec 4 - Corticosteroids 1/26 LECTURE ON CORTICOSTEROIDES PDF.pdf` · Family 70 · `twinPreferred: true` |
+| Duplicate authority | Both local files recompute to the same assigned SHA-256 and byte size, report the same 27-page boundary and compare byte-for-byte identical. The manifest gives both rows the same source ID and reciprocal `duplicateOf` paths. |
+
+This is a path-debt adjudication, not a second content source. Family 70 already rendered and
+read every byte-identical page, recorded **1 title page + 26 theoretical teaching compositions
++ 0 assessment pages**, and completed the 17 accepted handles and their 68 searches. Repeating
+the rendering, teaching inventory, searches or prior-LCS comparison for this non-preferred path
+would manufacture duplicate evidence. The Family-71 content weight is therefore **0 additional
+pages / 0 teaching compositions / 0 assessment or written prompt occurrences / 0 printed keys /
+0 practical or station prompts / 0 practical teaching plates / 0 practical mappings / 0 masked
+or unresolved practical callouts / 0 searches / 0 scopes**.
+
+### Cumulative assessment and practical checkpoint
+
+| Evidence dimension | Before Family 71 | Family 71 delta | After Family 71 |
+|---|---:|---:|---:|
+| Eligible observed question records | 532 | +0 | 532 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 256 | +0 | 256 |
+| Question live / pending / new | 10 / 86 / 160 | +0 / +0 / +0 | 10 / 86 / 160 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `27 duplicate pages × 0 additional content weight
+= 0`, `0 assessment prompts / 0 printed keys`, `532 = 532 + 0`, `265 = 265 + 0`, `256 =
+256 + 0`, `10 + 86 + 160 = 256`, `6 + 0 = 6`, `398 + 0 = 398`, `2,496 + 0 = 2,496`,
+`136 + 0 = 136`, and `74 + 0 = 74`.
+
+Removing this remaining path also removes the last remainder occurrence of its already-counted
+hash. The accepted Family-70 6/6 row sets recompute to
+`1c622111a52df918c9215faf762b53da6b86e9d6f4f6c56c7ae1dae5694101e2` and
+`d49df975eea85e8148a2d5c1815ae42656c14428b5f50fef79f02d40839a7d06`.
+The exact post-Family-71 remainder is **5 rank-4/rank-5 path instances / 5 unique hashes**.
+SHA-256 over the bytewise path-sorted `corpusRelativePath<TAB>sha256<LF>` rows is
+`9034c18e737ea147547342d9da33c0a1250d951eb5bb979663101e0fd333b362`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`df66823080e441afc56a07f61c2a1dcc57c3e351a5da245caacffc635d0676b0`.
+
+The exact next new unique-hash gate is tier-4 Pharmacology theoretical source
+`src_d4997a0848a0aa52ae1a`, `26 Calcium Metabolism.pdf` (408,873 bytes; 24 native-text
+pages; SHA-256 `d4997a0848a0aa52ae1a39d26515360f5e2de0bf630169aa0778a364396bd26a`)
+under `Year 1/LCS 103/Pharmacology/Theoretical/Lec 6 - Drugs Affecting Calcium/`. Tier-6 and
+rank-9 source debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103
+S1 remains incomplete. No download, ID, content record, catalogue update, import or source
+copy was created.
