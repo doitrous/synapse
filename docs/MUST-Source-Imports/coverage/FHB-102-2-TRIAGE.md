@@ -122,3 +122,62 @@ Removing the two processed hashes leaves **94 selected inventory paths / 92 uniq
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, 45 pages, with a substantive-text audit sample. Its visual boundary and authority remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 94 selected inventory paths / 92 unique hashes remain untriaged.
+
+## Completed source — FHB102-2 MCQs till Midterm by Absalam101 (Part 1)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf` | `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf` | 45 | substantive-text | pages 1–45 rendered and read | Student-authored revision question bank visibly attributed `By: Absalam101`, created in Microsoft Word in 2025. The filename and title say `Midterm`, but no institution, department, examiner, sitting, marks or authenticated faculty-key mark is visible. Its answer tables are source-printed keys, not official faculty keys. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+The visible title says the file contains 150 questions, and the page-level boundary independently corroborates that claim: five separate 30-question sections, each followed by a complete 30-token answer-only page.
+
+| Section | Question pages | Answer-only page | Objective MCQs | Printed answer tokens |
+|---|---|---:|---:|---:|
+| Parasitology — Introduction | 1–8 | 9 | 30 | 30 |
+| Parasitology — Arthropoda | 10–17 | 18 | 30 | 30 |
+| Microbiology — Chapters 1, 2 and 3 | 19–26 | 27 | 30 | 30 |
+| Microbiology — Chapter 6 | 28–35 | 36 | 30 | 30 |
+| Pharmacology | 37–44 | 45 | 30 | 30 |
+| **Total** | **40 question pages** | **5 answer-only pages** | **150** | **150** |
+
+There are **150 distinct objective prompt observations / 150 prompt-matched printed answer observations / 0 source-absent answers / 0 written prompts / 0 practical or image-identification prompts / 0 teaching prompts**. Page-break continuations remain one prompt occurrence each. Printed answer tokens, including academically questionable ones, are preserved without medical correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 150 prompts collapse source-first into 15 coherent handles. Four are already represented by the prior 22-handle FHB-102-2 family and receive no repeated external search: parasite host/vector/transmission roles collapse to the earlier biological-transmission handle; arthropod vector–disease associations collapse to the earlier vector-specific handles; myiasis classification and management collapse to the earlier wound-myiasis handle; and Gram-wall/plasmid/G+C classification items collapse to the earlier bacterial-structure handles. The remaining **11 accepted handles** each received exactly four manual live-and-pending searches: **11 × 4 = 44 searches**. Every query returned no live or pending match.
+
+| Source refs / handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Parasitology Introduction — taxonomy, parasite types, habitat and lifecycle stages | `medical parasitology parasite classification`; `facultative obligate opportunistic parasite`; `ectoparasite endoparasite definition`; `diagnostic stage infective stage parasite` | no live/pending match — retained new/TBD |
+| Parasitology Introduction — host roles and transmission/zoonosis | prior biological vector-transmission and host-role handle | prior-FHB-102-2 collapse |
+| Arthropoda — insect/arachnid morphology and metamorphosis | `insect arachnid pairs of legs`; `holometabolous hemimetabolous metamorphosis`; `medical arthropod morphology`; `arthropoda insect arachnid classification` | no live/pending match — retained new/TBD |
+| Arthropoda — vector–disease transmission associations | prior vector-transmission, malaria, trypanosomiasis, Lyme, typhus/plague and leishmaniasis handles | prior-FHB-102-2 collapse |
+| Arthropoda — myiasis taxonomy, presentation, forensics and management | prior wound-myiasis handle | prior-FHB-102-2 collapse |
+| Microbiology Ch. 1–3 — microorganism classification and cellular organisation | `microorganism prokaryote eukaryote acellular`; `microbiology scientific nomenclature genus species`; `saprophyte microorganism classification`; `bacteria virus fungi protozoa classification` | no live/pending match — retained new/TBD |
+| Microbiology Ch. 1–3 — capsule, pili, flagella, glycocalyx, periplasm, membrane and L-forms | `bacterial capsule pili flagella glycocalyx`; `bacterial periplasmic space function`; `bacterial cytoplasmic membrane functions`; `bacterial L forms lack cell wall` | no live/pending match — retained new/TBD |
+| Microbiology Ch. 1–3 — Gram wall, plasmid and G+C classification | prior thick-peptidoglycan, plasmid/chromosome and G+C-ratio handles | prior-FHB-102-2 collapse |
+| Microbiology Ch. 6 — normal flora, colonisation and ecological relationships | `normal flora colonization sterile sites`; `commensal mutualistic parasitic relationship microbiota`; `opportunistic pathogen normal flora`; `colonization versus infection microbiology` | no live/pending match — retained new/TBD |
+| Microbiology Ch. 6 — infection, carrier state, pathogenicity and virulence | `carrier state pathogenicity virulence`; `infection pathogenesis definition microbiology`; `bacterial virulence factors overview`; `asymptomatic carrier pathogen shedding` | no live/pending match — retained new/TBD |
+| Microbiology Ch. 6 — adhesion, invasion, spreading factors and immune evasion | `bacterial adhesins pili invasins`; `hyaluronidase collagenase coagulase virulence`; `capsule resistance to phagocytosis`; `bacterial antigenic variation immune evasion` | no live/pending match — retained new/TBD |
+| Microbiology Ch. 6 — endotoxin, exotoxin and superantigen mechanisms | `endotoxin versus exotoxin`; `AB exotoxin A B subunit`; `bacterial superantigen massive immune response`; `endotoxin complement inflammation` | no live/pending match — retained new/TBD |
+| Pharmacology — bactericidal/static, spectrum and killing principles | `bactericidal versus bacteriostatic antibiotics`; `broad spectrum narrow spectrum antimicrobial`; `time dependent antibiotic killing beta lactam`; `antimicrobial chemotherapy principles` | no live/pending match — retained new/TBD |
+| Pharmacology — beta-lactam/PBP, vancomycin and bacitracin cell-wall mechanisms | `beta lactam PBP transpeptidation`; `vancomycin D alanyl D alanine`; `bacitracin cell wall precursor transport`; `peptidoglycan synthesis inhibitor mechanism` | no live/pending match — retained new/TBD |
+| Pharmacology — penicillin classes, formulations, combinations, resistance, uses and allergy | `penicillin classes natural aminopenicillin antipseudomonal`; `beta lactamase inhibitor penicillin combinations`; `penicillin adverse effects hypersensitivity cross reactivity`; `penicillin formulations clinical uses` | no live/pending match — retained new/TBD |
+
+Post-prior disposition is therefore **0 live / 0 pending / 11 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This third one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+150 questions / +150 answers / +11 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 182 | 181 | 33 | 0 | 0 | 33 | TBD |
+
+Removing the three processed hashes leaves **93 selected inventory paths / 91 unique SHA-256s**. Their sorted-newline checksum is `7d058de7f7a9b32b5423302c310b89fa181a695cfbae84cdc368dd4e83a9efd0`. Remaining audit-review debt is **40 substantive-text / 25 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`3 + 91 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf`, SHA-256 `8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c`, 56 pages, with a substantive-text audit sample. Its exact prompt sequence and relation to Part 1 remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 93 selected inventory paths / 91 unique hashes remain untriaged.

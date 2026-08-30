@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "132abca957cc7c6176f4f7116a66b902b3cb79aae8296042272f9efd94534915",
-    "triageMarkdown": "63a79297db3b09e7c605e9d2aca18a886d01388f42797c2cb7fc8a96a1284ac4"
+    "readinessMarkdown": "001c796e135155a2bc385726d8d02047b16bc51e9d30940df80be8bac1ddf2d3",
+    "triageMarkdown": "82305bba71448e6546ad03a4208d69afefa6e5d4487fbbf226ed612624e5e5b1"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,10 +69,11 @@
   ],
   "processedFamilies": {
     "sha256": [
+      "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 2
+    "uniqueSha256": 3
   },
   "completedSourceCoverage": [
     {
@@ -152,15 +153,84 @@
         "academically questionable printed answer tokens are preserved without correction",
         "the printed answer list is source answer evidence rather than an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+      "sourcePages": 45,
+      "renderedReadPages": "1-45",
+      "questionPages": "1-8,10-17,19-26,28-35,37-44",
+      "answerOnlyPages": "9,18,27,36,45",
+      "printedPromptObservations": 150,
+      "objectiveMcqPrompts": 150,
+      "printedKeyObservations": 150,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Parasitology (Introduction)",
+          "questionPages": "1-8",
+          "keyPage": 9,
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Parasitology (Arthropoda)",
+          "questionPages": "10-17",
+          "keyPage": 18,
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Microbiology (Chapters 1, 2 and 3)",
+          "questionPages": "19-26",
+          "keyPage": 27,
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Microbiology (Chapter 6)",
+          "questionPages": "28-35",
+          "keyPage": 36,
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Pharmacology",
+          "questionPages": "37-44",
+          "keyPage": 45,
+          "prompts": 30,
+          "answers": 30
+        }
+      ],
+      "sourceFirstHandles": 15,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 11,
+      "searchesRun": 44,
+      "familyQuestionDelta": 150,
+      "familyAnswerDelta": 150,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 11,
+      "sourceProcessed": true,
+      "authorityDisposition": "student-authored revision question bank visibly attributed to Absalam101 and created in Microsoft Word in 2025; the title and filename call it a midterm bank, but no institution, department, examiner, sitting, marks or authenticated faculty-key mark is visible, so the five printed answer tables are source keys rather than official faculty keys",
+      "boundaryDisposition": "five independent thirty-question conventional MCQ sections, each followed by a complete thirty-token answer-only page; 150 distinct objective prompts and 150 prompt-matched printed answer observations, with no written, practical, image-identification or teaching-only prompt boundary",
+      "preservedSourceDefects": [
+        "the title-page statement that the PDF contains 150 questions is corroborated by the visible five-by-thirty boundary but is not an exam-authority claim",
+        "academically questionable printed answer tokens are preserved without medical correction",
+        "page-break continuations remain one prompt occurrence each",
+        "the printed answer tables are source answer evidence rather than authenticated faculty keys"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 32,
-    "printedKeyObservations": 31,
-    "namedConceptsAssigned": 22,
+    "printedPromptObservations": 182,
+    "printedKeyObservations": 181,
+    "namedConceptsAssigned": 33,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 22
+    "newConcepts": 33
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -174,22 +244,28 @@
     "pages": 6,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirdSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf",
     "sha256": "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
     "pages": 45,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf",
+    "sha256": "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+    "pages": 56,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 94,
-    "uniqueSha256": 92,
-    "sortedNewlineSha256": "a917a85255f8d1ae69a55c137ffef749015d5bb18a6b261663513d22b3fe6e3d",
+    "inventoryMetadataRows": 93,
+    "uniqueSha256": 91,
+    "sortedNewlineSha256": "7d058de7f7a9b32b5423302c310b89fa181a695cfbae84cdc368dd4e83a9efd0",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
       "sparse-text": 25,
-      "substantive-text": 41
+      "substantive-text": 40
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -197,12 +273,12 @@
     "audit-not-found": 11,
     "empty-text": 15,
     "sparse-text": 25,
-    "substantive-text": 41
+    "substantive-text": 40
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 2,
-    "remainingUniqueSha256": 92,
+    "processedUniqueSha256": 3,
+    "remainingUniqueSha256": 91,
     "processedPlusRemaining": 94
   }
 }
