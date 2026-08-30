@@ -14342,3 +14342,86 @@ SHA-256 `3a03c19bd374bb7ded1759e319d1aa69e99c62e81ddcf2c8580b35829e5bf90f`). It 
 unclassified until all pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 102 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 129 — Tier-3 external Lower-Limb Revision (2) unkeyed MCQ-and-matching sheet
+
+### Exact identity, authority and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_3a03c19bd374bb7ded17` / `3a03c19bd374bb7ded1759e319d1aa69e99c62e81ddcf2c8580b35829e5bf90f` |
+| File / boundary | `MCQs - External MCQs Lower limb revision mcq2.pdf` · 224,855 bytes · tagged, unencrypted PDF 1.5 · 4 physical A4 native-text pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Lower limb revision mcq2.pdf` |
+| Visible / metadata authority | The only visible title is `LOWER LIMB REVISION (2)`. Metadata title `k`, author `Twins`, Microsoft Word 2007 creator/producer and 3 April 2016 timestamp identify document provenance only. Neither pages nor metadata supply Helwan, LCS-103, university, cohort, exam, year or sitting authority; the manifest filename explicitly classifies the sheet as external. |
+
+The assigned SHA-256, byte size, native-text state and four-page boundary were recomputed and
+match. All four pages were rendered at 160 dpi and visually read at full resolution. Section
+I is a continuous Q1–Q30 MCQ sequence. Section II is one matching table with five individually
+scorable joint rows (`Hip`, `knee`, `Superior tibiofibular`, `Inferior tibiofibular`, `ankle`)
+against five joint-type choices. Under the standing row-level rule, those five rows are five
+written matching occurrences, not one aggregate prompt.
+
+No selected option, answer list, model response, handwriting or reveal is present. The exact
+boundary is therefore **35 external assessment occurrences = 30 MCQs + 5 written matching
+rows / 0 keys / 35 unkeyed occurrences**. Spelling and typography such as `Planter arch`,
+`chondyle`, `facial lata`, `Anle joint` and the joint-type label `Synovial, modified hing`
+remain source evidence and are not corrected.
+
+### Assessment, teaching and practical boundary
+
+All 30 MCQs are prose-only. The matching grid is an assessment response format; its border,
+row labels and choice bullets are not an anatomical diagram, practical plate, masked label or
+learner-completed mapping. The source contains no specimen, radiograph, clinical photograph,
+micrograph, apparatus task or teaching-only page. It adds **0 practical prompts / 0 teaching
+plates / 0 mappings / 0 practical residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 35 occurrences collapse to **8 source-distinct tested handles**: femoral/profunda femoris
+arteries; leg/foot arteries and anastomoses; great/small saphenous veins; femoral sheath/canal/
+ring, saphenous opening and iliotibial tract; hip surfaces/labrum/ligaments; knee capsule/
+cruciate/locking; ankle-foot ligaments/retinacula/tendons; and lower-limb joint-type
+classification. Each matching row is counted once but shares the joint-classification handle.
+
+Each handle received exactly one fresh search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **8 × 4 = 32 required search invocations**.
+Prior-external-first comparison finds all eight represented across Families 86, 94, 103,
+113–124 and 127. Accepted lower-limb evidence corroborates scope but cannot promote this
+authority-free external sheet. Reconciliation is **8 prior-external reuses + 0 external
+additions = 8**; eligible and external concept-state deltas are zero. Exact query and result
+ledgers are preserved at `tmp/pdfs/lcs103-family129/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family129/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **5,326 / 5,119 / 221 = 12 / 135 / 74** to **5,361 external prompts / 5,119
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `5,326 + 35 = 5,361`, `5,119 + 0 = 5,119`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical
+delta from this source is zero.
+
+This source hash occurs once in the Family-128 remainder. Removing its sole path leaves **101
+all-rank path instances / 95 unique hashes**: tier 3 **19 paths / 18 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 128's prior checksums are
+`50d41a2a586eb64bdb85b412f9e7cbc77e3e9d83ca8cd9acc358555e65a7f723` (paths) and
+`d36425674abf49a28e962b4c7c4812a3480960af062c7b4f77497a4d6c7646f9` (unique hashes).
+For the exact post-Family-129 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`88af5d70b7a6553aa17a399cede70606d39c34aba57eb0ffbf1ba9b61df5e885`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`aac022db193a321cb7c753c2dfc75887f8d0e96c4894d492e953aaaa6f292e5d`.
+
+The exact next tier-3 manifest-order debt is `src_cfa873a27444252626c3`, manifest
+`MCQs - External MCQs Lower_Limb_mcqs.pdf` (225,993 bytes; 55 physical pages; SHA-256
+`cfa873a27444252626c3c33e555bd297bf3cf0ede78cdc53a3cd90f5785d3d28`). The manifest-named
+local path is absent; its exact-copy path `MCQs - Lower_Limb_mcqs.pdf` exists in the same
+directory and recomputes to the assigned hash and byte size. It remains unclassified until
+all pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 101
+tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID, content record,
+catalogue update, import or source copy was created.
