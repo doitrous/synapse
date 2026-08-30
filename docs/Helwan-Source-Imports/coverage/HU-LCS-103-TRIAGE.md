@@ -11570,3 +11570,81 @@ The exact next tier-3 manifest-order debt is `src_fad2f5ab18e1efa59eb1`,
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 132 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 99 — Tier-3 direct LCS Physiology keyed muscle quiz bank
+
+### Exact identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_fad2f5ab18e1efa59eb1` / `fad2f5ab18e1efa59eb1620bfa836c22c791f3de14b488c85ba03c84dfbfd125` |
+| File / boundary | `MCQs - Quiz most important MCQs.pdf` · 138,599 bytes · unencrypted tagged PDF · 9 native-text A4 pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Visible provenance | P. 1 prints `Quiz most important MCQs`; every footer prints `Dr. Omar Sheashaa`. Metadata author is `Omar Sheashaa`; creator and producer are Microsoft Word for Microsoft 365. No faculty, university or formal-sitting label is visible. |
+| Authority finding | Module-local named-instructor Physiology quiz-bank evidence. It is eligible at question-bank authority, but is not a formal sitting paper, response form or separately issued key. |
+
+The assigned hash, byte size and nine-page boundary were recomputed and match. All nine
+pages were rendered at 220 dpi, native text was extracted, and every page was read visually.
+The page boundary is p. 1 Q1–Q6, p. 2 Q7–Q13, p. 3 Q14–Q16, p. 4 Q17–Q21, p. 5
+Q22–Q27, p. 6 Q28–Q32, p. 7 Q33–Q38, p. 8 Q39–Q43 and p. 9 Q44–Q46. Every prompt
+has a printed answer letter in the right-hand key column: **46 MCQ occurrences / 46 printed
+keys**. The letters are preserved exactly as printed; triage does not silently correct or
+infer their medical content. There are no teaching-only pages or unkeyed prompts.
+
+Three within-source pairs repeat the same prompt with option-set or wording changes:
+`Q7≈Q43` (termination by sarcoplasmic-calcium removal), `Q22≈Q31` (tropomyosin at rest),
+and `Q23≈Q32` (sarcomere between Z lines/discs). Thus **46 occurrences collapse to 43
+source-distinct prompt forms** without deleting any occurrence or key.
+
+There is no specimen, trace, practical station, teaching plate, masked label, response blank
+or practical key. Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues
+/ 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 43 forms consolidate to **16 tested handles**: contraction modes/posture; sarcomere
+definition, bands, zones and sliding mechanics; excitation-contraction sequence/T-tubules/
+SR; calcium-troponin-tropomyosin activation; relaxation and twitch termination; three-muscle
+feature comparison; smooth-muscle calmodulin/MLCK; length-tension relation; frequency
+summation/tetanus; skeletal-muscle action-potential refractoriness; neuromuscular-junction
+sequence/properties; ATP-dependent cross-bridge detachment and rigor; tropomyosin's relaxing
+role; skeletal-muscle functions/thermogenesis; filament proteins/myosin heads/cross-bridges;
+and longitudinal myofibril structure/striation.
+
+Each accepted handle received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **16 × 4 = 64 required search invocations**.
+Accepted Families 3, 15, 16, 51, 60, 73, 75 and 97 already own 13 tested scopes. Pending
+Physiology material owns the three remaining complete scopes—rigor from loss of ATP-mediated
+actin/myosin detachment, skeletal-muscle heat production, and myofibril longitudinal
+organisation—but none had an eligible tested handle. Reconciliation is therefore **13 prior
+eligible reuses + 3 pending additions = 16**, with eligible concept delta **0 live / 3
+pending / 0 new**. The source is direct, so the external-bank inventory does not change.
+The exact 64-query ledger is preserved at `tmp/pdfs/lcs103-family99/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **746 / 456 / 319 = 12 / 105 / 202** to **792 observed
+questions / 502 printed keys / 322 distinct tested concepts = 12 live / 108 pending / 202
+new**. Arithmetic is `746 + 46 = 792`, `456 + 46 = 502`, `319 + 3 = 322`,
+`105 + 3 = 108`, and `12 + 108 + 202 = 322`. External assessment remains **2,195 prompts
+/ 2,136 printed keys / 221 concepts = 12 live / 135 pending / 74 new**. Practical totals
+remain **7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with scopes
+**0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-98 remainder. Removing its sole path leaves
+**131 all-rank path instances / 123 unique hashes**: tier 3 **49 paths / 46 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 98's prior checksums are
+`918478a1430a3b78c2ffd0975ae6b872803a25c7d3919ff2c3780061722c36c4` (paths) and
+`8fa66b7879896f0c1bdcfee7e22921cdaf9c2ef5f94f9395ef325c2abe3fbf61` (unique hashes).
+For the exact post-Family-99 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`75eea17aabe2b574c64d404825768c9c0c388901f0d89736b78d1113885e254b`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`a11e021cb7eb1c21005c289f3ce3285d6614ef49f61c5b01a3a6f68142c98e5c`.
+
+The exact next tier-3 manifest-order debt is `src_8b6d81a2e30521fb7845`,
+`MCQs - Student MCQs LL & head and neck written.PDF` (138,720 bytes; 11 native pages;
+SHA-256 `8b6d81a2e30521fb78459ef9c72ee18ac20208ad82da59289593e93965950c4c`).
+It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 131 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
+record, catalogue update, import or source copy was created.
