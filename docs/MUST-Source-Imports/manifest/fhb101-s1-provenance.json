@@ -34,8 +34,8 @@
     "recoveryManifestTsv": "41d75ce7cbda7588df8899dfca164162f3f4617947aa5bee4ed985ee919b70b0",
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
-    "readinessMarkdown": "968c0e5f279268a6ef4aa95fb37c142577ba529ade4c4551b868f75c5bb35c0c",
-    "triageMarkdown": "18bbcf6d6b78dcc44f7e3d177e7a9d3c82616555b7aa51b4106bcf9fce4c4b7d"
+    "readinessMarkdown": "b484cf7b6b8a15b458beb088f82217e542db8787ae170704e624c36a87ee6579",
+    "triageMarkdown": "3bbb32dfa740c5c4e331a8c06c0f3c7e5a0a55e444edf922297d44f4eda084eb"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -151,9 +151,10 @@
       "e6d0c5242f043d70b60c979dea0131e737be9e959db553a23adf38718f6246af",
       "ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af",
       "f23b50418ba1fb9d14494eda1db6c11f5e9d8c9d8e0e0bb4e97dae764b1d5333",
-      "f968cf5a23f4fb2dca711ffe0abedbe3d94f7289ce3e3dc774d967c3fd5861a7"
+      "f968cf5a23f4fb2dca711ffe0abedbe3d94f7289ce3e3dc774d967c3fd5861a7",
+      "fd4b6a9e5c415da313f81663e39a4c4d60127752cf4762fe6799deed68711115"
     ],
-    "uniqueSha256": 86
+    "uniqueSha256": 87
   },
   "completedSourceCoverage": {
     "sha256": "c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983",
@@ -165,25 +166,25 @@
     "sourceProcessed": true
   },
   "remaining": {
-    "inventoryMetadataRows": 20,
-    "uniqueSha256": 20,
-    "sortedNewlineSha256": "1e3c82e12613f2db0e4dfedc337115341bddf0485b9f0b6355f7a139e2b6309f",
+    "inventoryMetadataRows": 19,
+    "uniqueSha256": 19,
+    "sortedNewlineSha256": "6c3a5417ba6fd8ab313e1ef2f569fa45e08248e4abb983529d3fadd91fbc278a",
     "auditSampleStatusCounts": {
       "audit-not-found": 5,
-      "empty-text": 11,
+      "empty-text": 10,
       "substantive-text": 4
     }
   },
   "triageCheckpointRemainingExtractionDebt": {
     "substantiveTextRows": 0,
-    "emptyTextRows": 16,
+    "emptyTextRows": 15,
     "sparseTextRows": 4,
     "source": "pinned triage/readiness checkpoint; not replaced by audit-sample status counts"
   },
   "reconciliation": {
     "selectedUniqueSha256": 106,
-    "processedUniqueSha256": 86,
-    "remainingUniqueSha256": 20,
+    "processedUniqueSha256": 87,
+    "remainingUniqueSha256": 19,
     "processedPlusRemaining": 106
   },
   "year1RecoveryOutcomes": [
