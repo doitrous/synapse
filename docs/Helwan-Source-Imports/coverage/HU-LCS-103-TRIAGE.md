@@ -5410,3 +5410,164 @@ bytes; 90 native-text pages; SHA-256
 103/Anatomy/Theoretical/Lower Limb/Lec 6 - Hip, Knee & Ankle Joints/`. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 46 — Tier-4 hip, knee and ankle-joints lecture with three unkeyed prompts
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_348ca6fdcbd882b2982c` |
+| File / SHA-256 | `Anatomy Lecture Hip_ Knee _ ankle Joints.pdf` / `348ca6fdcbd882b2982c9a73302712b92c23736d295778d2eb32172649990265` |
+| File boundary | 8,214,026 bytes · unencrypted PDF · 90 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 6 - Hip, Knee & Ankle Joints/Anatomy Lecture Hip_ Knee _ ankle Joints.pdf` |
+| Visible provenance | p. 1 prints `Ass. Prof. Dr. Eman El Sawaf`, `Anatomy & Embryology Department`, `Faculty Of Medicine`, and `Capital University (Formerly Helwan)`; PDF author is `User` and creator/producer is Microsoft PowerPoint 2019 |
+| Authority finding | Manifest/path-placed local tier-4 teaching evidence with three ordinary formative prompts. It is not a sitting paper, station sheet, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and 90-page boundary were recomputed and match the assigned source.
+All 90 pages were rendered at 130 dpi and read against the native text layer. Page 1 is the
+provenance slide, p. 2 is the module/anatomy/lower-limb title, pp. 3–4 orient the lower-limb
+bones and regions, pp. 5–6 state the objectives and contents, p. 7 is the hip-joint divider,
+pp. 8–29 teach the hip joint, p. 30 is an `Interactive Question`, p. 31 is the knee-joint
+divider, pp. 32–73 teach the knee joint, p. 74 is an `Interactive Question`, p. 75 is the
+ankle-joint divider, pp. 76–87 teach the ankle joint and summary, p. 88 is an `Interactive
+Question`, p. 89 gives references and p. 90 closes with `Thank You`.
+
+Pages 30, 74 and 88 are genuine ordinary formative prompts because they explicitly request
+or offer a student answer. None prints a correctness mark, selected option, answer reveal or
+explanatory key. The earlier declarative joint slides remain simultaneous teaching evidence;
+they are not silently promoted into printed keys.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's joint figures, labelled diagrams, movement photographs and attachment plates
+remain parts of tier-4 theoretical teaching compositions; they are not promoted into the
+tier-5 practical plate/mapping ledger.
+
+| Physical pages | Source-first instructional composition or actual prompt | Teaching occurrences / assessment disposition |
+|---:|---|---:|
+| 3–4 | lower-limb bones, joints and named regions orientation | 2 teaching compositions |
+| 8–12 | hip type, articular surfaces, cartilage, acetabular labrum and transverse ligament | 5 teaching compositions |
+| 13–17 | hip fibrous-capsule attachments and synovial membrane | 5 teaching compositions |
+| 18–24 | ligament of femoral head and iliofemoral, pubofemoral and ischiofemoral ligaments | 7 teaching compositions |
+| 25–27 | hip arterial and nerve supply | 3 teaching compositions |
+| 28–29 | hip movement geometry and movement classes | 2 teaching compositions |
+| 30 | `What are the muscles acting on the hip joint?` beside flexion, extension, adduction, abduction and medial/lateral rotation category labels | 1 ordinary open prompt; category labels are not muscle answers; no printed key |
+| 32–35 | knee type and femorotibial/patellofemoral articular surfaces | 4 teaching compositions |
+| 36–44 | meniscal structure, attachments, functions, comparison and popliteus relations | 9 teaching compositions |
+| 45–54 | knee fibrous capsule and synovial membrane, suprapatellar bursa, fat pad and cruciate coverings | 10 teaching compositions |
+| 55–56 | knee bursa definition and six-site inventory | 2 teaching compositions |
+| 57–60 | knee ligament overview plus patellar and collateral ligaments | 4 teaching compositions |
+| 61–69 | cruciate-ligament attachments, directions, tension and stability functions | 9 teaching compositions |
+| 70–73 | transverse/oblique/arcuate ligaments, nerve supply, arterial anastomosis and knee movements | 4 teaching compositions |
+| 74 | `Mention the attachments of the anterior cruciate ligament?` | 1 ordinary open prompt; no printed key |
+| 76–79 | ankle type, articular surfaces, capsule/synovium and dorsiflexion stability | 4 teaching compositions |
+| 80–83 | tibiofibular, medial/deltoid and lateral ankle ligaments | 4 teaching compositions |
+| 84–87 | ankle arterial supply, nerve supply, movements and three-joint summary | 4 teaching compositions |
+| 88 | `What is the variety of the ankle joint?` with options hinge, ellipsoid, saddle and pivot | 1 ordinary MCQ prompt; all four options visibly unmarked; no printed key |
+| **Total** | **tier-4 content plus actual prompts** | **78 teaching compositions / 3 ordinary prompts / 0 printed keys** |
+
+The **78 content-slide occurrences are 78 source-distinct teaching compositions**. Pages
+11/12, 25/26, 62/63 and 65/66 repeat text while changing the complete image, annotation or
+layout, so none is an exact copy collapse. SHA-256 comparison of all 90 rendered complete
+pages found no exact full-page duplicate. The three prompt pages remain separate evidence
+occurrences. The full boundary is therefore **78 teaching compositions / 3 ordinary
+questions / 0 practical or station prompts / 0 printed assessment keys / 0 assessment
+residues**. As theoretical material, its figures add **0 practical plates, 0 practical label
+mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 78 compositions consolidate to twenty-five source-level theoretical teaching scopes.
+Each row received the four semicolon-separated query forms shown.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `lower-limb-bones-and-regions-orientation` · pp. 3–4 | lower limb major bones; lower limb regions; femur tibia fibula patella; gluteal thigh leg foot regions | exact accepted Families 41 and 43 handle — prior LCS reuse |
+| `hip-joint-classification` · p. 8 | hip joint type; ball and socket hip; synovial hip joint; multiaxial hip | pending 103-BMS classification; exact accepted Family-20 handle — prior LCS reuse |
+| `hip-joint-articular-surfaces-and-labrum` · pp. 9–12 | hip joint articular surfaces; femoral head lunate acetabulum; acetabular labrum transverse ligament; acetabular fossa fovea cartilage | pending component evidence; no accepted prior-LCS complete handle — new theoretical teaching |
+| `hip-joint-capsule-and-synovium` · pp. 13–17 | hip joint capsule attachments; hip synovial membrane; hip capsule intertrochanteric line; synovium femoral neck ligament head | pending component evidence; no accepted prior-LCS complete handle — new theoretical teaching |
+| `hip-joint-ligaments` · pp. 18–24 | iliofemoral ligament; pubofemoral ligament; ischiofemoral ligament; ligament head femur | pending AU/103-BMS material; exact accepted Families 1 and 20 handle — prior LCS reuse |
+| `hip-joint-blood-supply` · pp. 25–26 | hip joint blood supply; arterial supply hip joint; circumflex femoral obturator hip; gluteal perforating arteries hip | pending AU/103-BMS material; exact accepted Family-20 handle — prior LCS reuse |
+| `hip-joint-nerve-supply` · p. 27 | hip joint nerve supply; articular nerves hip; femoral obturator superior gluteal hip; nerve quadratus femoris hip joint | no accepted prior-LCS complete handle — new theoretical teaching |
+| `hip-joint-movements` · pp. 28–29 | hip joint movements; hip flexion extension abduction adduction; hip circumduction rotation; muscles acting hip joint | pending movement material is external; no accepted prior-LCS complete joint-movement handle — new theoretical teaching |
+| `knee-joint-type-and-articular-surfaces` · pp. 32–35 | knee joint type articular surfaces; modified hinge bicondylar knee; femoral tibial condyles patella articulation; knee hyaline articular cartilage | pending joint-overview components; no accepted prior-LCS complete handle — new theoretical teaching |
+| `knee-menisci` · pp. 36–44 | medial lateral knee menisci; knee menisci attachments functions; meniscofemoral meniscotibial compartments; popliteus lateral meniscus relation | pending knee-overview overlap; exact accepted Family-1 handle — prior LCS reuse |
+| `knee-joint-capsule-and-synovium` · pp. 45–54 | knee joint capsule attachments; knee synovial membrane cruciate ligaments; suprapatellar bursa synovium; infrapatellar fat pad synovial membrane | pending component evidence; no accepted prior-LCS complete handle — new theoretical teaching |
+| `knee-bursae` · pp. 55–56 | knee bursae; bursae around knee; prepatellar infrapatellar bursa; subpopliteal suprapatellar bursa | exact accepted Family-1 handle — prior LCS reuse |
+| `patellar-ligament` · pp. 57–58 | patellar ligament attachments; ligamentum patellae; quadriceps tendon tibial tuberosity; patellar ligament knee | pending knee-capsule material is narrower; no accepted prior-LCS complete handle — new theoretical teaching |
+| `collateral-ligaments-knee` · pp. 57, 59–60 | fibular collateral ligament knee; tibial collateral ligament knee; lateral medial collateral attachments; collateral ligament meniscus relations | pending knee-overview overlap; exact accepted Family-1 handle — prior LCS reuse |
+| `cruciate-ligaments` · pp. 57, 61–69 | anterior posterior cruciate ligaments; ACL PCL attachments; cruciate ligament directions functions; cruciate extension flexion taut | pending 103-BMS knee material; exact accepted Family-1 handle — prior LCS reuse |
+| `secondary-knee-ligaments` · p. 70 | transverse ligament knee; oblique popliteal ligament; arcuate popliteal ligament; secondary knee ligaments | component hits do not own the three-ligament set; no accepted prior-LCS complete handle — new theoretical teaching |
+| `knee-joint-nerve-supply` · p. 71 | knee joint nerve supply; articular nerves knee; femoral obturator tibial knee; common fibular nerve knee joint | no accepted prior-LCS complete handle — new theoretical teaching |
+| `knee-joint-blood-supply` · p. 72 | knee joint blood supply; anastomosis around knee; genicular arteries knee joint; circumflex fibular recurrent tibial knee | pending artery records are components, not the complete joint supply — new theoretical teaching |
+| `knee-joint-movements` · p. 73 | knee joint movements; knee flexion extension rotation; unlocking knee joint; medial lateral rotation knee | pending popliteus material owns unlocking only; no accepted prior-LCS complete movement handle — new theoretical teaching |
+| `ankle-joint-type-and-articular-surfaces` · pp. 76–77 | ankle joint type articular surfaces; talocrural synovial hinge; tibia malleoli trochlea talus; ankle joint variety | pending 103-BMS joint material; no accepted prior-LCS complete handle — new theoretical teaching |
+| `ankle-joint-capsule-synovium-and-stability` · pp. 78–79 | ankle joint capsule synovial membrane; ankle stability dorsiflexion; talocrural capsule; ankle bones fit tighter dorsiflexed | no accepted prior-LCS complete handle — new theoretical teaching |
+| `ankle-joint-ligaments` · pp. 80–83 | ankle joint ligaments; deltoid ligament ankle; lateral ligament ankle; anterior posterior inferior tibiofibular | pending ankle-overview components; no accepted prior-LCS complete handle — new theoretical teaching |
+| `ankle-joint-blood-supply` · p. 84 | ankle joint blood supply; arterial supply ankle; malleolar anastomosis; tibial fibular arteries ankle joint | no accepted prior-LCS complete handle — new theoretical teaching |
+| `ankle-joint-nerve-supply` · p. 85 | ankle joint nerve supply; innervation ankle joint; tibial fibular saphenous sural ankle; five nerves ankle joint | no accepted prior-LCS complete handle — new theoretical teaching |
+| `ankle-joint-movements` · p. 86 | ankle joint movements; dorsiflexion plantarflexion ankle; talocrural movements; ankle hinge movement | pending movement material; accepted inversion/eversion handles concern other joints and do not own this scope — new theoretical teaching |
+
+All **25 × 4 = 100** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **0 live / 19 pending / 6 new**; exact
+accepted-prior comparison prevents eight repeated module additions, leaving **eight
+prior-LCS reuses / seventeen new theoretical teaching scopes**. Declarative teaching scopes
+do not enter the eligible tested-concept count, and no theoretical scope enters the
+practical-teaching-scope counter.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+| Source page / eligible handle | Source prompt inventory | Four required `find-existing` queries | External / prior-LCS result |
+|---|---|---|---|
+| 30 · `hip-muscles-by-movement` | open request for muscles acting across the listed hip-movement classes; no muscle answers or printed key | muscles acting hip joint; hip flexors extensors abductors adductors; hip medial lateral rotators; hip muscle groups movements | pending 103-BMS/AU movement material can absorb the composite; prior individual OINA and hip-adductor handles do not own all six movement groups — pending, new-to-eligible |
+| 74 · `anterior-cruciate-ligament-attachments` | open ACL-attachment request; no answer line or printed key | anterior cruciate ligament attachments; ACL tibial attachment; ACL femoral attachment; anterior cruciate intercondylar area lateral condyle | pending knee material owns the attachment pair; exact component of eligible Family-1 `cruciate-ligaments` — prior eligible reuse with inherited new disposition |
+| 88 · `ankle-joint-hinge-variety` | four-option variety MCQ; all options unmarked and no printed key | ankle joint variety; ankle hinge joint; talocrural hinge variety; what type is ankle joint | pending 103-BMS ankle-joint material explicitly owns the synovial-hinge classification; no earlier eligible LCS prompt owns ankle variety — pending, new-to-eligible |
+
+All **3 × 4 = 12** required assessment-handle searches completed. The raw current external
+result is **0 live / 3 pending / 0 new**; accepted prior-eligible comparison collapses the
+ACL handle, leaving **one prior eligible reuse / two new pending module concepts**. The
+source contributes three observed prompt occurrences and zero printed keys; no answer is
+inferred from adjacent teaching slides, external material or the prior cruciate prompt.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 46 | Family 46 delta | After Family 46 |
+|---|---:|---:|---:|
+| Eligible observed question records | 455 | +3 | 458 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 209 | +2 | 211 |
+| Question live / pending / new | 9 / 54 / 146 | +0 / +2 / +0 | 9 / 56 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `78 = 2 + 5 + 5 + 7 + 3 + 2 + 4 + 9 + 10 +
+2 + 4 + 9 + 4 + 4 + 4 + 4`, `3 prompts = 3 source-distinct handles`, `1 prior eligible reuse +
+2 new-to-eligible = 3 handles`, `455 + 3 = 458`, `242 + 0 = 242`, `209 + 2 = 211`, `9 +
+56 + 146 = 211`, `251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 =
+55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-45
+remainder leaves **30 rank-4/rank-5 path instances / 28 unique hashes**. The Family-45
+method was reproduced first: its 31/29 row sets recomputed to
+`905d7cac60a1797f845dcccfd2a941707acbb3fa7bd87c1746802187cf699ce3` and
+`ce58b03e3071ca9bd48b8ed2815fc4e7d370f48ac68cb8ef74cb3c2265513625`.
+For the exact post-Family-46 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`07baa4cee486ca13352a662bcb85745525027ecb37b91eee7f3d7ecd3e0978e7`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`af858e27a73011813da686f145d3f3ca27a0fdf8bf566414849f05d94fd68252`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_24071cf85eb1a9ea9c62`, `Development Limbs.pdf` (320,989 bytes; 7 native-text pages;
+SHA-256 `24071cf85eb1a9ea9c62b2019439c2e0822f1a4686815abf70781ab4ae828018`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 7 - Development of Limbs & Anatomy of Foot/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
