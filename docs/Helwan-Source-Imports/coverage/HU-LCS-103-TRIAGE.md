@@ -16104,3 +16104,103 @@ under `Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until
 is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 83 tier-3/tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 148 — Tier-3 synthetic external Physiology exam-model bank
+
+### Exact identity, synthetic provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_10e8553062fe8a279449` / `10e8553062fe8a27944946393c3a3335c3c25bbb20e528abe48cc41416ce00df` |
+| File / boundary | `MCQs - mcq physiology ai.pdf` · 93,302 bytes · tagged, unencrypted PDF 1.7 · 4 physical native-text US-Letter pages |
+| Manifest placement | `HU-LCS-103` · Physiology · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Questions/MCQs/MCQs - mcq physiology ai.pdf` |
+| Visible / metadata provenance | Pages are titled `Exam Model 4`, `Exam Model 5` and `Exam Model 6 (MCQ Format)`. Metadata names `Adam Abdalaleem Mohamed Abdalmaqsoad Hasan` as author and Microsoft Word for Microsoft 365 as creator/producer, created and modified 26 July 2025. No page names an instructor, university, faculty, module, cohort, formal exam or sitting. |
+| Synthetic-authority finding | The manifest filename explicitly labels the file `ai`; the pages use a uniform generated exam-model template and attach answer rationales to page numbers 4–46 of an absent upstream document. The pages do not independently disclose an AI system, so triage records the filename-supported synthetic classification without inventing a model or generation method. This is synthetic external revision evidence, not eligible Helwan assessment or a formal exam/key. |
+
+The assigned SHA-256, byte size and four-page boundary were recomputed and match. All four
+pages were rendered at 150 dpi and read visually against the complete native text layer. Each
+model contains six MCQs: Model 4 occupies pp. 1–2, Model 5 pp. 2–3 and Model 6 pp. 3–4.
+Every prompt is immediately followed by `Answer:` plus a letter and a parenthetical claim
+pointing to an absent source page. The complete boundary is **18 external MCQ occurrences /
+18 source-printed inline answers / 0 written prompts / 0 unkeyed prompts**. The parenthetical
+page claims are preserved as source assertions but cannot be verified from this four-page file.
+
+The exact printed answer sequences are Model 4 **C, C, B, B, A, C**; Model 5 **B, A, C,
+B, B, C**; and Model 6 **C, B, C, B, B, B**. Several source defects remain literal. Model
+4 Q3 states that approximately 99% of body phosphate is stored in bone and cites an absent
+p. 6; Model 5 Q2 answers `Hyperpolarizing the sarcolemma` while its parenthetical rationale
+says `Hypokalemia → hypopolarization`; and Model 6 Q3's marked appendicular-skeleton option
+is `Long bones and appendices`. Triage neither endorses nor medically repairs these synthetic
+answer/rationale states.
+
+### Practical and teaching boundary
+
+The document contains only prose MCQs, options, inline answers and parenthetical rationale
+snippets. Its coloured panels and rules are layout furniture, not teaching plates. There is no
+specimen, image-identification task, micrograph, radiograph, trace, apparatus, station, masked
+label, learner-completed map, response blank or practical key. The source adds **0 practical
+prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0 practical keys / 0
+teaching scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 18 occurrences consolidate to **14 source-distinct tested handles**. Every handle received
+one query on each required surface.
+
+| Handle / source questions | Live query | Pending query | Prior-import query | Accepted-LCS query | Disposition |
+|---|---|---|---|---|---|
+| T-tubule-triggered SR calcium release · M4Q1 | `T tubule depolarization opens SR calcium channels` | `excitation contraction coupling T tubules` | `SR calcium release channels muscle` | `depolarization T tubules calcium` | prior-external reuse; accepted Families 99, 144 and 146 corroborate |
+| Duchenne phenotype and X-linked dystrophin · M4Q2 | `calf hypertrophy Gowers X linked dystrophin` | `Duchenne muscular dystrophy case` | `Gowers sign calf pseudohypertrophy` | `DMD dystrophin gene` | prior-external reuse; accepted Families 54 and 77 corroborate |
+| Bone phosphate storage · M4Q3 | `99 percent phosphate stored bone` | `body phosphate distribution bone` | `phosphate storage skeletal system` | `bone phosphate depot` | prior-external reuse |
+| PTH/calcitonin feedback and renal-failure application · M4Q4,M6Q4,M6Q6 | `hypocalcemia PTH secretion hypercalcemia calcitonin` | `PTH calcitonin feedback calcium` | `high PTH low calcium renal failure` | `calcium endocrine feedback` | prior-external reuse; accepted Families 146–147 corroborate |
+| Fracture hematoma stage and remodelling role · M4Q5,M6Q5 | `hematoma first stage fracture repair` | `bone remodeling calcium homeostasis repair` | `fracture healing stages` | `bone repair remodeling` | prior-external reuse; accepted Families 146–147 corroborate |
+| Wolff-law mechanical adaptation · M4Q6 | `Wolff law bone mechanical stress` | `bone adaptation stress remodeling` | `Wolff law physiology` | `bone response mechanical load` | prior-external reuse |
+| Oxygen debt and post-exercise breathing · M5Q1 | `oxygen debt prolonged breathing post exercise` | `excess postexercise oxygen consumption` | `oxygen debt muscle case` | `muscle oxygen debt` | prior-external reuse; accepted Family 147 corroborates |
+| Hypokalaemic sarcolemmal excitability · M5Q2 | `hypokalemia hyperpolarizes sarcolemma excitability` | `low potassium muscle membrane potential` | `hypokalemic muscle excitability` | `hypokalemia physiology` | prior-external reuse; accepted Family 146 corroborates at adjacent grain |
+| Vitamin-D calcium absorption and rickets · M5Q3–Q4 | `vitamin D intestinal calcium absorption rickets` | `rickets vitamin D deficiency` | `vitamin D calcium homeostasis` | `bone vitamin D disorder` | prior-external reuse |
+| Bone metabolic toxic-material storage · M5Q5 | `bone metabolic function lead carbonate storage` | `toxic chemical depot bone` | `bone structural metabolic functions` | `lead storage bone` | prior-external reuse; accepted Family 146 corroborates |
+| Ionized-calcium blood fraction · M5Q6 | `ionized calcium 50 percent blood calcium` | `blood calcium fractions ionized protein bound` | `calcium distribution serum` | `ionized calcium physiology` | prior-external reuse |
+| Optimal sarcomere length–tension overlap · M6Q1 | `optimal sarcomere length maximal tension overlap` | `actin myosin overlap length tension` | `skeletal muscle length tension` | `sarcomere maximal force` | prior-external reuse; accepted Families 15 and 99 corroborate |
+| Smooth-muscle calcium–calmodulin–MLCK initiation · M6Q2 | `smooth muscle calcium calmodulin activates MLCK` | `smooth muscle contraction initiation` | `calmodulin myosin light chain kinase` | `smooth muscle physiology` | prior-external reuse; accepted Families 15, 99 and 147 corroborate |
+| Appendicular-skeleton components · M6Q3 | `appendicular skeleton long bones appendices` | `axial versus appendicular skeleton` | `appendicular skeleton components` | `skeletal system divisions` | prior-external reuse |
+
+All **14 × 4 = 56 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Prior-external-first
+comparison yields **14 prior-external reuses + 0 external additions = 14 handles**. Search
+matches establish coverage only and do not validate the absent-page citations or repair the
+synthetic source. Render/search scratch stayed outside the worktree under
+`/private/tmp/lcs103-family148/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+changes from **6,795 / 6,529 / 221 = 12 / 135 / 74** to **6,813 external prompts / 6,547
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `6,795 + 18 = 6,813`, `6,529 + 18 = 6,547`, `221 + 0 = 221`, and `12 + 135 + 74 =
+221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 147's remainder. Removing its sole path exhausts tier
+3 and leaves **82 all-rank path instances / 77 unique hashes**: tier 3 **0 paths / 0 unique
+hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 147's prior
+checksums are `d140584903498c59c7ab2bc51922006c06062e7667a80b008e339d253c3d2404`
+(paths) and `0c7a81d355416cc8276918c2561a980fde6650daca8a745ecff905b5e38fc623`
+(unique hashes). For the exact post-Family-148 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`fefb7071f858b453ce3a3338a4ea5112b8bbbaf3fafb2a8e26de245df28eb80c`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`76847a0095d3a952f59a5fb37397ccaf1ab201abad8b75e2bad125261c686cf0`.
+
+With tier 3 exhausted, the exact next manifest-order all-rank debt is tier-6
+`src_718e08dfb6d19109dabf`, `103 LCS Approach to Bone diseases 1_240716_164443.pdf`
+(2,337,179 bytes; 37 physical OCR-needed 960 × 540 pt pages; SHA-256
+`718e08dfb6d19109dabfbcbe4ba9392092defe7f322e661d0e0aecee7763f53d`)
+under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every
+page is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 82 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
