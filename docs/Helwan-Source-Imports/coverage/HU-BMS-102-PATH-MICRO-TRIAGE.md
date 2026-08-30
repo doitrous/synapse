@@ -17565,3 +17565,81 @@ SHA-256 `eda268c7a75eb1930662b241c7b167f3a3ae3b62503cc9e5c67d6cb31ab059cd`,
 **471,592 bytes**, 14 native-text portrait US-letter pages under `Pathology / Questions / MCQs`.
 Its independent prompt/answer boundary, paired unkeyed relation, prior-BMS collapse, search ledger,
 arithmetic, and exact next-source blockers remain to be exhausted.
+
+## Family 164 — exact revisit of the Family-5 general-neoplasia solved carrier
+
+### Source identity, complete visual/native boundary, authority, and exact prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 solved `src_eda268c7a75eb1930662` · `MCQs - College MCQs continous assessement neoplasia answer.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `eda268c7a75eb1930662b241c7b167f3a3ae3b62503cc9e5c67d6cb31ab059cd` · **471,592 bytes** |
+| Format / complete visual boundary | **Fourteen native-text portrait US-letter pages**. All 14 rendered at 150 dpi into 14 non-empty 1275×1650 images and were read at page detail. The carrier contains three contiguous solved blocks: A has 25 general MCQs, B has 18 clinical MCQs, and C has 19 further clinical/general MCQs. The page-14 remainder after C19 is blank. No cover, image, practical plate, or hidden terminal key exists. |
+| Native-text reality | Layout extraction contains **2,470 words / 18,567 bytes** and raw extraction contains **2,468 words / 16,773 bytes**. Native text and visual pages each expose **62 option-A blocks and 62 answer lines**. OCR was unnecessary. |
+| Visible/metadata provenance | The pages print MCQs and immediate answers but no visible university, faculty, instructor, module, assessment header, academic year, sitting date, marks, or candidate field. Metadata author is generic `User`; creator is Microsoft Word 2016; producer is `www.ilovepdf.com`; creation/modification time is 3 May 2025. Filename/manifest `continous assessement`, metadata time, and solved status are carrier evidence, not proof of an administered assessment, official key, or date. |
+| Exact prior governance | Family 5 already records this exact source ID/SHA, all 14 pages, all 62 prompts and answers, the 62-stem unkeyed companion, all four tested-scope collapses, all 232 searches, eight prior-BMS reuses, and +50 concepts. This is the same content object, not a new copy, answer layer, sitting, or recurrence. |
+| Authority | Keyed study/continuous-assessment-labelled carrier of weak visible authority. Printed answers are source-supplied evidence, but exact-object reuse cannot upgrade them to an official departmental key. |
+
+### Complete solved prompt/answer/format and companion boundary
+
+The complete current object contains **62 raw text MCQ occurrences / 62 immediate source-answer
+occurrences / 0 unkeyed / 0 T/F / 0 written operations / 0 image-bearing questions / 0 drawing
+tasks / 0 practical stations / 0 candidate responses / 0 residues**. Block arithmetic is **`25 A
++ 18 B + 19 C = 62`**. A1–A25 use a spacious four-option format with visibly printed bold-
+marker answer lines; B1–B18 and C1–C19 use a denser four-option format with immediate plain answer
+lines. Page continuations and section headings are assigned once and do not create questions.
+
+Two visibly printed source-key anomalies remain exactly as Family 5 governed them: A1 asks for
+the distinction between dysplasia and carcinoma in situ but prints `basement membrane invasion`,
+and A16 describes a well-differentiated gland-forming lesion lacking invasion but prints
+`carcinoma in situ`. They remain questionable source-supplied answers, not silently corrected or
+promoted to official truth.
+
+Family 5's within-solved-carrier collapses remain exact: C06→A10 (grade/differentiation), C09→A04
+(anaplasia), C11→B11 (PTHrP-associated hypercalcaemia), and C15→B15 (APC/FAP). Thus **`62 - 4 =
+58` handles**. The paired unkeyed `src_8863ae6cda793e477301` replays the same 62 stems/options and
+adds neither another retained record nor an inferred answer; Family 5 already assigned the joint
+checksum as `62 solved + 62 unsolved = 124` raw occurrences, 62 answers, and 62 retained records.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 164 accepts **0 new retained records and 0 new handles**. Family 5 already ran exactly four
+searches for each of the 58 handles (**232 searches**) and reconciled eight prior-BMS reuses,
+yielding +50 concepts. Re-running the same search packets for the identical source ID/SHA/page/
+prompt/answer boundary would fabricate work and false recurrence. The standing gate is therefore
+**`0 new handles × 4 = 0 required and completed new searches`**; no empty per-handle ledger is
+invented. Prior reuse and concept delta are both **0 Family-164 additions**.
+
+### Family-164 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 164 addition | Auxiliary cumulative (Families 12–164) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 62 solved | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 62 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 62 originally | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 58 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 5 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **58 source-local** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The object checksum remains `62 MCQ = 62 immediate answers`, `62 - 4 = 58 handles`, and Family
+5's `58 × 4 = 232` completed searches. Family-164 arithmetic is independently zero: `0 prompts +
+0 answers + 0 retained + 0 handles + 0 concepts`. Corrected primary remains **762 / 405 / 552 /
+372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles / +906
+concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 164 adds exact-carrier revisit and manifest-order evidence only. It establishes no new
+question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 164
+
+`src_eda268c7a75eb1930662` is re-exhausted without double counting: every page, native stem,
+option, immediate answer, questionable printed key, section transition, metadata field, visible-
+authority absence, Family-5 companion relation, original collapse/search boundary, zero gate, and
+cumulative term is assigned once, with **zero remainder** and no Family-164 blocker. The exact next
+manifest record is its tier-3 unkeyed companion `src_8863ae6cda793e477301` · `MCQs - College MCQs
+continous assessement neoplasia.pdf`, SHA-256
+`8863ae6cda793e477301523895a1030ba3215ee78f603f2a14d8d62eb256a10b`, **207,400 bytes**,
+14 native-text portrait US-letter pages under `Pathology / Questions / MCQs`. Its exact prompt
+replay, malformed numbering, absent-answer state, zero-search gate, arithmetic, and exact next-
+source blockers remain to be exhausted.
