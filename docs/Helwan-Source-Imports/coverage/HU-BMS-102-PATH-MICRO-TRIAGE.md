@@ -8777,3 +8777,74 @@ one 1280×960 JPEG under `Pathology / Notes and Summaries`. It is visibly circle
 same `Cell injury II` pair and compares organ patterns of amyloidosis. Its complete
 teaching/prompt/answer and annotation boundary, provenance/timestamp limitation, relationship
 to Family 77 and Family 74, and independent zero-or-count ruling are the next-source blockers.
+
+## Family 78 — handwritten `Cell Injury II` amyloidosis page 2 screenshot
+
+### Source identity, original-image boundary, provenance, and sequence ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_9e19a1f77a84493d195f` · `2026-07-20 06.14.23.jpg` |
+| SHA-256 / size | `9e19a1f77a84493d195f6b551408401a456a2293dcfc5e7284127e9341eb1a51` · 207,273 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×960 JPEG; opened and read at original resolution |
+| Visible source identity | Handwritten sheet circled `2`, headed `Cell injury II` and `classification of Amyloidosis`; no institution, module, author, instructor, date, assessment label, or key designation |
+| Embedded date metadata | None recovered; the filename/manifest timestamp is non-authoritative |
+
+This is page 2 of the `Cell injury II` pair begun in Family 77. Five completed columns summarize
+renal, liver, heart, spleen, and gastrointestinal amyloidosis: distribution/classification,
+gross and microscopic appearances, and clinical/pathological effects. The renal column lists
+proteinuria, nephrotic syndrome, and renal failure; the liver and heart columns describe
+pressure atrophy, deposits, and failure/arrhythmia; the spleen column compares sago and diffuse
+patterns; and the GIT column covers tongue, gingiva, stomach, malabsorption, and diarrhoea.
+The circled page number and matching paper/ink/style close the two-page sequence. Timestamp
+ordering is useful only for sequence and cannot establish authorship, teaching date, or sitting.
+
+### Teaching, annotation, overlap, and zero gate
+
+All visible content is declarative and already filled. Pink highlights mark the two headings;
+red, blue, and black ink distinguish completed terms and relations. Circles, underlines, arrows,
+and column divisions organize the note and do not select answers. Row labels such as `def`,
+`gross`, `M/F`, and `disease` are categories, not response blanks.
+
+There is no question stem, command, option set, response frame, audience question, prompt-like
+residue, or answer register. The sheet substantially restates Family-74 p. 4's organ-specific
+amyloid teaching and continues Family 77, but that overlap is teaching provenance rather than
+assessment evidence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 78 | Auxiliary cumulative (Families 12–78) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 78 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 78
+
+`src_9e19a1f77a84493d195f` is exhausted: every heading, organ column/row, completed teaching
+statement, annotation convention, prompt absence, Family-77 sequence relation, Family-74
+overlap, timestamp limitation, zero search gate, and unchanged arithmetic is assigned once,
+with **zero source remainder** and no Family-78 blocker. The exact next manifest-ordered
+BMS-102 record is tier-6 `src_8ddee8c5b140d98ecac4` · `2026-07-20 06.14.37.jpg`, SHA-256
+`8ddee8c5b140d98ecac43185fd969c45a1fca0774b49180b478dbc0e00b5ab85`, 112,192 bytes,
+one 1280×673 JPEG under `Pathology / Notes and Summaries`. Its non-standard crop begins another
+handwritten pathology comparison whose sequence/page relation is not yet visually bounded.
+Its full teaching/prompt/answer and annotation boundary, provenance/timestamp limitation,
+relationship to adjacent images, and overlap with Family 74/prior BMS evidence are the
+next-source blockers.
