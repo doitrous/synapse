@@ -5063,3 +5063,62 @@ Removing this one empty-text path and unique hash leaves **41 selected inventory
 The next bounded `05 MCQs` source is the 15-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - DOC-20251228-WA0243..pdf`, SHA-256 `d9a07518aecda26323373d582d437e0b854a0bcf083cf21a730ab0aa2e266f06`.
 
 **BLOCKED — S1 cannot be approved:** 41 selected source paths remain untriaged.
+
+## Completed source — DOC-20251228-WA0243
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - DOC-20251228-WA0243..pdf` | `d9a07518aecda26323373d582d437e0b854a0bcf083cf21a730ab0aa2e266f06` | 15 | empty-text image scan | pages 1–15 rendered and read | iLovePDF-produced file with CamScanner page stamps, headed `Blood Physiology – MCQ Exam (50 Questions)`; it prints no institution, department, sitting, date, marks, examiner or official-key claim. The numbered MCQs and terminal `Answers` table establish a local assessment/revision bank, not teaching exposition or an official exam. |
+
+### Exact prompt, key and teaching boundary
+
+Pages 1–14 form one continuous assessment numbered Q1–Q50. Prompts split at page breaks were counted once: page 2 completes Q4, page 3 completes Q8, page 6 completes Q19, page 7 completes Q23, page 8 completes Q27, page 9 completes Q31, page 12 completes Q42, page 13 completes Q46, and page 14 completes Q50. Page 15 is a terminal `Answers` table with one printed letter for every integer Q1–Q50. The exact boundary is therefore **50 prompt occurrences / 50 printed keys / 50 prompt-matched recovered answers**. This is a distinct question bank, not a byte or prompt-sequence duplicate of the preceding 90-item bank; its concepts overlap extensively. No answer was inferred, corrected or supplied from another file.
+
+The printed key is: Q1–Q10 `B,C,C,C,A,B,D,C,C,C`; Q11–Q20 `C,B,C,C,C,B,B,C,B,B`; Q21–Q30 `C,C,C,B,C,C,B,C,B,C`; Q31–Q40 `A,C,D,B,C,B,C,B,C,C`; Q41–Q50 `B,B,C,C,B,C,C,B,B,C`.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 50 prompts are assigned exactly once to 20 source-first handles. Each handle received the four identifying searches shown, for **20 × 4 = 80 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1, Q7 | Regulation of iron homeostasis, macrophage release and absent regulated excretion (`iron homeostasis absorption macrophages`; `iron excretion regulation`; `hepcidin iron homeostasis`; `macrophage iron release`) | new externally; exact prior-FHB iron-homeostasis duplicate. |
+| Q2–Q4, Q8 | Body-iron distribution, ferritin storage, erythrocyte recycling and hemosiderosis (`body iron hemoglobin percentage`; `ferritin iron storage`; `senescent RBC iron recycling`; `hemosiderosis hemosiderin deposition`) | live-hit; exact prior-FHB iron-distribution/storage duplicate. |
+| Q5–Q6, Q38 | Heme/non-heme bioavailability and ferric-to-ferrous reduction (`heme nonheme iron bioavailability`; `ferric ferrous ascorbic acid`; `gastric HCl iron absorption`; `dietary iron absorption`) | live-hit; exact prior-FHB iron-absorption duplicate. |
+| Q9–Q11, Q39 | Vitamin-B12/folate DNA synthesis, intrinsic factor and pernicious anaemia (`vitamin B12 DNA synthesis`; `intrinsic factor parietal cells`; `folate macrocytic anemia`; `pernicious anemia parietal cells`) | pending-hit; exact prior-FHB B12/folate duplicate. |
+| Q12–Q13 | Plasma fraction of body weight and sodium as chief plasma cation (`plasma percentage body weight`; `chief plasma cation sodium`; `plasma volume body weight`; `plasma electrolyte sodium`) | new externally; exact prior-FHB plasma-composition duplicate. |
+| Q14, Q16–Q18 | Albumin/globulin ratio and plasma-protein capillary/viscosity functions (`albumin highest plasma concentration`; `albumin globulin ratio liver`; `plasma proteins capillary pores`; `fibrinogen plasma viscosity`) | pending-hit; exact prior-FHB plasma-protein duplicate. |
+| Q15 | Plasma-cell formation of gamma globulins (`gamma globulin plasma cells`; `immunoglobulins plasma cells`; `gamma globulin formation`; `plasma cell antibodies`) | pending-hit; exact prior-FHB immunoglobulin/plasma-cell duplicate. |
+| Q19–Q20 | ESR interpretation and rouleaux-promoted sedimentation (`ESR prognostic test`; `rouleaux ESR immunoglobulins`; `erythrocyte sedimentation rate`; `rouleaux formation`) | pending-hit; exact prior-FHB ESR/rouleaux duplicate. |
+| Q21–Q22 | Osmotic fragility and hereditary spherocytosis (`RBC osmotic fragility NaCl`; `hereditary spherocytosis fragility`; `spherocytes osmotic fragility`; `hemolysis saline 0.5`) | pending-hit; exact prior-FHB osmotic-fragility duplicate. |
+| Q23, Q40–Q41 | Anaemia/polycythaemia effects on viscosity and cardiac work (`polycythemia blood viscosity`; `anemia cardiac work`; `RBC count viscosity`; `hematocrit blood viscosity`) | live-hit; exact prior-FHB anaemia/polycythaemia duplicate. |
+| Q24–Q27 | Adult erythropoiesis and renal erythropoietin response to hypoxia (`adult erythropoiesis flat bones`; `erythropoietin committed stem cells`; `erythropoietin kidney adults`; `hypoxia erythropoietin secretion`) | live-hit; exact prior-FHB erythropoiesis/EPO duplicate. |
+| Q28–Q31 | Coagulation-factor groups, vitamin-K dependence and intrinsic/extrinsic initiation (`coagulation factor VIII group`; `vitamin K factors II VII IX X`; `tissue thromboplastin extrinsic`; `intrinsic pathway more steps`) | pending-hit; exact prior-FHB coagulation-pathway duplicate. |
+| Q32 | Antithrombin-III inhibition of activated factors (`antithrombin III factors IX X XI XII`; `antithrombin activated clotting factors`; `physiological anticoagulant antithrombin`; `serine protease inhibitor antithrombin`) | new externally; exact prior-FHB antithrombin duplicate. |
+| Q33 | Thrombocytopenic purpura and platelet-count threshold (`thrombocytopenic purpura platelet count`; `purpura platelets below 50000`; `platelet count bleeding purpura`; `thrombocytopenia definition`) | pending-hit; exact prior-FHB thrombocytopenia/purpura duplicate. |
+| Q34 | Congenital X-linked recessive haemophilia (`hemophilia sex linked recessive`; `congenital hemophilia inheritance`; `X linked hemophilia`; `hemophilia carrier mother`) | live-hit; exact prior-FHB haemophilia-inheritance duplicate. |
+| Q35 | Disseminated intravascular coagulation as simultaneous clotting and bleeding (`disseminated intravascular coagulation bleeding clotting`; `DIC consumption coagulopathy`; `DIC thrombosis hemorrhage`; `disseminated coagulation`) | new externally; exact prior-FHB DIC duplicate. |
+| Q36–Q37 | MCV calculation and microcytic-hypochromic iron-deficiency anaemia (`MCV hematocrit RBC count`; `microcytic hypochromic iron deficiency`; `red cell indices MCV`; `iron deficiency anemia indices`) | live-hit; exact prior-FHB red-cell-index/iron-deficiency duplicate. |
+| Q42–Q44 | Haemostasis definition, megakaryocyte origin and platelet lifespan (`hemostasis prevention blood loss`; `platelets megakaryocytes`; `platelet lifespan 7 10 days`; `primary hemostasis platelets`) | new externally; exact prior-FHB haemostasis/platelet duplicate. |
+| Q45–Q47 | Platelet factor 3 and dense/alpha granule contents (`platelet factor 3 phospholipids`; `platelet dense granules ADP serotonin`; `platelet alpha granules PDGF`; `platelet granule contents`) | new externally; exact prior-FHB platelet-granule duplicate. |
+| Q48–Q50 | Von-Willebrand adhesion, calcium-mediated activation and thromboxane aggregation (`von Willebrand platelet adhesion collagen`; `intracellular calcium platelet activation`; `thromboxane A2 platelet aggregation`; `platelet activation adhesion aggregation`) | live-hit; exact prior-FHB platelet-activation duplicate. |
+
+The source-level search split is **7 live / 7 pending / 6 new = 20 handles**. Every handle is exact reuse of completed prior-FHB scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+50 questions / +50 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4836 | 4529 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **40 selected inventory paths / 40 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `ce19248a94fb08dc3f03b97b6ede670d3c6f09c6514b90ff183dc9edb291e501`. Pinned triage debt becomes **eight substantive-text / five sparse-text / 27 empty-text** rows, and unique-hash accounting is **`66 + 40 = 106`**.
+
+The next bounded `05 MCQs` source is the 15-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - physiology ques 1.pdf`, SHA-256 `af3e920291b581bbc053205c0f42229a4cee595d7a1a086011b4dcaec2f19ee6`.
+
+**BLOCKED — S1 cannot be approved:** 40 selected source paths remain untriaged.
