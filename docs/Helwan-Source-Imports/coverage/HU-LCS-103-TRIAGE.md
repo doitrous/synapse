@@ -15483,3 +15483,110 @@ SHA-256 `667eb451ca7f342d6d69e90b84a5d31d65c0bee02a22eff8b5fa4dc129c49035`).
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 89 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 142 — Tier-3 student-authored keyed Histology MCQ bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_667eb451ca7f342d6d69` / `667eb451ca7f342d6d69e90b84a5d31d65c0bee02a22eff8b5fa4dc129c49035` |
+| File | `MCQs - Histology Student MCQs 103.pdf` |
+| File / boundary | 444,035 bytes · tagged, unencrypted PDF 1.7 · 28 physical US-Letter native-text pages |
+| Manifest placement | `HU-LCS-103` · Histology · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Histology/Questions/MCQs/MCQs - Histology Student MCQs 103.pdf` |
+| Visible / metadata provenance | Page 1 says `Histology 103` and `1-Quiz content (Cartilage&Bone)`; later red section labels read `2-Cartilage`, `2-Bone` and `3-Muscles`. Every page carries a decorative Arabic devotional header. Metadata names author `Eman Ibrahem Hefny Ibrahem`, Microsoft Word and 16 August 2025 creation/modification. No page or metadata identifies Helwan University, a faculty, instructor, cohort, formal exam, sitting or official answer authority. |
+| Authority finding | The manifest explicitly identifies a student MCQ compilation. The body establishes LCS-103 Histology relevance but not eligible Helwan assessment or official-key authority; all governed occurrences remain external. |
+
+The assigned hash, byte size and 28-page physical boundary were recomputed and match. All 28
+pages were rendered at 120 dpi and read visually against the complete native text layer. Pages
+1–23 carry one uninterrupted Q1–Q193 sequence; `Key Answers` begins after Q193 on page 23
+and continues through page 28. It supplies exactly one printed letter for every question. The
+source sections contain **44 mixed cartilage-and-bone quiz MCQs (Q1–Q44) + 60 cartilage MCQs
+(Q45–Q104) + 55 bone MCQs (Q105–Q159) + 34 muscle MCQs (Q160–Q193) = 193 external MCQ
+occurrences / 193 printed answer letters / 0 unkeyed occurrences / 0 written prompts**.
+
+Source defects are retained as printed without inference or medical repair. Examples include
+Q27's `highly vascular` cartilage stem keyed `E`; Q38 and Q41 keyed `E`; Q58's cartilage
+`lymph, nerve` wording keyed `B`; Q63's elastic-cartilage true/false item keyed `B`; Q72 keyed
+`B`; malformed Q92 keyed `C`; and Q104 keyed `A`. Bone items preserve Q115 `D`, Q120 `C`,
+Q127 `B`, Q135 `D`, Q143 `A`, Q147 `B` despite no D option, and Q151 `B`. Muscle items
+preserve Q161 `E`, Q165 `E`, Q180's compound `D. B and c` keyed `D`, Q185 `A`, Q186 `C`,
+Q189 `B`, Q190 `D`, Q192 `D` and Q193 `B`. These are source-key observations, not endorsed
+answers.
+
+### Teaching and practical boundary
+
+The entire source is prose MCQs plus its answer grid. There is no micrograph, specimen,
+diagram, masked label, station, apparatus task, learner-completed map or standalone teaching
+section. Decorative borders, devotional headers, red section headings and the answer list are
+page furniture or assessment formatting, not practical plates or teaching scopes. The source
+adds **0 practical prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0
+practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 193 occurrences collapse to **12 source-distinct tested handles**: cartilage matrix and
+avascular composition; cartilage cells, perichondrium and growth; hyaline cartilage; elastic
+cartilage; fibrocartilage; osteogenic cells, osteoblasts and osteocytes; osteoclasts and bone
+resorption; compact/spongy bone architecture; ossification and epiphyseal-plate zones;
+skeletal muscle; cardiac muscle; and smooth muscle.
+
+The exact four-query ledger was:
+
+| Handle | Live query | Pending query | Prior-import query | Accepted-LCS query |
+|---|---|---|---|---|
+| Cartilage matrix/composition | `cartilage matrix composition` | `cartilage avascular matrix GAG` | `cartilage connective tissue matrix` | `cartilage matrix histology` |
+| Cartilage cells/perichondrium/growth | `chondroblast chondrocyte perichondrium` | `cartilage appositional interstitial growth` | `cell nest chondrogenic layer` | `cartilage cells growth histology` |
+| Hyaline cartilage | `hyaline cartilage histology` | `hyaline articular costal cartilage` | `type II collagen hyaline cartilage` | `hyaline cartilage sites` |
+| Elastic cartilage | `elastic cartilage histology` | `ear pinna epiglottis cartilage` | `yellow elastic cartilage perichondrium` | `elastic cartilage sites` |
+| Fibrocartilage | `fibrocartilage histology` | `white fibrocartilage sites` | `type I collagen fibrocartilage` | `fibrocartilage intervertebral symphysis` |
+| Bone-forming/maintaining cells | `osteogenic osteoblast osteocyte` | `bone forming cells histology` | `osteoblast osteocyte alkaline phosphatase` | `bone cells histology` |
+| Osteoclast/resorption | `osteoclast bone resorption` | `Howship lacuna carbonic anhydrase` | `osteoclast ruffled border lysosome` | `osteoclast histology` |
+| Compact/spongy bone architecture | `compact spongy bone histology` | `Haversian Volkmann canal` | `periosteum endosteum osteon trabeculae` | `bone architecture histology` |
+| Ossification/epiphyseal plate | `endochondral intramembranous ossification` | `epiphyseal plate zones` | `cartilage model bone formation` | `ossification histology` |
+| Skeletal muscle | `skeletal muscle histology` | `sarcomere triad dystrophin` | `red white muscle fibers satellite cells` | `skeletal muscle histology` |
+| Cardiac muscle | `cardiac muscle histology` | `intercalated disc diad Purkinje` | `ANF BNF cardiac muscle` | `cardiac muscle histology` |
+| Smooth muscle | `smooth muscle histology` | `dense bodies alpha actinin` | `smooth muscle filaments` | `smooth muscle histology` |
+
+All **12 × 4 = 48 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Prior-external-first
+comparison finds all twelve handles already represented across Families 84–85 and 96–102,
+with accepted Histology Families 49–60 and Physiology Families 75–76 corroborating curricular
+fit without promoting this student-authored bank into eligible Helwan evidence. Reconciliation
+is **12 prior-external reuses + 0 external additions = 12**; eligible and external concept-state
+deltas are zero. Search/render scratch stayed outside the worktree under
+`/private/tmp/lcs103-family142/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **6,560 / 6,294 / 221 = 12 / 135 / 74** to **6,753 external prompts / 6,487
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `6,560 + 193 = 6,753`, `6,294 + 193 = 6,487`, `221 + 0 = 221`, and `12 + 135 +
+74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 141's remainder. Removing its sole path leaves **88
+all-rank path instances / 83 unique hashes**: tier 3 **6 paths / 6 unique hashes within tier**,
+tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 141's prior checksums are
+`450e48def83ac83f0ecaca994a2a7e685405077df3350ea05a297566be20259e` (paths) and
+`82be70d3cb36885ce0c5dbd69ce767841c31afa1eccd11dbc418b1ef24b12744` (unique hashes).
+For the exact post-Family-142 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0b3f1154080e9f8d6e152162f23e77589c2db639c33923af409e1a89d576d50b`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`cee78e1a98358c38e0bc1451ca565ef610c7578337225e7ccc94fd854403ed94`.
+
+The exact next tier-3 manifest-order debt is `src_d24024cfcd418918201f`, manifest
+`MCQs - joint mcq with answers.pdf.pdf`, whose existing normalized local source is
+`Year 1/LCS 103/Pathology/Questions/MCQs/MCQs - joint mcq with answers.pdf` (67,855 bytes;
+7 physical native-text pages; SHA-256
+`d24024cfcd418918201fea7f9ce01eacae96fd68874b0fb532b08822eb4e8063`). It remains
+unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 88 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
