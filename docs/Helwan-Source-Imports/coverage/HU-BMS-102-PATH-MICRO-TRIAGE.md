@@ -8187,3 +8187,150 @@ University, for 2024–2025; PDF metadata title `Microbiology` and author `Esraa
 visible adjudication. Its unread teaching/prompt/answer boundary and metadata-versus-cover
 provenance are the next-source processing blockers: fully render and visually adjudicate the
 complete source before admitting any count.
+
+## Family 72 — tier-4 Helwan general-virology and general-mycology full lecture carrier
+
+### Source identity, complete visual boundary, provenance, and answer convention
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_96d779ff8df7da5cf16c` · `lec8 General virology 2.pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 9 - General Virology & Mycology/lec8 General virology 2.pdf` |
+| SHA-256 / size | `96d779ff8df7da5cf16c7a6349b8594fc8f1a9d34168df587302e5a86d82cbda` · 2,849,607 bytes |
+| Format / read boundary | 53 native-text landscape 720×540-point pages; native text extracted, all 53 pages rendered at 110 dpi and read in seven ordered contact sheets, and every question-bearing or question-like page reopened at full-page resolution |
+| Visible provenance | The p. 1 cover identifies `General virology / General mycology`, Dr. Reem Abdelrahman, Lecturer of Microbiology and Immunology, Faculty of Medicine, **Helwan University**, 2024–2025 |
+| Metadata conflict | PDF metadata title is `Microbiology` and author is `Esraa`. The complete visible cover is the authoritative author/institution/year boundary, so this is recorded as Reem Abdelrahman/Helwan 2024–2025 material while the conflicting metadata is preserved rather than silently reconciled. |
+| Authority | Tier-4 local theoretical teaching deck with embedded answer annotations; no examiner, sitting, marks, candidate instructions, response form, departmental question-bank designation, or official exam-key section |
+
+The complete carrier contains 14 questions on five recap slides. Each question has exactly one
+red rectangle or circle embedded around a selected response; slide 39 also carries a black
+`latent` correction beside the first statement. Across the five slides this stable source-native
+selection convention supplies 14 printed teaching-answer occurrences, not an official exam key.
+Red underlines/circles elsewhere emphasize declarative lecture text and are not promoted to
+questions or additional answers. Page 3's `viruses ????` and p. 15's `Viral nucleic acids in
+medicine????????` are noun-phrase teaching residues without a requested operation, option set,
+response field, or independent mapped answer. The `Any questions?` slides on pp. 40 and 52 are
+audience transitions, not assessment prompts.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | Helwan/Reem Abdelrahman cover and virology objectives | provenance/teaching only; **0 / 0** |
+| 3–6 | virus introduction/properties/size | declarative teaching; p. 3 noun-phrase residue excluded; **0 / 0** |
+| 7 | two complete virus-definition/property MCQs, each with one red answer rectangle | **2 / 2** |
+| 8–20 | viral structure, capsid/symmetry/genome/envelope/enzymes, and atypical agents | declarative/illustrative teaching; p. 15 noun-phrase residue excluded; **0 / 0** |
+| 21 | three complete capsid/genome/envelope MCQs with red answer rectangles | **3 / 3** |
+| 22–27 | cultivation methods and detection of replication in cell culture | declarative teaching only; **0 / 0** |
+| 28 | three complete cell-culture/cell-line true/false prompts with red answer circles | **3 / 3** |
+| 29–32 | diagnosis methods and viral-replication sequence/diagram | declarative teaching only; **0 / 0** |
+| 33 | four complete attachment/penetration/eclipse true/false prompts with red answer circles | **4 / 4** |
+| 34–38 | viral pathogenesis, local/systemic/persistent patterns, persistence mechanisms, and treatment | declarative teaching only; **0 / 0** |
+| 39 | chronic-versus-latent inverse true/false pair with red answer circles and black correction | **2 / 2** |
+| 40–42 | audience transition, general-mycology title, and objectives | transition/teaching only; **0 / 0** |
+| 43–51 | fungal characters/classification, allergies, mycotoxicosis, and antifungal drugs | declarative/illustrative teaching only; **0 / 0** |
+| 52–53 | audience-transition image and multilingual thanks | closing only; **0 / 0** |
+
+The source therefore contains **14 prompt occurrences / 14 printed teaching-answer occurrences /
+0 unkeyed prompt occurrences**. The two incomplete noun-phrase residues and two audience-
+transition questions remain outside all prompt totals. There are no literal prompt copies. The
+two p. 39 inverse true/false records test one latent-versus-chronic distinction, so all **14**
+records are retained and `14 - 1 semantic reduction = 13 source-distinct tested handles`.
+
+### Prompt, answer, full-carrier relationship, and prior-BMS assignment
+
+| Ref | Page | Complete source-tested scope / printed teaching answer | Handle / prior assignment |
+|---|---:|---|---|
+| F72-Q01 | 7 | Virus as the smallest infectious agent with broad human/animal/insect/plant/bacterial host range; first option | `viruses-smallest-infectious-agents-broad-host-range` · exact Family 18 Q01 reuse |
+| F72-Q02 | 7 | Viruses as obligate intracellular parasites; D | `viruses-obligate-intracellular-parasites` · exact Family 18 Q02 reuse |
+| F72-Q03 | 21 | Capsid composition from capsomers whose arrangement determines symmetry; C | `viral-capsomers-arrangement-determines-symmetry` · exact Family 18 Q03 reuse |
+| F72-Q04 | 21 | Viral nucleic acid as the infectious part and coreless particles as non-infectious; A | `viral-nucleic-acid-infectivity` · exact Family 18 Q04 reuse |
+| F72-Q05 | 21 | Viral envelope may carry glycoprotein spike-like projections; B | `viral-envelope-glycoprotein-spikes` · exact Family 18 Q05 reuse |
+| F72-Q06 | 28 | Cell culture as a monolayer/sheet derived from animal or human tissue; true | `cell-culture-monolayer-definition` · exact Family 18 Q06 reuse |
+| F72-Q07 | 28 | Primary cell lines are not human-embryo fibroblast diploid lines; false | `primary-versus-human-diploid-cell-line-origin` · exact Family 18 Q07 reuse |
+| F72-Q08 | 28 | Human diploid cell lines divide for up to 50 passages; true | `human-diploid-cell-line-finite-passages` · exact Family 18 Q08 reuse |
+| F72-Q09 | 33 | Viral attachment does require specific host-cell receptors; false on the negated statement | `viral-attachment-specific-host-receptors` · exact Family 18 Q09 reuse |
+| F72-Q10 | 33 | Non-enveloped virions enter by endocytosis and undergo lysosomal uncoating; true | `nonenveloped-virus-endocytosis-lysosomal-uncoating` · exact Family 18 Q10 reuse |
+| F72-Q11 | 33 | Enveloped viruses enter by envelope/cell-membrane fusion, releasing nucleocapsid; true | `enveloped-virus-membrane-fusion-entry` · exact Family 18 Q11 reuse; also Family 46 Q04 |
+| F72-Q12 | 33 | Eclipse as the post-penetration period with no detectable infectious virus; true | `viral-eclipse-no-detectable-infectious-virus` · exact Family 18 Q12 reuse |
+| F72-Q13 | 39 | Chronic infection is not hidden persistence with periodic reactivation; false plus `latent` correction | `latent-not-chronic-hidden-periodic-reactivation` · exact Family 18 Q13 reuse |
+| F72-Q14 | 39 | Latent infection is hidden persistence with periodic reactivation; true | retained inverse variant; collapse to Q13 handle; exact Family 18 Q14 reuse |
+
+This PDF is the complete underlying lecture for the five Family-18 `General vir...` screenshots:
+the visible 7/53, 21/53, 28/53, 33/53, and 39/53 counters, layouts, wording, option order, and
+marks match exactly. The carrier proves that all 14 red boxes/circles are embedded in the lecture,
+so Family 72 admits 14 printed teaching answers. Family 18's source-local ruling remains 14
+visible but then-unproven annotations and zero printed answers because the isolated screenshots
+did not establish their origin. This provenance refinement adds no concept and does not promote
+either source to official-key evidence.
+
+### Four-query search register and exact-scope adjudication
+
+All 13 handles received exactly four fresh source-first searches across live state, every pending
+import root, and prior BMS-102 evidence: **52 required searches**. Reopened external disposition
+remains **0 live / 6 pending / 7 no same-scope**. `CON-INF-80960EC6FD48EC` has moved into live
+state but covers capsomer composition without Q03's arrangement-to-symmetry relation, so it
+remains a rejected narrower match. No other state change alters Family 18's exact-scope results.
+
+| Handle · ref(s) | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `viruses-smallest-infectious-agents-broad-host-range` · Q01 | `viruses smallest infectious agents`; `viruses infect man animals insects plants bacteria`; `virus broad host range`; `smallest infectious agent virus definition` | no same-scope | exact Family 18 Q01 reuse |
+| `viruses-obligate-intracellular-parasites` · Q02 | `viruses obligate intracellular parasites`; `virus cannot replicate outside host cell`; `obligate intracellular virus definition`; `virus true property intracellular` | pending `CON-INF-1165F8B9564697`; exact property | exact Family 18 Q02 reuse |
+| `viral-capsomers-arrangement-determines-symmetry` · Q03 | `viral capsid capsomers arrangement symmetry`; `capsomers determine viral symmetry`; `capsid small protein subunits`; `viral capsid structure true` | no same-scope; live `CON-INF-80960EC6FD48EC` is narrower | exact Family 18 Q03 reuse |
+| `viral-nucleic-acid-infectivity` · Q04 | `viral nucleic acid infectious part`; `coreless viral particles noninfectious`; `viral genome infectivity`; `virus nucleic acid responsible replication` | no same-scope | exact Family 18 Q04 reuse |
+| `viral-envelope-glycoprotein-spikes` · Q05 | `viral envelope glycoprotein spikes`; `envelope spike like projections virus`; `viral glycoprotein peplomers`; `virus envelope surface proteins` | pending `CON-INF-62046515A155BD`; exact envelope/attachment-glycoprotein scope | exact Family 18 Q05 reuse |
+| `cell-culture-monolayer-definition` · Q06 | `cell culture monolayer definition`; `animal human tissue monolayer flat container`; `viral cell culture definition`; `tissue culture monolayer cells` | no same-scope | exact Family 18 Q06 reuse |
+| `primary-versus-human-diploid-cell-line-origin` · Q07 | `primary cell line embryo fibroblast false`; `primary cell culture fresh tissue`; `human embryo fibroblasts diploid cell line`; `primary versus diploid cell line` | no same-scope | exact Family 18 Q07 reuse |
+| `human-diploid-cell-line-finite-passages` · Q08 | `human diploid cell line 50 passages`; `diploid cell strain finite passages`; `WI-38 50 passages`; `human embryonic fibroblast cell line lifespan` | no same-scope | exact Family 18 Q08 reuse |
+| `viral-attachment-specific-host-receptors` · Q09 | `viral attachment requires specific receptors`; `virus host cell receptor attachment`; `viral adsorption specific receptor`; `virus attachment receptor dependence` | pending `CON-INF-62046515A155BD`; exact receptor-dependent attachment scope | exact Family 18 Q09 reuse |
+| `nonenveloped-virus-endocytosis-lysosomal-uncoating` · Q10 | `non enveloped virus endocytosis lysosomal uncoating`; `naked virion penetration endocytosis`; `viral entry nonenveloped endosome`; `lysosomal enzymes viral uncoating` | pending `CON-INF-F595E6CEC3AFD2`; definition includes endocytic viral entry | exact Family 18 Q10 reuse |
+| `enveloped-virus-membrane-fusion-entry` · Q11 | `enveloped virus fusion cell membrane`; `viral envelope penetration fusion nucleocapsid`; `enveloped virion entry mechanism`; `membrane fusion virus entry` | pending `CON-INF-F595E6CEC3AFD2`; exact envelope-fusion scope | exact Family 18 Q11 / Family 46 Q04 reuse |
+| `viral-eclipse-no-detectable-infectious-virus` · Q12 | `viral eclipse period no infectious virus detectable`; `eclipse phase after penetration virus`; `viral replication eclipse definition`; `no infectious virions inside cell eclipse` | no same-scope | exact Family 18 Q12 reuse |
+| `latent-not-chronic-hidden-periodic-reactivation` · Q13–Q14 | `latent infection hidden periodic reactivation`; `chronic versus latent viral infection`; `virus persists occult reactivation`; `latent infection definition virus` | pending `CON-INF-4EC402ABB55946`; exact latent-infection definition | exact Family 18 Q13–Q14 reuse |
+
+All **13** source handles are exact prior-BMS reuses, so **13 - 13 = +0 concepts**.
+
+| Measure | Family 72 | Auxiliary cumulative (Families 12–72) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 14 | 737 | 765 | 1,502 |
+| Printed teaching-answer occurrences | 14 | 390 | 405 | 795 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Incomplete prompt-like residues | 2 excluded | — | — | tracked separately |
+| Audience-transition questions | 2 excluded | — | — | tracked separately |
+| Retained question records | 14 | 700 | 552 | 1,252 |
+| Source-distinct tested handles / required searches | 13 / 52 | 634 / — | — | — |
+| External live / pending / no same-scope | 0 / 6 / 7 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 13 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +433 over primary | 372 | `372 + 433 = 805` |
+| **Distinct tested concepts** | **+0** | **433 auxiliary additions** | **372** | **805** |
+
+The checksum closes without remainder: `14` prompt starts receive `14` embedded teaching answers
+and leave `0` unkeyed occurrences; the two incomplete residues and two rhetorical transitions
+remain outside prompt totals; retention is `14 - 0 copies = 14`; handle assignment is `14 - 1
+semantic reduction = 13`; searches are `13 × 4 = 52`; external disposition is `0 + 6 + 7 =
+13`; and concept arithmetic is `13 - 13 prior exact reuses = 0`. Auxiliary cumulative
+arithmetic is `723 + 14 = 737` prompts, `376 + 14 = 390` answers, `686 + 14 = 700` retained
+records, `621 + 13 = 634` source handles, and `433 + 0 = 433` concept additions. All eligible
+arithmetic is `765 + 737 = 1,502`, `405 + 390 = 795`, `552 + 700 = 1,252`, and `372 + 433 =
+805`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**737 / 390 / 700 / 634 / +433**; and all eligible evidence is
+**1,502 / 795 / 1,252 / 805**. This local teaching carrier contributes auxiliary recap and
+embedded-answer evidence only. It cannot independently raise exam/sitting, recurrence, mark-
+weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 72
+
+`src_96d779ff8df7da5cf16c` is exhausted across all 53 pages: every cover/objective/transition/
+closing page, declarative virology/mycology slide, complete prompt, embedded answer mark,
+incomplete residue, retained record, semantic collapse, full-carrier/screenshot relationship,
+handle, search row, external disposition, prior-BMS reuse, and visible-cover-versus-metadata
+provenance decision is assigned once, with **zero source remainder** and no Family-72 blocker.
+The next manifest-ordered unprocessed BMS-102 record is tier-9
+`src_033a3dbfd821223cffbf` · `Patho Exam.pdf`, SHA-256
+`033a3dbfd821223cffbf93bd369a58e326c40a3e36c92ec7e2f9d2d238417037`, 1,589,675 bytes, five
+OCR-needed portrait A4 pages under `Pathology / Assessments / Exams`. Its first-page manifest
+snippet begins `Exam (2)` and pathology MCQs, while PDF metadata title/subject are `exam`, author
+is `CamScanner`, and the source has no reliable native-text layer. Its full visible provenance,
+exam/sitting/key boundary, OCR-assisted inventory, and relationship to prior pathology evidence
+are the next-source processing blockers: fully render and visually adjudicate all five pages
+before admitting any count.
