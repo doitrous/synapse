@@ -6393,3 +6393,33 @@ Removing this one empty-text path and unique hash leaves **14 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 5 Notes (by Linah).pdf`, SHA-256 `f5d0b062bfdc1d03a7259d5ed345e3fff12ac80ecdf91b3a03d1bc1b97cc92dc`, 1 page.
 
 **BLOCKED — S1 cannot be approved:** 14 selected source paths remain untriaged.
+
+## Completed source — Histology Lec 5 Notes (by Linah)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 5 Notes (by Linah).pdf` | `f5d0b062bfdc1d03a7259d5ed345e3fff12ac80ecdf91b3a03d1bc1b97cc92dc` | 1 | empty-text | page 1 rendered and read | Samsung-produced image-only export of a handwritten lecture note attributed by filename to Linah. It prints no institution, department, lecturer, sitting, marks or examination/key claim and is a student teaching source, not an official MUST assessment or key. |
+
+### Exact teaching / assessment boundary
+
+The page is a compact teaching summary of cytoplasmic inclusions and nucleus-related study topics: stored glycogen and lipid, endogenous and exogenous pigments, liver glycogen stains and fat-cell stains. The heading annotation “chromatin → written question” forecasts a study priority but contains neither a question stem nor a response request. Stars, arrows, colours and stain names emphasize facts only; none supplies an answer convention or marking scheme.
+
+The exact boundary is therefore **0 prompt occurrences / 0 key observations / 0 prompt-matched recovered answers**. There is no practical-identification or written-answer task. With no source-tested prompt, there is no accepted concept handle: **0 handles × 4 = 0 searches**, no live/pending/new split and no prior-FHB collapse operation.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7156 | 6741 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **13 selected inventory paths / 13 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `9243913ba6d61482ea5320048f56196f43b075efd9a263c66283e87953c74bb0`. Pinned triage debt becomes **zero substantive-text / four sparse-text / nine empty-text** rows, and unique-hash accounting is **`93 + 13 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Stains.pdf`, SHA-256 `19543c6669ea24693cf67555802a1d34a7330f621a05478a6af22d1abb938a16`, 2 pages.
+
+**BLOCKED — S1 cannot be approved:** 13 selected source paths remain untriaged.
