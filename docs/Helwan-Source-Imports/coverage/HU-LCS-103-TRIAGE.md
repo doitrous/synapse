@@ -10157,3 +10157,100 @@ hash requires a separate source-first inventory despite the shared template and 
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 147 tier-3/tier-6/rank-9 path
 debts remain. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 84 — Tier-3 external Dr Zahra Cartilage Histology keyed MCQ bank
+
+### Exact identity, provenance and assessment boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_bdf42a294dbb4b9fc3ff` |
+| Manifest / recomputed SHA-256 | `bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a` |
+| File / boundary | `MCQs - External Histo MCQ Dr.Zahra [Cartilage].pdf` · 424,171 bytes · unencrypted PDF · 6 physical native-text pages · A4, 595.32 × 841.92 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 · instructor `Zahra` |
+| Visible provenance | Every page prints `HISTOLOGY · DR. AHMED ZAHRA · MCQ`; p. 1 begins `Cartilage MCQ`. There is no Helwan, faculty, module/cohort, academic-year, examination, sitting or official-key mark. |
+| Authority finding | The explicit `External` filename and absent Helwan provenance keep this as an external keyed review bank. The shared Family-83 template does not elevate its authority or permit a content shortcut. |
+
+The distinct-hash file was rendered at 200 dpi and all six pages were visually read against
+the complete native text layer. Pages 1–5 and the upper part of p. 6 contain **45 ordinary
+MCQ prompts**; the lower part of p. 6 prints a complete **45-entry answer-letter grid**. No
+key is inferred or medically repaired. The exact source sequence is `1-a, 2-b, 3-b, 4-b,
+5-a, 6-d, 7-b, 8-a, 9-d, 10-a, 11-b, 12-a, 13-b, 14-d, 15-d, 16-a, 17-d, 18-c,
+19-b, 20-c, 21-b, 22-a, 23-b, 24-c, 25-c, 26-b, 27-c, 28-c, 29-b, 30-b, 31-a,
+32-d, 33-b, 34-c, 35-d, 36-c, 37-b, 38-b, 39-d, 40-a, 41-b, 42-a, 43-c, 44-d,
+45-a`. Q28's printed `c` and Q44's printed `d` are retained independently even though
+their similarly worded fibrocartilage exception options make the source internally awkward.
+
+| Physical page | Prompt boundary | MCQ prompts | Printed keys |
+|---:|---|---:|---:|
+| 1 | Q1–Q8 | 8 | 0 |
+| 2 | Q9–Q16 | 8 | 0 |
+| 3 | Q17–Q25 | 9 | 0 |
+| 4 | Q26–Q33 | 8 | 0 |
+| 5 | Q34–Q41 | 8 | 0 |
+| 6 | Q42–Q45, then answer grid Q1–Q45 | 4 | 45 |
+| **Family 84 external bank** | **Q1–Q45** | **45** | **45** |
+
+There is no declarative teaching section, specimen, micrograph, teaching plate, practical
+station, response blank, masked label, image-identification task or unresolved callout.
+Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical
+keys / 0 practical scopes**.
+
+### Assignment, four-surface searches and prior-external deduplication
+
+The 45 occurrences are assigned once below and collapse to **13 source-distinct handles**.
+Each handle received one search in each required surface—live, pending/import-ready, prior
+source-import lanes and accepted LCS—so **13 × 4 = 52 required search invocations**. Every
+handle is exact same-scope Family-13 external Cartilage/Bone-bank reuse; Family 84 therefore
+adds no second external concept inventory.
+
+| Current prompts | Accepted Family-13 handle / four-query bundle | Disposition |
+|---|---|---|
+| Q1 | `cartilage-matrix-firm-flexible` · firm flexible cartilage; rubbery matrix; cartilage consistency; cartilage ground substance | prior external reuse; pending |
+| Q2,Q18,Q19,Q22,Q34 | `chondroblast-vs-chondrocyte-maturity-matrix` · chondroblast chondrocyte; cartilage active cell; cartilage matrix secretion; chondroblast cytoplasm | prior external reuse; pending |
+| Q3,Q16,Q37 | `chondrocyte-lacuna-and-general-phenotype` · chondrocyte lacuna; cartilage-cell identity; chondrocyte gap junction; chondrocyte phenotype | prior external reuse; pending |
+| Q4,Q33 | `hyaline-cartilage-glassy-type-ii-collagen` · hyaline type II collagen; glassy cartilage; hyaline matrix fibres; type II cartilage | prior external reuse; pending |
+| Q5–Q7,Q10,Q11,Q27,Q29,Q31,Q35,Q38,Q43,Q45 | `cartilage-types-anatomic-sites` · cartilage sites; epiglottis elastic; costal hyaline; fibrocartilage joint sites | prior external reuse; pending |
+| Q8,Q9,Q28,Q39,Q42,Q44 | `fibrocartilage-type-i-collagen-perichondrium-absence` · fibrocartilage type I; no perichondrium; articular perichondrium exception; fibrocartilage rows | prior external reuse; pending |
+| Q12,Q13,Q26,Q32 | `cartilage-appositional-vs-interstitial-growth` · cartilage appositional growth; cartilage interstitial growth; chondroblast chondrocyte growth; chondrocyte division | prior external reuse; pending |
+| Q14,Q30 | `cartilage-avascular-nutrition-repair` · avascular cartilage; diffusion nutrition; cartilage vessels nerves; hyaline nutrition | prior external reuse; pending |
+| Q15,Q24,Q36,Q40 | `perichondrium-cartilage-covering-composition` · perichondrium layers; perichondrium vessels nerves; collagen type I covering; inner chondrogenic layer | prior external reuse; pending |
+| Q17,Q25,Q41 | `elastic-cartilage-fibers-type-ii-collagen` · elastic cartilage fibres; elastic plus type II; yellow cartilage matrix; elastic cartilage collagen | prior external reuse; pending |
+| Q20 | `cartilage-isogenous-group-cell-nest` · cartilage cell nest; isogenous group; chondrocyte cluster; cells in lacuna | prior external reuse; pending |
+| Q21 | `cartilage-matrix-basophilia-metachromasia` · cartilage basophilia; sulfated GAG; hyaline matrix stain; chondroitin sulphate | prior external reuse; pending |
+| Q23 | `cartilage-mesenchymal-origin-and-specialized-ct` · specialized connective tissue; cartilage tissue class; cartilage mesenchyme; connective tissue cartilage | prior external reuse; pending |
+
+Assignment arithmetic is `1 + 5 + 3 + 2 + 12 + 6 + 4 + 2 + 4 + 3 + 1 + 1 + 1 = 45`.
+Source disposition is **0 live / 13 pending / 0 new = 13 handles**. Prior-external
+deduplication is **13 reuses + 0 additions = 13**, so the cumulative external concept-state
+delta is **0 / 0 / 0**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **367 / 367 / 102 = 10 / 68 / 24** to **412 external questions / 412 printed keys /
+102 external concepts = 10 live / 68 pending / 24 new**. Arithmetic is `367 + 45 = 412`,
+`367 + 45 = 412`, `102 + 0 = 102`, and `10 + 68 + 24 = 102`. Practical totals remain
+**7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live /
+0 pending / 92 new**.
+
+This source hash occurs once in the audited remainder. Removing its sole path from Family
+83's accepted remainder leaves **146 all-rank path instances / 138 unique hashes**: tier 3
+**64 paths / 61 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**.
+Family 83's 147/139 row sets recompute first to path checksum
+`0739d1449b9a86c646ded01af11882441c38073af0b555256686389a98645c29` and unique-hash
+checksum `4d2fe1eec2fe6b251be30485f85c791a2418980f5f1f9bd36cb7d18f399a48f4`.
+For the exact post-Family-84 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ae69cd97360ed4afd94e7c82da78e1c42d524761c0129db2f09ef1ace5d7a4b2`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`3dc2cd34118ad522a7318290693cc5e3ddb9f616d057ea123e21083c9336263e`.
+
+The exact next tier-3 manifest-order debt is
+`src_0f76fe22ec0bc8879f65`, `MCQs - External Histo MCQ_103 (2025).pdf`
+(5,896,303 bytes; 20 OCR-needed pages; SHA-256
+`0f76fe22ec0bc8879f65c956cdb34de378c236acf22e24103eba5e2599bd6737`).
+It remains external until its own pages prove otherwise. **Overall LCS-103 remains `S1
+TRIAGE — NOT APPROVED`:** 146 tier-3/tier-6/rank-9 path debts remain. No download, ID,
+content record, catalogue update, import or source copy was created.
