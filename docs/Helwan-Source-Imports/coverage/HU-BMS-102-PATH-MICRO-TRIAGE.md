@@ -18831,3 +18831,99 @@ native-text portrait letter pages** under `Pathology / Questions / MCQs`. Its vi
 Circulatory disturbances From 2004 to 2013 prepared by Dr.Hamza Kheder` provenance and date range,
 complete prompt/key boundary, four-search/prior-BMS disposition, arithmetic, and subsequent exact
 next-source debt remain to be separately reconciled.
+
+## Family 179 — provenance-unverified Hamza-Kheder circulatory MCQ compilation
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_6c9475dcb27ad5dada45` · `MCQs - mcq circulatory disturbances.pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `6c9475dcb27ad5dada4528ddac653af9be4ff5b9fb2161cb1334d3d8d556d199` · **457,122 bytes** |
+| Format / complete read | **28 native-text portrait letter pages** at 612×792 pt. All 28 pages were rendered at 100 dpi into 28 non-empty 850×1100 images and read at original detail; native text was independently extracted in layout and plain modes (**3,129 words** in each extraction). |
+| Visible identity | Page 1 prints `MCQs`, `Circulatory disturbances`, `From 2004 to 2013`, `prepared by Dr.Hamza Kheder`; question pages carry the Arabic footer `د. حمزة خضر`. Individual stems cite dates, `Quiz 2009`, `نصفي`, and first/second/third-round labels. No university, faculty, module code, Helwan name, candidate field, marks, official-key label, or institutional seal is visible. |
+| Date and metadata caution | The question-level 2004–2013 tags are claimed source-history labels attached to individual occurrences, not proof that this compilation is one sitting or that any sitting was Helwan. Microsoft Word metadata author `yamamah1` and the 18 February 2021 creation/modification timestamps are carrier-export history only. |
+| Authority / eligibility | Generic historical question compilation with named preparer but **unresolved institutional provenance**. The earlier post-Family-10 gate explicitly left this generic pathology sequence as provenance debt. Folder placement and manifest tier cannot supply missing Helwan authority, so the carrier is indexed source-locally but excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Complete prompt, key, topic, and practical boundary
+
+The carrier contains **121 numbered text MCQs + 121 source-supplied answer-table entries**:
+
+- **Page 1:** cover only; 0 prompts and 0 answers.
+- **Pages 2–26:** consecutive MCQ Q1–Q121. The principal topic blocks are oedema Q1–Q17,
+  congestion Q18–Q25, thrombosis Q26–Q49, embolism Q50–Q60, ischaemia Q61–Q65, infarction
+  Q66–Q72, gangrene Q73–Q90, and haemorrhage/shock Q91–Q105. Q106–Q121 are a final visibly
+  dated `2013 دور ثاني` mixed supplement rather than a new sitting cover or separate family.
+- **Pages 26–28:** one complete answer-table entry for each Q1–Q121. Page 26 begins the table
+  below Q121, page 27 continues Q11–Q81, and page 28 closes Q82–Q121. Case and spelling do not
+  alter answer directionality. Q33's entry visibly includes the annotation `(الكلية)` beside `c`;
+  it remains source evidence, not an extra answer or institutional authentication.
+
+The normalized topical checksum, including the final mixed supplement, is **19 oedema + 9
+congestion + 27 thrombosis/clot + 12 embolism + 5 ischaemia + 8 infarction + 22 gangrene + 10
+haemorrhage + 9 shock = 121 MCQs**. The answer table supplies **121 answer occurrences**.
+
+There are **0 written operations, 0 diagnostic images, 0 drawing tasks, 0 practical stations, 0
+candidate responses, and 0 unassigned residues**. Clinical vignettes and stems describing gross or
+microscopic findings remain text MCQs because the carrier supplies no specimen/image, station
+instruction, candidate operation, time, or mark allocation.
+
+All source wording and keys remain uncorrected evidence. This includes `Lines of Zhan`,
+`phlebothrombosis`, `hyperperfusion`/`hypoperfusion`, `mammification`, and the source's keyed
+claims for arterial occlusion, infarct sites, shock, and gangrene. The answer table is a compiled
+solution layer, not an authenticated Helwan official key.
+
+### Internal recurrence, prior-BMS comparison, and governed zero-search gate
+
+The source contains clear internal recurrence: Q2/Q9 reframe generalized-oedema exceptions;
+Q20/Q21 reverse the nutmeg-liver mapping; Q36/Q46/Q49 repeat thrombocytopenia as a thrombosis
+exception; Q39/Q47 repeat PGI2; Q51/Q53/Q58 repeat long-bone-fracture fat embolism; Q55/Q59
+repeat the arterial-embolus-origin exception; Q61/Q65 repeat atherosclerosis as the commonest
+ischaemia cause; Q78/Q90/Q108 revisit dry-gangrene features; Q95/Q112 repeat hematoma; Q99/Q114
+repeat the shock definition; Q100/Q116 repeat shock-type exceptions; and Q42/Q115 revisit the
+postmortem-clot appearance. These occurrence relations are preserved without inventing an
+eligible semantic-collapse count.
+
+Many propositions also overlap governed prior BMS evidence, especially Families 118 and 152 and
+the circulatory companions/revisits in Families 161–167. Institutional authority is resolved
+before semantic retention, however. Therefore no source-local recurrence or prior overlap is
+assigned as eligible Helwan reuse.
+
+Family 179 yields **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted
+handles / 0 prior-BMS reuse assignments / +0 concepts**. Exactly four searches are required only
+per accepted new handle; the governed gate is **`0 accepted new handles × 4 = 0 required and
+completed searches`**. Searching provenance-excluded prompts cannot convert them into Helwan
+assessment evidence.
+
+### Family-179 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 179 source-local | Eligible delta | Auxiliary cumulative (Families 12–179) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 121 MCQs | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 121 table entries | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | provenance-excluded bank | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external/generic only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-179 eligible arithmetic is independently zero. Corrected primary remains **762 / 405 / 552
+/ 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 179 establishes no Helwan question occurrence, official key, tested concept, sitting,
+recurrence, mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 179
+
+`src_6c9475dcb27ad5dada45` is exhausted across all 28 pages: every cover field, numbered MCQ,
+option set, topic transition, source-history tag, answer-table entry, internal recurrence,
+prior-evidence relation, provenance term, eligibility term, and cumulative term is assigned once,
+with **zero remainder** and no Family-179 blocker.
+
+The exact next manifest record is tier-3 source `src_b7bdc4544fb8589d9247` · `MCQs - mcq healing
+and repair.pdf`, SHA-256
+`b7bdc4544fb8589d9247b5014b13b51501bf41b27a89248d2ba7c14aa07f0d0a`, **371,054 bytes**, **14
+native-text portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible `MCQs in Healing
+& Repair From 2004 to 2013 Prepared by Dr. Hamza Kheder` provenance, complete prompt/key
+boundary, authority gate, four-search/prior-BMS disposition, arithmetic, and subsequent exact
+next-source debt remain to be separately reconciled.
