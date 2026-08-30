@@ -18858,3 +18858,96 @@ The exact next manifest-order debt is tier-6 `src_904ab40970bde48d3630`,
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 53 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 178 — Tier-6 attributed common-joint-disease pathology teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_904ab40970bde48d3630` / `904ab40970bde48d363014b3dc26d3242d2fc232391cbfd71d1623acdc31eef9` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/bone disease 3.pdf` |
+| Physical verification | **522,844 bytes; 6 native-text portrait-A4 pages; 595.32 × 842.04 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | Every page prints `PATHOLOGY` and `DR . AHMED HASSAN`; p. 1 is titled `Approach to Joints’ Disease Diseases`. Metadata separately names author `Hossam mohammed`, Microsoft Word 2019 creator/producer and 20 May 2025 creation/modification. No page prints a university, cohort, module code, examination sitting or marks. |
+| Authority finding | Attributed local tier-6 pathology teaching-summary evidence. The visible lecturer and metadata author are preserved as distinct source layers. It is not a recoverable sitting, response form, practical station or marking guide. |
+
+All **6/6 pages** were rendered at 180 dpi, inspected at full resolution and read against the
+complete native text layer. The complete source-first boundary is:
+
+| Page | Complete supplied teaching sections | Assessment / practical boundary |
+|---:|---|---|
+| 1 | osteoarthritis versus rheumatoid-arthritis definition, mechanism and inflammation/immune-response comparison; supplied normal/OA/RA joint diagram | one completed section; no prompt or response field |
+| 2 | osteoarthritis distribution and structural progression; Heberden/Bouchard nodes; rheumatoid stages and hand deformities | three completed image-led sections, all diagnosed and labelled |
+| 3 | rheumatoid nodules with supplied fibrinoid-necrosis type; shared seronegative-spondyloarthropathy features; gout versus pseudogout crystal statement | three completed sections; no hidden diagnosis or learner instruction |
+| 4 | gouty arthritis with the supplied `Nodules ??? (Tophus -Tophi)` reveal; juvenile idiopathic arthritis definition and comparison with RA | two completed sections; the red question marks are a lecturer callout answered on the same page, not an assessment prompt |
+| 5 | suppurative-arthritis routes, age/organism associations and sickle-cell statement; ganglion-cyst clinicopathologic description | two completed sections with illustrative images |
+| 6 | tenosynovial giant-cell-tumour definition; ganglion/synovial-cyst gross and histology; tenosynovial-tumour gross and histology | two completed sections with supplied diagnoses and morphology captions |
+
+Arithmetic is **13 completed teaching sections = 1 + 3 + 3 + 2 + 2 + 2**. The physical
+assessment boundary is **0 eligible or external prompts / 0 MCQ or written prompts / 0
+keys-or-answers / 0 unkeyed assessment prompts**. The p. 3 fibrinoid-necrosis heading and p. 4
+`Nodules ???` callout both print their answer locally; titles, comparison labels and tables
+otherwise present declarative facts.
+
+Every clinical photograph, diagram, gross specimen and histology image is embedded beneath a
+supplied diagnosis, label or explanatory caption. There is no identify instruction, masked
+label, numbered station, learner-completed map, response blank or practical key. Practical
+delta is exactly **0 practical or station prompts / 0 teaching plates / 0 mappings / 0
+unresolved residues / 0 practical keys / 0 practical scopes**.
+
+Source states remain evidence without silent correction, including the repeated title word in
+`Approach to Joints’ Disease Diseases`, `Gouty Vs pseudo gouty arthritis`, `Tophus -Tophi`,
+`H. influenza arthritis`, the source's age/organism associations, and `Polygonal, moderately
+sized, and resemble synoviocytes!!!`.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The 13 supplied sections consolidate to the same seven complete teaching scopes previously
+owned by the longer common-joint-disease deck:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `osteoarthritis-versus-rheumatoid-mechanism-distribution-and-nodes` · pp. 1–2 | osteoarthritis rheumatoid; osteophyte osteoarthritis; Heberden Bouchard; osteoarthritis versus rheumatoid mechanism | Exact accepted Family 151 owns the complete scope, with Families 12, 18–21, 63, 65 and 79 corroborating tested components — prior-LCS reuse. |
+| `rheumatoid-stages-deformities-and-fibrinoid-necrosis-nodule` · pp. 2–3 | rheumatoid nodule; fibrinoid necrosis rheumatoid; swan-neck Boutonniere; rheumatoid stages deformities | Exact accepted Family 151 owns the complete scope, with Families 63, 65 and 79 corroboration — prior-LCS reuse. |
+| `seronegative-spondyloarthropathy-shared-features-hla-b27-and-ankylosis` · p. 3 | seronegative spondyloarthropathy; HLA-B27 ankylosis; ligamentous attachment synovium; seronegative shared features | Exact accepted Family 151 owns the complete scope and Family 63 supplies tested corroboration — prior-LCS reuse. |
+| `gout-versus-pseudogout-crystals-podagra-and-tophi` · pp. 3–4 | gout pseudogout; urate calcium pyrophosphate; podagra tophi; gout versus pseudogout crystals | Exact accepted Family 151 owns the complete scope, with live gout/urate and multiple accepted tested records corroborating it — prior-LCS reuse. |
+| `juvenile-idiopathic-arthritis-definition-and-rheumatoid-comparison` · p. 4 | juvenile idiopathic arthritis; oligoarthritis ANA; juvenile rheumatoid arthritis; JIA rheumatoid comparison | Exact accepted Family 151 owns the complete scope, with Families 21, 63 and 79 tested corroboration — prior-LCS reuse. |
+| `suppurative-arthritis-routes-organisms-and-age-associations` · p. 5 | suppurative arthritis; gonococcus arthritis; Haemophilus influenzae arthritis; septic arthritis age organisms | Exact accepted Family 151 owns the complete scope, with Families 65 and 143 corroboration — prior-LCS reuse. |
+| `ganglion-synovial-cyst-versus-tenosynovial-giant-cell-tumour` · pp. 5–6 | ganglion cyst tenosynovial; synovial cyst giant cell tumor; ganglion no epithelial lining; ganglion versus tenosynovial tumour | Exact accepted Family 151 owns the complete scope, with Families 21, 62–65 and 79 corroboration — prior-LCS reuse. |
+
+Each of the **seven accepted teaching handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **7 × 4 = 28 required search invocations**. Broad component matches do not
+supersede exact accepted prior-module ownership. Final disposition is **7 prior-LCS
+theoretical-teaching reuses / 0 additive live / 0 additive pending / 0 additive new scopes**.
+There is no assessment or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This source hash occurs once in Family 177's remainder. Removing its sole path changes the
+all-rank remainder from **53 paths / 50 unique hashes** to **52 paths / 49 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **38 paths / 38 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 177's prior checksums are
+`eb4baff96e363af114aaad5842c2f052fa733e4ecea8338caa37990b2533846a` (paths) and
+`8109ec5b5f891230de290cc9b00799e404bed42ed93566979e5bcad6f63d2235` (unique hashes).
+For the exact post-Family-178 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`e09b6e0d939d97a17bee0c6b0d45719a2b812fd329af2d3d49f8f9e78eb7c779`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e0d534efdacfad5717674685387c3c5b4d589e6029b340cc498b80b0141f5693`.
+
+The exact next manifest-order debt is tier-6 `src_7845aba80ac9c29a11f2`,
+`bone disease.pdf` (700,571 bytes; 11 native-text portrait-A4 pages; tagged; unencrypted;
+595.32 × 842.04 pt; SHA-256
+`7845aba80ac9c29a11f24b511b020d40ba6082af1aebe9b02c18f0cba9ae2a48`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page is
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 52 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
