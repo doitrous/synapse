@@ -9819,3 +9819,125 @@ native text layer with a first-page snippet of only `CamScanner`; PDF title/subj
 filename, author is `CamScanner`, and producer is `intsig.com pdf producer`. Its complete visible
 content, scan/date provenance, true text-layer boundary, teaching/prompt/key assignment, search
 ledger, and prior-BMS relationship are the exact next-source blockers.
+
+## Family 89 — three-page handwritten infection Q&A scan
+
+### Source identity, scan-reality boundary, and provenance caution
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_a475437d4fde9cde18bb` · `CamScanner 30-07-2025 11.32.pdf` |
+| SHA-256 / size | `a475437d4fde9cde18bb97a75bce72c6e7d5a71417a6e83531ec66a5baecbc4f` · 2,655,670 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / complete read boundary | Three portrait A4 pages; all three rendered at 180 dpi to non-empty 1488×2105-pixel images and visually read at full-page resolution |
+| Native-versus-scan adjudication | Each page contains one high-resolution notebook-page JPEG plus a 260×260-pixel CamScanner-logo image. The sole extractable text is one Times-Roman `CamScanner` watermark per page: 3 words / 36 bytes total. The educational handwriting is raster-only, so the manifest's `native` label and `1.0` word-character ratio do not represent a genuine educational text layer. |
+| Visible provenance | Page 1 is headed `infection`; page 3 ends with a highlighted Arabic audience note asking for prayers for the people of Palestine. Neither is an authorship or assessment label. No university, faculty, module code, author/instructor role, academic year, or exam sitting is visible. |
+| Filename / metadata caution | Filename, PDF title, and subject contain `30-07-2025 11.32`; author is `CamScanner`, producer `intsig.com pdf producer`, and no creation/modification time is supplied. These fields establish a scan label only, not the notes' authorship, teaching date, academic year, or exam sitting. |
+| Authority | Tier-6 local handwritten study Q&A notes. The immediate response lists are source-native teaching answers, not an official key. |
+
+Yellow highlighting marks prompt topics and selected response headings; it is not a stable
+correctness-selection convention. Q6's source response includes outdated racial terminology as
+a purported personal tuberculosis factor. That wording is preserved as a source-quality caution
+without endorsement and is not adopted as current medical terminology. No response is silently
+corrected or promoted to an authoritative claim.
+
+### Page-first written-prompt, teaching-answer, and residue inventory
+
+| Page | Complete visible source content | Prompt / response ruling |
+|---:|---|---:|
+| 1 | Q1 clinical/pathological effects of toxaemia; Q2 endogenous/exogenous bacterial sources; Q3 dose-related effects of bacteraemia | **3 written prompts / 3 handwritten responses** |
+| 2 | Q4 organism/settings listed as causes of septicaemia; Q5 pathological effects of pyaemia; Q6 environmental/personal tuberculosis predisposition; Q7 causes of secondary tuberculosis | **4 / 4** |
+| 3 | Q8 syphilis stages/timeline; Q9 tissue reaction in syphilis; Q10 actinomycosis histopathology; Q11 phases of developing bilharzioma | **4 / 4** |
+
+The source contributes **11 raw written-prompt occurrences / 11 printed handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like or partial-answer residues**. There
+are no option sets, candidate-response blanks, practical stations, image-identification tasks,
+literal prompt copies, or separate answer-key section. All 11 records are retained and remain 11
+source-distinct handles.
+
+### Source-first handle assignment and prior-BMS deduplication
+
+| Ref | Source-tested scope | Handle / prior assignment |
+|---|---|---|
+| F89-Q01 | Clinical and pathological effects of acute/chronic toxaemia | `toxemia-clinical-pathological-effects` · new; broader than F7's acute-pathology-only handle |
+| F89-Q02 | Endogenous commensal/septic-focus and exogenous disease-stage sources of bacteraemia | `bacteremia-endogenous-exogenous-sources` · new; broader than F7's tooth-extraction example |
+| F89-Q03 | Small-, moderate-, and large-load bacteraemia effects and source-listed organ settlement | `bacteremia-dose-dependent-effects` · new; broader than F7's small-load definition |
+| F89-Q04 | Streptococcal, staphylococcal, meningococcal, and gonococcal settings listed as septicaemia causes | `septicemia-organism-causes` · new; prior handles define septicaemia or its pathology |
+| F89-Q05 | Pyaemic abscesses, septic infarction, and degeneration as pathological effects | `pyemia-pathological-effects` · new; broader than prior definition/abscess-only handles |
+| F89-Q06 | Environmental and personal factors predisposing to tuberculosis | `tuberculosis-environmental-personal-risk-factors` · exact F2 tuberculosis-risk-context reuse; outdated source wording remains cautioned |
+| F89-Q07 | AIDS, debilitating disease, Hodgkin lymphoma, and immunosuppressive drugs as source-listed secondary-TB causes | `secondary-tuberculosis-reactivation-causes` · new |
+| F89-Q08 | Primary, secondary, and tertiary syphilis stages with source-listed timing | `syphilis-stages-timeline` · new |
+| F89-Q09 | Endarteritis, granulation/fibrosis, and possible third-stage necrosis in syphilitic tissue reaction | `syphilis-tissue-reaction` · new |
+| F89-Q10 | Bacterial colonies, inflammatory cells, granulation tissue, and fibrosis in actinomycosis histopathology | `actinomycosis-histopathology` · new; prior handles test classification or other features |
+| F89-Q11 | Cellular, fibrocellular, and fibrous/healed bilharzioma phases | `bilharzioma-development-phases` · new |
+
+### Exactly four searches per accepted handle and exact-scope adjudication
+
+All 11 handles received exactly four fresh source-first searches across live state, every pending
+import root, and prior BMS-102 Families 1–88: **44 required searches**. External exact-scope
+disposition is **0 live / 0 pending / 11 no same-scope**. Existing live or prior records for one
+bacteraemia dose/example, pyaemic abscesses, actinomycosis, and schistosomal cancer are narrower
+than the source scopes and are rejected rather than stretched.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `toxemia-clinical-pathological-effects` | `effects of toxemia clinical pathological`; `toxemia fever headache organ degeneration`; `acute chronic toxemia pathology`; `toxaemia cloudy swelling fatty change amyloidosis` | no same-scope | F7 is narrower; delta |
+| `bacteremia-endogenous-exogenous-sources` | `bacteremia endogenous exogenous sources`; `tooth extraction septic focus bacteremia`; `sources of bacteria in bloodstream`; `typhoid syphilis exogenous bacteremia` | no same-scope; live definition is narrower | F7 is narrower; delta |
+| `bacteremia-dose-dependent-effects` | `bacteremia effects according to dose`; `small moderate large dose bacteremia`; `bacterial load blood organ lesion`; `bacteremia diseased valve urinary tract settlement` | no same-scope | F7 covers only small nonmultiplying load; delta |
+| `septicemia-organism-causes` | `causes of septicemia organisms`; `streptococcus puerperal sepsis septicemia`; `staphylococcus osteomyelitis meningococcus gonococcus septicemia`; `septicemia etiologic bacteria settings` | no same-scope | prior definition/pathology handles differ; delta |
+| `pyemia-pathological-effects` | `pathological effects of pyemia`; `pyaemic abscess septic infarction degeneration`; `pyemia multiple abscess infarct`; `pyaemia pathology consequences` | no same-scope | prior definition and multiple-abscess scopes are narrower; delta |
+| `tuberculosis-environmental-personal-risk-factors` | `tuberculosis environmental personal risk factors`; `TB poverty overcrowding malnutrition immune deficiency`; `tuberculosis predisposing factors hygiene contact`; `debilitating disease socioeconomic tuberculosis risk` | no same-scope | exact F2 reuse |
+| `secondary-tuberculosis-reactivation-causes` | `causes of secondary tuberculosis`; `secondary TB AIDS Hodgkin lymphoma`; `reactivation tuberculosis immunosuppressive drugs`; `postprimary tuberculosis debilitating disease` | no same-scope | prior secondary-TB spread/hypersensitivity handles differ; delta |
+| `syphilis-stages-timeline` | `stages of syphilis timeline`; `primary secondary tertiary syphilis weeks months years`; `syphilis clinical stages chronology`; `tertiary syphilis years after secondary` | no same-scope | none; delta |
+| `syphilis-tissue-reaction` | `tissue reaction syphilis`; `syphilis endarteritis granulation fibrosis`; `tertiary syphilis necrosis tissue pathology`; `syphilitic inflammation histopathology` | no same-scope | none; delta |
+| `actinomycosis-histopathology` | `histopathology actinomycosis`; `actinomycosis bacterial colonies inflammatory cells fibrosis`; `actinomycotic granulation tissue microscopic`; `actinomycosis morphology sulfur granules` | no same-scope; live disease records are narrower | prior classification/feature prompts differ; delta |
+| `bilharzioma-development-phases` | `phases developing bilharzioma`; `bilharzial granuloma cellular fibrocellular fibrous`; `schistosomal granuloma evolution`; `bilharzioma healed granuloma stages` | no same-scope | prior bladder-cancer association differs; delta |
+
+The tuberculosis-risk handle is the sole prior-BMS exact reuse. Family 89 therefore adds
+`11 - 1 = 10` concepts.
+
+### Family-89 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 89 | Auxiliary cumulative (Families 12–89) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 11 | 845 | 765 | 1,610 |
+| Printed handwritten teaching-answer occurrences | 11 | 468 | 405 | 873 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like / partial-answer residues | 0 | — | — | none |
+| Retained question records | 11 | 787 | 552 | 1,339 |
+| Source-distinct tested handles / required searches | 11 / 44 | 711 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 11 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 1 | — | — | subtract before concept addition |
+| Cross-family concept delta | +10 | +486 over primary | 372 | `372 + 486 = 858` |
+| **Distinct tested concepts** | **+10** | **486 auxiliary additions** | **372** | **858** |
+
+The checksum closes without remainder: `3 + 4 + 4 = 11` written prompts; each has one source-
+visible response block, giving 11 teaching-answer occurrences; `11 - 0 copies = 11` retained
+records and 11 handles; searches are `11 × 4 = 44`; external disposition is `0 + 0 + 11 = 11`;
+and concept arithmetic is `11 - 1 prior exact reuse = 10`. Auxiliary cumulative arithmetic is
+`834 + 11 = 845` prompts, `457 + 11 = 468` answers, `776 + 11 = 787` retained records, `700 +
+11 = 711` source handles, and `476 + 10 = 486` concept additions. All eligible arithmetic is
+`765 + 845 = 1,610`, `405 + 468 = 873`, `552 + 787 = 1,339`, and `372 + 486 = 858`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**845 / 468 / 787 / 711 / +486**; and all eligible evidence is
+**1,610 / 873 / 1,339 / 858**. Family 89 contributes auxiliary handwritten study Q&A evidence
+only. It cannot establish a dated sitting, recurrence, mark weight, official key, handwriting
+authorship, readiness, or claims status.
+
+### Exact next debt after Family 89
+
+`src_a475437d4fde9cde18bb` is exhausted across all three pages: every scan/metadata/visible
+provenance field, title/Arabic footer, handwritten prompt and response list, highlight convention,
+outdated-terminology caution, retained record, handle, required search, external disposition,
+prior-BMS reuse, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-89 blocker. The exact next manifest-ordered BMS-102 record is tier-6
+`src_773f093ae8b1b8ffe7f7` · manifest `Cell injury 2  (1).pdf.pdf` (local normalized filename
+`Cell injury 2 (1).pdf`), SHA-256
+`773f093ae8b1b8ffe7f7c42a5f96e025f4f4a3ed7a3f6f29dfbc24278a031940`, 7,227,492 bytes,
+38 native-text landscape 791×444.937-point pages under `Pathology / Notes and Summaries`. Its
+first page visibly identifies `CELL INJURY 2`, Dr Enas Megahed Elhosary, Lecturer of Pathology,
+Faculty of Medicine, Helwan University; PDF metadata gives only an iOS Quartz producer and an
+April 25, 2025 creation/modification timestamp. Its complete teaching/prompt/key boundary,
+visible-versus-metadata provenance, search ledger, and prior-BMS relationship are the exact next-
+source blockers.
