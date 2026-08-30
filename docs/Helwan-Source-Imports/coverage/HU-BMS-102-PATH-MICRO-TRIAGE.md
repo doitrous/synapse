@@ -20972,3 +20972,109 @@ The exact next unprocessed manifest record is tier-4 `src_7ce8b4c740464632c3de` 
 Department, and **14 March 2026**; metadata names `Mohammed Abdel-Latif` with the same date. Its
 complete authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 200 — current Nahed Soliman Neoplasia 1 lecture with eleven unkeyed interactive questions
+
+### Source identity, complete visual/native boundary, current authority, and metadata caution
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_7ce8b4c740464632c3de` · `main-stream-neoplasia-1-2026.pptx.pdf` under the exact local `Pathology / Theoretical / Lec 8 - Neoplasia 1` folder |
+| SHA-256 / exact size | `7ce8b4c740464632c3de7dbd2bb079440e63953ebfd982893027068b365c99a0` · **3,797,652 bytes** |
+| Format / complete read | **59 native-text 960×540-point landscape pages**. All 59 pages were rendered into 59 non-empty 1600×900-pixel images and read individually at full detail. Native extraction contains **2,091 words / 18,422 bytes** and agrees with every visible cover field, teaching heading, definition, table, labelled image, interactive stem, option set, empty response control, footer, and reference. |
+| Visible current authority | Page 1 visibly prints Academic Year **2025/2026**, Year 1, Semester 2, and `Basic Medical Science (BMS-102)`. Page 2 visibly identifies `Growth disorders & Neoplasia 1`, **Nahed Soliman**, Ass. Prof. of Pathology and Head of Pathology Department, with **14 March 2026**; the date and BMS-102 footer continue through the deck. These fields establish a current Helwan BMS-102 theoretical lecture. |
+| Source-truth anomalies | Page 4 alone prints `Module: BMS-101` beneath BMS-102 growth-disorder objectives. The isolated footer typo is preserved and does not override the page-1 module declaration, Lec-8 BMS-102 placement, or the BMS-102 footer on the surrounding pages. `departement` on p.2 is also retained as printed. |
+| Metadata caution | Metadata title is `PowerPoint Presentation`; author is `Mohammed Abdel-Latif`; creator/producer is Microsoft PowerPoint 2016; and creation/modification is 14 March 2026. The metadata date agrees with the visible date, but the conflicting author remains carrier history and does not override visible Nahed Soliman authorship. The filename/manifest year and visible lecture date do not authenticate an exam sitting. |
+| Authority | Tier-4 current Helwan theoretical teaching material with visibly designated interactive questions. It supports auxiliary unkeyed prompt evidence, not an authenticated exam sitting, official departmental answer key, candidate response, or practical station. |
+
+### Complete page-first teaching, assessment, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–4 | Current academic-year/module cover, named lecturer/date, `DISORDERS OF GROWTH` section divider, and learning objectives | Provenance and completed teaching plan; objective verbs are curriculum statements, not candidate tasks. The p.4 BMS-101 footer anomaly is retained; **0 prompts / 0 answers / 0 practical**. |
+| 5–11 | Growth-disorder classification; congenital anomaly types, causes, definitions, and diagnosis-disclosing images; hamartoma definition/examples and labelled images | Completed trees, lists, and visual teaching. No image requests identification or supplies a response control; **0 / 0 / 0**. |
+| 12–18 | Neoplasia objectives, external learning links, introduction, definitions, terminology, and tumour parenchyma/stroma components | Declarative teaching and completed labelled diagram; **0 / 0 / 0**. |
+| 19–30 | Tumour grading/differentiation, completed histology images, `So what??????` explanatory slide, visual analogies, grade table, staging definition, TNM diagram, and cervical-cancer stage illustration | Completed teaching. `So what??????` introduces supplied clinical significance and is not a response request. Images disclose their teaching role and contain no station operation; **0 / 0 / 0**. |
+| 31–47 | Neoplasm classification and nomenclature; epithelial/mesenchymal mappings; malignant `-oma` exceptions; non-neoplastic `-oma` terms; benign/malignant/locally malignant gross, microscopic, spread, and prognosis comparisons; labelled breast/ovarian and cytology/histology examples | Declarative tables and diagnosis-disclosing images. `BREAK THE RULES` is a section transition, not a task; **0 / 0 / 0**. |
+| 48 | Image-embedded flashcard asking the tissue type of adenocarcinoma | **1 text MCQ / 0 supplied answers / 1 unkeyed**. All option controls are empty. |
+| 49 | Multi-select asking which two features determine tumour grade | **1 multi-select prompt / 0 answers / 1 unkeyed**. `2 answers, 2 marks` specifies the operation but no choice is selected. |
+| 50–53 | Four interactive MCQs: carcinoma definition, chondroma definition in a finger-lump vignette, a benign-neoplasm feature, and the persistence criterion for neoplasia | **4 text MCQs / 0 answers / 4 unkeyed**. Uniform typography supplies no key. |
+| 54 | True/False operation pairing the no-differentiation/no-identifiable-origin statement with `Anaplasia` | **1 T/F prompt / 0 answers / 1 unkeyed**. `Anaplasia` is the term being judged, not feedback; neither response is selected. |
+| 55–58 | Four image-embedded term/definition MCQs: malignant neoplasm, benign neoplasm, Stage/TNM system, and heritably altered relatively autonomous growth/neoplasia | **4 text MCQs / 0 answers / 4 unkeyed**. The radio controls are visibly empty and the counters such as `2 of 50`, `4 of 50`, and `8 of 50` are screenshot provenance, not scores or keys. |
+| 59 | Three pathology references | Bibliographic teaching residue only; **0 / 0 / 0**. |
+
+The complete assessment boundary is therefore **11 raw prompt occurrences = 10 text
+MCQ/multi-select/term-matching operations + 1 True/False operation**, with **0 source-supplied
+answers + 11 visibly unkeyed operations**. All 11 remain retained and express 11 source-distinct
+tested handles. There are **0 exact same-source prompt replays, 0 image-identification prompts, 0
+drawing tasks, 0 practical stations, 0 candidate responses, and 0 unassigned residues**. The six
+pp.48–53 operations print seven teaching marks in total; those marks remain source evidence and do
+not convert the lecture into an authenticated assessment sitting.
+
+### Exactly four searches per accepted handle and complete prior-BMS collapse
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+state, pending import roots, and the complete prior BMS-102 ledger: **`11 × 4 = 44 required and
+completed searches`**.
+
+| Ref / accepted handle | Exactly four required queries | External exact-scope disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| p.48 · `adenocarcinoma-glandular-epithelial-origin` | `adenocarcinoma malignant neoplasm glandular epithelium`; `adenocarcinoma tissue type glandular epithelium`; `malignant glandular epithelial tumor adenocarcinoma`; `adenocarcinoma arises from glandular epithelium` | no same-scope | exact Family-190 p.38 question/handle replay; reuse |
+| p.49 · `tumor-grade-nuclei-differentiation-basis` | `features determine grade appearance nuclei resemble normal tissue`; `tumor grade nuclear appearance differentiation`; `grade tumour degree resemblance normal tissue`; `tumor grading differentiation and nuclear features` | no same-scope | exact Family-190 pp.39–40 tested-handle replay; reuse |
+| p.50 · `carcinoma-malignant-nonglandular-epithelial-definition` | `carcinoma malignant neoplasm non-glandular epithelium`; `carcinoma malignant epithelial neoplasm`; `malignant non glandular epithelial tumour carcinoma`; `carcinoma best describes malignant epithelium` | no same-scope | exact Family-190 p.41 question/handle replay; reuse |
+| p.51 · `chondroma-benign-cartilage-neoplasm-definition` | `chondroma benign neoplasm cartilage`; `chondroma benign cartilage tumor`; `finger chondroma benign cartilage`; `chondroma tissue type cartilage benign` | no same-scope | exact Family-190 p.42 question/handle replay; reuse |
+| p.52 · `benign-neoplasm-well-differentiated-feature` | `benign neoplasms well differentiated cells`; `feature benign neoplasm well differentiated`; `benign tumor resembles normal tissue`; `benign tumour well differentiated` | no same-scope | exact Family-190 p.44 question/handle and Family-1 characteristic reuse |
+| p.53 · `neoplasia-persists-after-stimulus-removal` | `abnormal growth persists after stimulus removed neoplasia`; `neoplasia growth persists after stimulus`; `neoplastic proliferation continues after stimulus removed`; `neoplasia autonomous persistent growth definition` | no same-scope | exact Family-190 p.45 question/handle and Family-1/98 definition reuse |
+| p.54 · `anaplasia-no-differentiation-tissue-origin` | `anaplasia no differentiation tissue of origin`; `anaplastic neoplasm cannot identify tissue origin`; `loss of differentiation neoplasm`; `anaplasia definition morphology` | no same-scope | contained by Family-5 `anaplasia-definition-morphology`; reuse |
+| p.55 · `malignant-neoplasm-rapid-growth-spread-definition` | `rapidly growing neoplasms potential spread widely body`; `malignant neoplasm rapid growth distant spread`; `malignant tumor invasive growth metastasis definition`; `malignant versus benign growth spread` | no same-scope | contained by Families 1/5/110 and Family-133 `malignant-neoplasm-aggressive-invasive-spreading`; reuse |
+| p.56 · `benign-neoplasm-slow-confined-harmful-definition` | `slowly growing neoplasms confined tissue origin harmful`; `benign neoplasm stays confined tissue of origin`; `benign tumor slow growth no metastasis can be harmful`; `benign neoplasm definition confined growth` | no same-scope | contained by Families 1/110 benign-characteristic scope and Family-193 benign-harm scope; reuse |
+| p.57 · `stage-tnm-malignancy-spread-principles` | `stage TNM measure malignancy spread invasion metastasis`; `tumor node metastasis components`; `TNM local growth lymph node distant organ`; `cancer staging extent spread definition` | no same-scope | exact Family-5/F190 `tnm-staging-components` reuse |
+| p.58 · `neoplasm-heritable-relative-autonomy-definition` | `heritably altered relatively autonomous growth tissue`; `neoplasm relative autonomy definition`; `neoplastic growth autonomy stop signals`; `neoplasia autonomous persistent growth` | no same-scope | contained by Family-190 `neoplasm-relative-autonomy-stop-signal-loss` and Family-98 growth-control scope; reuse |
+
+External exact-scope disposition is **0 live / 0 pending / 11 no same-scope**. All **11** handles
+are exact or contained prior-BMS reuses, so Family 200 adds **`11 - 11 = +0` distinct concepts**.
+The six exact Family-190 question replays remain genuine occurrences in this separately governed,
+current-year lecture carrier, while cross-family concept arithmetic prevents double counting.
+
+### Family-200 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 200 | Auxiliary cumulative (Families 12–200) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 11 = 10 MCQ/multi-select/term-matching + 1 T/F | 2,587 | 762 | 3,349 |
+| Source-supplied answers | 0; 11 unkeyed | 1,675 | 405 | 2,080 |
+| Retained question records | 11 | 2,294 | 552 | 2,846 |
+| Accepted handles / required searches | 11 / 44 | 2,075 / — | — | — |
+| Prior-BMS handle reuses | 11 | — | — | — |
+| Cross-family concept delta | +0 | +975 over primary | 372 | 1,347 |
+| **Distinct tested concepts** | **11 source-local / +0** | **975 additions** | **372** | **1,347** |
+
+Checksums: `10 + 1 = 11 prompts`; `0 + 11 = 11 answer states`; `11 - 0 literal exclusions =
+11 retained`; `11 retained - 0 semantic reductions = 11 handles`; `11 × 4 = 44 searches`;
+and `11 - 11 prior reuses = +0`. Auxiliary arithmetic is `2,576 + 11 = 2,587` prompts,
+`1,675 + 0 = 1,675` answers, `2,283 + 11 = 2,294` retained records, `2,064 + 11 = 2,075`
+handles, and `975 + 0 = 975` concepts. All eligible arithmetic is `762 + 2,587 = 3,349`,
+`405 + 1,675 = 2,080`, `552 + 2,294 = 2,846`, and `372 + 975 = 1,347`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,587 prompts / 1,675 answers /
+2,294 retained / 2,075 handles / +975 concepts**. All eligible is **3,349 / 2,080 / 2,846 /
+1,347**. Family 200 establishes current Helwan theoretical teaching and auxiliary unkeyed
+interactive-question evidence only, not an exam sitting, official departmental key, candidate
+response, authenticated practical station, readiness, or claims status.
+
+### Exact next debt after Family 200
+
+`src_7ce8b4c740464632c3de` is exhausted across all 59 pages: every visible current-year/module and
+instructor field, metadata conflict, isolated footer anomaly, objective, definition, teaching
+statement, completed map/table, labelled image, interactive prompt, empty response control, printed
+teaching mark, reference, search packet, prior-family relation, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-200 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_618d482aa23f51f29cf0` ·
+`Infection-Lecture.pdf`, SHA-256
+`618d482aa23f51f29cf0990e8c2882785354c662167ee12f793d05191b3f1e90`, **2,112,104 bytes**,
+**48 native-text 720×540 landscape pages** under `Pathology / Theoretical / Lec 9 - Infection`.
+Its first visible page identifies `Infection`, **Dr Enas Megahed Elhosary**, Lecturer of Pathology,
+Faculty of Medicine, **Helwan University**; metadata title is `Bacterial infection`, author is
+`amro`, and creation/modification is 16 March 2026. Its complete visible authority/date boundary,
+teaching/prompt/key/callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
