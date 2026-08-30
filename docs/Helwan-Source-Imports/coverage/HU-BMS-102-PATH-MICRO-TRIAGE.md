@@ -6638,3 +6638,203 @@ manifest-ordered local BMS-102 candidate is tier-5 `src_a13e4536d8399d9733b5` ·
 native-text portrait US-letter pages under `Microbiology / Practical`. Its unread 18-page
 prompt/teaching/answer boundary is the next-source processing blocker: fully render and visually
 adjudicate the complete source before admitting any count.
+
+## Family 60 — tier-5 compiled practical-microbiology MCQ bank
+
+### Source identity, complete visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_a13e4536d8399d9733b5` · `Lab Micro Questions.pdf` |
+| Local path | `BMS 102/Microbiology/Practical/Lab Micro Questions.pdf` |
+| SHA-256 / size | `a13e4536d8399d9733b57c74903d0fcaca09788f9b4363dfc74856726b73906f` · 74,731 bytes |
+| Format / read boundary | 18 native-text portrait US-letter pages; text extracted, all 18 pages rendered at 140 dpi, and every page read in three ordered contact sheets against the page-delimited extraction |
+| Provenance / authority | Unbranded Word-origin file; metadata author `Adam Abdalaleem Mohamed Abdalmaqsoad Hasan`. Low-authority compiled practical bank with printed study keys; no visible Helwan/faculty/department/module attribution, examiner, sitting, date, marks, instructions, response form, or official-key statement |
+
+The file contains three keyed MCQ blocks and no declarative teaching section. Every complete
+stem plus option set is one prompt, and every corresponding answer-register entry is one printed
+study answer. The registers are source-authored study keys, not an official Helwan exam key.
+
+| Physical pages | Complete visual content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | First Q1–Q5 set; Q5 crosses the page boundary; complete five-answer register | **5 / 5** |
+| 3–4 | Second Q1–Q5 set; Q5 crosses the page boundary; complete five-answer register | **5 / 5** |
+| 5–6 | Continuous bank Q1–Q9; Q5 crosses onto p. 6 and Q9 continues on p. 7 | **9 / 0** prompt starts |
+| 7–8 | Q9 continuation and Q10–Q17; Q13 crosses onto p. 8 | **8 / 0** new prompt starts |
+| 9–10 | Q18–Q26; Q22 crosses onto p. 10 and Q26 continues on p. 11 | **9 / 0** new prompt starts |
+| 11–12 | Q26 continuation and Q27–Q34; Q30 crosses onto p. 12 | **8 / 0** new prompt starts |
+| 13–14 | Q35–Q43; Q39 crosses onto p. 14 and Q43 continues on p. 15 | **9 / 0** new prompt starts |
+| 15–16 | Q43 continuation, Q44–Q48, then answer-key entries 1–16 | **5 / 16** |
+| 17 | Answer-key entries 17–42 | **0 / 26** |
+| 18 | Answer-key entries 43–48 | **0 / 6** |
+
+The source therefore contains **58 prompt occurrences / 58 printed study-answer occurrences /
+0 unkeyed occurrences**. No teaching plate, incomplete residue, blank response line, or other
+material appears.
+
+### Complete prompt, printed-answer, collapse, and prior-BMS inventory
+
+| Ref | Page(s) | Complete source-tested scope | Printed study answer | Handle / assignment |
+|---|---:|---|---|---|
+| F60-Q01 | 1–2 | Nutrient-agar composition | A · nutrient broth plus agar agar | `nutrient-agar-composition-nutrient-broth-plus-agar` |
+| F60-Q02 | 1–2 | Bacterial-cultivation incubation temperature | C · 37 °C | `bacterial-cultivation-37c-incubation-temperature` |
+| F60-Q03 | 1–2 | Pink neutral red: lactose fermentation and acid | A | `neutral-red-lactose-fermentation-color-interpretation` · exact Family 58 Q03 relation |
+| F60-Q04 | 1–2 | Source-keyed MIC method set | D · all listed methods | `mic-determination-methods-disc-dilution-e-test` |
+| F60-Q05 | 1–2 | Purpose of susceptibility-test inhibition zone | B · antibiotic effectiveness | `zone-of-inhibition-antibiotic-effectiveness-purpose` |
+| F60-Q06 | 3–4 | Source-keyed MBC method set | D · all listed methods | `mbc-determination-methods-disc-dilution-e-test` |
+| F60-Q07 | 3–4 | Blood-agar classification | A · enriched | `blood-agar-enriched-medium-classification` |
+| F60-Q08 | 3–4 | Lactose-fermenting, acid-producing organisms | C and D · *E. coli*, *Klebsiella* | `lactose-fermenting-bacteria-e-coli-klebsiella` |
+| F60-Q09 | 3–4 | Yellow neutral red: no lactose fermentation/acid | B | retained complementary variant; collapse to `neutral-red-lactose-fermentation-color-interpretation` |
+| F60-Q10 | 3–4 | Gram-negative cocci in pairs inside pus cells | B · cocci | `gram-negative-diplococci-pus-cell-morphology` |
+| F60-Q11 | 5,16 | Part focusing light on specimen | C · condenser | `light-microscope-condenser-focuses-light` |
+| F60-Q12 | 5,16 | Revolving-nosepiece function | B · holds/switches objectives | `revolving-nosepiece-holds-switches-objectives` |
+| F60-Q13 | 5,16 | Initial low-power focus | B · coarse focus | `coarse-adjustment-initial-low-power-focus` |
+| F60-Q14 | 5,16 | Stage-clip function | B · holds slide | `microscope-stage-clips-hold-slide` |
+| F60-Q15 | 5–6,16 | Stain distinguishing bacteria by wall structure | B · Gram stain | `gram-stain-differentiates-cell-wall-types` |
+| F60-Q16 | 6,16 | Gram-positive clustered cocci genus | C · *Staphylococcus* | `staphylococcus-gram-positive-cocci-clusters` |
+| F60-Q17 | 6,17 | Gram-negative post-Gram-stain colour | B · red or pink | `gram-negative-gram-stain-red-pink` |
+| F60-Q18 | 6,17 | Oil-immersion magnification | C · 100× | `oil-immersion-objective-100x` |
+| F60-Q19 | 6–7,17 | Ziehl–Neelsen primary use | B · acid-fast bacteria including *M. tuberculosis* | `ziehl-neelsen-identifies-acid-fast-mycobacteria` |
+| F60-Q20 | 7,17 | Primary loop sterilisation method | B · source prints `benzene flame` until red | `bacteriological-loop-sterilization-flame-incineration` |
+| F60-Q21 | 7,17 | Another loop sterilisation method | C · incineration | retained method variant; same loop handle |
+| F60-Q22 | 7,17 | Peptone-water purpose | B · base for other media | `peptone-water-base-for-media` |
+| F60-Q23 | 7–8,17 | Peptone-water composition | C · 1% peptone + 0.5% NaCl | `peptone-water-composition` |
+| F60-Q24 | 8,17 | Alkaline-peptone-water organism | C · *Vibrio cholerae* | `alkaline-peptone-water-vibrio-cholerae-enrichment` |
+| F60-Q25 | 8,17 | Nutrient-broth colour | B · clear yellow | `nutrient-broth-clear-yellow` |
+| F60-Q26 | 8–9,17 | Nutrient-broth components | B · peptone, NaCl, meat extract | `nutrient-broth-composition-peptone-salt-meat-extract` |
+| F60-Q27 | 8,17 | Nutrient-broth primary use | C · non-fastidious cultivation | `nutrient-media-cultivation-non-fastidious` |
+| F60-Q28 | 9,17 | Nutrient-agar-slope composition | C · nutrient broth + agar agar | retained vessel variant; collapse to Q01 handle |
+| F60-Q29 | 9,17 | Nutrient-agar-slope class | D · simple | `nutrient-agar-slope-simple-medium` |
+| F60-Q30 | 9,17 | Nutrient-agar-slope appearance | B · yellow, semi-transparent | `nutrient-agar-slope-yellow-semitransparent` |
+| F60-Q31 | 9,17 | Nutrient-agar-plate use | C · non-fastidious cultivation | retained solid-medium variant; collapse to Q27 handle |
+| F60-Q32 | 9–10,17 | Nutrient agar versus broth difference | B · agar agar | `nutrient-agar-versus-broth-agar-solidifier` |
+| F60-Q33 | 10,17 | Blood-agar composition | C · nutrient agar + 10% blood | `blood-agar-composition-nutrient-agar-ten-percent-blood` |
+| F60-Q34 | 10,17 | Blood-agar class | C · enriched | retained wording variant; collapse to Q07 handle |
+| F60-Q35 | 10,17 | Blood-agar detection use | C · haemolytic activity | `blood-agar-detects-hemolysis` |
+| F60-Q36 | 10–11,17 | Green-zone haemolysis | A · alpha | `alpha-hemolysis-green-zone` |
+| F60-Q37 | 11,17 | Complete-RBC-lysis haemolysis | B · beta | `beta-hemolysis-complete-rbc-lysis` |
+| F60-Q38 | 11,17 | Gamma-haemolysis organism | B · *S. epidermidis* | `gamma-hemolysis-staphylococcus-epidermidis` |
+| F60-Q39 | 11–12,17 | Chocolate-agar composition | C · heated blood agar | `chocolate-agar-heated-blood-composition` |
+| F60-Q40 | 11–12,17 | Chocolate-agar class | C · enriched | `chocolate-agar-enriched-classification` |
+| F60-Q41 | 12,17 | Chocolate-agar organisms | B · *Neisseria*, *Haemophilus* | `chocolate-agar-neisseria-haemophilus-cultivation` |
+| F60-Q42 | 12,17 | MacConkey main function | B · differentiate lactose fermenters | `macconkey-differentiates-lactose-fermenters` |
+| F60-Q43 | 12,17–18 | MacConkey components | B · peptone/lactose/neutral red/bile salts/agar | `macconkey-composition-peptone-lactose-neutral-red-bile-salts-agar` |
+| F60-Q44 | 12,18 | Source-keyed MacConkey class | C · differential indicator | `macconkey-differential-indicator-classification` |
+| F60-Q45 | 13,18 | Yellow TSI meaning | B · sugar fermentation | `tsi-yellow-sugar-fermentation` |
+| F60-Q46 | 13,18 | Ferrous sulfate purpose in TSI | C · H2S indicator | `tsi-ferrous-sulfate-h2s-indicator` |
+| F60-Q47 | 13,18 | Lowenstein–Jensen use | B · *M. tuberculosis* cultivation | `lowenstein-jensen-mycobacterium-tuberculosis-cultivation` |
+| F60-Q48 | 13,18 | Lowenstein–Jensen composition | B · egg/mineral salts/malachite green | `lowenstein-jensen-egg-mineral-salts-malachite-green` |
+| F60-Q49 | 13–14,18 | Lowenstein–Jensen colour | C · green | `lowenstein-jensen-green-color` |
+| F60-Q50 | 14,18 | Larger disc-diffusion zone meaning | B · greater susceptibility | `larger-disc-diffusion-zone-greater-susceptibility` |
+| F60-Q51 | 14,18 | Disc-diffusion agar | C · source spells `Muller Hinton` | `mueller-hinton-agar-disc-diffusion` |
+| F60-Q52 | 14,18 | MIC expansion | C · Minimum Inhibitory Concentration | `mic-expansion-minimum-inhibitory-concentration` |
+| F60-Q53 | 14–15,18 | MIC definition in tube dilution | A · lowest concentration preventing visible growth | `mic-lowest-concentration-prevents-visible-growth` |
+| F60-Q54 | 15,18 | Highest-concentration end of source's E-test zone | B · widest part | `e-test-gradient-highest-at-widest-zone` |
+| F60-Q55 | 15,18 | Robertson cooked-meat use | B · anaerobic cultivation | `strict-anaerobe-growth-robertson-cooked-meat-medium` · exact Family 58 Q05 reuse |
+| F60-Q56 | 15,18 | Microscope for *Treponema pallidum* | C · dark-ground | `dark-ground-microscope-treponema-pallidum` |
+| F60-Q57 | 15–16,18 | GasPak purpose | B · anaerobic environment | `gaspak-creates-anaerobic-environment` |
+| F60-Q58 | 16,18 | Sugar-fermentation-test purpose | B · differentiate by specific carbohydrate fermentation | `sugar-fermentation-test-differentiates-bacteria-by-carbohydrate` · exact Family 36 E03 reuse |
+
+There are no literal copies, so all **58 records are retained**. The five pairs Q01/Q28,
+Q03/Q09, Q07/Q34, Q20/Q21, and Q27/Q31 each reduce to one relation: **58 - 5 = 53
+source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each handle received exactly four required source-first searches across live state, pending import
+roots, and prior BMS-102 evidence: **53 × 4 = 212 searches**. External disposition is **0 live /
+2 pending / 51 no same-scope**. Pending `CON-INF-3059CB94D6295F` exactly supplies Q42's
+MacConKey differential function and Q44's classification; adjacent broader records were rejected.
+
+| Handle · ref(s) | Exactly four required queries | External / prior result |
+|---|---|---|
+| `nutrient-agar-composition-nutrient-broth-plus-agar` · Q01,Q28 | `nutrient agar composition nutrient broth agar agar`; `nutrient agar slope composition`; `nutrient broth plus agar solid medium`; `nutrient agar ingredients peptone meat extract agar` | none / no prior |
+| `bacterial-cultivation-37c-incubation-temperature` · Q02 | `bacterial cultivation incubation temperature 37 C`; `optimal incubation temperature bacterial culture`; `routine bacteriology culture 37 degrees`; `incubate bacteria at body temperature` | none / no prior |
+| `neutral-red-lactose-fermentation-color-interpretation` · Q03,Q09 | `neutral red pink lactose fermentation acid`; `neutral red yellow no lactose fermentation`; `lactose fermentation pH indicator pink yellow`; `neutral red indicator bacterial carbohydrate fermentation` | no external exact; exact Family 58 Q03 reuse |
+| `mic-determination-methods-disc-dilution-e-test` · Q04 | `MIC determination disc diffusion tube dilution E test`; `methods determine minimum inhibitory concentration`; `antimicrobial susceptibility MIC methods enumeration`; `MIC disc diffusion broth dilution epsilometer` | none; Family 59 individual operations are narrower |
+| `zone-of-inhibition-antibiotic-effectiveness-purpose` · Q05 | `zone of inhibition purpose antibiotic effectiveness`; `inhibition zone antimicrobial susceptibility meaning`; `why measure zone of inhibition`; `disc diffusion zone determines antibiotic effectiveness` | none / no prior |
+| `mbc-determination-methods-disc-dilution-e-test` · Q06 | `MBC determination disc diffusion tube dilution E test`; `methods determine minimum bactericidal concentration`; `antimicrobial susceptibility MBC methods enumeration`; `MBC disc diffusion dilution epsilometer` | none / no prior; preserve source claim |
+| `blood-agar-enriched-medium-classification` · Q07,Q34 | `blood agar enriched medium classification`; `blood agar type of culture medium`; `enriched media blood agar plate`; `classify blood agar enriched differential` | none / no prior |
+| `lactose-fermenting-bacteria-e-coli-klebsiella` · Q08 | `lactose fermenting bacteria E coli Klebsiella`; `bacteria associated lactose fermentation acid production`; `Escherichia Klebsiella lactose fermenters`; `enteric lactose fermentation organisms` | none / no prior |
+| `gram-negative-diplococci-pus-cell-morphology` · Q10 | `Gram negative cocci pairs inside pus cells`; `intracellular Gram negative diplococci pus`; `cocci in pairs polymorphonuclear leukocytes`; `Gram negative diplococcus smear morphology` | none / no prior |
+| `light-microscope-condenser-focuses-light` · Q11 | `microscope condenser focuses light specimen`; `light microscope part concentrates illumination`; `condenser lens function microscopy`; `focus light onto specimen condenser` | none / no prior |
+| `revolving-nosepiece-holds-switches-objectives` · Q12 | `revolving nosepiece holds objective lenses`; `microscope turret switches objectives`; `nosepiece function light microscope`; `rotate between objective lenses microscope` | none / no prior |
+| `coarse-adjustment-initial-low-power-focus` · Q13 | `coarse focus initial focusing low magnification`; `microscope coarse adjustment lower power`; `coarse focus knob purpose`; `initial focus specimen 10x objective` | none / no prior |
+| `microscope-stage-clips-hold-slide` · Q14 | `microscope stage clips hold slide`; `stage clip function specimen microscope`; `secure glass slide on microscope stage`; `light microscope clips keep slide in place` | none / no prior |
+| `gram-stain-differentiates-cell-wall-types` · Q15 | `Gram staining distinguishes bacteria cell wall structure`; `differential stain Gram positive negative cell walls`; `purpose of Gram stain bacterial types`; `Gram stain differentiates bacteria` | none / no prior |
+| `staphylococcus-gram-positive-cocci-clusters` · Q16 | `Gram positive cocci clusters Staphylococcus`; `grape like clusters bacterial genus`; `Staphylococci microscopic arrangement`; `cocci arranged in clusters identification` | none / no prior |
+| `gram-negative-gram-stain-red-pink` · Q17 | `Gram negative bacteria red pink Gram stain`; `Gram negative counterstain safranin color`; `Gram stain appearance negative bacteria`; `pink rods cocci Gram negative staining` | none / no prior |
+| `oil-immersion-objective-100x` · Q18 | `oil immersion lens 100x objective`; `oil immersion microscope magnification`; `which objective uses immersion oil`; `100 power oil immersion microscopy` | none / no prior |
+| `ziehl-neelsen-identifies-acid-fast-mycobacteria` · Q19 | `Ziehl Neelsen stain acid fast Mycobacterium tuberculosis`; `purpose Ziehl-Neelsen staining`; `acid fast bacilli staining method`; `identify Mycobacterium tuberculosis stain` | acid-fast-wall hit is narrower; no prior |
+| `bacteriological-loop-sterilization-flame-incineration` · Q20,Q21 | `sterilize bacteriological loop flame red heat`; `inoculating loop incineration method`; `benzene Bunsen flame loop sterilization`; `microbiology loop sterilized until red hot` | none; prior incineration handle concerns waste |
+| `peptone-water-base-for-media` · Q22 | `peptone water base preparing culture media`; `purpose peptone water microbiology`; `peptone water basal medium use`; `base for carbohydrate fermentation media peptone water` | none / no prior |
+| `peptone-water-composition` · Q23 | `peptone water composition one percent peptone sodium chloride`; `1% peptone 0.5% NaCl medium`; `basic peptone water ingredients`; `microbiology peptone water formula` | none / no prior |
+| `alkaline-peptone-water-vibrio-cholerae-enrichment` · Q24 | `alkaline peptone water Vibrio cholerae`; `Vibrio enrichment medium alkaline peptone`; `selective enrichment cholera organism`; `alkaline broth grows Vibrio cholerae` | none / no prior |
+| `nutrient-broth-clear-yellow` · Q25 | `nutrient broth clear yellow color`; `appearance of nutrient broth medium`; `sterile nutrient broth colour`; `color physical property nutrient broth` | none / no prior |
+| `nutrient-broth-composition-peptone-salt-meat-extract` · Q26 | `nutrient broth peptone sodium chloride meat extract`; `composition nutrient broth microbiology`; `beef extract peptone NaCl broth`; `nutrient broth ingredients formula` | none / no prior |
+| `nutrient-media-cultivation-non-fastidious` · Q27,Q31 | `nutrient broth agar cultivate non fastidious organisms`; `general purpose medium nonfastidious bacteria`; `nutrient media primary use routine cultivation`; `non-fastidious microorganisms nutrient agar plate` | none / no prior |
+| `nutrient-agar-slope-simple-medium` · Q29 | `nutrient agar slope simple medium`; `classification nutrient agar culture medium`; `nutrient agar basal simple medium`; `agar slope type enriched selective differential simple` | none / no prior |
+| `nutrient-agar-slope-yellow-semitransparent` · Q30 | `nutrient agar slope yellow semitransparent`; `appearance color nutrient agar slope`; `sterile nutrient agar pale yellow transparent`; `physical characteristics nutrient agar medium` | none / no prior |
+| `nutrient-agar-versus-broth-agar-solidifier` · Q32 | `nutrient agar versus nutrient broth agar agar`; `key difference nutrient broth agar medium`; `agar solidifier distinguishes broth plate`; `nutrient agar contains agar nutrient broth does not` | none / no prior |
+| `blood-agar-composition-nutrient-agar-ten-percent-blood` · Q33 | `blood agar composition nutrient agar 10 percent blood`; `blood agar base plus blood percentage`; `prepare blood agar enriched medium ingredients`; `five ten percent sheep blood agar base` | none / no prior |
+| `blood-agar-detects-hemolysis` · Q35 | `blood agar detects hemolytic activity`; `purpose blood agar hemolysis detection`; `culture medium observe red cell lysis`; `blood agar differential hemolytic patterns` | none / no prior |
+| `alpha-hemolysis-green-zone` · Q36 | `alpha hemolysis green zone blood agar`; `green discoloration partial hemolysis`; `Streptococcus alpha haemolysis appearance`; `blood agar green zone classification` | organism-specific pending hit rejected; no prior |
+| `beta-hemolysis-complete-rbc-lysis` · Q37 | `beta hemolysis complete red blood cell lysis`; `clear zone blood agar complete hemolysis`; `beta haemolytic pattern definition`; `complete lysis erythrocytes colony` | none / no prior |
+| `gamma-hemolysis-staphylococcus-epidermidis` · Q38 | `Staphylococcus epidermidis gamma hemolysis`; `gamma nonhemolytic organism example`; `blood agar Staph epidermidis no hemolysis`; `bacteria demonstrates gamma haemolysis` | none / no prior |
+| `chocolate-agar-heated-blood-composition` · Q39 | `chocolate agar heated blood composition`; `heated blood agar lysed red cells`; `chocolate agar preparation ingredients`; `blood agar heated brown medium` | none; Family 58 composite is broader |
+| `chocolate-agar-enriched-classification` · Q40 | `chocolate agar enriched medium classification`; `type of culture medium chocolate agar`; `heated blood enriched culture medium`; `chocolate agar selective differential enriched` | none; Family 58 composite is broader |
+| `chocolate-agar-neisseria-haemophilus-cultivation` · Q41 | `chocolate agar Neisseria Haemophilus cultivation`; `fastidious bacteria grown chocolate agar`; `organisms requiring X V factors medium`; `culture Neisseria gonorrhoeae Haemophilus influenzae` | none / no prior |
+| `macconkey-differentiates-lactose-fermenters` · Q42 | `MacConkey differentiates lactose fermenters nonfermenters`; `main function MacConkey agar`; `enteric differential medium lactose fermentation`; `MacConkey selective differential purpose` | pending `CON-INF-3059CB94D6295F`; no prior exact |
+| `macconkey-composition-peptone-lactose-neutral-red-bile-salts-agar` · Q43 | `MacConkey agar peptone lactose neutral red bile salts agar`; `composition ingredients MacConkey medium`; `MacConkey formula crystal violet bile salts`; `lactose indicator selective agar components` | none / no prior |
+| `macconkey-differential-indicator-classification` · Q44 | `MacConkey differential indicator medium classification`; `what type culture medium MacConkey agar`; `MacConkey selective and differential medium`; `classification lactose indicator agar` | pending `CON-INF-3059CB94D6295F`; no prior exact |
+| `tsi-yellow-sugar-fermentation` · Q45 | `TSI agar yellow sugar fermentation`; `triple sugar iron acid yellow interpretation`; `TSI color indicates carbohydrate fermentation`; `yellow slant butt TSI meaning` | none / no prior |
+| `tsi-ferrous-sulfate-h2s-indicator` · Q46 | `ferrous sulfate TSI indicates hydrogen sulfide`; `purpose iron salt triple sugar iron agar`; `TSI black precipitate H2S ferrous ions`; `ferrous sulfate bacterial medium indicator` | none / no prior |
+| `lowenstein-jensen-mycobacterium-tuberculosis-cultivation` · Q47 | `Lowenstein Jensen medium Mycobacterium tuberculosis cultivation`; `primary use LJ medium`; `culture acid fast bacilli egg medium`; `selective medium tuberculosis organism` | none / no prior |
+| `lowenstein-jensen-egg-mineral-salts-malachite-green` · Q48 | `Lowenstein Jensen beaten egg mineral salts malachite green`; `composition LJ medium tuberculosis`; `Lowenstein-Jensen ingredients formula`; `egg based medium malachite green mineral solution` | none / no prior |
+| `lowenstein-jensen-green-color` · Q49 | `Lowenstein Jensen medium green color`; `appearance colour LJ slant`; `malachite green egg medium color`; `tuberculosis culture medium pale green` | none / no prior |
+| `larger-disc-diffusion-zone-greater-susceptibility` · Q50 | `larger zone inhibition greater bacterial susceptibility`; `disc diffusion zone diameter interpretation`; `large inhibition zone sensitive antibiotic`; `Kirby Bauer susceptibility size of zone` | none; Family 59 tests diffusion principle |
+| `mueller-hinton-agar-disc-diffusion` · Q51 | `Mueller Hinton agar disc diffusion susceptibility`; `agar used Kirby Bauer test`; `standard medium antimicrobial disk test`; `antibiotic susceptibility plate medium` | none / no prior |
+| `mic-expansion-minimum-inhibitory-concentration` · Q52 | `MIC stands for minimum inhibitory concentration`; `expand abbreviation MIC microbiology`; `meaning MIC antimicrobial susceptibility`; `minimum inhibitory concentration term` | none / no prior |
+| `mic-lowest-concentration-prevents-visible-growth` · Q53 | `MIC lowest concentration prevents visible bacterial growth`; `minimum inhibitory concentration definition`; `broth dilution first clear tube no growth`; `antibiotic concentration inhibits visible growth` | none; Family 59 tests figure reading |
+| `e-test-gradient-highest-at-widest-zone` · Q54 | `E test highest antibiotic concentration widest zone`; `tear shaped inhibition zone gradient widest part`; `Etest strip concentration gradient orientation`; `epsilometer high concentration end ellipse` | none; Family 59 tests definition/reading |
+| `strict-anaerobe-growth-robertson-cooked-meat-medium` · Q55 | `Robertson cooked meat medium anaerobic bacteria`; `strict anaerobe growth RCM medium`; `primary use Robertson cooked meat broth`; `cultivation anaerobes cooked meat medium` | no external exact; exact Family 58 Q05 reuse |
+| `dark-ground-microscope-treponema-pallidum` · Q56 | `dark ground microscope Treponema pallidum`; `visualize spirochetes dark field microscopy`; `microscope used syphilis organism`; `Treponema pallidum direct darkfield examination` | non-cultivability carrier rejected; no prior |
+| `gaspak-creates-anaerobic-environment` · Q57 | `GasPak creates anaerobic environment`; `purpose GasPak system microbiology`; `anaerobic jar gas generating sachet`; `cultivate anaerobes GasPak oxygen removal` | none / no prior |
+| `sugar-fermentation-test-differentiates-bacteria-by-carbohydrate` · Q58 | `sugar fermentation test differentiate bacteria carbohydrate`; `purpose carbohydrate fermentation microbiology`; `identify bacteria specific sugar acid production`; `fermentation tests bacterial identification` | no external exact; exact Family 36 E03 reuse |
+
+The three prior-BMS exact handles are Q03/Q09, Q55, and Q58. Therefore **53 - 3 = +50
+concepts**.
+
+| Measure | Family 60 | Auxiliary cumulative (Families 12–60) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 58 | 571 | 765 | 1,336 |
+| Printed study-answer occurrences | 58 | 301 | 405 | 706 |
+| Retained question records | 58 | 554 | 552 | 1,106 |
+| Source-distinct tested handles / required searches | 53 / 212 | 523 / — | — | — |
+| External live / pending / no same-scope | 0 / 2 / 51 | — | — | family-local disposition |
+| Cross-family concept delta | +50 | +393 over primary | 372 | `372 + 393 = 765` |
+| **Distinct tested concepts** | **+50** | **393 auxiliary additions** | **372** | **765** |
+
+The checksum closes: prompts `5 + 5 + 48 = 58`; answers `5 + 5 + 48 = 58`; unkeyed `58 -
+58 = 0`; retention `58 - 0 copies = 58`; handles `58 - 5 reductions = 53`; searches `53 × 4
+= 212`; external disposition `0 + 2 + 51 = 53`; concepts `53 - 3 = 50`. Auxiliary arithmetic
+is `513 + 58 = 571`, `243 + 58 = 301`, `496 + 58 = 554`, `470 + 53 = 523`, and `343 +
+50 = 393`. All-eligible arithmetic is `765 + 571 = 1,336`, `405 + 301 = 706`, `552 + 554 =
+1,106`, and `372 + 393 = 765`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**571 / 301 / 554 / 523 / +393**; all eligible evidence is
+**1,336 / 706 / 1,106 / 765**. This unbranded tier-5 bank adds keyed study evidence only; it
+cannot raise official-key, exam/sitting, recurrence, mark-weight, readiness, or claims status.
+
+### Exact next debt after Family 60
+
+`src_a13e4536d8399d9733b5` is exhausted across all 18 pages: every prompt start, page-spanning
+stem/option set, answer-register entry, retained record, collapse, handle, search row, external
+disposition, and prior-BMS decision is assigned once, with **zero source remainder** and no
+Family-60 blocker. The next manifest-ordered local BMS-102 candidate is tier-5
+`src_abc9011879d91d9c2399` · `microbiology  lab.pdf`, SHA-256
+`abc9011879d91d9c2399070cb96560d4ad247f07354a77e2833c902aa850be1d`, 56,514,740 bytes, 11
+OCR-needed landscape 1280×720-point pages under `Microbiology / Practical`. Its unread 11-page
+prompt/teaching/answer boundary is the next-source processing blocker: fully render and visually
+adjudicate the complete source before admitting any count.
