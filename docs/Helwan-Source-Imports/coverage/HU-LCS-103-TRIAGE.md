@@ -10657,3 +10657,97 @@ The exact next tier-3 manifest-order debt is `src_9beab18521560a8d9eea`,
 external and may prove wholly out of module when its own pages are inspected. **Overall
 LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 142 tier-3/tier-6/rank-9 path debts remain.
 No download, ID, content record, catalogue update, import or source copy was created.
+
+## Family 89 — Tier-3 external abdomen MCQ screenshots with two plexus prompts
+
+### Exact identity, provenance and module-fit-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_9beab18521560a8d9eea` / `9beab18521560a8d9eeab90bb44b5bdc107046bad9c92d8ac1791b68716acf16` |
+| File / boundary | `MCQs - External MCQs Dr_Adel_bondok_abdomen_mcq_د_عادل_بندق_@Medicine_Way2.pdf` · 1,826,169 bytes · unencrypted PDF · 14 physical OCR-needed pages · 477 × 720 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External MCQs Dr_Adel_bondok_abdomen_mcq_د_عادل_بندق_@Medicine_Way2.pdf` |
+| Provenance | Filename identifies an external Dr Adel Bondok abdomen bank and the manifest records `Medicine Way 2 (Telegram channel)` as the origin hint. The visible pages are browser/app screenshots without university, faculty, cohort, sitting or official-key attribution. |
+| Authority finding | External abdomen-review evidence. Folder placement alone cannot make its abdominal/GI material LCS-103 evidence; only two lower-limb plexus objectives survive the module gate. |
+
+The assigned hash, byte size and fourteen-page boundary were recomputed and match. All pages
+were rendered at 250 dpi, OCR-assisted and read visually. Physical pp. 1–10 contain a first
+bank numbered Q1–Q40 with one selected dropdown letter beside every question. Physical
+pp. 11–14 contain a second bank numbered Q1–Q10. Page 14 is a crop-overlap of the lower
+portion of p. 13, so its repeated Q8–Q10 are not second occurrences. The unique source
+boundary is therefore **50 prompts**, not 53.
+
+The first bank's forty visible dropdown selections are retained as **40 printed/visible
+answer states**. The second bank has no answer reveal: its Q1 alone shows four checked boxes,
+which are a non-authoritative saved response state rather than a printed key; all remaining
+boxes are blank. `Mark` and `Explain` buttons are visible but no explanation panel is open.
+
+Module fit is decided before inventory. First-bank Q26 asks for the incorrect statement about
+lumbar-plexus formation and psoas relations; first-bank Q29 asks which root contributes to the
+sacral plexus. These are lower-limb neural-anatomy objectives and survive. All other unique
+questions concern stomach, bowel, peritoneum, hepatobiliary/pancreatic anatomy, abdominal
+vessels, ureter, abdominal wall or spermatic cord and are excluded.
+
+| Physical boundary | Unique prompts | Visible answer states | LCS disposition |
+|---|---:|---:|---|
+| pp. 1–6 + first-bank p. 7 Q25, Q27–Q28 + pp. 8–10 except Q29 | 38 | 38 | abdominal/GI exclusion |
+| p. 7 first-bank Q26 | 1 | 1 (`b`) | included lumbar-plexus prompt/key |
+| p. 8 first-bank Q29 | 1 | 1 (`d`) | included sacral-plexus-root prompt/key |
+| pp. 11–14 second bank Q1–Q10 after crop-overlap collapse | 10 | 0 printed keys; one excluded saved-response artifact | abdominal/GI exclusion |
+| **Family 89 included boundary** | **2** | **2** | **external LCS evidence** |
+| **Out-of-module boundary** | **38 + 10 = 48** | **38** | **excluded from every LCS cumulative** |
+| **Whole unique source** | **40 + 10 = 50** | **40 printed/visible answer states** | **complete** |
+
+There is no declarative teaching section, practical station, specimen, image-identification
+task, teaching plate, apparatus task, masked label or response blank within the accepted
+boundary. The screenshot controls and excluded response mark are not practical residues.
+Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical
+keys / 0 practical scopes**.
+
+### Accepted handles, exact searches and deduplication
+
+The two surviving occurrences remain two independently answerable handles. Each received
+exactly one search in each required live, pending/import-ready, prior source-import and
+accepted-LCS surface: **2 × 4 = 8 required search invocations**.
+
+| Included prompt | Accepted handle | Prior-external then accepted-LCS result |
+|---|---|---|
+| first-bank Q26 | `lumbar-plexus-roots-formation-and-psoas-relations` | exact Family-86 external lumbar-plexus reuse; accepted Families 20 and 39 own/corroborate the same roots-and-branches scope; concept delta 0 |
+| first-bank Q29 | `sacral-plexus-root-contributions` | no separately tracked prior-external handle; accepted lower-limb nerve sources corroborate the curriculum context but not this exact tracked external objective; new external addition |
+
+Thus source-first collapse is **2 occurrences → 2 handles**, prior-external reconciliation is
+**1 reuse + 1 external addition = 2**, and external concept-state delta is **0 live / 0
+pending / 1 new**. The 48 excluded prompts receive no LCS handles or searches. The exact
+eight-query ledger is preserved at `tmp/pdfs/lcs103-family89/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **1,227 / 1,227 / 184 = 12 / 133 / 39** to **1,229 external questions / 1,229
+printed keys / 185 external concepts = 12 live / 133 pending / 40 new**. Arithmetic is
+`1,227 + 2 = 1,229`, `1,227 + 2 = 1,229`, `184 + 1 = 185`, `39 + 1 = 40`,
+and `12 + 133 + 40 = 185`. The 48 excluded prompts, 38 excluded answer states and one
+excluded saved-response artifact contribute zero. Practical totals remain **7 prompts / 458
+plates / 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92
+new**.
+
+This source hash occurs once in the accepted Family-88 remainder. Removing its sole path
+leaves **141 all-rank path instances / 133 unique hashes**: tier 3 **59 paths / 56 unique
+hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 88's 142/134
+row sets recompute first to path checksum
+`365f48edb4022efd0c8c85934859ab00bbe29b14288229debe94dad919d77858` and unique-hash
+checksum `200fdedc519974c32bf64207e27c39643826f582f8730c2c2d22d9d25801bad2`.
+For the exact post-Family-89 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ad5ba4875967b0362d596fb3fc705fe56d92d8d7671723cf2fa1509bc87e0afe`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`41ee0479cdace8a9caf135e998e852a6f4295cb9023ab2b1a4d68b5617b9e3d1`.
+
+The exact next tier-3 manifest-order debt is `src_9c1df6a5e1aab73e0f0c`,
+`MCQs - External MCQs Head and Neck Test Questions.docx` (869,173 bytes; native DOCX;
+SHA-256 `9c1df6a5e1aab73e0f0c5d4ad2a69b4e3880a961949cdddb5e4a17b60801c2f0`). It remains
+external until its own contents prove otherwise. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 141 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
+record, catalogue update, import or source copy was created.
