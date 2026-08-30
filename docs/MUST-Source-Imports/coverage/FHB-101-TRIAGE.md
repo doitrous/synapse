@@ -4195,3 +4195,73 @@ Removing this one substantive-text path and unique hash leaves **58 selected inv
 The next evidence-ranked substantive source is the single 16-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology fhb101-1 mcq important.pdf`, SHA-256 `8a64d8e0f81611aeeb3797c0c3d332c749c28505893e974d35e4e1d6712dcb6b`.
 
 **BLOCKED — S1 cannot be approved:** 58 selected source paths remain untriaged.
+
+## Completed source — Histology fhb101-1 mcq important
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology fhb101-1 mcq important.pdf` | `8a64d8e0f81611aeeb3797c0c3d332c749c28505893e974d35e4e1d6712dcb6b` | 16 | substantive-text | pages 1–16 rendered and read | Local CamScanner scan of a handwritten Histology MCQ notebook. It prints no institution, author, sitting, marks, department approval, official-paper claim or official-key authority. |
+
+### Exact assessment, marked-answer and teaching boundary
+
+Pages 1–15 contain handwritten numbered MCQs, short-answer prompts and one visibly selected or written answer for every prompt. Page 16 contains one additional MCQ followed by two unnumbered study-note lines (`lined by: simple squamous ...` and `lined by: cubical epithelium ...`). Those two lines have no question number, response form or marking convention and are excluded as teaching notes. The exact assessment inventory is therefore **78 prompt occurrences / 78 directly visible handwritten, circled or underlined answer occurrences**. The prompt count by page is:
+
+```text
+P1–P16: 4 3 2 7 8 7 6 6 6 4 2 5 5 6 6 1 = 78
+```
+
+Several selections or annotations are medically questionable. They are retained only as local-study-source evidence and were neither corrected nor promoted to authority.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 78 prompts are assigned exactly once to 27 source handles. Every handle received the four identifying searches printed below, for **27 × 4 = 108 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| P1:1–2; P6:18; P13:5 | Golgi H&E visibility, secretory-cell development and secretory vesicles (`Golgi H&E staining`; `Golgi secretory cells`; `Golgi apparatus histology`; `Golgi secretory vesicles`) | new externally; prior FHB owns Golgi packaging and organelle staining, but not the combined H&E/secretory-cell morphology scope — **new addition**. |
+| P1:3; P2:6 | Tendon white-fibrous CT and ligamentum-flavum elastic fibres (`tendon white fibrous connective tissue`; `ligamentum flavum elastic fibers`; `regular collagenous connective tissue`; `yellow elastic connective tissue`) | new externally; exact prior-FHB connective-tissue type/site duplicate. |
+| P1:4; P4:1; P6:19,22; P9:17; P14:1,4 | Iron-haematoxylin, Best's carmine and Sudan-III histochemistry (`iron hematoxylin centrioles`; `Best carmine glycogen`; `Sudan III stored fat`; `lipid histochemistry Sudan`) | new externally; centriole/organelle staining and glycogen staining are prior-FHB duplicates, while Sudan-III lipid histochemistry is distinct — **new addition**. |
+| P2:5; P4:5; P6:20; P9:13; P10:5; P13:2; P14:2 | Microvilli, tubulin, cytoskeletal identification and spindle blockade (`microvilli actin filaments`; `microtubules tubulin`; `cytoskeleton immunohistochemistry`; `colchicine spindle fibers`) | pending-hit; exact prior-FHB cytoskeleton/spindle duplicate. |
+| P2:7 | Undifferentiated mesenchymal cells and pericytes as embryonic cells (`undifferentiated mesenchymal cell pericyte`; `pericyte embryonic cell`; `mesenchymal cell pair`; `pericyte mesenchymal origin`) | new externally; prior FHB owns mesenchymal-cell morphology, not this pericyte/embryonic classification — **new addition**. |
+| P3:8 | Mast-cell mediation of anaphylaxis (`mast cell anaphylaxis`; `mast cell immediate hypersensitivity`; `anaphylactic reaction histamine`; `mast cell allergy`) | pending-hit; exact prior-FHB hypersensitivity-cell duplicate. |
+| P3:9; P4:2,7; P5:11; P7:4; P9:18; P11:7 | Smooth-ER functions in bilirubin detoxification, steroid secretion, calcium storage and the printed bone vignette (`smooth ER neonatal jaundice`; `smooth ER steroid secretion`; `sarcoplasmic reticulum calcium storage`; `smooth ER bone density`) | new externally; exact prior-FHB smooth-ER and repeated clinical-vignette duplicate. |
+| P4:3; P5:12; P10:3 | Mitochondrial DNA and autonomous replication (`mitochondrial DNA`; `mitochondria own genome`; `mitochondrial replication`; `extranuclear DNA mitochondria`) | pending-hit; exact prior-FHB duplicate. |
+| P4:4; P10:4 | Free-ribosome synthesis of peroxisomal enzymes (`peroxisomal enzymes free ribosomes`; `peroxisome protein synthesis`; `peroxisomal enzyme biosynthesis`; `peroxisome biogenesis ribosome`) | new externally; exact duplicate of the immediately preceding source's new assignment. |
+| P4:6; P5:15; P10:6; P13:3 | Multivesicular bodies, lysosome–lipofuscin pairing and postmortem lysosomal activation (`multivesicular body pinocytic vesicle`; `secondary lysosome multivesicular`; `lysosome lipofuscin`; `lysosome activated after death`) | pending-hit; multivesicular bodies and lysosome/pigment pairing are prior duplicates, but postmortem lysosomal autolysis is distinct — **new addition**. |
+| P5:8; P6:21; P7:2; P11:8; P14:3 | Dynein deficiency and immotile-cilia syndrome (`immotile cilia syndrome`; `dynein male infertility`; `ciliary dyskinesia respiratory infection`; `immotile sperm dynein`) | new externally; exact prior-FHB duplicate. |
+| P5:9; P12:3 | Ribosomes as non-membranous organelles (`ribosome non membranous organelle`; `organelle lacks membrane`; `free ribosome structure`; `ribosome surrounding membrane`) | pending-hit; exact prior-FHB duplicate. |
+| P5:10 | Glycocalyx composition (`glycocalyx glycoproteins glycolipids`; `cell coat composition`; `cell surface carbohydrates`; `glycocalyx components`) | new externally; exact prior-FHB glycocalyx duplicate. |
+| P5:13–14; P6:17; P9:15; P12:1–2,5 | Exogenous/endogenous pigments, lipofuscin sites and cellular inclusions (`exogenous endogenous pigments`; `lipofuscin nerve heart cells`; `hemoglobin cell inclusion`; `carotene carbon dust pigment`) | new externally; exact prior-FHB pigment and cytoplasmic-protein-storage duplicate. |
+| P6:16; P12:4 | Pinocytosis and phagocytosis (`pinocytosis liquid vesicle`; `phagocytosis solid material`; `cell endocytosis types`; `pinocytic vesicle`) | pending-hit; exact prior-FHB endocytosis duplicate. |
+| P7:1,3,6; P8:7 | Barr bodies, neutrophil drumsticks and sex-chromosome aneuploidies (`Barr body buccal smear neutrophil`; `drumstick neutrophil Barr body`; `45 XO no Barr body`; `47 XXY Barr body`) | pending-hit; exact prior-FHB duplicate. |
+| P7:5; P8:9–10; P9:16 | Cell-renewal categories, G1/G2 functions and gametogenesis (`continuously renewable cells`; `G2 DNA replication checking`; `G1 cell function`; `gametogenesis germ cells gametes`) | pending-hit; exact prior-FHB renewal/cell-cycle/gametogenesis duplicate. |
+| P8:8 | Gap-junction communication in smooth muscle (`gap junction smooth muscle`; `cell intercommunication junction`; `gap junction communication`; `smooth muscle connexin`) | new externally; exact prior-FHB junction duplicate. |
+| P8:11; P15:3 | Transitional epithelium morphology and urinary sites (`transitional epithelium dome cells`; `transitional epithelium ureter`; `urinary bladder urothelium`; `transitional epithelium layers`) | new externally; exact prior-FHB duplicate. |
+| P8:12; P15:4–5 | Goblet-cell unicellular glands and myoepithelial contractility (`goblet cell unicellular gland`; `myoepithelial contractility`; `glandular epithelium cell types`; `myoepithelial basket cell`) | pending-hit; exact prior-FHB duplicate. |
+| P9:14; P13:1 | Nucleolar rRNA production and euchromatic nuclear appearance (`nucleolus rRNA function`; `euchromatic nucleus clear`; `euchromatin electron microscope`; `nuclear chromatin activity`) | pending-hit; exact prior-FHB nuclear/chromatin duplicate. |
+| P13:4 | Phospholipid as the principal membrane lipid (`cell membrane phospholipid`; `plasma membrane main lipid`; `phospholipid bilayer`; `cell membrane lipid component`) | new externally; exact prior-FHB membrane-structure duplicate. |
+| P14:5–6 | Stratified-squamous epidermis and general epithelial characteristics (`keratinized stratified squamous epidermis`; `epithelium basement membrane`; `epithelium avascular`; `general epithelial characteristics`) | new externally; exact prior-FHB duplicate. |
+| P15:1 | Simple-squamous sites (`simple squamous lung alveoli`; `Bowman capsule epithelium`; `simple squamous sites`; `alveolar lining epithelium`) | new externally; exact prior-FHB duplicate. |
+| P15:2 | Simple-cuboidal thyroid lining (`simple cuboidal thyroid follicle`; `thyroid follicular epithelium`; `cuboidal epithelium sites`; `simple cuboidal central nucleus`) | new externally; exact prior-FHB duplicate. |
+| P15:6 | Pseudostratified ciliated epithelial sites (`pseudostratified ciliated epithelium epididymis`; `respiratory pseudostratified epithelium`; `pseudostratified cilia sites`; `upper respiratory epithelium`) | new externally; exact prior-FHB epithelial-site duplicate. |
+| P16:1 | Ciliated simple-columnar epithelium in fallopian tube/uterus (`fallopian tube ciliated columnar`; `uterus simple columnar epithelium`; `ciliated columnar sites`; `oviduct epithelium`) | new externally; exact prior-FHB duplicate. |
+
+The source-level search result is **0 live / 10 pending / 17 new = 27 handles**. Twenty-three handles collapse to exact prior-FHB assignments. Four new scopes survive: Golgi H&E/secretory-cell morphology, pericyte/UMC embryonic classification, Sudan-III lipid histochemistry and postmortem lysosomal autolysis. The post-prior result is therefore **0 live / 0 pending / 4 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+78 questions / +78 visibly marked answers / +4 concepts = +0 live / +0 pending / +4 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3463 | 3197 | 450 | 66 | 84 | 300 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 84 + 300 = 450`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **57 selected inventory paths / 55 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `deb9c7cf188ec11e68f0c719fbf3ba471b64f18e95faacdf5ce2e0fd6658bfec`. Pinned triage debt becomes **14 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`51 + 55 = 106`**.
+
+The next evidence-ranked substantive source is the single 17-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - QUESTION ON EPITHELIUM by DR.KANDEEL.pdf`, SHA-256 `994b3e415b43d5b276a810e5a74b177f5774d6d99b775a0e094b0914c76b2fbb`.
+
+**BLOCKED — S1 cannot be approved:** 57 selected source paths remain untriaged.
