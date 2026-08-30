@@ -11560,3 +11560,85 @@ Family-108 blocker. The exact next manifest record is tier-6
 OCR-needed 1191×842-point landscape A3 page under `Pathology / Notes and Summaries`. Its complete
 render/OCR reality, provenance, introductory-pathology mind-map teaching versus prompt/key/
 annotation boundary, and prior-source reuse are the exact next-source blockers.
+
+## Family 109 — Introduction to pathology and adaptation mind map
+
+### Source identity, complete render/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_ad2aa90540cf86945819` · `Mind_Map_Introduction_to_Pathology.pdf` |
+| SHA-256 / size | `ad2aa90540cf8694581999fe3bdbc92c35184bbcec28e1ec11dbf9ba086bd73a` · 859,312 bytes |
+| Format / complete visual boundary | One 1191×842-point landscape A3 page. The complete page rendered at 200 dpi into one non-empty 3309×2339-pixel image, then was read as the full composition plus four non-empty high-resolution quadrant crops so every dense branch and note was inspected. |
+| OCR/native reality | The PDF contains one 1033×509-pixel RGB raster panel and a text layer whose nominal extraction is 1,532 words / 22,362 bytes. Custom-font mapping makes that extraction substantially garbled, so the manifest's `ocr-needed` disposition is accurate and the coherent visual render—not corrupt extracted glyphs—controls transcription and boundary decisions. |
+| Visible provenance | The only visible production mark is the footer `Presented with xmind`. No author, university, faculty, module code, academic year, teaching date, or assessment sitting is printed. |
+| Metadata caution | Metadata records Mozilla Firefox 149.0 as creator, cairo 1.18.0 as producer, and an April 7, 2026 creation timestamp. These identify file-production tools/time only, not authorship, teaching date, academic year, or sitting. |
+| Authority | Tier-6 notes-and-summaries mind-map teaching material. It is not an exam, candidate paper, practical station, response sheet, or official answer source. |
+
+### Complete branch-first teaching, image, callout, prompt/key, and residue inventory
+
+| Branch | Complete visible source content | Boundary ruling |
+|---|---|---|
+| Central frame | `Introduction to Pathology & Adaptation` and the supplied description of studying disease mechanisms, structural changes, and cellular adaptations | completed title/definition; **0 prompts / 0 keys** |
+| Foundations of pathology | Core definitions of etiology, pathogenesis, sign versus symptom, lesion, and prognosis; anatomic-versus-clinical pathology; general, systemic, cytopathology, and histopathology divisions with their supplied scopes | completed terminology, comparisons, and classifications; **0 / 0** |
+| Diagnostic techniques | Tissue request/accession/gross/microscopy sequence; 10% formalin fixation; paraffin-versus-frozen sections and rapid intraoperative use; IHC antigen localization/tumor histogenesis and prognosis; immunofluorescence for immune deposits/glowing renal deposits; electron microscopy for organelles | completed protocol and technique/use mappings. `HIGH YIELD`, `VERSUS`, `Clinical`, and `PORTAL` classify supplied facts rather than ask questions. |
+| Cellular adaptation | Hypertrophy definition, functional/hormonal causes, cardiac-muscle restriction, and thickened-left-ventricular-wall note; hyperplasia definition/causes, controlled-versus-neoplasia comparison, and pregnant-uterus hypertrophy-plus-hyperplasia example; atrophy definition/causes and a supplied gross sketch of a shrunken organ with widened spaces | completed definitions, mappings, comparison, and labeled illustration; **0 / 0** |
+| Metaplasia and dysplasia | Metaplasia definition/causes, smokers' respiratory pseudostratified-to-squamous change, epithelial reversibility, and connective-tissue irreversibility; dysplasia definition/hallmarks, noninvasive dysplasia-versus-invasive carcinoma contrast, and full-thickness dysplasia/carcinoma-in-situ mapping | completed teaching and contrast branches; `EXCEPTION`, `NUANCE`, and `HIGH YIELD` are emphasis labels, not answer marks |
+
+Every branch is filled. Brackets labeled `Definition`, `Top Causes`, `High Yield`, `Versus`,
+`Exception`, `Nuance`, `Portal`, `Clinical`, `Protocol`, `Division`, and `Sketch` organize complete
+notes. No page area contains an exam heading, candidate instruction, interrogative task, option
+set, unanswered blank, image-identification request, mark allocation, student response, or
+separate printed key.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**.
+
+### Prior-source relation, source-first zero gate, and cumulative arithmetic
+
+Family 109 condenses the introductory-pathology, diagnostic-technique, and adaptation teaching in
+Family 85. More specifically, all ten Family-98 flashcard scopes appear here as completed
+highlighted facts: smokers' squamous metaplasia, cardiac-muscle hypertrophy, full-thickness
+dysplasia/carcinoma in situ, frozen-section speed, renal immunofluorescence, connective-tissue
+metaplasia irreversibility, pregnant-uterus hypertrophy plus hyperplasia, dysplastic pleomorphism,
+controlled hyperplasia versus neoplasia, and 10% formalin. This supports a direct teaching-source
+relation for those flashcards, but the present page is not an exact prior visual/page carrier and
+contains no flashcard fronts or other tested prompts.
+
+No accepted assessment handle survives the completed-map boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated. Direct teaching support for Family-98 handles does not transform Family 109's
+declarative notes into assessment occurrences or add another concept.
+
+| Measure | Family 109 | Auxiliary cumulative (Families 12–109) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 866 | 765 | 1,631 |
+| Printed teaching-answer occurrences | 0 | 483 | 405 | 888 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 806 | 552 | 1,358 |
+| Source-distinct tested handles / required searches | 0 / 0 | 730 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**866 / 483 / 806 / 730 / +499**; and all eligible evidence remains
+**1,631 / 888 / 1,358 / 871**. Family 109 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 109
+
+`src_ad2aa90540cf86945819` is exhausted across its sole dense page: every visible branch, study
+label, supplied illustration, provenance limitation, OCR/native-layer caution, direct Family-98
+teaching relation, and zero-gate arithmetic term is assigned once, with **zero source remainder**
+and no Family-109 blocker. The exact next manifest record is tier-6 preferred name twin
+`src_052af40eb9eed11505ef` · `Neoplasia .pdf`, SHA-256
+`052af40eb9eed11505ef6c96cc9e0a82c3a5fcb7c047abf882861e8cc3359f91`, 14,172,750 bytes,
+14 native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its preferred-twin
+authority, complete render/native reality, provenance, neoplasia teaching versus prompt/key/
+annotation boundary, and prior-source reuse are the exact next-source blockers.
