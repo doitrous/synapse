@@ -5160,3 +5160,140 @@ bytes; 55 native-text pages; SHA-256
 103/Anatomy/Theoretical/Lower Limb/Lec 4 - Anterolateral & Posterior Compartment of Leg/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 44 — Tier-4 posterior-leg lecture with two prior-scope formative prompts
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_59e94a40a806e17e000e` |
+| File / SHA-256 | `Anatomy Lecture Posterior Comp. Of The Leg.pdf` / `59e94a40a806e17e000e2eace648f1b13e9730cf2f4e49b6d579c7e23397f58e` |
+| File boundary | 3,728,172 bytes · unencrypted PDF · 55 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 4 - Anterolateral & Posterior Compartment of Leg/Anatomy Lecture Posterior Comp. Of The Leg.pdf` |
+| Visible provenance | p. 1 prints `Dr. Eman El Sawaf`, `Anatomy & Embryology Department`, `Faculty Of Medicine`, and `Capital University (Formerly Helwan)`; PDF author is `User` and creator/producer is Microsoft PowerPoint 2019 |
+| Authority finding | Manifest/path-placed local tier-4 teaching evidence with two ordinary formative prompts. It is not a sitting paper, station sheet, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and 55-page boundary were recomputed and match the assigned source.
+All 55 pages were rendered at 140 dpi and read against the native text layer. Page 1 is the
+provenance slide, p. 2 is the module/anatomy/lower-limb title, pp. 3–4 orient the lower-limb
+bones and regions, pp. 5–6 state the objectives and contents, pp. 7–26 teach the fascia,
+compartments and superficial posterior-leg muscles, p. 27 is an `Interactive Question`, pp.
+28–52 teach the deep posterior-leg muscles and summary, p. 53 is a second `Interactive
+Question`, p. 54 gives references and p. 55 closes with `Thank You`.
+
+Pages 27 and 53 are genuine ordinary formative prompts because they explicitly request or
+offer a student answer. Neither page prints a correctness mark, selected option, answer
+reveal or explanatory key. The declarative muscle-action slides elsewhere in the lecture are
+simultaneous teaching evidence, not printed assessment keys.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's figures, muscle montages, arrows and labelled diagrams remain parts of tier-4
+theoretical teaching compositions; they are not promoted into the tier-5 practical
+plate/mapping ledger.
+
+| Physical pages | Source-first instructional composition or actual prompt | Teaching occurrences / assessment disposition |
+|---:|---|---:|
+| 3–4 | lower-limb bones, joints and named regions orientation | 2 teaching compositions |
+| 7–10 | leg fascia, septa, compartments and superficial/deep posterior-muscle membership | 4 teaching compositions |
+| 11–14 | superficial-group framework and position/relations of gastrocnemius, plantaris and soleus | 4 teaching compositions |
+| 15–21 | combined and individual superficial-muscle origins and insertions | 7 teaching compositions |
+| 22–26 | tibial supply, actions, walking/standing/muscle-pump functions and consolidated superficial-muscle table | 5 teaching compositions |
+| 27 | `Mention the action of the soleus muscle.` | 1 ordinary open prompt; no printed key |
+| 28–32 | deep-group framework and position/relations of popliteus, flexor hallucis longus, flexor digitorum longus and tibialis posterior | 5 teaching compositions |
+| 33–36 | combined deep-muscle origins and insertions | 4 teaching compositions |
+| 37–41 | individual deep-muscle attachments plus tibialis-posterior tendon course behind the medial malleolus | 5 teaching compositions |
+| 42–52 | tibial supply; popliteus unlocking/flexion; toe-flexion, inversion, plantar-flexion and medial-arch actions; consolidated deep-muscle table and summary | 11 teaching compositions |
+| 53 | `Which one of the following is the action of tibialis posterior muscle?` with options knee flexion, ankle plantar flexion, big-toe flexion and transverse-arch support | 1 ordinary MCQ prompt; all four options visibly unmarked; no printed key |
+| **Total** | **tier-4 content plus actual prompts** | **47 teaching compositions / 2 ordinary prompts / 0 printed keys** |
+
+The **47 content-slide occurrences are 47 source-distinct teaching compositions**. Pages
+44/45, 47/48 and 49/50 repeat action wording while changing the complete image or layout,
+so none is an exact copy collapse. SHA-256 comparison of all 55 rendered complete pages
+found no exact full-page duplicate. The two prompt pages remain separate evidence
+occurrences. The full boundary is therefore **47 teaching compositions / 2 ordinary
+questions / 0 practical or station prompts / 0 printed assessment keys / 0 assessment
+residues**. As theoretical material, its figures add **0 practical plates, 0 practical label
+mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 47 compositions consolidate to eleven source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `lower-limb-bones-and-regions-orientation` · pp. 3–4 | lower limb major bones; lower limb regions; femur tibia fibula patella; gluteal thigh leg foot regions | no direct live/pending complete-scope hit; exact accepted Families 41 and 43 handle — prior LCS reuse |
+| `leg-fascia-and-compartments` · pp. 7–8 | leg superficial deep fascia; leg intermuscular septa; leg compartments anterior posterior lateral; leg interosseous membrane compartments | no direct live/pending complete-scope hit and no same-scope accepted prior-LCS handle — new theoretical teaching |
+| `posterior-leg-superficial-and-deep-groups` · pp. 9–10 | posterior leg superficial deep groups; posterior compartment leg muscles classification; gastrocnemius soleus plantaris deep flexors; posterior leg tibial nerve supply | no direct live/pending complete-scope hit; exact accepted Family-34 handle — prior LCS reuse |
+| `gastrocnemius-oina` · pp. 11–26 | gastrocnemius origin insertion nerve supply; gastrocnemius OINA; gastrocnemius femoral condyles calcaneal tendon; gastrocnemius plantarflexion knee flexion | no direct live/pending complete-scope hit; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `plantaris-oina` · pp. 11–26 | plantaris origin insertion nerve supply; plantaris OINA; plantaris lateral supracondylar line calcaneus; plantaris plantarflexion knee flexion | external action mentions are narrower than full OINA; exact accepted Family-34 handle — prior LCS reuse |
+| `soleus-oina` · pp. 11–26 | soleus origin insertion nerve supply; soleus OINA; soleus tibia fibula calcaneal tendon; soleus plantarflexion postural | group-level pending movement evidence is narrower than full OINA; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `popliteus-oina` · pp. 28–45 | popliteus origin insertion nerve supply; popliteus OINA; popliteus lateral femoral condyle posterior tibia; popliteus unlocking knee | pending AU material owns the unlocking action but not the complete OINA scope; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `flexor-hallucis-longus-oina` · pp. 28–51 | flexor hallucis longus origin insertion nerve supply; FHL muscle OINA; flexor hallucis longus fibula distal phalanx; flexor hallucis longus plantarflexion inversion | group-level pending movement evidence is narrower than full OINA; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `flexor-digitorum-longus-oina` · pp. 28–51 | flexor digitorum longus origin insertion nerve supply; FDL muscle OINA; flexor digitorum longus tibia distal phalanges; flexor digitorum longus plantarflexion inversion | group-level pending movement evidence is narrower than full OINA; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `tibialis-posterior-oina` · pp. 28–51 | tibialis posterior origin insertion nerve supply; tibialis posterior OINA; tibialis posterior navicular tarsal bones; tibialis posterior plantarflexion inversion | pending movement/arch-support components do not own full OINA; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `tibialis-posterior-tendon-course` · p. 41 | tibialis posterior tendon course; tibialis posterior behind medial malleolus; tibialis posterior medial to FDL; tibialis posterior tendon groove | no direct live/pending complete-scope hit; accepted OINA handles do not own this separate malleolar course relation — new theoretical teaching |
+
+All **11 × 4 = 44** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **0 live / 0 pending / 11 new**; exact
+accepted-prior comparison prevents nine repeated module additions, leaving **nine prior-LCS
+reuses / two new theoretical teaching scopes**. Declarative teaching scopes do not enter the
+eligible tested-concept count, and no theoretical scope enters the practical-teaching-scope
+counter.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+| Source page / eligible handle | Source prompt inventory | Four required `find-existing` queries | External / prior-LCS result |
+|---|---|---|---|
+| 27 · `soleus-actions` | open request to state the action of soleus; no answer line or printed key | soleus action; soleus plantarflexion; soleus posture standing; soleus muscle pump | external plantar-flexion/postural mentions do not own the complete action range; eligible Family-1 `soleus-oina` already owns the action component — prior eligible reuse with inherited new disposition |
+| 53 · `tibialis-posterior-plantarflexion` | one four-option MCQ; all options unmarked and no printed key | tibialis posterior action; tibialis posterior plantar flexion; tibialis posterior inversion; tibialis posterior arch support | pending 103-BMS movement material owns ankle plantar flexion, while eligible Family-1 `tibialis-posterior-oina` already owns the action component — prior eligible reuse with inherited new disposition |
+
+All **2 × 4 = 8** required assessment-handle searches completed. The raw current external
+result is **0 live / 1 pending / 1 new**; accepted prior-eligible comparison collapses both
+source handles to existing Family-1 tested concepts, leaving **two prior eligible reuses /
+zero net module concepts**. The source still contributes two observed prompt occurrences.
+No answer is inferred from the lecture's declarative slides, the external pending material
+or the prior OINA prompts, so it contributes zero printed keys.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 44 | Family 44 delta | After Family 44 |
+|---|---:|---:|---:|
+| Eligible observed question records | 453 | +2 | 455 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 209 | +0 | 209 |
+| Question live / pending / new | 9 / 54 / 146 | +0 / +0 / +0 | 9 / 54 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `47 = 2 + 4 + 4 + 7 + 5 + 5 + 4 + 5 + 11`,
+`2 prompts = 2 source-distinct handles`, `2 prior eligible reuses = 0 net concepts`, `453 +
+2 = 455`, `242 + 0 = 242`, `209 + 0 = 209`, `9 + 54 + 146 = 209`, `251 + 0 = 251`,
+`1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-43
+remainder leaves **32 rank-4/rank-5 path instances / 30 unique hashes**. The Family-43
+method was reproduced first: its 33/31 row sets recomputed to
+`6687210268877d3424e4c0383917933fcbfd4978d9fb7579467028bb49589c44` and
+`560c0b9ac7d77a94d3429f52c7dc9c2d472ff0f2b09317d53dbc4b2226689902`.
+For the exact post-Family-44 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b2c37576487a0a96768f46f4e2212abb50e005012fead6bbe298f209542b38bb`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`33a8e100e59cb0bf9d3ec4f33ee4f3b414161b25a61be2d2a5e617fdb3fc0234`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_3c99184681f4248eba19`, `Nerves_and_Vessels_of_Lower_Limb_Dr_Sarah_بعد_التعديل.pdf`
+(1,975,984 bytes; 19 native-text pages; SHA-256
+`3c99184681f4248eba19ac92b0b2105dd5762abfacd64c1db88409b6cf1ca78e`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 5 - Blood Vessels & Nerves of Lower Limb/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
