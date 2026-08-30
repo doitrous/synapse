@@ -6114,3 +6114,137 @@ The next manifest-order gate is tier-4 Biochemistry theoretical source
 103/Biochemistry/Theoretical/Lec 1 - Sources of Energy for Muscle Contraction/`. Broader
 LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 51 — Tier-4 muscle-energy and creatine-metabolism lecture with one keyed application
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_76f90f3f79fbc13bae3f` |
+| File / SHA-256 | `source of energy for muscle contrction.pdf` / `76f90f3f79fbc13bae3f8f1269cbdf5bad86a8691d660aae2ddadc93b20276a4` |
+| File boundary | 3,412,647 bytes · unencrypted PDF · 51 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Biochemistry · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Biochemistry/Theoretical/Lec 1 - Sources of Energy for Muscle Contraction/source of energy for muscle contrction.pdf` |
+| Visible provenance | p. 1 prints `Energy source for muscle contraction and creatine metabolism`, `Dr/Rehab Elkoseir` and `Medical Biochemistry Department`; PDF author is `Rehab Elsayed Mohammed Elkoseir` and creator/producer is Microsoft PowerPoint for Microsoft 365 |
+| Authority finding | Manifest/path-placed local tier-4 biochemistry lecture. It is not a sitting paper, practical response form, question bank or official department answer key, but it does contain one source-authored application prompt followed by an answer/reveal. |
+
+The SHA-256, byte size and 51-page boundary were recomputed and match the assigned source.
+All 51 pages were rendered at 170 dpi and read against the native text layer; all 51 complete
+page renders have distinct SHA-256 values. Page 1 is title/provenance, p. 2 states objectives,
+pp. 3–45 teach muscle structure, contractile proteins, ATP-regeneration systems, creatine
+metabolism, fatigue and exercise, p. 46 asks one open application question, pp. 47–48 print
+its answer/reveal, p. 49 is `Any Questions`, p. 50 lists learning resources and p. 51 closes.
+
+The full-source assessment boundary is **one eligible ordinary prompt occurrence with one
+directly printed source key**. The p. 46 bus-running scenario asks where contraction energy
+comes from; p. 47 explicitly maps immediate activity to the phosphagen system, short-term
+activity to lactic-acid metabolism and long-term activity to glucose/fatty acids/amino acids,
+and p. 48 prints the matching 100-metre energy-source table. Those two reveal slides jointly
+key the one prompt and are not two additional questions. There are **zero practical/station
+prompts, zero response blanks, zero masked assessment callouts and zero unresolved teaching
+callouts**.
+
+### Complete teaching-composition and assessment inventory
+
+| Physical pages | Source-first instructional composition | Occurrences / collapse |
+|---|---|---:|
+| 3–7 | muscle-tissue types, skeletal-muscle fibre/myofibril organisation and sarcoplasmic contents | 5 |
+| 9–14 | myosin thick filament; actin, tropomyosin and troponin thin-filament complex; contraction-cycle diagrams | 6 |
+| 15–20, 30, 35 | ATP roles, limited ATP stores and the three regeneration systems | 8 occurrences → 6 distinct compositions; pp. 30 and 35 repeat p. 15 |
+| 21–24 | phosphagen/ATP–creatine-phosphate system, reactions, timing and activity profile | 4 |
+| 25–29 | creatine synthesis, transport, phosphocreatine formation and creatinine degradation/excretion | 5 |
+| 31–34 | anaerobic glycolysis, muscle glycogen mobilisation and short-duration profile | 4 |
+| 36–41 | aerobic respiration, fuel inputs and duration-dependent energy-system comparison | 6 |
+| 42–44 | muscle fatigue and oxygen-debt mechanism/recovery diagrams | 3 |
+| 45 | benefits of aerobic exercise | 1 |
+| 46 | bus-running muscle-energy application prompt | 1 ordinary prompt |
+| 47–48 | directly printed answer/reveal for the p. 46 application | 1 printed key across 2 slides |
+
+The **42 substantive teaching-slide occurrences collapse to 40 source-distinct teaching
+compositions**: the identical source wording and teaching function on pp. 30 and 35 are
+complete semantic copies of p. 15 despite different complete-render hashes caused by the
+slide treatment. Title, objectives, the p. 8 divider, three closing/resource slides and the
+assessment prompt/reveal are outside that distinct teaching count; p. 14's `Reading only`
+caption does not negate its declarative contraction-cycle diagram. The source boundary is
+therefore **40 distinct teaching compositions / 1
+ordinary prompt / 1 printed assessment key / 0 practical or station prompts / 0 residues**.
+As theoretical material, it adds **0 practical plates, 0 practical mappings and 0 practical
+residues** to the separated tier-5 ledger.
+
+### Assessment search and prior-LCS adjudication
+
+| Assessment handle | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `muscle-energy-systems-by-activity-duration` · pp. 46–48 | muscle contraction energy sources by duration; phosphagen glycolytic aerobic exercise systems; running energy immediate short long term; ATP regeneration systems muscle activity | pending `muscle.metabolism.three-energy-systems-oxygen-debt` owns the phosphagen→glycolytic→aerobic sequence and duration framing; no accepted earlier Family owns this tested scope — pending |
+
+All **1 × 4 = 4** required assessment searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and source-import roots. The direct result
+is **0 live / 1 pending / 0 new**. Exact accepted-prior comparison finds **zero prior-LCS
+eligible reuses**, so the tested-concept delta remains **0 live / 1 pending / 0 new = 1**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 40 compositions consolidate to 12 source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `skeletal-muscle-fibre-myofibril-and-sarcoplasm` · pp. 3–7 | skeletal muscle fibre myofibril sarcoplasm; sarcoplasm mitochondria glycogen myoglobin; muscle fibre structure myofibrils; skeletal muscle tissue types structure | pending skeletal-muscle histology/physiology records own the complete internal organisation — pending |
+| `thick-and-thin-muscle-filament-proteins` · pp. 9–12 | thick thin muscle filament proteins; myosin head ATP binding site; actin tropomyosin troponin complex; troponin I T C functions | pending nerve-muscle material owns the myosin/actin and troponin–tropomyosin protein scope — pending |
+| `actin-myosin-contraction-cycle` · pp. 13–14 | actin myosin muscle contraction cycle; cross bridge ATP contraction; sliding filament contraction mechanism; myosin ATPase actin binding | pending nerve-muscle physiology owns the cross-bridge/contraction mechanism — pending |
+| `muscle-atp-roles-and-three-regeneration-systems` · pp. 15–20, 30, 35 | ATP roles muscle contraction calcium pumps; three ATP regeneration systems muscle; phosphagen glycolytic aerobic sequence; source energy muscle contraction | pending `muscle.metabolism.three-energy-systems-oxygen-debt` owns the complete sequence and ATP role — pending |
+| `phosphagen-atp-creatine-phosphate-system` · pp. 21–24 | creatine phosphate ATP phosphagen system; phosphocreatine creatine kinase ADP ATP; ATP CP first 10 15 seconds; high energy phosphate system muscle | pending muscle-physiology and carbohydrate records jointly own the complete phosphagen scope — pending |
+| `creatine-biosynthesis-and-tissue-transport` · pp. 25–27 | creatine synthesis glycine arginine methionine; guanidinoacetate kidney liver creatine; creatine biosynthesis tissue transport; phosphocreatine synthesis creatine kinase | pending amino-acid material owns the precursor/methylation pathway and creatine synthesis — pending |
+| `creatine-degradation-creatinine-and-renal-indicator` · pp. 28–29 | creatine phosphate degradation creatinine; creatinine urine muscle mass; serum creatinine kidney function indicator; spontaneous creatine creatinine formation | renal records contain generic creatinine interpretation, but no complete same-source creatine-degradation scope — new theoretical teaching |
+| `anaerobic-glycolysis-for-muscle-contraction` · pp. 31–34 | anaerobic glycolysis muscle contraction energy; muscle glycogen phosphorylase calcium epinephrine AMP; glycolytic system one to three minutes; glycogen lactic acid muscle ATP | pending muscle-physiology records own the anaerobic/glycogen-lactic-acid energy system — pending |
+| `aerobic-respiration-for-muscle-contraction` · pp. 36–41 | aerobic respiration muscle contraction energy; muscle aerobic oxidative system fuels; fatty acids glucose amino acids muscle ATP; prolonged exercise aerobic system | pending muscle-physiology records own the aerobic system, fuels and duration framing — pending |
+| `muscle-fatigue-mechanisms` · pp. 39–41 | muscle fatigue causes blood flow ions lactic acid; inability muscle contract fatigue; muscle cramp electrolyte imbalance; muscle energy systems fatigue | pending muscle-physiology material owns the fatigue mechanisms — pending |
+| `oxygen-debt-and-postexercise-recovery` · pp. 42–44 | oxygen debt muscle exercise; post exercise oxygen creatine phosphate myoglobin; lactate liver glucose oxygen debt; restore ATP glycogen after exercise | pending `muscle.metabolism.three-energy-systems-oxygen-debt` owns the complete recovery scope — pending |
+| `aerobic-exercise-systemic-benefits` · p. 45 | benefits aerobic exercise muscle bone; aerobic exercise metabolic efficiency; exercise neuromuscular coordination capillary growth; aerobic exercise lungs gas exchange | no direct live/pending complete-scope hit and no accepted prior-LCS complete handle — new theoretical teaching |
+
+All **12 × 4 = 48** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete
+scope level the direct external result is **0 live / 10 pending / 2 new**. Exact comparison
+finds **zero accepted prior-LCS complete-scope reuses**, leaving **12 theoretical teaching
+scopes (10 pending / 2 new)**. Declarative teaching scopes do not enter the eligible tested-
+concept count, and no theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 51 | Family 51 delta | After Family 51 |
+|---|---:|---:|---:|
+| Eligible observed question records | 479 | +1 | 480 |
+| Eligible printed question keys | 263 | +1 | 264 |
+| Eligible distinct tested concepts | 223 | +1 | 224 |
+| Question live / pending / new | 9 / 60 / 154 | +0 / +1 / +0 | 9 / 61 / 154 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 309 verified minimum | +0 | 309 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,098 verified minimum | +0 | 2,098 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 92 | +0 | 92 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 71 | +0 / +0 / +0 | 0 / 0 / 71 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `42 teaching occurrences - 2 repeated-copy
+occurrences = 40 distinct teaching compositions`, `1 prompt occurrence = 1 source handle =
+1 printed key`, `223 + 1 = 224`, `9 + 61 + 154 = 224`, `479 + 1 = 480`, `263 + 1 =
+264`, `309 + 0 = 309`, `2,098 + 0 = 2,098`, `92 + 0 = 92`, and `71 + 0 = 71`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-50
+remainder leaves **25 rank-4/rank-5 path instances / 23 unique hashes**. The Family-50
+method was reproduced first: its 26/24 row sets recomputed to
+`d4828bf908ad85b5ebe561cd54fcbbe6b64f78729f87bc022e073e53633d2c55` and
+`da81d39b2a88fb1f992bf39f661649e66ca1454ad952863cbc6436a97290e584`.
+For the exact post-Family-51 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`f2c05065ffd263bd5ff80a578bb33fe0227ed1b9748fe7d0d7ca592e4f7002da`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`7fb3ddad2d75fc94d45fd11188c70d6e2cbfa1960a0aed13d4621284a6293fc1`.
+The next manifest-order gate is tier-4 Biochemistry theoretical source
+`src_da044da0bfcc6af6ed2c`, `GENETIC DISEASES OF THE MUSCLES.pdf` (1,844,403 bytes; 21
+native-text pages; SHA-256
+`da044da0bfcc6af6ed2c435b1eb67dd34b45340a757fbddefdb326c8ec562075`) under `Year 1/LCS
+103/Biochemistry/Theoretical/Lec 2 - Genetic Diseases of Muscles/`. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
