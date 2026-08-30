@@ -2,17 +2,17 @@
 
 ## Decision
 
-**`checkpointed-incomplete`.** MSK 101-1 is the next MUST Year 1 S1 read-only triage lane after FHB 101. The pinned selection is every `MSK 101-1` inventory row in `05 MCQs`, `06 EOM Exams`, `07 EOY Exams`, or `08 Midterm Exams`: **103 paths / 101 unique SHA-256s / two duplicate paths**. The subject split is Anatomy 56 / Histology 47; the category split is 41 MCQ / 13 EOM / 0 EOY / 49 midterm paths. The selected sorted-newline hash checksum is `228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02`.
+**`TRIAGE APPROVED`.** The pinned MSK 101-1 S1 read-only selection is every `MSK 101-1` inventory row in `05 MCQs`, `06 EOM Exams`, `07 EOY Exams`, or `08 Midterm Exams`: **103 paths / 101 unique SHA-256s / two duplicate paths**, all now reconciled. The subject split is Anatomy 56 / Histology 47; the category split is 41 MCQ / 13 EOM / 0 EOY / 49 midterm paths. The selected sorted-newline hash checksum is `228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02`.
 
-This is source-file readiness evidence, not content authorization. No module ID, question, answer, concept record, placement or catalogue content is minted here. The literal `TRIAGE APPROVED` gate remains absent until all selected source families are completely read, searched and deduplicated.
+This is source-file readiness evidence, not content authorization. No module ID, question, answer, concept record, placement or catalogue content is minted here. Every selected source family has now been completely read, searched when an accepted handle survived, and deduplicated, so the literal `TRIAGE APPROVED` gate is warranted.
 
 ## Current checkpoint
 
-The one hundred completed read-only source hashes cover one hundred two selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed one-image `CT Midterm part 2.jpg`, SHA-256 `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`, is an unattributed photographed handwritten connective-tissue teaching chart. Its exact boundary is **1 teaching-chart image at 960×1280 / 3 connective-tissue sections / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename-only Midterm wording does not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The one hundred one completed read-only source hashes cover all one hundred three selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed one-image `CT Midterm.jpg`, SHA-256 `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7`, is an unattributed photographed handwritten connective-tissue teaching chart. Its exact boundary is **1 teaching-chart image at 960×1280 / 3 connective-tissue overview, cell and fibre sections / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename-only Midterm wording does not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`.
+Latest processed family hash: `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7`.
 
-Recent processed family hash retained for reconciliation: `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`.
+Recent processed family hash retained for reconciliation: `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -110,8 +110,10 @@ Current teaching-source append: `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e65
 
 Current teaching-source append: `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`.
 
-Removing them leaves **1 inventory path / 1 unique SHA-256**, checksum `2020901a622124cf2577269b3afcbe2f7b838df8e225a1bf2e03c3cac075dc2e`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 1 audit-not-found row. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm.jpg`, SHA-256 `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7`, one image.
+Removing them leaves **0 inventory paths / 0 unique SHA-256s**, checksum `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`. The pinned remaining audit-review debt is zero substantive-text / zero sparse-text / zero empty-text / zero audit-not-found rows. Unique-hash accounting is **`101 + 0 = 101`**.
 
-**BLOCKED — S1 cannot be approved:** 1 selected inventory path / 1 unique hash remains untriaged.
+**TRIAGE APPROVED**
+
+The exact downstream action is a separate Year 1 overview update: record the completed MSK 101-1 approval in `00-year1-readiness.md`, then pin and bootstrap the next priority candidate, **FHB 102-2 S1 read-only triage** (51 assessment-category paths / zero answer-key-labelled assessment paths / 96 candidate question-source paths), with its own selected-set ledger, readiness, triage, provenance and checksum before reading its first source.

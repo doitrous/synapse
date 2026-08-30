@@ -1,8 +1,8 @@
-# MUST MSK 101-1 — S1 read-only triage checkpoint
+# MUST MSK 101-1 — S1 read-only triage
 
 ## Scope and decision
 
-This is an incomplete read-only S1 checkpoint, not `TRIAGE APPROVED`. It covers the 103 inventory paths / 101 unique SHA-256s selected from module `MSK 101-1` and categories `05 MCQs`, `06 EOM Exams`, `07 EOY Exams`, and `08 Midterm Exams`. The sorted-newline selected-hash checksum is `228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02`. It does not mint IDs or student content; all new-concept placement is **TBD**.
+This read-only S1 triage is now **`TRIAGE APPROVED`**. All 103 inventory paths / 101 unique SHA-256s selected from module `MSK 101-1` and categories `05 MCQs`, `06 EOM Exams`, `07 EOY Exams`, and `08 Midterm Exams` have complete visual-boundary, answer-recovery, source-first search and prior-MSK dedupe evidence below. The sorted-newline selected-hash checksum is `228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02`. The approval does not mint IDs or student content; all new-concept placement remains **TBD**.
 
 ## Completed source — MSK Training questions - answers
 
@@ -4015,3 +4015,43 @@ Removing the one hundred processed unique hashes leaves **1 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm.jpg`, SHA-256 `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7`, one image.
 
 **BLOCKED — S1 cannot be approved:** 1 selected inventory path / 1 unique hash remains untriaged.
+
+## Completed teaching-only source — CT Midterm
+
+| Source path | SHA-256 | Images | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm.jpg` | `ea59da035dc7a442077c2280b292e9a866c49dea3d0a9ff8fbfef10f55ac37c7` | 1 | audit-not-found inventory label | original 960×1280 image inspected | Unattributed photographed handwritten connective-tissue teaching chart. The JPEG contains no visible institution, department, examiner, examination sitting, marks or official key. Filename-only `Midterm` wording does not authenticate assessment authority. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm.jpg" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+The single rotated photograph shows one fully populated handwritten teaching chart. It supplies a connective-tissue overview and functions; classification of free and fixed cells; comparisons and features for fibroblast, fibrocyte, macrophage, mast cell and plasma cell; and collagen, elastic and reticular-fibre notes. Every term, arrow, characteristic and example is already filled in.
+
+The exact boundary is **1 teaching-chart image at 960×1280 / 3 connective-tissue overview, cell and fibre sections / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. There is no blank label, learner instruction, response space or station direction.
+
+### Authority, source truth and search gate
+
+The image is an unattributed photograph of handwritten notes. Nothing visible establishes a MUST/MSK institution, department, examiner, sitting, marks or official assessment key, and filename-only `CT Midterm` wording is not promoted to examination authority. Handwritten spelling, abbreviations, highlighted annotations and selective histology claims remain uncorrected observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. The fully populated chart is not subject to assessment-prompt deduplication.
+
+### Completed-source delta and final cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+The cumulative buckets remain exactly **`0 + 1 + 35 = 36`**. No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Zero remainder, approval gate and next lane
+
+Removing this final audit-not-found path and unique hash leaves **0 selected inventory paths / 0 unique SHA-256s**. The SHA-256 of the empty, newline-free remaining-hash string is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`. Pinned triage debt is now **zero substantive-text / zero sparse-text / zero empty-text / zero audit-not-found rows**, and unique-hash accounting is **`101 + 0 = 101`**.
+
+All 103 selected MSK 101-1 inventory paths across 101 unique hashes have now had their complete visual boundaries adjudicated. Every accepted assessment handle received exactly four searches, repeated scopes were collapsed within source and against prior MSK evidence, and source-absent answers were recorded without inference. The literal gate is therefore warranted:
+
+**TRIAGE APPROVED**
+
+This closes read-only MSK 101-1 S1 triage without minting student content. The exact downstream action is a separately scoped update to `00-year1-readiness.md` recording this approval, followed by pinning and bootstrapping **FHB 102-2 S1 read-only triage** (51 assessment-category paths / zero answer-key-labelled assessment paths / 96 candidate question-source paths) with its own selected-set ledger, readiness, triage, provenance and checksum before any source processing.
