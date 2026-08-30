@@ -11648,3 +11648,97 @@ SHA-256 `8b6d81a2e30521fb78459ef9c72ee18ac20208ad82da59289593e93965950c4c`).
 It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 131 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 100 — Tier-3 external student lower-limb and Head-and-Neck written-answer revision list
+
+### Exact identity, provenance and complete written boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_8b6d81a2e30521fb7845` / `8b6d81a2e30521fb78459ef9c72ee18ac20208ad82da59289593e93965950c4c` |
+| File / boundary | `MCQs - Student MCQs LL & head and neck written.PDF` · 138,720 bytes · unencrypted tagged PDF · 11 physical native-text US-Letter pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - Student MCQs LL & head and neck written.PDF` |
+| Metadata / visible provenance | Metadata author is `Rahma Saeed Abdelsabour Abdelsamad`; creator and producer are Microsoft Word for Microsoft 365; created and modified 26 July 2025. The pages print no instructor, university, faculty, module, cohort, sitting or official-exam mark. |
+| Authority finding | The manifest's explicit `Student MCQs` label, personal-author metadata and absence of any faculty/instructor or official-assessment mark establish a student-authored external revision compilation. Lower-limb and Head-and-Neck Anatomy are in module scope, but topical fit does not promote the file into eligible Helwan assessment authority. |
+
+The assigned hash, byte size and 11-page boundary were recomputed and match. Every page was
+rendered at 220 dpi, checked against the complete native text layer and read visually. Despite
+the filename, **no page contains an MCQ or option set**. Each black numbered written stem is
+followed immediately by its red lower-limb answer list or blue Head-and-Neck answer list.
+
+| Physical boundary | Visible written sequence | Prompt occurrences | Immediate printed answer units |
+|---|---|---:|---:|
+| pp. 1–7 | lower limb: printed Q1–Q12, Q14–Q22, two separately printed Q23 entries, then Q24–Q32 | 32 | 32 |
+| pp. 7–11 | Head and Neck: Q33–Q51 | 19 | 19 |
+| **Family 100 external bank** | **complete student revision list** | **51 written prompts** | **51 printed answers** |
+
+The numbering skips 13 and prints 23 twice: the first Q23 asks for anterior-tibial-artery
+branches and the second asks for superficial-fibular-nerve branches. Both visible stems and
+answers are retained, so the last printed number 51 still corresponds to 51 actual prompt
+occurrences. Enumerated structures below a stem are answer components, not extra prompts or
+declarative teaching records. The immediate answer lists are counted as printed written-answer
+units, not as MCQ keys.
+
+There is no specimen, radiograph, micrograph, trace, practical station, teaching plate,
+masked label, response blank, apparatus task or unresolved callout. Practical delta is exactly
+**0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 51 occurrences consolidate to **35 source-distinct tested handles**. The consolidation
+joins only adjacent prompts that together test one established regional objective; it does not
+erase either occurrence or answer.
+
+| Source-first domain | Prompt occurrences | Distinct handles | Assignment summary |
+|---|---:|---:|---|
+| Thigh and gluteal regional spaces, vessels and nerves | 13 | 10 | saphenous opening; femoral sheath; femoral artery; femoral nerve; adductor canal; femoral-head/neck supply; greater sciatic foramen; popliteal fossa; popliteal artery; tibial/common-fibular branches |
+| Hip and knee joints | 7 | 2 | hip ligaments plus neurovascular supply; knee ligaments/menisci plus neurovascular supply |
+| Leg, ankle and foot | 11 | 8 | anterior/posterior tibial arteries; superficial and deep fibular nerves; extensor-retinaculum relations; tarsal tunnel; dorsalis pedis; plantar arteries; foot cutaneous supply |
+| Lower-limb development | 1 | 1 | limb-bud outgrowth, rotation and sequence |
+| Scalp | 4 | 3 | layers; arterial/venous routes; sensory innervation |
+| Face | 5 | 3 | arterial/venous routes; facial motor branches; sensory territories |
+| Temporal/infratemporal fossae and maxillary artery | 4 | 2 | the two fossae; first- and second-part maxillary-artery branches |
+| Neck triangles | 5 | 5 | submandibular; muscular; carotid; submental; posterior |
+| Cervical plexus | 1 | 1 | four named cutaneous branches |
+| **Family 100** | **13 + 7 + 11 + 1 + 4 + 5 + 4 + 5 + 1 = 51** | **10 + 2 + 8 + 1 + 3 + 3 + 2 + 5 + 1 = 35** | **one assignment per occurrence** |
+
+Each handle received exactly one search in the live, pending/import-ready, prior source-import
+and accepted-LCS surfaces: **35 × 4 = 140 required search invocations**. Prior-external-first
+comparison finds all 21 lower-limb handles already owned by the broad external inventory
+established in Families 86, 88, 91 and 94, and all 14 Head-and-Neck handles already owned by
+Families 78, 90 and 92. Accepted Families 1, 20 and 28–48 independently corroborate the
+curriculum scope, but do not change this student file's authority. Reconciliation is therefore
+**35 prior-external reuses + 0 external additions = 35**, external concept-state delta is
+**0 live / 0 pending / 0 new**, and eligible concept delta is zero. The exact 140-query
+ledger, including per-surface hit counts, is preserved at
+`tmp/pdfs/lcs103-family100/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **792 observed questions / 502 printed keys-or-answers / 322
+distinct tested concepts = 12 live / 108 pending / 202 new**. The external-bank checkpoint
+changes from **2,195 / 2,136 / 221 = 12 / 135 / 74** to **2,246 external prompts /
+2,187 printed keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `2,195 + 51 = 2,246`, `2,136 + 51 = 2,187`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-99 remainder. Removing its sole path leaves **130
+all-rank path instances / 122 unique hashes**: tier 3 **48 paths / 45 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 99's 131/123 row sets recompute
+first to path checksum
+`75eea17aabe2b574c64d404825768c9c0c388901f0d89736b78d1113885e254b` and unique-hash
+checksum `a11e021cb7eb1c21005c289f3ce3285d6614ef49f61c5b01a3a6f68142c98e5c`.
+For the exact post-Family-100 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`d4f02d80bcc35933ad0de0c5a4a0e212c5c2f29628149f84a1662c9c8e518d2a`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`82338bdcc70a3c35d29bec0643e2e265e0d0ed078ac79fecb46cf2b2f8dca8c6`.
+
+The exact next tier-3 manifest-order debt is `src_cf37932d10b47ec0a26f`,
+`MCQs - mcq 2 mss.pdf` (502,547 bytes; 5 OCR-needed pages; SHA-256
+`cf37932d10b47ec0a26f3c66652f587b3eb2be135933b9a008c53e4e37b11a88`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 130 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
