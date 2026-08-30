@@ -3280,3 +3280,61 @@ Midterm.pdf`, SHA-256
 `1cecd06ab3f64fc1fc58229fc82bae297af9f2b65d73040d67c11e0d7c14c2c4`.
 
 **BLOCKED — S1 cannot be approved:** 70 selected source paths remain untriaged.
+
+## Completed source — [MedStudy] General Anatomy ➡️ Midterm
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/[MedStudy] General Anatomy ➡️ Midterm.pdf` | `1cecd06ab3f64fc1fc58229fc82bae297af9f2b65d73040d67c11e0d7c14c2c4` | 21 | substantive-text | pages 1–21 rendered and read | Local MedStudy introductory-anatomy handout copyrighted 2025 and naming Ezzeldin Emad, Abdelsalam Mohamed, Abdelrahman Hamad and Hossam Gamal as authors. Its introduction says the department book by Dr Fawzy is the primary student source and describes this document as an attempt to simplify the material. No institution, department, exam sitting, official-paper or official-key claim is printed. |
+
+### Authority and assessment boundary
+
+The source has a cover and copyright page followed by 19 numbered teaching pages headed
+`INTRO`. Those pages contain explanatory prose, definitions, comparison tables and illustrative
+images covering general body structures, anatomical position, planes, directional terms,
+movements, joints, vessels, nerves, bones, skin/fascia, muscles and the lymphatic system.
+
+There is no numbered or unnumbered assessment sequence, MCQ option set, response blank,
+instruction to answer, practical identification target, or printed answer/key. `What is Lymph?`
+and `Why It's Important` on pages 18–19 are explanatory subheadings immediately followed by
+teaching prose, not student prompts. The figures illustrate already stated material and contain
+no arrow- or label-based response request. The exact complete visual inventory is therefore
+**0 complete prompt occurrences / 0 directly printed answer or key occurrences**. The path's
+`08 Midterm Exams` placement and filename suffix `Midterm` are inventory context only; they do
+not elevate this handout to assessment or official-key authority.
+
+### Source-first semantic boundary, four-search replay, and prior-FHB dedupe
+
+Because the fully read source prints no assessment prompt, it yields **0 source-supported tested
+concept handles**. Descriptive teaching topics are not converted into tested concepts merely
+because they appear in a file stored under an assessment-category directory. The required
+find-existing ledger is therefore exactly **0 handles × 4 searches = 0 searches**, and the exact
+prior-FHB dedupe ledger is empty. No instructional heading, table row, caption, image label or
+rhetorical heading was promoted to a question, answer, tested concept, duplicate or bucket hit.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+0
+questions / +0 directly printed answers / +0 concepts = +0 live / +0 pending / +0 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1844 | 1580 | 376 | 66 | 78 | 232 | TBD |
+
+The cumulative buckets remain exactly `66 + 78 + 232 = 376`. No module ID, content record,
+placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **69 selected
+inventory paths / 67 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`f832f2c15a384a3f6529436012ac8c8695cc4be40e351ada437bfe6427b72597`. Pinned triage debt
+becomes **26 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`39 + 67 = 106`**.
+
+The next evidence-ranked substantive source is the single eight-page Anatomy `08 Midterm Exams`
+path `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/solo mcq anatomy fhb mid.pdf`,
+SHA-256 `e6d0c5242f043d70b60c979dea0131e737be9e959db553a23adf38718f6246af`.
+
+**BLOCKED — S1 cannot be approved:** 69 selected source paths remain untriaged.
