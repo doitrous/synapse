@@ -3903,7 +3903,7 @@ This source hash occurs once in the manifest. Removing it from the accepted Fami
 remainder leaves **42 rank-4/rank-5 path instances / 40 unique hashes**. For the exact
 post-Family-34 manifest remainder, SHA-256 over the bytewise path-sorted
 `corpusRelativePath<TAB>sha256<LF>` rows is
-`3ce4ce789b39a27aa4a73c7d4540e918863b4c986bdf778c1ac64febfcb759f3`; SHA-256 over the
+`525c7bb84c19f43d6a7bf7a709a01cf14920b9343664a0f909ca05ae3a9b0da0`; SHA-256 over the
 bytewise sorted unique `sha256<LF>` rows is
 `8cffc0f2c8a2b52b98a4bb9b3a395c98fc612560d83d2f25316e31f4baac8c3d`.
 The next manifest-order gate is tier-5 Anatomy practical source
@@ -3913,3 +3913,108 @@ The next manifest-order gate is tier-5 Anatomy practical source
 103/Anatomy/Practical Labs/Virtual Lab 6 - Bones of the Skull/`. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 35 — Tier-5 skull-normae and mandible virtual-lab teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_ebf0ae057711b9db4157` |
+| File / SHA-256 | `Virtual Lab 6 Dr.Hiede Hossameldin 2.pdf` / `ebf0ae057711b9db41575e49b8a283b1a8c55e3d690ba3668dedab30c5501bd4` |
+| File boundary | 1,563,257 bytes · native PDF · 19 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 6 - Bones of the Skull/Virtual Lab 6 Dr.Hiede Hossameldin 2.pdf` |
+| Visible provenance | title page prints `Virtual Lab 6`, `Norma of the Skull`, `Dr. Hiede Hossameldin`, `Anatomy & Embryology Teaching Assistant Faculty of Medicine Capital University`; PDF author is `Dr.Ammar Atef` |
+| Authority finding | Manifest/path-assigned local virtual-lab teaching evidence. It is not an exam, station sheet, response form, question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **19 physical pages** were rendered and
+read. Page 1 is the title page, p. 2 prints learning objectives, pp. 3–14 teach the frontal,
+lateral, vertical and occipital skull normae, pp. 15–18 teach the mandible, and p. 19 is a
+closing `Best of luck` slide. No page prints an instruction to identify a structure, explicit
+practical/station prompt, ordinary question, response field, answer blank, mark allocation,
+correctness convention, printed assessment answer or key. Named bones, sutures, landmarks,
+relations and labelled figures are simultaneous teaching evidence, not answers to an
+assessment prompt.
+
+### Complete defensible teaching-slide and mapping inventory
+
+| Physical page | Source-first teaching slide / plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 3 | norma-frontalis bones, sutures and frontal-view labelled skull | 24 mappings |
+| 4 | two labelled norma-frontalis skull plates | 39 unique mappings; repeated labels within and between the two figures are counted once |
+| 5 | bones visible in norma lateralis and labelled lateral skull | 12 mappings |
+| 6 | norma-lateralis sutures, their bone relations and labelled lateral-skull landmarks | 22 unique mappings |
+| 7 | pterion/asterion constituent bones and labelled lateral-skull landmarks | 30 unique mappings |
+| 8 | squamous temporal part, zygomatic-arch components, mastoid/styloid processes and external auditory meatus | 7 mappings |
+| 9 | norma-verticalis bones, sutures and labelled superior-skull landmarks | 10 unique mappings |
+| 10 | parietal features, bregma/lambda and labelled superior-skull plate | 11 unique mappings |
+| 11 | norma-occipitalis bones, sutures and labelled posterior-skull landmarks | 19 unique mappings |
+| 12 | seven described occipital features plus labelled posterior-skull plate | 11 unique mappings |
+| 13 | two labelled norma-occipitalis plates | 18 unique mappings |
+| 14 | labelled posterior skull with sutural bone, sutures and occipital landmarks | 12 unique mappings |
+| 15 | mandible parts, external-body features and labelled mandible plate | 14 unique mappings |
+| 16 | inner-body features and partially masked labelled mandible plate | 13 directly printed mappings; 7 greyed leader-line callouts |
+| 17 | ramus processes and labelled mandible plate | 26 unique mappings |
+| 18 | two labelled mandible plates | 23 unique mappings; repeated labels between the figures are counted once |
+
+The **16 content-slide occurrences are 16 source-distinct teaching compositions**; no complete
+page is an exact copy. The mapping arithmetic is `24 + 39 + 12 + 22 + 30 + 7 + 10 + 11 +
+19 + 11 + 18 + 12 + 14 + 13 + 26 + 23 = 291`. Page 16 contains **7** source-distinct
+grey-blocked label callouts. Its visible labels and left-side teaching bullets remain counted,
+but no obscured text is inferred from the later labelled mandible compositions. Repeated
+wording or labels within one composition are counted once, while genuinely different plates
+remain separate evidence occurrences. The assessment boundary is **0 practical/station
+prompts / 0 ordinary questions / 0 printed assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 16 compositions consolidate to six source-level teaching scopes. This scope collapse does
+not delete plate, mapping or residue evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `norma-frontalis-bones-sutures-and-features` · pp. 3–4 | norma frontalis bones sutures; frontal view skull anatomy; anterior skull bones and sutures; frontonasal internasal frontozygomatic zygomaticomaxillary sutures | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `norma-lateralis-bones-sutures-and-landmarks` · pp. 5–7 | norma lateralis bones sutures; lateral view skull anatomy; pterion and asterion; coronal squamous lambdoid zygomaticotemporal sutures | no direct live/pending hit; prior temporal/infratemporal-fossa and scalp/face scopes do not own the lateral-skull composite — new |
+| `temporal-bone-lateral-surface-features` · p. 8 | temporal bone lateral surface features; squamous temporal bone features; zygomatic arch mastoid styloid process; external acoustic meatus temporal bone | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `norma-verticalis-bones-sutures-and-landmarks` · pp. 9–10 | norma verticalis bones sutures; superior view skull anatomy; bregma lambda landmarks; coronal sagittal lambdoid sutures superior skull | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `norma-occipitalis-bones-sutures-and-landmarks` · pp. 11–14 | norma occipitalis bones sutures; posterior view skull anatomy; external occipital protuberance nuchal lines; occipitomastoid parietomastoid sutures | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `mandible-parts-and-surface-features` · pp. 15–18 | mandible parts and surface features; body and ramus of mandible anatomy; mandibular foramina fossae processes; coronoid condylar process mylohyoid line | no direct live/pending hit; prior facial-sensory and muscles-of-mastication handles mention the mandible but do not own its parts/surface-feature scope — new |
+
+All **6 × 4 = 24** required searches completed with no direct live or pending hit. The raw
+external result is `0 live / 0 pending / 6 new`; accepted-prior comparison removes no module
+addition, leaving **+6 new practical-teaching scopes**.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 35 | Family 35 delta | After Family 35 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 141 verified minimum | +16 | 157 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 848 verified minimum | +291 | 1,139 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 84 | +7 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 34 | +0 / +0 / +6 | 0 / 0 / 40 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-34
+remainder leaves **41 rank-4/rank-5 path instances / 39 unique hashes**. For the exact
+post-Family-35 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`4e2f37483c98292af36777fe168900c54e43a4e20d49f86dfc8c49740bab5711`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`ec46f22ef7f5ddd9197e1950c39960273754088ed91abe3762a8252f8f6862ff`.
+The next manifest-order gate is tier-5 Anatomy practical source
+`src_1757d6acc3c8e3843ee9`, `Virtual Lab 7 final.pdf` (19,878,613 bytes; 73 native-text
+pages; SHA-256 `1757d6acc3c8e3843ee98bd84b23ac799477f7d498dfea5bf7307c26498242a8`)
+under `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 7 - Muscles of the Head & Neck/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
