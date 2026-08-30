@@ -20045,3 +20045,93 @@ under `Year 1/LCS 103/All Subjects/Questions/`. It remains unclassified until ev
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 41
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 190 — Rank-9 anonymous external soft-tissue and bone-tumor case-MCQ bank
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_15f4c039b7b4b8f7c173` / `15f4c039b7b4b8f7c173ba107622b44f89d9693b7ebec12ba6b7fe31970c048a` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Questions/soft tissue questions.pdf` |
+| Physical verification | **155,146 bytes; 12 native-text portrait-US-Letter pages; 612 × 792 pt; untagged; unencrypted; PDF 1.4**. Full hash, byte size, page count and geometry match; all twelve 180-dpi full-page renders are distinct. |
+| Visible / metadata provenance | P. 1 is titled `Soft Tissue Tumors & Bone Tumors – Case-Based MCQs`; `Bone Tumors` begins before Q26. Pages show only prose questions, option letters and WPS export furniture. No author, lecturer, institution, module, cohort, formal sitting, date, marks or official-key label is printed. Metadata supplies only `Skia/PDF m92`. |
+| Authority finding | Anonymous rank-9 review-bank evidence without Helwan/module/sitting authority. The final `Answer Key` is a source answer list, not a Helwan official key; all occurrences remain external assessment evidence. |
+
+All **12/12 pages** were rendered at 180 dpi, inspected at full resolution and read against
+the complete native layer. Q1–Q25 are soft-tissue-tumor cases/fixed-choice questions; Q26–Q35
+are bone-tumor cases/fixed-choice questions. The answer key starts beneath Q35 and continues
+on p. 12. Every integer Q1–Q35 appears exactly once in the question sequence and exactly once
+in the key. Exact boundary is **35 external MCQs / 35 source answers / 0 unkeyed / 0 written
+prompts**.
+
+Source states remain literal and unrepaired, including the wording `most common primary tumor
+of bone`, textual `X-ray demonstrates a sunburst periosteal reaction`, Q35's combined
+`Osteoid osteoma/Osteoblastoma` option and every printed answer letter. Inventory does not
+endorse or medically correct any source answer.
+
+### Practical and teaching boundary
+
+Although several stems describe radiology or histology, no radiograph, gross image,
+micrograph, diagram, specimen or masked callout is supplied. Every item can be read from prose
+alone. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0
+keys / 0 teaching scopes**. WPS footer marks are page furniture.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 35 occurrences consolidate to eleven complete tumor handles:
+
+| Tested handle | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| adipocytic tumours: lipoma and liposarcoma | lipoma liposarcoma lipoblast adipocytic tumor; benign malignant adipose soft tissue tumors; lipoma liposarcoma morphology diagnosis; lipoma liposarcoma | Prior Families 64 and 66 own the complete scope. |
+| fibroblastic tumours: fibroma, fibromatosis and fibrosarcoma | fibroma fibromatosis fibrosarcoma herringbone; fibroblastic soft tissue tumor behavior morphology; fibroma fibromatosis fibrosarcoma diagnosis; fibroma fibromatosis fibrosarcoma | Prior soft-tissue sources own the complete scope. |
+| peripheral-nerve-sheath tumours and S100 | schwannoma neurofibroma peripheral nerve S100; peripheral nerve sheath tumor wavy nuclei circumscribed; Schwann cell tumor S100 marker soft tissue; schwannoma neurofibroma S100 | Prior Families 64 and 66 own the complete scope. |
+| smooth-muscle tumours and actin/desmin differentiation | leiomyoma leiomyosarcoma smooth muscle actin desmin; uterine smooth muscle tumor morphology malignant; leiomyoma leiomyosarcoma spindle cells fascicles; leiomyoma leiomyosarcoma | Prior Families 64 and 66 own the complete scope. |
+| childhood rhabdomyosarcoma | rhabdomyosarcoma childhood orbital skeletal muscle; most common soft tissue sarcoma childhood; rhabdomyosarcoma skeletal muscle differentiation child; rhabdomyosarcoma childhood | Prior Families 64 and 66 own the complete scope. |
+| vascular tumours: hemangioma and angiosarcoma | hemangioma angiosarcoma vascular channels endothelial atypia; benign malignant vascular soft tissue tumor; hemangioma angiosarcoma morphology diagnosis; hemangioma angiosarcoma | Prior Families 64 and 66 own the complete scope. |
+| synovial sarcoma, joint proximity and misnomer | synovial sarcoma near joint young adult misnomer; synovial sarcoma no relationship synovium; synovial sarcoma clinical pathology; synovial sarcoma | Prior Families 64 and 66 own the complete scope. |
+| general soft-tissue malignancy, spread, gross features and marker use | soft tissue sarcoma spread gross malignant features; hematogenous metastasis necrosis hemorrhage soft tissue tumor; soft tissue tumor behavior immunohistochemistry common adult; soft tissue sarcoma metastasis | Prior soft-tissue teaching/assessment owns the complete scope. |
+| multiple myeloma, metastasis and common bone-tumor framing | multiple myeloma metastasis common bone tumors; most common primary tumor bone overall metastatic; multiple lytic lesions plasma cells bone tumor; multiple myeloma bone tumor | Prior Families 64, 66 and the bone-disease sources own the complete scope. |
+| osteosarcoma-versus-Ewing age, site and morphology | osteosarcoma Ewing sarcoma age site radiology morphology; metaphyseal sunburst diaphyseal small round blue cells; osteosarcoma versus Ewing sarcoma diagnosis; osteosarcoma Ewing sarcoma | Prior Families 64 and 66 own the complete scope. |
+| osteoid-osteoma/osteoblastoma size, site, pain and histology | osteoid osteoma osteoblastoma size site pain histology; aspirin nocturnal pain posterior vertebral elements osteoblastoma; osteoid osteoma osteoblastoma woven bone osteoblasts; osteoid osteoma osteoblastoma | Prior Families 64 and 66 own the complete scope. |
+
+Each of the **eleven accepted handles** received exactly one query on each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **11 × 4 = 44
+required search invocations**. Literal combined-phrase searches produced three accepted-ledger
+hits and no exact file hit on the other surfaces. Complete-scope comparison establishes **11
+prior external/LCS reuses / 0 additive live / 0 additive pending / 0 additive external
+concepts**. All 35 prompt and answer occurrences remain counted.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **7,277 / 7,001 / 221** by **+35 / +35 / +0** to **7,312 external prompts / 7,036
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+checks are `7,277 + 35 = 7,312`, `7,001 + 35 = 7,036`, `221 + 0 = 221`, and `12 +
+135 + 74 = 221`.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This hash occurs once in Family189's remainder. Removing its sole path changes the remainder
+from **41 paths / 40 unique hashes** to **40 paths / 39 unique hashes**: tier 3 remains **0 /
+0**, tier 6 remains **31 / 31**, and rank 9 becomes **9 paths / 8 unique hashes within rank**.
+Family189's checksums were
+`a0854fd8fcd6e44aae34eef83f6bbea513fe8f4faafa641e8b4945530367e76f` (paths) and
+`53dbda96a1fc5d54e8a69cb9c85db8ed503df54aecc39c205c3e33f2367d2222` (unique hashes).
+For the exact post-Family190 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`c59f18fcf97ffc6b7a03f63f3873e9d9495273d4623abcf7cb1138643bd8da08`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e0467226b2aecec13e4ddeb66820e9e373cd7aa576c9e8d13ace6e5b33e64461`.
+
+The exact next manifest-order debt is tier-6 `src_4d39748887217b28ff95`, `Anatomy muscles
+lower limb locomoter _250825_225939 (1).pdf` (14,592,307 bytes; 17 OCR-needed 600 × 848 pt
+pages; untagged; unencrypted; PDF 1.7; SHA-256
+`4d39748887217b28ff95be60e7d2736b64ff3ed4426c9894d3cd118ad720d446`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 40
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
