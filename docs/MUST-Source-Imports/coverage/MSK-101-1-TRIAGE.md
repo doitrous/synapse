@@ -709,10 +709,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+40 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — cartilage by salama
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - cartilage by salama.pdf` | `13bb48d71c0acabc39e05f22177b5a44eebd1dc849093754b083cdab57cc1a00` | 19 | substantive-text audit sample | pages 1–19 rendered and read | Microsoft Word for Microsoft 365 document titled `cartilage`, authored `BY: Mohamed Salama` and created/modified 1 December 2023. It supplies no institution, department, examiner, sitting, marks or official-key claim. It is a named teaching-and-MCQ study aid, not a documented exam or official key. |
+
+### Exact assessment, answer, teaching, illustration and source-defect boundary
+
+Page 1 is a general cartilage teaching summary. The first bank contains **10 MCQs on pages 2–4**, with its **10-entry printed key on page 4**; the lower part of page 4 and page 5 are teaching illustrations. Page 6 is a hyaline-cartilage teaching summary. The second bank contains **20 MCQs on pages 7–11**, with its **20-entry printed key on page 11**; page 11 then continues into teaching on elastic and white fibrocartilage. Page 12 completes that teaching material and begins the third bank. The third bank contains **24 MCQs on pages 12–17**, with its **24-entry printed key on page 17**. Pages 18–19 are explicitly labelled important illustration images and remain teaching/reference figures rather than practical prompts.
+
+The exact assessment boundary is **54 MCQ prompt occurrences / 54 prompt-matched printed answers / 0 source-absent answers**. There are **0 written prompts, 0 practical prompts and 0 image-identification prompts**. Source defects are preserved without correction: the second bank includes an Arabic joke option in Q7 and a football joke option in Q17; the third key's first answer token is printed without a `1.` label; and its Q13 key (`both a and c`) conflicts with the adjacent teaching statement that elastic cartilage is covered by perichondrium. All 54 source answer tokens are nevertheless explicit and remain counted exactly once.
+
+### Source-first handles, exact searches and prior-MSK collapse
+
+All 54 occurrences were assigned once across five handles, reconciling as **19 + 11 + 9 + 11 + 4 = 54**. Exactly four repository searches were run for each handle (**20 searches total**):
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 19, cartilage matrix/cells, nutrition, growth and perichondrium (`cartilage avascular diffusion chondroblast chondrocyte matrix`; `cartilage perichondrium chondrogenic fibrous layer`; `cartilage appositional interstitial growth chondroblast chondrocyte`; `cartilage matrix chondroitin sulfate metachromasia lacunae`) | no live/pending hit; same cartilage-cell, matrix, growth, nutrition and perichondrial scopes as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H2 | 11, hyaline-cartilage collagen, sites, appearance and articular role (`hyaline cartilage type II collagen glassy matrix`; `hyaline cartilage respiratory passages epiphyseal articular`; `hyaline cartilage chondrocyte lacuna perichondrium`; `hyaline cartilage collagen type II matrix basophilic`) | no live/pending hit; same hyaline composition/site/articular scope as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H3 | 9, elastic-cartilage fibers, sites and flexibility (`elastic cartilage ear pinna epiglottis auditory tube`; `elastic cartilage perichondrium elastic fibers flexibility`; `yellow elastic cartilage type II collagen chondrocytes lacunae`; `elastic cartilage recovers shape after deformation`) | no live/pending hit; same elastic-cartilage composition, site and function scope as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H4 | 11, fibrocartilage composition, sites and tensile role (`fibrocartilage type I collagen no perichondrium`; `fibrocartilage intervertebral symphysis pubis meniscus`; `white fibrocartilage rows chondrocytes collagen bundles`; `fibrocartilage tensile stretch bone attachment`) | no live/pending hit; same fibrocartilage composition/site/perichondrium scope as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H5 | 4, intervertebral-disc structure, shock absorption and herniation (`annulus fibrosus nucleus pulposus intervertebral disc`; `disc herniation nucleus pulposus nerve root compression`; `annulus fibrosus collagen type I nucleus pulposus type II`; `intervertebral disc shock absorption fibrocartilage`) | no live/pending hit; same disc-structure and nerve-compression scope as completed MSK clinical-cartilage assignments — **prior-MSK collapse**. |
+
+Source-level disposition is **0 live / 0 pending / 5 pre-prior candidates**, all five collapsing to prior MSK coverage. The post-prior concept delta is therefore **0**. The file is not byte-identical to a prior source and its three-bank prompt sequence is distinct, so the 54 prompt and printed-answer observations are counted once.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+54 questions / +54 answers / +0 post-prior concepts**. Cumulative arithmetic is **1408 + 54 = 1462 questions**, **1338 + 54 = 1392 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1462 | 1392 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-one processed paths and unique hashes leaves **82 selected inventory paths / 80 unique SHA-256s**. Their sorted, newline-joined hash checksum is `bbf69f441a94084d8bc074d599aa5f68016675337e76766c6f7b6ceb32c4da31`. Remaining audit-review debt is 43 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`21 + 80 = 101`**.
+Removing these twenty-two processed paths and unique hashes leaves **81 selected inventory paths / 79 unique SHA-256s**. Their sorted, newline-joined hash checksum is `1c148b138b33fa67bf4a2ae40127f1b3a47b0246c24ad6b7d285b51f138651bb`. Remaining audit-review debt is 42 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`22 + 79 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - cartilage by salama.pdf`, SHA-256 `13bb48d71c0acabc39e05f22177b5a44eebd1dc849093754b083cdab57cc1a00`, 19 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - histoooooo revised.pdf`, SHA-256 `14017cf209e94c9c5e431552ec4e934e42634c26a42e2bbbe9793736279e3f9f`, 29 pages.
 
-**BLOCKED — S1 cannot be approved:** 82 selected inventory paths / 80 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 81 selected inventory paths / 79 unique hashes remain untriaged.
