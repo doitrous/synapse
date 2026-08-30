@@ -17484,3 +17484,84 @@ SHA-256 `e1aac4e34bf9379bb178edcc7d328b96ed8ca5f49ac912cf010ab240e42433d6`,
 **99,639 bytes**, nine native-text portrait US-letter pages under `Pathology / Questions /
 MCQs`. Its prompt boundary, solved-companion relation, answer state, prior-BMS collapse, search
 ledger, arithmetic, and exact next-source blockers remain to be exhausted.
+
+## Family 163 — Neoplasia 4 unkeyed replay and three-occurrence Family-4 correction
+
+### Source identity, complete visual/native boundary, authority, and prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 unkeyed `src_e1aac4e34bf9379bb178` · `MCQs - College MCQs continous assessement Neoplasia 4.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `e1aac4e34bf9379bb178edcc7d328b96ed8ca5f49ac912cf010ab240e42433d6` · **99,639 bytes** |
+| Format / complete visual boundary | **Nine native-text portrait US-letter pages**. All nine rendered at 180 dpi into nine non-empty 1530×1980 images and were read at page detail: p.1 A1–A5 begins; p.2 continues A5 and contains A6–A9; p.3 contains A10 and B1–B4 begins; p.4 continues B4 and contains B5–B8; p.5 contains B9, B11, B13, B14, and B16 begins; p.6 continues B16 and contains B17–B21; p.7 continues B21 and contains B22–B25; p.8 contains B26–B30 begins; p.9 completes B30. No cover, answer layer, image, or hidden station page exists. |
+| Native-text reality | Layout extraction contains **1,278 words / 8,862 bytes** and raw extraction contains **1,278 words / 8,753 bytes**. Native text and every visual page agree on the 37-stem boundary. OCR was unnecessary. |
+| Visible/metadata provenance | The pages print questions/options but no visible university, faculty, instructor, module, assessment header, academic year, sitting date, marks, candidate field, answer mark, or key. Metadata author is generic `User`; creator/producer is Microsoft Word 2016; creation/modification time is 27 March 2025. Filename/manifest `continous assessement` wording and metadata are secondary carrier evidence, not visible proof of an administered assessment or date. |
+| Prior governance | Family 4 jointly governed this SHA with solved carrier `src_83c77a2c46ce746c1981`, its 70 keyed prompts, 54 collapsed handles, 216 searches, six prior-BMS reuses, and +48 concepts. The retained/keyed/handle/concept boundary remains valid. Family 4, however, stated that this unsolved carrier contained all A1–A10 and B1–B30; full source-first reread proves three solved-companion stems are absent here. |
+| Authority | Unkeyed study/continuous-assessment-labelled carrier of weak visible authority. Exact prompt replay cannot establish an official key, verified sitting, candidate response, or recurrence. |
+
+### Corrected prompt/answer/format and companion boundary
+
+The complete current carrier contains **37 raw text MCQ occurrences / 0 source-supplied answers /
+37 unkeyed / 0 T/F / 0 written operations / 0 image-bearing questions / 0 drawing tasks / 0
+practical stations / 0 candidate responses**. Its exact visible set is A1–A10 plus B1–B9,
+B11, B13–B14, and B16–B30. The number glyphs for A1, B1, B11, and B13 are clipped or
+absent, but ordered stems/options and the solved carrier identify those four positions without
+inventing content. A standalone `=` after B5 and the terminal horizontal rule are non-question
+layout residues. Page-spanning stems/options are assigned once.
+
+Solved-companion B10 (excess anti-apoptotic protein / blood cancer), B12 (growth-factor-
+receptor-blocker bypass resistance), and B15 (secondary-mutation TKI resistance) do **not** occur
+in this source: they are absent from the nine renders, layout text, and raw text. Family 4's 40-
+prompt unsolved count and its F4-UB10/F4-UB12/F4-UB15 cross-copy rows therefore overstate the
+physical carrier by three. The correct pair checksum is **`37 unsolved + 70 solved = 107 raw
+occurrences`**, not 110. The 37 present unsolved stems are exact prompt-layer replays of their
+solved counterparts and remain excluded from retained records; no solved answer is imported into
+an unkeyed occurrence.
+
+This correction does not remove any retained question, answer, handle, or concept. All 70 retained
+records and all 70 source-supplied answers reside in the solved carrier; the 16 within-solved-
+family semantic reductions still yield **54 handles**. The three removed Family-4 rows were
+already excluded cross-copy replays and contributed only to the raw-occurrence total.
+
+### Zero-handle search gate and prior-BMS reconciliation
+
+Family 163 accepts **0 new retained records and 0 new handles**. Family 4 already ran exactly four
+searches for each of the 54 retained handles (**216 searches**) and reconciled six prior-BMS
+reuses, yielding +48 concepts. The present source adds no tested proposition and the three absent
+replay rows were never handles. The standing gate is therefore **`0 new handles × 4 = 0 required
+and completed new searches`**; no empty search ledger is invented. Prior reuse and concept delta
+are both **0 Family-163 additions**.
+
+### Family-163 correction checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 163 correction/addition | Auxiliary cumulative (Families 12–163) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 37 unkeyed | **−3 prior overcount** | 2,118 | **762** | **2,880** |
+| Source-supplied answers | 0 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 0 separate; 37 excluded prompt replays | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 54 joint / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 4 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **54 joint source-local** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Correction arithmetic is `40 previously claimed - 3 absent = 37 actual unsolved`; hence Family
+4's raw checksum becomes `37 + 70 = 107`, primary raw prompts become `765 - 3 = 762`, and all-
+eligible raw prompts become `2,883 - 3 = 2,880`. No other term changes: primary is corrected to
+**762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained /
+1,667 handles / +906 concepts**; and all eligible is corrected to **2,880 / 1,891 / 2,381 /
+1,278**.
+
+Family 163 adds one source-first correction and exact-carrier revisit evidence only. It establishes
+no new question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 163
+
+`src_e1aac4e34bf9379bb178` is exhausted: every page, native stem, option, absent answer, clipped
+number glyph, missing companion stem, residue, metadata field, visible-authority absence, Family-4
+relation, zero-search gate, correction term, and cumulative term is assigned once, with **zero
+remainder** and no Family-163 blocker. The exact next manifest record is tier-3 solved source
+`src_eda268c7a75eb1930662` · `MCQs - College MCQs continous assessement neoplasia answer.pdf`,
+SHA-256 `eda268c7a75eb1930662b241c7b167f3a3ae3b62503cc9e5c67d6cb31ab059cd`,
+**471,592 bytes**, 14 native-text portrait US-letter pages under `Pathology / Questions / MCQs`.
+Its independent prompt/answer boundary, paired unkeyed relation, prior-BMS collapse, search ledger,
+arithmetic, and exact next-source blockers remain to be exhausted.
