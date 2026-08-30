@@ -23033,3 +23033,88 @@ defines the drug class, lists six major classes, and prints `DR . El-Sawy`. Its 
 to preferred tier-4 `src_96783a34a995a335e2b9`, complete provenance, teaching/prompt/key/practical
 boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 227 — Dr El-Sawy condensed cytotoxic-drugs teaching handout
+
+### Source identity, normalized carrier, complete boundary, twin ruling, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 non-preferred name twin `src_1041cc853e02f4b0868b` · manifest `Cytotoxic Drugs--.pdf` under `Pharmacology / Notes and Summaries` |
+| Exact local carrier | The manifest double-hyphen path is absent. The same-folder normalized local `Cytotoxic Drugs.pdf` exists and verifies to the manifest identity below; no alternate or inferred content is substituted. |
+| SHA-256 / exact size | `1041cc853e02f4b0868bbb20c345f34b4120f6d7424c99a84b854c03cd1be1e3` · **455,037 bytes** |
+| Format / complete visual boundary | **Five native-text portrait A4 pages, 595.32×841.92 points, PDF 1.7**. All five pages were rendered at 120 dpi into five non-empty 993×1,404-pixel images and read individually at full page detail; every heading, illustration, mechanism/agent/indication/toxicity row, emphasis mark, footer, and page number is assigned below. There is no physical-page or crop remainder. |
+| Native-text reality | Layout extraction contains **649 words / 7,480 bytes** and raw extraction contains **649 words / 4,752 bytes**. Both agree with the five renders. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Visible provenance | Every page visibly prints `Pharmacology`, `Cytotoxic Drugs`, `DR . El-Sawy`, and its page number. No university/faculty, BMS-102/module code, academic year, lecture date, assessment sitting, marks, candidate field, or departmental approval is visible. |
+| Metadata caution | PDF metadata names author `Mamdouh`, Microsoft Word LTSC as creator/producer, and 24 April 2026 as creation/modification date. These export fields conflict with or are weaker than the visible `DR . El-Sawy` attribution and cannot establish academic year, delivery date, sitting, or institutional authority. |
+| Name-twin adjudication | The manifest links this object to preferred tier-4 `src_96783a34a995a335e2b9` · `Cytotoxic Drugs (1).PDF`, SHA `96783a34a995a335e2b97434d0a7f2483e5d6888266376b7b55df40d4189b361`, under `Pharmacology / Theoretical / Lec 15 - Anticancer Drugs`. The preferred carrier is a **16-page 792×612-point landscape slide deck**; the current carrier is a five-page portrait handout. Their hashes, geometry, page counts, page layouts, and page-level text are different. The preferred slides present the same substantive sequence—definition/classification, five drug-class sections, indications, toxicity, monitoring/conclusion—which this handout condenses, reflows, and expands into tables. This is close-content derivative/reformat reuse, not byte-, page-, or exact complete-content identity; the preferred carrier remains separately pending in manifest order. |
+| Authority | Local tier-6 instructor-attributed condensed teaching handout. It is relevant pharmacology teaching evidence, but not an authenticated Helwan lecture, assessment, official answer key, or practical station. The later preferred tier-4 deck has stronger folder authority without transferring that authority to this distinct carrier. |
+
+### Complete page-first teaching, prompt, key, annotation, and practical boundary
+
+| Page | Exhausted visible content | Boundary ruling |
+|---:|---|---|
+| 1 | Cytotoxic-drug definition and oncology context; six-class classification; completed illustrated “Types & Actions” summary | Completed teaching text and labelled illustration; **0 prompts / 0 answers / 0 practical**. |
+| 2 | Alkylating-agent DNA mechanism and cyclophosphamide/busulfan/nitrosourea uses; antimetabolite mechanism and methotrexate/5-FU/6-mercaptopurine examples | Completed mechanism/agent teaching tables; **0 / 0 / 0**. |
+| 3 | Vinca/taxane spindle mechanism and examples; doxorubicin/bleomycin mechanisms and clinical scope | Completed teaching tables; **0 / 0 / 0**. |
+| 4 | Platinum-agent DNA crosslinking and tumour scope; cancer monotherapy/multidrug indications; non-cancer autoimmune, renal, gastrointestinal, and transplantation uses | Completed indications and teaching table; **0 / 0 / 0**. |
+| 5 | Myelosuppression, gastrointestinal, alopecia, gonadal, organ-specific, secondary-malignancy, and hypersensitivity toxicities; management; therapeutic-drug-monitoring rationale | Completed toxicity/management teaching table; **0 / 0 / 0**. |
+
+The exact source-local assessment boundary is **0 MCQs + 0 True/False + 0 written prompts + 0
+completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw prompt
+occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question records,
+and 0 prompt-like residues**. Numbered drug classes, agents, indications, toxicities, and management
+items are completed instructional lists. The labelled illustration and completed comparison tables
+neither conceal labels nor request identification; colour, bold, and underline emphasis do not
+create assessment/key directionality.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-handle
+row is fabricated. The handout reflows propositions from its later preferred teaching twin and
+overlaps prior BMS pharmacology teaching/assessment, but teaching overlap is not a new tested-handle
+occurrence. Prior-BMS assessment reuse is therefore **0** and concept delta is **+0**.
+
+| Measure | Family 227 | Auxiliary cumulative (Families 12–227) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 227
+establishes completed cytotoxic-drug teaching, normalized-carrier identity, attribution, and twin-
+separation evidence only, not assessment, official-key, practical, verified-date, readiness, or
+claims status.
+
+### Exact next debt and remaining manifest distance after Family 227
+
+`src_1041cc853e02f4b0868b` is exhausted across all five pages: every teaching statement,
+illustration label, list/table row, emphasis mark, attribution, metadata limitation, normalized-path
+and twin relation, zero gate, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-227 blocker. The distinct preferred tier-4 twin remains pending at its own later
+manifest position.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 227 is **288 paths / 281 unique hashes**, leaving exactly **74 selected paths / 67
+unique hashes**. Checksums are **288 + 74 = 362 paths** and **281 + 67 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `5cde1778f28e426e1089fd4eff8f2c7945cfe21be3493d5c754b97944b250162`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`9cb9008c0146e3eb3953a0267678a48d293d1afe7187fd6eefbbfd0af5223a2b`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_dab553c9862db9608e8d` · `Drug
+Excretion.pdf`, SHA-256
+`dab553c9862db9608e8dea56df5e58e3cb01c60612f268bf19b45335477ff48f`, **1,714,189 bytes**,
+**ten native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first page
+visibly begins `Pharmacology / Excretion and elimination`, defines and calculates clearance, and
+prints `DR . El-Sawy`. Its complete provenance, teaching/prompt/key/practical boundary,
+four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
