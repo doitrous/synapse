@@ -17204,3 +17204,83 @@ The exact next manifest-order debt is tier-6 `src_97bb023ec70059597754`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 71 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 160 — Tier-6 unattributed handwritten neoplasm-classification teaching note
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_97bb023ec70059597754` / `97bb023ec7005959775491800c6153696aa731bc7a6201e67017a65a4a85c960` |
+| File / boundary | `2026-07-20 05.50.59.jpg` · 181,407 bytes · progressive JFIF 1.01 JPEG · sRGB · 72 dpi · 1010 × 1280 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.50.59.jpg` |
+| Visible / embedded provenance | A photograph of handwritten notebook teaching notes headed by `Tumors = Neoplasms = mass`. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile/density but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is unattributed tertiary teaching-note evidence, not a Helwan-authored assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. It contains declarative notes
+on neoplasm/new-growth terminology, parenchyma and stroma, benign/locally malignant/malignant
+behaviour, epithelial benign-versus-malignant nomenclature and selected special tumour-like or
+embryonal categories.
+
+There is **no assessment inventory**. No instruction, interrogative, option set, response
+field, blank, mark allocation, correctness mark or separate answer reveal appears. There is
+also no specimen, radiograph, photomicrograph, labelled anatomical structure or station task.
+The exact boundary is therefore **0 eligible or external assessment prompts / 0
+keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts** and **0
+practical/station prompts / 0 practical teaching plates / 0 practical mappings / 0
+masked-or-unresolved practical residues / 0 practical assessment keys**.
+
+Source wording is preserved without repair. This includes `Doesn't affect by starvation`,
+`Mesenchyl/C.T.`, `SCC`, `Ad`, `TCC`, and the handwritten category spellings/abbreviations.
+They remain source states rather than silently standardised terminology or medically expanded
+answers.
+
+### Source-first theoretical teaching scopes, exact searches and prior-LCS reconciliation
+
+The complete note consolidates to three source-level theoretical teaching handles. Each
+received exactly one query on each required surface.
+
+| Theoretical teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Neoplasm definition, components and behavioural classes | `neoplasm definition parenchyma stroma`; `tumor new growth no function`; `benign locally malignant malignant behavior`; `neoplasm autonomous growth` | Accepted Families 12, 64 and 66 jointly own the tumour/neoplasm, tissue-origin and benign/malignant-behaviour core | prior-LCS theoretical reuse |
+| Epithelial tumour nomenclature | `epithelial mesenchymal tumor classification`; `papilloma squamous transitional epithelium`; `adenoma columnar epithelium`; `carcinoma SCC adenocarcinoma TCC` | no accepted prior-LCS complete scope owns this epithelial benign/malignant naming set | new theoretical teaching scope |
+| Teratoma, hamartoma, choristoma and embryonal-tumour category set | `teratoma hamartoma choristoma`; `embryonal tumor nomenclature`; `tumor nomenclature exceptions`; `mixed germ cell developmental tumor` | one broader prior-import mention exists, but no accepted LCS complete-scope handle owns the printed category set | new theoretical teaching scope |
+
+All **3 × 4 = 12 required search invocations** completed across live, pending/import-ready,
+prior source-import and accepted-LCS surfaces. The direct surface result was **0 live / 0
+pending / 1 prior-import mention / 0 exact accepted-LCS string matches**; exact accepted-prior
+comparison yields **1 prior-LCS reuse + 2 new theoretical teaching scopes**. These teaching
+scopes do not enter assessment or practical-teaching-scope counts.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 463 plates / 2,774 mappings / 149 residues / 13
+keys**, and practical teaching scopes remain **0 live / 0 pending / 92 new**. The Family-160
+delta is exactly **+0 / +0 / +0 / +0 / +0**, because a handwritten theoretical taxonomy
+note is not converted into a practical plate or mapping inventory.
+
+This source hash occurs once in Family 159's remainder. Removing its sole path leaves **70
+all-rank path instances / 65 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **56 / 54**, and rank 9 **14 / 11**. Family 159's prior checksums are
+`28692942f097d9417cff0ab245f5e6a6fd2e3176ad7e0659dd44ff90322e6839` (paths) and
+`e31dbfc79b64131784bf087841bac3aab1980250e2703586388286c1f68060a0` (unique hashes).
+For the exact post-Family-160 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b20b0e83bc197d816421f04b30984468875999ddf95a4d7e2c311fb2edd7a2d9`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`226184c0990d687b7a03c55daecd55d76870dc7576dd79804e3655bbbd3f6258`.
+
+The exact next manifest-order debt is tier-6 `src_7ba9b1a87482c7ce6963`,
+`2026-07-20 05.51.02.jpg` (174,570 bytes; 890 × 1280 JPEG; SHA-256
+`7ba9b1a87482c7ce6963f55e1dc9379510fcd1eb1b3fff24f48d0a43b74d931c`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 70 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
