@@ -5342,3 +5342,51 @@ Removing this one empty-text path and unique hash leaves **37 selected inventory
 The next evidence-ranked source is the answer-bearing 18-page Histology midterm path `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/FHB Revision questions Fall 22-23 (Answers).pdf`, SHA-256 `0f4c76704d3e67b1c7db6e1d5df55d183fa7352da07e628502b550f29b7303b3`.
 
 **BLOCKED — S1 cannot be approved:** 37 selected source paths remain untriaged.
+
+## Completed source — FHB Revision questions Fall 22-23 (Answers)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/FHB Revision questions Fall 22-23 (Answers).pdf` | `0f4c76704d3e67b1c7db6e1d5df55d183fa7352da07e628502b550f29b7303b3` | 18 | substantive-text | pages 1–18 rendered and read | Official MUST College of Medicine `FHB 101` Histology Department revision slide deck by Prof. Sahar Gamal Abo Elfadl. The deck and terminal answer page establish department-authored revision authority, but it prints no sitting date, marks, duration or examination claim and is not treated as an exam paper. |
+
+### Exact prompt, key, practical, written and teaching boundary
+
+Page 1 is the MUST revision cover. Pages 2–12 contain **11** single-best-answer MCQs, one per page. Pages 13–16 contain four matching blocks; each block prints two distinct Column-A items against a shared option list, giving **eight** matching prompts. Page 17 is a `THANK YOU` closing slide. Page 18 is the answer page: it prints 11 numbered answers and eight separately labelled matching answers, all of which link unambiguously to the preceding prompts. The exact boundary is therefore **19 prompt occurrences / 19 printed prompt-matched answers** (`11 + 8`). There is no practical-image identification, written/essay prompt, answer exposition or teaching-only question. No answer was corrected or inferred.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+`Q1–Q11` identify the MCQs; `M1a–M4b` identify the two Column-A items in each matching block. Every prompt is assigned exactly once to the 11 handles below. Each handle received the four recorded searches, for **11 × 4 = 44 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1 | Mitochondrial dysfunction producing energy-limited myopathy (`mitochondrial myopathy`; `mitochondrial ATP muscle weakness`; `mitochondrial energy deficiency`; `mitochondria poor growth muscle weakness`) | new externally; exact prior-FHB mitochondrial-dysfunction reuse. |
+| Q2 | Fibroblast synthesis of connective-tissue matrix proteins (`fibroblast elastin synthesis`; `fibroblast extracellular matrix`; `connective tissue fibroblast`; `fibroblast collagen elastin`) | new externally; exact prior-FHB fibroblast/matrix reuse; the source's printed Marfan/elastin wording is retained without medical correction. |
+| Q3,Q9 | Centriole microtubule arrangement and mitotic-spindle role (`centriole mitotic spindle`; `centriole microtubule arrangement`; `spindle fibers centriole`; `centriole nine triplets`) | new externally; explicit organelle/function repeat collapsed and exact prior-FHB centriole/spindle reuse. |
+| Q4 | Pinocytosis as vesicular uptake of liquid (`pinocytosis liquid vesicle`; `cell drinking pinocytosis`; `endocytosis liquid material`; `pinocytic vesicle`) | pending-hit; exact prior-FHB endocytosis reuse. |
+| Q5 | mRNA linkage of ribosomes in polyribosomes (`mRNA polyribosome`; `polysome messenger RNA`; `ribosomes linked mRNA`; `polyribosome structure`) | pending-hit; exact prior-FHB ribosome/polyribosome reuse. |
+| Q6,Q7 | Golgi silver staining and final-product secretory vesicles (`Golgi silver stain`; `Golgi secretory vesicle`; `Golgi final product vesicles`; `Golgi apparatus histology`) | new externally; explicit Golgi morphology/function collapse and exact prior-FHB reuse. |
+| Q8; M4a–M4b | Glycogen/lipid cell inclusions and PAS/Sudan-III histochemistry (`glycogen cell inclusion`; `PAS glycogen granules`; `Sudan III lipid droplets`; `cell inclusions lipid glycogen`) | new externally; exact prior-FHB inclusion/histochemistry reuse. |
+| Q10; M3a–M3b | Rough-/smooth-ER protein, lipid/cholesterol and calcium-storage functions (`smooth ER cholesterol synthesis`; `rough ER protein secreting cells`; `smooth ER calcium storage`; `rough smooth ER functions`) | pending-hit; exact prior-FHB rough-/smooth-ER reuse. |
+| Q11 | Lysosomal intracellular digestion (`lysosome intracellular digestion`; `lysosomal hydrolytic enzymes`; `lysosome digestion function`; `secondary lysosome digestion`) | pending-hit; exact prior-FHB lysosomal-digestion reuse. |
+| M1a–M1b | Cell-membrane thickness and outer nuclear-envelope continuity with rough ER (`cell membrane thickness 10 nm`; `outer nuclear membrane rough ER`; `nuclear envelope continuity RER`; `cell nuclear membrane matching`) | pending-hit; exact prior-FHB membrane/nuclear-envelope reuse. |
+| M2a–M2b | Euchromatin versus heterochromatin activity and staining (`euchromatin heterochromatin`; `active lightly stained chromatin`; `inactive condensed chromatin`; `chromatin staining activity`) | pending-hit; exact prior-FHB chromatin-state reuse. |
+
+The source-level split is **0 live / 6 pending / 5 new = 11 handles**. All 11 reproduce completed prior-FHB assignments, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+19 questions / +19 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 5590 | 5282 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **36 selected inventory paths / 36 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `91c313224aabfceae3e94c70a6bfe4915ac29ef38485ec976dc10cc115784a15`. Pinned triage debt becomes **seven substantive-text / five sparse-text / 24 empty-text** rows, and unique-hash accounting is **`70 + 36 = 106`**.
+
+The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Basis MCQ by Dr.Jalal.pdf`, SHA-256 `2c9ba7d2333e672e7ecca19f595c3e77c6df40c01d02f23f9acdbe947dc1ba3d`, 13 pages.
+
+**BLOCKED — S1 cannot be approved:** 36 selected source paths remain untriaged.
