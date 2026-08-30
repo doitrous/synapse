@@ -9215,3 +9215,81 @@ handwritten fate map contrasting localized/diffuse suppurative acute inflammatio
 non-suppurative outcomes. Its full teaching/prompt/answer and annotation boundary,
 provenance/timestamp limitation, relationship to the adjacent inflammation notes, and overlap
 with prior BMS-102 evidence are the exact next-source blockers.
+
+## Family 84 — acute-inflammation fate-map photograph
+
+### Source identity, original-image boundary, provenance, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_b285b8c344800f4fd420` · `2026-07-20 06.15.47.jpg` |
+| SHA-256 / size | `b285b8c344800f4fd42051fb66f127b2b6b1c258cf6e9ec7703bb29736a50a38` · 176,617 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×855 landscape JPEG; opened and read at original resolution |
+| Visible source identity | Photograph of a completed handwritten map headed `Fate`; no institution, module, author, instructor, date, page number, assessment label, or key designation |
+| Filename date | Manifest derives 2026 from the filename; that capture-style timestamp is non-authoritative and cannot establish a teaching date or exam sitting |
+
+The completed map divides acute inflammation into suppurative and non-suppurative outcomes.
+For localized suppurative inflammation it traces abscess evacuation, healing, sinus, fistula,
+ulcer, chronic abscess, lymphatic spread, and blood spread; for diffuse disease it lists acute
+lymphangitis/lymphadenitis and septicaemia/pyaemia. The non-suppurative branch lists resolution,
+healing by fibrosis after tissue destruction or abundant fibrin exudate, progression to chronic
+inflammation, and possible suppuration/generalization in pyogenic infection.
+
+Family 83 and this source share the same photographed-note style and inflammation topic, with
+Family 84 advancing from morphologic types to their fates. The next manifest record,
+`4_5902217716852332461.pdf`, changes carrier and naming convention to a 14-page native-text
+pathology introduction. The image itself has no internal date or sequence number; filename
+order records capture order only and cannot prove authorship, teaching chronology, or sitting
+year.
+
+### Teaching, annotation, edge, overlap, and zero gate
+
+Purple headings, circles, numbered branches, arrows, braces, underlines, and a red
+`complications` label organize the completed map. They encode classification and direction,
+not selected responses. The lower numbered localized-abscess outcomes sit close to the
+photograph edge, but their labels remain visible; the edge does not expose a stem, response
+frame, or recoverable prompt fragment.
+
+There is no command, question mark, blank, option set, audience question, prompt-like residue,
+or printed key. The source overlaps acute-inflammation fate concepts represented in prior
+BMS-102 teaching and assessment families, but declarative overlap does not create an accepted
+handle or assessment occurrence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 84 | Auxiliary cumulative (Families 12–84) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 84 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 84
+
+`src_b285b8c344800f4fd420` is exhausted: every suppurative/non-suppurative branch, localized
+and diffuse outcome, completed definition, organizational annotation, photograph-edge ruling,
+adjacent-note relationship, prior-BMS overlap, timestamp limitation, zero search gate, and
+unchanged arithmetic is assigned once, with **zero source remainder** and no Family-84
+blocker. The exact next manifest-ordered BMS-102 record is tier-6
+`src_9e9945e0389aabbe2b1d` · `4_5902217716852332461.pdf`, SHA-256
+`9e9945e0389aabbe2b1d42af142d673c38794a2ed4c1d99d3fb64247a319bce9`, 1,941,784 bytes,
+14 native-text A4 pages under `Pathology / Notes and Summaries`. Its first visible material is
+a pathology introduction, while PDF metadata names author `Hossam mohammed` and a 24 February
+2025 creation/modification date; neither metadata field alone proves Helwan authorship or an
+exam sitting. Full-page rendering, provenance adjudication, teaching/prompt/answer boundary,
+and any prior-BMS overlap are the exact next-source blockers.
