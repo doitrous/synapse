@@ -11222,16 +11222,16 @@ The 475 occurrences collapse to **41 source-distinct tested handles**. Each rece
 one search in the live, pending/import-ready, prior source-import and accepted-LCS surfaces:
 **41 × 4 = 164 required search invocations**.
 
-| Source domain | Assigned occurrences | Distinct handles |
-|---|---:|---:|
-| Front/medial thigh, femoral triangle/sheath/canal, lumbar plexus and femoral/obturator/saphenous nerves and vessels | 215 | 12 |
-| Gluteal region, short rotators, sciatic foramina, sciatic nerve and gluteal/pudendal routes | 57 | 5 |
-| Posterior thigh, hamstrings, popliteal fossa/artery, tibial/common-fibular/sural nerves and small saphenous vein | 65 | 6 |
-| Posterior-leg muscles, Achilles tendon, deep flexors/retinaculum and popliteus | 36 | 3 |
-| Anterior/lateral-leg compartments, retinacula and deep/superficial fibular nerves | 30 | 5 |
-| Intrinsic sole, medial plantar nerve and foot-bone relations | 25 | 3 |
-| Hip/knee/ankle joints, inversion/eversion, arches and lower-limb bony landmarks | 47 | 7 |
-| **Family 94** | **215 + 57 + 65 + 36 + 30 + 25 + 47 = 475** | **12 + 5 + 6 + 3 + 5 + 3 + 7 = 41** |
+| Source-domain handle family | Scope partition | Distinct handles |
+|---|---|---:|
+| Front/medial thigh | muscles; fascia lata/iliotibial tract; femoral triangle/sheath/ring/canal; adductor canal; lumbar plexus; femoral, obturator and saphenous nerves; femoral artery and great saphenous vein | 12 |
+| Gluteal region | abductors and maximus; short rotators/sciatic foramina; sciatic nerve; gluteal/pudendal routes | 5 |
+| Posterior thigh and popliteal fossa | hamstrings; fossa and popliteal artery; common fibular, tibial and sural nerves/small saphenous vein | 6 |
+| Posterior leg | triceps surae/Achilles; deep flexors and flexor retinaculum; popliteus/unlocking | 3 |
+| Anterior/lateral leg | anterior and lateral compartments; extensor retinacula; deep and superficial fibular nerves | 5 |
+| Foot | intrinsic sole; medial plantar nerve; cuboid/navicular and other foot-bone relations | 3 |
+| Joints, arches and bones | hip, knee and ankle; inversion/eversion joints; arches; bony landmarks and attachments | 7 |
+| **Family 94** | **the 475 top-level prompt occurrences exhaust the section numbering above; repeated or multi-clause prompts reuse their closest primary handle without manufacturing subprompt occurrences** | **12 + 5 + 6 + 3 + 5 + 3 + 7 = 41** |
 
 All 41 are exact prior-external reuses of the broad lower-limb inventory established by
 Family 86 and subsequently corroborated by Families 88, 91 and 93. Accepted Families 20 and
@@ -11269,3 +11269,83 @@ SHA-256 `d44d11486925dc28bb860bd41b9609d37e6e9f2dcb5aa4c03d0e7f48863185fd`).
 It remains external until its own pages prove otherwise. **Overall LCS-103 remains `S1
 TRIAGE — NOT APPROVED`:** 136 tier-3/tier-6/rank-9 path debts remain. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 95 — Tier-3 external Dr Ayman photographed back-muscle keyed MCQs
+
+### Exact identity, provenance and five-page assessment boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d44d11486925dc28bb86` / `d44d11486925dc28bb860bd41b9609d37e6e9f2dcb5aa4c03d0e7f48863185fd` |
+| File / boundary | Manifest `MCQs - External MCQs mcq dr Ayman  muscle of the back ايمن خنفور.pdf`; normalized local filename has one space before `muscle` · 2,370,117 bytes · unencrypted PDF · 5 physical native-container A4 pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Metadata / visible provenance | PDF title and subject are `mcq dr Ayman  muscle of the back`; author is `CamScanner`, producer is `intsig.com pdf producer`. Every page is a classroom photograph of a projected slide and bears `Scanned by CamScanner`. No university, faculty, module, sitting, cohort or official-key mark is visible. |
+| Authority finding | The explicit `External MCQs` filename and absence of Helwan authority keep this an external keyed review fragment. Back-muscle Anatomy is in LCS-103 scope, but the filename's personal attribution does not establish a Helwan assessment sitting. |
+
+The assigned hash, byte size and five-page boundary were recomputed and match. The PDF text
+layer contains only the CamScanner footer, so all five pages were rendered at 220 dpi,
+cropped to the projected screen and read visually. Each physical page contains one separate
+MCQ and one yellow-highlighted answer selection.
+
+| Page | Visible tested boundary | Printed key state |
+|---:|---|---|
+| 1 | identify the option that is not a back muscle | yellow `Serratus anterior` |
+| 2 | bedside movement used to test trapezius paralysis | yellow `Shrug (elevates) the shoulder` |
+| 3 | one separately visible back-muscle MCQ; camera motion/lecturer occlusion prevent reliable verbatim stem and option transcription | one yellow option is visibly selected; wording retained as unresolved assessment-transcription debt rather than guessed |
+| 4 | false statement among trapezius origin/insertion/innervation facts | yellow anterior-border-of-clavicle insertion option |
+| 5 | muscle paralysed by cutting the dorsal scapular nerve | yellow `Rhomboids major muscle` |
+| **Family 95 external bank** | **five photographed MCQs** | **5 prompts / 5 visible highlighted keys** |
+
+The page-3 blur affects transcription, not the prompt/key boundary: the stem, option rows and
+one highlighted choice remain visibly distinct. It is not converted into student-facing
+content and no medical wording is inferred. There is no teaching-only page, specimen,
+radiograph, micrograph, practical station, masked label, response blank or image-identification
+task. The classroom photographs are provenance containers, not teaching plates. Practical
+delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0
+practical scopes**.
+
+### Source-first collapse, searches and prior reconciliation
+
+The five occurrences collapse to **3 source-distinct tested handles**: superficial/extrinsic
+back-muscle classification (pp. 1 and 3), trapezius attachments/innervation/action and
+clinical test (pp. 2 and 4), and dorsal-scapular-nerve/rhomboid paralysis (p. 5). Each
+received exactly one search in the live, pending/import-ready, prior source-import and
+accepted-LCS surfaces: **3 × 4 = 12 required search invocations**.
+
+All three reuse accepted teaching or assessment scopes from Families 36 and 40, so eligible
+concept delta is zero. No earlier external family owns an exact back-muscle handle. The
+trapezius and dorsal-scapular/rhomboid handles have exact pending/import-ready precedents;
+the broad back-muscle classification handle has none. Prior-external reconciliation is
+therefore **0 reuses + 3 additions = 3**, with external concept-state delta **0 live / 2
+pending / 1 new**. The exact 12-query ledger is preserved at
+`tmp/pdfs/lcs103-family95/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **2,190 / 2,131 / 218 = 12 / 133 / 73** to **2,195 external prompts / 2,136 printed
+keys / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic is
+`2,190 + 5 = 2,195`, `2,131 + 5 = 2,136`, `218 + 3 = 221`, `133 + 2 = 135`,
+`73 + 1 = 74`, and `12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458
+plates / 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92
+new**.
+
+This source hash occurs once in the Family-94 remainder. Removing its sole path leaves **135
+all-rank path instances / 127 unique hashes**: tier 3 **53 paths / 50 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 94's 136/128 row sets recompute
+first to path checksum
+`51b5da5184daae49fe355e69a6151010f6bc7249e9d07d6ffcf6df52110e0530` and unique-hash
+checksum `23fa95b9c32c6563c65db7519306b84e0f58336d073750c2a001e3c534c51c94`.
+For the exact post-Family-95 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ac7d1a34b6424ac131419e7c4e3f764a2aa7acb8b51eedc959bbe09e8adfbbfa`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`38c2b330b8c1567e3520120a6b93836495488d92615a7b595b73c6acfb5bb87e`.
+
+The exact next tier-3 manifest-order debt is `src_d5d701558ddff491b455`,
+`MCQs - MCQ 3 MSS.pdf` (522,644 bytes; 6 OCR-needed pages; SHA-256
+`d5d701558ddff491b4550559326b06aad107793f432ae127fc1dc9bc6ef8280f`). It remains
+unclassified until its own pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 135 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
