@@ -2192,3 +2192,45 @@ Removing the fifty-six processed unique hashes leaves **46 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy_MSK101-1_Training_Questions.pdf`, SHA-256 `7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939`, 8 pages.
 
 **BLOCKED — S1 cannot be approved:** 46 selected inventory paths / 45 unique hashes remain untriaged.
+
+## Completed source — Anatomy_MSK101-1_Training_Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy_MSK101-1_Training_Questions.pdf` | `7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939` | 8 | audit-extract-failed | pages 1–8 rendered and read | Annotated image carrier of the Abdelsalam Bakr training-question sequence. The PDF has no creator metadata or printed institution, department, examiner, sitting, marks or official-key claim. Visible circles, crosses, checks and handwritten corrections are student answer-bearing observations, not an authenticated MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy_MSK101-1_Training_Questions.pdf" purpose="source"}
+
+### Exact normalized sibling, MCQ and answer boundary
+
+All eight pages repeat the completed clean carrier's continuous Q1–Q31 sequence. Normalized extraction is exactly identical at 7,938 characters, but the PDFs are not byte- or visually identical: this carrier rasterizes handwritten answer annotations over every page. The underlying prompt boundary remains 27 four-option MCQs, one three-option item at Q12, and three five-option items at Q23, Q30 and Q31.
+
+| Pages | Visible sequence | Reused MCQ prompts | Student-marked answer-bearing prompts | Official faculty-key observations | New written/practical/image/teaching |
+|---|---|---:|---:|---:|---:|
+| 1–8 | Q1–Q31 | 31 | 31 | 0 | 0 |
+
+Every prompt has one final circled selection. Q6 preserves the only visibly revised selection: A is circled in black, crossed out in blue, and D is circled in blue as the final state. Handwritten checks, crosses and corrective notes around other options are retained as annotation context, not counted as extra prompt-matched answers. Academically questionable selections are neither corrected nor promoted to a faculty key.
+
+### Family reconciliation and search gate
+
+The exact normalized Q1–Q31 prompt sequence belongs to the already counted clean carrier, SHA-256 `c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb`. The present carrier therefore contributes **+0 question observations**, while its visible student selections contribute **+31 answer-bearing prompt observations** not present in that clean sibling. It adds no distinct concepts.
+
+All source-first scopes already map to completed Upper Limb Anatomy H1–H5. No genuinely new handle survives sibling and prior-MSK reconciliation, so the exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior family’s **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its family delta is **+0 questions / +31 answer observations / +0 concepts**. Cumulative arithmetic is **5959 + 0 = 5959 questions**, **5788 + 31 = 5819 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5959 | 5819 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty-seven processed unique hashes leaves **45 selected inventory paths / 44 unique SHA-256s**. Their sorted, newline-joined hash checksum is `eee491738ca75b7651e03f970721b7472abc2f37b8ffac315a2dce93e1055618`. Remaining audit-review debt is 19 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 2 audit-extract-failed rows, and unique-hash accounting is **`57 + 44 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy msk questions.pdf`, SHA-256 `ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9`, 7 pages.
+
+**BLOCKED — S1 cannot be approved:** 45 selected inventory paths / 44 unique hashes remain untriaged.

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "7a5b8467f2163c621a4ffc24c4850b7ec9d153175c5013e258e858629e64f5c3",
-    "triageMarkdown": "2d217186375e9fbcf9258cbfa6e1b59ba273f787cc9f148c68b79eccb7ca0e11"
+    "readinessMarkdown": "c1c614e1d6ff0633d0a620a0af5850946f48eea52d9d97c157e171e9c2058e14",
+    "triageMarkdown": "30e2f9f8abd02f7124344e38e18c507c9e882af3b2ba87d8bd5a8e1b5478db3e"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -75,6 +75,7 @@
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
       "69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4",
       "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
+      "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
       "76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c",
       "7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
@@ -108,7 +109,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 56
+    "uniqueSha256": 57
   },
   "completedSourceCoverage": [
     {
@@ -1611,22 +1612,58 @@
         "near-repeated brachial-plexus and axillary-artery prompts remain counted as printed occurrences",
         "all thirty-one answers are source-absent and none is inferred from anatomy knowledge"
       ]
+    },
+    {
+      "sha256": "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "printedQuestionLabels": "Q1-Q31",
+      "printedPromptObservations": 31,
+      "objectiveMcqPrompts": 31,
+      "answerBearingPromptObservations": 31,
+      "printedKeyObservations": 31,
+      "studentMarkedAnswerObservations": 31,
+      "officialFacultyKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "exactNormalizedPromptSequenceSiblingOf": "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
+      "normalizedTextChars": 7938,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 31,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "annotated image carrier of the Abdelsalam Bakr training-question sequence; visible circles, crosses, checks and handwritten corrections are student answer-bearing observations, not an authenticated MUST/MSK examination or faculty key",
+      "boundaryDisposition": "exact normalized Q1-Q31 prompt-sequence sibling of the clean carrier, with one final circled selection visible for every prompt; no new prompt family, written, practical, image-identification, teaching-only or answer-only material",
+      "preservedSourceDefects": [
+        "Q6 retains a black circle around A crossed out in blue and a final blue circle around D",
+        "handwritten correction notes and academically questionable selections are retained without inference or correction",
+        "Q12 supplies only three options",
+        "Q23, Q30 and Q31 each supply five options while most items supply four"
+      ]
     }
   ],
   "triageCumulative": {
     "printedPromptObservations": 5959,
-    "printedKeyObservations": 5788,
+    "printedKeyObservations": 5819,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 46,
-    "uniqueSha256": 45,
-    "sortedNewlineSha256": "17170d9ff2b71a3a815489dafef41cb3460b117cae2db97e6abc290690b825d2",
+    "inventoryMetadataRows": 45,
+    "uniqueSha256": 44,
+    "sortedNewlineSha256": "eee491738ca75b7651e03f970721b7472abc2f37b8ffac315a2dce93e1055618",
     "auditSampleStatusCounts": {
-      "audit-extract-failed": 3,
+      "audit-extract-failed": 2,
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
@@ -1634,7 +1671,7 @@
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-extract-failed": 3,
+    "audit-extract-failed": 2,
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
@@ -1642,8 +1679,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 56,
-    "remainingUniqueSha256": 45,
+    "processedUniqueSha256": 57,
+    "remainingUniqueSha256": 44,
     "processedPlusRemaining": 101
   }
 }

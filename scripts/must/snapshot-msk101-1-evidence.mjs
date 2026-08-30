@@ -63,9 +63,10 @@ const PROCESSED_FAMILY_HASHES = [
   '43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3',
   '59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3',
   'c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb',
+  '7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '17170d9ff2b71a3a815489dafef41cb3460b117cae2db97e6abc290690b825d2'
+const REMAINING_CHECKSUM = 'eee491738ca75b7651e03f970721b7472abc2f37b8ffac315a2dce93e1055618'
 
 function option(name) {
   const prefix = `${name}=`
@@ -142,10 +143,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 19 }
+  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 19 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=19-substantive/5-sparse/7-empty/12-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=19-substantive/5-sparse/7-empty/12-not-found/2-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -161,7 +162,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '5959', '5788', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '5959', '5819', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -195,7 +196,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 56 || remainingHashes.length !== 45 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 57 || remainingHashes.length !== 44 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -203,7 +204,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 19 }
+const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 19 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -280,8 +281,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[53], sourcePages: 60, renderedReadPages: '1-60', coverPages: '1', teachingOrIllustrationPages: '2-10,22-24,30-33,40-43,48-52 (40 and 52 mixed)', printedPromptObservations: 158, objectiveMcqPrompts: 150, writtenPrompts: 8, printedKeyObservations: 158, objectiveMcqKeyObservations: 150, writtenAnswerObservations: 8, sourceAbsentAnswers: 0, practicalOrImagePrompts: 0, familyQuestionDelta: 158, familyAnswerDelta: 158, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Mohamed Salama student study compilation titled ANATOMY with metadata subject MCQS and SUMMARY, created in Microsoft Word on 15 December 2023; no MUST institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'mixed teaching and keyed assessment compilation: 150 four-option MCQs across six blocks plus eight written or comparison prompts, each with a printed answer; anatomical tables and illustrations are teaching material and never practical or image-identification prompts', assessmentBlocks: [{ pages: '11-17', mcqPrompts: 30, writtenPrompts: 3, answerObservations: 33 }, { pages: '18-21', mcqPrompts: 15, writtenPrompts: 3, answerObservations: 18 }, { pages: '25-29', mcqPrompts: 25, writtenPrompts: 2, answerObservations: 27 }, { pages: '34-40', mcqPrompts: 35, writtenPrompts: 0, answerObservations: 35 }, { pages: '44-47', mcqPrompts: 20, writtenPrompts: 0, answerObservations: 20 }, { pages: '52-60', mcqPrompts: 25, writtenPrompts: 0, answerObservations: 25 }], preservedSourceDefects: ['question numbering restarts independently across six MCQ blocks and written blocks', 'repeated and near-repeated upper-limb prompts are retained as distinct printed occurrences and collapse only at the concept layer', 'printed key punctuation, capitalization, wording and academically questionable selections are retained without correction', 'the closing Arabic note says the author could not finish the remainder and describes the compilation as covering about ninety percent of the curriculum'] },
     { sha256: PROCESSED_FAMILY_HASHES[54], sourcePages: 8, renderedReadPages: '1-8', printedQuestionLabels: 'Q1-Q33', printedPromptObservations: 33, objectiveMcqPrompts: 33, printedKeyObservations: 0, sourceAbsentAnswers: 33, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 33, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Abdelsalam Bakr student training-question document created in Microsoft Word on 23 October 2025; no institution, department, examiner, sitting, marks, assessment instruction or official-key claim', boundaryDisposition: 'continuous Q1-Q33 sequence of text-only MCQs across all eight pages; no answers or key, written prompts, practical or image-identification prompts, teaching pages or answer-only material', siblingComparison: { comparedSource: 'Anatomy MSK101-1 Training Questions.pdf', disposition: 'distinct sequence; sibling begins with axillary-artery and brachial-plexus questions rather than the current back/scapular and pectoral-region sequence' }, preservedSourceDefects: ['Q9 carries five options while most items carry four', 'Q26 and Q29 repeat the same clavipectoral-fascia EXCEPT stem with different option sets', 'near-repeated pectoralis-minor, scapulohumeral, clavipectoral-fascia and medial-rotation items remain counted as printed occurrences', 'all thirty-three answers are source-absent and none is inferred from anatomy knowledge'] },
     { sha256: PROCESSED_FAMILY_HASHES[55], sourcePages: 8, renderedReadPages: '1-8', printedQuestionLabels: 'Q1-Q31', printedPromptObservations: 31, objectiveMcqPrompts: 31, printedKeyObservations: 0, sourceAbsentAnswers: 31, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 31, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Abdelsalam Bakr student training-question document created in Microsoft Word on 23 October 2025; no printed institution, department, examiner, sitting, marks, assessment instruction or official-key claim', boundaryDisposition: 'continuous Q1-Q31 sequence of text-only MCQs across all eight pages; no answers or key, written prompts, practical or image-identification prompts, teaching pages or answer-only material', siblingComparison: { distinctFrom: PROCESSED_FAMILY_HASHES[54], distinctDisposition: 'different visible prompt sequence from Training Questions 2', exactNormalizedPromptSequenceCarrier: { sha256: '7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939', path: 'Anatomy_MSK101-1_Training_Questions.pdf', normalizedTextChars: 7938 } }, preservedSourceDefects: ['Q12 supplies only three options', 'Q23, Q30 and Q31 each supply five options while most items supply four', 'near-repeated brachial-plexus and axillary-artery prompts remain counted as printed occurrences', 'all thirty-one answers are source-absent and none is inferred from anatomy knowledge'] },
+    { sha256: PROCESSED_FAMILY_HASHES[56], sourcePages: 8, renderedReadPages: '1-8', printedQuestionLabels: 'Q1-Q31', printedPromptObservations: 31, objectiveMcqPrompts: 31, answerBearingPromptObservations: 31, printedKeyObservations: 31, studentMarkedAnswerObservations: 31, officialFacultyKeyObservations: 0, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, exactNormalizedPromptSequenceSiblingOf: PROCESSED_FAMILY_HASHES[55], normalizedTextChars: 7938, familyQuestionDelta: 0, familyAnswerDelta: 31, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'annotated image carrier of the Abdelsalam Bakr training-question sequence; visible circles, crosses, checks and handwritten corrections are student answer-bearing observations, not an authenticated MUST/MSK examination or faculty key', boundaryDisposition: 'exact normalized Q1-Q31 prompt-sequence sibling of the clean carrier, with one final circled selection visible for every prompt; no new prompt family, written, practical, image-identification, teaching-only or answer-only material', preservedSourceDefects: ['Q6 retains a black circle around A crossed out in blue and a final blue circle around D', 'handwritten correction notes and academically questionable selections are retained without inference or correction', 'Q12 supplies only three options', 'Q23, Q30 and Q31 each supply five options while most items supply four'] },
   ],
-  triageCumulative: { printedPromptObservations: 5959, printedKeyObservations: 5788, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 5959, printedKeyObservations: 5819, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
