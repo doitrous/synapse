@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "cc286a69100a58f1390744adaacca43713f1a78ada9d1d5709d9b3e59f1e9ecc",
-    "triageMarkdown": "840f3faa7ef2f4ac798ba375374e52c2a585f7fb44a386aeb0d6666386564a06"
+    "readinessMarkdown": "2c31a88ccfddc87bd3f32d93e7e6652da63c5148a7e55d2d4e271611d51dc3c1",
+    "triageMarkdown": "6473150e98bbffd2cc26ad8efef19d6e54cd86c26892738102c5f415534c4053"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -70,6 +70,7 @@
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
       "43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3",
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
+      "4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece",
       "48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e",
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
       "4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719",
@@ -123,7 +124,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 71
+    "uniqueSha256": 72
   },
   "completedSourceCoverage": [
     {
@@ -2230,6 +2231,43 @@
         "handwritten marginal corrections and rationale remain annotations rather than separate prompt or answer occurrences",
         "source spelling and numbering including eve, Marphan, elastine, duplicate b option lettering and UMCs are retained without correction"
       ]
+    },
+    {
+      "sha256": "4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece",
+      "sourcePages": 29,
+      "renderedReadPages": "1-29",
+      "coverPages": "1",
+      "indexPages": "2",
+      "questionPages": "3-29",
+      "printedPromptObservations": 153,
+      "objectiveMcqPrompts": 153,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 153,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "normalizedPromptSequenceSiblingOf": "14017cf209e94c9c5e431552ec4e934e42634c26a42e2bbbe9793736279e3f9f",
+      "siblingPromptObservations": 153,
+      "siblingRecoveredAnswerObservations": 151,
+      "siblingSourceAbsentAnswers": 2,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 6,
+      "referenceSearchesRun": 24,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Abolmagd student histology MCQ review compilation produced through iLovePDF on 14 June 2024; internal 2011-2020 and 193-196 section labels are compilation headings, not authenticated MUST/MSK examination or official-key authority",
+      "boundaryDisposition": "one cover and one index followed by ten conventional MCQ blocks totalling 153 source-unkeyed prompts; headings WRITTEN and WRITTEN SUMMER still contain only four-option MCQs; the complete normalized prompt sequence is the unkeyed sibling of the previously processed histoooooo revised carrier, whose markings recovered 151 answers and preserved two muscle-spindle prompts as unkeyed",
+      "preservedSourceDefects": [
+        "yellow highlighting marks stems rather than answer choices and is not treated as a key",
+        "the 2014-2018 sequence jumps from Q24 to Q26 and omits label Q25",
+        "Q26 option label 2c is malformed",
+        "all 153 prompts are source-unkeyed in this carrier"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2241,26 +2279,26 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 31,
-    "uniqueSha256": 30,
-    "sortedNewlineSha256": "97d5255bb1fc19cd9539996fdb6c74e21dbd21c5645e350b663c3c8172d2f56b",
+    "inventoryMetadataRows": 30,
+    "uniqueSha256": 29,
+    "sortedNewlineSha256": "89337c87e3eb53e2ec7b624a4d01f01d7150b74175c0a3c0e4eefeff8d6ee47c",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 7
+      "substantive-text": 6
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 7
+    "substantive-text": 6
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 71,
-    "remainingUniqueSha256": 30,
+    "processedUniqueSha256": 72,
+    "remainingUniqueSha256": 29,
     "processedPlusRemaining": 101
   }
 }

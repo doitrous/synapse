@@ -2858,3 +2858,57 @@ Removing the seventy-one processed unique hashes leaves **31 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MCQ qs 103.pdf`, SHA-256 `4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece`, 29 pages.
 
 **BLOCKED — S1 cannot be approved:** 31 selected inventory paths / 30 unique hashes remain untriaged.
+
+## Completed normalized-sibling source — Histology MCQ qs 103
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MCQ qs 103.pdf` | `4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece` | 29 | substantive-text audit sample | pages 1–29 rendered and read | `ABOLMAGD` student histology MCQ review compilation produced through iLovePDF on 14 June 2024. Internal 193–196, 2011–2020, `MCQ EXAM`, `END OF MODULE`, `WRITTEN` and `WRITTEN SUMMER` headings are compilation labels; no institution, department, examiner, sitting, marks or authenticated faculty-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MCQ qs 103.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and teaching boundary
+
+Page 1 is a cover and page 2 is an index. Pages 3–29 contain ten conventional MCQ blocks. Yellow highlighting marks each question stem, not an answer choice. No printed selection, answer table or answer prose appears.
+
+| Printed block | MCQ prompts | Printed answers | Source-unkeyed |
+|---|---:|---:|---:|
+| `196 - (END OF MODULE)` Q1–Q16 | 16 | 0 | 16 |
+| `195 - (END OF MODULE)` Q1–Q16 | 16 | 0 | 16 |
+| `195 - (WRITTEN)` Q1–Q22 | 22 | 0 | 22 |
+| `195 - (WRITTEN SUMMER)` Q1–Q22 | 22 | 0 | 22 |
+| `2020 MCQ EXAM` Q1–Q6 | 6 | 0 | 6 |
+| `2019 MCQ EXAM` Q1–Q23 | 23 | 0 | 23 |
+| `(2014 - 2016 - 2017 - 2018) MCQ EXAMS` Q1–Q24 and Q26 | 25 | 0 | 25 |
+| `2015 MCQ EXAM` Q1–Q5 | 5 | 0 | 5 |
+| `2012 MCQ EXAM` Q1–Q8 | 8 | 0 | 8 |
+| `2011 MCQ EXAM` Q1–Q10 | 10 | 0 | 10 |
+| **Total** | **153** | **0** | **153** |
+
+The two blocks headed `WRITTEN` and `WRITTEN SUMMER` contain only four-option MCQs, so they contribute **0 written prompts**. There are **0 practical or image-identification prompts / 0 teaching-only prompts / 0 answer-only observations**.
+
+### Normalized sibling, authority and search gate
+
+The full 153-prompt sequence matches the completed `MCQs - histoooooo revised.pdf`, SHA-256 `14017cf209e94c9c5e431552ec4e934e42634c26a42e2bbbe9793736279e3f9f`, after normalization. Extracted text is line-for-line identical except that the revised sibling adds `resting zone` to one 2012 option; no stem or prompt occurrence changes. The completed sibling already recovered **151 answer observations** and preserved its two muscle-spindle prompts as source-unkeyed, so this all-unkeyed carrier adds no family question or answer occurrence.
+
+The cover warning that these are only common MCQs and should not be studied alone, together with the absence of institutional assessment metadata, supports student-review rather than MUST/MSK exam authority. Internal year and exam-style headings are retained as source claims only.
+
+All source-first scopes were already reconciled under the sibling's six completed handles. No genuinely new accepted handle survives normalized-sibling or prior-MSK collapse. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the sibling's **6 accepted handles / 24 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct inventory hash is now `sourceProcessed=true`. Its physical boundary is **153 questions / 0 answer observations**, while normalized sibling collapse yields a family delta of **+0 questions / +0 answer observations / +0 concepts**. Cumulative arithmetic remains **6696 questions / 6506 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6696 | 6506 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, exam-authority claim, placement or catalogue entry was created. Source defects remain preserved: the combined 2014–2018 block omits label Q25, Q26 contains malformed option label `2c`, and all 153 prompts are unkeyed in this carrier.
+
+### Remaining sources / blocker
+
+Removing the seventy-two processed unique hashes leaves **30 selected inventory paths / 29 unique SHA-256s**. Their sorted, newline-joined hash checksum is `89337c87e3eb53e2ec7b624a4d01f01d7150b74175c0a3c0e4eefeff8d6ee47c`. Remaining audit-review debt is 6 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`72 + 29 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Midterm training.pdf`, SHA-256 `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`, 6 pages; the same hash also appears at `_Exact Duplicates/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histo midterm night exercises 2026 answers.pdf`.
+
+**BLOCKED — S1 cannot be approved:** 30 selected inventory paths / 29 unique hashes remain untriaged.
