@@ -3414,3 +3414,106 @@ The next evidence-ranked substantive source is the single nine-page Histology `0
 `786c3d2e96fa2c5d3fb34b470bbcb20fadf6182e05d25c72ec43ceca35bcfdd0`.
 
 **BLOCKED — S1 cannot be approved:** 68 selected source paths remain untriaged.
+
+## Completed source — MCQs - Epithelium
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium.pdf` | `786c3d2e96fa2c5d3fb34b470bbcb20fadf6182e05d25c72ec43ceca35bcfdd0` | 9 | substantive-text | pages 1–9 rendered and read | Local question bank titled `Questions for blood cells and epithelium lectures (Dr. Haitham Sewilam)`. No institution, department, sitting, date, official-paper or official-key claim is printed. |
+
+### Visual prompt and key inventory
+
+Pages 1–5 print one continuous **25-item MCQ sequence**. Pages 6–7 print one continuous
+**15-item completion sequence** under `B- Complete the following sentences`. Page 8 prints
+the complete MCQ key and page 9 prints the complete completion-answer list. The exact full
+inventory is therefore **40 complete prompt occurrences / 40 directly printed answer
+occurrences**. There are no numbering gaps, missing answer rows or orphan answers, and no
+answer was inferred.
+
+The ordered MCQ-letter ledger is:
+
+```text
+MCQ 1–25: D A A C D A D B B D C B B D C D A B D B A C B D C
+```
+
+The completion answers are retained in source order as printed:
+
+```text
+B1–B15: Triplets; Merocrine; Little; Stratified squamous non-keratinized; No;
+Apocrine; Basement membrane; Holocrine; Glandular; Mucous; Simple squamous,
+Simple cubical, Simple columnar, Pseudo-stratified columnar ciliated; Zonula
+occludens, Zonula adherens, Desmosomes, Hemidesmosomes, Gap junctions; Basal
+lamina, Reticular lamina; Sensory, Supporting, Stem basal; Columnar - basal oval.
+```
+
+The letters and completion wording are answer evidence only at this local-bank authority.
+They were transcribed without medical or typographical repair, including MCQ 13's printed
+`18 + 2 microtubules`, MCQ 23's printed basophil option, and the source spelling
+`Pseudo-stratified`.
+
+### Source-first assignment, four-search replay, and prior-FHB ledger
+
+`M` identifies the MCQ sequence and `B` the completion sequence. Every row contains exactly
+four independently replayed find-existing phrases.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (exactly four search phrases) | Exact-scope disposition |
+|---|---|---|---|
+| M1 | `D` | Simple-squamous lining of blood vessels (`simple squamous epithelium blood vessels`; `vascular endothelium`; `simple squamous lining vessels`; `endothelium blood vessel lining`) | new; no exact prior-FHB assignment — new addition. |
+| M2 | `A` | Gastric simple-columnar secretory lining (`stomach simple columnar secretory epithelium`; `gastric surface epithelium`; `stomach lining epithelium`; `simple columnar stomach`) | new; no exact prior-FHB assignment — new addition. |
+| M3,M11 | `3 A`; `11 C` | Transitional-epithelium distension and full-bladder layer change (`transitional epithelium distension`; `urinary bladder epithelium layers`; `urothelium full bladder`; `transitional epithelium layer change`) | new; no exact prior-FHB assignment — new addition. |
+| M4,M9 | `4 C`; `9 B` | Tubular exocrine-gland architecture and examples (`tubular exocrine gland classification`; `compound branched tubular gland`; `simple branched tubular gland`; `gastric liver gland architecture`) | pending-hit through the simple-branched-tubular phrase; no exact prior-FHB assignment — pending addition. |
+| M5,M12; B3,B5,B7 | `5 D`; `12 B`; `Little`; `No`; `Basement membrane` | General epithelial characteristics and germ-layer origin (`general characteristics epithelial tissue`; `epithelium three germ layers`; `epithelial tissue little intercellular space`; `epithelium avascular basement membrane`) | new externally; exact prior-FHB general-characteristics assignment — duplicate. |
+| M6 | `A` | Simple-cuboidal lining of renal tubules (`simple cuboidal epithelium renal tubules`; `renal tubule epithelial lining`; `simple cubical epithelium kidney`; `kidney tubules cuboidal cells`) | new; no exact prior-FHB assignment — new addition. |
+| M7,M10 | `7 D`; `10 D` | Pseudostratified ciliated epithelium development and tracheal site (`pseudostratified ciliated columnar epithelium trachea`; `tracheal respiratory epithelium`; `pseudostratified epithelium development crowded cells`; `trachea ciliated epithelium`) | new; prior FHB owns bronchial and uterine-tube sites, not this printed tracheal/developmental scope — new addition. |
+| M8; B14 | `B`; `Sensory, Supporting, Stem basal` | Sensory neuroepithelium site and cell types (`sensory neuroepithelium tongue`; `neuroepithelial cell types`; `taste bud neuroepithelium`; `neuroepithelium sensory supporting basal cells`) | new externally; exact prior-FHB sensory-neuroepithelium assignment — duplicate. |
+| M13,M15 | `13 B`; `15 C` | Ciliary axoneme and basal-body microtubule arrangement (`ciliary axoneme microtubule arrangement`; `cilium basal body 27 microtubules`; `ciliary shaft 9 plus 2`; `motile cilium microtubules`) | new externally; exact prior-FHB ciliary-arrangement assignment — duplicate. |
+| M14; B1 | `D`; `Triplets` | Centriole triplet/27-microtubule arrangement (`centriole nine peripheral triplets`; `centriole 27 microtubules`; `centriole microtubule arrangement`; `centriole triplets`) | new externally; exact prior-FHB centriole-arrangement assignment — duplicate. |
+| M16 | `D` | Anucleate mature erythrocytes (`mature erythrocyte anucleate`; `anucleate red blood cell`; `mature red cell nucleus`; `erythrocyte no nuclei`) | new externally; exact prior-FHB mature-red-cell assignment — duplicate. |
+| M20 | `B` | Normal erythrocyte diameter (`mature erythrocyte diameter`; `red blood cell 6 9 micrometers`; `normal red cell size`; `RBC size diameter`) | new; no exact prior-FHB size assignment — new addition. |
+| M17 | `A` | Platelet alpha-granule fibrinogen content (`platelet alpha granules fibrinogen`; `thrombocyte alpha granules`; `platelet granule fibrinogen`; `alpha granules platelet contents`) | new; prior FHB owns alpha-granule PDGF and dense-granule contents, not this fibrinogen-content scope — new addition. |
+| M18,M22 | `18 B`; `22 C` | Monocyte kidney-shaped nucleus and largest-agranulocyte status (`monocyte kidney shaped nucleus`; `largest agranular leukocyte`; `monocyte morphology size`; `monocyte agranular leukocyte`) | new; prior FHB owns agranular-monocyte classification, not this morphology/relative-size expansion — new addition. |
+| M19,M23 | `19 D`; `23 B` | Granulocyte/agranulocyte classification and nuclear morphology (`granular and agranular leukocytes classification`; `lymphocyte agranular leukocyte`; `basophil bilobed nucleus`; `leukocyte nuclear morphology`) | new; no exact prior-FHB lymphocyte/basophil comparison — new addition. |
+| M21,M24; B12 | `21 A`; `24 D`; five printed junction names | Epithelial-junction types, topology and attachment functions (`epithelial junction types`; `zonula occludens apical belt`; `hemidesmosome basement membrane attachment`; `intercellular junctions epithelium`) | new; prior FHB owns isolated gap/desmosome and apical-junction scopes, not this hemidesmosome/full-classification expansion — new addition. |
+| M25; B2,B6,B8 | `25 C`; `Merocrine`; `Apocrine`; `Holocrine` | Merocrine, apocrine and holocrine secretion mechanisms (`merocrine apocrine holocrine secretion`; `exocrine gland secretion mechanisms`; `salivary gland merocrine`; `apical cell destroyed secretion`) | new; prior FHB owns merocrine and apocrine separately, not the printed three-mode mechanism family — new addition. |
+| B9 | `Glandular` | Glandular epithelium as secretory specialisation (`glandular epithelium secretion`; `glandular epithelial tissue`; `secretory epithelium production`; `glandular epithelium specialization`) | new; no exact prior-FHB assignment — new addition. |
+| B10 | `Mucous` | Mucous-gland viscid, enzyme-poor secretion (`mucous gland viscid secretion`; `mucous cells poor enzymes`; `mucous gland secretion`; `serous versus mucous glands`) | new; no exact prior-FHB assignment — new addition. |
+| B11 | four printed types | Classification of simple epithelia (`types of simple epithelium`; `simple squamous cuboidal columnar pseudostratified`; `simple epithelial classification`; `simple epithelium four types`) | new; no exact prior-FHB classification assignment — new addition. |
+| B13 | `Basal lamina`; `Reticular lamina` | Two-layer composition of basement membrane (`basement membrane basal reticular lamina`; `basement membrane two layers`; `basal lamina reticular lamina`; `epithelial basement membrane composition`) | new; prior FHB owns basal-lamina collagen IV, not this two-layer composition — new addition. |
+| B4,B15 | `Stratified squamous non-keratinized`; `Columnar - basal oval` | Oral non-keratinised stratified-squamous lining and basal-cell morphology (`oral cavity stratified squamous nonkeratinized epithelium`; `mouth lining epithelium`; `stratified squamous basal columnar cells`; `basal layer oval nuclei epithelium`) | new; no exact prior-FHB assignment — new addition. |
+
+All **40 prompt occurrences** are assigned exactly once. They collapse source-first to **22
+handles**, and the query ledger reconciles as **22 × 4 = 88 required searches**. Exact-scope
+source disposition is **0 live / 1 pending / 21 new = 22**.
+
+Five handles exactly reuse prior-FHB scope: general epithelial characteristics, sensory
+neuroepithelium, ciliary arrangement, centriole arrangement, and anucleate mature red cells.
+Seventeen survive: the tubular-gland handle is pending, while the other sixteen are new. The
+post-prior-FHB result is therefore **0 live / 1 pending / 16 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+40
+questions / +40 directly printed answers / +17 concepts = +0 live / +1 pending / +16 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1922 | 1658 | 396 | 66 | 79 | 251 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 79 + 251 = 396`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **67 selected
+inventory paths / 65 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`85c4248a937c59ca45623227f8b92c94e7cc9daa21903994c97e9ff7cee719ae`. Pinned triage debt
+becomes **24 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`41 + 65 = 106`**.
+
+The next evidence-ranked substantive source is the single 48-page Histology `05 MCQs` path
+`Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - FHB 101
+Histology(Cytogenetics part)_BenAhmed_Publish.pdf`, SHA-256
+`220b2abe681b34636c9f888ec2bdf54ec743a0f1328abcc3ef8304de69945664`.
+
+**BLOCKED — S1 cannot be approved:** 67 selected source paths remain untriaged.
