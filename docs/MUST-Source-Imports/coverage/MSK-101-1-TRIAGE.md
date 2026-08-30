@@ -3787,3 +3787,41 @@ Removing the ninety-four processed unique hashes leaves **7 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Arm (by Roaa).pdf`, SHA-256 `70d3f4e4ab8ef7ad06e7f2c175cbb89816705fa7ec7528b1e60f0068017c07c4`, 5 pages.
 
 **BLOCKED — S1 cannot be approved:** 7 selected inventory paths / 7 unique hashes remain untriaged.
+
+## Completed teaching-only source — Muscles Of The Arm (by Roaa)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Arm (by Roaa).pdf` | `70d3f4e4ab8ef7ad06e7f2c175cbb89816705fa7ec7528b1e60f0068017c07c4` | 5 | audit-not-found inventory label | pages 1–5 rendered and read | Filename-attributed Roaa handwritten notes. Metadata title is `Muscles Of The Arm`, creator is `Notes`, and the carrier was produced through iOS 17.5.1 Quartz on 27 October 2024. No visible byline, institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Arm (by Roaa).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+All five pages are fully populated handwritten teaching notes. Pages 1–3 supply labeled profiles of biceps brachii, coracobrachialis and brachialis, including origin, insertion, action and the source-selected nerve or relation details. Page 4 is a fully labeled composite arm-relations diagram showing muscles, arteries, cords, nerves and the bicipital aponeurosis. Page 5 supplies the musculocutaneous nerve's origin, course, branches and distribution.
+
+The exact boundary is **5 teaching-only notebook pages / 3 individual muscle profiles / 1 fully labeled composite arm-relations diagram / 1 nerve profile / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. All labels, arrows and facts are disclosed; there is no hidden label, learner instruction, response space or station direction.
+
+### Authority, source truth and search gate
+
+The filename attributes Roaa and the Notes/iOS Quartz metadata supports production provenance only; no visible byline authenticates the attribution. Nothing in the carrier establishes a MUST/MSK institution, department, examiner, sitting, marks or official assessment key. Handwritten spelling, capitalization and selective anatomy claims remain uncorrected observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Fully labeled teaching diagrams are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-five processed unique hashes leaves **6 selected inventory paths / 6 unique SHA-256s**. Their sorted, newline-joined hash checksum is `76e0ded745276c8778ef4d7ff5d91d4f9710eafbf61004ff69822e4480447c36`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 6 audit-not-found rows, and unique-hash accounting is **`95 + 6 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Back (by Roaa).pdf`, SHA-256 `c54fda8e9fb1d40780ad6de2014395a5d976c60987edb9a209a985dd0977508a`, 7 pages.
+
+**BLOCKED — S1 cannot be approved:** 6 selected inventory paths / 6 unique hashes remain untriaged.
