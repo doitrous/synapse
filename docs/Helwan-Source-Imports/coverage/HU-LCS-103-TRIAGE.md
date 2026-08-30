@@ -7132,3 +7132,146 @@ under `Year 1/LCS 103/Histology/Theoretical/Lec 3 - Bone II/`. Tier-6 and rank-9
 between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 59 — Tier-4 Histology Bone II lecture with two unkeyed self-test MCQs
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_bbe144643b8333dddcc2` |
+| Manifest file / SHA-256 | `bone part 2 RECOED.pdf` / `bbe144643b8333dddcc2b729294e9f091c2089708f382e905c1c7b8b3cf7a669` |
+| File boundary | 4,135,104 bytes · unencrypted PDF · 43 physical OCR-needed pages · 360 × 216 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Theoretical · `Lec 3 - Bone II` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Histology/Theoretical/Lec 3 - Bone II/bone part 2 RECOED.pdf` |
+| Visible provenance | p. 2 prints `BONE PART II`, `DR\HEBA ABD ALRAZAK`, `Lecturer of Histology Helwan University`; p. 42 cites Junqueira's *Basic Histology: Text & Atlas*, 17th edition, by Anthony Mescher |
+| Internal label conflict | The dated footer on p. 41 prints `11 May 2026` and `Module: BMS-101`; it is retained as a source-internal conflict with the LCS-103 manifest/path placement rather than silently normalised |
+| Authority finding | Direct local Helwan-labelled tier-4 teaching lecture under the assigned LCS-103 corpus path. It is not a sitting paper, question bank, practical response form or official answer key. |
+
+The SHA-256, byte size and 43-page boundary were recomputed and match the assigned source.
+All 43 pages were rendered at 180 dpi and visually read with page-level OCR support; all 43
+complete-page renders have distinct SHA-256 values. Pages 1–3 are the devotional opener,
+title/provenance and objectives; pp. 4–40 contain the complete Bone II lecture; p. 41 is one
+`TEST YOUR SELF` slide with two multiple-choice prompts, p. 42 is the reference slide, and
+p. 43 is the closing slide.
+
+The p. 3 verbs are learning objectives rather than response tasks. The numbered sequences,
+lists, comparison table, diagrams, arrows and micrographs on pp. 4–40 are simultaneous
+declarative teaching. Three images nevertheless contain **24 unresolved teaching-indicator
+occurrences**: p. 14 has six numbered labels (`1`–`6`) without a legend; p. 36 has fourteen
+unexpanded abbreviation occurrences (`ZRC`, `ZP`, `ZH`, `ZCC`, `ZR`, `M`, two `EB`, two
+`CC`, `BM`, `Ocl`, `Ob`, `Oc`); and p. 38 has four unlabelled blue arrows. The ten p. 27
+stage numbers and the p. 28/p. 35 panel letters are explicit sequence identifiers, not
+unresolved structure labels. Page 41 alone contains learner-facing questions. No
+correctness mark, answer letter or later reveal is printed, so neither option implied by the
+preceding lesson is promoted into a key.
+
+### Complete teaching-composition and assessment-boundary inventory
+
+| Physical pages | Source-first instructional composition | Teaching occurrences | Ordinary prompts | Printed keys |
+|---:|---|---:|---:|---:|
+| 4 | axial/appendicular skeletal division, component groups and bone counts | 1 | 0 | 0 |
+| 5–8 | bone characters/components plus anatomical shape classification | 4 | 0 | 0 |
+| 9–13 | compact-bone sites, coverings, circumferential/interstitial lamellae, osteons and canals | 5 | 0 | 0 |
+| 14–21 | compact-bone diagrams and source-distinct LM/ground-section teaching micrographs | 8 | 0 | 0 |
+| 22–25 | spongy-bone architecture, mature/immature forms and compact/spongy comparison | 4 | 0 | 0 |
+| 26–30 | intramembranous/endochondral routes, long-bone centre sequence and formation diagrams/micrographs | 5 | 0 | 0 |
+| 31–35 | epiphyseal-cartilage zones, longitudinal remodelling and cutting/closing-cone remodelling | 5 | 0 | 0 |
+| 36–40 | growth-plate/endochondral histology diagrams and micrographs | 5 | 0 | 0 |
+| 41 | two `TEST YOUR SELF` MCQs | 0 | 2 | 0 |
+| **Total** | **complete content boundary** | **37** | **2** | **0** |
+
+The **37 teaching-page occurrences are 37 source-distinct instructional compositions**.
+Complete-render SHA-256 and semantic comparison found no full-page copy to collapse. The
+source boundary is therefore **37 teaching compositions / 2 ordinary MCQs / 0 printed keys /
+0 practical or station prompts / 0 response blanks / 0 masked assessment callouts / 24
+unresolved teaching indicators**. As theoretical material, it adds **0 practical plates, 0
+practical mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 41 first MCQ → `intramembranous-ossification-terminal-product` | intramembranous ossification terminal product; end replacement intramembranous bone; compact versus spongy intramembranous result; what does intramembranous ossification give | pending bone-ossification material owns the route and remodelling outcome; accepted Family-13 direct-formation handle owns the route but not this terminal-product discriminator | pending; new to eligible LCS |
+| p. 41 second MCQ → `osteon-haversian-system-compact-bone-unit` | structural unit compact bone; Haversian system osteon; Haversian canal versus system; compact bone structural unit MCQ | live `ART-MSK-TOP-3E60C20647` owns the Haversian/osteon unit; exact accepted Family-13 Q4/Q40/Q47 handle owns this tested objective | live; prior eligible-LCS reuse; inherited live; tested-concept delta +0 |
+
+The two occurrences are two source-distinct question records. Tested-handle collapse is `2
+handles - 1 prior eligible handle = 1 new concept`. All **2 × 4 = 8** required assessment
+searches completed across live state, pending state, all source-import roots and accepted
+prior LCS. Assessment disposition is **0 live delta / 1 pending delta / 0 new delta** because
+the live osteon handle is inherited rather than added. The source's option wording is
+preserved without inferring either answer.
+
+### Source-first theoretical scopes, searches and prior-LCS adjudication
+
+The 37 teaching compositions consolidate to fifteen source-level theoretical scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `axial-appendicular-skeleton-divisions-and-bone-counts` · p. 4 | axial skeleton 80 bones; appendicular skeleton 126 bones; human skeleton 206 bones divisions; skull vertebral thoracic girdle limb counts | no substantive direct record or accepted prior-LCS complete scope owns the division/count map — additive theoretical scope |
+| `bone-general-characters-components-and-matrix` · pp. 5–6 | bone solid vascular connective tissue; bone cells fibers matrix components; type I V collagen bone; calcium phosphate carbonate citrate matrix | pending bone-matrix material owns the complete composition; accepted Families 13 and 58 own the same core — prior LCS reuse |
+| `bone-anatomical-shape-classification` · pp. 7–8 | long short flat irregular bones; sesamoid sutural bone classification; bone classification according shape; femur carpal vertebra skull examples | pending bone-classification material owns shapes/examples; accepted Family-58 shape-classification scope owns the same core — prior LCS reuse |
+| `compact-bone-coverings-and-lamellar-components` · pp. 9, 13 | compact bone periosteum endosteum; external internal circumferential lamellae; interstitial lamellae osteocytes lacunae; compact bone marrow cavity lining | pending compact-bone/covering material owns all components; accepted Families 13, 55 and 58 jointly own the core — prior LCS reuse |
+| `osteon-haversian-volkmann-lacuna-canaliculi-architecture` · pp. 10–12, 14–21 | osteon Haversian canal concentric lamellae; Volkmann canals connect osteons; osteocyte lacuna canaliculi ground bone; compact bone histology identification | live osteon and pending compact-bone material jointly own the architecture; accepted Families 13, 55 and 58 own the same core — prior LCS reuse |
+| `spongy-bone-sites-trabeculae-marrow-and-no-osteons` · pp. 22–23 | spongy bone sites epiphysis flat short irregular; trabeculae marrow cavities histology; cancellous bone no Haversian systems; spongy bone periosteum endosteum | pending compact/spongy material owns the full relation; accepted Families 13, 55 and 58 own the core — prior LCS reuse |
+| `mature-lamellar-versus-immature-woven-bone` · p. 24 | mature lamellar bone; immature woven bone; mature compact spongy classification; woven versus lamellar histology | no substantive direct record or accepted prior-LCS complete scope owns this mature/immature comparison — additive theoretical scope |
+| `compact-versus-spongy-histological-comparison` · p. 25 | compact spongy bone site appearance arrangement; ivory cortical versus cancellous; Haversian systems versus trabeculae; compact spongy histology table | pending compact/spongy material owns the comparison; accepted Families 13 and 58 own the same core — prior LCS reuse |
+| `intramembranous-versus-endochondral-route-and-sites` · pp. 26, 37 | intramembranous versus endochondral ossification; direct bone no cartilage precursor; cartilage model bone formation; flat skull clavicle versus extremity bone | pending ossification material owns routes/sites; accepted Family-13 route handles and Family-55 ossification scope own the core — prior LCS reuse |
+| `endochondral-primary-secondary-centre-sequence` · p. 27 | endochondral ossification primary secondary centers; bony collar diaphysis epiphysis sequence; epiphyseal growth plate line; cartilage model long bone stages | pending ossification material owns the centre sequence; accepted Families 13, 47 and 55 jointly own the core — prior LCS reuse |
+| `intramembranous-ossification-cell-and-matrix-sequence` · pp. 28–30 | intramembranous ossification mesenchymal center; osteoprogenitor osteoblast osteoid osteocyte; woven trabeculae periosteum compact plate; direct bone formation histology | pending ossification material owns the cellular sequence; accepted Family-13 direct-formation handle and Family-55 route scope own the core — prior LCS reuse |
+| `endochondral-epiphyseal-cartilage-zones-and-changes` · pp. 31–33 | epiphyseal cartilage resting proliferation hypertrophy; calcification invasion ossification zones; growth plate ordered zone changes; osteoclast vascular bud cartilage collar | pending ossification material owns the ordered changes; exact accepted Family-13 zone handle and Family-55 five-zone scope own the core — prior LCS reuse |
+| `epiphyseal-growth-length-and-remodelling` · p. 34 | epiphyseal plate longitudinal growth; bone addition resorption remodeling; epiphysis growth cartilage; long bone length growth plate | pending ossification material owns growth/remodelling; accepted Family-13 length/remodelling handles own the same core — prior LCS reuse |
+| `compact-bone-remodelling-cutting-and-closing-cones` · p. 35 | compact bone cutting cone closing cone; osteoclast cutting cone osteoblast closing cone; growth reversal lines osteon; secondary osteon remodeling sequence | no substantive direct record or accepted prior-LCS complete scope owns the cone/reversal-line sequence — additive theoretical scope |
+| `growth-plate-zone-histology-identification` · pp. 36, 38–40 | growth plate zone histology identification; reserve proliferation hypertrophy calcification resorption; endochondral ossification micrograph; epiphyseal plate abbreviated zones | pending ossification material owns the practical morphology; accepted Family-13 zone handle and Family-55 epiphyseal practical scope own the core — prior LCS reuse |
+
+All **15 × 4 = 60** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **1 live / 11 pending / 3 new**. Exact accepted-
+prior comparison prevents twelve repeated module additions, leaving **twelve prior-LCS
+reuses / three additive theoretical scopes**. Together with the assessment handles, Family
+59 completed **68 required searches**. Declarative teaching scopes do not enter the eligible
+tested-concept count, and no theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 59 | Family 59 delta | After Family 59 |
+|---|---:|---:|---:|
+| Eligible observed question records | 512 | +2 | 514 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 247 | +1 | 248 |
+| Question live / pending / new | 9 / 83 / 155 | +0 / +1 / +0 | 9 / 84 / 155 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 387 verified minimum | +0 | 387 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,423 verified minimum | +0 | 2,423 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 135 | +0 | 135 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 73 | +0 / +0 / +0 | 0 / 0 / 73 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `43 = 5 framing/reference/closing pages + 37
+teaching compositions + 1 assessment page`, `37 = 1 + 4 + 5 + 8 + 4 + 5 + 5 + 5`,
+`24 = 6 + 14 + 4 unresolved teaching indicators`, `2 = 2 prompts - 0 repeated source
+occurrences`, `1 = 2 tested handles - 1 prior eligible handle`, `514 = 512 + 2`, `264 =
+264 + 0`, `248 = 247 + 1`, `9 + 84 + 155 = 248`, `387 + 0 = 387`, `2,423 + 0 =
+2,423`, `135 + 0 = 135`, and `73 + 0 = 73`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-58
+remainder leaves **17 rank-4/rank-5 path instances / 15 unique hashes**. The Family-58
+method was reproduced first: its 18/16 row sets recomputed to
+`1e804e4d469f96b798af573a12821abc0139c2bf72ac258c5ecf1b6060866e38` and
+`9ac9d209783727ed541fa2ba2d9b43b2b6b56d4e51adfa41410615eb14277f10`.
+For the exact post-Family-59 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1544b5b078fcf1b5b04d31f1fabba5d07a2a1bd79850d05237eebadf6f559749`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`88e4f14504f52bc75bb1b9e02c941abdb60f7045e22f33e4a83a4263cc4ad259`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Histology theoretical source
+`src_c7b80e456abfe93b686e`, `muscle tissue 1 HELWAN record - Copy.pdf` (2,320,116 bytes;
+47 OCR-needed pages; SHA-256
+`c7b80e456abfe93b686e7d8b4c8341b8ea970b3476da61f43f5d114473a5199a`)
+under `Year 1/LCS 103/Histology/Theoretical/Lec 4 - Skeletal Muscles I/`. The exact
+manifest-named next path is absent locally, but the organised filename without ` - Copy`
+recomputes to that assigned hash and byte size. Tier-6 and rank-9 source debts between
+rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains incomplete.
+No download, ID, content record, catalogue update, import or source copy was created.
