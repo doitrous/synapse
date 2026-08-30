@@ -2279,3 +2279,40 @@ Removing the fifty-eight processed unique hashes leaves **44 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Midterm anatomy msk 2026.pdf`, SHA-256 `9bec4ac1744857b7b7c9def17233b243eacb320575eb276ead57cbe2a4b7e8aa`, 13 pages.
 
 **BLOCKED — S1 cannot be approved:** 44 selected inventory paths / 43 unique hashes remain untriaged.
+
+## Completed source — Midterm anatomy msk 2026
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Midterm anatomy msk 2026.pdf` | `9bec4ac1744857b7b7c9def17233b243eacb320575eb276ead57cbe2a4b7e8aa` | 13 | substantive-text audit sample | pages 1–13 rendered and read | Muhammad Haitham Muhammad Ibrahim student study notes created in Microsoft Word on 23 October 2025. The filename's `2026` and `Midterm` labels are unsupported by the earlier metadata and visible pages: no institution, department, examiner, sitting, marks or official-key claim appears. Page 11 explicitly tells the reader to study in case the topic appears in the exam, reinforcing revision-note rather than exam authority. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Midterm anatomy msk 2026.pdf" purpose="source"}
+
+### Exact teaching, assessment, written, practical and image boundary
+
+All 13 pages are teaching/revision material. They present explanatory prose, bullet lists, anatomical tables and labelled teaching figures; none asks a question, provides a response space, labels a station, assigns marks or directs the reader to identify an image structure.
+
+| Pages | Teaching scope | Teaching pages | Prompt observations | Answer observations | Practical/image-identification |
+|---|---|---:|---:|---:|---:|
+| 1–2 | Pectoral muscles, fascia and deltopectoral groove | 2 | 0 | 0 | 0 |
+| 3–7 | Scapular/back muscles and serratus-anterior clinical note | 5 | 0 | 0 | 0 |
+| 8 | Axilla boundaries and contents | 1 | 0 | 0 | 0 |
+| 9–11 | Axillary artery, branches and anastomoses | 3 | 0 | 0 | 0 |
+| 12–13 | Brachial plexus and upper/lower-trunk lesions | 2 | 0 | 0 | 0 |
+| **Total** | **Teaching/revision only** | **13** | **0** | **0** | **0** |
+
+There are **0 MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 source-unkeyed assessment prompts**. The figures remain teaching illustrations and do not create prompt observations.
+
+### Source-first gate and completed-source delta
+
+Because no assessment handle exists, source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**. The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**; cumulative totals remain **6002 questions / 5819 answer-bearing observations / 36 concepts**, split 0 live / 1 pending / 35 new.
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty-nine processed unique hashes leaves **43 selected inventory paths / 42 unique SHA-256s**. Their sorted, newline-joined hash checksum is `42a89dd175bc93b52445aab789c12103045b43a4c934a43eeabcbaa232c67fee`. Remaining audit-review debt is 17 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 2 audit-extract-failed rows, and unique-hash accounting is **`59 + 42 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Questions 101 midterm exercise.pdf`, SHA-256 `ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b`, 12 pages.
+
+**BLOCKED — S1 cannot be approved:** 43 selected inventory paths / 42 unique hashes remain untriaged.
