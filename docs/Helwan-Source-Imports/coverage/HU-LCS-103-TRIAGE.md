@@ -13886,3 +13886,114 @@ pages; SHA-256 `a85567aad749bd2ef5b3c55ed20eef9d8cd3833ccf402463e1b9615bfb3bdd3a
 It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 107 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 124 — Tier-3 external Gray's Anatomy lower-limb review chapter with keyed image-dependent MCQs
+
+### Exact identity, authority and complete source boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_a85567aad749bd2ef5b3` / `a85567aad749bd2ef5b3c55ed20eef9d8cd3833ccf402463e1b9615bfb3bdd3a` |
+| File / boundary | `MCQs - External MCQs Gray's anatomy Lower limb mcq.pdf` · 1,476,983 bytes · untagged, unencrypted PDF 1.5 · 36 physical 612 × 783 pt native-text pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Gray's anatomy Lower limb mcq.pdf` |
+| Visible / metadata authority | Running `LOWER LIMB`, chapter number `5`, printed book pages 133–168 and `GAS`/`GA` answer references identify a textbook-review chapter. The filename explicitly calls it external; neither the pages nor metadata supply Helwan, LCS-103, cohort, exam, year or sitting authority. iText 5.4.1 metadata dates the container 3 March 2020 but does not establish a sitting. |
+
+The assigned SHA-256, byte size, native-text status and 36-page boundary were recomputed
+and match. All 36 pages were rendered at 120 dpi and visually read at full resolution in
+order. Physical pp. 1–18 contain Q1–Q110; the `ANSWERS` section begins beneath Q109–Q110
+on p. 18 with keys Q1–Q3, and pp. 19–36 continue through Q110. A native-text answer-token
+audit finds every integer Q1–Q110 exactly once and no duplicate or omitted answer number.
+The exact source boundary is therefore **110 external MCQ occurrences / 110 printed keys /
+0 unkeyed occurrences / 0 written prompts**. Explanations and the `GAS`/`GA` citations are
+answer rationales, not second prompts or standalone teaching scopes.
+
+Source wording and printed key states are preserved without medical or editorial repair.
+For example, Q71 includes `Femoral nerve entrapment` in the option set while its explanation
+rejects it; Q105's printed explanation states that rectus femoris performs hip extension;
+and Q109's explanation places the femoral nerve in the lateral compartment of the femoral
+sheath. These and the source's alternating `fibular (peroneal)` terminology remain evidence
+anomalies and are not silently corrected.
+
+### Exact assessment–practical image boundary
+
+Thirteen MCQs require interpretation or localization from a supplied figure. They remain
+part of the 110-question assessment inventory and also count as practical prompts; their
+printed answer rows are practical keys. They are assessment figures, not simultaneous
+teaching plates, and contain no masked label, response field or learner-completed mapping.
+
+| Question(s) / figure(s) | Supplied image evidence | Practical disposition |
+|---|---|---|
+| Q4 / Fig. 5-1 | clinical foot-drop photograph | 1 image-dependent practical MCQ; 1 printed key |
+| Q23, Q64, Q90 / Figs. 5-2, 5-4, 5-11 | hip, knee and patellar radiographs | 3 image-dependent practical MCQs; 3 printed keys |
+| Q42 / Fig. 5-3 | sectional image with an arrow | 1 image-dependent practical MCQ; 1 printed key |
+| Q68, Q69, Q77, Q80 / Figs. 5-5, 5-6, 5-9, 5-10 | clinical photographs of foot deformities, knee swelling and flat foot | 4 image-dependent practical MCQs; 4 printed keys |
+| Q72, Q75, Q92 / Figs. 5-7, 5-8, 5-13 | femoral-head, foot/ankle and meniscal MR images | 3 image-dependent practical MCQs; 3 printed keys |
+| Q91 / Fig. 5-12 | femoral-puncture landmark photograph | 1 image-dependent practical MCQ; 1 printed key |
+| **Total** | **13 distinct supplied figures supporting 13 of the 110 MCQs** | **13 practical prompts / 13 practical keys / 0 teaching plates / 0 mappings / 0 residues** |
+
+All other question vignettes are prose-only. The answer explanations do not turn the images
+into separate teaching-plate occurrences, and arrows or radiographic side/presentation marks
+are not inferred as mappings. Teaching-scope delta is exactly zero.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 110 occurrences collapse to **29 source-distinct tested handles**: lumbosacral-root and
+sciatic localization; gluteal nerves and Trendelenburg mechanics; fibular-nerve lesions and
+foot drop; tibial-nerve lesions and the ankle reflex; obturator nerve and adduction;
+lower-limb cutaneous territories; plantar nerves and intrinsic foot muscles; gluteal/perineal
+injections and blocks; piriformis and gluteal-crush syndromes; lower-limb reflex roots;
+femoral triangle/sheath/canal and vascular access; gluteal landmarks and sciatic foramina;
+thigh muscle actions and attachments; popliteal-fossa boundaries/contents; leg compartments
+and retinacula; foot tendons and sole relations; lower-limb lymphatic drainage; lower-limb
+arteries/collaterals/pulses; femoral-head and talar blood supply; lower-limb veins and
+saphenous grafting; hip ligaments/dislocation/stability; knee ligaments/menisci/drawer tests;
+patella/bursae/patellofemoral mechanics; ankle ligaments/sprains/fractures; foot arches and
+supporting ligaments; lower-limb bony landmarks/fractures; developmental/angular lower-limb
+deformities; forefoot/toe deformities; and plantar-fascia/neuroma/tarsal syndromes. Each
+question occurrence is assigned once to one handle; the thirteen figure-bearing questions
+do not create second concept handles.
+
+Each accepted handle received exactly one fresh search in the live, pending/import-ready,
+prior source-import and accepted-LCS surfaces: **29 × 4 = 116 required search invocations**.
+Prior-external-first comparison finds all 29 already represented across the lower-limb banks
+in Families 86, 88, 94, 103 and 113–123. Accepted Families 39–48 independently corroborate
+the curricular anatomy but cannot promote this external textbook bank into eligible Helwan
+evidence. Reconciliation is **29 prior-external reuses + 0 external additions = 29**; both
+eligible and external concept-state deltas are zero. Exact query and result ledgers are
+preserved at `tmp/pdfs/lcs103-family124/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family124/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **4,821 / 4,673 / 221 = 12 / 135 / 74** to **4,931 external prompts / 4,783
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `4,821 + 110 = 4,931`, `4,673 + 110 = 4,783`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`.
+
+Practical totals change from **7 prompts / 458 plates / 2,691 mappings / 149 residues / 0
+keys** to **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13 keys**. Arithmetic
+is `7 + 13 = 20`, `458 + 0 = 458`, `2,691 + 0 = 2,691`, `149 + 0 = 149`, and
+`0 + 13 = 13`; practical teaching scopes remain **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-123 remainder. Removing its sole path leaves
+**106 all-rank path instances / 98 unique hashes**: tier 3 **24 paths / 21 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 123's prior checksums are
+`dce8827e44dccdba6ba4dd11b26da5cebd0c934fe91c013ce676c8597a4b2e9c` (paths) and
+`4f662f3f271f74528019b68b4b21308626afe1c88e5aa013568cac9916586949` (unique hashes).
+For the exact post-Family-124 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`facbc38ffe2ed100c9b57e4b62158c1cd4ef7a93f3561f79b0bb683f1f0ad5ba`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`2fbbeead9a264e85dc0eb6ca120eb7a829a33cdb00c143e10901d19464c85097`.
+
+The exact next tier-3 manifest-order debt is `src_800269da3bca93e7a200`,
+`MCQs - External MCQs HEAD & NECK.doc` (98,304 bytes; legacy native-DOC source with no
+manifest page count; SHA-256
+`800269da3bca93e7a200ada181777a9ba74f506dcc506373408e9e2b044688a6`). It remains
+unclassified until its native document body and complete rendered boundary are read.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 106 tier-3/tier-6/rank-9 path
+debts remain. No download, ID, content record, catalogue update, import or source copy was
+created.
