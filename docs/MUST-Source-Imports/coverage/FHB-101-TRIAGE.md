@@ -5499,3 +5499,60 @@ Removing this one substantive-text path and unique hash leaves **34 selected inv
 The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Cytology MCQ Dr.Abdelwahab.pdf`, SHA-256 `a6de213a3876866fe421224a4c1ee0d9998f40beccb13d648b0f29fbfe9d303c`, 48 pages.
 
 **BLOCKED — S1 cannot be approved:** 34 selected source paths remain untriaged.
+
+## Completed source — Cytology MCQ Dr.Abdelwahab
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Cytology MCQ Dr.Abdelwahab.pdf` | `a6de213a3876866fe421224a4c1ee0d9998f40beccb13d648b0f29fbfe9d303c` | 48 | empty-text image scan | pages 1–48 rendered and read | CamScanner-produced booklet headed `HISTOLOGY CYTOLOGY` and branded `DR ABDEL WAHAB`; its contents page calls it `HISTOLOGY module 101` and separates a department-book bank, four year-labelled exam extracts and an extra-question bank. It prints no institution, sitting metadata, marks or official-exam claim. It is an instructor-authored FHB101 cytology revision compilation, not a single official MUST examination. |
+
+### Exact prompt, key and teaching boundary
+
+Page 1 is the cover and page 2 the contents. Pages 3–9 contain Department Book Q1–Q55 with complete per-page answer boxes. Page 10 contains eight keyed problem-solving MCQs. Pages 11–12 contain five matching tables with five Column-A items each and complete answer boxes, giving 25 keyed matching prompts. Pages 13–19 contain four separately labelled historical-exam extracts: 2019 Q1–Q9, 2020 Q1–Q11, 2021 Q1–Q16 and 2022 Q1–Q16. These **52 exam-extract MCQs have no printed answer key anywhere in the source**. Pages 20–48 contain the Extra Question bank: 229 observed MCQ occurrences and 229 printed prompt-matched footer answers. Its nominal labels run to Q230, but the source duplicates/misaligns labels around Q75/Q80 and omits/misaligns labels before Q130; the count uses observed prompt blocks rather than silently treating the nominal maximum as 230.
+
+The exact source boundary is therefore **369 prompt occurrences / 317 printed keys / 317 prompt-matched recovered answers**: `55 + 8 + 25 + 52 + 229 = 369` prompts and `55 + 8 + 25 + 229 = 317` answers. There is no practical-image identification, written/essay prompt, answer exposition or teaching-only passage. No key was inferred for the 52 unkeyed exam-extract prompts, and no printed answer was corrected despite several obvious numbering/content defects in the extra-bank footers.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 369 prompt occurrences were assigned once in the source-first inventory to the 18 handles below. `D`, `P`, `M`, `E19`–`E22` and `X` denote the Department Book, problem-solving, matching, four year-labelled exam extracts and Extra Question sections. Each handle received the four recorded searches, for **18 × 4 = 72 searches**. The scopes are topic-defined cross-section anchors because the 229-item extra bank repeats the same facts many times; a prompt mentioning multiple structures remains owned by its primary tested proposition.
+
+| Printed scope | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Membrane-focused D/E/X occurrences | Plasma-membrane structure, cholesterol, glycocalyx and selective permeability (`cell membrane glycocalyx selective permeability`; `plasma membrane phospholipid cholesterol`; `cell coat recognition adhesion`; `membrane histochemical staining`) | new externally; exact prior-FHB membrane/glycocalyx reuse. |
+| Vesicular-transport D/E/X occurrences | Pinocytosis, phagocytosis, exocytosis and clathrin-coated receptor uptake (`receptor mediated endocytosis clathrin`; `pinocytosis phagocytosis exocytosis`; `clathrin coated pits LDL`; `vesicular bulk transport`) | pending-hit; exact prior-FHB vesicular-transport reuse. |
+| Mitochondrial D/P/E/X occurrences | Mitochondrial structure, genome, cristae, ATP and Krebs-cycle functions (`mitochondria ATP cristae`; `mitochondrial matrix Krebs cycle`; `mitochondrial self replication DNA`; `mitochondrial dysfunction myopathy`) | new externally; exact prior-FHB mitochondrial reuse. |
+| rER/ribosome D/E/X occurrences | Rough ER, ribophorins, polysomes and secretory-protein synthesis (`rough ER ribophorin ribosomes`; `secretory protein synthesis RER`; `polyribosome mRNA`; `cytoplasmic basophilia rough ER`) | pending-hit; exact prior-FHB rough-ER/ribosome reuse. |
+| sER D/P/E/X occurrences | Smooth-ER lipid/steroid synthesis, drug detoxification, calcium storage and glycogen metabolism (`smooth ER steroid lipid synthesis`; `smooth ER detoxification drugs`; `sarcoplasmic reticulum calcium storage`; `smooth ER glycogen metabolism`) | new externally; exact prior-FHB smooth-ER reuse. |
+| Golgi D/P/E/X occurrences | Golgi polarity, silver staining, protein modification/packaging and lysosome/vesicle production (`Golgi apparatus packaging secretion`; `Golgi glycosylation proteins`; `Golgi silver stain negative image`; `Golgi lysosome vesicle budding`) | new externally; exact prior-FHB Golgi reuse. |
+| Lysosomal D/P/M/E/X occurrences | Primary/secondary lysosomes, hydrolysis, autophagy, multivesicular and residual bodies (`lysosome hydrolytic enzymes digestion`; `autophagy residual bodies`; `heterolysosome multivesicular body`; `lysosomal storage clinical`) | pending-hit; exact prior-FHB lysosome reuse. |
+| Peroxisomal D/P/M/E/X occurrences | Catalase, hydrogen-peroxide handling, fatty-acid oxidation and peroxisomal biogenesis (`peroxisome catalase hydrogen peroxide`; `peroxisomal fatty acid oxidation`; `peroxisomal enzymes free ribosomes`; `peroxisome biogenesis endoplasmic reticulum`) | new externally; exact prior-FHB peroxisome reuse. |
+| Centrosome/cytokinesis D/P/E/X occurrences | Centrioles, microtubules, mitotic spindle, chromosome movement and contractile ring (`centriole nine triplet microtubules`; `mitotic spindle centrosome`; `microtubule chromosome movement`; `contractile ring cytokinesis actin`) | pending-hit; exact prior-FHB centriole/cytoskeleton reuse. |
+| Ciliary D/P/M/E/X occurrences | Axoneme/basal-body organisation, ciliary motion and immotile-cilia presentation (`cilia axoneme basal body`; `immotile cilia respiratory infection`; `cilium 9 plus 2 microtubules`; `cilia movement epithelial surface`) | new externally; exact prior-FHB ciliary reuse. |
+| Actin-specialisation D/E/X occurrences | Microvilli, stereocilia, absorptive surface and actin/myosin contraction (`microvilli actin absorption`; `stereocilia actin filaments`; `microvilli surface area`; `actin myosin muscle contraction`) | pending-hit; exact prior-FHB actin/surface-specialisation reuse. |
+| Intermediate-filament P/M/E/X occurrences | Cytokeratin, desmin, neuro/glial filaments, lamins and mechanical support (`intermediate filaments cytokeratin desmin`; `neurofilament glial filament tumor origin`; `nuclear lamins intermediate filaments`; `intermediate filaments mechanical stress`) | new externally; exact prior-FHB intermediate-filament reuse. |
+| Nuclear-envelope D/M/E/X occurrences | Nuclear envelope, pores, lamina and rough-ER continuity (`nuclear envelope pores transport`; `nuclear lamina structural support`; `outer nuclear membrane rough ER`; `nuclear pore RNA protein transport`) | new externally; exact prior-FHB nuclear-envelope reuse. |
+| Chromatin D/E/X occurrences | Euchromatin/heterochromatin activity, peripheral chromatin and chromatin islands (`euchromatin heterochromatin`; `chromatin islands peripheral chromatin`; `active lightly stained chromatin`; `inactive condensed chromatin`) | new externally; exact prior-FHB chromatin-state reuse. |
+| Nucleolar D/M/E/X occurrences | Nucleolar organiser, pars amorpha/fibrosa/granulosa and rRNA/ribosomal-subunit formation (`nucleolus rRNA synthesis`; `pars fibrosa granulosa amorpha`; `ribosomal subunits nucleolus`; `nucleolar organizer rRNA`) | new externally; exact prior-FHB nucleolar reuse. |
+| Inclusion/stain D/M/E/X occurrences | Glycogen/lipid inclusions, lipofuscin and organelle-specific histochemical stains (`glycogen lipid cell inclusions`; `PAS glycogen Sudan fat`; `lipofuscin endogenous pigment`; `iron hematoxylin mitochondria centrioles`) | new externally; exact prior-FHB inclusion/pigment/histochemistry reuse. |
+| Clinical P/E/X occurrences | Antimitotic chemotherapy, tumour intermediate-filament typing and organelle-dysfunction vignettes (`chemotherapy microtubules proteasome`; `organelle dysfunction clinical vignette`; `tumor intermediate filament typing`; `peroxisomal disease fatty liver kidney`) | new externally; exact prior-FHB cytology-clinical reuse. |
+| Classification D/E/X occurrences | Membranous/non-membranous organelles and organelle genome/self-replication distinctions (`membranous nonmembranous organelles`; `cytoplasmic organelle classification`; `organelle own DNA self replicate`; `organelle histology structure function`) | new externally; exact prior-FHB organelle-classification reuse. |
+
+The source-level search split is **0 live / 6 pending / 12 new = 18 handles**. Every handle reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+369 questions / +317 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 6244 | 5884 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **33 selected inventory paths / 33 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `fb30f5868792b6937fb9fc2bb4c61220eb62abf9951b73c43fc1da1ab101ac63`. Pinned triage debt becomes **six substantive-text / five sparse-text / 22 empty-text** rows, and unique-hash accounting is **`73 + 33 = 106`**.
+
+The next evidence-ranked instructor-authored source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/QUESTION ON CYTOLOGY by DR.KANDEEL.pdf`, SHA-256 `f23b50418ba1fb9d14494eda1db6c11f5e9d8c9d8e0e0bb4e97dae764b1d5333`, 21 pages.
+
+**BLOCKED — S1 cannot be approved:** 33 selected source paths remain untriaged.
