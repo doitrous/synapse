@@ -8986,3 +8986,77 @@ intrinsic/anti-apoptotic pathway note with the full Family-80 extrinsic graphic 
 thumbnail. Its complete teaching/prompt/answer and annotation boundary, provenance/timestamp
 limitation, exact embedded-image dedupe, and overlap with Family 74/prior BMS evidence are the
 next-source blockers.
+
+## Family 81 — intrinsic/anti-apoptotic pathway composite screenshot
+
+### Source identity, original-image boundary, provenance, and embedded reuse
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_137afe5ab69edebd4f9d` · `2026-07-20 06.14.47.jpg` |
+| SHA-256 / size | `137afe5ab69edebd4f9d7d70974e290ab7b9e23de5fc1c351528fe5ee48e6b81` · 100,971 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 904×1280 portrait JPEG; opened and read at original resolution |
+| Visible source identity | Large hand-drawn intrinsic/anti-apoptotic map plus a reduced `Extrinsic` inset; no institution, module, author, instructor, date, assessment label, or key designation |
+| Embedded date metadata | None recovered; the filename/manifest timestamp is non-authoritative |
+
+The large map teaches anti-apoptotic Bcl-2/Bcl-XL control of the intrinsic pathway. Reduced
+Bcl-2 permits Bax/Bak, mitochondrial cytochrome-c release, caspase activation, and apoptosis;
+increased anti-apoptotic activity suppresses Bax/Bak, cytochrome c, and caspase. The small
+`Extrinsic` inset is a reduced embedding of the entire Family-80 image: its T-lymphocyte,
+Fas/TNF, adaptor, caspase, bleb, apoptotic-body, and no-inflammation nodes match visually.
+That inset is exact reused teaching and is not inventoried a second time.
+
+The next manifest image, `2026-07-20 06.15.42.jpg`, changes to a photographed handwritten
+inflammation-mediator table and does not continue this unnumbered pathway. Filename order is
+capture order only; it cannot establish authorship, teaching date, or sitting year.
+
+### Teaching, annotation, overlap, and zero gate
+
+Arrows, circled step numbers, plus/minus symbols, and crossed-out Bax/Bak, cytochrome-c, and
+caspase labels encode activation or suppression within the completed mechanism. They are
+teaching notation, not selected answers or corrected student responses. The faint `intrinsic`
+and explicit `Extrinsic` labels separate the two pathways.
+
+There is no stem, command, blank, option set, response frame, audience question, prompt-like
+residue, or answer register. The new intrinsic map overlaps Family-74 apoptosis teaching and
+prior BMS apoptosis handles; the inset repeats Family 80. Neither relationship creates new
+assessment evidence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 81 | Auxiliary cumulative (Families 12–81) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 81 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 81
+
+`src_137afe5ab69edebd4f9d` is exhausted: every large-map step, activation/inhibition mark,
+cross-out convention, embedded Family-80 region, prompt absence, adjacent-topic break,
+Family-74/prior-BMS overlap, timestamp limitation, zero search gate, and unchanged arithmetic
+is assigned once, with **zero source remainder** and no Family-81 blocker. The exact next
+manifest-ordered BMS-102 record is tier-6 `src_dbefa7bcb2269e25fe68` ·
+`2026-07-20 06.15.42.jpg`, SHA-256
+`dbefa7bcb2269e25fe68278d5e65c0e29493148d385dd75fcd7500036ab15249`, 179,552 bytes,
+one 1280×897 JPEG under `Pathology / Notes and Summaries`. It is a photographed handwritten
+table of cellular and plasma inflammation mediators, origins, and effects, not a visible
+continuation of Family 81. Its full teaching/prompt/answer and annotation boundary,
+provenance/timestamp limitation, relationship to adjacent images, and overlap with prior
+BMS-102 inflammation evidence are the next-source blockers.
