@@ -11979,3 +11979,84 @@ record is tier-6 `src_ed72d8cf9f92d82b13b0` · `Patho microscope_260705_152630.p
 landscape pages under `Pathology / Notes and Summaries`. Its complete render/OCR reality,
 filename timestamp limitation, visible provenance, microscopy teaching versus identification-
 prompt/key boundary, and prior-source reuse are the exact next-source blockers.
+
+## Family 113 — labelled pathology microscopy photograph set
+
+### Source identity, complete render/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_ed72d8cf9f92d82b13b0` · `Patho microscope_260705_152630.pdf` |
+| SHA-256 / size | `ed72d8cf9f92d82b13b0b7690b531adfcc211761a4cfc706ef0aef1c197db0df` · 21,061,309 bytes |
+| Format / complete visual boundary | Twenty-three pages. The PDF MediaBox is 600×848 points **portrait**, resolving the nominal landscape description in favor of the actual carrier. All 23 pages rendered into 23 non-empty 1000×1414-pixel images and every render was read at original detail. |
+| OCR/native reality | Native extraction is 23 form-feed bytes / 0 words. OCR of every render recovered only 22 words / 155 bytes, almost entirely the largest diagnosis labels. The manifest's `ocr-needed` disposition is accurate; complete visual inspection controls. |
+| Visible provenance | No page prints an institution, faculty, module, author, instructor, academic year, teaching date, sitting, candidate instruction, or page number. Page 19 carries a `TELEGRAM` interface badge, which establishes only one image's sharing/screenshot context. |
+| Filename/metadata caution | The suffix `_260705_152630` resembles a capture timestamp but has no visibly corroborated format or date. PDF metadata identifies PDFium as creator and supplies no date. Neither field is promoted to a teaching date, academic year, or sitting. |
+| Authority | Tier-6 notes-and-summaries microscopy teaching carrier routed through the Helwan BMS-102 folder. With no visible Helwan attribution or assessment structure, it is not a Helwan practical station, authenticated slide exam, official key, or dated sitting. |
+
+### Complete page-first microscopy, supplied-label, practical-prompt, and reuse boundary
+
+| Pages | Complete visible labelled material | Boundary ruling |
+|---:|---|---|
+| 1–4 | Microscopy photographs labelled `T.B`, `BPH`, `appendicitis`, and `actinomycosis` | Completed diagnosis labels attached to images; **0 prompts / 0 answers / 0 residues**. |
+| 5–8 | `Cavernous haemangioma`, `liver cirrhosis`, `lipoma`, and `fibroadenoma` | Labelled teaching plates; **0 / 0 / 0**. |
+| 9–12 | A second fibroadenoma field, `Sq papilloma`, a second actinomycosis field, and a second cavernous-haemangioma field | Different views/fields of repeated diagnoses, not unlabeled stations; **0 / 0 / 0**. |
+| 13–14 | Two separately framed fields labelled `colonic adenoca` / `colonic adenocarcinoma` | Same diagnosis, different visible fields/crops; completed labels; **0 / 0 / 0**. |
+| 15–17 | Three BCC/basal-cell-carcinoma presentations of the same labelled microscopy material, including handwritten and typed overlays | Reframing/cropping and relabelling do not create three practical tasks; **0 / 0 / 0**. |
+| 18–20 | Three labelled microscopy views of a lymph node metastatic from breast cancer; p.19 includes the Telegram badge | Completed diagnosis mapping at different views/magnifications; **0 / 0 / 0**. |
+| 21–23 | Three SCC/squamous-cell-carcinoma presentations of the same labelled keratinizing-tumour material, with typed and handwritten overlays | Reframed labelled teaching images; **0 / 0 / 0**. |
+
+The carrier supplies **23 labelled microscopy teaching plates spanning 13 diagnosis labels**.
+Sticky-note labels, typed overlays, circular microscope fields, image crops, changing magnification,
+and repeated views are completed teaching mappings. No page says `identify`, `diagnose`, `name`,
+or `comment`; there is no item number, station instruction, blank, response area, option set,
+mark allocation, audience question, student response, selective correctness mark, or separate
+answer register. A supplied diagnosis is not counted as an answer occurrence when no source-
+visible prompt exists. Therefore the exact assessment boundary is **0 raw prompts / 0 printed or
+handwritten answer occurrences / 0 unkeyed prompts / 0 prompt-like residues / 0 retained records**.
+
+### Prior-source relation, source-first zero gate, and cumulative arithmetic
+
+The diagnoses and morphology overlap prior BMS-102 teaching and assessment scopes: tuberculosis,
+appendicitis, actinomycosis, cirrhosis, benign tumours, carcinoma spread, colonic adenocarcinoma,
+basal-cell carcinoma, and squamous-cell carcinoma all occur elsewhere in the ledger. Within this
+carrier, repeated fibroadenoma, actinomycosis, cavernous-haemangioma, colonic-adenocarcinoma,
+BCC, metastatic-breast-cancer lymph-node, and SCC views also provide teaching-image reuse. Those
+relations do not turn declarative labels into practical prompts and do not add assessment handles.
+
+No accepted assessment handle survives the labelled-plate boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated, and the source adds no tested concept.
+
+| Measure | Family 113 | Auxiliary cumulative (Families 12–113) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 945 | 765 | 1,710 |
+| Printed teaching-answer occurrences | 0 | 526 | 405 | 931 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 885 | 552 | 1,437 |
+| Source-distinct tested handles / required searches | 0 / 0 | 794 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +530 over primary | 372 | `372 + 530 = 902` |
+| **Distinct tested concepts** | **+0** | **530 auxiliary additions** | **372** | **902** |
+
+The checksum closes: 23 labelled teaching plates yield zero prompts, answers, residues, retained
+records, handles, searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**945 / 526 / 885 / 794 / +530**; and all eligible evidence remains
+**1,710 / 931 / 1,437 / 902**. Family 113 cannot establish a practical station, official key,
+dated sitting, recurrence, mark weight, student response, readiness, or claims status.
+
+### Exact next debt after Family 113
+
+`src_ed72d8cf9f92d82b13b0` is exhausted across all 23 pages: every microscopy field, supplied
+diagnosis label, repeated/reframed image group, Telegram badge, filename/metadata limitation,
+portrait-versus-landscape correction, prompt absence, zero search gate, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-113 blocker. The exact next manifest
+record is tier-6 `src_b16091d18e27f7455111` · `Pathology 102-20260705204439.apkg`, SHA-256
+`b16091d18e27f7455111624b1b39492140e8121c28dc72a4cf221e8c1a59a845`, 4,598,809 bytes,
+an Anki package / ZIP carrier under `Pathology / Notes and Summaries`. Its safe package/schema
+inspection, filename-timestamp limitation, complete note/card/media boundary, prompt/answer
+directionality, duplicate-card handling, four-search packets, and prior-BMS reuse are the exact
+next-source blockers.
