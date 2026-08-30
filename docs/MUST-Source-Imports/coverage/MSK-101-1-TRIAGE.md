@@ -1432,3 +1432,42 @@ Removing the thirty-nine processed unique hashes leaves **63 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (By Sara Hafez).pdf`, SHA-256 `9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84`, 4 pages.
 
 **BLOCKED — S1 cannot be approved:** 63 selected inventory paths / 62 unique hashes remain untriaged.
+
+## Completed source — Brachial A Questions (By Sara Hafez)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (By Sara Hafez).pdf` | `9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84` | 4 | empty-text audit sample | pages 1–4 rendered and read | Image-only Samsung Electronics PDF, modified 10 January 2026. The filename attributes the worksheet to Sara Hafez, but the pages print only the handwritten title `Brachial A`; no institution, department, examiner, sitting, marks or official-key statement is present. It is a handwritten revision worksheet, not an authenticated MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (By Sara Hafez).pdf" purpose="source"}
+
+### Exact question-only boundary and paired-carrier reconciliation
+
+All four pages contain thirteen continuously numbered brachial-artery fill-in prompts. Each numbered item contains one or more blank answer lines. There are no printed or handwritten answer completions, MCQs, written cases, practical prompts, image-identification prompts or teaching-only pages.
+
+| Format | Prompt observations | Answer observations | Source-absent answers |
+|---|---:|---:|---:|
+| Numbered fill-in prompts | 13 | 0 | 13 |
+| **Total** | **13** | **0** | **13** |
+
+The blue handwriting, continuous numbering, wording, punctuation and blank layout exactly match the completed answer-bearing sibling `Brachial A Questions (Answers) (By Sara Hafez).pdf` (`bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7`), which overlays red handwritten completions on the same prompt sequence. The question-only carrier therefore contributes **+0 questions / +0 answers / +0 concepts** after paired-family collapse; the thirteen visible prompt observations remain documented as its source boundary without double counting.
+
+No genuinely new handle survives. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`** and the prior Upper Limb Anatomy family's **5 accepted handles / 20 completed searches** remain cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Cumulative arithmetic remains **4676 questions / 4569 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 4676 | 4569 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty processed unique hashes leaves **62 selected inventory paths / 61 unique SHA-256s**. Their sorted, newline-joined hash checksum is `058a8050b24b94b203bfbaaf43e6310402ec9f1676c1ad58215e4962ad3517b5`. Remaining audit-review debt is 26 substantive-text / 7 sparse-text / 12 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`40 + 61 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Chapter 5 Upper Limb.pdf`, SHA-256 `a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175`, 11 pages.
+
+**BLOCKED — S1 cannot be approved:** 62 selected inventory paths / 61 unique hashes remain untriaged.
