@@ -19979,3 +19979,110 @@ records a 2024 page-derived year field while its visible first-page snippet iden
 Year 2024/2025, Year 1, Semester 2, and BMS-102. Its complete visible authority/date boundary,
 teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 190 — Nahed Soliman BMS-102 Neoplasia 3 lecture and interactive questions
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_a9ccc0b353dbbd7670cb` · `SMP neoplasia 3.pdf` under the exact local `Pathology / Theoretical / Lec 12 - Neoplasia 3` folder |
+| SHA-256 / exact size | `a9ccc0b353dbbd7670cba31bd0156f9cf2490911d5567594809c65f3017a8514` · **3,237,850 bytes** |
+| Format / complete read | **60 native-text 960×540-point landscape pages**. All 60 pages were rendered into 60 non-empty 1467×825-pixel images and read individually at original detail. Coherent native extraction contains **2,357 words / 19,330 bytes** and agrees with every visible cover field, teaching heading, labelled diagram, interactive stem, option set, empty response control, and reference. |
+| Visible current authority | Page 1 visibly prints Academic Year **2024/2025**, Year 1, Semester 2, and `Basic Medical Science (BMS-102)`. Page 2 visibly identifies `Neoplasia 3`, **Nahed Soliman**, Assistant Professor of Pathology and Head of Pathology Department, and 17 February 2025; the date/module footer continues through the deck. These fields establish a dated BMS-102 theoretical lecture. |
+| Metadata caution | PDF metadata names `Mohammed Abdel-Latif` as author and Microsoft PowerPoint 2016 as creator/producer, with 17 February 2025 creation/modification. The conflicting metadata author is retained as carrier history; visible Nahed Soliman attribution controls source-facing authorship. |
+| Authority | Current tier-4 Helwan BMS-102 theoretical teaching material with visibly designated interactive-question slides. It supports auxiliary unkeyed prompt evidence, not an authenticated exam sitting, official departmental key, mark scheme, candidate response, or practical station. |
+
+### Complete page-first teaching, prompt, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–5 | Current cover, lecturer/module/date, section title, and two objective slides | Provenance and completed teaching plan; objective verbs are curriculum statements, not candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 6–18 | Tumour-spread routes; haematogenous, lymphatic, transcoelomic, natural-passage, inoculation, and implantation mechanisms; completed metastatic-site and homing diagrams | Declarative teaching and diagnosis-disclosing maps; no image asks for identification or a response; **0 / 0 / 0**. |
+| 19–22 | Four `INTERACTIVE QUESTIONS` True/False term-definition slides: metastatic intravascular entry; a TNM definition presented against `metastatic extravasation`; the reversible second-agent promotion definition presented against `Invasion`; and neoplastic relative autonomy | **4 T/F prompts / 0 supplied answers / 4 unkeyed**. No response control is selected and no correction/feedback is printed. |
+| 23–25 | Three `INTERACTIVE QUESTIONS` MCQs: tumour-created blood supply; non-contiguous malignant spread; and DNA-repair surveillance with arrest/repair versus apoptosis or senescence | **3 text MCQs / 0 supplied answers / 3 unkeyed**. Uniform option formatting supplies no key. |
+| 26–37 | Precancerous lesions; metaplasia, hyperplasia, benign-tumour precursors, dysplasia, carcinoma in situ, morphology, grading, fate, and completed labelled illustrations | Declarative and diagnosis-disclosing teaching; **0 / 0 / 0**. |
+| 38 | `INTERACTIVE QUESTION` adenocarcinoma tissue-of-origin MCQ | **1 text MCQ / 0 answers / 1 unkeyed**. |
+| 39–40 | Two complete renderings of the same multi-select operation asking which two nuclear/differentiation features determine tumour grade | **2 MCQ/multi-select prompt occurrences / 0 answers / 2 unkeyed**. Page 40 is a visual replay/zoom: both occurrences remain, then collapse to one tested handle. |
+| 41–45 | Five `INTERACTIVE QUESTIONS` MCQs: carcinoma, chondroma, dysplasia, a benign-neoplasm feature, and the persistence criterion for neoplasia | **5 text MCQs / 0 supplied answers / 5 unkeyed**. No selected bullet, feedback, or answer line is visible. |
+| 46–59 | Chemical, radiation, microbial, viral, and inherited carcinogenesis; completed mechanisms, examples, and genetic-predisposition diagrams | Declarative teaching and completed maps; **0 / 0 / 0**. |
+| 60 | References | Bibliographic teaching matter; **0 / 0 / 0**. |
+
+The governed assessment boundary is therefore **15 raw prompt occurrences = 10 text MCQ or
+multi-select operations + 5 True/False operations**, with **0 source-supplied answers + 15
+visibly unkeyed operations**. There are **0 image prompts, 0 drawing tasks, 0 practical stations,
+0 candidate responses, and 0 unassigned residues**. Completed definitions, labelled images,
+diagram nodes, objective verbs, option bullets, slide numbers, footers, and references are assigned
+without becoming extra prompts or answers.
+
+### Source-first retention, semantic collapse, and 14-handle search ledger
+
+All **15 prompt occurrences remain retained**: no literal duplicate record is excluded. The p.39
+and p.40 renderings preserve two visible occurrences but ask the same complete grading proposition,
+so **`15 retained - 1 semantic reduction = 14 source-distinct tested handles`**. Every handle
+received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan coverage, and prior BMS Families 1–189: **`14 × 4 = 56
+required and completed searches`**.
+
+| Ref(s) / accepted handle | Exactly four required queries | External exact-scope disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| p.19 · `metastatic-intravasation-vascular-entry` | `metastatic intravascular circulation`; `movement into lymphatic or blood vessels basement membrane`; `tumor intravasation capillary basement membrane`; `metastatic cells enter endothelial vessels` | no same-scope | prior invasion/metastasis teaching does not test this vascular-entry definition; **delta** |
+| p.20 · `tnm-staging-components` | `extent local growth lymph nodes distant metastases TNM`; `tumor node metastasis components`; `TNM local growth lymph node distant organ`; `metastatic extravasation TNM false` | no same-scope | exact Family-5 TNM component reuse |
+| p.21 · `tumor-promotion-second-agent-reversible-stage` | `application of a second chemical to initiated cell`; `tumor promotion follows initiation reversible`; `promoters stimulate initiated cells proliferation`; `invasion definition chemical promoter false` | no same-scope | Family 4 tests promotion-driven clonal expansion, not this second-agent/reversibility definition; **delta** |
+| p.22 · `neoplasm-relative-autonomy-stop-signal-loss` | `neoplasms grow with little regard to rest of organism`; `neoplasm relatively autonomous`; `neoplastic cells do not respond stop growing signals`; `relative autonomy neoplasia` | no same-scope | contained by Family-98 hyperplasia-versus-neoplasia growth-control handle and Family-188 neoplasia handle; reuse |
+| p.23 · `tumor-angiogenic-factor-process` | `ability of a neoplasm to stimulate own blood supply`; `tumor angiogenesis own blood supply`; `angiogenesis neoplasm blood supply`; `neoplastic angiogenesis definition` | no same-scope | exact Family-4 tumour-angiogenic-process reuse |
+| p.24 · `metastasis-noncontiguous-malignant-spread-definition` | `non-contiguous spread of malignant cells throughout body`; `metastasis noncontiguous spread`; `colon cancer appearing in brain metastasis definition`; `metastasis distant discontinuous spread` | no same-scope | contained by Family-1 neoplasia core/metastasis definitions; reuse |
+| p.25 · `dna-repair-surveillance-arrest-repair-or-death` | `surveillance mechanisms detect DNA damage halt cell cycle`; `DNA repair cell cycle apoptosis senescence`; `repair DNA or undergo apoptosis senescence`; `DNA damage surveillance repair definition` | no same-scope | contained by Family-4 DNA-repair-loss/genomic-instability and p53 DNA-damage-checkpoint scopes; reuse |
+| p.38 · `adenocarcinoma-glandular-epithelial-origin` | `adenocarcinoma malignant neoplasm glandular epithelium`; `adenocarcinoma tissue type glandular epithelium`; `malignant glandular epithelial tumor adenocarcinoma`; `adenocarcinoma arises from glandular epithelium` | no same-scope | contained by Family-5 invasive gland-forming adenocarcinoma definition; reuse |
+| pp.39–40 · `tumor-grade-nuclei-differentiation-basis` | `features determine grade appearance nuclei resemble normal tissue`; `tumor grade nuclear appearance differentiation`; `grade tumour degree resemblance normal tissue`; `tumor grading differentiation and nuclear features` | no same-scope | exact Family-1/5 tumour-grade/differentiation reuse |
+| p.41 · `carcinoma-malignant-nonglandular-epithelial-definition` | `carcinoma malignant neoplasm non-glandular epithelium`; `carcinoma malignant epithelial neoplasm`; `malignant non glandular epithelial tumour carcinoma`; `carcinoma best describes malignant epithelium` | no same-scope | exact Family-188 generic carcinoma-definition reuse |
+| p.42 · `chondroma-benign-cartilage-neoplasm-definition` | `chondroma benign neoplasm cartilage`; `chondroma benign cartilage tumor`; `finger chondroma benign cartilage`; `chondroma tissue type cartilage benign` | no same-scope | prior completed chondroma teaching and osteochondroma prompts do not test this generic nomenclature definition; **delta** |
+| p.43 · `dysplasia-premalignant-morphologic-change` | `dysplasia features of malignancy likelihood future malignant`; `dysplasia premalignant cellular changes`; `dysplasia recognizable morphologic changes premalignant`; `dysplasia abnormal maturation future malignancy` | no same-scope | contained by Family-188 epithelial-dysplasia/premalignant-concern handle; reuse |
+| p.44 · `benign-neoplasm-well-differentiated-feature` | `benign neoplasms well differentiated cells`; `feature benign neoplasm well differentiated`; `benign tumor resembles normal tissue`; `benign tumour well differentiated` | no same-scope | exact Family-1 benign-tumour-characteristics reuse |
+| p.45 · `neoplasia-persists-after-stimulus-removal` | `abnormal growth persists after stimulus removed neoplasia`; `neoplasia growth persists after stimulus`; `neoplastic proliferation continues after stimulus removed`; `neoplasia autonomous persistent growth definition` | no same-scope | contained by Family-1 neoplasia-core definitions and Family-98 growth-control handle; reuse |
+
+External exact-scope arithmetic is **0 live / 0 pending / 14 no same-scope**. Prior-BMS
+reconciliation assigns **11 exact/contained handle reuses** and **3 new scopes**, so **`14 - 11
+= +3 concepts`**. Declarative overlap within this deck and prior completed teaching preserves
+source context but does not independently zero a genuine present interactive prompt.
+
+### Family-190 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 190 | Auxiliary cumulative (Families 12–190) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 15 = 10 MCQ/multi-select + 5 T/F | 2,512 | 762 | 3,274 |
+| Source-supplied answers | 0; 15 unkeyed | 1,668 | 405 | 2,073 |
+| Retained question records | 15 | 2,222 | 552 | 2,774 |
+| Accepted handles / required searches | 14 / 56 | 2,005 / — | — | — |
+| Prior-BMS handle reuses | 11 | — | — | — |
+| Cross-family concept delta | +3 | +963 over primary | 372 | 1,335 |
+| **Distinct tested concepts** | **14 source-local** | **963 additions** | **372** | **1,335** |
+
+Checksums: `10 + 5 = 15 prompts`; `0 + 15 = 15 answer states`; `15 - 0 literal exclusions =
+15 retained`; `15 - 1 semantic reduction = 14 handles`; `14 × 4 = 56 searches`; and `14 -
+11 = +3`. Auxiliary arithmetic is `2,497 + 15 = 2,512`, `1,668 + 0 = 1,668`, `2,207 +
+15 = 2,222`, `1,991 + 14 = 2,005`, and `960 + 3 = 963`. All eligible arithmetic is
+`762 + 2,512 = 3,274`, `405 + 1,668 = 2,073`, `552 + 2,222 = 2,774`, and `372 + 963 =
+1,335`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,512 prompts / 1,668 answers /
+2,222 retained / 2,005 handles / +963 concepts**. All eligible is **3,274 / 2,073 / 2,774 /
+1,335**. Family 190 establishes current Helwan theoretical teaching and unkeyed interactive-
+question evidence only, not an exam sitting, official departmental key, mark weight, candidate
+response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 190
+
+`src_a9ccc0b353dbbd7670cb` is exhausted across all 60 pages: every visible authority and metadata
+field, objective, teaching slide, labelled image, interactive T/F, MCQ or multi-select operation,
+empty response control, reference, same-source reduction, search packet, prior-family relation,
+and arithmetic term is assigned once, with **zero source remainder** and no Family-190 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_8e574a175cfd0e454cf3` · `mainstream
+neoplasia 4 2026.pdf`, SHA-256
+`8e574a175cfd0e454cf3e36546f44f446a8dc4070d3a682dd23dc6ac27a0cf86`, **1,383,340 bytes**,
+**67 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 13 - Neoplasia
+4`. Its first visible text identifies Academic Year 2025/2026, Year 1, Semester 2, and BMS-102,
+while metadata names `Mohammed Abdel-Latif` and records 19 April 2026. Its complete visible
+authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
