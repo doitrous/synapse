@@ -21119,3 +21119,97 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 30
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 201 — Tier-6 annotated leg-nerve teaching collage
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_89d175da0578ad4f56a2` / `89d175da0578ad4f56a25f1f395b5aa1aa1e16fbc8d57b8a84f8ccdc24c7c1ab` |
+| Manifest / normalized local path | Manifest `Year 1/LCS 103/Anatomy/Notes and Summaries/Nerves of the leg 🦵 .pdf`; exact existing local file omits the pre-extension space: `Year 1/LCS 103/Anatomy/Notes and Summaries/Nerves of the leg 🦵.pdf`. Hash and size prove the normalization. |
+| Physical verification | **5,563,479 bytes; one native-text 960 x 540 pt page; untagged; unencrypted; PDF 1.4**. Full hash, byte size, page count and geometry match. The page was rendered completely at 250 dpi to a 3,334 x 1,875 RGB image and inspected as a complete canvas against the native layer. The document reports no form and qpdf confirms no AcroForm fields; qpdf also reports recoverable duplicated-filter/end-object/zero-offset warnings without changing the rendered boundary. |
+| Visible / metadata provenance | The left teaching graphic prints the alias `Dr. corleone` and a portrait; the right half is a photographed whiteboard. No institution, university, module, cohort, sitting, marks or key claim appears. Metadata identifies iOS Quartz PDFContext and 26 June 2026 creation/modification but adds no content authority. |
+| Authority finding | Pseudonymously attributed tier-6 completed teaching-summary evidence. Neither the visible alias nor folder/metadata placement establishes a Helwan assessment sitting, response form, practical station or official key. |
+
+The sole page is **one completed composite theoretical teaching composition**. Its left half
+maps the sciatic nerve proximal to the knee, its tibial and common-fibular divisions, the
+posterior/anterior/lateral leg motor groups, knee/ankle articular branches and sural,
+calcaneal, first-web-space and dorsum/side-of-foot sensory territories. It includes small
+completed cutaneous-distribution insets and anatomical landmarks at the popliteal fossa,
+fibular neck and flexor retinaculum. The right half is a fully annotated whiteboard photograph
+of the same posterior-leg branching scheme, including visible `P.F`, `Tibial`, `C.P.N`,
+`D.P.N`, `S.P.N`, posterior-tibial and plantar-nerve labels. Faint or partially illegible
+whiteboard writing remains source-image ambiguity, not a reconstructed prompt or answer.
+
+There is **no assessment inventory**. Every readable label, arrow, colored distribution and
+table state is already supplied; no question, learner instruction, response space, masked
+answer, selection state, delayed reveal or key appears. Exact assessment delta is **0 eligible
+or external prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `Dr. corleone`, `G.P.S`,
+`Posterior/Tibial.n`, `exp: Popliteaus`, `beg toe`, `Web skin between beg toe and second toe`,
+the common-fibular `muscular: NO!` state, the source's `Peroneal` terminology, every explicit
+`Not mentioned`, all distribution exceptions and every faint whiteboard mark. Inventory does
+not medically or editorially repair, infer or endorse them.
+
+### Practical and image boundary
+
+Although the page contains diagrams, small sensory insets and a whiteboard photograph, every
+nerve/territory intended as teaching content is labelled in place. There is no masked
+structure, numbered identification station, learner-completed map, response blank or
+practical key. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0
+residues / 0 keys / 0 practical teaching scopes**. Faint handwriting is unresolved teaching-
+image ambiguity, not a practical response residue.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The composite page consolidates to six theoretical teaching handles:
+
+| Teaching handle | One query on each required surface | Complete-scope result |
+|---|---|---|
+| sciatic nerve division and landmarks | sciatic tibial common fibular division popliteal fossa | Accepted Families 1–2, 20, 33, 40, 42, 45 and 200 own the complete division/landmark scope — prior-LCS reuse. |
+| tibial nerve motor and articular distribution | tibial posterior compartment soleus popliteus plantar nerve ankle | Accepted Families 20, 34, 42, 44–45 and 200 own the complete motor/articular scope — prior-LCS reuse. |
+| sural/calcaneal sensory territories | sural medial calcaneal posterolateral leg lateral foot little toe heel | Accepted Families 20, 42, 44–45 and 200 own the complete cutaneous scope — prior-LCS reuse. |
+| common fibular nerve course and branches | common fibular peroneal fibular neck knee branch lateral sural cutaneous | Accepted Families 20, 34, 42–45 and 200 own the complete course/branch scope — prior-LCS reuse. |
+| deep fibular motor/sensory distribution | deep fibular peroneal anterior compartment extensor digitorum brevis first web space | Accepted Families 20, 34, 43–45 and 200 own the complete motor/sensory scope — prior-LCS reuse. |
+| superficial fibular motor/sensory distribution | superficial fibular peroneal lateral compartment dorsum foot sensory exceptions | Accepted Families 20, 34, 43–45 and 200 own the complete motor/sensory scope — prior-LCS reuse. |
+
+Each of the **six accepted handles** received exactly one search against each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **6 x 4 = 24 required
+search invocations**. The surface searches found live and pending component coverage;
+complete-scope accepted-ledger comparison establishes **6 prior-LCS theoretical reuses / 0
+additive live / 0 additive pending / 0 additive new teaching scopes**. Declarative
+theoretical scopes do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 200's remainder. Removing its sole path changes the remainder
+from **30 paths / 29 unique hashes** to **29 paths / 28 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **20 paths / 20 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 200's checksums were
+`84b675bcc89f4622262bb0ceb54fb52ce230d4ade5531b371203eff4977af3a6` (paths) and
+`9cec7d430afc74c26e692c0f38431d8e23a243e55e24723c1c87bd2ba44bd035` (unique hashes).
+For the exact post-Family-201 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`d2c2661a0237b581876aab8fa7805b94a71700746068b288b267b3baa20b35f0`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`eb41c60f43929072fbf7d11b0f1b6120f5ade14531d4c3f4279bd3ce75619adc`.
+
+The exact next manifest-order debt is tier-6 `src_5dcce43e91f2ed43650d`, `Posterior
+compartment of the thigh.pdf` (802,858 bytes; five native-text landscape-A4 pages; tagged;
+unencrypted; PDF 1.7; SHA-256
+`5dcce43e91f2ed43650d98ba5162ba6d3ef832661f77df2a43c1f567e84a4081`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until all five
+pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 29
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
+update, import or source copy was created.
