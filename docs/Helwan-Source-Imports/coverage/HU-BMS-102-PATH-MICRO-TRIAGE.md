@@ -14095,3 +14095,87 @@ seven OCR-needed pages under `Pathology / Notes and Summaries`. Its complete ras
 boundary, `fibroadenoma` first-page signal, provenance, teaching-versus-practical/image prompt and
 answer boundary, source-first gate, prior-BMS reuse, and arithmetic are the exact next-source
 blockers.
+
+## Family 134 — anonymous pre-labeled pathology microscope teaching slides
+
+### Source identity, complete raster/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_945cafa1c8eb6ac0ef35` · `pathology slides.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `945cafa1c8eb6ac0ef3552d6cf2a74b9af36e96e824e0bb3d8bec7bed8b95131` · 2,647,382 bytes |
+| Format / complete visual boundary | Seven landscape US-letter pages, each 792×612 points. All seven pages rendered at 300 dpi into seven non-empty 3300×2550-pixel images and were read individually at original detail. Each page contains one photographed microscope field plus its printed diagnosis; there is no page, crop, field, caption, or visual remainder. |
+| OCR/native reality | Layout and raw native extraction contain no semantic text beyond seven page separators. Independent Tesseract `psm 6` and `psm 11` passes recovered the short diagnosis captions with expected spacing/noise differences; the page pixels, not OCR, control spelling and the prompt/practical boundary. The manifest's `ocr-needed` classification is accurate. |
+| Visible provenance | No page shows a university, faculty, module code, author/instructor, academic year, date, sitting, page number, ownership mark, or watermark. The diagnosis captions establish pathology teaching subject matter only. Folder/manifest placement supports BMS-102 routing but cannot supply the absent provenance fields. |
+| Metadata caution | The PDF exposes only `Skia/PDF m136` as producer and has no metadata stream, author, title, creator, creation date, or modification date. The producer identifies file generation software only. |
+| Authority | Anonymous tier-6 pre-labeled pathology microscope teaching atlas. It is not a candidate paper, practical station set, response sheet, answer register, or official key. |
+
+### Complete page-first teaching-label, prompt, answer, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | Low-power microscope photograph printed with `fibroadenoma` | Supplied diagnostic teaching caption; **0 prompts / 0 answers**. |
+| 2 | Low-power microscope photograph printed with `lipoma` | Supplied diagnostic teaching caption; **0 / 0**. |
+| 3 | Low-power vascular-lesion field printed `caverous haemangioma` | Supplied caption, preserving the source spelling; **0 / 0**. |
+| 4 | Low-power nodular liver field printed `liver cirrhosis` | Supplied caption; **0 / 0**. |
+| 5 | Low-power papillary-lesion field printed `sq . papilloma` | Supplied abbreviated caption; **0 / 0**. |
+| 6 | Low-power inflammatory/infective field printed `actinomycosis` | Supplied caption; **0 / 0**. |
+| 7 | A second, visibly distinct vascular-lesion field printed `caverous haemangioma` | Supplied caption, not a repeated tested record; **0 / 0**. |
+
+The microscope photographs are **practical teaching plates**, not practical assessment records.
+Every field already prints its diagnosis on the same page. There is no `identify` or `diagnose`
+command, hidden/unlabeled plate, station number, candidate instruction, allotted time, specimen
+handling task, examiner checklist, response area, answer-reveal sequence, mark allocation, or
+student annotation. The printed disease names function as labels on completed reference plates,
+not answers to an observed prompt. Pages 3 and 7 repeat the same source spelling on different
+microscope fields; that is teaching reinforcement, not a prompt repeat or keyed occurrence.
+
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0
+printed/source-supplied answer occurrences / 0 unkeyed prompt occurrences / 0 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained records / 0 source-distinct
+tested handles**. The seven labeled fields remain preserved as teaching/practical-image evidence
+for later authoring, without manufacturing assessment records from captions.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted tested handle survives the complete pre-labeled-teaching boundary. Exactly four
+searches are required only per accepted handle, so the source-first gate is exactly **0 handles ×
+4 = 0 required and completed searches**; no empty query or fabricated external-disposition row is
+added. The images relate at teaching level to prior neoplasia, cirrhosis, actinomycosis, and
+haemangioma material, but no source-tested proposition exists to reuse. Prior-BMS exact handle
+reuse is therefore **0** and concept delta is **+0**.
+
+| Measure | Family 134 | Auxiliary cumulative (Families 12–134) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,133 | 765 | 1,898 |
+| Printed/source-supplied answer occurrences | 0 | 700 | 405 | 1,105 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,068 | 552 | 1,620 |
+| Source-distinct tested handles / required searches | 0 / 0 | 952 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +609 over primary | 372 | `372 + 609 = 981` |
+| **Distinct tested concepts** | **+0** | **609 auxiliary additions** | **372** | **981** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answer occurrences,
+unkeyed occurrences, residues, retained records, handles, searches, external dispositions,
+prior-handle reuses, or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary
+remains **1,133 / 700 / 1,068 / 952 / +609**; and all eligible evidence remains
+**1,898 / 1,105 / 1,620 / 981**. Family 134 cannot establish a practical assessment, dated
+sitting, recurrence, formal mark weight, official key, student response, readiness, or claims
+status.
+
+### Exact next debt after Family 134
+
+`src_945cafa1c8eb6ac0ef35` is exhausted across all seven high-detail pages: every microscope
+field, printed diagnosis, repeated-caption relation, source spelling, raster/OCR limitation,
+provenance field, teaching-versus-practical ruling, zero-search gate, prior-teaching relation, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-134 blocker. The
+exact next unprocessed manifest record is tier-6 `src_165dec8b80c5561564ec` ·
+`تجميعات حلوان امتحان الميد ترم.pdf`, SHA-256
+`165dec8b80c5561564ec084c025bd64532f8a85a355a9b23d20b6ab4eba10c2a`, 161,301 bytes,
+18 native-text pages under `Pathology / Notes and Summaries`. Its visible `Mid-term Collections`
+heading, provenance and sitting-authority boundary, complete teaching-versus-prompt/answer
+inventory, source-first searches, prior-BMS reuse, and arithmetic are the exact next-source
+blockers.
