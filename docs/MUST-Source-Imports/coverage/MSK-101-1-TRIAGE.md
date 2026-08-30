@@ -3118,3 +3118,50 @@ Removing the seventy-seven processed unique hashes leaves **24 selected inventor
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Dr.SOLTAN I Connective tissue Question Bank 101 (2025).pdf`, SHA-256 `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`, 24 pages.
 
 **BLOCKED — S1 cannot be approved:** 24 selected inventory paths / 24 unique hashes remain untriaged.
+
+## Completed source — Dr.SOLTAN I Connective tissue Question Bank 101 (2025)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Dr.SOLTAN I Connective tissue Question Bank 101 (2025).pdf` | `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc` | 24 | sparse-text audit sample | pages 1–24 rendered and read | Named `C.T MCQs Bank Dr. SOLTAN`; metadata author `201015762306`, created and modified in Microsoft Office Word 2007 on 31 October 2024. Neither visible content nor metadata names an institution, department, examination sitting, marks or official faculty-key status. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Dr.SOLTAN I Connective tissue Question Bank 101 (2025).pdf" purpose="source"}
+
+### Exact MCQ, case, matching, key, written and practical boundary
+
+Page 1 is a cover and page 2 is a linked contents/index page. Pages 3–12 contain one continuous Q1–Q114 conventional MCQ bank. Pages 13–16 print a detailed `CASES Key (Clinical Application)` table whose forty-three numbered response observations correspond to the later case questions. Pages 17–21 contain conventional case MCQs Q1–Q43. Page 22 prints three matching tables, each with five response-bearing rows. Page 23 prints complete case Q1–Q43 and conventional MCQ Q1–Q114 answer tables; page 24 prints the complete fifteen-row matching key.
+
+| Format | Printed prompts | Reliable printed answers | Source-unkeyed |
+|---|---:|---:|---:|
+| Conventional MCQs Q1–Q114 | 114 | 114 | 0 |
+| Clinical case MCQs Q1–Q43 | 43 | 43 | 0 |
+| Matching rows, three tables × five | 15 | 15 | 0 |
+| **Total** | **172** | **172** | **0** |
+
+There are **0 written prompts / 0 practical or image-identification prompts / 0 teaching-only assessment prompts / 0 answer-only observations**. The detailed case-key pages and compact case answer table encode the same forty-three response observations and are counted once, not twice. Case Q39 depends on Q38 and Q8 depends on Q7, but each remains separately numbered with its own option set and answer. No answer was inferred or academically corrected.
+
+### Authority, prior-MSK reconciliation and search gate
+
+The named-person bank and embedded video/group links establish a teaching and revision compilation. They do not establish a MUST/MSK examination or official faculty key. The filename-only `2025` implication is also weaker than the document's 31 October 2024 creation metadata and is not promoted to an exam-date claim.
+
+The document is a distinct composite carrier rather than an exact whole-file sibling. Its conventional bank contains numerous normalized stems and reordered blocks also seen in the completed Solo connective-tissue carrier, SHA-256 `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`; its clinical cases likewise revisit earlier case-bank prompts. Consistent with the established embedded-reuse rule, the complete current carrier's **172 physical prompt and 172 answer observations are retained once**, while reused material is collapsed at source-handle and concept assignment rather than erased from the physical boundary.
+
+All source-first scopes—connective-tissue origin, matrix, fibres and stains; resident and wandering cells; connective-tissue proper and specialized adipose/reticular/mucoid types; wound healing and clinical applications; and matching of cells, fibres and sites—map completely to the completed connective-tissue family. No genuinely new accepted handle survives prior-MSK collapse. The exactly-four-search gate therefore resolves as **`0 new handles × 4 = 0 new searches`**; the prior family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct keyed named-person compilation is now `sourceProcessed=true`. Its delta is **+172 questions / +172 answer observations / +0 concepts**. Cumulative arithmetic is **6762 + 172 = 6934 questions**, **6572 + 172 = 6744 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6934 | 6744 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer correction, examination-authority claim, placement or catalogue entry was created. Source wording, duplicated or malformed option labels, spelling, punctuation and academically questionable selections remain uncorrected source observations.
+
+### Remaining sources / blocker
+
+Removing the seventy-eight processed unique hashes leaves **23 selected inventory paths / 23 unique SHA-256s**. Their sorted, newline-joined hash checksum is `c05ab02e2db821c67ecd7bcdf55d40dc88f05f4121f13a0c7e47c01ef0251ab9`. Remaining audit-review debt is 0 substantive-text / 4 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`78 + 23 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - vip histo msk 1 mcq.pdf`, SHA-256 `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`, 8 pages.
+
+**BLOCKED — S1 cannot be approved:** 23 selected inventory paths / 23 unique hashes remain untriaged.

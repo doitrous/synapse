@@ -8,11 +8,13 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The seventy-seven completed read-only source hashes cover seventy-nine selected inventory paths, represent fifty-two distinct prompt families and yield **6762 questions / 6572 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed one-page `Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).pdf`, SHA-256 `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`, is a landscape teaching mind map with nine top-level branches covering movements, nerve supply, muscle origins and insertions, abduction angles and additional anatomical notes. It contains **0 MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 keys or answer-only observations / 0 unkeyed assessment prompts**, yielding **+0 questions / +0 answers / +0 concepts**. Filename attribution and react-pdf metadata do not authenticate a MUST/MSK examination or faculty key. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**.
+The seventy-eight completed read-only source hashes cover eighty selected inventory paths, represent fifty-three distinct prompt families and yield **6934 questions / 6744 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed twenty-four-page `Dr.SOLTAN I Connective tissue Question Bank 101 (2025).pdf`, SHA-256 `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`, contains **172 objective prompts / 172 reliable printed answers / 0 written / 0 practical or image-identification / 0 unkeyed prompts**, split as 114 conventional MCQs, 43 case MCQs and 15 matching rows. Dr.SOLTAN naming and Word metadata do not establish a MUST/MSK examination sitting or official faculty key. Its reordered Solo-family wording and all remaining connective-tissue scopes collapse to the completed five-handle family; the exactly-four-search gate therefore ends at **0 new handles × 4 = 0 new searches**, cross-referencing the prior **5 handles / 20 searches**. The distinct composite carrier contributes **+172 questions / +172 answers / +0 concepts**.
 
-Latest processed family hash: `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`.
+Latest processed family hash: `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`.
 
-Recent processed family hash retained for reconciliation: `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`.
+Recent processed family hash retained for reconciliation: `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`.
+
+Earlier processed family hash retained for reconciliation: `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`.
 
 Earlier processed family hash retained for reconciliation: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
 
@@ -56,8 +58,10 @@ Current cross-module exact-duplicate append: `22180a77cf8d4eb2d59d046ee1936efa54
 
 Current teaching-source append: `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`.
 
-Removing them leaves **24 inventory paths / 24 unique SHA-256s**, checksum `8acbf1b0bb185c293114f0be7291ee31f570a4167024a7cbce3da9888809aea0`. The pinned remaining audit-review debt is 0 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current processed-family append: `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Dr.SOLTAN I Connective tissue Question Bank 101 (2025).pdf`, SHA-256 `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`, 24 pages.
+Removing them leaves **23 inventory paths / 23 unique SHA-256s**, checksum `c05ab02e2db821c67ecd7bcdf55d40dc88f05f4121f13a0c7e47c01ef0251ab9`. The pinned remaining audit-review debt is 0 substantive-text / 4 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 24 selected inventory paths / 24 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - vip histo msk 1 mcq.pdf`, SHA-256 `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`, 8 pages.
+
+**BLOCKED — S1 cannot be approved:** 23 selected inventory paths / 23 unique hashes remain untriaged.

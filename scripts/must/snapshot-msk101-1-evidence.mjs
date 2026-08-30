@@ -84,9 +84,10 @@ const PROCESSED_FAMILY_HASHES = [
   'd0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c',
   '22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd',
   'ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965',
+  'ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '8acbf1b0bb185c293114f0be7291ee31f570a4167024a7cbce3da9888809aea0'
+const REMAINING_CHECKSUM = 'c05ab02e2db821c67ecd7bcdf55d40dc88f05f4121f13a0c7e47c01ef0251ab9'
 
 function option(name) {
   const prefix = `${name}=`
@@ -163,10 +164,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5 }
+  const expected = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 4 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/5-sparse/7-empty/12-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/4-sparse/7-empty/12-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -182,7 +183,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6762', '6572', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6934', '6744', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -216,7 +217,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 77 || remainingHashes.length !== 24 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 78 || remainingHashes.length !== 23 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -224,7 +225,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5 }
+const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 4 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -322,8 +323,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[74], sourcePages: 4, renderedReadPages: '1-4', coverPages: '1', teachingPages: '2-4', numberedTeachingTopics: 6, totalTeachingTopics: 7, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Mohamed Eissa/Pentagram student clinical-applications teaching handout produced with Foxit PDF Creator and dated through metadata to 2023-2024; no institution, department, examiner, sitting, marks or official faculty-key claim appears', boundaryDisposition: 'one cover followed by seven connective-tissue clinical teaching topics: hypersensitivity, edema, keloid, scurvy, tendinitis, Marfan syndrome and wound contraction; no MCQ, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['source spelling and grammar including foreign body, do not polymerize, more common in males and doorta remain uncorrected', 'clinical and treatment statements are retained strictly as source observations rather than endorsed guidance'] },
     { sha256: PROCESSED_FAMILY_HASHES[75], sourcePages: 18, renderedReadPages: '1-18', questionPages: '1-18', keyPages: '18', printedPromptObservations: 87, objectiveMcqPrompts: 87, printedKeyObservations: 37, promptMatchedRecoveredAnswers: 36, nonAnswerKeyObservations: 1, sourceAbsentAnswers: 51, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, crossModuleExactDuplicateOf: { module: 'FHB 101', sha256: PROCESSED_FAMILY_HASHES[75], acceptedSourceHandles: 21, searchesRun: 84 }, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceCrossModuleAcceptedSourceHandles: 21, referenceCrossModuleSearchesRun: 84, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Solo Team peer-produced revision compilation with Microsoft Word metadata naming 200033293-mostafa rabea alsayd hafez and an iLovePDF production date of 31 October 2024; no institution, department, sitting, marks or official-paper or faculty-key claim appears', boundaryDisposition: 'continuous Q1-Q87 four-option MCQ sequence across Introduction, Cytology and Connective Tissue sections; terminal table supplies thirty-seven printed observations for Q51-Q87, but Q81 says No case rather than selecting an option, leaving thirty-six prompt-matched answers and fifty-one prompts without a recovered answer; the source is byte-identical to the completed FHB carrier and adds no cross-module family occurrence', preservedSourceDefects: ['Q81 refers to a disease in the previous case although Q80 is not a disease case, and the printed key records 81. No case', 'first page retains chatbot-style Sure thing prose plus Markdown headings and option bullets', 'source wording and academically questionable options or keys remain uncorrected'] },
     { sha256: PROCESSED_FAMILY_HASHES[76], sourcePages: 1, renderedReadPages: '1', teachingPages: '1', topLevelTeachingBranches: 9, printedPromptObservations: 0, objectiveMcqPrompts: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'filename-attributed Absalam101 upper-limb teaching mind map generated with react-pdf on 31 October 2024; the visible page and metadata contain no institution, department, examiner, sitting, marks or official-key claim', boundaryDisposition: 'one landscape teaching mind map with nine top-level branches covering upper-limb movements, nerve supply, muscle origins and insertions, abduction angles and additional anatomical notes; no MCQ, written, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['Latissimus Dorsi is incorrectly listed as having an origin from the pelvis only', 'the flat-shoulder note attributes drooping after accessory-nerve injury to Latissimus Dorsi', 'the Triceps elbow entry appears under shoulder-extension muscles', 'source capitalization, selective lists and anatomical claims remain uncorrected'] },
+    { sha256: PROCESSED_FAMILY_HASHES[77], sourcePages: 24, renderedReadPages: '1-24', coverPages: '1', indexPages: '2', questionPages: '3-12,17-22', caseKeyAndRationalePages: '13-16', answerPages: '23-24', printedPromptObservations: 172, objectiveMcqPrompts: 157, matchingPrompts: 15, printedKeyObservations: 172, objectiveKeyObservations: 157, matchingKeyObservations: 15, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 172, familyAnswerDelta: 172, acceptedSourceHandles: 0, searchesRun: 0, referenceConnectiveTissueAcceptedSourceHandles: 5, referenceConnectiveTissueSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'named Dr.SOLTAN connective-tissue question bank authored under metadata identifier 201015762306 and created in Microsoft Office Word 2007 on 31 October 2024; visible pages print no institution, department, examination sitting, marks or official faculty-key claim', boundaryDisposition: 'cover and linked index followed by 114 conventional MCQs, a detailed case-key/rationale table, 43 conventional case MCQs, three matching tables with 15 response rows, and complete keys for all 172 prompts; no written, practical, image-identification, answer-only or source-unkeyed material', priorCarrierComparison: { soloSha256: PROCESSED_FAMILY_HASHES[75], disposition: 'multiple normalized stems and reordered blocks reuse the completed Solo connective-tissue bank, while additional MCQ, case and matching material makes this a distinct composite carrier; all 172 physical occurrences remain counted once and the reuse collapses at handle/concept assignment' }, preservedSourceDefects: ['case-key numbering 1-43 labels response observations across grouped scenarios rather than forty-three distinct teaching cases', 'case question Q39 depends on Q38 and Q8 depends on Q7', 'source spelling, option-label duplication, punctuation and academically questionable keyed choices remain uncorrected'] },
   ],
-  triageCumulative: { printedPromptObservations: 6762, printedKeyObservations: 6572, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 6934, printedKeyObservations: 6744, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
