@@ -19327,3 +19327,108 @@ inflammation,general pathology(MW).pdf`, SHA-256
 OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible identity,
 complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS disposition,
 arithmetic, and subsequent exact next-source debt remain to be separately reconciled.
+
+## Family 184 — provenance-unverified Medicine Way / general-pathology inflammation compilation
+
+### Source identity, complete rendered/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_5a816eabc9ffd3246fad` · `MCQs - mcq in inflammation,general pathology(MW).pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `5a816eabc9ffd3246fadef961d976bdfcebcdbe3e52c74d36f3061cced4cede9` · **2,884,270 bytes** |
+| Format / complete read | **29 OCR-needed A4 pages** at 595×842 pt. Native extraction was genuinely empty (**0 words; 29 form feeds**). All 29 pages were rendered at 110 dpi into 29 non-empty images (27 portrait 910×1287 and two landscape 1287×910), read at original detail, and independently OCRed to **5,234 words / 33,256 bytes**. |
+| Visible identity | Page 1 is the same Arabic `Medicine Way` public medical-books-channel cover used by Families 181–183 and credits `منصور الجزار`. Pages 2–6 visibly credit `Dr Tarek El Shamy`; pages 8–12 are phone-capture replays of that prompt layer. Pages 13–18 are a generic `Inflammation and Healing` MCQ/key bank. Pages 19–29 are a later underlined-answer collection ending `collected by Mariam Sameh`. No page visibly names Helwan University, its Faculty of Medicine, BMS-102, an authenticated Helwan sitting, or an institutional key authority. |
+| Date and metadata caution | Phone-viewer numerals, printed bank numbering, and screen/status elements are carrier structure, not sitting dates. PDF modification time 26 January 2025 is carrier metadata only and does not authenticate authorship, teaching year, or a Helwan sitting. |
+| Authority / eligibility | The public-channel cover, mixed Dr-Tarek/generic/collected banks, and phone-capture replays establish an externally compiled general-pathology carrier. Dr Tarek's visible authorship authenticates his five-page bank, not Helwan institutional use. Folder placement and manifest tier cannot supply the missing university/module/sitting marker. The source is indexed source-locally but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing generic-pathology provenance gate. |
+
+### Complete prompt, answer, format, replay, anomaly, and practical boundary
+
+The complete carrier contains **170 raw prompt operations = 150 MCQs + 20 written/case
+suboperations**, with **117 source-supplied answer entries + 53 visibly unkeyed operations**:
+
+- **Page 1:** public-channel cover only; 0 prompts and 0 answers.
+- **Pages 2–7, Dr Tarek bank and answer grid:** **41 operations = 31 MCQs Q1–Q31 + 10
+  case/essay/give-reason written suboperations**. Page 7's printed `Answers` grid supplies exactly
+  **30 MCQ answer entries**, Q1–Q30. Q31 and all 10 written operations remain unkeyed.
+- **Pages 8–12:** **41 further raw operations = the same 31 MCQs + 10 written suboperations**,
+  replayed as full phone captures. The wording, numbering, options, and written prompts reproduce
+  pages 2–6; no second answer grid or marked options are present, so these occurrences add **0
+  source-answer entries**. Phone-viewer page bubbles are layout metadata.
+- **Pages 13–18, `Inflammation and Healing`:** **25 MCQs Q1–Q25 / 25 printed key entries**.
+  Pages 17–18 are overlapping phone-screen/full-crop representations of the same Q22–Q25/key
+  page; their repeated pixels and key rows are one logical bank page, not second question or answer
+  occurrences. The complete Q1–Q25 register closes once.
+- **Pages 19–29:** **63 MCQs Q90–Q152 / 62 underlined-option answer annotations**. Q115 has no
+  underlined option and remains unkeyed. Q136 is repeated across the page-26/page-27 bridge but is
+  one continuous numbered occurrence, not a second prompt. Page 29's `collected by Mariam Sameh`
+  is compiler attribution only.
+
+The exact checksums are **`31 + 31 + 25 + 63 = 150 MCQs`; `10 + 10 = 20 written`; `150 + 20 =
+170 prompts`; `30 grid answers + 25 printed-key answers + 62 underlined answers = 117 answers`;
+therefore `170 − 117 = 53 unkeyed operations`**. There are **0 diagnostic images, 0 drawing
+tasks, 0 practical stations, 0 candidate responses, and 0 unassigned residues**. Clinical and
+postmortem descriptions remain text questions because no specimen/image operation, station
+instruction, time, mark, or candidate field appears.
+
+All source wording, numbering, answers, and anomalies remain evidence without correction. This
+includes the duplicate Q30/Q31 lobar-pneumonia proposition, the Q31→Q90 numbering jump, phone
+status bars/page bubbles, black crop bars, the page-17/page-18 key overlap, the page-26/page-27
+Q136 bridge, spellings such as `myeloperoxiase` and `osponization`, the unrelated Turner-syndrome
+Q152, and potentially disputable answer choices. No printed or underlined answer is promoted to an
+official Helwan key or medically repaired.
+
+### Internal recurrence, prior-BMS comparison, and governed zero-search gate
+
+The carrier contains an exact 41-operation same-source prompt replay between pages 2–6 and 8–12,
+plus broad recurrence across the Dr Tarek, `Inflammation and Healing`, and Q90–Q152 banks.
+Repeated propositions cover chemotaxis, complement/opsonization, phagocytosis, exudates,
+suppuration, granulomas, acute/chronic inflammation, organization, and healing. All raw complete
+occurrences, exact replay relations, one-time overlap fragments, and supplied/absent answer states
+remain preserved source-locally; no eligible semantic-collapse count is invented after exclusion.
+
+These scopes also overlap prior governed BMS inflammation, infection, repair, pathology-bank,
+written, practical, and MCQ evidence, including the large Family-159 inflammation chapter.
+Institutional authority is resolved before semantic retention, however. Therefore neither
+internal recurrence nor prior overlap is assigned as eligible Helwan reuse.
+
+Family 184 yields **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted
+handles / 0 prior-BMS reuse assignments / +0 concepts**. Exactly four searches are required only
+per accepted new handle; the governed gate is **`0 accepted new handles × 4 = 0 required and
+completed searches`**. Searching provenance-excluded prompts cannot convert them into Helwan
+assessment evidence.
+
+### Family-184 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 184 source-local | Eligible delta | Auxiliary cumulative (Families 12–184) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 170 = 150 MCQ + 20 written | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 117; 53 unkeyed | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | provenance-excluded compilation | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external/generic only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-184 eligible arithmetic is independently zero. Corrected primary remains **762 / 405 / 552
+/ 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 184 establishes no Helwan question occurrence, official key, tested concept, sitting,
+recurrence, mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 184
+
+`src_5a816eabc9ffd3246fad` is exhausted across all 29 pages: every cover/author field, prompt
+operation, option set, written suboperation, answer-grid entry, printed-key entry, underlined
+answer, absent answer, full-page replay, overlap/bridge fragment, numbering anomaly, internal
+recurrence, prior-evidence relation, provenance term, eligibility term, and cumulative term is
+assigned once, with **zero remainder** and no Family-184 blocker.
+
+The immediate manifest successor is `src_9bca614057658d04392e` · `PATHO Q-BANK.pdf`, SHA-256
+`9bca614057658d04392e315313eb60db5cdcbfe70ff2b7be21fa7bde825f2331`, the byte-identical alias
+already exhausted once under Family 159; its manifest alias adds **zero second content** and must
+not become another family. The exact next unprocessed manifest record is tier-9
+`src_78d43325a1bdcfbceab8` · `Questions circulatory disturbance (1).pdf`, SHA-256
+`78d43325a1bdcfbceab83304fe44f961e47c6bc6156d99d9e46729115773a668`, **470,643 bytes**, **37
+native-text portrait A4 pages** under `Pathology / Questions`. Its visible authority, complete
+prompt/key boundary, tier-9 eligibility, four-search/prior-BMS disposition, arithmetic, and
+subsequent exact next-source debt remain to be separately reconciled.
