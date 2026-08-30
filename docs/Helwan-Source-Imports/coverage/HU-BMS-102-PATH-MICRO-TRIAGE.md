@@ -22507,3 +22507,72 @@ NADPH-reduced-glutathione map linking oxidant stress and iron oxidation to methe
 a CamScanner edge mark is visible. The filename timestamp is not an authenticated teaching or
 assessment date. Its provenance, teaching/prompt/answer/annotation boundary, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 221 — completed succinylcholine-apnea and G6PD-hemolysis mechanism teaching sheet
+
+### Source identity, complete full-resolution boundary, authority, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_851b22cc32f19465fb1f` · `2026-07-20 06.27.48.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `851b22cc32f19465fb1f6353447612f93fb2c7575c8e3ed510c82496b3182cf5` · **154,875 bytes** |
+| Format / complete read | **One 1280×904 landscape progressive JPEG**, JFIF 1.01 at 851 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. |
+| Complete visible content | A mixed Arabic/English handwritten sheet has two completed teaching panels. The succinylcholine panel identifies it as a neuromuscular blocker producing muscle relaxation and normally broken down by pseudocholinesterase; absent enzyme is mapped through persistent succinylcholine to severe muscular and respiratory paralysis and `Succinyl choline Apnea`. The RBC panel maps G6PD through NADP/NADPH and oxidized/reduced glutathione, with loss of protection permitting haemoglobin iron oxidation from Fe++ to Fe+++, methemoglobin, and hemolysis. |
+| Visible/metadata provenance | No author, university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. A CamScanner edge mark identifies scan processing, not academic authorship. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement only, while the filename timestamp remains a sequence aid rather than an authenticated teaching date or sitting. |
+| Sequence relation | This sheet follows Family 220's handwritten receptor-antagonism map and precedes a handwritten acetylator-phenotype sheet. Shared handwriting, colour coding, geometry, and scan context support notes-page continuity, not an assessment or answer-key relation. |
+| Authority | Low-authority unattributed teaching note. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+Every drug, enzyme, pathway component, causal arrow, outcome, and explanatory note is already
+supplied. The handwriting, boxes, bubbles, arrows, underlining, and colour changes constitute the
+source's completed instructional annotation layer, not answer markings or requested operations.
+There is no imperative, interrogative, blank, option set, response area, mark allocation, delayed
+key, unlabeled specimen, requested identification, or candidate answer.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Succinylcholine apnea, pseudocholinesterase deficiency, G6PD,
+oxidant injury, and hemolysis overlap Family 202's pharmacology bank, but completed declarative
+overlap is not a tested-proposition recurrence, so no prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 221 | Auxiliary cumulative (Families 12–221) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 221
+establishes completed pharmacogenetic/adverse-effect teaching and manifest-sequence evidence only,
+not assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 221
+
+`src_851b22cc32f19465fb1f` is exhausted at full image resolution: every visible drug, enzyme,
+pathway component, causal arrow, adverse outcome, annotation, emphasis mark, scan mark, provenance
+limitation, timestamp caution, sequence relation, zero gate, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-221 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_d2938d9fec673f43b1e9` ·
+`2026-07-20 06.27.53.jpg`, SHA-256
+`d2938d9fec673f43b1e962ad8ca7f7ecbe4e4624e418eb1cc78715177e606e93`, **109,298 bytes**,
+**1126×1280 portrait progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed handwritten `Acetylator phenotype` teaching map: rapid acetylation leads
+through increased toxic metabolites to hepatotoxicity, while slow acetylation branches from
+increased isoniazid to reduced vitamin B6/neurotoxicity and an SLE-like effect. The filename
+timestamp is not an authenticated teaching or assessment date. Its provenance,
+teaching/prompt/answer/annotation boundary, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
