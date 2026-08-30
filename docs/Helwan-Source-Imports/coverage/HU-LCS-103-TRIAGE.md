@@ -16681,3 +16681,90 @@ The exact next manifest-order debt is tier-6 `src_48a68ced0b58f01a25f0`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 77 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 154 — Tier-6 anonymous handwritten scalp nerve-supply teaching sheet
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_48a68ced0b58f01a25f0` / `48a68ced0b58f01a25f06e950e9c52419ccd28e34becba5ecab3128ad16c8664` |
+| File / boundary | `2026-07-20 05.33.24.jpg` · 239,235 bytes · progressive JFIF 1.01 JPEG · sRGB · 1816 × 2560 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.33.24.jpg` |
+| Visible / embedded provenance | The colour-coded handwritten sheet is headed `Nerve Supply`. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is anonymous tertiary teaching-note evidence, not a Helwan-authored lecture, assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. Section A supplies sensory
+scalp innervation from trigeminal branches—supratrochlear, supraorbital,
+zygomaticotemporal and auriculotemporal—and from the named great auricular, lesser
+occipital, great occipital and third occipital nerves. Section B supplies motor innervation
+from temporal and posterior-auricular branches of the facial nerve.
+
+There is **no assessment inventory**. `Sensory`, `Motor`, `Trigeminal`, `Cervical Plexus &
+Nerves` and `Facial` are section/category labels; arrows and braces organize supplied facts.
+No interrogative, learner instruction, response field, blank, mark allocation, option set,
+correctness mark or answer reveal appears. The exact boundary is therefore **0 eligible or
+external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment
+prompts**.
+
+Source wording and grouping are preserved without repair. The sheet prints `5Th Cranial
+Nerve`, `Auriculo temporal`, `lesser Occipital` and groups the great and third occipital nerves
+under `Cervical Plexus & Nerves`. These are retained source states, not silently normalized
+classification or inferred questions.
+
+### Practical and image boundary
+
+This is a handwritten textual teaching composition with arrows and coloured groupings, not
+an anatomical specimen, nerve-territory plate, numbered station or learner-completed map.
+Every named nerve relation is supplied. It adds **0 practical prompts / 0 teaching plates / 0
+mappings / 0 practical residues / 0 practical keys** and **0 live / 0 pending / 0 new**
+practical-teaching scopes.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The image consolidates to **2 source-distinct teaching handles**. Each handle received one
+query on each required surface.
+
+| Teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Trigeminal and cervical/occipital sensory supply of the scalp · section A | `scalp sensory supply`; `supraorbital supratrochlear zygomaticotemporal auriculotemporal`; `greater lesser third occipital great auricular`; `trigeminal cervical plexus scalp` | Exact accepted Families 1, 20, 36 and later external-bank scalp-innervation scope | prior-LCS teaching/tested reuse |
+| Facial-nerve temporal and posterior-auricular motor supply to the scalp · section B | `scalp motor supply`; `temporal branch facial nerve scalp`; `posterior auricular branch facial nerve`; `occipitofrontalis nerve supply` | Exact accepted Families 27 and 36 branch/OINA scope | prior-LCS teaching/tested reuse |
+
+All **2 × 4 = 8 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **2 prior-LCS reuses + 0 additive theoretical teaching scopes**. The
+theoretical teaching-scope delta is **0 live / 0 pending / 0 new**. It does not enter the
+eligible tested-concept or practical-teaching-scope totals. Search matches establish coverage
+only and do not validate or repair the anonymous notes.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This source hash occurs once in Family 153's remainder. Removing its sole path leaves **76
+all-rank path instances / 71 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **62 / 60**, and rank 9 **14 / 11**. Family 153's prior checksums are
+`69c797b0cdc266a51586d087bf7b4747c74e4262682e3b481efe38bd7b65e644` (paths) and
+`f537a5926e7d94f5e55419651c9158841e771938fcfe36ed2422fffa188bf50b` (unique hashes).
+For the exact post-Family-154 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`5f73fcbe4cee5b5776a00a0fb03a482ccfe47df13f3ddcfbf5695c24a9aff207`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`ea3350b4ca80e0159dad54d6693c6fee57082f1491523adf19ac8551ef63d20c`.
+
+The exact next manifest-order debt is tier-6 `src_4b58736645995e506da6`,
+`2026-07-20 05.43.17.jpg` (59,598 bytes; 1080 × 880 JPEG; SHA-256
+`4b58736645995e506da660513e412b683174658788607d0851ecb408a9518984`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 76 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
