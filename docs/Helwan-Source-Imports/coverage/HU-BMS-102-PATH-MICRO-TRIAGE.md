@@ -12400,3 +12400,90 @@ native-text 791×444.937-point landscape pages under `Pathology / Notes and Summ
 render/read, visible Dr Enas Elhosary / Faculty of Medicine / Helwan University provenance,
 teaching-versus-prompt/key/callout boundary, source-first searches, and prior-BMS reuse are the
 exact next-source blockers.
+
+## Family 117 — Dr Enas Elhosary Helwan Repair Lecture 1
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_b0d118dae8c72f3c7558` · `Repair 1 notes.pdf` |
+| SHA-256 / size | `b0d118dae8c72f3c7558e20fd741426c7584a9817d3d52ebc9aa3ca5925d4e17` · 5,311,424 bytes |
+| Format / complete visual boundary | Thirty-four native-text pages. Pages 1–9 and 11–33 are 791×444.937-point landscape slides; p. 10 is a taller 791×558.961-point handwritten insert, and p. 34 is a blank 791×1119.37-point portrait page. All 34 rendered at 150 dpi into 34 image files and were read individually at original detail; p. 34's white render is a verified blank carrier page, not a render failure. |
+| Native-text reality | Coherent extraction contains 1,450 words / 10,607 bytes and 34 page separators. It agrees with the rendered prose, while the renders establish handwritten annotations, highlights, diagrams, clinical/histology images, and the blank final page. The manifest's `native` label is accurate. The PDF has no form, encryption, or JavaScript. |
+| Visible provenance | The cover visibly prints `REPAIR (Healing) Lecture 1`, `Dr/ Enas Elhosary`, `Lecturer of Pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes visible Helwan authorship/teaching attribution. No module code, academic year, lecture date, or assessment sitting is printed. |
+| Metadata caution | Metadata identifies `iOS Version 18.3.2 (Build 22D82) Quartz PDFContext` and gives 19 April 2025 creation/modification timestamps. Those describe file production only; without a visible date they do not establish lecture delivery, academic year, or sitting. |
+| Authority | Helwan-authored tier-6 annotated lecture material. It is not a dated exam, written exercise, practical station, candidate response sheet, or official answer key. |
+
+### Complete page-first teaching, callout, practical-image, and prompt/key inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1–3 | Helwan/instructor cover; objectives; healing definition and regeneration-versus-fibrosis distinction | Provenance, intended learning outcomes, and completed definitions; objective verbs such as `IDENTIFY`, `Illustrate`, and `RECOGNIZE` state lecture aims, not candidate instructions; **0 prompts / 0 answers**. |
+| 4–8 | Completed labile/stable/permanent-cell classification; cell properties/examples; regeneration/fibrosis processes and injury-depth diagram; factors governing regenerative capacity | Populated teaching diagrams, definitions, and handwritten explanatory annotations; **0 / 0**. |
+| 9–12 | Resolution definition/conditions; handwritten growth-factor definition and function; growth-factor sources/actions; extracellular-matrix components and details | `What is resolution?`, handwritten `function?`, `What are growth factors controlling healing process?`, and `What are extracellular matrix components (ECM)?` are four excluded teaching callouts, each immediately resolved on the same slide; no learner-response space or key convention; **0 / 0**. |
+| 13–21 | Regeneration divider; bone structure/types; seven fracture-healing stages; callus types; and completed sequential fracture diagrams | Declarative teaching, completed labels, and annotations. Image arrows identify supplied stages and structures; no practical identification instruction; **0 / 0**. |
+| 22–27 | Fibrosis divider and definition; scar-formation phases; granulation-tissue clinical/histology plate; scar maturation, parenchymal-organ fibrosis, and scar image | Completed teaching and labelled images. The p. 23 handwritten `why?` is answered in place by the glial-tissue explanation and is one excluded teaching callout; **0 / 0**. |
+| 28–30 | Cirrhosis mechanism, acute-regeneration versus chronic-fibrosis distinction, note on preserved/destroyed framework, and annotated paired liver histology | Completed prose, note, and image labels. The p. 28 handwritten `fate? → Cancer` is one excluded annotation callout with its answer supplied, not an assessment prompt or student response; **0 / 0**. |
+| 31–32 | CNS gliosis, peripheral-nerve regeneration sequence, and completed labelled nerve-injury/degeneration/regeneration diagrams | Supplied teaching and labels; no practical task; **0 / 0**. |
+| 33–34 | `Thank you` slide with decorative Arabic farewell, followed by a completely blank tall page | Closing matter and verified blank carrier page; **0 / 0** and no prompt residue. |
+
+Highlights, underlines, circles, arrows, colored handwritten glosses, and image labels explain or
+emphasize already supplied teaching. They do not encode correctness or a deck-wide answer
+convention. The **six excluded question-form/annotation teaching callouts** on pp. 9–12, 23, and
+28 are all locally answered; none provides a candidate-response interval or survives as an
+assessment item.
+
+There is no exam heading, numbered assessment series, option set, response blank, mark allocation,
+candidate instruction, practical/image-identification request, student answer, selective
+correctness mark, or separate key anywhere in the carrier. The source therefore contributes **0
+raw prompt occurrences / 0 printed or handwritten teaching-answer occurrences / 0 unkeyed
+occurrences / 0 prompt-like residues / 0 retained records / 0 source-distinct tested handles / 0
+concept additions**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+The deck thematically overlaps prior healing, regeneration, growth-factor, extracellular-matrix,
+fracture-healing, fibrosis, cirrhosis, and nerve-repair material. It also supplies teaching for
+several Family-116 Q&A scopes. Completed lecture teaching and locally resolved callouts do not
+create source-tested handles, so none of those relations is counted as an exact assessment-handle
+reuse or a new concept.
+
+No accepted handle survives the completed-teaching boundary. The source-first gate is exactly
+**0 handles × 4 = 0 required searches**; no external-disposition or prior-handle row is
+fabricated.
+
+| Measure | Family 117 | Auxiliary cumulative (Families 12–117) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 974 | 765 | 1,739 |
+| Printed/handwritten teaching-answer occurrences | 0 | 555 | 405 | 960 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Excluded teaching callouts | 6 | — | — | outside prompt totals |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 914 | 552 | 1,466 |
+| Source-distinct tested handles / required searches | 0 / 0 | 820 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +545 over primary | 372 | `372 + 545 = 917` |
+| **Distinct tested concepts** | **+0** | **545 auxiliary additions** | **372** | **917** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**974 / 555 / 914 / 820 / +545**; and all eligible evidence remains
+**1,739 / 960 / 1,466 / 917**. Family 117 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 117
+
+`src_b0d118dae8c72f3c7558` is exhausted across all 34 pages: every visible and metadata
+provenance field, objective, teaching slide, handwritten annotation, completed diagram/image
+label, locally resolved callout, variable-size page, blank final page, zero-search gate, prior-
+source relation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-117 blocker. The exact next manifest record is tier-3
+`src_932f5302a132003041e5` · `Thrombus & Embolism.pdf`, SHA-256
+`932f5302a132003041e5b106968be782a6eea3dbf91d537ff61295e6e9b8a55d`, 460,844 bytes, nine
+native-text portrait A4 pages. The same SHA is also carried as `Questions / MCQs / MCQs - L13
+MCQ.pdf`, and the manifest records each path as the other's duplicate. Its exact-carrier
+authority, Dr Ahmed Hassan provenance, complete MCQ prompt/key boundary, prior-BMS reuse, and
+duplicate disposition are the exact next-source blockers.
