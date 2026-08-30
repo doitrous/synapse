@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "8ac37b542d3ce9a1f8f86a9f6cbad36dcc88eac0e8aa3c0d207fd5ac380f38b2",
-    "triageMarkdown": "5c6823b360dfb25d008645efdf5e2f72ee22ecf4cfff475c7bcec0d2a607831f"
+    "readinessMarkdown": "0fe1362c5b96dade27ec263fb032c81fbc9b9f1017fa135c854d0c1cdaac44fa",
+    "triageMarkdown": "916f93cfb85410e5d3231ed9b5f557abaf8c09ba75b118c51794c6a92708ae50"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,6 +69,7 @@
       "3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b",
       "366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd",
       "396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358",
+      "39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af",
       "3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b",
       "3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa",
       "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
@@ -144,7 +145,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 92
+    "uniqueSha256": 93
   },
   "completedSourceCoverage": [
     {
@@ -2995,6 +2996,39 @@
         "the page-1 exception note and page-2 loss-of-sensation arrow are retained only as visibly supplied teaching content and are not reconstructed",
         "question marks function as note headings rather than response instructions"
       ]
+    },
+    {
+      "sha256": "39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af",
+      "sourceImages": 1,
+      "originalPixelDimensions": "8397x4622",
+      "renderedReadImages": "1",
+      "teachingMindMapImages": 1,
+      "majorTopicBranches": 9,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Absalam101 teaching mind map with visible Mapify branding and a central TXT-source icon; the image supplies no institution, department, named examiner, sitting, marks or official-key claim",
+      "boundaryDisposition": "one fully labeled teaching mind map branches into adduction and medial rotation, extension, flexion, nerve supply to muscles, nerve supply derived from muscle names, multiple origins, multiple insertions, angles of abduction and additional notes; every leaf supplies its fact, with no blank label, response instruction, objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "filename attribution is not promoted to verified authorship",
+        "Mapify-generated wording, capitalization and selective anatomy claims remain uncorrected source observations",
+        "the central TXT icon and attachment symbol do not provide the underlying text source and no absent content is reconstructed"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3006,20 +3040,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 9,
-    "uniqueSha256": 9,
-    "sortedNewlineSha256": "d7b0a8a798f79c77fbfd8c3557f37a8a4da26f7f3697817817407bdd4955e6fe",
+    "inventoryMetadataRows": 8,
+    "uniqueSha256": 8,
+    "sortedNewlineSha256": "f6f6949e9968e2b2d56febc315f93de00dad8672fd2c9a28d49257a5640910ab",
     "auditSampleStatusCounts": {
-      "audit-not-found": 9
+      "audit-not-found": 8
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 9
+    "audit-not-found": 8
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 92,
-    "remainingUniqueSha256": 9,
+    "processedUniqueSha256": 93,
+    "remainingUniqueSha256": 8,
     "processedPlusRemaining": 101
   }
 }

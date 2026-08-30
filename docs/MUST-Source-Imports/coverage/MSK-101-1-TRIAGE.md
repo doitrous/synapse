@@ -3713,3 +3713,39 @@ Removing the ninety-two processed unique hashes leaves **9 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).png`, SHA-256 `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af`, one image.
 
 **BLOCKED — S1 cannot be approved:** 9 selected inventory paths / 9 unique hashes remain untriaged.
+
+## Completed teaching-only source — Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101)
+
+| Source path | SHA-256 | Images | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).png` | `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af` | 1 | audit-not-found inventory label | original 8397×4622 image and enlarged regions inspected | Filename-attributed Absalam101 teaching mind map with visible `Mapify — Anything to mind maps` branding, a central TXT-source icon and an attachment symbol. No institution, department, named examiner, examination sitting, marks or official key appears, and the underlying text input is not embedded in the image. |
+
+### Exact objective, written, practical, image and teaching boundary
+
+The single image is a fully labeled teaching mind map titled `Muscles and Nerve Supply in the Upper Limb Notes`. Nine major branches cover adduction and medial rotation, extension, flexion, nerve supply to muscles, nerve supply derived from muscle names, muscles with multiple origins, muscles with multiple insertions, angles of abduction and additional notes. Every terminal leaf supplies its muscle, nerve, movement, angle, origin/insertion count or explanatory fact.
+
+The exact boundary is **1 teaching-only mind-map image / 9 fully labeled major topic branches / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. Nothing is blanked, no label is withheld, and no response instruction or station direction appears.
+
+### Authority, source truth and search gate
+
+Filename attribution is not promoted to verified authorship. Visible Mapify branding establishes only the mind-map tool, not MUST/MSK, faculty, examiner, sitting or official-key authority. Mapify-generated wording, capitalization and selective anatomy claims remain uncorrected source observations. The central TXT icon and attachment symbol do not expose the underlying input, so no absent content is reconstructed.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. A fully supplied teaching mind map is not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-three processed unique hashes leaves **8 selected inventory paths / 8 unique SHA-256s**. Their sorted, newline-joined hash checksum is `f6f6949e9968e2b2d56febc315f93de00dad8672fd2c9a28d49257a5640910ab`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 8 audit-not-found rows, and unique-hash accounting is **`93 + 8 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Ms. Of the Shoulder & Back (by Shaheen).pdf`, SHA-256 `5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 8 selected inventory paths / 8 unique hashes remain untriaged.
