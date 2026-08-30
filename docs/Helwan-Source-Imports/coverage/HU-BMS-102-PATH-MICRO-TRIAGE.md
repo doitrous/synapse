@@ -7501,3 +7501,122 @@ Medical Microbiology and Immunology, Faculty of Medicine, Capital University, de
 folder placement. That provenance conflict and its unread teaching/prompt/answer boundary are the
 next-source processing blockers: fully render and visually adjudicate the complete source before
 admitting any count.
+
+## Family 67 — tier-4 Capital University pathogenesis lecture stored in the Helwan corpus
+
+### Source identity, complete visual boundary, and provenance-conflict ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_3421268698cd980b9c24` · `3. Bacterial pathogenesis.pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 4 - Bacterial Pathogenesis/3. Bacterial pathogenesis.pdf` |
+| SHA-256 / size | `3421268698cd980b9c247c51f238557479157da1db118a4bda10ba8abd5fe34d` · 3,539,704 bytes |
+| Format / read boundary | 38 native-text landscape 720×540-point pages; native text extracted, all 38 pages rendered at 120 dpi and read in five ordered contact sheets, and pp. 4–6, 8–9, and 34–35 reopened at full-page resolution |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Theoretical` · tier 4; `originUniversityHint` is null |
+| Visible provenance | The p. 1 cover explicitly attributes the lecture to Dr. Esraa Farag, Lecturer of Medical Microbiology & Immunology, Faculty of Medicine, **Capital University** |
+| Provenance adjudication | The explicit cover attribution controls authorship: this is Capital University teaching material stored inside the Helwan BMS-102 folder, not Helwan-authored material. PDF `Author: Hewlett-Packard` is device/software metadata and does not override the visible institutional attribution. The manifest is preserved unchanged. |
+| Authority | Externally authored theoretical teaching deck; no examiner, sitting, date, marks, candidate instructions, response form, question-bank designation, or official exam key |
+
+Pages 2–3 introduce objectives and pathogen/commensal/opportunist categories. Pages 4–9 use
+three teaching-reveal patterns: a standalone opportunism question followed by three conditions,
+three carrier-property questions with answers printed beside them, and a standalone carrier-
+seriousness question followed by four reasons. Pages 10–33 are declarative definitions,
+classifications, diagrams, virulence-factor lists, toxin descriptions, and mechanism sequences.
+Pages 34–35 form one blank-versus-completed nine-row exotoxin/endotoxin comparison exercise.
+Pages 36–38 are a Koch image, four declarative postulates, and a closing slide.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–3 | Capital University cover, objectives, and microorganism categories | provenance/teaching only; **0 / 0** |
+| 4–5 | `How can commensals become opportunistic?` followed by lowered host defense, altered host tissue, and change of natural habitat | **1 / 1** teaching-reveal pair |
+| 6 | Three explicit carrier-property questions, each with a red answer printed beside it | **3 / 3** |
+| 7 | transient/permanent carrier classification | declarative teaching; **0 / 0** |
+| 8–9 | `Are carriers serious?` followed by `Why carriers are serious?` and four reasons | **1 / 1** teaching-reveal pair; the two slides are one tested unit, not two prompts |
+| 10–33 | infection/disease, infection cycle, disease-production factors, virulence, adherence/invasion/intracellular survival, antigenic variation, and toxin mechanisms | declarative teaching only; **0 / 0** |
+| 34–35 | one blank nine-property exotoxin/endotoxin matrix followed by the completed matrix | **1 / 1** source-internal comparison mapping |
+| 36–38 | Koch image, declarative four-postulate list, and closing | teaching/closing only; **0 / 0** |
+
+The complete source therefore contains **6 prompt occurrences / 6 printed teaching-answer
+occurrences / 0 unkeyed prompt occurrences**. The dedicated question/reveal and blank/reveal
+slides are response-complete teaching exercises; headings, objectives, labelled diagrams,
+declarative lists, and Koch's numbered criteria are not recast as prompts. There are no literal
+prompt copies or incomplete units, so all **6** records are retained. The three carrier-property
+questions are separate observed and retained records but exercise one shared carrier-
+characteristics scope; `6 - 2 semantic reductions = 4 source-distinct tested handles`.
+
+### Prompt, teaching-answer, carrier relationship, and prior-BMS assignment
+
+| Ref | Page(s) | Complete source-tested scope / printed answer | Handle / prior assignment |
+|---|---:|---|---|
+| F67-Q01 | 4–5 | Conditions under which commensals become opportunists; lowered host defense, altered host tissue, and change in natural habitat | `commensal-to-opportunist-conditions` · exact Family 12 P01 reuse |
+| F67-Q02 | 6 | Whether a carrier is healthy or diseased; `Healthy` | `bacterial-carrier-asymptomatic-transmission-characteristics` · shared handle with Q03–Q04; exact Family 24 Q04 reuse |
+| F67-Q03 | 6 | Whether a carrier possesses a microorganism; `Possess microorganism` | retained component of the Q02–Q04 carrier-characteristics handle |
+| F67-Q04 | 6 | Whether a carrier transmits a microorganism; `Transmit microorganism` | retained component of the Q02–Q04 carrier-characteristics handle |
+| F67-Q05 | 8–9 | Why carriers are serious in spreading infection; four printed reasons | `infection-carrier-spread-significance` · exact Family 12 P02 / Family 23 W01 reuse |
+| F67-Q06 | 34–35 | Compare exotoxin and endotoxin across nine printed properties | `exotoxin-versus-endotoxin-comparison` · exact Family 12 P04 reuse |
+
+This full lecture is the underlying teaching carrier for the pathogenesis scopes summarized in
+Family 37's nine-page `Helwan S2 Micro Lecture 4.pdf` notes. The two records are not byte twins.
+Family 37's notes remain a zero gate because their condensed layouts present headings and
+already-labelled teaching content without the source deck's separated question/reveal and blank/
+completed-table response patterns. That derivative relationship does not create a new concept or
+retroactively change Family 37's source-local boundary.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the four handles received exactly four fresh source-first searches across live state,
+every pending import root, and prior BMS-102 evidence: **16 required searches**. Reopened
+external disposition is **0 live / 0 pending / 4 no same-scope**; the partial pending toxin
+records do not cover the full nine-row comparison.
+
+| Handle · refs | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `commensal-to-opportunist-conditions` · Q01 | `commensal opportunistic conditions`; `low host defense altered tissue habitat commensal`; `normal flora becomes opportunistic`; `commensal to opportunist` | no same-scope | exact Family 12 P01 reuse |
+| `bacterial-carrier-asymptomatic-transmission-characteristics` · Q02–Q04 | `bacterial carrier characteristics asymptomatic transmission`; `carrier no clinical symptoms not confined bed`; `infection carrier carry microorganisms transmit`; `carrier characteristics microbiology` | no same-scope | exact Family 24 Q04 reuse |
+| `infection-carrier-spread-significance` · Q05 | `carrier spread infection significance`; `asymptomatic carrier epidemic spread`; `why carriers serious infection spread`; `infection carrier no manifestations` | no same-scope | exact Family 12 P02 / Family 23 W01 reuse |
+| `exotoxin-versus-endotoxin-comparison` · Q06 | `exotoxin endotoxin comparison`; `protein lipid toxin toxoid heat stability`; `exotoxin versus endotoxin`; `bacterial toxins comparison table` | no same-scope; narrower toxin records are not the full comparison | exact Family 12 P04 reuse |
+
+All **4** source handles are exact prior-BMS reuses, so **4 - 4 = +0 concepts**.
+
+| Measure | Family 67 | Auxiliary cumulative (Families 12–67) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 6 | 633 | 765 | 1,398 |
+| Printed teaching-answer occurrences | 6 | 345 | 405 | 750 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Retained question records | 6 | 607 | 552 | 1,159 |
+| Source-distinct tested handles / required searches | 4 / 16 | 572 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 4 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 4 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +410 over primary | 372 | `372 + 410 = 782` |
+| **Distinct tested concepts** | **+0** | **410 auxiliary additions** | **372** | **782** |
+
+The checksum closes without remainder: `6` prompt starts receive `6` printed teaching answers
+and leave `0` unkeyed occurrences; retention is `6 - 0 copies = 6`; handle assignment is `6 - 2
+semantic reductions = 4`; searches are `4 × 4 = 16`; external disposition is `0 + 0 + 4 = 4`;
+and concept arithmetic is `4 - 4 prior exact reuses = 0`. Auxiliary cumulative arithmetic is
+`627 + 6 = 633` prompts, `339 + 6 = 345` answers, `601 + 6 = 607` retained records, `568 + 4
+= 572` source handles, and `410 + 0 = 410` concept additions. All eligible arithmetic is `765
++ 633 = 1,398`, `405 + 345 = 750`, `552 + 607 = 1,159`, and `372 + 410 = 782`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**633 / 345 / 607 / 572 / +410**; and all eligible evidence is
+**1,398 / 750 / 1,159 / 782**. This externally authored teaching lecture contributes only
+auxiliary prompt/reveal evidence. It cannot establish Helwan authorship or independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 67
+
+`src_3421268698cd980b9c24` is exhausted across all 38 pages: every provenance/objective/
+closing page, declarative teaching slide, prompt/reveal pair, response matrix, printed teaching
+answer, retained record, handle, search row, prior-BMS reuse, and Capital-University-versus-
+Helwan-folder provenance decision is assigned once, with **zero source remainder** and no
+Family-67 blocker. The next manifest-ordered unprocessed BMS-102 record is tier-4
+`src_1245d519caac809922c3` · `BACTERIAL GENETICS [1].pdf`, SHA-256
+`1245d519caac809922c3e2db0ae5587e6c5ba2e7bae1518feadaaa8f5b4a1dd9`, 2,192,977 bytes,
+52 native-text landscape 792×612-point pages under `Microbiology / Theoretical / Lec 5 -
+Bacterial Genetics 1`; the manifest marks it as the preferred same-name twin. Its visible cover
+attributes the lecture to Ehab Mohamed Fahmy, Associate Professor of Medical Microbiology and
+Immunology, Faculty of Medicine–Capital University and Acting Head of Microbiology Department.
+That second provenance conflict, preferred-twin relationship, and its unread complete teaching/
+prompt/answer boundary are the next-source processing blockers: fully render and visually
+adjudicate the source before admitting any count.
