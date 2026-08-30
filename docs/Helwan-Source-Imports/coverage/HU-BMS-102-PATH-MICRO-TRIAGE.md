@@ -6100,3 +6100,62 @@ candidate is tier-6 `src_ed9c2f2519f1a617d22d` · `jpg2pdf.pdf`, SHA-256
 two OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its unread two-page visual
 boundary is the next-source processing blocker: fully render and adjudicate prompt, teaching,
 and answer conventions before admitting any count.
+
+## Family 55 — tier-6 microscopy, culture-media, and susceptibility teaching collages
+
+### Source identity, complete visual boundary, and zero-question gate
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_ed9c2f2519f1a617d22d` · `jpg2pdf.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/jpg2pdf.pdf` |
+| SHA-256 / size | `ed9c2f2519f1a617d22decd60ea68fe75d97cbf4ee78e99274dc9553a1031d9b` · 1,029,985 bytes |
+| Format / read boundary | Two OCR-needed portrait pages; both physical pages rendered at 220 dpi and visually read in full |
+| Authority | Unattributed image-collage revision aid with embedded third-party diagrams and mixed English/Arabic notes; no Helwan/university or faculty masthead, module code, author, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is a continuous declarative practical-microbiology collage: light-microscope parts
+and objective labels; smear-preparation steps; bacterial shapes; Gram- and Ziehl–Neelsen-staining
+sequences; a light-versus-electron-microscope comparison; labelled organism micrographs;
+alpha/beta/gamma haemolysis examples; autoclave, broth, and incubator images; and simple,
+enriched, selective, and differential culture-media lists. Physical p. 2 is another declarative
+collage: disc diffusion and its five steps, 0.5 McFarland turbidity, tube-dilution MIC, E-test,
+susceptibility equipment, and labelled media examples including peptone water, nutrient broth/
+agar, blood and chocolate agars, Lowenstein–Jensen, blood tellurite, MacConkey, TSI, sugar
+fermentation, mannitol salt, Robertson cooked meat, and anaerobic GasPak culture.
+
+Every visible unit is a heading, label, caption, comparison entry, process step, example, image,
+or explanatory Arabic note. A note saying that tube dilution may be asked about is teaching
+advice, not a presented learner prompt. Across both pages there is no complete or partial
+assessment stem, option set, response blank, question number, answer convention, correctness
+mark, or printed key. Images, colours, arrows, and spatial groupings are not treated as answers.
+
+The complete-source gate is therefore **0 prompt occurrences / 0 printed-answer occurrences / 0
+retained records / 0 prompt-derived handles / 0 required searches / +0 concepts**. Existing
+topical overlap in microscopy, staining, culture media, and antimicrobial susceptibility is
+declarative only and creates no prompt-level dedupe or search work.
+
+| Measure | Family 55 gate | Auxiliary cumulative (Families 12–55) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 469 | 765 | 1,234 |
+| Printed study-answer occurrences | 0 | 207 | 405 | 612 |
+| Retained question records | 0 | 464 | 552 | 1,016 |
+| Source-distinct tested handles / required searches | 0 / 0 | 443 / — | — | — |
+| Cross-family concept delta | +0 | +321 over primary | 372 | `372 + 321 = 693` |
+| **Distinct tested concepts** | **+0** | **321 auxiliary additions** | **372** | **693** |
+
+Complete-page arithmetic is `0 prompts - 0 copies = 0 retained`, `0 printed answers`, `0
+prompt-derived handles`, `0 required searches`, and `+0` concepts. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **469 / 207 / 464 / 443 / +321**; and all eligible
+evidence remains **1,234 / 612 / 1,016 / 693**. This tier-6 teaching-only gate cannot raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 55
+
+`src_ed9c2f2519f1a617d22d` is exhausted across both physical pages with a complete teaching-
+versus-prompt ruling and **zero source remainder**. The next manifest-ordered local BMS-102
+candidate is tier-6 `src_23c79568d55a3bfc4b0d` · `sterilization and disinfection.pdf`, SHA-256
+`23c79568d55a3bfc4b0d72b420631a134da158b78399040a74dcc025e3788d4a`, 631,435 bytes, two
+native-text pages under `Microbiology / Notes and Summaries`. Its unread two-page prompt and
+answer-convention boundary is the next-source processing blocker: fully render and visually
+adjudicate all material before admitting any count.
