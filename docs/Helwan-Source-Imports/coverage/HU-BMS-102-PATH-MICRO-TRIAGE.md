@@ -20388,3 +20388,96 @@ Pathology, Faculty of Medicine, Helwan University, while metadata names `fmt` an
 February 2026. Its complete visible authority/date boundary, teaching/prompt/key/callout/practical
 split, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
 adjudicated.
+
+## Family 194 — Enas Elhosary Cell Injury 1 teaching carrier with terminal CBL answer reveal
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_7c79d90e00f17c534be6` · `Cell injury lecture 1.pdf` under the exact local `Pathology / Theoretical / Lec 2 - Cell Injury 1` folder |
+| SHA-256 / exact size | `7c79d90e00f17c534be66ba3cfa964bf2972c7a4767985e9c1a20d05469350f0` · **4,436,783 bytes** |
+| Format / complete read | **51 native-text 960×540-point landscape pages**. All 51 pages were rendered into 51 non-empty 2000×1125-pixel images and read individually at original detail. Native extraction contains **1,046 words / 9,228 bytes** and agrees with every visible cover field, teaching list, mechanism map, gross/microscopic plate, CBL stem, option, answer panel, and closing slide. |
+| Visible authority | Page 1 visibly identifies `CELL INJURY 1`, **Dr Enas Megahed Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**. This source-facing attribution and exact BMS-102 theoretical placement establish Helwan teaching authority. No page visibly prints a module code, academic year, lecture date, or exam sitting. |
+| Metadata caution | Metadata title is `Cell injury`; author is `fmt`; creator/producer is Microsoft PowerPoint LTSC; and creation/modification is 23 February 2026. These are retained as carrier history only. They do not override visible Enas Elhosary authorship or independently authenticate a teaching year or exam sitting. |
+| Family-92 relation | This 51-page, 960×540, different-SHA current carrier is not a byte duplicate of the 60-page, 791×445 Family-92 annotated deck. It is a shorter variant of the same core lecture: current pp.49–50 reproduce the Family-92 pp.58–59 CBL prompt/reveal, but current p.49 lacks Family 92's handwritten blue check and `Fatty change` annotation. The repeated prompt is governed as a present source occurrence and an exact prior tested-handle reuse, not a new concept. |
+| Authority | Tier-4 Helwan theoretical teaching material with one terminal CBL MCQ and a source-native teaching-answer reveal. It is not a dated exam, official departmental key, mark scheme, candidate response, or practical station. |
+
+### Complete page-first teaching, image, prompt, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–2 | Instructor/Helwan cover and objectives/ILOs | Provenance and teaching objectives; command verbs describe intended learning, not present candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 3–16 | Cell response to injury; causes and determinants; organelle overview; ATP depletion, reactive oxygen species, mitochondrial injury, calcium influx, membrane damage, and reversible-versus-irreversible transition | Completed declarative teaching and labelled mechanism maps; the printed `Reversible stage?` is a node inside a completed flow diagram, not a learner operation; **0 / 0 / 0**. |
+| 17–24 | Cloudy swelling and hydropic degeneration definitions, pathogenesis, gross/microscopic morphology, organ examples, and completed histology plates | Declarative teaching and diagnosis-disclosing images; **0 / 0 / 0**. |
+| 25–32 | Fatty change definition, mechanism, causes, affected organs, gross/microscopic patterns, special stains, liver/heart photographs and histology, consequences, and completed end-result recap | Declarative and labelled teaching. Circles/arrows identify taught morphology; no image requests a diagnosis or action; **0 / 0 / 0**. |
+| 33–48 | Necrosis versus apoptosis; irreversible injury; cytoplasmic/nuclear changes; and coagulative, liquefactive, caseous, fat, gangrenous, and fibrinoid necrosis with completed gross/microscopic plates | Completed definitions, classifications, diagrams, and diagnosis-disclosing plates; **0 / 0 / 0**. |
+| 49 | CBL MCQ asking the liver-biopsy finding in a diabetic/fatty patient with anemia and liver enlargement; four options are printed and none is marked | **1 MCQ prompt / 0 supplied answers / 1 unkeyed occurrence**. |
+| 50 | Near-literal replay of the same CBL stem/options, with option A expanded from `Apoptotic in liver` to `Apoptotic bodies in liver`, plus `Answer: D Signet ring liver cells.` | **1 copied MCQ prompt / 1 source-supplied teaching answer**. The minor option correction does not change the tested proposition; exclude the answer-copy from retention after preserving its occurrence, wording anomaly, and answer. |
+| 51 | `Thank you` terminal slide | Closing residue only; **0 / 0 / 0**. |
+
+The governed boundary is therefore **2 raw prompt occurrences = 1 unkeyed MCQ + 1 near-literal
+answer copy**, with **1 source-supplied teaching-answer occurrence**. There are **0 image prompts,
+0 drawing tasks, 0 practical stations, 0 candidate responses, and 0 unassigned residues**.
+Objective verbs, completed maps, diagnosis labels, arrows, circles, slide decorations, option
+letters, and closing matter are assigned without becoming extra prompts, answers, or stations.
+
+### Source-first retention, four-search ledger, and prior-BMS reconciliation
+
+The p.50 reveal repeats p.49's stem and tested option set; expanding option A from `Apoptotic` to
+`Apoptotic bodies` is a wording correction, not a new tested scope. Thus **`2 raw - 1 answer-copy
+exclusion = 1 retained question record = 1 accepted handle`**. That handle received exactly four
+fresh source-first searches across live governed state, `docs/questions-import-ready`, Helwan
+coverage, and prior BMS Families 1–193: **`1 × 4 = 4 required and completed searches`**.
+
+| Ref(s) / accepted handle | Exactly four required queries | External exact-scope disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| pp.49–50 · `diabetes-anemia-hepatomegaly-fatty-liver-signet-ring` | `diabetic fatty patient anemia liver enlargement`; `liver biopsy anemia diabetes signet ring hepatocytes`; `fatty change signet ring liver cells`; `diabetes anemia hepatomegaly hepatic steatosis` | no same-scope | exact Family-92 CBL handle reuse; Family-132 atomic signet-ring morphology is also contained |
+
+External exact-scope arithmetic is **0 live / 0 pending / 1 no same-scope**. Prior-BMS
+reconciliation assigns **1 exact handle reuse**, so **`1 - 1 = +0 concepts`**. The current
+carrier's declarative teaching overlap preserves source context but does not create tested handles.
+
+### Family-194 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 194 | Auxiliary cumulative (Families 12–194) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 2 = 1 unkeyed + 1 answer copy | 2,549 | 762 | 3,311 |
+| Source-supplied answers | 1; the first occurrence is unkeyed | 1,669 | 405 | 2,074 |
+| Retained question records | 1 | 2,257 | 552 | 2,809 |
+| Accepted handles / required searches | 1 / 4 | 2,039 / — | — | — |
+| Prior-BMS handle reuses | 1 | — | — | — |
+| Cross-family concept delta | +0 | +972 over primary | 372 | 1,344 |
+| **Distinct tested concepts** | **1 source-local / +0** | **972 additions** | **372** | **1,344** |
+
+Checksums: `1 unkeyed occurrence + 1 answer copy = 2 prompts`; `0 + 1 = 1 supplied answer`;
+`2 - 1 answer-copy exclusion = 1 retained`; `1 - 0 semantic reductions = 1 handle`; `1 × 4 =
+4 searches`; and `1 - 1 = +0 concepts`. Auxiliary arithmetic is `2,547 + 2 = 2,549`, `1,668
++ 1 = 1,669`, `2,256 + 1 = 2,257`, `2,038 + 1 = 2,039`, and `972 + 0 = 972`. All
+eligible arithmetic is `762 + 2,549 = 3,311`, `405 + 1,669 = 2,074`, `552 + 2,257 =
+2,809`, and `372 + 972 = 1,344`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,549 prompts / 1,669 answers /
+2,257 retained / 2,039 handles / +972 concepts**. All eligible is **3,311 / 2,074 / 2,809 /
+1,344**. Family 194 establishes Helwan theoretical teaching and one source-native CBL teaching
+answer only, not an exam sitting, official departmental key, mark weight, candidate response,
+practical station, readiness, or claims status.
+
+### Exact next debt after Family 194
+
+`src_7c79d90e00f17c534be6` is exhausted across all 51 pages: every visible authority and metadata
+field, objective, teaching list, mechanism map, labelled gross/microscopic plate, CBL prompt,
+option, absent and present answer state, wording anomaly, answer-copy exclusion, search packet,
+prior-family relation, closing residue, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-194 blocker.
+
+The exact next unprocessed manifest record is the tier-4 non-preferred name twin
+`src_f777eedff88b6dca2166` · `Cell-injury-lecture-2.pdf`, SHA-256
+`f777eedff88b6dca216656eb373fb0612128fff63276683e7299bd8c97ae77a4`, **1,707,380 bytes**,
+**34 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 3 - Cell Injury
+2`. It is a distinct-SHA twin of preferred Family-93 `src_034276f9ba5a61ea711a`. Its first
+visible text identifies `CELL INJURY 2`, Dr Enas Megahed Elhosary, Lecturer of Pathology, Faculty
+of Medicine, Helwan University, while metadata names `fmt` and records 28 February 2026. Its exact
+twin/content-reuse relation, complete visible authority/date boundary, teaching/prompt/key/callout/
+practical split, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
