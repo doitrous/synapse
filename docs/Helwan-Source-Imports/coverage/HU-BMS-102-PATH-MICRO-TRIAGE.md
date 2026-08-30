@@ -14756,3 +14756,156 @@ The manifest snippet visibly attributes `Repair, Circulatory & BENGIN TUMOR (Vir
 Enas Megahed Elhosary, Faculty of Medicine, Helwan University. Its exact carrier, complete
 teaching-versus-practical/prompt/key boundary, searches, prior reuse, and arithmetic are the exact
 next-source blockers.
+
+## Family 140 — Dr Enas Elhosary Helwan repair, circulation, and benign-tumour virtual lab
+
+### Source identity, full visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_201a33661e033200981c` · `Repair, Circulatory and Benign tumor (Virtual Lab).pdf` under `Pathology / Practical Labs / Prelabs / Pre Lab 3 - Repair & Circulation` |
+| SHA-256 / size | `201a33661e033200981ce9d9a8bbac3ef4ca2c6d8a4ddd96b1658b76d0827614` · 8,791,309 bytes |
+| Format / complete visual boundary | 63 native-text landscape pages, each 960×540 points. All 63 pages were rendered at 150 dpi into 63 non-empty 2000×1125-pixel images and read individually at full detail; four complete contact sheets, per-page extraction, layout extraction, and raw extraction were also read through the final page. There is no page, crop, image, label, response field, or text remainder. |
+| Native-text reality | Layout extraction contains 1,105 words / 8,387 bytes and raw extraction contains 944 words / 7,219 bytes. Both preserve the question text, options, case narratives, and teaching prose; visual review is required to associate gross/microscopy fields, reveal slides, arrows, and labels with their governing prompts. The manifest's `native` label is accurate and visual review controls classification. |
+| Visible provenance | Page 1 visibly reads `REPAIR, CIRCULATORY & BENGIN TUMOR (VIRTUAL LAB)`, `Dr/ Enas Megahed Elhosary`, `Lecturer of pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes named instructor, faculty, university, and virtual-lab teaching provenance. The source misspelling `BENGIN` is retained. No module code, academic year, delivery date, candidate identity, or sitting is visible. |
+| Metadata caution | Metadata title is generic `Title Layout`; author is `wafeya wesam`; creator/producer is Microsoft PowerPoint LTSC; creation/modification timestamp is 5 April 2026. The metadata author conflicts with the visible Dr Enas attribution, and the production timestamp cannot establish a lab date, academic year, or assessment sitting. |
+| Authority | Instructor-attributed Helwan tier-5 virtual-lab teaching deck with interleaved practical-style prompts and teaching-answer reveals. It is not an authenticated candidate practical, official OSPE/station register, response sheet, or official key. |
+
+### Complete page-first teaching, image-MCQ, practical, drawing, and answer boundary
+
+| Pages | Complete visible content | Prompt / answer / practical ruling |
+|---:|---|---:|
+| 1–12 | Provenance cover; repair/regeneration/fibrosis comparison; cell regenerative classes; injury/repair diagrams; granulation-tissue and chronic-ulcer plates; complications list and labelled scar, keloid, chronic-ulcer, fistula, sinus, contracture, and epidermoid-cyst images | Completed declarative and diagnosis-disclosing teaching. The labelled plates are not hidden-image tasks or stations; **0 prompts / 0 answers**. |
+| 13–14 | Eighth case: injured heel/foot with open granulating wound. P.13 asks one four-option healing-stage MCQ and the stage's microscopic picture; p.14 asks the healing type and complications | **4 prompts / 0 source-supplied answers**: **1 image-bearing MCQ + 3 practical case/image written operations**, all unkeyed. Earlier teaching provides context but does not mark an option or fill these responses. |
+| 15 | Ninth case: fixed flexion after deep burn with thick pale fibrotic shortened skin; `What is your diagnosis?` | **1 unkeyed practical case/image written operation / 0 answers**. |
+| 16–17 | Unlabelled chronic-ulcer and chest-keloid photographs, each headed `What is your diagnosis?` | **2 unkeyed practical image-diagnosis operations / 0 answers**. Prior labelled teaching plates are context, not a prompt-linked key. |
+| 18–21 | Normal liver architecture, fibrosis diagrams, and labelled cirrhosis histology | Completed teaching/diagnosis-disclosing plates; **0 / 0**. |
+| 22–27 | Haemodynamic-disorder taxonomy; thrombosis definition; Virchow triad; labelled arterial thrombus/Lines-of-Zahn diagrams and histology | Completed declarative/labelled teaching; **0 / 0**. |
+| 28 | `Design the microscopic picture of arterial thrombus with labelling` with open slide space | **1 unkeyed drawing/written operation / 0 answers**. |
+| 29–31 | Tenth case: obese woman with varicose veins, femoral fracture/fixation and three weeks' bed rest develops a painful edematous leg. It asks diagnosis, patient-specific risk factors, and suspected new event; subsequent slides visibly title DVT and show pulmonary emboli | **3 practical case/image written operations / 3 source-supplied teaching-answer occurrences**. DVT and pulmonary embolism are immediate reveal slides; the risk-factor answer is explicitly enumerated in the source stem itself—obesity, varicose veins, fracture/surgery, and prolonged bed rest—not inferred from an unstated key. |
+| 32–33 | Labelled renal-infarction gross morphology and completed dry-versus-wet gangrene comparison | Completed teaching; **0 / 0**. |
+| 34 | Eleventh case: acute abdomen with dark resected intestine; asks diagnosis and gross-picture explanation | **2 unkeyed practical case/image written operations / 0 answers**. The preceding comparison is teaching context, not a prompt-linked answer reveal. |
+| 35–39 | Completed oedema examples; infection/actinomycosis definition, cause, clinical presentation, labelled diagram, and histology | Declarative and labelled teaching; **0 / 0**. |
+| 40–52 | Benign-neoplasm classification/behaviour; epithelial and mesenchymal examples; benign gross/microscopic criteria; squamous-papilloma gross/histology and normal-skin teaching | `Classify Neoplasms??` on p.41 is immediately answered by the same-slide behaviour/origin lists and is an excluded teaching callout. All other plates disclose their diagnosis/description; **0 assessment prompts / 0 answers**. |
+| 53–56 | Twelfth-case 22-year-old with breast mass: p.53 asks gross description and diagnosis, p.54 prints fibroadenoma diagnosis/gross features; p.55 repeats the two operations for microscopy, p.56 prints both pericanalicular/intracanalicular morphology | **4 practical case/image written operations / 4 source-supplied teaching-answer occurrences**. Gross and microscopic wordings remain separate retained occurrences. |
+| 57–59 | Gross and microscopic cavernous-haemangioma fields ask description and diagnosis; p.59 prints diagnosis and complete microscopic features | **2 practical case/image written operations / 2 source-supplied teaching-answer occurrences**. |
+| 60–62 | Lipoma gross field asks description and diagnosis while the same slide prints `lipoma` and full gross features; following slides add labelled microscopy/diagnosis | **2 practical case/image written operations / 2 source-supplied teaching-answer occurrences**. |
+| 63 | `Thank you` | Closing slide only; **0 / 0**. |
+
+The raw format split is exactly **1 image-bearing MCQ** (p.13), **19 practical case/image written
+operations** (pp.13–17, 29, 34, and 53–60), and **1 drawing/written operation** (p.28): `1 + 19
++ 1 = 21`. These are practical-style prompt records inside a virtual-lab deck, not authenticated
+stations: no station number, candidate/examiner direction, timer, mark allocation, checklist,
+response sheet, or student response is present. Exactly **11 prompts have source-supplied teaching
+answers**—the three p.29 DVT/risk/PE operations and all eight fibroadenoma, haemangioma, and lipoma
+operations on pp.53–60. The other **10 prompts are unkeyed**: four heel-wound operations, the
+contracture/chronic-ulcer/keloid diagnoses, the arterial-thrombus drawing, and two wet-gangrene
+operations. There are no prompt-like residues.
+
+All **21 prompt occurrences remain retained**. Two fibroadenoma reductions affect handles only:
+the p.53 gross-description and p.55 microscopic-description records are complementary halves of
+one gross-and-microscopic morphology scope, while the two diagnosis wordings repeat the same
+twelfth-case fibroadenoma proposition across gross and microscopy. Thus `21 - 2 = 19` source-
+distinct tested handles; every occurrence and its answer status remains visible in the ledger.
+
+### Source-first handle inventory and prior-BMS assignment
+
+| Ref(s) | Source-tested scope / answer status | Handle / prior-BMS assignment |
+|---|---|---|
+| F140-Q01 · p.13a | Identify open-wound healing stage; unkeyed | `granulation-tissue-healing-stage-image` · new; prior granulation handles define tissue rather than identify this gross wound stage |
+| F140-Q02 · p.13b | Describe microscopic picture of granulation tissue; unkeyed | `granulation-tissue-microscopic-picture` · exact Family-2 `granulation-tissue-definition` reuse because that handle supplies the fibroblast/capillary/inflammatory-cell morphology |
+| F140-Q03 · p.14a | Classify the open skin wound's healing type; unkeyed | `open-wound-secondary-intention-healing` · new; Family 87 tests the stages of second intention, not image/case classification |
+| F140-Q04 · p.14b | Enumerate healing complications; unkeyed | `wound-healing-complications` · exact Family-2/87/116 reuse |
+| F140-Q05 · p.15 | Post-burn fixed finger flexion with fibrotic shortened skin; unkeyed | `post-burn-hand-contracture-diagnosis` · new; Families 117/137 teach or label contracture but do not test this practical diagnosis |
+| F140-Q06 · p.16 | Identify chronic ulcer gross field; unkeyed | `chronic-ulcer-gross-diagnosis` · new; prior supplied labels create no tested handle |
+| F140-Q07 · p.17 | Identify chest keloid gross field; unkeyed | `keloid-gross-diagnosis` · new; prior complication lists and supplied labels do not test image diagnosis |
+| F140-Q08 · p.28 | Draw and label arterial-thrombus microscopy; unkeyed | `arterial-thrombus-microscopic-drawing` · new; Family 3's Lines-of-Zahn appearance is one component, not the complete labelled arterial-wall/thrombus field |
+| F140-Q09 · p.29a | Post-fracture/surgery/immobility painful swollen leg; supplied DVT reveal | `post-fracture-immobility-dvt-diagnosis` · exact Family-6 `postoperative-dvt-diagnosis` reuse |
+| F140-Q10 · p.29b | Identify obesity, varicose veins, fracture/surgery, and bed rest as case DVT risks; source-supplied in stem | `patient-specific-dvt-risk-factors` · exact Family-2/116 `thrombosis-definition-risk` reuse |
+| F140-Q11 · p.29c | Identify pulmonary embolism as the new DVT event; supplied reveal | `dvt-pulmonary-embolism-new-event` · exact Family-3 `dvt-pulmonary-embolism-pathway` reuse |
+| F140-Q12 · p.34a | Dark intestine: diagnose wet gangrene; unkeyed | `intestinal-wet-gangrene-gross-diagnosis` · exact Family-121 reuse |
+| F140-Q13 · p.34b | Explain wet-gangrene gross picture; unkeyed | `intestinal-wet-gangrene-gross-rationale` · exact Family-121 reuse |
+| F140-Q14,Q16 · pp.53,55 | Describe fibroadenoma gross and microscopic pictures; both supplied | `fibroadenoma-gross-microscopic-description` · exact Family-119 reuse |
+| F140-Q15,Q17 · pp.53,55 | Diagnose repeated gross/microscopic twelfth-case fibroadenoma; both supplied | `fibroadenoma-gross-microscopic-diagnosis` · exact Family-119 mixed-pattern diagnosis reuse |
+| F140-Q18 · p.57a | Describe cavernous-haemangioma gross/microscopy; supplied | `cavernous-hemangioma-gross-microscopic-description` · new; prior teaching and diagnosis handles do not request full morphology |
+| F140-Q19 · p.57b | Diagnose cavernous haemangioma microscopy; supplied | `cavernous-hemangioma-microscopy-identification` · exact Family-114 reuse |
+| F140-Q20 · p.60a | Describe lipoma gross picture; supplied | `lipoma-gross-description` · new; prior sources teach/label or identify microscopy rather than request gross description |
+| F140-Q21 · p.60b | Diagnose lipoma gross field; supplied | `lipoma-gross-specimen-diagnosis` · new; Family 114 is microscopy identification and Family 133 is a clinical-mass diagnosis |
+
+### Exactly four searches per accepted handle and external disposition
+
+All 19 handles received exactly four fresh source-first searches across live state, pending import
+roots, and prior BMS-102 Families 1–139: **19 × 4 = 76 required and completed searches**.
+
+| Handle | Exactly four required queries | External exact-scope result |
+|---|---|---|
+| `granulation-tissue-healing-stage-image` | `granulation tissue healing stage wound image`; `identify stage of wound healing granulation tissue`; `open heel wound granulation tissue stage`; `granulating wound stage diagnosis` | no same-scope |
+| `granulation-tissue-microscopic-picture` | `granulation tissue microscopic picture`; `granulation tissue capillaries fibroblasts inflammatory cells`; `histology of granulation tissue wound healing`; `microscopic features healing granulation tissue` | no same-scope |
+| `open-wound-secondary-intention-healing` | `open wound healing by secondary intention`; `skin wound tissue loss type of healing`; `secondary union granulating wound`; `large open wound healing type` | no same-scope |
+| `wound-healing-complications` | `complications of wound healing`; `keloid contracture sinus fistula healing`; `chronic ulcer delayed healing complications`; `abnormal wound repair complications` | no same-scope |
+| `post-burn-hand-contracture-diagnosis` | `post burn hand flexion contracture diagnosis`; `deep burn shortened fibrotic skin deformity`; `permanent finger flexion burn scar contracture`; `burn healing complication hand contracture` | no same-scope |
+| `chronic-ulcer-gross-diagnosis` | `chronic ulcer gross diagnosis image`; `nonhealing ulcer granulating base diagnosis`; `chronic skin ulcer gross appearance`; `identify chronic ulcer wound photograph` | no same-scope |
+| `keloid-gross-diagnosis` | `keloid gross diagnosis chest image`; `raised scar extending beyond wound keloid`; `post injury excessive collagen scar diagnosis`; `identify keloid gross photograph` | no same-scope |
+| `arterial-thrombus-microscopic-drawing` | `arterial thrombus microscopic picture labeling`; `draw arterial thrombus lines of Zahn`; `arterial thrombus histology residual lumen wall`; `design microscopic picture arterial thrombosis` | no same-scope |
+| `post-fracture-immobility-dvt-diagnosis` | `fracture surgery bed rest painful swollen leg DVT`; `varicose veins obesity postoperative deep vein thrombosis`; `immobilized femur fracture DVT diagnosis`; `postoperative edematous painful leg thrombus` | pending `ART-CVS-DVT` |
+| `patient-specific-dvt-risk-factors` | `fracture surgery bed rest varicose veins DVT risk factors`; `obesity immobilization deep vein thrombosis risks`; `patient specific Virchow triad risk factors`; `orthopedic surgery venous stasis thrombosis risk` | pending `CON-CVS-1DBCD5D81337B5` |
+| `dvt-pulmonary-embolism-new-event` | `DVT new event pulmonary embolism`; `deep vein thrombus suspected complication lung`; `venous thrombus embolizes pulmonary arteries`; `DVT to pulmonary embolism pathway` | pending `ART-CVS-DVT` |
+| `intestinal-wet-gangrene-gross-diagnosis` | `wet gangrene intestine diagnosis`; `moist soft swollen dark intestine`; `gangrenous intestine gross diagnosis`; `acute abdominal pain wet gangrene` | no same-scope |
+| `intestinal-wet-gangrene-gross-rationale` | `wet gangrene gross picture`; `moist soft swollen dark gangrene`; `intestinal wet gangrene morphology`; `explain gross wet gangrene intestine` | no same-scope |
+| `fibroadenoma-gross-microscopic-description` | `fibroadenoma gross microscopic picture`; `well circumscribed encapsulated white lobulated breast mass`; `pericanalicular intracanalicular fibroadenoma morphology`; `describe fibroadenoma gross histology` | no same-scope |
+| `fibroadenoma-gross-microscopic-diagnosis` | `fibroadenoma gross microscopic diagnosis`; `young woman breast mass lobulated encapsulated`; `biphasic ducts fibrous stroma fibroadenoma identification`; `pericanalicular intracanalicular lesion diagnosis` | no same-scope |
+| `cavernous-hemangioma-gross-microscopic-description` | `cavernous hemangioma gross microscopic picture`; `large dilated blood filled vascular spaces description`; `cavernous hemangioma thin fibrous septa histology`; `describe cavernous hemangioma pathology` | no same-scope |
+| `cavernous-hemangioma-microscopy-identification` | `cavernous hemangioma microscopy identification`; `identify blood filled vascular spaces histology`; `cavernous hemangioma slide diagnosis`; `vascular spaces flattened endothelium diagnosis` | no same-scope |
+| `lipoma-gross-description` | `lipoma gross picture description`; `well defined capsulated yellow greasy mass`; `gross morphology of lipoma`; `describe lipoma cut surface` | no same-scope |
+| `lipoma-gross-specimen-diagnosis` | `lipoma gross specimen diagnosis`; `yellow greasy encapsulated mass diagnosis`; `identify lipoma gross pathology image`; `soft homogeneous fatty tumor diagnosis` | no same-scope |
+
+External exact-scope disposition is **0 live / 3 pending / 16 no same-scope = 19 handles**. The
+ten exact prior-BMS reuses are granulation-tissue microscopy, wound-healing complications,
+postoperative DVT diagnosis, patient-specific thrombosis risk, DVT-to-pulmonary-embolism,
+intestinal wet-gangrene diagnosis and gross rationale, fibroadenoma description and diagnosis,
+and cavernous-haemangioma microscopy identification. Family 140 therefore adds `19 - 10 = 9`
+concepts.
+
+### Family-140 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 140 | Auxiliary cumulative (Families 12–140) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 21 | 1,230 | 765 | 1,995 |
+| Printed/source-supplied answer occurrences | 11 | 732 | 405 | 1,137 |
+| Unkeyed prompt occurrences | 10 | — | — | tracked separately |
+| Excluded question-form teaching callouts | 1 | — | — | p.41, outside assessment arithmetic |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 21 | 1,165 | 552 | 1,717 |
+| Source-distinct tested handles / required searches | 19 / 76 | 1,045 / — | — | — |
+| External live / pending / no same-scope | 0 / 3 / 16 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 10 | — | — | subtract before concept addition |
+| Cross-family concept delta | +9 | +671 over primary | 372 | `372 + 671 = 1,043` |
+| **Distinct tested concepts** | **+9** | **671 auxiliary additions** | **372** | **1,043** |
+
+The checksum closes without remainder: `21 = 11 + 10` answered/unkeyed prompts; all 21 are
+retained; `21 - 2 same-source reductions = 19` handles; searches are `19 × 4 = 76`; external
+disposition is `0 + 3 + 16 = 19`; and concept arithmetic is `19 - 10 prior exact reuses = 9`.
+Auxiliary arithmetic is `1,209 + 21 = 1,230` prompts, `721 + 11 = 732` answers, `1,144 + 21 =
+1,165` retained records, `1,026 + 19 = 1,045` handles, and `662 + 9 = 671` concept additions.
+All eligible arithmetic is `765 + 1,230 = 1,995`, `405 + 732 = 1,137`, `552 + 1,165 = 1,717`,
+and `372 + 671 = 1,043`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now **1,230 / 732 / 1,165 / 1,045 /
++671**; and all eligible evidence is **1,995 / 1,137 / 1,717 / 1,043**. Family 140 cannot
+establish an authenticated station set, official key, academic date, recurrence, formal mark
+weight, student response, readiness, or claims status.
+
+### Exact next debt after Family 140
+
+`src_201a33661e033200981c` is exhausted across all 63 pages: every visible/metadata provenance
+field, teaching table/plate, case narrative, image-MCQ, practical-style operation, drawing task,
+source-supplied answer, unkeyed prompt, excluded teaching callout, semantic collapse, source-first
+search packet, prior-BMS relation, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-140 blocker. The exact next unique manifest record is tier-5
+`src_759fc3552fb667ecb8db` · `Malignant tumor (Virtual Lab).pdf`, SHA-256
+`759fc3552fb667ecb8db92e27ba820a966b291ea7a89dab74ddaab9ca52fdd4d`, 9,327,168 bytes,
+49 native-text 960×540-point landscape pages under `Pathology / Practical Labs / Prelabs / Pre
+Lab 4 - Malignant tumors`. The manifest snippet visibly attributes `Malignant TUMORs (Virtual
+Lab)` to Dr Enas Megahed Elhosary, Faculty of Medicine, Helwan University. Its complete carrier,
+teaching-versus-practical/prompt/key boundary, searches, prior reuse, and arithmetic are the exact
+next-source blockers.
