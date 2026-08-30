@@ -15290,3 +15290,134 @@ Virtual Lab 4 - CBL Neoplasia`. Its metadata title is `CBL neoplasia`, author is
 creation/modification timestamp is 22 April 2025; the exact visible provenance, date authority,
 teaching/case/prompt/key/practical boundary, searches, prior reuse, and arithmetic are the exact
 next-source blockers.
+
+## Family 144 — Shorouk Eldeeb neoplasia CBL image-MCQ deck
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_9c7415ed8f3f624528f1` · `CBL neoplasia 2025.pdf` under `Pathology / Practical Labs / Virtual / Virtual Lab 4 - CBL Neoplasia` |
+| SHA-256 / size | `9c7415ed8f3f624528f172aff96bd7db74ba195912eb4720078cd973388b3da0` · 1,550,971 bytes |
+| Format / complete visual boundary | Thirty-eight native-text landscape pages, each 720×540 points. All 38 pages were rendered at 150 dpi into 38 non-empty 1500×1125-pixel images and read individually through the closing image; seven ordered contact sheets, layout extraction, and raw extraction were also read. There is no page, crop, option, answer, image, or text remainder. |
+| Native-text reality | Layout and raw extraction each contain 2,202 words, with 14,337 and 13,891 bytes respectively. They preserve all ten case stems, option sets, teaching explanations, and answer copies. Visual review is required to associate the nine gross/microscopic fields with their prompts and to read the stable red-option answer convention. The manifest's `native` label is accurate. |
+| Visible provenance | P.1 visibly reads `CBL neoplasia` and `Dr.Shorouk Abdel Gawad Eldeeb`. No university/faculty masthead, module code, academic year, delivery date, source URL, examiner, or sitting is visible. The organized Helwan BMS-102 virtual-lab path establishes local placement, not independently visible institutional authorship. |
+| Filename/date caution | The filename includes `2025`, and the manifest derives a nominal 2025 sitting year from that filename. The deck itself shows no year or assessment sitting. Metadata title is `CBL neoplasia`, author is `DELL`, creator/producer is Microsoft PowerPoint 2010, and creation/modification timestamp is 22 April 2025. Those fields are export provenance only; neither filename nor metadata authenticates a sitting or academic year. |
+| Authority | Named-instructor tier-5 CBL/virtual-lab teaching deck with paired image-MCQ reveals. It is not a candidate paper, authenticated practical, recurrence set, response sheet, or official university key. |
+
+### Complete page-first case, image, prompt, answer-copy, and teaching boundary
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---:|
+| 1 | Title and named-instructor cover | Provenance only; **0 prompts / 0 answers**. |
+| 2–6 | Case 1: small circumscribed sessile upper-rectal mass, with gross image, asks the descriptive term. Pp.3–5 teach adenoma, carcinoma, choristoma, hamartoma, and hyperplasia distinctions; p.6 repeats the prompt with `A. Adenoma` in red | **2 image-MCQ occurrences / 1 supplied answer**; p.6 is the answer copy and excluded from retention. |
+| 7–8 | Case 2: adolescent distal-femoral mushroom-shaped lesion and microscopy ask diagnosis; p.8 repeats the prompt with `B. Osteochondroma` in red | **2 / 1**; one answer copy excluded. |
+| 9–13 | Case 3: multiple liver masses at autopsy after weight loss and fatal thromboembolism ask the lesion; pp.10–12 teach metastatic, primary, benign, vascular, and leukemic differentials; p.13 repeats the prompt with `C. Metastatic adenocarcinoma` in red | **2 / 1**; one answer copy excluded. |
+| 14–17 | Case 4: hair-filled ovarian mass containing differentiated tissues from multiple germ layers asks diagnosis; pp.15–16 teach mature teratoma and differentials; p.17 repeats the prompt with `E. Teratoma` in red | **2 / 1**; one answer copy excluded. |
+| 18–22 | Case 5: dysplastic Pap history and cervical-biopsy field ask diagnosis; pp.19–21 teach invasion, carcinoma in situ, dysplasia, metaplasia, and adenocarcinoma; p.22 repeats the prompt with `E. Squamous cell carcinoma` in red | **2 / 1**; one answer copy excluded. |
+| 23–24 | Case 6: rapidly growing forehead nodule and microscopy ask diagnosis; p.24 repeats the prompt with `E. Basal cell carcinoma` in red | **2 / 1**; one answer copy excluded. |
+| 25–28 | Case 7: infiltrating right-thyroid mass with pleomorphism, hyperchromasia, and bizarre mitosis asks the descriptive term; pp.26–27 teach anaplasia and its differentials; p.28 repeats the same image/options and tested proposition with `A. Anaplastic` in red | **2 / 1**; p.28 is a near-literal answer copy and excluded. Its altered source measurements (`10-kg`, `8×5 cm` initially versus `3-kg`, `3×5 cm` on reveal) are preserved as a carrier inconsistency, not repaired or counted as a new scope. |
+| 29–32 | Case 8: new painless firm axillary nodes ask the most likely right-breast lesion; pp.30–31 teach lymphatic spread and differentials; p.32 repeats the prompt with `C. Infiltrating breast lobular carcinoma` in red | **2 text-only MCQ occurrences / 1 supplied answer**; one answer copy excluded. No diagnostic image is present. |
+| 33–35 | Case 9: prior breast cancer, fixed axillary mass, and lymph-node microscopy ask the relation; p.34 teaches lymphatic metastasis and differentials; p.35 repeats the prompt with `B. Metastatic breast cancer in LN.` in red | **2 image-MCQ occurrences / 1 supplied answer**; one answer copy excluded. |
+| 36–37 | Case 10: painful restricted knee mass and giant-cell-rich microscopy ask diagnosis; p.37 repeats the prompt with `C. Osteoclastoma.` in red | **2 / 1**; one answer copy excluded. The source's terminology and answer are preserved without modernization. |
+| 38 | Motivational closing image | Closing decoration only; **0 / 0**. |
+
+The raw format split is exactly **18 image-bearing MCQ occurrences + 2 text-only MCQ
+occurrences = 20 prompts**, with **10 red-option source-supplied answer occurrences / 10 initial
+unkeyed occurrences / 0 written operations / 0 practical stations / 0 prompt-like residues**.
+The repeated red option is stable across all ten case reveal slides and is counted as a teaching-
+answer convention; no answer is inferred from the explanatory prose alone. Virtual-lab placement,
+clinical vignettes, and pathology images do not authenticate practical stations: there are no
+station numbers, candidate/examiner instructions, timers, mark allocations, checklists, response
+fields, or student marks.
+
+Nine answer slides are literal prompt copies after typographic normalization. Case 7's reveal
+changes two clinical measurements but preserves the same patient age, thyroid site, histology
+image, options, and requested anaplasia proposition, so it is a near-literal answer copy rather
+than a second retained scope. Therefore `20 raw - 10 answer copies = 10 retained records`. No
+two retained cases test the same complete proposition, leaving **10 source-distinct handles**.
+
+### Source-first handle inventory and prior-BMS assignment
+
+| Ref | Source-tested scope / supplied answer | Handle / prior-BMS assignment |
+|---|---|---|
+| F144-Q01 · pp.2–6 | Small circumscribed sessile rectal lesion · A adenoma | `rectal-sessile-adenoma-gross-identification` · new; prior colon records teach adenoma/carcinoma progression or spread, not gross case identification |
+| F144-Q02 · pp.7–8 | Adolescent distal-femur mushroom-shaped lesion and microscopy · B osteochondroma | `distal-femur-osteochondroma-microscopy-diagnosis` · new; prior BMS material labels/teaches osteochondroma or uses it as an option, without this tested diagnostic pattern |
+| F144-Q03 · pp.9–13 | Multiple tan liver masses with weight loss/Trousseau context · C metastatic adenocarcinoma | `multiple-liver-metastatic-adenocarcinoma-gross` · new; prior liver-spread handles test a primary's route/site or stage inference, not this gross diagnosis |
+| F144-Q04 · pp.14–17 | Hair-filled ovarian mass with differentiated three-germ-layer tissues · E teratoma | `mature-ovarian-teratoma-three-germ-layers` · exact Family-5/133 `teratoma-three-germ-layers` reuse |
+| F144-Q05 · pp.18–22 | Cervical biopsy with squamous nests invading stroma · E squamous cell carcinoma | `cervical-invasive-squamous-cell-carcinoma-histology` · new; prior HPV/cervical handles test risk, progression, or management rather than invasive-field diagnosis |
+| F144-Q06 · pp.23–24 | Forehead nodule basaloid microscopy · E basal cell carcinoma | `basal-cell-carcinoma-microscopy-identification` · exact Family-114/141 reuse |
+| F144-Q07 · pp.25–28 | Thyroid-region malignancy with pleomorphism, hyperchromasia, and bizarre mitosis · A anaplastic | `anaplastic-thyroid-carcinoma-morphology-term` · exact Family-5 `anaplasia-definition-morphology` reuse; organ context does not change the tested morphology term |
+| F144-Q08 · pp.29–32 | Painless firm axillary nodes imply a breast primary capable of lymphatic invasion · C infiltrating lobular carcinoma | `painless-axillary-nodes-infiltrating-lobular-breast-carcinoma` · new; completed labelled breast-carcinoma teaching and metastatic-node prompts do not test this primary-lesion inference |
+| F144-Q09 · pp.33–35 | Prior breast cancer plus malignant glands in axillary-node microscopy · B metastatic breast cancer in lymph node | `metastatic-breast-cancer-lymph-node-microscopy-identification` · exact Family-114/141 reuse |
+| F144-Q10 · pp.36–37 | Painful knee mass with giant-cell-rich microscopy · C osteoclastoma | `osteoclastoma-giant-cell-tumor-microscopy-diagnosis` · new to the BMS tested ledger |
+
+### Exactly four searches per accepted handle and external disposition
+
+Each of the ten accepted handles received exactly four fresh source-first searches across live
+state, all pending import roots, and prior BMS-102 Families 1–143: **10 × 4 = 40 required and
+completed searches**.
+
+| Handle | Exactly four required queries | External exact-scope result |
+|---|---|---|
+| `rectal-sessile-adenoma-gross-identification` | `rectal sessile adenoma gross identification`; `circumscribed upper rectal mass adenoma`; `colonic adenoma small sessile benign lesion`; `adenoma versus carcinoma gross colon lesion` | no same-scope |
+| `distal-femur-osteochondroma-microscopy-diagnosis` | `distal femur osteochondroma microscopy diagnosis`; `adolescent mushroom shaped bone lesion osteochondroma`; `osteochondroma cartilage cap trabecular bone histology`; `knee exostosis microscopic identification` | no same-scope |
+| `multiple-liver-metastatic-adenocarcinoma-gross` | `multiple liver metastatic adenocarcinoma gross`; `variable tan hepatic nodules metastatic carcinoma`; `liver metastases abdominal adenocarcinoma gross diagnosis`; `multiple hepatic masses Trousseau adenocarcinoma` | no same-scope |
+| `mature-ovarian-teratoma-three-germ-layers` | `mature ovarian teratoma three germ layers`; `ovarian cyst hair cartilage epithelium diagnosis`; `dermoid cyst totipotent germ cells mature teratoma`; `ovarian teratoma ectoderm mesoderm endoderm` | no same-scope |
+| `cervical-invasive-squamous-cell-carcinoma-histology` | `cervical invasive squamous cell carcinoma histology`; `cervical biopsy infiltrating squamous nests stroma`; `breached basement membrane ectocervical SCC`; `dysplastic Pap invasive cervical carcinoma microscopy` | no same-scope |
+| `basal-cell-carcinoma-microscopy-identification` | `basal cell carcinoma microscopy identification`; `forehead nodule basaloid nests histology`; `identify basal cell carcinoma histology image`; `basal cell carcinoma slide diagnosis` | no same-scope |
+| `anaplastic-thyroid-carcinoma-morphology-term` | `anaplastic thyroid carcinoma morphology term`; `thyroid mass pleomorphism hyperchromasia tripolar mitosis`; `anaplastic neoplasm loss differentiation thyroid`; `aggressive thyroid tumor bizarre mitoses identification` | no same-scope |
+| `painless-axillary-nodes-infiltrating-lobular-breast-carcinoma` | `painless axillary nodes infiltrating lobular breast carcinoma`; `axillary lymphadenopathy occult breast lobular carcinoma`; `firm painless axillary nodes breast primary lesion`; `infiltrating breast carcinoma lymphatic node presentation` | no same-scope |
+| `metastatic-breast-cancer-lymph-node-microscopy-identification` | `metastatic breast cancer lymph node microscopy identification`; `axillary node malignant glands prior breast cancer`; `identify metastatic breast carcinoma lymph node histology`; `breast cancer lymphatic spread axillary node slide` | no same-scope |
+| `osteoclastoma-giant-cell-tumor-microscopy-diagnosis` | `osteoclastoma giant cell tumor microscopy diagnosis`; `knee giant cell rich bone lesion osteoclastoma`; `giant cell tumor bone histology identification`; `multinucleated osteoclast giant cells stromal bone tumor` | no same-scope |
+
+External exact-scope disposition is **0 live / 0 pending / 10 no same-scope = 10 handles**. Four
+handles are exact prior-BMS reuses: mature ovarian teratoma, BCC microscopy identification,
+anaplasia morphology, and metastatic breast cancer in axillary-node microscopy. The rectal
+adenoma, osteochondroma, metastatic-liver gross diagnosis, invasive cervical SCC field,
+axillary-node-to-lobular-breast-primary inference, and osteoclastoma field remain new, so concept
+arithmetic is `10 - 4 = 6` additions.
+
+### Family-144 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 144 | Auxiliary cumulative (Families 12–144) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 20 | 1,279 | 765 | 2,044 |
+| Printed/source-supplied answer occurrences | 10 | 766 | 405 | 1,171 |
+| Unkeyed prompt occurrences | 10 | — | — | tracked separately |
+| Excluded answer-copy prompt occurrences | 10 | — | — | nine literal + one near-literal reveal copy |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 10 | 1,204 | 552 | 1,756 |
+| Source-distinct tested handles / required searches | 10 / 40 | 1,082 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 10 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 4 | — | — | subtract before concept addition |
+| Cross-family concept delta | +6 | +686 over primary | 372 | `372 + 686 = 1,058` |
+| **Distinct tested concepts** | **+6** | **686 auxiliary additions** | **372** | **1,058** |
+
+The checksum closes without remainder: `20 = 10 answered copies + 10 initial unkeyed
+occurrences`; retention is `20 - 10 copies = 10`; all ten retained scopes remain distinct;
+searches are `10 × 4 = 40`; external disposition is `0 + 0 + 10 = 10`; and concept arithmetic
+is `10 - 4 prior exact reuses = 6`. Auxiliary arithmetic is `1,259 + 20 = 1,279` prompts,
+`756 + 10 = 766` answers, `1,194 + 10 = 1,204` retained records, `1,072 + 10 = 1,082`
+handles, and `680 + 6 = 686` concept additions. All eligible arithmetic is `765 + 1,279 =
+2,044`, `405 + 766 = 1,171`, `552 + 1,204 = 1,756`, and `372 + 686 = 1,058`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now **1,279 / 766 / 1,204 / 1,082 /
++686**; and all eligible evidence is **2,044 / 1,171 / 1,756 / 1,058**. Family 144 cannot
+establish an administered Helwan exam, authenticated practical, official key, recurrence, mark
+weight, candidate response, readiness, or claims status.
+
+### Exact next debt after Family 144
+
+`src_9c7415ed8f3f624528f1` is exhausted across all 38 pages: every visible/metadata provenance
+field, date limitation, gross/microscopic image, clinical stem, option set, explanatory slide,
+red-option reveal, literal or near-literal copy, retained record, format assignment, four-search
+packet, prior-BMS relation, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-144 blocker. The exact next manifest record is tier-9
+`src_6f1e3ea08eb27f71a791` · `1st year questions 2025-2026.pdf`, SHA-256
+`6f1e3ea08eb27f71a791be13fe5d9e36eb06b2983200b3f745bcf9ac41de03a0`, 1,888,971 bytes,
+74 native-text US-letter pages under `Pathology / Questions`. Its first-page snippet visibly
+reports `FINAL REVISION`, `PATHOLOSIS`, a collection from previous exams for first-year students,
+and `2025/2026`; metadata names Tarek Taher and was created 22 May 2026. Its tier-9 eligibility,
+visible authority/date wording, prompt/key/repeat boundary, and relationship to already exhausted
+PATHOLOSIS carriers are the exact next-source blockers.
