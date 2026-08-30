@@ -10451,3 +10451,112 @@ SHA-256 `d1640d6b98c8f1360ef189ddafaf0205a82aebe1ab6a74247ddb0de232c048b1`).
 It remains external until its own pages prove otherwise. **Overall LCS-103 remains `S1
 TRIAGE — NOT APPROVED`:** 144 tier-3/tier-6/rank-9 path debts remain. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 87 — Tier-3 external Magdi Sabry Nerve-and-Muscle keyed MCQ chapter
+
+### Exact identity, provenance and complete visual boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d1640d6b98c8f1360ef1` / `d1640d6b98c8f1360ef189ddafaf0205a82aebe1ab6a74247ddb0de232c048b1` |
+| File / boundary | `MCQs - External MCQs 9. mcq with ansewrs DR_magdy sabry .pdf` · 30,656,679 bytes · unencrypted PDF · 140 physical OCR-needed A4 pages · 595 × 841 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External MCQs 9. mcq with ansewrs DR_magdy sabry .pdf` |
+| Visible provenance | Cover prints `HUMAN PHYSIOLOGY FOR MEDICAL STUDENTS`, `MCQs AND ANSWERS`, `Part I`, and `By MAGDI SABRY, MD · Professor of physiology · Faculty of Medicine Al-Azhar University · CAIRO`. PDF title/author metadata are empty; producer is `ilovepdf.com`, modified 31 May 2016. |
+| Authority finding | Explicitly external third-party physiology-book evidence. It is neither a Helwan sitting nor a department-authored module paper; only its Nerve and Muscle chapter is LCS-103 topical evidence. |
+
+The assigned hash, byte size and 140-page boundary were recomputed and match. All 140 pages
+were rendered at 150 dpi and read visually across eighteen contact sheets. The fourteen
+in-scope prompt pages were independently rerendered at 300 dpi. The physical-page sequence is:
+cover/contents/front matter; Blood and Body Fluids; Autonomic Nervous System; physical p. 31
+Chapter III divider; physical pp. 32–45 / printed pp. 27–40 `NERVE AND MUSCLE`; Circulation;
+Respiration; Digestion; Homeostasis; Chapter VIII answer tables on physical pp. 137–140.
+
+The exact LCS boundary is **Q210–Q311 inclusive = 102 prompt occurrences**. Ordinary
+single-best-answer Q210–Q288 contribute 79 prompts. The printed combination-key format
+Q289–Q311 contributes 23 further prompts. The global answer tables contain one directly
+printed answer letter for every included number: Q210–Q232 on physical p. 137 and Q233–Q311
+on physical p. 138, for **102 printed keys**. Keys are retained exactly as printed and are
+not medically repaired.
+
+| Source boundary | Prompts | Printed keys | LCS disposition |
+|---|---:|---:|---|
+| Chapters I–II, Q1–Q209 | 209 | 209 | Blood/body-fluid and autonomic-system exclusion |
+| Chapter III, physical pp. 32–45, Q210–Q288 | 79 | 79 | included ordinary Nerve-and-Muscle MCQs |
+| Chapter III, physical pp. 41–45, Q289–Q311 | 23 | 23 | included multi-statement keyed prompts |
+| Chapters IV–VII, Q312–Q953 | 642 | 642 | circulation, respiration, digestion and homeostasis exclusion |
+| **Family 87 included boundary** | **79 + 23 = 102** | **79 + 23 = 102** | **count once** |
+| **Out-of-module boundary** | **209 + 642 = 851** | **209 + 642 = 851** | **excluded from every LCS cumulative** |
+
+There is no declarative teaching section inside the included chapter, no specimen or image,
+no practical station, no apparatus task, no masked label, no response blank and no teaching
+plate. The questions' physiological statements and distractors remain assessment wording,
+not teaching mappings. Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0
+residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, four-search ledger and deduplication
+
+One independently answerable physiological objective is one handle. The 102 included
+occurrences collapse exhaustively to **27 source-distinct handles**. Each handle received
+exactly one search in each required surface—live, pending/import-ready, prior source-import
+lanes and accepted LCS—so **27 × 4 = 108 required search invocations**.
+
+| Source-first domain | Prompt assignment | Handles | Collapsed objectives |
+|---|---:|---:|---|
+| Stimulus and excitability | 9 | 4 | strength-duration/rheobase/chronaxie; local response/electrotonus; threshold/all-or-none excitability; absolute refractory period |
+| Nerve membrane electrophysiology | 19 | 7 | action-potential phases/amplitude; resting/Nernst potentials; ECF/ICF ion ratios; calcium and excitability; Na/K pump; selective permeability; after-hyperpolarization |
+| Nerve fibres, conduction and injury | 19 | 5 | propagation/saltatory conduction; conduction block; fibre diameter/type/myelination; denervation/degeneration/regeneration; nerve growth factor |
+| Skeletal-muscle contraction | 35 | 6 | excitation-contraction coupling; twitch/treppe/summation/tetanus; isometric/isotonic/length-tension; sarcomere-band changes; contractile properties; motor-unit recruitment |
+| Neuromuscular junction | 5 | 1 | EPP/MEPP, acetylcholine, curare and myasthenia |
+| Energy and fatigue | 6 | 2 | contraction heat/ATP/oxygen debt; fatigue/prolonged stimulation |
+| Smooth muscle | 8 | 1 | single-unit/multiunit properties, innervation and automaticity |
+| Named disorders | 1 | 1 | tetany, myotonia, paralysis and fasciculation distinction |
+| **Family 87** | **9 + 19 + 19 + 35 + 5 + 6 + 8 + 1 = 102** | **4 + 7 + 5 + 6 + 1 + 2 + 1 + 1 = 27** | **one assignment per occurrence** |
+
+Prior-external comparison found no same-scope external handle: Family 87 therefore yields
+**0 prior-external reuses + 27 external-inventory additions**. Accepted Families 3, 15, 16,
+51 and 73–75 already own or directly corroborate 22 of the objectives; the five residual
+external states are narrower or differently framed than any accepted tested handle. This
+external book never creates a second eligible-module concept.
+
+The external-state result is **1 live / 21 pending / 5 new = 27**. Live is
+`sarcomere-band-line-changes-during-contraction`. The five new-state handles are
+`stimulus-strength-duration-rheobase-and-chronaxie`,
+`local-response-electrotonus-and-threshold-excitability`,
+`skeletal-muscle-contractile-properties-and-action-response`,
+`nerve-conduction-block-and-local-anaesthetic-susceptibility` and
+`nerve-growth-factor-source-and-function`. The other 21 retain pending state, including
+excitation-contraction coupling, tetanus/treppe, muscle energetics and fatigue,
+isometric/isotonic mechanics, NMJ transmission, nerve action/resting potentials, ionic
+homeostasis, fibre classification and denervation. The four-query ledger is preserved at
+`tmp/pdfs/lcs103-family87/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **1,047 / 1,047 / 155 = 11 / 112 / 32** to **1,149 external questions / 1,149
+printed keys / 182 external concepts = 12 live / 133 pending / 37 new**. Arithmetic is
+`1,047 + 102 = 1,149`, `1,047 + 102 = 1,149`, `155 + 27 = 182`, `11 + 1 = 12`,
+`112 + 21 = 133`, `32 + 5 = 37`, and `12 + 133 + 37 = 182`. The 851 excluded
+question/key pairs contribute zero. Practical totals remain **7 prompts / 458 plates / 2,691
+mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This hash occurs once in the accepted Family-86 remainder. Removing its sole path leaves
+**143 all-rank path instances / 135 unique hashes**: tier 3 **61 paths / 58 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 86's 144/136 row sets
+recompute first to path checksum
+`bb7fec4bc585c36aa3c4928c8d0364cc2b92d27f2463542278b5e56d7641d0fb` and unique-hash
+checksum `58b00860ba36408338978db5f223f9530c1874fa0b0136c1562e539d5be0c5fa`.
+For the exact post-Family-87 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`95af3e3127cf4fb526d69698c3597d93e42d1ce836297d496b76ba1f502c05ef`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`5d486c1a772c31ba7173608f1138729d661a86973c787958220f21e9502b4bc2`.
+
+The exact next tier-3 manifest-order debt is `src_b48f77243d1f544231bf`,
+`MCQs - External MCQs Dr.Adel bondok mcq lower.pdf` (11 OCR-needed pages; SHA-256
+`b48f77243d1f544231bfd486fb6ebed8b451a622b4a1b014962857db22fa07c3`). It remains
+external until its own pages prove otherwise. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 143 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
