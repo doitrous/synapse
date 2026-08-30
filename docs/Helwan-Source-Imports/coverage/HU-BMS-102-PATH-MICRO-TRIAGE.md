@@ -19553,3 +19553,126 @@ introductio & cell injury.pdf`, SHA-256
 native-text portrait A4 pages** under `Pathology / Questions`. Its visible authority, complete
 prompt/key/written boundary, tier-9 eligibility, four-search/prior-BMS disposition, arithmetic,
 and subsequent exact next-source debt remain to be separately reconciled.
+
+## Family 186 — Dr Ahmed Hassan Introduction and Cell Injury question and written bank
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-9 `src_ec88cdf3bd17b9c05985` · `Questions on introductio & cell injury.pdf` under the exact local `Pathology / Questions` folder |
+| SHA-256 / exact size | `ec88cdf3bd17b9c059852e35f379a9fb588c0c3557509af65022cafedcf3937c` · **525,575 bytes** |
+| Format / complete read | **39 native-text portrait A4 pages** at 595.32×842.04 pt. All 39 pages were rendered into 39 non-empty 910×1287 images and read at original detail. Coherent native extraction contains **5,156 words / 54,360 bytes / 39 page form feeds** and agrees with every rendered stem, option set, right-margin answer, adjacent written response, blank response area, footer, and terminal page. |
+| Visible provenance | Every page visibly prints `PATHOLOGY`, `Introduction & cell injury`, and `DR . AHMED HASSAN`; pages are numbered 1–39. This establishes instructor-attributed pathology/cell-injury material. No university/faculty name, module number, academic year, exam date, candidate field, marks, sitting, or official-key declaration is visible. |
+| Metadata caution | PDF metadata names `Hossam mohammed` and records Microsoft Word 2019 production on 23 March 2025. The repeated visible Dr Ahmed Hassan credit controls source-facing attribution; metadata is retained only as carrier history and cannot establish a teaching year or sitting. |
+| Authority / tier-9 eligibility | The standing Family-73 exception admits tier-9 material as low-authority **auxiliary** evidence when it is in the exact Helwan Year-1 BMS-102 corpus, has no external-university hint, and is module-aligned. Exact local placement, repeated instructor/topic identity, and absence of an external marker meet that narrow rule. The source does not enter primary counts and does not establish an official paper, sitting, departmental key, recurrence, or mark weight. |
+
+### Complete prompt, answer, anomaly, teaching, and practical boundary
+
+| Pages | Complete source block | Prompt / supplied-answer boundary |
+|---:|---|---:|
+| 1–9 | First MCQ block Q1–Q39 | **39 MCQs / 39 right-margin answers**. |
+| 10–12 | `Written Questions` Q1–Q20 | **20 written prompts / 20 adjacent supplied answers**. Q7 continues across the p.10–11 break as one numbered row. Q17 requests three protein types but displays five; Q18 requests physiological and pathological examples but supplies only pathological examples. Both remain one visibly answered row with the source anomaly preserved. |
+| 13 | Two clinical cases, each with separately lettered a–d requests | **8 written operations / 0 answers**: four diabetic fatty-liver operations and four milk-associated renal-calcification operations. The case narratives supply context, not answers. |
+| 14–19 | Second MCQ block Q1–Q26 | **26 MCQs / 26 right-margin answers**. |
+| 20–25 | Third MCQ block Q1–Q21 | **21 MCQs / 0 answers**. The right-hand answer area is blank throughout. |
+| 26–27 | Fourth MCQ block Q1–Q8 | **8 MCQs / 8 right-margin answers**. |
+| 28–32 | Blank `Enumerate`, `List`, `Describe`, and `Define` response sheets | **28 written operations / 0 answers**. The p.30 row `Pathology of organs having fatty change. Microscopic picture of coagulative necrosis.` contains two separately requested operations; all other displayed rows count once. |
+| 33–39 | Final keyed MCQ table | **31 MCQs / 31 right-margin answers**. Its red question numbers advance through intervening numbered option lines, so printed terminal `53` does not mean 53 questions; visual row counting yields 31. |
+
+The exact boundary is **181 raw prompt occurrences = 125 text MCQs + 56 written operations**, with
+**124 source-supplied answers + 57 visibly unkeyed operations**. The checksum is `39 + 20 + 8 +
+26 + 21 + 8 + 28 + 31 = 181`, `39 + 26 + 21 + 8 + 31 = 125 MCQs`, `20 + 8 + 28 = 56
+written`, and `39 + 20 + 26 + 8 + 31 = 124 answers`; therefore `181 - 124 = 57 unkeyed`.
+
+All printed letters and adjacent responses remain source evidence without medical repair. The
+partial Q18 answer, Q17 over-complete list, malformed numbering on pp.33–39, spelling/case errors,
+questionable source assertions, and blank response areas are preserved exactly. Clinical
+vignettes remain text questions: there is **0 diagnostic image, 0 drawing task, 0 practical
+station, 0 candidate response, and 0 residue**. Headers, footers, page numbers, dotted lines,
+section labels, and case narratives without an independent request are not additional prompts.
+
+### Source-first literal retention and semantic collapse
+
+The third-block black-toe Q19 is an orthographic copy of its Q13, including the same five-option
+set, and is the sole wording exclusion. Thus **`181 - 1 = 180 retained records`**. Source-first
+semantic adjudication removes **30** independently unneeded handles while preserving every
+retained occurrence and answer state:
+
+- third-block Q9–Q12 collapse to second-block Q2, Q4, Q5, and Q7; third-block Q21 collapses to its
+  Russell-body Q15;
+- fourth-block Q1, Q5, Q7, and Q8 collapse to first-block Q20, Q21, Q11, and Q22;
+- the blank `Causes of cell injury` row collapses to answered written Q1, and the split p.30
+  coagulative-necrosis microscopy operation collapses to answered written Q4;
+- final-block caseation, liquefactive-site, breast-fat-necrosis, stroke/liquefaction,
+  preserved-outline, and caspase rows collapse to first/answered-bank equivalents;
+- final-block dystrophic and metastatic calcification, renal-amyloid severity, melanin,
+  hyalinosis, pancreatic/localized amyloid, secondary-amyloid/empyema, Sago spleen,
+  AA/myeloma, Alzheimer protein, medullary-thyroid amyloid, and Congo-red rows collapse to the
+  earlier source-local MCQ or written proposition at the same tested scope.
+
+Broader enumerations, distinct mechanisms, altered exception propositions, specific clinical
+vignettes, source-key anomalies, and different pathology-definition operations remain separate.
+The checksum is **`180 retained - 30 semantic reductions = 150 source-distinct tested handles`**.
+
+### Exactly four searches per handle and prior-BMS reconciliation
+
+Every one of the 150 accepted handles received exactly four fresh source-first searches across
+live governed state, `docs/questions-import-ready`, Helwan import coverage, and Families 1–185:
+**`150 × 4 = 600 required and completed searches`**. Each packet used a distinctive stem phrase,
+selected proposition, terminal phrase, and combined topic/mechanism phrase. Wording/general-topic
+hits were inspected but did not independently mint an external exact-scope record.
+
+Prior-BMS reconciliation assigns **142 handles** to already tested scopes and **8** to new scope.
+Reuse covers adaptation definitions; reversible/irreversible injury; hypoxia, ATP depletion, and
+cell swelling; necrosis and apoptosis definitions, mechanisms, morphology, and sites; fatty
+change and pigments; dystrophic/metastatic calcification; hyaline change; amyloid definition,
+staining, protein/disease mappings, morphology, and organ effects; haemochromatosis; pathology
+sampling definitions; and the governed Ahmed-Hassan banks and revision families, especially
+Families 2, 9, 73, 98, 112, 125, and 149–151.
+
+The **8 deltas** are the narrower source-specific operations not previously tested at the same
+scope: the aerobic-respiration/decreased-intracellular-calcium exception; post-thrombolysis
+reperfusion/free-radical injury; the free-radical damage exception set; all four separately
+lettered milk-associated renal-calcification case decisions (haematuria cause, laboratory
+confirmation, other sites, and alternative causes); and the source-keyed amyloidosis biopsy-site
+ranking. Therefore **`150 - 142 = +8 concepts`**.
+
+### Family-186 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 186 | Auxiliary cumulative (Families 12–186) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 181 | 2,467 | 762 | 3,229 |
+| Source-supplied answers | 124; 57 unkeyed | 1,667 | 405 | 2,072 |
+| Retained question records | 180 | 2,177 | 552 | 2,729 |
+| Accepted handles / required searches | 150 / 600 | 1,963 / — | — | — |
+| Prior-BMS handle reuses | 142 | — | — | — |
+| Cross-family concept delta | +8 | +947 over primary | 372 | 1,319 |
+| **Distinct tested concepts** | **150 source-local** | **947 additions** | **372** | **1,319** |
+
+Checksums: `125 + 56 = 181`; `124 + 57 = 181`; `181 - 1 = 180 retained`; `180 - 30 = 150
+handles`; `150 × 4 = 600 searches`; and `150 - 142 = +8`. Auxiliary arithmetic is `2,286 +
+181 = 2,467`, `1,543 + 124 = 1,667`, `1,997 + 180 = 2,177`, `1,813 + 150 = 1,963`,
+and `939 + 8 = 947`. All eligible arithmetic is `762 + 2,467 = 3,229`, `405 + 1,667 =
+2,072`, `552 + 2,177 = 2,729`, and `372 + 947 = 1,319`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,467 prompts / 1,667 answers /
+2,177 retained / 1,963 handles / +947 concepts**. All eligible is **3,229 / 2,072 / 2,729 /
+1,319**. Family 186 establishes instructor-attributed auxiliary question-bank evidence only,
+not an official exam, sitting, departmental key, recurrence, mark weight, candidate response,
+practical station, readiness, or claims status.
+
+### Exact next debt after Family 186
+
+`src_ec88cdf3bd17b9c05985` is exhausted across all 39 pages: every visible provenance and
+metadata field, MCQ or written operation, option set, printed letter, adjacent/partial answer,
+blank response area, anomaly, literal/semantic replay, search packet, prior-family relation,
+tier-9 limitation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-186 blocker.
+
+The exact next unprocessed manifest record is `src_d270bc32d14620134e75` ·
+`Main_stream_Lecture_1_introduction_to_pathology_adaptation_2026.pdf`, SHA-256
+`d270bc32d14620134e75fc33684afd3f45a1a98835dd77bfecf1ec1e7e16416a`, **3,736,657 bytes**, **82
+native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 1 - Orientation`.
+Its visible 2025/2026 authority boundary, complete teaching/prompt/callout/practical split,
+prior-BMS reuse, and subsequent exact next-source debt remain to be separately reconciled.
