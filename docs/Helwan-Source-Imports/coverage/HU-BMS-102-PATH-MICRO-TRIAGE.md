@@ -9138,3 +9138,80 @@ handwritten table of non-suppurative inflammation patterns, causes, sites, and e
 full teaching/prompt/answer and annotation boundary, provenance/timestamp limitation,
 relationship to this adjacent image, and overlap with prior BMS-102 inflammation evidence are
 the exact next-source blockers.
+
+## Family 83 — non-suppurative-inflammation comparison-table photograph
+
+### Source identity, original-image boundary, provenance, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_c9821b4939ccd4047256` · `2026-07-20 06.15.44.jpg` |
+| SHA-256 / size | `c9821b4939ccd4047256bf57950e45c21d97842165199fa424608d765773fda8` · 167,503 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×834 landscape JPEG; opened and read at original resolution |
+| Visible source identity | Photograph of a completed handwritten table headed `Non suppurative inflammation`; no institution, module, author, instructor, date, page number, assessment label, or key designation |
+| Filename date | Manifest derives 2026 from the filename; that capture-style timestamp is non-authoritative and cannot establish a teaching date or exam sitting |
+
+The main chart compares serous, serofibrinous, fibrinous, membranous, catarrhal, and necrotic
+inflammation across definition, cause, site, and example rows. It supplies completed
+descriptions and examples such as watery serous exudate, fluid plus fibrin, dry fibrinous
+exudate with adhesion, pseudomembrane formation after exotoxin injury, excess mucous secretion,
+and extensive tissue necrosis. A completed lower section adds haemorrhagic inflammation with
+red cells from vascular damage and allergic inflammation from antigen–antibody reaction.
+
+Family 82 and this image share the same photographed-note style and remain on inflammation,
+but Family 83 changes from mediator origins/effects to morphologic patterns. The next manifest
+image, `2026-07-20 06.15.47.jpg`, continues the visual note style with a completed `Fate` map
+for suppurative and non-suppurative acute inflammation. The images have no internal numbering
+or dates, so adjacency supports a note sequence only; filename order cannot prove authorship,
+teaching chronology, or sitting year.
+
+### Teaching, annotation, empty-cell, overlap, and zero gate
+
+Pink highlights and circles distinguish headings; yellow highlights identify the table's
+`def`, `cause`, `site`, and `eg` row labels. Lines, bullets, brackets, and arrows organize the
+completed comparisons. Those short row labels are teaching-schema labels, not commands. The
+uneven white space in some cause/site intersections has no underscore, question mark,
+instruction, response frame, or corresponding answer register and is not a recoverable blank.
+
+There is no stem, command, option set, audience question, prompt-like residue, or printed key.
+The table overlaps inflammation-pattern concepts represented in prior BMS-102 material, but
+declarative overlap does not create an assessment occurrence or accepted handle.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 83 | Auxiliary cumulative (Families 12–83) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 83 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 83
+
+`src_c9821b4939ccd4047256` is exhausted: every pattern column, definition/cause/site/example
+entry, lower haemorrhagic/allergic note, highlight and table convention, non-prompt empty
+intersection, adjacent-note relationship, prior-BMS overlap, timestamp limitation, zero search
+gate, and unchanged arithmetic is assigned once, with **zero source remainder** and no
+Family-83 blocker. The exact next manifest-ordered BMS-102 record is tier-6
+`src_b285b8c344800f4fd420` · `2026-07-20 06.15.47.jpg`, SHA-256
+`b285b8c344800f4fd42051fb66f127b2b6b1c258cf6e9ec7703bb29736a50a38`, 176,617 bytes,
+one 1280×855 JPEG under `Pathology / Notes and Summaries`. Its visible carrier is a completed
+handwritten fate map contrasting localized/diffuse suppurative acute inflammation with
+non-suppurative outcomes. Its full teaching/prompt/answer and annotation boundary,
+provenance/timestamp limitation, relationship to the adjacent inflammation notes, and overlap
+with prior BMS-102 evidence are the exact next-source blockers.
