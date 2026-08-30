@@ -9872,3 +9872,107 @@ The exact next direct/non-external tier-3 manifest-order debt is
 pre-extension space and matches the manifest hash and size. **Overall LCS-103 remains `S1
 TRIAGE — NOT APPROVED`:** 150 tier-3/tier-6/rank-9 path debts remain. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 81 — Tier-3 Loco-cordination quick-revision unsolved question sheet
+
+### Source identity, provenance and exact visual boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f9b53d072c16796e4d2d` / `f9b53d072c16796e4d2d5892beedcd9adec355ba494ca8a5ebc556d7a20f6c56` |
+| Manifest file | `MCQs - College MCQs 103 quick revision .pdf`; normalized local filename omits the pre-extension space |
+| File boundary | 236,423 bytes · unencrypted PDF · 2 physical native-text pages · US Letter, 612 × 792 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 quick revision .pdf` |
+| Visible provenance | Both pages print `Loco-cordination 103` and a multiple-choice instruction. No university, faculty, instructor, cohort, sitting or official-key label is printed. Metadata author is `Windows User`, creator/producer is Microsoft Word 2010, creation date is 17 May 2021 and modification date is 10 June 2024. |
+| Authority finding | Manifest/path-placed local LCS-103 revision-question evidence, eligible at lower question-bank authority. It is not a recoverable sitting, department paper, response form, practical station or official answer key. |
+
+The assigned SHA-256, byte size and two-page boundary were recomputed and match. Both pages
+were rendered at 200 dpi and visually read against the complete native text layer. Physical
+p. 1 contains Q1–Q7 and p. 2 contains Q8–Q15: **15 complete ordinary MCQ prompts**. There
+is no answer page, answer text, tick, option colour or option underline. The green marks over
+the numerals `7.` and `12.` are two PDF `/Highlight` annotations whose rectangles cover
+only the question numbers; they identify no option and supply **0 printed keys**.
+
+| Physical page | Prompt boundary | MCQ prompts | Printed keys |
+|---:|---|---:|---:|
+| 1 | Q1–Q7 | 7 | 0 |
+| 2 | Q8–Q15 | 8 | 0 |
+| **Family 81** | **Q1–Q15** | **15** | **0** |
+
+There is no declarative teaching section, specimen, image/trace interpretation, practical
+station, teaching plate, apparatus task, response blank, masked label or unresolved callout.
+Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical
+keys / 0 practical scopes**.
+
+### Name-twin comparison, assignment and prior-LCS deduplication
+
+This file is not a byte duplicate of Family 16's preferred three-page solved member. It is a
+distinct two-page composition: thirteen prompt occurrences are wording or formatting twins
+of Family 16, while current Q2 and Q9 are two same-objective sarcomere-band-change questions
+absent from that preferred member. Family 16's broad companion shortcut is therefore narrowed
+path-sensitively here. All 15 observed source records enter the occurrence count, but semantic
+deduplication prevents its eight accepted prior concepts from re-entering the module delta.
+
+| Current prompt assignment | Accepted handle | Prior-LCS result |
+|---|---|---|
+| Q1 | `isometric-vs-isotonic-contraction-comparison` | exact Family-16 eligible handle; prior reuse |
+| Q2,Q9 | `sarcomere-band-changes-during-contraction` | live muscle architecture owns constant A-band and shortening I-band/H-zone; Family 14 owns only external-bank assessment overlap, so this is the direct eligible promotion |
+| Q3,Q7,Q10,Q11 | `skeletal-muscle-excitation-contraction-coupling` | exact Families 3/15/16 eligible pending handle; prior reuse |
+| Q4,Q5 | `muscle-type-physiology-comparison` | exact Families 3/15/16 eligible pending handle; prior reuse |
+| Q6 | `smooth-muscle-contraction-regulation` | exact Families 3/15/16 eligible pending handle; prior reuse |
+| Q8,Q12 | `skeletal-muscle-length-tension-relationship` | exact Families 15/16 eligible pending handle; prior reuse |
+| Q13 | `nerve-action-potential` | exact Families 3/16 eligible pending handle; prior reuse |
+| Q14 | `glucocorticoid-induced-osteoporosis` | exact Family-16 eligible new handle; prior reuse |
+| Q15 | `visceral-smooth-muscle-properties` | exact Families 3/16 eligible pending handle; prior reuse |
+
+The 15 occurrences collapse to **9 source-distinct handles**: `1 + 2 + 4 + 2 + 1 + 2 + 1
++ 1 + 1 = 15` assigned occurrences, with **8 prior eligible reuses + 1 direct eligible
+promotion = 9**. Each handle received four required searches across live state, pending
+state, `docs/import-ready`, `docs/questions-import-ready`, every source-import root and
+accepted prior LCS: **9 × 4 = 36 required search invocations**. Source disposition is **1
+live / 7 pending / 1 new = 9** when inherited states are retained; exact accepted-prior
+adjudication leaves module concept delta **1 live / 0 pending / 0 new = 1**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+| Evidence dimension | Before Family 81 | Family 81 delta | After Family 81 |
+|---|---:|---:|---:|
+| Eligible observed question records | 664 | +15 | 679 |
+| Eligible printed question keys/answers | 374 | +0 | 374 |
+| Eligible distinct tested concepts | 316 | +1 | 317 |
+| Question live / pending / new | 11 / 103 / 202 | +1 / +0 / +0 | 12 / 103 / 202 |
+| Stand-alone practical/station prompt occurrences | 7 | +0 | 7 |
+| Distinct practical teaching plates, quantified | 458 verified minimum | +0 | 458 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,691 verified minimum | +0 | 2,691 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 149 | +0 | 149 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 92 | +0 / +0 / +0 | 0 / 0 / 92 |
+
+Arithmetic checks are `7 + 8 = 15 prompts`, `0 option-level marks = 0 keys`, `15
+occurrences → 9 handles`, `8 prior eligible reuses + 1 promotion = 9`, `1 + 0 + 0 = 1`,
+`664 + 15 = 679`, `374 + 0 = 374`, `316 + 1 = 317`, and `12 + 103 + 202 =
+317`. The external-bank checkpoint remains **321 questions / 321 printed keys / 100
+concepts = 10 live / 66 pending / 24 new**. Practical totals remain **7 prompts / 458 plates
+/ 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the audited remainder. Removing its sole path from Family
+80's accepted remainder leaves **149 all-rank path instances / 141 unique hashes**: tier 3
+**67 paths / 64 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**.
+Family 80's 150/142 row sets recompute first to path checksum
+`7eb84000a227e8daaed3c572eb3cb10fac386cb6e352a23f1d74997432e41283` and unique-hash
+checksum `518fc8c38d6f8163be8a7e1fa51d269b75c1b3249e1d2293771048f90cfc5d58`.
+For the exact post-Family-81 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`c401a63cb66c8d38afd950a758bd9f14d80c570de2626421181229c7d222b766`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`a1d7e224e32643a8b63a9f3be1dbd566fcaca69cf6d0b835afcfa394b80958a7`.
+
+The exact next direct/non-external tier-3 manifest-order debt is
+`src_b23eba9e2d391cb6e659`, `MCQs - College MCQs 103 quick revision with answers
+(1).pdf` (231,213 bytes; 2 native-text pages; SHA-256
+`b23eba9e2d391cb6e6591f4ab2058bac53c49ffc90102b471f3f6d28271313cb`). It is the
+systematically underlined solved twin of Family 81's same 15 prompts and must be reconciled
+as paired key evidence without a second prompt inventory. **Overall LCS-103 remains `S1
+TRIAGE — NOT APPROVED`:** 149 tier-3/tier-6/rank-9 path debts remain. No download, ID,
+content record, catalogue update, import or source copy was created.
