@@ -12208,3 +12208,107 @@ SHA-256 `1d98ab9b9387dc489d87912d33e999a8582a759f3a3d4327caeecf19d7a6b4a6`). It 
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 125 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 106 — Tier-3 external Dentistry-and-Medicine Head-and-Neck keyed web-bank capture
+
+### Exact identity, provenance and complete 60-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_1d98ab9b9387dc489d87` / `1d98ab9b9387dc489d87912d33e999a8582a759f3a3d4327caeecf19d7a6b4a6` |
+| File / boundary | Manifest `MCQs - External MCQs 2Head_and_Neck_Anatomy_MCQ_Multiple  - @Medicine_Way2.pdf`; normalized local filename collapses the doubled space · 1,491,275 bytes · unencrypted, untagged PDF · 60 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs 2Head_and_Neck_Anatomy_MCQ_Multiple  - @Medicine_Way2.pdf` |
+| Visible / container provenance | A paginated capture of the third-party `DENTISTRY AND MEDICINE` blog article `280 HEAD AND NECK ANATOMY MCQ (MULTIPLE CHOICE QUESTIONS) QUESTIONS WITH ANSWERS`, posted under `Sumdili` / Anatomy. The footer claims 2014 site copyright; PDF metadata records iPhone OS 9.3.2 Quartz PDFContext and 28 May 2016. No Helwan University, faculty, LCS-103 cohort, sitting or official-key mark appears. |
+| Authority finding | External web review-bank evidence. Its prompt content fits the accepted Head-and-Neck boundary after three prompt-level exclusions, but neither the blog answer grid nor reader comments are eligible Helwan authority. |
+
+The assigned hash, byte size and 60-page boundary were recomputed and match. Native text was
+extracted, all 60 pages were rendered at 120 dpi, and every page was read visually in six
+ordered contact sheets, with the article start, prompt sequence, illustration pages, answer
+tables, comments and copyright endpoint checked. The source PDF itself was not changed.
+
+| Physical boundary | Visible source units | Prompt occurrences | Usable A–E keys | Other answer marks |
+|---|---|---:|---:|---:|
+| p. 1 | site landing/header page | 0 | 0 | 0 |
+| pp. 2–53 | article Q1–Q278, including the K-type response instruction for Q251–Q268 | 278 | 0 | 0 |
+| p. 54 | article Q279–Q280; first 124 answer-grid cells | 2 | 123 | 1 (`X`, Q136) |
+| p. 55 | remaining first-grid and second-grid cells through Q274 | 0 | 138 | 0 |
+| p. 56 | final grid cells through Q280, then related-post chrome | 0 | 17 | 1 (`X`, Q239) |
+| pp. 57–60 | related posts, three reader comments, popular-post chrome and copyright footer | 0 | 0 | 0 |
+| **Whole source** | **Q1–Q280 plus complete 280-cell answer grid** | **280** | **278** | **2** |
+
+Module fit was decided before cumulative inventory, identically to the same question bank's
+Family-90 DOCX container. Q4 is an upper-limb cephalic-vein question, while Q239–Q240 are
+generic neurohistology questions on oligodendrocytes and Nissl substance. They are outside
+the LCS-103 Head-and-Neck/locomotor boundary. The accepted source boundary is therefore
+**277 external prompts / 276 usable printed keys**, plus the unresolved accepted Q136 `X`;
+the excluded boundary is **3 prompts / 2 usable printed keys**, plus excluded Q239 `X`.
+The K-type instruction is response-format guidance, not another prompt.
+
+Page 58 preserves three public reader comments: Q100 `E`, Q220 `D`, and Q32 `both c and d`
+with a Netter reference. They directly challenge grid cells Q100 `A`, Q220 `E` and Q32 `C`,
+but carry no editor, lecturer or Helwan authority. They are logged as **three excluded reader
+key assertions**, not a second key inventory and not repairs to the source grid.
+
+Ten fully labelled in-article textbook illustrations are interleaved on pp. 10, 19, 20, 26,
+31, 35, 42, 44, 48 and 51, covering mandible, anterior/lateral skull, neck fascia and
+neurovascular relations, facial-expression/neck musculature, thyroid, pharynx, regional
+lymphatics and the medial nasal wall. Small site logos, avatars and related-post thumbnails
+are page chrome, not medical teaching units. The ten article illustrations are declarative
+reference figures: no prompt points to a letter, masked label or unknown structure on them.
+They are therefore **10 adjunct teaching figures**, not practical plates or mappings. There
+is no specimen, radiograph, micrograph, station, apparatus task, response blank or practical
+residue. Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues /
+0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 277 accepted occurrences collapse to the same **49 source-distinct tested handles across
+29 primary domains** previously established by Family 90: cervical vertebrae and
+craniocervical joints; skull/foramina; meninges/CSF/dural sinuses/cerebral arterial
+territories; scalp; deep cervical fascia, triangles and root of neck; cervical plexus,
+accessory and sympathetic relations; carotid, arterial, venous and lymphatic routes; thyroid
+and parathyroid; cranial nerves and parasympathetic ganglia; oral cavity, tongue, salivary
+glands, dentition, palate and pharynx; larynx; nose and sinuses; orbit and lacrimal pathways;
+ear; TMJ and mastication; infratemporal/pterygopalatine fossae; facial-cleft development; and
+integrated Head-and-Neck relations. The two containers share the complete Q1–Q280 sequence,
+the same grid letters and the same Q136/Q239 `X` convention; web pagination and chrome do not
+create new tested handles.
+
+Every handle received one fresh search in the live, pending/import-ready, prior source-import
+and accepted-LCS surfaces: **49 × 4 = 196 required search invocations**. Prior-external-first
+comparison yields **49 exact Family-90 reuses + 0 external additions = 49**. Accepted
+Families 1 and 20–30 corroborate most curriculum scopes but cannot promote this external web
+capture into eligible evidence. External and eligible concept-state deltas are both zero.
+The exact 196-query ledger is preserved at
+`tmp/pdfs/lcs103-family106/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **2,896 / 2,812 / 221 = 12 / 135 / 74** to **3,173 external prompts / 3,088
+usable source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `2,896 + 277 = 3,173`, `2,812 + 276 = 3,088`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. The accepted Q136 `X`, excluded Q239 `X`, three excluded prompts,
+two excluded A–E cells and three reader assertions contribute zero usable keys or cumulative
+LCS evidence beyond this exception ledger. Practical totals remain **7 prompts / 458 plates /
+2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-105 remainder. Removing its sole path leaves
+**124 all-rank path instances / 116 unique hashes**: tier 3 **42 paths / 39 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 105's prior checksums are
+`77a8375507732c8fec3829a85ba98016ba8376852a65b3004d3cf1a5d0d8a0d0` (paths) and
+`e51fed50df6979f5e0fd392e44a1d10ca03dc16d995ba6c8b34add33c0883347` (unique hashes).
+For the exact post-Family-106 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`aefb1f4b6661f208dcb06e3140b61728f56256e7ca9d280cb21e7982485f594c`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`74698bc44d43e24113a16230a5fc8054fa7ca8b5971433ef8843d00eb5f0a847`.
+
+The exact next tier-3 manifest-order debt is `src_3b5e2b81eb7d045a8103`,
+`MCQs - External MCQs Anatomy Lecture 1.pdf` (291,157 bytes; 8 native pages; SHA-256
+`3b5e2b81eb7d045a8103a17f28f63b054ea1a2a563e59668a7b7b0450234b2d9`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 124 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
