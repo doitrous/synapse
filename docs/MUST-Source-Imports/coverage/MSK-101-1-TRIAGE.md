@@ -3331,3 +3331,41 @@ Removing the eighty-two processed unique hashes leaves **19 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anastomosis msk anatomy of midterm part (By Yumna).pdf`, SHA-256 `7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043`, 1 page.
 
 **BLOCKED — S1 cannot be approved:** 19 selected inventory paths / 19 unique hashes remain untriaged.
+
+## Completed teaching-only source — Anastomosis msk anatomy of midterm part (By Yumna)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anastomosis msk anatomy of midterm part (By Yumna).pdf` | `7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043` | 1 | empty-text audit sample | page 1 rendered and read | Filename-attributed Yumna handwritten teaching sheet scanned with CamScanner. Metadata title repeats `Anastomosis msk anatomy of midterm part`, author is `CamScanner`, and iOS Quartz creation/modification is dated 28 October 2024. The page and metadata name no institution, department, examiner, sitting, marks or official key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anastomosis msk anatomy of midterm part (By Yumna).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+The single scanned notebook page is a teaching diagram of arterial anastomoses. Four labeled regions cover the inferior angle of the scapula, the infraspinous fossa, the surgical neck of the humerus and the shoulder joint. Ten named or grouped arterial entries link those regions to the deep branch of the transverse cervical artery, subscapular and circumflex scapular arteries, suprascapular artery, anterior/posterior circumflex humeral arteries, profunda brachii ascending branch and thoracoacromial artery.
+
+The exact boundary is **1 teaching-only page / 4 diagrammed teaching regions / 10 named or grouped artery entries / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. The arrows and branches explain vascular connections; they neither ask the learner to identify unlabeled anatomy nor provide response spaces, so the page is not a practical station.
+
+### Authority, source truth and search gate
+
+The filename establishes learner-level attribution to Yumna only. CamScanner authorship, iOS production metadata and the filename phrase `midterm part` do not authenticate a MUST/MSK assessment, examiner or faculty key. Handwriting, ditto marks, clipped edge text and terminology are preserved as visible source observations without reconstruction or academic correction.
+
+No assessment prompt or candidate handle exists, so source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Prior-MSK prompt deduplication is not applicable to teaching-only diagrams.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **6997 questions / 6793 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6997 | 6793 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-three processed unique hashes leaves **18 selected inventory paths / 18 unique SHA-256s**. Their sorted, newline-joined hash checksum is `d2bdc4a5bdc804213e57bc176419530baa753a0886e57db8fb7d334c818c1ce1`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 6 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`83 + 18 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pectoral region notes (by Maii Mahmoud✨).pdf`, SHA-256 `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 18 selected inventory paths / 18 unique hashes remain untriaged.

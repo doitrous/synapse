@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "16b5ef1a7622a4db6164b9b85a19def199164c124e8ff002a5155ce339131cd6",
-    "triageMarkdown": "9bb52e4e51e8ee98c405f377b67def9882c880be6d7f3c31ec8be084605453fb"
+    "readinessMarkdown": "d0014033b42a9490fd28fc0ad6eab5966934f7afe6a299e3cb7713de1fd8055b",
+    "triageMarkdown": "af50d060668166bba919e9bfce204edcf2eb2a09222638b1f7829d5d43f7709f"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -90,6 +90,7 @@
       "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
       "76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c",
       "7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f",
+      "7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043",
       "841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
@@ -134,7 +135,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 82
+    "uniqueSha256": 83
   },
   "completedSourceCoverage": [
     {
@@ -2637,6 +2638,35 @@
         "selective origin, insertion, nerve-supply and action statements remain source observations rather than endorsed anatomy claims",
         "numbered intrinsic-muscle families remain grouped teaching entries rather than manufactured assessment occurrences"
       ]
+    },
+    {
+      "sha256": "7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043",
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "teachingPages": "1",
+      "diagrammedTeachingRegions": 4,
+      "namedOrGroupedArteryEntries": 10,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Yumna handwritten teaching sheet scanned with CamScanner and produced by iOS Quartz on 28 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears, and filename-only midterm part wording is not assessment authority",
+      "boundaryDisposition": "single scanned teaching diagram with four labeled arterial-anastomosis regions and ten named or grouped arterial entries; arrows and branches explain vascular connections but do not form objective, written, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "handwritten ditto marks and terminology remain uncorrected",
+        "edge-clipped text is retained only as visibly present and is not reconstructed",
+        "CamScanner author metadata is not promoted to named authorship or faculty authority"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2648,22 +2678,22 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 19,
-    "uniqueSha256": 19,
-    "sortedNewlineSha256": "cb608a66075084afd859a84ef97e87501cf4a892915fcae0023d98bf7a27d1de",
+    "inventoryMetadataRows": 18,
+    "uniqueSha256": 18,
+    "sortedNewlineSha256": "d2bdc4a5bdc804213e57bc176419530baa753a0886e57db8fb7d334c818c1ce1",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
-      "empty-text": 7
+      "empty-text": 6
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
-    "empty-text": 7
+    "empty-text": 6
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 82,
-    "remainingUniqueSha256": 19,
+    "processedUniqueSha256": 83,
+    "remainingUniqueSha256": 18,
     "processedPlusRemaining": 101
   }
 }
