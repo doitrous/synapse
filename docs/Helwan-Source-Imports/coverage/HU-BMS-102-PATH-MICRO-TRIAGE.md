@@ -10104,3 +10104,113 @@ its first-page text identifies `CELL INJURY 1`, Dr Enas Megahed Elhosary, Lectur
 Faculty of Medicine, Helwan University. Its complete page content, manifest-versus-local
 placement, teaching/prompt/key boundary, visible provenance, and prior-BMS relationship are the
 exact next-source blockers.
+
+## Family 92 — annotated Cell Injury 1 lecture with terminal CBL reveal
+
+### Source identity, manifest/local placement, render boundary, and provenance
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_3dccdd1df7a47ccf25b5` · `Cell injury lecture 1 1 (1).pdf` |
+| SHA-256 / size | `3dccdd1df7a47ccf25b5c687aa032a7b783c8c6e0a59f33120e234bf9a393bf8` · 21,895,971 bytes |
+| Manifest/local placement | Manifest records Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6. That path is stale: the SHA-matching local file is under `Pathology / Theoretical`; no SHA-matching copy remains in `Notes and Summaries`. The relocation changes storage only, not manifest order or source identity. |
+| Format / complete read boundary | 60 native-text landscape 791×445-point pages; all 60 rendered at 100 dpi to non-empty 1099×619-pixel images and visually read in order at original resolution |
+| Native layer | 1,046 words / 9,237 bytes extracted across the complete PDF. Many mechanism, gross, histology, handwriting, and closing pages are image-heavy or text-sparse, so the page renders establish the complete content boundary. |
+| Visible provenance | The cover visibly reads `CELL INJURY 1`, `Dr/ Enas Megahed Elhosary`, `Lecturer of Pathology`, `Faculty of Medicine`, and `Helwan University`. No academic year, teaching date, or exam sitting is visible. |
+| Embedded-image caution | Page 36 contains a small red medical-school crest inside an imported normal-liver teaching image; its text is not legible enough for reliable institutional attribution, and it does not override the deck-level Helwan cover. |
+| Metadata | No title, author, creator, producer, creation date, or modification date is exposed by `pdfinfo`; no metadata year is available to supplement the visible source. |
+| Authority | Helwan-authored tier-6 annotated lecture material with one terminal CBL teaching MCQ and source-native answer reveal; not a dated exam, candidate paper, or official exam key. |
+
+### Page-first teaching, callout, practical-image, prompt, and key inventory
+
+| Pages | Complete visible source content | Prompt / answer ruling |
+|---:|---|---:|
+| 1 | `CELL INJURY 1` Helwan/instructor cover | provenance only; **0 / 0** |
+| 2 | Objectives and intended learning outcomes | teaching objectives; **0 / 0** |
+| 3–7 | Cell response/adaptation maps, injury definition and causes, determinants of injury effect, and labelled cellular-organelles diagram | completed teaching and annotations; **0 / 0** |
+| 8–20 | Biochemical mechanisms: ATP depletion, reactive oxygen species, mitochondrial injury, calcium influx, membrane/protein/DNA injury, integrated pathway maps, reversible/irreversible transition, and end-result overview | completed mechanism diagrams and callouts; **0 / 0** |
+| 21–29 | Cloudy swelling and hydropic degeneration definitions, pathogenesis, gross/microscopic morphology, organ examples, and completed gross/histology plates | teaching/practical-image material with labels already supplied; **0 / 0** |
+| 30–40 | Fatty change causes/pathogenesis, organ patterns, gross and microscopic morphology, special stains, gross liver/heart images, normal-versus-steatotic histology, and clinical effects | declarative teaching and completed image labels; **0 / 0** |
+| 41–44 | Necrosis-versus-apoptosis schematic; irreversible-injury/necrosis definition, mitochondrial/calcium basis, cytoplasmic/nuclear changes, and labelled necrotic histology | completed teaching; **0 / 0** |
+| 45–56 | Necrosis classifications and completed gross/microscopic examples for coagulative, liquefactive, caseous, traumatic/enzymatic fat, gangrenous, and fibrinoid necrosis | completed teaching plates, not practical stations; **0 / 0** |
+| 57 | Handwritten fate-of-necrosis map and Arabic study-scope/playlist note | teaching summary and audience note; **0 / 0** |
+| 58 | CBL liver-biopsy MCQ in a diabetic fatty patient with anemia and hepatomegaly; option D has a blue check and `Fatty change` is written beside it | **1 prompt / 1 handwritten teaching-answer occurrence** |
+| 59 | Near-literal repeat of the same CBL stem/options, with option A expanded from `Apoptotic` to `Apoptotic bodies`, plus printed `Answer: D Signet ring liver cells.` panel | **1 copied prompt / 1 printed teaching-answer occurrence**; exclude repeat from retention |
+| 60 | `Thank you` closing slide | closing residue; **0 / 0** |
+
+Highlights, underlines, circles, arrows, handwritten expansions, and color changes generally mark
+teaching emphasis, causal links, or completed image labels. Page 31's red cross beside
+`mitochondrial theory` is a local annotation/correction, not a stable answer convention. Page 5's
+question-marked heat/cold note, the printed `Reversible stage?` inside page 18's completed
+injury-flow diagram, the question-like Arabic annotation on page 42, and page 57's Arabic
+study-scope note are teaching/audience callouts with no candidate-response space; none is counted
+as an assessment prompt or prompt-like residue. Similarly, organ/lesion/diagnosis captions,
+`Special stain` text, arrows into histology, and completed gross/microscopic labels do not create
+practical stations.
+
+The source contributes **2 raw prompt occurrences / 2 source-visible teaching-answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues**. Pages 58–59 are one reveal pair: the minor
+option-A wording expansion does not change the tested proposition, so the second appearance is a
+near-literal copy and the pair retains **1 question record / 1 source-distinct handle**.
+
+### Source-first handle assignment, four-search ledger, and prior-BMS adjudication
+
+| Ref | Source-tested scope / teaching answer | Handle / prior assignment |
+|---|---|---|
+| F92-Q01a,b | Diabetic/fatty patient with anemia and liver enlargement: liver-biopsy morphology is signet-ring hepatocytes from fatty change; D | `diabetes-anemia-hepatomegaly-fatty-liver-signet-ring` · new; F2 tests fatty-liver predisposition and F86 tests alcohol-associated fatty change, neither this clinical-to-biopsy morphology association |
+
+The one accepted handle received exactly four fresh source-first searches across live state,
+every pending import root, and prior BMS-102 Families 1–91: **4 required searches**. External
+exact-scope disposition is **0 live / 0 pending / 1 no same-scope**.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `diabetes-anemia-hepatomegaly-fatty-liver-signet-ring` | `diabetic fatty patient anemia liver enlargement`; `liver biopsy anemia diabetes signet ring hepatocytes`; `fatty change signet ring liver cells`; `diabetes anemia hepatomegaly hepatic steatosis` | no same-scope | none; F2 cause/predisposition and F86 alcohol-etiology handles are narrower/different; delta |
+
+No prior BMS exact handle is reused, so Family 92 adds `1 - 0 = 1` concept.
+
+### Family-92 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 92 | Auxiliary cumulative (Families 12–92) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 2 | 847 | 765 | 1,612 |
+| Printed/handwritten teaching-answer occurrences | 2 | 470 | 405 | 875 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 1 | 788 | 552 | 1,340 |
+| Source-distinct tested handles / required searches | 1 / 4 | 712 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 1 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 0 | — | — | none |
+| Cross-family concept delta | +1 | +487 over primary | 372 | `372 + 487 = 859` |
+| **Distinct tested concepts** | **+1** | **487 auxiliary additions** | **372** | **859** |
+
+The checksum closes: `1 annotated prompt + 1 near-literal reveal copy = 2` raw occurrences;
+each carries one source-visible answer, giving 2 answer occurrences; `2 - 1 copied repeat = 1`
+retained record and 1 handle; searches are `1 × 4 = 4`; external disposition is `0 + 0 + 1 =
+1`; and concept arithmetic is `1 - 0 prior exact reuses = 1`. Auxiliary cumulative arithmetic
+is `845 + 2 = 847` prompts, `468 + 2 = 470` answers, `787 + 1 = 788` retained records, `711 +
+1 = 712` source handles, and `486 + 1 = 487` concept additions. All eligible arithmetic is
+`765 + 847 = 1,612`, `405 + 470 = 875`, `552 + 788 = 1,340`, and `372 + 487 = 859`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**847 / 470 / 788 / 712 / +487**; and all eligible evidence is
+**1,612 / 875 / 1,340 / 859**. Family 92 contributes auxiliary teaching-CBL evidence only. It
+cannot establish a dated sitting, recurrence, mark weight, official exam key, student response,
+readiness, or claims status.
+
+### Exact next debt after Family 92
+
+`src_3dccdd1df7a47ccf25b5` is exhausted across all 60 pages: every manifest/local-placement
+field, visible provenance element, teaching slide, handwritten/callout convention, completed
+gross or histology label, CBL prompt, annotated answer, reveal copy, retained record, handle,
+required search, external disposition, prior-BMS comparison, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-92 blocker. The exact next manifest-ordered
+BMS-102 record is tier-6 preferred name twin `src_034276f9ba5a61ea711a` ·
+`Cell-injury-lecture-2.pdf`, SHA-256
+`034276f9ba5a61ea711a37a89f27bb5fd0df62d98abc12be5619656edc749111`, 8,573,598 bytes,
+37 native-text landscape 791×445-point pages. The manifest path under `Pathology / Notes and
+Summaries` is stale; the SHA-matching local file is under `Pathology / Theoretical` (a same-name
+file nested under `Theoretical / Lec 3 - Cell Injury 2` has a different SHA). Its visible cover
+identifies `CELL INJURY 2`, Dr Enas Megahed Elhosary, Lecturer of Pathology, Faculty of Medicine,
+Helwan University. Its complete teaching/prompt/key boundary, preferred-twin identity, local-path
+resolution, and overlap with Families 90–91 are the exact next-source blockers.
