@@ -16418,3 +16418,201 @@ MCQs`. Its visible Dr Enas Elhosary / Faculty of Medicine / Helwan University pr
 solved-answer authority, relation to the following unkeyed Questions twin, complete prompt/key
 boundary, source-first collapse, prior-BMS reuse, four-search packets, and arithmetic are the
 exact next-source blockers.
+
+## Family 154 — Enas-Elhosary solved Final Revision College-MCQ bank
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 solved-copy `src_da5669433f02ac4d8e7b` · `MCQs - College MCQs Final Revision Answers.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `da5669433f02ac4d8e7b6342dc170e9c5e9d3b4336747f100d6d4fe35ac8eb5f` · **1,510,799 bytes** |
+| Format / complete visual boundary | **38 native-text 960×540-point landscape pages**. All 38 pages rendered at 140 dpi into 38 non-empty 1867×1050-pixel images and were read individually at original detail: p.1 cover, pp.2–37 numbered Q1–Q80, and p.38 closing `Thank you`. No page, option, answer mark, annotation, footer, or terminal remainder is omitted. |
+| Native-text reality | Layout extraction contains **1,841 words / 12,614 bytes** and raw extraction 1,842 words / 11,728 bytes. The text layer supplies the stems/options and also exposes some ink annotations; answer-color/mark direction was therefore adjudicated from the rendered pages rather than inferred from extraction. No OCR was needed. |
+| Visible provenance | The cover visibly states `Dr/ Enas Elhosary`, `Lecturer of pathology`, `Faculty of Medicine`, and `Helwan University`. This directly establishes instructor and Helwan teaching-bank provenance. The closing-page freehand marks do not override that legible cover identity. |
+| Metadata caution | Producer is iOS 18.1.1 Quartz PDFContext and creation/modification time is 7 January 2025. Those fields describe export history only; they do not establish academic year, sitting date, candidate ownership, or official-key approval. |
+| Authority | Instructor-attributed, visibly Helwan, solved **revision/study bank**. Pink/cyan highlighting and blue/red freehand marks select or correct answers. The carrier is not a candidate paper, administered midterm/final, department-certified key register, or student response sheet. |
+
+The following manifest record, `src_b71ed155a6c4862d7bf4` · `MCQs - College MCQs Final
+Revision Questions.pdf`, is a distinct 408,156-byte carrier with the same 38-page geometry and
+matching native prompt/option layer but without this solved ink layer. Its different SHA and
+answer state make it the unkeyed companion carrier, not a byte-identical duplicate. Family 154
+governs only the solved-copy evidence; the unkeyed twin remains the exact next debt.
+
+### Complete page-first prompt, answer-copy, format, and anomaly boundary
+
+| Pages | Complete source sequence | Prompt / supplied-answer boundary |
+|---:|---|---:|
+| 1 | Cover identity | **0 / 0**. |
+| 2–6 | Q1–Q10: adaptation, atrophy, hypertrophy, pure hypertrophy, hyperplasia, metaplasia, dysplasia, necrosis, and two apoptosis definitions | **10 four-option MCQs / 10 answer marks**. |
+| 7–9 | Q11–Q18: necrosis/apoptosis T/F contrasts, fatty change, calcification, hemochromatosis, and hemosiderosis | **5 T/F + 3 MCQ / 8 answers**. |
+| 10–16 | Q19–Q32: inflammation agents, redness, duration, acute response, leukocyte stages, pain, serous/fibrinous/catarrhal/pseudomembranous patterns, exudate benefits/flow/fibrin, and resolution | **11 MCQ + 3 T/F / 14 answers**. |
+| 17–21 | Q33–Q43: bacteremia, fistula, granulomatous inflammation, reactive proteins, systemic effects, labile cells/examples, regeneration and fracture-repair propositions | **6 MCQ + 5 T/F / 11 answers**. |
+| 22–29 | Q44–Q62: bone-healing stages; first/second intention; incisional timing; contraction, dehiscence and healing factors; epidermoid-cyst implantation; CNS gliosis; liver repair/scarring; edema definition | **8 MCQ + 11 T/F / 19 answers**. |
+| 30–37 | Q63–Q80: edema examples/nomenclature/mechanisms/complications; Virchow triad, venous thrombosis, infarction, gas gangrene; malignant behaviour, stroma, grade, mobility and recurrence | **7 MCQ + 11 T/F / 18 answers**. |
+| 38 | Closing `Thank you` and freehand marks | **0 / 0**; closing decoration, not a prompt, key, signature authority, or response residue. |
+
+The exact source boundary is **80 text prompt occurrences / 80 source-supplied answer
+occurrences / 0 unkeyed prompts / 45 four-option MCQs / 35 true-false prompts / 0 written
+operations / 0 image-bearing questions / 0 drawing tasks / 0 practical stations / 0 candidate
+responses / 0 prompt-like residues**. All 80 source wordings remain retained records and all 80
+test source-distinct propositions; no literal or semantic within-carrier copy is collapsed.
+
+The answer convention is visual rather than a terminal letter list. Q1–Q39 predominantly use
+pink highlighting; Q40 onward predominantly use cyan, while blue underlines/circles/boxes and
+occasional red/blue corrections also select answers. The convention remains unambiguous on every
+row. An underline rather than fill controls Q55, Q58, Q60–Q61; a circle controls Q56–Q57, Q59,
+Q68; and a box controls Q72. Stray isolated dashes/dots around Q14–Q15 are annotation artifacts,
+not extra keys.
+
+Source wording and source-selected answers are preserved without medical repair. Notable
+answer-copy evidence includes Q13's `False` plus handwritten `apoptosis`; Q17–Q18's `damage` /
+`X damage`; Q20's redness answer plus a separate `heat` note; Q39's `False` plus `Labile`; Q48's
+`False` with `3rd day` and `epithelial cells`; Q51's `False` plus `Slow`; Q52's key B despite the
+printed `Decreased mechanical stress ... from vomiting`, with handwritten `increase`; Q53's
+source-selected `Cicatrisation` plus `= contraction`; Q54's `False` plus `Faster`; Q60's `False`
+after circling `are not`; Q66's source wording `nephritic syndrome`; Q67's `False` plus
+`non pitting`; Q71's `Infarction` plus `= necrosis`; Q74's source-selected `False`; and Q77's
+source-selected `False`. These are governed source/key anomalies, not corrections licensed here.
+
+### Source-first 80-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 80 accepted handles received exactly four fresh source-first searches across live state,
+pending import roots, and prior BMS-102 Families 1–153: **80 × 4 = 320 required and completed
+searches**. The query packets and prior-family rulings follow; prior reuse is determined by tested
+scope, not by whether a live/pending external record exists.
+
+| Ref / accepted handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| Q1 · `cellular-adaptation-reversible-response-definition` | `cellular adaptation reversible adverse environment`; `adaptation definition viable steady state`; `cell change stress cause ceases`; `adaptive response cell definition` | exact Families 1/2/10/112 reuse |
+| Q2 · `cellular-atrophy-loss-of-substance-definition` | `atrophy loss cell substance definition`; `cell shrinkage cellular atrophy`; `reduced cell size loss substance`; `atrophy pathology definition` | exact Families 1/10 reuse |
+| Q3 · `hypertrophy-increased-cell-size-definition` | `hypertrophy increased cell size definition`; `organ enlargement individual cells`; `cell size not number hypertrophy`; `cellular hypertrophy meaning` | exact Family-125 reuse |
+| Q4 · `pure-hypertrophy-muscle-tissue` | `pure hypertrophy occurs in muscles`; `muscle enlargement hypertrophy no hyperplasia`; `cardiac skeletal muscle hypertrophy`; `permanent muscle cells size increase` | contained by Families 98/143 permanent-muscle hypertrophy scopes; reuse |
+| Q5 · `hyperplasia-increased-cell-number-definition` | `hyperplasia increased cell number definition`; `organ enlargement cell number`; `adaptive cellular proliferation`; `hyperplasia versus hypertrophy number` | exact Families 2/125/149 reuse |
+| Q6 · `metaplasia-adult-cell-type-replacement-definition` | `metaplasia adult cell replacement definition`; `one differentiated cell type another`; `epithelial mesenchymal metaplasia`; `reversible adult cell substitution` | exact Families 125/149 reuse |
+| Q7 · `dysplasia-disordered-cell-arrangement-definition` | `dysplasia disordered arrangement definition`; `loss uniformity architectural orientation`; `nonneoplastic dysplasia definition`; `dysplasia cellular disorder polarity` | no prior accepted prompt states this full definition; delta |
+| Q8 · `necrosis-group-cell-death-inflammation-calcification` | `necrosis groups cells inflammation calcification`; `autolysis living cells necrosis`; `necrosis versus apoptosis inflammation`; `necrotic cell death group definition` | exact Families 1/112 necrosis-versus-apoptosis reuse |
+| Q9 · `apoptosis-single-cell-no-inflammation-calcification` | `apoptosis single cells no inflammation`; `cell death clusters individual apoptosis`; `apoptosis no calcification`; `necrosis apoptosis cell number comparison` | exact Families 1/112 reuse |
+| Q10 · `apoptosis-programmed-physiologic-cell-death` | `apoptosis programmed physiological cell death`; `gene directed cell death definition`; `regulated physiologic apoptosis`; `programmed cell deletion pathology` | exact Family-73 reuse |
+| Q11 · `necrosis-cell-size-swelling-not-reduction` | `necrosis cell size swelling not reduced`; `necrotic versus apoptotic cell size`; `necrosis cellular swelling true false`; `cell death morphology size comparison` | contained by Families 1/73/112 comparison scopes; reuse |
+| Q12 · `apoptosis-plasma-membrane-intact` | `apoptosis plasma membrane intact`; `apoptotic bodies membrane integrity`; `necrosis membrane disruption apoptosis intact`; `apoptosis morphology membrane` | exact Families 1/73/112 reuse |
+| Q13 · `apoptosis-physiologic-and-pathologic-roles` | `apoptosis physiologic pathologic roles`; `necrosis only pathologic true false`; `programmed cell death normal disease`; `apoptosis examples physiological pathological` | contained by Family-73 apoptosis roles; reuse |
+| Q14 · `steatosis-triglyceride-parenchymal-cell-definition` | `fatty change triglycerides parenchymal cells`; `steatosis definition intracellular fat`; `triglyceride accumulation hepatocyte`; `fatty degeneration definition pathology` | exact Family-112 reuse |
+| Q15 · `dystrophic-calcification-damaged-tissue` | `dystrophic calcification damaged tissue`; `calcium deposition necrotic tissue`; `dystrophic calcification true false`; `pathologic calcification injured tissue` | exact Families 9/112/125/151 reuse |
+| Q16 · `dystrophic-vs-metastatic-serum-calcium` | `serum calcium normal dystrophic metastatic`; `metastatic calcification hypercalcemia`; `both calcifications normal calcium false`; `dystrophic versus metastatic calcium level` | exact Families 9/112/125/151 reuse |
+| Q17 · `hemochromatosis-parenchymal-damage-scarring` | `hemochromatosis parenchymal hemosiderin damage`; `iron overload organ dysfunction scarring`; `hemosiderosis versus hemochromatosis damage`; `parenchymal iron accumulation term` | contained by Families 9/112 hemochromatosis pathology; reuse |
+| Q18 · `hemosiderosis-macrophage-deposit-no-damage` | `hemosiderosis macrophages no tissue damage`; `hemosiderin tissue macrophage accumulation`; `hemosiderosis versus hemochromatosis injury`; `iron pigment macrophages without dysfunction` | no prior accepted prompt tests this defining contrast; delta |
+| Q19 · `physical-inflammation-agents-chemical-exception` | `physical agents inflammation exception drugs toxins`; `mechanical temperature pressure radiation inflammation`; `chemical versus physical inflammatory causes`; `inflammation etiologic agents classification` | contained by Families 1/2 inflammation-cause scopes; reuse |
+| Q20 · `acute-inflammation-redness-small-vessel-dilation` | `inflammatory redness small vessel dilation`; `rubor vasodilation mechanism`; `acute inflammation hyperemia redness`; `cardinal sign redness blood flow` | exact Families 2/10 reuse |
+| Q21 · `inflammation-acute-chronic-duration-classification` | `inflammation classified acute chronic duration`; `histologic appearance inflammation duration`; `acute versus chronic inflammation classification`; `inflammation high level classification` | no prior accepted prompt tests this exact two-way classification; delta |
+| Q22 · `acute-inflammation-immediate-early-response` | `acute inflammation immediate early response`; `acute inflammatory response characteristic`; `acute versus chronic timing`; `injurious agent early inflammation` | exact Family-1 reuse |
+| Q23 · `leukocyte-recruitment-stages-vasoconstriction-exception` | `leukocyte recruitment stages exception vasoconstriction`; `rolling adhesion transmigration chemotaxis`; `cellular inflammatory response sequence`; `momentary vasoconstriction not leukocyte stage` | exact Families 1/10/139 reuse |
+| Q24 · `inflammatory-pain-prostaglandin-e2` | `inflammatory pain prostaglandin E2`; `PGE2 pain mediator`; `histamine IL1 C5a pain exception`; `acute inflammation pain chemical` | exact Families 1/10/86 reuse |
+| Q25 · `serous-inflammation-thin-fluid-definition` | `serous inflammation thin fluid definition`; `serum mesothelial secretion serous exudate`; `peritoneal pleural pericardial thin fluid`; `serous inflammatory pattern definition` | no prior accepted prompt tests the complete definition; delta |
+| Q26 · `bread-and-butter-fibrinous-pericarditis` | `bread and butter pericarditis`; `fibrinous pericardial inflammation`; `pericardial fibrin gross appearance`; `butter bread pathology` | exact Families 1/10/123 reuse |
+| Q27 · `catarrhal-inflammation-superficial-mucosa` | `catarrhal inflammation superficial mucosa`; `mild mucous membrane inflammation`; `catarrhal inflammation definition`; `mucosal hypersecretion inflammation` | exact Family-8 reuse |
+| Q28 · `diphtheritic-pharynx-pseudomembranous-inflammation` | `diphtheria pharynx pseudomembranous inflammation`; `diphtheritic membrane inflammatory type`; `pharyngeal pseudomembrane pathology`; `diphtheria non suppurative pattern` | contained by Family-88 non-suppurative-types scope; reuse |
+| Q29 · `toxin-dilution-beneficial-inflammation-effect` | `dilution toxins beneficial inflammation`; `exudate dilutes bacterial toxins`; `beneficial effects inflammatory exudate`; `inflammation toxin dilution true false` | completed prior teaching only; no accepted same-scope prompt; delta |
+| Q30 · `inflammatory-exudate-flow-direction` | `exudate flow tissue lymphatics venules`; `inflammatory fluid drainage direction`; `exudate from venules through tissue lymphatics`; `lymphatic flow inflammation true false` | no prior accepted same-scope prompt; delta |
+| Q31 · `fibrin-limits-bacterial-spread-phagocytosis` | `fibrin prevents bacterial spread phagocytosis`; `beneficial fibrin inflammation function`; `fibrin mesh localizes infection`; `exudate fibrin enhances leukocyte phagocytosis` | no prior accepted same-scope prompt; delta |
+| Q32 · `resolution-complete-restoration-definition` | `resolution complete restitution normal structure function`; `inflammation resolution definition`; `healing resolution versus fibrosis`; `complete restoration tissue after inflammation` | prior outcome teaching does not test this definition; delta |
+| Q33 · `bacteremia-organisms-circulating-blood-definition` | `bacteremia organisms circulating blood definition`; `bacteria in bloodstream term`; `bacteremia versus toxemia pyemia`; `circulating organisms blood pathology` | exact Family-7 reuse |
+| Q34 · `fistula-two-epithelial-surfaces-definition` | `fistula connects two epithelial surfaces`; `abnormal tract two hollow organs`; `fistula definition pathology`; `sinus versus fistula epithelial connection` | prior complication/fate handles do not test the definition; delta |
+| Q35 · `granulomatous-specific-chronic-inflammation` | `granulomatous inflammation specific chronic`; `granuloma classification pathology`; `specific versus nonspecific chronic inflammation`; `granulomatous not acute` | exact Families 8/116 reuse |
+| Q36 · `acute-phase-reactive-proteins-liver-source` | `acute phase reactive proteins secreted liver`; `CRP liver synthesis inflammation`; `reactive protein source organ`; `systemic inflammation hepatic proteins` | no prior accepted prompt tests organ source; delta |
+| Q37 · `systemic-inflammation-pulse-pressure-sweating-direction` | `systemic inflammation pulse blood pressure sweating`; `acute inflammation systemic effects pulse rate`; `fever sweating cardiovascular response inflammation`; `decreased pulse pressure inflammation false` | Family-88 systemic-effects scope tests different manifestations; delta |
+| Q38 · `labile-cells-continuous-stem-cell-turnover` | `labile cells continuous turnover stem cells`; `continuously dividing cell population`; `labile cell definition regeneration`; `programmed stem cell division tissue` | exact Families 1/2/87 reuse |
+| Q39 · `labile-epithelial-lymphoid-hematopoietic-examples` | `labile cell examples skin GI urinary`; `lymphoid hematopoietic labile cells`; `permanent versus labile epithelia`; `continuously dividing epithelial cells` | contained by Families 1/2/87 cell-population scopes; reuse |
+| Q40 · `regeneration-identical-cell-replacement-definition` | `regeneration lost cells replaced identical`; `tissue regeneration definition`; `renewal lost tissue normal cells`; `regeneration versus fibrosis organization` | prior healing definition is broader; delta |
+| Q41 · `regenerative-capacity-determinants-exact-site-exception` | `regeneration capacity determinants exception exact site`; `proliferative ability stromal damage severity`; `tissue regeneration depends factors`; `site of lesion regeneration determinant` | no prior accepted prompt tests this exception set; delta |
+| Q42 · `labile-stable-regeneration-intact-stroma` | `labile stable cells regenerate intact stroma`; `stromal framework regeneration requirement`; `cell population repair intact matrix`; `stable cells regeneration true false` | prior cell-population scopes omit this conditional proposition; delta |
+| Q43 · `fracture-repair-not-fibrous-scar` | `fracture repaired by fibrous scar false`; `bone fracture heals bone not scar`; `fracture repair callus versus fibrosis`; `bone regeneration scar tissue` | prior staged-healing handles do not test this contrast; delta |
+| Q44 · `fracture-healing-hematoma-stage-one` | `hematoma stage one bone healing`; `fracture healing initial hematoma`; `bone repair stage one`; `hematoma formation fracture stage` | exact Family-1 reuse |
+| Q45 · `bone-healing-final-remodeling-stage` | `final process bone healing remodeling`; `fracture healing last stage`; `bone repair remodeling phase`; `hematoma callus remodeling sequence` | contained by Family-87 fracture-healing stages; reuse |
+| Q46 · `dermis-heals-by-fibrosis-not-regeneration` | `dermis healing fibrosis not regeneration`; `dermal wound repair scar`; `skin dermis regeneration true false`; `epidermis versus dermis healing` | no prior accepted same-scope prompt; delta |
+| Q47 · `clean-incision-first-intention` | `clean surgical incision first intention`; `primary union clean wound`; `incised wound healing type`; `first intention wound example` | contained by Family-87 first-intention scope; reuse |
+| Q48 · `incisional-wound-macrophage-day-three-not-24h` | `macrophages incision day three not 24 hours`; `incised wound 24 hours epithelial cells`; `macrophage timing primary union`; `wound healing cellular timeline` | exact Families 1/87 reuse |
+| Q49 · `incision-day-five-granulation-tissue` | `day five incision granulation tissue`; `primary union wound day 5`; `incisional space granulation tissue timing`; `first intention timeline day five` | contained by Family-87 timeline; reuse |
+| Q50 · `abscess-healing-second-intention` | `abscess heals by second intention`; `suppurative cavity secondary union`; `abscess wound healing type`; `second intention abscess formation` | prior second-intention sequence is broader; delta |
+| Q51 · `wound-contraction-prevention-slows-healing` | `prevent contraction slows wound healing`; `wound contraction aids healing`; `secondary intention contraction rapid`; `contraction prevented healing true false` | no prior accepted same-scope prompt; delta |
+| Q52 · `abdominal-dehiscence-risk-factor-exception` | `abdominal dehiscence factors exception vomiting`; `mechanical stress wound dehiscence`; `vitamin C hypoproteinemia infection dehiscence`; `decreased stress vomiting wording` | prior complication/factor lists do not test this exception set; delta |
+| Q53 · `excessive-wound-contraction-source-cicatrisation` | `excessive contraction cicatrisation source`; `wound contracture terminology`; `cicatrization contraction complication`; `excessive wound contraction called` | prior complication handles do not test this source-selected term; delta |
+| Q54 · `sharp-aseptic-incision-faster-than-blunt-trauma` | `sharp aseptic wound faster blunt trauma`; `scalpel wound healing rate`; `clean incision versus blunt injury healing`; `extent tissue damage wound healing speed` | no prior accepted same-scope comparison; delta |
+| Q55 · `infection-delays-wound-healing` | `infection delays wound healing`; `local factors impaired repair infection`; `infected wound healing failure`; `infection prevents healing true` | contained by Family-87 local healing-factor scope; reuse |
+| Q56 · `poor-diabetes-delays-wound-healing` | `poorly controlled diabetes delayed healing`; `diabetes impairs wound repair`; `systemic healing factor diabetes`; `hyperglycemia wound healing` | contained by Family-87 systemic-factor scope; reuse |
+| Q57 · `hormones-influence-wound-healing` | `thyroid androgen estrogen growth hormone wound healing`; `hormonal factors tissue repair`; `systemic hormones influence healing`; `growth hormone wound repair` | contained by Family-87 systemic-factor scope; reuse |
+| Q58 · `epidermoid-cyst-implantation-during-healing` | `epithelial implantation epidermoid cyst healing`; `epithelial cells flow wound cyst`; `implantation cyst wound complication`; `epidermoid cyst repair process` | prior complication lists do not test the process name; delta |
+| Q59 · `cns-gliosis-replaces-fibrosis` | `CNS gliosis instead of fibrosis`; `brain injury glial scar`; `gliosis equivalent fibrous repair`; `central nervous system healing fibrosis` | no prior accepted same-scope prompt; delta |
+| Q60 · `acute-viral-hepatitis-stromal-integrity-regeneration` | `acute viral hepatitis stroma intact regeneration`; `liver framework destroyed regeneration false`; `hepatic regeneration bile ducts vasculature`; `viral hepatitis normal restoration stroma` | no prior accepted same-scope prompt; delta |
+| Q61 · `chronic-hepatitis-alcohol-broad-collagen-scars` | `chronic viral hepatitis broad collagen scars`; `alcoholism liver fibrosis broad scars`; `chronic liver injury repair fibrosis`; `hepatitis cirrhosis collagenous scar` | completed prior teaching only; delta |
+| Q62 · `edema-interstitial-or-body-cavity-fluid-definition` | `edema interstitial tissue body cavity fluid`; `oedema definition fluid accumulation`; `increased extravascular fluid pathology`; `edema versus hyperemia hemorrhage embolus` | exact Families 1/2/152 reuse |
+| Q63 · `mild-edema-examples-heart-failure-exception` | `mild edema examples heart failure exception`; `salt premenstrual pregnancy mild edema`; `heart failure edema severity`; `physiologic mild swelling causes` | no prior accepted same-scope comparison; delta |
+| Q64 · `pulmonary-fluid-not-ascites` | `fluid lungs not ascites`; `pulmonary edema versus ascites`; `ascites peritoneal fluid definition`; `lung fluid terminology true false` | no prior accepted nomenclature prompt; delta |
+| Q65 · `albumin-maintains-blood-fluid-balance` | `albumin maintains blood fluid balance`; `plasma oncotic pressure albumin`; `liver albumin prevents edema`; `blood protein fluid homeostasis` | contained by Families 2/6 edema-mechanism scopes; reuse |
+| Q66 · `renal-edema-lower-limbs-periorbital-nephritic-source` | `kidney disease edema lower limbs eyes nephritic`; `periorbital edema renal disease`; `nephritic syndrome edema distribution`; `renal edema source wording` | no prior accepted prompt tests this distribution/source proposition; delta |
+| Q67 · `lymphatic-damage-nonpitting-edema` | `lymphatic damage nonpitting edema`; `lymphedema pitting false`; `protein rich lymphatic obstruction edema`; `damaged lymphatics tissue fluid` | exact Families 2/6/152 reuse |
+| Q68 · `untreated-edema-complications-infarction-exception` | `untreated edema complications infarction exception`; `edema painful swelling stiffness walking`; `complications persistent edema`; `edema does not cause infarction` | no prior accepted same-scope exception; delta |
+| Q69 · `virchow-triad-albumin-deficiency-exception` | `Virchow triad albumin deficiency exception`; `endothelial injury stasis hypercoagulability`; `thrombosis triad components`; `albumin deficiency not thrombosis triad` | exact Families 3/118/152 reuse |
+| Q70 · `venous-thrombosis-commonest-lower-limb-site` | `venous thrombosis commonest lower limb`; `DVT most common site legs`; `leg veins common thrombosis`; `venous clot location ranking` | exact Families 3/152 reuse |
+| Q71 · `infarction-ischemic-necrosis-definition` | `infarction ischemic necrosis definition`; `arterial or venous occlusion tissue necrosis`; `infarct definition pathology`; `vascular drainage occlusion necrosis` | exact Families 2/152 reuse |
+| Q72 · `untreated-infected-wound-gas-gangrene` | `untreated infected wound gas gangrene`; `wound infection gangrene complication`; `Clostridium gas gangrene infected wound`; `wet dry gas red gangrene wound` | prior gas-gangrene handles test different relations; delta |
+| Q73 · `malignant-neoplasm-aggressive-invasive-spreading` | `malignant neoplasm aggressive invasive spreading`; `benign versus malignant behavior`; `malignant tumor invasion metastasis`; `cancer aggressive growth true false` | exact Families 1/5/110 reuse |
+| Q74 · `cancer-term-not-physical-swelling-definition` | `cancer word actual swelling physical appearance false`; `tumor means swelling cancer terminology`; `cancer versus neoplasm etymology`; `source wording cancer physical swelling` | no prior accepted same-scope terminology prompt; delta |
+| Q75 · `tumor-stroma-connective-tissue-blood-vessels` | `tumor stroma connective tissue blood vessels`; `neoplasm stromal component`; `parenchyma versus stroma tumor`; `supporting tissue blood supply neoplasm` | contained by Family-1 neoplasia-core definitions; reuse |
+| Q76 · `tumor-stroma-carries-blood-supply` | `tumor stroma carries blood supply`; `neoplasm stromal vascular support`; `stroma function tumor vessels`; `cancer parenchyma stroma blood` | contained by Family-1 neoplasia-core definitions; reuse |
+| Q77 · `benign-tumor-not-faster-than-malignant` | `benign tumors grow more rapidly false`; `benign versus malignant growth rate`; `malignant rapid growth comparison`; `tumor behavior growth speed` | exact Families 1/5/110 comparison reuse |
+| Q78 · `tumor-aggressiveness-higher-grade` | `aggressive tumor higher grade`; `tumor grade biological behavior`; `histologic grade aggressiveness`; `poor differentiation high grade` | exact Families 1/5 reuse |
+| Q79 · `benign-tumor-freely-movable` | `benign tumor freely movable`; `benign mass mobility capsule`; `malignant fixation versus benign mobility`; `tumor gross behavior movable` | contained by Families 1/5/110 comparison; reuse |
+| Q80 · `malignant-tumor-local-distant-recurrence` | `malignant tumor recur same other place`; `cancer local recurrence metastasis`; `malignant recurrence behavior`; `benign versus malignant recurrence` | contained by Families 1/5/110 comparison; reuse |
+
+Exactly **49** handles reuse previously accepted BMS-tested scope. The **31** additions are the
+dysplasia full definition; macrophage-limited harmless hemosiderosis contrast; high-level acute/
+chronic inflammation classification; serous-fluid definition; toxin dilution; exudate-flow
+direction; fibrin's bacterial-spread/phagocytosis role; resolution definition; fistula definition;
+reactive-protein source; systemic pulse/pressure/sweating proposition; regeneration definition and
+its determinant/stroma/fracture-scar propositions; dermal repair; abscess second intention;
+contraction-prevention effect; dehiscence exception; the source's cicatrisation term; sharp-versus-
+blunt healing rate; implantation cyst; CNS gliosis; acute/chronic liver repair propositions; mild-
+edema comparison; pulmonary-fluid nomenclature; source-specific renal-edema distribution; edema-
+complication exception; infected-wound gas-gangrene relation; and cancer/swelling terminology.
+Thus Family 154 adds `80 - 49 = 31` concepts.
+
+### Family-154 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 154 | Auxiliary cumulative (Families 12–154) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 80 | 1,535 | 765 | 2,300 |
+| Source-supplied answer occurrences | 80 | 1,022 | 405 | 1,427 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| Retained question records | 80 | 1,457 | 552 | 2,009 |
+| Accepted handles / required searches | 80 / 320 | 1,302 / — | — | — |
+| Prior-BMS handle reuses | 49 | — | — | — |
+| Cross-family concept delta | +31 | +755 over primary | 372 | 1,127 |
+| **Distinct tested concepts** | **80 source-local** | **755 auxiliary additions** | **372** | **1,127** |
+
+The checksums close as `45 + 35 = 80` prompts and 80 visibly selected answers. Retention is
+`80 - 0 literal copies = 80`; no semantic reduction is warranted, so 80 handles survive;
+searches are `80 × 4 = 320`; and concept arithmetic is `80 - 49 prior reuses = +31`.
+Auxiliary arithmetic is `1,455 + 80 = 1,535` prompts, `942 + 80 = 1,022` answers, `1,377 +
+80 = 1,457` retained records, `1,222 + 80 = 1,302` handles, and `724 + 31 = 755` concept
+additions. All eligible arithmetic is `765 + 1,535 = 2,300`, `405 + 1,022 = 1,427`, `552 +
+1,457 = 2,009`, and `372 + 755 = 1,127`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary is now **1,535 prompts / 1,022 answers /
+1,457 retained records / 1,302 handles / +755 concepts over primary**. All eligible evidence is
+**2,300 prompts / 1,427 supplied answers / 2,009 retained records / 1,127 distinct tested
+concepts**. Family 154 adds solved instructor-revision evidence only; it cannot establish an
+administered exam, official key, dated sitting, practical station, recurrence, mark weight,
+candidate response, readiness, or claims status.
+
+### Exact next debt after Family 154
+
+`src_da5669433f02ac4d8e7b` is exhausted across all 38 pages: every visible/metadata provenance
+field, native prompt and option, answer mark, correction, anomaly, format assignment, accepted
+handle, search packet, prior-family relation, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-154 blocker. The exact next manifest record is the distinct
+tier-3 unkeyed companion `src_b71ed155a6c4862d7bf4` · `MCQs - College MCQs Final Revision
+Questions.pdf`, SHA-256 `b71ed155a6c4862d7bf4a7200186a73207472ee4741b6cf1355520e7fab021b2`,
+**408,156 bytes**, 38 native-text 960×540-point landscape pages under `Pathology / Questions /
+MCQs`. Its exact prompt-layer replay, absent answer ink, carrier authority, occurrence/key delta,
+prior-family collapse, and arithmetic are the exact next-source blockers.
