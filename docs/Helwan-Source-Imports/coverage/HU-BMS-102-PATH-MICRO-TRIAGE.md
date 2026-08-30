@@ -12060,3 +12060,128 @@ an Anki package / ZIP carrier under `Pathology / Notes and Summaries`. Its safe 
 inspection, filename-timestamp limitation, complete note/card/media boundary, prompt/answer
 directionality, duplicate-card handling, four-search packets, and prior-BMS reuse are the exact
 next-source blockers.
+
+## Family 114 — Pathology 102 microscopy-identification Anki package
+
+### Source identity, inert package inspection, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_b16091d18e27f7455111` · `Pathology 102-20260705204439.apkg` |
+| SHA-256 / size | `b16091d18e27f7455111624b1b39492140e8121c28dc72a4cf221e8c1a59a845` · 4,598,809 bytes |
+| Placement / authority | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6. This is a study-flashcard package, not an exam, recoverable practical station, response sheet, or official answer key. |
+| Safe container boundary | The APKG was treated only as untrusted data. ZIP metadata exposes exactly **18 relative regular-file entries**—`meta`, `collection.anki21`, `collection.anki2`, numbered payloads `0`–`13`, and `media`—with no absolute path, `..` traversal, directory, symlink, or executable entry. The members total 4,730,495 uncompressed bytes. Paths were validated before extraction into task-local `tmp`; no embedded content, HTML, CSS, LaTeX, or media was executed or compiled. |
+| Primary Anki database | `collection.anki21` is a 143,360-byte SQLite database; read-only `PRAGMA integrity_check` returns `ok`. It contains **14 notes / 14 cards / 3 revlog rows / 0 graves**, one `Basic` model (`Front`, `Back`), one `Card 1` template, and the `Pathology 102` deck. Every educational card is template ordinal 0 and points one-to-one to a unique note. |
+| Compatibility database | `collection.anki2` is a 51,200-byte downgrade/compatibility stub with one note/card whose front says to update Anki and import again and whose back is empty. It is software-compatibility residue, not a pathology prompt, answer, or retained record. |
+| Complete media boundary | The 832-byte JSON `media` map has exactly 14 keys, `0`–`13`, naming 14 image files. All 14 educational fronts reference a distinct mapped filename exactly once; all 14 payloads resolve, have distinct SHA-256 hashes, and were visually read at original detail. They comprise 13 JPEG microscope photographs (725–982 pixels wide, 706–1,042 high) and one 796×963 16-bit RGB PNG. There is no orphan or missing mapping, audio, video, or other educational payload. |
+| Visible provenance | The inert deck name supplies `Pathology 102`; card fronts/backs and images print no university, faculty, instructor, academic year, practical label, sitting, marks, or official-key statement. Folder placement supports Helwan BMS-102 routing only. |
+| Timestamp caution | Note/card IDs, the collection modification value, ZIP member times, and the filename suffix internally converge on July 5, 2026 package production, ending around 20:44 Cairo time. This is an export/edit timestamp, not evidence of teaching delivery, an assessment sitting, or answer-key publication. |
+| Review-state caution | Three cards have one learning review each and three `revlog` rows record scheduler ease/interval/time metadata. They contain no typed response, selected answer, free text, correctness annotation, or candidate identity and are excluded from prompt/answer and key authority. The other eleven cards are new. |
+
+### Complete note/card, prompt/back, media, and duplicate boundary
+
+The sole model renders `{{Front}}` as the question and repeats it above `{{Back}}` after the
+answer divider. Every educational front contains one unlabeled microscope photograph followed by
+the identical instruction `Identify the tissue above`; every back supplies a diagnosis. This
+stable template and all 14 populated pairs establish source-visible study prompt-to-answer
+directionality without upgrading the backs to an official practical key.
+
+| Ref | Distinct image-front record | Supplied back diagnosis | Source-first handle |
+|---|---|---|---|
+| F114-Q01 | Colonic gland-forming malignant microscope field | `Colonic Adenocarcinoma` | `colonic-adenocarcinoma-microscopy-identification` |
+| F114-Q02 | Basaloid skin-tumour microscope field | `Basal cell carcinoma` | `basal-cell-carcinoma-microscopy-identification` |
+| F114-Q03 | Caseating granulomatous microscope field | `Caseating Tuberculosis` | `caseating-tuberculosis-microscopy-identification` |
+| F114-Q04 | Inflamed appendix microscope field | `Appendicitis` | `appendicitis-microscopy-identification` |
+| F114-Q05 | Sulphur-granule microscope field | `Actinomycosis` | `actinomycosis-microscopy-identification` |
+| F114-Q06 | Blood-filled vascular-space field A | `Cavernous Hemangioma` | `cavernous-hemangioma-microscopy-identification` |
+| F114-Q07 | Nodular hepatic-architecture field | `Liver cirrhosis` | `liver-cirrhosis-microscopy-identification` |
+| F114-Q08 | Mature-adipose tumour field | `Lipoma` | `lipoma-microscopy-identification` |
+| F114-Q09 | Biphasic breast-tumour field | `Fibroadenoma` | `fibroadenoma-microscopy-identification` |
+| F114-Q10 | Papillary squamous-lesion field | `Squamous cell Papilloma` | `squamous-papilloma-microscopy-identification` |
+| F114-Q11 | Glandular/stromal prostate field | `Benign prostatic hyperplasia` | `benign-prostatic-hyperplasia-microscopy-identification` |
+| F114-Q12 | Tumour-bearing lymph-node field | `Metastatic lymph node breast cancer` | `metastatic-breast-cancer-lymph-node-microscopy-identification` |
+| F114-Q13 | Blood-filled vascular-space field B, visually distinct from Q06 | `Cavernous Hemangioma` | collapse to Q06 |
+| F114-Q14 | Second colonic malignant-gland field, visually distinct from Q01 | `Colonic Adenocarcinoma` | collapse to Q01 |
+
+All 14 note IDs, card IDs, and image hashes are unique; therefore no card or retained record is an
+exact within-package copy. Q01/Q14 and Q06/Q13 use different microscope fields but test the same
+diagnostic propositions with the same generic instruction and supplied diagnoses, so they remain
+fourteen retained occurrences while collapsing to twelve source-distinct semantic handles.
+
+The same tissue set, including multiple colonic-adenocarcinoma and cavernous-haemangioma fields,
+is visually continuous with Family 113's completed labelled-photo carrier. Family 113 did not ask
+the learner to identify any field and created no tested handle; its labels are teaching-image
+context, not a prior practical-prompt reuse. No item here has an option set, unfilled answer blank,
+student response, selective correctness mark, mark allocation, or separate key register.
+
+The exact source boundary is therefore **14 raw prompt occurrences / 14 supplied study-back answer
+occurrences / 0 unkeyed prompts / 0 prompt-like residues / 14 retained records / 12 source-distinct
+tested handles**.
+
+### Source-first four-search ledger and prior-BMS adjudication
+
+Each accepted semantic handle received exactly four fresh searches across live and pending
+repository state, followed by comparison with prior BMS-102 Families 1–113: **12 × 4 = 48 required
+searches**. All 48 external searches returned no same-scope result, giving **0 live / 0 pending /
+12 no same-scope**.
+
+| Handle · refs | Exactly four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `colonic-adenocarcinoma-microscopy-identification` · Q01,Q14 | `colonic adenocarcinoma microscopy identification`; `identify colonic adenocarcinoma histology image`; `colonic adenocarcinoma slide diagnosis`; `colonic adenocarcinoma microscopic field identification` | no same-scope | Family 113 supplies completed labels for the related fields but no prompt; no exact prior handle; delta |
+| `basal-cell-carcinoma-microscopy-identification` · Q02 | `basal cell carcinoma microscopy identification`; `identify basal cell carcinoma histology image`; `basal cell carcinoma slide diagnosis`; `basal cell carcinoma microscopic field identification` | no same-scope | Family 1 compares SCC/BCC morphology and Family 113 labels BCC fields; neither is this practical identification prompt; delta |
+| `caseating-tuberculosis-microscopy-identification` · Q03 | `caseating tuberculosis microscopy identification`; `identify caseating tuberculosis histology image`; `caseating tuberculosis slide diagnosis`; `caseating tuberculosis microscopic field identification` | no same-scope | prior TB prompts test morphology, reaction, or caseation relations rather than identification of this field; delta |
+| `appendicitis-microscopy-identification` · Q04 | `appendicitis microscopy identification`; `identify appendicitis histology image`; `appendicitis slide diagnosis`; `appendicitis microscopic field identification` | no same-scope | Family 2 tests acute suppurative appendicitis morphology and Family 113 labels an image, not this image-diagnosis task; delta |
+| `actinomycosis-microscopy-identification` · Q05 | `actinomycosis microscopy identification`; `identify actinomycosis histology image`; `actinomycosis slide diagnosis`; `actinomycosis microscopic field identification` | no same-scope | Families 1/7 test feature, site, and sulphur-granule relations; Family 113 labels related fields; no exact image-identification handle; delta |
+| `cavernous-hemangioma-microscopy-identification` · Q06,Q13 | `cavernous hemangioma microscopy identification`; `identify cavernous hemangioma histology image`; `cavernous hemangioma slide diagnosis`; `cavernous hemangioma microscopic field identification` | no same-scope | Families 110/113 provide completed teaching/labels only; no exact prior handle; delta |
+| `liver-cirrhosis-microscopy-identification` · Q07 | `liver cirrhosis microscopy identification`; `identify liver cirrhosis histology image`; `liver cirrhosis slide diagnosis`; `liver cirrhosis microscopic field identification` | no same-scope | Family 113 supplies the diagnosis label without a task; no exact prior handle; delta |
+| `lipoma-microscopy-identification` · Q08 | `lipoma microscopy identification`; `identify lipoma histology image`; `lipoma slide diagnosis`; `lipoma microscopic field identification` | no same-scope | Families 110/113 teach or label lipoma but do not test this microscope field; delta |
+| `fibroadenoma-microscopy-identification` · Q09 | `fibroadenoma microscopy identification`; `identify fibroadenoma histology image`; `fibroadenoma slide diagnosis`; `fibroadenoma microscopic field identification` | no same-scope | Family 5's biphasic-breast-mass case tests a textual clinicomorphologic relation; Family 113 labels fields; neither is this practical handle; delta |
+| `squamous-papilloma-microscopy-identification` · Q10 | `squamous papilloma microscopy identification`; `identify squamous papilloma histology image`; `squamous papilloma slide diagnosis`; `squamous papilloma microscopic field identification` | no same-scope | Family 113 supplies a completed `Sq papilloma` label only; no exact prior handle; delta |
+| `benign-prostatic-hyperplasia-microscopy-identification` · Q11 | `benign prostatic hyperplasia microscopy identification`; `identify benign prostatic hyperplasia histology image`; `benign prostatic hyperplasia slide diagnosis`; `benign prostatic hyperplasia microscopic field identification` | no same-scope | Family 113 labels BPH without a practical prompt; no exact prior handle; delta |
+| `metastatic-breast-cancer-lymph-node-microscopy-identification` · Q12 | `metastatic breast cancer lymph node microscopy identification`; `identify metastatic breast cancer lymph node histology image`; `metastatic breast cancer lymph node slide diagnosis`; `metastatic breast cancer lymph node microscopic field identification` | no same-scope | prior families teach lymphatic spread and Family 113 supplies a completed label, but none asks identification of the involved node field; delta |
+
+External arithmetic is `0 + 0 + 12 = 12`. No exact prior-BMS practical-identification handle
+survives, so concept arithmetic is `12 - 0 = 12` additions.
+
+### Family-114 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 114 | Auxiliary cumulative (Families 12–114) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 14 | 959 | 765 | 1,724 |
+| Supplied study-back answer occurrences | 14 | 540 | 405 | 945 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 14 | 899 | 552 | 1,451 |
+| Source-distinct tested handles / required searches | 12 / 48 | 806 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 12 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 0 | — | — | none |
+| Cross-family concept delta | +12 | +542 over primary | 372 | `372 + 542 = 914` |
+| **Distinct tested concepts** | **+12** | **542 auxiliary additions** | **372** | **914** |
+
+The checksum closes: `14 answered cards + 0 unkeyed = 14` raw prompts; fourteen unique note/card/
+media records remain retained; four diagnosis-repeated records collapse to two shared handles, so
+`14 - 2 = 12` handles; searches are `12 × 4 = 48`; external disposition is `0 + 0 + 12 = 12`;
+and concept arithmetic is `12 - 0 prior exact reuses = 12`. Auxiliary cumulative arithmetic is
+`945 + 14 = 959` prompts, `526 + 14 = 540` answers, `885 + 14 = 899` retained records, `794 +
+12 = 806` handles, and `530 + 12 = 542` concept additions. All eligible arithmetic is `765 +
+959 = 1,724`, `405 + 540 = 945`, `552 + 899 = 1,451`, and `372 + 542 = 914`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**959 / 540 / 899 / 806 / +542**; and all eligible evidence is
+**1,724 / 945 / 1,451 / 914**. Family 114 contributes tier-6 study-flashcard evidence only. It
+cannot establish an official practical station or key, dated sitting, recurrence, mark weight,
+student response, readiness, or claims status.
+
+### Exact next debt after Family 114
+
+`src_b16091d18e27f7455111` is exhausted across the complete 18-member APKG: every safe-container
+property, database table boundary, model/template field, note, card, review-state residue, media
+mapping, original image, prompt, supplied back, duplicate-diagnosis collapse, required search,
+prior-BMS comparison, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-114 blocker. The exact next manifest record is tier-6
+`src_80f1f5e8c456f6cc8115` · `Pathology BMS II.pdf`, SHA-256
+`80f1f5e8c456f6cc8115a0dffca94f123aa388dcfb3e0a49b390b1408dc856c1`, 6,987,117 bytes, 47
+native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its full render/read,
+visible `PATHOLOSIS 2026` / Helwan / Dr Tarek / first-year provenance and date authority,
+teaching-versus-prompt/key/callout boundary, source-first searches, and prior-BMS reuse are the
+exact next-source blockers.
