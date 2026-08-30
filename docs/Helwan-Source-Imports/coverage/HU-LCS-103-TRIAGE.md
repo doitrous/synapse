@@ -5680,3 +5680,112 @@ The next manifest-order gate is tier-4 Anatomy theoretical source
 103/Anatomy/Theoretical/Lower Limb/Lec 7 - Development of Limbs & Anatomy of Foot/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 48 — Tier-4 foot-retinacula and skeleton teaching-only lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_c7d6856e377ba67b8a0a` |
+| File / SHA-256 | `Foot.pdf` / `c7d6856e377ba67b8a0ab10de783f92c4b581514e8a9e7dd75a13991aa4d036a` |
+| File boundary | 276,144 bytes · unencrypted PDF · 10 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 7 - Development of Limbs & Anatomy of Foot/Foot.pdf` |
+| Visible provenance | p. 1 prints `Anatomy of Foot`, `Dr. Sarah Arakib` and `MD Anatomy and Embryology`; PDF author is `Lenovo` and creator/producer is Microsoft PowerPoint for Microsoft 365 |
+| Authority finding | Manifest/path-placed local tier-4 anatomy teaching evidence. It is not a sitting paper, station sheet, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and ten-page boundary were recomputed and match the assigned source.
+All ten pages were rendered at 180 dpi and read against the native text layer. Page 1 is the
+title/provenance slide, pp. 2–7 teach the ankle/foot retinacula, p. 8 teaches the bones of the
+foot, p. 9 is a labelled foot-joints atlas composition, and p. 10 closes with `Thank You`.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. Every heading, list, mnemonic, label and figure is simultaneous
+declarative teaching. No page contains an instruction to identify a structure, interrogative
+stem, option set, response field, answer blank, mark allocation, correctness convention,
+answer reveal or masked/unresolved callout.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+| Physical page | Source-first instructional composition | Slide occurrences |
+|---:|---|---:|
+| 2 | ankle/foot retinacula definition, location and tendon-retention function | 1 |
+| 3 | superior/inferior extensor-retinaculum form and attachments | 1 |
+| 4 | structures deep to the extensor retinacula, medial-to-lateral | 1 |
+| 5 | superficial structures crossing the extensor retinacula | 1 |
+| 6 | flexor retinaculum/tarsal tunnel and structures deep to it | 1 |
+| 7 | superior/inferior fibular retinacula and fibularis-longus/brevis tendons | 1 |
+| 8 | foot skeleton: tarsals, metatarsals and phalanges | 1 |
+| 9 | labelled atlas of hindfoot, midfoot, forefoot and toe joints in multiple views | 1 |
+| **Total** | **tier-4 instructional compositions** | **8** |
+
+The **eight content-slide occurrences are eight source-distinct teaching compositions**.
+SHA-256 comparison of all ten rendered complete pages found no exact full-page duplicate to
+collapse. Visual inspection found no opaque overprint, blank leader line, masked label or
+unresolved rule callout. The source boundary is therefore **8 teaching compositions / 0
+ordinary questions / 0 practical or station prompts / 0 printed assessment keys / 0
+assessment residues / 0 unresolved teaching callouts**. As theoretical material, its figures
+add **0 practical plates, 0 practical label mappings and 0 practical residues** to the
+separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The eight compositions consolidate to seven source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `foot-and-ankle-retinacula-definition-and-function` · p. 2 | retinacula foot ankle definition; ankle retinacula function; deep fascia retinacula tendons; foot retinacula stabilize tendons | no direct live/pending complete-scope hit and no accepted prior-LCS complete handle — new theoretical teaching |
+| `extensor-retinaculum-attachments` · p. 3 | superior extensor retinaculum attachments ankle; inferior extensor retinaculum Y shaped; extensor retinaculum medial malleolus; inferior extensor retinaculum plantar aponeurosis | external identification mentions are narrower; accepted Family-37 label evidence owns only identification, not this attachment scope — new theoretical teaching |
+| `extensor-retinaculum-contents` · pp. 4–5 | extensor retinaculum contents ankle; deep to extensor retinaculum; anterior ankle contents order; Tom has a very nice dog and pig | exact accepted Family-1 handle; Family-37 identification evidence is an additional prior component — prior LCS reuse |
+| `flexor-retinaculum-contents` · p. 6 | flexor retinaculum contents; deep to flexor retinaculum; tarsal tunnel contents order; Tom Dick and very nervous Harry | pending 103-BMS tarsal-tunnel material; exact accepted Families 1 and 34 handle — prior LCS reuse |
+| `fibular-retinacula-attachments-and-contents` · p. 7 | fibular retinacula attachments contents; peroneal retinaculum ankle; superior inferior fibular retinacula; fibularis longus brevis retinaculum | no direct live/pending complete-scope hit and no accepted prior-LCS complete handle — new theoretical teaching |
+| `foot-skeleton-bones` · p. 8 | bones of foot; foot skeleton tarsal metatarsal phalanges; talus calcaneus navicular cuboid cuneiforms; foot bone arrangement | accepted Family-30 `foot-bone-groups-and-tarsals` and Family-28 component handles jointly own the scope — prior LCS reuse |
+| `foot-joints-identification` · p. 9 | joints of foot; foot intertarsal joints; subtalar transverse tarsal joints; tarsometatarsal metatarsophalangeal interphalangeal | pending movement records own only a subset; no accepted prior-LCS handle owns the complete labelled joint atlas — new theoretical teaching |
+
+All **7 × 4 = 28** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **0 live / 3 pending / 4 new**; exact
+accepted-prior comparison prevents three repeated module additions, leaving **three
+prior-LCS reuses / four new theoretical teaching scopes**. There is no assessment handle to
+search. Declarative teaching scopes do not enter the eligible tested-concept count, and no
+theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 48 | Family 48 delta | After Family 48 |
+|---|---:|---:|---:|
+| Eligible observed question records | 458 | +0 | 458 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 211 | +0 | 211 |
+| Question live / pending / new | 9 / 56 / 146 | +0 / +0 / +0 | 9 / 56 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `8 = 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1`, `0
+prompts = 0 source handles`, `458 + 0 = 458`, `242 + 0 = 242`, `211 + 0 = 211`, `9 + 56
++ 146 = 211`, `251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-47
+remainder leaves **28 rank-4/rank-5 path instances / 26 unique hashes**. The Family-47
+method was reproduced first: its 29/27 row sets recomputed to
+`7e420c23d2b7b34280c93094595460743894aa1c6edaa5f32b8e60104be7b2d0` and
+`fc765beb04dfd0fdd1bb92c24861cab77a4eb2de6eee1915a30d83573bb6130d`.
+For the exact post-Family-48 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`3b59b1059becca688eccdc6ba9d4e0e013627536fef4fcffce9700415de95d0d`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`1c92beac847af1a40fc7d26821f91c476e50311420edb84844722aff099de9a1`.
+The next manifest-order gate is tier-5 Biochemistry practical source
+`src_6c61774894408ad18245`, `Compressed_Electrophoresis_&_muscle_and_bone_isoenzymes_final1.pdf`
+(3,278,162 bytes; 54 native-text pages; SHA-256
+`6c61774894408ad18245ea59f3dedea6be09e1e9216f8f9b5717b83e8aecc726`) under `Year 1/LCS
+103/Biochemistry/Practical/Virtual Lab 1 - Enzymes of Bone & Muscle/`. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
