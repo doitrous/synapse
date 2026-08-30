@@ -6124,3 +6124,52 @@ Removing this one sparse-text path and unique hash leaves **22 selected inventor
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology mid term notes (By Maii Mahmoud).pdf`, SHA-256 `685e671956525d3ba1c709981d9fe1f97920fc1929e6f2a28ca2fc7fdc5b1746`, 15 pages.
 
 **BLOCKED — S1 cannot be approved:** 22 selected source paths remain untriaged.
+
+## Completed source — Histology mid term notes (By Maii Mahmoud)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology mid term notes (By Maii Mahmoud).pdf` | `685e671956525d3ba1c709981d9fe1f97920fc1929e6f2a28ca2fc7fdc5b1746` | 15 | empty-text | pages 1–15 rendered and read | CamScanner image-only export of handwritten revision notes, signed `Maii Mahmoud Faculty` on page 15. The pages print no institution, department, lecturer, sitting, marks or official-paper/key claim. This is a student revision source, not an official MUST examination or departmental key. |
+
+### Exact teaching / assessment boundary
+
+The source mixes factual teaching rows with short-answer revision prompts. Pages 1–5 cover mitochondria, ER, Golgi, lysosomes and peroxisomes; pages 6–8 are teaching notes on ribosomes and cytoskeleton; pages 9–11 cover centrioles, cilia, flagella and proteasomes; pages 12–15 cover inclusions, nucleus, chromatin, nucleolus and lamins. Circled numbers alone do not establish a prompt: declarative rows, headings, lists and diagrams remain teaching content. A row is counted only when it visibly asks a question or uses an imperative response cue such as `Describe` or `Name`; multiple clauses inside one numbered row remain one prompt occurrence.
+
+That rule gives page counts of **4** on page 1, **5** on page 2, **2** on page 3, **0** on page 4, **1** on page 5, **0** on pages 6–8, **2** on page 9, **5** on page 10, **1** on page 11, **1** on page 12, **4** on page 13, **1** on page 14 and **0** on page 15: `4 + 5 + 2 + 0 + 1 + 0 + 0 + 0 + 2 + 5 + 1 + 1 + 4 + 1 + 0 = 26`. Every accepted row has its response written inline, so the exact boundary is **26 prompt occurrences / 26 inline written answers / 26 prompt-matched recovered answers**. No printed practical-identification or essay section is present, and no answer was inferred or corrected.
+
+### Source-first handles, four searches, and prior-FHB dedupe
+
+The 26 accepted rows collapse within this source to ten tested-concept handles. Each handle received four identifying searches, for **10 × 4 = 40 searches**.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| p1 Q3/Q6/Q7/Q10 | Mitochondrial location, membrane structure and self-replication (`mitochondria outer inner membrane cristae ATP`; `mitochondria Janus green supravital stain`; `mitochondrial DNA self replication`; `mitochondria function cytochrome oxidase`) | pending-hit; completed prior-FHB mitochondria scope. |
+| p2 Q4–Q8 | RER/SER appearance, site and function (`rough endoplasmic reticulum basophilic ribosomes`; `smooth endoplasmic reticulum acidophilic detoxification`; `RER protein synthesis secretory cells`; `SER glycogen lipid steroid metabolism`) | pending-hit; completed prior-FHB ER scope. |
+| p3 Q4–Q5 | Golgi function and lysosome identity/origin (`Golgi cis trans face sorting packaging`; `Golgi apparatus silver osmium stain`; `lysosome primary secondary residual body`; `lysosomal acid hydrolase function`) | pending-hit; completed prior-FHB Golgi/lysosome scope. |
+| p5 Q6 | Peroxisome visibility and ultrastructure (`peroxisome catalase hydrogen peroxide`; `peroxisome very long chain fatty acid oxidation`; `peroxisome light electron microscopy`; `peroxisomal detoxification function`) | new; completed prior-FHB peroxisome scope. |
+| p9 Q2/Q4; p10 Q9–Q11 | Centriole stain, cylinders/protofilaments and S-phase duplication (`centriole nine triplet microtubules`; `centriole S phase duplication`; `centrosome microtubule organizing center`; `A B C tubule protofilaments centriole`) | new; completed prior-FHB centriole scope. |
+| p10 cilia Q7/Q9 | Ciliary triplets and central singlets (`cilia nine plus two axoneme`; `dynein arms ciliary movement`; `basal body cilia triplets`; `flagella sperm tail cilia difference`) | new; completed prior-FHB cilia/flagella scope. |
+| p11 flagella Q2 | Human flagellum site (`flagella sperm tail cilia difference`; `sperm flagellum human location`; `flagella circular beat sperm`; `cilium flagellum length difference`) | new; completed prior-FHB flagellum scope. |
+| p12 | Fat inclusions and their cell distribution (`fat droplets liver adipose cells inclusion`; `glycogen PAS carmine stain inclusion`; `lipofuscin wear and tear pigment`; `cell inclusions non living cytoplasmic`) | new; completed prior-FHB inclusion scope. |
+| p13 | Nuclear position and envelope structure (`nuclear envelope outer inner membrane`; `outer nuclear membrane ribosomes RER`; `inner nuclear membrane nuclear lamina`; `nuclear pore transport function`) | pending-hit; completed prior-FHB nuclear-envelope scope. |
+| p14 | Absence of a nucleolar limiting membrane (`nucleolus no limiting membrane`; `euchromatin heterochromatin active inactive`; `nuclear position central eccentric peripheral`; `nuclear lamina lamin support`) | new; completed prior-FHB nucleus/nucleolus scope. |
+
+The source-level search split is **0 live / 4 pending / 6 new = 10 accepted handles**. Every handle reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+26 questions / +26 inline answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7155 | 6740 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **21 selected inventory paths / 21 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `7dc2766efb8fb7fe59e5cf357139735055e5b29321b169b1f3ad382c1aef1dc7`. Pinned triage debt becomes **zero substantive-text / four sparse-text / 17 empty-text** rows, and unique-hash accounting is **`85 + 21 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 1 Notes (by Linah).pdf`, SHA-256 `cab8d5df30995d578656bdc05780f2cc655bfb6e7b17fd4997ba065d85188c6a`, 2 pages.
+
+**BLOCKED — S1 cannot be approved:** 21 selected source paths remain untriaged.
