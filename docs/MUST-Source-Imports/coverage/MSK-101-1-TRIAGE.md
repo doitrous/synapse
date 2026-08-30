@@ -2497,3 +2497,47 @@ Removing the sixty-three processed unique hashes leaves **39 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Review for Anatomy MSK101-1 Midterm.pdf`, SHA-256 `1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c`, 11 pages.
 
 **BLOCKED — S1 cannot be approved:** 39 selected inventory paths / 38 unique hashes remain untriaged.
+
+## Completed source — Review for Anatomy MSK101-1 Midterm
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Review for Anatomy MSK101-1 Midterm.pdf` | `1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c` | 11 | audit-extract-failed sample; live rendering succeeded while Poppler text extraction emitted unknown-character-collection warnings | pages 1–11 rendered and read | Unattributed bilingual anatomy review document captured through iOS Quartz PDFContext on 16 October 2025. The filename and Midterm folder are not examination authority; no visible institution, department, author, examiner, sitting, marks or official-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Review for Anatomy MSK101-1 Midterm.pdf" purpose="source"}
+
+### Exact teaching, question, answer, written and practical boundary
+
+Pages 1–10 are bilingual English/Arabic teaching notes with explanatory anatomical illustrations. They review pectoralis major and minor, subclavius, serratus anterior, trapezius, latissimus dorsi, deltoid, rotator-cuff muscles, teres major, levator scapulae, rhomboids, pectoral and clavipectoral fascia, axillary boundaries and contents, axillary-artery parts and branches, and brachial-plexus organization. Page 11 is visually blank.
+
+| Format | Page boundary | Prompt observations | Answer observations |
+|---|---|---:|---:|
+| Teaching notes and explanatory figures | 1–10 | 0 | 0 |
+| Visually blank | 11 | 0 | 0 |
+| **Total** | **1–11** | **0** | **0** |
+
+There are **0 MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 unkeyed assessment prompts**. Diagram labels, Arabic restatements, muscle origin/insertion/nerve/action fields and bullet lists are explanatory teaching content; none carries a question instruction, response space, station label or answer-key relation.
+
+Preserved source details include several missing-glyph box characters before teaching bullets, the mixed Arabic/English presentation, anatomical wording and image labels, and the extraction warning for the embedded `PDFTron-Identity` character collection. No source statement is corrected or converted into an inferred prompt.
+
+### Source-first collapse and search gate
+
+The document supplies no assessment prompt and therefore no source-first assessment handle. The exactly-four-search gate resolves as **`0 accepted handles × 4 = 0 searches`**. Its teaching topics overlap the completed Upper Limb Anatomy H1–H5 family, but that contextual overlap does not convert teaching prose into assessment evidence. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This teaching-only source is now `sourceProcessed=true`. Its delta is **+0 questions / +0 answer observations / +0 concepts**. Cumulative totals remain **6136 questions / 5946 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6136 | 5946 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, inferred question or answer, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-four processed unique hashes leaves **38 selected inventory paths / 37 unique SHA-256s**. Their sorted, newline-joined hash checksum is `f0745bcfea91f4dd6ff17d107c4ae80fb0f753f2ba0beeab567e941d5cef28cf`. Remaining audit-review debt is 14 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`64 + 37 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - BONE BY SALAMA.pdf`, SHA-256 `b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd`, 38 pages.
+
+**BLOCKED — S1 cannot be approved:** 38 selected inventory paths / 37 unique hashes remain untriaged.
