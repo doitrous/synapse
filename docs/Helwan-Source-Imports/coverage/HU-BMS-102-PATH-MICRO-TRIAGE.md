@@ -20564,3 +20564,116 @@ The exact next unprocessed manifest record is tier-4 `src_50d9ef5f2db5dc46e3e3` 
 `Mohammed Abdel-Latif` with the same date. Its complete visible authority/date boundary,
 teaching/prompt/key/callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent
 exact next debt remain to be separately adjudicated.
+
+## Family 196 — Helwan Circulation 1 lecture with edema nomenclature fields and interactive MCQs
+
+### Source identity, complete render/native boundary, visible authority, and date
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_50d9ef5f2db5dc46e3e3` · `Main-stream-circulatory-1-new.pdf` under the exact local `Pathology / Theoretical / Lec 4 - Circulation 1` folder |
+| SHA-256 / exact size | `50d9ef5f2db5dc46e3e3b10da4844e90c8c4cee5d94b7a0fc800960d83e939da` · **1,970,473 bytes** |
+| Format / complete read | **50 native-text 960×540-point landscape pages**. All 50 pages were rendered into 50 non-empty 2000×1125-pixel images and read individually at original detail. Native extraction contains **2,164 words / 19,130 bytes** and agrees with every visible authority field, teaching statement, completion field, option set, image, callout, footer, and closing reference. |
+| Visible authority | Page 1 visibly identifies Faculty of Medicine / Pathology, **Academic Year 2025/2026**, Year 1, Semester 2, and **BMS-102**. Page 2 visibly names **Nahed Soliman**, Ass. Prof. of Pathology and Head of Pathology Department, and the lecture date **28 February 2026**. These source-facing fields establish current Helwan BMS-102 theoretical teaching authority. |
+| Footer anomaly | Pages 8, 10, 20, 22, and 23 visibly print `BMS-101`, while the cover, instructor page, exact BMS-102 folder placement, and the remaining dated page footers identify BMS-102. The five inconsistent footers are preserved as template/copy anomalies; they do not override the deck-level module identity or create five separate sources. |
+| Metadata caution | Metadata title is `PowerPoint Presentation`; author is `Mohammed Abdel-Latif`; creator/producer is Microsoft PowerPoint 2016; and creation/modification is 28 February 2026. These fields are retained as carrier history only. They do not override visible Nahed Soliman authorship or independently create an assessment sitting. |
+| Authority | Tier-4 Helwan theoretical teaching material carrying one small completion exercise and six interactive teaching MCQs. It is not an exam paper, official departmental key, mark scheme, candidate response, or authenticated practical station. |
+
+### Complete page-first teaching, prompt, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–3 | Cover, module/year/semester/date/instructor identity, lecture section, and departmental attribution | Provenance and structure only; **0 prompts / 0 answers / 0 practical**. |
+| 4–8 | Objectives, topic list, completed circulation link map, and completed haemostasis/homeostasis comparison | Objective verbs and completed mappings are teaching scaffolds rather than candidate operations; **0 / 0 / 0**. Page 8's `BMS-101` footer is the preserved module-code anomaly. |
+| 9–17 | Edema definition, pathogenesis, causes, distribution, pitting/non-pitting classification, morphology, and complications | Completed teaching. Interrogative headings on pp.10–13 are answered immediately by their own diagrams, lists, or tables and leave no response field; excluded teaching callouts, **0 / 0 / 0**. |
+| 18 | `Nomenclature` panel with seven explicit ellipsis completion fields: inflammatory edema as the transudate exception; anasarca; hydrothorax; hydropericardium; hydroperitoneum/ascites; hydroarthrosis; and lymphatic-obstruction edema | **7 written/fill prompts / 3 visibly supplied answers / 4 unkeyed**. The inflammatory-edema, anasarca, and lymphedema fields visibly carry their completions. The four cavity-fluid terms preserve empty response gaps and receive no inferred answers. |
+| 19–21 | Three `INTERACTIVE QUESTIONS`: hydrostatic-pressure edema cause; bug-bite localized edema mechanism; and postmastectomy upper-limb edema mechanism | **3 text MCQs / 0 supplied answers / 3 unkeyed**. No option is marked. |
+| 22–29 | Hyperemia/congestion definitions, comparisons, mechanisms, examples, gross/microscopic images, and pulmonary/hepatic morphology | Completed teaching and diagnosis-disclosing plates; **0 / 0 / 0**. Pages 22–23 preserve the footer anomaly. |
+| 30 | Mitral-stenosis autopsy vignette asking the cause of heart-failure cells | **1 text MCQ / 0 supplied answers / 1 unkeyed**. The stem describes findings but supplies no image or specimen operation. |
+| 31–47 | Hemorrhage forms, terminology, significance, and shock definition, mechanisms, stages, types, morphology, and consequences | Declarative teaching, completed lists/diagrams, and labelled images; **0 / 0 / 0**. |
+| 48–49 | Two `INTERACTIVE QUESTIONS`: recurrent-UTI systemic illness/hypotension shock classification; and post-accident sensory loss with hypotension, bradycardia, and warm extremities shock classification | **2 text MCQs / 0 supplied answers / 2 unkeyed**. Neither option set is marked. The clinical descriptions do not make them practical stations. |
+| 50 | References | Closing teaching residue only; **0 / 0 / 0**. |
+
+Page 18 is not collapsed into ordinary prose. Its seven ellipsis fields are the visible unfilled/base
+question layer later carried as the fully completed Family-129 nomenclature panel. Three fields
+already disclose their source answers; four visibly remain open. This relation preserves both
+occurrence and answer directionality without importing Family-129 answers into the present source.
+
+The exact source boundary is therefore **13 raw prompt occurrences = 6 MCQs + 7 written/fill
+operations; 3 source-supplied answers; 10 visibly unkeyed operations; 13 retained records; 13
+source-distinct tested handles; 0 image prompts; 0 drawing tasks; and 0 practical stations**.
+There is no exact same-source prompt replay. No unmarked MCQ answer is inferred from teaching or
+subject knowledge, and no completed image, rhetorical heading, objective, label, or footer becomes
+assessment evidence.
+
+### Source-first 13-handle ledger, exactly four searches each, and prior-BMS reconciliation
+
+Every accepted handle received exactly four fresh source-first searches across live state, pending
+import roots, and the complete prior BMS-102 ledger: **13 × 4 = 52 required and completed searches**.
+The external search disposition is **2 pending same-scope / 11 no same-scope**: the live/pending
+edema records support the heart-failure hydrostatic-pressure and inflammatory-permeability scopes;
+no external record changes the remaining family-local assignments.
+
+| Ref / handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| p.18a · `inflammatory-edema-transudate-exception` | `inflammatory edema exudate transudate`; `edema fluid transudate exception`; `exudate inflammatory edema protein`; `transudate versus exudate edema` | exact Family-129 Q01 reuse |
+| p.18b · `anasarca-generalized-edema-serous-effusions` | `anasarca generalized edema serous sacs`; `anasarca definition effusion`; `generalized edema body cavities`; `anasarca widespread subcutaneous edema` | exact Family-129 Q02 reuse |
+| p.18c · `hydrothorax-pleural-cavity-fluid` | `hydrothorax fluid pleural cavity`; `pleural effusion hydrothorax definition`; `hydrothorax nomenclature edema`; `fluid in pleural sac hydrothorax` | exact Family-129 Q03 reuse |
+| p.18d · `hydropericardium-pericardial-sac-fluid` | `hydropericardium fluid pericardial sac`; `pericardial effusion hydropericardium`; `hydropericardium nomenclature edema`; `fluid in pericardial cavity hydropericardium` | exact Family-129 Q04 reuse |
+| p.18e · `hydroperitoneum-ascites-peritoneal-cavity-fluid` | `hydroperitoneum ascites peritoneal cavity`; `ascites fluid peritoneal cavity`; `hydroperitoneum nomenclature edema`; `peritoneal effusion hydroperitoneum` | exact Family-129 Q05 reuse |
+| p.18f · `hydroarthrosis-joint-cavity-fluid` | `hydroarthrosis fluid joint cavity`; `joint effusion hydroarthrosis`; `hydroarthrosis nomenclature edema`; `fluid in articular cavity hydroarthrosis` | exact Family-129 Q06 reuse |
+| p.18g · `lymphedema-lymphatic-obstruction` | `lymphatic obstruction lymphedema`; `lymphedema definition blocked lymphatics`; `edema due to lymphatic obstruction`; `lymphoedema impaired lymph drainage` | exact Family-129 Q07 reuse |
+| p.19 · `heart-failure-edema-hydrostatic-pressure` | `edema increased capillary hydrostatic pressure heart failure`; `heart failure edema hydrostatic pressure`; `cardiac edema Starling force`; `hydrostatic edema causes heart failure` | exact Family-6 UC01 scope reuse; reversing disease/mechanism direction does not create a new tested relation |
+| p.20 · `bug-bite-edema-increased-vascular-permeability` | `bug bite edema increased vascular permeability`; `insect bite localized edema permeability`; `allergic edema capillary permeability`; `localized erythema edema bug bite` | the vignette applies the exact Family-6 inflammatory-edema/increased-permeability relation; reuse |
+| p.21 · `postmastectomy-lymphedema-lymphatic-obstruction` | `postmastectomy upper limb edema lymphatic obstruction`; `breast cancer surgery arm lymphedema`; `axillary lymphatic obstruction edema`; `mastectomy edema mechanism` | exact Family-6 UC07/SC07 scope reuse |
+| p.30 · `pulmonary-congestion-heart-failure-cells` | `mitral stenosis heart failure cells chronic passive congestion`; `hemosiderin alveolar macrophages mitral stenosis`; `siderophages chronic pulmonary congestion`; `heart failure cells lung congestion` | exact Family-6 SK07/UG08/UC03 reuse |
+| p.48 · `recurrent-uti-septic-shock-classification` | `recurrent urinary tract infection septic shock`; `UTI fever hypotension septic shock`; `infection tachycardia tachypnea shock type`; `urosepsis distributive shock` | prior septic-shock handles test features, mediators, or phase; none tests shock-type recognition from this infectious clinical pattern; **delta** |
+| p.49 · `spinal-trauma-neurogenic-shock-warm-bradycardia` | `spinal injury hypotension bradycardia warm extremities`; `neurogenic shock warm bradycardic`; `loss sensation below waist shock`; `trauma loss sympathetic tone neurogenic shock` | exact Family-6 UG13 neurogenic-shock/lost-vascular-tone scope reuse |
+
+Prior-BMS exact tested-scope reuse is therefore **12**, and Family 196 adds **`13 - 12 = +1`
+distinct tested concept**. The bug-bite and shock vignettes retain their source wording even where
+their tested mechanism collapses; occurrence preservation and concept reuse are separate ledgers.
+
+### Family-196 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 196 source-local / eligible delta | Auxiliary cumulative (Families 12–196) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 13 = 6 MCQ + 7 written/fill / +13 | 2,562 | 762 | 3,324 |
+| Source-supplied answers | 3 / +3 | 1,672 | 405 | 2,077 |
+| Visibly unkeyed operations | 10 | — | — | — |
+| Retained question records | 13 / +13 | 2,270 | 552 | 2,822 |
+| Accepted handles / required searches | 13 / 52 | 2,052 / — | — | — |
+| Prior-BMS handle reuses | 12 | — | — | — |
+| Cross-family concept delta | +1 | +973 over primary | 372 | 1,345 |
+| **Distinct tested concepts** | **13 source-local / +1** | **973 additions** | **372** | **1,345** |
+
+Checksums: `13 prompts = 6 MCQ + 7 written/fill`; `13 = 3 supplied answers + 10 unkeyed`;
+`13 retained`; `13 handles`; `13 × 4 = 52 searches`; and `13 - 12 prior exact reuses = +1
+concept`. Auxiliary arithmetic is `2,549 + 13 = 2,562` prompts, `1,669 + 3 = 1,672`
+answers, `2,257 + 13 = 2,270` retained records, `2,039 + 13 = 2,052` handles, and `972 + 1
+= 973` concepts. All eligible arithmetic is `762 + 2,562 = 3,324`, `405 + 1,672 = 2,077`,
+`552 + 2,270 = 2,822`, and `372 + 973 = 1,345`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,562 prompts / 1,672 answers /
+2,270 retained / 2,052 handles / +973 concepts**. All eligible is **3,324 / 2,077 / 2,822 /
+1,345**. Family 196 establishes current Helwan theoretical teaching and auxiliary exercise/MCQ
+evidence only, not an exam sitting, official departmental key, mark weight, candidate response,
+authenticated practical station, readiness, or claims status.
+
+### Exact next debt after Family 196
+
+`src_50d9ef5f2db5dc46e3e3` is exhausted across all 50 pages: every visible authority, date,
+metadata field, module-code anomaly, objective, teaching statement, diagram, completion field,
+present and absent answer, option set, image, callout, reference, search packet, prior-family
+relation, and arithmetic term is assigned once, with **zero source remainder** and no Family-196
+blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_eaea111707b57559a904` ·
+`Inflammation-lecture-1.pdf`, SHA-256
+`eaea111707b57559a9042fc7c7fcd737cfbf326a5bf28fba026252566575fdc7`, **2,705,210 bytes**,
+**37 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 5 -
+Inflammation 1`. Its first visible page identifies `Inflammation (1)`, **Dr Enas Megahed
+Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**; metadata names `fmt`
+and records 8 March 2025. Its complete visible authority/date boundary, teaching/case/prompt/key/
+callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
