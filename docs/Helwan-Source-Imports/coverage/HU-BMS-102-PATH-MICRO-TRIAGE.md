@@ -11727,3 +11727,87 @@ native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its compl
 visible Dr. Ahmed Hassan attribution versus metadata provenance, distinct typed-handout content,
 teaching versus prompt/key/callout boundary, and any prior-source reuse are the exact next-source
 blockers.
+
+## Family 111 — Dr Ahmed Hassan typed neoplasia teaching handout
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_142aac5ab559bc1135a1` · `Neoplasia.pdf` |
+| SHA-256 / size | `142aac5ab559bc1135a190100947979895ebbc4e871a73abc4b26a1c20d88a74` · 196,147 bytes |
+| Format / complete visual boundary | Ten native-text portrait A4 pages, each 595.32×841.92 points. All 10 pages rendered into 10 non-empty 1241×1754-pixel images and were read individually at original render detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent extraction contains 1,535 words / 14,384 bytes and agrees with the rendered headings, tables, callouts, and footer sequence. Visual layout controls the table/callout boundary; native text supports completeness. |
+| Visible provenance | Every page footer visibly reads `DR. Ahmed Hassan` and carries `Page | 1` through `Page | 10`. No university, faculty, module code, academic year, teaching date, or assessment sitting is visibly printed. The footer establishes the handout's visible attribution, not Helwan authorship or an exam sitting. |
+| Metadata caution | Metadata names `Alnoaman` as author, Microsoft Word 2019 as creator/producer, and May 17, 2025 as creation/modification time. These conflict with or are secondary to the visible footer attribution and establish file production only; they do not prove authorship, institutional provenance, academic year, or sitting. |
+| Preferred-twin relation | This is the manifest's non-preferred name twin of Family 110's preferred `Neoplasia .pdf`. It is a distinct 10-page native Word export rather than the 14-page handwritten CamScanner carrier: different SHA, size, page count, production system, layout, and visible content. Name-twin status does not make either file an exact carrier of the other. |
+| Authority | Tier-6 notes-and-summaries teaching handout. It is not an exam, candidate paper, practical station, response sheet, or official answer source. |
+
+### Complete page-first teaching, callout, prompt/key, and residue inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---|---|---|
+| 1–2 | Neoplasia definition and mutation frame; parenchyma/stroma, epithelial/mesenchymal, and behavior classifications; benign-versus-malignant epithelial and mesenchymal tumor names; neoplastic-cell origins; non-neoplastic and malignant `-oma` exceptions | Completed definitions, tables, and exception callouts; **0 prompts / 0 keys**. |
+| 3–4 | Benign and malignant gross/microscopic features, differentiation, cytologic malignant criteria, spread, recurrence, and impact on life | Fully populated comparison/reference tables. `N/E`, `M/E`, `N.B.`, arrows, and highlighted phrases label supplied facts; **0 / 0**. |
+| 5 | Carcinoma-versus-sarcoma comparison; locally malignant neoplasm definition, behavior, examples, recurrence, and prognostic factors | Completed comparison and classification. `See next page` is navigation to grading/staging, not a task or answer residue; **0 / 0**. |
+| 6 | Grading/differentiation, G I–IV, growth–grade–prognosis relation, AJCC/TNM staging, and general cancer-etiology note | Completed definitions and mappings. Empty square glyphs introduce already written benign/malignant statements; they are typographic bullets, not response boxes; **0 / 0**. |
+| 7 | Internal and external carcinogens: radiation, viral/bacterial/parasitic infection, and direct/indirect chemicals with supplied cancer associations | Completed causal mappings and examples; **0 / 0**. |
+| 8 | Hereditary/acquired precancerous lesions, chronic irritation, hyperplasia, metaplasia, benign tumors, dysplasia, carcinoma in situ, and the initiation–promotion–progression carcinogenesis frame | Completed risk, lesion, definition, and sequence teaching; **0 / 0**. |
+| 9–10 | Initiation and growth-regulatory gene classes; proto-oncogenes, tumor suppressors, apoptosis-regulating and DNA-mismatch-repair genes; promotion through kinetics/angiogenesis; progression and heterogeneity | Completed molecular-pathogenesis definitions, examples, and sequence. Square and arrow glyphs structure supplied statements; **0 / 0**. |
+
+The handout uses headings such as `Def`, `Examples`, `Common`, `N.B.`, lettered categories,
+numbered grades/steps, colored emphasis, arrows, bullets, and boxed comparison cells. Each is
+followed by supplied declarative content. None is an interrogative stem, option set, fill-in blank,
+candidate instruction, mark allocation, image-identification request, student response,
+correctness mark, or separate key. Page numbering and the single `See next page` callout are
+navigation, not prompt residue.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed teaching-answer
+occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 source-
+distinct tested handles / 0 concept additions**.
+
+### Prior-source relation, source-first zero gate, and cumulative arithmetic
+
+Family 111's typed definitions, comparisons, carcinogen mappings, precancerous-lesion material,
+and carcinogenesis sequence substantially overlap Family 110's handwritten teaching notebook and
+support neoplasia scopes tested in the primary pathology chapter and Families 4–5. The two name
+twins are not exact page/image or byte carriers, and the present handout contains no assessment
+stem or response frame. Its thematic teaching support therefore does not create a tested-handle
+reuse.
+
+No accepted assessment handle survives the completed-handout boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated, and teaching support for existing assessment scopes adds no second concept.
+
+| Measure | Family 111 | Auxiliary cumulative (Families 12–111) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 866 | 765 | 1,631 |
+| Printed teaching-answer occurrences | 0 | 483 | 405 | 888 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 806 | 552 | 1,358 |
+| Source-distinct tested handles / required searches | 0 / 0 | 730 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**866 / 483 / 806 / 730 / +499**; and all eligible evidence remains
+**1,631 / 888 / 1,358 / 871**. Family 111 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 111
+
+`src_142aac5ab559bc1135a1` is exhausted across all 10 pages: every visible teaching statement,
+table, callout, footer attribution, metadata conflict, non-preferred-twin distinction, prior-source
+relation, and zero-gate arithmetic term is assigned once, with **zero source remainder** and no
+Family-111 blocker. The exact next manifest record is tier-6
+`src_4478c88bf5f8a9c7cba9` · `Patho Revision by Dr.Eman [108].pdf`, SHA-256
+`4478c88bf5f8a9c7cba918eed144856cac75451bf16d6e297ddbe6dd16e6cd7b`, 5,179,244 bytes, 77
+OCR-needed 792×594.725-point landscape pages under `Pathology / Notes and Summaries`. Its full
+render/OCR reality, visible Module 108 / Eman Khaled Mahmoud / Kasr Al-Aini provenance versus the
+Helwan BMS-102 folder assignment, teaching/revision prompt/key/callout boundary, and prior-source
+reuse are the exact next-source blockers.
