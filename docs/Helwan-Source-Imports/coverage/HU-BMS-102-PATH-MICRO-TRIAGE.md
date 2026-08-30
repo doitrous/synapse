@@ -13688,3 +13688,83 @@ unprocessed manifest record is tier-6 `src_8bd14ff1fc2117e0f8b4` · `patho 4.pdf
 two OCR-needed landscape A4 pages under `Pathology / Notes and Summaries`. Its dense handwritten
 acute/chronic-inflammation maps, provenance/annotation boundary, any embedded prompt/answer or
 practical content, source-first gate, and prior-BMS reuse are the exact next-source blockers.
+
+## Family 130 — anonymous two-page handwritten acute-inflammation maps
+
+### Source identity, high-detail raster/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_8bd14ff1fc2117e0f8b4` · `patho 4.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `8bd14ff1fc2117e0f8b4e7ef094c08b5b50527097f6e8add183881ef38bc5006` · 5,029,655 bytes |
+| Format / complete visual boundary | Two landscape A4 pages (842×595 points). Both pages were rendered at 300 dpi into two non-empty 3509×2480-pixel images and read at original detail. All nine embedded raster teaching panels were also extracted and reopened at native resolution; there is no page, crop, inset, or visual remainder. |
+| OCR/native reality | Layout and raw native extraction contain no semantic text beyond page separators. Two independent English+Arabic Tesseract passes (`psm 6` and `psm 11`) produced 859 OCR words / 6,342 bytes in aggregate and were reconciled against the source pixels rather than treated as authority. The handwriting, diagrams, tables, highlights, and image labels are raster/drawing content. The manifest's `ocr-needed` label is accurate. |
+| Visible provenance | Neither page shows a university, faculty, module code, author/instructor, academic year, lecture date, assessment label, sitting, page number, watermark, or ownership mark. The handwritten `inflammation`, `Acute`, `cellular`, and `mediators` headings establish topic only. |
+| Metadata caution | The PDF has no metadata stream and no author, title, creator, producer, creation date, or modification date fields. Folder placement and manifest classification are retained, but no invisible provenance or date is inferred. |
+| Annotation ruling | Multicolor handwriting, arrows, circles, underlines, grey label capsules, and marks on the embedded tables/images are internally consistent parts of the completed source-authored teaching map. There is no visually separable student hand, response, correction, grading layer, or answer-reveal sequence. |
+| Authority | Anonymous tier-6 declarative pathology summary maps. They are not a candidate paper, keyed exercise, response sheet, practical station, or official answer source. |
+
+### Complete page-first teaching, prompt, answer, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | Physical, chemical, infectious, and immunologic causes of inflammation; acute/chronic comparison by onset, duration, causative agents, major cells, mediators, and outcomes; vascular, leukocyte, and histiocyte response branches; acute vascular events, vasodilation, increased permeability, endothelial contraction/injury, and transcytosis | A completed causal/comparison teaching map with supplied tables, diagrams, labels, and annotations only; **0 prompts / 0 answers**. |
+| 2 | Exudate fluid/cellular branches, permeability/hydrostatic mechanisms, toxin dilution, antibodies/nutrition/fibrin functions; completed transudate-versus-exudate table; inflammatory-cell types/activities; neutrophil margination, rolling, adhesion, transmigration, chemotaxis, phagocytosis, and killing; cell- and plasma-derived mediators | A completed mechanism/function teaching map with supplied tables, images, labels, and annotations only; **0 / 0**. |
+
+Every branch terminates in supplied declarative content. Words such as `causes`, `mechanism`,
+`functions`, `outcomes`, `cells`, and `mediators` are completed category labels, not learner
+commands or completion fields. The embedded acute/chronic, exudate/transudate, inflammatory-cell,
+recruitment, phagocytosis, and mediator panels are fully populated teaching references. There is
+no question mark, interrogative or imperative stem, option set, blank, response space, mark
+allocation, image-identification request, practical station, candidate/student annotation,
+printed assessment answer, or prompt-like residue.
+
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0
+printed/source-supplied answer occurrences / 0 unkeyed prompt occurrences / 0 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted tested handle survives the complete declarative-teaching boundary. Exactly four
+searches are required only per accepted handle, so the source-first gate is exactly **0 handles
+× 4 = 0 required and completed searches**; no empty query or fabricated disposition row is
+added. The maps condense acute/chronic inflammation, vascular permeability, exudate/transudate,
+leukocyte recruitment/phagocytosis, and inflammatory-mediator teaching already represented across
+Families 1–10, 72–73, 82–86, 99, 104–105, 115, 122–125, and 129. Those are source-level teaching
+relations only. With zero tested handles, prior-BMS exact handle reuse is **0** and concept delta
+is **+0**.
+
+| Measure | Family 130 | Auxiliary cumulative (Families 12–130) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,108 | 765 | 1,873 |
+| Printed/source-supplied answer occurrences | 0 | 675 | 405 | 1,080 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,043 | 552 | 1,595 |
+| Source-distinct tested handles / required searches | 0 / 0 | 927 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +590 over primary | 372 | `372 + 590 = 962` |
+| **Distinct tested concepts** | **+0** | **590 auxiliary additions** | **372** | **962** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answers, unkeyed items,
+residues, retained records, tested handles, searches, external dispositions, prior-handle reuses,
+or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**1,108 / 675 / 1,043 / 927 / +590**; and all eligible evidence remains
+**1,873 / 1,080 / 1,595 / 962**. Family 130 contributes anonymous teaching maps only. It cannot
+establish an assessment, official key, dated sitting, recurrence, mark weight, student response,
+readiness, or claims status.
+
+### Exact next debt after Family 130
+
+`src_8bd14ff1fc2117e0f8b4` is exhausted across both high-detail pages and all nine embedded raster
+panels: every handwritten label, arrow, branch, teaching table/image, provenance limitation, OCR
+uncertainty, zero-search gate, prior-teaching relation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-130 blocker. The exact next unprocessed manifest record is
+tier-6 `src_ddc887508fcc6fdfeed9` · `patho 5.pdf`, SHA-256
+`ddc887508fcc6fdfeed97a9fb6c6fa8db7f7985b4cda92c1c4098dc5852d060c`, 13,398,288 bytes,
+five OCR-needed landscape A4 pages under `Pathology / Notes and Summaries`. Its dense handwritten
+thrombosis/hemostasis maps, visible `2006` notation and date-authority boundary, provenance and
+annotation layers, any embedded prompt/answer or practical content, source-first gate, and
+prior-BMS reuse are the exact next-source blockers.
