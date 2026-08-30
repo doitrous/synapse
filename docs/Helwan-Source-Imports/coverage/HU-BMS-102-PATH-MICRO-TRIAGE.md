@@ -18290,3 +18290,83 @@ manifest record is tier-3 source `src_a2b7d25d987469febab8` · `MCQs - MCQ Patho
 native-text portrait A4 pages under `Pathology / Questions / MCQs`. Its general-pathology
 MCQ/true-false prompt/key boundary, provenance, source-first handle searches, prior-BMS
 reconciliation, arithmetic, and exact next-source blockers remain to be exhausted.
+
+## Family 173 — exact manifest revisit of the Family-10 general-pathology mixed bank
+
+### Source identity, native/rendered boundary, authority, and prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_a2b7d25d987469febab8` · `MCQs - MCQ Pathology.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `a2b7d25d987469febab87a5a80fd52db5c8d74a1ade0dfabd6482fec9da63475` · **175,380 bytes** |
+| Format / complete visual boundary | **Six native-text portrait A4 pages**. All six pages were rendered at 200 dpi into six non-empty 1654×2339 images and read at original detail. Pages 1–4 contain MCQ Q1–Q25; pages 5–6 contain T/F 1–32. No cover, crop, hidden page, answer appendix, handwritten response, image prompt, or practical station exists. |
+| Native-text reality | Layout/raw extraction contains **1,102 / 1,126 words** and **10,425 / 6,445 bytes**. The native layer exposes the complete numbered prompts, options, right-column answers, T/F results, named footer, and page sequence and agrees with the rendered pages; OCR was unnecessary. |
+| Visible provenance | All six pages are visibly footered `DR. Ahmed Hassan`; page 1 is headed `MCQ`, and page 5 is headed `Put the sign true or false`. No university, faculty, module code, academic year, sitting date, marks, or candidate field is visible. |
+| Metadata caution | Metadata author `Alnoaman`, Microsoft Word 2019 production, and 9 April 2025 creation/modification times are secondary carrier evidence. They do not override visible named authorship or establish a Helwan administration, official key, or sitting date. |
+| Exact prior governance | Family 10 already records this exact source ID, SHA, carrier, all 57 prompt/answer occurrences, 12 copy occurrences, 45 retained records, 44 handles, 176 searches, 44 prior-BMS reuses, and +0 concepts. No byte-, page-, prompt-, answer-, format-, repeat-, or scope-layer difference exists in this manifest revisit. |
+| Authority | Instructor-attributed keyed pathology revision bank, not a verified institutional exam, official departmental key, dated sitting, or student response sheet. |
+
+### Complete prompt, answer, repeat, format, and anomaly replay boundary
+
+The object contains **57 raw prompt occurrences: 25 numbered text MCQs + 32 T/F statements** and
+**57 visibly printed answer occurrences**. MCQ Q2 prints `Natural history of the disease` inline
+rather than a key letter, but it remains one source-supplied answer. There are **0 unkeyed / 0
+written operations / 0 image-bearing questions / 0 drawing tasks / 0 practical stations / 0
+candidate responses / 0 residues**.
+
+The MCQ key sequence remains `1 C; 2 Natural history of the disease; 3 C; 4 A; 5 B; 6 C; 7 D;
+8 B; 9 B; 10 A; 11 C; 12 A; 13 D; 14 D; 15 C; 16 D; 17 C; 18 D; 19 B; 20 A; 21 D; 22 C;
+23 D; 24 D; 25 B`. Every T/F statement has a printed result. Questionable and inconsistent
+source evidence remains unchanged: MCQ14 prints `D` for localized suppurative inflammation while
+its equivalent MCQ22 prints `C`; TF18 and TF25 spell `True` as `Ture`; and TF27 prints `False` for
+`Chronic inflammation followed by repair`. None is silently repaired or independently validated.
+
+Family 10 assigns 12 copy occurrences—M19→M11, M20→M12, M22→M14, M24→M13, T14→T01,
+T15→T06, T16→T11, T18→T02, T19→T07, T20→T12, T24→T05, and T25→T10—so **`57 - 12 = 45
+retained records`**. T32 and M23 test the same primary-TB dissemination scope, adding one semantic
+reduction and yielding **`45 - 1 = 44 handles`**.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 10 already completed exactly four searches for every one of its 44 accepted handles:
+**`44 × 4 = 176 searches`**. All 44 were already represented at the same tested scope in Families
+1–9, so the Family-10 concept addition was **`44 - 44 = 0`**.
+
+Family 173 accepts **0 new retained records and 0 new handles**. Re-running the four-query packets
+against the same source ID/SHA/page/prompt/answer object would fabricate work and recurrence. The
+standing gate is **`0 new handles × 4 = 0 required and completed new searches`**. Prior reuse and
+concept delta are both **0 Family-173 additions**.
+
+### Family-173 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Governed exact object | Family 173 addition | Auxiliary cumulative (Families 12–173) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 57 | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 57 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 45 | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 44 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 10 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **44 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The governed checksum remains `57 prompts`, `57 answers`, `57 - 12 = 45 retained`, `45 - 1 = 44
+handles`, `44 × 4 = 176 searches`, and `44 - 44 = 0` Family-10 concepts. Family-173 arithmetic is
+independently zero: `0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`. Corrected
+primary remains **762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers /
+1,829 retained / 1,667 handles / +906 concepts**; and corrected all eligible remains **2,880 /
+1,891 / 2,381 / 1,278**.
+
+Family 173 adds exact-manifest-revisit evidence only. It establishes no new question occurrence,
+answer, tested concept, official key, sitting, recurrence, mark weight, candidate response,
+practical station, readiness, or claims status.
+
+### Exact next debt after Family 173
+
+`src_a2b7d25d987469febab8` is re-exhausted without double counting: every native/rendered page,
+prompt, option, printed answer, copy occurrence, semantic reduction, questionable or inconsistent
+answer, provenance field, metadata field, Family-10 search/prior disposition, zero gate, and
+cumulative term is assigned once, with **zero remainder** and no Family-173 blocker. The exact next
+manifest record is tier-3 source `src_9d41f1584e849028c619` · `MCQs - PATHO MCQ القصر.pdf`,
+SHA-256 `9d41f1584e849028c6191df0034ac4944f1de13ce99ff28ea0e43609e1c9ee13`, **4,478,480 bytes**,
+102 OCR-needed portrait pages under `Pathology / Questions / MCQs`. Its explicit Kasr-Alainy/Cairo
+provenance, external/reference-only eligibility, exact variant relation, zero-count gate, and
+subsequent next-source debt require their separate manifest-order reconciliation.
