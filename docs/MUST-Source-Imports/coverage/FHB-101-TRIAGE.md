@@ -4336,3 +4336,54 @@ Removing this one substantive-text path and unique hash leaves **56 selected inv
 The next evidence-ranked substantive source is the single 18-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium questions MCQ and Written.pdf`, SHA-256 `81bd1052dfcf4d1985205bbf7ae7aaf419eba184f7a2204af600f58e605a1b7f`.
 
 **BLOCKED — S1 cannot be approved:** 56 selected source paths remain untriaged.
+
+## Completed source — Epithelium questions MCQ and Written
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium questions MCQ and Written.pdf` | `81bd1052dfcf4d1985205bbf7ae7aaf419eba184f7a2204af600f58e605a1b7f` | 18 | substantive-text | pages 1–18 rendered and read | Local Microsoft Lens epithelium study pack signed `Dr. Marwa Mohamed Abdelsalam`. It prints no institution, department approval, sitting, marks or official-paper/key authority. |
+
+### Exact MCQ, written and key boundary
+
+Pages 1–13 print one continuous `Choose the correct answer` Q1–Q60 sequence. Page 14 prints nine `Correct the underlined word` prompts. Page 15 prints four numbered written questions and, below them, three separate unnumbered response-bearing written topics (`Simple columnar epithelium`, `Desmosome junction`, `Simple squamous epithelium`). The assessment inventory is therefore **76 prompts**: `60 MCQs + 9 corrections + 4 numbered written + 3 written-topic prompts`.
+
+Page 16 prints a complete 60-entry MCQ key and page 17 prints all nine correction answers, giving **69 prompt-matched recovered answers**. Page 18 prints seven labelled gland examples under section `IV`, but the corresponding section-IV question or figure is absent from this PDF; these are **seven orphan answer occurrences**, not permission to invent seven prompts. Thus the source contains **76 printed answer occurrences in total / 69 prompt-matched recovered answers**. No answer/model response is printed for the seven written prompts. The empty `III` answer heading on page 17 is not an answer occurrence.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+`M`, `C`, `W` and `T` identify the MCQ, correction, numbered-written and unnumbered-topic sequences. All 76 prompts are assigned exactly once to 12 handles. Each handle received the four searches printed below, for **12 × 4 = 48 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| M1,M5,M26,M29,M37–39; C1,C4,C7–C9; T3 | Simple-squamous structure, functions, endothelium, mesothelium and sites (`simple squamous epithelium`; `endothelium mesothelium`; `Bowman capsule alveoli squamous`; `simple squamous gas exchange`) | new externally; exact prior-FHB duplicate. |
+| M2,M27,M44; C6 | Simple-cuboidal morphology, functions and sites (`simple cuboidal epithelium`; `cuboidal thyroid follicle`; `kidney tubule cuboidal`; `cuboidal secretion reabsorption`) | new externally; exact prior-FHB duplicate. |
+| M3,M21,M28,M40 | Pseudostratified ciliated epithelium and respiratory sites (`pseudostratified ciliated epithelium`; `tracheal respiratory epithelium`; `all cells basement membrane pseudostratified`; `upper respiratory epithelium`) | pending-hit; exact prior-FHB duplicate. |
+| M4,M6,M36,M47; T1 | Simple-columnar morphology, function and sites (`simple columnar epithelium`; `columnar secretion absorption`; `gastrointestinal columnar lining`; `fallopian tube ciliated columnar`) | new externally; exact prior-FHB duplicate. |
+| M7–M8,M16,M48; W1–W2 | Transitional/urothelial structure, dome cells, layers and urinary-bladder lining (`transitional epithelium bladder`; `urothelium dome cells`; `transitional epithelium layers`; `urinary bladder epithelium`) | new externally; exact prior-FHB duplicate. |
+| M9,M15,M18,M30,M34–35,M45,M50,M52,M59; W3 | Stratified-squamous classification, keratinisation, protection and sites (`stratified squamous epithelium`; `keratinized epidermis`; `nonkeratinized esophagus`; `stratified epithelium protection`) | pending-hit; exact prior-FHB duplicate. |
+| M10–M11,M13–M14,M38,M46,M58 | General epithelial origin, layering, vascularity and renewal (`general epithelial characteristics`; `epithelium three germ layers`; `epithelium avascular regeneration`; `simple stratified classification`) | new externally; exact prior-FHB duplicate. |
+| M12,M42–M43 | Stereocilia, microvilli and ciliary surface specialisations (`stereocilia long microvilli`; `microvilli finger projections`; `cilia microtubules`; `epithelial surface specializations`) | new externally; exact prior-FHB duplicate. |
+| M17,M22,M25,M31,M49; C3,C5 | Endocrine/exocrine categories, secretion modes and myoepithelial sites (`endocrine exocrine gland`; `apocrine mammary gland`; `holocrine sebaceous gland`; `myoepithelial salivary sweat mammary`) | new externally; exact prior-FHB duplicate. |
+| M20,M23 | Sensory neuroepithelium and taste buds (`neuroepithelium sensory receptor`; `taste bud neuroepithelium`; `sensory epithelial cells`; `neuroepithelial sites`) | pending-hit; exact prior-FHB duplicate. |
+| M24,M32–M33,M41,M51 | Simple/compound and tubular/alveolar gland architecture (`simple compound gland duct`; `tubular alveolar tubuloalveolar`; `acinar alveolar gland`; `branched unbranched duct`) | new externally; exact prior-FHB duplicate. |
+| M19,M53–M57,M60; C2; W4; T2 | Hemidesmosomes, desmosomes, tight/gap/adherens junctions and epithelial attachment (`desmosome intermediate filaments`; `hemidesmosome basement membrane`; `tight adherens gap junction`; `junctional complex epithelium`) | new externally; exact prior-FHB duplicate. |
+
+The source-level search result is **0 live / 3 pending / 9 new = 12 handles**. Every handle is exact reuse of already processed FHB epithelium scope, so the post-prior result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+76 questions / +69 prompt-matched recovered answers / +0 concepts**. The seven orphan section-IV answers remain provenance evidence only and do not inflate recovered-answer arithmetic.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3697 | 3423 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **55 selected inventory paths / 53 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `6d6537394fec95347e74caddd9f3f7db8d191b1bd16d2ef6684eb0550b8bad96`. Pinned triage debt becomes **12 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`53 + 53 = 106`**.
+
+The next evidence-ranked substantive source is the single 19-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Important Ques Histo.pdf`, SHA-256 `b8ac8fb8398288c987687c364a49cd465bc7f94c777d02a34e444c1e86c68d4c`.
+
+**BLOCKED — S1 cannot be approved:** 55 selected source paths remain untriaged.
