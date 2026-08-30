@@ -401,3 +401,40 @@ Removing the seven processed hashes leaves **89 selected inventory paths / 87 un
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB MICRO CH10 PRACTICE.pdf`, SHA-256 `1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229`, 3 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 89 selected inventory paths / 87 unique hashes remain untriaged.
+
+## Completed source — FHB Microbiology Chapter 10 practice
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB MICRO CH10 PRACTICE.pdf` | `1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229` | 3 | substantive-text | pages 1–3 rendered and read | Google Docs-exported `CH.10 (Micro)` practice sheet with `Maii Mahmoud Rady` printed in each footer. The file metadata records a March 2025 browser export, but no institution, department, examiner, sitting, marks or authenticated faculty-key mark is visible. The terminal answer list is source answer evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–3 contain one continuous flow of eighteen unnumbered conventional MCQs. The eighth prompt begins on page 1 and its final two options continue at the top of page 2; it is one prompt occurrence. The final two prompts appear on page 3, followed by an `Answers:` heading and eighteen ordered option-and-text answer lines. Positional reconciliation maps all eighteen answer lines one-to-one to the eighteen prompts.
+
+The exact boundary is **18 objective prompts / 18 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**. Near-repeated stems on Staphylococcus/Streptococcus, Corynebacterium, Nocardia and Actinomyces remain separate assessment occurrences because the source asks and answers each occurrence independently. Printed grammatical and academically questionable tokens remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The eighteen prompts collapse source-first into two coherent handles. General phenotypic identification of Staphylococcus, Streptococcus, Corynebacterium and Clostridium is already represented by the prior clinical/laboratory bacterial-identification concept and receives no repeated search. The surviving Actinomyces–Nocardia differentiation handle received exactly four live-and-pending searches: **1 × 4 = 4 searches**. Every query returned no live or pending match.
+
+| Source handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Gram-positive cocci and rods differentiated by catalase, coagulase, hemolysis, motility, spores and oxygen requirement | prior clinical and laboratory bacterial-identification handle | prior-FHB-102-2 collapse |
+| Actinomyces versus Nocardia by branching filaments, oxygen requirement and weak acid-fastness | `Nocardia Actinomyces branching filaments weak acid fast aerobic anaerobic`; `Nocardia weak acid fast aerobic branching bacteria`; `Actinomyces anaerobic branching filaments non acid fast`; `gram positive branching filamentous bacteria Nocardia Actinomyces identification` | no live/pending match — retained new/TBD |
+
+Post-prior disposition is **0 live / 0 pending / 1 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This eighth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+18 questions / +18 answers / +1 concept**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|
+| FHB 102-2 | 839 | 831 | 56 | 0 | 0 | 56 | TBD |
+
+Removing the eight processed hashes leaves **88 selected inventory paths / 86 unique SHA-256s**. Their sorted-newline checksum is `ebbba239dcd4a733ba674ccd595995711ea39d8ead5a4883c66e8ecba87adf82`. Remaining audit-review debt is **37 substantive-text / 23 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`8 + 86 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB-2 micro mcq.pdf`, SHA-256 `9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc`, 1 page, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 88 selected inventory paths / 86 unique hashes remain untriaged.

@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "9019ce269bd9e9ad0e8dfb2d453928d91c7efd5262dcf6af8b69b37e0b945705",
-    "triageMarkdown": "e7621190d66adf4b4e0a606d6ae71d552c1c5c2c6bc10c7b20cab33cc536900f"
+    "readinessMarkdown": "5512a7d4cb1e1045fa0a55490967e3358359502d694fa5d8b925ab2a25ad82fd",
+    "triageMarkdown": "03a8a85116abc410396938fc9363442f8ee92f6d0febbde07316e107c3e745f6"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,6 +69,7 @@
   ],
   "processedFamilies": {
     "sha256": [
+      "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
@@ -77,7 +78,7 @@
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 7
+    "uniqueSha256": 8
   },
   "completedSourceCoverage": [
     {
@@ -517,15 +518,48 @@
         "printed spelling, grammar and academically questionable highlighted options are preserved without correction",
         "the yellow highlights are source answer evidence rather than authenticated faculty-key observations"
       ]
+    },
+    {
+      "sha256": "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "questionPages": "1-3",
+      "answerPages": "3",
+      "printedPromptObservations": 18,
+      "objectiveMcqPrompts": 18,
+      "printedKeyObservations": 18,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "unnumberedPromptSequence": true,
+      "sourceFirstHandles": 2,
+      "priorFhb1022CollapsedHandles": 1,
+      "acceptedSourceHandles": 1,
+      "searchesRun": 4,
+      "familyQuestionDelta": 18,
+      "familyAnswerDelta": 18,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 1,
+      "sourceProcessed": true,
+      "authorityDisposition": "Google Docs-exported CH.10 (Micro) practice sheet with Maii Mahmoud Rady printed in each footer and March 2025 browser-export metadata; no visible institution, department, examiner, sitting, marks or authenticated faculty-key mark; the terminal answer list is source answer evidence rather than an official faculty key",
+      "boundaryDisposition": "eighteen unnumbered conventional objective MCQs across pages 1-3 followed by eighteen ordered option-and-text answer lines on page 3; positional reconciliation provides one source answer observation for each prompt; no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "the eighth prompt crosses the page 1-2 boundary and remains one occurrence",
+        "near-repeated organism-identification stems remain separate assessment occurrences because each is independently asked and answered",
+        "printed grammatical and academically questionable prompt and answer tokens are preserved without correction",
+        "the terminal answer list is source answer evidence rather than an authenticated faculty key"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 821,
-    "printedKeyObservations": 813,
-    "namedConceptsAssigned": 55,
+    "printedPromptObservations": 839,
+    "printedKeyObservations": 831,
+    "namedConceptsAssigned": 56,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 55
+    "newConcepts": 56
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -569,22 +603,28 @@
     "pages": 20,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eighthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB MICRO CH10 PRACTICE.pdf",
     "sha256": "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
     "pages": 3,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB-2 micro mcq.pdf",
+    "sha256": "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
+    "pages": 1,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 89,
-    "uniqueSha256": 87,
-    "sortedNewlineSha256": "19c83af17959b145df6dbf3f4ae2f6b020d99028608d1b89bfb55f3a5c9c4516",
+    "inventoryMetadataRows": 88,
+    "uniqueSha256": 86,
+    "sortedNewlineSha256": "ebbba239dcd4a733ba674ccd595995711ea39d8ead5a4883c66e8ecba87adf82",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
       "sparse-text": 23,
-      "substantive-text": 38
+      "substantive-text": 37
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -592,12 +632,12 @@
     "audit-not-found": 11,
     "empty-text": 15,
     "sparse-text": 23,
-    "substantive-text": 38
+    "substantive-text": 37
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 7,
-    "remainingUniqueSha256": 87,
+    "processedUniqueSha256": 8,
+    "remainingUniqueSha256": 86,
     "processedPlusRemaining": 94
   }
 }
