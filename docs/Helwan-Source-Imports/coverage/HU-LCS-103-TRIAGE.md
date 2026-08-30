@@ -4491,3 +4491,137 @@ bytes; 40 native-text pages; SHA-256
 103/Anatomy/Theoretical/Lower Limb/Lec 1 - Anterior Compartment of Thigh/`. Broader
 LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 39 — Tier-4 Anatomy teaching-only anterior-thigh lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_21e1cf59bf0e485444a7` |
+| File / SHA-256 | `Anterior Compartment of Thigh  Dr Sarah 103.pdf` / `21e1cf59bf0e485444a7f4f182f6fbb6aea8f9fa67066f2b4eb65e6321e96168` |
+| File boundary | 4,601,182 bytes · unencrypted PDF · 40 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 1 - Anterior Compartment of Thigh/Anterior Compartment of Thigh  Dr Sarah 103.pdf` |
+| Visible provenance | p. 1 prints `Anterior Compartment of Thigh`, `Dr. Sarah Arakib`, and `MD Anatomy and Embryology`; the source itself prints no university, sitting or assessment label |
+| Authority finding | Manifest/path-assigned local Anatomy teaching evidence. It is not an examination, station sheet, response form, question bank or official answer key. |
+
+The SHA-256, byte count and 40-page boundary were recomputed and match the manifest. The
+organised file currently present on disk uses one space between `Thigh` and `Dr`, while the
+manifest identity uses two; the byte-for-byte hash establishes that it is the same source.
+All 40 pages were rendered at 140 dpi and read against the native text layer. Page 1 is the
+cover, pp. 2–39 are 38 instructional slide compositions, and p. 40 is a motivational closing
+image.
+
+There is **no assessment occurrence anywhere in the source**. No page prints an instruction
+to identify, an ordinary or station question, response area, option set, answer line, mark
+allocation, correctness convention, answer reveal or key. On p. 2, the question marks after
+`iliotibial tract?` and `Saphenous opening ?` trail already-complete declarative statements;
+both named structures and their arrows are simultaneously printed, so the punctuation does
+not create two prompts. Page 37's `Clinical importance` is followed immediately by two
+declarative teaching points about varicose veins and graft use, not a request for a response.
+Embedded crop/mask or clipped-source-image artifacts on pp. 4, 14, 16 and 33 are not authored
+answer blanks or unresolved practical callouts.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's images and labelled diagrams remain parts of their tier-4 theoretical teaching
+compositions; they are not promoted into the tier-5 practical plate/mapping ledger.
+
+| Physical pages | Source-first instructional compositions | Slide occurrences |
+|---:|---|---:|
+| 2 | fascia lata, iliotibial tract and saphenous opening with labelled regional figures | 1 |
+| 3–5 | three thigh compartments; anterior-compartment muscles, actions and supply; labelled anterior-thigh overview | 3 |
+| 6–9 | sartorius origin/insertion/supply, actions, and two attachment/identification diagrams | 4 |
+| 10–11 | psoas-major and iliacus origins, insertions, supply and iliopsoas action | 2 |
+| 12–15 | quadriceps membership/identification, cross-sectional organisation, common insertion, supply and actions | 4 |
+| 16–22 | rectus-femoris dual origins and illustrations; vastus intermedius, medialis and lateralis origins; combined femoral attachment maps | 7 |
+| 23–27 | femoral-triangle site, boundaries, floor, contents and two labelled/mnemonic overview diagrams | 5 |
+| 28–30 | femoral-sheath/canal definition and compartments, labelled sheath diagram, and femoral-ring/hernia teaching slide | 3 |
+| 31–35 | femoral-artery origin, course, termination, overview diagram, branch list and labelled branch diagram | 5 |
+| 36 | femoral-vein beginning, course and termination with labelled diagrams | 1 |
+| 37 | great/small saphenous-vein course, termination and clinical-use statements | 1 |
+| 38–39 | femoral-nerve roots, course, termination, muscular/cutaneous/articular branches and sensory distribution | 2 |
+| **Total** | **tier-4 instructional compositions** | **38** |
+
+The **38 content-slide occurrences are 38 source-distinct teaching compositions**. Reused
+base illustrations acquire different titles, text, label layers, crops or instructional
+purposes; there is no exact complete-page copy to collapse. The source boundary is therefore
+**38 teaching compositions / 0 ordinary questions / 0 practical or station prompts / 0
+printed assessment keys / 0 assessment residues**. Because the source is theoretical, its
+instructional diagrams add **0 practical plates, 0 practical label mappings and 0 practical
+residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 38 compositions consolidate to 16 source-level theoretical teaching scopes. This
+collapse preserves every page occurrence and does not turn lecture statements into tested
+concepts.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `fascia-lata-iliotibial-tract-and-saphenous-opening` · p. 2 | fascia lata deep fascia thigh; iliotibial tract lateral thickening; saphenous opening fascia lata; deep fascia thigh stocking | no single direct live/pending record owns the composite; accepted Families 2, 4 and 31 jointly own the fascia-lata/tract/opening scope — prior LCS reuse |
+| `anterior-thigh-compartments-muscles-and-supply` · pp. 3–5 | anterior thigh compartments; anterior compartment thigh muscles; thigh intermuscular septa; anterior thigh femoral nerve supply | no direct live/pending same-scope hit; exact accepted Family-31 handle — prior LCS reuse |
+| `sartorius-origin-insertion-action-and-supply` · pp. 6–9 | sartorius origin insertion; sartorius ASIS tibia; sartorius action hip knee; sartorius OINA | external component hits do not own full OINA; accepted Family-1/Family-31 sartorius handles jointly own the complete scope — prior LCS reuse |
+| `psoas-major-origin-insertion-and-supply` · p. 10 | psoas major origin insertion; psoas lumbar vertebra lesser trochanter; psoas major anterior rami L1 L3; psoas major OINA | no direct live/pending full-scope hit; accepted Families 4 and 31 jointly own attachment and supply — prior LCS reuse |
+| `iliacus-iliopsoas-origin-insertion-and-action` · p. 11 | iliacus origin insertion; iliacus iliac fossa lesser trochanter; iliopsoas tendon lesser trochanter; iliopsoas hip flexion | no direct live/pending full-scope hit; exact accepted Family-31 attachment handle plus accepted hip-flexor action — prior LCS reuse |
+| `quadriceps-femoris-components-and-identification` · pp. 12–14 | quadriceps femoris components; quadriceps four heads; rectus vastus intermedius lateralis medialis; quadriceps identification model | pending 103-BMS material owns the four-head scope; exact accepted Family-20/Family-31 handle — prior LCS reuse with inherited pending overlap |
+| `quadriceps-common-insertion-and-action` · p. 15 | quadriceps insertion patella; quadriceps tendon patellar ligament tibial tuberosity; quadriceps knee extension; vastus medial lateral patellar stabilization | no external record owns the complete insertion/action composite; accepted Families 3 and 31 jointly own it — prior LCS reuse |
+| `rectus-femoris-dual-head-origins` · pp. 16–17, 21 | rectus femoris straight reflected head; rectus femoris two heads origin; rectus femoris AIIS acetabular origin; rectus femoris origin identification | no direct live/pending same-scope hit; exact accepted Family-31 handle, itself a subset of accepted `rectus-femoris-oina` — prior LCS reuse |
+| `vasti-femoral-origins` · pp. 18–22 | vastus medialis origin; vastus lateralis origin; vastus intermedius origin; vasti femur attachment origins | no direct live/pending same-scope hit; exact accepted Family-31 handle — prior LCS reuse |
+| `femoral-triangle-anatomy` · pp. 23–27 | femoral triangle; Scarpa triangle; femoral triangle boundaries floor; femoral triangle contents VAN | pending Kasr/AU material can absorb full boundaries, floor and contents; exact accepted Families 1, 2 and 20 handle — prior LCS reuse with inherited pending overlap |
+| `femoral-sheath-and-canal` · pp. 28–29 | femoral sheath; femoral canal; femoral sheath compartments; femoral artery vein canal sheath | pending AU/Kasr material owns the three compartments and their contents; exact accepted Families 1, 2 and 20 handle — prior LCS reuse with inherited pending overlap |
+| `femoral-ring-and-hernia` · p. 30 | femoral ring; femoral canal superior opening; femoral hernia ring; Cloquet node femoral canal | pending combined sheath/canal/ring record owns the opening and hernia route; accepted prior sheath/ring evidence already absorbs the source subset — prior LCS reuse with inherited pending overlap |
+| `femoral-artery-origin-course-termination-and-branches` · pp. 31–35 | femoral artery origin termination branches; external iliac continuation femoral artery; femoral artery adductor hiatus popliteal; profunda femoris descending genicular branches | external relation hits are narrower than the full artery record; exact accepted Family-1/Family-20/Family-31 artery handle — prior LCS reuse |
+| `femoral-vein-beginning-course-and-termination` · p. 36 | femoral vein beginning termination; popliteal vein continuation femoral vein; femoral vein external iliac vein inguinal ligament; femoral vein adductor canal course | no direct live/pending full-scope hit; exact accepted Family-31 handle — prior LCS reuse |
+| `great-and-small-saphenous-veins-course-and-clinical-use` · p. 37 | great small saphenous veins; long short saphenous vein course; saphenous vein varicose graft; great saphenous femoral small saphenous popliteal | pending Kasr/AU records own both courses plus the varicose/graft teaching; accepted Families 1, 2 and 4 already own the source scope — prior LCS reuse with inherited pending overlap |
+| `femoral-nerve-roots-course-and-distribution` · pp. 38–39 | femoral nerve roots course branches; L2 L3 L4 femoral nerve; femoral nerve anterior posterior divisions; saphenous medial intermediate cutaneous nerve thigh | pending Kasr/AU material owns the roots, course, branches and sensory distribution; exact accepted Family-2/Family-20 handle — prior LCS reuse with inherited pending overlap |
+
+All **16 × 4 = 64** required searches completed across live state, `docs/import-ready`,
+`docs/questions-import-ready` and all source-import roots; generic follow-ups were also used
+to inspect broad regional hits. The direct external result is **0 live / 6 pending / 10
+new** at the complete-scope level. Exact accepted-prior comparison removes all ten apparent
+additions, leaving **16 prior-LCS reuses / 0 new theoretical teaching scopes**. With no
+source prompt, none enters the eligible tested-concept count; because the source is
+theoretical, none enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 39 | Family 39 delta | After Family 39 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**. Arithmetic checks are `38 = 1 + 3
++ 4 + 2 + 4 + 7 + 5 + 3 + 5 + 1 + 1 + 2`, `447 + 0 = 447`, `242 + 0 = 242`, `204
++ 0 = 204`, `9 + 49 + 146 = 204`, `251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0
+= 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-38
+remainder leaves **37 rank-4/rank-5 path instances / 35 unique hashes**. The Family-38
+method was reproduced first: its 38/36 row sets recomputed to
+`d07372201d3429a4bc539fac712a8282375e960995bcd9d34f5a09fef3aa7882` and
+`cf2f5344cbc6e2f953d6ad55d944426e5a212a0cbc8fca3f4af48dc903526672`.
+For the exact post-Family-39 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`e3ed4abebff0d80f295bd0d0ffe59309aafaeba2c4a13a441b5388cee7c998c7`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`614cb4e3059ee93d431ef282b6b56bfd667cbc75753989c69081fadf158ff9aa`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_88ff9464e6fabde88dcc`, `Anatomy Lecture Muscles of the back.pdf` (3,782,094 bytes; 44
+native-text pages; SHA-256
+`88ff9464e6fabde88dccea091a860c912ef5cb9f88bd8cdd6161e6d0a4c12501`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 12 - Muscles of Back/`. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
