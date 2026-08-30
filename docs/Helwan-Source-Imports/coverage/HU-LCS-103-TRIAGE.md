@@ -21400,3 +21400,90 @@ unencrypted; no form; PDF 1.7; SHA-256
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 27 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 204 — Tier-6 paired thigh-model practical self-test
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_5ae238e6d2404caffd1c` / `5ae238e6d2404caffd1cde9a6c5bbc0ab25cb6d962eee72b986b59f38d9ea705` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/anatomy of the thigh_250703_124047 (1).pdf` |
+| Physical verification | **286,900 bytes; six native-text 960 x 540 pt pages; untagged; unencrypted; no form; PDF 1.7**. Full hash, byte size, page count and geometry match. All six pages were rendered completely at 160 dpi to six distinct 2,134 x 1,200 RGB images, visually inspected and read against the native layer; the native layer has exactly six physical-page terminators. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | The pages print no title, author, institution, lecturer, module, cohort, sitting, marks, citation or official-key claim. Metadata names PDFium as creator/producer only and supplies no date or author. |
+| Authority finding | Unattributed tier-6 local practical-revision evidence. The manifest folder and filename establish LCS-103 topical placement but not a recoverable Helwan assessment sitting, response form or official marking guide. The repeated numbered-image then delayed-list convention nevertheless preserves practical identification prompts and source keys. |
+
+All **6/6 pages** form three complete practical prompt/key pairs:
+
+| Pages | Source-first composition | Practical prompt/key inventory |
+|---:|---|---:|
+| 1 → 2 | anterior/medial thigh and femoral-triangle model, numbered 1–13, followed by the same-number name list | 13 practical identification prompts / 13 practical keys |
+| 3 → 4 | superficial gluteal/posterior-thigh model, numbered 1–5, followed by the same-number name list | 5 prompts / 5 keys |
+| 5 → 6 | deep-gluteal/posterior-thigh and popliteal neurovascular model, numbered 1–11, followed by the same-number name list | 11 prompts / 11 keys |
+| **Total** | **three assessment plates and three delayed answer pages** | **29 practical prompts / 29 practical keys** |
+
+Prompt/key arithmetic is **29 = 13 + 5 + 11**, and every numbered callout has one
+same-number delayed answer. The three numbered photographs are assessment evidence, not
+simultaneous teaching plates or mappings; the three answer-list pages are keys, not second
+prompts or teaching compositions. There are **0 eligible or external ordinary-assessment
+prompts / 0 MCQs / 0 written prompts / 0 ordinary keys-or-answers / 0 unkeyed prompt
+occurrences**. There is no unresolved numbered callout, so practical residue is zero.
+
+Source truth remains literal and unrepaired. This includes `pectinus`, `tensor fascia lata`,
+`femoral vessels ( artery & vein)`, `gluteus Maximus`, `semi tendinosus`, both occurrences of
+`semi membranosus`, capitalization/spacing and every printed number-to-name assignment. The
+inventory does not silently normalize, medically repair or endorse any spelling or label.
+
+### Practical handles, exact searches and prior-LCS reconciliation
+
+The three prompt/key pairs consolidate to three complete practical identification handles.
+Every numbered occurrence is assigned once; repeated structures across views remain source
+occurrences but do not manufacture additional concept scopes.
+
+| Practical tested handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| `anterior-thigh-and-femoral-triangle-model-identification` · pp. 1–2 | rectus femoris vastus medialis femoral nerve femoral vessels model | Accepted Families 37, 39, 41 and 166 own the complete region/model scope — prior-LCS reuse. |
+| `superficial-gluteal-and-posterior-thigh-model-identification` · pp. 3–4 | gluteus maximus semitendinosus long head biceps femoris semimembranosus model | Accepted Families 37, 42, 157 and 166 own the complete scope — prior-LCS reuse. |
+| `deep-gluteal-posterior-thigh-and-popliteal-neurovascular-model-identification` · pp. 5–6 | gluteus minimus piriformis gemelli obturator internus quadratus sciatic popliteal model | Accepted Families 37, 40, 42, 156 and 166 own the complete scope — prior-LCS reuse. |
+
+Each of the **three accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **3 x 4 =
+12 required search invocations**. Broad component matches were found on live/pending surfaces;
+the prior-source lane had no complete-file match, while every accepted-LCS query matched.
+Complete-scope comparison establishes **3 prior-LCS practical reuses / 0 additive live / 0
+additive pending / 0 additive new practical scopes**. Search coverage does not change the 29
+source prompt/key occurrences or repair their wording.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every ordinary-assessment delta is zero.
+
+Practical totals advance from **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys** by **+29 / +0 / +0 / +0 / +29** to **94 prompts / 525 plates / 3,029 mappings / 173
+residues / 87 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `65 + 29 = 94`, `58 + 29 = 87` and every other practical delta is
+zero.
+
+This hash occurs once in Family 203's remainder. Removing its sole path changes the remainder
+from **27 paths / 26 unique hashes** to **26 paths / 25 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **17 paths / 17 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 203's checksums were
+`4e79e6ae334bd8fd99ec5c05cddee60068568de11eebd5748245c76d99d595df` (paths) and
+`2667cfec340a5f80a91e6e90694d522246d562c6d799a9d00edec198965bfe49` (unique hashes).
+For the exact post-Family-204 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`4f53fe9f2bb38cda852a695c4bad2551d72414c7a19ad8329b4350cf506eb173`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`ae09610c372f08a8ff70762312048bf9f701528fa8b8cf68a8a8f14016d5a4b5`.
+
+The exact next manifest-order debt is tier-6 `src_722e9a0b871b1e0f8e64`, `ant compartment
+of thigh summary_202605101741_41066.pdf` (1,232,080 bytes; two OCR-needed 1600 x 2263 pt
+pages; untagged; unencrypted; no form; PDF 1.4; SHA-256
+`722e9a0b871b1e0f8e6413148461cfd726e3642402bb22f9ca1914ef15e4216a`) under `Year 1/LCS
+103/Anatomy/Notes and Summaries/`. It remains unclassified until both pages are rendered and
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 26 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
