@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "c1c614e1d6ff0633d0a620a0af5850946f48eea52d9d97c157e171e9c2058e14",
-    "triageMarkdown": "30e2f9f8abd02f7124344e38e18c507c9e882af3b2ba87d8bd5a8e1b5478db3e"
+    "readinessMarkdown": "d0875a67baf9bc3cf501484a506bbae350d402b39f3609f46c314d6035eecb71",
+    "triageMarkdown": "6361ddb09ef993e458b4decdfd43e7fb3b6dd00b4532ac1b87345796afaf5bc3"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -96,6 +96,7 @@
       "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
+      "ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9",
       "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
       "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
       "d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0",
@@ -109,7 +110,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 57
+    "uniqueSha256": 58
   },
   "completedSourceCoverage": [
     {
@@ -1648,10 +1649,59 @@
         "Q12 supplies only three options",
         "Q23, Q30 and Q31 each supply five options while most items supply four"
       ]
+    },
+    {
+      "sha256": "ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9",
+      "sourcePages": 7,
+      "renderedReadPages": "1-7",
+      "assessmentPages": "1-7",
+      "printedPromptObservations": 43,
+      "objectiveMcqPrompts": 43,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 43,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 43,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Muhammad Haitham Muhammad Ibrahim student exercise compilation created in Microsoft Word on 24 October 2025; no printed institution, department, examiner, sitting, marks or official-key claim",
+      "boundaryDisposition": "three unkeyed MCQ blocks across all seven pages: Exercises on anatomy MSK - 1 Q1-Q17, Shade the single best answer Q1-Q4 and Q6-Q18, and Final midterm exercises Q1-Q9; no written, practical, image-identification, teaching-only or answer-only material",
+      "bankBoundary": [
+        {
+          "title": "Exercises on anatomy MSK - 1",
+          "pages": "1-2",
+          "prompts": 17
+        },
+        {
+          "title": "Shade the single best answer",
+          "pages": "3-5",
+          "printedLabels": "Q1-Q4,Q6-Q18",
+          "prompts": 17
+        },
+        {
+          "title": "Final midterm exercises",
+          "pages": "6-7",
+          "prompts": 9
+        }
+      ],
+      "preservedSourceDefects": [
+        "middle block skips question label 5",
+        "source spelling and punctuation defects are retained",
+        "all forty-three answers are source-absent and none is inferred from anatomy knowledge",
+        "repeated and near-repeated pectoral-region, axilla, brachial-plexus and shoulder prompts remain counted as printed occurrences"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 5959,
+    "printedPromptObservations": 6002,
     "printedKeyObservations": 5819,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
@@ -1659,15 +1709,15 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 45,
-    "uniqueSha256": 44,
-    "sortedNewlineSha256": "eee491738ca75b7651e03f970721b7472abc2f37b8ffac315a2dce93e1055618",
+    "inventoryMetadataRows": 44,
+    "uniqueSha256": 43,
+    "sortedNewlineSha256": "47e8b55ccd34619f4f94c196a067a808436a46315cc372b244f571820ce15de2",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 19
+      "substantive-text": 18
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1675,12 +1725,12 @@
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 19
+    "substantive-text": 18
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 57,
-    "remainingUniqueSha256": 44,
+    "processedUniqueSha256": 58,
+    "remainingUniqueSha256": 43,
     "processedPlusRemaining": 101
   }
 }

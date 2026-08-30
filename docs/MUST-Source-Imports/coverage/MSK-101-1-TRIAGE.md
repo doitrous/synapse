@@ -2234,3 +2234,48 @@ Removing the fifty-seven processed unique hashes leaves **45 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy msk questions.pdf`, SHA-256 `ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9`, 7 pages.
 
 **BLOCKED — S1 cannot be approved:** 45 selected inventory paths / 44 unique hashes remain untriaged.
+
+## Completed source — Anatomy msk questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy msk questions.pdf` | `ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9` | 7 | substantive-text audit sample | pages 1–7 rendered and read | Muhammad Haitham Muhammad Ibrahim student exercise compilation created in Microsoft Word on 24 October 2025. No printed institution, department, examiner, sitting, marks or official-key claim appears; the exercise and midterm headings do not authenticate a MUST/MSK assessment or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy msk questions.pdf" purpose="source"}
+
+### Exact MCQ, answer, written, practical and teaching boundary
+
+All seven pages are assessment-only and contain three independently numbered MCQ blocks. No selection, underline, inline answer, answer table or separate key appears.
+
+| Pages | Printed block | Visible labels | MCQ prompts | Printed answers | Source-unkeyed |
+|---|---|---|---:|---:|---:|
+| 1–2 | `Exercises on anatomy MSK - 1` | Q1–Q17 | 17 | 0 | 17 |
+| 3–5 | `Shade the single best answer` | Q1–Q4, Q6–Q18 | 17 | 0 | 17 |
+| 6–7 | `Final midterm exercises` | Q1–Q9 | 9 | 0 | 9 |
+| **Total** | **Three MCQ blocks** | **Independent numbering** | **43** | **0** | **43** |
+
+There are **0 written prompts / 0 practical or image-identification prompts / 0 teaching-only pages / 0 answer-only pages**. The middle block visibly skips label 5; no missing prompt is manufactured. All 43 absent answers remain source-absent and none is inferred from anatomy knowledge.
+
+### Internal repetition, prior-MSK collapse and search gate
+
+Repeated and near-repeated pectoral-region, axilla, brachial-plexus and shoulder stems are retained as physical prompt occurrences and collapse only at the concept layer. Representative overlaps include clavipectoral-fascia piercing, axillary-artery continuation and parts, long-thoracic-nerve origin, axillary-nerve relations, pectoralis muscle structure/action, and serratus-anterior attachments/action.
+
+Every source-first scope maps to the completed Upper Limb Anatomy H1–H5 family. No genuinely new handle survives prior-MSK reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior family’s **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct three-block compilation is now `sourceProcessed=true`. Its delta is **+43 questions / +0 answer observations / +0 concepts**. Cumulative arithmetic is **5959 + 43 = 6002 questions**, **5819 + 0 = 5819 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6002 | 5819 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty-eight processed unique hashes leaves **44 selected inventory paths / 43 unique SHA-256s**. Their sorted, newline-joined hash checksum is `47e8b55ccd34619f4f94c196a067a808436a46315cc372b244f571820ce15de2`. Remaining audit-review debt is 18 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 2 audit-extract-failed rows, and unique-hash accounting is **`58 + 43 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Midterm anatomy msk 2026.pdf`, SHA-256 `9bec4ac1744857b7b7c9def17233b243eacb320575eb276ead57cbe2a4b7e8aa`, 13 pages.
+
+**BLOCKED — S1 cannot be approved:** 44 selected inventory paths / 43 unique hashes remain untriaged.
