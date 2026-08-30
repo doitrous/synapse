@@ -14516,3 +14516,102 @@ SHA-256 `50a8e7564bd2f5934a12e87315ef809dd6b15273a6566485fe3e09d4f04c42d4`).
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 100 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 131 — Tier-3 external Dr Ayman Khanfour lower-limb collection re-encode
+
+### Exact identity, authority and complete 68-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_50a8e7564bd2f5934a12` / `50a8e7564bd2f5934a12e87315ef809dd6b15273a6566485fe3e09d4f04c42d4` |
+| File / boundary | `MCQs - External MCQs MCQ.Lower limb Anatomy  - @Medicine_Way2.PDF` · 15,487,955 bytes · untagged, unencrypted PDF 1.7 · 68 physical A4 scan pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Visible / container provenance | Contents identify a five-chapter lower-limb Anatomy review collection; assessment and collection pages print `By Dr. Ayman Ahmed Khanfour` and `Scanned by CamScanner`. Metadata title/subject `New Doc 2020-02-15 13.14.06`, author `CamScanner` and Intsig producer describe the scan container only. No Helwan University, faculty, module, cohort, sitting or official-exam mark appears; the manifest filename identifies an external Medicine Way 2 copy. |
+
+The assigned SHA-256, byte size and 68-page boundary were recomputed and match. The native
+layer contains only scan fragments. All 68 pages were rendered at 110 dpi, OCRed pagewise and
+read visually in ordered contact sheets, with each section transition and answer list checked
+against full-page renders.
+
+| Physical boundary | Visible source section | MCQ prompts | Written prompts | Printed keys |
+|---|---|---:|---:|---:|
+| p. 1 | contents | 0 | 0 | 0 |
+| pp. 2–40 | chapter-1 lower-limb MCQs: thigh 63; gluteal region 25; popliteal fossa 8; leg 44; foot 18; joints 34; veins/lymphatics 12; cutaneous supply/dermatomes 5 | 209 | 0 | 0 |
+| pp. 41–46 | complete chapter-2 answer lists for all 209 chapter-1 MCQs | 0 | 0 | 209 |
+| pp. 47–56 | five trial exams, each with 10 MCQs and 5 essay questions | 50 | 25 | 0 |
+| pp. 57–58 | complete answer lists for all 50 trial-exam MCQs | 0 | 0 | 50 |
+| pp. 59–68 | insertion, action and nerve-supply teaching collections | 0 | 0 | 0 |
+| **Visible source boundary** | **complete bank and trials** | **259** | **25** | **259** |
+
+Arithmetic is `63 + 25 + 8 + 44 + 18 + 34 + 12 + 5 = 209` chapter MCQs,
+`5 × 10 = 50` trial MCQs, `5 × 5 = 25` trial essays, and **`209 + 50 + 25 = 284`
+visible prompt occurrences with `209 + 50 = 259` printed keys**. Every MCQ number has a
+printed key; the 25 essays have none, and no essay answer is inferred.
+
+### Cross-family copy collapse, teaching and practical boundary
+
+Page-for-page comparison establishes that this file reproduces Family 103's Dr Ayman Khanfour
+lower-limb collection. The same contents page, section order, 284 prompts, 259 answer entries,
+25 unkeyed essays, scan artifacts, page-specific hand/finger intrusions and ten collection
+pages occur in the same physical sequence. The files are not bitwise duplicates: this copy is
+a CamScanner PDF 1.7 container with 595 × 841 pt pages, whereas Family 103's copy has another
+container and 595 × 842 pt pages. At the same render width, all 68 paired pages have only
+**0–13 differing bits of 256 in a difference-hash comparison**, confirming the same visual
+source content under the one-row crop/re-encode.
+
+Under copy collapse, Family 103 already owns the content inventory. Family 131 therefore adds
+**0 second external prompts / 0 second keys / 0 second unkeyed occurrences / 0 second written
+prompts**. The ten declarative teaching tables again consolidate to the same three scopes:
+lower-limb muscle insertions, actions and nerve supply. They are not assessment prompts,
+specimens, radiographs, micrographs, masked labels or learner-completed maps. Teaching and
+practical deltas are **0 teaching scopes / 0 practical prompts / 0 teaching plates / 0 mappings
+/ 0 practical residues / 0 practical keys**.
+
+### Source-first handles, exact searches and prior-external reconciliation
+
+The visible 284 occurrences collapse to the same **47 tested handles** adjudicated for Family
+103: thigh compartments and muscle mechanics; femoral triangle/sheath/ring/canal and adductor
+canal; femoral/obturator/sciatic nerves and regional vessels; gluteal muscles and foramina;
+popliteal fossa; leg compartments; foot layers, nerves, vessels and bony relations; hip, knee,
+ankle, subtalar and transverse-tarsal joints and arches; superficial veins/lymphatics; and
+cutaneous territories/dermatomes. Trial MCQs and essays reuse this union.
+
+Each handle nevertheless received one fresh search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **47 × 4 = 188 required search invocations**.
+Prior-external-first comparison reuses all 47 Family-103 handles; later Families 113–130 and
+accepted lower-limb Families 39–48 further corroborate scope without changing authority or
+concept state. Reconciliation is **47 prior-external reuses + 0 external additions = 47**;
+eligible and external concept-state deltas are zero. Exact query and result ledgers are
+preserved at `tmp/pdfs/lcs103-family131/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family131/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. Because the visible content is
+a re-encoded Family-103 copy, the external-bank checkpoint remains **5,683 external prompts /
+5,417 source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Copy-collapse arithmetic is `5,683 + 0 = 5,683`, `5,417 + 0 = 5,417`,
+`221 + 0 = 221`, and `12 + 135 + 74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta from this copy is zero.
+
+This source hash occurs once in the Family-130 remainder. Removing its sole path leaves **99
+all-rank path instances / 94 unique hashes**: tier 3 **17 paths / 17 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 130's prior checksums are
+`75531f31e8812783d1d02e8078a850e6a585da3d6bce9923db708bac6ddf8dd4` (paths) and
+`aac022db193a321cb7c753c2dfc75887f8d0e96c4894d492e953aaaa6f292e5d` (unique hashes).
+For the exact post-Family-131 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0db1dc5fdfda80c3834b0cf9181e59140f07b6b2b93beb6c11fdf619b7570d69`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`67395d2f8a78b095b8057570c387156f67684fcb0f3e6df7db254cc6a09cfea8`.
+
+The exact next tier-3 manifest-order debt is `src_119952df5f84c766dbb3`,
+`MCQs - External MCQs Mcq Head & neck الزقازيق.pdf` (6,964,704 bytes; 42 physical
+pages; SHA-256 `119952df5f84c766dbb3078754c6f668ef333121d6b18743c73a9b1127b50e54`).
+It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 99 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
