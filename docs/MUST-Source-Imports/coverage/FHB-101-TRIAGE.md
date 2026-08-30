@@ -4142,3 +4142,56 @@ Removing this one substantive-text path and unique hash leaves **59 selected inv
 The next evidence-ranked substantive source is the single 16-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histo FHB101 Exam Night Questions & Notes.pdf`, SHA-256 `2f57b61e7071d6e87a5ae7a0464cbae2ab7d2cef7f12941420473966fd89aa58`.
 
 **BLOCKED — S1 cannot be approved:** 59 selected source paths remain untriaged.
+
+## Completed source — Histo FHB101 Exam Night Questions & Notes
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histo FHB101 Exam Night Questions & Notes.pdf` | `2f57b61e7071d6e87a5ae7a0464cbae2ab7d2cef7f12941420473966fd89aa58` | 16 | substantive-text | pages 1–16 rendered and read | Local Dr Mohamed Ezz exam-night revision slides. They print no institution, sitting, marks, department approval or official-paper/key claim. |
+
+### Exact assessment, answer and teaching boundary
+
+Each page prints exactly one MCQ and one blue-underlined selected option, giving **16 complete prompt occurrences / 16 directly visible marked-answer occurrences**. Page 16 additionally prints `General Note (Not related to the question)` followed by autophagy notes and an `Other Important Topics` list. That explicitly separated material has no response form and is teaching/revision content, not additional assessment prompts or answers. There are no unmarked MCQs and no answer was inferred or corrected.
+
+The marked letter ledger is retained as:
+
+```text
+Q1–Q16: B A E B D C D A D C B D C C D D
+```
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 16 prompts are assigned exactly once to ten source handles. Every handle received the four searches printed below, for **10 × 4 = 40 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1 | Taste-bud neuroepithelium (`taste bud neuroepithelium`; `sensory epithelium taste buds`; `neuroepithelial tissue`; `taste receptor supporting cells`) | new externally; exact prior-FHB duplicate. |
+| Q2,Q14 | Junctional-complex membership and pemphigus-related adhesion (`junctional complex epithelium`; `gap junction junctional complex`; `pemphigus desmosome`; `epithelial adhesion blister`) | pending-hit; exact prior-FHB duplicate. |
+| Q3 | Permanent/non-renewing nerve cells after cerebral injury (`non renewing nerve cells`; `permanent cells neurons`; `cerebral injury neuron regeneration`; `nerve cell G0`) | pending-hit; exact prior-FHB renewal-family duplicate. |
+| Q4 | Biosynthetic source of peroxisomal enzymes (`peroxisomal enzyme synthesis`; `peroxisomal proteins free ribosomes`; `peroxisome biogenesis proteins`; `peroxisomal enzyme ribosome`) | new externally; prior FHB owns peroxisomal function/deficiency, not biosynthetic origin — **new addition**. |
+| Q5,Q7 | Mitosis outcome and G2 repair (`mitosis daughter chromosome number`; `mitosis outcome diploid`; `G2 DNA repair`; `cell cycle replication errors`) | new externally; exact prior-FHB mitosis/cell-cycle duplicate. |
+| Q6 | Human chromosome classification and absent telocentric form (`telocentric chromosomes humans`; `human chromosome centromere classification`; `metacentric submetacentric acrocentric`; `telocentric chromosome absent`) | new externally; exact prior-FHB duplicate. |
+| Q8–Q9,Q16 | Barr-body counts, multiple-X and Klinefelter syndromes (`Barr body multiple X`; `Klinefelter nondisjunction`; `69 XXXX Barr bodies`; `sex chromosome aneuploidy`) | pending-hit; exact prior-FHB duplicate. |
+| Q10,Q12–Q13 | Transitional and stratified epithelial morphology/sites (`transitional epithelium dome cells`; `stratified squamous epithelium skin`; `epithelium superficial flat cells`; `urothelium urinary bladder`) | new externally; exact prior-FHB duplicate. |
+| Q11 | Holocrine sebaceous secretion (`sebaceous gland holocrine`; `holocrine cell destruction`; `glandular epithelium secretion mode`; `sebaceous secretion mechanism`) | new externally; exact prior-FHB duplicate. |
+| Q15 | Immunohistochemical identification of cytoskeletal components (`cytoskeleton immunohistochemistry`; `intermediate filament fluorescent microscopy`; `cytoskeletal protein identification`; `immunocytochemistry cytoskeleton`) | pending-hit; exact prior-FHB intermediate-filament/tumour-typing reuse. |
+
+The source-level search result is **0 live / 4 pending / 6 new = 10 handles**. Nine handles are exact prior-FHB reuse. Only peroxisomal-enzyme biosynthesis survives, giving **0 live / 0 pending / 1 new** after prior-FHB deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+16 questions / +16 visibly marked answers / +1 concept = +0 live / +0 pending / +1 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3385 | 3119 | 446 | 66 | 84 | 296 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 84 + 296 = 446`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **58 selected inventory paths / 56 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `5262ecc4f37e20c6cf2038384b75c0b333f93df4237720bf361c840099a83ae0`. Pinned triage debt becomes **15 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`50 + 56 = 106`**.
+
+The next evidence-ranked substantive source is the single 16-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology fhb101-1 mcq important.pdf`, SHA-256 `8a64d8e0f81611aeeb3797c0c3d332c749c28505893e974d35e4e1d6712dcb6b`.
+
+**BLOCKED — S1 cannot be approved:** 58 selected source paths remain untriaged.
