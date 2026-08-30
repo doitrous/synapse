@@ -18545,3 +18545,96 @@ manifest record is tier-3 source `src_4954ce2cf6d26c70bbf5` · `MCQs - Patho MCQ
 Its visible Dr Tarek/patholosis provenance, Kasr-Alainy origin hint, unsolved prompt boundary,
 solved-companion relation, external eligibility, zero/search gate, arithmetic, and subsequent
 next-source debt remain to be separately reconciled.
+
+## Family 176 — Kasr-hinted unkeyed Dr Tarek cell-injury MCQ carrier
+
+### Source identity, complete native/rendered boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_4954ce2cf6d26c70bbf5` · `MCQs - Patho MCQ by Dr.Tarek [108].pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `4954ce2cf6d26c70bbf5ce73a0b36233486049272f0080195012e56c69e190fa` · **111,758 bytes** |
+| Format / complete visual boundary | **Five native-text portrait US-letter pages** at 612×792 pt. All five pages were rendered at 200 dpi into five non-empty 1700×2200 images and read at original detail. They contain one continuous MCQ sequence Q1–Q28; there is no cover, divider, blank page, answer sheet, image, or hidden page. |
+| Native-text reality | Layout and raw extraction each contain **846 words**, respectively **6,271 / 5,454 bytes**. Both preserve the 28 stems, options, page breaks, repeated header, and unmarked answer state and agree with the renders. The manifest's `native` label is accurate. |
+| Visible identity | Every page visibly carries `PATHOLOSIS`, `QUESTIONS`, `Dr. TAREK`, and the diagonal `PATHOLOSIS` watermark. No university, faculty, module code, academic year, sitting, exam label, marks, candidate field, official-key statement, or Helwan identifier is visible. |
+| Metadata caution | Metadata title is `patholosis questions`, author is `tarek`, creator is Microsoft Word 2010, producer is iOS 15.4.1 Quartz PDFContext, and creation/modification timestamp is 5 June 2022. These fields establish export history only, not university authority, a sitting, or a key. |
+| Controlling external provenance | The manifest explicitly records `originUniversityHint: ["Kasr Alainy"]`; `[108]` is retained as a filename/module label. With no visible Helwan counterevidence, the established post-Family-10 external-origin rule controls. Folder placement and Dr Tarek branding alone cannot convert the carrier to Helwan assessment evidence. |
+| Authority / eligibility | External-origin-hinted question bank. It is indexed for provenance and prompt-format evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Complete prompt, key, repeat, anomaly, and practical boundary
+
+The complete source-local assessment layer is **28 numbered text MCQs and 0 source-supplied
+answers**. Page 1 carries Q1–Q8, with Q8's options continuing onto page 2; page 2 carries Q9–Q15,
+with Q15's final options continuing onto page 3; page 3 carries Q16–Q21, with Q21's final options
+continuing onto page 4; page 4 carries Q22–Q27, with Q27's final options continuing onto page 5;
+and page 5 completes Q27 and carries Q28. Page transitions do not create additional prompts.
+
+All questions concern reversible/irreversible injury, apoptosis, and necrosis. The raw sequence
+contains exact copy pairs **Q9→Q14** and **Q17→Q18**. It also visibly repeats closely equivalent
+tested propositions in Q8/Q22 (enzymatic fat necrosis), Q19/Q26 (caseous necrosis exception),
+Q20/Q27 (liquefactive necrosis site), and Q21/Q28 (karyorrhexis meaning). These occurrence-level
+relations are preserved, but no eligible semantic-collapse ledger is created after the external
+authority gate.
+
+No option is bolded, highlighted, checked, underlined, circled, or otherwise marked as an answer.
+The header's `QUESTIONS` label therefore describes an **unkeyed** bank. Source anomalies are
+retained: Q16 skips option letter `d` and uses `e` for its fourth option; Q19 begins with a doubled
+period; `apoptic`, `bel2`, `cheasy`, `liqufiective`, `karyohexis`, and similar spellings remain
+source evidence rather than silently corrected text.
+
+There are **0 written operations, 0 images, 0 drawing tasks, 0 practical stations, 0 candidate
+responses, and 0 answer/key residues**. The five-page checksum is `28 numbered MCQs + 0 answers +
+0 non-question content pages`, with every split stem/option assigned once.
+
+### Paired solved-carrier relationship
+
+The manifest pairs this object with exact-next source `src_aeaf894072d90a35c1b0` · `MCQs - Patho
+MCQ by Dr.Tarek with answers [108].pdf`. The paired carrier is a distinct **12-page raster A4 PDF**,
+SHA-256 `aeaf894072d90a35c1b0231e830cfe45ec41577077b65ad01041dda105c8bf24`, size **1,004,429
+bytes**. Its first five pages reproduce this carrier's Q1–Q28 prompt layer and add pink highlighted
+answer selections; its remaining seven pages continue with additional pathology question scope.
+Thus Family 176 preserves **28 unkeyed occurrences**. It neither imports the companion's answers
+early nor treats the larger companion as byte-, page-, or scope-identical.
+
+### External-authority zero-handle, zero-search, and prior-dedupe gate
+
+Eligibility is resolved before prompt retention. Consequently the 28 external questions yield
+**0 eligible prompts / 0 answers / 0 retained records / 0 accepted handles / 0 prior-BMS reuse
+assignments / +0 concepts**. The internal repeats and overlaps with earlier cell-injury and
+PATHOLOSIS families remain source-local evidence only.
+
+Exactly four searches are required only for accepted handles. The governed gate is **`0 accepted
+new handles × 4 = 0 required and completed searches`**. Running searches for excluded prompts
+would fabricate Helwan recurrence state and cannot change the source's authority.
+
+### Family-176 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 176 source-local | Eligible delta | Auxiliary cumulative (Families 12–176) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 28 MCQs | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 0 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | external source | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-176 eligible arithmetic is independently zero: `0 prompts + 0 answers + 0 retained + 0
+handles + 0 concepts`. Corrected primary remains **762 / 405 / 552 / 372**; auxiliary remains
+**2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles / +906 concepts**; and corrected
+all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 176 establishes no Helwan question occurrence, key, tested concept, sitting, recurrence,
+mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 176
+
+`src_4954ce2cf6d26c70bbf5` is exhausted across all five pages: every stem, option, page-spanning
+continuation, exact/near repeat, spelling/numbering anomaly, absent-answer state, visible and
+metadata provenance field, companion relation, eligibility zero, and cumulative term is assigned
+once, with **zero remainder** and no Family-176 blocker. The exact next manifest record is tier-3
+solved companion `src_aeaf894072d90a35c1b0` · `MCQs - Patho MCQ by Dr.Tarek with answers
+[108].pdf`, SHA-256 `aeaf894072d90a35c1b0231e830cfe45ec41577077b65ad01041dda105c8bf24`,
+**1,004,429 bytes**, 12 OCR-needed portrait A4 pages under `Pathology / Questions / MCQs`. Its full
+render/OCR boundary, Q1–Q28 replay, highlighted-answer directionality, additional seven-page
+scope, Kasr-Alainy origin hint, external zero gate, arithmetic, and subsequent next-source debt
+remain to be separately reconciled.
