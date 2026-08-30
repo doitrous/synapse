@@ -4672,3 +4672,55 @@ Removing all three empty-text inventory paths and their one shared unique hash l
 The next evidence-ranked source is the single empty-text 46-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - MCQ Epithelium.pdf`, SHA-256 `6789f9c206abb44eb1cbbac5ffea20c0b0a052732c9569bca7a54ca407840618`.
 
 **BLOCKED — S1 cannot be approved:** 49 selected source paths remain untriaged.
+
+## Completed source — MCQ Epithelium
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - MCQ Epithelium.pdf` | `6789f9c206abb44eb1cbbac5ffea20c0b0a052732c9569bca7a54ca407840618` | 46 | empty-text | pages 1–46 rendered and read | Locally stored answered Epithelium PowerPoint deck. PDF metadata names author Alaa Mohamed Ali Abo El-Ella; every slide bears `Dr. Iman Nabil`, and some source figures credit Prof. Ayman Ghallab. It prints no institution, department approval, exam sitting, marks or official-paper/key claim. |
+
+### Exact prompt, answer and teaching boundary
+
+The deck contains four reset-numbered MCQ sequences of `5 + 5 + 5 + 8 = 23` prompts. Every question slide is immediately followed by a duplicate reveal-state slide carrying the same stem, options and figure plus one large printed answer number. The reveal slide is the matched key for the preceding prompt, not a second assessment occurrence. There are no cover, instruction or teaching-only pages.
+
+The exact inventory is therefore **23 prompt occurrences / 23 directly printed answer occurrences / 23 prompt-matched recovered answers**. All answer numbers are source evidence; none was inferred or medically corrected.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+`I`–`IV` identify the four reset-numbered sequences. All 23 prompts are assigned exactly once to 13 source handles. Every handle received the four identifying searches printed below, for **13 × 4 = 52 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| I1–I4; II1–II2 | Simple-columnar, pseudostratified, stratified-squamous and transitional epithelia: image recognition, functions and sites (`epithelial type image recognition`; `gall bladder simple columnar`; `epididymis pseudostratified stereocilia`; `transitional epithelium volume change`) | pending-hit; exact prior-FHB epithelial-type/site duplicate. |
+| I5 | General epithelial renewal, cellularity, junctions and avascular nutrition (`epithelium avascular characteristics`; `epithelial renewal`; `minimal intercellular space epithelium`; `epithelial nutrition diffusion`) | new externally; exact prior-FHB general-epithelium duplicate. |
+| II3; III2 | Goblet-cell mucous secretion and unicellular merocrine classification (`goblet cell unicellular gland`; `goblet cell merocrine`; `goblet cell mucous secretion`; `goblet cell ultrastructure`) | new externally; exact prior-FHB glandular-epithelium duplicate. |
+| II4; III1 | Holocrine/merocrine secretion and simple-alveolar gland architecture (`sebaceous gland holocrine`; `simple alveolar gland`; `merocrine gland exocytosis`; `exocrine gland architecture`) | pending-hit; exact prior-FHB gland-architecture/secretion duplicate. |
+| II5 | Myoepithelial-cell location, staining and contractile filaments (`myoepithelial cell actin myosin`; `myoepithelial cell gland acini`; `myoepithelial cell histology`; `myoepithelial cell cytoplasm`) | new externally; exact prior-FHB specialised epithelial-cell duplicate. |
+| III3; IV2 | Cilia, microvilli and stereocilia ultrastructural distinctions (`cilia microvilli cross section`; `stereocilia hairlike projection`; `microvilli actin core`; `cilia motile microtubules`) | pending-hit; exact prior-FHB surface-specialisation duplicate. |
+| III4 | Basal infoldings and mitochondria in ion-transporting kidney-tubule cells (`basal infoldings kidney tubules`; `basal striations mitochondria`; `ion transporting epithelial cell`; `kidney tubule basal labyrinth`) | new externally; exact prior-FHB basal-specialisation duplicate. |
+| III5; IV1 | Apical projections, plasma-membrane covering and absorptive surface area (`microvilli absorption surface area`; `apical projections plasma membrane`; `brush border ultrastructure`; `microvillus terminal web`) | new externally; exact prior-FHB apical-specialisation duplicate. |
+| IV3 | Calcium-dependent adherens and desmosomal junctions (`calcium chelation adherens junction`; `cadherin calcium dependent`; `desmosome calcium chelator`; `junction complex calcium`) | new externally; exact prior-FHB junction-mechanism duplicate. |
+| IV4 | Gap/nexus junction structure and communication (`gap junction connexon`; `nexus communication junction`; `gap junction intercellular space`; `gap junction ions molecules`) | live-hit; exact prior-FHB gap-junction duplicate. |
+| IV5 | Tight-junction sealing of intercellular space (`tight junction seals intercellular space`; `zonula occludens barrier`; `claudin occludin junction`; `junctional complex tight junction`) | new externally; exact prior-FHB tight-junction duplicate. |
+| IV6–IV7 | Desmosomal mechanical stability versus belt-like zonula adherens (`desmosome stretch force`; `desmosome mechanical stability`; `zonula adherens belt`; `desmosome adherens junction difference`) | pending-hit; exact prior-FHB adhesion-junction duplicate. |
+| IV8 | Hemidesmosomal integrin-mediated cell-to-matrix attachment (`hemidesmosome integrin`; `hemidesmosome intermediate filaments`; `cell basement membrane adhesion`; `hemidesmosome histology`) | new externally; exact prior-FHB hemidesmosome duplicate. |
+
+The source-level search result is **1 live / 4 pending / 8 new = 13 handles**. Every handle is exact reuse of already processed FHB epithelium scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+23 questions / +23 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4490 | 4209 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **48 selected inventory paths / 48 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `d2e1322293e049a48c6f92b3ca3bc26dcac22ebc1d9764e8d7b661eb9cda1210`. Pinned triage debt becomes **nine substantive-text / six sparse-text / 33 empty-text** rows, and unique-hash accounting is **`58 + 48 = 106`**.
+
+The next evidence-ranked source family is the paired five-page Anatomy `05 MCQs` question/answer set `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - Important Ques Embryology 2.pdf`, SHA-256 `f968cf5a23f4fb2dca711ffe0abedbe3d94f7289ce3e3dc774d967c3fd5861a7`, and `MCQs - Important Ques Embryology 2 (Answers).pdf`, SHA-256 `c0f79eb94816582bfe81bd9fa724ba8b524a82a99ae6aba6bb3f4bf8a11a45ad`.
+
+**BLOCKED — S1 cannot be approved:** 48 selected source paths remain untriaged.
