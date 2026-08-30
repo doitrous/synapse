@@ -3517,3 +3517,115 @@ Histology(Cytogenetics part)_BenAhmed_Publish.pdf`, SHA-256
 `220b2abe681b34636c9f888ec2bdf54ec743a0f1328abcc3ef8304de69945664`.
 
 **BLOCKED — S1 cannot be approved:** 67 selected source paths remain untriaged.
+
+## Completed source — MCQs - FHB 101 Histology(Cytogenetics part)_BenAhmed_Publish
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - FHB 101 Histology(Cytogenetics part)_BenAhmed_Publish.pdf` | `220b2abe681b34636c9f888ec2bdf54ec743a0f1328abcc3ef8304de69945664` | 48 | substantive-text | pages 1–48 rendered and read | Local 2024/2025 Mucize Team supplementary study bank led by Youssef BenAhmed and naming Jana Mohamed and Ahmed Salama as content reviewers. Its own disclaimer directs students to official academic resources and faculty guidance; it makes no official-paper, department-key, sitting or marks claim. |
+
+### Visual assessment and answer boundary
+
+Pages 1–4 are cover, contributors, disclaimer and index only. Pages 5–29 contain four Basic-MCQ
+sequences: 30 chromosome/karyotype, 20 cell-cycle, 40 cell-division and 35 chromosomal-
+aberration prompts. Pages 30–35 contain 25 Kasr MCQs/cases plus two five-row matching tables.
+Pages 36–41 contain 30 Kandel MCQs; page 42 is their answer table plus an explanation of Kandel
+Q21, not an extra prompt. Pages 43–45 contain 20 short-essay prompts and pages 46–48 their 20
+model answers, not additional assessment prompts.
+
+The exact visual inventory is therefore **210 complete prompt occurrences / 210 directly
+printed answer occurrences**: `125 + 25 + 10 + 30 + 20 = 210`. Every basic MCQ has a five-item
+footer key, the Kasr and Kandel sequences have complete answer tables, both matching tables
+have complete matching keys, and every essay has a numbered model answer. No answer was
+inferred, corrected or supplied from another source. The Kandel-Q21 explanation is retained as
+answer commentary even though it internally calls answer `B` incorrect before defending other
+options; the printed answer table's `B` remains the key claim.
+
+The complete ordered letter ledger is:
+
+```text
+Basic chromosome Q1–Q30: A B A B B | B C A A D | B A C D C | B B B C C | E A B B C | A A A B D
+Basic cell cycle Q1–Q20: B A C C B | C D B D D | B C B D B | C C B B C
+Basic cell division Q1–Q40: C A C A A | A B A D B | D B A A B | C D D A B | A C A B D | A D C C A | B A B A B | B A A B A
+Basic aberrations Q1–Q35: C C B A A | A A A C B | A C D A A | B C C D D | C B A C C | D A C B C | A D A D D
+Kasr Q1–Q25: B B A C A | D C C B A | B B A A B | D A B A A | D B B D A
+Kasr matching table 1 rows 1–5: B G A E C
+Kasr matching table 2 rows 1–5: D G F E A
+Kandel Q1–Q30: B A A C C | A B D A D | A B D C C | A C B D C | B C B A B | A D B B B
+Short essays Q1–Q20: twenty numbered prose model answers on pages 46–48
+```
+
+### Source-first assignment, four-search replay, and prior-FHB ledger
+
+`C`, `Y`, `D`, `A`, `K`, `KM1`, `KM2`, `N`, and `E` respectively identify the basic
+chromosome, cell-cycle, cell-division, aberration, Kasr, Kasr matching-table 1, Kasr
+matching-table 2, Kandel, and essay sequences. Every handle below received exactly the four
+manual live-and-pending searches printed in parentheses.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | Exact-scope disposition |
+|---|---|---|
+| C1 | Chromatin packaging and nucleosomes (`nucleosome chromatin basic unit`; `chromatin histone DNA`; `chromatin organization nucleosome`; `DNA wrapped histones`) | new; no exact prior-FHB nucleosome assignment — new addition. |
+| C2 | Euchromatin and heterochromatin (`euchromatin heterochromatin`; `active chromatin`; `transcriptionally inactive chromatin`; `chromatin condensation`) | new externally; exact prior-FHB euchromatin/heterochromatin reuse — duplicate. |
+| C3–C5; N19 | Homologous chromosomes and ploidy (`homologous chromosomes`; `diploid 23 pairs`; `haploid germ cells`; `human chromosome complement`) | pending-hit; exact prior-FHB haploid/diploid complement reuse — duplicate. |
+| C6 | Replicated chromosome and chromatids (`two identical chromatids centromere`; `d chromosome chromatids`; `replicated chromosome structure`; `sister chromatids joined`) | new externally; exact prior-FHB human-chromosome terminology reuse — duplicate. |
+| C7–C10; N24; E11 | Centromere position and chromosome arms (`metacentric submetacentric acrocentric`; `centromere chromosome classification`; `p arm q arm`; `telocentric chromosome`) | new externally; exact prior-FHB centromere-position classification reuse — duplicate. |
+| C11; Y5; D4–D5,D8; K1,K7; N4; E12,E18 | Kinetochore, centriole and spindle apparatus (`kinetochore spindle fibers`; `centriole duplication S phase`; `microtubule spindle chromosome`; `colchicine metaphase arrest`) | new externally; exact prior-FHB chromosome-terminology, centriole and mitotic-spindle reuse — duplicate. |
+| C12; N22; E6 | Genes and chromosomal loci (`gene locus chromosome`; `DNA segment codes protein`; `chromosomal locus`; `gene position chromosome`) | new externally; exact prior-FHB human-chromosome terminology reuse — duplicate. |
+| C13; N23; E19 | Telomere protection and ageing (`telomere chromosome end`; `telomere aging`; `chromosome end protection`; `telomere shortening cell division`) | new externally; exact prior-FHB telomere/end-protection and ageing reuse — duplicate. |
+| C14–C18,C20; K11; N12; E10 | Barr body and X inactivation (`Barr body sex chromatin`; `inactive X chromosome`; `Barr body number X chromosomes`; `female somatic cell sex chromatin`) | new externally; exact prior-FHB Barr-body reuse — duplicate. |
+| C19,C21 | Barr-body forensic sex determination (`Barr body sex determination`; `sex chromatin medicolegal`; `buccal smear sex determination`; `Barr body sports forensic`) | new; no exact prior-FHB medico-legal/application assignment — new addition. |
+| C22–C26,C28–C29; K8; N5 | Karyotype preparation and arrangement (`karyotype preparation metaphase`; `Giemsa chromosome staining`; `homologous chromosome pairing karyotype`; `colchicine karyotyping`) | new; prior FHB owns clinical use but not the printed preparation/staining workflow — new addition. |
+| C27,C30; E8 | Clinical uses of karyotyping (`karyotyping clinical use`; `chromosomal examination diagnosis`; `karyotype genetic disorder`; `prenatal diagnosis karyotype`) | new externally; exact prior-FHB clinical chromosomal-examination reuse — duplicate. |
+| Y1–Y4,Y6–Y8; K9; KM2-5; N13–N15; E3 | Cell cycle, interphase and checkpoints (`cell cycle G1 S G2`; `interphase checkpoints`; `DNA replication S phase`; `G2 replication error`) | new externally; exact prior-FHB interphase/cell-cycle reuse — duplicate. |
+| Y9–Y11; K3–K4; N2; E7 | Cell-renewal classification (`continuously renewing cells`; `potentially renewable cells`; `non renewing cells`; `labile stable permanent cells`) | pending-hit; exact prior-FHB renewal-capacity reuse — duplicate. |
+| Y12,Y15; K5; N3; E4 | Stem-cell potency (`pluripotent stem cell`; `unipotent stem cell`; `stem cell potency`; `stem cell differentiation potential`) | live-hit; exact prior-FHB pluripotent/unipotent reuse — duplicate. |
+| Y13–Y14,Y16–Y20; K6; N8,N16; E2 | Necrosis, apoptosis and nuclear changes (`necrosis apoptosis`; `pyknosis karyorrhexis karyolysis`; `programmed cell death`; `nuclear changes cell death`) | pending-hit; exact prior-FHB comparison including nuclear changes — duplicate. |
+| D1–D3,D6–D7,D9–D10; KM2-1–KM2-4; N17–N18; E1 | Mitosis stages and cytokinesis (`mitosis stages`; `prophase metaphase anaphase telophase`; `mitotic cytokinesis`; `cleavage furrow actin`) | new externally; exact prior-FHB mitosis-stage reuse — duplicate. |
+| D11–D14,D18–D30; N21 | Meiosis stages and reduction division (`meiosis stages`; `prophase I stages`; `meiosis I meiosis II`; `reduction division gametes`) | new externally; exact prior-FHB meiosis-stage/reduction-division reuse — duplicate. |
+| D15–D17; N20; E5 | Crossing over and chiasmata (`crossing over pachytene`; `chiasmata meiosis`; `genetic recombination meiosis`; `homologous chromosome crossing over`) | new externally; exact prior-FHB meiotic-crossing-over reuse — duplicate. |
+| D31–D40; K2; N1 | Mitosis versus meiosis (`mitosis versus meiosis`; `mitosis meiosis comparison`; `somatic germ cell division`; `daughter cells mitosis meiosis`) | pending-hit; exact prior-FHB comparison reuse — duplicate. |
+| A1–A6,A20,A35; E15 | Causes and consequences of chromosome aberrations (`causes chromosomal aberrations`; `radiation chemical viral chromosome damage`; `chromosomal mutations cancer`; `chromosomal abnormality health effects`) | new; prior FHB owns causes, but not this printed carcinogenesis/health-consequence expansion — new addition. |
+| A7–A10,A13,A18,A21; KM1-5; N26; E13 | Nondisjunction, anaphase lag and mosaicism (`nondisjunction anaphase lag`; `mosaicism chromosome`; `aneuploidy mechanism`; `primary nondisjunction`) | new externally; exact prior-FHB aneuploidy-mechanism reuse — duplicate. |
+| A11–A12,A14,A16,A19; N25 | Euploidy and aneuploidy (`euploidy aneuploidy`; `polyploidy monosomy trisomy`; `numerical chromosome aberration`; `haploid set chromosome abnormality`) | new externally; exact prior-FHB euploidy/aneuploidy reuse — duplicate. |
+| A15,A17; K12,K16–K24; KM1-1–KM1-3; N7,N9–N10,N29; E17 | Chromosome syndromes and phenotype (`Turner Klinefelter Down syndrome`; `trisomy 21 phenotype`; `triple X syndrome`; `sex chromosome aneuploidy`) | pending-hit; exact prior-FHB Down and sex-chromosome-aneuploidy reuse — duplicate. |
+| A22–A29,A34; K14–K15; KM1-4; N27–N28,N30; E14,E16 | Structural chromosome-aberration types (`deletion inversion duplication chromosome`; `ring chromosome isochromosome`; `structural chromosomal aberrations`; `chromosome segment rearrangement`) | pending-hit; exact prior-FHB structural-aberration reuse — duplicate. |
+| K10,K13,K25; N6,N11; E9 | Balanced translocation and Philadelphia chromosome (`reciprocal translocation balanced`; `Philadelphia chromosome CML`; `chromosome 9 22 translocation`; `Robertsonian translocation Down syndrome`) | new; no exact prior-FHB balance/Philadelphia/CML assignment — new addition. |
+| A30–A33 | FISH technique and fluorescence microscopy (`fluorescence in situ hybridization`; `FISH chromosome probes`; `fluorescence microscopy chromosomal abnormalities`; `DNA probe chromosome diagnosis`) | new externally; exact prior-FHB FISH assignment — duplicate. |
+| E20 | Chromatin remodelling, gene regulation and disease (`chromatin remodeling gene expression`; `chromatin organization cancer`; `nucleosome remodeling disease`; `chromatin gene regulation`) | new; no exact prior-FHB gene-regulation/disease assignment — new addition. |
+
+All **210 prompt occurrences** are assigned exactly once. They collapse source-first to **28
+handles**, and the query ledger reconciles as **28 × 4 = 112 required searches**. Current
+source disposition is **1 live / 6 pending / 21 new = 28**.
+
+Twenty-two handles exactly reuse prior-FHB scope. Six survive, all externally new: nucleosome
+packaging; Barr-body medico-legal sex determination; the karyotype preparation/staining
+workflow; chromosome-aberration carcinogenesis/health consequences; balanced/Philadelphia
+translocations; and chromatin remodelling in gene regulation/disease. The post-prior-FHB result
+is therefore **0 live / 0 pending / 6 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+210
+questions / +210 directly printed answers / +6 concepts = +0 live / +0 pending / +6 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 2132 | 1868 | 402 | 66 | 79 | 257 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 79 + 257 = 402`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **66 selected
+inventory paths / 64 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`1de118180d747d827ceba7e6e12b5e264b131a1d651628ca3c0fd94ae65ad744`. Pinned triage debt
+becomes **23 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`42 + 64 = 106`**.
+
+The next evidence-ranked substantive source is the single 98-page Histology `05 MCQs` path
+`Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - FHB 101 Histology_BenAhmed.pdf`,
+SHA-256 `6ea8ad8bf30d8191cb7aa1d1a073efa5c5e8832a9182c96264db8fe8a1622af6`.
+
+**BLOCKED — S1 cannot be approved:** 66 selected source paths remain untriaged.
