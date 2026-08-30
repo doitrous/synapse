@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The seventy-three completed read-only source hashes cover seventy-five selected inventory paths, represent fifty-one distinct prompt families and yield **6696 questions / 6506 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 6-page `Histology MSK101-1 Midterm training.pdf` file, SHA-256 `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`, is byte-identical to `_Exact Duplicates/.../Histo midterm night exercises 2026 answers.pdf`; the single hash therefore consumes two inventory paths. Each carrier contains **35 conventional MCQs / 0 printed answers / 0 written / 0 practical or image-identification / 35 source-unkeyed prompts**. Their extracted text exactly matches the completed highlighted and annotated `Histo midterm night exercises 2026.pdf` sibling, whose visual marks already supplied all 35 answers. Exact-duplicate and sibling collapse therefore contributes **+0 questions / +0 answers / +0 concepts**. The 2025 Word metadata supports a student training compilation, not authenticated MUST/MSK assessment authority. No genuinely new handle survives; the exactly-four-search gate resolves to **0 new handles × 4 = 0 new searches**, reusing the prior connective-tissue family's **5 handles / 20 searches**.
+The seventy-four completed read-only source hashes cover seventy-six selected inventory paths, represent fifty-two distinct prompt families and yield **6762 questions / 6572 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 22-page `Histology MSK101-1 Training Questions.pdf`, SHA-256 `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`, contains **87 conventional MCQs / 87 handwritten answer observations / 0 written / 0 practical or image-identification / 0 teaching-only / 0 unkeyed prompts** across three blocks of 26, 45 and 16. The terminal sixteen-question block is a normalized sibling of the completed `Exercise questions of the last lecture` sequence, and first-block Q1-Q5 rephrase its completed five-scenario opening sequence. Those twenty-one observations collapse; the remaining sixty-six printed occurrences contribute **+66 questions / +66 answers / +0 concepts**. The unattributed annotations and absent institutional or assessment metadata support a student training compilation, not authenticated MUST/MSK examination or faculty-key authority. No genuinely new handle survives; the exactly-four-search gate resolves to **0 new handles × 4 = 0 new searches**, reusing the prior connective-tissue family's **5 handles / 20 searches**.
 
-Latest processed family hash: `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`.
+Latest processed family hash: `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`.
 
-Recent processed family hash retained for reconciliation: `4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece`.
+Recent processed family hash retained for reconciliation: `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`.
 
 Earlier processed family hash retained for reconciliation: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
 
@@ -48,8 +48,10 @@ Current normalized-sibling family append: `4584906836551c4b0b692fa5d4b0aad8494f0
 
 Current exact-duplicate/two-path sibling family append: `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`.
 
-Removing them leaves **28 inventory paths / 28 unique SHA-256s**, checksum `046657ac8836774ad6fa7f0797c15bdf018c3b0dd563a4a29dce860798364ec7`. The pinned remaining audit-review debt is 4 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current processed-family append: `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Training Questions.pdf`, SHA-256 `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`, 22 pages.
+Removing them leaves **27 inventory paths / 27 unique SHA-256s**, checksum `ed7565525af5016372d837a043935343216d6d79c93d206453fb5683dbc48c42`. The pinned remaining audit-review debt is 3 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 28 selected inventory paths / 28 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology_MSK_Clinical_Applications_By_Mohamed_Eissa_Midterm.pdf`, SHA-256 `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 27 selected inventory paths / 27 unique hashes remain untriaged.

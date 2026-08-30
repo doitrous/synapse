@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "37db16021e557caec7e1ddfe40ae6d27d7a7f5677708fcd1dfda739741f2ad22",
-    "triageMarkdown": "779a6b77f56339fa14181aea9f2f2c1f45f97fd8aff556e6f290e160492cb023"
+    "readinessMarkdown": "082936a5afbc530a2e3dc4e2d81f430a4e6931377a203370419e74025de2b6d6",
+    "triageMarkdown": "0471cb28321b543388a8b045e7124c9912dda9cccb44782b6e33f3fb014ca3c2"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -52,6 +52,7 @@
   "processedFamilies": {
     "sha256": [
       "000e8e77fc82ffc6d211870fa3f07cb0fcc334a3b9b64c8596f445670f996e4f",
+      "0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a",
       "0856251edfee586c1b993f1898529f765d033c498cb03fd0fcff2f3b9ce2b6f7",
       "0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a",
       "12bb34d47ef4f248cd224da7063e493d07ab6990e5b6b87455872d9bccd8eb6a",
@@ -125,7 +126,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 73
+    "uniqueSha256": 74
   },
   "completedSourceCoverage": [
     {
@@ -2307,37 +2308,99 @@
         "numbering restarts at Q1 for the second sixteen-question block",
         "source spelling, numbering and option-label defects remain uncorrected"
       ]
+    },
+    {
+      "sha256": "0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a",
+      "sourcePages": 22,
+      "renderedReadPages": "1-22",
+      "questionAndHandwrittenAnswerPages": "1-22",
+      "printedPromptObservations": 87,
+      "objectiveMcqPrompts": 87,
+      "printedKeyObservations": 87,
+      "handwrittenAnswerObservations": 87,
+      "officialFacultyKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "assessmentBlocks": [
+        {
+          "pages": "1-7",
+          "prompts": 26,
+          "answers": 26
+        },
+        {
+          "pages": "7-18",
+          "prompts": 45,
+          "answers": 45
+        },
+        {
+          "pages": "18-22",
+          "prompts": 16,
+          "answers": 16,
+          "normalizedPromptSequenceSiblingOf": "1f8f6e6fce4d4bf68951c22b18ac702032f3e201f3c665d7c381cb0698e26e76",
+          "familyQuestionDelta": 0,
+          "familyAnswerDelta": 0
+        }
+      ],
+      "firstBlockSiblingOverlap": {
+        "prompts": "Q1-Q5",
+        "siblingPromptRange": "Q1-Q5",
+        "siblingSha256": "1f8f6e6fce4d4bf68951c22b18ac702032f3e201f3c665d7c381cb0698e26e76",
+        "promptObservations": 5,
+        "answerObservations": 5,
+        "familyQuestionDelta": 0,
+        "familyAnswerDelta": 0
+      },
+      "familyQuestionDelta": 66,
+      "familyAnswerDelta": 66,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceConnectiveTissueAcceptedSourceHandles": 5,
+      "referenceConnectiveTissueSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "unattributed annotated student connective-tissue training compilation with no PDF author, institution, department, examiner, sitting, marks or official faculty-key claim; handwritten circles, ticks and corrections are learner annotations rather than an authenticated faculty key",
+      "boundaryDisposition": "three conventional MCQ blocks totalling eighty-seven prompt and handwritten answer observations; the terminal sixteen-item block is a normalized sibling of the completed Exercise questions sequence and first-block Q1-Q5 rephrase the completed five-scenario opening sequence, while the remaining sixty-six printed occurrences survive family collapse; no written, practical, image-identification, teaching-only, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "second-block Q37 explicitly preserves Plasma cell as the listed answer while its printed note says the symptoms point to mast cells",
+        "third-block Q13 prints a note that the purported EXCEPT choice is actually true and that the PDF may contain an error",
+        "second-block prompts include self-referential Similar to labels and repeated brown-adipose and antibody-deficiency variants",
+        "handwritten answer marks and rationale are retained as source observations without academic correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6696,
-    "printedKeyObservations": 6506,
+    "printedPromptObservations": 6762,
+    "printedKeyObservations": 6572,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 28,
-    "uniqueSha256": 28,
-    "sortedNewlineSha256": "046657ac8836774ad6fa7f0797c15bdf018c3b0dd563a4a29dce860798364ec7",
+    "inventoryMetadataRows": 27,
+    "uniqueSha256": 27,
+    "sortedNewlineSha256": "ed7565525af5016372d837a043935343216d6d79c93d206453fb5683dbc48c42",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 4
+      "substantive-text": 3
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 4
+    "substantive-text": 3
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 73,
-    "remainingUniqueSha256": 28,
+    "processedUniqueSha256": 74,
+    "remainingUniqueSha256": 27,
     "processedPlusRemaining": 101
   }
 }

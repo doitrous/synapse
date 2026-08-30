@@ -2959,3 +2959,50 @@ Removing the seventy-three processed unique hashes leaves **28 selected inventor
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Training Questions.pdf`, SHA-256 `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`, 22 pages.
 
 **BLOCKED — S1 cannot be approved:** 28 selected inventory paths / 28 unique hashes remain untriaged.
+
+## Completed annotated training source — Histology MSK101-1 Training Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Training Questions.pdf` | `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a` | 22 | substantive-text audit sample | pages 1–22 rendered and read | Unattributed annotated student connective-tissue training compilation. The PDF carries no author, institution, department, examiner, sitting, marks or official-key metadata or claim. Handwritten circles, ticks and corrections are learner annotations, not an authenticated faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Training Questions.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and teaching boundary
+
+All twenty-two pages are assessment pages. The source contains three independently numbered conventional-MCQ blocks; the first ends at Q26, the second at Q45, and the third at Q16. Every prompt has one visible handwritten answer selection or correction.
+
+| Printed block | Pages | MCQ prompts | Visible handwritten answers | Source-unkeyed |
+|---|---|---:|---:|---:|
+| First Q1–Q26 | 1–7 | 26 | 26 | 0 |
+| Second Q1–Q45 | 7–18 | 45 | 45 | 0 |
+| Third Q1–Q16 | 18–22 | 16 | 16 | 0 |
+| **Physical boundary** | **1–22** | **87** | **87** | **0** |
+
+There are **0 written prompts / 0 practical or image-identification prompts / 0 teaching-only prompts / 0 answer-only observations**. Handwritten marginal rationale and corrections remain annotations attached to their prompt-matched answer observations rather than additional prompts or keys.
+
+### Prior-family reconciliation, authority and search gate
+
+The terminal Q1–Q16 sequence is a wording-normalized sibling of the completed `Exercise questions of the last lecture` sequence in the highlighted `Histo midterm night exercises 2026.pdf` family. First-block Q1–Q5 likewise rephrase the five completed clinical scenarios on allergy, collagen production, macrophages, plasma cells and brown fat. Those **21 prompt / 21 answer observations** therefore remain part of the physical boundary but do not add family occurrences.
+
+The other **66 prompt / 66 answer observations** are retained as distinct printed carrier occurrences. Repeated themes and explicit internal labels such as `Similar to 11 and 16` do not by themselves erase printed occurrences; this follows the lane's occurrence-counting treatment of internally repeated stems. No institution or assessment metadata upgrades the student annotations into faculty-key evidence.
+
+All source-first scopes collapse to the completed connective-tissue family. No genuinely new accepted handle survives. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the established family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its physical boundary is **87 questions / 87 answer observations**, while normalized sibling collapse yields **+66 questions / +66 answers / +0 concepts**. Cumulative arithmetic is **6762 questions / 6572 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6762 | 6572 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, exam-authority claim, placement or catalogue entry was created. Source defects remain preserved: second-block Q37 explicitly prints `Plasma cell` as the listed answer while noting that the symptoms point to mast cells; third-block Q13 says the purported EXCEPT choice is actually true and may be a PDF error; second-block self-references and repeated brown-adipose and antibody-deficiency variants remain uncorrected.
+
+### Remaining sources / blocker
+
+Removing the seventy-four processed unique hashes leaves **27 selected inventory paths / 27 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ed7565525af5016372d837a043935343216d6d79c93d206453fb5683dbc48c42`. Remaining audit-review debt is 3 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`74 + 27 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology_MSK_Clinical_Applications_By_Mohamed_Eissa_Midterm.pdf`, SHA-256 `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 27 selected inventory paths / 27 unique hashes remain untriaged.
