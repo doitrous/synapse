@@ -21580,3 +21580,108 @@ unencrypted; no form; PDF 1.7; SHA-256
 and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 25 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 206 — Tier-6 re-encoded Family-166 lower-limb model atlas
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_b52c59d91e8edfa0de01` / `b52c59d91e8edfa0de0108457d116d53567cc7608ec97815cef226096486d8a9` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/lower limb on model_250628_014946.pdf` |
+| Physical verification | **2,007,252 bytes; 15 OCR-needed 367.7 x 520.118 pt pages; untagged; unencrypted; no form; PDF 1.7**. Full hash, byte size, page count and geometry match. All pages were rendered at 240 dpi to 15 distinct 1,226 x 1,734 RGB images, visually inspected at original resolution and read completely. The extraction layer contains only 15 page terminators. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | The pages print no title, author, institution, lecturer, module, citation, exam label or key convention. PDF metadata names PDFium as creator/producer and supplies no author or dates. |
+| Authority finding | Anonymous tier-6 practical-teaching evidence. Manifest placement establishes LCS-103 relevance but not Helwan authorship, a recoverable sitting, response form, practical station or official key. |
+
+Every page is a completed supplied-label gross-model composition. There is **no assessment
+inventory**: no instruction to identify, response field, option set, blank, mark allocation,
+correctness mark, answer reveal or key convention appears. Exact assessment delta is **0
+eligible or external prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed prompts / 0
+practical prompts / 0 practical assessment keys**.
+
+Source truth remains literal and unrepaired, including `adductor previs`, `pirifomis`,
+`popliteal vain`, `anterior tibial nerve & vessels`, `peroneaus`, `peroneaus previs`,
+`hellucis`, `posterior tibial nerve`, `tendocalcenus` and the mixed Arabic removal notes. The
+p. 12 `medial head of gastrocnemiu…` callout is clipped at the right page edge; its missing
+tail is not inferred.
+
+### Complete occurrence inventory and re-encoding comparison
+
+| Physical pages | Source-first practical composition | Plates | Fully supplied mappings | Residues |
+|---:|---|---:|---:|---:|
+| 1–3 | layered anterior/medial thigh; two then three stated removals | 3 | 23 | 0 |
+| 4–8 | internal hip, gluteal/posterior-thigh and popliteal layers | 5 | 22 | 0 |
+| 9–11 | anterior/lateral leg, dorsal foot and anterior tibial plane | 3 | 16 | 0 |
+| 12–13, 15 | superficial posterior leg; p. 13 has two physical photographs | 4 | 10 | 1 clipped p. 12 callout |
+| 14 | deep posterior leg after two stated removals | 1 | 8 | 0 |
+| **Total source occurrence** | **complete practical-teaching boundary** | **16** | **79** | **1** |
+
+The 79 mappings are **66 legible pointer-label/caption relations + 13 explicit
+removed-structure relations**. Repeated names on different views remain distinct physical
+source-to-image mappings. The clipped p. 12 callout is excluded from the 79 and carried once
+as residue.
+
+This is not a new content family. A same-resolution comparison with accepted Family 166
+(`src_38157b7206bda5923bb1`, SHA-256
+`38157b7206bda5923bb1f4a92e99f201304ea32ba0e9a1c44b362f31aa6dce19`) proves that rendered
+pp. 1–11 and 13–15 are pixel-identical. P. 12 has a different rendered byte hash but is
+visually identical at original resolution, including the same three callout lines, two
+complete labels and same right-edge clipping. Page order, geometry, photographs, labels,
+removal relations, spellings and residue state all agree. The files are therefore distinct
+hashes/encodings of the same governed practical atlas. Family 166 already owns the **16 plates
+/ 79 mappings / 1 residue** content inventory; Family 206 records the physical occurrence but
+adds **0 plates / 0 mappings / 0 residues** to cumulative totals.
+
+### Exact searches and prior-LCS reconciliation
+
+The atlas consolidates to five practical-teaching handles:
+
+| Practical teaching handle / pages | Surface query | Complete-scope result |
+|---|---|---|
+| layered anterior/medial thigh model identification · pp. 1–3 | anterior thigh / femoral triangle / sartorius-rectus removal / adductor group model | Exact Family-166 content reuse; Families 39 and 41 also own the region/layers. |
+| gluteal, posterior-thigh and popliteal model identification · pp. 4–8 | gluteal-piriformis-sciatic / hamstring / popliteal neurovascular / removal layers | Exact Family-166 content reuse; Families 40 and 42 also own the scope. |
+| anterior/lateral leg and dorsal-foot model identification · pp. 9–11 | tibialis-anterior-extensor / lateral-peroneal / dorsal-foot / anterior-tibial neurovascular | Exact Family-166 content reuse; Families 43 and 45 also own the scope. |
+| superficial posterior-leg model identification · pp. 12–13, 15 | gastrocnemius / soleus / plantaris / calcaneal tendon model | Exact Family-166 content reuse; Families 44 and 45 also own the scope. |
+| deep posterior-leg model identification · p. 14 | popliteus / tibialis-posterior / long-flexor / posterior-tibial nerve model | Exact Family-166 content reuse; Families 44 and 45 also own the scope. |
+
+Each accepted handle received exactly one search against each required surface: live,
+pending/import-ready, prior source-import and accepted LCS. That is **5 x 4 = 20 required
+search invocations**. Live matches by handle were **5 / 1 / 0 / 0 / 0** files;
+pending/import-ready matches were **35 / 32 / 40 / 13 / 25**; the prior-source lane had no
+complete-file match; and every accepted-LCS query matched. Exact source comparison is
+decisive: **5 prior-LCS practical reuses / 0 additive live / 0 additive pending / 0 additive
+new practical scopes**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues / 87 keys**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**. The source occurrence is
+**16 / 79 / 1**, but the governed delta is **+0 plates / +0 mappings / +0 residues** because
+the exact content was already counted in Family 166. Every practical arithmetic checkpoint
+therefore remains unchanged.
+
+This hash occurs once in Family 205's remainder. Removing its sole path changes the remainder
+from **25 paths / 24 unique hashes** to **24 paths / 23 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **15 paths / 15 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 205's checksums were
+`266a5939d1bdcf6d9346ea45537f66132e982881809eca41a20b5ccc124ca684` (paths) and
+`095b02edd68d6c91021b5a7ce781bf8e7ae1dc4d82bf5f0423ae874bcfa60cbc` (unique hashes).
+For the exact post-Family-206 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`7e590a92a706f59b2f3c4e5f8e1f2bb8724005e497a1529d1e4ae024852f9315`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`7f9b14f4ae67b9caf4d36c5a8a64fa04c51a9bb1d0107973432487cdaa97b8a3`.
+
+The exact next manifest-order debt is tier-6 `src_28e9c5a6860fc078292e`, `muscle of lower
+limb.pdf` (598,102 bytes; six native 540 x 720 pt pages; untagged; unencrypted; no form; PDF
+1.5; SHA-256
+`28e9c5a6860fc078292ea188e7c716ebf0dbe0978378ba983fd78399b5f85488`) under `Year 1/LCS
+103/Anatomy/Notes and Summaries/`. It remains unclassified until all six pages are rendered
+and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 24 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
