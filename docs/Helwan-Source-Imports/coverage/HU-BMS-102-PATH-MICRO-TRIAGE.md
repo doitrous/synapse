@@ -8635,3 +8635,74 @@ one 1280×960 JPEG under `Pathology / Notes and Summaries`. It is visibly page 2
 Its complete teaching/prompt/answer boundary, annotation convention, exact relationship to
 Family 75 and Family 74, and independent zero-or-count ruling are the next-source blockers;
 the filename timestamp remains non-authoritative until visible provenance says otherwise.
+
+## Family 76 — handwritten `Irreversible Cell Injury I` page 2 screenshot
+
+### Source identity, original-image boundary, provenance, and sequence ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_697086928f735afecae2` · `2026-07-20 06.14.19.jpg` |
+| SHA-256 / size | `697086928f735afecae22fe77070a30cca6060f3dd0979e53456656e7bb66a61` · 175,634 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×960 JPEG; opened and read at original resolution |
+| Visible source identity | Handwritten sheet circled `2`, headed `IRREVERSIBLE cell injury I [abnormal nucleus]` and `Types of: Necrosis`; no institutional masthead, author, instructor, date, assessment label, or key designation |
+| Embedded date metadata | None recovered; `2026-07-20 06.14.19` is a filename/manifest timestamp only |
+
+The sheet is page 2 of the same `Cell injury I` handwritten pair begun in Family 75. It compares
+coagulative, liquefactive, caseous, fat, and fibrinoid necrosis in columns, using completed rows
+for cause, result, organ/disease association, and a final gangrenous-necrosis comment. The
+immediately following `2026-07-20 06.14.21.jpg` visibly restarts at circled page `1` under
+`Cell injury II` / `accumulation`, confirming that this sheet closes the first two-page pair.
+Capture order is therefore source-useful, but the timestamps do not establish authorship,
+teaching date, exam date, or sitting year.
+
+### Teaching, annotation, prior-carrier relation, and zero gate
+
+Every visible phrase is a completed declarative note. Red highlighting marks the main heading
+and `Types of: Necrosis`; black ink defines the table, and blue/black text fills its cells.
+Circles and underlines organize terms such as the necrosis types and gangrenous putrefaction.
+No mark selects an answer, and the row labels `Cause`, `Result`, `organ/disease`, and `Comment`
+are categories rather than prompts. There is no stem, command, blank, option set, response frame,
+audience question, prompt-like residue, or answer register.
+
+Family 76 substantially restates Family-74 p. 2's necrosis teaching and overlaps multiple
+Family-73 MCQ scopes. It is not a pixel duplicate of either source, but neither paraphrased
+teaching nor overlap with prior tested handles creates a new assessment record.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the exact source-first search requirement is
+**0 handles × 4 = 0 required searches** and no external/prior-BMS row is fabricated.
+
+| Measure | Family 76 | Auxiliary cumulative (Families 12–76) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts produce `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. This handwritten teaching page cannot
+raise exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 76
+
+`src_697086928f735afecae2` is exhausted: every heading, necrosis column/row, completed teaching
+statement, annotation convention, prompt absence, Family-75 sequence relation, Family-74 and
+prior-BMS content relationship, timestamp limitation, zero search gate, and unchanged arithmetic
+is assigned once, with **zero source remainder** and no Family-76 blocker. The exact next
+manifest-ordered BMS-102 record is tier-6 `src_d44579b1a1e5b3691978` ·
+`2026-07-20 06.14.21.jpg`, SHA-256
+`d44579b1a1e5b3691978093b17fd1ba83e1cb54380d10b7db98e330b3a862368`, 210,151 bytes,
+one 1280×960 JPEG under `Pathology / Notes and Summaries`. It is visibly circled page 1 of a new
+`Cell injury II` / `accumulation` handwritten sequence. Its complete teaching/prompt/answer and
+annotation boundary, provenance/timestamp limitation, relation to the following circled page 2,
+and overlap with Family 74/prior BMS evidence are the next-source blockers.
