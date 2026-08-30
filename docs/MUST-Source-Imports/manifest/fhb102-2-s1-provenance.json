@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "4feb84f0f845d434ef34681dc2e784e31fb97ec699fe3c063118e46aba42c0d6",
-    "triageMarkdown": "ed7bcf1357eba4fa64b89055fbaf3d119759e9fdf21d989d869e499966b3875c"
+    "readinessMarkdown": "b714e9a9a440f0835e5e2e72ce15359c8a3619cd42152542c54cc671521d8fef",
+    "triageMarkdown": "5ccd51bfe4d529906c5dd4743896b8953dbf7d4cf65bd2652b7ce154b712602a"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -72,10 +72,11 @@
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+      "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 5
+    "uniqueSha256": 6
   },
   "completedSourceCoverage": [
     {
@@ -377,15 +378,100 @@
         "academically questionable prompts and answer tokens are preserved without medical correction",
         "student-team review and MUST branding are not treated as authenticated faculty-key or exam-sitting authority"
       ]
+    },
+    {
+      "sha256": "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
+      "sourcePages": 29,
+      "renderedReadPages": "1-29",
+      "nonAssessmentPages": "1",
+      "questionPages": "2-28",
+      "answerOnlyPages": "29",
+      "printedPromptObservations": 177,
+      "objectiveMcqPrompts": 177,
+      "printedAnswerTokens": 177,
+      "printedKeyObservations": 177,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Bacterial structure",
+          "pages": "2-9",
+          "questionLabels": "1-50",
+          "prompts": 50,
+          "answers": 50
+        },
+        {
+          "section": "Bacterial growth",
+          "pages": "9-13",
+          "questionLabels": "51-76",
+          "prompts": 26,
+          "answers": 26
+        },
+        {
+          "section": "Genetics and bacteriophage",
+          "pages": "13-19",
+          "questionLabels": "77-120",
+          "prompts": 44,
+          "answers": 44
+        },
+        {
+          "section": "Antibiotic resistance",
+          "pages": "19-20",
+          "questionLabels": "121-128",
+          "prompts": 8,
+          "answers": 8
+        },
+        {
+          "section": "Infection",
+          "pages": "21-25",
+          "questionLabels": "129-157",
+          "prompts": 29,
+          "answers": 29
+        },
+        {
+          "section": "General virology",
+          "pages": "25-26",
+          "questionLabels": "158-166",
+          "prompts": 9,
+          "answers": 9
+        },
+        {
+          "section": "General mycology",
+          "pages": "27-28",
+          "questionLabels": "167-177",
+          "prompts": 11,
+          "answers": 11
+        }
+      ],
+      "sourceFirstHandles": 12,
+      "priorFhb1022CollapsedHandles": 6,
+      "acceptedSourceHandles": 6,
+      "searchesRun": 24,
+      "familyQuestionDelta": 177,
+      "familyAnswerDelta": 177,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 6,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous CamScanner reproduction titled only Microbiology MCQ / AE, with PDF metadata AE - Book 5 and no visible institution, department, examiner, sitting date, marks, author or authenticated faculty-key mark; the terminal answer table is source answer evidence rather than an official faculty key",
+      "boundaryDisposition": "one cover page, 177 consecutively numbered conventional objective MCQs on pages 2-28, and one complete 177-token answer-only table on page 29; no written, practical, image-identification or teaching-only prompt boundary",
+      "preservedSourceDefects": [
+        "the visible source supplies no author or authority statement beyond the AE cover mark and generic section headings",
+        "printed grammatical, spelling and academically questionable prompt and answer tokens are preserved without correction",
+        "the answer table is treated as source-printed evidence rather than an authenticated faculty key",
+        "section headings embedded between numbered prompts are not counted as teaching pages or prompts"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 627,
-    "printedKeyObservations": 625,
-    "namedConceptsAssigned": 48,
+    "printedPromptObservations": 804,
+    "printedKeyObservations": 802,
+    "namedConceptsAssigned": 54,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 48
+    "newConcepts": 54
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -417,21 +503,27 @@
     "pages": 47,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "sixthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - AE - MCQ.pdf",
     "sha256": "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
     "pages": 29,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB 102-2 Microbiology Infection tutorial-4.pdf",
+    "sha256": "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
+    "pages": 20,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 91,
-    "uniqueSha256": 89,
-    "sortedNewlineSha256": "555f63a0ee911aa14f000eaed153f133785899749cf47698bb1cc0b1e6eaae4b",
+    "inventoryMetadataRows": 90,
+    "uniqueSha256": 88,
+    "sortedNewlineSha256": "38ffe857c4ad0ae80ba3b1a9bfff9cd486d0c4df7668ba28de85d741b3c3b586",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
-      "sparse-text": 25,
+      "sparse-text": 24,
       "substantive-text": 38
     }
   },
@@ -439,13 +531,13 @@
     "audit-extract-failed": 2,
     "audit-not-found": 11,
     "empty-text": 15,
-    "sparse-text": 25,
+    "sparse-text": 24,
     "substantive-text": 38
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 5,
-    "remainingUniqueSha256": 89,
+    "processedUniqueSha256": 6,
+    "remainingUniqueSha256": 88,
     "processedPlusRemaining": 94
   }
 }

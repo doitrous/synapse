@@ -302,3 +302,61 @@ Removing the five processed hashes leaves **91 selected inventory paths / 89 uni
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - AE - MCQ.pdf`, SHA-256 `ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37`, 29 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 91 selected inventory paths / 89 unique hashes remain untriaged.
+
+## Completed source — AE Microbiology MCQ
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - AE - MCQ.pdf` | `ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37` | 29 | sparse-text | pages 1–29 rendered and read | Anonymous CamScanner reproduction whose cover says only `Microbiology MCQ` and `AE`; PDF metadata says `AE - Book 5`. No institution, department, examiner, sitting date, marks, author or authenticated faculty-key mark is visible. The terminal answer table is source-printed answer evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is a non-assessment cover. Pages 2–28 contain a single continuous Q1–Q177 sequence; section headings embedded between numbered prompts are organizational labels rather than teaching prompts. Page 29 is answer-only and prints a complete Q1–Q177 table.
+
+| Section | Prompt pages | Labels | Objective MCQs | Prompt-matched answer tokens |
+|---|---|---|---:|---:|
+| Bacterial structure | 2–9 | Q1–Q50 | 50 | 50 |
+| Bacterial growth | 9–13 | Q51–Q76 | 26 | 26 |
+| Genetics and bacteriophage | 13–19 | Q77–Q120 | 44 | 44 |
+| Antibiotic resistance | 19–20 | Q121–Q128 | 8 | 8 |
+| Infection | 21–25 | Q129–Q157 | 29 | 29 |
+| General virology | 25–26 | Q158–Q166 | 9 | 9 |
+| General mycology | 27–28 | Q167–Q177 | 11 | 11 |
+| **Total** | **2–28; answer-only 29** | **Q1–Q177** | **177** | **177** |
+
+The exact boundary is **177 objective prompts / 177 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**. Printed grammatical, spelling and academically questionable prompt/key tokens remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 177 prompts collapse source-first into twelve coherent handles. Six collapse to completed FHB-102-2 concepts without repeated search. The other **six accepted handles** each received exactly four live-and-pending searches: **6 × 4 = 24 searches**. Every query returned no live or pending match.
+
+| Source handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Bacterial envelope, wall, membrane and wall-deficient forms | prior Gram-wall and bacterial-structure handles | prior-FHB-102-2 collapse |
+| Bacterial appendages, capsule, inclusions, spores, ribosomes and plasmids | prior capsule/pili/flagella/glycocalyx and plasmid handles | prior-FHB-102-2 collapse |
+| Bacterial nutritional and environmental growth requirements | `bacterial oxygen requirements obligate facultative microaerophile aerotolerant`; `bacterial temperature groups psychrophile mesophile thermophile`; `bacterial capnophile acidophile nutritional growth requirements`; `autotroph heterotroph bacterial carbon source` | no live/pending match — retained new/TBD |
+| Bacterial growth curve, division, generation time and antimicrobial susceptibility | `bacterial growth curve lag log stationary decline phases`; `bacterial binary fission generation time`; `bacterial sporulation stationary phase`; `bacterial log phase antibiotic susceptibility` | no live/pending match — retained new/TBD |
+| Chromosome, plasmid, gene, genome, genotype and phenotype | prior plasmid/chromosome and G+C classification handles | prior-FHB-102-2 collapse |
+| Transposons and bacterial mutation | `bacterial transposons mobile DNA sequences`; `spontaneous induced bacterial mutation mutagens`; `simple replicative transposition bacteria`; `bacterial gene genotype phenotype mutation` | no live/pending match — retained new/TBD |
+| Horizontal gene transfer and bacteriophage lytic/lysogenic cycles | `bacterial horizontal gene transfer transformation transduction conjugation`; `bacteriophage lytic lysogenic prophage cycle`; `generalized specialized transduction bacteria`; `F plasmid sex pilus conjugation` | no live/pending match — retained new/TBD |
+| Antimicrobial-resistance mechanisms and genetic origins | `bacterial antimicrobial resistance altered target permeability enzyme inactivation`; `plasmid mediated antibiotic resistance R factor`; `chromosomal versus transferable drug resistance bacteria`; `intrinsic Mycoplasma penicillin resistance no cell wall` | no live/pending match — retained new/TBD |
+| Virulence, toxins, colonization and carriers | prior infection/carrier/pathogenicity/virulence, invasion and toxin handles | prior-FHB-102-2 collapse |
+| Infection stages, epidemiological distribution and infectious dose | `infection incubation prodromal invasion convalescent stages`; `endemic epidemic pandemic definitions infection`; `infectious dose Shigella Salmonella pathogenicity virulence`; `acute chronic latent infection carrier state` | no live/pending match — retained new/TBD |
+| Viral structure, replication, cytopathic effects and prions | prior viral structure/genome/classification and replication/CPE handles | prior-FHB-102-2 collapse |
+| Fungal structure, classification, reproduction and antifungal targets | prior fungal structure/classification/reproduction and membrane-target handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 6 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This sixth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+177 questions / +177 answers / +6 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 804 | 802 | 54 | 0 | 0 | 54 | TBD |
+
+Removing the six processed hashes leaves **90 selected inventory paths / 88 unique SHA-256s**. Their sorted-newline checksum is `38ffe857c4ad0ae80ba3b1a9bfff9cd486d0c4df7668ba28de85d741b3c3b586`. Remaining audit-review debt is **38 substantive-text / 24 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`6 + 88 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB 102-2 Microbiology Infection tutorial-4.pdf`, SHA-256 `d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43`, 20 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 90 selected inventory paths / 88 unique hashes remain untriaged.
