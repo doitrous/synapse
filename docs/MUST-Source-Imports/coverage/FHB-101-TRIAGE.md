@@ -3960,3 +3960,65 @@ Removing this one substantive-text path and unique hash leaves **62 selected inv
 The next evidence-ranked substantive source is the single eight-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Cases.pdf`, SHA-256 `76b58bc56d2446cd2726f4fd96a038084d5bd8eb0081b30cbf64ad355de1ba31`.
 
 **BLOCKED — S1 cannot be approved:** 62 selected source paths remain untriaged.
+
+## Completed source — MCQs - Cases
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Cases.pdf` | `76b58bc56d2446cd2726f4fd96a038084d5bd8eb0081b30cbf64ad355de1ba31` | 8 | substantive-text | pages 1–8 rendered and read | Local scanned `Problem solving` question-bank extracts. The pages print no institution, department, author, sitting, marks, official-paper status or official-key authority. |
+
+### Exact assessment and key boundary
+
+Pages 1–2 print Cytology Problem-solving Q1–Q10 and page 3 prints their complete key. Page 4 prints Epithelium Problem-solving Q1–Q2 and page 5 prints its complete key. Pages 6–7 print Cytogenetics Problem-solving Q1–Q8 and page 8 prints their complete key. There are no teaching-only pages, numbering gaps, missing keys or orphan answers.
+
+The exact inventory is **20 complete prompt occurrences / 20 directly printed answer occurrences**: `10 cytology + 2 epithelium + 8 cytogenetics`. The ordered source letter ledger is:
+
+```text
+Cytology Q1–Q10: C D C B D B D C A C
+Epithelium Q1–Q2: B D
+Cytogenetics Q1–Q8: B A A D B B D A
+```
+
+Questionable wording and claims are retained only as printed evidence; no option or key was medically corrected.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+`CY`, `E` and `CG` identify the three sequences. All 20 prompts are assigned exactly once to 15 source handles. Each handle received the four printed searches, for **15 × 4 = 60 searches**.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| CY1 | Microtubule blockade in breast-cancer chemotherapy (`microtubule chemotherapy`; `vincristine microtubule`; `paclitaxel mitotic spindle`; `cancer chemotherapy microtubules`) | new externally; exact prior-FHB duplicate. |
+| CY2 | Rough-ER protein control and repeated bone fracture (`rough ER weak bone`; `rough ER protein control`; `rough ER collagen synthesis`; `bone fracture rough ER`) | pending-hit; exact prior-FHB duplicate. |
+| CY3 | Receptor defect with normal hormone concentration (`defective cell receptors hormone resistance`; `normal hormone target cell response`; `growth hormone receptor dwarfism`; `cell membrane receptor hormone`) | new externally; exact prior-FHB duplicate. |
+| CY4 | Underdeveloped smooth ER in neonatal jaundice (`smooth ER neonatal jaundice`; `smooth ER bilirubin detoxification`; `underdeveloped SER liver`; `neonatal jaundice organelle`) | new externally; exact prior-FHB duplicate. |
+| CY5 | Intermediate-filament typing of tumour origin, including desmin (`intermediate filaments tumor origin`; `desmin muscle tumor`; `tumor immunocytochemistry intermediate filament`; `intermediate filament cancer diagnosis`) | new externally; no prior-FHB assessment assignment — **new addition**. |
+| CY6 | Mitochondrial dysfunction causing local skeletal-muscle weakness (`mitochondrial myopathy`; `mitochondrial damage muscle weakness`; `mitochondrial ATP muscle`; `mitochondrial neuropathy`) | new externally; exact prior-FHB duplicate. |
+| CY7 | Proteasomal failure with memory and behavioural change (`proteasome neurodegeneration`; `proteasome Parkinson disease`; `protein quality control memory`; `defective proteasomes brain`) | pending-hit; exact prior-FHB duplicate. |
+| CY8 | Peroxisomal enzyme deficiency with fatty liver/renal manifestations (`peroxisomal enzyme deficiency`; `peroxisome fatty liver`; `peroxisomal disorder kidney liver`; `peroxisome fat metabolism disease`) | new externally; prior FHB owns normal peroxisomal fatty-acid breakdown/detoxification, not this clinical deficiency scope — **new addition**. |
+| CY9 | Lysosomal sulfatase deficiency with neurologic manifestations (`lysosomal sulfatase deficiency`; `lysosomal storage nervous manifestations`; `defective lysosomal sulfatases`; `lysosomal enzyme neurologic disease`) | new externally; prior FHB owns lysosome structure/digestion, not this clinical enzyme-deficiency scope — **new addition**. |
+| CY10 | Immotile-cilia syndrome and recurrent respiratory infection (`immotile cilia syndrome`; `ciliary dyskinesia respiratory infection`; `dynein cilia infection`; `immotile cilia male`) | new externally; exact prior-FHB duplicate. |
+| E1–E2 | Smoking- and bilharziasis-associated squamous metaplasia (`smoker bronchial squamous metaplasia`; `bilharziasis bladder metaplasia`; `epithelial metaplasia irritation`; `metaplasia stratified squamous`) | new externally; exact prior-FHB duplicate. |
+| CG1,CG7 | Turner syndrome and 45,XO phenotype (`Turner syndrome 45 XO`; `Turner short stature amenorrhea`; `sex chromosome monosomy`; `Turner edema`) | pending-hit; exact prior-FHB duplicate. |
+| CG2,CG5–CG6 | Down syndrome and chromosome-21 Robertsonian translocation (`Down syndrome Robertsonian translocation`; `chromosome 21 14 translocation`; `Down syndrome 46 chromosomes`; `trisomy 21 hypotonia`) | pending-hit; exact prior-FHB duplicate. |
+| CG3–CG4 | Barr-body counts, multiple-X and Klinefelter syndromes (`Barr body multiple X syndrome`; `Klinefelter Barr body`; `47 XXX Barr bodies`; `X chromosome nondisjunction`) | new externally; exact prior-FHB duplicate. |
+| CG8 | Philadelphia chromosome and chronic myeloid leukaemia (`Philadelphia chromosome CML`; `translocation 9 22 leukemia`; `chronic myeloid leukemia chromosome`; `reciprocal translocation 22 9`) | new externally; exact prior-FHB duplicate. |
+
+The source search disposition is **0 live / 4 pending / 11 new = 15 handles**. Twelve handles are exact prior-FHB duplicates. Intermediate-filament tumour typing, clinical peroxisomal deficiency and lysosomal sulfatase deficiency survive, giving a post-prior result of **0 live / 0 pending / 3 new = +3 concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+20 questions / +20 directly printed answers / +3 concepts = +0 live / +0 pending / +3 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3272 | 3006 | 432 | 66 | 84 | 282 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 84 + 282 = 432`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **61 selected inventory paths / 59 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `693541bd105075b6a0608d48f357ff5aba86dd4b652d1abbdc1138c01a715398`. Pinned triage debt becomes **18 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`47 + 59 = 106`**.
+
+The next evidence-ranked substantive source is the single four-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium MCQ.pdf`, SHA-256 `001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b`.
+
+**BLOCKED — S1 cannot be approved:** 61 selected source paths remain untriaged.
