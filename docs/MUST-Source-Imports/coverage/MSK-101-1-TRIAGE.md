@@ -2720,3 +2720,48 @@ Removing the sixty-eight processed unique hashes leaves **34 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Connective Tissue mcq (by Μοχάναντ).pdf`, SHA-256 `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`, 14 pages.
 
 **BLOCKED — S1 cannot be approved:** 34 selected inventory paths / 33 unique hashes remain untriaged.
+
+## Completed source — Connective Tissue mcq (by Μοχάναντ)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Connective Tissue mcq (by Μοχάναντ).pdf` | `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369` | 14 | substantive-text audit sample | pages 1–14 rendered and read | Student-style connective-tissue MCQ compilation attributed only in the filename to `Μοχάναντ`, with Microsoft Word 2010 metadata author `doha` and creation date 22 October 2022. No visible author, institution, department, examiner, sitting, marks or official-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Connective Tissue mcq (by Μοχάναντ).pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and teaching boundary
+
+Pages 1–13 contain one continuous Q1–Q77 conventional MCQ sequence. Q76 and Q77 have final answers printed in red within their option lists. Page 14 prints a complete Q1–Q77 answer table, including the same E selections for Q76 and Q77.
+
+| Format | Printed prompts | Answer-bearing prompt observations | Source-unkeyed |
+|---|---:|---:|---:|
+| Conventional MCQs Q1–Q77 | 77 | 77 | 0 |
+| **Total** | **77** | **77** | **0** |
+
+The two inline selections and their matching table entries represent the same two answer-bearing prompts and are counted once rather than as answer-only extras. There are **0 written prompts / 0 practical or image-identification prompts / 0 teaching-only pages / 0 answer-only observations / 0 source-unkeyed prompts**.
+
+Exact normalized-stem analysis yields **73 unique stems**. Four stems recur with different option sets: Q15/Q29 `Elastic fibers`, Q26/Q27 antigen-presenting cell, Q33/Q68 mast cells, and Q53/Q54 negative Golgi image. Both physical occurrences in each pair remain counted. Source spelling, punctuation, capitalization and academically questionable keyed choices remain uncorrected.
+
+### Authority, prior-MSK reconciliation and search gate
+
+The filename attribution and Word metadata establish only local student-compilation provenance; they do not establish an examination, institution, department or authenticated faculty key. The prompt sequence is distinct from the completed 247-item Dr Abdelwahab carrier, although it heavily overlaps that carrier's connective-tissue cells, fibres, matrix, stains and proper-tissue scopes.
+
+All source-first scopes map completely to the completed prior-MSK connective-tissue family. No genuinely new accepted handle survives internal and prior-MSK collapse. The exactly-four-search gate therefore resolves as **`0 new handles × 4 = 0 new searches`**; the prior family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct keyed student compilation is now `sourceProcessed=true`. Its delta is **+77 questions / +77 answer observations / +0 concepts**. Cumulative arithmetic is **6461 + 77 = 6538 questions**, **6271 + 77 = 6348 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6538 | 6348 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-nine processed unique hashes leaves **33 selected inventory paths / 32 unique SHA-256s**. Their sorted, newline-joined hash checksum is `4d3e7cff29a1138ad05da1693a31e39d0142075cd013c0bcf57dbc850a6f3a93`. Remaining audit-review debt is 9 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`69 + 32 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histo MCQ by Dr.Zahra [Connective Tissue].pdf`, SHA-256 `4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719`, 19 pages.
+
+**BLOCKED — S1 cannot be approved:** 33 selected inventory paths / 32 unique hashes remain untriaged.
