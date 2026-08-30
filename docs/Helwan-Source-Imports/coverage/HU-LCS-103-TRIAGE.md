@@ -8348,3 +8348,128 @@ order and remains explicit path debt, but it must add no second content inventor
 path is adjudicated. Tier-6 and rank-9 source debts between rank-4/rank-5 gates remain outside
 this remainder. Broader LCS-103 S1 remains incomplete. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 68 — Tier-4 Pharmacology theoretical Analgesics 2 teaching-only lecture
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_10ef402eb9eff4e5fb7b` |
+| File / SHA-256 | `Analgesics 2.PDF` / `10ef402eb9eff4e5fb7bec157b463fe5448711a01f4afdd2d09ef8d0d5bda1ac` |
+| File boundary | 756,839 bytes · unencrypted PDF · 39 physical native-text pages · 792 × 612 pt |
+| Manifest placement | `HU-LCS-103` · Pharmacology · Theoretical · `Lec 2 - Pharmacology of NSAIDs 2 (Pyrazoline & Indole Derivatives)` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Pharmacology/Theoretical/Lec 2 - Pharmacology of NSAIDs 2 (Pyrazoline & Indole Derivatives)/Analgesics 2.PDF` |
+| Visible provenance | p. 1 prints only `Analgesics`; the PDF exposes no title, author, creator or producer metadata and prints no university, instructor, sitting or assessment label |
+| Authority finding | Manifest/path-placed local module theoretical teaching evidence. It is not a recoverable sitting, department question bank, response form, practical station or official answer key. Its source-first objectives substantially recast the same pharmacology scope already accepted from Family 67, but this distinct hash and 39-page composition are preserved as a separate source occurrence. |
+
+The assigned SHA-256, byte size and 39-page boundary were recomputed and match the manifest.
+All 39 pages were rendered at 160 dpi and read against the complete native text layer; all 39
+complete-page renders have distinct SHA-256 values. Page 1 is the title slide, pp. 2–38 are
+continuous declarative pharmacology teaching and p. 39 is the closing `Thank You` slide.
+
+The source contains definitions, classifications, pathway diagrams, numbered facts, adverse-
+effect/contraindication tables and treatment bullets only. Imperative safety phrases such as
+`Avoid ingestion of large doses` and `Avoid large dose` are declarative treatment advice, not
+learner requests. The paired adverse-effect/contraindication tables on pp. 32 and 36 are fully
+printed teaching tables, not answer matrices or response forms. No page contains a question
+stem, option set, response line, answer, tick, highlight, delayed reveal, specimen,
+image-identification task or station instruction. The complete boundary is therefore **37
+theoretical teaching compositions / 0 assessment prompt occurrences / 0 printed keys / 0
+practical or station prompts / 0 practical teaching plates / 0 practical mappings / 0 masked
+or unresolved practical callouts**.
+
+### Complete teaching and assessment inventory
+
+| Physical pages | Source-first composition | Teaching compositions | Assessment / key boundary |
+|---:|---|---:|---:|
+| 2–7 | analgesic definition; peripheral/central classes; non-opioid advantages; nonselective, COX-2 and COX-3 classifications | 6 | 0 |
+| 8–10 | salicylate members, absorption/distribution/metabolism/excretion and arachidonic-acid COX/LOX pathway | 3 | 0 |
+| 11–16 | analgesic, antipyretic and anti-inflammatory actions; systemic organ effects; therapeutic uses | 6 | 0 |
+| 17–22 | acute/chronic aspirin toxicity, treatment, remaining adverse effects, contraindications and interactions | 6 | 0 |
+| 23–29 | acetaminophen kinetics, metabolism, dynamics, toxicity/mechanism/treatment and benorylate | 7 | 0 |
+| 30–32 | phenylbutazone kinetics, actions/uses, adverse effects and contraindications | 3 | 0 |
+| 33–36 | indomethacin kinetics, mechanism, uses, adverse effects and contraindications | 4 | 0 |
+| 37–38 | sulindac kinetics/mechanism/uses and remaining NSAID derivative-class summary | 2 | 0 |
+| **Total** | **complete in-scope content boundary** | **37** | **0 prompts / 0 keys** |
+
+The complete physical-page arithmetic is **39 = 1 title page + 37 teaching compositions + 1
+closing page + 0 assessment pages**. No complete-page render or teaching composition is
+collapsed from the source-occurrence inventory; scope consolidation is recorded separately.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The 37 teaching compositions consolidate to 15 source-level theoretical scopes. Scope collapse
+does not delete page, diagram, table or source-wording evidence.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `analgesic-definition-central-peripheral-classification` · pp. 2–4 | analgesics relieve pain without loss consciousness; central peripheral analgesics classification; opioid non opioid analgesics; adjuvant co analgesics classification | accepted Family-67 handle owns the complete teaching core — prior LCS reuse |
+| `nonopioid-analgesic-advantages-and-cox-classification` · pp. 5–7 | non opioid analgesics mild moderate pain; NSAIDs no euphoria tolerance dependence; nonselective COX inhibitor classes; selective COX2 COX3 classification | accepted Family-67 non-opioid/selectivity handle owns the complete teaching core — prior LCS reuse |
+| `salicylate-members-absorption-and-derivative-actions` · p. 8 | salicylate derivatives aspirin sodium diflunisal; diflunisal no antipyretic effect; salicylate oral absorption stomach intestine; salicylate members pharmacology | accepted Family-67 salicylate-derivative handle owns the complete teaching core — prior LCS reuse |
+| `salicylate-distribution-metabolism-and-excretion` · p. 9 | salicylate distribution BBB placenta protein binding; salicylate glucuronic glycine conjugation; gentisic acid salicylate metabolism; salicylate unchanged urine excretion | accepted Family-67 aspirin-pharmacokinetics handle owns the complete teaching core — prior LCS reuse |
+| `nsaid-arachidonic-acid-cox-lox-pathway-map` · p. 10 | NSAID arachidonic acid COX pathway; phospholipase A2 steroid inhibition; COX1 COX2 prostaglandin thromboxane; 5 lipoxygenase leukotriene pathway | accepted Family-67 COX/TXA2 mechanism scope owns the source's pathway core — prior LCS reuse |
+| `aspirin-analgesic-antipyretic-antiinflammatory-actions` · pp. 11–12 | aspirin analgesic pain threshold peripheral action; aspirin antipyretic hypothalamic heat loss; aspirin anti inflammatory bradykinin; salicylate lysosome polymorph migration | accepted Family-67 actions handle owns the complete teaching core — prior LCS reuse |
+| `aspirin-dose-dependent-systemic-organ-effects` · pp. 13–15 | aspirin respiratory alkalosis metabolic acidosis; aspirin uric acid small large dose; aspirin gastrointestinal blood endocrine effects; salicylate G6PD metabolism BMR | accepted Family-67 systemic-organ-effects handle owns the complete teaching core — prior LCS reuse |
+| `aspirin-therapeutic-uses-and-drug-interactions` · pp. 16, 22 | aspirin therapeutic uses antiplatelet analgesic; salicylic acid local keratolytic methyl salicylate; aspirin hypoglycemic drug displacement; aspirin alcohol corticosteroid piroxicam diclofenac interaction | accepted Family-67 uses/interactions handle owns the complete teaching core — prior LCS reuse |
+| `aspirin-toxicity-adverse-effects-contraindications-and-treatment` · pp. 17–21 | acute salicylate toxicity treatment bicarbonate; chronic salicylism tinnitus; Reye syndrome aspirin children viral infection; aspirin adverse effects contraindications | accepted Family-67 toxicity/adverse/contraindication handle owns the complete teaching core — prior LCS reuse |
+| `acetaminophen-pharmacokinetics-and-cox3-actions` · pp. 23–25 | acetaminophen absorption gastric emptying; paracetamol glucuronide sulfate metabolism; paracetamol COX3 central action; acetaminophen no peripheral anti inflammatory action | accepted Family-67 acetaminophen-kinetics/actions handle owns the complete teaching core — prior LCS reuse |
+| `acetaminophen-napqi-hepatotoxicity-and-nacetylcysteine` · pp. 24, 26–28 | acetaminophen toxic metabolite glutathione; paracetamol centrilobular hepatic necrosis; N acetylcysteine acetaminophen antidote; acetaminophen overdose charcoal hemodialysis | accepted Family-67 NAPQI/hepatotoxicity handle owns the complete teaching core — prior LCS reuse |
+| `benorylate-aspirin-paracetamol-ester` · p. 29 | benorylate aspirin paracetamol ester; benorylate analgesic antipyretic; benorylate anti inflammatory synergy; benorylate less gastric irritation | accepted Family-67 benorylate handle owns the complete teaching core — prior LCS reuse |
+| `phenylbutazone-kinetics-actions-adverse-contraindications` · pp. 30–32 | phenylbutazone oxyphenbutazone hydroxyphenylbutazone; phenylbutazone COX acute gout; phenylbutazone agranulocytosis; phenylbutazone adverse contraindications | accepted Family-67 phenylbutazone handle owns the complete teaching core — prior LCS reuse |
+| `indomethacin-kinetics-actions-uses-adverse-contraindications` · pp. 33–36 | indomethacin enterohepatic circulation; indomethacin potent COX inhibitor; indomethacin closes PDA neonates; indomethacin psychosis corneal opacity leukopenia | accepted Family-67 indomethacin handle owns the complete teaching core — prior LCS reuse |
+| `sulindac-and-nsaid-derivative-class-summary` · pp. 37–38 | sulindac prodrug sulphide COX LOX; sulindac arthritis gout cataract; propionic acid oxicam phenylacetic derivatives; fenamates mefenamic flufenamic acid | accepted Family-67 sulindac/class-summary handle owns the complete teaching core — prior LCS reuse |
+
+All **15 × 4 = 60** required teaching-scope searches completed across live state, pending
+state, all source-import roots and accepted prior LCS. At complete-scope grain the direct
+external result is **0 live / 0 pending / 15 new**. Exact accepted-prior comparison prevents
+all 15 repeated module additions, leaving **15 prior-LCS reuses / 0 new theoretical-teaching
+scopes**. The distinct source hash and page compositions remain fully inventoried even though
+Family 67 owns the source-level teaching objectives. Declarative teaching scopes do not enter
+eligible tested-concept or practical-scope counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 68 | Family 68 delta | After Family 68 |
+|---|---:|---:|---:|
+| Eligible observed question records | 532 | +0 | 532 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 256 | +0 | 256 |
+| Question live / pending / new | 10 / 86 / 160 | +0 / +0 / +0 | 10 / 86 / 160 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `39 = 1 + 37 + 1 + 0`, `37 = 6 + 3 + 6 + 6
++ 7 + 3 + 4 + 2`, `0 assessment prompts / 0 printed keys`, `532 = 532 + 0`, `265 = 265
++ 0`, `256 = 256 + 0`, `10 + 86 + 160 = 256`, `6 + 0 = 6`, `398 + 0 = 398`, `2,496
++ 0 = 2,496`, `136 + 0 = 136`, and `74 + 0 = 74`.
+
+This source hash occurs once in the manifest. Removing its path from the accepted Family-67
+remainder leaves **8 rank-4/rank-5 path instances / 7 unique hashes**. The Family-67 method
+was reproduced first: its 9/8 row sets recomputed to
+`5915289fed166b3635435d446ec1de543fc7ee01babcf5a948a95470a89cd8ca` and
+`35930a1384727b2668919d9dc8de8bf9d57978e4920c20133454bad9407e8cc9`.
+For the exact post-Family-68 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`90b4f4fe9e6eb7ac2a16733f13de61fe32a73fc066f4fd00a4474eb256d92164`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`9486593605e838b425ad24dd86a58d0013e8e7554ece349d6996e513075a5cf5`.
+
+The exact next manifest-order path debt is the already-inventoried Family-67 source
+`src_d08bcb59d5e3d0154b28`, `Analgesics.pdf` (231,330 bytes; 17 native-text pages;
+SHA-256 `d08bcb59d5e3d0154b28bf10cd3442f5698cab8e8354206d41cab4bc5763d22b`) under `Year 1/LCS
+103/Pharmacology/Theoretical/Lec 3 - Pharmacology of Acetaminophen/`. It is byte-identical
+to the accepted Lec-1 path and must add **0** second content inventory when its remaining path
+is adjudicated. The next new unique-hash gate after that duplicate path is tier-4 Pharmacology
+theoretical source `src_791096e550811606d4db`, `26 LECTURE ON CORTICOSTEROIDES PDF.pdf`
+(SHA-256 `791096e550811606d4dbcf8e19959834216a2a76aacbf85bc321112c5e419cac`)
+under `Lec 4 - Corticosteroids 1/`; the same hash then recurs in `Lec 5 - Corticosteroids 2/`.
+Tier-6 and rank-9 source debts between rank-4/rank-5 gates remain outside this remainder.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
