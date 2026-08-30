@@ -21539,3 +21539,73 @@ annotations; it carries a vertical CamScanner watermark. The filename timestamp 
 authenticated teaching or assessment date. Its provenance, teaching/prompt/answer/annotation
 boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 207 — completed bilingual aspirin pKa compartment-teaching map
+
+### Source identity, complete full-resolution boundary, provenance, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_279a07e5f0226793c0b3` · `2026-07-20 06.26.20.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `279a07e5f0226793c0b3897bbb6033947e6d6a63a21d98b023a47a42abcc90ed` · **113,648 bytes** |
+| Format / complete read | **One 1280×904 landscape progressive JPEG**, JFIF 1.01 at 851 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. A vertical CamScanner watermark is visible at the right edge. |
+| Complete visible content | The handwritten bilingual heading is `Aspirin: pKa = 3.5`. A single completed branch labels stomach (`pH: 1.5`), intestine (`pH: 6.5–7.5`), stomach wall (`pH: 7.4`), urinary tract (`pH: 4.6`), and tubular cells (`pH: 7.4`). Compartment sketches and Arabic/English notes mark `more absorbed` in stomach, `less absorbed` in intestine, stomach-wall accumulation/`ulcer`, urinary passage, and tubular-cell `damage`; a red salicylic-acid/pKa note is also present. |
+| Visible/metadata provenance | No author, university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. The CamScanner mark establishes scan processing only. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement, while the filename timestamp remains a sequence aid rather than an authenticated teaching date or sitting. |
+| Sequence relation | Family 206 explains ionization and pKa abstractly; the present image is its completed aspirin application. The next manifest image `.06.26.25` moves to plasma-protein binding. Adjacency supports a teaching sequence only and does not prove authorship, sitting, or recurrence. |
+| Authority | Low-authority bilingual handwritten teaching map. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+Every pH, compartment, arrow, absorption outcome, tissue consequence, Arabic gloss, and salicylic-
+acid note is already supplied. The anatomical sketches illustrate the completed explanation; none
+is an unlabeled specimen or asks for identification. There is no instruction, interrogative,
+blank, option set, response field, mark allocation, delayed key, or candidate answer. The bilingual
+handwriting is the source's teaching layer, not response annotation.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Its ionization, absorption, and pKa content overlaps Family 202
+and directly applies Family 206, but completed declarative overlap is not a tested-proposition
+recurrence, so no prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 207 | Auxiliary cumulative (Families 12–207) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 207
+establishes bilingual aspirin/pKa teaching and manifest-sequence evidence only, not assessment,
+practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 207
+
+`src_279a07e5f0226793c0b3` is exhausted at full image resolution: every visible heading, pKa/pH
+value, labelled compartment, English and Arabic teaching note, completed branch, sketch, arrow,
+emphasis mark, scan watermark, provenance limitation, timestamp caution, zero gate, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-207 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_88e1806107fedc600f15` ·
+`2026-07-20 06.26.25.jpg`, SHA-256
+`88e1806107fedc600f15497a4bc994cb4d031ebb4602d06ed48430754903ec9a`, **129,944 bytes**,
+**1280×904 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed bilingual handwritten `Binding of drug to p.p` map covering free/
+unbound active versus protein-bound inactive drug, slow release, albumin/globulin/glycoprotein
+binding, prolonged action, ineffective bound fraction, drug interaction, and binding changes in
+hypoproteinemia, pregnancy, and renal failure; it carries a vertical CamScanner watermark. The
+filename timestamp is not an authenticated teaching or assessment date. Its provenance,
+teaching/prompt/answer/annotation boundary, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
