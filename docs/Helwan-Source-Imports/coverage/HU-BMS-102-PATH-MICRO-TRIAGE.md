@@ -5526,3 +5526,118 @@ and no Family-50 blocker. The next manifest-ordered local BMS-102 candidate is t
 three OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its OCR-needed three-page
 boundary is the next-source processing blocker: fully render and visually adjudicate prompt,
 teaching, and answer conventions before admitting any count.
+
+## Family 51 — tier-6 Medicine Way bacteriology-tail and general-virology MCQ excerpt
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_909fea2501893dd6f814` · `generalvirology.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/generalvirology.pdf` |
+| SHA-256 / size | `909fea2501893dd6f814da4b322972a162e9b6689b699a3ae9e8e1b708b9fbe1` · 707,918 bytes |
+| Format / read boundary | Three OCR-needed A4 pages; all three physical pages rendered at 220 dpi and visually read in full |
+| Authority | Medicine Way / Arabic `طريق الطب` channel-team compilation attributed on p. 1 to Mansour El Gazzar; no Helwan/university or faculty masthead, module code, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is the Medicine Way promotional cover and contains no assessment prompt or
+teaching proposition. Physical p. 2 begins with three detached bacteriology prompts Q155–Q157;
+the `General virology` heading then introduces Q158–Q160, and physical p. 3 continues Q161–Q166.
+Missing Q1–Q154 and any continuation after Q166 are not inferred. The continuous numbering and
+Medicine Way presentation place all twelve prompts in one low-authority compiled study-bank
+excerpt, not in a recoverable paper or sitting; the subject heading is retained rather than
+retroactively applying `General virology` to Q155–Q157.
+
+The prompt-start checksum is `0 + 6 + 6 = 12`. Every observed stem and option set is complete.
+There is no answer register, keyed letter, selected option, correctness annotation, response
+field, or repeatable answer convention. Underlining consistently formats stems and does not mark
+an option. The source therefore contains **12 complete prompt occurrences / 0 printed answer
+occurrences**. No option is promoted to an answer, and source spelling or terminology is retained
+only as low-authority tested scope.
+
+### Complete prompt inventory, source-first collapse, and prior-BMS ledger
+
+| Ref | Page | Complete source-tested scope without supplying an unprinted answer | Handle / assignment |
+|---|---:|---|---|
+| F51-Q155 | 2 | Exotoxin composition differential across lipoprotein, LPS, nucleic acid, protein, and peptidoglycan | `exotoxin-protein-nature` · exact F24-Q07 reuse |
+| F51-Q156 | 2 | Endotoxin mode-of-action differential across membrane degradation, blood-pressure effect, acetylcholine blockade, and tumour-necrosis-factor release | `endotoxin-tnf-release-mechanism` |
+| F51-Q157 | 2 | Bacterial-enzyme differential for destruction of neutrophils and macrophages | `leukocidin-neutrophil-macrophage-destruction` |
+| F51-Q158 | 2 | Most-accurate viral cytopathic-change statement across specificity, cell death, giant-cell formation, and microscopy modality | `virus-cytopathic-effect-giant-cell-formation` |
+| F51-Q159 | 2 | Method differential for quantitating infectious-virus titre | `infectious-virus-titer-plaque-assay` |
+| F51-Q160 | 2 | True viral-morphology statement across RNA-virus shape, flagella, nuclei, genome protection, and helical nucleocapsids | `viral-surface-protein-genome-nuclease-protection` |
+| F51-Q161 | 3 | Prion component differential across RNA, plasmid, absent nucleic acid, double-stranded RNA, and host DNA | `prion-no-detectable-nucleic-acid` |
+| F51-Q162 | 3 | Best-description differential for viruses across parasitism, artificial media, genome type, antibiotic response, and the printed size range | `virus-size-range-20-300-nm` |
+| F51-Q163 | 3 | Viral-replication statement differential across binary fission, host-cell macromolecules, antibiotics, and synthetic media | `viral-replication-requires-host-cell-macromolecules` |
+| F51-Q164 | 3 | Terminology for the protein coat surrounding an animal-virus nucleic acid | `viral-protein-coat-capsid-definition` |
+| F51-Q165 | 3 | Capsid-symmetry classification for smallpox virus | `smallpox-complex-capsid-symmetry` |
+| F51-Q166 | 3 | Not-true statement differential for viruses across genome type, mitochondria, protein coat, and binary fission | `virus-not-binary-fission-versus-bacteria` · exact F46-Q02 reuse |
+
+There are no literal copies, wording-only repeats, or within-source same-scope variants. Q155–
+Q157 test toxin composition or virulence mechanisms; Q158–Q160 test cytopathic change,
+quantitation, and morphology; and Q161–Q166 test distinct viral or atypical-agent properties.
+Q163 retains its host-macromolecule replication scope rather than collapsing into Q166's binary-
+fission exception, which appears only as one distractor in Q163. Thus **12 observed - 0 copies =
+12 retained records**, and all **12 retained records = 12 source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 12 handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **48 required searches**. Literal runs were
+followed by targeted reopening of the short-form `exotoxin`, `endotoxin`, `TNF`, `capsid`,
+`prion`, `cytopathic`, `virus titer`, `virus size`, and `smallpox` results where longer phrases
+were silent. External disposition is **1 live / 4 pending / 7 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `exotoxin-protein-nature` · Q155 | `exotoxin protein nature`; `exotoxins are proteins`; `bacterial exotoxin composition protein`; `protein nature exotoxin` | pending `CON-INF-C87DF729E2ADDF`; exact secreted-polypeptide/protein nature | exact F24-Q07 reuse; F12-P04 is a broader comparison |
+| `endotoxin-tnf-release-mechanism` · Q156 | `endotoxin tumor necrosis factor`; `LPS releases TNF`; `endotoxin mode of action`; `lipopolysaccharide cytokine TNF` | pending `CON-INF-F2B1AF50F8D51C`; its LPS-mediated shock definition expressly includes TNF overproduction | none; delta |
+| `leukocidin-neutrophil-macrophage-destruction` · Q157 | `leukocidins destroy neutrophils`; `leukocidin macrophage destruction`; `bacterial enzyme kills leukocytes`; `leukocidin virulence factor` | no same-scope | none; delta |
+| `virus-cytopathic-effect-giant-cell-formation` · Q158 | `viral cytopathic changes`; `virus giant cell formation`; `cytopathic effect syncytia`; `virus induced cell death morphology` | no same-scope; viral-interference and hemadsorption records do not state this cytopathic morphology | none; delta |
+| `infectious-virus-titer-plaque-assay` · Q159 | `plaque assay virus titer`; `infectious virus quantitation`; `viral plaque forming units`; `quantitate infectious viruses` | no same-scope | none; delta |
+| `viral-surface-protein-genome-nuclease-protection` · Q160 | `viral surface proteins protect genome`; `capsid protects nucleic acid nucleases`; `viral protein coat nuclease protection`; `virus morphology capsid protection` | pending `CON-INF-5544B0DB9FAF82`; its definition directly assigns genome protection to the protein capsid | none; F12-V04 is a broader capsid-function list, so delta |
+| `prion-no-detectable-nucleic-acid` · Q161 | `prion no nucleic acid`; `prions protein infectious particle`; `prion lacks DNA RNA`; `atypical virus prion nucleic acid` | pending `CON-INF-6EE705523FD61C`; its viroid differential expressly defines a prion as infectious protein without nucleic acid | none; F12-V05 is a broader agent list and F46-Q19 tests viroid classification, so delta |
+| `virus-size-range-20-300-nm` · Q162 | `virus size 20 300 nm`; `viruses very small size`; `viral particle size range`; `virus dimensions nanometers` | no same-scope; general-property records omit the printed numerical range | none; F18-Q01 joins smallest-agent status to host range, so delta |
+| `viral-replication-requires-host-cell-macromolecules` · Q163 | `viral replication requires host cell`; `virus uses host macromolecules`; `virus replication host machinery`; `obligate intracellular viral replication` | no same-scope; cycle and obligate-intracellular records do not state the host-macromolecule dependency | none; F46-Q02/Q03 test different exceptions, so delta |
+| `viral-protein-coat-capsid-definition` · Q164 | `capsid protein coat virus`; `viral protein coat surrounds nucleic acid`; `capsid definition animal virus`; `capsid versus nucleocapsid` | live `CON-INF-BBB25C0749A8D4`; exact viral-genome-surrounded-by-protein-capsid definition | none; prior BMS capsid prompts test functions, capsomers, or exceptions, so delta |
+| `smallpox-complex-capsid-symmetry` · Q165 | `smallpox complex symmetry`; `poxvirus capsid symmetry complex`; `smallpox virus morphology`; `poxvirus complex nucleocapsid` | no same-scope; general capsid-symmetry records do not map smallpox to one class | none; delta |
+| `virus-not-binary-fission-versus-bacteria` · Q166 | `virus binary fission`; `viral replication`; `viruses do not divide`; `virus bacteria division` | no same-scope; replication-cycle records do not test binary fission as the exception | exact F46-Q02 reuse |
+
+The two prior-BMS exact handles are Q155 and Q166. Therefore **12 handles - 2 prior exact
+reuses = +10 concepts**.
+
+| Measure | Family 51 | Auxiliary cumulative (Families 12–51) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 12 | 369 | 765 | 1,134 |
+| Printed study-answer occurrences | 0 | 188 | 405 | 593 |
+| Retained question records | 12 | 365 | 552 | 917 |
+| Source-distinct tested handles / required searches | 12 / 48 | 354 / — | — | — |
+| External live / pending / no same-scope | 1 / 4 / 7 | — | — | family-local disposition |
+| Cross-family concept delta | +10 | +264 over primary | 372 | `372 + 264 = 636` |
+| **Distinct tested concepts** | **+10** | **264 auxiliary additions** | **372** | **636** |
+
+The checksum closes without remainder: prompt starts are `0 + 6 + 6 = 12`; key alignment is
+`12 - 0 = 12` unkeyed; retention is `12 - 0 copies = 12`; handle assignment is `12 - 0
+semantic collapses = 12`; assignment is `12 - 12 = 0` unassigned; searches are `12 × 4 = 48`;
+external disposition is `1 + 4 + 7 = 12`; and concept arithmetic is `12 - 2 = 10`.
+Auxiliary cumulative arithmetic is `357 + 12 = 369` prompts, `188 + 0 = 188` printed
+answers, `353 + 12 = 365` retained records, `342 + 12 = 354` source handles, and `254 + 10 =
+264` concept additions over primary. All-eligible arithmetic is `765 + 369 = 1,134`, `405 +
+188 = 593`, `552 + 365 = 917`, and `372 + 264 = 636`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**369 / 188 / 365 / 354 / +264**; and all eligible evidence is
+**1,134 / 593 / 917 / 636**. This tier-6 unkeyed excerpt cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 51
+
+`src_909fea2501893dd6f814` is exhausted across all three pages: the cover, all 12 observed
+prompt occurrences, bacteriology-to-virology heading boundary, absence of a key convention,
+retained records, source handles, search rows, external dispositions, and prior-BMS decisions are
+assigned once, with **zero source remainder** and no Family-51 blocker. The next manifest-ordered
+local BMS-102 candidate is tier-6 `src_c7c7410ffee344f41127` ·
+`genetic bacteriophage.pdf`, SHA-256
+`c7c7410ffee344f41127cefac8dc423daef1c7e716ddfbfb9c07571eba1b9d31`, 2,103,512 bytes,
+eight OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its OCR-needed eight-page
+boundary is the next-source processing blocker: fully render and visually adjudicate prompt,
+teaching, and answer conventions before admitting any count.
