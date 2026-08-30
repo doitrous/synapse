@@ -4073,3 +4073,72 @@ Removing this one substantive-text path and unique hash leaves **60 selected inv
 The next evidence-ranked substantive source is the single nine-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology MCQs by DR.KANDEEL.pdf`, SHA-256 `72f19c349bd5817ad84d61737cbc63cf844da772ecc71f1db3943853ade961cd`.
 
 **BLOCKED — S1 cannot be approved:** 60 selected source paths remain untriaged.
+
+## Completed source — Histology MCQs by DR.KANDEEL
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology MCQs by DR.KANDEEL.pdf` | `72f19c349bd5817ad84d61737cbc63cf844da772ecc71f1db3943853ade961cd` | 9 | substantive-text | pages 1–9 rendered and read | Local scanned `HISTOLOGY QUESTIONS ON MIXED QUESTIONS ON MODULE 101 DR.KANDEEL` bank. It prints no institution, sitting, marks, department approval or official-paper/key claim. |
+
+### Exact prompt and marked-answer boundary
+
+Page 1 is a cover. Pages 2–9 print one continuous Q1–Q72 four-option sequence. Every question has one visibly embedded check mark beside a selected option; the marks are part of the scanned source and provide **72 visible answer occurrences**. There is no separate answer-key page, no numbering gap and no unmarked question. The exact inventory is therefore **72 complete prompt occurrences / 72 directly visible marked-answer occurrences**. No marked selection was medically corrected or replaced.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 72 prompts are assigned exactly once to 32 source handles. Each handle received four searches; the compact ledger below prints the identifying search quartet for every handle, giving **32 × 4 = 128 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | Prior-FHB disposition |
+|---|---|---|
+| Q1,Q3,Q5–Q6,Q36–Q37 | Light-microscope magnification, resolution and metric units (`light microscope magnification`; `microscope resolution`; `micrometer nanometer conversion`; `resolution two points`) | Exact prior microscopy-family duplicate. |
+| Q2,Q4,Q38 | Fixation and routine paraffin-section processing (`formalin fixation`; `routine histology processing`; `paraffin section dehydration`; `H&E tissue preservation`) | Prior FHB owns formalin fixation, not the complete processing sequence — **new addition**. |
+| Q7 | Ribosome subunits and nucleolar formation (`ribosome subunits`; `ribosome formed nucleolus`; `ribosome rRNA protein`; `large small ribosomal subunit`) | Exact prior duplicate. |
+| Q8 | Integral membrane proteins (`integral membrane protein`; `transmembrane protein`; `cell membrane embedded protein`; `membrane protein bilayer`) | Exact prior duplicate. |
+| Q9 | Rough ER/Golgi participation in lysosome formation (`lysosome formation Golgi`; `rough ER Golgi lysosome`; `primary lysosome production`; `lysosomal enzyme pathway`) | Exact prior duplicate. |
+| Q10 | Mitochondrial DNA/RNA (`mitochondrial DNA`; `mitochondrial RNA`; `organelle own genome`; `mitochondrial genetic material`) | Exact prior duplicate. |
+| Q11 | Collagen-I distribution in connective tissues (`collagen type I distribution`; `collagen I tendon bone`; `type I collagen sites`; `collagen I connective tissue`) | No exact prior-FHB distribution assignment — **new addition**. |
+| Q12–Q14,Q24,Q34–Q35 | Mucoid, white-fibrous, yellow-elastic and dense-irregular connective tissue (`mucoid connective tissue`; `white fibrous connective tissue`; `yellow elastic connective tissue`; `dense irregular connective tissue breast`) | No prior-FHB connective-tissue type/site family — **new addition**. |
+| Q15,Q19 | Mitosis and spindle arrest (`mitosis crossing over`; `metaphase spindle arrest`; `mitotic daughter cells`; `chromatids separation arrest`) | Exact prior duplicate. |
+| Q16–Q17 | Potentially renewable and non-renewing cells (`potentially renewable cells`; `non renewing cells`; `liver cell renewal`; `nerve cell permanent`) | Exact prior duplicate. |
+| Q18 | Pluripotential stem cells (`pluripotent stem cell`; `stem cell potency`; `bone marrow stem cells`; `pluripotential cells`) | Exact prior duplicate. |
+| Q20 | Metaphase chromosome preparation for karyotyping (`karyotype metaphase`; `chromosomes obtained metaphase`; `karyotype preparation`; `metaphase arrest chromosomes`) | Exact prior duplicate. |
+| Q21–Q22 | Intermediate-filament distribution and cytoskeletal specialisations (`intermediate filaments tissue distribution`; `intermediate filament muscle`; `cilia microtubules`; `microvilli actin filaments`) | Exact prior duplicate. |
+| Q23 | Histiocyte morphology (`histiocyte morphology`; `histiocyte pseudopodia`; `connective tissue macrophage`; `histiocyte euchromatic nucleus`) | No exact prior-FHB histiocyte assignment — **new addition**. |
+| Q25 | Undifferentiated mesenchymal-cell morphology (`mesenchymal cell morphology`; `undifferentiated mesenchymal cells`; `mesenchymal pale cytoplasm`; `mesenchymal large nucleolus`) | No exact prior-FHB assignment — **new addition**. |
+| Q26,Q41,Q46 | Fibroblast morphology and wound healing (`fibroblast morphology`; `fibroblast wound healing`; `connective tissue fibroblast`; `fibroblast collagen synthesis`) | No exact prior-FHB fibroblast assignment — **new addition**. |
+| Q27–Q30 | Rough-ER/ribosome basophilia (`cytoplasmic basophilia rough ER`; `ribosome basophilia`; `protein forming cell RER`; `ribosomal RNA basophilic`) | Exact prior duplicate. |
+| Q31 | Nuclear-pore transport and structure (`nuclear pore transport`; `nuclear pore complex`; `nucleus cytoplasm transport`; `nuclear pores ribonucleoprotein`) | Prior nuclear-components scope does not cover pore transport — **new addition**. |
+| Q32,Q42 | Basophils/mast cells in immediate hypersensitivity (`basophil peanut allergy`; `mast cell urticaria`; `immediate hypersensitivity cells`; `histamine mast basophil`) | No exact prior-FHB hypersensitivity-cell assignment — **new addition**. |
+| Q33 | Neutrophils in acute pyogenic infection (`neutrophil pyogenic infection`; `acute bacterial infection neutrophils`; `pus neutrophil`; `neutrophil recruitment infection`) | Prior leukocyte morphology does not cover this clinical-response scope — **new addition**. |
+| Q39 | PAS demonstration of glycogen (`PAS glycogen stain`; `periodic acid Schiff glycogen`; `glycogen histochemistry`; `Best carmine PAS`) | Exact prior duplicate. |
+| Q40 | Reticular fibres and collagen III (`reticular fibers collagen III`; `type III collagen stroma`; `delicate stromal fibers`; `reticular connective tissue collagen`) | No exact prior-FHB reticular-fibre assignment — **new addition**. |
+| Q43 | Thyroid hormone assessment in failure to lose weight (`thyroxine weight regulation`; `thyroid hormone obesity`; `failure weight loss thyroid`; `thyroxine metabolism weight`) | No exact prior-FHB clinical hormone assignment — **new addition**. |
+| Q44 | Endodermal origin of gastrointestinal epithelium (`GIT epithelium endoderm`; `gastrointestinal lining germ layer`; `epithelium embryonic origin`; `endoderm digestive epithelium`) | Exact prior duplicate. |
+| Q45,Q52,Q54 | Philadelphia chromosome and CML (`Philadelphia chromosome CML`; `translocation 9 22`; `chronic myeloid leukemia chromosome`; `Philadelphia chromosome structure`) | Exact prior duplicate. |
+| Q47 | Turner syndrome (`Turner syndrome 45 XO`; `Turner short stature amenorrhea`; `sex chromosome monosomy`; `Turner karyotype`) | Exact prior duplicate. |
+| Q48,Q51 | Down syndrome and Robertsonian translocation (`Down syndrome Robertsonian`; `translocation chromosome 21 14`; `Down syndrome 46 chromosomes`; `trisomy 21 translocation carrier`) | Exact prior duplicate. |
+| Q49–Q50,Q53,Q55 | Barr bodies and sex-chromosome aneuploidies (`Barr body multiple X`; `Klinefelter Barr body`; `trisomy X Barr bodies`; `sex chromosome aneuploidy`) | Exact prior duplicate. |
+| Q56–Q61,Q64–Q65 | Surface/glandular epithelium, transitional epithelium and metaplasia (`surface epithelium classification`; `transitional epithelium bladder`; `exocrine gland secretion`; `bronchial squamous metaplasia`) | Exact prior duplicate. |
+| Q62–Q63,Q71 | Neuronal process direction and bipolar-neuron distribution (`dendrite conduction direction`; `axon carries impulses away`; `bipolar neuron sites`; `neuron process polarity`) | No exact prior-FHB neuronal-process family — **new addition**. |
+| Q66–Q70 | Epithelial junctions, basement membrane, ion-transport cells and cilia (`gap junction communication`; `tight junction distance`; `basement membrane collagen IV`; `ion transporting epithelial cells cilia`) | Exact prior duplicate. |
+| Q72 | Microtubule-based axoplasmic transport (`axoplasmic transport microtubules`; `axon transport cytoskeleton`; `neuronal vesicle transport`; `microtubule axonal transport`) | No exact prior-FHB axoplasmic-transport assignment — **new addition**. |
+
+The source-level search result is **1 live / 10 pending / 21 new = 32 handles**. Nineteen handles are exact prior-FHB duplicates. Thirteen survive exact-scope comparison, all in the new bucket: routine histologic processing; collagen-I distribution; connective-tissue types/sites; histiocytes; mesenchymal cells; fibroblasts; nuclear-pore transport; basophil/mast-cell hypersensitivity; neutrophilic pyogenic response; reticular fibres/collagen III; clinical thyroid-hormone assessment; neuronal-process polarity; and axoplasmic transport. The post-prior result is therefore **0 live / 0 pending / 13 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+72 questions / +72 visibly marked answers / +13 concepts = +0 live / +0 pending / +13 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3369 | 3103 | 445 | 66 | 84 | 295 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 84 + 295 = 445`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **59 selected inventory paths / 57 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `e016353a012d4966f302118b206c2b5af178af4cd5cb062c23d79f243691b0ab`. Pinned triage debt becomes **16 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`49 + 57 = 106`**.
+
+The next evidence-ranked substantive source is the single 16-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histo FHB101 Exam Night Questions & Notes.pdf`, SHA-256 `2f57b61e7071d6e87a5ae7a0464cbae2ab7d2cef7f12941420473966fd89aa58`.
+
+**BLOCKED — S1 cannot be approved:** 59 selected source paths remain untriaged.
