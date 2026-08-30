@@ -5953,3 +5953,164 @@ pages; SHA-256 `ce57f137927ce4b3058cda875c78554dda4a97502a3feed5b923e2165b948977
 under `Year 1/LCS 103/Biochemistry/Practical/Virtual Lab 2 - CBL/`. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 50 — Tier-5 Biochemistry practical case deck with printed answers
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_ce57f137927ce4b3058c` |
+| File / SHA-256 | `CBL muscles and bone.pdf` / `ce57f137927ce4b3058cda875c78554dda4a97502a3feed5b923e2165b948977` |
+| File boundary | 535,598 bytes · unencrypted PDF · 34 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Biochemistry · Practical · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Biochemistry/Practical/Virtual Lab 2 - CBL/CBL muscles and bone.pdf` |
+| Visible provenance | p. 1 prints `Case Scenarios of bone and muscles isoenzymes`; PDF author is `Amany Mohamed` and creator/producer is Microsoft PowerPoint 2016 |
+| Authority finding | Manifest/path-placed local tier-5 practical case-based learning deck. It is not a recoverable sitting paper or official department answer key, but it does print source-authored answers to every question it asks. |
+
+The SHA-256, byte size and 34-page boundary were recomputed and match the assigned source.
+All 34 pages were rendered at 180 dpi and read against the native text layer; all 34 complete
+page renders have distinct SHA-256 values. Page 1 is the title, pp. 2–33 alternate declarative
+case scenarios with open questions/answers or keyed MCQs, and p. 34 is `Thank you`.
+
+The source contains **21 eligible ordinary assessment-prompt occurrences with 21 directly
+printed source keys**: 11 open questions carry a visible `Answer` or simultaneous answer
+list/diagram, and ten MCQs print `Correct Answer`. The 11 case-scenario slides are declarative
+teaching context rather than additional question occurrences or implicit keys. None of the 21
+questions is a station instruction, image-identification station, response form or mark-bearing
+practical task, so the separate stand-alone practical/station-prompt counter does not increase.
+
+### Complete assessment prompt, key and semantic-collapse inventory
+
+| Prompt pages / occurrences | Source-first tested scope | Directly printed key evidence | Collapsed assessment handle |
+|---|---|---|---|
+| pp. 3–4 · 2 | clinical significance of raised serum aldolase | p. 3 lists muscular dystrophy/DMD, viral hepatitis and advanced prostate cancer; p. 4 prints `Correct Answer: C` (`Suggests muscle disease or injury`) | `serum-aldolase-clinical-significance` |
+| pp. 6–7 · 2 | CK isoenzyme identities and count | p. 6 prints CK1/BB brain, CK2/MB cardiac and CK3/MM muscle; p. 7 prints `Correct Answer: A` (3) | `creatine-kinase-isoenzyme-types-and-count` |
+| pp. 9–10 · 2 | LDH isoenzyme identities, tissues and cardiac-injury fraction | p. 9 prints LDH1–LDH5 with tissue assignments; p. 10 prints `Correct Answer: A` (LDH-1) | `ldh-isoenzymes-and-tissue-significance` |
+| pp. 12, 15 · 2 | cells/tissues with high normal ALP concentration | p. 12 prints hepatobiliary-tract cells and osteoblasts; p. 15 prints `Correct Answer: B` (hepatocytes and osteoblasts) | `alkaline-phosphatase-high-concentration-tissues` |
+| p. 14 · 1 | other bone enzyme increased in the Paget case | prints `Acid phosphatase enzyme` | `acid-phosphatase-as-paget-bone-enzyme` |
+| p. 17 · 1 | ALP isoenzyme types separated by electrophoresis | the simultaneous labelled body diagram prints liver, intestinal, renal-tubular-cell, placental, bone and granulocyte ALP | `alp-isoenzyme-types-by-electrophoresis` |
+| p. 18 · 1 | malignancy settings associated with increased ALP | prints `Correct Answer: A` (`When the liver or bone is involved`) | `alp-malignancy-liver-or-bone-involvement` |
+| pp. 20–21 · 2 | mechanism of CK3/MM elevation in Duchenne muscular dystrophy | p. 20 ties DMD degeneration to raised CK3 in muscle disease; p. 21 prints `Correct Answer: B` (`Leakage from damaged muscle cells`) | `ck-mm-elevation-in-duchenne-muscular-dystrophy` |
+| pp. 23–24 · 2 | mechanism of ALP elevation in rickets | p. 23 prints osteoblast concentration/membrane association and bone-disease elevation; p. 24 prints `Correct Answer: C` (`Increased osteoblastic activity`) | `alp-elevation-in-rickets-osteoblast-activity` |
+| pp. 26–27 · 2 | mechanism of ALP elevation in osteomalacia | p. 26 prints the osteoblast/membrane explanation; p. 27 prints `Correct Answer: B` (`Enhanced osteoblastic activity due to defective mineralization`) | `alp-elevation-in-osteomalacia-osteoblast-activity` |
+| pp. 29–30 · 2 | mechanism and meaning of ALP elevation during fracture healing | p. 29 prints increased osteoblast activity/new-bone formation; p. 30 prints `Correct Answer: B` (`Increased osteoblastic activity`) | `alp-elevation-during-fracture-healing` |
+| p. 32 · 1 | Paget ALP as a marker of dysregulated remodelling | prints compensatory osteoblast activity in response to abnormal osteoclast resorption | `alp-paget-disease-remodeling-mechanism` |
+| p. 33 · 1 | diagnostic importance of isoenzymes | prints `Correct Answer: B` (`They provide tissue-specific diagnostic insights`) | `isoenzyme-tissue-specific-diagnostic-value` |
+| **Total** | **21 prompt occurrences collapse to 13 source handles** | **21 directly printed keys** | **13 distinct source scopes before prior-LCS adjudication** |
+
+There are no literal duplicate pages. The repeated open/MCQ pairs test the same scope and are
+collapsed semantically within each row, while their separately printed prompt and key
+occurrences remain counted. Earlier case conclusions are teaching context, not extra keys; no
+answer is inferred from medicine outside the printed source.
+
+### Assessment searches, external disposition and prior-LCS adjudication
+
+| Assessment handle | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `serum-aldolase-clinical-significance` | serum aldolase clinical significance; aldolase elevated muscular dystrophy hepatitis prostate; aldolase muscle disease injury; elevated serum aldolase Duchenne | carbohydrate-pathway aldolase strings are different enzymes/contexts; no substantive same-scope record — new |
+| `creatine-kinase-isoenzyme-types-and-count` | creatine kinase isoenzymes CK1 CK2 CK3; CK BB MB MM tissues; serum creatine kinase three isoenzymes; creatine kinase isoenzyme count | pending `ldh-and-ck-isoenzymes-comparison` owns the CK family, composition and tissue assignments — pending |
+| `ldh-isoenzymes-and-tissue-significance` | LDH isoenzymes tissue distribution heart; LDH1 heart injury; LDH 1 2 3 4 5 tissues; lactate dehydrogenase isoenzyme heart | the same pending comparison concept owns LDH1–LDH5, tissues and diagnostic fractions — pending |
+| `alkaline-phosphatase-high-concentration-tissues` | alkaline phosphatase high concentration hepatobiliary osteoblasts; ALP hepatocytes osteoblasts; cells contain high concentration ALP; alkaline phosphatase normal tissue distribution | pending osteoblast and biliary-ALP records are separate narrower components; no complete tissue-distribution handle — new |
+| `acid-phosphatase-as-paget-bone-enzyme` | acid phosphatase Paget disease bone enzyme; other bone enzyme acid phosphatase; acid phosphatase increased Paget; bone enzymes ALP acid phosphatase | prostate/ACP mentions do not own this Paget relationship — new |
+| `alp-isoenzyme-types-by-electrophoresis` | ALP isoenzymes separated electrophoresis; alkaline phosphatase types liver intestine placenta bone granulocyte; alkaline phosphatase isoenzyme types; ALP electrophoretic isoforms | no substantive same-scope record — new |
+| `alp-malignancy-liver-or-bone-involvement` | ALP increased malignancy liver bone; alkaline phosphatase cancer liver bone involvement; ALP bone metastasis malignancy; malignancy alkaline phosphatase scenario | biliary-obstruction ALP and bone-tumour mentions do not own this malignancy/tissue relationship — new |
+| `ck-mm-elevation-in-duchenne-muscular-dystrophy` | CK MM elevated Duchenne leakage damaged muscle; DMD creatine kinase muscle cell leakage; CK3 MM Duchenne muscular dystrophy; creatine kinase elevated dystrophin muscle damage | pending CK-isoenzyme and muscular-dystrophy material explicitly owns CK leakage from damaged muscle in dystrophy — pending |
+| `alp-elevation-in-rickets-osteoblast-activity` | ALP elevated rickets osteoblastic activity; alkaline phosphatase rickets mechanism; rickets ALP osteoblasts; why ALP high in rickets | vitamin-D/rickets and osteoblast-ALP records are partial; no one substantive record owns this disease-specific mechanism — new |
+| `alp-elevation-in-osteomalacia-osteoblast-activity` | ALP elevated osteomalacia osteoblastic activity; alkaline phosphatase osteomalacia mechanism; osteomalacia defective mineralization ALP; why ALP high in osteomalacia | vitamin-D/osteomalacia and osteoblast-ALP records are partial; no one substantive record owns the combined mechanism — new |
+| `alp-elevation-during-fracture-healing` | ALP elevated bone healing osteoblast activity; alkaline phosphatase fracture healing; bone repair osteoblast ALP; callus formation elevated ALP | pending bone-cell material owns osteoblast ALP/new-bone formation and fracture-healing activation; exact accepted Family-13 `osteoblast-bone-forming-cell-alkaline-phosphatase` absorbs this application — pending external evidence, prior eligible-LCS reuse |
+| `alp-paget-disease-remodeling-mechanism` | ALP Paget disease bone remodeling osteoblast; elevated alkaline phosphatase Paget mechanism; Paget abnormal osteoclast compensatory osteoblast; high ALP increased bone turnover Paget | accepted Paget diagnosis handles do not own the compensatory osteoblast/osteoclast mechanism; no complete external record — new |
+| `isoenzyme-tissue-specific-diagnostic-value` | isoenzymes clinical diagnostics tissue specific; isoenzyme diagnostic importance; isoenzymes tissue-specific diagnostic insights; clinical role isoenzymes | pending LDH/CK comparison expressly owns tissue-specific diagnostic interpretation — pending |
+
+All **13 × 4 = 52** required assessment searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and source-import roots. The direct external
+result is **0 live / 5 pending / 8 new**. Exact accepted-prior comparison removes the one
+fracture-healing/osteoblast-ALP handle from module addition, leaving a tested-concept delta of
+**0 live / 4 pending / 8 new = 12**. Family 49's practical-teaching scopes are corroborating
+teaching evidence, not previously counted eligible assessment concepts.
+
+### Complete practical teaching-plate and mapping inventory
+
+Only the 11 declarative case-scenario slides enter the practical teaching-plate ledger. The
+21 question/key compositions remain in the assessment ledger above rather than being counted
+again as teaching plates or mappings. One mapping below is one explicit case finding,
+laboratory result, disease association or mechanism relation; age/sex alone is not a mapping.
+
+| Physical page | Source-first case-teaching composition | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 2 | progressive weakness/walking difficulty with raised aldolase and DMD context | 3 mappings |
+| 5 | marathon-associated CK3/MM rise, skeletal-muscle damage and rhabdomyolysis | 2 mappings |
+| 8 | trauma-associated LDH5 rise and muscle-tissue damage | 2 mappings |
+| 11 | bowed legs/bone pain, raised ALP/osteoblast activity and vitamin-D-deficient rickets | 4 mappings |
+| 13 | bone pain/deformity, raised ALP/high turnover and Paget disease | 3 mappings |
+| 16 | raised ALP/bone metastasis with breast- and prostate-cancer associations | 3 mappings |
+| 19 | DMD clinical pattern, raised aldolase/CK3-MM and dystrophin mutation | 7 mappings |
+| 22 | nutritional-rickets clinical, exposure, laboratory and radiographic pattern | 11 mappings |
+| 25 | vitamin-D-deficient osteomalacia clinical, laboratory and biopsy pattern | 10 mappings |
+| 28 | fracture callus, raised ALP and osteoblast-mediated bone repair | 3 mappings |
+| 31 | Paget clinical, laboratory, remodelling and imaging pattern | 8 mappings |
+
+The **11 case-page occurrences are 11 source-distinct practical teaching plates**. Their
+mapping arithmetic is `3 + 2 + 2 + 4 + 3 + 3 + 7 + 11 + 10 + 3 + 8 = 56`. No page
+contains a masked callout, rule blank or unresolved label. The question slides contain no
+unanswered residue because every prompt has a directly printed key.
+
+### Practical teaching scopes, searches and prior-LCS adjudication
+
+The 11 case plates consolidate to eight source-level teaching scopes.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `duchenne-muscular-dystrophy-clinical-enzyme-profile` · pp. 2, 19 | Duchenne muscular dystrophy aldolase CK clinical profile; DMD progressive weakness pseudohypertrophy dystrophin; Duchenne serum enzymes aldolase creatine kinase; DMD muscle enzyme case | accepted Family-49 aldolase/CK teaching plus prior DMD clinical evidence jointly own the profile — prior LCS reuse |
+| `ck-mm-rhabdomyolysis-after-endurance-exercise` · p. 5 | CK MM rhabdomyolysis marathon; creatine kinase skeletal muscle damage athlete; CK3 MM elevated rhabdomyolysis; marathon collapse muscle enzyme | Family-49 owns generic CK-MM muscle damage, not the exercise/rhabdomyolysis application — new practical teaching |
+| `ldh5-traumatic-skeletal-muscle-damage` · p. 8 | LDH5 trauma skeletal muscle damage; LDH 5 elevated muscle injury; trauma LDH isoenzyme muscle; LDH5 striated muscle damage | narrower application of accepted Family-49 LDH5 skeletal-muscle interpretation — prior LCS reuse |
+| `rickets-clinical-laboratory-alp-profile` · pp. 11, 22 | rickets clinical laboratory ALP profile; rickets bowed legs craniotabes alkaline phosphatase; vitamin D deficiency rickets low calcium phosphate; rickets metaphyseal cupping fraying | accepted metabolic-bone/rickets and Family-49 phosphatase evidence jointly own the profile — prior LCS reuse |
+| `paget-disease-clinical-laboratory-alp-profile` · pp. 13, 31 | Paget disease clinical laboratory ALP profile; Paget bone pain deformity increased hat size; Paget high ALP normal calcium phosphate; Paget thickened irregular bone remodeling | accepted Paget assessment and Family-49 ALP teaching jointly own the profile — prior LCS reuse |
+| `bone-metastasis-elevated-alp-breast-prostate` · p. 16 | bone metastasis elevated ALP breast prostate; cancer back pain alkaline phosphatase bone metastasis; ALP bone metastases tumor marker; breast prostate cancer bone metastasis ALP | accepted Family-49 systemic/malignancy ALP teaching owns the relation — prior LCS reuse |
+| `osteomalacia-clinical-laboratory-alp-profile` · p. 25 | osteomalacia clinical laboratory ALP profile; osteomalacia low calcium phosphate vitamin D; osteomalacia defective mineralization elevated ALP; adult bone pain muscle weakness osteomalacia | accepted metabolic-bone and Family-49 ALP teaching jointly own the profile — prior LCS reuse |
+| `fracture-healing-osteoblast-alp-profile` · p. 28 | fracture healing elevated ALP osteoblasts; bone healing callus alkaline phosphatase; osteoblastic activity fracture repair ALP; bone formation enzyme fracture healing | accepted Family-13 osteoblast/ALP and Family-49 healing-fracture teaching own the profile — prior LCS reuse |
+
+All **8 × 4 = 32** required teaching-scope searches completed. Raw component searches do not
+change the exact accepted-prior result: **seven prior-LCS teaching reuses / one new practical
+teaching scope**. These teaching scopes remain separate from the 13 assessment handles.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 50 | Family 50 delta | After Family 50 |
+|---|---:|---:|---:|
+| Eligible observed question records | 458 | +21 | 479 |
+| Eligible printed question keys | 242 | +21 | 263 |
+| Eligible distinct tested concepts | 211 | +12 | 223 |
+| Question live / pending / new | 9 / 56 / 146 | +0 / +4 / +8 | 9 / 60 / 154 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 298 verified minimum | +11 | 309 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,042 verified minimum | +56 | 2,098 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 92 | +0 | 92 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 70 | +0 / +0 / +1 | 0 / 0 / 71 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `21 = 11 + 10`, `21 prompt occurrences = 21
+printed keys`, `21 occurrences collapse to 13 source handles`, `13 = 1 prior eligible reuse
++ 4 pending additions + 8 new additions`, `458 + 21 = 479`, `242 + 21 = 263`, `211 +
+12 = 223`, `9 + 60 + 154 = 223`, `298 + 11 = 309`, `2,042 + 56 = 2,098`, `92 + 0
+= 92`, and `70 + 1 = 71`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-49
+remainder leaves **26 rank-4/rank-5 path instances / 24 unique hashes**. The Family-49
+method was reproduced first: its 27/25 row sets recomputed to
+`5d7901670d066b2f4bc2fba6ed5c1bbaab8d269b147a110dcb26bb6dab4ff2eb` and
+`5b8d0de62e55be15b393a46b39e58e949e01fec1a8514f734006c53e24f27ba7`.
+For the exact post-Family-50 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`d4828bf908ad85b5ebe561cd54fcbbe6b64f78729f87bc022e073e53633d2c55`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`da81d39b2a88fb1f992bf39f661649e66ca1454ad952863cbc6436a97290e584`.
+The next manifest-order gate is tier-4 Biochemistry theoretical source
+`src_76f90f3f79fbc13bae3f`, `source of energy for muscle contrction.pdf` (3,412,647 bytes;
+51 native-text pages; SHA-256
+`76f90f3f79fbc13bae3f8f1269cbdf5bad86a8691d660aae2ddadc93b20276a4`) under `Year 1/LCS
+103/Biochemistry/Theoretical/Lec 1 - Sources of Energy for Muscle Contraction/`. Broader
+LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
+source copy was created.
