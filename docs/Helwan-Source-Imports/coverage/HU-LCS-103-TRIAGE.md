@@ -5297,3 +5297,116 @@ The next manifest-order gate is tier-4 Anatomy theoretical source
 103/Anatomy/Theoretical/Lower Limb/Lec 5 - Blood Vessels & Nerves of Lower Limb/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 45 — Tier-4 lower-limb nerves-and-vessels teaching-only lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_3c99184681f4248eba19` |
+| File / SHA-256 | `Nerves_and_Vessels_of_Lower_Limb_Dr_Sarah_بعد_التعديل.pdf` / `3c99184681f4248eba19ac92b0b2105dd5762abfacd64c1db88409b6cf1ca78e` |
+| File boundary | 1,975,984 bytes · unencrypted PDF · 19 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 5 - Blood Vessels & Nerves of Lower Limb/Nerves_and_Vessels_of_Lower_Limb_Dr_Sarah_بعد_التعديل.pdf` |
+| Visible provenance | p. 1 prints `Nerves and Vessels of Lower Limb`, `Dr. Sarah Arakib` and `MD Anatomy and Embryology`; PDF author is `Lenovo` and creator/producer is Microsoft PowerPoint for Microsoft 365 |
+| Authority finding | Manifest/path-placed local tier-4 teaching evidence. It is not a sitting paper, station sheet, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and 19-page boundary were recomputed and match the assigned source.
+All 19 pages were rendered at 160 dpi and read against the native text layer. Page 1 is the
+title/provenance slide, pp. 2–4 teach the posterior tibial artery, pp. 5–7 teach the anterior
+tibial artery, pp. 8–11 teach the tibial nerve from the popliteal fossa through the leg, pp.
+12–13 teach the common fibular nerve, pp. 14–15 teach the superficial fibular nerve, pp.
+16–17 teach the deep fibular nerve, p. 18 teaches common-fibular and tibial nerve injury
+patterns, and p. 19 is a photographic motivational closing slide.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. Every anatomical heading, sentence, label, coloured circle and
+arrow on pp. 2–18 is simultaneous declarative teaching. No page contains an instruction to
+identify a structure, interrogative stem, option set, response field, answer blank, mark
+allocation, correctness convention or answer reveal.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's vessel/nerve figures, course diagrams, skin maps and injury photographs remain
+parts of tier-4 theoretical teaching compositions; they are not promoted into the tier-5
+practical plate/mapping ledger.
+
+| Physical pages | Source-first instructional compositions | Slide occurrences |
+|---:|---|---:|
+| 2–4 | posterior-tibial-artery origin, course, termination and seven branch groups | 3 |
+| 5–7 | anterior-tibial-artery origin, course, dorsalis-pedis continuation and recurrent/muscular/malleolar branches | 3 |
+| 8–11 | tibial-nerve origin and popliteal course, continuation through the posterior leg, muscular/cutaneous/articular branches and plantar terminal divisions | 4 |
+| 12–13 | common-fibular-nerve origin, popliteal course, neck-of-fibula termination and cutaneous/articular/terminal branches | 2 |
+| 14–15 | superficial-fibular-nerve origin, course, termination, muscular branches and cutaneous territory/exceptions | 2 |
+| 16–17 | deep-fibular-nerve origin, anterior-compartment course, foot termination, muscular supply and first-web-space territory | 2 |
+| 18 | common-fibular foot-drop and tibial-nerve motor-loss patterns | 1 |
+| **Total** | **tier-4 instructional compositions** | **17** |
+
+The **17 content-slide occurrences are 17 source-distinct teaching compositions**.
+SHA-256 comparison of all 19 rendered complete pages found no exact full-page duplicate to
+collapse. The source boundary is therefore **17 teaching compositions / 0 ordinary
+questions / 0 practical or station prompts / 0 printed assessment keys / 0 assessment
+residues**. As theoretical material, its figures add **0 practical plates, 0 practical label
+mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 17 compositions consolidate to seven source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `posterior-tibial-artery` · pp. 2–4 | posterior tibial artery origin course termination branches; posterior tibial artery popliteal terminal branch; posterior tibial artery medial lateral plantar; posterior tibial artery fibular calcaneal branches | pending 103-BMS material owns the complete vessel scope; exact accepted Families 1 and 34 artery handle — prior LCS reuse with inherited pending overlap |
+| `anterior-tibial-artery` · pp. 5–7 | anterior tibial artery origin course termination branches; anterior tibial artery interosseous membrane; anterior tibial artery dorsalis pedis continuation; anterior tibial artery malleolar branches | live records own the vessel's compartment entry and dorsalis-pedis continuation; exact accepted Families 1 and 34 handle — prior LCS reuse with inherited live overlap |
+| `tibial-nerve-origin-course-termination-and-branches` · pp. 8–11 | tibial nerve origin course termination branches; medial popliteal nerve popliteal fossa; posterior tibial nerve medial lateral plantar; tibial nerve muscular sural calcaneal branches | pending 103-BMS material can absorb the continuous nerve/branch scope; accepted Family-33 `tibial-nerve-origin-and-termination` is narrower and does not own the complete branch inventory — new theoretical teaching |
+| `common-fibular-nerve-origin-termination-and-branches` · pp. 12–13 | common fibular nerve origin course termination branches; common peroneal nerve popliteal fossa; common fibular nerve neck fibula; common peroneal superficial deep branches | pending 103-BMS material overlaps the full nerve scope; exact accepted Families 33 and 34 handle — prior LCS reuse |
+| `superficial-fibular-nerve-course-and-distribution` · pp. 14–15 | superficial fibular nerve origin course termination branches; superficial peroneal nerve fibularis longus brevis; superficial fibular nerve dorsum foot cutaneous; superficial peroneal nerve sensory exceptions | pending 103-BMS material owns the motor/cutaneous distribution; no accepted prior-LCS handle owns this individual nerve's origin, course, termination and distribution together — new theoretical teaching |
+| `deep-fibular-nerve-course-and-distribution` · pp. 16–17 | deep fibular nerve origin course termination branches; deep peroneal nerve anterior tibial artery; deep fibular nerve anterior compartment muscles; deep peroneal nerve first web space | pending AU material owns the muscle and first-web-space distribution; accepted Family-20 terminal-branch scope plus Family-34 origin/termination and anterior-compartment scopes jointly own the present evidence — prior LCS reuse |
+| `common-fibular-and-tibial-nerve-injury-patterns` · p. 18 | common fibular tibial nerve injuries; common peroneal nerve foot drop; tibial nerve injury loss plantarflexion; equinovarus calcaneovalgus nerve injury | pending 103-BMS material owns both motor-loss patterns; exact components of accepted Family-1 `major-lower-limb-nerve-injury-deformities` — prior LCS reuse |
+
+All **7 × 4 = 28** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **1 live / 6 pending / 0 new**; exact
+accepted-prior comparison prevents five repeated module additions, leaving **five prior-LCS
+reuses / two new theoretical teaching scopes**. There is no assessment handle to search.
+Declarative teaching scopes do not enter the eligible tested-concept count, and no
+theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 45 | Family 45 delta | After Family 45 |
+|---|---:|---:|---:|
+| Eligible observed question records | 455 | +0 | 455 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 209 | +0 | 209 |
+| Question live / pending / new | 9 / 54 / 146 | +0 / +0 / +0 | 9 / 54 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `17 = 3 + 3 + 4 + 2 + 2 + 2 + 1`, `0
+prompts = 0 source handles`, `455 + 0 = 455`, `242 + 0 = 242`, `209 + 0 = 209`, `9 + 54
++ 146 = 209`, `251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-44
+remainder leaves **31 rank-4/rank-5 path instances / 29 unique hashes**. The Family-44
+method was reproduced first: its 32/30 row sets recomputed to
+`b2c37576487a0a96768f46f4e2212abb50e005012fead6bbe298f209542b38bb` and
+`33a8e100e59cb0bf9d3ec4f33ee4f3b414161b25a61be2d2a5e617fdb3fc0234`.
+For the exact post-Family-45 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`905d7cac60a1797f845dcccfd2a941707acbb3fa7bd87c1746802187cf699ce3`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`ce58b03e3071ca9bd48b8ed2815fc4e7d370f48ac68cb8ef74cb3c2265513625`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_348ca6fdcbd882b2982c`, `Anatomy Lecture Hip_ Knee _ ankle Joints.pdf` (8,214,026
+bytes; 90 native-text pages; SHA-256
+`348ca6fdcbd882b2982c9a73302712b92c23736d295778d2eb32172649990265`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 6 - Hip, Knee & Ankle Joints/`. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
