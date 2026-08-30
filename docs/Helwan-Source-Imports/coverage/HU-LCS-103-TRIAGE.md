@@ -20832,3 +20832,103 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 33
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 198 — Tier-6 attributed medial-thigh anatomy teaching handout
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_6692b3afb0c96cf69d9d` / `6692b3afb0c96cf69d9d75d6d6ca920f0124d64d4473dd36fd3f5d579a821740` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/Medial compartment of thigh.pdf` |
+| Physical verification | **1,469,372 bytes; 11 native-text landscape-A4 pages; 841.92 x 595.32 pt; tagged; unencrypted; PDF 1.7**. Full hash, byte size, page count and geometry match; all eleven 160-dpi complete-page renders have distinct hashes. The document reports no form and qpdf confirms no AcroForm fields. |
+| Visible / metadata provenance | Every page prints `Anatomy`, `medial compartment of the thigh`, `Dr/ M. Ali` and a page number. Metadata separately names author `Mohamed Mamdouh AbdAziz`, Microsoft Word for Microsoft 365 creator/producer and 22 May 2025 creation/modification. No university, module code, cohort, sitting, marks or official-key statement appears. |
+| Authority finding | Attributed local tier-6 teaching-handout evidence. Visible and metadata names remain separate source layers; neither establishes a recoverable Helwan assessment sitting, response form, practical station or official key. |
+
+All **11/11 pages** were rendered at 160 dpi, visually inspected at full resolution and read
+against the complete native layer. The physical boundary is:
+
+| Pages | Source-first teaching composition |
+|---:|---|
+| 1 | completed lower-limb bone/region orientation and thigh definition |
+| 2 | medial-compartment/hip-adductor overview, action, supply and labelled origin/insertion images |
+| 3–5 | completed gracilis, pectineus, adductor-longus, adductor-brevis, obturator-externus and adductor-magnus feature/OINA tables with labelled images |
+| 6–7 | adductor-magnus summary; completed multi-muscle origin/insertion/innervation/action comparison |
+| 8 | adductor-canal aliases, shape, site, importance, boundaries and contents with labelled diagrams |
+| 9 | obturator-nerve roots, course, divisions, motor branches and cutaneous distribution with labelled diagrams |
+| 10 | further completed obturator-nerve diagrams plus obturator-artery origin, course, division and acetabular branch |
+| 11 | completed obturator/femoral-head arterial figures and femoral-neck-fracture/necrosis teaching statement |
+
+There is **no assessment inventory**. Every heading, checkbox-style bullet, table and figure
+supplies its information simultaneously; no question, learner instruction, masked answer,
+response area, selection state, delayed answer or key appears. Exact boundary is **0 eligible
+or external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment
+prompts**.
+
+Source truth remains literal and unrepaired. This includes the p. 2 claim of `four primary
+muscles` beside six numbered names, `Gracillis`, `Origine`, `kneeand`, `Ischiopubicramu`,
+`Hamstring par`, `Vastusmedialis`, and the p. 10 diagram's `L1,2,3` ventral-rami label beside
+the p. 9 textual `L2,3,4` roots. Every boundary/content and table state is retained without
+medical or editorial repair.
+
+### Practical and image boundary
+
+Every muscle, region, vessel and nerve diagram is fully labelled and embedded beside
+declarative teaching. There is no masked structure, numbered identification station,
+learner-completed map, response blank or practical key. Exact practical delta is **0 prompts /
+0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The eleven pages consolidate to nine complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| lower-limb bones, regions and thigh definition · p. 1 | lower limb bones regions thigh hip knee joints | Accepted Families 39, 41, 46 and later summaries own the orientation scope — prior-LCS reuse. |
+| medial-compartment muscle overview · p. 2 | medial compartment hip adductors muscles action obturator nerve | Accepted Families 32, 41 and 197 own the complete group overview — prior-LCS reuse. |
+| medial-thigh muscle origins · pp. 2–7 | medial thigh muscle origins pectineus gracilis adductors | Accepted Families 32, 41 and 197 own the complete origin scope — prior-LCS reuse. |
+| medial-thigh muscle insertions · pp. 2–7 | medial thigh insertions adductor tubercle gracilis tibia linea aspera | Accepted Families 32, 41 and 197 own the complete insertion scope — prior-LCS reuse. |
+| medial-thigh muscle innervation/actions · pp. 2–7 | medial thigh innervation actions obturator nerve adductor muscles | Accepted Families 1, 32, 41 and 197 own the printed supply/action scope — prior-LCS reuse. |
+| adductor canal · p. 8 | adductor canal boundaries contents sartorius vastus medialis femoral vessels | Accepted Families 1, 5, 20, 41 and 197 own the complete canal scope — prior-LCS reuse. |
+| obturator nerve origin/divisions/branches · pp. 9–10 | obturator nerve L2 L3 L4 anterior posterior branches medial thigh | Accepted Families 1, 2, 20, 41 and 197 own the complete nerve scope — prior-LCS reuse. |
+| obturator artery origin/course/branches · pp. 10–11 | obturator artery internal iliac acetabular branch obturator membrane | Accepted Families 5, 41 and 197 own the complete artery scope — prior-LCS reuse. |
+| femoral-head supply and neck-fracture consequence · p. 11 | femoral neck fracture blood supply femoral head necrosis | Accepted Families 2, 5, 32, 41 and 45 own the neurovascular/clinical scope — prior-LCS reuse. |
+
+Each of the **nine accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **9 x 4 =
+36 required search invocations**. The surface searches found live and pending component
+coverage; complete-scope accepted-ledger comparison establishes **9 prior-LCS theoretical
+reuses / 0 additive live / 0 additive pending / 0 additive new teaching scopes**. Declarative
+theoretical scopes do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 197's remainder. Removing its sole path changes the remainder
+from **33 paths / 32 unique hashes** to **32 paths / 31 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **23 paths / 23 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 197's checksums were
+`da43297e0ac14d8af9b8dcb073bd698c30b062e4718dc2eff47ed2bb396cb48d` (paths) and
+`d37931fbac938a68586452de26353d97e48bf97dc6451ef59fe6e3a37afc6c3c` (unique hashes).
+For the exact post-Family-198 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ef468433b736696a53478cbc9f9c8db927b9ca0b03678e3576f9d7a366b5eab4`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`67265267d42eddd674ac3ec772dadf3557ddfc8491a7a3edcd8136ff361444af`.
+
+The exact next manifest-order debt is tier-6 `src_dbea380c57c7673c3204`, `Muscles actions of
+the Lower limb.pdf` (49,084 bytes; one native-text 1272.96 x 1933.92 pt page; untagged;
+unencrypted; PDF 1.4; SHA-256
+`dbea380c57c7673c32046910bf8c979402ad0acedbe45fb800da255ee769d238`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until the full
+oversized page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:**
+32 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
+update, import or source copy was created.
