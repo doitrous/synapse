@@ -16913,3 +16913,178 @@ with **zero source remainder** and no Family-157 blocker. The exact next manifes
 Arabic/English provenance, authority, complete prompt/key boundary, source-first collapse,
 four-search packets for every surviving handle, prior-BMS reconciliation, arithmetic, and
 relation to earlier neoplasia banks are the exact next-source blockers.
+
+## Family 158 — keyed bilingual-layout Neoplasia College-MCQ bank
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_d2b1aa67547a2309da4f` · `MCQs - College MCQs Neoplasia MCQs.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `d2b1aa67547a2309da4fb74452f443bb9a625e24ff226e53ae5fc4b834bdfbbd` · **551,933 bytes** |
+| Format / complete visual boundary | **15 native-text 612×792-point portrait US-letter pages**. All 15 pages rendered at 170 dpi into 15 non-empty 1445×1870-pixel images and read individually at original detail: pp.1–14 Q1–Q71 and p.15 the complete `Key Answers`. No question, option, continuation, key entry, header, prayer/study text, or terminal remainder is omitted. |
+| Native-text reality | Layout extraction contains **2,599 words / 19,361 bytes** and raw extraction 2,554 words / 18,511 bytes. Every stem, option, page continuation, and key entry is natively extractable; the render governs the bilingual layout and confirms that question pages themselves contain no selection marks. No OCR was needed. |
+| Visible provenance | The first page visibly prints `Neoplasia`, Arabic devotional/study text, and repeated Arabic devotional headers. It does **not** visibly name Helwan University, an instructor, a course, cohort, or sitting. The Helwan BMS-102 folder/manifest placement is therefore repository provenance, not a visible source claim. |
+| Metadata caution | Metadata author is `Eman Ibrahem Hefny Ibrahem`; creator/producer is Microsoft Word for Microsoft 365; creation/modification time is 12 August 2025. These fields support compilation/export provenance only. They do not establish visible authorship, academic year, sitting date, department approval, or official-key status. |
+| Authority | A complete keyed tier-3 College-MCQ study bank. The terminal key is source-supplied and governs answer counts, but the carrier is not an authenticated exam, candidate script, department-certified key register, or practical station set. |
+
+### Complete page-first prompt, key, format, and anomaly boundary
+
+| Physical pages | Source sequence | Prompt / supplied-key boundary |
+|---:|---|---:|
+| 1 | Devotional/study front matter followed by Q1–Q2 | **2 MCQs / 2 terminal keys** |
+| 2 | Q3–Q8 | **6 / 6** |
+| 3 | Q9–Q13 | **5 / 5** |
+| 4 | Q14–Q19 | **6 / 6** |
+| 5 | Q20–Q24 | **5 / 5** |
+| 6 | Q25–Q30; Q30 options continue on p.7 | **6 / 6** |
+| 7 | Q31–Q36; Q36 option D continues on p.8 | **6 / 6** |
+| 8 | Q37–Q41 | **5 / 5** |
+| 9 | Q42–Q47; Q47 options continue on p.10 | **6 / 6** |
+| 10 | Q48–Q52; Q52 options continue on p.11 | **5 / 5** |
+| 11 | Q53–Q57; Q57 options continue on p.12 | **5 / 5** |
+| 12 | Q58–Q63; Q63 option D continues on p.13 | **6 / 6** |
+| 13 | Q64–Q68 | **5 / 5** |
+| 14 | Q69–Q71 | **3 / 3** |
+| 15 | Three-column red `Key Answers`, Q1–Q71 | **0 prompts / 71 supplied key entries** |
+
+The exact source boundary is **71 four-option MCQ occurrences / 71 source-supplied answer
+occurrences / 0 unkeyed prompts / 0 written operations / 0 image-bearing questions / 0 drawing
+tasks / 0 practical stations / 0 candidate responses / 0 prompt-like residues**. All 71 distinct
+wordings remain retained records. Q14 and Q15 independently remain retained occurrences but test
+one Barrett lower-oesophageal metaplasia proposition and collapse to one handle; no other semantic
+reduction is warranted. Thus **71 retained records → 70 accepted handles**.
+
+The terminal key is complete and sequential; no option is selected on pp.1–14. Source wording and
+letters remain uncorrected. Notable answer-copy/anomaly evidence includes Q20 `Villous papilloma`
+for the transitional bladder lesion; Q28 `B` brain as the common cavernous-haemangioma site; Q32
+the malformed `The only tumor well formed compact bone`; Q34 `B` for the grammatically inverted
+cell-nest/differentiation statement; Q37 `D` for the `not common spread by lymph` set containing
+BCC, lymphoma, and melanoma; Q50 `B` adhesion molecules as the explanation for lung-to-adrenal
+tropism; Q64 option D `Oncodene suppression`; and Q67 `C` EGF for a macrophage-derived angiogenic
+factor, conflicting with Family 4's TGF-alpha key. These are source-key facts, not authorised
+medical repairs.
+
+### Source-first 70-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 70 accepted handles received exactly four fresh source-first searches across live state,
+pending roots, and prior BMS-102 Families 1–157: **70 × 4 = 280 required and completed searches**.
+
+| Ref(s) / accepted handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| Q1 · `high-grade-neoplasm-low-nc-ratio-exception` | `high grade malignant neoplasm low nuclear cytoplasmic ratio`; `high grade tumor histologic features`; `abnormal mitoses hyperchromatic prominent nucleoli`; `low N C ratio malignancy exception` | no prior accepted prompt tests this feature exception; delta |
+| Q2 · `severe-dysplasia-intact-basement-membrane` | `severe dysplasia intact basement membrane`; `pleomorphism increased mitoses no invasion`; `dysplasia versus invasive carcinoma basement membrane`; `irregular architecture severe dysplasia diagnosis` | prior carcinoma-in-situ scope requires full-thickness atypia; this severe-dysplasia vignette is distinct; delta |
+| Q3 · `papillary-cystadenoma-cystic-papillary-ovarian-pattern` | `papillary cystadenoma papillary structures cystic spaces`; `ovary papillary cyst adenoma benign tumor`; `papillary projections cystic tumor nomenclature`; `cystadenoma versus papilloma ovary` | completed prior teaching only; delta |
+| Q4 · `benign-tumor-microscopic-criteria` | `benign tumor microscopic features well differentiated`; `minimal mitoses intact basement membrane benign`; `benign versus malignant histology`; `benign neoplasm cellular atypia invasion` | exact Family-1/5 benign-versus-malignant comparison reuse |
+| Q5 · `benign-adrenal-adenoma-fatal-functional-effect` | `benign adrenal cortex adenoma can cause death`; `fatal benign tumor functional endocrine effects`; `benign neoplasm mortality adrenal hormone`; `benign tumor dangerous location function` | no prior accepted same-scope prompt; delta |
+| Q6 · `tumor-stroma-nonneoplastic-support-angiogenesis` | `tumor stroma angiogenesis tissue support nonneoplastic`; `neoplasm stroma connective tissue vessels`; `parenchyma versus stroma tumor function`; `supporting nonneoplastic tumor component` | exact Family-154 stroma component/function reuse |
+| Q7 · `lymphoma-malignant-oma-nomenclature-exception` | `lymphoma always malignant despite oma`; `malignant tumor nomenclature exceptions oma`; `lymphoma melanoma seminoma malignant suffix`; `fibroma lipoma lymphoma malignant exception` | prior sources teach but do not test the nomenclature exception; delta |
+| Q8 · `teratoma-three-germ-layers` | `teratoma tissues three germ layers`; `seventeen year old three germ layer tumor`; `ectoderm mesoderm endoderm neoplasm diagnosis`; `totipotent germ cell tumor teratoma` | exact Families 5/133/144 reuse |
+| Q9 · `tumor-differentiation-grade-prognosis` | `tumor differentiation strongest prognosis correlation`; `poor prognosis degree differentiation neoplasm`; `histologic grade differentiation prognosis`; `tumor vascularity differentiation outcome` | exact Families 1/5/154 grade-aggressiveness scope reuse |
+| Q10 · `agenesis-complete-organ-absence-definition` | `agenesis complete absence organ primordial development`; `failure primordial organ development agenesis`; `aplasia hypoplasia agenesis distinction`; `congenital absent organ terminology` | no prior accepted same-scope prompt; delta |
+| Q11 · `atresia-failure-of-canal-formation` | `atresia failure canal formation`; `atresia congenital lumen failure`; `agenesis aplasia hypoplasia atresia matching`; `underdeveloped lumen congenital anomaly term` | no prior accepted same-scope prompt; delta |
+| Q12 · `connective-versus-epithelial-metaplasia-reversibility` | `connective tissue metaplasia irreversible epithelial reversible`; `epithelial versus mesenchymal metaplasia reversibility`; `osseous metaplasia irreversible`; `metaplasia tissue type contrast` | exact Family-98 reuse |
+| Q13 · `renal-hypoplasia-contralateral-compensatory-hypertrophy` | `congenital small right kidney enlarged left compensatory`; `renal hypoplasia contralateral hypertrophy`; `small kidney since birth compensatory enlargement`; `left kidney hypertrophy right kidney hypoplasia` | Family-149 tests post-nephrectomy compensation, not congenital hypoplasia; delta |
+| Q14,Q15 · `barrett-squamous-to-columnar-goblet-metaplasia` | `Barrett esophagus squamous columnar goblet metaplasia`; `lower esophagus intestinal metaplasia`; `Barrett oesophagitis cell transformation`; `reflux squamous to glandular epithelium` | exact Family-5 reuse |
+| Q16 · `hypertrophy-mechanical-and-trophic-stimuli` | `hypertrophy mechanical and trophic chemical triggers`; `hypertrophy increased organ function`; `mechanical workload trophic stimuli hypertrophy`; `cell enlargement trigger hormones growth factors` | prior workload handle omits the keyed combined trophic-stimulus scope; delta |
+| Q17 · `pregnant-uterus-hypertrophy-example` | `pregnant uterus hypertrophy example`; `uterus pregnancy cell enlargement`; `physiologic hypertrophy pregnant uterus`; `pubertal breast versus pregnant uterus hypertrophy` | exact Families 98/149 reuse |
+| Q18 · `vocal-cord-squamous-papilloma-diagnosis` | `vocal cord finger like growth fibrovascular core papilloma`; `squamous papilloma vocal cord diagnosis`; `neoplastic epithelium fibrovascular core`; `papilloma no invasion vocal cord` | prior labelled/teaching papilloma fields do not test this vignette; delta |
+| Q19 · `lymphoma-malignant-lymphangioma-benign-contrast` | `lymphoma malignant lymphangioma benign`; `lymphoma versus lymphangioma behavior`; `malignant lymphoid tumor benign vascular tumor`; `oma nomenclature lymphoma lymphangioma` | no prior accepted same-scope comparison; delta |
+| Q20 · `bladder-villous-papilloma-source-type` | `bladder transitional epithelium fibrovascular core papilloma`; `villous papilloma bladder lumen`; `transitional cell papilloma type`; `bladder papillary lesion nomenclature` | no prior accepted prompt carries this source-selected subtype; delta |
+| Q21 · `adenoma-encapsulated-papilloma-nonencapsulated` | `adenoma encapsulated papilloma nonencapsulated`; `structural difference adenoma papilloma capsule`; `benign epithelial tumor encapsulation`; `papilloma fibrovascular core capsule` | completed prior teaching only; delta |
+| Q22 · `capillary-versus-cavernous-hemangioma-size` | `capillary hemangioma small cavernous large`; `capillary versus cavernous hemangioma size`; `vascular tumor spaces size distinction`; `hemangioma subtype morphology comparison` | completed prior teaching only; delta |
+| Q23 · `carcinoma-lymphatic-sarcoma-hematogenous-spread` | `carcinoma lymphatic sarcoma hematogenous spread`; `carcinoma spreads lymph sarcoma blood`; `routes metastasis epithelial mesenchymal tumors`; `lymph versus blood tumor spread` | contained by Family-1 routes-of-tumour-spread; reuse |
+| Q24 · `osteoid-osteoma-pge2-nocturnal-pain` | `osteoid osteoma nocturnal pain PGE2`; `small radiolucent nidus NSAID relief prostaglandin`; `osteoid osteoma pain mediator`; `femoral cortex nidus prostaglandin E2` | no prior accepted same-scope prompt; delta |
+| Q25 · `osteochondroma-metaphysis-enchondroma-medullary-cavity` | `osteochondroma metaphysis enchondroma medullary cavity`; `bone tumor location osteochondroma enchondroma`; `exostosis metaphysis cartilage tumor medulla`; `osteochondroma versus enchondroma site` | prior osteochondroma diagnosis differs; delta |
+| Q26 · `leiomyoma-pseudocapsulated-tumor` | `leiomyoma pseudocapsulated tumor`; `which benign tumor pseudocapsule`; `uterine fibroid pseudocapsule`; `liposarcoma fibrosarcoma osteosarcoma leiomyoma capsule` | prior leiomyoma cases omit pseudocapsulation; delta |
+| Q27 · `cavernous-hemangioma-blood-space-diagnosis` | `child scalp cavernous hemangioma blood filled spaces`; `large irregular endothelial vascular spaces diagnosis`; `deep red scalp lesion cavernous hemangioma`; `cavernous hemangioma histology fibrous stroma` | exact Families 114/140 cavernous-haemangioma microscopy identification reuse |
+| Q28 · `cavernous-hemangioma-common-brain-site-source-key` | `common site cavernous hemangioma brain`; `cavernous hemangioma organ sites`; `brain versus kidney lung cavernous hemangioma`; `cavernous vascular malformation common location` | prior diagnosis/morphology handles omit site ranking; delta |
+| Q29 · `infant-strawberry-hemangioma-diagnosis` | `infant bright red raised cheek strawberry hemangioma`; `rapidly growing neonatal capillary hemangioma`; `strawberry hemangioma clinical diagnosis`; `port wine cherry cavernous strawberry infant` | no prior accepted same-scope prompt; delta |
+| Q30 · `lymphangioma-cystic-hygroma-mesentery-site` | `lymphangioma cystic hygroma common site mesentery`; `cystic hygroma and lymphangioma location`; `mesentery lymphatic malformation`; `lymphangioma liver heart lung exception` | completed prior teaching only; delta |
+| Q31 · `white-race-cutaneous-scc-melanin-protection` | `white individuals SCC risk lower melanin protection`; `cutaneous squamous carcinoma race UV melanin`; `skin cancer SCC white versus black risk`; `melanin protects UV induced SCC` | no prior accepted same-scope prompt; delta |
+| Q32 · `ivory-osteoma-compact-bone` | `ivory osteoma compact bone tumor`; `well formed compact bone neoplasm`; `osteoma ivory subtype histology`; `osteoid osteoma osteoblastoma ivory osteoma distinction` | completed prior teaching only; delta |
+| Q33 · `transitional-papilloma-malignant-transformation` | `transitional papilloma malignant transformation`; `papilloma type most likely malignant`; `bladder transitional cell papilloma malignancy`; `squamous columnar transitional papilloma behavior` | no prior accepted same-scope prompt; delta |
+| Q34 · `scc-cell-nests-differentiation-direction` | `less cell nests more differentiation SCC false`; `squamous carcinoma nests differentiation relation`; `keratin pearl cell nest tumor grade`; `SCC differentiation cell nests amount` | prior grading handle does not state this source's directional proposition; delta |
+| Q35 · `mucosal-scc-greater-aggressiveness` | `SCC more aggressive mucosal site`; `cutaneous versus mucosal squamous carcinoma prognosis`; `squamous cell carcinoma location aggressiveness`; `skin mucosa SCC behavior` | no prior accepted same-scope prompt; delta |
+| Q36 · `bcc-metastasis-exception` | `basal cell carcinoma metastasis exception`; `BCC rarely metastasizes`; `SCC melanoma osteosarcoma metastasis BCC`; `tumor metastasis except basal cell carcinoma` | prior SCC/BCC morphology scope does not test metastatic behavior; delta |
+| Q37 · `lymphatic-spread-source-exception-set` | `not commonly spread by lymph BCC lymphoma melanoma`; `lymphatic spread tumor exception`; `lymphoma melanoma BCC route metastasis`; `all above not common lymph spread source key` | source-specific/questionable set; no prior accepted same-scope handle; delta |
+| Q38 · `adenocarcinoma-site-prognosis-git-versus-breast` | `adenocarcinoma prognosis GIT poor breast better`; `site affects adenocarcinoma prognosis`; `breast versus gastrointestinal adenocarcinoma outcome`; `glandular carcinoma prognosis by site` | no prior accepted same-scope prompt; delta |
+| Q39 · `mucoid-colloid-adenocarcinoma-signet-ring-cells` | `mucoid colloid adenocarcinoma signet ring cells`; `mucinous carcinoma hallmark signet ring`; `colloid adenocarcinoma histology`; `keratin pearls capillary buds small blue cells exception` | prior signet-ring fatty-change and gastric records are different scopes; delta |
+| Q40 · `pheochromocytoma-adrenal-medulla-syndrome` | `adrenal medulla tumor episodic hypertension palpitations`; `pheochromocytoma clinical diagnosis`; `catecholamine adrenal tumor headache`; `neuroendocrine adrenal medulla mass` | no prior accepted same-scope prompt; delta |
+| Q41 · `medullary-thyroid-carcinoma-calcitonin-amyloid` | `thyroid mass amyloid calcitonin medullary carcinoma`; `medullary thyroid carcinoma diagnosis`; `C cell tumor amyloid deposits`; `calcitonin positive thyroid neoplasm` | no prior accepted same-scope prompt; delta |
+| Q42 · `carcinoid-syndrome-ileal-serotonin-tumor` | `ileum serotonin tumor flushing diarrhea wheezing`; `carcinoid syndrome intestinal mass`; `neuroendocrine tumor serotonin diagnosis`; `carcinoid tumor clinical triad` | exact Family-5 carcinoid-syndrome reuse |
+| Q43 · `lentigo-basal-melanocyte-proliferation` | `lentigo melanocytes replace basal epidermal layer`; `lentigo histologic stage melanocytic proliferation`; `melanocyte basal layer lentiginous pattern`; `nevus evolution lentigo` | contained by Family-1 melanocytic-evolution scope; reuse |
+| Q44 · `dermal-nevus-mature-quiescent-stage` | `mature quiescent stage nevus dermal`; `dermal nevus mature stage`; `junctional compound dermal nevus evolution`; `quiescent melanocytic nevus phase` | contained by Family-1 melanocytic-evolution scope; reuse |
+| Q45 · `melanoma-vertical-growth-phase-prognosis` | `melanoma vertical growth phase prognosis`; `radial versus vertical melanoma outcome`; `growth phase predictive melanoma prognosis`; `melanoma invasion depth vertical phase` | contained by Family-1 melanoma grading/staging scope; reuse |
+| Q46 · `lung-carcinoma-pulmonary-venous-brain-adrenal-route` | `lung carcinoma brain adrenal pulmonary venous route`; `pulmonary vein systemic metastasis lung cancer`; `lung primary brain adrenal hematogenous spread`; `pulmonary venous system tumor emboli` | prior lung-adrenal handle tests the destination, not this route; delta |
+| Q47 · `hcc-hepatic-vein-ivc-lung-metastasis-route` | `hepatocellular carcinoma lung metastasis hepatic veins IVC`; `HCC secondary lung nodules route`; `hepatic vein inferior vena cava pulmonary metastasis`; `liver cancer hematogenous spread lungs` | no prior accepted same-scope prompt; delta |
+| Q48 · `thigh-soft-tissue-sarcoma-lung-metastasis` | `soft tissue sarcoma thigh common metastasis lung`; `sarcoma hematogenous lung metastasis`; `thigh sarcoma secondary site`; `soft tissue malignancy spread pulmonary` | no prior accepted same-scope prompt; delta |
+| Q49 · `colon-cancer-liver-portal-hematogenous-spread` | `colon adenocarcinoma liver portal circulation`; `colorectal metastasis portal vein`; `colon tumor emboli hepatic secondaries`; `portal hematogenous spread colon cancer` | exact Family-5 reuse |
+| Q50 · `lung-adrenal-adhesion-molecule-tropism-source-key` | `lung adenocarcinoma adrenal metastasis adhesion molecules`; `organ tropism adrenal lung cancer`; `tumor cell adhesion explains adrenal metastasis`; `seed soil lung adrenal spread` | Family-5 tests the site, not this keyed tropism mechanism; delta |
+| Q51 · `tumor-invasion-veins-over-arteries` | `tumor cells invade veins more than arteries`; `vascular invasion tumor veins arteries`; `neoplasm prefers venous channels`; `tumor invasion capillaries lymphatics veins` | no prior accepted same-scope prompt; delta |
+| Q52 · `vertebral-metastasis-thoracic-primary-region` | `vertebral metastases primary thorax`; `vertebral venous plexus thoracic tumor`; `spinal metastasis likely primary region`; `Batson plexus thorax vertebrae` | no prior accepted same-scope prompt; delta |
+| Q53 · `virchow-node-left-supraclavicular-location` | `Virchow node left supraclavicular`; `which lymph node Virchow`; `Troisier left supraclavicular node`; `gastric cancer node anatomy` | exact Family-5/133 Virchow-node reuse |
+| Q54 · `contralateral-node-retrograde-lymphatic-spread` | `opposite cervical node retrograde lymphatic spread`; `contralateral node tumor metastasis mechanism`; `blocked lymphatics retrograde cancer spread`; `cervical lymph node opposite side metastasis` | no prior accepted same-scope prompt; delta |
+| Q55 · `thoracic-duct-tumor-emboli-venous-entry` | `thoracic duct drains tumor emboli venous system`; `lymphatic structure enters venous circulation`; `thoracic duct cancer dissemination`; `efferent lymphatic thoracic duct tumor embolus` | no prior accepted same-scope prompt; delta |
+| Q56 · `lymphatic-permeation-osteosarcoma-exception` | `lymphatic permeation exception osteosarcoma`; `tumors showing lymphatic permeation`; `breast prostate biliary lymphatic permeation`; `osteosarcoma not lymphatic permeation` | no prior accepted same-scope prompt; delta |
+| Q57 · `breast-cancer-lymphatic-permeation` | `breast cancer cords in lymphatic channels no nodes`; `lymphatic permeation definition tumor`; `tumor masses growing within lymphatics`; `lymphatic embolism versus permeation breast` | no prior accepted same-scope prompt; delta |
+| Q58 · `tumor-draining-node-reactive-sinus-histiocytosis` | `reactive sinus histiocytosis cancer draining node`; `lymph node enlarged no tumor immune reaction`; `tumor antigen reactive hyperplasia node`; `sinus histiocytosis malignancy immune response` | no prior accepted same-scope prompt; delta |
+| Q59 · `choriocarcinoma-spontaneous-regression-ranking` | `choriocarcinoma spontaneous regression common`; `tumor most likely spontaneous regression`; `melanoma BCC HCC choriocarcinoma regression`; `spontaneously regressing neoplasm type` | Family-4 tests regression as surveillance evidence, not which tumour is commonest; delta |
+| Q60 · `tumor-immune-escape-mechanism-exception` | `tumor immune escape mechanism exception increased antigen presentation`; `loss MHC antigen negative variants immunosuppressive cytokines`; `cancer immune evasion mechanisms`; `increased antigen presentation not tumor escape` | contained by Families 1/4 immune-escape scopes; reuse |
+| Q61 · `tgf-beta-tumor-immunosuppression` | `TGF beta tumor immunosuppression cytokine`; `cancer immune escape TGF beta`; `tumor secreted suppressive cytokine`; `TNF IFN IL2 TGF beta immune response` | exact Family-4 reuse |
+| Q62 · `tumor-specific-antigen-exclusivity` | `tumor specific antigen only tumor cells`; `TSA versus TAA definition`; `exclusive malignant cell antigen`; `tumor antigen classification` | exact Family-4/127 reuse |
+| Q63 · `psa-differentiation-specific-antigen-class` | `PSA differentiation specific antigen`; `prostate specific antigen tumor antigen type`; `differentiation antigen normal prostate cancer`; `PSA oncofetal tumor specific viral antigen` | Family-4 tests PSA expression, not this antigen-class mapping; delta |
+| Q64 · `melanoma-regression-immune-surveillance` | `melanoma regression immune surveillance`; `spontaneous tumor regression host immunity`; `malignant melanoma no therapy regression mechanism`; `immune surveillance cancer regression` | exact Family-4 spontaneous-regression/immune-surveillance reuse |
+| Q65 · `avascular-tumor-size-limit-2mm` | `avascular tumor size 2 mm`; `angiogenesis necessary beyond 2 millimeters`; `tumor diffusion limit without vessels`; `critical tumor size angiogenic switch` | exact Family-4 reuse |
+| Q66 · `low-growth-fraction-chemoresistance` | `low growth fraction poor chemotherapy response`; `slow tumor chemoresistance few mitoses`; `growth fraction chemotherapy sensitivity`; `tumor kinetics low proliferative fraction` | exact Family-4 reuse |
+| Q67 · `macrophage-egf-angiogenic-factor-source-key` | `macrophage produced angiogenic factor EGF`; `tumor infiltrating macrophage angiogenesis`; `EGF VEGF FGF macrophage tumor vessel factor`; `source key macrophage EGF cancer` | Family-4 carries a conflicting TGF-alpha proposition; preserve this EGF key as a distinct source-specific delta |
+| Q68 · `tumor-heterogeneity-genetic-repair-variation` | `tumor heterogeneity p53 mismatch repair different areas`; `intratumoral genetic variation therapy response`; `loss p53 DNA repair heterogeneous carcinoma`; `tumor regions different mutations mechanism` | exact Family-4 heterogeneity definition/mechanism reuse |
+| Q69 · `afp-oncofetal-antigen-class` | `AFP oncofetal antigen`; `alpha fetoprotein tumor antigen class`; `PSA p53 HER2 AFP oncofetal`; `fetal protein cancer marker classification` | prior AFP handles test tumour association, not antigen class; delta |
+| Q70 · `carcinogenesis-initiation-promotion-progression-order` | `carcinogenesis initiation promotion progression order`; `stages cancer development sequence`; `initiation promotion progression`; `multistep carcinogenesis chronology` | prior handles test stages separately, not the ordered composite; delta |
+| Q71 · `scc-prognostic-factors-duration-exception` | `SCC prognosis factors duration exception`; `squamous carcinoma prognosis location size depth`; `duration not prognostic SCC`; `SCC outcome prognostic variables` | prior grading/staging scope does not test this prognosis-factor exception; delta |
+
+Exactly **22** handles reuse previously accepted BMS-tested scope. The remaining **48** are
+distinct additions, including the carrier's source-specific/questionable Q20, Q28, Q37, Q50, and
+Q67 keyed propositions. Family 158 therefore adds **`70 - 22 = 48` concepts**.
+
+### Family-158 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 158 | Auxiliary cumulative (Families 12–158) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 71 | 1,764 | 765 | 2,529 |
+| Source-supplied answer occurrences | 71 | 1,132 | 405 | 1,537 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| Retained question records | 71 | 1,551 | 552 | 2,103 |
+| Accepted handles / required searches | 70 / 280 | 1,395 / — | — | — |
+| Prior-BMS handle reuses | 22 | — | — | — |
+| Cross-family concept delta | +48 | +809 over primary | 372 | 1,181 |
+| **Distinct tested concepts** | **70 source-local** | **809 auxiliary additions** | **372** | **1,181** |
+
+The checksum closes as 71 MCQs and 71 terminal key entries; all 71 wordings are retained; one
+Q14/Q15 semantic reduction yields `71 - 1 = 70` handles; searches are `70 × 4 = 280`; and
+concept arithmetic is `70 - 22 = +48`. Auxiliary arithmetic is `1,693 + 71 = 1,764` prompts,
+`1,061 + 71 = 1,132` answers, `1,480 + 71 = 1,551` retained records, `1,325 + 70 = 1,395`
+handles, and `761 + 48 = 809` concept additions. All eligible arithmetic is `765 + 1,764 =
+2,529`, `405 + 1,132 = 1,537`, `552 + 1,551 = 2,103`, and `372 + 809 = 1,181`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary is now **1,764 prompts / 1,132 answers /
+1,551 retained records / 1,395 handles / +809 concepts over primary**. All eligible evidence is
+**2,529 prompts / 1,537 supplied answers / 2,103 retained records / 1,181 distinct tested
+concepts**. Family 158 adds keyed tier-3 neoplasia-bank evidence only; it establishes no verified
+Helwan authorship on the page, official key, administered exam, dated sitting, recurrence, mark
+weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 158
+
+`src_d2b1aa67547a2309da4f` is exhausted across all 15 pages: every visible/metadata provenance
+field, devotional/study element, native stem and option, page continuation, terminal key entry,
+key anomaly, format assignment, same-source collapse, accepted handle, four-search packet,
+prior-family relation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-158 blocker. The exact next manifest record is tier-3 `src_9bca614057658d04392e` · `MCQs -
+College MCQs PATHO Q-BANK.pdf`, SHA-256
+`9bca614057658d04392e315313eb60db5cdcbfe70ff2b7be21fa7bde825f2331`, **3,501,612 bytes**,
+73 native-text A4 pages under `Pathology / Questions / MCQs`, byte-identical to the separate
+`Questions/PATHO Q-BANK.pdf` carrier listed by the manifest. Its compiled-by provenance, exact
+duplicate-carrier authority, complete multi-section prompt/key boundary, source-first collapse,
+prior-BMS reconciliation, four-search packets for surviving handles, and arithmetic are the
+exact next-source blockers.
