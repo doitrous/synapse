@@ -13263,3 +13263,83 @@ native-text US-Letter pages; SHA-256
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 114 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 117 — Tier-3 external Dr Alaa Head-and-Neck keyed MCQ set, MSK2 Part 2
+
+### Exact identity, authority and complete six-page native boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_cdd6cc4062497d209493` / `cdd6cc4062497d209493913a714f2f8b74bec32017058853b7b05abc804bf2b3` |
+| File / boundary | `MCQs - External MCQs Anatomy MCQ by Dr.ALAA [MSK2][Part.2].pdf` · 168,570 bytes · tagged, unencrypted native-text PDF · six physical US-Letter pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 · instructor field `Alaa` |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy MCQ by Dr.ALAA [MSK2][Part.2].pdf` |
+| Visible provenance | The pages begin directly with numbered Head-and-Neck Anatomy MCQs and answer grids; document metadata names author `mahmood alaa`, Microsoft Word 2016 creator/producer and 31 December 2021 creation/modification. No page prints a university, Helwan, LCS-103, MSK2, cohort, exam sitting or year label. |
+| Authority finding | `MSK2`, `Part.2` and the Dr Alaa attribution are filename/metadata evidence only. They do not establish Helwan LCS-103 assessment authority. The source is therefore retained only in the external-bank checkpoint. |
+
+The assigned hash, byte size and six-page boundary were recomputed and match. All six
+pages were rendered at 180 dpi, read visually and checked against the native text layer. The
+source PDF itself was not changed.
+
+The uninterrupted boundary is exact: pp. 1–4 print Q1–Q20 in five-question groups, each
+followed by a five-cell answer grid; p. 5 prints Q21–Q24 and four keys; p. 6 prints Q25–Q26
+and two keys. Thus the source contains **26 external MCQ occurrences / 26 source-keyed
+prompt cells / 0 unkeyed occurrences**. Q4's key cell prints `C,d` even though the source
+uses a single-answer format. That two-letter state is preserved verbatim as one keyed prompt,
+not split into two keys, and no medical repair is inferred.
+
+There is no written or essay prompt, response blank, diagnostic image, specimen,
+radiograph, micrograph, station, apparatus task, masked label or declarative teaching unit.
+The red question text, decorative borders and answer grids are assessment layout, not
+teaching or practical plates. Written, teaching and practical deltas are therefore exactly
+zero, including **0 practical prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys
+/ 0 practical scopes**.
+
+### Source-first collapse, four-surface searches and prior reconciliation
+
+The 26 MCQs collapse to **ten source-distinct tested handles**: carotid sheath and carotid
+triangle; posterior triangle and cervical plexus; external-jugular-vein course and
+termination; root-of-neck, scalenus and subclavian relations; sternocleidomastoid actions,
+relations and innervation; suprahyoid, infrahyoid and tongue-muscle relations; facial-nerve
+branches and digastric supply; glossopharyngeal, vagus and recurrent-laryngeal functions;
+pharyngeal wall, innervation and lateral gaps; and great-auricular-nerve cutaneous territory.
+Every question is assigned once to one of these handles.
+
+Each handle received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **10 × 4 = 40 required search invocations**.
+Prior-external-first comparison finds all ten already represented across Families 78, 90,
+92, 104, 105 and 106. Accepted Families 1, 20, 26 and 36 independently own or corroborate
+the curricular Head-and-Neck scopes, but cannot promote this external MSK2-labelled set into
+eligible Helwan evidence. Reconciliation is **10 prior-external reuses + 0 external
+additions = 10**; both external and eligible concept-state deltas are zero. Exact query and
+result ledgers are preserved at `tmp/pdfs/lcs103-family117/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family117/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,845 / 3,709 / 221 = 12 / 135 / 74** to **3,871 external prompts / 3,735
+source-keyed prompts / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `3,845 + 26 = 3,871`, `3,709 + 26 = 3,735`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-116 remainder. Removing its sole path leaves
+**113 all-rank path instances / 105 unique hashes**: tier 3 **31 paths / 28 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 116's prior checksums are
+`21bd5f9c5a836b4ed5bbaabde2f91d3c5c0fd88f2c12681d09e5e7cc3969c39b` (paths) and
+`f92eede08cc67ca3acfd9ec59032f78f39a2f203b57840946f4152dcb366c2bb` (unique hashes).
+For the exact post-Family-117 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`acae0349f13f5b0b41539f2531b9f3ba58a2e2a66dc2497f83c55e3b78c7827c`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`78e9f603fe10005cf5afa0cfaf5694e7096a9a17e99e491c32fc37ba8c64f8ec`.
+
+The exact next tier-3 manifest-order debt is `src_3f9b8770565dc6098d0d`, manifest
+`MCQs - External MCQs Anatomy MCQ.pdf.pdf`; the normalized local filename is
+`MCQs - External MCQs Anatomy MCQ.pdf` (4,441,298 bytes; 50 native-text pages; SHA-256
+`3f9b8770565dc6098d0d699b326a2c79b824d7fb24da0c76fec90d7d13681c9a`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 113 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
