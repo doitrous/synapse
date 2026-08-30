@@ -11811,3 +11811,171 @@ OCR-needed 792×594.725-point landscape pages under `Pathology / Notes and Summa
 render/OCR reality, visible Module 108 / Eman Khaled Mahmoud / Kasr Al-Aini provenance versus the
 Helwan BMS-102 folder assignment, teaching/revision prompt/key/callout boundary, and prior-source
 reuse are the exact next-source blockers.
+
+## Family 112 — Kasr Al-Aini Module 108 pathology revision deck
+
+### Source identity, complete render/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_4478c88bf5f8a9c7cba9` · `Patho Revision by Dr.Eman [108].pdf` |
+| SHA-256 / size | `4478c88bf5f8a9c7cba918eed144856cac75451bf16d6e297ddbe6dd16e6cd7b` · 5,179,244 bytes |
+| Format / complete visual boundary | Seventy-seven 792×594.725-point landscape pages. All 77 pages rendered into 77 non-empty 1320×992-pixel images and every render was read at original detail; there is no page or crop remainder. |
+| OCR/native reality | Native extraction is only 77 form-feed bytes / 0 words and repeatedly reports PDFTron identity-font errors. OCR of all 77 renders produced 1,596 words / 11,931 bytes and was used only to locate headings; the coherent page images control transcription and boundary decisions. The manifest's `ocr-needed` label is accurate. |
+| Visible provenance | The cover visibly reads `MODULE 108 PATHOLOGY REVISION`, `BY EMAN KHALED MAHMOUD`, `LECTURER OF SURGICAL PATHOLOGY`, and `KASR AL-AINI`. No Helwan name/logo, academic year, teaching date, or sitting appears. |
+| Metadata caution | The iOS 16.3.1 Quartz producer and 10 June 2023 creation/modification timestamps describe file production only; they do not establish authorship, an academic year, or a sitting. |
+| Provenance ruling / authority | The visible Module 108 / Kasr Al-Aini attribution controls and conflicts with the Helwan BMS-102 folder placement. The carrier remains tier-6 auxiliary local-corpus revision evidence, not Helwan-authored material, a verified Helwan assessment, an official key, or a dated sitting. |
+
+### Complete page-first prompt, supplied-answer, teaching-plate, and blank boundary
+
+| Pages | Visible source structure | Prompt / supplied-answer ruling |
+|---:|---|---:|
+| 1–2 | Provenance cover and `Cell injury` divider | **0 / 0** |
+| 3–8, 10, 12–20, 22–28 | Written revision commands covering adaptation, oxidative stress, cloudy/hydropic injury, necrosis, apoptosis, injury causes/mechanisms, reversible/irreversible injury, necrosis patterns, and comparison | **23 prompts / 23 source-supplied teaching answers**. The answer is printed on the same slide; it is not an official exam key. |
+| 9, 11 | Coagulative- and liquefactive-necrosis image plates with already supplied titles | Teaching plates only; no identification instruction; **0 / 0**. |
+| 21 | `Enumerate causes of apoptosis`, followed only by `Physiologic (in details)` and `Pathologic (in details)` | The parenthetical directions leave the requested detail absent: **1 unkeyed prompt / 0 supplied answers**, not a partial key. |
+| 29–36 | Eight cell-injury/necrosis/apoptosis MCQs | No selection, emphasis convention, reveal, or answer section: **8 unkeyed / 0**. |
+| 37 | `Accumulation` divider | **0 / 0**. |
+| 38–57 | Twenty written accumulation commands with completed definitions, lists, mechanisms, morphology, and explanations | **20 / 20** source-supplied teaching answers. |
+| 58–61 | Discuss systemic hemosiderosis; discuss primary hemochromatosis; amyloidosis pathogenesis; classify amyloidosis; map five diseases to amyloid proteins; compare dystrophic/metastatic calcification | The two p.58 targets and two p.60 commands are distinct occurrences. No requested response is supplied: **6 unkeyed / 0**. |
+| 62–72 | Eleven accumulation MCQs | No printed selection or key: **11 unkeyed / 0**. |
+| 73 | List four tissue-sampling methods and four cytology-sample examples | Two independently answerable commands: **2 unkeyed / 0**. |
+| 74 | Five completion bullets: tissue/cytology fixatives; cytology stain; mucin/collagen stains; IHC localization; molecular/cytogenetic methods | One occurrence per displayed bullet even where a bullet has two coordinated blanks: **5 unkeyed / 0**. |
+| 75–77 | Cytology-sample, tissue-fixative, and rapid-intraoperative-diagnosis MCQs | No selection or answer register: **3 unkeyed / 0**. |
+
+The page checksum is **79 raw prompt occurrences / 43 source-supplied teaching-answer
+occurrences / 36 unkeyed occurrences / 0 prompt-like residues**. The supplied prose, lists,
+tables, diagrams, and handwritten comparison image answer only the 43 same-slide written
+commands. Question marks rendered as missing-glyph boxes on pp. 58–61 and 73 are bullet/font
+artifacts; they do not mark answers. MCQ option order, bold stem typography, page headings, and
+the words `revision`, `mcq`, `compare`, or `complete` do not themselves establish a key.
+
+All 79 prompt occurrences remain retained records: there is no literal repeated slide or
+punctuation-only duplicate. Source-first semantic collapse reduces them to **64 tested handles**.
+Fifteen later MCQ/narrow-completion occurrences repeat broader same-source written scopes: breast
+fat necrosis, fibrinoid necrosis, necrotic nuclear morphology, BCL-2/apoptosis control, apoptosis
+morphology, lipofuscin, anthracosis, brown atrophy, dystrophic calcification, metastatic
+calcification, amyloid-protein disease mapping, increased melanin, haemozoin, cytology samples,
+and tissue fixation. The p.29 caseous-necrosis exception, p.34 reversible-cell-swelling exception,
+p.35 liquefactive-site exception, p.62 hyalinosis-example MCQ, Congo-red and Prussian-blue MCQs,
+and the other technique prompts remain scope-distinct.
+
+### Exactly four searches per accepted handle and prior-BMS adjudication
+
+Every one of the 64 handles received exactly four fresh source-first searches across live state,
+all pending import roots, and prior BMS-102 Families 1–111: **256 required searches**. The compact
+register below preserves the executed four-query packets in order. External exact-scope
+disposition is **0 live / 0 pending / 64 no same-scope**: phrase/subtopic, teaching-only, and this
+ledger's own prior-family hits were rejected externally. Prior-family reuse is a separate axis.
+
+| Handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| `cellular-adaptation-definition` | `cellular adaptation definition`; `cell adaptation viable steady state`; `adaptive cellular response`; `cellular change stress` | exact F1/F2 reuse |
+| `oxidative-stress-definition` | `oxidative stress definition`; `reactive oxygen species imbalance`; `free radical antioxidant imbalance`; `oxidant stress cell injury` | none; delta |
+| `cloudy-swelling-definition` | `cloudy swelling definition`; `cloudy degeneration cell swelling`; `reversible cell injury cloudy change`; `granular swollen cytoplasm` | prior sodium/morphology handles are narrower; delta |
+| `hydropic-degeneration-definition` | `hydropic degeneration definition`; `hydropic change cell swelling`; `vacuolar degeneration water`; `sodium pump hydropic swelling` | none; delta |
+| `necrosis-definition` | `necrosis definition`; `localized death living tissue`; `irreversible cell death necrosis`; `necrotic tissue definition` | none; delta |
+| `coagulative-necrosis-definition` | `coagulative necrosis definition`; `protein denaturation preserved outline`; `coagulation necrosis architecture`; `ischemic solid organ necrosis` | exact F2 reuse |
+| `liquefactive-necrosis-definition` | `liquefactive necrosis definition`; `enzymatic digestion liquid mass`; `liquefaction necrosis pus brain`; `liquefactive cell death definition` | prior site handle is narrower; delta |
+| `apoptosis-definition` | `apoptosis definition`; `programmed cell death`; `gene directed cell death`; `individual cell deletion` | exact F73 reuse |
+| `cell-injury-causes-enumeration` | `causes of cell injury`; `cell injury etiologies`; `hypoxia chemicals infections immune injury`; `enumerate cell injury causes` | exact F1/F73 reuse |
+| `cellular-adaptation-types` | `types of cellular adaptation`; `atrophy hypertrophy hyperplasia metaplasia`; `four adaptations cells`; `cell adaptation classification` | exact F1/F2 definition/examples scope reuse |
+| `cell-injury-mechanisms` | `mechanisms of cell injury`; `ATP depletion mitochondrial damage`; `calcium influx oxidative stress membrane`; `biochemical mechanisms cellular injury` | teaching overlap only; delta |
+| `reversible-cell-injury-types` | `types of reversible cell injury`; `cloudy hydropic fatty change`; `reversible injury classification`; `cell swelling steatosis reversible` | exact F2/F73 reuse |
+| `irreversible-cell-injury-types` | `types of irreversible cell injury`; `necrosis apoptosis irreversible injury`; `irreversible cell death types`; `cell injury point no return outcomes` | exact F2 reversible/irreversible scope reuse |
+| `necrosis-mechanisms` | `mechanism of necrosis`; `ATP depletion membrane damage necrosis`; `lysosomal enzymes necrotic cell`; `pathogenesis necrotic death` | none; delta |
+| `necrosis-patterns-enumeration` | `patterns of necrosis`; `necrosis types classification`; `coagulative liquefactive caseous fat fibrinoid`; `morphologic patterns necrosis` | exact F73 reuse |
+| `fat-necrosis-types-traumatic-breast` | `types of fat necrosis`; `traumatic breast fat necrosis`; `enzymatic traumatic fat necrosis`; `nonenzymatic adipose necrosis breast` | exact composite F73 reuse |
+| `apoptosis-causes` | `causes of apoptosis`; `physiologic pathologic apoptosis`; `DNA damage misfolded proteins apoptosis`; `apoptosis settings examples` | none; delta |
+| `apoptosis-fate` | `fate of apoptotic cells`; `apoptotic bodies phagocytosis`; `apoptosis removal macrophages`; `cell fragments no inflammation` | none; delta |
+| `necrosis-morphology-nuclear-changes` | `necrosis morphological changes`; `pyknosis karyorrhexis karyolysis`; `necrotic cytoplasmic eosinophilia`; `nuclear changes necrosis` | exact F73 reuse |
+| `fibrinoid-necrosis-vasculitis` | `fibrinoid necrosis vasculitis`; `fibrinoid necrosis vessel wall`; `polyarteritis nodosa necrosis`; `immune vascular injury pink` | exact F2/F73 reuse |
+| `apoptosis-morphology` | `apoptosis morphology`; `cell shrinkage chromatin condensation blebs`; `apoptotic bodies morphology`; `apoptosis no inflammation features` | exact F73 reuse |
+| `necrosis-fate` | `fate of necrotic tissue`; `outcomes of necrosis`; `necrosis healing fibrosis calcification`; `liquefaction organization necrotic tissue` | none; delta |
+| `apoptosis-control-bcl2` | `control of apoptosis BCL2`; `BCL2 antiapoptotic protein`; `intrinsic apoptosis regulation Bax Bak`; `apoptosis regulatory proteins` | prior BCL-2 item is narrower than the full control scope; delta |
+| `necrosis-versus-apoptosis` | `necrosis versus apoptosis`; `necrosis apoptosis comparison`; `cell death inflammation membrane`; `apoptotic versus necrotic morphology` | exact F1 reuse |
+| `caseous-necrosis-feature-exception` | `caseous necrosis characteristics`; `caseation necrosis features`; `cheesy structureless pink necrosis`; `caseous necrosis preserved outline exception` | exact F73 reuse |
+| `reversible-cell-injury-feature-exception` | `reversible cell injury features`; `cell swelling reversible injury exception`; `cloudy hydropic apoptosis comparison`; `reversible versus irreversible injury` | exact F73 reuse |
+| `liquefactive-necrosis-site-identification` | `liquefactive necrosis sites`; `brain infarct abscess liquefaction`; `renal infarct necrosis exception`; `liquefactive lesion identification` | exact F73 reuse |
+| `steatosis-definition` | `steatosis definition`; `fatty change definition`; `triglyceride accumulation parenchymal cells`; `fatty degeneration liver definition` | prior characteristics scope is different; delta |
+| `xanthoma-definition` | `xanthoma definition`; `lipid laden macrophages skin`; `xanthomatous lesion cholesterol`; `foam cells xanthoma` | none; delta |
+| `hyaline-change-definition` | `hyalinosis definition`; `hyaline change definition`; `homogeneous glassy eosinophilic`; `intracellular extracellular hyaline` | exact F9 reuse |
+| `anthracosis-definition-features` | `anthracosis definition`; `carbon pigment lung macrophages`; `coal dust black lung discoloration`; `anthracotic pigment features` | none; delta |
+| `hemozoin-parasitic-pigment` | `hemozoin definition`; `malarial pigment parasitic infestation`; `hematin parasite pigment`; `brown black malaria pigment` | prior pigment umbrella is broader; delta |
+| `amyloidosis-definition` | `amyloidosis definition`; `amyloid extracellular deposition`; `fibrillar protein deposition`; `systemic amyloid definition` | exact F2/F9 reuse |
+| `steatosis-common-sites` | `common sites of steatosis`; `fatty change liver heart kidney`; `organs affected fatty degeneration`; `steatosis tissue distribution` | none; delta |
+| `intracellular-hyalinosis-examples` | `intracellular hyalinosis examples`; `Russell bodies Mallory hyaline`; `intracellular hyaline change list`; `plasma cell hepatocyte inclusions` | exact F9 reuse |
+| `extracellular-hyalinosis-examples` | `extracellular hyalinosis examples`; `old scar leiomyoma arteriolar hyaline`; `extracellular hyaline change list`; `hyalinized collagen examples` | exact F9 reuse |
+| `systemic-hemosiderosis-causes` | `causes systemic hemosiderosis`; `generalized hemosiderosis causes`; `repeated transfusion hemolysis iron overload`; `systemic iron pigment deposition` | exact F9 reuse |
+| `pathological-calcification-sites-types` | `pathological calcification sites types`; `dystrophic metastatic calcification classification`; `calcium deposition tissue distribution`; `pathologic calcification examples` | prior definition/site components do not form one exact handle; delta |
+| `dystrophic-calcification-examples-characteristics` | `dystrophic calcification examples`; `normal serum calcium damaged tissue`; `tuberculosis atheroma calcification`; `dystrophic calcium deposition features` | exact F9 reuse |
+| `metastatic-calcification-examples-characteristics` | `metastatic calcification examples`; `hypercalcemia viable tissues`; `kidney lung stomach metastatic calcification`; `high calcium tissue deposition` | exact F9 reuse |
+| `secondary-amyloidosis-causes` | `secondary amyloidosis causes`; `reactive systemic amyloid chronic inflammation`; `AA amyloid tuberculosis bronchiectasis`; `chronic suppuration amyloidosis` | exact F9 systemic examples/causes reuse |
+| `increased-melanin-causes` | `causes increased melanin`; `hyperpigmentation Addison neurofibromatosis`; `pathologic melanin deposition`; `melanin excess causes` | exact F9 reuse |
+| `steatosis-pathogenesis` | `pathogenesis of steatosis`; `fatty liver mechanisms triglyceride`; `impaired lipid metabolism steatosis`; `fat accumulation pathogenesis` | teaching overlap only; delta |
+| `steatosis-morphology` | `steatosis morphology`; `fatty change gross microscopic`; `macrovesicular fatty liver appearance`; `lipid vacuoles hepatocytes` | exact F2 fatty-change characteristics reuse |
+| `lipofuscin-features` | `lipofuscin features`; `wear and tear pigment lipid peroxidation`; `intracellular perinuclear aging pigment`; `brown atrophy lipofuscin` | prior cardiac handle is narrower; delta |
+| `cardiac-brown-atrophy-lipofuscin` | `brown atrophy heart lipofuscin`; `small brown heart aging`; `cardiac lipofuscin atrophy features`; `myocardial wear tear pigment` | exact F86 reuse |
+| `localized-hemosiderosis-causes` | `localized hemosiderosis causes`; `hemosiderin local hemorrhage`; `heart failure cells iron pigment`; `extravasated red cells hemosiderin` | exact F9 reuse |
+| `systemic-hemosiderosis-pathology` | `pathology systemic hemosiderosis`; `generalized hemosiderin organ deposition`; `systemic iron overload morphology`; `hemosiderosis tissue damage` | prior cause handle is narrower; delta |
+| `primary-hemochromatosis-pathology` | `primary hemochromatosis pathology`; `bronze diabetes cirrhosis iron`; `hereditary iron overload organs`; `hemochromatosis morphology clinical` | exact F9 clinical/pathology reuse |
+| `amyloidosis-pathogenesis` | `pathogenesis of amyloidosis`; `protein misfolding beta pleated sheet`; `amyloid fibril formation mechanism`; `amyloid precursor processing` | none; delta |
+| `amyloidosis-classification` | `classification of amyloidosis`; `systemic localized amyloid types`; `primary secondary hereditary amyloidosis`; `AL AA amyloid classification` | prior systemic-example handle is narrower; delta |
+| `amyloid-protein-disease-mapping` | `amyloid protein disease mapping`; `AL AA Aβ calcitonin amyloid`; `myeloma secondary senile Alzheimer amyloid`; `amyloid fibril protein types` | prior myeloma example alone is narrower; delta |
+| `dystrophic-versus-metastatic-calcification` | `dystrophic versus metastatic calcification`; `normal high serum calcium calcification`; `damaged versus viable tissue calcium`; `pathologic calcification comparison` | exact F2 reuse |
+| `hyalinosis-example-identification` | `hyalinosis examples leiomyoma hepatitis keloid`; `uterine leiomyoma hyaline change`; `alcoholic hepatitis Mallory hyaline`; `keloid extracellular hyaline` | exact composite F9 reuse |
+| `amyloid-congo-red-stain` | `amyloid Congo red stain`; `apple green birefringence amyloid`; `special stain amyloidosis`; `Congo red amyloid diagnosis` | exact F2/F9 reuse |
+| `hemosiderin-prussian-blue-stain` | `hemosiderin Prussian blue stain`; `Perls stain iron pigment`; `special stain hemosiderin`; `ferric iron blue histochemistry` | none; delta |
+| `tissue-sampling-methods` | `methods of tissue sampling pathology`; `excisional incisional core biopsy`; `four biopsy methods`; `surgical pathology tissue samples` | teaching only; delta |
+| `cytology-sample-examples` | `examples of cytology samples`; `FNAC exfoliative cytology fluids`; `cytology specimen types`; `fine needle aspiration sample` | teaching only; delta |
+| `tissue-cytology-fixatives` | `fixative tissue biopsy cytology`; `buffered formalin alcohol cytology`; `tissue and cytology fixation`; `biopsy formalin smear ethanol` | F98 covers tissue formalin only; combined scope delta |
+| `cytology-papanicolaou-stain` | `stain for cytology Papanicolaou`; `Pap stain cytology`; `cytologic preparation stain`; `perfect stain for cytology` | none; delta |
+| `mucin-collagen-special-stains` | `special stain mucin collagen`; `Alcian blue mucin Masson trichrome collagen`; `mucin detection histochemistry`; `collagen detection stain` | none; delta |
+| `immunohistochemistry-antigen-localization` | `immunohistochemistry antigen localization`; `IHC localization antigens tissue`; `antibody tissue section antigen`; `immunoperoxidase tumor marker` | teaching only; delta |
+| `molecular-pathology-cytogenetic-methods` | `molecular pathology cytogenetic methods`; `PCR FISH abnormal chromosomes`; `molecular technique chromosome detection`; `polymerase chain reaction in situ hybridization` | teaching only; delta |
+| `frozen-section-rapid-intraoperative-diagnosis` | `rapid intraoperative pathological diagnosis frozen section`; `frozen section intraoperative diagnosis`; `cryostat rapid diagnosis`; `frozen section rapid pathology` | exact F98 reuse |
+
+Exactly **33** handles are prior-BMS exact reuses; therefore Family 112 adds
+`64 - 33 = 31` distinct concepts. External disposition and prior-family disposition are separate
+dimensions: a handle may be absent externally and still reuse a prior BMS source handle.
+
+### Family-112 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 112 | Auxiliary cumulative (Families 12–112) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 79 | 945 | 765 | 1,710 |
+| Printed teaching-answer occurrences | 43 | 526 | 405 | 931 |
+| Unkeyed prompt occurrences | 36 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 79 | 885 | 552 | 1,437 |
+| Source-distinct tested handles / required searches | 64 / 256 | 794 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 64 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 33 | — | — | subtract before concept addition |
+| Cross-family concept delta | +31 | +530 over primary | 372 | `372 + 530 = 902` |
+| **Distinct tested concepts** | **+31** | **530 auxiliary additions** | **372** | **902** |
+
+The checksum closes without remainder: `79 = 43 + 36`; all 79 prompt occurrences survive
+literal-record retention; `79 - 15 same-source semantic reductions = 64` handles; searches are
+`64 × 4 = 256`; external disposition is `0 + 0 + 64 = 64`; and concept arithmetic is
+`64 - 33 prior exact reuses = 31`. Auxiliary cumulative arithmetic is `866 + 79 = 945`
+prompts, `483 + 43 = 526` answers, `806 + 79 = 885` retained records, `730 + 64 = 794`
+handles, and `499 + 31 = 530` concept additions. All eligible arithmetic is
+`765 + 945 = 1,710`, `405 + 526 = 931`, `552 + 885 = 1,437`, and `372 + 530 = 902`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**945 / 526 / 885 / 794 / +530**; and all eligible evidence is
+**1,710 / 931 / 1,437 / 902**. The source cannot establish a Helwan-authored assessment,
+official key, dated sitting, recurrence, mark weight, student response, readiness, or claims
+status.
+
+### Exact next debt after Family 112
+
+`src_4478c88bf5f8a9c7cba9` is exhausted across all 77 pages: every visible provenance field,
+prompt, supplied teaching answer, unkeyed MCQ/completion, teaching plate, font artifact,
+same-source semantic collapse, four-query packet, prior-family relation, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-112 blocker. The exact next manifest
+record is tier-6 `src_ed72d8cf9f92d82b13b0` · `Patho microscope_260705_152630.pdf`, SHA-256
+`ed72d8cf9f92d82b13b0b7690b531adfcc211761a4cfc706ef0aef1c197db0df`, 23 OCR-needed
+landscape pages under `Pathology / Notes and Summaries`. Its complete render/OCR reality,
+filename timestamp limitation, visible provenance, microscopy teaching versus identification-
+prompt/key boundary, and prior-source reuse are the exact next-source blockers.
