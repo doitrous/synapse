@@ -19376,3 +19376,91 @@ The exact next manifest-order debt is tier-6 `src_d19585986e01321bc78a`, `skleta
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 48
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 183 — Tier-6 attributed skeletal-muscle structure, coupling and mechanics teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d19585986e01321bc78a` / `d19585986e01321bc78a83ea468a19ac3362b5b3cf98334a8e110ecdbe00e228` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/skletal muscle.pdf` |
+| Physical verification | **846,249 bytes; 5 native-text portrait-A4 pages; 595.32 × 842.04 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest; all five full-page render hashes are distinct. |
+| Visible / metadata provenance | Every page is headed `Physiology` or `General physio` and `skeletal muscles` / `muscular system`, and every footer names `DR. Omar Sheashaa`. Metadata separately names author `Mahmoud Yasser Elatawy`, Microsoft Word LTSC creator/producer and 17 May 2025 creation/modification. No page names a university, cohort, LCS code, examination sitting, marks or answer key. |
+| Authority finding | Attributed local tier-6 physiology teaching-summary evidence. The visible lecturer and metadata-author layers are preserved separately; neither establishes a recoverable assessment sitting, response form, practical station or marking guide. |
+
+All **5/5 pages** were rendered at 180 dpi, inspected at full resolution and read against the
+complete native text layer. The complete source-first boundary is:
+
+| Page | Complete supplied teaching composition | Assessment / practical boundary |
+|---:|---|---|
+| 1 | skeletal-muscle fibre, myofibril and sarcomere organization; thick/thin filaments; myosin; actin, tropomyosin and troponin subunits | completed declarative teaching only |
+| 2 | T-tubule and sarcoplasmic-reticulum organization, DHPR, terminal cisternae, SERCA, calsequestrin and ryanodine receptor; fully labelled sarcomere and sarcotubular diagrams | supplied explanatory figures, no hidden label or response field |
+| 3 | six supplied excitation–contraction steps, cross-bridge states, ATP binding/hydrolysis, power stroke, relaxation and tetanus | completed sequence/table only |
+| 4 | fully labelled cross-bridge-cycle and action-potential/calcium/twitch graphs; isometric/isotonic contraction and passive/total/active tension definitions | explanatory diagrams and statements only |
+| 5 | fully labelled length–tension graph, active-tension explanation, filament overlap and force–velocity/afterload relation | explanatory graph and statements only |
+| **Total** | **5 complete page-level teaching compositions** | **0 prompts / 0 keys / 0 practical inventory** |
+
+There is no interrogative, instruction to identify, option set, answer reveal, blank, response
+field, station number, masked callout or mark allocation. The exact assessment boundary is
+**0 eligible or external MCQ/written prompts / 0 keys-or-answers / 0 unkeyed prompts**. The
+five fully labelled explanatory figures (two on p. 2, two on p. 4 and one on p. 5) are
+simultaneous theoretical teaching, not practical-testing plates. Practical delta is exactly
+**0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical scopes**.
+
+Source wording and graphic state remain literal. This includes `DR. Omar Sheashaa`, the
+separate metadata author, `autonomic`, `physio`, lower-case sentence openings, the source's
+DHPR/ryanodine coupling formulation and every supplied graph label. No editorial or medical
+repair creates a prompt, answer or mapping.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The five pages consolidate source-first to five complete theoretical teaching handles:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `muscle-fibre-myofibril-sarcomere-and-filament-organization` · p. 1 | skeletal muscle fiber myofibril sarcomere; thick thin filaments myosin actin; troponin T I C functions; skeletal muscle structural organization | Accepted Families 60, 75, 146, 173 and 182 own the complete organization/filament scope — prior-LCS reuse. |
+| `t-tubule-sr-triad-calcium-storage-release-and-reuptake` · p. 2 | T tubule sarcoplasmic reticulum triad; dihydropyridine ryanodine receptor muscle; SERCA calsequestrin calcium storage; sarcotubular system skeletal muscle | Accepted Families 60, 75, 144, 146 and 173 own the complete sarcotubular scope — prior-LCS reuse. |
+| `excitation-contraction-cross-bridge-relaxation-and-tetanus` · p. 3 | excitation contraction coupling skeletal muscle; cross bridge ATP cycle muscle; muscle relaxation tetanus calcium; cross bridge relaxation tetanus | Accepted Families 51, 75, 99, 144–148, 173 and 182 own the complete sequence — prior-LCS reuse. |
+| `isometric-isotonic-and-twitch-response` · p. 4 | isometric isotonic muscle contractions; muscle twitch action potential calcium; preload afterload contraction types; isometric isotonic twitch physiology | Accepted Families 74–75, 97, 99, 144–147, 173 and 182 own the complete contraction/twitch scope — prior-LCS reuse. |
+| `length-tension-filament-overlap-and-force-velocity-afterload` · pp. 4–5 | length tension force velocity muscle; passive active total tension muscle; maximum filament overlap active tension; force velocity afterload muscle | Accepted Families 75, 97, 99, 144, 147, 173 and 182 own the complete mechanics scope — prior-LCS reuse. |
+
+Each of the **five accepted handles** received exactly one query on each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **5 × 4 = 20 required search invocations**. Literal combined-phrase searches returned
+no exact file hit, so absence was not used as a novelty decision. Complete-scope comparison
+against accepted Families 51, 60, 74–75, 97, 99, 144–148, 173 and 182 establishes **5
+prior-LCS theoretical-teaching reuses / 0 additive live / 0 additive pending / 0 additive new
+scopes**. There is no assessment or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,889 prompts / 6,616 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every ordinary-assessment delta is zero.
+
+Practical totals remain **62 prompts / 516 plates / 3,016 mappings / 156 residues / 55
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 182's remainder. Removing its sole path changes the
+all-rank remainder from **48 paths / 45 unique hashes** to **47 paths / 44 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **33 paths / 33 unique hashes within tier**, and
+rank 9 remains **14 / 11**. Family 182's prior checksums are
+`337e19d350ed3049f07afebbc4c8b477823bb1a573f5c865bdb129bf312cc2ad` (paths) and
+`367da89ae2ad3adcbe42eb9678a8d25dcd4142c5c68ed8104e2eb769accaf0bf` (unique hashes).
+For the exact post-Family-183 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b02eddccaa5e64a8a5afd1254902bf5986329768ada749e50c745c8a39db04b2`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e1afc3d66cbbf038165d80fa318fe41f92b5f5e787bc499324d0903e9e72f9b6`.
+
+The exact next manifest-order debt is tier-6 `src_52d18f178aba50038900`, manifest
+`اسئلة هيد اند نيك .pdf`, resolved to normalized local `اسئلة هيد اند نيك.pdf` (544,609
+bytes; 5 native-text 288 × 432 pt pages; untagged; unencrypted; PDF 1.3; SHA-256
+`52d18f178aba50038900fefdb6f3170890a8f11d64a22574c4d12f995753f5e1`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 47
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
