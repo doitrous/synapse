@@ -11821,3 +11821,91 @@ The exact next tier-3 manifest-order debt is `src_ea4daee0a71cf5f3171e`,
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 129 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 102 — Tier-3 direct LCS Pathology bone-tumour keyed MCQ-and-case deck
+
+### Exact identity, provenance and complete assessment boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_ea4daee0a71cf5f3171e` / `ea4daee0a71cf5f3171e609de4aa14e28438895e4f6c8559223b248a92b02ade` |
+| File / boundary | `MCQs - mcq 5 mss.pdf` · 560,051 bytes · unencrypted tagged PDF · 8 physical OCR-needed A4 pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - mcq 5 mss.pdf` |
+| Visible / metadata provenance | Cover prints `PATHOLOGY`, `MCQ LECTURE 5 (MSS)`, `BONE TUMORS`, `DR AHMED HASSAN`, and `LEVEL 1 - SEMESTER 2`; pp. 2–8 repeat `LECTURE 5`, `MSS` and `DR. AHMED HASSAN`. Metadata author is `Salah El-Din`; creator/producer is Microsoft Word for Microsoft 365; created and modified 26 April 2025. |
+| Authority finding | Direct named-course LCS Pathology question-deck evidence in the same Ahmed-Hassan MSS sequence accepted in Families 96 and 101. It is eligible at question-bank authority, but is not a formal sitting paper, response form or separately issued official key. |
+
+The assigned hash, byte size and eight-page boundary were recomputed and match. All eight
+pages were rendered at 220 dpi, OCRed, checked against the complete native text layer and read
+visually. P. 1 is the provenance cover. Physical pp. 2–7 contain consecutive keyed MCQs
+Q1–Q31; p. 7 then prints one osteosarcoma case with four independently answerable written
+parts and p. 8 prints one multiple-myeloma case with two written parts. Every item has an
+immediate source-printed answer.
+
+| Physical boundary | Visible assessment units | MCQs | Written prompts | Printed keys-or-answers |
+|---|---|---:|---:|---:|
+| p. 1 | provenance cover | 0 | 0 | 0 |
+| pp. 2–6 | Q1–Q29 | 29 | 0 | 29 |
+| p. 7 | Q30–Q31; osteosarcoma case parts a–d | 2 | 4 | 6 |
+| p. 8 | multiple-myeloma case parts a–b | 0 | 2 | 2 |
+| **Family 102** | **complete keyed deck** | **31** | **6** | **37** |
+
+Q28 is an exact repeat of Q1 and Q29 is an exact repeat of Q2. Both occurrences and keys are
+retained, while their prompt forms collapse. The remaining MCQs and six case response units
+are distinct, so **37 occurrences collapse to 35 source-distinct prompt forms**. Enumerated
+site/age/sex facts and spread/prognosis inside a case answer are components of their visible
+parent response unit, not extra manufactured prompts.
+
+There is no declarative teaching section, specimen, radiograph to identify, micrograph,
+practical station, teaching plate, masked label, response blank or apparatus task. The cover
+microscope is decorative provenance art; textual radiographic descriptions remain ordinary
+written assessment. Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0
+residues / 0 practical keys / 0 practical scopes**.
+
+### Handle collapse, exact searches and prior reconciliation
+
+The 35 prompt forms consolidate to **10 tested handles**: primary/metastatic bone-tumour
+classification and frequency; osteoid osteoma versus osteoblastoma; osteoma/Gardner syndrome;
+osteochondroma/exostosis; chondroma with Ollier/Maffucci syndromes; chondrosarcoma site and
+morphology; osteosarcoma clinicoradiologic/microscopic pattern and spread; Ewing sarcoma
+genetics/radiology/neural differentiation; giant-cell-tumour site/stromal biology; and
+multiple-myeloma plasma-cell/lytic-bone pattern.
+
+Each handle received exactly one search in the live, pending/import-ready, prior source-import
+and accepted-LCS surfaces: **10 × 4 = 40 required search invocations**. Accepted Families
+12, 17–20, 64 and 79 already own all ten tested scopes, including the ranking/classification,
+enchondroma-syndrome, named-tumour clinicopathology and case-diagnostic objectives. The current
+deck adds corroborating questions and keys but no new tested concept. Reconciliation is
+therefore **10 prior eligible reuses + 0 additions = 10**, with eligible concept delta
+**0 live / 0 pending / 0 new**. The direct source does not change the separately tracked
+external bank. The exact 40-query ledger is preserved at
+`tmp/pdfs/lcs103-family102/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **813 / 523 / 326 = 12 / 108 / 206** to **850 observed
+questions / 560 printed keys-or-answers / 326 distinct tested concepts = 12 live / 108
+pending / 206 new**. Arithmetic is `813 + 31 + 6 = 850`, `523 + 31 + 6 = 560`,
+`326 + 0 = 326`, and `12 + 108 + 206 = 326`. External assessment remains **2,246 prompts /
+2,187 printed keys-or-answers / 221 concepts = 12 live / 135 pending / 74 new**. Practical
+totals remain **7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with
+scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-101 remainder. Removing its sole path leaves **128
+all-rank path instances / 120 unique hashes**: tier 3 **46 paths / 43 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 101's prior checksums are
+`2273441c9605bddde30dc8485af6071ff62020eb4a4ec5d25e06a527e8a19edc` (paths) and
+`ab47c284e49c18261661500731e81196b3de80e173de71e43687a5ad042b58ef` (unique hashes).
+For the exact post-Family-102 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`aa2894a1abee0fe5107580135b1563412109a9eaf8f5b4ed5e3f29d6a7f73186`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e13f596bbb2376d7b6722526190ab675226112ae884c8a84a6b63b3666a107f5`.
+
+The exact next tier-3 manifest-order debt is `src_fe0e557cb57252cf7ff5`, manifest
+`MCQs - أسئلة أناتومي External MCQs .pdf` (normalized local filename omits the
+pre-extension space; 15,459,391 bytes; 68 native pages; SHA-256
+`fe0e557cb57252cf7ff546f0a55140f57a947026decba0b5971f735e9ce818c6`). It remains
+external until its own pages establish the exact module boundary. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 128 tier-3/tier-6/rank-9 path debts remain. No download,
+ID, content record, catalogue update, import or source copy was created.
