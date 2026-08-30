@@ -22096,3 +22096,71 @@ regulation, Gi drives inhibition/down-regulation, and Gq drives calcium modulati
 messengers. The filename timestamp is not an authenticated teaching or assessment date. Its
 provenance, teaching/prompt/answer/annotation boundary, prior-BMS reconciliation, arithmetic, and
 subsequent exact next debt remain to be separately adjudicated.
+
+## Family 215 — completed Dr-Elsawy activated-GPCR Gs/Gi/Gq branch diagram
+
+### Source identity, complete full-resolution boundary, authority, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_6f98aea52013f0b7890b` · `2026-07-20 06.27.03.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `6f98aea52013f0b7890b006004f69a9fdba3b850f7b87862c91b02da94f21cfb` · **79,085 bytes** |
+| Format / complete read | **One 1280×588 landscape progressive JPEG**, JFIF 1.01 at 96 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. |
+| Complete visible content | A central `Activated GPCR` box branches to three completed statements: `Gs (Stimulatory Pathway)` drives activation and up-regulation; `Gi (Inhibitory Pathway)` drives inhibition and down-regulation; and `Gq (Coupled Pathway)` drives calcium modulation via secondary messengers. `Dr-Elsawy` is printed above the diagram. |
+| Visible/metadata provenance | `Dr-Elsawy` is visible source attribution. No university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement only, while the filename timestamp remains a sequence aid rather than an authenticated teaching date or sitting. |
+| Sequence relation | The image immediately follows Family 214's more detailed Gs/Gi/Gq messenger-and-receptor table and restates its three pathways at a higher conceptual level. That direct teaching overlap is not a prompt or a separately tested proposition. |
+| Authority | Low-authority attributed teaching diagram. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+Every pathway name and explanatory statement is already supplied. The branch connectors, coloured
+boxes, and arrows encode completed organization and direction, not requested operations or answer
+marks. There is no imperative, interrogative, blank, option set, response area, mark allocation,
+delayed key, unlabeled specimen, requested identification, handwriting, or candidate answer.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Its Gs/Gi/Gq content directly overlaps Family 214 and broader
+Family-202 pharmacology teaching, but completed declarative overlap is not a tested-proposition
+recurrence, so no prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 215 | Auxiliary cumulative (Families 12–215) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 215
+establishes completed attributed GPCR-pathway teaching and manifest-sequence evidence only, not
+assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 215
+
+`src_6f98aea52013f0b7890b` is exhausted at full image resolution: every visible pathway, supplied
+effect statement, connector, arrow, attribution, provenance limitation, timestamp caution,
+sequence relation, zero gate, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-215 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_0287c42a4d94b214a04c` ·
+`2026-07-20 06.27.08.jpg`, SHA-256
+`0287c42a4d94b214a04c1d3579da4554e54446eac23a077fb3e4a0a428077280`, **117,205 bytes**,
+**1280×564 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed `Dr-Elsawy` comparison between the nicotinic acetylcholine receptor
+(motor end-plate, acetylcholine agonist, Na ions) and GABA receptor (brain, GABA agonist, Cl ions),
+with a central membrane-channel drawing and directional arrows. The filename timestamp is not an
+authenticated teaching or assessment date. Its provenance, teaching/prompt/answer/annotation
+boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
