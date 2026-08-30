@@ -15687,3 +15687,111 @@ native-text pages; SHA-256
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 87 tier-3/tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 144 — Tier-3 direct LCS Physiology muscle-MCQ lecture bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_3cd2b338713b01fb5bf1` / `3cd2b338713b01fb5bf1f95e2dc396daaf5ca4e66ec9be2d03e8d151111b9176` |
+| File / boundary | `MCQs - College MCQs Document (3) Physiology MCQs.pdf` · 207,653 bytes · tagged, unencrypted PDF 1.7 · 39 physical US-Letter native-text pages |
+| Manifest placement | `HU-LCS-103` · Physiology · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Questions/MCQs/MCQs - College MCQs Document (3) Physiology MCQs.pdf` |
+| Visible / metadata provenance | P. 1 prints `Physiology MCQs Lecture`, `Lecture 1 _ from 1 to 35` and `Lecture 2 _ from 36 to 66`. Later red headings say `Doctor’s MCQs` and `BRS MCQs`. Metadata names author `Adham Elsayed Elsayed Moussa`, Microsoft Word as creator, 26 April 2021 creation and 10 June 2024 modification. No page or metadata names Helwan University, a faculty, instructor, cohort, sitting, formal exam or official answer authority. |
+| Authority finding | Manifest/path-placed local LCS-103 Physiology question-bank evidence, eligible under the standing direct course-bank lane. `College MCQs`, `Doctor’s MCQs` and `BRS MCQs` are source labels, not proof of an official sitting or answer key. |
+
+The assigned SHA-256, byte size and 39-page physical boundary were recomputed and match. All
+39 pages were rendered at 110 dpi and read visually against the complete native text layer.
+The renderer reports recoverable late-stream Flate syntax warnings, but produces all 39 page
+images and complete readable text through Q66. P. 1 is the cover. Lecture 1 occupies pp. 2–21
+and contains Q1–Q35 with Q26 printed twice verbatim; lecture 2 occupies pp. 22–39 and contains
+Q36–Q66. The complete boundary is therefore **67 physical MCQ occurrences / 66 numbered
+question identities / 0 written prompts**. Exact-source collapse removes only the second Q26
+at prompt-form grain; both visible occurrences remain in the assessment occurrence total.
+
+There is no conventional answer list, answer column or inline answer text. The only option-level
+answer annotation is the yellow highlight over Q17 option `E/ 15 motor units`, counted as **1
+source-marked answer / 66 unkeyed occurrences**. Blue stars beside Q6 and Q7, blue margin
+strokes and underlines around Q11–Q14, and red arrows beside Q17–Q18 point to questions or
+stem text rather than selecting an option; they are retained as source emphasis/navigation
+marks and are not promoted into keys. No other option on pp. 1–39 is highlighted, circled,
+underlined or answer-marked.
+
+Source defects remain literal and uncorrected. Q26 is duplicated with the same number and
+wording; Q37 repeats the voltage-gated-sodium choice; Q42–Q45 preserve the source's channel,
+`myocine` and troponin/tropomyosin wording; Q48–Q49 preserve `active diffusion`; Q55's printed
+four-sequence scaffold is followed by options `(1)`–`(4)`; and Q56–Q58 share the printed number
+pool `(201 _ 200 _ 199 _ 198 _ 100)`. These observations inventory source evidence only and do
+not medically repair or infer any unmarked answer.
+
+### Practical and teaching boundary
+
+The file is a cover followed only by prose MCQs and option lists. It has no specimen,
+photomicrograph, radiograph, trace, diagram, station, apparatus task, masked label,
+learner-completed map, response blank or standalone declarative teaching composition. Q55's
+sequence list and Q56–Q58's number pool are assessment option scaffolds, not mappings or
+teaching callouts. The coloured marks are assessment-page annotation, not practical residue.
+The source adds **0 practical prompts / 0 teaching plates / 0 mappings / 0 practical residues /
+0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-LCS reconciliation
+
+After the exact duplicate Q26 is collapsed at form grain, the 66 numbered forms consolidate
+to **14 source-distinct tested handles**. Each physical prompt remains counted once except the
+deliberately retained second Q26 occurrence.
+
+| Handle / source questions | Live query | Pending query | Prior-import query | Accepted-LCS query | Prior adjudication |
+|---|---|---|---|---|---|
+| Three-muscle morphology, control and sites · Q1–Q3,Q7–Q8,Q10 | `skeletal cardiac smooth muscle characteristics` | `muscle types histology comparison` | `skeletal muscle location control nuclei` | `smooth fusiform cardiac striated` | accepted Families 14, 60, 75, 97 and 99 own the comparison; prior eligible reuse |
+| Skeletal-muscle functions, posture and venous return · Q4–Q6 | `skeletal muscle functions posture venous return` | `muscle pump venous return posture` | `skeletal muscle heat voluntary movement` | `erect posture body attitude muscle` | pending Physiology material and accepted Families 75/97 own the function set; prior eligible reuse |
+| Motor-neuron pool, motor unit, end plate and NMJ definitions · Q9,Q11–Q13 | `motor neuron pool motor unit definition` | `motor end plate neuromuscular junction definition` | `anterior horn cell innervated fibers` | `motor axon terminal muscle fibre` | accepted Families 75 and 97 own the definition core; prior eligible reuse |
+| Training-induced skeletal-muscle hypertrophy/adaptation · Q14 | `skeletal muscle heavy training hypertrophy` | `exercise muscle mitochondria glycogen hypertrophy` | `weight training muscle adaptations` | `skeletal muscle fiber enlargement training` | live and exact accepted hypertrophy evidence owns the core; prior eligible reuse |
+| Skeletal-muscle fraction of body mass and arithmetic · Q15–Q16,Q34 | `skeletal muscle percent body weight calculation` | `body mass skeletal muscle fraction` | `45 percent body weight muscle` | `calculate skeletal muscle mass` | no prior eligible tested handle owns the source's 45%/50% arithmetic; new |
+| Fine-versus-coarse motor-unit size/innervation arithmetic · Q17–Q33 | `motor unit innervation ratio eye back muscle` | `fine coarse motor unit fibre ratio` | `calculate motor units muscle fibres` | `anterior horn cells muscle fibre count` | pending 3–6 versus 100–200-fibre material and accepted Family-75 motor-unit teaching own the complete relation; prior eligible reuse |
+| Cast immobilisation and disuse atrophy · Q35 | `immobilization cast disuse muscle atrophy` | `muscle size after eight weeks cast` | `disuse atrophy fibre size` | `fracture immobilization skeletal muscle wasting` | prior denervation-atrophy evidence is different-grain; no eligible handle owns cast-disuse atrophy; new |
+| NMJ structure, channels and transmission sequence · Q36–Q39,Q41,Q47 | `neuromuscular junction transmission sequence` | `nerve terminal acetylcholine channel sequence` | `motor end plate ligand gated sodium` | `presynaptic calcium acetylcholine release` | accepted Families 3, 75, 97 and 99 own the sequence; prior eligible reuse |
+| Sarcotubular system, SR calcium and T-tubule coupling · Q40,Q42–Q43,Q48–Q49,Q61,Q63,Q65 | `sarcotubular system T tubule SR calcium` | `excitation contraction coupling sequence` | `sarcoplasmic reticulum calcium release reuptake` | `T tubule action potential muscle` | accepted Families 15, 60, 75, 97 and 99 own the core; prior eligible reuse |
+| Calcium–troponin–tropomyosin thin-filament regulation · Q45–Q46,Q50,Q59,Q62 | `calcium troponin C tropomyosin active sites` | `thin filament regulation contraction relaxation` | `tropomyosin covers actin binding sites` | `troponin tropomyosin skeletal muscle` | accepted Families 51, 60, 75, 97 and 99 own the core; prior eligible reuse |
+| ATP/myosin cross-bridge cycle · Q44,Q51 | `ATP cross bridge cycle myosin head` | `ATP hydrolysis ADP phosphate myosin` | `cross bridge initiation skeletal muscle` | `myosin ATP storage contraction` | accepted Families 51, 75 and 99 own the cycle; prior eligible reuse |
+| Sliding-filament sarcomere and band changes · Q52–Q54,Q60 | `sarcomere band changes sliding filament` | `A band constant I H shorten` | `severe muscle contraction H zone` | `thin thick filament lengths constant` | live and accepted Families 15, 51, 60, 75, 97 and 99 own the full pattern; prior eligible reuse |
+| NMJ/excitation–contraction temporal ordering · Q55,Q64,Q66 | `excitation contraction temporal sequence` | `neuromuscular temporal sequence muscle` | `action potential T tubule calcium cross bridge` | `muscle contraction events correct order` | accepted Families 3, 75 and 99 own the temporal sequence; prior eligible reuse |
+| Z-line-derived sarcomere, A-band and H-zone counts · Q56–Q58 | `Z lines number sarcomeres calculation` | `calculate A bands from Z lines` | `calculate H zones from Z discs` | `myofibril 200 Z lines` | prior architecture records own definitions but not this count-from-boundaries application; new |
+
+All **14 × 4 = 56 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **11 prior eligible reuses + 3 new eligible concepts = 14 handles**. The
+three additions enter the new state: eligible concept delta is **0 live / 0 pending / 3 new**.
+Search matches establish coverage only and do not create, infer or repair answer content.
+Render/search scratch stayed outside the worktree under `/private/tmp/lcs103-family144/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **875 / 585 / 330 = 12 / 108 / 210** to **942 observed
+questions / 586 printed keys-or-answers / 333 distinct tested concepts = 12 live / 108
+pending / 213 new**. Arithmetic is `875 + 67 = 942`, `585 + 1 = 586`, `330 + 3 = 333`,
+and `12 + 108 + 213 = 333`. The external-bank checkpoint remains **6,753 external prompts /
+6,487 source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 143's remainder. Removing its sole path leaves **86
+all-rank path instances / 81 unique hashes**: tier 3 **4 paths / 4 unique hashes within tier**,
+tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 143's prior checksums are
+`cd3965ce89df13cd81e5ac3f0f4ef762ae763a2f4f41761c585421c0fd402a69` (paths) and
+`2673ca75a20f0158c4b7eea489d70fc0b44bcbea212e0d58102c839f00731ae4` (unique hashes).
+For the exact post-Family-144 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b6e61891540d58c688260b76bf79a8dfdd50b282ef9fac9abdc0ad054ceff359`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`90cbb4429be2f1356de28b0fb50742dd7e130147ac41c360e17598e317258666`.
+
+The exact next tier-3 manifest-order debt is `src_5b820faa6b42dc72e3e1`,
+`MCQs - College MCQs Physiology 103 tutorial 1.pdf` (2,032,255 bytes; 23 physical native-text
+pages; SHA-256 `5b820faa6b42dc72e3e1f44a7d4bc1b884dc9db61d0379cd0376c69f066142ea`)
+under `Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until every page
+is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 86 tier-3/tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
