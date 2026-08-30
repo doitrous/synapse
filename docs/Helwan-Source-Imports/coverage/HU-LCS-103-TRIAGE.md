@@ -13343,3 +13343,107 @@ The exact next tier-3 manifest-order debt is `src_3f9b8770565dc6098d0d`, manifes
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 113 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 118 — Tier-3 external Lower-Limb MCQ, structured-question and clinical-problem compilation
+
+### Exact identity, authority and complete 50-page native boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_3f9b8770565dc6098d0d` / `3f9b8770565dc6098d0d699b326a2c79b824d7fb24da0c76fec90d7d13681c9a` |
+| File / boundary | Manifest `MCQs - External MCQs Anatomy MCQ.pdf.pdf`; normalized local filename removes the duplicated extension · 4,441,298 bytes · untagged, unencrypted native-text PDF · 50 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | Manifest `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy MCQ.pdf.pdf`; normalized local source is `MCQs - External MCQs Anatomy MCQ.pdf` |
+| Visible provenance | The first page prints only `LOWER LIMB`, `M.C.Q's` and `SELECT THE CORRECT ANSWER`; subsequent printed page numbers run 84–133. The excerpt supplies no book title, author, university, Helwan, LCS-103, cohort, exam sitting or year label. PDF metadata exposes only iOS 18.4.1 Quartz production and 21 May 2025 creation/modification. |
+| Authority finding | Generic externally sourced Lower-Limb question-and-model-answer compilation. Manifest folder placement and page subject prove corpus/module relevance but cannot establish Helwan assessment or official-key authority. All governed occurrences remain external. |
+
+The assigned hash, byte size and 50-page boundary were recomputed and match. Every page
+was rendered at 130 dpi and read visually in ten ordered contact sheets, with the native text
+layer used to verify numbering, answer grids and section transitions. Key pages and
+transition pages were checked at full-page resolution. The source PDF itself was not changed.
+
+The exact assessment boundary is:
+
+| Physical pages | Source section | Numbered containers | Governed prompt occurrences | Source keys-or-answers | Unkeyed |
+|---|---|---:|---:|---:|---:|
+| pp. 1–28 | `LOWER LIMB M.C.Q's`, Q1–Q164 | 164 | 164 MCQs | 0 on question pages | paired on p. 29 |
+| p. 29 | MCQ `MODEL ANSWERS` | 0 | 0 | 158 keyed MCQs | 6 blank key cells |
+| pp. 30–34 | `FILL IN THE BLANKS`, Q1–Q77 | 77 | 77 written prompts | 0 on question pages | paired on pp. 35–37 |
+| pp. 35–37 | fill-in `MODEL ANSWERS` | 0 | 0 | 77 answered prompts | 0 |
+| pp. 38–42 | `CROSS MATCHING QUESTIONS`, groups 1–20 | 20 groups | 90 independently answerable rows | 0 on question pages | paired on p. 43 |
+| p. 43 | cross-match `MODEL ANSWERS` | 0 | 0 | 90 row mappings | 0 |
+| pp. 44–47 | `PROBLEM SOLVING`, cases 1–11 | 11 cases | 52 independently answerable case parts | 0 on question pages | paired on pp. 48–50 |
+| pp. 48–50 | problem-solving `MODEL ANSWERS` | 0 | 0 | 52 answered case parts | 0 |
+| **Family 118** | **272 numbered source containers** | **272** | **383 prompt occurrences** | **377** | **6** |
+
+Thus the source contributes **383 external assessment occurrences = 164 MCQs + 219
+written/structured occurrences / 377 source keys-or-answers / 6 unkeyed occurrences**.
+Written/structured arithmetic is `77 + 90 + 52 = 219`; total arithmetic is
+`164 + 77 + 90 + 52 = 383` and `158 + 77 + 90 + 52 = 377`.
+
+The six blank MCQ key cells are Q62, Q64, Q93, Q99, Q102 and Q106. Q69's option `c` is
+visibly missing or unreadable in the source scan, although its key cell prints `b`. In the
+fill-in model answers, the answer line immediately after Q38 lacks a printed `39-` label but
+occupies the Q39 sequence position; it is preserved as source answer content without
+inventing a label. Apparent source wording/mapping anomalies—including `profunda brachii`
+in the Q50 fill answer and the overloaded Q53 answer string—are recorded, not medically
+repaired. Cross-match rows and case subparts are counted once each; their model answers do
+not create second prompts.
+
+No question supplies a diagnostic image, radiograph, specimen, micrograph, station,
+apparatus task or masked label. Clinical cases that mention an X-ray remain prose-only.
+Fill-in blanks, cross-match rows and case subparts are written assessment response formats,
+not practical residues or practical mappings. There is no standalone declarative teaching
+section. Teaching and practical deltas are therefore exactly zero, including **0 practical
+prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 383 occurrences collapse to **16 source-distinct tested handles**: lower-limb osteology
+and bony landmarks; femoral triangle, sheath, canal and hernia; anterior/medial thigh
+muscles and nerves; gluteal region, sciatic foramina and gluteal nerves; hip-joint ligaments,
+blood supply and injury; posterior thigh, hamstrings and sciatic nerve; fascia lata,
+iliotibial tract and saphenous opening; lower-limb arteries and anastomoses; veins,
+lymphatics and DVT; knee ligaments, menisci and locking; popliteal fossa and vessels; leg
+compartments, muscles and fibular nerves; ankle/foot joints and movements; foot muscles,
+tendons, retinacula and arches; cutaneous nerve territories; and integrated clinical
+lower-limb injury localization. Repeated stems and differently formatted variants remain
+separate source occurrences but do not manufacture second concepts.
+
+Each handle received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **16 × 4 = 64 required search invocations**.
+Prior-external-first comparison finds all 16 already represented across Families 86, 94,
+103 and 107–115. Accepted Families 39–48 independently own or corroborate the curricular
+lower-limb scopes, but cannot promote this external compilation into eligible Helwan
+evidence. Reconciliation is **16 prior-external reuses + 0 external additions = 16**; both
+external and eligible concept-state deltas are zero. Exact query and result ledgers are
+preserved at `tmp/pdfs/lcs103-family118/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family118/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,871 / 3,735 / 221 = 12 / 135 / 74** to **4,254 external prompts / 4,112
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `3,871 + 383 = 4,254`, `3,735 + 377 = 4,112`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-117 remainder. Removing its sole path leaves
+**112 all-rank path instances / 104 unique hashes**: tier 3 **30 paths / 27 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 117's prior checksums are
+`acae0349f13f5b0b41539f2531b9f3ba58a2e2a66dc2497f83c55e3b78c7827c` (paths) and
+`78e9f603fe10005cf5afa0cfaf5694e7096a9a17e99e491c32fc37ba8c64f8ec` (unique hashes).
+For the exact post-Family-118 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`9aa5b01eb4b88f5acae1f42cca333ad05278dde5b2409963480729af0b206c30`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`ac336e53e61a71d403d0813ac458305f28e68a61aed4229a83e9c187b371ec11`.
+
+The exact next tier-3 manifest-order debt is `src_056fbb290eaa8d588eb7`,
+`MCQs - External MCQs Anatomy MCQs Lower limb.pdf` (1,841,274 bytes; 13 native-text pages;
+SHA-256 `056fbb290eaa8d588eb707800841ff07298c00ebad2b33b6a205d1426bd1035a`).
+It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 112 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
+record, catalogue update, import or source copy was created.
