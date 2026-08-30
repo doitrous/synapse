@@ -15907,3 +15907,101 @@ The exact next tier-3 manifest-order debt is `src_aacbb031f12572131776`,
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 85 tier-3/tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 146 — Tier-3 direct LCS keyed Physiology muscle-and-bone MCQ bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_aacbb031f12572131776` / `aacbb031f12572131776bc76f89d69f15759e7cc6e5a3af3d3bc7239f0be610a` |
+| File / boundary | `MCQs - MCQ Physiology.pdf` · 223,736 bytes · tagged, unencrypted PDF 1.7 · 8 physical native-text A4 pages |
+| Manifest placement | `HU-LCS-103` · Physiology · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Questions/MCQs/MCQs - MCQ Physiology.pdf` |
+| Visible / metadata provenance | Every page is headed `Physiology` / `Questions` and footed `DR . El-Sawy`; p. 1 labels the first section `MCQ` / `MUSCLE`, and p. 7 labels the second `BONE`. Metadata names author `Hossam mohammed`, Microsoft Word LTSC as creator, and 24 July 2025 as creation/modification date. No page or metadata names a university, formal exam, cohort, sitting or separately issued answer authority. |
+| Authority finding | Manifest/path-placed module-specific Physiology question-bank evidence, eligible under the standing direct course-bank lane but below formal-sitting authority. The right-hand answer letters are source-printed inline keys, not an inferred or independently issued official key. |
+
+The assigned SHA-256, byte size and eight-page physical boundary were recomputed and match.
+All eight pages were rendered at 140 dpi and read visually against the complete native text
+layer. Muscle Q1–Q30 occupy pp. 1–6 and bone Q1–Q10 occupy pp. 7–8. Every question has
+four options and one answer letter printed in the right-hand column. The complete boundary is
+therefore **40 ordinary eligible MCQ occurrences / 40 source-printed keys / 0 written
+prompts**. No question is repeated verbatim within the source, and there is no unkeyed
+assessment occurrence.
+
+The exact printed muscle key sequence is **B, C, C, D, C / C, A, C, D, C / B, C, C, C,
+D / C, A, B, D, C / D, C, B, B, D / D, D, A, D, A** for Q1–Q30. The exact bone key
+sequence is **D, C, A, C, B / C, C, A, C, A** for Q1–Q10. These letters are preserved as
+printed. Muscle Q19 marks `D` for hypokalaemic cramps despite option `B` about reduced
+membrane excitability; bone Q9 marks `C` (`Both positive and negative feedback`) rather than
+the negative-feedback option; and bone Q4 marks `iodine` as the factor that does not affect
+bone health. These are governed source-key anomalies, not invitations to medically repair the
+file.
+
+### Practical and teaching boundary
+
+The pages contain only formatted MCQ grids and answer letters. The header icon and section
+furniture are decorative; there is no specimen, micrograph, radiograph, trace, apparatus,
+station, masked label, learner-completed map, response blank, declarative teaching slide or
+standalone practical answer key. The source adds **0 practical prompts / 0 teaching plates /
+0 mappings / 0 practical residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-LCS reconciliation
+
+The 40 occurrences consolidate to **12 source-distinct tested handles**. Closely related
+questions are collapsed only at tested-objective grain; every physical occurrence and printed
+key remains counted.
+
+| Handle / source questions | Live query | Pending query | Prior-import query | Accepted-LCS query | Prior adjudication |
+|---|---|---|---|---|---|
+| Three-muscle types and functions · muscle Q3,Q5–Q7,Q10–Q11 | `skeletal cardiac smooth muscle functions` | `muscle types movement heat posture` | `skeletal muscle pumping blood involuntary` | `muscle tissue storage calcium communication` | accepted Families 15, 75, 97, 99 and 144 own the comparison/function core; prior eligible reuse |
+| Sarcomere, sarcolemma and structural/contractile proteins · muscle Q1,Q12–Q14,Q22,Q27 | `sarcomere functional unit muscle fiber` | `dystrophin actin sarcolemma mechanical stress` | `actin myosin functional proteins` | `Z lines divide myofibril sarcomeres` | accepted Families 54, 60, 75, 77, 97, 99 and 144 own the architecture; prior eligible reuse |
+| Motor-unit definition · muscle Q8 | `motor unit one motor neuron all muscle fibers` | `motor neuron innervates muscle fibers` | `motor unit definition` | `motor unit muscle physiology` | accepted Families 75, 97 and 144 own the definition; prior eligible reuse |
+| Twitch, elasticity and isometric tension · muscle Q9,Q15–Q16,Q20 | `muscle twitch single brief contraction` | `elasticity return original length stretching` | `isometric develops tension not shorten` | `muscle contraction tension length` | accepted Families 74, 75, 97 and 99 own the contraction-property core; prior eligible reuse |
+| Unitary smooth muscle and gastrointestinal pacemaker activity · muscle Q18 | `unitary smooth muscle gastrointestinal pacemaker` | `single unit smooth muscle pacemaker` | `multiunit unitary smooth muscle` | `gastrointestinal smooth muscle spontaneous activity` | accepted Family 15 and later direct Physiology banks own the comparison; prior eligible reuse |
+| Hypokalaemia, membrane excitability and cramps · muscle Q19 | `hypokalemia muscle cramps hyperpolarization` | `low extracellular potassium muscle excitability` | `potassium cramps skeletal muscle` | `hypokalemia spontaneous contractions` | no prior eligible tested handle owns this exact clinical-electrophysiology application; new |
+| T tubules, sarcoplasmic reticulum and calcium movement · muscle Q17,Q21,Q24 | `T tubules spread depolarization interior muscle` | `sarcoplasmic reticulum stores releases calcium` | `sarcolemma invaginations T tubules` | `excitation contraction coupling T tubules` | accepted Families 15, 60, 75, 97, 99 and 144 own the complete relation; prior eligible reuse |
+| Thin/thick filaments, relaxation and excitation–contraction coupling · muscle Q2,Q23,Q25–Q30 | `tropomyosin covers actin binding sites` | `A band remains constant muscle contraction` | `calcium troponin tropomyosin relaxation` | `thick filament myosin cross bridge` | accepted Families 15, 51, 60, 75, 97, 99 and 144 own the complete relation; prior eligible reuse |
+| Structural/metabolic bone functions and mineral storage · bone Q1–Q2 | `structural metabolic functions bone calcium phosphorus toxins` | `bone locomotion protection mineral storage` | `bone structural function respiration` | `bone physiology functions storage` | accepted teaching exists, but no prior eligible tested handle owns this combined function distinction; pending addition |
+| Longitudinal growth, bone-health factors and repair sequence · bone Q3–Q5 | `epiphyseal plate bone growth length` | `hematoma callus ossification remodeling` | `bone health genetics gender hormones iodine` | `bone repair sequence` | accepted bone teaching owns the content but not this tested cluster; pending addition |
+| PTH, calcitonin and vitamin-D calcium regulation · bone Q6,Q8 | `PTH increases blood calcium activates vitamin D` | `calcitonin inhibits osteoclasts lowers calcium` | `calcium homeostasis hormones` | `parathyroid hormone calcitonin vitamin D` | accepted direct Biochemistry/Physiology evidence already owns the hormone-regulation objective; prior eligible reuse |
+| Calcium distribution, feedback and ECF fraction · bone Q7,Q9–Q10 | `calcium body bones teeth extracellular fluid percentage` | `calcium homeostasis feedback mechanism` | `ECF calcium 0.1 percent` | `body calcium distribution` | pending calcium-metabolism material owns the facts, but no prior eligible tested handle owns this combined distribution/feedback objective; pending addition |
+
+All **12 × 4 = 48 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **8 prior eligible reuses + 4 eligible additions = 12 handles**. The four
+additions enter concept state as **0 live / 3 pending / 1 new**. Search matches establish
+coverage only and do not supply, repair or override the source's answer letters. Render/search
+scratch stayed outside the worktree under `/private/tmp/lcs103-family146/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **953 / 586 / 333 = 12 / 108 / 213** to **993 observed
+questions / 626 printed keys-or-answers / 337 distinct tested concepts = 12 live / 111 pending /
+214 new**. Arithmetic is `953 + 40 = 993`, `586 + 40 = 626`, `333 + 4 = 337`, `108 +
+3 = 111`, `213 + 1 = 214`, and `12 + 111 + 214 = 337`. The external-bank checkpoint
+remains **6,753 external prompts / 6,487 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 145's remainder. Removing its sole path leaves **84
+all-rank path instances / 79 unique hashes**: tier 3 **2 paths / 2 unique hashes within tier**,
+tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 145's prior checksums are
+`5dbd59cceb60d74bbdca3dafb56e5f6a0e11c837143dbde34f16e26958d98c90` (paths) and
+`2e0a845cc3853f654c069978a39a0371382ef0b11e29d76ad7c6a0f9ba2a4d83` (unique hashes).
+For the exact post-Family-146 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ae67e66bd3da0ce09de30124f1f61307472a13d069333ee8e25fad53b8306747`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`24f1679c58b18356b41aa6cbce214184b84c59476968d922f87dda9fafa2d232`.
+
+The exact next tier-3 manifest-order debt is `src_a8e020b0227a15c1da15`,
+`MCQs - Student MCQ Physio 103 Mcqs.pdf` (542,187 bytes; 8 physical native-text pages;
+SHA-256 `a8e020b0227a15c1da150919f14983f168164ec741ad903914f64df0c3584f70`)
+under `Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until every page
+is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 84 tier-3/tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
