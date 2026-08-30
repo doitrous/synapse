@@ -14991,3 +14991,103 @@ SHA-256 `6672e568f273ffba6c4f517b76a2fdf11120b83912f048402ff7704caa5c43dd`).
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 94 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 137 — Tier-3 student-authored keyed lower-limb quiz-content bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_6672e568f273ffba6c4f` / `6672e568f273ffba6c4f517b76a2fdf11120b83912f048402ff7704caa5c43dd` |
+| File / boundary | `MCQs - Student MCQs Anatomy 103 L.L.pdf` · 280,082 bytes · tagged, unencrypted PDF 1.7 · 12 physical US-Letter native-text pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - Student MCQs Anatomy 103 L.L.pdf` |
+| Visible / metadata provenance | The first page prints `Anatomy 103 lower limb` and `Quiz content`; every page carries the same decorative Arabic devotional header. Metadata names author `Eman Ibrahem Hefny Ibrahem`, Microsoft Word, and 16 August 2025 creation/modification. No page or metadata identifies Helwan University, a faculty, instructor, cohort, formal exam, sitting or official answer authority. |
+| Authority finding | The manifest explicitly identifies a student MCQ compilation. Its title and body establish LCS-103 lower-limb relevance, but not eligible Helwan assessment or official-key authority; all governed occurrences remain external. |
+
+The assigned hash, byte size and 12-page physical boundary were recomputed and match. All 12
+pages were rendered at 144 dpi and read visually against the native text layer. Pages 1–9
+contain a continuous Q1–Q81 sequence; the printed `Key Answers` begins beneath Q81 on p. 9,
+continues through pp. 10–11 and supplies one letter for every Q1–Q81. Page 12 is otherwise
+blank inside the repeated border and header. The exact boundary is therefore **81 external
+MCQ occurrences / 81 printed answer letters / 0 unkeyed occurrences / 0 written prompts**.
+
+Source defects are preserved without editorial or medical repair. Q18's stem ends after
+`the only muscle in the medial compartment which inserted in` without naming an insertion,
+yet retains four choices and printed key `A`. Q45 has an unlabeled third option between `B`
+and `D`; its key remains the source-printed `A`. Q70 includes the literal word `Answer:` in
+the stem but no inline answer content, so only the separate key-grid `D` is counted. Split
+questions across page boundaries and the key heading beneath Q81 do not create extra prompt
+or answer occurrences.
+
+### Teaching and practical boundary
+
+Every assessed item is prose-only. There is no anatomical image, specimen, radiograph,
+clinical photograph, diagram, station, apparatus task, masked label, learner-completed map
+or standalone teaching section. The decorative border/header and red answer list are page
+furniture and an assessment-key container, not teaching or practical plates. The source adds
+**0 practical prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0 practical
+keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 81 occurrences collapse to **8 source-distinct tested handles**: femoral triangle,
+femoral sheath/canal and adductor canal; femoral, saphenous and thigh cutaneous nerves;
+anterior-thigh muscles and quadriceps; medial-thigh adductors and obturator nerve; gluteal
+muscles/nerves and Trendelenburg mechanics; deep gluteal region and sciatic foramina; sciatic
+nerve course and relations; and lower-limb arteries, veins and lymphatics. Femoral hernia is
+assigned to the femoral-canal handle, and vessel or nerve clinical vignettes are assigned
+once to their governing regional handle.
+
+The exact four-query ledger was:
+
+| Handle | Live query | Pending query | Prior-import query | Accepted-LCS query |
+|---|---|---|---|---|
+| Femoral triangle/sheath/canal and adductor canal | `femoral triangle contents` | `femoral sheath canal` | `adductor canal Hunter boundaries` | `femoral triangle sheath canal anatomy` |
+| Femoral/saphenous/thigh cutaneous nerves | `femoral nerve branches` | `saphenous nerve course` | `femoral cutaneous nerves thigh` | `femoral nerve saphenous anatomy` |
+| Anterior thigh and quadriceps | `quadriceps femoris anatomy` | `anterior thigh muscles` | `rectus femoris sartorius iliacus` | `anterior compartment thigh anatomy` |
+| Medial thigh and obturator nerve | `obturator nerve branches` | `adductor compartment thigh` | `adductor muscles obturator canal` | `medial compartment thigh anatomy` |
+| Gluteal muscles/nerves and Trendelenburg | `gluteal nerve anatomy` | `Trendelenburg pelvis gait` | `gluteus maximus medius minimus` | `gluteal region anatomy` |
+| Deep gluteal region and sciatic foramina | `greater sciatic foramen contents` | `lesser sciatic foramen` | `piriformis gemelli obturator internus` | `deep gluteal region anatomy` |
+| Sciatic nerve course and relations | `sciatic nerve anatomy` | `sciatic injection injury` | `tibial common fibular divisions sciatic` | `sciatic nerve lower limb` |
+| Lower-limb arteries/veins/lymphatics | `lower limb vascular anatomy` | `great small saphenous veins` | `femoral popliteal anterior tibial vessels` | `lower limb arteries veins` |
+
+All **8 × 4 = 32 required search invocations** completed across the live, pending/import-ready,
+prior source-import and accepted-LCS surfaces. Prior-external-first comparison finds all
+eight handles represented across Families 86, 88, 94, 103, 107–115, 118–124, 127,
+130–131 and 133–134. Accepted Families 39–48 corroborate curricular fit but cannot promote
+this student-authored bank into eligible Helwan evidence. Reconciliation is **8
+prior-external reuses + 0 external additions = 8**; eligible and external concept-state
+deltas are zero. Search scratch stayed outside the worktree under
+`/private/tmp/lcs103-family137/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **6,081 / 5,815 / 221 = 12 / 135 / 74** to **6,162 external prompts / 5,896
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `6,081 + 81 = 6,162`, `5,815 + 81 = 5,896`, `221 + 0 = 221`, and `12 + 135 +
+74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in the Family-136 remainder. Removing its sole path leaves **93
+all-rank path instances / 88 unique hashes**: tier 3 **11 paths / 11 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 136's prior checksums are
+`805e3280b3ea8097ceeec2a1481676e71a72081aee3b1e822c4ec291aebaf5f5` (paths) and
+`e23e81a244f209a51b4f20d2185106d43f564b65fb91cecbb070cf7d943c5848` (unique hashes).
+For the exact post-Family-137 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`c504619308e42ba38f2cbb5306fb507b439bd11c596ab02a3594737b9777e385`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`34ee3e8007f45d1f92d0c644791b9db1c8e1d5f2ce50aef6e46bc85f7007eae4`.
+
+The exact next tier-3 manifest-order debt is `src_01dd7811692c0c1a3e50`,
+`MCQs - Student MCQs Head&Neck 1.PDF` (472,048 bytes; 39 physical native-text pages;
+SHA-256 `01dd7811692c0c1a3e50d40637aeeed75d9d64570ad07450f464bd6998aab53e`).
+It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 93 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
