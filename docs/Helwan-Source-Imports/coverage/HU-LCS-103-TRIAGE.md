@@ -19753,3 +19753,102 @@ tagged; unencrypted; PDF 1.5; SHA-256
 and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 44 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 187 — Rank-9 Capital University LCS-103 physiology question-and-answer deck
+
+### Exact identity, visible authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_2b1ba8f9c9532c26b4f7` / `2b1ba8f9c9532c26b4f7ab62e2865a1f4efa82f671a5d82db85fa6c170cd320c` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Questions/103-LCS-Questions and answers-MS-26.pdf` |
+| Physical verification | **418,682 bytes; 14 native-text 720 × 540 pt pages; tagged; unencrypted; PDF 1.5**. Full hash, byte size, page count and geometry match; all fourteen 180-dpi full-page renders are distinct. |
+| Visible / metadata provenance | P. 1 prints `Questions and answers`, `Dr /Hanan Essam`, `Physiology Department`, `Capital university`. Pages 2–14 print `19 May 2026` and `Module: LCS-103`. Metadata separately names author `Hassan Al Mahallawi`, PowerPoint 2010 creator/producer and the same creation/modification date. |
+| Authority finding | Explicit Capital University authorship makes this external assessment evidence. The LCS-103 footer and date establish module relevance and source date, but neither supplies Helwan authority nor labels the date as a formal sitting. Printed `Answer` lines are source answers, not a Helwan official key. |
+
+All **14/14 pages** were rendered at 180 dpi, inspected in order at full resolution and read
+against the complete native layer. The exact physical and assessment boundary is:
+
+| Pages | Source-first composition | Prompt / answer inventory |
+|---:|---|---:|
+| 1 | title, lecturer/department/university attribution | 0 |
+| 2–4 | Q1–Q3: SR calcium reuptake, calmodulin/Troponin C and tetanic intracellular calcium | 3 prose MCQs / 3 printed answers |
+| 5 → 6 | shared isometric length–tension graph; Q4–Q6 ask three descriptions to be matched to points; delayed answer slide prints `4- B`, `5- E`, `6- C` | 3 image-dependent matching prompts / 3 printed answers |
+| 7–14 | Q7–Q14: tendon overlap/length adaptation, nerve-muscle event order, estrogen/osteoporosis, sarcomere bands, chronaxie, PTH and skeletal/smooth-muscle properties | 8 prose MCQs / 8 printed answers |
+| **Total** | **Q1–Q14 complete, without duplicate or omitted number** | **14 external prompts / 14 source answers = 11 prose MCQs + 3 graph-matching items** |
+
+Every item has exactly one printed answer: `1 C; 2 D; 3 B; 4 B; 5 E; 6 C; 7 D; 8 D;
+9 A; 10 A; 11 C; 12 B; 13 C; 14 A`. There are **0 unkeyed prompts / 0 free-response
+written prompts**. Source states remain literal and unrepaired, including Q3's separate
+`Potassium` and `K+` options, Q7's visually overlapping `Answer : D`/table/footer layout,
+capitalisation, `Ca++`, and every printed answer letter.
+
+### Assessment–practical boundary
+
+Q4–Q6 depend on one supplied isometric length–tension graph and therefore count as **3
+practical prompts / 3 practical keys** as well as three of the fourteen external assessment
+occurrences. The graph is an assessment figure, not a simultaneous teaching plate. Its
+`A`–`F` points are the constrained response choices, not unresolved teaching callouts; the
+axes and answer slide do not create teaching mappings. Exact additional practical inventory
+is **0 teaching plates / 0 mappings / 0 residues / 0 teaching scopes**. The other eleven
+questions are prose-only.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The fourteen occurrences consolidate to ten tested handles:
+
+| Tested handle / question(s) | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `sr-calcium-reuptake-and-contraction-termination` · Q1 | skeletal muscle contraction calcium reuptake SR; SERCA terminates skeletal muscle contraction; calcium reuptake sarcoplasmic reticulum relaxation muscle; SERCA skeletal muscle relaxation | Prior external/accepted Families 75, 144–147, 173 and 183 own the complete scope. |
+| `calmodulin-and-troponin-c-calcium-binding-homology` · Q2 | calmodulin troponin C structural functional similarity; calmodulin compared with troponin C; calmodulin troponin C calcium binding protein; calmodulin troponin C | Prior physiology banks/teaching in Families 75 and 144–147 own the complete scope. |
+| `skeletal-muscle-tetanus-calcium-accumulation` · Q3 | tetanus cumulative intracellular calcium skeletal muscle; tetanic contraction calcium accumulation; skeletal muscle tetanus calcium concentration; skeletal-muscle-tetanus-calcium-accumulation | Exact accepted handle is already governed by Families 75 and 144–148. |
+| `isometric-length-tension-active-passive-optimal-length-and-adaptation` · Q4–Q7 | isometric length tension active passive optimal muscle length; sarcomere adaptation tendon overlap length tension; active passive tension optimal length skeletal muscle; length tension passive active muscle | Prior Families 75, 97, 99, 144, 147, 173 and 183 jointly own the complete graph/adaptation scope. |
+| `nerve-muscle-action-potential-and-contraction-order` · Q8 | nerve action potential muscle action potential contraction order; temporal sequence nerve muscle action potential contraction; nerve action potential precedes muscle contraction; action potential contraction temporal order | Prior Families 73, 75 and 144–147 own the complete temporal sequence. |
+| `estrogen-protection-against-postmenopausal-osteoporosis` · Q9 | estrogen prevents osteoporosis osteoblast activity; postmenopausal estrogen bone protective mechanism; hormone replacement osteoporosis osteoblasts; estrogen osteoporosis osteoblast | Prior bone/calcium Families 64, 72, 98 and 171 own the complete scope. |
+| `sarcomere-band-composition-and-contraction-changes` · Q10,Q14 | skeletal muscle sarcomere bands contraction A I H Z; A band I band H zone contraction; sarcomere band composition changes contraction; sarcomere band changes contraction | Prior Families 75, 144–147, 173 and 183 own the complete scope. |
+| `chronaxie-rheobase-and-excitability` · Q11 | chronaxie rheobase measure excitability; chronaxie current strength twice rheobase; chronaxie excitability nerve muscle; chronaxie rheobase excitability | Prior physiology MCQ Families 144–147 own the complete tested scope. |
+| `pth-calcium-phosphate-and-osteoclast-effects` · Q12 | PTH osteoclast calcium phosphate kidney intestine; parathyroid hormone functions osteoclast phosphate excretion; PTH calcium metabolism osteoclast renal phosphate; PTH calcium phosphate metabolism | Prior Families 72, 98 and 171 own the complete scope. |
+| `skeletal-and-smooth-muscle-shared-contractile-proteins` · Q13 | skeletal smooth muscle both actin myosin; skeletal and smooth muscle shared characteristics; actin myosin skeletal smooth muscle comparison; skeletal smooth muscle actin myosin | Prior Families 75, 99, 144–148, 173 and 183 own the complete comparison. |
+
+Each of the **ten accepted handles** received exactly one query on each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **10 × 4 = 40
+required search invocations**. Literal combined-phrase searches yielded one exact accepted
+handle hit and no exact file hit on the other surfaces; complete-scope comparison, not literal
+absence, establishes **10 prior external/LCS reuses / 0 additive live / 0 additive pending /
+0 additive external concepts**. All fourteen prompt and answer occurrences remain counted.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **6,931 / 6,656 / 221** by **+14 / +14 / +0** to **6,945 external prompts / 6,670
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+checks are `6,931 + 14 = 6,945`, `6,656 + 14 = 6,670`, `221 + 0 = 221`, and `12 +
+135 + 74 = 221`.
+
+Practical totals advance from **62 prompts / 525 plates / 3,029 mappings / 173 residues / 55
+keys** by **+3 / +0 / +0 / +0 / +3** to **65 prompts / 525 plates / 3,029 mappings /
+173 residues / 58 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `62 + 3 = 65`, `55 + 3 = 58`, and every other practical delta is zero.
+
+This hash also remains at the later rank-9 path
+`Year 1/LCS 103/Physiology/LCS questions/103-LCS-Questions and answers-MS-26.pdf`.
+Consuming only the assigned All-Subjects path changes the remainder from **44 paths / 42
+unique hashes** to **43 paths / 42 unique hashes**: tier 3 remains **0 / 0**, tier 6 remains
+**31 / 31**, and rank 9 becomes **12 paths / 11 unique hashes within rank**. Family186's
+checksums were `a1ca4259f795bddd900c7b509678582f8b0419d5617b4e0d1814ffcaafc970de`
+(paths) and `1b497213103cd3c6b075403697e631645fde6ae50f66af2800a7f51041e39ad0`
+(unique hashes). For the exact post-Family187 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`846ad80bb7182df635225ef85ebbb89dcc1aa6334e304e31ada3fcaee0fd6a60`;
+the sorted-unique `sha256<LF>` checksum remains
+`1b497213103cd3c6b075403697e631645fde6ae50f66af2800a7f51041e39ad0`.
+
+The exact next manifest-order debt is rank-9 `src_70bdaae49cc4369c1686`, `External Histo
+Questions on module 103.pdf` (887,652 bytes; 25 native-text portrait-A4 pages; tagged;
+unencrypted; PDF 1.5; SHA-256
+`70bdaae49cc4369c1686db42e0f1db2ee3ed6833157705ddbf193332ebb9bf97`) under
+`Year 1/LCS 103/All Subjects/Questions/`. It remains unclassified until every page is rendered
+and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 43 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
