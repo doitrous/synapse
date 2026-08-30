@@ -12799,3 +12799,104 @@ by the preferred twin `circulatory disturbance.pdf`; both paths must be reconcil
 object. Its full render/read, visible Dr Ahmed Hassan case/teaching provenance, metadata author/date
 caution, duplicate-carrier authority, and teaching/case/prompt/key boundary are the exact next-
 source blockers.
+
+## Family 121 — Dr Ahmed Hassan circulatory-disturbance case and gross-picture Q&A
+
+### Source identity, duplicate-carrier reconciliation, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest object and carriers | Tier-6 `src_1059136f89381a32e2ad` appears first as non-preferred-name twin `circulatory disturbance (1).pdf` and again as preferred twin `circulatory disturbance.pdf`, both under `Pathology / Notes and Summaries`. |
+| SHA-256 / size / exact duplication | Both carriers hash to `1059136f89381a32e2ad482853959f3242e9ab8dc40e39e4bdf4f9145f4fcf1f`, are 865,496 bytes, and pass a byte-for-byte comparison. They are one evidentiary object: the first carrier supplies the counts below and the preferred duplicate adds **0 prompts / 0 answers / 0 retained records / 0 handles / +0 concepts**. |
+| Format / complete visual boundary | Eight native-text portrait A4 pages, each 595.32×842.04 points. All eight pages were rendered at 160 dpi into eight non-empty 1323×1872-pixel images and read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent extraction contains 562 words / 3,459 raw bytes; layout-preserving extraction contains the same 562 words / 5,592 bytes. Both agree with all rendered case narratives, question lines, supplied responses, tables, captions, and image labels. Visual inspection controls the image-linked prompt and answer boundary. The manifest's `native` label is accurate. The PDF has no form, JavaScript, or encryption. |
+| Visible provenance | Every page visibly prints `PATHOLOGY`, `Circulatory disturbance`, the footer `DR . AHMED HASSAN`, and page numbers 1–8. This establishes visible instructor attribution and pathology teaching context. No university, faculty, module code, academic year, teaching date, practical station, or assessment sitting is printed. |
+| Metadata caution | Metadata names `Hossam mohammed` as author and gives Microsoft Word 2019 production timestamps of 26 March 2025. These conflict with or are secondary to the visible Dr Ahmed Hassan footer and establish file production only; they do not prove authorship, institutional provenance, academic year, or sitting. |
+| Authority | Instructor-attributed tier-6 case-based teaching deck with immediate supplied answers to five prompts and one unkeyed clinical prompt. It is not an authenticated candidate practical, official examiner key, dated sitting, or student response sheet. |
+
+### Complete page-first teaching, case, prompt, supplied-answer, and practical-style boundary
+
+| Page(s) | Complete visible content | Prompt / answer ruling |
+|---:|---|---:|
+| 1 | Case 1: obese woman with varicose veins, femoral fracture/fixation, three weeks of bed rest, painful edematous leg; labelled normal and thrombosed lower-limb CT angiography; fragmentation/embolus diagrams | Fully stated case and completed teaching images, but no interrogative stem or learner command: **0 prompts / 0 answers**. |
+| 2 | Fate of pulmonary embolism by embolus size/number: silent, pulmonary hypertension, pulmonary infarction and hemorrhage, or sudden death | Completed teaching table and labelled images: **0 / 0**. |
+| 3 | Labelled thrombus-versus-pulmonary-embolus histology; Case 2 black toes in a 75-year-old hypertensive, obese patient; `Which type of gangrene is that?` followed by `Dry gangrene`; request for gross-picture explanation followed by dry, shrunken, black appearance from loss of blood supply | **2 prompts / 2 immediate source-supplied teaching answers**. Both are practical-style gross-image tasks inside the teaching deck, not independent authenticated stations. |
+| 4 | Request to explain Case 2 through its risk factors, followed by hypertensive/obese → atherosclerosis → ischemia; completed gangrene definition, causes, ischemic relation, and wet/gas-gangrene teaching table | **1 prompt / 1 immediate supplied teaching answer**; remaining material is completed teaching. |
+| 5 | Case 3 acute abdominal pain and dark intestine at emergency surgery; `What is your diagnosis?` followed by `Wet gangrene`; request for gross-picture explanation followed by moist, soft, swollen, dark intestine | **2 prompts / 2 immediate supplied teaching answers**. Both are practical-style gross-image tasks inside the teaching deck, not separate stations. |
+| 6 | Completed line-of-demarcation definition, dry-versus-wet comparison/prognosis, separation image, and bacterial-toxin sequel statement | Completed teaching: **0 / 0**. |
+| 7 | Bedridden 66-year-old man with pleuritic pain and a focal wedge-shaped pleural-based hemorrhage; `Describe the process that happened in the lung?`; then separately labelled normal/congested spleen and testicular-infarction teaching images | **1 written clinical prompt / 0 supplied answer**. The following labelled spleen/testis plates neither answer the lung question nor form response space. |
+| 8 | Labelled testicular-infarction field and normal seminiferous-tubule comparison | Completed teaching plate: **0 / 0**. |
+
+The four image-linked Case 2/3 prompts are practical-style teaching questions, but the source
+contains no station number, candidate instruction sheet, concealed diagnosis, timed task, mark
+allocation, response frame, examiner checklist, or student response. They therefore remain
+ordinary auxiliary prompt records, not evidence of a practical sitting. Case labels, skull bullets,
+captions, arrows, completed tables, and already labelled histology/gross images are not extra
+prompts or answer-register rows.
+
+The exact object boundary is **6 raw prompt occurrences / 5 source-supplied teaching-answer
+occurrences / 1 unkeyed occurrence / 0 prompt-like or partial-answer residues / 6 retained
+records**. None is a literal or semantic same-source duplicate: dry and wet diagnoses, their
+separate gross rationales, the dry-gangrene risk-factor chain, and the pulmonary-infarction process
+are independently answerable. Source-first collapse therefore leaves **6 tested handles**.
+
+### Exactly four searches per accepted handle and prior-BMS adjudication
+
+All six accepted handles received exactly four fresh source-first searches across live state,
+pending import roots, and prior BMS-102 Families 1–120: **6 × 4 = 24 required and completed
+searches**. External exact-scope disposition is **0 live / 0 pending / 6 no same-scope**.
+
+| Handle · retained ref | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| `dry-gangrene-gross-diagnosis` · Q1 | `dry gangrene diagnosis`; `black dry shrunken toes`; `gangrene type gross picture`; `which type of gangrene is that` | Family 86 tests diabetes-associated peripheral atherosclerotic gangrene and Family 116 tests a dry-versus-wet comparison; neither tests this gross-picture diagnosis; delta |
+| `dry-gangrene-gross-rationale` · Q2 | `dry gangrene gross picture`; `dry shrunken black gangrene`; `line of demarcation dry gangrene`; `lack of blood supply dry gangrene` | Prior sources do not request the visible gross rationale; delta |
+| `hypertension-obesity-atherosclerosis-ischemia-gangrene-chain` · Q3 | `hypertension obesity atherosclerosis ischemia`; `dry gangrene risk factors hypertension obesity`; `atherosclerosis ischemia gangrene`; `fatty hypertensive black toes` | Related Family 86 uses diabetes rather than this hypertension/obesity causal chain; delta |
+| `intestinal-wet-gangrene-gross-diagnosis` · Q4 | `wet gangrene intestine diagnosis`; `moist soft swollen dark intestine`; `gangrenous intestine gross diagnosis`; `acute abdominal pain wet gangrene` | Family 116 compares dry and wet gangrene abstractly but does not test this intestinal gross diagnosis; delta |
+| `intestinal-wet-gangrene-gross-rationale` · Q5 | `wet gangrene gross picture`; `moist soft swollen dark gangrene`; `intestinal wet gangrene morphology`; `explain gross wet gangrene intestine` | No prior accepted prompt requests this gross description; delta |
+| `pulmonary-hemorrhagic-infarction-clinical-process` · Q6 | `bedridden pleuritic chest pain wedge shaped hemorrhage`; `pulmonary infarction wedge shaped pleural based`; `describe process happened in lung hemorrhagic infarct`; `pulmonary embolism hemorrhagic infarction lung` | Family 118 tests pulmonary-embolism sequelae and thromboembolic routes, not recognition/description of this wedge-shaped hemorrhagic lung process; delta |
+
+Prior-BMS exact tested-handle reuse is therefore **0**. Teaching overlap does not consume a tested
+scope, so Family 121 adds `6 - 0 = 6` distinct concepts.
+
+### Family-121 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 121 | Auxiliary cumulative (Families 12–121) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 6 | 1,021 | 765 | 1,786 |
+| Printed/source-supplied answer occurrences | 5 | 601 | 405 | 1,006 |
+| Unkeyed prompt occurrences | 1 | — | — | tracked separately |
+| Prompt-like / partial-answer residues | 0 | — | — | none |
+| Retained question records | 6 | 961 | 552 | 1,513 |
+| Source-distinct tested handles / required searches | 6 / 24 | 859 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 6 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 0 | — | — | subtract before concept addition |
+| Cross-family concept delta | +6 | +563 over primary | 372 | `372 + 563 = 935` |
+| **Distinct tested concepts** | **+6** | **563 auxiliary additions** | **372** | **935** |
+
+The checksum closes without remainder: `6 = 5 + 1`; all six prompt wordings remain retained and
+source-distinct; searches are `6 × 4 = 24`; external disposition is `0 + 0 + 6 = 6`; and concept
+arithmetic is `6 - 0 = 6`. The byte-identical preferred carrier adds zero. Auxiliary arithmetic is
+`1,015 + 6 = 1,021` prompts, `596 + 5 = 601` answers, `955 + 6 = 961` retained records,
+`853 + 6 = 859` handles, and `557 + 6 = 563` concept additions. All eligible arithmetic is
+`765 + 1,021 = 1,786`, `405 + 601 = 1,006`, `552 + 961 = 1,513`, and
+`372 + 563 = 935`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,021 / 601 / 961 / 859 / +563**; and all eligible evidence is
+**1,786 / 1,006 / 1,513 / 935**. Family 121 cannot establish an authenticated practical,
+official key, dated sitting, recurrence, mark weight, student response, readiness, or claims
+status.
+
+### Exact next debt after Family 121
+
+`src_1059136f89381a32e2ad` is exhausted across all eight pages and both byte-identical carrier
+paths: every visible provenance field, case, teaching table/plate, prompt, supplied or missing
+answer, practical-style boundary, four-query packet, prior-BMS relation, duplicate-carrier zero,
+and arithmetic term is assigned once, with **zero source remainder** and no Family-121 blocker.
+The exact next unprocessed manifest record is tier-6 `src_b76c1117f1401f9e79d6` ·
+`inflammation 1.pdf.pdf`, SHA-256
+`b76c1117f1401f9e79d659802297a34fb57a1fe975384eaad7b18d1a22d1207e`, 7,797,982 bytes,
+39 native-text 791×444.937-point landscape pages under `Pathology / Notes and Summaries`. Its
+full render/read, visible Dr Enas Megahed Elhosary / Faculty of Medicine / Helwan University
+provenance, iOS production-date caution, and teaching/case/prompt/key/practical boundary are the
+exact next-source blockers.
