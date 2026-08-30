@@ -20762,3 +20762,119 @@ The exact next unprocessed manifest record is tier-4 `src_11e4f2b9f8bdbdb51806` 
 metadata names Nitro Pro 12 and records the same date. Its complete authority/date boundary,
 teaching/prompt/key/callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent
 exact next debt remain to be separately adjudicated.
+
+## Family 198 — Nahed Soliman current BMS-102 Circulation 2 lecture and interactive questions
+
+### Source identity, complete render/native boundary, visible authority, and date
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_11e4f2b9f8bdbdb51806` · `main-stream-circulatory-2-2026.pdf` under the exact local `Pathology / Theoretical / Lec 6 - Circulation 2` folder |
+| SHA-256 / exact size | `11e4f2b9f8bdbdb518061fd414e2d0fd6f3be1166694721c57daa4802bcb100f` · **2,907,302 bytes** |
+| Format / complete read | **82 native-text 960×540-point landscape pages**. All 82 pages were rendered into 82 non-empty 1600×900-pixel images and read individually at original detail. Native extraction contains **3,925 words / 31,835 bytes** and agrees with every visible authority/date field, directive, teaching statement, option set, shared matching bank, image, link, footer, and reference. |
+| Visible authority/date | Pages 1–2 and repeated pp.47–48 visibly identify Faculty of Medicine / Pathology, **Academic Year 2025/2026**, Year 1, Semester 2, **BMS-102**, **Nahed Soliman**, Ass. Prof. of Pathology and Head of Pathology Department, and **7 March 2026**. These source-facing fields establish current Helwan BMS-102 teaching authority and lecture date. |
+| Metadata caution | Metadata names Nitro Pro 12 as creator and records modification on 7 March 2026. This corroborates carrier production timing but does not create an assessment sitting or override visible authorship. |
+| Footer anomaly | Page 45 alone visibly prints `Module: BMS-101`; all cover/module fields, folder placement, and the other dated footers identify BMS-102. The single inconsistent footer is preserved as a template anomaly, not treated as a different source or module. |
+| Authority | Tier-4 current Helwan theoretical teaching material with completed study checks, interactive MCQs, and one matching exercise. It is not an exam paper, official departmental key, mark scheme, candidate response, or authenticated practical station. |
+
+### Complete page-first teaching, assessment, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–5 | Current-year/module/instructor cover, `Circulatory disturbances Part 2`, topic objectives, and learning objectives | Provenance, structure, and teaching objectives. Command verbs on p.5 state intended outcomes rather than present response operations; **0 prompts / 0 answers / 0 practical**. |
+| 6 | `DEFINE THROMBOSIS, HEMOSTASIS` followed immediately by completed definitions of hemostasis, thrombosis, and thrombus | **1 compound written study check / 1 immediate supplied teaching-answer block**. The extra thrombus definition is teaching expansion, not a second prompt. |
+| 7–11 | Normal hemostasis, antithrombotic endothelial properties, platelet adhesion, and coagulation pathways | Completed teaching diagrams; **0 / 0 / 0**. |
+| 12 | `INTERACTIVE QUESTIONS`: vWF-deficient bleeding case asking which platelet process is impaired | **1 text MCQ / 0 supplied answers / 1 unkeyed**. No option is marked. |
+| 13–25 | Virchow triad; endothelial injury, stasis/turbulence, and hypercoagulability; thrombus mechanism/risk/sites/morphology; labelled Lines of Zahn and postmortem-clot images | Declarative teaching and diagnosis-disclosing images; p.15 is a section-header slide, not a response field; **0 / 0 / 0**. |
+| 26 | `COMPARE /CONTRAST THROMBUS/BLOOD CLOT` followed by the complete thrombus-versus-postmortem-clot comparison | **1 written study check / 1 immediate supplied teaching-answer block**. |
+| 27–32 | Arterial/cardiac-versus-venous thrombi, types/sites, DVT, and thrombus fate | Completed teaching tables, lists, and diagrams; **0 / 0 / 0**. |
+| 33–34 | Two `INTERACTIVE QUESTIONS`: tumour-associated hypercoagulability mechanism; and pulmonary-embolism source site in a bedridden patient with pleuritic pain/hemoptysis | **2 text MCQs / 0 supplied answers / 2 unkeyed**. |
+| 35–43 | DIC; embolism definition/types; thromboembolism routes/effects; fat, amniotic-fluid, air, tumour, parasitic, and foreign-body emboli | Declarative teaching and completed diagrams; **0 / 0 / 0**. |
+| 44–45 | Two `INTERACTIVE QUESTIONS`: delayed respiratory failure after femur fracture; and lesion type most commonly complicated by embolization | **2 text MCQs / 0 supplied answers / 2 unkeyed**. Page 45 preserves the `BMS-101` footer anomaly. |
+| 46 | References | Closing residue for Part 2; **0 / 0 / 0**. |
+| 47–51 | Repeated current-year/module/instructor cover, `Circulatory disturbances Part 3`, topic list, and ischemia/infarction objectives | Provenance, section structure, and teaching objectives; **0 / 0 / 0**. |
+| 52–77 | Ischemia, infarction, organ morphology, gangrene definition/types/pathogenesis, labelled gross/microscopic images, and complete dry-versus-wet comparison | Declarative teaching and diagnosis-disclosing plates; **0 / 0 / 0**. No image asks the learner to identify or operate on a specimen. |
+| 78 | `INTERACTIVE QUESTIONS` followed only by two Quizlet URLs | Link/resource pointer only. No external prompt, option, or answer content is embedded in this carrier, and none is inferred or downloaded; **0 / 0 / 0**. |
+| 79 | Hypercoagulability shared-bank exercise mapping pregnancy/oral contraceptives, old age, and tumour to one of five mechanisms | **3 matching operations / 0 supplied answers / 3 unkeyed**. Each left-side condition is independently answerable; uniform colour and placement do not disclose links. |
+| 80–81 | Two `INTERACTIVE QUESTIONS`: black small bowel with coagulative necrosis/thrombosed vessels and indistinct junction; black mummified foot/leg with a distinct junction | **2 text MCQs / 0 supplied answers / 2 unkeyed**. Both describe gross/microscopic findings in text but supply no image, specimen, or station operation. |
+| 82 | References | Terminal residue only; **0 / 0 / 0**. |
+
+The exact source boundary is **12 raw prompt occurrences = 7 MCQs + 3 matching operations + 2
+written study checks; 2 source-supplied teaching-answer blocks; 10 unkeyed operations; 12
+retained wording records; 0 image prompts; 0 drawing tasks; and 0 practical stations**. There is
+no exact same-source wording copy. The tumour/procoagulant MCQ on p.33 and tumour item in p.79's
+matching set test one semantic relation and collapse only after both occurrences remain retained,
+leaving **11 source-distinct handles**.
+
+All teaching images disclose their labels or diagnoses; text vignettes remain text questions. No
+unmarked answer is inferred from surrounding teaching, and the external Quizlet links contribute
+no unseen operations or answers.
+
+### Source-first 11-handle ledger, exactly four searches each, and prior-BMS reconciliation
+
+Every accepted handle received exactly four fresh source-first searches across live state, pending
+import roots, and the complete prior BMS-102 ledger: **11 × 4 = 44 required and completed
+searches**. All 44 literal external runs returned no same-scope match, giving **0 live / 0 pending
+/ 11 no same-scope**; prior-BMS reuse is adjudicated separately.
+
+| Ref / handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| p.6 · `hemostasis-thrombosis-definitions` | `define thrombosis hemostasis`; `hemostasis physiological stop bleeding thrombosis intact vessel`; `thrombus compact circulating blood elements during life`; `thrombosis hemostasis definitions` | exact Family-97 W01 reuse |
+| p.26 · `thrombus-versus-postmortem-clot` | `thrombus postmortem clot`; `antemortem versus postmortem clot`; `thrombus formed during life`; `postmortem blood clot` | exact Family-97 W02 reuse |
+| p.12 · `von-willebrand-factor-platelet-adhesion` | `von Willebrand factor platelet adhesion`; `vWF deficiency prolonged bleeding time adhesion`; `platelet process impaired von Willebrand disease`; `platelet adhesion subendothelial collagen vWF` | exact Family-97 Q01 reuse |
+| pp.33,79c · `tumor-hypercoagulability-procoagulant-release` | `tumor hypercoagulability release procoagulant product`; `cancer procoagulant thrombosis mechanism`; `malignancy tissue factor thrombin hypercoagulability`; `tumor associated hypercoagulability procoagulants` | two present occurrences collapse to one handle; exact Family-97 Q02 reuse |
+| p.34 · `bedridden-pulmonary-embolism-lower-extremity-veins` | `bedridden elderly pleuritic pain hemoptysis lower extremity veins`; `pulmonary embolism source deep leg veins`; `DVT pleuritic chest pain hemoptysis bedridden`; `lower extremity venous thrombus pulmonary embolism` | exact Family-97 Q03 / Family-3 DVT-to-PE reuse |
+| p.44 · `femur-fracture-delayed-fat-embolism` | `femur fracture delayed respiratory distress fat embolism`; `long bone fracture death three days fat emboli`; `fat embolism syndrome fracture respiratory problems`; `football player fractured femur fat embolism` | exact Family-97 Q04 / Family-3 fat-embolism reuse |
+| p.45 · `venous-thrombus-embolization-propensity` | `venous thrombi most commonly complicated by embolization`; `which thrombus most likely embolizes venous cardiac arterial`; `venous thrombus embolic propensity`; `lesion commonly complicated by embolization venous thrombi` | exact Family-97 Q05 reuse |
+| p.79a · `pregnancy-contraceptive-hepatic-coagulation-factor-synthesis` | `pregnancy oral contraceptives increased hepatic coagulation factors`; `estrogen hepatic synthesis clotting factors hypercoagulability`; `contraceptive pills thrombosis coagulation factor production`; `pregnancy hypercoagulability liver coagulation factors` | Family-2 tests pregnancy/contraceptives as thrombosis risks, but no prior handle tests this source-selected hepatic-synthesis mechanism; **delta** |
+| p.79b · `old-age-hypercoagulability-platelet-aggregation` | `old age hypercoagulability platelet aggregation`; `elderly increased platelet aggregation thrombosis`; `age related platelet aggregation hypercoagulability`; `old age thrombosis platelet mechanism` | no prior accepted BMS handle tests this age-to-platelet-aggregation mechanism; **delta** |
+| p.80 · `intestinal-wet-gangrene-gross-diagnosis` | `wet gangrene intestine diagnosis`; `black bowel coagulative necrosis wet gangrene`; `indistinct junction intestinal gangrene`; `thrombosed bowel wall wet gangrene` | exact Family-121 Q4 / Family-140 Q12 reuse |
+| p.81 · `dry-gangrene-gross-diagnosis` | `dry gangrene foot diagnosis`; `black mummified foot dry gangrene`; `distinct line demarcation dry gangrene`; `coagulative necrosis leg dry gangrene` | exact Family-121 Q1 reuse |
+
+Prior-BMS exact tested-scope reuse is therefore **9**, and Family 198 adds **`11 - 9 = +2`
+distinct tested concepts**. The p.33/p.79 tumour occurrences remain two retained prompt records
+but one searched/tested handle; semantic collapse never erases source occurrence evidence.
+
+### Family-198 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 198 source-local / eligible delta | Auxiliary cumulative (Families 12–198) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 12 = 7 MCQ + 3 matching + 2 written / +12 | 2,574 | 762 | 3,336 |
+| Source-supplied answers | 2 / +2 | 1,674 | 405 | 2,079 |
+| Visibly unkeyed operations | 10 | — | — | — |
+| Retained question records | 12 / +12 | 2,282 | 552 | 2,834 |
+| Accepted handles / required searches | 11 / 44 | 2,063 / — | — | — |
+| Prior-BMS handle reuses | 9 | — | — | — |
+| Cross-family concept delta | +2 | +975 over primary | 372 | 1,347 |
+| **Distinct tested concepts** | **11 source-local / +2** | **975 additions** | **372** | **1,347** |
+
+Checksums: `12 prompts = 7 MCQ + 3 matching + 2 written`; `12 = 2 supplied answers + 10
+unkeyed`; `12 retained`; `12 - 1 semantic collapse = 11 handles`; `11 × 4 = 44 searches`; and
+`11 - 9 prior exact reuses = +2 concepts`. Auxiliary arithmetic is `2,562 + 12 = 2,574`
+prompts, `1,672 + 2 = 1,674` answers, `2,270 + 12 = 2,282` retained records, `2,052 + 11 =
+2,063` handles, and `973 + 2 = 975` concepts. All eligible arithmetic is `762 + 2,574 =
+3,336`, `405 + 1,674 = 2,079`, `552 + 2,282 = 2,834`, and `372 + 975 = 1,347`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,574 prompts / 1,674 answers /
+2,282 retained / 2,063 handles / +975 concepts**. All eligible is **3,336 / 2,079 / 2,834 /
+1,347**. Family 198 establishes current Helwan theoretical teaching and auxiliary study-check,
+MCQ, and matching evidence only, not an exam sitting, official departmental key, mark weight,
+candidate response, authenticated practical station, readiness, or claims status.
+
+### Exact next debt after Family 198
+
+`src_11e4f2b9f8bdbdb51806` is exhausted across all 82 pages: every visible authority/date and
+metadata field, module-code anomaly, section/objective, teaching statement, study directive,
+supplied and absent answer, option set, matching item, labelled image, external-link residue,
+reference, search packet, prior-family relation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-198 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_949c1820aea58bded856` · `Inflammation
+lecture 2.pdf`, SHA-256
+`949c1820aea58bded856011cc31bd8ce958941ce7f17e4c390cb1343b8d1677d`, **3,761,184 bytes**,
+**53 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 7 - Inflammation
+2`. Its first visible page identifies `Inflammation 2`, **Dr Enas Megahed Elhosary**, Lecturer of
+Pathology, Faculty of Medicine, **Helwan University**; metadata names `fmt` and records 17 March
+2025. Its complete authority/date boundary, teaching/case/prompt/key/callout/practical split,
+prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
+adjudicated.
