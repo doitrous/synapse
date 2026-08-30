@@ -16138,3 +16138,176 @@ tier-3 `src_a988f51544db9b537b0c` · `MCQs - Circulatory MCQ.pdf`, SHA-256
 with creation timestamp 10 April 2025; its visible instructor/series authority, complete
 prompt/key convention, same-source and prior-family replays, prior-BMS reuse, four-search packets,
 and arithmetic are the exact next-source blockers.
+
+## Family 152 — Ahmed-Hassan `Circulatory` keyed MCQ bank
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_a988f51544db9b537b0c` · `MCQs - Circulatory MCQ.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `a988f51544db9b537b0c94d26fb4a7df13e8e6fba80ec3bc968fc007a6b7edc8` · **224,151 bytes** |
+| Format / complete visual boundary | Sixteen native-text portrait A4 pages, each 595.32×841.92 points. All 16 pages were rendered at 150 dpi into 16 non-empty 1241×1754-pixel images and read individually at original detail. Layout and raw extraction were also read; there is no page, crop, row, option, key-letter, footer, or text remainder. |
+| Native-text reality | Layout extraction contains 2,695 words / 26,102 bytes; raw extraction contains 2,731 words / 15,081 bytes. Both preserve all 78 numbered stems, option sets, right-column key letters, page numbers, and instructor footers. The manifest's `native` label is accurate. The PDF has no form, JavaScript, encryption, or embedded candidate response. |
+| Visible provenance | Page 1 is headed `Circulatory`; every page visibly prints `DR. Ahmed Hassan` and page numbering 1–16. No university/faculty name, module code, academic year, exam date/sitting, marks, duration, candidate field, or official-key declaration is visible. Folder placement supplies BMS-102 scope but cannot upgrade the carrier to an authenticated Helwan exam. |
+| Metadata caution | PDF author is `Alnoaman`; creator/producer is Microsoft Word 2019; creation/modification timestamps are 10 April 2025. Visible Ahmed-Hassan attribution controls over the conflicting author metadata. The timestamp establishes file production only, not delivery, academic year, or sitting. |
+| Authority | Local tier-3 instructor-attributed keyed study bank. The repeated isolated right-margin letters are unambiguous source-supplied study keys, but not a department-authenticated exam key, candidate sheet, or dated assessment register. |
+
+### Complete page-first prompt, printed-key, format, and anomaly boundary
+
+| Page | Visible numbered scope | Prompt / printed-key ruling |
+|---:|---|---:|
+| 1 | Q1–Q4: left-heart-failure consequence, nutmeg-liver microscopy, oedema-mechanism exception, active-hyperaemia cause | **4 / 4**; `A, D, A, A`. |
+| 2 | Q5–Q9: heart-failure cells, nutmeg morphology, right-heart-failure liver, brown induration, congestion definition | **5 / 5**; `C, B, B, C, B`. |
+| 3 | Q10–Q14: localized oedema, chronic congestive liver, oedema/nutmeg postmortem association, brown-induration relation and morphology exception | **5 / 5**; `C, E, D, B, E`. |
+| 4 | Q15–Q19: localized oedema, oedema definition, generalized oedema, dangerous site, non-pitting filarial oedema | **5 / 5**; `C, C, C, A, C`. |
+| 5 | Q20–Q25: exudative/generalized oedema fluid, spontaneous-haemorrhage exception, haemopericardium, haemorrhage-type exception, haematemesis | **6 / 6**; `C, B, E, C, C, D`. |
+| 6 | Q26–Q30: melena, petechia, haematocele, internal and external haemorrhage examples | **5 / 5**; `D, B, B, D, D`. |
+| 7 | Q31–Q35: heart-failure-cell pigment, thrombosis cause, leg-thrombosis complication, embolus definition, femoral-neck-fracture sequence | **5 / 5**; `C, D, C, C, C`. |
+| 8 | Q36–Q40: phlebothrombosis, embolism mismatch, commonest embolus, postoperative sequence, neck-vein air embolism | **5 / 5**; `D, B, C, C, C`. |
+| 9 | Q41–Q45: Virchow components, slow flow, thrombocytopenia exception, common thrombus site, anaemia exception | **5 / 5**; `C, B, D, D, D`. |
+| 10 | Q46–Q50: Virchow-triad purpose, pulmonary-embolus source/destination, two fracture/fat-embolism wordings | **5 / 5**; `C, D, D, B, B`. |
+| 11 | Q51–Q55: common venous-thrombosis site, Lines of Zahn, valve thrombus, pulmonary-embolus cause and large-embolus outcome | **5 / 5**; `E, D, C, D, E`. |
+| 12 | Q56–Q60: pulmonary-embolus cause/site, tumour/amniotic/virus emboli, postpartum DVT | **5 / 5**; `A, E, E, D, D`. |
+| 13 | Q61–Q65: gangrene definition, anaemic infarct site, dry-gangrene property, commonest ischaemia cause, infarction definition | **5 / 5**; `A, C, D, C, E`. |
+| 14 | Q66–Q70: infarction obstruction, haemorrhagic infarct, ischaemia exception, red-or-pale infarct, wet-gangrene mechanism | **5 / 5**; `A, C, D, D, B`. |
+| 15 | Q71–Q75: wet-gangrene toxemia/site, red-infarct site, gangrene association, pale-infarct site | **5 / 5**; `B, B, D, E, A`. |
+| 16 | Q76–Q78: dry-gangrene site/cause, intestinal-gangrene occlusion, dry-versus-moist distinction | **3 / 3**; `C, C, B`. |
+
+Every numbered row has one option set and one isolated capital letter in the pale right-hand cell.
+The exact boundary is therefore **78 text MCQ occurrences / 78 printed answer occurrences / 0
+unkeyed prompts / 0 written operations / 0 image-bearing prompts / 0 practical stations / 0
+drawing tasks / 0 candidate responses / 0 prompt-like residues**. All 78 distinct wordings remain
+retained records; no literal or punctuation-only copy occurs wholly within this carrier.
+
+Source defects are preserved rather than silently repaired. Q14 keys the negative statement
+`light in weight and firm`; Q23's fourth distractor claims chronic small-volume loss causes
+megaloblastic anaemia; Q66 repeats `Gradual complete obstruction of end-arteries` as both options
+C and D; Q69 visibly keys D (`splenic artery`) for an infarct that `may be red or pale`; and
+spellings such as `Petichae`, `Hemoperitonium`, `Mesentric`, `thromboemboii`, `ceils`, and
+`followings` remain source evidence. No medical correction is substituted for a printed letter.
+
+Nineteen same-source semantic reductions yield **59 accepted handles**. The reductions are:
+Q1/Q8/Q13 (brown induration); Q2/Q6 (nutmeg morphology); Q5/Q31 (heart-failure-cell mechanism/
+pigment); Q7/Q11/Q12 (right-heart-failure congestive liver); Q10/Q15 (localized-oedema causes);
+Q33/Q47/Q54/Q56 (DVT-to-pulmonary-embolus source/pathway); Q43/Q45 (thrombosis-risk exceptions);
+Q49/Q50 (fracture-associated fat embolism); Q61/Q74 (gangrene definition); Q62/Q75 (pale/anaemic
+infarct sites); Q63/Q76/Q78 (dry-gangrene characteristics); Q64/Q68 (ischaemia causes);
+Q67/Q73 (intestinal haemorrhagic/red infarction); and Q70/Q77 (wet-gangrene dual occlusion).
+Altered stems, distractors, and answer contexts remain retained occurrences before collapse.
+
+### Source-first 59-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 59 accepted handles received exactly four fresh source-first searches across live state,
+pending import roots, and prior BMS-102 Families 1–151: **236 required and completed searches**.
+No live or pending record independently supplied the exact tested scope, so external disposition
+is **0 live / 0 pending / 59 no same-scope**. Prior-BMS reuse is adjudicated separately; an
+external no-hit does not make a repeated local proposition new.
+
+| Ref(s) / accepted handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| Q1,Q8,Q13 · `brown-induration-chronic-pulmonary-congestion` | `brown induration chronic pulmonary congestion`; `mitral stenosis brown induration lung`; `left heart failure brown induration`; `chronic venous lung congestion fibrosis hemosiderin` | prior heart-failure-cell prompts do not test the full brown-induration association; delta |
+| Q2,Q6 · `nutmeg-liver-congestive-morphology` | `nutmeg liver alternating red yellow`; `central congestion midzonal fatty change`; `chronic passive liver congestion morphology`; `nutmeg liver microscopic gross pattern` | exact Family-6 nutmeg-liver morphology reuse |
+| Q3 · `edema-pathogenesis-increased-oncotic-exception` | `edema pathogenesis increased plasma oncotic exception`; `mechanisms edema hydrostatic oncotic permeability lymphatic`; `high plasma oncotic pressure prevents edema`; `oedema causes exception` | contained by exact Family-2/6 oedema-mechanism scopes; reuse |
+| Q4 · `acute-inflammation-active-hyperemia` | `acute inflammation active hyperemia`; `arteriolar dilation increased blood flow inflammation`; `active hyperaemia cause`; `hyperemia versus congestion acute inflammation` | exact Family-2/6 hyperaemia scope reuse |
+| Q5,Q31 · `heart-failure-cells-capillary-rupture-hemosiderin` | `heart failure cells ruptured capillaries`; `hemosiderin laden alveolar macrophages`; `chronic pulmonary congestion siderophages`; `heart failure cell formation mechanism pigment` | exact Family-6 pulmonary-congestion/heart-failure-cell reuse |
+| Q7,Q11,Q12 · `right-heart-failure-congestive-liver` | `right heart failure liver congestion`; `nutmeg liver right ventricular failure`; `bilateral edema nutmeg liver right heart dilatation`; `chronic passive hepatic congestion cardiac cause` | exact Family-6 chronic-passive-liver-congestion reuse |
+| Q9 · `congestion-passive-reduced-outflow-definition` | `congestion passive reduced blood outflow definition`; `venous congestion pathology definition`; `hyperemia versus congestion active passive`; `passive hyperemia reduced venous drainage` | exact Family-2/6 hyperaemia-versus-congestion reuse |
+| Q10,Q15 · `localized-edema-causes` | `localized edema causes inflammation lymphatic obstruction`; `local oedema versus generalized`; `venous lymphatic obstruction localized edema`; `inflammatory edema distribution` | exact Family-2 oedema distribution and Family-6 localized-cause reuse |
+| Q14 · `brown-induration-lung-morphology-exception` | `brown induration lung morphology exception`; `mitral stenosis lung heavy firm brown`; `chronic pulmonary congestion cut surface bloody froth`; `heart failure cells fibrosis brown induration` | prior prompts test the association/cells, not this morphology exception set; delta |
+| Q16 · `edema-definition` | `edema definition interstitial fluid`; `oedema body cavity fluid accumulation`; `increased fluid tissue spaces`; `edema versus cellular swelling` | exact Families 1/2/10 reuse |
+| Q17 · `nephrotic-generalized-edema` | `nephrotic syndrome generalized edema`; `generalized oedema example nephrotic`; `renal edema anasarca`; `localized versus generalized edema conditions` | contained by Family-2 generalized-oedema and Family-6 nephrotic mechanism scopes; reuse |
+| Q18 · `cerebral-edema-most-dangerous-site` | `brain edema most dangerous site`; `cerebral edema clinical significance`; `edema raised intracranial pressure danger`; `organ site edema fatal` | no prior accepted prompt tests the site ranking; delta |
+| Q19 · `filariasis-nonpitting-edema` | `filariasis non pitting edema`; `lymphatic obstruction elephantiasis`; `nonpitting oedema cause`; `filarial lymphedema` | exact Family-6 non-pitting/filariasis reuse |
+| Q20 · `allergic-inflammatory-edema-exudate` | `allergic edema exudate`; `inflammatory oedema protein rich fluid`; `exudate versus transudate allergy`; `vascular permeability allergic edema` | contained by Family-2 exudate and Family-129 inflammatory-fluid scopes; reuse |
+| Q21 · `generalized-edema-transudate` | `generalized edema transudate`; `anasarca fluid transudate`; `noninflammatory generalized oedema fluid`; `exudate transudate edema distinction` | exact Family-129 exudate/transudate contrast reuse |
+| Q22 · `trauma-not-spontaneous-hemorrhage` | `trauma not spontaneous hemorrhage`; `spontaneous bleeding causes aneurysm hypertension`; `hemorrhage cause exception trauma`; `spontaneous versus traumatic bleeding` | contained by Family-133 spontaneous-bleeding-cause exception; reuse |
+| Q23 · `hemopericardium-definition` | `hemopericardium blood pericardial cavity`; `hemorrhage body cavity terminology`; `blood in pericardium definition`; `hemothorax hemoperitoneum hemopericardium` | exact Family-6 haemorrhage-location classification reuse |
+| Q24 · `hemochromatosis-not-hemorrhage-type` | `hemochromatosis not hemorrhage type`; `ecchymosis melena hematuria petechiae classification`; `iron overload versus hemorrhage terminology`; `haemorrhage forms exception` | no prior accepted prompt tests this classification exception; delta |
+| Q25 · `hematemesis-definition` | `hematemesis vomiting blood definition`; `haematemesis versus hemoptysis melena`; `upper gastrointestinal bleeding vomiting`; `blood emesis pathology term` | prior haemorrhage classifications do not test this exact term; delta |
+| Q26 · `melena-definition` | `melena dark digested blood stool`; `melaena definition gastrointestinal bleeding`; `hematemesis versus melena`; `black tarry stool blood term` | no prior accepted prompt tests the exact term; delta |
+| Q27 · `petechia-one-two-mm` | `petechia one two millimeter`; `petechiae size classification`; `small interstitial hemorrhage dots`; `petechia purpura ecchymosis size` | exact Families 2/6/10 haemorrhage-size reuse |
+| Q28 · `hematocele-tunica-vaginalis` | `hematocele tunica vaginalis`; `blood in tunica vaginalis term`; `scrotal cavity hemorrhage hematocele`; `hematocele definition pathology` | no prior accepted prompt tests this nomenclature; delta |
+| Q29 · `hemothorax-internal-hemorrhage` | `hemothorax internal hemorrhage`; `blood pleural cavity internal bleeding`; `internal versus external hemorrhage examples`; `hemothorax definition classification` | exact Family-6 cavity-haemorrhage classification reuse |
+| Q30 · `hematuria-external-hemorrhage` | `hematuria external hemorrhage classification`; `blood urine external bleeding`; `hematuria versus internal cavity hemorrhage`; `external hemorrhage examples pathology` | no prior accepted prompt tests this classification relation; delta |
+| Q32 · `endothelial-injury-thrombosis` | `endothelial injury thrombosis`; `rough intima thrombus cause`; `Virchow triad endothelium`; `atherosclerosis thrombosis mechanism` | exact Families 2/3/118 reuse |
+| Q33,Q47,Q54,Q56 · `dvt-pulmonary-embolism-source-pathway` | `DVT pulmonary embolism source`; `calf veins pulmonary emboli origin`; `leg vein thrombosis pulmonary complication`; `deep venous thrombosis embolus lung` | exact Families 3/6/118 reuse |
+| Q34 · `embolus-definition` | `embolus insoluble circulating material definition`; `impacted intravascular mass`; `solid liquid gas embolus`; `embolus versus embolism definition` | exact Families 2/118 reuse |
+| Q35 · `femoral-neck-fracture-dvt-pe-sequence` | `femoral neck fracture DVT pulmonary embolism sequence`; `osteoporosis fracture thromboembolism order`; `fracture deep vein thrombosis pulmonary infarction`; `fourth event femoral fracture embolism` | exact Family-118 sequence reuse |
+| Q36 · `phlebothrombosis-venous-thrombus-term` | `phlebothrombosis venous thrombus term`; `thrombus in vein called`; `mural vegetation phlebothrombosis`; `venous thrombosis nomenclature` | exact Family-118 reuse |
+| Q37 · `septic-embolism-pyaemic-abscess` | `septic embolism pyaemic abscess`; `parasitic arterial embolism mismatch`; `infected emboli metastatic abscess`; `embolism association exception` | exact Families 1/3/118 reuse |
+| Q38 · `thrombotic-embolus-commonest-type` | `commonest embolus thrombotic`; `thromboembolism most common type`; `fat air parasite tumor emboli ranking`; `most emboli arise thrombi` | exact Family-118 reuse |
+| Q39 · `postoperative-dvt-embolization-infarction-sequence` | `abdominal surgery DVT embolization sequence`; `postoperative thrombosis pulmonary infarction order`; `stasis deep venous thrombosis embolization`; `fourth event surgery pulmonary embolism` | exact Family-118 sequence reuse |
+| Q40 · `air-embolism-large-neck-vein-injury` | `large neck vein injury air embolism`; `jugular trauma air entry death`; `open large vein gas embolus`; `neck wound embolism cause` | exact Families 3/118/133 reuse |
+| Q41 · `virchow-triad-components` | `Virchow triad components`; `endothelial damage hypercoagulability stasis`; `three factors predispose thrombosis`; `increased viscosity diminished flow endothelial injury` | exact Family-118 reuse |
+| Q42 · `venous-stasis-thrombosis` | `slow blood flow thrombosis`; `stasis predisposes thrombus`; `Virchow abnormal flow`; `diminished flow venous clot` | exact Families 2/3/118 reuse |
+| Q43,Q45 · `thrombosis-risk-factor-exceptions` | `thrombocytopenia anemia not thrombosis risk`; `Virchow triad exception`; `venous thrombosis postoperative postpartum burns`; `thrombus risk factor recognition` | exact Families 3/118/133 reuse |
+| Q44 · `thrombus-commonest-site-vein` | `commonest site thrombus formation vein`; `thrombus most common vessel type`; `venous thrombosis frequency`; `artery heart capillary vein thrombus ranking` | exact Family-118 reuse |
+| Q46 · `virchow-triad-thrombus-pathogenesis` | `Virchow triad pathogenesis thrombus`; `Virchow triad describes thrombosis`; `embolus hyperemia congestion versus thrombosis`; `three-factor thrombogenesis model` | contained by exact Family-2/3/118 Virchow/thrombosis scopes; reuse |
+| Q48 · `venous-emboli-pulmonary-destination` | `venous emboli lodge lung`; `venous thrombus right heart pulmonary circulation`; `systemic venous embolus destination`; `DVT pulmonary vascular impaction` | exact Families 3/118 reuse |
+| Q49,Q50 · `fat-embolism-long-bone-fracture` | `fat embolism long bone fracture`; `femur fracture dyspnea cyanosis hemoptysis`; `fracture fat embolism syndrome`; `marrow fat pulmonary artery` | exact Families 3/97/118 reuse |
+| Q51 · `venous-thrombosis-common-site-legs` | `venous thrombosis common site legs`; `DVT lower limb most common`; `leg veins thrombus location`; `deep calf venous thrombosis site` | exact Family-3 common-site reuse |
+| Q52 · `lines-zahn-platelet-fibrin` | `Lines of Zahn platelets fibrin`; `thrombus pale layers composition`; `laminated thrombus platelet fibrin`; `Zahn lines red white layers` | exact Families 3/118 reuse |
+| Q53 · `cardiac-valve-thrombi-vegetations` | `cardiac valve thrombus vegetation`; `thrombi over heart valves term`; `mural thrombus versus vegetation`; `valvular thrombotic mass nomenclature` | exact Family-133 reuse |
+| Q55 · `large-pulmonary-embolus-sudden-death` | `large pulmonary embolus sudden death`; `massive pulmonary embolism outcome`; `pulmonary embolism sequelae cor pulmonale infarction`; `saddle embolus sudden cardiovascular collapse` | exact Family-118 pulmonary-embolism-sequelae reuse |
+| Q57 · `tumor-embolism-malignant-cells` | `tumor embolus malignant cells`; `neoplastic cells embolism term`; `malignant cellular embolus`; `cancer cell intravascular emboli` | exact Family-3 reuse |
+| Q58 · `amniotic-fluid-embolism-delivery` | `amniotic fluid embolism normal delivery`; `labor sudden dyspnea cyanosis hypotension`; `amniotic material pulmonary arteries`; `obstetric embolism timing` | exact Families 3/118/133 reuse |
+| Q59 · `embolus-type-virus-exception` | `virus not type of embolus`; `air parasite tumor emboli`; `embolism types exception`; `non embolic material virus` | exact Family-118 reuse |
+| Q60 · `postpartum-dvt-clinical-diagnosis` | `postpartum swollen tender leg DVT`; `three days after labor venous thrombosis`; `puerperium deep vein thrombosis diagnosis`; `postpartum leg edema thrombosis` | exact Family-118 reuse |
+| Q61,Q74 · `gangrene-necrosis-putrefaction-definition` | `gangrene necrosis putrefaction definition`; `saprophytic digestion dead tissue`; `gangrenous necrosis bacterial decomposition`; `gangrene pathology definition` | prior comparisons/images do not test the definition itself; delta |
+| Q62,Q75 · `pale-anemic-infarct-solid-organ-sites` | `pale infarct kidney heart spleen`; `anemic infarction renal artery`; `white infarct solid end artery organs`; `pale versus red infarct sites` | contained by Family-2 infarct morphology and Family-133 organ-color scope; reuse |
+| Q63,Q76,Q78 · `dry-gangrene-characteristics` | `dry gangrene line of separation`; `dry gangrene limb arterial obstruction`; `gradual arterial occlusion dry gangrene`; `dry versus wet gangrene characteristics` | exact Family-116 dry-versus-wet comparison reuse |
+| Q64,Q68 · `ischemia-causes-thrombosis-exception` | `ischemia causes thrombosis embolism compression`; `commonest cause ischemia thrombosis`; `thrombocytopenia not cause ischemia`; `acute versus gradual ischemia cause` | prior infarct and acute-compression prompts do not test this combined cause/ranking scope; delta |
+| Q65 · `infarction-definition` | `infarction ischemic necrosis definition`; `necrosis due to ischemia term`; `vascular occlusion tissue death`; `infarct pathology definition` | exact Family-2 reuse |
+| Q66 · `infarction-acute-complete-end-artery-obstruction` | `infarction acute complete end artery obstruction`; `end arterial occlusion infarct`; `acute versus gradual arterial obstruction infarction`; `infarction pathogenesis end arteries` | no prior accepted prompt tests this timing/completeness proposition; delta |
+| Q67,Q73 · `hemorrhagic-red-infarct-intestine` | `hemorrhagic infarct superior mesenteric artery`; `red infarction small intestine`; `intestinal infarct dual blood supply venous occlusion`; `red versus pale infarct organ site` | prior pulmonary/cerebral infarct prompts do not test the intestinal site; delta |
+| Q69 · `splenic-infarct-red-or-pale-source-key` | `splenic artery infarct red or pale`; `spleen white infarction morphology`; `source key splenic artery infarction color`; `red pale infarct embolization organ` | no prior accepted prompt tests this source-specific keyed proposition; delta; printed D is preserved without correction |
+| Q70,Q77 · `wet-gangrene-sudden-arterial-venous-occlusion` | `wet gangrene simultaneous artery vein occlusion`; `intestinal gangrene sudden arterial venous obstruction`; `wet gangrene blood supply mechanism`; `dry versus wet gangrene occlusion` | exact Family-116 comparison reuse |
+| Q71 · `wet-gangrene-severe-toxemia` | `wet gangrene severe toxemia`; `wet gangrene rapid putrefaction systemic toxicity`; `moist gangrene clinical characteristic`; `dry versus wet gangrene toxemia` | exact Family-116 comparison reuse |
+| Q72 · `wet-gangrene-intestine-site` | `wet gangrene intestine common site`; `intestinal wet gangrene diagnosis`; `moist gangrene internal organ`; `wet versus dry gangrene location` | exact Family-121 intestinal-wet-gangrene diagnosis reuse |
+
+Exactly **46** accepted handles reuse prior BMS-tested scope. The 13 new concepts are the
+brown-induration association, brown-induration morphology exception, cerebral-oedema site ranking,
+haemochromatosis haemorrhage-type exception, haematemesis, melena, haematocele, haematuria's
+external-haemorrhage classification, gangrene definition, ischaemia cause/ranking composite,
+acute-complete end-artery infarction, intestinal red-infarct site, and the source-keyed splenic-
+infarct colour proposition. Family 152 therefore adds `59 - 46 = 13` concepts.
+
+### Family-152 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 152 | Auxiliary cumulative (Families 12–152) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 78 | 1,444 | 765 | 2,209 |
+| Printed study-key occurrences | 78 | 931 | 405 | 1,336 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| Retained question records | 78 | 1,366 | 552 | 1,918 |
+| Accepted handles / required searches | 59 / 236 | 1,211 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 59 | — | — | family-local disposition |
+| Prior-BMS handle reuses | 46 | — | — | — |
+| Cross-family concept delta | +13 | +718 over primary | 372 | 1,090 |
+| **Distinct tested concepts** | **59 source-local** | **718 auxiliary additions** | **372** | **1,090** |
+
+The page checksum closes as `4 + 5 + 5 + 5 + 6 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 +
+3 = 78`, and every prompt has one printed letter. Retention is `78 - 0 literal copies = 78`;
+handle collapse is `78 - 19 semantic reductions = 59`; searches are `59 × 4 = 236`; external
+disposition is `0 + 0 + 59 = 59`; and concept arithmetic is `59 - 46 prior reuses = +13`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary becomes **1,444 prompts / 931 answers /
+1,366 retained records / 1,211 accepted handles / +718 concepts over primary**. All eligible S1
+evidence becomes **2,209 prompts / 1,336 supplied answers / 1,918 retained records / 1,090
+distinct tested concepts**. Family 152 adds keyed auxiliary bank evidence only; it establishes no
+authenticated exam, official key, practical station, recurrence frequency, mark weight,
+candidate response, readiness, or claims status.
+
+### Exact next debt after Family 152
+
+`src_a988f51544db9b537b0c` is exhausted across all 16 pages: every visible/metadata provenance
+field, numbered stem, option set, right-column letter, anomaly, same-source collapse, search
+packet, prior-BMS relation, format assignment, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-152 blocker. The exact next manifest record is tier-3
+`src_eb6c011d344ff77c05e1` · `MCQs - College MCQs Cell injury dr Enas.pdf`, SHA-256
+`eb6c011d344ff77c05e1f88837e2777d655d62ead15b4965890e2bb58ee41d7b`, **5,287,387 bytes**,
+four 600×848-point native-text portrait pages under `Pathology / Questions / MCQs`. Its Samsung
+producer metadata and 22 April 2025 modification timestamp remain secondary to visible
+provenance. Its full render/read, prompt/key convention, source-first collapse, prior-BMS reuse,
+four-search packets, and arithmetic are the exact next-source blockers.
