@@ -29,9 +29,9 @@
   },
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
-    "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "69d1c7f04c5e2b442d9bed5d8b6118d193c2e8de139b18a61289e56dccf2c0b7",
-    "triageMarkdown": "2bcab6188eff675225be7a345332b3e387ec1d6022f33f7c053dc57c4d799df7"
+    "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
+    "readinessMarkdown": "9d0599b25df084e3748b1f64d44974ac4ca7340acdb3596d3f78c62b1034e2b9",
+    "triageMarkdown": "0a28fd46105b8598c886101bab002559a21ad543cecec24a25ea71bae0cc4ec1"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -67,6 +67,7 @@
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363",
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
+      "69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4",
       "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
@@ -88,7 +89,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 36
+    "uniqueSha256": 37
   },
   "completedSourceCoverage": [
     {
@@ -822,10 +823,10 @@
       "renderedReadPages": "1-170",
       "frontMatterPages": "1-6",
       "basisAssessmentPages": "7-23",
-      "upperLimbAssessmentPages": "25-89",
-      "lowerLimbAssessmentPages": "90-140",
-      "generalEmbryologyAssessmentPages": "141-162",
-      "lymphaticAndAutonomicAssessmentPages": "163-169",
+      "upperLimbAssessmentPages": "25-90",
+      "lowerLimbAssessmentPages": "91-140",
+      "generalEmbryologyAssessmentPages": "141-163",
+      "lymphaticAndAutonomicAssessmentPages": "164-169",
       "blankPages": "24",
       "publisherContactPages": "170",
       "printedPromptObservations": 1157,
@@ -902,6 +903,38 @@
         "ulnar-nerve-in-forearm answer includes palmaris brevis",
         "shoulder and wrist movement lists are visibly selective rather than exhaustive"
       ]
+    },
+    {
+      "sha256": "69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4",
+      "sourcePages": 66,
+      "renderedReadPages": "1-66",
+      "questionPages": "1-35,38-43,49-55,57-61",
+      "keyPages": "36-37,44-48,56,62-66",
+      "printedPromptObservations": 469,
+      "objectiveMcqPrompts": 201,
+      "fillBlankPrompts": 116,
+      "matchingPrompts": 75,
+      "writtenPrompts": 77,
+      "printedKeyObservations": 469,
+      "sourceAbsentAnswers": 0,
+      "exactSectionDuplicateOf": {
+        "sha256": "dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e",
+        "sourcePages": "25-90",
+        "promptObservations": 469,
+        "keyObservations": 469
+      },
+      "normalizedTextSha256": "23d7de7269fca0beaebac666b7de339135cb24b2532e02bc20da6ab36def2886",
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "standalone export of the Cairo University Upper Limb self-assessment section; faculty model answers but not an authenticated MUST/MSK examination or key"
     }
   ],
   "triageCumulative": {
@@ -913,15 +946,15 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 66,
-    "uniqueSha256": 65,
-    "sortedNewlineSha256": "4c03ed0e1e61b2c7942efe5002e419987838cab68f522896827c8cd4030f0fc1",
+    "inventoryMetadataRows": 65,
+    "uniqueSha256": 64,
+    "sortedNewlineSha256": "22111a2424461892cc60c5a612a060249b7afff9ac7adda0d292f94f773b9cf4",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 7,
-      "substantive-text": 28
+      "substantive-text": 27
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -929,12 +962,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 7,
-    "substantive-text": 28
+    "substantive-text": 27
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 36,
-    "remainingUniqueSha256": 65,
+    "processedUniqueSha256": 37,
+    "remainingUniqueSha256": 64,
     "processedPlusRemaining": 101
   }
 }

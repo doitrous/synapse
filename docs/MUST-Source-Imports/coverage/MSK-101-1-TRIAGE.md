@@ -1213,7 +1213,7 @@ Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1
 
 ### Exact prompt, answer, written, practical, image and teaching boundary
 
-Pages 1–6 are cover, contributors, preface and contents. Pages 7–23 are Basis of Human Anatomy assessment and model answers; page 24 is blank. Pages 25–89 are Upper Limb assessment and model answers. Pages 90–140 are Lower Limb assessment and model answers. Pages 141–162 are General Embryology assessment and model answers. Pages 163–169 are Lymphatic System and Autonomic Nervous System assessment and model answers; page 170 is a publisher/contact leaf with no assessment content.
+Pages 1–6 are cover, contributors, preface and contents. Pages 7–23 are Basis of Human Anatomy assessment and model answers; page 24 is blank. Pages 25–90 are Upper Limb assessment and model answers. Pages 91–140 are Lower Limb assessment and model answers. Pages 141–163 are General Embryology assessment and model answers. Pages 164–169 are Lymphatic System and Autonomic Nervous System assessment and model answers; page 170 is a publisher/contact leaf with no assessment content. The corrected section ranges were directly reconciled while processing the standalone sixty-six-page Upper Limb export.
 
 | Printed section | MCQs | Fill-in prompts | Matching-item prompts | Written case subprompts | Total prompts | Reliable printed answers | Unkeyed |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -1295,3 +1295,49 @@ Removing the thirty-six processed unique hashes leaves **66 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy Question [Upper Limb].pdf`, SHA-256 `69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4`, 66 pages.
 
 **BLOCKED — S1 cannot be approved:** 66 selected inventory paths / 65 unique hashes remain untriaged.
+
+## Completed source — Anatomy Question [Upper Limb]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy Question [Upper Limb].pdf` | `69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4` | 66 | substantive-text audit sample | pages 1–66 rendered and read | iOS 16.0.2 Quartz PDFContext export created/modified 17 October 2022. The file has no printed cover, institution, author or sitting claim; its visible internal pagination is `Upper Limb` pages 18–83. Its complete normalized text exactly matches physical pages 25–90 of the previously completed Cairo University Anatomy self-assessment compendium. It inherits that source's external faculty revision authority, not authenticated MUST/MSK exam or key authority. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy Question [Upper Limb].pdf" purpose="source"}
+
+### Exact MCQ, fill-in, matching, written, practical, image and key boundary
+
+Pages 1–35 contain MCQs Q1–Q201; pages 36–37 contain their model-answer table. Pages 38–43 contain fill-in prompts 1–116 and pages 44–48 contain their model answers. Pages 49–55 contain fifteen cross-matching blocks with five separately keyed rows apiece; page 56 contains all seventy-five matching answers. Pages 57–61 contain fifteen written clinical problems with seventy-seven separately numbered subprompts; case 8 has seven subprompts and each other case has five. Pages 62–66 contain their model answers.
+
+| Format | Prompt observations | Reliable printed answers | Unkeyed |
+|---|---:|---:|---:|
+| MCQ | 201 | 201 | 0 |
+| Fill in the blanks | 116 | 116 | 0 |
+| Cross-matching rows | 75 | 75 | 0 |
+| Written clinical-case subprompts | 77 | 77 | 0 |
+| **Total** | **469** | **469** | **0** |
+
+The exact source boundary is therefore **469 assessment prompt observations / 469 reliable printed answer observations / 0 source-absent answers / 0 practical prompts / 0 image-identification prompts / 0 teaching-only pages**. Each matching row and separately numbered clinical-case subprompt is one occurrence. Printed wording and answers are preserved without correction or academic inference.
+
+### Exact-section duplicate and exactly-four-search gate
+
+Whitespace-normalized extracted text of all sixty-six pages has SHA-256 `23d7de7269fca0beaebac666b7de339135cb24b2532e02bc20da6ab36def2886`, exactly equal to physical pages 25–90 of processed `Anatomy MCQ (1).pdf` (`dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e`). This also corrects the earlier one-page section-range transcription: page 90 is the Upper Limb case-13–15 answer continuation; Lower Limb begins on page 91.
+
+All 469 prompt and answer observations are retained as this carrier's visible source boundary, but the carrier is an exact embedded-section duplicate and therefore contributes **+0 questions / +0 answers / +0 concepts** to distinct-family cumulative counts. No genuinely new handle survives prior-MSK reconciliation. The exactly-four-search rule resolves as **0 new handles × 4 = 0 new searches**; the completed Upper Limb family's **5 handles / 20 prior searches** are cross-referenced without rerunning identical queries. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Cumulative arithmetic remains **4338 questions / 4231 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 4338 | 4231 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the thirty-seven processed unique hashes leaves **65 selected inventory paths / 64 unique SHA-256s**. Their sorted, newline-joined hash checksum is `22111a2424461892cc60c5a612a060249b7afff9ac7adda0d292f94f773b9cf4`. Remaining audit-review debt is 27 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`37 + 64 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy vol 2 by salama .pdf`, SHA-256 `7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f`, 68 pages.
+
+**BLOCKED — S1 cannot be approved:** 65 selected inventory paths / 64 unique hashes remain untriaged.
