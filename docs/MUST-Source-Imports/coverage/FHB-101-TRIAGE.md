@@ -5829,3 +5829,68 @@ Removing this one substantive-text path and unique hash leaves **28 selected inv
 The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/introduction and cytology mcq.pdf`, SHA-256 `a44fb9d4295209c4722a348a02a865d9e18dacfcd75901dbaccc943c23a6a2ff`, 35 pages.
 
 **BLOCKED — S1 cannot be approved:** 28 selected source paths remain untriaged.
+
+## Completed source — introduction and cytology mcq
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/introduction and cytology mcq.pdf` | `a44fb9d4295209c4722a348a02a865d9e18dacfcd75901dbaccc943c23a6a2ff` | 35 | substantive-text | pages 1–35 rendered and read | Microsoft Word 2010 PDF authored in metadata as `ghada`, created and modified 26 December 2020. Every question page is headed `Department of Histology faculty of Medicine Mansoura university`; the three blocks credit Prof. Dr. Amany S. El-lakany, Prof. Dr. Nazik M Sayed and Prof. Dr. Salwa A. Gawish respectively. This is a named external university department teaching/revision question bank. It prints no MUST affiliation, sitting, marks or claim that it is an official MUST examination. |
+
+### Exact prompt, key and annotation boundary
+
+Pages 1–5 contain `INTRODUCTION (MICROTECHNIQUES, STAINING & MICROSCOPY)` Q1–Q16 and page 6 prints a complete 16-entry answer table. Pages 7–30 contain `THE CELL / THE CYTOPLASM` Q1–Q66 and page 31 prints a complete 66-entry answer table. Pages 32–34 contain `THE NUCLEUS` Q1–Q11 and page 35 prints a complete 11-entry answer table.
+
+The exact source boundary is therefore **93 prompt occurrences / 93 printed key entries / 93 prompt-matched recovered answers**: `16 + 66 + 11 = 93`. All prompts are text-only four- or five-option MCQs. Red rectangles and one yellow question-stem highlight on several pages are emphasis annotations, not selected answers; only the three explicit key tables are treated as answer authority. There is no practical image, written/essay prompt, teaching-only passage, missing key or orphan answer. No answer was inferred, corrected or supplied from another source.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 93 prompts were assigned once to the 26 topic handles below. Each received the four identifying searches in its row, for **26 × 4 = 104 searches**.
+
+| Printed scope | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Introduction Q1–Q6 | Fixation, dehydration, clearing, paraffin/celloidine embedding and sectioning (`fixation dehydration clearing paraffin`; `celloidine embedding technique`; `paraffin serial sections`; `histology tissue processing`) | new externally; routine paraffin processing is prior-FHB reuse, but the celloidine-embedding technique is a new scope addition. |
+| Introduction Q7–Q8 | Vital/supravital and metachromatic staining distinctions (`vital staining living cell`; `metachromatic staining color change`; `supravital vital stain distinction`; `metachromasia toluidine blue`) | new externally; prior FHB owns supravital staining alone, while the printed vital/metachromatic distinction is a new addition. |
+| Introduction Q9–Q10 | Nanometre, micrometre and angstrom equivalence (`nanometer angstrom conversion`; `micrometer nanometer histology`; `angstrom unit microscopy`; `histology measurement units`) | new externally; exact prior-FHB metric-unit/microscopy reuse. |
+| Introduction Q11–Q12 | Routine acidic/basic histology stains (`hematoxylin basic stain`; `eosin acidic stain`; `acidophilic basophilic H&E`; `routine histology stains`) | new externally; exact prior-FHB H&E acidophilia/basophilia reuse. |
+| Introduction Q13–Q15 | Light/electron-microscope resolution and TEM magnification (`light microscope resolution 0.2 micrometer`; `electron microscope resolution 0.2 nm`; `transmission EM magnification`; `microscope resolution magnification`) | new externally; exact prior-FHB microscopy comparison reuse. |
+| Introduction Q16 | Glutaraldehyde/osmium fixation for electron microscopy (`glutaraldehyde osmium EM fixation`; `electron microscopy tissue fixation`; `osmic acid electron microscopy`; `EM fixative histology`) | new externally; no prior-FHB assignment covers the EM-specific fixation sequence — new addition. |
+| Cytoplasm Q1–Q6 | Cell-membrane trilaminar/fluid-mosaic structure, proteins, coat and functions (`cell membrane trilaminar fluid mosaic`; `integral peripheral membrane proteins`; `glycocalyx cell coat adhesion`; `plasma membrane functions transport`) | new externally; exact prior-FHB membrane/glycocalyx reuse. |
+| Cytoplasm Q7–Q8,Q19,Q45 | Membranous/non-membranous organelle classification (`membranous nonmembranous organelles`; `cell organelle classification`; `organelle bounded unit membrane`; `centriole nonmembranous organelle`) | new externally; exact prior-FHB organelle-classification reuse. |
+| Cytoplasm Q9–Q20 | Mitochondrial distribution, stains, cristae, enzymes, genome and functions (`mitochondria cristae matrix enzymes`; `mitochondria Janus green succinate dehydrogenase`; `mitochondrial DNA RNA self replication`; `mitochondria ATP beta oxidation`) | new externally; exact prior-FHB mitochondrial reuse. |
+| Cytoplasm Q21–Q24 | Golgi morphology, polarity, staining and packaging (`Golgi cis trans saccules vesicles`; `Golgi silver stain negative image`; `Golgi protein modification packaging`; `Golgi secretory membrane recycling`) | new externally; exact prior-FHB Golgi reuse. |
+| Cytoplasm Q25–Q29 | Ribosomal subunits, polysomes, basophilia and nucleolar formation (`ribosome rRNA protein subunits`; `free ribosome polysome mRNA`; `ribosome cytoplasmic basophilia`; `ribosome nucleolus formation`) | pending-hit; exact prior-FHB ribosome reuse. |
+| Cytoplasm Q30–Q32 | Smooth-ER lipid synthesis, detoxification and calcium/glycogen roles (`smooth ER detoxification steroid lipid`; `smooth ER calcium storage muscle`; `smooth ER glycogen metabolism`; `smooth ER tubular network`) | new externally; exact prior-FHB smooth-ER reuse. |
+| Cytoplasm Q33–Q34 | Rough-ER structure, protein handling and basophilia (`rough ER ribophorin cisternae`; `rough ER protein segregation glycosylation`; `rough ER cytoplasmic basophilia`; `rough ER plasma cell`) | pending-hit; exact prior-FHB rough-ER reuse. |
+| Cytoplasm Q35–Q39 | Primary/secondary lysosomes, fusion products and residual bodies (`lysosome acid hydrolase GERL`; `primary secondary lysosome`; `heterolysosome autophagic vacuole`; `residual body multivesicular body`) | pending-hit; exact prior-FHB lysosome reuse. |
+| Cytoplasm Q40–Q43 | Peroxisomal enzymes, peroxide handling and fatty-acid oxidation (`peroxisome catalase hydrogen peroxide`; `peroxisome long chain fatty acid oxidation`; `peroxisome D amino acid oxidase`; `microperoxisome small intestine`) | new externally; exact prior-FHB peroxisome reuse. |
+| Cytoplasm Q44 | Clathrin-coated vesicle structure and trafficking (`coated vesicle clathrin bristles`; `clathrin receptor mediated endocytosis`; `coated vesicle Golgi ER`; `coated vesicle protein uptake`) | pending-hit; exact prior-FHB coated-vesicle/transport reuse. |
+| Cytoplasm Q46–Q51 | Microtubules, centrioles, protofilaments and intracellular transport (`microtubule tubulin 13 protofilaments`; `centriole nine triplets`; `microtubule intracellular transport`; `centriole basal body cell division`) | pending-hit; exact prior-FHB microtubule/centriole reuse. |
+| Cytoplasm Q52–Q54 | Ciliary/flagellar axoneme, basal body and movement (`cilia axoneme 9 plus 2`; `cilium basal body rootlets`; `flagellum sperm microtubules`; `cilia rhythmic movement`) | new externally; exact prior-FHB cilia/flagella reuse. |
+| Cytoplasm Q55–Q57 | Actin/myosin filament structure and motile/contractile roles (`actin myosin thin thick filaments`; `microfilament cleavage furrow`; `microvilli actin core`; `microfilament amoeboid movement`) | pending-hit; exact prior-FHB microfilament reuse. |
+| Cytoplasm Q58–Q59 | Intermediate-filament classes and tissue/tumour identification (`intermediate filament desmin vimentin`; `intermediate filament tumor identification`; `intermediate filament mechanical support`; `neurofilament tonofilament`) | new externally; exact prior-FHB intermediate-filament reuse. |
+| Cytoplasm Q60–Q65 | Endogenous/exogenous pigments, lipid/glycogen inclusions and lipofuscin (`exogenous endogenous pigments`; `lipid droplet Sudan osmium`; `glycogen PAS Best carmine`; `lipofuscin wear tear pigment`) | new externally; exact prior-FHB inclusion/pigment/histochemistry reuse. |
+| Cytoplasm Q66 | Cytoplasmic-matrix physical state, organelle support and high-voltage-EM lattice (`cytoplasmic matrix gel organelles`; `cytosol microtubule lattice`; `cytoplasmic matrix ultrastructure`; `cytoplasmic ground substance`) | new externally; prior FHB owns cytosol naming but not this printed matrix ultrastructure/function scope — new addition. |
+| Nucleus Q1–Q3 | Euchromatin/heterochromatin activity and constitutive heterochromatin (`heterochromatin euchromatin activity`; `constitutive heterochromatin centromere`; `vesicular condensed nucleus`; `chromatin transcription interphase`) | new externally; exact prior-FHB chromatin-state reuse. |
+| Nucleus Q4–Q6 | Nuclear-envelope membranes, ER continuity and pore transport (`nuclear envelope double membrane`; `nuclear pore substance exchange`; `outer nuclear membrane rough ER`; `nuclear membrane trilamellar`) | new externally; exact prior-FHB nuclear-envelope/pore reuse. |
+| Nucleus Q7 | Pyknosis, karyorrhexis and karyolysis in cell death (`pyknosis karyorrhexis karyolysis`; `nuclear changes cell death`; `karyolymph cell death`; `necrotic nucleus histology`) | pending-hit; exact prior-FHB cell-death/nuclear-change reuse. |
+| Nucleus Q8–Q11 | Nucleolus, organiser DNA/rRNA and secondary-constriction location (`nucleolus organizer DNA rRNA`; `nucleolar genes secondary constriction`; `nucleolus ribosomal assembly`; `nucleolar organizer chromosomes`) | new externally; exact prior-FHB nucleolar-organiser reuse. |
+
+The source-level search split is **0 live / 6 pending / 20 new = 26 handles**. Twenty-two handles collapse completely to completed prior-FHB assignments. Four new-scope additions survive: celloidine embedding, vital/metachromatic staining distinction, EM fixation and cytoplasmic-matrix ultrastructure/function. The post-prior result is therefore **0 live / 0 pending / 4 new = 4 concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+93 questions / +93 prompt-matched recovered answers / +4 concepts = +0 live / +0 pending / +4 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 6911 | 6547 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets reconcile exactly: `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **27 selected inventory paths / 27 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `78f66ee13c444bc9c6842edc4e24459ea687d3ba2af2b77345bfae51103667a9`. Pinned triage debt becomes **one substantive-text / five sparse-text / 21 empty-text** rows, and unique-hash accounting is **`79 + 27 = 106`**.
+
+The next evidence-ranked substantive source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/solo mcqs histology.pdf`, SHA-256 `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`, 18 pages.
+
+**BLOCKED — S1 cannot be approved:** 27 selected source paths remain untriaged.
