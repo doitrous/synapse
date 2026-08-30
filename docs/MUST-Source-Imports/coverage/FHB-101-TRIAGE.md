@@ -4957,3 +4957,48 @@ Removing this one substantive-text path and unique hash leaves **43 selected inv
 The next bounded `05 MCQs` source is the four-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physiology written.pdf`, SHA-256 `c8e53814c441fa19bcab20e99812075c163b53d9a8147a080927f81723da4438`.
 
 **BLOCKED — S1 cannot be approved:** 43 selected source paths remain untriaged.
+
+## Completed source — Physiology written
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physiology written.pdf` | `c8e53814c441fa19bcab20e99812075c163b53d9a8147a080927f81723da4438` | 4 | empty-text image scan | pages 1–4 rendered and read | CamScanner compilation headed `Written Questions By Jana Sameh`; no institution, department, exam sitting, date, marks, model-answer label or official authority is printed. |
+
+### Exact written-prompt, key and teaching boundary
+
+All four pages are written-assessment material, not exposition. Page 1 prints Q1–Q9, page 2 prints Q10–Q14, page 3 prints Q15–Q22, and page 4 completes Q22's `pathological and physiological` qualifier before printing Q23–Q25. The page-break qualifier narrows what Q22 asks; it is not a supplied answer. The exact inventory is therefore **25 written prompt occurrences / 0 printed keys or model answers / 0 prompt-matched recovered answers**. Dotted completion blanks in Q3, Q12–Q13 and Q15–Q18 are response forms, not recoverable answers. No response was inferred from physiology knowledge or another source.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 25 prompts are assigned exactly once to eight source-first handles. Each handle received the four identifying searches shown, for **8 × 4 = 32 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1, Q18 | Erythropoiesis stages and reticulocytes as immature RBCs (`erythropoiesis stages`; `red blood cell formation`; `reticulocytes immature RBCs`; `erythroid maturation`) | live-hit; exact prior-FHB erythropoiesis/reticulocyte duplicate. |
+| Q2–Q3, Q14–Q17 | Interleukins, erythropoietin source/action and factors regulating erythropoiesis (`erythropoietin source fetus`; `erythropoietin committed stem cells`; `interleukins erythropoiesis`; `factors regulating erythropoiesis`) | pending-hit; exact reuse of the previously accumulated broader erythropoiesis-factor scope. |
+| Q4, Q10 | Chronic-blood-loss and marrow-depression anaemia patterns (`chronic blood loss anemia`; `bone marrow depression anemia`; `aplastic anemia causes`; `anemia etiology patterns`) | live-hit; exact prior-FHB anaemia-pattern duplicate. |
+| Q5–Q6, Q8, Q11–Q13, Q25 | Iron absorption, bioavailability, reduction, loss, distribution and storage (`iron absorption storage`; `heme nonheme iron bioavailability`; `daily iron loss male female`; `ferric ferrous iron reduction`) | live-hit; exact prior-FHB iron-handling duplicate. |
+| Q7 | Vitamin-B12 dietary source and body storage (`vitamin B12 dietary source`; `cobalamin storage liver`; `vitamin B12 body stores`; `B12 source storage`) | new externally; exact prior-FHB B12 source/transport/storage duplicate. |
+| Q9 | Physiological causes and classification of hypoxia (`causes of hypoxia`; `hypoxia classification`; `hypoxic anemic stagnant histotoxic`; `tissue hypoxia physiology`) | new externally; exact prior-FHB hypoxia/erythropoietin scope duplicate. |
+| Q19–Q20 | Saline osmotic fragility and enzyme-deficiency red-cell fragility (`RBC osmotic fragility NaCl`; `complete hemolysis saline`; `enzyme deficiency RBC fragility`; `G6PD osmotic fragility`) | pending-hit; exact prior-FHB osmotic-fragility duplicate. |
+| Q21–Q24 | ESR use, physiological/pathological increase and rapid sedimentation (`erythrocyte sedimentation rate`; `ESR diagnostic prognostic`; `physiological pathological ESR increase`; `rouleaux rapid ESR`) | pending-hit; exact prior-FHB ESR/rouleaux duplicate. |
+
+The source-level search split is **3 live / 3 pending / 2 new = 8 handles**. Every handle is exact reuse of completed prior-FHB scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+25 questions / +0 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4696 | 4389 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **42 selected inventory paths / 42 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `5e0f565879cc683dae2354c47d224e23a734c9f76387d8daabf7101b37338976`. Pinned triage debt becomes **eight substantive-text / five sparse-text / 29 empty-text** rows, and unique-hash accounting is **`64 + 42 = 106`**.
+
+The next bounded `05 MCQs` source is the 15-page Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Important Ques physio.pdf`, SHA-256 `345d7475ddb0ac4653ec09742516bc8e4c76e697be3eea96cc578dd8a4a50f8b`.
+
+**BLOCKED — S1 cannot be approved:** 42 selected source paths remain untriaged.
