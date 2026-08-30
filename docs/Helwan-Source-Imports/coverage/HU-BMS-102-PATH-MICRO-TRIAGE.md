@@ -7392,3 +7392,112 @@ Antimicrobials`. The manifest path retains a stale leading hyphen; the SHA-match
 `Antimicrobial chemotherapy.pdf`. Its unread teaching/prompt/answer and preferred-name-twin
 boundary is the next-source processing blocker: fully render and visually adjudicate the complete
 source before admitting any count.
+
+## Family 66 — tier-4 Helwan antimicrobial-chemotherapy full lecture carrier
+
+### Source identity, complete visual boundary, and printed-answer convention
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_bd6d792541ed79e0e692` · `-Antimicrobial chemotherapy.pdf`; manifest path retains a stale leading hyphen |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 3 - Antimicrobials/Antimicrobial chemotherapy.pdf` |
+| SHA-256 / size | `bd6d792541ed79e0e692652157092fec0c7ee969a0b225e10155b2364a0010a8` · 1,799,842 bytes |
+| Format / read boundary | 46 native-text landscape US-letter pages; native text extracted, all 46 pages rendered at 120 dpi and read in six ordered contact sheets, and pp. 43–44 reopened at full-page resolution |
+| Provenance | `ANTIMICROBIAL CHEMOTHERAPY`, attributed on the Helwan University Faculty of Medicine cover to Dr. Ehab M. Fahmy, Associate Professor of Medical Microbiology and Immunology and Acting Head of Microbiology Department |
+| Authority | Tier-4 local theoretical teaching deck and manifest-preferred name twin; no examiner, sitting, marks, candidate instructions, response form, departmental question-bank designation, or official exam key |
+
+Pages 3–42 are declarative lecture teaching: definitions, classifications, mechanism lists,
+resistance, complications, chemoprophylaxis, clinical use, and combination effects. Headings,
+captioned figures, examples, objectives, and the interaction equations are teaching propositions,
+not inferred prompts. Page 43 is explicitly headed `Interactive questions` and contains two
+completion prompts plus one four-option exception MCQ. Page 44 is explicitly headed `Answers`
+and maps the three prompts one-to-one. These are printed teaching-answer occurrences, not an
+official exam key.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | Helwan cover and objectives | provenance/teaching only; **0 / 0** |
+| 3–11 | chemotherapy/antibiotic definitions, bacteriostatic/bactericidal drugs, spectrum, and selective toxicity | declarative teaching only; **0 / 0** |
+| 12–20 | five antimicrobial-action mechanisms, examples, and diagrams | declarative teaching only; **0 / 0** |
+| 21–30 | five resistance mechanisms plus non-genetic/genetic origins | declarative teaching only; **0 / 0** |
+| 31–42 | four complications, chemoprophylaxis, clinical-use principles, sensitivity testing, and drug-combination interactions | declarative teaching only; **0 / 0** |
+| 43 | Two complete fill-ins and one complete mechanism-of-action exception MCQ | **3 / 0** |
+| 44 | `Answers`: bacteriostatic drug, selective toxicity, and D | **0 / 3** |
+| 45–46 | references and `Thank you` closing | **0 / 0** |
+
+The complete source therefore contains **3 prompt occurrences / 3 printed teaching-answer
+occurrences / 0 unkeyed prompt occurrences**. There are zero literal prompt copies, zero semantic
+collapses, zero cropped/incomplete prompt units, **3 retained records**, and **3 source-distinct
+tested handles**.
+
+### Prompt, answer, preferred-carrier relationship, and prior-BMS assignment
+
+| Ref | Page(s) | Complete source-tested scope / printed answer | Handle / prior assignment |
+|---|---:|---|---|
+| F66-Q01 | 43–44 | Agent that inhibits bacterial multiplication without killing; `bacteriostatic drug` | `bacteriostatic-agent-definition` · exact Family 15 Q01 reuse; collapses to Family 11's fuller host-clearance definition |
+| F66-Q02 | 43–44 | Ability to harm the pathogen without harming the host; `selective toxicity` | `antimicrobial-selective-toxicity-definition` · exact Family 15 Q02 / Family 11 Q09 reuse |
+| F66-Q03 | 43–44 | Exception among antimicrobial-action mechanisms; D · synthesis of modified target | `antimicrobial-action-mechanism-exception-modified-target` · exact Family 15 Q03 reuse; Family 12 separately carries the action and resistance classifications |
+
+This PDF is the preferred theoretical carrier referenced by the tier-6 antimicrobial-chemotherapy
+gate after Family 19. It is not byte-identical to the six-page study bank, and its 43 pages of
+teaching are not promoted to assessment records. Its p. 43 prompt slide is also the complete
+underlying source for Family-15's slide-42 screenshot, while p. 44 supplies the source-authored
+answer page absent from that raster. Family 15's source-local unproven-mark ruling remains
+unchanged; Family 66 independently records the three explicit printed answers. All three handles
+were already present in prior BMS-102 families.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the three handles received exactly four fresh source-first searches across live state,
+every pending import root, and prior BMS-102 evidence: **12 required searches**. Reopened
+external disposition is **1 live / 0 pending / 2 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacteriostatic-agent-definition` · Q01 | `bacteriostatic definition`; `inhibits bacterial multiplication not kill`; `bacteriostatic agent reversible growth inhibition`; `bacteriostatic versus bactericidal definition` | live `CON-INF-4E8ECDA3106CD7`; exact definition | exact Family 15 / Family 11 reuse |
+| `antimicrobial-selective-toxicity-definition` · Q02 | `selective toxicity definition antimicrobial`; `harm pathogen without harming host`; `antimicrobial selective toxicity`; `chemotherapeutic agent host pathogen toxicity` | no same-scope | exact Family 15 / Family 11 reuse |
+| `antimicrobial-action-mechanism-exception-modified-target` · Q03 | `antimicrobial mechanism exception modified target`; `modified target resistance not drug action`; `mechanisms action antimicrobial agents list`; `cell wall protein nucleic acid synthesis modified target` | no same-scope | exact Family 15 reuse; related Family 12 classifications |
+
+All **3** source handles are exact prior-BMS reuses, so **3 - 3 = +0 concepts**.
+
+| Measure | Family 66 | Auxiliary cumulative (Families 12–66) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 3 | 627 | 765 | 1,392 |
+| Printed teaching-answer occurrences | 3 | 339 | 405 | 744 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Retained question records | 3 | 601 | 552 | 1,153 |
+| Source-distinct tested handles / required searches | 3 / 12 | 568 / — | — | — |
+| External live / pending / no same-scope | 1 / 0 / 2 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 3 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +410 over primary | 372 | `372 + 410 = 782` |
+| **Distinct tested concepts** | **+0** | **410 auxiliary additions** | **372** | **782** |
+
+The checksum closes without remainder: `3` prompt starts receive `3` printed answers and leave
+`0` unkeyed occurrences; retention is `3 - 0 copies = 3`; handle assignment is `3 - 0 semantic
+reductions = 3`; searches are `3 × 4 = 12`; external disposition is `1 + 0 + 2 = 3`; and
+concept arithmetic is `3 - 3 prior exact reuses = 0`. Auxiliary cumulative arithmetic is `624 +
+3 = 627` prompts, `336 + 3 = 339` answers, `598 + 3 = 601` retained records, `565 + 3 =
+568` source handles, and `410 + 0 = 410` concept additions. All eligible arithmetic is `765 +
+627 = 1,392`, `405 + 339 = 744`, `552 + 601 = 1,153`, and `372 + 410 = 782`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**627 / 339 / 601 / 568 / +410**; and all eligible evidence is
+**1,392 / 744 / 1,153 / 782**. This lecture contributes local teaching and interactive-question
+evidence only; it cannot raise exam/sitting, recurrence, mark-weight, official-key, readiness,
+or claims status.
+
+### Exact next debt after Family 66
+
+`src_bd6d792541ed79e0e692` is exhausted across all 46 pages: every provenance/objective/
+reference/closing page, declarative teaching slide, interactive prompt, explicit answer, retained
+record, preferred-carrier relationship, handle, search row, external disposition, and prior-BMS
+reuse is assigned once, with **zero source remainder** and no Family-66 blocker. The next manifest-
+ordered unprocessed BMS-102 record is tier-4 `src_3421268698cd980b9c24` ·
+`3. Bacterial pathogenesis.pdf`, SHA-256
+`3421268698cd980b9c247c51f238557479157da1db118a4bda10ba8abd5fe34d`, 3,539,704 bytes,
+38 native-text landscape 720×540-point pages under `Microbiology / Theoretical / Lec 4 -
+Bacterial Pathogenesis`. Its visible cover attributes the source to Dr. Esraa Farag, Lecturer of
+Medical Microbiology and Immunology, Faculty of Medicine, Capital University, despite its Helwan
+folder placement. That provenance conflict and its unread teaching/prompt/answer boundary are the
+next-source processing blockers: fully render and visually adjudicate the complete source before
+admitting any count.
