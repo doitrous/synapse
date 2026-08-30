@@ -6159,3 +6159,121 @@ candidate is tier-6 `src_23c79568d55a3bfc4b0d` · `sterilization and disinfectio
 native-text pages under `Microbiology / Notes and Summaries`. Its unread two-page prompt and
 answer-convention boundary is the next-source processing blocker: fully render and visually
 adjudicate all material before admitting any count.
+
+## Family 56 — tier-6 sterilization/disinfection MCQ bank with red answer register
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_23c79568d55a3bfc4b0d` · `sterilization and disinfection.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/sterilization and disinfection.pdf` |
+| SHA-256 / size | `23c79568d55a3bfc4b0d72b420631a134da158b78399040a74dcc025e3788d4a` · 631,435 bytes |
+| Format / read boundary | Two native-text US-letter pages; native text extracted and both physical pages rendered at 220 dpi and visually read in full |
+| Authority | Unattributed revision bank headed `sterilization and disinfection`; no Helwan/university or faculty masthead, module code, author, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 contains Q1–Q7; physical p. 2 contains Q8–Q14 followed by a complete red answer
+register for Q1–Q14. No teaching section or material outside the question bank and key appears.
+The register is a consistent, direct **printed study-answer convention**, but the source's absent
+institutional provenance means it is not an official key or independently verified guidance.
+The printed sequence is `1 C; 2 A; 3 C; 4 C; 5 B; 6 C; 7 C; 8 A; 9 B; 10 B; 11 C; 12 B;
+13 B; 14 A`.
+
+The prompt-start checksum is `7 + 7 = 14`. Every observed stem and option set is complete, and
+every prompt has exactly one numbered register letter. The source therefore contains **14
+complete prompt occurrences / 14 printed study-answer occurrences / 0 unkeyed occurrences**.
+Source spelling and questionable answers are preserved without fact repair.
+
+### Complete prompt, printed-answer, retention, and prior-BMS inventory
+
+| Ref(s) | Page(s) | Complete source-tested scope | Printed study answer | Handle / assignment |
+|---|---:|---|---:|---|
+| F56-Q01 | 1 | Shared incomplete-pathogen-killing statement within a disinfection/antisepsis differential | C | `disinfection-antisepsis-incomplete-pathogen-killing-shared-property` |
+| F56-Q02 | 1 | Pasteurization as the exception among dry heat, autoclaving, and plasma gas as sterilization methods | A | `pasteurization-not-sterilization-method` · exact F38-Q10 scope reuse |
+| F56-Q03 | 1 | Ethylene oxide as the exception among ultraviolet radiation, boiling, and pasteurization as disinfection methods | C | `ethylene-oxide-sterilization-not-disinfection` |
+| F56-Q04 | 1 | Hot-air-oven time/temperature cycle differential, despite the stem's `moist instruments` wording | C · 160 °C for 3 h | `hot-air-oven-time-temperature-cycle` · exact F38-Q11 scope reuse; conflicting printed key retained |
+| F56-Q05 | 1 | True/false claim that all dry- and moist-heat methods are used for sterilization | B · false | `dry-and-moist-heat-methods-sterilization-claim` |
+| F56-Q06,Q07 | 1 | Start point for timing a simple-autoclave cycle | C; C · continuous steam release | Q07 is a literal copy excluded from retention; `simple-autoclave-cycle-start-continuous-steam` |
+| F56-Q08 | 2 | Ordering of prevacuum, steam-gravity, and simple autoclaves by shorter cycle | A | `autoclave-types-shortest-cycle-order` |
+| F56-Q09 | 2 | Sterilization-method differential for instruments with long narrow lumens | B · autoclaves | `plasma-gas-long-narrow-lumen-instruments` · exact F38-Q17 scope reuse; conflicting printed key retained |
+| F56-Q10 | 2 | Exception differential across ethylene-oxide and plasma-gas similarities in sporicidal action, aeration, gaseous method, and low heat | B | `ethylene-oxide-plasma-gas-aeration-difference` |
+| F56-Q11 | 2 | Mercury-lamp source of ultraviolet radiation | C | `ultraviolet-radiation-mercury-lamp-source` |
+| F56-Q12 | 2 | Filtration as the operating method of HEPA | B | `hepa-filtration-method` |
+| F56-Q13 | 2 | True/false claim that phenolic and chlorine compounds can be used for skin disinfection | B · false | `phenolics-chlorine-skin-antiseptic-suitability` · exact F19-Q10/F38-Q05 reuse |
+| F56-Q14 | 2 | True/false claim that dry heat acts through oxidative destruction | A · true | `dry-heat-oxidative-destruction-principle` |
+
+Q7 is content-identical to Q6, including option order and printed `C`, and is the sole literal
+copy, so it does not survive retention. No other pair is a wording repeat or same-scope variant.
+Q1 tests a shared disinfection/antisepsis property rather than F19/F38's difference; Q3 tests an
+ethylene-oxide method classification rather than its sporicidal mechanism; Q12 isolates HEPA
+filtration rather than F38-Q20's broad methods essay; and Q14 isolates the dry-heat principle
+rather than the autoclave-mechanism exception. Thus **14 observed - 1 literal copy = 13 retained
+records**, and all **13 retained records = 13 source-distinct tested handles**.
+
+The Family-56 register conflicts with earlier tier-6 Family 38 on two reused scopes. F56-Q04 keys
+`160 °C for 3 h`, while F38-Q11 keys `160 °C for 2 h or 170 °C for 1 h`; F56-Q09 keys
+`autoclaves` for long narrow lumens, while F38-Q17 keys plasma gas for that device property. Both
+conflicts remain source evidence and are not resolved into student-facing truth.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 13 handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **52 required searches**. External
+disposition is **0 live / 0 pending / 13 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `disinfection-antisepsis-incomplete-pathogen-killing-shared-property` · Q01 | `disinfection antiseptic do not kill all pathogens`; `shared property disinfectant antiseptic incomplete killing`; `disinfection versus antisepsis microbial killing`; `antiseptic disinfectant true statement differential` | no same-scope | none; F19-Q02/F38-Q07 ask for the distinction, so delta |
+| `pasteurization-not-sterilization-method` · Q02 | `pasteurization not sterilization method`; `pasteurization sterilization exception`; `pasteurization kills vegetative not spores`; `sterilization methods dry heat autoclave plasma pasteurization` | no same-scope | exact F38-Q10 scope reuse; F19-Q08/F38-Q09 are broader definitions |
+| `ethylene-oxide-sterilization-not-disinfection` · Q03 | `ethylene oxide sterilization not disinfection`; `disinfection method exception ethylene oxide`; `ethylene oxide kills spores sterilizer`; `boiling UV pasteurization disinfection ethylene oxide` | no same-scope | none; F38-Q16 tests a different property differential, so delta |
+| `hot-air-oven-time-temperature-cycle` · Q04 | `hot air oven time temperature cycle`; `dry heat 160 2 hours 170 1 hour`; `hot air sterilization duration differential`; `hot air oven moist instrument cycle` | no same-scope | exact F38-Q11 reuse; current key conflict preserved |
+| `dry-and-moist-heat-methods-sterilization-claim` · Q05 | `dry and moist heat methods sterilization claim`; `all dry heat moist heat sterilize`; `heat methods disinfection versus sterilization`; `dry moist heat classification sterilization` | no same-scope | none; delta |
+| `simple-autoclave-cycle-start-continuous-steam` · Q06,Q07 | `simple autoclave cycle starts continuous steam`; `autoclave timing after air expelled`; `steam release continuous stream autoclave time`; `simple autoclave cycle calculation` | no same-scope | none; F38-Q14 tests construction, so delta |
+| `autoclave-types-shortest-cycle-order` · Q08 | `autoclave types shortest cycle order`; `prevacuum gravity simple autoclave duration`; `autoclave cycle speed comparison`; `prevacuum versus gravity displacement cycle` | no same-scope | none; F38-Q14/Q15 test construction and control rather than the three-way ordering, so delta |
+| `plasma-gas-long-narrow-lumen-instruments` · Q09 | `long narrow lumen sterilization method`; `plasma gas laparoscope narrow lumen`; `autoclave versus plasma long lumen instrument`; `sterilization long narrow lumen device` | no same-scope | exact F38-Q17 reuse; current key conflict preserved |
+| `ethylene-oxide-plasma-gas-aeration-difference` · Q10 | `ethylene oxide plasma gas aeration difference`; `EO prolonged aeration plasma gas comparison`; `gaseous sterilizers spores low heat aeration`; `ethylene oxide versus hydrogen peroxide plasma properties` | no same-scope | none; prior separate property prompts do not supply the comparison, so delta |
+| `ultraviolet-radiation-mercury-lamp-source` · Q11 | `ultraviolet produced by mercury lamps`; `UV radiation source mercury vapor lamp`; `germicidal ultraviolet lamp source`; `radioactive cobalt electron accelerator mercury ultraviolet` | no same-scope | none; delta |
+| `hepa-filtration-method` · Q12 | `HEPA filtration method`; `high efficiency particulate air filter sterilization`; `HEPA removes microbes by filtration`; `air sterilization HEPA mechanism` | no same-scope | none; F38-Q20 is a broader methods essay, so delta |
+| `phenolics-chlorine-skin-antiseptic-suitability` · Q13 | `phenolic chlorine skin antiseptic`; `chlorine compounds living tissue false`; `phenol disinfectant not antiseptic`; `chemical disinfectant skin suitability` | no same-scope | exact F19-Q10/F38-Q05 reuse |
+| `dry-heat-oxidative-destruction-principle` · Q14 | `dry heat oxidative destruction principle`; `hot air oven kills by oxidation`; `dry versus moist heat microbial killing mechanism`; `oxidative destruction sterilization dry heat` | no same-scope | none; F19-Q03/F38-Q01 ask whether autoclaving uses oxidation, so delta |
+
+The four prior-BMS exact handles are Q02, Q04, Q09, and Q13. Therefore **13 handles - 4 prior
+exact reuses = +9 concepts**.
+
+| Measure | Family 56 | Auxiliary cumulative (Families 12–56) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 14 | 483 | 765 | 1,248 |
+| Printed study-answer occurrences | 14 | 221 | 405 | 626 |
+| Retained question records | 13 | 477 | 552 | 1,029 |
+| Source-distinct tested handles / required searches | 13 / 52 | 456 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 13 | — | — | family-local disposition |
+| Cross-family concept delta | +9 | +330 over primary | 372 | `372 + 330 = 702` |
+| **Distinct tested concepts** | **+9** | **330 auxiliary additions** | **372** | **702** |
+
+The checksum closes without remainder: prompt starts are `7 + 7 = 14`; key alignment is
+`14 - 14 = 0` unkeyed; retention is `14 - 1 literal copy = 13`; handle assignment is
+`13 - 0 semantic reductions = 13`; assignment is `14 - 14 = 0` unassigned; searches are
+`13 × 4 = 52`; external disposition is `0 + 0 + 13 = 13`; and concept arithmetic is
+`13 - 4 = 9`. Auxiliary cumulative arithmetic is `469 + 14 = 483` prompts, `207 + 14 = 221`
+printed answers, `464 + 13 = 477` retained records, `443 + 13 = 456` source handles, and
+`321 + 9 = 330` concept additions over primary. All-eligible arithmetic is `765 + 483 = 1,248`,
+`405 + 221 = 626`, `552 + 477 = 1,029`, and `372 + 330 = 702`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**483 / 221 / 477 / 456 / +330**; and all eligible evidence is
+**1,248 / 626 / 1,029 / 702**. This tier-6 annotated revision bank cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 56
+
+`src_23c79568d55a3bfc4b0d` is exhausted across both pages: all 14 prompt occurrences, all 14
+printed study-answer occurrences, the one literal copy, both preserved cross-source key
+conflicts, retained records, source handles, search rows, external dispositions, and prior-BMS
+decisions are assigned once, with **zero source remainder** and no Family-56 blocker. The next
+manifest-ordered local BMS-102 candidate is tier-5 `src_380149e04961b8857343` ·
+`1- Microscopy and staining (1).PDF`, SHA-256
+`380149e04961b885734364f486d513a50d54aa5a9ff708b36660501a35bc94f7`, 3,973,709 bytes, 88
+native-text pages under `Microbiology / Practical Labs / Pre Lab 1 - Microscopy & Staining`.
+Its unread 88-page prompt/teaching/answer boundary is the next-source processing blocker: fully
+render and visually adjudicate the complete source before admitting any count.
