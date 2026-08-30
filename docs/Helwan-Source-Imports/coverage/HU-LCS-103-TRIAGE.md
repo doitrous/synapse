@@ -9022,3 +9022,127 @@ under `Year 1/LCS 103/Physiology/Practical Labs/Virtual Lab 2 - EMG/`. Tier-3, t
 rank-9 debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 74 — Tier-5 Physiology practical EMG/BIOPAC virtual lab
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_b4e5121489d6fc2e1aa0` |
+| File / SHA-256 | `103-LCS-EMG-VLab-26.pdf` / `b4e5121489d6fc2e1aa0861604a48fae9be2545e4db3031b755482dfb6642867` |
+| File boundary | 2,765,222 bytes · unencrypted PDF · 54 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Physiology · Practical Labs · `Virtual Lab 2 - EMG` · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Practical Labs/Virtual Lab 2 - EMG/103-LCS-EMG-VLab-26.pdf` |
+| Visible provenance | p. 1 prints `Electro Myography (EMG) Lab`, `Physiology Department` and `Prepared by: Dr. Abdelrahman Nabil`; metadata title is `Electro-Myography (EMG)`, author is `Hassan Al Mahallawi`, and creator/producer is Microsoft PowerPoint for Microsoft 365. |
+| Authority finding | Manifest/path-placed local tier-5 Physiology practical teaching deck. It is not a sitting paper, question bank, response form, station sheet or official answer key. |
+
+The assigned SHA-256, byte size and 54-page boundary were recomputed and match. All 54 pages
+were rendered at 180 dpi and read against the complete native text layer; all 54 complete-page
+renders have distinct SHA-256 values. The source contains **44 source-distinct practical
+teaching plates + 10 non-plate title/objective/section/reference/closing pages**.
+
+The full-source assessment gate finds **0 ordinary written questions / 0 practical or station
+prompts / 0 printed assessment keys**. Page 4's `Role of EMG?`, p. 5's `What is the BIOPAC`
+and p. 33's `Why Do We Calibrate?` are rhetorical teaching headings answered immediately on
+the same page. The p. 2 objectives and software/operator imperatives (`Please type in your
+file name`, `Subject must`, `When ready click`) describe the demonstrated procedure; they do
+not test a learner, supply a response field or reveal a key. No option set, mark allocation,
+masked answer label or delayed solution appears.
+
+### Complete practical-plate, mapping and residue inventory
+
+One mapping is one distinct directly printed device/component identity, lead-to-polarity or
+site relation, signal-processing stage, procedural relation, trace identity, comparison-cell
+relation, graph label or physiology factor-to-effect relation. Repeated interface chrome and
+the same label on one plate count once; slide titles, axes, page numbers and unlabelled photo
+identities are not mappings. The source contains no unexplained printed letter, numeral,
+abbreviation, masked label or rule blank, so practical residue is zero.
+
+| Physical pages | Source-first practical teaching composition | Plate occurrences | Directly printed unique mappings / residue |
+|---:|---|---:|---:|
+| 3–5 | EMG name decomposition, skeletal-muscle electrical-recording role and BIOPAC acquisition/amplification/noise-reduction definition | 3 | 7 mappings |
+| 7–8 | electrodes, hand dynamometer, data-acquisition unit, three lead polarities and five-stage muscle-to-computer signal path | 2 | 11 mappings |
+| 10–12 | calibration preparation screen, raw/filtration/rectification/smoothing/RMS traces at three durations, and before/during/after procedure instructions | 3 | 27 mappings |
+| 14–18 | power, PC, electrode-lead and hand-dynamometer cabling plus BIOPAC power-on photo sequence | 5 | 0 directly printed mappings; headings identify the source-distinct steps but are excluded by rule |
+| 20–22 | electrode/gel preparation, correct-versus-excess gel and positive/negative/ground forearm placement | 3 | 5 mappings |
+| 24–32 | subject calibration, app lesson/file selection, calibration command, grip/clench instructions, hardware verification and paired EMG/clench-force traces | 9 | 17 mappings; pp. 24, 28 and 31 are unlabelled demonstrations retained as plates |
+| 33–39 | calibration purposes, two recording phases, pre-recording/increasing/continued-force traces, non-dominant repeat and five EMG uses | 7 | 14 mappings; p. 38 is an instruction-only composition with no additional printed mapping |
+| 41–43 | isometric/isotonic definitions, eight-cell property/example comparison and combined-contraction push-up diagram | 3 | 16 mappings |
+| 44–45 | length–tension definition, passive/total/active relations and labelled curve | 2 | 8 mappings |
+| 46–51 | six-stage sarcomere-overlap/active-tension teaching sequence from excessive shortening through no overlap, plus cross-bridge summary | 6 | 10 mappings |
+| 52 | force–velocity definition and inverse afterload/shortening-velocity relation | 1 | 2 mappings |
+| **Total** | **complete source-distinct practical teaching evidence** | **44** | **117 mappings; 0 unresolved callouts; 0 prompts / 0 keys** |
+
+The ten non-plate pages are title/provenance p. 1, objectives p. 2, section dividers pp. 6, 9,
+13, 19, 23 and 40, references p. 53 and close p. 54. Plate arithmetic is `54 = 10 + 44`
+and `44 = 3 + 2 + 3 + 5 + 3 + 9 + 7 + 3 + 2 + 6 + 1`. Mapping arithmetic is
+`117 = 7 + 11 + 27 + 0 + 5 + 17 + 14 + 16 + 8 + 10 + 2`. Empty graph areas in
+the pre-recording/calibration screenshots are expected software state, not response blanks.
+
+### Source-first practical teaching scopes, searches and prior-LCS adjudication
+
+The 44 plates consolidate to thirteen source-level scopes. Each accepted handle received four
+`find-existing` searches across live, pending, import-ready/source-import and accepted prior-LCS
+surfaces; the exact queries are preserved below.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `emg-name-definition-and-recording-role` · pp. 3–4 | electromyography definition recording skeletal muscle electrical activity; EMG electro myo graph meaning; role of EMG skeletal muscle electrical activity; define surface electromyography test | no complete external or accepted prior-LCS practical scope — new |
+| `biopac-components-and-muscle-to-computer-signal-path` · pp. 5, 7–8 | BIOPAC data acquisition system components EMG; BIOPAC electrodes hand dynamometer data acquisition; EMG signal path electrode cable amplifier computer; BIOPAC physiological signal amplification noise reduction | no complete external or accepted prior-LCS practical scope — new |
+| `emg-signal-conditioning-raw-filtered-rectified-smoothed-rms` · pp. 10–11 | EMG raw filtration rectification smoothing RMS; electromyography signal conditioning analysis; EMG root mean square signal processing; raw filtered rectified smoothed EMG | no complete external or accepted prior-LCS practical scope — new |
+| `emg-patient-procedure-instructions` · p. 12 | EMG procedure patient preparation instructions; electromyography before during after procedure; EMG fasting lotion medication preparation; EMG dominant nondominant hand procedure | no complete external or accepted prior-LCS practical scope — new |
+| `biopac-hardware-cabling-and-power-setup` · pp. 14–18 | BIOPAC hardware setup power PC electrodes dynamometer; connect BIOPAC device computer electrode leads; BIOPAC power cable hand dynamometer setup; EMG laboratory equipment setup sequence | no complete external or accepted prior-LCS practical scope — new |
+| `emg-electrode-gel-and-positive-negative-ground-placement` · pp. 20–22 | EMG electrode gel correct amount placement; EMG positive negative ground lead placement forearm; surface electrode preparation gel placement EMG; electrode leads positive negative ground EMG | no complete external or accepted prior-LCS practical scope — new |
+| `biopac-software-and-subject-calibration-workflow` · pp. 24–33 | BIOPAC calibration subject workflow; EMG calibration hand dynamometer software; Biopac Student Lab L02 EMG calibration; EMG calibration accuracy noise skin impedance | no complete external or accepted prior-LCS practical scope — new |
+| `dominant-nondominant-increasing-and-continued-clench-recording` · pp. 34–38 | increasing continued clench force recording phases; dominant nondominant arm EMG clench force; BIOPAC increasing clench force continued maximum force; EMG hand dynamometer fatigue recording graph | no complete external or accepted prior-LCS practical scope — new |
+| `emg-clinical-rehabilitation-sport-and-research-uses` · p. 39 | uses of electromyography neuromuscular diagnosis rehabilitation sports; EMG clinical and research applications; electromyography neuropathy myopathy motor control biomechanics; EMG assess muscle timing strength fatigue | Family 73 only mentions EMG development and does not own this five-use scope — new |
+| `isometric-versus-isotonic-definition-property-and-example-comparison` · pp. 41–43 | isometric isotonic contraction comparison length tension work; isometric contraction constant length isotonic constant load; isotonic lifting weights isometric immovable weight; isometric isotonic contraction examples preload afterload | pending material owns the comparison; exact accepted Family-16 `isometric-vs-isotonic-contraction-comparison` owns the core — prior LCS reuse |
+| `length-tension-passive-total-active-definitions-and-curve` · pp. 44–45 | length tension passive total active tension definitions; skeletal muscle length tension curve passive active total; optimal muscle length maximum cross bridge overlap; isometric length tension relationship preload | pending material and exact accepted Families 15–16 `skeletal-muscle-length-tension-relationship` own the curve/core — prior LCS reuse |
+| `sarcomere-overlap-determination-of-active-tension` · pp. 46–51 | sarcomere overlap length active tension force; short sarcomere thin filament overlap reduces tension; optimal sarcomere length maximum active tension; no actin myosin overlap no active tension | accepted length–tension and sliding-filament scopes jointly own the complete overlap mechanism — prior LCS reuse |
+| `force-velocity-inverse-afterload-shortening-relation` · p. 52 | force velocity relationship afterload isotonic contraction; velocity shortening decreases afterload increases; skeletal muscle force velocity curve; isotonic contraction shortening velocity different loads | no complete external or accepted prior-LCS practical scope — new |
+
+All **13 × 4 = 52** required teaching-scope searches completed. At complete-scope grain the
+direct external result is **0 live / 0 pending / 13 new**. Exact accepted-prior comparison
+prevents three repeated module additions, leaving **3 prior-LCS reuses / 10 new practical-
+teaching scopes**. Declarative teaching scopes do not enter eligible tested-concept counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 74 | Family 74 delta | After Family 74 |
+|---|---:|---:|---:|
+| Eligible observed question records | 549 | +0 | 549 |
+| Eligible printed question keys | 280 | +0 | 280 |
+| Eligible distinct tested concepts | 269 | +0 | 269 |
+| Question live / pending / new | 10 / 89 / 170 | +0 / +0 / +0 | 10 / 89 / 170 |
+| Stand-alone practical/station prompt occurrences | 7 | +0 | 7 |
+| Distinct practical teaching plates, quantified | 414 verified minimum | +44 | 458 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,574 verified minimum | +117 | 2,691 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 149 | +0 | 149 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 82 | +0 / +0 / +10 | 0 / 0 / 92 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `0 prompts / 0 keys`, `549 = 549 + 0`, `280 =
+280 + 0`, `269 = 269 + 0`, `10 + 89 + 170 = 269`, `7 + 0 = 7`, `458 = 414 + 44`,
+`2,691 = 2,574 + 117`, `149 + 0 = 149`, and `92 = 82 + 10`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-73
+remainder leaves **2 rank-4/rank-5 path instances / 2 unique hashes**. The Family-73 method
+was reproduced first: its 3/3 row sets recomputed to
+`1476aa7879395ec7ff47848c5438666d3a382beb961511172a10f3621cdc3c7a` and
+`b00d07ae73c23ce4abc8529bf99426fdbedc99c719dee70f6c011fb6224c5ee0`.
+For the exact post-Family-74 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0c90f44f6f95e51b1ef9a27ad50c24be50f4ee21d7972af13691c6ca69272a9b`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`17ffda8702120ca77191e13a70fe08aab0f053a91b7181fb109ae9b0922f5e91`.
+
+The exact next rank-4/rank-5 manifest-order gate is tier-4 Physiology theoretical source
+`src_262c1ba3765a9922e9d4`, `Muscle-Phys-26.pdf` (3,496,239 bytes; 60 native-text pages;
+SHA-256 `262c1ba3765a9922e9d48974891c6ae7d146fcd995cf59ce1aa0ed225ddba335`)
+under `Year 1/LCS 103/Physiology/Theoretical/Lec 1 - Muscle Physiology/`. Tier-3, tier-6 and
+rank-9 debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
