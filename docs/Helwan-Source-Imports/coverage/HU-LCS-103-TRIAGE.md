@@ -18205,3 +18205,88 @@ The exact next manifest-order debt is tier-6 `src_4a127184f4d8448957bf`,
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 60
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 171 — Tier-6 calcium-homeostasis pharmacology teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_4a127184f4d8448957bf` / `4a127184f4d8448957bffd9358f6553623b2b99000d9973348a9900f8130e74b` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/HU-Calcium Metabolism.pdf` |
+| Physical verification | **494,660 bytes; 5 native-text landscape-A4 pages; 841.92 × 595.32 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | Every page prints `Pharmacology – MSS Module`, `Dr. El-Sawy` and `Drugs affecting Ca homeostasis`. Metadata names author `Mamdouh`, Microsoft Word LTSC creator/producer, 26 April 2025 creation and 22 May 2026 modification. No page prints a university, cohort, examination sitting or answer-key label. |
+| Authority finding | The `HU-` filename, LCS-103 manifest placement and named module/lecturer establish course-local summary evidence. They do not establish a recoverable examination or marking-guide authority. |
+
+All **5/5 pages** were rendered at 150 dpi, inspected at full resolution and read against the
+native text layer. The complete boundary is:
+
+| Physical page | Source-first composition | Assessment / practical boundary |
+|---:|---|---|
+| 1 | comparative primary-regulator table: PTH, vitamin D and calcitonin sources, mechanisms and bone/intestine/kidney effects | declarative teaching only |
+| 2 | PTH/teriparatide, vitamin-D and salmon-calcitonin therapeutic-use comparison | declarative teaching only; the completed indications are not response fields |
+| 3 | fully labelled vitamin-D skin/liver/kidney activation and action pathway | explanatory diagram, not a masked or practical plate |
+| 4 | fully labelled PTH/calcitonin calcium-flow diagram plus a vitamin-D metabolism summary diagram | two explanatory teaching compositions; no hidden labels or learner task |
+| 5 | glucocorticoid, estrogen and raloxifene effects, uses and adverse effects | declarative teaching table; product image is illustrative only |
+
+The physical source therefore contains **6 teaching compositions / 0 eligible or external
+assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed prompts**. There is no
+interrogative, response instruction, option set, answer blank, mark allocation, correctness
+mark or delayed reveal. Every diagram and product image has its teaching labels supplied and
+is embedded in a theoretical pharmacology summary. The practical boundary is exactly **0
+practical or station prompts / 0 practical teaching plates / 0 mappings / 0 unresolved
+residues / 0 practical assessment keys**.
+
+Source claims are preserved without correction or inference, including `ergocalceferol`,
+`cholecalceferol`, `Acts on DNA receptors to synthesis protein`, the printed vitamin-D and
+calcitonin indication lists, diagram labels such as `DBT`, and `Estrogen receptors is present`.
+These source states do not create questions, keys or inferred mappings.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The six compositions collapse source-first to four complete teaching handles because p. 4's
+two summaries repeat, rather than extend, the p. 1 and p. 3 compositions:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `pth-vitamin-d-calcitonin-primary-regulator-comparison` · pp. 1, 4 | PTH calcitonin vitamin D calcium regulation; PTH bone kidney intestine effects; calcitonin serum calcium phosphate effects; primary hormonal calcium regulators | Accepted Families 53, 72, 76 and 165 jointly own the complete physiology/regulation core — prior-LCS reuse. |
+| `pth-teriparatide-vitamin-d-calcitonin-therapeutic-uses` · p. 2 | PTH hypoparathyroidism calcium vitamin D; teriparatide intermittent osteoporosis; vitamin D rickets osteomalacia hypocalcemia; salmon calcitonin hypercalcemia osteoporosis | Live and accepted results own individual indications, including Family 72's teriparatide evidence, but no complete accepted or pending handle owns the source's three-column treatment comparison — new theoretical teaching. |
+| `vitamin-d-skin-liver-kidney-activation-and-actions` · pp. 1, 3, 4 | ergocalciferol cholecalciferol sources; vitamin D skin liver kidney activation; 25 hydroxylase 1 alpha hydroxylase; vitamin D intestine bone mineralization immune effects | Accepted Families 53, 72 and 76 own the complete activation/action pathway — prior-LCS reuse. |
+| `glucocorticoid-estrogen-raloxifene-secondary-calcium-regulators` · p. 5 | glucocorticoid calcium excretion osteoporosis; estrogen bone resorption postmenopausal osteoporosis; raloxifene SERM bone breast uterus; secondary hormonal calcium regulators | Accepted Families 53 and 70 own the glucocorticoid/estrogen components, but no accepted or pending handle owns the complete comparison including raloxifene — new theoretical teaching. |
+
+Each of the **four accepted handles** received exactly one query on each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **4 × 4 = 16 required search invocations**. Broad partial hits do not supersede the
+complete-scope comparison. Final disposition is **2 prior-LCS theoretical-teaching reuses / 0
+additive live / 0 additive pending / 2 additive new theoretical teaching scopes**. No
+assessment or practical handle exists, and theoretical teaching scopes do not enter either
+tested-concept or practical-scope cumulative totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This source hash occurs once in Family 170's remainder. Removing its sole path leaves **59
+all-rank path instances / 55 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes **45
+paths / 44 unique hashes within tier**, and rank 9 remains **14 / 11**. Family 170's prior
+checksums are `9ac8c42a9e4a2805823c695c8246469bd1c157f68ce347ca0c587bba7114150d`
+(paths) and `227f28d7bc0842e13c13d5e0cd9be50b3041daf10b8ab07fd4646e54063e5cf9`
+(unique hashes). For the exact post-Family-171 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`38a190fc03af2740f1181a4b8718b83801e85b8af15c1025966a470f3cce0b00`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`4c0818eec2037f683bd2b914e96b10c6f81b2599cfe4019bbe7407c18dba6e7e`.
+
+The exact next manifest-order debt is tier-6 `src_1f7805b9fadd68dfc7e1`, manifest
+`LCS   تجميعات حلوان.pdf`, resolved to normalized local `LCS تجميعات حلوان.pdf` (176,969
+bytes; 5 native-text portrait-A4 pages; unencrypted; 595.32 × 841.92 pt; SHA-256
+`1f7805b9fadd68dfc7e1f4260fcfb01071fa0169bc256ed39b62f4c90f94535d`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 59
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
