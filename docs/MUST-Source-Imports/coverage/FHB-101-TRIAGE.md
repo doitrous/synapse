@@ -4022,3 +4022,54 @@ Removing this one substantive-text path and unique hash leaves **61 selected inv
 The next evidence-ranked substantive source is the single four-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium MCQ.pdf`, SHA-256 `001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b`.
 
 **BLOCKED — S1 cannot be approved:** 61 selected source paths remain untriaged.
+
+## Completed source — MCQs - Epithelium MCQ
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium MCQ.pdf` | `001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b` | 4 | substantive-text | pages 1–4 rendered and read | Local `MCQ IN HISTOLOGY – DR. AHMED ZAHRA` study bank. It prints no institution, department approval, sitting, marks or official-paper/key claim. |
+
+### Exact assessment/key boundary
+
+Pages 1–3 print one continuous `Epithelial Tissues` Q1–Q25 MCQ sequence. Page 4 prints a complete 25-row answer table. The exact inventory is therefore **25 complete prompt occurrences / 25 directly printed answer occurrences**, with no numbering gaps, missing keys or orphan answers.
+
+```text
+Q1–Q25: D B D B C | C A B C B | B A B D A | B B C D D | A C B A D
+```
+
+The source's wording and letters are retained verbatim at this local-bank authority; no answer was inferred or medically corrected.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 25 prompts are assigned exactly once to eight handles. Every handle received the four searches printed below, for **8 × 4 = 32 searches**.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1,Q19,Q25 | Transitional/urothelial lining and nuclear morphology (`transitional epithelium urinary bladder`; `ureter urothelium`; `transitional epithelium nuclei`; `urothelial cell morphology`) | new externally; exact prior-FHB duplicate. |
+| Q2,Q7–Q8,Q15–Q16 | Simple-squamous sites/functions, endothelium and mesothelium (`simple squamous epithelium sites`; `vascular endothelium`; `mesothelium abdominal cavity`; `simple squamous exchange movement`) | new externally; exact prior-FHB duplicate. |
+| Q3,Q9 | Pseudostratified ciliated respiratory epithelium (`pseudostratified ciliated columnar epithelium trachea`; `tracheal respiratory epithelium`; `all cells basement membrane pseudostratified`; `pseudostratified goblet cells`) | pending-hit; exact prior-FHB duplicate. |
+| Q4,Q20–Q21 | Epithelial layer classification, origin and vascular/basement-membrane characteristics (`epithelium layer classification`; `epithelium three germ layers`; `epithelium avascular basement membrane`; `general epithelial characteristics`) | new externally; exact prior-FHB duplicate. |
+| Q5,Q11,Q13 | Stratified-squamous sites and protective function (`stratified squamous epithelium protection`; `epidermis keratinized epithelium`; `esophagus nonkeratinized epithelium`; `stratified epithelial function`) | pending-hit; exact prior-FHB duplicate. |
+| Q6,Q14,Q18,Q23 | Simple-columnar gastrointestinal/uterine sites, function and nuclear morphology (`simple columnar epithelium gastrointestinal`; `simple columnar secretion absorption`; `uterus ciliated columnar epithelium`; `simple columnar basal oval nuclei`) | new externally; exact prior-FHB duplicate. |
+| Q10,Q17,Q24 | Simple-cuboidal kidney/thyroid sites and nuclear morphology (`simple cuboidal kidney tubules`; `thyroid follicle cuboidal epithelium`; `simple cuboidal central nucleus`; `cuboidal epithelium sites`) | new externally; exact prior-FHB duplicate. |
+| Q12,Q22 | Taste-bud neuroepithelium and supporting cells (`taste bud neuroepithelium`; `neuroepithelium supporting cells`; `sensory epithelium taste bud`; `neuroepithelial cell types`) | pending-hit; exact prior-FHB duplicate. |
+
+The source search disposition is **0 live / 3 pending / 5 new = 8 handles**. All eight are exact prior-FHB scope reuse, so the post-prior result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+25 questions / +25 directly printed answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3297 | 3031 | 432 | 66 | 84 | 282 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 282 = 432`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **60 selected inventory paths / 58 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `e41069abd74f8c0ee06c06435cf875c803775eb66ddf7894b066a8a6d9410eb4`. Pinned triage debt becomes **17 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`48 + 58 = 106`**.
+
+The next evidence-ranked substantive source is the single nine-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology MCQs by DR.KANDEEL.pdf`, SHA-256 `72f19c349bd5817ad84d61737cbc63cf844da772ecc71f1db3943853ade961cd`.
+
+**BLOCKED — S1 cannot be approved:** 60 selected source paths remain untriaged.
