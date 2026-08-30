@@ -3637,3 +3637,41 @@ Removing the ninety processed unique hashes leaves **11 selected inventory paths
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary LNS.pdf`, SHA-256 `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271`, 2 pages.
 
 **BLOCKED — S1 cannot be approved:** 11 selected inventory paths / 11 unique hashes remain untriaged.
+
+## Completed teaching-only source — Axillary LNS
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary LNS.pdf` | `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271` | 2 | audit-not-found inventory label | pages 1–2 rendered and read | Both pages are visibly signed `Nawar` and watermarked `Scanned with CamScanner`. Metadata identifies CamScanner as title, subject and author and iOS 17.5.1 Quartz as producer on 27 October 2024. No institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary LNS.pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+Both scanned notebook pages are teaching notes about the five axillary lymph-node groups. Page 1 names and positions the anterior/pectoral, posterior/subscapular, lateral/brachial-humeral, central and apical groups in two already labeled diagrams and supplies their locations. Page 2 uses two already labeled diagrams to describe afferent flow among the groups, central-to-apical drainage and the subclavian lymph trunk's terminal drainage.
+
+The exact boundary is **2 teaching-only pages / 5 lymph-node group profiles / 4 labeled teaching diagrams / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. The page-1 shorthand `? Location`, `? Afferent` and `? Efferent` is followed by supplied explanatory notes and functions as a study organizer rather than a learner-response instruction. All figures disclose their labels and arrows, so none is a practical station.
+
+### Authority, source truth and search gate
+
+The visible signature supports Nawar learner-note authorship only. CamScanner and iOS Quartz metadata do not authenticate a MUST/MSK institution, department, examiner, sitting, marks or official assessment key. Handwritten spelling, abbreviations and selective drainage claims remain uncorrected source observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Teaching-only diagrams are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-one processed unique hashes leaves **10 selected inventory paths / 10 unique SHA-256s**. Their sorted, newline-joined hash checksum is `bd4c2f0af06ff1fe9b68d226ada24125cd1f044d832092c7223623b39e8d6593`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 10 audit-not-found rows, and unique-hash accounting is **`91 + 10 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Injuries brachial plexus (By Yumna).pdf`, SHA-256 `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 10 selected inventory paths / 10 unique hashes remain untriaged.

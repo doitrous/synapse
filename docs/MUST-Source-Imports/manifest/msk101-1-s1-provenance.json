@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "f086994f4d721342f23471cacdf663c7dcc740db0fac05eb29e7c22ae9c877c3",
-    "triageMarkdown": "da994f4823eb9a29d3628a37eed92f32b89f69a1f6de45048dab4bd1e0f06fa0"
+    "readinessMarkdown": "803841ffb02dae8a16073b179b8d03cf4e453a79895d9b387143eb91c6161565",
+    "triageMarkdown": "f3fb26695ef2b1de4aeae2483d07dfc7a3190e69339e54304c092f69dbcee7bd"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -127,6 +127,7 @@
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
       "ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b",
       "ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9",
+      "ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271",
       "d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c",
       "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
       "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
@@ -142,7 +143,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 90
+    "uniqueSha256": 91
   },
   "completedSourceCoverage": [
     {
@@ -2928,6 +2929,39 @@
         "handwritten spelling and selective anatomy statements remain source observations rather than endorsed corrections",
         "arrows, asterisks and already labeled diagrams are teaching annotations and are not manufactured into practical prompts"
       ]
+    },
+    {
+      "sha256": "ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271",
+      "sourcePages": 2,
+      "renderedReadPages": "1-2",
+      "teachingPages": "1-2",
+      "axillaryLymphNodeGroups": 5,
+      "labeledTeachingDiagrams": 4,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "visibly signed Nawar handwritten teaching notes scanned with CamScanner and produced through iOS 17.5.1 Quartz on 27 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "two teaching-only notebook pages describe the anterior, posterior, lateral, central and apical axillary lymph-node groups through four already labeled diagrams plus supplied location, afferent, efferent and terminal-drainage notes; question-mark shorthand organizes the notes but is followed by explanatory content and creates no objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "handwritten spelling, abbreviations and selective drainage claims remain uncorrected source observations",
+        "question marks before Location, Afferent and Efferent function as study-note headings rather than response instructions",
+        "arrows and fully labeled diagrams are teaching annotations and are not manufactured into practical prompts"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2939,20 +2973,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 11,
-    "uniqueSha256": 11,
-    "sortedNewlineSha256": "37da4434f32e01b25afae8f3a854d0e4b98df074c4eca47cfcbbfa1c82b0a2c3",
+    "inventoryMetadataRows": 10,
+    "uniqueSha256": 10,
+    "sortedNewlineSha256": "bd4c2f0af06ff1fe9b68d226ada24125cd1f044d832092c7223623b39e8d6593",
     "auditSampleStatusCounts": {
-      "audit-not-found": 11
+      "audit-not-found": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 11
+    "audit-not-found": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 90,
-    "remainingUniqueSha256": 11,
+    "processedUniqueSha256": 91,
+    "remainingUniqueSha256": 10,
     "processedPlusRemaining": 101
   }
 }
