@@ -5894,3 +5894,65 @@ Removing this one substantive-text path and unique hash leaves **27 selected inv
 The next evidence-ranked substantive source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/solo mcqs histology.pdf`, SHA-256 `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`, 18 pages.
 
 **BLOCKED — S1 cannot be approved:** 27 selected source paths remain untriaged.
+
+## Completed source — solo mcqs histology
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/solo mcqs histology.pdf` | `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd` | 18 | substantive-text | pages 1–18 rendered and read | Microsoft Word 2016 PDF metadata names `200033293-mostafa rabea alsayd hafez`; the file was created 31 October 2024 and re-produced through iLovePDF. Every page is branded `Solo Team`, and the first page literally retains `Sure thing! Here are the numbered MCQs:` plus Markdown-style headings and option bullets. It prints no institution, department, sitting, marks or official-paper/key claim. It is a peer-produced revision compilation, not an official MUST examination. |
+
+### Exact prompt, key and orphan boundary
+
+Pages 1–4 print `Introduction to Microscopy and Histology` Q1–Q20; pages 5–10 print `Cytology` Q21–Q50; pages 11–18 print `Connective Tissue` Q51–Q87. The source therefore contains **87 text-only four-option MCQ prompt occurrences**. No option is visually selected on the question pages.
+
+Page 18 prints a terminal `Answers / Connective tissue` list for Q51–Q87 only: **37 printed key observations**. Q51–Q80 and Q82–Q87 contain answer letters and yield 36 unambiguous prompt matches. Q81 refers to `the disease in the previous case`, but Q80 is a stand-alone yellow-elastic-connective-tissue item and no disease case is printed; the key itself records `81. No case`. That observation does not select any of Q81's options and is not counted as a recovered answer. Q1–Q50 have no printed key or marked answer.
+
+The exact boundary is therefore **87 prompts / 37 printed key observations / 36 prompt-matched recovered answers**. Q81 is retained as a structurally orphaned prompt, not silently repaired from outside knowledge. There is no practical image, written/essay prompt, teaching-only passage or answer exposition. No answer was inferred or corrected.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+The 86 interpretable prompt occurrences were assigned once to the 21 handles below. Each accepted handle received four identifying searches, for **21 × 4 = 84 searches**. Q81 is outside this concept inventory because its absent antecedent prevents a source-grounded tested proposition.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1–Q8,Q13–Q18 | Fixation, dehydration, clearing, paraffin/freezing and routine tissue processing (`histology fixation dehydration clearing`; `paraffin freezing technique`; `routine tissue processing`; `formalin xylol histology`) | new externally; exact prior-FHB histotechnology reuse. |
+| Q8–Q10,Q19,Q21 | H&E/PAS/Sudan staining of glycogen, fat and membrane (`H&E PAS Sudan histology`; `glycogen freezing section`; `fat Sudan III stain`; `cell membrane osmium demonstration`) | new externally; exact prior-FHB histochemical-stain reuse. |
+| Q1,Q3,Q11–Q12,Q15,Q17,Q20 | Microscope resolution/magnification, scanning EM and metric conversion (`microscope resolution magnification`; `scanning EM three dimensional`; `micrometer nanometer conversion`; `light microscope 0.2 micrometer`) | new externally; exact prior-FHB microscopy reuse. |
+| Q21–Q24,Q33,Q44 | Membrane/glycocalyx proteins, receptors and pinocytosis (`cell membrane glycocalyx receptor`; `pinocytosis fluid droplets`; `integral transmembrane protein`; `growth hormone receptor dwarfism`) | pending-hit; exact prior-FHB membrane/transport/receptor reuse. |
+| Q25,Q35,Q46 | Lysosome biogenesis, autolysosomes and storage dysfunction (`lysosome rER Golgi formation`; `autolysosome old organelle`; `lysosomal storage nervous system`; `primary lysosome fusion`) | pending-hit; exact prior-FHB lysosome reuse. |
+| Q26,Q29,Q38,Q42 | Golgi appearance, staining, cisternae and membrane renewal (`Golgi negative image plasma cell`; `Golgi silver stain`; `Golgi cell membrane renewal`; `Golgi parallel cisternae`) | new externally; exact prior-FHB Golgi reuse. |
+| Q27–Q28,Q34,Q36 | Mitochondrial genome/inheritance, elementary particles and division (`mitochondrial DNA RNA inheritance`; `mitochondrial defect maternal transmission`; `elementary particles inner membrane`; `mitochondria self division`) | new externally; exact prior-FHB mitochondrial reuse. |
+| Q30–Q32,Q40,Q43 | Rough ER/ribosomes, cytoplasmic basophilia and protein segregation (`rough ER protein forming cell`; `ribosome cytoplasmic basophilia`; `rough ER protein segregation`; `localized basophilia rER`) | pending-hit; exact prior-FHB rER/ribosome reuse. |
+| Q37,Q39,Q41,Q45 | Smooth-ER detoxification, steroids, contraction and membrane renewal (`smooth ER detoxification`; `smooth ER steroid hormones`; `smooth ER muscle contraction`; `smooth ER cell membrane renewal`) | new externally; exact prior-FHB smooth-ER reuse. |
+| Q47–Q48 | Peroxisomal enzyme synthesis and deficiency effects (`peroxisome free ribosome enzymes`; `peroxisomal enzyme deficiency liver`; `peroxisome catalase peroxide`; `peroxisome biogenesis`) | new externally; exact prior-FHB peroxisome reuse. |
+| Q49–Q50 | Microtubule diameter, tubulin and protofilaments (`microtubule alpha beta tubulin`; `microtubule diameter 24 nm`; `microtubule protofilaments`; `cytoskeleton intracellular transport`) | pending-hit; exact prior-FHB microtubule reuse. |
+| Q51–Q52,Q55–Q57 | Fixed/free connective-tissue cells, UMCs and pericytes (`connective tissue free fixed cells`; `undifferentiated mesenchymal cell ribosomes`; `pericyte injury fibroblast`; `pericyte actin myosin`) | new externally; exact prior-FHB connective-tissue-cell reuse. |
+| Q53,Q58,Q65,Q70 | Fibrocyte/fibroblast morphology and fibre formation (`fibrocyte spindle few processes`; `fibroblast connective tissue proper`; `fibroblast collagen elastic fibers`; `fibroblast pale basophilic cytoplasm`) | new externally; exact prior-FHB fibroblast/fibrocyte reuse. |
+| Q54,Q59,Q62,Q73–Q74 | White/brown adipocytes, leptin and adipose functions/sites (`unilocular multilocular adipocyte`; `brown adipose cytochrome`; `adipocyte leptin hormone`; `white adipose heat insulation`) | new externally; exact prior-FHB adipocyte/adipose reuse. |
+| Q60–Q61 | Histiocyte and reticular-cell morphology (`histiocyte pseudopodia`; `reticular cell pale basophilic cytoplasm`; `connective tissue macrophage morphology`; `reticular cell stroma`) | new externally; exact prior-FHB histiocyte/reticular-cell reuse. |
+| Q63–Q64,Q82–Q86 | Plasma/mast cells, metachromasia, histamine and immediate allergy (`plasma cell clock face nucleus`; `mast cell metachromasia toluidine blue`; `mast cell histamine allergy`; `peanut allergy mast cell`) | pending-hit; exact prior-FHB plasma/mast-cell hypersensitivity reuse. |
+| Q66–Q67 | Collagen fibres and scurvy (`collagen fiber fibroblast`; `scurvy defective collagen synthesis`; `collagen fiber boiling`; `collagen type I connective tissue`) | new externally; exact prior-FHB collagen/scurvy reuse. |
+| Q68–Q70 | Elastic/reticular fibre properties, stains and collagen III (`elastic fiber orcein brown`; `reticular fiber collagen III`; `elastic fiber fibroblast`; `reticular fiber silver stain`) | new externally; exact prior-FHB elastic/reticular-fibre reuse. |
+| Q71–Q72,Q75–Q76 | Loose areolar, reticular and mucoid connective tissues (`loose areolar connective tissue`; `reticular connective tissue silver`; `mucoid connective tissue vitreous`; `connective tissue types sites`) | new externally; exact prior-FHB connective-tissue-type reuse. |
+| Q77–Q80 | White-fibrous and yellow-elastic connective-tissue distribution (`white fibrous connective tissue`; `regular irregular dense connective tissue`; `yellow elastic connective tissue aorta`; `tendon ligament sclera connective tissue`) | new externally; exact prior-FHB connective-tissue-type/site reuse. |
+| Q87 | Ground substance as a barrier to spread of acute infection (`ground substance infection barrier`; `acute pyogenic infection ground substance`; `connective tissue protective barrier`; `ground substance spread infection`) | new externally; exact prior-FHB ground-substance/pyogenic-response reuse. |
+
+The source-level search split is **0 live / 5 pending / 16 new = 21 accepted handles**. Every accepted handle reproduces a completed prior-FHB assignment, while Q81 cannot support a source-grounded concept. The post-prior result is therefore **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+87 questions / +36 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 6998 | 6583 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **26 selected inventory paths / 26 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `a03f7a34c7cde9f5d5b59e4b11090d250edccf5d845b9e101617abc735cae2f7`. Pinned triage debt becomes **zero substantive-text / five sparse-text / 21 empty-text** rows, and unique-hash accounting is **`80 + 26 = 106`**.
+
+The next evidence-ranked assessment-titled source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology (Cytology) MCQs.pdf`, SHA-256 `93cd4d818d9285c05ebed927fe56494f74b63226913616f1016c9bb03c4bd462`, 11 pages.
+
+**BLOCKED — S1 cannot be approved:** 26 selected source paths remain untriaged.
