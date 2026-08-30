@@ -7250,3 +7250,145 @@ The next manifest-ordered unprocessed BMS-102 record is tier-4
 Bacterial Physiology & Metabolism`. Its unread teaching/prompt/answer and full-deck relationship
 to the Family-14 screenshot fragment are the next-source processing blockers: fully render and
 visually adjudicate the complete source before admitting any count.
+
+## Family 65 — tier-4 Helwan bacterial-physiology full lecture carrier
+
+### Source identity, complete visual boundary, and answer convention
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_77aa66ea23a10b6015fd` · `lec2 bacterial physiology and metabolism.pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 2 - Bacterial Physiology & Metabolism/lec2 bacterial physiology and metabolism.pdf` |
+| SHA-256 / size | `77aa66ea23a10b6015fdd0fdc7f575139851821dc0042e9db1f7e87c8af717f4` · 12,562,040 bytes |
+| Format / read boundary | 28 native-text landscape 960×540-point pages; native text extracted, all 28 pages rendered at 120 dpi and read in four ordered contact sheets, and pp. 8, 11, 15, 23, and 26 reopened at full-page resolution |
+| Provenance | `Bacterial physiology and metabolism`, attributed on the Helwan University Faculty of Medicine cover to Reem Abdelrahman, Lecturer of Microbiology and Immunology, with visible year `2021` |
+| Authority | Tier-4 local theoretical teaching deck; no examiner, sitting, marks, candidate instructions, response form, departmental question-bank designation, or official exam-key section |
+
+The source contains five discrete recap/exercise slides. Completion blanks and true/false
+parentheses without a marked response remain unkeyed even when earlier lecture material teaches
+the proposition. Page 15 instead prints three green explanatory blocks immediately below three
+`Explain the following` prompts, so those are three printed teaching-answer occurrences. Page 23
+uses a stable source-native red underline convention across all four MCQs: three underlines mark
+the correct option text, while the fourth emphasizes the answer-defining `complete absence of
+oxygen` phrase beside the obligate-anaerobe options. Those four are printed teaching reveals,
+not an official exam key. Declarative slides, diagrams, the p. 27 `Any questions?` audience
+closing, and p. 28 thanks are not assessment prompts.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–3 | Helwan cover, objectives, and topic map | provenance/teaching only; **0 / 0** |
+| 4–7 | binary fission, reproduction sequence, and doubling-time definition/range | declarative teaching only; **0 / 0** |
+| 8 | Two completion prompts: bacterial reproduction and doubling-time definition/range | **2 / 0** |
+| 9–10 | growth-curve setup and four phase definitions | declarative teaching only; **0 / 0** |
+| 11 | Four unmarked growth-phase true/false prompts | **4 / 0** |
+| 12–14 | metabolism, extracellular breakdown/uptake, oxidation, respiration, and fermentation | declarative teaching only; **0 / 0** |
+| 15 | Three `Explain the following` prompts with three immediate green explanations | **3 / 3** |
+| 16–22 | nutrition, growth factors, gaseous requirements, oxygen classes, and tube diagram | declarative teaching only; **0 / 0** |
+| 23 | Four oxygen-class MCQs with the source-native red teaching-reveal convention | **4 / 4** |
+| 24–25 | carbon-dioxide, pH, and temperature teaching | declarative teaching only; **0 / 0** |
+| 26 | Three unmarked carbon-dioxide/pH/temperature true/false prompts | **3 / 0** |
+| 27–28 | `Any questions?` audience slide and multilingual thanks | closing only; **0 / 0** |
+
+The complete source therefore contains **16 prompt occurrences / 7 printed teaching-answer
+occurrences / 9 unkeyed prompt occurrences**. There are zero literal prompt copies, zero semantic
+collapses, zero cropped/incomplete prompts, **16 retained records**, and **16 source-distinct
+tested handles**.
+
+### Prompt, answer, carrier relationship, and prior-BMS assignment
+
+| Ref | Page | Complete source-tested scope / printed answer | Handle / prior assignment |
+|---|---:|---|---|
+| F65-Q01 | 8 | Process by which bacteria reproduce; unkeyed completion | `bacterial-reproduction-binary-fission` · exact Family 14 Q01 / Family 36 Q01 reuse |
+| F65-Q02 | 8 | Doubling-time definition and 20-minute-to-over-24-hour range; unkeyed completion | `bacterial-doubling-time-definition-and-range` · exact Family 14 Q02 / Family 36 Q02 reuse |
+| F65-Q03 | 11 | Lag phase is first and has no cell division; unkeyed T/F | `bacterial-growth-curve-lag-no-division` · exact Family 14 Q03 / Family 36 Q03 reuse |
+| F65-Q04 | 11 | Log phase does not have balanced births/deaths and a constant population; unkeyed T/F | `bacterial-growth-curve-log-rapid-net-growth` · exact Family 14 Q04 / Family 36 Q04 reuse |
+| F65-Q05 | 11 | Stationary phase does not have rapid steadily increasing division; unkeyed T/F | `bacterial-growth-curve-stationary-balanced-population` · exact Family 14 Q05 / Family 36 Q05 reuse |
+| F65-Q06 | 11 | Decline phase has death exceeding multiplication and decreasing viable count; unkeyed T/F | `bacterial-growth-curve-decline-death-exceeds-growth` · exact Family 14 Q06 / Family 36 Q06 reuse |
+| F65-Q07 | 15 | Why facultative bacteria grow faster with oxygen; Krebs cycle produces more ATP than glycolysis | `facultative-anaerobe-aerobic-growth-energy-advantage` · exact Family 36 E01 reuse |
+| F65-Q08 | 15 | Why facultative/anaerobic bacteria ferment while aerobes do not; fermentation without oxygen versus pyruvate entering Krebs with oxygen | `bacterial-fermentation-versus-aerobic-oxygen-conditions` · exact Family 36 E02 reuse |
+| F65-Q09 | 15 | Why sugar fermentation identifies pathogens; pyruvate/lactate acidifies medium and is detected by pH indicator | `sugar-fermentation-acid-detection-for-identification` · exact Family 36 E03 reuse |
+| F65-Q10 | 23 | Bacteria that grow only with oxygen; C · obligate aerobes | `obligate-aerobe-oxygen-requirement` · exact Family 14 Q07 / Family 36 Q07 reuse |
+| F65-Q11 | 23 | Microaerophiles need oxygen below atmospheric tension; B | `microaerophile-low-oxygen-tension` · exact Family 14 Q08 / Family 36 Q09 reuse |
+| F65-Q12 | 23 | Aerotolerant bacteria ferment but tolerate oxygen through SOD; D | `aerotolerant-fermentation-oxygen-tolerance-sod` · exact Family 14 Q09 / Family 36 Q08 reuse |
+| F65-Q13 | 23 | Bacteria growing only in complete oxygen absence; A · obligate anaerobes | `obligate-anaerobe-oxygen-absence` · exact Family 14 Q10 / Family 36 Q10 reuse |
+| F65-Q14 | 26 | Certain bacteria require 5–20% carbon dioxide; unkeyed T/F | `bacterial-high-co2-growth-requirement` · exact Family 14 Q11 reuse |
+| F65-Q15 | 26 | Most pathogenic bacteria grow at pH 7.2–7.6; unkeyed T/F | `pathogenic-bacteria-optimum-ph-range` · exact Family 14 Q12 reuse |
+| F65-Q16 | 26 | Optimum bacterial growth occurs at 37°C; unkeyed T/F | `pathogenic-bacteria-optimum-growth-temperature` · exact Family 14 Q13 reuse |
+
+This PDF is the complete underlying lecture for the four Family-14 screenshot pages. The full
+carrier proves that Family-14 slide 23's red underlines are embedded in the source; Family 65
+therefore counts four printed teaching reveals. The blue freehand fill-ins/checks/crosses visible
+only in Family-14 screenshots of slides 8, 11, and 26 are absent from the carrier and remain
+source-local unproven annotations. Family 14's zero-printed-answer ruling is not retroactively
+changed. Family 36's twelve-page lecture-note derivative already carried the first 13 scopes
+(pp. 8, 11, 15, and 23); the remaining p. 26 scopes were already captured by Family 14. Thus all
+16 handles are prior exact BMS-102 reuses.
+
+### Four-query search register and exact-scope adjudication
+
+All 16 handles received exactly four fresh source-first searches across live state, every pending
+import root, and prior BMS-102 evidence: **64 required searches**. Reopened dispositions remain
+**0 live / 6 pending / 10 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacterial-reproduction-binary-fission` · Q01 | `bacteria reproduce binary fission`; `bacterial reproduction process`; `binary fission bacteria`; `bacterial cell division name` | no same-scope | exact F14/F36 reuse |
+| `bacterial-doubling-time-definition-and-range` · Q02 | `bacterial doubling time definition`; `time required bacteria double number`; `bacterial doubling time 20 minutes 24 hours`; `range bacterial generation time` | no same-scope | exact F14/F36 reuse |
+| `bacterial-growth-curve-lag-no-division` · Q03 | `lag phase no cell division`; `bacterial growth curve lag phase`; `lag adaptation without division`; `lag versus stationary phase` | pending `CON-INF-6D56F46B5F1EF4` | exact F14/F36 reuse |
+| `bacterial-growth-curve-log-rapid-net-growth` · Q04 | `log phase rapid bacterial division`; `exponential growth increasing cell number`; `log phase dying equals formed false`; `bacterial growth curve logarithmic phase` | no same-scope | exact F14/F36 reuse |
+| `bacterial-growth-curve-stationary-balanced-population` · Q05 | `stationary phase equal growth death`; `stationary bacterial population constant`; `bacterial growth curve balanced phase`; `stationary phase not rapid increase` | pending `CON-INF-6D56F46B5F1EF4` | exact F14/F36 reuse |
+| `bacterial-growth-curve-decline-death-exceeds-growth` · Q06 | `decline phase death exceeds multiplication`; `bacterial death phase viable count decreases`; `growth curve decline phase`; `dying bacteria exceed formed cells` | no same-scope | exact F14/F36 reuse |
+| `facultative-anaerobe-aerobic-growth-energy-advantage` · Q07 | `facultative anaerobes aerobic respiration`; `facultative bacteria oxygen ATP`; `Krebs cycle glycolytic cycle bacteria`; `facultative anaerobes grow faster oxygen` | no same-scope | exact Family 36 E01 reuse |
+| `bacterial-fermentation-versus-aerobic-oxygen-conditions` · Q08 | `facultative anaerobes fermentation oxygen`; `aerobes fermentation absence oxygen`; `pyruvate Krebs cycle oxygen bacteria`; `bacterial fermentation oxygen conditions` | no same-scope | exact Family 36 E02 reuse |
+| `sugar-fermentation-acid-detection-for-identification` · Q09 | `sugar fermentation clinical identification`; `bacterial fermentation pH indicator`; `pyruvate lactate pH indicator bacteria`; `sugar fermentation acidic medium detection` | no same-scope | exact Family 36 E03 reuse |
+| `obligate-aerobe-oxygen-requirement` · Q10 | `obligate aerobes require oxygen`; `bacteria grow only presence oxygen`; `oxygen requirement bacterial classification`; `obligate aerobic growth` | pending `CON-INF-D31966C6CEF85C` | exact F14/F36 reuse |
+| `microaerophile-low-oxygen-tension` · Q11 | `microaerophile low oxygen tension`; `microaerophile below atmospheric oxygen`; `trace oxygen bacterial growth`; `microaerophilic bacteria definition` | pending `CON-INF-D31966C6CEF85C` | exact F14/F36 reuse |
+| `aerotolerant-fermentation-oxygen-tolerance-sod` · Q12 | `aerotolerant fermentative metabolism oxygen`; `aerotolerant bacteria superoxide dismutase`; `oxygen tolerant anaerobic metabolism`; `aerotolerant definition bacteria` | no same-scope | exact F14/F36 reuse |
+| `obligate-anaerobe-oxygen-absence` · Q13 | `obligate anaerobes complete absence oxygen`; `bacteria grow only without oxygen`; `oxygen toxic obligate anaerobe`; `obligate anaerobic growth` | pending `CON-INF-D31966C6CEF85C`, supported by `CON-INF-2E9D6F833A7D5E` | exact F14/F36 reuse |
+| `bacterial-high-co2-growth-requirement` · Q14 | `bacteria require 5-20 percent CO2`; `capnophilic increased carbon dioxide`; `high CO2 bacterial growth`; `bacterial CO2 requirement` | pending `CON-INF-3D845DC6B07880` | exact Family 14 Q11 reuse |
+| `pathogenic-bacteria-optimum-ph-range` · Q15 | `pathogenic bacteria pH 7.2-7.6`; `bacterial optimum pH range`; `narrow pH pathogenic species`; `bacterial growth neutral pH` | no same-scope | exact Family 14 Q12 reuse |
+| `pathogenic-bacteria-optimum-growth-temperature` · Q16 | `optimum bacterial growth 37 C`; `pathogenic bacteria body temperature`; `bacterial growth temperature 37 degrees`; `mesophilic pathogen optimum temperature` | no same-scope | exact Family 14 Q13 reuse |
+
+All **16** source handles are exact prior-BMS reuses, so **16 - 16 = +0 concepts**.
+
+| Measure | Family 65 | Auxiliary cumulative (Families 12–65) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 16 | 624 | 765 | 1,389 |
+| Printed teaching-answer occurrences | 7 | 336 | 405 | 741 |
+| Unkeyed prompt occurrences | 9 | — | — | tracked separately |
+| Retained question records | 16 | 598 | 552 | 1,150 |
+| Source-distinct tested handles / required searches | 16 / 64 | 565 / — | — | — |
+| External live / pending / no same-scope | 0 / 6 / 10 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 16 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +410 over primary | 372 | `372 + 410 = 782` |
+| **Distinct tested concepts** | **+0** | **410 auxiliary additions** | **372** | **782** |
+
+The checksum closes without remainder: prompt starts are `2 + 4 + 3 + 4 + 3 = 16`; printed
+teaching answers are `3 immediate explanations + 4 red teaching reveals = 7`, leaving `16 - 7
+= 9` unkeyed occurrences; retention is `16 - 0 copies = 16`; handle assignment is `16 - 0
+semantic reductions = 16`; searches are `16 × 4 = 64`; external disposition is `0 + 6 + 10
+= 16`; and concept arithmetic is `16 - 16 prior exact reuses = 0`. Auxiliary cumulative
+arithmetic is `608 + 16 = 624` prompts, `329 + 7 = 336` answers, `582 + 16 = 598`
+retained records, `549 + 16 = 565` source handles, and `410 + 0 = 410` concept additions.
+All eligible arithmetic is `765 + 624 = 1,389`, `405 + 336 = 741`, `552 + 598 = 1,150`,
+and `372 + 410 = 782`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**624 / 336 / 598 / 565 / +410**; and all eligible evidence is
+**1,389 / 741 / 1,150 / 782**. This lecture contributes local teaching and recap evidence only;
+it cannot raise exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 65
+
+`src_77aa66ea23a10b6015fd` is exhausted across all 28 pages: every provenance/objective/closing
+page, declarative teaching slide, prompt, immediate explanation, red teaching reveal, unkeyed
+blank, Family-14 screenshot relationship, Family-36 derivative relationship, retained record,
+handle, search row, external disposition, and prior-BMS reuse is assigned once, with **zero source
+remainder** and no Family-65 blocker. The next manifest-ordered unprocessed BMS-102 record is
+tier-4 `src_bd6d792541ed79e0e692` · `-Antimicrobial chemotherapy.pdf`, SHA-256
+`bd6d792541ed79e0e692652157092fec0c7ee969a0b225e10155b2364a0010a8`, 1,799,842 bytes,
+46 native-text landscape US-letter pages under `Microbiology / Theoretical / Lec 3 -
+Antimicrobials`. The manifest path retains a stale leading hyphen; the SHA-matching local file is
+`Antimicrobial chemotherapy.pdf`. Its unread teaching/prompt/answer and preferred-name-twin
+boundary is the next-source processing blocker: fully render and visually adjudicate the complete
+source before admitting any count.
