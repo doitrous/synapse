@@ -6865,6 +6865,7 @@ between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 re
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
 
+
 ## Family 57 — Tier-4 Histology cartilage lecture with one unkeyed self-test MCQ
 
 ### Source identity, authority and full boundary
@@ -8093,3 +8094,133 @@ filename omits one of the manifest's two spaces after `103`. Tier-6 and rank-9 s
 between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 66 — Tier-4 Pathology theoretical Soft Tissue Tumours teaching-only lecture
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_237f83bb42bf143fefdf` |
+| File / SHA-256 | manifest `103  (4) Soft Tissue Tumors.pdf`; local normalized `103 (4) Soft Tissue Tumors.pdf` / `237f83bb42bf143fefdfd1bb5be5fefda31fa451da2ae98c4c71944c852a312a` |
+| File boundary | 1,870,745 bytes · unencrypted PDF · 29 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Pathology · Theoretical · `Lec 3 - Soft Tissue Lesions & Tumors` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Pathology/Theoretical/Lec 3 - Soft Tissue Lesions & Tumors/103 (4) Soft Tissue Tumors.pdf` |
+| Visible provenance | p. 1 prints `SOFT TISSUE TUMORS` and `DR HEBAT ALLAH AMIN`; metadata instead records title `PowerPoint Presentation` and author `Yahya M. Yahya`, with Microsoft PowerPoint for Microsoft 365 creator/producer; p. 28 cites WebPath, the Helwan Locomotor Bank and Robbins & Cotran |
+| Authority finding | Manifest/path-placed local module theoretical teaching evidence. It is not a recoverable sitting, department question bank, response form, practical station or official answer key. The p. 28 self-study/assessment repository reference does not turn this deck into assessment evidence. |
+
+The assigned SHA-256, byte size and 29-page boundary were recomputed and match the source.
+All 29 pages were rendered at 160 dpi and read against the complete native text layer; all
+29 complete-page renders have distinct SHA-256 values. Page 1 is the title/provenance slide;
+pp. 2–19 are declarative soft-tissue-tumour teaching; p. 20 is a `Diagnosis!!!` section
+divider; p. 21 supplies declarative immunohistochemical diagnostic guidance; pp. 22–27 are
+declarative bone-tumour recap/extension teaching; p. 28 is the reference slide; and p. 29 is
+the closing slide.
+
+The gross specimens and photomicrographs on pp. 8–19 and 26 are simultaneous declarative
+teaching because the source prints the disease/category and findings on the same page. Pages
+24 and 25 reuse the same four-pattern periosteal-reaction graphic, but p. 25 adds a title and
+Helwan marks; the two complete-page renders are distinct while the repeated embedded graphic
+is collapsed at scope grain. Page 27 is a summary composition that repeats earlier taxonomy
+and contributes no separate scope. Page 20 contains only a divider heading and emoji, not a
+target case, specimen or learner response request; p. 21 immediately follows with teaching
+statements rather than an answer reveal. No page contains an option set, question stem,
+response line, answer, tick, highlight, masked label or practical station instruction.
+
+The complete source boundary is therefore **25 theoretical teaching compositions / 0
+assessment prompt occurrences / 0 printed keys / 0 practical or station prompts / 0 practical
+teaching plates / 0 practical mappings / 0 masked or unresolved practical callouts**. No
+diagnosis or image identity is inferred beyond the source's printed labels.
+
+### Complete teaching and assessment inventory
+
+| Physical pages | Source-first composition | Teaching compositions | Assessment / key boundary |
+|---:|---|---:|---:|
+| 2–7 | objectives, tissue origins, `-oma`/sarcoma nomenclature, benign/malignant behaviour and category taxonomy | 6 | 0 |
+| 8–9 | lipoma and liposarcoma gross/microscopic teaching | 2 | 0 |
+| 10–12 | fibroma, fibromatosis and fibrosarcoma gross/microscopic teaching | 3 | 0 |
+| 13–16 | peripheral-nerve, benign and malignant smooth-muscle, and rhabdomyosarcoma teaching | 4 | 0 |
+| 17–19 | hemangioma, angiosarcoma and synovial-sarcoma teaching | 3 | 0 |
+| 21 | immunohistochemical diagnostic-adjunct teaching | 1 | 0 |
+| 22–27 | bone-tumour frequency/classification table, periosteal-reaction patterns, osteoid-osteoma/osteoblastoma comparison and summary | 6 | 0 |
+| **Total** | **complete in-scope content boundary** | **25** | **0 prompts / 0 keys** |
+
+The complete physical-page arithmetic is **29 = 4 title/divider/reference/closing pages + 25
+teaching compositions + 0 assessment pages**. The 25 teaching occurrences contain no exact
+complete-page copy; the repeated pp. 24–25 embedded periosteal graphic and p. 27 summary are
+retained as source occurrences but collapsed in the scope ledger.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The 25 teaching compositions consolidate to 17 source-level theoretical scopes. Scope collapse
+does not delete page, gross-image, micrograph, label or source-wording evidence.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `soft-tissue-tumor-origin-classification-nomenclature-and-behavior` · pp. 2–7, 27 | soft tissue tumor tissue origins; oma benign sarcoma malignant; benign soft tissue tumor behavior; malignant soft tissue tumor hematogenous metastasis | accepted Family-12 tissue-origin, benign-characteristics and malignant-enumeration evidence owns the core — prior LCS reuse |
+| `lipoma-gross-and-mature-adipocyte-morphology` · p. 8 | lipoma encapsulated yellow greasy mass; lipoma mature adipocytes; common soft tissue tumor adults; benign adipose tumor morphology | exact accepted Family-18/20 lipoma clinicopathologic evidence owns the core — prior LCS reuse |
+| `liposarcoma-adult-retroperitoneal-lipoblast-pattern` · p. 9 | liposarcoma retroperitoneum adults; lipoblast hyperchromatic nucleus; liposarcoma mature adipocytes spindle cells; deep soft tissue liposarcoma | exact accepted Family-20 liposarcoma clinicopathologic handle owns the core — prior LCS reuse |
+| `fibroma-bland-spindle-cell-morphology` · p. 10 | fibroma bland spindle cells; benign fibroblast tumor; finger fibroma histology; circumscribed fibrous tumor | accepted Family-20 bland-fibrous-mass differential owns the source's benign fibroblastic/spindle-cell core — prior LCS reuse |
+| `fibromatosis-locally-aggressive-infiltrative-fibroblasts` · p. 11 | fibromatosis locally aggressive; fibromatosis infiltrative borders; desmoid bland spindle cells; fibroblastic tumor local aggression | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `fibrosarcoma-hemorrhagic-herringbone-spindle-pattern` · p. 12 | fibrosarcoma herringbone pattern; malignant fibroblast spindle cells; fibrosarcoma hemorrhagic cut surface; fibrosarcoma morphology | live fibrosarcoma material and exact accepted Family-17/20 handle own the herringbone spindle-cell core — live; prior LCS reuse |
+| `schwannoma-neurofibroma-circumscribed-wavy-spindle-pattern` · p. 13 | schwannoma neurofibroma wavy nuclei; peripheral nerve sheath tumor spindle cells; circumscribed nerve sheath neoplasm; schwannoma neurofibroma morphology | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `leiomyoma-firm-white-intersecting-spindle-fascicles` · p. 14 | leiomyoma firm white mass; leiomyoma intersecting fascicles; eosinophilic spindle cells right angles; smooth muscle benign tumor morphology | accepted Family-19 uterine-leiomyoma gross/microscopic handle owns the core — prior LCS reuse |
+| `malignant-smooth-muscle-tumor-gross-histology-immunophenotype` · p. 15 | malignant smooth muscle tumor necrosis; pleomorphic spindle cells interweaving fascicles; actin desmin caldesmon sarcoma; smooth muscle sarcoma histology | no complete external or accepted prior-LCS scope; the source does not print a more specific disease name — new theoretical teaching |
+| `rhabdomyosarcoma-childhood-soft-tissue-sarcoma-pattern` · p. 16 | rhabdomyosarcoma children soft tissue; skeletal muscle malignant tumor variants; childhood soft tissue sarcoma; rhabdomyosarcoma gross histology | accepted Family-20 childhood-rhabdomyosarcoma clinicopathologic evidence owns the core — prior LCS reuse |
+| `hemangioma-red-mass-variable-vessel-flat-endothelium` · p. 17 | hemangioma red mass; variable sized vessels flat endothelium; benign vascular tumor histology; hemangioma morphology | accepted infantile-hemangioma clinical evidence plus live vascular-space morphology owns the core — prior LCS reuse |
+| `angiosarcoma-red-mass-branching-vessel-anaplastic-endothelium` · p. 18 | angiosarcoma branching vessels; anaplastic endothelium vascular tumor; angiosarcoma red mass; malignant vascular tumor histology | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `synovial-sarcoma-young-adult-parajoint-lower-extremity-pattern` · p. 19 | synovial sarcoma adjacent joint misnomer; young adult lower extremity synovial sarcoma; parajoint soft tissue sarcoma; synovial sarcoma age 20 40 | exact accepted Family-20 synovial-sarcoma clinicopathologic handle owns the core — prior LCS reuse |
+| `soft-tissue-tumor-immunohistochemical-diagnostic-panel` · p. 21 | soft tissue tumor immunohistochemistry; S100 desmin vimentin cytokeratin panel; sarcoma diagnostic adjunct immunostains; soft tissue neoplasm marker panel | no substantive complete external or accepted prior-LCS panel scope — new theoretical teaching |
+| `bone-tumor-frequency-histogenesis-age-location-morphology-table` · pp. 22–23, 27 | bone tumor classification age location morphology; metastasis commonest bone tumor; multiple myeloma primary bone tumor ranking; bone tumor histogenesis table | accepted bone-tumour tissue-origin/ranking and disease-location evidence owns the core — prior LCS reuse |
+| `periosteal-reaction-patterns-onion-codman-solid-sunburst` · pp. 24–25 | periosteal reaction patterns; onion skin Codman solid sunburst; rapidly growing bone lesion periosteum; hair on end periosteal reaction | accepted Ewing/osteosarcoma radiology and periosteal-lifting evidence jointly owns the source's core; repeated embedded graphic collapsed — prior LCS reuse |
+| `osteoid-osteoma-versus-osteoblastoma-clinic-radiology-histology` · p. 26 | osteoid osteoma osteoblastoma comparison; osteoid osteoma aspirin less than 2 cm; osteoblastoma vertebral posterior elements; woven bone osteoblasts vascular stroma | exact accepted Family-12/64 comparison and clinicoradiologic evidence owns the core — prior LCS reuse |
+
+All **17 × 4 = 68** required teaching-scope searches completed across live state, pending
+state, all source-import roots and accepted prior LCS. At complete-scope grain the direct
+external result is **1 live / 0 pending / 16 new**. Exact accepted-prior comparison prevents
+12 repeated module additions, leaving **12 prior-LCS reuses / 5 new theoretical-teaching
+scopes**. Page 27 adds no eighteenth scope because it is a direct recap of the two taxonomy
+scopes already counted. Declarative teaching scopes do not enter eligible tested-concept or
+practical-scope counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 66 | Family 66 delta | After Family 66 |
+|---|---:|---:|---:|
+| Eligible observed question records | 532 | +0 | 532 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 256 | +0 | 256 |
+| Question live / pending / new | 10 / 86 / 160 | +0 / +0 / +0 | 10 / 86 / 160 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `29 = 4 + 25 + 0`, `25 = 6 + 2 + 3 + 4 + 3
++ 1 + 6`, `0 assessment prompts / 0 printed keys`, `532 = 532 + 0`, `265 = 265 + 0`,
+`256 = 256 + 0`, `10 + 86 + 160 = 256`, `6 + 0 = 6`, `398 + 0 = 398`, `2,496 + 0 =
+2,496`, `136 + 0 = 136`, and `74 + 0 = 74`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-65
+remainder leaves **10 rank-4/rank-5 path instances / 8 unique hashes**. The Family-65
+method was reproduced first: its 11/9 row sets recomputed to
+`2532b563552e572beb00e32f39fcc6c477834ceef7b891b2331617f5cecc652e` and
+`21aa1ba9ec98c5797c4ab5bccb6243d42972938390d271731211a39d60175ac5`.
+For the exact post-Family-66 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`57a67bac750010a429c3355ad2b6ab5342e724889c370dbcf2ff57ae3367e0fd`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`35930a1384727b2668919d9dc8de8bf9d57978e4920c20133454bad9407e8cc9`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Pharmacology theoretical source
+`src_d08bcb59d5e3d0154b28`, `Analgesics.pdf` (231,330 bytes; 17 native-text pages;
+SHA-256 `d08bcb59d5e3d0154b28bf10cd3442f5698cab8e8354206d41cab4bc5763d22b`) under `Year
+1/LCS 103/Pharmacology/Theoretical/Lec 1 - Pharmacology of NSAIDs 1 (Aspirin)/`. The same
+hash also occurs later under the acetaminophen lecture folder, so the remainder retains two
+path instances but one unique hash for that pair until both paths are adjudicated. Tier-6 and
+rank-9 source debts between rank-4/rank-5 gates remain outside this remainder. Broader
+LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
+source copy was created.
