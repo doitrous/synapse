@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "f69e52617c1deea0c8db1c6ba0276a1e55e1b1096ddd483b1017542ebc67b6ce",
-    "triageMarkdown": "d801a79dba480b17e22f1385a8778bf41eca6c0460f62b0baa53af97b3cf37d3"
+    "readinessMarkdown": "40089554870419699abcb23feec552a9ef223bd992f32923eeefe2b967db2ec9",
+    "triageMarkdown": "c7b9806a96f5fc290348d95ee8646aec957be23f986a370b8590b49564ff111d"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -88,6 +88,7 @@
       "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
       "76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c",
       "7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f",
+      "841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
@@ -131,7 +132,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 79
+    "uniqueSha256": 80
   },
   "completedSourceCoverage": [
     {
@@ -2546,35 +2547,66 @@
         "unselected option-bearing prompts remain unkeyed even where one option may be academically likely",
         "handwritten spelling, capitalization and terminology remain uncorrected"
       ]
+    },
+    {
+      "sha256": "841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296",
+      "sourcePages": 5,
+      "renderedReadPages": "1-5",
+      "writtenPromptAndInlineAnswerPages": "1-5",
+      "printedPromptObservations": 27,
+      "writtenPrompts": 27,
+      "printedKeyObservations": 27,
+      "writtenAnswerObservations": 27,
+      "sourceAbsentAnswers": 0,
+      "objectiveMcqPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 27,
+      "familyAnswerDelta": 27,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceHistologyAcceptedSourceHandles": 6,
+      "referenceHistologySearchesRun": 24,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Salma Sewedy handwritten histology written-answer revision sheet scanned through CamScanner; PDF title/subject repeat written histo and author metadata is CamScanner, with no institution, department, examiner, sitting, marks or official-key claim",
+      "boundaryDisposition": "five scanned handwritten pages containing twenty-seven top-level short-written prompts with an inline response for every prompt: five cartilage/bone prompts on page 1, six bone prompts on page 2, six muscle prompts on page 3, seven skin prompts on page 4 and three skin prompts on page 5; no objective MCQ, practical, image-identification, teaching-only, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "compound enumerate prompts remain one top-level written occurrence when the source provides one undivided response structure",
+        "source shorthand and academically questionable statements including skeletal-muscle band labels remain uncorrected",
+        "filename attribution is not promoted to authenticated authorship or faculty authority"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6970,
-    "printedKeyObservations": 6766,
+    "printedPromptObservations": 6997,
+    "printedKeyObservations": 6793,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 22,
-    "uniqueSha256": 22,
-    "sortedNewlineSha256": "4a77fe27022209e036acfd05a052ae6a22dd1331280794038cfc9f3e4d22ee98",
+    "inventoryMetadataRows": 21,
+    "uniqueSha256": 21,
+    "sortedNewlineSha256": "2be190e4151004031de5ec0028ddf7cc54f7b672f44006be21cdf7aac75f09fc",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
-      "sparse-text": 3
+      "sparse-text": 2
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
-    "sparse-text": 3
+    "sparse-text": 2
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 79,
-    "remainingUniqueSha256": 22,
+    "processedUniqueSha256": 80,
+    "remainingUniqueSha256": 21,
     "processedPlusRemaining": 101
   }
 }

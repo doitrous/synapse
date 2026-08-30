@@ -8,11 +8,13 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The seventy-nine completed read-only source hashes cover eighty-one selected inventory paths, represent fifty-four distinct prompt families and yield **6970 questions / 6766 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed eight-page `vip histo msk 1 mcq.pdf`, SHA-256 `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`, is an anonymous CamScanner export of handwritten revision pages containing **36 objective prompts / 22 reliable marked or single-response answers / 14 visibly unselected prompts / 0 written / 0 practical or image-identification prompts**. CamScanner metadata and the filename do not authenticate an institution, examination sitting or official faculty key. All muscle, skin, bone, cartilage and connective-tissue scopes collapse to completed MSK histology families; the exactly-four-search gate ends at **0 new handles × 4 = 0 new searches**, cross-referencing prior histology coverage. The distinct scanned carrier contributes **+36 questions / +22 answers / +0 concepts**.
+The eighty completed read-only source hashes cover eighty-two selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed five-page `written histo (by Salma Sewedy).pdf`, SHA-256 `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296`, is a CamScanner export of handwritten cartilage, bone, muscle and skin revision material containing **27 top-level short-written prompts / 27 inline written answers / 0 objective / 0 practical or image-identification / 0 unkeyed prompts**. Filename attribution and CamScanner metadata do not authenticate an institution, examination sitting or official faculty key. All scopes collapse to completed MSK histology families; the exactly-four-search gate ends at **0 new handles × 4 = 0 new searches**. The distinct scanned carrier contributes **+27 questions / +27 answers / +0 concepts**.
 
-Latest processed family hash: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
+Latest processed family hash: `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296`.
 
-Recent processed family hash retained for reconciliation: `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`.
+Recent processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
+
+Earlier processed family hash retained for reconciliation: `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc`.
 
 Earlier processed family hash retained for reconciliation: `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`.
 
@@ -64,8 +66,10 @@ Current processed-family append: `ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb
 
 Current processed-family append: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
-Removing them leaves **22 inventory paths / 22 unique SHA-256s**, checksum `4a77fe27022209e036acfd05a052ae6a22dd1331280794038cfc9f3e4d22ee98`. The pinned remaining audit-review debt is 0 substantive-text / 3 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current processed-family append: `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - written histo (by Salma Sewedy).pdf`, SHA-256 `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296`, 5 pages.
+Removing them leaves **21 inventory paths / 21 unique SHA-256s**, checksum `2be190e4151004031de5ec0028ddf7cc54f7b672f44006be21cdf7aac75f09fc`. The pinned remaining audit-review debt is 0 substantive-text / 2 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 22 selected inventory paths / 22 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy MSK101-1 Exam Night Notes (Midterm).pdf`, SHA-256 `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 21 selected inventory paths / 21 unique hashes remain untriaged.

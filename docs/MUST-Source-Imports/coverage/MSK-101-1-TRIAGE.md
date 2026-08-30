@@ -3208,3 +3208,50 @@ Removing the seventy-nine processed unique hashes leaves **22 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - written histo (by Salma Sewedy).pdf`, SHA-256 `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296`, 5 pages.
 
 **BLOCKED — S1 cannot be approved:** 22 selected inventory paths / 22 unique hashes remain untriaged.
+
+## Completed written source — written histo (by Salma Sewedy)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - written histo (by Salma Sewedy).pdf` | `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296` | 5 | sparse-text audit sample | pages 1–5 rendered and read | Filename-attributed Salma Sewedy handwritten written-answer revision sheet scanned through CamScanner. PDF title and subject repeat `written histo`, while author metadata is `CamScanner`; no institution, department, examiner, sitting, marks or official-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - written histo (by Salma Sewedy).pdf" purpose="source"}
+
+### Exact written, answer, objective, practical and teaching boundary
+
+Every page consists of handwritten short-written questions followed immediately by handwritten responses. Page 1 has five cartilage/bone prompts; page 2 has six bone prompts; page 3 has six skeletal-muscle prompts; page 4 has seven skin prompts; and page 5 has three skin prompts.
+
+| Page | Written prompts | Inline written answers | Unkeyed |
+|---|---:|---:|---:|
+| 1 | 5 | 5 | 0 |
+| 2 | 6 | 6 | 0 |
+| 3 | 6 | 6 | 0 |
+| 4 | 7 | 7 | 0 |
+| 5 | 3 | 3 | 0 |
+| **Total** | **27** | **27** | **0** |
+
+The exact boundary is therefore **27 top-level written prompt observations / 27 inline written answer observations / 0 source-unkeyed prompts**. There are **0 objective MCQs / 0 practical or image-identification prompts / 0 teaching-only passages / 0 answer-only observations**. Compound `enumerate` questions remain one occurrence when the source presents one undivided question and response structure; their individual listed facts are answer components, not separately numbered prompts.
+
+### Authority, source truth and search gate
+
+Filename attribution supports a named learner revision artifact only. The source does not authenticate Salma Sewedy as faculty, nor does it print a MUST/MSK examination, official key, marks or sitting. Handwritten responses are retained as source observations, including shorthand and academically questionable statements such as skeletal-muscle band labels; none is corrected or promoted to faculty authority.
+
+The source-first scopes are cartilage types/sites/features and functions; bone cells, architecture, ossification and growth plate; skeletal-muscle structure, triads and fibre types; and skin function, epidermal layers/cells, dermis and thick/thin skin. All map completely to completed prior-MSK histology families. No genuinely new accepted handle survives prior-MSK collapse. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; completed histology handle/search evidence is cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The distinct written-answer carrier is now `sourceProcessed=true`. Its delta is **+27 questions / +27 answer observations / +0 concepts**. Cumulative arithmetic is **6970 + 27 = 6997 questions**, **6766 + 27 = 6793 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6997 | 6793 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty processed unique hashes leaves **21 selected inventory paths / 21 unique SHA-256s**. Their sorted, newline-joined hash checksum is `2be190e4151004031de5ec0028ddf7cc54f7b672f44006be21cdf7aac75f09fc`. Remaining audit-review debt is 0 substantive-text / 2 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`80 + 21 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy MSK101-1 Exam Night Notes (Midterm).pdf`, SHA-256 `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 21 selected inventory paths / 21 unique hashes remain untriaged.
