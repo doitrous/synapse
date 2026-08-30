@@ -20135,3 +20135,103 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 40
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 191 — Tier-6 mixed-origin lower-limb anatomy teaching compilation with visible BMS-101 source slides
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_4d39748887217b28ff95` / `4d39748887217b28ff95be60e7d2736b64ff3ed4426c9894d3cd118ad720d446` |
+| Manifest and local path | `Year 1/LCS 103/Anatomy/Notes and Summaries/Anatomy muscles lower limb locomoter _250825_225939 (1).pdf` |
+| Physical verification | **14,592,307 bytes; 17 OCR-needed 600 × 848 pt pages; untagged; unencrypted; PDF 1.7**. Full hash, byte size, page count and geometry match the manifest; all seventeen 180-dpi complete-page renders are distinct. |
+| Visible / metadata provenance | Pp. 4–5 embed `HELWAN - SMP` slides dated `20 May 2025` and explicitly labelled `Module: BMS-101`; the surrounding grid-paper handwriting and pasted tables name no author, lecturer, institution, module, cohort, sitting or marks. Metadata names Samsung Electronics as creator/producer and records modification on 26 August 2025. |
+| Authority finding | Manifest placement establishes LCS-103 topical review relevance, but the visible BMS-101 labels and anonymous surrounding notes establish a mixed-origin teaching compilation, not an LCS-103 assessment, practical station set or official key. The visible module discrepancy is preserved rather than silently reassigned. |
+
+All **17/17 pages** were rendered at 180 dpi, OCRed, inspected at full resolution and read
+against the sparse native layer. The complete physical sequence is:
+
+| Pages | Source-first teaching composition |
+|---:|---|
+| 1–3 | anterior-thigh title; handwritten sartorius, iliopsoas and quadriceps origin/insertion/action/supply table with a supplied-label muscle figure; saphenous-opening notes and a completed femoral-triangle organizer |
+| 4–5 | embedded Helwan-SMP/BMS-101 fascia-lata slides: iliotibial tract, three thigh compartments, muscles and nerve supply |
+| 6–9 | medial-compartment title; completed pectineus, obturator-externus, gracilis and adductor tables; adductor canal and obturator nerve/artery notes |
+| 10–11 | completed superficial- and deep-gluteal-muscle origin/insertion/action/supply tables |
+| 12–13 | posterior-thigh title and completed hamstring-muscle table |
+| 14–16 | posterior-leg title; completed superficial- and deep-posterior-leg muscle tables |
+| 17 | anterolateral-leg title above a completed muscle origin/insertion/action/supply table |
+
+There is **no assessment inventory**. Every organizer is already completed on the same page;
+no learner instruction, response field, blank answer, numbered question, delayed answer or key
+convention appears. Exact boundary is **0 eligible or external assessment prompts / 0
+keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts**.
+
+Source states remain literal and unrepaired. This includes `faciform`, `Articularis Genus`
+followed by `(not muscle)`, `calcaneal (Achillias) tendon`, `Medial popliteal (tibial) n.`,
+`Popliteus`, the handwritten abbreviations and every table entry. Inventory does not endorse
+or medically/editorially correct these states.
+
+### Practical and image boundary
+
+The small anterior-thigh figure on p. 2 and fascia-lata figure on p. 4 are simultaneously
+labelled explanatory illustrations. All other pages are supplied-text tables or notes. There
+is no masked structure, numbered callout, specimen-identification instruction, learner map,
+trace-reading task, response blank or practical key. Exact practical delta is **0 prompts / 0
+teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The compilation consolidates to ten complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each of the four required surfaces | Complete-scope result |
+|---|---|---|
+| anterior-thigh sartorius, iliopsoas and quadriceps OINA/action/supply · p. 2 | anterior thigh sartorius iliopsoas quadriceps origin insertion action nerve | Accepted Families 1–2, 31, 33, 39 and later lower-limb banks own the full scope — prior-LCS reuse. |
+| fascia lata, iliotibial tract and saphenous opening · pp. 3–4 | fascia lata iliotibial tract saphenous opening cribriform fascia | Accepted Families 2, 4, 31, 39 and later lower-limb banks own the full scope — prior-LCS reuse. |
+| femoral triangle and thigh-compartment organization · pp. 3, 5 | femoral triangle boundaries contents thigh compartments | Accepted Families 1–2, 20, 31–34, 39 and later banks own the full scope — prior-LCS reuse. |
+| medial-thigh muscle OINA/action/supply · pp. 7–8 | medial thigh pectineus obturator externus gracilis adductors origin insertion nerve action | Accepted Families 1–2, 5, 32, 41 and later banks own the full scope — prior-LCS reuse. |
+| adductor canal plus obturator nerve/artery and acetabular branch · p. 9 | adductor canal obturator nerve obturator artery acetabular branch | Accepted Families 2, 5, 32, 41, 45 and later banks jointly own the full scope — prior-LCS reuse. |
+| superficial gluteal muscles · p. 10 | superficial gluteal muscles gluteus maximus medius minimus tensor fascia lata | Accepted Families 2, 32, 40 and later banks own the full scope — prior-LCS reuse. |
+| deep gluteal short lateral rotators · p. 11 | deep gluteal muscles piriformis obturator internus gemelli quadratus femoris | Accepted Families 2, 32, 40 and later banks own the full scope — prior-LCS reuse. |
+| posterior-thigh hamstrings · p. 13 | posterior thigh hamstrings biceps femoris semitendinosus semimembranosus origin insertion | Accepted Families 1–2, 33, 42 and later banks own the full scope — prior-LCS reuse. |
+| superficial/deep posterior-leg muscles · pp. 15–16 | posterior leg gastrocnemius soleus plantaris popliteus tibialis posterior flexor muscles | Accepted Families 1, 34, 44, 158–159, 181 and later banks own the full scope — prior-LCS reuse. |
+| anterior/lateral-leg muscles · p. 17 | anterolateral leg tibialis anterior extensors fibularis muscles nerve actions | Accepted Families 1, 34, 43, 158, 181 and later banks own the full scope — prior-LCS reuse. |
+
+Each of the **ten accepted handles** received exactly one search against each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **10 × 4 = 40 required search invocations**. The literal combined queries returned no
+exact file hit on any surface; complete-scope comparison against the accepted ledger establishes
+**10 prior-LCS theoretical reuses / 0 additive live / 0 additive pending / 0 additive new
+teaching scopes**. Declarative theoretical teaching scopes do not enter tested-concept or
+practical-teaching-scope totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 190's remainder. Removing its sole path changes the remainder
+from **40 paths / 39 unique hashes** to **39 paths / 38 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **30 paths / 30 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 190's checksums were
+`c59f18fcf97ffc6b7a03f63f3873e9d9495273d4623abcf7cb1138643bd8da08` (paths) and
+`e0467226b2aecec13e4ddeb66820e9e373cd7aa576c9e8d13ace6e5b33e64461` (unique hashes).
+For the exact post-Family-191 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`f84e93e4eb29ee859deaca3028f612fda1b94a209f9aab21aa0c3643bb98aa08`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`403d6cd6883afa1ac8185d8e999ad9e4033dbf9261b7b7c5bd15d4dabce444a1`.
+
+The exact next manifest-order debt is tier-6 `src_007d55f2649d8bcb7cf9`, manifest `Anatomy
+summary   .pdf`, resolved to normalized local `Anatomy summary.pdf` (11,961,552 bytes; 45
+OCR-needed portrait-US-Letter pages; untagged; unencrypted; PDF 1.4; SHA-256
+`007d55f2649d8bcb7cf9cdd6d2580fcb4678e6fcb09149cef34a6d6f258431ce`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 39
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
