@@ -17367,3 +17367,79 @@ The exact next manifest-order debt is tier-6 `src_f2de332c31dbaf809252`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 69 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 162 — Tier-6 unattributed handwritten four-cancer-gene-class teaching note
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f2de332c31dbaf809252` / `f2de332c31dbaf809252fd5bc7cc175bf3d3e91a78cb64f23b262c913f9fa8e6` |
+| File / boundary | `2026-07-20 05.51.04.jpg` · 165,826 bytes · progressive JFIF JPEG · RGB · 72 dpi · 1280 × 1179 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.51.04.jpg` |
+| Visible / embedded provenance | A photograph of a handwritten notebook mnemonic headed `4 Gene Problem`. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile/density but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is unattributed tertiary teaching-note evidence, not a Helwan-authored assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. Beneath the heading it supplies
+four declarative categories: activated proto-oncogene/oncogene, tumour-suppressor genes,
+apoptosis-regulatory genes and DNA-repair genes.
+
+There is **no assessment inventory**. No instruction, interrogative, option set, response
+field, blank, mark allocation, correctness mark or separate answer reveal appears. There is
+also no specimen, radiograph, photomicrograph, labelled anatomical structure or station task.
+The exact boundary is therefore **0 eligible or external assessment prompts / 0
+keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts** and **0
+practical/station prompts / 0 practical teaching plates / 0 practical mappings / 0
+masked-or-unresolved practical residues / 0 practical assessment keys**.
+
+Source wording is preserved without repair, including `4 Gene Problem`, `Proto oncogene
+activated`, `oncogen`, `Tumor Suppressor genes`, `Apoptosis regulatory genes` and `DNA
+repair genes`. The supplied list is not converted into an answer key.
+
+### Source-first theoretical teaching scope, exact searches and reconciliation
+
+The complete note consolidates to **1 source-level theoretical teaching handle**. It received
+exactly one query on each required surface.
+
+| Theoretical teaching handle | Four required query terms | Search result | Disposition |
+|---|---|---|---|
+| Four functional cancer-gene classes | `proto-oncogene activated oncogene`; `tumor suppressor genes`; `apoptosis regulatory genes`; `DNA repair genes cancer` | 0 live / 6 pending-path matches / 8 prior-import-path matches / 0 accepted-LCS direct matches; pending and prior-import molecular-cancer material own the complete four-class framework | pending theoretical reuse; 0 additive new scopes |
+
+All **1 × 4 = 4 required search invocations** completed across live, pending/import-ready,
+prior source-import and accepted-LCS surfaces. Exact reconciliation yields **0 prior-LCS
+reuses / 1 pending theoretical reuse / 0 new theoretical teaching scopes**. The teaching
+scope does not enter assessment or practical-teaching-scope counts.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 463 plates / 2,774 mappings / 149 residues / 13
+keys**, and practical teaching scopes remain **0 live / 0 pending / 92 new**. The Family-162
+delta is exactly **+0 / +0 / +0 / +0 / +0** because this is a theoretical handwritten note,
+not a practical composition.
+
+This source hash occurs once in Family 161's remainder. Removing its sole path leaves **68
+all-rank path instances / 63 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **54 / 52**, and rank 9 **14 / 11**. Family 161's prior checksums are
+`fbfdf46d3da4d0a4f6adcd2bd8a304ec54b539109e572e6d51489ffda35f07d9` (paths) and
+`4784aa1e52346a75f74c34d2116a7bf738f001a9ecc2189bc4155903026b0a0a` (unique hashes).
+For the exact post-Family-162 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`3c79279574a06fdf532c85aca580c1dd70cfc3b7296de4acf84eb85b50483b4c`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`c57071ccf2b8b9a8472a10793cb355c11210de2dbf8728b5638810731226e9e5`.
+
+The exact next manifest-order debt is tier-6 `src_79b5752c4d6f23e6dafc`,
+`4_5960941546265122352.pdf` (6,951,939 bytes; 37 native-text pages; unencrypted; 612 ×
+865.543 pt; SHA-256
+`79b5752c4d6f23e6dafc8c360427669b1f654797c1a7bd0eb7ed9b084825cc1a`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until all pages
+are read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 68 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
