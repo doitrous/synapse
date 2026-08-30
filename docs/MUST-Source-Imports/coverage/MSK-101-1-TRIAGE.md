@@ -2008,3 +2008,49 @@ Removing the fifty-two processed unique hashes leaves **50 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/200 MSK Anatomy Practice Questions.pdf`, SHA-256 `f79a6d12f0f1e82e7b9a408e45ddaa25adfa678d72c8e14a68031b0b9f68dbd9`, 59 pages.
 
 **BLOCKED — S1 cannot be approved:** 50 selected inventory paths / 49 unique hashes remain untriaged.
+
+## Completed source — 200 MSK Anatomy Practice Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/200 MSK Anatomy Practice Questions.pdf` | `f79a6d12f0f1e82e7b9a408e45ddaa25adfa678d72c8e14a68031b0b9f68dbd9` | 59 | substantive-text audit sample | pages 1–59 rendered and read | Student-style upper-limb practice bank exported from Notes through iOS Quartz on 23 October 2025. Neither the visible pages nor metadata names a MUST institution, department, examiner, sitting, marks or faculty-key claim; the `Midterm Exams` folder and practice-bank title do not authenticate a MUST/MSK examination or official key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/200 MSK Anatomy Practice Questions.pdf" purpose="source"}
+
+### Exact MCQ, answer, written, practical and image boundary
+
+All 59 pages are assessment-only. The visible numbering spans Q1–Q200, but **Q100 is used twice for two different prompts**: a thoracodorsal-artery function item and a serratus-anterior function item. The physical source therefore contains 201 prompt occurrences rather than the 200 suggested by the title. Every occurrence is a four-option MCQ followed by one inline `Answer:` statement.
+
+| Pages | Visible sequence | Four-option MCQs | Inline printed answers | Written | Practical/image-identification | Unkeyed |
+|---|---|---:|---:|---:|---:|---:|
+| 1–29 | Q1–Q99 plus the first Q100 | 100 | 100 | 0 | 0 | 0 |
+| 30–59 | the second Q100, then Q101–Q200 | 101 | 101 | 0 | 0 | 0 |
+| **Total** | **Q1–Q200 with two distinct Q100 items** | **201** | **201** | **0** | **0** | **0** |
+
+There are no written-response prompts, practical stations, diagrams or photographs used for identification, teaching-only pages, answer-only pages or source-unkeyed prompts. Page-break continuation artifacts in the text layer do not create additional visible prompts or answers.
+
+Printed wording and keys remain source observations without academic correction. Preserved defects include the duplicate Q100 label; repeated stems with different option construction or answer framing, including the axillary-fascia items Q11 and Q26; and academically questionable selections elsewhere in the bank. No answer is replaced by anatomy knowledge.
+
+### Internal and prior-MSK collapse
+
+Normalized stem reconciliation yields **161 distinct stems**. Thirty-two stem groups recur, accounting for 72 printed occurrences and **40 duplicate excess occurrences**; all 201 physical prompt/answer occurrences remain counted once, while repeats collapse at the concept layer. Representative repeated groups include serratus-anterior paralysis (Q3/Q24/Q102), radial-nerve role (Q87/Q187/Q193), pectoralis-minor shoulder function (Q128/Q137/Q146), and repeated Q100–Q109 material from the opening sequence.
+
+Source-first candidate scopes are shoulder/scapular/pectoral muscle mechanics, axilla/shoulder spaces and fascia, brachial-plexus and terminal-nerve anatomy/lesions, and upper-limb vessels. Every scope maps to the completed Upper Limb Anatomy H1–H5 family. No genuinely new accepted handle survives prior-MSK collapse, so the exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior family’s **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct source family is now `sourceProcessed=true`. Its delta is **+201 questions / +201 answer observations / +0 concepts**. Cumulative arithmetic is **5536 + 201 = 5737 questions**, **5429 + 201 = 5630 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5737 | 5630 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty-three processed unique hashes leaves **49 selected inventory paths / 48 unique SHA-256s**. Their sorted, newline-joined hash checksum is `577f15ca14d3feca295ee93bfe2544fd820a44738d8ccb61dddec482eb39e1df`. Remaining audit-review debt is 21 substantive-text / 5 sparse-text / 7 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`53 + 48 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/ANATOMY by salama.pdf`, SHA-256 `43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3`, 60 pages.
+
+**BLOCKED — S1 cannot be approved:** 49 selected inventory paths / 48 unique hashes remain untriaged.

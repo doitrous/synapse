@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "20676c8121f5c43ce80914c12361475d44fd67599db263c8839e83b337a81e24",
-    "triageMarkdown": "9fd5f86600f8190d71ea80bc38522388d1482e4221a50065409ee971f27f6f75"
+    "readinessMarkdown": "7eaeff070c2d2a322241614b9c4f3865b621972089a7eb667fdf2b6c1a6e973a",
+    "triageMarkdown": "6986bd403bd5a28df6dd981e7cbda668b44be613c1b08278638affc0e42755d0"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -101,10 +101,11 @@
       "eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb",
       "edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012",
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
+      "f79a6d12f0f1e82e7b9a408e45ddaa25adfa678d72c8e14a68031b0b9f68dbd9",
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 52
+    "uniqueSha256": 53
   },
   "completedSourceCoverage": [
     {
@@ -1427,26 +1428,60 @@
         "Q22 retains a selected True response without correction or faculty-key inference",
         "multiple active-exam user accounts appear across screenshots; personal names are excluded from durable evidence"
       ]
+    },
+    {
+      "sha256": "f79a6d12f0f1e82e7b9a408e45ddaa25adfa678d72c8e14a68031b0b9f68dbd9",
+      "sourcePages": 59,
+      "renderedReadPages": "1-59",
+      "printedQuestionLabels": "Q1-Q200 with two distinct prompts labelled Q100",
+      "printedPromptObservations": 201,
+      "objectiveMcqPrompts": 201,
+      "printedKeyObservations": 201,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "internallyUniqueNormalizedStems": 161,
+      "repeatedStemGroups": 32,
+      "repeatedPromptExcessOccurrences": 40,
+      "familyQuestionDelta": 201,
+      "familyAnswerDelta": 201,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "student-style upper-limb practice bank exported from Notes through iOS Quartz on 23 October 2025; neither the file nor metadata prints a MUST institution, department, examiner, sitting, marks or faculty-key claim",
+      "boundaryDisposition": "fifty-nine assessment-only pages containing 201 visible four-option MCQ occurrences and one inline Answer line per prompt; numbering spans Q1-Q200 but Q100 is used twice for different prompts; no written, practical, image-identification, teaching-only, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "Q100 labels two different prompts: thoracodorsal-artery function and serratus-anterior function",
+        "thirty-two normalized stems recur, producing forty duplicate excess occurrences while all 201 printed occurrences remain counted",
+        "repeated stems can carry different option constructions or answers, including the axillary-fascia items Q11 and Q26",
+        "printed wording and academically questionable answer selections are retained without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 5536,
-    "printedKeyObservations": 5429,
+    "printedPromptObservations": 5737,
+    "printedKeyObservations": 5630,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 50,
-    "uniqueSha256": 49,
-    "sortedNewlineSha256": "9d4a0068e76135fc218811dda9797beac5224883dd940b4ccfd6c6ff8bab56cb",
+    "inventoryMetadataRows": 49,
+    "uniqueSha256": 48,
+    "sortedNewlineSha256": "577f15ca14d3feca295ee93bfe2544fd820a44738d8ccb61dddec482eb39e1df",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 22
+      "substantive-text": 21
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1454,12 +1489,12 @@
     "audit-not-found": 13,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 22
+    "substantive-text": 21
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 52,
-    "remainingUniqueSha256": 49,
+    "processedUniqueSha256": 53,
+    "remainingUniqueSha256": 48,
     "processedPlusRemaining": 101
   }
 }
