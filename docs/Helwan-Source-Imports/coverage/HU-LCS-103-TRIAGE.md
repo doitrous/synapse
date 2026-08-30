@@ -3060,6 +3060,7 @@ hashes**. The next manifest-order evidence gate is tier-4 Anatomy source
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
 
+
 ## Family 27 — Tier-4 Scalp lecture interactive-prompt family
 
 ### Source identity, authority and full boundary
@@ -6726,3 +6727,137 @@ under `Year 1/LCS 103/Histology/Practical Labs/Virtual Lab 2 - Cartilage & Muscl
 source debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 56 — Tier-5 Histology practical Virtual Lab 2 cartilage-and-muscle teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_d96c2b7e91e21bab3ee1` |
+| Manifest file / SHA-256 | `download.pdf` / `d96c2b7e91e21bab3ee1dab0ccdcb09287e712379293f594e8df562c9d69f591` |
+| File boundary | 7,762,323 bytes · unencrypted PDF · 59 physical native-text pages · 720 × 405 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Practical Labs · `Virtual Lab 2 - Cartilage & Muscle` · tier 5 |
+| Local corpus path used | `Year 1/LCS 103/Histology/Practical Labs/Virtual Lab 2 - Cartilage & Muscle/Cartilage and Muscle Virtual Lab.pdf` |
+| Name reconciliation | The manifest-named `download.pdf` path is absent locally, but the organised local file above recomputes to the manifest SHA-256 and byte size exactly; it is the same accepted source under a descriptive filename. |
+| Visible provenance | p. 1 prints `Histology virtual lab`, `cartilage and muscles` and `Dr. Salma`; creator is WPS Presentation, with blank title/author/producer metadata and no assessment or sitting label |
+| Authority finding | Manifest/path-placed local tier-5 Histology practical teaching evidence. It is not a sitting paper, station sheet, response form, question bank or official answer key. |
+
+The SHA-256, byte size and 59-page boundary were recomputed and match the assigned source.
+All 59 pages were rendered at 180 dpi and read against the native text layer; all 59 complete
+page renders have distinct SHA-256 values. Page 1 is title/provenance, p. 2 is the cartilage
+divider, pp. 3–28 are the complete cartilage teaching sequence, p. 29 is the muscle divider,
+pp. 30–58 are the complete muscle teaching sequence, and p. 59 is the closing slide.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. The p. 4 `WHAT IS CARTILAGE MADE OF?` and repeated `LOCATION?`
+headings are rhetorical teaching headings immediately answered on the same slide; they do not
+request a learner response. Lists, labelled micrographs, diagrams, abbreviations and numbered
+structures likewise remain simultaneous declarative teaching. No page prints a response field,
+answer blank, mark allocation, option set, masked label or delayed answer reveal.
+
+### Complete practical-plate, mapping and residue inventory
+
+One mapping is one distinct directly printed specimen label, type-to-site relation,
+cell-to-location/role relation, matrix/fibre/stain relation or named structural component. A
+repeated arrow or duplicate wording on the same plate is counted once; slide titles and an
+unlabelled image identity are not mappings. Related mappings on different source-distinct
+plates remain separate evidence occurrences. A letter, numeral or abbreviation embedded in a
+micrograph without a local legend is retained as an unresolved teaching callout, never inferred
+as either a mapping or an assessment blank.
+
+| Physical pages | Source-first practical teaching composition | Plate occurrences | Directly printed unique mappings / residue |
+|---:|---|---:|---:|
+| 3–4 | three cartilage types and cartilage cell/matrix/fibre/perichondrium composition | 2 | 9 mappings |
+| 5–8 | hyaline-cartilage sites, two-layer perichondrium, detailed layer contents and four functions | 4 | 26 mappings; pp. 7–8 have 4 unresolved `P`/`C` callouts |
+| 9–13 | chondroblast/chondrocyte comparison, isogenous groups, territorial/interterritorial matrix and labelled overview | 5 | 32 mappings; p. 13 has 4 unresolved embedded `P`/`C`/`M`/`C` callouts |
+| 14–16 | hyaline-cartilage labelled LM examples; p. 16 is unlabelled | 3 | 6 mappings |
+| 17–23 | elastic-cartilage sites, composition, Verhoeff stain relation and labelled practical examples | 7 | 23 mappings; pp. 20–21 have 5 unresolved `E`/`Ch`/`L` and `1`/`2` callouts |
+| 24–28 | fibrocartilage sites, type-I-collagen/rowed-chondrocyte phenotype and labelled examples | 5 | 18 mappings |
+| 30–34 | skeletal/cardiac/smooth overview, skeletal connective-tissue hierarchy and labelled longitudinal phenotype | 5 | 37 mappings |
+| 35–40 | skeletal longitudinal/transverse teaching micrographs and connective-tissue labels; pp. 35–36 and 39 are unlabelled | 6 | 8 mappings |
+| 41–43 | sarcomere diagram and EM band/line architecture; p. 43 is otherwise unlabelled | 3 | 15 mappings; p. 43 has 3 unresolved `Z`/`I`/`A` callouts |
+| 44–48 | cardiac-fibre LM phenotype, intercalated-disc junction diagram and labelled examples | 5 | 34 mappings |
+| 49–52 | cardiac-muscle EM, intercalated-disc orientation and named junction components | 4 | 10 mappings; pp. 49–50 have 12 unresolved image callouts (`D` plus 11 printed letter/abbreviation occurrences) |
+| 53–58 | smooth-muscle LM phenotype, contraction states, dense-body/caveolae ultrastructure and diagram; pp. 55 and 58 are otherwise unlabelled | 6 | 27 mappings; p. 55 has 6 unresolved `C`/`N`/`SM`/`CT`/`SM`/`N` callouts |
+| **Total** | **source-distinct practical teaching evidence** | **55** | **245 mappings; 34 unresolved callouts** |
+
+The **55 content-page occurrences are 55 source-distinct practical teaching plates**. The
+four non-plate pages are the title, two section dividers and close (pp. 1–2, 29 and 59).
+No exact complete-page copy is present. Cartilage arithmetic is `26 plates = 2 + 4 + 5 +
+3 + 7 + 5`, `114 mappings = 9 + 26 + 32 + 6 + 23 + 18`, and `13 residues = 4 + 4 +
+5`. Muscle arithmetic is `29 plates = 5 + 6 + 3 + 5 + 4 + 6`, `131 mappings = 37 +
+8 + 15 + 34 + 10 + 27`, and `21 residues = 3 + 12 + 6`. The assessment boundary is
+therefore **55 practical teaching plates / 245 printed teaching mappings / 34 unresolved
+teaching callouts / 0 practical or station prompts / 0 ordinary questions / 0 response
+blanks / 0 printed assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 55 plates consolidate to fourteen source-level practical teaching scopes. Scope collapse
+does not delete plate, mapping, page or source-wording evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `cartilage-three-type-practical-overview-and-composition` · pp. 3–4 | three cartilage types practical; cartilage cell matrix fiber perichondrium; hyaline elastic fibrocartilage overview; cartilage composition histology | pending cartilage-type/cell material jointly owns the overview; accepted Family-13 classification/cell/matrix handles own the same core — prior LCS reuse |
+| `cartilage-type-anatomic-sites` · pp. 5, 17, 24 | hyaline elastic fibrocartilage sites; trachea epiglottis intervertebral disc cartilage; cartilage type location practical; identify cartilage by site | pending cartilage-types material owns the site sets; exact accepted Family-13 `cartilage-types-anatomic-sites` owns the same core — prior LCS reuse |
+| `hyaline-perichondrium-layers-contents-and-functions` · pp. 6–8 | perichondrium two layers histology; outer fibrous inner chondrogenic; perichondrium nutrition growth protection; perichondrium blood vessels nerves chondroblasts | pending cartilage-cell/written material owns both layers and functions; accepted Family-13 perichondrium handle owns the same core — prior LCS reuse |
+| `chondroblast-chondrocyte-isogenous-group-practical` · pp. 9–10 | chondroblast chondrocyte histology comparison; cartilage lacuna cell nest; isogenous group chondrocytes; identify cartilage cells micrograph | pending cartilage-cell material owns the full relation; accepted Family-13 chondroblast/chondrocyte and cell-nest handles jointly own the same core — prior LCS reuse |
+| `hyaline-matrix-and-lm-identification` · pp. 11–16 | territorial interterritorial cartilage matrix; hyaline cartilage LM identification; chondrocyte lacuna perichondrium micrograph; cartilage matrix basophilia practical | pending cartilage-cell/type material owns the matrix and demonstrated phenotype; accepted Family-13 matrix, lacuna and hyaline handles jointly own the practical core — prior LCS reuse |
+| `elastic-cartilage-verhoeff-stain-and-practical-identification` · pp. 17–23 | elastic cartilage Verhoeff stain; elastin blue black cartilage; elastic cartilage micrograph identification; ear pinna elastic fibers practical | pending Histology material owns the special-stain/appearance scope; accepted Family-13 handles own the sites and fibre composition but not the complete special-stain practical identity — new practical teaching scope |
+| `fibrocartilage-sites-features-and-practical-identification` · pp. 24–28 | fibrocartilage histology identification; type I collagen chondrocyte rows; fibrocartilage sites shoulder hip meniscus; fibrocartilage no perichondrium practical | pending cartilage-types material owns the complete phenotype/sites; accepted Family-13 fibrocartilage and site handles own the same core — prior LCS reuse |
+| `muscle-three-type-histology-practical-overview` · p. 30 | skeletal cardiac smooth histology comparison; striated voluntary involuntary muscle; three muscle types practical; identify muscle types morphology | pending comparison material owns the complete overview; exact accepted Family-14 `muscle-type-histology-comparison` owns the same core — prior LCS reuse |
+| `skeletal-muscle-connective-tissue-hierarchy` · pp. 31, 38–40 | epimysium perimysium endomysium; skeletal muscle fascicle hierarchy; muscle connective tissue labels; muscle fiber covering practical | pending skeletal-muscle material owns the hierarchy; exact accepted Family-14 connective-tissue handle owns the same core — prior LCS reuse |
+| `skeletal-muscle-lm-longitudinal-transverse-identification` · pp. 32–37 | skeletal muscle longitudinal section histology; skeletal muscle transverse section nuclei; multinucleated peripheral striated fiber; skeletal muscle LM practical identification | pending skeletal-muscle material owns the full phenotype; exact accepted Family-14 skeletal-LM handle owns the same core — prior LCS reuse |
+| `skeletal-sarcomere-band-line-em-identification` · pp. 41–43 | sarcomere EM A I H M Z; skeletal muscle band line identification; sarcomere diagram practical; myofilament sarcomere ultrastructure | live `ART-MSK-TOP-B54C248DF1` owns the band/line architecture; exact accepted Family-14 sarcomere handle owns the same core — prior LCS reuse |
+| `cardiac-muscle-lm-practical-phenotype` · pp. 44, 46–47 | cardiac muscle LM identification; branched central nucleus cardiac fiber; cardiac striations intercalated disc micrograph; cardiac muscle histology practical | pending cardiac-muscle material owns the phenotype; exact accepted Family-14 cardiac-myocyte handle owns the same core — prior LCS reuse |
+| `intercalated-disc-lm-em-components-and-identification` · pp. 45, 48–52 | intercalated disc EM identification; fascia adherens desmosome gap junction; transverse lateral intercalated disc; cardiac junction micrograph practical | pending cardiac-muscle material owns both orientations and junctions; exact accepted Family-14 intercalated-disc handle owns the same core — prior LCS reuse |
+| `smooth-muscle-lm-em-dense-body-caveolae-identification` · pp. 53–58 | smooth muscle LM EM identification; fusiform central nucleus smooth muscle; dense bodies caveolae practical; smooth muscle no T tubule histology | pending smooth-muscle material owns LM and ultrastructure; accepted Family-14 smooth phenotype and dense-body/caveolae handles jointly own the same core — prior LCS reuse |
+
+All **14 × 4 = 56** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **1 live / 13 pending / 0 new**. Exact accepted-
+prior comparison prevents thirteen repeated module additions, leaving **thirteen prior-LCS
+reuses / one new practical-teaching scope**. There is no assessment handle to search;
+declarative teaching scopes do not enter the eligible tested-concept count.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 56 | Family 56 delta | After Family 56 |
+|---|---:|---:|---:|
+| Eligible observed question records | 510 | +0 | 510 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 246 | +0 | 246 |
+| Question live / pending / new | 9 / 82 / 155 | +0 / +0 / +0 | 9 / 82 / 155 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 332 verified minimum | +55 | 387 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,178 verified minimum | +245 | 2,423 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 101 | +34 | 135 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 72 | +0 / +0 / +1 | 0 / 0 / 73 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `59 = 4 non-plate pages + 55 plates`, `55 =
+26 cartilage + 29 muscle`, `245 = 114 + 131`, `34 = 13 + 21`, `510 + 0 = 510`, `264
++ 0 = 264`, `246 + 0 = 246`, `9 + 82 + 155 = 246`, `332 + 55 = 387`, `2,178 +
+245 = 2,423`, `101 + 34 = 135`, and `72 + 1 = 73`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-55
+remainder leaves **20 rank-4/rank-5 path instances / 18 unique hashes**. The Family-55
+method was reproduced first: its 21/19 row sets recomputed to
+`ab82b6bd8e7bfdaca0d23519f244ab779ebfb9e2d3b145bdd71d2790ee2c7a20` and
+`2bbca0d6bb11bd9faed141b2583364d04959195cf5af48425afa693ecb3dfa52`.
+For the exact post-Family-56 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0b03bff5371fa3e2a22d0c4ba0f459133a947f84f01771f6afaa59b845c8ce3a`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`69405653348e8adb9db144dcbc722feb6e6ae5c36e44f55d88cc1208fb5a4196`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Histology theoretical source
+`src_252ae116a3911d2020a2`, `cartilage2  medical - record - Copy - Copy.pdf` (33
+OCR-needed pages; SHA-256
+`252ae116a3911d2020a2d814ccf5ec639b698ca9ba0e05320c245f793f7982e6`) under
+`Year 1/LCS 103/Histology/Theoretical/Lec 1 - Cartilage/`. Tier-6 and rank-9 source debts
+between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
