@@ -99,10 +99,49 @@ This distinct inventory hash is now `sourceProcessed=true`, while the exact prom
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Upper-limb Midterm Units (Answered) - PentaGram
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/1-Upperlimb Midterm Units (Answered) - PentaGram.pdf` | `a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de` | 14 | substantive-text audit sample | pages 1–14 rendered and read | The cover identifies `Questions in Anatomy of the Upper Limb`, `Course 101 Medicine (Anat 101)`, by Prof. M. Fawzi Gaballah, Head of the Anatomy Department. It says the questions are study guides and examples for assessment, midterm and final exams. Pages 2–14 state `Answers Added By : HeMa Jaser`. The file was created in 2013 and modified in 2023. No institution, sitting, marks or official key authority is printed; this is an authored departmental-style question guide with later added answers, not a documented MUST exam sitting. |
+
+### Exact objective, written, practical and key boundary
+
+Page 1 is cover, instructions and contents. The author explicitly says all true/false questions are printed as true statements. Pages 2–14 contain **216 assessment occurrences = 148 embedded true/false statements + 25 matching rows + 43 completion prompts**. There are **0 conventional four-option MCQs, 0 essay prompts and 0 practical/image prompts**. Every true statement carries the author's declared truth convention, every matching row prints its paired index, and every completion prompt has underlined answer text. The exact answer boundary is therefore **216 directly embedded or printed answers / 0 source-absent answers**. No answer was inferred or medically corrected.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 216 occurrences were assigned once across ten handles, reconciling as **20 + 27 + 14 + 49 + 15 + 19 + 20 + 17 + 26 + 9 = 216**. Each handle received exactly four searches across live, server, pending/import-ready and documentation evidence, for **10 × 4 = 40 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 20, mammary gland and lymph drainage (`mammary gland upper limb anatomy ribs axillary tail`; `breast lymph drainage pectoral parasternal apical nodes`; `suspensory ligaments of Cooper radial lobes`; `mammary gland superficial fascia clinical anatomy`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H2 | 27, clavipectoral fascia and pectoral muscles (`clavipectoral fascia structures piercing relations`; `pectoralis major origin insertion action nerve supply`; `pectoralis minor ribs coracoid medial pectoral nerve`; `deltopectoral groove cephalic vein thoracoacromial`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H3 | 14, axillary walls and contents (`axilla walls apex base contents`; `anterior posterior medial lateral wall axilla`; `axillary vein artery brachial plexus fat contents`; `axillary fascia floor triangular apex`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H4 | 49, axillary vessels, branches and scapular anastomosis (`axillary artery three parts branches relations`; `first second third part axillary artery brachial plexus cords`; `scapular anastomosis subscapular suprascapular dorsal scapular`; `axillary vein formation termination relations`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H5 | 15, brachial plexus organization and branches (`brachial plexus roots trunks cords branches`; `upper trunk Erb palsy long thoracic nerve`; `posterior cord axillary nerve subscapular branches`; `suprascapular musculocutaneous ulnar nerves origins`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H6 | 19, scapular muscle attachments and nerve supply (`muscles attached to scapula attachment sites`; `scapular muscles nerve supply matching`; `scapula trunk humerus muscle attachments`; `supraspinatus teres minor teres major trapezius nerve supply`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H7 | 20, serratus, trapezius, latissimus and deltoid (`serratus anterior origin insertion action nerve supply`; `trapezius origin insertion action accessory nerve`; `latissimus dorsi insertion action thoracodorsal nerve`; `deltoid origin insertion abduction axillary nerve`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H8 | 17, rotator cuff and integrated scapular muscle supply (`rotator cuff muscles attachments nerve supply`; `suprascapular axillary subscapular dorsal scapular nerves muscles`; `serratus trapezius latissimus deltoid anatomical relations`; `scapular muscle completion questions anatomy`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H9 | 26, quadrangular space, axillary/suprascapular nerves and scapular attachments (`quadrangular space boundaries contents`; `axillary nerve course branches root value`; `suprascapular nerve course suprascapular ligament spinoglenoid notch`; `scapular muscle attachments greater lesser tubercle`) | externally new; no prior MSK Anatomy handle — **new**. |
+| H10 | 9, coracobrachialis and mid-arm neurovascular relations (`coracobrachialis origin insertion nerve supply`; `musculocutaneous nerve pierces coracobrachialis`; `median nerve crosses brachial artery coracobrachialis insertion`; `radial ulnar nerve relations humerus mid arm`) | exact musculocutaneous/coracobrachialis wording appears in pending/import-ready evidence — **pending-hit**; no prior MSK Anatomy handle. |
+
+The source-level and post-prior-MSK result is **0 live / 1 pending / 9 new = 10 concepts**. The completed lane before this source contains only connective-tissue Histology handles, so no Anatomy handle is collapsed.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+216 questions / +216 answers / +10 concepts**. Cumulative arithmetic is **45 + 216 = 261 questions**, **35 + 216 = 251 answers**, and **4 + 10 = 14 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 261 | 251 | 14 | 0 | 1 | 13 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these three substantive-text paths and unique hashes leaves **100 selected inventory paths / 98 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ac687b428a1c4fcc6acc9a5889a84dfae9cdda3e87e9e72d468237d127bce150`. Remaining audit-review debt is 56 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`3 + 98 = 101`**.
+Removing these four substantive-text paths and unique hashes leaves **99 selected inventory paths / 97 unique SHA-256s**. Their sorted, newline-joined hash checksum is `0ca647ac43a558bbbeb18bbdd8ade773ef780c4734fc046949f1a3b142754be4`. Remaining audit-review debt is 55 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`4 + 97 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/1-Upperlimb Midterm Units (Answered) - PentaGram.pdf`, SHA-256 `a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de`, 14 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histology MSK101-1 Cases (Answers).pdf`, SHA-256 `2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0`, 12 pages.
 
-**BLOCKED — S1 cannot be approved:** 100 selected inventory paths / 98 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 99 selected inventory paths / 97 unique hashes remain untriaged.
