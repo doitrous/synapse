@@ -9293,3 +9293,93 @@ a pathology introduction, while PDF metadata names author `Hossam mohammed` and 
 2025 creation/modification date; neither metadata field alone proves Helwan authorship or an
 exam sitting. Full-page rendering, provenance adjudication, teaching/prompt/answer boundary,
 and any prior-BMS overlap are the exact next-source blockers.
+
+## Family 85 — 14-page pathology introduction and cell-injury teaching handout
+
+### Source identity, full-render boundary, and provenance adjudication
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_9e9945e0389aabbe2b1d` · `4_5902217716852332461.pdf` |
+| SHA-256 / size | `9e9945e0389aabbe2b1d42af142d673c38794a2ed4c1d99d3fb64247a319bce9` · 1,941,784 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / read boundary | 14 native-text A4 pages; pp. 1–11 and 13–14 portrait, p. 12 landscape; native text extracted and every page rendered at 120 dpi and visually read in full |
+| Visible provenance | Repeated `PATHOLOGY` / `Introduction` header, numbered pp. 1–14, and `DR. AHMED HASSAN` footer on every page; no university, faculty, module, department, assessment, or key designation |
+| PDF metadata | Author `Hossam mohammed`; Microsoft Word 2016 creator/producer; created and modified 24 February 2025 |
+| Provenance ruling | The visible Dr. Ahmed Hassan credit controls the on-page attribution. The conflicting Hossam Mohammed metadata is preserved as a file-authorship/history field, not silently merged with the visible credit. Neither identity is visibly tied to Helwan, and the metadata date proves neither teaching date nor exam sitting. |
+
+The local BMS-102 folder and module-aligned content support use as tier-6 local teaching
+material only. They do not establish Helwan authorship, official curriculum status, an exam
+sitting, recurrence, mark weight, or an official answer key.
+
+### Page-first teaching, prompt, key, and annotation boundary
+
+| Page | Complete visible content | Prompt / answer ruling |
+|---:|---|---|
+| 1 | Pathology definition, etymology, importance, and anatomic/clinical divisions; a completed overview graphic | Declarative teaching. `Why Basic Pathology in Basic Medical Science Modules?` is a motivational audience-rhetorical footer immediately followed by `Excellent in Basic Pathology = Excellent in all system diseases`; **1 excluded audience transition / 0 assessment prompts / 0 answers**. |
+| 2 | General, systemic, diagnostic, cyto-, immuno-, and molecular pathology; biopsy note and general pathological process | Completed teaching lists/table; **0 / 0**. |
+| 3 | Definitions of illness, disease, etiology, lesion, gross/microscopic lesion, pathogenesis, symptom, sign, diagnosis, prognosis, and course | Completed reference table; **0 / 0**. |
+| 4 | Surgical-pathology request forms, tissue accession/fixation, frozen-section transport, and gross-room sampling | Completed protocol with illustrative forms/photos; **0 / 0**. |
+| 5 | Automated tissue processing, cryostat/frozen section, H&E, and the five pathology-report components | Completed procedure and report examples; **0 / 0**. |
+| 6 | Special stains, immunofluorescence, and electron microscopy | Completed technique/use mappings and labelled images; **0 / 0**. |
+| 7 | Immunohistochemistry, molecular methods, and light/electron/immunofluorescence renal findings | Completed technique/use and image/finding mappings; **0 / 0**. |
+| 8 | Cell injury versus adaptation definitions, reversible/irreversible outcomes, and four adaptation types | Completed comparison table and response-to-injury flowcharts; **0 / 0**. |
+| 9 | Cellular responses and causes of injury; five biochemical pathways | Completed flowchart, cause table, and teaching list; **0 / 0**. |
+| 10 | ATP depletion, mitochondrial damage, calcium influx, reactive oxygen species, membrane permeability, DNA/protein injury, and free-radical generation/removal | Completed mechanism tables/diagrams; **0 / 0**. |
+| 11 | ATP-depletion effects, mitochondrial injury, intracellular calcium, and membrane-damage diagrams | Four completed labelled teaching figures; **0 / 0**. |
+| 12 | Atrophy, hypertrophy, hyperplasia, and metaplasia definitions and examples | Completed landscape comparison table; **0 / 0**. |
+| 13 | Labelled examples of atrophy, hypertrophy, dysplasia, metaplasia, invasive lobular carcinoma, and infiltrating ductal carcinoma | Completed image-label plate; **0 / 0**. |
+| 14 | Original-tissue/stimulus/metaplastic-tissue mappings; dysplasia-versus-neoplasia and hyperplasia-versus-neoplasia comparisons | Completed tables; **0 / 0**. |
+
+Page numbers, colored and underlined terms, bullets, check-box glyphs, arrows, diagram nodes,
+table cells, microscopy captions, and embedded example forms organize finished teaching
+material; none selectively marks a response. Apart from the excluded page-1 rhetorical
+transition, there is no stem, command, completion blank, option set, response frame,
+prompt-like residue, or answer register.
+
+The content substantially overlaps Family 74's cell-injury/adaptation and pathology-technique
+maps, Families 75–81's cell-injury/necrosis/apoptosis notes, and earlier BMS-102 assessment
+handles. Those teaching relationships support topic/provenance mapping only; they do not create
+assessment occurrences or accepted handles.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. The
+single audience-rhetorical transition is explicitly excluded from those totals. With no
+accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**; no
+external or prior-BMS search row is fabricated.
+
+| Measure | Family 85 | Auxiliary cumulative (Families 12–85) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Audience-rhetorical questions | 1 excluded | — | — | outside prompt totals |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: the one excluded rhetorical transition yields `0` assessment prompts;
+`0` prompts yield `0` answers, residues, retained records, handles, searches, external
+dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 85 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 85
+
+`src_9e9945e0389aabbe2b1d` is exhausted across all 14 pages: every teaching region, table,
+figure, image-label mapping, page-1 rhetorical transition, visible/metadata provenance field,
+emphasis convention, prompt/key absence, prior-BMS relationship, zero search gate, and
+unchanged arithmetic is assigned once, with **zero source remainder** and no Family-85
+blocker. The exact next manifest-ordered BMS-102 record is tier-6
+`src_2606a244d9623c339871` · manifest `CBL cell injury and inflammation  2025.pdf` (local
+filename `CBL cell injury and inflammation 2025.pdf`), SHA-256
+`2606a244d9623c33987116f2cf3cf9710ea86a282a56ab63bd116afa9e8eb440`, 2,712,035 bytes,
+91 native-text 720×540 landscape pages under `Pathology / Notes and Summaries`. Its first page
+is visibly headed `CASES BASED LEARNING (CBL) BMS I`; PDF metadata gives title `PowerPoint
+Presentation`, author `Mohamed`, and a 13 April 2025 creation/modification date. Its complete
+case/teaching/prompt/key boundary, visible-versus-metadata provenance, filename-year limitation,
+search ledger, and prior-BMS overlap are the exact next-source blockers.
