@@ -10845,3 +10845,82 @@ non-preferred, near-duplicate of `src_214e45dfde3d765f38de` and
 `src_cd8dba9d1707e2b8f18a`, and name-twin of `src_50a7db1e5d21f2bd18c9`; its complete bilingual
 teaching/prompt boundary, provenance, exact visual reuse, and twin/near-duplicate adjudication are
 the exact next-source blockers.
+
+## Family 100 — Standalone Step-4 inflammation teaching-page twin
+
+### Source identity, complete render boundary, provenance, and twin adjudication
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_b456676b291ae592fc48` · `Inflammation (1).pdf` |
+| SHA-256 / size | `b456676b291ae592fc483ac19c9f933442c5b27af5c190a16de4043914e1674d` · 127,749 bytes |
+| Format / complete render boundary | One native-text portrait A4 page (595.276×841.89 points); rendered completely at 150 dpi into one non-empty 1241×1754-pixel image and visually read at original detail |
+| Native layer | 504 words / 16,942 bytes extracted from the complete page |
+| Visible provenance | No university, module code, instructor, academic year, lecture date, or assessment sitting is printed. Folder placement supplies Helwan BMS-102 pathology context only. |
+| Metadata caution | Quartz metadata records `iOS Version 26.3 (Build 23D127)` and March 10, 2026 creation/modification timestamps. These are file-production metadata, not evidence of authorship, teaching date, academic year, or sitting. |
+| Authority | Tier-6 notes-and-summaries teaching material. It is not an exam, written exercise, practical station, response sheet, or official answer source. |
+| Manifest twin flags | Non-preferred; declared near-duplicate of `src_214e45dfde3d765f38de` (`Inflammation (2).pdf`) and `src_cd8dba9d1707e2b8f18a` (`Inflammation.pdf`), and name-twin of preferred `src_50a7db1e5d21f2bd18c9` (`Inflammation (3).pdf`). |
+| Exact reuse result | The complete native extraction is byte-identical to preferred `Inflammation (3).pdf` page 2, and the independently generated 150-dpi renders are also byte-identical. The preferred three-page file concatenates `Inflammation.pdf` as page 1, this Family-100 carrier as page 2, and `Inflammation (2).pdf` as page 3. Thus Family 100 is an exact standalone page reuse, not independent evidence. |
+
+### Complete teaching, annotation, prompt/key, and residue inventory
+
+The sole page is headed `Step 4 — Leukocyte Activation & Phagocytosis`. It supplies completed
+bilingual teaching on motile phagocytes (microphages/neutrophils and blood monocytes becoming
+macrophages), fixed tissue histiocytes, recognition and attachment by IgG/C3b opsonization,
+engulfment and phagolysosome formation, oxygen-dependent and oxygen-independent killing,
+hydrolytic degradation, extracellular killing of large targets, mediator recruitment, blood-
+monocyte migration, macrophage roles in acute inflammation, and bacterial resistance to
+phagocytosis. A final devotional line is non-assessment closing matter.
+
+The handwritten circled `4`, `REK`, circled sequence numerals, arrows, highlights, underlines,
+and boxed mappings annotate or order already completed teaching. They neither ask for a response
+nor encode answer correctness. Every classification, mechanism, example, and consequence is
+supplied declaratively. There is no exam heading, candidate instruction, interrogative task,
+option set, unanswered blank, image-identification request, student response, mark allocation, or
+separate printed key.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**. Exact preferred-twin reuse independently
+precludes treating its teaching statements as new evidence.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted assessment handle survives the completed-teaching boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated. The exact page reuse against preferred `src_50a7db1e5d21f2bd18c9` page 2 is
+recorded as source-level duplication, not as a tested-handle reuse because neither carrier creates
+a handle here.
+
+| Measure | Family 100 | Auxiliary cumulative (Families 12–100) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 864 | 765 | 1,629 |
+| Printed/handwritten teaching-answer occurrences | 0 | 482 | 405 | 887 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 805 | 552 | 1,357 |
+| Source-distinct tested handles / required searches | 0 / 0 | 729 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**864 / 482 / 805 / 729 / +499**; and all eligible evidence remains
+**1,629 / 887 / 1,357 / 871**. Family 100 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status.
+
+### Exact next debt after Family 100
+
+`src_b456676b291ae592fc48` is exhausted across its sole page: every provenance field, declarative
+teaching block, annotation, exact twin relation, and zero-gate arithmetic term is assigned once,
+with **zero source remainder** and no Family-100 blocker. The exact next manifest record is tier-6
+`src_214e45dfde3d765f38de` · `Inflammation (2).pdf`, SHA-256
+`214e45dfde3d765f38de7cde57bae675acf35321f7f028d4b6691184cb66b5fa`, 145,524 bytes, one
+native-text portrait A4 page under `Pathology / Notes and Summaries`. The manifest marks it
+non-preferred, near-duplicate of `src_b456676b291ae592fc48` and
+`src_cd8dba9d1707e2b8f18a`, and name-twin of preferred `src_50a7db1e5d21f2bd18c9`; its complete
+bilingual teaching/prompt boundary, provenance, exact visual reuse, and twin/near-duplicate
+adjudication are the exact next-source blockers.
