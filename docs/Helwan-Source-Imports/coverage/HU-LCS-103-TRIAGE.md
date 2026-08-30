@@ -18773,3 +18773,88 @@ under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassifie
 page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 54
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 177 — Tier-6 attributed pyogenic and tuberculous osteomyelitis teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_1add1380ef6b5ce43bf8` / `1add1380ef6b5ce43bf802cf2cd4de3c324d46304d08d1a2e26e31a4c18836b7` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/bone disease 2.pdf` |
+| Physical verification | **414,961 bytes; 4 native-text portrait-A4 pages; 595.32 × 842.04 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | Every page prints `PATHOLOGY` and `DR . AHMED HASSAN`; p. 1 is titled `Approach to Bone Diseases`. Metadata separately names author `Hossam mohammed`, Microsoft Word 2019 creator/producer and 20 May 2025 creation/modification. No page prints a university, cohort, module code, examination sitting or marks. |
+| Authority finding | Attributed local tier-6 pathology teaching-summary evidence. The visible lecturer and metadata author are preserved as distinct source layers. It is not a recoverable sitting, response form, practical station or marking guide. |
+
+All **4/4 pages** were rendered at 180 dpi, inspected at full resolution and read against the
+complete native text layer. The complete source-first boundary is:
+
+| Page | Complete supplied content | Assessment / practical boundary |
+|---:|---|---|
+| 1 | pyogenic-osteomyelitis age predisposition, `Staph auerus` organism statement, haematogenous and direct routes, and the effects of trauma, surgery, foreign bodies, prostheses and bacteraemia | one completed teaching composition with two illustrative images; no prompt or response field |
+| 2 | labelled initial-infection, subperiosteal-abscess, sequestrum, involucrum and sinus sequences; one gross photograph and two histology micrographs | one completed pathogenesis/morphology composition; the two diagrams supply their own labels and the three other images have no identification instruction |
+| 3 | mycobacterial osteomyelitis types and blood-borne long-bone, short-bone/dactylitis and vertebral/Pott distributions | one completed teaching composition with illustrative clinical/radiographic images |
+| 4 | TB vertebrae with `DD: Bone metastasis` and a supplied cold-abscess definition, plus one gross vertebral image | one completed teaching composition; `DD:` labels a differential diagnosis rather than asking a question |
+
+The physical source therefore contains **4 completed teaching compositions / 0 eligible or
+external assessment prompts / 0 MCQ or written prompts / 0 keys-or-answers / 0 unkeyed
+assessment prompts**. Titles, colons, labels and the `DD:` abbreviation all introduce supplied
+facts. None asks the learner to respond.
+
+The labelled diagrams and unlabelled photographs, radiographs, gross specimens and
+micrographs are simultaneous theoretical instruction. There is no identify instruction,
+masked label, numbered station, learner-completed map, response blank or practical key.
+Practical delta is exactly **0 practical or station prompts / 0 teaching plates / 0 mappings /
+0 unresolved residues / 0 practical keys / 0 practical scopes**.
+
+Source states remain evidence without silent correction, including `Staph auerus`, `Direct
+(endogenous & exogenous)`, `T. B.`, `Pott’s disease`, `end arteritis obliterans (E. A.O)`,
+`DD: Bone metastasis` and the source's organism, route, morphology and differential claims.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The four page compositions consolidate to three complete teaching handles because pp. 3–4
+form one continuous tuberculous-osteomyelitis scope:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `pyogenic-osteomyelitis-risk-organisms-and-hematogenous-direct-routes` · p. 1 | pyogenic osteomyelitis Staph aureus; hematogenous osteomyelitis bacteremia; trauma surgery prosthesis bone infection; pyogenic osteomyelitis routes | Exact accepted Family 150 owns the complete teaching scope, with Families 64, 101 and 172 providing tested/summary corroboration — prior-LCS reuse. |
+| `pyogenic-pathogenesis-sequestrum-involucrum-and-sinus-morphology` · p. 2 | osteomyelitis sequestrum involucrum; subperiosteal abscess osteomyelitis; dead bone reactive new bone sinus; chronic osteomyelitis morphology | Exact accepted Family 150 owns the full teaching sequence, and accepted Families 55, 64, 101 and 172 corroborate its terminology — prior-LCS reuse. |
+| `tuberculous-bone-distribution-pott-metastasis-differential-and-cold-abscess` · pp. 3–4 | tuberculous dactylitis Pott disease cold abscess; bone TB long sequestrum endarteritis; Pott disease bone metastasis differential; cold-abscess-tuberculous-definition | Exact accepted Family 150 owns this combined distribution/differential/definition scope, with Families 64, 65, 101 and 172 corroborating parts — prior-LCS reuse. |
+
+Each of the **three accepted teaching handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **3 × 4 = 12 required search invocations**. Broad component matches do not
+supersede exact accepted prior-module ownership. Final disposition is **3 prior-LCS
+theoretical-teaching reuses / 0 additive live / 0 additive pending / 0 additive new scopes**.
+There is no assessment or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This source hash occurs once in Family 176's remainder. Removing its sole path changes the
+all-rank remainder from **54 paths / 51 unique hashes** to **53 paths / 50 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **39 paths / 39 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 176's prior checksums are
+`93ac71d5ab1a6bc025822db95430f7e55dd0ee8e1c4aa03007b73b541da6089e` (paths) and
+`2b7c214ecdfacda2a5ff4d22d4b5718b52dbcbe0d3d4e885e8d8c8e8e3181ee6` (unique hashes).
+For the exact post-Family-177 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`eb4baff96e363af114aaad5842c2f052fa733e4ecea8338caa37990b2533846a`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`8109ec5b5f891230de290cc9b00799e404bed42ed93566979e5bcad6f63d2235`.
+
+The exact next manifest-order debt is tier-6 `src_904ab40970bde48d3630`,
+`bone disease 3.pdf` (522,844 bytes; 6 native-text portrait-A4 pages; tagged; unencrypted;
+595.32 × 842.04 pt; SHA-256
+`904ab40970bde48d363014b3dc26d3242d2fc232391cbfd71d1623acdc31eef9`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page is
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 53 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
