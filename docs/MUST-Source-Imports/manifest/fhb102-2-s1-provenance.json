@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "13827656d0a2b1c102e9b9610ba46c03e573ca9ac4d09b749084365cf8281b9b",
-    "triageMarkdown": "37e9d244606010cc243b352926543f2f8ff4231f90c145da1e6274645c25a160"
+    "readinessMarkdown": "a1bf841d9b483583c3a68665bea5cc64891df380a3d38169b623198a9883e1e1",
+    "triageMarkdown": "0b302580cd36d289a5da1db6d2f8553c8e85ba0082ad45a567b9c68829684ed6"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -68,32 +68,86 @@
     }
   ],
   "processedFamilies": {
-    "sha256": [],
-    "uniqueSha256": 0
+    "sha256": [
+      "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
+    ],
+    "uniqueSha256": 1
   },
-  "completedSourceCoverage": [],
+  "completedSourceCoverage": [
+    {
+      "sha256": "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
+      "sourcePages": 33,
+      "renderedReadPages": "1-33",
+      "capturedPromptScreenshots": 33,
+      "distinctAssessmentPrompts": 32,
+      "objectiveMcqPrompts": 32,
+      "capturedQuestionLabels": "Q1-Q22,Q24,Q26-Q27,Q29-Q35",
+      "absentQuestionLabels": [
+        "Q23",
+        "Q25",
+        "Q28"
+      ],
+      "repeatedCaptureState": {
+        "label": "Q1",
+        "pages": [
+          1,
+          3
+        ],
+        "assessmentOccurrenceCount": 1
+      },
+      "printedKeyObservations": 18,
+      "studentSelectedResponseObservations": 18,
+      "officialFacultyKeyObservations": 0,
+      "sourceAbsentAnswers": 14,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 32,
+      "familyAnswerDelta": 18,
+      "acceptedSourceHandles": 22,
+      "searchesRun": 88,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 22,
+      "sourceProcessed": true,
+      "authorityDisposition": "direct CamScanner photographs of a Qorrect FHB102-2 Fundamentals of human body II active-attempt interface declaring 35 questions, 70 marks and 42 marks to pass; strong exam-sitting evidence, but no visible result screen, official faculty key, institution authentication, examiner or sitting date",
+      "boundaryDisposition": "thirty-two distinct conventional MCQ occurrences across Parasitology Q1-Q12, Pharmacology Q13-Q22 and Microbiology Q24,Q26-Q27,Q29-Q35; eighteen carry a student-selected response, fourteen are unselected, Q23/Q25/Q28 are absent, and the two Q1 screenshots are one assessment occurrence in two attempt states",
+      "preservedSourceDefects": [
+        "Q23, Q25 and Q28 are absent although the interface declares 35 questions",
+        "Q1 is photographed twice and counted once",
+        "student selections are answer-bearing attempt observations rather than an authenticated faculty key",
+        "personal account names visible in screenshots are excluded from durable evidence"
+      ]
+    }
+  ],
   "triageCumulative": {
-    "printedPromptObservations": 0,
-    "printedKeyObservations": 0,
-    "namedConceptsAssigned": 0,
+    "printedPromptObservations": 32,
+    "printedKeyObservations": 18,
+    "namedConceptsAssigned": 22,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 0
+    "newConcepts": 22
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
     "sha256": "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
     "pages": 33,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
+    "sha256": "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
+    "pages": 6,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 96,
-    "uniqueSha256": 94,
-    "sortedNewlineSha256": "3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313",
+    "inventoryMetadataRows": 95,
+    "uniqueSha256": 93,
+    "sortedNewlineSha256": "58bd03e147159d99e0338de9d8c4319f3d99cfe34367cb0a7254f82357de7cdd",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
-      "empty-text": 16,
+      "empty-text": 15,
       "sparse-text": 25,
       "substantive-text": 42
     }
@@ -101,14 +155,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 2,
     "audit-not-found": 11,
-    "empty-text": 16,
+    "empty-text": 15,
     "sparse-text": 25,
     "substantive-text": 42
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 0,
-    "remainingUniqueSha256": 94,
+    "processedUniqueSha256": 1,
+    "remainingUniqueSha256": 93,
     "processedPlusRemaining": 94
   }
 }

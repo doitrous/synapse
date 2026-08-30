@@ -8,13 +8,19 @@ const REQUIRED = ['--inventory', '--inspected', '--readiness', '--triage', '--le
 const CATEGORIES = ['05 MCQs', '06 EOM Exams', '07 EOY Exams', '08 Midterm Exams']
 const EXAM_CATEGORIES = new Set(['06 EOM Exams', '07 EOY Exams', '08 Midterm Exams'])
 const KEY_PATTERN = /answer|answered|answer key|model answer|solution|solutions|اجاب|إجاب|حل/i
-const PROCESSED_FAMILY_HASHES = []
+const PROCESSED_FAMILY_HASHES = ['dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470']
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = SELECTED_CHECKSUM
+const REMAINING_CHECKSUM = '58bd03e147159d99e0338de9d8c4319f3d99cfe34367cb0a7254f82357de7cdd'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
   pages: 33,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
+  sha256: 'b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063',
+  pages: 6,
   sourceProcessed: false,
 }
 
@@ -93,10 +99,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 16, 'sparse-text': 25, 'substantive-text': 42 }
+  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 15, 'sparse-text': 25, 'substantive-text': 42 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=42-substantive/25-sparse/16-empty/11-not-found/2-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=42-substantive/25-sparse/15-empty/11-not-found/2-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -112,7 +118,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256]) {
+for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -158,7 +164,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 0 || remainingHashes.length !== 94 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 1 || remainingHashes.length !== 93 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -166,7 +172,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 16, 'sparse-text': 25, 'substantive-text': 42 }
+const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 15, 'sparse-text': 25, 'substantive-text': 42 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -194,9 +200,40 @@ const provenance = {
   auditSampleStatusCounts: countStatuses(ledgerRows),
   duplicateFamilies,
   processedFamilies: { sha256: processedHashes, uniqueSha256: processedHashes.length },
-  completedSourceCoverage: [],
-  triageCumulative: { printedPromptObservations: 0, printedKeyObservations: 0, namedConceptsAssigned: 0, liveHits: 0, pendingHits: 0, newConcepts: 0 },
+  completedSourceCoverage: [
+    {
+      sha256: FIRST_SOURCE.sha256,
+      sourcePages: 33,
+      renderedReadPages: '1-33',
+      capturedPromptScreenshots: 33,
+      distinctAssessmentPrompts: 32,
+      objectiveMcqPrompts: 32,
+      capturedQuestionLabels: 'Q1-Q22,Q24,Q26-Q27,Q29-Q35',
+      absentQuestionLabels: ['Q23', 'Q25', 'Q28'],
+      repeatedCaptureState: { label: 'Q1', pages: [1, 3], assessmentOccurrenceCount: 1 },
+      printedKeyObservations: 18,
+      studentSelectedResponseObservations: 18,
+      officialFacultyKeyObservations: 0,
+      sourceAbsentAnswers: 14,
+      writtenPrompts: 0,
+      practicalOrImagePrompts: 0,
+      teachingPrompts: 0,
+      familyQuestionDelta: 32,
+      familyAnswerDelta: 18,
+      acceptedSourceHandles: 22,
+      searchesRun: 88,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 22,
+      sourceProcessed: true,
+      authorityDisposition: 'direct CamScanner photographs of a Qorrect FHB102-2 Fundamentals of human body II active-attempt interface declaring 35 questions, 70 marks and 42 marks to pass; strong exam-sitting evidence, but no visible result screen, official faculty key, institution authentication, examiner or sitting date',
+      boundaryDisposition: 'thirty-two distinct conventional MCQ occurrences across Parasitology Q1-Q12, Pharmacology Q13-Q22 and Microbiology Q24,Q26-Q27,Q29-Q35; eighteen carry a student-selected response, fourteen are unselected, Q23/Q25/Q28 are absent, and the two Q1 screenshots are one assessment occurrence in two attempt states',
+      preservedSourceDefects: ['Q23, Q25 and Q28 are absent although the interface declares 35 questions', 'Q1 is photographed twice and counted once', 'student selections are answer-bearing attempt observations rather than an authenticated faculty key', 'personal account names visible in screenshots are excluded from durable evidence'],
+    },
+  ],
+  triageCumulative: { printedPromptObservations: 32, printedKeyObservations: 18, namedConceptsAssigned: 22, liveHits: 0, pendingHits: 0, newConcepts: 22 },
   firstSourceCandidate: FIRST_SOURCE,
+  nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 94, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
