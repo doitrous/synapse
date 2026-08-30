@@ -5084,3 +5084,157 @@ under `Microbiology / Notes and Summaries`. The current local filename normalise
 manifest's trailing space (`bacterial growth.pdf`) while retaining the same byte hash. Its
 OCR-needed six-page boundary is the next-source processing blocker: fully render and visually
 adjudicate prompt, teaching, and answer conventions before admitting any count.
+
+## Family 48 — tier-6 Medicine Way bacterial-growth MCQ excerpt
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_46b5b415246144bb43d0` · manifest `bacterial growth .pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/bacterial growth.pdf`; the local filename normalises away the manifest's trailing space |
+| SHA-256 / size | `46b5b415246144bb43d00e640c311e620d9f52d43b8c06e392f5c7447b497ae7` · 1,562,736 bytes |
+| Format / read boundary | Six OCR-needed A4 pages; all six physical pages rendered at 220 dpi and visually read in full, with OCR used only as a transcription aid |
+| Authority | Medicine Way / Arabic `طريق الطب` channel-team compilation attributed on the cover to Mansour El Gazzar; no Helwan/university or faculty masthead, module code, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is a promotional cover. Physical pp. 2–6 contain a continuous detached MCQ
+excerpt numbered Q48–Q80. The numbering starts at 48 and the topic changes from bacterial
+structure through `Bacterial growth` to `Genetics & Bacteriophage`, so this is a compiled study
+bank rather than a recoverable original paper or sitting. Its manifest placement supports
+BMS-102 topical relevance, but it is auxiliary study evidence only.
+
+The prompt-start checksum is `0 + 6 + 7 + 7 + 7 + 6 = 33`. Every stem and option set is
+complete. There is no answer register, option mark, response field, correctness annotation, or
+repeatable answer convention. Uniform underlining formats the stems and section headings rather
+than selecting an option. Therefore the family has **33 complete prompt occurrences / 0 printed
+answer occurrences / 33 retained question records**. No answer is inferred from an option set,
+and the source's legacy mesosome wording and clinically framed Q74 are preserved as low-authority
+tested scope rather than promoted to verified guidance.
+
+### Complete prompt inventory, source-first collapse, and prior-BMS ledger
+
+| Ref | Page | Complete source-tested scope without supplying an unprinted answer | Handle / assignment |
+|---|---:|---|---|
+| F48-Q48 | 2 | Inclusion granules: permanent structure, Gram-negative-bacillus restriction, reserve nutrients, or protein nature | `inclusion-granules-reserve-nutrients` |
+| F48-Q49 | 2 | Only listed prokaryote with sterol in the cell membrane | `mycoplasma-only-bacterial-sterol-membrane` |
+| F48-Q50 | 2 | How fimbriae contribute to bacterial pathogenicity | `ordinary-fimbriae-host-adhesion` · exact F39-Q06/Q17 scope |
+| F48-Q51 | 2 | Bacterial-growth phase in which sporulation occurs | `sporulation-stationary-phase` |
+| F48-Q52 | 2 | Meaning of bacterial growth: cell mass, size, or number | `bacterial-growth-increase-cell-number-definition` |
+| F48-Q53 | 2 | Oxygen requirement that identifies microaerophilic bacteria | `microaerophile-low-oxygen-tension` · exact F14-Q08 reuse |
+| F48-Q54 | 3 | Nutritional role for which most bacteria require vitamins | `bacterial-vitamins-growth-factor` |
+| F48-Q55 | 3 | Oxygen use and tolerance that identifies aerotolerant bacteria | `aerotolerant-fermentation-oxygen-tolerance-sod` · exact F14-Q09/F36-Q08 scope |
+| F48-Q56 | 3 | Growth phase in which bacterial cells are more susceptible to antibiotics | `antibiotic-susceptibility-exponential-phase` |
+| F48-Q57 | 3 | Typical generation-time interval for most medically important bacteria | `medically-important-bacteria-generation-time-20-minutes` |
+| F48-Q58 | 3 | Temperature-class name for bacteria growing best below 20 °C | `psychrophile-below-20c-growth` |
+| F48-Q59 | 3 | Optimum temperature for most pathogenic bacteria | `pathogenic-bacteria-optimum-growth-temperature` · exact F14-Q13 reuse |
+| F48-Q60 | 3 | Oxygen-class differential for bacteria able to grow without oxygen | `anaerobes-grow-without-oxygen` |
+| F48-Q61 | 4 | Name for bacteria requiring 5–10% CO2 for growth | `bacterial-high-co2-growth-requirement` |
+| F48-Q62 | 4 | Organism-group differential for growth in acidic pH | `lactobacilli-acidic-ph-growth` |
+| F48-Q63 | 4 | Incorrect statement among binary fission, restriction enzymes, mesosomes, and two daughter cells | `bacterial-cell-division-restriction-enzyme-exception` |
+| F48-Q64 | 4 | Oxygen conditions in which facultative anaerobes can grow | `facultative-anaerobe-presence-or-absence-oxygen` |
+| F48-Q65 | 4 | Growth requirements that identify autotrophic bacteria | `autotroph-inorganic-growth-requirements` |
+| F48-Q66 | 4 | Organic-compound sourcing that identifies heterotrophic bacteria | `heterotroph-host-organic-compound-source` |
+| F48-Q67 | 4 | Name for bacteria synthesising organic compounds from inorganic compounds | retain; semantic collapse to `autotroph-inorganic-growth-requirements` |
+| F48-Q68 | 5 | Temperature group to which most pathogenic bacteria belong | `pathogenic-bacteria-mesophilic-classification` |
+| F48-Q69 | 5 | Lag-phase event involving enzyme accumulation before multiplication | `lag-phase-enzyme-accumulation` |
+| F48-Q70 | 5 | Exponential-phase viable-count behaviour | `bacterial-growth-curve-log-rapid-net-growth` |
+| F48-Q71 | 5 | Phase in which bacterial deaths balance formation of new cells | `bacterial-growth-curve-stationary-balanced-population` · exact F14-Q05 reuse |
+| F48-Q72 | 5 | Temperature-class name for organisms growing above 50 °C | `thermophile-above-50c` |
+| F48-Q73 | 5 | Log-phase cause framed as maximal-rate regular cell division | retain; semantic collapse to `bacterial-growth-curve-log-rapid-net-growth` · exact F14-Q04 reuse |
+| F48-Q74 | 5 | Growth-curve phase with which recovery from infectious disease is correlated | `infectious-disease-recovery-decline-phase` |
+| F48-Q75 | 6 | Requirement that identifies capnophilic bacteria | retain; semantic collapse to `bacterial-high-co2-growth-requirement` · exact F14-Q11 reuse |
+| F48-Q76 | 6 | Growth phase in which bacteria are highly susceptible to antimicrobial agents | retain; semantic collapse to `antibiotic-susceptibility-exponential-phase` |
+| F48-Q77 | 6 | Exception among haploidy, double-stranded DNA, deoxyribonucleoprotein association, and mitosis as bacterial-chromosome characteristics | `bacterial-chromosome-property-exception-mitosis` |
+| F48-Q78 | 6 | Term for the genetic constitution of a cell | `genotype-genetic-constitution-definition` |
+| F48-Q79 | 6 | Exception among transformation, transcription, lysogenic conversion, and conjugation as bacterial genetic-material transmission methods | `bacterial-gene-transfer-method-exception-transcription` |
+| F48-Q80 | 6 | Name for viral-mediated transmission of genetic material in bacteria | `transduction-phage-mediated-host-dna-transfer` · exact F27-Q18 reuse |
+
+There are no literal copies or wording-only repeats. Q56/Q76, Q61/Q75, Q65/Q67, and
+Q70/Q73 are retained wording variants but each pair tests one source-distinct scope. Hence
+**33 retained records - 4 semantic collapses = 29 source-distinct tested handles**. The eight
+prior-BMS exact handles are Q50, Q53, Q55, Q59, Q61/Q75, Q70/Q73, Q71, and Q80. Q49 remains
+distinct from F29-Q04's two-feature no-wall-plus-sterol genus identification; Q57 is narrower
+than F14-Q02's doubling-time definition and full range; Q64 and Q65–Q67 remain narrower than
+F26's oxygen-category and autotroph-versus-heterotroph surveys; Q68 tests the mesophile class
+rather than F14-Q13's exact 37 °C optimum; Q69 tests enzyme accumulation rather than F14-Q03's
+no-division fact; and Q79's transcription/lysogenic-conversion exception is not the same scope
+as F12-G06's three-method enumeration.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 29 handles received exactly four required searches across live state, all pending
+import roots, and prior BMS-102 evidence: **116 required searches**. Literal runs were followed by
+manual reopening of the exact pending concepts named below; article prose and broader or adjacent
+concepts were rejected. External disposition is **0 live / 12 pending / 17 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `inclusion-granules-reserve-nutrients` · Q48 | `inclusion granules`; `reserve nutrients bacteria`; `bacterial inclusion bodies`; `storage granules bacteria` | no same-scope | none; delta |
+| `mycoplasma-only-bacterial-sterol-membrane` · Q49 | `Mycoplasma sterol membrane`; `bacterial membrane sterol exception`; `only prokaryote sterol`; `prokaryotic membrane cholesterol Mycoplasma` | pending `CON-INF-F8912B54FCA3A5`; exact bacterial-membrane sterol exception | distinct from F29-Q04's no-wall-plus-sterol composite; delta |
+| `ordinary-fimbriae-host-adhesion` · Q50 | `fimbriae bacterial adhesion`; `ordinary pili adherence`; `bacterial fimbriae pathogenicity`; `pili attach host cells` | no same-scope | exact F39-Q06/Q17 reuse |
+| `sporulation-stationary-phase` · Q51 | `sporulation stationary phase`; `bacterial sporulation growth phase`; `endospore formation stationary`; `spore formation nutrient depletion phase` | no same-scope | none; delta |
+| `bacterial-growth-increase-cell-number-definition` · Q52 | `bacterial growth increase cell number`; `definition bacterial growth`; `microbial growth cell number`; `growth not cell size bacteria` | no same-scope | none; delta |
+| `microaerophile-low-oxygen-tension` · Q53 | `microaerophile low oxygen tension`; `microaerophilic bacteria definition`; `bacteria require oxygen low level`; `trace oxygen bacterial growth` | pending `CON-INF-D31966C6CEF85C`; exact low-oxygen classification | exact F14-Q08/F36-Q09 reuse |
+| `bacterial-vitamins-growth-factor` · Q54 | `bacteria vitamins growth factor`; `vitamins bacterial growth requirements`; `bacterial growth factors vitamins`; `vitamin requirement microbes` | no same-scope | none; delta |
+| `aerotolerant-fermentation-oxygen-tolerance-sod` · Q55 | `aerotolerant bacteria oxygen not toxic`; `aerotolerant fermentative metabolism oxygen`; `oxygen tolerant anaerobic metabolism`; `aerotolerant bacteria definition` | no same-scope; oxygen-class records omit the aerotolerant source scope | exact F14-Q09/F36-Q08 reuse |
+| `antibiotic-susceptibility-exponential-phase` · Q56,Q76 | `antibiotic susceptibility exponential phase`; `bacteria antibiotics log phase`; `maximal antimicrobial sensitivity growth phase`; `actively dividing bacteria antibiotic susceptibility` | pending `CON-INF-2E629B81136A05`; exact phase-susceptibility relation | none; delta |
+| `medically-important-bacteria-generation-time-20-minutes` · Q57 | `medically important bacteria generation time`; `bacterial generation time 20 minutes`; `pathogenic bacteria doubling time`; `most bacteria generation interval` | no same-scope | distinct from F14-Q02/F26-W07 definition-and-range; delta |
+| `psychrophile-below-20c-growth` · Q58 | `psychrophilic bacteria below 20`; `psychrophile growth temperature`; `cold loving bacteria 20 C`; `bacterial temperature classification psychrophile` | no same-scope | none; F26-W05 is a broader range survey, so delta |
+| `pathogenic-bacteria-optimum-growth-temperature` · Q59 | `optimum bacterial growth 37 C`; `pathogenic bacteria body temperature`; `bacterial growth temperature 37 degrees`; `mesophilic pathogen optimum temperature` | no same-scope; pathogen-profile record does not state the source's exact 37 °C recognition scope | exact F14-Q13 reuse |
+| `anaerobes-grow-without-oxygen` · Q60 | `bacteria grow absence oxygen`; `anaerobic growth without oxygen`; `anaerobes definition bacteria`; `bacterial oxygen absence growth` | pending `CON-INF-D31966C6CEF85C`; scope-complete oxygen-class differential | none; broader F26-W04 list is distinct, so delta |
+| `bacterial-high-co2-growth-requirement` · Q61,Q75 | `bacteria require 5-10 percent CO2`; `capnophilic increased carbon dioxide`; `high CO2 bacterial growth`; `bacterial CO2 requirement` | pending `CON-INF-3D845DC6B07880`; exact increased-CO2/capnophile relation | exact F14-Q11 reuse |
+| `lactobacilli-acidic-ph-growth` · Q62 | `Lactobacilli acidic pH`; `acid tolerant Lactobacillus growth`; `bacteria grow acidic pH`; `Lactobacillus low pH` | no same-scope | none; delta |
+| `bacterial-cell-division-restriction-enzyme-exception` · Q63 | `restriction enzyme bacterial cell division`; `bacterial chromosome replication restriction enzyme`; `binary fission restriction enzymes`; `bacterial cell division incorrect statement` | no same-scope | F26-W01 covers the division sequence, not this restriction-enzyme exception; delta |
+| `facultative-anaerobe-presence-or-absence-oxygen` · Q64 | `facultative anaerobes presence absence oxygen`; `facultative bacteria grow without oxygen`; `facultative anaerobe definition`; `oxygen optional bacterial growth` | pending `CON-INF-D31966C6CEF85C`; exact with-or-without-oxygen relation | narrower than F26-W04 and distinct from F36-E01; delta |
+| `autotroph-inorganic-growth-requirements` · Q65,Q67 | `autotrophic bacteria inorganic salts water CO2`; `bacterial autotroph carbon dioxide`; `autotroph synthesizes organic from inorganic`; `autotrophic bacterial nutrition` | pending `CON-INF-841FAB7F11BA18`; exact inorganic/CO2 carbon-source scope | narrower than F26-W03's comparison; delta |
+| `heterotroph-host-organic-compound-source` · Q66 | `heterotrophic bacteria obtain organic compounds host`; `bacterial heterotroph organic carbon`; `heterotrophic bacteria definition`; `pathogenic bacteria heterotroph` | pending `CON-INF-841FAB7F11BA18`; exact organic-carbon/clinical-group scope | narrower than F26-W03's comparison; delta |
+| `pathogenic-bacteria-mesophilic-classification` · Q68 | `most pathogenic bacteria mesophilic`; `pathogen temperature classification mesophile`; `mesophilic bacteria human pathogens`; `bacterial pathogen body temperature group` | pending `CON-INF-3528D1EAF3F9B4`; exact pathogen-mesophile subclaim | distinct from F14-Q13's exact optimum-temperature scope; delta |
+| `lag-phase-enzyme-accumulation` · Q69 | `lag phase enzymes accumulating`; `bacterial lag phase preparation multiplication`; `lag phase metabolic adaptation`; `enzyme synthesis before bacterial division` | no same-scope; phase-definition record does not state enzyme accumulation | distinct from F14-Q03's no-division scope; delta |
+| `bacterial-growth-curve-log-rapid-net-growth` · Q70,Q73 | `log phase maximal division rate`; `exponential growth increasing viable bacteria`; `bacterial log phase rapid growth`; `exponential phase cell number increases` | pending `CON-INF-6D56F46B5F1EF4`; exact maximal-division phase definition | exact F14-Q04 reuse |
+| `bacterial-growth-curve-stationary-balanced-population` · Q71 | `stationary phase equal growth death`; `bacterial death formation balanced`; `stationary bacterial population constant`; `growth curve stationary phase` | pending `CON-INF-6D56F46B5F1EF4`; exact balanced-population definition | exact F14-Q05 reuse |
+| `thermophile-above-50c` · Q72 | `thermophilic bacteria above 50 C`; `bacteria high temperature growth`; `thermophile growth temperature threshold`; `organisms grow above 50 degrees` | no same-scope; environmental-classification record lacks the threshold | F26-W05 is a broader range survey; delta |
+| `infectious-disease-recovery-decline-phase` · Q74 | `recovery infectious disease decline phase`; `bacterial growth curve clinical recovery`; `infection recovery death phase bacteria`; `decline phase correlates recovery` | no same-scope | none; source claim retained as low-authority scope, delta |
+| `bacterial-chromosome-property-exception-mitosis` · Q77 | `bacterial chromosome does not replicate mitosis`; `bacterial chromosome haploid double stranded DNA`; `prokaryotic chromosome mitosis exception`; `bacteria chromosome characteristics` | no same-scope | broader genome lists and binary-fission records do not test this composite exception; delta |
+| `genotype-genetic-constitution-definition` · Q78 | `genotype genetic constitution cell`; `genetic constitution definition`; `genotype versus phenotype bacteria`; `cell genotype terminology` | no same-scope | none; delta |
+| `bacterial-gene-transfer-method-exception-transcription` · Q79 | `bacterial gene transfer methods transcription`; `transformation conjugation lysogenic conversion`; `transcription not gene transfer bacteria`; `horizontal gene transfer exception` | no same-scope | distinct from F12-G06's three-method enumeration; delta |
+| `transduction-phage-mediated-host-dna-transfer` · Q80 | `bacteriophage carries host cell DNA`; `phage mediated bacterial gene transfer`; `bacterial transduction definition`; `host DNA bacteriophage transfer` | pending `CON-INF-E9C14F5981ACE5`; exact phage-mediated transfer definition | exact F27-Q18 reuse |
+
+Thus **29 handles - 8 prior exact reuses = +21 concepts**.
+
+| Measure | Family 48 | Auxiliary cumulative (Families 12–48) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 33 | 299 | 765 | 1,064 |
+| Printed study-answer occurrences | 0 | 188 | 405 | 593 |
+| Retained question records | 33 | 296 | 552 | 848 |
+| Source-distinct tested handles / required searches | 29 / 116 | 288 / — | — | — |
+| External live / pending / no same-scope | 0 / 12 / 17 | — | — | family-local disposition |
+| Cross-family concept delta | +21 | +216 over primary | 372 | `372 + 216 = 588` |
+| **Distinct tested concepts** | **+21** | **216 auxiliary additions** | **372** | **588** |
+
+The checksum closes without remainder: prompt starts are `0 + 6 + 7 + 7 + 7 + 6 = 33`;
+key alignment is `33 - 0 = 33` unkeyed; retention is `33 - 0 copies = 33`; handle assignment
+is `33 records - 4 semantic collapses = 29`; assignment is `33 - 33 = 0` unassigned;
+searches are `29 × 4 = 116`; external disposition is `0 + 12 + 17 = 29`; and concept
+arithmetic is `29 - 8 = 21`. Auxiliary cumulative arithmetic is `266 + 33 = 299` prompts,
+`188 + 0 = 188` printed answers, `263 + 33 = 296` retained records,
+`259 + 29 = 288` source handles, and `195 + 21 = 216` concept additions over primary.
+All-eligible arithmetic is `765 + 299 = 1,064`, `405 + 188 = 593`,
+`552 + 296 = 848`, and `372 + 216 = 588`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**299 / 188 / 296 / 288 / +216**; and all eligible evidence is
+**1,064 / 593 / 848 / 588**. This tier-6 unkeyed excerpt cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 48
+
+`src_46b5b415246144bb43d0` is exhausted across all six pages: the cover, every prompt and
+option set, answer-convention ruling, retained record, handle, search row, external disposition,
+and prior-BMS decision are assigned once, with **zero source remainder** and no Family-48
+blocker. The next manifest-ordered local BMS-102 candidate is tier-6
+`src_31809cbb6c6399e0784c` · `bacterial structure.pdf`, SHA-256
+`31809cbb6c6399e0784c023c095414617366e692430fa2694f11ff1e1ebf3ce4`, 2,015,669 bytes,
+nine OCR-needed pages under `Microbiology / Notes and Summaries`. Its OCR-needed nine-page
+boundary is the next-source processing blocker: fully render and visually adjudicate prompts,
+teaching material, and answer conventions before admitting any count.
