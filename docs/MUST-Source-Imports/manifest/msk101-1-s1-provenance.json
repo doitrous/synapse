@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "b8a45a07e87ec9780f990632adbf3627e623ccaf7da4ad5e9e7f52fc7368e25a",
-    "triageMarkdown": "9417278d176202500d1f5e814a5cf405d5d93acb7306f6b2e268b4b35912792c"
+    "readinessMarkdown": "a493dd349363fa25d0ee8fd7c78b49b64fabcf50e561a6e7ea1333cf0c9fdf8c",
+    "triageMarkdown": "571d45c09c8fa18f1e9b614607b441e5662d65273cd3eac9334272e6aa6d3b3a"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -91,6 +91,7 @@
       "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
       "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
       "76f222495bbcf578707ecb3b86f424eac6c2c3c6e3d3a18e1b8f8419640dff7c",
+      "77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077",
       "7cd4b593fcc91d60684a1e19519a277a50386c5cd245cf48813e84d7f164167f",
       "7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043",
       "841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296",
@@ -140,7 +141,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 88
+    "uniqueSha256": 89
   },
   "completedSourceCoverage": [
     {
@@ -2853,33 +2854,72 @@
         "labeled atlas figures and slide-identification schemes are teaching aids and are not manufactured into practical stations",
         "source wording, captions and textbook claims remain uncorrected observations"
       ]
+    },
+    {
+      "sha256": "77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077",
+      "sourcePages": 15,
+      "renderedReadPages": "1-15",
+      "coverPages": "1",
+      "firstBankQuestionPages": "2-6",
+      "firstBankKeyPages": "6",
+      "secondBankQuestionPages": "7-13",
+      "secondBankKeyPages": "14",
+      "blankPages": "15",
+      "printedPromptObservations": 148,
+      "objectiveMcqPrompts": 148,
+      "printedKeyTokenObservations": 148,
+      "printedKeyObservations": 147,
+      "objectiveKeyObservations": 147,
+      "sourceAbsentAnswers": 1,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 148,
+      "familyAnswerDelta": 147,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceConnectiveTissueAcceptedSourceHandles": 5,
+      "referenceConnectiveTissueSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "visibly branded Dr. Kandeel connective-tissue MCQ handout produced through iOS Quartz on 3 December 2020; no institution, department, examination sitting, marks or official faculty-key claim appears",
+      "boundaryDisposition": "cover page followed by a 67-question bank with its key at the foot of page 6 and a separately renumbered 81-question bank on pages 7-13 with terminal key page 14; all 148 occurrences are objective MCQs, with no written, practical, image-identification, teaching-only or answer-only material; 148 key tokens are printed, but second-bank Q64 is explicitly cancelled in Arabic and is retained as one source-unkeyed prompt, yielding 147 reliable answer observations",
+      "priorCarrierComparison": {
+        "disposition": "distinct two-bank Dr. Kandeel carrier; numerous normalized stems and reordered blocks overlap the completed 79-question connective-tissue section in New MCQ for histology and the wider completed five-handle connective-tissue family, so all candidate scopes collapse before search while the 148 physical source occurrences are counted once"
+      },
+      "preservedSourceDefects": [
+        "second-bank Q64 key is the Arabic cancellation token ملغي rather than an option answer",
+        "the second bank repeats its antigen-presenting-cell prompt at Q17 and Q23 and repeats other normalized scopes without suppressing distinct physical occurrences",
+        "first-bank Q48 prints uppercase A in the key and second-bank Q51 prints a,b; both remain source answer observations without normalization into medically corrected answers",
+        "printed spelling, option labels and academically questionable answers remain uncorrected"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 7017,
-    "printedKeyObservations": 6813,
+    "printedPromptObservations": 7165,
+    "printedKeyObservations": 6960,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 13,
-    "uniqueSha256": 13,
-    "sortedNewlineSha256": "abb42019744026d46e11af0ff7b5b940ee90df63fbefa3317c808081488093a7",
+    "inventoryMetadataRows": 12,
+    "uniqueSha256": 12,
+    "sortedNewlineSha256": "efcfb9ab7e21a6dbb8e42715e727400bda967f0eb0a7ddef704ffeb99fd9f7ce",
     "auditSampleStatusCounts": {
-      "audit-not-found": 12,
-      "empty-text": 1
+      "audit-not-found": 12
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 12,
-    "empty-text": 1
+    "audit-not-found": 12
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 88,
-    "remainingUniqueSha256": 13,
+    "processedUniqueSha256": 89,
+    "remainingUniqueSha256": 12,
     "processedPlusRemaining": 101
   }
 }

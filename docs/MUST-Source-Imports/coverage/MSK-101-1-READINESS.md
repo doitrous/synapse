@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The eighty-eight completed read-only source hashes cover ninety selected inventory paths, represent fifty-six distinct prompt families and yield **7017 questions / 6813 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 232-page `MCQs - histo.pdf`, SHA-256 `d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1`, is the Cairo University Faculty of Medicine Histology Department's first-year `Histology & Cell Biology: A Text & Atlas`: front matter on pages 1-4, eleven continuous textbook chapters on pages 5-190, references on page 191, a blank page 192, atlas divider page 193, fully labeled teaching atlas pages 194-226, labeled slide-identification schemes/high-power teaching slides on pages 227-231 and publisher imprint page 232. It contains **0 objective / 0 written / 0 practical or image-identification prompts / 0 answers or keys**. Learning outcomes and fully labeled figures remain instruction, not assessment. No candidate handle exists, so **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The eighty-nine completed read-only source hashes cover ninety-one selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed fifteen-page `QUESTIONS ON CONNECTIVE TISSUE by DR.KANDEEL.pdf`, SHA-256 `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`, contains a 67-question keyed MCQ bank on pages 2-6 and a separately renumbered 81-question MCQ bank on pages 7-14, with cover page 1 and blank page 15. Its exact boundary is **148 objective prompts / 148 printed key tokens / 147 reliable answer observations / 1 explicitly cancelled prompt / 0 written / 0 practical or image-identification prompts**. It is a visibly branded Dr. Kandeel teaching bank, not an authenticated MUST/MSK exam or faculty key. Reordered and repeated stems collapse to the completed connective-tissue family's five handles and twenty searches, so **0 new handles × 4 = 0 new searches**, and the source contributes **+148 questions / +147 answers / +0 concepts**.
 
-Latest processed family hash: `d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1`.
+Latest processed family hash: `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`.
 
-Recent processed family hash retained for reconciliation: `366fa5cbf0ef37492471630cd222f967879b706d7933adb89fedeb50b8470edd`.
+Recent processed family hash retained for reconciliation: `d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -86,8 +86,10 @@ Current processed-family append: `366fa5cbf0ef37492471630cd222f967879b706d7933ad
 
 Current teaching-source append: `d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1`.
 
-Removing them leaves **13 inventory paths / 13 unique SHA-256s**, checksum `abb42019744026d46e11af0ff7b5b940ee90df63fbefa3317c808081488093a7`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 1 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current processed-family append: `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/QUESTIONS ON CONNECTIVE TISSUE by DR.KANDEEL.pdf`, SHA-256 `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`, 15 pages.
+Removing them leaves **12 inventory paths / 12 unique SHA-256s**, checksum `efcfb9ab7e21a6dbb8e42715e727400bda967f0eb0a7ddef704ffeb99fd9f7ce`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 13 selected inventory paths / 13 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary Artrey + Branchial Plexus (by Roaa).pdf`, SHA-256 `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 12 selected inventory paths / 12 unique hashes remain untriaged.

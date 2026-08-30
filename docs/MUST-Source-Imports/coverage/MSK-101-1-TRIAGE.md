@@ -3561,3 +3561,41 @@ Removing the eighty-eight processed unique hashes leaves **13 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/QUESTIONS ON CONNECTIVE TISSUE by DR.KANDEEL.pdf`, SHA-256 `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`, 15 pages.
 
 **BLOCKED — S1 cannot be approved:** 13 selected inventory paths / 13 unique hashes remain untriaged.
+
+## Completed source — QUESTIONS ON CONNECTIVE TISSUE by DR.KANDEEL
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/QUESTIONS ON CONNECTIVE TISSUE by DR.KANDEEL.pdf` | `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077` | 15 | empty-text audit sample | pages 1–15 rendered and read | Cover and every assessment page visibly carry Dr. Kandeel branding. PDF metadata identifies only iOS 14.3 Quartz PDFContext and a 3 December 2020 creation/modification date. No institution, department, examination sitting, marks or official faculty-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/QUESTIONS ON CONNECTIVE TISSUE by DR.KANDEEL.pdf" purpose="source"}
+
+### Exact objective, written, practical, image and key boundary
+
+Page 1 is the cover. Pages 2–6 contain the first numbered MCQ bank, Q1–Q67, with its complete 67-token answer table printed at the foot of page 6. Pages 7–13 contain a separately renumbered second MCQ bank, Q1–Q81, and page 14 prints its 81-token key; page 15 is blank.
+
+The exact assessment boundary is **148 objective MCQ prompt observations / 148 printed key-token observations / 147 reliable answer observations / 1 source-unkeyed prompt / 0 written prompts / 0 practical or image-identification prompts / 0 teaching-only prompts / 0 answer-only observations**. Second-bank Q64 has the Arabic key token `ملغي` (`cancelled`) rather than an option answer and remains unkeyed. First-bank Q48's uppercase `A`, second-bank Q51's `a,b`, all option wording and all academically questionable selections are retained as printed rather than medically corrected. Repeated normalized stems, including the second bank's duplicate antigen-presenting-cell prompt at Q17 and Q23, remain separate physical assessment occurrences.
+
+### Authority, source truth, prior-MSK collapse and search gate
+
+Visible Dr. Kandeel branding supports named-person teaching-bank attribution only. iOS production metadata, folder placement and the word `QUESTIONS` do not authenticate a MUST/MSK examination, examiner, sitting, marks or faculty key.
+
+The two banks cover connective-tissue origin, cells and matrix; collagen, elastic and reticular fibres and stains; fibroblast/pericyte/adipocyte/macrophage/mast/plasma/reticular-cell morphology and functions; and loose, dense, elastic, reticular, adipose and mucoid connective-tissue types and sites. Numerous stems appear in reordered form in the completed 79-question connective-tissue section of `New MCQ for histology`, while every scope maps to the completed connective-tissue family's five accepted handles and twenty searches. No genuinely new handle survives prior-MSK collapse, so the exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+148 questions / +147 answers / +0 concepts**. Cumulative arithmetic is **7017 + 148 = 7165 questions**, **6813 + 147 = 6960 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-nine processed unique hashes leaves **12 selected inventory paths / 12 unique SHA-256s**. Their sorted, newline-joined hash checksum is `efcfb9ab7e21a6dbb8e42715e727400bda967f0eb0a7ddef704ffeb99fd9f7ce`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`89 + 12 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary Artrey + Branchial Plexus (by Roaa).pdf`, SHA-256 `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 12 selected inventory paths / 12 unique hashes remain untriaged.
