@@ -13316,3 +13316,89 @@ manifest record is tier-6 `src_a96c67108d278d933d5b` · `neoplasia 1 (1).pdf`, S
 `PATHOLOSIS`/neoplasia teaching provenance versus Canva/Bassem Ahmed metadata, complete
 teaching/prompt/key/practical boundary, and prior-neoplasia reuse are the exact next-source
 blockers.
+
+## Family 126 — PATHOLOSIS Dr Tarek neoplasms teaching booklet
+
+### Source identity, complete render boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_a96c67108d278d933d5b` · `neoplasia 1 (1).pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `a96c67108d278d933d5b1329ecbe32ecccf4f72c5ecb9037beea578ab8dfc27e` · 16,339,993 bytes |
+| Format / complete visual boundary | Ten native-text portrait A4 pages (595.5×842.25 points). All ten pages were rendered at 150 dpi into ten non-empty 1241×1755-pixel images and read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent layout extraction contains 2,770 words / 30,913 bytes and raw extraction contains 2,862 words / 20,168 bytes. Both agree with the rendered headings, comparison tables, process arrows, morphology lists, and footer labels. The manifest's `native` label is accurate. |
+| Visible provenance | Every page visibly prints `GENERAL PATHOLOGY`, `PATHOLOSIS`, `DR. TAREK`, and `1ST YEAR`; page 1 visibly titles the material `NEOPLASMS`. This establishes PATHOLOSIS/Dr Tarek first-year teaching-booklet provenance. No university, faculty, module code, academic year, lecture date, assessment label, or sitting is visible. |
+| Metadata caution | Metadata title is `Helwan Smoothie 1st year 1st edition`; author is `Bassem Ahmed`; creator/producer is Canva; creation/modification timestamps are 4 April 2026, with modification nominally five seconds earlier. The visible pages credit Dr Tarek, not Bassem Ahmed. Metadata is therefore layout/export provenance only and cannot establish lecturer identity, Helwan/module authority, academic year, lecture date, or sitting. |
+| Authority | Local tier-6 declarative neoplasia teaching booklet. It is not a candidate paper, keyed question bank, response sheet, practical station, or official key. |
+
+### Complete page-first teaching, prompt, key, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | Neoplasm definition and general features; parenchymal and stromal components; hyperplasia-versus-neoplasia comparison | Completed teaching definitions, lists, and table; **0 prompts / 0 answers**. |
+| 2 | Benign-versus-malignant gross, microscopic, differentiation, growth, invasion/metastasis, and prognosis comparison | Completed comparison table and explanatory callouts; **0 / 0**. |
+| 3 | Intermediate/locally malignant tumors and examples; carcinoma-versus-sarcoma comparison | Declarative feature/example lists and table; **0 / 0**. |
+| 4 | Malignant-tumor spread mechanism, ECM invasion, vascular dissemination/homing, local spread, and lymphatic spread | Completed process sequence and explanatory bullets; **0 / 0**. |
+| 5 | Sentinel node; hematogenous, transcoelomic, and transluminal spread; organ-metastasis morphology | Completed teaching table and process statements; **0 / 0**. |
+| 6 | Benign epithelial tumors: papilloma variants and adenoma gross patterns | Completed classification, etiology, effects, and morphology; **0 / 0**. |
+| 7 | Adenoma microscopic patterns/complications; general carcinoma and squamous-cell-carcinoma introduction | Completed teaching categories and lists; **0 / 0**. |
+| 8 | Squamous-cell-carcinoma sites, precancerous lesions, carcinoma in situ, invasive morphology, and Broders grading | Completed definitions, morphology, and grading facts; **0 / 0**. |
+| 9 | Basal-cell carcinoma origin, risks, clinical picture, gross/microscopic morphology, spread, complications, and treatment | Completed teaching headings and bullet points; **0 / 0**. |
+| 10 | Adenocarcinoma origin; surface/solid-organ gross patterns; differentiated, mucinous, signet-ring, undifferentiated, scirrhous, medullary, and neuroendocrine microscopic categories | Completed teaching taxonomy and examples; **0 / 0**. |
+
+No heading, comparison cell, numbered mechanism step, morphology label, example, or `N.B.` box is
+phrased as a candidate question or response imperative. Bold, color, underlining, arrows, page
+numbers, and percentage ranges are teaching emphasis only. There is no case stem, option set,
+blank, response space, mark allocation, image-identification request, practical station,
+candidate/student annotation, answer-key column, tick/highlight correctness convention, or
+separate supplied key.
+
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0
+printed/source-supplied answer occurrences / 0 unkeyed prompt occurrences / 0 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles**.
+
+### Source-first zero gate, prior-neoplasia ruling, and cumulative arithmetic
+
+No accepted tested handle survives the complete declarative-teaching boundary. Exactly four
+searches are required only per accepted handle, so the source-first gate is exactly **0 handles
+× 4 = 0 required and completed searches**; no empty query or fabricated external-disposition
+row is added. The booklet substantially overlaps completed neoplasia teaching in Families 85,
+90, 92, 99, 104, 105, 110, and 111, including neoplasm features, benign/malignant contrasts,
+spread, epithelial tumors, and carcinoma morphology. Those are source-level teaching relations,
+not accepted tested-handle reuse. With zero tested handles, prior-BMS exact handle reuse is
+**0** and concept delta is **+0**.
+
+| Measure | Family 126 | Auxiliary cumulative (Families 12–126) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,088 | 765 | 1,853 |
+| Printed/source-supplied answer occurrences | 0 | 668 | 405 | 1,073 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,024 | 552 | 1,576 |
+| Source-distinct tested handles / required searches | 0 / 0 | 908 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +584 over primary | 372 | `372 + 584 = 956` |
+| **Distinct tested concepts** | **+0** | **584 auxiliary additions** | **372** | **956** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answers, unkeyed items,
+residues, retained records, tested handles, searches, external dispositions, prior-handle reuses,
+or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**1,088 / 668 / 1,024 / 908 / +584**; and all eligible evidence remains
+**1,853 / 1,073 / 1,576 / 956**. Family 126 contributes teaching notes only. It cannot establish
+an assessment, official key, dated sitting, recurrence, mark weight, student response, readiness,
+or claims status.
+
+### Exact next debt after Family 126
+
+`src_a96c67108d278d933d5b` is exhausted across all ten pages: every visible teaching heading,
+comparison table, mechanism sequence, morphology category, example, provenance limitation,
+zero-search gate, prior-teaching relation, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-126 blocker. The exact next unprocessed manifest object is
+tier-6 non-preferred carrier `src_b99cdce420e0a8647a09` · `neoplasia 4 (1).pdf`, SHA-256
+`b99cdce420e0a8647a0993c19e9f52d81227e1b7724187c825e39a88bbc61b02`, 774,929 bytes,
+16 native-text portrait A4 pages under `Pathology / Notes and Summaries`. It is byte-identical
+to the preferred local carrier `neoplasia 4.pdf` of the same manifest object. Their exact
+carrier authority, visible Dr Ahmed Hassan neoplasia teaching/prompt/key boundary, metadata
+provenance, and prior-neoplasia reuse are the exact next-source blockers.
