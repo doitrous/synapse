@@ -11330,3 +11330,77 @@ The exact next manifest record is tier-6 non-preferred name twin
 native-text portrait A4 page under `Pathology / Notes and Summaries`. Its exact/near reuse against
 Families 100–102 and the preferred twin, plus its visible teaching/annotation versus prompt/key
 boundary and provenance, are the exact next-source blockers.
+
+## Family 106 — Standalone Steps 1–3 acute-inflammation teaching-page twin
+
+### Source identity, complete render boundary, provenance, and reuse adjudication
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_cd8dba9d1707e2b8f18a` · `Inflammation.pdf` |
+| SHA-256 / size | `cd8dba9d1707e2b8f18a81e66ea5a9952a561bea99abef1ddcba5dd907a34abd` · 164,162 bytes |
+| Format / complete render boundary | One native-text portrait A4 page (595.276×841.89 points); rendered completely at 150 dpi into one non-empty 1241×1754-pixel image and visually read at original detail |
+| Native layer | 450 words / 12,880 bytes extracted from the complete page |
+| Visible provenance | No university, module code, instructor, academic year, lecture date, or assessment sitting is printed. Folder placement supplies Helwan BMS-102 pathology context only. |
+| Metadata caution | Quartz metadata records `iOS Version 26.3 (Build 23D127)` and March 8, 2026 creation/modification timestamps. These are file-production metadata, not evidence of authorship, teaching date, academic year, or sitting. |
+| Authority | Tier-6 notes-and-summaries teaching material and a manifest non-preferred name twin. It is not an exam, written exercise, practical station, response sheet, or official answer source. |
+| Manifest twin flags | Non-preferred; declared near-duplicate of Family 100 / `src_b456676b291ae592fc48` and Family 101 / `src_214e45dfde3d765f38de`, and name-twin of preferred Family 102 / `src_50a7db1e5d21f2bd18c9`. |
+| Exact/near reuse result | The complete native extraction is byte-identical to preferred Family-102 page 1. Its independent 150-dpi render is not byte-identical: the preferred page adds highlights, handwritten emphasis, small inset material, and a leukocyte micrograph, making it an annotated visual variant of this completed base page. Family-106 native text is distinct from Families 100 and 101, which are the Step-4 and Step-5 pages reused as preferred pages 2 and 3. Thus the manifest near-duplicate flags group related carriers but do not make those pages exact copies. |
+
+### Complete teaching, annotation, prompt/key, and residue inventory
+
+The sole page supplies a completed bilingual Steps 1–3 acute-inflammation map. It traces tissue
+injury through histamine, bradykinin, and prostaglandin release; transient vasoconstriction,
+vasodilation/hyperemia, redness, heat, increased capillary permeability, endothelial contraction,
+gap and exudate formation; exudate composition and functions; then cellular-exudate recruitment
+through migration, selectin-mediated rolling, integrin-mediated adhesion, CD31-mediated
+transmigration, chemotaxis, and TNF/IL-1 activation.
+
+Circled step numbers, arrows, bullets, color blocks, and bilingual annotations sequence and explain
+already completed content. They neither request a response nor encode answer correctness. The page
+has no exam heading, candidate instruction, interrogative task, option set, unanswered blank,
+image-identification request, student response, mark allocation, or separate printed key.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**. Its preferred-page reuse is a carrier
+relation, not independent assessment evidence.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted assessment handle survives the completed-teaching boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated. Exact native-content reuse of preferred Family-102 page 1 and thematic overlap
+with other inflammation families are recorded at source level only; without a tested handle they
+cannot count as prior-BMS assessment reuse or a new concept.
+
+| Measure | Family 106 | Auxiliary cumulative (Families 12–106) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 866 | 765 | 1,631 |
+| Printed teaching-answer occurrences | 0 | 483 | 405 | 888 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 806 | 552 | 1,358 |
+| Source-distinct tested handles / required searches | 0 / 0 | 730 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**866 / 483 / 806 / 730 / +499**; and all eligible evidence remains
+**1,631 / 888 / 1,358 / 871**. Family 106 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 106
+
+`src_cd8dba9d1707e2b8f18a` is exhausted across its sole page: every provenance field, teaching
+block, annotation, exact/near twin relation, and zero-gate arithmetic term is assigned once, with
+**zero source remainder** and no Family-106 blocker. The exact next manifest record is tier-6
+`src_90d04574ee42c3d6f87a` · `Mechanism of Cell Injury.jpg`, SHA-256
+`90d04574ee42c3d6f87a9b9d8cbf343faac12ecab03e234c78381ebdbe7ff447`, 106,914 bytes, one
+853×1280 portrait JPEG under `Pathology / Notes and Summaries`. Its original-image provenance,
+completed cell-injury mechanism map versus prompt/key/annotation boundary, and any prior-source
+reuse are the exact next-source blockers.
