@@ -20641,3 +20641,96 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 35
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 196 — Tier-6 student-style hip-joint teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_5bdd333811fe09e59a83` / `5bdd333811fe09e59a83a18feec05da56ca61c2cab40680f2ee2447f9fccd4aa` |
+| Manifest / normalized local path | Manifest `Year 1/LCS 103/Anatomy/Notes and Summaries/Hip joint  2.pdf`; normalized local `Year 1/LCS 103/Anatomy/Notes and Summaries/Hip joint 2.pdf` |
+| Physical verification | **808,757 bytes; 4 native-text portrait-A4 pages; 595.276 x 841.89 pt; tagged; unencrypted; PDF 1.4**. Full hash, byte size, page count and geometry match; all four 180-dpi complete-page renders have distinct hashes. The document reports no form and qpdf's AcroForm field list is empty. |
+| Visible / metadata provenance | Page 1 bears the `TEAM EL SIR` logo and `Hip Joint`; p. 3 refers to `د ايمان الصواف` in third person, while the completed p. 4 movement table separately bears `@YOGARU`. Metadata title is `B`; creator is `pdftopdf filter`, producer is iOS 18.5 Quartz and creation/modification is 23 July 2025. No university, module code, cohort, sitting, marks or official-key statement appears. |
+| Authority finding | Local tier-6 student-style teaching-summary evidence. The logo, third-person lecturer reference, external table mark and metadata are preserved as distinct provenance layers; none establishes an official Helwan assessment, response form, practical station or key. |
+
+All **4/4 pages** were rendered at 180 dpi, visually inspected at full resolution and read
+against the complete native layer. The physical boundary is:
+
+| Page | Source-first teaching composition |
+|---:|---|
+| 1 | hip-joint type/variety; femoral-head and acetabular articular surfaces; cartilage, fossa, labrum and transverse acetabular ligament; beginning capsule attachments |
+| 2 | remaining capsule/synovial-membrane attachments; iliofemoral, pubofemoral and ischiofemoral ligament positions and attachments |
+| 3 | completion of ischiofemoral ligament; mnemonic lists for blood and nerve supply; neck-shaft-angle/movement note and exam-focus commentary |
+| 4 | fully completed hip-movement-to-muscle table for flexion, extension, abduction, adduction, internal rotation and external rotation |
+
+There is **no assessment inventory**. Page 1 labels type/variety `the most importantquestion`
+and numbers type/variety and articular surface as `1` and `2`, but prints their teaching
+answers simultaneously. Page 3 says to focus on type, blood supply, nerve supply and
+ligaments. These are teaching/exam-focus callouts, not learner-facing prompts: no answer is
+withheld, no response area or selection state exists, and no delayed or official key appears.
+Exact boundary is **0 eligible or external assessment prompts / 0 keys-or-answers / 0 written
+prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `healing cartilage expect fovae`,
+`actebulum`, `ac transverse`, `inter trochanteric`, `iliofemoral ligamen`, `profundity
+femoral`, `gluten artery`, `quadratus femoral`, `gluteus maximum`, `GOGOQ`, the Arabic/English
+mnemonics and every completed table state. Inventory does not endorse or medically/editorially
+correct them.
+
+### Practical and image boundary
+
+The source has a logo and one completed movement table, but no anatomical identification
+image, masked label, station instruction, learner-completed map, response blank or practical
+key. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0
+keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The four pages consolidate to five complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| hip-joint type, articular surfaces and labrum · p. 1 | hip joint ball socket articular surface acetabular labrum | Accepted Family 46 owns the complete classification/surface/labrum scope — prior-LCS reuse. |
+| hip capsule and synovial membrane · pp. 1–2 | hip joint capsule synovial membrane intertrochanteric femoral neck | Accepted Family 46 owns the complete capsule/synovium scope — prior-LCS reuse. |
+| hip-joint ligaments · pp. 2–3 | iliofemoral pubofemoral ischiofemoral hip ligaments attachments | Accepted Families 1, 20 and 46 own the capsular-ligament scope — prior-LCS reuse. |
+| hip blood and nerve supply · p. 3 | hip joint blood nerve supply circumflex femoral obturator gluteal | Accepted Families 20 and 46 own the complete neurovascular scope — prior-LCS reuse. |
+| hip movements and acting muscles · pp. 3–4 | hip movement muscles flexion extension abduction adduction rotation | Accepted Family 46 owns the complete joint-movement/muscle scope — prior-LCS reuse. |
+
+Each of the **five accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **5 x 4 =
+20 required search invocations**. The surface searches found live/pending component coverage;
+complete-scope accepted-ledger comparison establishes **5 prior-LCS theoretical reuses / 0
+additive live / 0 additive pending / 0 additive new teaching scopes**. Declarative theoretical
+scopes do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 195's remainder. Removing its sole path changes the remainder
+from **35 paths / 34 unique hashes** to **34 paths / 33 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **25 paths / 25 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 195's checksums were
+`0be68f971c207c2e77f6a056b8f4d1d14cf42ee5e2ca8b7472a94e22442352e9` (paths) and
+`f661d26304b73b63a9539082fd66a8e321fc3958f0e2681a6f60f9a8b726ccea` (unique hashes).
+For the exact post-Family-196 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`667ca3ff1a74f2e7cd16023dde25b147b414824d2aeb8f5075fe08a384a4dbe0`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`bbc46268731476bfeb6c892bb745c4c2856fb27ca0104e9694e99e710d7cd63f`.
+
+The exact next manifest-order debt is tier-6 `src_52503e6381d4a9c19559`, `Medial compartment
+of the thigh.pdf` (2,795,444 bytes; 10 native-text portrait-A4 pages; tagged; unencrypted; PDF
+1.4; SHA-256 `52503e6381d4a9c195593d8a15e17459a9c23401b2438132df7553033d4c11d7`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 34
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
