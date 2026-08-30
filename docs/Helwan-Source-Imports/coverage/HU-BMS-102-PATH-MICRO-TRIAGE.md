@@ -5825,3 +5825,127 @@ space before `.pdf`, while the SHA-matching local file is present as `hh lec rev
 path-normalization difference and the unread four-page source boundary are the next-source
 processing blocker. Fully render and visually adjudicate prompt, teaching, and answer conventions
 before admitting any count.
+
+## Family 53 — tier-6 hand-hygiene underlined-answer revision bank
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_d33fc22eea5100b6a142` · `hh lec revision .pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/hh lec revision.pdf`; manifest spelling has an extra space before `.pdf`, while the local SHA matches |
+| SHA-256 / size | `d33fc22eea5100b6a142006128ffc4d049c4b956aa607ca6eba6c5ac9b0a3bf9` · 136,106 bytes |
+| Format / read boundary | Four native-text US-letter pages; native text extracted and all four physical pages rendered at 220 dpi and visually read in full |
+| Authority | Untitled Word-origin revision bank with no Helwan/university or faculty masthead, module code, author, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical pp. 1–4 contain a continuous hand-hygiene MCQ bank numbered Q1–Q20, with Q6 split
+across the p. 1/p. 2 boundary. There is no cover, teaching section, heading, answer register, or
+material outside those prompts. Underlining selects exactly one option in Q1–Q10 and Q12–Q20;
+Q11 has no underlined option. Because the repeated underlining is confined to one option and
+functions consistently across 19 prompts, those are **19 directly printed study-answer
+occurrences**, not incidental formatting. Q11 remains explicitly unkeyed. The bank's lack of
+institutional provenance means neither its annotations nor its clinical wording are an official
+key or independently verified guidance.
+
+The prompt-start checksum is `6 + 6 + 5 + 3 = 20`. Every observed stem and option set is
+complete. The source therefore contains **20 complete prompt occurrences / 19 printed study-
+answer occurrences / 1 unkeyed occurrence**. No missing answer is inferred for Q11.
+
+### Complete prompt, printed-answer, collapse, and prior-BMS inventory
+
+| Ref(s) | Page(s) | Complete source-tested scope | Printed study answer | Handle / assignment |
+|---|---:|---|---|---|
+| F53-Q01,Q12 | 1,2 | Proper friction as the most important aspect of hand washing | C · proper friction; C · friction | `hand-washing-most-important-friction` · two retained wording variants, one handle |
+| F53-Q02,Q17 | 1,3 | Hand hygiene when sinks are remote: wash on ward entry, then alcohol hand rub at point of care after glove removal between patients | C; C | Q17 is a literal copy excluded from retention; `point-of-care-hand-rub-between-patients-after-glove-removal` |
+| F53-Q03 | 1 | Greater accessibility than sinks as the source-keyed benefit of alcohol-based hand rub | D | `alcohol-hand-rub-accessibility-versus-sinks` |
+| F53-Q04 | 1 | Before patient contact as the first hand-hygiene moment | B | `hand-hygiene-first-moment-before-patient-contact` |
+| F53-Q05 | 1 | Antiseptic soap and water as the source-keyed method for hands soiled with blood | D | `blood-soiled-hands-antiseptic-soap-water` |
+| F53-Q06 | 1–2 | Antiseptic soap and water as the source-keyed hand-cleaning method before intravenous-catheter insertion | B | `intravenous-catheter-hand-antisepsis-soap-water` |
+| F53-Q07 | 2 | Effective hand antisepsis by rubbing all listed hand surfaces with antimicrobial soap and water | B | `effective-hand-antisepsis-surface-coverage-antimicrobial-soap` |
+| F53-Q08 | 2 | Seventy-percent alcohol concentration for killing bacteria and enveloped viruses | A | `alcohol-hand-rub-70-percent-concentration` |
+| F53-Q09 | 2 | Surgical-scrub alternative using a 3–5-minute plain-soap wash followed by 3–5 ml alcohol hand rub | B | `surgical-scrub-alternative-soap-then-alcohol-rub` |
+| F53-Q10 | 2 | Hand hygiene as the number-one way to prevent healthcare-associated infection | C | `hand-hygiene-primary-healthcare-associated-infection-prevention` |
+| F53-Q11 | 2 | Location where hand hygiene should be performed | none printed; unkeyed | `hand-hygiene-at-point-of-care-location` |
+| F53-Q13 | 3 | Combined hand-hygiene preparation measures: covered cuts, bare forearms/no wrist items, short clean nails, and no varnish/extensions | E · all of the above | `hand-hygiene-preparation-measures-all-listed` |
+| F53-Q14,Q18 | 3,4 | Remove gloves and perform hand hygiene between wound dressing and medication administration for the same patient | B; B | `remove-gloves-hand-hygiene-before-medication` · two retained wording variants, one handle |
+| F53-Q15,Q19 | 3,4 | Soap-and-water hand cleaning after ungloved contact with wound drainage/visible soil | A; A | `visibly-soiled-wound-drainage-soap-water` · two retained wording variants, one handle |
+| F53-Q16 | 3 | Need for hand hygiene despite glove use because minute glove holes can permit bacterial passage | B | `hand-hygiene-despite-gloves-microperforations` |
+| F53-Q20 | 4 | Four hand-hygiene opportunities across pulse, abdominal palpation, urinary-catheter insertion, and removal of sterile gloves | B | `hand-hygiene-opportunities-sterile-gloves-urinary-catheter` |
+
+Q17 is content-identical to Q2 apart from page layout and is the sole literal copy, so it does
+not survive retention. Q1/Q12, Q14/Q18, and Q15/Q19 differ in wording or clinical detail and
+remain retained records, but each pair tests one source-distinct scope. Q2's remote-sink/glove-
+removal scenario remains distinct from Q11's isolated location question; Q5's blood-specific
+antiseptic-soap choice remains distinct from Q15/Q19's wound-drainage soap-and-water choice; and
+Q4's first moment remains distinct from Q20's multi-action sequence. Thus **20 observed - 1
+literal copy = 19 retained records**, and **19 retained - 3 semantic reductions = 16 source-
+distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 16 handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **64 required searches**. Literal query runs
+were followed by targeted reopening of the short-form `hand hygiene`, `alcohol hand rub`,
+`visibly soiled hands`, `glove removal`, `surgical hand preparation`, and `healthcare associated
+infection` results. External disposition is **1 live / 0 pending / 15 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `hand-washing-most-important-friction` · Q01,Q12 | `hand washing most important friction`; `proper friction handwashing`; `handwashing soap water friction time`; `mechanical friction hand hygiene` | no same-scope | none; delta |
+| `point-of-care-hand-rub-between-patients-after-glove-removal` · Q02,Q17 | `point of care alcohol hand rub glove removal`; `hand hygiene between patients remove gloves`; `no sink bedside alcohol hand rub`; `hand hygiene after glove removal point of care` | no same-scope | none; delta |
+| `alcohol-hand-rub-accessibility-versus-sinks` · Q03 | `alcohol hand rub more accessible than sinks`; `benefit alcohol based hand rub accessibility`; `hand sanitizer accessibility point of care`; `alcohol rub versus sink availability` | no same-scope | none; delta |
+| `hand-hygiene-first-moment-before-patient-contact` · Q04 | `first moment hand hygiene before patient contact`; `WHO hand hygiene moment before touching patient`; `hand hygiene first opportunity patient contact`; `before patient contact hand hygiene` | no same-scope | none; delta |
+| `blood-soiled-hands-antiseptic-soap-water` · Q05 | `blood soiled hands antiseptic soap water`; `hand decontamination blood antiseptic soap`; `visibly blood contaminated hands wash soap water`; `healthcare hands soiled blood cleaning method` | no same-scope | none; delta |
+| `intravenous-catheter-hand-antisepsis-soap-water` · Q06 | `intravenous catheter hand antisepsis soap water`; `hand washing before IV catheter insertion`; `catheter insertion antiseptic soap hand hygiene`; `aseptic procedure hand hygiene intravenous catheter` | no same-scope | none; delta |
+| `effective-hand-antisepsis-surface-coverage-antimicrobial-soap` · Q07 | `effective hand antisepsis cover fingers palms nails wrists`; `antimicrobial soap hand rubbing technique`; `hand antisepsis clean all hand surfaces`; `handwashing between fingers nail beds wrists` | no same-scope | none; delta |
+| `alcohol-hand-rub-70-percent-concentration` · Q08 | `70 percent alcohol kills bacteria enveloped viruses`; `alcohol hand rub concentration 70%`; `ethanol concentration hand antisepsis enveloped virus`; `effective alcohol percentage hand sanitizer` | no same-scope | none; delta |
+| `surgical-scrub-alternative-soap-then-alcohol-rub` · Q09 | `surgical scrub alternative soap then alcohol hand rub`; `surgical hand preparation alcohol rub after washing`; `antiseptic soap surgical scrub alternative alcohol`; `preoperative hand scrub 3 5 ml alcohol rub` | no same-scope | none; delta |
+| `hand-hygiene-primary-healthcare-associated-infection-prevention` · Q10 | `hand hygiene number one prevent healthcare associated infection`; `most important HAI prevention hand hygiene`; `healthcare associated infection primary prevention handwashing`; `hospital infection prevention hand hygiene` | live `CON-INF-30D065F4FAEC4A`; same hand-hygiene/healthcare-infection prevention relation | none; delta |
+| `hand-hygiene-at-point-of-care-location` · Q11 | `hand hygiene performed at point of care`; `where perform hand hygiene point of care`; `bedside point of care hand hygiene`; `WHO point of care hand cleaning` | no same-scope | none; delta |
+| `hand-hygiene-preparation-measures-all-listed` · Q13 | `hand hygiene preparation cuts nails bare below elbows`; `effective hand hygiene remove watches nail varnish`; `hand hygiene prerequisites short nails no jewelry`; `waterproof cuts bare arms hand hygiene measures` | no same-scope | none; delta |
+| `remove-gloves-hand-hygiene-before-medication` · Q14,Q18 | `remove gloves hand hygiene before medication administration`; `wound dressing then medication hand hygiene`; `change task same patient remove gloves clean hands`; `hand hygiene between dirty and clean task same patient` | no same-scope | none; delta |
+| `visibly-soiled-wound-drainage-soap-water` · Q15,Q19 | `wound drainage visibly soiled hands soap water`; `body fluid contaminated hands wash soap and water`; `visibly dirty hands alcohol rub not appropriate`; `hand hygiene wound secretion soap water` | no same-scope | none; delta |
+| `hand-hygiene-despite-gloves-microperforations` · Q16 | `wash hands despite wearing gloves microholes`; `gloves minute holes bacteria hand hygiene`; `hand hygiene before gloves glove perforation`; `gloves do not replace hand hygiene microperforations` | no same-scope | none; delta |
+| `hand-hygiene-opportunities-sterile-gloves-urinary-catheter` · Q20 | `hand hygiene opportunities pulse abdomen urinary catheter`; `sterile gloves urinary catheter hand hygiene sequence`; `patient contact clean aseptic task hand hygiene moments`; `urinary catheter insertion sterile gloves hand hygiene` | no same-scope; the pending aseptic-technique list omits the source's ordered opportunity/PPE sequence | none; delta |
+
+Prior Families 1–52 contain no exact hand-hygiene assessment scope. Therefore **16 handles - 0
+prior exact reuses = +16 concepts**.
+
+| Measure | Family 53 | Auxiliary cumulative (Families 12–53) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 20 | 437 | 765 | 1,202 |
+| Printed study-answer occurrences | 19 | 207 | 405 | 612 |
+| Retained question records | 19 | 432 | 552 | 984 |
+| Source-distinct tested handles / required searches | 16 / 64 | 413 / — | — | — |
+| External live / pending / no same-scope | 1 / 0 / 15 | — | — | family-local disposition |
+| Cross-family concept delta | +16 | +299 over primary | 372 | `372 + 299 = 671` |
+| **Distinct tested concepts** | **+16** | **299 auxiliary additions** | **372** | **671** |
+
+The checksum closes without remainder: prompt starts are `6 + 6 + 5 + 3 = 20`; key alignment
+is `19 underlined + 1 unkeyed = 20`; retention is `20 - 1 literal copy = 19`; handle assignment
+is `19 - 3 semantic reductions = 16`; assignment is `20 - 20 = 0` unassigned; searches are
+`16 × 4 = 64`; external disposition is `1 + 0 + 15 = 16`; and concept arithmetic is
+`16 - 0 = 16`. Auxiliary cumulative arithmetic is `417 + 20 = 437` prompts, `188 + 19 =
+207` printed answers, `413 + 19 = 432` retained records, `397 + 16 = 413` source handles,
+and `283 + 16 = 299` concept additions over primary. All-eligible arithmetic is `765 + 437 =
+1,202`, `405 + 207 = 612`, `552 + 432 = 984`, and `372 + 299 = 671`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**437 / 207 / 432 / 413 / +299**; and all eligible evidence is
+**1,202 / 612 / 984 / 671**. This tier-6 annotated revision bank cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 53
+
+`src_d33fc22eea5100b6a142` is exhausted across all four pages: all 20 observed prompt occurrences,
+19 underlined study-answer occurrences, the single unkeyed prompt, the one literal copy, retained
+records, source handles, search rows, external dispositions, and prior-BMS decisions are assigned
+once, with **zero source remainder** and no Family-53 blocker. The next manifest-ordered BMS-102
+record is tier-6 `src_8580b28c8bc337f11706` · `infection .pdf`, SHA-256
+`8580b28c8bc337f11706a9f619a12071f776ba42b7a5ae030671955020ae6faa`, 1,670,952 bytes, six
+OCR-needed A4 pages under `Microbiology / Notes and Summaries`. The manifest spelling contains a
+space before `.pdf`, while the SHA-matching local file is present as `infection.pdf`; that path-
+normalization difference and the unread six-page source boundary are the next-source processing
+blocker. Fully render and visually adjudicate prompt, teaching, and answer conventions before
+admitting any count.
