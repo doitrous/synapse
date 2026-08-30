@@ -21304,3 +21304,99 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 oversized page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:**
 28 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 203 — Tier-6 oversized completed lower-limb vessel canvas
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f1e2d30af0f44e55db97` / `f1e2d30af0f44e55db9745b0cd6df3892a2d37306b69f86beddacbc119c181b0` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/Vessels.pdf` |
+| Physical verification | **72,717,280 bytes; one native-text oversized 5153 x 2759.5 pt page; untagged; unencrypted; PDF 1.4**. Full hash, byte size, page count and geometry match. The complete page was rendered at 70 dpi to a 5,010 x 2,683 RGB image and visually inspected, then independently covered by four overlapping 120-dpi sectional crops (4,294 x 2,300, 4,294 x 2,300, 4,294 x 2,299 and 4,294 x 2,299) for label-level reading. The native layer has one physical-page terminator. The document reports no form or AcroForm. |
+| Visible / metadata provenance | The canvas title is `Vessels of lower limb`; a top-right callout says `Pictures From Atlas`, without naming an atlas. A bottom-left handwritten signature is present but is not reliably legible and is not transcribed. Metadata names iOS Version 26.5 Quartz PDFContext as producer and 18 May 2026 as creation/modification date, with no author. No university, module, cohort, sitting, marks or key claim appears. |
+| Authority finding | Unattributed tier-6 completed teaching-reference evidence. The folder, title, atlas callout, signature and metadata do not establish a recoverable Helwan assessment sitting, response form, practical station or official key. |
+
+The one composite canvas contains eight completed declarative teaching blocks:
+
+| Block | Source-first composition |
+|---:|---|
+| 1 | obturator artery: internal-iliac origin, obturator-canal course, anterior/posterior branches and their anastomosis, with acetabular branch to the femoral head |
+| 2 | popliteal artery: start at adductor hiatus, course and relations in the fossa, distal-popliteus termination into anterior/posterior tibial arteries, muscular/five genicular/cutaneous/terminal branches and completed diagrams |
+| 3 | popliteal vein: origin from venae comitantes, arterial relations, continuation as femoral vein at the adductor hiatus, tributaries including the small saphenous vein and completed venous maps |
+| 4 | superior and inferior gluteal arteries: muscular/hip branches, gluteal anastomoses and inferior branch to the sciatic nerve, with completed origin diagrams |
+| 5 | femoral vein: origin at the adductor hiatus, subsartorial-canal/femoral-triangle course and continuation as external iliac vein behind the inguinal ligament |
+| 6 | superficial veins: great- and small-saphenous courses, varicose-vein notes and graft use |
+| 7 | femoral artery: external-iliac continuation, femoral-triangle/adductor-canal/adductor-hiatus course, superficial/deep branches, profunda femoris, circumflex/perforating branches and descending genicular artery |
+| 8 | two fully labelled lower-limb arterial and venous atlas panels supporting the same completed scopes |
+
+There is **no assessment inventory**. All text, arrows and labels supply their information
+simultaneously; there is no learner instruction, response area, masked label, selection state,
+delayed reveal or key. Exact assessment delta is **0 eligible or external prompts / 0 keys-or-
+answers / 0 written prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `obturator membran`, truncated
+`popliteal arteri` states, the popliteal-branch lettering sequence `a) Muscular`, `b)
+Genicular`, `a) Cutaneous`, `b) Terminal`, `back of legend in popliteal vein`, `tortious`,
+`week valves`, `cardiac surgerie`, every highlighted/handwritten label and every atlas label.
+Inventory does not medically or editorially repair, reconcile or endorse any wording.
+
+### Practical and image boundary
+
+The canvas contains completed diagrams and two labelled atlas panels, but no structure is
+masked and no numbered identification, station instruction, response blank or practical key
+appears. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues /
+0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The completed content consolidates to seven theoretical teaching handles:
+
+| Teaching handle | One query on each required surface | Complete-scope result |
+|---|---|---|
+| obturator artery | obturator artery internal iliac obturator canal anterior posterior acetabular branch | Families 5, 41 and 197–198 own the complete scope — prior-LCS reuse. |
+| popliteal artery | popliteal artery adductor hiatus popliteus genicular anterior posterior tibial branches | Families 42, 45 and later lower-limb banks own the complete scope — prior-LCS reuse. |
+| popliteal vein | popliteal vein venae comitantes adductor hiatus small saphenous tributaries relations | Families 42, 45 and later lower-limb banks own the complete scope — prior-LCS reuse. |
+| superior and inferior gluteal arteries | superior inferior gluteal arteries branches anastomosis sciatic nerve | Families 40, 42, 45 and later lower-limb banks own the complete scope — prior-LCS reuse. |
+| femoral artery | femoral artery femoral triangle adductor canal profunda circumflex perforating branches | Families 39, 41, 45 and later lower-limb banks own the complete scope — prior-LCS reuse. |
+| femoral vein | femoral vein popliteal continuation adductor hiatus femoral triangle external iliac | Families 39, 41, 45 and later lower-limb banks own the complete scope — prior-LCS reuse. |
+| great/small saphenous veins and clinical notes | great small saphenous veins course varicose graft lower limb | Families 39, 42, 45 and later lower-limb banks own the complete scope — prior-LCS reuse. |
+
+Each of the **seven accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **7 x 4 =
+28 required search invocations**. Every accepted handle was found on the accepted-LCS surface;
+complete-scope comparison establishes **7 prior-LCS theoretical reuses / 0 additive live / 0
+additive pending / 0 additive new teaching scopes**. Declarative theoretical scopes do not
+enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 202's remainder. Removing its sole path changes the remainder
+from **28 paths / 27 unique hashes** to **27 paths / 26 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **18 paths / 18 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 202's checksums were
+`4f00bbd23b22617d97945b1b5382596d993543b8960020b5b17976788b0a30ee` (paths) and
+`e5ff1d2e63d9727a3c310c490d41381a92ae82336eaade58f2c55127d20daaef` (unique hashes).
+For the exact post-Family-203 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`4e79e6ae334bd8fd99ec5c05cddee60068568de11eebd5748245c76d99d595df`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`2667cfec340a5f80a91e6e90694d522246d562c6d799a9d00edec198965bfe49`.
+
+The exact next manifest-order debt is tier-6 `src_5ae238e6d2404caffd1c`, `anatomy of the
+thigh_250703_124047 (1).pdf` (286,900 bytes; six native 960 x 540 pt pages; untagged;
+unencrypted; no form; PDF 1.7; SHA-256
+`5ae238e6d2404caffd1cde9a6c5bbc0ab25cb6d962eee72b986b59f38d9ea705`) under `Year
+1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until all six pages are
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 27 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
