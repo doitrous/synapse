@@ -1144,3 +1144,61 @@ Removing the thirty-three processed unique hashes leaves **69 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - 4-Upperlimb MCQs.pdf`, SHA-256 `d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0`, 64 pages.
 
 **BLOCKED — S1 cannot be approved:** 69 selected inventory paths / 68 unique hashes remain untriaged.
+
+## Completed source — 4-Upperlimb MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - 4-Upperlimb MCQs.pdf` | `d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0` | 64 | substantive-text audit sample | pages 1–64 rendered and read | Bullzip PDF Printer 10.8.0.2282 output carrying document title `Microsoft Word - Upper_limb_mcqs.doc` and author `lauraj`, created 18 September 2014 and modified 8 November 2023. No MUST institution, department, examiner, sitting, marks or official-key authority is printed. It is an external generic upper-limb MCQ compilation, not an authenticated MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - 4-Upperlimb MCQs.pdf" purpose="source"}
+
+### Exact MCQ, written, practical, image, key, unkeyed and teaching boundary
+
+The first forty-eight pages contain six independently numbered banks followed by separate answer tables. Pages 49–64 contain a second independently numbered `UPPER LIMB MCQ` bank whose answer is printed immediately after each prompt. The source skips a printed Section 3 label; that source defect does not create a missing bank or inferred content.
+
+| Printed bank | Prompt pages | Answer pages / form | Visible MCQs | Reliable printed answers | Unkeyed / indeterminate |
+|---|---:|---|---:|---:|---:|
+| Section 1 | 1–5 | 6, separate table | 34 | 25 | 9 |
+| Section 2 | 7–11 | 12, separate table | 30 | 30 | 0 |
+| Section 4 | 13–17 | 18, separate table | 27 | 21 | 6 |
+| Section 5 — General Principles | 19–24 | 25, separate table | 37 | 37 | 0 |
+| Section 6 | 26–31 | 32, separate table | 35 | 35 | 0 |
+| Section 7 | 33–47 | 48, separate table | 98 | 98 | 0 |
+| `UPPER LIMB MCQ` | 49–64 | inline after each prompt | 80 | 80 | 0 |
+| **Total** | **1–64** |  | **341** | **326** | **15** |
+
+The exact visible boundary is therefore **341 MCQs / 326 reliable printed answer observations / 15 unkeyed or indeterminate MCQs / 0 written prompts / 0 practical prompts / 0 image-identification prompts / 0 teaching prompts**. Section 1's table explicitly prints `No answer` for Q18–26. Section 4's table prints only `?` for Q12–14 and Q17 and `??` for Q15–16. Those fifteen entries remain unkeyed; no answer is inferred from the option wording or external knowledge. Printed defects—including question-text question-mark strings, malformed option wording and the garbled inline-bank footer—are retained as source observations rather than silently corrected.
+
+### Source-first handles, prior-family collapse and exactly-four-search gate
+
+The file is not byte-identical to any processed MSK source and its seven-bank prompt sequence is distinct, so all 341 prompt and 326 answer observations are retained once. Its assessment scope nevertheless collapses completely to previously searched MSK coverage:
+
+| Source-first candidate scope | Prior-MSK disposition |
+|---|---|
+| shoulder-girdle, arm and forearm muscles, attachments, actions and supply | completed Anatomy H1 |
+| brachial plexus, terminal nerves, branches, lesions and clinical deformities | completed Anatomy H2 |
+| axillary/brachial/radial/ulnar vessels, superficial veins, breast and regional lymphatics | completed Anatomy H3 |
+| shoulder, elbow, radioulnar, wrist and hand joints; retinacula and anatomical snuffbox | completed Anatomy H4 |
+| intrinsic hand muscles, tendon sheaths and digital movements | completed Anatomy H5 |
+| skin, cartilage, bone, muscle-tissue and general MSK principles | previously completed MSK Histology and general-principles scopes |
+
+No genuinely new accepted handle survives prior-MSK or cross-subject reconciliation. The exactly-four-search rule therefore resolves as **`0 new handles × 4 = 0 new searches`**. The prior Anatomy family's **5 accepted handles / 20 completed searches** and the completed Histology handle searches are cross-referenced without rerunning identical queries. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its distinct source-family delta is **+341 questions / +326 answer observations / +0 concepts**. Cumulative arithmetic is **2793 + 341 = 3134 questions**, **2707 + 326 = 3033 answers**, and **32 + 0 = 32 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 3134 | 3033 | 32 | 0 | 1 | 31 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the thirty-four processed unique hashes leaves **68 selected inventory paths / 67 unique SHA-256s**. Their sorted, newline-joined hash checksum is `0d71e0cf2acf701ca6d2c9879ba17314b4e9625953d49696ed137614f1c16976`. Remaining audit-review debt is 30 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`34 + 67 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Anatomy MCQ (1).pdf`, SHA-256 `dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e`, 170 pages.
+
+**BLOCKED — S1 cannot be approved:** 68 selected inventory paths / 67 unique hashes remain untriaged.
