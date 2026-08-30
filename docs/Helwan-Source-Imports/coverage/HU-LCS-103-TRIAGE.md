@@ -14945,3 +14945,49 @@ so the next family likewise requires path adjudication with zero second content 
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 95 tier-3/tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 136 — Tier-3 normalized-name duplicate path for the Family-130 lower-limb bank
+
+### Exact duplicate-path adjudication
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_cfa873a27444252626c3` / `cfa873a27444252626c3c33e555bd297bf3cf0ede78cdc53a3cd90f5785d3d28` |
+| Path record | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - Lower_Limb_mcqs.pdf` · 225,993 bytes · 55 physical A4 pages · tier 3 |
+| Identity disposition | Recomputed byte size and SHA-256 exactly match the normalized local file used in Family 130 to prove the absent external-prefixed manifest path. This is the remaining separate manifest path for that already-inventoried bitstream. |
+
+Family 130 already rendered and read all 55 pages and inventoried **322 external MCQs / 298
+printed answer contents / 24 unkeyed occurrences / 0 written prompts**, with 21 searched
+handles and zero practical or teaching delta. Family 136 therefore receives **0 second
+content inventory / 0 second prompts / 0 second keys / 0 second concepts / 0 second searches /
+0 assessment delta / 0 practical delta**. The path multiplicity is consumed without
+duplicating page renders, source anomalies, answer-grid states or concept handles.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+remains **6,081 external prompts / 5,815 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**; all assessment deltas are zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+Removing this final path for the Family-130 hash leaves **94 all-rank path instances / 89
+unique hashes**: tier 3 **12 paths / 12 unique hashes within tier**, tier 6 **68 / 66**, and
+rank 9 **14 / 11**. Family 135's prior checksums are
+`7d60b121c53940b9e2432ed0eb2d4bf5cc6273db8d7ba4f6076e45316aec532c` (paths) and
+`21ed43d05e24246bfc6ac165d23f177d8d3e842fa7b14c16588ab187185ebf75` (unique hashes).
+For the exact post-Family-136 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`805e3280b3ea8097ceeec2a1481676e71a72081aee3b1e822c4ec291aebaf5f5`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e23e81a244f209a51b4f20d2185106d43f564b65fb91cecbb070cf7d943c5848`.
+
+The exact next tier-3 manifest-order debt is `src_6672e568f273ffba6c4f`,
+`MCQs - Student MCQs Anatomy 103 L.L.pdf` (280,082 bytes; 12 physical native-text pages;
+SHA-256 `6672e568f273ffba6c4f517b76a2fdf11120b83912f048402ff7704caa5c43dd`).
+It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 94 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
