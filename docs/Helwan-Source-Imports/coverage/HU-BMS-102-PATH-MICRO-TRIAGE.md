@@ -15915,3 +15915,118 @@ five native-text A4 pages under `Pathology / Questions / MCQs`. Metadata author 
 with creation timestamp 6 April 2025; its visible Ahmed-Hassan series authority, complete
 prompt/key convention, same-source and Family-149 replays, prior-BMS reuse, four-search packets,
 and arithmetic are the exact next-source blockers.
+
+## Family 150 — Ahmed-Hassan `Cell injury 2` keyed MCQ bank
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_92a00e70d341f27e46fd` · `MCQs - Cell injury 2 MCQ.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `92a00e70d341f27e46fde13c81d347bba647ad2f3de00dc38b803efe2bd2c429` · **116,933 bytes** |
+| Format / complete visual boundary | Five native-text portrait A4 pages, each 595.32×841.92 points. All five pages were rendered at 150 dpi into five non-empty 1241×1754-pixel images and read individually at original detail; layout and raw extraction were also read. There is no page, crop, row, option, key-letter, footer, or text remainder. |
+| Native-text reality | Layout extraction contains 886 words / 8,899 bytes; raw extraction contains 906 words / 5,021 bytes. Both preserve all 25 numbered stems, option sets, right-column letters, page numbers, and instructor footers. The manifest's `native` label is accurate. |
+| Visible provenance | Every page is headed `Cell injury 2`, visibly prints `DR. Ahmed Hassan`, and carries page numbering 1–5. No university/faculty name or logo, module code, academic year, exam date/sitting, marks, duration, candidate field, or official-key declaration is visible. |
+| Metadata caution | PDF author is `Alnoaman`; creator/producer is Microsoft Word 2019; creation/modification timestamp is 6 April 2025. Visible Ahmed-Hassan attribution controls over the conflicting author metadata. The shared metadata timestamp links file production to Family 149's series, not to an assessment sitting or academic year. |
+| Authority | Local tier-3 instructor MCQ study bank with a stable printed letter-key column. It is eligible auxiliary keyed-question evidence, not an authenticated Helwan exam or official department key. |
+
+### Complete page-first prompt, key, copy, practical, and anomaly boundary
+
+| Page | Visible numbered prompts | Prompt / printed-key ruling |
+|---:|---|---:|
+| 1 | Q1–Q5: malformed adaptation exception, irreversible change, common injury cause/death pattern, ischemic calcium influx | **5 / 5** |
+| 2 | Q6–Q11: myocardial/ischemic coagulation, brain liquefaction, AIDS/TB caseation, reversible-change exception, necrosis definition | **6 / 6** |
+| 3 | Q12–Q16: irreversible nuclear sign, necrosis-type exception, gross/microscopic coagulation morphology, abscess liquefaction | **5 / 5** |
+| 4 | Q17–Q21: TB caseation; traumatic/morphologic breast fat necrosis; pancreatitis/enzymatic fat necrosis | **5 / 5** |
+| 5 | Q22–Q25: PAN fibrinoid necrosis; apoptotic DNA fragmentation/genetic activation; repeated ischemia–coagulation item | **4 / 4** |
+
+The isolated capital letter in the far-right column aligned to every numbered row is a stable
+source-supplied study key. Its exact sequence is `C D C A D / B B D C E D / D E B A B / B D B
+B C / A D C B`. Thus the source contains exactly **25 text MCQ occurrences / 25 printed answer
+occurrences / 0 unkeyed prompts**. There are **0 written operations / 0 image-bearing prompts / 0
+practical stations / 0 drawing tasks / 0 candidate responses / 0 prompt-like residues**.
+
+Q25 is a literal wording-and-key copy of Q7 and is excluded from retention, so **25 - 1 = 24
+retained question records**. Two further same-source semantic reductions yield **22 accepted
+handles**: the AIDS/TB vignette Q9 and general TB statement Q17 both test caseous necrosis, while
+Q20 and Q21 both test pancreatitis-associated enzymatic fat necrosis. Their distinct occurrences
+and letters remain preserved.
+
+Source anomalies are not repaired: Q1's adaptation-exception stem offers several non-adaptation
+phrases and keys C `Death of cells in living body`; Q5 keys calcium influx while omitting the
+canonical sodium/water option; Q9 prints `AlDS`; Q14 keys `Dull, swollen firm area`; Q22 says
+fibrinoid necrosis appears homogeneous blue in a distractor while keying PAN; and Q24 keys genetic
+activation as the apoptosis/coagulation discriminator. The research-project and cocaine-abuse
+vignettes are text MCQs, not evidence of an administered study or candidate response.
+
+### Source-first 22-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 22 accepted handles received exactly four fresh searches across live state, pending import
+roots, and prior BMS-102 Families 1–149: **88 required and completed searches**.
+
+| Ref(s) / handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| Q1 · `adaptation-exception-cell-death-source-key` | `adaptation except cell death`; `death of cells in living body adaptation`; `programmed cell death not adaptation`; `cellular adaptation exception source key` | no same-scope | exact Family-149 adaptation-exception tested relation with a different malformed option/key set; reuse |
+| Q2 · `apoptosis-irreversible-cell-change` | `apoptosis irreversible cell change`; `irreversible cell injury apoptosis`; `hydropic fatty cloudy versus apoptosis`; `cell death irreversible change MCQ` | pending reversible/irreversible-injury composite support | exact F112 `irreversible-cell-injury-types` membership; reuse |
+| Q3 · `hypoxia-most-common-cell-injury-cause` | `most common cause cell injury hypoxia`; `hypoxia common cellular injury cause`; `leading cause of cell death oxygen deprivation`; `cell injury etiologies most frequent` | pending `CON-FND-8989A49BEBCF14` | exact F125 Q5 reuse |
+| Q4 · `coagulative-necrosis-most-common-pattern` | `most common morphological pattern cell death coagulative`; `coagulative most common necrosis`; `common pattern of necrosis`; `coagulative cell death frequency` | pending `CON-FND-5285A9707E61CA` | exact F125 Q23/Q52 reuse |
+| Q5 · `ischemic-cell-injury-calcium-influx` | `ischemic cell injury calcium influx`; `myocardial ischemia influx Ca`; `cytosolic calcium irreversible injury`; `ischemic membrane calcium entry` | no same-scope | prior mechanism teaching does not test this ion-direction choice; delta |
+| Q6 · `myocardial-infarction-coagulative-necrosis` | `myocardial infarction coagulative necrosis`; `heart infarct necrosis type`; `ischemic necrosis myocardium`; `coagulative necrosis myocardial infarct` | pending `CON-FND-5285A9707E61CA`; exact site/type support | exact F73 Q22 reuse |
+| Q7,Q25 · `ischemia-causes-coagulative-necrosis` | `ischemia causes coagulative necrosis`; `coagulative necrosis results from ischemia`; `ischemic solid organ coagulation necrosis`; `cause coagulative cell death` | pending `CON-FND-5285A9707E61CA` | exact ischemic component of F112 `coagulative-necrosis-definition`; reuse |
+| Q8 · `cerebral-infarct-liquefactive-necrosis` | `liquefactive necrosis CNS infarct`; `brain infarct cystic liquefaction`; `cerebral infarction liquefactive necrosis`; `brain ischemia necrosis type` | pending `CON-FND-88508ABAB84A67`; exact | exact F73/F125 reuse |
+| Q9,Q17 · `tuberculosis-caseation-necrosis-type` | `tuberculosis caseation necrosis`; `TB necrosis type`; `caseating granuloma tuberculosis`; `tuberculous caseous necrosis` | pending `CON-FND-5B3B6BA12670C7`; exact | exact F7/F73 reuse |
+| Q10 · `necrosis-irreversible-vs-reversible-change` | `necrosis exception reversible change`; `reversible pathological changes exclude necrosis`; `necrosis irreversible cell injury`; `cloudy mucoid vacuolar versus necrosis` | no single same-scope | exact F125 Q22/Q51 reuse |
+| Q11 · `necrosis-cell-death-definition` | `necrosis means cell death`; `necrosis definition living tissue`; `irreversible cell death necrosis`; `necrotic tissue definition` | no same-scope | exact F112 `necrosis-definition`; reuse |
+| Q12 · `irreversible-injury-nuclear-fragmentation` | `irreversible cell injury nuclear fragmentation`; `fragmentation nucleus light microscope injury`; `karyorrhexis irreversible cell damage`; `nuclear breakup cell death morphology` | pending `CON-FND-8DA30AD870AC1E` | exact atomic relation of F2/F73 karyorrhexis–nuclear-fragmentation handle; reuse |
+| Q13 · `necrosis-types-exception-venous-congestion` | `types necrosis exception venous congestion`; `coagulative liquefactive fibrinoid caseous classification`; `venous congestion not necrosis`; `necrosis patterns list exception` | no same-scope | exact F112 necrosis-types classification; reuse |
+| Q14 · `coagulative-necrosis-gross-dull-firm` | `coagulative necrosis dull swollen firm`; `gross description coagulation necrosis`; `pale firm infarct coagulative`; `coagulative necrosis macroscopic morphology` | pending `CON-FND-5285A9707E61CA` morphology | exact gross component of F2 `coagulative-necrosis-characteristics`; reuse |
+| Q15 · `coagulative-necrosis-eosinophilic-preserved-outlines` | `coagulative necrosis eosinophilic cytoplasm preserved outlines`; `ghost cell outlines coagulation necrosis`; `microscopic morphology myocardial coagulative necrosis`; `protein denaturation preserved architecture` | pending `CON-FND-5285A9707E61CA`; exact | exact F2/F73 ghost-outline morphology reuse |
+| Q16 · `abscess-liquefactive-necrosis-identification` | `abscess liquefactive necrosis`; `type of necrosis in abscess`; `neutrophil enzymes tissue liquefaction`; `suppurative lesion necrosis pattern` | pending `CON-FND-88508ABAB84A67`; exact | exact F73/F123 reuse |
+| Q18 · `traumatic-breast-fat-necrosis-cause` | `traumatic fat necrosis breast`; `breast fat necrosis trauma`; `fat necrosis breast cause`; `nonenzymatic adipose necrosis breast` | pending `CON-FND-6626C19B61A23B`; exact | exact F73 Q11 reuse |
+| Q19 · `breast-fat-necrosis-morphology-diagnosis` | `breast mass ruptured fat cells fibrosis calcification`; `fat necrosis breast histology diagnosis`; `chronic inflammation ruptured adipocytes breast`; `breast fat necrosis mimics carcinoma morphology` | no same-scope | prior trauma-cause handle does not test the morphology-to-diagnosis vignette; delta |
+| Q20,Q21 · `acute-pancreatitis-enzymatic-fat-necrosis` | `acute pancreatitis fat necrosis`; `enzymatic fat necrosis pancreas`; `pancreatic lipase fat saponification`; `hemorrhagic pancreatitis adipose necrosis` | pending `CON-FND-6626C19B61A23B`; exact | exact F73/F86 reuse |
+| Q22 · `polyarteritis-nodosa-fibrinoid-necrosis` | `polyarteritis nodosa fibrinoid necrosis`; `PAN arterial wall necrosis`; `vasculitis fibrinoid necrosis`; `polyarteritis nodosa pathology` | pending `CON-FND-BA0739479AD0FC`; exact | exact F73 Q13 reuse |
+| Q23 · `apoptosis-regular-dna-fragmentation` | `apoptosis regular DNA fragmentation`; `internucleosomal DNA cleavage apoptosis`; `apoptotic DNA ladder fragmentation`; `programmed cell death nuclear fragmentation` | pending general apoptosis-mechanism support, not an accepted same-scope handle | prior morphology/control handles do not test regular DNA fragmentation; delta |
+| Q24 · `apoptosis-genetic-activation-vs-coagulative-necrosis` | `apoptosis genetic activation coagulative necrosis`; `gene activation distinguishes apoptosis`; `apoptosis versus necrosis genetic program`; `programmed cell death genetic control comparison` | pending apoptosis-control/comparison support | exact genetic-control component of F73 `apoptosis-characteristics-exception`; reuse |
+
+External disposition is **0 live / 15 pending / 7 no same-scope**. Exactly **19** current handles
+reuse prior BMS tested scope; only ischemic calcium influx, morphology-led breast fat-necrosis
+diagnosis, and regular apoptotic DNA fragmentation survive as new concepts. Family 150 therefore
+adds `22 - 19 = 3` concepts.
+
+### Family-150 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 150 | Auxiliary cumulative (Families 12–150) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 25 | 1,344 | 765 | 2,109 |
+| Printed study-key occurrences | 25 | 831 | 405 | 1,236 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| Retained question records | 24 | 1,266 | 552 | 1,818 |
+| Accepted handles / required searches | 22 / 88 | 1,136 / — | — | — |
+| Prior-BMS handle reuses | 19 | — | — | — |
+| Cross-family concept delta | +3 | +705 over primary | 372 | 1,077 |
+| **Distinct tested concepts** | **22 source-local** | **705 auxiliary additions** | **372** | **1,077** |
+
+The source-local checksum closes as `5 pages × 5 prompts = 25`, and all 25 prompts have letters.
+Retention is `25 - 1 literal copy = 24`; handle collapse is `24 - 2 semantic reductions = 22`;
+search arithmetic is `22 × 4 = 88`; and concept arithmetic is `22 - 19 prior reuses = +3`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary becomes **1,344 prompts / 831 answers /
+1,266 retained records / 1,136 accepted handles / +705 concepts over primary**. All eligible S1
+evidence becomes **2,109 prompts / 1,236 supplied answers / 1,818 retained records / 1,077
+distinct tested concepts**. Family 150 adds keyed auxiliary bank evidence only; it establishes no
+authenticated exam, official key, practical station, recurrence, mark weight, candidate response,
+readiness, or claims status.
+
+### Exact next debt after Family 150
+
+`src_92a00e70d341f27e46fd` is exhausted across all five pages: every visible/metadata provenance
+field, numbered stem, option set, right-column letter, exact/semantic replay, anomaly, format
+assignment, search packet, prior reuse, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-150 blocker. The exact next manifest record is tier-3
+`src_cfdbc273660c3c88967a` · `MCQs - Cell injury 3 MCQ.pdf`, SHA-256
+`cfdbc273660c3c88967a0d3d84442dfd0ca54fb6a61e078b670a2d8c101abc95`, 112,545 bytes,
+five native-text A4 pages under `Pathology / Questions / MCQs`. Metadata author is `Alnoaman`
+with creation timestamp 7 April 2025; its visible instructor/series authority, complete prompt/key
+convention, same-source and prior-series replays, prior-BMS reuse, four-search packets, and
+arithmetic are the exact next-source blockers.
