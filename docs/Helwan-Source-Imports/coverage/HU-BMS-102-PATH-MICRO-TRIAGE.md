@@ -12900,3 +12900,82 @@ The exact next unprocessed manifest record is tier-6 `src_b76c1117f1401f9e79d6` 
 full render/read, visible Dr Enas Megahed Elhosary / Faculty of Medicine / Helwan University
 provenance, iOS production-date caution, and teaching/case/prompt/key/practical boundary are the
 exact next-source blockers.
+
+## Family 122 — Helwan Inflammation 1 shortened annotated lecture carrier
+
+### Source identity, complete render/native boundary, provenance, authority, and Family-105 reuse
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_b76c1117f1401f9e79d6` · `inflammation 1.pdf.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `b76c1117f1401f9e79d659802297a34fb57a1fe975384eaad7b18d1a22d1207e` · 7,797,982 bytes |
+| Format / complete visual boundary | Thirty-nine native-text 791×444.937-point landscape pages. All 39 pages were rendered at 150 dpi into 39 non-empty 1648×927-pixel images and read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent layout extraction contains 766 words / 7,291 bytes; raw extraction contains 758 words / 5,600 bytes. The layout text agrees with the complete rendered headings, definitions, tables, diagrams, and closing slide; visual inspection controls handwritten annotations and image/callout boundaries. The manifest's `native` label is accurate. The PDF has no form, JavaScript, encryption, metadata stream, custom metadata, user properties, or suspect objects. |
+| Visible provenance | Page 1 visibly prints `Inflammation (1)`, `Dr/ Enas Megahed Elhosary`, `Lecturer of Pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes Helwan/instructor teaching provenance. No module code, academic year, lecture date, or assessment sitting is printed. |
+| Metadata caution | Quartz metadata records only `iOS Version 18.3.1 (Build 22D72)` as producer and 14 March 2025 creation/modification timestamps. These are file-production facts, not evidence of authorship, academic year, teaching date, or sitting. |
+| Authority | Helwan-authored tier-6 annotated lecture material. It is not a candidate paper, written exercise, practical station, response sheet, or official answer source. |
+| Family-105 reuse | Family 105's 43-page `Inflammation-lecture-1 1.pdf` contains 766 words / 7,304 layout bytes. Collapsing whitespace produces the identical SHA-256 `57e60cbbc03e334b3cce69a3bf9e6e2cac880e2a2f291b988d803d5a535cd593` for both complete extractions. The present file is a shorter/compressed visual carrier of the same Inflammation 1 teaching sequence: it omits/reflows several insert pages but adds no tested scope. It is not a byte-identical PDF and therefore remains documented once as a distinct source object. |
+
+### Complete page-first teaching, callout, practical-image, prompt, and key inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1–3 | Helwan/instructor cover, objectives/ILOs, and `In-flame` introductory image | Provenance, objectives, and teaching transition; **0 prompts / 0 answers**. |
+| 4–10 | Inflammation definition, disease examples, aims, cardinal signs, causes, and `-itis` terminology | Completed teaching and handwritten explanation. Page 4's embedded `What Is Inflammation?` is immediately followed by the full definition and is an excluded audience/section callout; **0 / 0**. |
+| 11–18 | Acute-versus-chronic comparison, acute-inflammation definition and vascular/cellular branches, general manifestations/markers, increased-permeability mechanisms, vascular responses, and effects | Completed tables, diagrams, prose, and annotations; **0 / 0**. |
+| 19–24 | Inflammatory-exudate definition, composition, mechanism, functions, and completed transudate-versus-exudate comparisons | Page 22's `What is the difference between transudates and exudates?` heads a fully populated comparison panel, reinforced by the page-23 table; excluded teaching callout; **0 / 0**. |
+| 25–38 | Cells of inflammation; cell/activity/phagocytosis table; leukocyte journey; margination, rolling, adhesion, selectins/integrins, transmigration, chemotaxis, phagocytosis and killing; inflammatory mediators; outcomes; completed sequence | Completed labelled diagrams, microscopy, definitions, mappings, and handwritten annotations. Page 29's handwritten `what cause ...?` points directly to the completed rolling/adhesion molecule map and is an excluded in-place teaching annotation; **0 / 0**. |
+| 39 | `Thank you` closing image | Closing matter; **0 / 0**. |
+
+The three question-form callouts on pages 4, 22, and 29 are embedded in supplied teaching and
+answered in place; none offers candidate response space or creates a tested handle. Objectives,
+headings, highlights, arrows, circles, underlines, handwritten explanations, labelled histology,
+and completed diagrams do not encode answer correctness. There is no exam heading, candidate
+instruction, unanswered blank, option set, mark allocation, concealed practical image, student
+response, or separate key convention.
+
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0 printed or
+handwritten answer occurrences / 0 unkeyed occurrences / 3 excluded teaching callouts / 0
+prompt-like residues / 0 retained records / 0 source-distinct tested handles**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted tested handle survives the completed-teaching boundary. Exactly four searches are
+required only per accepted handle, so the source-first gate is exactly **0 handles × 4 = 0
+required and completed searches**; no empty search or external-disposition row is fabricated.
+The normalized native-text identity and visual/thematic reuse of Family 105 are source-level
+relations only. With no tested handle, prior-BMS tested-handle reuse is **0** and concept delta is
+**+0**.
+
+| Measure | Family 122 | Auxiliary cumulative (Families 12–122) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,021 | 765 | 1,786 |
+| Printed/source-supplied answer occurrences | 0 | 601 | 405 | 1,006 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Excluded teaching callouts | 3 | — | — | outside prompt totals |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 961 | 552 | 1,513 |
+| Source-distinct tested handles / required searches | 0 / 0 | 859 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +563 over primary | 372 | `372 + 563 = 935` |
+| **Distinct tested concepts** | **+0** | **563 auxiliary additions** | **372** | **935** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answers, unkeyed items,
+residues, retained records, tested handles, searches, external dispositions, prior-handle reuses,
+or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**1,021 / 601 / 961 / 859 / +563**; and all eligible evidence remains
+**1,786 / 1,006 / 1,513 / 935**. Family 122 cannot establish an assessment, official key,
+dated sitting, recurrence, mark weight, student response, readiness, or claims status.
+
+### Exact next debt after Family 122
+
+`src_b76c1117f1401f9e79d6` is exhausted across all 39 pages: every visible provenance field,
+teaching slide, handwritten annotation, completed diagram/image label, excluded callout,
+Family-105 reuse relation, zero-search gate, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-122 blocker. The exact next unprocessed manifest record is tier-6
+`src_3a1f6f5cdad3eda0d1fa` · `inflammation 2.pdf`, SHA-256
+`3a1f6f5cdad3eda0d1fabe580dbd59707319914b6a4d4dccbaf1be4963323e49`, 1,122,770 bytes,
+eight native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its complete
+render/read, visible Dr Ahmed Hassan provenance, metadata author/date conflict, and teaching/case/
+prompt/key/practical boundary are the exact next-source blockers.
