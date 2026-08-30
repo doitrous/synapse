@@ -10312,3 +10312,80 @@ snippet begins a `Connection Map` for circulatory disturbances, while iOS Quartz
 March 6, 2025 file-production timestamp. Its complete rendered content, visible provenance,
 metadata/date limitation, teaching/prompt/key/written/practical boundary, and overlap with prior
 circulatory material are the exact next-source blockers.
+
+## Family 94 — circulatory-disturbance connection map
+
+### Source identity, render boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_12fbda05af3743557ab3` · `Circulation connections.pdf` |
+| SHA-256 / size | `12fbda05af3743557ab38870df80d75d755a016fe57c63979ab899a06f6d5f2f` · 954,676 bytes |
+| Placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / complete read boundary | Three native-text portrait 594×846-point pages; all three rendered at 150 dpi into non-empty 1238×1763-pixel images and visually read at original detail |
+| Native layer | 725 words / 5,650 bytes extracted across the complete PDF; the renders establish the colored flow arrows, section divisions, completed question-form callouts, and summary-table layout |
+| Visible provenance | Page 1 is titled `Connection Map Circulatory Disturbances`. No university, module, instructor, author, academic year, teaching date, or assessment sitting is visibly printed on any page. Manifest placement supports BMS-102 routing but cannot supply missing visible authorship or date evidence. |
+| Metadata caution | Producer is `iOS Version 18.3.1 (Build 22D72) Quartz PDFContext`; creation and modification timestamps are March 6, 2025. These file-production fields are secondary metadata and do not independently establish authorship, a teaching date, academic year, or exam sitting. |
+| Authority | Tier-6 teaching connection map/summary. It is not an assessment instrument or official answer key. |
+
+### Complete page-first teaching, prompt/key, written, practical, and callout inventory
+
+| Page | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Overview mapping excess flow to hyperemia/congestion, inadequate flow to ischemia/infarction, obstruction to thrombosis/embolism, and circulatory failure to shock/gangrene; active hyperemia versus passive congestion; chronic venous congestion in lung/liver with edema/hemorrhage; ischemia/infarction definitions, causes, collateral-circulation consequence, and tissue-specific necrosis patterns | completed teaching pathways. `What Causes Ischemia?` and `What Happens After Infarction?` are immediately answered section headings, not candidate prompts |
+| 2 | Continuation with hemorrhagic infarction in intestines/lungs; thrombosis and embolism definitions; Virchow triad; embolic routes/outcomes; shock definition and hypovolemic, obstructive, cardiogenic, and septic causes; dry, wet, and gas gangrene | completed teaching pathways. `How Does This Happen?`, `Where Do Thrombi Travel?`, `Causes of Shock`, and `Causes` immediately introduce supplied explanations; no response space or key convention |
+| 3 | Four completed connection pathways linking congestion, thrombosis, embolism, hemorrhage/infection, shock, organ failure, stroke, gangrene, and death; completed eight-row summary table of condition, event, cause, and complication | declarative synthesis and fully populated table; no blank, written exercise, practical station, or answer register |
+
+Color highlights, arrows, icons, mnemonic labels, underlines, and question marks organize the
+teaching flow. Every question-form heading is locally and immediately resolved by the source's
+own completed bullets or pathways. None is numbered as an assessment item, offers options,
+provides candidate-response space, or participates in a printed-key convention.
+
+There is no exam heading, candidate instruction, option set, unanswered blank, written exercise,
+practical/image-identification request, student response, mark allocation, or separate answer key
+anywhere in the three pages. The source therefore contributes **0 prompt occurrences / 0 printed
+or handwritten teaching-answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0
+retained records / 0 source-distinct tested handles / 0 concept additions**.
+
+### Source-first zero gate, prior-BMS adjudication, and cumulative arithmetic
+
+The map overlaps prior BMS-102 teaching and assessed concepts concerning hyperemia, congestion,
+edema, hemorrhage, ischemia, infarction, thrombosis, embolism, shock, and gangrene, but a completed
+declarative map does not create a source-tested handle. With no accepted handle, the exact
+source-first gate is **0 handles × 4 = 0 required searches**. No external search row or prior-BMS
+tested-handle reuse is fabricated.
+
+| Measure | Family 94 | Auxiliary cumulative (Families 12–94) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 847 | 765 | 1,612 |
+| Printed/handwritten teaching-answer occurrences | 0 | 470 | 405 | 875 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 788 | 552 | 1,340 |
+| Source-distinct tested handles / required searches | 0 / 0 | 712 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +487 over primary | 372 | `372 + 487 = 859` |
+| **Distinct tested concepts** | **+0** | **487 auxiliary additions** | **372** | **859** |
+
+The checksum closes: `0` accepted prompts yield `0` answer occurrences, unkeyed occurrences,
+residues, retained records, handles, searches, external dispositions, prior-handle reuses, or
+concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**847 / 470 / 788 / 712 / +487**; and all eligible evidence remains
+**1,612 / 875 / 1,340 / 859**. Family 94 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, student-response, readiness, or claims status.
+
+### Exact next debt after Family 94
+
+`src_12fbda05af3743557ab3` is exhausted across all three pages: every identity/provenance field,
+teaching pathway, question-form callout and immediate explanation, mnemonic, completed table,
+prompt/key/written/practical absence, zero search gate, and unchanged arithmetic term is assigned
+once, with **zero source remainder** and no Family-94 blocker. The exact next manifest-ordered
+BMS-102 record is tier-6 `src_b0c65040fd6056fedf38` · `Circulatory disturbance 1.pdf`, SHA-256
+`b0c65040fd6056fedf384b1806141c54d0b65f99efe63ea3bbf6d17bf6b70a71`, 186,715 bytes, nine
+native-text portrait A4 pages under `Pathology / Notes and Summaries`. The first-page snippet opens
+with `Circulatory 1`, homeostasis, hemostasis, and edema. Microsoft Word metadata names author
+`Alnoaman` and gives an April 5, 2025 production timestamp; both require visible-source
+adjudication. Its complete rendered content, provenance/date boundary, teaching/prompt/key/
+written/practical classification, and overlap with Family 94 and prior circulatory evidence are
+the exact next-source blockers.
