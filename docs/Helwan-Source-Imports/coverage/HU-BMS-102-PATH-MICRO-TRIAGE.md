@@ -8556,3 +8556,82 @@ teaching/prompt/answer boundary, handwriting/annotation convention, provenance, 
 relationship to the immediately following timestamped images, and relationship to Family 74
 and prior BMS-102 evidence are the exact next-source blockers; inspect the original image before
 admitting any count.
+
+## Family 75 — handwritten `Reversible Cell Injury I` page 1 screenshot
+
+### Source identity, original-image boundary, provenance, and sequence ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_3b54737d510060d0aa2d` · `2026-07-20 06.14.16.jpg` |
+| SHA-256 / size | `3b54737d510060d0aa2d40005b7a09b45fca172a638d9f181479c6b751909f57` · 229,613 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×960 JPEG; opened and read at original resolution |
+| Visible source identity | Handwritten sheet circled `1`, headed `REVERSIBLE cell injury I [normal nucleus]`; no university/faculty/module masthead, author, instructor, date, exam label, or key designation |
+| Embedded date metadata | None recovered; the date/time exists only in the filename/manifest classification |
+
+The image is a photographed handwritten comparison table, not an assessment or official
+teaching carrier. It compares cloudy swelling, hydropic degeneration, and fatty accumulation
+by causes, results, gross/microscopic appearances, organs, and diseases. Yellow highlighting
+selects terms such as `granules`, `vacuoles`, `vacuolated cytoplasm`, and `parenchymal cells`;
+red and blue ink distinguish headings and content. Those marks consistently organize completed
+notes and do not select answers to any question.
+
+The immediately following manifest image, `2026-07-20 06.14.19.jpg`, is visibly circled `2`,
+headed `IRREVERSIBLE cell injury I [abnormal nucleus]`, and continues the same photographed
+handwritten style into necrosis types. The next image, `2026-07-20 06.14.21.jpg`, visibly
+restarts at circled `1` under `Cell injury II` / `accumulation`. Thus the source-first sequence
+is a two-page `Cell injury I` pair followed by a distinct `Cell injury II` pair. Capture-time
+ordering agrees with the handwritten page numbers, but the timestamp is **not** a verified
+authorship date, teaching date, exam date, or sitting year.
+
+### Teaching-versus-prompt, annotation, duplicate, and search gate
+
+The entire sheet is declarative teaching. It contains no question stem, command, completion
+blank, option set, response frame, audience question, prompt-like residue, or answer register.
+Its headings `Causes`, `Result`, `gross`, `Micro`, and `organs/diseases` label completed table
+rows rather than eliciting a response. No item is counted merely because it is highlighted.
+
+Family 75 is not a pixel duplicate of Family 74, but it substantially restates Family-74 p. 1's
+cloudy-swelling, hydropic-degeneration, and fatty-change teaching in handwritten tabular form.
+That teaching relationship does not create a tested handle or promote Family-74 declarative
+content into assessment evidence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first rule is exactly **0 handles × 4 = 0 required searches**;
+there is no external/prior-BMS search row to adjudicate.
+
+| Measure | Family 75 | Auxiliary cumulative (Families 12–75) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes without remainder: `0` prompts produce `0` answers, residues, retained
+records, handles, searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**766 / 390 / 728 / 654 / +448**; and all eligible evidence remains
+**1,531 / 795 / 1,280 / 820**. This handwritten teaching screenshot cannot raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 75
+
+`src_3b54737d510060d0aa2d` is exhausted: every visible heading, table region, completed teaching
+statement, color/highlight convention, prompt absence, Family-74 content relationship,
+handwritten page number, adjacent-image sequence relation, timestamp limitation, zero search
+gate, and unchanged arithmetic is assigned once, with **zero source remainder** and no
+Family-75 blocker. The exact next manifest-ordered BMS-102 record is tier-6
+`src_697086928f735afecae2` · `2026-07-20 06.14.19.jpg`, SHA-256
+`697086928f735afecae22fe77070a30cca6060f3dd0979e53456656e7bb66a61`, 175,634 bytes,
+one 1280×960 JPEG under `Pathology / Notes and Summaries`. It is visibly page 2 of the same
+`Cell injury I` handwritten sequence and begins an irreversible-injury/necrosis comparison.
+Its complete teaching/prompt/answer boundary, annotation convention, exact relationship to
+Family 75 and Family 74, and independent zero-or-count ruling are the next-source blockers;
+the filename timestamp remains non-authoritative until visible provenance says otherwise.
