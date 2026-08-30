@@ -18927,3 +18927,96 @@ native-text portrait A4 pages** under `Pathology / Questions / MCQs`. Its visibl
 & Repair From 2004 to 2013 Prepared by Dr. Hamza Kheder` provenance, complete prompt/key
 boundary, authority gate, four-search/prior-BMS disposition, arithmetic, and subsequent exact
 next-source debt remain to be separately reconciled.
+
+## Family 180 — provenance-unverified Hamza-Kheder healing-and-repair MCQ compilation
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_b7bdc4544fb8589d9247` · `MCQs - mcq healing and repair.pdf` under the local `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `b7bdc4544fb8589d9247b5014b13b51501bf41b27a89248d2ba7c14aa07f0d0a` · **371,054 bytes** |
+| Format / complete read | **14 native-text portrait A4 pages** at 595.25×842 pt. All 14 pages were rendered at 100 dpi into 14 non-empty images and read at original detail; native text was independently extracted in layout and plain modes (**1,560 words** in each extraction). |
+| Visible identity | Page 1 prints `MCQs in Healing & Repair`, `From 2004 to 2013`, and `Prepared by Dr. Hamza Kheder`; pages carry `د. حمزة خضر`. Individual stems cite dates, `QUIZ 2009`, `نصفي`, and first/second-round labels. No university, faculty, module code, Helwan name, candidate field, marks, institutional seal, or official-key authority is visible. |
+| Date and metadata caution | The source's 2004–2013 tags attach to individual compiled occurrences and do not establish one sitting or a Helwan sitting. Generic metadata author `user`, Microsoft Word creation, and the 18 February 2021 creation/modification timestamps describe carrier export only. |
+| Authority / eligibility | This is the same named-preparer/date-range series as Family 179 and has the same unresolved institutional provenance. Local folder placement and manifest tier do not supply the missing Helwan marker. It is indexed source-locally but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing generic-pathology provenance gate. |
+
+### Complete prompt, answer, anomaly, and practical boundary
+
+The complete carrier is **50 numbered text MCQs + 49 source-supplied answer-grid entries + 1
+visibly unkeyed prompt**:
+
+- **Page 1:** cover only; 0 prompts and 0 answers.
+- **Pages 2–12:** consecutive healing-and-repair MCQ Q1–Q50. The scope includes wound- and
+  fracture-healing complications, first/second intention, regeneration/resolution/organization,
+  granulation tissue, repair factors, collagen/vitamin C, cell regenerative capacity, peripheral
+  nerve/CNS repair, bone callus, fistula, stem cells, and lobar-pneumonia resolution.
+- **Page 13:** `KEY ANSWER in Healing & Repair` divider only.
+- **Page 14:** answer grid Q1–Q50. Q1–Q46 and Q48–Q50 each have one printed letter, for **49
+  supplied answers**. The answer cell for **Q47 is visibly blank**; no answer is inferred from its
+  options or neighboring entries.
+
+The exact checksum is **`50 prompts = 49 answered + 1 unkeyed`; `1 cover + 11 question pages + 1
+key divider + 1 key-grid page = 14 pages`**. There are **0 written operations, 0 diagnostic
+images, 0 drawing tasks, 0 practical stations, 0 candidate responses, and 0 unassigned residues**.
+Question Q10's `pyogenic membrane`, Q17's wound chronology, and other visually descriptive stems
+remain text MCQs because no specimen/image or station operation is supplied.
+
+All source wording and answer letters remain uncorrected evidence. Q47's blank is preserved rather
+than backfilled. Q4 keys `A` for granulation tissue by the third day while Q26 keys `C` for 3–5
+days; both source claims remain visible without silent harmonization. Spelling and terminology such
+as `2ry intension`, `Ostoid`, `Gliosis`, and `Organisation` likewise remain source evidence. The
+answer grid is a compilation solution layer, not an authenticated Helwan official key.
+
+### Internal recurrence, prior-BMS comparison, and governed zero-search gate
+
+The source contains explicit or same-proposition recurrence: Q13/Q31 repeat the secondary-
+intention exception; Q18/Q28 repeat the regeneration definition; Q20/Q42 repeat the repair-
+inhibitor exception; Q36/Q41 repeat fracture callus; and Q43/Q49 repeat lobar-pneumonia resolution.
+Further close clusters include Q2/Q14/Q30 fracture healing, Q7/Q19/Q35/Q40/Q45 granulation-tissue
+features, Q8/Q30 fracture-delay factors, Q9/Q15/Q37 regenerative capacity, Q17/Q26 first-intention
+timing, Q23/Q24 primary-intention healing, and Q25/Q32 repair-promotion exceptions. All occurrences
+and the one blank key remain preserved source-locally.
+
+Many scopes also overlap prior eligible BMS repair evidence, including Families 116–117, 125,
+133, 136, 140, 143, 160, and their teaching/virtual-lab antecedents. Institutional authority is
+resolved before semantic retention, however, so neither same-source recurrence nor prior overlap
+is assigned as eligible Helwan reuse.
+
+Family 180 yields **0 eligible prompts / 0 eligible answers / 0 retained records / 0 accepted
+handles / 0 prior-BMS reuse assignments / +0 concepts**. Exactly four searches are required only
+per accepted new handle; the governed gate is **`0 accepted new handles × 4 = 0 required and
+completed searches`**. Searching provenance-excluded prompts cannot turn them into Helwan
+assessment evidence.
+
+### Family-180 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 180 source-local | Eligible delta | Auxiliary cumulative (Families 12–180) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 50 MCQs | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 49 grid entries; Q47 blank | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | provenance-excluded bank | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external/generic only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-180 eligible arithmetic is independently zero. Corrected primary remains **762 / 405 / 552
+/ 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles /
++906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 180 establishes no Helwan question occurrence, official key, tested concept, sitting,
+recurrence, mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 180
+
+`src_b7bdc4544fb8589d9247` is exhausted across all 14 pages: every cover field, numbered MCQ,
+option set, source-history tag, printed answer, blank Q47 key cell, internal recurrence,
+prior-evidence relation, provenance term, eligibility term, and cumulative term is assigned once,
+with **zero remainder** and no Family-180 blocker.
+
+The exact next manifest record is tier-3 source `src_369f34ceda29106d72b2` · `MCQs - mcq in Cell
+injury, general pathology (MW).pdf`, SHA-256
+`369f34ceda29106d72b207f2a3b4f36f17891b90b6dd021fbbdb817b876fc748`, **3,929,355 bytes**, **42
+OCR-needed portrait A4 pages** under `Pathology / Questions / MCQs`. Its visible `Medicine Way`
+identity, complete rendered/OCR prompt/key boundary, authority gate, four-search/prior-BMS
+disposition, arithmetic, and subsequent exact next-source debt remain to be separately reconciled.
