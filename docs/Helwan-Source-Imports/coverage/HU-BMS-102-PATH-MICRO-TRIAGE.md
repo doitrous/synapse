@@ -23118,3 +23118,93 @@ visibly begins `Pharmacology / Excretion and elimination`, defines and calculate
 prints `DR . El-Sawy`. Its complete provenance, teaching/prompt/key/practical boundary,
 four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 228 — Dr El-Sawy excretion, steady-state, monitoring, and kinetic-order handout
+
+### Source identity, complete render/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_dab553c9862db9608e8d` · `Drug Excretion.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `dab553c9862db9608e8dea56df5e58e3cb01c60612f268bf19b45335477ff48f` · **1,714,189 bytes** |
+| Format / complete visual boundary | **Ten native-text A4 pages, PDF 1.6**: portrait 595.32×841.92-point pp.1–7 and 10, and landscape 841.92×595.32-point pp.8–9. All ten pages were rendered at 120 dpi into ten non-empty images—eight 993×1,404 pixels and two 1,404×993 pixels—and read individually at original detail. Every heading, formula, worked table, graph, diagram, format badge, footer, and page number is assigned below; there is no page or crop remainder. |
+| Native-text reality | Layout extraction contains **1,201 words / 11,112 bytes** and raw extraction contains **1,199 words / 6,891 bytes**. Both agree with the ten renders; visual review controls the non-native format badges and diagram layout. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Visible provenance | Every page visibly prints `Pharmacology`, `Excretion and elimination`, `DR . El-Sawy`, and its page number. Page 1 also carries Arabic `الاخراج`. No university/faculty, BMS-102/module code, academic year, lecture date, assessment sitting, marks, candidate field, or departmental approval is visible. |
+| Metadata caution | PDF metadata names author `Mamdouh`, Microsoft Word 2016 as creator/producer, creation on 22 February 2024, and modification on 6 March 2025. These export fields conflict with or are weaker than the visible `DR . El-Sawy` attribution and cannot establish academic year, delivery date, sitting, or institutional authority. |
+| Authority | Local tier-6 instructor-attributed pharmacokinetics teaching handout. Its exam-format badges identify study emphasis but do not authenticate an exam, candidate prompt sheet, official answer key, or practical station. |
+
+### Complete page-first teaching, format-badge, prompt, answer, and practical boundary
+
+| Page(s) | Exhausted visible content | Boundary ruling |
+|---:|---|---|
+| 1 | Clearance definition/equation, renal-clearance significance, GFR threshold/tubular secretion, dosage-rate relation, and completed renal elimination diagram | Completed teaching and one `MCQ` scope badge beside the populated GFR statement; **0 prompts / 0 answers / 0 practical**. |
+| 2 | Six routes of elimination, clinical importance of knowing the route, and completed organ-route diagram | Completed lists/diagram with `MCQ`, `Enumerate`, and `Written` scope badges. The `Enumerate` badge sits beside the already populated six-route list and supplies no independent stem or response operation; **0 / 0 / 0**. |
+| 3 | Half-life definition/calculation and clinical significance for interval, steady state, and elimination time; peak/trough graph | Completed teaching with two `Written` scope badges; **0 / 0 / 0**. |
+| 4–5 | CPSS definition/calculation, rule of five, 2/3 and 3/2 rules, worked 75-mg example, dose-increase/decrease examples, loading-dose formula/rationale, and completed concentration graphs | Completed teaching with one p.4 `Written` scope badge. The explicit `What is its dose...75 mg?` line is immediately resolved in the same `Examples` panel by 50 mg/hour and five half-lives; it is **one excluded worked-example teaching callout**, not an assessment prompt or answer occurrence. |
+| 6 | Therapeutic-drug-monitoring definition/indications, therapeutic window/CPSS relations, first- versus zero-order toxicity follow-up, and completed diagram | Completed teaching; **0 / 0 / 0**. |
+| 7 | Alpha distribution and beta elimination phases after IV/oral administration, with completed curves | Completed teaching; **0 / 0 / 0**. |
+| 8–9 | First- versus zero-order comparison; representative drugs; proportional/constant-ratio versus saturated/constant-amount behavior; half-life, accumulation, interaction, CPSS consequences; two fully worked concentration tables and graphs | Completed comparison/worked examples with one `Written` and one `MCQ` scope badge on p.8; **0 / 0 / 0**. |
+| 10 | Dose-dependent transition of aspirin/phenytoin/ethanol from first to zero order; clinical significance and toxicity graph | Completed teaching with one `MCQ` and one `Written` scope badge; **0 / 0 / 0**. |
+
+Exactly **11 exam-format scope badges** are visible: four `MCQ`, six `Written`, and one
+`Enumerate`. They tag already populated facts, lists, equations, comparisons, or clinical-
+significance panels; none contains a full stem/options, separates an answer reveal, withholds a
+response, or creates a candidate-facing operation. They remain provenance/study-emphasis evidence
+outside assessment arithmetic. The single question-form dosage example is likewise answered in
+place inside a worked-example panel and provides no response slot.
+
+The governed source-local boundary is therefore **0 MCQs + 0 True/False + 0 written prompts + 0
+completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw assessment
+prompt occurrences**, with **0 source-supplied assessment answers, 0 unkeyed prompts, 0 retained
+question records, and 0 prompt-like residues**. There are **11 excluded format badges + 1 excluded
+worked-example teaching callout**. Formulas, tables, graphs, numbered lists, and completed diagrams
+otherwise disclose teaching and do not request learner responses.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-handle
+row is fabricated. The handout revisits clearance, half-life, CPSS, loading dose, TDM, and kinetic-
+order propositions already present in prior pharmacology teaching and assessment, but badges and
+resolved teaching overlap do not create tested-handle occurrences. Prior-BMS assessment reuse is
+therefore **0** and concept delta is **+0**.
+
+| Measure | Family 228 | Auxiliary cumulative (Families 12–228) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 228
+establishes completed excretion/pharmacokinetics teaching, format-emphasis, and attribution evidence
+only, not assessment, official-key, practical, verified-date, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 228
+
+`src_dab553c9862db9608e8d` is exhausted across all ten pages: every teaching statement, equation,
+list/table row, graph/diagram label, worked example, format badge, attribution, metadata limitation,
+zero gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-228
+blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 228 is **289 paths / 282 unique hashes**, leaving exactly **73 selected paths / 66
+unique hashes**. Checksums are **289 + 73 = 362 paths** and **282 + 66 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `9a65270eea62da3b70a2451def714e0ca7a86bf11959c8c238fd07e36c2a5d4e`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`d9c692cdbd2ea18ab55d5b061f2eaa0bf532b4e8a1c8bda652b2b1747ee6d5b2`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_7f1c43fd157557bb60da` · `Drugs.pdf`,
+SHA-256 `7f1c43fd157557bb60da8c5a713ca4f69b8dcb531654c0422ba175ed0ee6b467`, **186,198 bytes**,
+**three native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first page
+visibly begins a dense `Type / No. / Drug / Notes` table covering anti-histamines, serotonin drugs,
+and anti-viral agents. Its complete provenance, teaching/prompt/key/practical boundary,
+four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
