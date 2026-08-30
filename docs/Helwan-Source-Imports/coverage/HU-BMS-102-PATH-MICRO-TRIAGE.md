@@ -18139,3 +18139,72 @@ nine native-text portrait A4 pages under `Pathology / Questions / MCQs`. The man
 byte-identical to `Pathology / Notes and Summaries / Thrombus & Embolism.pdf`, already governed by
 Family 118; its separate carrier-order, exact-reuse, zero-search, arithmetic, and next-source
 blockers remain to be exhausted without fabricating a new assessment family.
+
+## Family 171 — exact second-carrier reconciliation of the Family-118 Lecture-13 object
+
+### Carrier identity, byte-exact relation, complete boundary, authority, and prior governance
+
+| Field | Verified result |
+|---|---|
+| Current manifest/local carrier | Tier-3 `src_932f5302a132003041e5` · `MCQs - L13 MCQ.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `932f5302a132003041e5b106968be782a6eea3dbf91d537ff61295e6e9b8a55d` · **460,844 bytes** |
+| Governed carrier relation | `Pathology / Notes and Summaries / Thrombus & Embolism.pdf` has the identical SHA and size, and a direct byte comparison returns equality. The manifest marks the current Questions-path record as a duplicate of that Notes-path carrier. These are two filenames/paths for one PDF object, not two assessment occurrences or a solved/unsolved pair. |
+| Format / complete visual boundary | **Nine native-text portrait A4 pages**. All nine current-carrier pages were rendered at 150 dpi into nine non-empty 1241×1754 images and read at page detail. Page 1 is the visible provenance cover; pages 2–9 contain Q1–Q39 with one right-margin key per item. No crop, hidden page, unkeyed prompt, answer appendix, handwritten response, or practical station exists. |
+| Native-text reality | Layout/raw extraction each contains **1,349 words**, respectively **11,857 / 8,047 bytes**, and 39 numbered prompt lines. The native layer agrees with the rendered cover, options, key cells, and page sequence. OCR was unnecessary. |
+| Visible/metadata provenance | The cover visibly reads `PATHOLOGY`, `MCQ LECTURE 13`, `THROMBOSIS & EMBOLISM`, `DR AHMED HASSAN`, and `LEVEL 1 - SEMESTER 2`; all content pages repeat Lecture 13/Pathology and the instructor footer. No institution, module code, academic year, sitting date, marks, or candidate field is visible. Metadata author `Salah El-Din` and 8 March 2025 Microsoft 365 production time are secondary and do not override the visible attribution or prove a sitting. |
+| Exact prior governance | Family 118 already governed the one byte-exact object across both carrier paths: 39 keyed prompts, 39 retained records, eight semantic reductions, 31 handles, 124 searches, 21 prior-BMS reuses, and +10 concepts. Its carrier ledger explicitly assigns zero content to this later Questions-path duplicate. |
+| Authority | Instructor-attributed keyed lecture MCQ bank, not a verified institutional exam, official key, dated sitting, or student response sheet. A second path cannot upgrade that authority. |
+
+### Zero second-content duplicate boundary
+
+The physical object contains **39 numbered text MCQs / 39 source-supplied right-margin keys / 0
+unkeyed / 0 T/F / 0 written operations / 0 image-bearing questions / 0 drawing tasks / 0
+practical stations / 0 candidate responses / 0 residues**. All 39 wording records survive literal
+retention; eight semantic reductions yield **`39 - 8 = 31 handles`**.
+
+Those are the already-counted Family-118 object totals, not Family-171 additions. Byte equality
+proves that the current carrier exposes no separate prompt, answer, option, key, ordering,
+provenance, or format layer. Counting any of the 39 again would convert a path duplicate into a
+false recurrence.
+
+### Exact duplicate zero-handle and zero-search gate
+
+Family 118 already completed exactly four searches for each of the 31 handles: **`31 × 4 = 124
+searches`**. It reconciled 21 prior-BMS exact reuses and added 10 concepts. Family 171 accepts **0
+new retained records and 0 new handles**, so the standing gate is **`0 new handles × 4 = 0
+required and completed new searches`**. Prior reuse and concept delta are both **0 Family-171
+additions**.
+
+### Family-171 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Governed byte-exact object | Family 171 addition | Auxiliary cumulative (Families 12–171) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 39 | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 39 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 39 | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 31 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 118 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **31 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The governed checksum remains `39 prompts`, `39 answers`, `39 retained`, `39 - 8 = 31 handles`,
+`31 × 4 = 124 searches`, and `31 - 21 = 10` Family-118 concepts. Family-171 arithmetic is
+independently zero: `0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`. Corrected
+primary remains **762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers /
+1,829 retained / 1,667 handles / +906 concepts**; and corrected all eligible remains **2,880 /
+1,891 / 2,381 / 1,278**.
+
+Family 171 adds only separate-carrier and manifest-order evidence. It establishes no new question
+occurrence, answer, tested concept, official key, sitting, recurrence, mark weight, candidate
+response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 171
+
+`src_932f5302a132003041e5` is exhausted across its one byte-exact nine-page object and both carrier
+paths: every page, prompt, option, printed key, provenance field, metadata field, semantic
+reduction, Family-118 search/prior disposition, duplicate-carrier zero, and cumulative term is
+assigned once, with **zero remainder** and no Family-171 blocker. The exact next manifest record
+is tier-3 source `src_9a70f046e6b0b21ba4ee` · `MCQs - L4 MCQ.pdf`, SHA-256
+`9a70f046e6b0b21ba4ee0a0e0cf7fd5bbec02579156088d72c0dc24312dbfd78`, **565,421 bytes**,
+seven OCR-needed portrait A4 pages under `Pathology / Questions / MCQs`. Its independent
+cell-accumulation prompt/key/written boundary, provenance, source-first handle searches,
+prior-BMS reconciliation, arithmetic, and exact next-source blockers remain to be exhausted.
