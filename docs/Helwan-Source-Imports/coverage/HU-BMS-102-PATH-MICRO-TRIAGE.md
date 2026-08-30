@@ -10553,3 +10553,108 @@ Microsoft 365 metadata names `Hossam mohammed` and gives a March 6, 2025 product
 both require visible-source adjudication. Its complete rendered content, provenance/date boundary,
 command and answer convention, teaching/prompt/key/written/practical classification, and overlap
 with Families 94–96 and prior circulatory evidence are the exact next-source blockers.
+
+## Family 97 — Circulatory Disturbances (2) teaching deck with embedded study checks
+
+### Source identity, render boundary, provenance conflict, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_b15552d70b7d0e1486a9` · `Circulatory disturbances_part2.pdf` |
+| SHA-256 / size | `b15552d70b7d0e1486a99bb8a3d9fc2d0c6a3c969c0df905482a796bea6b6968` · 826,246 bytes |
+| Placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / complete read boundary | 12 native-text portrait A4 595.32×842.04-point pages; all 12 rendered at 150 dpi into non-empty 1241×1755-pixel images and visually read at original detail |
+| Native layer | 1,624 words / 15,587 bytes extracted across the complete PDF; renders establish the command-form headings, completed answer tables, five blank quiz answer columns, diagrams, and footer attribution |
+| Visible provenance | Every page visibly carries `PATHOLOGY`, `Circulatory Disturbances (2)`, and footer `DR . AHMED HASSAN`. This supports visible attribution to Dr Ahmed Hassan, but no university, module code, academic year, teaching date, or assessment sitting is printed. Manifest placement supports BMS-102 routing but cannot supply those absent visible fields. |
+| Metadata conflict/caution | Microsoft 365 metadata names author `Hossam mohammed` and gives March 6, 2025 creation/modification timestamps. The metadata author conflicts with the visible Dr Ahmed Hassan footer and is not used to override it; the timestamps are file-production fields, not proof of teaching date, academic year, or sitting. |
+| Authority | Tier-6 pathology lecture/teaching deck with embedded written study checks and unkeyed quizzes. It is not an exam, recoverable sitting, or official answer source. |
+
+### Complete page-first teaching, prompt/key, written, practical, and callout inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Command `Define thrombosis, hemostasis:` followed immediately by a filled definition table for hemostasis, thrombosis, and thrombus; labelled normal-hemostasis diagram | **1 compound written prompt / 1 immediate printed teaching-answer block**; the extra thrombus definition is teaching expansion, not another prompt |
+| 2 | Labelled anticoagulant-endothelium, platelet-adhesion, and intrinsic/extrinsic/common coagulation-pathway diagrams | completed teaching diagrams; no identification request |
+| 3–5 | Virchow triad, endothelial dysfunction, stasis/turbulence, hereditary/acquired/immune hypercoagulability, thrombus mechanism, and risk factors | declarative teaching, completed tables, and lists |
+| 6 | Thrombus morphology and labelled images; command `Compare /contrast thrombus/blood clot:` followed by a fully populated eight-row table | **1 written prompt / 1 immediate printed teaching-answer block** |
+| 7–8 | Arterial/cardiac-versus-venous thrombus comparison; thrombosis types/sites; venous, arterial, cardiac and capillary thrombi; fate diagram; DIC definition/mechanism/causes | completed teaching tables and diagrams; no further prompt |
+| 9 | Slide explicitly headed `Quiz`: vWF-deficient bleeding case asking the impaired platelet process; tumor-associated hypercoagulability mechanism; bedridden patient with pleuritic pain/hemoptysis asking the source lesion site | **3 complete unkeyed MCQ prompts**; adjacent answer column is blank |
+| 10–11 | Embolism definition/types; thromboembolism routes/effects; fat, amniotic-fluid, air, tumor, parasitic, and foreign-body emboli | declarative teaching with completed tables and diagrams |
+| 12 | Slide explicitly headed `Quiz`: femur-fracture case asking the embolism diagnosis; lesion type most commonly complicated by embolization | **2 complete unkeyed MCQ prompts**; adjacent answer column is blank |
+
+Declarative headings such as `Causes`, `Mechanism`, `Risk factors`, `Morphology`, `Types`, `Sites`,
+and `Fate` introduce supplied teaching content and are not inferred prompts. In contrast, pages 1
+and 6 use explicit learner directives and immediately supply the response blocks, so each is
+retained as one written study-check occurrence with one printed teaching-answer occurrence. Pages
+9 and 12 are explicitly labelled quizzes, contain complete stems/options and blank answer cells,
+and therefore contribute five unkeyed prompts. Although surrounding lecture content permits
+answers to be inferred, no quiz key is visibly printed and none is manufactured.
+
+The source contributes **7 raw prompt occurrences / 2 printed teaching-answer occurrences / 5
+unkeyed prompt occurrences / 0 prompt-like residues / 7 retained records / 7 source-distinct
+tested handles**. There are no within-source prompt copies, practical stations, student responses,
+mark allocations, or official-key conventions.
+
+### Source-first handle assignment, four-search ledger, and prior-BMS adjudication
+
+Each of the seven retained handles received exactly four fresh source-first searches across live
+state, every pending import root, and prior BMS-102 Families 1–96: **28 required searches**. All 28
+literal external runs returned no match, giving family-local external disposition **0 live / 0
+pending / 7 no same-scope**. Prior-BMS collapse is adjudicated separately.
+
+| Ref | Source-tested scope / answer status | Exactly four required queries | External result | Prior BMS-102 relation |
+|---|---|---|---|---|
+| F97-W01 | Define hemostasis and thrombosis; immediate printed definitions | `define thrombosis hemostasis`; `hemostasis physiological stop bleeding thrombosis intact vessel`; `thrombus compact circulating blood elements during life`; `thrombosis hemostasis definitions` | no same-scope | exhausted jointly by Family 2 `thrombosis-definition-risk` and Family 3 `hemostasis-primary-function`; reuse |
+| F97-W02 | Compare antemortem thrombus with postmortem blood clot; immediate printed table | `thrombus postmortem clot`; `antemortem versus postmortem clot`; `thrombus formed during life`; `postmortem blood clot` | no same-scope | exact Family 3 `thrombus-versus-postmortem-clot` reuse |
+| F97-Q01 | vWF deficiency most directly impairs platelet adhesion; unkeyed | `von Willebrand factor platelet adhesion`; `vWF deficiency prolonged bleeding time adhesion`; `platelet process impaired von Willebrand disease`; `platelet adhesion subendothelial collagen vWF` | no same-scope | none; delta |
+| F97-Q02 | Tumor-associated hypercoagulability through release of a procoagulant product; unkeyed | `tumor hypercoagulability release procoagulant product`; `cancer procoagulant thrombosis mechanism`; `malignancy tissue factor thrombin hypercoagulability`; `tumor associated hypercoagulability procoagulants` | no same-scope | distinct from Family 3 A18, which explicitly tests *increased hepatic synthesis* of coagulation factors rather than tumor procoagulant release; delta |
+| F97-Q03 | Bedridden patient with pleuritic pain/hemoptysis: pulmonary embolic source in lower-extremity veins; unkeyed | `bedridden elderly pleuritic pain hemoptysis lower extremity veins`; `pulmonary embolism source deep leg veins`; `DVT pleuritic chest pain hemoptysis bedridden`; `lower extremity venous thrombus pulmonary embolism` | no same-scope | exact Family 3 `dvt-pulmonary-embolism-pathway` reuse |
+| F97-Q04 | Femur fracture followed by delayed progressive respiratory failure: fat embolism; unkeyed | `femur fracture delayed respiratory distress fat embolism`; `long bone fracture death three days fat emboli`; `fat embolism syndrome fracture respiratory problems`; `football player fractured femur fat embolism` | no same-scope | exact Family 3 `fat-embolism-fracture-association` reuse |
+| F97-Q05 | Lesion most commonly complicated by embolization is venous thrombus; unkeyed | `venous thrombi most commonly complicated by embolization`; `which thrombus most likely embolizes venous cardiac arterial`; `venous thrombus embolic propensity`; `lesion commonly complicated by embolization venous thrombi` | no same-scope | prior sources teach or test DVT routes, but do not test comparative embolization propensity; delta |
+
+Four exact prior-BMS handle reuses leave `7 - 4 = 3` concept additions. External arithmetic is
+`0 + 0 + 7 = 7`; searches are `7 × 4 = 28`.
+
+### Family-97 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 97 | Auxiliary cumulative (Families 12–97) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 7 | 854 | 765 | 1,619 |
+| Printed teaching-answer occurrences | 2 | 472 | 405 | 877 |
+| Unkeyed prompt occurrences | 5 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 7 | 795 | 552 | 1,347 |
+| Source-distinct tested handles / required searches | 7 / 28 | 719 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 7 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 4 | — | — | W01, W02, Q03, Q04 |
+| Cross-family concept delta | +3 | +490 over primary | 372 | `372 + 490 = 862` |
+| **Distinct tested concepts** | **+3** | **490 auxiliary additions** | **372** | **862** |
+
+The checksum closes: `2 answered study checks + 5 unkeyed quiz MCQs = 7` raw prompt
+occurrences; `7 - 0 copies = 7` retained records and handles; searches are `7 × 4 = 28`;
+external disposition is `0 + 0 + 7 = 7`; and concept arithmetic is `7 - 4 prior exact reuses =
+3`. Auxiliary cumulative arithmetic is `847 + 7 = 854` prompts, `470 + 2 = 472` answers,
+`788 + 7 = 795` retained records, `712 + 7 = 719` source handles, and `487 + 3 = 490`
+concept additions. All eligible arithmetic is `765 + 854 = 1,619`, `405 + 472 = 877`, `552 +
+795 = 1,347`, and `372 + 490 = 862`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**854 / 472 / 795 / 719 / +490**; and all eligible evidence is
+**1,619 / 877 / 1,347 / 862**. Family 97 contributes tier-6 teaching/study-check evidence only.
+It cannot establish an exam sitting, recurrence, mark weight, official answer key, student
+response, readiness, or claims status.
+
+### Exact next debt after Family 97
+
+`src_b15552d70b7d0e1486a9` is exhausted across all 12 pages: every source/provenance field,
+visible-versus-metadata author boundary, teaching diagram/table, command-form study check,
+printed teaching-answer block, unkeyed quiz item, blank answer cell, handle, required search,
+external disposition, prior-BMS comparison, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-97 blocker. The exact next manifest-ordered BMS-102 record is
+tier-6 `src_6be08732a444d8438eed` · `Flashcards_Introduction_to_Pathology.csv`, SHA-256
+`6be08732a444d8438eed64b9da2bf574039618d1389054851f032df45b511770`, 809 bytes, nine physical
+CSV lines under `Pathology / Notes and Summaries`. Its manifest snippet exposes paired pathology
+flashcard fronts/backs beginning with chronic-smoker squamous metaplasia, cardiac-muscle
+hypertrophy, carcinoma in situ, frozen section, and immunofluorescence. Its exact CSV row/field
+boundary, prompt/answer pairing, quoting/line-break integrity, prior-BMS dedupe, and search ledger
+are the exact next-source blockers.
