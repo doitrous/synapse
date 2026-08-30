@@ -6695,3 +6695,52 @@ Removing this final pinned sparse-text path and unique hash leaves **7 selected 
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology FHB101 Questions (Midterm).pdf`, SHA-256 `4b0c3b7ff8eef46a863234bb64b49154355991d4b32bb2e1b721011f7d2c05a0`, 51 pages.
 
 **BLOCKED — S1 cannot be approved:** 7 selected source paths remain untriaged.
+
+## Completed source — Physiology FHB101 Questions (Midterm)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology FHB101 Questions (Midterm).pdf` | `4b0c3b7ff8eef46a863234bb64b49154355991d4b32bb2e1b721011f7d2c05a0` | 51 | substantive-text audit sample (pinned empty-text extraction checkpoint) | pages 1–51 rendered and read | Microsoft Word 365 export created 8 July 2025, with metadata author `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud`. The cover reads `Physiology FHB101 Questions (Midterm)`, states that the PDF contains 150 questions and credits `Absalam101`. It prints no institution, department, examiner, official sitting, marks or model-key authority, so it is a student revision compilation, not an official MUST examination or key. |
+
+### Exact prompt, answer and teaching boundary
+
+The source contains three independently numbered 50-question parts. Part 1 occupies pages 1–17, Part 2 pages 18–34 and Part 3 pages 35–51. Every item is a four-option MCQ followed immediately by one printed `Answer:` letter. The title, part labels, author/footer credit and closing devotional line are not prompts; there is no practical-identification, essay, separate key or teaching-prose section.
+
+The exact boundary is therefore **150 prompt occurrences / 150 printed answer observations / 150 prompt-matched recovered answers**. Every part runs consecutively from Q1 through Q50, and no prompt or answer crosses a page boundary. All printed letters were retained as claimed without medical correction or inference.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+The source is byte-distinct and is not a 50- or 150-prompt sequence duplicate of a completed source. Within this source, three stems repeat exactly and were collapsed for concept handling: Part 1 Q1 / Part 3 Q1 (blood as percentage of body weight), Part 1 Q44 / Part 3 Q47 (main function of haemoglobin), and Part 1 Q46 / Part 3 Q48 (definition of erythropoiesis). Numerous differently worded repetitions across the three parts were likewise grouped by topic rather than minted as concepts.
+
+All 150 prompt occurrences were assigned once across eight source-first handles, with occurrence counts reconciling as **19 + 11 + 24 + 18 + 27 + 6 + 22 + 23 = 150**. Each handle received the four exact searches shown below across live, server, pending/import-ready and documentation evidence, for **8 × 4 = 32 searches**.
+
+| Handle | Assigned prompt occurrences and exactly four search phrases | External / prior-FHB disposition |
+|---|---|---|
+| H1 | 19, blood volume/composition, plasma water/electrolytes and blood-cell functions (`blood volume percent body weight plasma volume`; `plasma water percentage cellular elements blood`; `sodium chief plasma cation chloride bicarbonate`; `blood functions transport defense hemostasis`) | new externally; exact completed prior-FHB blood-composition reuse. |
+| H2 | 11, plasma-protein classes, amounts and synthesis (`plasma proteins albumin globulin fibrinogen`; `plasma protein concentration seven grams`; `albumin most abundant lowest fibrinogen`; `gamma globulin antibody liver synthesis`) | new externally; exact completed prior-FHB plasma-protein reuse. |
+| H3 | 24, A/G ratio and plasma-protein osmotic, buffer, clotting and viscosity roles (`albumin globulin ratio liver kidney disease`; `albumin colloid osmotic pressure capillaries`; `plasma proteins buffer acid base`; `fibrinogen clotting blood viscosity`) | new externally; exact completed prior-FHB protein-function reuse. |
+| H4 | 18, erythrocyte count, morphology, metabolism, carbonic anhydrase and lifespan (`red blood cell biconcave disc count diameter volume`; `erythrocyte anaerobic glycolysis no nucleus`; `carbonic anhydrase carbon dioxide transport erythrocyte`; `red blood cell lifespan 120 days potassium`) | new externally; exact completed prior-FHB erythrocyte reuse. |
+| H5 | 27, haemoglobin structure, concentration, derivatives and oxygen affinity (`adult hemoglobin alpha beta chains heme iron`; `hemoglobin concentration adult male female`; `hemoglobin oxygen affinity 2,3-DPG temperature fetal`; `oxyhemoglobin carbaminohemoglobin carboxyhemoglobin methemoglobin`) | new externally; exact completed prior-FHB haemoglobin reuse. |
+| H6 | 6, erythrocyte/haemoglobin destruction and bilirubin disposal (`red blood cell breakdown spleen bilirubin`; `hemoglobin breakdown hemolytic jaundice bilirubin`; `liver secretes bilirubin bile`; `old erythrocytes liver spleen destruction`) | new externally; exact completed prior-FHB RBC-turnover reuse. |
+| H7 | 22, erythropoiesis sites, nutrients, stimuli and erythropoietin (`erythropoietin kidney hypoxia erythropoiesis`; `erythropoiesis bone marrow adults fetal liver spleen`; `androgens vitamin B12 copper erythropoiesis`; `high altitude hemorrhage stimulates erythropoietin`) | new externally; exact completed prior-FHB erythropoiesis reuse. |
+| H8 | 23, iron loss, absorption, transport, storage and body distribution (`daily iron loss male female vitamin C absorption`; `DMT1 HCP1 heme non-heme iron carrier`; `ferritin storage transferrin transport iron`; `body iron hemoglobin liver storage`) | new externally; exact completed prior-FHB iron-metabolism reuse. |
+
+The source-level external split is **0 live / 0 pending / 8 new = 8 accepted handles**. Every handle collapses to completed prior-FHB assignments, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+150 questions / +150 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7908 | 7491 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this pinned empty-text path and unique hash leaves **6 selected inventory paths / 6 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `db98a57b90f11fc2d3fcf66064325bf005aefa349669ad51c89122591363f2e2`. Pinned triage debt becomes **zero substantive-text / zero sparse-text / six empty-text** rows, and unique-hash accounting is **`100 + 6 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology FHB101 Training Questions.pdf`, SHA-256 `a0accfff0a1b1952b29f174ab12d16028c820eb7048310c6f918877c87a4ae6f`, 34 pages.
+
+**BLOCKED — S1 cannot be approved:** 6 selected source paths remain untriaged.
