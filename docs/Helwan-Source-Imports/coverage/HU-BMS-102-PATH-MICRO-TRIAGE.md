@@ -17208,3 +17208,121 @@ assigned once, with **zero remainder** and no Family-159 blocker. The exact next
 bytes**, eight native-text portrait US-letter pages under `Pathology / Questions / MCQs`. Its
 provenance, repair prompt/key boundary, collapse, searches, prior reuse, and arithmetic are the
 exact next-source blockers.
+
+## Family 160 — keyed Repair bank with Final Revision prompt-layer replay
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_4f5e06c1ac4a6efc2e69` · `MCQs - College MCQs Repair MCQs.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `4f5e06c1ac4a6efc2e69032a33efaba33cf0310f7dea4001a416737ac439148f` · **490,944 bytes** |
+| Format / full render boundary | **Eight native-text portrait US-letter pages**. All eight rendered at 150 dpi into eight non-empty 1275×1650 images and were read through a complete 4×2 contact sheet and original page detail: p.1 Arabic devotional/study preface plus Q1–Q2; pp.2–7 Q3–Q41; p.8 terminal key Q1–Q41. No page, continuation, option, key row, header, or terminal remainder is omitted. |
+| Native-text reality | Layout and raw extraction each contain **1,400 words**; layout is 10,866 bytes and raw is 9,518 bytes. Every stem, option, Arabic header, and terminal key is coherent. The manifest's native classification is accurate; OCR was unnecessary. |
+| Visible provenance | The page visibly identifies only `Repair`, Arabic devotional/study wording, and repeated devotional headers. It prints no university, faculty, module code, instructor, assessment title, academic year, or sitting date. |
+| Metadata caution | Metadata author is `Eman Ibrahem Hefny Ibrahem`; creator/producer is Microsoft Word for Microsoft 365; creation/modification time is 12 August 2025. These are export facts and secondary provenance only. The metadata name is not silently equated with the visibly credited Family-159 compiler, and the timestamp does not establish a sitting or academic year. |
+| Authority | Complete terminal-keyed repair study bank of otherwise unattributed visible authority. It is auxiliary keyed-question evidence, not an authenticated Helwan exam, official departmental key, candidate response, or practical station record. |
+
+### Complete prompt, key, format, teaching, and practical boundary
+
+| Pages | Complete source sequence | Prompt / source-answer boundary |
+|---:|---|---:|
+| 1 | Arabic devotional/study preface; Q1–Q2 on primary- and secondary-intention wounds | **2 MCQs / 2 terminal keys**. Devotional language is not a prompt or provenance upgrade. |
+| 2 | Q3–Q7: liver fibrosis, keloid, fracture demolition, resolution, secondary-intention contraction | **5 MCQs / 5 keys**. |
+| 3 | Q8–Q13: CNS gliosis, provisional callus, FGF, stable cells, and regeneration/fibrosis conditions | **5 MCQs + 1 T/F / 6 keys**. |
+| 4 | Q14–Q19: first-intention sequence/features, acute-hepatitis regeneration, labile cells/examples | **5 MCQs + 1 T/F / 6 keys**. |
+| 5 | Q20–Q27: regeneration, fracture healing, dermal fibrosis, and clean-incision healing | **4 MCQs + 4 T/F / 8 keys**. |
+| 6 | Q28–Q34: incisional timing, abscess/secondary intention, contraction, dehiscence, cicatrisation, and sharp/blunt healing | **2 MCQs + 5 T/F / 7 keys**. |
+| 7 | Q35–Q41: healing factors, implantation cyst, CNS gliosis, and acute/chronic liver repair | **2 MCQs + 5 T/F / 7 keys**. |
+| 8 | `Key Answers`, Q1–Q41 | **0 prompts / 41 assigned key entries**; no missing or surplus number. |
+
+The exact boundary is **41 raw text prompts / 41 source-supplied key occurrences / 0 unkeyed /
+25 MCQs / 16 T/F / 0 written operations / 0 image-bearing questions / 0 drawing tasks / 0
+practical stations / 0 candidate responses / 0 residues**. Printed devotional instructions and
+headers are excluded teaching/study matter. Clinical and fracture vignettes are text questions;
+there is no image, hidden specimen, station instruction, or performance operation. Key letters
+are preserved as source facts without medical repair.
+
+### Exact prior wording replay, retained variants, and handle collapse
+
+Complete normalized prompt-and-option comparison against Family 155's unkeyed Final Revision
+carrier proves **22 exact/orthographic prior wording replays**: current Q18–Q27→F155 Q38–Q47,
+Q29–Q33→F155 Q49–Q53, Q34→F155 Q54, Q35–Q38→F155 Q55–Q58, and
+Q40–Q41→F155 Q60–Q61. Family 154's solved companion supplies the same selected concepts;
+the current terminal key adds a new answer occurrence for this carrier but not new wording.
+
+Two related rows remain retained because their current prompt/option layer is materially altered:
+Q28 appends `3rd day` to the Family-155 Q48 macrophage-timing proposition, while Q39 swaps the
+`Organization`/`Fibrosis` option positions relative to F155 Q59 and keys the reordered `Fibrosis`
+choice. Thus retention is **`41 - 22 = 19`**. Within those 19, Q2/Q7 collapse to one open-wound
+secondary-intention/contraction handle, and Q8/Q39 collapse to one CNS-gliosis-replaces-fibrosis
+handle. Therefore **`19 - 2 = 17 accepted handles`**. No exact key conflict is introduced.
+
+### Seventeen handles, exactly four searches each, and prior-BMS adjudication
+
+All 17 handles received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan import coverage, and prior BMS-102 Families 1–159:
+**17 × 4 = 68 required and completed searches**.
+
+| Ref(s) / handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| Q1 · `clean-incision-primary-intention-linear-scar` | `clean surgical incision first intention`; `appendectomy sutured wound linear scar`; `approximated wound edges primary union`; `minimal granulation tissue first intention` | exact Family-154 Q47/F87 scope reuse |
+| Q2,Q7 · `open-wound-secondary-intention-contraction` | `open wound secondary intention contraction`; `large tissue loss myofibroblast contraction`; `non suturable wound secondary healing`; `secondary intention reduces tissue defect` | exact Family-87/F140 scope reuse |
+| Q3 · `alcoholic-cirrhosis-healing-by-fibrosis` | `alcoholic cirrhosis healing fibrosis`; `broad collagenous scars regenerating nodules`; `chronic liver injury fibrosis repair`; `destroyed liver framework scar healing` | exact Family-154 Q61 reuse |
+| Q4 · `keloid-beyond-wound-margins-recurrence` | `keloid extends beyond wound margins`; `raised claw like scar recurrence excision`; `minor burn chest keloid`; `keloid versus hypertrophic scar margins` | exact Families 140/143 reuse |
+| Q5 · `fracture-demolition-macrophage-osteoclast-clearance` | `fracture demolition stage macrophages osteoclasts`; `bone healing removal necrotic tissue hematoma`; `demolition phase fracture repair`; `osteoclast macrophage fracture debris` | contained by Family-87 fracture stages; reuse |
+| Q6 · `resolution-complete-restoration-definition` | `resolution complete restoration acute inflammation`; `resolution definition normal condition`; `healing resolution versus scar`; `complete restitution inflammation outcome` | exact Family-154 Q32 reuse |
+| Q8,Q39 · `cns-gliosis-replaces-fibrosis` | `CNS gliosis replaces fibrosis`; `stroke neurons astrocytes glial fibers`; `brain injury gliosis outcome`; `gliosis instead of fibrosis` | exact Family-154 Q59 reuse |
+| Q9 · `provisional-callus-woven-bone-cartilage` | `provisional callus woven bone cartilage`; `fracture temporary bridge callus composition`; `woven bone cartilage fracture repair`; `provisional callus radiograph tibia` | contained by Family-87 fracture stages; reuse |
+| Q10 · `fgf-fibroblast-angiogenesis-wound-healing` | `FGF wound healing fibroblast angiogenesis`; `growth factor fibroblasts new blood vessels`; `fibroblast growth factor wound repair`; `FGF granulation tissue angiogenesis` | contained by Families 87/116 growth-factor scope; reuse |
+| Q11 · `stable-cells-conditionally-dividing` | `stable cells divide under certain conditions`; `conditionally dividing stable cells`; `labile stable permanent proliferative capacity`; `stable cell regeneration definition` | contained by Families 1/2/87 regenerative populations; reuse |
+| Q12 · `regeneration-requires-capacity-and-stroma` | `regeneration not only proliferative capacity`; `stromal framework regeneration requirement`; `cell capacity alone regeneration false`; `regeneration determinants cell and matrix` | exact Family-154 Q42 scope reuse |
+| Q13 · `full-thickness-wound-heals-by-fibrosis` | `wound beyond basement membrane fibrosis`; `connective tissue injury heals by fibrosis`; `full thickness wound fibrosis not regeneration`; `basement membrane breach wound repair` | contained by Family-154 dermal/stromal repair scopes; reuse |
+| Q14 · `clotting-first-skin-wound-healing-step` | `first step skin wound healing clotting`; `wound healing starts hemostasis`; `clotting stops bleeding first repair step`; `skin wound sequence clot formation` | contained by Family-87 first-intention timeline; reuse |
+| Q15 · `wound-epithelium-normal-thickness-day-five` | `day five normal epidermal thickness wound`; `skin wound epithelium normal thickness day 5`; `re epithelialization timeline day five`; `surface epithelium wound healing timing` | contained by Family-87/F154 incisional timeline; reuse |
+| Q16 · `primary-intention-excludes-wound-contraction` | `primary intention except wound contraction`; `clean wound little tissue damage primary union`; `wound contraction secondary not primary intention`; `features healing by first intention` | contained by Families 87/154 first-versus-second intention; reuse |
+| Q17 · `acute-hepatitis-a-heals-by-regeneration` | `acute hepatitis A healing regeneration`; `viral hepatitis regeneration intact stroma`; `liver acute injury regeneration`; `hepatitis repair regeneration fibrosis resolution` | contained by Family-154 Q60 acute-liver regeneration scope; reuse |
+| Q28 · `incisional-macrophages-day-three-not-24h` | `incision macrophages day three not 24 hours`; `primary wound macrophage timing`; `within 24 hours incision margins macrophages false`; `day 3 macrophages wound healing` | exact Family-154 Q48 tested scope; altered wording retained, concept reused |
+
+All **17/17** handles reuse prior tested BMS scope, so Family 160 adds **`17 - 17 = 0`
+concepts**. The conclusion is not a filename collapse: it follows the complete eight-page read,
+the 22-row exact prompt-layer proof, the two retained altered variants, and 68 completed searches.
+
+### Family-160 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 160 | Auxiliary cumulative (Families 12–160) | Primary | All eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 41 | 2,118 | 765 | 2,883 |
+| Source-supplied answers | 41 | 1,486 | 405 | 1,891 |
+| Retained question records after prior wording dedupe | 19 | 1,829 | 552 | 2,381 |
+| Accepted handles / required searches | 17 / 68 | 1,667 / — | — | — |
+| Prior-BMS handle reuses | 17 | — | — | — |
+| Cross-family concept delta | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **17 source-local** | **906 additions** | **372** | **1,278** |
+
+Checksums close as `25 MCQ + 16 T/F = 41` prompts and 41 terminal keys; `41 - 22 prior
+wording replays = 19` retained records; `19 - 2 semantic reductions = 17` handles; `17 × 4 =
+68` searches; and `17 - 17 prior reuses = +0`. Auxiliary arithmetic is `2,077 + 41 =
+2,118`, `1,445 + 41 = 1,486`, `1,810 + 19 = 1,829`, `1,650 + 17 = 1,667`, and
+`906 + 0 = 906`. All eligible arithmetic is `765 + 2,118 = 2,883`, `405 + 1,486 =
+1,891`, `552 + 1,829 = 2,381`, and `372 + 906 = 1,278`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary is now **2,118 prompts / 1,486 answers /
+1,829 retained / 1,667 handles / +906 concepts**. All eligible is **2,883 / 1,891 / 2,381 /
+1,278**. Family 160 adds carrier/key-occurrence evidence but no new tested concept; it proves no
+official key, exam sitting, recurrence, mark weight, response, practical station, readiness, or
+claims status.
+
+### Exact next debt after Family 160
+
+`src_4f5e06c1ac4a6efc2e69` is exhausted across all eight pages: every visible/metadata provenance
+field, devotional/header element, stem, option, key, format, prior wording replay, retained variant,
+semantic collapse, handle, four-search packet, prior relation, and arithmetic term is assigned once,
+with **zero remainder** and no Family-160 blocker. The exact next manifest record is the tier-3
+solved companion `src_2b465fab7f0bfd7dd687` · `MCQs - College MCQs continous assessement
+CIRCULATTORY 2 answer.pdf`, SHA-256
+`2b465fab7f0bfd7dd687716d258a5e0f613132f974be6700fd588b33f96c5809`, **138,419
+bytes**, seven native-text portrait US-letter pages under `Pathology / Questions / MCQs`. Its
+visible/metadata provenance, continuous-assessment authority, prompt/answer layer, relation to the
+following unsolved companion, collapse, searches, prior reuse, and arithmetic are the exact next-
+source blockers.
