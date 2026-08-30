@@ -6392,3 +6392,123 @@ native-text landscape US-letter pages under `Microbiology / Practical Labs / Pre
 Cultivation & Culture media`. Its unread 86-page prompt/teaching/answer boundary is the next-
 source processing blocker: fully render and visually adjudicate the complete source before
 admitting any count.
+
+## Family 58 — tier-5 Helwan cultivation and culture-media practical lecture
+
+### Source identity, complete visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_8196275856f156e4e7eb` · `2- Cultivation & Culture media.pdf` |
+| Local path | `BMS 102/Microbiology/Practical Labs/Pre Lab 2 - Cultivation & Culture media/2- Cultivation & Culture media.pdf` |
+| SHA-256 / size | `8196275856f156e4e7ebdffa7aaf89f9b16ef905db6e2057cfa71e05065cf8a4` · 6,296,973 bytes |
+| Format / read boundary | 86 native-text landscape US-letter pages; native text extracted, every page rendered at 110 dpi and read in six ordered contact sheets, and every prompt-bearing or prompt-like page reopened at full-page resolution |
+| Provenance | Visible Faculty of Medicine, Helwan University cover attributed collectively to Microbiology & Immunology staff members; PDF metadata title `Microsoft PowerPoint - 2- Cultivation & Culture media`, author `Dr.Ammar Atef` |
+| Authority | Helwan-local practical teaching lecture; no examiner, sitting, date, marks, candidate instructions, response form, departmental question-bank designation, or official key |
+
+The file uses question-and-reveal builds within otherwise declarative practical teaching. A
+complete prompt is counted when the slide states a recoverable question or MCQ; its later
+source-authored reveal is a printed teaching answer. Images, labels, coloured emphasis,
+checkmarks used as list bullets, demonstration diagrams, and a bare question-mark slide are not
+promoted to assessment content.
+
+| Physical pages | Complete visual content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | Helwan cover and four learning objectives | provenance/teaching only; `0 / 0` |
+| 3–4 | `What is bacterial cultivation??` followed by its definition and controlled-condition variables | **1 / 1** question/reveal pair |
+| 5–6 | `Why to cultivate??` followed by four stated purposes | **1 / 1** question/reveal pair |
+| 7–21 | materials, physical-state classification, colony isolation, streaking, agar-slope cultivation, and images | labelled/declarative teaching only; `0 / 0` |
+| 22–55 | simple, enriched, selective, and differential media; compositions, uses, comparisons, and labelled organism/plate appearances | declarative teaching and labelled practical mappings only; `0 / 0` |
+| 56 | split MacConkey plate image plus only `??` | incomplete image-recall residue without a subject, command, option set, or answer mapping; excluded `0 / 0` |
+| 57–69 | TSI, sugar-fermentation, and mannitol-salt media explanations and labelled examples | declarative teaching only; `0 / 0` |
+| 70–78 | anaerobic cultivation, oxygen classes, Robertson cooked meat, GasPak, candle jar, and sterilisation tips | declarative teaching only; `0 / 0` |
+| 79 | `MCQs` section divider | heading only; `0 / 0` |
+| 80–81 | two identical renderings of MCQ 1; the second colours option C red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 82–83 | two identical renderings of MCQ 2; the second colours option E red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 84–85 | two identical renderings of MCQ 3; the second colours option A red | **2 / 1**; second prompt is a literal copy and one teaching-answer reveal |
+| 86 | thank-you slide | closing material only; `0 / 0` |
+
+The complete source therefore contains **8 complete prompt occurrences / 5 printed teaching-
+answer occurrences / 3 unkeyed prompt occurrences**. The highlighted MCQ copies use a stable
+red-choice reveal convention, but the answers have practical-teaching authority only and are
+not an official exam key. The p. 56 `??` image remains one separately tracked incomplete
+prompt-like residue and does not enter prompt, answer, retention, or handle counts.
+
+### Prompt, teaching-answer, copy, and prior-BMS inventory
+
+| Ref | Page(s) | Complete source-tested scope | Printed teaching answer | Handle / assignment |
+|---|---:|---|---|---|
+| F58-Q01 | 3–4 | Definition of bacterial cultivation as multiplying organisms in predetermined media under controlled laboratory conditions | multiplying organisms by reproduction in predetermined culture media under controlled medium, time, temperature, and oxygen conditions | `bacterial-cultivation-definition-controlled-media-conditions` |
+| F58-Q02 | 5–6 | Purposes of bacterial cultivation: study isolate properties, diagnose infection, prepare antigens/toxins/vaccines, and perform susceptibility testing | the four-item p. 6 reveal | `bacterial-cultivation-purposes-properties-diagnosis-products-susceptibility` |
+| F58-Q03 | 80 | MacConkey-medium statement identifying the lactose-fermenter colony colour | C · gives pink colonies | `macconkey-lactose-fermenters-pink-colonies` |
+| F58-Q04 | 81 | Literal Q03 copy with highlighted option | C · gives pink colonies | copy excluded from retention |
+| F58-Q05 | 82 | Medium used to grow strict anaerobes | E · Robertson's cooked meat medium | `strict-anaerobe-growth-robertson-cooked-meat-medium` |
+| F58-Q06 | 83 | Literal Q05 copy with highlighted option | E · Robertson's cooked meat medium | copy excluded from retention |
+| F58-Q07 | 84 | Exception among chocolate-agar classification, composition, use, and colour statements | A · differential indicator medium | `chocolate-agar-not-differential-indicator-exception` |
+| F58-Q08 | 85 | Literal Q07 copy with highlighted option | A · differential indicator medium | copy excluded from retention |
+
+Q04, Q06, and Q08 repeat their immediately preceding prompts exactly, including option order;
+the only addition is the red answer reveal. Thus **8 observed - 3 literal copies = 5 retained
+records**. Each retained record tests a distinct relation, so **5 retained records - 0 semantic
+reductions = 5 source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the five handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **20 required searches**. External
+disposition is **0 live / 0 pending / 5 no same-scope**. Adjacent carriers remain adjacent: the
+broad culture record does not state Q01's definition or Q02's four-part purpose enumeration, and
+pending `CON-INF-3059CB94D6295F` differentiates lactose fermentation on MacConkey agar but does
+not state Q03's tested pink-colony phenotype.
+
+| Handle · ref(s) | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacterial-cultivation-definition-controlled-media-conditions` · Q01 | `bacterial cultivation definition controlled media conditions`; `multiply bacteria predetermined culture medium laboratory conditions`; `cultivation medium time temperature oxygen requirement`; `what is bacterial cultivation microbiology` | no same-scope | none; virus-cultivation prompts test different host systems |
+| `bacterial-cultivation-purposes-properties-diagnosis-products-susceptibility` · Q02 | `purposes of bacterial cultivation diagnosis vaccines susceptibility`; `why cultivate bacteria properties diagnosis antigens toxins vaccines`; `bacterial cultivation uses antibiotic susceptibility testing`; `reasons for bacterial culture isolated specimen` | no same-scope; the broad culture carrier covers diagnosis and susceptibility separately, not this source's four-part enumeration | none; delta |
+| `macconkey-lactose-fermenters-pink-colonies` · Q03,Q04 | `MacConkey lactose fermenters pink colonies`; `pink colonies lactose fermentation MacConkey medium`; `MacConkey medium lactose fermenting bacteria answer`; `MacConkey agar neutral red lactose fermenter color` | no same-scope; pending `CON-INF-3059CB94D6295F` omits the pink-colony result | none; Family 55 is teaching-only and supplies no prompt-derived handle |
+| `strict-anaerobe-growth-robertson-cooked-meat-medium` · Q05,Q06 | `strict anaerobes Robertson cooked meat medium`; `Robertson cooked meat grow obligate anaerobes`; `medium used to grow strict anaerobes RCM`; `anaerobic culture Robertson cooked meat identification` | no same-scope | none; Family 55 only labels this medium within a teaching collage |
+| `chocolate-agar-not-differential-indicator-exception` · Q07,Q08 | `chocolate agar exception differential indicator medium`; `chocolate agar heated blood fastidious brown not differential`; `all correct chocolate agar except differential`; `chocolate agar classification enriched medium` | no same-scope | none; Family 55 only labels chocolate agar within a teaching collage |
+
+Prior Families 1–57 contain no exact prompt-derived scope for any retained handle. Therefore
+**5 handles - 0 prior exact reuses = +5 concepts**.
+
+| Measure | Family 58 | Auxiliary cumulative (Families 12–58) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 8 | 500 | 765 | 1,265 |
+| Printed teaching-answer occurrences | 5 | 235 | 405 | 640 |
+| Incomplete prompt-like residues | 1 excluded | — | — | tracked separately |
+| Retained question records | 5 | 488 | 552 | 1,040 |
+| Source-distinct tested handles / required searches | 5 / 20 | 463 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 5 | — | — | family-local disposition |
+| Cross-family concept delta | +5 | +337 over primary | 372 | `372 + 337 = 709` |
+| **Distinct tested concepts** | **+5** | **337 auxiliary additions** | **372** | **709** |
+
+The checksum closes without remainder: prompt starts are `1 + 1 + 2 + 2 + 2 = 8`; teaching-
+answer alignment is `2 question reveals + 3 highlighted MCQ reveals = 5`, leaving `8 - 5 = 3`
+unkeyed prompt occurrences; retention is `8 - 3 literal copies = 5`; handle assignment is `5 -
+0 semantic reductions = 5`; assignment is `8 - 8 = 0` unassigned; searches are `5 × 4 = 20`;
+external disposition is `0 + 0 + 5 = 5`; and concept arithmetic is `5 - 0 = 5`. Auxiliary
+cumulative arithmetic is `492 + 8 = 500` prompts, `230 + 5 = 235` printed answers, `483 + 5 =
+488` retained records, `458 + 5 = 463` source handles, and `332 + 5 = 337` concept additions
+over primary. All-eligible arithmetic is `765 + 500 = 1,265`, `405 + 235 = 640`, `552 + 488 =
+1,040`, and `372 + 337 = 709`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**500 / 235 / 488 / 463 / +337**; and all eligible evidence is
+**1,265 / 640 / 1,040 / 709**. This tier-5 practical lecture adds Helwan-local teaching and
+exercise evidence only; it cannot independently raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status, so no readiness or claims file change is warranted.
+
+### Exact next debt after Family 58
+
+`src_8196275856f156e4e7eb` is exhausted across all 86 pages: every declarative slide, labelled
+or unlabelled plate, complete question, source-internal reveal, literal copy, incomplete residue,
+retained record, tested handle, search row, external disposition, and prior-BMS decision is
+assigned once, with **zero source remainder** and no Family-58 blocker. The next manifest-
+ordered local BMS-102 candidate is tier-5 `src_42d84167051365e1dde0` ·
+`3- Antibiotic Susceptibility testing.pdf`, SHA-256
+`42d84167051365e1dde02cb57535191f25f9330e969ead1a71bb2ccdbdadce43`, 4,433,727 bytes, 69
+native-text landscape US-letter pages under `Microbiology / Practical Labs / Pre Lab 3 -
+Antibiotic susceptibility testing`. Its unread 69-page prompt/teaching/answer boundary is the
+next-source processing blocker: fully render and visually adjudicate the complete source before
+admitting any count.
