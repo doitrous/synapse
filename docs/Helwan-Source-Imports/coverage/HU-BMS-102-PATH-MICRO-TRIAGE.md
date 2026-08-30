@@ -6974,3 +6974,127 @@ bytes, 55 native-text landscape 960×540-point pages under `Microbiology / Theor
 Bacterial Morphology & Structure`. Its unread 55-page teaching/prompt/answer boundary is the
 next-source processing blocker: fully render and visually adjudicate the complete lecture before
 admitting any count.
+
+## Family 63 — tier-4 Helwan bacterial-morphology teaching lecture with pre/post test
+
+### Source identity, complete visual boundary, and answer convention
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_fe901dc6baa1f35d5d24` · `Lec 1 102.pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 1 - Bacterial Morphology & Structure/Lec 1 102.pdf` |
+| SHA-256 / size | `fe901dc6baa1f35d5d24c0b5eb1ce5c73dc531b50615342074392ac6850624b6` · 4,184,576 bytes |
+| Format / read boundary | 55 native-text landscape 960×540-point pages; native text extracted, all 55 pages rendered at 120 dpi and read in seven ordered contact sheets, and pp. 4–5 and 53–54 reopened at full-page resolution |
+| Provenance | Helwan University Faculty of Medicine lecture, `Introduction to Bacteriology and Bacterial Structure`, attributed on the cover to Reem Abdelrahman, Lecturer of Microbiology and Immunology |
+| Authority | Tier-4 local theoretical teaching deck; no examiner, sitting, date, marks, candidate instructions, response form, departmental question-bank designation, or official exam-key section |
+
+Pages 4–5 form an unmarked nine-MCQ **Pre test**. Pages 53–54 repeat the same nine prompts,
+option order, and wording as a **Post test**, now with one straight green underline embedded below
+the selected option for every prompt. The stable source-native underline convention is a printed
+teaching-answer reveal, not an official exam key. The intervening lecture text directly teaches
+the same scopes, but declarative headings, labelled diagrams, the p. 25 `Think about` instruction,
+the p. 41 `what?/Action?` teaching scaffold, and illustrative cartoons are not independent prompts.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–3 | Helwan cover, objectives, and introductory illustration | provenance/teaching only; **0 / 0** |
+| 4–5 | Nine complete unmarked pre-test MCQs | **9 / 0** |
+| 6–13 | microbiology definition, prokaryotic/eukaryotic comparison, shape/arrangement, and bacterial-structure maps | declarative teaching only; **0 / 0** |
+| 14–26 | cell wall, peptidoglycan proportions, Gram-positive/negative layers, LPS, wall functions, and wall-deficient bacteria | declarative teaching only; **0 / 0** |
+| 27–35 | cytoplasmic membrane and functions, mesosome, nucleoid, ribosome, inclusions, and plasmids | declarative teaching only; **0 / 0** |
+| 36–47 | capsule, glycocalyx, flagella, pili, and labelled figures | declarative teaching only; **0 / 0** |
+| 48–52 | bacterial endospores, sporulation, resistance, position, and medical autoclave importance | declarative teaching only; **0 / 0** |
+| 53–54 | Nine literal post-test copies with one embedded green answer underline each | **9 / 9**; nine copies excluded from retention |
+| 55 | `Thank you` closing slide | **0 / 0** |
+
+The complete carrier therefore contains **18 prompt occurrences / 9 printed teaching-answer
+occurrences / 9 unkeyed prompt occurrences**. It has no cropped or incomplete prompt. The nine
+post-test prompts are literal copies of the nine pre-test prompts, so **18 - 9 copies = 9 retained
+records**. No retained scopes semantically collapse with one another, leaving **9 source-distinct
+tested handles**.
+
+### Prompt, answer, copy, and prior-BMS assignment
+
+| Ref | Pre / keyed-copy pages | Complete source-tested scope and printed answer | Handle / prior assignment |
+|---|---:|---|---|
+| F63-Q01 | 4 / 53 | Composite prokaryotic-cell description; D · all of the above | `prokaryotic-bacterial-cell-defining-features-composite` · exact Family 13 Q01 reuse |
+| F63-Q02 | 4 / 53 | Cell type with peptidoglycan as the main wall component; C · bacterial cell | `peptidoglycan-specific-to-bacterial-cell-wall` · exact Family 13 Q02 reuse |
+| F63-Q03 | 4 / 53 | Structure outside the bacterial cell wall; D · flagella | `flagella-location-outside-bacterial-cell-wall` · exact Family 13 Q03 reuse |
+| F63-Q04 | 4 / 53 | Gram-positive versus Gram-negative peptidoglycan thickness; A · 50% versus 5–10% | `gram-positive-versus-negative-peptidoglycan-thickness` · exact Family 13 Q04 reuse |
+| F63-Q05 | 5 / 54 | True cytoplasmic-membrane function; D · maintaining a constant inner bacterial environment | `bacterial-membrane-maintains-internal-environment` · exact Family 13 Q05 reuse |
+| F63-Q06 | 5 / 54 | Mechanism maintaining the inner environment; A · controlling transport mechanisms | `bacterial-membrane-transport-homeostasis` · exact Family 13 Q06 reuse |
+| F63-Q07 | 5 / 54 | Gram-negative LPS toxicity; B · extremely toxic to the human body | `gram-negative-lps-endotoxin-toxicity` · exact Family 13 Q07 reuse |
+| F63-Q08 | 5 / 54 | Composite Gram-negative wall description: endotoxin, lysis-associated release, and thin peptidoglycan; D · all of the above | `gram-negative-wall-lps-lysis-thin-peptidoglycan-composite` · exact Family 13 Q08 reuse |
+| F63-Q09 | 5 / 54 | Medical spore sterilization condition; C · autoclaving at 121°C for 20–30 minutes | `autoclave-121c-spore-sterilization` · exact Family 13 Q09 reuse |
+
+The lecture body independently supports these printed reveals: pp. 7–8 and 31 teach Q01; pp.
+14–16 teach Q02; pp. 11–13 and 42 teach Q03; pp. 15 and 18–23 teach Q04; pp. 27–29 teach
+Q05–Q06; pp. 20–23 teach Q07–Q08; and pp. 48–52 teach Q09. Those mappings corroborate the
+post-test underline convention but are not counted as nine additional answer occurrences.
+
+The full carrier also resolves the relationship to the Family-13 screenshot fragment: Family 13
+is the raster capture of these exact pp. 53–54. The carrier proves that its green underlines are
+embedded in the underlying lecture, so Family 63 admits nine printed teaching answers. Family
+13's source-local ruling remains nine visible but unproven digital marks and zero printed answers,
+because the screenshots alone did not establish their origin. This provenance refinement adds no
+new tested concept and cannot promote either source to official-key evidence.
+
+### Four-query search register and exact-scope adjudication
+
+All nine handles received exactly four fresh source-first searches across live state, all pending
+import roots, and prior BMS-102 evidence: **36 required searches**. Every result re-opened the
+Family-13 handle and its external disposition; no later source changes those scope decisions.
+External disposition remains **0 live / 1 pending / 8 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `prokaryotic-bacterial-cell-defining-features-composite` · Q01 | `prokaryotic bacterial cell features`; `DNA not enclosed nuclear membrane bacterial chromosome peptidoglycan`; `prokaryote one chromosome no nuclear membrane`; `bacterial prokaryotic cell all of above` | no same-scope | exact Family 13 Q01 reuse |
+| `peptidoglycan-specific-to-bacterial-cell-wall` · Q02 | `peptidoglycan bacterial cell wall specificity`; `peptidoglycan bacterial versus fungal cell`; `which cells contain peptidoglycan`; `peptidoglycan main bacterial wall component` | no same-scope | exact Family 13 Q02 reuse |
+| `flagella-location-outside-bacterial-cell-wall` · Q03 | `flagella outside bacterial cell wall`; `bacterial structure located outside cell wall`; `flagellum external bacterial structure`; `capsule flagella outside bacterial wall` | no same-scope | exact Family 13 Q03 reuse |
+| `gram-positive-versus-negative-peptidoglycan-thickness` · Q04 | `gram positive gram negative peptidoglycan thickness`; `50 percent gram positive 5-10 percent gram negative`; `thick versus thin peptidoglycan layer`; `bacterial wall peptidoglycan proportion` | no same-scope | exact Family 13 Q04 reuse |
+| `bacterial-membrane-maintains-internal-environment` · Q05 | `bacterial membrane maintains constant internal environment`; `cytoplasmic membrane bacterial homeostasis`; `bacterial cell membrane function internal environment`; `membrane constant intracellular environment bacteria` | no same-scope | exact Family 13 Q05 reuse |
+| `bacterial-membrane-transport-homeostasis` · Q06 | `bacterial membrane controls transport homeostasis`; `selective permeability maintains internal environment bacteria`; `cytoplasmic membrane transport mechanism`; `bacterial membrane controlling transport` | no same-scope | exact Family 13 Q06 reuse |
+| `gram-negative-lps-endotoxin-toxicity` · Q07 | `gram negative LPS extremely toxic`; `lipopolysaccharide endotoxin toxicity`; `toxic lipid A gram negative outer membrane`; `LPS toxicity human body` | pending `CON-INF-BF26D7E563FB78` | exact Family 13 Q07 reuse |
+| `gram-negative-wall-lps-lysis-thin-peptidoglycan-composite` · Q08 | `gram negative wall LPS lysis thin peptidoglycan`; `LPS released bacterial lysis fever hypotension shock`; `gram negative wall composite features`; `outer LPS thin peptidoglycan 5-10 percent` | no same-scope | exact Family 13 Q08 reuse |
+| `autoclave-121c-spore-sterilization` · Q09 | `autoclave 121 spores 20-30 minutes`; `sterilization bacterial spores 121 C`; `autoclaving instruments spores medical use`; `spore sterilization autoclave time temperature` | no same-scope | exact Family 13 Q09 reuse |
+
+All **9** source handles are exact prior-BMS reuses, so **9 - 9 = +0 concepts**.
+
+| Measure | Family 63 | Auxiliary cumulative (Families 12–63) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 18 | 589 | 765 | 1,354 |
+| Printed teaching-answer occurrences | 9 | 310 | 405 | 715 |
+| Unkeyed prompt occurrences | 9 | — | — | tracked separately |
+| Retained question records | 9 | 563 | 552 | 1,115 |
+| Source-distinct tested handles / required searches | 9 / 36 | 532 / — | — | — |
+| External live / pending / no same-scope | 0 / 1 / 8 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 9 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +393 over primary | 372 | `372 + 393 = 765` |
+| **Distinct tested concepts** | **+0** | **393 auxiliary additions** | **372** | **765** |
+
+The checksum closes without remainder: prompt occurrences are `9 pre-test + 9 post-test = 18`;
+answer alignment is `0 + 9 = 9`, leaving `18 - 9 = 9` unkeyed occurrences; retention is `18 -
+9 literal post-test copies = 9`; handle assignment is `9 - 0 semantic reductions = 9`;
+searches are `9 × 4 = 36`; external disposition is `0 + 1 + 8 = 9`; and concept arithmetic
+is `9 - 9 prior exact reuses = 0`. Auxiliary cumulative arithmetic is `571 + 18 = 589`
+prompts, `301 + 9 = 310` answers, `554 + 9 = 563` retained records, `523 + 9 = 532`
+source handles, and `393 + 0 = 393` concept additions. All eligible arithmetic is `765 + 589
+= 1,354`, `405 + 310 = 715`, `552 + 563 = 1,115`, and `372 + 393 = 765`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**589 / 310 / 563 / 532 / +393**; and all eligible evidence is
+**1,354 / 715 / 1,115 / 765**. This lecture contributes local teaching and study-test evidence
+only; it cannot raise exam/sitting, recurrence, mark-weight, official-key, readiness, or claims
+status.
+
+### Exact next debt after Family 63
+
+`src_fe901dc6baa1f35d5d24` is exhausted across all 55 pages: every cover/objective/closing
+page, declarative teaching slide, prompt, embedded answer underline, literal pre/post copy,
+retained record, handle, search row, external disposition, and prior-BMS reuse is assigned once,
+with **zero source remainder** and no Family-63 blocker. The next manifest-ordered unprocessed
+BMS-102 record is tier-4 `src_b7842ce4e8115bc3dcb5` · `Personal protective equipment.pdf`,
+SHA-256 `b7842ce4e8115bc3dcb52cf03db3832539b73770a200974bbdb5dd42284a49fa`, 2,576,854 bytes,
+57 native-text landscape 960×540-point pages under `Microbiology / Theoretical / Lec 10 - PPE`.
+Its unread teaching/prompt/answer boundary is the next-source processing blocker: fully render
+and visually adjudicate the complete source before admitting any count.
