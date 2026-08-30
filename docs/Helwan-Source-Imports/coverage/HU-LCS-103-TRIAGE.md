@@ -10347,3 +10347,107 @@ The exact next tier-3 manifest-order debt is
 It remains external until its own pages prove otherwise. **Overall LCS-103 remains `S1
 TRIAGE — NOT APPROVED`:** 145 tier-3/tier-6/rank-9 path debts remain. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 86 — Tier-3 external Module-103 lower-limb keyed MCQ compilation
+
+### Exact identity, provenance and complete assessment boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_9e3cbfb5ac875b83cc78` |
+| Manifest / recomputed SHA-256 | `9e3cbfb5ac875b83cc785123d63191463e8124a01f4deaf49fb7035b15ec595a` |
+| File / boundary | `MCQs - External MCQs 4_5927241424679477703.pdf` · 1,217,491 bytes · unencrypted PDF · 82 physical native-text A4 pages · 595.32 × 841.92 pt |
+| Metadata / visible provenance | Title `Microsoft Word - Lower Limb MCQ Galalll last edit`; author `Mohamed Hesham`; every page header prints `Module 103` and `Lower limb`; the source carries a `VIP ACADEMY` watermark and p. 82 credits `Designed & Collected by :Dr Ahmed Khaled`. No Helwan University, faculty, sitting, cohort or official-exam mark is printed. |
+| Authority finding | The explicit `External` manifest filename plus third-party watermark/collector credit keep this as an external keyed review compilation. Its module label establishes topical fit, not direct Helwan assessment authority. |
+
+The assigned hash, byte size and 82-page boundary were recomputed and match. All 82 pages
+were rendered at 150 dpi and read visually in eleven contact sheets against the complete
+native text layer. Pages 1–77 contain only MCQs, pp. 78–81 contain answer grids and p. 82 is
+a closing/credit page with an unvisited QR code. No page is an exact rendered duplicate.
+
+| Physical boundary | Visible prompt sequence | Prompt occurrences | Printed keys |
+|---|---|---:|---:|
+| pp. 1–19 | front/medial thigh, femoral triangle, adductor canal and lumbar plexus Q1–Q122 | 122 | 122 on p. 78 |
+| pp. 19–29 | femoral/obturator nerves and femoral vessels Q1–Q60 | 60 | 60 on p. 78 |
+| pp. 29–39 | gluteal region Q1–Q58, then Q60–Q65 | 64 | 64 usable keys on p. 79 |
+| pp. 39–46 | back of thigh, sciatic nerve and popliteal fossa Q1–Q48 | 48 | 48 on p. 79 |
+| pp. 46–51 | back of leg Q1–Q35 | 35 | 35 on p. 79 |
+| pp. 52–60 | front and lateral side of leg Q1–Q57 | 57 | 57 on p. 80 |
+| pp. 61–63 | foot Q1–Q17 | 17 | 17 on p. 80 |
+| pp. 63–64 | cutaneous innervation of lower limb Q1–Q8 | 8 | 8 on p. 80 |
+| pp. 65–76 | joints of lower limb and arches of foot Q1–Q77 | 77 | 77 on p. 80 |
+| pp. 76–77 | limb development Q1–Q4 | 4 | 4 on p. 81 |
+| **Family 86 external bank** | **ten keyed sections** | **492** | **492** |
+
+Gluteal prompts visibly jump from Q58 to Q60. The corresponding answer table retains a
+stand-alone `?` in the Q59 position; because there is no visible Q59 stem or option set, that
+mark is preserved as one excluded orphan key artifact and no prompt/key is invented. Other
+source anomalies remain exactly as printed, including multi-answer cells such as nerve/vessel
+Q59 `c&d`, Gluteal Q36 `b&d` and Q38 `c&b`, and joints Q42 `a,b,c`. Triage does not
+medically repair any source key.
+
+The compilation has no declarative teaching section, specimen, radiograph, micrograph,
+teaching plate, practical station, masked label, response blank or image-identification task.
+Clinical vignettes remain ordinary written MCQs. Practical delta is exactly **0 prompts / 0
+plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Handle collapse, searches and accepted-LCS comparison
+
+The 492 occurrences collapse to **47 source-distinct tested handles**. Each handle received
+one required search in each of the live, pending/import-ready, prior source-import and accepted
+LCS surfaces, for **47 × 4 = 188 required search invocations**. The source-first assignment
+is exhaustive:
+
+| Source domain | Prompt occurrences | Distinct handles | Assignment summary |
+|---|---:|---:|---|
+| Front/medial thigh plus femoral/obturator nerves and vessels | 122 + 60 = 182 | 13 | quadriceps/sartorius/patella; iliopsoas/pectineus; medial-thigh adductors; fascia lata/iliotibial tract/saphenous opening; femoral triangle; femoral sheath/ring/canal/hernia; adductor canal; femoral nerve/lumbar plexus; obturator nerve; femoral artery; great saphenous vein; hip/femoral-head arterial supply; saphenous nerve |
+| Gluteal region | 64 | 5 | abductors/TFL/superior gluteal nerve; gluteus maximus/inferior gluteal nerve; short lateral rotators/sciatic foramina; sciatic nerve course; pudendal/gluteal vessels |
+| Posterior thigh and popliteal fossa | 48 | 6 | hamstrings; popliteal fossa; popliteal artery; common fibular injury; tibial injury; sural nerve/small saphenous vein; sciatic repeats reuse the gluteal handle |
+| Posterior leg | 35 | 4 | posterior tibial/fibular arteries; triceps surae/Achilles; deep posterior muscles/flexor retinaculum; popliteus/unlocking |
+| Anterior/lateral leg | 57 | 6 | anterior compartment; lateral compartment; extensor retinacula; anterior tibial/dorsalis pedis artery; deep fibular nerve; superficial fibular nerve; one fibular-artery repeat reuses the posterior-leg handle |
+| Foot and cutaneous-innervation sections | 17 + 8 = 25 | 4 | intrinsic sole layers; medial plantar nerve; plantar arch/dorsalis-pedis continuity; cuboid/navicular relations; named cutaneous repeats reuse the saphenous/deep-fibular/superficial-fibular handles |
+| Hip, knee, ankle and foot-arch section | 77 | 7 | hip ligaments/stability; knee ligaments/menisci; knee locking/patella; ankle ligaments; subtalar/transverse-tarsal inversion/eversion; foot arches; bony landmarks/fractures; repeated hip blood-supply, gastrocnemius and popliteus items reuse earlier handles |
+| Limb development | 4 | 2 | limb-bud timing/rotation/innervation; named limb anomalies |
+| **Family 86** | **182 + 64 + 48 + 35 + 57 + 25 + 77 + 4 = 492** | **13 + 5 + 6 + 4 + 6 + 4 + 7 + 2 = 47** | **one assignment per occurrence** |
+
+All 47 handles are new to the separately tracked external inventory: none is a same-scope
+Family-78/83/84/85 external handle. Accepted Families 20 and 39–48 already own or directly
+corroborate every lower-limb scope, so this source adds no eligible-module concept. The
+external-state search result is **0 live / 39 pending / 8 new**. The eight source-distinct
+new-state handles are `femoral-artery-course-branches-collaterals`,
+`pudendal-and-gluteal-vessel-routes`, `sural-nerve-small-saphenous-vein-relations`,
+`triceps-surae-achilles-tendon-and-plantarflexion`, `intrinsic-sole-muscle-layers`,
+`medial-plantar-nerve-muscles-and-digital-territory`,
+`cuboid-navicular-and-foot-bone-relations` and
+`lower-limb-bony-landmarks-fractures-and-attachments`; the other 39 are pending. Thus
+prior-external reconciliation is **0 reuses + 47 external additions = 47**, while exact
+accepted-LCS comparison is **47 prior-LCS scope reuses + 0 eligible additions**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **555 / 555 / 108 = 11 / 73 / 24** to **1,047 external questions / 1,047 printed
+keys / 155 external concepts = 11 live / 112 pending / 32 new**. Arithmetic is `555 +
+492 = 1,047`, `555 + 492 = 1,047`, `108 + 47 = 155`, `73 + 39 = 112`, `24 +
+8 = 32`, and `11 + 112 + 32 = 155`. Practical totals remain **7 prompts / 458 plates /
+2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the audited remainder. Removing its sole path from Family
+85's accepted remainder leaves **144 all-rank path instances / 136 unique hashes**: tier 3
+**62 paths / 59 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**.
+Family 85's 145/137 row sets recompute first to path checksum
+`4effddd87ee6a463f58574460e2aeb75bd53c84bb2c350366177e20b6ff83228` and unique-hash
+checksum `b28a971bef4b215d5a44f2543bddcd5ccf6f5da07217efd7c85beee18f457fe9`.
+For the exact post-Family-86 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`bb7fec4bc585c36aa3c4928c8d0364cc2b92d27f2463542278b5e56d7641d0fb`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`58b00860ba36408338978db5f223f9530c1874fa0b0136c1562e539d5be0c5fa`.
+
+The exact next tier-3 manifest-order debt is `src_d1640d6b98c8f1360ef1`,
+`MCQs - External MCQs 9. mcq with ansewrs DR_magdy sabry .pdf` (140 OCR-needed pages;
+SHA-256 `d1640d6b98c8f1360ef189ddafaf0205a82aebe1ab6a74247ddb0de232c048b1`).
+It remains external until its own pages prove otherwise. **Overall LCS-103 remains `S1
+TRIAGE — NOT APPROVED`:** 144 tier-3/tier-6/rank-9 path debts remain. No download, ID,
+content record, catalogue update, import or source copy was created.
