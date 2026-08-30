@@ -8917,3 +8917,72 @@ completed T-lymphocyte/TNF/Fas/caspase apoptosis flowchart rather than a numbere
 but its full teaching/prompt/answer and annotation boundary, provenance/timestamp limitation,
 adjacent-image relationship, and overlap with Family 74/prior BMS evidence remain the exact
 next-source blockers.
+
+## Family 80 — extrinsic-apoptosis pathway flowchart screenshot
+
+### Source identity, original-image boundary, provenance, and adjacent-image relation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_bdce762ced5550b9c9a0` · `2026-07-20 06.14.44.jpg` |
+| SHA-256 / size | `bdce762ced5550b9c9a0f1168f36bb5eceb5e5f48cc5a8bcbe3d69632053aee5` · 73,844 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 912×1280 portrait JPEG; opened and read at original resolution |
+| Visible source identity | Hand-drawn white-background pathway with colored nodes/arrows; no page number, institution, module, author, instructor, date, assessment label, or key designation |
+| Embedded date metadata | None recovered; the filename/manifest timestamp is non-authoritative |
+
+The completed diagram runs from `T lymphocyte`, `Fas ligand/TNF`, and `TNF receptor` through
+apoptosis, adaptor proteins, initiator and executioner caspases, cytoskeletal breakdown and
+endonuclease activation, then blebs, apoptotic bodies, and no inflammation. It is a standalone
+extrinsic-pathway teaching graphic, not a numbered continuation of Family 79.
+
+The next manifest image, `2026-07-20 06.14.47.jpg`, is a larger intrinsic/anti-apoptotic note
+that embeds the entire Family-80 graphic as a reduced thumbnail labelled `Extrinsic`. This
+establishes an exact visual reuse relationship: Family 80 is the source-sized extrinsic panel,
+and the next image is a composite carrier. Filename ordering records capture order only and does
+not prove authorship, teaching date, or sitting year.
+
+### Teaching, annotation, overlap, and zero gate
+
+All labels, arrows, outlines, and colored boxes form a completed pathway. The arrows indicate
+mechanistic direction; colors group pathway stages. Nothing is blank or selectively marked as a
+response. There is no stem, command, option set, response frame, audience question, prompt-like
+residue, or answer register. The pathway overlaps Family-74 apoptosis teaching and prior BMS
+apoptosis handles, but declarative overlap is not assessment evidence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 80 | Auxiliary cumulative (Families 12–80) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 80 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 80
+
+`src_bdce762ced5550b9c9a0` is exhausted: every node, arrow, completed pathway statement,
+color convention, prompt absence, composite-carrier relationship, Family-74/prior-BMS overlap,
+timestamp limitation, zero search gate, and unchanged arithmetic is assigned once, with **zero
+source remainder** and no Family-80 blocker. The exact next manifest-ordered BMS-102 record is
+tier-6 `src_137afe5ab69edebd4f9d` · `2026-07-20 06.14.47.jpg`, SHA-256
+`137afe5ab69edebd4f9d7d70974e290ab7b9e23de5fc1c351528fe5ee48e6b81`, 100,971 bytes,
+one 904×1280 portrait JPEG under `Pathology / Notes and Summaries`. It is a completed
+intrinsic/anti-apoptotic pathway note with the full Family-80 extrinsic graphic embedded as a
+thumbnail. Its complete teaching/prompt/answer and annotation boundary, provenance/timestamp
+limitation, exact embedded-image dedupe, and overlap with Family 74/prior BMS evidence are the
+next-source blockers.
