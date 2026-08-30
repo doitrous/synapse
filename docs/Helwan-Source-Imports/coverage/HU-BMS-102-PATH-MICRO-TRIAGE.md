@@ -15615,3 +15615,94 @@ normalized to `Important Questions 108 Module.pdf`. Metadata title is `Microsoft
 questions.docx` with creation timestamp 28 May 2023; its visible `108 module` authority, exact
 teaching-versus-prompt/answer boundary, tier-9 eligibility, prior-source relationship, and zero-
 versus-search gate are the exact next-source blockers.
+
+## Family 147 — `108 module` important-question teaching handout
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-9 `src_523908ab67d7e6cf96c4` · manifest `Important Questions 108 Module .pdf`; the SHA-matching local filename is normalized to `Important Questions 108 Module.pdf` under `Pathology / Questions` |
+| SHA-256 / size | `523908ab67d7e6cf96c45047444b887c1f136a6213f1c8f16897ab61fb31225d` · 5,004,399 bytes |
+| Format / complete visual boundary | Ten native-text portrait US-letter pages, each 612×792 points. All ten pages were rendered at 150 dpi into ten non-empty 1275×1650-pixel images and read individually; two ordered contact sheets, layout extraction, and raw extraction were also read. There is no page, crop, heading, answer paragraph, table cell, figure, or text remainder. |
+| Native-text reality | Layout extraction contains 1,480 words / 12,197 bytes and raw extraction contains 1,474 words / 10,288 bytes. They preserve all 21 command headings, populated prose/lists, the final partly blank table, and Arabic cross-reference text. Visual review is required for heading hierarchy, answer adjacency, diagrams, and the two empty cells. The manifest's `native` label is accurate. |
+| Visible provenance | P.1 visibly reads `Important questions (108 module)` and `1st CHAPTER`; p.8 starts `2nd CHAPTER`. No university/faculty name or logo, author/instructor, Helwan marker, BMS-102 code, academic year, sitting, examiner, candidate field, or official-key statement is visible. |
+| Metadata caution | Metadata title is `Microsoft Word - vip questions.docx`; creator is Word; producer is macOS 13.3.1 Quartz PDFContext; creation/modification timestamp is 28 May 2023. These fields establish file-production history only and do not identify an institution, author, curriculum owner, or sitting. |
+| Authority / tier-9 eligibility | The explicit visible module label is `108`, not BMS-102. The standing tier-9 exception requires exact local placement, no external-university hint, **and module alignment**. Folder placement and pathology-topic overlap satisfy the first condition and there is no named external university, but the visible module-number conflict fails the third. This teaching handout is therefore indexed for source evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. No university is inferred from `108` alone. |
+
+### Complete page-first teaching-question, answer, image, and blank boundary
+
+| Pages | Complete visible source content | Source-local prompt/answer ruling |
+|---:|---|---:|
+| 1 | Define adaptation; enumerate adaptation types, with populated prose/list and an explanatory cell-size/number diagram | **2 prompts / 2 supplied teaching answers**. The labelled diagram supports the answers and is not an image-identification prompt. |
+| 2 | Enumerate five causes of cell injury, followed by seven populated cause categories and explanatory organ/cell illustrations | **1 / 1**. The answer exceeds the requested count; that is a source anomaly, not seven prompts. |
+| 3 | Adjacent headings `4-Enumerate All types of Reversible injury` and `5-Mention All Types of Reversible Injury`, followed by one six-item list; define necrosis; give an account of necrosis morphology | **4 prompts / 3 answers / 1 unkeyed**. The list is visibly attached to heading 5; heading 4 has no separate response or explicit cross-reference. |
+| 4 | Enumerate four necrosis types; mention all necrosis types and describe one, with a populated five-type list, Arabic mnemonic/cross-reference, liquefactive-necrosis explanation, and labelled gross image | **2 / 2**. The image is answer-side teaching evidence, not a practical station. |
+| 5 | Mention fat-necrosis types and describe one; define fibrinoid necrosis; define apoptosis | **3 / 3**, with a completed traumatic-versus-enzymatic table and labelled teaching images. |
+| 6 | Enumerate four physiological apoptosis types; unnumbered heading enumerates four pathological types | **2 / 2**. The second answer actually lists six pathological categories; preserve the surplus rather than rewriting the requested count. |
+| 7 | Compare necrosis and apoptosis | **1 / 1**, answered by a completed comparison table. |
+| 8 | Give an account of dystrophic calcification; discuss metastatic calcification with definition, causes, and sites | **2 / 2**, with an answer-side radiograph illustrating calcification. |
+| 9 | Give an account of metastatic calcification and causes; define amyloidosis; discuss amyloidosis pathogenesis | **3 / 3**. Arabic text explicitly directs the first operation to the preceding answer and adds effects/morphology, so it is keyed by a source-supplied cross-reference rather than left unkeyed. |
+| 10 | Mention amyloidosis types and give the amyloid protein in each | **1 prompt / 0 complete answers / 1 unkeyed**. The table supplies mappings for primary, secondary, senile, medullary-thyroid, and Alzheimer rows but leaves the `Localized deposits` and type-2-diabetes/islet protein cells visibly blank. The missing proteins are not inferred. |
+
+The source-local checksum is exactly **21 written teaching-question occurrences / 19 complete
+source-supplied teaching-answer occurrences / 2 unkeyed or incompletely answered occurrences**.
+There are **0 MCQs / 0 image-identification prompts / 0 practical stations / 0 drawing tasks / 0
+candidate responses / 0 prompt-like residues**. The diagrams, gross photograph, radiograph, and
+comparison/table graphics are already labelled or embedded in populated explanations; none asks
+the reader to identify an unseen feature.
+
+Question-like headings are retained as source occurrences because they issue explicit operations,
+but the carrier remains a completed teaching handout rather than an assessment. Source defects are
+preserved: headings 4 and 5 duplicate the reversible-injury request while sharing only one answer;
+the causes-of-injury and pathological-apoptosis answers exceed their requested counts; the types-
+of-necrosis heading asks for four but displays five; and two amyloid-protein cells remain blank.
+
+### Zero-accepted-handle and zero-search authority gate
+
+No handle is accepted into the Helwan BMS-102 ledger. The exclusion is controlled by the visible
+`108 module` versus BMS-102 mismatch under the narrow tier-9 module-alignment requirement, not by
+the educational quality or completeness of the notes. The 21 source-local operations remain
+auditable above but yield **0 retained eligible records / 0 accepted handles / 0 prior-BMS reuse
+assignments / +0 concepts**.
+
+Exactly four searches are required only per accepted handle. The governed calculation is `0
+accepted handles × 4 = 0 required searches`; **0 searches were run**. The teaching scopes visibly
+overlap Families 112, 145, 146, and many earlier BMS carriers, but external/prior reconciliation
+cannot cure the tier-9 module mismatch and therefore is not promoted into handle state.
+
+### Family-147 excluded-source checkpoint and cumulative arithmetic
+
+| Measure | Family 147 source-local | Eligible delta | Auxiliary cumulative (Families 12–147) | Primary checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 21 | 0 | 1,279 | 765 | 2,044 |
+| Complete source-supplied answer occurrences | 19 | 0 | 766 | 405 | 1,171 |
+| Unkeyed/incomplete prompt occurrences | 2 | 0 | — | — | none added |
+| Retained eligible question records | 0 | 0 | 1,204 | 552 | 1,756 |
+| Accepted handles / required searches | 0 / 0 | 0 / 0 | 1,082 / — | — | — |
+| Prior-BMS handle reuses | not adjudicated after exclusion | 0 | — | — | — |
+| Cross-family concept delta | +0 | +0 | +686 over primary | 372 | 1,058 |
+| **Distinct tested concepts** | **0 eligible** | **+0** | **686 auxiliary additions** | **372** | **1,058** |
+
+The checksum closes as `15 first-chapter + 6 second-chapter = 21 prompts`; `14 + 5 = 19`
+complete answers; `1 + 1 = 2` unkeyed/incomplete occurrences; and `19 + 2 = 21`. Eligible
+arithmetic is unchanged because `21 × 0 = 0`; search arithmetic is `0 × 4 = 0`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains **1,279 / 766 / 1,204 / 1,082 /
++686**; and all eligible evidence remains **2,044 / 1,171 / 1,756 / 1,058**. Family 147 cannot
+establish a Helwan exam, official key, authenticated practical, recurrence, mark weight, candidate
+response, readiness, or claims status.
+
+### Exact next debt after Family 147
+
+`src_523908ab67d7e6cf96c4` is exhausted across all ten pages: every visible/metadata provenance
+field, module-number conflict, written command, supplied list/prose/table, Arabic cross-reference,
+teaching image, adjacent duplicate heading, incomplete table cell, format assignment, authority
+exclusion, zero-search gate, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-147 blocker. The exact next manifest record is tier-1 department-book source
+`src_88169dc9b6ad00181a0d` · manifest `DPT BOOK MCQs - اسئلة كتاب القسم باثو College MCQs
+.pdf`, SHA-256 `88169dc9b6ad00181a0d085489284934c5661fe950be822a59ef26ba5e6ae128`,
+1,554,279 bytes, 22 OCR-needed pages under `Pathology / Questions / MCQs`; the SHA-matching local
+filename is normalized without the space before `.pdf`. Its exact department/college authority,
+complete render/OCR boundary, MCQ/key convention, prior-source reuse, searches, and arithmetic
+are the exact next-source blockers.
