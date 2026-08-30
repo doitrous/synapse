@@ -446,10 +446,44 @@ The source is now `sourceProcessed=true`. Its completed delta is **+45 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histo MCQ Dr.Zahra [Muscle]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Muscle].pdf` | `3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b` | 12 | substantive-text audit sample | pages 1–12 rendered and read | Branded `HISTOLOGY — DR. AHMED ZAHRA — MCQ`; iLovePDF-produced file modified 30 January 2023. It names the instructor but provides no institution, department, sitting, marks or official-key statement. Inline answers are preserved as the document's own key, not promoted to validated faculty-exam authority. |
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+Pages 1–12 contain **69 consecutively numbered muscle MCQs**, and every prompt has an adjacent inline printed answer. The exact boundary is therefore **69 prompt occurrences / 69 printed-key observations / 0 source-absent answers**. There is no separate key section and there are **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-only pages**.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 69 occurrences were assigned once across five handles, reconciling as **23 + 8 + 12 + 15 + 11 = 69**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **5 × 4 = 20 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 23, skeletal-muscle morphology, connective-tissue sheaths, fiber types and regeneration (`skeletal muscle epimysium perimysium endomysium`; `red white intermediate skeletal muscle fibers histology`; `skeletal muscle satellite cells regeneration histology`; `skeletal muscle sarcoplasm nuclei striations myoglobin glycogen`) | no external live/pending hit; same skeletal morphology/fiber/regeneration scopes as completed MSK histology cases/final bank — **prior-MSK collapse**. |
+| H2 | 8, sarcomere bands and myofilaments (`sarcomere A band I band H zone actin myosin`; `skeletal muscle sarcomere thin thick filaments`; `sarcomere contraction A band unchanged I band H zone`; `Z line M line sarcomere muscle histology`) | no external live/pending hit; same sarcomere band/protein scope as completed MSK histology cases/final bank — **prior-MSK collapse**. |
+| H3 | 12, sarcoplasmic reticulum, T tubules, triads and calcium/depolarization (`skeletal muscle triad T tubule terminal cisternae A-I junction`; `sarcoplasmic reticulum calcium skeletal muscle contraction`; `T tubule depolarization sarcoplasmic reticulum muscle`; `triad dyad cardiac skeletal muscle histology`) | no external live/pending hit; same skeletal-muscle ultrastructure/excitation scope as the completed MSK muscle assignment — **prior-MSK collapse**. |
+| H4 | 15, cardiac muscle morphology, dyads, intercalated discs, Purkinje fibers and fibrosis (`cardiac muscle intercalated disc fascia adherens macula gap junction`; `cardiac muscle histology branching central nuclei dyad`; `cardiac muscle regeneration fibrosis Purkinje fibers`; `cardiac intercalated disc transverse lateral segments`) | no external live/pending hit and no prior MSK cardiac-muscle handle — **new**. |
+| H5 | 11, smooth-muscle morphology, caveolae/dense bodies, junctions and regeneration (`smooth muscle histology caveolae dense bodies gap junctions`; `smooth muscle regeneration mitosis fusiform nonstriated`; `smooth muscle sarcolemma basal lamina caveolae`; `smooth muscle no T tubules sarcoplasmic reticulum histology`) | no external live/pending hit and no prior MSK smooth-muscle handle — **new**. |
+
+The source-level result is **0 live / 0 pending / 5 externally new source handles**. Prior-MSK collapse removes H1–H3; H4 and H5 survive, producing a completed-source concept delta of **0 live / 0 pending / 2 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+69 questions / +69 answers / +2 post-prior concepts**. Cumulative arithmetic is **1082 + 69 = 1151 questions**, **1012 + 69 = 1081 answers**, and **21 + 2 = 23 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1151 | 1081 | 23 | 0 | 1 | 22 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these thirteen processed paths and unique hashes leaves **90 selected inventory paths / 88 unique SHA-256s**. Their sorted, newline-joined hash checksum is `3a50307623bc7691df2a6299a14c0ea5a462c140dc08d094d71da4b4f259f15a`. Remaining audit-review debt is 50 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`13 + 88 = 101`**.
+Removing these fourteen processed paths and unique hashes leaves **89 selected inventory paths / 87 unique SHA-256s**. Their sorted, newline-joined hash checksum is `f13869324b0c147c0b75fbcc30549b6734efbf55a9661eaf9c4658f958c4953d`. Remaining audit-review debt is 49 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`14 + 87 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Muscle].pdf`, SHA-256 `3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b`, 12 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Skin].pdf`, SHA-256 `4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e`, 11 pages.
 
-**BLOCKED — S1 cannot be approved:** 90 selected inventory paths / 88 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 89 selected inventory paths / 87 unique hashes remain untriaged.
