@@ -4778,3 +4778,60 @@ Removing these two empty-text paths and two unique hashes leaves **46 selected i
 The next evidence-ranked source is the single sparse-text 14-page Anatomy `05 MCQs` path `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - FHB 1 MCQ FINAL.pdf`, SHA-256 `7978c265f52aa8190589c47a01ef536ca753583e4699a39d59f3f5267e8566b4`.
 
 **BLOCKED — S1 cannot be approved:** 46 selected source paths remain untriaged.
+
+## Completed source — FHB 1 MCQ FINAL
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - FHB 1 MCQ FINAL.pdf` | `7978c265f52aa8190589c47a01ef536ca753583e4699a39d59f3f5267e8566b4` | 14 | sparse-text | pages 1–14 rendered and read | MEDGUIDE-branded study compilation. The index describes a larger FHB 1 MCQ booklet, but this local 14-page slice retains only the complete General Anatomy and Physiology–Body Fluids sections. It prints no institution, author, department approval, exam sitting, marks or official-paper/key authority. |
+
+### Exact assessment, key and teaching boundary
+
+Page 1 is a cover and page 2 is an index/navigation page; neither contains assessment prompts. Pages 3–8 print **40 General Anatomy MCQs**, with Q36–Q40 followed by a complete Q1–Q40 answer table on page 8. Pages 9–14 jump to the source booklet's printed pages 33–38 and contain **40 Physiology–Body Fluids MCQs**, followed by a complete Q1–Q40 answer table on page 14.
+
+The local PDF therefore contains exactly **80 prompt occurrences / 80 printed key occurrences / 80 prompt-matched recovered answers**. Index references to General Embryology, Histology and later “Important” sections point to pages absent from this local slice and do not create observed prompts. Keys are recorded as printed without medical correction or inference.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+`A` identifies the General Anatomy sequence and `P` the Physiology–Body Fluids sequence. All 80 prompts are assigned exactly once to 18 handles. Every handle received the four identifying searches printed below, for **18 × 4 = 72 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| A1–A2 | Anatomy definition and standard anatomical position (`anatomy definition structure human body`; `standard anatomical position`; `palms forward anatomical position`; `general anatomy terminology`) | new externally; exact prior-FHB general-anatomy duplicate. |
+| A3–A6 | Sagittal, median, coronal and transverse planes (`sagittal plane right left`; `median plane equal halves`; `coronal plane anterior posterior`; `transverse plane upper lower`) | pending-hit; exact prior-FHB anatomical-plane duplicate. |
+| A7–A10 | Medial, palmar/dorsal, proximal and deep directional terms (`medial anatomical term`; `palmar dorsal hand`; `proximal point attachment`; `deep opposite superficial`) | new externally; exact prior-FHB directional-term duplicate. |
+| A11–A14 | Skin, Langer lines, superficial fascia and retinacula (`skin epidermis dermis`; `Langer lines dermis collagen`; `superficial fascia adipose absent`; `deep fascia retinacula`) | new externally; exact prior-FHB integument/fascia duplicate. |
+| A15–A20 | Axial/appendicular skeleton, vertebrae, ribs, limb bones and patella (`axial appendicular skeleton`; `vertebral column 33 vertebrae`; `floating ribs`; `patella sesamoid bone`) | pending-hit; exact prior-FHB skeletal-system duplicate. |
+| A21–A25 | Bone hardness, compact bone, diaphysis, epiphyseal plate and fibrocartilage (`bone hardness inorganic salts`; `compact bone outer layer`; `diaphysis long bone shaft`; `intervertebral disc fibrocartilage`) | new externally; exact prior-FHB bone/cartilage duplicate. |
+| A26–A30 | Skeletal muscle naming, origin, flexion, supination and prime mover (`skeletal muscle voluntary striated`; `muscle origin fixed attachment`; `flexion ventral surfaces`; `prime mover agonist muscle`) | pending-hit; exact prior-FHB muscle/movement duplicate. |
+| A31–A34 | Fibrous, cartilaginous and synovial joints (`gomphosis tooth socket`; `epiphyseal plate primary cartilaginous joint`; `synovial joint most movable`; `hip ball and socket`) | pending-hit; exact prior-FHB joint-classification duplicate. |
+| A35–A38 | Pulmonary artery, venous valves, thoracic duct and absent CNS lymphatics (`pulmonary artery deoxygenated blood`; `veins valves arteries comparison`; `thoracic duct largest lymphatic`; `lymphatics absent brain spinal cord`) | new externally; exact prior-FHB vessel/lymphatic duplicate. |
+| A39–A40 | Central nervous system composition and cranial-nerve count (`central nervous system brain spinal cord`; `cranial nerves 12 pairs`; `CNS versus PNS`; `general anatomy nervous system`) | new externally; exact prior-FHB nervous-system duplicate. |
+| P1–P5 | Total-body water, fluid compartments and plasma fraction (`total body water adult 60 percent`; `total body water infants`; `extracellular fluid plasma interstitial`; `plasma five percent body weight`) | pending-hit; exact prior-FHB body-fluid duplicate. |
+| P6–P10 | Major fluid ions, osmolarity and intracellular/extracellular pH (`extracellular sodium intracellular potassium`; `body fluid osmolarity 290 300`; `extracellular pH 7.4`; `intracellular fluid pH 7.0`) | new externally; exact prior-FHB fluid-composition duplicate. |
+| P11–P15 | Homeostasis, temperature regulation and non-volatile waste excretion (`homeostasis optimal body parameters`; `temperature heat production heat loss`; `rapid homeostasis nervous system`; `urea excretion kidney`) | new externally; exact prior-FHB homeostasis duplicate. |
+| P16–P20 | Cell-membrane thickness, cholesterol, glycocalyx and transmembrane proteins (`cell membrane thickness 7 10 nm`; `membrane cholesterol fluidity`; `glycocalyx carbohydrate protein lipid`; `integral membrane proteins channels carriers`) | pending-hit; exact prior-FHB membrane duplicate. |
+| P21–P23 | DNA genetic code, base pairing and nucleolar rRNA synthesis (`genetic code DNA`; `DNA base pairing A T G C`; `nucleolus rRNA synthesis`; `nucleolus ribosome biogenesis`) | new externally; exact prior-FHB nuclear duplicate. |
+| P24–P28 | Rough/smooth ER, Golgi, mitochondria and lysosomes (`rough ER protein synthesis`; `smooth ER steroid lipid synthesis`; `Golgi secretory cells`; `lysosome hydrolytic enzymes`) | pending-hit; exact prior-FHB organelle duplicate. |
+| P29–P35 | Simple/facilitated diffusion, osmosis and isotonicity (`simple diffusion no carrier`; `facilitated diffusion specificity saturation`; `osmosis solvent water movement`; `isotonic saline 300 mOsm`) | new externally; exact prior-FHB membrane-transport duplicate. |
+| P36–P40 | Plasma osmotic pressure, sodium pump, cotransport, pinocytosis and phagocytosis (`plasma osmotic pressure 5000 mmHg`; `sodium potassium pump 3 out 2 in`; `sodium glucose symport`; `pinocytosis cell drinking phagocytosis WBC`) | live-hit; exact prior-FHB transport/vesicular duplicate. |
+
+The source-level search result is **1 live / 6 pending / 11 new = 18 handles**. Every handle is exact reuse of already processed FHB anatomy and physiology scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+80 questions / +80 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4594 | 4313 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one sparse-text path and unique hash leaves **45 selected inventory paths / 45 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `44fbeee2500c67d8f337898a2d1dcc18d08bd8a00f958c8b24bee16fb7b28485`. Pinned triage debt becomes **nine substantive-text / five sparse-text / 31 empty-text** rows, and unique-hash accounting is **`61 + 45 = 106`**.
+
+The next evidence-ranked Anatomy `05 MCQs` source is the single eight-page path `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - VIP Embryo MCQS ️▪️.pdf`, SHA-256 `8d6091da0290ba43cd96017fafe09a5b7d14b2c362adcbca3d158d30cef768fd`.
+
+**BLOCKED — S1 cannot be approved:** 45 selected source paths remain untriaged.
