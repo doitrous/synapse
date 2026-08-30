@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "788f52123dbc4be658345224da5592a50f3a41f7fbfdee10e12a7d64838bc375",
-    "triageMarkdown": "7e9e5ac93b471a734dd7ba5fb32365c153ea20d6b3c24e1b1453e830d749616a"
+    "readinessMarkdown": "8b4b9d41c8aa88fe87d7ef525a507dff1e721b5379b6c9dac2c81f7274d86d58",
+    "triageMarkdown": "066c9b553430c902ce0d527db848611b69ec905e56c3f0a6adce4287cc428211"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -60,6 +60,7 @@
       "2b3046797114764969bbcd1b2826333c31b1d1177804327caf0187540d68fbfb",
       "2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0",
       "3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b",
+      "396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358",
       "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
@@ -100,7 +101,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 48
+    "uniqueSha256": 49
   },
   "completedSourceCoverage": [
     {
@@ -1294,25 +1295,55 @@
         "ulnar-nerve-in-forearm answer includes palmaris brevis",
         "shoulder and wrist movement lists are visibly selective rather than exhaustive"
       ]
+    },
+    {
+      "sha256": "396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358",
+      "sourcePages": 7,
+      "renderedReadPages": "1-7",
+      "writtenPromptAndInlineAnswerPages": "1-7",
+      "printedPromptObservations": 30,
+      "writtenPrompts": 30,
+      "printedKeyObservations": 30,
+      "writtenAnswerObservations": 30,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 30,
+      "familyAnswerDelta": 30,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "image-only handwritten Predicted Qs (Written) notebook scan with CamScanner metadata; no authenticated MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "continuous Q1-Q30 short-written sequence with one inline handwritten answer per numbered prompt; no MCQ, practical, image-identification, teaching-only, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "Q2 labels the first and second lumbrical branch as lateral and medial",
+        "Q6 lists carpal tunnel syndrome as a median-nerve injury outcome",
+        "Q9 mixes arterial and nerve terminations into the fourth extensor-retinaculum compartment",
+        "Q16 lists the superficial terminal radial-nerve branch among cubital-fossa contents",
+        "inconsistent spelling and numbering are retained"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 5472,
-    "printedKeyObservations": 5365,
+    "printedPromptObservations": 5502,
+    "printedKeyObservations": 5395,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 54,
-    "uniqueSha256": 53,
-    "sortedNewlineSha256": "8c22ed32fa34db30dfc54c3e5f7c80764944bcd33d72723b3d51e458d15f5fd3",
+    "inventoryMetadataRows": 53,
+    "uniqueSha256": 52,
+    "sortedNewlineSha256": "88fc21739df3745a9ea92c435b934e88901e3fc2799938fc603eecc6cd22b464",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
       "empty-text": 9,
-      "sparse-text": 7,
+      "sparse-text": 6,
       "substantive-text": 22
     }
   },
@@ -1320,13 +1351,13 @@
     "audit-extract-failed": 3,
     "audit-not-found": 13,
     "empty-text": 9,
-    "sparse-text": 7,
+    "sparse-text": 6,
     "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 48,
-    "remainingUniqueSha256": 53,
+    "processedUniqueSha256": 49,
+    "remainingUniqueSha256": 52,
     "processedPlusRemaining": 101
   }
 }

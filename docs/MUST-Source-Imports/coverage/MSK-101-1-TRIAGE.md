@@ -1832,3 +1832,48 @@ Removing the forty-eight processed unique hashes leaves **54 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - predicted written anat msk 1 (1).pdf`, SHA-256 `396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358`, 7 pages.
 
 **BLOCKED — S1 cannot be approved:** 54 selected inventory paths / 53 unique hashes remain untriaged.
+
+## Completed source — predicted written anat msk 1 (1)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - predicted written anat msk 1 (1).pdf` | `396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358` | 7 | sparse-text audit sample | pages 1–7 rendered and read | Image-only handwritten notebook scan headed `Predicted Qs (Written)`. PDF title and subject repeat the filename while author/producer metadata identifies CamScanner; no printed author, institution, department, examiner, sitting, marks or official-key claim appears. The heading, filename and scanner metadata do not authenticate a MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - predicted written anat msk 1 (1).pdf" purpose="source"}
+
+### Exact written, practical, image and answer boundary
+
+All seven pages contain a single continuous handwritten Q1–Q30 sequence. Every numbered short-written prompt has an inline handwritten list or phrase supplying its answer, so each numbered prompt contributes one prompt observation and one answer observation regardless of answer length.
+
+| Pages | Written prompt sequence | Written prompts | Inline answers | Practical | Image-identification | Unkeyed |
+|---|---|---:|---:|---:|---:|---:|
+| 1–2 | Q1–Q6 | 6 | 6 | 0 | 0 | 0 |
+| 3–4 | Q7–Q16 | 10 | 10 | 0 | 0 | 0 |
+| 5–7 | Q17–Q30 | 14 | 14 | 0 | 0 | 0 |
+| **Total** | **Q1–Q30** | **30** | **30** | **0** | **0** | **0** |
+
+There are no MCQs, practical stations, diagrams requiring identification, radiographs, photographs used as prompts, teaching-only pages, answer-only pages or unkeyed prompts. Wording and answer lists remain source observations without academic completion or correction. Preserved source defects include Q2's `branch to 1st & 2nd lumbrical muscle (lateral & medial)`, Q6's `Median nerve → Ape-hand & carpel tunnel syndrome`, Q9 placing arterial/nerve terminations inside the fourth extensor-retinaculum compartment, Q16 listing the superficial terminal branch of the radial nerve among cubital-fossa contents, and inconsistent spelling/numbering throughout.
+
+### Source-first family and exactly-four-search gate
+
+The handwritten wording, ordering and thirty-prompt structure distinguish this source from the completed typed 47-prompt written family and other prior banks. Its tested scopes—forearm flexor/extensor muscles, median/ulnar/radial nerve branches and injuries, flexor/extensor retinacula, upper-limb vessels and intrinsic-hand muscles—map completely to the completed Upper Limb Anatomy H1–H5 family.
+
+No genuinely new handle survives prior-MSK collapse. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its delta is **+30 questions / +30 answer observations / +0 concepts**. Cumulative arithmetic is **5472 + 30 = 5502 questions**, **5365 + 30 = 5395 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5502 | 5395 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-nine processed unique hashes leaves **53 selected inventory paths / 52 unique SHA-256s**. Their sorted, newline-joined hash checksum is `88fc21739df3745a9ea92c435b934e88901e3fc2799938fc603eecc6cd22b464`. Remaining audit-review debt is 22 substantive-text / 6 sparse-text / 9 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`49 + 52 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - Anatomy 101 muscles ( final ).pdf`, SHA-256 `565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1`, 5 pages.
+
+**BLOCKED — S1 cannot be approved:** 53 selected inventory paths / 52 unique hashes remain untriaged.
