@@ -10048,3 +10048,112 @@ bytes; 6 native-text pages; SHA-256
 outside eligible Helwan counts unless its own pages establish stronger provenance. **Overall
 LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 148 tier-3/tier-6/rank-9 path debts remain.
 No download, ID, content record, catalogue update, import or source copy was created.
+
+## Family 83 — Tier-3 external Dr Zahra Bone Histology keyed MCQ bank
+
+### Exact identity, provenance and assessment boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_c7075e4c777e946e43ff` |
+| Manifest / recomputed SHA-256 | `c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5` |
+| File / boundary | `MCQs - External Histo MCQ Dr.Zahra [Bone].pdf` · 446,745 bytes · unencrypted PDF · 6 physical native-text pages · A4, 595.32 × 841.92 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 · instructor `Zahra` · `twinPreferred: false` |
+| Visible provenance | Every page prints `HISTOLOGY · DR. AHMED ZAHRA · MCQ`; the title begins `Bone MCQ`. There is no Helwan, faculty, module/cohort, academic-year, examination, sitting or official-key mark. |
+| Authority finding | The explicit `External` filename and absence of Helwan provenance keep this as an external keyed review bank. It does not enter eligible Helwan assessment counts. |
+
+The full file was rendered at 200 dpi and all six pages were visually read against the
+complete native text layer. Pages 1–5 and the upper part of p. 6 contain **46 ordinary MCQ
+prompts**; the lower part of p. 6 prints a complete **46-entry answer-letter grid**. No key
+is inferred or medically repaired. The exact source sequence is `1-c, 2-a, 3-a, 4-d, 5-c,
+6-c, 7-a, 8-b, 9-d, 10-c, 11-d, 12-c, 13-d, 14-d, 15-d, 16-b, 17-d, 18-d, 19-d,
+20-d, 21-d, 22-b, 23-a, 24-b, 25-b, 26-c, 27-d, 28-a, 29-a, 30-b, 31-c, 32-d,
+33-d, 34-d, 35-a, 36-c, 37-c, 38-b, 39-c, 40-d, 41-d, 42-c, 43-a, 44-d, 45-b,
+46-a`.
+
+| Physical page | Prompt boundary | MCQ prompts | Printed keys |
+|---:|---|---:|---:|
+| 1 | Q1–Q8 | 8 | 0 |
+| 2 | Q9–Q16 | 8 | 0 |
+| 3 | Q17–Q24 | 8 | 0 |
+| 4 | Q25–Q32 | 8 | 0 |
+| 5 | Q33–Q40 | 8 | 0 |
+| 6 | Q41–Q46, then answer grid Q1–Q46 | 6 | 46 |
+| **Family 83 external bank** | **Q1–Q46** | **46** | **46** |
+
+There is no declarative teaching section, specimen, micrograph, teaching plate, practical
+station, response blank, masked label, image-identification task or unresolved callout.
+Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical
+keys / 0 practical scopes**.
+
+### Assignment, four-surface searches and external-bank deduplication
+
+All 46 occurrences are assigned once below and collapse to **22 source-distinct handles**.
+Each accepted handle received one search in each required surface—live, pending/import-ready,
+prior source-import lanes and accepted LCS—so **22 × 4 = 88 required search invocations**.
+Twenty handles are exact same-scope Family-13 external Bone/Cartilage-bank reuses. Only the
+osteogenic-lineage comparison and integrated lacunar-location comparison extend the external
+inventory; both are already owned by pending/accepted bone-cell coverage, so neither is a
+corpus-new scope.
+
+| Current prompts | Accepted handle / four-query bundle | Prior-external and corpus disposition |
+|---|---|---|
+| Q1 | `bone-specialized-connective-tissue` · bone hard connective tissue; solid bone matrix; calcified hard matrix; bone tissue consistency | exact Family-13 external handle; live |
+| Q2 | `bone-matrix-type-i-collagen-acidophilia` · bone type I collagen; bone matrix collagen; calcified collagen bone; bone matrix acidophilia | exact Family-13 external handle; pending |
+| Q3,Q40 | `bone-no-interstitial-growth` · bone appositional only; osteoblast cannot divide; no interstitial bone growth; bone cell divisibility | exact Family-13 external handle absorbs both exception forms; live |
+| Q4,Q45 | `periosteum-bone-covering-functions` · periosteum layers; periosteum functions; periosteal nutrition; periosteum appositional growth | exact Family-13 external handle; pending |
+| Q5 | `endosteum-medullary-cavity-lining` · endosteum marrow cavity; inner bone lining; endosteum cellular layer; medullary surface lining | exact Family-13 external handle; pending |
+| Q6,Q7,Q12 | `bone-cell-cytoplasm-organelle-comparison` · osteoblast basophilic cytoplasm; osteoclast acidophilic cytoplasm; negative Golgi osteoblast; bone-cell organelle comparison | exact Family-13 external handle; pending |
+| Q8,Q13,Q35,Q37,Q43 | `osteoclast-multinucleation-identity` · osteoclast monocyte origin; multinucleated osteoclast; UMC osteoclast; osteoclast lineage | exact Family-13 external handle, including its fusion/origin scope; pending |
+| Q11,Q14 | `osteoclast-bone-resorption-identity` · bone destroying cell; motile osteoclast; osteoclast resorption; bone eroding cell | exact Family-13 external handle; live |
+| Q17 | `osteoclast-howship-lacuna` · Howship lacuna osteoclast; resorption bay; osteoclast lacuna; bone erosion cavity | exact Family-13 external handle; pending |
+| Q9,Q15 | `osteogenic-cell-osteoblast-lineage-differentiation` · osteogenic cell gives osteoblast; osteoblast origin; osteogenic differentiation; osteogenic chondroblast osteoblast | pending bone-cell lineage coverage owns the objective; **new external-inventory handle** |
+| Q10,Q34 | `osteoblast-bone-forming-cell-alkaline-phosphatase` · osteoblast bone forming; alkaline phosphatase bone cell; bone matrix secretion; bone building cell | exact Family-13 external handle; pending |
+| Q16 | `osteocyte-lacuna-mature-maintenance-viability` · osteocyte maintaining cell; mature bone cell; osteocyte lacuna; bone maintenance cell | exact Family-13 external handle; pending |
+| Q18,Q19 | `osteon-haversian-system-compact-bone-unit` · osteon Haversian system; compact-bone unit; Haversian canal lamellae; structural unit compact bone | exact Family-13 external handle; live |
+| Q20,Q46 | `sharpey-fibers-tendon-ligament-attachment` · Sharpey fibres periosteum; perforating collagen fibres; periosteum fixation; collagen anchor bone | exact Family-13 external handle; pending |
+| Q21 | `spongy-bone-trabecular-architecture` · spongy trabeculae; irregular bone lamellae; cancellous osteocytes; trabecular bone structure | exact Family-13 external handle; pending |
+| Q22 | `volkmann-canals-connect-osteons` · Volkmann canal; connect Haversian systems; transverse bone canal; osteon communication | exact Family-13 external handle; pending |
+| Q23–Q28 | `epiphyseal-plate-zone-sequence-cell-changes` · proliferative hypertrophic zones; epiphyseal plate sequence; zone invasion ossification; growing-end cartilage death | exact Family-13 external handle; pending |
+| Q29–Q33 | `osteoclast-vesicular-acid-enzyme-resorption-mechanism` · osteoclast ruffled clear vesicular basal zones; microvilli microfilaments lysosomes; carbonic anhydrase proteolysis; osteoclast resorption mechanism | exact Family-13 external handle; pending |
+| Q36,Q38,Q41 | `bone-lamellae-composition-organization` · compact-bone lamellae; concentric circumferential interstitial; Haversian lamellae; calcified collagen lamellae | exact Family-13 external handle; live |
+| Q39 | `bone-cell-lacunar-location-comparison` · osteocyte chondrocyte lacuna; osteoblast outside lacuna; osteoclast Howship lacuna; bone/cartilage cell-location comparison | pending bone-cell/cartilage coverage owns all components; **new external-inventory handle** |
+| Q42 | `osteoid-unmineralized-bone-matrix` · osteoid organic bone; unmineralized matrix; organic bone component; osteoblast osteoid | exact Family-13 external handle; pending |
+| Q44 | `osteocyte-canaliculi-processes-gap-junctions` · osteocyte canaliculi; osteocyte gap junctions; osteocyte processes; osteocyte division | exact Family-13 external handle; pending |
+
+Assignment arithmetic is `1 + 1 + 2 + 2 + 1 + 3 + 5 + 2 + 1 + 2 + 2 + 1 + 2 + 2 +
+1 + 1 + 6 + 5 + 3 + 1 + 1 + 1 = 46`. Source disposition is **5 live / 17 pending /
+0 new = 22 handles**. External-inventory deduplication is **20 prior-external reuses + 2
+additions = 22**; the two additions contribute **0 live / 2 pending / 0 new** to cumulative
+external concept state.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **321 / 321 / 100 = 10 / 66 / 24** to **367 external questions / 367 printed keys /
+102 external concepts = 10 live / 68 pending / 24 new**. Arithmetic is `321 + 46 = 367`,
+`321 + 46 = 367`, `100 + 2 = 102`, and `10 + 68 + 24 = 102`. Practical totals remain
+**7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live /
+0 pending / 92 new**.
+
+This source hash occurs once in the audited remainder. Removing its sole path from Family
+82's accepted remainder leaves **147 all-rank path instances / 139 unique hashes**: tier 3
+**65 paths / 62 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**.
+Family 82's 148/140 row sets recompute first to path checksum
+`03d3a50eb9d93057acaf0d4351a7d64319eef09f6b69a07906834386e2252505` and unique-hash
+checksum `73314ba0fbe4769e3ecbebb7cedd62bbae59b7ea716c7686f71caaa848ce1cdd`.
+For the exact post-Family-83 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0739d1449b9a86c646ded01af11882441c38073af0b555256686389a98645c29`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`4d2fe1eec2fe6b251be30485f85c791a2418980f5f1f9bd36cb7d18f399a48f4`.
+
+The exact next tier-3 manifest-order debt is its distinct name twin
+`src_bdf42a294dbb4b9fc3ff`, `MCQs - External Histo MCQ Dr.Zahra [Cartilage].pdf`
+(424,171 bytes; 6 native-text A4 pages; SHA-256
+`bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a`). Its different
+hash requires a separate source-first inventory despite the shared template and instructor.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 147 tier-3/tier-6/rank-9 path
+debts remain. No download, ID, content record, catalogue update, import or source copy was
+created.
