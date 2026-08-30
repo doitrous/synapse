@@ -4835,3 +4835,71 @@ Removing this one sparse-text path and unique hash leaves **45 selected inventor
 The next evidence-ranked Anatomy `05 MCQs` source is the single eight-page path `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - VIP Embryo MCQS ️▪️.pdf`, SHA-256 `8d6091da0290ba43cd96017fafe09a5b7d14b2c362adcbca3d158d30cef768fd`.
 
 **BLOCKED — S1 cannot be approved:** 45 selected source paths remain untriaged.
+
+## Completed source — VIP Embryo MCQS
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - VIP Embryo MCQS ️▪️.pdf` | `8d6091da0290ba43cd96017fafe09a5b7d14b2c362adcbca3d158d30cef768fd` | 8 | empty-text / malformed-Flate extraction warning | pages 1–8 rendered and read | CamScanner study-bank scan titled `Final M.C.Qs`; no institution, department, exam sitting, date, marks, author, model-answer label or official-key authority is printed. |
+
+### Exact assessment and key boundary
+
+The source pages are not in numerical order: page 1 prints Q1–Q8, page 2 Q41–Q43 and Q45–Q49, page 3 Q50–Q59, page 4 Q27–Q32, page 5 Q18–Q26, page 6 Q33–Q40, and page 7 Q9–Q17. Q44 is absent from both the question pages and key. Page 8 is a handwritten answer table for Q1–Q43 and Q45–Q59. Blue marks on pages 1–3 agree with the corresponding page-8 letters; they are not counted as additional answer occurrences.
+
+The exact boundary is therefore **58 prompt occurrences / 58 printed key occurrences / 58 prompt-matched recovered answers**. The page-8 sequence is `1 A; 2 C; 3 B; 4 C; 5 B; 6 A; 7 B; 8 A; 9 C; 10 C; 11 C; 12 D; 13 A; 14 D; 15 C; 16 B; 17 C; 18 C; 19 C; 20 B; 21 B; 22 A; 23 B; 24 B; 25 B; 26 B; 27 B; 28 D; 29 A; 30 C; 31 A; 32 C; 33 B; 34 A; 35 C; 36 B; 37 B; 38 A; 39 C; 40 C; 41 B; 42 A; 43 A; 45 B; 46 C; 47 B; 48 A; 49 B; 50 A; 51 B; 52 C; 53 B; 54 C; 55 E; 56 C; 57 A; 58 D; 59 B`. Q55–Q58 are matching prompts and Q59 is a short prompt, but their keyed letters are retained exactly as source claims rather than medically repaired or inferred.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 58 prompts are assigned exactly once to the 29 handles below. Each row received the four identifying searches shown, for **29 × 4 = 116 searches**. The source is content-distinct as a file but near-duplicate in assessment content: Q1–Q43 and Q45–Q54 reproduce the previously closed `Important Anatomy MCQ` block with a one-number shift after its Q43, while Q55–Q59 restate already owned derivative/component concepts. Consequently every handle is prior-FHB reuse.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1 | Uterine-wall layers and endometrial lining (`uterine wall layers`; `endometrium innermost uterine layer`; `myometrium perimetrium`; `uterus wall endometrium`) | pending-hit; exact prior-FHB duplicate. |
+| Q2, Q26 | Primordial-germ-cell origin and umbilical-vesicle migration source (`primordial germ cells umbilical vesicle`; `germ cell origin yolk sac`; `germ cells endoderm`; `umbilical vesicle germ cells`) | new externally; exact prior-FHB duplicate. |
+| Q3, Q7 | Usual tubal/ampullary fertilization site (`fertilization ampulla uterine tube`; `site fertilization`; `fertilization uterine tube`; `common fertilization site`) | new externally; exact prior-FHB duplicate. |
+| Q4 | Gametogenesis (`gametogenesis`; `haploid gamete chromosomes`; `germ cells into gametes`; `gamete formation process`) | pending-hit; exact prior-FHB duplicate. |
+| Q5 | Secondary oocyte as female gamete (`secondary oocyte female gamete`; `female gamete`; `human oocyte`; `female gamete secondary oocyte`) | live-hit; exact prior-FHB duplicate. |
+| Q6, Q29 | Fertilization definition and outcomes (`fertilization outcomes`; `fertilization restores diploid number`; `fusion male female gametes`; `fertilization begins cleavage`) | new externally; exact prior-FHB duplicate. |
+| Q8, Q10, Q30 | Morula-to-blastocyst development and blastogenesis (`morula blastocyst development`; `blastogenesis morula cavity`; `morula features`; `morula 16 blastomeres`) | live-hit; exact prior-FHB duplicate. |
+| Q9 | Epiblast as floor of the amniotic cavity (`epiblast floor amniotic cavity`; `amniotic cavity floor`; `epiblast amnion`; `bilaminar disc epiblast`) | live-hit; exact prior-FHB duplicate. |
+| Q11–Q12 | Full-term placental weight and gross surfaces (`full term placenta weight`; `placenta 500 g`; `placental fetal surface`; `full term placenta gross`) | new externally; exact prior-FHB duplicate. |
+| Q13–Q14, Q32–Q34, Q57 | Ectodermal, neural-tube and neural-crest derivatives (`ectoderm neural tube neural crest`; `neural tube derivatives`; `neural crest derivatives`; `epidermis ectoderm`) | pending-hit; exact prior-FHB duplicate. |
+| Q15, Q31, Q59 | Epiblast as source of three germ layers (`three germ layers epiblast`; `epiblast germ layers`; `germ layers embryo`; `trophoblast not germ layer`) | pending-hit; exact prior-FHB duplicate. |
+| Q16–Q17 | Trophoblast layers (`trophoblast layers`; `syncytiotrophoblast`; `cytotrophoblast`; `trophoblast differentiation`) | live-hit; exact prior-FHB duplicate. |
+| Q18–Q20, Q28 | Implantation process, site, timing and features (`implantation process site timing`; `blastocyst implantation endometrium`; `implantation upper posterior uterus`; `implantation day 7 day 10`) | live-hit; exact prior-FHB duplicate. |
+| Q21–Q22 | Gastrulation and primitive streak (`gastrulation primitive streak`; `first sign gastrulation`; `gastrulation three layers`; `primitive streak`) | pending-hit; exact prior-FHB duplicate. |
+| Q23–Q24 | Notochord as embryonic axis and nucleus-pulposus remnant (`notochord embryonic axis`; `notochord nucleus pulposus`; `notochord remnant`; `primordial embryonic axis`) | pending-hit; exact prior-FHB duplicate. |
+| Q25, Q42 | Embryonic folding and umbilical-ring formation (`embryonic folding`; `folding cylindrical embryo`; `umbilical ring formation`; `folding fourth week`) | live-hit; exact prior-FHB duplicate. |
+| Q27 | Cleavage and blastomeres (`cleavage mitotic division zygote`; `cleavage blastomeres`; `embryonic cleavage`; `cleavage after fertilization`) | pending-hit; exact prior-FHB duplicate. |
+| Q35, Q37–Q39, Q56 | Paraxial somites and sclerotome/myotome/dermatome derivatives (`paraxial mesoderm somites`; `sclerotome myotome dermatome`; `somite derivatives`; `sclerotome bones cartilage`) | live-hit; exact prior-FHB duplicate. |
+| Q36, Q41 | Fifth-week somite number and general features (`somite number fifth week`; `44 somites`; `somites embryonic age`; `fifth week somites`) | pending-hit; exact prior-FHB duplicate. |
+| Q40 | Intermediate-mesoderm urinary derivative (`intermediate mesoderm urinary system`; `intermediate mesoderm derivatives`; `urogenital mesoderm`; `urinary system embryology`) | new externally; exact prior-FHB duplicate. |
+| Q43, Q55 | Endodermal gastrointestinal lining (`endoderm derivatives`; `gastrointestinal epithelial lining`; `endoderm GIT lining`; `respiratory epithelium endoderm`) | pending-hit; exact prior-FHB duplicate. |
+| Q45 | Placental transfer, nutrition and gas-exchange functions (`placenta gas exchange nutrition`; `placental function`; `placenta metabolism transfer`; `placenta nutrient exchange`) | new externally; exact prior-FHB duplicate. |
+| Q46 | Two-layer placental membrane late in pregnancy (`placental membrane last trimester`; `two placental layers`; `placental barrier`; `placental membrane`) | pending-hit; exact prior-FHB duplicate. |
+| Q47, Q54 | Tubal ectopic pregnancy and lower-segment placenta previa (`ectopic pregnancy placenta previa`; `abnormal implantation`; `tubal ectopic pregnancy`; `lower uterine segment placenta`) | live-hit; exact prior-FHB duplicate. |
+| Q48–Q49 | Full-term umbilical-cord vessels and length (`umbilical cord length vessels`; `umbilical cord 50 cm`; `two arteries one vein`; `umbilical cord structure`) | new externally; exact prior-FHB duplicate. |
+| Q50 | Monozygotic/identical twins (`monozygotic twins`; `identical twins`; `one zygote twins`; `monozygotic twinning`) | live-hit; exact prior-FHB duplicate. |
+| Q51–Q52 | Embryonic and fetal periods (`embryonic fetal periods`; `embryo first eight weeks`; `fetus after eighth week`; `developing human embryo fetus`) | live-hit; exact prior-FHB duplicate. |
+| Q53 | Polyhydramnios (`normal amniotic fluid volume`; `polyhydramnios`; `amniotic fluid excess`; `excess amniotic fluid`) | pending-hit; exact prior-FHB duplicate. |
+| Q58 | Fetal and maternal placental components (`chorion frondosum decidua basalis`; `fetal maternal placenta components`; `placental fetal part maternal part`; `decidua basalis placenta`) | live-hit; exact prior-FHB duplicate. |
+
+The source-level search split is **11 live / 11 pending / 7 new = 29 handles**. The post-prior-FHB result is **0 live / 0 pending / 0 new**, so this source contributes no new cumulative concept.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+58 questions / +58 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4652 | 4371 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **44 selected inventory paths / 44 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `fb02004180808870a1d0fdd4bd2b60e501cca2ddb24d87cfcbb9ee022e6d7790`. Pinned triage debt becomes **nine substantive-text / five sparse-text / 30 empty-text** rows, and unique-hash accounting is **`62 + 44 = 106`**.
+
+The next evidence-ranked `05 MCQs` source is the two-page, answer-labelled Physiology path `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - [Answers] Blood Must.pdf`, SHA-256 `d738a7058cf60ce6456496a9d92ff33842e5cfd27693963a85079a2615ce151d`.
+
+**BLOCKED — S1 cannot be approved:** 44 selected source paths remain untriaged.
