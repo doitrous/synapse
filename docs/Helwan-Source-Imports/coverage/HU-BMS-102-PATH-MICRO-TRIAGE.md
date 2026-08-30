@@ -13164,3 +13164,155 @@ unprocessed manifest record is tier-6 non-preferred name twin `src_f660b7c9959ce
 links it to preferred twin `src_4823964a3f81b3b2ecbb`. Its exact carrier/twin reuse, visible Dr
 Ahmed Hassan prompt/key convention, metadata-production caution, and complete assessment
 boundary are the exact next-source blockers.
+
+## Family 125 — Dr Ahmed Hassan keyed Introduction and Cell Injury MCQ bank
+
+### Source identity, manifest twin adjudication, complete render boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 non-preferred name twin `src_f660b7c9959ce8d1cde0` · `introducTION.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `f660b7c9959ce8d1cde0caf723b319815e8c49955d5fc5213607077dcb5e5bd4` · 660,346 bytes |
+| Format / complete visual boundary | Eleven native-text portrait US-letter pages (612×792 points). All 11 pages were rendered at 150 dpi into 11 non-empty 1275×1650-pixel images and read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent layout extraction contains 1,763 words / 20,548 bytes and raw extraction contains 1,761 words / 10,605 bytes. Both agree with the full rendered table, option sets, page breaks, numbering gaps, and right-column key letters. The manifest's `native` label is accurate. |
+| Visible provenance | Every page visibly prints `Pathology`, `MCQs`, and `DR. Ahmed Hassan`; page 1 adds `Introduction & cell injury`. This establishes instructor/keyed-study-bank provenance. No university, faculty, module code, academic year, exam date, sitting, duration, marks, or candidate instructions are visible. |
+| Metadata caution | Metadata title is `Microsoft Word - MCQs Introduction.docx`; the author field is blank; Microsoft Print to PDF is producer; creation/modification timestamps are 5 March 2026. These are file-production fields, not evidence of academic year, assessment date, sitting, or official-key status. |
+| Manifest twin link | The manifest links this object to preferred tier-5 `src_4823964a3f81b3b2ecbb`, SHA `4823964a3f81b3b2ecbb48619c7f5076f623934198864da2befc32347264be81`, a 37-page `Introduction to pathology (Virtual Lab)` practical prelab visibly credited to Dr Enas Megahed Elhosary/Helwan. The preferred carrier is absent from the local corpus copy, but its manifest hash, page count, path, category, visible snippet, and instructor/topic framing all differ from this 11-page Ahmed Hassan keyed MCQ table. The link is therefore a name-family relation, not a byte/content duplicate, and cannot zero or transfer this source's assessment counts. |
+| Authority | Local tier-6 instructor MCQ study bank with a stable printed letter-key column. It is auxiliary keyed-question evidence, not an authenticated exam or official departmental key. |
+
+### Page-first prompt, key, copy, practical, and corruption boundary
+
+| Page | Visible numbered prompts | Prompt / printed-key ruling |
+|---:|---|---:|
+| 1 | Q1–Q6: frozen section, routine stain, prognosis, pathology scope, and cell-injury causes | **6 / 6**; Q6 continues on p.2. |
+| 2 | Q7–Q11 and Q13: hyperplasia, metaplasia, specimen processing, bronchial change, hypertrophy | **6 / 6**; source numbering omits Q12. |
+| 3 | Q14–Q19: hypertrophy, early injury, myocardial/signetring fatty change | **6 / 6**; Q15 is an exact Q13 copy. |
+| 4 | Q20–Q25: fatty-change morphology, reversible/irreversible injury, necrosis, calcification, Russell bodies | **6 / 6**. |
+| 5 | Q26–Q31: hyaline/amyloid and dystrophic/metastatic calcification | **6 / 6**; Q31 continues on p.6. |
+| 6 | Q32–Q37: calcification, primary haemochromatosis, amyloidosis | **6 / 6**. |
+| 7 | Q38–Q43: amyloid morphology, gout, calcification, melanin | **6 / 6**. |
+| 8 | Q44–Q46 and Q48–Q50: haemosiderosis, metastatic calcification, hyaline/Russell bodies, repeated injury item | **6 / 6**; source numbering omits Q47. |
+| 9 | Q51–Q56: three repeated injury/necrosis items, prognosis, frozen section, TB, cloudy swelling | **6 / 6**; Q56 continues on p.10. |
+| 10 | Q57–Q61: cerebral infarct, tiger heart, necrotic-cell appearance, necrosis contrast, SLE | **5 / 5**; Q61 continues on p.11. |
+| 11 | Q62: sulphur-containing pigment identification | **1 / 1**. |
+
+The stable answer convention is the isolated capital letter in the pale right-hand column aligned
+to each prompt row. Bold option text is formatting, not the key: for example Q35 bolds `All of
+the above` while the key column prints `C`. All **60** numbered prompt occurrences therefore
+have **60** printed study-key occurrences. Keys are preserved without medical repair. Notable
+source conflicts/corruptions include Q44's `D` against Family 9's `E` for the same brain-sparing
+item, Q49's stray `Scar` and key `B`, Q50's `C` against its exact Q21 copy's `D`, Q56's
+unlabelled `smooth endoplasmic reticulum` line in a malformed option block, and the printed Q59/
+Q62 letters. None is silently corrected.
+
+Four literal copies are excluded from retention: Q15→Q13, Q50→Q21 (conflicting copied key
+preserved), Q51→Q22, and Q52→Q23. Altered option-set variants such as Q24/Q31/Q32/Q34,
+Q25/Q48, and Q3/Q53 remain retained records and then collapse semantically. Thus **60 - 4 = 56
+retained records**. Fourteen within-source semantic reductions yield **42 source-distinct tested
+handles**: frozen-section and prognosis pairs; hypertrophy-definition and myocardial-fatty-change
+pairs; the seven-record dystrophic-calcification cluster; Russell-body, hyaline-definition,
+amyloid-definition, and metastatic-calcification pairs.
+
+There are no written prompts, completion blanks, student responses, image-identification tasks,
+practical stations, or prompt-like residues. Page continuations, omitted numbers 12/47, the Q49
+word `Scar`, and Q56's malformed option layout are source corruptions inside assigned MCQ rows,
+not additional prompts.
+
+### Source-first 42-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 42 handles received exactly four fresh searches across live state, pending import roots, and
+prior BMS-102 Families 1–124: **168 required and completed searches**.
+
+| Ref(s) / handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| Q1,Q54 · `frozen-section-rapid-intraoperative-diagnosis` | `rapid intraoperative diagnosis frozen section`; `frozen section pathology consultation`; `cryostat rapid diagnosis`; `intraoperative pathology technique` | no same-scope | exact F98 reuse |
+| Q2 · `hematoxylin-eosin-routine-pathology-stain` | `routine stain pathology slide H E`; `hematoxylin eosin standard stain`; `ordinary pathological slide stain`; `H and E routine histology` | no same-scope | none; delta |
+| Q3,Q53 · `prognosis-disease-course-forecast-definition` | `prognosis forecast disease course`; `prognosis definition pathology`; `forecast course of disease`; `prognosis versus diagnosis meaning` | no same-scope | completed prior teaching only; delta |
+| Q4 · `pathology-study-disease-at-cell-level` | `pathology science study disease cells`; `pathology deals with diseases of cells`; `cellular basis pathology definition`; `pathology study structural cellular disease` | no same-scope | none; delta |
+| Q5 · `hypoxia-most-common-cell-injury-cause` | `most common cause cell injury hypoxia`; `hypoxia common cellular injury cause`; `leading cause of cell injury`; `oxygen deprivation cell injury common` | pending `CON-FND-8989A49BEBCF14`; cause list supports hypoxia | prior F1 cause enumeration lacks the most-common relation; delta |
+| Q6 · `cell-injury-causes-exception-endogenous-hormones` | `cell injury causes endogenous hormones exception`; `causes cellular injury hypoxia trauma radiation genetics`; `endogenous hormones cell injury cause`; `cell injury etiology exception` | pending `CON-FND-8989A49BEBCF14`; exact cause/non-cause set | exact F1 causes-of-cell-injury reuse |
+| Q7 · `hyperplasia-increased-cell-number-definition` | `hyperplasia increased cell number definition`; `increase number cellular elements`; `organ enlargement cell number`; `adaptive proliferation hyperplasia` | pending `CON-FND-022049C93C4CD0`; exact | exact F2 reuse |
+| Q8 · `metaplasia-adult-cell-type-substitution-definition` | `metaplasia adult cell type replaced definition`; `change one adult cell type another`; `metaplasia definition pathology`; `cellular adaptation substitution mature cells` | pending `CON-FND-5AD09BF9FC2420`; general definition | no prior tested definition; delta |
+| Q9 · `histology-specimen-preparation-third-step-processing` | `specimen preparation third step processing`; `sampling gross examination processing staining order`; `histopathology specimen sequence`; `tissue preparation processing order` | no same-scope | completed workflow teaching only; delta |
+| Q10 · `chronic-irritation-metaplasia-association` | `metaplasia chronic irritation association`; `chronic irritation causes metaplasia`; `persistent irritation adaptive cell change`; `metaplasia stimulus chronic injury` | pending `CON-FND-5AD09BF9FC2420`; mechanism/cause relation | prior smoking handle is narrower; delta |
+| Q11 · `bronchial-squamous-metaplasia-identification` | `bronchus keratinizing squamous epithelium metaplasia`; `bronchial squamous metaplasia identification`; `smoking respiratory squamous metaplasia`; `columnar to squamous bronchus` | no same-scope | exact F98 reuse |
+| Q13,Q14,Q15 · `hypertrophy-increased-cell-size-definition` | `hypertrophy increased cell size definition`; `organ enlargement individual cell size`; `cellular hypertrophy meaning`; `hypertrophy versus hyperplasia size` | no same-scope | prior cardiac restriction handle is narrower; delta |
+| Q16 · `hypertrophy-increased-workload-association` | `hypertrophy increased workload`; `workload causes cellular hypertrophy`; `pressure overload adaptive hypertrophy`; `functional demand cell enlargement` | no same-scope | none; delta |
+| Q17 · `cloudy-swelling-earliest-cell-injury` | `earliest cell injury cloudy swelling`; `cloudy swelling earliest reversible change`; `initial morphologic cell injury`; `early cellular swelling degeneration` | pending `CON-FND-2DDF56DA42A0A8`; early reversible morphology | prior cloudy handles test mechanism/morphology, not earliest rank; delta |
+| Q18,Q58 · `anemia-tiger-heart-fatty-change` | `anemia myocardium tiger heart fatty change`; `yellow myocardium patchy fatty change`; `tiger heart pathology`; `anemic heart fatty degeneration` | no same-scope | none; delta |
+| Q19 · `signet-ring-cell-fatty-change` | `signet ring appearance fatty change`; `fat vacuole signet ring hepatocyte`; `steatosis signet ring cells`; `fatty degeneration peripheral nucleus` | no same-scope | exact atomic morphology within F92 case handle |
+| Q20 · `fatty-change-yellow-greasy-gross` | `fatty change yellow greasy organ`; `steatosis gross yellow greasy`; `fatty liver cut surface greasy`; `gross morphology fatty degeneration` | pending `CON-FND-3B89025E2FB4E0` plus `CON-FND-70554B38361679` | exact F2 fatty-change-characteristics reuse |
+| Q21,Q50 · `lipase-irreversible-cell-injury` | `lipase enzyme irreversible cell injury`; `enzymatic fat necrosis lipase`; `lipase causes irreversible injury`; `pancreatic enzyme cell death` | pending `CON-FND-6626C19B61A23B`; lipase/fat-necrosis mechanism | F73/F86 pancreatitis setting is related but not this agent exception; delta |
+| Q22,Q51 · `necrosis-irreversible-vs-reversible-change` | `necrosis exception reversible change`; `reversible cell injury excludes necrosis`; `necrosis irreversible cell injury`; `cloudy swelling mucoid reversible` | no single same-scope external record | exact F2/F73 reversible-versus-irreversible reuse |
+| Q23,Q52 · `coagulative-necrosis-most-common-pattern` | `most common morphological pattern cell death coagulative`; `coagulative most common necrosis`; `common pattern of necrosis`; `coagulative cell death frequency` | pending `CON-FND-5285A9707E61CA`; morphology but not frequency | prior morphology handle omits prevalence; delta |
+| Q24,Q29,Q31,Q32,Q34,Q40,Q49 · `dystrophic-calcification-characteristics-examples` | `dystrophic calcification examples`; `normal serum calcium damaged tissue`; `primary hyperparathyroidism dystrophic exception`; `psammoma bodies meningioma calcification` | pending `CON-FND-33466CEBFC4EBA`; exact, with live psammoma support | exact F9/F2 reuse |
+| Q25,Q48 · `russell-bodies-intracellular-hyaline` | `Russell bodies hyaline change`; `plasma cell immunoglobulin inclusion`; `intracellular hyalinosis example`; `rhinoscleroma Russell bodies` | pending `CON-FND-5CB8B822A9A6AF`; exact | exact F9 reuse |
+| Q26,Q46 · `hyaline-change-definition` | `hyaline change definition`; `homogeneous glassy pink material`; `hyalinosis definition`; `intracellular extracellular hyaline` | pending `CON-FND-5CB8B822A9A6AF`; exact | exact F9 reuse |
+| Q27 · `arteriolar-hyaline-benign-hypertension` | `arteriolar hyaline benign hypertension`; `hyaline arteriolosclerosis`; `plasma protein basement membrane arterioles`; `hypertension arteriolar hyalinosis` | pending `CON-FND-5CB8B822A9A6AF`; exact | exact F9 reuse |
+| Q28,Q37 · `amyloidosis-extracellular-fibrillary-definition` | `amyloidosis extracellular fibrillary protein`; `amyloid definition vessel walls`; `abnormal proteinaceous deposit tissues organs`; `amyloid intracellular exception` | pending `CON-FND-D955408D228002`; exact | exact F9/F2 reuse |
+| Q30,Q45 · `metastatic-calcification-viable-tissue-hypercalcaemia` | `metastatic calcification viable tissue hypercalcaemia`; `multiple organ calcification high calcium`; `dystrophic versus metastatic calcification`; `bony metastases metastatic calcification` | pending `CON-FND-87392C49DB246C`; exact | exact F9/F2 reuse |
+| Q33 · `hyperparathyroidism-metastatic-calcification` | `hyperparathyroidism metastatic calcification`; `PTH hypercalcaemia calcium deposition`; `metastatic calcification endocrine cause`; `parathyroid tumour calcification viable tissue` | pending `CON-FND-87392C49DB246C`; exact | exact F9 reuse |
+| Q35 · `primary-hemochromatosis-chromosome-six` | `primary hemochromatosis chromosome 6`; `bronzed diabetes inborn iron absorption`; `hereditary haemochromatosis gene defect`; `primary iron overload congenital` | pending `CON-FND-B9A3C8B28B1443`; exact | exact F9 reuse |
+| Q36 · `primary-hemochromatosis-clinical-features` | `primary hemochromatosis clinical features`; `bronze skin cirrhosis diabetes`; `hemolysis exception hemochromatosis`; `iron overload organ manifestations` | pending `CON-FND-B9A3C8B28B1443`; exact | exact F9 reuse |
+| Q38 · `amyloid-organ-gross-morphology` | `amyloid organ gross morphology`; `amyloidosis enlarged pale waxy organ`; `stretched capsule amyloid deposition`; `amyloid cut surface bulging exception` | no same-scope | exact F9 reuse |
+| Q39 · `purine-hyperuricemia-disease-identification` | `purine metabolism hyperuricemia disease`; `increased serum uric acid gout`; `nucleoprotein metabolism urate`; `gout biochemical definition` | no same-scope | exact F9 reuse; source keys differ in presentation only |
+| Q41 · `hypercalcemia-causes-hypovitaminosis-d-exception` | `hypercalcemia causes hypovitaminosis D exception`; `causes of hypercalcaemia`; `vitamin D deficiency serum calcium`; `milk alkali immobilisation hypercalcemia` | pending `CON-FND-87392C49DB246C`; exact | exact F9 reuse |
+| Q42 · `metastatic-calcification-deposition-sites` | `metastatic calcification deposition sites`; `gastric fundus lung kidney arteries calcium`; `fibrosed cardiac valves calcification exception`; `metastatic calcium renal tubules alveolar walls` | pending `CON-FND-87392C49DB246C`; exact | exact F9 reuse |
+| Q43 · `melanin-hyperpigmentation-causes` | `melanin hyperpigmentation causes`; `Addison chloasma sun pigmentation`; `vitiligo hyperpigmentation exception`; `causes increased melanin pigment` | pending `CON-FND-AA9A76DBB4EE6B`; exact | exact F9 reuse |
+| Q44 · `primary-hemosiderosis-brain-sparing` | `primary hemosiderosis brain sparing`; `iron overload organ least likely brain`; `hemochromatosis deposition liver pancreas heart skin`; `generalized hemosiderosis organ distribution` | no same-scope | exact F9 prompt reuse; conflicting present key retained |
+| Q55 · `tuberculosis-caseation-necrosis-type` | `tuberculosis caseation necrosis`; `TB necrosis type`; `caseating granuloma tuberculosis`; `tuberculous caseous necrosis` | pending `CON-FND-5B3B6BA12670C7`; exact | exact F7/F73 reuse |
+| Q56 · `cloudy-swelling-organelle-source-key` | `cloudy swelling cellular organelle`; `cloudy swelling smooth endoplasmic reticulum Golgi`; `organelle pathogenesis cloudy degeneration`; `cell swelling organelle injury` | no same-scope | malformed source-specific option/key scope; delta |
+| Q57 · `cerebral-infarct-liquefactive-necrosis` | `liquefactive necrosis CNS infarct`; `brain infarct cystic liquefaction`; `cerebral infarction liquefactive necrosis`; `stroke necrosis type` | pending `CON-FND-88508ABAB84A67`; exact | exact F73 reuse |
+| Q59 · `necrotic-cell-homogeneity-source-explanation` | `necrotic cells appear homogeneous`; `necrosis loss glycoproteins cytoplasm`; `homogeneous eosinophilic necrotic cytoplasm`; `necrotic cell homogeneity mechanism` | no same-scope | none; questionable source key preserved; delta |
+| Q60 · `liquefactive-vs-caseous-solid-debris` | `liquefactive versus caseous solid debris`; `caseous necrosis solid nature`; `liquefactive caseous difference`; `necrosis debris consistency comparison` | no same-scope | prior pattern/site handles do not test this contrast; delta |
+| Q61 · `sle-fibrinoid-necrosis` | `SLE fibrinoid necrosis`; `systemic lupus necrosis type`; `immune complex fibrinoid vessel injury`; `fibrinoid necrosis lupus` | pending `CON-FND-BA0739479AD0FC`; immune vascular injury | prior PAN/general-vasculitis handles are not SLE-specific; delta |
+| Q62 · `sulfur-containing-pigment-source-identification` | `sulfur containing pigment pale yellow brown`; `melanin sulfur pigment`; `sulphur containing pathological pigment`; `pigment chemical composition sulfur` | no same-scope | F2 pigment umbrella is broader; source key preserved; delta |
+
+External disposition is **0 live / 24 pending / 18 no same-scope**. Exactly **24** handles are
+prior-BMS exact reuses: frozen section; cell-injury cause membership; hyperplasia; bronchial
+metaplasia; signet-ring and gross fatty change; reversible/irreversible injury; the 15 Family-9
+accumulation/calcification handles; TB caseation; and cerebral-infarct liquefaction. Family 125
+therefore adds `42 - 24 = 18` concepts.
+
+### Family-125 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 125 | Auxiliary cumulative (Families 12–125) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 60 | 1,088 | 765 | 1,853 |
+| Printed study-key occurrences | 60 | 668 | 405 | 1,073 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 56 | 1,024 | 552 | 1,576 |
+| Source-distinct tested handles / required searches | 42 / 168 | 908 / — | — | — |
+| External live / pending / no same-scope | 0 / 24 / 18 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 24 | — | — | subtract before concept addition |
+| Cross-family concept delta | +18 | +584 over primary | 372 | `372 + 584 = 956` |
+| **Distinct tested concepts** | **+18** | **584 auxiliary additions** | **372** | **956** |
+
+The checksum closes: `9 pages × 6 starts + 5 on p.10 + 1 on p.11 = 60` prompts; all 60
+have printed key cells; `60 - 4 exact copies = 56` retained records; `56 - 14 semantic
+reductions = 42` handles; searches are `42 × 4 = 168`; external disposition is `0 + 24 +
+18 = 42`; and concept arithmetic is `42 - 24 prior exact reuses = 18`. Auxiliary cumulative
+arithmetic is `1,028 + 60 = 1,088` prompts, `608 + 60 = 668` answers, `968 + 56 = 1,024`
+retained records, `866 + 42 = 908` handles, and `566 + 18 = 584` concept additions. All
+eligible arithmetic is `765 + 1,088 = 1,853`, `405 + 668 = 1,073`, `552 + 1,024 = 1,576`,
+and `372 + 584 = 956`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,088 / 668 / 1,024 / 908 / +584**; and all eligible evidence is
+**1,853 / 1,073 / 1,576 / 956**. Family 125 is auxiliary instructor-keyed study-bank evidence
+only. It cannot establish an official exam, dated sitting, recurrence, mark weight, student
+response, readiness, or claims status.
+
+### Exact next debt after Family 125
+
+`src_f660b7c9959ce8d1cde0` is exhausted across all 11 pages: every visible prompt, key cell,
+numbering gap, page continuation, copy, key conflict, malformed option block, retained record,
+tested handle, required search, prior reuse, twin-link limitation, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-125 blocker. The exact next unprocessed
+manifest record is tier-6 `src_a96c67108d278d933d5b` · `neoplasia 1 (1).pdf`, SHA-256
+`a96c67108d278d933d5b1329ecbe32ecccf4f72c5ecb9037beea578ab8dfc27e`, 16,339,993 bytes,
+10 native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its visible
+`PATHOLOSIS`/neoplasia teaching provenance versus Canva/Bassem Ahmed metadata, complete
+teaching/prompt/key/practical boundary, and prior-neoplasia reuse are the exact next-source
+blockers.
