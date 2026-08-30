@@ -18582,3 +18582,87 @@ under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassifie
 entire oversized canvas is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 56 tier-6/rank-9 path debts remain. No download, source edit, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 175 — Tier-6 oversized lower-limb regional-anatomy revision canvas
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_cb2011e7cbf91568cb9d` / `cb2011e7cbf91568cb9db2670b48547630c0b82f3d364febf92ab58b054797bf` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/Oversized Pages-1.pdf` |
+| Physical verification | **6,505,456 bytes; one OCR-needed oversized page; 2,804 × 2,553 pt; untagged; unencrypted; PDF 1.4**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | The centre title is `anatomy revision`; four handwritten sections and their supplied diagrams cover named lower-limb regions. A stylized lower-left signature is not reliably legible and is not promoted to author identity. Metadata records only iOS 26.5 Quartz PDFContext and 18 May 2026 creation/modification; no institution, module, lecturer, cohort or examination sitting is printed. |
+| Authority finding | Manifest-placed tier-6 local revision-note evidence with unrecoverable individual authorship. It is not a recoverable sitting, official lecture, response form, practical station or answer key. |
+
+The complete single canvas was rendered at **120 dpi to 4,674 × 4,255 pixels**, visually read
+as a whole and then inspected in four overlapping full-resolution quadrants with OCR support;
+the PDF has no substantive native text layer. The physical composition is exactly four
+dashed-section teaching maps:
+
+| Canvas section | Complete supplied content | Assessment / practical boundary |
+|---|---|---|
+| upper left — `Popliteal Fossa` | floor from superior to inferior, four borders, popliteal vessels, tibial/common-fibular nerves, one fully labelled regional diagram and a supplied depth-order note | completed teaching map; no response instruction or hidden label |
+| upper right — `Adductor Canal` | anteromedial/anterolateral/posterior walls, femoral vessels, descending genicular artery, saphenous nerve and nerve to vastus medialis, plus supplied labelled diagrams and mnemonic note | completed teaching map |
+| lower left — `Femoral Sheath` | lateral artery, intermediate vein and medial femoral-canal compartments, canal lymphatic contents, femoral nerve outside the sheath, plus a supplied labelled diagram | completed teaching map |
+| lower right — `Femoral triangle` | base, medial/lateral boundaries, apex, floor, `VAN` contents, `AIPSI` floor mnemonic and supplied labelled boundary diagram | completed teaching map |
+
+The exact physical boundary is therefore **4 completed theoretical teaching compositions / 0
+eligible or external assessment prompts / 0 written or MCQ prompts / 0 keys-or-answers / 0
+unkeyed prompts**. Colons, arrows, mnemonic letters and Arabic side notes introduce or annotate
+already supplied information; none creates a response task. Every embedded anatomical image
+is fully labelled and illustrative. There is no specimen, model-identification instruction,
+masked label, numbered callout, station wording or answer blank. Practical delta is exactly
+**0 practical or station prompts / 0 teaching plates / 0 mappings / 0 unresolved residues / 0
+practical keys / 0 practical scopes**.
+
+Source states remain uncorrected evidence, including `From above to downwards`, `back of
+capsule of knee joint`, `Fascia Covering the Poplitius muscle`, the handwritten abbreviations
+and ditto marks, `inter mediate`, `empty`, the mixed-language notes, the `VAN` and `AIPSI`
+mnemonics, and the note that the femoral ring is not currently required. No anatomical repair
+or interpretation creates an additional handle.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+| Teaching handle / canvas section | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `popliteal-fossa-floor-borders-contents-and-depth-order` | popliteal fossa floor borders contents; popliteal surface femur knee capsule popliteus fascia; popliteal artery vein tibial common fibular; popliteal fossa anatomy | Exact accepted Families 1, 6, 33 and 42 own the regional floor/border/content scope — prior-LCS reuse. |
+| `adductor-canal-walls-contents-and-neurovascular-relations` | adductor canal walls contents; sartorius vastus medialis adductor longus magnus; femoral vessels saphenous nerve nerve to vastus medialis; adductor canal anatomy | Pending regional material and exact accepted Families 1, 5, 20 and 41 own the complete canal scope — prior-LCS reuse. |
+| `femoral-sheath-three-compartments-canal-and-nerve-relation` | femoral sheath compartments; femoral artery vein canal sheath; femoral nerve outside femoral sheath; femoral sheath anatomy | Pending regional material and exact accepted Families 1, 2, 20 and 39 own the complete sheath/canal scope — prior-LCS reuse. |
+| `femoral-triangle-boundaries-floor-and-van-contents` | femoral triangle boundaries floor contents; inguinal ligament sartorius adductor longus; iliacus psoas pectineus adductor longus; femoral triangle anatomy VAN | Pending regional material and exact accepted Families 1, 2, 20 and 39 own the complete triangle scope — prior-LCS reuse. |
+
+Each of the **four accepted teaching handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **4 × 4 = 16 required search invocations**. Broad component hits do not
+supersede exact prior-module ownership. Final disposition is **4 prior-LCS theoretical-teaching
+reuses / 0 additive live / 0 additive pending / 0 additive new scopes**. There is no assessment
+or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,077 observed questions / 707 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This source hash occurs once in Family 174's remainder. Removing its sole path changes the
+all-rank remainder from **56 paths / 53 unique hashes** to **55 paths / 52 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **41 paths / 41 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 174's prior checksums are
+`97e3c23d7388918ec488f5bf395541b5562d8dfded29061789ffdf556345fd00` (paths) and
+`33319673762d864da7ff1adabb0ff6a5c4cd0f1b8ab3d7a04df70f9d906eb8ab` (unique hashes).
+For the exact post-Family-175 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`55523771aeffad48cdc04120778b050c17c85fb04f85ccdcc7efc42459b5e99b`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`f4eff72cb1839843ec9e9397f1621d9a8b1d3a262a547652786476ffae2e9dbc`.
+
+The exact next manifest-order debt is tier-6 `src_00ec490d3c55b87835f5`,
+`Popliteal fossa.pdf` (581,094 bytes; 7 native-text landscape-A4 pages; unencrypted; 841.92 ×
+595.32 pt; SHA-256 `00ec490d3c55b87835f52ee61b8e046c467ee141e8a96f9d95b9afd8fed11959`)
+under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every
+page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 55
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
