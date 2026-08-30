@@ -20677,3 +20677,88 @@ Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**; m
 and records 8 March 2025. Its complete visible authority/date boundary, teaching/case/prompt/key/
 callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 197 — Enas Elhosary Inflammation 1 teaching carrier
+
+### Source identity, complete render/native boundary, visible authority, and date caution
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_eaea111707b57559a904` · `Inflammation-lecture-1.pdf` under the exact local `Pathology / Theoretical / Lec 5 - Inflammation 1` folder |
+| SHA-256 / exact size | `eaea111707b57559a9042fc7c7fcd737cfbf326a5bf28fba026252566575fdc7` · **2,705,210 bytes** |
+| Format / complete read | **37 native-text 960×540-point landscape pages**. All 37 pages were rendered into 37 non-empty 2000×1125-pixel images and read individually at original detail. Native extraction contains **766 words / 7,298 bytes** and agrees with every visible cover field, objective, teaching statement, completed diagram/table, image label, callout, and closing slide. |
+| Visible authority | Page 1 visibly identifies `Inflammation (1)`, **Dr Enas Megahed Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**. This source-facing attribution and exact BMS-102 theoretical placement establish Helwan teaching authority. No page visibly prints a module code, academic year, lecture date, or assessment sitting. |
+| Metadata caution | Metadata title is `PowerPoint Presentation`; author is `fmt`; creator/producer is Microsoft PowerPoint LTSC; and creation/modification is 8 March 2025. These fields are retained as carrier history only. They do not override visible Enas Elhosary authorship or independently authenticate a teaching year or exam sitting. |
+| Authority | Tier-4 Helwan theoretical teaching material. It is neither an assessment instrument nor an official answer key, mark scheme, candidate response, or authenticated practical station. |
+
+### Complete page-first teaching, case, prompt, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–2 | Lecture cover, instructor/Helwan attribution, and objectives/ILOs | Provenance and teaching objectives. The verbs `Analyze and solve case studies`, `Predict`, and `Correlate` state intended learning outcomes; they do not supply a present case, response control, or learner operation; **0 prompts / 0 answers / 0 practical**. |
+| 3–12 | Inflammation word origin, definition, aim, cardinal signs and completed mechanisms, causes, `itis` terminology, cellular components, acute/chronic comparison, and acute-inflammation overview | Declarative teaching and completed maps/tables; **0 / 0 / 0**. Page 4's embedded image heading `What Is Inflammation?` is answered immediately by the same slide's definition and has no response field; it is an excluded teaching callout. |
+| 13–22 | Vascular sequence, increased-permeability mechanisms, exudate formation/mechanism/functions, and completed transudate-versus-exudate comparison | Completed teaching, diagrams, and table; **0 / 0 / 0**. Page 21's graphic heading `What is the difference between transudates and exudates?` sits directly above its fully populated comparison and is an excluded in-place teaching callout, not a learner operation. |
+| 23–25 | Inflammatory-cell images and completed cell/activity/phagocytosis/inflammation table | Diagnosis-disclosing and labelled teaching plates; **0 / 0 / 0**. |
+| 26–34 | Leukocyte journey, margination/rolling/adhesion/transmigration, chemotaxis, phagocytosis, bacterial killing, and inflammatory mediators | Declarative mechanisms, completed diagrams, and labels; **0 / 0 / 0**. |
+| 35–36 | Acute-inflammation outcomes and complete event sequence through resolution, scar, or chronic inflammation | Completed teaching synthesis; **0 / 0 / 0**. |
+| 37 | `Thank You` terminal slide | Closing residue only; **0 / 0 / 0**. |
+
+There is no exam heading, candidate instruction, option set, unanswered blank, written exercise,
+case stem, answer register, station label, time, marks, concealed diagnosis, image-identification
+request, or student response anywhere in the carrier. The two visible question-form headings are
+answered immediately in place and leave no response area. All objective verbs, definitions,
+tables, diagrams, labels, and images remain teaching evidence.
+
+The complete boundary is therefore **0 raw prompt occurrences, 0 source-supplied answers, 0
+unkeyed operations, 0 retained question records, 0 accepted handles, 0 image prompts, 0 drawing
+tasks, and 0 practical stations**.
+
+### Prior-BMS teaching relation and governed zero-search gate
+
+The carrier revisits already governed inflammation teaching—definitions, causes, cardinal signs,
+vascular permeability, exudate/transudate, leukocyte recruitment, phagocytosis, mediators, and
+outcomes—but it contains no present assessment operation. Teaching overlap cannot create a tested
+handle or recurrence assignment. Family 197 therefore yields **0 accepted handles / 0 prior-BMS
+reuse assignments / +0 concepts**.
+
+Exactly four searches are required only per accepted handle, so the source-first gate is **`0
+accepted handles × 4 = 0 required and completed searches`**. No packet is fabricated for an
+objective, answered callout, completed table, labelled image, or mechanism diagram.
+
+### Family-197 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 197 source-local / eligible delta | Auxiliary cumulative (Families 12–197) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 / +0 | 2,562 | 762 | 3,324 |
+| Source-supplied answers | 0 / +0 | 1,672 | 405 | 2,077 |
+| Retained question records | 0 / +0 | 2,270 | 552 | 2,822 |
+| Accepted handles / required searches | 0 / 0 | 2,052 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | — |
+| Cross-family concept delta | +0 | +973 over primary | 372 | 1,345 |
+| **Distinct tested concepts** | **0 source-local / +0** | **973 additions** | **372** | **1,345** |
+
+Checksums: `0 prompts`; `0 answers`; `0 retained`; `0 handles`; `0 × 4 = 0 searches`; and `0 -
+0 = +0 concepts`. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **2,562 prompts
+/ 1,672 answers / 2,270 retained / 2,052 handles / +973 concepts**. All eligible remains **3,324
+/ 2,077 / 2,822 / 1,345**.
+
+Family 197 establishes Helwan theoretical teaching only, not an exam sitting, official
+departmental key, tested recurrence, mark weight, candidate response, authenticated practical
+station, readiness, or claims status.
+
+### Exact next debt after Family 197
+
+`src_eaea111707b57559a904` is exhausted across all 37 pages: every visible authority and metadata
+field, objective, teaching statement, definition, completed table/diagram, labelled image,
+question-form teaching callout, closing residue, prior-teaching relation, zero-search term, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-197 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_11e4f2b9f8bdbdb51806` ·
+`main-stream-circulatory-2-2026.pdf`, SHA-256
+`11e4f2b9f8bdbdb518061fd414e2d0fd6f3be1166694721c57daa4802bcb100f`, **2,907,302 bytes**,
+**82 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 6 - Circulation
+2`. Its first visible pages identify Academic Year 2025/2026, Year 1, Semester 2, BMS-102,
+**Nahed Soliman**, Ass. Prof. of Pathology and Head of Pathology Department, and **7 March 2026**;
+metadata names Nitro Pro 12 and records the same date. Its complete authority/date boundary,
+teaching/prompt/key/callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
