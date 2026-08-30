@@ -17443,3 +17443,117 @@ The exact next manifest-order debt is tier-6 `src_79b5752c4d6f23e6dafc`,
 are read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 68 tier-6/rank-9 path
 debts remain. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 163 — Tier-6 authored LCS question bank with formal and handwritten key layers
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_79b5752c4d6f23e6dafc` / `79b5752c4d6f23e6dafc8c360427669b1f654797c1a7bd0eb7ed9b084825cc1a` |
+| File / boundary | `4_5960941546265122352.pdf` · 6,951,939 bytes · PDF 1.7 · unencrypted · 37 physical native-text pages · 612 × 865.543 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/4_5960941546265122352.pdf` |
+| Visible provenance | P. 1 prints `LCS QUESTIONS BANK`, `Made by : Dr. Hebatallah Amin` and `Collected by : Eyad Ahmed & Eman Hefny`. Metadata records PDFium, iOS 18.5 Quartz and 22 June 2025 modification, but no institution, sitting, cohort or formal exam date. |
+| Authority finding | The visible LCS title and named author establish direct module question-bank evidence. It is eligible course-bank/self-assessment evidence under the standing lane, below a recoverable Helwan sitting and not an official examination paper. |
+
+The assigned SHA-256, byte size, 37-page count and page geometry were recomputed and match.
+All 37 pages were rendered at 90 dpi, inspected individually and in four contact sheets, and
+read against the complete native text layer. No page is missing, encrypted, interactive or
+duplicated.
+
+P. 1 is the title/provenance page. Pages 2–34 contain **77 MCQ prompt occurrences**, numbered
+Q1–Q77 without a gap; every occurrence has five source options and one large red handwritten
+answer letter. Pages 35–37 print a formal `KEY ANSWERS` list covering Q1–24, Q25–50 and
+Q51–77 respectively, yielding **77 directly printed formal key entries**. There are **0
+written prompts / 0 unkeyed prompt occurrences**. The MCQs use textual clinical, laboratory,
+radiologic, gross and microscopic descriptions only: there is no actual radiograph, specimen,
+photomicrograph, trace, label target or station response field. The separate practical boundary
+is therefore **0 practical/station prompts / 0 practical teaching plates / 0 practical
+mappings / 0 masked-or-unresolved practical residues / 0 practical assessment keys**.
+
+### Exact occurrence, key-layer and internal-collapse inventory
+
+| Physical pages | Source boundary | Prompt occurrences | Formal key entries | Red answer marks |
+|---:|---|---:|---:|---:|
+| 2–12 | Q1–Q27 | 27 MCQs | 0 on these pages | 27 |
+| 13–23 | Q28–Q53 | 26 MCQs | 0 on these pages | 26 |
+| 24–34 | Q54–Q77 | 24 MCQs | 0 on these pages | 24 |
+| 35 | formal key Q1–Q24 | 0 | 24 | 0 |
+| 36 | formal key Q25–Q50 | 0 | 26 | 0 |
+| 37 | formal key Q51–Q77 | 0 | 27 | 0 |
+| **Total** | **complete source assessment boundary** | **77** | **77** | **77** |
+
+The two key layers agree for **63/77 prompts**. They conflict for the following 14, and both
+source states are preserved without medical repair: **Q3 formal A / red E; Q9 B / D; Q20 C /
+A; Q34 E / C; Q41 E / B; Q42 B / D; Q45 C / A; Q46 A / C; Q51 B / A; Q55 A / C;
+Q59 E / C; Q66 A / B; Q73 C / A; Q75 B / D**. Q73 has an additional internal formal-key
+text anomaly: option C prints `t(11;14)`, while the formal key labels C but transcribes
+`t(14;11)`. The keyed-question total is 77, not 154: each prompt has key evidence, while the
+formal and handwritten forms are parallel evidence layers rather than separate prompt keys.
+
+Nine exact same-scope clusters collapse 23 prompt occurrences to nine handles:
+
+| Same-scope prompt cluster | Collapsed handle |
+|---|---|
+| Q5, Q21, Q30, Q47 | multiple-myeloma clinicopathologic diagnosis |
+| Q6, Q72 | osteoid-osteoma clinicoradiologic identification |
+| Q22, Q39, Q48 | gout-associated hyperuricaemia |
+| Q23, Q37 | osteoporosis/fragility-fracture diagnosis |
+| Q25, Q33, Q43, Q56 | osteoarthritis clinical-radiologic diagnosis |
+| Q42, Q64 | carpal-tunnel-syndrome clinical diagnosis |
+| Q54, Q59 | rheumatoid-arthritis clinical diagnosis |
+| Q60, Q63 | gout clinicopathologic diagnosis |
+| Q66, Q70 | Phalen test for carpal-tunnel confirmation |
+
+The remaining 54 prompt occurrences each test a distinct source scope. Exact arithmetic is
+`77 = 23 clustered occurrences + 54 singleton occurrences`, `63 handles = 9 clustered
+handles + 54 singleton handles`, and `77 - 14 within-source repeat reductions = 63`.
+
+### Four-surface searches and accepted-prior reconciliation
+
+Each of the **63 source handles** received exactly one search on each required surface: live
+state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger. That
+is **63 × 4 = 252 required search invocations**. The literal combined-phrase pass returned
+zero live and pending matches and two accepted-prior/direct source-import matches (the
+osteogenesis-imperfecta/type-I-collagen and sickle-cell/osteomyelitis handles). Phrase sparsity
+does not override semantic reconciliation: exact comparison against accepted Families 12,
+15–25, 50, 63–77 and the completed tier-3 question-bank families maps all 63 option-neutral
+tested scopes to accepted earlier LCS concepts.
+
+The final disposition is therefore **63 prior-LCS tested-concept reuses / 0 additive live /
+0 additive pending / 0 additive new concepts**. All 77 occurrences and their printed formal
+keys remain eligible records, but no tested concept is counted twice. Search and prior-match
+evidence never chooses between the 14 conflicting key layers.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment advances from **993 observed questions / 626 printed keys-or-answers /
+337 distinct tested concepts** by **+77 / +77 / +0** to **1,070 / 703 / 337 = 12 live /
+111 pending / 214 new**. Arithmetic checks are `993 + 77 = 1,070`, `626 + 77 = 703`,
+`337 + 0 = 337`, and `12 + 111 + 214 = 337`. The external-bank checkpoint remains **6,813
+external prompts / 6,547 source keys-or-answers / 221 external concepts = 12 live / 135
+pending / 74 new** because this visibly titled LCS bank is not moved into the external lane.
+
+Practical totals remain **20 prompts / 463 plates / 2,774 mappings / 149 residues / 13
+keys**, and practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 163's
+practical delta is exactly **+0 / +0 / +0 / +0 / +0**.
+
+This source hash occurs once in Family 162's remainder. Removing its sole path leaves **67
+all-rank path instances / 62 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **53 / 51**, and rank 9 **14 / 11**. Family 162's prior checksums are
+`3c79279574a06fdf532c85aca580c1dd70cfc3b7296de4acf84eb85b50483b4c` (paths) and
+`c57071ccf2b8b9a8472a10793cb355c11210de2dbf8728b5638810731226e9e5` (unique hashes).
+For the exact post-Family-163 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`52b11a85ed03af8751d3ea7cee93e275394cafe31ef8fd1417a8ee0f05cdf1cc`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`7d0e300bda8f2661ce49135bcf7f5eb1c167484c17e355d76545eb89a2e7dfa9`.
+
+The exact next manifest-order debt is tier-6 `src_f92909cf945285c515a8`,
+`5 post part 2.pdf` (5,287,784 bytes; one native-text page; unencrypted; 768 × 576 pt;
+SHA-256 `f92909cf945285c515a8f0eb75bb0d00002d63bbd82e23a780a8e4b7005fd2d2`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until rendered and
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 67 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
