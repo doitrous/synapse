@@ -8884,3 +8884,141 @@ manifest-named path has a space before `.pdf`; the local normalized filename omi
 and recomputes to the assigned hash and byte size. Tier-6 and rank-9 source debts between
 rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains incomplete. No
 download, ID, content record, catalogue update, import or source copy was created.
+
+## Family 73 — Tier-5 Physiology practical Simple Muscle Twitch virtual lab
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_e15c508e9a9bdef2e3b9` |
+| Manifest file / SHA-256 | `103-LCS-SMT- virtual lab -26 .pdf` / `e15c508e9a9bdef2e3b9d6f00b84693e0418784167cfbb491f5ae2e0f58781b1` |
+| File boundary | 960,704 bytes · unencrypted PDF · 20 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Physiology · Practical Labs · `Virtual Lab 1 - Simple Muscle Twitch (SMT)` · tier 5 |
+| Local corpus path used | `Year 1/LCS 103/Physiology/Practical Labs/Virtual Lab 1 - Simple Muscle Twitch (SMT)/103-LCS-SMT- virtual lab -26.pdf` |
+| Name reconciliation | The manifest filename has one space before `.pdf`; the normalized local filename omits it and recomputes to the assigned SHA-256 and byte size exactly. |
+| Visible provenance | p. 1 prints `Simple Muscle Twitch (SMT)`, `Prepared by: Dr. Hanan Essam` and `Physiology Department- Capital Med`; metadata has no title or author and identifies Microsoft PowerPoint 2016 / ilovepdf as creator/producer. |
+| Authority finding | Manifest/path-placed local tier-5 Physiology practical teaching deck with two embedded learner-facing prompts. It is not a sitting paper, station sheet, response form, question bank or official answer key. |
+
+The SHA-256, byte size and 20-page boundary were recomputed and match the assigned source.
+All 20 pages were rendered at 180 dpi and read against the complete native text layer; all 20
+complete-page renders have distinct SHA-256 values. Page 1 is title/provenance, p. 2 is an
+objective slide, pp. 3–18 are the source-distinct practical teaching sequence, p. 19 is the
+reference slide and p. 20 is a closing slide.
+
+Two imperative learner-facing sentences cross the assessment boundary. Page 12 asks `Explain
+in relation to excitability phases!` beside the twitch/incomplete-tetanus/complete-tetanus
+frequency graph; it is one image-dependent practical prompt. Page 18 asks `Only skeletal and
+smooth muscles exhibit fatigue why?`; it is one ordinary written conceptual prompt, not a
+second practical station merely because it occurs in a practical deck. Neither prompt has a
+simultaneous or delayed answer, model answer, option key or source-wide key. The p. 2
+objectives, p. 13 `Possible explanation` teaching sentence and all declarative graph labels
+remain teaching, not prompts or keys.
+
+### Complete practical-plate, mapping and residue inventory
+
+One mapping is one distinct directly printed apparatus/image identity, curve or phase label,
+parameter-to-value relation, factor-to-effect relation, curve-sequence number or named
+practical relation. A repeated label on the same plate is counted once; slide titles, axes,
+department footers and decorative marks are not mappings. Related mappings on different
+source-distinct plates remain separate evidence occurrences. A letter or abbreviation next
+to a stimulus mark without a local legend remains an unresolved teaching callout and is never
+inferred into a mapping, prompt or answer.
+
+| Physical pages | Source-first practical teaching composition | Plate occurrences | Directly printed unique mappings / residue |
+|---:|---|---:|---:|
+| 3–4 | stimulus definition/types/laboratory electrical stimulus, frog–sciatic gastrocnemius preparation and kymograph | 2 | 8 mappings |
+| 5–7 | SMT mechanical response and action-potential/contraction graph; latent, contraction and relaxation phases with printed durations | 3 | 11 mappings |
+| 8–10 | factors affecting SMT, repeated-stimulation split and two-successive-stimulus beneficial effect/superposition/summation curves | 3 | 9 mappings; p. 10 has 6 unresolved `PS1`/`PS2` occurrences without a legend |
+| 11–12 | treppe and tetanus graphs, constant-stimulus relations, twitch/incomplete/complete states and four printed frequency stages | 2 | 11 mappings; p. 12 also carries 1 unkeyed practical prompt |
+| 13 | warming-up/tachycardia, fibre/motor-unit summation, calcium/blood-flow/temperature explanation and EMG application | 1 | 4 mappings |
+| 14–15 | hot/normal/cold SMT curves and the Bågenholm hypothermia/bypass-rewarming/recovery case | 2 | 6 mappings; p. 14 has 4 unresolved `a`–`d` stimulus-point callouts |
+| 16–17 | fatigue and recovery curves: nine and ten printed contraction-sequence numbers, direct-stimulation, contraction/contracture-remainder, stimulus-point and recovery labels | 2 | 26 mappings; p. 17 has 3 unresolved `Ps` stimulus-point callouts |
+| 18 | lactic-acid, reduced blood/oxygen and depleted creatine-phosphate/ATP fatigue causes | 1 | 3 mappings; 1 ordinary unkeyed written prompt |
+| **Total** | **complete source-distinct practical teaching evidence** | **16** | **78 mappings; 13 unresolved callouts; 1 practical prompt + 1 ordinary written prompt** |
+
+The four non-plate pages are the title, objectives, references and close (pp. 1–2 and 19–20).
+The nine printed curve-sequence values on p. 16 and ten on p. 17 visibly map contraction order
+to individual curves, so they are mappings rather than unexplained residue. Conversely, the
+six `PS1`/`PS2`, four `a`–`d` and three `Ps` occurrences have no local expansion or legend
+and remain 13 unresolved practical teaching callouts. No response field or masked answer
+label appears. Plate/mapping arithmetic is `20 = 4 non-plate pages + 16 plates`, `16 = 2 +
+3 + 3 + 2 + 1 + 2 + 2 + 1`, `78 = 8 + 11 + 9 + 11 + 4 + 6 + 26 + 3`, and `13 =
+6 + 4 + 3`.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+| Source prompt → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 12 → `tetanus-frequency-summation-excitability-phase-interpretation` | tetanus frequency summation excitability phases; complete incomplete tetanus excitability phase; multiple stimuli frequency summation skeletal muscle; explain tetanus in relation to excitability phases | no substantive complete live, pending, import-ready or accepted prior-LCS tested handle | new; 1 unkeyed practical prompt |
+| p. 18 → `skeletal-smooth-versus-cardiac-muscle-fatigue-resistance` | skeletal smooth cardiac muscle fatigue resistance; why skeletal smooth muscles exhibit fatigue cardiac; cardiac muscle resistant to fatigue physiology; smooth skeletal muscle fatigue comparison | direct record search is empty, but accepted Family-15 `muscle-type-physiology-comparison` already owns the fatigue-resistance comparison and carries the pending disposition | prior eligible-LCS reuse; inherited pending; 1 unkeyed ordinary prompt; concept delta +0 |
+
+All **2 × 4 = 8** required assessment searches completed across live state, pending state,
+`docs/import-ready`, `docs/questions-import-ready`, every source-import root and accepted prior
+LCS. Direct complete-scope disposition is **0 live / 0 pending / 2 new**; exact accepted-prior
+adjudication prevents the repeated fatigue-resistance concept, leaving module concept delta
+**0 live / 0 pending / 1 new**. Both question occurrences remain counted even though one
+tested concept is prior-LCS reuse.
+
+### Source-first practical teaching scopes, searches and prior-LCS adjudication
+
+The 16 practical teaching plates consolidate to eight source-level scopes. Scope collapse does
+not delete a plate, mapping, prompt, residue, page or source wording.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `stimulus-definition-types-and-laboratory-electrical-stimulus` · p. 3 | laboratory electrical stimulus types mechanical chemical thermal; stimulus definition changes internal external environment physiology; electrical stimulus advantages muscle experiment; types of stimuli excitable tissue experiment | no complete external or accepted prior-LCS practical scope — new |
+| `frog-sciatic-gastrocnemius-preparation-and-kymograph` · p. 4 | frog sciatic gastrocnemius preparation kymograph; nerve muscle preparation frog gastrocnemius sciatic; kymograph muscle contraction recording apparatus; experimental skeletal muscle preparation frog | anatomical gastrocnemius mentions do not own the experimental preparation/apparatus scope — new |
+| `simple-muscle-twitch-definition-action-potential-and-phases` · pp. 5–7 | simple muscle twitch latent contraction relaxation periods; single stimulus single muscle contraction action potential twitch; SMT duration latent period 0.01 contraction 0.04 relaxation 0.05; muscle twitch action potential precedes contraction graph | no complete external or accepted prior-LCS practical scope — new |
+| `two-successive-stimuli-beneficial-superposition-and-summation` · pp. 8–10 | two successive stimuli beneficial effect superposition summation; beneficial effect skeletal muscle successive stimuli; superposition summation muscle twitch timing; repeated stimulation skeletal muscle two stimuli | no complete external or accepted prior-LCS practical scope — new |
+| `treppe-tetanus-and-frequency-effects` · pp. 11–12 | treppe staircase effect skeletal muscle repeated stimulation; complete incomplete tetanus frequency skeletal muscle; multiple stimuli summation tetanus clonus; tetanus treppe frequency constant strength stimuli | no complete external or accepted prior-LCS practical scope — new |
+| `simple-muscle-twitch-clinical-applications` · p. 13 | simple muscle twitch clinical application warming up EMG; treppe warming up athletes tachycardia skeletal muscle; electromyogram simple muscle twitch clinical application; increased calcium blood flow temperature warming skeletal muscle | no complete external or accepted prior-LCS practical scope — new |
+| `temperature-effects-on-twitch-and-hypothermia-case` · pp. 14–15 | temperature effect muscle twitch hot cold contraction; hypothermia muscle contraction temperature frog experiment; Anna Bagenholm hypothermic cardiac arrest muscle; hot 38 normal 30 cold 15 muscle twitch graph | no complete external or accepted prior-LCS practical scope — new |
+| `fatigue-curves-direct-stimulation-recovery-and-causes` · pp. 16–18 | skeletal muscle fatigue curve direct stimulation recovery; site of fatigue neuromuscular junction direct muscle stimulation; fatigue curve contracture remainder skeletal muscle; muscle fatigue causes lactic acid ATP oxygen blood flow | pending and accepted prior-LCS material owns fatigue causes only, not the source's curve sequence, direct-stimulation/site and recovery composite — new complete practical scope |
+
+All **8 × 4 = 32** required practical-teaching searches completed across live state, pending
+state, all import-ready/source-import roots and accepted prior LCS. At complete-scope grain the
+direct external result is **0 live / 0 pending / 8 new**; no accepted prior-LCS scope owns any
+complete practical handle, so the module delta is likewise **0 live / 0 pending / 8 new**.
+Together with the assessment handles, Family 73 completed **40 required searches**.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 73 | Family 73 delta | After Family 73 |
+|---|---:|---:|---:|
+| Eligible observed question records | 547 | +2 | 549 |
+| Eligible printed question keys | 280 | +0 | 280 |
+| Eligible distinct tested concepts | 268 | +1 | 269 |
+| Question live / pending / new | 10 / 89 / 169 | +0 / +0 / +1 | 10 / 89 / 170 |
+| Stand-alone practical/station prompt occurrences | 6 | +1 | 7 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +16 | 414 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +78 | 2,574 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +13 | 149 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +8 | 0 / 0 / 82 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `2 prompts = 1 practical + 1 ordinary written`,
+`0 printed keys`, `1 added concept = 2 handles - 1 prior eligible reuse`, `0 + 0 + 1 = 1`,
+`549 = 547 + 2`, `280 = 280 + 0`, `269 = 268 + 1`, `10 + 89 + 170 = 269`, `7 = 6
++ 1`, `414 = 398 + 16`, `2,574 = 2,496 + 78`, `149 = 136 + 13`, and `82 = 74 + 8`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-72
+remainder leaves **3 rank-4/rank-5 path instances / 3 unique hashes**. The Family-72 method
+was reproduced first: its 4/4 row sets recomputed to
+`b084ddbff5b885b2708375ae2de9b116c242c25a1dd31e859ce1c940928e40fc` and
+`0db266826526e7def7158f3908bdfcb806156634d2d49a4631546752838d7046`.
+For the exact post-Family-73 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1476aa7879395ec7ff47848c5438666d3a382beb961511172a10f3621cdc3c7a`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`b00d07ae73c23ce4abc8529bf99426fdbedc99c719dee70f6c011fb6224c5ee0`.
+
+The exact next rank-4/rank-5 manifest-order gate is tier-5 Physiology practical source
+`src_b4e5121489d6fc2e1aa0`, `103-LCS-EMG-VLab-26.pdf` (2,765,222 bytes; 54 native-text
+pages; SHA-256 `b4e5121489d6fc2e1aa0861604a48fae9be2545e4db3031b755482dfb6642867`)
+under `Year 1/LCS 103/Physiology/Practical Labs/Virtual Lab 2 - EMG/`. Tier-3, tier-6 and
+rank-9 debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
