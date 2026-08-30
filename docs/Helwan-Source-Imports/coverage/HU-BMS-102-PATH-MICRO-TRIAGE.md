@@ -11404,3 +11404,80 @@ block, annotation, exact/near twin relation, and zero-gate arithmetic term is as
 853×1280 portrait JPEG under `Pathology / Notes and Summaries`. Its original-image provenance,
 completed cell-injury mechanism map versus prompt/key/annotation boundary, and any prior-source
 reuse are the exact next-source blockers.
+
+## Family 107 — Hypoxic cell-injury mechanism teaching map
+
+### Source identity, original-image boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_90d04574ee42c3d6f87a` · `Mechanism of Cell Injury.jpg` |
+| SHA-256 / size | `90d04574ee42c3d6f87a9b9d8cbf343faac12ecab03e234c78381ebdbe7ff447` · 106,914 bytes |
+| Format / complete visual boundary | One progressive JFIF 1.01 portrait JPEG, 853×1280 pixels, RGB/sRGB. The original image was opened and read at full available detail; there is no multipage, cropped-off, or hidden-text remainder. |
+| Metadata caution | The JPEG supplies 1×1 JFIF density but no visible author, university, module code, academic year, teaching date, assessment sitting, camera, software, artist, copyright, or embedded creation/modification date. Filename and folder placement are not provenance beyond Helwan BMS-102 pathology context. |
+| Authority | Tier-6 notes-and-summaries teaching image. It is not an exam, candidate sheet, practical station, student response, or official answer source. |
+
+### Complete teaching-map, annotation, prompt/key, and residue inventory
+
+The image is a single completed hand-lettered causal map. It starts with hypoxia and reduced
+oxygen, oxidative phosphorylation, and ATP depletion. One branch connects pump disturbance,
+intracellular sodium/water influx, and hydropic cell swelling; the other connects anaerobic
+glycolysis, lactic acid, reduced pH, chromatin clumping, and enzyme dysfunction. Both converge on
+calcium influx at a dashed reversible threshold. Below that threshold, activated phospholipase,
+protease, endonuclease, and ATPase lead to membrane, cytoskeletal, DNA, and further ATP injury,
+alongside mitochondrial damage and lysosomal rupture, terminating in irreversible injury and
+necrosis.
+
+Colored arrows, circled headings, an illustrated threshold/door, directional symbols, and the
+enzyme-effect box are all completed explanatory annotations. The source's symbols and wording are
+preserved as image content rather than silently converted into answer marks. No portion asks a
+question, leaves a branch blank, supplies options, requests image identification, allocates marks,
+records a student response, or provides a separate key.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**.
+
+### Prior-source relation, source-first zero gate, and cumulative arithmetic
+
+The hypoxia/ATP-depletion, glycolysis/acidosis, calcium-enzyme activation, membrane/mitochondrial/
+lysosomal injury, reversible-to-irreversible transition, and necrosis sequence overlaps completed
+cell-injury teaching in Family 92 pages 8–20 and is thematically adjacent to Families 86, 90, and
+93. The standalone JPEG is not an exact prior page/image carrier, and thematic teaching overlap is
+not a tested-handle reuse.
+
+No accepted assessment handle survives the completed-map boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated, and the source adds no assessment concept.
+
+| Measure | Family 107 | Auxiliary cumulative (Families 12–107) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 866 | 765 | 1,631 |
+| Printed teaching-answer occurrences | 0 | 483 | 405 | 888 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 806 | 552 | 1,358 |
+| Source-distinct tested handles / required searches | 0 / 0 | 730 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**866 / 483 / 806 / 730 / +499**; and all eligible evidence remains
+**1,631 / 888 / 1,358 / 871**. Family 107 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 107
+
+`src_90d04574ee42c3d6f87a` is exhausted across its complete original image: every visible label,
+arrow, threshold, annotation, provenance limitation, prior-source relation, and zero-gate
+arithmetic term is assigned once, with **zero source remainder** and no Family-107 blocker. The
+exact next manifest record is tier-6 `src_0455e4c66eecb4c37150` ·
+`Mind_Map_Cell_Injury_1,2.pdf`, SHA-256
+`0455e4c66eecb4c3715023b8411180d22858df7f18005fa07d98f367a96fe515`, 3,680,332 bytes, one
+OCR-needed 1191×842-point landscape A3 page under `Pathology / Notes and Summaries`. Its complete
+render/OCR reality, provenance, dense cell-injury mind-map teaching versus prompt/key/annotation
+boundary, and prior-source reuse are the exact next-source blockers.
