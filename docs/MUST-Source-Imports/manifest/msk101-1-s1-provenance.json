@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "0fe1362c5b96dade27ec263fb032c81fbc9b9f1017fa135c854d0c1cdaac44fa",
-    "triageMarkdown": "916f93cfb85410e5d3231ed9b5f557abaf8c09ba75b118c51794c6a92708ae50"
+    "readinessMarkdown": "71237bb2ad07b804b1a9e830f6bf61c59f54e713bd95b411443fa9ae3978478d",
+    "triageMarkdown": "73e5ff2314ef82554a11b18678db63c4ef9367939472f76af6ab6221caecae12"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -83,6 +83,7 @@
       "4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719",
       "565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1",
       "59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3",
+      "5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363",
       "60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609",
@@ -145,7 +146,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 93
+    "uniqueSha256": 94
   },
   "completedSourceCoverage": [
     {
@@ -3029,6 +3030,39 @@
         "Mapify-generated wording, capitalization and selective anatomy claims remain uncorrected source observations",
         "the central TXT icon and attachment symbol do not provide the underlying text source and no absent content is reconstructed"
       ]
+    },
+    {
+      "sha256": "5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "teachingPages": "1-3",
+      "teachingInfographicPages": 3,
+      "labeledAnatomicalFigurePages": 2,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "every page is visibly watermarked Shaheen and the filename attributes Shaheen, while metadata identifies Canva and an opaque author identifier with a 15 October 2024 creation date; no institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "three fully populated teaching infographics: page 1 groups shoulder-and-back muscles by relation to shoulder, scapula, neck and chest; page 2 labels scapular muscle origins, insertions and nerves; page 3 maps pectoral, back and shoulder-region muscles to origin, insertion, nerve supply and action; all labels and facts are supplied, with no objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "source spelling including SHOLDER, Deltiod, Lavator Scapular and Scspulsr remains uncorrected",
+        "bilingual mnemonics and selective origin, insertion, nerve and action claims remain source observations rather than endorsed corrections",
+        "already labeled anatomical figures and arrows are teaching aids and are not manufactured into practical prompts"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3040,20 +3074,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 8,
-    "uniqueSha256": 8,
-    "sortedNewlineSha256": "f6f6949e9968e2b2d56febc315f93de00dad8672fd2c9a28d49257a5640910ab",
+    "inventoryMetadataRows": 7,
+    "uniqueSha256": 7,
+    "sortedNewlineSha256": "f2bad689c7b58bac72d21071896fa8ca5a8a7c89a5abc7c6f96853ecb3214049",
     "auditSampleStatusCounts": {
-      "audit-not-found": 8
+      "audit-not-found": 7
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 8
+    "audit-not-found": 7
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 93,
-    "remainingUniqueSha256": 8,
+    "processedUniqueSha256": 94,
+    "remainingUniqueSha256": 7,
     "processedPlusRemaining": 101
   }
 }

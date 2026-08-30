@@ -3749,3 +3749,41 @@ Removing the ninety-three processed unique hashes leaves **8 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Ms. Of the Shoulder & Back (by Shaheen).pdf`, SHA-256 `5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 8 selected inventory paths / 8 unique hashes remain untriaged.
+
+## Completed teaching-only source — Ms. Of the Shoulder & Back (by Shaheen)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Ms. Of the Shoulder & Back (by Shaheen).pdf` | `5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4` | 3 | audit-not-found inventory label | pages 1–3 rendered and read | Every page is visibly watermarked `Shaheen`, matching the filename attribution. Metadata identifies Canva as creator/producer, opaque author identifier `6482jrzjb8`, title `White Colorful Playful Mind Map Brainstorm` and 15 October 2024 creation/modification. No institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Ms. Of the Shoulder & Back (by Shaheen).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+All three pages are fully populated teaching infographics. Page 1 groups shoulder-and-back muscles by their relation to the shoulder, scapula, neck and chest and supplies bilingual mnemonics beside labeled anatomical illustrations. Page 2 labels scapular muscle origins and insertions by color and supplies corresponding nerve names. Page 3 maps pectoral-region, back and shoulder-region muscles to their origin, insertion, nerve supply and action.
+
+The exact boundary is **3 teaching-only infographic pages / 2 pages with fully labeled anatomical figures / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. All illustration labels, arrows and property fields are disclosed; there is no hidden label, learner instruction, response space or station direction.
+
+### Authority, source truth and search gate
+
+The watermark and filename support Shaheen teaching-author attribution, while Canva metadata supports production provenance only. They do not authenticate a MUST/MSK institution, department, examiner, sitting, marks or official assessment key. Source spelling such as `SHOLDER`, `Deltiod`, `Lavator Scapular` and `Scspulsr`, bilingual mnemonics and selective anatomy claims remain uncorrected observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Fully labeled teaching infographics are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-four processed unique hashes leaves **7 selected inventory paths / 7 unique SHA-256s**. Their sorted, newline-joined hash checksum is `f2bad689c7b58bac72d21071896fa8ca5a8a7c89a5abc7c6f96853ecb3214049`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 7 audit-not-found rows, and unique-hash accounting is **`94 + 7 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Arm (by Roaa).pdf`, SHA-256 `70d3f4e4ab8ef7ad06e7f2c175cbb89816705fa7ec7528b1e60f0068017c07c4`, 5 pages.
+
+**BLOCKED — S1 cannot be approved:** 7 selected inventory paths / 7 unique hashes remain untriaged.

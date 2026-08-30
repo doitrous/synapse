@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The ninety-three completed read-only source hashes cover ninety-five selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed one-image `Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).png`, SHA-256 `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af`, is an 8397×4622 Mapify teaching mind map. Its exact boundary is **1 teaching-only mind-map image / 9 fully labeled topic branches / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename attribution and Mapify branding do not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The ninety-four completed read-only source hashes cover ninety-six selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed three-page `Ms. Of the Shoulder & Back (by Shaheen).pdf`, SHA-256 `5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4`, is a Shaheen-watermarked Canva teaching carrier. Its exact boundary is **3 teaching-only infographic pages / 2 pages with fully labeled anatomical figures / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Visible watermarking, filename attribution and Canva metadata do not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af`.
+Latest processed family hash: `5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4`.
 
-Recent processed family hash retained for reconciliation: `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2`.
+Recent processed family hash retained for reconciliation: `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -96,8 +96,10 @@ Current teaching-source append: `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8
 
 Current teaching-source append: `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af`.
 
-Removing them leaves **8 inventory paths / 8 unique SHA-256s**, checksum `f6f6949e9968e2b2d56febc315f93de00dad8672fd2c9a28d49257a5640910ab`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 8 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Ms. Of the Shoulder & Back (by Shaheen).pdf`, SHA-256 `5d0898d85aa2c9cd39918113d35607e537cfba04f9884afc8ff0bc8343eab2c4`, 3 pages.
+Removing them leaves **7 inventory paths / 7 unique SHA-256s**, checksum `f2bad689c7b58bac72d21071896fa8ca5a8a7c89a5abc7c6f96853ecb3214049`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 7 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 8 selected inventory paths / 8 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Muscles Of The Arm (by Roaa).pdf`, SHA-256 `70d3f4e4ab8ef7ad06e7f2c175cbb89816705fa7ec7528b1e60f0068017c07c4`, 5 pages.
+
+**BLOCKED — S1 cannot be approved:** 7 selected inventory paths / 7 unique hashes remain untriaged.
