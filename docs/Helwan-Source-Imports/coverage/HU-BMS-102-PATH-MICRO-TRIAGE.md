@@ -21680,3 +21680,73 @@ vitamin-A storage, carbimazole/thyroid, and dosing/half-life notes; the scan is 
 to its CamScanner watermark orientation. The filename timestamp is not an authenticated teaching
 or assessment date. Its provenance, teaching/prompt/answer/annotation boundary, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 209 — completed fat-binding, thiopental-redistribution, and selective-accumulation map
+
+### Source identity, complete full-resolution boundary, provenance, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_c5e75569264c18b5308c` · `2026-07-20 06.26.29.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `c5e75569264c18b5308c0626ab075fc1c91a9ab58a5ebbe07fe15149d366e2db` · **128,243 bytes** |
+| Format / complete read | **One 1280×904 landscape progressive JPEG**, JFIF 1.01 at 851 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. The substantive writing is upright; only the CamScanner watermark at upper left is inverted. |
+| Complete visible content | Three completed handwritten panels cover: (1) `Binding of drug to fats` with BBB/CNS effect, fat storage including vitamin A for about six months, and redistribution/rapid elimination; (2) thiopental `Redistribution`, with phase I in blood-rich organs such as brain/liver, a `15 min` note, phase II transfer to fat/termination, and a long-acting/saturation note; and (3) `Selective Accumulation`, leaving blood to accumulate in an organ, illustrated by carbimazole/thyroid and hyperthyroidism, with short-half-life/once-daily notes. |
+| Visible/metadata provenance | No author, university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. The inverted CamScanner mark establishes scan processing only and does not invert the readable teaching content. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement, while the filename timestamp remains a sequence aid rather than an authenticated teaching date or sitting. |
+| Sequence relation | This image follows Family 208's plasma-protein binding and broadens distribution/storage teaching. The next manifest image `.06.26.31` returns to pKa and drug absorption in a polished diagram. Adjacency supports reading order only and does not establish authorship, sitting, or recurrence. |
+| Authority | Low-authority bilingual handwritten teaching sheet. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+Every numbered fat-binding effect, redistribution phase, organ/fat destination, time note,
+termination result, selective-accumulation branch, example, and dosing statement is already filled.
+Bullets, circled numbers, arrows, brackets, and underlining organize the teaching; none requests a
+learner response or marks correctness. No imperative, interrogative, blank, option set, response
+area, mark allocation, delayed key, specimen, requested identification, or candidate answer is
+visible. The handwriting is the substantive source layer, not response annotation.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Distribution, storage, elimination, and half-life concepts
+overlap Family 202's pharmacology bank, but completed declarative overlap is not a tested-
+proposition recurrence, so no prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 209 | Auxiliary cumulative (Families 12–209) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 209
+establishes bilingual drug-distribution/storage teaching and manifest-sequence evidence only, not
+assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 209
+
+`src_c5e75569264c18b5308c` is exhausted at full image resolution: every visible panel, numbered
+teaching item, redistribution phase, example, English and Arabic note, arrow, emphasis mark,
+watermark-orientation fact, provenance limitation, timestamp caution, zero gate, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-209 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_6d5d6f7c4afca77eba5e` ·
+`2026-07-20 06.26.31.jpg`, SHA-256
+`6d5d6f7c4afca77eba5e92d69907664ae55566a570f34dad6a59408de2d87321`, **118,168 bytes**,
+**1280×714 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed polished `The Mechanics of pKa and Drug Absorption` diagram contrasting
+an ionized water-soluble poorly absorbed environment with a unionized lipid-soluble rapidly
+absorbed state across a lipid bilayer; a NotebookLM mark is printed at lower right. The filename
+timestamp is not an authenticated teaching or assessment date. Its provenance, teaching/prompt/
+answer/annotation boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
