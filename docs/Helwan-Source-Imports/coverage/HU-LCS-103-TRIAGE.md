@@ -18155,3 +18155,53 @@ already inventoried `Bone Helwan.pdf` in Family 165, so the next family should c
 the separate manifest path with zero second-content inventory. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 61 tier-6/rank-9 path debts remain. No download, source edit,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 170 — Tier-6 duplicate `HU-Bone.pdf` manifest path
+
+### Exact identity and zero-content duplicate ruling
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d8f5ce54a5ff1e06ec77` / `d8f5ce54a5ff1e06ec7763872946918d3e12ee72243d99705edb8a86fccfe7df` |
+| Manifest and normalized local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/HU-Bone.pdf` |
+| Physical verification | **898,870 bytes; 6 native-text A4 pages; 595.32 × 841.92 pt; tagged; unencrypted; PDF 1.7**. The current normalized file recomputes to the assigned full SHA-256. |
+| Prior governed content | Family 165 fully rendered, read and inventoried the same `src_d8f5ce54a5ff1e06ec77` / full-SHA object under manifest sibling path `Bone Helwan.pdf`. Its author `Mamdouh`, Microsoft Word LTSC creator/producer, six-page count, geometry and byte size match this object. |
+
+The shared source ID and full SHA-256 establish byte identity; filename variation creates a
+separate manifest path, not new content. Under the standing unique-content rule this family
+therefore records **one path consumed / zero hashes newly inventoried / zero second content
+inventory / zero second prompts or keys / zero second teaching or practical plates / zero
+second mappings or residues / zero concept handles / zero searches**. Family 165's complete
+six-page boundary, four teaching handles, 16 searches and prior-LCS conclusions remain the
+sole content inventory. No source statement or label is duplicated into cumulative totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every content
+delta is zero.
+
+Removing only this remaining duplicate path from Family 169's ledger changes the all-rank
+remainder from **61 paths / 57 unique hashes** to **60 paths / 56 unique hashes**. The unique
+count now falls because no unprocessed path retains the shared hash: tier 3 remains **0 / 0**,
+tier 6 becomes **46 paths / 45 unique hashes within tier**, and rank 9 remains **14 / 11**.
+Family 169's prior checksums are
+`1b44e9e97cbfa5d6a13c5d35d1a140e9328e3b5e08e5a056d0d78b1e71af23c5` (paths) and
+`9ed40e8f94c074fdb12644cbcbf8ebe36001a8e52f185045267d04bdc8dd2c0b` (unique hashes).
+For the exact post-Family-170 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`9ac8c42a9e4a2805823c695c8246469bd1c157f68ce347ca0c587bba7114150d`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`227f28d7bc0842e13c13d5e0cd9be50b3041daf10b8ab07fd4646e54063e5cf9`.
+
+The exact next manifest-order debt is tier-6 `src_4a127184f4d8448957bf`,
+`HU-Calcium Metabolism.pdf` (494,660 bytes; 5 native-text landscape-A4 pages; unencrypted;
+841.92 × 595.32 pt; SHA-256
+`4a127184f4d8448957bffd9358f6553623b2b99000d9973348a9900f8130e74b`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 60
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
