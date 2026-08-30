@@ -19776,3 +19776,123 @@ The exact next unprocessed manifest record is tier-4 `src_1a05cf28311f19f1ef29` 
 while metadata names `Mohammed Abdel-Latif`; its complete visual authority, teaching/prompt/key/
 callout/practical boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 188 — Nahed Soliman BMS-102 Neoplasia 2 lecture and interactive questions
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_1a05cf28311f19f1ef29` · `SMP neoplasia 2 2026.pdf` under the exact local `Pathology / Theoretical / Lec 10 - Neoplasia 2` folder |
+| SHA-256 / exact size | `1a05cf28311f19f1ef298824a3b3c7c5b22ce8423cca16c9e47fd62eec94b6e6` · **4,765,724 bytes** |
+| Format / complete read | **97 native-text 960×540-point landscape pages**. All 97 pages were rendered into 97 non-empty 1467×825-pixel images and read individually at original detail. Coherent native extraction contains **4,378 words / 38,676 bytes** and agrees with every visible cover field, teaching heading, labelled image, interactive stem, option set, blank response control, certificate field, and reference. |
+| Visible current authority | Page 1 visibly prints `HELWAN-SMP`, Faculty of Medicine, Helwan University, Academic Year 2025/2026, Year 1, Semester 2, and `BMS-102`. Page 2 visibly identifies `NEOPLASIA 2`, **Nahed Soliman**, Assistant Professor of Pathology and Head of Pathology Department, and 23 March 2026; page 3 repeats the module/date and section identity. These fields establish a current dated Helwan BMS-102 theoretical lecture. |
+| Metadata caution | PDF metadata names `Mohammed Abdel-Latif` as author and Microsoft PowerPoint 2016 as creator/producer, with 23 March 2026 creation/modification. The conflicting metadata author is retained as carrier history; visible Nahed Soliman attribution controls source-facing authorship. |
+| Imported quiz-certificate caution | Page 96 embeds a ProProfs certificate for `Nahed Ahmed`, `100/100 (100%)`, `Interactive quiz 2: Neoplasia`, dated 15 April 2024. It proves only that an imported screenshot reports an aggregate quiz result. It does not identify the current lecturer, establish a 2024 Helwan sitting, expose any selected response, or supply an item-level key. |
+| Authority | Current tier-4 Helwan theoretical teaching material with a visibly designated interactive-question section. It supports auxiliary prompt evidence, not an authenticated exam sitting, official departmental key, mark scheme, candidate response, recurrence claim, or practical station. |
+
+### Complete page-first teaching, prompt, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–4 | Current cover, lecturer/module/date, section title, and learning objectives | Provenance and completed teaching plan; objective verbs are curriculum statements, not candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 5–12 | Histogenesis, classification, benign/malignant nomenclature, and benign epithelial-tumour maps | Declarative teaching and completed flowcharts; **0 / 0 / 0**. |
+| 13–36 | Papilloma, adenoma, mesenchymal benign tumours, haemangioma, lymphangioma, cystic hygroma, and labelled clinical/gross/microscopic plates | Diagnosis-disclosing teaching. Labels, arrows, comparison tables, and photographs do not ask the learner to identify a specimen; **0 / 0 / 0**. |
+| 37–61 | Carcinoma-versus-sarcoma comparison; squamous-cell carcinoma, carcinoma in situ, Broders grading, adenocarcinoma, basal-cell carcinoma, and labelled morphology | Completed definitions, feature lists, diagrams, and labelled plates; **0 / 0 / 0**. Question marks reproduced inside the p.37 comparison graphic qualify teaching assertions and are not response requests. |
+| 62–75 | Locally malignant tumours, nevi and melanoma, mixed and embryonal tumours, teratoma, and completed diagnostic/prognostic illustrations | Declarative and diagnosis-disclosing teaching; **0 / 0 / 0**. Page 69's `What does melanoma look like?` headline is an on-slide teaching callout immediately answered by the complete ABCDE warning-sign chart, not an assessment operation. |
+| 76–77 | Two `INTERACTIVE QUESTIONS` term-definition True/False slides concerning sarcoma | **2 T/F prompts / 0 supplied answers / 2 unkeyed**. Both response circles are visibly empty. |
+| 78 | Embedded `Quiz & Worksheet - Characteristics of Neoplasia` screenshot with three complete numbered option sets | **3 text MCQs / 0 supplied answers / 3 unkeyed**. Every radio control is empty; the screenshot contains no score, feedback, or answer marker. |
+| 79–95 | Seventeen `INTERACTIVE QUESTIONS` slides: neoplasia, benign/malignant behaviour, grading, dysplasia/CIS, tumour nomenclature, teratoma, malignancy criteria, grade/stage, fibroadenoma, cervical SCC, paraneoplasia, tumour markers, and staging | **17 text MCQs / 0 supplied answers / 17 unkeyed**. Uniform bullets and bold text are layout, not keys. All vignettes are text-only questions; none requests identification of a displayed specimen. |
+| 96 | Imported aggregate ProProfs achievement certificate | **0 prompts / 0 answer keys**. A 100/100 total cannot be assigned to individual items and is not counted as 22 supplied answers. |
+| 97 | References | Bibliographic teaching matter; **0 / 0 / 0**. |
+
+The governed assessment boundary is therefore **22 raw prompt occurrences = 19 text MCQs + 3
+True/False operations**, with **0 source-supplied item answers + 22 visibly unkeyed operations**.
+There are **0 image prompts, 0 drawing tasks, 0 practical stations, 0 candidate responses, and 0
+unassigned residues**. Completed teaching questions/callouts, labels, arrows, diagnostic captions,
+radio circles, slide numbers, certificate fields, references, and source spelling or option-layout
+anomalies are assigned without becoming additional prompts or answers.
+
+### Source-first retention, semantic collapse, and 20-handle search ledger
+
+All **22 prompt occurrences remain retained**: none is a literal copy and the answered/unanswered
+state of every occurrence is preserved. Two same-proposition reductions affect handles only:
+
+- p.76's false epithelial-origin definition and p.77's true mesenchymal-origin definition are
+  inverse tests of the same sarcoma-origin proposition;
+- p.78 Q3's `cancer NOT ... usually grows slowly` and p.80's benign-tumour `slow growth`
+  selection test the same benign-slow/malignant-faster growth contrast.
+
+Thus **`22 retained - 2 semantic reductions = 20 source-distinct tested handles`**. Every handle
+received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan coverage, and prior BMS Families 1–187: **`20 × 4 = 80
+required and completed searches`**.
+
+| Ref(s) / retained handle | Exactly four required queries | External exact-scope disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| pp.76–77 · `sarcoma-mesenchymal-not-epithelial-origin` | `sarcoma mesenchymal cells`; `sarcoma arises from mesenchymal`; `sarcoma epithelial origin false`; `malignant neoplasm mesenchymal sarcoma` | no same-scope | exact Family-1/5 sarcoma-nomenclature reuse |
+| p.78 Q1 · `benign-neoplasm-does-not-spread` | `benign tumor does not spread`; `benign neoplasm does not metastasize`; `benign tumors no metastasis`; `benign characteristic no spread` | no same-scope | contained by Family-1/110 benign-versus-malignant behaviour; reuse |
+| p.78 Q2 · `malignant-neoplasm-called-cancer` | `malignant neoplasm is also known as`; `malignant neoplasm cancer`; `cancer synonym malignant neoplasm`; `malignant neoplasm called cancer` | no same-scope | contained by Family-1 neoplasia core definitions; reuse |
+| p.78 Q3,p.80 · `benign-slow-malignant-faster-growth` | `characteristic of benign tumors slow growth`; `benign tumour slow growth`; `cancer usually grows slowly`; `benign slow malignant rapid growth` | no same-scope | exact Family-1/110 benign-versus-malignant feature reuse |
+| p.79 · `neoplasia-irreversible-uncontrolled-proliferation` | `neoplasia involves an irreversible change`; `irreversible uncontrolled cell proliferation`; `neoplasia uncontrolled cell proliferation`; `neoplasia irreversible proliferation` | no same-scope | exact Family-98/186 hyperplasia-versus-neoplasia control reuse |
+| p.81 · `tumor-grade-degree-differentiation` | `grade of a tumour degree of differentiation`; `tumour grade cell differentiation`; `grade describes differentiation tumor`; `degree of tumour cell differentiation` | no same-scope | exact Family-1/5 reuse |
+| p.82 · `epithelial-dysplasia-premalignant-concern` | `epithelial dysplasia may be premalignant`; `dysplasia concern premalignant`; `epithelial dysplasia premalignant lesion`; `histologic diagnosis dysplasia premalignant` | no same-scope | prior CIS/invasion handles do not test this generic premalignant implication; **delta** |
+| p.83 · `severe-dysplasia-carcinoma-in-situ` | `severe epithelial dysplasia carcinoma in situ`; `severe dysplasia may also be called carcinoma in situ`; `carcinoma in situ severe dysplasia`; `full thickness epithelial dysplasia carcinoma in situ` | no same-scope | exact Family-5/98 CIS full-thickness scope reuse |
+| p.84 · `adenoma-benign-glandular-epithelial-definition` | `benign epithelial neoplasm glandular tissue adenoma`; `adenoma benign glandular neoplasm`; `adenoma forms glandular patterns`; `benign epithelial tumour adenoma` | no same-scope | prior adenoma cases and teaching do not test this complete nomenclature definition; **delta** |
+| p.85 · `carcinoma-malignant-epithelial-definition` | `malignant neoplasm epithelial origin carcinoma`; `carcinoma malignant epithelial neoplasm`; `carcinoma arises from epithelium`; `malignant epithelial tumor called carcinoma` | no same-scope | prior sarcoma nomenclature and organ-specific carcinoma cases do not test the generic counterpart; **delta** |
+| p.86 · `teratoma-three-germ-layers` | `tumour derived from all three embryological germ layers`; `cells derived from all three germ layers teratoma`; `teratoma three germ layers`; `tumour consisting of cells from three embryological germ layers` | no same-scope | exact Family-5/133/144/158 reuse |
+| p.87 · `invasion-indicates-malignancy` | `invasion of surrounding tissue indicator of malignancy`; `invasion surrounding tissue most likely indicator malignancy`; `microscopic indicator malignancy invasion`; `malignancy definitive invasion surrounding tissue` | no same-scope | exact Family-4/5/133 reuse |
+| p.88 · `grade-one-stage-one-interpretation` | `grade 1 stage 1 well differentiated localised`; `grade one stage one well differentiated localized`; `tumour grade 1 stage 1 inference`; `low grade low stage well differentiated localized` | no same-scope | exact Family-133 Q07 reuse |
+| p.89 · `fibroadenoma-benign-biphasic-histology` | `fibroadenoma hyperplasia stromal cells benign glandular architecture`; `fibroadenoma benign glandular architecture stromal hyperplasia`; `fibroadenoma histology stromal cells benign glands`; `fibroadenoma biphasic stromal epithelial benign` | no same-scope | exact Family-119 gross/microscopic-description scope reuse |
+| p.90 · `cervical-invasive-well-differentiated-scc-keratin-pearls` | `invasive squamous cell carcinoma keratin pearls well differentiated`; `keratin pearls invading stroma well differentiated squamous carcinoma`; `cervical biopsy malignant squamous nests keratin pearls`; `well differentiated squamous cell carcinoma keratin pearl` | no same-scope | prior lip-SCC diagnosis and generic grading handles do not test this cervical invasion-plus-grade synthesis; **delta** |
+| p.91 · `small-cell-lung-siadh-paraneoplastic-syndrome` | `small cell lung carcinoma SIADH paraneoplastic syndrome`; `SIADH small cell carcinoma paraneoplastic`; `hyponatraemia small cell lung paraneoplastic syndrome`; `ectopic ADH small cell lung carcinoma` | no same-scope | exact Family-5 C12 plus its paraneoplastic-definition scope; reuse |
+| p.92 · `pancreatic-head-carcinoma-ca19-9-cea-markers` | `pancreatic head carcinoma CA19-9 CEA`; `pancreatic cancer serum markers CA19-9 carcinoembryonic antigen`; `pancreatic adenocarcinoma markers CA19-9 CEA`; `pancreatic mass elevated CA19-9 CEA` | no same-scope | prior pancreatic-metastasis and generic marker handles do not test this marker pair; **delta** |
+| p.93 · `cea-liver-metastasis-colon-primary` | `CEA secreting liver metastasis primary colon`; `carcinoembryonic antigen liver metastasis colon primary`; `liver metastasis CEA most likely colon`; `CEA tumor marker colorectal liver metastasis` | no same-scope | exact Family-1/4 CEA-colon marker reuse |
+| p.94 · `radiologic-imaging-assesses-tumor-stage` | `radiologic imaging helpful assessing tumour stage`; `imaging assesses tumour stage`; `radiology determines cancer stage`; `radiologic imaging tumor staging` | no same-scope | prior TNM-component prompts do not test this staging-method proposition; **delta** |
+| p.95 · `poorly-differentiated-localized-lung-malignancy-high-grade-low-stage` | `poorly differentiated lung tumor high grade low stage`; `malignant high grade low stage no spread`; `pleomorphic abnormal mitoses absent metastasis high grade low stage`; `poor differentiation localised malignancy grade high stage low` | no same-scope | Family-133 tests the opposite Grade-I/Stage-I combination; the present high-grade/low-stage synthesis is distinct; **delta** |
+
+External exact-scope arithmetic is **0 live / 0 pending / 20 no same-scope**. Prior-BMS
+reconciliation assigns **13 exact/contained handle reuses** and **7 new scopes**, so **`20 - 13
+= +7 concepts`**. Topic overlap with the source's own teaching slides and prior labelled plates
+does not independently zero a genuine present interactive question.
+
+### Family-188 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 188 | Auxiliary cumulative (Families 12–188) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 22 = 19 MCQ + 3 T/F | 2,497 | 762 | 3,259 |
+| Source-supplied answers | 0; 22 unkeyed | 1,668 | 405 | 2,073 |
+| Retained question records | 22 | 2,207 | 552 | 2,759 |
+| Accepted handles / required searches | 20 / 80 | 1,991 / — | — | — |
+| Prior-BMS handle reuses | 13 | — | — | — |
+| Cross-family concept delta | +7 | +960 over primary | 372 | 1,332 |
+| **Distinct tested concepts** | **20 source-local** | **960 additions** | **372** | **1,332** |
+
+Checksums: `19 + 3 = 22 prompts`; `0 + 22 = 22 answer states`; `22 - 0 literal exclusions =
+22 retained`; `22 - 2 semantic reductions = 20 handles`; `20 × 4 = 80 searches`; and `20 -
+13 = +7`. Auxiliary arithmetic is `2,475 + 22 = 2,497`, `1,668 + 0 = 1,668`, `2,185 +
+22 = 2,207`, `1,971 + 20 = 1,991`, and `953 + 7 = 960`. All eligible arithmetic is `762
++ 2,497 = 3,259`, `405 + 1,668 = 2,073`, `552 + 2,207 = 2,759`, and `372 + 960 =
+1,332`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,497 prompts / 1,668 answers /
+2,207 retained / 1,991 handles / +960 concepts**. All eligible is **3,259 / 2,073 / 2,759 /
+1,332**. Family 188 establishes current Helwan theoretical teaching and unkeyed interactive-
+question evidence only, not an exam sitting, official departmental key, mark weight, candidate
+response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 188
+
+`src_1a05cf28311f19f1ef29` is exhausted across all 97 pages: every visible current-authority and
+metadata field, teaching slide, labelled image, interactive T/F or MCQ, blank response control,
+aggregate certificate field, reference, same-source collapse, search packet, prior-family
+relation, and arithmetic term is assigned once, with **zero source remainder** and no Family-188
+blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_372f034f2d046c5628ba` ·
+`Repair-Lecture-1_copy.pdf`, SHA-256
+`372f034f2d046c5628ba26fd503d2c88ddbfde23a93ba268a3ce8a937ca7c6ee`, **1,578,249 bytes**,
+**32 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 11 - Repair 1`.
+Its visible authority, metadata `fmt` authorship/date caution, complete teaching/prompt/key/
+callout/practical boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
