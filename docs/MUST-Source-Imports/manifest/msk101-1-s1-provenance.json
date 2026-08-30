@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "1ef28699a606953c59f206df5a2895332feb2a5a0656f44005177b612da2dbcc",
-    "triageMarkdown": "ef38f1782de1d0908d3f5329e1029d52fc27b6c10eef8f7287487bee046e55c1"
+    "readinessMarkdown": "d7d2f28d63649abf205cd73ae7fe90a942f3b9a20273e32da52d3078ee55de43",
+    "triageMarkdown": "abe0a23ca5ee8994201b9cbb01454c03a8272ad57a4b89e0adff9077de456329"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -74,6 +74,7 @@
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84",
+      "a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
       "af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe",
       "b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7",
@@ -92,7 +93,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 40
+    "uniqueSha256": 41
   },
   "completedSourceCoverage": [
     {
@@ -1019,24 +1020,51 @@
       "sourceProcessed": true,
       "authorityDisposition": "image-only handwritten brachial-artery fill-in worksheet; filename-only Sara Hafez attribution and Samsung scan metadata provide no authenticated MUST/MSK exam or faculty-key authority",
       "boundaryDisposition": "thirteen numbered fill-in prompts with blank answer lines; exact blue-handwriting prompt-sequence sibling of the completed red-answer carrier"
+    },
+    {
+      "sha256": "a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175",
+      "sourcePages": 11,
+      "renderedReadPages": "1-11",
+      "questionPages": "1-9",
+      "keyPages": "9-11",
+      "printedPromptObservations": 61,
+      "objectiveMcqPrompts": 37,
+      "matchingPrompts": 24,
+      "printedKeyObservations": 61,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 61,
+      "familyAnswerDelta": 61,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "external Part 6 Upper Limb question-book excerpt with no printed author, institution, examiner or sitting provenance; not an authenticated MUST/MSK examination or key",
+      "boundaryDisposition": "continuous numbered bank Q1-Q61; thirty-seven conventional MCQs plus twenty-four separately numbered matching rows; complete printed answer table",
+      "preservedSourceDefects": [
+        "Q35 answer-table explanation for option e names the ulnar nerve while the printed distractor names the median nerve"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4676,
-    "printedKeyObservations": 4569,
+    "printedPromptObservations": 4737,
+    "printedKeyObservations": 4630,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 62,
-    "uniqueSha256": 61,
-    "sortedNewlineSha256": "058a8050b24b94b203bfbaaf43e6310402ec9f1676c1ad58215e4962ad3517b5",
+    "inventoryMetadataRows": 61,
+    "uniqueSha256": 60,
+    "sortedNewlineSha256": "c0daafbeac9e214c38bf78a9fda40207afe9571a59f432d1b0a64583ea014545",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
-      "empty-text": 12,
+      "empty-text": 11,
       "sparse-text": 7,
       "substantive-text": 26
     }
@@ -1044,14 +1072,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
     "audit-not-found": 14,
-    "empty-text": 12,
+    "empty-text": 11,
     "sparse-text": 7,
     "substantive-text": 26
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 40,
-    "remainingUniqueSha256": 61,
+    "processedUniqueSha256": 41,
+    "remainingUniqueSha256": 60,
     "processedPlusRemaining": 101
   }
 }

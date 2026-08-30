@@ -1471,3 +1471,47 @@ Removing the forty processed unique hashes leaves **62 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Chapter 5 Upper Limb.pdf`, SHA-256 `a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175`, 11 pages.
 
 **BLOCKED — S1 cannot be approved:** 62 selected inventory paths / 61 unique hashes remain untriaged.
+
+## Completed source — Chapter 5 Upper Limb
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Chapter 5 Upper Limb.pdf` | `a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175` | 11 | empty-text audit sample | pages 1–11 rendered and read | iText 5.5.10 PDF created/modified 26 July 2020. The visible heading is `Part 6 / Upper Limb / Multiple Choice Questions (MCQs)` and internal pagination is 62–72. No author, institution, department, examiner, sitting, marks or official-key statement appears in the excerpt. It is an external question-book excerpt, not an authenticated MUST/MSK examination or key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Chapter 5 Upper Limb.pdf" purpose="source"}
+
+### Exact MCQ, matching, key, written, practical and image boundary
+
+Pages 1–9 contain one continuous numbered bank Q1–Q61. Thirty-seven items are conventional five-option MCQs. Twenty-four numbered occurrences are matching rows: Q3–Q12, Q14–Q18, Q38–Q42 and Q54–Q57. Each numbered matching row is one separately keyed prompt observation. Page 9 begins the answer table after Q61; pages 10–11 complete it through Q61.
+
+| Format | Prompt observations | Printed key observations | Source-absent answers |
+|---|---:|---:|---:|
+| Conventional MCQ | 37 | 37 | 0 |
+| Matching rows | 24 | 24 | 0 |
+| **Total** | **61** | **61** | **0** |
+
+There are no written, practical, image-identification, teaching-only or answer-only pages. Printed wording and keys are retained without academic correction. The answer-table explanation for Q35 option `e` names the ulnar nerve even though the printed distractor names the median nerve; this mismatch is preserved as a source defect.
+
+### Source-first collapse and exactly-four-search gate
+
+This is a distinct keyed source family, so it contributes all **61 questions / 61 printed answers**. Its joints, axilla, pectoral/scapular regions, arm/forearm/hand muscles, vessels, terminal nerves, fossae, retinacula and clinical anatomy remain inside the completed Upper Limb Anatomy H1–H5 family. No genuinely new handle survives prior-MSK reconciliation.
+
+The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**. The prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its delta is **+61 questions / +61 answer observations / +0 concepts**. Cumulative arithmetic is **4676 + 61 = 4737 questions**, **4569 + 61 = 4630 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 4737 | 4630 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-one processed unique hashes leaves **61 selected inventory paths / 60 unique SHA-256s**. Their sorted, newline-joined hash checksum is `c0daafbeac9e214c38bf78a9fda40207afe9571a59f432d1b0a64583ea014545`. Remaining audit-review debt is 26 substantive-text / 7 sparse-text / 11 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`41 + 60 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Example mcq.docx`, SHA-256 `c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64`.
+
+**BLOCKED — S1 cannot be approved:** 61 selected inventory paths / 60 unique hashes remain untriaged.
