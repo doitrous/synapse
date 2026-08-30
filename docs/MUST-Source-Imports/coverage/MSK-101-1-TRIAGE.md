@@ -2054,3 +2054,53 @@ Removing the fifty-three processed unique hashes leaves **49 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/ANATOMY by salama.pdf`, SHA-256 `43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3`, 60 pages.
 
 **BLOCKED — S1 cannot be approved:** 49 selected inventory paths / 48 unique hashes remain untriaged.
+
+## Completed source — ANATOMY by salama
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/ANATOMY by salama.pdf` | `43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3` | 60 | audit-not-found | pages 1–60 rendered and read | Mohamed Salama study compilation titled `ANATOMY`; metadata subject is `MCQS and SUMMARY`, with Microsoft Word creation/modified date 15 December 2023. No institution, department, examiner, sitting, marks or official-key claim appears. A closing Arabic note says the author could not finish the remainder and describes the compilation as covering about ninety percent of the curriculum, reinforcing student-compilation rather than authenticated assessment authority. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/ANATOMY by salama.pdf" purpose="source"}
+
+### Exact teaching, MCQ, written, practical and answer boundary
+
+The document mixes teaching summaries, anatomical tables and illustrative images with six separately numbered MCQ blocks and three written/comparison blocks. Page 1 is cover material. Teaching images remain explanatory figures: none asks the reader to identify a labelled structure, names a station, assigns marks or provides a response space, so the practical/image-identification boundary is zero.
+
+| Assessment pages | Assessment block | MCQ prompts | Written/comparison prompts | Printed answers | Practical/image-identification |
+|---|---|---:|---:|---:|---:|
+| 11–17 | Upper arm MCQs and written/comparison items | 30 | 3 | 33 | 0 |
+| 18–21 | Brachial artery/nerve MCQs and written items | 15 | 3 | 18 | 0 |
+| 25–29 | Shoulder-joint MCQs and written items | 25 | 2 | 27 | 0 |
+| 34–40 | Flexor-forearm MCQs | 35 | 0 | 35 | 0 |
+| 44–47 | Extensor-forearm MCQs | 20 | 0 | 20 | 0 |
+| 52–60 | Cubital-fossa, median-nerve and radial/ulnar-artery MCQs | 25 | 0 | 25 | 0 |
+| **Total** | **Six MCQ blocks + eight written/comparison items** | **150** | **8** | **158** | **0** |
+
+Teaching/illustration material appears on pages 2–10, 22–24, 30–33, 40–43 and 48–52; pages 40 and 52 mix teaching material with assessment content. There are **158 prompt observations / 158 prompt-matched answer observations / 0 source-unkeyed prompts / 0 answer-only prompts**. Numbering restarts independently across MCQ and written blocks.
+
+Printed wording and keys remain source observations without academic correction. Preserved defects include repeated and near-repeated questions across blocks, inconsistent answer-table punctuation and capitalization, academically questionable source selections, and the author's explicit closing statement that the work is incomplete.
+
+### Internal and prior-MSK collapse
+
+Repeated and near-repeated assessment occurrences are retained in the physical prompt count and collapsed at the concept layer before prior reconciliation. Source-first candidate scopes cover upper-arm and shoulder muscles/joints, brachial artery/axillary-suprascapular nerves, forearm flexors/extensors, cubital fossa, terminal nerves and regional vessels. They map completely to the completed Upper Limb Anatomy H1–H5 family.
+
+No genuinely new handle survives prior-MSK collapse. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior family’s **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its delta is **+158 questions / +158 answer observations / +0 concepts**. Cumulative arithmetic is **5737 + 158 = 5895 questions**, **5630 + 158 = 5788 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5895 | 5788 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty-four processed unique hashes leaves **48 selected inventory paths / 47 unique SHA-256s**. Their sorted, newline-joined hash checksum is `06f50926aa760fb49a09d4c19d1a6d378978e1f536fb6e5bd5ec43c151ae8bfb`. Remaining audit-review debt is 21 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`54 + 47 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy MSK101-1 Training Questions 2.pdf`, SHA-256 `59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3`, 8 pages.
+
+**BLOCKED — S1 cannot be approved:** 48 selected inventory paths / 47 unique hashes remain untriaged.

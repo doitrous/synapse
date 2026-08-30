@@ -60,9 +60,10 @@ const PROCESSED_FAMILY_HASHES = [
   'edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012',
   '3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b',
   'f79a6d12f0f1e82e7b9a408e45ddaa25adfa678d72c8e14a68031b0b9f68dbd9',
+  '43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '577f15ca14d3feca295ee93bfe2544fd820a44738d8ccb61dddec482eb39e1df'
+const REMAINING_CHECKSUM = '06f50926aa760fb49a09d4c19d1a6d378978e1f536fb6e5bd5ec43c151ae8bfb'
 
 function option(name) {
   const prefix = `${name}=`
@@ -139,10 +140,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 21 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 21 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=21-substantive/5-sparse/7-empty/13-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=21-substantive/5-sparse/7-empty/12-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -158,7 +159,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '5737', '5630', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '5895', '5788', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -192,7 +193,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 53 || remainingHashes.length !== 48 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 54 || remainingHashes.length !== 47 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -200,7 +201,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 21 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 21 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -274,8 +275,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[50], sourcePages: 3, renderedReadPages: '1-3', teachingPages: '1-3', numberedTeachingNoteBlocks: 8, topicChecklistItems: 12, printedPromptObservations: 0, writtenPrompts: 0, objectiveMcqPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Absalam101 student-compiled exam-night teaching summary attributed to Dr. Ahmed Essam notes; Word metadata and EOM/final naming do not authenticate a MUST/MSK examination or faculty key', boundaryDisposition: 'eight numbered teaching-note screenshots on pages 1-2 and a twelve-item important-topic checklist on page 3; no question, written prompt, MCQ, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['radial artery is stated to continue the brachial artery in the cubital fossa without specifying the division level', 'source spelling and selective shorthand are retained without correction'] },
     { sha256: PROCESSED_FAMILY_HASHES[51], sourcePages: 34, renderedReadPages: '1-34', capturedQuestionLabels: 'Q1-Q13,Q15-Q35', absentQuestionLabels: ['Q14'], printedPromptObservations: 34, objectiveMcqPrompts: 28, trueFalsePrompts: 6, writtenPrompts: 0, practicalOrImagePrompts: 0, answerBearingPromptObservations: 34, printedKeyObservations: 0, officialFacultyKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 34, familyAnswerDelta: 34, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'direct screenshots of the Qorrect MSK101-1 Final Online Theoretical Exam interface showing 35 questions, 70 marks and a 42-mark pass threshold; the capture strongly supports exam provenance, but active student selections and hand-drawn underlines are not an official faculty key', boundaryDisposition: 'thirty-four captured objective prompts: nineteen anatomy MCQs Q1-Q13 and Q15-Q20, six anatomy true/false prompts Q21-Q26, and nine histology MCQs Q27-Q35; Q14 is absent from the file; no written, practical, image-identification, teaching-only or answer-only pages', preservedSourceDefects: ['Q14 is absent although the interface declares 35 questions', 'student selections and blue underlines sometimes conflict, including Q5', 'Q22 retains a selected True response without correction or faculty-key inference', 'multiple active-exam user accounts appear across screenshots; personal names are excluded from durable evidence'] },
     { sha256: PROCESSED_FAMILY_HASHES[52], sourcePages: 59, renderedReadPages: '1-59', printedQuestionLabels: 'Q1-Q200 with two distinct prompts labelled Q100', printedPromptObservations: 201, objectiveMcqPrompts: 201, printedKeyObservations: 201, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, internallyUniqueNormalizedStems: 161, repeatedStemGroups: 32, repeatedPromptExcessOccurrences: 40, familyQuestionDelta: 201, familyAnswerDelta: 201, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'student-style upper-limb practice bank exported from Notes through iOS Quartz on 23 October 2025; neither the file nor metadata prints a MUST institution, department, examiner, sitting, marks or faculty-key claim', boundaryDisposition: 'fifty-nine assessment-only pages containing 201 visible four-option MCQ occurrences and one inline Answer line per prompt; numbering spans Q1-Q200 but Q100 is used twice for different prompts; no written, practical, image-identification, teaching-only, answer-only or unkeyed material', preservedSourceDefects: ['Q100 labels two different prompts: thoracodorsal-artery function and serratus-anterior function', 'thirty-two normalized stems recur, producing forty duplicate excess occurrences while all 201 printed occurrences remain counted', 'repeated stems can carry different option constructions or answers, including the axillary-fascia items Q11 and Q26', 'printed wording and academically questionable answer selections are retained without correction'] },
+    { sha256: PROCESSED_FAMILY_HASHES[53], sourcePages: 60, renderedReadPages: '1-60', coverPages: '1', teachingOrIllustrationPages: '2-10,22-24,30-33,40-43,48-52 (40 and 52 mixed)', printedPromptObservations: 158, objectiveMcqPrompts: 150, writtenPrompts: 8, printedKeyObservations: 158, objectiveMcqKeyObservations: 150, writtenAnswerObservations: 8, sourceAbsentAnswers: 0, practicalOrImagePrompts: 0, familyQuestionDelta: 158, familyAnswerDelta: 158, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Mohamed Salama student study compilation titled ANATOMY with metadata subject MCQS and SUMMARY, created in Microsoft Word on 15 December 2023; no MUST institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'mixed teaching and keyed assessment compilation: 150 four-option MCQs across six blocks plus eight written or comparison prompts, each with a printed answer; anatomical tables and illustrations are teaching material and never practical or image-identification prompts', assessmentBlocks: [{ pages: '11-17', mcqPrompts: 30, writtenPrompts: 3, answerObservations: 33 }, { pages: '18-21', mcqPrompts: 15, writtenPrompts: 3, answerObservations: 18 }, { pages: '25-29', mcqPrompts: 25, writtenPrompts: 2, answerObservations: 27 }, { pages: '34-40', mcqPrompts: 35, writtenPrompts: 0, answerObservations: 35 }, { pages: '44-47', mcqPrompts: 20, writtenPrompts: 0, answerObservations: 20 }, { pages: '52-60', mcqPrompts: 25, writtenPrompts: 0, answerObservations: 25 }], preservedSourceDefects: ['question numbering restarts independently across six MCQ blocks and written blocks', 'repeated and near-repeated upper-limb prompts are retained as distinct printed occurrences and collapse only at the concept layer', 'printed key punctuation, capitalization, wording and academically questionable selections are retained without correction', 'the closing Arabic note says the author could not finish the remainder and describes the compilation as covering about ninety percent of the curriculum'] },
   ],
-  triageCumulative: { printedPromptObservations: 5737, printedKeyObservations: 5630, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 5895, printedKeyObservations: 5788, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },

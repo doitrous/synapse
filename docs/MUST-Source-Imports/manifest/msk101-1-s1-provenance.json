@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "7eaeff070c2d2a322241614b9c4f3865b621972089a7eb667fdf2b6c1a6e973a",
-    "triageMarkdown": "6986bd403bd5a28df6dd981e7cbda668b44be613c1b08278638affc0e42755d0"
+    "readinessMarkdown": "8cb7164d398349a091eaea8f75d618c3e940c8043c843d74f3c64c8f4478a676",
+    "triageMarkdown": "a89077a1b3e406c9bcd389ae1da745d781a812008f59aacc8774a95a74d6e594"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -64,6 +64,7 @@
       "3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b",
       "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
+      "43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3",
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
       "565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1",
@@ -105,7 +106,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 53
+    "uniqueSha256": 54
   },
   "completedSourceCoverage": [
     {
@@ -1462,23 +1463,94 @@
         "repeated stems can carry different option constructions or answers, including the axillary-fascia items Q11 and Q26",
         "printed wording and academically questionable answer selections are retained without correction"
       ]
+    },
+    {
+      "sha256": "43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3",
+      "sourcePages": 60,
+      "renderedReadPages": "1-60",
+      "coverPages": "1",
+      "teachingOrIllustrationPages": "2-10,22-24,30-33,40-43,48-52 (40 and 52 mixed)",
+      "printedPromptObservations": 158,
+      "objectiveMcqPrompts": 150,
+      "writtenPrompts": 8,
+      "printedKeyObservations": 158,
+      "objectiveMcqKeyObservations": 150,
+      "writtenAnswerObservations": 8,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "familyQuestionDelta": 158,
+      "familyAnswerDelta": 158,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Mohamed Salama student study compilation titled ANATOMY with metadata subject MCQS and SUMMARY, created in Microsoft Word on 15 December 2023; no MUST institution, department, examiner, sitting, marks or official faculty-key claim",
+      "boundaryDisposition": "mixed teaching and keyed assessment compilation: 150 four-option MCQs across six blocks plus eight written or comparison prompts, each with a printed answer; anatomical tables and illustrations are teaching material and never practical or image-identification prompts",
+      "assessmentBlocks": [
+        {
+          "pages": "11-17",
+          "mcqPrompts": 30,
+          "writtenPrompts": 3,
+          "answerObservations": 33
+        },
+        {
+          "pages": "18-21",
+          "mcqPrompts": 15,
+          "writtenPrompts": 3,
+          "answerObservations": 18
+        },
+        {
+          "pages": "25-29",
+          "mcqPrompts": 25,
+          "writtenPrompts": 2,
+          "answerObservations": 27
+        },
+        {
+          "pages": "34-40",
+          "mcqPrompts": 35,
+          "writtenPrompts": 0,
+          "answerObservations": 35
+        },
+        {
+          "pages": "44-47",
+          "mcqPrompts": 20,
+          "writtenPrompts": 0,
+          "answerObservations": 20
+        },
+        {
+          "pages": "52-60",
+          "mcqPrompts": 25,
+          "writtenPrompts": 0,
+          "answerObservations": 25
+        }
+      ],
+      "preservedSourceDefects": [
+        "question numbering restarts independently across six MCQ blocks and written blocks",
+        "repeated and near-repeated upper-limb prompts are retained as distinct printed occurrences and collapse only at the concept layer",
+        "printed key punctuation, capitalization, wording and academically questionable selections are retained without correction",
+        "the closing Arabic note says the author could not finish the remainder and describes the compilation as covering about ninety percent of the curriculum"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 5737,
-    "printedKeyObservations": 5630,
+    "printedPromptObservations": 5895,
+    "printedKeyObservations": 5788,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 49,
-    "uniqueSha256": 48,
-    "sortedNewlineSha256": "577f15ca14d3feca295ee93bfe2544fd820a44738d8ccb61dddec482eb39e1df",
+    "inventoryMetadataRows": 48,
+    "uniqueSha256": 47,
+    "sortedNewlineSha256": "06f50926aa760fb49a09d4c19d1a6d378978e1f536fb6e5bd5ec43c151ae8bfb",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
-      "audit-not-found": 13,
+      "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
       "substantive-text": 21
@@ -1486,15 +1558,15 @@
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
-    "audit-not-found": 13,
+    "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
     "substantive-text": 21
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 53,
-    "remainingUniqueSha256": 48,
+    "processedUniqueSha256": 54,
+    "remainingUniqueSha256": 47,
     "processedPlusRemaining": 101
   }
 }
