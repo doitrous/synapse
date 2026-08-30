@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "a9cf0f06cee310b3b6e836f2bd151db6ab18f90554bc9b3a815697d9289632bd",
-    "triageMarkdown": "a23cefea8f58bdc03a9b3518c0fa12757a0c6be064087aea9dfc4fd7de0d8c98"
+    "readinessMarkdown": "40d2b7d458ef35a1b3536a9a1a1231ff345257e342f1e51ffa1ab0bca86d57e8",
+    "triageMarkdown": "5cd5d5c7a8d34a56c2d1c59e0d1efb879aadc1b87bebd267395887af98e1d201"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -67,6 +67,7 @@
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
+      "b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7",
       "b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9",
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
@@ -75,7 +76,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 23
+    "uniqueSha256": 24
   },
   "completedSourceCoverage": [
     {
@@ -451,26 +452,46 @@
         "2014-2018 muscle-spindle Q6 carries an ambiguous blue cross/check and remains unkeyed",
         "2015 muscle-spindle Q5 is crossed out and remains unkeyed"
       ]
+    },
+    {
+      "sha256": "b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7",
+      "sourcePages": 18,
+      "renderedReadPages": "1-18",
+      "questionPages": "1-15",
+      "keyPages": "16-18",
+      "printedPromptObservations": 50,
+      "printedKeyObservations": 50,
+      "acceptedSourceHandles": 5,
+      "searchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "preservedSourceDefects": [
+        "Q26 lacks the period printed after other question labels",
+        "Q45 says emimysium is skeletal muscle",
+        "Q32/Q46, Q39/Q48, Q40/Q49, Q41/Q47 and Q15/Q42 repeat earlier function prompts"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1615,
-    "printedKeyObservations": 1543,
+    "printedPromptObservations": 1665,
+    "printedKeyObservations": 1593,
     "namedConceptsAssigned": 27,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 26
   },
   "remaining": {
-    "inventoryMetadataRows": 80,
-    "uniqueSha256": 78,
-    "sortedNewlineSha256": "7a8ed01cfc3975d9694056feb8c7e701e14b05b71a670345355515bf7d1e8411",
+    "inventoryMetadataRows": 79,
+    "uniqueSha256": 77,
+    "sortedNewlineSha256": "589f99205b1205acc07c5f7590c173d3a35c6994f9e1f41cd6a09d1284665c4a",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 8,
-      "substantive-text": 41
+      "substantive-text": 40
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -478,12 +499,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 8,
-    "substantive-text": 41
+    "substantive-text": 40
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 23,
-    "remainingUniqueSha256": 78,
+    "processedUniqueSha256": 24,
+    "remainingUniqueSha256": 77,
     "processedPlusRemaining": 101
   }
 }

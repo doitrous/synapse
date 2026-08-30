@@ -782,10 +782,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+153 question
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — skeletal pdf
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - skeletal pdf.pdf` | `b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7` | 18 | substantive-text audit sample | pages 1–18 rendered and read | Microsoft Word for Microsoft 365 document titled `SKELETAL MUSCLES`; PDF metadata names `200054807-Abdullah Khaled Muhammad Youssef` as author and records creation/modification on 13 January 2025. It supplies no institution, department, examiner, sitting, marks or official-key claim. It is a student-authored MCQ compilation, not a documented exam or official key. |
+
+### Exact MCQ, answer, written, practical, image and source-defect boundary
+
+Pages 1–15 contain a single consecutively numbered bank of **50 four-option MCQs**. Pages 16–18 are headed `ANSWERS` and provide one explicit answer for every label 1–50. There are **0 written-response prompts, 0 practical prompts, 0 image-identification prompts, 0 teaching-page prompts and 0 source-absent answers**.
+
+The exact assessment boundary is therefore **50 MCQ prompt occurrences / 50 prompt-matched printed answers**. Source defects and repetitions remain preserved without correction: Q26 lacks the period printed after other question numbers; Q45 says `emimysium is skeletal muscle` while its key selects the function of the whole-muscle outer covering; and the later bank repeats earlier function prompts, including Q32/Q46 (basal lamina), Q39/Q48 (T-tubule), Q40/Q49 (terminal cisternae), Q41/Q47 (sarcoplasmic reticulum) and Q15/Q42 (mitochondria). All repeated occurrences and their explicit key entries are counted exactly once as printed.
+
+### Source-first handles, exact searches and prior-MSK collapse
+
+All 50 occurrences were assigned once across five handles, reconciling as **8 + 12 + 18 + 8 + 4 = 50**. Exactly four repository searches were run for each handle (**20 searches total**):
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 8, skeletal-muscle origin, formation, sites, general function, form and nuclei (`skeletal muscle mesoderm myoblast fusion`; `skeletal muscle cylindrical peripheral nuclei`; `skeletal muscle shivering heat movement`; `skeletal muscle tongue pharynx esophagus attachment`) | no live/pending content hit; same origin, formation, morphology and general-function scope as completed MSK skeletal-muscle assignments — **prior-MSK collapse**. |
+| H2 | 12, sarcolemma/sarcoplasm terminology, connective-tissue coverings and basal lamina (`sarcolemma sarcoplasm sarcoplasmic reticulum`; `epimysium perimysium endomysium fascicles`; `basal lamina supports sarcolemma skeletal muscle`; `connective tissue wraps muscle fibers fascicles`) | one exact phrase reached an evidence-only concept-index entry but no content record; no live/pending content hit. The entire terminology/covering scope is already represented by completed MSK skeletal-muscle assignments — **prior-MSK collapse**. |
+| H3 | 18, excitation-contraction structures, organelles, myofibrils and band changes (`T-tubule terminal cisternae triad skeletal muscle`; `A band I band H zone muscle contraction`; `sarcoplasmic reticulum calcium mitochondria ATP muscle`; `myofibrils contraction sarcolemma action potentials`) | no live/pending content hit; same triad, calcium-handling, energy and sarcomere-change scope as completed MSK skeletal-muscle assignments — **prior-MSK collapse**. |
+| H4 | 8, red, white and intermediate fibres, metabolism and fatigue (`red white intermediate skeletal muscle fibers`; `myoglobin glycogen mitochondria fatigue muscle fibers`; `slow prolonged rapid short skeletal muscle fibers`; `myoglobin stores oxygen red muscle fiber`) | no live/pending content hit; same fibre-type, myoglobin, glycogen, mitochondrial and fatigue scope as completed MSK skeletal-muscle assignments — **prior-MSK collapse**. |
+| H5 | 4, satellite-cell repair, Duchenne dystrophy and biopsy (`satellite cells skeletal muscle regeneration injury`; `Duchenne dystrophin muscle weakness`; `muscle biopsy microscopic examination`; `skeletal muscle injury satellite differentiation`) | no live/pending content hit; same satellite-cell repair and Duchenne scope as completed MSK skeletal-muscle assignments; biopsy adds no distinct tested concept beyond this clinical-assessment grouping — **prior-MSK collapse**. |
+
+Source-level disposition is **0 live / 0 pending / 5 pre-prior candidates**, all five collapsing to prior MSK coverage. The post-prior concept delta is therefore **0**. The file is not byte-identical to a processed source, and its 50-item sequence is not an exact prompt-sequence duplicate, so all 50 prompt and answer observations are counted once.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+50 questions / +50 answers / +0 post-prior concepts**. Cumulative arithmetic is **1615 + 50 = 1665 questions**, **1543 + 50 = 1593 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1665 | 1593 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-three processed paths and unique hashes leaves **80 selected inventory paths / 78 unique SHA-256s**. Their sorted, newline-joined hash checksum is `7a8ed01cfc3975d9694056feb8c7e701e14b05b71a670345355515bf7d1e8411`. Remaining audit-review debt is 41 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`23 + 78 = 101`**.
+Removing these twenty-four processed paths and unique hashes leaves **79 selected inventory paths / 77 unique SHA-256s**. Their sorted, newline-joined hash checksum is `589f99205b1205acc07c5f7590c173d3a35c6994f9e1f41cd6a09d1284665c4a`. Remaining audit-review debt is 40 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`24 + 77 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - skeletal pdf.pdf`, SHA-256 `b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7`, 18 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - HISTO FINAL BY SALAMA.pdf`, SHA-256 `be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4`, 92 pages.
 
-**BLOCKED — S1 cannot be approved:** 80 selected inventory paths / 78 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 79 selected inventory paths / 77 unique hashes remain untriaged.

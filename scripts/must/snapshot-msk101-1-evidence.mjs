@@ -30,9 +30,10 @@ const PROCESSED_FAMILY_HASHES = [
   'f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51',
   '13bb48d71c0acabc39e05f22177b5a44eebd1dc849093754b083cdab57cc1a00',
   '14017cf209e94c9c5e431552ec4e934e42634c26a42e2bbbe9793736279e3f9f',
+  'b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '7a8ed01cfc3975d9694056feb8c7e701e14b05b71a670345355515bf7d1e8411'
+const REMAINING_CHECKSUM = '589f99205b1205acc07c5f7590c173d3a35c6994f9e1f41cd6a09d1284665c4a'
 
 function option(name) {
   const prefix = `${name}=`
@@ -109,10 +110,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 41 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 40 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=41-substantive/8-sparse/14-empty/14-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=40-substantive/8-sparse/14-empty/14-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -128,7 +129,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '1615', '1543', '27']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '1665', '1593', '27']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -162,7 +163,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 23 || remainingHashes.length !== 78 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 24 || remainingHashes.length !== 77 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -170,7 +171,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 41 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 40 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -214,8 +215,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[20], sourcePages: 17, renderedReadPages: '1-17', coverPages: '1', teachingPages: '2-5,11-12,17', questionPages: '5-10,13-16', keyPages: '10-11,16', printedPromptObservations: 40, printedKeyObservations: 40, acceptedSourceHandles: 5, searchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['first-bank hypodermal-fat-cell prompt repeated as Q3 and Q18', 'second-bank Q8 less-numerous wording preserved with printed axilla key', 'second-bank Q13 layer answer preserved despite adjacent teaching tension'] },
     { sha256: PROCESSED_FAMILY_HASHES[21], sourcePages: 19, renderedReadPages: '1-19', teachingPages: '1,4-6,11-12,18-19', questionPages: '2-4,7-11,12-17', keyPages: '4,11,17', printedPromptObservations: 54, printedKeyObservations: 54, acceptedSourceHandles: 5, searchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['second-bank Q7 Arabic joke option', 'second-bank Q17 football joke option', 'third key first answer token lacks printed 1 label', 'third-bank Q13 key conflicts with adjacent perichondrium teaching'] },
     { sha256: PROCESSED_FAMILY_HASHES[22], sourcePages: 29, renderedReadPages: '1-29', coverPages: '1', indexPages: '2', questionPages: '3-29', inlineAnswerPages: '3-29', printedPromptObservations: 153, printedKeyObservations: 151, sourceAbsentAnswers: 2, acceptedSourceHandles: 6, searchesRun: 24, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['2014-2018 sequence jumps from 24 to 26', 'Q26 option label 2c is malformed', '2014-2018 muscle-spindle Q6 carries an ambiguous blue cross/check and remains unkeyed', '2015 muscle-spindle Q5 is crossed out and remains unkeyed'] },
+    { sha256: PROCESSED_FAMILY_HASHES[23], sourcePages: 18, renderedReadPages: '1-18', questionPages: '1-15', keyPages: '16-18', printedPromptObservations: 50, printedKeyObservations: 50, acceptedSourceHandles: 5, searchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['Q26 lacks the period printed after other question labels', 'Q45 says emimysium is skeletal muscle', 'Q32/Q46, Q39/Q48, Q40/Q49, Q41/Q47 and Q15/Q42 repeat earlier function prompts'] },
   ],
-  triageCumulative: { printedPromptObservations: 1615, printedKeyObservations: 1543, namedConceptsAssigned: 27, liveHits: 0, pendingHits: 1, newConcepts: 26 },
+  triageCumulative: { printedPromptObservations: 1665, printedKeyObservations: 1593, namedConceptsAssigned: 27, liveHits: 0, pendingHits: 1, newConcepts: 26 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
