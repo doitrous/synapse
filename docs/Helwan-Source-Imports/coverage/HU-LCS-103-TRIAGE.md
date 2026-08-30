@@ -9681,3 +9681,142 @@ The exact next direct/non-external tier-3 manifest-order debt is
 `Year 1/LCS 103/All Subjects/Questions/MCQs/`. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 152 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 79 — Tier-3 direct LCS Pathology short-essay and short-answer handout with immediate printed answers
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_dc883db2a46aec7986e5` |
+| File / SHA-256 | `MCQs - College MCQs 103 LMC SEQs _ SAQs.pdf` / `dc883db2a46aec7986e5772fe0431e1afe04f3aeeb51b2925c7f73f1bd073f2d` |
+| File boundary | 169,031 bytes · unencrypted PDF · 12 physical native-text pages · US Letter, 612 × 792 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - College MCQs 103 LMC SEQs _ SAQs.pdf` |
+| Visible provenance | Cover p. 1 prints `103 LOC`, `Short Essay and Short Answer Questions`, `Assistant Professor Hebat Allah A. Amin` and `2024-2025`. The named author matches the direct LCS Pathology question-bank provenance accepted in Families 17–19. Metadata title is `103 LOC`, subject is `Short Essay and Short Answer Questions`, author is `Karim`, and creator/producer is Microsoft Word for Microsoft 365. |
+| Authority finding | Direct course-authored LCS-103 Pathology revision-question evidence, eligible at question-bank authority. It is not labelled as a formal sitting paper, response form, practical station sheet or official Helwan answer key; `LOC` is retained exactly and is not silently expanded. |
+
+The assigned SHA-256, byte size and 12-page boundary were recomputed and match. All 12 pages
+were rendered at 180 dpi and read visually against the complete native text layer. Page 1 is
+the provenance cover. Physical pp. 2–8 contain **20 numbered short-essay prompts**, each
+immediately followed by a source-printed answer. Physical pp. 9–12 contain **55 numbered
+short-answer prompts**, again each immediately followed by a source-printed bullet answer.
+Despite the manifest filename's `MCQs`, there are no options or MCQs. The complete boundary
+is therefore **75 ordinary written prompt occurrences / 75 direct printed answer units**.
+
+| Physical page | Visible boundary | Written prompts | Direct printed answers |
+|---:|---|---:|---:|
+| 1 | cover only | 0 | 0 |
+| 2 | SEQ 1–3 | 3 | 3 |
+| 3 | SEQ 4–6 | 3 | 3 |
+| 4 | SEQ 7–9 | 3 | 3 |
+| 5 | SEQ 10–12 | 3 | 3 |
+| 6 | SEQ 13–16 | 4 | 4 |
+| 7 | SEQ 17–19 | 3 | 3 |
+| 8 | SEQ 20 | 1 | 1 |
+| 9 | SAQ 1–16 | 16 | 16 |
+| 10 | SAQ 17–30 | 14 | 14 |
+| 11 | SAQ 31–42; answer 42 continues | 12 | 11 |
+| 12 | answer 42 continuation; SAQ 43–55 | 13 | 14 |
+| **Family 79** | **SEQ 1–20 and SAQ 1–55** | **75** | **75** |
+
+The immediate prose/bullets are answer evidence, not separate declarative teaching scopes.
+There is no specimen, image/trace interpretation, practical/station task, teaching plate,
+apparatus task, response blank, masked label or unresolved callout. Practical delta is
+exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical
+scopes**.
+
+Two answer-quality risks remain literal. SAQ 6 asks which condition can arise from autonomous
+or compensatory PTH hypersecretion but prints the tautological answer `Hyperparathyroidism`;
+that answer is not silently replaced with osteitis fibrosa cystica. SAQ 32 prints the dual
+answer `Fibrosarcoma or Synovial Sarcoma` for the young-adult destructive thigh spindle-cell
+case, whereas the earlier direct CBL occurrence printed `Synovial sarcoma`; both direct source
+answers remain attached for later review.
+
+### One-to-one assignment and within-source collapse
+
+Every prompt occurrence is assigned exactly once. The 75 occurrences collapse to **54
+source-distinct tested handles**, so `75 - 54 = 21` occurrences are same-objective repeats.
+The assignment retains compound comparison/mechanism requests as their own objectives rather
+than treating each printed answer bullet as a new prompt.
+
+| Source evidence | One-to-one handle assignment |
+|---|---|
+| SEQ 1–5 | `SEQ1→bone-disease-category-classification`; `SEQ2→achondroplasia-clinical-pattern`; `SEQ3→osteopenia-vs-osteoporosis-comparison`; `SEQ4→osteoporosis-multifactorial-risk-profile`; `SEQ5→osteitis-fibrosa-cystica-hyperparathyroid-development-and-features` |
+| SEQ 6–10 | `SEQ6→osteoporosis-vs-osteitis-fibrosa-cystica-laboratory-differential`; `SEQ7→rickets-vs-osteomalacia-age-and-mineralization`; `SEQ8→paget-disease-sqstm1-environmental-and-viral-etiology`; `SEQ9→paget-disease-cardiac-and-joint-complications`; `SEQ10→fracture-types-and-treatment-implications` |
+| SEQ 11–15 | `SEQ11→osteonecrosis-causes-and-vascular-occlusion-mechanisms`; `SEQ12→pyogenic-osteomyelitis-presentation-and-staphylococcus-aureus`; `SEQ13→pyogenic-osteomyelitis-hematogenous-and-direct-routes`; `SEQ14→pott-vs-pyogenic-osteomyelitis`; `SEQ15→pott-vs-vertebral-metastasis-disc-involvement` |
+| SEQ 16–20 | `SEQ16→cold-abscess-tuberculous-definition-and-context`; `SEQ17→rheumatoid-arthritis-vs-osteoarthritis-comparison`; `SEQ18→seronegative-spondyloarthropathy-shared-characteristics`; `SEQ19→gout-vs-pseudogout-crystal-comparison`; `SEQ20→juvenile-idiopathic-vs-rheumatoid-arthritis-comparison` |
+| SAQ 1–10 | `SAQ1→bone-disease-category-classification`; `SAQ2→achondroplasia-clinical-pattern`; `SAQ3→osteogenesis-imperfecta-type-I-collagen`; `SAQ4→osteopetrosis-reduced-resorption-and-skeletal-sclerosis`; `SAQ5→senile-and-postmenopausal-osteoporosis-subtypes`; `SAQ6→autonomous-or-compensatory-pth-hypersecretion-condition-as-printed`; `SAQ7→rickets-vs-osteomalacia-age-and-mineralization`; `SAQ8→paget-disease-sqstm1-environmental-and-viral-etiology`; `SAQ9→fracture-types-and-treatment-implications`; `SAQ10→osteonecrosis-causes-and-vascular-occlusion-mechanisms` |
+| SAQ 11–20 | `SAQ11,SAQ13→chronic-pyogenic-osteomyelitis-clinical-diagnosis`; `SAQ12→pott-disease-clinical-pathologic-diagnosis`; `SAQ14→staphylococcus-aureus-pyogenic-osteomyelitis`; `SAQ15→stress-fracture-clinical-radiologic-pattern`; `SAQ16→osteoporosis-density-and-fragility-diagnosis`; `SAQ17→older-adult-high-alp-skull-bone-disorder-differential`; `SAQ18→paget-disease-cardiac-and-joint-complications`; `SAQ19→osteogenesis-imperfecta-type-I-collagen`; `SAQ20→fracture-nonunion-risk-poor-alignment` |
+| SAQ 21–30 | `SAQ21→achondroplasia-clinical-pattern`; `SAQ22,SAQ27→osteoarthritis-clinical-etiology-differential`; `SAQ23,SAQ24→malignancy-associated-gout-hyperuricemia`; `SAQ25,SAQ28→ankylosing-spondylitis-clinical-and-sacroiliac-ankylosis-pattern`; `SAQ26→rheumatoid-arthritis-anti-ccp-serology`; `SAQ29→juvenile-idiopathic-arthritis-clinical-pattern`; `SAQ30→ganglion-cyst-clinicopathologic-pattern` |
+| SAQ 31–40 | `SAQ31→childhood-vaginal-rhabdomyosarcoma-clinicopathologic-pattern`; `SAQ32→synovial-sarcoma-young-adult-thigh-clinicopathologic-pattern`; `SAQ33→fibrosarcoma-herringbone-spindle-cell-pattern`; `SAQ34→infantile-hemangioma-clinical-course`; `SAQ35→giant-cell-tumor-stromal-cell-biology`; `SAQ36→chondrosarcoma-vs-osteosarcoma-comparison`; `SAQ37→ewing-sarcoma-clinical-radiology`; `SAQ38→sunburst-periosteal-lifting-bone-tumor-differential`; `SAQ39→osteochondroma-typical-location`; `SAQ40→osteoid-osteoma-clinicoradiologic-pattern` |
+| SAQ 41–50 | `SAQ41→lipoma-clinicopathologic-pattern`; `SAQ42→liposarcoma-retroperitoneal-clinicopathologic-pattern`; `SAQ43→bland-fibrous-finger-mass-differential`; `SAQ44→staphylococcus-aureus-pyogenic-osteomyelitis`; `SAQ45→rheumatoid-nodule-fibrinoid-necrosis`; `SAQ46→rheumatoid-arthritis-vs-osteoarthritis-comparison`; `SAQ47→juvenile-idiopathic-vs-rheumatoid-arthritis-comparison`; `SAQ48→ganglion-cyst-clinicopathologic-pattern`; `SAQ49→pott-vs-vertebral-metastasis-disc-involvement`; `SAQ50→cold-abscess-tuberculous-definition-and-context` |
+| SAQ 51–55 | `SAQ51→soft-tissue-tumor-tissue-origins`; `SAQ52→benign-soft-tissue-tumor-characteristics`; `SAQ53→benign-vs-malignant-soft-tissue-tumor-comparison`; `SAQ54→lipoma-clinicopathologic-pattern`; `SAQ55→childhood-vaginal-rhabdomyosarcoma-clinicopathologic-pattern` |
+
+### Searches, prior-LCS adjudication and module effect
+
+Each of the 54 handles received four required searches across live state, pending state,
+`docs/import-ready`, `docs/questions-import-ready`, every source-import root and accepted
+prior LCS: **54 × 4 = 216 required search invocations**. Exact prior assessment reuse is
+substantial because Families 17–23 already captured the Pathology MCQ/CBL disease cases.
+Teaching-only and practical-only hits were not miscounted as prior eligible written prompts.
+
+| Handle group | Same-scope result | Eligible-module effect |
+|---|---|---|
+| `achondroplasia-clinical-pattern`; `paget-disease-cardiac-and-joint-complications`; `rheumatoid-arthritis-vs-osteoarthritis-comparison` | Exact accepted Families 12, 18, 20, 22 and 63 tested scopes | prior eligible-LCS reuse; +0 |
+| `osteogenesis-imperfecta-type-I-collagen`; `chronic-pyogenic-osteomyelitis-clinical-diagnosis`; `pott-disease-clinical-pathologic-diagnosis`; `staphylococcus-aureus-pyogenic-osteomyelitis`; `stress-fracture-clinical-radiologic-pattern`; `fracture-nonunion-risk-poor-alignment` | Exact accepted Families 17 and 20 handles | prior eligible-LCS reuse; +0 |
+| `osteoporosis-density-and-fragility-diagnosis`; `older-adult-high-alp-skull-bone-disorder-differential`; `osteoarthritis-clinical-etiology-differential`; `malignancy-associated-gout-hyperuricemia`; `ankylosing-spondylitis-clinical-and-sacroiliac-ankylosis-pattern`; `rheumatoid-arthritis-anti-ccp-serology`; `juvenile-idiopathic-arthritis-clinical-pattern`; `ganglion-cyst-clinicopathologic-pattern` | Exact accepted Families 17–22 handles | prior eligible-LCS reuse; +0 |
+| `childhood-vaginal-rhabdomyosarcoma-clinicopathologic-pattern`; `synovial-sarcoma-young-adult-thigh-clinicopathologic-pattern`; `fibrosarcoma-herringbone-spindle-cell-pattern`; `infantile-hemangioma-clinical-course`; `giant-cell-tumor-stromal-cell-biology`; `chondrosarcoma-vs-osteosarcoma-comparison`; `ewing-sarcoma-clinical-radiology`; `sunburst-periosteal-lifting-bone-tumor-differential`; `osteochondroma-typical-location`; `osteoid-osteoma-clinicoradiologic-pattern`; `lipoma-clinicopathologic-pattern`; `liposarcoma-retroperitoneal-clinicopathologic-pattern`; `bland-fibrous-finger-mass-differential` | Exact accepted Families 17–23 handles; SAQ 32 adds conflicting dual answer evidence and SAQ 43 adds the first direct `Fibroma` answer to its already-counted keyless differential | prior eligible-LCS reuse; +0 |
+| `soft-tissue-tumor-tissue-origins`; `benign-soft-tissue-tumor-characteristics`; `benign-vs-malignant-soft-tissue-tumor-comparison` | Exact accepted Families 12 and 63 scopes | prior eligible-LCS reuse; +0 |
+| `bone-disease-category-classification`; `osteopenia-vs-osteoporosis-comparison`; `osteoporosis-multifactorial-risk-profile`; `osteitis-fibrosa-cystica-hyperparathyroid-development-and-features`; `osteoporosis-vs-osteitis-fibrosa-cystica-laboratory-differential`; `rickets-vs-osteomalacia-age-and-mineralization`; `paget-disease-sqstm1-environmental-and-viral-etiology`; `fracture-types-and-treatment-implications`; `osteonecrosis-causes-and-vascular-occlusion-mechanisms`; `pyogenic-osteomyelitis-presentation-and-staphylococcus-aureus`; `pyogenic-osteomyelitis-hematogenous-and-direct-routes`; `pott-vs-pyogenic-osteomyelitis`; `pott-vs-vertebral-metastasis-disc-involvement`; `cold-abscess-tuberculous-definition-and-context`; `seronegative-spondyloarthropathy-shared-characteristics`; `gout-vs-pseudogout-crystal-comparison`; `juvenile-idiopathic-vs-rheumatoid-arthritis-comparison`; `osteopetrosis-reduced-resorption-and-skeletal-sclerosis`; `senile-and-postmenopausal-osteoporosis-subtypes`; `autonomous-or-compensatory-pth-hypersecretion-condition-as-printed` | No one substantive live, pending or prior eligible tested record owns each complete requested scope. Earlier auxiliary, theoretical or practical evidence does not consume written-assessment novelty. | new to eligible LCS; **+20 new** |
+| `rheumatoid-nodule-fibrinoid-necrosis` | Pending Pathology material owns rheumatoid nodules as a fibrinoid-necrosis example; no prior eligible tested handle owns the direct association | pending; new to eligible LCS; **+1 pending** |
+
+Thus **33 prior eligible reuses + 21 additions = 54 handles**. The module delta is **0 live
++ 1 pending + 20 new = 21 concepts**. Search matches establish scope coverage only; they do
+not replace or infer any of the 75 source-printed answers.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+| Evidence dimension | Before Family 79 | Family 79 delta | After Family 79 |
+|---|---:|---:|---:|
+| Eligible observed question records | 589 | +75 | 664 |
+| Eligible printed question keys/answers | 299 | +75 | 374 |
+| Eligible distinct tested concepts | 295 | +21 | 316 |
+| Question live / pending / new | 11 / 102 / 182 | +0 / +1 / +20 | 11 / 103 / 202 |
+| Stand-alone practical/station prompt occurrences | 7 | +0 | 7 |
+| Distinct practical teaching plates, quantified | 458 verified minimum | +0 | 458 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,691 verified minimum | +0 | 2,691 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 149 | +0 | 149 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 92 | +0 / +0 / +0 | 0 / 0 / 92 |
+| Practical content records created | 0 | +0 | 0 |
+
+Arithmetic checks are `20 SEQs + 55 SAQs = 75 prompts`, `75 immediate answers`, `75 - 21
+same-objective repeats = 54 handles`, `33 prior eligible reuses + 21 additions = 54`, `0 +
+1 + 20 = 21`, `589 + 75 = 664`, `299 + 75 = 374`, `295 + 21 = 316`, and `11 +
+103 + 202 = 316`. The separately tracked external-bank checkpoint remains **321 questions /
+321 printed keys / 100 distinct concepts = 10 live / 66 pending / 24 new**. Practical totals
+remain **7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with practical
+scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the audited all-rank remainder. Removing its sole row from
+the accepted Family-78 remainder leaves **151 all-rank path instances / 142 unique hashes**:
+tier 3 **69 paths / 65 unique hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 /
+11**. The Family-78 remainder first recomputes to path checksum
+`548d5751210d73bcf1f0f1cb46d5247ee03c5df06420eb55c1c2d98707bc9eba` and unique-hash
+checksum `b15e156db6961266f9f5aed54f327280b963e695b270b41bda77d9de57b80b23`.
+For the exact post-Family-79 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`a748f6798dfdf45a5f092f8a3b1ad994ded6e2a4193e427ddcd511978edc2016`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`518fc8c38d6f8163be8a7e1fa51d269b75c1b3249e1d2293771048f90cfc5d58`.
+
+The exact next direct/non-external tier-3 manifest-order path debt is
+`src_cfe1bf246bd0aa85b06b`, `MCQs - College MCQs 103 question.pdf` (593,337 bytes; 16
+OCR-needed pages; SHA-256
+`cfe1bf246bd0aa85b06b5a98d0d4ef74bb17dd9002a56eef66b66912d03a3508`) under
+`Year 1/LCS 103/All Subjects/Questions/MCQs/`. It is bitwise identical to the already read
+Family-77 `103 question.pdf` path, but remains a separate unadjudicated manifest path; the
+next family should consume that path with zero second content inventory. **Overall LCS-103
+remains `S1 TRIAGE — NOT APPROVED`:** 151 tier-3/tier-6/rank-9 path debts remain. No
+download, ID, content record, catalogue update, import or source copy was created.
