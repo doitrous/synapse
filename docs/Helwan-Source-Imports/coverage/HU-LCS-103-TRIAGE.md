@@ -19055,3 +19055,99 @@ unencrypted; 595.32 × 842.04 pt; SHA-256
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 51 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 180 — Tier-6 attributed genetic-muscle and glycogen-storage teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_158f6daca48fcafb2cb0` / `158f6daca48fcafb2cb01d538774809c1af615986e034c85c547590c037ee41b` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/genetic ms disease (1).pdf` |
+| Physical verification | **1,384,339 bytes; 9 native-text A4 pages; tagged; unencrypted; PDF 1.7**. Pages 1–3 are portrait **595.32 × 842.04 pt** and pp. 4–9 are landscape **842.04 × 595.32 pt**; this mixed geometry supersedes the manifest shorthand that describes all pages as portrait. The full hash, byte size and page count match the manifest. |
+| Visible / metadata provenance | P. 1 prints `GENETIC DISEASES OF THE MUSCLES`; every page uses a biochemistry/metabolism template, footer `DR. AE` and footer topic `energy sources of muscles`. Metadata separately names author `Mahmoud Yasser Elatawy`, Microsoft Word LTSC creator/producer and 21 May 2025 creation/modification. No page prints a university, cohort, module code, examination sitting or marks. |
+| Authority finding | Attributed local tier-6 biochemistry teaching-summary evidence. The visible `DR. AE` attribution and metadata author are preserved as distinct source layers. It is not a recoverable sitting, response form, practical station or marking guide. |
+
+All **9/9 pages** were rendered at 180 dpi, inspected at full resolution and read against the
+complete native text layer; all nine complete-page render hashes are distinct. The complete
+source-first boundary is:
+
+| Pages | Complete supplied teaching composition | Assessment / practical boundary |
+|---:|---|---|
+| 1 | Duchenne muscular dystrophy mutation, dystrophin-complex role, fibre loss, inheritance, clinical course and Gower-sign statements | one completed teaching page; both dystrophin-complex diagrams are fully labelled source illustrations |
+| 2 | labelled muscle-membrane pathway, clinical Gower photograph and sequence, and X-linked inheritance diagrams | one completed teaching page; all images and diagram labels are supplied simultaneously, with no identify instruction or hidden label |
+| 3 | inherited-cardiomyopathy definition, familial frequency, myocyte damage, structural/metabolic gene mechanisms and genetic heterogeneity | one completed teaching page |
+| 4 | glycogen-storage-disease definition and muscle-form comparison of Pompe, McArdle and Tarui diseases | one completed teaching page; the McArdle `Effect` cell prints `--------------`, a source no-content state rather than a learner response field |
+| 5 | clinical features of Pompe, McArdle and Tarui diseases plus glycogen-storage-disease definition, incidence, tissue distribution, severity and cause | one completed teaching page |
+| 6 | glycogen-storage-disease consequences, hepatic/myopathic classification, general features and inheritance | one completed teaching page; the X-linked details cell prints `—`, a source no-detail state rather than a learner response field |
+| 7 | comparative glycogen-storage-disease types I–VIII with supplied causes and characteristics | one completed teaching page |
+| 8 | fully labelled glycogen-metabolism pathways and supplied Pompe/Cori comparison details | one completed teaching page; simultaneous labels are teaching, not practical mappings |
+| 9 | McArdle phenotype, the source's type-`VIE` Hers entry and a fully labelled Von-Gierke/glycolysis diagram | one completed teaching page; no masked or unresolved callout |
+
+Arithmetic is **9 completed page-level teaching compositions = 1 + 1 + 1 + 1 + 1 + 1 +
+1 + 1 + 1**. The physical assessment boundary is **0 eligible or external prompts / 0 MCQ
+or written prompts / 0 keys-or-answers / 0 unkeyed assessment prompts**. Every heading,
+table, pathway, photograph, inheritance diagram and labelled figure is declarative teaching.
+
+There is no identify instruction, masked label, numbered station, learner-completed map,
+response blank or practical key. Practical delta is exactly **0 practical or station prompts /
+0 teaching plates / 0 mappings / 0 unresolved practical residues / 0 practical keys / 0
+practical scopes**. The two printed no-content table states on pp. 4 and 6 remain source
+evidence without inferred completion and do not become learner-response or practical residue.
+Other source wording remains unrepaired, including the DMD age/course statements, the
+cardiomyopathy familial-frequency claim, `type VIE` and all printed disease/enzyme labels.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The nine completed teaching pages consolidate to the same nine scopes already governed by
+Family 52:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `duchenne-dystrophin-complex-and-muscle-fibre-loss` · pp. 1–2 | Duchenne dystrophin glycoprotein complex; dystrophin links actin extracellular matrix; dystrophin deficiency muscle fibre loss; DMD membrane instability | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `duchenne-inheritance-gower-sign-and-clinical-course` · pp. 1–2 | Duchenne X linked recessive Gower sign; DMD age four wheelchair twelve; Duchenne cardiomegaly fatal age thirty; Gower manoeuvre muscular dystrophy | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `inherited-cardiomyopathy-structural-and-metabolic-genes` · p. 3 | inherited cardiomyopathy structural metabolic genes; familial cardiomyopathy myosin troponin; cardiomyopathy fatty acid oxidation oxidative phosphorylation; monogenic heterogeneous cardiomyopathy | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `glycogen-storage-disease-definition-classification-and-inheritance` · pp. 4–6 | glycogen storage disease definition inheritance; hepatic myopathic GSD types; glycogen synthesis degradation enzyme defects; GSD autosomal recessive X linked | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `pompe-disease-acid-alpha-glucosidase-deficiency` · pp. 4–5, 7–8 | Pompe acid alpha glucosidase deficiency; glycogen storage disease II lysosome; Pompe cardiomegaly hypotonia hepatomegaly; lysosomal glycogen cardiac failure | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `mcardle-disease-muscle-phosphorylase-deficiency` · pp. 4–5, 7, 9 | McArdle myophosphorylase deficiency; glycogen storage disease V skeletal muscle; McArdle exercise cramps fatigue; muscle phosphorylase GSD V | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `tarui-disease-muscle-pfk-deficiency` · pp. 4–5, 7 | Tarui phosphofructokinase deficiency; glycogen storage disease VII muscle erythrocytes; Tarui exercise intolerance haemolysis; muscle PFK myoglobinuria hyperbilirubinemia | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `glycogen-storage-disease-type-enzyme-organ-map` · pp. 4–8 | glycogen storage diseases types enzymes table; GSD enzyme defect organ characteristics; glycogen pathway GSD I II III IV V VI VII; glycogenosis comparative map | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+| `von-gierke-disease-metabolic-consequences` · pp. 7–9 | von Gierke glucose 6 phosphatase deficiency; GSD I hypoglycemia lactic acidosis; von Gierke hyperuricemia hyperlipidemia hepatomegaly; glucose 6 phosphate metabolic consequences | Exact accepted Family 52 teaching scope — prior-LCS reuse. |
+
+Each of the **nine accepted teaching handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **9 × 4 = 36 required search invocations**. The literal query ledger returns
+`0 live / 0 pending / 1 prior-source-import / 1 accepted-LCS-ledger` file for every query;
+complete-scope comparison confirms the accepted occurrence is Family 52. Final disposition is
+**9 prior-LCS theoretical-teaching reuses / 0 additive live / 0 additive pending / 0 additive
+new scopes**. There is no assessment or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This source hash occurs once in Family 179's remainder. Removing its sole path changes the
+all-rank remainder from **51 paths / 48 unique hashes** to **50 paths / 47 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **36 paths / 36 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 179's prior checksums are
+`dbb1449a9907b63c8efbef1d5beffae3642fc258826d5946610fb1919d0092d5` (paths) and
+`f11ebe0b1033605eaa109d3e1e12e75ece4718f3c70c5425c238821556e27eb3` (unique hashes).
+For the exact post-Family-180 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`7deaba7ab314175af1eae85275c8042014dd7fc25165edbea1a9a85b81e6df54`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`eb45e0650ed0355d8549b2bbff5482e2a70236da3e653c9f119a0ca51f09c912`.
+
+The exact next manifest-order debt is tier-6 `src_3518e21a24251a82f9b6`,
+`leg _0foot_250703_124017.pdf` (462,822 bytes; 17 native-text 960 × 540 pt pages; untagged;
+unencrypted; PDF 1.7; SHA-256
+`3518e21a24251a82f9b69e8f98304ab5f1fcdb6182ace61fcf0215df3ba59aac`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page is
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 50 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
