@@ -3939,3 +3939,41 @@ Removing the ninety-eight processed unique hashes leaves **3 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/muscles of the upper limb MVU (by Lujain Saleh).pdf`, SHA-256 `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`, 5 pages.
 
 **BLOCKED — S1 cannot be approved:** 3 selected inventory paths / 3 unique hashes remain untriaged.
+
+## Completed teaching-only source — muscles of the upper limb MVU (by Lujain Saleh)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/muscles of the upper limb MVU (by Lujain Saleh).pdf` | `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3` | 5 | audit-not-found inventory label | pages 1–5 rendered and read | Filename-attributed Lujain Saleh digital handwritten tables, produced through iOS 17.4 Quartz on 31 October 2024. No visible byline, institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/muscles of the upper limb MVU (by Lujain Saleh).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+All five pages are completed comparative teaching tables. Page 1 covers pectoralis major, pectoralis minor and subclavius. Page 2 covers trapezius, latissimus dorsi and serratus anterior. Page 3 covers levator scapulae, rhomboid minor, rhomboid major, deltoid and the inferior belly of omohyoid. Page 4 covers supraspinatus, infraspinatus, teres minor, teres major and subscapularis. Page 5 covers biceps, coracobrachialis, brachialis, triceps and articularis cubiti. Across these sections, all origin, insertion, nerve-supply and action fields are already populated for twenty-one named muscles.
+
+The exact boundary is **5 teaching-only comparative-table pages / 21 named muscle profiles / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. No table cell is presented as a blank, question, response space or station instruction.
+
+### Authority, source truth and search gate
+
+The filename attributes Lujain Saleh and the iOS Quartz metadata supports production provenance only; no visible byline authenticates the attribution. Nothing in the carrier establishes a MUST/MSK institution, department, examiner, sitting, marks or official assessment key. Digital handwriting, spelling, highlighted table wording and selective anatomy claims remain uncorrected observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Completed comparison-table headings and populated fields are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-nine processed unique hashes leaves **2 selected inventory paths / 2 unique SHA-256s**. Their sorted, newline-joined hash checksum is `a364e82dc58eff95efe8f6d6cec0199980a04554a93c46a3ba4cb2e3c58d1053`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 2 audit-not-found rows, and unique-hash accounting is **`99 + 2 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm part 2.jpg`, SHA-256 `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`, one image.
+
+**BLOCKED — S1 cannot be approved:** 2 selected inventory paths / 2 unique hashes remain untriaged.

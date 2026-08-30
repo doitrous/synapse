@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The ninety-eight completed read-only source hashes cover one hundred selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed one-page `Posterior Compartment Of The Arm (TRICEPS) (By Roaa).pdf`, SHA-256 `bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f`, is a filename-attributed Roaa handwritten teaching carrier. Its exact boundary is **1 teaching-only notebook page / 1 labeled triceps profile / 1 articularis-cubiti inset profile / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename attribution and Notes/iOS Quartz metadata do not establish visible authorship, institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The ninety-nine completed read-only source hashes cover one hundred one selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed five-page `muscles of the upper limb MVU (by Lujain Saleh).pdf`, SHA-256 `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`, is a filename-attributed Lujain Saleh digital handwritten teaching carrier. Its exact boundary is **5 completed comparative teaching-table pages / 21 named muscle profiles / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename attribution and iOS Quartz metadata do not establish visible authorship, institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f`.
+Latest processed family hash: `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`.
 
-Recent processed family hash retained for reconciliation: `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495`.
+Recent processed family hash retained for reconciliation: `bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -106,8 +106,10 @@ Current teaching-source append: `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0
 
 Current teaching-source append: `bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f`.
 
-Removing them leaves **3 inventory paths / 3 unique SHA-256s**, checksum `4c3661e98932e741e1312daa04a119a99c50f952e5d16cbc57293c9d0d0479a0`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 3 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/muscles of the upper limb MVU (by Lujain Saleh).pdf`, SHA-256 `05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3`, 5 pages.
+Removing them leaves **2 inventory paths / 2 unique SHA-256s**, checksum `a364e82dc58eff95efe8f6d6cec0199980a04554a93c46a3ba4cb2e3c58d1053`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 2 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 3 selected inventory paths / 3 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/CT Midterm part 2.jpg`, SHA-256 `9416fd5f88d04c385211163803a7b0cabefc15ad1e7310e005e731bcaffcb8cc`, one image.
+
+**BLOCKED — S1 cannot be approved:** 2 selected inventory paths / 2 unique hashes remain untriaged.

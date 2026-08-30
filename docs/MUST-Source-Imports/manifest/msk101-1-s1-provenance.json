@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "5633cfa6628d26e6555bd4852d38c64853b68be0d3af9a1cf9cbb8fcea681b98",
-    "triageMarkdown": "232dfacaf6625c448f5e44b3b7f6342fe3b07b593b10d0b39e21f3bba7a106a5"
+    "readinessMarkdown": "3bf465b41d0a1baa760fd3e03f2938b9447e6dff35f88df6e108698024ec92ab",
+    "triageMarkdown": "2949686e14bdd97c4015f409445dd8935457087a224a12087704bfb4821310e5"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -53,6 +53,7 @@
     "sha256": [
       "000e8e77fc82ffc6d211870fa3f07cb0fcc334a3b9b64c8596f445670f996e4f",
       "0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a",
+      "05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3",
       "0856251edfee586c1b993f1898529f765d033c498cb03fd0fcff2f3b9ce2b6f7",
       "0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a",
       "12bb34d47ef4f248cd224da7063e493d07ab6990e5b6b87455872d9bccd8eb6a",
@@ -150,7 +151,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 98
+    "uniqueSha256": 99
   },
   "completedSourceCoverage": [
     {
@@ -3203,6 +3204,39 @@
         "metadata title spelling Psterior and handwritten spelling, capitalization and selective anatomy claims remain uncorrected source observations",
         "the already labeled diagram and articularis-cubiti inset are teaching aids and are not manufactured into practical prompts"
       ]
+    },
+    {
+      "sha256": "05e782511a6f63bcaf6664e00dca7a57dc79d5d3b3c4e6556eaef49923a855f3",
+      "sourcePages": 5,
+      "renderedReadPages": "1-5",
+      "teachingPages": "1-5",
+      "comparativeTablePages": "1-5",
+      "namedMuscleProfiles": 21,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Lujain Saleh digital handwritten teaching tables produced through iOS 17.4 Quartz on 31 October 2024; no visible byline, institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "five completed comparative teaching-table pages supply origin, insertion, nerve and action facts for twenty-one named upper-limb muscles: pectoral-region muscles on page 1; trapezius, latissimus dorsi and serratus anterior on page 2; levator scapulae, rhomboids, deltoid and inferior omohyoid on page 3; supraspinatus, infraspinatus, teres minor, teres major and subscapularis on page 4; and biceps, coracobrachialis, brachialis, triceps and articularis cubiti on page 5; every field is populated, with no objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "filename attribution is not promoted to visible authorship",
+        "digital handwriting, spelling, table wording and selective anatomy claims remain uncorrected source observations",
+        "completed comparison-table headings and highlighted facts are teaching aids and are not manufactured into written prompts"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3214,20 +3248,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 3,
-    "uniqueSha256": 3,
-    "sortedNewlineSha256": "4c3661e98932e741e1312daa04a119a99c50f952e5d16cbc57293c9d0d0479a0",
+    "inventoryMetadataRows": 2,
+    "uniqueSha256": 2,
+    "sortedNewlineSha256": "a364e82dc58eff95efe8f6d6cec0199980a04554a93c46a3ba4cb2e3c58d1053",
     "auditSampleStatusCounts": {
-      "audit-not-found": 3
+      "audit-not-found": 2
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 3
+    "audit-not-found": 2
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 98,
-    "remainingUniqueSha256": 3,
+    "processedUniqueSha256": 99,
+    "remainingUniqueSha256": 2,
     "processedPlusRemaining": 101
   }
 }
