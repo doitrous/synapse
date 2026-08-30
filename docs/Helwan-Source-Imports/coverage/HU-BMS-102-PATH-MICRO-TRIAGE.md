@@ -16616,3 +16616,72 @@ Questions.pdf`, SHA-256 `b71ed155a6c4862d7bf4a7200186a73207472ee4741b6cf1355520e
 **408,156 bytes**, 38 native-text 960×540-point landscape pages under `Pathology / Questions /
 MCQs`. Its exact prompt-layer replay, absent answer ink, carrier authority, occurrence/key delta,
 prior-family collapse, and arithmetic are the exact next-source blockers.
+
+## Family 155 — exact unkeyed companion to the solved Final Revision bank
+
+### Source identity, full visual/native boundary, provenance, and replay proof
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_b71ed155a6c4862d7bf4` · `MCQs - College MCQs Final Revision Questions.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `b71ed155a6c4862d7bf4a7200186a73207472ee4741b6cf1355520e7fab021b2` · **408,156 bytes** |
+| Format / complete visual boundary | **38 native-text 960×540-point landscape pages**. All 38 rendered at 140 dpi into 38 non-empty 1867×1050 images. The full 5×8 contact sheet and individual boundary pages were inspected: p.1 cover, pp.2–37 Q1–Q80, p.38 `Thank you`; no answer highlight, underline, circle, box, handwriting, key list, response, or terminal remainder is visible. |
+| Exact prompt-layer replay proof | Bounding-box extraction contains 38 pages and **1,794 positioned native words**. Every one of those 1,794 word/coordinate tuples is present unchanged in Family 154's solved copy (**0 missing base words**); the solved copy has 49 additional annotation-extraction words. Page count, geometry, numbering, all 80 stems, every option, source typo, and closing text therefore replay exactly. |
+| Visible/metadata provenance | The cover again visibly states Dr Enas Elhosary, Lecturer of Pathology, Faculty of Medicine, Helwan University. Metadata title is `Revision Questions`, author `enas megahed`, creator/producer Microsoft PowerPoint LTSC, and creation/modification time 25 December 2024. Visible cover identity governs; metadata supports export provenance only and does not prove a sitting/date. |
+| Authority | Unkeyed instructor revision-bank companion. It is a distinct file/SHA, but its complete question layer is the exact subset already governed by Family 154. It is not an exam, answer key, candidate response, or independently novel question bank. |
+
+### Exact occurrence, absent-answer, and duplicate-collapse boundary
+
+The raw carrier contains **80 prompt occurrences** in the identical Family-154 split: **45
+four-option MCQs + 35 true-false prompts**. It supplies **0 answer occurrences**, **80 unkeyed
+prompt occurrences**, **0 written operations**, **0 image-bearing questions**, **0 drawing tasks**,
+**0 practical stations**, **0 candidate responses**, and **0 prompt-like residues**. Blank option
+states are genuinely unkeyed; no answer may be imported from the companion merely because Family
+154 visibly solves the same prompts.
+
+This family records the carrier occurrences without double-counting the bank's retained wording.
+All 80 prompts are exact prior-family copies of Family 154, so wording dedupe is `80 - 80 = 0`
+new retained records. Consequently **0 new handles survive**, the source-first search gate is
+**zero**, required searches are **0**, prior-handle reuse is the complete 80-prompt replay, and
+cross-family concept delta is **+0**. The no-search ruling is not an inference from filename alone:
+it follows the full 38-page render plus the 1,794/1,794 positioned-word identity proof.
+
+### Family-155 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 155 | Auxiliary cumulative (Families 12–155) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 80 | 1,615 | 765 | 2,380 |
+| Source-supplied answer occurrences | 0 | 1,022 | 405 | 1,427 |
+| Unkeyed prompt occurrences | 80 | — | — | family-local state preserved |
+| New retained question records after prior wording dedupe | 0 | 1,457 | 552 | 2,009 |
+| New accepted handles / required searches | 0 / 0 | 1,302 / — | — | — |
+| Exact prior-family prompt/handle replays | 80 | — | — | complete Family-154 collapse |
+| Cross-family concept delta | +0 | +755 over primary | 372 | 1,127 |
+| **Distinct tested concepts** | **0 new** | **755 auxiliary additions** | **372** | **1,127** |
+
+The checksum closes as `45 + 35 = 80` raw prompts; `80 - 80 exact Family-154 wording copies =
+0` new retained records; `0` surviving handles require `0 × 4 = 0` searches; and concept delta is
+`0`. Auxiliary arithmetic is `1,535 + 80 = 1,615` prompts, `1,022 + 0 = 1,022` answers,
+`1,457 + 0 = 1,457` retained records, `1,302 + 0 = 1,302` handles, and `755 + 0 = 755`
+concept additions. All eligible arithmetic is `765 + 1,615 = 2,380`, `405 + 1,022 = 1,427`,
+`552 + 1,457 = 2,009`, and `372 + 755 = 1,127`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary is now **1,615 prompts / 1,022 answers /
+1,457 retained records / 1,302 handles / +755 concepts over primary**. All eligible evidence is
+**2,380 prompts / 1,427 supplied answers / 2,009 retained records / 1,127 distinct tested
+concepts**. Family 155 adds carrier-occurrence and absent-answer evidence only; it establishes no
+new wording, answer, handle, concept, official key, exam sitting, recurrence, mark weight,
+candidate response, readiness, or claims status.
+
+### Exact next debt after Family 155
+
+`src_b71ed155a6c4862d7bf4` is exhausted across all 38 pages: every visible/metadata provenance
+field, native prompt and option, absent-answer state, Family-154 replay relation, duplicate-collapse
+term, zero-search gate, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-155 blocker. The exact next manifest record is tier-3 `src_00397536a5ea9c0b218c` · `MCQs -
+College MCQs First Revision.pdf`, SHA-256
+`00397536a5ea9c0b218c09927e3a4d885d7fb3470feb25c143c095266a625846`, **365,110 bytes**,
+15 native-text 960×540-point landscape pages under `Pathology / Questions / MCQs`. Its visible
+provenance, prompt/key boundary, relation to the following `_ANSWERS` carrier, source-first
+collapse, searches if any handle survives, prior-BMS reuse, and arithmetic are the exact
+next-source blockers.
