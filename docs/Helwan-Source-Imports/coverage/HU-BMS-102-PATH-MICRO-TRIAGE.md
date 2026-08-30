@@ -5949,3 +5949,154 @@ space before `.pdf`, while the SHA-matching local file is present as `infection.
 normalization difference and the unread six-page source boundary are the next-source processing
 blocker. Fully render and visually adjudicate prompt, teaching, and answer conventions before
 admitting any count.
+
+## Family 54 — tier-6 Medicine Way infection and general-virology MCQ excerpt
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_8580b28c8bc337f11706` · `infection .pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/infection.pdf`; manifest spelling has an extra space before `.pdf`, while the local SHA matches |
+| SHA-256 / size | `8580b28c8bc337f11706a9f619a12071f776ba42b7a5ae030671955020ae6faa` · 1,670,952 bytes |
+| Format / read boundary | Six OCR-needed A4 pages; all six physical pages rendered at 220 dpi and visually read in full |
+| Authority | Medicine Way / Arabic `طريق الطب` channel-team compilation attributed on p. 1 to Mansour El Gazzar; no Helwan/university or faculty masthead, module code, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is the Medicine Way promotional cover and contains no assessment prompt or
+teaching proposition. The `Infection` heading on physical p. 2 introduces Q129–Q134; physical
+pp. 3–5 continue Q135–Q154. Physical p. 6 continues infection/bacterial-virulence prompts Q155–
+Q157, then the `General virology` heading introduces Q158–Q160. Missing Q1–Q128 and any
+continuation after Q160 are not inferred. The numbering and Medicine Way presentation identify
+one low-authority compiled study-bank excerpt, not a recoverable paper or sitting; the p. 6
+heading is not projected backward onto Q155–Q157.
+
+The prompt-start checksum is `0 + 6 + 7 + 7 + 6 + 6 = 32`. Every observed stem and option set
+is complete. There is no answer register, keyed letter, selected option, correctness annotation,
+response field, or repeatable answer convention. Underlining consistently formats stems and
+does not mark an option. The source therefore contains **32 complete prompt occurrences / 0
+printed answer occurrences**. No option is promoted to an answer, and all numerical or
+terminological wording remains only low-authority tested scope.
+
+### Complete prompt inventory, source-first collapse, and prior-BMS ledger
+
+| Ref(s) | Page(s) | Complete source-tested scope without supplying an unprinted answer | Handle / assignment |
+|---|---:|---|---|
+| F54-Q129,Q149 | 2,5 | Heat-stability exception within exotoxin-property differentials | `exotoxin-property-exception-heat-stable` · two retained wording variants, one handle |
+| F54-Q130 | 2 | Protein-nature exception within an endotoxin-property differential spanning shock, Gram-negative cell wall, and heat stability | `endotoxin-property-exception-protein` |
+| F54-Q131 | 2 | Cell-wall exception among capsule, toxins, pili, and coagulase as bacterial virulence factors | `bacterial-virulence-factor-exception-cell-wall` |
+| F54-Q132 | 2 | Bacterial-species differential for coagulase production | `staphylococcus-aureus-coagulase-production` |
+| F54-Q133 | 2 | Toxoid exception among coagulase, IgA protease, and leukocidins as virulence factors | `bacterial-virulence-factor-exception-toxoid` |
+| F54-Q134 | 2 | Prodromal-stage recognition from early vague discomfort and generalized body ache | `prodromal-stage-vague-early-symptoms` |
+| F54-Q135 | 3 | Infection invasion-stage recognition from site-specific signs and symptoms | `infection-invasion-stage-specific-symptoms` |
+| F54-Q136 | 3 | Colonization terminology for large numbers of microorganisms on host tissue without tissue damage | `colonization-organisms-without-tissue-damage` |
+| F54-Q137 | 3 | Carrier terminology for an apparently healthy person carrying a pathogen without clinical manifestations | `bacterial-carrier-asymptomatic-transmission-characteristics` · exact F24-Q04 scope reuse |
+| F54-Q138,Q154 | 3,5 | Carrier danger relative to clinical cases because asymptomatic/unnoticed people remain in public circulation | `infection-carrier-spread-significance` · exact F12-P02/F23-W01 reuse |
+| F54-Q139 | 3 | Opportunistic-pathogen terminology from rare disease in immunocompetent people but serious infection in immunocompromised patients | `opportunistic-pathogen-immunocompromised-definition` |
+| F54-Q140 | 3 | Pandemic terminology for infection with worldwide distribution | `pandemic-worldwide-distribution-definition` |
+| F54-Q141 | 3 | Endemic terminology for infection present at low level in a specific population | `endemic-low-level-specific-population-definition` |
+| F54-Q142 | 4 | Chronic-infection terminology for continued organism growth with or without symptoms | `chronic-infection-continuous-growth-with-or-without-symptoms` |
+| F54-Q143 | 4 | Incubation-period terminology for time from initial infectious-agent contact to first symptoms | `incubation-period-contact-to-first-symptoms` |
+| F54-Q144 | 4 | Pathogenicity terminology for an organism's ability to cause disease | `pathogenicity-ability-to-cause-disease` |
+| F54-Q145 | 4 | Printed numerical infectious-dose differential for Shigella | `shigella-infectious-dose-100` |
+| F54-Q146 | 4 | Printed numerical infectious-dose differential for Salmonella | `salmonella-infectious-dose-100000` |
+| F54-Q147 | 4 | Virulence terminology for degree of pathogenicity | `virulence-degree-of-pathogenicity` |
+| F54-Q148 | 4 | Invasin terminology for specific bacterial surface proteins that promote entry into cells | `invasins-bacterial-surface-proteins-cell-entry` |
+| F54-Q150 | 5 | True-statement differential identifying Gram-negative origin among endotoxin properties | `endotoxin-gram-negative-origin-true-statement` |
+| F54-Q151 | 5 | False-statement differential identifying toxoid conversion among endotoxin properties | `endotoxin-not-convertible-to-toxoid` |
+| F54-Q152 | 5 | Toxoid definition as toxin that has lost toxicity while remaining antigenic | `toxoid-lost-toxicity-retained-antigenicity` |
+| F54-Q153 | 5 | Lipopolysaccharide recognition as the chemical nature of endotoxin | `endotoxin-lipopolysaccharide-composition` |
+| F54-Q155 | 6 | Exotoxin composition differential across lipoprotein, LPS, nucleic acid, protein, and peptidoglycan | `exotoxin-protein-nature` · exact F24-Q07/F51-Q155 reuse |
+| F54-Q156 | 6 | Endotoxin mode-of-action differential across membrane degradation, blood-pressure effect, acetylcholine blockade, and tumour-necrosis-factor release | `endotoxin-tnf-release-mechanism` · exact F51-Q156 reuse |
+| F54-Q157 | 6 | Bacterial-enzyme differential for destruction of neutrophils and macrophages | `leukocidin-neutrophil-macrophage-destruction` · exact F51-Q157 reuse |
+| F54-Q158 | 6 | Most-accurate viral cytopathic-change statement across specificity, cell death, giant-cell formation, and microscopy modality | `virus-cytopathic-effect-giant-cell-formation` · exact F51-Q158 reuse |
+| F54-Q159 | 6 | Method differential for quantitating infectious-virus titre | `infectious-virus-titer-plaque-assay` · exact F51-Q159 reuse |
+| F54-Q160 | 6 | True viral-morphology statement across RNA-virus shape, flagella, nuclei, genome protection, and helical nucleocapsids | `viral-surface-protein-genome-nuclease-protection` · exact F51-Q160 reuse |
+
+There are no literal copies, so all 32 prompt occurrences remain retained records. Q129/Q149 are
+wording variants of the same exotoxin heat-stability exception, and Q138/Q154 test the same
+asymptomatic/unnoticed carrier-danger rationale; each pair collapses to one source handle. Q130,
+Q150, Q151, and Q153 remain separate endotoxin differentials; Q134, Q135, and Q143 test three
+different infection stages; and the isolated Q155 composition recognition remains distinct from
+Q129/Q149's broader property exception. Thus **32 observed - 0 copies = 32 retained records**,
+and **32 retained - 2 semantic reductions = 30 source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 30 handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **120 required searches**. Literal query
+runs were followed by targeted reopening of the short-form `coagulase`, `toxoid`, `endotoxin`,
+`carrier infection`, `pandemic`, `incubation period`, `pathogenicity definition`, and `virulence
+definition` results. External disposition is **1 live / 4 pending / 25 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `exotoxin-property-exception-heat-stable` · Q129,Q149 | `exotoxin heat stable exception`; `exotoxin properties heat labile`; `false statement exotoxin heat stability`; `exotoxin immunogenic diffusible toxoid heat` | no same-scope; protein and secretion records omit the composite heat-stability differential | none; F12-P04 is a broader comparison table, so delta |
+| `endotoxin-property-exception-protein` · Q130 | `endotoxin protein property exception`; `endotoxin not protein lipopolysaccharide`; `endotoxin septic shock gram negative cell wall heat stable`; `false endotoxin protein nature` | no same-scope | none; component-specific prompts do not supply this property differential, so delta |
+| `bacterial-virulence-factor-exception-cell-wall` · Q131 | `bacterial virulence factors cell wall exception`; `capsule toxins pili coagulase virulence`; `cell wall not virulence factor bacteria`; `virulence factor classification exception cell wall` | no same-scope | none; F12-P03 is a different five-category enumeration, so delta |
+| `staphylococcus-aureus-coagulase-production` · Q132 | `Staphylococcus aureus coagulase production`; `coagulase positive staphylococcus aureus`; `bacterium produces coagulase enzyme`; `staph epidermidis saprophyticus aureus coagulase` | live `CON-INF-329FB33012ABFC`; exact S. aureus/coagulase identification relation | none; F8-Q67 tests abscess localization rather than producer identity, so delta |
+| `bacterial-virulence-factor-exception-toxoid` · Q133 | `toxoid virulence factor exception`; `coagulase IgA protease leukocidin toxoid`; `toxoid not bacterial virulence factor`; `virulence factor enzyme toxin differential` | no same-scope | none; delta |
+| `prodromal-stage-vague-early-symptoms` · Q134 | `prodromal stage vague discomfort body ache`; `infection prodrome earliest nonspecific symptoms`; `stages infection prodromal definition`; `prodromal period generalized symptoms` | no same-scope | none; delta |
+| `infection-invasion-stage-specific-symptoms` · Q135 | `infection invasion stage specific signs symptoms`; `period of invasion infection stages`; `specific symptoms site infection invasion stage`; `prodromal invasion convalescent stages` | no same-scope | none; delta |
+| `colonization-organisms-without-tissue-damage` · Q136 | `colonization microorganisms without tissue damage`; `host tissue microbes no damage colonization`; `colonization versus infection disease definition`; `large numbers microorganisms tissue no damage` | no same-scope | none; delta |
+| `bacterial-carrier-asymptomatic-transmission-characteristics` · Q137 | `asymptomatic carrier pathogenic organism definition`; `healthy person carries pathogen no symptoms`; `infection carrier clinical manifestations absent`; `carrier state microbiology definition` | no same-scope | exact F24-Q04 reuse |
+| `infection-carrier-spread-significance` · Q138,Q154 | `carriers dangerous source infection asymptomatic`; `carrier public unnoticed spread infection`; `why carriers more serious than cases`; `asymptomatic carrier transmission significance` | no same-scope | exact F12-P02/F23-W01 reuse |
+| `opportunistic-pathogen-immunocompromised-definition` · Q139 | `opportunistic pathogen immunocompromised definition`; `rare disease immunocompetent serious immunocompromised`; `opportunistic infection weakened host defense`; `true versus opportunistic pathogen` | no same-scope | none; prior commensal/opportunism prompts test triggering conditions, so delta |
+| `pandemic-worldwide-distribution-definition` · Q140 | `pandemic worldwide distribution definition`; `infection worldwide pandemic`; `epidemic endemic pandemic global spread`; `pandemic epidemiology terminology` | no same-scope | none; delta |
+| `endemic-low-level-specific-population-definition` · Q141 | `endemic low level specific population`; `constant presence disease population endemic`; `endemic versus epidemic pandemic definition`; `infection present low level population` | no same-scope | none; delta |
+| `chronic-infection-continuous-growth-with-or-without-symptoms` · Q142 | `chronic infection organism continues grow symptoms`; `persistent infection with or without symptoms chronic`; `acute latent secondary chronic infection definition`; `chronic microbial infection continuous growth` | no same-scope | none; F18-Q13 distinguishes latent reactivation, so delta |
+| `incubation-period-contact-to-first-symptoms` · Q143 | `incubation period contact to first symptoms`; `time infection exposure symptom onset`; `incubation versus prodromal period`; `initial contact infectious agent first symptom` | no same-scope | none; delta |
+| `pathogenicity-ability-to-cause-disease` · Q144 | `pathogenicity ability organism cause disease`; `ability to cause disease pathogenicity definition`; `pathogenicity versus virulence infectious dose`; `microbial pathogenicity terminology` | no same-scope | none; organism-specific pathogenicity prompts differ, so delta |
+| `shigella-infectious-dose-100` · Q145 | `Shigella infectious dose 100 organisms`; `infective dose shigellosis low 100`; `Shigella ID50 organism number`; `infectious dose comparison Shigella` | no same-scope | none; delta |
+| `salmonella-infectious-dose-100000` · Q146 | `Salmonella infectious dose 100000 organisms`; `infective dose salmonellosis 10^5`; `Salmonella ID50 organism number`; `infectious dose comparison Salmonella` | no same-scope | none; delta |
+| `virulence-degree-of-pathogenicity` · Q147 | `virulence degree of pathogenicity`; `degree pathogenicity definition virulence`; `pathogenicity versus virulence definition`; `microbial virulence terminology` | no same-scope | none; delta |
+| `invasins-bacterial-surface-proteins-cell-entry` · Q148 | `invasins bacterial surface proteins cell entry`; `bacterial invasins promote host cell invasion`; `surface protein helps entry into cells invasin`; `invasion factor bacterial cell penetration` | no same-scope | none; delta |
+| `endotoxin-gram-negative-origin-true-statement` · Q150 | `endotoxin gram negative origin true statement`; `endotoxin produced gram negative bacteria`; `LPS endotoxin gram negative cell wall`; `endotoxin property gram negative recognition` | no same-scope | none; wall-component and LPS-toxicity prompts test different relations, so delta |
+| `endotoxin-not-convertible-to-toxoid` · Q151 | `endotoxin cannot convert to toxoid`; `false endotoxin toxoid conversion`; `endotoxin fever chromosomal polysaccharide`; `endotoxin property exception toxoid` | no same-scope | none; delta |
+| `toxoid-lost-toxicity-retained-antigenicity` · Q152 | `toxoid lost toxicity retained antigenicity`; `toxoid definition antigenic non toxic`; `inactivated toxin remains immunogenic`; `toxin toxicity removed antigenicity preserved` | no same-scope; pending formalin-toxoid records omit the complete loss-of-toxicity/retained-antigenicity definition | none; F24-Q10 tests a different source-keyed causal feature, so delta |
+| `endotoxin-lipopolysaccharide-composition` · Q153 | `endotoxin lipopolysaccharide composition`; `endotoxins are LPS`; `bacterial endotoxin chemical nature lipopolysaccharide`; `LPS versus protein endotoxin composition` | pending ASU-INF endotoxin-LPS concept; exact composition relation | none; prior toxicity and wall-location prompts differ, so delta |
+| `exotoxin-protein-nature` · Q155 | `exotoxin protein nature`; `exotoxins are proteins`; `bacterial exotoxin composition protein`; `protein nature exotoxin` | pending `CON-INF-C87DF729E2ADDF`; exact protein nature | exact F24-Q07/F51-Q155 reuse |
+| `endotoxin-tnf-release-mechanism` · Q156 | `endotoxin tumor necrosis factor`; `LPS releases TNF`; `endotoxin mode of action`; `lipopolysaccharide cytokine TNF` | pending `CON-INF-F2B1AF50F8D51C`; exact TNF-release mechanism | exact F51-Q156 reuse |
+| `leukocidin-neutrophil-macrophage-destruction` · Q157 | `leukocidins destroy neutrophils`; `leukocidin macrophage destruction`; `bacterial enzyme kills leukocytes`; `leukocidin virulence factor` | no same-scope | exact F51-Q157 reuse |
+| `virus-cytopathic-effect-giant-cell-formation` · Q158 | `viral cytopathic changes`; `virus giant cell formation`; `cytopathic effect syncytia`; `virus induced cell death morphology` | no same-scope | exact F51-Q158 reuse |
+| `infectious-virus-titer-plaque-assay` · Q159 | `plaque assay virus titer`; `infectious virus quantitation`; `viral plaque forming units`; `quantitate infectious viruses` | no same-scope | exact F51-Q159 reuse |
+| `viral-surface-protein-genome-nuclease-protection` · Q160 | `viral surface proteins protect genome`; `capsid protects nucleic acid nucleases`; `viral protein coat nuclease protection`; `virus morphology capsid protection` | pending `CON-INF-5544B0DB9FAF82`; exact genome-protection function | exact F51-Q160 reuse |
+
+The eight prior-BMS exact handles are Q137, Q138/Q154, and Q155–Q160. Therefore **30 handles -
+8 prior exact reuses = +22 concepts**.
+
+| Measure | Family 54 | Auxiliary cumulative (Families 12–54) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 32 | 469 | 765 | 1,234 |
+| Printed study-answer occurrences | 0 | 207 | 405 | 612 |
+| Retained question records | 32 | 464 | 552 | 1,016 |
+| Source-distinct tested handles / required searches | 30 / 120 | 443 / — | — | — |
+| External live / pending / no same-scope | 1 / 4 / 25 | — | — | family-local disposition |
+| Cross-family concept delta | +22 | +321 over primary | 372 | `372 + 321 = 693` |
+| **Distinct tested concepts** | **+22** | **321 auxiliary additions** | **372** | **693** |
+
+The checksum closes without remainder: prompt starts are `0 + 6 + 7 + 7 + 6 + 6 = 32`; key
+alignment is `32 - 0 = 32` unkeyed; retention is `32 - 0 copies = 32`; handle assignment is
+`32 - 2 semantic reductions = 30`; assignment is `32 - 32 = 0` unassigned; searches are
+`30 × 4 = 120`; external disposition is `1 + 4 + 25 = 30`; and concept arithmetic is
+`30 - 8 = 22`. Auxiliary cumulative arithmetic is `437 + 32 = 469` prompts, `207 + 0 = 207`
+printed answers, `432 + 32 = 464` retained records, `413 + 30 = 443` source handles, and
+`299 + 22 = 321` concept additions over primary. All-eligible arithmetic is `765 + 469 = 1,234`,
+`405 + 207 = 612`, `552 + 464 = 1,016`, and `372 + 321 = 693`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**469 / 207 / 464 / 443 / +321**; and all eligible evidence is
+**1,234 / 612 / 1,016 / 693**. This tier-6 unkeyed excerpt cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 54
+
+`src_8580b28c8bc337f11706` is exhausted across all six pages: the cover, all 32 observed prompt
+occurrences, both internal heading boundaries, absence of a key convention, retained records,
+source handles, search rows, external dispositions, and prior-BMS decisions are assigned once,
+with **zero source remainder** and no Family-54 blocker. The next manifest-ordered local BMS-102
+candidate is tier-6 `src_ed9c2f2519f1a617d22d` · `jpg2pdf.pdf`, SHA-256
+`ed9c2f2519f1a617d22decd60ea68fe75d97cbf4ee78e99274dc9553a1031d9b`, 1,029,985 bytes,
+two OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its unread two-page visual
+boundary is the next-source processing blocker: fully render and adjudicate prompt, teaching,
+and answer conventions before admitting any count.
