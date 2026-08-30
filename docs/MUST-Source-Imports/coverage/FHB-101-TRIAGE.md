@@ -6004,3 +6004,53 @@ Removing this one empty-text path and unique hash leaves **25 selected inventory
 The next evidence-ranked assessment-titled source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology FHB MCQs.pdf`, SHA-256 `5a481cad54731aef1bb2f12273e62a9c7d0d8273803aff5fdc3168d90be7df4e`, 9 pages.
 
 **BLOCKED — S1 cannot be approved:** 25 selected source paths remain untriaged.
+
+## Completed source — Histology FHB MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology FHB MCQs.pdf` | `5a481cad54731aef1bb2f12273e62a9c7d0d8273803aff5fdc3168d90be7df4e` | 9 | empty-text | pages 1–9 rendered and read | PDFium-created image compilation of photographed printed `Cytology` question pages with systematic handwritten selections, corrections and study annotations. The file names no institution, department, author, sitting, marks or official-paper/key claim. It is an annotated revision copy, not an official MUST examination or validated key. |
+
+### Exact prompt and marked-answer boundary
+
+Page 1 is a handwritten cover. Pages 2–7 print regular MCQs Q1–Q56. Pages 7–8 add a separately numbered `Problem solving` set Q1–Q10. Pages 8–9 print five match-column tables, each with five Column-A terms, yielding 25 matching prompt occurrences. The exact assessment inventory is therefore **56 + 10 + 25 = 91 prompt occurrences**.
+
+Each regular and problem-solving MCQ has one systematic thick diagonal selection, and every matching row has one handwritten response letter. These yield **91 directly visible handwritten answer occurrences / 91 prompt-matched recovered answers**. Crosses, check marks, underlines and marginal explanations distinguish corrections from the selected response; none is counted as an additional answer or prompt. There is no separate printed key, practical image, written/essay prompt or teaching-only passage beyond the cover. The selections are preserved as attempt/revision evidence and were not medically corrected, inferred or promoted to official key authority.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 91 prompt occurrences were assigned once to the 11 source-first handles below. Each accepted handle received four identifying searches, for **11 × 4 = 44 searches**.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Regular Q1–Q4,Q13,Q24; Problem Q3 | Membrane, glycocalyx, clathrin, receptors and pinocytosis (`cell membrane glycocalyx clathrin`; `growth hormone membrane receptor`; `pinocytosis fluid droplets`; `integral transmembrane protein`) | pending-hit; exact prior-FHB membrane/receptor/transport reuse. |
+| Regular Q10–Q12,Q20,Q23,Q31–Q32,Q56; Tables I,III | Rough ER, ribosomes, protein segregation/secretion and cytoplasmic basophilia (`rough ER ribosome protein segregation`; `cytoplasmic basophilia ribosomes`; `ribosome subunits nucleolus`; `attached ribosome secreted protein`) | pending-hit; exact prior-FHB rER/ribosome/protein-synthesis reuse. |
+| Regular Q17,Q19,Q21,Q25; Problem Q4; Table I | Smooth-ER detoxification, steroids, bilirubin handling and contraction (`smooth ER detoxification steroid`; `smooth ER muscle contraction calcium`; `smooth ER bilirubin liver`; `steroid secreting cell smooth ER`) | new externally; exact prior-FHB smooth-ER reuse. |
+| Regular Q5–Q6,Q9,Q15,Q18,Q22,Q26; Tables I–II | Golgi, lysosome formation, membrane renewal and lysosomal subclasses (`Golgi silver stain plasma cell`; `Golgi lysosome formation`; `Golgi membrane renewal maintenance`; `autolysosome residual body`) | pending-hit; exact prior-FHB Golgi/lysosome reuse. |
+| Regular Q7–Q8,Q14,Q16; Problem Q6; Table I | Mitochondrial structure, division, ATP generation, staining and dysfunction (`mitochondrial DNA RNA elementary particles`; `mitochondria divide ATP muscle weakness`; `Janus green mitochondria`; `mitochondrial damage skeletal muscle`) | new externally; exact prior-FHB mitochondrial reuse. |
+| Regular Q27–Q28,Q45; Problem Q7–Q9; Tables I–II | Peroxisomes, lysosomal storage and proteasomal quality control (`peroxisome catalase oxidase liver`; `proteasome protein quality control Alzheimer`; `peroxisomal enzyme free ribosome`; `lysosomal sulfatase nerve dysfunction`) | new externally; exact prior-FHB peroxisome/proteasome/storage reuse. |
+| Regular Q29–Q30,Q33–Q36,Q44,Q55; Problem Q1,Q10; Table III | Microtubules, cilia, centrioles and antimitotic interference (`microtubule tubulin 24 nm protofilaments`; `cilia axoneme basal body rootlet`; `centriole 27 microtubules`; `chemotherapy blocks microtubules`) | pending-hit; exact prior-FHB microtubule/cilia/centriole reuse. |
+| Regular Q37–Q40,Q43–Q44; Problem Q5; Tables III–IV | Intermediate-filament classes, actin and tissue distribution (`vimentin keratin neurofilament desmin`; `actin microvilli cell division`; `glial filament intermediate filament`; `intermediate filament tissue distribution`) | new externally; exact prior-FHB cytoskeletal-filament reuse. |
+| Regular Q41–Q42,Q46–Q47; Table V | Endogenous pigments and histochemical stains for fat, glycogen and centrioles (`Sudan III Best carmine iron hematoxylin`; `melanin haemoglobin endogenous pigment`; `lipofuscin residual body`; `glycogen fat histology stains`) | new externally; exact prior-FHB pigment/stain reuse. |
+| Regular Q48–Q54 | Nuclear envelope/pores, chromatin and nucleolar compartments (`nuclear pore octagonal ring`; `euchromatin vesicular nucleus`; `nucleolus pars fibrosa granulosa amorpha`; `outer nuclear envelope granular`) | new externally; exact prior-FHB nucleus/nucleolus reuse. |
+| Problem Q2–Q4,Q7–Q10 | Clinical organelle dysfunction in growth, jaundice, protein control, cilia and lipid metabolism (`organelle dysfunction dwarfism jaundice`; `osteogenesis imperfecta ER protein control`; `immotile cilia respiratory infection`; `fatty liver peroxisomal deficiency`) | new externally; exact prior-FHB clinical-organelle reuse. |
+
+The source-level search split is **0 live / 4 pending / 7 new = 11 accepted handles**. Every accepted handle reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+91 questions / +91 visibly marked answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7128 | 6713 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **24 selected inventory paths / 24 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `6592d5be0652aa6e0d92a4b53197d033e4618f09b9b9c1e52aff8f5cc80c3edb`. Pinned triage debt becomes **zero substantive-text / five sparse-text / 19 empty-text** rows, and unique-hash accounting is **`82 + 24 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology FHB Summary (by Shahd).pdf`, SHA-256 `e2d3f6426b89f38d130b179e138641cbb15690fae6ce53cead26c20d7fdb74fb`, 12 pages.
+
+**BLOCKED — S1 cannot be approved:** 24 selected source paths remain untriaged.
