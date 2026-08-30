@@ -4018,3 +4018,203 @@ pages; SHA-256 `1757d6acc3c8e3843ee98bd84b23ac799477f7d498dfea5bf7307c26498242a8
 under `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 7 - Muscles of the Head & Neck/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 36 — Tier-5 head, neck, mastication and back virtual-lab teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_1757d6acc3c8e3843ee9` |
+| File / SHA-256 | `Virtual Lab 7 final.pdf` / `1757d6acc3c8e3843ee98bd84b23ac799477f7d498dfea5bf7307c26498242a8` |
+| File boundary | 19,878,613 bytes · native PDF · 73 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 7 - Muscles of the Head & Neck/Virtual Lab 7 final.pdf` |
+| Visible provenance | p. 1 prints `Virtual Lab 7`, `Dr. Hiedy Hossameldin`, `Anatomy & Embryology Teaching Assistant at Faculty of Medicine Capital university`; the PDF title is `Virtual Lab 7 final` and its creator is Keynote |
+| Authority finding | Manifest/path-assigned local virtual-lab teaching evidence. It is not an exam, station sheet, response form, question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **73 physical pages** were rendered and
+read against the native text. Page 1 is the title page, p. 2 prints learning objectives, pp.
+3–11 teach scalp layers, occipitofrontalis, scalp vessels and scalp nerves, p. 12 is a facial-
+muscles section divider, pp. 13–23 teach selected muscles of facial expression, p. 24 is an
+arteries-of-the-face divider, pp. 25–29 teach facial vessels and sensory/motor innervation,
+pp. 30–39 teach the muscles of mastication, p. 40 is a neck-triangles divider, pp. 41–64
+teach sternocleidomastoid, neck triangles, jugular veins and cervical-plexus branches, pp.
+65–72 teach superficial back muscles, and p. 73 is a closing slide.
+
+No page prints an instruction to identify a structure, ordinary question, response field,
+answer blank, mark allocation, correctness convention, printed assessment answer or key.
+The p. 63 words `QUIZ YOURSELF!` accompany a fully labelled study graphic; they do not create
+an independently answerable prompt or reveal. Numbered model figures print their labels on
+the same teaching composition and are simultaneous teaching evidence, not assessment
+answers.
+
+### Complete defensible teaching-slide and mapping inventory
+
+One mapping is one directly printed anatomy-to-location, group, attachment, supply or keyed-
+callout relation. Ancillary figure labels are counted once per composition; repeated text or
+the same label elsewhere on the same page is collapsed. Unlabelled coloured attachment
+highlights are teaching annotations, not unresolved callouts.
+
+| Physical page | Source-first teaching slide / plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 3 | five scalp layers and section diagram | 5 mappings |
+| 4 | occipitofrontalis composition, frontal/occipital bellies, attachments and nerve supply | 9 mappings |
+| 5 | head-model facial-muscle identification | 4 mappings |
+| 6 | internal-/external-carotid contributions to scalp supply and labelled vessel figures | 14 unique mappings |
+| 7 | anterior-scalp artery model identification | 3 mappings |
+| 8 | lateral/posterior-scalp artery model identification | 3 mappings |
+| 9 | nerves in front of the auricle and labelled scalp-innervation figures | 10 unique mappings |
+| 10 | nerves behind the auricle and labelled scalp-innervation figures | 11 unique mappings |
+| 11 | labelled scalp sensory-nerve territory figure | 10 mappings |
+| 13 | orbicularis-oculi parts figure | 4 mappings |
+| 14 | orbital-part orbicularis-oculi origins, insertions and nerve branches | 7 mappings |
+| 15 | palpebral-part orbicularis-oculi origins, insertions and nerve branches | 8 mappings |
+| 16 | lacrimal-part orbicularis-oculi origin, insertion and nerve branches | 5 mappings |
+| 17 | orbital/palpebral-part model identification | 2 mappings |
+| 18 | orbicularis-oris intrinsic/extrinsic origins, insertions and nerve branches | 6 mappings |
+| 19 | labelled muscles-of-facial-expression figure | 13 unique mappings |
+| 20 | mouth-region model identification printed as `Orbicularis Oculi` | 1 source-faithful mapping; source wording is retained rather than corrected |
+| 21 | buccinator origins, insertions and nerve supply | 6 mappings |
+| 22 | buccinator and pterygomandibular-region labelled figures | 4 mappings |
+| 23 | labelled muscle-origin/insertion skull model | 15 unique mappings |
+| 25 | facial-artery origin, termination, branches and labelled arterial figure | 12 unique mappings |
+| 26 | facial-artery branch model identification | 4 mappings |
+| 27 | trigeminal facial sensory supply, exception and labelled territory figure | 7 mappings |
+| 28 | facial-nerve motor branches and labelled branch figure | 6 unique mappings |
+| 29 | unlabelled face/neck neurovascular model | 0 printed mappings; retained as one teaching composition |
+| 30 | four muscles of mastication | 4 group-membership mappings |
+| 31 | temporalis attachments/nerve supply and labelled skull/mandible plates | 11 unique mappings |
+| 32 | masseter attachments/nerve supply and labelled layer figures | 9 unique mappings |
+| 33 | temporalis/masseter attachment-site skull and mandible montage | 9 unique mappings |
+| 34 | head-and-neck model identification | 8 named-structure mappings; the combined internal/external-carotid entry contains two named vessels |
+| 35 | medial-pterygoid attachments/nerve supply and labelled mastication figure | 13 unique mappings |
+| 36 | pterygoid attachment/model montage | 10 unique mappings |
+| 37 | lateral-pterygoid two-head origins, insertions and nerve supply | 6 mappings |
+| 38 | unlabelled lateral-pterygoid attachment plate | 0 printed mappings; retained as one teaching composition |
+| 39 | labelled mandible attachment-site plate | 6 mappings |
+| 41 | sternocleidomastoid origins, insertions and innervation | 5 mappings |
+| 42 | sternocleidomastoid attachment and muscle figures | 4 mappings |
+| 43 | posterior-triangle floor, boundaries and contents | 19 unique mappings |
+| 44 | posterior-triangle subdivisions and labelled neurovascular figures | 18 unique mappings |
+| 45 | posterior-triangle model identification | 9 mappings |
+| 46 | anterior-triangle definition, subdivisions and labelled figure | 8 unique mappings |
+| 47 | labelled anterior-triangle regional figure | 17 unique mappings |
+| 48 | submental/submandibular boundaries, roofs and labelled figures | 12 unique mappings |
+| 49 | submental-triangle model identification | 3 mappings |
+| 50 | submandibular-triangle model identification | 4 mappings |
+| 51 | stylohyoid/posterior-digastric model identification | 2 mappings |
+| 52 | carotid- and muscular-triangle boundaries and muscular-triangle contents | 12 mappings |
+| 53 | carotid-triangle model identification | 3 mappings |
+| 54 | muscular-triangle model identification | 5 mappings |
+| 55 | external/internal jugular and subclavian vein model identification | 3 mappings |
+| 56 | internal- and external-jugular termination relations | 2 mappings |
+| 57 | keyed anterior-neck model | 7 mappings |
+| 58 | keyed lateral-neck model | 8 mappings |
+| 59 | keyed posterior-triangle model | 11 mappings |
+| 60 | keyed submental/muscular-region model | 8 mappings |
+| 61 | keyed deep-lateral neck model | 7 mappings |
+| 62 | keyed anterior/lateral neck model | 10 mappings |
+| 63 | fully labelled sensory/motor cervical-plexus graphic | 8 mappings; `QUIZ YOURSELF!` is a study cue, not a prompt |
+| 64 | cervical-plexus cutaneous-branch model identification | 2 mappings |
+| 65 | superficial back-muscle overview | 5 mappings |
+| 66 | trapezius and latissimus-dorsi origins, insertions and nerve supply | 16 mappings |
+| 67 | unlabelled trapezius attachment montage | 0 printed mappings; retained as one teaching composition |
+| 68 | second unlabelled trapezius attachment montage | 0 printed mappings; retained as a source-distinct composition |
+| 69 | latissimus-dorsi attachments and muscle identification | 7 mappings |
+| 70 | levator-scapulae, rhomboid-minor and rhomboid-major OINA table | 9 mappings |
+| 71 | levator-scapulae/rhomboid labelled figure | 3 mappings |
+| 72 | rhomboid-minor attachment and labelled bone montage | 4 mappings |
+
+The **67 content-slide occurrences are 67 source-distinct teaching compositions**. There is
+no exact complete-page copy. Pages 9–11 reuse a base innervation diagram, pages 31/33/39
+reuse a mandible photograph, and the neck-model sequence reuses specimens, but each complete
+slide has a different printed teaching layer and remains a distinct evidence occurrence.
+The mapping arithmetic is `5 + 9 + 4 + 14 + 3 + 3 + 10 + 11 + 10 + 4 + 7 + 8 + 5 + 2 +
+6 + 13 + 1 + 6 + 4 + 15 + 12 + 4 + 7 + 6 + 0 + 4 + 11 + 9 + 9 + 8 + 13 + 10 + 6 +
+0 + 6 + 5 + 4 + 19 + 18 + 9 + 8 + 17 + 12 + 3 + 4 + 2 + 12 + 3 + 5 + 3 + 2 + 7 +
+8 + 11 + 8 + 7 + 10 + 8 + 2 + 5 + 16 + 0 + 0 + 7 + 9 + 3 + 4 = 476`. There are
+**0 masked or unresolved callouts**: every numbered marker has a printed key, while coloured
+circles, arrows and attachment overlays are annotations rather than missing answers. The
+assessment boundary is **0 practical/station prompts / 0 ordinary questions / 0 printed
+assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 67 compositions consolidate to 28 source-level teaching scopes. This collapse does not
+delete plate, mapping or source-wording evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `scalp-layers-and-movement-plane` · p. 3 | scalp layers; SCALP layers; loose areolar scalp; scalp movement plane | no direct live/pending hit; exact accepted Family-20 handle — prior LCS reuse |
+| `occipitofrontalis-oina-and-identification` · pp. 4–5 | occipitofrontalis origin insertion nerve supply; frontalis occipitalis attachments; epicranial aponeurosis bellies; occipitofrontalis muscle identification | no direct live/pending hit; Family-27 owns only the frontal-belly temporal-branch relation, not the full two-belly attachment scope — new |
+| `scalp-arterial-supply` · pp. 6–8 | scalp arterial supply; blood supply scalp; superficial temporal occipital arteries; internal external carotid scalp | no direct live/pending hit; exact accepted Family-20 handle — prior LCS reuse |
+| `scalp-sensory-supply` · pp. 9–11 | sensory supply scalp; scalp innervation; trigeminal occipital nerves; supraorbital greater occipital | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `orbicularis-oculi-parts-and-oina` · pp. 13–17 | orbicularis oculi parts origin insertion nerve supply; orbital palpebral lacrimal parts; orbicularis oculi OINA; temporal zygomatic branches orbicularis oculi | no direct live/pending hit; Family-26 owns only the orbital-part subset, not the three-part composite — new |
+| `orbicularis-oris-oina` · pp. 18–20 | orbicularis oris origin insertion nerve supply; orbicularis oris OINA; intrinsic extrinsic fibers orbicularis oris; lower buccal mandibular branch lips | no direct live/pending hit; Family-26 owns a branch-innervation question, not the full OINA scope — new |
+| `buccinator-oina` · pp. 21–23 | buccinator origin insertion nerve supply; buccinator OINA; pterygomandibular raphe buccinator; buccal branch facial nerve cheek | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `facial-artery-origin-termination-and-branches` · pp. 25–26 | facial artery origin termination branches; facial artery angular artery; superior inferior labial lateral nasal; external carotid facial artery carotid triangle | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `face-sensory-supply` · p. 27 | sensory supply face; facial sensation; trigeminal divisions face; great auricular angle mandible | no direct live/pending hit; exact accepted Family-1/Family-20 handle — prior LCS reuse |
+| `facial-nerve-expression` · pp. 28–29 | facial expression nerve; facial nerve motor face; muscles facial expression innervation; cranial nerve seven face | no direct live/pending hit; exact accepted Family-20 handle — prior LCS reuse |
+| `muscles-of-mastication-membership` · pp. 30, 34 | muscles of mastication; four muscles mastication; temporalis masseter pterygoids; mandibular nerve mastication muscles | no direct live/pending hit; the prior motor-supply handle does not own four-muscle membership — new |
+| `temporalis-oina` · pp. 31, 33–34 | temporalis muscle origin insertion nerve supply; temporalis OINA; temporal fossa coronoid process; deep temporal branches temporalis | no direct live/pending hit; exact accepted Family-20/Family-24 handle — prior LCS reuse |
+| `masseter-oina` · pp. 32–34 | masseter origin insertion nerve supply; masseter OINA; zygomatic arch angle mandible masseter; masseteric nerve muscle | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `medial-pterygoid-oina` · pp. 35–36 | medial pterygoid origin insertion nerve supply; medial pterygoid OINA; maxillary tuberosity medial angle mandible; nerve to medial pterygoid | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `lateral-pterygoid-oina` · pp. 36–39 | lateral pterygoid origin insertion nerve supply; lateral pterygoid OINA; pterygoid fovea TMJ insertion; upper lower head lateral pterygoid | no direct live/pending hit; exact accepted Family-20 handle — prior LCS reuse |
+| `sternocleidomastoid-oina` · pp. 41–42 | sternocleidomastoid origin insertion nerve supply; SCM OINA; manubrium clavicle mastoid nuchal line; accessory nerve sternocleidomastoid | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `posterior-triangle-neck` · pp. 43–45 | posterior triangle neck; lateral cervical region; posterior triangle contents; posterior triangle boundaries | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `anterior-triangle-neck-subdivisions` · pp. 46–47 | anterior triangle neck subdivisions; submental submandibular carotid muscular triangles; anterior cervical triangle regions; digastric carotid muscular triangle classification | no direct live/pending hit; prior handles own individual triangles, not the four-way subdivision relation — new |
+| `submental-triangle` · pp. 48–49, 57–62 | submental triangle; submental region; submental triangle boundaries; anterior triangle neck | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `submandibular-triangle` · pp. 48, 50–51, 57–62 | submandibular triangle; digastric triangle; submandibular triangle boundaries; anterior triangle neck | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `carotid-triangle` · pp. 52–53, 57–62 | carotid triangle; carotid region; carotid triangle boundaries contents; anterior triangle neck | no direct live/pending hit; exact accepted Family-1/Family-20 handle — prior LCS reuse |
+| `muscular-triangle` · pp. 52, 54, 57–62 | muscular triangle neck; omotracheal triangle; muscular triangle boundaries contents; anterior triangle neck | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `internal-and-external-jugular-vein-termination` · pp. 55–62 | internal external jugular vein termination; jugular veins drain subclavian; internal jugular brachiocephalic formation; external jugular vein termination | no direct live/pending hit; prior anterior-jugular and scalp/face-drainage handles do not own this paired termination scope — new |
+| `cervical-plexus-branches` · pp. 63–64 | cervical plexus branches; cutaneous branches cervical plexus; lesser occipital great auricular transverse cervical; ansa cervicalis phrenic nerve C1 C4 | no direct live/pending hit; accepted Family-1 `cervical-plexus` handle owns the branch scope — prior LCS reuse |
+| `trapezius-oina` · pp. 65–68 | trapezius origin insertion nerve supply; trapezius OINA; nuchal line clavicle acromion scapular spine; accessory nerve trapezius | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `latissimus-dorsi-oina` · pp. 65–66, 69 | latissimus dorsi origin insertion nerve supply; latissimus dorsi OINA; thoracolumbar fascia bicipital groove; thoracodorsal nerve latissimus | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `levator-scapulae-oina` · pp. 65, 70–71 | levator scapulae origin insertion nerve supply; levator scapulae OINA; C1 C4 medial scapular border; dorsal scapular nerve levator scapulae | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `rhomboid-minor-and-major-oina` · pp. 65, 70–72 | rhomboid minor major origin insertion nerve supply; rhomboids OINA; C7 T5 medial scapular border; dorsal scapular nerve rhomboids | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+
+All **28 × 4 = 112** required searches completed with no direct live or pending hit. The raw
+external result is `0 live / 0 pending / 28 new`; exact accepted-prior comparison removes 14
+module additions, leaving **+14 new practical-teaching scopes**. Component overlap does not
+absorb the full two-belly occipitofrontalis scope, three-part orbicularis-oculi composite,
+four-muscle mastication membership, anterior-triangle subdivision relation, paired jugular
+termination scope, or the new facial/back-muscle OINA scopes.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 36 | Family 36 delta | After Family 36 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 157 verified minimum | +67 | 224 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,139 verified minimum | +476 | 1,615 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 40 | +0 / +0 / +14 | 0 / 0 / 54 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-35
+remainder leaves **40 rank-4/rank-5 path instances / 38 unique hashes**. The Family-35
+method was reproduced first: its 41/39 row sets recomputed to
+`4e2f37483c98292af36777fe168900c54e43a4e20d49f86dfc8c49740bab5711` and
+`ec46f22ef7f5ddd9197e1950c39960273754088ed91abe3762a8252f8f6862ff`. For the exact
+post-Family-36 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`933253b563432615caf14639717de813dbf01f0d2af0263e3c1f1cb46772028a`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`81f8d837a8b153b406adb0cab050009241f56bbd05e83d524449ebba3bf20620`.
+The next manifest-order gate is tier-5 Anatomy practical source
+`src_7d5c2bbd2c34a93312a2`, `practical images  Anatomy _250703_123600 (1).pdf`
+(3,753,189 bytes; 27 native-text pages; SHA-256
+`7d5c2bbd2c34a93312a22fbcda9894293a34e35f42d8e126d8cb23393dc743a3`) under
+`Year 1/LCS 103/Anatomy/Practical/`. Broader LCS-103 S1 remains incomplete. No download,
+ID, content record, catalogue update, import or source copy was created.
