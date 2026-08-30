@@ -244,3 +244,61 @@ Removing the four processed hashes leaves **92 selected inventory paths / 90 uni
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`, 47 pages, with a substantive-text audit sample. Its visual boundary and authority remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 92 selected inventory paths / 90 unique hashes remain untriaged.
+
+## Completed source — FHB102-2 MCQs till mid (Mucize Doctors Publish)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf` | `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f` | 47 | substantive-text | pages 1–47 rendered and read | Mucize Doctors student-team revision book for MUST medical students, explicitly labelled `FROM STUDENTS TO STUDENTS` and described as a supplementary educational resource. Named students authored and reviewed it. The 2025 midterm branding and marks-distribution table do not supply an authenticated sitting, examiner, department or faculty-key mark. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–5 are cover, contributors, disclaimer, preface and contents rather than assessment prompts.
+
+| Section | Pages | Objective MCQs | Printed answer tokens | Prompt-matched answers |
+|---|---|---:|---:|---:|
+| Parasitology core MCQs | 6–19 | 95 | 95 | 94 |
+| Parasitology case-based MCQs | 20–23 | 22 | 22 | 22 |
+| Parasitology advanced MCQs | 24–28 | 33 | 33 | 33 |
+| Pharmacology Antibacterial (1) | questions 29–35; answer-only 36 | 50 | 50 | 50 |
+| Pharmacology Antibacterial (2) | questions 37–43; answer-only 44 | 50 | 50 | 50 |
+| Pharmacology advanced MCQs | 45–47 | 15 | 15 | 15 |
+| **Total** | **47 pages** | **265** | **265** | **264** |
+
+The page 9 answer line omits Q25 and prints a second, orphan Q35 token; Q25 is therefore source-absent and was not inferred. Case 1 refers to “following images”, but no diagnostic image is visibly printed, so its text questions are not counted as practical/image-identification items. The preface includes Microbiology in a three-subject marks table although this volume contains only Parasitology and Pharmacology questions. The exact boundary is **265 objective prompts / 265 printed answer tokens / 264 prompt-matched answer observations / 1 orphan or misnumbered token / 1 source-absent answer / 0 written / 0 practical or image / 0 teaching prompts**.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 265 prompts collapse source-first into thirteen coherent handles. Every handle is already represented by the completed FHB-102-2 family, so no accepted handle survives to external search: **0 accepted × 4 = 0 searches**.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Basic parasite definitions, taxonomy, host roles, routes and zoonosis | prior parasitology-foundation and host-role handles | prior-FHB-102-2 collapse |
+| Arthropod classification and vector transmission | prior arthropod-morphology and vector-transmission handles | prior-FHB-102-2 collapse |
+| Myiasis taxonomy, diagnosis and management | prior wound-myiasis handle | prior-FHB-102-2 collapse |
+| Mosquito morphology, lifecycle, feeding and ecology | prior mosquito/arthropod-biology handles | prior-FHB-102-2 collapse |
+| Mosquito-borne malaria, filariasis and arboviruses | prior vector, malaria and mosquito-disease handles | prior-FHB-102-2 collapse |
+| Mosquito control methods | prior integrated-vector-control handle | prior-FHB-102-2 collapse |
+| Sandfly biology and ecology | prior sandfly-biology handle | prior-FHB-102-2 collapse |
+| Sandfly Leishmania, fever and Bartonella associations | prior sandfly-disease handle | prior-FHB-102-2 collapse |
+| Sandfly control | prior integrated-vector-control handle | prior-FHB-102-2 collapse |
+| Antimicrobial spectrum, killing principles, adverse effects, superinfection and prophylaxis | prior antimicrobial-principles handle | prior-FHB-102-2 collapse |
+| Beta-lactam, penicillin and cephalosporin classes, mechanisms, uses and adverse effects | prior cell-wall, penicillin and cephalosporin handles | prior-FHB-102-2 collapse |
+| Aztreonam, carbapenem, imipenem and cilastatin | prior monobactam/carbapenem handle | prior-FHB-102-2 collapse |
+| Vancomycin, bacitracin and polymyxin | prior cell-wall and vancomycin handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No repeated external search, content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifth one-path hash is now `sourceProcessed=true`. It is a distinct source carrier and adds **+265 questions / +264 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 627 | 625 | 48 | 0 | 0 | 48 | TBD |
+
+Removing the five processed hashes leaves **91 selected inventory paths / 89 unique SHA-256s**. Their sorted-newline checksum is `555f63a0ee911aa14f000eaed153f133785899749cf47698bb1cc0b1e6eaae4b`. Remaining audit-review debt is **38 substantive-text / 25 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`5 + 89 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - AE - MCQ.pdf`, SHA-256 `ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37`, 29 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 91 selected inventory paths / 89 unique hashes remain untriaged.

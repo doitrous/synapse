@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "af1718f54b8bc40b1798829f2c3c820a23b6d0b20acef4075f9425202344dc47",
-    "triageMarkdown": "6aa8985f641e7e288439ddea1837e22728114d7a40071ff69e081901bc6e7940"
+    "readinessMarkdown": "4feb84f0f845d434ef34681dc2e784e31fb97ec699fe3c063118e46aba42c0d6",
+    "triageMarkdown": "ed7bcf1357eba4fa64b89055fbaf3d119759e9fdf21d989d869e499966b3875c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,12 +69,13 @@
   ],
   "processedFamilies": {
     "sha256": [
+      "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 4
+    "uniqueSha256": 5
   },
   "completedSourceCoverage": [
     {
@@ -298,11 +299,89 @@
         "page-break continuations remain one prompt occurrence each",
         "the printed answer tables are source answer evidence rather than authenticated faculty keys"
       ]
+    },
+    {
+      "sha256": "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
+      "sourcePages": 47,
+      "renderedReadPages": "1-47",
+      "nonAssessmentPages": "1-5",
+      "questionPages": "6-19,20-23,24-28,29-35,37-43,45-47",
+      "answerOnlyPages": "36,44",
+      "printedPromptObservations": 265,
+      "objectiveMcqPrompts": 265,
+      "printedAnswerTokens": 265,
+      "printedKeyObservations": 264,
+      "orphanOrMisnumberedAnswerTokens": 1,
+      "sourceAbsentAnswers": 1,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Parasitology core MCQs",
+          "pages": "6-19",
+          "prompts": 95,
+          "promptMatchedAnswers": 94,
+          "sourceAbsentAnswers": 1,
+          "orphanOrMisnumberedAnswerTokens": 1
+        },
+        {
+          "section": "Parasitology case-based MCQs",
+          "pages": "20-23",
+          "prompts": 22,
+          "promptMatchedAnswers": 22
+        },
+        {
+          "section": "Parasitology advanced MCQs",
+          "pages": "24-28",
+          "prompts": 33,
+          "promptMatchedAnswers": 33
+        },
+        {
+          "section": "Pharmacology Antibacterial (1)",
+          "questionPages": "29-35",
+          "keyPage": 36,
+          "prompts": 50,
+          "promptMatchedAnswers": 50
+        },
+        {
+          "section": "Pharmacology Antibacterial (2)",
+          "questionPages": "37-43",
+          "keyPage": 44,
+          "prompts": 50,
+          "promptMatchedAnswers": 50
+        },
+        {
+          "section": "Pharmacology advanced MCQs",
+          "pages": "45-47",
+          "prompts": 15,
+          "promptMatchedAnswers": 15
+        }
+      ],
+      "sourceFirstHandles": 13,
+      "priorFhb1022CollapsedHandles": 13,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 265,
+      "familyAnswerDelta": 264,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Mucize Doctors student-team revision book for MUST medical students, explicitly described as from students to students and as a supplementary educational resource; authored and reviewed by named students, with no authenticated exam sitting, faculty-key mark, examiner or department provenance despite the 2025 midterm branding and marks-distribution table",
+      "boundaryDisposition": "265 conventional objective MCQ prompts across 150 Parasitology and 115 Pharmacology occurrences; 265 printed answer tokens include 264 prompt-matched answer observations and one misnumbered orphan token, leaving one source-absent prompt answer; no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "the page 9 answer line omits Q25 and instead prints an orphan second Q35 token, so no Q25 answer is inferred",
+        "Case 1 says following images show blood-smear stages, but no diagnostic image is visibly printed on the page",
+        "the preface gives a three-subject midterm marks distribution including Microbiology although this volume contains only Parasitology and Pharmacology questions",
+        "academically questionable prompts and answer tokens are preserved without medical correction",
+        "student-team review and MUST branding are not treated as authenticated faculty-key or exam-sitting authority"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 362,
-    "printedKeyObservations": 361,
+    "printedPromptObservations": 627,
+    "printedKeyObservations": 625,
     "namedConceptsAssigned": 48,
     "liveHits": 0,
     "pendingHits": 0,
@@ -332,22 +411,28 @@
     "pages": 56,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fifthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf",
     "sha256": "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
     "pages": 47,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - AE - MCQ.pdf",
+    "sha256": "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
+    "pages": 29,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 92,
-    "uniqueSha256": 90,
-    "sortedNewlineSha256": "77ad46deade178ad591469f27b245889d771ef78e35a4975c26cc2a539c23aa9",
+    "inventoryMetadataRows": 91,
+    "uniqueSha256": 89,
+    "sortedNewlineSha256": "555f63a0ee911aa14f000eaed153f133785899749cf47698bb1cc0b1e6eaae4b",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
       "sparse-text": 25,
-      "substantive-text": 39
+      "substantive-text": 38
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -355,12 +440,12 @@
     "audit-not-found": 11,
     "empty-text": 15,
     "sparse-text": 25,
-    "substantive-text": 39
+    "substantive-text": 38
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 4,
-    "remainingUniqueSha256": 90,
+    "processedUniqueSha256": 5,
+    "remainingUniqueSha256": 89,
     "processedPlusRemaining": 94
   }
 }
