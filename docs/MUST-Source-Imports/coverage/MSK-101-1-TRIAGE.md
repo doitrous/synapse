@@ -2316,3 +2316,47 @@ Removing the fifty-nine processed unique hashes leaves **43 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Questions 101 midterm exercise.pdf`, SHA-256 `ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b`, 12 pages.
 
 **BLOCKED — S1 cannot be approved:** 43 selected inventory paths / 42 unique hashes remain untriaged.
+
+## Completed keyed sibling compilation — Questions 101 midterm exercise
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Questions 101 midterm exercise.pdf` | `ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b` | 12 | substantive-text audit sample | pages 1–12 rendered and read | Muhammad Haitham Muhammad Ibrahim student compilation created and modified in Microsoft Word on 25 October 2025. The visible title is only `Midterm questions`; no institution, department, examiner, sitting, marks or official faculty-key claim appears. The title and folder do not authenticate a MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Questions 101 midterm exercise.pdf" purpose="source"}
+
+### Exact visible boundary and keyed-sibling reconciliation
+
+All twelve pages contain text-only assessment material. Pages 1–6 print Q1–Q31 on the axillary artery and brachial plexus, followed by a complete answer list. Pages 7–12 restart at Q1 and print 33 pectoral, back, scapular and shoulder-muscle MCQs under the heading `Follow:`, again followed by a complete answer list.
+
+| Pages | Visible block | MCQ prompts | Printed answer observations | Written | Practical/image | Teaching |
+|---|---|---:|---:|---:|---:|---:|
+| 1–6 | Axillary artery and brachial plexus Q1–Q31 | 31 | 31 | 0 | 0 | 0 |
+| 7–12 | Pectoral, back, scapular and shoulder muscles Q1–Q33 | 33 | 33 | 0 | 0 | 0 |
+| **Total** | **Two keyed blocks** | **64** | **64** | **0** | **0** | **0** |
+
+The first block follows the same item order and option logic as the already counted Q1–Q31 `Anatomy MSK101-1 Training Questions` family, while the second follows the same Q1–Q33 order and option logic as `Anatomy MSK101-1 Training Questions 2`. Wording is lightly edited rather than byte- or text-identical, so this is a combined keyed sibling carrier, not an exact-file duplicate. The prompt families were already counted in those clean carriers. The first block's 31 family answers were also already recovered from the annotated underscore-named sibling. The second block's clean carrier was wholly unkeyed, so this source contributes its 33 previously absent family answer observations and no new prompt observations.
+
+Preserved source defects include Q12 of the first block having only three printed options; the first block's Q28 running option C before B in the source layout; the uninformative second-block heading `Follow:`; numbering restarting at Q1; repeated and near-repeated clavipectoral-fascia, pectoralis-minor, medial-rotation, axillary-artery and brachial-plexus stems; and printed wording, spelling and academically questionable keys. None is corrected or reconstructed.
+
+### Source-first collapse, search gate and prior-MSK disposition
+
+Candidate scopes are axillary artery/axilla, brachial plexus and lesions, pectoral/back/scapular muscle attachments and actions, clavipectoral fascia and shoulder mechanics. Every scope maps to the completed Upper Limb Anatomy H1–H5 family. No genuinely new accepted handle survives sibling and prior-MSK reconciliation, so the exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its family delta is **+0 questions / +33 answer observations / +0 concepts**. Cumulative arithmetic is **6002 + 0 = 6002 questions**, **5819 + 33 = 5852 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6002 | 5852 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty processed unique hashes leaves **42 selected inventory paths / 41 unique SHA-256s**. Their sorted, newline-joined hash checksum is `c2be1756612f67f07015bdad37512d08baed80ae17d605a7c752ca7546f1d498`. Remaining audit-review debt is 16 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found / 2 audit-extract-failed rows, and unique-hash accounting is **`60 + 41 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Solo mcqs anatomy.pdf`, SHA-256 `141e06b1f73fbf97641d4932acf78a782660835681941c18728361b8f87aa639`, 21 pages.
+
+**BLOCKED — S1 cannot be approved:** 42 selected inventory paths / 41 unique hashes remain untriaged.

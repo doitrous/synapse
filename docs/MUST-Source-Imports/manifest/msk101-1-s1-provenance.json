@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "818c3e2809be6bbb71cb50ee7e656eaa48eaf74bd431ac4b54ad31223619bb15",
-    "triageMarkdown": "a764dcea7b29083f442af4a97a7720d2ba6575b8b3e495b56bb8f0aa48aa7e4e"
+    "readinessMarkdown": "165af9fb43620844fbcbd59f99fd5feb4d57b6b7500eedce64d2e407ef124a76",
+    "triageMarkdown": "b8bc464c8640e2bce6dbb3e6e4a960cab4f907e233cdf633c919da17149c76dd"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -97,6 +97,7 @@
       "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
+      "ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b",
       "ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9",
       "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
       "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
@@ -111,7 +112,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 59
+    "uniqueSha256": 60
   },
   "completedSourceCoverage": [
     {
@@ -1732,26 +1733,75 @@
         "page 11 explicitly tells the reader to study in case the topic comes in the exam, reinforcing revision-note rather than exam authority",
         "source anatomical wording, spelling and selective shorthand are retained without correction"
       ]
+    },
+    {
+      "sha256": "ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b",
+      "sourcePages": 12,
+      "renderedReadPages": "1-12",
+      "assessmentPages": "1-12",
+      "printedPromptObservations": 64,
+      "objectiveMcqPrompts": 64,
+      "printedKeyObservations": 64,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "siblingPromptSequenceBlocks": [
+        {
+          "pages": "1-6",
+          "prompts": 31,
+          "answers": 31,
+          "siblingSha256": "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
+          "answerAlreadyRecoveredFrom": "7582f4f2d70926db31dd261c670defaec09338749a1403f7e6c7d54867178939",
+          "familyQuestionDelta": 0,
+          "familyAnswerDelta": 0
+        },
+        {
+          "pages": "7-12",
+          "prompts": 33,
+          "answers": 33,
+          "siblingSha256": "59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3",
+          "familyQuestionDelta": 0,
+          "familyAnswerDelta": 33
+        }
+      ],
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 33,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAnatomyAcceptedSourceHandles": 5,
+      "referenceAnatomySearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Muhammad Haitham Muhammad Ibrahim student midterm-question compilation created in Microsoft Word on 25 October 2025; no printed institution, department, examiner, sitting, marks or official faculty-key claim",
+      "boundaryDisposition": "two keyed MCQ blocks: Q1-Q31 on axillary artery and brachial plexus, followed by Q1-Q33 on pectoral, back and scapular muscles; both prompt sequences are lightly reworded sibling carriers of previously counted clean training-question banks; the first block answer family was already recovered from its annotated sibling, while the second block supplies thirty-three previously absent answers",
+      "preservedSourceDefects": [
+        "the second block heading is only Follow",
+        "source numbering restarts at Q1",
+        "printed wording, spelling and academically questionable keys are retained without correction"
+      ]
     }
   ],
   "triageCumulative": {
     "printedPromptObservations": 6002,
-    "printedKeyObservations": 5819,
+    "printedKeyObservations": 5852,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 43,
-    "uniqueSha256": 42,
-    "sortedNewlineSha256": "42a89dd175bc93b52445aab789c12103045b43a4c934a43eeabcbaa232c67fee",
+    "inventoryMetadataRows": 42,
+    "uniqueSha256": 41,
+    "sortedNewlineSha256": "c2be1756612f67f07015bdad37512d08baed80ae17d605a7c752ca7546f1d498",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 17
+      "substantive-text": 16
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1759,12 +1809,12 @@
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 17
+    "substantive-text": 16
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 59,
-    "remainingUniqueSha256": 42,
+    "processedUniqueSha256": 60,
+    "remainingUniqueSha256": 41,
     "processedPlusRemaining": 101
   }
 }
