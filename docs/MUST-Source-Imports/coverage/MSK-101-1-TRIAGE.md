@@ -1964,3 +1964,47 @@ Removing the fifty-one processed unique hashes leaves **51 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK101-1 final ex 2020.pdf`, SHA-256 `3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b`, 34 pages.
 
 **BLOCKED — S1 cannot be approved:** 51 selected inventory paths / 50 unique hashes remain untriaged.
+
+## Completed source — MSK101-1 final ex 2020
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK101-1 final ex 2020.pdf` | `3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b` | 34 | empty-text audit sample | pages 1–34 rendered and read | Direct screenshots of the Qorrect `MSK101-1 Final Online Theoretical Exam` interface. The interface declares 35 questions, 70 marks and 42 marks to pass, which strongly supports direct assessment provenance. The visible student selections and blue hand-drawn underlines are answer-bearing observations, not an authenticated faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK101-1 final ex 2020.pdf" purpose="source"}
+
+### Exact prompt, answer, written, practical and image boundary
+
+The capture contains Q1–Q13 and Q15–Q35; **Q14 is absent**. Every captured prompt has a visible student-selected state and/or blue annotation, yielding 34 answer-bearing prompt observations. No result screen, answer sheet or faculty key is present. The student state and annotation conflict on some items, including Q5, and Q22 retains a selected `True` without correction; no answer is inferred or academically corrected. Multiple active-exam accounts appear across the screenshots, but personal names are excluded from durable evidence.
+
+| PDF pages | Visible labels | Format / subject | Prompt observations | Answer-bearing observations | Official faculty-key observations |
+|---|---|---|---:|---:|---:|
+| 1–13 | Q1–Q13 | Conventional Anatomy MCQ | 13 | 13 | 0 |
+| 14–19 | Q15–Q20 | Conventional Anatomy MCQ | 6 | 6 | 0 |
+| 20–25 | Q21–Q26 | Anatomy true/false | 6 | 6 | 0 |
+| 26–34 | Q27–Q35 | Conventional Histology MCQ | 9 | 9 | 0 |
+| **Total** | **Q1–Q13, Q15–Q35** | **28 conventional MCQs + 6 true/false** | **34** | **34** | **0** |
+
+There are **0 written prompts / 0 practical stations / 0 image-identification prompts / 0 teaching-only pages / 0 answer-only pages**. The interface's declared 35-question total is preserved as provenance, not used to manufacture the absent Q14.
+
+### Source-first handle collapse and search gate
+
+The anatomy candidates cover the same completed upper-limb scopes represented by the prior five accepted Anatomy handles and their 20 searches. The histology candidates likewise collapse to completed MSK skin, cartilage/disc, bone/ossification, skeletal-muscle/sarcomere and connective-tissue scopes. No genuinely new handle survives prior-MSK reconciliation, so the exactly-four-search gate resolves as **`0 new accepted handles × 4 = 0 new searches`**. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This is a distinct 34-prompt family, now `sourceProcessed=true`. Its delta is **+34 questions / +34 answer observations / +0 concepts**, producing cumulative totals of **5536 questions / 5429 answer observations / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5536 | 5429 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the fifty-two processed unique hashes leaves **50 selected inventory paths / 49 unique SHA-256s**. Their sorted, newline-joined hash checksum is `9d4a0068e76135fc218811dda9797beac5224883dd940b4ccfd6c6ff8bab56cb`. Remaining audit-review debt is 22 substantive-text / 5 sparse-text / 7 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`52 + 49 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/200 MSK Anatomy Practice Questions.pdf`, SHA-256 `f79a6d12f0f1e82e7b9a408e45ddaa25adfa678d72c8e14a68031b0b9f68dbd9`, 59 pages.
+
+**BLOCKED — S1 cannot be approved:** 50 selected inventory paths / 49 unique hashes remain untriaged.

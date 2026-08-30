@@ -58,9 +58,10 @@ const PROCESSED_FAMILY_HASHES = [
   '396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358',
   '565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1',
   'edf5fa44eed4180339e33b90aae8a89e8c7f74103af415e2685e88f45c525012',
+  '3b5ab6596d7e7445d8abfbe9fec55a9a9b71277385c23c571bfcdc5eb995967b',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '92972629ed233f13f60e14388cd0cb070b56d9c67e2128182eb6674949c9ed90'
+const REMAINING_CHECKSUM = '9d4a0068e76135fc218811dda9797beac5224883dd940b4ccfd6c6ff8bab56cb'
 
 function option(name) {
   const prefix = `${name}=`
@@ -137,10 +138,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 8, 'sparse-text': 5, 'substantive-text': 22 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 22 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=22-substantive/5-sparse/8-empty/13-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=22-substantive/5-sparse/7-empty/13-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -156,7 +157,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '5502', '5395', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '5536', '5429', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -190,7 +191,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 51 || remainingHashes.length !== 50 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 52 || remainingHashes.length !== 49 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -198,7 +199,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 8, 'sparse-text': 5, 'substantive-text': 22 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 22 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -270,8 +271,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[48], sourcePages: 7, renderedReadPages: '1-7', writtenPromptAndInlineAnswerPages: '1-7', printedPromptObservations: 30, writtenPrompts: 30, printedKeyObservations: 30, writtenAnswerObservations: 30, sourceAbsentAnswers: 0, familyQuestionDelta: 30, familyAnswerDelta: 30, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'image-only handwritten Predicted Qs (Written) notebook scan with CamScanner metadata; no authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'continuous Q1-Q30 short-written sequence with one inline handwritten answer per numbered prompt; no MCQ, practical, image-identification, teaching-only, answer-only or unkeyed material', preservedSourceDefects: ['Q2 labels the first and second lumbrical branch as lateral and medial', 'Q6 lists carpal tunnel syndrome as a median-nerve injury outcome', 'Q9 mixes arterial and nerve terminations into the fourth extensor-retinaculum compartment', 'Q16 lists the superficial terminal radial-nerve branch among cubital-fossa contents', 'inconsistent spelling and numbering are retained'] },
     { sha256: PROCESSED_FAMILY_HASHES[49], sourcePages: 5, renderedReadPages: '1-5', teachingPages: '1-5', teachingTableRows: 35, printedPromptObservations: 0, writtenPrompts: 0, objectiveMcqPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'image-only handwritten upper-limb muscle teaching tables with CamScanner/iOS metadata dated 14 January 2025; EOM folder and final filename do not authenticate a MUST/MSK examination or faculty-key authority', boundaryDisposition: 'thirty-five named muscle rows across five teaching tables; no question, written prompt, MCQ, practical, image-identification, answer-only or unkeyed assessment material', teachingBoundary: { upperArmRows: 4, anteriorForearmRows: 8, posteriorForearmSuperficialRows: 7, posteriorForearmDeepRows: 5, handRows: 11 }, preservedSourceDefects: ['flexor carpi radialis insertion is written as 2nd and 3rd metacarpal bones', 'extensor carpi radialis brevis action is written as extension and abduction', 'mixed origin and action shorthand is retained without correction'] },
     { sha256: PROCESSED_FAMILY_HASHES[50], sourcePages: 3, renderedReadPages: '1-3', teachingPages: '1-3', numberedTeachingNoteBlocks: 8, topicChecklistItems: 12, printedPromptObservations: 0, writtenPrompts: 0, objectiveMcqPrompts: 0, practicalOrImagePrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Absalam101 student-compiled exam-night teaching summary attributed to Dr. Ahmed Essam notes; Word metadata and EOM/final naming do not authenticate a MUST/MSK examination or faculty key', boundaryDisposition: 'eight numbered teaching-note screenshots on pages 1-2 and a twelve-item important-topic checklist on page 3; no question, written prompt, MCQ, practical, image-identification, answer-only or unkeyed assessment material', preservedSourceDefects: ['radial artery is stated to continue the brachial artery in the cubital fossa without specifying the division level', 'source spelling and selective shorthand are retained without correction'] },
+    { sha256: PROCESSED_FAMILY_HASHES[51], sourcePages: 34, renderedReadPages: '1-34', capturedQuestionLabels: 'Q1-Q13,Q15-Q35', absentQuestionLabels: ['Q14'], printedPromptObservations: 34, objectiveMcqPrompts: 28, trueFalsePrompts: 6, writtenPrompts: 0, practicalOrImagePrompts: 0, answerBearingPromptObservations: 34, printedKeyObservations: 0, officialFacultyKeyObservations: 0, sourceAbsentAnswers: 0, familyQuestionDelta: 34, familyAnswerDelta: 34, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'direct screenshots of the Qorrect MSK101-1 Final Online Theoretical Exam interface showing 35 questions, 70 marks and a 42-mark pass threshold; the capture strongly supports exam provenance, but active student selections and hand-drawn underlines are not an official faculty key', boundaryDisposition: 'thirty-four captured objective prompts: nineteen anatomy MCQs Q1-Q13 and Q15-Q20, six anatomy true/false prompts Q21-Q26, and nine histology MCQs Q27-Q35; Q14 is absent from the file; no written, practical, image-identification, teaching-only or answer-only pages', preservedSourceDefects: ['Q14 is absent although the interface declares 35 questions', 'student selections and blue underlines sometimes conflict, including Q5', 'Q22 retains a selected True response without correction or faculty-key inference', 'multiple active-exam user accounts appear across screenshots; personal names are excluded from durable evidence'] },
   ],
-  triageCumulative: { printedPromptObservations: 5502, printedKeyObservations: 5395, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 5536, printedKeyObservations: 5429, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
