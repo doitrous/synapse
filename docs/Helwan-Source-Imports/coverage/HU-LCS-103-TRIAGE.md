@@ -17852,3 +17852,105 @@ unencrypted; 367.7 × 520.118 pt; SHA-256
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 64
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 167 — Tier-6 hip, femur, tibia and fibula attachment-model atlas
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_9cf6114e0ffe50af5305` / `9cf6114e0ffe50af53051772b27f08c8a8a64a13c7d66e2b380ab7f29e045665` |
+| File / boundary | `DOC-20250628-WA0013_250703_123615.pdf` · 1,899,980 bytes · PDF 1.7 · unencrypted · nine native-text pages · 367.7 × 520.118 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/DOC-20250628-WA0013_250703_123615.pdf` |
+| Visible / metadata provenance | The content pages print only regional/view captions and supplied handwritten labels; no title page, author, institution, lecturer, module, citation, exam label or key convention appears. PDF metadata names PDFium creator/producer and supplies no dates or author. |
+| Authority finding | Manifest placement establishes course-local LCS-103 summary evidence. With no visible authorship or assessment convention, it is unattributed tertiary practical-teaching evidence, not a sitting, response form or official key. |
+
+The assigned SHA-256, byte size, nine-page count and page geometry were recomputed and match.
+All nine pages were rendered at 140 dpi, inspected individually at full resolution and read
+against the complete native text layer. Pages 1–8 contain supplied-label model photographs:
+three hip-bone views, three femoral views plus a proximal inset, two tibial views with insets,
+and two fibular views. Page 9 is a genuinely blank physical page and contributes no plate,
+mapping, prompt or residue.
+
+There is **no assessment inventory**. No page prints an instruction to identify, response
+field, option set, blank, mark allocation, correctness mark, answer reveal or key convention.
+Every pointer label is supplied. The exact assessment boundary is therefore **0 eligible or
+external prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed prompts / 0 practical or
+station prompts / 0 practical assessment keys**.
+
+Source wording is preserved without correction, including `illio-tibial`, `sacroilliac`,
+`pectinous`, `symphesis pupis`, `cartilagenous`, `intermeduis`, `ilio-posoas`, `iscial`,
+`melleolus`, `semi-membrenosus`, `fiberous`, `peroneaus` and `peroneaus previs`. Supplied joint
+types remain attached to their source callouts; no spelling or anatomical inference creates an
+additional mapping.
+
+### Complete practical-plate and mapping inventory
+
+| Physical page | Source-first practical composition | Plates | Supplied mappings |
+|---:|---|---:|---:|
+| 1 | left hip posterior view with soft-tissue attachments | 1 | 9 |
+| 2 | left hip anterior view with three joint/type callouts and two attachments | 1 | 5 |
+| 3 | left hip inferior view with ligament and muscle attachments | 1 | 7 |
+| 4 | left femur anterior, lateral and medial views | 3 | 7 |
+| 5 | left femur posterior view plus proximal attachment inset | 2 | 13 |
+| 6 | left tibia anterior view plus meniscal/plateau inset | 2 | 9 |
+| 7 | left tibia posterior view plus lateral tibiofibular-joint view | 2 | 10 |
+| 8 | right fibula lateral and medial views | 2 | 8 |
+| 9 | genuinely blank source page | 0 | 0 |
+| **Total** | **complete practical teaching boundary** | **14** | **68** |
+
+Every counted mapping is a fully legible source-to-model pointer, view relation or supplied
+joint/type relation. No label is clipped, masked or unresolved, so the exact practical boundary
+is **14 plates / 68 mappings / 0 residues**. Repeated names on different physical views remain
+separate source-to-image mappings; the view/page collapse does not discard evidence.
+
+### Source-first practical scopes, exact searches and prior-LCS reconciliation
+
+The 14 plates consolidate to four complete practical teaching handles:
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Prior-LCS result |
+|---|---|---|
+| `hip-bone-views-muscle-attachments-and-joint-types` · pp. 1–3 | hip bone posterior attachment model; hip bone anterior sacroiliac symphysis joint; hip bone inferior muscle attachments; gluteal inguinal rectus femoris hip markings | Accepted Families 37, 40 and 46 jointly own the complete scope — prior-LCS reuse. |
+| `femur-multiview-attachments-and-knee-ligaments` · pp. 4–5 | femur anterior posterior attachment model; femur lateral medial collateral ligament model; femoral muscle attachment sites; ligament of head of femur attachment | Accepted Families 37, 39–42 and 46 own the complete scope — prior-LCS reuse. |
+| `tibia-multiview-attachments-menisci-and-joints` · pp. 6–7 | tibia anterior muscle attachment model; tibia posterior muscle attachment model; tibial plateau medial lateral meniscus; superior middle inferior tibiofibular joint types | Accepted Families 37, 43–46 own the complete scope — prior-LCS reuse. |
+| `fibula-multiview-attachments-nerve-and-joints` · p. 8 | fibula lateral attachment model; fibula medial joint model; common peroneal nerve fibular neck; biceps femoris collateral ligament peroneus fibula | Accepted Families 37 and 43–46 own the complete scope — prior-LCS reuse. |
+
+Each of the **four accepted handles** received exactly one search on each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **4 × 4 = 16 required search invocations**. Broad term matches exist across the first
+three surfaces, but exact source-level comparison is decisive: accepted lower-limb anatomy and
+joint Families 37 and 39–46 own every attachment/view relation. Final disposition is **4
+prior-LCS practical-teaching reuses / 0 additive live / 0 additive pending / 0 additive new
+scopes**; practical teaching scopes remain **0 live / 0 pending / 92 new**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 480 plates / 2,877 mappings / 150 residues / 13
+keys** by **+0 / +14 / +68 / +0 / +0** to **20 / 494 / 2,945 / 150 / 13**. Arithmetic
+checks are `480 + 14 = 494`, `2,877 + 68 = 2,945`, `150 + 0 = 150` and `13 + 0 = 13`.
+
+This source hash occurs once in Family 166's remainder. Removing its sole path leaves **63
+all-rank path instances / 59 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes **49
+paths / 48 unique hashes within tier**, and rank 9 remains **14 / 11**. Family 166's prior
+checksums are `1ae67333d23727371704ff7f30cf135628cdac6df5af27a38a3328186dcbe872`
+(paths) and `200e3befcb9497b8162e96fe976e8d668c45839af8fec53d1735e82bde4d9031`
+(unique hashes). For the exact post-Family-167 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`6738f5919a82c4029f112028f1ad1715f252293ac051c58f1e750207de187550`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`162eab284483ddc1bed80c7591215937e31e5d340f14099ade6fa900662f319b`.
+
+The exact next manifest-order debt is tier-6 `src_772ad6c973b22b2c1ab4`,
+`DOC-20250629-WA0056_250703_123608 (1).pdf` (2,768,328 bytes; 14 native-text pages;
+unencrypted; 367.7 × 520.118 pt; SHA-256
+`772ad6c973b22b2c1ab442cee8b84ed520d4daec317bd89cf7513f98c495e389`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 63
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
