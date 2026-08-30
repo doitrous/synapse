@@ -818,10 +818,47 @@ The source is now `sourceProcessed=true`. Its completed delta is **+50 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — HISTO FINAL BY SALAMA
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - HISTO FINAL BY SALAMA.pdf` | `be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4` | 92 | substantive-text audit sample | pages 1–92 rendered and read | Microsoft Word for Microsoft 365 document titled `histology msk 101`, authored by Mohamed Salama and created/modified 18 January 2024. The cover says `HISTOLOGY MSK 101`; the inventory filename says `FINAL`, but the file supplies no institution, department, examiner, sitting, marks, official-key claim or exam date. It is a student-authored comprehensive study compilation, not a documented MUST exam or official key. |
+
+### Exact MCQ, written, practical, image, key, teaching and source-defect boundary
+
+Page 1 is a cover. The objective assessment consists of five keyed banks: **140 bone/cartilage MCQs**, **133 connective-tissue MCQs**, **65 skin MCQs**, a **23-item mixed histology bank**, and a **24-item final mixed bank**, for **385 MCQ prompt occurrences**. The first four banks have complete printed keys. The final mixed bank prints 24 answer slots, but Q6 is explicitly `XX` rather than an answer; its table also prints label `19` twice while omitting the expected second label. The exact reliable objective-answer boundary is therefore **384 prompt-matched MCQ keys / one source-absent answer**. No `XX` answer was inferred and the malformed table labels were not silently repaired.
+
+Pages 84–89 add **34 answered written prompts**: bone 10, cartilage 4, connective tissue 10, skin 5 and skeletal muscle 5. These are counted as **34 prompt occurrences / 34 printed answers**. The complete assessment boundary is therefore **419 prompt occurrences = 385 MCQs + 34 written prompts**, with **418 prompt-matched answer observations**. There are **0 practical prompts and 0 image-identification prompts**.
+
+The thirteen numbered entries under `CASES` on pages 89–91 are teaching summaries that list histological features without asking a question or providing a response field; they are not assessment prompts or answers. Section headings, incidental notes, the cover and the Arabic closing message on page 92 are also non-assessment material. No institution/date authority was inferred from the filename's `FINAL` label or the PDF's 2024 creation date.
+
+### Source-first handles, exactly four searches and prior-MSK collapse
+
+All 419 assessment occurrences were assigned once across four source-first handles, reconciling as **175 + 143 + 75 + 26 = 419**. Each handle received exactly four repository searches, for **16 searches total**:
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|
+| H1 | 175, bone and cartilage cells, matrix, architecture, growth, ossification, remodelling and written synthesis (`osteoblast osteoclast cartilage`; `Haversian Volkmann perichondrium`; `epiphyseal plate fibrocartilage bone remodeling`; `bone cartilage written histology`) | no live/pending content hit; the full bone/cartilage scope is already represented by completed MSK bone, cartilage and clinical assignments — **prior-MSK collapse**. |
+| H2 | 143, connective-tissue cells, fibres, ground substance, types, adipose tissue and written synthesis (`fibroblast mast plasma macrophage connective tissue`; `collagen reticular elastic adipose connective tissue`; `loose dense connective tissue ground substance`; `connective tissue cells written histology`) | no live/pending content hit; the full connective-tissue scope is already represented by completed MSK connective-tissue assignments — **prior-MSK collapse**. |
+| H3 | 75, epidermal layers/cells, dermis, appendages, glands and written skin synthesis (`epidermis dermis hypodermis skin glands`; `melanocyte Langerhans Merkel keratinocyte`; `eccrine apocrine sebaceous arrector pili`; `skin written histology thermoregulation`) | no live/pending content hit; the full skin scope is already represented by completed MSK skin and clinical assignments — **prior-MSK collapse**. |
+| H4 | 26, skeletal, cardiac and smooth muscle structure, contraction, fibre types, repair and written synthesis (`skeletal cardiac smooth muscle histology`; `sarcomere triad intercalated disc caveolae`; `satellite cell Purkinje muscle spindle myoglobin`; `muscle hypertrophy written histology`) | no live/pending content hit; the full muscle scope is already represented by completed MSK muscle assignments — **prior-MSK collapse**. |
+
+Source-level disposition is **0 live / 0 pending / 4 pre-prior candidates**, all four collapsing to prior MSK coverage. The post-prior concept delta is therefore **0**. The file is not byte-identical to a processed source and its comprehensive multi-bank/written sequence is distinct, so all 419 prompt and 418 reliable answer observations are counted once.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+419 questions / +418 answers / +0 post-prior concepts**. Cumulative arithmetic is **1665 + 419 = 2084 questions**, **1593 + 418 = 2011 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2084 | 2011 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-four processed paths and unique hashes leaves **79 selected inventory paths / 77 unique SHA-256s**. Their sorted, newline-joined hash checksum is `589f99205b1205acc07c5f7590c173d3a35c6994f9e1f41cd6a09d1284665c4a`. Remaining audit-review debt is 40 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`24 + 77 = 101`**.
+Removing these twenty-five processed paths and unique hashes leaves **78 selected inventory paths / 76 unique SHA-256s**. Their sorted, newline-joined hash checksum is `b2bbbb50d98a45a23d3ebfd967dfae28dae091f6cb789c9e18cbaa9cb2ec75e8`. Remaining audit-review debt is 39 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`25 + 76 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - HISTO FINAL BY SALAMA.pdf`, SHA-256 `be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4`, 92 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - MSK 101-1 Final Histology MCQs_BenAhmed.pdf`, SHA-256 `2b3046797114764969bbcd1b2826333c31b1d1177804327caf0187540d68fbfb`, 28 pages.
 
-**BLOCKED — S1 cannot be approved:** 79 selected inventory paths / 77 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 78 selected inventory paths / 76 unique hashes remain untriaged.
