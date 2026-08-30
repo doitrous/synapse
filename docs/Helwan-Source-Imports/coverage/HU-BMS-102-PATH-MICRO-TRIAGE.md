@@ -11481,3 +11481,82 @@ exact next manifest record is tier-6 `src_0455e4c66eecb4c37150` ·
 OCR-needed 1191×842-point landscape A3 page under `Pathology / Notes and Summaries`. Its complete
 render/OCR reality, provenance, dense cell-injury mind-map teaching versus prompt/key/annotation
 boundary, and prior-source reuse are the exact next-source blockers.
+
+## Family 108 — Dense Cell Injury 1/2 integrated mind map
+
+### Source identity, complete render/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_0455e4c66eecb4c37150` · `Mind_Map_Cell_Injury_1,2.pdf` |
+| SHA-256 / size | `0455e4c66eecb4c3715023b8411180d22858df7f18005fa07d98f367a96fe515` · 3,680,332 bytes |
+| Format / complete visual boundary | One 1191×842-point landscape A3 page. The complete page rendered at 200 dpi into one non-empty 3309×2339-pixel image, then was read as the full composition plus four non-empty high-resolution quadrant crops so every dense branch, note, and embedded image was inspected. |
+| OCR/native reality | The PDF contains three large RGB raster panels (973×683, 1028×569, and 1028×577 pixels) and a text layer whose nominal extraction is 2,154 words / 36,401 bytes. Its custom-font mapping produces substantially garbled extraction, so the manifest's `ocr-needed` disposition is accurate and the coherent visual render—not corrupt extracted glyphs—controls transcription and boundary decisions. |
+| Visible provenance | The only visible production mark is the footer `Presented with xmind`. No author, university, faculty, module code, academic year, teaching date, or assessment sitting is printed. |
+| Metadata caution | Metadata records Mozilla Firefox 149.0.2 as creator, cairo 1.18.0 as producer, and an April 11, 2026 creation timestamp. These identify file-production tools/time only, not authorship, teaching date, academic year, or sitting. |
+| Authority | Tier-6 notes-and-summaries mind-map teaching material. It is not an exam, candidate paper, practical station, response sheet, or official answer source. |
+
+### Complete branch-first teaching, image, callout, prompt/key, and residue inventory
+
+| Branch | Complete visible source content | Boundary ruling |
+|---|---|---|
+| Central frame | `Cell Injury & Accumulations` and the supplied description `Cellular failure to adapt to adverse environmental stress` | completed title/definition; **0 prompts / 0 keys** |
+| Cell death mechanisms | Apoptosis definition, DNA damage/misfolded-protein etiology, caspase/DNA-fragmentation pathogenesis, membrane `eat me` signal, and apoptosis-versus-necrosis inflammation contrast; necrosis definition, severe hypoxia/ATP loss, calcium/membrane disruption, pyknosis–karyorrhexis–karyolysis, enzymatic digestion/inflammation; coagulative, liquefactive, caseous, fat, and fibrinoid patterns with supplied hallmark/site examples | completed definitions, mechanisms, comparison, and classification; `HIGH YIELD` and `VERSUS` are study labels, not answer marks |
+| Reversible injury and accumulations | Cloudy swelling definition, mild injury, ATP/pump mechanism, swollen granular cells, and hydropic progression; fatty-change/steatosis definition, etiologies, defective fat metabolism/transport, signet-ring appearance, and nutmeg-liver note; hyaline/mucoid definitions and Mallory body, Russell body, Zenker-degeneration, and gastric signet-ring examples | fully populated teaching branches; `PORTAL` and `EXCEPTION` annotate supplied facts, not tasks |
+| Calcification and pigmentation | Pathologic calcification definition; dystrophic-versus-metastatic comparison, serum-calcium nuance, hypercalcemia causes, and psammoma-body example; lipofuscin definition/pathogenesis and brown atrophy, melanin classification/etiologies; hemosiderin definition/pathogenesis, hemosiderosis-versus-hemochromatosis, parenchymal injury/scarring, bronze diabetes, and cirrhosis | completed teaching, contrasts, and emphasis labels; **0 / 0** |
+| Extracellular deposits | Amyloid definition, AL/primary/multiple-myeloma and AA/secondary/chronic-inflammation relations, Congo-red/apple-green hallmark, and a supplied histology composite; renal, liver, sago/map-like spleen, and cardiac deposition/morphology/complication mappings with two already labeled gross illustrations; gout definition, urate etiology, MTP arthritis, tophi, interstitial nephritis, and urate-stone complications | supplied descriptions, mappings, and labeled images. `SKETCH` captions identify already provided images; no practical identification request or response frame |
+
+Every branch is filled. Brackets labeled `Definition`, `Etiology`, `Pathogenesis`, `Hallmark`,
+`High Yield`, `Versus`, `Nuance`, `Portal`, `Sketch`, `Exception`, `Location`, and `Complication`
+classify complete study notes rather than solicit responses. No page area contains an exam heading,
+candidate instruction, interrogative task, option set, unanswered blank, mark allocation, student
+response, or separate printed key.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**.
+
+### Prior-source relation, source-first zero gate, and cumulative arithmetic
+
+The map reorganizes completed cell-injury and accumulation teaching already represented across
+Families 90–93: its pigmentation/amyloid/extracellular-deposit branches overlap Family 91, its
+cell-death mechanisms overlap Family 92 pages 8–20, and its apoptosis/necrosis/accumulation
+branches are adjacent to Families 90 and 93. Family 107 supplies a separate hypoxia-to-necrosis
+mechanism map. The present page is not an exact visual/page carrier of any of those sources;
+thematic teaching overlap does not create a tested-handle reuse.
+
+No accepted assessment handle survives the completed-map boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated, and the source adds no assessment concept.
+
+| Measure | Family 108 | Auxiliary cumulative (Families 12–108) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 866 | 765 | 1,631 |
+| Printed teaching-answer occurrences | 0 | 483 | 405 | 888 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 806 | 552 | 1,358 |
+| Source-distinct tested handles / required searches | 0 / 0 | 730 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**866 / 483 / 806 / 730 / +499**; and all eligible evidence remains
+**1,631 / 888 / 1,358 / 871**. Family 108 cannot establish a dated sitting, recurrence, mark
+weight, official exam key, student response, readiness, or claims status.
+
+### Exact next debt after Family 108
+
+`src_0455e4c66eecb4c37150` is exhausted across its sole dense page: every visible branch, study
+label, supplied illustration, provenance limitation, OCR/native-layer caution, prior-source
+relation, and zero-gate arithmetic term is assigned once, with **zero source remainder** and no
+Family-108 blocker. The exact next manifest record is tier-6
+`src_ad2aa90540cf86945819` · `Mind_Map_Introduction_to_Pathology.pdf`, SHA-256
+`ad2aa90540cf8694581999fe3bdbc92c35184bbcec28e1ec11dbf9ba086bd73a`, 859,312 bytes, one
+OCR-needed 1191×842-point landscape A3 page under `Pathology / Notes and Summaries`. Its complete
+render/OCR reality, provenance, introductory-pathology mind-map teaching versus prompt/key/
+annotation boundary, and prior-source reuse are the exact next-source blockers.
