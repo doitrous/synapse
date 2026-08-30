@@ -13638,3 +13638,91 @@ A4 pages; SHA-256 `179ca2926e43c736e01a6974f22ed02b4c3fdb481f9ac40c425c41903095a
 It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 110 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 121 — Tier-3 Ain-Shams-attributed external Head-and-Neck keyed MCQ chapter
+
+### Exact identity, external authority and complete 11-page OCR boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_179ca2926e43c736e01a` / `179ca2926e43c736e01a6974f22ed02b4c3fdb481f9ac40c425c41903095a410` |
+| File / boundary | `MCQs - External MCQs Chapter 1 Head & Neck عين شمس.pdf` · 3,386,890 bytes · untagged, unencrypted image-only PDF · 11 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 · `originUniversityHint: Ain Shams` |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Chapter 1 Head & Neck عين شمس.pdf` |
+| Visible and manifest provenance | The filename explicitly prints Arabic `عين شمس` and the manifest resolves it as Ain Shams; the page body begins `Part 1 / Head & Neck / Multiple Choice Questions (MCQs)`. The pages print no Helwan, LCS-103, cohort, exam sitting or year. Metadata exposes iText 5.5.10 production and 24 July 2020 creation/modification. |
+| Authority finding | Externally attributed Ain Shams Head-and-Neck question chapter, not Helwan assessment evidence. Its explicit foreign-university attribution governs even though the page body does not repeat the university name. All occurrences remain external. |
+
+The assigned hash, byte size and 11-page boundary were recomputed and match. Native
+extraction yields only form-feed separators, confirming the image-only reality. All 11 pages
+were rendered at 130 dpi, read visually at full-page resolution and checked with fresh OCR.
+The source PDF itself was not changed.
+
+Pages 1–8 print the uninterrupted question sequence Q1–Q72. Pages 9–11 print the complete
+`Answers of MCQs` table, including brief source explanations for selected items. The exact
+boundary is therefore **72 external assessment occurrences / 72 printed keys / 0 unkeyed
+occurrences**. Matching runs Q6–Q10, Q18–Q22, Q24–Q28, Q32–Q36, Q39–Q42, Q45–Q49,
+Q52–Q56 and Q63–Q66 are counted as their individually numbered answerable items; their
+range headings are not second prompts. The answer table keys every integer Q1–Q72 exactly
+once. Its final-page layout places Q70 and Q72 in a small right-hand continuation beside
+Q69 and Q71, but no key is missing or duplicated.
+
+Source spellings and formatting are preserved without repair, including `Occulomotor`,
+`Abducent`, the clipped `Tensor ti` in Q72, and the explanatory prose attached only to some
+answer rows. Those explanations are keyed rationales, not additional prompt occurrences or
+standalone teaching scopes. There is no essay, fill-in, response blank or learner-authored
+written section.
+
+No question includes a specimen, radiograph, micrograph, diagnostic image, station,
+apparatus task, masked label or learner-completed diagram. The scanned handwriting-style
+font and answer tables are assessment layout, not practical plates. Teaching and practical
+deltas are therefore exactly zero, including **0 practical prompts / 0 plates / 0 mappings /
+0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 72 occurrences collapse to **14 source-distinct tested handles**: Head-and-Neck regions
+and neck triangles; carotid, subclavian and Head-and-Neck arteries; jugular,
+brachiocephalic and caval veins; salivary glands and ducts; thyroid relations; cervical
+fascia and carotid sheath; orbit, extraocular muscles and lacrimal supply; cranial cavity,
+dural folds and venous sinuses; intracranial, meningeal and cerebral arteries; scalp, face
+muscles and cutaneous supply; infratemporal fossa and mastication; suprahyoid muscles,
+tongue and oral cavity; nose and paranasal sinuses; and pharynx, larynx and ear. Every item
+is assigned once to one handle.
+
+Each handle received exactly one fresh search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **14 × 4 = 56 required search invocations**.
+Prior-external-first comparison finds all 14 already represented across Families 78, 90,
+92 and 105–117. Reconciliation is **14 prior-external reuses + 0 external additions = 14**;
+the explicit Ain Shams attribution prevents any eligible promotion. Both external and
+eligible concept-state deltas are zero. Exact query and result ledgers are preserved at
+`tmp/pdfs/lcs103-family121/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family121/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **4,685 / 4,537 / 221 = 12 / 135 / 74** to **4,757 external prompts / 4,609
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `4,685 + 72 = 4,757`, `4,537 + 72 = 4,609`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-120 remainder. Removing its sole path leaves
+**109 all-rank path instances / 101 unique hashes**: tier 3 **27 paths / 24 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 120's prior checksums are
+`590d048ffa685922e1ff0b6c0ac66827fa84217cc4331fc914bb16f989ea4b8a` (paths) and
+`7722bf0e8a33c1234feac3e2280ebed9af654bb7b5427f7067c2469394a1b0ae` (unique hashes).
+For the exact post-Family-121 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`c98ad589ccb879da99237371e82e204db70d20f5e74aa538cf312da0c51de051`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`f5415cc0ef1a4080b7a3a1ab80a9c1410fb2a8d1241ce9b1076f3b3db564bb9c`.
+
+The exact next tier-3 manifest-order debt is `src_a79f48edef6abc5a586a`,
+`MCQs - External MCQs Chapter 6 Lower Limb Ain Shams_250528_070856.pdf` (2,545,332
+bytes; 13 physical A4 pages; SHA-256
+`a79f48edef6abc5a586a3714708c71ba41852eca16316d88c10d3b332e253b69`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 109 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
