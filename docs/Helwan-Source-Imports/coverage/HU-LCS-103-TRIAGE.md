@@ -21028,3 +21028,94 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 oversized pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:**
 31 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 200 — Tier-6 oversized completed lower-limb nerve map with blank second page
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_09a09e8a424b15141ecd` / `09a09e8a424b15141ecd8c9b2596cd91482ab0283e341a2659b076a4e4ceb537` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/Nerves of lower limb_202146_16538.pdf` |
+| Physical verification | **27,088 bytes; two native-text 2011.92 x 1243.92 pt pages; untagged; unencrypted; PDF 1.4**. Full hash, byte size, page count and geometry match. Both pages were rendered completely at 160 dpi to distinct 4,471 x 2,765 RGB images and visually inspected; the native layer has exactly two physical-page terminators. The document reports no form and qpdf confirms no AcroForm fields. |
+| Visible / metadata provenance | Page 1 prints only the central title `Nerves of lower limb`; page 2 is physically blank. No author, institution, university, module, cohort, sitting, marks or key claim appears. Metadata identifies Chromium/Skia PDF m90 and 22 May 2021 creation/modification, but adds no content authority. |
+| Authority finding | Unattributed tier-6 completed teaching-reference evidence. Folder placement and metadata do not establish a Helwan assessment sitting, learner response form, practical station or official key. |
+
+The complete physical boundary is **one completed theoretical teaching composition plus one
+blank trailing page**:
+
+| Page | Source-first composition |
+|---:|---|
+| 1 | completed mind map covering superior/inferior gluteal nerves; nerves to obturator internus and quadratus femoris; femoral muscular/cutaneous branches; posterior cutaneous nerve branches/territories; sciatic motor distribution and tibial/common-fibular division; tibial, sural/calcaneal, common/superficial/deep-fibular motor and cutaneous territories |
+| 2 | fully blank canvas: no visible mark, native text, prompt, key, residue or teaching content |
+
+There is **no assessment inventory**. Every nerve node, branch and supplied territory appears
+as completed declarative content; no question, learner instruction, response space, masked
+answer, selection state, delayed reveal or key appears. Exact assessment delta is **0 eligible
+or external prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `Gluteus menimus`, `illiacus`,
+`Superior gamillus`, `inferior gamillus`, `Quadrate femoris`, `Glutal branch:To th skin`,
+`wipe space`, the duplicated posterior-thigh motor statements and every printed branch/
+territory relation. Inventory does not medically or editorially repair, infer or endorse them.
+
+### Practical and image boundary
+
+Page 1 is a completed text mind map and page 2 is blank. Neither page contains an anatomy
+photograph, specimen, model, masked structure, numbered identification station,
+learner-completed map, response blank or practical key. Exact practical delta is **0 prompts /
+0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The completed map consolidates to eight theoretical teaching handles:
+
+| Teaching handle | One query on each required surface | Complete-scope result |
+|---|---|---|
+| superior/inferior gluteal nerve motor supply | superior inferior gluteal nerve gluteus medius maximus tensor fascia lata | Accepted Families 1–2, 32, 40, 45 and later lower-limb banks own the complete motor scope — prior-LCS reuse. |
+| nerves to obturator internus/quadratus femoris and supplied muscles | nerve to obturator internus quadratus femoris gemelli | Accepted Families 1–2, 32–33, 40 and later banks own the complete deep-gluteal scope — prior-LCS reuse. |
+| femoral nerve muscular/cutaneous branches | femoral saphenous anterior cutaneous nerve quadriceps sartorius pectineus | Accepted Families 1–2, 20, 31, 39, 45 and 191–193 own the complete branch/distribution scope — prior-LCS reuse. |
+| posterior femoral cutaneous branches/territories | posterior femoral cutaneous gluteal perineal posterior thigh branches | Accepted Families 2, 20, 32, 40 and later banks own the complete territory scope — prior-LCS reuse. |
+| sciatic trunk motor distribution and terminal division | sciatic nerve posterior thigh tibial common fibular division | Accepted Families 1–2, 20, 33, 40, 42, 45 and later banks own the complete trunk scope — prior-LCS reuse. |
+| tibial nerve motor/calcaneal/sural/plantar distribution | tibial nerve posterior leg sole medial calcaneal sural distribution | Accepted Families 20, 34, 42, 44–45 and later banks own the complete motor/cutaneous scope — prior-LCS reuse. |
+| common fibular motor and cutaneous branches | common fibular short head biceps lateral sural cutaneous communicating | Accepted Families 20, 34, 42–45 and later banks own the complete branch scope — prior-LCS reuse. |
+| superficial/deep fibular motor and sensory distribution | superficial deep fibular anterior lateral compartment first web space dorsum foot | Accepted Families 20, 34, 43–45 and later banks own the complete motor/sensory scope — prior-LCS reuse. |
+
+Each of the **eight accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **8 x 4 =
+32 required search invocations**. The surface searches found live and pending component
+coverage; complete-scope accepted-ledger comparison establishes **8 prior-LCS theoretical
+reuses / 0 additive live / 0 additive pending / 0 additive new teaching scopes**. Declarative
+theoretical scopes do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 199's remainder. Removing its sole path changes the remainder
+from **31 paths / 30 unique hashes** to **30 paths / 29 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **21 paths / 21 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 199's checksums were
+`428713959fbd42723927b75f76cd5aa797439a60da6a5306d7e2560a3b2ff79e` (paths) and
+`07a636dc95f8b240d2f8cf90c67e820763397e6b6e2e16abfea5c418bd22438b` (unique hashes).
+For the exact post-Family-200 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`84b675bcc89f4622262bb0ceb54fb52ce230d4ade5531b371203eff4977af3a6`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`9cec7d430afc74c26e692c0f38431d8e23a243e55e24723c1c87bd2ba44bd035`.
+
+The exact next manifest-order debt is tier-6 `src_89d175da0578ad4f56a2`, manifest `Nerves of
+the leg 🦵 .pdf`, normalized local `Nerves of the leg 🦵.pdf` (5,563,479 bytes; one native-text
+960 x 540 pt page; untagged; unencrypted; PDF 1.4; SHA-256
+`89d175da0578ad4f56a25f1f395b5aa1aa1e16fbc8d57b8a84f8ccdc24c7c1ab`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until the full
+page is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 30
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
+update, import or source copy was created.
