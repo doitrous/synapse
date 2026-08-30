@@ -15421,3 +15421,102 @@ reports `FINAL REVISION`, `PATHOLOSIS`, a collection from previous exams for fir
 and `2025/2026`; metadata names Tarek Taher and was created 22 May 2026. Its tier-9 eligibility,
 visible authority/date wording, prompt/key/repeat boundary, and relationship to already exhausted
 PATHOLOSIS carriers are the exact next-source blockers.
+
+## Family 145 — external Cairo-University-attributed PATHOLOSIS question collection
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_6f1e3ea08eb27f71a791` · `1st year questions 2025-2026.pdf` under the local `Pathology / Questions` folder |
+| SHA-256 / size | `6f1e3ea08eb27f71a791be13fe5d9e36eb06b2983200b3f745bcf9ac41de03a0` · 1,888,971 bytes |
+| Format / complete visual boundary | Seventy-four native-text portrait US-letter pages, each 612×792 points. All 74 pages were rendered at 120 dpi into 74 non-empty 1020×1320-pixel images and read individually; thirteen ordered contact sheets, layout extraction, and raw extraction were also read. There is no page, crop, stem, option, answer table, footer, or text remainder. |
+| Native-text reality | Layout extraction contains 16,518 words / 147,334 bytes and raw extraction contains 16,317 words / 108,687 bytes. Both preserve the long-form questions and answers, 253 MCQ stems and option sets, the answer registers, and the page-margin provenance. Visual review confirms the printed-answer conventions, section boundaries, blank key cell, and absence of practical images. The manifest's `native` label is accurate. |
+| Visible collection identity | P.1 visibly reads `Questions and answers`, `FINAL REVISION`, `PATHOLOSIS`, `Collection From previous exams for 1st year medical school students 2025/2026`, a circled-`C` repeated-question legend, and `DR. TAREK`. The footer reads `Dr. Tarek questions and answers`; `DR. TAREK` also appears as a watermark. |
+| Controlling external provenance | Every substantive page visibly carries the margin statement `collected from pervious exams faculty of medicine Cairo university` (source spelling preserved). That repeated on-page statement is stronger evidence than the Helwan folder path and explicitly identifies the collection's asserted source institution as Cairo University. There is no visible Helwan University or BMS-102 masthead, module code, examiner signature, candidate field, or official-key authentication. |
+| Date/recurrence caution | `2025/2026` is a visible collection-year label, not an authenticated sitting. Selected written prompts carry compiler labels such as `June 2017`, `2022`, `2024`, or `2025`; the circled-`C` legend marks source-claimed repetition. These labels are preserved as low-authority compiler annotations and cannot establish an administered Helwan sitting, official recurrence, frequency, or marks. Metadata title is `FINAL REVISION PATHOLOSIS`, author is `Tarek Taher`, and creation/modification timestamp is 22 May 2026; those fields are export provenance only. |
+| Authority / eligibility | External Cairo-University-attributed tier-9 revision compilation found in a Helwan folder. Family 73's narrow tier-9 exception requires exact local placement **and no external-university hint**; this carrier fails the latter condition visibly on every content page. It is therefore indexed for provenance and format evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Complete page-first prompt, answer, teaching, and anomaly boundary
+
+| Pages | Complete visible source content | Source-local count / boundary ruling |
+|---:|---|---:|
+| 1–2 | Cover/legend and contents | Provenance, collection claims, and navigation only; **0 prompts / 0 answers**. |
+| 3–4 | Introduction: one definition, two `Give an account` operations, and four MCQs followed by the four-letter `INTRODUCTION MODEL ANSWER` | **7 / 7**: 3 answered written operations + 4 keyed text MCQs. |
+| 4–15 | Cell-injury written bank: 2 definitions, 19 enumerate operations, 5 list operations, 5 descriptions, 3 discussions, 16 short-account operations, 2 comparisons, one myocardial-infarction case with 3 suboperations, and 5 true/false statements | **60 / 60** answered written/case/T&F occurrences. Cross-references such as `see before` are source-supplied answer directions, not unkeyed prompts. |
+| 15–32 | Cell-injury MCQs numbered 1–107 | **107 / 107** text MCQs. P.33 supplies letters for 1–107. The empty `108.` key cell has no corresponding visible stem and is a key-register residue, not a prompt or answer. |
+| 34–43 | Accumulation written bank: 8 definitions, 10 enumerate operations, 3 lists, 5 descriptions, 3 discussions, 10 short-account operations, 8 answered case suboperations, and 3 true/false statements | **50 / 50** answered written/case/T&F occurrences. The case series visibly begins at `2`; no Case 1 stem or response field is present, so the numbering gap adds nothing. |
+| 43–62 | Accumulation MCQs numbered 1–136 | **136 / 136** text MCQs with the complete printed answer register on p.63. |
+| 64 | `Pathology formative exam`: six text MCQs and a same-page six-letter key | **6 / 6**. These remain source-local occurrences despite semantic or literal reuse elsewhere in the carrier. The heading does not authenticate a university formative sitting. |
+| 65–72 | `The blue file`: 9 definitions, 11 enumerate/list operations, 4 `mention` operations, 2 discussions, 3 short-account operations, and one comparison | **30 / 30** answered written operations. They largely restate earlier material but are visibly separate source occurrences. |
+| 73–74 | `Other questions`: nine answered written operations spanning cell injury, amyloid, calcium, melanin, and calcification | **9 / 9**. |
+
+The source-local format checksum is exactly **253 text MCQs + 152 written/case/T&F
+operations = 405 prompt occurrences**, all with **405 source-supplied answer occurrences** and
+**0 unkeyed prompts**. There are **0 image-bearing prompts / 0 practical stations / 0 drawing
+tasks / 0 candidate responses**. Clinical vignettes remain text questions; there are no diagnostic
+plates, station numbers, candidate/examiner instructions, timers, mark allocations, checklists, or
+response fields.
+
+The answer boundary is source-visible rather than inferred: prose follows each written operation;
+case and T&F answers are printed inline or immediately after the stem; introduction, cell-injury,
+accumulation, and formative MCQs have printed letter registers. Apparent content defects are
+preserved without silent correction, including `pervious` in the provenance footer, the absent
+Case 1 numbering, the blank Cell Injury key cell `108.`, `metabolic calcification` where the
+surrounding supplied material discusses pathological/metastatic calcification, and source-marked
+T&F choices that conflict with standard pathology wording. The visible year/mark labels and
+circled-repeat symbols are compiler annotations only.
+
+### Zero-accepted-handle and zero-search authority gate
+
+No handle is accepted into the Helwan BMS-102 evidence ledger. The exclusion is source-level, not
+a content-quality inference: the repeated visible Cairo University attribution defeats the no-
+external-university condition of the established tier-9 admission rule. Consequently the 405
+source-local prompt/answer pairs are preserved above for auditability but yield **0 retained
+eligible records / 0 accepted handles / 0 prior-BMS reuse assignments / +0 concepts**.
+
+Exactly four searches are required only per accepted handle. Here the governed calculation is
+`0 accepted handles × 4 = 0 required searches`; **0 searches were run**. Running 1,620 searches
+over externally excluded prompts would create false Helwan reconciliation state and would not
+alter eligibility. Semantic repetitions within this carrier and overlaps with PATHOLOSIS or prior
+BMS families therefore require no handle collapse for cumulative arithmetic.
+
+### Family-145 excluded-source checkpoint and cumulative arithmetic
+
+| Measure | Family 145 source-local | Eligible delta | Auxiliary cumulative (Families 12–145) | Primary checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 405 | 0 | 1,279 | 765 | 2,044 |
+| Printed/source-supplied answer occurrences | 405 | 0 | 766 | 405 | 1,171 |
+| Unkeyed prompt occurrences | 0 | 0 | — | — | none |
+| Retained eligible question records | 0 | 0 | 1,204 | 552 | 1,756 |
+| Accepted handles / required searches | 0 / 0 | 0 / 0 | 1,082 / — | — | — |
+| Prior-BMS handle reuses | not adjudicated after exclusion | 0 | — | — | — |
+| Cross-family concept delta | +0 | +0 | +686 over primary | 372 | 1,058 |
+| **Distinct tested concepts** | **0 eligible** | **+0** | **686 auxiliary additions** | **372** | **1,058** |
+
+The source-local checksum closes as `7 Introduction + 167 Cell Injury + 192 Accumulation + 30
+Blue File + 9 Other Questions = 405 prompts`; answers close identically as `7 + 167 + 192 +
+30 + 9 = 405`. MCQ arithmetic is `4 + 107 + 136 + 6 = 253`—of which six are the separately
+headed formative set—and non-MCQ arithmetic is `3 + 60 + 50 + 30 + 9 = 152`; equivalently the
+boundary table's broader format grouping is `247 section-bank MCQs + 6 formative MCQs + 152
+written/case/T&F = 405`. Eligibility is `405 × 0 = 0`; search arithmetic is `0 × 4 = 0`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains **1,279 / 766 / 1,204 / 1,082 /
++686**; and all eligible evidence remains **2,044 / 1,171 / 1,756 / 1,058**. Family 145 cannot
+establish a Helwan exam, official key, authenticated practical, recurrence, mark weight, candidate
+response, readiness, or claims status.
+
+### Exact next debt after Family 145
+
+`src_6f1e3ea08eb27f71a791` is exhausted across all 74 pages: every visible/metadata provenance
+field, external-university footer, collection/date/repeat annotation, section heading, written and
+MCQ occurrence, supplied-answer convention, key cell, numbering anomaly, format assignment,
+authority exclusion, zero-search gate, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-145 blocker. The exact next manifest record is tier-9
+`src_0f3b4a2592f9854057f9` · `Final Revision Questions by Dr.Tarek [108].pdf`, SHA-256
+`0f3b4a2592f9854057f985d456ea4622fc98a8ded02d34ff0205b0f3df85b6e0`, 3,723,877 bytes,
+71 native-text US-letter pages under `Pathology / Questions`. The manifest carries the external
+origin hint `Kasr Alainy`; its first-page snippet reads `final revision questions and answer`,
+`PATHOLOSIS`, and `Dr.TAREK`. Its exact carrier relationship to Family 145, visible institutional
+provenance, tier-9 authority, complete prompt/key boundary, and zero-versus-search gate are the
+exact next-source blockers.
