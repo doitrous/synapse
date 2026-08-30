@@ -3166,3 +3166,117 @@ Absalam101.pdf`, SHA-256
 `80ca3b0d4df30607c1fb3ba5c99f09204d8fb8709752b8437d113c97d9cbdc28`.
 
 **BLOCKED — S1 cannot be approved:** 71 selected source paths remain untriaged.
+
+## Completed source — G.Anatomy MCQ till Midterm by Absalam101
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/G.Anatomy MCQ till Midterm by Absalam101.pdf` | `80ca3b0d4df30607c1fb3ba5c99f09204d8fb8709752b8437d113c97d9cbdc28` | 52 | substantive-text | pages 1–52 rendered and read | Local four-part revision bank credited `By: Absalam101`; no institution, department, sitting, date or official-key claim is printed. |
+
+### Visual prompt and key inventory
+
+The cover says `This pdf contains 200 Questions`, but the complete visual inventory is **190
+complete MCQ prompt occurrences / 190 directly printed answer occurrences**. Parts 1 and 2
+contain 50 prompts each. Part 3 contains Q1–Q20 and Q31–Q50 only, so printed Q21–Q30 are
+absent and were not invented: `20 + 20 = 40`. Part 4 contains Q1–Q33, one complete unnumbered
+prompt between Q33 and Q35, and Q35–Q50: `33 + 1 + 16 = 50`. Every visible prompt has an
+immediately following `Answer:` line. There are no missing or orphan answers.
+
+The full ordered key ledger, by prompt occurrence rather than repairing the source numbering,
+is:
+
+| Part | Prompt occurrences | Directly printed answers in occurrence order |
+|---|---:|---|
+| 1 | 50 | `A C B B A B C C C C C C C B D B D B C C C A C C A C C B A B D C B B C B A A C A D B C C B D C B B A` |
+| 2 | 50 | `C A B D C C A B B B C D C A C A C B C B B C C B B C D A C B B C C D A B B B B C A A C B D C D D B D` |
+| 3 | 40 | `D D C C B A D C C A A B B C B C C D B C B B C. Medullary cavity B. Hyaline cartilage C B C A C B. Epiphyseal plate B C. Skeletal muscles C C C A B C A A` |
+| 4 | 50 | `B C D C B C C B B B B C B A. Tibia and fibula C C C C A. Tibia and fibula B B B B C C B C A C B B CB B B C D B C C B C C C B C A C C C B` |
+
+Part 4 Q32's malformed `Answer: CB`, plus the longer text-bearing answer lines in Parts 3 and
+4, are retained verbatim as single printed-answer occurrences. No medical or typographical
+repair was made; this includes questionable or imprecise claims such as Part 3 Q34 and Part 4
+Q18.
+
+### Source-first assignment, four-search replay, and prior-FHB ledger
+
+`P1`–`P4` identify the four independently numbered parts; `P4-U34` identifies the complete
+unnumbered Part 4 prompt between printed Q33 and Q35.
+
+| Source refs | Source-distinct tested concept (four search phrases) | Exact-scope disposition |
+|---|---|---|
+| P1-Q1 | Anatomy as study of body structure (`anatomy study structure human body`; `definition anatomy`; `anatomy structure body`; `anatomy field study`) | new; no exact prior-FHB assignment — new addition. |
+| P1-Q2,Q17,Q20; P3-Q43,Q45 | Anatomical planes (`parasagittal unequal halves`; `transverse plane upper lower`; `sagittal left right`; `coronal front back`) | new externally; exact prior-FHB reuse — duplicate. |
+| P1-Q14; P2-Q11,Q18,Q28,Q30,Q33,Q38,Q40,Q44 | Anatomical directional terms (`proximal closer attachment`; `distal farther attachment`; `medial lateral midline`; `superficial inferior posterior`) | new externally; exact prior-FHB reuse — duplicate. |
+| P3-Q4–Q5; P4-Q4,Q9 | Anatomical movements (`adduction toward midline`; `pronation forearm`; `circumduction circular motion`; `protraction forward movement`) | new externally; exact prior-FHB reuse — duplicate. |
+| P1-Q3,Q33,Q35,Q45,Q47; P3-Q19 | Skin layers, sensation, Langer lines and organ identity (`epidermis dermis skin layers`; `dermis sensation`; `Langer lines collagen dermis`; `skin largest organ`) | new externally; exact prior-FHB skin-composition reuse — duplicate. |
+| P3-Q32,Q41,Q47 | Deep- and superficial-fascia position/functions (`deep fascia muscle sheath`; `deep fascia beneath superficial fascia`; `superficial fascia unites epidermis tissues`; `deep superficial fascia`) | new externally; exact prior-FHB fascia-family reuse — duplicate. |
+| P1-Q4,Q22,Q48,Q50; P2-Q1,Q23,Q42,Q49 | Vertebral-column regions and adult fused-bone counts (`vertebral column five regions`; `adult vertebral column 26 bones`; `lumbar five vertebrae`; `sacrum coccyx fused vertebrae`) | new; no exact prior-FHB vertebral-count assignment — new addition. |
+| P1-Q5,Q10; P2-Q13,Q41,Q47; P3-Q10 | Bone classification by shape (`pneumatic bones air spaces`; `patella sesamoid bone`; `scapula flat bone`; `carpals tarsals short bones`) | new externally; exact prior-FHB expanded bone-shape reuse — duplicate. |
+| P1-Q31,Q41,Q43,Q46; P2-Q3,Q8,Q10,Q24,Q26–Q27,Q32,Q43,Q45; P3-Q8,Q31,Q35,Q37–Q38,Q50; P4-Q14,Q19 | Named axial/limb bones and regional counts (`sternum manubrium body xiphoid`; `phalanges metacarpals tarsals counts`; `femur humerus fibula identification`; `mandible forearm lower leg bones`) | new; no exact prior-FHB regional-name/count family — new addition. |
+| P1-Q6; P2-Q4; P3-Q1,Q36,Q44 | Axial and appendicular skeleton membership (`axial skeleton skull vertebral column`; `appendicular skeleton arms legs`; `axial appendicular skeleton`; `clavicle appendicular skeleton`) | new externally; exact prior-FHB reuse — duplicate. |
+| P2-Q50; P3-Q12,Q16,Q18,Q20,Q33,Q40 | Long-bone parts and growth (`diaphysis shaft long bone`; `epiphysis end long bone`; `epiphyseal plate growth length`; `periosteum medullary cavity long bone`) | new externally; exact prior-FHB reuse — duplicate. |
+| P1-Q18,Q23,Q40; P2-Q46; P3-Q11,Q15 | Bone cells and compact/spongy microstructure (`osteoblast bone tissue`; `osteoclast bone resorption`; `osteon compact bone unit`; `spongy compact bone structure`) | new; no exact prior-FHB microstructure assignment — new addition. |
+| P3-Q39; P4-Q10 | Cartilaginous fetal skeleton and ossification (`cartilage replaced bone ossification`; `fetal skeleton cartilage`; `endochondral ossification`; `initial human skeleton cartilage`) | pending-hit; exact prior-FHB osteogenesis reuse — duplicate. |
+| P2-Q19,Q48; P3-Q2,Q34,Q42,Q46,Q48; P4-Q1,Q11–Q13 | Hyaline, elastic and fibrocartilage types/sites (`hyaline elastic fibrocartilage`; `elastic cartilage ear epiglottis`; `fibrocartilage intervertebral discs`; `hyaline cartilage joints weight bearing`) | new externally; exact prior-FHB cartilage type/site reuse — duplicate. |
+| P1-Q11 | Skeletal-system components (`skeletal system bones cartilage ligaments`; `skeletal system components`; `bones cartilage ligaments`; `skeletal system includes`) | new; no exact prior-FHB assignment — new addition. |
+| P1-Q28,Q34; P2-Q25,Q36; P4-Q21 | Joint definition and ligament/tendon relationships (`ligament bone to bone`; `tendon muscle to bone`; `joint two bones meet`; `ligament connects bones joints`) | new; prior FHB owns tendon attachment but not this expanded joint/ligament family — new addition. |
+| P1-Q8,Q29; P3-Q6; P4-Q22–Q23 | Fibrous-joint forms (`suture skull fibrous joint`; `gomphosis teeth sockets`; `syndesmosis radius ulna`; `fibrous joint types`) | new externally; exact prior-FHB reuse — duplicate. |
+| P4-Q24,Q28 | Primary and secondary cartilaginous joints (`primary cartilaginous epiphyseal plate`; `secondary cartilaginous limited movement`; `cartilaginous joint ossify age`; `synchondrosis symphysis`) | new externally; exact prior-FHB reuse — duplicate. |
+| P1-Q7,Q13; P4-Q29 | Synovial-joint fluid, movement and capsule lining (`synovial fluid lubricates joint`; `synovial joints freely movable`; `synovial membrane capsule lining`; `synovial joint structure`) | new externally; exact prior-FHB synovial-structure reuse — duplicate. |
+| P1-Q32; P2-Q14–Q15,Q17,Q21,Q29,Q34–Q35; P3-Q3; P4-Q25–Q27,Q30 | Synovial-joint types and examples (`ball socket shoulder`; `pivot atlantoaxial radioulnar`; `wrist condyloid radiocarpal`; `hinge elbow saddle thumb`) | new externally; exact prior-FHB joint-type reuse — duplicate. |
+| P1-Q39; P2-Q22; P3-Q7,Q17 | Skeletal, smooth and cardiac muscle control/supply (`involuntary muscles heart digestive`; `smooth muscle digestive tract`; `skeletal muscle nerve supply mixed`; `skeletal smooth cardiac muscle`) | new externally; exact prior-FHB muscle-type reuse — duplicate. |
+| P4-Q2–Q3 | Muscle origin and aponeurosis (`muscle origin fixed attachment`; `aponeurosis flattened sheet`; `origin insertion aponeurosis`; `muscle attachment terminology`) | new externally; exact prior-FHB reuse — duplicate. |
+| P3-Q9; P4-Q5–Q6 | Prime mover, antagonist and fixator roles (`prime mover chief muscle`; `antagonist opposes prime mover`; `fixator stabilizes origin`; `agonist antagonist fixator`) | new; prior FHB owns prime mover but not the expanded antagonist/fixator family — new addition. |
+| P3-Q49; P4-Q7–Q8 | Circular, pennate and fusiform muscle shapes (`circular muscle openings`; `pennate central tendon oblique fibers`; `biceps fusiform muscle`; `muscle fiber arrangement shapes`) | new; prior FHB owns bipennate architecture but not this expanded shape family — new addition. |
+| P1-Q9,Q25–Q27; P4-Q46 | Nervous-system function and central/peripheral divisions (`nervous system transmits signals`; `CNS brain spinal cord`; `PNS cranial spinal nerves ganglia`; `central peripheral nervous system`) | new externally; exact prior-FHB reuse — duplicate. |
+| P1-Q42; P2-Q2,Q5–Q7,Q9,Q20 | Spinal-nerve roots, trunk and rami (`dorsal root sensory ventral root motor`; `spinal nerve roots join intervertebral foramen`; `spinal nerve trunk mixed`; `primary rami spinal nerve`) | new externally; exact prior-FHB reuse — duplicate. |
+| P1-Q36,Q38; P4-Q44–Q45 | Cranial and regional spinal-nerve counts (`twelve cranial nerve pairs`; `31 spinal nerve pairs`; `eight cervical spinal nerves`; `twelve thoracic spinal nerves`) | new; prior FHB owns cranial/lumbar counts but not the complete regional count family — new addition. |
+| P1-Q30; P4-Q47 | Sensory/autonomic ganglia and autonomic function (`autonomic sensory ganglia PNS`; `autonomic ganglia function`; `peripheral nervous ganglia`; `ganglia sensory autonomic`) | new; prior FHB owns peripheral/spinal ganglia but not this autonomic scope — new addition. |
+| P2-Q31,Q37 | Referred-pain definition and cardiac example (`referred pain different site source`; `heart referred pain anterior chest`; `referred pain definition`; `cardiac referred pain`) | new; no exact prior-FHB assignment — new addition. |
+| P1-Q44; P2-Q12,Q16; P4-Q16–Q17,Q33,P4-U34,Q42 | Artery/vein direction, wall, valve and oxygenation properties (`arteries carry blood away heart`; `pulmonary vein oxygenated blood`; `arteries thick walls no valves`; `veins collapse valves deoxygenated`) | new; prior FHB owns generic artery/vein structure, but not this pulmonary/oxygenation expansion — new addition. |
+| P4-Q32,Q35–Q41,Q43 | Arterioles, venules, capillaries, anastomoses and sinusoids (`arterioles small arteries venules small veins`; `capillary exchange low pressure`; `capillaries connect arterioles venules`; `sinusoids wide capillaries locations`) | new; prior FHB owns capillary basics and venules, but not this expanded microcirculation family — new addition. |
+| P4-Q15,Q31 | Heart position and midline relation (`heart thoracic cavity`; `one third heart right midline`; `heart location mediastinum`; `heart relation midline`) | new; no exact prior-FHB assignment — new addition. |
+| P1-Q12; P3-Q14; P4-Q49 | Lymph identity, formation and lymphocyte content (`lymph fluid lymph vessels`; `lymph formation intercellular spaces`; `lymph contains lymphocytes`; `lymph composition formation`) | new; no exact prior-FHB assignment — new addition. |
+| P1-Q16,Q19,Q21,Q24,Q37; P3-Q13; P4-Q20 | Thoracic duct and lymph return to venous blood (`thoracic duct largest lymphatic vessel`; `thoracic duct venous angle neck`; `lymph drains venous blood`; `thoracic duct most body`) | new; no exact prior-FHB assignment — new addition. |
+| P1-Q15,Q49; P4-Q18,Q48,Q50 | Lymph nodes, spleen and tonsils (`lymph nodes filter lymph`; `spleen lymphatic role`; `lymphatic system tonsils spleen nodes`; `tonsils filter pathogens`) | new; no exact prior-FHB assignment — new addition. |
+| P2-Q39 | Tissues lacking conventional lymph vessels (`lymph vessels absent brain spinal cord cornea cartilage`; `brain lymphatics absent`; `avascular tissues lymphatics absent`; `lymphatic distribution exceptions`) | new externally; exact prior-FHB brain/avascular-tissue exception reuse — duplicate. |
+
+All **190 prompt occurrences** are assigned exactly once. They collapse source-first to **36
+handles**, and the query ledger reconciles as **36 × 4 = 144 required searches**. Exact-scope
+source disposition is **0 live / 1 pending / 35 new = 36**.
+
+Nineteen handles exactly reuse prior-FHB scope. Seventeen survive, all externally new: anatomy
+definition; vertebral-column regions/counts; named regional bones/counts; bone-cell and
+microstructure; skeletal-system components; expanded joint/ligament relationships; expanded
+muscle action roles; expanded muscle shapes; complete cranial/regional spinal-nerve counts;
+autonomic-ganglion scope; referred pain; expanded artery/vein oxygenation; expanded
+microcirculation; heart position; lymph identity/formation; thoracic-duct return; and lymphatic
+organs. The post-prior-FHB result is therefore **0 live / 0 pending / 17 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+190
+questions / +190 directly printed answers / +17 concepts = +0 live / +0 pending / +17 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1844 | 1580 | 376 | 66 | 78 | 232 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 78 + 232 = 376`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **70 selected
+inventory paths / 68 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`ed27bb5e8aa86a2c8a8204e3ac1fd61947ee15a8b6e335da350403e42dbc9ef3`. Pinned triage debt
+becomes **27 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`38 + 68 = 106`**.
+
+The next evidence-ranked substantive source is the single 21-page Anatomy `08 Midterm Exams`
+path `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/[MedStudy] General Anatomy ➡️
+Midterm.pdf`, SHA-256
+`1cecd06ab3f64fc1fc58229fc82bae297af9f2b65d73040d67c11e0d7c14c2c4`.
+
+**BLOCKED — S1 cannot be approved:** 70 selected source paths remain untriaged.
