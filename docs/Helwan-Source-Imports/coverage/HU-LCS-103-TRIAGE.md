@@ -13726,3 +13726,96 @@ bytes; 13 physical A4 pages; SHA-256
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 109 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 122 — Tier-3 Ain-Shams-attributed external Lower-Limb keyed MCQ chapter
+
+### Exact identity, external authority and complete 13-page OCR boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_a79f48edef6abc5a586a` / `a79f48edef6abc5a586a3714708c71ba41852eca16316d88c10d3b332e253b69` |
+| File / boundary | `MCQs - External MCQs Chapter 6 Lower Limb Ain Shams_250528_070856.pdf` · 2,545,332 bytes · untagged, unencrypted image-only PDF · 13 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 · `originUniversityHint: Ain Shams` |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Chapter 6 Lower Limb Ain Shams_250528_070856.pdf` |
+| Visible and manifest provenance | The filename explicitly says `Ain Shams` and the manifest repeats that foreign-university hint; the page body begins `Part 6 / Lower Limb / Multiple Choice Questions (MCQs)`. No page prints Helwan, LCS-103, cohort, exam sitting or year. Metadata exposes only PDFium creation/production and no creation date. |
+| Authority finding | Externally attributed Ain Shams Lower-Limb question chapter, not Helwan assessment evidence. The filename-plus-manifest attribution governs although the page body does not repeat the university name. All occurrences remain external. |
+
+The assigned hash, byte size and 13-page boundary were recomputed and match. Native
+extraction yields only 13 form-feed separators, confirming the image-only reality. All 13
+pages were rendered, checked with fresh OCR and read visually at original page resolution.
+The source PDF itself was not changed.
+
+Pages 1–10 print Q1–Q56. Page 11 prints Q57–Q64 and begins the answer table at Q1–Q10;
+page 12 continues keys Q11–Q36 and page 13 completes keys Q37–Q64. The exact boundary is
+therefore **64 external MCQ occurrences / 64 printed keys / 0 unkeyed occurrences**.
+Matching runs Q22–Q25, Q32–Q35, Q57–Q60 and Q61–Q64 remain their individually numbered
+answerable items; the range headings are not second prompts. The answer table keys every
+integer Q1–Q64 exactly once. Brief explanations attached to selected rows are key
+rationales, not extra prompts or standalone teaching scopes. There is no essay, fill-in,
+response blank or learner-authored written section.
+
+Source wording and key states are preserved without medical or editorial repair. Notable
+examples include Q14's `inguinal hernia` wording with key B; Q16's key D explanation that
+the femoral artery lies inside the sheath; Q30's unsafe-stem/safe-explanation opposition
+about an upper-outer-quadrant injection with key D; Q39's `anterior & posterior peroneal
+arteries` distractor with key B; Q40 and Q45's `anterior tibial nerve` terminology for the
+deep peroneal nerve; Q41 option B's lower tibia articulating with `tibia & talus` while key
+C addresses the fibular-head statement; Q48 option A's `peroneus longus & peroneus
+tertius` while its explanation prints longus and brevis; and Q51 option C's posterior-tibial-
+artery origin under the flexor retinaculum while the explanation places it at the distal
+border of popliteus. These are source anomalies, not inferred corrections.
+
+No question includes a specimen, radiograph, micrograph, diagnostic image, station,
+apparatus task, masked label or learner-completed diagram. The scanned pages and answer
+tables are assessment layout, not practical plates. Teaching and practical deltas are
+therefore exactly zero, including **0 practical prompts / 0 plates / 0 mappings / 0 residues
+/ 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior-external reconciliation
+
+The 64 occurrences collapse to **14 source-distinct tested handles**: lower-limb osteology
+and bony landmarks; fascia lata and the saphenous opening; thigh compartments and muscle
+architecture; femoral triangle, sheath and canal; femoral neurovascular structures and the
+adductor canal; gluteal region and sciatic foramina; posterior thigh, sciatic nerve and
+hamstrings; popliteal fossa and neurovascular relations; leg compartments and fibular
+nerves; lower-limb superficial veins; posterior leg and tibial neurovascular structures;
+foot muscles and sole layers; lower-limb joint types and movements; and gait plus clinical
+lower-limb nerve localization. Every item is assigned once to one handle.
+
+Each handle received exactly one fresh search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **14 × 4 = 56 required search invocations**.
+Prior-external-first comparison finds all 14 already represented across Families 86, 94,
+103 and 113–120. Accepted Families 39–48 independently own or corroborate the curricular
+lower-limb scopes but cannot promote this Ain Shams chapter into eligible Helwan evidence.
+Reconciliation is **14 prior-external reuses + 0 external additions = 14**; both external
+and eligible concept-state deltas are zero. Exact query and result ledgers are preserved at
+`tmp/pdfs/lcs103-family122/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family122/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **4,757 / 4,609 / 221 = 12 / 135 / 74** to **4,821 external prompts / 4,673
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `4,757 + 64 = 4,821`, `4,609 + 64 = 4,673`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-121 remainder. Removing its sole path leaves
+**108 all-rank path instances / 100 unique hashes**: tier 3 **26 paths / 23 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 121's prior checksums are
+`c98ad589ccb879da99237371e82e204db70d20f5e74aa538cf312da0c51de051` (paths) and
+`f5415cc0ef1a4080b7a3a1ab80a9c1410fb2a8d1241ce9b1076f3b3db564bb9c` (unique hashes).
+For the exact post-Family-122 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0e95c9f48f26d27fc1956692574a1085c17d5ed8ad4fce1825ceee89af439e59`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`8cde1306656ac346ed09d523d9b928022826285d6636564bd79428212f7af883`.
+
+The exact next tier-3 manifest-order debt is `src_a79f77e21ed93bf89c0a`,
+`MCQs - External MCQs Chapter 6 Lower Limb عين شمس.pdf` (2,545,370 bytes; 13 physical A4
+pages; SHA-256 `a79f77e21ed93bf89c0aaf66f73e57689711122d1413de187f32a98f5744d7c4`).
+It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 108 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
+record, catalogue update, import or source copy was created.
