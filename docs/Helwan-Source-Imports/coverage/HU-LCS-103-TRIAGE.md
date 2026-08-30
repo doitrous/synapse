@@ -4356,3 +4356,138 @@ native-text pages; SHA-256
 103/Anatomy/Theoretical/Head & Neck/Lec 9 - Triangles of Neck/`. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 38 — Tier-4 Anatomy teaching-only neck-triangles lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_163c4a1fb9365979992a` |
+| File / SHA-256 | `Triangles of the Neck dr Sarah .pdf` / `163c4a1fb9365979992a9a1d4e05762089c961e9d5bc6c8b55f322502e45545a` |
+| File boundary | 1,988,802 bytes · unencrypted PDF · 23 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Head & Neck/Lec 9 - Triangles of Neck/Triangles of the Neck dr Sarah .pdf` |
+| Visible provenance | p. 1 prints `Triangles of the Neck`, `Dr Sarah Arakib`, and `MD Anatomy and Embryology`; the source itself prints no university, sitting or assessment label |
+| Authority finding | Manifest/path-assigned local Anatomy teaching evidence. It is not an examination, station sheet, question bank or official answer key. |
+
+The SHA-256, byte count and 23-page boundary were recomputed and match the manifest. The
+organised file currently present on disk omits the manifest's space before `.pdf`; its bytes
+and hash establish that it is the same source, while the manifest spelling remains the ledger
+identity. All 23 pages were rendered at 140 dpi and read against the native text layer. Page
+1 is the cover, pp. 2–22 are 21 instructional slide compositions, and p. 23 is the closing
+slide.
+
+There is **no assessment occurrence anywhere in the source**. No page prints an imperative
+or interrogative prompt, station instruction, response area, option set, answer line,
+correctness convention, answer reveal or key. In particular, p. 17's `Clinical importance`
+is a declarative heading above a labelled photograph of an enlarged left supraclavicular
+lymph node (`Virchow's node`), not the `Clinical importance ??` prompt form seen in Family
+25. Page 18 is a fully labelled summary graphic, likewise teaching material. The embedded
+black crop/mask artifacts around the imported p. 6 figure are not authored response blanks
+or unresolved practical callouts; the slide itself directly prints its three intended
+content bullets.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The theoretical lecture's figures are retained as parts of their source teaching
+compositions, not promoted into tier-5 practical plates or label-mapping records.
+
+| Physical page | Source-first instructional composition | Evidence class |
+|---:|---|---|
+| 2 | anterior-versus-posterior triangle position relative to sternocleidomastoid, with regional image | declarative teaching |
+| 3 | anterior-triangle superior, lateral and medial borders, with labelled figure | declarative teaching |
+| 4 | four anterior-triangle subdivisions with labelled regional diagram | declarative teaching |
+| 5 | submental-triangle borders, roof and floor | declarative teaching |
+| 6 | submental lymph nodes, vessels and anterior jugular vein, with imported figure | declarative teaching; crop artifacts are not blanks |
+| 7 | submandibular/digastric-triangle borders, roof and floor | declarative teaching |
+| 8 | submandibular gland/nodes, vessels and nerves | declarative teaching |
+| 9 | carotid-triangle borders, roof and floor | declarative teaching |
+| 10 | carotid-triangle arteries, veins, nerves and deep cervical lymph nodes | declarative teaching |
+| 11 | muscular-triangle borders | declarative teaching |
+| 12 | infrahyoid-muscle and thyroid-lobe contents of the muscular triangle | declarative teaching |
+| 13 | posterior-triangle definition and borders | declarative teaching |
+| 14 | posterior-triangle floor and roof | declarative teaching |
+| 15 | posterior-triangle muscle, vascular, neural and lymph-node contents | declarative teaching |
+| 16 | occipital and supraclavicular/subclavian subdivisions by inferior belly of omohyoid | declarative teaching |
+| 17 | enlarged left supraclavicular lymph node identified as Virchow's node | labelled clinical teaching image |
+| 18 | fully labelled neck-triangle summary graphic | labelled teaching image; no prompt |
+| 19 | sternomastoid origins, insertions, innervation and actions | declarative teaching |
+| 20 | supra- versus infrahyoid group locator image | labelled teaching image |
+| 21 | suprahyoid members and their nerve supply | declarative teaching |
+| 22 | infrahyoid members and ansa-cervicalis/thyrohyoid exception | declarative teaching |
+
+The **21 content-slide occurrences are 21 source-distinct teaching compositions**. The
+regional triangle artwork is reused across several pages, but each complete slide has a
+different title, text layer, crop or teaching purpose; there is no exact complete-page copy
+to collapse. The source boundary is therefore **21 teaching compositions / 0 ordinary
+questions / 0 practical or station prompts / 0 printed assessment keys / 0 assessment
+residues**. Because this is a tier-4 theoretical lecture, its instructional images add
+**0 practical plates, 0 practical label mappings and 0 practical residues** to the separated
+tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 21 compositions consolidate to nine source-level theoretical teaching scopes. This
+scope collapse preserves every page occurrence and does not convert teaching statements
+into tested concepts.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `anterior-triangle-neck-subdivisions` · pp. 2–4, 18 | anterior triangle neck subdivisions; submental submandibular carotid muscular triangles; anterior cervical triangle regions; digastric carotid muscular triangle classification | no direct live/pending same-scope hit; exact accepted Family-36 handle — prior LCS reuse |
+| `submental-triangle` · pp. 5–6 | submental triangle; submental region; submental triangle boundaries contents; anterior triangle neck submental | no direct live/pending same-scope hit; exact accepted Family-1/Family-36 handle — prior LCS reuse |
+| `submandibular-triangle` · pp. 7–8 | submandibular triangle; digastric triangle; submandibular triangle boundaries contents; submandibular gland facial artery lingual nerve | no direct live/pending same-scope hit; exact accepted Family-1/Family-36 handle — prior LCS reuse |
+| `carotid-triangle` · pp. 9–10 | carotid triangle; carotid region; carotid triangle boundaries contents; carotid arteries jugular vagus hypoglossal | the sole external literal hit is a manifest snippet, not a live/pending concept; exact accepted Family-1/Family-20/Family-36 handle — prior LCS reuse |
+| `muscular-triangle` · pp. 11–12 | muscular triangle neck; omotracheal triangle; muscular triangle boundaries contents; infrahyoid thyroid gland triangle | no direct live/pending same-scope hit; exact accepted Family-1/Family-36 handle — prior LCS reuse |
+| `posterior-triangle-neck` · pp. 2, 13–16, 18 | posterior triangle neck; lateral cervical region; posterior triangle contents boundaries; occipital supraclavicular triangle | no direct live/pending same-scope hit; exact accepted Family-1/Family-36 handle — prior LCS reuse |
+| `virchow-node-identification` · p. 17 | Virchow node; left supraclavicular lymph node; enlarged left supraclavicular lymph node; Virchow supraclavicular node identification | the sole external literal hit is a BMS coverage row about the broader gastric-carcinoma association, not a live/pending identification record; no accepted prior-LCS same-scope handle — new theoretical teaching scope |
+| `sternocleidomastoid-oina` · p. 19 | sternocleidomastoid origin insertion nerve supply action; SCM OINA; manubrium clavicle mastoid nuchal line; accessory nerve sternocleidomastoid | no direct live/pending same-scope hit; exact accepted Family-1/Family-36 handle — prior LCS reuse |
+| `suprahyoid-and-infrahyoid-members-and-innervation` · pp. 20–22 | suprahyoid infrahyoid members innervation; hyoid muscle nerve supply; mylohyoid digastric stylohyoid geniohyoid; ansa cervicalis thyrohyoid C1 | no direct live/pending same-scope hit and no accepted prior-LCS handle owning the paired membership-and-innervation scope — new theoretical teaching scope |
+
+All **9 × 4 = 36** required searches completed across live state, `docs/import-ready`,
+`docs/questions-import-ready` and all source-import roots. The raw external result is `0
+live / 0 pending / 9 new`; exact accepted-prior comparison removes seven module additions,
+leaving **seven prior-LCS reuses / two new theoretical teaching scopes**. These two scopes
+are inventory findings only: with no source prompt they do not enter the eligible tested-
+concept count, and because the source is theoretical they do not enter the practical-
+teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 38 | Family 38 delta | After Family 38 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**. Arithmetic checks are `447 + 0 =
+447`, `242 + 0 = 242`, `204 + 0 = 204`, `9 + 49 + 146 = 204`, `251 + 0 = 251`,
+`1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-37
+remainder leaves **38 rank-4/rank-5 path instances / 36 unique hashes**. The Family-37
+method was reproduced first: its 39/37 row sets recomputed to
+`e27a55dc6341786d5d229699eb5a7c18ec9d4e8f8268b65ee74ad42f9892ea44` and
+`058a69c793791d55c7fb4ddeacf2242629e294d4bc0f109f93318074139fbba9`.
+For the exact post-Family-38 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`d07372201d3429a4bc539fac712a8282375e960995bcd9d34f5a09fef3aa7882`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`cf2f5344cbc6e2f953d6ad55d944426e5a212a0cbc8fca3f4af48dc903526672`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_21e1cf59bf0e485444a7`, `Anterior Compartment of Thigh  Dr Sarah 103.pdf` (4,601,182
+bytes; 40 native-text pages; SHA-256
+`21e1cf59bf0e485444a7f4f182f6fbb6aea8f9fa67066f2b4eb65e6321e96168`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 1 - Anterior Compartment of Thigh/`. Broader
+LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
+source copy was created.
