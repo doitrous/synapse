@@ -11909,3 +11909,93 @@ pre-extension space; 15,459,391 bytes; 68 native pages; SHA-256
 external until its own pages establish the exact module boundary. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 128 tier-3/tier-6/rank-9 path debts remain. No download,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 103 — Tier-3 external Dr Ayman Khanfour lower-limb MCQ, trial and teaching collection
+
+### Exact identity, provenance and complete 68-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_fe0e557cb57252cf7ff5` / `fe0e557cb57252cf7ff546f0a55140f57a947026decba0b5971f735e9ce818c6` |
+| File / boundary | Manifest `MCQs - أسئلة أناتومي External MCQs .pdf`; normalized local filename omits the pre-extension space · 15,459,391 bytes · unencrypted PDF · 68 physical A4 scan pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - أسئلة أناتومي External MCQs .pdf` |
+| Visible / container provenance | Contents identify a five-chapter lower-limb Anatomy review collection; assessment and collection pages print `By Dr. Ayman Ahmed Khanfour` and `Scanned by CamScanner`. PDF creator/producer is PDFium. No Helwan University, faculty, module, cohort, sitting or official-exam mark appears. |
+| Authority finding | The manifest's explicit `External MCQs` label, named third-party author and absence of Helwan institutional provenance establish an external review source. Its complete lower-limb scope fits LCS-103, but topical fit does not create direct Helwan assessment authority. |
+
+The assigned hash, byte size and 68-page boundary were recomputed and match. All 68 pages
+were rendered at 145 dpi, OCRed pagewise and read visually in nine ordered contact sheets,
+with ambiguous numbering checked on the full page renders. The container's nominal native
+layer has only fragmentary scan text; the visual scan is authoritative.
+
+| Physical boundary | Visible source section | MCQ prompts | Written prompts | Printed keys |
+|---|---|---:|---:|---:|
+| p. 1 | contents | 0 | 0 | 0 |
+| pp. 2–40 | chapter-1 lower-limb MCQs: thigh 63; gluteal region 25; popliteal fossa 8; leg 44; foot 18; joints 34; veins/lymphatics 12; cutaneous supply/dermatomes 5 | 209 | 0 | 0 |
+| pp. 41–46 | complete chapter-2 answer lists for the 209 chapter-1 MCQs | 0 | 0 | 209 |
+| pp. 47–56 | five trial exams, each with 10 MCQs followed by 5 essay questions | 50 | 25 | 0 |
+| pp. 57–58 | complete answer lists for all five trial exams' MCQs | 0 | 0 | 50 |
+| pp. 59–68 | chapter-5 insertion, action and nerve-supply collections | 0 | 0 | 0 |
+| **Family 103 assessment** | **complete bank and trials** | **259** | **25** | **259** |
+
+Arithmetic is `63 + 25 + 8 + 44 + 18 + 34 + 12 + 5 = 209` chapter MCQs,
+`5 × 10 = 50` trial MCQs, `5 × 5 = 25` trial essays, and **`209 + 50 + 25 = 284`
+prompt occurrences with `209 + 50 = 259` printed keys**. The answer lists cover every MCQ
+number in their respective sections. No answer is printed for the 25 essays, so none is
+inferred. Clinical vignettes remain ordinary written MCQs rather than practical stations.
+
+The ten collection pages are declarative textual teaching tables/flow summaries, not
+assessment prompts. They consolidate to three teaching-only scopes—lower-limb muscle
+insertions, actions and nerve supply—all already owned by accepted Anatomy lectures. The
+tables contain no specimen, radiograph, micrograph, masked label, response blank or apparatus
+task. Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0
+practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 284 assessment occurrences consolidate to **47 tested handles**. The source-first union
+covers quadriceps/iliopsoas/adductors and the three thigh compartments; femoral triangle,
+sheath/ring/canal, adductor canal, femoral/obturator/sciatic nerves and regional vessels;
+gluteal muscles/foramina; popliteal fossa; anterior, lateral and posterior leg compartments;
+foot layers, nerves, arteries and bony relations; hip, knee, ankle, subtalar/transverse-tarsal
+joints and arches; superficial veins/lymphatics; cutaneous territories and dermatomes. Trial
+MCQs and essays reuse this same union rather than manufacturing second handles.
+
+Each handle received exactly one search in the live, pending/import-ready, prior source-import
+and accepted-LCS surfaces: **47 × 4 = 188 required search invocations**. Prior-external-first
+comparison reuses the 45 lower-limb handles established by Family 86 and the superficial-
+lymphatic and dermatome handles added by Family 88. Accepted Families 20 and 39–48
+independently corroborate the curriculum, but cannot promote this external book into eligible
+Helwan evidence. Reconciliation is therefore **47 prior-external reuses + 0 external
+additions = 47**, external concept-state delta is **0 live / 0 pending / 0 new**, and
+eligible concept delta is zero. The exact 188-query ledger is preserved at
+`tmp/pdfs/lcs103-family103/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **2,246 / 2,187 / 221 = 12 / 135 / 74** to **2,530 external prompts / 2,446
+printed keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `2,246 + 284 = 2,530`, `2,187 + 259 = 2,446`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-102 remainder. Removing its sole path leaves **127
+all-rank path instances / 119 unique hashes**: tier 3 **45 paths / 42 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 102's prior checksums are
+`aa2894a1abee0fe5107580135b1563412109a9eaf8f5b4ed5e3f29d6a7f73186` (paths) and
+`e13f596bbb2376d7b6722526190ab675226112ae884c8a84a6b63b3666a107f5` (unique hashes).
+For the exact post-Family-103 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`01aae171a2f8c2242ef59eab3c248ca4ce7091ab258b9af5f669f44ae61a0e32`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`153f2314556187652818f1c4be7a644b0e599e6c29d74dd0dc95a2de8a5b2a57`.
+
+The exact next tier-3 manifest-order debt is `src_65249ccb61ee81a2662d`, manifest
+`MCQs - تجمعية_أسئلة_د_خالد_ميلاد2003External MCQs .pdf` (normalized local filename
+omits the pre-extension space; 12,395,380 bytes; 33 OCR-needed pages; SHA-256
+`65249ccb61ee81a2662d7b0f749ac65a316b6b1484f28d990a62a16219e8fe41`). It remains
+external until its pages establish the exact module boundary. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 127 tier-3/tier-6/rank-9 path debts remain. No download,
+ID, content record, catalogue update, import or source copy was created.
