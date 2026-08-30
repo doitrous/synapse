@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "001c796e135155a2bc385726d8d02047b16bc51e9d30940df80be8bac1ddf2d3",
-    "triageMarkdown": "82305bba71448e6546ad03a4208d69afefa6e5d4487fbbf226ed612624e5e5b1"
+    "readinessMarkdown": "af1718f54b8bc40b1798829f2c3c820a23b6d0b20acef4075f9425202344dc47",
+    "triageMarkdown": "6aa8985f641e7e288439ddea1837e22728114d7a40071ff69e081901bc6e7940"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -70,10 +70,11 @@
   "processedFamilies": {
     "sha256": [
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+      "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 3
+    "uniqueSha256": 4
   },
   "completedSourceCoverage": [
     {
@@ -222,15 +223,90 @@
         "page-break continuations remain one prompt occurrence each",
         "the printed answer tables are source answer evidence rather than authenticated faculty keys"
       ]
+    },
+    {
+      "sha256": "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+      "sourcePages": 56,
+      "renderedReadPages": "1-56",
+      "questionPages": "1-9,10-17,19-28,30-37,39-47,48-56",
+      "answerOnlyPages": "18,29,38",
+      "mixedPromptAndAnswerPages": "9,47,56",
+      "printedPromptObservations": 180,
+      "objectiveMcqPrompts": 180,
+      "printedKeyObservations": 180,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Parasitology (Mosquitoes)",
+          "pages": "1-9",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Parasitology (Sandfly)",
+          "questionPages": "10-17",
+          "keyPage": 18,
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Microbiology (Mycology)",
+          "questionPages": "19-28",
+          "keyPage": 29,
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Microbiology (Virology)",
+          "questionPages": "30-37",
+          "keyPage": 38,
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Microbiology (Chapter 10)",
+          "pages": "39-47",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Pharmacology",
+          "pages": "48-56",
+          "prompts": 30,
+          "answers": 30
+        }
+      ],
+      "sourceFirstHandles": 18,
+      "priorFhb1022CollapsedHandles": 3,
+      "acceptedSourceHandles": 15,
+      "searchesRun": 60,
+      "familyQuestionDelta": 180,
+      "familyAnswerDelta": 180,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 15,
+      "sourceProcessed": true,
+      "authorityDisposition": "student-authored revision question bank visibly attributed to Absalam101 and created in Microsoft Word in 2025; the title and filename call it a midterm bank, but no institution, department, examiner, sitting, marks or authenticated faculty-key mark is visible, so the printed answer tables are source keys rather than official faculty keys",
+      "boundaryDisposition": "six independent thirty-question conventional MCQ sections with complete thirty-token answer tables; 180 distinct objective prompts and 180 prompt-matched printed answer observations, with no written, practical, image-identification or teaching-only prompt boundary",
+      "preservedSourceDefects": [
+        "the title-page statement that the PDF contains 180 questions is corroborated by the visible six-by-thirty boundary but is not an exam-authority claim",
+        "Virology Q9 begins with a stray W in the printed stem",
+        "academically questionable printed answer tokens are preserved without medical correction",
+        "page-break continuations remain one prompt occurrence each",
+        "the printed answer tables are source answer evidence rather than authenticated faculty keys"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 182,
-    "printedKeyObservations": 181,
-    "namedConceptsAssigned": 33,
+    "printedPromptObservations": 362,
+    "printedKeyObservations": 361,
+    "namedConceptsAssigned": 48,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 33
+    "newConcepts": 48
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -250,22 +326,28 @@
     "pages": 45,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fourthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf",
     "sha256": "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
     "pages": 56,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf",
+    "sha256": "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
+    "pages": 47,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 93,
-    "uniqueSha256": 91,
-    "sortedNewlineSha256": "7d058de7f7a9b32b5423302c310b89fa181a695cfbae84cdc368dd4e83a9efd0",
+    "inventoryMetadataRows": 92,
+    "uniqueSha256": 90,
+    "sortedNewlineSha256": "77ad46deade178ad591469f27b245889d771ef78e35a4975c26cc2a539c23aa9",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
       "sparse-text": 25,
-      "substantive-text": 40
+      "substantive-text": 39
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -273,12 +355,12 @@
     "audit-not-found": 11,
     "empty-text": 15,
     "sparse-text": 25,
-    "substantive-text": 40
+    "substantive-text": 39
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 3,
-    "remainingUniqueSha256": 91,
+    "processedUniqueSha256": 4,
+    "remainingUniqueSha256": 90,
     "processedPlusRemaining": 94
   }
 }

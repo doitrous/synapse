@@ -181,3 +181,66 @@ Removing the three processed hashes leaves **93 selected inventory paths / 91 un
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf`, SHA-256 `8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c`, 56 pages, with a substantive-text audit sample. Its exact prompt sequence and relation to Part 1 remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 93 selected inventory paths / 91 unique hashes remain untriaged.
+
+## Completed source — FHB102-2 MCQs till Midterm by Absalam101 (Part 2)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf` | `8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c` | 56 | substantive-text | pages 1–56 rendered and read | Student-authored revision question bank visibly attributed `By: Absalam101`, created in Microsoft Word in 2025. The filename/title say `Midterm`, but no institution, department, examiner, sitting, marks or authenticated faculty-key mark is visible. Its answer tables are source-printed keys, not official faculty keys. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+The title-page declaration of 180 questions is independently corroborated by six visible 30-question sections and six complete 30-token answer tables.
+
+| Section | Prompt/key pages | Objective MCQs | Printed answer tokens |
+|---|---|---:|---:|
+| Parasitology — Mosquitoes | 1–9; Q30 and key table share page 9 | 30 | 30 |
+| Parasitology — Sandfly | questions 10–17; answer-only page 18 | 30 | 30 |
+| Microbiology — Mycology | questions 19–28; answer-only page 29 | 30 | 30 |
+| Microbiology — Virology | questions 30–37; answer-only page 38 | 30 | 30 |
+| Microbiology — Chapter 10 | 39–47; Q30 and key table share page 47 | 30 | 30 |
+| Pharmacology | 48–56; Q30 and key table share page 56 | 30 | 30 |
+| **Total** | **56 pages** | **180** | **180** |
+
+There are **180 distinct objective prompt observations / 180 prompt-matched printed answer observations / 0 source-absent answers / 0 written prompts / 0 practical or image-identification prompts / 0 teaching prompts**. Pages 18, 29 and 38 are answer-only; pages 9, 47 and 56 combine the final prompt with the section answer table. Page-break continuations remain one prompt each. The stray `W` beginning Virology Q9 and academically questionable tokens are preserved without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 180 prompts collapse source-first into 18 coherent handles. Three are already represented by the prior FHB-102-2 family and receive no repeated external search: mosquito biology/morphology/lifecycle collapses to the prior arthropod-morphology handle; mosquito vector–disease transmission collapses to prior vector/transmission handles; and core beta-lactam mechanisms, resistance and allergy collapse to the prior cell-wall and penicillin handles. The remaining **15 accepted handles** each received exactly four manual live-and-pending searches: **15 × 4 = 60 searches**. Every query returned no live or pending match.
+
+| Source handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Mosquito biology, morphology, lifecycle and behaviour | prior arthropod morphology/metamorphosis handle | prior-FHB-102-2 collapse |
+| Mosquito vector–disease and transmission associations | prior biological vector-transmission and vector-specific handles | prior-FHB-102-2 collapse |
+| Integrated mosquito/sandfly vector control | `mosquito integrated vector management`; `biological chemical physical mosquito control`; `sandfly control insecticide bed net habitat`; `paratransgenesis vector control bacteria` | no live/pending match — retained new/TBD |
+| Sandfly biology, ecology and bite | `sandfly Phlebotomus morphology lifecycle`; `sandfly nocturnal weak hopping flight`; `sandfly bite Harara reaction`; `sandfly breeding habitat control ecology` | no live/pending match — retained new/TBD |
+| Sandfly diseases and transmission | `sandfly Leishmania promastigote amastigote`; `cutaneous visceral mucocutaneous leishmaniasis`; `Bartonella bacilliformis Oroya fever sandfly`; `sandfly fever leishmaniasis transmission` | no live/pending match — retained new/TBD |
+| Fungal structure, classification and reproduction | `fungal ergosterol chitin beta glucan`; `yeast mold dimorphic fungi classification`; `fungal hyphae mycelium spore reproduction`; `medical mycology fungal morphology` | no live/pending match — retained new/TBD |
+| Mycosis categories and pathogenesis | `superficial subcutaneous systemic opportunistic mycoses`; `fungal allergy spores mycotoxicosis`; `opportunistic pathogenic fungi immunocompromised`; `fungal disease classification pathogenesis` | no live/pending match — retained new/TBD |
+| Fungal diagnostics, culture and stains | `KOH preparation fungal diagnosis`; `India ink cryptococcus capsule`; `Sabouraud agar fungal culture`; `calcofluor silver stain fungal PCR antigen` | no live/pending match — retained new/TBD |
+| Viral structure, genome and classification | `virus capsid envelope genome classification`; `viroid circular RNA prion`; `viral envelope host cell membrane`; `DNA RNA virus genome morphology` | no live/pending match — retained new/TBD |
+| Viral replication, culture, tropism and CPE | `viral eclipse period budding replication`; `virus tissue culture chick embryo isolation`; `viral cell tropism receptors`; `cytopathic effect inclusion bodies syncytia` | no live/pending match — retained new/TBD |
+| Viral diagnosis, immunity and vaccines | `viral antigen antibody diagnostic tests ELISA`; `hemagglutination inhibition virus test`; `live attenuated subunit mRNA viral vector vaccines`; `interferon antiviral immunity chronic carrier` | no live/pending match — retained new/TBD |
+| Staphylococci identification | `staphylococcus catalase coagulase mannitol salt agar`; `staphylococcus aureus pigment beta hemolysis`; `coagulase negative staphylococcus epidermidis`; `staphylococci clusters identification tests` | no live/pending match — retained new/TBD |
+| Streptococci and enterococci | `streptococcus catalase negative chains pairs`; `Lancefield classification M protein Griffith`; `streptococcus pyogenes beta hemolysis`; `enterococci viridans streptococci hemolysis` | no live/pending match — retained new/TBD |
+| Anaerobic GPC and Gram-positive rods | `peptostreptococci anaerobic mixed infections`; `corynebacterium Chinese letters morphology`; `clostridium perfringens capsule anaerobic spore`; `Nocardia Actinomyces Propionibacterium differentiation` | no live/pending match — retained new/TBD |
+| Cephalosporins | `cephalosporin generations spectrum clinical uses`; `cefazolin cefaclor ceftriaxone cefepime ceftaroline`; `fourth fifth generation cephalosporin MRSA`; `cephalosporin meningitis surgical prophylaxis` | no live/pending match — retained new/TBD |
+| Monobactams and carbapenems | `aztreonam monobactam gram negative penicillin allergy`; `imipenem cilastatin carbapenem`; `carbapenem broad spectrum anaerobes`; `monobactam lack nephrotoxicity` | no live/pending match — retained new/TBD |
+| Vancomycin spectrum, uses and adverse-effect prevention | `vancomycin gram positive MRSA spectrum`; `oral vancomycin Clostridioides difficile`; `vancomycin nephrotoxicity red man prevention`; `vancomycin last resort resistant infection` | no live/pending match — retained new/TBD |
+| Core beta-lactam mechanisms, resistance and allergy | prior cell-wall antimicrobial and penicillin handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 15 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This fourth one-path hash is now `sourceProcessed=true`. It is distinct from Part 1 and adds **+180 questions / +180 answers / +15 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 362 | 361 | 48 | 0 | 0 | 48 | TBD |
+
+Removing the four processed hashes leaves **92 selected inventory paths / 90 unique SHA-256s**. Their sorted-newline checksum is `77ad46deade178ad591469f27b245889d771ef78e35a4975c26cc2a539c23aa9`. Remaining audit-review debt is **39 substantive-text / 25 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`4 + 90 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`, 47 pages, with a substantive-text audit sample. Its visual boundary and authority remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 92 selected inventory paths / 90 unique hashes remain untriaged.
