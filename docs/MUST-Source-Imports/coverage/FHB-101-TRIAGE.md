@@ -4611,3 +4611,64 @@ Removing this one substantive-text path and unique hash leaves **52 selected inv
 The next evidence-ranked substantive source is the three-path exact-duplicate 37-page `FHB exam 101 2020_compressed-1.pdf` family under the Anatomy, Histology and Physiology `05 MCQs` folders, SHA-256 `62143e16ae5d80b75313c51fbf850cbe6fe0223940abc2131ab130cb7cf337c8`.
 
 **BLOCKED — S1 cannot be approved:** 52 selected source paths remain untriaged.
+
+## Completed source family — FHB 101 Final Online Theoretical Exam (2020)
+
+| Source paths | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - FHB exam 101 2020_compressed-1.pdf`<br>`Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - FHB exam 101 2020_compressed-1.pdf`<br>`Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - FHB exam 101 2020_compressed-1.pdf` | `62143e16ae5d80b75313c51fbf850cbe6fe0223940abc2131ab130cb7cf337c8` | 37 | empty-text | pages 1–37 rendered and read once for the byte-identical family | Qorrect live-attempt screenshots titled `FHB 101 Final Online Theoretical Exam`, showing 39 questions, 78 marks, a pass mark and countdown timer. This is strong exam-sitting evidence, but the pages print no institution or examiner and contain no official results/key page. The three inventory paths are exact byte duplicates, not three assessment occurrences. |
+
+### Exact assessment and answer boundary
+
+The PDF contains exactly **37 prompt screenshots**: Q1–Q25, Q27–Q34 and Q36–Q39. Q26 and Q35 are absent; the interface's declared 39-question total does not substitute for those missing screenshots. Each included page contains one prompt, and there is no cover, teaching-only page or separate answer-key section.
+
+Thirty-six pages display one selected option in the signed-in attempt. Q17 displays no selected row or filled radio and states `you can't come back to this question`; it is therefore an observed unanswered prompt. The exact source inventory is **37 prompt occurrences / 36 visibly selected student-answer occurrences / 36 prompt-matched recovered answers**. These selections are attempt evidence, **not an official or validated answer key**: no selection was medically corrected, inferred or promoted to MUST key authority.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 37 observed prompts are assigned exactly once to 22 source handles. Each handle received the four identifying searches printed below, for **22 × 4 = 88 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1,Q7 | Isochromosome formation and sex-chromosome/Barr-body abnormality (`isochromosome centromere transverse division`; `isochromosome chromosome abnormality`; `45 XO Barr body`; `Turner syndrome sex chromatin`) | pending-hit; exact prior-FHB cytogenetics duplicate. |
+| Q4–Q5 | Continuously renewable cells and the G2 checkpoint (`bone marrow continuously renewable`; `cell renewal classification`; `G2 DNA replication check`; `cell cycle G2 checkpoint`) | pending-hit; exact prior-FHB renewal/cell-cycle duplicate. |
+| Q2,Q9 | Holocrine sebaceous glands and unicellular goblet glands (`sebaceous gland holocrine`; `goblet cell unicellular gland`; `exocrine gland secretion modes`; `unicellular multicellular gland`) | new externally; exact prior-FHB glandular-epithelium duplicate. |
+| Q3 | Gap-junction communication between osteocytes (`osteocyte gap junction`; `canaliculi osteocyte communication`; `gap junction connexon`; `bone cell junctions`) | live-hit; exact prior-FHB junction duplicate. |
+| Q6,Q24 | Transitional-epithelium morphology and epithelial avascularity (`transitional epithelium morphology`; `urothelium dome cells`; `epithelium avascular`; `epithelial nutrition diffusion`) | new externally; exact prior-FHB epithelium duplicate. |
+| Q8,Q10 | Dynein-related sperm immotility and colchicine disruption of spindle microtubules (`dynein immotile sperm`; `axonemal dynein infertility`; `colchicine spindle fibers`; `colchicine tubulin microtubules`) | pending-hit; exact prior-FHB cytoskeleton duplicate. |
+| Q11 | Nucleolar ribosomal-RNA synthesis (`nucleolus rRNA synthesis`; `nucleolus ribosome biogenesis`; `nucleolar organizer region`; `nucleolus function histology`) | new externally; exact prior-FHB nuclear-organelle duplicate. |
+| Q12 | Lipofuscin accumulation in long-lived nerve cells (`lipofuscin nerve cells`; `wear and tear pigment neuron`; `lipofuscin aging pigment`; `residual body lipofuscin`) | new externally; exact prior-FHB inclusion/pigment duplicate. |
+| Q13–Q14 | Mitochondrial DNA and smooth-ER prominence in steroid cells (`mitochondria own DNA`; `mitochondrial genome histology`; `smooth ER steroid synthesis`; `steroid secreting cell organelle`) | pending-hit; exact prior-FHB organelle/function duplicate. |
+| Q15–Q16 | Gametogenesis and tubal implantation (`gametogenesis meiosis`; `spermatogenesis oogenesis`; `ectopic pregnancy uterine tube`; `implantation site fallopian tube`) | new externally; exact prior-FHB reproductive/embryology duplicate. |
+| Q17 | Embryologic origin of the adrenal cortex (`adrenal cortex mesoderm origin`; `suprarenal cortex embryology`; `adrenal medulla neural crest`; `adrenal gland germ layer`) | new externally; exact prior-FHB embryology duplicate; source selection absent. |
+| Q18 | Cartilaginous-joint capsule claim (`cartilaginous joint capsule`; `synchondrosis symphysis capsule`; `fibrous capsule synovial joint`; `joint classification histology`) | new externally; exact prior-FHB joint-classification duplicate. |
+| Q19 | Deep-fascia intermuscular septa (`deep fascia intermuscular septa`; `deep fascia muscle compartments`; `intermuscular septum anatomy`; `deep fascia functions`) | new externally; exact prior-FHB fascia duplicate. |
+| Q20 | Motor anterior and sensory posterior spinal roots (`anterior spinal root motor`; `posterior spinal root sensory`; `spinal nerve roots function`; `dorsal ventral root`) | pending-hit; exact prior-FHB general-anatomy duplicate. |
+| Q21–Q22 | Placental function and umbilical-cord vessel count (`placenta functions exchange endocrine`; `placental barrier function`; `umbilical cord one vein two arteries`; `umbilical vessels anatomy`) | new externally; exact prior-FHB embryology duplicate. |
+| Q23 | Epiblast origin of the three germ layers (`epiblast three germ layers`; `gastrulation epiblast`; `ectoderm mesoderm endoderm origin`; `primitive streak germ layers`) | new externally; exact prior-FHB embryology duplicate. |
+| Q25 | Skeletal-muscle motor units (`skeletal muscle motor unit`; `motor neuron muscle fibers`; `motor unit definition`; `neuromuscular unit anatomy`) | new externally; exact prior-FHB muscle duplicate. |
+| Q27–Q28,Q37 | Neutrophil features, monocyte differentiation and splenic red-cell phagocytosis (`neutrophil granules nucleus`; `monocyte macrophage differentiation`; `splenic macrophage red cell`; `reticuloendothelial phagocytosis`) | new externally; exact prior-FHB blood-cell duplicate. |
+| Q29,Q31–Q32,Q34 | Coagulation, cyclooxygenase-dependent platelet function and bleeding tests (`factor X fibrinogen coagulation`; `cyclooxygenase inhibition platelets`; `factor XI bleeding time`; `vitamin K prothrombin synthesis`) | pending-hit; exact prior-FHB haemostasis duplicate. |
+| Q30 | Ferrous iron binding oxygen in haemoglobin (`ferrous iron oxygen binding`; `hemoglobin heme Fe2 oxygen`; `ferric methemoglobin oxygen`; `heme iron valence`) | new externally; exact prior-FHB red-cell physiology duplicate. |
+| Q33 | Intrinsic factor and nutrient absorption (`intrinsic factor vitamin B12`; `intrinsic factor absorption ileum`; `iron absorption intrinsic factor`; `pernicious anemia intrinsic factor`) | new externally; exact prior-FHB gastrointestinal/haematology duplicate. |
+| Q36,Q38–Q39 | Blood viscosity, major plasma proteins and plasma as extracellular fluid (`blood viscosity red cells`; `plasma viscosity proteins`; `albumin fibrinogen plasma concentration molecular weight`; `plasma extracellular fluid`) | new externally; exact prior-FHB blood/plasma duplicate. |
+
+The source-level search result is **1 live / 7 pending / 14 new = 22 handles**. Every handle is exact reuse of already processed FHB anatomy, histology, embryology or physiology scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The three-path byte-identical family is now `sourceProcessed=true` once. Its completed delta is **+37 questions / +36 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4467 | 4186 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing all three empty-text inventory paths and their one shared unique hash leaves **49 selected inventory paths / 49 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `37d0784fdc15acf2bfedd9346d0133b846a95b4ce6fb8140b2d12be824d7acd3`. Pinned triage debt becomes **nine substantive-text / six sparse-text / 34 empty-text** rows, and unique-hash accounting is **`57 + 49 = 106`**.
+
+The next evidence-ranked source is the single empty-text 46-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - MCQ Epithelium.pdf`, SHA-256 `6789f9c206abb44eb1cbbac5ffea20c0b0a052732c9569bca7a54ca407840618`.
+
+**BLOCKED — S1 cannot be approved:** 49 selected source paths remain untriaged.
