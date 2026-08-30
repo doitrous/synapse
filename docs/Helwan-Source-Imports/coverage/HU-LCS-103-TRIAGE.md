@@ -17740,3 +17740,115 @@ unencrypted; 367.7 × 520.118 pt; SHA-256
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 65
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 166 — Tier-6 lower-limb gross-model practical teaching atlas
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_38157b7206bda5923bb1` / `38157b7206bda5923bb1f4a92e99f201304ea32ba0e9a1c44b362f31aa6dce19` |
+| File / boundary | `DOC-20250628-WA0012_250703_123625 (1).pdf` · 2,035,997 bytes · PDF 1.7 · unencrypted · 15 native-text pages · 367.7 × 520.118 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/DOC-20250628-WA0012_250703_123625 (1).pdf` |
+| Visible / metadata provenance | The pages print no title, author, institution, lecturer, module, citation, exam label or key convention. PDF metadata names PDFium creator/producer and supplies no dates or author. |
+| Authority finding | Manifest placement establishes course-local LCS-103 summary evidence. With no visible authorship or assessment convention, it is unattributed tertiary practical-teaching evidence, not a sitting, response form or official key. |
+
+The assigned SHA-256, byte size, 15-page count and page geometry were recomputed and match.
+All 15 pages were rendered at 120 dpi, inspected individually at full resolution and read
+against the complete native text layer. Every page is a supplied-label gross-model photograph
+or integrated photographic composition covering the anterior/medial thigh, gluteal and
+posterior-thigh layers, popliteal region, anterior/lateral leg and superficial/deep posterior
+leg. Page 13 contains two source-distinct photographs; every other page contains one.
+
+There is **no assessment inventory**. No page prints an instruction to identify, response
+field, option set, blank, mark allocation, correctness mark, answer reveal or key convention.
+Every legible pointer label and every removed-structure annotation is already supplied. The
+exact assessment boundary is therefore **0 eligible or external prompts / 0 keys-or-answers /
+0 written prompts / 0 unkeyed prompts / 0 practical or station prompts / 0 practical
+assessment keys**.
+
+Source wording is preserved without silent anatomical or spelling repair, including
+`femoral vain`, `adductor previs`, `pirifomis`, `siatic nerve`, `poplitiaI vain`, `poplitiaI
+artery`, `hellucis`, `peroneaus`, `peroneaus previs` and `tendocalcenus`. The mixed Arabic /
+English pink annotations are retained as explicit removed-structure disclosures. P. 12's
+right-edge `medial head of gastrocnemiu…` callout is physically clipped in the source; its
+missing tail is not inferred.
+
+### Complete practical-plate, mapping and residue inventory
+
+| Physical pages | Source-first practical composition | Plates | Fully supplied mappings | Cropped residues |
+|---:|---|---:|---:|---:|
+| 1 | superficial anterior-thigh model | 1 | 7 pointer labels | 0 |
+| 2 | anterior-thigh model after stated sartorius/rectus-femoris removal | 1 | 6 pointer labels + 2 removal relations = 8 | 0 |
+| 3 | deeper anterior/medial thigh after three stated removals | 1 | 5 pointer labels + 3 removal relations = 8 | 0 |
+| 4 | internal hip-region model | 1 | 3 pointer labels | 0 |
+| 5 | superficial gluteal/posterior-thigh model | 1 | 4 pointer labels | 0 |
+| 6 | deep gluteal region after two stated removals | 1 | 4 pointer labels + 2 removal relations = 6 | 0 |
+| 7 | posterior-thigh hamstrings | 1 | 3 pointer labels | 0 |
+| 8 | popliteal region after two stated removals | 1 | 4 pointer labels + 2 removal relations = 6 | 0 |
+| 9 | anterior leg, ankle and dorsal-foot tendons | 1 | 9 pointer labels | 0 |
+| 10 | lateral/anterior leg and ankle | 1 | 5 pointer labels | 0 |
+| 11 | anterior tibial neurovascular plane after one stated removal | 1 | 1 pointer label + 1 removal relation = 2 | 0 |
+| 12 | superficial posterior leg | 1 | 2 complete pointer labels | 1 right-edge clipped callout |
+| 13 | soleus/Achilles model plus posterior-gastrocnemius/plantaris inset after one stated removal | 2 | 4 label-or-caption relations + 1 removal relation = 5 | 0 |
+| 14 | deep posterior leg after two stated removals | 1 | 6 pointer labels + 2 removal relations = 8 | 0 |
+| 15 | lateral superficial posterior leg | 1 | 3 pointer labels | 0 |
+| **Total** | **complete source practical boundary** | **16** | **79** | **1** |
+
+The mapping arithmetic is **66 fully legible pointer-label/caption relations + 13 explicit
+removed-structure relations = 79**. The clipped p. 12 callout is excluded from those 79 and
+carried once as unresolved practical residue. Repeated anatomical names on different views
+remain separate source-to-image mappings; no physical plate or pointer occurrence is silently
+collapsed.
+
+### Source-first practical scopes, exact searches and prior-LCS reconciliation
+
+The 16 plates consolidate to five complete practical teaching handles:
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Prior-LCS result |
+|---|---|---|
+| `layered-anterior-and-medial-thigh-gross-model-identification` · pp. 1–3 | anterior thigh model muscles; femoral triangle nerve artery vein model; sartorius rectus femoris removal; adductor longus brevis magnus gracilis model | Accepted Families 39 and 41 own the complete region/layer scope — prior-LCS reuse. |
+| `gluteal-posterior-thigh-and-popliteal-model-identification` · pp. 4–8 | gluteal model piriformis sciatic nerve; posterior thigh hamstring model; popliteal artery vein tibial nerve; gluteus hamstring removal layers | Accepted Families 40 and 42 own the complete scope — prior-LCS reuse. |
+| `anterior-lateral-leg-and-dorsal-foot-model-identification` · pp. 9–11 | tibialis anterior extensor model; lateral leg peroneus model; dorsal foot extensor tendons model; anterior tibial nerve vessels | Accepted Families 43 and 45 own the complete scope — prior-LCS reuse. |
+| `superficial-posterior-leg-model-identification` · pp. 12–13, 15 | gastrocnemius heads model; soleus model; plantaris posterior gastrocnemius; tendo calcaneus model | Accepted Families 44 and 45 own the complete scope — prior-LCS reuse. |
+| `deep-posterior-leg-model-identification` · p. 14 | popliteus model; tibialis posterior model; flexor digitorum hallucis model; posterior tibial nerve deep compartment | Accepted Families 44 and 45 own the complete scope — prior-LCS reuse. |
+
+Each of the **five accepted handles** received exactly one search on each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **5 × 4 = 20 required search invocations**. Broad term matches exist across the first
+three surfaces, but exact source-level comparison is decisive: accepted Families 39–45 own all
+five lower-limb regions and identification layers. Final disposition is **5 prior-LCS
+practical-teaching reuses / 0 additive live / 0 additive pending / 0 additive new scopes**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 464 plates / 2,798 mappings / 149 residues / 13
+keys** by **+0 / +16 / +79 / +1 / +0** to **20 / 480 / 2,877 / 150 / 13**. Arithmetic
+checks are `464 + 16 = 480`, `2,798 + 79 = 2,877`, `149 + 1 = 150` and `13 + 0 = 13`.
+
+This source hash occurs once in Family 165's remainder. Removing its sole path leaves **64
+all-rank path instances / 60 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes **50
+paths / 49 unique hashes within tier**, and rank 9 remains **14 / 11**. Family 165's prior
+checksums are `e9f873d02a5440fc6500e87bd79c1ad0476fdde2073537bad9e8f462c199296f`
+(paths) and `e9d44aa1c0b334c36127d147c48508285b00cb27a99b45d441f26c66c69734bb`
+(unique hashes). For the exact post-Family-166 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1ae67333d23727371704ff7f30cf135628cdac6df5af27a38a3328186dcbe872`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`200e3befcb9497b8162e96fe976e8d668c45839af8fec53d1735e82bde4d9031`.
+
+The exact next manifest-order debt is tier-6 `src_9cf6114e0ffe50af5305`,
+`DOC-20250628-WA0013_250703_123615.pdf` (1,899,980 bytes; nine native-text pages;
+unencrypted; 367.7 × 520.118 pt; SHA-256
+`9cf6114e0ffe50af53051772b27f08c8a8a64a13c7d66e2b380ab7f29e045665`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 64
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
