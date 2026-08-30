@@ -11077,3 +11077,74 @@ non-preferred name twin `src_42b52fea154ae632af09` · `Inflammation (4).pdf`, SH
 native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its chronic-inflammation
 teaching/annotation versus prompt/key boundary, provenance, and relation to the preferred twin are
 the exact next-source blockers.
+
+## Family 103 — Chronic-inflammation and granuloma teaching twin
+
+### Source identity, complete render boundary, provenance, and reuse adjudication
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_42b52fea154ae632af09` · `Inflammation (4).pdf` |
+| SHA-256 / size | `42b52fea154ae632af093c4edbd4e4cd45dedc3898f1de8e090497fdc383cf77` · 548,816 bytes |
+| Format / complete render boundary | Two native-text portrait A4 pages (595.276×841.89 points each); both rendered at 150 dpi into two non-empty 1241×1754-pixel images and visually read at original detail |
+| Native layer | 394 words / 9,692 bytes across the complete PDF: page 1 = 239 words / 7,703 bytes; page 2 = 155 / 1,989 |
+| Visible provenance | No university, module code, instructor, academic year, lecture date, or assessment sitting is printed. Folder placement supplies Helwan BMS-102 pathology context only. |
+| Metadata caution | Quartz metadata records `iOS Version 26.3.1 (Build 23D8133)` and March 14, 2026 creation/modification timestamps. These are file-production metadata, not evidence of authorship, teaching date, academic year, or sitting. |
+| Authority | Tier-6 notes-and-summaries teaching material and a manifest non-preferred name twin. It is not an exam, written exercise, practical station, response sheet, or official answer source. |
+| Reuse adjudication | Neither page's native extraction nor render is an exact match to any page of preferred `src_50a7db1e5d21f2bd18c9` or Families 100–102. This source is a distinct chronic-inflammation/granuloma continuation rather than another carrier of their acute-inflammation Steps 1–5 pages. Name-twin status groups the files but does not imply content identity. |
+
+### Complete page-first teaching, annotation, prompt/key, and residue inventory
+
+| Page | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Chronic-inflammation causes; eosinophil, mast-cell, and neutrophil associations; lymphocyte and macrophage roles; healing, persistence/fibrosis/organ failure, and neoplasia fates; specific/granulomatous versus nonspecific chronic inflammation | Completed headings, numbered lists, mappings, and comparison structure. Every number labels supplied teaching; **0 prompts / 0 keys**. |
+| 2 | Granuloma definition and type-IV mechanism; epithelioid cells, lymphoplasmacytic rim, fibroblast edge, Langhans giant cells, caseation, and foreign-body giant cells; infective, foreign-body, and unknown-cause taxonomy; complications and formation mechanisms; one fully labeled granuloma histology image | Completed declarative teaching and supplied image labels. Brackets and arrows format definitions/classifications; no image-identification request or response frame. |
+
+No page contains an exam heading, candidate instruction, interrogative task, option set, unanswered
+blank, student response, mark allocation, or separate printed key. Bracketed headings, emoji-style
+number markers, arrows, and colored boxes organize complete statements rather than soliciting
+answers.
+
+The source therefore contributes **0 raw prompt occurrences / 0 printed or handwritten teaching-
+answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles / 0 concept additions**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted assessment handle survives the completed-teaching boundary. The source-first gate is
+therefore exactly **0 handles × 4 = 0 required searches**; no external-disposition or prior-handle
+row is fabricated. Thematic overlap with earlier inflammation, macrophage, granuloma, and
+tuberculosis teaching does not create a tested handle, and the page-level comparison found no
+exact carrier reuse against Families 100–102.
+
+| Measure | Family 103 | Auxiliary cumulative (Families 12–103) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 864 | 765 | 1,629 |
+| Printed/handwritten teaching-answer occurrences | 0 | 482 | 405 | 887 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 805 | 552 | 1,357 |
+| Source-distinct tested handles / required searches | 0 / 0 | 729 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: zero accepted prompts yield zero answers, residues, retained records,
+handles, required searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**864 / 482 / 805 / 729 / +499**; and all eligible evidence remains
+**1,629 / 887 / 1,357 / 871**. Family 103 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status.
+
+### Exact next debt after Family 103
+
+`src_42b52fea154ae632af09` is exhausted across both pages: every provenance field, chronic-
+inflammation teaching block, granuloma image/label, name-twin relation, and zero-gate arithmetic
+term is assigned once, with **zero source remainder** and no Family-103 blocker. The exact next
+manifest record is tier-6 `src_45d13e02d665b6b7efdb` · `Inflammation lecture 2.pdf 1.pdf`,
+SHA-256 `45d13e02d665b6b7efdb0606af0ace9c59c5810dfa5c28026388342f1ad8a860`, 19,181,794
+bytes, 60 native-text 791×444.937-point landscape pages. Its manifest Notes-and-Summaries path is
+absent, while the unique SHA-matching local carrier is under `Pathology / Theoretical`; resolving
+that placement mismatch, its visible Helwan/Dr Enas Megahed Elhosary cover, and its complete
+teaching/annotation versus prompt/key boundary are the exact next-source blockers.
