@@ -917,10 +917,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+0 questions 
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Anatomy MSK 1 final questions 2025 (Past exams)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - Anatomy MSK 1 final questions 2025 (Past exams).pdf` | `3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9` | 22 | substantive-text audit sample | pages 1–22 rendered and read | Microsoft Word export whose PDF metadata author is `200078541-Muhammad Haitham Muhammad Ibrahim`, created/modified 14 January 2026. The rendered title is `Final Anatomy Musculo-skeletal system 101 - 1`; no institution, department, examiner, sitting, marks, year, answer-key authority or `past exam` statement is printed. The filename-only `2025` and `Past exams` labels are therefore rejected as authority evidence. This is a student-authored final-revision/question compilation, not an authenticated MUST 2025 sitting or official key. |
+
+### Exact MCQ, written, practical, image, key, unkeyed and teaching boundary
+
+Pages 1–20 print **201 single-best-answer MCQs**, consecutively labelled 1–201. Page 21 prints one shoulder-dislocation case followed by **14 separately numbered written subprompts**, each with its own response space. Page 22 prints **10 standalone written prompts** on upper-limb arteries, movements, muscles, ligaments and arches. The 14 case subprompts are retained as 14 occurrences, rather than one inseparable composite, because the source explicitly numbers 1–14 and supplies a distinct answer area for every requested response.
+
+The exact source boundary is therefore **225 prompt occurrences = 201 MCQs + 24 written prompts / 0 printed keys or answer observations / 225 source-unkeyed prompts**. There are **0 practical prompts, 0 image-identification prompts and 0 teaching-only prompts/pages**. No answer was inferred from anatomy knowledge, repeated wording, the title or filename.
+
+### Source-first handles, exactly four searches and prior/cross-module collapse
+
+All 225 occurrences were assigned once across five handles, reconciling as **55 + 52 + 39 + 41 + 38 = 225**. Each handle received exactly four repository searches across live/server, pending/import-ready and documentation evidence, for **20 searches total**:
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK / cross-module disposition |
+|---|---|
+| H1 | 55, arm/forearm muscles, attachments, actions and nerve supply, including two page-22 movement-muscle prompts (`biceps brachialis pronator teres`; `forearm flexor extensor muscle attachments`; `brachioradialis supinator pollicis anatomy`; `upper limb muscle action nerve supply`) | no live/pending phrase hit; proximal deltoid, coracobrachialis and arm items overlap completed PentaGram handles, but the consolidated distal flexor/extensor and pronation/supination scope is not yet assigned — **new after prior-MSK collapse**. |
+| H2 | 52, median, ulnar, radial, musculocutaneous and interosseous nerve courses, branches, lesions and deformities (`median ulnar radial nerve forearm hand`; `carpal tunnel claw hand ape hand wrist drop`; `anterior posterior interosseous nerve`; `musculocutaneous lateral cutaneous forearm`) | no live/pending phrase hit; brachial-plexus origins, axillary/suprascapular nerves and mid-arm relations overlap prior MSK evidence, while terminal forearm/hand courses and lesion syndromes extend it — **new after prior-MSK collapse**. |
+| H3 | 39, brachial, profunda, radial, ulnar/interosseous arteries, superficial veins and palmar/carpal arches, including four page-22 written prompts (`brachial radial ulnar artery forearm hand`; `profunda brachii recurrent arteries anastomosis`; `superficial deep palmar arch common interosseous`; `cephalic basilic vein upper limb`) | no live/pending phrase hit; the prior axillary-vessel handle does not cover this brachial-to-hand sequence — **new after prior-MSK collapse**. |
+| H4 | 41, shoulder, elbow, radioulnar and wrist joints, movements and clinical relations, including all 14 separately numbered shoulder-case responses and four additional page-22 joint prompts (`shoulder elbow wrist radioulnar joints anatomy`; `pronation supination elbow wrist joint`; `flexor extensor retinaculum carpal tunnel`; `anatomical snuffbox radial artery tendons`) | no live/pending phrase hit; rotator-cuff and axillary-nerve facts overlap earlier proximal handles, but no completed MSK joint/dislocation handle covers this integrated written/objective scope — **new after prior-MSK collapse**. |
+| H5 | 38, intrinsic hand muscles, retinacula, carpal tunnel, anatomical snuffbox and digital movements (`lumbricals interossei adductor pollicis hand`; `intrinsic hand muscles median ulnar nerve`; `palmar aponeurosis flexor retinaculum`; `finger abduction adduction middle finger`) | no live/pending phrase hit and no completed MSK intrinsic-hand/retinacular handle — **new after prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 5 new**. Common proximal upper-limb facts collapse against the processed PentaGram evidence within the handles rather than minting extra concepts. The SHA and complete prompt sequence are distinct from processed MSK and FHB families; common cross-module anatomy stems do not justify deleting source occurrences or claiming an exact-file duplicate. The post-prior concept delta remains **5 new concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+225 questions / +0 answers / +5 post-prior concepts**. Cumulative arithmetic is **2232 + 225 = 2457 questions**, **2159 + 0 = 2159 answers**, and **27 + 5 = 32 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2457 | 2159 | 32 | 0 | 1 | 31 | TBD |
+
+No module ID, content record, answer, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-seven processed paths and unique hashes leaves **76 selected inventory paths / 74 unique SHA-256s**. Their sorted, newline-joined hash checksum is `9a640c8a2072bd7f9e5202186bad1f0fc224eade5c8484c19c8e87bf2a0214ea`. Remaining audit-review debt is 38 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`27 + 74 = 101`**.
+Removing these twenty-eight processed paths and unique hashes leaves **75 selected inventory paths / 73 unique SHA-256s**. Their sorted, newline-joined hash checksum is `27e8325529fccb8f1b47fa901ef161957d14e1ab5adf604f2997ec31054e6ca9`. Remaining audit-review debt is 37 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`28 + 73 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - Anatomy MSK 1 final questions 2025 (Past exams).pdf`, SHA-256 `3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9`, 22 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK FINAL questions answers ...pdf`, SHA-256 `c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb`, 28 pages.
 
-**BLOCKED — S1 cannot be approved:** 76 selected inventory paths / 74 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 75 selected inventory paths / 73 unique hashes remain untriaged.

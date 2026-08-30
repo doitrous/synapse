@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "d8fc91d4f336728350e903f94a74a40478d16539d34a2f3950c8e8fb7c693205",
-    "triageMarkdown": "6812336051fde6c029dc1485dee574644917a17dae9fd095a19c72f1c25eeee1"
+    "readinessMarkdown": "100abecacce9293746dba41ca5ceb81a297f7812013c1cf83effd7e008e9d92c",
+    "triageMarkdown": "971a4ea6532e9bc9f39a49a725574fb30ee9d965761cff868db221ed666ea9aa"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -59,6 +59,7 @@
       "2b3046797114764969bbcd1b2826333c31b1d1177804327caf0187540d68fbfb",
       "2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0",
       "3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b",
+      "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
@@ -79,7 +80,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 27
+    "uniqueSha256": 28
   },
   "completedSourceCoverage": [
     {
@@ -546,26 +547,45 @@
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true,
       "boundaryDisposition": "teaching/revision notes only; no assessment prompts"
+    },
+    {
+      "sha256": "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
+      "sourcePages": 22,
+      "renderedReadPages": "1-22",
+      "questionPages": "1-22",
+      "objectiveMcqPrompts": 201,
+      "writtenPrompts": 24,
+      "printedPromptObservations": 225,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 225,
+      "acceptedSourceHandles": 5,
+      "searchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 5,
+      "sourceProcessed": true,
+      "authorityDisposition": "student-authored compilation; filename-only 2025/past-exam claim rejected",
+      "writtenCompositeTreatment": "page-21 shoulder case retained as 14 occurrences because each subprompt is separately numbered and has a distinct response space"
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2232,
+    "printedPromptObservations": 2457,
     "printedKeyObservations": 2159,
-    "namedConceptsAssigned": 27,
+    "namedConceptsAssigned": 32,
     "liveHits": 0,
     "pendingHits": 1,
-    "newConcepts": 26
+    "newConcepts": 31
   },
   "remaining": {
-    "inventoryMetadataRows": 76,
-    "uniqueSha256": 74,
-    "sortedNewlineSha256": "9a640c8a2072bd7f9e5202186bad1f0fc224eade5c8484c19c8e87bf2a0214ea",
+    "inventoryMetadataRows": 75,
+    "uniqueSha256": 73,
+    "sortedNewlineSha256": "27e8325529fccb8f1b47fa901ef161957d14e1ab5adf604f2997ec31054e6ca9",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 7,
-      "substantive-text": 38
+      "substantive-text": 37
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -573,12 +593,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 7,
-    "substantive-text": 38
+    "substantive-text": 37
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 27,
-    "remainingUniqueSha256": 74,
+    "processedUniqueSha256": 28,
+    "remainingUniqueSha256": 73,
     "processedPlusRemaining": 101
   }
 }
