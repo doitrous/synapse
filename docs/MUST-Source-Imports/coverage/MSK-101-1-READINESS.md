@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The seventy-four completed read-only source hashes cover seventy-six selected inventory paths, represent fifty-two distinct prompt families and yield **6762 questions / 6572 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 22-page `Histology MSK101-1 Training Questions.pdf`, SHA-256 `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`, contains **87 conventional MCQs / 87 handwritten answer observations / 0 written / 0 practical or image-identification / 0 teaching-only / 0 unkeyed prompts** across three blocks of 26, 45 and 16. The terminal sixteen-question block is a normalized sibling of the completed `Exercise questions of the last lecture` sequence, and first-block Q1-Q5 rephrase its completed five-scenario opening sequence. Those twenty-one observations collapse; the remaining sixty-six printed occurrences contribute **+66 questions / +66 answers / +0 concepts**. The unattributed annotations and absent institutional or assessment metadata support a student training compilation, not authenticated MUST/MSK examination or faculty-key authority. No genuinely new handle survives; the exactly-four-search gate resolves to **0 new handles × 4 = 0 new searches**, reusing the prior connective-tissue family's **5 handles / 20 searches**.
+The seventy-five completed read-only source hashes cover seventy-seven selected inventory paths, represent fifty-two distinct prompt families and yield **6762 questions / 6572 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 4-page `Histology_MSK_Clinical_Applications_By_Mohamed_Eissa_Midterm.pdf`, SHA-256 `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`, contains one cover and seven connective-tissue clinical teaching topics: hypersensitivity, edema, keloid, scurvy, tendinitis, Marfan syndrome and wound contraction. It contains **0 MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 keys or answer-only observations / 0 unkeyed assessment prompts**, so its completed delta is **+0 questions / +0 answers / +0 concepts**. Mohamed Eissa/Pentagram attribution supports a named student-style teaching handout, not authenticated MUST/MSK examination or faculty-key authority. With no assessment handle, the exactly-four-search gate ends at **0 accepted handles × 4 = 0 searches**.
 
-Latest processed family hash: `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`.
+Latest processed family hash: `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`.
 
-Recent processed family hash retained for reconciliation: `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`.
+Recent processed family hash retained for reconciliation: `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`.
 
 Earlier processed family hash retained for reconciliation: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
 
@@ -50,8 +50,10 @@ Current exact-duplicate/two-path sibling family append: `b69f1cc959f6fb84dd519d2
 
 Current processed-family append: `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`.
 
-Removing them leaves **27 inventory paths / 27 unique SHA-256s**, checksum `ed7565525af5016372d837a043935343216d6d79c93d206453fb5683dbc48c42`. The pinned remaining audit-review debt is 3 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology_MSK_Clinical_Applications_By_Mohamed_Eissa_Midterm.pdf`, SHA-256 `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`, 4 pages.
+Removing them leaves **26 inventory paths / 26 unique SHA-256s**, checksum `89b09715735016f0153440ed97eb044fd91848d1b3f47b912dc0d75e1875d593`. The pinned remaining audit-review debt is 2 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 27 selected inventory paths / 27 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Solo mcqs histology.pdf`, SHA-256 `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`, 18 pages.
+
+**BLOCKED — S1 cannot be approved:** 26 selected inventory paths / 26 unique hashes remain untriaged.

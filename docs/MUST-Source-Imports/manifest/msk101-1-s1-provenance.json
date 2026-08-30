@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "082936a5afbc530a2e3dc4e2d81f430a4e6931377a203370419e74025de2b6d6",
-    "triageMarkdown": "0471cb28321b543388a8b045e7124c9912dda9cccb44782b6e33f3fb014ca3c2"
+    "readinessMarkdown": "957dc23c3db6280cb930ff7b548fb184d083798359451aff111e3cd7d6034735",
+    "triageMarkdown": "17701c5d23ed6d73efa4cea2af084919fca11b730280d7b3096f3a71a8343b99"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -113,6 +113,7 @@
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
       "ce6921837f501018a971bed04bd429a29875607dd8911fa4edf4811fef75b41b",
       "ce8cd4848775264148d29126e170435fd4478a03789e93bc8a1c766ba50807b9",
+      "d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c",
       "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
       "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
       "d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0",
@@ -126,7 +127,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 74
+    "uniqueSha256": 75
   },
   "completedSourceCoverage": [
     {
@@ -2370,6 +2371,35 @@
         "second-block prompts include self-referential Similar to labels and repeated brown-adipose and antibody-deficiency variants",
         "handwritten answer marks and rationale are retained as source observations without academic correction"
       ]
+    },
+    {
+      "sha256": "d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c",
+      "sourcePages": 4,
+      "renderedReadPages": "1-4",
+      "coverPages": "1",
+      "teachingPages": "2-4",
+      "numberedTeachingTopics": 6,
+      "totalTeachingTopics": 7,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Mohamed Eissa/Pentagram student clinical-applications teaching handout produced with Foxit PDF Creator and dated through metadata to 2023-2024; no institution, department, examiner, sitting, marks or official faculty-key claim appears",
+      "boundaryDisposition": "one cover followed by seven connective-tissue clinical teaching topics: hypersensitivity, edema, keloid, scurvy, tendinitis, Marfan syndrome and wound contraction; no MCQ, written, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "source spelling and grammar including foreign body, do not polymerize, more common in males and doorta remain uncorrected",
+        "clinical and treatment statements are retained strictly as source observations rather than endorsed guidance"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2381,26 +2411,26 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 27,
-    "uniqueSha256": 27,
-    "sortedNewlineSha256": "ed7565525af5016372d837a043935343216d6d79c93d206453fb5683dbc48c42",
+    "inventoryMetadataRows": 26,
+    "uniqueSha256": 26,
+    "sortedNewlineSha256": "89b09715735016f0153440ed97eb044fd91848d1b3f47b912dc0d75e1875d593",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 3
+      "substantive-text": 2
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 3
+    "substantive-text": 2
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 74,
-    "remainingUniqueSha256": 27,
+    "processedUniqueSha256": 75,
+    "remainingUniqueSha256": 26,
     "processedPlusRemaining": 101
   }
 }
