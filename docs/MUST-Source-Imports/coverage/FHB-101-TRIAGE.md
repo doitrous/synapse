@@ -6263,3 +6263,33 @@ Removing this one empty-text path and unique hash leaves **18 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 3 Notes (by Linah).pdf`, SHA-256 `5582d9ca8f95ba200f9f2b6d68895ea51e2bd2b90be14158cbd1656542a7b5f2`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 18 selected source paths remain untriaged.
+
+## Completed source — Histology Lec 3 Notes (by Linah)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 3 Notes (by Linah).pdf` | `5582d9ca8f95ba200f9f2b6d68895ea51e2bd2b90be14158cbd1656542a7b5f2` | 3 | empty-text | pages 1–3 rendered and read | Samsung-produced image-only export of handwritten lecture notes attributed by filename to Linah. The pages contain no institution, department, lecturer, sitting, marks or examination/key claim. They are student teaching notes rather than an official MUST assessment or key. |
+
+### Exact teaching / assessment boundary
+
+Page 1 describes Golgi staining/faces/position and includes labelled explanatory diagrams plus `Negative Golgi image (H&E)` examples. Page 2 continues the secretory pathway and introduces lysosomes. Page 3 completes lysosome stages/functions and describes peroxisomes. The micrographs and diagrams are already labelled teaching examples; no image is presented for identification and no line asks for a response.
+
+The exact boundary is therefore **0 prompt occurrences / 0 key observations / 0 prompt-matched recovered answers**. There is no practical-identification or written-answer task. With no source-tested prompt, there is no accepted concept handle: **0 handles × 4 = 0 searches**, no live/pending/new split and no prior-FHB collapse operation.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7155 | 6740 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **17 selected inventory paths / 17 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `9c1dfd9e7bbbd69cddce8a38d27aa91fc14519f30cb62bfb942cf1dae9ed94e8`. Pinned triage debt becomes **zero substantive-text / four sparse-text / 13 empty-text** rows, and unique-hash accounting is **`89 + 17 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 3 Notes (online) (by Linah).pdf`, SHA-256 `0fe5b1851c266615f551142b2824cb46e38a9b7c0359be8f671f80f994deec4f`, 2 pages.
+
+**BLOCKED — S1 cannot be approved:** 17 selected source paths remain untriaged.
