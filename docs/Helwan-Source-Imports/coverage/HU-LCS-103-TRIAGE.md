@@ -7423,3 +7423,152 @@ spacing and final `_Repaired.pdf` recomputes to that assigned hash and byte size
 rank-9 source debts between rank-4/rank-5 gates remain outside this remainder. Broader
 LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 61 — Tier-4 Histology Cardiac and Smooth Muscle lecture with two unkeyed self-test MCQs
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_b0878e83f808ca239818` |
+| Manifest file / SHA-256 | `muscle tissue  HELWAN 2 iheba - record _Repaired_.pdf` / `b0878e83f808ca2398187a5f03f40fe3fce592912ed776888082f43f474746e3` |
+| File boundary | 2,500,993 bytes · unencrypted PDF · 47 physical OCR-needed pages · 792 × 612 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Theoretical · `Lec 5 - Skeletal Muscles II` · tier 4 |
+| Local corpus path used | `Year 1/LCS 103/Histology/Theoretical/Lec 5 - Skeletal Muscles II/muscle tissue HELWAN 2 iheba - record _Repaired.pdf` |
+| Name reconciliation | The exact manifest-named path is absent locally, but the organised filename with normalised spacing and final `_Repaired.pdf` recomputes to the assigned SHA-256 and byte size exactly; it is the same source under a normalised local name. |
+| Visible provenance | p. 3 prints `Skeletal muscle`, `Presented by Dr Heba abd alrazak`, `lecturer of histology`, `Faculty of Medicine`, `Helwan University`, and credits the PowerPoint to Dr Doaa Khaled and Dr Heba Abd Alrazak; pp. 14 and 25 cite Mescher/Junqueira, and p. 45 lists Junqueira and Guyton & Hall |
+| Authority finding | Direct local Helwan-labelled tier-4 teaching lecture under the assigned LCS-103 corpus path. It is not a sitting paper, practical response form or official answer key, but p. 44 contains two ordinary self-test MCQs. |
+
+The SHA-256, byte size and 47-page boundary were recomputed and match the assigned source.
+All 47 pages were rendered at 180 dpi and visually read with page-level OCR support; all 47
+complete-page renders have distinct SHA-256 values. Pages 1–5 are the devotional/title/
+provenance/objective opening; p. 6 is a three-muscle overview; p. 7 is a section divider;
+pp. 8–31 teach cardiac muscle; pp. 32–43 teach smooth muscle and compare all three muscle
+types; p. 44 contains two `TEST YOUR SELF` multiple-choice prompts; and pp. 45–47 are the
+reference and closing slides.
+
+The p. 4–5 verbs are learning objectives rather than response tasks. Page 22's `What is the
+intercalated discs` heading is followed on the same composition by the definition, form and
+electron-microscopic description, so it is rhetorical instructional framing rather than a
+learner response task. All other lists, diagrams, arrows, micrographs and tables on pp. 6 and
+8–43 are simultaneous declarative instruction. Page 44 alone prints interrogative stems and
+mutually exclusive lettered options. Neither prompt has a marked option, answer letter or
+later reveal, so the correct choices are not inferred from the earlier diad and dense-body
+teaching.
+
+Three teaching micrographs contain **13 unexpanded teaching-callout occurrences** without a
+local legend: p. 11 prints `GI` and `N` once each; p. 14 prints `D` twice plus `M` and `SR`
+once each; p. 25 prints `N` three times, `S` once and `I` three times. The surrounding
+lecture permits interpretations, but those abbreviations remain unresolved in the printed
+compositions. They are preserved as theoretical teaching callout debt, not promoted into
+questions, response blanks, inferred label mappings or practical residues. Panel letters,
+direction arrows and fully expanded diagram labels are not unresolved callouts.
+
+### Complete teaching-composition and assessment-boundary inventory
+
+| Physical pages | Source-first instructional composition | Teaching occurrences | Ordinary prompts | Printed keys |
+|---:|---|---:|---:|---:|
+| 6, 42–43 | skeletal/cardiac/smooth overview and twelve-feature comparison tables | 3 | 0 | 0 |
+| 8–11 | cardiac-muscle site, LM shape, branching, nuclei, sarcoplasm, endomysium and intercalated-disc appearance | 4 | 0 | 0 |
+| 12–15, 19–21 | cardiac EM, sarcoplasmic organelles/inclusions, diad, thin filament and sarcomere relation | 7 | 0 | 0 |
+| 16–17 | atrial/brain or B-type natriuretic factors, endocrine actions and CHF diagnostic note | 2 | 0 | 0 |
+| 18 | cardiac conducting-system component list | 1 | 0 | 0 |
+| 22–28 | intercalated-disc definition, transverse/lateral portions, junctions and functions | 7 | 0 | 0 |
+| 29 | absent cardiac regeneration, hypertrophy and fibrous-scar repair | 1 | 0 | 0 |
+| 30–31 | Purkinje-fibre site, function and histological phenotype | 2 | 0 | 0 |
+| 32–34 | smooth-muscle sites, physiological properties and LM phenotype | 3 | 0 | 0 |
+| 35–37 | smooth-muscle EM organelles, gap junctions, caveolae and absent T tubules | 3 | 0 | 0 |
+| 38–40 | dense bodies/attachment plaques, filament organisation and contraction morphology | 3 | 0 | 0 |
+| 41 | smooth-muscle mitotic/pericyte regeneration | 1 | 0 | 0 |
+| 44 | cardiac-diad-site MCQ plus smooth-muscle attachment-plaque MCQ | 0 | 2 | 0 |
+| **Total** | **complete content boundary** | **37** | **2** | **0** |
+
+The **37 teaching-page occurrences are 37 source-distinct instructional compositions**.
+Complete-render SHA-256 and semantic comparison found no full-page copy to collapse. The
+source boundary is therefore **37 teaching compositions / 2 ordinary MCQs / 0 printed keys /
+0 practical or station prompts / 0 response blanks / 0 masked assessment callouts / 13
+unresolved teaching-callout occurrences**. As theoretical material, it adds **0 practical
+plates, 0 practical mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 44 first MCQ → `cardiac-diad-at-z-line` | cardiac diad site; cardiac T tubule Z line; diad one terminal cisterna; cardiac diad A-I H M distractors | pending cardiac-muscle material owns the relation; exact accepted Family-14 external-bank `muscle-tubular-systems-t-tubules-triads-diads-sr` handle owns the same objective, but no prior eligible-LCS prompt has promoted this cardiac-diad handle | pending; external-bank overlap; new to eligible LCS; no printed key |
+| p. 44 second MCQ → `smooth-muscle-attachment-plaque-thin-and-intermediate-filaments` | smooth muscle attachment plaques; dense bodies thin intermediate filaments; smooth thick thin filament attachment; histological structure attachment plaques | pending smooth-muscle material owns the relation; exact accepted Family-14 external-bank `smooth-muscle-contractile-apparatus-dense-bodies-caveolae` handle owns the same objective, but no prior eligible-LCS prompt has promoted this attachment-plaque handle | pending; external-bank overlap; new to eligible LCS; no printed key |
+
+The two occurrences are two source-distinct question records: `2 - 0 repeated source
+occurrences = 2`. Both tested handles existed only in the separately tracked external bank,
+so this direct Helwan lecture promotes **two concepts into eligible LCS totals** without
+altering the external-bank inventory. All **2 × 4 = 8** assessment searches completed across
+live state, pending state, all source-import roots and accepted prior LCS. Assessment
+disposition is **0 live / 2 pending / 0 new = 2**, and the printed-key delta is zero.
+
+### Source-first theoretical scopes, searches and prior-LCS adjudication
+
+The 37 teaching compositions consolidate to twelve source-level theoretical scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `muscle-type-overview-and-histology-comparison` · pp. 6, 42–43 | three types muscle tissue comparison; skeletal cardiac smooth striated; voluntary involuntary muscle types; muscle histology comparison table | pending comparison material owns the complete table; exact accepted Family-14 type-comparison handle owns the same core — prior LCS reuse |
+| `cardiac-muscle-site-and-lm-phenotype` · pp. 8–11 | cardiac muscle myocardium site; short branching cardiac myocyte; central nucleus cardiac muscle; cardiac endomysium intercalated disc LM | pending cardiac-muscle material owns the phenotype; exact accepted Family-14 cardiac-myocyte handle and Family-56 practical scope own the core — prior LCS reuse |
+| `cardiac-muscle-em-organelles-inclusions-and-diad` · pp. 12–15, 19–21 | cardiac muscle EM organelles; cardiac mitochondria myofibrils glycogen lipofuscin; cardiac sarcoplasmic reticulum diad; cardiac T tubule Z line | pending cardiac-muscle material owns the internal organisation and tubular relation; accepted Family-14 organelle/tubular handles own the same core — prior LCS reuse |
+| `cardiac-natriuretic-factors-actions-and-bnp-chf-use` · pp. 16–17 | atrial natriuretic factor ANF; brain natriuretic factor BNF; B-type natriuretic peptide CHF; cardiac myocyte endocrine diuretic aldosterone renin | pending cardiac and cardiovascular material owns ANF actions and BNP wall-stress/testing facts; accepted Family-14 ANP handle is narrower and no prior LCS scope owns this combined endocrine/CHF relation — additive theoretical scope |
+| `cardiac-conducting-system-components` · p. 18 | components conductive system heart; SAN AVN AV bundle branches; Purkinje fibres conduction system; intercalated disc diad conducting system | direct records own individual nodes, Purkinje fibres, discs and diads, but no substantive record or accepted prior-LCS complete scope owns this exact component-list composite — additive theoretical scope |
+| `intercalated-disc-structure-junctions-and-functions` · pp. 22–28 | intercalated disc transverse lateral; fascia adherens desmosome gap junction; intercalated disc stepwise EM; cardiac junction mechanical electrical function | pending intercalated-disc material owns both orientations and junction functions; exact accepted Family-14 handle and Family-56 practical scope own the core — prior LCS reuse |
+| `cardiac-muscle-regeneration-hypertrophy-and-fibrosis` · p. 29 | cardiac muscle cannot regenerate; cardiomyocyte hypertrophy no satellite cells; myocardium heals fibrosis scar; cardiac muscle injury repair | pending cardiac-muscle material owns the repair relation; exact accepted Family-14 fibrous-scar handle owns the same core — prior LCS reuse |
+| `purkinje-fibre-site-function-and-histology` · pp. 30–31 | Purkinje fibre histology; pale vacuolated glycogen Purkinje; few peripheral myofibrils Purkinje; Purkinje no intercalated discs | pending Purkinje material owns the complete phenotype; exact accepted Family-14 handle owns the same core — prior LCS reuse |
+| `smooth-muscle-sites-properties-and-lm-phenotype` · pp. 32–34 | smooth muscle sites viscera; fusiform central nucleus smooth muscle; smooth muscle slow fatigue resistant; smooth muscle respiratory urinary genital ducts | pending smooth-muscle material owns sites and phenotype; exact accepted Family-14 smooth-muscle handle owns the core — prior LCS reuse |
+| `smooth-muscle-em-gap-junctions-caveolae-and-sr` · pp. 35–37 | smooth muscle EM organelles; smooth muscle gap junction coordination; smooth muscle caveolae no T tubules; smooth muscle sarcoplasmic reticulum poorly developed | pending smooth-muscle material owns the ultrastructure; accepted Family-14 smooth phenotype/dense-body handles and Family-56 practical scope own the core — prior LCS reuse |
+| `smooth-muscle-dense-bodies-filaments-and-contraction` · pp. 38–40 | smooth muscle dense bodies attachment plaques; smooth thin intermediate filament attachment; smooth muscle scalloped corkscrew nucleus contraction; smooth muscle no sarcomere desmin | pending smooth-muscle material owns the complete contractile apparatus; exact accepted Family-14 dense-body/caveolae handle owns the core — prior LCS reuse |
+| `smooth-muscle-regeneration-by-mitosis-and-pericytes` · p. 41 | smooth muscle regeneration mitosis; smooth muscle pericytes differentiation; smooth muscle rapid healing; smooth muscle growth regeneration divisible cells | pending Histology written material owns mitosis/pericyte regeneration; accepted Family-14 muscle-comparison/regeneration evidence owns the same core — prior LCS reuse |
+
+All **12 × 4 = 48** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **0 live / 11 pending / 1 new**. Exact accepted-
+prior comparison prevents ten repeated module additions, leaving **ten prior-LCS reuses /
+two additive theoretical scopes**. Together with the assessment handles, Family 61
+completed **56 required searches**. Declarative teaching scopes do not enter the eligible
+tested-concept count, and no theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 61 | Family 61 delta | After Family 61 |
+|---|---:|---:|---:|
+| Eligible observed question records | 516 | +2 | 518 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 249 | +2 | 251 |
+| Question live / pending / new | 9 / 84 / 156 | +0 / +2 / +0 | 9 / 86 / 156 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 387 verified minimum | +0 | 387 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,423 verified minimum | +0 | 2,423 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 135 | +0 | 135 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 73 | +0 / +0 / +0 | 0 / 0 / 73 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `47 = 9 framing/divider/reference/closing
+pages + 37 teaching compositions + 1 assessment page`, `37 = 3 + 4 + 7 + 2 + 1 + 7 + 1
++ 2 + 3 + 3 + 3 + 1`, `13 unresolved teaching callouts = 2 + 4 + 7`, `2 = 2 prompts -
+0 repeated source occurrences`, `2 = 2 tested handles - 0 prior eligible handles`, `518 =
+516 + 2`, `265 = 265 + 0`, `251 = 249 + 2`, `9 + 86 + 156 = 251`, `387 + 0 = 387`,
+`2,423 + 0 = 2,423`, `135 + 0 = 135`, and `73 + 0 = 73`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-60
+remainder leaves **15 rank-4/rank-5 path instances / 13 unique hashes**. The Family-60
+method was reproduced first: its 16/14 row sets recomputed to
+`d830cea21a5ccf8d420fdb8dca670227dedaf7398ac1165288243941239ca902` and
+`0c241f7e1789ffd01ee9b44655f1700a8d7494368fbc2dde0876ccdf4df1fba9`.
+For the exact post-Family-61 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`038a0b83429e089cc78101765912c340eba8c183bfeec00a4b0c56b0ad9a021a`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`ab34fcda50c731f47a18e936b7d9df17b682524f657b0211d58c7fd4430c4609`.
+The next rank-4/rank-5 manifest-order gate is tier-5 Pathology practical source
+`src_22194b2bfc94456a2f66`, `103 Lab 1.pdf` (985,111 bytes; 16 native-text pages;
+SHA-256 `22194b2bfc94456a2f66fc27ba724c93beece0cc62b1e4a7dfa2d85572718a14`)
+under `Year 1/LCS 103/Pathology/Practical Labs/Practical Revision/`. Tier-6 and rank-9 source
+debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
