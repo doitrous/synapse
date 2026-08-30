@@ -20545,3 +20545,99 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 36
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 195 — Tier-6 attributed gluteal-muscle teaching summary, part 1
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_641b8c348d7152ac72da` / `641b8c348d7152ac72da1dd1d5bba68f803ddebdeee85da931109144e0740abc` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/Gluteal region part 1.pdf` |
+| Physical verification | **1,330,966 bytes; 10 native-text landscape-A4 pages; 841.92 x 595.32 pt; tagged; unencrypted; PDF 1.7**. Full hash, byte size, page count and geometry match; all ten 180-dpi complete-page renders have distinct hashes. The PDF declares an AcroForm container, but qpdf reports zero fields. |
+| Visible / metadata provenance | Every page prints `Anatomy`, `Gluteal region part 1`, `Dr/ M. Ali` and a page number. Metadata separately names author `Mohamed Mamdouh AbdAziz`, Microsoft Word for Microsoft 365 creator/producer and 26 May 2025 creation/modification. No university, module code, cohort, sitting, marks or official-key statement appears. |
+| Authority finding | Attributed local tier-6 teaching-summary evidence. Visible and metadata names are preserved as separate source layers; neither establishes a recoverable Helwan assessment sitting, response form, practical station or official key. |
+
+All **10/10 pages** were rendered at 180 dpi, OCRed, inspected at full resolution and read
+against the complete native layer. The physical boundary is:
+
+| Pages | Source-first teaching composition |
+|---:|---|
+| 1 | gluteal-region definition and superficial-versus-deep muscle classification, with fully labelled figures |
+| 2 | gluteus maximus features, origin, insertion, action and innervation, with explanatory figures |
+| 3 | gluteus medius/minimus comparison, actions and innervation, with labelled figures |
+| 4 | tensor fasciae latae features, origin, insertion, innervation and action |
+| 5 | completed hip-abductor/Trendelenburg mechanics and posture diagrams |
+| 6 | completed superficial-gluteal comparison table: origin, insertion, innervation and function |
+| 7 | obturator internus origin, insertion, action and innervation, with labelled figures |
+| 8 | superior/inferior gemelli and piriformis origin, insertion, action and innervation, with labelled figures |
+| 9 | quadratus femoris origin, insertion, action and innervation, plus fully labelled regional figures |
+| 10 | completed inner-hip-muscle comparison table including iliacus/psoas, obturator internus, gemelli, piriformis and quadratus femoris |
+
+There is **no assessment inventory**. Every list, table, callout and image supplies its
+information simultaneously; the empty AcroForm adds no field or response convention. There
+is no question numbering, learner instruction, masked answer, delayed answer or key. Exact
+boundary is **0 eligible or external assessment prompts / 0 keys-or-answers / 0 written
+prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired, including `lies between to`, `minims`,
+`iliotibialtract`, `rotatet he`, `Quadrates femoris`, capitalization and every printed
+diagram/table state. Inventory does not endorse or medically/editorially correct them.
+
+### Practical and image boundary
+
+The source contains anatomical drawings and posture diagrams, but every structure, relation
+and state is already labelled or completed within an explanatory teaching page. There is no
+masked structure, numbered identification station, learner-completed map, response blank or
+practical key. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0
+residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The summary consolidates to four complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| gluteal-muscle classification · p. 1 | gluteal region superficial abductors extenders deep lateral rotators classification | Accepted Families 2, 32, 40, 191–192 and later banks own it — prior-LCS reuse. |
+| superficial gluteal muscles · pp. 2–6 | gluteus maximus medius minimus tensor fascia lata origin insertion action nerve | Accepted Families 1–2, 31–33, 40, 191–192 and later banks own it — prior-LCS reuse. |
+| hip-abductor/Trendelenburg mechanics · p. 5 | gluteus medius minimus hip abduction pelvis stabilization Trendelenburg | Accepted Families 40 and later lower-limb banks own it — prior-LCS reuse. |
+| short lateral rotators · pp. 7–10 | piriformis obturator internus gemelli quadratus femoris origin insertion action nerve | Accepted Families 2, 32, 40, 194 and later banks own it — prior-LCS reuse. |
+
+Each of the **four accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **4 x 4 =
+16 required search invocations**. Literal combined searches returned no exact file hit;
+complete-scope comparison establishes **4 prior-LCS theoretical reuses / 0 additive live / 0
+additive pending / 0 additive new teaching scopes**. Declarative theoretical scopes do not
+enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 194's remainder. Removing its sole path changes the remainder
+from **36 paths / 35 unique hashes** to **35 paths / 34 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **26 paths / 26 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 194's checksums were
+`2bb6661d2657a3584c1f61ca097fe5fa7307a659ec65de639d23a6a36aabd3f1` (paths) and
+`89845b223ac98266d6a8ed6177e45a1c9b394f06064e15229294e68e29d10a96` (unique hashes).
+For the exact post-Family-195 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0be68f971c207c2e77f6a056b8f4d1d14cf42ee5e2ca8b7472a94e22442352e9`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`f661d26304b73b63a9539082fd66a8e321fc3958f0e2681a6f60f9a8b726ccea`.
+
+The exact next manifest-order debt is tier-6 `src_5bdd333811fe09e59a83`, manifest `Hip joint
+ 2.pdf`, resolved to normalized local `Hip joint 2.pdf` (808,757 bytes; 4 native-text
+portrait-A4 pages; tagged; unencrypted; PDF 1.4; SHA-256
+`5bdd333811fe09e59a83a18feec05da56ca61c2cab40680f2ee2447f9fccd4aa`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 35
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
