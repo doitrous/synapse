@@ -5956,3 +5956,51 @@ Removing this one substantive-text path and unique hash leaves **26 selected inv
 The next evidence-ranked assessment-titled source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology (Cytology) MCQs.pdf`, SHA-256 `93cd4d818d9285c05ebed927fe56494f74b63226913616f1016c9bb03c4bd462`, 11 pages.
 
 **BLOCKED — S1 cannot be approved:** 26 selected source paths remain untriaged.
+
+## Completed source — Histology (Cytology) MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology (Cytology) MCQs.pdf` | `93cd4d818d9285c05ebed927fe56494f74b63226913616f1016c9bb03c4bd462` | 11 | empty-text | pages 1–11 rendered and read | Image-only Active Doctors-branded revision handout. Its Arabic cover disclaimer states that the questions and answers are the result of individual effort and asks readers to report errors. It names no institution, department, sitting, marks or official-paper/key claim. It is a peer revision bank, not an official MUST examination or departmental key. |
+
+### Exact prompt and key boundary
+
+Page 1 is a cover. Pages 2–7 print regular cytology MCQs Q1–Q34. Page 8 is a `PROBLEM SOLVING MCQS` divider, pages 9–10 print clinical/application MCQs Q35–Q39, and page 11 prints a terminal answer table for Q1–Q39. The exact assessment boundary is therefore **39 text-only MCQ prompt occurrences / 39 printed key observations / 39 prompt-matched recovered answers**. No option is visibly selected on the prompt pages; all recoveries come from the printed terminal key.
+
+The brief red paragraph below Q29 explains the absence of an intervening S phase between meiotic divisions. It is answer exposition attached to the printed item, not an additional prompt. There is no practical image, written/essay prompt or other teaching-only passage. No answer was inferred or corrected.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 39 prompt occurrences were assigned once to the nine source-first handles below. Each handle received four identifying searches, for **9 × 4 = 36 searches**.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1,Q7–Q10 | Membrane/glycocalyx composition and vesicular transport (`cell membrane glycocalyx intrinsic protein`; `pinocytosis exocytosis membrane transport`; `membrane lipid protein composition`; `glycocalyx cell coat receptor`) | pending-hit; exact prior-FHB membrane/glycocalyx/transport reuse. |
+| Q2–Q3,Q8,Q11,Q13–Q15 | Ribosome, rough/smooth ER, transfer-vesicle and Golgi structure/function (`ribosome basophilia nucleolus formation`; `rough endoplasmic reticulum cisternae`; `smooth endoplasmic reticulum bilirubin`; `Golgi transfer vesicle silver stain`) | pending-hit; exact prior-FHB organelle/secretory-pathway reuse. |
+| Q5,Q12,Q36–Q37 | Mitochondrial structure, ATP production, dysfunction and staining (`mitochondria ATPase elementary particles`; `mitochondrial myopathy muscle weakness`; `Janus green mitochondria stain`; `mitochondrial cristae ATP synthesis`) | new externally; exact prior-FHB mitochondrial reuse. |
+| Q4,Q17–Q18 | Endogenous/exogenous cytoplasmic pigments and inclusions (`lipofuscin wear tear pigment`; `carotene exogenous lipochrome`; `hemoglobin melanin endogenous pigment`; `cell inclusions cytoplasmic pigments`) | new externally; exact prior-FHB inclusion/pigment reuse. |
+| Q6,Q16,Q20–Q22,Q39 | Cytoskeleton, microtubules, flagella and antimitotic drugs (`microtubule tubulin protofilament`; `colchicine vinblastine mitotic spindle`; `cilia flagella microtubules`; `cytoskeleton cell shape movement`) | pending-hit; exact prior-FHB cytoskeleton/microtubule reuse. |
+| Q19,Q23–Q30 | Nuclear pores, mitosis, meiosis, kinetochore and crossing over (`nuclear pore nucleocytoplasmic transport`; `kinetochore centromere spindle`; `mitosis prophase telophase`; `meiosis crossing over no S phase`) | new externally; exact prior-FHB nuclear/mitotic/meiotic reuse. |
+| Q31–Q32 | Pyknosis and apoptotic cell death (`pyknosis nuclear condensation`; `apoptosis lysosome cell death`; `programmed cell death apoptosis`; `necrosis apoptosis pyknosis`) | new externally; exact prior-FHB cell-death reuse. |
+| Q33–Q34 | Klinefelter and Down chromosomal syndromes (`Klinefelter syndrome chromosome`; `Down syndrome trisomy`; `chromosomal nondisjunction meiosis`; `sex chromosome aneuploidy`) | new externally; exact prior-FHB cytogenetic-syndrome reuse. |
+| Q35,Q38 | Clinical organelle applications in bilirubin handling and growth (`bilirubin smooth endoplasmic reticulum`; `dwarfism glycocalyx growth receptor`; `Golgi apparatus growth hormone receptor`; `organelle clinical application cytology`) | new externally; exact prior-FHB clinical-organelle reuse. |
+
+The source-level search split is **0 live / 3 pending / 6 new = 9 accepted handles**. Every handle reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+39 questions / +39 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7037 | 6622 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **25 selected inventory paths / 25 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `834b35f1eb176e125aed59b7a055cff7ef802890a29aa127afaa4f1cf29689f8`. Pinned triage debt becomes **zero substantive-text / five sparse-text / 20 empty-text** rows, and unique-hash accounting is **`81 + 25 = 106`**.
+
+The next evidence-ranked assessment-titled source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology FHB MCQs.pdf`, SHA-256 `5a481cad54731aef1bb2f12273e62a9c7d0d8273803aff5fdc3168d90be7df4e`, 9 pages.
+
+**BLOCKED — S1 cannot be approved:** 25 selected source paths remain untriaged.
