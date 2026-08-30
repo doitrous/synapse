@@ -3757,3 +3757,159 @@ final.pdf` (49 native-text pages; SHA-256
 `f45d7e77bbde568d6505d31c1b5ff93b798369337dbd80fd5d067f1a1c9f8fc7`) under `Year 1/LCS
 103/Anatomy/Practical Labs/Virtual Lab 5 - Leg/`. Broader LCS-103 S1 remains incomplete. No
 download, ID, content record, catalogue update, import or source copy was created.
+
+## Family 34 — Tier-5 leg-compartment virtual-lab teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_f45d7e77bbde568d6505` |
+| File / SHA-256 | `Leg final.pdf` / `f45d7e77bbde568d6505d31c1b5ff93b798369337dbd80fd5d067f1a1c9f8fc7` |
+| File boundary | 32,146,755 bytes · native PDF · 49 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 5 - Leg/Leg final.pdf` |
+| Visible provenance | title page prints `Presented by/ Nourhan . A . S . Elsadany` and `Leg`; PDF producer is Skia/PDF m136 |
+| Authority finding | Helwan-local virtual-lab teaching deck by manifest/path placement; it is not an exam, station sheet, response form, question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **49 physical pages** were rendered and
+read. Page 1 is the title page; pp. 2, 13 and 22 are compartment dividers; pp. 3–12,
+14–21 and 23–47 are leg-compartment teaching slides; p. 48 is a quotation slide; and p. 49
+is a closing `Thank you` slide. The native text layer's `Q&A / Panel discussion session`
+belongs to p. 49 but is not visibly printed on the rendered page and is not assessment
+evidence. No page prints an instruction to identify a structure, explicit practical/station
+prompt, ordinary question, response field, blank answer area, mark allocation, correctness
+convention, printed assessment answer or key. Named structures, attachment statements,
+colour marks and arrows are simultaneous teaching evidence, not answers to an assessment
+prompt.
+
+### Complete defensible teaching-slide and mapping inventory
+
+| Physical page | Source-first teaching slide / plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 3 | anterior-leg compartment contents | 6 content mappings |
+| 4 | tibialis-anterior origins, insertions and nerve supply | 6 mappings |
+| 5 | tibialis-anterior attachment-site plate | 0 printed mappings; retained as one teaching composition |
+| 6 | extensor-hallucis-longus origins, tendon course/insertion and nerve supply | 6 mappings |
+| 7 | extensor-hallucis-longus attachment-site plate | 0 printed mappings; retained as one teaching composition |
+| 8 | extensor-digitorum-longus origins, tendon course/insertions and nerve supply | 7 mappings |
+| 9 | extensor-digitorum-longus attachment-site/model plate | 0 printed mappings; retained as one teaching composition |
+| 10 | peroneus-tertius origins/insertion and labelled anatomical illustration | 8 mappings: 4 attachment relations plus 4 named illustration labels; the `may be absent` note is context, not an additional label mapping |
+| 11 | deep-peroneal-nerve origin and termination | 2 mappings |
+| 12 | anterior-tibial-artery origin and termination | 2 mappings |
+| 14 | lateral-leg compartment contents | 3 mappings |
+| 15 | peroneus-longus origins, insertions and nerve supply | 6 mappings |
+| 16 | fibula landmarks and peroneus-longus attachment-site plate | 10 unique named fibula-landmark mappings |
+| 17 | peroneus-brevis origins, insertion and nerve supply | 4 mappings |
+| 18 | fibula landmarks and peroneus-brevis attachment-site plate | 10 unique named fibula-landmark mappings |
+| 19 | anterior/lateral-leg model identification | 5 mappings |
+| 20 | peroneus-longus and peroneus-brevis model identification | 2 mappings |
+| 21 | common-peroneal-nerve origin, termination and terminal branches | 4 mappings |
+| 23 | letter-keyed lower-limb muscle model | 16 mappings |
+| 24 | labelled posterior lower-limb muscle/nerve illustration | 21 unique mappings; `tibial nerve` is printed twice and counted once |
+| 25 | superficial/deep posterior-leg muscle groups and common nerve supply | 8 mappings |
+| 26 | gastrocnemius two-head origins, insertion chain and nerve supply | 5 mappings |
+| 27 | gastrocnemius model plate with a green pointer | 0 directly printed mappings; retained as one teaching composition |
+| 28 | gastrocnemius attachment-site montage | 0 directly printed mappings; retained as one teaching composition |
+| 29 | soleus origins, insertion and nerve supply with a bone montage | 5 mappings; 7 blank leader-line callouts |
+| 30 | fibula-landmark attachment plate | 10 unique named fibula-landmark mappings |
+| 31 | soleus model montage | 0 printed mappings; one unlabelled black pointer |
+| 32 | plantaris variation, morphology, origin, insertion alternatives and nerve supply | 7 mappings; the tendon-course wording frames the three insertion alternatives and is not double-counted |
+| 33 | plantaris model montage | 0 printed mappings; 2 unlabelled black pointers |
+| 34 | plantaris attachment-site montage | 0 directly printed mappings; retained as one teaching composition |
+| 35 | popliteus origin, two insertions and nerve supply | 4 mappings |
+| 36 | popliteus attachment-site montage | 0 printed mappings; 17 blank leader-line callouts |
+| 37 | flexor-hallucis-longus origin and insertion | 2 mappings |
+| 38 | flexor-hallucis-longus attachment montage with fibula landmarks | 10 unique named fibula-landmark mappings |
+| 39 | flexor-digitorum-longus origin, insertion and nerve supply | 3 mappings |
+| 40 | tibialis-posterior origins, insertions and nerve supply | 6 mappings |
+| 41 | tibialis-posterior model identification and insertion-site montage | 1 directly printed muscle-identification mapping |
+| 42 | deep posterior-leg model with letter markers A–D | 0 printed mappings; 4 unresolved letter markers |
+| 43 | unlabelled superficial/deep posterior-leg model montage | 0 mappings; retained as one teaching composition |
+| 44 | posterior-leg superficial/deep group mnemonic | 7 group-membership mappings |
+| 45 | structures deep to the flexor retinaculum, medial to lateral | 5 mappings |
+| 46 | tibial-nerve origin and termination | 2 mappings |
+| 47 | posterior-tibial-artery origin, termination and terminal branches | 4 mappings |
+
+The **43 content-slide occurrences are 43 source-distinct teaching compositions**; no
+complete page is an exact copy. The mapping arithmetic is `6 + 6 + 0 + 6 + 0 + 7 + 0 +
+8 + 2 + 2 + 3 + 6 + 10 + 4 + 10 + 5 + 2 + 4 + 16 + 21 + 8 + 5 + 0 + 0 + 5 +
+10 + 0 + 7 + 0 + 0 + 4 + 0 + 2 + 10 + 3 + 6 + 1 + 0 + 0 + 7 + 5 + 2 + 4 =
+197`. The unique unresolved-marker arithmetic is `7 + 1 + 2 + 17 + 4 = 31` on pp. 29,
+31, 33, 36 and 42 respectively. Red attachment bars/dots and the green p. 27 pointer are
+annotations rather than missing printed answers and are not counted as residues, mappings or
+keys. Repeated facts on genuinely different teaching compositions remain evidence
+occurrences; repeated wording or labels within one plate are counted once. The assessment
+boundary is **0 practical/station prompts / 0 ordinary questions / 0 printed assessment
+keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 43 compositions consolidate to 22 source-level teaching scopes. This scope collapse does
+not delete plate or mapping evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `anterior-leg-compartment-contents` · p. 3 | anterior compartment leg contents; anterior leg muscles vessels nerve; tibialis anterior extensor muscles compartment; deep peroneal anterior tibial compartment | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `tibialis-anterior-oina` · pp. 4–5, 19 | tibialis anterior origin insertion nerve supply; tibialis anterior OINA; tibialis anterior tibia medial cuneiform; tibialis anterior identification model | no direct live/pending hit; exact accepted Family-1 handle and Family-6 reuse — prior LCS reuse |
+| `extensor-hallucis-longus-oina` · pp. 6–7, 19 | extensor hallucis longus origin insertion nerve supply; EHL muscle OINA; extensor hallucis longus fibula distal phalanx; extensor hallucis longus identification model | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `extensor-digitorum-longus-oina` · pp. 8–9, 19 | extensor digitorum longus origin insertion nerve supply; EDL muscle OINA; extensor digitorum longus fibula extensor expansions; extensor digitorum longus identification model | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `peroneus-tertius-origin-and-insertion` · p. 10 | peroneus tertius origin insertion; fibularis tertius attachments; peroneus tertius fifth metatarsal; peroneus tertius may be absent | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `deep-peroneal-nerve-origin-and-termination` · p. 11 | deep peroneal nerve origin termination; deep fibular nerve common peroneal branch; deep peroneal nerve ankle divisions; anterior tibial nerve anatomy | no direct live/pending hit; prior terminal-branch and injury handles do not own this full origin/termination scope — new |
+| `anterior-tibial-artery-origin-and-termination` · p. 12 | anterior tibial artery origin termination; popliteal artery anterior tibial branch; anterior tibial artery dorsalis pedis continuation; anterior tibial artery ankle | no direct live/pending hit; exact accepted `anterior-tibial-artery` scope, whose live records retain ownership — prior LCS reuse |
+| `lateral-leg-compartment-contents` · p. 14 | lateral compartment leg contents; fibular compartment muscles nerve; peroneus longus brevis superficial peroneal nerve; lateral leg compartment anatomy | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `fibularis-longus-oina` · pp. 15–16, 19–20 | fibularis longus origin insertion nerve supply; peroneus longus OINA; fibularis longus medial cuneiform first metatarsal; peroneus longus identification model | no direct live/pending hit; exact accepted Family-1 handle, which retains its inherited pending disposition — prior LCS reuse |
+| `fibularis-brevis-oina` · pp. 17–20 | fibularis brevis origin insertion nerve supply; peroneus brevis OINA; fibularis brevis fifth metatarsal; peroneus brevis identification model | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `common-peroneal-nerve-origin-termination-and-branches` · p. 21 | common peroneal nerve origin termination branches; common fibular nerve sciatic division; common peroneal nerve superficial deep branches; common fibular nerve neck fibula | no direct live/pending hit; exact accepted Family-33 handle — prior LCS reuse |
+| `posterior-leg-superficial-and-deep-groups` · pp. 23–25, 43–44 | posterior leg superficial deep groups; posterior compartment leg muscles classification; gastrocnemius soleus plantaris deep flexors; posterior leg tibial nerve supply | no direct live/pending hit; accepted `superficial-posterior-leg-compartment` owns only the superficial subset, not this two-group classification — new |
+| `gastrocnemius-oina` · pp. 26–28 | gastrocnemius origin insertion nerve supply; gastrocnemius OINA; gastrocnemius condyles calcaneal tendon; gastrocnemius identification model | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `soleus-oina` · pp. 29–31 | soleus origin insertion nerve supply; soleus OINA; soleus tibia fibula calcaneal tendon; soleus identification model | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `plantaris-oina` · pp. 32–34 | plantaris origin insertion nerve supply; plantaris OINA; plantaris lateral supracondylar line calcaneus; plantaris identification model | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `popliteus-oina` · pp. 35–36 | popliteus origin insertion nerve supply; popliteus OINA; popliteus lateral femoral condyle posterior tibia; popliteus identification model | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `flexor-hallucis-longus-oina` · pp. 37–38 | flexor hallucis longus origin insertion nerve supply; FHL muscle OINA; flexor hallucis longus fibula distal phalanx; flexor hallucis longus identification model | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `flexor-digitorum-longus-oina` · p. 39 | flexor digitorum longus origin insertion nerve supply; FDL muscle OINA; flexor digitorum longus tibia distal phalanges; flexor digitorum longus identification model | no direct live/pending hit; exact accepted Family-1 handle and Family-6 reuse — prior LCS reuse |
+| `tibialis-posterior-oina` · pp. 40–42 | tibialis posterior origin insertion nerve supply; tibialis posterior OINA; tibialis posterior navicular tarsal bones; tibialis posterior identification model | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `flexor-retinaculum-contents` · p. 45 | flexor retinaculum contents; deep to flexor retinaculum; tarsal tunnel contents order; Tom Dick and very nervous Harry | no direct live/pending hit; exact accepted Family-1 handle — prior LCS reuse |
+| `tibial-nerve-origin-and-termination` · p. 46 | tibial nerve origin termination; tibial nerve sciatic branch posterior leg; medial popliteal nerve origin; tibial nerve distal popliteus termination | no direct live/pending hit; exact accepted Family-33 handle — prior LCS reuse |
+| `posterior-tibial-artery-origin-and-termination` · p. 47 | posterior tibial artery origin termination; popliteal artery posterior tibial branch; posterior tibial artery flexor retinaculum; posterior tibial artery medial lateral plantar | no direct live/pending hit; exact accepted `posterior-tibial-artery` scope, which retains its inherited pending disposition — prior LCS reuse |
+
+All **22 × 4 = 88** required searches completed with no direct live or pending hit. The raw
+external result is `0 live / 0 pending / 22 new`; exact accepted-prior comparison removes 13
+module additions, leaving **+9 new practical-teaching scopes**. Component overlap does not
+absorb the two compartment-content scopes, the posterior two-group classification, the three
+new muscle-attachment scopes, plantaris, or the deep-peroneal origin/termination record.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 34 | Family 34 delta | After Family 34 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 98 verified minimum | +43 | 141 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 651 verified minimum | +197 | 848 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 53 | +31 | 84 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 25 | +0 / +0 / +9 | 0 / 0 / 34 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-33
+remainder leaves **42 rank-4/rank-5 path instances / 40 unique hashes**. For the exact
+post-Family-34 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`3ce4ce789b39a27aa4a73c7d4540e918863b4c986bdf778c1ac64febfcb759f3`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`8cffc0f2c8a2b52b98a4bb9b3a395c98fc612560d83d2f25316e31f4baac8c3d`.
+The next manifest-order gate is tier-5 Anatomy practical source
+`src_ebf0ae057711b9db4157`, `Virtual Lab 6 Dr.Hiede Hossameldin 2.pdf` (1,563,257 bytes;
+19 native-text pages; SHA-256
+`ebf0ae057711b9db41575e49b8a283b1a8c55e3d690ba3668dedab30c5501bd4`) under `Year 1/LCS
+103/Anatomy/Practical Labs/Virtual Lab 6 - Bones of the Skull/`. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
