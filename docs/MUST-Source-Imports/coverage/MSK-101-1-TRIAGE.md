@@ -1011,10 +1011,41 @@ The source is now `sourceProcessed=true`. Its family delta is **+0 questions / +
 
 No module ID, content record, silent answer reconstruction, source authority claim, placement or catalogue entry was created.
 
+## Completed mixed teaching/assessment sibling — MSK FINAL ALL 2
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - MSK FINAL ALL 2.pdf` | `91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7` | 55 | substantive-text audit sample | pages 1–55 rendered and read | iOS 18.6 Quartz PDF export created 19 November 2025 and modified 24 November 2025, without author metadata. The rendered file opens directly with `Muscles of forearm`, later prints `Final MCQS` and `Shade the single best answer`, and carries no institution, department, examiner, sitting, year, marks or official-key authority. It is an unattributed student teaching/question compilation, not an authenticated MUST exam or faculty key. |
+| `_Exact Duplicates/Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK FINAL ALL 2.pdf` | `91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7` | 55 | substantive-text audit sample | reconciled by exact SHA-256 identity | Exact duplicate inventory path for the same byte-identical source; it is processed with the canonical path and is not read or counted a second time. |
+
+### Exact teaching, MCQ, written, practical, image, key and unkeyed boundary
+
+Pages 1–23 and 26–32 are **30 teaching-only pages** covering forearm muscles, terminal nerves and vessels, shoulder/radioulnar/elbow/wrist joints, cubital fossa, retinacula, anatomical snuffbox and arterial anastomoses. They contain no response field or option set and are not converted into assessment prompts.
+
+Pages 24–25 print the same shoulder-dislocation case and **14 separately numbered written prompts**, each immediately followed by its answer. Pages 33–55 visibly print **180 MCQs**, consecutively labelled Q1–180. Q1–138 each have one bold-and-underlined or otherwise distinctly bold selected option. Q139–180 have no selected, highlighted, underlined or annotated option and remain unkeyed.
+
+The exact source boundary is therefore **194 prompt observations = 180 MCQs + 14 written prompts / 152 answer observations = 138 objective keys + 14 written answers / 42 visible unkeyed MCQs / 30 teaching-only pages**. There are **0 practical prompts and 0 image-identification prompts**. No answer is inferred for Q139–180, and no teaching heading or declarative bullet is recast as a prompt.
+
+### Prior-family and duplicate-path reconciliation
+
+The Q1–180 stems and option sequences exactly reproduce the matching Q1–180 portion of the processed 225-prompt source, SHA `3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9`, and the twenty-four-page complementary keyed sibling, SHA `cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e`. Q1–137 keys already exist in both keyed carriers, and Q138 was recovered in the twenty-four-page sibling. The 14 written prompts originate in the 225-prompt carrier, while all 14 written answers were already recovered from its keyed siblings. Consequently, this source adds neither a prompt nor an answer observation to the collapsed family totals.
+
+All assessment material remains within the prior family's five accepted handles. No genuinely new handle survives, so the exactly-four-search rule applies as **`0 new handles × 4 = 0 new searches`**; the prior **5 handles / 20 completed searches** are cross-referenced without rerunning them. Prior-MSK and cross-module disposition remains **0 live / 0 pending / 0 new concepts for this sibling**. The second inventory path has the same SHA-256 and is reconciled as an exact byte duplicate with no second source count.
+
+### Completed-source delta and cumulative table
+
+The source and its exact-duplicate inventory path are now `sourceProcessed=true`. Their family delta is **+0 questions / +0 answer observations / +0 concepts**. Cumulative totals remain **2457 questions / 2371 answers / 32 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2457 | 2371 | 32 | 0 | 1 | 31 | TBD |
+
+No module ID, content record, silent answer reconstruction, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these thirty processed paths and unique hashes leaves **73 selected inventory paths / 71 unique SHA-256s**. Their sorted, newline-joined hash checksum is `1041c071c84f320909e1938547b0f144302635f3350aa92e6999e517dcc328a7`. Remaining audit-review debt is 35 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`30 + 71 = 101`**.
+Removing the thirty-one processed unique hashes, including both selected inventory paths for this source hash, leaves **71 selected inventory paths / 70 unique SHA-256s**. Their sorted, newline-joined hash checksum is `600daffc6488609c822a9b5661e3ff8c29b3231b29ef60f80824b1d5f4ce3534`. Remaining audit-review debt is 33 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`31 + 70 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM - MSK FINAL ALL 2.pdf`, SHA-256 `91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7`, 55 pages; the same hash also has one path under `_Exact Duplicates`.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK 101-2 Anatomy Final MCQs_BenAhmed.pdf`, SHA-256 `0856251edfee586c1b993f1898529f765d033c498cb03fd0fcff2f3b9ce2b6f7`, 78 pages.
 
-**BLOCKED — S1 cannot be approved:** 73 selected inventory paths / 71 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 71 selected inventory paths / 70 unique hashes remain untriaged.

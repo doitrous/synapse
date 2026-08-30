@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "0a2e3c07374d09563a9438c710c020f00aed46112167f659d14513ec1462c7e9",
-    "triageMarkdown": "854a182a3f704b9deee47e29c080fa7cfe96a43ecf059b5b491b81492d3149a0"
+    "readinessMarkdown": "9409cf6a3999aa04ff5e8301f49c10875f1de4589b36eb196057c563f2c5acaf",
+    "triageMarkdown": "a2fd8cd01be02f2e3a92bb66ed227637b814d5c079225e0a76516e097c6891dd"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -67,6 +67,7 @@
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
       "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
+      "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
       "af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe",
@@ -82,7 +83,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 30
+    "uniqueSha256": 31
   },
   "completedSourceCoverage": [
     {
@@ -632,6 +633,38 @@
         "Q181-Q201 are absent from this shorter sibling",
         "page 24 prints fourteen answers without their written prompts"
       ]
+    },
+    {
+      "sha256": "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
+      "sourcePages": 55,
+      "renderedReadPages": "1-55",
+      "teachingPages": "1-23,26-32",
+      "writtenPromptAndAnswerPages": "24-25",
+      "objectiveQuestionPages": "33-55",
+      "printedPromptObservations": 194,
+      "objectiveMcqPrompts": 180,
+      "writtenPrompts": 14,
+      "printedKeyObservations": 152,
+      "objectiveKeyObservations": 138,
+      "writtenAnswerObservations": 14,
+      "visibleUnkeyedPrompts": 42,
+      "sourceAbsentAnswers": 42,
+      "mixedTeachingAssessmentSiblingOf": "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
+      "overlapsKeyedPartialSibling": "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
+      "overlapsComplementaryKeyedSibling": "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
+      "inventoryPathOccurrences": 2,
+      "exactDuplicateInventoryPathCount": 1,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "boundaryDisposition": "thirty teaching-only pages; fourteen written prompts with answers; Q1-Q138 keyed; Q139-Q180 visible but unkeyed"
     }
   ],
   "triageCumulative": {
@@ -643,15 +676,15 @@
     "newConcepts": 31
   },
   "remaining": {
-    "inventoryMetadataRows": 73,
-    "uniqueSha256": 71,
-    "sortedNewlineSha256": "1041c071c84f320909e1938547b0f144302635f3350aa92e6999e517dcc328a7",
+    "inventoryMetadataRows": 71,
+    "uniqueSha256": 70,
+    "sortedNewlineSha256": "600daffc6488609c822a9b5661e3ff8c29b3231b29ef60f80824b1d5f4ce3534",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 7,
-      "substantive-text": 35
+      "substantive-text": 33
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -659,12 +692,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 7,
-    "substantive-text": 35
+    "substantive-text": 33
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 30,
-    "remainingUniqueSha256": 71,
+    "processedUniqueSha256": 31,
+    "remainingUniqueSha256": 70,
     "processedPlusRemaining": 101
   }
 }

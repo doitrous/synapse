@@ -37,9 +37,10 @@ const PROCESSED_FAMILY_HASHES = [
   '3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9',
   'c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb',
   'cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e',
+  '91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '1041c071c84f320909e1938547b0f144302635f3350aa92e6999e517dcc328a7'
+const REMAINING_CHECKSUM = '600daffc6488609c822a9b5661e3ff8c29b3231b29ef60f80824b1d5f4ce3534'
 
 function option(name) {
   const prefix = `${name}=`
@@ -116,10 +117,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 7, 'substantive-text': 35 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 7, 'substantive-text': 33 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=35-substantive/7-sparse/14-empty/14-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=33-substantive/7-sparse/14-empty/14-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -169,7 +170,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 30 || remainingHashes.length !== 71 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 31 || remainingHashes.length !== 70 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -177,7 +178,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 7, 'substantive-text': 35 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 7, 'substantive-text': 33 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -228,6 +229,7 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[27], sourcePages: 22, renderedReadPages: '1-22', questionPages: '1-22', objectiveMcqPrompts: 201, writtenPrompts: 24, printedPromptObservations: 225, printedKeyObservations: 0, sourceAbsentAnswers: 225, acceptedSourceHandles: 5, searchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 5, sourceProcessed: true, authorityDisposition: 'student-authored compilation; filename-only 2025/past-exam claim rejected', writtenCompositeTreatment: 'page-21 shoulder case retained as 14 occurrences because each subprompt is separately numbered and has a distinct response space' },
     { sha256: PROCESSED_FAMILY_HASHES[28], sourcePages: 28, renderedReadPages: '1-28', visibleQuestionPages: '1-17,21-27', latentNonRenderedTextPages: '18-20', answerOnlyPages: '28', printedPromptObservations: 177, objectiveMcqPrompts: 177, printedKeyObservations: 190, objectiveKeyObservations: 176, answerOnlyWrittenObservations: 14, visibleUnkeyedPrompts: 1, sourceAbsentAnswers: 1, keyedPartialSiblingOf: PROCESSED_FAMILY_HASHES[27], familyQuestionDelta: 0, familyAnswerDelta: 190, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['Q138-Q161 exist only in the non-rendered text layer on visually blank pages 18-20 and are excluded', 'two isolated red marks on page 20 cannot be mapped to visible prompts and are excluded', 'visible Q168 has no answer mark', 'page 28 prints fourteen answers without their written prompts'] },
     { sha256: PROCESSED_FAMILY_HASHES[29], sourcePages: 24, renderedReadPages: '1-24', visibleQuestionPages: '1-23', inlineKeyPages: '1-20', answerOnlyPages: '24', printedPromptObservations: 180, objectiveMcqPrompts: 180, printedKeyObservations: 173, objectiveKeyObservations: 159, answerOnlyWrittenObservations: 14, visibleUnkeyedPrompts: 21, sourceAbsentAnswers: 21, complementaryKeyedSiblingOf: PROCESSED_FAMILY_HASHES[27], overlapsKeyedPartialSibling: PROCESSED_FAMILY_HASHES[28], familyQuestionDelta: 0, familyAnswerDelta: 22, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['Q160-Q180 are visible but unmarked', 'Q181-Q201 are absent from this shorter sibling', 'page 24 prints fourteen answers without their written prompts'] },
+    { sha256: PROCESSED_FAMILY_HASHES[30], sourcePages: 55, renderedReadPages: '1-55', teachingPages: '1-23,26-32', writtenPromptAndAnswerPages: '24-25', objectiveQuestionPages: '33-55', printedPromptObservations: 194, objectiveMcqPrompts: 180, writtenPrompts: 14, printedKeyObservations: 152, objectiveKeyObservations: 138, writtenAnswerObservations: 14, visibleUnkeyedPrompts: 42, sourceAbsentAnswers: 42, mixedTeachingAssessmentSiblingOf: PROCESSED_FAMILY_HASHES[27], overlapsKeyedPartialSibling: PROCESSED_FAMILY_HASHES[28], overlapsComplementaryKeyedSibling: PROCESSED_FAMILY_HASHES[29], inventoryPathOccurrences: 2, exactDuplicateInventoryPathCount: 1, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, boundaryDisposition: 'thirty teaching-only pages; fourteen written prompts with answers; Q1-Q138 keyed; Q139-Q180 visible but unkeyed' },
   ],
   triageCumulative: { printedPromptObservations: 2457, printedKeyObservations: 2371, namedConceptsAssigned: 32, liveHits: 0, pendingHits: 1, newConcepts: 31 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
