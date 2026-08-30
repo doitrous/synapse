@@ -4387,3 +4387,65 @@ Removing this one substantive-text path and unique hash leaves **55 selected inv
 The next evidence-ranked substantive source is the single 19-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Important Ques Histo.pdf`, SHA-256 `b8ac8fb8398288c987687c364a49cd465bc7f94c777d02a34e444c1e86c68d4c`.
 
 **BLOCKED — S1 cannot be approved:** 55 selected source paths remain untriaged.
+
+## Completed source — Important Ques Histo
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Important Ques Histo.pdf` | `b8ac8fb8398288c987687c364a49cd465bc7f94c777d02a34e444c1e86c68d4c` | 19 | substantive-text | pages 1–19 rendered and read | Local CamScanner answered Histology study bank. It prints no institution, department approval, sitting, marks or official-paper/key authority. |
+
+### Exact prompt, answer and teaching boundary
+
+All 19 pages contain highlighted answered MCQs. There is no separate answer-key section and no teaching-only page. The page-by-page prompt count is `6 + 4 + 4 + 5 + 6 + 5 + 5 + 5 + 6 + 6 + 5 + 4 + 4 + 5 + 4 + 4 + 6 + 7 + 8 = 99`, so the exact inventory is **99 prompt occurrences / 99 visibly selected or inline answer occurrences / 99 prompt-matched recovered answers**. Q62 prints its answer inline; every other prompt has a visibly highlighted selection. Reverse-page show-through and annotations are not counted as prompts.
+
+The printed labels do not provide a reliable count. Page 5 contains two unnumbered prompts and three distinct prompts all labelled Q20; Q28, Q34, Q52 and Q86 are each reused; and the smoker/tracheal-biopsy prompt on page 17 is mislabelled Q52. These defects are retained as source provenance. Occurrences are identified below as `U1/U2`, `20a–c`, `28a–b`, `34a–b`, `52a–b`, `M52` and `86a–b`; no label was silently repaired.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 99 prompts are assigned exactly once to 23 source handles. Every handle received the four identifying searches printed below, for **23 × 4 = 92 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| P1:1 | Centriole demonstration by iron haematoxylin (`centriole iron hematoxylin`; `centriole histochemical stain`; `centriole light microscopy stain`; `iron haematoxylin centriole`) | new externally; exact prior-FHB organelle-staining duplicate. |
+| P1:2 | Free-ribosome synthesis of peroxisomal enzymes (`peroxisomal enzymes free ribosomes`; `peroxisome protein synthesis`; `peroxisomal enzyme biosynthesis`; `peroxisome biogenesis ribosome`) | new externally; exact prior-FHB duplicate. |
+| P1:3; P3:11; P7:27 | Smooth-ER steroid secretion, calcium handling and bilirubin detoxification (`smooth ER steroid secretion`; `smooth ER calcium storage`; `smooth ER neonatal jaundice`; `smooth ER detoxification`) | new externally; exact prior-FHB organelle/function and repeated-vignette duplicate. |
+| P1:4 | Mitochondrial DNA and autonomous replication (`mitochondrial DNA`; `mitochondria own genome`; `mitochondrial replication`; `extranuclear DNA mitochondria`) | pending-hit; exact prior-FHB duplicate. |
+| P1:5–6; P19:90–91 | Permanent, potentially renewable and continuously renewable cells (`permanent cell neuron cardiac muscle`; `potentially renewable liver`; `continuously renewable skin`; `cell renewal classification`) | pending-hit; exact prior-FHB renewal-classification duplicate. |
+| P2:7; P6:24–25; P8:31; P13:57; P19:87 | Meiotic crossing-over and cell-cycle/interphase phases (`crossing over prophase I`; `S phase DNA synthesis`; `G1 cell growth organelles`; `metaphase chromosome alignment`) | new externally; exact prior-FHB meiosis/cell-cycle duplicate. |
+| P2:8–9; P11:49–50 | Dynein, cytoskeletal immunohistochemistry and colchicine/tubulin (`dynein male infertility`; `cytoskeleton immunohistochemistry`; `colchicine microtubules`; `tubulin spindle fibers`) | pending-hit; exact prior-FHB cilia/cytoskeleton duplicate. |
+| P2:10; P10:41 | Rough-ER association with the printed weak-bone vignette (`rough ER bone weakness`; `rough ER protein synthesis bone`; `osteoblast rough ER`; `weak bone rough endoplasmic reticulum`) | new externally; exact prior-FHB repeated-vignette duplicate. |
+| P3:12–13; P7:29; P16:70–71 | Hemidesmosomal/desmosomal attachment and autoimmune blistering (`hemidesmosome basement membrane`; `desmosome cell adhesion`; `bullous pemphigoid hemidesmosome`; `pemphigus desmosome antibody`) | pending-hit; exact prior-FHB junction/pemphigus duplicate. |
+| P3:14; P4:15; P7:30; P10:42–43; P14:63; P17:72 | Neuroepithelial and myoepithelial cells/sites (`neuroepithelium taste bud`; `organ of Corti neuroepithelium`; `myoepithelial contractile cell`; `sensory epithelial cells`) | pending-hit; exact prior-FHB epithelial-cell-type duplicate. |
+| P4:16; P14:61–62 | Fluorescence, scanning and transmission electron microscopy (`fluorescence microscope histology`; `scanning electron microscope 3D`; `transmission electron microscope 2D`; `SEM TEM distinction`) | new externally; exact prior-FHB microscopy-modality duplicate. |
+| P4:17–19; P15:65; P19:86a | Ring, inversion and isochromosome abnormalities plus acrocentric morphology (`ring chromosome`; `chromosome inversion`; `isochromosome`; `acrocentric chromosome`) | new externally; exact prior-FHB structural-aberration and centromere-classification duplicate. |
+| P5:U1; P15:64 | FISH detection of chromosomal abnormalities (`FISH chromosomal abnormality`; `fluorescence in situ hybridization`; `FISH cytogenetics`; `chromosome probe technique`) | new externally; exact prior-FHB cytogenetic-technique duplicate. |
+| P5:U2,20a–c,21; P6:22–23; P13:55–56; P18:83–84; P19:85,86b,88–89 | Barr bodies, neutrophil drumsticks and sex-chromosome aneuploidies (`Barr body number formula`; `47 XXY Barr body`; `45 X no Barr body`; `neutrophil drumstick sex chromatin`) | pending-hit; exact prior-FHB sex-chromatin/aneuploidy duplicate. |
+| P6:26; P8:34a–b; P9:35,40; P11:48 | Desmosomal strength, tight-junction morphology and gap-junction tissue communication (`desmosome strongest junction`; `tight junction unclear cell boundaries`; `gap junction osteocytes`; `gap junction cardiac embryonic tissue`) | live-hit; exact prior-FHB epithelial-junction and connexon-communication duplicate. |
+| P7:28a–b; P8:33 | Simple-columnar/ciliated-columnar sites (`fallopian tube ciliated columnar`; `uterus simple columnar epithelium`; `stomach simple columnar`; `lower respiratory columnar epithelium`) | new externally; exact prior-FHB epithelial-site duplicate. |
+| P8:32; P14:59; P15:67 | Basal infoldings of ion-transporting epithelial cells (`basal infoldings epithelial cells`; `basal striations mitochondria`; `ion transport basal infolding`; `kidney tubule basal infoldings`) | new externally; exact prior-FHB duplicate. |
+| P9:36–38; P11:51; P12:52a–b | Holocrine, apocrine and merocrine secretion plus gland classification (`sebaceous holocrine`; `mammary apocrine`; `sweat salivary merocrine`; `goblet unicellular sweat multicellular gland`) | new externally; exact prior-FHB glandular-epithelium duplicate. |
+| P9:39; P10:44–46; P11:47; P12:53–54; P14:60; P16:68; P17:76–78; P18:79–81 | Squamous, cuboidal, pseudostratified and transitional epithelial sites (`nonkeratinized esophagus`; `simple squamous Bowman capsule`; `stratified cuboidal duct`; `transitional epithelium bladder ureter`) | new externally; exact prior-FHB epithelial-type/site duplicate. |
+| P13:58; P15:66 | Ascending-alcohol dehydration and descending-alcohol rehydration (`ascending alcohol dehydration`; `descending alcohol rehydration`; `routine histology processing alcohol`; `paraffin section dehydration rehydration`) | new externally; exact prior-FHB routine-processing duplicate. |
+| P17:73 | Microvilli and brush-border specialisation (`microvilli brush border`; `microvilli absorption`; `apical microvilli actin`; `epithelial brush border`) | new externally; exact prior-FHB surface-specialisation duplicate. |
+| P17:74 | General epithelial avascularity (`epithelium avascular`; `general epithelial characteristics`; `epithelial nutrition diffusion`; `epithelium basement membrane`) | new externally; exact prior-FHB general-epithelium duplicate. |
+| P17:M52; P18:82 | Smoking/vitamin-A-associated squamous metaplasia (`smoker tracheal squamous metaplasia`; `vitamin A deficiency metaplasia`; `respiratory epithelial metaplasia`; `pseudostratified to squamous`) | new externally; exact prior-FHB metaplasia duplicate. |
+
+The source-level search result is **1 live / 6 pending / 16 new = 23 handles**. Every handle is exact reuse of previously processed FHB cytology, cytogenetics and epithelium scope, so the post-prior result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+99 questions / +99 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3796 | 3522 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **54 selected inventory paths / 52 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `e5edd224ab687355b7fa7be3d5265fa45a4e144e7a7b1c2eaa1e56cbe1f7241b`. Pinned triage debt becomes **11 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`54 + 52 = 106`**.
+
+The next evidence-ranked substantive source is the single 24-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - New MCQ for histology .pdf`, SHA-256 `71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3`.
+
+**BLOCKED — S1 cannot be approved:** 54 selected source paths remain untriaged.
