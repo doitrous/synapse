@@ -17026,3 +17026,92 @@ The exact next manifest-order debt is tier-6 `src_2c4f117cfb54de294c5e`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 73 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 158 — Tier-6 unattributed labelled anterolateral-leg teaching plate
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_2c4f117cfb54de294c5e` / `2c4f117cfb54de294c5e8a222917b022867d099a890c5df21bd2d80ad8a860d9` |
+| File / boundary | `2026-07-20 05.43.28.jpg` · 107,483 bytes · progressive JFIF 1.01 JPEG · sRGB · 72 dpi · 1080 × 1134 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.43.28.jpg` |
+| Visible / embedded provenance | The image is a two-view labelled anterolateral-leg anatomical model composition. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile/density but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is unattributed tertiary teaching-plate evidence, not a Helwan-authored assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. The upper view labels tibialis
+anterior, EHL, EDL, fibularis tertius and the inferior extensor retinaculum, with supplied
+anterior-tibial/deep-peroneal nerve relations. The lower view labels peroneus longus,
+fibularis brevis, repeated EDL/peroneus-tertius structures, and the superior/inferior limbs
+of the inferior extensor retinaculum, with supplied superficial-peroneal and root relations.
+
+There is **no assessment inventory**. Every arrow terminates in a supplied label and no
+instruction, interrogative, response field, blank, mark allocation, option set, correctness
+mark or separate answer reveal appears. The exact boundary is therefore **0 eligible or
+external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment
+prompts** and **0 practical/station prompts / 0 practical assessment keys**.
+
+Source wording is preserved without repair. The boxes print `Ant tibial n (deep peroneal n)`,
+`EDL`, `EHL`, both `FIBULARIS tertius` and `Peroneus tertius`, `Peroneus longus`,
+`Fibularis brevis`, `Superficial peroneal n (musculocutaneous)` and roots `(L5, S1)`.
+These are retained source states, not silently standardized terminology or expansions.
+
+### Complete practical-plate, mapping and residue inventory
+
+The two model views form **1 source-distinct labelled teaching composition**, so they count as
+one plate rather than two. One mapping is one directly printed label-to-structure, supply or
+root relation; a repeated structure/relation within this complete composition counts once.
+The upper view contributes five unique structure labels and four nerve-supply relations. The
+lower view adds four new structure labels and four new supply/root relations; its repeated EDL
+and fibularis/peroneus-tertius labels and matching supply relations collapse. The exact
+inventory is therefore **1 teaching plate / 17 directly printed unique mappings / 0 masked or
+unresolved residues**. Supplied labels are not converted into an answer key.
+
+### Source-first practical teaching scope, exact searches and prior-LCS reconciliation
+
+The single composition consolidates to **1 source-distinct practical teaching handle**. It
+received one query on each required surface.
+
+| Practical teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Anterior/lateral-leg muscle, nerve-supply and inferior-extensor-retinaculum model identification | `anterior lateral leg muscle model tibialis EHL EDL fibularis tertius`; `deep peroneal anterior tibial nerve muscle supply`; `peroneus longus brevis superficial peroneal L5 S1`; `inferior extensor retinaculum superior inferior limbs model` | Accepted Families 34, 37, 43 and later lower-limb practical/tested scopes jointly own every printed component | prior-LCS practical/theoretical reuse |
+
+All **1 × 4 = 4 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **1 prior-LCS reuse + 0 additive practical-teaching scopes**. The
+practical-teaching-scope delta is **0 live / 0 pending / 0 new**. Search matches establish
+coverage only and do not validate or repair the unattributed labels.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 461 plates / 2,730 mappings / 149 residues / 13
+keys** by **+0 / +1 / +17 / +0 / +0** to **20 prompts / 462 plates / 2,747 mappings / 149
+residues / 13 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `461 + 1 = 462`, `2,730 + 17 = 2,747`, `149 + 0 = 149` and `13 + 0
+= 13`.
+
+This source hash occurs once in Family 157's remainder. Removing its sole path leaves **72
+all-rank path instances / 67 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **58 / 56**, and rank 9 **14 / 11**. Family 157's prior checksums are
+`b8913af03aca0932b44f4c642d756870ecc44837bf04090e76b10ee7a95bcbf5` (paths) and
+`c346e1615a34e1bf239941b9bef339bcbaadc198263fb5f9b96a4eb599fc6bd4` (unique hashes).
+For the exact post-Family-158 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`fcec598c1fec0de3fa8903fcc98b22c582bfdd51e23f2eae76171efe1e78b52d`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`5b57a28a24d01395bc68284242be5bfd711154dceb09b26367b777080491250c`.
+
+The exact next manifest-order debt is tier-6 `src_31e4f70a0fc3239cfe0a`,
+`2026-07-20 05.43.32.jpg` (254,356 bytes; 2048 × 1613 JPEG; SHA-256
+`31e4f70a0fc3239cfe0ad0a8e233b179ee7b8cd986e7cac2e32f24405773ab3c`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 72 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
