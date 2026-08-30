@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "330877649c6f75eb9e204bba0674ce8686e5e47912885e2bbd9769956a4c87ee",
-    "triageMarkdown": "9d1d9f76e68aac80c68d5edff2f6ba7b58267b4ac9aca28935baf698c8874267"
+    "readinessMarkdown": "97ee6cf32d6a7ca10635d8d083356be24ded2b01571be7c442f61dd20e43c20d",
+    "triageMarkdown": "8c994a547c74318a78105cc357bd0dc67b98c89ff891d7bda007dedd7d4db32e"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -53,11 +53,12 @@
     "sha256": [
       "2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0",
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
+      "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 5
+    "uniqueSha256": 6
   },
   "completedSourceCoverage": [
     {
@@ -119,24 +120,41 @@
       "pendingHits": 0,
       "newConceptsAfterPriorMskCollapse": 5,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
+      "sourcePages": 23,
+      "renderedReadPages": "1-23",
+      "printedPromptObservations": 141,
+      "printedKeyObservations": 141,
+      "acceptedSourceHandles": 5,
+      "searchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 2,
+      "sourceProcessed": true,
+      "preservedSourceDefects": [
+        "two distinct prompts numbered 41",
+        "two corresponding key entries numbered 41"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 304,
-    "printedKeyObservations": 294,
-    "namedConceptsAssigned": 19,
+    "printedPromptObservations": 445,
+    "printedKeyObservations": 435,
+    "namedConceptsAssigned": 21,
     "liveHits": 0,
     "pendingHits": 1,
-    "newConcepts": 18
+    "newConcepts": 20
   },
   "remaining": {
-    "inventoryMetadataRows": 98,
-    "uniqueSha256": 96,
-    "sortedNewlineSha256": "8fb2c044ab036fb4b81566ccf7cbc3d88c7b67ae4564592ad5e738127b00fa88",
+    "inventoryMetadataRows": 97,
+    "uniqueSha256": 95,
+    "sortedNewlineSha256": "a22d90ff83b4c8a485b822b1415e0405341ac05f796750d2ec887702233788b2",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
-      "empty-text": 19,
+      "empty-text": 18,
       "sparse-text": 8,
       "substantive-text": 54
     }
@@ -144,14 +162,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
     "audit-not-found": 14,
-    "empty-text": 19,
+    "empty-text": 18,
     "sparse-text": 8,
     "substantive-text": 54
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 5,
-    "remainingUniqueSha256": 96,
+    "processedUniqueSha256": 6,
+    "remainingUniqueSha256": 95,
     "processedPlusRemaining": 101
   }
 }

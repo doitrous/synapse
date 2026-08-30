@@ -174,10 +174,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+43 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Cartilage & Bone MCQ + answers JPG
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage & Bone MCQ + answers JPG.pdf` | `5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb` | 23 | empty-text audit sample; image-based source | pages 1–23 rendered and read | Question pages carry the header `Dr Dalia El Marakby`. No institution, department, sitting, marks or official-key authority is printed, and PDF metadata exposes no author, creator or producer. This is an answered local teaching/question bank, not a documented MUST examination sitting or official key. |
+
+### Exact MCQ, written, practical, image and key boundary
+
+Pages 1–19 contain **141 four-option textual MCQ occurrences**. Pages 20–23 contain **141 printed key entries**, yielding **141 prompt-matched recovered answers**. There are **0 written prompts, 0 practical/image-identification prompts and 0 teaching-only pages**; although the source pages are scans, the assessment items themselves are textual rather than diagnostic-image questions.
+
+The printed numbering contains a source defect: page 6 has two different prompts both numbered Q41, and page 20 has two corresponding Q41 key entries (`B` and `D`). The sequence then continues Q42–Q140. Both distinct occurrences and both keys are preserved exactly, so the observed boundary is 141/141 even though the terminal printed number is 140. No key was inferred, renumbered or academically corrected.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 141 occurrences were assigned once across five source-first handles, reconciling as **57 + 19 + 5 + 40 + 20 = 141**. Each handle received exactly four searches across the durable live/server, pending/import-ready and documentation evidence surfaces, for **5 × 4 = 20 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 57, bone cells, matrix, microarchitecture and resorption (`osteoblast osteocyte osteoclast osteogenic cells bone matrix`; `osteon canaliculi lacunae Volkmann Sharpey fibers`; `Howship lacuna osteoclast bone resorption ruffled border`; `compact spongy bone trabeculae collagen type I`) | no external live/pending hit; same scope as the completed MSK bone handle — **prior-MSK collapse**. |
+| H2 | 19, bone formation, growth and remodeling (`intramembranous endochondral ossification epiphyseal plate`; `appositional bone growth periosteum endosteum`; `epiphyseal plate proliferation hypertrophy calcification invasion`; `bone fracture remodeling osteoporosis calcitonin periosteum`) | no external live/pending hit; the combined bone-development/growth/remodeling scope is not represented by a prior assignment — **new addition**. |
+| H3 | 5, ground and decalcified histologic bone preparations (`ground bone preparation lacunae canaliculi`; `decalcified bone preparation osteoblast osteoclast`; `grinding method compact bone histology`; `ground versus decalcified bone sections`) | no external live/pending hit and no prior MSK preparation-method assignment — **new addition**. |
+| H4 | 40, cartilage classes, sites, matrix, staining, vascularity and nutrition (`hyaline elastic fibrocartilage sites matrix collagen`; `cartilage avascular nutrition perichondrium`; `articular cartilage trachea epiglottis intervertebral disc`; `cartilage matrix basophilia metachromasia GAG sulfate`) | no external live/pending hit; same scope as the completed MSK cartilage handle — **prior-MSK collapse**. |
+| H5 | 20, chondroblasts/chondrocytes, cartilage growth, lacunae, isogenous groups and perichondrium (`chondroblast chondrocyte cartilage matrix`; `cartilage interstitial appositional growth cells`; `perichondrium fibrous cellular layers cartilage`; `isogenous groups chondrocytes lacunae cell nests`) | no external live/pending hit; same scope as the completed MSK cartilage handle — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 5 externally new source handles**. Prior-MSK collapse removes H1, H4 and H5, producing a completed-source concept delta of **0 live / 0 pending / 2 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+141 questions / +141 answers / +2 post-prior concepts**. Cumulative arithmetic is **304 + 141 = 445 questions**, **294 + 141 = 435 answers**, and **19 + 2 = 21 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 445 | 435 | 21 | 0 | 1 | 20 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these five substantive-text paths and unique hashes leaves **98 selected inventory paths / 96 unique SHA-256s**. Their sorted, newline-joined hash checksum is `8fb2c044ab036fb4b81566ccf7cbc3d88c7b67ae4564592ad5e738127b00fa88`. Remaining audit-review debt is 54 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`5 + 96 = 101`**.
+Removing these six processed paths and unique hashes leaves **97 selected inventory paths / 95 unique SHA-256s**. Their sorted, newline-joined hash checksum is `a22d90ff83b4c8a485b822b1415e0405341ac05f796750d2ec887702233788b2`. Remaining audit-review debt is 54 substantive-text / 8 sparse-text / 18 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`6 + 95 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage & Bone MCQ + answers JPG.pdf`, SHA-256 `5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb`, 23 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage MCQ (د.عبدالوهاب).pdf`, SHA-256 `12bb34d47ef4f248cd224da7063e493d07ab6990e5b6b87455872d9bccd8eb6a`, 11 pages.
 
-**BLOCKED — S1 cannot be approved:** 98 selected inventory paths / 96 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 97 selected inventory paths / 95 unique hashes remain untriaged.
