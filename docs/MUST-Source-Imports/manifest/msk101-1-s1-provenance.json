@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "69c861bbf971df8e661bc1050bac6eb749da0d9d82d3092610481e2a719eedb9",
-    "triageMarkdown": "c1e02c0918168b874adbada843be32c27746fbde7e082bbab94c85735a662ced"
+    "readinessMarkdown": "7e45a25147bd6317023d6aa0432fb3ab35bd48c5b1d54baabfb0debc2ff1419e",
+    "triageMarkdown": "42585f76071958f24f31ba075f60a74043d750980d33c70da769dac69910e5e4"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -138,6 +138,7 @@
       "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
       "d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0",
       "d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1",
+      "daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495",
       "dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94",
@@ -148,7 +149,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 96
+    "uniqueSha256": 97
   },
   "completedSourceCoverage": [
     {
@@ -3132,6 +3133,41 @@
         "handwritten spelling, capitalization, page-reference notes and selective anatomy claims remain uncorrected source observations",
         "already labeled anatomical diagrams, arrows and mnemonics are teaching aids and are not manufactured into practical prompts"
       ]
+    },
+    {
+      "sha256": "daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495",
+      "sourcePages": 7,
+      "renderedReadPages": "1-7",
+      "teachingPages": "1-6",
+      "closingPages": "7",
+      "pectoralRegionPages": "1-2",
+      "axillaPages": "3",
+      "axillaryArteryAndBrachialPlexusPages": "4-6",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Shahd Kamal handwritten teaching notes scanned with CamScanner and produced by Samsung Electronics, modified on 11 October 2024; no visible byline, institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "six teaching-content notebook pages followed by one closing page: pectoral fascia and pectoralis major on page 1; pectoralis major actions, pectoralis minor and subclavius on page 2; axillary boundaries on page 3; axillary-artery divisions and branches on pages 4-5; brachial-plexus overview and stage diagram on pages 5-6; and a motivational closing note on page 7; all labels, structures and explanatory facts are supplied inline, with no objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "filename attribution is not promoted to visible authorship",
+        "handwritten spelling, bilingual mnemonics and selective anatomy claims remain uncorrected source observations",
+        "already labeled diagrams and the terminal motivational quotation are not manufactured into assessment prompts"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3143,20 +3179,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 5,
-    "uniqueSha256": 5,
-    "sortedNewlineSha256": "bce7b66ce1d43de35a2889c8101c21f76dd00819fd7630347ba27929f5d2df88",
+    "inventoryMetadataRows": 4,
+    "uniqueSha256": 4,
+    "sortedNewlineSha256": "b07502a2489210bc57821e17dfad58803518d184733a48714076071a05c5da1d",
     "auditSampleStatusCounts": {
-      "audit-not-found": 5
+      "audit-not-found": 4
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 5
+    "audit-not-found": 4
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 96,
-    "remainingUniqueSha256": 5,
+    "processedUniqueSha256": 97,
+    "remainingUniqueSha256": 4,
     "processedPlusRemaining": 101
   }
 }

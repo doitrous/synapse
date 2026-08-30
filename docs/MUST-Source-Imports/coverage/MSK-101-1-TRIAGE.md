@@ -3863,3 +3863,41 @@ Removing the ninety-six processed unique hashes leaves **5 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pect. Region, Axilla, Brachial Plexus (by Shahd Kamal).pdf`, SHA-256 `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495`, 7 pages.
 
 **BLOCKED — S1 cannot be approved:** 5 selected inventory paths / 5 unique hashes remain untriaged.
+
+## Completed teaching-only source — Pect. Region, Axilla, Brachial Plexus (by Shahd Kamal)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pect. Region, Axilla, Brachial Plexus (by Shahd Kamal).pdf` | `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495` | 7 | audit-not-found inventory label | pages 1–7 rendered and read | Filename-attributed Shahd Kamal handwritten notes, visibly scanned with CamScanner. Metadata identifies Samsung Electronics as creator and producer and 11 October 2024 as modification date. No visible byline, institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pect. Region, Axilla, Brachial Plexus (by Shahd Kamal).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+Pages 1–6 are fully populated handwritten teaching notes. Pages 1–2 cover pectoral fascia, pectoralis major, pectoralis minor and subclavius. Page 3 describes the axilla and its walls. Pages 4–5 cover the axillary artery, its divisions and branches. Pages 5–6 introduce the brachial plexus and provide a completed stage diagram. Page 7 contains only a bilingual motivational closing quotation.
+
+The exact boundary is **6 teaching-content notebook pages / 1 closing page / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. Every anatomical label, branch, boundary and explanatory fact is supplied inline; the question marks around the `Axillary Artery` heading are decorative emphasis rather than a learner instruction or response structure.
+
+### Authority, source truth and search gate
+
+The filename attributes Shahd Kamal, while CamScanner watermarking and Samsung metadata support scan and production provenance only; no visible byline authenticates the attribution. Nothing in the carrier establishes a MUST/MSK institution, department, examiner, sitting, marks or official assessment key. Handwritten spelling, bilingual mnemonics and selective anatomy claims remain uncorrected observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Completed teaching diagrams and the closing quotation are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-seven processed unique hashes leaves **4 selected inventory paths / 4 unique SHA-256s**. Their sorted, newline-joined hash checksum is `b07502a2489210bc57821e17dfad58803518d184733a48714076071a05c5da1d`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 4 audit-not-found rows, and unique-hash accounting is **`97 + 4 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Posterior Compartment Of The Arm (TRICEPS) (By Roaa).pdf`, SHA-256 `bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 4 selected inventory paths / 4 unique hashes remain untriaged.

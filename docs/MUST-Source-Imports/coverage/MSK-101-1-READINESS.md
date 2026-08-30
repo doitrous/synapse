@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The ninety-six completed read-only source hashes cover ninety-eight selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed seven-page `Muscles Of The Back (by Roaa).pdf`, SHA-256 `c54fda8e9fb1d40780ad6de2014395a5d976c60987edb9a209a985dd0977508a`, is a filename-attributed Roaa handwritten teaching carrier. Its exact boundary is **7 teaching-only notebook pages / 11 named muscle profiles / a terminal deltoid-relations page / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename attribution and Notes/iOS Quartz metadata do not establish visible authorship, institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The ninety-seven completed read-only source hashes cover ninety-nine selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed seven-page `Pect. Region, Axilla, Brachial Plexus (by Shahd Kamal).pdf`, SHA-256 `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495`, is a filename-attributed Shahd Kamal handwritten teaching carrier. Its exact boundary is **6 teaching-content notebook pages / 1 closing page / pectoral-region content on pages 1–2 / axilla on page 3 / axillary artery and brachial plexus on pages 4–6 / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename attribution, CamScanner watermarking and Samsung metadata do not establish visible authorship, institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `c54fda8e9fb1d40780ad6de2014395a5d976c60987edb9a209a985dd0977508a`.
+Latest processed family hash: `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495`.
 
-Recent processed family hash retained for reconciliation: `70d3f4e4ab8ef7ad06e7f2c175cbb89816705fa7ec7528b1e60f0068017c07c4`.
+Recent processed family hash retained for reconciliation: `c54fda8e9fb1d40780ad6de2014395a5d976c60987edb9a209a985dd0977508a`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -102,8 +102,10 @@ Current teaching-source append: `70d3f4e4ab8ef7ad06e7f2c175cbb89816705fa7ec7528b
 
 Current teaching-source append: `c54fda8e9fb1d40780ad6de2014395a5d976c60987edb9a209a985dd0977508a`.
 
-Removing them leaves **5 inventory paths / 5 unique SHA-256s**, checksum `bce7b66ce1d43de35a2889c8101c21f76dd00819fd7630347ba27929f5d2df88`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 5 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Pect. Region, Axilla, Brachial Plexus (by Shahd Kamal).pdf`, SHA-256 `daa4322a59152fa37e5bbdcdbfb2dcc28e94d29920c67a0349dd4549b77d3495`, 7 pages.
+Removing them leaves **4 inventory paths / 4 unique SHA-256s**, checksum `b07502a2489210bc57821e17dfad58803518d184733a48714076071a05c5da1d`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 4 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 5 selected inventory paths / 5 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Posterior Compartment Of The Arm (TRICEPS) (By Roaa).pdf`, SHA-256 `bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 4 selected inventory paths / 4 unique hashes remain untriaged.
