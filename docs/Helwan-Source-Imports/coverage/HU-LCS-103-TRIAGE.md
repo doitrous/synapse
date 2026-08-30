@@ -20451,3 +20451,97 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 37
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 194 — Tier-6 attributed gluteal-region neurovascular teaching summary, part 2
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_e27e52b2960263caac96` / `e27e52b2960263caac96e2a6225b166f8b17f60dc491776d6af7c5616954479e` |
+| Manifest / normalized local path | Manifest `Year 1/LCS 103/Anatomy/Notes and Summaries/Gluteal region part  2.pdf`; normalized local `Year 1/LCS 103/Anatomy/Notes and Summaries/Gluteal region part 2.pdf` |
+| Physical verification | **1,001,940 bytes; 10 native-text landscape-A4 pages; 841.92 × 595.32 pt; tagged; unencrypted; PDF 1.7**. Full hash, byte size, page count and geometry match; all ten 180-dpi complete-page renders are distinct. The PDF declares an AcroForm container but qpdf reports zero fields. |
+| Visible / metadata provenance | Every page prints `Anatomy`, `Gluteal region part 2`, `Dr/ M. Ali` and a page number. Metadata separately names author `Mohamed Mamdouh AbdAziz`, Microsoft Word for Microsoft 365 creator/producer and 26 May 2025 creation/modification. No university, module code, cohort, sitting, marks or official-key statement appears. |
+| Authority finding | Attributed local tier-6 teaching-summary evidence. The visible and metadata names are preserved as separate source layers rather than conflated; neither establishes a recoverable Helwan assessment sitting, response form, practical station or official key. |
+
+All **10/10 pages** were rendered at 180 dpi, OCRed, inspected at full resolution and read
+against the complete native layer. The physical boundary is:
+
+| Pages | Source-first teaching composition |
+|---:|---|
+| 1–2 | greater and lesser sciatic foramina, divisions, importance and completed contents lists with labelled diagrams |
+| 3–4 | gluteal-region nerve overview; superior/inferior gluteal nerves and nerves to obturator internus/quadratus femoris |
+| 5 | posterior femoral cutaneous nerve course, branches and skin supply |
+| 6–8 | sciatic-nerve features, origin, course, terminal division, branches and completed regional diagrams |
+| 9 | safe intramuscular-injection site plus sciatica causes/effects |
+| 10 | superior/inferior gluteal arteries, branches, supply and labelled anastomotic figures |
+
+There is **no assessment inventory**. Every table, list, callout and diagram supplies its
+information simultaneously; the empty AcroForm adds no field or response convention. There
+is no question numbering, learner instruction, masked answer, delayed answer or key. Exact
+boundary is **0 eligible or external assessment prompts / 0 keys-or-answers / 0 written
+prompts / 0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes repeated `siatic`, `All nerves and
+vessel`, the duplicated pelvis/gluteal-region course text on p. 6, `Piriform syndrome`,
+`Paralysis for the hamstring muscles`, capitalization and every diagram/table state. Inventory
+does not endorse or medically/editorially correct those statements.
+
+### Practical and image boundary
+
+The source contains regional anatomical drawings, surface landmarks and injection/sciatica
+illustrations, but every structure or region is already labelled and embedded in an
+explanatory page. There is no masked structure, numbered identification station,
+learner-completed map, response blank or practical key. Exact practical delta is **0 prompts /
+0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The summary consolidates to six complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| greater/lesser sciatic foramina and contents · pp. 1–2 | greater lesser sciatic foramina piriformis suprapiriform infrapiriform contents | Accepted Families 2, 32, 40, 107–112, 191–192 and later banks own it — prior-LCS reuse. |
+| gluteal nerves to superficial/deep muscles · pp. 3–4 | superior inferior gluteal nerve obturator internus quadratus femoris nerve | Accepted Families 2, 32, 40, 45, 191–192 and later banks own it — prior-LCS reuse. |
+| posterior femoral cutaneous nerve · p. 5 | posterior femoral cutaneous nerve gluteal perineal branches skin thigh | Accepted Families 40, 45 and later lower-limb banks own it — prior-LCS reuse. |
+| sciatic-nerve course, terminal division and branches · pp. 6–8 | sciatic nerve course gluteal thigh tibial common fibular branches | Accepted Families 1–2, 33, 40, 42, 45 and later banks own it — prior-LCS reuse. |
+| safe gluteal injection and sciatica · p. 9 | gluteal intramuscular injection safe quadrant sciatica piriformis syndrome | Accepted Families 2, 40, 45 and later banks own it — prior-LCS reuse. |
+| superior/inferior gluteal arteries · p. 10 | superior inferior gluteal arteries internal iliac anastomosis sciatic nerve | Accepted Families 32, 40, 45 and later banks own it — prior-LCS reuse. |
+
+Each of the **six accepted handles** received exactly one search against each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **6 × 4 = 24
+required search invocations**. Literal combined searches returned no exact file hit on any
+surface; complete-scope comparison establishes **6 prior-LCS theoretical reuses / 0 additive
+live / 0 additive pending / 0 additive new teaching scopes**. Declarative theoretical scopes
+do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 193's remainder. Removing its sole path changes the remainder
+from **37 paths / 36 unique hashes** to **36 paths / 35 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **27 paths / 27 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 193's checksums were
+`46df4ebd0be6c156434df70b867c620187f6a9a65a04afbd9abe55b6d2e9dc9a` (paths) and
+`bc0f44325af9fc71ed09661aa57309d1ff593b5deacca7870ed1bc0039985365` (unique hashes).
+For the exact post-Family-194 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`2bb6661d2657a3584c1f61ca097fe5fa7307a659ec65de639d23a6a36aabd3f1`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`89845b223ac98266d6a8ed6177e45a1c9b394f06064e15229294e68e29d10a96`.
+
+The exact next manifest-order debt is tier-6 `src_641b8c348d7152ac72da`, `Gluteal region
+part 1.pdf` (1,330,966 bytes; 10 native-text landscape-A4 pages; tagged; unencrypted; PDF 1.7;
+SHA-256 `641b8c348d7152ac72da1dd1d5bba68f803ddebdeee85da931109144e0740abc`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 36
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
