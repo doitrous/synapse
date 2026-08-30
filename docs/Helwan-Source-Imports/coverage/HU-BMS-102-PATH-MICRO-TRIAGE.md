@@ -9060,3 +9060,81 @@ table of cellular and plasma inflammation mediators, origins, and effects, not a
 continuation of Family 81. Its full teaching/prompt/answer and annotation boundary,
 provenance/timestamp limitation, relationship to adjacent images, and overlap with prior
 BMS-102 inflammation evidence are the next-source blockers.
+
+## Family 82 — inflammation-mediator handwritten table photograph
+
+### Source identity, original-image boundary, provenance, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_dbefa7bcb2269e25fe68` · `2026-07-20 06.15.42.jpg` |
+| SHA-256 / size | `dbefa7bcb2269e25fe68278d5e65c0e29493148d385dd75fcd7500036ab15249` · 179,552 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Image boundary | One 1280×897 landscape JPEG; opened and read at original resolution |
+| Visible source identity | Photograph of a completed handwritten table headed `inflammation` / `Mediators`; no institution, module, author, instructor, date, page number, assessment label, or key designation |
+| Filename date | Manifest derives 2026 from the filename; that capture-style timestamp is non-authoritative and cannot establish a teaching date or exam sitting |
+
+The image is one completed teaching table divided into cellular and plasma mediators, with
+origins and effects. Its rows cover histamine, serotonin, cytokines, nitric oxide, kinins /
+bradykinin, coagulation and fibrin, prostaglandins, leukotrienes / platelet-activating factor,
+reactive oxygen species, complement components, fibrinolytics, and lysosomal enzymes. The
+effects include vasodilation, increased vascular permeability, fever/systemic stimulation,
+pain, chemotaxis, microbial killing, tissue damage, membrane attack, fibrin formation, and
+fibrin dissolution.
+
+The immediately preceding Family-81 image is an intrinsic-apoptosis composite, so this source
+starts a visibly different inflammation topic. The next manifest image, `2026-07-20
+06.15.44.jpg`, is another photographed handwritten table, this time on non-suppurative
+inflammation patterns. Shared photographic and handwriting style supports adjacency within a
+note sequence, but neither image has numbering or internal dating. Filename order therefore
+records capture order only and does not prove authorship, teaching chronology, or sitting year.
+
+### Teaching, annotation, overlap, and zero gate
+
+Pink highlights mark major headings, yellow marks the `origin` and `effect` labels, and circles,
+underlines, arrows, and column lines organize the completed teaching material. A small crossed-
+out term beside the leukotriene / platelet-activating-factor material is a local note correction;
+it is not a selected answer, response, or recoverable prompt residue. All mediator names,
+sources, conversions, and effects are declarative content.
+
+There is no stem, command, blank, option set, response frame, audience question, prompt-like
+residue, or printed answer register. The table overlaps inflammation-mediator teaching and
+tested concepts already represented in earlier BMS-102 families, but declarative overlap does
+not create a handle or assessment occurrence.
+
+The source contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like
+residues / 0 retained records / 0 source-distinct tested handles / 0 concept additions**. With
+no accepted handle, the source-first gate is exactly **0 handles × 4 = 0 required searches**;
+no external or prior-BMS search row is fabricated.
+
+| Measure | Family 82 | Auxiliary cumulative (Families 12–82) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes: `0` prompts yield `0` answers, residues, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains
+**765 / 405 / 552 / 372**; auxiliary remains **766 / 390 / 728 / 654 / +448**; and all
+eligible evidence remains **1,531 / 795 / 1,280 / 820**. Family 82 cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 82
+
+`src_dbefa7bcb2269e25fe68` is exhausted: every table division, mediator/origin/effect entry,
+highlight and correction convention, prompt absence, adjacent-topic relationship, prior-BMS
+overlap, timestamp limitation, zero search gate, and unchanged arithmetic is assigned once,
+with **zero source remainder** and no Family-82 blocker. The exact next manifest-ordered
+BMS-102 record is tier-6 `src_c9821b4939ccd4047256` · `2026-07-20 06.15.44.jpg`, SHA-256
+`c9821b4939ccd4047256bf57950e45c21d97842165199fa424608d765773fda8`, 167,503 bytes,
+one 1280×834 JPEG under `Pathology / Notes and Summaries`. Its visible carrier is a completed
+handwritten table of non-suppurative inflammation patterns, causes, sites, and examples. Its
+full teaching/prompt/answer and annotation boundary, provenance/timestamp limitation,
+relationship to this adjacent image, and overlap with prior BMS-102 inflammation evidence are
+the exact next-source blockers.
