@@ -95,6 +95,7 @@ const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteb
 const Notebook = lazyNamed(() => import('@/pages/student/Notebook'), 'Notebook')
 const Tutorial = lazyNamed(() => import('@/pages/student/Tutorial'), 'Tutorial')
 const StudyTogether = lazyNamed(() => import('@/pages/student/StudyTogether'), 'StudyTogether')
+const QuestionOfTheDay = lazyNamed(() => import('@/pages/student/QuestionOfTheDay'), 'QuestionOfTheDay')
 const Billing = lazyNamed(() => import('@/pages/student/Billing'), 'Billing')
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
 
@@ -164,6 +165,7 @@ const studentPages: Record<string, Preloadable> = {
   notebook: Notebook,
   tutorial: Tutorial,
   'study-together': StudyTogether,
+  qotd: QuestionOfTheDay,
   billing: Billing,
   account: Account,
 }

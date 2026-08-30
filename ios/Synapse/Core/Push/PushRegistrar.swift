@@ -1,19 +1,22 @@
 import UIKit
+import UserNotifications
 import Observation
 
-/// Registers this device for the silent nudge that keeps sync instant.
+/// Registers this device for the silent nudge that keeps sync instant, and —
+/// once signed in — for the visible "Question of the Day is waiting" reminder.
 ///
-/// The nudge carries no alert, badge or sound. iOS delivers a
-/// `content-available` push without the student ever being asked, so this asks
-/// for **no notification permission at all** — requesting one the feature does
-/// not need is how an app trains people to say no to the prompts that matter.
-/// Visible reminders are a separate feature and will ask separately.
+/// The sync nudge carries no alert, badge or sound: iOS delivers a
+/// `content-available` push without the student ever being asked, and that
+/// path asks for no permission at all. A design where the payload *is* the
+/// change would make delivery a correctness problem, and APNs does not
+/// promise delivery, so a push that is delayed or dropped costs nothing — the
+/// next refresh finds the same change.
 ///
-/// What arrives is a signal, never content: "something of yours changed". The
-/// app then refreshes through the ordinary sync path, so a push that is delayed
-/// or dropped costs nothing — the next refresh finds the same change. That is
-/// deliberate. A design where the payload *is* the change would make delivery a
-/// correctness problem, and APNs does not promise delivery.
+/// The reminder is different: it is meant to be seen, so it does need
+/// permission. That prompt is asked for here too, but only once there is an
+/// account to attach it to — asking at cold launch, before a student has any
+/// reason to trust the app yet, is how you train someone to say no to the
+/// prompt that matters.
 @MainActor
 @Observable
 final class PushRegistrar {
@@ -32,6 +35,13 @@ final class PushRegistrar {
 
     /// What to do when a nudge lands. Set once the sync engine exists.
     var onNudge: (() async -> Void)?
+
+    /// A path from a tapped reminder (e.g. `/app/qotd`), waiting to be routed.
+    ///
+    /// The tap can land before there is anywhere to route it to — the app may
+    /// still be launching — so it is held here rather than acted on directly,
+    /// and consumed once a screen is ready to look at it.
+    private(set) var pendingRoute: String?
 
     private var api: SynapseAPI?
 
@@ -52,8 +62,22 @@ final class PushRegistrar {
     private init() {}
 
     /// Begin, once there is an account to attach the device to.
-    func start(api: SynapseAPI) {
+    ///
+    /// Asks for notification permission first — the one prompt this app
+    /// shows, and only reached because a student has already signed in, not
+    /// on cold launch. Declining costs nothing beyond the reminder itself:
+    /// `registerForRemoteNotifications` is called regardless, because the
+    /// silent sync nudge needs a device token and does not need the alert
+    /// permission this call is for.
+    func start(api: SynapseAPI) async {
         self.api = api
+        do {
+            _ = try await UNUserNotificationCenter.current()
+                .requestAuthorization(options: [.alert, .sound, .badge])
+        } catch {
+            // A student who never sees the system prompt (Screen Time
+            // restrictions, an unusual MDM profile) still gets sync.
+        }
         UIApplication.shared.registerForRemoteNotifications()
         // A token can arrive before sign-in finishes. If it already has, it
         // still needs sending — the callback will not fire twice.
@@ -81,6 +105,17 @@ final class PushRegistrar {
     func nudge() async {
         nudgesReceived += 1
         await onNudge?()
+    }
+
+    /// A reminder was tapped. Recorded for whichever screen is ready to route it.
+    func routeTapped(_ path: String) {
+        pendingRoute = path
+    }
+
+    /// Take the pending route, if any, so the same tap is never acted on twice.
+    func consumePendingRoute() -> String? {
+        defer { pendingRoute = nil }
+        return pendingRoute
     }
 
     /// Stop sending to this device.
@@ -115,11 +150,27 @@ final class PushRegistrar {
     }
 }
 
-/// The three callbacks that only reach a `UIApplicationDelegate`.
+/// The callbacks that only reach a `UIApplicationDelegate`, plus how a
+/// notification behaves once permission has been granted.
 ///
 /// SwiftUI has no equivalent for remote-notification registration, so the app
-/// keeps a delegate for exactly this and nothing else.
+/// keeps a delegate for exactly this. It doubles as the
+/// `UNUserNotificationCenterDelegate` for the same reason: both are things
+/// only a delegate object can be told, and there is exactly one of each in
+/// this app.
 final class PushDelegate: NSObject, UIApplicationDelegate {
+
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        // Set at launch, before any permission is requested or any push can
+        // arrive — `start(api:)` only asks for permission later, once a
+        // student has signed in, but a foreground alert or a tap can only be
+        // shaped correctly if the delegate is already listening by then.
+        UNUserNotificationCenter.current().delegate = self
+        return true
+    }
 
     func application(
         _ application: UIApplication,
@@ -154,6 +205,43 @@ final class PushDelegate: NSObject, UIApplicationDelegate {
         Task { @MainActor in
             await PushRegistrar.shared.nudge()
             completionHandler(.newData)
+        }
+    }
+}
+
+extension PushDelegate: UNUserNotificationCenterDelegate {
+
+    /// A visible reminder arrived while the app was already open.
+    ///
+    /// Without this, a foreground notification is silent by default — the
+    /// system assumes an app on screen already knows. A reminder is worth
+    /// showing anyway: a student mid-session may still want the badge and
+    /// sound rather than discovering it later.
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        willPresent notification: UNNotification,
+        withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
+    ) {
+        completionHandler([.banner, .sound])
+    }
+
+    /// A reminder was tapped.
+    ///
+    /// Recorded rather than acted on directly: this delegate has no view of
+    /// the tab bar or navigation state, and the app may still be launching.
+    /// Whichever screen is ready reads it back with `consumePendingRoute()`.
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        didReceive response: UNNotificationResponse,
+        withCompletionHandler completionHandler: @escaping () -> Void
+    ) {
+        // "path" mirrors the server's `sendApnsAlert` payload
+        // (`server/src/push.js`); falling back to the QotD route is safe
+        // because a visible reminder never sends anywhere else today.
+        let path = response.notification.request.content.userInfo["path"] as? String ?? "/app/qotd"
+        Task { @MainActor in
+            PushRegistrar.shared.routeTapped(path)
+            completionHandler()
         }
     }
 }

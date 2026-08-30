@@ -10,22 +10,19 @@ import { useT } from '@/lib/i18n'
  * This used to switch between six views — the generated taxonomy (system,
  * discipline, skills, knowledge), plus module and year — with a landing page
  * offering all six as an entry choice. Module is the only one now: it is the
- * one view backed by a faculty's own hand-arranged trees rather than a
- * generated map, so it is the one that actually matches the timetable a
- * student is holding. `LibraryTreeBrowser` does the real work (which modules
- * exist, which have anything published, the tree beneath each); this wraps it
- * in the chrome for the two places it appears.
+ * one view that matches the timetable a student is holding, because it is
+ * read straight from curriculum coverage (the same admin Curriculum dialog
+ * the qbank chooser reads) rather than a generated map. `LibraryTreeBrowser`
+ * does the real work (which modules exist, which have anything published);
+ * this wraps it in the chrome for the two places it appears.
  */
 export function LibraryModuleNav({
   selectedArticleId,
   onArticleSelect,
-  articleTitles,
   variant = 'rail',
 }: {
   selectedArticleId?: string
   onArticleSelect: (articleId: string) => void
-  /** Published article titles by id, so a filed-but-unpublished article renders as nothing. */
-  articleTitles: Map<string, string>
   /**
    * 'rail': the compact column beside an open article (or the mobile drawer).
    * 'landing': the whole page, with nothing else on screen — this is shown
@@ -48,7 +45,7 @@ export function LibraryModuleNav({
           <h1 className="mt-5 font-serif text-[30px] font-semibold leading-[1.1] tracking-[-0.02em] text-ink sm:text-[36px]">{t('Your modules')}</h1>
           <p className="mt-3 max-w-[38rem] text-[14px] leading-relaxed text-ink-2">{t('Reviewed articles, arranged the way your faculty teaches them. Choose a module to start reading.')}</p>
           <div className="mt-7 overflow-hidden rounded-xl border border-line bg-surface p-3 shadow-panel sm:p-4">
-            <LibraryTreeBrowser selectedArticleId={selectedArticleId} onArticleSelect={onArticleSelect} articleTitles={articleTitles} />
+            <LibraryTreeBrowser selectedArticleId={selectedArticleId} onArticleSelect={onArticleSelect} />
           </div>
         </div>
       </div>
@@ -61,7 +58,7 @@ export function LibraryModuleNav({
         <p className="truncate text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{t('Your modules')}</p>
       </div>
       <div className="min-h-0 min-w-0 flex-1 overflow-y-auto p-2">
-        <LibraryTreeBrowser selectedArticleId={selectedArticleId} onArticleSelect={onArticleSelect} articleTitles={articleTitles} />
+        <LibraryTreeBrowser selectedArticleId={selectedArticleId} onArticleSelect={onArticleSelect} />
       </div>
     </aside>
   )

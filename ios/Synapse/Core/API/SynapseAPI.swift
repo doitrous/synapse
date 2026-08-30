@@ -425,6 +425,42 @@ struct SynapseAPI {
         _ = try await send(["devices", deviceToken], method: "DELETE", body: Optional<Int>.none)
     }
 
+    // MARK: - Question of the Day
+
+    /// Today's QotD status for the caller's cohort. The question body is not here;
+    /// resolve `questionId` from the local ledger.
+    func qotdToday() async throws -> QotdToday {
+        try await get(QotdToday.self, ["qotd", "today"])
+    }
+
+    /// Answer today's question. `answerIndex` is a position in the question's
+    /// option list (blank options dropped, same order the server marks against),
+    /// not a label — same contract as `submitAnswer`. The server marks it and
+    /// returns the outcome; the app never self-marks QotD.
+    func qotdAnswer(questionId: String, answerIndex: Int) async throws -> QotdAnswerResult {
+        struct Body: Encodable {
+            let questionId: String
+            let answerIndex: Int
+        }
+        let data = try await send(
+            ["qotd", "answer"], method: "POST",
+            body: Body(questionId: questionId, answerIndex: answerIndex)
+        )
+        return try Self.decoder.decode(QotdAnswerResult.self, from: data)
+    }
+
+    /// The cohort leaderboard. `limit` is left to the server default (50); the
+    /// path builder takes components only, and the board is small, so no query
+    /// string is sent.
+    func qotdLeaderboard() async throws -> QotdLeaderboard {
+        try await get(QotdLeaderboard.self, ["qotd", "leaderboard"])
+    }
+
+    /// Today's results for the caller's friends.
+    func qotdFriends() async throws -> QotdFriends {
+        try await get(QotdFriends.self, ["qotd", "friends"])
+    }
+
     // MARK: - Transport
 
     private func get<T: Decodable>(_ type: T.Type, _ components: [String]) async throws -> T {

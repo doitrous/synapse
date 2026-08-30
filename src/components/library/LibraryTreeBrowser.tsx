@@ -1,165 +1,127 @@
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { FolderTree } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
-import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
-import { usePersistentState } from '@/lib/usePersistentState'
-import { defaultModuleId } from '@/data/universities'
-import {
-  LIBRARY_TREES_STATE_KEY, emptyLibraryTrees, treeScope, allArticleIds,
-  type LibraryTreeKind, type LibraryTreeNode, type LibraryTreesDocument,
-} from '@/data/libraryTrees'
-
-interface Choice { key: string; label: string }
+import { useModuleLibraryContent } from '@/lib/useModuleLibraryContent'
 
 /**
- * The library as a faculty arranged it, for one module or one year.
+ * The library as the viewer's own curriculum covers it: one entry per module
+ * on their year, each holding whatever published articles the admin
+ * Curriculum dialog has attached to it.
  *
- * Independent of the generated taxonomy by design: a heading here is whatever
- * the department calls it, at whatever depth they teach it. An article filed
- * here also still appears under Systems — a tree is an additional placement,
- * not a move, so an empty one hides nothing.
- *
- * A module (or year) that resolves to zero published articles is left off the
- * list entirely — there is nothing a student could open there, and an empty
- * branch just to say so reads as broken rather than unwritten. `articleIds`
- * that no longer resolve to a published title (already dropped per-article
- * further down, in `TreeBranch`) do not count towards "has something".
+ * This used to read a separate, hand-curated tree document
+ * (`synapse-library-trees-v1`) that a faculty filed articles into by hand —
+ * a second, mostly-empty source of truth sitting beside the real one. Every
+ * module a student is actually enrolled in already carries its coverage
+ * through `useModuleLibraryContent` (curriculum coverage, the same source the
+ * admin dialog edits and the qbank chooser reads), so that is read directly
+ * instead. Curriculum coverage is now the *only* source for this view: a
+ * module with nothing covered says so rather than falling back to the old
+ * document, and every module the student is enrolled in is listed — even the
+ * ones with nothing published yet — because the list itself is the student's
+ * timetable, not a index of what happens to have content.
  */
-export function LibraryTreeBrowser({ kind = 'module', selectedArticleId, onArticleSelect, articleTitles }: {
-  kind?: LibraryTreeKind
+export function LibraryTreeBrowser({ selectedArticleId, onArticleSelect }: {
   selectedArticleId?: string
   onArticleSelect: (articleId: string) => void
-  /** Published article titles by id, so an unpublished filing renders as nothing. */
-  articleTitles: Map<string, string>
 }) {
   const t = useT()
   const identity = useIdentity()
-  const [catalogue] = useUniversityCatalogue()
-  const [document] = usePersistentState<LibraryTreesDocument>(LIBRARY_TREES_STATE_KEY, emptyLibraryTrees)
+  const { groups, availability } = useModuleLibraryContent(identity.audience.universityId, identity.audience.yearId)
   const [chosen, setChosen] = useState<string | null>(null)
 
-  /** Whether a scope's tree resolves to at least one article this student can read. */
-  const hasReadableContent = (key: string) => allArticleIds(document.trees[key] ?? []).some((id) => articleTitles.has(id))
+  const active = chosen && groups.some((group) => group.moduleId === chosen) ? chosen : groups[0]?.moduleId ?? null
+  const activeGroup = groups.find((group) => group.moduleId === active) ?? null
 
-  /**
-   * The university/year this student is registered in, resolved once so the
-   * two failure modes below — "we don't know your cohort" and "your cohort
-   * has nothing published yet" — can be told apart and worded differently.
-   */
-  const scope = useMemo(() => {
-    const university = catalogue.find((item) => item.id === identity.audience.universityId)
-    const year = university?.years.find((item) => item.year === identity.audience.year || item.id === identity.audience.yearId)
-    return { university, year }
-  }, [catalogue, identity.audience])
-
-  /**
-   * What this student can open.
-   *
-   * Module and year trees are scoped to the university/year on the account.
-   * If that scope is missing, this view says so instead of showing another
-   * cohort's material.
-   */
-  const choices = useMemo<Choice[]>(() => {
-    const { university, year } = scope
-    if (!university || !year) return []
-    if (kind === 'year') {
-      const key = treeScope('year', year.id)
-      return hasReadableContent(key) ? [{ key, label: `${university.short} · ${year.year}` }] : []
-    }
-    const out: Choice[] = []
-    year.courses.forEach((course, index) => {
-      const moduleId = course.moduleId ?? defaultModuleId(course.name, index + 1)
-      const key = treeScope('module', moduleId)
-      if (hasReadableContent(key)) out.push({ key, label: course.name })
-    })
-    return out.sort((a, b) => a.label.localeCompare(b.label))
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [scope, kind, document, articleTitles])
-
-  const active = chosen && choices.some((choice) => choice.key === chosen) ? chosen : choices[0]?.key ?? null
-  const nodes = active ? document.trees[active] ?? null : null
-
-  if (!scope.university || !scope.year) {
-    return <p className="px-2 py-6 text-center text-[12px] leading-relaxed text-ink-3">{t('Choose your university and year in Account to see module and year library trees.')}</p>
+  // Not yet known which university/year to read — never someone else's cohort.
+  if (!identity.audienceSettled) return <ModuleListSkeleton />
+  if (identity.audienceUnknown) {
+    return <p className="px-2 py-6 text-center text-[12px] leading-relaxed text-ink-3">{t('Choose your university and year in Account to see your modules.')}</p>
   }
-  if (choices.length === 0) {
-    return <p className="px-2 py-6 text-center text-[12px] leading-relaxed text-ink-3">{t('Nothing has been published for your modules yet. Check back soon.')}</p>
+
+  if (availability.kind === 'loading') return <ModuleListSkeleton />
+  if (availability.kind === 'error') {
+    return (
+      <CatalogueUnavailable
+        availability={availability}
+        empty={{
+          title: t('No articles have been published yet'),
+          description: t('Your library is being written. Reviewed articles will appear here as they are published.'),
+        }}
+      />
+    )
+  }
+
+  // Empty coverage is a valid, ordinary state — not an error — whether the
+  // whole library has nothing published yet (`availability.kind === 'empty'`)
+  // or this cohort simply has no modules on file. Either way the per-module
+  // list below already says so, module by module, without treating it as a
+  // fault.
+  if (groups.length === 0) {
+    return <p className="px-2 py-6 text-center text-[12px] leading-relaxed text-ink-3">{t('No modules are set up for your year yet.')}</p>
   }
 
   return (
     <div className="space-y-3">
-      <div className="space-y-1">
-        {choices.map((choice) => (
+      <div className="space-y-1" role="tablist" aria-label={t('Your modules')}>
+        {groups.map((group) => (
           <button
-            key={choice.key}
+            key={group.moduleId}
             type="button"
-            onClick={() => setChosen(choice.key)}
+            role="tab"
+            aria-selected={group.moduleId === active}
+            onClick={() => setChosen(group.moduleId)}
             className={cn(
-              'block w-full truncate rounded-md px-2 py-1.5 text-start text-[12px]',
-              choice.key === active ? 'bg-primary-tint font-semibold text-primary-strong' : 'text-ink-2 hover:bg-inset',
+              'flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-start text-[12px]',
+              group.moduleId === active ? 'bg-primary-tint font-semibold text-primary-strong' : 'text-ink-2 hover:bg-inset',
             )}
           >
-            {choice.label}
+            <span className="truncate">{group.moduleName}</span>
+            <span className="tnum shrink-0 font-mono text-[10.5px] text-ink-3">{group.articles.length}</span>
           </button>
         ))}
       </div>
 
       <div className="border-t border-line pt-3">
-        {!nodes || nodes.length === 0 ? (
+        {!activeGroup || activeGroup.articles.length === 0 ? (
           // Said plainly, because an empty list reads as broken and this is not.
           <p className="flex items-start gap-2 px-2 py-4 text-[12px] leading-relaxed text-ink-3">
             <Icon icon={FolderTree} size={14} className="mt-0.5 shrink-0" />
-            {t('No structure has been built for this yet. Everything published is still in Systems & General.')}
+            {t('Nothing has been published for this module yet. Check back soon.')}
           </p>
         ) : (
-          <TreeBranch nodes={nodes} depth={0} selectedArticleId={selectedArticleId} onArticleSelect={onArticleSelect} articleTitles={articleTitles} />
+          <ul>
+            {activeGroup.articles.map((article) => (
+              <li key={article.id} className="mt-1 first:mt-0">
+                <button
+                  type="button"
+                  onClick={() => onArticleSelect(article.id)}
+                  className={cn(
+                    'block w-full truncate rounded-md px-2 py-1.5 text-start text-[12px]',
+                    selectedArticleId === article.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset',
+                  )}
+                >
+                  {article.title}
+                </button>
+              </li>
+            ))}
+          </ul>
         )}
       </div>
     </div>
   )
 }
 
-function TreeBranch({ nodes, depth, selectedArticleId, onArticleSelect, articleTitles }: {
-  nodes: LibraryTreeNode[]
-  depth: number
-  selectedArticleId?: string
-  onArticleSelect: (articleId: string) => void
-  articleTitles: Map<string, string>
-}) {
+/** Placeholder rows shown while the viewer's audience or their coverage is still resolving. */
+function ModuleListSkeleton() {
   return (
-    <ul className={depth > 0 ? 'ms-2 border-s border-line ps-2' : ''}>
-      {nodes.map((node) => (
-        <li key={node.id} className="mt-1.5">
-          <p className={cn('px-2 py-1 text-ink', depth === 0 ? 'text-[12.5px] font-semibold' : 'text-[12px] font-medium')}>
-            {node.title}
-          </p>
-          {(node.articleIds ?? []).map((articleId) => {
-            const title = articleTitles.get(articleId)
-            // A filed article that no longer resolves is not published; saying
-            // nothing is right for a student, who cannot act on it either way.
-            if (!title) return null
-            return (
-              <button
-                key={articleId}
-                type="button"
-                onClick={() => onArticleSelect(articleId)}
-                className={cn(
-                  'block w-full truncate rounded-md px-2 py-1.5 text-start text-[12px]',
-                  selectedArticleId === articleId ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset',
-                )}
-              >
-                {title}
-              </button>
-            )
-          })}
-          {node.children && node.children.length > 0 && (
-            <TreeBranch nodes={node.children} depth={depth + 1} selectedArticleId={selectedArticleId} onArticleSelect={onArticleSelect} articleTitles={articleTitles} />
-          )}
-        </li>
+    <div className="space-y-1.5" aria-hidden="true">
+      {[0, 1, 2, 3].map((row) => (
+        <div key={row} className="h-8 animate-pulse rounded-md bg-inset motion-reduce:animate-none" />
       ))}
-    </ul>
+    </div>
   )
 }

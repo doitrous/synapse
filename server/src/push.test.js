@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import crypto from 'node:crypto'
 import {
   readConfig, isConfigured, buildProviderToken, buildPayload, isTokenDead, resetNudgeWindow,
+  buildAlertPayload, sendApnsAlert,
 } from './push.js'
 
 /** A throwaway P-256 key, so the signing path is exercised for real. */
@@ -131,4 +132,29 @@ test('the first nudge of a process is never swallowed', async () => {
   const { claimNudgeSlot } = await import('./push.js')
   resetNudgeWindow()
   assert.equal(claimNudgeSlot('user-fresh', 0), true)
+})
+
+/* ── Visible reminders ───────────────────────────────────────────────────── */
+
+test('the alert payload carries what a student is meant to see, and where the tap should go', () => {
+  const payload = JSON.parse(buildAlertPayload({
+    title: 'Question of the Day', body: 'Yours is waiting.', path: '/app/qotd',
+  }))
+  assert.deepEqual(payload.aps.alert, { title: 'Question of the Day', body: 'Yours is waiting.' })
+  // Unlike the silent nudge, this one is meant to be heard.
+  assert.equal(payload.aps.sound, 'default')
+  assert.equal(payload.path, '/app/qotd')
+})
+
+test('a visible reminder does not pretend to send from an unconfigured server either', async () => {
+  const result = await sendApnsAlert(
+    { token: 'abc', environment: 'sandbox' },
+    { title: 'Question of the Day', body: 'Yours is waiting.', path: '/app/qotd' },
+  )
+  assert.equal(result, false)
+})
+
+test('a visible reminder with no device to reach is not an error', async () => {
+  assert.equal(await sendApnsAlert({}, { title: 'x', body: 'y', path: '/app/qotd' }), false)
+  assert.equal(await sendApnsAlert(null, { title: 'x', body: 'y', path: '/app/qotd' }), false)
 })

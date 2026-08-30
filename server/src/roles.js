@@ -26,6 +26,22 @@ export const STORED_ROLES = ['student', 'reviewer', 'admin', 'editor']
 export const CONSOLE_ROLES = ['reviewer', 'admin', 'editor', 'super_admin']
 
 /**
+ * The console roles a second factor is forced on, as a consequence of rank.
+ *
+ * `reviewer` opens the console but is deliberately absent: a reviewer's whole
+ * console is Media Requests and Content Reports and it holds no role-management
+ * power, so it is no longer required to enrol a second factor. Everyone able to
+ * hand out console access — admin and above — still must. `mfaSatisfied` in
+ * `auth.js` is the one place this list decides anything.
+ */
+export const MFA_ENFORCED_ROLES = ['admin', 'editor', 'super_admin']
+
+/** Whether a second factor is mandatory for this role, regardless of opt-in. */
+export function mfaEnforced(role) {
+  return MFA_ENFORCED_ROLES.includes(role)
+}
+
+/**
  * The rank at which somebody may change another account's role.
  *
  * Editor and above. Reviewer and Admin are given no role-management power, so
