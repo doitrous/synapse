@@ -11742,3 +11742,82 @@ The exact next tier-3 manifest-order debt is `src_cf37932d10b47ec0a26f`,
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 130 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 101 — Tier-3 direct LCS Pathology osteomyelitis keyed MCQ deck
+
+### Exact identity, provenance and complete assessment boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_cf37932d10b47ec0a26f` / `cf37932d10b47ec0a26f3c66652f587b3eb2be135933b9a008c53e4e37b11a88` |
+| File / boundary | `MCQs - mcq 2 mss.pdf` · 502,547 bytes · unencrypted tagged PDF · 5 physical OCR-needed A4 pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - mcq 2 mss.pdf` |
+| Visible / metadata provenance | Cover prints `PATHOLOGY`, `MCQ LECTURE 2 MSS`, `OSTEOMYELITIS`, `DR AHMED HASSAN`, and `LEVEL 1 - SEMESTER 2`; pp. 2–5 repeat `LECTURE 2`, `MSS` and `DR. AHMED HASSAN`. Metadata author is `Salah El-Din`; creator/producer is Microsoft Word for Microsoft 365; created and modified 11 April 2025. |
+| Authority finding | Direct named-course LCS Pathology question-deck evidence, matching the Ahmed-Hassan MSS sequence already accepted in Family 96. It is eligible at question-bank authority, but is not labelled as a formal sitting paper, response form or separately issued official key. |
+
+The assigned hash, byte size and five-page boundary were recomputed and match. All five pages
+were rendered at 240 dpi, OCRed, checked against the native text layer and read visually. P. 1
+is the provenance cover. Physical pp. 2–5 contain consecutive MCQs Q1–Q21, each with one
+printed answer letter in the right-hand key column: **21 prompt occurrences / 21 printed
+keys**. The letters are retained exactly as printed without medical correction.
+
+Four later items repeat earlier prompt forms: `Q13≈Q9` (sequestrum definition), `Q18=Q11`
+(sequestrum composition), `Q20≈Q12` (chronic inflammatory cell) and `Q21=Q7` (acute-
+osteomyelitis exception). Q12 prints key `B` while its near-verbatim Q20 prints `C`; that
+source conflict is preserved explicitly rather than silently reconciled. Thus 21 occurrences
+collapse to **17 source-distinct prompt forms** while every occurrence and printed key remains
+counted.
+
+There is no declarative teaching section, specimen, radiograph, micrograph, practical station,
+teaching plate, masked label, response blank or image-identification task. The cover microscope
+is decorative provenance art, not a teaching plate. Practical delta is exactly **0 prompts /
+0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Handle collapse, exact searches and prior reconciliation
+
+The 17 distinct forms consolidate to **8 tested handles**: acute pyogenic-osteomyelitis
+organisms/etiology; hematogenous distribution, site and demographic pattern; acute
+inflammatory-cell and ischemic-necrosis mechanisms; sequestrum/involucrum chronic morphology;
+chronic inflammatory-cell pattern; tuberculous osteomyelitis/Pott disease; chronic sinus-tract
+squamous carcinoma; and acute systemic/local complications.
+
+Each handle received exactly one search in the live, pending/import-ready, prior source-import
+and accepted-LCS surfaces: **8 × 4 = 32 required search invocations**. Accepted Families 9,
+20, 64 and 79 already own four tested scopes: pyogenic organism/etiology, hematogenous route
+and distribution, sequestrum/involucrum terminology, and Pott/tuberculous osteomyelitis. No
+prior eligible tested handle or substantive live/pending record owns the four complete
+objectives for acute inflammatory necrosis, chronic inflammatory-cell identity, sinus-tract
+squamous transformation, or the enumerated acute complication set. Reconciliation is
+therefore **4 prior eligible reuses + 4 additions = 8**, with eligible concept delta
+**0 live / 0 pending / 4 new**. The direct source does not change the separately tracked
+external bank. The exact 32-query ledger is preserved at
+`tmp/pdfs/lcs103-family101/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **792 / 502 / 322 = 12 / 108 / 202** to **813 observed
+questions / 523 printed keys-or-answers / 326 distinct tested concepts = 12 live / 108
+pending / 206 new**. Arithmetic is `792 + 21 = 813`, `502 + 21 = 523`, `322 + 4 = 326`,
+`202 + 4 = 206`, and `12 + 108 + 206 = 326`. External assessment remains **2,246 prompts /
+2,187 printed keys-or-answers / 221 concepts = 12 live / 135 pending / 74 new**. Practical
+totals remain **7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with
+scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-100 remainder. Removing its sole path leaves **129
+all-rank path instances / 121 unique hashes**: tier 3 **47 paths / 44 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 100's prior checksums are
+`d4f02d80bcc35933ad0de0c5a4a0e212c5c2f29628149f84a1662c9c8e518d2a` (paths) and
+`82338bdcc70a3c35d29bec0643e2e265e0d0ed078ac79fecb46cf2b2f8dca8c6` (unique hashes).
+For the exact post-Family-101 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`2273441c9605bddde30dc8485af6071ff62020eb4a4ec5d25e06a527e8a19edc`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`ab47c284e49c18261661500731e81196b3de80e173de71e43687a5ad042b58ef`.
+
+The exact next tier-3 manifest-order debt is `src_ea4daee0a71cf5f3171e`,
+`MCQs - mcq 5 mss.pdf` (560,051 bytes; 8 OCR-needed pages; SHA-256
+`ea4daee0a71cf5f3171e609de4aa14e28438895e4f6c8559223b248a92b02ade`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 129 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
