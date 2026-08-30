@@ -5661,3 +5661,57 @@ Removing this one substantive-text path and unique hash leaves **31 selected inv
 The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/FHB Histo MCQs Ziad Ashraf.pdf`, SHA-256 `b39cd6a2feeba48546e1cf82b7d0b03b5a54d0cde43cbb719c343f081c889cad`, 14 pages.
 
 **BLOCKED — S1 cannot be approved:** 31 selected source paths remain untriaged.
+
+## Completed source — FHB Histo MCQs Ziad Ashraf
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/FHB Histo MCQs Ziad Ashraf.pdf` | `b39cd6a2feeba48546e1cf82b7d0b03b5a54d0cde43cbb719c343f081c889cad` | 14 | substantive-text | pages 1–14 rendered and read | WPS Writer PDF authored in metadata as `PC`, created and modified 12 November 2024. The cover reads `FHB Histology MCQs + Answer Key - Explanation`, credits `Ziad Ashraf`, and says `For 101 Midterm Exam 2024/2025`. It prints no institution, department, official-paper claim, sitting controls or marks. It is a named student/peer-authored revision bank for the midterm scope, not an official MUST examination or official key. |
+
+### Exact prompt, key and explanation boundary
+
+Page 1 is the cover. Pages 2–6 print 24 four-option MCQs numbered Q1–Q24 followed by a seven-item one-to-one matching block numbered Q25–Q31 with options A–G. Pages 7–13 print the selected letter and explanatory commentary for Q1–Q24; pages 13–14 print the selected letters for Q25–Q31. The ordered source key is `1 C, 2 D, 3 B, 4 C, 5 C, 6 B, 7 C, 8 D, 9 B, 10 D, 11 B, 12 B, 13 B, 14 A, 15 B, 16 D, 17 C, 18 D, 19 C, 20 C, 21 C, 22 D, 23 C, 24 C, 25 F, 26 D, 27 B, 28 G, 29 A, 30 E, 31 C`.
+
+The exact assessment boundary is **31 prompt occurrences / 31 printed key entries / 31 prompt-matched recovered answers**. The explanations are answer exposition, not additional prompts or tested-concept occurrences. There is no practical-image identification, written/essay prompt, missing key or orphan answer. The source's printed wording, answers and explanations are recorded without correcting or upgrading their authority.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 31 prompts were assigned once to the 15 handles below. Each handle received the four recorded searches, for **15 × 4 = 60 searches**.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1,Q7,Q28,Q29 | Cell-membrane trilaminar structure, phospholipid orientation and selective permeability (`cell membrane trilaminar phospholipid`; `phospholipid hydrophilic head hydrophobic tail`; `plasma membrane water impermeable`; `membrane fat soluble permeability`) | new externally; exact prior-FHB membrane reuse. |
+| Q2 | Growth-hormone receptor deficiency and delayed growth (`growth hormone receptor delayed growth`; `cell receptor dwarfism`; `defective membrane receptor hypercholesterolemia`; `receptor resistance normal hormone`) | new externally; exact prior-FHB receptor-resistance reuse. |
+| Q3,Q19 | Haemoglobin, myoglobin, lipofuscin and bilirubin pigments with carbohydrate/lipid stains (`lipofuscin nerve cells pigment`; `hemoglobin myoglobin bilirubin pigment`; `Best carmine carbohydrate stain`; `Sudan III lipid stain`) | new externally; exact prior-FHB inclusion/pigment/histochemistry reuse. |
+| Q4,Q22,Q30,Q31 | Golgi cis/trans polarity, transfer/secretory vesicles and lysosomal-membrane production (`Golgi cis trans face vesicles`; `Golgi receives transfer vesicles`; `Golgi secretory vesicles trans face`; `Golgi lysosome membrane formation`) | new externally; exact prior-FHB Golgi reuse. |
+| Q5,Q13 | Peroxisomal fatty-acid handling and abundance in liver/kidney cells (`peroxisome liver kidney cells`; `peroxisome fatty acid oxidation`; `peroxisome alcohol metabolism`; `peroxisomal beta oxidation`) | new externally; exact prior-FHB peroxisome reuse. |
+| Q6 | Free/bound ribosome protein synthesis and rough-ER attachment (`ribosome large subunit rough ER`; `free bound ribosome protein`; `ribosome mRNA groove`; `ribophorin ribosome attachment`) | pending-hit; exact prior-FHB ribosome/rER reuse. |
+| Q8 | Centriole structure and iron-haematoxylin staining (`centriole iron hematoxylin`; `centriole staining`; `centriole nine triplets`; `centriole light microscopy stain`) | new externally; exact prior-FHB centriole/histochemistry reuse. |
+| Q9,Q10 | Golgi silver staining and negative Golgi image in plasma cells (`Golgi silver stain`; `negative Golgi image plasma cell`; `Golgi PAS silver`; `Golgi staining methods`) | new externally; exact prior-FHB Golgi/histochemistry reuse. |
+| Q11 | Cytoskeletal filament dimensions, stability and contractility (`cytoskeleton microtubule microfilament intermediate`; `intermediate filament larger microfilament`; `cytoskeletal filament diameter`; `microfilament contractile dynamic`) | pending-hit; exact prior-FHB cytoskeleton reuse. |
+| Q12 | Smooth-ER glycogenolysis and lipid-synthesis functions (`smooth ER glycogenolysis`; `smooth ER glycogen metabolism`; `smooth ER lipid synthesis`; `organelle function glycogenolysis`) | new externally; exact prior-FHB smooth-ER reuse. |
+| Q20,Q23 | Double-membrane organelles and mitochondrial abundance in active muscle (`nucleus mitochondria double membrane`; `muscle cells abundant mitochondria`; `mitochondria ATP active cells`; `RBC no mitochondria`) | new externally; exact prior-FHB mitochondrial reuse. |
+| Q14,Q18,Q21 | Cilium/basal-body architecture, dynein-dependent flagellar motility and light-microscope visibility (`cilia basal body nine triplets`; `flagella sperm dynein`; `cilia visible light microscopy`; `immotile flagella hypercholesterolemia`) | new externally; exact prior-FHB cilia/flagella reuse. |
+| Q15,Q16,Q24 | Nucleolar rRNA regions and euchromatin/heterochromatin appearance (`nucleolus pars fibrosa rRNA`; `euchromatin mild electron density`; `nucleolus rRNA synthesis`; `chromatin electron microscopy`) | new externally; exact prior-FHB nucleolus/chromatin reuse. |
+| Q17 | Proteasomal dysfunction and Parkinson-type movement/memory presentation (`proteasome Parkinson disease`; `proteasome neurodegeneration`; `protein quality control memory`; `deficient proteasome movement memory`) | new externally; exact prior-FHB proteasome/neurodegeneration reuse. |
+| Q25–Q27 | Primary-lysosome fusion products: heterolysosome, autolysosome and multivesicular body (`primary lysosome phagosome heterolysosome`; `primary lysosome autophagosome autolysosome`; `pinocytic vesicle multivesicular body`; `lysosome fusion types`) | pending-hit; exact prior-FHB lysosomal-form reuse. |
+
+The source-level search split is **0 live / 3 pending / 12 new = 15 handles**. Every handle reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+31 questions / +31 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 6523 | 6159 | 485 | 66 | 90 | 329 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 329 = 485`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **30 selected inventory paths / 30 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `b731aa087c0a234d3c17c817aeaa34c9e0126a587035f5c74ee58a9fbfcfc697`. Pinned triage debt becomes **four substantive-text / five sparse-text / 21 empty-text** rows, and unique-hash accounting is **`76 + 30 = 106`**.
+
+The next evidence-ranked assessment-rich source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology FHB101 Training Questions.pdf`, SHA-256 `1f436a96117e21759285f2f2c549f37ad95d9939ed7068a5cff760baa43d562e`, 26 pages.
+
+**BLOCKED — S1 cannot be approved:** 30 selected source paths remain untriaged.
