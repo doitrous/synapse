@@ -10658,3 +10658,106 @@ flashcard fronts/backs beginning with chronic-smoker squamous metaplasia, cardia
 hypertrophy, carcinoma in situ, frozen section, and immunofluorescence. Its exact CSV row/field
 boundary, prompt/answer pairing, quoting/line-break integrity, prior-BMS dedupe, and search ledger
 are the exact next-source blockers.
+
+## Family 98 — Introduction to Pathology CSV flashcards
+
+### Source identity, exact CSV boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_6be08732a444d8438eed` · `Flashcards_Introduction_to_Pathology.csv` |
+| SHA-256 / size | `6be08732a444d8438eed64b9da2bf574039618d1389054851f032df45b511770` · 809 bytes |
+| Placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6 · CSV |
+| Exact physical boundary | The byte stream contains nine LF separators and no CR bytes or terminal newline, producing **ten physical text records**; the prior debt's “nine physical CSV lines” counted newline delimiters rather than records and is corrected here. |
+| Logical schema / complete read | Strict CSV parsing returns **10 logical rows**, each with exactly two non-empty fields; there is no header, quoted multiline field, escaped delimiter, partial row, extra column, or malformed record. All 809 bytes and all 20 fields were inspected. |
+| Visible provenance | The filename identifies `Introduction_to_Pathology`; the CSV itself contains no university, module code, author, lecturer, department, academic year, date, sitting, marks, student response, or official-key statement. Manifest placement supports BMS-102 routing but cannot supply those absent embedded fields. |
+| Authority | Tier-6 pathology study flashcards. The stable two-field convention is front followed by printed back; it is not an exam, recoverable sitting, departmental bank, or official answer key. |
+
+### Complete row-first prompt, printed-answer, and handle inventory
+
+| Ref | Source-first flashcard front | Printed back | Source-distinct tested handle |
+|---|---|---|---|
+| F98-Q01 | Classic respiratory adaptation in chronic smokers | Squamous metaplasia | `chronic-smoker-respiratory-squamous-metaplasia` |
+| F98-Q02 | Tissue type limited strictly to hypertrophy due to lack of cell division | Cardiac muscle | `cardiac-muscle-hypertrophy-nondividing-tissue` |
+| F98-Q03 | Term for full-thickness dysplasia without basement membrane invasion | Carcinoma in-situ | `carcinoma-in-situ-full-thickness-no-invasion` |
+| F98-Q04 | Technique used for rapid intraoperative pathological diagnosis | Frozen section | `frozen-section-rapid-intraoperative-diagnosis` |
+| F98-Q05 | Advanced microscopy used to detect 'glowing' renal immune deposits | Immunofluorescence | `renal-immune-deposit-immunofluorescence` |
+| F98-Q06 | Reversibility status of connective tissue metaplasia | Strictly irreversible | `connective-tissue-metaplasia-source-reversibility` |
+| F98-Q07 | Dual adaptations occurring in the uterus during pregnancy | Hypertrophy and hyperplasia | `pregnant-uterus-hypertrophy-hyperplasia` |
+| F98-Q08 | Hallmark of cellular dysplasia involving variation in size and shape | Pleomorphism | `dysplasia-size-shape-variation-pleomorphism` |
+| F98-Q09 | Fundamental difference in control between hyperplasia and neoplasia | Hyperplasia is controlled | `hyperplasia-versus-neoplasia-growth-control` |
+| F98-Q10 | Standard percentage of formalin used for tissue fixation | `$10\%$` | `tissue-fixation-formalin-ten-percent` |
+
+All ten first-column entries are complete identification or recall clues and every row supplies a
+paired second-column back, so the source contributes **10 raw prompt occurrences / 10 printed
+study-flashcard answer occurrences / 0 unkeyed prompts / 0 prompt-like residues / 10 retained
+records / 10 source-distinct tested handles**. There are no within-source copies or semantic
+collapses. The literal source spelling `Carcinoma in-situ` and TeX-like `$10\%$` are preserved.
+Q06's categorical `Strictly irreversible` is retained as a source-printed study answer without
+fact repair or promotion to official-key authority.
+
+### Source-first four-search ledger and prior-BMS adjudication
+
+Each retained handle received exactly four fresh searches across live state, every pending import
+root, and prior BMS-102 Families 1–97: **40 required searches**. All 40 literal external runs
+returned no same-scope match, giving **0 live / 0 pending / 10 no same-scope**. Earlier completed
+teaching tables remain provenance context, not tested-handle duplicates.
+
+| Handle · ref | Exactly four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `chronic-smoker-respiratory-squamous-metaplasia` · Q01 | `chronic smokers squamous metaplasia`; `squamous metaplasia respiratory epithelium`; `smoking induces squamous metaplasia`; `respiratory adaptation chronic smoking` | no same-scope | Family 86 teaches adaptation mappings but has no matching tested handle; delta |
+| `cardiac-muscle-hypertrophy-nondividing-tissue` · Q02 | `cardiac muscle hypertrophy no cell division`; `cardiac muscle limited to hypertrophy`; `permanent cells undergo hypertrophy`; `cardiomyocyte hypertrophy cannot divide` | no same-scope | prior decks teach hypertrophy generally, not this tissue-identification relation; delta |
+| `carcinoma-in-situ-full-thickness-no-invasion` · Q03 | `full-thickness dysplasia without basement membrane invasion`; `carcinoma in situ intact basement membrane`; `full thickness atypia no invasion`; `preinvasive epithelial malignancy` | no same-scope | exact Family 5 C10 `carcinoma-in-situ-confined-epithelium` reuse; Family 5 A18 supplies the adjacent non-invasion boundary |
+| `frozen-section-rapid-intraoperative-diagnosis` · Q04 | `rapid intraoperative pathological diagnosis frozen section`; `frozen section intraoperative diagnosis`; `cryostat rapid diagnosis`; `frozen section rapid pathology` | no same-scope | Family 86 pages 4–5 teach the procedure but contribute no prompt; delta |
+| `renal-immune-deposit-immunofluorescence` · Q05 | `glowing renal immune deposits immunofluorescence`; `renal immune deposits immunofluorescence`; `immunofluorescence kidney deposits`; `fluorescent antibody renal biopsy` | no same-scope | Family 86 pages 6–7 teach the technique/finding mapping but contribute no prompt; delta |
+| `connective-tissue-metaplasia-source-reversibility` · Q06 | `connective tissue metaplasia strictly irreversible`; `connective tissue metaplasia irreversible`; `mesenchymal metaplasia reversibility`; `osseous metaplasia irreversible` | no same-scope | no prior tested handle carries this categorical source assertion; delta |
+| `pregnant-uterus-hypertrophy-hyperplasia` · Q07 | `uterus pregnancy hypertrophy and hyperplasia`; `pregnant uterus hypertrophy hyperplasia`; `uterine smooth muscle pregnancy adaptation`; `dual adaptations uterus pregnancy` | no same-scope | prior adaptation teaching does not test the combined pregnancy mapping; delta |
+| `dysplasia-size-shape-variation-pleomorphism` · Q08 | `dysplasia variation in size and shape pleomorphism`; `cellular dysplasia pleomorphism`; `pleomorphism variation size shape`; `dysplasia cellular pleomorphism` | no same-scope | Family 5 A02 uses pleomorphism inside a tumour-identification case and A18 tests invasion exclusion; neither asks this definition; delta |
+| `hyperplasia-versus-neoplasia-growth-control` · Q09 | `hyperplasia controlled neoplasia uncontrolled`; `hyperplasia versus neoplasia control`; `hyperplasia remains controlled`; `neoplasia autonomous growth` | no same-scope | Family 86 has a completed comparison table but no tested handle; delta |
+| `tissue-fixation-formalin-ten-percent` · Q10 | `10% formalin tissue fixation`; `standard percentage formalin fixation`; `ten percent neutral buffered formalin`; `tissue fixed in 10 percent formalin` | no same-scope | prior fixation teaching and formalin-toxoid prompts test different relations; delta |
+
+External arithmetic is `0 + 0 + 10 = 10`. One exact prior-BMS reuse leaves `10 - 1 = 9`
+concept additions.
+
+### Family-98 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 98 | Auxiliary cumulative (Families 12–98) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 10 | 864 | 765 | 1,629 |
+| Printed study-flashcard answer occurrences | 10 | 482 | 405 | 887 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 10 | 805 | 552 | 1,357 |
+| Source-distinct tested handles / required searches | 10 / 40 | 729 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 10 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 1 | — | — | Q03 |
+| Cross-family concept delta | +9 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+9** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: `10 answered flashcards + 0 unkeyed = 10` raw prompts; `10 - 0 copies =
+10` retained records and handles; searches are `10 × 4 = 40`; external disposition is `0 + 0 +
+10 = 10`; and concept arithmetic is `10 - 1 prior exact reuse = 9`. Auxiliary cumulative
+arithmetic is `854 + 10 = 864` prompts, `472 + 10 = 482` answers, `795 + 10 = 805` retained
+records, `719 + 10 = 729` handles, and `490 + 9 = 499` concept additions. All eligible
+arithmetic is `765 + 864 = 1,629`, `405 + 482 = 887`, `552 + 805 = 1,357`, and `372 + 499 =
+871`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**864 / 482 / 805 / 729 / +499**; and all eligible evidence is
+**1,629 / 887 / 1,357 / 871**. Family 98 contributes tier-6 study-flashcard evidence only. It
+cannot establish an exam sitting, recurrence, mark weight, official-key status, student response,
+readiness, or claims status.
+
+### Exact next debt after Family 98
+
+`src_6be08732a444d8438eed` is exhausted across all 809 bytes and ten logical/physical records:
+every field, row, prompt, printed back, source handle, required search, external disposition,
+prior-BMS comparison, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-98 blocker. The exact next manifest record is tier-6 `src_aa988f58bda294baa828` · manifest
+`Infection Lecture.pdf.pdf`, SHA-256
+`aa988f58bda294baa8281998dafba0c7cde5466e2edda93dda7e9ba608704f5e`, 48 native-text
+landscape pages under `Pathology / Notes and Summaries`. The manifest absolute path is absent;
+the SHA-matching local file is the normalized `Pathology / Theoretical / Infection Lecture.pdf`
+(5,800,694 bytes, 791×593.25 points). Its visible Helwan/Dr Enas Megahed Elhosary provenance,
+placement mismatch, complete teaching-versus-prompt/key boundary, and any dedupe/search ledger are
+the exact next-source blockers.
