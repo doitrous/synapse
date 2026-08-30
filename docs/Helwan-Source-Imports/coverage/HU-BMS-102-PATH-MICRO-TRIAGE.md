@@ -4855,3 +4855,122 @@ Primary remains **765 / 405 / 552 / 372**; auxiliary remains
 `src_3a7e4b5193cfba3bc75a` · `Virology & Mycology.pdf`, SHA-256
 `3a7e4b5193cfba3bc75ad66f0241124510fe6f531ab27378e8c4f4e12bd70a74`, four pages; apply a
 fresh source and authority gate before any count is admitted.
+
+## Family 46 — tier-6 Virology & Mycology MCQ study bank
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_3a7e4b5193cfba3bc75a` · `Virology & Mycology.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/Virology & Mycology.pdf` |
+| SHA-256 / size | `3a7e4b5193cfba3bc75ad66f0241124510fe6f531ab27378e8c4f4e12bd70a74` · 197,994 bytes |
+| Format / authority | Four native-text pages; locally compiled MCQ study bank, with no university, faculty, department, examiner, sitting, marks, or official-key provenance |
+| Read boundary | All four physical pages rendered at 180 dpi and visually read; pp. 1–3 contain Q1–Q19 and the red `Key Answers` register, while p. 4 is blank |
+
+The prompt-start checksum is `8 + 8 + 3 + 0 = 19` across physical pp. 1–4. Q8 continues from
+p. 1 to p. 2 and Q16 continues from p. 2 to p. 3, but both stems and all options are complete.
+The red register on p. 3 supplies exactly one directly aligned study-bank letter for each
+Q1–Q19. It is counted as 19 printed answer occurrences, not as an official answer key or as
+independent verification of correctness. Q7's source typography runs its `c` and `d` options
+together; the visible wording and red Q7=`D` alignment are preserved without repairing the
+source's layout.
+
+### Prompt, printed-key, and source-first semantic ledger
+
+| Ref | Source-tested scope | Printed key | Source-first / prior-BMS decision |
+|---|---|---|---|
+| F46-Q01 | Virus-versus-bacterium exception: a virus has one nucleic-acid type, not two | B | `virus-single-nucleic-acid-type-versus-bacteria` · new to prior BMS |
+| F46-Q02 | Virus-versus-bacterium exception: viruses do not divide by binary fission | C | `virus-not-binary-fission-versus-bacteria` · new |
+| F46-Q03 | Virus-versus-bacterium exception: viruses cannot grow on artificial media | D | `virus-not-grown-artificial-media` · new |
+| F46-Q04 | Viral-envelope exception: enveloped-virus entry is by membrane fusion, not endocytosis | C | Exact prior reuse F18-Q11 · `enveloped-virus-membrane-fusion-entry` |
+| F46-Q05 | Viral-envelope exception: the envelope is not totally host-membrane-derived | D | `viral-envelope-partly-host-derived` · new |
+| F46-Q06 | Viral-capsid exception: capsid is not composed of lipopolysaccharide | C | `viral-capsid-not-lipopolysaccharide` · new |
+| F46-Q07 | Viral-capsid exception: capsid is not the infectious part; viral nucleic acid is | D | Exact prior reuse F18-Q04 · `viral-nucleic-acid-infectivity` |
+| F46-Q08 | Replication step directly after penetration is uncoating | C | `viral-penetration-followed-by-uncoating` · new |
+| F46-Q09 | Uncoating means release of nucleic acid from the capsid | A | `viral-uncoating-releases-genome-from-capsid` · new |
+| F46-Q10 | Eclipse interval extends from uncoating to assembly | A | `viral-eclipse-uncoating-to-assembly-interval` · new |
+| F46-Q11 | Viral assembly means enclosing nucleic acid within protein coats | C | `viral-assembly-encloses-genome-in-protein-coat` · new |
+| F46-Q12 | Local viral infection is characterized by short-duration immunity | B | `local-viral-infection-short-immunity` · new |
+| F46-Q13 | Systemic-infection exception: infection site is not close to the portal of entry | D | `systemic-viral-infection-site-distant-from-entry` · new |
+| F46-Q14 | Fungus-versus-bacterium exception keyed to autotrophic/heterotrophic nutrition | C | `fungus-bacterium-nutrition-exception` · new; source wording/key preserved |
+| F46-Q15 | Fungus-versus-bacterium exception keyed to a membrane devoid of sterols | E | `fungal-membrane-sterol-exception` · new; questionable source wording/key preserved |
+| F46-Q16 | Mould morphology is long filaments | B | `mold-filamentous-morphology` · new |
+| F46-Q17 | Dimorphic fungi switch between hyphal and yeast forms | C | `dimorphic-fungus-hyphae-yeast-switch` · new |
+| F46-Q18 | Aflatoxin composite: *A. flavus*, food-borne mycotoxin, chronic liver damage, cancer | E | `aflatoxin-aspergillus-food-liver-cancer-composite` · new |
+| F46-Q19 | Mismatched classification pair: viroids are not prokaryotes | C | `viroid-not-prokaryote-mismatch` · new |
+
+There are **19 complete prompt occurrences / 19 directly printed study-answer occurrences / 19
+retained records / 19 source-distinct tested handles**. There are no literal copies, wording-only
+repeats, or within-source semantic collapses. The narrower individual facts in Q1, Q8–Q9,
+Q11–Q13, Q16–Q17, and Q19 do not collapse into Family 12's broader printed-property,
+replication-cycle, infection-pattern, fungal-classification, or atypical-agent lists. Q10 tests
+the eclipse interval's boundaries, distinct from F18-Q12's no-detectable-infectious-virus
+characteristic. Only Q4 and Q7 exactly reuse earlier BMS scope.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 19 handles received exactly four required searches across live state and all pending
+import roots: **76 required searches**. The exact records named below were re-opened to reject
+partial, umbrella, mechanism-adjacent, and article-only hits. The family disposition is **1 live /
+11 pending / 7 no same-scope**; this is a record-existence result, not biomedical validation.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `virus-single-nucleic-acid-type-versus-bacteria` · Q01 | `virus nucleic acid`; `viral genome DNA RNA`; `viruses either DNA or RNA`; `single nucleic acid type` | live `CON-INF-B042F668BD622F`; exact DNA-or-RNA-never-both fact | none; Family-12 V03 is a broader six-property list, so delta |
+| `virus-not-binary-fission-versus-bacteria` · Q02 | `virus binary fission`; `viral replication`; `viruses do not divide`; `virus bacteria division` | no same-scope; antiviral-replication and cycle-sequence hits do not test binary fission as the contrast | none; delta |
+| `virus-not-grown-artificial-media` · Q03 | `virus artificial media`; `viral cultivation`; `virus culture media`; `obligate intracellular culture` | no same-scope | none; Family-12 V03 is broader, so delta |
+| `enveloped-virus-membrane-fusion-entry` · Q04 | `enveloped virus endocytosis`; `enveloped virus fusion`; `viral entry mechanism`; `fusion versus endocytosis` | pending `CON-INF-F595E6CEC3AFD2`; exact fusion-versus-endocytosis entry scope | exact reuse F18-Q11 |
+| `viral-envelope-partly-host-derived` · Q05 | `viral envelope origin`; `host-derived viral envelope`; `viral envelope budding`; `envelope lipid protein source` | pending `CON-INF-7952070C4BD8AF`; exact host-derived lipid/viral-coded protein boundary | none; delta |
+| `viral-capsid-not-lipopolysaccharide` · Q06 | `viral capsid composition`; `capsid lipopolysaccharide`; `capsid protein coat`; `capsomers viral capsid` | no same-scope; capsomer and universal-capsid records do not test the LPS exception | none; Family-12 V04 is a broader function list, so delta |
+| `viral-nucleic-acid-infectivity` · Q07 | `viral infectious part`; `viral nucleic acid infectivity`; `coreless viral particle`; `capsid genome infectivity` | no same-scope | exact reuse F18-Q04 |
+| `viral-penetration-followed-by-uncoating` · Q08 | `step after viral penetration`; `penetration then uncoating`; `viral replication sequence`; `attachment penetration uncoating` | pending `CON-INF-2C32D6BA60368C`; exact sequence relation | none; Family-12 V06 is the broader whole cycle, so delta |
+| `viral-uncoating-releases-genome-from-capsid` · Q09 | `viral uncoating`; `uncoating definition`; `release genome from capsid`; `viral nucleic acid capsid release` | pending `CON-INF-2C32D6BA60368C`; its definition expressly gives genome release from capsid | none; delta |
+| `viral-eclipse-uncoating-to-assembly-interval` · Q10 | `viral eclipse period`; `eclipse uncoating assembly`; `viral eclipse definition`; `eclipse replication interval` | no same-scope; sequence and no-detectable-virus records do not state both boundaries | none; distinct from F18-Q12, so delta |
+| `viral-assembly-encloses-genome-in-protein-coat` · Q11 | `viral assembly`; `virus assembly definition`; `enclosure nucleic acid protein coat`; `virion assembly capsid genome` | pending `CON-INF-2C32D6BA60368C`; exact assembly step is stated in its definition | none; delta |
+| `local-viral-infection-short-immunity` · Q12 | `local viral infection`; `localized viral infection`; `short immunity viral infection`; `local systemic infection immunity` | pending `CON-INF-46988C6D071F21`; exact localized-versus-systemic immunity distinction | none; Family-12 V08 is a broader pattern list, so delta |
+| `systemic-viral-infection-site-distant-from-entry` · Q13 | `systemic viral infection`; `viral infection portal of entry`; `viremia long immunity`; `systemic localized viral infection` | pending `CON-INF-46988C6D071F21`; exact systemic-versus-localized spread boundary | none; delta |
+| `fungus-bacterium-nutrition-exception` · Q14 | `fungi differ bacteria`; `fungal bacterial differences`; `fungal nutrition heterotrophic`; `fungi anaerobic ergosterol chitin` | no same-scope; individual wall, membrane, and morphology records do not supply this keyed comparison | none; delta |
+| `fungal-membrane-sterol-exception` · Q15 | `fungal membrane sterols`; `fungal ergosterol`; `fungi eukaryotic mitochondria`; `fungi bacteria membrane difference` | pending `CON-INF-15A9CB1D102D73`; its definition directly places ergosterol in the fungal membrane | none; delta |
+| `mold-filamentous-morphology` · Q16 | `mold morphology`; `filamentous fungi`; `moulds long filaments`; `mold versus yeast` | pending `CON-INF-8D2EDDBECE528D`; exact filamentous-mould morphology | none; Family-12 V01 is the broader three-class list, so delta |
+| `dimorphic-fungus-hyphae-yeast-switch` · Q17 | `dimorphic fungi`; `fungal dimorphism`; `mold yeast switch`; `hyphae yeast forms` | pending `CON-INF-44400FF4328CA8`; exact mold/hyphae-to-yeast switch | none; Family-12 V01 is broader, so delta |
+| `aflatoxin-aspergillus-food-liver-cancer-composite` · Q18 | `aflatoxin`; `Aspergillus flavus toxin`; `aflatoxin liver cancer`; `foodborne mycotoxin` | no same-scope; article text on aflatoxin/hepatic cancer is not a scope-complete concept record | none; delta |
+| `viroid-not-prokaryote-mismatch` · Q19 | `viroid definition`; `viroids prokaryotes`; `prions infectious proteins`; `atypical virus-like agents` | pending `CON-INF-6EE705523FD61C`; exact viroid RNA/coat distinction and prion contrast | none; Family-12 V05 is a different three-agent list, so delta |
+
+Thus **19 handles - 2 prior exact reuses = +17 concepts**.
+
+| Measure | Family 46 | Auxiliary cumulative (Families 12–46) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 19 | 254 | 765 | 1,019 |
+| Printed study-answer occurrences | 19 | 188 | 405 | 593 |
+| Retained question records | 19 | 251 | 552 | 803 |
+| Source-distinct tested handles / required searches | 19 / 76 | 248 / — | — | — |
+| External live / pending / no same-scope | 1 / 11 / 7 | — | — | family-local disposition |
+| Cross-family concept delta | +17 | +187 over primary | 372 | `372 + 187 = 559` |
+| **Distinct tested concepts** | **+17** | **187 auxiliary additions** | **372** | **559** |
+
+The checksum closes without remainder: prompt starts are `8 + 8 + 3 + 0 = 19`; key alignment
+is `19 - 19 = 0` unkeyed; retention is `19 - 0 copies = 19`; assignment is `19 - 19 = 0`
+unassigned; searches are `19 × 4 = 76`; external disposition is `1 + 11 + 7 = 19`; and
+concept arithmetic is `19 - 2 = 17`. Auxiliary cumulative arithmetic is `235 + 19 = 254`
+prompts, `169 + 19 = 188` printed answers, `232 + 19 = 251` retained records,
+`229 + 19 = 248` source handles, and `170 + 17 = 187` concept additions over primary.
+All-eligible arithmetic is `765 + 254 = 1,019`, `405 + 188 = 593`, `552 + 251 = 803`, and
+`372 + 187 = 559`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**254 / 188 / 251 / 248 / +187**; and all eligible evidence is
+**1,019 / 593 / 803 / 559**. This tier-6 study bank cannot independently raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status, so no readiness or claims
+file change is warranted.
+
+### Exact next debt after Family 46
+
+`src_3a7e4b5193cfba3bc75a` is exhausted across all four pages: every prompt, key letter, handle,
+search row, external disposition, and prior-BMS decision is assigned once, with **zero source
+remainder** and no Family-46 blocker. The next manifest-ordered local BMS-102 candidate is
+tier-6 `src_54c81ff574ec70dc605a` · `antibiotics resistance.pdf`, SHA-256
+`54c81ff574ec70dc605a53a35f12df89a7e9cb18c76660ee1ef93bb74557ff38`, three OCR-needed pages
+under `Microbiology / Notes and Summaries`. Its OCR-needed status is the next-source processing
+blocker: it requires complete rendering, visual prompt-versus-teaching and answer-convention
+adjudication, source-first dedupe, and a prior-BMS gate before any count is admitted.
