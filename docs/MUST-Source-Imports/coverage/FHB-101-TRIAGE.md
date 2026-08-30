@@ -4724,3 +4724,57 @@ Removing this one empty-text path and unique hash leaves **48 selected inventory
 The next evidence-ranked source family is the paired five-page Anatomy `05 MCQs` question/answer set `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - Important Ques Embryology 2.pdf`, SHA-256 `f968cf5a23f4fb2dca711ffe0abedbe3d94f7289ce3e3dc774d967c3fd5861a7`, and `MCQs - Important Ques Embryology 2 (Answers).pdf`, SHA-256 `c0f79eb94816582bfe81bd9fa724ba8b524a82a99ae6aba6bb3f4bf8a11a45ad`.
 
 **BLOCKED — S1 cannot be approved:** 48 selected source paths remain untriaged.
+
+## Completed source family — Important Ques Embryology 2
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - Important Ques Embryology 2.pdf` | `f968cf5a23f4fb2dca711ffe0abedbe3d94f7289ce3e3dc774d967c3fd5861a7` | 5 | empty-text | pages 1–5 rendered and read | CamScanner question-bank export titled `Important Ques Embryology 2 (1)`. |
+| `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - Important Ques Embryology 2 (Answers).pdf` | `c0f79eb94816582bfe81bd9fa724ba8b524a82a99ae6aba6bb3f4bf8a11a45ad` | 5 | empty-text | pages 1–5 rendered and read | Page-aligned annotated answer copy titled `Answers of Important Ques Embryology 2`. It highlights one selection per prompt and adds several handwritten correction notes. Neither file prints an institution, author, department approval, sitting, marks or official-paper/key authority. |
+
+### Exact pairing, prompt, answer and teaching boundary
+
+The two files carry the same five-page Q1–Q23 sequence in the same page order. Q8 contains two separately optioned subparts—`A. Second week of pregnancy` and `B. Extraembryonic mesoderm`—and the answer copy highlights one answer for each. The exact family inventory is therefore **24 prompt occurrences / 24 highlighted answer occurrences / 24 prompt-matched recovered answers**, not 23.
+
+The answer copy's handwritten notes correct or clarify text beside Q6, Q9, Q12 and Q17. They are answer annotations attached to those prompts, not separate teaching prompts. There are no cover or teaching-only pages. Every highlighted selection is preserved as printed source evidence; no answer was inferred or medically replaced.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 24 prompts are assigned exactly once to 14 source handles. Every handle received the four identifying searches printed below, for **14 × 4 = 56 searches**.
+
+| Printed refs | Source-distinct tested concept (four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| Q1–Q3 | Gonads, gametes, gametogenesis and haploid chromosome number (`primary sex organ gonad gametes`; `gamete 22 autosomes sex chromosome`; `gametogenesis diploid haploid`; `meiotic nondisjunction Down syndrome`) | pending-hit; exact prior-FHB gametogenesis duplicate. |
+| Q4 | Ovarian/menstrual cycles and lactational amenorrhoea (`ovarian cycle lunar month`; `menstrual cycle endometrium`; `lactational amenorrhea`; `female reproductive cycles embryology`) | new externally; exact prior-FHB reproductive-cycle duplicate. |
+| Q5 | Fertilisation definition, site, timing and restoration of diploidy (`fertilization ampulla uterine tube`; `fertilization restores diploid number`; `zygote gamete fusion`; `fertilization timing LNMP`) | pending-hit; exact prior-FHB fertilisation duplicate. |
+| Q6 | Cleavage, morula, blastocyst and embryoblast/trophoblast allocation (`cleavage blastomeres morula`; `morula inner cell mass embryoblast`; `blastocyst formation first week`; `trophoblast outer cells morula`) | new externally; exact prior-FHB first-week duplicate. |
+| Q7 | Implantation site, closing plug and decidual reaction (`implantation upper posterior uterine wall`; `implantation closing plug day 10`; `endometrial epithelium regeneration implantation`; `decidua implantation third week`) | new externally; exact prior-FHB implantation duplicate. |
+| Q8A–Q8B | Bilaminar disc, trophoblast layers, amnion/yolk sac and extraembryonic mesoderm (`second week bilaminar disc`; `cytotrophoblast syncytiotrophoblast`; `amnion hypoblast epiblast`; `extraembryonic mesoderm coelom`) | pending-hit; exact prior-FHB second-week duplicate. |
+| Q9 | Chorionic membrane, villi and connecting stalk (`chorion trophoblast extraembryonic mesoderm`; `primary secondary tertiary chorionic villi`; `connecting stalk amnion yolk sac`; `chorionic membrane second week`) | new externally; exact prior-FHB chorion duplicate. |
+| Q10–Q12 | Gastrulation, primitive streak and notochord formation/remnants (`gastrulation primitive streak third week`; `three germ layers gastrulation`; `notochord primordial axis inducer`; `nucleus pulposus notochord remnant`) | pending-hit; exact prior-FHB gastrulation/notochord duplicate. |
+| Q13–Q14 | End-of-third-week embryonic-disc shape and fourth-week folding (`third week embryonic disc shape`; `embryonic folding fourth week`; `head tail lateral folds`; `umbilical ring folding`) | new externally; exact prior-FHB embryonic-folding duplicate. |
+| Q15–Q17 | Chorionic villi and fetal/maternal placental surfaces (`chorion frondosum fetal placenta`; `placenta decidua basalis`; `placental cotyledons maternal surface`; `chorionic villi fetal blood vessels`) | new externally; exact prior-FHB placenta duplicate. |
+| Q18–Q20 | Umbilical cord, amniotic fluid and umbilical/yolk vesicle (`umbilical cord two arteries one vein`; `Wharton jelly amnion cord`; `hydramnios oligohydramnios volume`; `umbilical vesicle vitelline duct germ cells`) | new externally; exact prior-FHB fetal-membrane duplicate. |
+| Q21 | Dizygotic, monozygotic and conjoined twins (`dizygotic twins two zygotes`; `monozygotic identical twins`; `conjoined twins incomplete division`; `twinning embryology classification`) | new externally; exact prior-FHB twinning duplicate. |
+| Q22 | Stages of parturition (`parturition stages childbirth`; `cervical dilation first stage labor`; `placental expulsion third stage`; `uterine contractions parturition`) | new externally; exact prior-FHB parturition duplicate. |
+| Q23 | Crown–rump length landmarks (`crown rump length vertex buttocks`; `CRL fetal measurement`; `crown heel length versus CRL`; `embryonic age crown rump`) | new externally; exact prior-FHB fetal-measurement duplicate. |
+
+The source-level search result is **0 live / 4 pending / 10 new = 14 handles**. Every handle is exact reuse of already processed FHB embryology scope, so the post-prior-FHB result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+Both paired files are now `sourceProcessed=true`. Their family delta is **+24 questions / +24 prompt-matched recovered answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 4514 | 4233 | 456 | 66 | 84 | 306 | TBD |
+
+The cumulative buckets remain exactly `66 + 84 + 306 = 456`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing these two empty-text paths and two unique hashes leaves **46 selected inventory paths / 46 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `5f8adcb13074607b1179e333093197f2b035c30025e3e66f20d9fed26cf6be20`. Pinned triage debt becomes **nine substantive-text / six sparse-text / 31 empty-text** rows, and unique-hash accounting is **`60 + 46 = 106`**.
+
+The next evidence-ranked source is the single sparse-text 14-page Anatomy `05 MCQs` path `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - FHB 1 MCQ FINAL.pdf`, SHA-256 `7978c265f52aa8190589c47a01ef536ca753583e4699a39d59f3f5267e8566b4`.
+
+**BLOCKED — S1 cannot be approved:** 46 selected source paths remain untriaged.

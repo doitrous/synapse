@@ -83,6 +83,8 @@ const PROCESSED_FAMILY_HASHES = [
   '448345893d693ac8a08fd21a6ca326bc19cd1e4e36a1b26a03fb1d43c3f4b5e1',
   '62143e16ae5d80b75313c51fbf850cbe6fe0223940abc2131ab130cb7cf337c8',
   '6789f9c206abb44eb1cbbac5ffea20c0b0a052732c9569bca7a54ca407840618',
+  'f968cf5a23f4fb2dca711ffe0abedbe3d94f7289ce3e3dc774d967c3fd5861a7',
+  'c0f79eb94816582bfe81bd9fa724ba8b524a82a99ae6aba6bb3f4bf8a11a45ad',
 ]
 
 function argument(name) {
@@ -148,7 +150,7 @@ function expectedTriageState(readiness, triage) {
   for (const hash of PROCESSED_FAMILY_HASHES) {
     if (!readiness.includes(hash) || !triage.includes(hash)) throw new Error(`Triage evidence does not pin processed family hash ${hash}`)
   }
-  const remainingChecksum = 'd2e1322293e049a48c6f92b3ca3bc26dcac22ebc1d9764e8d7b661eb9cda1210'
+  const remainingChecksum = '5f8adcb13074607b1179e333093197f2b035c30025e3e66f20d9fed26cf6be20'
   if (!readiness.includes(remainingChecksum) || !triage.includes(remainingChecksum)) throw new Error('Triage/readiness evidence does not pin the selected remaining checksum')
   if (!readiness.includes(COMPLETED_SOURCE_SCREEN.sha256)) throw new Error('Readiness evidence no longer retains the completed source')
   if (!PROCESSED_FAMILY_HASHES.includes(COMPLETED_SOURCE_SCREEN.sha256)) throw new Error('Completed source must be marked processed')
@@ -213,8 +215,8 @@ function runAuditLabelStaticTest() {
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Audit-label static test: ledger header mismatch')
   const parsed = JSON.parse(provenance)
   if (!parsed.auditSampleStatusCounts || !parsed.triageCheckpointRemainingExtractionDebt || parsed.liveSourceVerification !== false) throw new Error('Audit-label static test: provenance declarations missing')
-  if (parsed.triageCheckpointRemainingExtractionDebt.emptyTextRows !== 33 || parsed.triageCheckpointRemainingExtractionDebt.sparseTextRows !== 6 || parsed.triageCheckpointRemainingExtractionDebt.substantiveTextRows !== 9) throw new Error('Audit-label static test: triage debt drift')
-  console.log('audit-label-static-test=pass forbidden-temporal-text-labels=absent audit_sample_labels=present triage_debt=9-substantive/33-empty/6-sparse')
+  if (parsed.triageCheckpointRemainingExtractionDebt.emptyTextRows !== 31 || parsed.triageCheckpointRemainingExtractionDebt.sparseTextRows !== 6 || parsed.triageCheckpointRemainingExtractionDebt.substantiveTextRows !== 9) throw new Error('Audit-label static test: triage debt drift')
+  console.log('audit-label-static-test=pass forbidden-temporal-text-labels=absent audit_sample_labels=present triage_debt=9-substantive/31-empty/6-sparse')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -265,7 +267,7 @@ const selectedChecksum = sha256(selectedHashes.join('\n'))
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent from selected ledger: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (remainingHashes.length !== 48 || processedHashes.length + remainingHashes.length !== selectedHashes.length) throw new Error('Processed and remaining hashes do not reconcile to 106')
+if (remainingHashes.length !== 46 || processedHashes.length + remainingHashes.length !== selectedHashes.length) throw new Error('Processed and remaining hashes do not reconcile to 106')
 const remainingChecksum = sha256(remainingHashes.join('\n'))
 if (remainingChecksum !== expectedRemainingChecksum) throw new Error(`Remaining checksum drift: ${remainingChecksum}`)
 
@@ -316,7 +318,7 @@ const provenance = {
   processedFamilies: { sha256: processedHashes, uniqueSha256: processedHashes.length },
   completedSourceCoverage: COMPLETED_SOURCE_SCREEN,
   remaining: { inventoryMetadataRows: ledgerRows.filter((row) => !processedHashes.includes(row.sha256)).length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: remainingChecksum, auditSampleStatusCounts: remainingAuditSampleStatusCounts },
-  triageCheckpointRemainingExtractionDebt: { substantiveTextRows: 9, emptyTextRows: 33, sparseTextRows: 6, source: 'pinned triage/readiness checkpoint; not replaced by audit-sample status counts' },
+  triageCheckpointRemainingExtractionDebt: { substantiveTextRows: 9, emptyTextRows: 31, sparseTextRows: 6, source: 'pinned triage/readiness checkpoint; not replaced by audit-sample status counts' },
   reconciliation: { selectedUniqueSha256: selectedHashes.length, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
   year1RecoveryOutcomes: recoveryOutcomes,
 }
