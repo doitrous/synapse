@@ -10985,3 +10985,103 @@ The exact next tier-3 manifest-order debt is `src_1bb176bbbc842891f12e`,
 LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 139 tier-3/tier-6/rank-9 path debts
 remain. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 92 — Tier-3 external Head-and-Neck native-DOCX keyed MCQ bank
+
+### Exact identity, read-only render, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_1bb176bbbc842891f12e` / `1bb176bbbc842891f12ecab35388c9df95b0b5e094f7dd67639dd56b92693937` |
+| File / OOXML boundary | `MCQs - External MCQs MCQ HEAD AND NECK.docx` · 31,096 bytes · valid Microsoft Word OOXML ZIP · 887 paragraphs / 756 non-empty · 0 tables · 0 inline shapes · 1 section |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External MCQs MCQ HEAD AND NECK.docx` |
+| Read-only render | Canonical bundled document renderer converted the untouched DOCX to a temporary 24-page US-Letter QA PDF and 24 PNGs; every rendered page was inspected visually. No source re-export, save or edit occurred. |
+| Visible / package provenance | Page 1 prints only `Head and Neck PART1`; p. 24 ends with `NOTE BY:: Al-az~` after mojibake normalization. Core OOXML metadata names author and last modifier `alazz`, created and modified 29 September 2016. There is no Helwan University, faculty, cohort, module, sitting or official-exam label and no comments or tracked insertions/deletions. |
+| Authority finding | External keyed Head-and-Neck review bank, not direct Helwan assessment evidence, a response form, practical examination or official Helwan key. |
+
+The assigned hash and byte size were recomputed, the OOXML archive passed integrity checks,
+and all 24 rendered pages were read. The source contains an uninterrupted **Q1–Q80**
+sequence. A complete ten-letter A–E answer line follows each successive ten-question block;
+all 80 keys are present and no non-letter placeholder occurs.
+
+| Rendered pages | Prompt boundary | Prompt occurrences | Printed keys |
+|---|---|---:|---:|
+| 1–3 | Q1–Q12 plus key Q1–Q10 | 12 | 10 |
+| 4–5 | Q13–Q21 plus key Q11–Q20 | 9 | 10 |
+| 6–8 | Q22–Q31 plus key Q21–Q30 | 10 | 10 |
+| 9–11 | Q32–Q42 plus key Q31–Q40 | 11 | 10 |
+| 12–15 | Q43–Q53 plus key Q41–Q50 | 11 | 10 |
+| 16–18 | Q54–Q63 plus key Q51–Q60 | 10 | 10 |
+| 19–20 | Q64–Q70 plus key Q61–Q70 | 7 | 10 |
+| 21–24 | Q71–Q80 plus key Q71–Q80 | 10 | 10 |
+| **Family 92** | **Q1–Q80** | **80** | **80** |
+
+Every prompt is Head-and-Neck gross anatomy and survives the LCS-103 module gate. There is
+no written/SEQ/SAQ prompt, declarative teaching section, anatomical illustration, specimen,
+radiograph, micrograph, practical station, teaching plate, masked label, apparatus task,
+response blank or unresolved callout. Practical delta is exactly **0 prompts / 0 plates / 0
+mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 80 occurrences collapse to **18 source-distinct tested handles**. Each received exactly
+one search in the live, pending/import-ready, prior source-import and accepted-LCS surfaces:
+**18 × 4 = 72 required search invocations**.
+
+| Source-first handle family | Assigned prompts | Occurrences |
+|---|---|---:|
+| skull bones, sutures and surface landmarks | Q1–Q6 | 6 |
+| skull foramina, cranial fossae and transmitted structures | Q7–Q17 | 11 |
+| facial-expression muscles, facial nerve and arch origin | Q18–Q25, Q33–Q35 | 11 |
+| trigeminal divisions and facial cutaneous territories | Q26–Q30 | 5 |
+| lacrimal pathway and pterygopalatine secretomotor route | Q31–Q32, Q55–Q56 | 4 |
+| facial/scalp arteries and parotid relations | Q36–Q41 | 6 |
+| scalp five layers | Q42 | 1 |
+| dural sinuses, meningeal supply and cavernous contents | Q43–Q46 | 4 |
+| brain parts, CSF flow and ventricles | Q47–Q48 | 2 |
+| carotid canal and unpaired skull openings | Q49–Q50 | 2 |
+| cerebral/vertebrobasilar arteries and cranial-nerve relations | Q51–Q54 | 4 |
+| orbit, extraocular muscles, ciliary ganglion and ophthalmic vessels | Q57–Q63 | 7 |
+| infratemporal fossa and muscles of mastication | Q64–Q67 | 4 |
+| maxillary-artery parts and sphenopalatine distribution | Q68–Q71 | 4 |
+| otic ganglion, lingual nerve and chorda tympani | Q72–Q73 | 2 |
+| temporomandibular-joint classification | Q74 | 1 |
+| hard/soft palate muscles, vessels and innervation | Q75–Q77 | 3 |
+| tongue papillae, muscles, actions and innervation | Q78–Q80 | 3 |
+| **Family 92** | **Q1–Q80 once each** | **80** |
+
+All 18 handles are exact prior-external reuses from Families 78 and 90; accepted Families 1
+and 20–30 independently own or corroborate the same curriculum scopes. Prior-external
+reconciliation is therefore **18 reuses + 0 additions = 18**, external concept-state delta
+is **0 live / 0 pending / 0 new**, and eligible concept delta is zero. The exact 72-query
+ledger is preserved at `tmp/pdfs/lcs103-family92/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **1,623 / 1,591 / 218 = 12 / 133 / 73** to **1,703 external prompts / 1,671 printed
+keys / 218 external concepts = 12 live / 133 pending / 73 new**. Arithmetic is
+`1,623 + 80 = 1,703`, `1,591 + 80 = 1,671`, `218 + 0 = 218`, and
+`12 + 133 + 73 = 218`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings
+/ 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-91 remainder. Removing its sole path leaves **138
+all-rank path instances / 130 unique hashes**: tier 3 **56 paths / 53 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 91's 139/131 row sets recompute
+first to path checksum
+`229cac0fa0a67510660dfba2915d266fcd6421899df028fb2d71285974bfb09d` and unique-hash
+checksum `4645060f139efcb828a291f4b1e45d5ab395ee326003d71b296025b33a094571`.
+For the exact post-Family-92 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`7cedd623e38d73908b193426b7360221b0b5be701b247d291bf386f71091318e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`bc20750d731f16ad0f89fb4f1e21ab754f1d3648249a11250e7cf3877eacf4f5`.
+
+The exact next tier-3 manifest-order debt is `src_25ca49edf4d373e1b4ee`,
+`MCQs - External MCQs Training mcq.pdf` (71,351 bytes; 3 native-text pages; SHA-256
+`25ca49edf4d373e1b4ee2cfe7ca94ead048906a86cc516e50f5c4345dd485241`). **Overall
+LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 138 tier-3/tier-6/rank-9 path debts
+remain. No download, ID, content record, catalogue update, import, source copy or edited
+DOCX was created.
