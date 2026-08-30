@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The eighty-nine completed read-only source hashes cover ninety-one selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed fifteen-page `QUESTIONS ON CONNECTIVE TISSUE by DR.KANDEEL.pdf`, SHA-256 `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`, contains a 67-question keyed MCQ bank on pages 2-6 and a separately renumbered 81-question MCQ bank on pages 7-14, with cover page 1 and blank page 15. Its exact boundary is **148 objective prompts / 148 printed key tokens / 147 reliable answer observations / 1 explicitly cancelled prompt / 0 written / 0 practical or image-identification prompts**. It is a visibly branded Dr. Kandeel teaching bank, not an authenticated MUST/MSK exam or faculty key. Reordered and repeated stems collapse to the completed connective-tissue family's five handles and twenty searches, so **0 new handles × 4 = 0 new searches**, and the source contributes **+148 questions / +147 answers / +0 concepts**.
+The ninety completed read-only source hashes cover ninety-two selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed four-page `Axillary Artrey + Branchial Plexus (by Roaa).pdf`, SHA-256 `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`, is a handwritten teaching carrier on the axillary artery and brachial plexus. Its exact boundary is **4 teaching-only pages / 3 labeled teaching diagrams / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Filename attribution and iOS Notes/Quartz metadata do not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`.
+Latest processed family hash: `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`.
 
-Recent processed family hash retained for reconciliation: `d55776065e54bbda5975808caea87e0509960e29b00f9e2993f1ac61bcfee8a1`.
+Recent processed family hash retained for reconciliation: `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -88,8 +88,10 @@ Current teaching-source append: `d55776065e54bbda5975808caea87e0509960e29b00f9e2
 
 Current processed-family append: `77fbe6a081bdfa1d471b477ae653c6d7ae9643e72d651ef02ca14b70766ca077`.
 
-Removing them leaves **12 inventory paths / 12 unique SHA-256s**, checksum `efcfb9ab7e21a6dbb8e42715e727400bda967f0eb0a7ddef704ffeb99fd9f7ce`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary Artrey + Branchial Plexus (by Roaa).pdf`, SHA-256 `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`, 4 pages.
+Removing them leaves **11 inventory paths / 11 unique SHA-256s**, checksum `37da4434f32e01b25afae8f3a854d0e4b98df074c4eca47cfcbbfa1c82b0a2c3`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 12 selected inventory paths / 12 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary LNS.pdf`, SHA-256 `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271`, 2 pages.
+
+**BLOCKED — S1 cannot be approved:** 11 selected inventory paths / 11 unique hashes remain untriaged.

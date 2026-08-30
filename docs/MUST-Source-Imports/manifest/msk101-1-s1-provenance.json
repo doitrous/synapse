@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "a493dd349363fa25d0ee8fd7c78b49b64fabcf50e561a6e7ea1333cf0c9fdf8c",
-    "triageMarkdown": "571d45c09c8fa18f1e9b614607b441e5662d65273cd3eac9334272e6aa6d3b3a"
+    "readinessMarkdown": "f086994f4d721342f23471cacdf663c7dcc740db0fac05eb29e7c22ae9c877c3",
+    "triageMarkdown": "da994f4823eb9a29d3628a37eed92f32b89f69a1f6de45048dab4bd1e0f06fa0"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -98,6 +98,7 @@
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
+      "9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c",
       "9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84",
       "9bec4ac1744857b7b7c9def17233b243eacb320575eb276ead57cbe2a4b7e8aa",
       "a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c",
@@ -141,7 +142,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 89
+    "uniqueSha256": 90
   },
   "completedSourceCoverage": [
     {
@@ -2895,6 +2896,38 @@
         "first-bank Q48 prints uppercase A in the key and second-bank Q51 prints a,b; both remain source answer observations without normalization into medically corrected answers",
         "printed spelling, option labels and academically questionable answers remain uncorrected"
       ]
+    },
+    {
+      "sha256": "9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c",
+      "sourcePages": 4,
+      "renderedReadPages": "1-4",
+      "teachingPages": "1-4",
+      "labeledTeachingDiagrams": 3,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Roaa handwritten teaching notes with Notes title metadata, produced through iOS 17.5.1 Quartz on 27 October 2024; no visible byline, institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "four teaching-only notebook pages: a labeled axillary-artery diagram and branch notes on pages 1-2, a labeled brachial-plexus stages-and-sites diagram on page 3 and a labeled plexus-branches diagram on page 4; all labels and explanatory facts are supplied inline, with no objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "filename and metadata spelling including Artrey and Branchial remains uncorrected",
+        "handwritten spelling and selective anatomy statements remain source observations rather than endorsed corrections",
+        "arrows, asterisks and already labeled diagrams are teaching annotations and are not manufactured into practical prompts"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2906,20 +2939,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 12,
-    "uniqueSha256": 12,
-    "sortedNewlineSha256": "efcfb9ab7e21a6dbb8e42715e727400bda967f0eb0a7ddef704ffeb99fd9f7ce",
+    "inventoryMetadataRows": 11,
+    "uniqueSha256": 11,
+    "sortedNewlineSha256": "37da4434f32e01b25afae8f3a854d0e4b98df074c4eca47cfcbbfa1c82b0a2c3",
     "auditSampleStatusCounts": {
-      "audit-not-found": 12
+      "audit-not-found": 11
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 12
+    "audit-not-found": 11
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 89,
-    "remainingUniqueSha256": 12,
+    "processedUniqueSha256": 90,
+    "remainingUniqueSha256": 11,
     "processedPlusRemaining": 101
   }
 }

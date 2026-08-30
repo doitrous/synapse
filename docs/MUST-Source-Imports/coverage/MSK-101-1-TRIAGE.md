@@ -3599,3 +3599,41 @@ Removing the eighty-nine processed unique hashes leaves **12 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary Artrey + Branchial Plexus (by Roaa).pdf`, SHA-256 `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`, 4 pages.
 
 **BLOCKED — S1 cannot be approved:** 12 selected inventory paths / 12 unique hashes remain untriaged.
+
+## Completed teaching-only source — Axillary Artrey + Branchial Plexus (by Roaa)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary Artrey + Branchial Plexus (by Roaa).pdf` | `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c` | 4 | audit-not-found inventory label | pages 1–4 rendered and read | Filename-attributed Roaa handwritten notes. Metadata title is `Axillary Artrey + Branchial Plexus`, creator is `Notes`, and the carrier was produced through iOS 17.5.1 Quartz on 27 October 2024. No visible byline, institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary Artrey + Branchial Plexus (by Roaa).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+All four scanned notebook pages are teaching notes. Page 1 supplies a labeled axillary-artery diagram, organizes its six named branches by arterial part and adds inline branch notes. Page 2 continues explanatory notes on the subscapular, posterior circumflex humeral and anterior circumflex humeral arteries. Page 3 supplies an already labeled roots-to-trunks-to-divisions-to-cords brachial-plexus diagram and immediately states the sites of those stages. Page 4 supplies an already labeled plexus-branch diagram with root-value annotations.
+
+The exact boundary is **4 teaching-only pages / 3 labeled teaching diagrams / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. The arrows, asterisks, labels and inline notes disclose the teaching content; no instruction asks the learner to identify hidden anatomy, no response space appears and no figure is a practical station.
+
+### Authority, source truth and search gate
+
+Filename attribution and Notes/iOS Quartz metadata support learner-note provenance only. The source does not visibly authenticate Roaa as an examiner or establish MUST/MSK institutional, departmental, sitting, marks or official-key authority. Filename and metadata spelling such as `Artrey` and `Branchial`, handwritten spelling, selective anatomy statements and all annotations remain uncorrected source observations.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Teaching-only diagrams are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety processed unique hashes leaves **11 selected inventory paths / 11 unique SHA-256s**. Their sorted, newline-joined hash checksum is `37da4434f32e01b25afae8f3a854d0e4b98df074c4eca47cfcbbfa1c82b0a2c3`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found rows, and unique-hash accounting is **`90 + 11 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Axillary LNS.pdf`, SHA-256 `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271`, 2 pages.
+
+**BLOCKED — S1 cannot be approved:** 11 selected inventory paths / 11 unique hashes remain untriaged.
