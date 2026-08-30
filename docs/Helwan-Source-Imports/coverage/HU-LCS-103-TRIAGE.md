@@ -3915,6 +3915,7 @@ The next manifest-order gate is tier-5 Anatomy practical source
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
 
+
 ## Family 35 — Tier-5 skull-normae and mandible virtual-lab teaching deck
 
 ### Source identity, authority and full boundary
@@ -6991,6 +6992,143 @@ The next rank-4/rank-5 manifest-order gate is tier-4 Histology theoretical sourc
 `src_11f398fe99ee4128f6f8`, `bone 1 - record.pdf` (2,434,527 bytes; 42 OCR-needed pages;
 SHA-256 `11f398fe99ee4128f6f87771ca1f5d0632a9a102c7e6cfce63f4e80120af5297`)
 under `Year 1/LCS 103/Histology/Theoretical/Lec 2 - Bone I/`. Tier-6 and rank-9 source debts
+between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
+
+## Family 58 — Tier-4 Histology Bone I lecture with one unkeyed self-test MCQ
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_11f398fe99ee4128f6f8` |
+| Manifest file / SHA-256 | `bone 1 - record.pdf` / `11f398fe99ee4128f6f87771ca1f5d0632a9a102c7e6cfce63f4e80120af5297` |
+| File boundary | 2,434,527 bytes · unencrypted PDF · 42 physical OCR-needed pages · 960.12 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Theoretical · `Lec 2 - Bone I` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Histology/Theoretical/Lec 2 - Bone I/bone 1 - record.pdf` |
+| Visible provenance | p. 2 prints `BONE PART I`, `DR\HEBA ABD ALRAZAK`, `Lecturer of Histology Helwan University`; creator is Microsoft PowerPoint 2016 and producer is ilovepdf |
+| Authority finding | Direct local Helwan-labelled tier-4 teaching lecture under the assigned LCS-103 corpus path. It is not a sitting paper, question bank, practical response form or official answer key. |
+
+The SHA-256, byte size and 42-page boundary were recomputed and match the assigned source.
+All 42 pages were rendered at 180 dpi and visually read with page-level OCR support; all 42
+complete-page renders have distinct SHA-256 values. Pages 1–3 are the devotional opener,
+title/provenance and objectives; pp. 4–32 and 34–40 contain the complete Bone I lecture;
+p. 33 is the bone-cell section divider, p. 41 is one `TEST YOUR SELF` multiple-choice
+prompt, and p. 42 is the closing slide.
+
+The p. 3 verbs are learning objectives rather than response tasks. Lists, tables, diagrams,
+arrows and micrographs on the teaching pages are simultaneous declarative instruction. The
+two electron micrographs on pp. 31–32 nevertheless contain **14 unexpanded teaching-symbol
+occurrences** without a local legend: p. 31 prints `M`, `bv`, `N` and `B` once each; p. 32
+prints `B`, `RF`, two asterisks and six `M` labels. They are preserved as unresolved teaching
+callouts, not promoted into questions, response blanks or inferred mappings. Four of those
+symbols recur on the already accepted Family-55 practical plate; this theoretical copy does
+not increment the separated practical residue ledger. Page 41 alone has an interrogative stem
+and four mutually exclusive lettered options. Neither it nor p. 42 prints a correctness mark,
+answer letter or delayed reveal, so no key is inferred from the preceding osteoclast lesson.
+
+### Complete teaching-composition and assessment-boundary inventory
+
+| Physical pages | Source-first instructional composition | Teaching occurrences | Ordinary prompts | Printed keys |
+|---:|---|---:|---:|---:|
+| 4–8 | bone definition, general characters, components and organic/inorganic matrix | 5 | 0 | 0 |
+| 9–12 | skeletal bone-shape classification and long-bone gross arrangement/coverings | 4 | 0 | 0 |
+| 13–17 | periosteum, endosteum and four-bone-cell overview | 5 | 0 | 0 |
+| 18–21 | decalcified/ground preparation and compact-versus-spongy architecture | 4 | 0 | 0 |
+| 22–23 | four-cell overview and osteogenic-cell differentiation/formation diagram | 2 | 0 | 0 |
+| 24–29 | osteoblast and osteocyte LM/EM, lacuna and canaliculi relations | 6 | 0 | 0 |
+| 30–32 | osteoclast LM/EM and bone-resorption mechanism | 3 | 0 | 0 |
+| 34–36 | four-cell origin, LM, EM and function comparison tables | 3 | 0 | 0 |
+| 37–40 | osteoclast and osteocyte summary diagrams/micrographs | 4 | 0 | 0 |
+| 41 | `What is bone destroying cell?` with options A–D | 0 | 1 | 0 |
+| **Total** | **complete content boundary** | **36** | **1** | **0** |
+
+The **36 teaching-page occurrences are 36 source-distinct instructional compositions**.
+Complete-render SHA-256 and semantic comparison found no full-page copy to collapse. The
+source boundary is therefore **36 teaching compositions / 1 ordinary MCQ / 0 printed keys /
+0 practical or station prompts / 0 response blanks / 0 masked assessment callouts / 14
+unresolved teaching-callout occurrences**. As theoretical material, it adds **0 practical
+plates, 0 practical mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 41 → `osteoclast-bone-resorption-identity` | bone destroying cell; osteoclast bone resorption; osteoblast osteocyte osteogenic distractors; what cell destroys bone | live bone-metabolism material owns activated osteoclast resorption; exact accepted Family-13 Q30/Q33/Q102 handle owns this tested objective | live; prior eligible-LCS reuse; inherited live; tested-concept delta +0 |
+
+The one occurrence is one source-distinct question record, but its tested handle is already
+eligible LCS evidence: `1 question - 0 repeated source occurrences = 1 record`, while `1
+tested handle - 1 prior eligible handle = 0 new concepts`. Its four required searches
+completed across live state, pending state, all source-import roots and accepted prior LCS.
+The assessment disposition counts remain unchanged at **9 live / 83 pending / 155 new**.
+The option consistent with the preceding lecture is not promoted into a printed key.
+
+### Source-first theoretical scopes, searches and prior-LCS adjudication
+
+The 36 teaching compositions consolidate to twelve source-level theoretical scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `bone-definition-general-characters-and-components` · pp. 4–7 | bone definition specialized connective tissue; bone general characters rigidity vascularity; bone cells fibers matrix components; bone support protection mineral storage | live/pending bone-overview material owns the definition and components; exact accepted Family-13 bone-definition handle and Family-55 overview own the core — prior LCS reuse |
+| `bone-organic-inorganic-matrix-composition` · p. 8 | bone organic inorganic matrix percentage; type I collagen bone matrix; bone calcium phosphate hydroxyapatite; bone matrix acidophilic composition | pending bone-matrix material owns the composition; accepted Family-13 matrix handles own the same core — prior LCS reuse |
+| `bone-shape-classification-and-long-bone-gross-layout` · pp. 9–12 | bone classification long short flat irregular; long bone diaphysis epiphysis metaphysis; compact cancellous medullary cavity; periosteum endosteum gross bone | pending bone-classification material owns the shapes and layout; accepted Family-13 classification/architecture handles and Family-55 overview own the core — prior LCS reuse |
+| `periosteum-structure-and-functions` · pp. 13–15 | periosteum outer fibrous inner osteogenic; periosteum blood vessels nerves Sharpey fibers; periosteum appositional growth repair; periosteum absent articular surfaces | pending bone-covering material owns layers and functions; exact accepted Family-13 periosteum handle and Family-55 architecture scope own the core — prior LCS reuse |
+| `endosteum-structure-and-functions` · p. 16 | endosteum medullary cavity lining; endosteum osteogenic cells; endosteum Haversian Volkmann canals; endosteum bone growth repair | pending bone-covering material owns the lining/functions; exact accepted Family-13 endosteum handle and Family-55 architecture scope own the core — prior LCS reuse |
+| `four-bone-cell-overview-and-lineage` · pp. 17, 22–23 | osteogenic osteoblast osteocyte osteoclast overview; bone cell lineage differentiation; osteoprogenitor to osteoblast osteocyte; monocyte osteoclast origin | pending bone-cell material owns the four-cell comparison/lineage; accepted Family-13 cell handles and Family-55 four-cell scope own the core — prior LCS reuse |
+| `bone-section-decalcification-versus-grinding` · pp. 18–19 | bone histology decalcified section; ground bone preparation; acid EDTA decalcification; ground versus decalcified bone structures | pending bone-preparation material owns both methods; exact accepted Family-13 preparation handle and Family-55 practical scope own the core — prior LCS reuse |
+| `compact-spongy-bone-and-surface-covering-architecture` · pp. 20–21 | compact versus spongy bone histology; osteon trabeculae marrow spaces; periosteum endosteum bone surfaces; cortical cancellous architecture | pending compact/spongy material owns the architecture; accepted Family-13 osteon/trabecular handles and Family-55 architecture scopes own the core — prior LCS reuse |
+| `osteoblast-identity-lm-and-bone-forming-role` · p. 24 | osteoblast LM basophilic cuboidal; osteoblast bone surface location; osteoblast osteoid secretion; osteoblast alkaline phosphatase bone forming | pending bone-cell material owns morphology and function; exact accepted Family-13 osteoblast handle and Family-55 osteoblast scope own the core — prior LCS reuse |
+| `osteocyte-lm-em-lacuna-canaliculi-and-gap-junctions` · pp. 25–29, 39–40 | osteocyte lacuna canaliculi LM; osteocyte EM cytoplasmic processes; osteocyte gap junction nutrient exchange; osteocyte mature bone cell maintenance | pending bone-cell material owns LM/EM relations; accepted Family-13 osteocyte handles and Family-55 osteocyte scope own the core — prior LCS reuse |
+| `osteoclast-lm-em-howship-lacuna-and-resorption` · pp. 30–32, 37–38 | osteoclast multinucleated Howship lacuna; osteoclast ruffled border clear zone; osteoclast acid lysosomal bone resorption; osteoclast LM EM identification | live/pending bone-cell material owns identity and the fuller morphology/mechanism; accepted Family-13 osteoclast handles and Family-55 osteoclast scope own the core — prior LCS reuse |
+| `four-bone-cell-origin-lm-em-function-comparison` · pp. 34–36 | bone cells origin LM EM function table; osteogenic osteoblast osteocyte osteoclast comparison; bone cell organelles morphology; bone cell function summary | pending bone-cell material owns the complete comparison; accepted Family-13 comparison handles and Family-55 four-cell scope own the core — prior LCS reuse |
+
+All **12 × 4 = 48** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **1 live / 11 pending / 0 new**. Exact accepted-
+prior comparison prevents all twelve repeated module additions, leaving **twelve prior-LCS
+reuses / zero additive theoretical scopes**. Together with the assessment handle, Family 58
+completed **52 required searches**. Declarative teaching scopes do not enter the eligible
+tested-concept count, and no theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 58 | Family 58 delta | After Family 58 |
+|---|---:|---:|---:|
+| Eligible observed question records | 511 | +1 | 512 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 247 | +0 | 247 |
+| Question live / pending / new | 9 / 83 / 155 | +0 / +0 / +0 | 9 / 83 / 155 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 387 verified minimum | +0 | 387 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,423 verified minimum | +0 | 2,423 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 135 | +0 | 135 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 73 | +0 / +0 / +0 | 0 / 0 / 73 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `42 = 5 framing/closing pages + 36 teaching
+compositions + 1 assessment page`, `36 = 5 + 4 + 5 + 4 + 2 + 6 + 3 + 3 + 4`, `14 =
+4 + 10 unresolved teaching callouts`, `1 = 1 prompt - 0 repeated source occurrences`,
+`0 = 1 tested handle - 1 prior eligible handle`, `512 = 511 + 1`, `264 = 264 + 0`,
+`247 = 247 + 0`, `9 + 83 + 155 = 247`, `387 + 0 = 387`, `2,423 + 0 = 2,423`,
+`135 + 0 = 135`, and `73 + 0 = 73`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-57
+remainder leaves **18 rank-4/rank-5 path instances / 16 unique hashes**. The Family-57
+method was reproduced first: its 19/17 row sets recomputed to
+`247e5121430294c35ac6d8c31c5564c9e47e1c793bcc4c419b5720bfc73b38dc` and
+`a17789d8e8d39545fecbcbb4763713a6187a1962fff7670222005cefbcabcf0b`.
+For the exact post-Family-58 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1e804e4d469f96b798af573a12821abc0139c2bf72ac258c5ecf1b6060866e38`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`9ac9d209783727ed541fa2ba2d9b43b2b6b56d4e51adfa41410615eb14277f10`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Histology theoretical source
+`src_bbe144643b8333dddcc2`, `bone part 2 RECOED.pdf` (4,135,104 bytes; 43 OCR-needed pages;
+SHA-256 `bbe144643b8333dddcc2b729294e9f091c2089708f382e905c1c7b8b3cf7a669`)
+under `Year 1/LCS 103/Histology/Theoretical/Lec 3 - Bone II/`. Tier-6 and rank-9 source debts
 between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
