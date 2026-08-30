@@ -16030,3 +16030,111 @@ five native-text A4 pages under `Pathology / Questions / MCQs`. Metadata author 
 with creation timestamp 7 April 2025; its visible instructor/series authority, complete prompt/key
 convention, same-source and prior-series replays, prior-BMS reuse, four-search packets, and
 arithmetic are the exact next-source blockers.
+
+## Family 151 — Ahmed-Hassan `Cell injury 3` keyed accumulation MCQ subset
+
+### Source identity, complete render/native boundary, provenance, and carrier relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_cfdbc273660c3c88967a` · `MCQs - Cell injury 3 MCQ.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `cfdbc273660c3c88967a0d3d84442dfd0ca54fb6a61e078b670a2d8c101abc95` · **112,545 bytes** |
+| Format / complete visual boundary | Five native-text portrait A4 pages, each 595.32×841.92 points. All five pages were rendered at 150 dpi into five non-empty 1241×1754-pixel images and read individually at original detail; layout and raw extraction were also read. There is no page, crop, row, option, key-letter, footer, or text remainder. |
+| Native-text reality | Layout extraction contains 780 words / 7,835 bytes; raw extraction contains 800 words / 4,644 bytes. Both preserve all 22 numbered stems, option sets, right-column letters, page numbers, and instructor footers. The manifest's `native` label is accurate. |
+| Visible provenance | Every page is headed `Cell injury 3`, visibly prints `DR. Ahmed Hassan`, and carries page numbering 1–5. No university/faculty name or logo, module code, academic year, exam date/sitting, marks, duration, candidate field, or official-key declaration is visible. |
+| Metadata caution | PDF author is `Alnoaman`; creator/producer is Microsoft Word 2019; creation/modification timestamp is 7 April 2025. Visible Ahmed-Hassan attribution controls over the conflicting author metadata. The timestamp establishes file production and series sequence only. |
+| Exact prior content relation | This is a distinct native five-page carrier, not the same object as Family 9's seven-page OCR-needed `MCQs - L4 MCQ.pdf` (different source ID, SHA, page boundary, and format). Its 22 MCQs are nevertheless exact prior content: current Q1–Q17 equal Family-9 Q1–Q17, while current Q18–Q22 equal Family-9 Q19, Q20, Q21, Q23, and Q25. Family-9 Q18/Q22/Q24 and all nine written operations are absent. |
+| Authority | Local tier-3 instructor MCQ study bank with stable printed letters. It is eligible auxiliary keyed-question evidence, not an authenticated exam or official department key. The distinct carrier records occurrences but cannot mint already governed concepts. |
+
+### Complete page-first prompt, key, copy, practical, and anomaly boundary
+
+| Page | Visible numbered prompts | Prompt / printed-key ruling |
+|---:|---|---:|
+| 1 | Q1–Q5: dystrophic calcification, Russell bodies/hyaline change, arteriolar hyaline, Congo-red amyloid | **5 / 5** |
+| 2 | Q6–Q10: amyloid characteristics; dystrophic/metastatic calcification exceptions and examples | **5 / 5** |
+| 3 | Q11–Q15: renal-failure calcification sequence, hyperparathyroidism, primary haemochromatosis cause/features | **5 / 5** |
+| 4 | Q16–Q20: amyloid definition/gross morphology, meningioma psammoma bodies, hypercalcaemia causes, metastatic sites | **5 / 5** |
+| 5 | Q21–Q22: brain sparing in primary haemosiderosis; plasma-cell myeloma as systemic amyloidosis | **2 / 2** |
+
+The isolated capital letter in the far-right column aligned to every numbered row is a stable
+source-supplied study key. Its exact sequence is `A C B B D / B B D A C / C C C C B / C D A B
+D / E C`. Thus the source contains **22 text MCQ occurrences / 22 printed answer occurrences / 0
+unkeyed prompts**. There are **0 written operations / 0 image-bearing prompts / 0 practical
+stations / 0 drawing tasks / 0 candidate responses / 0 prompt-like residues**.
+
+There is no literal or punctuation-only copy wholly within this carrier, so all **22** occurrences
+remain retained records. Six same-source semantic reductions yield **16 accepted handles**: Q1,
+Q7, Q9, Q10, Q13, and Q18 form the six-record dystrophic-calcification characteristics/examples
+cluster (five reductions), while Q6 and Q16 share the extracellular-fibrillary amyloidosis
+definition (one reduction). Altered distractors remain retained before collapse.
+
+Source wording and keys are preserved without correction: `depositied`, `calcifiction`, and
+singular `tissue and organs` remain visible defects; Q11 keys calcium deposition in the kidney as
+the fourth event; Q17 keys `Bulging out cut section` as the amyloid-organ exception; and Q21 keys
+brain as least likely in primary haemosiderosis. The title's `Cell injury 3` is not used to erase
+the actual accumulation/calcification/amyloid content.
+
+### Source-first 16-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+All 16 accepted handles received exactly four fresh searches across live state, pending import
+roots, and prior BMS-102 Families 1–150: **64 required and completed searches**.
+
+| Ref(s) / handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| Q1,Q7,Q9,Q10,Q13,Q18 · `dystrophic-calcification-characteristics-examples` | `dystrophic calcification examples`; `normal serum calcium damaged tissue`; `primary hyperparathyroidism dystrophic exception`; `psammoma bodies meningioma calcification` | pending `CON-FND-33466CEBFC4EBA`; live psammoma support is adjunct | exact Family-9 six-record handle reuse |
+| Q2 · `russell-bodies-intracellular-hyaline` | `Russell bodies hyaline change`; `plasma cell immunoglobulin inclusion`; `intracellular hyalinosis example`; `rhinoscleroma Russell bodies` | pending `CON-FND-5CB8B822A9A6AF`; exact | exact Family-9 Q2 reuse |
+| Q3 · `hyaline-change-definition` | `hyaline change definition`; `homogeneous glassy pink material`; `hyalinosis definition`; `intracellular extracellular hyaline` | pending `CON-FND-5CB8B822A9A6AF`; exact | exact Family-9 Q3 reuse |
+| Q4 · `arteriolar-hyaline-benign-hypertension` | `arteriolar hyaline benign hypertension`; `hyaline arteriolosclerosis`; `plasma protein basement membrane arterioles`; `hypertension arteriolar hyalinosis` | pending `CON-FND-5CB8B822A9A6AF`; exact | exact Family-9 Q4 reuse |
+| Q5 · `amyloid-congo-red-apple-green` | `Congo red amyloid apple green`; `amyloid polarised light`; `amyloid birefringence stain`; `Congo red diagnostic amyloidosis` | pending `CON-FND-4867DD3814D088`; exact | exact Family-9 Q5 reuse |
+| Q6,Q16 · `amyloidosis-extracellular-fibrillary-definition` | `amyloidosis extracellular fibrillary protein`; `amyloid definition vessel walls`; `abnormal proteinaceous deposit tissues organs`; `amyloid intracellular exception` | pending `CON-FND-D955408D228002`; exact | exact Family-9 Q6/Q16 handle reuse |
+| Q8 · `metastatic-calcification-viable-tissue-hypercalcaemia` | `metastatic calcification viable tissue hypercalcaemia`; `multiple organ calcification high calcium`; `dystrophic versus metastatic calcification`; `infarction metastatic calcification exception` | pending `CON-FND-87392C49DB246C`; exact relation | exact Family-9 Q8 reuse |
+| Q11 · `renal-failure-hyperparathyroidism-calcification-sequence` | `renal failure hyperparathyroidism calcification sequence`; `renal failure calcium deposition fourth event`; `secondary hyperparathyroidism hypercalcemia kidney calcification`; `renal failure bone calcium mobilisation order` | no external record establishes the tested order | exact Family-9 Q11 reuse |
+| Q12 · `hyperparathyroidism-metastatic-calcification` | `hyperparathyroidism metastatic calcification`; `PTH hypercalcaemia calcium deposition`; `metastatic calcification endocrine cause`; `parathyroid tumour calcification viable tissue` | pending `CON-FND-87392C49DB246C`; exact | exact Family-9 Q12 reuse |
+| Q14 · `primary-hemochromatosis-chromosome-six` | `primary hemochromatosis chromosome 6`; `bronzed diabetes inborn iron absorption`; `hereditary haemochromatosis gene defect`; `primary iron overload congenital` | pending `CON-FND-B9A3C8B28B1443`; exact | exact Family-9 Q14 reuse |
+| Q15 · `primary-hemochromatosis-clinical-features` | `primary hemochromatosis clinical features`; `bronze skin cirrhosis diabetes`; `hemolysis exception hemochromatosis`; `iron overload organ manifestations` | pending `CON-FND-B9A3C8B28B1443`; exact | exact Family-9 Q15 reuse |
+| Q17 · `amyloid-organ-gross-morphology` | `amyloid organ gross morphology`; `amyloidosis enlarged pale waxy organ`; `stretched capsule amyloid deposition`; `amyloid cut surface bulging exception` | no same-scope external record | exact Family-9 Q17 reuse |
+| Q19 · `hypercalcemia-causes-hypovitaminosis-d-exception` | `hypercalcemia causes hypovitaminosis D exception`; `causes of hypercalcaemia`; `vitamin D deficiency serum calcium`; `milk alkali immobilisation sarcoidosis hypercalcemia` | pending `CON-FND-87392C49DB246C`; exact cause set | exact Family-9 Q20 reuse |
+| Q20 · `metastatic-calcification-deposition-sites` | `metastatic calcification deposition sites`; `gastric fundus lung kidney arteries calcium`; `fibrosed cardiac valves calcification exception`; `metastatic calcium renal tubules alveolar walls` | pending `CON-FND-87392C49DB246C`; exact | exact Family-9 Q21 reuse |
+| Q21 · `primary-hemosiderosis-brain-sparing` | `primary hemosiderosis brain sparing`; `iron overload organ least likely brain`; `hemochromatosis deposition liver pancreas heart skin`; `generalized hemosiderosis organ distribution` | no same-scope external record | exact Family-9 Q23 reuse |
+| Q22 · `systemic-amyloidosis-myeloma-example` | `systemic amyloidosis myeloma`; `plasma cell myeloma AL amyloid`; `systemic amyloidosis examples causes`; `primary myeloma associated amyloidosis` | pending `CON-FND-E3F496F6DDD7C3`; exact | exact Family-9 Q25 reuse |
+
+External disposition is **0 live exact / 13 pending / 3 no same-scope**; the live psammoma record
+is supporting detail inside a pending composite and is not double-counted. All **16** current
+handles are exact prior-BMS Family-9 reuses, so Family 151 adds `16 - 16 = 0` concepts.
+
+### Family-151 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 151 | Auxiliary cumulative (Families 12–151) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 22 | 1,366 | 765 | 2,131 |
+| Printed study-key occurrences | 22 | 853 | 405 | 1,258 |
+| Unkeyed prompt occurrences | 0 | — | — | none added |
+| Retained question records | 22 | 1,288 | 552 | 1,840 |
+| Accepted handles / required searches | 16 / 64 | 1,152 / — | — | — |
+| Prior-BMS handle reuses | 16 | — | — | — |
+| Cross-family concept delta | +0 | +705 over primary | 372 | 1,077 |
+| **Distinct tested concepts** | **16 source-local** | **705 auxiliary additions** | **372** | **1,077** |
+
+The source-local checksum closes as `4 pages × 5 prompts + 2 page-5 prompts = 22`, all keyed.
+Retention is `22 - 0 literal copies = 22`; handle collapse is `22 - 6 semantic reductions = 16`;
+search arithmetic is `16 × 4 = 64`; and concept arithmetic is `16 - 16 prior reuses = +0`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary becomes **1,366 prompts / 853 answers /
+1,288 retained records / 1,152 accepted handles / +705 concepts over primary**. All eligible S1
+evidence becomes **2,131 prompts / 1,258 supplied answers / 1,840 retained records / 1,077
+distinct tested concepts**. Family 151 adds a distinct-carrier occurrence/replay signal only; it
+does not establish an authenticated exam, official key, practical station, recurrence frequency,
+mark weight, candidate response, readiness, or claims status.
+
+### Exact next debt after Family 151
+
+`src_cfdbc273660c3c88967a` is exhausted across all five pages: every visible/metadata provenance
+field, numbered stem, option set, right-column letter, Family-9 content mapping, within-source
+collapse, anomaly, format assignment, search packet, prior reuse, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-151 blocker. The exact next manifest record is
+tier-3 `src_a988f51544db9b537b0c` · `MCQs - Circulatory MCQ.pdf`, SHA-256
+`a988f51544db9b537b0c94d26fb4a7df13e8e6fba80ec3bc968fc007a6b7edc8`, 224,151 bytes,
+16 native-text A4 pages under `Pathology / Questions / MCQs`. Metadata author is `Alnoaman`
+with creation timestamp 10 April 2025; its visible instructor/series authority, complete
+prompt/key convention, same-source and prior-family replays, prior-BMS reuse, four-search packets,
+and arithmetic are the exact next-source blockers.
