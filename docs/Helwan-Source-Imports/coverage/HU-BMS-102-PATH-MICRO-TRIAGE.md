@@ -9558,3 +9558,127 @@ layer but its first-page snippet contains only `CamScanner`; PDF metadata title/
 filename and author is `CamScanner`. Its complete visible content, scan/date provenance,
 teaching-versus-prompt/key boundary, search ledger, and prior-BMS relationship are the exact
 next-source blockers.
+
+## Family 87 — four-page handwritten repair Q&A scan
+
+### Source identity, scan-reality boundary, and provenance caution
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_0ebbbb43f00db58178b1` · `CamScanner 29-07-2025 00.06.pdf` |
+| SHA-256 / size | `0ebbbb43f00db58178b1ddf35cc63b159c45053f619f63609c31d425a4c837a9` · 5,122,391 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / complete read boundary | Four portrait A4 pages; all four rendered at 180 dpi to non-empty 1488×2105-pixel images and visually read at full-page resolution |
+| Native-versus-scan adjudication | The PDF contains one 2440×3256-pixel notebook-page JPEG plus a 260×260-pixel CamScanner logo image per page. Its only extractable text is one Times-Roman `CamScanner` watermark per page: 4 words / 48 bytes total. The educational handwriting is raster-only, so the manifest's `native` flag and `1.0` word-character ratio describe the watermark, not a genuine educational text layer. |
+| Visible provenance | Page 1 is headed `Pathology` and `I. Repair`, with an Arabic personal-name-like handwritten line above it that is not confidently legible; every page has a CamScanner watermark. No university, faculty, module code, author/instructor role, assessment label, academic year, or date is visible. |
+| Filename / metadata caution | Filename, PDF title, and subject contain `29-07-2025 00.06`; author is `CamScanner`, producer `intsig.com pdf producer`, and no creation/modification time is supplied. These fields establish a scan label only, not the handwritten notes' authorship, teaching date, academic year, or exam sitting. |
+| Authority | Tier-6 local handwritten study Q&A notes. The immediately following lists are source-native teaching responses, not an examiner-issued or official answer key. |
+
+Yellow highlighting consistently marks the topic phrase inside each handwritten `Enumerate`
+command; it does not select an answer. Each prompt is followed by a handwritten response list.
+Question 7 lists six time headings (`initial hemorrhage`, `within 24 hours`, `24–48 hours`,
+`by day 3`, `by day 5`, and `during second week`) without the events for those headings. That
+source-visible partial response is counted once as a printed handwritten teaching-answer
+occurrence but is explicitly preserved as incomplete; this inventory neither repairs it nor
+asserts that any response is correct.
+
+### Page-first written-prompt, teaching-answer, and residue inventory
+
+| Page | Complete visible source content | Prompt / response ruling |
+|---:|---|---:|
+| 1 | Q1 cell types by proliferative capacity with labile/stable/permanent list; Q2 factors controlling healing with EGF, PDGF, FGF, TGF-α, TGF-β, and TNF; Q3 extracellular-matrix components with collagen, proteoglycans, adhesive glycoproteins, elastic fibres, and basement membrane | **3 written prompts / 3 complete handwritten responses** |
+| 2 | Q4 fracture-healing stages; Q5 three callus types; Q6 scar-formation phases; Q7 first-intention timeline headings | **4 / 4**, of which Q7 is one partial response |
+| 3 | Q8 second-intention/secondary-union stages; Q9 local factors affecting healing; Q10 systemic factors affecting healing | **3 / 3 complete responses** |
+| 4 | Q11 complications of wound healing, grouped under infection, deficient/excessive scar, excessive contraction/stricture, epidermoid cyst, sinus, and fistula | **1 / 1 complete response** |
+
+The source therefore contributes **11 raw written-prompt occurrences / 11 printed handwritten
+teaching-answer occurrences / 0 unkeyed prompt occurrences / 1 partial-answer residue**. There
+are no option sets, candidate-response blanks, literal prompt copies, practical stations, image
+identification tasks, or separate answer-key section. All 11 written records are retained.
+
+### Source-first handle assignment and prior-BMS deduplication
+
+| Ref(s) | Source-tested scope / visible response boundary | Handle / prior assignment |
+|---|---|---|
+| F87-Q01 | Enumerate labile, stable, and permanent cells by proliferative capacity | `cell-types-by-proliferative-capacity` · exact F1/F2 regenerative-cell-populations reuse |
+| F87-Q02 | Enumerate EGF, PDGF, FGF, TGF-α, TGF-β, and TNF as factors controlling healing | `wound-healing-growth-factors` · new |
+| F87-Q03 | Enumerate collagen, proteoglycans, adhesive glycoproteins, elastic fibres, and basement membrane as extracellular-matrix components | `extracellular-matrix-components-in-repair` · new |
+| F87-Q04 | Enumerate fracture-healing stages from haematoma through inflammation/demolition, granulation tissue, woven bone/cartilage, lamellar bone, and remodelling | `fracture-healing-stages` · new; broader than F1's haematoma-stage prompt |
+| F87-Q05 | Enumerate external, intermediate, and internal callus types | `fracture-callus-types` · new |
+| F87-Q06 | Enumerate inflammation, demolition, and granulation-tissue ingrowth as scar-formation phases | `scar-formation-phases` · new |
+| F87-Q07 | Enumerate healing by first intention; source supplies time headings only | `healing-by-first-intention-timeline` · new; partial response preserved |
+| F87-Q08 | Enumerate initial haemorrhage, inflammation, epithelial change, granulation tissue, and contraction in healing by second intention | `healing-by-second-intention-stages` · new |
+| F87-Q09,Q10 | Enumerate local factors (type/size/site, supply, infection, movement, radiation, foreign bodies) and systemic factors (age, nutrition, infection, glucocorticoids, diabetes, circulation) affecting healing | `local-systemic-factors-affecting-healing` · two complementary retained records collapse to one source handle; exact F2 repair-impairing-factors reuse |
+| F87-Q11 | Enumerate deficient/excessive scar, contraction/stricture, cyst, sinus, fistula, and infection complications | `wound-healing-complications` · exact F2 repair-complications reuse |
+
+Source-first assignment is therefore `11 retained records - 1 complementary local/systemic
+reduction = 10 source-distinct tested handles`.
+
+### Exactly four searches per accepted handle and exact-scope adjudication
+
+All 10 handles received exactly four fresh source-first searches across live state, every pending
+import root, and prior BMS-102 Families 1–86: **40 required searches**. External exact-scope
+disposition is **0 live / 2 pending / 8 no same-scope**.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `cell-types-by-proliferative-capacity` | `labile stable permanent cells`; `cell types proliferative capacity`; `regenerative capacity cell populations`; `continuously dividing quiescent nondividing cells` | pending `CON-HEM-25C4304A1DB441`; exact classification | exact F1/F2 reuse |
+| `wound-healing-growth-factors` | `wound healing growth factors`; `EGF PDGF FGF TGF wound repair`; `growth factors controlling healing process`; `TNF transforming growth factor repair` | no same-scope | none; delta |
+| `extracellular-matrix-components-in-repair` | `extracellular matrix components repair`; `collagen proteoglycans adhesive glycoproteins`; `ECM elastic fibers basement membrane`; `wound healing extracellular matrix composition` | no same-scope | prior tumour-invasion ECM handle is unrelated; delta |
+| `fracture-healing-stages` | `fracture healing stages`; `hematoma inflammation callus remodeling`; `woven bone cartilage lamellar bone fracture`; `bone repair demolition granulation tissue` | pending `CON-MSK-D95C0801FF59F3`; staged bone-healing sequence | F1 tests only the haematoma stage; delta |
+| `fracture-callus-types` | `external internal intermediate callus`; `types of fracture callus`; `external callus intermediate callus internal callus`; `bone healing callus classification` | no same-scope | none; delta |
+| `scar-formation-phases` | `scar formation phases`; `inflammation demolition granulation tissue scar`; `granulation tissue ingrowth three five days`; `wound scar development sequence` | no same-scope | none; delta |
+| `healing-by-first-intention-timeline` | `healing by first intention timeline`; `primary union wound healing days`; `incised wound 24 48 hours day 3 day 5`; `first intention healing second week` | no same-scope | prior macrophage-timing prompt is narrower; delta |
+| `healing-by-second-intention-stages` | `healing by second intention stages`; `secondary union wound contraction`; `second intention epithelial granulation tissue`; `secondary wound healing initial hemorrhage inflammation` | no same-scope | none; delta |
+| `local-systemic-factors-affecting-healing` | `local systemic factors wound healing`; `factors impairing wound repair`; `infection nutrition diabetes glucocorticoids healing`; `vascular supply movement radiation foreign body wound` | no same-scope | exact F2 repair-impairing-factors reuse |
+| `wound-healing-complications` | `complications of wound healing`; `dehiscence keloid contracture sinus fistula`; `deficient excessive scar formation`; `incisional hernia stricture wound repair` | no same-scope | exact F2 repair-complications reuse |
+
+Exactly **3** source handles are prior-BMS exact reuses: proliferative-capacity cell classes,
+local/systemic healing factors, and wound-healing complications. Family 87 therefore adds
+`10 - 3 = 7` concepts.
+
+### Family-87 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 87 | Auxiliary cumulative (Families 12–87) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 11 | 817 | 765 | 1,582 |
+| Printed handwritten teaching-answer occurrences | 11 | 440 | 405 | 845 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Partial-answer residues | 1 | — | — | Q7 retained without repair |
+| Retained question records | 11 | 759 | 552 | 1,311 |
+| Source-distinct tested handles / required searches | 10 / 40 | 683 / — | — | — |
+| External live / pending / no same-scope | 0 / 2 / 8 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 3 | — | — | subtract before concept addition |
+| Cross-family concept delta | +7 | +466 over primary | 372 | `372 + 466 = 838` |
+| **Distinct tested concepts** | **+7** | **466 auxiliary additions** | **372** | **838** |
+
+The checksum closes without remainder: `3 + 4 + 3 + 1 = 11` written prompts; each has one
+source-visible response block, giving 11 teaching-answer occurrences, with Q7 separately flagged
+as partial rather than fabricated as complete; `11 - 0 copies = 11` retained records; `11 - 1
+local/systemic semantic reduction = 10` handles; searches are `10 × 4 = 40`; external
+disposition is `0 + 2 + 8 = 10`; and concept arithmetic is `10 - 3 prior exact reuses = 7`.
+Auxiliary cumulative arithmetic is `806 + 11 = 817` prompts, `429 + 11 = 440` answers, `748 +
+11 = 759` retained records, `673 + 10 = 683` source handles, and `459 + 7 = 466` concept
+additions. All eligible arithmetic is `765 + 817 = 1,582`, `405 + 440 = 845`, `552 + 759 =
+1,311`, and `372 + 466 = 838`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**817 / 440 / 759 / 683 / +466**; and all eligible evidence is
+**1,582 / 845 / 1,311 / 838**. Family 87 contributes auxiliary handwritten study Q&A evidence
+only. It cannot establish a dated sitting, recurrence, mark weight, official key, handwriting
+authorship, readiness, or claims status.
+
+### Exact next debt after Family 87
+
+`src_0ebbbb43f00db58178b1` is exhausted across all four pages: every scan/metadata/visible
+provenance field, handwritten prompt, complete or partial response list, highlight convention,
+retained record, local/systemic collapse, handle, required search, external disposition,
+prior-BMS reuse, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-87 blocker. The exact next manifest-ordered BMS-102 record is tier-6
+`src_c2203347c88a961c61fa` · `CamScanner 29-07-2025 15.06.pdf`, SHA-256
+`c2203347c88a961c61fa8c9b79aa78949f8598f3bed587b002024d6ac32ec7d9`, 2,987,672 bytes, six
+portrait A4 pages under `Pathology / Notes and Summaries`. The manifest again reports a native
+text layer with a first-page snippet of only `CamScanner`; PDF title/subject repeat the filename,
+author is `CamScanner`, and producer is `intsig.com pdf producer`. Its complete visible content,
+scan/date provenance, true text-layer boundary, teaching/prompt/key assignment, search ledger,
+and prior-BMS relationship are the exact next-source blockers.
