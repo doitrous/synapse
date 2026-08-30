@@ -18455,3 +18455,93 @@ SHA-256 `c38d862b8115f8d408de460c5b2445f6b1f8bab7f610c3a680b22b1c42118ebb`, **6,
 Kasr-Alainy origin hint; its visible provenance, relation to preferred twin
 `src_0421fef5b554718d05bf`, external eligibility, full prompt/answer boundary, zero/search gate,
 arithmetic, and subsequent next-source debt remain to be separately reconciled.
+
+## Family 175 — external cell-injury extraction and misleading name-twin reconciliation
+
+### Source identity, complete rendered/OCR boundary, and provenance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 non-preferred name twin `src_c38d862b8115f8d408de` · `MCQs - Patho MCQ [108].pdf` under the Helwan `Pathology / Questions / MCQs` folder |
+| SHA-256 / exact size | `c38d862b8115f8d408de460c5b2445f6b1f8bab7f610c3a680b22b1c42118ebb` · **6,038,111 bytes** |
+| Format / complete visual boundary | **15 portrait raster pages** at 612×867.56 pt. All 15 pages were rendered at 150 dpi into 15 non-empty 1275×1808 images and read at original detail. Page 1 is the `Cell injury and Accumulations Depositions` divider; pages 2–11 contain numbered Q1–Q86; page 12 is the `Answer Sheets` divider; and pages 13–15 contain the complete Q1–Q86 answer layer. |
+| OCR/native-text reality | Native layout/raw extraction contains **0 words / 15 form-feed bytes** each. OCR was completed for all 15 rendered pages and produced **2,882 words / 18,133 bytes**. OCR corroborates the visible numbering, formats, images, divider, and answer tables; the rendered pages remain controlling. |
+| Visible provenance | This cropped section has no visible university, faculty, author, module, sitting, date, marks, or candidate field. The manifest records `originUniversityHint: ["Kasr Alainy"]`, and the complete question/answer layer visibly and textually matches the cell-injury extraction from the affirmatively Cairo University Family-174 bank. Cropping away that bank's cover cannot upgrade the section to Helwan authority. |
+| Metadata caution | iOS 16.3.1 Quartz production and 11 May 2023 creation/modification times are secondary carrier evidence only. They establish neither a sitting nor Helwan provenance. |
+| Eligibility | **External/reference-only**. The object is an extracted section of the Cairo University/Kasr bank already governed by Family 174, not independent Helwan assessment evidence. |
+
+### Exhaustive question, answer, format, and practical boundary
+
+The source contains **86 numbered external-bank units** over ten question pages: Q1–12 on page 2,
+Q13–23 on page 3, Q24–31 on page 4, Q32–42 on page 5, Q43–45 on page 6, Q46–53 on
+page 7, Q54–67 on page 8, Q68–73 on page 9, Q74–82 on page 10, and Q83–86 on page 11.
+Numbered units include MCQ, T/F, fill-in, definition, enumeration, explanation, short written,
+matching, comparison, and image-bearing prompts; some units contain multiple suboperations, so 86
+is a source numbering checksum rather than an admitted Helwan raw-prompt count.
+
+Page 12 separates the answer layer. Pages 13–15 supply letter, T/F, fill, matching, and written
+answers for all Q1–Q86, including `See below` expansions and embedded answer illustrations. These
+are source-supplied external-bank answers, not Helwan keys. Image-bearing Q43–Q45 and the image
+answers remain bank questions: no OSPE/station label, timing, marks, candidate field, specimen
+instruction, or Helwan administration marker authenticates them as practical stations.
+
+No student response, score, sitting date, recurrence assertion, or Helwan answer authority is
+present. The structural checksum is **1 topic divider + 10 question pages + 1 answer divider + 3
+answer pages = 15 pages**, leaving no blank, crop, hidden page, or unassigned residue.
+
+### Family-174 extraction relation and false preferred-twin implication
+
+The content sequence maps to Family 174 source pages as follows: Family-175 page 1 corresponds to
+Family-174 page 3; Family-175 pages 2–11 correspond to Family-174 pages 5–14; page 12 corresponds
+to Family-174 page 85; and pages 13–15 correspond to Family-174 pages 87–89. Question numbering,
+wording, images, answer order, and answer text agree across that mapping. Comparison renders are
+not byte-identical, so this is recorded accurately as the **same question/answer section in a
+separately rasterized extraction**, not as an identical PDF or pixel duplicate.
+
+The manifest's preferred name twin, `src_0421fef5b554718d05bf`, is a distinct **26-page Year-3 GIT
+301** carrier named `MCQs - PATHO MCQ [GIT].pdf`, SHA-256
+`0421fef5b554718d05bf5d92516d6b676e73f0035609c19dadaef9c381b86d52`, headed `Diseases of the
+Oral Cavity and the Gastrointestinal Tract`. The twin link is filename normalization only. It
+supplies no content, authority, reuse, or preference reason for this Year-1 cell-injury extraction.
+
+### External-authority zero-handle, zero-search, and prior-reuse gate
+
+External authority is resolved before prompt retention. Therefore **0 numbered units are accepted
+as Helwan prompts, 0 answers are accepted as Helwan keys, 0 records are retained, and 0 handles
+survive**. Re-collapsing or searching the already external-governed question layer would fabricate
+Helwan recurrence and duplicate Family-174 work.
+
+The standing search rule is satisfied by the zero gate: **`0 accepted new handles × 4 = 0 required
+and completed searches`**. Prior-BMS reuse and concept delta are both **0 Family-175 additions**.
+
+### Family-175 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted external extraction | Family 175 eligible addition | Auxiliary cumulative (Families 12–175) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Numbered external-bank units | 86 | 0 prompts | 2,118 | 762 | 2,880 |
+| External source answer layer | complete Q1–Q86 | 0 answers | 1,486 | 405 | 1,891 |
+| Eligible retained question records | external extraction | 0 | 1,829 | 552 | 2,381 |
+| Accepted handles / new searches | 0 / 0 | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | ineligible for Helwan recurrence | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **external only** | **0 new** | **906 additions** | **372** | **1,278** |
+
+Family-175 eligible arithmetic is independently zero: `0 prompts + 0 answers + 0 retained + 0
+handles + 0 concepts`. Corrected primary remains **762 / 405 / 552 / 372**; auxiliary remains
+**2,118 prompts / 1,486 answers / 1,829 retained / 1,667 handles / +906 concepts**; and corrected
+all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 175 establishes no Helwan question occurrence, key, tested concept, sitting, recurrence,
+mark weight, candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 175
+
+`src_c38d862b8115f8d408de` is exhausted across all 15 pages: every divider, numbered unit,
+suboperation, option, image, answer-table entry, visible and metadata provenance field,
+Family-174 extraction relation, misleading preferred-twin relation, eligibility zero, and
+cumulative term is assigned once, with **zero remainder** and no Family-175 blocker. The exact next
+manifest record is tier-3 source `src_4954ce2cf6d26c70bbf5` · `MCQs - Patho MCQ by Dr.Tarek
+[108].pdf`, SHA-256 `4954ce2cf6d26c70bbf5ce73a0b36233486049272f0080195012e56c69e190fa`,
+**111,758 bytes**, five native-text portrait US-letter pages under `Pathology / Questions / MCQs`.
+Its visible Dr Tarek/patholosis provenance, Kasr-Alainy origin hint, unsolved prompt boundary,
+solved-companion relation, external eligibility, zero/search gate, arithmetic, and subsequent
+next-source debt remain to be separately reconciled.
