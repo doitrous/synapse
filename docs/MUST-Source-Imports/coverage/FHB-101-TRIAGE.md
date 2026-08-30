@@ -6905,3 +6905,37 @@ Removing this pinned empty-text path and unique hash leaves **2 selected invento
 The exact next source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 3 FHB BLOOD (By Shahd).pdf`, SHA-256 `6de1106a6b875c69f3d94467d1e5e51ae1895cb689e42daffb9bfe02e68af847`, 4 pages.
 
 **BLOCKED — S1 cannot be approved:** 2 selected source paths remain untriaged.
+
+## Completed source — Physiology lecture 3 FHB BLOOD (By Shahd)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 3 FHB BLOOD (By Shahd).pdf` | `6de1106a6b875c69f3d94467d1e5e51ae1895cb689e42daffb9bfe02e68af847` | 4 | empty-text audit sample | pages 1–4 rendered and read | Samsung Electronics PDF export last modified 4 November 2025. The filename credits Shahd. The pages are handwritten lecture notes with no institution, department, examiner, sitting, marks, assessment title or key authority; this is teaching material, not an official MUST examination, formative paper or key. |
+
+### Exact prompt, answer and teaching boundary
+
+Page 1 describes plasma volume, plasma-versus-serum separation and organic/inorganic plasma composition. Page 2 lists albumin, globulin and fibrinogen concentrations and formation sites. Page 3 explains the dynamic state of plasma proteins, rapid/slow regeneration and A/G ratio changes in liver and kidney disease. Page 4 lists plasma-protein storage, clotting, immune, transport, capillary, osmotic, buffering and viscosity functions. All four pages are continuous explanatory notes.
+
+The page-3 `Smith about a ratio and the way albumin leaves the glom...` annotation is an author-side study reminder embedded in the teaching text, not a question or response-bearing assessment prompt. There is no numbered or unnumbered student question, response form, selected option, answer table, model answer, practical-identification prompt or written-exam section. The exact source boundary is therefore **0 assessment prompts / 0 printed answers or key observations / 0 prompt-matched recovered answers**.
+
+### Source-first handles, searches and prior-FHB dedupe
+
+Because the complete visual boundary contains no assessment prompt, there are **0 accepted source-first handles** and therefore **0 × 4 = 0 warranted corpus searches**. The teaching scopes reproduce completed prior-FHB plasma and plasma-protein material, but teaching statements are not converted into tested concepts or used to infer questions. The source-level and post-prior concept results are both **0 live / 0 pending / 0 new**, so the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 8043 | 7626 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this pinned empty-text path and unique hash leaves **1 selected inventory path / 1 unique SHA-256**. Its one-hash, newline-free checksum is `a8e35af03fb23e6e322792dd038ac9c948d2dc0df0f8e899027a108deeab18ff`. Pinned triage debt becomes **zero substantive-text / zero sparse-text / one empty-text** row, and unique-hash accounting is **`105 + 1 = 106`**.
+
+The final remaining source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 4 FHB BLOOD (By Shahd).pdf`, SHA-256 `ef667f30ba5e438969644df9f48cabcd7f573988fe5c360afcb06d36b681e045`, 2 pages.
+
+**BLOCKED — S1 cannot be approved:** 1 selected source path remains untriaged.
