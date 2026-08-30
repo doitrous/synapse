@@ -20086,3 +20086,112 @@ neoplasia 4 2026.pdf`, SHA-256
 while metadata names `Mohammed Abdel-Latif` and records 19 April 2026. Its complete visible
 authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 191 — Nahed Soliman current BMS-102 Neoplasia 4 lecture and interactive questions
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_8e574a175cfd0e454cf3` · `mainstream neoplasia 4 2026.pdf` under the exact local `Pathology / Theoretical / Lec 13 - Neoplasia 4` folder |
+| SHA-256 / exact size | `8e574a175cfd0e454cf3e36546f44f446a8dc4070d3a682dd23dc6ac27a0cf86` · **1,383,340 bytes** |
+| Format / complete read | **67 native-text 960×540-point landscape pages**. All 67 pages were rendered into 67 non-empty 1467×825-pixel images and read individually at original detail. Coherent native extraction contains **2,740 words / 21,945 bytes** and agrees with every visible cover field, teaching heading, labelled diagram, case image, interactive stem, option set, response icon, summary, and reference. |
+| Visible current authority | Page 1 visibly prints the Helwan pathology/faculty marks, Academic Year **2025/2026**, Year 1, Semester 2, and `Basic Medical Science (BMS-102)`. Page 2 visibly identifies `Neoplasia 4`, **Nahed Soliman**, Professor of Pathology and Head of Pathology Department; the deck visibly dates itself 19 April 2026 and repeats `Module: BMS-102`. These fields establish a current dated Helwan BMS-102 theoretical lecture. |
+| Metadata caution | PDF metadata names `Mohammed Abdel-Latif` as author and Microsoft PowerPoint 2016 as creator/producer, with 19 April 2026 creation/modification. The conflicting metadata author is retained as carrier history; the visible Nahed Soliman credit controls source-facing authorship. |
+| Prior-carrier relation | The 13 MCQ occurrences on pp.39–43 and 58–65 reproduce, in the same sequence and including the final repeated unchecked-replication item, the complete question layer of the different 16-page Family-127 Dr Ahmed Hassan carrier. The present 67-page SHA, dimensions, current Helwan cover/date, lecturer, teaching context, and four additional p.6–7 operations are distinct. It is therefore a new source carrier with exact prior prompt reuse, not a byte duplicate or a zero-content second carrier. |
+| Authority | Current tier-4 Helwan BMS-102 theoretical teaching material with interactive T/F, case-question, and MCQ blocks. It supports auxiliary unkeyed prompt evidence, not an authenticated exam sitting, official departmental key, mark scheme, candidate response, or practical station. |
+
+### Complete page-first teaching, prompt, answer, callout, image, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–5 | Current cover, lecturer/module/date, carcinogenesis section title, and two objective slides | Provenance and completed teaching plan; objective verbs are curriculum statements, not candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 6 | `INTERACTIVE QUIZ` with `All tumors are malignant` and `Metastasis always occurs late in tumor development` | **2 T/F prompt occurrences / 0 supplied answers / 2 unkeyed**. The large red cross and green tick are generic side-by-side response symbols; neither is aligned or otherwise mapped to either statement, so they do not create a source key. |
+| 7 | Smoker with right-upper-lobe SCC, labelled pulmonary-carcinogenesis progression image, then explicit questions asking the carcinogenesis step shown and histologic indicators of malignancy | **2 image-bearing case/written prompt occurrences / 0 supplied answers / 2 unkeyed**. The figure is the stimulus: its pathway labels and staged micrographs do not print a discrete response to either operation. This is a lecture case, not a practical station—there is no station label, time, marks, response frame, specimen action, or candidate field. |
+| 8–37 | Molecular-basis objectives; essential malignant alterations; oncogenes, suppressor genes, apoptosis evasion, DNA-repair genes, telomerase, angiogenesis, invasion/metastasis, and multistep carcinogenesis; completed diagrams and lists | Declarative teaching and completed mechanism maps; red command-form objective slides are lecture scaffolds, not response requests; **0 / 0 / 0**. |
+| 38 | `CLICKER CASE: PATHOLOGY IN PRACTICE` with diagnosis-disclosing normal/adenoma/colon-carcinoma and breast benign/invasive image panels | Labelled teaching plate only. No question, instruction, blank, response control, or station action is printed; **0 / 0 / 0**. |
+| 39–43 | Five `INTERACTIVE QUESTIONS` MCQs: FAP mutation, telomerase/limitless replication, late TP53 loss in colon progression, adhesion-loss consequence, and p53-loss replication despite DNA damage | **5 text MCQs / 0 supplied answers / 5 unkeyed**. No option is marked. |
+| 44–57 | Tumour-growth biology, promotion, kinetics/chemotherapy, host interaction, immune surveillance/escape/effectors, and tumour-antigen classification | Declarative teaching and completed maps; **0 / 0 / 0**. |
+| 58–65 | Eight `INTERACTIVE QUESTIONS` MCQs: cytotoxic lymphocytes, matrix degradation/metastasis, tumour-suppressor function, growth-fraction chemoresistance, initiation, spontaneous regression/immune surveillance, tumour-specific antigen, and repeated p53-loss/DNA-damage item | **8 text MCQ occurrences / 0 supplied answers / 8 unkeyed**. Page 65 exactly repeats p.43 and is excluded from retention after its occurrence and absent-answer state are preserved. |
+| 66–67 | Summary and references | Completed recap/bibliographic matter; summary verbs report taught outcomes and are not candidate instructions; **0 / 0 / 0**. |
+
+The governed boundary is therefore **17 raw prompt occurrences = 13 text MCQs + 2 T/F
+operations + 2 image-bearing case/written operations**, with **0 source-supplied answers + 17
+visibly unkeyed operations**. There are **0 drawing tasks, 0 practical stations, 0 candidate
+responses, and 0 unassigned residues**. All objective verbs, completed teaching questions,
+diagnosis labels, images, arrows, interface symbols, option bullets, slide numbers, summaries, and
+references are assigned without becoming extra prompts or keys.
+
+### Source-first retention, exact replay, 16-handle search ledger, and prior-BMS reconciliation
+
+Page 65 is an exact current-source copy of p.43, so **`17 raw - 1 literal exclusion = 16 retained
+question records`**. The remaining operations test distinct scopes: the two p.7 questions use the
+same image but request different outputs, and adhesion loss versus matrix degradation are separate
+metastatic steps. Thus the source has **16 accepted handles**. Every handle received exactly four
+fresh source-first searches across live governed state, `docs/questions-import-ready`, Helwan
+coverage, and prior BMS Families 1–190: **`16 × 4 = 64 required and completed searches`**.
+
+| Ref(s) / accepted handle | Exactly four required queries | External exact-scope disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| p.6a · `all-tumors-malignant-benign-counterexample` | `all tumors are malignant`; `all tumours malignant false`; `benign and malignant tumors`; `tumor classification benign malignant` | no same-scope | contained by Family-1 benign-versus-malignant-tumour scope; reuse |
+| p.6b · `metastasis-final-late-stage` | `metastasis always occurs late tumor development`; `metastasis final stage cancer`; `tumor natural history metastatic stage`; `late phase malignant tumor metastasis` | no same-scope | exact Family-4 C29 metastasis-final-stage reuse |
+| p.7a · `lung-scc-multistep-carcinogenesis-image` | `smoker lung squamous cell carcinoma multistep carcinogenesis`; `pulmonary carcinogenesis metaplasia dysplasia carcinoma in situ`; `lung SCC progression normal metaplasia dysplasia`; `what step carcinogenesis shown lung squamous` | no same-scope | prior generic stage/order handles do not test this image-backed smoking-to-lung-SCC sequence; **delta** |
+| p.7b · `lung-scc-histologic-malignancy-indicators-image` | `lung squamous histologic indicators malignancy`; `histologic indicators of malignancy dysplasia carcinoma in situ`; `smoker lung biopsy malignant histologic features`; `squamous lung cancer progression microscopy indicators` | no same-scope | prior morphology handles do not request the indicators from this staged lung-SCC image; **delta** |
+| p.39 · `fap-apc-cell-cycle-control` | `familial adenomatous polyposis APC`; `FAP APC mutation`; `adenomatous polyposis coli gene`; `APC familial colon cancer` | no same-scope | exact Family-127 Q01 and Family-4 reuse |
+| p.40 · `telomerase-limitless-replication` | `limitless replicative potential telomerase`; `activation telomerase cancer hallmark`; `telomere maintenance tumor immortality`; `cancer cells reactivate telomerase` | pending `CON-FND-73C77966B56FED` | exact Family-127 Q02 and Family-4 reuse |
+| p.41 · `colon-cancer-late-tp53-apoptosis` | `colon cancer progression late p53`; `late event TP53 colon carcinoma`; `adenoma carcinoma sequence p53 loss`; `loss p53 chromosome 17p carcinoma` | no same-scope | exact Family-127 Q03 and Family-4 reuse |
+| p.42 · `adhesion-loss-metastatic-potential` | `loss cell adhesion enhanced metastasis`; `E cadherin loss metastatic potential`; `tumor adhesion molecules invasion`; `detachment tumor cells E cadherin` | no same-scope | exact Family-127 Q04 and Family-4/1 reuse |
+| p.43,p.65 · `p53-inactivation-dna-damage-checkpoint` | `p53 inactivation unchecked replication DNA damage`; `loss p53 DNA damage cell cycle`; `p53 checkpoint damaged tumor cells`; `p53 guardian genome cell cycle arrest` | pending `CON-FND-1F66060A9C2625` and Kasr `p53` glossary record | exact Family-127 Q05/Q13 and Family-4 reuse; p.65 is excluded current-source copy |
+| p.58 · `cytotoxic-lymphocyte-tumor-killing` | `cytotoxic lymphocytes eliminate cancer cells`; `CTL antitumor immunity mechanism`; `immune surveillance cytotoxic T cells tumor`; `cancer cell killing cytotoxic lymphocyte` | live `CON-IMM-019A95FA52738F` | exact Family-127 Q06 and Family-4 reuse |
+| p.59 · `extracellular-matrix-degradation-metastasis` | `extracellular matrix degradation metastasis`; `MMP tumor invasion ECM degradation`; `proteolytic degradation key metastasis`; `cancer invasion basement membrane MMP` | no same-scope | exact Family-127 Q07 and Family-4 reuse |
+| p.60 · `tumor-suppressor-protein-function` | `tumor suppressor proteins prevent uncontrolled growth`; `tumor suppressor genes inhibit cell proliferation`; `function tumor suppressor protein`; `loss growth inhibitory signals cancer` | pending Kasr `tumor suppressor gene` glossary and `ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES` | exact Family-127 Q08 and Family-4 reuse |
+| p.61 · `growth-fraction-chemotherapy-sensitivity` | `low growth fraction chemotherapy resistance`; `tumor growth fraction anticancer agents resistance`; `chemotherapy effective dividing cells growth fraction`; `slow proliferating tumor resistant chemotherapy` | no same-scope | exact Family-127 Q09 and Family-4 reuse |
+| p.62 · `cancer-initiation-irreversible-dna-damage` | `initiation stage cancer neoplastic transformation DNA damage`; `tumor initiation irreversible DNA mutation`; `carcinogenesis initiation transformed cell`; `initiator causes permanent genetic damage` | no same-scope | exact Family-127 Q10 and Family-4 reuse |
+| p.63 · `spontaneous-regression-immune-surveillance` | `spontaneous tumor regression immune surveillance`; `immune surveillance theory spontaneous regression`; `melanoma choriocarcinoma spontaneous regression immunity`; `evidence host immune defense tumor regression` | no same-scope | exact Family-127 Q11 and Family-4 reuse |
+| p.64 · `tumor-specific-antigen-exclusivity` | `tumor specific antigen only tumor cells`; `TSA absent normal cells`; `tumor-specific versus tumor-associated antigen`; `exclusive antigen malignant cells` | no same-scope | exact Family-127 Q12 and Family-4 reuse |
+
+External exact-scope arithmetic is **1 live / 3 pending / 12 no same-scope**, totaling all 16
+handles. Prior-BMS reconciliation assigns **14 exact/contained handle reuses** and **2 new image-
+case scopes**, so **`16 - 14 = +2 concepts`**. The current source's teaching overlap and labelled
+images remain source context; only explicit operations enter the governed prompt ledger.
+
+### Family-191 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 191 | Auxiliary cumulative (Families 12–191) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 17 = 13 MCQ + 2 T/F + 2 image/case written | 2,529 | 762 | 3,291 |
+| Source-supplied answers | 0; 17 unkeyed | 1,668 | 405 | 2,073 |
+| Retained question records | 16 | 2,238 | 552 | 2,790 |
+| Accepted handles / required searches | 16 / 64 | 2,021 / — | — | — |
+| Prior-BMS handle reuses | 14 | — | — | — |
+| Cross-family concept delta | +2 | +965 over primary | 372 | 1,337 |
+| **Distinct tested concepts** | **16 source-local** | **965 additions** | **372** | **1,337** |
+
+Checksums: `13 + 2 + 2 = 17 prompts`; `0 + 17 = 17 answer states`; `17 - 1 literal exclusion
+= 16 retained`; `16 - 0 further semantic reductions = 16 handles`; `16 × 4 = 64 searches`; and
+`16 - 14 = +2`. Auxiliary arithmetic is `2,512 + 17 = 2,529`, `1,668 + 0 = 1,668`, `2,222
++ 16 = 2,238`, `2,005 + 16 = 2,021`, and `963 + 2 = 965`. All eligible arithmetic is `762 +
+2,529 = 3,291`, `405 + 1,668 = 2,073`, `552 + 2,238 = 2,790`, and `372 + 965 = 1,337`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,529 prompts / 1,668 answers /
+2,238 retained / 2,021 handles / +965 concepts**. All eligible is **3,291 / 2,073 / 2,790 /
+1,337**. Family 191 establishes current Helwan theoretical teaching and unkeyed interactive-
+question evidence only, not an exam sitting, official departmental key, mark weight, candidate
+response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 191
+
+`src_8e574a175cfd0e454cf3` is exhausted across all 67 pages: every visible current-authority and
+metadata field, objective, teaching slide, labelled image, T/F statement, case/written question,
+MCQ, empty or non-mapped response control, literal replay, search packet, prior-family relation,
+summary, reference, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-191 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_20da607649bc292ce231` · `Repair Lecture
+2.pdf`, SHA-256
+`20da607649bc292ce2312f95ea6bf8a57fb4b4e3db72d906bcf61ece4b670451`, **1,152,541 bytes**,
+**23 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 14 - Repair 2`.
+Its first visible text identifies `REPAIR (Healing) part 2`, Dr Enas Elhosary, Faculty of Medicine,
+Helwan University, while metadata names `fmt` and records 11 April 2026. Its complete visible
+authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
