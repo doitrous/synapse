@@ -38,10 +38,45 @@ The source is now `sourceProcessed=true`. Its completed delta and lane cumulativ
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — MSK 101-1 Training QUESTIONS Answers
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/MSK 101-1 Training QUESTIONS Answers.pdf` | `fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d` | 5 | substantive-text audit sample | pages 1–5 rendered and read | Microsoft Word for Microsoft 365 export, metadata author `a`, created 19 October 2025 and modified 20 October 2025, with iOS 18.5 Quartz append-mode production metadata. The heading is `MSK101-1 2025-2026 Training questions Connective Tissue proper`; no institution, department, examiner, sitting, marks or official-key authority is printed. It is a locally annotated training paper, not an official MUST examination or validated key. |
+
+### Exact MCQ, written, practical and answer boundary
+
+Pages 1–3 contain **16 four-option MCQs**, consecutively numbered Q1–Q16. Page 4 begins `Short essay Questions` Q1–Q5 and page 5 contains written Q6–Q8. The exact source boundary is **24 prompt occurrences = 16 MCQs + 8 short-written prompts + 0 practical prompts**. There is no teaching-prose section beyond incidental handwritten annotations.
+
+Yellow highlighting supplies a selected option for every MCQ, for **16 highlighted key observations**. Written Q1–Q4 and Q6–Q8 contain blue handwritten responses; Q2 and Q4 are visibly incomplete, while written Q5 is entirely blank. Counting answer-bearing prompts once gives **23 answer observations / one source-absent answer**. No unprinted completion was inferred, and the handwritten responses are preserved only as source observations rather than treated as an official key.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+The 24 occurrences were assigned once across four source-first handles, reconciling as **12 + 2 + 5 + 5 = 24**. Each handle received exactly four searches across live, server, pending/import-ready and documentation evidence, for **4 × 4 = 16 searches**.
+
+| Handle | Assigned prompt occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 12, connective-tissue types/sites/fibers, collagen, stains and Marfan (`white fibrous connective tissue regular irregular uveal tract`; `loose areolar connective tissue sites central nervous system`; `reticular collagen elastic fibers special stains sites`; `Marfan defective elastin fibroblast connective tissue`) | no external live/pending hit; same scope as prior MSK H1 — **prior-MSK collapse, no new concept**. |
+| H2 | 2, macrophages and plasma cells (`macrophages histiocytes monocytes lysosomes vital stain`; `plasma cells negative Golgi B lymphocytes`; `fibroblast synthesizes connective tissue proper fibers`; `fixed connective tissue proper cells`) | no external live/pending hit; same scope as prior MSK H2 — **prior-MSK collapse, no new concept**. |
+| H3 | 5, white/brown adipocytes, leptin, sites and functions (`unilocular fat cells leptin signet ring`; `multilocular fat cells newborn heat production`; `white brown adipose tissue sites functions`; `adipose connective tissue types forming cells`) | no external live/pending hit; same scope as prior MSK H3 — **prior-MSK collapse, no new concept**. |
+| H4 | 5, mast, pigment, pericyte and undifferentiated mesenchymal cells (`mast cells metachromatic granules`; `pigment cells storage melanin connective tissue`; `pericytes regenerate lining blood vessels`; `undifferentiated mesenchymal cells free ribosomes`) | no external live/pending hit and no prior MSK assignment covers the combined specialized-cell scope — **new addition**. |
+
+The source-level split is **0 live / 0 pending / 4 source handles**. Prior-MSK collapse removes H1–H3, producing a completed-source concept delta of **0 live / 0 pending / 1 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+24 questions / +23 answer-bearing prompt observations / +1 post-prior concept**. Cumulative arithmetic is **21 + 24 = 45 questions**, **12 + 23 = 35 answers**, and **3 + 1 = 4 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 45 | 35 | 4 | 0 | 0 | 4 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing this one substantive-text path and unique hash leaves **102 selected inventory paths / 100 unique SHA-256s**. Their sorted, newline-joined hash checksum is `1ebf718be72577c2029ed6764b3b36d551bb423fd5c1f1f6d39fdba645145ea9`. Remaining audit-review debt is 58 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`1 + 100 = 101`**.
+Removing these two substantive-text paths and unique hashes leaves **101 selected inventory paths / 99 unique SHA-256s**. Their sorted, newline-joined hash checksum is `718f4e46c2ef045d3422195381ecce9635e495fe56deb3ab5bff0ff2c9dcd0bb`. Remaining audit-review debt is 57 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`2 + 99 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/MSK 101-1 Training QUESTIONS Answers.pdf`, SHA-256 `fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d`, 5 pages.
+The next evidence-ranked source is the paired question-only copy `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/MSK 101-1 Training QUESTIONS.pdf`, SHA-256 `e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231`, 5 pages.
 
-**BLOCKED — S1 cannot be approved:** 102 selected inventory paths / 100 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 101 selected inventory paths / 99 unique hashes remain untriaged.
