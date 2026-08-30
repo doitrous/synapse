@@ -13851,3 +13851,85 @@ blocker. The exact next unprocessed manifest record is tier-6 `src_0aeb313073726
 Its dense handwritten bacterial-toxin/systemic-pathology maps, provenance/annotation boundary,
 any embedded prompt/answer or practical content, source-first gate, and prior-BMS reuse are the
 exact next-source blockers.
+
+## Family 132 — anonymous four-page infection and infective-granuloma maps
+
+### Source identity, high-detail raster/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_0aeb31307372648a957f` · `patho 6.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `0aeb31307372648a957f4042ef5f1e62364c67e41b047e1d7b73b33a328b2d2f` · 14,772,088 bytes |
+| Format / complete visual boundary | Four landscape A4 pages (842×595 points). All four pages were rendered at 300 dpi into four non-empty 3509×2480-pixel images and read at original detail; all small inset tables, micrographs, diagrams, and handwritten branches were reconciled against the complete page images. There is no page, crop, inset, or visual remainder. |
+| OCR/native reality | Layout and raw native extraction contain no semantic text beyond page separators. Two independent English+Arabic Tesseract passes (`psm 6` and `psm 11`) produced 1,673 OCR words / 12,840 bytes in aggregate and were reconciled against the source pixels rather than treated as authority. The handwriting, diagrams, tables, highlights, and image labels are raster/drawing content. The manifest's `ocr-needed` label is accurate. |
+| Visible provenance | No page shows a university, faculty, module code, author/instructor, academic year, lecture date, assessment label, sitting, page number, watermark, or ownership mark. The topic headings establish pathology subject matter only. |
+| Metadata caution | The PDF has no metadata stream and no author, title, creator, producer, creation date, or modification date fields. Folder placement and manifest classification are retained, but no invisible provenance or date is inferred. |
+| Annotation ruling | Multicolor English handwriting, limited Arabic notes, arrows, grey label capsules, circles, underlines, and marks on embedded tables/images are internally consistent components of the completed source-authored maps. There is no separable student hand, response, correction, grading layer, or answer-reveal sequence. |
+| Authority | Anonymous tier-6 declarative pathology summary maps. They are not a candidate paper, keyed exercise, response sheet, practical station, or official answer source. |
+
+### Complete page-first teaching, prompt, answer, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | Toxemia definition, sources, acute/chronic types, clinical and pathological effects; bacteremia definition, endogenous/exogenous sources and dose/host-response effects; septicemia definition, causes, routes and pathology; pyemia definition, route, effects and prognosis | Completed definitions and causal teaching maps with supplied reference panels only; **0 prompts / 0 answers**. |
+| 2 | Tuberculosis definition, predisposing environmental/personal factors, causative organism and staining, human/bovine routes, first-three-week and delayed pathogenesis, cellular/exudative morphology, granuloma components and caseous necrosis | Completed etiologic, pathogenesis, and morphology map with labelled micrographs/tables only; **0 / 0**. |
+| 3 | Tuberculosis fate by host immunity, spread routes, primary/secondary clinical picture and sites, diagnosis, course, complications, and completed primary-versus-secondary comparison | Completed course/clinical teaching and fully supplied comparison panels only; **0 / 0**. |
+| 4 | Syphilis cause, spread, acquired stages and tissue reaction; actinomycosis cause and gross/microscopic morphology; schistosomiasis hypersensitivity, acute dermatitis and cellular/fibrocellular/fibrous granulomas | Completed infective-granuloma definitions, classifications, and morphology only; **0 / 0**. |
+
+Every branch terminates in supplied declarative content. `Def`, `sources`, `types`, `effects`,
+`clinical`, `pathological`, `causes`, `route`, `prognosis`, `predisposing factor`, `pathogenesis`,
+`morphology`, `fate`, `clinical picture`, `course`, `complication`, `gross`, and `micro` are
+completed category labels, not learner commands or response fields. The embedded bacteremia,
+septicemia, TB, granuloma, diagnostic, complication, and comparison panels are fully populated
+reference material. There is no question mark, interrogative or imperative stem, option set,
+blank, response space, mark allocation, image-identification request, practical station,
+candidate/student annotation, printed assessment answer, or prompt-like residue.
+
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0
+printed/source-supplied answer occurrences / 0 unkeyed prompt occurrences / 0 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted tested handle survives the complete declarative-teaching boundary. Exactly four
+searches are required only per accepted handle, so the source-first gate is exactly **0 handles
+× 4 = 0 required and completed searches**; no empty query or fabricated disposition row is
+added. The maps condense infection, septicemia/pyemia, tuberculosis, syphilis, actinomycosis,
+and schistosomiasis teaching already represented across Families 1–10, 54, 73, 85–86, 99,
+104–105, 115, 122, and 125. Those are source-level teaching relations only. With zero tested
+handles, prior-BMS exact handle reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 132 | Auxiliary cumulative (Families 12–132) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,108 | 765 | 1,873 |
+| Printed/source-supplied answer occurrences | 0 | 675 | 405 | 1,080 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,043 | 552 | 1,595 |
+| Source-distinct tested handles / required searches | 0 / 0 | 927 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +590 over primary | 372 | `372 + 590 = 962` |
+| **Distinct tested concepts** | **+0** | **590 auxiliary additions** | **372** | **962** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answers, unkeyed items,
+residues, retained records, tested handles, searches, external dispositions, prior-handle reuses,
+or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**1,108 / 675 / 1,043 / 927 / +590**; and all eligible evidence remains
+**1,873 / 1,080 / 1,595 / 962**. Family 132 contributes anonymous teaching maps only. It cannot
+establish an assessment, official key, dated sitting, recurrence, mark weight, student response,
+readiness, or claims status.
+
+### Exact next debt after Family 132
+
+`src_0aeb31307372648a957f` is exhausted across all four high-detail pages: every handwritten
+definition, label, arrow, branch, teaching table/image, provenance limitation, OCR uncertainty,
+zero-search gate, prior-teaching relation, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-132 blocker. The exact next unprocessed manifest record is
+tier-6 `src_bcfda49896dd7495479f` · `pathology HU BMS2  competition-revision lecture.pdf`,
+SHA-256 `bcfda49896dd7495479fe201c2573f5ea45ef294d441f58e491acb67f0fe51d4`,
+8,034,006 bytes, 61 native-text 720×540-point landscape pages under
+`Pathology / Notes and Summaries`. Its visible `BMS II Pathology Competition`, Dr Fatma Abdelsalam,
+Pathology Department / Helwan University provenance, metadata-author/date conflict, competition
+prompt/key boundary, source-first searches, and prior-BMS reuse are the exact next-source blockers.
