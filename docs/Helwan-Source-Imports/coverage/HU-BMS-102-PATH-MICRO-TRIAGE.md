@@ -20481,3 +20481,86 @@ of Medicine, Helwan University, while metadata names `fmt` and records 28 Februa
 twin/content-reuse relation, complete visible authority/date boundary, teaching/prompt/key/callout/
 practical split, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 195 — non-preferred Cell Injury 2 unannotated teaching twin
+
+### Source identity, complete render/native boundary, twin comparison, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 non-preferred name twin `src_f777eedff88b6dca2166` · `Cell-injury-lecture-2.pdf` under the exact local `Pathology / Theoretical / Lec 3 - Cell Injury 2` folder |
+| SHA-256 / exact size | `f777eedff88b6dca216656eb373fb0612128fff63276683e7299bd8c97ae77a4` · **1,707,380 bytes** |
+| Format / complete read | **34 native-text 960×540-point landscape pages**. All 34 pages were rendered into 34 non-empty 2000×1125-pixel images and read individually at original detail. Native extraction contains **1,390 words / 10,641 bytes** and agrees with every visible cover field, teaching statement, completed comparison, diagram, gross/microscopic image, callout, and closing slide. |
+| Visible authority | Page 1 visibly identifies `CELL INJURY 2`, **Dr Enas Megahed Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**. This source-facing attribution and exact BMS-102 theoretical placement establish Helwan teaching authority. No page visibly prints a module code, academic year, lecture date, or exam sitting. |
+| Metadata caution | Metadata title is `Cell injury`; author is `fmt`; creator/producer is Microsoft PowerPoint LTSC; and creation/modification is 28 February 2026. These are retained as carrier history only. They do not override visible Enas Elhosary authorship or independently authenticate a teaching year or exam sitting. |
+| Preferred-twin reconciliation | Preferred Family-93 `src_034276f9ba5a61ea711a` is a different-SHA, 8,573,598-byte, 37-page 791×445-point annotated carrier. Page-by-page comparison shows the present 34-page source is its unannotated base sequence: current pp.1–3 align to preferred pp.1–3; preferred annotation inserts pp.4, 7, and 11 are absent; every remaining current page aligns in order to preferred pp.5–6, 8–10, and 12–37 through the identical closing slide. Those three omitted pages contain only completed annotation/explanation, not assessment or practical content. |
+| Authority | Tier-4 Helwan theoretical teaching material. It is neither an assessment instrument nor an official answer key, mark scheme, candidate response, or practical station. |
+
+### Complete page-first teaching, callout, prompt, answer, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–2 | Lecture cover, instructor/Helwan attribution, and objectives/ILOs | Provenance and teaching objectives; command verbs describe intended learning, not present candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 3–9 | Apoptosis definition, physiologic/pathologic examples, morphology, intrinsic/extrinsic pathways, apoptotic-body histology, necrosis-versus-apoptosis diagram, and completed comparison table | Declarative and diagnosis-disclosing teaching. Page 4's `(why??)` is embedded in the supplied mechanism list and resolved by the same pathway's membrane integrity and rapid phagocytosis; it is an instructor-rhetorical callout, not a learner operation; **0 / 0 / 0**. |
+| 10–15 | Clinicopathological cell-injury examples; intracellular-accumulation classes; hyalinosis and mucoid-change definitions, morphology, examples, and completed micrographs | Completed teaching and labelled plates; **0 / 0 / 0**. |
+| 16–21 | Endogenous/exogenous pigment map; pathological pigmentation; melanin, hemosiderin/hemosiderosis/hemochromatosis, lipofuscin, and brown atrophy | Declarative teaching and completed causal/clinical statements; **0 / 0 / 0**. |
+| 22–29 | Amyloidosis definition, morphology, stains, completed renal images, AL/AA patterns, and renal, hepatic, splenic, cardiac, and gastrointestinal involvement | Declarative teaching and diagnosis-disclosing images; **0 / 0 / 0**. |
+| 30–33 | Pathologic calcification definition/morphology, dystrophic/metastatic/stone patterns, gout morphology, and completed gross/microscopic gout images | Declarative teaching and completed labels; **0 / 0 / 0**. |
+| 34 | `Thank you` terminal slide | Closing residue only; **0 / 0 / 0**. |
+
+There is no exam heading, question set, candidate command, option set, blank, response control,
+answer register, written exercise, station label, time, marks, image-identification request, or
+student response anywhere in the carrier. The complete boundary is therefore **0 raw prompts, 0
+source-supplied answers, 0 unkeyed operations, 0 retained question records, 0 image prompts, 0
+drawing tasks, and 0 practical stations**. All objective verbs, completed definitions, diagrams,
+comparisons, image labels, question-mark callouts, decorations, and closing matter are assigned
+without becoming assessment evidence.
+
+### Preferred-twin/prior-BMS reconciliation and governed zero-search gate
+
+The carrier revisits the exact Family-93 teaching arc—apoptosis, intracellular deposits,
+pigmentation, amyloidosis, calcification, and gout—while omitting only three annotation inserts.
+Declarative or completed-label overlap cannot create a tested-handle reuse without a present
+learner operation. Family 195 therefore yields **0 accepted handles / 0 prior-BMS reuse
+assignments / +0 concepts**. Exactly four searches are required only per accepted handle, so the
+source-first gate is **`0 accepted handles × 4 = 0 required and completed searches`**. No search
+packet is fabricated for a rhetorical callout, completed comparison, labelled image, or twin-page
+alignment.
+
+### Family-195 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 195 source-local / eligible delta | Auxiliary cumulative (Families 12–195) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 / +0 | 2,549 | 762 | 3,311 |
+| Source-supplied answers | 0 / +0 | 1,669 | 405 | 2,074 |
+| Retained question records | 0 / +0 | 2,257 | 552 | 2,809 |
+| Accepted handles / required searches | 0 / 0 | 2,039 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | — |
+| Cross-family concept delta | +0 | +972 over primary | 372 | 1,344 |
+| **Distinct tested concepts** | **0 source-local / +0** | **972 additions** | **372** | **1,344** |
+
+Checksums: `0 prompts`; `0 answers`; `0 retained`; `0 handles`; `0 × 4 = 0 searches`; and `0 -
+0 = +0 concepts`. Auxiliary remains **2,549 prompts / 1,669 answers / 2,257 retained / 2,039
+handles / +972 concepts**. Primary remains **762 / 405 / 552 / 372**. All eligible remains
+**3,311 / 2,074 / 2,809 / 1,344**.
+
+Family 195 establishes Helwan theoretical teaching and exact preferred-twin context only, not an
+exam sitting, official departmental key, mark weight, candidate response, practical station,
+tested recurrence, readiness, or claims status.
+
+### Exact next debt after Family 195
+
+`src_f777eedff88b6dca2166` is exhausted across all 34 pages: every visible authority and metadata
+field, objective, teaching statement, mechanism, completed comparison, gross/microscopic image,
+rhetorical callout, preferred-twin page alignment and omission, zero-search term, closing residue,
+and arithmetic term is assigned once, with **zero source remainder** and no Family-195 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_50d9ef5f2db5dc46e3e3` ·
+`Main-stream-circulatory-1-new.pdf`, SHA-256
+`50d9ef5f2db5dc46e3e3b10da4844e90c8c4cee5d94b7a0fc800960d83e939da`, **1,970,473 bytes**,
+**50 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 4 - Circulation
+1`. Its first visible pages identify Academic Year 2025/2026, Year 1, Semester 2, BMS-102,
+**Nahed Soliman**, Head of Pathology Department, and 28 February 2026, while metadata names
+`Mohammed Abdel-Latif` with the same date. Its complete visible authority/date boundary,
+teaching/prompt/key/callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
