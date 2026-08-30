@@ -13065,3 +13065,125 @@ without the pre-extension space (4,550,145 bytes; 74 OCR-needed pages; SHA-256
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 116 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 115 — Tier-3 external Cairo first-year Anatomy examination compilation, 2016–2019
+
+### Exact identity, authority and complete 74-page OCR boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_1f152cb8c8b69e12a7ab` / `1f152cb8c8b69e12a7ab16bfe060635bff4ae193eebce8b82a70fc2c7c12f647` |
+| File / boundary | Manifest `MCQs - External MCQs Anatomy MCQ Previous exams [103] .pdf`; normalized local filename omits the pre-extension space · 4,550,145 bytes · unencrypted, untagged PDF · 74 physical A4 pages · OCR needed |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy MCQ Previous exams [103] .pdf` |
+| Visible provenance | The compilation cover prints `Anatomy examinations 1st year - 2016-2019`. Ten included sets visibly carry Cairo University / Faculty of Medicine / Anatomy Department headings, first-year Anatomy labels, dates from 18 June 2016 through 5 August 2019 and, on the newer papers, `M.B.B.CH.` / `ANA-101`. |
+| Authority finding | The visible university, department, exam labels and dates establish ten Cairo University examination sets. They do **not** establish Helwan, LCS-103-cohort or Helwan-key authority. Circled choices, handwritten matching letters and handwritten short responses are source/learner annotations, not an official printed key. The source therefore remains external and cannot change eligible Helwan counts. |
+
+The assigned hash, byte size and 74-page boundary were recomputed and match. Every page was
+rendered at 150 dpi, OCRed pagewise and read visually in eight ordered contact sheets; all
+section transitions, matching tables, handwritten response areas and final-page endpoints
+were then checked at full-page resolution. The source PDF itself was not changed.
+
+Four pages carry no assessment occurrence: p. 1 is the compilation title, pp. 2 and 16 are
+blank separators, and p. 34 is blank. The remaining 70 pages contain these ten complete
+source sets:
+
+| Physical pages | Visible set | Declared template | Physical prompts | Actual answer content | LCS-retained prompts | Retained answer content |
+|---|---|---:|---:|---:|---:|---:|
+| pp. 3–8 | 2018/2019 Final, First-Year Rest, 5 Aug 2019 | 85 | 84 | 58 | 30 | 25 |
+| pp. 9–15 | 2018/2019 Final, First-Year Reset, 15 May 2019 | 85 | 83 | 57 | 30 | 25 |
+| pp. 17–24 | 2017/2018 Final, 28 Aug 2018 | 85 | 85 | 59 | 30 | 25 |
+| pp. 25–33 | Final, 3 Jun 2018; source prints academic year `2018/2017` | 85 | 85 | 61 | 32 | 28 |
+| pp. 35–38 | 2017/2018 Midyear, Jan 2018 | 25 | 25 | 20 | 3 | 3 |
+| pp. 39–46 | 2016/2017 Final Reset, 21 Aug 2017 | 85 | 85 | 55 | 33 | 24 |
+| pp. 47–54 | 2016/2017 Final, 19 Jun 2017 | 85 | 85 | 55 | 31 | 21 |
+| pp. 55–58 | 2016/2017 Midyear, 15 Jan 2017 | 25 | 25 | 20 | 3 | 2 |
+| pp. 59–66 | First-Year Anatomy Examination, 28 Aug 2016 | 85 | 85 | 60 | 32 | 27 |
+| pp. 67–74 | First-Year Anatomy Examination, 18 Jun 2016 | 85; header says 9 pages | 85 on physical pp. 1–8 | 60 | 32 | 27 |
+| **Family 115** | **ten visible Cairo sets** | **eight 85 templates + two 25 templates** | **727** | **505** | **256** | **207** |
+
+The first two full papers do not physically instantiate their declared 85-prompt templates.
+Their case sections contain respectively 14 and 13 independently numbered/lettered parts,
+not 15. No missing part is inferred, so the exact physical arithmetic is
+`84 + 83 + (6 × 85) + (2 × 25) = 727`. The final 18 June 2016 header says nine pages, but
+the compilation contains printed pages 1–8 and reaches `Good luck`; this discrepancy is
+preserved and no absent ninth page is invented.
+
+The exact section and module gate closes as follows:
+
+| Source format | All prompts | All actual annotations | Retained LCS prompts | Retained annotations | Excluded prompts | Excluded annotations |
+|---|---:|---:|---:|---:|---:|---:|
+| MCQ | 280 | 280 | 105 | 105 | 175 | 175 |
+| Cross-match rows | 120 | 75 | 40 | 35 | 80 | 40 |
+| Short-answer questions | 90 | 0 | 33 | 0 | 57 | 0 |
+| Fill/list prompts | 120 | 77 | 40 | 34 | 80 | 43 |
+| Independently answerable case parts | 117 | 73 | 38 | 33 | 79 | 40 |
+| **Total** | **727** | **505** | **256** | **207** | **471** | **298** |
+
+Thus the governed LCS boundary is **256 external prompt occurrences = 105 MCQs + 151
+written/structured occurrences / 207 source-marked keys-or-answers / 49 unkeyed
+occurrences**. Arithmetic closes as `256 + 471 = 727`, `207 + 298 = 505`, and
+`105 + 40 + 33 + 40 + 38 = 256`. Bare ticks beside short-answer or blank prompts show
+selection only and are not answer content. Blank matching rows, unanswered fill items and
+unanswered case parts remain unkeyed. No answer is inferred or medically repaired.
+
+The retained material is limited to accepted LCS-103 locomotor foundations and lower-limb
+Anatomy. Upper-limb, breast, Thorax, heart, lung, mediastinal and embryology occurrences are
+the **471 excluded prompts** and do not enter the external checkpoint. Clinical stems that
+mention a radiograph contain prose only: the PDF supplies no diagnostic image, specimen,
+model, dissection, station, masked label or response plate. Compilation covers and blank
+separators are provenance/layout, not teaching plates. Practical and teaching deltas are
+therefore exactly zero.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 256 retained occurrences collapse to **15 source-distinct tested handle families**:
+locomotor bone/joint/cartilage and muscle-action foundations; gluteal region and sciatic
+foramina; hip joint and stability; thigh muscles and innervation; femoral triangle, sheath,
+canal and hernia; posterior thigh and sciatic nerve; lower-limb arteries and anastomoses;
+superficial veins and lymphatics; knee joint and menisci; popliteal fossa and neurovascular
+contents; leg compartments, muscles and nerves; ankle/foot joints and movements; foot
+muscles, tendons, retinacula and arches; lower-limb cutaneous supply; and clinical
+lower-limb injury localization. The per-set and per-format tables above are the occurrence
+authority; repeated questions across sittings are preserved as separate source occurrences
+but do not manufacture second concepts.
+
+Each handle received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **15 × 4 = 60 required search invocations**.
+Prior-external-first comparison finds all 15 handles already represented across Families 86,
+94, 103 and 107–114. Accepted Families 39–48 independently own or corroborate the
+lower-limb curriculum, while earlier accepted locomotor foundations corroborate the small
+foundation subset; none can promote this Cairo source into eligible Helwan evidence.
+Reconciliation is **15 prior-external reuses + 0 external additions = 15**, so external and
+eligible concept-state deltas are zero. The exact query and result ledgers are preserved at
+`tmp/pdfs/lcs103-family115/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family115/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,571 / 3,484 / 221 = 12 / 135 / 74** to **3,827 external prompts / 3,691
+source-marked keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `3,571 + 256 = 3,827`, `3,484 + 207 = 3,691`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-114 remainder. Removing its sole path leaves
+**115 all-rank path instances / 107 unique hashes**: tier 3 **33 paths / 30 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 114's prior checksums are
+`8afb25406bf2ba6072701a3fbb4641b6f754ce563d865cf19518626ab8085090` (paths) and
+`7d6e59872e12b82cadd40556f615f3158aa735fa3b4ce5d233245e3438b38bb` (unique hashes).
+For the exact post-Family-115 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`f29b98282ccaffa42da46576d9b29dbd35b65b578b5406bee71d251da3bbb86e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`bd34b72ec628a06bc30974b11d362cea4d711950123bc1d4c912209f5da304df`.
+
+The exact next tier-3 manifest-order debt is `src_a6a90ca50130b3567512`,
+`MCQs - External MCQs Anatomy MCQ by Dr.ALAA [MSK2][Part.1].pdf` (107,752 bytes; four
+native-text US-Letter pages; SHA-256
+`a6a90ca50130b3567512f495c9ddfc80646ca8c7a87a767f243145e5df7fc5ee`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 115 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
