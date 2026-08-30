@@ -19151,3 +19151,108 @@ unencrypted; PDF 1.7; SHA-256
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 50 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 181 — Tier-6 attributed paired leg-and-foot practical self-test and teaching plates
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_3518e21a24251a82f9b6` / `3518e21a24251a82f9b69e8f98304ab5f1fcdb6182ace61fcf0215df3ba59aac` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/leg _0foot_250703_124017.pdf` |
+| Physical verification | **462,822 bytes; 17 native-text 960 × 540 pt pages; untagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | P. 1 prints `Leg&Foot` and `Dr.Nourhan Elsadany`. Metadata supplies PDFium creator/producer only and no author, title, institution or creation date. No page prints a university, cohort, module code, examination sitting, marks or official-key label. |
+| Authority finding | Attributed local tier-6 lower-limb practical revision evidence. The manifest placement and visible lecturer name do not establish a recoverable Helwan sitting or official marking guide. The paired numbered plates and delayed answer pages nevertheless preserve practical self-test prompts and source keys. |
+
+All **17/17 pages** were rendered at 160 dpi, inspected at full resolution and read against
+the complete native text layer; all 17 complete-page render hashes are distinct. The source
+contains one title page, seven numbered assessment plates, seven immediately following answer
+pages and two fully labelled teaching plates. The exact physical boundary is:
+
+| Pages | Source-first composition | Prompt / key / teaching inventory |
+|---:|---|---:|
+| 1 | `Leg&Foot` title and `Dr.Nourhan Elsadany` attribution | 0 |
+| 2 → 3 | anterolateral-leg and dorsum-foot model, numbers 1–5 followed by the five-name answer list | 5 practical identify prompts / 5 practical keys |
+| 4 → 5 | lateral-leg/ankle model, numbers 1–6 followed by the six-name answer list | 6 prompts / 6 keys |
+| 6 → 7 | anterior/lateral-leg, dorsum-foot and retinacula model, numbers 1–10 followed by the ten-name answer list | 10 prompts / 10 keys |
+| 8 → 9 | anterior-leg neurovascular/retinacular model, numbers 1–4 followed by the four-name answer list | 4 prompts / 4 keys |
+| 10 → 11 | anterior-leg and dorsum-foot neurovascular model, numbers 1–6 followed by the six-name answer list | 6 prompts / 6 keys |
+| 12 → 13 | deep posterior-leg/popliteal neurovascular and muscle model, numbers 1–6 followed by the six-name answer list | 6 prompts / 6 keys |
+| 14 → 15 | posterior-leg neurovascular and deep-muscle model, numbers 1–5 followed by the five-name answer list | 5 prompts / 5 keys |
+| 16 | supplied-label anterior ankle/foot image | 1 teaching plate / 2 mappings: superior and inferior extensor retinacula |
+| 17 | supplied-label posterolateral leg/ankle image | 1 teaching plate / 4 mappings: gastrocnemius, Achilles tendon and superior/inferior peroneal retinacula |
+| **Total** | **complete 17-page boundary** | **42 practical prompts / 42 practical keys / 2 teaching plates / 6 mappings / 0 residues** |
+
+Prompt/key arithmetic is **42 = 5 + 6 + 10 + 4 + 6 + 6 + 5** and every numbered callout
+has exactly one same-number delayed answer. The seven numbered images are assessment plates,
+not simultaneous teaching plates or mappings; the seven answer-list pages are key evidence,
+not second prompts or teaching compositions. Conversely, pp. 16–17 supply every label
+simultaneously and therefore contribute teaching plates/mappings but no prompt or key.
+
+There are **0 eligible or external ordinary assessment prompts / 0 MCQ prompts / 0 written
+prompts / 0 ordinary keys-or-answers / 0 unkeyed prompt occurrences**. The source is a local
+tier-6 revision deck without sitting authority, so its 42 image-identification occurrences
+remain in the separated practical ledger rather than being promoted into eligible or external
+ordinary-assessment totals. No numbered callout is unresolved, and there is no response field
+beyond the numbered identification convention, so practical residue is zero.
+
+Source truth is preserved without medical or editorial repair. This includes `peroneus`
+alongside `fibularis`, `it’s tendon is the 2nd tendon`, `it’s tendon is the 1st tendon`, the
+printed equivalence between the inferior limb of the inferior extensor retinaculum and
+`inferior peroneal retinaculum`, `Anterior tibial Nerve`, `Popliteous`, `Tendon achilis`,
+capitalisation/spacing and every printed artery–nerve grouping.
+
+### Practical handles, exact searches and prior-LCS reconciliation
+
+The seven prompt/key pairs and two supplied-label plates consolidate to three complete
+practical identification handles. Every prompt occurrence is assigned once within these
+handles; repeated structures across views remain source occurrences but do not manufacture
+additional concept scopes.
+
+| Practical tested/teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `anterolateral-leg-and-dorsum-foot-muscle-retinaculum-model-identification` · pp. 2–7, 10–11, 16 | anterior lateral leg model tibialis anterior extensor hallucis digitorum fibularis; dorsum foot muscle model extensor retinaculum; fibularis longus brevis tertius model; superior inferior extensor peroneal retinacula identification | Accepted Families 34, 37, 43–44, 48 and 158 jointly own the complete muscle/retinaculum identification scope — prior-LCS reuse. |
+| `leg-foot-anterior-neurovascular-model-identification` · pp. 6–11 | anterior tibial artery deep peroneal nerve model; dorsalis pedis artery ankle model; medial dorsal cutaneous nerve foot model; anterior leg neurovascular retinaculum identification | Accepted Families 34, 37, 43 and later lower-limb practical/tested evidence own the complete neurovascular identification scope — prior-LCS reuse. |
+| `posterior-leg-deep-muscle-neurovascular-and-achilles-model-identification` · pp. 12–15, 17 | posterior leg model tibialis posterior flexor hallucis digitorum; posterior tibial artery tibial nerve model; popliteus common peroneal nerve posterior leg model; gastrocnemius Achilles tendon peroneal retinacula model | Accepted Families 33–34, 37, 42, 44 and 155–159 jointly own the complete posterior-leg model scope — prior-LCS reuse. |
+
+Each of the **three accepted handles** received exactly one query on each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **3 × 4 = 12 required search invocations**. The literal combined-query ledger returns
+no exact file hit on any surface; source-first component and complete-scope comparison against
+the accepted ledger establishes **3 prior-LCS reuses / 0 additive live / 0 additive pending /
+0 additive new practical scopes**. Search absence is not used to erase the 42 prompt/key
+occurrences or repair their source wording.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every ordinary-assessment delta is zero.
+
+Practical totals advance from **20 prompts / 514 plates / 3,010 mappings / 156 residues / 13
+keys** by **+42 / +2 / +6 / +0 / +42** to **62 prompts / 516 plates / 3,016 mappings /
+156 residues / 55 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `20 + 42 = 62`, `514 + 2 = 516`, `3,010 + 6 = 3,016`, `156 + 0
+= 156`, `13 + 42 = 55` and `0 + 0 + 92 = 92`.
+
+This source hash occurs once in Family 180's remainder. Removing its sole path changes the
+all-rank remainder from **50 paths / 47 unique hashes** to **49 paths / 46 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **35 paths / 35 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 180's prior checksums are
+`7deaba7ab314175af1eae85275c8042014dd7fc25165edbea1a9a85b81e6df54` (paths) and
+`eb45e0650ed0355d8549b2bbff5482e2a70236da3e653c9f119a0ca51f09c912` (unique hashes).
+For the exact post-Family-181 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`5b39a3bf828f595b969b5f11c43a744e3cc9511d9906a767011090d065468ccd`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e231cc4b9fa7fe889cba162c220b03973ca704b88c5a12cca52937faeefe717f`.
+
+The exact next manifest-order debt is tier-6 `src_ac0216d26008c743b92c`, manifest
+`muscle  phiso.pdf` and normalized local `muscle phiso.pdf` (6,646,960 bytes; 17 OCR-needed
+portrait-A4 pages; untagged; unencrypted; PDF 1.7; SHA-256
+`ac0216d26008c743b92c3a482cb2c51437a5ddc6ee42ecc493655347fdfb62bb`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page is
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 49 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
