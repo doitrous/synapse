@@ -3407,3 +3407,41 @@ Removing the eighty-four processed unique hashes leaves **17 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Spaces midterm (By Yumna).pdf`, SHA-256 `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`, 2 pages.
 
 **BLOCKED — S1 cannot be approved:** 17 selected inventory paths / 17 unique hashes remain untriaged.
+
+## Completed teaching-only source — Spaces midterm (By Yumna)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Spaces midterm (By Yumna).pdf` | `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec` | 2 | empty-text audit sample | pages 1–2 rendered and read | Filename-attributed Yumna handwritten teaching notes scanned with CamScanner. Metadata title is `Spaces midterm`, author is `CamScanner`, and iOS Quartz creation/modification is dated 31 October 2024. The pages and metadata name no institution, department, examiner, sitting, marks or official key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Spaces midterm (By Yumna).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+The two scanned notebook pages are teaching notes on four anatomical spaces: the lower triangular space, upper triangular space, quadrangular space and deltopectoral triangle. For each space, the notes provide some combination of location, directional boundaries and transmitted structures. Question-mark shorthand such as `bounded?`, `superiorly?` and `passing through?` is followed immediately by explanatory text and functions as note organization rather than an instruction requiring a learner response.
+
+The exact boundary is **2 teaching-only pages / 4 anatomical-space profiles / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. No response lines, option sets, marks, station directions or unlabeled figures appear.
+
+### Authority, source truth and search gate
+
+The filename establishes learner-level attribution to Yumna only. CamScanner authorship, iOS production metadata, folder placement and filename-only `midterm` wording do not authenticate a MUST/MSK assessment, examiner or faculty key. Selective facts, handwriting, spelling such as `deto pectrol`, page-edge clipping and the visible incomplete phrase `presents inferior and lateral` remain source observations without reconstruction or academic correction.
+
+No assessment prompt or candidate handle exists, so source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Prior-MSK prompt deduplication is not applicable to teaching-only notes.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **6997 questions / 6793 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6997 | 6793 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-five processed unique hashes leaves **16 selected inventory paths / 16 unique SHA-256s**. Their sorted, newline-joined hash checksum is `b9d055f7e745b67df4c9f3bb05c2a7c6c03a4ad75bb43b5191214ec074de1618`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 4 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`85 + 16 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Summary of mammary gland (by nay).pdf`, SHA-256 `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 16 selected inventory paths / 16 unique hashes remain untriaged.

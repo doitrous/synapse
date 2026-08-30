@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The eighty-four completed read-only source hashes cover eighty-six selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed three-page `Pectoral region notes (by Maii Mahmoud✨).pdf`, SHA-256 `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424`, is a teaching-only illustrated handout containing **3 muscle profiles and 12 explanatory origin/insertion/nerve/action fields / 0 objective / 0 written / 0 practical or image-identification prompts / 0 keys or unkeyed assessment prompts**. Maii Mahmoud's visible byline and filename support a named learner artifact only; CamScanner/iOS metadata provide no institution, examiner, sitting, marks or official-key claim. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The eighty-five completed read-only source hashes cover eighty-seven selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed two-page `Spaces midterm (By Yumna).pdf`, SHA-256 `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`, is a handwritten teaching-only summary of **4 anatomical spaces with their locations, boundaries and transmitted structures / 0 objective / 0 written / 0 practical or image-identification prompts / 0 keys or unkeyed assessment prompts**. Filename attribution supports a learner-created Yumna artifact only; CamScanner/iOS metadata and filename-only `midterm` wording provide no institution, examiner, sitting, marks or official-key claim. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424`.
+Latest processed family hash: `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`.
 
-Recent processed family hash retained for reconciliation: `7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043`.
+Recent processed family hash retained for reconciliation: `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -78,8 +78,10 @@ Current teaching-source append: `7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d
 
 Current teaching-source append: `c7f2aa84bf424a45e1eac78bacd3fa7d0e262df52bba6e01bd33d3940c3cf424`.
 
-Removing them leaves **17 inventory paths / 17 unique SHA-256s**, checksum `2e0744ef8896b190d28932df7752958adf8be7268e124dc3f543d6531aaaac9b`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 5 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Spaces midterm (By Yumna).pdf`, SHA-256 `bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec`, 2 pages.
+Removing them leaves **16 inventory paths / 16 unique SHA-256s**, checksum `b9d055f7e745b67df4c9f3bb05c2a7c6c03a4ad75bb43b5191214ec074de1618`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 4 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 17 selected inventory paths / 17 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Summary of mammary gland (by nay).pdf`, SHA-256 `3d491c6e0d2e17c494a97126f88daa9799833ce19f7337031baca928ab2fd6aa`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 16 selected inventory paths / 16 unique hashes remain untriaged.

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "1986480970a4f29fe5b0d9267b89ee2664e417970f99f9b443a22f875a7b8dae",
-    "triageMarkdown": "80f717047b99dd73ebad373a2598869b155b7c02f690bbeb9853f11af14a11cf"
+    "readinessMarkdown": "39e5084224133c5582a77aa40ce9bf4a5583d5dc1c277d300268bf3b44ef9d7e",
+    "triageMarkdown": "bf6061f3987c95ec8e42616bfc1a138bf8872489de73b54d68a471f252b8f295"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -113,6 +113,7 @@
       "b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22",
       "bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7",
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
+      "bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec",
       "be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4",
       "c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64",
       "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
@@ -136,7 +137,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 84
+    "uniqueSha256": 85
   },
   "completedSourceCoverage": [
     {
@@ -2698,6 +2699,34 @@
         "text clipped within embedded notebook photographs is retained only as visible and is not reconstructed",
         "labeled third-party illustrations remain teaching aids and are not manufactured into practical prompts"
       ]
+    },
+    {
+      "sha256": "bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec",
+      "sourcePages": 2,
+      "renderedReadPages": "1-2",
+      "teachingPages": "1-2",
+      "anatomicalSpaceProfiles": 4,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Yumna handwritten teaching notes scanned with CamScanner and produced by iOS Quartz on 31 October 2024; no institution, department, examiner, sitting, marks or official-key claim appears, and filename-only midterm wording is not assessment authority",
+      "boundaryDisposition": "two teaching-only pages profile the lower triangular, upper triangular, quadrangular and deltopectoral spaces through immediately supplied locations, boundaries and transmitted structures; question-mark shorthand organizes notes and does not create objective, written, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "source spelling including deto pectrol remains uncorrected",
+        "page-edge clipping and the visibly incomplete phrase presents inferior and lateral are not reconstructed",
+        "selective boundary and transmitted-structure facts remain source observations rather than endorsed anatomy claims"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2709,22 +2738,22 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 17,
-    "uniqueSha256": 17,
-    "sortedNewlineSha256": "2e0744ef8896b190d28932df7752958adf8be7268e124dc3f543d6531aaaac9b",
+    "inventoryMetadataRows": 16,
+    "uniqueSha256": 16,
+    "sortedNewlineSha256": "b9d055f7e745b67df4c9f3bb05c2a7c6c03a4ad75bb43b5191214ec074de1618",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
-      "empty-text": 5
+      "empty-text": 4
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
-    "empty-text": 5
+    "empty-text": 4
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 84,
-    "remainingUniqueSha256": 17,
+    "processedUniqueSha256": 85,
+    "remainingUniqueSha256": 16,
     "processedPlusRemaining": 101
   }
 }
