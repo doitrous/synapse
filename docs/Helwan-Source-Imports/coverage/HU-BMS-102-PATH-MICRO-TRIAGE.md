@@ -21818,3 +21818,72 @@ visibly shows a completed `The Two States of a Drug Molecule` comparison attribu
 soluble, non-polar, and non-charged. The filename timestamp is not an authenticated teaching or
 assessment date. Its provenance, teaching/prompt/answer/annotation boundary, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 211 — completed Dr-Elsawy ionized-versus-unionized drug-state comparison
+
+### Source identity, complete full-resolution boundary, authority, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_43552ab55cdf37e1d291` · `2026-07-20 06.26.34.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `43552ab55cdf37e1d291ae1379e0bf2cb3bc9644baa2dbc253ba87d8c3b44045` · **59,100 bytes** |
+| Format / complete read | **One 1280×673 landscape progressive JPEG**, JFIF 1.01 at 96 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. |
+| Complete visible content | The finished title is `The Two States of a Drug Molecule`, with `Dr-Elsawy` printed at centre. The blue `Ionized Drugs` side uses a `+/−` droplet and completed properties `Water soluble`, `Polar`, and `Charged`. The orange `Unionized Drugs` side uses a `0` droplet and completed properties `Fat soluble`, `Non-polar`, and `Non-charged`. |
+| Visible/metadata provenance | `Dr-Elsawy` is visible source attribution. No university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. Exact Helwan BMS-102 notes-folder placement establishes contextual course placement only, while the filename timestamp remains a sequence aid rather than an authenticated teaching date or sitting. |
+| Sequence relation | The image condenses Families 206 and 210 into a two-column state comparison. The exact next `.06.26.41` carrier moves to a handwritten bile/portal-vein recycling map. Adjacency supports reading order and thematic continuity only; it does not create assessment recurrence. |
+| Authority | Low-authority attributed teaching comparison. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, checklist-icon, prompt, answer, annotation, and practical boundary
+
+All six properties are already printed beside coloured tick icons. The ticks are graphic bullets
+confirming membership in each completed column; they do not mark learner selections, correctness,
+or a source-supplied assessment key. The charged and neutral droplet symbols are explanatory icons.
+There is no imperative, interrogative, blank, option set, response area, mark allocation, delayed
+key, unlabeled specimen, requested identification, handwriting, or candidate answer.
+
+The source therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences
+/ 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**. Its state/property distinctions overlap Families 202, 206, and
+210, but completed declarative overlap is not a tested-proposition recurrence, so no prior-BMS
+handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 211 | Auxiliary cumulative (Families 12–211) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 211
+establishes completed attributed drug-state teaching and manifest-sequence evidence only, not
+assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 211
+
+`src_43552ab55cdf37e1d291` is exhausted at full image resolution: every visible title, state label,
+property, tick/icon, attribution, divider, provenance limitation, timestamp caution, sequence
+relation, zero gate, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-211 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_4376fa002af8022dd501` ·
+`2026-07-20 06.26.41.jpg`, SHA-256
+`4376fa002af8022dd50150d6e1c100a7ed57ab7f2336bb231d44bd7679d2a49a`, **155,117 bytes**,
+**1280×1033 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed bilingual handwritten sheet headed `Break through Pregnancy`, with a
+liver/bile/common-bile-duct/gut/portal-vein recycling map, contraceptive-pill conjugation,
+bacterial-enzyme deconjugation, prolonged action, and a broad-spectrum-antibiotic note. The
+filename timestamp is not an authenticated teaching or assessment date. Its heading-versus-map
+semantics, provenance, teaching/prompt/answer/annotation boundary, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
