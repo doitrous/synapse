@@ -17557,3 +17557,96 @@ SHA-256 `f92909cf945285c515a8f0eb75bb0d00002d63bbd82e23a780a8e4b7005fd2d2`) unde
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 67 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 164 — Tier-6 posterior-thigh origin/insertion/nerve/action teaching composition
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f92909cf945285c515a8` / `f92909cf945285c515a8f0eb75bb0d00002d63bbd82e23a780a8e4b7005fd2d2` |
+| File / boundary | `5 post part 2.pdf` · 5,287,784 bytes · PDF 1.4 · tagged · unencrypted · one native-text page · 768 × 576 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/5 post part 2.pdf` |
+| Visible / metadata provenance | The page is titled `Hamstring “POSTERIOR Thigh”`; it prints no author, institution, lecturer, module, citation, exam label or key convention. Metadata names iOS 26.3.1 Quartz and 20 May 2026 creation/modification only. |
+| Authority finding | Manifest placement establishes local LCS-103 summary evidence. With no visible authorship, it is unattributed tertiary teaching evidence, not an assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, one-page boundary and geometry were recomputed and match. The
+page was rendered at 160 dpi, inspected at full resolution and read against its complete native
+text. It contains a five-column `MUSCLE | ORIGIN | INSIRTION | NERVE | ACTION` table for biceps
+femoris, semitendinosus and semimembranosus; a supplied nerve-summary statement; two small
+biceps illustrations; and one larger labelled posterior-thigh illustration.
+
+There is **no assessment inventory**. No interrogative, instruction, blank, response field,
+mark allocation, option set, correctness mark or answer reveal appears. Every table cell and
+diagram pointer is already supplied. The exact assessment boundary is **0 eligible or external
+prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed prompts** and **0 practical/station
+prompts / 0 practical assessment keys**.
+
+Source wording is preserved without repair, including `INSIRTION`, `SGS`, `common peroneal
+part`, `common fibular part`, `Upper Lateral area of quadrangular part` and the duplicated
+wording `Supplied by All supplied by`. No anatomical wording is silently standardised.
+
+### Complete practical-plate, mapping and residue inventory
+
+The table and its embedded illustrations form **1 source-distinct integrated practical
+teaching plate**, not four independent plates. Unique directly printed relations are:
+
+| Mapping class | Unique mappings | Count |
+|---|---|---:|
+| Named posterior-thigh structures | biceps-femoris long head; biceps-femoris short head; semitendinosus; semimembranosus | 4 |
+| Origins | one supplied origin for each of those four structures | 4 |
+| Insertions | shared biceps-femoris insertion; semitendinosus insertion; semimembranosus insertion | 3 |
+| Nerve supplies | one supplied nerve relation for each of the four structures | 4 |
+| Actions | biceps knee flexion, lateral rotation and long-head hip extension; semitendinosus and semimembranosus each with knee flexion, medial rotation and hip extension | 9 |
+| **Total** | **complete unique mapping boundary** | **24** |
+
+The bottom nerve-summary sentence repeats the four table nerve relations and is retained as
+source evidence without a second mapping count. The small illustrations add no legible unique
+relation beyond the table and larger diagram. There is no mask, crop, blank or unresolved
+callout, so the exact practical boundary is **1 plate / 24 mappings / 0 residues**.
+
+### Source-first practical teaching scope, exact searches and prior-LCS reconciliation
+
+The composition consolidates to **1 practical teaching handle**: posterior-thigh hamstring
+identification with origins, insertions, nerve supply and actions. Its required search terms
+were `hamstring posterior thigh biceps femoris semitendinosus semimembranosus`; `hamstring
+origin insertion nerve action`; `biceps femoris long short head sciatic tibial common fibular`;
+and `posterior thigh hamstring labelled anatomy`.
+
+All **1 × 4 = 4 required search invocations** completed across live, pending/import-ready,
+prior source-import and accepted-LCS surfaces. Direct combined-string matches were zero on all
+four surfaces; exact accepted-prior comparison shows Families 37 and 42 plus later lower-limb
+practical/tested scopes jointly own every printed component. Disposition is therefore **1
+prior-LCS practical/theoretical reuse + 0 additive practical-teaching scopes**; practical
+teaching scopes remain **0 live / 0 pending / 92 new**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 463 plates / 2,774 mappings / 149 residues / 13
+keys** by **+0 / +1 / +24 / +0 / +0** to **20 / 464 / 2,798 / 149 / 13**. Arithmetic
+checks are `463 + 1 = 464`, `2,774 + 24 = 2,798`, `149 + 0 = 149` and `13 + 0 = 13`.
+
+This source hash occurs once in Family 163's remainder. Removing its sole path leaves **66
+all-rank path instances / 61 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **52 / 50**, and rank 9 **14 / 11**. Family 163's prior checksums are
+`52b11a85ed03af8751d3ea7cee93e275394cafe31ef8fd1417a8ee0f05cdf1cc` (paths) and
+`7d0e300bda8f2661ce49135bcf7f5eb1c167484c17e355d76545eb89a2e7dfa9` (unique hashes).
+For the exact post-Family-164 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b4706eb9a751ea9e792c716e5c492f6fe84cf7060b383ddaefb76675cfbfe651`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e9d44aa1c0b334c36127d147c48508285b00cb27a99b45d441f26c66c69734bb`.
+
+The exact next manifest-order debt is tier-6 `src_d8f5ce54a5ff1e06ec77`, `Bone Helwan.pdf`
+(898,870 bytes; six native-text A4 pages; unencrypted; SHA-256
+`d8f5ce54a5ff1e06ec7763872946918d3e12ee72243d99705edb8a86fccfe7df`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 66
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.

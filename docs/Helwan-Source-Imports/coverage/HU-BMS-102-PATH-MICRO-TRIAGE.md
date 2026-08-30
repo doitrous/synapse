@@ -19432,3 +19432,124 @@ not become another family. The exact next unprocessed manifest record is tier-9
 native-text portrait A4 pages** under `Pathology / Questions`. Its visible authority, complete
 prompt/key boundary, tier-9 eligibility, four-search/prior-BMS disposition, arithmetic, and
 subsequent exact next-source debt remain to be separately reconciled.
+
+## Family 185 — Dr Ahmed Hassan circulatory-disturbance question and written bank
+
+### Source identity, skipped-alias continuity, complete visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-9 `src_78d43325a1bdcfbceab8` · `Questions circulatory disturbance (1).pdf` under the exact local `Pathology / Questions` folder |
+| SHA-256 / exact size | `78d43325a1bdcfbceab83304fe44f961e47c6bc6156d99d9e46729115773a668` · **470,643 bytes** |
+| Skipped exact duplicate before this source | The immediately preceding manifest alias `src_9bca614057658d04392e` · `PATHO Q-BANK.pdf` has the same SHA as the 73-page Family-159 object and therefore remains **0 second content**: no second family, prompts, answers, records, handles, searches, or concepts. Family 185 begins at the next unique object. |
+| Format / complete read | **37 native-text portrait A4 pages** at 595.32×842.04 pt. All 37 pages were rendered into 37 non-empty 910×1287 images and read at original detail. Coherent layout extraction contains **4,355 words / 65,183 bytes / 37 form feeds** and agrees with every rendered stem, option, right-margin answer, written response, blank line, footer, and terminal page. |
+| Visible provenance | Every page visibly prints `PATHOLOGY`, `Circulatory disturbance`, and `DR . AHMED HASSAN`; pages are numbered 1–37. This establishes instructor-attributed pathology/circulatory material. No university/faculty name, module number, academic year, exam date, candidate field, marks, or sitting label is visible. |
+| Metadata caution | PDF metadata names `Hossam mohammed` and records Microsoft Word 2019 production on 25 March 2025. The repeated visible Dr Ahmed Hassan credit controls source-facing attribution; metadata is retained only as carrier history and cannot establish a teaching year or sitting. |
+| Authority / tier-9 eligibility | The standing Family-73 exception admits tier-9 material as low-authority **auxiliary** evidence when it is in the exact Helwan Year-1 BMS-102 corpus, has no external-university hint, and is module-aligned. Exact local placement, the repeated instructor/topic identity, and absence of an external marker meet that narrow rule. The source does not enter primary counts and does not establish an official paper, sitting, departmental key, recurrence, or mark weight. |
+
+### Complete prompt, answer, anomaly, teaching, and practical boundary
+
+| Pages | Complete source block | Prompt / supplied-answer boundary |
+|---:|---|---:|
+| 1–7 | First `MCQ on Circulatory disturbance` block, printed Q1–Q33 | **32 MCQs / 32 right-margin answers**. Printed `12.` and `13. EXCEPT:` are one continuous stem with one option set and one answer, not two questions. |
+| 8–9 | `Written Questions` numbered 7, 8, 18, 19, 20, 39, and 46 | **7 written prompts / 7 adjacent supplied answers**. Q46 requests a definition and types of gangrene, but its supplied answer gives only the definition; this is one visibly partial source answer, not an inferred complete key. |
+| 10–15 | Second MCQ block Q1–Q18 | **18 MCQs / 18 right-margin answers**. |
+| 16–19 | Second MCQ block Q19–Q29 | **11 MCQs / 0 answers**. No right-margin letter, underline, tick, or later key is visible. |
+| 20–28 | `Written Questions on circulatory disturbance part 1`, Q1–Q50 | **50 written prompts / 0 answers**; every response area is blank. |
+| 29–37 | `Written Questions on circulatory disturbance part 2`, Q1–Q50 | **50 written prompts / 0 answers**; every response area is blank through the terminal page. |
+
+The exact boundary is **168 raw prompt occurrences = 61 text MCQs + 107 written operations**,
+with **57 source-supplied answers + 111 visibly unkeyed operations**. The arithmetic is `32 + 7
++ 18 + 11 + 50 + 50 = 168`, `32 + 29 = 61 MCQs`, `7 + 50 + 50 = 107 written`, and `32
++ 7 + 18 = 57 answers`; therefore `168 - 57 = 111 unkeyed`.
+
+All right-margin letters and adjacent written responses remain source evidence without medical
+repair. The malformed Q12/Q13 numbering, Q46 partial answer, isolated numbering in the first
+written block, spelling/case variation, and blank second-block/written response areas are
+preserved exactly. Clinical vignettes remain text questions: there is **0 diagnostic image, 0
+drawing task, 0 practical station, 0 candidate response, and 0 residue**. Repeated headers,
+footers, page numbers, dotted response lines, and section titles are layout/provenance, not prompts.
+
+### Source-first literal retention and semantic collapse
+
+No complete stem is a literal same-source copy, so all **168 wordings** remain retained records.
+Source-first semantic adjudication removes **22** independently unneeded handles while preserving
+every occurrence and answer state:
+
+- second-block Q3→first-block Q25; Q6→written Q7; Q13→first-block Q20; Q18→second-block Q15;
+  and Q27→first-block Q25;
+- part-1 Q16→second-block Q7; Q23 and Q27→first written Q8; Q44→second-block Q8;
+  Q46→second-block Q9; and Q48→first-block Q17;
+- part-2 Q3→part-1 Q5; Q4→first-block Q18; Q23→second-block Q10; Q24→first-block Q23;
+  Q28→first-block Q33; Q33→second-block Q1; Q35→first written Q20; Q36→first-block Q21;
+  Q38→part-1 Q6; Q45→first-block Q22; and Q49→first-block Q25.
+
+These collapses cover the same tested propositions: venous emboli reaching the lungs,
+generalized-oedema causes, infarct/coagulative-necrosis association, malignancy-associated
+thrombosis, renal/periorbital oedema, transudate/exudate and haemorrhage classifications, shock,
+thrombus/postmortem clot, Virchow triad, immobility, hypercoagulable states, red/white thrombi,
+thrombus fate, embolism/thromboembolism definitions, and Caisson disease. Broader enumerations,
+specific mechanisms, site/ranking questions, and distinct clinical vignettes remain separate.
+Thus **`168 retained - 22 semantic reductions = 146 source-distinct tested handles`**.
+
+### Exactly four searches per handle and prior-BMS reconciliation
+
+Every one of the 146 accepted handles received exactly four fresh source-first searches across
+live governed state, `docs/questions-import-ready`, Helwan import coverage, and Families 1–184:
+**`146 × 4 = 584 required and completed searches`**. The four packets used a distinctive stem
+phrase, selected proposition, terminal phrase, and combined topic/mechanism phrase. External
+exact-scope disposition is **0 live / 0 pending / 146 no same-scope**; prior-family matching is
+adjudicated independently and does not depend on an external hit.
+
+Prior-BMS reconciliation assigns **113 handles** to already tested scopes and **33** to new scope.
+Reuse covers oedema/transudate mechanisms and distributions; haemorrhage, shock, infarction, and
+gangrene classifications; thrombus definitions, Virchow factors, Lines of Zahn, postmortem-clot
+contrast, fates, and embolic routes; DIC, malignancy, immobility, amniotic/fat/air/paradoxical
+emboli; and the governed case/ranking propositions in Families 118, 121, 142–143, 159–168, and
+the other prior circulatory families. The **33 deltas** are the narrower source-specific
+mechanisms/vignettes not previously tested at the same scope, including the procoagulant
+endothelial-activation composite, gallstone/outflow congestion case, thrombin-role composite,
+diabetic mesenteric-occlusion case, von-Willebrand platelet-adhesion case, fluid-homeostasis and
+feedback-control prompts, several haemorrhage-presentation/mechanism comparisons, selected
+granular thrombosis-risk mechanisms, fat-embolism-syndrome symptoms, parasite-specific emboli,
+and pulmonary-embolism clinical-sign scope. Therefore **`146 - 113 = +33 concepts`**.
+
+### Family-185 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 185 | Auxiliary cumulative (Families 12–185) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 168 | 2,286 | 762 | 3,048 |
+| Source-supplied answers | 57; 111 unkeyed | 1,543 | 405 | 1,948 |
+| Retained question records | 168 | 1,997 | 552 | 2,549 |
+| Accepted handles / required searches | 146 / 584 | 1,813 / — | — | — |
+| Prior-BMS handle reuses | 113 | — | — | — |
+| Cross-family concept delta | +33 | +939 over primary | 372 | 1,311 |
+| **Distinct tested concepts** | **146 source-local** | **939 additions** | **372** | **1,311** |
+
+Checksums: `61 + 107 = 168`; `57 + 111 = 168`; `168 - 0 literal exclusions = 168
+retained`; `168 - 22 = 146 handles`; `146 × 4 = 584 searches`; and `146 - 113 = +33`.
+Auxiliary arithmetic is `2,118 + 168 = 2,286`, `1,486 + 57 = 1,543`, `1,829 + 168 =
+1,997`, `1,667 + 146 = 1,813`, and `906 + 33 = 939`. All eligible arithmetic is `762 +
+2,286 = 3,048`, `405 + 1,543 = 1,948`, `552 + 1,997 = 2,549`, and `372 + 939 =
+1,311`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,286 prompts / 1,543 answers /
+1,997 retained / 1,813 handles / +939 concepts**. All eligible is **3,048 / 1,948 / 2,549 /
+1,311**. Family 185 establishes instructor-attributed auxiliary question-bank evidence only, not
+an official exam, sitting, departmental key, recurrence, mark weight, candidate response,
+practical station, readiness, or claims status.
+
+### Exact next debt after Family 185
+
+`src_78d43325a1bdcfbceab8` is exhausted across all 37 pages: every visible provenance and metadata
+field, numbered stem, option set, right-margin letter, adjacent or partial written answer, blank
+response area, numbering anomaly, format assignment, semantic collapse, search packet,
+prior-family relation, tier-9 limitation, skipped PATHO-Q-BANK alias, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-185 blocker.
+
+The exact next unprocessed manifest record is tier-9 `src_ec88cdf3bd17b9c05985` · `Questions on
+introductio & cell injury.pdf`, SHA-256
+`ec88cdf3bd17b9c059852e35f379a9fb588c0c3557509af65022cafedcf3937c`, **525,575 bytes**, **39
+native-text portrait A4 pages** under `Pathology / Questions`. Its visible authority, complete
+prompt/key/written boundary, tier-9 eligibility, four-search/prior-BMS disposition, arithmetic,
+and subsequent exact next-source debt remain to be separately reconciled.
