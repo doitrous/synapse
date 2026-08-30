@@ -14296,3 +14296,49 @@ normalized local file just read and is bitwise identical to this family; it requ
 adjudication with zero second content inventory. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 103 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 128 — Tier-3 normalized-name duplicate path for the Family-127 lower-limb bank
+
+### Exact duplicate-path adjudication
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_6eb6102ca9825ff408a3` / `6eb6102ca9825ff408a3a3a97da58504667f52b6818f6debc2f0b19ac23c94a4` |
+| Path record | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Lower limb MCQ.pdf` · 18,938,123 bytes · 55 physical pages · tier 3 |
+| Identity disposition | This path is the exact normalized-name file already used to prove the absent Zagazig-labelled manifest path in Family 127. Recomputed byte size and SHA-256 are identical. |
+
+Family 127 already rendered and read every one of the 55 pages and inventoried the unique
+content as **205 external MCQs / 185 printed keys / 20 unkeyed occurrences / 0 written
+prompts**, with zero practical or teaching delta. This second manifest path therefore receives
+**0 second content inventory / 0 second concept handles / 0 searches / 0 assessment delta /
+0 practical delta**. Its path multiplicity is consumed without duplicating prompts, keys,
+concepts, pages, grids or scan artifacts.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+remains **5,326 external prompts / 5,119 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**; all assessment deltas are zero.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical
+delta is zero.
+
+Removing this final path for the Family-127 hash leaves **102 all-rank path instances / 96
+unique hashes**: tier 3 **20 paths / 19 unique hashes within tier**, tier 6 **68 / 66**, and
+rank 9 **14 / 11**. Family 127's prior checksums are
+`e72bd3dc6eb4ecd34a555e31e86a1c2d434ba8c30066d1173e16bd1efcee9a40` (paths) and
+`a42b22a5ddc9eacbe212d145010db301725e8ae2dad19788dc36994538755e3d` (unique hashes).
+For the exact post-Family-128 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`50d41a2a586eb64bdb85b412f9e7cbc77e3e9d83ca8cd9acc358555e65a7f723`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`d36425674abf49a28e962b4c7c4812a3480960af062c7b4f77497a4d6c7646f9`.
+
+The exact next tier-3 manifest-order debt is `src_3a03c19bd374bb7ded17`,
+`MCQs - External MCQs Lower limb revision mcq2.pdf` (224,855 bytes; 4 physical pages;
+SHA-256 `3a03c19bd374bb7ded1759e319d1aa69e99c62e81ddcf2c8580b35829e5bf90f`). It remains
+unclassified until all pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 102 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
