@@ -18290,3 +18290,95 @@ bytes; 5 native-text portrait-A4 pages; unencrypted; 595.32 × 841.92 pt; SHA-25
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 59
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 172 — Tier-6 Helwan LCS bone, joint and tumour rapid-review compilation
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_1f7805b9fadd68dfc7e1` / `1f7805b9fadd68dfc7e1f4260fcfb01071fa0169bc256ed39b62f4c90f94535d` |
+| Manifest / normalized local path | Manifest `Year 1/LCS 103/All Subjects/Notes and Summaries/LCS   تجميعات حلوان.pdf`; normalized local `Year 1/LCS 103/All Subjects/Notes and Summaries/LCS تجميعات حلوان.pdf` |
+| Physical verification | **176,969 bytes; 5 native-text portrait-A4 pages; 595.32 × 841.92 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest object. |
+| Visible / metadata provenance | P. 1 prints `LCS تجميعات حلوان` (`LCS Helwan compilations`); metadata names author `Mohamed Shenawy`, Microsoft Word for Microsoft 365 creator/producer and 15 July 2025 creation/modification. No examination date, sitting, cohort, marks or answer-key label is printed. |
+| Authority finding | The explicit visible Helwan/LCS title and manifest placement establish local rapid-review teaching provenance. The source is not a recoverable sitting, response form, practical station or official marking guide. |
+
+All **5/5 pages** were rendered at 170 dpi, visually inspected at full resolution and read
+against the native text layer. Exact symbol counting and page comparison yield **93 top-level
+starred bullets + 64 subordinate arrow bullets = 157 declarative fact units**:
+
+| Physical page | Complete source-first domain boundary | Top-level + subordinate units |
+|---:|---|---:|
+| 1 | hereditary skeletal dysplasias; osteogenesis imperfecta; osteopetrosis; osteoporosis; rickets/osteomalacia; hyperparathyroid bone disease | 11 + 20 = 31 |
+| 2 | Paget disease; fracture types, healing and avascular necrosis; acute/chronic/haematogenous/TB osteomyelitis | 19 + 15 = 34 |
+| 3 | osteoarthritis, rheumatoid/JIA, ankylosing spondylitis, gout/pseudogout and infectious arthritis; tendon-sheath/PVNS/ganglion lesions; osteoma | 17 + 15 = 32 |
+| 4 | benign and malignant primary bone tumours, multiple myeloma and characteristic genetics/morphology | 24 + 8 = 32 |
+| 5 | bone metastases and adipocytic, fibroblastic, skeletal/smooth-muscle, neural, vascular and synovial soft-tissue tumours | 22 + 6 = 28 |
+| **Total** | **complete physical teaching boundary** | **93 + 64 = 157** |
+
+Every unit is a completed fact statement. Frequent `commonest`, colon and equals-sign phrasing
+does not provide an instruction to answer, a response field or a separable question stem. No
+page contains an option set, blank, mark allocation, correctness mark, answer reveal or delayed
+key convention. The exact assessment boundary is therefore **0 eligible or external prompts /
+0 keys-or-answers / 0 written prompts / 0 unkeyed prompts**.
+
+The only raster element is a small decorative corner logo. There is no clinical photograph,
+radiograph, slide, specimen, masked label or station instruction. Practical delta is exactly
+**0 prompts / 0 teaching plates / 0 mappings / 0 unresolved residues / 0 assessment keys**.
+
+Source wording remains uncorrected evidence, including `OO`, `No BM`, `VRH`, `Rhaumatoid`,
+`Boutonnierre`, `Herbeden`, `intraosseus`, `Potts`, `rossettes`, `mg proliferation` and the
+source's tumour-ranking and immunohistochemistry statements. No medical repair creates a
+prompt, key or teaching handle.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The 157 fact units collapse source-first to ten complete domain handles:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `hereditary-skeletal-dysplasias-oi-osteopetrosis-achondroplasia` · p. 1 | achondroplasia autosomal dominant dwarfism; osteogenesis imperfecta type I collagen blue sclera; osteopetrosis reduced osteoclast marrow; hereditary osteodystrophy comparison | Accepted Families 64, 149 and prior pathology evidence own the full scope — prior-LCS reuse. |
+| `osteoporosis-rickets-osteomalacia-hyperparathyroid-bone-disease` · p. 1 | osteoporosis postmenopausal secondary causes; rickets osteomalacia vitamin D deficiency; rickets epiphyseal plate signs; osteitis fibrosa cystica brown tumor labs | Accepted Families 53, 64, 72, 76 and 149 own the complete metabolic-bone core — prior-LCS reuse. |
+| `paget-disease-phases-complications-and-laboratory-pattern` · p. 2 | Paget SQSTM1 NF kappa B; osteolytic mixed quiescent mosaic phases; Paget leontiasis high-output failure osteosarcoma; Paget alkaline phosphatase calcium phosphate PTH | Accepted Families 64 and 149 own the complete Paget scope — prior-LCS reuse. |
+| `fracture-types-healing-failure-and-avascular-necrosis` · p. 2 | greenstick pathologic fracture; fracture healing malalignment infection mobilization; avascular necrosis steroid sickle radiation; fracture healing complication osteoporosis | Accepted Families 64, 76 and 149 own the complete fracture/necrosis scope — prior-LCS reuse. |
+| `osteomyelitis-organisms-pathology-and-skeletal-tuberculosis` · p. 2 | acute chronic osteomyelitis organisms; metaphyseal hematogenous osteomyelitis child; sequestrum involucrum Brodie abscess; skeletal tuberculosis dactylitis Pott psoas abscess | Accepted Families 64 and 150 own the complete infection scope — prior-LCS reuse. |
+| `degenerative-inflammatory-crystal-and-infectious-arthritides` · p. 3 | osteoarthritis cartilage osteophyte nodes; rheumatoid pannus deformity serology; ankylosing HLA B27 bamboo spine; gout pseudogout gonococcal Lyme arthritis | Accepted Families 65 and 151 own the complete joint-disease scope — prior-LCS reuse. |
+| `tenosynovial-pvns-and-ganglion-lesions` · p. 3 | giant cell tumor tendon sheath digits; PVNS knee hemosiderin; tendon sheath histiocyte giant cell fibroblast; ganglion cyst mucoid no lining | Accepted Families 65–66 own the complete periarticular-lesion scope — prior-LCS reuse. |
+| `benign-bone-tumours-characteristic-sites-and-morphology` · pp. 3–4 | osteoma skull jaw Gardner; osteoblastoma vertebra; osteoid osteoma nidus aspirin; osteochondroma enchondroma Ollier Maffucci | Accepted Family 64 owns the complete benign-bone-tumour scope — prior-LCS reuse. |
+| `malignant-primary-and-metastatic-bone-tumours` · pp. 4–5 | osteosarcoma Ewing chondrosarcoma comparison; EWS ETS translocations onion skin; giant cell tumor bone soap bubble; multiple myeloma and bone metastasis | Accepted Families 64 and 149 own the complete malignant-bone-tumour scope — prior-LCS reuse. |
+| `soft-tissue-tumour-lineages-and-morphology` · p. 5 | lipoma liposarcoma morphology; fibromatosis beta catenin desmoid; rhabdomyosarcoma leiomyoma schwannoma; haemangioma synovial sarcoma biphasic IHC | Accepted Family 66 owns the complete soft-tissue-tumour scope — prior-LCS reuse. |
+
+Each of the **ten accepted handles** received exactly one query on each required surface: live
+state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger. That
+is **10 × 4 = 40 required search invocations**. Broad matches occur across the first three
+surfaces; exact source-level comparison with accepted Families 64–66 and 149–151 is decisive.
+Final disposition is **10 prior-LCS theoretical-teaching reuses / 0 additive live / 0 additive
+pending / 0 additive new scopes**. There is no assessment or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This source hash occurs once in Family 171's remainder. Removing its sole path leaves **58
+all-rank path instances / 54 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes **44
+paths / 43 unique hashes within tier**, and rank 9 remains **14 / 11**. Family 171's prior
+checksums are `38a190fc03af2740f1181a4b8718b83801e85b8af15c1025966a470f3cce0b00`
+(paths) and `4c0818eec2037f683bd2b914e96b10c6f81b2599cfe4019bbe7407c18dba6e7e`
+(unique hashes). For the exact post-Family-172 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`503732f1926310ef8e305edc877ed5c47c85cc3cf9a5825ec02b97fbc1a84d3d`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`837f12ee876299cfbebe14055cf3ffa3f5dc1850ce811553592f8a9e8b4ab6bb`.
+
+The exact next manifest-order debt is tier-6 `src_65d4d6b6251c096723e2`, `Muscle Helwan.pdf`
+(3,340,232 bytes; 20 native-text portrait-A4 pages; unencrypted; 595.32 × 841.92 pt; SHA-256
+`65d4d6b6251c096723e29649d0b2dc9b5204667e9499eb0249e21320acf2ff97`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 58
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
