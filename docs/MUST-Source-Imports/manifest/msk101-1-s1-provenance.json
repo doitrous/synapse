@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "934f17ffe46cea4dc7818767eb39853da0aa47df482ebab1f5c62bda04782041",
-    "triageMarkdown": "9aa92d87b8a2009b80e669e7938aa02422f45763e21bcf8234930681a1108241"
+    "readinessMarkdown": "f69e52617c1deea0c8db1c6ba0276a1e55e1b1096ddd483b1017542ebc67b6ce",
+    "triageMarkdown": "d801a79dba480b17e22f1385a8778bf41eca6c0460f62b0baa53af97b3cf37d3"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -96,6 +96,7 @@
       "a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c",
       "a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
+      "aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee",
       "ac2b357e40b41db3a5cf984de775fe16b90cb2ff1163bb4b0d78aab948338ffc",
       "ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965",
       "af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80",
@@ -130,7 +131,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 78
+    "uniqueSha256": 79
   },
   "completedSourceCoverage": [
     {
@@ -2512,35 +2513,68 @@
         "case question Q39 depends on Q38 and Q8 depends on Q7",
         "source spelling, option-label duplication, punctuation and academically questionable keyed choices remain uncorrected"
       ]
+    },
+    {
+      "sha256": "aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "scannedQuestionPages": "1-8",
+      "printedPromptObservations": 36,
+      "objectiveMcqPrompts": 36,
+      "printedKeyObservations": 22,
+      "highlightedAnswerObservations": 21,
+      "singleResponseAnswerObservations": 1,
+      "sourceAbsentAnswers": 14,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 36,
+      "familyAnswerDelta": 22,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceHistologyAcceptedSourceHandles": 6,
+      "referenceHistologySearchesRun": 24,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous handwritten histology revision pages scanned through CamScanner; PDF title/subject and author fields only repeat vip histo msk 1 mcq and CamScanner, with no institution, department, examiner, sitting, marks or official-key claim",
+      "boundaryDisposition": "eight scanned handwritten pages containing thirty-six objective text prompts; twenty-one prompts carry orange/yellow selected-answer marks and one final general-connective-tissue item prints a single response rather than distractors, yielding twenty-two reliable answer observations and fourteen visibly unselected prompts; no written, practical, image-identification, teaching-only or answer-only material",
+      "preservedSourceDefects": [
+        "page 1 begins mid-stem with the clipped word ending elles in its first skeletal-muscle-organelle prompt",
+        "the skeletal-muscle organelle and sarcomere H-zone prompts recur as separate physical observations",
+        "unselected option-bearing prompts remain unkeyed even where one option may be academically likely",
+        "handwritten spelling, capitalization and terminology remain uncorrected"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6934,
-    "printedKeyObservations": 6744,
+    "printedPromptObservations": 6970,
+    "printedKeyObservations": 6766,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 23,
-    "uniqueSha256": 23,
-    "sortedNewlineSha256": "c05ab02e2db821c67ecd7bcdf55d40dc88f05f4121f13a0c7e47c01ef0251ab9",
+    "inventoryMetadataRows": 22,
+    "uniqueSha256": 22,
+    "sortedNewlineSha256": "4a77fe27022209e036acfd05a052ae6a22dd1331280794038cfc9f3e4d22ee98",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
-      "sparse-text": 4
+      "sparse-text": 3
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
-    "sparse-text": 4
+    "sparse-text": 3
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 78,
-    "remainingUniqueSha256": 23,
+    "processedUniqueSha256": 79,
+    "remainingUniqueSha256": 22,
     "processedPlusRemaining": 101
   }
 }

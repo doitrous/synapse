@@ -3165,3 +3165,46 @@ Removing the seventy-eight processed unique hashes leaves **23 selected inventor
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - vip histo msk 1 mcq.pdf`, SHA-256 `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`, 8 pages.
 
 **BLOCKED — S1 cannot be approved:** 23 selected inventory paths / 23 unique hashes remain untriaged.
+
+## Completed source — vip histo msk 1 mcq
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - vip histo msk 1 mcq.pdf` | `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee` | 8 | sparse-text audit sample | pages 1–8 rendered and read | Anonymous handwritten revision pages scanned through CamScanner. PDF title and subject repeat `vip histo msk 1 mcq`, while the author field is `CamScanner`; no institution, department, examiner, sitting, marks or official-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - vip histo msk 1 mcq.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and image boundary
+
+All eight pages are scanned handwritten objective-question sheets. They contain thirty-six separately framed prompt occurrences covering skeletal muscle, skin, connective tissue, bone and cartilage. Twenty-one prompts have visible orange/yellow answer selections. One general-connective-tissue-character prompt on page 8 prints a single response line rather than distractors, yielding one further reliable answer observation. Fourteen prompts retain option sets but no visible selection.
+
+| Format | Printed prompts | Reliable answer observations | Source-unkeyed |
+|---|---:|---:|---:|
+| Handwritten objective prompts | 36 | 22 | 14 |
+| **Total** | **36** | **22** | **14** |
+
+There are **0 written-response prompts / 0 practical or image-identification prompts / 0 teaching-only prompts / 0 answer-only observations**. The skeletal-muscle organelle and sarcomere H-zone items recur on separate pages and remain separate physical occurrences. Page 1 starts in the middle of the first stem (`…elles are present extensively between skeletal muscle fibrils?`); that visible clipped prompt remains countable because its question instruction and option set are present, but missing text is not reconstructed. Unselected choices remain source-unkeyed even where one option may be academically likely.
+
+### Authority, prior-MSK reconciliation and search gate
+
+The source is an anonymous learner-marked revision scan, not a documented examination or faculty key. Its source-first scopes are skeletal-muscle organelles and sarcomere bands; skin layers and specialized epidermal cells; bone cells, compact bone and ossification; cartilage types, cells and growth; connective-tissue cells, fibres, types and clinical applications. Every scope maps to completed MSK histology families.
+
+No genuinely new accepted handle survives prior-MSK collapse. The exactly-four-search gate therefore resolves as **`0 new handles × 4 = 0 new searches`**; the prior histology family's completed handle/search evidence is cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The distinct scanned carrier is now `sourceProcessed=true`. Its delta is **+36 questions / +22 answer observations / +0 concepts**. Cumulative arithmetic is **6934 + 36 = 6970 questions**, **6744 + 22 = 6766 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6970 | 6766 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created. Handwriting, abbreviations, spelling and academically questionable markings remain uncorrected source observations.
+
+### Remaining sources / blocker
+
+Removing the seventy-nine processed unique hashes leaves **22 selected inventory paths / 22 unique SHA-256s**. Their sorted, newline-joined hash checksum is `4a77fe27022209e036acfd05a052ae6a22dd1331280794038cfc9f3e4d22ee98`. Remaining audit-review debt is 0 substantive-text / 3 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`79 + 22 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - written histo (by Salma Sewedy).pdf`, SHA-256 `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296`, 5 pages.
+
+**BLOCKED — S1 cannot be approved:** 22 selected inventory paths / 22 unique hashes remain untriaged.
