@@ -1605,3 +1605,49 @@ Removing the forty-three processed unique hashes leaves **59 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - MCQ Upper limb Anatomy.pdf`, SHA-256 `60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609`, 42 pages.
 
 **BLOCKED — S1 cannot be approved:** 59 selected inventory paths / 58 unique hashes remain untriaged.
+
+## Completed source — MCQ Upper limb Anatomy
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - MCQ Upper limb Anatomy.pdf` | `60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609` | 42 | empty-text audit sample | pages 1–42 rendered and read | Cover identifies `Musculoskeletal Anatomy M.C.Q` by Mohey Hulail, Professor of Anatomy & Embryology, Zagazig University. CamScanner/intsig.com PDF metadata provides no MUST institution, examiner, sitting, marks or official-key claim. This is an external upper-limb MCQ compilation, not an authenticated MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - MCQ Upper limb Anatomy.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+Physical pages 1–2 are covers and page 3 is a contents page. Physical pages 4–41, corresponding to the compilation's internal pages 1–38, print one continuous sequence of **153 numbered MCQs**, Q1–Q153. Physical page 42, internal page 39, prints the complete `Answers of upper limb MCQ` table for Q1–Q153.
+
+| Format | Prompt observations | Prompt-matched printed key observations | Source-absent answers |
+|---|---:|---:|---:|
+| Conventional MCQ | 153 | 153 | 0 |
+| Written / practical / standalone image identification | 0 | 0 | 0 |
+| **Total** | **153** | **153** | **0** |
+
+Q50–Q65 also use bold inline option styling. Those marks are a duplicate presentation of answers already represented once by the complete terminal table, not sixteen additional prompt or answer observations. Q59's two accessory-nerve choices have an ambiguous weight distinction; the terminal table's printed `59 b` is retained as the source key and no answer is inferred from typography. There are no diagrams, radiographs, photographs, response spaces, practical stations, written prompts, teaching-only pages or unkeyed prompts.
+
+The continuous numbering is intact. Source wording and option construction remain uncorrected; repeated topical stems and several awkward true/false distractor sets count as separate prompt occurrences and collapse only at the concept layer.
+
+### Source-first collapse and exactly-four-search gate
+
+The source-first scope resolves to five handles: shoulder-girdle/arm/forearm muscle attachments and actions; brachial-plexus and terminal-nerve anatomy/lesions; regional vessels and superficial veins; shoulder/elbow/radioulnar/wrist joint and retinacular anatomy; and intrinsic-hand/digital movement anatomy. These are the completed Upper Limb Anatomy H1–H5 scopes.
+
+No genuinely new handle survives prior-MSK reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**. The prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its delta is **+153 questions / +153 answer observations / +0 concepts**. Cumulative arithmetic is **4883 + 153 = 5036 questions**, **4776 + 153 = 4929 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5036 | 4929 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-four processed unique hashes leaves **58 selected inventory paths / 57 unique SHA-256s**. Their sorted, newline-joined hash checksum is `cdae01979fa1db08656691be75dbcb7bb65c00ea7e152bb30ea0048b00f79241`. Remaining audit-review debt is 25 substantive-text / 7 sparse-text / 10 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`44 + 57 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - MSK 101 Revision Final.pdf`, SHA-256 `eb7ffec0f13029aedc0836873de726fb2bb714bc9534d338590d2c21e0e496fb`, 23 pages.
+
+**BLOCKED — S1 cannot be approved:** 58 selected inventory paths / 57 unique hashes remain untriaged.

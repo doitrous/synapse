@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "2b295a788dccd6d6515df11d057ca2a868dabb64f4515685e9ece460b155c758",
-    "triageMarkdown": "aea0dece4c1e2ac28fcca951e929d0df30b7f2838518ebb0820763292b7da332"
+    "readinessMarkdown": "6caec179e1546b493306f002b56e7e1a8843b8abdf993fbed722f8d656dcc21f",
+    "triageMarkdown": "04fe31ca8954e9919917f199141538917cd837b266444d161ea833b2d4c51810"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -66,6 +66,7 @@
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "5fbc9fe1c84f101a80f5778632e5e30cb7f08956ab488c10c40e8a571c057363",
+      "60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609",
       "628bb55b5752bae6a4f89c4e068cf2a4ec97d7798e3db5784475e1891a8e5f84",
       "69103a53ec28a93958d55055b1eecdef28c013bdfb16f593686ea4a8b99d20c4",
       "71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3",
@@ -95,7 +96,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 43
+    "uniqueSha256": 44
   },
   "completedSourceCoverage": [
     {
@@ -1106,24 +1107,54 @@
         "visible figure numbering skips Fig. 6-8 and Fig. 6-9",
         "Q110 points to Fig. 6-3 on internal page 180 although the figure appears on internal page 173"
       ]
+    },
+    {
+      "sha256": "60fdc22d6dade46ce1d8ff03831f02b6a49ac5f9d0529f5a14b204768c651609",
+      "sourcePages": 42,
+      "renderedReadPages": "1-42",
+      "coverPages": "1-2",
+      "contentsPages": "3",
+      "questionPages": "4-41",
+      "answerPages": "42",
+      "printedPromptObservations": 153,
+      "objectiveMcqPrompts": 153,
+      "printedKeyObservations": 153,
+      "inlineDuplicateAnswerStylingPrompts": 16,
+      "standalonePracticalOrImagePrompts": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 153,
+      "familyAnswerDelta": 153,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Mohey Hulail/Zagazig University external upper-limb MCQ compilation; no authenticated MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "continuous Q1-Q153 MCQ bank with a complete terminal answer table; Q50-Q65 inline bold styling duplicates rather than adds to the 153 prompt-matched key observations; no written, practical or image-identification prompts",
+      "preservedSourceDefects": [
+        "Q59 option-weight distinction is visually ambiguous; terminal table entry 59 b retained without inference"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4883,
-    "printedKeyObservations": 4776,
+    "printedPromptObservations": 5036,
+    "printedKeyObservations": 4929,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 59,
-    "uniqueSha256": 58,
-    "sortedNewlineSha256": "df17f9df32449af1bd3c2ec526164de0886420e97ed0aa327c63b2add5021f4a",
+    "inventoryMetadataRows": 58,
+    "uniqueSha256": 57,
+    "sortedNewlineSha256": "cdae01979fa1db08656691be75dbcb7bb65c00ea7e152bb30ea0048b00f79241",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
-      "empty-text": 11,
+      "empty-text": 10,
       "sparse-text": 7,
       "substantive-text": 25
     }
@@ -1131,14 +1162,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
     "audit-not-found": 13,
-    "empty-text": 11,
+    "empty-text": 10,
     "sparse-text": 7,
     "substantive-text": 25
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 43,
-    "remainingUniqueSha256": 58,
+    "processedUniqueSha256": 44,
+    "remainingUniqueSha256": 57,
     "processedPlusRemaining": 101
   }
 }
