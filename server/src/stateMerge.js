@@ -16,7 +16,7 @@
 import { changeWritableBy } from './contentScope.js'
 import { LIBRARY_TREES_STATE_KEY } from './libraryTrees.js'
 import { authoriseReportChange, CONTENT_REPORTS_STATE_KEY } from './contentReports.js'
-import { authoriseMediaRequestTransitions } from './mediaRequestPolicy.js'
+import { authoriseMediaRequestTransitions, collectMediaRequests } from './mediaRequestPolicy.js'
 
 const LEDGER = 'synapse-admin-content-ledger-v4'
 const GRAPH = 'synapse-concept-graph-v2'
@@ -174,17 +174,54 @@ export function diffDocument(key, base, next) {
   return changes
 }
 
+const MEDIA_REQUEST_KEYS = new Set(['mediaRequests'])
+
+/** Remove every occurrence of `keys`, at any depth, so what is left can be compared. */
+function stripKeys(value, keys) {
+  if (Array.isArray(value)) return value.map((entry) => stripKeys(entry, keys))
+  if (!value || typeof value !== 'object') return value
+  return Object.fromEntries(Object.entries(value)
+    .filter(([key]) => !keys.has(key))
+    .map(([key, inner]) => [key, stripKeys(inner, keys)]))
+}
+
 /** True when the only difference between two items is their media requests. */
 function mediaRequestsOnly(before, after) {
   if (!before || !after) return false
-  const strip = (value) => {
-    if (Array.isArray(value)) return value.map(strip)
-    if (!value || typeof value !== 'object') return value
-    return Object.fromEntries(Object.entries(value)
-      .filter(([key]) => key !== 'mediaRequests')
-      .map(([key, inner]) => [key, strip(inner)]))
+  return fingerprint(stripKeys(before, MEDIA_REQUEST_KEYS)) === fingerprint(stripKeys(after, MEDIA_REQUEST_KEYS))
+}
+
+/**
+ * The owner fields a supply writes when it attaches media, beside the request
+ * itself: a question/article places media in a `media` array; a practical sets
+ * `mediaUrl`/`mediaType`/`mediaMimeType` on its station, decision or lab step.
+ */
+const MEDIA_SUPPLY_KEYS = new Set(['mediaRequests', 'media', 'mediaUrl', 'mediaType', 'mediaMimeType'])
+
+/**
+ * True when a change does nothing but supply media: it attaches media to a
+ * request and writes that media into the owner's placement, and touches nothing
+ * else. Fulfilling a request is inseparable from writing its placement — a
+ * question renders media from `questionData.media`, never from the request — so
+ * the Media Requests grant has to cover both writes at once, or a reviewer's
+ * supply is refused as an out-of-role content edit and their work is lost.
+ *
+ * The guard against abuse is twofold: nothing outside the media-bearing fields
+ * may differ (a stem rewrite smuggled in beside a supply is still refused), and
+ * a request must actually gain attached media in the same change (a bare
+ * placement rewrite with no supply is content authoring, and needs the owner
+ * tab). The request transition itself is still gated by rank below, and the
+ * write route still refuses media that has not verified `ready`.
+ */
+function mediaSupplyOnly(before, after) {
+  if (!before || !after) return false
+  if (fingerprint(stripKeys(before, MEDIA_SUPPLY_KEYS)) !== fingerprint(stripKeys(after, MEDIA_SUPPLY_KEYS))) return false
+  const beforeRequests = collectMediaRequests(before)
+  for (const [id, request] of collectMediaRequests(after)) {
+    const previous = beforeRequests.get(id) ?? null
+    if (request?.mediaId && request.mediaId !== previous?.mediaId) return true
   }
-  return fingerprint(strip(before)) === fingerprint(strip(after))
+  return false
 }
 
 /**
@@ -201,7 +238,10 @@ export function authoriseChanges(changes, { heldTabs, contentScope, role, rank }
     // A media request lives inside its owner, so sourcing an asset is a write
     // to the owning item. Media Requests grants that one edit, and so does the
     // owner's tab — but only that edit: anything else needs the owner's tab.
-    const isMediaRequestEdit = mediaRequestsOnly(change.before, change.after)
+    // Discussing or planning a request touches only the request; supplying it
+    // also writes the media into the owner's placement, and the grant covers
+    // both — but still nothing else.
+    const isMediaRequestEdit = mediaRequestsOnly(change.before, change.after) || mediaSupplyOnly(change.before, change.after)
     const allowed = isMediaRequestEdit ? [...change.tabs, 'media'] : change.tabs
     if (!allowed.some((tab) => held.has(tab))) {
       refusals.push({ id: change.id, reason: `${change.kind} "${change.id}" is not part of your role` })

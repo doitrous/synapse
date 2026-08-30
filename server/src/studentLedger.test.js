@@ -283,6 +283,47 @@ test('the publication write gate reports exactly which published items are media
   )
 })
 
+test('supplying verified media to a published item is not blocked by the descriptive save still being in flight', () => {
+  // A reviewer supplies media to an already-published question. The placement
+  // rides the ledger save; the media record's alt text and rights ride a second,
+  // separate save to the media document. If the ledger lands first, the media id
+  // is not yet "released", which used to refuse the supply and lose the reviewer's
+  // work. The state route now counts the just-supplied, verified id as acceptable
+  // (see enforceMediaSupply.readyMediaIds) — modelled here by adding it to the
+  // after-released set — while a managed id NOT part of the supply is still blocked.
+  const before = authoredQuestion({
+    id: 'q-pub',
+    questionData: { ...authoredQuestion().questionData, media: [], mediaRequests: [{ priority: 'optional', status: 'needed' }] },
+  })
+  const supplied = authoredQuestion({
+    id: 'q-pub',
+    questionData: {
+      ...authoredQuestion().questionData,
+      media: [{ id: 'plc-1', mediaId: 'med-supplied', slot: 'stem' }],
+      mediaRequests: [{ priority: 'optional', status: 'supplied', mediaId: 'med-supplied' }],
+    },
+  })
+  const storedReleased = new Set() // the descriptive media save has not landed yet
+  const withSupply = new Set([...storedReleased, 'med-supplied'])
+  assert.deepEqual(
+    newlyMediaBlockedPublishedItems([before], storedReleased, [supplied], withSupply),
+    [],
+    'a verified supply is accepted even before its descriptive record is released',
+  )
+
+  // But media that was never supplied through a request must still be released.
+  const sneaky = authoredQuestion({
+    id: 'q-pub2',
+    questionData: { ...authoredQuestion().questionData, media: [{ id: 'plc-9', mediaId: 'med-unsupplied', slot: 'stem' }] },
+  })
+  const beforeSneaky = authoredQuestion({ id: 'q-pub2', questionData: { ...authoredQuestion().questionData, media: [] } })
+  assert.deepEqual(
+    newlyMediaBlockedPublishedItems([beforeSneaky], storedReleased, [sneaky], withSupply).map((item) => item.id),
+    ['q-pub2'],
+    'managed media outside the supply is still gated on release',
+  )
+})
+
 /** A published question carrying everything an author would put on one. */
 function authoredQuestion(overrides = {}) {
   return {
