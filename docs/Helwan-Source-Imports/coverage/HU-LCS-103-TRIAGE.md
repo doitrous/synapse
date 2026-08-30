@@ -6248,3 +6248,113 @@ native-text pages; SHA-256
 103/Biochemistry/Theoretical/Lec 2 - Genetic Diseases of Muscles/`. Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 52 — Tier-4 genetic muscle-disease and glycogen-storage teaching-only lecture gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_da044da0bfcc6af6ed2c` |
+| File / SHA-256 | `GENETIC DISEASES OF THE MUSCLES.pdf` / `da044da0bfcc6af6ed2c435b1eb67dd34b45340a757fbddefdb326c8ec562075` |
+| File boundary | 1,844,403 bytes · unencrypted PDF · 21 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Biochemistry · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Biochemistry/Theoretical/Lec 2 - Genetic Diseases of Muscles/GENETIC DISEASES OF THE MUSCLES.pdf` |
+| Visible provenance | p. 1 prints `GENETIC DISEASES OF THE MUSCLES`; the PDF author is `LENOVO` and creator/producer is Microsoft PowerPoint for Microsoft 365; no lecturer, university, assessment or sitting label is printed |
+| Authority finding | Manifest/path-placed local tier-4 biochemistry lecture. It is not a sitting paper, practical response form, question bank or official answer key. |
+
+The SHA-256, byte size and 21-page boundary were recomputed and match the assigned source.
+All 21 pages were rendered at 170 dpi and read against the native text layer; all 21 complete
+page renders have distinct SHA-256 values. Page 1 is the title, p. 2 states objectives, pp.
+3–20 are declarative teaching compositions, and p. 21 closes with `Thank You`.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. Page 10's inline `What are glycogen storage diseases (GSD)?` is
+a rhetorical definition cue embedded in a teaching bullet and is immediately completed by
+the next bullet on the same slide; it is not a stand-alone student instruction, response
+field, option set or later answer-reveal sequence. No other page contains an imperative or
+interrogative task, answer blank, mark allocation, correctness convention, highlighted
+choice, masked label or unresolved callout.
+
+### Complete teaching-composition and assessment-boundary inventory
+
+| Physical pages | Source-first instructional compositions | Slide occurrences |
+|---:|---|---:|
+| 3–7 | Duchenne muscular dystrophy: dystrophin complex, membrane/cytoskeletal role, X-linked inheritance, degeneration, Gower sign and clinical course | 5 |
+| 8–9 | inherited cardiomyopathy definition, familial/genetic frequency and structural/metabolic gene categories | 2 |
+| 10–13 | muscle glycogen-storage disorders; Pompe, McArdle and Tarui enzyme defects, tissues and clinical features | 4 |
+| 14–16 | glycogen-storage disease definition, inheritance, hepatic/myopathic classification and general features | 3 |
+| 17–18 | comparative GSD enzyme/organ/pathway tables and glycogen-metabolism map | 2 |
+| 19–20 | von Gierke type-Ia/Ib defect, organ involvement, metabolic consequences, clinical features and treatment | 2 |
+| **Total** | **tier-4 instructional compositions** | **18** |
+
+The **18 content-slide occurrences are 18 source-distinct teaching compositions**. Complete-
+render SHA-256 comparison found no exact full-page copy, and visual comparison found no
+complete semantic duplicate to collapse. All printed tables, pathways and figure labels are
+simultaneous teaching; none is masked or unresolved. The source boundary is therefore **18
+teaching compositions / 0 ordinary prompts / 0 practical or station prompts / 0 printed
+assessment keys / 0 residues**. As theoretical material, it adds **0 practical plates, 0
+practical mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 18 compositions consolidate to nine source-level theoretical teaching scopes.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `duchenne-dystrophin-complex-and-muscle-fibre-loss` · pp. 3–4 | Duchenne dystrophin glycoprotein complex; dystrophin links actin extracellular matrix; dystrophin deficiency muscle fibre loss; DMD membrane instability | pending muscular-dystrophy material owns dystrophin loss and degeneration; accepted Families 12 and 15 already own the dystrophin/progressive-wasting scope — prior LCS reuse |
+| `duchenne-inheritance-gower-sign-and-clinical-course` · pp. 5–7 | Duchenne X linked recessive Gower sign; DMD age four wheelchair twelve; Duchenne cardiomegaly fatal age thirty; Gower manoeuvre muscular dystrophy | pending DMD material and Family-50 teaching own components, but no accepted prior complete inheritance/course handle — pending new theoretical teaching |
+| `inherited-cardiomyopathy-structural-and-metabolic-genes` · pp. 8–9 | inherited cardiomyopathy structural metabolic genes; familial cardiomyopathy myosin troponin; cardiomyopathy fatty acid oxidation oxidative phosphorylation; monogenic heterogeneous cardiomyopathy | fatty-acid and contractile-protein records are narrower; no direct complete-scope live/pending hit or accepted prior-LCS handle — new theoretical teaching |
+| `glycogen-storage-disease-definition-classification-and-inheritance` · pp. 10, 14–16 | glycogen storage disease definition inheritance; hepatic myopathic GSD types; glycogen synthesis degradation enzyme defects; GSD autosomal recessive X linked | pending carbohydrate material owns the definition, classification and inheritance framework — pending |
+| `pompe-disease-acid-alpha-glucosidase-deficiency` · p. 11 | Pompe acid alpha glucosidase deficiency; glycogen storage disease II lysosome; Pompe cardiomegaly hypotonia hepatomegaly; lysosomal glycogen cardiac failure | pending carbohydrate/GSD material owns the enzyme defect and clinical phenotype — pending |
+| `mcardle-disease-muscle-phosphorylase-deficiency` · p. 12 | McArdle myophosphorylase deficiency; glycogen storage disease V skeletal muscle; McArdle exercise cramps fatigue; muscle phosphorylase GSD V | pending carbohydrate/GSD material owns the enzyme defect, tissue and exercise phenotype — pending |
+| `tarui-disease-muscle-pfk-deficiency` · p. 13 | Tarui phosphofructokinase deficiency; glycogen storage disease VII muscle erythrocytes; Tarui exercise intolerance haemolysis; muscle PFK myoglobinuria hyperbilirubinemia | pending carbohydrate/GSD material owns the enzyme defect and clinical phenotype — pending |
+| `glycogen-storage-disease-type-enzyme-organ-map` · pp. 10, 15, 17–18 | glycogen storage diseases types enzymes table; GSD enzyme defect organ characteristics; glycogen pathway GSD I II III IV V VI VII; glycogenosis comparative map | pending carbohydrate/GSD records jointly own the type–enzyme–organ mapping — pending |
+| `von-gierke-disease-metabolic-consequences` · pp. 19–20 | von Gierke glucose 6 phosphatase deficiency; GSD I hypoglycemia lactic acidosis; von Gierke hyperuricemia hyperlipidemia hepatomegaly; glucose 6 phosphate metabolic consequences | pending `Von Gierke disease` concept owns the complete block-to-consequence chain — pending |
+
+All **9 × 4 = 36** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **0 live / 8 pending / 1 new**. Exact accepted-prior
+comparison prevents the DMD dystrophin scope from being added again, leaving **one prior-LCS
+reuse / eight additive theoretical teaching scopes (7 pending / 1 new)**. There is no
+assessment handle to search. Declarative teaching scopes do not enter the eligible tested-
+concept count, and no theoretical scope enters the practical-teaching-scope counter.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 52 | Family 52 delta | After Family 52 |
+|---|---:|---:|---:|
+| Eligible observed question records | 480 | +0 | 480 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 224 | +0 | 224 |
+| Question live / pending / new | 9 / 61 / 154 | +0 / +0 / +0 | 9 / 61 / 154 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 309 verified minimum | +0 | 309 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,098 verified minimum | +0 | 2,098 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 92 | +0 | 92 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 71 | +0 / +0 / +0 | 0 / 0 / 71 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `18 = 5 + 2 + 4 + 3 + 2 + 2`, `0 prompts =
+0 source handles`, `480 + 0 = 480`, `264 + 0 = 264`, `224 + 0 = 224`, `9 + 61 + 154 =
+224`, `309 + 0 = 309`, `2,098 + 0 = 2,098`, `92 + 0 = 92`, and `71 + 0 = 71`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-51
+remainder leaves **24 rank-4/rank-5 path instances / 22 unique hashes**. The Family-51
+method was reproduced first: its 25/23 row sets recomputed to
+`f2c05065ffd263bd5ff80a578bb33fe0227ed1b9748fe7d0d7ca592e4f7002da` and
+`7fb3ddad2d75fc94d45fd11188c70d6e2cbfa1960a0aed13d4621284a6293fc1`.
+For the exact post-Family-52 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`53260d735f7d79e43df34b596ed59b713a0b61790614bdcb70ae410903c048be`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`dce3f442251bfb6ea136a50f0dfd937b15fc684a5488d9322dc53d842ccf35dc`.
+The next manifest-order gate is tier-4 Biochemistry theoretical source
+`src_011c744f3cf119c15f48`, `Vitamin D , phosphorus and Calcium metabolism.pdf` (1,243,649
+bytes; 35 native-text pages; SHA-256
+`011c744f3cf119c15f48b55bcf97cf9ab6423f00fe6e92272960f2d67314616e`) under `Year 1/LCS
+103/Biochemistry/Theoretical/Lec 3 - Vitamin D, Calcium & Phosphorus Metabolism/`. Broader
+LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
+source copy was created.
