@@ -21326,3 +21326,72 @@ Diffusion`, `Facilitated Diffusion`, `Active Transport`, and `Pinocytosis`, with
 below. The filename timestamp is not an authenticated teaching or assessment date. Its visible
 authorship, teaching/prompt/answer/annotation boundary, prior-BMS reconciliation, arithmetic, and
 subsequent exact next debt remain to be separately adjudicated.
+
+## Family 204 — Dr-Elsawy four-mode membrane-transport teaching illustration
+
+### Source identity, complete full-resolution boundary, authority, and sequence relation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-6 `src_be0a1278abf1e99fd088` · `2026-07-20 06.26.07.jpg` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `be0a1278abf1e99fd08880eb238a1de38706d32dabc0e43f4cb225ed5601ca52` · **107,611 bytes** |
+| Format / complete read | **One 1280×570 landscape progressive JPEG**, JFIF 1.01 at 72 dpi. The original was inspected at full resolution; no crop, continuation, hidden text layer, or second page exists. |
+| Complete visible content | A continuous phospholipid membrane is divided into four already labelled mechanisms: `01. Simple Diffusion: Slipping through the cracks.`, `02. Facilitated Diffusion: The dedicated gate.`, `03. Active Transport: Pushed against the flow.`, and `04. Pinocytosis: Heavy cargo intake.` The completed illustration shows unassisted passage, channel-mediated passage, energy-associated uphill carrier movement, and vesicular engulfment respectively. `Dr-Elsawy` is printed below the second panel. |
+| Visible/metadata provenance | The printed `Dr-Elsawy` label is visible source attribution. No university, faculty, module code, year, lecture date, assessment title, marks, or candidate field is visible. Exact placement under Helwan BMS-102 pharmacology notes establishes course-folder context only. The filename timestamp is sequencing metadata, not an authenticated date or sitting. |
+| Sequence relation | Family 203 immediately precedes this image as a Lecture-1 abbreviation sheet. The exact next manifest image, `.06.26.09`, repeats the same four transport modes as a completed comparison table. This adjacency supports a teaching sequence, but does not prove common authorship beyond the visible `Dr-Elsawy` label or create repeated assessment evidence. |
+| Authority | Low-authority attributed teaching illustration. It is not an exam, written exercise, practical station, candidate response, or official answer key. |
+
+### Teaching, prompt, answer, annotation, and practical boundary
+
+The four numbered headings name mechanisms and their explanatory taglines; they are not numbered
+questions. Every visual relationship is already disclosed by labels, arrows, membrane structures,
+and complete process depiction. There is no imperative, question mark, blank, option set, response
+area, mark allocation, answer reveal, handwritten annotation, unlabeled specimen, or requested
+image-identification operation. `Dr-Elsawy` is attribution, not a learner response. The source
+therefore contributes **0 raw prompt occurrences / 0 source-supplied answer occurrences / 0
+unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 accepted handles / 0
+practical stations / +0 concepts**.
+
+The transport concepts overlap Family 202's pharmacokinetic teaching/questions and the adjacent
+Family-203 vocabulary sheet, but completed declarative illustration is not a tested proposition.
+No prior-BMS handle reuse is counted.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-
+handle row is fabricated.
+
+| Measure | Family 204 | Auxiliary cumulative (Families 12–204) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,637 | 762 | 3,399 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,344 | 552 | 2,896 |
+| Accepted handles / required searches | 0 / 0 | 2,124 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,024 over primary | 372 | 1,396 |
+| **Distinct tested concepts** | **+0** | **1,024 additions** | **372** | **1,396** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,637 prompts / 1,675 answers / 2,344 retained / 2,124
+handles / +1,024 concepts**. All eligible remains **3,399 / 2,080 / 2,896 / 1,396**. Family 204
+establishes a completed attributed membrane-transport teaching image and manifest-sequence evidence
+only, not assessment, practical, official-key, verified-date, readiness, or claims status.
+
+### Exact next debt after Family 204
+
+`src_be0a1278abf1e99fd088` is exhausted at full image resolution: every visible heading, tagline,
+membrane mechanism, arrow, attribution mark, provenance limitation, timestamp caution, sequence
+relation, zero gate, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-204 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-6 `src_931bb772f5bbdbd43c1c` ·
+`2026-07-20 06.26.09.jpg`, SHA-256
+`931bb772f5bbdbd43c1c7b47dc742c0d99162decdfe15850dd7f4744c4e7474b`, **77,627 bytes**,
+**1280×561 landscape progressive JPEG** under `Pharmacology / Notes and Summaries`. Its original
+visibly shows a completed `Dr-Elsawy` comparison table for simple diffusion, facilitated
+diffusion, active transport, and pinocytosis across concentration gradient, energy/ATP, carrier-
+protein use, and saturability. The filename timestamp is not an authenticated teaching or
+assessment date. Its question-mark header semantics, teaching/prompt/answer boundary, prior-BMS
+reconciliation, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
