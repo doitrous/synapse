@@ -5414,3 +5414,115 @@ BMS-102 candidate is tier-6 `src_635db0cfbda1c834c519` · `general mycology.pdf`
 three OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its OCR-needed three-page
 boundary is the next-source processing blocker: fully render and visually adjudicate prompt,
 teaching, and answer conventions before admitting any count.
+
+## Family 50 — tier-6 Medicine Way general-mycology MCQ excerpt
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_635db0cfbda1c834c519` · `general mycology.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/general mycology.pdf` |
+| SHA-256 / size | `635db0cfbda1c834c5199aa3c6710f815bff6d16a0c29ac1dd53ef31ce6b7470` · 717,355 bytes |
+| Format / read boundary | Three OCR-needed A4 pages; all three physical pages rendered at 220 dpi and visually read in full |
+| Authority | Medicine Way / Arabic `طريق الطب` channel-team compilation attributed on p. 1 to Mansour El Gazzar; no Helwan/university or faculty masthead, module code, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is the Medicine Way promotional cover and contains no assessment prompt or
+teaching proposition. Physical pp. 2–3 are assessment-form study material titled `General
+mycology`: a continuous detached MCQ excerpt numbered Q167–Q177. Missing Q1–Q166 and any
+continuation after Q177 are not inferred. The title, numbering, and Medicine Way presentation
+place the excerpt in the same low-authority compiled study-bank family as Families 46, 48, and
+49, not in a recoverable paper or sitting.
+
+The prompt-start checksum is `0 + 5 + 6 = 11`. Every observed stem and option set is complete.
+There is no answer register, keyed letter, selected option, correctness annotation, response
+field, or repeatable answer convention. Underlining consistently formats stems and does not mark
+an option. The source therefore contains **11 complete prompt occurrences / 0 printed answer
+occurrences**. No option is promoted to an answer; outdated taxonomy and any questionable source
+wording remain only low-authority tested scope.
+
+### Complete prompt inventory, source-first collapse, and prior-BMS ledger
+
+| Ref | Page | Complete source-tested scope without supplying an unprinted answer | Handle / assignment |
+|---|---:|---|---|
+| F50-Q167 | 2 | Correct-statement differential for general fungal properties across growth forms, organelles, photosynthesis, nuclear chromosomes, and cell membranes | `fungal-general-property-correct-statement-differential` |
+| F50-Q168 | 2 | Correct-statement differential for fungal growth and morphology across pseudohyphae, septate/nonseptate hyphae, conidial reproduction, yeast budding/walls, and pathogenic dimorphism | `fungal-growth-morphology-correct-statement-differential` |
+| F50-Q169 | 2 | Antifungal-drug exception differential for targeting ergosterol in the fungal membrane | `antifungal-ergosterol-target-exception-caspofungin` |
+| F50-Q170 | 2 | Correct-statement differential for fungal cell-wall composition, viability, host-cell attachment, antifungal targets, and immune stimulation | `fungal-cell-wall-host-attachment-ligands` |
+| F50-Q171 | 2 | Structural basis for selective toxicity of antifungal drugs | `antifungal-selective-toxicity-ergosterol-basis` |
+| F50-Q172 | 3 | Fungal-cell-wall component recognition against bacterial-wall distractors | `fungal-cell-wall-chitin-component` |
+| F50-Q173 | 3 | Organism-group differential for sterol in the cytoplasmic membrane | `fungal-membrane-sterol-exception` · exact F46-Q15 reuse |
+| F50-Q174 | 3 | True-mycelium morphology terminology | `mold-filamentous-morphology` · exact F46-Q16 reuse |
+| F50-Q175 | 3 | Fungal form containing both yeast and filamentous morphologies | `dimorphic-fungus-hyphae-yeast-switch` · exact F46-Q17 reuse |
+| F50-Q176 | 3 | Classification of fungi whose sexual phase has not been identified | `fungi-imperfecti-unidentified-sexual-phase` |
+| F50-Q177 | 3 | Exception differential among listed asexual fungal spores | `fungal-asexual-spore-exception-ascospore` |
+
+There are no literal copies, wording-only repeats, or within-source same-scope variants. The
+broader differentials in Q167, Q168, and Q170 remain distinct from their individual options;
+Q169 and Q171 test drug-target exception versus selective-toxicity rationale; Q172 tests a wall
+component while Q173 tests a membrane sterol; and Q174–Q175 test different morphology labels.
+Thus **11 observed - 0 copies = 11 retained records**, and all **11 retained records = 11
+source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 11 handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **44 required searches**. Literal query
+runs were followed by targeted reopening of the short-form `caspofungin`, `echinocandin`,
+`beta-glucan synthase`, `chitin`, `ergosterol`, `filamentous fungi`, `mycelium`, and `dimorphic
+fungi` hits where the longer source phrases were silent. External disposition is **0 live / 5
+pending / 6 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `fungal-general-property-correct-statement-differential` · Q167 | `fungi nucleus chromosomes`; `fungi eukaryote nucleus`; `fungal genetic material nucleus`; `fungi mitochondria nucleus` | no same-scope; structural fungal records do not supply this five-option property differential | none; delta |
+| `fungal-growth-morphology-correct-statement-differential` · Q168 | `hyphae septate or nonseptate`; `mold hyphae cross walls`; `septate nonseptate fungal hyphae`; `hyphal septa` | no same-scope; morphology records cover filamentous growth or individual nonseptate features, not the source differential | none; delta |
+| `antifungal-ergosterol-target-exception-caspofungin` · Q169 | `caspofungin not ergosterol`; `echinocandin beta glucan synthase`; `antifungal non ergosterol target`; `caspofungin cell wall target` | pending `CON-INF-8C46B66176DADA`; its echinocandin beta-glucan-synthase definition is scope-complete for the drug-target exception | none; delta |
+| `fungal-cell-wall-host-attachment-ligands` · Q170 | `fungal wall ligands attachment host cells`; `fungal cell wall adhesion ligands`; `fungal adherence wall molecules`; `fungal wall mediated host attachment` | no same-scope; wall-composition and drug-target records omit ligand-mediated attachment | none; delta |
+| `antifungal-selective-toxicity-ergosterol-basis` · Q171 | `antifungal selective toxicity ergosterol`; `ergosterol selective toxicity`; `fungal sterol drug selectivity`; `antifungal target unique fungal membrane` | no same-scope; azole/polyene mechanism records do not state this selective-toxicity recognition scope | none; delta |
+| `fungal-cell-wall-chitin-component` · Q172 | `fungal cell wall chitin`; `chitin component fungal wall`; `fungal wall polysaccharide chitin`; `fungal versus bacterial wall chitin` | pending `CON-INF-5711F66EFF586F`; its main-component definition contains the source's chitin-component scope | none; delta |
+| `fungal-membrane-sterol-exception` · Q173 | `sterol fungal cytoplasmic membrane`; `fungal membrane ergosterol`; `fungi membrane sterol`; `sterol in fungi` | pending `CON-INF-15A9CB1D102D73`; its definition directly places ergosterol in the fungal membrane | exact F46-Q15 reuse |
+| `mold-filamentous-morphology` · Q174 | `true mycelium filamentous fungi`; `fungi with true mycelium`; `mold filamentous true hyphae`; `filamentous fungi mycelium` | pending `CON-INF-8D2EDDBECE528D`; exact filamentous-mould morphology | exact F46-Q16 reuse; F12-V01 is a broader list |
+| `dimorphic-fungus-hyphae-yeast-switch` · Q175 | `dimorphic fungi yeast filamentous`; `fungal dimorphism yeast mold`; `yeast and hyphae forms`; `dimorphic fungus morphology` | pending `CON-INF-44400FF4328CA8`; exact yeast-versus-filamentous dimorphism | exact F46-Q17 reuse; F12-V01 is broader |
+| `fungi-imperfecti-unidentified-sexual-phase` · Q176 | `fungi imperfecti no sexual phase`; `deuteromycetes sexual phase absent`; `unclassified sexual stage fungi`; `fungi imperfecti definition` | no same-scope | none; delta |
+| `fungal-asexual-spore-exception-ascospore` · Q177 | `ascospores sexual not asexual`; `fungal asexual spores exception`; `ascospore sexual reproduction`; `blastospore arthrospore chlamydospore asexual` | no same-scope; the fungal-life-cycle record does not classify the listed spore types | none; delta |
+
+The three prior-BMS exact handles are Q173, Q174, and Q175. Therefore **11 handles - 3
+prior exact reuses = +8 concepts**.
+
+| Measure | Family 50 | Auxiliary cumulative (Families 12–50) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 11 | 357 | 765 | 1,122 |
+| Printed study-answer occurrences | 0 | 188 | 405 | 593 |
+| Retained question records | 11 | 353 | 552 | 905 |
+| Source-distinct tested handles / required searches | 11 / 44 | 342 / — | — | — |
+| External live / pending / no same-scope | 0 / 5 / 6 | — | — | family-local disposition |
+| Cross-family concept delta | +8 | +254 over primary | 372 | `372 + 254 = 626` |
+| **Distinct tested concepts** | **+8** | **254 auxiliary additions** | **372** | **626** |
+
+The checksum closes without remainder: prompt starts are `0 + 5 + 6 = 11`; key alignment is
+`11 - 0 = 11` unkeyed; retention is `11 - 0 copies = 11`; handle assignment is `11 - 0
+semantic collapses = 11`; assignment is `11 - 11 = 0` unassigned; searches are `11 × 4 = 44`;
+external disposition is `0 + 5 + 6 = 11`; and concept arithmetic is `11 - 3 = 8`.
+Auxiliary cumulative arithmetic is `346 + 11 = 357` prompts, `188 + 0 = 188` printed
+answers, `342 + 11 = 353` retained records, `331 + 11 = 342` source handles, and `246 + 8 =
+254` concept additions over primary. All-eligible arithmetic is `765 + 357 = 1,122`, `405 +
+188 = 593`, `552 + 353 = 905`, and `372 + 254 = 626`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**357 / 188 / 353 / 342 / +254**; and all eligible evidence is
+**1,122 / 593 / 905 / 626**. This tier-6 unkeyed excerpt cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 50
+
+`src_635db0cfbda1c834c519` is exhausted across all three pages: the cover, all 11 observed
+prompt occurrences, absence of a key convention, retained records, source handles, search rows,
+external dispositions, and prior-BMS decisions are assigned once, with **zero source remainder**
+and no Family-50 blocker. The next manifest-ordered local BMS-102 candidate is tier-6
+`src_909fea2501893dd6f814` · `generalvirology.pdf`, SHA-256
+`909fea2501893dd6f814da4b322972a162e9b6689b699a3ae9e8e1b708b9fbe1`, 707,918 bytes,
+three OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its OCR-needed three-page
+boundary is the next-source processing blocker: fully render and visually adjudicate prompt,
+teaching, and answer conventions before admitting any count.
