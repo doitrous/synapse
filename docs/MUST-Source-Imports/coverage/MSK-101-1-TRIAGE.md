@@ -210,10 +210,43 @@ The source is now `sourceProcessed=true`. Its completed delta is **+141 question
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Cartilage MCQ (Dr Abdelwahab)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage MCQ (د.عبدالوهاب).pdf` | `12bb34d47ef4f248cd224da7063e493d07ab6990e5b6b87455872d9bccd8eb6a` | 11 | empty-text audit sample; image-only scan | pages 1–11 rendered and read | CamScanner metadata and page branding identify Dr Abdelwahab; the title page says `Histology module 103`, and later pages are labeled `EXAM 14-18`, `EXAM 2019`, `EXAM 2020`, and `EXAM 2022`. No institution, department identity, sitting, marks or official-key authority is printed. The exam-year labels are preserved as source provenance but do not establish a documented MUST exam or official key. |
+
+### Exact MCQ, matching, written, practical, teaching and key boundary
+
+Pages 1–2 are a cover and contents/navigation page. Pages 3–11 contain **63 assessment occurrences = 53 four-option MCQs + 10 matching rows**. Pages 3–5 print 23 MCQs with 23 keys, page 6 prints four problem-solving MCQs with four keys, and page 7 prints two five-row matching tables with ten keys. Pages 8–11 contain 26 exam-labeled MCQs without printed keys. The exact answer boundary is therefore **37 printed/recovered answers / 26 source-absent answers**. There are **0 written prompts, 0 practical/image-identification prompts and 0 teaching-prose prompts**. No absent key was inferred or corrected.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 63 occurrences were assigned once across four handles, reconciling as **15 + 25 + 19 + 4 = 63**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **4 × 4 = 16 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 15, general cartilage properties, matrix, staining, nutrition and perichondrium (`cartilage avascular no lymphatic nerves nutrition`; `cartilage matrix chondroitin sulfate basophilia metachromasia`; `perichondrium cartilage fibrous cellular layers`; `hyaline cartilage matrix transparent refractive index collagen`) | no external live/pending hit; same scope as the completed MSK cartilage-matrix assignment — **prior-MSK collapse**. |
+| H2 | 25, hyaline, elastic and fibrocartilage types, sites and fibers (`hyaline elastic fibrocartilage sites comparison`; `articular cartilage no perichondrium collagen type II`; `white fibrocartilage collagen type I intervertebral disc`; `elastic cartilage ear pinna larynx perichondrium`) | no external live/pending hit; same scope as the completed MSK cartilage-classification assignment — **prior-MSK collapse**. |
+| H3 | 19, chondroblasts, chondrocytes, isogenous groups and cartilage growth (`chondroblast chondrocyte cell nest isogenous group`; `cartilage appositional interstitial growth`; `chondroblast perichondrium matrix secretion`; `chondrocyte lacunae rows interstitial growth`) | no external live/pending hit; same scope as the completed MSK cartilage-cell/growth assignment — **prior-MSK collapse**. |
+| H4 | 4, disc prolapse and limited cartilage regeneration (`disc prolapse nucleus pulposus fibrocartilage`; `costal cartilage regeneration avascularity`; `intervertebral disc annulus fibrosus histology`; `cartilage clinical applications disc regeneration`) | no external live/pending hit; same clinical cartilage scope already contained in the completed MSK cartilage/cases assignment — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 4 externally new source handles**. Prior-MSK collapse removes all four, producing a completed-source concept delta of **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+63 questions / +37 answers / +0 post-prior concepts**. Cumulative arithmetic is **445 + 63 = 508 questions**, **435 + 37 = 472 answers**, and **21 + 0 = 21 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 508 | 472 | 21 | 0 | 1 | 20 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these six processed paths and unique hashes leaves **97 selected inventory paths / 95 unique SHA-256s**. Their sorted, newline-joined hash checksum is `a22d90ff83b4c8a485b822b1415e0405341ac05f796750d2ec887702233788b2`. Remaining audit-review debt is 54 substantive-text / 8 sparse-text / 18 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`6 + 95 = 101`**.
+Removing these seven processed paths and unique hashes leaves **96 selected inventory paths / 94 unique SHA-256s**. Their sorted, newline-joined hash checksum is `b84b856f279e97ecdd7d457a0d0bc3808aeadbd3397909f5e44b29439e0aaea6`. Remaining audit-review debt is 54 substantive-text / 8 sparse-text / 17 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`7 + 94 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage MCQ (د.عبدالوهاب).pdf`, SHA-256 `12bb34d47ef4f248cd224da7063e493d07ab6990e5b6b87455872d9bccd8eb6a`, 11 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage Summary & Questions_BenAhmed.pdf`, SHA-256 `000e8e77fc82ffc6d211870fa3f07cb0fcc334a3b9b64c8596f445670f996e4f`, 20 pages.
 
-**BLOCKED — S1 cannot be approved:** 97 selected inventory paths / 95 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 96 selected inventory paths / 94 unique hashes remain untriaged.
