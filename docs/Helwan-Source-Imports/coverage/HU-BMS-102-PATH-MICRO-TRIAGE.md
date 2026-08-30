@@ -16685,3 +16685,134 @@ College MCQs First Revision.pdf`, SHA-256
 provenance, prompt/key boundary, relation to the following `_ANSWERS` carrier, source-first
 collapse, searches if any handle survives, prior-BMS reuse, and arithmetic are the exact
 next-source blockers.
+
+## Family 156 — Enas-Elhosary unkeyed First Revision mixed-format bank
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_00397536a5ea9c0b218c` · `MCQs - College MCQs First Revision.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `00397536a5ea9c0b218c09927e3a4d885d7fb3470feb25c143c095266a625846` · **365,110 bytes** |
+| Format / complete visual boundary | **15 native-text 960×540-point landscape pages**. All 15 pages rendered at 160 dpi into 15 non-empty 2134×1200-pixel images and were read individually at original detail: p.1 cover, pp.2–14 numbered Q1–Q39, and p.15 closing `Thank you`. No page, prompt, option, response line, mark, footer, or terminal remainder is omitted. |
+| Native-text reality | Layout extraction contains **633 words / 4,694 bytes** and raw extraction 578 words / 4,583 bytes. The text layer supplies every stem and option; the complete render confirms blank response fields and the absence of answer ink, so no OCR was required. |
+| Visible provenance | The cover visibly states `First Revision (Adaptation, Cell Injury, Inflammation)`, `Dr/ Enas Elhosary`, `Lecturer of pathology`, `Faculty of Medicine`, and `Helwan University`. This establishes instructor and Helwan revision-bank provenance. |
+| Metadata caution | Metadata title is `Quiz`, author is `enas megahed`, and creator/producer is Microsoft PowerPoint LTSC; creation/modification time is 11 November 2024. Visible cover identity governs. Metadata records export history only and does not establish an academic year, sitting date, candidate, or key approval. |
+| Authority | Visibly Helwan, instructor-attributed, unkeyed **revision/study bank**. It is not an administered exam, official answer register, candidate script, authenticated practical station, or recurrence record. |
+
+The following manifest record, `src_2438bc5836e4ca80031e` · `MCQs - College MCQs First
+Revision_ANSWERS.pdf`, is a distinct **1,834,532-byte**, 15-page carrier with matching 960×540
+geometry. Its different SHA and solved-answer layer make it a companion carrier, not authority to
+retrofit answers into Family 156. Family 156 preserves every visible blank as unkeyed.
+
+### Complete page-first prompt, format, absent-answer, and anomaly boundary
+
+| Pages | Complete source sequence | Prompt / supplied-answer boundary |
+|---:|---|---:|
+| 1 | Instructor/Helwan cover | **0 / 0**. |
+| 2–6 | Q1–Q9: hypertrophy, metaplasia, pure hypertrophy, apoptosis, hemochromatosis, acute inflammation, adaptation, atrophy, and hyperplasia | **9 four-option MCQs / 0 answers**. |
+| 7–8 | Q10–Q14: reversible/irreversible injury, reversible changes, five adaptation types, hyperplasia-versus-neoplasia, and the two irreversible forms | **5 completion/written prompts / 0 answers**. |
+| 8–9 | Q15–Q17 necrosis/apoptosis T/F; Q18–Q22 accumulations, pigment groups/examples, and jaundice | **3 T/F + 5 completion/written / 0 answers**. |
+| 10 | Q23–Q27 degeneration, amyloid, primary amyloidosis, calcification types, and serum-calcium T/F | **2 T/F + 3 completion/written / 0 answers**. |
+| 11–12 | Q28 inflammation functions; Q29 cardinal signs; Q30 heat mechanism; Q31 exudate categories; Q32 exudate definition; Q33 bread-and-butter pericarditis; Q34 pus term | **2 MCQs + 5 completion/written / 0 answers**. |
+| 13–14 | Q35–Q36 T/F on diffuse suppuration and toxin dilution; Q37 bacteremia MCQ; Q38 granuloma cells; Q39 TB giant-cell term | **2 T/F + 1 MCQ + 2 completion/written / 0 answers**. |
+| 15 | Closing `Thank you` | **0 / 0**; not a prompt, key, response, or authority mark. |
+
+The exact source boundary is **39 raw prompt occurrences / 0 source-supplied answers / 39
+unkeyed prompts / 12 four-option MCQs / 7 true-false prompts / 20 completion or written
+operations / 0 image-bearing questions / 0 drawing tasks / 0 practical stations / 0 candidate
+responses / 0 prompt-like residues**. Numbered multi-blank rows remain one written operation each;
+the blanks request components of the single numbered task and do not create inferred subquestions.
+No option is highlighted, underlined, circled, boxed, or accompanied by a terminal key. The
+companion's answer state is not projected backward.
+
+Sixteen occurrences are exact Family-154 wording replays and do not create new retained records:
+F156 Q1→F154 Q3, Q2→Q6, Q3→Q4, Q4→Q10, Q5→Q17, Q6→Q22, Q7→Q1, Q8→Q2, Q9→Q5,
+Q15→Q11, Q16→Q12, Q17→Q13, Q27→Q16, Q33→Q26, Q36→Q29, and Q37→Q33. Thus
+retention is **`39 - 16 = 23`**. The remaining 23 prompts are source-distinct and require no
+same-source semantic collapse, so **23 accepted handles** survive. Source quirks are preserved:
+Q12 expressly asks for **five** adaptation types; Q23 prints `Decrease or deterioration ... caused
+by sequence of events`; Q24 leaves two parts of the amyloid sentence blank; and Q35 calls acute
+diffuse inflammation a circumscribed pus accumulation. None is silently repaired.
+
+### Source-first 23-handle ledger, exactly four searches each, and prior-BMS adjudication
+
+Each surviving handle received exactly four fresh source-first searches across live state,
+pending import roots, and prior BMS-102 Families 1–155: **23 × 4 = 92 required and completed
+searches**. Exact Family-154 wording copies are governed by the replay proof above and correctly
+receive no new-handle search packet.
+
+| Ref / accepted handle | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| Q10 · `reversible-versus-irreversible-cell-injury-classification` | `reversible irreversible cell injury`; `compare reversible irreversible injury`; `cell injury either reversible irreversible`; `cellular injury outcome classification` | exact Family-2 reuse |
+| Q11 · `reversible-cell-injury-types` | `reversible cellular changes types`; `cloudy hydropic fatty change`; `reversible injury classification`; `forms of reversible cell injury` | exact Families 112/115/148 reuse |
+| Q12 · `five-major-cellular-adaptation-types-source-list` | `five major cellular adaptation types`; `atrophy hypertrophy hyperplasia metaplasia dysplasia`; `enumerate cellular adaptations`; `adaptation types pathology` | prior adaptation definitions and individual-type prompts do not test this source's five-item enumeration; delta |
+| Q13 · `hyperplasia-versus-neoplasia-growth-control` | `hyperplasia versus neoplasia`; `controlled hyperplasia uncontrolled neoplasia`; `hyperplastic versus neoplastic growth`; `difference hyperplasia neoplasia` | exact Family-98 reuse |
+| Q14 · `irreversible-cell-injury-types` | `irreversible injury necrosis apoptosis`; `two forms irreversible cell injury`; `cell death irreversible injury types`; `necrosis apoptosis major forms` | exact Family-112 reuse |
+| Q18 · `cellular-accumulations-intracellular-extracellular-classification` | `cellular accumulations intracellular extracellular`; `classification cellular accumulations`; `intracellular versus extracellular deposits`; `pathologic accumulation types` | earlier carriers teach the split but no prior accepted prompt tests it; delta |
+| Q19 · `pathological-pigments-endogenous-exogenous-classification` | `pathological pigments classification`; `endogenous exogenous pigments`; `pigment groups pathology`; `pathologic pigmentation categories` | exact Family-2 `pathological-pigments` reuse |
+| Q20 · `exogenous-pigment-disease-examples-list` | `exogenous pigments disease examples`; `anthracosis argyria tattoo pigment`; `external pigments pathology diseases`; `exogenous pigment disorders` | Family-115 tests anthracosis alone; no prior accepted handle requests the exogenous-disease list; delta |
+| Q21 · `endogenous-pigment-examples-list` | `endogenous pigment examples`; `melanin hemosiderin lipofuscin`; `endogenous pigments pathology list`; `hemoglobin derived pigments examples` | contained by Family-2 `pathological-pigments`; reuse |
+| Q22 · `jaundice-yellow-sclera-mucosa-organs-definition` | `jaundice yellow sclera mucosa organs`; `yellow discoloration sclera called`; `icterus definition pathology`; `bilirubin pigmentation jaundice definition` | no prior accepted same-scope BMS prompt; delta |
+| Q23 · `degeneration-cell-tissue-function-deterioration-definition` | `degeneration decreased cell tissue function`; `degeneration definition pathology`; `cell deterioration sequence events`; `degenerative cellular change example` | hydropic/fatty degeneration handles test named subtypes, not this general source definition; delta |
+| Q24 · `amyloid-material-extracellular-deposition-definition` | `amyloid definition extracellular deposition`; `amyloid material deposited extracellularly`; `amyloidosis definition location`; `abnormal fibrillary protein tissue deposition` | exact Families 2/9 reuse |
+| Q25 · `primary-versus-secondary-amyloidosis-chronic-disease` | `primary amyloidosis chronic disease false`; `secondary amyloidosis chronic inflammation`; `reactive amyloid chronic disease`; `primary versus secondary amyloidosis causes` | contained by Families 8/9 secondary/reactive amyloidosis scopes; reuse |
+| Q26 · `pathologic-calcification-dystrophic-metastatic-types` | `pathologic calcification two types`; `dystrophic metastatic calcification classification`; `types of pathological calcification`; `calcium deposition pathology categories` | exact Families 9/112 reuse |
+| Q28 · `inflammation-beneficial-functions-three-item-list` | `functions of inflammation three`; `beneficial effects inflammatory exudate`; `inflammation function dilution localization`; `purpose of inflammatory response` | prior accepted handles test individual functions, not this requested three-function enumeration; delta |
+| Q29 · `acute-inflammation-cardinal-signs` | `five cardinal signs acute inflammation`; `redness heat swelling pain loss function`; `rubor calor tumor dolor functio laesa`; `acute inflammation signs` | exact Families 2/10/88 reuse |
+| Q30 · `acute-inflammation-heat-mechanism` | `hotness inflammation increased blood flow`; `calor regional vascular dilation`; `acute inflammation heat mechanism`; `inflammatory hyperemia hotness` | exact Families 2/10 reuse |
+| Q31 · `acute-inflammation-fluid-and-cellular-exudate-categories` | `acute inflammation fluid cellular exudate`; `acute inflammation categorized exudates`; `vascular and cellular inflammatory response`; `acute inflammation morphological changes` | contained by Families 2/88 acute-inflammation morphology scopes; reuse |
+| Q32 · `exudate-protein-rich-extravascular-fluid-definition` | `exudate protein rich extravascular fluid`; `exudate definition pathology`; `protein rich inflammatory fluid`; `vascular leakage exudate` | exact Families 2/10 reuse |
+| Q34 · `pus-dead-leukocytes-definition` | `pus dead leukocytes definition`; `large number dead leukocytes pus`; `purulent exudate composition`; `suppurative inflammation pus` | exact Families 1/2 reuse |
+| Q35 · `localized-versus-diffuse-suppurative-inflammation` | `acute diffuse inflammation circumscribed pus false`; `abscess localized cellulitis diffuse`; `localized diffuse suppurative inflammation`; `circumscribed collection pus abscess` | exact Families 8/88/123 reuse |
+| Q38 · `granuloma-four-cell-type-composition` | `granuloma collection cell types`; `granuloma macrophages epithelioid giant lymphocytes`; `granulomatous inflammation cellular composition`; `granuloma microscopic features` | contained by Families 2/8/88 granuloma morphology scopes; reuse |
+| Q39 · `tuberculous-granuloma-langhans-giant-cell` | `Langhans giant cell tuberculosis granuloma`; `TB granuloma horseshoe nuclei giant cell`; `tuberculous granuloma giant cell name`; `Langhan cell pathology` | exact Families 2/7/8 reuse |
+
+Exactly **17** handles reuse previously accepted BMS-tested scope. The six additions are the
+source's five-type cellular-adaptation enumeration, intracellular/extracellular cellular-
+accumulation classification, exogenous-pigment disease list, jaundice definition, general
+degeneration definition, and three-function inflammation enumeration. Family 156 therefore adds
+**`23 - 17 = 6` concepts**.
+
+### Family-156 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 156 | Auxiliary cumulative (Families 12–156) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 39 | 1,654 | 765 | 2,419 |
+| Source-supplied answer occurrences | 0 | 1,022 | 405 | 1,427 |
+| Unkeyed prompt occurrences | 39 | — | — | family-local state preserved |
+| New retained question records after prior wording dedupe | 23 | 1,480 | 552 | 2,032 |
+| New accepted handles / required searches | 23 / 92 | 1,325 / — | — | — |
+| Exact prior-family wording replays | 16 | — | — | Family-154 copies excluded before search |
+| Prior-BMS handle reuses among survivors | 17 | — | — | — |
+| Cross-family concept delta | +6 | +761 over primary | 372 | 1,133 |
+| **Distinct tested concepts** | **23 source-local** | **761 auxiliary additions** | **372** | **1,133** |
+
+The checksum closes as `12 + 7 + 20 = 39` raw prompts; `39 - 16 exact Family-154 wording
+copies = 23` new retained records; 23 surviving handles require `23 × 4 = 92` searches; and
+concept arithmetic is `23 - 17 prior reuses = +6`. Auxiliary arithmetic is `1,615 + 39 =
+1,654` prompts, `1,022 + 0 = 1,022` answers, `1,457 + 23 = 1,480` retained records, `1,302
++ 23 = 1,325` handles, and `755 + 6 = 761` concept additions. All eligible arithmetic is
+`765 + 1,654 = 2,419`, `405 + 1,022 = 1,427`, `552 + 1,480 = 2,032`, and `372 + 761 =
+1,133`.
+
+Primary remains **765 / 405 / 552 / 372**. Auxiliary is now **1,654 prompts / 1,022 answers /
+1,480 retained records / 1,325 handles / +761 concepts over primary**. All eligible evidence is
+**2,419 prompts / 1,427 supplied answers / 2,032 retained records / 1,133 distinct tested
+concepts**. Family 156 adds unkeyed instructor-revision evidence only; it establishes no official
+answer, administered exam, sitting date, recurrence, mark weight, candidate response, practical
+station, readiness, or claims status.
+
+### Exact next debt after Family 156
+
+`src_00397536a5ea9c0b218c` is exhausted across all 15 pages: every visible/metadata provenance
+field, native prompt and option, blank answer state, format assignment, exact-copy exclusion,
+accepted handle, four-search packet, prior-family relation, anomaly, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-156 blocker. The exact next manifest
+record is tier-3 solved companion `src_2438bc5836e4ca80031e` · `MCQs - College MCQs First
+Revision_ANSWERS.pdf`, SHA-256
+`2438bc5836e4ca80031eb6c5f14416badc83c4ab4f3b466d8e6fb46d70f65868`, **1,834,532 bytes**,
+15 native-text 960×540-point landscape pages under `Pathology / Questions / MCQs`. Its complete
+prompt-layer relation to Family 156, solved-mark convention, source-answer authority, format and
+key anomalies, source-first collapse, prior-BMS reconciliation, searches for any genuinely new
+handle, and arithmetic are the exact next-source blockers.
