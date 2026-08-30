@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "297911c4da3ee8e18b0684fa2a8d696fbdd0464675bd9994da9b9df2e69184c7",
-    "triageMarkdown": "b5ff2606abed6e1dd113ddce99359b8aba395881dd43fb8ec32d8b5cd51718d9"
+    "readinessMarkdown": "880e1ec87a70a59bca91b4eb1283ff61b329dd0737cfae37f6c4f70e9fa850a3",
+    "triageMarkdown": "d23f33cf5b65d0658f1e7c041a7f416a221d4f316d2aa03dd6eb50c0190935b5"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -90,6 +90,7 @@
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
       "af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80",
       "af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe",
+      "b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd",
       "b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7",
       "b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005",
       "b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9",
@@ -116,7 +117,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 64
+    "uniqueSha256": 65
   },
   "completedSourceCoverage": [
     {
@@ -1927,37 +1928,102 @@
         "Poppler extraction reports unknown PDFTron-Identity character collections",
         "mixed Arabic and English wording and anatomical statements are retained without correction"
       ]
+    },
+    {
+      "sha256": "b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd",
+      "sourcePages": 38,
+      "renderedReadPages": "1-38",
+      "coverPages": "1",
+      "teachingPages": "2-9,23-25,30-32",
+      "mixedKeyTeachingPages": "22",
+      "questionPages": "10-21,26-28,33-38",
+      "keyPages": "13,18,22,29,38",
+      "printedPromptObservations": 95,
+      "objectiveMcqPrompts": 95,
+      "printedKeyObservations": 95,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "assessmentBlocks": [
+        {
+          "pages": "10-13",
+          "prompts": 15,
+          "answers": 15
+        },
+        {
+          "pages": "13-18",
+          "prompts": 25,
+          "answers": 25
+        },
+        {
+          "pages": "19-22",
+          "prompts": 15,
+          "answers": 15
+        },
+        {
+          "pages": "26-29",
+          "prompts": 15,
+          "answers": 15
+        },
+        {
+          "pages": "33-38",
+          "prompts": 25,
+          "answers": 25
+        }
+      ],
+      "familyQuestionDelta": 95,
+      "familyAnswerDelta": 95,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceHistoBoneAcceptedSourceHandles": 4,
+      "referenceHistoBoneSearchesRun": 16,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Mohamed Salama student bone summary and MCQ compilation created in Microsoft Word for Microsoft 365 on 11 December 2023; no printed institution, department, examiner, sitting, marks or official faculty-key claim",
+      "boundaryDisposition": "one cover, fourteen teaching-only pages, one mixed key-and-teaching page, and five complete keyed MCQ banks totalling ninety-five prompts; no written, practical, image-identification, answer-only or unkeyed material",
+      "priorCarrierComparison": {
+        "sha256": "be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4",
+        "disposition": "distinct prompt sequence from the prior 92-page HISTO FINAL BY SALAMA compilation; source-first bone scopes collapse to its completed H1 and earlier completed bone-family evidence"
+      },
+      "preservedSourceDefects": [
+        "numbering restarts at Q1 in every bank",
+        "third-bank Q3 includes Barcelona as a joke distractor",
+        "printed UMCS/UMCs variants, spelling, capitalization and academically questionable key choices are retained without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6136,
-    "printedKeyObservations": 5946,
+    "printedPromptObservations": 6231,
+    "printedKeyObservations": 6041,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 38,
-    "uniqueSha256": 37,
-    "sortedNewlineSha256": "f0745bcfea91f4dd6ff17d107c4ae80fb0f753f2ba0beeab567e941d5cef28cf",
+    "inventoryMetadataRows": 37,
+    "uniqueSha256": 36,
+    "sortedNewlineSha256": "7fb059d104f6148445ffe6b523bed4dbe9b76a3f6fc681f688eed1966d1133d7",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 14
+      "substantive-text": 13
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 14
+    "substantive-text": 13
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 64,
-    "remainingUniqueSha256": 37,
+    "processedUniqueSha256": 65,
+    "remainingUniqueSha256": 36,
     "processedPlusRemaining": 101
   }
 }

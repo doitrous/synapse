@@ -2541,3 +2541,52 @@ Removing the sixty-four processed unique hashes leaves **38 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - BONE BY SALAMA.pdf`, SHA-256 `b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd`, 38 pages.
 
 **BLOCKED — S1 cannot be approved:** 38 selected inventory paths / 37 unique hashes remain untriaged.
+
+## Completed source — BONE BY SALAMA
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - BONE BY SALAMA.pdf` | `b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd` | 38 | substantive-text audit sample | pages 1–38 rendered and read | Mohamed Salama student bone summary and MCQ compilation, created and modified in Microsoft Word for Microsoft 365 on 11 December 2023. The cover prints `BONE`, `SUMMARY AND MCQs` and `BY: Mohamed Salama`; no institution, department, examiner, sitting, marks or official faculty-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - BONE BY SALAMA.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and teaching boundary
+
+Page 1 is a cover. Pages 2–9, 23–25 and 30–32 are teaching-only bone summaries and explanatory figures; page 22 begins with the third bank's key and then transitions to teaching. Five complete keyed MCQ banks occupy pages 10–22, 26–29 and 33–38:
+
+| Bank | Page boundary | MCQ prompts | Printed answers |
+|---|---|---:|---:|
+| Matrix, function and osteoporosis | 10–13 | 15 | 15 |
+| Bone cells and remodelling | 13–18 | 25 | 25 |
+| Coverings and preparation | 19–22 | 15 | 15 |
+| Compact/spongy bone architecture and classification | 26–29 | 15 | 15 |
+| Growth plate and ossification | 33–38 | 25 | 25 |
+| **Total** | **10–22,26–29,33–38** | **95** | **95** |
+
+There are **0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 source-unkeyed assessment prompts**. Teaching diagrams of bone architecture, the growth plate and fracture repair have no question instruction, response field or station label and are not converted into practical prompts.
+
+Source details and defects are preserved without correction: question numbering restarts at Q1 in every bank; the third bank's Q3 includes `Barcelona` as a joke distractor; `UMCS`/`UMCs` and other spelling/capitalization variants remain as printed; and academically questionable answer choices remain student-key observations rather than faculty-authoritative corrections.
+
+### Prior-carrier reconciliation, source-first collapse and search gate
+
+The five-bank sequence is not embedded in the previously completed 92-page `HISTO FINAL BY SALAMA` carrier, SHA-256 `be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4`. Direct normalized-text comparison found different bank stems and sequences; the shared author and generic bone terminology do not establish prompt-sequence identity. The current **95 question / 95 answer** source boundary is therefore retained once.
+
+Its source-first candidate scopes are bone matrix/function and osteoporosis; osteogenic cells, osteoblasts, osteocytes, osteoclasts and remodelling; periosteum/endosteum and bone preparation; compact/spongy architecture and classification; and growth plate/ossification. Every scope maps to the completed MSK bone/cartilage family, including the earlier 92-page Salama H1 assignment. No genuinely new accepted handle survives prior-MSK collapse, so the exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**. The prior bone-family **4 accepted handles / 16 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct keyed student compilation is now `sourceProcessed=true`. Its delta is **+95 questions / +95 answer observations / +0 concepts**. Cumulative arithmetic is **6136 + 95 = 6231 questions**, **5946 + 95 = 6041 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6231 | 6041 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-five processed unique hashes leaves **37 selected inventory paths / 36 unique SHA-256s**. Their sorted, newline-joined hash checksum is `7fb059d104f6148445ffe6b523bed4dbe9b76a3f6fc681f688eed1966d1133d7`. Remaining audit-review debt is 13 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`65 + 36 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/102 training questions.pdf`, SHA-256 `b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2`, 3 pages.
+
+**BLOCKED — S1 cannot be approved:** 37 selected inventory paths / 36 unique hashes remain untriaged.

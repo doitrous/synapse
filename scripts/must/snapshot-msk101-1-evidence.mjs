@@ -71,9 +71,10 @@ const PROCESSED_FAMILY_HASHES = [
   'b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005',
   '6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609',
   '1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c',
+  'b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = 'f0745bcfea91f4dd6ff17d107c4ae80fb0f753f2ba0beeab567e941d5cef28cf'
+const REMAINING_CHECKSUM = '7fb059d104f6148445ffe6b523bed4dbe9b76a3f6fc681f688eed1966d1133d7'
 
 function option(name) {
   const prefix = `${name}=`
@@ -150,10 +151,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 14 }
+  const expected = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 13 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=14-substantive/5-sparse/7-empty/12-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=13-substantive/5-sparse/7-empty/12-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -169,7 +170,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6136', '5946', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6231', '6041', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -203,7 +204,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 64 || remainingHashes.length !== 37 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 65 || remainingHashes.length !== 36 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -211,7 +212,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 14 }
+const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 13 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -296,8 +297,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[61], sourcePages: 4, renderedReadPages: '1-4', assessmentPages: '1-4', printedPromptObservations: 17, objectiveMcqPrompts: 12, matchingPrompts: 5, printedKeyObservations: 17, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 17, familyAnswerDelta: 17, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Ahmed Hani Sobhi Sadiq student Upper Limb question sheet created in Writer and exported through LibreOffice 7.4 on 17 October 2024; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'continuous Q1-Q17 keyed assessment: twelve conventional MCQs plus five separately numbered matching rows Q3-Q7, followed by a complete model-answer line; no written, practical, image-identification, teaching-only, answer-only or unkeyed material', preservedSourceDefects: ['the matching instruction ends with parenthetical 14 without an explained marks label', 'Q1 option lettering prints d before c', 'Q15 merges options d and e on one line', 'model-answer spacing joins Q9 and Q10'] },
     { sha256: PROCESSED_FAMILY_HASHES[62], sourcePages: 10, renderedReadPages: '1-10', teachingPages: '1', questionPages: '2-9', keyPages: '10', printedPromptObservations: 40, objectiveMcqPrompts: 40, printedKeyObservations: 40, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 40, familyAnswerDelta: 40, acceptedSourceHandles: 0, searchesRun: 0, referenceAnatomyAcceptedSourceHandles: 5, referenceAnatomySearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Youssef BenAhmed student pectoral-region revision bank created in Microsoft Word for Microsoft 365 and exported through 4-Heights PDF Library on 19 October 2024; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'one teaching-only quick-review mind map followed by a continuous Q1-Q40 conventional MCQ sequence and one complete printed answer table; no written, practical, image-identification, answer-only or unkeyed material', preservedSourceDefects: ['page-1 hyperlink text prints Clickhere', 'Q5 uses the combined B&C option and Q10 uses A&C', 'Q40 carries five options while the other prompts carry four', 'the malformed AcroForm field-array warning does not obscure rendered content'] },
     { sha256: PROCESSED_FAMILY_HASHES[63], sourcePages: 11, renderedReadPages: '1-11', teachingPages: '1-10', blankPages: '11', printedPromptObservations: 0, objectiveMcqPrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'unattributed bilingual anatomy review document captured through iOS Quartz PDFContext on 16 October 2025; the filename and Midterm folder are not examination authority, and no printed institution, department, author, examiner, sitting, marks or official-key claim appears', boundaryDisposition: 'ten teaching-note pages covering pectoral and scapular muscles, fascia, axilla, axillary artery and brachial plexus, followed by one visually blank page; explanatory figures contain no practical or image-identification prompt, response space or station instruction', preservedSourceDefects: ['several teaching bullets render with missing-glyph box characters', 'Poppler extraction reports unknown PDFTron-Identity character collections', 'mixed Arabic and English wording and anatomical statements are retained without correction'] },
+    { sha256: PROCESSED_FAMILY_HASHES[64], sourcePages: 38, renderedReadPages: '1-38', coverPages: '1', teachingPages: '2-9,23-25,30-32', mixedKeyTeachingPages: '22', questionPages: '10-21,26-28,33-38', keyPages: '13,18,22,29,38', printedPromptObservations: 95, objectiveMcqPrompts: 95, printedKeyObservations: 95, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, assessmentBlocks: [{ pages: '10-13', prompts: 15, answers: 15 }, { pages: '13-18', prompts: 25, answers: 25 }, { pages: '19-22', prompts: 15, answers: 15 }, { pages: '26-29', prompts: 15, answers: 15 }, { pages: '33-38', prompts: 25, answers: 25 }], familyQuestionDelta: 95, familyAnswerDelta: 95, acceptedSourceHandles: 0, searchesRun: 0, referenceHistoBoneAcceptedSourceHandles: 4, referenceHistoBoneSearchesRun: 16, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Mohamed Salama student bone summary and MCQ compilation created in Microsoft Word for Microsoft 365 on 11 December 2023; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'one cover, fourteen teaching-only pages, one mixed key-and-teaching page, and five complete keyed MCQ banks totalling ninety-five prompts; no written, practical, image-identification, answer-only or unkeyed material', priorCarrierComparison: { sha256: PROCESSED_FAMILY_HASHES[24], disposition: 'distinct prompt sequence from the prior 92-page HISTO FINAL BY SALAMA compilation; source-first bone scopes collapse to its completed H1 and earlier completed bone-family evidence' }, preservedSourceDefects: ['numbering restarts at Q1 in every bank', 'third-bank Q3 includes Barcelona as a joke distractor', 'printed UMCS/UMCs variants, spelling, capitalization and academically questionable key choices are retained without correction'] },
   ],
-  triageCumulative: { printedPromptObservations: 6136, printedKeyObservations: 5946, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 6231, printedKeyObservations: 6041, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
