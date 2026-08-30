@@ -22868,3 +22868,86 @@ drug groups, and prints `DR . El-Sawy`. Its exact twin relation to preferred
 `src_a53dd0edb4292fff3839`, visible/metadata authority, teaching/prompt/key/practical boundary,
 four-search gate, prior-BMS reconciliation, arithmetic, and subsequent next debt remain to be
 separately adjudicated.
+
+## Family 225 — Dr El-Sawy condensed anti-fungal-drugs teaching handout
+
+### Source identity, complete render/native boundary, twin ruling, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 non-preferred name twin `src_a21a64afba78088e7f13` · `Anti-fungal drugs.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `a21a64afba78088e7f1334881465e0762a5cd084ee5e3e7aaaf2cb7f190a87b5` · **428,563 bytes** |
+| Format / complete visual boundary | **Six native-text portrait A4 pages, 595.32×841.92 points, PDF 1.7**. All six pages were rendered at 120 dpi into six non-empty 993×1,404-pixel images and read individually at full page detail; every heading, diagram, list, table, emphasis mark, footer, and page number is assigned below. There is no physical-page or crop remainder. |
+| Native-text reality | Layout extraction contains **720 words / 9,605 bytes** and raw extraction contains **720 words / 4,893 bytes**. Both agree with the six renders. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Visible provenance | Every page visibly prints `Pharmacology`, `Anti-fungal Drugs`, `DR . El-Sawy`, and its page number. No university/faculty, BMS-102/module code, academic year, lecture date, sitting, marks, candidate field, or departmental approval is visible. |
+| Metadata caution | PDF metadata names author `Mamdouh`, Microsoft Word LTSC as creator/producer, and 24 April 2026 as creation/modification date. These export fields conflict with or are weaker than the visible `DR . El-Sawy` attribution and cannot establish academic year, delivery date, sitting, or institutional authority. |
+| Exact twin adjudication | The manifest links this object by name to preferred tier-4 `src_a53dd0edb4292fff3839` · `Anti- Fungal drugs.pdf`, SHA `a53dd0edb4292fff38395c5de3162bdea131b86019ed474dad24dd6b19becceb`, under `Pharmacology / Theoretical / Lec 14 - Antifungal Drugs`. The preferred carrier is a **21-page 791×445-point landscape deck**, whereas this carrier is a six-page portrait handout. Full renders have no byte-identical page image; normalized extraction finds current page 1 contained in preferred page 1 but no exact or containment page match for current pages 2–6. Thus `nameTwinOf` records a topical/name family, not byte-, page-, or complete-content identity. The preferred carrier remains separately unprocessed in manifest order. |
+| Authority | Local tier-6 instructor-attributed condensed teaching handout. It is relevant pharmacology teaching evidence, but not an authenticated Helwan lecture, assessment, official answer key, or practical station. The later preferred tier-4 deck has stronger folder authority without transferring that authority to this distinct carrier. |
+
+### Complete page-first teaching, prompt, key, annotation, and practical boundary
+
+| Page | Exhausted visible content | Boundary ruling |
+|---:|---|---|
+| 1 | Systemic versus local fungal infection; systemic and local/topical drug-group classification; completed fungal-cell-wall/membrane mechanism diagram placing flucytosine, terbinafine, amphotericin B/nystatin, azoles, and echinocandins | Completed teaching classification and labelled mechanism map; **0 prompts / 0 answers / 0 practical**. |
+| 2 | Amphotericin B source/chemistry, pharmacokinetics, ergosterol-pore mechanism, spectrum, and clinical uses | Completed teaching notes; **0 / 0 / 0**. |
+| 3 | Amphotericin B adverse effects followed by flucytosine source/chemistry, pharmacokinetics, nucleic-acid mechanism, spectrum, and adverse effects | Completed teaching notes; **0 / 0 / 0**. |
+| 4 | Azoles: ketoconazole/fluconazole pharmacokinetics, fungal-CYP450/ergosterol mechanism, uses, and adverse effects | Completed teaching notes and comparison; **0 / 0 / 0**. |
+| 5 | Echinocandins: caspofungin/micafungin pharmacokinetics, beta-glucan-synthase mechanism, uses, and adverse effects | Completed teaching notes; **0 / 0 / 0**. |
+| 6 | Griseofulvin, terbinafine, and voriconazole systemic-local-infection table, followed by nystatin and topical-azole notes | Completed teaching table and notes; **0 / 0 / 0**. |
+
+The exact source-local assessment boundary is therefore **0 MCQs + 0 True/False + 0 written
+prompts + 0 completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw
+prompt occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question
+records, and 0 prompt-like residues**. Numbered drug groups, sublists, bold/colour/underline
+emphasis, the completed mechanism diagram, and the comparative table organize or disclose teaching;
+none requests a response or supplies a key to an assessment operation.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet, external disposition, or prior-handle
+row is fabricated. The handout's anti-fungal propositions overlap teaching and assessed
+pharmacology elsewhere in the ledger, including Families 202 and 223, while the preferred tier-4
+name twin remains future manifest debt; teaching overlap alone is not a new tested-handle
+occurrence. Prior-BMS assessment reuse is therefore **0** and concept delta is **+0**.
+
+| Measure | Family 225 | Auxiliary cumulative (Families 12–225) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 225
+establishes completed anti-fungal teaching, attribution, and twin-separation evidence only, not
+assessment, official-key, practical, verified-date, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 225
+
+`src_a21a64afba78088e7f13` is exhausted across all six pages: every teaching statement, labelled
+diagram branch, list/table row, emphasis mark, attribution, metadata limitation, twin relation,
+zero gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-225
+blocker. The distinct preferred tier-4 twin remains pending at its own later manifest position.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 225 is **286 paths / 279 unique hashes**, leaving exactly **76 selected paths / 69
+unique hashes**. Checksums are **286 + 76 = 362 paths** and **279 + 69 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `8c33f0f843eba76841e6c691a5b9e8a823716e795124ad90758d389f5f4021ac`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`4a3565fea9cc528b208c0a067ce76eeb0db9310cd8c960c697575acfb7628d7b`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_b44edc9a8e7b79084af5` · `Antiviral
+drugs.pdf`, SHA-256
+`b44edc9a8e7b79084af56095696c0ffdc9525ae7db79a625d68be0968e3e2d51`, **362,033 bytes**,
+**five native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first page
+visibly begins `Pharmacology / Anti-Viral drugs`, covers virus structure/replication and HCV
+treatment goals, and prints `DR . El-Sawy`. Its complete provenance, teaching/prompt/key/practical
+boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
