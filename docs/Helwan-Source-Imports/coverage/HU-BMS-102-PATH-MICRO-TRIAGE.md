@@ -12979,3 +12979,112 @@ source remainder** and no Family-122 blocker. The exact next unprocessed manifes
 eight native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its complete
 render/read, visible Dr Ahmed Hassan provenance, metadata author/date conflict, and teaching/case/
 prompt/key/practical boundary are the exact next-source blockers.
+
+## Family 123 — Dr Ahmed Hassan inflammation cases and supplied-answer teaching handout
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_3a1f6f5cdad3eda0d1fa` · `inflammation 2.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `3a1f6f5cdad3eda0d1fabe580dbd59707319914b6a4d4dccbaf1be4963323e49` · 1,122,770 bytes |
+| Format / complete visual boundary | Eight native-text portrait A4 pages (595.32×842.04 points). All eight pages were rendered at 170 dpi into eight non-empty 1406×1989-pixel images and read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent layout and raw extraction each contain 865 words; layout extraction is 8,062 bytes and raw extraction is 5,677 bytes. Both agree with the complete rendered headings, cases, tables, prompt wording, and supplied responses. The manifest's `native` label is accurate. The tagged PDF has no form, JavaScript, encryption, metadata stream, custom metadata, user properties, or suspect objects. |
+| Visible provenance | Every page visibly prints `PATHOLOGY`, `Inflammation`, `DR . AHMED HASSAN`, and page number 1–8. This establishes Dr Ahmed Hassan teaching provenance. No university, faculty, module code, academic year, lecture date, or assessment sitting is visible. |
+| Metadata caution | Metadata names `Hossam mohammed` as author, Microsoft Word 2019 as creator/producer, and 20 March 2025 creation/modification timestamps. The visible Dr Ahmed Hassan credit controls source-facing attribution; the conflicting metadata author and timestamps are retained only as file-production fields, not promoted to authorship, academic year, teaching date, or sitting. |
+| Authority | Tier-6 local instructor teaching handout with completed tables, labelled gross/histology images, five cases, and immediate source-native teaching responses. It is not a candidate paper, official key, dated exam, station sheet, or student response. |
+
+### Complete page-first teaching, case, prompt, answer, practical-image, and residue inventory
+
+| Page(s) | Complete visible source content | Boundary ruling |
+|---:|---|---:|
+| 1–2 | Acute-versus-chronic comparison; acute-inflammation features; serous-inflammation definition, sites, mechanism and burn example; fibrinous-inflammation mechanism and complications | Completed teaching tables and mappings; **0 prompts / 0 answers**. |
+| 3 | Suppurative-inflammation composition, pyogenic organisms, appendicitis/abscess examples; Case 1 begins with a painful hot neck swelling that enlarges and drains yellow material | Completed teaching and case setup; **0 / 0**. |
+| 4 | Abscess pathogenesis and pus composition; asks the disease type and the necrosis type, immediately answering acute localized suppurative inflammation and liquefactive necrosis; completed abscess-complication list | **2 prompts / 2 supplied teaching answers**. |
+| 5 | Case 2 acute-appendicitis history and completed gross description of a swollen congested appendix with surface/luminal yellow exudate and mucosal ulcers | Case setup and labelled teaching plate; **0 / 0**. |
+| 6 | Asks the nature of the appendiceal yellow material and the dominant inflammatory cell, immediately answering pus and neutrophils; Case 3 optionless sunburn/bullae stem immediately supplies prostaglandin/histamine-mediated vasodilation and fluid leakage plus serous-inflammation diagnosis | **3 prompts / 3 supplied teaching answers**. The missing option list does not make the sunburn item unkeyed because the printed causal response fully resolves the requested dermal change. |
+| 7 | Case 4 asks for description and diagnosis of each of two pericardial gross pictures, then supplies paired serous-pericarditis and fibrinous-pericarditis labels/descriptions; Case 5 begins a culture-positive pulmonary-tuberculosis history | **1 compound prompt / 1 complete paired teaching-answer block**. |
+| 8 | Completed TB gross/histology plate and caseation/granuloma descriptions; asks the inflammation type and answers chronic granulomatous inflammation; completed actinomycosis definition/cause/clinical table and labelled histology | **1 prompt / 1 supplied teaching answer**. The same answer bullet then appends `Is this a type of specific inflammation` without question punctuation or a supplied response; preserve as **1 prompt-like editing residue**, not an accepted prompt or answer. |
+
+The exact boundary is **7 raw prompt occurrences / 7 source-supplied teaching-answer
+occurrences / 0 unkeyed prompt occurrences / 1 prompt-like residue / 7 retained question
+records / 7 source-distinct tested handles**. The single Case-4 command and its paired answer
+table remain one compound occurrence and handle because the source asks for both displayed
+pictures in one sentence and resolves them in one corresponding block.
+
+Several prompts use case vignettes, gross photographs, or histology, but they remain
+teaching/practical-image questions inside a completed instructor handout. There is no station
+number, candidate instruction, timing, mark allocation, concealed-label plate, response field,
+performance checklist, or official practical key; therefore none is elevated to authenticated
+practical-assessment evidence.
+
+### Source-first retention, exactly-four-search ledger, and prior-BMS adjudication
+
+| Ref | Source-tested scope / supplied teaching answer | Handle / prior assignment |
+|---|---|---|
+| F123-Q01 | Painful draining neck abscess classified as acute localized suppurative inflammation | `abscess-acute-localized-suppurative-diagnosis` · exact Family-2/Family-8 localized-suppurative abscess reuse |
+| F123-Q02 | Necrosis in the suppurative abscess is liquefactive necrosis | `abscess-liquefactive-necrosis-identification` · exact Family-73 liquefactive-site reuse |
+| F123-Q03 | Yellow surface and luminal material in the gross acute-appendicitis case is pus | `acute-appendicitis-yellow-exudate-pus-identification` · new; prior pus-composition and appendicitis-morphology handles do not test this gross-material identification |
+| F123-Q04 | The dominant inflammatory cell in acute suppurative appendicitis is the neutrophil | `acute-appendicitis-dominant-neutrophil` · exact Family-2 acute-inflammation predominant-cell reuse; the appendix vignette does not change the tested relation |
+| F123-Q05 | Sunburn redness and bullae arise through prostaglandin/histamine-associated vasodilation and fluid leakage, with serous inflammation | `sunburn-bulla-vasodilation-permeability-mechanism` · new; Family-2/Family-8 identify burn as serous inflammation but do not test the mediator-to-redness/bulla mechanism |
+| F123-Q06 | Paired gross distinction of serous pericardial fluid from adherent fibrinous strands | `serous-versus-fibrinous-pericarditis-gross` · new; Family-1's bread-and-butter fibrinous pattern does not supply the paired serous/fibrinous distinction |
+| F123-Q07 | Culture-positive pulmonary TB with caseation and granuloma is chronic granulomatous inflammation | `tuberculosis-caseating-granulomatous-inflammation` · exact Family-7 caseating-granuloma reuse; Families 73 and 104 are later reuses |
+
+All seven accepted handles received exactly four fresh source-first searches across live state,
+pending import roots, and prior BMS-102 Families 1–122: **28 required and completed searches**.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `abscess-acute-localized-suppurative-diagnosis` | `acute localized suppurative inflammation abscess`; `neck swelling pus localized suppurative inflammation`; `abscess type acute suppurative inflammation`; `localized purulent inflammation diagnosis` | no same-scope | exact Family-2/Family-8 reuse |
+| `abscess-liquefactive-necrosis-identification` | `abscess liquefactive necrosis`; `type of necrosis in abscess`; `neutrophil lysosomal enzymes liquefactive necrosis abscess`; `suppurative inflammation necrosis type` | pending `CON-FND-88508ABAB84A67`; exact site/type relation | exact Family-73 reuse |
+| `acute-appendicitis-yellow-exudate-pus-identification` | `yellowish material appendix surface lumen pus`; `acute appendicitis yellow exudate gross`; `appendix lumen yellow material diagnosis`; `appendicitis gross pus on serosa lumen` | no same-scope | none; delta |
+| `acute-appendicitis-dominant-neutrophil` | `acute appendicitis dominant inflammatory cell`; `appendicitis neutrophils predominant`; `acute suppurative appendix inflammatory cells`; `transmural neutrophils acute appendicitis` | no same-scope | exact Family-2 predominant-cell reuse |
+| `sunburn-bulla-vasodilation-permeability-mechanism` | `sunburn bulla serous inflammation`; `burn blister prostaglandin histamine vasodilation leakage`; `dermal change sunburn bullae vascular permeability`; `serous inflammation skin blister burn` | no same-scope | prior burn/serous handles are related but omit the mechanism; delta |
+| `serous-versus-fibrinous-pericarditis-gross` | `acute rheumatic fever serous fibrinous pericarditis gross`; `describe serous and fibrinous pericarditis pictures`; `pericardial sac serous fluid fibrous strands diagnosis`; `rheumatic pericarditis bread butter gross` | no same-scope | Family-1 bread-and-butter morphology is narrower; delta |
+| `tuberculosis-caseating-granulomatous-inflammation` | `tuberculosis chronic granulomatous inflammation caseation`; `caseating granuloma type specific inflammation`; `lung TB caseous necrosis granulomatous inflammation`; `tubercle bacilli chronic specific inflammation diagnosis` | pending `CON-FND-5B3B6BA12670C7`; exact TB/caseation relation | exact Family-7 reuse |
+
+External disposition is **0 live / 2 pending / 5 no same-scope**. Exactly **4** handles are
+prior-BMS exact reuses: localized suppurative abscess, abscess liquefaction, acute-neutrophil
+predominance, and TB caseating granulomatous inflammation. Family 123 therefore adds `7 - 4 =
+3` concepts.
+
+### Family-123 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 123 | Auxiliary cumulative (Families 12–123) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 7 | 1,028 | 765 | 1,793 |
+| Printed/source-supplied answer occurrences | 7 | 608 | 405 | 1,013 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 1 | — | — | tracked outside prompt totals |
+| Retained question records | 7 | 968 | 552 | 1,520 |
+| Source-distinct tested handles / required searches | 7 / 28 | 866 / — | — | — |
+| External live / pending / no same-scope | 0 / 2 / 5 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 4 | — | — | subtract before concept addition |
+| Cross-family concept delta | +3 | +566 over primary | 372 | `372 + 566 = 938` |
+| **Distinct tested concepts** | **+3** | **566 auxiliary additions** | **372** | **938** |
+
+The checksum closes without remainder: seven accepted prompts each have one supplied answer and
+retain seven records/handles; the separate malformed phrase is one residue outside prompt totals;
+searches are `7 × 4 = 28`; external disposition is `0 + 2 + 5 = 7`; and concept arithmetic is
+`7 - 4 prior exact reuses = 3`. Auxiliary cumulative arithmetic is `1,021 + 7 = 1,028`
+prompts, `601 + 7 = 608` answers, `961 + 7 = 968` retained records, `859 + 7 = 866`
+handles, and `563 + 3 = 566` concept additions. All eligible arithmetic is `765 + 1,028 =
+1,793`, `405 + 608 = 1,013`, `552 + 968 = 1,520`, and `372 + 566 = 938`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,028 / 608 / 968 / 866 / +566**; and all eligible evidence is
+**1,793 / 1,013 / 1,520 / 938**. Family 123 contributes auxiliary teaching-case evidence only.
+It cannot establish an official key, dated sitting, recurrence, mark weight, student response,
+readiness, or claims status.
+
+### Exact next debt after Family 123
+
+`src_3a1f6f5cdad3eda0d1fa` is exhausted across all eight pages: every provenance field, teaching
+table, case setup, gross/histology image, accepted prompt, supplied answer, compound answer block,
+editing residue, retained handle, required search, prior reuse, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-123 blocker. The exact next unprocessed
+manifest record is tier-6 `src_11281fc305c4b47d187f` · `inflammation-notes(1).pdf`, SHA-256
+`11281fc305c4b47d187f91e268c678ea31a9cf765a7d7f66d90e4f5da2809c6d`, 5,736 bytes,
+three native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its unusually small
+ReportLab-generated carrier, visible versus metadata provenance, and complete teaching-note
+versus prompt/key boundary are the exact next-source blockers.
