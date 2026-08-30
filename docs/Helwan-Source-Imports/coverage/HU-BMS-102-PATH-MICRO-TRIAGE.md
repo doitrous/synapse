@@ -13508,3 +13508,79 @@ unprocessed manifest record is tier-6 `src_f6fca68de35044b8d06c` · `patho 1.pdf
 two OCR-needed landscape A4 pages under `Pathology / Notes and Summaries`. Its dense handwritten
 cell-injury maps, visible provenance/annotation boundary, any embedded prompt/answer or practical
 content, source-first gate, and prior-BMS reuse are the exact next-source blockers.
+
+## Family 128 — anonymous two-page handwritten cell-injury maps
+
+### Source identity, high-detail raster/OCR boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_f6fca68de35044b8d06c` · `patho 1.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `f6fca68de35044b8d06ceecc179eff8e43993f5e38a082fd89e45ce88fd3f101` · 7,610,636 bytes |
+| Format / complete visual boundary | Two landscape A4 pages (842×595 points). Both pages were rendered at 300 dpi into two non-empty 3509×2480-pixel images, read at original detail, and reopened in high-detail tiles to resolve the dense small handwriting; there is no page, crop, or visual remainder. |
+| OCR/native reality | Layout and raw native extraction are both empty. Two independent English+Arabic Tesseract passes (`psm 6` and `psm 11`) produced 787 OCR words / 5,663 bytes in aggregate and were reconciled against the original pixels rather than treated as authority. The handwriting is rendered drawing content, not selectable semantic text; p.2 additionally embeds five labelled histology raster images. The manifest's `ocr-needed` label is accurate. |
+| Visible provenance | Neither page shows a university, faculty, module code, author/instructor, academic year, lecture date, assessment label, sitting, page number, watermark, or ownership mark. The titles `cell injury` and `End result of injury` establish topic only. |
+| Metadata caution | The PDF has no metadata stream and no author, title, creator, producer, creation date, or modification date fields. File placement and manifest classification are retained, but no invisible provenance or date is inferred. |
+| Annotation ruling | Multicolor handwriting, arrows, circles, grey label capsules, embedded image labels, and the green/blue histology arrows are internally consistent components of the source-authored teaching maps. There is no visually separable student hand, response, correction layer, answer reveal, or grading annotation. |
+| Authority | Anonymous tier-6 declarative pathology summary maps. They are not a candidate paper, keyed question set, response sheet, practical station, or official key. |
+
+### Complete page-first teaching, prompt, answer, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | Eight causes of cell injury; effect determinants by injured tissue and injury type/duration/severity; adaptation, injury, intracellular accumulation, and aging; mitochondrial/ATP, ROS, hypoxia/toxin/radiation, apoptosis-signalling, and calcium-enzyme biochemical mechanisms with downstream swelling, acidosis/chromatin clumping, protein/DNA/lipid damage, necrosis, and apoptosis | A completed causal teaching map with labels and arrows only; **0 prompts / 0 answers**. |
+| 2 | Reversible injury split into water accumulation (cloudy swelling and hydropic degeneration) and fatty change, with definitions, causes, affected organs, gross/microscopic patterns, examples, and embedded histology; irreversible injury split into apoptosis and necrosis, nuclear changes, and coagulative, liquefactive, caseous, fat, gangrenous, and fibrinoid necrosis | A completed diagnostic/morphology teaching map and labelled image examples only; **0 / 0**. |
+
+Words such as `causes`, `effects depend on`, `examples`, `gross`, `micro`, `types`, and the
+abbreviation `EX` are completed category labels, not candidate commands or blanks. All arrows
+terminate in supplied teaching content. There is no question mark, interrogative stem, imperative,
+option set, completion blank, response space, mark allocation, image-identification request,
+practical station, candidate/student annotation, key convention, or separate answer layer.
+
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0
+printed/source-supplied answer occurrences / 0 unkeyed prompt occurrences / 0 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained records / 0
+source-distinct tested handles**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted tested handle survives the complete teaching-map boundary. Exactly four searches are
+required only per accepted handle, so the source-first gate is **0 handles × 4 = 0 required and
+completed searches**; no empty query or fabricated disposition row is added. The maps condense
+cell-injury, reversible/irreversible injury, fatty change, and necrosis teaching already represented
+across Families 1–10, 73, 85–93, 105, 107–109, 115, 123, and 125, but that is source-level
+teaching overlap only. With no tested handle, prior-BMS exact handle reuse is **0** and concept
+delta is **+0**.
+
+| Measure | Family 128 | Auxiliary cumulative (Families 12–128) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,101 | 765 | 1,866 |
+| Printed/source-supplied answer occurrences | 0 | 668 | 405 | 1,073 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,036 | 552 | 1,588 |
+| Source-distinct tested handles / required searches | 0 / 0 | 920 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +584 over primary | 372 | `372 + 584 = 956` |
+| **Distinct tested concepts** | **+0** | **584 auxiliary additions** | **372** | **956** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answers, unkeyed items,
+residues, retained records, tested handles, searches, external dispositions, prior-handle reuses,
+or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**1,101 / 668 / 1,036 / 920 / +584**; and all eligible evidence remains
+**1,866 / 1,073 / 1,588 / 956**. Family 128 contributes anonymous teaching maps only. It cannot
+establish an assessment, official key, dated sitting, recurrence, mark weight, student response,
+readiness, or claims status.
+
+### Exact next debt after Family 128
+
+`src_f6fca68de35044b8d06c` is exhausted across both high-detail pages: every handwritten label,
+arrow, branch, histology inset/annotation, provenance limitation, OCR uncertainty, zero-search
+gate, prior-teaching relation, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-128 blocker. The exact next unprocessed manifest record is tier-6
+`src_9509c35265b5d8e7d8f9` · `patho 3.pdf`, SHA-256
+`9509c35265b5d8e7d8f92931f0ca194560817dfbb2b28483a1acdc064d86a016`, 5,599,669 bytes,
+three OCR-needed landscape A4 pages under `Pathology / Notes and Summaries`. Its dense handwritten
+circulatory-disturbance maps, provenance/annotation boundary, any embedded prompt/answer or
+practical content, source-first gate, and prior-BMS reuse are the exact next-source blockers.
