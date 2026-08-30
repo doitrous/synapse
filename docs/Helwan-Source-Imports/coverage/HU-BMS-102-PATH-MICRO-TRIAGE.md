@@ -8476,3 +8476,83 @@ manifest snippet begins a `CELL INJURY` adaptation/mechanism summary. Its full f
 teaching-versus-prompt boundary, embedded marks or answer conventions, provenance, search and
 prior-BMS relationship are the exact next-source blockers; no count is admitted before complete
 visual inspection.
+
+## Family 74 — tier-6 `108 new mapoma` pathology teaching mind maps
+
+### Source identity, provenance caution, and complete read boundary
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_6ab13ff7a0d3845d7a1e` · `108 new mapoma.pdf` |
+| SHA-256 / size | `6ab13ff7a0d3845d7a1e6e596487a1f18f8aa6d79191f3f4fa811967940aa051` · 12,882,031 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / read boundary | Five native-text landscape A3 pages; native text extracted page by page and all five pages rendered at 180 dpi and visually read in full |
+| Visible source branding | Repeated `Dr Tarek Patholosis` logo/credit, topic title, and page number; no university, faculty, module, course, or department masthead |
+| PDF metadata | Arabic title `اولي بشري`; author `Basmla Adel`; Canva creator/producer; created and modified 2 March 2026 |
+
+The carrier is a designed pathology summary, not an assessment. Its local BMS-102 folder and
+module-aligned topics make it a low-authority local teaching candidate, but the filename's `108`
+and its close subject/wording alignment with the pending 108-INT pathology concept set create a
+material provenance caution. Neither the visible pages nor metadata names Helwan University.
+Accordingly, this source cannot establish Helwan authorship, an official curriculum carrier, an
+exam sitting, recurrence, mark weight, or an official key. The unresolved `108` label is
+preserved rather than silently interpreted as either a page/version number or a module code.
+
+### Page-first teaching-versus-prompt and key boundary
+
+| Page | Complete visible content | Prompt / answer ruling |
+|---:|---|---|
+| 1 | Cell adaptation and causes/mechanisms of injury; reversible cloudy, hydropic, and fatty change; apoptosis definition, morphology, control, and causes | declarative teaching map; **0 / 0** |
+| 2 | Necrosis definition, mechanism, nuclear/cytoplasmic morphology, and coagulative, liquefactive, fat, fibrinoid, and caseous patterns | declarative teaching map and comparison illustration; **0 / 0** |
+| 3 | Fatty change, cholesterol, hyaline and glycogen accumulation; exogenous/endogenous pigments, melanin, lipofuscin, haemosiderin, haemozoin, and haemochromatosis | declarative teaching map; **0 / 0** |
+| 4 | Amyloid definition/proteins, systemic and local classifications, pathogenesis, stains, and organ morphology/effects | declarative teaching map; **0 / 0** |
+| 5 | Dystrophic/metastatic calcification; tissue sampling, biopsy handling, cytopathology, special stains, immunohistochemistry, molecular pathology, and cytogenetics | declarative teaching map/table; **0 / 0** |
+
+No page contains a question stem, imperative exercise, completion blank, option set, response
+frame, audience question, prompt-like residue, or answer section. Color, boldface, arrows,
+brackets, underlining, plus/minus shorthand, and red/blue emphasis are applied throughout to
+organize teaching statements; none selectively marks a response. Page 5's `Values Or Uses`,
+`Methods Or Samples`, and `Technique Or Manipulation` labels are table categories, not commands.
+
+The five-page source therefore contributes **0 prompt occurrences / 0 printed answer
+occurrences / 0 retained records / 0 source-distinct tested handles / 0 concept additions**.
+Its teaching overlaps many prior BMS-102 handles, including every Family-73 topic on cell injury,
+necrosis, and apoptosis, but declarative support is not converted into assessment evidence or a
+new tested handle. With no accepted handle, the source-first rule resolves exactly to
+**0 handles × 4 = 0 required searches**; no external or prior-BMS search row is fabricated.
+
+### Family-74 zero-gate checkpoint and cumulative arithmetic
+
+| Measure | Family 74 | Auxiliary cumulative (Families 12–74) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 766 | 765 | 1,531 |
+| Printed answer occurrences | 0 | 390 | 405 | 795 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 728 | 552 | 1,280 |
+| Source-distinct tested handles / required searches | 0 / 0 | 654 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +448 over primary | 372 | `372 + 448 = 820` |
+| **Distinct tested concepts** | **+0** | **448 auxiliary additions** | **372** | **820** |
+
+The checksum closes without remainder: `0` prompts produce `0` answers, retained records,
+handles, searches, external dispositions, prior-handle reuses, or concept additions. Primary
+remains **765 / 405 / 552 / 372**; auxiliary remains
+**766 / 390 / 728 / 654 / +448**; and all eligible evidence remains
+**1,531 / 795 / 1,280 / 820**. Family 74 is teaching/provenance evidence only and cannot raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 74
+
+`src_6ab13ff7a0d3845d7a1e` is exhausted across all five pages: every teaching region, table,
+illustration, emphasis convention, provenance field/caution, prompt absence, zero search gate,
+prior-BMS relationship, and unchanged arithmetic is assigned once, with **zero source
+remainder** and no Family-74 blocker. The next manifest-ordered unprocessed BMS-102 record is
+tier-6 `src_3b54737d510060d0aa2d` · `2026-07-20 06.14.16.jpg`, SHA-256
+`3b54737d510060d0aa2d40005b7a09b45fca172a638d9f181479c6b751909f57`, 229,613 bytes,
+one 1280×960 JPEG under `Pathology / Notes and Summaries`. The timestamp is manifest-derived
+calendar/exam-sitting year `2026`, not yet a verified sitting. The screenshot's complete visible
+teaching/prompt/answer boundary, handwriting/annotation convention, provenance, sequence
+relationship to the immediately following timestamped images, and relationship to Family 74
+and prior BMS-102 evidence are the exact next-source blockers; inspect the original image before
+admitting any count.
