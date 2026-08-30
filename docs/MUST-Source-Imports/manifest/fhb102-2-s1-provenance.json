@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "a1bf841d9b483583c3a68665bea5cc64891df380a3d38169b623198a9883e1e1",
-    "triageMarkdown": "0b302580cd36d289a5da1db6d2f8553c8e85ba0082ad45a567b9c68829684ed6"
+    "readinessMarkdown": "132abca957cc7c6176f4f7116a66b902b3cb79aae8296042272f9efd94534915",
+    "triageMarkdown": "63a79297db3b09e7c605e9d2aca18a886d01388f42797c2cb7fc8a96a1284ac4"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,9 +69,10 @@
   ],
   "processedFamilies": {
     "sha256": [
+      "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 1
+    "uniqueSha256": 2
   },
   "completedSourceCoverage": [
     {
@@ -118,11 +119,44 @@
         "student selections are answer-bearing attempt observations rather than an authenticated faculty key",
         "personal account names visible in screenshots are excluded from durable evidence"
       ]
+    },
+    {
+      "sha256": "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
+      "sourcePages": 6,
+      "renderedReadPages": "1-6",
+      "questionPages": "1-5",
+      "keyPages": "5-6",
+      "printedPromptObservations": 32,
+      "objectiveMcqPrompts": 32,
+      "printedKeyObservations": 31,
+      "sourceAbsentAnswers": 1,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "exactNormalizedPromptSequenceSiblingOf": "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
+      "referenceAcceptedSourceHandles": 22,
+      "referenceSearchesRun": 88,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 13,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous Microsoft Word-generated answer-bearing question bank created in 2021; only FHB102-2 is titled, with no visible institution, department, examiner, sitting date or authenticated faculty-key mark",
+      "boundaryDisposition": "thirty-two continuously numbered objective MCQs on pages 1-5 and thirty-one terminal printed answer tokens on pages 5-6; Q32 has no printed answer; normalized prompt sequence exactly matches the thirty-two distinct prompts already counted from the first carrier",
+      "preservedSourceDefects": [
+        "Q32 has no printed answer and none is inferred",
+        "Q13 and Q22 cross page boundaries but each is counted once",
+        "academically questionable printed answer tokens are preserved without correction",
+        "the printed answer list is source answer evidence rather than an authenticated faculty key"
+      ]
     }
   ],
   "triageCumulative": {
     "printedPromptObservations": 32,
-    "printedKeyObservations": 18,
+    "printedKeyObservations": 31,
     "namedConceptsAssigned": 22,
     "liveHits": 0,
     "pendingHits": 0,
@@ -134,22 +168,28 @@
     "pages": 33,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "secondSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
     "sha256": "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
     "pages": 6,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf",
+    "sha256": "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+    "pages": 45,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 95,
-    "uniqueSha256": 93,
-    "sortedNewlineSha256": "58bd03e147159d99e0338de9d8c4319f3d99cfe34367cb0a7254f82357de7cdd",
+    "inventoryMetadataRows": 94,
+    "uniqueSha256": 92,
+    "sortedNewlineSha256": "a917a85255f8d1ae69a55c137ffef749015d5bb18a6b261663513d22b3fe6e3d",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
       "sparse-text": 25,
-      "substantive-text": 42
+      "substantive-text": 41
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -157,12 +197,12 @@
     "audit-not-found": 11,
     "empty-text": 15,
     "sparse-text": 25,
-    "substantive-text": 42
+    "substantive-text": 41
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 1,
-    "remainingUniqueSha256": 93,
+    "processedUniqueSha256": 2,
+    "remainingUniqueSha256": 92,
     "processedPlusRemaining": 94
   }
 }

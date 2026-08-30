@@ -88,3 +88,37 @@ Removing the one processed hash leaves **95 selected inventory paths / 93 unique
 The next evidence-ranked source is the compact remaining module-wide carrier `Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf`, SHA-256 `b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063`, 6 pages, with a substantive-text audit sample. Its visual boundary and authority remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 95 selected inventory paths / 93 unique hashes remain untriaged.
+
+## Completed source — FHB102-2 typed MCQ carrier
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf` | `b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063` | 6 | substantive-text | pages 1–6 rendered and read | Anonymous Microsoft Word-generated answer-bearing question bank created in 2021. The only title is `FHB102-2`; no institution, department, examiner, sitting date or authenticated faculty-key mark is visible. The terminal answer list is source-printed answer evidence, not an official-key authority claim. |
+
+### Exact prompt, key, written, practical and teaching boundary
+
+Pages 1–5 contain **32 objective MCQs**, numbered continuously Q1–Q32. Q13 crosses the page 2–3 boundary and Q22 crosses the page 3–4 boundary, but each is one assessment occurrence. The `Answers:` block begins after Q32 on page 5, prints answer tokens 1–27 there, and continues with tokens 28–31 on page 6. **Q32 has no printed key**, and no answer is inferred. The source therefore contains **32 prompt observations / 31 prompt-matched printed answer observations / one source-absent answer**. It contains **0 written prompts / 0 practical or image-identification prompts / 0 teaching-only prompts**. Academically questionable printed tokens are preserved as source truth and are not medically corrected.
+
+### Normalized sibling reconciliation and exactly-four-search gate
+
+The complete current sequence is a normalized-content sibling of the 32 distinct prompts captured in the first source. Current Q1–Q22 match the first carrier's Q1–Q22; current Q23–Q32 match its photographed Q24, Q26–Q27 and Q29–Q35 sequence after closing the three missing label gaps. Thus every prompt collapses to the prior FHB-102-2 family. The prior **22 accepted handles / 88 searches** are cross-referenced unchanged. No genuinely new handle survives, so the current-source search gate is exactly **0 accepted new handles × 4 = 0 new searches**. It adds **+0 concepts**, with no live or pending disposition change.
+
+The first carrier supplied 18 student-selected response observations for this shared prompt family. This typed sibling supplies a printed token for 31 of the 32 prompts, so collapsed family answer coverage rises from 18 to 31: **+13 answer observations**, not +31 and not a double count. Q32 remains unkeyed.
+
+### Completed-source delta and cumulative table
+
+This second one-path hash is now `sourceProcessed=true`. Its source boundary is 32 prompts / 31 printed answers, but its collapsed delta is **+0 questions / +13 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 32 | 31 | 22 | 0 | 0 | 22 | TBD |
+
+No module ID, content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Current remaining sources / blocker
+
+Removing the two processed hashes leaves **94 selected inventory paths / 92 unique SHA-256s**. Their sorted-newline checksum is `a917a85255f8d1ae69a55c137ffef749015d5bb18a6b261663513d22b3fe6e3d`. Remaining audit-review debt is **41 substantive-text / 25 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`2 + 92 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, 45 pages, with a substantive-text audit sample. Its visual boundary and authority remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 94 selected inventory paths / 92 unique hashes remain untriaged.
