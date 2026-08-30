@@ -18058,3 +18058,84 @@ MCQ.pdf`, SHA-256 `6050cec97addd49101a398bb34a981f2cee4080dab3cefa3ffee85786d6d9
 12 native-text portrait A4 pages under `Pathology / Questions / MCQs`. Its independent prompt/key
 boundary, provenance, source-first handle search, prior-BMS reconciliation, arithmetic, and exact
 next-source blockers remain to be exhausted.
+
+## Family 170 — exact revisit of the Family-8 pathology inflammation MCQ bank
+
+### Source identity, complete visual/native boundary, authority, and exact prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_6050cec97addd49101a3` · `MCQs - Inflammation MCQ.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `6050cec97addd49101a398bb34a981f2cee4080dab3cefa3ffee85786d6d9ae9` · **180,637 bytes** |
+| Format / complete visual boundary | **Twelve native-text portrait A4 pages**. All 12 were rendered at 150 dpi into 12 non-empty 1241×1754 images and read at page detail. The sequence contains Q1–Q68: pages 1–6 carry Q1–Q31, pages 7–11 carry Q32–Q61, and page 12 carries Q62–Q68. There is no cover, image, drawing, practical plate, candidate response, answer appendix, or hidden terminal material. |
+| Native-text reality | Layout/raw extraction contains **2,251 / 2,287 words** and **21,857 / 13,411 bytes**. Native text exposes all 68 numbered stems, option sets, right-column keys, and 12 visible `DR. Ahmed Hassan` footers. OCR was unnecessary. |
+| Visible/metadata provenance | The visible title is `Inflammation`, and every page is footered `DR. Ahmed Hassan`. No university, faculty, module code, academic year, sitting date, marks, candidate field, or explicit assessment label is visible. Metadata author `Alnoaman`, Microsoft Word 2019 creator/producer, and 7 April 2025 creation/modification time are secondary carrier evidence; they do not override visible authorship or establish Helwan administration, an official key, or a sitting date. |
+| Exact prior governance | Family 8 already records this exact source ID, SHA, carrier, all 68 prompt/key occurrences, six exact repeats, 62 retained records, 43 handles, 172 searches, 11 prior-BMS reuses, and +32 concepts. No byte-, page-, prompt-, key-, repeat-, or scope-layer difference exists in the present manifest revisit. |
+| Authority | Keyed pathology revision/MCQ carrier with visible named authorship but weak visible institutional and assessment authority. Printed right-column letters are source-supplied keys, not independently verified departmental answers. |
+
+### Complete prompt/key/format and prior-family replay boundary
+
+The object contains **68 raw numbered text MCQ occurrences / 68 source-supplied right-column key
+occurrences / 0 unkeyed / 0 T/F / 0 written operations / 0 image-bearing questions / 0 drawing
+tasks / 0 practical stations / 0 candidate responses / 0 residues**. The page sequence is
+continuous from Q1 through Q68, and every prompt has one visibly printed letter key.
+
+Questionable source keys remain evidence rather than silent corrections. Family 8 specifically
+preserves Q17's repair/acute-inflammation ruling, Q49's `osmotic pressure` wording, Q56's
+`allergic granuloma` classification for rheumatic fever, Q60's vascular-response label, and Q68's
+peripheral-zone `pyogenic membrane` answer. Family 170 neither validates nor changes them.
+
+Family 8 identifies six exact wording replays—Q18→Q01, Q33→Q25, Q34→Q13, Q50→Q28,
+Q51→Q21, and Q52→Q26—so **`68 - 6 = 62 retained records`**. Fifteen source-scope groups add
+19 further reductions, yielding **`62 - 19 = 43 handles`**. The present object is an exact replay
+of that full prompt/key/repeat/collapse layer, not a companion or additional occurrence carrier.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 8 already completed exactly four searches for every one of its 43 handles: **`43 × 4 =
+172 searches`**. Its prior-BMS reconciliation identifies 11 reuses and therefore adds 32
+concepts. Those governed reuses cover infective-granuloma differential, epithelioid-cell origin,
+acute-inflammation characteristics, inflammatory pain, localized suppuration, early neutrophil
+predominance, phagocytosis definition, chronic/granulomatous inflammation, permeability-driven
+swelling, and burn-associated serous inflammation.
+
+Family 170 accepts **0 new retained records and 0 new handles**. Re-running searches against the
+same source ID/SHA/page/prompt/key object would fabricate work and recurrence. The standing gate
+is **`0 new handles × 4 = 0 required and completed new searches`**. Prior reuse and concept delta
+are both **0 Family-170 additions**.
+
+### Family-170 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 170 addition | Auxiliary cumulative (Families 12–170) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 68 in current PDF | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 68 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 62 | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 43 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 8 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **43 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The governed checksum remains `68 prompts`, `68 answers`, `68 - 6 = 62 retained`, `62 - 19 =
+43 handles`, and Family 8's `43 × 4 = 172` completed searches. Family-170 arithmetic is
+independently zero: `0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`. Corrected
+primary remains **762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers /
+1,829 retained / 1,667 handles / +906 concepts**; and corrected all eligible remains **2,880 /
+1,891 / 2,381 / 1,278**.
+
+Family 170 adds exact-carrier revisit and manifest-order evidence only. It establishes no new
+question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 170
+
+`src_6050cec97addd49101a3` is re-exhausted without double counting: every rendered/native page,
+numbered prompt, option, right-column key, exact repeat, retained wording, scope-collapse group,
+questionable answer, footer, metadata field, visible-authority limit, Family-8 search/prior ledger,
+zero gate, and cumulative term is assigned once, with **zero remainder** and no Family-170
+blocker. The exact next manifest record is tier-3 duplicate carrier `src_932f5302a132003041e5` ·
+`MCQs - L13 MCQ.pdf`, SHA-256
+`932f5302a132003041e5b106968be782a6eea3dbf91d537ff61295e6e9b8a55d`, **460,844 bytes**,
+nine native-text portrait A4 pages under `Pathology / Questions / MCQs`. The manifest marks it
+byte-identical to `Pathology / Notes and Summaries / Thrombus & Embolism.pdf`, already governed by
+Family 118; its separate carrier-order, exact-reuse, zero-search, arithmetic, and next-source
+blockers remain to be exhausted without fabricating a new assessment family.
