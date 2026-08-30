@@ -3822,3 +3822,90 @@ The next evidence-ranked substantive source is the single 37-page Histology `05 
 `025b988c1ce7f90beaf3f86ad4c8fde63cf27c4ce10616832e877c66cc222825`.
 
 **BLOCKED — S1 cannot be approved:** 64 selected source paths remain untriaged.
+
+## Completed source — MCQs - Histo FHB Ques
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histo FHB Ques.pdf` | `025b988c1ce7f90beaf3f86ad4c8fde63cf27c4ce10616832e877c66cc222825` | 37 | substantive-text | pages 1–37 rendered and read | Local `Histology FHB` compilation authored in Word by Ammar Hesham. It names no institution, department, sitting, marks, official-paper status or official-key authority. |
+
+### Exact assessment and printed-answer boundary
+
+Pages 1–13 print one continuous 65-item `Cytogenetics` MCQ sequence. Pages 14–15 print its complete 65-letter answer table. Page 16 begins `Epithelium - Part1`, whose 42 MCQs continue through page 24; pages 25–36 print `Epithelium – Part2` Q1–Q47. Page 37 prints complete Part2 answers Q1–Q47 but only Part1 answers Q1–Q40. Part1 Q41–Q42 (smoker- and bilharziasis-associated metaplasia) have no printed answer cells and no answer was inferred.
+
+The exact full-source inventory is therefore **154 complete prompt occurrences / 152 directly printed answer occurrences**: `65 cytogenetics + 42 Part1 + 47 Part2` prompts and `65 + 40 + 47` answers. The page-37 columns are headed `Answer / Part 2 / Answer / Part 1`; its blank Part1 cells after Q40 are missing answers, not permission to borrow answers from the preceding banks.
+
+This file is neither a byte duplicate nor a content-complete duplicate of either 98-page BenAhmed bank. It is a distinct, shorter compilation. Its standard questions nevertheless repeat or paraphrase already processed cytogenetics and epithelium scopes; the four Part1 clinical-organelle questions are the only scope-expansion candidates.
+
+### Source-first handles, four-search replay, and prior-FHB dedupe
+
+`C`, `P1` and `P2` identify Cytogenetics, Epithelium Part1 and Epithelium Part2. Every one of the 154 prompts is assigned exactly once below. The first 42 rows replay the exact four-query sets printed for the preceding cytogenetics and epithelium banks; the last four clinical rows print their four-query sets here. Thus the search ledger is **46 handles × 4 = 184 searches**.
+
+| Printed refs | Source-distinct tested concept | External / prior-FHB disposition |
+|---|---|---|
+| C1 | Chromatin packaging and nucleosomes | new externally; exact prior-FHB duplicate. |
+| C2–C4 | Human chromosome complement and ploidy | pending-hit; exact prior-FHB duplicate. |
+| C5 | Replicated chromosome and sister chromatids | new externally; exact prior-FHB duplicate. |
+| C6–C8,C41,C47–C49 | Chromosome arms, kinetochore, centriole, tubulin and spindle apparatus | new externally; exact prior-FHB duplicate. |
+| C9 | Telomere protection | new externally; exact prior-FHB duplicate. |
+| C10–C13,C51,C60 | Barr body and X inactivation | new externally; exact prior-FHB duplicate. |
+| C14–C17,C40 | Karyotype preparation, Giemsa, colchicine and FISH | new externally; exact prior-FHB duplicate. |
+| C18–C22 | Cell cycle, interphase and G0 | new externally; exact prior-FHB duplicate. |
+| C23–C25,C43–C44 | Cell-renewal classification | pending-hit; exact prior-FHB duplicate. |
+| C26–C30,C46 | Necrosis, apoptosis and nuclear changes | pending-hit; exact prior-FHB duplicate. |
+| C31–C33,C42 | Mitosis and cytokinesis | new externally; exact prior-FHB duplicate. |
+| C34–C37 | Meiosis I/II, crossing over and gamete complement | new externally; exact prior-FHB duplicate. |
+| C45 | Stem-cell potency | live-hit; exact prior-FHB duplicate. |
+| C50,C55 | Balanced and structural chromosomal aberrations | pending-hit; exact prior-FHB duplicate. |
+| C38,C54,C56,C59,C62–C63 | Down syndrome, trisomy 21 and Robertsonian translocation | pending-hit; exact prior-FHB duplicate. |
+| C39,C52,C57–C58,C64 | Turner syndrome and sex-chromosome monosomy | pending-hit; exact prior-FHB duplicate. |
+| C61 | Klinefelter syndrome / multiple-X nondisjunction | new externally; exact prior-FHB duplicate. |
+| C53,C65 | Philadelphia chromosome and chronic myeloid leukaemia | new externally; exact prior-FHB duplicate. |
+| P1-1–P1-4; P2-1–P2-3 | General epithelial origin, layers and characteristics | new externally; exact prior-FHB duplicate. |
+| P1-6; P2-4–P2-8,P2-10,P2-12 | Simple-squamous structure, function, endothelium and mesothelium | new externally; exact prior-FHB duplicate. |
+| P1-7–P1-8; P2-9,P2-11,P2-14 | Simple-cuboidal structure, function and sites | new externally; exact prior-FHB duplicate. |
+| P1-9–P1-10; P2-16,P2-19,P2-27 | Simple-columnar structure, goblet cells and ciliated sites | new externally; exact prior-FHB duplicate. |
+| P1-11–P1-12; P2-17–P2-18 | Pseudostratified-columnar structure and sites | pending-hit; exact prior-FHB duplicate. |
+| P1-13–P1-14; P2-20–P2-21 | Stratified-squamous function, keratinisation and sites | pending-hit; exact prior-FHB duplicate. |
+| P1-15–P1-16; P2-22–P2-26,P2-29 | Transitional epithelium and urothelial distension | new externally; exact prior-FHB duplicate. |
+| P1-17; P2-30–P2-31 | Stratified-columnar structure and sites | pending-hit; exact prior-FHB duplicate. |
+| P1-18,P1-41–P1-42; P2-33 | Smoking- and bilharziasis-associated metaplasia | new externally; exact prior-FHB duplicate; P1-41–P1-42 have no printed answers. |
+| P1-19–P1-22; P2-32 | Endocrine, exocrine, mixed and unicellular gland categories | new externally; exact prior-FHB duplicate. |
+| P1-23–P1-25; P2-34–P2-35 | Merocrine, apocrine and holocrine secretion | new externally; exact prior-FHB duplicate. |
+| P1-26 | Serous acinar secretion | new externally; exact prior-FHB duplicate. |
+| P2-36 | Simple-branched-tubular gland architecture | new externally; exact prior-FHB duplicate. |
+| P1-27; P2-37–P2-38 | Sensory neuroepithelium and taste buds | new externally; exact prior-FHB duplicate. |
+| P1-28; P2-39 | Myoepithelial location and function | pending-hit; exact prior-FHB duplicate. |
+| P1-29; P2-13 | Microvilli and brush border | new externally; exact prior-FHB duplicate. |
+| P1-5,P1-31–P1-32; P2-41 | Ciliated-columnar cells, ciliary axoneme and human flagellum | new externally; exact prior-FHB duplicate. |
+| P1-30; P2-40 | Stereocilia | new externally; exact prior-FHB duplicate. |
+| P1-33 | Tight junction / zonula occludens | new externally; exact prior-FHB duplicate. |
+| P1-34; P2-42 | Gap-junction connexons and communication | new externally; exact prior-FHB duplicate. |
+| P1-35 | Hemidesmosomal epithelial attachment | new externally; exact prior-FHB duplicate. |
+| P1-36; P2-45–P2-46 | Basement-membrane layers and anchoring collagen | new externally; exact prior-FHB duplicate. |
+| P2-43 | Desmosomal plaques and attachment | new externally; exact prior-FHB duplicate. |
+| P2-44 | Zonula-adherens belt and spacing | pending-hit; exact prior-FHB duplicate. |
+| P2-47 | Basal infoldings and mitochondria in ion-transporting cells | new externally; exact prior-FHB duplicate. |
+| P1-37 | Immotile-cilia syndrome with male infertility and respiratory infection (`immotile cilia syndrome`; `cilia male infertility`; `Kartagener respiratory infection`; `ciliary dyskinesia infertility`) | new externally; no prior-FHB clinical-syndrome assignment — **new addition**. |
+| P1-38–P1-39 | Rough-ER protein synthesis and smooth-ER detoxification clinical associations (`rough ER collagen synthesis`; `rough ER weak bone`; `smooth ER neonatal jaundice`; `smooth ER detoxification`) | pending-hit; prior FHB already assigns rough/smooth-ER morphology, protein synthesis and detoxification — duplicate. |
+| P1-40 | Proteasome dysfunction linked to Parkinson disease (`proteasome Parkinson disease`; `Parkinson proteasomal dysfunction`; `proteasome degradation Parkinson`; `ubiquitin proteasome Parkinson`) | pending-hit; prior FHB owns proteasomal degradation but not the printed disease association — **pending addition**. |
+
+The source-level search disposition is **1 live / 13 pending / 32 new = 46 handles**. Exact prior-FHB comparison removes 44 handles. The two surviving clinical expansions are immotile-cilia syndrome (new) and Parkinson/proteasome association (pending), so the post-prior result is **0 live / 1 pending / 1 new = +2 concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+154 questions / +152 directly printed answers / +2 concepts = +0 live / +1 pending / +1 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3240 | 2974 | 426 | 66 | 84 | 276 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 84 + 276 = 426`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **63 selected inventory paths / 61 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `fc7a5f86e59c8ca429357a8cd81dd06b92dd63f560cff608e8fc8dfa92b4f6d1`. Pinned triage debt becomes **20 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`45 + 61 = 106`**.
+
+The next evidence-ranked substantive source is the single nine-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology_FHB_Clinical_Applications_Mohamed_Eissa_MMSU (1).pdf`, SHA-256 `d6c7f6be8d5066df575221ff5f3c7903d2c5204b2fddd81481fbd383a1d14100`.
+
+**BLOCKED — S1 cannot be approved:** 63 selected source paths remain untriaged.
