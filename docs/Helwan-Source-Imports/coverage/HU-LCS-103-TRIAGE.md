@@ -21487,3 +21487,96 @@ pages; untagged; unencrypted; no form; PDF 1.4; SHA-256
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 26 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 205 — Tier-6 anonymous handwritten anterior-thigh teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_722e9a0b871b1e0f8e64` / `722e9a0b871b1e0f8e6413148461cfd726e3642402bb22f9ca1914ef15e4216a` |
+| Exact path | `Year 1/LCS 103/Anatomy/Notes and Summaries/ant compartment of thigh summary_202605101741_41066.pdf` |
+| Physical verification | **1,232,080 bytes; two OCR-needed 1600 x 2263 pt pages; untagged; unencrypted; no form; PDF 1.4**. Full hash, byte size, page count and geometry match. Both pages were rendered completely at 150 dpi to two distinct 3,334 x 4,715 RGB images, inspected at full-page and enlarged sectional resolution and read completely. The extraction layer contains only the two page terminators. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | P. 1 is headed `anterior compartment of thigh`; no page prints an author, institution, lecturer, module, cohort, date, citation, sitting, marks or key claim. The PDF supplies no author, creator, producer or date metadata. |
+| Authority finding | Anonymous tier-6 handwritten teaching-summary evidence. Manifest placement establishes LCS-103 topical relevance but not Helwan authorship, a recoverable sitting, response form, practical station or official key. |
+
+All **2/2 pages** are completed declarative teaching compositions:
+
+| Page | Source-first composition |
+|---:|---|
+| 1 | fascia lata/iliotibial tract/saphenous opening; completed sartorius, psoas-major, iliacus and quadriceps origin/insertion/supply/action notes; supplied attachment and muscle diagrams |
+| 2 | completed femoral-triangle site/boundaries/floor/contents; femoral sheath/canal/ring and hernia note; femoral artery, femoral/saphenous veins and femoral nerve origins/courses/terminations/branches plus varicose-vein and graft notes |
+
+There is **no assessment inventory**. Every heading, highlighted field, list, arrow and diagram
+supplies its information simultaneously; no question, learner instruction, option set,
+response area, blank, masked answer, numbered station, delayed reveal or key appears. Exact
+assessment delta is **0 eligible or external prompts / 0 keys-or-answers / 0 written prompts /
+0 unkeyed assessment prompts**.
+
+Source truth remains literal and unrepaired. This includes `deep fascia of thigh`, `n.supply`,
+`vastus intermedius`, `linea aspra`, `ligamentum patellae`, `funnel shaped fascial sheath`,
+`weak point: site of femoral HERNIA`, `tortious`, `weak valves`, `cardiac surgeries`, the
+source's artery/vein branch placement, capitalization, arrows and every handwritten state.
+Inventory does not medically or editorially repair, reconcile or endorse any wording.
+
+### Practical and image boundary
+
+P. 1 includes completed attachment and quadriceps illustrations, but their adjacent names and
+explanatory notes are supplied on the same page. There is no masked structure, numbered
+identification station, learner-completed map, response blank or practical key. Exact
+practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0
+practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The two pages consolidate to seven theoretical teaching handles:
+
+| Teaching handle | One query on each required surface | Complete-scope result |
+|---|---|---|
+| fascia lata, iliotibial tract and saphenous opening | fascia lata iliotibial tract saphenous opening | Accepted Families 2, 4, 31, 39 and 191–193 own the complete scope — prior-LCS reuse. |
+| anterior-thigh muscle OINA, actions and supply | sartorius psoas iliacus quadriceps origin insertion action nerve | Accepted Families 1–2, 31, 33, 39, 191–193 and later banks own the complete scope — prior-LCS reuse. |
+| femoral triangle | femoral triangle boundaries floor contents inguinal ligament adductor longus | Accepted Families 1–2, 20, 31–34, 39 and 191–193 own the complete scope — prior-LCS reuse. |
+| femoral sheath, canal, ring and hernia | femoral sheath femoral canal ring hernia compartments | Accepted Families 2, 31, 39 and 191–193 own the complete scope — prior-LCS reuse. |
+| femoral artery and branches | femoral artery profunda femoris branches descending genicular | Accepted Families 2, 31, 39, 45, 191–193 and 203 own the complete scope — prior-LCS reuse. |
+| femoral/saphenous veins and clinical notes | femoral vein great small saphenous varicose graft | Accepted Families 2, 31, 39, 45, 191–193 and 203 own the complete scope — prior-LCS reuse. |
+| femoral nerve course and branches | femoral nerve saphenous nerve lumbar plexus muscular cutaneous articular branches | Accepted Families 1–2, 31, 39, 45 and 191–193 own the complete scope — prior-LCS reuse. |
+
+Each of the **seven accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **7 x 4 =
+28 required search invocations**. Live and pending component matches were preserved; the
+prior-source lane had no complete-file match, while every accepted-LCS query matched.
+Complete-scope comparison establishes **7 prior-LCS theoretical reuses / 0 additive live / 0
+additive pending / 0 additive new teaching scopes**. Declarative theoretical scopes do not
+enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues / 87
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 204's remainder. Removing its sole path changes the remainder
+from **26 paths / 25 unique hashes** to **25 paths / 24 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **16 paths / 16 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 204's checksums were
+`4f53fe9f2bb38cda852a695c4bad2551d72414c7a19ad8329b4350cf506eb173` (paths) and
+`ae09610c372f08a8ff70762312048bf9f701528fa8b8cf68a8a8f14016d5a4b5` (unique hashes).
+For the exact post-Family-205 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`266a5939d1bdcf6d9346ea45537f66132e982881809eca41a20b5ccc124ca684`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`095b02edd68d6c91021b5a7ce781bf8e7ae1dc4d82bf5f0423ae874bcfa60cbc`.
+
+The exact next manifest-order debt is tier-6 `src_b52c59d91e8edfa0de01`, `lower limb on
+model_250628_014946.pdf` (2,007,252 bytes; 15 OCR-needed 367.7 x 520.118 pt pages; untagged;
+unencrypted; no form; PDF 1.7; SHA-256
+`b52c59d91e8edfa0de0108457d116d53567cc7608ec97815cef226096486d8a9`) under `Year 1/LCS
+103/Anatomy/Notes and Summaries/`. It remains unclassified until all 15 pages are rendered
+and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 25 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
