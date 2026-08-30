@@ -7572,3 +7572,146 @@ under `Year 1/LCS 103/Pathology/Practical Labs/Practical Revision/`. Tier-6 and 
 debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 62 — Tier-5 Pathology practical Lab 1 deck with one ordinary and one image-dependent unkeyed MCQ
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_22194b2bfc94456a2f66` |
+| File / SHA-256 | `103 Lab 1.pdf` / `22194b2bfc94456a2f66fc27ba724c93beece0cc62b1e4a7dfa2d85572718a14` |
+| File boundary | 985,111 bytes · unencrypted PDF · 16 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Pathology · Practical Labs · `Practical Revision` · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Pathology/Practical Labs/Practical Revision/103 Lab 1.pdf` |
+| Visible provenance | p. 1 prints `Locomotor Pathology`, `Laboratory 1` and `Dr Rofanda Bakeer`; PDF metadata retains the unrelated title `Respiratory Module Lecture 1`, author `lenovo`, and Microsoft PowerPoint 2016 creator/producer; pp. 7 and 16 embed Galala University marks in reused graphics |
+| Authority finding | Manifest/path-placed local tier-5 Pathology practical teaching/revision evidence. It is not a recoverable sitting, station sheet, response form, department question bank or official answer key. |
+
+The SHA-256, byte size and 16-page boundary were recomputed and match the assigned source.
+All 16 pages were rendered at 180 dpi and read against the native text layer; all 16 complete-
+page renders have distinct SHA-256 values. Page 1 is the title/provenance slide; pp. 2–5 cover
+bone-growth and metabolic/endocrine disease plates; pp. 6–8 cover bone inflammation; p. 9
+covers ganglion cyst; p. 10 is the tumour divider; pp. 11–13 cover three bone-tumour plates;
+pp. 14–15 are the two `Test yourself` assessment pages; and p. 16 is the closing slide.
+
+Pages 2–9 and 11–13 are simultaneous declarative practical teaching. They name the disease,
+show gross, radiographic, CT or microscopic evidence, and print the corresponding findings;
+no learner is asked to identify or supply anything on those pages. Page 14 is one ordinary
+clinical/laboratory MCQ about acute gout. Page 15 explicitly asks the learner to diagnose a
+shown biopsy image, so it is one image-dependent practical prompt as well as one eligible
+question record. Both option sets are visibly unmarked and p. 16 supplies no delayed reveal;
+therefore neither the clinically inferable choices nor the earlier brown-tumour teaching is
+promoted into a printed key.
+
+### Complete practical-plate, mapping, residue and assessment inventory
+
+One mapping is one distinct directly printed disease-to-feature, specimen-to-finding,
+structure-to-image, laboratory relation or gross/microscopic phenotype. Repeated wording,
+arrows or labels on the same plate are counted once; slide titles, publisher marks, age/sex
+alone and an unlabelled image identity are not mappings. Panel letters `a`–`d`, the radiograph
+side marker `R`, modality/magnification marks and directional arrows are presentation aids,
+not masked labels or inferred mappings.
+
+| Physical pages | Source-first practical composition | Teaching plates | Directly printed mappings / assessment / residue |
+|---:|---|---:|---:|
+| 2 | osteopetrosis radiographic/microscopic context and dysfunctional dysplastic osteoclast phenotype | 1 | 3 mappings |
+| 3–5 | inactive osteoporosis, osteitis fibrosa cystica/brown tumour and Paget gross/microscopic findings | 3 | 19 mappings (`4 + 3 + 12`) |
+| 6–8 | chronic osteomyelitis sequestrum/sinus, CT involucrum-sequestrum-cloaca anatomy and four-panel acute/chronic histology | 3 | 18 mappings (`2 + 6 + 10`); p. 8 retains 1 unexplained asterisk |
+| 9 | ganglion-cyst clinical, gross and microscopic phenotype | 1 | 8 mappings |
+| 11 | giant-cell-tumour site, giant-cell/mononuclear pattern, brown-tumour differential and calcium/PTH relation | 1 | 5 mappings |
+| 12 | chondrosarcoma anaplastic-cartilage-cell, soft-tissue-invasion and malignant-cytology findings | 1 | 3 mappings |
+| 13 | osteosarcoma gross destructive pattern and pleomorphic osteoid-producing microscopic phenotype | 1 | 17 mappings |
+| 14 | podagra/needle-crystal laboratory-finding MCQ | 0 | 1 ordinary prompt; 0 keys |
+| 15 | mandibular giant-cell biopsy image with systemic hyperparathyroid clues and five diagnoses | 0 | 1 image-dependent practical MCQ; 0 keys |
+| **Total** | **complete source content boundary** | **11** | **73 mappings / 2 question records / 1 practical prompt / 1 unresolved callout / 0 keys** |
+
+The **11 content-page occurrences are 11 source-distinct practical teaching plates**; no
+exact complete-page copy is present. The mapping arithmetic is `3 + 19 + 18 + 8 + 5 + 3 +
+17 = 73`. The single p. 8 asterisk is not explained by the accompanying A–D prose and remains
+teaching residue; panel letters, arrows, boxes, `R`, `CT` and `H&E, X100` do not constitute
+learner blanks. The complete physical-page arithmetic is **16 = 3 title/divider/closing pages
++ 11 teaching plates + 2 assessment pages**. The assessment boundary is therefore **11
+practical teaching plates / 73 printed teaching mappings / 1 unresolved teaching callout / 1
+stand-alone practical prompt / 2 ordinary question records / 0 response blanks / 0 printed
+assessment keys**.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 14 → `gout-podagra-needle-crystals-and-hyperuricemia` | podagra; needle-shaped crystals; hyperuricemia; first metatarsophalangeal gout | live gout/urate material owns the complete clinical, crystal and laboratory relation; exact accepted Families 17–19 and 21 eligible handle owns this objective | live; prior eligible-LCS reuse; no concept delta; no printed key |
+| p. 15 → `hyperparathyroidism-osteitis-fibrosa-cystica-brown-tumor` | osteitis fibrosa cystica; brown tumor hyperparathyroidism; jaw lesion renal stones PTH; giant-cell lesion hypercalcemia | no substantive live/pending record owns the complete image-supported diagnosis; accepted Family-9 note-only candidate is auxiliary evidence and has never entered eligible totals | new to eligible LCS; promotes the auxiliary brown-tumour scope; practical/image-dependent; no printed key |
+
+The two occurrences are two source-distinct question records: `2 - 0 repeated source
+occurrences = 2`. Their tested handles collapse against prior eligible evidence as `2 - 1
+prior eligible gout handle = 1 added concept`. All **2 × 4 = 8** assessment searches completed
+across live state, pending state, all source-import roots and accepted prior LCS. Raw source
+disposition is **1 live / 0 pending / 1 new**, while prior-eligible adjudication removes the
+inherited live gout handle from module addition, leaving a delta of **0 live / 0 pending / 1
+new**. Neither option set contributes a printed key.
+
+### Source-first practical teaching scopes, searches and prior-LCS adjudication
+
+The 11 teaching plates consolidate to nine source-level practical teaching scopes. Scope
+collapse does not delete plate, mapping, page or source-wording evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `osteopetrosis-osteoclast-dysfunction-practical-phenotype` · p. 2 | osteopetrosis osteoclast dysfunction; marble bone dysplastic osteoclast; osteopetrosis histology increased osteoclast; dense brittle bone growth disorder | direct hits do not own the complete plate; accepted Family-9 osteopetrosis/osteoclast-dysfunction evidence owns the core — prior LCS reuse |
+| `inactive-osteoporosis-low-turnover-histology` · p. 3 | inactive osteoporosis histology; decreased osteoclast resorptive surface; reduced osteoid osteoblastic surface; low turnover osteoporosis microscopy | direct osteoporosis records are different-grain; accepted age-related low-turnover osteoporosis and bone-cell evidence jointly own the core — prior LCS reuse |
+| `osteitis-fibrosa-cystica-brown-tumor-histology` · p. 4 | brown tumor bony trabeculae resorption; osteoclast-like giant cells spindled stroma; osteitis fibrosa cystica histology; hyperparathyroid bone lesion microscopy | no substantive complete external or accepted prior-LCS practical scope owns the trabecular/giant-cell/stromal phenotype — new practical teaching scope |
+| `paget-disease-gross-and-mosaic-histology` · p. 5 | Paget disease mosaic cement lines; osteitis deformans thickened trabeculae; Paget abnormal osteoclast osteoblastic rimming; Paget bone gross histology | direct fragments are incomplete; accepted Paget imaging/stage, complication and remodelling evidence jointly owns the gross/mosaic core — prior LCS reuse |
+| `chronic-osteomyelitis-sequestrum-involucrum-cloaca-and-histology` · pp. 6–8 | chronic osteomyelitis sequestrum involucrum cloaca; dead cortical bone neutrophils fibrin; fibrovascular inflammatory tissue woven bone; draining sinus chronic bone infection | direct fragments are incomplete; accepted chronic-pyogenic-osteomyelitis diagnosis and terminology evidence owns the full core — prior LCS reuse |
+| `ganglion-cyst-clinicopathologic-practical-phenotype` · p. 9 | ganglion cyst bland spindle cells myxoid matrix; ganglion cyst clear mucinous fluid; cystic fluctuant mobile finger swelling; ganglion cyst no epithelial lining histology | no substantive external complete scope; exact accepted Family-21 ganglion-cyst clinicopathologic handle owns the core — prior LCS reuse |
+| `giant-cell-tumor-site-and-histology` · p. 11 | giant cell tumor epiphysis adults; uniform osteoclast giant cells mononuclear; giant cell tumor normal calcium PTH; osteoclastoma histology differential brown tumor | no substantive external complete scope; exact accepted giant-cell-tumour handles own adult epiphyseal site, stromal/giant-cell biology and differential core — prior LCS reuse |
+| `chondrosarcoma-anaplasia-and-soft-tissue-invasion` · p. 12 | chondrosarcoma anaplastic cartilage cells; chondrosarcoma invades soft tissue; malignant cartilage cytology histology; chondrosarcoma microscopy identification | no substantive external complete scope; accepted chondrosarcoma comparison/morphology handles own the malignant cartilage and invasion core — prior LCS reuse |
+| `osteosarcoma-gross-microscopy-and-malignant-osteoid` · p. 13 | osteosarcoma malignant osteoid lace-like; pleomorphic hyperchromatic tumor cells woven bone; osteosarcoma gross hemorrhage necrosis; osteosarcoma microscopy identification | no substantive external complete scope; accepted osteosarcoma radiographic/differential handles already own the osteoid-producing malignant-bone-tumour core — prior LCS reuse |
+
+All **9 × 4 = 36** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope grain the direct external result is **0 live / 0 pending / 9 new**. Exact accepted-prior
+comparison prevents eight repeated module additions, leaving **eight prior-LCS reuses / one
+new practical-teaching scope**. Together with the two assessment handles, Family 62 completed
+**44 required searches**. Declarative teaching scopes do not enter the eligible tested-concept
+count.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 62 | Family 62 delta | After Family 62 |
+|---|---:|---:|---:|
+| Eligible observed question records | 518 | +2 | 520 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 251 | +1 | 252 |
+| Question live / pending / new | 9 / 86 / 156 | +0 / +0 / +1 | 9 / 86 / 157 |
+| Stand-alone practical/station prompt occurrences | 5 | +1 | 6 |
+| Distinct practical teaching plates, quantified | 387 verified minimum | +11 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,423 verified minimum | +73 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 135 | +1 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 73 | +0 / +0 / +1 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `16 = 3 + 11 + 2`, `11 = 1 + 3 + 3 + 1 + 1
++ 1 + 1`, `73 = 3 + 19 + 18 + 8 + 5 + 3 + 17`, `2 = 1 ordinary + 1 image-dependent
+prompt`, `1 added concept = 2 tested handles - 1 prior eligible handle`, `520 = 518 + 2`,
+`265 = 265 + 0`, `252 = 251 + 1`, `9 + 86 + 157 = 252`, `6 = 5 + 1`, `398 = 387
++ 11`, `2,496 = 2,423 + 73`, `136 = 135 + 1`, and `74 = 73 + 1`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-61
+remainder leaves **14 rank-4/rank-5 path instances / 12 unique hashes**. The Family-61
+method was reproduced first: its 15/13 row sets recomputed to
+`038a0b83429e089cc78101765912c340eba8c183bfeec00a4b0c56b0ad9a021a` and
+`ab34fcda50c731f47a18e936b7d9df17b682524f657b0211d58c7fd4430c4609`.
+For the exact post-Family-62 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b8a548371d624eba4823dd133057547a2ffe1d499f97800cbff294c10b3dab46`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`51ced3587e996fe46adad4a7bcc2d68b4eaae8302f321bdb6f47314f71d13d94`.
+The next rank-4/rank-5 manifest-order gate is tier-5 Pathology practical source
+`src_f370e46e69acd89946bb`, `Pathology 103 SEQs.pdf` (21,055 bytes; 1 native-text page;
+SHA-256 `f370e46e69acd89946bbd95da53f945410bbf28e559088a1f5402059ab3a41d2`)
+under `Year 1/LCS 103/Pathology/Practical Labs/Practical Revision/`. Tier-6 and rank-9 source
+debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
+incomplete. No download, ID, content record, catalogue update, import or source copy was
+created.
