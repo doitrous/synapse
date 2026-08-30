@@ -6453,3 +6453,33 @@ Removing this one empty-text path and unique hash leaves **12 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/شرح هيستولوجي FHB.pdf`, SHA-256 `0540c06021496251ac88d8d5c1b3b91388ae562e93969c8295cc669e909fca15`, 38 pages.
 
 **BLOCKED — S1 cannot be approved:** 12 selected source paths remain untriaged.
+
+## Completed source — شرح هيستولوجي FHB
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/شرح هيستولوجي FHB.pdf` | `0540c06021496251ac88d8d5c1b3b91388ae562e93969c8295cc669e909fca15` | 38 | empty-text (pinned audit; partial selectable text on later pages) | pages 1–38 rendered and read | PDFium export of a bilingual student revision notebook. It mixes handwritten explanations, labelled diagrams, imported teaching figures and highlighted course-text excerpts. It prints no institution, department, lecturer, sitting, marks or examination/key claim and is not an official MUST assessment or key. |
+
+### Exact teaching / assessment boundary
+
+Pages 1–3 are a cover and study-progress contents list. Pages 4–22 cover introductory histology, microscopy and stains, cytology, membrane transport, mitochondria, ER, Golgi, lysosomes, peroxisomes and ribosomes. Pages 23–33 continue with cytoskeletal elements, centrioles, cilia, flagella, clinical applications and proteasomes. Pages 34–38 cover inclusions, nucleus, chromatin, nucleolus and nuclear sap. Check marks, question marks beside sketches, highlighting and “done” annotations are study-navigation marks. The embedded “what is the cytoskeleton” graphic title introduces explanatory material and does not request a learner response.
+
+The exact boundary is therefore **0 prompt occurrences / 0 key observations / 0 prompt-matched recovered answers**. There is no practical-identification or written-answer task. With no source-tested prompt, there is no accepted concept handle: **0 handles × 4 = 0 searches**, no live/pending/new split and no prior-FHB collapse operation.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7156 | 6741 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **11 selected inventory paths / 11 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `88be99960ce371a22cfe4076a8834c979e1f38c1ea01f0a1d9593faaad0bc48c`. Pinned triage debt becomes **zero substantive-text / four sparse-text / seven empty-text** rows, and unique-hash accounting is **`95 + 11 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/General anatomy (FHB 101).pdf`, SHA-256 `248048db0f9ccc82dd0f3cf28a176ace8a4615fed998da046c6746fe23d388d5`, 31 pages.
+
+**BLOCKED — S1 cannot be approved:** 11 selected source paths remain untriaged.
