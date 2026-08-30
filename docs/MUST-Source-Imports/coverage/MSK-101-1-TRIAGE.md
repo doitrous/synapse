@@ -638,10 +638,45 @@ The source is now `sourceProcessed=true`. The MSK cumulative total remains **133
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — SKELETAL MUSCLE BY SALAMA
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - SKELETAL MUSCLE BY SALAMA.pdf` | `0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a` | 12 | substantive-text audit sample | pages 1–12 rendered and read | Microsoft Word for Microsoft 365 document titled `muscle histolgy`, authored by Mohamed Salama and created/modified 19 December 2023. It identifies itself as a summary and MCQs, but supplies no institution, department, examiner, sitting, marks or official-key claim. It is a named study aid, not a documented exam or official key. |
+
+### Exact assessment, answer and teaching boundary
+
+Page 1 is a cover. Pages 2–4 are teaching summary material on skeletal-muscle organization, sarcomeres and triads, fibre types, supporting proteins and clinical notes; their diagrams are teaching figures rather than practical prompts. Pages 5–11 contain MCQs 1–29 and the beginning of MCQ 30. Page 12 completes MCQ 30 and prints the full numbered answer key.
+
+The exact assessment boundary is **30 MCQ prompt occurrences / 30 prompt-matched printed answers / 0 source-absent answers**. There are **0 written prompts, 0 practical prompts and 0 image-identification prompts**. Numbering is continuous from 1 through 30, the key has one entry for every prompt, and no answer was inferred or medically corrected.
+
+### Source-first handles, exact searches and prior-MSK collapse
+
+The 30 prompt occurrences collapse source-first into four handles. Exactly four repository searches were run for each handle (**16 searches total**):
+
+| Handle | Prompt occurrences | Four search phrases | Search result / prior-MSK disposition |
+|---|---:|---|---|
+| Skeletal-muscle origin, function, architecture and connective-tissue sheaths | 7 | `skeletal muscle mesoderm origin myoblast satellite cell`; `epimysium perimysium endomysium muscle fascicle`; `skeletal muscle body movement heat stabilization`; `skeletal muscle cylindrical multinucleated peripheral nuclei` | No live or pending catalogue hit. Collapses to prior MSK muscle architecture, fibre organization and sheath coverage. |
+| Contractile apparatus, sarcomere and supporting proteins | 7 | `actin myosin sliding filament muscle contraction`; `sarcomere Z disc skeletal muscle`; `titin dystrophin skeletal muscle sarcolemma`; `desmin myogenic marker immunohistochemistry` | No live or pending catalogue hit. Collapses to prior MSK skeletal-muscle contractile and structural-protein coverage. |
+| Triad, sarcoplasmic reticulum and calcium coupling | 5 | `skeletal muscle triad T tubule sarcoplasmic reticulum`; `sarcoplasmic reticulum calcium storage release`; `T tubule muscle action potential`; `terminal cisternae triad skeletal muscle` | No live or pending catalogue hit. Collapses to prior MSK excitation–contraction and triad coverage. |
+| Red, white and intermediate fibres, metabolism and hypertrophy | 11 | `red white intermediate skeletal muscle fibers`; `myosin ATPase metabolic profile muscle fiber`; `myoglobin glycogen skeletal muscle fiber energy`; `exercise muscle hypertrophy size not number` | One repository text match was prior evidence only; no live or pending catalogue hit. Collapses to prior MSK fibre-type, metabolic-profile and hypertrophy coverage. |
+
+Source-level disposition is **0 live / 0 pending / 4 pre-prior candidates**, all four collapsing to prior MSK coverage. The post-prior concept delta is therefore **0**. This source is not byte-identical to a prior source and its 30-prompt sequence is distinct, so its prompt and printed-answer observations are counted once.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+30 questions / +30 answers / +0 post-prior concepts**. Cumulative arithmetic is **1338 + 30 = 1368 questions**, **1268 + 30 = 1298 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1368 | 1298 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these nineteen processed paths and unique hashes leaves **84 selected inventory paths / 82 unique SHA-256s**. Their sorted, newline-joined hash checksum is `1cdfde44cfb2058582b632eab33d5488277802a973d769d21dc20a03ee71c4ff`. Remaining audit-review debt is 45 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`19 + 82 = 101`**.
+Removing these twenty processed paths and unique hashes leaves **83 selected inventory paths / 81 unique SHA-256s**. Their sorted, newline-joined hash checksum is `40e20d3a619018b1ecc7318536ee00734aebcc27b79def4069242511fe33efb2`. Remaining audit-review debt is 44 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`20 + 81 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - SKELETAL MUSCLE BY SALAMA.pdf`, SHA-256 `0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a`, 12 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - SKIN BY SALAMA.pdf`, SHA-256 `f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51`, 17 pages.
 
-**BLOCKED — S1 cannot be approved:** 84 selected inventory paths / 82 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 83 selected inventory paths / 81 unique hashes remain untriaged.

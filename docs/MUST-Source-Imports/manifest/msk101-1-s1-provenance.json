@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "ff8e90bb76cc8ba50d4c48774adf990266c0a82285aca5175ab7422031d8f330",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "6f8f4a573421b5496c6ad894890826dc315aa80905c6d109934bccb238395f9d",
-    "triageMarkdown": "a6865aa67da7ed67eeeb639b887372bc59cb88ed510b3705c3a6b2ab8a873933"
+    "readinessMarkdown": "512f05105d4dacfc1cdf0b6193fb911fbbf02049df00547b4d3d0a8f2ecc2b73",
+    "triageMarkdown": "e8da560a6958df42ae200f90897d297fbe3eb442f74b3fd31c75afb4de9679e8"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -52,6 +52,7 @@
   "processedFamilies": {
     "sha256": [
       "000e8e77fc82ffc6d211870fa3f07cb0fcc334a3b9b64c8596f445670f996e4f",
+      "0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a",
       "12bb34d47ef4f248cd224da7063e493d07ab6990e5b6b87455872d9bccd8eb6a",
       "2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0",
       "3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b",
@@ -71,7 +72,7 @@
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 19
+    "uniqueSha256": 20
   },
   "completedSourceCoverage": [
     {
@@ -362,26 +363,43 @@
         "cytogenetics label 3 repeated",
         "nervous tissue 13 cancelled"
       ]
+    },
+    {
+      "sha256": "0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a",
+      "sourcePages": 12,
+      "renderedReadPages": "1-12",
+      "coverPages": "1",
+      "teachingPages": "2-4",
+      "questionPages": "5-12",
+      "keyPages": "12",
+      "printedPromptObservations": 30,
+      "printedKeyObservations": 30,
+      "acceptedSourceHandles": 4,
+      "searchesRun": 16,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1338,
-    "printedKeyObservations": 1268,
+    "printedPromptObservations": 1368,
+    "printedKeyObservations": 1298,
     "namedConceptsAssigned": 27,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 26
   },
   "remaining": {
-    "inventoryMetadataRows": 84,
-    "uniqueSha256": 82,
-    "sortedNewlineSha256": "1cdfde44cfb2058582b632eab33d5488277802a973d769d21dc20a03ee71c4ff",
+    "inventoryMetadataRows": 83,
+    "uniqueSha256": 81,
+    "sortedNewlineSha256": "40e20d3a619018b1ecc7318536ee00734aebcc27b79def4069242511fe33efb2",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 8,
-      "substantive-text": 45
+      "substantive-text": 44
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -389,12 +407,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 8,
-    "substantive-text": 45
+    "substantive-text": 44
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 19,
-    "remainingUniqueSha256": 82,
+    "processedUniqueSha256": 20,
+    "remainingUniqueSha256": 81,
     "processedPlusRemaining": 101
   }
 }
