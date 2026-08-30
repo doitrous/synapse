@@ -15030,3 +15030,125 @@ native-text 720×540-point landscape pages under `Pathology / Practical Labs / V
 Lab 2 - CBL Circulatory`. Its manifest first-page snippet visibly reports academic year 2025/2026,
 Year 1, Semester 2, and BMS-102; the exact visible provenance, teaching/case/prompt/key/practical
 boundary, searches, prior reuse, and arithmetic are the next-source blockers.
+
+## Family 142 — Nahed Soliman Helwan circulatory-disturbance CBL
+
+### Source identity, full render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_aa147d841f217a789ced` · `CBL circulatory 102 nahed soliman.pdf` under `Pathology / Practical Labs / Virtual / Virtual Lab 2 - CBL Circulatory` |
+| SHA-256 / size | `aa147d841f217a789ced9987029a73b968f1a1e3778e3b2e862ca570b7fa30d5` · 565,476 bytes |
+| Format / complete visual boundary | Twenty-two native-text landscape pages, each 720×540 points. All 22 pages rendered at 150 dpi into 22 non-empty 1500×1125-pixel images and were read individually through the closing slide; four complete contact sheets, per-page extraction, layout extraction, and raw extraction were also read. There is no page, option, key line, visual object, or text remainder. |
+| Native-text reality | Layout extraction contains 1,140 words / 7,947 bytes and raw extraction contains 1,142 words / 7,401 bytes. Both preserve the nine stems, option sets, and answer explanations. Visual review confirms the alternating prompt/answer sequence, red `CORRECT` convention, branding, and absence of image-bearing tasks. The manifest's `native` label is accurate. |
+| Visible academic provenance | P.1 visibly prints Faculty of Medicine / Helwan University branding, `Academic Year: 2025/2026`, `Year: 1`, `Semester: 2`, and `Basic Medical Science (BMS-102)`. P.2 visibly prints `CBL Circulatory`, `By: Nahed Soliman`, `Ass. Prof. of pathology`, `Head of pathology Department`, `7 April 2026`, and `Module: BMS-102`. These establish the named instructor, Helwan module, academic year, semester, and deck date. The date is not an assessment sitting. |
+| Question-source / authority caution | P.3 titles `CBL 2 CIRCULATORY DISTURBANCES` and visibly prints the Utah WebPath exam-index URL. The deck is therefore an instructor-selected Helwan CBL/revision carrier containing sourced teaching-bank questions and explanations, not a Helwan candidate paper, authenticated recurrence set, or official university key. |
+| Metadata caution | Metadata title is generic `PowerPoint Presentation`; author is the non-identifying value `7`; creator/producer is Microsoft PowerPoint 2016; creation/modification timestamp is 7 April 2026 and agrees with the visible deck date. Metadata does not supersede visible Nahed Soliman authorship or convert that date into a sitting. |
+
+### Complete MCQ, answer, teaching, image, and practical boundary
+
+| Pages | Complete visible item and supplied answer | Boundary ruling |
+|---:|---|---:|
+| 1–3 | Academic/module cover; Nahed Soliman/department/date slide; CBL title and visible WebPath source URL | Provenance and source attribution only; **0 prompts / 0 answers**. |
+| 4–5 | Hospitalized pneumonia patient with femoral-vein thrombosis asks the strongest contributing condition; next slide prints `(B) CORRECT` and explains immobilization/venous stasis | **1 keyed text MCQ / 1 supplied answer**. |
+| 6–7 | Longstanding poorly controlled diabetes with postprandial abdominal pain asks the likely pathology; next slide prints `(B) CORRECT`, mesenteric-artery atherosclerosis/occlusion and abdominal angina | **1 / 1**. |
+| 8–9 | Dietary intervention reducing ischemic-heart-disease risk; next slide prints `(D) CORRECT`, cold-water fish oil reducing arachidonic-acid metabolites and platelet aggregation | **1 / 1**. |
+| 10–11 | Atrial fibrillation, renal-artery branch occlusion, karyolysis/karyorrhexis, pale eosinophilic cells with retained outlines; next slide prints `(B) CORRECT`, renal ischemic infarction with coagulative necrosis | **1 / 1**. |
+| 12–13 | Sudden dyspnea/chest pain, pulmonary-artery CT filling defects and raised D-dimer ask the antecedent; next slide prints `A) CORRECT`, hip-prosthesis surgery/immobilization causing venous thrombosis and pulmonary embolization | **1 / 1**. |
+| 14–15 | Recurrent pulmonary thromboembolism asks the underlying condition; next slide prints `(B) CORRECT`, pancreatic adenocarcinoma causing Trousseau hypercoagulability through thromboplastic substances | **1 / 1**. |
+| 16–17 | One month after femoral thrombophlebitis asks the venous process; next slide prints `(D) CORRECT`, thrombus organization with removal and lumen restoration | **1 / 1**. P.16's green stem typography is emphasis, not a selected option or separate key. |
+| 18–19 | E. coli sepsis with shock, prolonged PT/PTT, severe thrombocytopenia, and elevated D-dimer asks the mechanism; next slide prints `(B) CORRECT`, endotoxin-mediated endothelial injury and systemic coagulation activation causing DIC | **1 / 1**. The stray terminal bullet on p.19 is layout residue, not a prompt. |
+| 20–21 | Clinical-study DVT risk-factor question; next slide prints `(D) CORRECT`, adenocarcinoma-associated Trousseau hypercoagulability | **1 / 1**. |
+| 22 | `Thank you` | Closing slide only; **0 / 0**. |
+
+The source contains exactly **9 text-only MCQs / 9 following-slide supplied answers / 0 unkeyed
+prompts / 0 written operations / 0 practical or image-bearing prompts / 0 prompt-like residues**.
+Every answer slide uses explicit option-letter plus `CORRECT` directionality and an explanation;
+none is inferred from color alone. The CBL label, pathology logos, alternating question/answer
+slides, and WebPath source link do not create practical stations or an administered exam. There
+is no candidate identity, response, mark allocation, timer, examiner instruction, image field,
+separate answer register, or correction layer.
+
+All **9 MCQ occurrences remain retained**. The p.14 recurrent-pulmonary-embolism item and p.20
+DVT-risk item use different scenarios but test the same complete adenocarcinoma → Trousseau
+hypercoagulability → venous-thromboembolism proposition, so they collapse to one tested handle
+without losing either occurrence or answer. No other pair repeats the same full proposition.
+Thus `9 retained - 1 same-source semantic collapse = 8 source-distinct tested handles`.
+
+### Source-first inventory and prior-BMS assignment
+
+| Ref(s) | Source-tested scope / supplied answer | Handle / prior-BMS assignment |
+|---|---|---|
+| F142-Q01 · pp.4–5 | Strongest cause of inpatient femoral DVT · B immobilization | `hospital-immobilization-femoral-dvt-risk` · exact Family-3 `venous-stasis-thrombosis` reuse; Family 140 supplies a later case-specific reuse |
+| F142-Q02 · pp.6–7 | Diabetic postprandial abdominal angina pathology · B mesenteric-artery occlusion from atherosclerosis | `diabetic-mesenteric-atherosclerosis-abdominal-angina` · new; Family 6 tests acute atrial-fibrillation mesenteric embolism, not chronic diabetic atherosclerotic ischemia |
+| F142-Q03 · pp.8–9 | Cardioprotective dietary choice · D cold-water fish oil reducing platelet aggregation | `cold-water-fish-oil-ischemic-risk-reduction` · new; no prior BMS handle tests this diet-to-antiplatelet/coronary-risk relation |
+| F142-Q04 · pp.10–11 | AF renal embolic infarct with ghost outlines · B coagulative necrosis | `atrial-fibrillation-renal-infarct-coagulative-necrosis` · new; prior BMS handles cover general coagulative morphology or myocardial/splenic infarcts, not this renal cardioembolic association |
+| F142-Q05 · pp.12–13 | Hip-prosthesis surgery/immobilization antecedent to pulmonary embolism · A | `hip-prosthesis-postoperative-pulmonary-embolism` · exact Family-125 `postoperative-dvt-embolization-infarction-sequence` reuse for the surgery/stasis → DVT → pulmonary-embolization component |
+| F142-Q06,Q09 · pp.14–15,20–21 | Pancreatic/general adenocarcinoma causing recurrent PE or DVT risk · B/D through Trousseau hypercoagulability | `adenocarcinoma-trousseau-venous-thromboembolism` · exact Family-3 `malignancy-hypercoagulability` reuse |
+| F142-Q07 · pp.16–17 | One-month fate of femoral-vein thrombus · D organization | `thrombus-organization-one-month` · exact Family-2 `thrombosis-outcomes` reuse |
+| F142-Q08 · pp.18–19 | E. coli endotoxaemia causing DIC laboratory pattern · B endothelial injury | `gram-negative-sepsis-dic-endothelial-injury` · new; prior DIC systemic-activation and generic endotoxin-effect handles do not test this trigger-to-endothelial-injury mechanism |
+
+### Exactly four searches per accepted handle and external disposition
+
+Each of the eight accepted handles received exactly four fresh scope-specific searches across live
+and pending import state, followed by comparison with prior BMS-102 Families 1–141: **8 × 4 = 32
+required and completed searches**.
+
+| Handle | Exactly four required queries | External exact-scope result |
+|---|---|---|
+| `hospital-immobilization-femoral-dvt-risk` | `hospital immobilization femoral vein thrombosis risk`; `pneumonia inpatient swollen leg DVT immobilization`; `venous stasis bed rest deep vein thrombosis`; `immobility most common cause leg vein thrombosis` | pending post-immobility DVT/venous-stasis item |
+| `diabetic-mesenteric-atherosclerosis-abdominal-angina` | `diabetes postprandial abdominal pain mesenteric artery occlusion`; `abdominal angina severe atherosclerosis bowel arteries`; `chronic mesenteric ischemia diabetic patient after meals`; `mesenteric arterial atherosclerosis intestinal angina` | no same-scope |
+| `cold-water-fish-oil-ischemic-risk-reduction` | `cold water fish oil reduce ischemic heart disease risk`; `fish oils diminish arachidonic acid metabolites platelet aggregation`; `omega 3 dietary prevention coronary atherosclerosis`; `fish oil antiplatelet myocardial infarction risk` | pending fish-oil cardiovascular/thrombosis relation |
+| `atrial-fibrillation-renal-infarct-coagulative-necrosis` | `atrial fibrillation renal infarct coagulative necrosis`; `renal artery embolus preserved cell outlines karyolysis`; `kidney infarction type of necrosis`; `solid organ ischemic infarct coagulative necrosis kidney` | pending renal-infarct/coagulative-necrosis scope |
+| `hip-prosthesis-postoperative-pulmonary-embolism` | `hip prosthesis postoperative pulmonary embolism`; `orthopedic surgery immobilization DVT pulmonary embolization`; `hip replacement risk venous thromboembolism`; `sudden dyspnea pulmonary artery filling defect after surgery` | pending post-immobility pulmonary-embolism item |
+| `adenocarcinoma-trousseau-venous-thromboembolism` | `adenocarcinoma Trousseau recurrent pulmonary thromboembolism`; `pancreatic carcinoma hypercoagulable state thromboplastin`; `malignancy increased deep venous thrombosis risk`; `cancer associated venous thrombosis Trousseau syndrome` | no same-scope |
+| `thrombus-organization-one-month` | `thrombus organization one month thrombophlebitis`; `fate of venous thrombus organization recanalization`; `organized thrombus vascular lumen restoration`; `old femoral vein thrombus organization` | no same-scope |
+| `gram-negative-sepsis-dic-endothelial-injury` | `gram negative sepsis DIC endothelial cell injury`; `E coli endotoxin disseminated intravascular coagulation`; `septic shock prolonged PT PTT thrombocytopenia D dimer`; `endotoxemia plasminogen activator inhibition DIC mechanism` | no same-scope |
+
+External exact-scope disposition is **0 live / 4 pending / 4 no same-scope = 8 handles**. The four
+exact prior-BMS reuses are immobilization/venous stasis, postoperative DVT-to-pulmonary-
+embolization, malignancy hypercoagulability, and thrombus outcomes. The diabetic mesenteric
+atherosclerosis, cold-water-fish-oil relation, renal cardioembolic infarct, and gram-negative
+sepsis/DIC trigger remain new to the BMS tested ledger, so concept arithmetic is `8 - 4 = 4`
+additions.
+
+### Family-142 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 142 | Auxiliary cumulative (Families 12–142) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 9 | 1,245 | 765 | 2,010 |
+| Printed/source-supplied answer occurrences | 9 | 742 | 405 | 1,147 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 9 | 1,180 | 552 | 1,732 |
+| Source-distinct tested handles / required searches | 8 / 32 | 1,059 / — | — | — |
+| External live / pending / no same-scope | 0 / 4 / 4 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 4 | — | — | subtract before concept addition |
+| Cross-family concept delta | +4 | +677 over primary | 372 | `372 + 677 = 1,049` |
+| **Distinct tested concepts** | **+4** | **677 auxiliary additions** | **372** | **1,049** |
+
+The checksum closes without remainder: `9 = 9 + 0`; all nine occurrences are retained; `9 - 1
+same-source collapse = 8` handles; searches are `8 × 4 = 32`; external disposition is `0 + 4 +
+4 = 8`; and concept arithmetic is `8 - 4 prior exact reuses = 4`. Auxiliary arithmetic is `1,236
++ 9 = 1,245` prompts, `733 + 9 = 742` answers, `1,171 + 9 = 1,180` retained records, `1,051 +
+8 = 1,059` handles, and `673 + 4 = 677` concept additions. All eligible arithmetic is `765 +
+1,245 = 2,010`, `405 + 742 = 1,147`, `552 + 1,180 = 1,732`, and `372 + 677 = 1,049`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now **1,245 / 742 / 1,180 / 1,059 /
++677**; and all eligible evidence is **2,010 / 1,147 / 1,732 / 1,049**. Family 142 cannot
+establish an administered Helwan exam, official key, recurrence, formal mark weight, candidate
+response, readiness, or claims status.
+
+### Exact next debt after Family 142
+
+`src_aa147d841f217a789ced` is exhausted across all 22 pages: every visible/metadata provenance
+field, academic/date marker, source URL, stem, option set, explicit following-slide answer,
+explanation, same-source collapse, four-search packet, prior-BMS relation, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-142 blocker. The exact next unique
+manifest record is tier-5 `src_ad59fe84ce3f33e3d0b5` · `CBL-repair-&-cir.102_نسخة.pdf`,
+SHA-256 `ad59fe84ce3f33e3d0b521fef7bc4a0b00a5cb562086a3e9336c56f709fb61aa`, 1,003,179
+bytes, 34 native-text 720×540-point landscape pages under `Pathology / Practical Labs / Virtual /
+Virtual Lab 3 - CBL Repair`. Its first page visibly names `CBL OF REPAIR`, Dr Kariman Hussein,
+Lecturer of Pathology, a Helwan e-books domain, and the WebPath exam-index URL; full visible
+provenance, source authority, prompt/key/teaching/practical boundary, searches, prior reuse, and
+arithmetic are the exact next-source blockers.
