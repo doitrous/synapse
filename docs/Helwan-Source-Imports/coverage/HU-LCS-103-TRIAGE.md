@@ -20235,3 +20235,118 @@ under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified unt
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 39
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 192 — Tier-6 Matrix-Team locomotor-103 comprehensive lower-limb anatomy teaching summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_007d55f2649d8bcb7cf9` / `007d55f2649d8bcb7cf9cdd6d2580fcb4678e6fcb09149cef34a6d6f258431ce` |
+| Manifest / normalized local path | Manifest `Year 1/LCS 103/Anatomy/Notes and Summaries/Anatomy summary   .pdf`; normalized local `Year 1/LCS 103/Anatomy/Notes and Summaries/Anatomy summary.pdf` |
+| Physical verification | **11,961,552 bytes; 45 OCR-needed portrait-US-Letter pages; 612 × 792 pt; untagged; unencrypted; PDF 1.4**. Full hash, byte size, page count and geometry match; all forty-five 160-dpi complete-page renders are distinct. |
+| Visible / metadata provenance | The cover and running pages print `MATRIX TEAM`, `ANATOMY SUMMARY` and `locomotor (103)`. The Arabic notice says the summary is only for review and recall and does not replace the lecture. No author, lecturer, university, cohort, sitting, marks or official-key statement appears. Metadata identifies Online2PDF.com and 12 April 2022 only. |
+| Authority finding | The visible module number and manifest placement establish topical locomotor-103 teaching relevance, but Matrix-Team authorship without an institution or sitting does not establish Helwan assessment or official-key authority. This is a student review summary, not an examination, response form or practical station set. |
+
+All **45/45 pages** were rendered at 160 dpi, OCRed and inspected at full resolution against
+the native layer. The complete sequence is:
+
+| Pages | Source-first teaching composition |
+|---:|---|
+| 1 | cover, attribution, module label and review-only notice |
+| 2–4 | fascia lata/iliotibial tract/saphenous opening; anterior-thigh muscles, OINA tables and attachment diagrams |
+| 5–9 | femoral triangle, sheath, canal/ring, artery/profunda, veins, femoral/saphenous nerves and clinical applications |
+| 10–13 | medial-compartment muscles, obturator nerve/artery, adductor canal and femoral-head blood supply |
+| 14–20 | superficial/deep gluteal muscles, sciatic foramina, gluteal and sciatic-region nerves/vessels and injury notes |
+| 21–24 | posterior thigh/hamstrings, cruciate anastomosis and popliteal fossa |
+| 25–28 | knee-joint type, surfaces, capsule, synovial membrane, ligaments, movements, locking and blood/nerve supply |
+| 29–32 | superficial/deep posterior-leg muscles and attachment tables |
+| 33–35 | anterior/lateral-leg muscles and completed OINA/action/supply tables |
+| 36–39 | leg arteries, veins and tibial/common/superficial/deep-fibular nerves with injury notes |
+| 40–43 | ankle joint, retinacula, plantar aponeurosis, arches, intrinsic muscles, vessels, nerves and tarsal-tunnel note |
+| 44–45 | limb development, rotation/dermatomes/ossification and congenital limb malformations |
+
+There is **no assessment inventory**. Every table, organizer, clinical box and diagram supplies
+its information simultaneously; there is no question numbering, learner instruction, response
+field, masked answer, delayed answer or key convention. Exact boundary is **0 eligible or
+external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment
+prompts**.
+
+Source wording remains literal and unrepaired. This includes `latral condye`, `week point`,
+`secound`, `compatment`, `adductor magnaus`, `deep external pudendual`, `aertery`, `varicosa
+veins`, `vascular transplation` and all other Arabic/English spelling, labels and diagram
+states. Inventory does not endorse or medically/editorially repair the summary.
+
+### Practical and image boundary
+
+The summary contains many anatomical illustrations, clinical photographs, sectional diagrams
+and supplied-label maps. Every image is embedded in an explanatory page with its name or
+labels already visible. There is no masked structure, numbered identification station,
+learner-completed map, response blank, trace-reading task or practical key. The images remain
+declarative theoretical teaching evidence and add **0 practical prompts / 0 teaching plates /
+0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first teaching scopes, exact searches and prior-LCS reconciliation
+
+The 45-page sequence consolidates to twenty complete theoretical teaching handles:
+
+| Teaching handle / pages | One query on each required surface | Complete-scope result |
+|---|---|---|
+| fascia lata, iliotibial tract and saphenous opening · p. 2 | fascia lata iliotibial tract saphenous opening cribriform fascia | Accepted Families 2, 4, 31, 39, 191 and later banks own it — prior-LCS reuse. |
+| anterior-thigh muscle OINA/action/supply · pp. 3–4 | anterior thigh iliopsoas sartorius quadriceps origin insertion action nerve | Accepted anterior-thigh families and banks own it — prior-LCS reuse. |
+| femoral triangle, sheath, canal, ring and hernia · pp. 5–6 | femoral triangle femoral sheath femoral canal ring hernia | Accepted Families 1–2, 20, 31–34, 39 and later banks own it — prior-LCS reuse. |
+| femoral/profunda vessels and great saphenous vein · pp. 6–9 | femoral artery profunda femoris femoral vein great saphenous clinical | Accepted lower-limb vascular families and banks own it — prior-LCS reuse. |
+| femoral and saphenous nerves · p. 8 | femoral nerve saphenous nerve anterior thigh cutaneous branches | Accepted Families 1–2, 31, 39, 45 and later banks own it — prior-LCS reuse. |
+| medial-thigh muscles · pp. 10–11 | medial thigh pectineus obturator externus gracilis adductors | Accepted Families 1–2, 5, 32, 41 and later banks own it — prior-LCS reuse. |
+| obturator neurovascular, adductor canal and femoral-head supply · pp. 12–13 | obturator nerve artery adductor canal femoral head blood supply | Accepted Families 2, 5, 32, 41, 45 and later banks own it — prior-LCS reuse. |
+| superficial/deep gluteal muscles · pp. 14–16 | gluteal muscles superficial deep piriformis obturator gemelli quadratus | Accepted Families 2, 32, 40, 191 and later banks own it — prior-LCS reuse. |
+| sciatic foramina and gluteal-region neurovascular anatomy · pp. 17–20 | greater lesser sciatic foramina gluteal nerves arteries sciatic nerve | Accepted Families 1–2, 32, 40, 45 and later banks own it — prior-LCS reuse. |
+| posterior thigh, hamstrings and cruciate anastomosis · pp. 21–23 | posterior thigh hamstrings cruciate anastomosis origin insertion | Accepted Families 1–2, 33, 42 and later banks own it — prior-LCS reuse. |
+| popliteal fossa · p. 24 | popliteal fossa boundaries contents artery vein tibial common fibular | Accepted Families 1–2, 33, 42, 45, 176 and later banks own it — prior-LCS reuse. |
+| knee joint · pp. 25–28 | knee joint capsule ligaments menisci synovial membrane movements blood supply | Accepted Families 46, 65, 113–115 and later banks own it — prior-LCS reuse. |
+| posterior-leg muscles · pp. 29–32 | posterior leg gastrocnemius soleus plantaris popliteus deep flexors | Accepted Families 1, 34, 44, 158–159, 181, 191 and later banks own it — prior-LCS reuse. |
+| anterior/lateral-leg muscles · pp. 33–35 | anterolateral leg tibialis anterior extensors fibularis muscles | Accepted Families 1, 34, 43, 158, 181, 191 and later banks own it — prior-LCS reuse. |
+| leg and foot vessels · pp. 36–37, 42 | leg foot arteries veins popliteal anterior posterior tibial dorsalis pedis | Accepted Families 34, 45 and later lower-limb banks own it — prior-LCS reuse. |
+| leg and foot nerves/injuries · pp. 38–39, 43 | leg foot tibial common superficial deep fibular nerves injuries | Accepted Families 34, 43–45 and later banks own it — prior-LCS reuse. |
+| ankle joint · p. 40 | ankle joint articular surfaces capsule ligaments movements stability | Accepted Families 46, 65, 113–115 and later banks own it — prior-LCS reuse. |
+| ankle/foot retinacula and plantar aponeurosis · p. 41 | ankle foot flexor extensor fibular retinacula plantar aponeurosis | Accepted Families 34, 43–44, 48, 158, 181 and later banks own it — prior-LCS reuse. |
+| foot arches, intrinsic muscles and neurovascular anatomy · pp. 42–43 | foot arches intrinsic muscles plantar vessels nerves tarsal tunnel | Accepted Families 34, 48, 158, 181 and later banks own it — prior-LCS reuse. |
+| limb development and congenital malformations · pp. 44–45 | limb development limb buds rotation ossification congenital malformations | Accepted Family 47 and later banks own it — prior-LCS reuse. |
+
+Each of the **twenty accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **20 × 4 =
+80 required search invocations**. Literal combined searches returned three accepted-ledger
+hits and no exact file hit on the other surfaces; complete-scope comparison establishes **20
+prior-LCS theoretical reuses / 0 additive live / 0 additive pending / 0 additive new teaching
+scopes**. Declarative theoretical scopes do not enter tested-concept or practical-teaching totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,312 prompts / 7,036 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every assessment delta is zero.
+
+Practical totals remain **65 prompts / 525 plates / 3,029 mappings / 173 residues / 58
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+practical-teaching-scope delta is zero.
+
+This hash occurs once in Family 191's remainder. Removing its sole path changes the remainder
+from **39 paths / 38 unique hashes** to **38 paths / 37 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **29 paths / 29 unique hashes within tier**, and rank 9 remains **9 / 8**.
+Family 191's checksums were
+`f84e93e4eb29ee859deaca3028f612fda1b94a209f9aab21aa0c3643bb98aa08` (paths) and
+`403d6cd6883afa1ac8185d8e999ad9e4033dbf9261b7b7c5bd15d4dabce444a1` (unique hashes).
+For the exact post-Family-192 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`dbef8e381246024335aaf4456d772a20c0303a300ab31e0b3f36a3298a65d4fa`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`1742234164ea8c486853c37da4e6f4f6035f9ed20b0edfd61be7c5eb53b7b247`.
+
+The exact next manifest-order debt is tier-6 `src_61e5ec3425d8856fdd56`, `Ant. compartment
+of the thigh.pdf` (2,703,553 bytes; 13 native-text portrait-A4 pages; tagged; unencrypted; PDF
+1.4; SHA-256 `61e5ec3425d8856fdd56ffa942094fcb1f43db89900ee96c2e7518d94ac8b111`)
+under `Year 1/LCS 103/Anatomy/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 38
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
