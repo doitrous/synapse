@@ -438,3 +438,41 @@ Removing the eight processed hashes leaves **88 selected inventory paths / 86 un
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB-2 micro mcq.pdf`, SHA-256 `9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc`, 1 page, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 88 selected inventory paths / 86 unique hashes remain untriaged.
+
+## Completed source — FHB-2 Microbiology MCQ
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB-2 micro mcq.pdf` | `9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc` | 1 | substantive-text | page 1 rendered and read | March 2025 Microsoft Word-generated exercise headed `Microbiology` and `FH8 102-2`. PDF metadata contains an individual author string, excluded from durable evidence because no visible attribution or authority statement accompanies it. No institution, department, examiner, sitting, marks or authenticated faculty-key claim is visible. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+The single page contains Q1–Q5 as five conventional four-option MCQs. Each prompt has exactly one option highlighted yellow inline. There is no separate key, written question, practical station, image-identification prompt, teaching passage or non-assessment page.
+
+The exact boundary is **5 objective prompts / 5 prompt-matched highlighted source-answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**. The heading typo `FH8 102-2`, the source's mesosome wording, and academically questionable highlighted options remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The five prompts collapse source-first into three coherent handles, all already represented by completed FHB-102-2 concepts. No new handle survives the gate: **0 accepted × 4 = 0 searches**.
+
+| Source handle | Prior-module reference | Disposition |
+|---|---|---|
+| Prokaryotic energy structures, cell wall and prokaryote/eukaryote distinction | prior bacterial envelope, wall, membrane and bacterial-structure handles | prior-FHB-102-2 collapse |
+| Bacterial chromosome organization | prior chromosome, plasmid, gene, genome, genotype and phenotype handle | prior-FHB-102-2 collapse |
+| Bacterial multiplication by binary fission | prior bacterial growth curve, division and generation-time handle | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This ninth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+5 questions / +5 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|
+| FHB 102-2 | 844 | 836 | 56 | 0 | 0 | 56 | TBD |
+
+Removing the nine processed hashes leaves **87 selected inventory paths / 85 unique SHA-256s**. Their sorted-newline checksum is `1c2346c95515a82669241d515077c3f3835a71c2d22077053c5012ac440552c9`. Remaining audit-review debt is **36 substantive-text / 23 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`9 + 85 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative Micro.pdf`, SHA-256 `d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc`, 4 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 87 selected inventory paths / 85 unique hashes remain untriaged.

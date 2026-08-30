@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "5512a7d4cb1e1045fa0a55490967e3358359502d694fa5d8b925ab2a25ad82fd",
-    "triageMarkdown": "03a8a85116abc410396938fc9363442f8ee92f6d0febbde07316e107c3e745f6"
+    "readinessMarkdown": "79a62311127081fc31ce31b1ea984dc74250112410d9ebaf7e7b868a0b75557e",
+    "triageMarkdown": "5fa8b59e5e049fb6f24a086fee9e7aef62521c85c7c177ee83e2089d0e8037c4"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -73,12 +73,13 @@
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+      "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 8
+    "uniqueSha256": 9
   },
   "completedSourceCoverage": [
     {
@@ -551,11 +552,43 @@
         "printed grammatical and academically questionable prompt and answer tokens are preserved without correction",
         "the terminal answer list is source answer evidence rather than an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "questionPages": "1",
+      "printedPromptObservations": 5,
+      "objectiveMcqPrompts": 5,
+      "printedKeyObservations": 5,
+      "inlineHighlightedAnswerObservations": 5,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 3,
+      "priorFhb1022CollapsedHandles": 3,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 5,
+      "familyAnswerDelta": 5,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "March 2025 Microsoft Word-generated exercise with an individual author string in PDF metadata but no visible author, institution, department, examiner, sitting, marks or authenticated faculty-key claim; personal metadata is excluded from durable evidence",
+      "boundaryDisposition": "five numbered conventional objective MCQs on one page, each with one inline yellow-highlighted source answer; no separate key, written prompt, practical station, image-identification prompt, teaching passage or non-assessment page",
+      "preservedSourceDefects": [
+        "the visible heading prints FH8 102-2",
+        "the source uses mesosome wording for the bacterial respiratory chain",
+        "academically questionable highlighted options remain source truth without correction",
+        "the inline highlights are source answer evidence rather than authenticated faculty-key observations"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 839,
-    "printedKeyObservations": 831,
+    "printedPromptObservations": 844,
+    "printedKeyObservations": 836,
     "namedConceptsAssigned": 56,
     "liveHits": 0,
     "pendingHits": 0,
@@ -609,22 +642,28 @@
     "pages": 3,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "ninthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB-2 micro mcq.pdf",
     "sha256": "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
     "pages": 1,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative Micro.pdf",
+    "sha256": "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
+    "pages": 4,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 88,
-    "uniqueSha256": 86,
-    "sortedNewlineSha256": "ebbba239dcd4a733ba674ccd595995711ea39d8ead5a4883c66e8ecba87adf82",
+    "inventoryMetadataRows": 87,
+    "uniqueSha256": 85,
+    "sortedNewlineSha256": "1c2346c95515a82669241d515077c3f3835a71c2d22077053c5012ac440552c9",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
       "sparse-text": 23,
-      "substantive-text": 37
+      "substantive-text": 36
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -632,12 +671,12 @@
     "audit-not-found": 11,
     "empty-text": 15,
     "sparse-text": 23,
-    "substantive-text": 37
+    "substantive-text": 36
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 8,
-    "remainingUniqueSha256": 86,
+    "processedUniqueSha256": 9,
+    "remainingUniqueSha256": 85,
     "processedPlusRemaining": 94
   }
 }
