@@ -20195,3 +20195,87 @@ Its first visible text identifies `REPAIR (Healing) part 2`, Dr Enas Elhosary, F
 Helwan University, while metadata names `fmt` and records 11 April 2026. Its complete visible
 authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 192 — Enas Elhosary Repair (Healing) Part 2 teaching carrier
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_20da607649bc292ce231` · `Repair Lecture 2.pdf` under the exact local `Pathology / Theoretical / Lec 14 - Repair 2` folder |
+| SHA-256 / exact size | `20da607649bc292ce2312f95ea6bf8a57fb4b4e3db72d906bcf61ece4b670451` · **1,152,541 bytes** |
+| Format / complete read | **23 native-text 960×540-point landscape pages**. All 23 pages were rendered into 23 non-empty 1467×825-pixel images and read individually at original detail. Coherent native extraction contains **932 words / 6,710 bytes** and agrees with every visible cover field, teaching heading, timeline, comparison table, labelled diagram, clinical photograph, recap, and terminal slide. |
+| Visible authority | Page 1 visibly identifies `REPAIR (Healing) part 2`, **Dr Enas Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**. This source-facing attribution and exact Helwan BMS-102 theoretical placement establish Helwan teaching authority. No page visibly prints a module code, academic year, lecture date, exam date, or sitting. |
+| Metadata caution | Metadata title is generic `PowerPoint Presentation`; author is `fmt`; creator/producer is Microsoft PowerPoint LTSC; and creation/modification is 11 April 2026. These are retained as carrier history only. They do not override visible Enas Elhosary authorship or independently authenticate a teaching year or exam sitting. |
+| Authority | Tier-4 Helwan theoretical teaching material. It supports wound-healing curriculum and labelled-image provenance only, not an assessment occurrence, official key, mark scheme, candidate response, practical station, recurrence claim, readiness, or claims status. |
+
+### Complete page-first teaching, callout, prompt, answer, image, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 | Cover and source attribution | Provenance only; **0 prompts / 0 answers / 0 practical**. |
+| 2–3 | Wound-healing definition, epithelial regeneration versus dermal scarring, primary/secondary patterns, and completed labelled skin-regeneration example | Declarative teaching and diagnosis-disclosing diagram; **0 / 0 / 0**. |
+| 4–7 | Healing by first intention: clean incision, staged haemorrhage/inflammation/epithelialization/granulation/collagen timeline, completed table, and labelled sequence diagram | Completed teaching timeline and illustrations. Numbered steps are supplied content, not candidate tasks; **0 / 0 / 0**. |
+| 8–13 | Healing by second intention: open-defect process, granulation, contraction/myofibroblasts, first-versus-second differences, completed comparative diagrams, time-course plot, and table | Declarative and label-disclosing teaching; **0 / 0 / 0**. |
+| 14–16 | Factors influencing wound healing: classification plus complete local and systemic factor lists | Completed teaching lists; **0 / 0 / 0**. |
+| 17–20 | Complications: infection, deficient/excessive scar, dehiscence, hernia, ulceration, keloid/hypertrophic scar, contracture/stricture, epidermoid cyst, sinus, fistula, and completed tract diagram | Declarative definitions and completed labelled illustration; **0 / 0 / 0**. |
+| 21–22 | Recap schematic listing definition/mechanism/factors/healing/complications and labelled photographs/histology of chronic ulcer, keloid, fistula, sinus, contracture, and epidermoid cyst | Completed summary and diagnosis-disclosing teaching plate. The numbered recap headings are not learner operations; **0 / 0 / 0**. |
+| 23 | `Thank you` terminal slide | Closing residue only; **0 / 0 / 0**. |
+
+The complete governed boundary is therefore **0 raw prompt occurrences, 0 source-supplied answers,
+0 unkeyed operations, 0 retained question records, 0 image prompts, 0 drawing tasks, and 0
+practical stations**. All numbered stages, comparison fields, recap headings, labelled diagrams,
+clinical photographs, slide decorations, and terminal matter disclose their teaching meaning and
+lack an instruction, question, response control, blank, station label, time, marks, or candidate
+field.
+
+### Prior-BMS comparison and governed zero-handle/search gate
+
+The lecture revisits wound-healing topics represented in earlier BMS repair, inflammation,
+written, MCQ, microscope, and virtual-lab families: primary versus secondary intention, inflammatory
+and proliferative timing, granulation tissue, contraction, local/systemic healing factors, keloid,
+hypertrophic scar, wound dehiscence, ulcer, sinus, fistula, contracture, and epidermoid cyst. Those
+teaching overlaps preserve curriculum context but cannot become tested-handle reuse without a
+present learner operation.
+
+Family 192 therefore yields **0 accepted handles / 0 prior-BMS reuse assignments / +0 concepts**.
+Exactly four searches are required only per accepted handle, so the source-first gate is **`0
+accepted handles × 4 = 0 required and completed searches`**. No search packet is fabricated for
+a numbered teaching step, completed comparison, labelled image, recap node, or closing slide.
+
+### Family-192 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 192 source-local / eligible delta | Auxiliary cumulative (Families 12–192) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 / +0 | 2,529 | 762 | 3,291 |
+| Source-supplied answers | 0 / +0 | 1,668 | 405 | 2,073 |
+| Retained question records | 0 / +0 | 2,238 | 552 | 2,790 |
+| Accepted handles / required searches | 0 / 0 | 2,021 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | — |
+| Cross-family concept delta | +0 | +965 over primary | 372 | 1,337 |
+| **Distinct tested concepts** | **0 source-local / +0** | **965 additions** | **372** | **1,337** |
+
+Checksums: `0 prompts`; `0 answers`; `0 retained`; `0 handles`; `0 × 4 = 0 searches`; and `0 -
+0 = +0 concepts`. Auxiliary remains **2,529 prompts / 1,668 answers / 2,238 retained / 2,021
+handles / +965 concepts**. Primary remains **762 / 405 / 552 / 372**. All eligible remains
+**3,291 / 2,073 / 2,790 / 1,337**.
+
+Family 192 establishes Helwan theoretical repair teaching only, not an exam sitting, official
+departmental key, mark weight, candidate response, practical station, tested recurrence,
+readiness, or claims status.
+
+### Exact next debt after Family 192
+
+`src_20da607649bc292ce231` is exhausted across all 23 pages: every visible authority and metadata
+field, definition, teaching step, timeline, comparison, factor, complication, labelled diagram,
+clinical photograph, recap node, terminal residue, prior-evidence relation, zero-search term, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-192 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_771db2e7413e8f717ff1` · `SMP
+neoplasia5.pdf`, SHA-256
+`771db2e7413e8f717ff1ac81db649431f538e96176c020fef46793d529cb619f`, **807,911 bytes**,
+**26 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 15 - Neoplasia
+5`. Its first visible text identifies Academic Year 2025/2026, Year 1, Semester 2, and BMS-102,
+while metadata names `Mohammed Abdel-Latif` and records 20 April 2026. Its complete visible
+authority/date boundary, teaching/prompt/key/callout/practical split, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
