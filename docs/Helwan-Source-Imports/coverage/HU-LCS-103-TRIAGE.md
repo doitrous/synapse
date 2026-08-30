@@ -19566,3 +19566,90 @@ unencrypted; PDF 1.4; SHA-256
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 46
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 185 — Tier-6 attributed knee-joint anatomy teaching summary
+
+### Exact identity, Unicode path, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_615e427e4992be8d70f9` / `615e427e4992be8d70f97c8b6a9b833d68bfe0a97b0661e65de1a1a68f8a710c` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/زتونة (The Knee joint).pdf` |
+| Physical verification | **2,216,462 bytes; 5 native-text portrait-A4 pages; 595.276 × 841.89 pt; tagged; unencrypted; PDF 1.4**. The full hash, byte size, page count and geometry match the manifest; all five full-page render hashes are distinct. |
+| Visible / metadata provenance | P. 1 carries `Team El Sir`; p. 5 says the notes were prepared by `Dr Mirna` with some modifications, while the body cites `Dr Sayed` and `Dr Eman`. Metadata says title `B`, `pdftopdf filter` and iOS Quartz. No page identifies a university, LCS code, cohort, formal sitting, examiner or answer key. |
+| Authority finding | Attributed local tier-6 bilingual Arabic/English teaching-summary evidence. Its visible names and notes-folder location do not establish recoverable assessment, practical-station or official-key authority. |
+
+All **5/5 pages** were rendered at 180 dpi, inspected at full resolution and read against the
+complete native layer. The complete source-first boundary is:
+
+| Page | Complete supplied teaching composition | Assessment / practical boundary |
+|---:|---|---|
+| 1 | bicondylar knee-joint type, femoral condyles, tibial plateaus, suprapatellar bursa and quadriceps/articularis-genu relation | completed declarative teaching only |
+| 2 | subtendinous, prepatellar, infrapatellar and tendon-associated knee bursae and their muscle/tendon relations | completed supplied list only |
+| 3 | oblique and transverse ligaments, cruciate ligaments, ACL/hyperextension and medial-collateral/medial-meniscus injury relation | the printed `Why?` is immediately followed by its supplied explanation and is a rhetorical teaching callout, not a learner prompt |
+| 4 | knee locking/unlocking, nerve supply and a fully labelled blood-supply tree | completed explanatory tree, with no masked label or response field |
+| 5 | fully completed flexion, extension and medial/lateral-rotation table with chief/accessory muscles and closing attribution | completed theoretical table only |
+| **Total** | **5 complete page-level teaching compositions** | **0 prompts / 0 keys / 0 practical inventory** |
+
+There is no option set, instruction to identify, response blank, station, masked callout, mark
+allocation or answer-reveal boundary. Exact assessment delta is **0 eligible or external
+MCQ/written prompts / 0 keys-or-answers / 0 unkeyed prompts**. The supplied blood-supply tree
+and movement table are simultaneous theoretical teaching, not practical-testing plates. The
+exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0
+practical scopes**. P. 1's reference to an absent picture from Dr Sayed's PDF is source-reference
+context, not a learner blank or practical residue.
+
+Source truth remains literal and unrepaired, including `condyl 2`, `vestus intermediate`,
+`extention`, `semi membranosus`, `perineal`, `Intercapsular` and every supplied label. No
+editorial or medical correction creates a prompt, key, mapping or residue.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The five pages consolidate source-first to five complete theoretical teaching handles:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `knee-joint-type-and-articular-surfaces` · p. 1 | knee joint bicondylar tibial plateaus; knee joint articular surfaces femur tibia; knee joint type bicondylar; knee joint anatomy | Accepted Families 46, 65 and 151 own the complete joint-type/articular-surface scope — prior-LCS reuse. |
+| `knee-bursae-and-tendon-relations` · pp. 1–2 | knee bursae suprapatellar prepatellar infrapatellar; knee tendon associated bursae; articularis genu bursa knee; knee bursae anatomy | Accepted Families 46, 65 and 176 own the complete bursal/related-tendon scope — prior-LCS reuse. |
+| `knee-ligaments-menisci-and-injury-relations` · p. 3 | knee ligaments menisci injury; ACL hyperextension medial meniscus collateral; oblique popliteal transverse ligament knee; knee ligament meniscus anatomy | Accepted Families 46, 65, 151 and 176 own the complete ligament/meniscus scope — prior-LCS reuse. |
+| `knee-locking-nerve-and-blood-supply` · p. 4 | knee joint locking unlocking; knee nerve supply genicular branches; knee blood supply genicular anastomosis; knee joint nerve blood supply | Accepted Families 46, 65, 151, 176 and 181 own the complete locking/neurovascular scope — prior-LCS reuse. |
+| `knee-movements-and-chief-accessory-muscles` · p. 5 | knee flexion extension rotation muscles; knee movement chief accessory muscles; popliteus unlocks knee movement; knee movements muscles anatomy | Accepted Families 46, 65, 151, 176 and 181 own the complete movement/muscle scope — prior-LCS reuse. |
+
+Each of the **five accepted handles** received exactly one query on each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **5 × 4 = 20 required search invocations**. Literal combined-phrase searches produced
+one accepted-ledger hit and no exact hit on the other surfaces; absence was not used as a
+novelty decision. Complete-scope comparison establishes **5 prior-LCS theoretical-teaching
+reuses / 0 additive live / 0 additive pending / 0 additive new scopes**. There is no assessment
+or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,931 prompts / 6,656 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every ordinary-assessment delta is zero.
+
+Practical totals remain **62 prompts / 516 plates / 3,016 mappings / 156 residues / 55
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 184's remainder. Removing its sole path changes the
+all-rank remainder from **46 paths / 43 unique hashes** to **45 paths / 42 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **31 paths / 31 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 184's prior checksums are
+`faac697a7a757275e8b57c5e5acce74960a7d39d672b8dfc97021712e22b9178` (paths) and
+`2878df6a1a63ffaf1d6ac9f3dbef36a9ea45666c562f62a85bf8837113889bdb` (unique hashes).
+For the exact post-Family-185 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`7ec36523e62f57f36143cf500ff8439ad86ce4ddce1277a4702d62371cb4004f`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`1b497213103cd3c6b075403697e631645fde6ae50f66af2800a7f51041e39ad0`.
+
+The exact next manifest-order debt is rank-9 `src_3935b14adafc945f79a7`, `curves.pdf`
+(170,573 bytes; 2 OCR-needed portrait-US-Letter pages; tagged; unencrypted; PDF 1.7; SHA-256
+`3935b14adafc945f79a7340521b7177bd74fc8345057505b983ce24d0de58f1d`) under
+`Year 1/LCS 103/All Subjects/Official Course Files/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 45
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
