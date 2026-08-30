@@ -11349,3 +11349,76 @@ The exact next tier-3 manifest-order debt is `src_d5d701558ddff491b455`,
 unclassified until its own pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 135 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 96 — Tier-3 direct LCS Pathology joint-disease keyed MCQ deck
+
+### Exact identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d5d701558ddff491b455` / `d5d701558ddff491b4550559326b06aad107793f432ae127fc1dc9bc6ef8280f` |
+| File / boundary | `MCQs - MCQ 3 MSS.pdf` · 522,644 bytes · unencrypted PDF · 6 physical OCR-needed A4 pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Visible provenance | Cover prints `PATHOLOGY`, `MCQ LECTURE 3 MSS`, `JOINT DISEASES`, `DR AHMED HASSAN`, and `LEVEL 1 - SEMESTER 2`; pp. 2–6 repeat `LECTURE 3`, `MSS` and `DR. AHMED HASSAN`. Metadata author is `Salah El-Din`; creator/producer is Microsoft Word for Microsoft 365. |
+| Authority finding | Direct named-course LCS Pathology question-deck evidence, consistent with the Ahmed-Hassan LCS lecture corpus in the manifest. It is eligible at question-bank authority, but is not labelled as a formal sitting paper, response form or separate official key. |
+
+The assigned hash, byte size and six-page boundary were recomputed and match. All six pages
+were rendered at 220 dpi, OCRed and read visually. Page 1 is the provenance cover. Pages
+2–6 contain consecutive MCQs Q1–Q27, each with a printed answer letter in the right-hand
+key column: **27 prompt occurrences / 27 printed keys**.
+
+Nine later questions are within-source repeats: `Q6=Q1`, `Q20=Q13`, `Q21=Q14`,
+`Q22≈Q19`, `Q23=Q8`, `Q24=Q9`, `Q25=Q10`, `Q26=Q4`, and `Q27=Q5`; Q22 omits Q19's
+fifth option but tests the same keyed objective. Thus the 27 occurrences collapse to **18
+source-distinct prompt forms**. The deck tests ganglion/synovial cysts; rheumatoid arthritis
+and pannus; osteoarthritis and osteophytes; gout/urate crystals and podagra; infectious or
+suppurative arthritis; and pigmented villonodular synovitis/synovial sarcoma.
+
+There is no declarative teaching section, specimen, radiograph, micrograph, practical
+station, teaching plate, masked label, response blank or image-identification task. The
+decorative cover microscope is not a teaching plate. Practical delta is exactly **0 prompts
+/ 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Handle collapse, exact searches and prior reconciliation
+
+The 18 distinct forms collapse to **6 tested handles**: ganglion/synovial-cyst benign joint
+lesions; rheumatoid-arthritis pannus/clinicopathology; osteoarthritis degeneration and
+osteophytes; gout urate crystals/podagra; infectious/suppurative arthritis; and PVNS plus
+synovial sarcoma. Each received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **6 × 4 = 24 required search invocations**.
+
+Accepted Families 20, 63, 64 and 79 already own the ganglion, rheumatoid, osteoarthritis
+and gout tested scopes. Infectious/suppurative arthritis and the PVNS-plus-synovial-tumour
+objective have pending material but no prior eligible tested handle. Reconciliation is
+therefore **4 prior eligible reuses + 2 additions = 6**, with eligible concept delta **0
+live / 2 pending / 0 new**. The source is direct, so it does not change the separately
+tracked external-bank inventory. The exact 24-query ledger is preserved at
+`tmp/pdfs/lcs103-family96/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **679 / 389 / 317 = 12 / 103 / 202** to **706 observed
+questions / 416 printed keys / 319 distinct tested concepts = 12 live / 105 pending / 202
+new**. Arithmetic is `679 + 27 = 706`, `389 + 27 = 416`, `317 + 2 = 319`,
+`103 + 2 = 105`, and `12 + 105 + 202 = 319`. External assessment remains **2,195
+prompts / 2,136 printed keys / 221 concepts = 12 live / 135 pending / 74 new**. Practical
+totals remain **7 prompts / 458 plates / 2,691 mappings / 149 residues / 0 keys**, with
+scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-95 remainder. Removing its sole path leaves **134
+all-rank path instances / 126 unique hashes**: tier 3 **52 paths / 49 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 95's prior checksums are
+`ac7d1a34b6424ac131419e7c4e3f764a2aa7acb8b51eedc959bbe09e8adfbbfa` (paths) and
+`38c2b330b8c1567e3520120a6b93836495488d92615a7b595b73c6acfb5bb87e` (unique hashes).
+For the exact post-Family-96 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`e0926e54a92e0336e0d7c82618379c4544e1d150b68ebeef498a55c64200c370`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`c938612abc8af6a4201f46cb137dabc8ecf508004711e85daa9b025450248598`.
+
+The exact next tier-3 manifest-order debt is `src_5c2fb18ea47b74ce252c`,
+`MCQs - MCQ Muscle.pdf` (256,838 bytes; 6 native pages; SHA-256
+`5c2fb18ea47b74ce252c6e756dd41c93531c7e6530eaf10b62a0786301fd0cb7`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 134 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
