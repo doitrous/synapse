@@ -27,9 +27,10 @@ const PROCESSED_FAMILY_HASHES = [
   '847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124',
   '71d44657e0d87a79998716f4d34dd2e8a2a29225b2bfb6ac2c124c46dc7cc1c3',
   '0f49aeef33384bbd0cbe8e3ca038afb2668e9ea3d238b1c73f9d594307f9406a',
+  'f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '40e20d3a619018b1ecc7318536ee00734aebcc27b79def4069242511fe33efb2'
+const REMAINING_CHECKSUM = 'bbf69f441a94084d8bc074d599aa5f68016675337e76766c6f7b6ceb32c4da31'
 
 function option(name) {
   const prefix = `${name}=`
@@ -106,10 +107,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 44 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 43 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=44-substantive/8-sparse/14-empty/14-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=43-substantive/8-sparse/14-empty/14-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -125,7 +126,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '1368', '1298', '27']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '1408', '1338', '27']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -159,7 +160,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 20 || remainingHashes.length !== 81 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 21 || remainingHashes.length !== 80 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -167,7 +168,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 44 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 14, 'sparse-text': 8, 'substantive-text': 43 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -208,8 +209,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[17], sourcePages: 28, renderedReadPages: '1-28', questionPages: '1-27', keyPages: '28', printedPromptObservations: 95, printedKeyObservations: 95, acceptedSourceHandles: 5, searchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true },
     { sha256: PROCESSED_FAMILY_HASHES[18], sourcePages: 24, renderedReadPages: '1-24', printedPromptObservations: 271, printedKeyObservations: 268, sourceAbsentAnswers: 3, crossModuleExactDuplicateOf: { module: 'FHB 101', sha256: PROCESSED_FAMILY_HASHES[18] }, referenceFhbAcceptedSourceHandles: 39, referenceFhbSearchesRun: 156, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['cytology omits labels 5, 77, 80 and 82 and repeats label 6', 'epithelium 33 cancelled', 'connective tissue 37 cancelled', 'cytogenetics label 3 repeated', 'nervous tissue 13 cancelled'] },
     { sha256: PROCESSED_FAMILY_HASHES[19], sourcePages: 12, renderedReadPages: '1-12', coverPages: '1', teachingPages: '2-4', questionPages: '5-12', keyPages: '12', printedPromptObservations: 30, printedKeyObservations: 30, acceptedSourceHandles: 4, searchesRun: 16, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true },
+    { sha256: PROCESSED_FAMILY_HASHES[20], sourcePages: 17, renderedReadPages: '1-17', coverPages: '1', teachingPages: '2-5,11-12,17', questionPages: '5-10,13-16', keyPages: '10-11,16', printedPromptObservations: 40, printedKeyObservations: 40, acceptedSourceHandles: 5, searchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, preservedSourceDefects: ['first-bank hypodermal-fat-cell prompt repeated as Q3 and Q18', 'second-bank Q8 less-numerous wording preserved with printed axilla key', 'second-bank Q13 layer answer preserved despite adjacent teaching tension'] },
   ],
-  triageCumulative: { printedPromptObservations: 1368, printedKeyObservations: 1298, namedConceptsAssigned: 27, liveHits: 0, pendingHits: 1, newConcepts: 26 },
+  triageCumulative: { printedPromptObservations: 1408, printedKeyObservations: 1338, namedConceptsAssigned: 27, liveHits: 0, pendingHits: 1, newConcepts: 26 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "ff8e90bb76cc8ba50d4c48774adf990266c0a82285aca5175ab7422031d8f330",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "512f05105d4dacfc1cdf0b6193fb911fbbf02049df00547b4d3d0a8f2ecc2b73",
-    "triageMarkdown": "e8da560a6958df42ae200f90897d297fbe3eb442f74b3fd31c75afb4de9679e8"
+    "readinessMarkdown": "cfa52c4337361b93a3168cd0293892e07071e9367fe5d4d5b7f9aaa1ebe540bc",
+    "triageMarkdown": "2ec2d61f08c66ecc43eff86af9394ce1a67b064253c28788e7f9bdebb8f8ede3"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -70,9 +70,10 @@
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
+      "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 20
+    "uniqueSha256": 21
   },
   "completedSourceCoverage": [
     {
@@ -380,26 +381,48 @@
       "pendingHits": 0,
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
+      "sourcePages": 17,
+      "renderedReadPages": "1-17",
+      "coverPages": "1",
+      "teachingPages": "2-5,11-12,17",
+      "questionPages": "5-10,13-16",
+      "keyPages": "10-11,16",
+      "printedPromptObservations": 40,
+      "printedKeyObservations": 40,
+      "acceptedSourceHandles": 5,
+      "searchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "preservedSourceDefects": [
+        "first-bank hypodermal-fat-cell prompt repeated as Q3 and Q18",
+        "second-bank Q8 less-numerous wording preserved with printed axilla key",
+        "second-bank Q13 layer answer preserved despite adjacent teaching tension"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1368,
-    "printedKeyObservations": 1298,
+    "printedPromptObservations": 1408,
+    "printedKeyObservations": 1338,
     "namedConceptsAssigned": 27,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 26
   },
   "remaining": {
-    "inventoryMetadataRows": 83,
-    "uniqueSha256": 81,
-    "sortedNewlineSha256": "40e20d3a619018b1ecc7318536ee00734aebcc27b79def4069242511fe33efb2",
+    "inventoryMetadataRows": 82,
+    "uniqueSha256": 80,
+    "sortedNewlineSha256": "bbf69f441a94084d8bc074d599aa5f68016675337e76766c6f7b6ceb32c4da31",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 8,
-      "substantive-text": 44
+      "substantive-text": 43
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -407,12 +430,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 8,
-    "substantive-text": 44
+    "substantive-text": 43
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 20,
-    "remainingUniqueSha256": 81,
+    "processedUniqueSha256": 21,
+    "remainingUniqueSha256": 80,
     "processedPlusRemaining": 101
   }
 }

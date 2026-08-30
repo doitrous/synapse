@@ -673,10 +673,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+30 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — SKIN BY SALAMA
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - SKIN BY SALAMA.pdf` | `f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51` | 17 | substantive-text audit sample | pages 1–17 rendered and read | Microsoft Word for Microsoft 365 document titled `skin`, authored by Mohamed Salama and created/modified 18 December 2023. It labels itself `Summary and MCQ`, but supplies no institution, department, examiner, sitting, marks or official-key claim. It is a named study aid, not a documented exam or official key. |
+
+### Exact assessment, answer, teaching and source-defect boundary
+
+Page 1 is a cover. Pages 2–5 teach epidermis, thick skin, keratinocytes and non-keratinocytes; page 5 then begins the first MCQ bank. That first bank contains **25 consecutively numbered MCQs on pages 5–10**, with its **25-entry printed key on pages 10–11**. Pages 11–12 then teach the dermis, dermal–epidermal junction and skin glands. The second bank contains **15 consecutively numbered MCQs on pages 13–16**, with its **15-entry printed key on page 16**. Page 17 is a teaching comparison of thick and thin skin plus skin aging.
+
+The exact assessment boundary is therefore **40 MCQ prompt occurrences / 40 prompt-matched printed answers / 0 source-absent answers**. There are **0 written prompts, 0 practical prompts and 0 image-identification prompts**. The first bank repeats its hypodermal-fat-cell prompt as Q3 and Q18; both source occurrences are retained. The second bank's Q8 wording (`less numerous`) and Q13 layer answer are preserved exactly despite tension with the adjacent teaching text; neither answer was inferred or medically corrected.
+
+### Source-first handles, exact searches and prior-MSK collapse
+
+All 40 prompt occurrences were assigned once across five handles, reconciling as **10 + 8 + 7 + 7 + 8 = 40**. Exactly four repository searches were run for each handle (**20 searches total**):
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 10, skin structure, embryonic origin, thick/thin distribution and hypodermis (`skin epidermis dermis hypodermis ectoderm mesoderm`; `thick skin palms soles thin skin`; `papillary reticular dermis structural support`; `hypodermis superficial fascia fat cells`) | no live/pending hit; same skin-structure, thick/thin and dermal scopes as completed MSK skin assignments — **prior-MSK collapse**. |
+| H2 | 8, epidermal strata, keratinocytes and keratinization/barrier (`stratum basale spinosum granulosum lucidum corneum`; `keratinocyte epidermal regeneration stratum basale`; `keratohyaline lamellar granules keratinization water barrier`; `stratum corneum shedding thick skin`) | one repository text match was prior evidence only; no live/pending hit. Same epidermal-layer and barrier scope as completed MSK skin assignments — **prior-MSK collapse**. |
+| H3 | 7, melanocytes, Langerhans cells, Merkel cells and pigment disorders (`melanocyte melanin tyrosinase albinism vitiligo`; `Langerhans antigen presenting stratum spinosum`; `Merkel cell mechanoreceptor stratum basale`; `non keratinocytes melanocytes Langerhans Merkel`) | no live/pending hit; same specialized epidermal-cell and pigment scope as completed MSK skin assignments — **prior-MSK collapse**. |
+| H4 | 7, dermal layers, junctions, receptors and stretch injury (`dermal papillary reticular collagen type 3 Meissner`; `dermal epidermal junction interdigitations fingerprints`; `papillary dermis tactile corpuscles touch sensation`; `dermal elastic fiber rupture linea gravidarum`) | no live/pending hit; same papillary/reticular dermis and junction scope as completed MSK skin assignments — **prior-MSK collapse**. |
+| H5 | 8, eccrine/apocrine sweat glands and sebaceous glands (`eccrine apocrine sweat gland thick skin puberty`; `sebaceous gland holocrine hair follicle sebum`; `eccrine watery sweat temperature regulation`; `apocrine axilla areola hair follicle secretion puberty`) | no live/pending hit; same sweat-gland and sebaceous/appendage scopes as completed Dr Zahra skin assignment — **prior-MSK collapse**. |
+
+Source-level disposition is **0 live / 0 pending / 5 pre-prior candidates**, all five collapsing to prior MSK coverage. The post-prior concept delta is therefore **0**. The file is not byte-identical to a prior source and its two-bank prompt sequence is distinct, so the 40 prompt and printed-answer observations are counted once.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+40 questions / +40 answers / +0 post-prior concepts**. Cumulative arithmetic is **1368 + 40 = 1408 questions**, **1298 + 40 = 1338 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1408 | 1338 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty processed paths and unique hashes leaves **83 selected inventory paths / 81 unique SHA-256s**. Their sorted, newline-joined hash checksum is `40e20d3a619018b1ecc7318536ee00734aebcc27b79def4069242511fe33efb2`. Remaining audit-review debt is 44 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`20 + 81 = 101`**.
+Removing these twenty-one processed paths and unique hashes leaves **82 selected inventory paths / 80 unique SHA-256s**. Their sorted, newline-joined hash checksum is `bbf69f441a94084d8bc074d599aa5f68016675337e76766c6f7b6ceb32c4da31`. Remaining audit-review debt is 43 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`21 + 80 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - SKIN BY SALAMA.pdf`, SHA-256 `f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51`, 17 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - cartilage by salama.pdf`, SHA-256 `13bb48d71c0acabc39e05f22177b5a44eebd1dc849093754b083cdab57cc1a00`, 19 pages.
 
-**BLOCKED — S1 cannot be approved:** 83 selected inventory paths / 81 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 82 selected inventory paths / 80 unique hashes remain untriaged.
