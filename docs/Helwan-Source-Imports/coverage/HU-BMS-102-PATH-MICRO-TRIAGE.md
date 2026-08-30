@@ -12487,3 +12487,136 @@ native-text portrait A4 pages. The same SHA is also carried as `Questions / MCQs
 MCQ.pdf`, and the manifest records each path as the other's duplicate. Its exact-carrier
 authority, Dr Ahmed Hassan provenance, complete MCQ prompt/key boundary, prior-BMS reuse, and
 duplicate disposition are the exact next-source blockers.
+
+## Family 118 — Dr Ahmed Hassan Lecture 13 thrombosis and embolism keyed MCQs
+
+### Source identity, exact-carrier reconciliation, complete render/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-3 `src_932f5302a132003041e5` · `Thrombus & Embolism.pdf`, routed as Pathology · Questions/MCQs despite its `Notes and Summaries` carrier path |
+| SHA-256 / size | `932f5302a132003041e5b106968be782a6eea3dbf91d537ff61295e6e9b8a55d` · 460,844 bytes |
+| Exact duplicate carrier | The local `L13 MCQ.pdf` that resolves the manifest's `Questions / MCQs / MCQs - L13 MCQ.pdf` record recomputes to the same SHA and size. The two files are byte-exact carriers of one nine-page object, not a solved/unsolved pair or two assessment occurrences. Family 8 explicitly deferred the Questions-path carrier because the manifest marked it as this Notes-path duplicate; Family 118 now counts the shared content once. The duplicate contributes **0 additional prompts, keys, retained records, handles, or concepts**. |
+| Format / complete visual boundary | Nine native-text portrait A4 pages, each 595.32×841.92 points. All nine pages rendered at 200 dpi into nine non-empty 1654×2339-pixel images and were read individually at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent extraction contains 1,349 words / 11,857 bytes and nine page separators. It agrees with the rendered stems, options, right-margin answer letters, and page sequence; visual layout controls the key boundary. The manifest's `native` label is accurate. The PDF has no form, JavaScript, or encryption. |
+| Visible provenance | The cover visibly reads `PATHOLOGY`, `MCQ LECTURE 13`, `THROMBOSIS & EMBOLISM`, `DR AHMED HASSAN`, and `LEVEL 1 - SEMESTER 2`; every content page repeats `LECTURE 13`, `PATHOLOGY`, and the instructor footer. No institution, module code, academic year, assessment date, candidate identity, mark allocation, or sitting is printed. |
+| Metadata caution | Metadata names `Salah El-Din` as author and gives a Microsoft Word for Microsoft 365 production timestamp of 8 March 2025. These conflict with or are secondary to the visible Dr Ahmed Hassan attribution and establish file production only; they do not prove institutional authorship, an academic year, or a sitting. |
+| Authority | Instructor-attributed tier-3 keyed lecture MCQ bank. The repeated right-margin letters are unambiguous source-supplied printed keys, but the carrier is not a verified exam paper, official institutional answer register, dated sitting, or student response sheet. |
+
+### Complete page-first prompt and printed-key inventory
+
+| Pages | Complete visible source content | Prompt / key ruling |
+|---:|---|---:|
+| 1 | Provenance cover and lecture/topic/level labels | **0 prompts / 0 keys**. |
+| 2 | Q1–5: thrombosis cause, postmortem-clot case, Virchow-triad exception, first thrombosis event, and Lines of Zahn | **5 / 5**; printed key sequence `B, C, D, D, C`. |
+| 3 | Q6–10: intimal roughness, three thrombosis factors, non-associated factor, postpartum tender-leg diagnosis, and slow-flow risk | **5 / 5**; `D, C, D, B, C`. |
+| 4 | Q11–15: embolism definition, non-thrombus factor, venous-thrombus terminology, bad thrombus fate, and venous-embolus origin | **5 / 5**; `A, E, D, C, A`. |
+| 5 | Q16–20: leg-vein-thrombosis complication, cardiac-chamber thrombus, commonest thrombus site, embolus-type exception, and recanalization | **5 / 5**; `C, A, E, D, D`. |
+| 6 | Q21–25: embolism-associated conditions, mismatched embolism association, embolus definition, commonest embolus type, and arterial-embolus origin | **5 / 5**; `D, B, C, C, A`. |
+| 7 | Q26–31: arterial-embolus source, effect determinants, pulmonary-embolism causes, leg-vein embolus destination, commonest pulmonary-embolus source, and a true pulmonary-embolism statement | **6 / 6**; `B, D, E, E, A, E`. |
+| 8 | Q32–36: femur-fracture fat-embolism case, postoperative thromboembolic sequence, fractured-neck-of-femur sequence, pulmonary-embolism sequela exception, and long-bone fracture association | **5 / 5**; `B, C, C, E, B`. |
+| 9 | Q37–39: delivery-associated amniotic-fluid embolism, large-neck-vein injury causing air embolism, and commonest cause of clinically significant fat embolism | **3 / 3**; `D, C, D`. |
+
+Each of the 39 numbered stems has an option set and exactly one large printed answer letter in its
+own pale right-margin key cell. No item is unkeyed, no additional handwritten choice or student
+response appears, and no letter is inferred from medical correctness. The page checksum is
+therefore **39 raw prompt occurrences / 39 printed key occurrences / 0 unkeyed occurrences / 0
+prompt-like residues**.
+
+All 39 distinct wordings survive literal-record retention. Source-first semantic collapse removes
+eight repeated-scope records: Q1/Q10 (stasis), Q3/Q8 (thrombocytopenia exclusion), Q4/Q6
+(endothelial injury), Q15/Q31 (deep-leg-vein origin/association), Q16/Q29 (leg-vein thrombosis to
+lung), Q25/Q26 (left-heart arterial source), and Q32/Q36/Q39 (long-bone-fracture fat embolism).
+Thus `39 - 8 = 31` source-distinct tested handles.
+
+### Exactly four searches per accepted handle and prior-BMS adjudication
+
+Every one of the 31 surviving handles received exactly four fresh source-first searches across
+live state and all pending import roots: **124 required searches**. No result supplied the same
+tested scope, so external disposition is **0 live / 0 pending / 31 no same-scope**. Prior-family
+reuse is adjudicated separately below; a no-hit external query does not make a repeated BMS-102
+scope new.
+
+| Handle · retained refs | Exactly four required queries | Prior BMS-102 relation |
+|---|---|---|
+| `venous-stasis-thrombosis` · Q1,Q10 | `venous stasis thrombosis`; `slow blood flow thrombus`; `blood stasis thrombosis cause`; `Virchow triad abnormal flow` | exact F2/F3 thrombosis-risk reuse |
+| `postmortem-clot-gross-identification` · Q2 | `postmortem clot jelly chicken fat`; `red lower yellow upper postmortem clot`; `post mortem blood clot cardiac ventricle`; `thrombus versus postmortem clot` | contained by exact F3 thrombus-versus-postmortem-clot comparison; reuse |
+| `thrombocytopenia-not-thrombosis-risk` · Q3,Q8 | `thrombocytopenia not thrombosis risk`; `Virchow triad thrombocytopenia exception`; `low platelet count thrombosis factor`; `thrombosis risk factor recognition` | exact F3 thrombosis-risk-factor-recognition reuse |
+| `endothelial-injury-thrombosis` · Q4,Q6 | `endothelial injury thrombosis`; `rough intima thrombosis`; `damage endothelium first thrombosis`; `Virchow triad endothelium` | exact F2/F3 reuse |
+| `lines-zahn-laminated-thrombus` · Q5 | `lines of Zahn laminations`; `Zahn lines thrombus`; `apparent laminations thrombi`; `alternating platelet fibrin red cells` | exact F3 Lines-of-Zahn reuse |
+| `virchow-triad-components` · Q7 | `Virchow triad components`; `endothelial damage hypercoagulability stasis`; `three factors predispose thrombosis`; `thrombosis definition risk factors` | exact F2 thrombosis-definition/risk reuse |
+| `postpartum-dvt-clinical-diagnosis` · Q9 | `postpartum swollen tender leg DVT`; `three days after labor deep venous thrombosis`; `puerperium leg thrombosis diagnosis`; `postpartum venous thromboembolism` | no prior prompt combines puerperium and this DVT presentation; delta |
+| `embolism-definition` · Q11 | `embolism definition`; `intravascular solid liquid gas distant site`; `circulation embolic mass`; `embolism versus embolus definition` | exact F2 embolism-definition/types reuse |
+| `normal-leukocyte-count-not-thrombus-factor` · Q12 | `normal leukocyte count thrombus formation`; `leucocyte count thrombosis risk`; `thrombus formation factor exception`; `Virchow triad leukocytes` | contained by F2/F3 thrombosis-risk-factor recognition; reuse |
+| `phlebothrombosis-venous-thrombus-term` · Q13 | `phlebothrombosis venous thrombus`; `thrombus in vein called`; `venous thrombosis terminology`; `mural thrombus phlebothrombosis` | no prior prompt tests the `phlebothrombosis` term; delta |
+| `thrombus-propagation-bad-fate` · Q14 | `propagation bad fate thrombus`; `thrombus fate propagation`; `outcomes of thrombosis`; `thrombus resolution recanalization` | exact F2/F116 thrombosis-outcomes reuse |
+| `venous-emboli-deep-leg-vein-origin` · Q15,Q31 | `venous emboli deep leg veins`; `pulmonary embolism associated DVT`; `most venous emboli origin`; `deep vein thrombus pulmonary embolus source` | exact F3 DVT-to-pulmonary-embolism reuse |
+| `leg-vein-thrombosis-pulmonary-destination` · Q16,Q29 | `leg vein thrombosis serious complication pulmonary embolism`; `leg vein embolus impacted lung`; `DVT pulmonary embolism pathway`; `venous thrombus right heart lung` | exact F3 DVT-to-pulmonary-embolism reuse |
+| `heart-chamber-mural-thrombus-term` · Q17 | `heart chamber mural thrombus`; `cardiac thrombosis called mural`; `mural thrombus definition`; `adherent intravascular clot term` | contained by F1 adherent-versus-circulating clot terminology; reuse |
+| `thrombus-commonest-site-vein` · Q18 | `commonest site thrombus formation vein`; `thrombus most common in veins`; `venous thrombosis common site`; `red thrombus venous location` | prior venous-site handles are qualified by red thrombus or leg-vein location, not this all-thrombus ranking; delta |
+| `embolus-type-virus-exception` · Q19 | `virus not type of embolus`; `types of emboli air fat tumor parasite`; `embolism definition types`; `non embolic material virus` | contained by exact F2 embolism-definition/types reuse |
+| `thrombus-recanalization-definition` · Q20 | `recanalization thrombus definition`; `new channels occlusive thrombus`; `thrombus organization recanalization`; `outcomes thrombosis recanalization` | exact F2 thrombosis-outcomes reuse |
+| `embolism-associated-conditions` · Q21 | `embolism bilharziasis leukemia bone fractures`; `conditions associated embolism`; `parasitic tumor fat embolism examples`; `embolism occurs all above` | no prior prompt tests this three-condition composite; delta |
+| `septic-embolism-pyaemic-abscess` · Q22 | `septic embolism pyaemic abscess`; `pyemic abscess embolus`; `parasitic arterial embolism mismatch`; `infected emboli metastatic abscess` | exact F1/F3 pyaemia/septic-embolism reuse |
+| `embolus-definition` · Q23 | `embolus definition`; `insoluble material circulates impacted vessel`; `detached intravascular mass`; `solid liquid gaseous embolus` | exact F2 embolism-definition/types reuse |
+| `thrombotic-embolus-commonest-type` · Q24 | `commonest type emboli thrombotic`; `thromboembolism most common embolus`; `most emboli arise thrombi`; `embolism type frequency` | prior definitions/types do not test commonness; delta |
+| `arterial-embolus-left-heart-origin` · Q25,Q26 | `arterial emboli originate left heart`; `left ventricular infarct arterial embolus`; `cardiac thrombus systemic embolism`; `systemic arterial embolus source` | exact F3 cardiac-thrombus/systemic-embolism route reuse |
+| `embolus-effect-determinants` · Q27 | `effect detached non septic thrombus organ size`; `embolus outcome depends size organ`; `factors determine embolic effects`; `embolus vessel size tissue susceptibility` | no prior prompt tests the combined organ/embolus/vessel-size determinants; delta |
+| `pulmonary-embolism-etiologies` · Q28 | `pulmonary embolism causes thrombus fat parasite tumor`; `types pulmonary emboli`; `pulmonary embolism all above`; `non thrombotic pulmonary embolism causes` | prior general embolism-type and DVT-route handles do not test this pulmonary composite; delta |
+| `pulmonary-embolus-commonest-calf-source` · Q30 | `commonest source pulmonary emboli calf veins`; `pulmonary embolus source deep leg veins`; `DVT calf veins pulmonary embolism`; `venous thrombosis common site lower limb` | contained by exact F3 DVT pulmonary-source route; reuse |
+| `fat-embolism-long-bone-fracture` · Q32,Q36,Q39 | `fat embolism long bone fracture`; `femur fracture respiratory death fat embolism`; `fracture fat embolism syndrome`; `clinically significant fat embolism cause` | exact F3/F97 fat-embolism/fracture reuse |
+| `postoperative-dvt-embolization-infarction-sequence` · Q33 | `major abdominal surgery stasis DVT embolization pulmonary infarction`; `postoperative thrombosis embolism sequence`; `surgery calf stasis pulmonary embolism order`; `DVT pulmonary infarction sequence` | prior postoperative-DVT and DVT-route handles do not test the complete ordered chain; delta |
+| `femoral-neck-fracture-dvt-pe-sequence` · Q34 | `osteoporosis femoral neck fracture DVT pulmonary embolism`; `fracture neck femur thromboembolism sequence`; `deep vein thrombosis pulmonary infarction order`; `elderly fracture pulmonary embolism sequence` | no prior prompt tests this fracture-to-DVT-to-PE order; delta |
+| `pulmonary-embolism-sequelae` · Q35 | `pulmonary embolism sequelae`; `sudden death pulmonary infarction pulmonary hypertension cor pulmonale`; `bronchitis not pulmonary embolism outcome`; `complications pulmonary thromboembolism` | prior pathway/infarction handles do not test the sequelae set; delta |
+| `amniotic-fluid-embolism-delivery` · Q37 | `amniotic fluid embolism vaginal delivery`; `labor sudden dyspnea cyanosis hypotension`; `obstetric embolism timing`; `amniotic fluid circulation childbirth` | exact F3 labor-timing reuse |
+| `air-embolism-large-neck-vein-injury` · Q38 | `air embolism large neck vein injury`; `large vein trauma air entry`; `external jugular air embolism`; `venous trauma gas embolus` | exact F3 large-vein-trauma air-embolism reuse |
+
+Exactly **21** handles are prior-BMS exact reuses. Family 118 therefore adds `31 - 21 = 10`
+distinct concepts: postpartum DVT diagnosis, phlebothrombosis terminology, all-thrombus venous-site
+ranking, the three-condition embolism composite, thrombotic emboli as the commonest type, embolic-
+effect determinants, pulmonary-embolism etiologies, two source-distinct ordered thromboembolic
+chains, and the pulmonary-embolism sequelae set.
+
+### Family-118 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 118 | Auxiliary cumulative (Families 12–118) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 39 | 1,013 | 765 | 1,778 |
+| Printed key occurrences | 39 | 594 | 405 | 999 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 39 | 953 | 552 | 1,505 |
+| Source-distinct tested handles / required searches | 31 / 124 | 851 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 31 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 21 | — | — | subtract before concept addition |
+| Cross-family concept delta | +10 | +555 over primary | 372 | `372 + 555 = 927` |
+| **Distinct tested concepts** | **+10** | **555 auxiliary additions** | **372** | **927** |
+
+The checksum closes without remainder: the one exact nine-page object contributes `39 = 39 + 0`
+keyed/unkeyed prompts; the byte-identical second carrier adds zero; all 39 wordings remain retained;
+`39 - 8 same-source semantic reductions = 31` handles; searches are `31 × 4 = 124`; external
+disposition is `0 + 0 + 31 = 31`; and concept arithmetic is `31 - 21 prior exact reuses = 10`.
+Auxiliary arithmetic is `974 + 39 = 1,013` prompts, `555 + 39 = 594` answers, `914 + 39 =
+953` retained records, `820 + 31 = 851` handles, and `545 + 10 = 555` concept additions. All
+eligible arithmetic is `765 + 1,013 = 1,778`, `405 + 594 = 999`, `552 + 953 = 1,505`, and
+`372 + 555 = 927`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**1,013 / 594 / 953 / 851 / +555**; and all eligible evidence is
+**1,778 / 999 / 1,505 / 927**. Family 118 cannot establish a Helwan-authored exam, official
+institutional key, dated sitting, recurrence, mark weight, student response, readiness, or claims
+status.
+
+### Exact next debt after Family 118
+
+`src_932f5302a132003041e5` is exhausted across its sole byte-exact nine-page object and both
+manifest carrier paths: every visible provenance field, MCQ, option set, printed right-margin key,
+literal record, same-source semantic collapse, four-query packet, external disposition, prior-BMS
+relation, duplicate-carrier zero, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-118 blocker. The later Questions-path duplicate is already exhausted by
+this family and must not become a second assessment family. The exact next unprocessed manifest
+record is tier-6 `src_f199437c6410f1b927b4` · `benign tumor 1.pdf`, SHA-256
+`f199437c6410f1b927b437724c7cde31fb1732c328bc7a8a532d3d59bd026e4b`, 1,063,878 bytes,
+11 native-text portrait A4 pages under `Pathology / Notes and Summaries`. Its full render/read,
+visible Dr Ahmed Hassan / `Pathology prelab benign tumours` provenance, metadata-author conflict,
+and teaching-versus-practical/prompt/key boundary are the exact next-source blockers.
