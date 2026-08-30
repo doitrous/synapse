@@ -10560,3 +10560,100 @@ The exact next tier-3 manifest-order debt is `src_b48f77243d1f544231bf`,
 external until its own pages prove otherwise. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 143 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 88 — Tier-3 external Dr Adel Bondok lower-limb keyed MCQ chapter
+
+### Exact identity, provenance and complete visual boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_b48f77243d1f544231bf` / `b48f77243d1f544231bfd486fb6ebed8b451a622b4a1b014962857db22fa07c3` |
+| File / boundary | `MCQs - External MCQs Dr.Adel bondok mcq lower.pdf` · 1,480,678 bytes · unencrypted PDF · 11 physical OCR-needed pages · 497 × 720 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External MCQs Dr.Adel bondok mcq lower.pdf` |
+| Visible provenance | Printed source pages 137–146 carry the running title `Lower Limb`; printed source pages 140–145 and the p. 152 key carry `Dr Adel Bondok`. No Helwan University, faculty, cohort, sitting or official-exam label appears. PDF title/author metadata are absent. |
+| Authority finding | Explicitly external textbook/chapter-style keyed review evidence. It is not a Helwan sitting, department paper, response form or practical examination. |
+
+The assigned hash, byte size and eleven-page boundary were recomputed and match. Every page
+was rendered at 250 dpi, OCR-assisted and read visually. Physical pp. 1–10 reproduce printed
+source pp. 137–146 and contain an uninterrupted **Q1–Q78** sequence. Physical p. 11 reproduces
+printed p. 152, headed `MCQ ANSWER KEY`, and prints one answer letter for every Q1–Q78.
+The skipped original pagination 147–151 is an extraction boundary, not a missing question
+inside the visible Q1–Q78 sequence.
+
+| Physical page | Visible prompt boundary | Prompt occurrences | Printed keys |
+|---:|---|---:|---:|
+| 1 | Q1–Q7 | 7 | 0 |
+| 2 | Q8–Q15 | 8 | 0 |
+| 3 | Q16–Q23 | 8 | 0 |
+| 4 | Q24–Q31 | 8 | 0 |
+| 5 | Q32–Q38 | 7 | 0 |
+| 6 | Q39–Q46 | 8 | 0 |
+| 7 | Q47–Q54 | 8 | 0 |
+| 8 | Q55–Q62 | 8 | 0 |
+| 9 | Q63–Q70 | 8 | 0 |
+| 10 | Q71–Q78 | 8 | 0 |
+| 11 | complete answer table plus short explanations for Q1, Q10, Q13, Q24 and Q30 | 0 | 78 |
+| **Family 88** | **Q1–Q78** | **78** | **78** |
+
+The five short statements below the key are answer rationales attached to already counted
+questions, not stand-alone teaching records. No page contains a specimen, radiograph,
+micrograph, practical station, teaching plate, masked label, apparatus task, response blank
+or unresolved callout. Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0
+residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, four-search ledger and prior-external reconciliation
+
+The 78 occurrences collapse to **25 source-distinct handles**. Each received exactly one
+search in the live, pending/import-ready, prior source-import and accepted-LCS surfaces, for
+**25 × 4 = 100 required search invocations**.
+
+| Source-first domain | Prompt occurrences | Distinct handles | Assignment summary |
+|---|---:|---:|---|
+| Muscles, movements and gait | 7 + 4 + 4 + 4 + 1 = 20 | 5 | biarticular/principal movers; gluteal pelvic stability; ankle inversion/eversion/dorsiflexion; short lateral rotators; triceps surae/Achilles |
+| Hip, knee, ankle and foot arches | 2 + 2 + 6 + 3 + 6 = 19 | 5 | hip ligaments; locking/unlocking; knee restraints/menisci; ankle joint; arch bones and spring ligament |
+| Femoral and gluteal spaces | 3 + 1 + 2 + 1 + 3 + 1 = 11 | 6 | femoral sheath/canal/ring/hernia; adductor canal; femoral triangle; popliteal fossa; sciatic foramina; safe gluteal injection site |
+| Vessels and lymphatics | 6 + 2 + 4 = 12 | 3 | lower-limb arteries; great/small saphenous veins; superficial lymphatic drainage |
+| Peripheral nerves and territories | 1 + 5 + 4 + 1 + 4 = 15 | 5 | obturator supply; cutaneous territories; injury patterns; sciatic course; dermatomes |
+| Intrinsic foot | 1 | 1 | intrinsic sole muscle layers |
+| **Family 88** | **20 + 19 + 11 + 12 + 15 + 1 = 78** | **5 + 5 + 6 + 3 + 5 + 1 = 25** | **one assignment per occurrence** |
+
+Prior-external comparison reuses **23 Family-86 lower-limb handles**. The only external-
+inventory additions are `lower-limb-superficial-lymphatic-drainage` (Q10–Q13) and
+`lower-limb-dermatome-landmarks` (Q74–Q77). Both are new-state external handles; accepted
+lower-limb sources provide module context, but neither was a separately tracked prior-
+external objective. Thus reconciliation is **23 prior-external reuses + 2 additions = 25**,
+with external concept-state delta **0 live / 0 pending / 2 new**. Accepted Families 20 and
+31–48 already own or corroborate the lower-limb curriculum scopes, so eligible-module
+concept delta remains zero. The exact four-query ledger is preserved at
+`tmp/pdfs/lcs103-family88/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **1,149 / 1,149 / 182 = 12 / 133 / 37** to **1,227 external questions / 1,227
+printed keys / 184 external concepts = 12 live / 133 pending / 39 new**. Arithmetic is
+`1,149 + 78 = 1,227`, `1,149 + 78 = 1,227`, `182 + 2 = 184`, `37 + 2 = 39`,
+and `12 + 133 + 39 = 184`. Practical totals remain **7 prompts / 458 plates / 2,691
+mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the accepted Family-87 remainder. Removing its sole path
+leaves **142 all-rank path instances / 134 unique hashes**: tier 3 **60 paths / 57 unique
+hashes within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 87's 143/135
+row sets recompute first to path checksum
+`95af3e3127cf4fb526d69698c3597d93e42d1ce836297d496b76ba1f502c05ef` and unique-hash
+checksum `5d486c1a772c31ba7173608f1138729d661a86973c787958220f21e9502b4bc2`.
+For the exact post-Family-88 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`365f48edb4022efd0c8c85934859ab00bbe29b14288229debe94dad919d77858`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`200fdedc519974c32bf64207e27c39643826f582f8730c2c2d22d9d25801bad2`.
+
+The exact next tier-3 manifest-order debt is `src_9beab18521560a8d9eea`,
+`MCQs - External MCQs Dr_Adel_bondok_abdomen_mcq_د_عادل_بندق_@Medicine_Way2.pdf`
+(1,826,169 bytes; 14 OCR-needed pages; SHA-256
+`9beab18521560a8d9eeab90bb44b5bdc107046bad9c92d8ac1791b68716acf16`). It remains
+external and may prove wholly out of module when its own pages are inspected. **Overall
+LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 142 tier-3/tier-6/rank-9 path debts remain.
+No download, ID, content record, catalogue update, import or source copy was created.
