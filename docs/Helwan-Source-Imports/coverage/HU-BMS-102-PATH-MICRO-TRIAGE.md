@@ -21078,3 +21078,79 @@ Faculty of Medicine, **Helwan University**; metadata title is `Bacterial infecti
 `amro`, and creation/modification is 16 March 2026. Its complete visible authority/date boundary,
 teaching/prompt/key/callout/practical split, prior-BMS reconciliation, arithmetic, and subsequent
 exact next debt remain to be separately adjudicated.
+
+## Family 201 — clean Enas Elhosary Infection teaching twin with zero assessment layer
+
+### Source identity, complete visual/native boundary, authority, and annotated-twin reconciliation
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_618d482aa23f51f29cf0` · `Infection-Lecture.pdf` under the exact local `Pathology / Theoretical / Lec 9 - Infection` folder |
+| SHA-256 / exact size | `618d482aa23f51f29cf0990e8c2882785354c662167ee12f793d05191b3f1e90` · **2,112,104 bytes** |
+| Format / complete read | **48 native-text 720×540-point landscape pages**. All 48 pages were rendered into 48 non-empty 1600×1200-pixel images and read individually at full detail. Native extraction contains **937 words / 8,523 bytes** and agrees with every visible cover field, definition, completed flow, comparison, image label, disease heading, and closing slide. |
+| Visible authority | Page 1 visibly identifies `Infection`, **Dr Enas Megahed Elhosary**, Lecturer of Pathology, Faculty of Medicine, **Helwan University**. That source-facing attribution plus the exact BMS-102 Lec-9 placement establishes Helwan theoretical teaching authority. No page visibly prints a module code, academic year, lecture date, or assessment sitting. |
+| Metadata caution | Metadata title is `Bacterial infection`; author is `amro`; creator/producer is Microsoft PowerPoint LTSC; and creation/modification is 16 March 2026. These remain carrier-history fields only: they do not override visible Enas Elhosary authorship or independently authenticate a teaching year or exam sitting. |
+| Family-99 twin relation | Family 99 is a distinct-SHA, 5,800,694-byte, 48-page iOS-produced annotated carrier of the same lecture sequence. Native page comparison aligns all 48 pages monotonically, with **44 normalized-text-identical pages** and mean page-token Jaccard **0.993**. The four extraction differences (pp.9, 15, 26, and 38) reflect annotation/layout/order wording, not a changed assessment layer. Family 99's handwritten `why imp?`/answer on p.22 is absent here; the present carrier is the clean teaching counterpart. |
+| Authority | Tier-4 Helwan theoretical teaching material only. It is not an exam, written exercise, practical station, response sheet, candidate work, or official answer source. |
+
+### Complete page-first teaching, prompt, answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–6 | Instructor/Helwan cover; infection definition; exogenous/endogenous sources; modes; bacterial effects; and bacteremia/septicemia/pyemia/toxemia branch | Completed definitions and teaching maps; **0 prompts / 0 answers / 0 practical**. |
+| 7–16 | Bacteremia, toxemia, septicemia, and pyemia definitions, clinical/pathological features, comparison, fate, septic-embolus sequence, and chronic-infection split | Declarative teaching and fully populated diagrams; no blank, option set, or candidate operation; **0 / 0 / 0**. |
+| 17–25 | Tuberculosis definition/risk factors, HIV callout, human/bovine transmission, labelled Ziehl-Neelsen plates, organism morphology/composition, first-three-week spread, and completed macrophage–lymphocyte response | Teaching statements, diagnosis-disclosing organism images, and completed mechanism diagrams; **0 / 0 / 0**. Unlike Family 99, p.22 carries no handwritten question/answer annotation. |
+| 26–34 | Proliferative versus exudative tissue reactions; tubercle, giant-cell, and caseation plates; exudative features; fate; and gross splenic-TB images | Declarative and diagnosis-disclosing teaching. Uncaptioned continuation plates occur inside the named tubercle/caseation sequence and do not ask for identification; **0 / 0 / 0**. |
+| 35–38 | Clinical picture/diagnosis, labelled tuberculin-test image, systemic distribution diagram, and completed cellular-versus-exudative reaction table | Completed teaching; no response frame or practical station operation; **0 / 0 / 0**. |
+| 39–44 | Primary-versus-secondary TB comparison, entry-site mapping, primary/Ghon complex, secondary reactivation/reinfection, and complications | Completed comparisons, diagrams, and labelled images; **0 / 0 / 0**. |
+| 45–47 | Syphilis, actinomycosis, and schistosomiasis definitions, routes, gross/microscopic reaction patterns, and granuloma types | Declarative teaching; **0 / 0 / 0**. |
+| 48 | `Thank you` closing image | Closing residue only; **0 / 0 / 0**. |
+
+Every image is either explicitly labelled or embedded in a diagnosis-disclosing teaching sequence.
+No exam heading, numbered question, candidate instruction, option set, unanswered blank, written
+exercise, practical/image-identification request, source-supplied key, student response, or mark
+allocation occurs anywhere in the 48 pages. The source therefore contributes **0 raw prompt
+occurrences / 0 source-supplied answer occurrences / 0 unkeyed occurrences / 0 prompt-like residues
+/ 0 retained records / 0 source-distinct tested handles / 0 practical stations / +0 concepts**.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+The carrier exactly revisits Family 99's teaching sequence and thematically overlaps prior
+infection, bloodstream-spread, granulomatous-inflammation, and tuberculosis evidence, but
+declarative teaching overlap does not create a tested handle. With no accepted handle, the standing
+source-first gate is exactly **`0 handles × 4 = 0 required searches`**; no external-disposition or
+prior-handle row is fabricated.
+
+| Measure | Family 201 | Auxiliary cumulative (Families 12–201) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,587 | 762 | 3,349 |
+| Source-supplied answers | 0 | 1,675 | 405 | 2,080 |
+| Retained question records | 0 | 2,294 | 552 | 2,846 |
+| Accepted handles / required searches | 0 / 0 | 2,075 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +975 over primary | 372 | 1,347 |
+| **Distinct tested concepts** | **+0** | **975 additions** | **372** | **1,347** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,587 prompts / 1,675 answers / 2,294 retained / 2,075
+handles / +975 concepts**. All eligible remains **3,349 / 2,080 / 2,846 / 1,347**. Family 201
+establishes Helwan theoretical teaching and a clean/annotated twin relation only, not assessment,
+practical, official-key, readiness, or claims status.
+
+### Exact next debt after Family 201
+
+`src_618d482aa23f51f29cf0` is exhausted across all 48 pages: every visible authority and metadata
+field, teaching definition, completed flow/table, labelled or sequence-disclosed image, twin
+alignment, closing residue, zero gate, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-201 blocker.
+
+The exact next unprocessed BMS-102 manifest record is tier-9 `src_23907394d3f2bb16c68a` · `Final
+pharma Rev.pdf`, SHA-256
+`23907394d3f2bb16c68a79cc656a48077e2ed744156a97f8823a53b05bd4551b`, **859,317 bytes**,
+**8 native-text portrait A4 pages** under `Pharmacology / Assessments / Exams`. Its visible cover
+prints `Pharmacology`, `Session`, `Final Rev`, `1st Year`, and `MHU`; its question-page footer
+prints `2022-Session`. Metadata title is `Session`, author is `zooma`, and creation/modification is
+21 February 2022. Its MHU/Helwan authority, date/sitting status, tier-9 eligibility, complete
+prompt/key/practical boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
