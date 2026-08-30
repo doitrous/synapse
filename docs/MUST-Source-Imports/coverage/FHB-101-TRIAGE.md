@@ -6293,3 +6293,43 @@ Removing this one empty-text path and unique hash leaves **17 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 3 Notes (online) (by Linah).pdf`, SHA-256 `0fe5b1851c266615f551142b2824cb46e38a9b7c0359be8f671f80f994deec4f`, 2 pages.
 
 **BLOCKED — S1 cannot be approved:** 17 selected source paths remain untriaged.
+
+## Completed source — Histology Lec 3 Notes (online) (by Linah)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 3 Notes (online) (by Linah).pdf` | `0fe5b1851c266615f551142b2824cb46e38a9b7c0359be8f671f80f994deec4f` | 2 | empty-text | pages 1–2 rendered and read | Samsung-produced image-only export of handwritten online lecture notes attributed by filename to Linah. The pages print no institution, department, lecturer, sitting, marks or examination/key claim. They are student teaching notes rather than an official MUST assessment or key. |
+
+### Exact teaching / assessment boundary
+
+Page 1 teaches ribosome structure, free/attached and poly-ribosome arrangements, ribophorins and basophilia patterns. It contains one explicit response-seeking row, `Why not small subunit?`, followed immediately by the answer that newly formed proteins are needed inside the RER rather than the nucleus. Page 2 teaches cytoskeleton classes and immunohistochemistry without a response cue.
+
+The exact boundary is therefore **1 prompt occurrence / 1 inline written answer / 1 prompt-matched recovered answer**. There is no practical-identification or essay task, and no answer was inferred or corrected.
+
+### Source-first handle, four searches, and prior-FHB dedupe
+
+The single prompt yields one accepted handle and received four identifying searches, for **1 × 4 = 4 searches**.
+
+| Printed ref | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| p1 `Why not small subunit?` | Ribophorin attachment to the ribosomal large subunit on RER (`ribophorin large ribosomal subunit RER`; `why ribophorin attaches large subunit`; `rough ER ribophorin newly formed protein`; `ribosome small subunit mRNA large subunit protein`) | pending-hit; exact completed prior-FHB RER/ribophorin reuse. |
+
+The source-level split is **0 live / 1 pending / 0 new = 1 accepted handle**. It reproduces a completed prior-FHB assignment, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+1 question / +1 inline answer / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7156 | 6741 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **16 selected inventory paths / 16 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `fe2cff0924d8857bdd7318cfd34e959cdca7dc2f0c7ac0dd48081df446314539`. Pinned triage debt becomes **zero substantive-text / four sparse-text / 12 empty-text** rows, and unique-hash accounting is **`90 + 16 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Histology Lec 4 Notes (by Linah).pdf`, SHA-256 `2dec835c8d017c992f906882435e68e992181cb41b5323df635c89f48d6f0098`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 16 selected source paths remain untriaged.
