@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The seventy-five completed read-only source hashes cover seventy-seven selected inventory paths, represent fifty-two distinct prompt families and yield **6762 questions / 6572 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 4-page `Histology_MSK_Clinical_Applications_By_Mohamed_Eissa_Midterm.pdf`, SHA-256 `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`, contains one cover and seven connective-tissue clinical teaching topics: hypersensitivity, edema, keloid, scurvy, tendinitis, Marfan syndrome and wound contraction. It contains **0 MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 keys or answer-only observations / 0 unkeyed assessment prompts**, so its completed delta is **+0 questions / +0 answers / +0 concepts**. Mohamed Eissa/Pentagram attribution supports a named student-style teaching handout, not authenticated MUST/MSK examination or faculty-key authority. With no assessment handle, the exactly-four-search gate ends at **0 accepted handles × 4 = 0 searches**.
+The seventy-six completed read-only source hashes cover seventy-eight selected inventory paths, represent fifty-two distinct prompt families and yield **6762 questions / 6572 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 18-page `Solo mcqs histology.pdf`, SHA-256 `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`, contains **87 conventional MCQs / 37 printed key observations / 36 prompt-matched answers / 0 written / 0 practical or image-identification / 0 teaching-only prompts**. Q1-Q50 are unkeyed, and Q81 is structurally orphaned because it refers to a nonexistent previous case while the table prints `81. No case`. The file is byte-identical to the completed FHB Solo Team carrier, so cross-module family collapse contributes **+0 questions / +0 answers / +0 concepts**. No new handle survives; the exactly-four-search gate is **0 new handles × 4 = 0 new searches**, cross-referencing the completed FHB family's **21 handles / 84 searches**.
 
-Latest processed family hash: `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`.
+Latest processed family hash: `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`.
 
-Recent processed family hash retained for reconciliation: `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`.
+Recent processed family hash retained for reconciliation: `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`.
 
 Earlier processed family hash retained for reconciliation: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
 
@@ -52,8 +52,10 @@ Current processed-family append: `0558db41452b25a5e89addf25debb44fc243a6a219ebc9
 
 Current teaching-source append: `d0d5de1d4fe39a0dd7dded38745c1df106cc993dd71865eeb5ef04b2f5c4d00c`.
 
-Removing them leaves **26 inventory paths / 26 unique SHA-256s**, checksum `89b09715735016f0153440ed97eb044fd91848d1b3f47b912dc0d75e1875d593`. The pinned remaining audit-review debt is 2 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current cross-module exact-duplicate append: `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Solo mcqs histology.pdf`, SHA-256 `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`, 18 pages.
+Removing them leaves **25 inventory paths / 25 unique SHA-256s**, checksum `3b9fa891e3f9f3f03d111cce261c767c6b83d9aff06076f09fea49a31a9ffc15`. The pinned remaining audit-review debt is 1 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 26 selected inventory paths / 26 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).pdf`, SHA-256 `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 25 selected inventory paths / 25 unique hashes remain untriaged.

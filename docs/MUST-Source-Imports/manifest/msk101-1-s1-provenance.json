@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "957dc23c3db6280cb930ff7b548fb184d083798359451aff111e3cd7d6034735",
-    "triageMarkdown": "17701c5d23ed6d73efa4cea2af084919fca11b730280d7b3096f3a71a8343b99"
+    "readinessMarkdown": "d1938eb97ea4ce4a4a2b6cb5c29df7fa77d0a494426b0a695fddc94d6b962d66",
+    "triageMarkdown": "9a4009ed5cea725c32623ad4884a98b9b613fdba22299fd893daa0145777a49e"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -61,6 +61,7 @@
       "141e06b1f73fbf97641d4932acf78a782660835681941c18728361b8f87aa639",
       "1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c",
       "1f8f6e6fce4d4bf68951c22b18ac702032f3e201f3c665d7c381cb0698e26e76",
+      "22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd",
       "26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369",
       "2b3046797114764969bbcd1b2826333c31b1d1177804327caf0187540d68fbfb",
       "2b8132c42fd12c48df167c4015f332692c61df0ce49e9145be4793325e4034d0",
@@ -127,7 +128,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 75
+    "uniqueSha256": 76
   },
   "completedSourceCoverage": [
     {
@@ -2400,6 +2401,45 @@
         "source spelling and grammar including foreign body, do not polymerize, more common in males and doorta remain uncorrected",
         "clinical and treatment statements are retained strictly as source observations rather than endorsed guidance"
       ]
+    },
+    {
+      "sha256": "22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd",
+      "sourcePages": 18,
+      "renderedReadPages": "1-18",
+      "questionPages": "1-18",
+      "keyPages": "18",
+      "printedPromptObservations": 87,
+      "objectiveMcqPrompts": 87,
+      "printedKeyObservations": 37,
+      "promptMatchedRecoveredAnswers": 36,
+      "nonAnswerKeyObservations": 1,
+      "sourceAbsentAnswers": 51,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "crossModuleExactDuplicateOf": {
+        "module": "FHB 101",
+        "sha256": "22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd",
+        "acceptedSourceHandles": 21,
+        "searchesRun": 84
+      },
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceCrossModuleAcceptedSourceHandles": 21,
+      "referenceCrossModuleSearchesRun": 84,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Solo Team peer-produced revision compilation with Microsoft Word metadata naming 200033293-mostafa rabea alsayd hafez and an iLovePDF production date of 31 October 2024; no institution, department, sitting, marks or official-paper or faculty-key claim appears",
+      "boundaryDisposition": "continuous Q1-Q87 four-option MCQ sequence across Introduction, Cytology and Connective Tissue sections; terminal table supplies thirty-seven printed observations for Q51-Q87, but Q81 says No case rather than selecting an option, leaving thirty-six prompt-matched answers and fifty-one prompts without a recovered answer; the source is byte-identical to the completed FHB carrier and adds no cross-module family occurrence",
+      "preservedSourceDefects": [
+        "Q81 refers to a disease in the previous case although Q80 is not a disease case, and the printed key records 81. No case",
+        "first page retains chatbot-style Sure thing prose plus Markdown headings and option bullets",
+        "source wording and academically questionable options or keys remain uncorrected"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2411,26 +2451,26 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 26,
-    "uniqueSha256": 26,
-    "sortedNewlineSha256": "89b09715735016f0153440ed97eb044fd91848d1b3f47b912dc0d75e1875d593",
+    "inventoryMetadataRows": 25,
+    "uniqueSha256": 25,
+    "sortedNewlineSha256": "3b9fa891e3f9f3f03d111cce261c767c6b83d9aff06076f09fea49a31a9ffc15",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 2
+      "substantive-text": 1
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 2
+    "substantive-text": 1
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 75,
-    "remainingUniqueSha256": 26,
+    "processedUniqueSha256": 76,
+    "remainingUniqueSha256": 25,
     "processedPlusRemaining": 101
   }
 }

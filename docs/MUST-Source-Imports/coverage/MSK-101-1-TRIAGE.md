@@ -3042,3 +3042,43 @@ Removing the seventy-five processed unique hashes leaves **26 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Solo mcqs histology.pdf`, SHA-256 `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd`, 18 pages.
 
 **BLOCKED — S1 cannot be approved:** 26 selected inventory paths / 26 unique hashes remain untriaged.
+
+## Completed cross-module exact duplicate — Solo mcqs histology
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Solo mcqs histology.pdf` | `22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd` | 18 | substantive-text audit sample | pages 1–18 rendered and read | Solo Team peer revision compilation. Microsoft Word 2016 metadata names `200033293-mostafa rabea alsayd hafez`, with iLovePDF production dated 31 October 2024. No institution, department, sitting, marks or official-paper or faculty-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Solo mcqs histology.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and teaching boundary
+
+Pages 1–4 print `Introduction to Microscopy and Histology` Q1–Q20; pages 5–10 print `Cytology` Q21–Q50; pages 11–18 print `Connective Tissue` Q51–Q87. All are text-only four-option MCQs, with no selected option on the question pages.
+
+Page 18 prints a terminal `Answers / Connective tissue` list for Q51–Q87: **37 printed key observations**. Q51–Q80 and Q82–Q87 yield **36 prompt-matched answers**. Q81 refers to `the disease in the previous case`, but Q80 is a stand-alone yellow-elastic-connective-tissue item and no disease case appears; the key records `81. No case` and therefore selects no option. Q1–Q50 have no printed key.
+
+The physical boundary is **87 MCQ prompts / 37 printed key observations / 36 prompt-matched answers / 51 prompts without a recovered answer**. There are **0 written prompts / 0 practical or image-identification prompts / 0 teaching-only passages / 0 answer-only observations**.
+
+### Cross-module exact duplicate, authority and search gate
+
+The MSK inventory file is byte-identical to the completed FHB 101 `solo mcqs histology.pdf` carrier: the SHA-256, page count, metadata, prompt sequence and answer table all match. The FHB pass fully read the same source and completed **21 accepted handles / 84 searches**, while preserving Q81 outside the concept inventory because its antecedent is absent.
+
+No genuinely new handle survives exact cross-module collapse or prior-MSK reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the completed FHB family's **21 handles / 84 searches** are cross-referenced without repetition. Source-level MSK disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This MSK inventory hash is now `sourceProcessed=true`. Its physical boundary remains **87 prompts / 37 key observations / 36 recovered answers**, while exact cross-module family collapse yields **+0 questions / +0 answers / +0 concepts**. MSK cumulative arithmetic remains **6762 questions / 6572 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6762 | 6572 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, exam-authority claim, placement or catalogue entry was created. Source defects remain preserved: Q81 lacks its claimed prior case; the first page retains `Sure thing! Here are the numbered MCQs:` and Markdown-style headings and bullets; wording and academically questionable options or keys remain uncorrected.
+
+### Remaining sources / blocker
+
+Removing the seventy-six processed unique hashes leaves **25 selected inventory paths / 25 unique SHA-256s**. Their sorted, newline-joined hash checksum is `3b9fa891e3f9f3f03d111cce261c767c6b83d9aff06076f09fea49a31a9ffc15`. Remaining audit-review debt is 1 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`76 + 25 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).pdf`, SHA-256 `ad8c96ecd61e57b015fb131c7348b7f8b0f1b747c83ee84f4f8cd43c02cf7965`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 25 selected inventory paths / 25 unique hashes remain untriaged.
