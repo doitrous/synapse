@@ -243,10 +243,43 @@ The source is now `sourceProcessed=true`. Its completed delta is **+63 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Cartilage Summary & Questions (BenAhmed)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage Summary & Questions_BenAhmed.pdf` | `000e8e77fc82ffc6d211870fa3f07cb0fcc334a3b9b64c8596f445670f996e4f` | 20 | substantive-text audit sample | pages 1–20 rendered and read | The 2024/2025 cover identifies `MSK 101-1 HISTOLOGY MCQs`, Mucize Doctors, and medical students at Misr University for Science & Technology. Youssef BenAhmed is the lead author; Mucize Team is the student publisher. Its disclaimer explicitly calls the work a supplementary educational resource and directs students to official resources and faculty guidance. It is a MUST-targeted student study aid, not an official examination or faculty key. |
+
+### Exact teaching, MCQ, matching, written, practical, image and key boundary
+
+Pages 1–4 are cover/editorial/copyright/index front matter. Pages 5–8 are **four teaching-summary pages** covering cartilage properties, matrix, cells, types, sites and disc-prolapse context. Pages 9–13 contain **38 practice MCQs**, and page 14 prints a complete 38-entry key. Pages 15–19 contain **30 V.IMP. MCQs + 10 matching rows**, and page 20 prints all 40 corresponding keys. The exact assessment boundary is therefore **78 prompt occurrences = 68 four-option MCQs + 10 matching rows / 78 printed and recovered answers**. There are **0 written prompts, 0 practical prompts and 0 image-identification prompts**. No answer was inferred or corrected.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 78 assessment occurrences were assigned once across four handles, reconciling as **23 + 26 + 15 + 14 = 78**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **4 × 4 = 16 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 23, cartilage general properties, matrix, staining, nutrition, functions and perichondrium (`cartilage general characteristics avascular lymphatics nerves`; `perichondrium outer fibrous inner chondrogenic cartilage`; `cartilage matrix proteoglycans sulfated GAGs metachromatic`; `cartilage functions skeleton shock absorber respiratory passages`) | no external live/pending hit; same scope as completed MSK cartilage-property/matrix assignments — **prior-MSK collapse**. |
+| H2 | 26, hyaline, elastic and white fibrocartilage types, sites and fibers (`hyaline yellow elastic white fibrocartilage comparison`; `hyaline cartilage type II collagen sites articular costal`; `elastic cartilage ear pinna Eustachian epiglottis`; `white fibrocartilage type I collagen sites joints`) | no external live/pending hit; same scope as completed MSK cartilage-classification assignments — **prior-MSK collapse**. |
+| H3 | 15, chondroblast/chondrocyte morphology, ultrastructure and growth (`chondroblast chondrocyte LM EM comparison`; `chondroblasts protein secreting rER Golgi cartilage`; `chondrocytes isogenous groups lacunae matrix maintenance`; `appositional interstitial cartilage growth chondroblast chondrocyte`) | no external live/pending hit; same scope as completed MSK cartilage-cell/growth assignments — **prior-MSK collapse**. |
+| H4 | 14, disc herniation, nerve compression, cartilage healing and perichondrial injury (`lumbar disc herniation nerve root compression cartilage`; `annulus fibrosus nucleus pulposus prolapse histology`; `cartilage repair avascularity perichondrial hematoma ear`; `cartilage clinical questions disc prolapse regeneration`) | no external live/pending hit; same scope as completed MSK clinical-cartilage/cases assignments — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 4 externally new source handles**. Prior-MSK collapse removes all four, producing a completed-source concept delta of **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+78 questions / +78 answers / +0 post-prior concepts**. Cumulative arithmetic is **508 + 78 = 586 questions**, **472 + 78 = 550 answers**, and **21 + 0 = 21 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 586 | 550 | 21 | 0 | 1 | 20 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these seven processed paths and unique hashes leaves **96 selected inventory paths / 94 unique SHA-256s**. Their sorted, newline-joined hash checksum is `b84b856f279e97ecdd7d457a0d0bc3808aeadbd3397909f5e44b29439e0aaea6`. Remaining audit-review debt is 54 substantive-text / 8 sparse-text / 17 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`7 + 94 = 101`**.
+Removing these eight processed paths and unique hashes leaves **95 selected inventory paths / 93 unique SHA-256s**. Their sorted, newline-joined hash checksum is `9fb91994a536e43f174f913cf4acedd40e89632cc3e1a31e482a6f4be9b99919`. Remaining audit-review debt is 53 substantive-text / 8 sparse-text / 17 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`8 + 93 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Cartilage Summary & Questions_BenAhmed.pdf`, SHA-256 `000e8e77fc82ffc6d211870fa3f07cb0fcc334a3b9b64c8596f445670f996e4f`, 20 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Connective tissue MCQ د.عبدالوهاب.pdf`, SHA-256 `ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7`, 34 pages.
 
-**BLOCKED — S1 cannot be approved:** 96 selected inventory paths / 94 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 95 selected inventory paths / 93 unique hashes remain untriaged.
