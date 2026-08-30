@@ -2628,3 +2628,48 @@ Removing the sixty-six processed unique hashes leaves **36 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/200 Connective tissue Practice Questions.pdf`, SHA-256 `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e`, 59 pages.
 
 **BLOCKED — S1 cannot be approved:** 36 selected inventory paths / 35 unique hashes remain untriaged.
+
+## Completed source — 200 Connective tissue Practice Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/200 Connective tissue Practice Questions.pdf` | `48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e` | 59 | substantive-text audit sample | pages 1–59 rendered and read | Unattributed connective-tissue practice bank generated in Notes and captured through iOS 18.5 Quartz PDFContext on 23 October 2025. The visible pages and metadata contain no institution, department, examiner, sitting, marks, author or official faculty-key claim. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/200 Connective tissue Practice Questions.pdf" purpose="source"}
+
+### Exact MCQ, key, written, practical and teaching boundary
+
+Pages 1–59 contain one continuous Q1–Q200 sequence of conventional four-option MCQs. Every prompt is followed immediately by one printed `Answer:` line. The short prose after Q10 says the writer will continue creating MCQs in sets of ten; it is generation/meta commentary, not another prompt, answer or authority claim.
+
+| Format | Printed prompts | Printed answer observations | Source-unkeyed |
+|---|---:|---:|---:|
+| Conventional MCQs Q1–Q200 | 200 | 200 | 0 |
+| **Total** | **200** | **200** | **0** |
+
+There are **0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 source-unkeyed prompts / 0 teaching-only pages**. The extraction layer repeats Q79 and Q120 at page boundaries and repeats the Q109 answer line once, but the rendered pages show each only once; visual occurrence counts govern.
+
+Exact normalized-stem analysis yields **188 unique stems**. Eleven repeat groups contribute twelve extra physical occurrences: Q29/Q108, Q37/Q160, Q40/Q85, Q49/Q197, Q82/Q152, Q90/Q168, Q93/Q191, Q94/Q180, Q101/Q150/Q195, Q143/Q165 and Q145/Q155. Those repeated printed occurrences remain part of the source boundary. All wording and academically questionable answer selections are preserved as source observations without correction.
+
+### Authority, prior-MSK reconciliation and search gate
+
+The document is an unattributed generated practice compilation, not a documented MUST examination or faculty key. Its source-first scopes cover connective-tissue fibres and matrix; resident and wandering cells; connective-tissue proper; adipose and reticular tissue; cartilage; bone; blood and lymphatic tissue; and basic repair/function applications. Direct checks of distinctive opening and closing stems against the completed Dr Abdelwahab and 92-page Salama carriers found no matching prompt sequence, so this is a distinct source carrier rather than an exact sibling.
+
+Every scope already maps to the completed prior-MSK connective-tissue family. No genuinely new accepted handle survives internal and prior-MSK collapse. The exactly-four-search gate therefore resolves as **`0 new handles × 4 = 0 new searches`**; the prior connective-tissue family's **5 accepted handles / 20 completed searches** are cross-referenced without repetition. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+This distinct keyed practice bank is now `sourceProcessed=true`. Its delta is **+200 questions / +200 answer observations / +0 concepts**. Cumulative arithmetic is **6231 + 200 = 6431 questions**, **6041 + 200 = 6241 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6431 | 6241 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the sixty-seven processed unique hashes leaves **35 selected inventory paths / 34 unique SHA-256s**. Their sorted, newline-joined hash checksum is `b5cd6b146d358152a22e97c4c525fd260162cb4f98180dc3434a2c74199a791f`. Remaining audit-review debt is 11 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`67 + 34 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/4 THE CONNECTIVE TISSUE PROPER MCQ.pdf`, SHA-256 `a0e19bb1825adf8c56999323078b76f82f76628c62ba5174b11ec607f2f7849c`, 9 pages.
+
+**BLOCKED — S1 cannot be approved:** 35 selected inventory paths / 34 unique hashes remain untriaged.

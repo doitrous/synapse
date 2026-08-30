@@ -73,9 +73,10 @@ const PROCESSED_FAMILY_HASHES = [
   '1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c',
   'b056fb53551b129db6de71e24002e2240baa8aa5a360ebf08ea5b6b75c89d3dd',
   'b1d01d3885196fef231d01046cf8e29eab0bbfa0a405037f280af127d46e8fb2',
+  '48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '23a024556fb177ac97ee68318d3e889f4fa37f576403e09d66a5d5e284c0f43c'
+const REMAINING_CHECKSUM = 'b5cd6b146d358152a22e97c4c525fd260162cb4f98180dc3434a2c74199a791f'
 
 function option(name) {
   const prefix = `${name}=`
@@ -152,10 +153,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 12 }
+  const expected = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 11 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=12-substantive/5-sparse/7-empty/12-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=11-substantive/5-sparse/7-empty/12-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -171,7 +172,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6231', '6041', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '6431', '6241', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -205,7 +206,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 66 || remainingHashes.length !== 35 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 67 || remainingHashes.length !== 34 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -213,7 +214,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 12 }
+const expectedRemainingDebt = { 'audit-not-found': 12, 'empty-text': 7, 'sparse-text': 5, 'substantive-text': 11 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -300,8 +301,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[63], sourcePages: 11, renderedReadPages: '1-11', teachingPages: '1-10', blankPages: '11', printedPromptObservations: 0, objectiveMcqPrompts: 0, printedKeyObservations: 0, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'unattributed bilingual anatomy review document captured through iOS Quartz PDFContext on 16 October 2025; the filename and Midterm folder are not examination authority, and no printed institution, department, author, examiner, sitting, marks or official-key claim appears', boundaryDisposition: 'ten teaching-note pages covering pectoral and scapular muscles, fascia, axilla, axillary artery and brachial plexus, followed by one visually blank page; explanatory figures contain no practical or image-identification prompt, response space or station instruction', preservedSourceDefects: ['several teaching bullets render with missing-glyph box characters', 'Poppler extraction reports unknown PDFTron-Identity character collections', 'mixed Arabic and English wording and anatomical statements are retained without correction'] },
     { sha256: PROCESSED_FAMILY_HASHES[64], sourcePages: 38, renderedReadPages: '1-38', coverPages: '1', teachingPages: '2-9,23-25,30-32', mixedKeyTeachingPages: '22', questionPages: '10-21,26-28,33-38', keyPages: '13,18,22,29,38', printedPromptObservations: 95, objectiveMcqPrompts: 95, printedKeyObservations: 95, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, assessmentBlocks: [{ pages: '10-13', prompts: 15, answers: 15 }, { pages: '13-18', prompts: 25, answers: 25 }, { pages: '19-22', prompts: 15, answers: 15 }, { pages: '26-29', prompts: 15, answers: 15 }, { pages: '33-38', prompts: 25, answers: 25 }], familyQuestionDelta: 95, familyAnswerDelta: 95, acceptedSourceHandles: 0, searchesRun: 0, referenceHistoBoneAcceptedSourceHandles: 4, referenceHistoBoneSearchesRun: 16, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'Mohamed Salama student bone summary and MCQ compilation created in Microsoft Word for Microsoft 365 on 11 December 2023; no printed institution, department, examiner, sitting, marks or official faculty-key claim', boundaryDisposition: 'one cover, fourteen teaching-only pages, one mixed key-and-teaching page, and five complete keyed MCQ banks totalling ninety-five prompts; no written, practical, image-identification, answer-only or unkeyed material', priorCarrierComparison: { sha256: PROCESSED_FAMILY_HASHES[24], disposition: 'distinct prompt sequence from the prior 92-page HISTO FINAL BY SALAMA compilation; source-first bone scopes collapse to its completed H1 and earlier completed bone-family evidence' }, preservedSourceDefects: ['numbering restarts at Q1 in every bank', 'third-bank Q3 includes Barcelona as a joke distractor', 'printed UMCS/UMCs variants, spelling, capitalization and academically questionable key choices are retained without correction'] },
     { sha256: PROCESSED_FAMILY_HASHES[65], sourcePages: 3, renderedReadPages: '1-3', questionPages: '1-3', printedPromptObservations: 21, objectiveMcqPrompts: 14, writtenPrompts: 7, printedKeyObservations: 0, sourceAbsentAnswers: 21, practicalOrImagePrompts: 0, teachingPrompts: 0, normalizedPromptSequenceSiblingOf: PROCESSED_FAMILY_HASHES[0], normalizedPromptSequenceSha256: '7c4d5c24c6965b142f7d6f305a673272e870a8f3a256e8cc458e405cb5239d70', familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceConnectiveTissueAcceptedSourceHandles: 3, referenceConnectiveTissueSearchesRun: 12, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'unattributed local connective-tissue training sheet created in Microsoft Word on 29 October 2024 with metadata author a; no printed institution, department, examiner, sitting, marks or official-key claim', boundaryDisposition: 'same normalized fourteen-MCQ plus seven-short-written prompt sequence as the processed answer-marked sibling, with fibres/fibers and spacing differences only; no answers, practical, image-identification, teaching-only or answer-only material', preservedSourceDefects: ['all twenty-one prompts are source-unkeyed in this carrier', 'MCQ Q4/Q8, Q2/Q7/Q9, Q3/Q14 and Q6/Q10 repeat or closely repeat within the source', 'printed spelling, punctuation and grammar are retained without correction'] },
+    { sha256: PROCESSED_FAMILY_HASHES[66], sourcePages: 59, renderedReadPages: '1-59', assessmentPages: '1-59', generationMetaProsePages: '4', printedPromptObservations: 200, objectiveMcqPrompts: 200, printedKeyObservations: 200, sourceAbsentAnswers: 0, writtenPrompts: 0, practicalOrImagePrompts: 0, teachingPrompts: 0, normalizedUniqueStems: 188, normalizedDuplicateGroups: 11, normalizedDuplicateExtraOccurrences: 12, familyQuestionDelta: 200, familyAnswerDelta: 200, acceptedSourceHandles: 0, searchesRun: 0, referenceConnectiveTissueAcceptedSourceHandles: 5, referenceConnectiveTissueSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'unattributed Notes/iOS-generated connective-tissue practice bank created through Quartz PDFContext on 23 October 2025; no printed institution, department, examiner, sitting, marks, author or official faculty-key claim', boundaryDisposition: 'continuous Q1-Q200 conventional four-option MCQ sequence with one inline printed answer after every prompt; no written, practical, image-identification, answer-only or source-unkeyed material; chat-generation prose after Q10 is excluded from assessment counts', preservedSourceDefects: ['eleven exact normalized stem groups contribute twelve repeated prompt occurrences, including the three-occurrence fibroblast-characteristic stem Q101/Q150/Q195', 'printed wording and academically questionable answer selections remain source observations and are not corrected', 'one repeated answer line in extracted text at the Q109 page boundary is a text-layer artifact and is counted once from the visual pages'] },
   ],
-  triageCumulative: { printedPromptObservations: 6231, printedKeyObservations: 6041, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 6431, printedKeyObservations: 6241, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
