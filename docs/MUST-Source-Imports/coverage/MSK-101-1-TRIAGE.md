@@ -1788,3 +1788,47 @@ Removing the forty-seven processed unique hashes leaves **55 selected inventory 
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - anatomy MSK written.pdf`, SHA-256 `d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45`, 8 pages.
 
 **BLOCKED — S1 cannot be approved:** 55 selected inventory paths / 54 unique hashes remain untriaged.
+
+## Completed source — anatomy MSK written
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - anatomy MSK written.pdf` | `d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45` | 8 | substantive-text audit sample | pages 1–8 rendered and read | Text-bearing Word export headed `Written 101 predicted anatomy`; PDF metadata names Ibrahim Osama and dates creation/modification to 29 January 2026. No printed institution, department, examiner, sitting, marks or official-key claim appears, so neither the title nor metadata authenticates a MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - anatomy MSK written.pdf" purpose="source"}
+
+### Exact written, practical, image and answer boundary
+
+All eight pages are assessment material. The first sequence contains 27 short written prompts with inline bullet answers; the second sequence restarts at Q1 and contains 20 short written prompts with inline bullet answers. Each prompt is counted once regardless of the number of bullets in its answer.
+
+| Assessment block | Written prompts | Inline answers | Practical | Image-identification | Unkeyed |
+|---|---:|---:|---:|---:|---:|
+| Predicted-written list Q1–Q27, pp.1–5 | 27 | 27 | 0 | 0 | 0 |
+| Second list Q1–Q20, pp.5–8 | 20 | 20 | 0 | 0 | 0 |
+| **Total** | **47** | **47** | **0** | **0** | **0** |
+
+There are no MCQs, practical stations, diagrams, radiographs, photographs, standalone image-identification prompts, teaching-only pages, answer-only pages or unkeyed prompts. The source's selective or inaccurate bullet lists remain source observations without academic completion or correction, including `Superficial extensors / Deep extensors / Supinator` for posterior-forearm muscles, `Palmaris brevis` under ulnar-nerve forearm supply, and incomplete shoulder and wrist movement lists.
+
+### Exact normalized-content reconciliation and search gate
+
+The 47 prompts, their order and every answer bullet match the completed nine-page `Anatomy MSK101-1 Written Questions Final` source (`eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94`). After removing the differing title, numbering, punctuation and layout tokens, both full prompt-and-answer sequences produce the same normalized-token SHA-256, `4a0353df1c8925d6b25118ac9639a3d677595e0950d8bbcc10db0319ccd2a1dd`.
+
+This source is an exact normalized-content duplicate, not a new prompt family. No genuinely new handle survives. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its visible source boundary is recorded as 47 prompts / 47 inline answer observations, but duplicate-family reconciliation gives **+0 questions / +0 answer observations / +0 concepts**. Cumulative totals remain **5472 questions / 5365 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5472 | 5365 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-eight processed unique hashes leaves **54 selected inventory paths / 53 unique SHA-256s**. Their sorted, newline-joined hash checksum is `8c22ed32fa34db30dfc54c3e5f7c80764944bcd33d72723b3d51e458d15f5fd3`. Remaining audit-review debt is 22 substantive-text / 7 sparse-text / 9 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`48 + 53 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - predicted written anat msk 1 (1).pdf`, SHA-256 `396b1df40956a35361cd7c470174f4aad55e7d4a2b349ad8075f0ca9d36f0358`, 7 pages.
+
+**BLOCKED — S1 cannot be approved:** 54 selected inventory paths / 53 unique hashes remain untriaged.

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "97c51597db0a57ed065200451ddea1470b99199516c6d9f26517bf43e414037f",
-    "triageMarkdown": "a6152cf42444a0e97bc7c9a86dd334f1f3b1953b5f909cf36b53045fb50d8224"
+    "readinessMarkdown": "788f52123dbc4be658345224da5592a50f3a41f7fbfdee10e12a7d64838bc375",
+    "triageMarkdown": "7e9e5ac93b471a734dd7ba5fb32365c153ea20d6b3c24e1b1453e830d749616a"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -89,6 +89,7 @@
       "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
+      "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
       "d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135",
       "d4510a280552936a78865b7f800b53379ee610341cc7088b6b9beaecd978f0e0",
       "dd5c2424e0cbc79f9b0f0f17a1c9b6bffc544e1ac4508e7e47cb71fdd5cd432e",
@@ -99,7 +100,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 47
+    "uniqueSha256": 48
   },
   "completedSourceCoverage": [
     {
@@ -1263,6 +1264,36 @@
         "stray x precedes Book MCQ Q4",
         "final problem answer prints medial side of the 4 arm"
       ]
+    },
+    {
+      "sha256": "d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "writtenPromptAndInlineAnswerPages": "1-8",
+      "printedPromptObservations": 47,
+      "writtenPrompts": 47,
+      "printedKeyObservations": 47,
+      "writtenAnswerObservations": 47,
+      "sourceAbsentAnswers": 0,
+      "exactNormalizedContentDuplicateOf": "eb64d9b819ad5e40cc67c1c562d674952faa9497d1438104185fd891695d7d94",
+      "normalizedTokenSha256": "4a0353df1c8925d6b25118ac9639a3d677595e0950d8bbcc10db0319ccd2a1dd",
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "student-authored Written 101 predicted anatomy upper-limb bank with Ibrahim Osama/Word metadata; no authenticated MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "twenty-seven written prompts followed by a second Q1-Q20 sequence, all with inline bullet answers; no MCQ, practical, image-identification, teaching-only, answer-only or unkeyed material",
+      "preservedSourceDefects": [
+        "posterior-compartment answer names superficial and deep extensor groups rather than enumerating their members",
+        "ulnar-nerve-in-forearm answer includes palmaris brevis",
+        "shoulder and wrist movement lists are visibly selective rather than exhaustive"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1274,15 +1305,15 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 55,
-    "uniqueSha256": 54,
-    "sortedNewlineSha256": "f95fdf425f4bae4af1e1f1ba6ed4efb0c0305d27126fd9d72af1f924da417999",
+    "inventoryMetadataRows": 54,
+    "uniqueSha256": 53,
+    "sortedNewlineSha256": "8c22ed32fa34db30dfc54c3e5f7c80764944bcd33d72723b3d51e458d15f5fd3",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 13,
       "empty-text": 9,
       "sparse-text": 7,
-      "substantive-text": 23
+      "substantive-text": 22
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1290,12 +1321,12 @@
     "audit-not-found": 13,
     "empty-text": 9,
     "sparse-text": 7,
-    "substantive-text": 23
+    "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 47,
-    "remainingUniqueSha256": 54,
+    "processedUniqueSha256": 48,
+    "remainingUniqueSha256": 53,
     "processedPlusRemaining": 101
   }
 }
