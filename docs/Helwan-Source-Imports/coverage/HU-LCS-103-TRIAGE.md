@@ -18502,3 +18502,83 @@ under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassifie
 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 57
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 174 — Tier-6 unattributed Histology bone-cell and covering summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_033ed1d6b9fdd8722b7b` / `033ed1d6b9fdd8722b7b20721a9012fba7ead0520326d11dec92d88d2f03af7d` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/Notes_260514_181426 (1).pdf` |
+| Physical verification | **3,108,928 bytes; 2 OCR-needed pages; 600 × 848 pt; untagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | P. 1 handwrites `Histology Lec1` and `Bones`; p. 2 is headed `Bone Covering`. The manifest classifies the object as Histology notes in the LCS-103 corpus. Metadata identifies Samsung Electronics as creator and 14 May 2026 modification, but no page supplies an author, lecturer, university, cohort or examination date. |
+| Authority finding | Syllabus-aligned local tier-6 student-summary evidence with unrecoverable individual authorship. It is not a recoverable sitting, official lecture, response form, practical station or answer key. |
+
+Both **2/2 pages** were rendered at 180 dpi, inspected at full resolution and read with OCR
+support; the PDF has no substantive native text layer. The complete boundary is:
+
+| Page | Complete source-first composition | Assessment / practical boundary |
+|---:|---|---|
+| 1 | handwritten bone overview dividing cells from calcified matrix; four cell names; organic ground substance, inorganic salts and collagen fibres; plus one supplied printed table comparing osteogenic cells, osteoblasts, osteocytes and osteoclasts by origin, site, LM, EM and function | two completed teaching compositions; no instruction, interrogation, hidden label or response field |
+| 2 | handwritten bone-covering map comparing periosteum's outer fibrous and inner osteogenic layers with endosteum's delicate connective-tissue/osteogenic-cell layer | one completed teaching composition; no prompt, blank or masked callout |
+
+The physical source therefore contains **3 completed teaching compositions / 0 eligible or
+external assessment prompts / 0 written or MCQ prompts / 0 keys-or-answers / 0 unkeyed
+prompts**. Headings, branches and bullets classify supplied facts; none requests a learner
+response. The embedded bone-cell table and its tiny supplied illustration are already labelled
+theoretical teaching, not an identification task. Practical delta is exactly **0 practical or
+station prompts / 0 teaching plates / 0 mappings / 0 unresolved residues / 0 practical keys /
+0 practical scopes**.
+
+Handwriting and printed-table states remain source evidence without silent correction,
+including `osteo genic`, `osteo clast`, `calcified`, `osteonectin (a binding ptn.)`, the
+ambiguous handwritten collagen notation, `Citrate`, `Carbonate`, `Phosphat.`, `Howship's
+lacuna`, and the source's cell-origin, organelle and function statements.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+| Teaching handle / page | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `four-bone-cell-origin-site-lm-em-and-function-comparison` · p. 1 | bone cells origin morphology function; osteogenic osteoblast osteocyte osteoclast; bone cell LM EM comparison; four bone cells histology | Pending bone-cell material and exact accepted Families 55 and 58 own the complete comparison — prior-LCS reuse. |
+| `organic-inorganic-bone-matrix-ground-substance-and-fibres` · p. 1 | bone organic inorganic matrix; osteonectin glycoprotein chondroitin sulfate; calcium salts citrate carbonate phosphate bone; type I collagen bone matrix | Pending bone-matrix material and exact accepted Families 13, 55 and 58 own the complete composition — prior-LCS reuse. |
+| `periosteum-and-endosteum-layer-comparison` · p. 2 | periosteum outer fibrous inner osteogenic; endosteum osteogenic cells; bone covering periosteum endosteum; periosteum endosteum comparison | Pending bone-covering material and exact accepted Families 13, 55 and 58 own both coverings — prior-LCS reuse. |
+
+Each of the **three accepted teaching handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **3 × 4 = 12 required search invocations**. Broad component matches do not
+supersede exact prior-module scope ownership. Final disposition is **3 prior-LCS theoretical-
+teaching reuses / 0 additive live / 0 additive pending / 0 additive new scopes**. There is no
+assessment or practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,077 observed questions / 707 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This full SHA-256 also remains under later manifest path `Year 1/LCS 103/Histology/Notes and
+Summaries/Student Summary - Histology Lecture 2 Bones Summary.pdf`. Family 174 inventories the
+unique content once now; that later path remains separate debt and will receive zero second
+content inventory when reached. Removing only this path from Family 173's ledger changes the
+all-rank remainder from **57 paths / 53 unique hashes** to **56 paths / 53 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **42 paths / 42 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 173's prior checksums are
+`0c368e59101551f59eda7145aa9d05f831a388d090014985661fcde5f2c75dbd` (paths) and
+`33319673762d864da7ff1adabb0ff6a5c4cd0f1b8ab3d7a04df70f9d906eb8ab` (unique hashes).
+For the exact post-Family-174 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`97e3c23d7388918ec488f5bf395541b5562d8dfded29061789ffdf556345fd00`;
+SHA-256 over sorted unique `sha256<LF>` rows remains
+`33319673762d864da7ff1adabb0ff6a5c4cd0f1b8ab3d7a04df70f9d906eb8ab`.
+
+The exact next manifest-order debt is tier-6 `src_cb2011e7cbf91568cb9d`,
+`Oversized Pages-1.pdf` (6,505,456 bytes; 1 OCR-needed oversized page; unencrypted; 2,804 ×
+2,553 pt; SHA-256 `cb2011e7cbf91568cb9db2670b48547630c0b82f3d364febf92ab58b054797bf`)
+under `Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the
+entire oversized canvas is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 56 tier-6/rank-9 path debts remain. No download, source edit, ID, content record,
+catalogue update, import or source copy was created.
