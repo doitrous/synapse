@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "40089554870419699abcb23feec552a9ef223bd992f32923eeefe2b967db2ec9",
-    "triageMarkdown": "c7b9806a96f5fc290348d95ee8646aec957be23f986a370b8590b49564ff111d"
+    "readinessMarkdown": "a217a77a132f5ca610f9d4dadd4ded97218062bea2ed25e2633b790070c0975f",
+    "triageMarkdown": "6242562bf1043bf07a4dab3a764df778387b13f2fb5f7a856937ef947f4a9f76"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -71,6 +71,7 @@
       "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
       "43f1cbaa5f823fe46f4432384e7e2af21b00a5732b4f7c1a289e7f7a337e62f3",
+      "44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff",
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
       "4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece",
       "48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e",
@@ -132,7 +133,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 80
+    "uniqueSha256": 81
   },
   "completedSourceCoverage": [
     {
@@ -2578,6 +2579,34 @@
         "source shorthand and academically questionable statements including skeletal-muscle band labels remain uncorrected",
         "filename attribution is not promoted to authenticated authorship or faculty authority"
       ]
+    },
+    {
+      "sha256": "44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "teachingPages": "1-3",
+      "numberedTeachingTips": 21,
+      "additionalTeachingTopics": 15,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Absalam101 student compilation of Dr. Ahmed Essam notes, with Word metadata naming 200057470-Abdel Salam Muhammad Abdel Salam Mahmoud and creation date 8 July 2025; no institution, examiner, sitting, marks or official-key claim, so filename-only Exam Night and Midterm wording is not examination authority",
+      "boundaryDisposition": "pages 1-2 contain twenty-one numbered declarative upper-limb teaching tips and page 3 lists fifteen further important-topic reminders; question-like shorthand inside the topic list has no response field, option set, station instruction or supplied key and remains teaching rather than assessment",
+      "preservedSourceDefects": [
+        "the page-1 Arabic note says important content may appear in the exam but does not authenticate an exam sitting",
+        "Erb and Klumpke paralysis, breast drainage, axillary anatomy, rotator cuff and nerve injury claims remain uncorrected teaching observations"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2589,24 +2618,24 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 21,
-    "uniqueSha256": 21,
-    "sortedNewlineSha256": "2be190e4151004031de5ec0028ddf7cc54f7b672f44006be21cdf7aac75f09fc",
+    "inventoryMetadataRows": 20,
+    "uniqueSha256": 20,
+    "sortedNewlineSha256": "d6868806d23533d7e05592fbf276a9f4e8b20874dc3db69abd1c6b17f9032ad7",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
-      "sparse-text": 2
+      "sparse-text": 1
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
-    "sparse-text": 2
+    "sparse-text": 1
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 80,
-    "remainingUniqueSha256": 21,
+    "processedUniqueSha256": 81,
+    "remainingUniqueSha256": 20,
     "processedPlusRemaining": 101
   }
 }

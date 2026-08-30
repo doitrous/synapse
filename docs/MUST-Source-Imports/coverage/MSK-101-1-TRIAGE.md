@@ -3255,3 +3255,41 @@ Removing the eighty processed unique hashes leaves **21 selected inventory paths
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy MSK101-1 Exam Night Notes (Midterm).pdf`, SHA-256 `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 21 selected inventory paths / 21 unique hashes remain untriaged.
+
+## Completed teaching-only source — Anatomy MSK101-1 Exam Night Notes (Midterm)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy MSK101-1 Exam Night Notes (Midterm).pdf` | `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff` | 3 | sparse-text audit sample | pages 1–3 rendered and read | Absalam101 student compilation titled `Anatomy MSK101-1 Exam Night Notes (Midterm)` and `Dr. Ahmed Essam's Notes`. Word metadata names `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud` and creation on 8 July 2025. No institution, examiner, sitting, marks or official-key claim appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anatomy MSK101-1 Exam Night Notes (Midterm).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+Pages 1–2 present twenty-one numbered declarative teaching tips on pectoral-region cutaneous innervation, the axilla, scapular anastomosis, clavipectoral fascia, breast drainage, brachial plexus, Erb and Klumpke paralysis, long-thoracic nerve injury, shoulder muscles and movements, vessels and arm innervation. Page 3 lists fifteen `Some other Important topics` reminders.
+
+The topic list includes question-like shorthand such as `which muscle is posterior to the 3rd part of the axillary artery`, but it supplies no response field, option set, station instruction or answer. It remains a teaching/revision reminder rather than an assessment occurrence. The exact boundary is therefore **36 teaching topics / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**.
+
+### Authority, source truth and search gate
+
+The explicit Absalam101 byline and author metadata establish a student compilation of notes attributed to Dr. Ahmed Essam. They do not establish Dr. Ahmed Essam as the PDF's author, nor an authenticated MUST/MSK examination or faculty key. The title's `Exam Night` and `Midterm` wording and the Arabic statement that important material may appear in the exam are revision framing, not examination authority.
+
+No assessment prompt or candidate handle exists, so source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Source statements and spelling remain uncorrected teaching observations.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **6997 questions / 6793 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6997 | 6793 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-one processed unique hashes leaves **20 selected inventory paths / 20 unique SHA-256s**. Their sorted, newline-joined hash checksum is `d6868806d23533d7e05592fbf276a9f4e8b20874dc3db69abd1c6b17f9032ad7`. Remaining audit-review debt is 0 substantive-text / 1 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`81 + 20 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/mind map -Upper Limb (by Abdulazim Mohamed).pdf`, SHA-256 `1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 20 selected inventory paths / 20 unique hashes remain untriaged.
