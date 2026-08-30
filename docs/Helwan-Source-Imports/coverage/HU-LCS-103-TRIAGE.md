@@ -14802,3 +14802,98 @@ pages; SHA-256 `11ac2ef5ae52ca33ba4ffdf64d343003af12e9f7e43c759da63f03426f8785b5
 It remains unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 97 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 134 — Tier-3 external Dr Mahmood Alaa keyed lower-limb topic banks
+
+### Exact identity, authority and complete 29-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_11ac2ef5ae52ca33ba4f` / `11ac2ef5ae52ca33ba4ffdf64d343003af12e9f7e43c759da63f03426f8785b5` |
+| File / boundary | `MCQs - External MCQs lower limb mcq topics DR.Alaa.pdf` · 722,116 bytes · tagged, unencrypted PDF 1.7 · 29 physical US-Letter native-text pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Visible / container provenance | Assessment pages print `ANATOMY`, `DR/MAHMOOD ALAA` and `LOWER LIMB M.C.Qs`. Metadata supplies only iLovePDF producer and 27 February 2023 modification time. Neither pages nor metadata identify Helwan University, faculty, module, cohort, exam, year or sitting; the manifest explicitly classifies the source as external. |
+
+The assigned SHA-256, byte size, native-text state and 29-page boundary were recomputed and
+match. All 29 pages were rendered at 120 dpi and visually read in ordered contact sheets,
+with every numbering transition and page-bottom answer row checked at full resolution.
+
+| Physical boundary | Visible sequence | MCQ prompts | Printed keys |
+|---|---|---:|---:|
+| pp. 1–8 | thigh/femoral-region bank, Q1–Q38 | 38 | 38 |
+| p. 9 | blank `NOTES` separator | 0 | 0 |
+| pp. 10–17 | thigh/gluteal-region bank, Q1–Q38 | 38 | 38 |
+| pp. 18–23 | leg/foot bank, Q1–Q35 | 35 | 35 |
+| p. 24 | blank `NOTES` separator | 0 | 0 |
+| pp. 25–29 | hip/knee/ankle/foot-joints bank, Q1–Q24 | 24 | 24 |
+| **Complete source** | **four separately numbered banks** | **135** | **135** |
+
+Each assessment page prints the answer letters for that page's numbered questions along its
+lower margin; these are source key evidence, not annotations inferred from question wording.
+Arithmetic is `38 + 38 + 35 + 24 = 135`. The exact LCS boundary is therefore **135 external
+MCQs / 135 printed keys / 0 written prompts / 0 unkeyed occurrences**. Every prompt concerns
+lower-limb regional Anatomy, so there is no out-of-module exclusion. Source spelling,
+capitalization and answer letters are preserved without medical correction.
+
+### Practical, image and teaching boundary
+
+All assessment occurrences are prose-only. The page-bottom answer rows and two empty
+`NOTES` pages are not anatomical images, teaching pages or practical work. There is no
+specimen, radiograph, micrograph, clinical photograph, masked label, response blank,
+apparatus task or learner-completed map. The source adds **0 practical prompts / 0 teaching
+plates / 0 mappings / 0 practical residues / 0 practical keys / 0 teaching scopes**.
+
+### Source-first handles, exact searches and prior-external reconciliation
+
+The 135 occurrences collapse to **21 source-distinct tested handles**: fascia lata and
+iliotibial tract; femoral triangle/sheath/canal and adductor canal; femoral, saphenous and
+thigh cutaneous nerves; anterior thigh and quadriceps; medial thigh and obturator nerve;
+gluteal muscles/nerves and Trendelenburg mechanics; deep gluteal region and sciatic foramina;
+sciatic nerve course and lesions; posterior thigh and hamstrings; popliteal fossa; lateral
+leg and superficial fibular nerve; anterior leg and deep fibular nerve; posterior leg and
+tibial nerve; lower-limb cutaneous territories; ankle retinacula and dorsum of foot; sole
+layers and intrinsic foot muscles; foot arches/supports; lower-limb arteries/veins/
+lymphatics; hip joint; knee joint; and ankle/subtalar/tibiofibular joints. Repeated regional
+wording across the four banks does not create duplicate handles.
+
+Each handle received one fresh search in the live, pending/import-ready, prior source-import
+and accepted-LCS surfaces: **21 × 4 = 84 required search invocations**. Prior-external-first
+comparison finds all 21 represented across Families 86, 88, 94, 103, 113–131 and 133.
+Accepted Families 39–48 corroborate curricular fit but cannot promote this named external
+bank into eligible Helwan evidence. Reconciliation is **21 prior-external reuses + 0 external
+additions = 21**; eligible and external concept-state deltas are zero. To preserve worktree
+`tmp/`, all pagewise OCR and search ledgers were generated outside the worktree under
+`/private/tmp/lcs103-family134/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **5,946 / 5,680 / 221 = 12 / 135 / 74** to **6,081 external prompts / 5,815
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic
+is `5,946 + 135 = 6,081`, `5,680 + 135 = 5,815`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical
+delta from this source is zero.
+
+This source hash occurs once in the Family-133 remainder. Removing its sole path leaves **96
+all-rank path instances / 91 unique hashes**: tier 3 **14 paths / 14 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 133's prior checksums are
+`b015fe3355f10051f4cc69300ae2b9b81401fe2e8ef88ddeff58bc75ab948bb1` (paths) and
+`f3e3ca9cfb20672991dd6a1ffa8b33aa8763925741887695a75161fad1e96660` (unique hashes).
+For the exact post-Family-134 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`53a815446e86b9fb53e6a78b34bc8ce9f700dfe9c7112c5b422d67f123fe927a`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`af8f8ff22299cabda4659d21a9a9f56668999288f6fec36e35bf472a2a974708`.
+
+The exact next tier-3 manifest-order debt is the separate normalized-name path
+`src_8799bc2870fcaf648a13`, `MCQs - Head_Neck _mcqs.pdf` (92,907 bytes; 22 physical
+pages; SHA-256 `8799bc2870fcaf648a13dded620216df36918eca4517871f1807dc5585237caf`).
+Family 126 already proved this file bitwise identical to its external-prefixed manifest twin,
+so the next family requires path adjudication with zero second content inventory. **Overall
+LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 96 tier-3/tier-6/rank-9 path debts remain.
+No download, source edit, ID, content record, catalogue update, import or source copy was
+created.
