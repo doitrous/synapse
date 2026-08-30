@@ -9941,3 +9941,88 @@ Faculty of Medicine, Helwan University; PDF metadata gives only an iOS Quartz pr
 April 25, 2025 creation/modification timestamp. Its complete teaching/prompt/key boundary,
 visible-versus-metadata provenance, search ledger, and prior-BMS relationship are the exact next-
 source blockers.
+
+## Family 90 — annotated Cell Injury 2 teaching lecture
+
+### Source identity, render boundary, and visible provenance
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_773f093ae8b1b8ffe7f7` · manifest `Cell injury 2  (1).pdf.pdf` · local normalized filename `Cell injury 2 (1).pdf` |
+| SHA-256 / size | `773f093ae8b1b8ffe7f7c42a5f96e025f4f4a3ed7a3f6f29dfbc24278a031940` · 7,227,492 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / complete read boundary | 38 native-text landscape pages; all 38 rendered at 100 dpi and visually read at original resolution. Thirty-five renders are non-empty 1099×618-pixel images; pages 7, 8, and 11 are non-empty 1099×777-pixel images. |
+| Native layer | 1,396 words / 10,952 bytes extracted across the complete PDF. Image- and handwriting-heavy pages 5–11, 16, 19, 27, and 37–38 contain little or no native text, so the rendered pages, rather than text extraction alone, establish the complete content boundary. |
+| Visible provenance | The cover visibly reads `CELL INJURY 2`, `Dr/ Enas Megahed Elhosary`, `Lecturer of Pathology`, `Faculty of Medicine`, and `Helwan University`. This supports Helwan authorship and instructor attribution; no academic year, teaching date, or exam sitting is visible. |
+| Metadata caution | PDF producer is `iOS Version 18.3.2 (Build 22D82) Quartz PDFContext`; creation and modification timestamps are April 25, 2025. Those file-production fields are secondary metadata and do not independently establish a lecture delivery date, academic year, or assessment sitting. |
+| Authority | Tier-6 annotated lecture notes. The slides and handwriting are teaching material, not an assessment instrument or official answer key. |
+
+### Page-first teaching, image, annotation, and prompt/key inventory
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---|
+| 1 | Lecture cover and visible Helwan/instructor identity | provenance only |
+| 2 | Objectives and intended learning outcomes for cell injury | teaching objectives; no command requiring a source response |
+| 3–11 | Apoptosis definition and physiological/pathological roles; morphology, apoptotic bodies, intrinsic/mitochondrial and extrinsic/death-receptor pathways, caspase initiation/execution, labelled histology, necrosis comparison, and dysregulated-apoptosis consequences | completed printed/handwritten teaching diagrams and labels; no assessment task |
+| 12 | Completed feature-by-feature necrosis-versus-apoptosis table | teaching comparison, not a blank table or answer register |
+| 13–20 | Intracellular-accumulation classes; hyalinosis definition/examples and labelled micrographs; mucoid change; hydropic degeneration definition, morphology, examples and micrographs; endogenous/exogenous pigment classification | declarative teaching plates with completed labels and annotations |
+| 21–25 | Pathological pigmentation; melanin increase/decrease; hemosiderin, hemosiderosis and hemochromatosis; gross/microscopic effects; lipofuscin and brown atrophy | declarative teaching and emphasis only |
+| 26–33 | Amyloidosis definition, morphology and stains; labelled renal micrographs; systemic/localized AL/AA patterns; renal, hepatic, splenic, cardiac, and gastrointestinal amyloidosis | completed teaching text and labelled images; no image-identification station |
+| 34–37 | Pathologic calcification definition/morphology, dystrophic versus metastatic types, gout morphology, and labelled gross/microscopic gout images | declarative teaching and completed labels; no practical task or response blank |
+| 38 | `Thank you` closing slide | non-assessment closing residue |
+
+Highlights, circles, arrows, underlines, color changes, and handwritten additions mark teaching
+emphasis, explanations, or completed image labels; they do not encode answer correctness. Page
+4's handwritten `why???` beside the absence of inflammation in apoptosis is immediately answered
+by the same teaching annotation (`membrane remains intact`). Page 18's handwritten `what makes it
+different from Cloudy Swelling?` is likewise immediately answered on-slide (`Cloudy swelling
+shows granularity`). Both are instructor/audience-rhetorical teaching transitions embedded in
+completed explanatory material, not assessment prompts, answer-key entries, or student-response
+residues.
+
+There is no exam heading, numbered question set, candidate command, option set, response frame,
+unanswered blank, written exercise, practical station, image-identification request, student
+response, mark allocation, or separate printed key anywhere in the 38 pages. The source therefore
+contributes **0 prompt occurrences / 0 printed answer occurrences / 0 prompt-like residues / 0
+retained records / 0 source-distinct tested handles / 0 concept additions**.
+
+### Source-first zero gate and cumulative arithmetic
+
+The lecture thematically overlaps prior BMS-102 cell-injury, apoptosis, intracellular-deposit,
+amyloidosis, calcification, and inflammation evidence, but declarative overlap does not create an
+assessment handle. With no accepted handle, the source-first gate is exactly **0 handles × 4 = 0
+required searches**; no external or prior-BMS search row is fabricated.
+
+| Measure | Family 90 | Auxiliary cumulative (Families 12–90) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 845 | 765 | 1,610 |
+| Printed answer occurrences | 0 | 468 | 405 | 873 |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 787 | 552 | 1,339 |
+| Source-distinct tested handles / required searches | 0 / 0 | 711 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +486 over primary | 372 | `372 + 486 = 858` |
+| **Distinct tested concepts** | **+0** | **486 auxiliary additions** | **372** | **858** |
+
+The checksum closes: `0` accepted prompts yield `0` answer occurrences, residues, retained
+records, handles, searches, external dispositions, prior-handle reuses, or concept additions.
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**845 / 468 / 787 / 711 / +486**; and all eligible evidence remains
+**1,610 / 873 / 1,339 / 858**. Family 90 cannot raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status.
+
+### Exact next debt after Family 90
+
+`src_773f093ae8b1b8ffe7f7` is exhausted across all 38 pages: every visible provenance field,
+teaching objective, printed and handwritten explanation, completed table/diagram/image label,
+rhetorical-question boundary, highlight/annotation convention, closing residue, prompt/key
+absence, zero search gate, and unchanged arithmetic term is assigned once, with **zero source
+remainder** and no Family-90 blocker. The exact next manifest-ordered BMS-102 record is tier-6
+`src_0de803ae1ae7c84c714c` · `Cell injury 2-1.pdf`, SHA-256
+`0de803ae1ae7c84c714cea35b1e6591a4037f290540f8c3844121bf31af4ba7b`, 8,131,455 bytes,
+one OCR-needed 4840×2692-point landscape page under `Pathology / Notes and Summaries`. Its
+manifest OCR snippet begins with endogenous/exogenous pigments and intracellular accumulation,
+while iOS Quartz metadata gives a March 1, 2026 production timestamp. Its complete rendered
+content, visible provenance, metadata/date limitation, teaching/prompt/key boundary, and possible
+single-page overlap with Family 90 are the exact next-source blockers.
