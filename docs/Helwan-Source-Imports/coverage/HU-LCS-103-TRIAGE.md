@@ -12502,3 +12502,100 @@ The exact next tier-3 manifest-order debt is `src_e485f9a54ca69f3f1a6f`,
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 122 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 109 — Tier-3 external Anatomy Lecture 3 hip-and-knee keyed question set
+
+### Exact identity, provenance and complete nine-page boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_e485f9a54ca69f3f1a6f` / `e485f9a54ca69f3f1a6fb2be0ff686a5b59c93a7946e4acf228eb17bc10b5575` |
+| File / boundary | `MCQs - External MCQs Anatomy Lecture 3.pdf` · 292,210 bytes · unencrypted, untagged PDF · 9 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy Lecture 3.pdf` |
+| Visible / container provenance | The document heading is `Anatomy Lecture 3 Questions:`. PDF metadata names author `312308310 Arwa Atef Mohamed Mohamed`, Microsoft Word 2016 creator/producer and 16 July 2024 creation/modification. It prints no Helwan University, faculty, LCS-103 cohort, sitting or official-key mark. |
+| Authority finding | External student/review question set under the manifest's explicit `External MCQs` path. Every prompt fits LCS-103 hip-and-knee Anatomy, but none is eligible Helwan assessment evidence. |
+
+The assigned hash, byte size and nine-page boundary were recomputed and match. Native text
+was extracted, all nine pages were rendered at 150 dpi and read visually in source order from
+Q1 through the complete answer-grid endpoint. The source PDF itself was not changed.
+
+| Physical pages | Visible units | MCQ prompts | Written/fill/list prompts | Printed keys/answers |
+|---|---|---:|---:|---:|
+| p. 1 | Q1–Q6 | 6 | 0 | 6 |
+| p. 2 | Q7–Q12 | 6 | 0 | 6 |
+| p. 3 | Q13–Q19 | 7 | 0 | 7 |
+| p. 4 | Q20–Q26 | 7 | 0 | 7 |
+| p. 5 | Q27–Q37 | 6 | 5 | 11 |
+| p. 6 | Q38–Q43 | 6 | 0 | 6 |
+| p. 7 | Q44–Q49 | 5 | 1 | 6 |
+| p. 8 | Q50–Q57, then one unnumbered arterial-supply callout | 5 | 3 | 8 |
+| p. 9 | answer grid Q1–Q57 | 0 | 0 | 0 additional prompts; 57 answers total above |
+| **Family 109** | **Q1–Q57 once each** | **48** | **9** | **57** |
+
+All nine written/fill/list prompts—Q31–Q33, Q35–Q36, Q49 and Q53–Q55—have printed
+short or enumerated answers. No prompt is unkeyed. The post-Q57 sentence states that knee
+arterial supply uses all genicular arteries and the tibial recurrent artery; it is **one
+declarative teaching-only callout**, not a numbered request, answer reveal or extra tested
+occurrence. Narrative material embedded in numbered stems remains part of those questions.
+There is no illustration, specimen, radiograph, micrograph, practical station, masked label,
+apparatus task or response form. Practical delta is exactly **0 prompts / 0 plates /
+0 mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 57 occurrences form the following exhaustive one-assignment partition:
+
+| Source-first tested handle | Assigned prompts | Occurrences |
+|---|---|---:|
+| hip-joint type, capsule and acetabular labrum | Q1–Q3 | 3 |
+| hip-joint ligaments and stability | Q4–Q11 | 8 |
+| hip-muscle actions and movements | Q12–Q29 | 18 |
+| hip-joint arterial and nerve supply | Q30–Q31 | 2 |
+| hip-dislocation causes | Q32 | 1 |
+| knee-joint type, capsule and stabilizers | Q33–Q36 | 4 |
+| knee bursae and synovial relations | Q37–Q40 | 4 |
+| knee intracapsular structures and menisci | Q41–Q42, Q46 | 3 |
+| anterior and posterior cruciate ligaments | Q43–Q45 | 3 |
+| collateral, arcuate and oblique popliteal ligaments | Q47–Q50 | 4 |
+| popliteus tendon, locking and actions | Q51–Q52, Q54, Q56 | 4 |
+| knee rotation and extensors | Q53, Q55, Q57 | 3 |
+| **Family 109** | **Q1–Q57 once each** | **57** |
+
+Each of the **12 handles** received one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **12 × 4 = 48 required search invocations**.
+Prior-external-first comparison finds all 12 already represented in Family 86's lower-limb
+joint compilation; Families 46 and 64–65 independently own or corroborate the curriculum
+scopes but cannot promote this external source. Reconciliation is **12 prior-external reuses
++ 0 external additions = 12**, so external and eligible concept-state deltas are both zero.
+The exact 48-query ledger is preserved at
+`tmp/pdfs/lcs103-family109/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **3,272 / 3,185 / 221 = 12 / 135 / 74** to **3,329 external prompts / 3,242
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `3,272 + 57 = 3,329`, `3,185 + 57 = 3,242`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. The teaching-only callout adds no assessment occurrence or tested
+handle. Practical totals remain **7 prompts / 458 plates / 2,691 mappings / 149 residues /
+0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-108 remainder. Removing its sole path leaves
+**121 all-rank path instances / 113 unique hashes**: tier 3 **39 paths / 36 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 108's prior checksums are
+`64a0d67dcb9e5e0b3e9c006fedbaf8dfeb9642dd135f7371cbad26733a694477` (paths) and
+`f67ada1d34bc04407227b777fe68d3443c4a59dbf8d3acc4e69147b20701a966` (unique hashes).
+For the exact post-Family-109 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b51e6103accfea2c9b134f1d101e68213e459bc0fcfd8d9aed2544f28cd9069d`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`fcaa0a2d513516721c1abf65cd07bffff411077308fd6da8c91f9b7bb1f0d3e0`.
+
+The exact next tier-3 manifest-order debt is `src_bfa0f375372fa3714e09`,
+`MCQs - External MCQs Anatomy Lecture 4.pdf` (289,439 bytes; 9 native pages; SHA-256
+`bfa0f375372fa3714e09c3320df27f9e6a56d8263d4fdf3a246a08f0e6305403`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 121 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
