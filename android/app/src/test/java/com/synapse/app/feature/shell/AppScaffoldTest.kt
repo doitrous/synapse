@@ -112,6 +112,29 @@ class AppScaffoldTest {
     }
 
     @Test
+    fun clickingTheFlashcardsBottomNavItemRendersFlashcardsContentSeam() {
+        composeTestRule.setContent {
+            val navController = rememberNavController()
+            SynapseTheme(ThemeChoice.Light) {
+                AppScaffold(
+                    navController = navController,
+                    themeChoice = ThemeChoice.Light,
+                    onThemeChange = {},
+                    dashboardContent = { Text("Dashboard") },
+                    flashcardsContent = { Text("FlashcardsStandIn") },
+                )
+            }
+        }
+
+        // Flashcards IS in the curated bottom bar (see PRIMARY_ROUTES), so drive it the same
+        // way the "Library" placeholder test does.
+        composeTestRule.onNodeWithTag(bottomNavItemTag(FLASHCARDS_ROUTE)).performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Flashcards")
+        composeTestRule.onNodeWithText("FlashcardsStandIn").assertIsDisplayed()
+    }
+
+    @Test
     fun clickingTheThemeActionInvokesTheCallback() {
         var lastChoice: ThemeChoice? = null
         setScaffold(onThemeChange = { lastChoice = it })

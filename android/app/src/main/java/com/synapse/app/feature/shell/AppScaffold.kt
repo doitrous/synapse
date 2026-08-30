@@ -31,6 +31,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.synapse.app.design.ThemeChoice
 import com.synapse.app.feature.dashboard.DashboardScreen
+import com.synapse.app.feature.flashcards.FlashcardsRoot
 import com.synapse.app.feature.placeholder.PlaceholderScreen
 import com.synapse.app.feature.qbank.QuestionBankRoot
 import kotlinx.coroutines.launch
@@ -72,7 +73,8 @@ fun bottomNavItemTag(route: String) = "app_scaffold_bottom_nav_item_$route"
  * `@HiltViewModel` via `hiltViewModel()`, requiring a Hilt-aware host activity). Tests that
  * compose [AppScaffold] under a plain (non-Hilt) test activity — e.g. a bare
  * `createComposeRule()` — can override it with a Hilt-free stand-in. [qbankContent]
- * (defaulting to [QuestionBankRoot], Task 6's Question Bank flow) follows the same seam.
+ * (defaulting to [QuestionBankRoot], Task 6's Question Bank flow) and [flashcardsContent]
+ * (defaulting to [FlashcardsRoot], Plan 05 Task 4's Flashcards flow) follow the same seam.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -82,6 +84,7 @@ fun AppScaffold(
     onThemeChange: (ThemeChoice) -> Unit,
     dashboardContent: @Composable () -> Unit = { DashboardScreen() },
     qbankContent: @Composable () -> Unit = { QuestionBankRoot() },
+    flashcardsContent: @Composable () -> Unit = { FlashcardsRoot() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -174,6 +177,7 @@ fun AppScaffold(
                         when (destination.route) {
                             DASHBOARD_ROUTE -> dashboardContent()
                             QUESTION_BANK_ROUTE -> qbankContent()
+                            FLASHCARDS_ROUTE -> flashcardsContent()
                             else -> PlaceholderScreen(title = destination.label)
                         }
                     }
