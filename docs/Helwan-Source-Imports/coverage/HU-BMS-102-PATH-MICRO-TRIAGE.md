@@ -14179,3 +14179,87 @@ exact next unprocessed manifest record is tier-6 `src_165dec8b80c5561564ec` ·
 heading, provenance and sitting-authority boundary, complete teaching-versus-prompt/answer
 inventory, source-first searches, prior-BMS reuse, and arithmetic are the exact next-source
 blockers.
+
+## Family 135 — Dr Ahmed Hassan completed mid-term revision collections
+
+### Source identity, complete native/visual boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_165dec8b80c5561564ec` · `تجميعات حلوان امتحان الميد ترم.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `165dec8b80c5561564ec084c025bd64532f8a85a355a9b23d20b6ab4eba10c2a` · 161,301 bytes |
+| Format / complete visual boundary | 18 native-text portrait A4 pages, each 595.32×841.92 points. All 18 pages rendered at 180 dpi into 18 non-empty 1489×2105-pixel images and were read individually; native layout and raw extraction were also read through the final page separator. There is no page, bullet, table, footer, image, annotation, or text remainder. |
+| Native-text reality | The coherent native layer contains 3,725 layout words; it agrees with the rendered pages, including the page-one title, topic headings, declarative bullets, tables, author footers, and page numbers. This is a genuinely native carrier, not a raster scan disguised by a nominal text layer. |
+| Visible provenance | Page 1 visibly reads `Mid-term Collections`; every page footer visibly reads `DR. Ahmed Hassan`, and pages are numbered `Page | 1` through `Page | 18`. No page visibly names Helwan University, a faculty, BMS-102, an academic year, an exam date, a cohort, a sitting, a committee, or a mark allocation. Visible authorship belongs to Dr Ahmed Hassan; folder/manifest placement supports Helwan BMS-102 routing only. |
+| Metadata caution | PDF metadata reports author `Alnoaman`, Microsoft Word 2019 as creator/producer, and creation/modification on 2025-04-16. `Alnoaman` conflicts with the repeated visible Dr Ahmed Hassan footer, so it is retained only as file-production metadata. The timestamp is likewise a production timestamp, not a verified teaching year or mid-term sitting date. |
+| Authority | Tier-6 pathology revision handout. The title's `Mid-term Collections` wording describes the collection's study purpose, but cannot authenticate a Helwan mid-term paper or sitting without any assessment marker in the complete carrier. It is not a candidate paper, response sheet, practical station set, answer register, or official institutional key. |
+
+### Complete page-first teaching, prompt, answer, and practical boundary
+
+| Pages | Complete visible content | Boundary ruling |
+|---:|---|---:|
+| 1 | `Mid-term Collections` / `Introduction`: etiology, pathogenesis, prognosis, complications, frozen-section handling, formalin, IHC, and special-stain reference table | Completed definitions and reference mappings; **0 prompts / 0 answers**. |
+| 2–5 | `Cell injury`: hypoxia/ischaemia, adaptations, degeneration, necrosis/apoptosis, hyaline and amyloid changes, pigments, calcification, and disease-association summaries | Declarative revision bullets and tables; **0 / 0**. |
+| 6–11 | `Inflammation`: acute mediators/cells, suppurative and non-suppurative patterns, chronic inflammation and granulomas, toxemia/bacteremia/septicemia/pyemia, bilharziasis, syphilis, actinomycosis, and tuberculosis | Completed teaching facts and mappings; **0 / 0**. |
+| 12–16 | `Circulatory`: hyperaemia/congestion, oedema, haemorrhage terms, shock, thrombosis, embolism, ischaemia, and infarction | Declarative summaries, definitions, comparisons, and mnemonics; **0 / 0**. |
+| 17–18 | Infarction morphology and dry, wet, gas, and diabetic gangrene; page 18 ends after the completed diabetic-gangrene statement | Completed teaching bullets; **0 / 0** and no trailing residue. |
+
+The source supplies **no assessment syntax anywhere**. There is no interrogative stem, MCQ option
+set, `choose`, `mention`, `define`, `compare`, `complete`, true/false statement, blank, matching
+instruction, candidate direction, response area, handwritten response, correction mark, answer
+reveal, or score. Its tables pair already stated subjects with completed explanatory facts and do
+not conceal either side. It also contains no gross specimen, microscope field, unlabeled diagram,
+station number, timed task, handling instruction, examiner checklist, or other practical record.
+
+Red and blue emphasis, underlining, arrows, abbreviations, and mnemonic phrases are document
+formatting inside completed notes; they are neither answer annotations nor printed-key signals.
+The English `Mid-term Collections` title and Arabic filename's `Helwan mid-term exam collections`
+wording cannot override the complete page-level absence of an exam, question, or answer boundary.
+The exact source boundary is therefore **0 raw assessment prompt occurrences / 0
+printed/source-supplied answer occurrences / 0 unkeyed prompt occurrences / 0 excluded
+question-form teaching callouts / 0 prompt-like residues / 0 retained records / 0 source-distinct
+tested handles**. All declarative pathology relations remain preserved as teaching evidence for
+later authoring without manufacturing questions from highlighted facts.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No accepted tested handle survives the complete teaching-only boundary. Exactly four searches are
+required only per accepted handle, so the source-first gate is exactly **0 handles × 4 = 0 required
+and completed searches**; no empty query or fabricated external-disposition row is added. The
+handout overlaps many prior BMS-102 teaching topics, but teaching-level semantic overlap is not a
+prior tested-handle reuse. Prior-BMS exact handle reuse is therefore **0** and concept delta is
+**+0**.
+
+| Measure | Family 135 | Auxiliary cumulative (Families 12–135) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,133 | 765 | 1,898 |
+| Printed/source-supplied answer occurrences | 0 | 700 | 405 | 1,105 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 1,068 | 552 | 1,620 |
+| Source-distinct tested handles / required searches | 0 / 0 | 952 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +609 over primary | 372 | `372 + 609 = 981` |
+| **Distinct tested concepts** | **+0** | **609 auxiliary additions** | **372** | **981** |
+
+The checksum closes without remainder: zero accepted prompts yield zero answer occurrences,
+unkeyed occurrences, residues, retained records, handles, searches, external dispositions,
+prior-handle reuses, or concept additions. Primary remains **765 / 405 / 552 / 372**; auxiliary
+remains **1,133 / 700 / 1,068 / 952 / +609**; and all eligible evidence remains
+**1,898 / 1,105 / 1,620 / 981**. Family 135 cannot establish a Helwan-authored or dated sitting,
+recurrence, formal mark weight, official key, student response, readiness, or claims status.
+
+### Exact next debt after Family 135
+
+`src_165dec8b80c5561564ec` is exhausted across all 18 pages: every visible heading, declarative
+bullet, table, formatting emphasis, footer, page number, native-text field, metadata field,
+authorship conflict, title-versus-assessment ruling, zero-search gate, prior-teaching relation, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-135 blocker. The
+exact next unprocessed manifest record is tier-6 `src_d02a10041b2c0c8531d6` ·
+`دفتر_القشطة_المصنونة_للدرجة_المضمونة.pdf`, SHA-256
+`d02a10041b2c0c8531d6aa4271e1f7197dbefb12a505113bb2f3aa430c32ff4a`, 4,990,402 bytes, 29
+native-text pages under `Pathology / Notes and Summaries`. Its complete `CHAPTER I`-starting
+native/visual boundary, visible and metadata provenance, teaching-versus-prompt/answer/practical
+classification, source-first searches, prior-BMS reuse, and arithmetic are the exact next-source
+blockers.
