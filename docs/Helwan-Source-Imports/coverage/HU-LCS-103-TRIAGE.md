@@ -17650,3 +17650,93 @@ The exact next manifest-order debt is tier-6 `src_d8f5ce54a5ff1e06ec77`, `Bone H
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 66
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 165 — Tier-6 Physiology of bone teaching lecture
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d8f5ce54a5ff1e06ec77` / `d8f5ce54a5ff1e06ec7763872946918d3e12ee72243d99705edb8a86fccfe7df` |
+| File / boundary | `Bone Helwan.pdf` · 898,870 bytes · PDF 1.7 · tagged · unencrypted · six native-text A4 pages · 595.32 × 841.92 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/Bone Helwan.pdf` |
+| Visible / metadata provenance | P. 1 prints `PHYSIOLOGY`, `LECTURE (2)`, `PHYSIOLOGY OF BONE` and `DR. ELSAWY`; the page does not print a university, cohort, sitting, date or key label. Metadata names author `Mamdouh`, Microsoft Word LTSC creator/producer and 3 July 2025 creation/modification. |
+| Authority finding | The manifest filename's `Helwan` label and local LCS-103 placement establish course-local teaching context, while the visible named lecture/lecturer establish authored teaching provenance. Neither establishes an examination sitting or marking-guide authority. |
+
+The assigned SHA-256, byte size, six-page count and A4 geometry were recomputed and match. All
+six pages were rendered at 120 dpi, inspected individually at full resolution and read against
+the complete native text layer. P. 1 is title/provenance. P. 2 teaches skeletal components,
+functions and composition; p. 3 teaches growth, remodelling, repair and bone-disorder groups;
+p. 4 teaches homeostasis, feedback architecture and biological calcium functions; p. 5 teaches
+calcium distribution, buffering and hormonal regulation; and p. 6 teaches calcium exchange and
+feedback between gut, extracellular fluid, kidney and bone.
+
+The source contains **five declarative theoretical teaching compositions** and **no assessment
+inventory**. There is no interrogative, instruction to respond, option set, blank, mark
+allocation, correctness mark, answer reveal or key convention. The exact boundary is therefore
+**0 eligible or external prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed prompts**.
+The tables, pie chart, fracture-repair sequence and calcium-flow/feedback diagrams have all
+labels supplied and are embedded in a theoretical lecture. They are not specimen stations,
+masked-identification tasks or learner response fields. The separate practical boundary is
+exactly **0 practical/station prompts / 0 practical teaching plates / 0 practical mappings / 0
+masked-or-unresolved practical residues / 0 practical assessment keys**.
+
+Source values are preserved without correction or harmonisation. In particular, p. 5 prints
+`98.9%` structural / `1%` cells-organelles / `0.1%` blood in its table and `99%` bone / `1%`
+body fluids in its adjacent chart, whereas p. 6 prints `85%` bone / `14%` cells / `1%` ECF.
+Those are three source states, not inferred alternatives or a new question/key boundary.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The five compositions collapse source-first to four complete teaching handles without dropping
+any printed relation:
+
+| Teaching handle / pages | Four required `find-existing` queries | Prior-LCS result |
+|---|---|---|
+| `skeletal-components-functions-and-bone-composition` · p. 2 | skeletal system axial appendicular components; bone structural metabolic functions; bone organic inorganic composition; bone mineral calcium phosphate carbonate | Accepted Family 76 owns the complete scope — prior-LCS reuse. |
+| `bone-growth-remodelling-repair-and-disorder-groups` · p. 3 | bone growth length width factors; bone remodelling roles calcium stress; bone repair hematoma callus ossification; rickets tumors osteomyelitis osteoporosis fracture | Accepted Family 76 owns the complete teaching composition, with Families 58/64 corroborating parts — prior-LCS reuse. |
+| `homeostasis-feedback-and-calcium-functions-distribution` · pp. 4–5 | homeostasis sensor integrating center effector; calcium intracellular extracellular functions; body calcium bone cells ECF distribution; ionized protein-bound complexed calcium | Accepted Family 76 owns the complete scope, with Families 53/72 corroborating calcium distribution — prior-LCS reuse. |
+| `calcium-buffering-hormonal-regulation-and-compartment-exchange` · pp. 5–6 | bone mitochondrial calcium buffers; PTH calcitonin vitamin D calcium regulation; calcium exchange gut kidney bone 1000 mg; calcium high low feedback loops | Accepted Family 76 owns the complete scope, with Families 53/72 corroborating the regulator core — prior-LCS reuse. |
+
+Each of the **four accepted handles** received exactly one search on each required surface: live
+state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger. That
+is **4 × 4 = 16 required search invocations**. Broad phrase matches exist on live/pending and
+other source-import surfaces for parts of the calcium and bone scopes, but exact source-level
+comparison is decisive: all four compositions are governed in accepted Family 76. Final
+disposition is therefore **4 prior-LCS theoretical-teaching reuses / 0 additive live / 0
+additive pending / 0 additive new scopes**. Declarative theoretical teaching scopes do not
+enter either eligible tested-concept totals or practical-scope totals.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals remain **20 prompts / 464 plates / 2,798 mappings / 149 residues / 13 keys**,
+and practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 165's practical
+delta is exactly **+0 / +0 / +0 / +0 / +0**.
+
+The exact source hash occurs twice in Family 164's remainder: this `Bone Helwan.pdf` path and
+the later `HU-Bone.pdf` path. Consuming only the present manifest path therefore removes one
+path but does not yet remove the shared unique hash. The all-rank remainder advances from **66
+paths / 61 unique hashes** to **65 / 61**: tier 3 remains **0 / 0**, tier 6 becomes **51 paths /
+50 unique hashes within tier**, and rank 9 remains **14 / 11**. Family 164's prior checksums are
+`b4706eb9a751ea9e792c716e5c492f6fe84cf7060b383ddaefb76675cfbfe651` (paths) and
+`e9d44aa1c0b334c36127d147c48508285b00cb27a99b45d441f26c66c69734bb` (unique hashes).
+For the exact post-Family-165 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`e9f873d02a5440fc6500e87bd79c1ad0476fdde2073537bad9e8f462c199296f`;
+SHA-256 over sorted unique `sha256<LF>` rows remains
+`e9d44aa1c0b334c36127d147c48508285b00cb27a99b45d441f26c66c69734bb`.
+
+The exact next manifest-order debt is tier-6 `src_38157b7206bda5923bb1`,
+`DOC-20250628-WA0012_250703_123625 (1).pdf` (2,035,997 bytes; 15 native-text pages;
+unencrypted; 367.7 × 520.118 pt; SHA-256
+`38157b7206bda5923bb1f4a92e99f201304ea32ba0e9a1c44b362f31aa6dce19`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 65
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
