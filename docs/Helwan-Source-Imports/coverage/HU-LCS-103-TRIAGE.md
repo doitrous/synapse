@@ -15590,3 +15590,100 @@ The exact next tier-3 manifest-order debt is `src_d24024cfcd418918201f`, manifes
 unclassified until every page is read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 88 tier-3/tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 143 — Tier-3 direct LCS Pathology solved joint-disease MCQ bank
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_d24024cfcd418918201f` / `d24024cfcd418918201fea7f9ce01eacae96fd68874b0fb532b08822eb4e8063` |
+| Manifest / local file | Manifest `MCQs - joint mcq with answers.pdf.pdf`; existing normalized local `MCQs - joint mcq with answers.pdf` |
+| File / boundary | 67,855 bytes · untagged, unencrypted PDF 1.3 · 7 physical 612 × 865.368 pt native-text pages |
+| Manifest placement | `HU-LCS-103` · Pathology · Practical Labs/CBLs · tier 3 · solved copy |
+| Manifest / resolved local corpus path | Manifest `Year 1/LCS 103/Pathology/Practical Labs/CBLs/MCQs - joint mcq with answers.pdf.pdf`; existing exact-hash local `Year 1/LCS 103/Pathology/Questions/MCQs/MCQs - joint mcq with answers.pdf` |
+| Visible / metadata provenance | Page 1 is headed only `Joint Pathology MCQs`; no page names Helwan University, LCS-103, a faculty, instructor, cohort, sitting or exam. Metadata exposes only iOS Quartz producer and 9 June 2026 creation/modification. |
+| Authority finding | Manifest/path-placed local LCS-103 Pathology solved question-bank evidence, eligible under the standing direct course-bank lane. It is not a recoverable sitting paper, response form, practical station sheet or official answer key; the inline `Answer:` units remain source-printed answer evidence rather than official-key authority. |
+
+The assigned SHA-256, byte size and seven-page physical boundary were recomputed and match.
+All seven pages were rendered at 144 dpi and read visually against the complete native text
+layer. Pages 1–6 contain a continuous Q1–Q25 sequence; p. 7 is a genuinely blank trailing
+page. Each numbered item has five prose options and an immediate bold `Answer:` letter. Four
+items cross a page boundary, but each numbered stem remains one occurrence and each answer
+remains attached once. The complete boundary is therefore **25 ordinary eligible MCQ
+occurrences / 25 directly printed answer letters / 0 unkeyed occurrences / 0 written prompts**.
+
+The source-first topic allocation is Q1–Q4 osteoarthritis; Q5–Q8 rheumatoid arthritis; Q9–Q11
+suppurative/septic arthritis; Q12–Q13 tuberculous arthritis/Pott disease; Q14–Q16 gout;
+Q17–Q18 pseudogout; Q19–Q20 ganglion cyst; Q21–Q22 bursitis; Q23–Q24 chordoma; and Q25
+chondroblastoma. The printed sequence is retained literally as
+`B,C,B,C,C,B,C,A,C,C,B,B,C,C,C,B,D,D,B,B,C,B,D,B,B`. No answer is inferred, repaired or
+promoted beyond the source; the RF/leprosy, chronic-bursitis-cell and tumour-histology choices
+remain source claims for later medical review.
+
+### Practical and teaching boundary
+
+Despite the manifest's `Practical Labs/CBLs` placement, the source contains only prose MCQs
+and inline answers. There is no gross specimen, radiograph, photomicrograph, clinical image,
+diagram, station, apparatus task, masked label, learner-completed map, response blank or
+standalone teaching composition. Page 7 is blank rather than a practical or teaching plate.
+The source adds **0 practical prompts / 0 teaching plates / 0 mappings / 0 practical residues /
+0 practical keys / 0 teaching scopes**.
+
+### Source-first collapse, exact searches and prior-LCS reconciliation
+
+The 25 occurrences consolidate to **10 source-distinct disease-level tested handles**. Each
+individual question remains inventoried; collapse only prevents repeated facts within the same
+disease cluster from inflating concept state.
+
+| Handle / source questions | Live query | Pending query | Prior-import query | Accepted-LCS query | Prior adjudication |
+|---|---|---|---|---|---|
+| Osteoarthritis clinic/radiology/morphology · Q1–Q4 | `primary secondary osteoarthritis causes` | `osteoarthritis Heberden nodes` | `osteoarthritis joint space osteophytes loose bodies` | `osteoarthritis microcysts damaged cartilage` | exact accepted Families 12, 18–19, 65 and 79 disease core; prior eligible reuse |
+| Rheumatoid-arthritis clinic/serology/synovial morphology · Q5–Q8 | `rheumatoid arthritis systemic manifestations` | `rheumatoid factor ESR ulnar deviation` | `rheumatoid synovium villous hypertrophy` | `rheumatoid lymphoid follicles histology` | accepted rheumatoid clinical, comparison and serologic handles own the core; prior eligible reuse |
+| Suppurative/septic arthritis · Q9–Q11 | `suppurative arthritis hematogenous spread` | `septic arthritis causative organisms` | `infectious arthritis joint effusion neutrophilic leukocytosis` | `suppurative arthritis immunocompromised` | Family 65 is teaching-only and no prior eligible tested handle owns this complete route/clinical/laboratory scope; new |
+| Tuberculous arthritis/Pott disease · Q12–Q13 | `tuberculous arthritis hematogenous spread` | `Pott disease tuberculous spondylitis` | `tuberculous arthritis caseating tubercles` | `tuberculous joint rice bodies caries` | prior Pott diagnosis is narrower and Family 65 is teaching-only; new |
+| Gout/podagra/urate · Q14–Q16 | `gout purine metabolism hyperuricemia` | `gout clinical stages` | `podagra monosodium urate tophi` | `gout tophus histology giant cells` | exact live and accepted Families 17–21, 62 and 79 scope; prior eligible reuse |
+| Pseudogout/CPPD · Q17–Q18 | `pseudogout calcium pyrophosphate` | `pyrophosphate arthropathy` | `pseudogout metabolic associations` | `CPPD elderly joint disease` | accepted Family 79 gout-versus-pseudogout comparison owns the crystal distinction; prior eligible reuse |
+| Ganglion cyst clinic/pathology · Q19–Q20 | `ganglion cyst dorsum wrist` | `ganglion clear mucinous fluid` | `ganglion cyst synovial lining histology` | `ganglion cyst pathogenesis` | exact accepted Families 21, 62 and 79 scope; prior eligible reuse |
+| Bursitis clinic/histology · Q21–Q22 | `bursitis mechanical trauma` | `housemaids knee tennis elbow bursitis` | `bursitis thick walled bursal sac` | `bursitis granulation tissue histology` | prior popliteal-bursitis assessment is narrower and Family 65 is teaching-only; new |
+| Chordoma clinic/histology · Q23–Q24 | `chordoma notochord origin` | `chordoma sacral spheno-occipital` | `chordoma physaliphorous cells` | `chordoma gelatinous gross histology` | exact accepted Family 63 origin/microscopy handle; prior eligible reuse |
+| Chondroblastoma clinic/radiology/histology · Q25 | `chondroblastoma epiphysis under 20` | `chondroblastoma calcified lytic lesion` | `chondroblastoma chicken wire calcification` | `chondroblastoma giant cells histology` | prior epiphyseal-tumour differential is narrower and Family 65 is teaching-only; new |
+
+All **10 × 4 = 40 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **6 prior eligible reuses + 4 new eligible concepts = 10 handles**. The four
+additions enter the new state: module concept delta is **0 live / 0 pending / 4 new**. Search
+matches establish coverage only and do not supply or alter answer text. Search/render scratch
+stayed outside the worktree under `/private/tmp/lcs103-family143/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **850 / 560 / 326 = 12 / 108 / 206** to **875 observed
+questions / 585 printed keys-or-answers / 330 distinct tested concepts = 12 live / 108 pending /
+210 new**. Arithmetic is `850 + 25 = 875`, `560 + 25 = 585`, `326 + 4 = 330`, and `12 +
+108 + 210 = 330`. The external-bank checkpoint remains **6,753 external prompts / 6,487
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 142's remainder. Removing its sole path leaves **87
+all-rank path instances / 82 unique hashes**: tier 3 **5 paths / 5 unique hashes within tier**,
+tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 142's prior checksums are
+`0b3f1154080e9f8d6e152162f23e77589c2db639c33923af409e1a89d576d50b` (paths) and
+`cee78e1a98358c38e0bc1451ca565ef610c7578337225e7ccc94fd854403ed94` (unique hashes).
+For the exact post-Family-143 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`cd3965ce89df13cd81e5ac3f0f4ef762ae763a2f4f41761c585421c0fd402a69`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`2673ca75a20f0158c4b7eea489d70fc0b44bcbea212e0d58102c839f00731ae4`.
+
+The exact next tier-3 manifest-order debt is `src_3cd2b338713b01fb5bf1`,
+`MCQs - College MCQs Document (3) Physiology MCQs.pdf` (207,653 bytes; 39 physical
+native-text pages; SHA-256
+`3cd2b338713b01fb5bf1f95e2dc396daaf5ca4e66ec9be2d03e8d151111b9176`) under
+`Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until every page is read.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 87 tier-3/tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
