@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "803841ffb02dae8a16073b179b8d03cf4e453a79895d9b387143eb91c6161565",
-    "triageMarkdown": "f3fb26695ef2b1de4aeae2483d07dfc7a3190e69339e54304c092f69dbcee7bd"
+    "readinessMarkdown": "8ac37b542d3ce9a1f8f86a9f6cbad36dcc88eac0e8aa3c0d207fd5ac380f38b2",
+    "triageMarkdown": "5c6823b360dfb25d008645efdf5e2f72ee22ecf4cfff475c7bcec0d2a607831f"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -97,6 +97,7 @@
       "841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296",
       "847876aeedd56f64c339aa61f8829131dcc9ff8f9eede1dc3be0ad656ce80124",
       "91e3d840f2296c8ef07243176d3daece0a7c2023ad0aa82f80527e5f4ecb39d7",
+      "95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c",
       "9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84",
@@ -143,7 +144,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 91
+    "uniqueSha256": 92
   },
   "completedSourceCoverage": [
     {
@@ -2962,6 +2963,38 @@
         "question marks before Location, Afferent and Efferent function as study-note headings rather than response instructions",
         "arrows and fully labeled diagrams are teaching annotations and are not manufactured into practical prompts"
       ]
+    },
+    {
+      "sha256": "95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "teachingPages": "1-3",
+      "clinicalTeachingProfiles": 3,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Yumna handwritten teaching notes scanned with CamScanner and produced through iOS 17.7 Quartz on 31 October 2024; page 2 bears a handwritten 28 October 2024 date, but no institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "three teaching-only notebook pages profile complete brachial-plexus injury, upper-trunk injury and lower-trunk injury through immediately supplied causes, motor effects, sensory effects and named exceptions; Cause, Results, motor changes and sensory changes question-mark shorthand is followed inline by explanatory content and creates no objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "handwritten spelling, bilingual annotations, edge-clipped phrases and selective clinical statements remain uncorrected source observations",
+        "the page-1 exception note and page-2 loss-of-sensation arrow are retained only as visibly supplied teaching content and are not reconstructed",
+        "question marks function as note headings rather than response instructions"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2973,20 +3006,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 10,
-    "uniqueSha256": 10,
-    "sortedNewlineSha256": "bd4c2f0af06ff1fe9b68d226ada24125cd1f044d832092c7223623b39e8d6593",
+    "inventoryMetadataRows": 9,
+    "uniqueSha256": 9,
+    "sortedNewlineSha256": "d7b0a8a798f79c77fbfd8c3557f37a8a4da26f7f3697817817407bdd4955e6fe",
     "auditSampleStatusCounts": {
-      "audit-not-found": 10
+      "audit-not-found": 9
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 10
+    "audit-not-found": 9
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 91,
-    "remainingUniqueSha256": 10,
+    "processedUniqueSha256": 92,
+    "remainingUniqueSha256": 9,
     "processedPlusRemaining": 101
   }
 }

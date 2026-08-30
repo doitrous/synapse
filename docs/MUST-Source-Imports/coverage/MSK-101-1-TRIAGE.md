@@ -3675,3 +3675,41 @@ Removing the ninety-one processed unique hashes leaves **10 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Injuries brachial plexus (By Yumna).pdf`, SHA-256 `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2`, 3 pages.
 
 **BLOCKED — S1 cannot be approved:** 10 selected inventory paths / 10 unique hashes remain untriaged.
+
+## Completed teaching-only source — Injuries brachial plexus (By Yumna)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Injuries brachial plexus (By Yumna).pdf` | `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2` | 3 | audit-not-found inventory label | pages 1–3 rendered and read | Filename-attributed Yumna handwritten notes, watermarked and metadata-authored by CamScanner, produced through iOS 17.7 Quartz on 31 October 2024. Page 2 bears a handwritten 28 October 2024 date. No institution, department, examiner, examination sitting, marks or official key appears. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Injuries brachial plexus (By Yumna).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+The three scanned notebook pages are teaching profiles. Page 1 covers complete brachial-plexus injury, including traction causes, motor and sensory effects and immediately supplied sensory exceptions. Page 2 covers upper-trunk injury, including infant/adult causes, affected nerve-muscle groups, the policeman's-tip position and sensory loss. Page 3 covers lower-trunk injury, including excessive arm abduction, median/ulnar motor effects and sensory loss.
+
+The exact boundary is **3 teaching-only pages / 3 clinical teaching profiles / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. `Cause?`, `Results?`, `motor changes?`, `sensory changes?` and `except?` are followed immediately by supplied explanatory content and function as study-note headings rather than learner-response instructions.
+
+### Authority, source truth and search gate
+
+Filename attribution supports learner-note provenance only. CamScanner and iOS Quartz metadata plus the handwritten date do not authenticate a MUST/MSK institution, department, examiner, sitting, marks or official assessment key. Handwritten spelling, bilingual annotations, edge-clipped phrases and selective clinical statements remain uncorrected source observations; no missing phrase is reconstructed.
+
+No assessment prompt or candidate handle exists. Source-first collapse therefore ends before prior-MSK search, and the exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Teaching-only clinical profiles are not subject to assessment-prompt deduplication.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **7165 questions / 6960 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 7165 | 6960 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the ninety-two processed unique hashes leaves **9 selected inventory paths / 9 unique SHA-256s**. Their sorted, newline-joined hash checksum is `d7b0a8a798f79c77fbfd8c3557f37a8a4da26f7f3697817817407bdd4955e6fe`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 9 audit-not-found rows, and unique-hash accounting is **`92 + 9 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).png`, SHA-256 `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af`, one image.
+
+**BLOCKED — S1 cannot be approved:** 9 selected inventory paths / 9 unique hashes remain untriaged.

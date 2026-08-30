@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The ninety-one completed read-only source hashes cover ninety-three selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed two-page `Axillary LNS.pdf`, SHA-256 `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271`, is a visibly signed Nawar teaching carrier on the five axillary lymph-node groups and their drainage. Its exact boundary is **2 teaching-only pages / 4 labeled teaching diagrams / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. CamScanner and iOS Quartz metadata do not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The ninety-two completed read-only source hashes cover ninety-four selected inventory paths, represent fifty-seven distinct prompt families and yield **7165 questions / 6960 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed three-page `Injuries brachial plexus (By Yumna).pdf`, SHA-256 `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2`, is a filename-attributed Yumna teaching carrier profiling complete brachial-plexus, upper-trunk and lower-trunk injuries. Its exact boundary is **3 teaching-only pages / 3 clinical teaching profiles / 0 objective prompts / 0 written / 0 practical or image-identification prompts / 0 keys or answer-only observations**. Question-mark headings are immediately answered inline, and CamScanner/iOS Quartz metadata does not establish institutional or examination authority. No assessment handle exists, so source-first collapse stops before search, **0 accepted handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271`.
+Latest processed family hash: `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2`.
 
-Recent processed family hash retained for reconciliation: `9ab72f04bf9ef1d07be741cc63805ece063b4e9457510972ab616f3d034c452c`.
+Recent processed family hash retained for reconciliation: `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -92,8 +92,10 @@ Current teaching-source append: `9ab72f04bf9ef1d07be741cc63805ece063b4e945751097
 
 Current teaching-source append: `ceec69cf5975ca89f0b3fdd47d07946cdf20ad517da7b11895eb30725d1e3271`.
 
-Removing them leaves **10 inventory paths / 10 unique SHA-256s**, checksum `bd4c2f0af06ff1fe9b68d226ada24125cd1f044d832092c7223623b39e8d6593`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 10 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Injuries brachial plexus (By Yumna).pdf`, SHA-256 `95910f38b59d1f3481f9de3be448649d59dafbfa3d5e5f8b92af4fe331d402c2`, 3 pages.
+Removing them leaves **9 inventory paths / 9 unique SHA-256s**, checksum `d7b0a8a798f79c77fbfd8c3557f37a8a4da26f7f3697817817407bdd4955e6fe`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 0 empty-text / 9 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 10 selected inventory paths / 10 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Mindmap of Muscles and Nerve Supply in the Upper Limb Notes (By Absalam101).png`, SHA-256 `39a29d3c8d1fe339df84475e3f65c0e8529bcd92f95350b65622d91074e134af`, one image.
+
+**BLOCKED — S1 cannot be approved:** 9 selected inventory paths / 9 unique hashes remain untriaged.
