@@ -13819,3 +13819,70 @@ pages; SHA-256 `a79f77e21ed93bf89c0aaf66f73e57689711122d1413de187f32a98f5744d7c4
 It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 108 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 123 — Tier-3 Ain-Shams Lower-Limb exact visual-content sibling path
+
+### Exact identity, authority and sibling-difference proof
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_a79f77e21ed93bf89c0a` / `a79f77e21ed93bf89c0aaf66f73e57689711122d1413de187f32a98f5744d7c4` |
+| File / boundary | `MCQs - External MCQs Chapter 6 Lower Limb عين شمس.pdf` · 2,545,370 bytes · untagged, unencrypted image-only PDF · 13 physical A4 pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 · `originUniversityHint: Ain Shams` |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Chapter 6 Lower Limb عين شمس.pdf` |
+| Visible / manifest authority | The Arabic filename explicitly attributes the source to Ain Shams and the manifest repeats that hint. The body prints `Part 6 / Lower Limb / Multiple Choice Questions (MCQs)` and no Helwan, LCS-103, cohort or sitting mark. All source authority remains external. |
+
+The assigned hash, byte size and 13-page A4 boundary were recomputed and match. All 13
+pages were rendered at 130 dpi and visually read in order. This file is not bitwise equal to
+Family 122: it is the original iText 5.5.10 PDF 1.4 container dated 26 July 2020, whereas
+Family 122 is a PDFium PDF 1.7 container without a creation date, and the containers differ
+by 38 bytes. The content difference gate nevertheless proves exact reuse: all **13/13
+extracted JPEG page-image hashes** agree in order, all **13/13 same-parameter rendered PNG
+hashes** agree in order, and the native extraction streams are byte-identical (both only
+page separators; SHA-256
+`859aa658314fcc519a9b7aa9096bc94316446ca5d26eb9f1a5e9369030b02c86`).
+Only PDF object numbering and container metadata differ; no visible prompt, option, key,
+explanation, anomaly, page number or layout element differs.
+
+Accordingly the complete source-first boundary is the exact Family-122 boundary: Q1–Q64
+across pp. 1–11, followed by the complete Q1–Q64 answer table across pp. 11–13. Matching
+runs Q22–Q25, Q32–Q35, Q57–Q60 and Q61–Q64 remain individually numbered items. Family
+122 already owns the **64 external MCQ occurrences / 64 printed keys / 0 unkeyed** source
+inventory and all 14 tested handles. This second manifest path therefore contributes **0
+second prompts / 0 second keys / 0 concepts / 0 teaching scopes**, while preserving every
+Family-122 source anomaly without repair.
+
+There is likewise no second practical inventory: **0 practical prompts / 0 plates / 0
+mappings / 0 residues / 0 practical keys / 0 practical scopes**. Exact governed visual-
+content reuse supersedes new handle discovery, so no second four-surface search set was
+run: **14 exact Family-122 handle reuses / 0 fresh accepted handles / 0 required search
+invocations**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+remains **4,821 external prompts / 4,673 source keys-or-answers / 221 external concepts =
+12 live / 135 pending / 74 new**. Arithmetic is `4,821 + 0 = 4,821`, `4,673 + 0 = 4,673`,
+`221 + 0 = 221`, and `12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458
+plates / 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92
+new**.
+
+This path has a distinct once-occurring container hash even though its governed visual
+content is exact Family-122 reuse. Removing its sole path therefore leaves **107 all-rank
+path instances / 99 unique hashes**: tier 3 **25 paths / 22 unique hashes within tier**,
+tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 122's prior checksums are
+`0e95c9f48f26d27fc1956692574a1085c17d5ed8ad4fce1825ceee89af439e59` (paths) and
+`8cde1306656ac346ed09d523d9b928022826285d6636564bd79428212f7af883` (unique hashes).
+For the exact post-Family-123 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`dce8827e44dccdba6ba4dd11b26da5cebd0c934fe91c013ce676c8597a4b2e9c`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`4f662f3f271f74528019b68b4b21308626afe1c88e5aa013568cac9916586949`.
+
+The exact next tier-3 manifest-order debt is `src_a85567aad749bd2ef5b3`,
+`MCQs - External MCQs Gray's anatomy Lower limb mcq.pdf` (1,476,983 bytes; 36 physical
+pages; SHA-256 `a85567aad749bd2ef5b3c55ed20eef9d8cd3833ccf402463e1b9615bfb3bdd3a`).
+It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 107 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
+record, catalogue update, import or source copy was created.
