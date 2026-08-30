@@ -62,7 +62,11 @@ export function QuestionsSetup() {
           Archived questions
         </button>
 
-        {!identity.contentScope && <button
+        {/* Editors and super admins can curate the Question of the Day; the
+            deterministic daily pick and the pins document are cohort-keyed, not
+            module-scoped, so this is offered by role (rank ≥ editor) rather than
+            gated on a content scope like the Master/Archived views. */}
+        {identity.rank >= 2 && <button
           type="button"
           onClick={() => { setView('qotd'); setSelection({}); setOpenUni(null) }}
           aria-pressed={view === 'qotd'}
