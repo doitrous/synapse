@@ -19653,3 +19653,103 @@ The exact next manifest-order debt is rank-9 `src_3935b14adafc945f79a7`, `curves
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 45
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 186 — Rank-9 official-folder muscle-contraction curve sheet without visible institutional authority
+
+### Exact identity, path authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_3935b14adafc945f79a7` / `3935b14adafc945f79a7340521b7177bd74fc8345057505b983ce24d0de58f1d` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Official Course Files/curves.pdf` |
+| Physical verification | **170,573 bytes; 2 OCR-needed portrait-US-Letter pages; 612 × 792 pt; tagged; unencrypted; PDF 1.7**. Full hash, byte size, page count and geometry match; both 240-dpi page renders are distinct. |
+| Visible / metadata provenance | The pages contain only nine boxed figure numbers, curve drawings and sparse curve/callout labels. They print no title, university, module code, department, author, sitting, question instruction, mark allocation or key. Metadata says author `pc`, Microsoft Word creator and 19 May 2026 creation/modification. |
+| Authority finding | The `Official Course Files` path is preserved as manifest provenance, but path placement does not convert the visually anonymous rank-9 image sheet into a Helwan assessment, official key or labelled practical answer sheet. It is practical-reference/teaching evidence only. |
+
+Both **2/2 pages** were rendered at 240 dpi, inspected at full resolution and read against the
+sparse native layer plus OCR. Nine source-numbered figures (`1`–`9`) are physically present;
+figure numbers identify plate occurrences and are not prompts, mappings or answers. There is
+no imperative, interrogative, response blank, station instruction or answer reveal. Exact
+assessment delta is **0 eligible/external MCQ or written prompts / 0 keys-or-answers / 0
+unkeyed prompts**. Exact practical-assessment delta is **0 prompts / 0 keys**.
+
+### Exact practical plate, mapping and unresolved-callout inventory
+
+A directly printed mapping is counted only when the sheet itself names a variable, curve
+sequence/relation or label meaning. A bare letter/abbreviation without a local expansion is
+preserved as unresolved residue and is not physiologically inferred. Axis tick marks, stimulus
+ticks, the boxed figure numbers and unlabelled response shapes do not create mappings.
+
+| Page / figure | Literal visual evidence | Plates | Printed mappings | Unresolved residue |
+|---|---|---:|---:|---:|
+| p. 1 / 1 | one twitch trace with `PS`, `A`, `B`, `C`, `D` | 1 | 0 | 5 bare callouts |
+| p. 1 / 2 | three shifted twitch traces with `PS`, `PC1`–`PC3`, `A`–`C` | 1 | 0 | 7 bare callouts |
+| p. 1 / 3 | contraction-series curves labelled `1`, `2`, `3`, `10`, `20`, `30`, `40`, `50`; `Contraction remainder`; legend `PS → Point of stimulation` | 1 | 10 | 0 |
+| p. 1 / 4 | two separated twitch traces with bare `B` | 1 | 0 | 1 bare callout |
+| p. 2 / 5 | compound two-stimulus trace with `S1`, `S2`, bare `B` | 1 | 0 | 3 bare callouts |
+| p. 2 / 6 | graded/sawtooth response with vertical `Tension` label | 1 | 1 | 0 |
+| p. 2 / 7 | sustained response with vertical `Tension` label | 1 | 1 | 0 |
+| p. 2 / 8 | paired low-/high-frequency response traces with printed `stimuli` relation | 1 | 1 | 0 |
+| p. 2 / 9 | two-peak trace with bare `C` | 1 | 0 | 1 bare callout |
+| **Total** | **complete practical-reference boundary** | **9** | **13** | **17** |
+
+Arithmetic closes as `9 plates = 4 + 5`, `13 mappings = 10 + 1 + 1 + 1`, and `17
+residues = 5 + 7 + 1 + 3 + 1`. Figure 3's legend expands `PS` locally only for that plate;
+it is not propagated backwards into figures 1–2. Similarly, `A`–`D`, `PC1`–`PC3`, `B`,
+`S1`/`S2` and `C` remain literal callouts. No curve type, phase, temperature, stimulus timing
+or physiological meaning is supplied where the sheet does not print one.
+
+### Practical teaching handles, exact searches and prior-LCS reconciliation
+
+Visual comparison to accepted Family73 permits five complete practical teaching handles while
+preserving the naked sheet's missing legends:
+
+| Practical teaching handle / figures | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `simple-muscle-twitch-definition-action-potential-and-phases` · 1 | simple muscle twitch phases curve; single muscle twitch latent contraction relaxation; simple muscle twitch PS phases; simple-muscle-twitch-definition-action-potential-and-phases | Accepted Family73 owns the complete curve/phase scope — prior-LCS reuse. |
+| `temperature-effects-on-twitch-and-hypothermia-case` · 2 | temperature effect muscle twitch curves; hot normal cold muscle contraction curve; temperature effect skeletal muscle latent period; temperature-effects-on-twitch-and-hypothermia-case | Accepted Family73 owns the complete comparative-curve scope — prior-LCS reuse; the missing `A`–`C` legend is not reconstructed here. |
+| `fatigue-curves-direct-stimulation-recovery-and-causes` · 3 | muscle fatigue contraction remainder curve; skeletal muscle fatigue successive contractions curve; fatigue curve contracture remainder PS; fatigue-curves-direct-stimulation-recovery-and-causes | Accepted Family73 owns the complete fatigue/contraction-remainder scope — prior-LCS reuse. |
+| `two-successive-stimuli-beneficial-superposition-and-summation` · 4, 5, 9 | two successive stimuli muscle curves; beneficial effect superposition summation twitch; successive stimuli summation muscle contraction curve; two-successive-stimuli-beneficial-superposition-and-summation | Accepted Family73 owns the complete successive-stimulus scope — prior-LCS reuse; bare `B`/`C` states remain unrepaired. |
+| `treppe-tetanus-and-frequency-effects` · 6–8 | incomplete complete tetanus frequency curve; multiple stimuli clonus tetanus tension; tetanus frequency summation skeletal muscle curve; treppe-tetanus-and-frequency-effects | Accepted Family73 owns the complete frequency/response scope — prior-LCS reuse; the anonymous traces remain anonymous in this source. |
+
+Each of the **five accepted handles** received exactly one query on each required surface:
+live, pending/import-ready, prior source-import and accepted LCS. That is **5 × 4 = 20 required
+search invocations**. Each accepted-ledger query returned Family73; literal combined-phrase
+searches returned no exact live, pending or prior-source file hit. Final disposition is **5
+prior-LCS practical-scope reuses / 0 additive live / 0 additive pending / 0 additive new
+practical scopes**. Search/prior context does not repair any source callout.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,931 prompts / 6,656 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Every ordinary-assessment delta is zero.
+
+Practical totals advance from **62 prompts / 516 plates / 3,016 mappings / 156 residues / 55
+keys** by **+0 / +9 / +13 / +17 / +0** to **62 prompts / 525 plates / 3,029 mappings /
+173 residues / 55 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**
+because all five scopes are accepted Family73 reuses. Arithmetic checks are `516 + 9 = 525`,
+`3,016 + 13 = 3,029`, `156 + 17 = 173`, and `0 + 0 + 92 = 92`.
+
+This hash also remains at the later rank-9 path
+`Year 1/LCS 103/Physiology/Muscle Contraction Curves/curves.pdf`. Consuming only the assigned
+All-Subjects path changes the all-rank remainder from **45 paths / 42 unique hashes** to **44
+paths / 42 unique hashes**: tier 3 remains **0 / 0**, tier 6 remains **31 / 31**, and rank 9
+becomes **13 paths / 11 unique hashes within rank**. Family185's checksums were
+`7ec36523e62f57f36143cf500ff8439ad86ce4ddce1277a4702d62371cb4004f` (paths) and
+`1b497213103cd3c6b075403697e631645fde6ae50f66af2800a7f51041e39ad0` (unique hashes).
+For the exact post-Family186 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`a1ca4259f795bddd900c7b509678582f8b0419d5617b4e0d1814ffcaafc970de`;
+the sorted-unique `sha256<LF>` checksum remains
+`1b497213103cd3c6b075403697e631645fde6ae50f66af2800a7f51041e39ad0`.
+
+The exact next manifest-order debt is rank-9 `src_2b1ba8f9c9532c26b4f7`,
+`103-LCS-Questions and answers-MS-26.pdf` (418,682 bytes; 14 native-text 720 × 540 pt pages;
+tagged; unencrypted; PDF 1.5; SHA-256
+`2b1ba8f9c9532c26b4f7ab62e2865a1f4efa82f671a5d82db85fa6c170cd320c`) under
+`Year 1/LCS 103/All Subjects/Questions/`. It remains unclassified until every page is rendered
+and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 44 tier-6/rank-9 path
+debts remain. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
