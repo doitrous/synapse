@@ -15795,3 +15795,115 @@ under `Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until
 is read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 86 tier-3/tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 145 — Tier-3 direct LCS unsolved Physiology tutorial twin
+
+### Exact identity, provenance and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_5b820faa6b42dc72e3e1` / `5b820faa6b42dc72e3e1f44a7d4bc1b884dc9db61d0379cd0376c69f066142ea` |
+| File / boundary | `MCQs - College MCQs Physiology 103 tutorial 1.pdf` · 2,032,255 bytes · tagged, unencrypted PDF 1.7 · 23 physical 720 × 540 pt native-text pages |
+| Manifest placement | `HU-LCS-103` · Physiology · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Questions/MCQs/MCQs - College MCQs Physiology 103 tutorial 1.pdf` |
+| Visible provenance | P. 1 prints `Physiology Tutorial Loco-coordination 103`, `Dr.Noha Osama`, `Lecturer of physiology` and `Faculty of Medicine`. No page identifies a university, formal exam, cohort or sitting. Metadata supplies no author/creator/producer, and records 21 March 2022 creation/modification. |
+| Authority finding | Manifest/path-placed local module-specific tutorial/self-assessment evidence, eligible under the standing direct course-bank lane but below formal-sitting authority. It is the unsolved presentation twin of Family 15, not a new official key. |
+
+The assigned SHA-256, byte size and 23-page physical boundary were recomputed and match. All
+23 pages were rendered at 130 dpi and read visually against the complete native text layer.
+The complete boundary is pp. 1–9 tutorial teaching, p. 10 `MCQ Quiz (Multiple Choice
+Questions And Answers)` divider, pp. 11–16 six MCQs, p. 17 action-potential divider,
+pp. 18–22 five MCQs and p. 23 closing image. Thus the source adds **11 ordinary eligible MCQ
+occurrences / 0 written prompts**.
+
+This file and Family 15's solved `MCQs - College MCQs Physiology 103 tutorial with
+answers.pdf` have the same 23-page geometry, same 21 March 2022 creation timestamp and a
+byte-for-byte identical complete extracted text stream. The bytes and modification history
+differ because Family 15's solved copy systematically overlays one translucent green highlight
+on each MCQ answer. Every current MCQ page was visually checked: this unsolved source contains
+no option highlight, circle, underline, answer column or answer text. Its exact boundary is
+therefore **11 unkeyed occurrences / 0 source keys**. Family 15 already counts the eleven
+solved-twin highlights once; they are not inherited or counted again here.
+
+The source's physical MCQ order remains Family 15's governed order: p. 11 involuntary muscle
+types; p. 12 calmodulin/smooth muscle; p. 13 excitation–contraction-coupling exception; p. 14
+skeletal length–tension; p. 15 tropomyosin at rest; p. 16 contraction/length–force false
+statement; p. 18 all-or-none/nerve-trunk proposition; p. 19 depolarisation; p. 20 nerve resting
+membrane potential; p. 21 repolarisation; and p. 22 `Salutatory conduction`. Q4/Q6 remain two
+prompt occurrences testing one length–tension objective; Q3/Q5 remain two occurrences in the
+same coupling/thin-filament objective. No source wording or medically contestable proposition
+is repaired.
+
+### Teaching and practical boundary
+
+Teaching content is p. 3 motor-neuron-pool/motor-unit definitions; pp. 4–6 NMJ,
+excitation–contraction and cross-bridge context; and pp. 7–9 calmodulin/MLCK plus single-unit
+versus multi-unit smooth-muscle coordination. These are the same five governed context handles
+inventoried in Family 15: motor-neuron-pool definition, motor-unit definition, NMJ
+transmission, smooth-muscle contraction regulation, and single-versus-multiunit coordination.
+Every handle is an exact prior-LCS reuse, so teaching-scope delta is zero. P. 7's `What is the
+function of smooth muscle fibers?` is an answered teaching self-check before the quiz divider,
+not a learner-response prompt. Stock images on pp. 2, 4, 6, 10, 17 and 23 are teaching or
+divider furniture, not practical plates.
+
+There is no specimen, trace interpretation, apparatus task, station, masked label,
+learner-completed map, response blank or practical answer key. The source adds **0 practical
+prompts / 0 teaching plates / 0 mappings / 0 practical residues / 0 practical keys / 0 new
+teaching scopes**.
+
+### Source-first collapse, exact searches and prior-LCS reconciliation
+
+As in the solved twin, the 11 occurrences collapse to **9 source-distinct tested handles**:
+Q3/Q5 share the coupling/thin-filament scope and Q4/Q6 share length–tension. Each tested handle
+received exactly one query in the live, pending/import-ready, prior source-import and accepted-
+LCS surfaces.
+
+| Tested handle | Live query | Pending query | Prior-import query | Accepted-LCS query | Prior adjudication |
+|---|---|---|---|---|---|
+| Involuntary muscle-type comparison | `involuntary muscle types` | `cardiac smooth involuntary` | `skeletal voluntary` | `muscle action comparison` | exact accepted Family-15 Q1 and later Families 75, 97 and 144; prior eligible reuse |
+| Smooth-muscle calmodulin/MLCK regulation | `calmodulin smooth muscle` | `myosin light chain kinase` | `smooth calcium regulation` | `troponin calmodulin comparison` | exact accepted Family-15 Q2 and prior Family-3 scope; prior eligible reuse |
+| Skeletal excitation–contraction coupling / tropomyosin · Q3,Q5 | `excitation contraction coupling` | `tropomyosin actin binding site` | `T tubule calcium` | `cross bridge ATP` | exact accepted Family-15 Q3/Q5 and later Families 75, 97, 99 and 144; prior eligible reuse |
+| Skeletal length–tension relationship · Q4,Q6 | `skeletal length tension` | `initial muscle length force` | `optimal sarcomere length` | `filament overlap tension` | exact accepted Family-15 handle and later Families 74, 75 and 99; prior eligible reuse |
+| All-or-none rule and nerve-trunk exception | `all or none rule` | `threshold maximal response` | `nerve trunk graded` | `single fibre all or none` | exact accepted Family-15 Q7 handle; prior eligible reuse |
+| Membrane sodium-conductance event | `depolarization sodium permeability` | `Na influx action potential` | `voltage gated sodium` | `potassium efflux depolarization` | exact accepted Family-15 Q8 and Family-3 handle; prior eligible reuse |
+| Nerve resting-membrane potential | `resting membrane potential` | `selective membrane permeability` | `Na K pump RMP` | `nerve RMP ions` | exact accepted Family-15 Q9 and Family-3 handle; prior eligible reuse |
+| Nerve repolarisation / action-potential phases | `nerve repolarization` | `sodium channel inactivation` | `potassium efflux` | `action potential phases` | exact accepted Family-15 Q10 and Family-3 handle; prior eligible reuse |
+| Saltatory conduction / nodes of Ranvier | `saltatory conduction` | `node to node` | `myelinated nerve` | `120 meter second` | exact accepted Family-15 Q11 handle; prior eligible reuse |
+
+All **9 × 4 = 36 required search invocations** completed. Exact text, page order and prompt
+comparison with the solved twin then yields **9 prior eligible reuses + 0 additions = 9**;
+eligible concept-state delta is zero. The five teaching context handles are exact governed
+Family-15 page-text reuses rather than additional accepted tested handles, so they do not
+duplicate the nine-handle assessment search ledger. Search/render comparison scratch stayed
+outside the worktree under `/private/tmp/lcs103-family145/`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **942 / 586 / 333 = 12 / 108 / 213** to **953 observed
+questions / 586 printed keys-or-answers / 333 distinct tested concepts = 12 live / 108
+pending / 213 new**. Arithmetic is `942 + 11 = 953`, `586 + 0 = 586`, `333 + 0 = 333`,
+and `12 + 108 + 213 = 333`. The external-bank checkpoint remains **6,753 external prompts /
+6,487 source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+
+Practical totals remain **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys**, with practical teaching scopes **0 live / 0 pending / 92 new**. Every practical and
+teaching-scope delta is zero.
+
+This source hash occurs once in Family 144's remainder. Removing its sole path leaves **85
+all-rank path instances / 80 unique hashes**: tier 3 **3 paths / 3 unique hashes within tier**,
+tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 144's prior checksums are
+`b6e61891540d58c688260b76bf79a8dfdd50b282ef9fac9abdc0ad054ceff359` (paths) and
+`90cbb4429be2f1356de28b0fb50742dd7e130147ac41c360e17598e317258666` (unique hashes).
+For the exact post-Family-145 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`5dbd59cceb60d74bbdca3dafb56e5f6a0e11c837143dbde34f16e26958d98c90`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`2e0a845cc3853f654c069978a39a0371382ef0b11e29d76ad7c6a0f9ba2a4d83`.
+
+The exact next tier-3 manifest-order debt is `src_aacbb031f12572131776`,
+`MCQs - MCQ Physiology.pdf` (223,736 bytes; 8 physical native-text A4 pages; SHA-256
+`aacbb031f12572131776bc76f89d69f15759e7cc6e5a3af3d3bc7239f0be610a`) under
+`Year 1/LCS 103/Physiology/Questions/MCQs/`. It remains unclassified until every page is read.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 85 tier-3/tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
