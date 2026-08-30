@@ -9298,3 +9298,128 @@ under `Year 1/LCS 103/Physiology/Theoretical/Lec 2 - Bone Physiology & Age-relat
 Tier-3, tier-6 and rank-9 debts between rank-4/rank-5 gates remain outside this remainder.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 76 — Tier-4 Physiology theoretical Bone Physiology lecture and rank-4/rank-5 closeout
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_9ea48716e943c7679cc0` |
+| File / SHA-256 | `Bone physiology.pdf` / `9ea48716e943c7679cc0d8876a36236ac439cc4b7afc4d91f086a31a36e22c5a` |
+| File boundary | 724,694 bytes · unencrypted PDF · 29 physical native-text pages · 791 × 593 pt |
+| Manifest placement | `HU-LCS-103` · Physiology · Theoretical · `Lec 2 - Bone Physiology & Age-related changes` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Physiology/Theoretical/Lec 2 - Bone Physiology & Age-related changes/Bone physiology.pdf` |
+| Visible provenance | p. 1 prints `Bone Physiology (skeletal system)`, `Nermien Waly, M.Sc., PhD, MD` and a Helwan University email address. The PDF metadata exposes no title, author, creator or producer strings. |
+| Authority finding | Manifest/path-placed local tier-4 Physiology theoretical teaching deck with a prior-class self-check and one response blank. It is not a sitting paper, question bank, response form, practical station sheet or official answer key. |
+
+The assigned SHA-256, byte size and 29-page boundary were recomputed and match. All 29 pages
+were rendered at 180 dpi and read against the complete native text layer. Page 1 is
+title/provenance, p. 2 is objectives, p. 3 is a five-question prior-class self-check, pp. 4–11
+teach skeletal components, functions, composition, growth, remodelling, repair and clinical
+impact, p. 12 is a calcium-homeostasis divider, pp. 13–27 teach feedback and calcium
+physiology, p. 28 is an integration map and p. 29 is references. The source contains **24
+source-distinct theoretical teaching compositions**: pp. 4–11 and 13–28. Page 4 and p. 14
+each carry both a teaching composition and an eligible prompt.
+
+The complete assessment gate finds **7 eligible ordinary written prompt occurrences / 1
+directly printed answer unit / 0 practical or station prompts**. Page 3 contributes five
+unkeyed `Check what you know (from other classes)` questions: bone-cell origin, bone types,
+long/short-bone structure, ossification-centre definition and ossification types. Page 4
+repeats the bone-type request as one further unkeyed occurrence. Page 14's dotted completion
+`The set point discussed today is………….` is one written response blank; p. 13 directly prints
+the source answer as maintenance of calcium level in the blood, so it contributes one printed
+answer unit. The two bone-type occurrences collapse to one tested handle without deleting
+either question record. Page 2's objectives are objectives, not questions. Page 9's `Think
+about` remodelling line is a rhetorical teaching callout answered immediately by its four-role
+list, and p. 20's parenthetical `target organs?` is a teaching cue resolved by pp. 22–23; neither
+is a learner-response task or a separate key. No unresolved teaching callout remains.
+
+This theoretical deck contains no practical/station plate inventory. Its charts and feedback
+diagrams are declarative theoretical teaching, with no specimen/image-identification station,
+masked label, apparatus task or practical response field. The practical delta is therefore
+exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical
+scopes**.
+
+### Assessment handles, searches and prior-LCS adjudication
+
+| Source prompt → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 3A → `bone-cell-developmental-lineages-and-origins` | origin of bone cells; osteogenic osteoblast osteocyte lineage; osteoclast monocyte origin; mesenchymal versus hematopoietic bone cells | pending bone-cell material and accepted Families 55/58 teaching own the lineage comparison, but no prior eligible tested handle owns this broad origin request | pending; new to eligible LCS; no printed key |
+| pp. 3B, 4 → `bone-anatomical-shape-type-classification` | types of bones long short flat irregular; bone anatomical classification by shape; name different types of bones; long short flat irregular bone examples | pending bone-classification material and accepted Family-58 teaching own the shape table, but no prior eligible tested handle owns this request | pending; new to eligible LCS; 2 unkeyed occurrences |
+| p. 3C → `long-versus-short-bone-gross-structure-comparison` | structure of long and short bones; long bone diaphysis epiphysis short bone structure; gross structure long versus short bone; compact cancellous arrangement long short bone | pending bone-architecture material owns the gross comparison; accepted prior teaching is corroboration only | pending; new to eligible LCS; no printed key |
+| p. 3D → `ossification-centre-definition` | define ossification center; bone formation centre mesenchymal cells; primary secondary ossification centre definition; what is an ossification centre | pending histology/ossification material directly defines the centre; accepted prior eligible handles test particular centres or routes rather than this definition | pending; new to eligible LCS; no printed key |
+| p. 3E → `intramembranous-versus-endochondral-ossification-route-classification` | types of ossification bone; intramembranous versus endochondral ossification; direct versus cartilage model bone formation; classify bone ossification routes | pending ossification material and exact accepted Family-13 route handles jointly own the tested classification | prior eligible-LCS reuse; inherited pending; no printed key; concept delta +0 |
+| p. 14 → `blood-calcium-level-as-homeostatic-setpoint` | blood calcium homeostatic set point; set point calcium homeostasis; regulated variable calcium feedback loop; constant blood calcium internal environment | related calcium-homeostasis material does not own this explicit set-point identification as a tested handle | new; 1 printed key |
+
+All **6 × 4 = 24** required assessment searches completed across live state, pending state,
+`docs/import-ready`, `docs/questions-import-ready`, every source-import root and accepted prior
+LCS. Direct complete-scope disposition is **0 live / 5 pending / 1 new**. Exact accepted-prior
+adjudication removes the ossification-route repeat, leaving module concept delta **0 live / 4
+pending / 1 new = 5**. The seven question occurrences remain counted; only p. 14 has a
+source-printed answer unit.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The 24 teaching compositions consolidate to seven source-level scopes. The p. 28 integration
+list folds into the calcium-homeostasis scopes rather than becoming a content-free eighth
+scope; no page, diagram, reference value or source wording is deleted.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `skeletal-components-functions-and-bone-mineral-composition` · pp. 4–6 | skeletal system axial appendicular components; bone structural metabolic functions; bone organic inorganic composition percentages; bone mineral store calcium phosphate carbonate lead | pending bone-overview/matrix material and accepted Families 55/58/72 jointly own the core — prior LCS reuse |
+| `bone-growth-length-width-and-health-factor-spectrum` · pp. 7–8 | bone growth length width; factors affecting bone growth genetics age gender; nutrition hormones exercise bone health; environmental factors bone growth | accepted growth fragments do not own the source's complete length/width plus seven-factor composition — new theoretical teaching |
+| `bone-remodelling-repair-functions-and-clinical-impact` · pp. 9–11 | bone remodeling roles growth repair stress calcium; bone repair hematoma callus ossification remodeling; bone physiology clinical disorders rickets osteoporosis fracture; significance of bone remodeling | pending bone-remodelling material and accepted Families 51/58/64 own the core — prior LCS reuse |
+| `homeostasis-negative-feedback-and-blood-calcium-setpoint` · pp. 12–14 | homeostasis negative feedback sensor integrating center effector; blood calcium regulated set point; calcium homeostasis feedback loop; constant internal environment calcium | no accepted prior complete teaching scope owns the general feedback architecture tied to the explicit calcium set point — new theoretical teaching |
+| `calcium-functions-body-distribution-and-blood-fractions` · pp. 15–19 | calcium intracellular extracellular functions; body calcium bone cells ECF distribution; phosphate bone cell ECF percentages; ionized protein bound complexed blood calcium | pending calcium material and exact accepted Families 53/72 calcium distribution/function scopes own the core — prior LCS reuse |
+| `calcium-maintenance-buffers-pth-calcitonin-and-vitamin-d` · pp. 20–24 | calcium homeostasis bone mitochondrial buffers; PTH calcitonin vitamin D calcium regulation; parathyroid target organs bone gut kidney; hormones increase decrease blood calcium | pending calcium/endocrine material and accepted Families 13/53/72 own the complete regulator core — prior LCS reuse |
+| `calcium-compartment-exchange-and-negative-feedback-overviews` · pp. 25–28 | calcium exchange bone gut kidney 1000 mg; high calcium calcitonin feedback loop; low calcium PTH feedback loop; calcium homeostasis integrated overview | pending calcium material and accepted Families 53/72 own the compartment/feedback core — prior LCS reuse |
+
+All **7 × 4 = 28** required teaching-scope searches completed across live state, pending
+state, all source-import roots and accepted prior LCS. At complete-scope grain the direct
+external result is **0 live / 5 pending / 2 new**. Exact accepted-prior comparison prevents
+five repeated module additions, leaving **5 prior-LCS reuses / 2 new theoretical-teaching
+scopes**. Together with the assessment handles, Family 76 completed **52 required searches**.
+Declarative theoretical teaching scopes do not enter eligible tested-concept or practical-
+scope counts.
+
+### Final rank-4/rank-5 assessment and practical checkpoint
+
+| Evidence dimension | Before Family 76 | Family 76 delta | After Family 76 |
+|---|---:|---:|---:|
+| Eligible observed question records | 569 | +7 | 576 |
+| Eligible printed question keys | 285 | +1 | 286 |
+| Eligible distinct tested concepts | 282 | +5 | 287 |
+| Question live / pending / new | 10 / 91 / 181 | +0 / +4 / +1 | 10 / 95 / 182 |
+| Stand-alone practical/station prompt occurrences | 7 | +0 | 7 |
+| Distinct practical teaching plates, quantified | 458 verified minimum | +0 | 458 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,691 verified minimum | +0 | 2,691 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 149 | +0 | 149 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 92 | +0 / +0 / +0 | 0 / 0 / 92 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `7 prompts = 5 + 1 + 1`, `1 printed key`, `6
+tested handles = 7 prompts - 1 within-source duplicate`, `5 added concepts = 6 handles - 1
+prior eligible reuse`, `0 + 4 + 1 = 5`, `576 = 569 + 7`, `286 = 285 + 1`, `287 = 282
++ 5`, `10 + 95 + 182 = 287`, `7 + 0 = 7`, `458 + 0 = 458`, `2,691 + 0 = 2,691`,
+`149 + 0 = 149`, and `92 + 0 = 92`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-75
+remainder leaves **0 rank-4/rank-5 path instances / 0 unique hashes**. The Family-75 method
+was reproduced first: its sole path row and sole unique-hash row recomputed to
+`00169c2f4602122c27da8cf63aa62d7754b35ce081d2139db067207d8d8d2f4d` and
+`18de7621eee1edb36e76c514ae7eaa5053fc0a424695019399b39afd6a56550c`.
+For the exact empty post-Family-76 remainder, the path-row serialization and unique-hash-row
+serialization are both the zero-byte string: no row and therefore no `LF` is emitted. SHA-256
+of that defined empty byte string is
+`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` for both ledgers.
+
+**Rank-4/rank-5 readiness:** the current manifest's LCS-103 rank-4/rank-5 path-sensitive and
+unique-content queues are fully exhausted. **Overall LCS-103 S1 is not fully exhausted and
+remains `S1 TRIAGE — NOT APPROVED`:** tier-3 college/student/external question-bank debt,
+tier-6 summary/note debt and rank-9 external/review/reference debt remain outside the standing
+rank-4/rank-5 remainder rules. Those lower-authority lanes require their own explicit gates;
+the empty 0/0 checksum does not silently approve or erase them. No download, ID, content
+record, catalogue update, import or source copy was created.
