@@ -3917,6 +3917,7 @@ created.
 
 
 
+
 ## Family 35 — Tier-5 skull-normae and mandible virtual-lab teaching deck
 
 ### Source identity, authority and full boundary
@@ -7807,3 +7808,149 @@ filename omits the manifest's two extra spaces after `103`. Tier-6 and rank-9 so
 between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains
 incomplete. No download, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 64 — Tier-4 Pathology theoretical Bone Diseases and Tumours lecture with two unkeyed self-test prompts
+
+### Source identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_3328fde7f743cd67dc9f` |
+| File / SHA-256 | manifest `103   (1) and (2)bone diseases and tumors.pdf`; local normalized `103 (1) and (2)bone diseases and tumors.pdf` / `3328fde7f743cd67dc9fabcdd320e6337d1b38a2f6f36a7fa2e347ededf359cb` |
+| File boundary | 863,512 bytes · unencrypted PDF · 43 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Pathology · Theoretical · `Lec 1 - Bone Diseases & Tumors` · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Pathology/Theoretical/Lec 1 - Bone Diseases & Tumors/103 (1) and (2)bone diseases and tumors.pdf` |
+| Visible provenance | p. 1 prints `Locomotor Module 103`, `Lecture 1-Part I`, `Bone Lesions` and `Dr Rofanda Bakeer`; p. 29 prints `Lecture1-Part2`, `Bone Tumors` and `Dr Rofanda`; metadata identifies Microsoft PowerPoint 2016 and ilovepdf but supplies no title or author |
+| Authority finding | Manifest/path-placed local module theoretical teaching and self-test evidence. It is not a recoverable sitting, department question bank, response form, practical station or official answer key. |
+
+The assigned SHA-256, byte size and 43-page boundary were recomputed and match the source.
+All 43 pages were rendered at 160 dpi and read against the complete native text layer; all
+43 complete-page renders have distinct SHA-256 values. Page 1 is the Part-I title, pp. 2–28
+are declarative bone-lesion teaching, p. 29 is the Part-II title, pp. 30–39 are declarative
+bone-tumour teaching, p. 40 is the `Test Yourself` divider, pp. 41–42 contain one prompt
+each, and p. 43 is the closing slide.
+
+Pages 2–28 and 30–39 name and explain their diseases, classifications, mechanisms,
+clinical patterns, laboratory findings, morphology or radiology; none asks the learner to
+supply an answer. Pages 30–31 are teaching classification compositions despite their sparse
+native text. Page 41 asks which bone tumour causes periosteal lifting, a Codman triangle and
+sunburst X-ray appearance. Page 42 asks for the calcium, phosphorus and alkaline-phosphatase
+pattern in osteomalacia. Neither page marks an option or prints an answer, and p. 43 gives no
+delayed reveal. The radiologic wording on p. 41 is not accompanied by a radiograph, specimen
+or learner-facing plate. The complete source boundary is therefore **37 theoretical teaching
+compositions / 2 ordinary assessment prompt occurrences / 0 printed keys / 0 practical or
+station prompts / 0 practical teaching plates / 0 practical mappings / 0 masked or unresolved
+practical callouts**. No medically inferable response is promoted into a key.
+
+### Complete teaching and assessment inventory
+
+| Physical pages | Source-first composition | Teaching compositions | Assessment / key boundary |
+|---:|---|---:|---:|
+| 2–4 | course disease taxonomy, skeletal-dysplasia framework and achondroplasia | 3 | 0 |
+| 5–10 | osteogenesis imperfecta clinical/radiologic teaching and osteopetrosis mechanism, forms, complications and histology | 6 | 0 |
+| 11–12 | metabolic/endocrine bone-disease cause taxonomy | 2 | 0 |
+| 13–16 | osteoporosis definition, clinical/laboratory pattern, types, causes and active/inactive turnover histology | 4 | 0 |
+| 17–20 | osteitis fibrosa cystica, renal osteodystrophy and skeletal fluorosis | 4 | 0 |
+| 21–22 | Paget disease distribution, stages, morphology and radiology | 2 | 0 |
+| 23–28 | osteomyelitis overview/classification/chronic terminology, osteonecrosis and tumour-like lesions | 6 | 0 |
+| 30–34 | primary bone-tumour classification, bone-forming group, osteoma and osteoid-osteoma/osteoblastoma | 5 | 0 |
+| 35–39 | osteosarcoma, giant-cell tumour and Ewing sarcoma | 5 | 0 |
+| 41 | Codman-triangle/sunburst bone-tumour MCQ | 0 | 1 ordinary prompt; 0 keys |
+| 42 | osteomalacia calcium/phosphorus/ALP written request | 0 | 1 ordinary prompt; 0 keys |
+| **Total** | **complete in-scope content boundary** | **37** | **2 prompts / 0 keys** |
+
+The two self-test pages are source-distinct prompts and test two source-distinct handles; no
+within-source prompt copy or response-unit collapse applies. The complete physical-page
+arithmetic is **43 = 4 title/divider/closing pages + 37 teaching compositions + 2 assessment
+pages**. No complete teaching page is duplicated.
+
+### One-to-one assessment assignment, search and disposition
+
+| Prompt assignment → handle | Four required `find-existing` queries | Same-scope result | Disposition |
+|---|---|---|---|
+| p. 41 → `sunburst-periosteal-lifting-bone-tumor-differential` | sunburst pattern; periosteal lifting; Codman triangle; bone tumor radiographic differential | exact accepted Family-12 tested handle, subsequently reused and extended by keyed pathology-bank evidence, already owns this option-neutral radiologic differential | prior eligible-LCS reuse; inherited new; no concept delta; no printed key |
+| p. 42 → `osteomalacia-calcium-phosphorus-alkaline-phosphatase-pattern` | osteomalacia calcium phosphorus alkaline phosphatase; osteomalacia laboratory pattern; low calcium low phosphate high ALP; metabolic bone disease laboratory patterns | a strict subset of accepted Family-12 `metabolic-bone-disease-laboratory-patterns-table`, reinforced by accepted later osteomalacia laboratory teaching | prior eligible-LCS reuse; inherited new; no concept delta; no printed key |
+
+Both occurrences remain eligible question records, but exact prior comparison gives `2 tested
+handles - 2 prior eligible handles = 0 added concepts`. All **2 × 4 = 8** assessment searches
+completed across live state, pending state, every source-import root and accepted prior LCS.
+At direct external complete-scope grain both would be new; prior-eligible adjudication removes
+both repeated module additions, leaving a module delta of **0 live / 0 pending / 0 new**.
+Search matches establish coverage only and do not supply answer text or keys.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The 37 teaching compositions consolidate to 20 source-level theoretical scopes. Scope collapse
+does not delete page or source-wording evidence.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `bone-disease-course-taxonomy-and-differential-objectives` · p. 2 | bone disease classification; developmental metabolic inflammatory neoplastic bone; bone lesion differential; bone disease learning objectives | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `skeletal-dysplasia-local-systemic-and-cell-process-classification` · p. 3 | skeletal dysplasia classification; localized versus systemic skeletal disorder; osteoclast dysfunction skeletal dysplasia; abnormal cellular process bone disease | no substantive complete-scope match — new theoretical teaching |
+| `achondroplasia-endochondral-ossification-and-clinical-pattern` · p. 4 | achondroplasia endochondral ossification; FGFR3 achondroplasia; short limbs normal trunk achondroplasia; achondroplasia clinical pattern | accepted achondroplasia clinical/disease evidence owns the core and this page adds its ossification explanation — prior LCS reuse |
+| `osteogenesis-imperfecta-type-i-collagen-clinical-radiologic-pattern` · pp. 5–8 | osteogenesis imperfecta type I collagen; blue sclera hearing loss brittle bone; wormian bones osteogenesis imperfecta; osteogenesis imperfecta radiology | accepted Family-17/19 eligible and earlier auxiliary evidence jointly owns the type-I-collagen and clinical/radiologic core — prior LCS reuse |
+| `osteopetrosis-osteoclast-dysfunction-forms-complications-and-histology` · pp. 9–10 | osteopetrosis osteoclast dysfunction; marble bone disease complications; osteopetrosis infantile adult forms; osteopetrosis histology | accepted osteopetrosis disease and Family-62 practical evidence owns the osteoclast, density and histologic core — prior LCS reuse |
+| `metabolic-endocrine-bone-disease-cause-taxonomy` · pp. 11–12 | metabolic bone disease classification; endocrine bone disease causes; osteoporosis osteomalacia hyperparathyroidism taxonomy; metabolic endocrine bone disorders | disease fragments exist, but no one substantive external or accepted prior scope owns the complete taxonomy — new theoretical teaching |
+| `osteoporosis-definition-clinic-labs-types-causes-and-turnover-histology` · pp. 13–16 | osteoporosis low bone mass microarchitectural deterioration; osteoporosis normal calcium phosphorus alkaline phosphatase; primary secondary osteoporosis causes; high turnover low turnover osteoporosis histology | accepted osteoporosis assessment and teaching handles jointly own the density, laboratory, primary/secondary and turnover core — prior LCS reuse |
+| `osteitis-fibrosa-cystica-hyperparathyroid-clinic-labs-and-morphology` · pp. 17–18 | osteitis fibrosa cystica hyperparathyroidism; brown tumor hypercalcemia hypophosphatemia; osteitis fibrosa cystica histology; subperiosteal bone resorption hyperparathyroidism | accepted hyperparathyroid/brown-tumour and Family-62 histology evidence owns the disease and morphology core — prior LCS reuse |
+| `renal-osteodystrophy-crf-mineral-pth-pathogenesis-and-lesions` · p. 19 | renal osteodystrophy chronic renal failure; phosphate retention hypocalcemia secondary hyperparathyroidism; renal osteodystrophy bone lesions; renal failure vitamin D PTH bone | accepted Family-53 renal-osteodystrophy/calcitriol/PTH teaching owns the core — prior LCS reuse |
+| `skeletal-fluorosis-exposure-pathogenesis-and-phenotype` · p. 20 | skeletal fluorosis; fluoride osteosclerosis bone; chronic fluoride exposure skeleton; fluorosis bone phenotype | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `paget-disease-site-stage-morphology-and-radiology` · pp. 21–22 | Paget disease bone stages; mosaic cement lines Paget; cotton wool skull Paget; Paget osteitis deformans morphology | accepted Paget stages/imaging, clinical and remodelling evidence owns the core — prior LCS reuse |
+| `osteomyelitis-classification-and-chronic-sequestrum-involucrum-cloaca` · pp. 23–26 | osteomyelitis classification; sequestrum involucrum cloaca; chronic osteomyelitis sinus tract; pyogenic osteomyelitis morphology | accepted chronic-pyogenic-osteomyelitis and terminology evidence owns the core — prior LCS reuse |
+| `osteonecrosis-etiologies-and-vascular-mechanisms` · p. 27 | osteonecrosis avascular necrosis causes; bone infarction vascular compromise; steroid alcohol osteonecrosis; osteonecrosis pathogenesis | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `tumor-like-bone-lesion-taxonomy` · p. 28 | tumor like bone lesions classification; bone cyst fibrous dysplasia brown tumor; non neoplastic bone lesion taxonomy; tumor-like lesions of bone | disease fragments exist, but no accepted complete taxonomy — new theoretical teaching |
+| `primary-bone-tumor-histogenesis-age-and-location-classification` · pp. 30–31 | bone tumor classification tissue origin; primary bone tumor age location; epiphyseal metaphyseal diaphyseal tumor; bone neoplasm histogenesis | accepted Family-11/12 location and tissue-origin classification evidence owns the core — prior LCS reuse |
+| `bone-forming-tumor-group-and-osteoma-phenotype` · pp. 32–33 | bone forming tumors classification; osteoma clinical morphology; osteoma compact cancellous bone; osteogenic tumor group | accepted bone-forming-matrix and osteoma evidence jointly owns the core — prior LCS reuse |
+| `osteoid-osteoma-versus-osteoblastoma-clinic-radiology-histology` · p. 34 | osteoid osteoma osteoblastoma comparison; osteoid osteoma nidus nocturnal pain aspirin; osteoblastoma spine size; osteoid osteoma histology | exact accepted comparison plus accepted clinicoradiologic evidence owns the core — prior LCS reuse |
+| `osteosarcoma-definition-primary-secondary-classification-clinic-radiology-metastasis` · pp. 35–37 | osteosarcoma classification primary secondary; Codman triangle sunburst osteosarcoma; osteosarcoma pulmonary metastasis; osteosarcoma malignant osteoid clinical | accepted osteosarcoma differential, radiology and morphology evidence jointly owns the core — prior LCS reuse |
+| `giant-cell-tumor-gross-and-stromal-giant-cell-histology` · p. 38 | giant cell tumor gross histology; osteoclastoma mononuclear stromal cells; giant cell tumor epiphysis soap bubble; giant cell tumor morphology | accepted giant-cell-tumour site, stromal-cell and practical-histology evidence owns the core — prior LCS reuse |
+| `ewing-sarcoma-variants-site-clinic-and-onion-skin-radiology` · p. 39 | Ewing sarcoma onion skin; Ewing PNET Askin variants; Ewing diaphysis children; Ewing sarcoma clinical radiology | accepted Ewing clinical/radiology and location evidence owns the core — prior LCS reuse |
+
+All **20 × 4 = 80** teaching-scope searches completed across live state, pending state, all
+source-import roots and accepted prior LCS. At complete-scope grain the direct external result
+is **0 live / 0 pending / 20 new**. Exact accepted-prior comparison prevents 14 repeated
+module additions, leaving **14 prior-LCS reuses / 6 new theoretical-teaching scopes**. Together
+with the assessment handles, Family 64 completed **88 required searches**. Declarative
+teaching scopes do not enter the eligible tested-concept or practical-scope counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 64 | Family 64 delta | After Family 64 |
+|---|---:|---:|---:|
+| Eligible observed question records | 525 | +2 | 527 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 255 | +0 | 255 |
+| Question live / pending / new | 10 / 86 / 159 | +0 / +0 / +0 | 10 / 86 / 159 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `43 = 4 + 37 + 2`, `37 = 3 + 6 + 2 + 4 + 4
++ 2 + 6 + 5 + 5`, `2 = 2 prompts - 0 repeated source occurrences`, `0 added concepts =
+2 tested handles - 2 prior eligible handles`, `527 = 525 + 2`, `265 = 265 + 0`, `255 =
+255 + 0`, `10 + 86 + 159 = 255`, `6 + 0 = 6`, `398 + 0 = 398`, `2,496 + 0 =
+2,496`, `136 + 0 = 136`, and `74 + 0 = 74`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-63
+remainder leaves **12 rank-4/rank-5 path instances / 10 unique hashes**. The Family-63
+method was reproduced first: its 13/11 row sets recomputed to
+`8153903e8783e0270b3e82642a8cc3b0efcc74c89f32522fd4c9f1892f32d0fb` and
+`4275bc123b028640c1e7fe844847329e7030c721559945c26980efc63b7a9f7d`.
+For the exact post-Family-64 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ccdda56b5597164f9a6ea9810a7b41ba8a13415a8a2d53f6a42c2b86724e2942`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`6873596c38d12745f5e5e48ae9734fff171928e756c60aa91fe9077368bda6ea`.
+The next rank-4/rank-5 manifest-order gate is tier-4 Pathology theoretical source
+`src_6995e894c8b7f13c8809`, manifest `103  (3) joints.pdf` (1,210,435 bytes; 31
+native-text pages; SHA-256
+`6995e894c8b7f13c88097fced41e6d68b9af3d2a05b8a49203eff09d46be5378`) under `Year 1/LCS
+103/Pathology/Theoretical/Lec 2 - Joint Diseases & Tumors/`; the local normalized filename
+omits one of the manifest's two spaces after `103`. Tier-6 and rank-9 source debts between
+rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1 remains incomplete. No
+download, ID, content record, catalogue update, import or source copy was created.
