@@ -1515,3 +1515,47 @@ Removing the forty-one processed unique hashes leaves **61 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Example mcq.docx`, SHA-256 `c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64`.
 
 **BLOCKED — S1 cannot be approved:** 61 selected inventory paths / 60 unique hashes remain untriaged.
+
+## Completed source — Example mcq.docx
+
+| Source path | SHA-256 | Size / rendered pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Example mcq.docx` | `c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64` | 16,073 bytes / 1 page | audit-not-found | bundled read-only DOCX conversion rendered one page; page 1 read in full | OOXML core properties name Hayam Mohamed Elsady Farhoud as creator and last modifier and date creation/modification to 12 October 2024. The visible page prints no title, institution, department, examiner, sitting, marks or official-key statement. It is an unattributed revision example, not an authenticated MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Example mcq.docx" purpose="source"}
+
+### Exact MCQ, inline-key, written, practical, image and teaching boundary
+
+The single rendered page contains four distinct five-option MCQ blocks. The stems are unnumbered, but paragraph grouping and five-option structure make the four prompt occurrences unambiguous. In each block one option is printed in red and is retained as the source's inline answer observation.
+
+| Format | Prompt observations | Inline red key observations | Source-absent answers |
+|---|---:|---:|---:|
+| Conventional MCQ | 4 | 4 | 0 |
+| Written / practical / image identification | 0 | 0 | 0 |
+| **Total** | **4** | **4** | **0** |
+
+There are no answer-only, unkeyed, teaching-only or blank pages. The source's wording, spelling and option formatting are preserved rather than corrected: the first block prints `Pectorals major/minor`, the third keyed option prints `invested (surrounded) by clavipectoral fascia`, and the fourth block visibly duplicates `b.` before `Suprascapular` while marking `Superior thoracic` red.
+
+### Source-first collapse and exactly-four-search gate
+
+The four prompts concern pectoral-muscle attachments/actions, clavipectoral fascia and the first branch of the axillary artery. Their entire scope is contained within the completed Upper Limb Anatomy H1–H5 family, so no genuinely new handle survives prior-MSK reconciliation.
+
+The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**. The prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its delta is **+4 questions / +4 answer observations / +0 concepts**. Cumulative arithmetic is **4737 + 4 = 4741 questions**, **4630 + 4 = 4634 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 4741 | 4634 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-two processed unique hashes leaves **60 selected inventory paths / 59 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ba80ad38cfccba147f268c40f08c703377c4de09e60db99e2e2a49df56787c66`. Remaining audit-review debt is 26 substantive-text / 7 sparse-text / 11 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`42 + 59 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Gray's anatomy upper limb mcq.pdf`, SHA-256 `d35866929baf5850e67d4a378bbd3ad4b72196460f0de00dc32014837f832135`, 41 pages.
+
+**BLOCKED — S1 cannot be approved:** 60 selected inventory paths / 59 unique hashes remain untriaged.

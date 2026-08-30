@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "d7d2f28d63649abf205cd73ae7fe90a942f3b9a20273e32da52d3078ee55de43",
-    "triageMarkdown": "abe0a23ca5ee8994201b9cbb01454c03a8272ad57a4b89e0adff9077de456329"
+    "readinessMarkdown": "df40534ec5a5c89ebbe515f5e351311d451fb41ea40c3fc64f3d706b1b4f420d",
+    "triageMarkdown": "c015d771a329adf8eb14bc1b25d5075063568fd2870625b5b500eeb04bdacd5d"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -82,6 +82,7 @@
       "bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7",
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
       "be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4",
+      "c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64",
       "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e",
@@ -93,7 +94,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 41
+    "uniqueSha256": 42
   },
   "completedSourceCoverage": [
     {
@@ -1047,23 +1048,51 @@
       "preservedSourceDefects": [
         "Q35 answer-table explanation for option e names the ulnar nerve while the printed distractor names the median nerve"
       ]
+    },
+    {
+      "sha256": "c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64",
+      "sourceBytes": 16073,
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "questionAndInlineKeyPages": "1",
+      "printedPromptObservations": 4,
+      "objectiveMcqPrompts": 4,
+      "printedKeyObservations": 4,
+      "inlineAnswerObservations": 4,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 4,
+      "familyAnswerDelta": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "unattributed DOCX revision example; OOXML creator metadata is not authenticated MUST/MSK examination or faculty-key authority",
+      "boundaryDisposition": "one rendered page containing four unnumbered but structurally distinct five-option MCQs, each with one inline red keyed option; no other assessment or teaching material",
+      "preservedSourceDefects": [
+        "Pectorals major/minor wording retained",
+        "fourth block visibly duplicates option label b before Suprascapular"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4737,
-    "printedKeyObservations": 4630,
+    "printedPromptObservations": 4741,
+    "printedKeyObservations": 4634,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 61,
-    "uniqueSha256": 60,
-    "sortedNewlineSha256": "c0daafbeac9e214c38bf78a9fda40207afe9571a59f432d1b0a64583ea014545",
+    "inventoryMetadataRows": 60,
+    "uniqueSha256": 59,
+    "sortedNewlineSha256": "ba80ad38cfccba147f268c40f08c703377c4de09e60db99e2e2a49df56787c66",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
-      "audit-not-found": 14,
+      "audit-not-found": 13,
       "empty-text": 11,
       "sparse-text": 7,
       "substantive-text": 26
@@ -1071,15 +1100,15 @@
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 3,
-    "audit-not-found": 14,
+    "audit-not-found": 13,
     "empty-text": 11,
     "sparse-text": 7,
     "substantive-text": 26
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 41,
-    "remainingUniqueSha256": 60,
+    "processedUniqueSha256": 42,
+    "remainingUniqueSha256": 59,
     "processedPlusRemaining": 101
   }
 }

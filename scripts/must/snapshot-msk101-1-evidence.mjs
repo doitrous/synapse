@@ -48,9 +48,10 @@ const PROCESSED_FAMILY_HASHES = [
   'bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7',
   '9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84',
   'a265707d3adee6f32dc199c4ae4b93d35cc600832316508872f599e181e24175',
+  'c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = 'c0daafbeac9e214c38bf78a9fda40207afe9571a59f432d1b0a64583ea014545'
+const REMAINING_CHECKSUM = 'ba80ad38cfccba147f268c40f08c703377c4de09e60db99e2e2a49df56787c66'
 
 function option(name) {
   const prefix = `${name}=`
@@ -127,10 +128,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 11, 'sparse-text': 7, 'substantive-text': 26 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 11, 'sparse-text': 7, 'substantive-text': 26 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=26-substantive/7-sparse/11-empty/14-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=26-substantive/7-sparse/11-empty/13-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -146,7 +147,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '4737', '4630', '36']) {
+for (const value of [...PROCESSED_FAMILY_HASHES, SELECTED_CHECKSUM, REMAINING_CHECKSUM, '4741', '4634', '36']) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 
@@ -180,7 +181,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 41 || remainingHashes.length !== 60 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 42 || remainingHashes.length !== 59 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -188,7 +189,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 11, 'sparse-text': 7, 'substantive-text': 26 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 13, 'empty-text': 11, 'sparse-text': 7, 'substantive-text': 26 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -250,8 +251,9 @@ const provenance = {
     { sha256: PROCESSED_FAMILY_HASHES[38], sourcePages: 4, renderedReadPages: '1-4', fillPromptAndInlineAnswerPages: '1-4', printedPromptObservations: 13, fillBlankPrompts: 13, printedKeyObservations: 13, inlineAnswerObservations: 13, sourceAbsentAnswers: 0, pairedQuestionOnlySibling: '9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84', pairedPromptSequenceObservations: 13, familyQuestionDelta: 13, familyAnswerDelta: 13, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'image-only handwritten brachial-artery fill-in worksheet; filename-only Sara Hafez attribution and Samsung scan metadata provide no authenticated MUST/MSK exam or faculty-key authority', boundaryDisposition: 'thirteen numbered fill-in prompts, each with one or more red handwritten completions; counted once per numbered prompt and once per prompt-matched answer observation' },
     { sha256: PROCESSED_FAMILY_HASHES[39], sourcePages: 4, renderedReadPages: '1-4', fillPromptPages: '1-4', printedPromptObservations: 13, fillBlankPrompts: 13, printedKeyObservations: 0, sourceAbsentAnswers: 13, exactPromptSequenceSiblingOf: PROCESSED_FAMILY_HASHES[38], pairedPromptSequenceObservations: 13, familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'image-only handwritten brachial-artery fill-in worksheet; filename-only Sara Hafez attribution and Samsung scan metadata provide no authenticated MUST/MSK exam or faculty-key authority', boundaryDisposition: 'thirteen numbered fill-in prompts with blank answer lines; exact blue-handwriting prompt-sequence sibling of the completed red-answer carrier' },
     { sha256: PROCESSED_FAMILY_HASHES[40], sourcePages: 11, renderedReadPages: '1-11', questionPages: '1-9', keyPages: '9-11', printedPromptObservations: 61, objectiveMcqPrompts: 37, matchingPrompts: 24, printedKeyObservations: 61, sourceAbsentAnswers: 0, familyQuestionDelta: 61, familyAnswerDelta: 61, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'external Part 6 Upper Limb question-book excerpt with no printed author, institution, examiner or sitting provenance; not an authenticated MUST/MSK examination or key', boundaryDisposition: 'continuous numbered bank Q1-Q61; thirty-seven conventional MCQs plus twenty-four separately numbered matching rows; complete printed answer table', preservedSourceDefects: ['Q35 answer-table explanation for option e names the ulnar nerve while the printed distractor names the median nerve'] },
+    { sha256: PROCESSED_FAMILY_HASHES[41], sourceBytes: 16073, sourcePages: 1, renderedReadPages: '1', questionAndInlineKeyPages: '1', printedPromptObservations: 4, objectiveMcqPrompts: 4, printedKeyObservations: 4, inlineAnswerObservations: 4, sourceAbsentAnswers: 0, familyQuestionDelta: 4, familyAnswerDelta: 4, acceptedSourceHandles: 0, searchesRun: 0, referenceAcceptedSourceHandles: 5, referenceSearchesRun: 20, liveHits: 0, pendingHits: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true, authorityDisposition: 'unattributed DOCX revision example; OOXML creator metadata is not authenticated MUST/MSK examination or faculty-key authority', boundaryDisposition: 'one rendered page containing four unnumbered but structurally distinct five-option MCQs, each with one inline red keyed option; no other assessment or teaching material', preservedSourceDefects: ['Pectorals major/minor wording retained', 'fourth block visibly duplicates option label b before Suprascapular'] },
   ],
-  triageCumulative: { printedPromptObservations: 4737, printedKeyObservations: 4630, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
+  triageCumulative: { printedPromptObservations: 4741, printedKeyObservations: 4634, namedConceptsAssigned: 36, liveHits: 0, pendingHits: 1, newConcepts: 35 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
   reconciliation: { selectedUniqueSha256: 101, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },
