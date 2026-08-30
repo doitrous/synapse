@@ -4974,3 +4974,113 @@ tier-6 `src_54c81ff574ec70dc605a` · `antibiotics resistance.pdf`, SHA-256
 under `Microbiology / Notes and Summaries`. Its OCR-needed status is the next-source processing
 blocker: it requires complete rendering, visual prompt-versus-teaching and answer-convention
 adjudication, source-first dedupe, and a prior-BMS gate before any count is admitted.
+
+## Family 47 — tier-6 Medicine Way antimicrobial-resistance MCQ excerpt
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_54c81ff574ec70dc605a` · `antibiotics resistance.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/antibiotics resistance.pdf` |
+| SHA-256 / size | `54c81ff574ec70dc605a53a35f12df89a7e9cb18c76660ee1ef93bb74557ff38` · 603,483 bytes |
+| Format / read boundary | Three OCR-needed A4 scans; all three physical pages rendered at 200 dpi and visually read in full |
+| Authority | Medicine Way / Arabic `طريق الطب` channel-team compilation attributed on the cover to Mansour El Gazzar; no Helwan/university or faculty masthead, module code, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is a promotional cover only. Physical p. 2 contains complete MCQs Q117–Q122,
+and p. 3 contains complete MCQs Q123–Q128. The numbering begins at 117, so this is a detached
+study-bank excerpt rather than a recoverable original paper or sitting. Its manifest placement
+supports BMS-102 topical relevance, but the file itself supplies no Helwan assessment authority.
+It is therefore auxiliary study evidence only.
+
+The prompt-start checksum is `0 + 6 + 6 = 12`. All 12 stems and their option sets are complete.
+There is no answer register, option mark, response field, correctness annotation, or repeatable
+answer convention. Uniform underlining formats the stems rather than selecting an option, and
+the stray scan marks outside the p. 2 content box do not align to any answer. Thus the family has
+**12 complete prompt occurrences / 0 printed-answer occurrences / 12 retained question records**.
+
+### Source-first occurrence and tested-scope ledger
+
+| Ref | Page | Source-tested scope without supplying an unprinted answer | Handle / assignment |
+|---|---:|---|---|
+| F47-Q117 | 2 | Name for a bacteriophage that undergoes lytic cycles | `virulent-phage-lytic-cycle-nomenclature` |
+| F47-Q118 | 2 | Name for transfer of any bacterial gene through a virulent phage | `generalized-transduction-any-gene-virulent-phage` |
+| F47-Q119 | 2 | Exception among high-transfer-frequency, wide-host-range, and multiple-determinant properties of conjugative plasmids | `conjugative-plasmid-property-exception` |
+| F47-Q120 | 2 | Name for transposon excision from a donor and insertion into a recipient | `simple-transposition-excision-insertion` |
+| F47-Q121 | 2 | Enzyme inactivation, altered target/receptor, and altered permeability as antimicrobial-resistance mechanism classes | `antimicrobial-resistance-mechanism-classes` |
+| F47-Q122 | 2 | Mechanistic differential for Mycoplasma resistance to penicillin | `mycoplasma-intrinsic-penicillin-resistance` |
+| F47-Q123 | 3 | Mechanistic differential for sulfonamide resistance | `sulfonamide-resistance-mechanism-identification` |
+| F47-Q124 | 3 | Inactivation, altered target site, and altered permeability as drug-resistance mechanism classes | retain; semantic collapse to `antimicrobial-resistance-mechanism-classes` |
+| F47-Q125 | 3 | Most-common genetic-source differential for drug resistance: chromosome, transposon, or plasmid | `most-common-genetic-source-drug-resistance` |
+| F47-Q126 | 3 | Nomenclature for a plasmid described as coding and transferring drug resistance | `resistance-plasmid-code-transfer-nomenclature` |
+| F47-Q127 | 3 | Natural-resistance differential among L-forms, protoplasts, Mycoplasma, and spheroplasts | `natural-antibiotic-resistance-cell-wall-form-differential` |
+| F47-Q128 | 3 | Adequate antibiotic-duration interval without an infection, drug, patient, or response context | `adequate-antibiotic-duration-unspecified-context` |
+
+Q121 and Q124 are not literal copies: their wording and option order differ, so both retained
+records survive. They test the same three-class resistance-mechanism scope and collapse to one
+source handle. No other pair is a wording repeat or same-scope collapse. The source therefore has
+**12 retained records / 11 source-distinct tested handles**. No option is promoted to a key;
+Q128's clinically under-specified duration framing is preserved as a low-authority source risk,
+not converted into treatment guidance.
+
+### Four-query search register and prior-BMS adjudication
+
+Each of the 11 handles received exactly four required searches across live state and all pending
+import roots: **44 required searches**. Exact records named below were re-opened after the literal
+search runs. Article prose and partial component records do not replace an exact-scope concept.
+External disposition is **0 live / 3 pending / 8 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `virulent-phage-lytic-cycle-nomenclature` · Q117 | `bacteriophage virulent phage lytic cycle`; `phage that undergoes lytic cycle`; `virulent versus temperate phage`; `lytic bacteriophage nomenclature` | no same-scope; generalized-transduction and whole-cycle records do not name the phage from this defining property | none; Family-12 G01 enumerates the cycle and F27-Q19 applies the cycle to generalized transduction, so delta |
+| `generalized-transduction-any-gene-virulent-phage` · Q118 | `generalized transduction any bacterial gene`; `virulent phage bacterial gene transfer`; `random bacterial DNA transduction`; `generalized transduction definition` | pending `CON-INF-E9C14F5981ACE5`; exact random-host-DNA / virulent-phage generalized-transduction scope | none; F27-Q18 and Q19 separately test generic phage transfer and the lytic-cycle property, while this source combines subtype, cargo breadth, and vehicle, so delta |
+| `conjugative-plasmid-property-exception` · Q119 | `conjugative plasmid properties`; `high frequency transfer plasmid`; `broad host range conjugative plasmid`; `multiple resistance determinants conjugative plasmid` | no same-scope; pending conjugation and R-plasmid records cover individual transfer or carriage facts only | none; delta |
+| `simple-transposition-excision-insertion` · Q120 | `simple transposition excision insertion`; `cut and paste transposition bacteria`; `nonreplicative transposition donor recipient`; `simple versus replicative transposition` | no same-scope; pending `CON-INF-D6A264E108B348` defines transposon mobility but not the simple/nonreplicative excision-insertion distinction | none; Family-11 Q24 and F27-Q14 are broader mobility scopes, so delta |
+| `antimicrobial-resistance-mechanism-classes` · Q121,Q124 | `antimicrobial resistance mechanism classes`; `drug inactivation altered target permeability`; `bacterial drug resistance mechanisms list`; `antibiotic resistance mechanisms categories` | no same-scope concept; the ASU article summary and mechanism-specific records are not a complete concept record | exact reuse F12-A04; F20-Q33 already collapses to the same umbrella classification |
+| `mycoplasma-intrinsic-penicillin-resistance` · Q122 | `Mycoplasma penicillin resistance no cell wall`; `Mycoplasma intrinsic resistance beta lactam`; `cell wall absent penicillin failure`; `natural resistance Mycoplasma antibiotic` | pending `CON-INF-DCD82D2A1D396C`; exact absent-target / intrinsic-resistance relation | exact reuse F11-Q22; F20-Q27 already collapses there |
+| `sulfonamide-resistance-mechanism-identification` · Q123 | `sulfonamide resistance mechanisms`; `sulfonamide altered target folate permeability`; `sulphonamide preformed folic acid resistance`; `sulfonamide resistance differential` | pending `CON-INF-39978E6864743D`; exact sulfonamide metabolic-bypass identification scope | exact reuse F11-Q19 and F20-Q34; the external match does not turn this source's unmarked option into a printed key |
+| `most-common-genetic-source-drug-resistance` · Q125 | `most common source drug resistance plasmid`; `chromosome transposon plasmid resistance source`; `genetic source antibiotic resistance`; `plasmid common source resistance genes` | no same-scope; chromosome-, transposon-, and plasmid-specific records do not state the source's comparative frequency claim | none; delta |
+| `resistance-plasmid-code-transfer-nomenclature` · Q126 | `plasmid codes and transfers drug resistance`; `R plasmid resistance gene transfer`; `resistance plasmid definition`; `R factor antibiotic resistance carriage` | no same-scope; pending `CON-INF-134BE2C9B827D5` covers resistance-gene carriage and `CON-INF-B7F47EC7A8F7FA` covers conjugative transfer separately, not the combined nomenclature | none; F11-Q23 and F17-Q01/F20-Q03 likewise split carriage from transfer, so this composite is a delta |
+| `natural-antibiotic-resistance-cell-wall-form-differential` · Q127 | `naturally resistant bacteria Mycoplasma L forms`; `intrinsic resistance protoplast spheroplast Mycoplasma`; `cell wall deficient forms antibiotic resistance`; `natural antibiotic resistance bacterial forms` | no same-scope; Mycoplasma intrinsic-resistance and wall-deficient-form records each cover only part of the four-way differential | none; Q122/F11-Q22 are Mycoplasma-specific, so delta |
+| `adequate-antibiotic-duration-unspecified-context` · Q128 | `adequate antibiotic duration`; `antibiotic course duration 7 10 days`; `antimicrobial duration without infection context`; `appropriate duration antibiotic therapy` | no same-scope | none; delta; the context-free interval is not accepted as clinical guidance |
+
+Thus **11 handles - 3 prior exact reuses = +8 concepts**.
+
+| Measure | Family 47 | Auxiliary cumulative (Families 12–47) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 12 | 266 | 765 | 1,031 |
+| Printed study-answer occurrences | 0 | 188 | 405 | 593 |
+| Retained question records | 12 | 263 | 552 | 815 |
+| Source-distinct tested handles / required searches | 11 / 44 | 259 / — | — | — |
+| External live / pending / no same-scope | 0 / 3 / 8 | — | — | family-local disposition |
+| Cross-family concept delta | +8 | +195 over primary | 372 | `372 + 195 = 567` |
+| **Distinct tested concepts** | **+8** | **195 auxiliary additions** | **372** | **567** |
+
+The checksum closes without remainder: prompt starts are `0 + 6 + 6 = 12`; key alignment is
+`12 - 0 = 12` unkeyed; retention is `12 - 0 copies = 12`; handle assignment is
+`12 records - 1 semantic collapse = 11`; assignment is `12 - 12 = 0` unassigned; searches are
+`11 × 4 = 44`; external disposition is `0 + 3 + 8 = 11`; and concept arithmetic is
+`11 - 3 = 8`. Auxiliary cumulative arithmetic is `254 + 12 = 266` prompts,
+`188 + 0 = 188` printed answers, `251 + 12 = 263` retained records,
+`248 + 11 = 259` source handles, and `187 + 8 = 195` concept additions over primary.
+All-eligible arithmetic is `765 + 266 = 1,031`, `405 + 188 = 593`,
+`552 + 263 = 815`, and `372 + 195 = 567`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**266 / 188 / 263 / 259 / +195**; and all eligible evidence is
+**1,031 / 593 / 815 / 567**. This tier-6 unkeyed excerpt cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 47
+
+`src_54c81ff574ec70dc605a` is exhausted across all three pages: the cover, every prompt and
+option set, answer-convention ruling, retained record, handle, search row, external disposition,
+and prior-BMS decision are assigned once, with **zero source remainder** and no Family-47
+blocker. The next manifest-ordered local BMS-102 candidate is tier-6
+`src_46b5b415246144bb43d0` · manifest `bacterial growth .pdf`, SHA-256
+`46b5b415246144bb43d00e640c311e620d9f52d43b8c06e392f5c7447b497ae7`, six OCR-needed pages
+under `Microbiology / Notes and Summaries`. The current local filename normalises away the
+manifest's trailing space (`bacterial growth.pdf`) while retaining the same byte hash. Its
+OCR-needed six-page boundary is the next-source processing blocker: fully render and visually
+adjudicate prompt, teaching, and answer conventions before admitting any count.
