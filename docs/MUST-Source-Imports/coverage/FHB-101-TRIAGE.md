@@ -3909,3 +3909,54 @@ Removing this one substantive-text path and unique hash leaves **63 selected inv
 The next evidence-ranked substantive source is the single nine-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology_FHB_Clinical_Applications_Mohamed_Eissa_MMSU (1).pdf`, SHA-256 `d6c7f6be8d5066df575221ff5f3c7903d2c5204b2fddd81481fbd383a1d14100`.
 
 **BLOCKED — S1 cannot be approved:** 63 selected source paths remain untriaged.
+
+## Completed source — Histology FHB Clinical Applications
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histology_FHB_Clinical_Applications_Mohamed_Eissa_MMSU (1).pdf` | `d6c7f6be8d5066df575221ff5f3c7903d2c5204b2fddd81481fbd383a1d14100` | 9 | substantive-text | pages 1–9 rendered and read | Local MMSU-branded 2025 `Histology FHB Clinical applications` study handout credited visually to Mohamed Eissa. It prints no faculty/department approval, sitting, marks or official-paper/key claim. |
+
+### Teaching boundary and exact assessment inventory
+
+Page 1 is a cover. Pages 2–6 are labelled explanatory teaching notes under `Cytology`, `Cytogenetics` and `Epithelium`; their numbered clinical headings state causes, uses and outcomes but supply no question stem, response form or marking instruction, so they are not assessment prompts. Pages 7–9 separately print a `Questions` heading and one continuous 12-item four-option MCQ sequence. Page 9 ends with an explicit complete `Answer Key`:
+
+```text
+Q1–Q12: C B D C D A B C D A A A
+```
+
+The exact assessment inventory is therefore **12 complete prompt occurrences / 12 directly printed answer occurrences**. The teaching-note facts are context and answer support only; they are not double-counted as prompts or answers.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 12 prompts are assigned exactly once to eight source handles. Every handle received the four searches printed below, for **8 × 4 = 32 searches**.
+
+| Printed refs | Printed answers | Source-distinct tested concept (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|---|
+| Q1,Q7 | `1 C`; `7 B` | Mitochondrial ATP failure producing muscle weakness/myopathy (`mitochondrial myopathy`; `mitochondrial ATP muscle weakness`; `mutant mitochondria neuropathy`; `mitochondrial energy deficiency`) | new externally; prior FHB owns mitochondrial structure/energy production, not this clinical dysfunction scope — **new addition**. |
+| Q2,Q3 | `2 B`; `3 D` | Rough-ER protein synthesis/control and weak bone formation (`rough ER collagen synthesis`; `rough ER weak bone`; `rough ER protein quality control`; `protein forming cells rough ER`) | pending-hit; exact prior-FHB reuse from the immediately preceding clinical-organelle prompt — duplicate. |
+| Q4 | `C` | Cell-receptor defects with normal hormone level and target-cell resistance (`defective cell receptors hormone resistance`; `pseudohypoparathyroidism receptor`; `growth hormone receptor dwarfism`; `normal hormone target cell response`) | new externally; no exact prior-FHB receptor-resistance assignment — **new addition**. |
+| Q5,Q10 | `5 D`; `10 A` | Dynein deficiency and immotile-cilia syndrome (`immotile cilia syndrome`; `dynein male infertility`; `ciliary dyskinesia respiratory infection`; `immotile sperm dynein`) | new externally; exact prior-FHB clinical-syndrome reuse from the immediately preceding source — duplicate. |
+| Q6 | `A` | Smooth-ER detoxification failure in neonatal jaundice (`smooth ER neonatal jaundice`; `smooth ER bilirubin detoxification`; `neonatal jaundice organelle`; `smooth ER liver detoxification`) | new externally; exact prior-FHB smooth-ER/jaundice reuse — duplicate. |
+| Q8 | `C` | Microtubule/mitotic-spindle blockade in cancer chemotherapy (`microtubule chemotherapy`; `vincristine microtubule`; `paclitaxel mitotic spindle`; `colchicine cancer cells`) | new externally; prior FHB owns spindle/microtubule structure but not this therapeutic application — **new addition**. |
+| Q9 | `D` | Proteasomal failure and neurodegenerative dysfunction (`proteasome neurodegeneration`; `proteasome Parkinson disease`; `protein quality control memory`; `ubiquitin proteasome neurons`) | pending-hit; exact prior-FHB Parkinson/proteasome clinical reuse from the immediately preceding source — duplicate. |
+| Q11,Q12 | `11 A`; `12 A` | Barr-body counts and sex-chromosome aneuploidies (`Barr body multiple X syndrome`; `45 XO Turner syndrome`; `47 XXX Barr bodies`; `sex chromosome aneuploidy`) | new externally; exact prior-FHB Barr-body/Turner/multiple-X reuse — duplicate. |
+
+The source-level search disposition is **0 live / 2 pending / 6 new = 8 handles**. Five handles are exact prior-FHB duplicates. The three surviving scopes are mitochondrial dysfunction/myopathy, receptor-mediated hormone resistance, and microtubule-blocking chemotherapy. Their post-prior result is **0 live / 0 pending / 3 new = +3 concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+12 questions / +12 directly printed answers / +3 concepts = +0 live / +0 pending / +3 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3252 | 2986 | 429 | 66 | 84 | 279 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 84 + 279 = 429`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **62 selected inventory paths / 60 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `8df96d554485c99ab71bb24732c63bdef20f884d22c9ddb3e86596251d625ccf`. Pinned triage debt becomes **19 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash accounting is **`46 + 60 = 106`**.
+
+The next evidence-ranked substantive source is the single eight-page Histology `05 MCQs` path `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Cases.pdf`, SHA-256 `76b58bc56d2446cd2726f4fd96a038084d5bd8eb0081b30cbf64ad355de1ba31`.
+
+**BLOCKED — S1 cannot be approved:** 62 selected source paths remain untriaged.
