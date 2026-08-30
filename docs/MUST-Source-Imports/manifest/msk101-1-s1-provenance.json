@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "fd1ed64795b98d66cc924963619850107f70745ebc0ee3bf6ead9bb94dc8337d",
-    "triageMarkdown": "557af6beece0651a517856ee2fd33d9e5870da2b19213f2a3ccae95df4cddde2"
+    "readinessMarkdown": "ec0017b91039cf81be1d2506b758bfbc2693a8b42d592721734ccd4c612d7e94",
+    "triageMarkdown": "aa5c78decde5c5c5c0ea91033c359a2ff2ec739b1955a4c4cd505e126ca52e1c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -59,12 +59,13 @@
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
       "98866db469c5a755eb93cc9f2dbe793078dfdf5f5be96010e774455233fa04fd",
       "a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de",
+      "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 12
+    "uniqueSha256": 13
   },
   "completedSourceCoverage": [
     {
@@ -233,26 +234,41 @@
       "pendingHits": 0,
       "newConceptsAfterPriorMskCollapse": 0,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
+      "sourcePages": 6,
+      "renderedReadPages": "1-6",
+      "questionPages": "1-6",
+      "keyPages": "6",
+      "printedPromptObservations": 45,
+      "printedKeyObservations": 45,
+      "acceptedSourceHandles": 4,
+      "searchesRun": 16,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1037,
-    "printedKeyObservations": 967,
+    "printedPromptObservations": 1082,
+    "printedKeyObservations": 1012,
     "namedConceptsAssigned": 21,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 20
   },
   "remaining": {
-    "inventoryMetadataRows": 91,
-    "uniqueSha256": 89,
-    "sortedNewlineSha256": "499f314db90f6965a7832a2c4366bd9aa689d289f2f1da98e7286ee1055a8e1b",
+    "inventoryMetadataRows": 90,
+    "uniqueSha256": 88,
+    "sortedNewlineSha256": "3a50307623bc7691df2a6299a14c0ea5a462c140dc08d094d71da4b4f259f15a",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 15,
       "sparse-text": 8,
-      "substantive-text": 51
+      "substantive-text": 50
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -260,12 +276,12 @@
     "audit-not-found": 14,
     "empty-text": 15,
     "sparse-text": 8,
-    "substantive-text": 51
+    "substantive-text": 50
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 12,
-    "remainingUniqueSha256": 89,
+    "processedUniqueSha256": 13,
+    "remainingUniqueSha256": 88,
     "processedPlusRemaining": 101
   }
 }

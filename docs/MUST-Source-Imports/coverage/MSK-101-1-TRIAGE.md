@@ -413,10 +413,43 @@ The source is now `sourceProcessed=true`. Its completed delta is **+46 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — Histo MCQ Dr.Zahra [Cartilage]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Cartilage].pdf` | `bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a` | 6 | substantive-text audit sample | pages 1–6 rendered and read | Branded `HISTOLOGY — DR. AHMED ZAHRA — MCQ`; iLovePDF-produced file modified 30 January 2023. It names the instructor but provides no institution, department, sitting, marks or explicit official-key statement. The complete answer table is preserved as the document's own key, not promoted to validated faculty-exam authority. |
+
+### Exact MCQ, key, written, practical, image and teaching boundary
+
+Pages 1–6 contain **45 consecutively numbered cartilage MCQs**; question 32 has five options and the other prompts have four. Page 6 also contains a complete **45-entry answer table** for questions 1–45. The exact boundary is therefore **45 prompt occurrences / 45 printed-key observations / 0 source-absent answers**. There are **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-only pages**.
+
+### Source-first collapse, exactly four searches per handle, and prior-MSK dedupe
+
+All 45 occurrences were assigned once across four handles, reconciling as **21 + 10 + 8 + 6 = 45**. Each handle received exactly four searches across durable live/server, pending/import-ready and documentation evidence, for **4 × 4 = 16 searches**.
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 21, cartilage cells/matrix, growth, nutrition and perichondrium (`chondroblast chondrocyte cartilage matrix growth cell nest`; `appositional interstitial growth cartilage chondrogenic cells`; `perichondrium vascular fibrous chondrogenic layers repair`; `cartilage avascular nutrition diffusion lacunae GAGs`) | no external live/pending hit; same cartilage-cell, matrix, growth and perichondrium scopes as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H2 | 10, hyaline-cartilage fibers, matrix, sites and absent articular perichondrium (`hyaline cartilage type II collagen sites costal articular trachea`; `hyaline cartilage basophilic matrix sulfated GAG`; `articular cartilage no perichondrium hyaline`; `hyaline cartilage fetal skeleton epiphyseal plate`) | no external live/pending hit; same hyaline classification, matrix, site and articular scope as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H3 | 8, elastic-cartilage fibers and sites (`elastic cartilage type II collagen elastic fibers`; `elastic cartilage ear pinna epiglottis auditory canal`; `yellow elastic cartilage perichondrium avascular`; `elastic cartilage tracheal rings exception`) | no external live/pending hit; same elastic-cartilage composition/site scope as completed MSK cartilage assignments — **prior-MSK collapse**. |
+| H4 | 6, fibrocartilage fibers, sites and absent perichondrium (`fibrocartilage type I collagen intervertebral disc`; `white fibrocartilage no perichondrium chondrocyte rows`; `fibrocartilage symphysis pubis meniscus acetabular labrum`; `fibrocartilage avascular intervertebral disc perichondrium`) | no external live/pending hit; same fibrocartilage composition/site/perichondrium scope as completed MSK cartilage assignments — **prior-MSK collapse**. |
+
+The source-level result is **0 live / 0 pending / 4 externally new source handles**. Prior-MSK collapse removes all four, producing a completed-source concept delta of **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+45 questions / +45 answers / +0 post-prior concepts**. Cumulative arithmetic is **1037 + 45 = 1082 questions**, **967 + 45 = 1012 answers**, and **21 + 0 = 21 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 1082 | 1012 | 21 | 0 | 1 | 20 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twelve processed paths and unique hashes leaves **91 selected inventory paths / 89 unique SHA-256s**. Their sorted, newline-joined hash checksum is `499f314db90f6965a7832a2c4366bd9aa689d289f2f1da98e7286ee1055a8e1b`. Remaining audit-review debt is 51 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`12 + 89 = 101`**.
+Removing these thirteen processed paths and unique hashes leaves **90 selected inventory paths / 88 unique SHA-256s**. Their sorted, newline-joined hash checksum is `3a50307623bc7691df2a6299a14c0ea5a462c140dc08d094d71da4b4f259f15a`. Remaining audit-review debt is 50 substantive-text / 8 sparse-text / 15 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`13 + 88 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Cartilage].pdf`, SHA-256 `bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a`, 6 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/05 MCQs/MCQs - Histo MCQ Dr.Zahra [Muscle].pdf`, SHA-256 `3527d08a3d0a8e5222cb300bd316836a7b675396af8ee1d03efdcc3c38cc2f2b`, 12 pages.
 
-**BLOCKED — S1 cannot be approved:** 91 selected inventory paths / 89 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 90 selected inventory paths / 88 unique hashes remain untriaged.
