@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The seventy-two completed read-only source hashes cover seventy-three selected inventory paths, represent fifty-one distinct prompt families and yield **6696 questions / 6506 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 29-page `Histology MCQ qs 103.pdf` file, SHA-256 `4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece`, contains **153 conventional MCQs / 0 printed answers / 0 written / 0 practical or image-identification / 153 source-unkeyed prompts**. Its normalized prompt sequence matches the completed 29-page `histoooooo revised.pdf` carrier; the only extracted option-text difference is an answer annotation in the revised sibling. The prior carrier already recovered 151 answers and preserved the same two muscle-spindle items as unkeyed, so this carrier contributes **+0 questions / +0 answers / +0 concepts**. The internal year and exam-style headings establish only student compilation structure, not authenticated MUST/MSK assessment authority. No genuinely new handle survives sibling and prior-MSK collapse; the exactly-four-search gate resolves to **0 new handles × 4 = 0 new searches**, reusing the prior carrier's **6 handles / 24 searches**.
+The seventy-three completed read-only source hashes cover seventy-five selected inventory paths, represent fifty-one distinct prompt families and yield **6696 questions / 6506 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 6-page `Histology MSK101-1 Midterm training.pdf` file, SHA-256 `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`, is byte-identical to `_Exact Duplicates/.../Histo midterm night exercises 2026 answers.pdf`; the single hash therefore consumes two inventory paths. Each carrier contains **35 conventional MCQs / 0 printed answers / 0 written / 0 practical or image-identification / 35 source-unkeyed prompts**. Their extracted text exactly matches the completed highlighted and annotated `Histo midterm night exercises 2026.pdf` sibling, whose visual marks already supplied all 35 answers. Exact-duplicate and sibling collapse therefore contributes **+0 questions / +0 answers / +0 concepts**. The 2025 Word metadata supports a student training compilation, not authenticated MUST/MSK assessment authority. No genuinely new handle survives; the exactly-four-search gate resolves to **0 new handles × 4 = 0 new searches**, reusing the prior connective-tissue family's **5 handles / 20 searches**.
 
-Latest processed family hash: `4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece`.
+Latest processed family hash: `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`.
 
-Recent processed family hash retained for reconciliation: `1f8f6e6fce4d4bf68951c22b18ac702032f3e201f3c665d7c381cb0698e26e76`.
+Recent processed family hash retained for reconciliation: `4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece`.
 
 Earlier processed family hash retained for reconciliation: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
 
@@ -46,8 +46,10 @@ Current normalized-sibling family append: `1f8f6e6fce4d4bf68951c22b18ac702032f3e
 
 Current normalized-sibling family append: `4584906836551c4b0b692fa5d4b0aad8494f07212524958a7ffc6fc76e88fece`.
 
-Removing them leaves **30 inventory paths / 29 unique SHA-256s**, checksum `89337c87e3eb53e2ec7b624a4d01f01d7150b74175c0a3c0e4eefeff8d6ee47c`. The pinned remaining audit-review debt is 6 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current exact-duplicate/two-path sibling family append: `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Midterm training.pdf`, SHA-256 `b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22`, 6 pages; the same hash also appears at `_Exact Duplicates/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histo midterm night exercises 2026 answers.pdf`.
+Removing them leaves **28 inventory paths / 28 unique SHA-256s**, checksum `046657ac8836774ad6fa7f0797c15bdf018c3b0dd563a4a29dce860798364ec7`. The pinned remaining audit-review debt is 4 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 30 selected inventory paths / 29 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Training Questions.pdf`, SHA-256 `0558db41452b25a5e89addf25debb44fc243a6a219ebc9884f290b542cc0c07a`, 22 pages.
+
+**BLOCKED — S1 cannot be approved:** 28 selected inventory paths / 28 unique hashes remain untriaged.

@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "2c31a88ccfddc87bd3f32d93e7e6652da63c5148a7e55d2d4e271611d51dc3c1",
-    "triageMarkdown": "6473150e98bbffd2cc26ad8efef19d6e54cd86c26892738102c5f415534c4053"
+    "readinessMarkdown": "37db16021e557caec7e1ddfe40ae6d27d7a7f5677708fcd1dfda739741f2ad22",
+    "triageMarkdown": "779a6b77f56339fa14181aea9f2f2c1f45f97fd8aff556e6f290e160492cb023"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -101,6 +101,7 @@
       "b377284c73e07e824ca22b20ba1974282b1457609f75fca3114b1be484d191d7",
       "b3d06159850c5a129f9902b44e75f5444812301e3e21e48e1360683768f22005",
       "b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9",
+      "b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22",
       "bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7",
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
       "be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4",
@@ -124,7 +125,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 72
+    "uniqueSha256": 73
   },
   "completedSourceCoverage": [
     {
@@ -2268,6 +2269,44 @@
         "Q26 option label 2c is malformed",
         "all 153 prompts are source-unkeyed in this carrier"
       ]
+    },
+    {
+      "sha256": "b69f1cc959f6fb84dd519d2a5412f6e1d71be0fc4c4676fb482eb78e4a2a1a22",
+      "sourcePages": 6,
+      "renderedReadPages": "1-6",
+      "inventoryPathOccurrences": 2,
+      "exactDuplicateInventoryPaths": [
+        "Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histology MSK101-1 Midterm training.pdf",
+        "_Exact Duplicates/Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histo midterm night exercises 2026 answers.pdf"
+      ],
+      "questionPages": "1-6",
+      "printedPromptObservations": 35,
+      "objectiveMcqPrompts": 35,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 35,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "exactExtractedPromptTextSiblingOf": "1f8f6e6fce4d4bf68951c22b18ac702032f3e201f3c665d7c381cb0698e26e76",
+      "siblingPromptObservations": 35,
+      "siblingRecoveredAnswerObservations": 35,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceConnectiveTissueAcceptedSourceHandles": 5,
+      "referenceConnectiveTissueSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Muhammad Haitham Muhammad Ibrahim student connective-tissue training compilation created in Microsoft Word on 25 October 2025; neither byte-identical inventory path prints an institution, department, examiner, sitting, marks or official faculty-key claim",
+      "boundaryDisposition": "two byte-identical inventory paths carry the same clean six-page, thirty-five-MCQ sequence with no printed answer selections; extracted text exactly matches the previously processed highlighted and annotated night-exercises sibling, whose visual marks already supplied all thirty-five answers",
+      "preservedSourceDefects": [
+        "both current inventory carriers are wholly source-unkeyed despite the duplicate-path filename containing answers",
+        "numbering restarts at Q1 for the second sixteen-question block",
+        "source spelling, numbering and option-label defects remain uncorrected"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2279,26 +2318,26 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 30,
-    "uniqueSha256": 29,
-    "sortedNewlineSha256": "89337c87e3eb53e2ec7b624a4d01f01d7150b74175c0a3c0e4eefeff8d6ee47c",
+    "inventoryMetadataRows": 28,
+    "uniqueSha256": 28,
+    "sortedNewlineSha256": "046657ac8836774ad6fa7f0797c15bdf018c3b0dd563a4a29dce860798364ec7",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 6
+      "substantive-text": 4
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 6
+    "substantive-text": 4
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 72,
-    "remainingUniqueSha256": 29,
+    "processedUniqueSha256": 73,
+    "remainingUniqueSha256": 28,
     "processedPlusRemaining": 101
   }
 }
