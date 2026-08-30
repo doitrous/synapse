@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "fhb102-2-s1-evidence-snapshot/v1",
+  "scope": "FHB 102-2 S1 metadata-only durable evidence snapshot; no source content is imported.",
+  "sourceRoot": "<MUST_ROOT>",
+  "liveSourceVerification": false,
+  "approvalState": "checkpointed-incomplete",
+  "selector": {
+    "module": "FHB 102-2",
+    "categories": [
+      "05 MCQs",
+      "06 EOM Exams",
+      "07 EOY Exams",
+      "08 Midterm Exams"
+    ],
+    "inventoryRows": 96,
+    "uniqueSha256": 94,
+    "duplicatePaths": 2
+  },
+  "selectorCounts": {
+    "subjects": {
+      "00 Module-wide": 5,
+      "Microbiology": 28,
+      "Parasitology": 21,
+      "Pharmacology": 42
+    },
+    "categories": {
+      "05 MCQs": 45,
+      "06 EOM Exams": 26,
+      "07 EOY Exams": 0,
+      "08 Midterm Exams": 25
+    }
+  },
+  "prioritySignal": {
+    "assessmentCategoryPaths": 51,
+    "answerKeyLabelledAssessmentPaths": 0,
+    "candidateQuestionSourcePaths": 96
+  },
+  "inputSha256": {
+    "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
+    "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
+    "readinessMarkdown": "13827656d0a2b1c102e9b9610ba46c03e573ca9ac4d09b749084365cf8281b9b",
+    "triageMarkdown": "37e9d244606010cc243b352926543f2f8ff4231f90c145da1e6274645c25a160"
+  },
+  "inputMetadata": {
+    "inventoryDeclaredFileMetadata": true,
+    "inspectedTextDiagnostics": "sample-length classification only; raw samples are excluded"
+  },
+  "selectedInventory": {
+    "inventoryMetadataRows": 96,
+    "uniqueSha256": 94,
+    "sortedNewlineSha256": "3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313"
+  },
+  "auditSampleStatusCounts": {
+    "audit-extract-failed": 2,
+    "audit-not-found": 11,
+    "empty-text": 16,
+    "sparse-text": 25,
+    "substantive-text": 42
+  },
+  "duplicateFamilies": [
+    {
+      "sha256": "9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1",
+      "relativePaths": [
+        "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf",
+        "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf",
+        "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf"
+      ]
+    }
+  ],
+  "processedFamilies": {
+    "sha256": [],
+    "uniqueSha256": 0
+  },
+  "completedSourceCoverage": [],
+  "triageCumulative": {
+    "printedPromptObservations": 0,
+    "printedKeyObservations": 0,
+    "namedConceptsAssigned": 0,
+    "liveHits": 0,
+    "pendingHits": 0,
+    "newConcepts": 0
+  },
+  "firstSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
+    "sha256": "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
+    "pages": 33,
+    "sourceProcessed": false
+  },
+  "remaining": {
+    "inventoryMetadataRows": 96,
+    "uniqueSha256": 94,
+    "sortedNewlineSha256": "3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313",
+    "auditSampleStatusCounts": {
+      "audit-extract-failed": 2,
+      "audit-not-found": 11,
+      "empty-text": 16,
+      "sparse-text": 25,
+      "substantive-text": 42
+    }
+  },
+  "triageCheckpointRemainingAuditDebt": {
+    "audit-extract-failed": 2,
+    "audit-not-found": 11,
+    "empty-text": 16,
+    "sparse-text": 25,
+    "substantive-text": 42
+  },
+  "reconciliation": {
+    "selectedUniqueSha256": 94,
+    "processedUniqueSha256": 0,
+    "remainingUniqueSha256": 94,
+    "processedPlusRemaining": 94
+  }
+}
