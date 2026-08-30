@@ -1387,3 +1387,48 @@ Removing the thirty-eight processed unique hashes leaves **64 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (Answers) (By Sara Hafez).pdf`, SHA-256 `bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7`, 4 pages.
 
 **BLOCKED — S1 cannot be approved:** 64 selected inventory paths / 63 unique hashes remain untriaged.
+
+## Completed source — Brachial A Questions (Answers) (By Sara Hafez)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (Answers) (By Sara Hafez).pdf` | `bcdb214805329c0ae2c5b77d2cd3be3ce769f4f8fb9af5b14695383d5fbdbea7` | 4 | empty-text audit sample | pages 1–4 rendered and read | Image-only Samsung Electronics PDF, modified 10 January 2026. The filename attributes the worksheet to Sara Hafez, but the pages print only the handwritten title `Brachial A`; no institution, department, examiner, sitting, marks or official-key statement is present. It is a handwritten revision worksheet, not an authenticated MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (Answers) (By Sara Hafez).pdf" purpose="source"}
+
+### Exact fill-in, inline-answer, MCQ, written, practical and image boundary
+
+All four pages are assessment-bearing. They contain thirteen continuously numbered brachial-artery fill-in prompts. Each numbered prompt contains one or more blanks completed in red handwriting; the blue prompt handwriting remains visible around those completions. One prompt with several blanks is one prompt occurrence and its full set of red completions is one prompt-matched answer observation.
+
+| Format | Prompt observations | Printed/handwritten answer observations | Source-absent answers |
+|---|---:|---:|---:|
+| Numbered fill-in prompts | 13 | 13 | 0 |
+| MCQ | 0 | 0 | 0 |
+| Written case / practical / image identification | 0 | 0 | 0 |
+| **Total** | **13** | **13** | **0** |
+
+The exact boundary is therefore **13 prompt observations / 13 inline handwritten answer observations / 0 source-absent answers / 0 teaching-only pages**. Answers and spelling are preserved as source observations without academic correction or expansion.
+
+### Paired question-only sibling and source-first collapse
+
+The adjacent unprocessed `Brachial A Questions (By Sara Hafez).pdf` (`9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84`) has the exact same four-page blue handwritten prompt sequence and blank layout; this answer carrier adds red handwritten completions. That sibling is recorded only as the paired carrier and is not marked processed here.
+
+The answer-bearing file contributes **+13 questions / +13 answer observations** as the first processed carrier of this prompt sequence. Its full brachial-artery scope is contained within the completed Upper Limb Anatomy H1–H5 family, so no genuinely new handle survives prior-MSK reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**; the prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its distinct source-family delta is **+13 questions / +13 answer observations / +0 concepts**. Cumulative arithmetic is **4663 + 13 = 4676 questions**, **4556 + 13 = 4569 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 4676 | 4569 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the thirty-nine processed unique hashes leaves **63 selected inventory paths / 62 unique SHA-256s**. Their sorted, newline-joined hash checksum is `0f9248bf64492eb8bb005748eccd4dfb8382ddd7d53eb9e0ca6ce78275baefd1`. Remaining audit-review debt is 26 substantive-text / 7 sparse-text / 13 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`39 + 62 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Brachial A Questions (By Sara Hafez).pdf`, SHA-256 `9bad093d88bed36f4bfae361a381b8c733505d133a0554cbae5c60dda8f76a84`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 63 selected inventory paths / 62 unique hashes remain untriaged.
