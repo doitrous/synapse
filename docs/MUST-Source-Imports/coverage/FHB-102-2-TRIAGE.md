@@ -360,3 +360,44 @@ Removing the six processed hashes leaves **90 selected inventory paths / 88 uniq
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB 102-2 Microbiology Infection tutorial-4.pdf`, SHA-256 `d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43`, 20 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 90 selected inventory paths / 88 unique hashes remain untriaged.
+
+## Completed source — Microbiology Infection tutorial 4
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB 102-2 Microbiology Infection tutorial-4.pdf` | `d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43` | 20 | sparse-text | pages 1–20 rendered and read | Anonymous tutorial slide deck titled `FHB 102-2 | Infection module | Tutorial`. No institution, department, examiner, sitting, marks, named author or authenticated faculty-key mark is visible. The yellow highlights are source answer evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is a title slide. Pages 2–5 print Q1–Q4, page 6 is a teaching-only Gram-positive/Gram-negative wall comparison diagram, and pages 7–19 print Q5–Q17. Page 20 is a closing `ANY QUESTIONS???` slide. Q1–Q11 each have one option highlighted yellow on the same slide. Q12–Q17 have no visible highlight, answer mark or separate key, so those six answers remain source-absent. Q14–Q17 include culture, biochemical-test, microscopy or colony images as evidence within otherwise conventional objective MCQs.
+
+The exact boundary is **17 objective prompts / 11 prompt-matched highlighted source-answer observations / 6 source-absent answers / 0 written / 4 image-supported objective prompts / 0 practical-only prompts / 0 teaching prompts**, plus one teaching-only diagram page. Image support does not create extra prompt occurrences. Printed spelling, grammar and academically questionable highlighted options remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The seventeen prompts collapse source-first into six coherent handles. Five are already represented by completed FHB-102-2 concepts and receive no repeated search. The one surviving clinical/laboratory bacterial-identification handle received exactly four live-and-pending searches: **1 × 4 = 4 searches**. Every query returned no live or pending match.
+
+| Source handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Prokaryotic structure, Gram-positive/negative envelopes and plasma membrane | prior bacterial envelope, wall, membrane and wall-deficient-forms handle | prior-FHB-102-2 collapse |
+| Bacterial spores and long-term environmental survival | prior bacterial appendages, capsule, inclusions, spores, ribosomes and plasmids handle | prior-FHB-102-2 collapse |
+| Growth curve and nutritional classification | prior bacterial growth-curve/division and nutritional/environmental-requirements handles | prior-FHB-102-2 collapse |
+| Transformation, conjugation and lysogenic conversion | prior horizontal gene transfer and bacteriophage lytic/lysogenic-cycle handle | prior-FHB-102-2 collapse |
+| Endotoxin, invasion enzymes and virulence factors | prior virulence, toxins, colonization and carriers handle | prior-FHB-102-2 collapse |
+| Clinical and laboratory identification of Proteus, Pseudomonas, Staphylococcus aureus and Streptococcus pyogenes | `Proteus swarming indole urease bacterial identification`; `Pseudomonas burn wound blue green pigment oxidase`; `Staphylococcus aureus catalase coagulase impetigo identification`; `Streptococcus pyogenes beta hemolysis catalase negative identification` | no live/pending match — retained new/TBD |
+
+Post-prior disposition is **0 live / 0 pending / 1 new**. No content record, missing-answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This seventh one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+17 questions / +11 answers / +1 concept**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|
+| FHB 102-2 | 821 | 813 | 55 | 0 | 0 | 55 | TBD |
+
+Removing the seven processed hashes leaves **89 selected inventory paths / 87 unique SHA-256s**. Their sorted-newline checksum is `19c83af17959b145df6dbf3f4ae2f6b020d99028608d1b89bfb55f3a5c9c4516`. Remaining audit-review debt is **38 substantive-text / 23 sparse-text / 15 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`7 + 87 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB MICRO CH10 PRACTICE.pdf`, SHA-256 `1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229`, 3 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 89 selected inventory paths / 87 unique hashes remain untriaged.

@@ -15,9 +15,10 @@ const PROCESSED_FAMILY_HASHES = [
   '8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c',
   '352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f',
   'ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37',
+  'd563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '38ffe857c4ad0ae80ba3b1a9bfff9cd486d0c4df7668ba28de85d741b3c3b586'
+const REMAINING_CHECKSUM = '19c83af17959b145df6dbf3f4ae2f6b020d99028608d1b89bfb55f3a5c9c4516'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -54,10 +55,16 @@ const SIXTH_SOURCE = {
   pages: 29,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SEVENTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB 102-2 Microbiology Infection tutorial-4.pdf',
   sha256: 'd563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43',
   pages: 20,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB MICRO CH10 PRACTICE.pdf',
+  sha256: '1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229',
+  pages: 3,
   sourceProcessed: false,
 }
 
@@ -136,10 +143,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 15, 'sparse-text': 24, 'substantive-text': 38 }
+  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 15, 'sparse-text': 23, 'substantive-text': 38 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=38-substantive/24-sparse/15-empty/11-not-found/2-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=38-substantive/23-sparse/15-empty/11-not-found/2-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -155,7 +162,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
+for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, SEVENTH_SOURCE.relativePath, SEVENTH_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -201,7 +208,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 6 || remainingHashes.length !== 88 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 7 || remainingHashes.length !== 87 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -209,7 +216,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 15, 'sparse-text': 24, 'substantive-text': 38 }
+const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 15, 'sparse-text': 23, 'substantive-text': 38 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -441,14 +448,49 @@ const provenance = {
       boundaryDisposition: 'one cover page, 177 consecutively numbered conventional objective MCQs on pages 2-28, and one complete 177-token answer-only table on page 29; no written, practical, image-identification or teaching-only prompt boundary',
       preservedSourceDefects: ['the visible source supplies no author or authority statement beyond the AE cover mark and generic section headings', 'printed grammatical, spelling and academically questionable prompt and answer tokens are preserved without correction', 'the answer table is treated as source-printed evidence rather than an authenticated faculty key', 'section headings embedded between numbered prompts are not counted as teaching pages or prompts'],
     },
+    {
+      sha256: SEVENTH_SOURCE.sha256,
+      sourcePages: 20,
+      renderedReadPages: '1-20',
+      nonAssessmentPages: '1,6,20',
+      questionPages: '2-5,7-19',
+      printedPromptObservations: 17,
+      objectiveMcqPrompts: 17,
+      printedKeyObservations: 11,
+      inlineHighlightedAnswerObservations: 11,
+      sourceAbsentAnswers: 6,
+      writtenPrompts: 0,
+      practicalOnlyPrompts: 0,
+      practicalOrImagePrompts: 4,
+      teachingOnlyPages: 1,
+      teachingPrompts: 0,
+      sectionBoundary: [
+        { section: 'Core bacterial structure, growth, genetics and virulence', pages: '2-5,7-15', questionLabels: '1-13', prompts: 13, answers: 11, sourceAbsentAnswers: 2 },
+        { section: 'Image-supported clinical and laboratory identification', pages: '16-19', questionLabels: '14-17', prompts: 4, answers: 0, sourceAbsentAnswers: 4 },
+      ],
+      sourceFirstHandles: 6,
+      priorFhb1022CollapsedHandles: 5,
+      acceptedSourceHandles: 1,
+      searchesRun: 4,
+      familyQuestionDelta: 17,
+      familyAnswerDelta: 11,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 1,
+      sourceProcessed: true,
+      authorityDisposition: 'anonymous tutorial slide deck titled FHB 102-2 | Infection module | Tutorial, with no visible institution, department, examiner, sitting, marks, named author or authenticated faculty-key mark; inline yellow highlights are source answer evidence rather than an official faculty key',
+      boundaryDisposition: 'seventeen conventional objective MCQs on pages 2-5 and 7-19; Q1-Q11 each have one inline yellow-highlighted source answer while Q12-Q17 remain visibly unkeyed; Q14-Q17 are image-supported clinical or laboratory MCQs; page 6 is a teaching-only Gram-wall comparison diagram and pages 1 and 20 are non-assessment slides',
+      preservedSourceDefects: ['Q12-Q17 have no visible answer mark and no answers are inferred', 'Q14-Q17 use embedded clinical and laboratory images but remain one objective prompt occurrence each', 'printed spelling, grammar and academically questionable highlighted options are preserved without correction', 'the yellow highlights are source answer evidence rather than authenticated faculty-key observations'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 804, printedKeyObservations: 802, namedConceptsAssigned: 54, liveHits: 0, pendingHits: 0, newConcepts: 54 },
+  triageCumulative: { printedPromptObservations: 821, printedKeyObservations: 813, namedConceptsAssigned: 55, liveHits: 0, pendingHits: 0, newConcepts: 55 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
   fourthSourceCandidate: FOURTH_SOURCE,
   fifthSourceCandidate: FIFTH_SOURCE,
   sixthSourceCandidate: SIXTH_SOURCE,
+  seventhSourceCandidate: SEVENTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

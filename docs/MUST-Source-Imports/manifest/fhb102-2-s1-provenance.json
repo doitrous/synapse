@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "b714e9a9a440f0835e5e2e72ce15359c8a3619cd42152542c54cc671521d8fef",
-    "triageMarkdown": "5ccd51bfe4d529906c5dd4743896b8953dbf7d4cf65bd2652b7ce154b712602a"
+    "readinessMarkdown": "9019ce269bd9e9ad0e8dfb2d453928d91c7efd5262dcf6af8b69b37e0b945705",
+    "triageMarkdown": "e7621190d66adf4b4e0a606d6ae71d552c1c5c2c6bc10c7b20cab33cc536900f"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -74,9 +74,10 @@
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
+      "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 6
+    "uniqueSha256": 7
   },
   "completedSourceCoverage": [
     {
@@ -463,15 +464,68 @@
         "the answer table is treated as source-printed evidence rather than an authenticated faculty key",
         "section headings embedded between numbered prompts are not counted as teaching pages or prompts"
       ]
+    },
+    {
+      "sha256": "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
+      "sourcePages": 20,
+      "renderedReadPages": "1-20",
+      "nonAssessmentPages": "1,6,20",
+      "questionPages": "2-5,7-19",
+      "printedPromptObservations": 17,
+      "objectiveMcqPrompts": 17,
+      "printedKeyObservations": 11,
+      "inlineHighlightedAnswerObservations": 11,
+      "sourceAbsentAnswers": 6,
+      "writtenPrompts": 0,
+      "practicalOnlyPrompts": 0,
+      "practicalOrImagePrompts": 4,
+      "teachingOnlyPages": 1,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Core bacterial structure, growth, genetics and virulence",
+          "pages": "2-5,7-15",
+          "questionLabels": "1-13",
+          "prompts": 13,
+          "answers": 11,
+          "sourceAbsentAnswers": 2
+        },
+        {
+          "section": "Image-supported clinical and laboratory identification",
+          "pages": "16-19",
+          "questionLabels": "14-17",
+          "prompts": 4,
+          "answers": 0,
+          "sourceAbsentAnswers": 4
+        }
+      ],
+      "sourceFirstHandles": 6,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 1,
+      "searchesRun": 4,
+      "familyQuestionDelta": 17,
+      "familyAnswerDelta": 11,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 1,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous tutorial slide deck titled FHB 102-2 | Infection module | Tutorial, with no visible institution, department, examiner, sitting, marks, named author or authenticated faculty-key mark; inline yellow highlights are source answer evidence rather than an official faculty key",
+      "boundaryDisposition": "seventeen conventional objective MCQs on pages 2-5 and 7-19; Q1-Q11 each have one inline yellow-highlighted source answer while Q12-Q17 remain visibly unkeyed; Q14-Q17 are image-supported clinical or laboratory MCQs; page 6 is a teaching-only Gram-wall comparison diagram and pages 1 and 20 are non-assessment slides",
+      "preservedSourceDefects": [
+        "Q12-Q17 have no visible answer mark and no answers are inferred",
+        "Q14-Q17 use embedded clinical and laboratory images but remain one objective prompt occurrence each",
+        "printed spelling, grammar and academically questionable highlighted options are preserved without correction",
+        "the yellow highlights are source answer evidence rather than authenticated faculty-key observations"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 804,
-    "printedKeyObservations": 802,
-    "namedConceptsAssigned": 54,
+    "printedPromptObservations": 821,
+    "printedKeyObservations": 813,
+    "namedConceptsAssigned": 55,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 54
+    "newConcepts": 55
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -509,21 +563,27 @@
     "pages": 29,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "seventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB 102-2 Microbiology Infection tutorial-4.pdf",
     "sha256": "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
     "pages": 20,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - FHB MICRO CH10 PRACTICE.pdf",
+    "sha256": "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
+    "pages": 3,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 90,
-    "uniqueSha256": 88,
-    "sortedNewlineSha256": "38ffe857c4ad0ae80ba3b1a9bfff9cd486d0c4df7668ba28de85d741b3c3b586",
+    "inventoryMetadataRows": 89,
+    "uniqueSha256": 87,
+    "sortedNewlineSha256": "19c83af17959b145df6dbf3f4ae2f6b020d99028608d1b89bfb55f3a5c9c4516",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 15,
-      "sparse-text": 24,
+      "sparse-text": 23,
       "substantive-text": 38
     }
   },
@@ -531,13 +591,13 @@
     "audit-extract-failed": 2,
     "audit-not-found": 11,
     "empty-text": 15,
-    "sparse-text": 24,
+    "sparse-text": 23,
     "substantive-text": 38
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 6,
-    "remainingUniqueSha256": 88,
+    "processedUniqueSha256": 7,
+    "remainingUniqueSha256": 87,
     "processedPlusRemaining": 94
   }
 }
