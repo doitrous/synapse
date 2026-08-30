@@ -7098,3 +7098,155 @@ SHA-256 `b7842ce4e8115bc3dcb52cf03db3832539b73770a200974bbdb5dd42284a49fa`, 2,57
 57 native-text landscape 960×540-point pages under `Microbiology / Theoretical / Lec 10 - PPE`.
 Its unread teaching/prompt/answer boundary is the next-source processing blocker: fully render
 and visually adjudicate the complete source before admitting any count.
+
+## Family 64 — tier-4 Helwan personal-protective-equipment teaching lecture
+
+### Source identity, complete visual boundary, and teaching-answer convention
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_b7842ce4e8115bc3dcb5` · `Personal protective equipment.pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 10 - PPE/Personal protective equipment.pdf` |
+| SHA-256 / size | `b7842ce4e8115bc3dcb52cf03db3832539b73770a200974bbdb5dd42284a49fa` · 2,576,854 bytes |
+| Format / read boundary | 57 native-text landscape 960×540-point pages; native text extracted, all 57 pages rendered at 120 dpi and read in eight ordered contact sheets, and every question-bearing or question-like page reopened at full-page resolution |
+| Provenance | Helwan University Faculty of Medicine lecture, `Personal Protective equipment (PPE)`, attributed on the cover to Dina M. Azim, Lecturer of Medical Microbiology and Immunology; PDF metadata author is `bella` |
+| Authority | Tier-4 local theoretical teaching deck; no examiner, sitting, marks, candidate instructions, response form, departmental question-bank designation, or official exam-key section |
+
+The deck alternates declarative teaching with explicit question-to-answer builds. A complete
+question heading or numbered scenario is counted once when the source prints a mapped teaching
+answer on the same or immediately following slide. Pages 15 and 16 each start a separately
+worded `How to Remove Gloves (1/2)?` phase and are retained as two prompt occurrences, but they
+collapse to one procedure handle. Page 39's `Over shoes ...????` is admissible: the subject is
+explicit, and the same slide supplies the complete `Not recommended` purpose distinction. By
+contrast, p. 25's `Leak test..` ellipses, diagrams, captions, tips, stock photographs, video
+stills, and the p. 53 video title are teaching material rather than assessment prompts.
+
+| Physical pages | Complete visual content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–3 | Helwan cover, Nightingale quotation, and objectives | provenance/teaching only; **0 / 0** |
+| 4 | Why PPE is needed, followed by four protective purposes | **1 / 1** |
+| 5–13 | PPE and glove types, indications, photographs, and a `Not recommended` plate | declarative teaching only; **0 / 0** |
+| 14 | How to don gloves, with the complete steps | **1 / 1** |
+| 15–16 | Two prompt starts for glove-removal phases 1 and 2, each with its own steps | **2 / 2**; one shared procedure handle |
+| 17–21 | glove-removal diagram, safety tips, examples, disposal, and mask types | teaching only; **0 / 0** |
+| 22 | Role of surgical masks, with three role statements | **1 / 1** |
+| 23–24 | Donning and removal of a surgical mask, each with its procedure | **2 / 2** |
+| 25–34 | leak-test scaffold, respirators, eye/face protection, and gown types/indications | teaching only; p. 25 scaffold excluded; **0 / 0** |
+| 35–36 | Donning and removal of a gown, each with its procedure | **2 / 2** |
+| 37 | heavy-duty apron types and disinfection | declarative teaching only; **0 / 0** |
+| 38 | Why protective footwear is used, with its risk-reduction purpose | **1 / 1** |
+| 39 | `Over shoes ...????`, followed by the source's not-recommended/use distinction | **1 / 1** |
+| 40–41 | closed footwear, boots, and head-cover indications | declarative teaching only; **0 / 0** |
+| 42–43 | `Which order??`, followed by PPE donning order and reverse removal rule | **1 / 1** |
+| 44 | How to move around the sterile field, answered `Sterile to sterile` | **1 / 1** |
+| 45–48 | sterile-team diagrams, public-health infographic, and gown/field tips | illustrative/declarative teaching only; **0 / 0** |
+| 49 | `What's Wrong With This Picture?`, with three mapped sterile-gowning errors | **1 / 1** |
+| 50 | gown demonstration photograph | teaching demonstration only; **0 / 0** |
+| 51 | Five numbered PPE-selection scenarios, each aligned to a numbered printed answer | **5 / 5** |
+| 52–56 | educational-video disclaimer/title/stills and closing PPE photograph | video/image teaching only; **0 / 0** |
+| 57 | `Thank you` closing | **0 / 0** |
+
+The complete source contains **19 prompt occurrences / 19 printed teaching-answer occurrences /
+0 unkeyed prompt occurrences**. There are no literal prompt copies, cropped prompts, or
+incomplete prompt residues admitted to the inventory, so all **19** records are retained. Two
+semantic reductions produce **17 source-distinct tested handles**: the p. 15 and p. 16 glove-
+removal phases test one removal sequence, while p. 51 items 1 and 5 both test the no-PPE rule for
+routine contact without anticipated exposure.
+
+### Prompt, answer, collapse, and prior-BMS assignment
+
+| Ref(s) | Page | Complete source-tested scope and printed teaching answer | Handle / assignment |
+|---|---:|---|---|
+| F64-Q01 | 4 | Purposes of PPE: protect HCWs/patients, support immunocompromised care, and reduce infectious/blood-borne spread | `ppe-purposes-healthcare-worker-patient-infection-protection` |
+| F64-Q02 | 14 | Glove-donning sequence using the cuff, gloved fingers, and inward-folded thumb | `sterile-glove-donning-sequence` |
+| F64-Q03,Q04 | 15–16 | Two retained phases of the glove-removal sequence: outside edge/inside-out hold, then ungloved finger/combined bag/discard | `glove-removal-sequence` · two retained phase variants, one handle |
+| F64-Q05 | 22 | Surgical-mask roles: source control/wound protection and large-droplet splash barrier | `surgical-mask-source-control-and-splash-barrier-roles` |
+| F64-Q06 | 23 | Surgical-mask donning over nose/mouth/chin, nose bridge, ties, and fit | `surgical-mask-donning-sequence` |
+| F64-Q07 | 24 | Surgical-mask removal by bottom tie before top tie and pulling away | `surgical-mask-removal-tie-sequence` |
+| F64-Q08 | 35 | Gown donning: choose size, opening at back, secure neck and waist | `protective-gown-donning-sequence` |
+| F64-Q09 | 36 | Gown removal: unfasten, peel, turn contaminated side inward, bundle, discard | `protective-gown-removal-inside-out-sequence` |
+| F64-Q10 | 38 | Protective-footwear purpose: reduce infectious-material/blood exposure, sharps injury, and slips/falls | `protective-footwear-risk-reduction-purpose` |
+| F64-Q11 | 39 | Shoe covers do not prevent floor-bacteria transmission; they protect shoes from blood/body-fluid contamination | `shoe-covers-purpose-not-floor-transmission` |
+| F64-Q12 | 42–43 | PPE donning order and reverse removal rule | `ppe-donning-and-removal-order` |
+| F64-Q13 | 44 | Sterile-field movement as sterile-to-sterile | `sterile-field-movement-sterile-to-sterile` |
+| F64-Q14 | 49 | Identify three sterile-gowning picture errors involving hand height, uncuffed gown, and arms near head/hair | `sterile-gowning-picture-error-identification` |
+| F64-Q15,Q19 | 51 | Wheelchair transport and vital signs: generally no PPE for routine contact without anticipated exposure | `routine-nonexposure-contact-no-ppe` · two retained scenarios, one handle |
+| F64-Q16 | 51 | Spurting-blood emergency: gown, gloves, goggles/face shield, and mask | `spurting-blood-emergency-full-barrier-ppe` |
+| F64-Q17 | 51 | Drawing venous blood: gloves | `venipuncture-clean-gloves-ppe` |
+| F64-Q18 | 51 | Cleaning an incontinent patient with diarrhea: gloves with or without gown | `diarrheal-incontinence-cleaning-gloves-gown-ppe` |
+
+None of the 17 handles is an exact prior BMS-102 reuse. Family 53's `remove-gloves-hand-
+hygiene-before-medication` tests task-transition hand hygiene rather than the source's physical
+glove-removal sequence, and its sterile-glove opportunity prompt does not enumerate PPE donning
+or removal order. No other prior family supplies these procedure- or scenario-specific scopes.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 17 handles received exactly four fresh source-first searches across live state, all
+pending import roots, and prior BMS-102 evidence: **68 required searches**. External disposition
+is **0 live / 1 pending / 16 no same-scope**. Pending `CON-INF-606F4E2565AC67` exactly states
+clean non-sterile gloves for IV placement/phlebotomy; broader airborne-precaution and aseptic-
+technique records do not match the remaining procedure or scenario scopes.
+
+| Handle · ref(s) | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `ppe-purposes-healthcare-worker-patient-infection-protection` · Q01 | `why personal protective equipment healthcare workers patients`; `PPE purposes protect HCW patient invasive procedure`; `personal protective equipment reduce infectious agents bloodborne pathogens`; `reasons for PPE own protection immunocompromised patient` | no same-scope | none; delta |
+| `sterile-glove-donning-sequence` · Q02 | `don sterile gloves sequence folded cuff`; `how to put on surgical sterile gloves thumb index cuff`; `sterile glove donning steps second glove under cuff`; `donning sterile gloves procedure sequence` | no same-scope | none; delta |
+| `glove-removal-sequence` · Q03,Q04 | `remove gloves grasp outside edge near wrist`; `peel glove inside out slide ungloved finger under wrist`; `glove removal sequence bag both gloves`; `how to remove disposable gloves safely` | no same-scope | none; Family 53 adds hand hygiene/task transition, not these removal mechanics |
+| `surgical-mask-source-control-and-splash-barrier-roles` · Q05 | `role of surgical masks source control droplets splash barrier`; `surgical mask protects surroundings not wearer`; `surgical mask wound contamination healthcare worker droplets`; `surgical mask barrier nose mouth large droplet splash` | no same-scope | none; delta |
+| `surgical-mask-donning-sequence` · Q06 | `don surgical mask nose mouth chin nose bridge`; `how to put on surgical mask tie top bottom`; `surgical mask donning sequence secure adjust fit`; `wear surgical mask placement nose mouth chin` | no same-scope | none; delta |
+| `surgical-mask-removal-tie-sequence` · Q07 | `remove surgical mask untie bottom bow first`; `surgical mask removal top tie bottom tie sequence`; `how to remove tie surgical mask without contamination`; `mask doffing pull away ties loosened` | no same-scope | none; delta |
+| `protective-gown-donning-sequence` · Q08 | `don gown opening in back secure neck waist`; `how to put on protective gown sequence`; `gown donning select size tie neck waist`; `PPE gown donning procedure` | no same-scope | none; delta |
+| `protective-gown-removal-inside-out-sequence` · Q09 | `remove gown unfasten ties contaminated outside inward`; `peel gown neck shoulder roll bundle discard`; `protective gown removal sequence inside out`; `PPE gown doffing procedure` | no same-scope | none; delta |
+| `protective-footwear-risk-reduction-purpose` · Q10 | `protective footwear reduces blood sharps slip risk`; `PPE footwear exposure infectious materials sharps injuries`; `medical protective footwear purpose blood body fluids`; `why wear protective footwear healthcare` | no same-scope | none; delta |
+| `shoe-covers-purpose-not-floor-transmission` · Q11 | `shoe covers not prevent bacteria floor transmission`; `over shoes prevent shoe contamination blood body fluids`; `purpose of medical shoe covers not infection transmission`; `shoe cover PPE indication blood body fluid contamination` | no same-scope | none; delta |
+| `ppe-donning-and-removal-order` · Q12 | `PPE donning order foot head mask goggles gown gloves`; `PPE removal reverse donning sequence`; `personal protective equipment donning doffing order`; `which order put on remove PPE items` | no same-scope | none; delta |
+| `sterile-field-movement-sterile-to-sterile` · Q13 | `move around sterile field sterile to sterile`; `sterile personnel pass back to back sterile field`; `how scrubbed staff move around sterile area`; `sterile gown movement sterile side to sterile side` | no same-scope | none; delta |
+| `sterile-gowning-picture-error-identification` · Q14 | `what is wrong sterile gowning picture hands too high`; `scrub nurse arms near surgeon head contamination`; `uncuffed surgeon gown scrub hands contamination`; `sterile gowning errors identify picture` | no same-scope | none; delta |
+| `routine-nonexposure-contact-no-ppe` · Q15,Q19 | `no PPE wheelchair transport taking vital signs`; `routine patient contact generally no PPE needed`; `PPE selection no anticipated blood body fluid exposure`; `wheelchair transport vital signs PPE none` | no same-scope | none; delta |
+| `spurting-blood-emergency-full-barrier-ppe` · Q16 | `PPE blood spurting emergency gown gloves goggles mask`; `responding emergency spurting blood protective equipment`; `full barrier PPE blood splash face shield gown gloves`; `blood spray exposure PPE selection healthcare worker` | no same-scope | none; delta |
+| `venipuncture-clean-gloves-ppe` · Q17 | `venipuncture PPE clean gloves`; `drawing blood from vein wear gloves`; `phlebotomy personal protective equipment gloves`; `starting IV lines clean non sterile gloves` | pending `CON-INF-606F4E2565AC67`; exact clean-glove PPE selection | none; delta |
+| `diarrheal-incontinence-cleaning-gloves-gown-ppe` · Q18 | `cleaning incontinent patient diarrhea gloves gown`; `diarrhea patient care PPE gloves with or without gown`; `fecal incontinence cleanup personal protective equipment`; `contact precautions diarrhea gown gloves cleaning patient` | no same-scope | none; delta |
+
+Therefore **17 handles - 0 prior exact BMS-102 reuses = +17 concepts**.
+
+| Measure | Family 64 | Auxiliary cumulative (Families 12–64) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 19 | 608 | 765 | 1,373 |
+| Printed teaching-answer occurrences | 19 | 329 | 405 | 734 |
+| Unkeyed prompt occurrences | 0 | — | — | tracked separately |
+| Retained question records | 19 | 582 | 552 | 1,134 |
+| Source-distinct tested handles / required searches | 17 / 68 | 549 / — | — | — |
+| External live / pending / no same-scope | 0 / 1 / 16 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 0 | — | — | subtract before concept addition |
+| Cross-family concept delta | +17 | +410 over primary | 372 | `372 + 410 = 782` |
+| **Distinct tested concepts** | **+17** | **410 auxiliary additions** | **372** | **782** |
+
+The checksum closes without remainder: prompt starts are `1 + 1 + 2 + 1 + 1 + 1 + 1 + 1 +
+1 + 1 + 1 + 1 + 1 + 5 = 19`; all 19 receive printed teaching answers; retention is `19 - 0
+literal copies = 19`; handle assignment is `19 - 2 semantic reductions = 17`; searches are
+`17 × 4 = 68`; external disposition is `0 + 1 + 16 = 17`; and concept arithmetic is `17 -
+0 prior exact reuses = 17`. Auxiliary cumulative arithmetic is `589 + 19 = 608` prompts,
+`310 + 19 = 329` answers, `563 + 19 = 582` retained records, `532 + 17 = 549` source
+handles, and `393 + 17 = 410` concept additions. All eligible arithmetic is `765 + 608 =
+1,373`, `405 + 329 = 734`, `552 + 582 = 1,134`, and `372 + 410 = 782`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**608 / 329 / 582 / 549 / +410**; and all eligible evidence is
+**1,373 / 734 / 1,134 / 782**. This lecture contributes local teaching and study-question
+evidence only; it cannot raise exam/sitting, recurrence, mark-weight, official-key, readiness,
+or claims status.
+
+### Exact next debt after Family 64
+
+`src_b7842ce4e8115bc3dcb5` is exhausted across all 57 pages: every provenance/objective/
+closing page, declarative slide, question-to-answer build, procedure phase, scenario, excluded
+scaffold, video/image still, retained record, collapse, handle, search row, external disposition,
+and prior-BMS decision is assigned once, with **zero source remainder** and no Family-64 blocker.
+The next manifest-ordered unprocessed BMS-102 record is tier-4
+`src_77aa66ea23a10b6015fd` · `lec2 bacterial physiology and metabolism.pdf`, SHA-256
+`77aa66ea23a10b6015fdd0fdc7f575139851821dc0042e9db1f7e87c8af717f4`, 12,562,040 bytes,
+28 native-text landscape 960×540-point pages under `Microbiology / Theoretical / Lec 2 -
+Bacterial Physiology & Metabolism`. Its unread teaching/prompt/answer and full-deck relationship
+to the Family-14 screenshot fragment are the next-source processing blockers: fully render and
+visually adjudicate the complete source before admitting any count.
