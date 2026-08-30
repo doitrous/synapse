@@ -6600,3 +6600,129 @@ under `Year 1/LCS 103/Histology/Practical Labs/Virtual Lab 1 - Bone/`. Tier-6 so
 between the two manifest indices remain outside this rank-4/rank-5 remainder. Broader
 LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 55 — Tier-5 Histology practical Virtual Lab 1 bone teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_a5deaaf750c18cfcf6ed` |
+| File / SHA-256 | `Virtual lab (1) bms 103.pdf` / `a5deaaf750c18cfcf6ed2053d57aebd113b32981d8ce66ecb523d258186aedc9` |
+| File boundary | 2,242,092 bytes · unencrypted PDF · 27 physical native-text pages · 960 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Histology · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Histology/Practical Labs/Virtual Lab 1 - Bone/Virtual lab (1) bms 103.pdf` |
+| Visible provenance | p. 1 prints `Virtual lab (1)`, `Bone` and `Histology department`; creator is Microsoft PowerPoint 2016 and producer is ilovepdf; no named author, university, assessment or sitting label is printed |
+| Authority finding | Manifest/path-placed local tier-5 Histology practical teaching evidence. It is not a sitting paper, station sheet, response form, question bank or official answer key. |
+
+The SHA-256, byte size and 27-page boundary were recomputed and match the assigned source.
+All 27 pages were rendered at 180 dpi and read against the native text layer; all 27 complete
+page renders have distinct SHA-256 values. Page 1 is title/provenance, p. 2 states objectives,
+p. 3 is a decorative bone/skeleton divider, pp. 4–26 contain the complete practical teaching
+sequence, and p. 27 is the closing `Thank you` slide.
+
+The full-source gate finds **zero ordinary questions, zero practical/station prompts and zero
+printed assessment keys**. The preparation workflow, lists, labelled light/electron
+micrographs, diagrams, numbered structures and epiphyseal-zone descriptions are all
+simultaneous declarative teaching. No page asks the learner to identify or supply anything,
+prints a response field or answer blank, awards marks, provides an option set, masks a label,
+or reveals an answer after an assessment stem. The p. 2 objectives and p. 4 `How to prepare`
+heading are instructional framing, not learner tasks.
+
+### Complete practical-plate, mapping and residue inventory
+
+One mapping is one distinct directly printed specimen label, preparation reagent/outcome,
+cell-to-role/site relation, named structural component or zone-to-appearance relation. A
+repeated arrow or duplicate wording on the same plate is counted once; slide titles,
+publisher marks and an unlabelled image identity are not mappings. Related mappings on
+different source-distinct plates remain separate evidence occurrences.
+
+| Physical pages | Source-first practical teaching composition | Plate occurrences | Directly printed unique mappings / residue |
+|---:|---|---:|---:|
+| 4–7 | decalcified-versus-ground-bone preparation and ground-bone readout; pp. 5–6 label osteocyte lacunae, canaliculi and Haversian canals, while p. 7 is unlabelled | 4 | 16 mappings |
+| 8 | resting osteogenic cells, active osteoblasts, osteocytes and osteoclasts | 1 | 4 mappings |
+| 9–10 | osteoblast bone-forming role, surface location, osteoid secretion and diagram/micrograph identification | 2 | 10 mappings |
+| 11–13 | osteocyte location/process relations, LM labels and EM nucleus/process identification | 3 | 8 mappings |
+| 14–15 | osteoclast remodelling/resorption/lysosomal-enzyme relations and EM plate | 2 | 3 mappings; p. 15 has 4 unresolved printed callouts (`M`, `bv`, `N`, `B`) without a legend |
+| 16 | compact, cancellous/spongy, ground and growing forms of bone | 1 | 4 mappings |
+| 17–19 | compact-bone architecture: Haversian systems/canals, circumferential/interstitial lamellae, periosteum, endosteum, Volkmann canals and osteocyte lacunae | 3 | 13 mappings |
+| 20–22 | cancellous-bone trabeculae, marrow and osteocytes in lacunae; p. 22 is an unlabelled example | 3 | 5 mappings; p. 20 has 1 unexplained printed numeral (`4`) |
+| 23 | osteogenesis definition and intramembranous/flat-bone versus endochondral/long-bone relations | 1 | 5 mappings |
+| 24–26 | epiphyseal-plate growth context, five ordered zones and their characteristic cell/matrix changes | 3 | 12 mappings; p. 26 has 4 unresolved printed callouts (`a`, `b`, `c`, `e`) without a legend |
+| **Total** | **source-distinct practical teaching evidence** | **23** | **80 mappings; 9 unresolved callouts** |
+
+The **23 content-page occurrences are 23 source-distinct practical teaching plates**. The
+four non-plate pages are the title, objectives, decorative divider and close (pp. 1–3 and
+27). No exact complete-page copy is present. The mapping arithmetic is `16 + 4 + 10 + 8 +
+3 + 4 + 13 + 5 + 5 + 12 = 80`; the residue arithmetic is `4 + 1 + 4 = 9`. The isolated
+prose glyph after `periosteum` on p. 25 is a typographic artifact, not an image callout,
+mask or response blank, and is not promoted into either count. The assessment boundary is
+therefore **23 practical teaching plates / 80 printed teaching mappings / 9 unresolved
+teaching callouts / 0 practical or station prompts / 0 ordinary questions / 0 printed
+assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 23 plates consolidate to ten source-level practical teaching scopes. Scope collapse does
+not delete plate, mapping, page or source-wording evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `bone-histology-preparation-and-ground-bone-readout` · pp. 4–7 | bone histology preparation decalcified ground; acid EDTA decalcified bone section; carborundum ground bone lacunae canaliculi; ground bone Haversian canal osteocyte lacuna | pending bone-matrix/classification material owns preparation and demonstrated structures; exact accepted Family-13 `bone-histology-preparation-ground-vs-decalcified` owns the same core — prior LCS reuse |
+| `bone-cell-four-class-practical-overview` · p. 8 | osteogenic osteoblast osteocyte osteoclast overview; bone cell types histology diagram; resting osteogenic active osteoblast; identify four bone cells | pending bone-cell material plus accepted Family-13 bone-cell handles jointly own the four-class overview — prior LCS reuse |
+| `osteoblast-lm-identification-site-and-osteoid-role` · pp. 9–10 | osteoblast histology identification bone surface; osteoblast bone forming cell; osteoblast osteoid ground substance secretion; osteoblast row bone matrix micrograph | pending bone-cell material owns site, appearance and osteoid role; accepted Family-13 `osteoblast-bone-forming-cell-alkaline-phosphatase` owns the practical core — prior LCS reuse |
+| `osteocyte-lm-em-lacuna-canaliculi-identification` · pp. 11–13 | osteocyte lacuna canaliculi histology; osteocyte cytoplasmic process canaliculus; EM osteocyte nucleus process lacuna; osteocyte Haversian canal micrograph | pending bone-cell/compact-bone material owns the LM/EM relations; accepted Family-13 osteocyte handles jointly own the same core — prior LCS reuse |
+| `osteoclast-lm-em-identification-and-resorption-role` · pp. 14–15 | osteoclast histology identification multinucleated; EM osteoclast micrograph; osteoclast lysosomal enzymes resorption; osteoclast remodeling bone | pending bone-cell material owns the practical appearance/mechanism; accepted Family-13 osteoclast identity/resorption/remodelling handles own the same core — prior LCS reuse |
+| `four-forms-of-bone-practical-overview` · p. 16 | forms of bone compact cancellous ground growing; compact spongy ground growing bone list; bone histology practical forms overview; four forms bone slide | no single substantive live/pending record or accepted prior-LCS handle owns this exact four-form practical overview — new |
+| `compact-bone-practical-architecture-and-identification` · pp. 17–19 | compact bone histology Haversian system; circumferential interstitial lamellae diagram; Volkmann canal periosteum endosteum; decalcified compact bone osteocyte lacunae | pending compact-bone material owns the complete architecture; accepted Family-13 osteon, canal, lamella and compact-bone handles jointly own the same core — prior LCS reuse |
+| `cancellous-bone-practical-identification-and-components` · pp. 20–22 | cancellous bone histology trabeculae marrow; spongy bone osteocyte lacunae; identify bone trabecula bone marrow; cancellous bone practical micrograph | pending compact/spongy material owns the components and appearance; accepted Family-13 spongy-bone architecture handle owns the same core — prior LCS reuse |
+| `intramembranous-versus-endochondral-ossification-sites` · p. 23 | intramembranous flat bone endochondral long bone; two mechanisms osteogenesis; bone formation mechanism by bone type; endochondral most bones body | pending ossification material owns both routes/sites; accepted Family-13 route handles own the same core — prior LCS reuse |
+| `epiphyseal-plate-five-zone-sequence-and-appearance` · pp. 24–26 | epiphyseal plate five zones histology; resting proliferating hypertrophic calcification ossification zones; growth plate zone cell changes; epiphysis to diaphysis zone sequence | pending ossification material owns the ordered zones and changes; exact accepted Family-13 `epiphyseal-plate-zone-sequence-cell-changes` owns the same core — prior LCS reuse |
+
+All **10 × 4 = 40** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At complete-
+scope level the direct external result is **0 live / 9 pending / 1 new**. Exact accepted-
+prior comparison prevents nine repeated module additions, leaving **nine prior-LCS reuses /
+one new practical-teaching scope**. There is no assessment handle to search; declarative
+teaching scopes do not enter the eligible tested-concept count.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 55 | Family 55 delta | After Family 55 |
+|---|---:|---:|---:|
+| Eligible observed question records | 510 | +0 | 510 |
+| Eligible printed question keys | 264 | +0 | 264 |
+| Eligible distinct tested concepts | 246 | +0 | 246 |
+| Question live / pending / new | 9 / 82 / 155 | +0 / +0 / +0 | 9 / 82 / 155 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 309 verified minimum | +23 | 332 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,098 verified minimum | +80 | 2,178 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 92 | +9 | 101 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 71 | +0 / +0 / +1 | 0 / 0 / 72 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `27 = 4 non-plate pages + 23 plates`, `23 = 4
++ 1 + 2 + 3 + 2 + 1 + 3 + 3 + 1 + 3`, `80 = 16 + 4 + 10 + 8 + 3 + 4 + 13 + 5 +
+5 + 12`, `9 = 4 + 1 + 4`, `510 + 0 = 510`, `264 + 0 = 264`, `246 + 0 = 246`, `9 +
+82 + 155 = 246`, `309 + 23 = 332`, `2,098 + 80 = 2,178`, `92 + 9 = 101`, and `71 +
+1 = 72`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-54
+remainder leaves **21 rank-4/rank-5 path instances / 19 unique hashes**. The Family-54
+method was reproduced first: its 22/20 row sets recomputed to
+`18408ea1128ac8614594cc65604e168fcf83b17d18ee8c8d0f5ea5902e677fc9` and
+`4929d719e8d12036f78ab78bc9adc2a523dfe0788abf97a049f2ca62481a2102`.
+For the exact post-Family-55 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ab82b6bd8e7bfdaca0d23519f244ab779ebfb9e2d3b145bdd71d2790ee2c7a20`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`2bbca0d6bb11bd9faed141b2583364d04959195cf5af48425afa693ecb3dfa52`.
+The next rank-4/rank-5 manifest-order gate is tier-5 Histology practical source
+`src_d96c2b7e91e21bab3ee1`, `download.pdf` (7,762,323 bytes; 59 native-text pages;
+SHA-256 `d96c2b7e91e21bab3ee1dab0ccdcb09287e712379293f594e8df562c9d69f591`)
+under `Year 1/LCS 103/Histology/Practical Labs/Virtual Lab 2 - Cartilage & Muscle/`. Tier-6
+source debts between rank-4/rank-5 gates remain outside this remainder. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
