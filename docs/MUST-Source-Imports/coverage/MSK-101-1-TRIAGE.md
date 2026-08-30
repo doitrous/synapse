@@ -855,10 +855,46 @@ The source is now `sourceProcessed=true`. Its completed delta is **+419 question
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed source — MSK 101-1 Final Histology MCQs (BenAhmed)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - MSK 101-1 Final Histology MCQs_BenAhmed.pdf` | `2b3046797114764969bbcd1b2826333c31b1d1177804327caf0187540d68fbfb` | 28 | substantive-text audit sample | pages 1–28 rendered and read | Microsoft Word for Microsoft 365 export titled `MSK 101-1 HISTOLOGY MCQs`, authored in PDF metadata by `MUCIZE DOCTORS` and created/modified 13 January 2025. The 2024/2025 cover names Mucize Doctors, Youssef BenAhmed and Misr University for Science & Technology; the contributor page identifies a student author and student reviewer. Its disclaimer explicitly calls the work a supplementary educational resource and directs students to official resources/faculty. It is a MUST-targeted student compilation, not a documented exam sitting or official key. |
+
+### Exact format, MCQ, key, written, practical, image, teaching and source-defect boundary
+
+Pages 1–4 are cover, contributor/disclaimer and index front matter. Pages 5–9 contain **38 cartilage MCQs**, with the complete 38-entry key on page 10. Pages 11–17 contain **50 bone practice MCQs**; pages 18–19 contain a separate **10-item bone miscellaneous bank**; page 20 prints complete 50-entry and 10-entry answer tables. Pages 21–27 contain **50 skeletal-muscle MCQs**, and page 28 prints all 50 answers. The exact assessment boundary is therefore **148 four-option MCQ prompt occurrences = 38 cartilage + 60 bone + 50 skeletal muscle / 148 printed-key observations**. There are **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching-summary prompts**.
+
+The key is a student-compilation key and is preserved as printed, not academically corrected. Source/key defects include bone practice Q10 selecting `d` despite its osteoblast option and the bank's later osteoblast-formation items, bone Q36 selecting Sharpey fibres for wording that asks what links periosteum to bone marrow, skeletal Q45's malformed `emimysium is skeletal muscle` wording, skeletal Q36 option `Producing AT`, and repeated skeletal function stems Q32/Q46, Q39/Q48, Q40/Q49, Q41/Q47 and Q15/Q42. All 148 explicit key observations remain counted; no faculty-key authority or silent correction is inferred.
+
+The 38-question cartilage practice segment is the same sequence already observed inside the processed BenAhmed cartilage summary, and the 50-question skeletal segment is the same sequence as the processed `skeletal pdf` bank. The 60-question bone segment is a distinct observed sequence. Because the complete 148-item three-topic compilation is not byte-identical or an exact whole-file prompt-sequence duplicate of a processed source, all source occurrences are retained once here; the embedded reuse is collapsed at concept assignment rather than erased from the source boundary.
+
+### Source-first handles, exactly four searches and prior-MSK collapse
+
+All 148 occurrences were assigned once across three source-first handles, reconciling as **38 + 60 + 50 = 148**. Each handle received exactly four repository searches across live/server, pending/import-ready and documentation evidence, for **12 searches total**:
+
+| Handle | Assigned occurrences and exactly four search phrases | External / prior-MSK disposition |
+|---|---|---|
+| H1 | 38, cartilage cells, matrix, types, growth, sites, nutrition and disc clinical context (`hyaline elastic fibrocartilage sites matrix collagen`; `cartilage avascular nutrition perichondrium`; `chondroblast chondrocyte isogenous appositional interstitial`; `intervertebral disc annulus nucleus pulposus cartilage`) | no live/pending content hit; exact embedded practice-bank reuse plus the same completed cartilage-property, type, cell/growth and disc scopes — **prior-MSK collapse**. |
+| H2 | 60, bone cells/matrix, compact and spongy architecture, periosteum/endosteum, ossification, growth and remodelling (`osteoblast osteocyte osteoclast bone matrix`; `osteon Haversian Volkmann canaliculi lamellae`; `intramembranous endochondral ossification epiphyseal plate`; `periosteum endosteum bone growth remodeling`) | no live/pending content hit; the full bone-cell, architecture, covering, growth, ossification and remodelling scope is already represented by completed MSK bone assignments — **prior-MSK collapse**. |
+| H3 | 50, skeletal-muscle coverings, morphology, sarcomere, excitation-contraction structures, fibre types and repair (`skeletal muscle epimysium perimysium endomysium`; `sarcomere A band I band H zone actin myosin`; `T tubule terminal cisternae sarcoplasmic reticulum triad`; `red white intermediate muscle fibers satellite cells`) | no live/pending content hit; exact embedded reuse of the processed 50-item skeletal bank and the same completed MSK skeletal-muscle scopes — **prior-MSK collapse**. |
+
+Source-level disposition is **0 live / 0 pending / 3 pre-prior candidates**, all three collapsing to prior MSK coverage. The post-prior concept delta is therefore **0**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+148 questions / +148 printed answers / +0 post-prior concepts**. Cumulative arithmetic is **2084 + 148 = 2232 questions**, **2011 + 148 = 2159 answers**, and **27 + 0 = 27 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2232 | 2159 | 27 | 0 | 1 | 26 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-five processed paths and unique hashes leaves **78 selected inventory paths / 76 unique SHA-256s**. Their sorted, newline-joined hash checksum is `b2bbbb50d98a45a23d3ebfd967dfae28dae091f6cb789c9e18cbaa9cb2ec75e8`. Remaining audit-review debt is 39 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`25 + 76 = 101`**.
+Removing these twenty-six processed paths and unique hashes leaves **77 selected inventory paths / 75 unique SHA-256s**. Their sorted, newline-joined hash checksum is `91a8fa946089fea2dbe3e34e1d0f255ec2b88619da9b8a04ca1a67b136767e6e`. Remaining audit-review debt is 38 substantive-text / 8 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`26 + 75 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - MSK 101-1 Final Histology MCQs_BenAhmed.pdf`, SHA-256 `2b3046797114764969bbcd1b2826333c31b1d1177804327caf0187540d68fbfb`, 28 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/06 EOM Exams/EOM MCQs - Histology MSK101-1 Exam Night Notes (Final).pdf`, SHA-256 `af9a39096fa7cce2adcddcbc4c3b0603c3b6614579db064ce3e7ddbc2ba2bafe`, 3 pages.
 
-**BLOCKED — S1 cannot be approved:** 78 selected inventory paths / 76 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 77 selected inventory paths / 75 unique hashes remain untriaged.
