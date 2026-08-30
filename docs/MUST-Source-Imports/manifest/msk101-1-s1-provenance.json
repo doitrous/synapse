@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "msk101-1-s1-evidence-snapshot/v1",
+  "scope": "MSK 101-1 S1 metadata-only durable evidence snapshot; no source content is imported.",
+  "sourceRoot": "<MUST_ROOT>",
+  "liveSourceVerification": false,
+  "selector": {
+    "module": "MSK 101-1",
+    "categories": [
+      "05 MCQs",
+      "06 EOM Exams",
+      "07 EOY Exams",
+      "08 Midterm Exams"
+    ],
+    "inventoryRows": 103,
+    "uniqueSha256": 101,
+    "duplicatePaths": 2
+  },
+  "selectorCounts": {
+    "subjects": {
+      "Anatomy": 56,
+      "Histology": 47
+    },
+    "categories": {
+      "05 MCQs": 41,
+      "06 EOM Exams": 13,
+      "07 EOY Exams": 0,
+      "08 Midterm Exams": 49
+    }
+  },
+  "inputSha256": {
+    "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
+    "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
+    "readinessMarkdown": "50cdf79e756324e4c3442e845a254bf119635da5fa8ba22e393d1677b3c86458",
+    "triageMarkdown": "797c543091bce2c376ffb80d98c49fdfce68a232d88ceddef28f29f9a170145c"
+  },
+  "inputMetadata": {
+    "inventoryDeclaredFileMetadata": true,
+    "inspectedTextDiagnostics": "sample-length classification only; raw samples are excluded"
+  },
+  "selectedInventory": {
+    "inventoryMetadataRows": 103,
+    "uniqueSha256": 101,
+    "sortedNewlineSha256": "228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02"
+  },
+  "auditSampleStatusCounts": {
+    "audit-extract-failed": 3,
+    "audit-not-found": 14,
+    "empty-text": 19,
+    "sparse-text": 8,
+    "substantive-text": 59
+  },
+  "processedFamilies": {
+    "sha256": [
+      "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903"
+    ],
+    "uniqueSha256": 1
+  },
+  "completedSourceCoverage": {
+    "sha256": "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
+    "sourcePages": 3,
+    "renderedReadPages": "1-3",
+    "printedPromptObservations": 21,
+    "printedKeyObservations": 12,
+    "namedConceptsAssigned": 3,
+    "sourceProcessed": true
+  },
+  "remaining": {
+    "inventoryMetadataRows": 102,
+    "uniqueSha256": 100,
+    "sortedNewlineSha256": "1ebf718be72577c2029ed6764b3b36d551bb423fd5c1f1f6d39fdba645145ea9",
+    "auditSampleStatusCounts": {
+      "audit-extract-failed": 3,
+      "audit-not-found": 14,
+      "empty-text": 19,
+      "sparse-text": 8,
+      "substantive-text": 58
+    }
+  },
+  "triageCheckpointRemainingAuditDebt": {
+    "audit-extract-failed": 3,
+    "audit-not-found": 14,
+    "empty-text": 19,
+    "sparse-text": 8,
+    "substantive-text": 58
+  },
+  "reconciliation": {
+    "selectedUniqueSha256": 101,
+    "processedUniqueSha256": 1,
+    "remainingUniqueSha256": 100,
+    "processedPlusRemaining": 101
+  }
+}
