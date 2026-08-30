@@ -18951,3 +18951,107 @@ The exact next manifest-order debt is tier-6 `src_7845aba80ac9c29a11f2`,
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 52 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 179 — Tier-6 attributed bone-structure, congenital and metabolic pathology summary
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_7845aba80ac9c29a11f2` / `7845aba80ac9c29a11f24b511b020d40ba6082af1aebe9b02c18f0cba9ae2a48` |
+| Manifest and local path | `Year 1/LCS 103/All Subjects/Notes and Summaries/bone disease.pdf` |
+| Physical verification | **700,571 bytes; 11 native-text portrait-A4 pages; 595.32 × 842.04 pt; tagged; unencrypted; PDF 1.7**. The full hash, byte size, page count and geometry match the manifest. |
+| Visible / metadata provenance | Every page prints `PATHOLOGY` and `DR . AHMED HASSAN`; p. 1 is titled `Approach to Bone Diseases`. Metadata separately names author `Hossam mohammed`, Microsoft Word 2019 creator/producer and 20 May 2025 creation/modification. No page prints a university, cohort, module code, examination sitting or marks. |
+| Authority finding | Attributed local tier-6 pathology teaching-summary evidence. The visible lecturer and metadata author are preserved as distinct source layers. It is not a recoverable sitting, response form, practical station or marking guide. |
+
+All **11/11 pages** were rendered at 180 dpi, inspected at full resolution and read against the
+complete native text layer. The complete source-first boundary is:
+
+| Pages | Complete supplied teaching sections | Assessment / practical boundary |
+|---:|---|---|
+| 1 | bone matrix/cells; bone homeostasis/remodelling and BMU; localized congenital dysostoses | three completed sections; the paired histology images have only source panel letters `A`/`B`, with no identify instruction or hidden label |
+| 2 | generalized skeletal dysplasia, achondroplasia and thanatophoric dysplasia | one completed section with supplied clinical/radiographic examples |
+| 3 | osteogenesis imperfecta, type-I-collagen statement and type 1/type 2 contrast | one completed section with supplied clinical illustrations |
+| 4 | congenital osteopetrosis; metabolic-bone-disease transition with osteopenia/osteoporosis comparison | two completed sections with named radiographic/clinical examples |
+| 5–6 | osteoporosis morphology/risk factors; separate risk-factor mnemonic and complication images | three completed sections, all under supplied disease/risk/complication headings |
+| 7 | osteitis fibrosa cystica/hyperparathyroidism; supplied osteoporosis-versus-OFC diagnostic approach | two completed sections; the red diagnostic question is answered immediately by the listed laboratory and correlation approach |
+| 8 | rickets and osteomalacia cause, mineralisation defect, age distinction and clinical illustrations | one completed comparison section |
+| 9 | Paget-disease etiology; supplied osteolytic/mixed/osteosclerotic stages | two completed sections |
+| 10 | Paget complications; fracture definition and seven-type classification | two completed sections with supplied examples |
+| 11 | osteonecrosis/avascular-necrosis definition, etiologies and vascular mechanisms | one completed section with labelled femoral-head diagram |
+
+Arithmetic is **18 completed teaching sections = 3 + 1 + 1 + 2 + 3 + 2 + 1 + 2 + 2 + 1**.
+The physical assessment boundary is **0 eligible or external prompts / 0 MCQ or written
+prompts / 0 keys-or-answers / 0 unkeyed assessment prompts**. P. 7's `How to differ the
+diagnosis Between osteoporosis & Osteitis Fibrosa Cystica?` is a lecturer-led organizer whose
+answer is supplied directly beneath it on the same page. All other headings, tables and lists
+are declarative.
+
+Every clinical photograph, radiograph, diagram, gross specimen and histology image is embedded
+beneath a supplied disease, feature or complication heading. There is no identify instruction,
+masked label, numbered station, learner-completed map, response blank or practical key.
+Practical delta is exactly **0 practical or station prompts / 0 teaching plates / 0 mappings /
+0 unresolved residues / 0 practical keys / 0 practical scopes**.
+
+Source states remain evidence without silent correction, including `BMU (Bone/Basic
+Multicellular Unit)`, `Osteoblasts # osteoclasts`, `retarded cartilage growth`, the source's
+type 1/type 2 osteogenesis-imperfecta wording, `No room for the hematopoietic marrow`, `How to
+differ`, `May be Mimickers`, `Parathormone`, `Types and affect treatment`, the Paget viral
+claim and the osteonecrosis `about 25%` statement.
+
+### Teaching handles, exact searches and prior-LCS reconciliation
+
+The 18 supplied sections consolidate to the same eleven teaching scopes owned by the longer
+bone-disease deck:
+
+| Teaching handle / pages | Four required `find-existing` queries | Complete-scope result |
+|---|---|---|
+| `bone-matrix-cells-and-basic-multicellular-unit-remodelling` · p. 1 | bone remodeling basic multicellular unit osteoblast osteoclast; bone cells matrix remodeling; basic multicellular unit bone; osteoblast osteocyte osteoclast remodeling | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `localized-congenital-dysostoses` · p. 1 | digital aplasia syndactyly polydactyly craniosynostosis; localized dysostosis congenital bone; syndactyly craniosynostosis; congenital bone localized dysostoses | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `achondroplasia-and-thanatophoric-dysplasia` · p. 2 | achondroplasia thanatophoric dysplasia; skeletal dysplasia cartilage growth; thanatophoric lethal dysplasia; achondroplasia autosomal dominant | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `osteogenesis-imperfecta-type-I-collagen-and-variants` · p. 3 | osteogenesis imperfecta type one collagen; blue sclera dentinogenesis imperfecta fractures; osteogenesis imperfecta variants; brittle bone disease collagen | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `osteopetrosis-marble-bone-osteoclast-dysfunction` · p. 4 | osteopetrosis marble bone osteoclast; bone sclerosis marrow neural foramina; osteopetrosis pathogenesis; marble bone osteoclast dysfunction | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `osteoporosis-mass-risk-morphology-and-complications` · pp. 4–6 | osteoporosis bone mass fracture kyphosis; osteoporosis risk factors histology; osteoporosis complications; osteoporosis metabolic bone disease | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `osteitis-fibrosa-cystica-hyperparathyroidism-and-osteoporosis-differential` · p. 7 | osteitis fibrosa cystica brown tumor hyperparathyroidism; osteoporosis OFC laboratory differential; osteolytic lesions PTH calcium; osteitis fibrosa cystica diagnosis | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `rickets-versus-osteomalacia-mineralisation-and-age-pattern` · p. 8 | rickets osteomalacia unmineralized matrix; vitamin D deficiency bone mineralization; rickets clinical features; osteomalacia adult rickets child | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `paget-disease-etiology-phases-and-complications` · pp. 9–10 | Paget disease osteitis deformans mosaic pattern; Paget stages osteolytic mixed sclerotic; Paget SQSTM1 RANK OPG; Paget complications osteosarcoma | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+| `fracture-definitions-and-seven-type-classification` · p. 10 | simple compound comminuted displaced stress greenstick pathologic fracture; fracture classification bone; fracture types treatment; greenstick pathologic fracture | Exact accepted Family 149 scope and its recorded pending theoretical coverage — prior-LCS reuse; inherited pending context. |
+| `osteonecrosis-avascular-necrosis-etiology-and-mechanisms` · p. 11 | osteonecrosis avascular necrosis bone infarction; osteonecrosis etiology mechanisms; femoral head collapse ischemia; bone infarction corticosteroids sickle cell | Exact accepted Family 149 teaching scope — prior-LCS reuse. |
+
+Each of the **eleven accepted teaching handles** received exactly one query on each required
+surface: live state, pending/import-ready state, prior source-import lanes and the accepted LCS
+ledger. That is **11 × 4 = 44 required search invocations**. Broad component matches do not
+supersede exact accepted prior-module ownership. Final disposition is **11 prior-LCS
+theoretical-teaching reuses / 0 additive live / 0 additive pending / 0 additive new scopes**;
+the inherited pending fracture context is not counted a second time. There is no assessment or
+practical handle to search.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**6,829 prompts / 6,563 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **20 prompts / 514 plates / 3,010 mappings / 156 residues /
+13 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every assessment
+and practical delta is zero.
+
+This source hash occurs once in Family 178's remainder. Removing its sole path changes the
+all-rank remainder from **52 paths / 49 unique hashes** to **51 paths / 48 unique hashes**:
+tier 3 remains **0 / 0**, tier 6 becomes **37 paths / 37 unique hashes within tier**, and rank
+9 remains **14 / 11**. Family 178's prior checksums are
+`e09b6e0d939d97a17bee0c6b0d45719a2b812fd329af2d3d49f8f9e78eb7c779` (paths) and
+`e0d534efdacfad5717674685387c3c5b4d589e6029b340cc498b80b0141f5693` (unique hashes).
+For the exact post-Family-179 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`dbb1449a9907b63c8efbef1d5beffae3642fc258826d5946610fb1919d0092d5`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`f11ebe0b1033605eaa109d3e1e12e75ece4718f3c70c5425c238821556e27eb3`.
+
+The exact next manifest-order debt is tier-6 `src_158f6daca48fcafb2cb0`,
+`genetic ms disease (1).pdf` (1,384,339 bytes; 9 native-text portrait-A4 pages; tagged;
+unencrypted; 595.32 × 842.04 pt; SHA-256
+`158f6daca48fcafb2cb01d538774809c1af615986e034c85c547590c037ee41b`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page is
+rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 51 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
