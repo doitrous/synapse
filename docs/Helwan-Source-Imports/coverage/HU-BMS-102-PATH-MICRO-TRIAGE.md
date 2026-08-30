@@ -22787,3 +22787,84 @@ Summaries`. Its rendered source visibly begins a dense pharmacokinetics mind map
 active, and facilitated transport plus pinocytosis and routes/factors of absorption. Its complete
 teaching/prompt/key/annotation boundary, XMind/Chromium metadata caution, prior-BMS reuse,
 four-search gate, arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 224 — Malak Sameh giant pharmacokinetics teaching mind map
+
+### Source identity, sectional visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_c8b928b8f987feb27d07` · `ALL Pharmacokinetics.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `c8b928b8f987feb27d07da248847eaa14d7f11542fa36e382f9b9c0e63b032fe` · **887,913 bytes** |
+| Format / complete visual boundary | **One native-text giant landscape page, 5,671.92×6,326.88 points, PDF 1.4**. The complete page was rendered once at 24 dpi as a 1,891×2,109-pixel overview, then reread through **11 overlapping 72-dpi sectional crops** covering the absorption/mechanisms, patient factors/first pass, bioavailability/routes, distribution, redistribution/Vd, biotransformation reactions, metabolism factors, excretion, clearance/half-life, Cpss/kinetics, and first-/zero-order branches. Every coloured node, connector, table, note, formula, and attribution is assigned; there is no crop or page remainder. |
+| Native-text reality | Layout extraction contains **1,564 words / 101,534 bytes** and raw extraction contains **1,538 words / 11,962 bytes**. Native text agrees with the sectional renders, including formulas, Arabic side notes, route tables, spelling errors, and branch order. No form, JavaScript, encryption, or interactive layer exists. |
+| Visible provenance | A central cloud visibly reads `By:MALAK SAMEH`; the bottom footer visibly says `Presented with xmind`. No university/faculty, module code, instructor title, academic year, sitting/date, candidate field, mark allocation, or departmental approval is visible. |
+| Metadata caution | Metadata title is `Xmind`; creator is Chromium; producer is Skia/PDF m136; creation/modification is 26 March 2026. These are export fields and cannot establish academic year, delivery date, assessment date, or institutional authority. |
+| Authority | Local tier-6 named student/author pharmacokinetics study map. It is teaching evidence only, not an authenticated Helwan lecture, assessment, answer key, or practical station. |
+
+### Complete teaching-node, prompt, answer, annotation, and practical boundary
+
+| Main branch | Exhausted visible content | Boundary ruling |
+|---|---|---|
+| 1 · Absorption | Simple, active, and facilitated diffusion; pinocytosis; route, surface area, vascularity, absorbing-surface health, circulation, intrinsic factor, gut motility/pH/contents; gut/hepatic first pass and avoidance; bioavailability; pKa/ion trapping; local/systemic route examples and route advantage/disadvantage tables | Completed teaching nodes and reference tables; **0 prompts / 0 answers / 0 practical**. |
+| 2 · Distribution | Definition; body-water compartments; one-, two-, multi-, and special-compartment models; diffusion/tissue affinity/perfusion; albumin binding, displacement, and hypoalbuminaemia; redistribution; CNS/fetal passage; Vd definition, equations, uses, clearance relation, and dialysis implications | Completed teaching map; **0 / 0 / 0**. |
+| 3 · Biotransformation | Definition, metabolites, prodrug, sites; phase-I oxidation/reduction/hydrolysis; phase-II conjugations; induction, inhibition, age, gender, liver disease, and hepatic clearance | Completed teaching map; **0 / 0 / 0**. |
+| 4 · Excretion | Renal filtration/secretion/reabsorption and urine-pH effects; biliary/lung/breast-milk routes; hemodialysis criteria; total-body and renal clearance with determinants | Completed teaching map; **0 / 0 / 0**. |
+| 5 · Pharmacokinetic parameters | Half-life definition/calculation/dosing significance; steady-state Cpss timing and the displayed 2/3 rule; alpha/beta phases; first- versus zero-order elimination, examples, and clinical significance | Completed teaching map; **0 / 0 / 0**. |
+| Annotations / source truth | Arabic side notes, `How to avoid`, `How to Achieve Cpss`, `pH at which 50%...`, `from grape`, `absorbtion`, `routs`, `drug applie`, `spreed`, and the truncated `enzym` | The “How to” strings are headings immediately followed by completed teaching instructions, not interrogative assessment operations. Typos/truncations and Arabic comments are retained as source annotations, not repaired or promoted to prompts. |
+
+The exact source-local assessment boundary is therefore **0 MCQs + 0 True/False + 0 written
+prompts + 0 completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw
+prompt occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question
+records, and 0 prompt-like residues**. Numbered branch labels, check/cross icons, formulas, route
+tables, and the author cloud organize completed teaching; none creates a response slot or key
+directionality.
+
+### Source-first zero gate, prior-BMS ruling, and cumulative arithmetic
+
+With no accepted assessment handle, the standing source-first gate is exactly **`0 handles × 4 =
+0 required and completed searches`**. No empty search packet or external disposition is fabricated.
+The map visibly revisits many pharmacokinetic propositions already assessed in Families 202 and
+223 and taught across Families 203–222, but teaching overlap is not a new tested-handle occurrence;
+prior-BMS assessment reuse is therefore **0** and concept delta is **+0**.
+
+| Measure | Family 224 | Auxiliary cumulative (Families 12–224) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero accepted prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 224
+establishes completed pharmacokinetics teaching and source-provenance evidence only, not assessment,
+official-key, practical, verified-date, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 224
+
+`src_c8b928b8f987feb27d07` is exhausted across its giant page and all sectional crops: every branch,
+node, connector, formula, table, side note, source typo, attribution, metadata limitation, zero gate,
+and arithmetic term is assigned once, with **zero source remainder** and no Family-224 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 224 is **285 paths / 278 unique hashes**, leaving exactly **77 selected paths / 70
+unique hashes**. Checksums are **285 + 77 = 362 paths** and **278 + 70 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `721b0f4bd951376069c466c61ca91185f7c24f320e9612221b156dc48ca52705`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`be8d8582297baac6b4f0e2c2573e6983e671a44e5732b4a99b5b823203e159ef`.
+
+The exact next unprocessed BMS-102 record is tier-6 non-preferred name twin
+`src_a21a64afba78088e7f13` · `Anti-fungal drugs.pdf`, SHA-256
+`a21a64afba78088e7f1334881465e0762a5cd084ee5e3e7aaaf2cb7f190a87b5`, **428,563 bytes**,
+**six native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first page
+visibly begins `Pharmacology / Anti-fungal Drugs`, classifies systemic versus local infection and
+drug groups, and prints `DR . El-Sawy`. Its exact twin relation to preferred
+`src_a53dd0edb4292fff3839`, visible/metadata authority, teaching/prompt/key/practical boundary,
+four-search gate, prior-BMS reconciliation, arithmetic, and subsequent next debt remain to be
+separately adjudicated.
