@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "100abecacce9293746dba41ca5ceb81a297f7812013c1cf83effd7e008e9d92c",
-    "triageMarkdown": "971a4ea6532e9bc9f39a49a725574fb30ee9d965761cff868db221ed666ea9aa"
+    "readinessMarkdown": "8ce9d1c53717605e64f047d878e978982b9a1e62b539bd8a04e47eb2776a8d5f",
+    "triageMarkdown": "413e7593808d58c383be44f16b97ce960da7b76897fad63cf36b27fa3d9fcee9"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -74,13 +74,14 @@
       "b4a78a3acc4a83f7d6d1e0b02e1e65cb2f915793d4058dfe4e27113a2c2c71e9",
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
       "be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4",
+      "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
       "c7075e4c777e946e43ff29abae2de6a3a45e0980aa13c3d1627223bf88b962e5",
       "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 28
+    "uniqueSha256": 29
   },
   "completedSourceCoverage": [
     {
@@ -566,26 +567,58 @@
       "sourceProcessed": true,
       "authorityDisposition": "student-authored compilation; filename-only 2025/past-exam claim rejected",
       "writtenCompositeTreatment": "page-21 shoulder case retained as 14 occurrences because each subprompt is separately numbered and has a distinct response space"
+    },
+    {
+      "sha256": "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
+      "sourcePages": 28,
+      "renderedReadPages": "1-28",
+      "visibleQuestionPages": "1-17,21-27",
+      "latentNonRenderedTextPages": "18-20",
+      "answerOnlyPages": "28",
+      "printedPromptObservations": 177,
+      "objectiveMcqPrompts": 177,
+      "printedKeyObservations": 190,
+      "objectiveKeyObservations": 176,
+      "answerOnlyWrittenObservations": 14,
+      "visibleUnkeyedPrompts": 1,
+      "sourceAbsentAnswers": 1,
+      "keyedPartialSiblingOf": "3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9",
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 190,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceAcceptedSourceHandles": 5,
+      "referenceSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "preservedSourceDefects": [
+        "Q138-Q161 exist only in the non-rendered text layer on visually blank pages 18-20 and are excluded",
+        "two isolated red marks on page 20 cannot be mapped to visible prompts and are excluded",
+        "visible Q168 has no answer mark",
+        "page 28 prints fourteen answers without their written prompts"
+      ]
     }
   ],
   "triageCumulative": {
     "printedPromptObservations": 2457,
-    "printedKeyObservations": 2159,
+    "printedKeyObservations": 2349,
     "namedConceptsAssigned": 32,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 31
   },
   "remaining": {
-    "inventoryMetadataRows": 75,
-    "uniqueSha256": 73,
-    "sortedNewlineSha256": "27e8325529fccb8f1b47fa901ef161957d14e1ab5adf604f2997ec31054e6ca9",
+    "inventoryMetadataRows": 74,
+    "uniqueSha256": 72,
+    "sortedNewlineSha256": "310e24077e694a23b6a7d803457c992efe6b1e8326066f68a89b9ac201b578b6",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 14,
       "sparse-text": 7,
-      "substantive-text": 37
+      "substantive-text": 36
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -593,12 +626,12 @@
     "audit-not-found": 14,
     "empty-text": 14,
     "sparse-text": 7,
-    "substantive-text": 37
+    "substantive-text": 36
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 28,
-    "remainingUniqueSha256": 73,
+    "processedUniqueSha256": 29,
+    "remainingUniqueSha256": 72,
     "processedPlusRemaining": 101
   }
 }

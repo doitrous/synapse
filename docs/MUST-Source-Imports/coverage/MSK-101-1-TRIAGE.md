@@ -953,10 +953,40 @@ The source is now `sourceProcessed=true`. Its completed delta is **+225 question
 
 No module ID, content record, answer, source authority claim, placement or catalogue entry was created.
 
+## Completed keyed sibling — MSK FINAL questions answers ...
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK FINAL questions answers ...pdf` | `c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb` | 28 | substantive-text audit sample | pages 1–28 rendered and read | iOS 18.6 Quartz PDF export created/modified 14 January 2026, without author metadata. The first page prints only `Final MCQS` and `Shade the single best answer`; page 28 prints `Answers of Anatomy MSK 101 - 1`. No institution, department, examiner, sitting, year, marks or official-key authority is printed. It is an unattributed student answer-bearing compilation, not an authenticated MUST exam or faculty key. |
+
+### Exact visible MCQ, written, practical, image, key, unkeyed, latent-text and teaching boundary
+
+Pages 1–17 visibly print MCQs 1–137 with one bold-and-underlined option each, yielding **137 visible prompts / 137 inline answer observations**. Pages 18 and 19 render completely blank; page 20 renders blank except for two isolated red marks. Although extraction exposes question text numbered 138–161 behind those pages, none of the 24 items or their option sets renders in Poppler, Cairo or Ghostscript. Those **24 latent text-layer items are not printed prompt observations**, and the two red marks cannot be reliably attached to a visible prompt or option, so neither is counted as an answer.
+
+Pages 21–23 visibly print MCQs 162–180. Red annotations select answers for 18 of the 19 prompts; **Q168 is visible but unmarked** and remains unkeyed. Pages 24–27 visibly print MCQs 181–201 with one red selected/underlined answer apiece, yielding 21/21 answers. Page 28 contains no question stem: it prints 14 numbered written answers that correspond positionally and substantively to the immediately preceding sibling's 14 separately numbered shoulder-dislocation written prompts.
+
+The exact visible source boundary is therefore **177 objective prompt occurrences = Q1–137 + Q162–201 / 176 objective answer observations / 1 visible unkeyed prompt (Q168) / 14 answer-only written observations / 190 total answer observations**. It contains **0 written prompts, 0 practical prompts, 0 image-identification prompts and 0 teaching prompts/pages**. The 24 non-rendered text-layer items and two isolated marks are preserved as source defects but excluded rather than reconstructed.
+
+### Keyed-sibling reconciliation, zero-new-handle gate and prior/cross-module collapse
+
+The 177 visible objective prompts reproduce the same numbered stems and option sequences at Q1–137 and Q162–201 in the previously processed 225-prompt source, SHA `3d57008c1670965ae13fe5d8045d1cc94313640de23803cb40a71b579716e9f9`. Page 28's 14 answer-only entries pair exactly with that sibling's page-21 shoulder case, including the same deltoid/axillary-nerve, capsule-opening, bursae, ligament, rotator-cuff, dislocation and axillary-nerve sequence. This file is therefore a **keyed partial sibling**, not a new prompt family and not a whole-file byte duplicate.
+
+All visible prompt material collapses to the preceding family's five already accepted handles (distal muscles, terminal nerves, distal vessels, joints/shoulder case, and intrinsic hand/retinacula). No genuinely new handle survives. The exactly-four-search rule consequently applies as **`0 new handles × 4 = 0 new searches`**; the family cross-reference retains the prior **5 handles / 20 completed searches** without rerunning them. Prior-MSK and cross-module concept disposition is unchanged at **0 live / 0 pending / 0 new concepts for this sibling**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its family delta is **+0 questions / +190 answer observations / +0 concepts**. Cumulative arithmetic is **2457 + 0 = 2457 questions**, **2159 + 190 = 2349 answers**, and **32 + 0 = 32 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 2457 | 2349 | 32 | 0 | 1 | 31 | TBD |
+
+No module ID, content record, silent answer reconstruction, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these twenty-eight processed paths and unique hashes leaves **75 selected inventory paths / 73 unique SHA-256s**. Their sorted, newline-joined hash checksum is `27e8325529fccb8f1b47fa901ef161957d14e1ab5adf604f2997ec31054e6ca9`. Remaining audit-review debt is 37 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`28 + 73 = 101`**.
+Removing these twenty-nine processed paths and unique hashes leaves **74 selected inventory paths / 72 unique SHA-256s**. Their sorted, newline-joined hash checksum is `310e24077e694a23b6a7d803457c992efe6b1e8326066f68a89b9ac201b578b6`. Remaining audit-review debt is 36 substantive-text / 7 sparse-text / 14 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`29 + 72 = 101`**.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK FINAL questions answers ...pdf`, SHA-256 `c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb`, 28 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/06 EOM Exams/EOM MCQs - MSK FINAL questions answers.pdf`, SHA-256 `cb03514801a6bee961b8543b62a8b148958618d318a80e0c5db50a91431e260e`, 24 pages.
 
-**BLOCKED — S1 cannot be approved:** 75 selected inventory paths / 73 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 74 selected inventory paths / 72 unique hashes remain untriaged.
