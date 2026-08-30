@@ -9383,3 +9383,178 @@ is visibly headed `CASES BASED LEARNING (CBL) BMS I`; PDF metadata gives title `
 Presentation`, author `Mohamed`, and a 13 April 2025 creation/modification date. Its complete
 case/teaching/prompt/key boundary, visible-versus-metadata provenance, filename-year limitation,
 search ledger, and prior-BMS overlap are the exact next-source blockers.
+
+## Family 86 — Helwan case-based cell-injury and inflammation teaching deck
+
+### Source identity, complete visual boundary, provenance, and answer convention
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_2606a244d9623c339871` · manifest `CBL cell injury and inflammation  2025.pdf` · local normalized filename `CBL cell injury and inflammation 2025.pdf` |
+| SHA-256 / size | `2606a244d9623c33987116f2cf3cf9710ea86a282a56ab63bd116afa9e8eb440` · 2,712,035 bytes |
+| Manifest placement | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · `Notes and Summaries` · tier 6; no external-university hint |
+| Format / read boundary | 91 native-text landscape 720×540-point pages; native text extracted, every page rendered at 100 dpi, all 91 renders read in order, and every question/reveal page reopened at full-page resolution |
+| Visible provenance | The cover prints `CASES BASED LEARNING (CBL) BMS I` and visibly carries the Arabic Faculty of Medicine, Helwan University logo; no visible author, instructor, department, academic year, or assessment sitting |
+| Metadata / filename caution | PDF title `PowerPoint Presentation`, author `Mohamed`, PowerPoint 2010 creator/producer, and creation/modification timestamp 13 April 2025; `2025` also appears in the filename, but no rendered page visibly supplies that year |
+| Authority | Helwan-branded tier-6 local case-based teaching deck with repeated red teaching answers; no examiner, candidate instructions, marks, response form, official exam label, or official key section |
+
+The visible Helwan logo establishes institutional teaching provenance. The metadata author is
+preserved as a file-history field because it is not corroborated by a visible author credit. The
+filename and metadata support a possible 2025 production context only; neither is promoted to a
+visible academic year, exam year, or sitting.
+
+The source has two ten-case sections: inflammation (pp. 2–39) and cell injury (pp. 40–89).
+Each substantive MCQ appears first without a red selection and then as an otherwise literal
+repeat with the correct option colored red. Nineteen cases additionally place a direct
+option-by-option explanatory reveal between those two prompt occurrences; inflammation case 4
+moves directly from the unkeyed prompt to its red repeat. Thus the stable source-native
+convention yields **40 prompt occurrences / 39 printed teaching-answer occurrences / 1 unkeyed
+prompt occurrence**. The 20 second prompt appearances are literal copies and are excluded from
+retention, leaving **20 retained records**. Intervening completed diagrams and labelled teaching
+plates explain mechanisms but are not additional prompt starts or independent answer registers.
+
+### Page-first teaching, case, prompt, key, and practical/written boundary
+
+| Pages | Complete visible content | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1 | Helwan-branded `CASES BASED LEARNING (CBL) BMS I` cover | provenance only; **0 / 0** |
+| 2 | `Inflammation CBL` divider | teaching transition; **0 / 0** |
+| 3–6 | Acute appendicitis case; pain-mediator MCQ; explanatory reveal; red-answer repeat | **2 / 2** |
+| 7–10 | Three-day purulent pharyngitis case; inflammation-type MCQ; explanation; red repeat | **2 / 2** |
+| 11–14 | Silicosis case/MCQ, granuloma plate, cytokine explanation, and red repeat | **2 / 2** |
+| 15–16 | Tuberculous cavitary-lung case/MCQ followed immediately by the red repeat | **2 / 1** |
+| 17–20 | Post-staphylococcal pneumonia case; outcome MCQ; abscess explanation; red repeat | **2 / 2** |
+| 21–23 | Epithelioid-macrophage granuloma case/MCQ; organism explanation; red repeat | **2 / 2** |
+| 24–27 | Bee-sting anaphylaxis case/MCQ, allergy plate, mediator explanation, and red repeat | **2 / 2** |
+| 28–31 | Chronic-gastritis case; cause MCQ; organism explanation; red repeat | **2 / 2** |
+| 32–35 | Gram-negative shock case; mediator MCQ; nitric-oxide explanation; red repeat | **2 / 2** |
+| 36–39 | Neutrophil-rich pleural-effusion case; process MCQ; suppuration explanation; red repeat | **2 / 2** |
+| 40 | `Cell Injury CBL` divider | teaching transition; **0 / 0** |
+| 41–45 | Chemotherapy-treated lymphoma case; mechanism MCQ; apoptosis diagram/explanation; red repeat | **2 / 2** |
+| 46–51 | Reperfused myocardial infarct MCQ; free-radical explanation and three teaching plates; red repeat | **2 / 2** |
+| 52–56 | Recurrent otitis case; middle-ear material MCQ; cholesterol explanation/plate; red repeat | **2 / 2** |
+| 57–61 | Cerebral infarct case; cystic-resolution MCQ; liquefaction explanation/plate; red repeat | **2 / 2** |
+| 62–65 | Small brown heart case; pigment MCQ; lipofuscin explanation; red repeat | **2 / 2** |
+| 66–70 | Insensate black toes case; associated-condition MCQ; diabetic-gangrene explanation/plate; red repeat | **2 / 2** |
+| 71–75 | Repeated-transfusion case/MCQ; hemosiderosis explanation and two teaching plates; red repeat | **2 / 2** |
+| 76–81 | Acute-pancreatitis case; cellular-change MCQ; fat-necrosis explanation and saponification plates; red repeat | **2 / 2** |
+| 82–86 | Endocarditis with splenic lesion; abnormality MCQ; infarct explanation/comparison plate; red repeat | **2 / 2** |
+| 87–89 | Chronic-alcohol case/MCQ; fatty-change explanation; red repeat | **2 / 2** |
+| 90 | WebPath exam-index URL and two YouTube reference links | reference list only; **0 / 0** |
+| 91 | Domino-image closing slide | closing image only; **0 / 0** |
+
+There are no practical stations, performance checklists, written-response prompts, completion
+blanks, response frames, or prompt-like residues. Case numbers, arrows, captions, microscopy and
+mechanism images, colored explanatory text, and the p. 90 word `EXAM` inside a reference URL do
+not create additional assessment occurrences.
+
+### Source-first retention, semantic collapse, and prior-BMS assignment
+
+| Ref(s) | Prompt pages | Source-tested scope / printed teaching answer | Handle / prior assignment |
+|---|---:|---|---|
+| F86-IQ01a,b | 4,6 | Acute-appendicitis pain mediated by prostaglandin and bradykinin; D | `inflammatory-pain-prostaglandin-bradykinin` · exact F1/F10 pain-mediator reuse |
+| F86-IQ02a,b | 8,10 | Short-course purulent/neutrophilic pharyngitis as acute inflammation; B | `acute-inflammation-short-course-purulent-neutrophil` · exact F1/F10 acute-inflammation-characteristics reuse |
+| F86-IQ03a,b | 11,14 | Silica-ingesting macrophages elaborate cytokines/growth factors that drive fibrosis; E | `silicosis-macrophage-cytokine-fibrosis` · new |
+| F86-IQ04a,b; IQ06a,b | 15–16,21,23 | Reciprocal identification of macrophages and *M. tuberculosis* in epithelioid-cell granulomatous inflammation; A; A | `tuberculosis-granuloma-macrophage` · one source semantic handle; exact F2/F7 tubercle/granuloma reuse |
+| F86-IQ05a,b | 18,20 | Staphylococcal pneumonia followed by a liquefied air-fluid cavity as abscess formation; B | `staphylococcal-pneumonia-lung-abscess-outcome` · new; narrower causal/outcome scope than F8's generic lung-abscess example |
+| F86-IQ07a,b | 24,27 | Histamine as the principal immediate mediator in bee-sting anaphylaxis; E | `histamine-anaphylaxis-mediator` · exact F6 reuse |
+| F86-IQ08a,b | 29,31 | Persistent *H. pylori* infection causing mononuclear chronic gastritis; E | `helicobacter-pylori-chronic-gastritis` · new; not the prior gastric-adenocarcinoma risk scope |
+| F86-IQ09a,b | 33,35 | Macrophage-derived nitric oxide producing vasodilation, hypotension, and septic shock; A | `macrophage-nitric-oxide-septic-shock` · new |
+| F86-IQ10a,b | 37,39 | Neutrophil-rich cloudy pleural fluid as purulent/suppurative inflammation; B | `purulent-pleural-inflammation-neutrophils` · exact F8 suppurative-feature reuse |
+| F86-CQ01a,b | 42,45 | Fragmentation/loss of individual lymphoma cells after chemotherapy through apoptosis; E | `chemotherapy-induced-tumor-cell-apoptosis` · new |
+| F86-CQ02a,b | 46,51 | Increased free-radical formation worsening injury after coronary reperfusion; C | `reperfusion-injury-free-radicals` · new |
+| F86-CQ03a,b | 53,56 | Cholesterol crystals in a chronic inflammatory middle-ear mass after recurrent otitis; D | `chronic-otitis-middle-ear-cholesterol-crystals` · new |
+| F86-CQ04a,b | 58,61 | Cystic resolution of a cerebral infarct through liquefactive necrosis; A | `cerebral-infarct-liquefactive-necrosis` · exact F73 liquefactive-site reuse |
+| F86-CQ05a,b | 63,65 | Lipofuscin/lipochrome producing brown atrophy of the aging heart; B | `cardiac-brown-atrophy-lipofuscin` · new |
+| F86-CQ06a,b | 67,70 | Diabetes-associated peripheral atherosclerosis causing gangrenous toes; A | `diabetes-peripheral-atherosclerotic-gangrene` · new |
+| F86-CQ07a,b | 71,75 | Repeated transfusions causing hepatic hemosiderin deposition; C | `repeated-transfusion-hepatic-hemosiderosis` · exact F9 generalized-hemosiderosis-causes reuse |
+| F86-CQ08a,b | 77,81 | Pancreatic lipase causing enzymatic fat necrosis/saponification in acute pancreatitis; C | `acute-pancreatitis-enzymatic-fat-necrosis` · exact F73 reuse |
+| F86-CQ09a,b | 83,86 | Embolic splenic infarct causing coagulative necrosis; A | `splenic-infarct-coagulative-necrosis` · new; organ-specific association not supplied by prior general morphology handles |
+| F86-CQ10a,b | 87,89 | Chronic alcohol exposure with preserved liver tests producing hepatocellular fatty change; B | `chronic-alcohol-hepatic-fatty-change` · new; alcohol is absent from F2's obesity/starvation/cortisone predisposition set |
+
+The four IQ04/IQ06 prompt occurrences are retained as two records but reduce to one source
+handle because they test opposite directions of the same tuberculosis–macrophage–granuloma
+relation. No other pair is a semantic duplicate: acute timing, pleural suppuration, infectious
+outcome, mediator, pigment, organ-specific necrosis, and etiologic-association scopes remain
+distinct.
+
+### Exactly four searches per accepted handle and exact-scope adjudication
+
+All 19 handles received exactly four fresh source-first searches across live state, pending
+import roots, and prior BMS-102 Families 1–85: **76 required searches**. External exact-scope
+disposition is **0 live / 4 pending / 15 no same-scope**. Hits confined to this triage ledger
+were used only for prior-family adjudication, not counted as external records.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `inflammatory-pain-prostaglandin-bradykinin` | `inflammatory pain mediator`; `prostaglandin bradykinin pain`; `PGE2 bradykinin inflammation`; `acute inflammation pain chemicals` | no same-scope | exact F1/F10 reuse |
+| `acute-inflammation-short-course-purulent-neutrophil` | `acute inflammation short course`; `purulent exudate neutrophils acute`; `three day inflammation neutrophilic`; `acute versus chronic inflammatory cells` | no same-scope | exact F1/F10 reuse |
+| `silicosis-macrophage-cytokine-fibrosis` | `silicosis macrophage cytokines`; `silica fibrosis macrophage growth factors`; `pneumoconiosis collagen fibroblast cytokines`; `silica nodule interstitial fibrosis mechanism` | no same-scope | none; delta |
+| `tuberculosis-granuloma-macrophage` | `tuberculosis granuloma macrophage`; `epithelioid cells mycobacterium tuberculosis`; `tubercle macrophage predominant cell`; `mycolic acid granulomatous response` | no same-scope | exact F2/F7 reuse |
+| `staphylococcal-pneumonia-lung-abscess-outcome` | `staphylococcal pneumonia lung abscess`; `S aureus pneumonia abscess outcome`; `air fluid level liquefactive necrosis lung`; `purulent lung abscess inflammation` | no same-scope | F8 is related but lacks the organism-to-outcome proposition; delta |
+| `histamine-anaphylaxis-mediator` | `histamine anaphylactic shock mediator`; `anaphylaxis primary mediator`; `mast cell histamine hypotension`; `IgE shock vasoactive amine` | pending `CON-FND-7D406E91EA3BF2`; exact | exact F6 reuse |
+| `helicobacter-pylori-chronic-gastritis` | `Helicobacter pylori chronic gastritis`; `H pylori mononuclear gastric inflammation`; `lymphocytes plasma cells H pylori stomach`; `persistent H pylori chronic inflammation` | no same-scope | prior gastric-adenocarcinoma handle is different; delta |
+| `macrophage-nitric-oxide-septic-shock` | `nitric oxide septic shock mediator`; `macrophage nitric oxide hypotension`; `E coli shock nitric oxide vasodilation`; `inducible NO sepsis vascular collapse` | no same-scope | prior septic-shock feature handles do not identify this mediator; delta |
+| `purulent-pleural-inflammation-neutrophils` | `purulent pleural inflammation neutrophils`; `suppurative pleuritis neutrophilic exudate`; `empyema purulent inflammation`; `acute suppurative inflammation pleural fluid` | no same-scope | exact F8 suppurative-feature reuse |
+| `chemotherapy-induced-tumor-cell-apoptosis` | `chemotherapy induced apoptosis lymphoma`; `tumor cells apoptosis treatment response`; `neoplastic cell fragmentation chemotherapy`; `apoptotic bodies cancer therapy` | no same-scope | prior apoptosis definitions/characteristics do not test treatment response; delta |
+| `reperfusion-injury-free-radicals` | `reperfusion injury free radicals`; `myocardial reperfusion reactive oxygen species`; `neutrophil free radicals restored blood flow`; `ischemia reperfusion oxidative damage` | no same-scope | none; delta |
+| `chronic-otitis-middle-ear-cholesterol-crystals` | `chronic otitis cholesterol crystals`; `middle ear mass cholesterol crystals`; `cholesteatoma cholesterol granuloma`; `otitis media lipid membrane breakdown` | no same-scope | none; delta |
+| `cerebral-infarct-liquefactive-necrosis` | `liquefactive necrosis CNS infarct`; `brain infarct cystic liquefaction`; `cerebral infarction liquefactive necrosis`; `stroke cystic cavity macrophages` | pending `CON-FND-88508ABAB84A67`; exact | exact F73 reuse |
+| `cardiac-brown-atrophy-lipofuscin` | `brown atrophy heart lipofuscin`; `cardiac lipochrome wear tear`; `aging myocardium perinuclear pigment`; `small brown heart lipofuscin` | no same-scope | F2 pathological-pigments umbrella is broader; delta |
+| `diabetes-peripheral-atherosclerotic-gangrene` | `diabetes dry gangrene toes`; `diabetic peripheral atherosclerosis gangrene`; `ischemic black toes diabetes`; `diabetes mellitus gangrenous necrosis` | no same-scope | none; delta |
+| `repeated-transfusion-hepatic-hemosiderosis` | `repeated transfusion hepatic hemosiderosis`; `transfusional iron overload liver`; `hemosiderin hepatocytes blood transfusions`; `secondary hemosiderosis repeated transfusion` | pending `CON-FND-5DBC795B58DC74`; exact cause/deposition scope | exact F9 reuse |
+| `acute-pancreatitis-enzymatic-fat-necrosis` | `acute pancreatitis enzymatic fat necrosis`; `pancreatic lipase fat saponification`; `chalky deposits pancreatitis necrosis`; `peripancreatic adipose tissue necrosis` | pending `CON-FND-6626C19B61A23B`; exact | exact F73 reuse |
+| `splenic-infarct-coagulative-necrosis` | `splenic infarct coagulative necrosis`; `spleen wedge shaped infarct necrosis`; `septic embolus splenic coagulative`; `solid organ infarction coagulative necrosis` | no same-scope | prior general coagulative-necrosis and myocardial-infarct handles do not test spleen; delta |
+| `chronic-alcohol-hepatic-fatty-change` | `chronic alcohol fatty liver`; `alcohol hepatic steatosis normal liver tests`; `ethanol fatty change hepatocytes`; `alcoholic liver large lipid droplets` | no same-scope | F2 predisposition set omits alcohol; delta |
+
+Exactly **8** handles are prior-BMS exact reuses: pain mediators, acute-inflammation
+characteristics, tuberculosis/granuloma macrophages, histamine/anaphylaxis, suppurative
+neutrophilic inflammation, cerebral-infarct liquefaction, transfusional hemosiderosis, and
+acute-pancreatitis fat necrosis. Therefore Family 86 adds `19 - 8 = 11` concepts.
+
+### Family-86 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 86 | Auxiliary cumulative (Families 12–86) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 40 | 806 | 765 | 1,571 |
+| Printed teaching-answer occurrences | 39 | 429 | 405 | 834 |
+| Unkeyed prompt occurrences | 1 | — | — | tracked separately |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 20 | 748 | 552 | 1,300 |
+| Source-distinct tested handles / required searches | 19 / 76 | 673 / — | — | — |
+| External live / pending / no same-scope | 0 / 4 / 15 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 8 | — | — | subtract before concept addition |
+| Cross-family concept delta | +11 | +459 over primary | 372 | `372 + 459 = 831` |
+| **Distinct tested concepts** | **+11** | **459 auxiliary additions** | **372** | **831** |
+
+The checksum closes without remainder: `20 initial + 20 red-repeat = 40` prompt occurrences;
+`19 explanatory reveals + 20 red selections = 39` printed answer occurrences and leave one
+unkeyed occurrence; `40 - 20 exact copies = 20` retained records; `20 - 1 TB reciprocal
+semantic reduction = 19` handles; searches are `19 × 4 = 76`; external disposition is
+`0 + 4 + 15 = 19`; and concept arithmetic is `19 - 8 prior exact reuses = 11`. Auxiliary
+cumulative arithmetic is `766 + 40 = 806` prompts, `390 + 39 = 429` answers, `728 + 20 = 748`
+retained records, `654 + 19 = 673` source handles, and `448 + 11 = 459` concept additions. All
+eligible arithmetic is `765 + 806 = 1,571`, `405 + 429 = 834`, `552 + 748 = 1,300`, and `372
++ 459 = 831`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**806 / 429 / 748 / 673 / +459**; and all eligible evidence is
+**1,571 / 834 / 1,300 / 831**. Family 86 contributes auxiliary case-based teaching and
+embedded-answer evidence only. It cannot independently raise exam/sitting, recurrence,
+mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 86
+
+`src_2606a244d9623c339871` is exhausted across all 91 pages: every visible and metadata
+provenance field, divider, case, prompt, option set, direct explanatory reveal, red-answer repeat,
+literal copy, interleaved teaching plate, reference link, closing image, retained record,
+semantic collapse, handle, required search, external disposition, prior-BMS reuse, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-86 blocker. The exact next
+manifest-ordered BMS-102 record is tier-6 `src_0ebbbb43f00db58178b1` · `CamScanner 29-07-2025
+00.06.pdf`, SHA-256
+`0ebbbb43f00db58178b1ddf35cc63b159c45053f619f63609c31d425a4c837a9`, 5,122,391 bytes,
+four portrait A4 pages under `Pathology / Notes and Summaries`. The manifest marks a native text
+layer but its first-page snippet contains only `CamScanner`; PDF metadata title/subject are the
+filename and author is `CamScanner`. Its complete visible content, scan/date provenance,
+teaching-versus-prompt/key boundary, search ledger, and prior-BMS relationship are the exact
+next-source blockers.
