@@ -18208,3 +18208,85 @@ is tier-3 source `src_9a70f046e6b0b21ba4ee` · `MCQs - L4 MCQ.pdf`, SHA-256
 seven OCR-needed portrait A4 pages under `Pathology / Questions / MCQs`. Its independent
 cell-accumulation prompt/key/written boundary, provenance, source-first handle searches,
 prior-BMS reconciliation, arithmetic, and exact next-source blockers remain to be exhausted.
+
+## Family 172 — exact manifest revisit of the Family-9 Lecture-4 cell-accumulation bank
+
+### Source identity, rendered/OCR boundary, authority, and prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_9a70f046e6b0b21ba4ee` · `MCQs - L4 MCQ.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `9a70f046e6b0b21ba4ee0a0e0cf7fd5bbec02579156088d72c0dc24312dbfd78` · **565,421 bytes** |
+| Format / complete visual boundary | **Seven portrait A4 pages**: one cover and six content pages. All seven pages were rendered at 200 dpi into seven non-empty 1654×2339 images and read at original detail. Pages 2–6 contain MCQ Q1–Q25; page 6 then begins the written section, which continues through page 7. No page, crop, answer appendix, handwritten response, or hidden practical station remains outside this boundary. |
+| OCR/native-text reality | The manifest correctly flags the carrier `ocr-needed`: layout/raw extraction exposes **882 / 845 words** and **9,558 / 6,967 bytes**, but it does not by itself provide the complete reliable visual boundary. Seven-page OCR produced **904 words / 5,840 bytes** and corroborated the rendered cover, numbered stems, option/key columns, and written headings; the rendered pages remain controlling. |
+| Visible provenance | The cover visibly reads `PATHOLOGY`, `MCQ LECTURE 4`, `CELL ACCUMALATION` [source spelling], `DR AHMED HASSAN`, and `LEVEL 1 - SEMESTER 2`; the content pages repeat the named instructor footer. No university, faculty, module code, academic year, sitting date, marks, or candidate field is visible. |
+| Metadata caution | Metadata author `Salah El-Din`, Microsoft 365 production, and 9 February 2025 creation/modification times are secondary carrier evidence. They neither override the visible authorship nor establish a Helwan administration, official answer key, or sitting date. |
+| Exact prior governance | Family 9 already records this exact source ID, SHA, carrier, all 34 prompt occurrences, 25 printed keys, zero literal repeats, 34 retained records, 24 handles, 96 searches, four prior-BMS reuses, and +20 concepts. No byte-, page-, prompt-, key-, format-, or scope-layer difference exists in this manifest revisit. |
+| Authority | Instructor-attributed mixed pathology lecture-question carrier with printed MCQ keys, not a verified institutional exam, official departmental key, dated sitting, or student response sheet. |
+
+### Complete prompt, key, written-format, and anomaly replay boundary
+
+The object contains **34 raw prompt occurrences: 25 numbered text MCQs + nine unkeyed written
+operations**. The written split is **two definitions + six enumerations + one discussion**. It
+contains **25 source-supplied right-margin key occurrences / nine unkeyed prompts / 0 T/F / 0
+image-bearing questions / 0 drawing tasks / 0 practical stations / 0 candidate responses / 0
+residues**.
+
+The visibly printed MCQ sequence remains `1 A; 2 C; 3 B; 4 B; 5 D; 6 B; 7 B; 8 D; 9 A; 10 C;
+11 C; 12 C; 13 C; 14 C; 15 B; 16 C; 17 D; 18 D; 19 A; 20 B; 21 D; 22 C; 23 E; 24 D; 25 C`.
+Q18 asks for the disorder associated with disturbed purine/nucleoprotein metabolism and increased
+serum uric acid but visibly prints `D` for `Leukoderma`; that questionable source key is preserved
+as evidence and is neither silently corrected nor treated as an independently verified answer.
+
+There is no exact or punctuation-only wording repeat, so **all 34 prompts remain retained
+records**. Family 9's six source-scope groups contribute ten reductions: the six-record
+dystrophic-calcification group contributes five, while the hyaline-definition,
+amyloidosis-definition, metastatic-calcification-setting, melanin-causes, and systemic-
+amyloidosis/myeloma pairs contribute one each. The governed checksum is therefore **`34 - 0 = 34
+retained records`** and **`34 - 10 = 24 handles`**.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 9 already completed exactly four searches for every one of its 24 accepted handles:
+**`24 × 4 = 96 searches`**. Its prior-BMS reconciliation identifies four reuses—the
+dystrophic-calcification comparison/examples, amyloid staining, amyloidosis definition, and
+metastatic-calcification comparison—and therefore adds **`24 - 4 = 20 concepts`**.
+
+Family 172 accepts **0 new retained records and 0 new handles**. Re-running the four-query packets
+against the same source ID/SHA/page/prompt/key object would fabricate work and recurrence. The
+standing gate is **`0 new handles × 4 = 0 required and completed new searches`**. Prior reuse and
+concept delta are both **0 Family-172 additions**.
+
+### Family-172 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Governed exact object | Family 172 addition | Auxiliary cumulative (Families 12–172) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 34 | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 25 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 34 | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 24 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 9 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **24 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The governed checksum remains `34 prompts`, `25 answers`, `34 retained`, `34 - 10 = 24 handles`,
+`24 × 4 = 96 searches`, and `24 - 4 = 20` Family-9 concepts. Family-172 arithmetic is independently
+zero: `0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`. Corrected primary remains
+**762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained /
+1,667 handles / +906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 /
+1,278**.
+
+Family 172 adds exact-manifest-revisit evidence only. It establishes no new question occurrence,
+answer, tested concept, official key, sitting, recurrence, mark weight, candidate response,
+practical station, readiness, or claims status.
+
+### Exact next debt after Family 172
+
+`src_9a70f046e6b0b21ba4ee` is re-exhausted without double counting: every rendered page, OCR/native
+corroborant, numbered prompt, option, printed key, written operation, questionable answer,
+provenance field, metadata field, Family-9 collapse/search/prior disposition, zero gate, and
+cumulative term is assigned once, with **zero remainder** and no Family-172 blocker. The exact next
+manifest record is tier-3 source `src_a2b7d25d987469febab8` · `MCQs - MCQ Pathology.pdf`, SHA-256
+`a2b7d25d987469febab87a5a80fd52db5c8d74a1ade0dfabd6482fec9da63475`, **175,380 bytes**, six
+native-text portrait A4 pages under `Pathology / Questions / MCQs`. Its general-pathology
+MCQ/true-false prompt/key boundary, provenance, source-first handle searches, prior-BMS
+reconciliation, arithmetic, and exact next-source blockers remain to be exhausted.
