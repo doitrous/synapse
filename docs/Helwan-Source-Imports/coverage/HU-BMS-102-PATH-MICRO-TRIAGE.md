@@ -15152,3 +15152,141 @@ Virtual Lab 3 - CBL Repair`. Its first page visibly names `CBL OF REPAIR`, Dr Ka
 Lecturer of Pathology, a Helwan e-books domain, and the WebPath exam-index URL; full visible
 provenance, source authority, prompt/key/teaching/practical boundary, searches, prior reuse, and
 arithmetic are the exact next-source blockers.
+
+## Family 143 — Kariman Hussein repair-and-circulatory CBL composite
+
+### Source identity, complete render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_ad59fe84ce3f33e3d0b5` · `CBL-repair-&-cir.102_نسخة.pdf` under `Pathology / Practical Labs / Virtual / Virtual Lab 3 - CBL Repair` |
+| SHA-256 / size | `ad59fe84ce3f33e3d0b521fef7bc4a0b00a5cb562086a3e9336c56f709fb61aa` · 1,003,179 bytes |
+| Format / complete visual boundary | Thirty-four native-text landscape pages, each 720×540 points. All 34 pages were rendered at 150 dpi into 34 non-empty 1500×1125-pixel images and read individually through the blank closing page; six ordered contact sheets, layout extraction, and raw extraction were also read. There is no page, crop, option, answer, image, or text remainder. |
+| Native-text reality | Layout extraction contains 1,745 words / 11,536 bytes and raw extraction contains 1,743 words / 10,964 bytes. Both preserve every stem, option set, answer explanation, divider, and terminal heading. Visual review confirms the alternating prompt/answer convention and the genuinely blank/decorative pages. The manifest's `native` label is accurate. |
+| Visible provenance | P.1 visibly reads `CBL OF REPAIR`, `DR. KARIMAN HUSSEIN`, `LECTURER OF PATHOLOGY`, `e-books.helwan.edu.eg`, and the Utah WebPath exam-index URL. These establish named instructor, Helwan-hosted teaching provenance, and the question-source link. No faculty masthead, module code, academic year, delivery date, or sitting is visible. |
+| Metadata caution | Metadata title is generic `PowerPoint Presentation`; author is the non-identifying value `7`; creator/producer is Microsoft PowerPoint for Microsoft 365; creation/modification timestamp is 20 April 2025. Those fields are export provenance only and cannot supersede visible Kariman Hussein authorship or establish an academic year, teaching date, or assessment sitting. |
+| Authority | Instructor-attributed Helwan tier-5 CBL/revision carrier using WebPath teaching-bank questions and following-slide explanations. It is not a candidate paper, authenticated practical, recurrence set, response sheet, or official university key. |
+
+### Complete page-first prompt, answer, teaching, practical, and replay boundary
+
+| Pages | Complete visible source content | Boundary ruling |
+|---:|---|---:|
+| 1 | Repair CBL cover, instructor attribution, Helwan e-books domain, and WebPath source URL | Provenance/source attribution only; **0 prompts / 0 answers**. |
+| 2–3 | Partial-thickness hand/arm burn asks the critical determinant of skin regeneration; next slide prints `B) CORRECT` and explains persistence of epithelial skin appendages | **1 keyed text MCQ / 1 supplied answer**. |
+| 4–5 | Gastric-antral lesion with loss of epithelial surface asks the pathologic process; next slide prints `(E) CORRECT` and defines ulceration | **1 / 1**. The source spelling `hydrochoric acid` is preserved as low-authority explanation text. |
+| 6–7 | Post-trauma cells entering G1 ask which tissue remains in G0; next slide prints `(C) CORRECT`, skeletal muscle, with the permanent-cell explanation | **1 / 1**. |
+| 8–9 | Sutured calf laceration asks which factor aids rather than inhibits healing; next slide prints `C) CORRECT` and explains the net benefit of primary closure | **1 / 1**. |
+| 10–11 | Firm collagen-rich nodular scar after a stab wound asks the mechanism; next slide prints `(A) CORRECT`, keloid formation through excessive collagenization | **1 / 1**. |
+| 12 | `CBL CIRCULATORY DISTURBANCES` | Section divider only; **0 / 0**. |
+| 13 | Decorative cartoon without source text or an instruction | Teaching/layout decoration; **0 / 0**. |
+| 14–21 | Four alternating MCQ/answer pairs: hospital immobilization and femoral DVT; diabetic mesenteric atherosclerosis/abdominal angina; cold-water fish oil and reduced platelet aggregation; atrial-fibrillation renal infarction with coagulative necrosis | **4 / 4**. Each stem, option set, supplied letter, and explanation is a literal replay of Family 142 pp.4–11. |
+| 22 | Decorative Arabic meme/photo without a complete prompt, option set, or answer field | Layout decoration; **0 / 0**. |
+| 23–32 | Five alternating MCQ/answer pairs: hip-prosthesis surgery leading to pulmonary embolism; pancreatic adenocarcinoma/Trousseau recurrent PE; one-month thrombus organization; gram-negative sepsis/DIC endothelial injury; adenocarcinoma/Trousseau DVT risk | **5 / 5**. Each is a literal Family-142 replay. |
+| 33 | Orphan heading `Instructions of practical exam` with no following instruction, station, task, response field, image, or marking content | Non-prompt title residue; **0 / 0**. It does not authenticate a practical exam or create a prompt-like fragment. |
+| 34 | Blank closing page | **0 / 0**. |
+
+The carrier contains exactly **14 text-only MCQ occurrences / 14 following-slide supplied answer
+occurrences / 0 unkeyed prompts / 0 written operations / 0 practical or image-bearing prompts /
+0 prompt-like residues**. The answer direction is explicit option letter plus `CORRECT`; no key
+is inferred from color or emphasis. The terminal practical-exam heading has no operative content,
+and neither decorative page is promoted into an image question.
+
+All **14 occurrences remain retained records**. The nine circulatory prompts are literal prior-
+family replays, but this PDF is not a byte-identical carrier of Family 142: it has a different SHA,
+34 rather than 22 pages, a distinct Kariman Hussein repair section, two inserted decorative pages,
+and a terminal heading. Under the established distinct-carrier rule, those nine source occurrences
+remain visible while their tested scopes collapse to prior handles; only a byte-identical carrier
+would add zero occurrences. Within this source, the pancreatic/general-adenocarcinoma questions
+again test one complete Trousseau hypercoagulability proposition. Thus `14 retained - 1 same-
+source semantic reduction = 13 source-distinct tested handles`.
+
+### Source-first handle inventory and prior-BMS assignment
+
+| Ref(s) | Source-tested scope / supplied answer | Handle / prior-BMS assignment |
+|---|---|---|
+| F143-Q01 · pp.2–3 | Partial-thickness burn regenerates when epithelial skin appendages persist · B | `partial-thickness-burn-skin-appendage-regeneration` · new; prior BMS repair decks teach regeneration but do not test this skin-depth/appendage determinant |
+| F143-Q02 · pp.4–5 | Gastric loss of epithelial surface with inflammation is ulceration · E | `gastric-epithelial-surface-loss-ulcer` · new; prior ulcer records test gross diagnosis or malignant edges, not the defining surface-loss relation |
+| F143-Q03 · pp.6–7 | Tissue remaining in G0 after injury · C skeletal muscle | `skeletal-muscle-permanent-cell-g0` · exact Family-2/87 regenerative-cell-population reuse; the present vignette tests the same permanent-cell example |
+| F143-Q04 · pp.8–9 | Net aid rather than inhibitor of laceration healing · C presence of sutures | `sutures-net-aid-primary-wound-healing` · new; prior first-intention and impairing-factor handles do not test the closure device's net effect |
+| F143-Q05 · pp.10–11 | Post-wound collagen-rich firm scar mass · A keloid formation | `post-wound-keloid-excess-collagen` · exact Family-140 `keloid-gross-diagnosis` reuse; both identify keloid from the raised collagen-rich post-injury scar |
+| F143-Q06 · pp.14–15 | Inpatient immobilization causing femoral DVT · B | `hospital-immobilization-femoral-dvt-risk` · literal Family-142 Q01 replay |
+| F143-Q07 · pp.16–17 | Diabetic mesenteric atherosclerosis causing abdominal angina · B | `diabetic-mesenteric-atherosclerosis-abdominal-angina` · literal Family-142 Q02 replay |
+| F143-Q08 · pp.18–19 | Cold-water fish oil reducing ischemic risk/platelet aggregation · D | `cold-water-fish-oil-ischemic-risk-reduction` · literal Family-142 Q03 replay |
+| F143-Q09 · pp.20–21 | Atrial-fibrillation renal infarct with coagulative necrosis · B | `atrial-fibrillation-renal-infarct-coagulative-necrosis` · literal Family-142 Q04 replay |
+| F143-Q10 · pp.23–24 | Hip-prosthesis surgery/immobilization antecedent to pulmonary embolism · A | `hip-prosthesis-postoperative-pulmonary-embolism` · literal Family-142 Q05 replay |
+| F143-Q11,Q14 · pp.25–26,31–32 | Pancreatic/general adenocarcinoma causing recurrent PE or DVT through Trousseau hypercoagulability · B/D | `adenocarcinoma-trousseau-venous-thromboembolism` · literal Family-142 Q06/Q09 replay and one same-source handle |
+| F143-Q12 · pp.27–28 | One-month fate of femoral-vein thrombus · D organization | `thrombus-organization-one-month` · literal Family-142 Q07 replay |
+| F143-Q13 · pp.29–30 | E. coli endotoxaemia causing DIC laboratory pattern · B endothelial injury | `gram-negative-sepsis-dic-endothelial-injury` · literal Family-142 Q08 replay |
+
+### Exactly four searches per accepted handle and external disposition
+
+Each of the 13 accepted handles received exactly four fresh source-first searches across live
+state, all pending import roots, and prior BMS-102 Families 1–142: **13 × 4 = 52 required and
+completed searches**. The literal-replay packets were rerun rather than merely assumed from
+Family 142.
+
+| Handle | Exactly four required queries | External exact-scope result |
+|---|---|---|
+| `partial-thickness-burn-skin-appendage-regeneration` | `partial thickness burn skin appendages regeneration`; `epithelial appendages regenerate burned skin`; `full thickness burn skin graft appendages`; `hair follicle epithelium epidermal wound regeneration` | pending `CON-DER-7B13D571066F63`; exact hair-follicle epithelial-stem-cell wound-repair relation |
+| `gastric-epithelial-surface-loss-ulcer` | `gastric epithelial surface loss ulcer`; `loss of epithelial surface inflammation ulceration`; `gastric antral lesion hematemesis ulcer`; `ulcer pathologic process epithelial defect` | no same-scope |
+| `skeletal-muscle-permanent-cell-g0` | `skeletal muscle remains G0 after injury`; `permanent cells skeletal cardiac muscle no proliferation`; `abdominal injury cell cycle G0 skeletal muscle`; `striated muscle hypertrophy not regeneration` | pending `CON-HEM-25C4304A1DB441`; cell-population classification |
+| `sutures-net-aid-primary-wound-healing` | `sutures aid rather than inhibit wound healing`; `closed laceration sutures reduce granulation tissue distance`; `presence of sutures net aid healing`; `primary closure sutures wound healing factor` | no same-scope |
+| `post-wound-keloid-excess-collagen` | `post wound firm collagen mass keloid`; `exaggerated wound healing excessive collagenization`; `stab wound nodular scar fibroblasts abundant collagen`; `keloid formation excessive collagen scar` | no same-scope; prior Family-140 tested reuse controls the BMS concept collapse |
+| `hospital-immobilization-femoral-dvt-risk` | `hospital immobilization femoral vein thrombosis risk`; `pneumonia inpatient swollen leg DVT immobilization`; `venous stasis bed rest deep vein thrombosis`; `immobility most common cause leg vein thrombosis` | pending post-immobility DVT/venous-stasis item |
+| `diabetic-mesenteric-atherosclerosis-abdominal-angina` | `diabetes postprandial abdominal pain mesenteric artery occlusion`; `abdominal angina severe atherosclerosis bowel arteries`; `chronic mesenteric ischemia diabetic patient after meals`; `mesenteric arterial atherosclerosis intestinal angina` | no same-scope |
+| `cold-water-fish-oil-ischemic-risk-reduction` | `cold water fish oil reduce ischemic heart disease risk`; `fish oils diminish arachidonic acid metabolites platelet aggregation`; `omega 3 dietary prevention coronary atherosclerosis`; `fish oil antiplatelet myocardial infarction risk` | pending fish-oil cardiovascular/thrombosis relation |
+| `atrial-fibrillation-renal-infarct-coagulative-necrosis` | `atrial fibrillation renal infarct coagulative necrosis`; `renal artery embolus preserved cell outlines karyolysis`; `kidney infarction type of necrosis`; `solid organ ischemic infarct coagulative necrosis kidney` | pending renal-infarct/coagulative-necrosis scope |
+| `hip-prosthesis-postoperative-pulmonary-embolism` | `hip prosthesis postoperative pulmonary embolism`; `orthopedic surgery immobilization DVT pulmonary embolization`; `hip replacement risk venous thromboembolism`; `sudden dyspnea pulmonary artery filling defect after surgery` | pending post-immobility pulmonary-embolism item |
+| `adenocarcinoma-trousseau-venous-thromboembolism` | `adenocarcinoma Trousseau recurrent pulmonary thromboembolism`; `pancreatic carcinoma hypercoagulable state thromboplastin`; `malignancy increased deep venous thrombosis risk`; `cancer associated venous thrombosis Trousseau syndrome` | no same-scope |
+| `thrombus-organization-one-month` | `thrombus organization one month thrombophlebitis`; `fate of venous thrombus organization recanalization`; `organized thrombus vascular lumen restoration`; `old femoral vein thrombus organization` | no same-scope |
+| `gram-negative-sepsis-dic-endothelial-injury` | `gram negative sepsis DIC endothelial cell injury`; `E coli endotoxin disseminated intravascular coagulation`; `septic shock prolonged PT PTT thrombocytopenia D dimer`; `endotoxemia plasminogen activator inhibition DIC mechanism` | no same-scope |
+
+External exact-scope disposition is **0 live / 6 pending / 7 no same-scope = 13 handles**. Ten
+handles are exact prior-BMS reuses: skeletal-muscle permanent-cell classification, keloid
+identification, and all eight Family-142 circulatory handles. The skin-appendage burn determinant,
+gastric-ulcer defining surface loss, and sutures' net healing benefit remain new to the BMS tested
+ledger, so concept arithmetic is `13 - 10 = 3` additions.
+
+### Family-143 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 143 | Auxiliary cumulative (Families 12–143) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 14 | 1,259 | 765 | 2,024 |
+| Printed/source-supplied answer occurrences | 14 | 756 | 405 | 1,161 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Non-prompt title residues | 1 | — | — | p.33, outside assessment arithmetic |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 14 | 1,194 | 552 | 1,746 |
+| Source-distinct tested handles / required searches | 13 / 52 | 1,072 / — | — | — |
+| External live / pending / no same-scope | 0 / 6 / 7 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 10 | — | — | subtract before concept addition |
+| Cross-family concept delta | +3 | +680 over primary | 372 | `372 + 680 = 1,052` |
+| **Distinct tested concepts** | **+3** | **680 auxiliary additions** | **372** | **1,052** |
+
+The checksum closes without remainder: `14 = 14 + 0`; all 14 distinct-carrier occurrences are
+retained; `14 - 1 same-source Trousseau reduction = 13` handles; searches are `13 × 4 = 52`;
+external disposition is `0 + 6 + 7 = 13`; and concept arithmetic is `13 - 10 prior exact reuses
+= 3`. Auxiliary arithmetic is `1,245 + 14 = 1,259` prompts, `742 + 14 = 756` answers, `1,180
++ 14 = 1,194` retained records, `1,059 + 13 = 1,072` handles, and `677 + 3 = 680` concept
+additions. All eligible arithmetic is `765 + 1,259 = 2,024`, `405 + 756 = 1,161`, `552 +
+1,194 = 1,746`, and `372 + 680 = 1,052`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now **1,259 / 756 / 1,194 / 1,072 /
++680**; and all eligible evidence is **2,024 / 1,161 / 1,746 / 1,052**. Family 143 cannot
+establish an administered Helwan exam, authenticated practical, official key, recurrence, mark
+weight, candidate response, readiness, or claims status.
+
+### Exact next debt after Family 143
+
+`src_ad59fe84ce3f33e3d0b5` is exhausted across all 34 pages: every visible/metadata provenance
+field, source URL, repair and circulatory stem, option set, explicit following-slide answer,
+explanation, decorative page, literal prior-family replay, same-source collapse, title residue,
+four-search packet, prior-BMS relation, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-143 blocker. The exact next unique manifest record is tier-5
+`src_9c7415ed8f3f624528f1` · `CBL neoplasia 2025.pdf`, SHA-256
+`9c7415ed8f3f624528f172aff96bd7db74ba195912eb4720078cd973388b3da0`, 1,550,971 bytes,
+38 native-text 720×540-point landscape pages under `Pathology / Practical Labs / Virtual /
+Virtual Lab 4 - CBL Neoplasia`. Its metadata title is `CBL neoplasia`, author is `DELL`, and
+creation/modification timestamp is 22 April 2025; the exact visible provenance, date authority,
+teaching/case/prompt/key/practical boundary, searches, prior reuse, and arithmetic are the exact
+next-source blockers.
