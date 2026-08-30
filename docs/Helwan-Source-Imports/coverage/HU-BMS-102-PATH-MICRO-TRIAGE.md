@@ -17897,3 +17897,86 @@ answer.pdf`, SHA-256 `83c77a2c46ce746c19816a5f4b67b99adc035c61691b3f32c1c5090cca
 **454,079 bytes**, 16 native-text portrait US-letter pages under `Pathology / Questions / MCQs`.
 Its independent solved prompt/answer boundary, Family-4/163 unkeyed-companion relation, search
 gate, arithmetic, and exact next-source blockers remain to be exhausted.
+
+## Family 168 — exact revisit of the corrected Family-4 Neoplasia-4 solved carrier
+
+### Source identity, complete visual/native boundary, authority, and exact prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 solved `src_83c77a2c46ce746c1981` · `MCQs - College MCQs neoplasia 4 answer.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `83c77a2c46ce746c19816a5f4b67b99adc035c61691b3f32c1c5090ccaef4961` · **454,079 bytes** |
+| Format / complete visual boundary | **Sixteen native-text portrait US-letter pages**. All 16 rendered at 150 dpi into 16 non-empty 1275×1650 images and were read at page detail. The object contains three solved MCQ blocks: A has 10, B has 30, and C has 30. Page 16 contains only C30 followed by blank remainder. No cover, image, drawing, practical plate, candidate response, or hidden terminal material exists. |
+| Native-text reality | Layout and raw extraction each contain **3,079 words**, respectively **22,407 / 21,331 bytes**. Native text exposes 40 option-A / `Answer:` / `Explanation:` sets for A+B; the visual pages expose 30 further C-block option sets with one check mark beside each supplied answer. OCR was unnecessary. |
+| Visible/metadata provenance | The pages begin directly with prompts and show no university, faculty, instructor, module code, assessment header, academic year, sitting date, marks, or candidate field. Metadata author is generic `User`; creator is Microsoft Word 2016; producer is `www.ilovepdf.com`; creation/modification time is 3 May 2025. Filename, solved status, and metadata are carrier evidence, not proof of an administered assessment, official key, or date. |
+| Exact prior governance | Family 4 already records this exact source ID/SHA, all 70 solved prompts and 70 visible keys, 16 tested-scope reductions, 54 handles, 216 searches, six prior-BMS reuses, and +48 concepts. Family 163 corrected only the physical unkeyed companion from 40 to 37 prompts; it expressly preserved every solved record, answer, handle, and concept. |
+| Authority | Keyed study/continuous-assessment-family carrier of weak visible institutional authority. Printed answers are source-supplied evidence, but exact-object reuse cannot upgrade them to an official departmental key. |
+
+### Complete solved prompt/answer/format and corrected companion boundary
+
+The current solved object contains **70 raw text MCQ occurrences / 70 source-answer occurrences /
+0 unkeyed / 0 T/F / 0 written operations / 0 image-bearing questions / 0 drawing tasks / 0
+practical stations / 0 candidate responses / 0 residues**. Its exact block arithmetic is **`10
+A + 30 B + 30 C = 70`**. A+B print 40 immediate `Answer:` lines and explanations; C prints
+30 answer check marks beside the selected options. Both conventions are visibly source supplied
+and counted once.
+
+The number glyph for A1 is clipped to a leading dot. B1, B11, and B13 also lack or clip their
+number glyphs, but ordered stems, complete option blocks, immediate answers/explanations, and the
+section sequence establish their positions without inventing prompts. The C block's 30 numbered
+questions and check marks are complete. C06's marked `Bcl-2 overexpression` answer to the item
+asking what *least* contributes to decreased tumour-cell loss remains a questionable source key
+rather than a silent correction or externally validated truth.
+
+Family 163 proved that the paired unkeyed `src_e1aac4e34bf9379bb178` contains 37—not 40—prompt
+replays, with solved B10, B12, and B15 absent there. Corrected pair arithmetic is therefore
+**`37 unkeyed + 70 solved = 107 raw occurrences`**, not 110. All 37 unkeyed occurrences are exact
+prompt-layer replays and remain excluded. All **70 retained records and 70 supplied answers**
+reside in this solved carrier, so the correction changes neither its record/key boundary nor any
+search handle.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 4's 16 within-solved-family tested-scope reductions yield **`70 - 16 = 54` handles**.
+Family 4 already completed exactly four searches per handle (**`54 × 4 = 216` searches**) and
+reconciled six prior-BMS reuses, yielding +48 concepts.
+
+Family 168 accepts **0 new retained records and 0 new handles**. Re-running searches for the exact
+source ID/SHA/page/prompt/key object would fabricate work and false recurrence. The standing gate
+is **`0 new handles × 4 = 0 required and completed new searches`**; no empty search ledger is
+invented. Prior reuse and concept delta are both **0 Family-168 additions**.
+
+### Family-168 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 168 addition | Auxiliary cumulative (Families 12–168) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 70 in current solved PDF | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 70 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 70 | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 54 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 4 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **54 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The corrected pair checksum remains `37 + 70 = 107 prompts`, `70 answers`, `70 retained`, `70 -
+16 = 54 handles`, and Family 4's `54 × 4 = 216` completed searches. Family-168 arithmetic is
+independently zero: `0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`. Corrected
+primary remains **762 / 405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers /
+1,829 retained / 1,667 handles / +906 concepts**; and corrected all eligible remains **2,880 /
+1,891 / 2,381 / 1,278**.
+
+Family 168 adds exact-carrier revisit and manifest-order evidence only. It establishes no new
+question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 168
+
+`src_83c77a2c46ce746c1981` is re-exhausted without double counting: every page, native prompt,
+option, `Answer:` line, explanation, marked choice, clipped number glyph, questionable key,
+section transition, metadata field, visible-authority limit, corrected Family-4/163 companion
+relation, original collapse/search boundary, zero gate, and cumulative term is assigned once,
+with **zero remainder** and no Family-168 blocker. The exact next manifest record is tier-3 source
+`src_f4017e73dcc32d5e9934` · `MCQs - INFECTION MCQs.pdf`, SHA-256
+`f4017e73dcc32d5e993414b160127e0bcd8bd569f3f7005c0dd835f630fa07ac`, **133,794 bytes**,
+seven native-text portrait A4 pages under `Pathology / Questions / MCQs`. Its independent prompt/
+key boundary, provenance, source-first handle search, prior-BMS reconciliation, arithmetic, and
+exact next-source blockers remain to be exhausted.
