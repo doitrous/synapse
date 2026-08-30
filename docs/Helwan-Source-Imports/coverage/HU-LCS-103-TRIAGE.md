@@ -10882,3 +10882,106 @@ The exact next tier-3 manifest-order debt is `src_cebdd150938d859a0a26`,
 remains `S1 TRIAGE — NOT APPROVED`:** 140 tier-3/tier-6/rank-9 path debts remain. No
 download, ID, content record, catalogue update, import, source copy or edited DOCX was
 created.
+
+## Family 91 — Tier-3 external lower-limb written-and-keyed MCQ review file
+
+### Exact identity, provenance, module fit and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_cebdd150938d859a0a26` / `cebdd150938d859a0a26b02dd1dd9ee4384d8027ffb18b884f064cc1028db839` |
+| File / boundary | `MCQs - External MCQs MCQ & Written questions on first 3 lectures.pdf` · 8,093,303 bytes · unencrypted PDF · 17 physical native-text A4 pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Questions/MCQs/MCQs - External MCQs MCQ & Written questions on first 3 lectures.pdf` |
+| Visible provenance | The cover prints `Anatomy Question File` and an index for anterior-compartment part 1, medial compartment and anterior-compartment part 2. Content pages print `Anatomy`, `lower limb`, `Dr/ M. Ali` and page numbers 1–16. No Helwan University, faculty, cohort, sitting or official-exam label appears; PDF metadata exposes only producer `iLovePDF`. |
+| Authority finding | External keyed lower-limb review compilation, not direct Helwan assessment evidence, a response form, practical examination or official Helwan key. |
+
+The assigned hash, byte size, native text layer and 17-page boundary were recomputed and
+match. All 17 pages were rendered at 200 dpi and read visually. Every substantive prompt is
+lower-limb Anatomy within the LCS-103 locomotor boundary; there is no out-of-module
+subtraction.
+
+| Physical pages | Visible source boundary | Written prompts | MCQs | Printed answer letters |
+|---|---|---:|---:|---:|
+| 1 | decorative cover and three-lecture index | 0 | 0 | 0 |
+| 2 | lecture 1 anterior-compartment written Q1–Q17 | 17 | 0 | 0 |
+| 3–7 | lecture 1 MCQ Q1–Q29: 7 + 7 + 7 + 7 + 1 | 0 | 29 | 29 |
+| 8 | lecture 3 anterior-compartment vessels/nerves written Q1–Q7 plus MCQ Q1–Q4 | 7 | 4 | 4 |
+| 9–12 | lecture 3 MCQ Q5–Q27: 7 + 7 + 7 + 2 | 0 | 23 | 23 |
+| 13 | lecture 2 medial-compartment written Q1–Q7 plus MCQ Q1–Q4 | 7 | 4 | 4 |
+| 14–17 | lecture 2 MCQ Q5–Q30: 8 + 8 + 8 + 2 | 0 | 26 | 26 |
+| **Family 91** | **three written sets plus three MCQ sets** | **31** | **86** | **86** |
+
+Thus the complete assessment boundary is **117 prompt occurrences = 31 unkeyed written
+prompts + 86 keyed MCQs**, with **86 printed A–D answer letters**. The letter printed beside
+each MCQ is retained as source evidence, not silently corrected. In particular, lecture-2
+Q18 prints `D` for conversion of the femoral artery at the “adductor canal exit” even
+though option A names the adductor hiatus; lecture-1 Q1's printed `B` also sits beside an
+incomplete vastus-medialis origin choice. These are source-key review cautions, not new keys.
+
+The source has no declarative teaching section beyond its cover/index labels, no anatomical
+illustration, specimen, radiograph, micrograph, practical station, teaching plate, masked
+label, apparatus task, response blank or unresolved practical callout. Practical delta is
+exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical keys / 0 practical
+scopes**.
+
+### Source-first collapse, exact searches and deduplication
+
+The 117 occurrences collapse to **14 source-distinct handles**. Written and MCQ variants of
+the same objective share one handle rather than double-inflating concepts. Each handle
+received exactly one search in the live, pending/import-ready, prior source-import and
+accepted-LCS surfaces: **14 × 4 = 56 required search invocations**.
+
+| Source-first handle family | Occurrences |
+|---|---:|
+| quadriceps, sartorius and patellar extensor mechanism | 14 |
+| iliopsoas and pectineus attachments/actions/innervation | 8 |
+| medial-thigh adductors | 15 |
+| fascia lata, iliotibial tract, saphenous opening and cribriform fascia | 12 |
+| femoral triangle | 6 |
+| femoral sheath, ring, canal and hernia | 11 |
+| adductor canal and hiatus | 10 |
+| femoral nerve and lumbar roots | 8 |
+| obturator nerve | 6 |
+| femoral artery and branches | 10 |
+| great-saphenous/thigh-cutaneous relations | 4 |
+| saphenous nerve | 6 |
+| obturator/acetabular supply of the hip and femoral head | 3 |
+| short lateral rotators and obturator externus | 4 |
+| **Family 91** | **117** |
+
+All 14 are exact prior-external reuses from Family 86's front/medial-thigh, neurovascular and
+short-lateral-rotator handles; Family 88 repeats many of the same scopes. Accepted Families
+20 and 39–48 independently own or corroborate the eligible curriculum boundary. Therefore
+prior-external reconciliation is **14 reuses + 0 additions = 14**, external concept-state
+delta is **0 live / 0 pending / 0 new**, and eligible concept delta is zero. The exact
+56-query ledger is preserved at `tmp/pdfs/lcs103-family91/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **679 observed questions / 389 printed keys / 317 distinct
+tested concepts = 12 live / 103 pending / 202 new**. The external-bank checkpoint changes
+from **1,506 / 1,505 / 218 = 12 / 133 / 73** to **1,623 external prompts / 1,591 printed
+keys / 218 external concepts = 12 live / 133 pending / 73 new**. Arithmetic is
+`1,506 + 117 = 1,623`, `1,505 + 86 = 1,591`, `218 + 0 = 218`, and
+`12 + 133 + 73 = 218`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings
+/ 149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-90 remainder. Removing its sole path leaves **139
+all-rank path instances / 131 unique hashes**: tier 3 **57 paths / 54 unique hashes within
+tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 90's 140/132 row sets recompute
+first to path checksum
+`af5ac63807a485baaa896cd2e9996aadb75f5bec9b6b8a27662e081164aa1af1` and unique-hash
+checksum `c5e9937faf22ffcd10461fe7e655536ba15e6c8efe8709613edaef7716e133d2`.
+For the exact post-Family-91 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`229cac0fa0a67510660dfba2915d266fcd6421899df028fb2d71285974bfb09d`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`4645060f139efcb828a291f4b1e45d5ab395ee326003d71b296025b33a094571`.
+
+The exact next tier-3 manifest-order debt is `src_1bb176bbbc842891f12e`,
+`MCQs - External MCQs MCQ HEAD AND NECK.docx` (31,096 bytes; native DOCX; SHA-256
+`1bb176bbbc842891f12ecab35388c9df95b0b5e094f7dd67639dd56b92693937`). **Overall
+LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 139 tier-3/tier-6/rank-9 path debts
+remain. No download, ID, content record, catalogue update, import or source copy was
+created.
