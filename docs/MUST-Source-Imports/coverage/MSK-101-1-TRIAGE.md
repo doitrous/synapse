@@ -3293,3 +3293,41 @@ Removing the eighty-one processed unique hashes leaves **20 selected inventory p
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/mind map -Upper Limb (by Abdulazim Mohamed).pdf`, SHA-256 `1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8`, 1 page.
 
 **BLOCKED — S1 cannot be approved:** 20 selected inventory paths / 20 unique hashes remain untriaged.
+
+## Completed teaching-only source — mind map -Upper Limb (by Abdulazim Mohamed)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/mind map -Upper Limb (by Abdulazim Mohamed).pdf` | `1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8` | 1 | sparse-text audit sample | page 1 rendered and read | Filename-attributed Abdulazim Mohamed upper-limb teaching mind map. The PDF was produced by iPhone OS 7.0.4 Quartz PDFContext and carries creation/modification metadata dated 6 January 2014, but neither the visible page nor metadata names an institution, department, examiner, sitting, marks or official key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/mind map -Upper Limb (by Abdulazim Mohamed).pdf" purpose="source"}
+
+### Exact objective, written, practical, image and teaching boundary
+
+The single portrait page is a dense teaching mind map titled `Upper Limb`. Six top-level regional branches cover the pectoral region, muscles of the back, shoulder region, arm, forearm and hand. Across them, fifty-one named or grouped muscle entries summarize origin, insertion, nerve supply and action; numbered intrinsic-muscle families such as lumbricals and interossei remain grouped teaching entries rather than separate assessment occurrences.
+
+The exact boundary is **1 teaching-only page / 6 regional teaching branches / 51 named or grouped muscle entries / 0 objective MCQs / 0 written prompts / 0 practical or image-identification prompts / 0 answer-only observations / 0 keys / 0 source-unkeyed assessment prompts**. Colored lines and labels organize explanatory facts; they do not request learner responses and are not practical-image stations.
+
+### Authority, source truth and search gate
+
+The filename establishes only learner-level attribution to Abdulazim Mohamed. The 2014 iPhone Quartz metadata does not authenticate a MUST/MSK course source, assessment, examiner or faculty key. Spelling and anatomy statements such as `Ulner`, `flexor terinaculum`, selective origin/insertion descriptions and grouped muscle labels remain uncorrected source observations.
+
+No assessment prompt or candidate handle exists, so source-first collapse ends before search. The exactly-four-search rule resolves as **`0 accepted handles × 4 = 0 searches`**, with source-level disposition **0 live / 0 pending / 0 post-prior concepts**. Prior-MSK prompt deduplication is not applicable to teaching-only branches.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` with **+0 questions / +0 answers / +0 concepts**. Cumulative arithmetic remains **6997 questions / 6793 answers / 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 6997 | 6793 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, reconstructed answer, authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the eighty-two processed unique hashes leaves **19 selected inventory paths / 19 unique SHA-256s**. Their sorted, newline-joined hash checksum is `cb608a66075084afd859a84ef97e87501cf4a892915fcae0023d98bf7a27d1de`. Remaining audit-review debt is 0 substantive-text / 0 sparse-text / 7 empty-text / 12 audit-not-found rows, and unique-hash accounting is **`82 + 19 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anastomosis msk anatomy of midterm part (By Yumna).pdf`, SHA-256 `7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 19 selected inventory paths / 19 unique hashes remain untriaged.

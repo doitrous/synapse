@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "a217a77a132f5ca610f9d4dadd4ded97218062bea2ed25e2633b790070c0975f",
-    "triageMarkdown": "6242562bf1043bf07a4dab3a764df778387b13f2fb5f7a856937ef947f4a9f76"
+    "readinessMarkdown": "16b5ef1a7622a4db6164b9b85a19def199164c124e8ff002a5155ce339131cd6",
+    "triageMarkdown": "9bb52e4e51e8ee98c405f377b67def9882c880be6d7f3c31ec8be084605453fb"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -59,6 +59,7 @@
       "13bb48d71c0acabc39e05f22177b5a44eebd1dc849093754b083cdab57cc1a00",
       "14017cf209e94c9c5e431552ec4e934e42634c26a42e2bbbe9793736279e3f9f",
       "141e06b1f73fbf97641d4932acf78a782660835681941c18728361b8f87aa639",
+      "1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8",
       "1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c",
       "1f8f6e6fce4d4bf68951c22b18ac702032f3e201f3c665d7c381cb0698e26e76",
       "22180a77cf8d4eb2d59d046ee1936efa544a79932b326cf554f9d343d73a34cd",
@@ -133,7 +134,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 81
+    "uniqueSha256": 82
   },
   "completedSourceCoverage": [
     {
@@ -2607,6 +2608,35 @@
         "the page-1 Arabic note says important content may appear in the exam but does not authenticate an exam sitting",
         "Erb and Klumpke paralysis, breast drainage, axillary anatomy, rotator cuff and nerve injury claims remain uncorrected teaching observations"
       ]
+    },
+    {
+      "sha256": "1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8",
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "teachingPages": "1",
+      "topLevelTeachingBranches": 6,
+      "namedOrGroupedMuscleEntries": 51,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Abdulazim Mohamed teaching mind map produced by iPhone OS 7.0.4 Quartz PDFContext with 6 January 2014 metadata; no institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "single portrait teaching mind map with six regional branches and fifty-one named or grouped muscle entries summarizing origin, insertion, nerve supply and action; colored lines and labels organize explanatory facts and do not form objective, written, practical, image-identification, answer-only or unkeyed assessment material",
+      "preservedSourceDefects": [
+        "source spelling including Ulner and flexor terinaculum remains uncorrected",
+        "selective origin, insertion, nerve-supply and action statements remain source observations rather than endorsed anatomy claims",
+        "numbered intrinsic-muscle families remain grouped teaching entries rather than manufactured assessment occurrences"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2618,24 +2648,22 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 20,
-    "uniqueSha256": 20,
-    "sortedNewlineSha256": "d6868806d23533d7e05592fbf276a9f4e8b20874dc3db69abd1c6b17f9032ad7",
+    "inventoryMetadataRows": 19,
+    "uniqueSha256": 19,
+    "sortedNewlineSha256": "cb608a66075084afd859a84ef97e87501cf4a892915fcae0023d98bf7a27d1de",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
-      "empty-text": 7,
-      "sparse-text": 1
+      "empty-text": 7
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
-    "empty-text": 7,
-    "sparse-text": 1
+    "empty-text": 7
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 81,
-    "remainingUniqueSha256": 20,
+    "processedUniqueSha256": 82,
+    "remainingUniqueSha256": 19,
     "processedPlusRemaining": 101
   }
 }

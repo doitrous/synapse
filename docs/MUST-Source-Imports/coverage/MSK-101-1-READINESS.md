@@ -8,11 +8,11 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The eighty-one completed read-only source hashes cover eighty-three selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed three-page `Anatomy MSK101-1 Exam Night Notes (Midterm).pdf`, SHA-256 `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff`, contains **21 numbered declarative upper-limb teaching tips and 15 further important-topic reminders / 0 objective / 0 written / 0 practical or image-identification prompts / 0 keys or unkeyed assessment prompts**. It is an Absalam101 student compilation of Dr. Ahmed Essam notes; author metadata and filename-only Exam Night/Midterm wording do not authenticate an institution, examination sitting or official faculty key. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
+The eighty-two completed read-only source hashes cover eighty-four selected inventory paths, represent fifty-five distinct prompt families and yield **6997 questions / 6793 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed one-page `mind map -Upper Limb (by Abdulazim Mohamed).pdf`, SHA-256 `1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8`, is one teaching-only upper-limb muscle mind map organized into **6 regional branches and 51 named or grouped muscle entries / 0 objective / 0 written / 0 practical or image-identification prompts / 0 keys or unkeyed assessment prompts**. Filename attribution supports a learner-created Abdulazim Mohamed artifact only; the page and 2014 iPhone Quartz metadata provide no institution, examiner, sitting, marks or official-key claim. With no assessment handle, the exactly-four-search gate ends at **0 handles × 4 = 0 searches**, and the source contributes **+0 questions / +0 answers / +0 concepts**.
 
-Latest processed family hash: `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff`.
+Latest processed family hash: `1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8`.
 
-Recent processed family hash retained for reconciliation: `841e18df04f660f93d105e32427bf2004a240d09a4d3b3cb9cefebacdcb7f296`.
+Recent processed family hash retained for reconciliation: `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff`.
 
 Earlier processed family hash retained for reconciliation: `aadc9290e45c18506bc2748116a66e7dc05b33075bd533528edfe4b84a6cc0ee`.
 
@@ -72,8 +72,10 @@ Current processed-family append: `841e18df04f660f93d105e32427bf2004a240d09a4d3b3
 
 Current teaching-source append: `44d7ff30553241d7d103da08b4cf03d89a2537cb9d325b06e9e5e61089b780ff`.
 
-Removing them leaves **20 inventory paths / 20 unique SHA-256s**, checksum `d6868806d23533d7e05592fbf276a9f4e8b20874dc3db69abd1c6b17f9032ad7`. The pinned remaining audit-review debt is 0 substantive-text / 1 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current teaching-source append: `1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/mind map -Upper Limb (by Abdulazim Mohamed).pdf`, SHA-256 `1bcbafa404b07ad21f2740480dc063eda8b8da4521b5e4116e478e67d9d0b3b8`, 1 page.
+Removing them leaves **19 inventory paths / 19 unique SHA-256s**, checksum `cb608a66075084afd859a84ef97e87501cf4a892915fcae0023d98bf7a27d1de`. The pinned remaining audit-review debt is 0 substantive-text / 0 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 20 selected inventory paths / 20 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/Anastomosis msk anatomy of midterm part (By Yumna).pdf`, SHA-256 `7e094d7ebd3e9671bc4d33fb873d69b34cf64e4e08dc20d4f34e017cf8e5e043`, 1 page.
+
+**BLOCKED — S1 cannot be approved:** 19 selected inventory paths / 19 unique hashes remain untriaged.
