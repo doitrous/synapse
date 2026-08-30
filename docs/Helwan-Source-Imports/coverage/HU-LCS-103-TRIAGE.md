@@ -16768,3 +16768,88 @@ The exact next manifest-order debt is tier-6 `src_4b58736645995e506da6`,
 read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 76 tier-6/rank-9 path debts
 remain. No download, source edit, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 155 — Tier-6 unattributed labelled posterior-leg teaching plate
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_4b58736645995e506da6` / `4b58736645995e506da660513e412b683174658788607d0851ecb408a9518984` |
+| File / boundary | `2026-07-20 05.43.17.jpg` · 59,598 bytes · progressive JFIF 1.01 JPEG · sRGB · 72 dpi · 1080 × 880 pixels · one complete image |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/2026-07-20 05.43.17.jpg` |
+| Visible / embedded provenance | The image is a labelled posterior-leg anatomical model composition. It prints no author, institution, lecturer, module, date, citation, exam label or answer-key convention. The JFIF carries dimensions/profile/density but no creator or camera attribution. |
+| Authority finding | The manifest path establishes local LCS-103 summary placement only. With no visible or embedded authorship, this is unattributed tertiary teaching-plate evidence, not a Helwan-authored assessment, marking guide or official key. |
+
+The assigned SHA-256, byte size, format and dimensions were recomputed and match. The original
+image was inspected at full resolution as one complete source. Six arrows label the popliteal
+fossa, gastrocnemius, soleus, Achilles tendon and superior/inferior peroneal retinacula. The
+gastrocnemius and soleus boxes also supply tibial/posterior-tibial nerve relations, including
+the printed root list for gastrocnemius.
+
+There is **no assessment inventory**. Every arrow terminates in a supplied label and no
+instruction, interrogative, response field, blank, mark allocation, option set, correctness
+mark or separate answer reveal appears. The exact boundary is therefore **0 eligible or
+external assessment prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed assessment
+prompts** and **0 practical/station prompts / 0 practical assessment keys**.
+
+Source wording is preserved without repair. The labels print `Tibial n L4,5, S1,2,3`, `Post
+tibial n`, `Achillis tendon` and `peroneal retinaculum`. These are retained source states,
+not silently normalized terminology, roots or spelling.
+
+### Complete practical-plate, mapping and residue inventory
+
+This is **1 source-distinct labelled teaching plate**. One mapping is one directly printed
+label-to-structure or supply relation. The six arrow labels yield six structure-location
+mappings; gastrocnemius-to-tibial-nerve/roots and soleus-to-printed-posterior-tibial-nerve
+yield two further supplied relations. The exact inventory is therefore **1 teaching plate /
+8 directly printed mappings / 0 masked or unresolved residues**. All callouts are already
+labelled, so no mapping is converted into an answer key.
+
+### Source-first practical teaching scope, exact searches and prior-LCS reconciliation
+
+The single composition consolidates to **1 source-distinct practical teaching handle**. It
+received one query on each required surface.
+
+| Practical teaching handle | Four required query terms | Reconciliation | Disposition |
+|---|---|---|---|
+| Posterior-leg model identification with popliteal fossa, triceps-surae/tibial supply, Achilles tendon and peroneal retinacula | `posterior leg model gastrocnemius soleus`; `popliteal fossa Achilles tendon model`; `tibial nerve gastrocnemius soleus roots`; `superior inferior peroneal retinaculum identification` | Accepted Families 37, 42–44 and later lower-limb practical/tested scopes jointly own every printed component; no source-distinct objective remains | prior-LCS practical/theoretical reuse |
+
+All **1 × 4 = 4 required search invocations** completed across the live,
+pending/import-ready, prior source-import and accepted-LCS surfaces. Exact accepted-prior
+comparison yields **1 prior-LCS reuse + 0 additive practical-teaching scopes**. The
+practical-teaching-scope delta is **0 live / 0 pending / 0 new**. Search matches establish
+coverage only and do not validate or repair the unattributed labels.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **993 observed questions / 626 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 458 plates / 2,691 mappings / 149 residues / 13
+keys** by **+0 / +1 / +8 / +0 / +0** to **20 prompts / 459 plates / 2,699 mappings / 149
+residues / 13 keys**. Practical teaching scopes remain **0 live / 0 pending / 92 new**.
+Arithmetic checks are `458 + 1 = 459`, `2,691 + 8 = 2,699`, `149 + 0 = 149` and `13 + 0 =
+13`.
+
+This source hash occurs once in Family 154's remainder. Removing its sole path leaves **75
+all-rank path instances / 70 unique hashes**: tier 3 **0 paths / 0 unique hashes within tier**,
+tier 6 **61 / 59**, and rank 9 **14 / 11**. Family 154's prior checksums are
+`5f73fcbe4cee5b5776a00a0fb03a482ccfe47df13f3ddcfbf5695c24a9aff207` (paths) and
+`ea3350b4ca80e0159dad54d6693c6fee57082f1491523adf19ac8551ef63d20c` (unique hashes).
+For the exact post-Family-155 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`ad4c9cb906340ca2dea44b0278d1037cfc3d5e6ab468f1ff0961b496e5797c3c`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`f32fbb33381c875af6780da2467d4c7cb1d37a24e2c41ef2f35fa235de46be90`.
+
+The exact next manifest-order debt is tier-6 `src_38f3206a78ca16e57db9`,
+`2026-07-20 05.43.20.jpg` (126,610 bytes; 1080 × 924 JPEG; SHA-256
+`38f3206a78ca16e57db948e4d8d34c621fe457473f797c53464a3b096294c559`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until the image is
+read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 75 tier-6/rank-9 path debts
+remain. No download, source edit, ID, content record, catalogue update, import or source copy
+was created.
