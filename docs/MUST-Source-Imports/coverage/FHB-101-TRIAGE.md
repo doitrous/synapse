@@ -3748,3 +3748,77 @@ Histology_BenAhmed_Puplish.pdf`, SHA-256
 `1e2b05e259ae2eca175f3c97a985e7c3a1b37d489ecedaed74fcd810998730a3`.
 
 **BLOCKED — S1 cannot be approved:** 65 selected source paths remain untriaged.
+
+## Completed source — MCQs - FHB 101 Histology_BenAhmed_Puplish
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - FHB 101 Histology_BenAhmed_Puplish.pdf` | `1e2b05e259ae2eca175f3c97a985e7c3a1b37d489ecedaed74fcd810998730a3` | 98 | substantive-text | pages 1–98 rendered, read and page-aligned against the preceding 98-page bank | Encrypted printable FPDF export of the same local 2024/2025 Mucize Team bank. It retains the supplementary-resource disclaimer and makes no official-paper, department-key, sitting or marks claim. |
+
+### Near-duplicate determination and exact assessment boundary
+
+This is **not** a byte duplicate of `MCQs - FHB 101 Histology_BenAhmed.pdf`: its producer,
+encryption, metadata and SHA-256 differ. Full text and all 98 aligned page renders establish a
+near-duplicate assessment edition. Pages 1–4 remain cover/contributors/disclaimer/index;
+pages 5–48 retain the 210-prompt cytogenetics boundary; pages 49–75 retain 135 Basic
+epithelium MCQs; pages 76–89 retain 73 Kasr MCQs plus fifteen matching rows; and pages 90–98
+retain 44 Kandel MCQs and their terminal key.
+
+The exact source inventory is again **477 complete prompt occurrences / 477 directly printed
+answer occurrences**. All numbering, matching-row, key and essay/model-answer boundaries are
+unchanged; there are no missing or orphan answers and no answer was inferred.
+
+The content comparison found two substantive assessment edits amid contributor, layout and
+export changes:
+
+- Cytogenetics Kandel Q21 now prints `46 molecule of DNA` in options B and C instead of `23`
+  and replaces the explanation; its printed key remains `B` and its meiosis-II tested scope is
+  unchanged.
+- Basic Junction Q2 removes `& fixes cells together` from the stem and changes the printed key
+  from `B` to `A`. Its occurrence therefore moves from the desmosomal row to the tight-junction
+  row within the already represented epithelial-junction family; it does not create a new
+  source handle.
+
+Accordingly the full answer ledger is the immediately preceding source's 477-entry ledger with
+only `Junction Q1–Q5: D A A B A` replacing `D B A B A`. All other printed answer letters,
+matching responses and essay model answers are unchanged, including cytogenetics Kandel Q21
+`B`.
+
+### Source-first handles, four-search replay, and exact prior-FHB dedupe
+
+The source retains the preceding bank's **56 source-first handles**: 28 cytogenetics and 28
+epithelium. Junction Q2's corrected key reallocates one occurrence between two existing
+handles but does not change the source-level handle set. Exactly four live-and-pending searches
+were replayed for every handle, for **56 × 4 = 224 searches**. The external handle disposition
+remains **1 live / 11 pending / 44 new**.
+
+Exact prior-FHB comparison removes all 56 handles because the immediately preceding processed
+98-page bank already owns the same source scopes. The two corrected answer claims are retained
+as edition-specific printed evidence, not promoted to additional concepts. The post-prior-FHB
+result is therefore **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+477
+questions / +477 directly printed answers / +0 concepts = +0 live / +0 pending / +0 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 3086 | 2822 | 424 | 66 | 83 | 275 | TBD |
+
+The cumulative buckets remain exactly `66 + 83 + 275 = 424`. No module ID, content record,
+placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and unique hash leaves **64 selected inventory paths /
+62 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has
+checksum `26823c4a94a0c84914b402ca3483a7569b035785e638fc437d2e2cd8dc2f3496`.
+Pinned triage debt becomes **21 substantive-text / six sparse-text / 37 empty-text** rows, and
+unique-hash accounting is **`44 + 62 = 106`**.
+
+The next evidence-ranked substantive source is the single 37-page Histology `05 MCQs` path
+`Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Histo FHB Ques.pdf`, SHA-256
+`025b988c1ce7f90beaf3f86ad4c8fde63cf27c4ce10616832e877c66cc222825`.
+
+**BLOCKED — S1 cannot be approved:** 64 selected source paths remain untriaged.
