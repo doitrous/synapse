@@ -8537,3 +8537,134 @@ under `Lec 5 - Corticosteroids 2/`, so unique content must again be inventoried 
 path debt remains path-sensitive. Tier-6 and rank-9 source debts between rank-4/rank-5 gates
 remain outside this remainder. Broader LCS-103 S1 remains incomplete. No download, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 70 — Tier-4 Pharmacology theoretical Corticosteroids teaching-only duplicate-hash family
+
+### Source identity, duplicate-path authority and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_791096e550811606d4db` |
+| File / SHA-256 | `26 LECTURE ON CORTICOSTEROIDES PDF.pdf` / `791096e550811606d4dbcf8e19959834216a2a76aacbf85bc321112c5e419cac` |
+| File boundary | 1,061,618 bytes · unencrypted PDF · 27 physical native-text pages · 960 × 540 pt |
+| Current manifest path | `Year 1/LCS 103/Pharmacology/Theoretical/Lec 4 - Corticosteroids 1/26 LECTURE ON CORTICOSTEROIDES PDF.pdf` · tier 4 · `twinPreferred: true` |
+| Identical later manifest path | `Year 1/LCS 103/Pharmacology/Theoretical/Lec 5 - Corticosteroids 2/26 LECTURE ON CORTICOSTEROIDES PDF.pdf` · same source ID, SHA-256, byte size and 27-page boundary · `twinPreferred: false` |
+| Manifest duplicate metadata | the two rows carry reciprocal `duplicateOf` paths; the current row's normalized `subfolder` nevertheless says `Lec 5 - Corticosteroids 2`, so row path and normalized subfolder are preserved without reconciliation |
+| Visible provenance | p. 1 prints `CORTICOSTEROIDS`, `BY PROFESSOR DR MOHAMED ABDELGHANY` and `CLINICAL PHARMACOLOGY`; metadata title is `Corticosteroids`, author is `mohamed abdelaziz`, and creator/producer is Microsoft PowerPoint LTSC |
+| Authority finding | Manifest/path-placed local module theoretical teaching evidence. It is not a recoverable sitting, department question bank, response form, practical station or official answer key. The two manifest paths are byte-identical copies of one content object, so content is inventoried once while path debt remains path-sensitive. |
+
+Both local path instances were recomputed at 1,061,618 bytes and the exact assigned SHA-256;
+both report the same unencrypted 27-page boundary and compare byte-for-byte identical. The
+preferred Lec-4 path was rendered at 160 dpi and read against the complete native text layer;
+all 27 complete-page renders have distinct SHA-256 values. Since the Lec-5 path is bitwise
+identical, rendering or counting it again would manufacture duplicate content evidence. Page
+1 is the title/provenance slide and pp. 2–27 are continuous declarative pharmacology teaching.
+
+The source contains definitions, classifications, explanatory diagrams, filled tables,
+summaries, clinical pearls and fully completed mnemonics only. The `High-Yield Concept`,
+`One-Line Master Summary`, `STAIR CASE`, `CUSHINGOID` and `Sugar High, Protein Die, Fat Fly`
+phrasing signals teaching emphasis, not learner-response requests. The composite mechanism
+graphic on p. 14 and corticosteroid poster on p. 24 are labelled theoretical teaching images,
+not practical plates or identification stations. Every mnemonic cell is printed; none is a
+blank or masked callout. There is no question stem, option set, response line, answer, tick,
+highlight, delayed reveal, specimen, image-identification task or station instruction. The
+complete unique-content boundary is therefore **26 theoretical teaching compositions / 0
+assessment prompt occurrences / 0 printed keys / 0 practical or station prompts / 0 practical
+teaching plates / 0 practical mappings / 0 masked or unresolved practical callouts**.
+
+### Complete teaching and assessment inventory
+
+| Physical pages | Source-first composition | Teaching compositions | Assessment / key boundary |
+|---:|---|---:|---:|
+| 2–6 | definition/physiological roles; functional, duration and route classifications; chemistry/structure | 5 | 0 |
+| 7–13 | absorption, distribution/binding, hepatic metabolism/interactions, prodrug conversion/elimination/disease factors, dosing pearls, `LAMER` and master summary | 7 | 0 |
+| 14–17 | genomic/non-genomic mechanism; anti-inflammatory, immunosuppressive, metabolic, hematologic, bone and endocrine actions | 4 | 0 |
+| 18–19 | replacement, anti-inflammatory, immunosuppressive, neurologic, oncology and shock uses | 2 | 0 |
+| 20–23 | multisystem adverse effects; withdrawal/adrenal crisis; contraindications, precautions and summary | 4 | 0 |
+| 24–27 | composite poster and fully filled use, adverse-effect and metabolic mnemonics | 4 | 0 |
+| **Unique content total** | **one hash across two manifest paths** | **26** | **0 prompts / 0 keys** |
+
+The unique-content page arithmetic is **27 = 1 title page + 26 teaching compositions + 0
+assessment pages**. The later 27-page twin is retained as a manifest path occurrence but adds
+**0 pages, 0 teaching compositions and 0 assessment evidence** to this family.
+
+### Source-first theoretical teaching scopes, searches and prior-LCS adjudication
+
+The 26 teaching compositions consolidate to 17 source-level theoretical scopes. Scope collapse
+does not delete page, diagram, poster, table, mnemonic or source-wording evidence.
+
+| Teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `corticosteroid-definition-physiological-roles-and-adrenal-zones` · p. 2 | corticosteroid steroid hormones adrenal cortex cholesterol; glucocorticoid mineralocorticoid physiological roles; cortisol zona fasciculata aldosterone zona glomerulosa; corticosteroid sodium water potassium blood pressure | no substantive complete external or accepted prior-LCS scope — new theoretical teaching |
+| `corticosteroid-functional-classification-and-examples` · p. 3 | glucocorticoid examples hydrocortisone prednisolone dexamethasone; mineralocorticoid aldosterone fludrocortisone; corticosteroid physiological function classification; prednisone prednisolone methylprednisolone triamcinolone | no substantive complete-scope match — new theoretical teaching |
+| `corticosteroid-duration-classification` · p. 4 | corticosteroid duration short intermediate long acting; hydrocortisone 8 12 hours prednisone 12 36; dexamethasone betamethasone 36 72 hours; corticosteroid duration of action classification | no substantive complete-scope match — new theoretical teaching |
+| `corticosteroid-route-classification` · p. 5 | corticosteroid routes oral IV inhaled topical intra articular; prednisone hydrocortisone budesonide clobetasol triamcinolone fluticasone; corticosteroid route administration examples; inhaled intranasal corticosteroids administration | no substantive complete-scope match — new theoretical teaching |
+| `corticosteroid-chemistry-structure-and-activity-modification` · p. 6 | corticosteroid steroid nucleus cyclopentanoperhydrophenanthrene; corticosteroid structural modification potency duration; corticosteroid lipid soluble cholesterol derived; glucocorticoid chemistry structure mineralocorticoid activity | no substantive complete-scope match — new theoretical teaching |
+| `corticosteroid-route-dependent-absorption` · p. 7 | corticosteroid absorption oral intravenous topical inhaled; prednisone prednisolone dexamethasone oral bioavailability; hydrocortisone succinate methylprednisolone emergency shock cerebral edema; inflamed skin increases topical corticosteroid absorption | no substantive complete-scope match — new theoretical teaching |
+| `corticosteroid-distribution-and-protein-binding` · p. 8 | corticosteroid distribution CBG transcortin albumin; cortisol protein binding free drug active; corticosteroid crosses placenta CNS lipid soluble; corticosteroid widely distributed liver muscle adipose | no substantive complete-scope match — new theoretical teaching |
+| `corticosteroid-hepatic-cyp3a4-metabolism-and-interactions` · p. 9 | corticosteroid CYP3A4 metabolism rifampicin phenytoin carbamazepine; ketoconazole macrolide grapefruit steroid toxicity; glucocorticoid hepatic reduction hydroxylation conjugation; CYP3A4 inducer inhibitor corticosteroid interaction | no substantive complete-scope match — new theoretical teaching |
+| `prednisone-conversion-elimination-and-disease-pharmacokinetics` · p. 10 | prednisone conversion prednisolone severe liver disease; corticosteroid renal excretion glucuronide sulfate conjugates; liver disease prolongs steroid action renal metabolite accumulation; corticosteroid prodrug conversion elimination | no substantive complete-scope match — new theoretical teaching |
+| `corticosteroid-dosing-pearls-and-pharmacokinetic-summary` · pp. 11–13 | corticosteroid morning dosing HPA suppression; corticosteroid alternate day therapy adrenal suppression; LAMER corticosteroid pharmacokinetic mnemonic; corticosteroid clinical pharmacokinetic pearls | no substantive complete-scope match; p. 12 mnemonic and p. 13 summary collapse into this scope — new theoretical teaching |
+| `corticosteroid-genomic-nongenomic-mechanism-and-gene-regulation` · pp. 14–15 | glucocorticoid receptor GRE gene transcription; corticosteroid genomic non genomic mechanism; annexin A1 phospholipase A2 corticosteroid; corticosteroid inhibits IL1 IL2 IL6 TNF IFN gamma | no substantive complete-scope match; p. 14 composite graphic and p. 15 prose collapse at scope grain — new theoretical teaching |
+| `corticosteroid-antiinflammatory-and-immunosuppressive-actions` · p. 16 | corticosteroid anti inflammatory prostaglandin leukotriene lysosome; corticosteroid immunosuppressive T lymphocyte macrophage; corticosteroid decreases capillary permeability edema pain; glucocorticoid cytokine antigen presentation transplantation autoimmune | no substantive complete-scope match — new theoretical teaching |
+| `glucocorticoid-metabolic-hematologic-and-endocrine-actions` · p. 17 | glucocorticoid gluconeogenesis protein catabolism fat redistribution; corticosteroid neutrophilia eosinopenia lymphopenia; corticosteroid suppresses CRH ACTH adrenal cortex; glucocorticoid metabolic hematologic endocrine effects | no substantive complete-scope match — new theoretical teaching |
+| `glucocorticoid-bone-loss-osteoporosis-and-osteonecrosis` · pp. 17, 20 | glucocorticoid induced osteoporosis reduced calcium absorption; corticosteroid osteonecrosis avascular necrosis bone loss; steroid osteoporosis muscle wasting fractures; glucocorticoid bone adverse effects | exact accepted Family-16/53 glucocorticoid bone-loss evidence owns the core — prior LCS reuse |
+| `corticosteroid-therapeutic-use-spectrum` · pp. 18–19, 25 | corticosteroid replacement Addison congenital adrenal hyperplasia; corticosteroid asthma COPD rheumatoid SLE IBD; corticosteroid transplantation cerebral edema multiple sclerosis; corticosteroid leukemia lymphoma shock anaphylaxis | no complete external or accepted prior-LCS spectrum scope; p. 25 mnemonic repeats these uses — new theoretical teaching |
+| `systemic-corticosteroid-multisystem-adverse-effects` · pp. 20–21, 26–27 | corticosteroid cushingoid hyperglycemia diabetes adrenal suppression; corticosteroid ulcer hypertension edema psychosis; corticosteroid cataract glaucoma infection tuberculosis reactivation; systemic corticosteroid adverse effects | no complete external or accepted prior-LCS multisystem scope; filled mnemonics on pp. 26–27 repeat subsets — new theoretical teaching |
+| `corticosteroid-withdrawal-contraindications-and-safety-precautions` · pp. 22–24 | corticosteroid abrupt withdrawal adrenal crisis taper; corticosteroid contraindications diabetes ulcer hypertension osteoporosis fungal; corticosteroid lowest effective dose calcium vitamin D latent TB; long term steroid monitoring gradual withdrawal | no substantive complete-scope match; p. 24 poster repeats the same safety/action/use material — new theoretical teaching |
+
+All **17 × 4 = 68** required teaching-scope searches completed across live state, pending
+state, all source-import roots and accepted prior LCS. At complete-scope grain the direct
+external result is **0 live / 0 pending / 17 new**. Exact accepted-prior comparison prevents
+one repeated bone-effects addition, leaving **1 prior-LCS reuse / 16 new theoretical-teaching
+scopes**. The later identical path receives no second search set because the accepted handles
+and source content are identical. Declarative teaching scopes do not enter eligible
+tested-concept or practical-scope counts.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 70 | Family 70 delta | After Family 70 |
+|---|---:|---:|---:|
+| Eligible observed question records | 532 | +0 | 532 |
+| Eligible printed question keys | 265 | +0 | 265 |
+| Eligible distinct tested concepts | 256 | +0 | 256 |
+| Question live / pending / new | 10 / 86 / 160 | +0 / +0 / +0 | 10 / 86 / 160 |
+| Stand-alone practical/station prompt occurrences | 6 | +0 | 6 |
+| Distinct practical teaching plates, quantified | 398 verified minimum | +0 | 398 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 2,496 verified minimum | +0 | 2,496 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 136 | +0 | 136 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 74 | +0 / +0 / +0 | 0 / 0 / 74 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `27 unique-content pages = 1 + 26 + 0`, `26 =
+5 + 7 + 4 + 2 + 4 + 4`, `27 later-twin pages × 0 additional content weight = 0`, `0
+assessment prompts / 0 printed keys`, `532 = 532 + 0`, `265 = 265 + 0`, `256 = 256 + 0`,
+`10 + 86 + 160 = 256`, `6 + 0 = 6`, `398 + 0 = 398`, `2,496 + 0 = 2,496`, `136 + 0 =
+136`, and `74 + 0 = 74`.
+
+This source hash occurs twice in the manifest. Removing only the current Lec-4 path from the
+accepted Family-69 remainder while retaining the later Lec-5 path leaves **6 rank-4/rank-5
+path instances / 6 unique hashes**. The Family-69 method was reproduced first: its 7/6 row
+sets recomputed to `fc83a1e439fb3b947d873d5033d551754cb308e6449d9d4ddcad90bd0680ddb7`
+and `d49df975eea85e8148a2d5c1815ae42656c14428b5f50fef79f02d40839a7d06`.
+For the exact post-Family-70 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1c622111a52df918c9215faf762b53da6b86e9d6f4f6c56c7ae1dae5694101e2`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows remains
+`d49df975eea85e8148a2d5c1815ae42656c14428b5f50fef79f02d40839a7d06`, because the
+identical Lec-5 path still carries this hash.
+
+The exact next manifest-order path debt is the already-inventoried Family-70 source
+`src_791096e550811606d4db`, `26 LECTURE ON CORTICOSTEROIDES PDF.pdf` (1,061,618 bytes;
+27 native-text pages; SHA-256
+`791096e550811606d4dbcf8e19959834216a2a76aacbf85bc321112c5e419cac`) under `Year 1/LCS
+103/Pharmacology/Theoretical/Lec 5 - Corticosteroids 2/`. It is byte-identical to the accepted
+Lec-4 path and must add **0** second content inventory when its remaining path is adjudicated.
+The next new unique-hash gate after that duplicate path is tier-4 Pharmacology theoretical
+source `src_d4997a0848a0aa52ae1a`, `26 Calcium Metabolism.pdf` (408,873 bytes; 24 native-text
+pages; SHA-256 `d4997a0848a0aa52ae1a39d26515360f5e2de0bf630169aa0778a364396bd26a`)
+under `Lec 6 - Drugs Affecting Calcium/`. Tier-6 and rank-9 source debts between rank-4/rank-5
+gates remain outside this remainder. Broader LCS-103 S1 remains incomplete. No download, ID,
+content record, catalogue update, import or source copy was created.
