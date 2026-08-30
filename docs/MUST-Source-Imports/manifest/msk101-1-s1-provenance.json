@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "0cbb4f07c78e7eebe07541d9ca73e26bcdcd6b670f91bc7969eb51e71590fdba",
-    "triageMarkdown": "e516e37a0da112df8964c037d96b0ffae0f2e3d79c74878e91f6678109c52490"
+    "readinessMarkdown": "9f3f3ff098a2b27143d71f8fdd0b10ff7351ef9041a9d0e1fe056037dd96e5fd",
+    "triageMarkdown": "f05ba7df4be9dab300e2bc1e1d229d56aabdcf9fd457e567ea4ed1219a8a4c1d"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -52,9 +52,10 @@
   "processedFamilies": {
     "sha256": [
       "43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903",
+      "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 2
+    "uniqueSha256": 3
   },
   "completedSourceCoverage": [
     {
@@ -76,6 +77,20 @@
       "acceptedSourceHandles": 4,
       "newConceptsAfterPriorMskCollapse": 1,
       "sourceProcessed": true
+    },
+    {
+      "sha256": "e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231",
+      "sourcePages": 5,
+      "renderedReadPages": "1-5",
+      "printedPromptObservations": 24,
+      "printedKeyObservations": 0,
+      "exactPromptSequenceDuplicateOf": "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d",
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true
     }
   ],
   "triageCumulative": {
@@ -87,15 +102,15 @@
     "newConcepts": 4
   },
   "remaining": {
-    "inventoryMetadataRows": 101,
-    "uniqueSha256": 99,
-    "sortedNewlineSha256": "718f4e46c2ef045d3422195381ecce9635e495fe56deb3ab5bff0ff2c9dcd0bb",
+    "inventoryMetadataRows": 100,
+    "uniqueSha256": 98,
+    "sortedNewlineSha256": "ac687b428a1c4fcc6acc9a5889a84dfae9cdda3e87e9e72d468237d127bce150",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 14,
       "empty-text": 19,
       "sparse-text": 8,
-      "substantive-text": 57
+      "substantive-text": 56
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -103,12 +118,12 @@
     "audit-not-found": 14,
     "empty-text": 19,
     "sparse-text": 8,
-    "substantive-text": 57
+    "substantive-text": 56
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 2,
-    "remainingUniqueSha256": 99,
+    "processedUniqueSha256": 3,
+    "remainingUniqueSha256": 98,
     "processedPlusRemaining": 101
   }
 }

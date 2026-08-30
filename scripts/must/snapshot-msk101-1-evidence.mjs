@@ -9,9 +9,10 @@ const CATEGORIES = ['05 MCQs', '06 EOM Exams', '07 EOY Exams', '08 Midterm Exams
 const PROCESSED_FAMILY_HASHES = [
   '43a8be3c091e5b7f41820f5e155711519af16ed6a5c7fa05330134cc8c5e4903',
   'fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d',
+  'e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231',
 ]
 const SELECTED_CHECKSUM = '228a5361022abbb1572c28e0795f562b3ff4de8d10326873c7cf88a5aa559b02'
-const REMAINING_CHECKSUM = '718f4e46c2ef045d3422195381ecce9635e495fe56deb3ab5bff0ff2c9dcd0bb'
+const REMAINING_CHECKSUM = 'ac687b428a1c4fcc6acc9a5889a84dfae9cdda3e87e9e72d468237d127bce150'
 
 function option(name) {
   const prefix = `${name}=`
@@ -88,10 +89,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 19, 'sparse-text': 8, 'substantive-text': 57 }
+  const expected = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 19, 'sparse-text': 8, 'substantive-text': 56 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=57-substantive/8-sparse/19-empty/14-not-found/3-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=56-substantive/8-sparse/19-empty/14-not-found/3-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -141,7 +142,7 @@ if (selectedHashes.length !== 101 || sha256(selectedHashes.join('\n')) !== SELEC
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 2 || remainingHashes.length !== 99 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 3 || remainingHashes.length !== 98 || processedHashes.length + remainingHashes.length !== 101) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -149,7 +150,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 19, 'sparse-text': 8, 'substantive-text': 57 }
+const expectedRemainingDebt = { 'audit-extract-failed': 3, 'audit-not-found': 14, 'empty-text': 19, 'sparse-text': 8, 'substantive-text': 56 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const provenance = {
@@ -172,6 +173,7 @@ const provenance = {
   completedSourceCoverage: [
     { sha256: PROCESSED_FAMILY_HASHES[0], sourcePages: 3, renderedReadPages: '1-3', printedPromptObservations: 21, printedKeyObservations: 12, acceptedSourceHandles: 3, newConceptsAfterPriorMskCollapse: 3, sourceProcessed: true },
     { sha256: PROCESSED_FAMILY_HASHES[1], sourcePages: 5, renderedReadPages: '1-5', printedPromptObservations: 24, printedKeyObservations: 23, acceptedSourceHandles: 4, newConceptsAfterPriorMskCollapse: 1, sourceProcessed: true },
+    { sha256: PROCESSED_FAMILY_HASHES[2], sourcePages: 5, renderedReadPages: '1-5', printedPromptObservations: 24, printedKeyObservations: 0, exactPromptSequenceDuplicateOf: PROCESSED_FAMILY_HASHES[1], familyQuestionDelta: 0, familyAnswerDelta: 0, acceptedSourceHandles: 0, searchesRun: 0, newConceptsAfterPriorMskCollapse: 0, sourceProcessed: true },
   ],
   triageCumulative: { printedPromptObservations: 45, printedKeyObservations: 35, namedConceptsAssigned: 4, liveHits: 0, pendingHits: 0, newConcepts: 4 },
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },

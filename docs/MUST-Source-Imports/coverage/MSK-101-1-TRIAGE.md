@@ -73,10 +73,36 @@ The source is now `sourceProcessed=true`. Its completed delta is **+24 questions
 
 No module ID, content record, source authority claim, placement or catalogue entry was created.
 
+## Completed paired source — MSK 101-1 Training QUESTIONS
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/MSK 101-1 Training QUESTIONS.pdf` | `e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231` | 5 | substantive-text audit sample | pages 1–5 rendered and read | Microsoft Word for Microsoft 365 export, metadata author `a`, created and modified 19 October 2025. Its heading is `MSK101-1 2025-2026 Training questions Connective Tissue proper`; it prints no institution, department, examiner, sitting, marks or key authority. This is the clean question-only base of the locally annotated answer copy, not an official MUST examination. |
+
+### Exact prompt, key, written and practical boundary
+
+Pages 1–3 contain the same **16 four-option MCQs** and pages 4–5 the same **eight short-written prompts** as the processed answer-bearing copy. The exact visible boundary is **24 printed prompt occurrences = 16 MCQs + 8 written + 0 practical**, with **zero highlighted or printed keys, zero written responses, and 24 source-absent answers**.
+
+The two PDFs are byte-distinct (`373,837` bytes for this clean Word export versus `2,887,875` bytes for the iOS Quartz-annotated copy), but their extracted text is byte-identical: **6,602 bytes**, SHA-256 `11c58be07368ba91503171926ff03caa113fd7ad4f15c95095e8cf1d9d6992d1`. Full five-page visual comparison confirms identical headings, prompt wording, option order, numbering, page breaks and written-response forms. The answer-bearing copy adds only highlights, handwriting and annotations. This is therefore an **exact prompt-sequence duplicate**, not a new assessment occurrence.
+
+### Source-first collapse, search ledger and prior-MSK dedupe
+
+Every visible prompt maps one-for-one to the previously processed answer-bearing family. After exact prompt-sequence and prior-MSK collapse, **zero genuinely new handles survive**. Under the rule requiring exactly four searches only per surviving handle, the assignment/search reconciliation is therefore **`0 surviving handles × 4 = 0 searches`**. No repeated search was run, and the post-prior result is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta and cumulative table
+
+This distinct inventory hash is now `sourceProcessed=true`, while the exact prompt family remains counted once. Its completed delta is **+0 questions / +0 answers / +0 concepts**. The cumulative total remains **45 questions / 35 answers / 4 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 45 | 35 | 4 | 0 | 0 | 4 | TBD |
+
+No module ID, content record, source authority claim, placement or catalogue entry was created.
+
 ### Remaining sources / blocker
 
-Removing these two substantive-text paths and unique hashes leaves **101 selected inventory paths / 99 unique SHA-256s**. Their sorted, newline-joined hash checksum is `718f4e46c2ef045d3422195381ecce9635e495fe56deb3ab5bff0ff2c9dcd0bb`. Remaining audit-review debt is 57 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`2 + 99 = 101`**.
+Removing these three substantive-text paths and unique hashes leaves **100 selected inventory paths / 98 unique SHA-256s**. Their sorted, newline-joined hash checksum is `ac687b428a1c4fcc6acc9a5889a84dfae9cdda3e87e9e72d468237d127bce150`. Remaining audit-review debt is 56 substantive-text / 8 sparse-text / 19 empty-text / 14 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`3 + 98 = 101`**.
 
-The next evidence-ranked source is the paired question-only copy `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/MSK 101-1 Training QUESTIONS.pdf`, SHA-256 `e7aefe7a41975d7979f00b71cf47ecae7edcf9e39e664c51d09193713bb68231`, 5 pages.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/08 Midterm Exams/1-Upperlimb Midterm Units (Answered) - PentaGram.pdf`, SHA-256 `a6ee40dd89c3933e821f7393fbba1f5ecfb2eb6c5c3dc752c6846fad91ead2de`, 14 pages.
 
-**BLOCKED — S1 cannot be approved:** 101 selected inventory paths / 99 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** 100 selected inventory paths / 98 unique hashes remain untriaged.
