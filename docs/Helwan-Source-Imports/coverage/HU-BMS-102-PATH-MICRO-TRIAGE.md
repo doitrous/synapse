@@ -6906,3 +6906,71 @@ five OCR-needed landscape US-letter pages under `Microbiology / Practical`. Its 
 scope and byte-level relationship to the preferred 11-page carrier are the next-source blocker:
 fully render, compare, and adjudicate the complete twin before admitting or deduplicating any
 count.
+
+## Family 62 — tier-5 non-preferred practical name twin
+
+### Source identity, twin comparison, complete visual boundary, and zero gate
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_e76e225d0160746d76d1` · `microbiology lab.pdf` |
+| Local path | `BMS 102/Microbiology/Practical/microbiology lab.pdf` |
+| SHA-256 / size | `e76e225d0160746d76d169bee40f69a4ba1a7675722bbddc0a79d9f47d358139` · 10,350,671 bytes |
+| Format / read boundary | Five OCR-needed landscape US-letter pages; native extraction is empty, all five pages rendered at 160 dpi and read in one ordered contact sheet, and prompt-like pp. 1 and 5 reopened at full-page resolution |
+| Manifest twin status | Non-preferred name twin of Family 61 source `src_abc9011879d91d9c2399`; the hashes, page counts, dimensions, and byte sizes differ |
+| Provenance / authority | Image-only practical-laboratory photographs without visible university/faculty/module masthead, author, examiner, sitting, date, marks, instructions, response form, assessment-bank label, or key designation |
+
+This file is a **near-twin companion, not a byte-identical duplicate**. Pages 2–5 repeat four
+photographed susceptibility scenes already embedded on Family 61 p. 11, with different page
+layouts/crops. Page 1 is distinct: a photographed worked whiteboard lesson showing E-test,
+broth inoculum, tube-dilution MIC/MBC, and subculture diagrams. That new teaching scene adds no
+complete prompt. Its labels, arrows, worked diagrams, and the explanatory `?MIC` annotation are
+declarative instruction, not a blank response request. Page 5 repeats the Family 61 `MIC??`
+fragment without a complete command, response frame, option set, or source-authored answer
+mapping; it remains one excluded prompt-like residue rather than a question.
+
+| Page | Visual content | Twin relation / prompt ruling |
+|---:|---|---|
+| 1 | Worked whiteboard diagrams for E-test, inoculum, MIC, MBC, and tube dilution | distinct teaching scene; **0 / 0** |
+| 2 | Labelled disc-diffusion plates | same underlying photographed scene as Family 61 p. 11, separately cropped; **0 / 0** |
+| 3 | Labelled antibiotic discs | same underlying photographed scene as Family 61 p. 11, separately laid out; **0 / 0** |
+| 4 | Labelled uninoculated Mueller–Hinton agar | same underlying photographed scene as Family 61 p. 11, separately laid out; **0 / 0** |
+| 5 | Tube-dilution rack and worked MIC chart with `MIC??` | same underlying photographed scene/residue as Family 61 p. 11, separately cropped; **0 / 0** |
+
+The five-page source contributes **0 complete prompt occurrences / 0 printed answer occurrences /
+0 retained records / 0 source-distinct tested handles / 0 concept additions**. Four pages are
+near-duplicate teaching scenes and the remaining page is distinct teaching, but neither class is
+promoted to assessment evidence. With no admissible handle, the source-first gate is exactly **0
+handles × 4 = 0 required searches** and no external/prior-BMS search ledger is fabricated.
+
+| Measure | Family 62 | Auxiliary cumulative (Families 12–62) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 571 | 765 | 1,336 |
+| Printed answer occurrences | 0 | 301 | 405 | 706 |
+| Incomplete prompt-like residues | 1 repeated/excluded | — | — | tracked separately |
+| Retained question records | 0 | 554 | 552 | 1,106 |
+| Source-distinct tested handles / required searches | 0 / 0 | 523 / — | — | — |
+| External live / pending / no same-scope | 0 / 0 / 0 | — | — | zero gate |
+| Cross-family concept delta | +0 | +393 over primary | 372 | `372 + 393 = 765` |
+| **Distinct tested concepts** | **+0** | **393 auxiliary additions** | **372** | **765** |
+
+The checksum closes: `0` complete prompts produce `0` answers, retained records, handles,
+searches, external dispositions, and concept additions. Primary remains **765 / 405 / 552 /
+372**; auxiliary remains **571 / 301 / 554 / 523 / +393**; and all eligible evidence remains
+**1,336 / 706 / 1,106 / 765**. This near-twin adds no assessment evidence and cannot raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 62
+
+`src_e76e225d0160746d76d1` is exhausted across all five pages: the one distinct teaching board,
+four near-duplicate photographed scenes, the repeated incomplete `MIC??` residue, twin
+relationship, zero search gate, and unchanged arithmetic are each assigned once, with **zero
+source remainder** and no Family-62 blocker. The immediately following manifest record,
+tier-3 `src_4abfcc7807e4409a34dd` · `MCQs - Helwan S2 Micro Antimicrobial Chemotherapy
+MCQ.pdf`, is not debt: it was already fully bounded as Family 11. The first unprocessed
+manifest-ordered BMS-102 record is therefore tier-4 `src_fe901dc6baa1f35d5d24` · `Lec 1
+102.pdf`, SHA-256 `fe901dc6baa1f35d5d24c0b5eb1ce5c73dc531b50615342074392ac6850624b6`, 4,184,576
+bytes, 55 native-text landscape 960×540-point pages under `Microbiology / Theoretical / Lec 1 -
+Bacterial Morphology & Structure`. Its unread 55-page teaching/prompt/answer boundary is the
+next-source processing blocker: fully render and visually adjudicate the complete lecture before
+admitting any count.
