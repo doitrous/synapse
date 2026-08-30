@@ -3338,3 +3338,79 @@ path `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/solo mcq anatomy fhb 
 SHA-256 `e6d0c5242f043d70b60c979dea0131e737be9e959db553a23adf38718f6246af`.
 
 **BLOCKED — S1 cannot be approved:** 69 selected source paths remain untriaged.
+
+## Completed source — solo mcq anatomy fhb mid
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/solo mcq anatomy fhb mid.pdf` | `e6d0c5242f043d70b60c979dea0131e737be9e959db553a23adf38718f6246af` | 8 | substantive-text | pages 1–8 rendered and read | Local `Solo Team` anatomy revision bank with no institution, department, exam sitting, author, date or official-key claim printed. |
+
+### Visual prompt and key inventory
+
+The document prints one continuous Q1–Q38 MCQ sequence across all eight pages. Every question
+has exactly one option highlighted in yellow, giving **38 complete prompt occurrences / 38
+directly printed answer occurrences**. The literal Markdown-style `**` tokens around many stems
+are visible source-formatting artefacts rather than extra prompts. There are no numbering gaps,
+missing highlights or orphan highlights, and no answer was inferred.
+
+The full ordered highlighted-letter ledger is:
+
+```text
+Q1–Q38: B B C B C C B C C B B B B C C B B B B C C B B B C B C C B C B B C B B B B B
+```
+
+The highlights remain low-authority study-bank claims. They were transcribed without medical or
+typographical repair; in particular, Q28's highlighted `C) Lumbar` is preserved exactly as
+shown rather than reconciled against the wording `lower part of the vertebral column`.
+
+### Source-first assignment, four-search replay, and prior-FHB ledger
+
+| Printed refs | Highlighted letters as shown | Source-distinct tested concept (four search phrases) | Exact-scope disposition |
+|---|---|---|---|
+| Q1,Q29 | `1 B`; `29 B` | Skeletal-system support, protection and blood-cell-formation functions (`skeletal system support protection`; `bone framework protects organs`; `skeletal system blood cell formation`; `skeletal system functions`) | new; no exact prior-FHB function assignment — new addition. |
+| Q2,Q4,Q15,Q27 | `2 B`; `4 B`; `15 C`; `27 C` | Axial and appendicular skeleton membership (`axial skeleton skull vertebral column`; `appendicular skeleton limbs girdles`; `hyoid axial skeleton`; `sternum axial skeleton`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q3,Q28 | `3 C`; `28 C` | Vertebral-column count and regional terminology (`vertebral column 33 vertebrae`; `vertebral column regions`; `lumbar lower vertebral column`; `sacral lower vertebral column`) | new externally; exact prior-FHB vertebral-region/count reuse — duplicate. |
+| Q5–Q6,Q8,Q14,Q19,Q23,Q25,Q35 | `5 C`; `6 C`; `8 C`; `14 C`; `19 B`; `23 B`; `25 C`; `35 B` | Bone classification by shape and long-bone morphology (`bone classification long short flat irregular`; `patella sesamoid bone`; `pneumatic bone air spaces`; `long bone shaft two ends`) | new externally; exact prior-FHB expanded bone-shape reuse — duplicate. |
+| Q7 | `B` | Osteology as the study of bones (`osteology study bones`; `study of bones osteology`; `osteology definition`; `bone study terminology`) | new; no exact prior-FHB assignment — new addition. |
+| Q9,Q11,Q17,Q20,Q22,Q31,Q37 | `9 C`; `11 B`; `17 B`; `20 C`; `22 B`; `31 B`; `37 B` | Anatomical directional terms (`anterior ventral front body`; `posterior dorsal back body`; `proximal distal trunk`; `medial lateral median plane`) | new externally; exact prior-FHB directional-terminology reuse — duplicate. |
+| Q10,Q26 | `10 B`; `26 B` | Anatomical planes (`coronal plane anterior posterior`; `sagittal plane right left`; `median plane equal halves`; `anatomical planes body divisions`) | new externally; exact prior-FHB plane reuse — duplicate. |
+| Q12–Q13,Q21,Q30,Q33,Q36 | `12 B`; `13 B`; `21 C`; `30 C`; `33 C`; `36 B` | Named regional limb bones and phalange count (`humerus upper arm bone`; `fibula lateral lower leg`; `phalanges each hand 14`; `tarsals foot bones`) | new externally; exact prior-FHB regional-name/count reuse — duplicate. |
+| Q16,Q38 | `16 B`; `38 B` | Bone-matrix mineral and collagen composition (`bone matrix collagen fibers`; `bone mineral calcium`; `organic component bone matrix collagen`; `inorganic bone matrix calcium salts`) | new; no exact prior-FHB matrix-composition assignment — new addition. |
+| Q18 | `B` | Bone marrow as the site of blood-cell production (`bone marrow produces blood cells`; `bone marrow hematopoiesis`; `red bone marrow blood cell formation`; `bone marrow function`) | new externally; exact prior-FHB marrow-haematopoiesis reuse — duplicate. |
+| Q24,Q34 | `24 B`; `34 B` | Joint definition and movement function (`joint where two bones meet`; `joint allows movement`; `joint definition two bones`; `primary function joints movement`) | new externally; exact prior-FHB joint-definition/function reuse — duplicate. |
+| Q32 | `B` | Ball-and-socket joint as the greatest-range synovial type (`ball and socket greatest range motion`; `ball-and-socket joint multiaxial`; `synovial joint greatest range`; `ball socket joint movement`) | new externally; exact prior-FHB synovial-joint-type reuse — duplicate. |
+
+All **38 prompt occurrences** are assigned exactly once. They collapse source-first to **12
+handles**, and the query ledger reconciles as **12 × 4 = 48 required searches**. Exact-scope
+source disposition is **0 live / 0 pending / 12 new = 12**.
+
+Nine handles exactly reuse prior-FHB scope. Three survive, all externally new: skeletal-system
+support/protection/haematopoietic functions; osteology terminology; and bone-matrix mineral and
+collagen composition. The post-prior-FHB result is therefore **0 live / 0 pending / 3 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+38
+questions / +38 directly printed answers / +3 concepts = +0 live / +0 pending / +3 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1882 | 1618 | 379 | 66 | 78 | 235 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 78 + 235 = 379`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **68 selected
+inventory paths / 66 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`a4b7afc68554d0453044a6ef0eb9fa4d48fcbeb53f67004439082f60f014882d`. Pinned triage debt
+becomes **25 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`40 + 66 = 106`**.
+
+The next evidence-ranked substantive source is the single nine-page Histology `05 MCQs` path
+`Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - Epithelium.pdf`, SHA-256
+`786c3d2e96fa2c5d3fb34b470bbcb20fadf6182e05d25c72ec43ceca35bcfdd0`.
+
+**BLOCKED — S1 cannot be approved:** 68 selected source paths remain untriaged.
