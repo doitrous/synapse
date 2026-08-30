@@ -4760,3 +4760,155 @@ native-text pages; SHA-256
 103/Anatomy/Theoretical/Lower Limb/Lec 2 - Medial Compartment of Thigh & Gluteal Region 1,
 2/`. Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue
 update, import or source copy was created.
+
+## Family 41 — Tier-4 medial-thigh lecture interactive-question gate
+
+### Source identity, authority and full boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_8bd8d156f885aecec812` |
+| File / SHA-256 | `Medial Compartment Of Thigh.pdf` / `8bd8d156f885aecec812b9c00a42dbaf84ab2e1601779fdbc3dbe732640c788e` |
+| File boundary | 4,732,560 bytes · unencrypted PDF · 56 physical native-text pages · 720 × 540 pt |
+| Manifest placement | `HU-LCS-103` · Anatomy · Theoretical · tier 4 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Theoretical/Lower Limb/Lec 2 - Medial Compartment of Thigh & Gluteal Region 1, 2/Medial Compartment Of Thigh.pdf` |
+| Visible provenance | p. 1 prints `Dr. Eman El Sawaf`, `Anatomy & Embryology Department`, `Faculty Of Medicine`, and `Capital University (Formerly Helwan)`; p. 2 prints `Locomotor Module`, `Anatomy`, and `Lower Limb` |
+| Authority finding | Direct local Helwan-labelled tier-4 teaching evidence. It is not a sitting paper, station sheet, response form, department question bank or official answer key; the two embedded `Interactive Question` slides are formative lecture evidence. |
+
+The SHA-256, byte count and 56-page boundary were recomputed and match the manifest. All 56
+pages were rendered at 140 dpi and read against the native text layer. Pages 1–2 are
+provenance/title, pp. 3–4 are lower-limb orientation teaching, pp. 5–6 are objectives and
+contents, pp. 7–37 are instructional material, p. 38 is the first interactive prompt, pp.
+39–53 return to teaching, p. 54 is the second interactive prompt, p. 55 is references and p.
+56 is the closing slide.
+
+The full-source gate finds exactly **two complete printed prompt occurrences** and **zero
+printed keys**. Page 38 asks `List the muscles which adducts the hip joint.` as an open
+prompt with no answer line, response field or answer reveal. Page 54 asks `Concerning the
+cutaneous innervation of the thigh, the obturator nerve supplies which one of the
+following?` with four choices: `a. The anterior aspect.`, `b. The posterior aspect.`, `c.
+The medial aspect.`, and `d. The lateral aspect.` All four choices are visibly unmarked.
+The preceding teaching is not converted into a key: pp. 31–37 and p. 53 teach medial-thigh
+actions before the p. 38 prompt and pp. 46–47 and p. 53 teach obturator cutaneous supply
+before p. 54, but none is an answer reveal, keyed copy, coloured/underlined option or
+correctness convention tied to the question. The numbered attachment locators on pp. 13 and
+17 are declarative teaching diagrams whose labels follow on later slides, not assessment
+instructions or blanks. No other imperative/interrogative prompt, response area, option set,
+answer line, mark allocation or answer reveal occurs anywhere in the source.
+
+### Complete teaching-slide and assessment-boundary inventory
+
+The lecture's figures and labelled diagrams remain parts of their tier-4 theoretical teaching
+compositions; they are not promoted into the tier-5 practical plate/mapping ledger.
+
+| Physical pages | Source-first instructional compositions | Slide occurrences |
+|---:|---|---:|
+| 3–4 | lower-limb major-bone and regional orientation | 2 |
+| 7–8 | thigh definition and compartment overview | 2 |
+| 9–12 | medial-compartment muscles, layers and gracilis relation | 4 |
+| 13–16 | medial-thigh muscle origins | 4 |
+| 17–28 | medial-thigh muscle insertions and muscle-specific attachment summaries | 12 |
+| 29–37 | nerve supply, actions and medial-thigh OINA summaries | 9 |
+| 39–42 | adductor-canal definition, extent, boundaries and contents | 4 |
+| 43–47 | obturator-nerve origin, course and branches | 5 |
+| 48–52 | obturator-artery origin, course and branches | 5 |
+| 53 | medial-compartment summary | 1 |
+| **Total** | **tier-4 instructional compositions** | **48** |
+
+The **48 content-slide occurrences are 48 source-distinct teaching compositions**. Some
+base skeleton, muscle, nerve and vessel illustrations recur, and pp. 32–33 share an action
+scope, but their complete layouts, text layers and/or illustrative purpose differ. SHA-256
+comparison of all 56 rendered complete pages found no exact full-page copy to collapse. The
+source boundary is therefore **48 teaching compositions / 2 ordinary formative questions /
+0 practical or station prompts / 0 printed assessment keys / 0 assessment residues**.
+Because this is theoretical material, its instructional figures add **0 practical plates,
+0 practical label mappings and 0 practical residues** to the separated tier-5 ledger.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 48 compositions consolidate to nine source-level theoretical teaching scopes. Page 53's
+summary supports existing scopes without being counted more than once in the physical-slide
+total.
+
+| Theoretical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `lower-limb-bones-and-regions-orientation` · pp. 3–4 | lower limb major bones; lower limb regions; femur tibia fibula patella; gluteal thigh leg foot regions | no direct live/pending complete-scope hit; accepted Family-30 bones evidence owns the skeletal subset, but no accepted prior handle owns the combined bone-and-region orientation — new |
+| `thigh-definition-and-compartments` · pp. 7–8 | thigh definition boundaries; thigh compartments; anterior medial posterior thigh compartments; thigh extends hip to knee | no direct live/pending same-scope hit; accepted Families 31, 32 and 39 jointly own the source's regional and compartment subset — prior LCS reuse |
+| `medial-thigh-compartment-layers` · pp. 9–12 | medial compartment thigh layers; adductor compartment layers; pectineus adductor longus anterior layer; adductor brevis middle layer | no direct live/pending same-scope hit; exact accepted Families 5 and 32 handle — prior LCS reuse |
+| `medial-thigh-muscle-origins` · pp. 13–16 | medial thigh muscle origins; adductor longus brevis gracilis origins; pectineus obturator externus origins; adductor magnus pubic ischial origins | no direct live/pending same-scope hit; exact accepted Family-32 scope — prior LCS reuse |
+| `medial-thigh-muscle-insertions` · pp. 17–28 | medial thigh muscle insertions; adductor longus brevis femur insertions; adductor magnus adductor tubercle insertion; gracilis pectineus obturator externus insertions | no direct live/pending same-scope hit; exact accepted Family-32 scope — prior LCS reuse |
+| `medial-thigh-muscle-innervation-and-actions` · pp. 29–37, 53 | medial thigh muscle innervation action; obturator nerve medial compartment muscles; adductor muscles hip actions; pectineus gracilis obturator externus actions | external component hits do not own the complete composite; accepted Family-1 muscle OINA handles jointly own the printed supply/action subset — prior LCS reuse |
+| `adductor-canal` · pp. 39–42 | adductor canal anatomy; Hunter canal boundaries; subsartorial canal contents; sartorius vastus medialis adductor longus magnus | pending Kasr material owns the walls and contents; exact accepted Families 1, 5 and 20 handle — prior LCS reuse with inherited pending overlap |
+| `obturator-nerve-roots-and-distribution` · pp. 43–47 | obturator nerve origin course branches; L2 L3 L4 obturator nerve; obturator nerve anterior posterior divisions; obturator nerve medial thigh cutaneous | pending Kasr/AU material owns roots, course, branches and sensory territory; exact accepted Families 1, 2 and 20 handle — prior LCS reuse with inherited pending overlap |
+| `obturator-artery-origin-course-and-branches` · pp. 48–52 | obturator artery origin course branches; internal iliac obturator artery; obturator artery obturator canal; acetabular branch obturator artery | external component hits own the source facts; accepted Family-5 auxiliary artery scope owns the same origin/course subset — prior LCS reuse with inherited pending overlap |
+
+All **9 × 4 = 36** required teaching-scope searches completed across live state,
+`docs/import-ready`, `docs/questions-import-ready` and all source-import roots. At the
+complete-scope level, the direct external result is **0 live / 3 pending / 6 new**; exact
+accepted-prior comparison removes five apparent additions, leaving **eight prior-LCS reuses
+/ one new theoretical teaching scope**. These declarative scopes do not themselves enter
+the eligible tested-concept count, and no theoretical scope enters the practical-teaching
+scope counter.
+
+### Assessment handles, searches and overlap result
+
+The two prompts are source-distinct and do not collapse semantically. Each received four
+required query forms across the same live/pending and source-import roots (**2 × 4 = 8
+invocations**), followed by direct record-level scope review.
+
+| Source prompt | Handle / four required queries | Search / prior-LCS result | Disposition |
+|---|---|---|---|
+| p. 38 hip-adductor listing request | `hip-adductor-muscles` · muscles adduct hip; hip adductor muscles; adduction hip muscles; adductor longus brevis magnus gracilis | pending AU/Kasr material owns the medial-compartment muscle/adduction set; accepted prior LCS OINA handles test individual muscles but no prior eligible prompt asks for the collective list | new-to-eligible LCS; pending; MSK/ANA |
+| p. 54 obturator cutaneous-territory MCQ | `obturator-nerve-medial-thigh-cutaneous-territory` · obturator nerve cutaneous thigh; cutaneous innervation medial thigh; obturator nerve medial aspect thigh; medial thigh skin nerve supply | pending Kasr/AU records own the medial-thigh sensory territory; this is a narrower repeat of accepted Family-1 `obturator-nerve-roots-and-distribution` assessment evidence | prior eligible-LCS reuse; inherited pending |
+
+The source-level assessment result is **0 live / 2 pending / 0 new**. The first source handle
+is new to the eligible LCS tested-concept ledger and adds one pending concept; the second is
+already counted and adds only its newly observed prompt occurrence. Their printed source
+wording remains the evidence; no answer is inferred from pending records or earlier lecture
+slides.
+
+| Family-41 evidence bucket | Prompt occurrences | Printed keys | Source handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| New eligible-LCS tested scope | 1 | 0 | 1 | 1 | 0 | 1 | 0 |
+| Prior eligible-LCS reuse | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
+| **Family 41 assessment evidence** | **2** | **0** | **2** | **1** | **0** | **1** | **0** |
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 41 | Family 41 delta | After Family 41 |
+|---|---:|---:|---:|
+| Eligible observed question records | 449 | +2 | 451 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 206 | +1 | 207 |
+| Question live / pending / new | 9 / 51 / 146 | +0 / +1 / +0 | 9 / 52 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 251 verified minimum | +0 | 251 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 1,771 verified minimum | +0 | 1,771 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 91 | +0 | 91 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 55 | +0 / +0 / +0 | 0 / 0 / 55 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. Arithmetic checks are `48 = 2 + 2 + 4 + 4 + 12 + 9 + 4 + 5 + 5 +
+1`, `2 prompts = 2 source handles`, `1 new eligible + 1 prior eligible = 2`, `0 + 2 + 0 =
+2` source dispositions, `449 + 2 = 451`, `242 + 0 = 242`, `206 + 1 = 207`, `9 + 52 +
+146 = 207`, `251 + 0 = 251`, `1,771 + 0 = 1,771`, `91 + 0 = 91`, and `55 + 0 = 55`.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-40
+remainder leaves **35 rank-4/rank-5 path instances / 33 unique hashes**. The Family-40
+method was reproduced first: its 36/34 row sets recomputed to
+`f8d66ea1a4cafc4dac50793a5ff7d4aea9e53fd17731f45adf8604cbcfda101c` and
+`6d6e8826dff9cbed6b80051ea84dc273ccb22adce7efdb9e2c8a17fe153af8d6`.
+For the exact post-Family-41 manifest remainder, SHA-256 over the bytewise path-sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1dbd85a53f419c225b4375271eaa34be43f2fc0fcba926dd117b79d4ca25ca6d`; SHA-256 over the
+bytewise sorted unique `sha256<LF>` rows is
+`ab47730874ec211edeeb051115a8df87ac0c5c5fa1d1abadeda8a80923cafec3`.
+The next manifest-order gate is tier-4 Anatomy theoretical source
+`src_0e30d32f2bc49e81e838`, `posterior compartment of thigh and POP. fossa Dr Sarah .pdf`
+(18 native-text pages; SHA-256
+`0e30d32f2bc49e81e838d8eaae5e461b648951e17f3bc8f52ee4ecbf45a67d2a`) under `Year 1/LCS
+103/Anatomy/Theoretical/Lower Limb/Lec 3 - Posterior Compartment of Thigh & Popliteal
+Fossa/`. Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue
+update, import or source copy was created.
