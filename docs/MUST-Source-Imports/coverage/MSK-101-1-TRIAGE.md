@@ -1739,3 +1739,52 @@ Removing the forty-six processed unique hashes leaves **56 selected inventory pa
 The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Upper Limb MCQ by Dr.JALAL.pdf`, SHA-256 `af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80`, 62 pages.
 
 **BLOCKED — S1 cannot be approved:** 56 selected inventory paths / 55 unique hashes remain untriaged.
+
+## Completed source — Upper Limb MCQ by Dr.JALAL
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Upper Limb MCQ by Dr.JALAL.pdf` | `af2abdf80d166dc398aea16849a8a9871608b547e0d80c75ac8dddadaee23f80` | 62 | empty-text audit sample | pages 1–62 rendered and read | Image-only scan headed `Self assessment upper limb`; iOS 14.4/Quartz metadata dates the scan to 14 January 2021. No printed author, institution, department, examiner, sitting, marks or official-key claim appears. Filename-only Dr.JALAL attribution and scan metadata do not authenticate a MUST/MSK examination or faculty key. |
+
+Source inspected: :codex-file-citation{path="/Users/doitrous/Desktop/MUST/Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - Upper Limb MCQ by Dr.JALAL.pdf" purpose="source"}
+
+### Exact MCQ, fill-in, matching, written, practical, image and key boundary
+
+Pages 1 and 53 are covers; page 30 is visually blank. The remaining pages contain five assessment blocks with complete printed answer material. Matching rows and clinical-case subprompts are separately numbered and require separately recoverable responses, so each is counted as one occurrence.
+
+| Assessment block | Conventional MCQ | Fill-in | Matching rows | Written clinical-case subprompts | Prompts | Printed answers |
+|---|---:|---:|---:|---:|---:|---:|
+| Pectoral region, back, shoulder, axilla and brachial plexus, pp.2–12 | 43 | 20 | 10 | 5 | 78 | 78 |
+| Arm, front of forearm, median and ulnar nerves, pp.13–29 | 54 | 28 | 30 | 12 | 124 | 124 |
+| Back of forearm, radial nerve and joints, pp.31–52 | 67 | 45 | 25 | 35 | 172 | 172 |
+| `Book MCQ's (upper limb)`, pp.53–56 | 22 | 0 | 0 | 0 | 22 | 22 |
+| Arteries of upper limb, pp.57–62 | 16 | 4 | 5 | 15 | 40 | 40 |
+| **Total** | **202** | **97** | **70** | **67** | **436** | **436** |
+
+There are no practical stations, diagrams, radiographs, photographs, standalone image-identification prompts, teaching-only pages, answer-only pages or unkeyed prompts. Answer tables and inline model answers are counted once per prompt, including where a question and answer share a page.
+
+Printed wording and keys remain source observations without academic correction. Preserved anomalies include first-block MCQ Q9 keyed as `All wrong`; second-block MCQ Q16 keyed `B & C`; third-block MCQs Q35 and Q62 keyed `B & C` and `A & D`; a stray `x` before Book MCQ Q4; and the printed phrase `medial side of the 4 arm` in the final problem answer.
+
+### Source-first collapse and exactly-four-search gate
+
+The mixed-format sequence and block arrangement establish a distinct source prompt family; repeated topical stems and individual overlap with prior banks collapse only at the concept layer. Shoulder/axillary muscle and joint anatomy, brachial-plexus/terminal-nerve anatomy and lesions, arm/forearm/hand anatomy, and upper-limb vessels map completely to the completed Upper Limb Anatomy H1–H5 family.
+
+No genuinely new handle survives prior-MSK reconciliation. The exactly-four-search gate resolves as **`0 new handles × 4 = 0 new searches`**. The prior Anatomy family's **5 accepted handles / 20 completed searches** are cross-referenced. Source-level disposition is **0 live / 0 pending / 0 post-prior concepts**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its delta is **+436 questions / +436 answer observations / +0 concepts**. Cumulative arithmetic is **5036 + 436 = 5472 questions**, **4929 + 436 = 5365 answers**, and **36 + 0 = 36 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| MSK 101-1 | 5472 | 5365 | 36 | 0 | 1 | 35 | TBD |
+
+No module ID, content record, answer reconstruction or correction, source authority claim, placement or catalogue entry was created.
+
+### Remaining sources / blocker
+
+Removing the forty-seven processed unique hashes leaves **55 selected inventory paths / 54 unique SHA-256s**. Their sorted, newline-joined hash checksum is `f95fdf425f4bae4af1e1f1ba6ed4efb0c0305d27126fd9d72af1f924da417999`. Remaining audit-review debt is 23 substantive-text / 7 sparse-text / 9 empty-text / 13 audit-not-found / 3 audit-extract-failed rows, and unique-hash accounting is **`47 + 54 = 101`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Anatomy/05 MCQs/MCQs - anatomy MSK written.pdf`, SHA-256 `d1f9cca458e5857a4e7bccdc75e4f2618a5141e91a5f15652979604e04267a45`, 8 pages.
+
+**BLOCKED — S1 cannot be approved:** 55 selected inventory paths / 54 unique hashes remain untriaged.
