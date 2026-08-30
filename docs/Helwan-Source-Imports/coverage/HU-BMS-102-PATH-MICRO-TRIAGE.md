@@ -11148,3 +11148,106 @@ bytes, 60 native-text 791×444.937-point landscape pages. Its manifest Notes-and
 absent, while the unique SHA-matching local carrier is under `Pathology / Theoretical`; resolving
 that placement mismatch, its visible Helwan/Dr Enas Megahed Elhosary cover, and its complete
 teaching/annotation versus prompt/key boundary are the exact next-source blockers.
+
+## Family 104 — Helwan Inflammation 2 lecture with terminal CBL reveal
+
+### Source identity, SHA-resolved placement mismatch, complete render boundary, and provenance
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_45d13e02d665b6b7efdb` · `Inflammation lecture 2.pdf 1.pdf` |
+| SHA-256 / size | `45d13e02d665b6b7efdb0606af0ace9c59c5810dfa5c28026388342f1ad8a860` · 19,181,794 bytes |
+| Manifest/local placement mismatch | Manifest records `Pathology / Notes and Summaries / Inflammation lecture 2.pdf 1.pdf`, but that path is absent. The unique SHA-matching local carrier is under `Pathology / Theoretical`; identity is anchored to the hash rather than inferred from the similar filename. |
+| Format / complete render boundary | 60 native-text landscape pages. Pages 1–8, 10–29, and 31–60 are 791×444.937 points; pages 9 and 30 are taller 791×558.961-point handwritten inserts. All 60 rendered at 150 dpi into non-empty images: 58 at 1648×927 pixels and two at 1648×1165; every render was visually read, and pages 47, 58, and 59 were reopened at original detail. |
+| Native layer | 859 words / 9,609 bytes extracted across the complete PDF. Numerous gross, clinical, histology, and handwritten pages are image-heavy or text-free, so the renders establish the complete boundary. |
+| Visible provenance | Page 1 visibly prints `Inflammation 2`, `Dr/ Enas Megahed Elhosary`, `Lecturer of Pathology`, `Faculty of Medicine`, and `Helwan University`. No module code, academic year, lecture date, or assessment sitting is printed. |
+| Metadata caution | Quartz metadata records `iOS Version 18.3.2 (Build 22D82)` and March 17, 2025 creation/modification timestamps. These are file-production fields, not proof of lecture delivery date, academic year, or sitting. |
+| Authority | Helwan-authored tier-6 annotated lecture material with one terminal CBL teaching MCQ and source-native answer reveal. It is not a dated exam, candidate paper, response sheet, or official exam key. |
+
+### Complete page-first teaching, callout, practical-image, prompt, and key inventory
+
+| Pages | Complete visible source content | Prompt / answer ruling |
+|---:|---|---:|
+| 1 | `Inflammation 2` Helwan/instructor cover | provenance only; **0 / 0** |
+| 2 | Objectives and intended learning outcomes | teaching objectives; **0 / 0** |
+| 3–5 | Suppurative versus nonsuppurative acute inflammation; pyogenic organisms; localized/coagulase versus diffuse/fibrinolysin-hyaluronidase branches | completed taxonomy and annotated causal map. Page 5's `Why??` is resolved in-place by the enzyme branches and handwritten organism examples; excluded teaching transition, **0 / 0** |
+| 6–13 | Abscess definition/cause/site, completed pathogenesis diagrams, handwritten pus-formation sequence, pus composition, clinical signs, fate, and repeated localized/diffuse map | declarative teaching, supplied clinical/gross labels, and repetition; **0 / 0** |
+| 14–23 | Furuncle/carbuncle definitions and images; cellulitis definition/pathogenesis, clinical and histology plates; diffuse forms; abscess-versus-cellulitis comparison; lymphatic/blood spread and healing complications | completed teaching, annotations, comparison table, and image labels; no practical identification request |
+| 24–36 | Nonsuppurative taxonomy and completed catarrhal, membranous, serofibrinous, serous, fibrinous, hemorrhagic, necrotizing, and allergic definitions/examples; handwritten summary; fully supplied clinical/gross image plates | declarative teaching and labeled plates; **0 / 0** |
+| 37–46 | Chronic-inflammation objectives, definition, causes, morphology, cells, histology, nonspecific/granulomatous split, granuloma definition/types/disease table, and fate | completed teaching, comparison, and image labels; **0 / 0** |
+| 47 | `Q1` asks why sarcoidosis and tuberculosis must be differentiated, immediately followed by the corticosteroid-risk explanation; `Q2` asks why chronic inflammation is feared, immediately followed by destruction/fibrosis, malignancy, and renal-failure consequences | **2 excluded instructor/audience teaching callouts / 0 assessment prompts / 0 answer occurrences**. Both are answered in the same supplied panel and provide no candidate-response space. |
+| 48–57 | Completed gross/histology examples of tuberculous caseating granuloma, noncaseating/foreign-body giant cells, sarcoidosis, bilharziasis, silicosis, and asbestosis | teaching/practical-image material with diagnosis and feature labels already supplied; **0 / 0** |
+| 58 | CBL case: 65-year-old man with chronic dyspnea/cough, multiple lung nodules, elevated ESR/CRP, and biopsy showing lymphocytes, macrophages, multinucleated giant cells, and caseation; asks the most probable lung pathology among asbestosis, bilharziasis, sarcoidosis, and tuberculosis | **1 prompt / 0 answer**; unkeyed first occurrence |
+| 59 | Literal repeat of the page-58 CBL stem and options, with a red `d) Tuberculosis.` reveal panel | **1 copied prompt / 1 printed teaching-answer occurrence**; exclude repeat from retention |
+| 60 | `Thank you` closing image | non-assessment closing residue |
+
+Highlights, underlines, circles, arrows, handwritten expansions, and colored image markings
+otherwise identify supplied structures, explain mechanisms, or mark teaching emphasis. They do
+not create a deck-wide answer convention. There is no candidate instruction, mark allocation,
+written-response frame, blank-completion task, practical station, student response, or separate
+official key.
+
+The source contributes **2 raw prompt occurrences / 1 printed teaching-answer occurrence / 1
+unkeyed prompt occurrence / 0 prompt-like residues**. Pages 58–59 are one literal reveal pair, so
+the second appearance is a within-source copy and the pair retains **1 question record / 1 source-
+distinct tested handle**. The two page-47 teaching callouts remain outside those totals.
+
+### Source-first handle, exactly-four-search ledger, and prior-BMS adjudication
+
+| Ref | Source-tested scope / printed teaching answer | Handle / prior assignment |
+|---|---|---|
+| F104-Q01a,b | Chronic pulmonary nodules with lymphocyte/macrophage/multinucleated-giant-cell granulomas and caseation identify tuberculosis; D | `tuberculosis-caseating-granuloma-necrosis` · exact Family 7 Q24/Q28 reuse; Family 73 Q12 already collapses to the same association |
+
+The one accepted handle received exactly four fresh source-first searches across live state, every
+pending import root, and prior BMS-102 Families 1–103: **4 required searches**.
+
+| Handle | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `tuberculosis-caseating-granuloma-necrosis` | `tuberculosis caseating granuloma necrosis`; `caseation necrosis characteristic TB`; `caseous granuloma diagnosis`; `tuberculous necrosis type` | pending exact-scope caseation record (`CON-FND-5B3B6BA12670C7`); no live exact-scope owner | exact Family 7 reuse; Family 73 is a later reuse, while Family 86's macrophage/granuloma mechanism is adjacent but not needed for the collapse |
+
+External disposition is **0 live / 1 pending / 0 no same-scope**. One exact prior-BMS reuse leaves
+`1 - 1 = 0` concept additions.
+
+### Family-104 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 104 | Auxiliary cumulative (Families 12–104) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 2 | 866 | 765 | 1,631 |
+| Printed teaching-answer occurrences | 1 | 483 | 405 | 888 |
+| Unkeyed prompt occurrences | 1 | — | — | tracked separately |
+| Excluded instructor/audience callouts | 2 | — | — | outside prompt totals |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 1 | 806 | 552 | 1,358 |
+| Source-distinct tested handles / required searches | 1 / 4 | 730 / — | — | — |
+| External live / pending / no same-scope | 0 / 1 / 0 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 1 | — | — | Family 7 |
+| Cross-family concept delta | +0 | +499 over primary | 372 | `372 + 499 = 871` |
+| **Distinct tested concepts** | **+0** | **499 auxiliary additions** | **372** | **871** |
+
+The checksum closes: `1 unkeyed prompt + 1 keyed reveal copy = 2` raw occurrences; the reveal
+supplies 1 printed answer; `2 - 1 copied repeat = 1` retained record and handle; searches are `1 ×
+4 = 4`; external disposition is `0 + 1 + 0 = 1`; and concept arithmetic is `1 - 1 prior exact
+reuse = 0`. Auxiliary cumulative arithmetic is `864 + 2 = 866` prompts, `482 + 1 = 483`
+answers, `805 + 1 = 806` retained records, `729 + 1 = 730` handles, and `499 + 0 = 499`
+concept additions. All eligible arithmetic is `765 + 866 = 1,631`, `405 + 483 = 888`, `552 +
+806 = 1,358`, and `372 + 499 = 871`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**866 / 483 / 806 / 730 / +499**; and all eligible evidence is
+**1,631 / 888 / 1,358 / 871**. Family 104 contributes auxiliary teaching-CBL evidence only. It
+cannot establish a dated sitting, recurrence, mark weight, official exam key, student response,
+readiness, or claims status.
+
+### Exact next debt after Family 104
+
+`src_45d13e02d665b6b7efdb` is exhausted across all 60 pages: every placement/provenance field,
+teaching slide, handwritten annotation, completed image label, excluded callout, CBL prompt,
+answer reveal, copied occurrence, retained record, handle, required search, prior reuse, and
+arithmetic term is assigned once, with **zero source remainder** and no Family-104 blocker. The
+exact next manifest record is tier-6 `src_ea64baf0d1518b4eb6a0` ·
+`Inflammation-lecture-1 1.pdf`, SHA-256
+`ea64baf0d1518b4eb6a0eb0eec708a090879c0ba8e2b2b2ba9055b3dd7a38baf`, 14,623,155 bytes,
+43 native-text 791×445-point landscape pages. Its manifest Notes-and-Summaries path is absent,
+while the unique SHA-matching local carrier is under `Pathology / Theoretical`; resolving that
+placement mismatch, visible Helwan/Dr Enas Megahed Elhosary provenance, and the complete
+teaching/annotation versus prompt/key boundary are the exact next-source blockers.
