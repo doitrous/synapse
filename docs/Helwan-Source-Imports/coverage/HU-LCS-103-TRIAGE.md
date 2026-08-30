@@ -13447,3 +13447,90 @@ SHA-256 `056fbb290eaa8d588eb707800841ff07298c00ebad2b33b6a205d1426bd1035a`).
 It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
 NOT APPROVED`:** 112 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 119 — Tier-3 external BIOTEST keyed Lower-Extremity MCQ excerpt
+
+### Exact identity, authority and complete 13-page native boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_056fbb290eaa8d588eb7` / `056fbb290eaa8d588eb707800841ff07298c00ebad2b33b6a205d1426bd1035a` |
+| File / boundary | `MCQs - External MCQs Anatomy MCQs Lower limb.pdf` · 1,841,274 bytes · untagged, unencrypted native-text PDF · 13 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Questions/MCQs · tier 3 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Questions/MCQs/MCQs - External MCQs Anatomy MCQs Lower limb.pdf` |
+| Visible provenance | Every page prints `BIOTEST, INC.` and `GROSS ANATOMY: LOWER EXTREMITY`. PDF metadata names author `Manal [ ASMA ]`, Hewlett-Packard scanning production, 8 May 2003 creation and 27 March 2021 modification. No page prints Helwan, LCS-103, a cohort, exam sitting or year. |
+| Authority finding | This is a keyed external BIOTEST lower-extremity question-bank excerpt. Manifest module placement establishes relevance, but not Helwan assessment or official-key authority. All governed occurrences remain external. |
+
+The assigned hash, byte size and 13-page boundary were recomputed and match. All 13 pages
+were rendered at 130 dpi, read visually at full-page resolution and checked against the
+native text layer. The source PDF itself was not changed.
+
+The uninterrupted assessment boundary is **100 external MCQ occurrences / 100 printed
+right-margin letter keys / 0 unkeyed occurrences**. Physical-page prompt/key counts close as
+`4 + 8 + 8 + 8 + 10 + 7 + 7 + 8 + 8 + 9 + 8 + 7 + 8 = 100`; each page has the same
+number of prompt occurrences and printed keys. The two-option true/false items on p. 5
+remain MCQs, not written prompts. There is no essay, fill-in, response blank or separate
+answer sheet, so written and unkeyed deltas are zero.
+
+The excerpt preserves source numbering only at selected transitions rather than on every
+stem: visible labels include `1454`, `1437`, `1421`, `1392`, `1371`, `1356`, `1360`,
+`1361`, `1340`, `1345`–`1347`, `1308`, `1298`, `1277`, `1281`, `1263` and `1264`.
+Their gaps and the p. 12 reversal from `1277` to `1281` are source evidence, not a basis for
+inventing missing prompts or reordering the pages. The p. 12 common-peroneal-nerve item has
+a visibly damaged or unreadable option A while its right-margin key prints `B`; p. 6 retains
+the source's typographic symbols and the phrase `hopping impossible`. All 100 printed keys
+are preserved without medical or editorial repair.
+
+There is no diagnostic image, radiograph, specimen, micrograph, station, apparatus task,
+masked label, learner-completed diagram or standalone declarative teaching section. The
+BIOTEST banner, punch holes and scan damage are page furniture, not plates. Teaching and
+practical deltas are therefore exactly zero, including **0 practical prompts / 0 plates / 0
+mappings / 0 residues / 0 practical keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The 100 occurrences collapse to **12 source-distinct tested handles**: femoral triangle and
+adductor canal; gluteal region and sciatic foramina; thigh-muscle actions and innervation;
+hip movements and pelvic stability; knee ligaments and lower-limb bone growth; lower-limb
+arteries and anastomoses; popliteal fossa and neurovascular relations; leg compartments and
+fibular nerves; ankle/foot joints and arches; plantar muscles and nerves; lower-limb
+cutaneous innervation; and gait mechanics and muscle insufficiency. Every occurrence is
+assigned once to one handle.
+
+Each handle received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **12 × 4 = 48 required search invocations**.
+Prior-external-first comparison finds all 12 already represented across Families 86, 94,
+103, 107–115 and 118. Accepted Families 39–48 independently own or corroborate the
+curricular lower-limb scopes, but cannot promote this BIOTEST excerpt into eligible Helwan
+evidence. Reconciliation is **12 prior-external reuses + 0 external additions = 12**; both
+external and eligible concept-state deltas are zero. Exact query and result ledgers are
+preserved at `tmp/pdfs/lcs103-family119/query-ledger.tsv` and
+`tmp/pdfs/lcs103-family119/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **850 observed questions / 560 printed keys-or-answers / 326
+distinct tested concepts = 12 live / 108 pending / 206 new**. The external-bank checkpoint
+changes from **4,254 / 4,112 / 221 = 12 / 135 / 74** to **4,354 external prompts / 4,212
+source keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**.
+Arithmetic is `4,254 + 100 = 4,354`, `4,112 + 100 = 4,212`, `221 + 0 = 221`, and
+`12 + 135 + 74 = 221`. Practical totals remain **7 prompts / 458 plates / 2,691 mappings /
+149 residues / 0 keys**, with scopes **0 live / 0 pending / 92 new**.
+
+This source hash occurs once in the Family-118 remainder. Removing its sole path leaves
+**111 all-rank path instances / 103 unique hashes**: tier 3 **29 paths / 26 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 118's prior checksums are
+`9aa5b01eb4b88f5acae1f42cca333ad05278dde5b2409963480729af0b206c30` (paths) and
+`ac336e53e61a71d403d0813ac458305f28e68a61aed4229a83e9c187b371ec11` (unique hashes).
+For the exact post-Family-119 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`cbcf6a2ac9e879afe23451bdbc43ae8d69ac9eea7c78a83aeae0e6738cd29174`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`bbb8e103cd8f2b844b181326bf7a6bfd3537dd51d1dec4500e7ddb69ed2c18a9`.
+
+The exact next tier-3 manifest-order debt is `src_366210bed41890ad4f68`,
+`MCQs - External MCQs Anatomy Question [Lower Limb].pdf` (3,722,929 bytes; 43 physical
+pages; SHA-256 `366210bed41890ad4f6881edef203edddfb6d2c13cf33f7ec1f28ed6def78ce9`).
+It remains unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE —
+NOT APPROVED`:** 111 tier-3/tier-6/rank-9 path debts remain. No download, ID, content
+record, catalogue update, import or source copy was created.
