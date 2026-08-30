@@ -6871,3 +6871,37 @@ Removing this pinned empty-text path and unique hash leaves **3 selected invento
 The exact next source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 2 FHB BLOOD (By Shahd).pdf`, SHA-256 `490caa766860aa63f08e52766335bc864d2c0c67a7010ae1cfbd701a2dcb851d`, 4 pages.
 
 **BLOCKED — S1 cannot be approved:** 3 selected source paths remain untriaged.
+
+## Completed source — Physiology lecture 2 FHB BLOOD (By Shahd)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 2 FHB BLOOD (By Shahd).pdf` | `490caa766860aa63f08e52766335bc864d2c0c67a7010ae1cfbd701a2dcb851d` | 4 | empty-text audit sample | pages 1–4 rendered and read | Samsung Electronics PDF export last modified 4 November 2025. The filename credits Shahd. The four pages are handwritten lecture notes with no institution, department, examiner, sitting, marks, assessment title or key authority; this is teaching material, not an official MUST examination, formative paper or key. |
+
+### Exact prompt, answer and teaching boundary
+
+Page 1 diagrams blood transport, defensive, haemostatic and homeostatic functions, then blood composition and plasma-versus-serum separation. Page 2 lists plasma water, inorganic ions, organic substances and dissolved gases. Page 3 explains erythrocyte identity, count variation, shape and flexibility. Page 4 covers RBC lifespan, haemoglobin breakdown, bilirubin/iron handling, haemolytic jaundice and haematocrit. All four pages are continuous explanatory notes.
+
+There is no numbered or unnumbered student question, response form, selected option, answer table, model answer, practical-identification prompt or written-exam section. The exact source boundary is therefore **0 assessment prompts / 0 printed answers or key observations / 0 prompt-matched recovered answers**.
+
+### Source-first handles, searches and prior-FHB dedupe
+
+Because the complete visual boundary contains no assessment prompt, there are **0 accepted source-first handles** and therefore **0 × 4 = 0 warranted corpus searches**. The teaching scopes reproduce completed prior-FHB blood, plasma, erythrocyte, turnover and haematocrit material, but teaching statements are not converted into tested concepts or used to infer questions. The source-level and post-prior concept results are both **0 live / 0 pending / 0 new**, so the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 8043 | 7626 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this pinned empty-text path and unique hash leaves **2 selected inventory paths / 2 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `b29a2f0f72b1e99bafed8ca448f79206b3812fc68d258243bfa2695f79c66709`. Pinned triage debt becomes **zero substantive-text / zero sparse-text / two empty-text** rows, and unique-hash accounting is **`104 + 2 = 106`**.
+
+The exact next source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology lecture 3 FHB BLOOD (By Shahd).pdf`, SHA-256 `6de1106a6b875c69f3d94467d1e5e51ae1895cb689e42daffb9bfe02e68af847`, 4 pages.
+
+**BLOCKED — S1 cannot be approved:** 2 selected source paths remain untriaged.
