@@ -6645,3 +6645,53 @@ Removing this one pinned sparse-text path and unique hash leaves **8 selected in
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/MCQs On Physiology(FHB) Of Blood midterm_Benahmed.pdf`, SHA-256 `5e7a3a7c3a890ac633e79f1c39d84445c3af117b1b5910fbdd266cf7a55aee24`, 31 pages.
 
 **BLOCKED — S1 cannot be approved:** 8 selected source paths remain untriaged.
+
+## Completed source — MCQs On Physiology(FHB) Of Blood midterm_Benahmed
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/MCQs On Physiology(FHB) Of Blood midterm_Benahmed.pdf` | `5e7a3a7c3a890ac633e79f1c39d84445c3af117b1b5910fbdd266cf7a55aee24` | 31 | substantive-text audit sample (pinned sparse-text extraction checkpoint) | pages 1–31 rendered and read | Microsoft Word 365 export created 12 November 2024, with metadata title `PHYSIOLOGY OF BLOOD`, subject `For MUST Students, Medicine`, and author `Youssef BenAhmed`. The cover attributes the work to Youssef Benahmed / Mucize Doctors and targets medicine students at Misr University for Science & Technology in 2024/2025. It prints no department, examiner, official sitting, marks or model-key authority, so it is a MUST-targeted student revision bank, not an official university examination or key. |
+
+### Exact prompt, answer and teaching boundary
+
+Page 1 is the cover. Pages 2–31 print Q1–Q150 as four-option MCQs with answer rows at the foot of each content page. The layout is normally five questions per page, with Q66–Q71 sharing page 15, Q72–Q75 on page 16, Q121–Q123 on page 26 and Q129–Q135 on page 28. Short correction/explanation notes attached to Q51, Q55 and Q150 are rationale, not extra prompts or answers; no practical-identification, essay or separate teaching section is printed.
+
+The exact boundary is **150 prompt occurrences / 150 printed key observations / 149 prompt-matched recovered answers**. Page 15 prints `71.C`; page 16 then prints `71.A 72.A 73.B 74.B` beneath prompts Q72–Q75. The second, conflicting `71.A` is retained as an unmatched printed key observation, Q72–Q74 retain their own labeled keys, and Q75 remains unkeyed. No numbering shift, answer inference or medical correction was made.
+
+### Source-first handles, four searches each, and prior-FHB dedupe
+
+All 150 prompts were assigned once across eleven source-first handles. Each handle received the four exact searches shown below across live, server, pending/import-ready and documentation evidence, for **11 × 4 = 44 searches**. The source is neither a byte duplicate nor a prompt-sequence duplicate of a completed source; its topic scopes reproduce completed FHB blood/body-fluid assignments.
+
+| Handle | Prompt scope (exactly four search phrases) | External / prior-FHB disposition |
+|---|---|---|
+| H1 | Q1–Q9, body-fluid compartments and homeostasis (`total body water intracellular extracellular`; `plasma volume extracellular fluid percent`; `interstitial fluid transcellular fluid`; `homeostasis internal environment`) | new externally; exact completed prior-FHB body-fluid reuse. |
+| H2 | Q10–Q18, blood volume, functions and composition (`blood volume percent body weight`; `blood functions transport defense hemostasis`; `plasma volume red cell volume`; `blood specific gravity viscosity`) | new externally; exact completed prior-FHB blood-composition reuse. |
+| H3 | Q19–Q35, plasma-protein classes, quantities and synthesis (`plasma proteins albumin globulin fibrinogen`; `normal plasma protein concentration grams`; `albumin synthesized liver molecular weight`; `alpha beta gamma globulins synthesis`) | new externally; exact completed prior-FHB plasma-protein reuse. |
+| H4 | Q36–Q60, plasma-protein roles, equilibrium and electrolytes (`plasma proteins colloid osmotic pressure`; `plasma proteins buffer transport immunity`; `plasma tissue protein equilibrium lymphatics`; `plasma electrolytes sodium chloride bicarbonate`) | new externally; exact completed prior-FHB protein-function/electrolyte reuse. |
+| H5 | Q61–Q71, erythrocyte count, structure and metabolism (`red blood cell biconcave disc count`; `erythrocyte membrane semipermeable potassium`; `red blood cells anaerobic glycolysis`; `carbonic anhydrase carbon dioxide transport erythrocyte`) | new externally; exact completed prior-FHB erythrocyte reuse. |
+| H6 | Q72–Q90, haemoglobin structure, types and concentration (`adult hemoglobin alpha beta chains`; `fetal hemoglobin higher oxygen affinity`; `hemoglobin concentration adult male female infant`; `hemoglobin heme globin molecular weight`) | new externally; exact completed prior-FHB haemoglobin/HbF reuse. |
+| H7 | Q91–Q110, haemoglobin oxygen binding, buffering and free plasma haemoglobin (`hemoglobin binds four oxygen molecules`; `hemoglobin oxygen affinity pH temperature 2,3-DPG`; `methemoglobin reductase ferrous iron`; `free plasma hemoglobin renal damage viscosity`) | new externally; exact completed prior-FHB haemoglobin-function reuse. |
+| H8 | Q111–Q123, erythrocyte lifespan, breakdown, iron transport and viscosity (`red blood cell lifespan 120 days spleen`; `heme breakdown bilirubin iron recycled`; `blood viscosity anemia polycythemia`; `transferrin transports iron ferritin storage`) | new externally; exact completed prior-FHB RBC-turnover/viscosity reuse. |
+| H9 | Q124–Q135, erythropoiesis sites, stages and hypoxic stimulus (`erythropoiesis formation red blood cells`; `fetal erythropoiesis liver spleen bone marrow`; `proerythroblast normoblast reticulocyte`; `hypoxia stimulates erythropoiesis erythropoietin`) | new externally; exact completed prior-FHB erythropoiesis reuse. |
+| H10 | Q136–Q145, erythropoietin source, action and therapeutic use (`erythropoietin glycoprotein kidney hypoxia`; `erythropoietin acts committed stem cells`; `erythropoietin chronic kidney disease anemia`; `erythropoietin increases red blood cell production`) | new externally; exact completed prior-FHB erythropoietin reuse. |
+| H11 | Q146–Q150, iron distribution, storage and deficiency (`body iron majority hemoglobin`; `ferritin iron storage liver spleen marrow`; `iron essential hemoglobin myoglobin catalase`; `iron deficiency anemia plasma iron`) | new externally; exact completed prior-FHB iron-metabolism reuse. |
+
+The source-level external split is **0 live / 0 pending / 11 new = 11 accepted handles**. Every handle collapses to completed prior-FHB assignments, so the post-prior result is **0 live / 0 pending / 0 new** and the cumulative concept delta is zero.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+150 questions / +149 prompt-matched answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7758 | 7341 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this final pinned sparse-text path and unique hash leaves **7 selected inventory paths / 7 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `5d105dd906de8e7ccabdb9a6585dbf015d7efe49717d6d87a91a8c9e8451ff96`. Pinned triage debt becomes **zero substantive-text / zero sparse-text / seven empty-text** rows, and unique-hash accounting is **`99 + 7 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/Physiology FHB101 Questions (Midterm).pdf`, SHA-256 `4b0c3b7ff8eef46a863234bb64b49154355991d4b32bb2e1b721011f7d2c05a0`, 51 pages.
+
+**BLOCKED — S1 cannot be approved:** 7 selected source paths remain untriaged.
