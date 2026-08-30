@@ -12713,3 +12713,89 @@ with **zero source remainder** and no Family-119 blocker. The exact next manifes
 one native-text 9828×22549.9-point giant portrait page under `Pathology / Notes and Summaries`.
 Its full-detail render/read, extreme-page geometry/native-text reality, visible provenance, and
 teaching-map versus prompt/key/annotation boundary are the exact next-source blockers.
+
+## Family 120 — Malak Sameh completed circulation mind map
+
+### Source identity, extreme-page render/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_b2a7008a71b901366946` · `circulation.pdf` under `Pathology / Notes and Summaries` |
+| SHA-256 / size | `b2a7008a71b901366946fdbb0aa12d9bbab043a4b96ab052582da8c2983a3f29` · 665,132 bytes |
+| Format / complete visual boundary | One native-text giant portrait page, 9828×22549.9 points. The complete page was rendered as a 1638×3759-pixel 12-dpi overview and six overlapping full-width 36-dpi detail tiles: five 4914×2100-pixel tiles plus a final 4914×1775-pixel tile. The tiles cover the full 11,275-pixel page height with overlap, and every branch was read at original detail; there is no page, crop, or visual remainder. |
+| Native-text reality | Coherent raw extraction contains 1,255 words / 9,703 bytes. Layout-preserving extraction contains the same 1,255 words, 51,696 bytes, and one page separator; its large whitespace reflects the extreme mind-map canvas rather than missing text. Extraction agrees with the rendered central title, branch labels, definitions, lists, and author line. The manifest's `native` label is accurate. The PDF has no form, JavaScript, encryption, custom metadata, user properties, or suspect objects. |
+| Visible provenance | The central node visibly reads `circulation`, and the map visibly attributes itself `BY:MALAK SAMEH`. No university, faculty, module code, instructor role, academic year, teaching date, or assessment sitting is printed. Folder placement supports BMS-102 pathology context but cannot elevate the source to a Helwan-authored assessment. |
+| Metadata caution | Metadata title `Xmind`, Chromium creator, Skia producer, and 13 April 2026 creation/modification timestamps describe file production only. They do not establish authorship, academic year, teaching event, or exam sitting. |
+| Authority | Named-author tier-6 pathology notes mind map. It is a completed teaching/reference object, not a candidate paper, written exercise, practical station, official key, or student response sheet. |
+
+### Complete branch-first teaching, prompt, key, practical, and annotation boundary
+
+| Complete map region | Visible content exhausted | Boundary ruling |
+|---|---|---|
+| Thrombosis and disseminated intravascular coagulation | Thrombus-versus-clot comparison; pathological intravascular-clot definition; endothelial injury, abnormal flow, and hypercoagulability; formation, risk factors, classifications, growth, and fate; DIC definition, main feature, bleeding mechanisms, and causes | Every heading is populated by its definition, mechanism, cause, type, or outcome. Completed teaching map; **0 prompts / 0 answers**. |
+| Embolism | Definition; venous and arterial thromboembolic routes and septic/aseptic effects; fat, amniotic-fluid, air, caisson, tumour, parasite, and foreign-body emboli | Completed taxonomy and route mapping; **0 / 0**. |
+| Edema, hyperemia, and congestion | Edema/effusion definitions, hydrostatic and colloid mechanisms, causes, generalized/localized types, nomenclature, morphology, and complications; hyperemia definition/gross and physiological/pathological types; congestion definition, acute/chronic and general/local types, morphology, lung, and liver changes | Completed definitions and mappings; **0 / 0**. |
+| Hemorrhage | Definition, traumatic/spontaneous causes, external/internal terms, vessel-size classification, and clinical significance | Completed teaching branch; **0 / 0**. |
+| Infarction and ischemia | Infarction definition, tissue and red/pale types, gross/microscopy, old and venous infarction, and kidney/intestine/lung examples; acute/chronic ischemia, causes, effects, and tissue sensitivity | Completed teaching branches; **0 / 0**. |
+| Shock and gangrene | Shock definition, types, signs, and compensated/decompensated/irreversible stages; gangrene definition and dry, wet, gas, diabetic, and strangulation types | Completed teaching branches; **0 / 0**. |
+
+Labels such as `Definition`, `Causes`, `Mechanism`, `Types`, `Morphology`, `Fate`, and
+`Classification` are filled organizational nodes, not interrogative stems or candidate commands.
+Likewise, `Subtopic 8`, `Subtopic 4`, and `Subtopic 1` are template/organizational residue rather
+than questions. Branch connectors, colored nodes, arrows, dots, underlines, the tiny stray mark in
+the hemorrhage branch, and the author label are layout/annotation only. There is no question mark,
+learner instruction, option set, blank, response space, mark allocation, unidentified practical
+image, student writing, correctness mark, or separate answer register.
+
+The exact source boundary is therefore **0 raw prompt occurrences / 0 source-supplied answer
+occurrences / 0 unkeyed occurrences / 0 prompt-like residues / 0 retained records / 0 source-
+distinct tested handles**. No practical task exists.
+
+### Zero search gate and prior-BMS adjudication
+
+Exactly four searches are required only for each accepted tested handle. Because the completed
+mind map yields **0 accepted handles**, the required and completed search count is exactly
+`0 × 4 = 0`; no empty search packet is fabricated. External disposition is therefore not
+applicable rather than a no-hit result.
+
+The teaching content overlaps extensively with the thrombosis, embolism, edema, congestion,
+hemorrhage, ischemia/infarction, shock, and gangrene material already exhausted in Families 2, 3,
+6, 94–97, 115–118 and related BMS-102 evidence. That overlap contains no newly tested wording in
+this source, so prior-BMS tested-handle reuse is **0** and cross-family concept delta is **+0**.
+
+### Family-120 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 120 | Auxiliary cumulative (Families 12–120) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 1,015 | 765 | 1,780 |
+| Printed/source-supplied answer occurrences | 0 | 596 | 405 | 1,001 |
+| Unkeyed prompt occurrences | 0 | — | — | none |
+| Prompt-like residues | 0 | — | — | none |
+| Retained question records | 0 | 955 | 552 | 1,507 |
+| Source-distinct tested handles / required searches | 0 / 0 | 853 / — | — | — |
+| External live / pending / no same-scope | not applicable | — | — | zero-handle gate |
+| Prior-BMS exact handle reuses | 0 | — | — | no tested handle |
+| Cross-family concept delta | +0 | +557 over primary | 372 | `372 + 557 = 929` |
+| **Distinct tested concepts** | **+0** | **557 auxiliary additions** | **372** | **929** |
+
+The checksum closes without remainder: `0 = 0 + 0`; retained records and tested handles are both
+zero; searches are `0 × 4 = 0`; and concept arithmetic is `0 - 0 = 0`. Auxiliary remains
+**1,015 / 596 / 955 / 853 / +557**, primary remains **765 / 405 / 552 / 372**, and all eligible
+evidence remains **1,780 / 1,001 / 1,507 / 929**. Family 120 cannot establish an assessment,
+official key, dated sitting, recurrence, mark weight, student response, readiness, or claims
+status.
+
+### Exact next debt after Family 120
+
+`src_b2a7008a71b901366946` is exhausted across its sole giant page: every visible provenance
+field, teaching branch, organizational label, annotation, prompt/key/practical exclusion, zero-
+search gate, prior-BMS relation, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-120 blocker. The exact next unprocessed manifest source object is tier-6
+`src_1059136f89381a32e2ad`, first carried as non-preferred-name twin
+`circulatory disturbance (1).pdf`, SHA-256
+`1059136f89381a32e2ad482853959f3242e9ab8dc40e39e4bdf4f9145f4fcf1f`, 865,496 bytes, eight
+native-text portrait A4 pages under `Pathology / Notes and Summaries`. The same SHA is also carried
+by the preferred twin `circulatory disturbance.pdf`; both paths must be reconciled as one exact
+object. Its full render/read, visible Dr Ahmed Hassan case/teaching provenance, metadata author/date
+caution, duplicate-carrier authority, and teaching/case/prompt/key boundary are the exact next-
+source blockers.
