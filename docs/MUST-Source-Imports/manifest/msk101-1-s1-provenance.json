@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "7e45a25147bd6317023d6aa0432fb3ab35bd48c5b1d54baabfb0debc2ff1419e",
-    "triageMarkdown": "42585f76071958f24f31ba075f60a74043d750980d33c70da769dac69910e5e4"
+    "readinessMarkdown": "5633cfa6628d26e6555bd4852d38c64853b68be0d3af9a1cf9cbb8fcea681b98",
+    "triageMarkdown": "232dfacaf6625c448f5e44b3b7f6342fe3b07b593b10d0b39e21f3bba7a106a5"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -123,6 +123,7 @@
       "bdf42a294dbb4b9fc3fff64d8addfac111d7ef5a7138bf01637fb86eed03ee2a",
       "bdffaee9c29c4cf36bc2323a231e5bfeab32a9df1fed5afbbb46f33623c19eec",
       "be5a40228d1681591909501b64f819ddf90bce0e0d98fcc2fafd4571391cf2a4",
+      "bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f",
       "c07f6938685a48b928351a1ecf95efff4492a09c8be7f043d9247ee425584f64",
       "c1a046c99016b3b7b6275e5ded280b1588e7eebfef02575d6f8d9c22a6666bdb",
       "c3ba0c9549deb3cfd3331163bfc08a6537796638b6802de936122c73dcf08dfb",
@@ -149,7 +150,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 97
+    "uniqueSha256": 98
   },
   "completedSourceCoverage": [
     {
@@ -3168,6 +3169,40 @@
         "handwritten spelling, bilingual mnemonics and selective anatomy claims remain uncorrected source observations",
         "already labeled diagrams and the terminal motivational quotation are not manufactured into assessment prompts"
       ]
+    },
+    {
+      "sha256": "bf3712a9218a5620df0175cd8ca7aa893586dede5d302861c22a7f14f1715f1f",
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "teachingPages": "1",
+      "namedMuscleProfiles": 2,
+      "tricepsProfiles": 1,
+      "articularisCubitiInsetProfiles": 1,
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "teachingPrompts": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "filename-attributed Roaa handwritten teaching note with Notes title metadata, produced through iOS 17.5.1 Quartz on 28 October 2024; no visible byline, institution, department, examiner, sitting, marks or official-key claim appears",
+      "boundaryDisposition": "one fully populated teaching page presents a labeled posterior-arm and triceps diagram with its three heads, origins, insertion, action and radial-nerve branches, plus an articularis-cubiti inset with supplied insertion, nerve and action; no blank label, response instruction, objective, written, practical, image-identification, answer-only, keyed or source-unkeyed assessment material exists",
+      "priorCarrierComparison": {
+        "disposition": "no assessment prompt or candidate handle exists; source-first collapse stops before prior-MSK search and the exactly-four-search gate resolves to zero"
+      },
+      "preservedSourceDefects": [
+        "filename attribution is not promoted to visible authorship",
+        "metadata title spelling Psterior and handwritten spelling, capitalization and selective anatomy claims remain uncorrected source observations",
+        "the already labeled diagram and articularis-cubiti inset are teaching aids and are not manufactured into practical prompts"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3179,20 +3214,20 @@
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 4,
-    "uniqueSha256": 4,
-    "sortedNewlineSha256": "b07502a2489210bc57821e17dfad58803518d184733a48714076071a05c5da1d",
+    "inventoryMetadataRows": 3,
+    "uniqueSha256": 3,
+    "sortedNewlineSha256": "4c3661e98932e741e1312daa04a119a99c50f952e5d16cbc57293c9d0d0479a0",
     "auditSampleStatusCounts": {
-      "audit-not-found": 4
+      "audit-not-found": 3
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 4
+    "audit-not-found": 3
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 97,
-    "remainingUniqueSha256": 4,
+    "processedUniqueSha256": 98,
+    "remainingUniqueSha256": 3,
     "processedPlusRemaining": 101
   }
 }
