@@ -11496,3 +11496,77 @@ The exact next tier-3 manifest-order debt is `src_0a0fbd11416063bdc824`,
 unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
 APPROVED`:** 133 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
 catalogue update, import or source copy was created.
+
+## Family 98 — Tier-3 direct LCS Physiology keyed bone-MCQ deck
+
+### Exact identity, provenance and complete boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_0a0fbd11416063bdc824` / `0a0fbd11416063bdc82421118c26579a518eca4b0ae9676bfc78ecabb79156ab` |
+| File / boundary | `MCQs - MCQ bone.pdf` · 226,916 bytes · unencrypted tagged PDF · 3 native-text A4 pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Questions/MCQs · tier 3 |
+| Visible provenance | All pages print `Physiology`, `Questions` and `DR . El-Sawy`; p. 1 additionally prints `MCQ` and `BONE`. Metadata author is `Hossam mohammed`; creator and producer are Microsoft Word LTSC. No faculty, university or formal-sitting label is visible. |
+| Authority finding | Direct named-course LCS Physiology question-deck evidence in the module question-bank corpus. It is eligible at question-bank authority, but is not a formal sitting paper, response form or separately issued key. |
+
+The assigned hash, byte size and three-page boundary were recomputed and match. All three
+pages were rendered at 220 dpi, native text was extracted, and every page was read visually.
+Page 1 contains Q1–Q4, p. 2 contains Q5–Q9 and p. 3 contains Q10. Every prompt has a
+printed answer letter in the right-hand key column, giving a complete boundary of **10 MCQ
+prompt occurrences / 10 printed keys**. The letters are preserved exactly as printed;
+triage does not silently correct or infer their medical content. There are no teaching-only
+pages or unkeyed assessment prompts.
+
+The deck tests structural and metabolic bone functions/mineral storage; longitudinal growth
+and bone-health determinants; the fracture-repair sequence; PTH elevation of calcium and
+vitamin-D activation; total-body and extracellular-fluid calcium distribution; calcitonin
+inhibition of osteoclasts; and calcium-homeostasis feedback.
+
+There is no specimen, radiograph, micrograph, practical station, teaching plate, masked
+label, response blank or practical key. The decorative header icon is not a teaching plate.
+Practical delta is exactly **0 prompts / 0 plates / 0 mappings / 0 residues / 0 practical
+keys / 0 practical scopes**.
+
+### Source-first collapse, exact searches and prior reconciliation
+
+The ten occurrences collapse to **7 source-distinct tested handles**: bone functions and
+mineral storage (Q1–Q2); longitudinal growth and health determinants (Q3–Q4); fracture
+repair (Q5); PTH/calcium/vitamin-D activation (Q6); body-calcium distribution and ECF
+fraction (Q7 and Q10); calcitonin/osteoclast inhibition (Q8); and calcium-homeostasis
+feedback (Q9). Each received exactly one search in the live, pending/import-ready, prior
+source-import and accepted-LCS surfaces: **7 × 4 = 28 required search invocations**.
+
+Accepted Families 13, 53, 55, 58, 72 and especially Family 76 already own every tested
+scope as eligible or theoretical teaching evidence. Reconciliation is therefore **7 prior
+eligible-LCS scope reuses + 0 additions = 7**, with eligible concept delta **0 live / 0
+pending / 0 new**. The source is direct, so it does not change the separately tracked
+external-bank inventory. The exact 28-query ledger, including per-surface hit counts, is
+preserved at `tmp/pdfs/lcs103-family98/search-ledger.tsv`.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment changes from **736 / 446 / 319 = 12 / 105 / 202** to **746 observed
+questions / 456 printed keys / 319 distinct tested concepts = 12 live / 105 pending / 202
+new**. Arithmetic is `736 + 10 = 746`, `446 + 10 = 456`, `319 + 0 = 319`, and
+`12 + 105 + 202 = 319`. External assessment remains **2,195 prompts / 2,136 printed keys
+/ 221 concepts = 12 live / 135 pending / 74 new**. Practical totals remain **7 prompts /
+458 plates / 2,691 mappings / 149 residues / 0 keys**, with scopes **0 live / 0 pending /
+92 new**.
+
+This source hash occurs once in the Family-97 remainder. Removing its sole path leaves
+**132 all-rank path instances / 124 unique hashes**: tier 3 **50 paths / 47 unique hashes
+within tier**, tier 6 **68 / 66**, and rank 9 **14 / 11**. Family 97's prior checksums are
+`9ddbbe4c4865bafbc4b5f68848448657a2a46a8ba903f6a14c45e9bda0b19ffa` (paths) and
+`4a83d43de1ce3b1bdc630d8af0468072165ecefe9407feaa438b8b2bf0e59e6c` (unique hashes).
+For the exact post-Family-98 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`918478a1430a3b78c2ffd0975ae6b872803a25c7d3919ff2c3780061722c36c4`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`8fa66b7879896f0c1bdcfee7e22921cdaf9c2ef5f94f9395ef325c2abe3fbf61`.
+
+The exact next tier-3 manifest-order debt is `src_fad2f5ab18e1efa59eb1`,
+`MCQs - Quiz most important MCQs.pdf` (138,599 bytes; 9 native pages; SHA-256
+`fad2f5ab18e1efa59eb1620bfa836c22c791f3de14b488c85ba03c84dfbfd125`). It remains
+unclassified until its pages are read. **Overall LCS-103 remains `S1 TRIAGE — NOT
+APPROVED`:** 132 tier-3/tier-6/rank-9 path debts remain. No download, ID, content record,
+catalogue update, import or source copy was created.
