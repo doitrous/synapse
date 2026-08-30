@@ -6423,3 +6423,33 @@ Removing this one empty-text path and unique hash leaves **13 selected inventory
 The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Stains.pdf`, SHA-256 `19543c6669ea24693cf67555802a1d34a7330f621a05478a6af22d1abb938a16`, 2 pages.
 
 **BLOCKED — S1 cannot be approved:** 13 selected source paths remain untriaged.
+
+## Completed source — Stains
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/Stains.pdf` | `19543c6669ea24693cf67555802a1d34a7330f621a05478a6af22d1abb938a16` | 2 | empty-text | pages 1–2 rendered and read | CamScanner image-only export of a handwritten “organelle / used stain” reference table. It prints no institution, department, lecturer, sitting, marks or examination/key claim and is a teaching source, not an official MUST assessment or key. |
+
+### Exact teaching / assessment boundary
+
+The two pages pair cell membrane, mitochondria, Golgi complex, lysosomes, cytoskeletal elements, centrioles, carbohydrate and fat with silver, PAS, H&E, Janus green, iron haematoxylin, histochemical, immunohistochemical, Best’s carmine and Sudan III staining facts. Every entry is declarative. There is no question stem, blank, response instruction, practical-identification image, answer label or marking convention.
+
+The exact boundary is therefore **0 prompt occurrences / 0 key observations / 0 prompt-matched recovered answers**. There is no practical-identification or written-answer task. With no source-tested prompt, there is no accepted concept handle: **0 handles × 4 = 0 searches**, no live/pending/new split and no prior-FHB collapse operation.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true`. Its completed delta is **+0 questions / +0 answers / +0 concepts**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 7156 | 6741 | 489 | 66 | 90 | 333 | TBD |
+
+The cumulative buckets remain exactly `66 + 90 + 333 = 489`. No module ID, content record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one empty-text path and unique hash leaves **12 selected inventory paths / 12 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline, has checksum `d6278135049c99f3d95310e9c70141393e1cca7783b2114e7e14d235602a14a6`. Pinned triage debt becomes **zero substantive-text / four sparse-text / eight empty-text** rows, and unique-hash accounting is **`94 + 12 = 106`**.
+
+The next evidence-ranked source is `Year 1/Semester 101/FHB 101/Histology/08 Midterm Exams/شرح هيستولوجي FHB.pdf`, SHA-256 `0540c06021496251ac88d8d5c1b3b91388ae562e93969c8295cc669e909fca15`, 38 pages.
+
+**BLOCKED — S1 cannot be approved:** 12 selected source paths remain untriaged.
