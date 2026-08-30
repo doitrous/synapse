@@ -17980,3 +17980,81 @@ with **zero remainder** and no Family-168 blocker. The exact next manifest recor
 seven native-text portrait A4 pages under `Pathology / Questions / MCQs`. Its independent prompt/
 key boundary, provenance, source-first handle search, prior-BMS reconciliation, arithmetic, and
 exact next-source blockers remain to be exhausted.
+
+## Family 169 — exact revisit of the Family-7 pathology infection MCQ bank
+
+### Source identity, complete visual/native boundary, authority, and exact prior governance
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-3 `src_f4017e73dcc32d5e9934` · `MCQs - INFECTION MCQs.pdf` under `Pathology / Questions / MCQs` |
+| SHA-256 / exact size | `f4017e73dcc32d5e993414b160127e0bcd8bd569f3f7005c0dd835f630fa07ac` · **133,794 bytes** |
+| Format / complete visual boundary | **Seven native-text portrait A4 pages**. All seven were rendered at 150 dpi into seven non-empty 1241×1754 images and read at page detail. Pages 1–6 each contain five numbered text MCQs; page 7 contains Q31–Q34 followed by blank remainder. There is no cover, image, drawing, practical plate, candidate response, answer appendix, or hidden terminal material. |
+| Native-text reality | Layout/raw extraction contains **1,144 / 1,172 words** and **11,612 / 6,677 bytes**. Native text exposes all 34 numbered stems, their option sets, right-column keys, seven `Page|` footers, and seven visible `DR. Ahmed Hassan` footers. OCR was unnecessary. |
+| Visible/metadata provenance | The visible title is `Infection`, and every page is visibly footered `DR. Ahmed Hassan`. No university, faculty, module code, academic year, sitting date, marks, candidate field, or explicit assessment label is visible. Metadata author `Alnoaman`, Microsoft Word 2019 creator/producer, and 9 April 2025 creation/modification time are secondary carrier evidence; they do not override visible authorship or establish Helwan administration, an official key, or a sitting date. |
+| Exact prior governance | Family 7 already records this exact source ID, SHA, carrier, all 34 prompts and keys, eight tested-scope reductions, 26 handles, 104 searches, three prior-BMS reuses, and +23 concepts. No byte-, page-, prompt-, key-, or scope-layer difference exists in the present manifest revisit. |
+| Authority | Keyed pathology revision/MCQ carrier with visible named authorship but weak visible institutional and assessment authority. Printed right-column letters are source-supplied keys, not independently verified departmental answers. |
+
+### Complete prompt/key/format and prior-family replay boundary
+
+The object contains **34 raw numbered text MCQ occurrences / 34 source-supplied right-column key
+occurrences / 0 unkeyed / 0 T/F / 0 written operations / 0 image-bearing questions / 0 drawing
+tasks / 0 practical stations / 0 candidate responses / 0 residues**. Page arithmetic is **`5 ×
+6 + 4 = 34`**. The printed key sequence remains `1 B; 2 A; 3 A; 4 B; 5 B; 6 A; 7 C; 8 C;
+9 C; 10 B; 11 E; 12 B; 13 B; 14 C; 15 D; 16 D; 17 C; 18 A; 19 C; 20 B; 21 D; 22 D;
+23 B; 24 D; 25 E; 26 C; 27 D; 28 D; 29 B; 30 C; 31 C; 32 A; 33 A; 34 E`.
+
+Questionable source keys remain evidence rather than silent corrections: Q10 prints `B` while
+also listing leukopenia; Q13 and Q23 each select delayed hypersensitivity alone despite the
+intracellular-survival option in Q13; and Q33's vague `Ghon's focus consists of TB reaction`
+prints `A`. Family 169 neither validates nor changes those answers.
+
+Family 7 found zero exact wording repeats and retained all 34 records. Its seven tested-scope
+groups—Q05+Q06, Q08+Q09+Q10, Q13+Q23, Q14+Q15, Q21+Q22, Q24+Q28, and Q25+Q26—produce eight
+reductions: **`34 retained - 8 = 26 handles`**. The present object is an exact replay of that
+complete prompt/key layer, not a companion or additional occurrence carrier.
+
+### Exact-object zero-handle and zero-search gate
+
+Family 7 already completed exactly four searches for every one of its 26 handles: **`26 × 4 =
+104 searches`**. Its prior-BMS reconciliation identifies three reuses—Family 1's pyemia
+definition and Family 2's primary-TB organ-site and tubercle-morphology scopes—and therefore
+adds 23 concepts.
+
+Family 169 accepts **0 new retained records and 0 new handles**. Re-running searches against the
+same source ID/SHA/page/prompt/key object would fabricate work and recurrence. The standing gate
+is **`0 new handles × 4 = 0 required and completed new searches`**. Prior reuse and concept delta
+are both **0 Family-169 additions**.
+
+### Family-169 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Exhausted object boundary | Family 169 addition | Auxiliary cumulative (Families 12–169) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw prompt occurrences | 34 in current PDF | 0 | 2,118 | 762 | 2,880 |
+| Source-supplied answers | 34 | 0 | 1,486 | 405 | 1,891 |
+| Retained question records | 34 | 0 | 1,829 | 552 | 2,381 |
+| Source handles / new searches | 26 / already complete | 0 / 0 | 1,667 / — | — | — |
+| Cross-family concept delta | already governed by Family 7 | +0 | +906 over primary | 372 | 1,278 |
+| **Distinct tested concepts** | **26 source-family** | **0 new** | **906 additions** | **372** | **1,278** |
+
+The governed checksum remains `34 prompts`, `34 answers`, `34 retained`, `34 - 8 = 26 handles`,
+and Family 7's `26 × 4 = 104` completed searches. Family-169 arithmetic is independently zero:
+`0 prompts + 0 answers + 0 retained + 0 handles + 0 concepts`. Corrected primary remains **762 /
+405 / 552 / 372**; auxiliary remains **2,118 prompts / 1,486 answers / 1,829 retained / 1,667
+handles / +906 concepts**; and corrected all eligible remains **2,880 / 1,891 / 2,381 / 1,278**.
+
+Family 169 adds exact-carrier revisit and manifest-order evidence only. It establishes no new
+question occurrence, answer, tested concept, official key, sitting, recurrence, mark weight,
+candidate response, practical station, readiness, or claims status.
+
+### Exact next debt after Family 169
+
+`src_f4017e73dcc32d5e9934` is re-exhausted without double counting: every rendered/native page,
+numbered prompt, option, right-column key, footer, blank remainder, questionable answer,
+scope-collapse group, metadata field, visible-authority limit, Family-7 search/prior ledger, zero
+gate, and cumulative term is assigned once, with **zero remainder** and no Family-169 blocker.
+The exact next manifest record is tier-3 source `src_6050cec97addd49101a3` · `MCQs - Inflammation
+MCQ.pdf`, SHA-256 `6050cec97addd49101a398bb34a981f2cee4080dab3cefa3ffee85786d6d9ae9`, **180,637 bytes**,
+12 native-text portrait A4 pages under `Pathology / Questions / MCQs`. Its independent prompt/key
+boundary, provenance, source-first handle search, prior-BMS reconciliation, arithmetic, and exact
+next-source blockers remain to be exhausted.
