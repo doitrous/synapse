@@ -5415,6 +5415,7 @@ three OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its OCR-ne
 boundary is the next-source processing blocker: fully render and visually adjudicate prompt,
 teaching, and answer conventions before admitting any count.
 
+
 ## Family 50 — tier-6 Medicine Way general-mycology MCQ excerpt
 
 ### Source identity, visual boundary, and authority ruling
@@ -5641,3 +5642,186 @@ local BMS-102 candidate is tier-6 `src_c7c7410ffee344f41127` ·
 eight OCR-needed A4 pages under `Microbiology / Notes and Summaries`. Its OCR-needed eight-page
 boundary is the next-source processing blocker: fully render and visually adjudicate prompt,
 teaching, and answer conventions before admitting any count.
+
+## Family 52 — tier-6 Medicine Way bacterial-genetics and bacteriophage MCQ excerpt
+
+### Source identity, visual boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_c7c7410ffee344f41127` · `genetic bacteriophage.pdf` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/genetic bacteriophage.pdf` |
+| SHA-256 / size | `c7c7410ffee344f41127cefac8dc423daef1c7e716ddfbfb9c07571eba1b9d31` · 2,103,512 bytes |
+| Format / read boundary | Eight OCR-needed A4 pages; all eight physical pages rendered at 220 dpi and visually read in full |
+| Authority | Medicine Way / Arabic `طريق الطب` channel-team compilation attributed on p. 1 to Mansour El Gazzar; no Helwan/university or faculty masthead, module code, examiner, sitting, date, marks, candidate instructions, department provenance, or official key |
+
+Physical p. 1 is the Medicine Way promotional cover and contains no assessment prompt or
+teaching proposition. Physical p. 2 opens with detached bacteriology prompts Q75–Q76; the
+`Genetics & Bacteriophage` heading then introduces Q77–Q80. Physical pp. 3–7 continue Q81–Q116.
+Physical p. 8 continues Q117–Q120, then the `Antibiotic resistance` heading introduces Q121–
+Q122. Missing Q1–Q74 and any continuation after Q122 are not inferred. The numbering and
+Medicine Way presentation identify one low-authority compiled study-bank excerpt, not a
+recoverable paper or sitting; neither heading is projected beyond its observed position.
+
+The prompt-start checksum is `0 + 6 + 7 + 7 + 8 + 7 + 7 + 6 = 48`. Every observed stem and
+option set is complete. There is no answer register, keyed letter, selected option, correctness
+annotation, response field, or repeatable answer convention. Underlining formats stems and does
+not select an option. The source therefore contains **48 complete prompt occurrences / 0 printed
+answer occurrences**. No option is promoted to an answer; source terminology and any omitted-
+label or questionable distractor remain only low-authority tested scope.
+
+### Complete prompt inventory, source-first collapse, and prior-BMS ledger
+
+| Ref | Page | Complete source-tested scope without supplying an unprinted answer | Handle / assignment |
+|---|---:|---|---|
+| F52-Q75 | 2 | Growth requirement that identifies capnophilic bacteria | `bacterial-high-co2-growth-requirement` · exact F48-Q61/Q75 reuse |
+| F52-Q76 | 2 | Growth phase in which bacteria are highly susceptible to antimicrobial agents | `antibiotic-susceptibility-exponential-phase` · exact F48-Q56/Q76 reuse |
+| F52-Q77 | 2 | Exception among haploidy, double-stranded DNA, deoxyribonucleoprotein association, and mitosis as bacterial-chromosome characteristics | `bacterial-chromosome-property-exception-mitosis` · exact F48-Q77 reuse |
+| F52-Q78,Q92 | 2,4 | Terminology for a cell's genetic constitution or set of genetic determinants | `genotype-genetic-constitution-definition` · exact F48-Q78 reuse |
+| F52-Q79 | 2 | Exception among transformation, transcription, lysogenic conversion, and conjugation as bacterial genetic-material transmission methods | `bacterial-gene-transfer-method-exception-transcription` · exact F48-Q79 reuse |
+| F52-Q80,Q110,Q112 | 2,7 | Terminology for bacteriophage-mediated transfer of bacterial genetic material | `transduction-phage-mediated-host-dna-transfer` · exact F27-Q18/F48-Q80 reuse |
+| F52-Q81,Q109 | 3,6 | Transformation as uptake of free or naked environmental DNA | `transformation-naked-dna-in-solution` · exact F27-Q21 reuse |
+| F52-Q82 | 3 | Joint mutation and R-factor sources by which a bacterial cell acquires drug resistance | `bacterial-drug-resistance-mutation-r-factor-sources` |
+| F52-Q83 | 3 | Transferable, infectious, and episomal nomenclature differential for plasmid-mediated drug resistance transferred by conjugation | `plasmid-mediated-conjugative-drug-resistance-nomenclature` |
+| F52-Q84 | 3 | Conjugative and self-transmissible classification of plasmids possessing resistance determinants | `resistance-determinant-plasmid-conjugative-self-transmissible` |
+| F52-Q85 | 3 | Exception differential among nonspread, multidrug, low-degree, and reduced-virulence properties of mutational drug resistance | `mutational-drug-resistance-property-exception` |
+| F52-Q86 | 3 | Exception differential among transferable, high-degree, single-drug, and interspecies-spread properties of plasmid-mediated resistance | `plasmid-mediated-drug-resistance-property-exception` |
+| F52-Q87 | 3 | Terminology for transfer of genetic material from one DNA molecule to another | `transposition-between-dna-molecules-definition` |
+| F52-Q88,Q103 | 4,6 | Transposon as a mobile DNA segment moving between chromosome and plasmid locations | `transposon-mobile-bacterial-dna-segment` · exact F27-Q14 reuse |
+| F52-Q89 | 4 | Plasmid and bacteriophage recognition as vectors for foreign-DNA transfer into a cloning organism | `plasmid-bacteriophage-cloning-vector-types` |
+| F52-Q90 | 4 | Enzyme that catalyses DNA synthesis from an RNA template | `reverse-transcriptase-rna-template-dna-synthesis` |
+| F52-Q91 | 4 | Gene as a DNA segment carrying specific sequence information | `gene-specific-information-dna-segment-definition` |
+| F52-Q93 | 4 | Phenotype as observed microbial properties under environmental influence | `phenotype-observed-environment-influenced-properties` |
+| F52-Q94 | 4 | Chromosome count in the source's generic bacterial-cell model | `bacterial-single-chromosome-number` · exact F49-Q19 reuse |
+| F52-Q95 | 5 | Haploid status of bacteria | `bacteria-haploid-genome` |
+| F52-Q96 | 5 | Plasmid recognition from extrachromosomal DNA that replicates independently of the bacterial chromosome | `plasmid-properties-independent-chromosome-replication` · exact F27-Q13 reuse |
+| F52-Q97 | 5 | Episome as a plasmid able to integrate into the host chromosome | `episome-plasmid-host-chromosome-integration` |
+| F52-Q98 | 5 | Ability of one bacterial cell to contain numerous plasmids of the same or different types | `bacterial-multiple-plasmid-copies-types` |
+| F52-Q99 | 5 | R-plasmid nomenclature for plasmids carrying antibiotic-resistance genes | `r-factor-multidrug-resistance` · exact F11-Q23 reuse |
+| F52-Q100 | 5 | Bacteriocin terminology for a substance produced by one bacterium against another | `bacteriocin-bacteria-against-bacteria-definition` |
+| F52-Q101 | 5 | F plasmid as the genetic determinant for sex-pilus formation | `f-plasmid-sex-pilus-formation` · exact F49-Q32 reuse |
+| F52-Q102 | 5 | Conjugation as the gene-transfer process mediated by the fertility factor | `conjugation-requires-fertility-factor` · exact F27-Q08 reuse |
+| F52-Q104 | 6 | Mutation terminology for a permanent DNA-sequence change | `bacterial-mutation-dna-sequence-change` · exact F27-Q15 reuse |
+| F52-Q105 | 6 | Spontaneous-mutation terminology for a natural mutation occurring without a mutagen | `spontaneous-mutation-without-mutagen` |
+| F52-Q106 | 6 | Induced-mutation terminology for mutation caused by a mutagenic factor | `induced-mutation-mutagenic-factor` |
+| F52-Q107 | 6 | Exception differential among radioactivity, ultraviolet radiation, disinfectants, and alkylating chemicals as mutagenic factors | `mutagenic-factor-exception-disinfectants` |
+| F52-Q108 | 6 | Parasexuality terminology for unilateral genetic-information transfer from donor to recipient | `parasexuality-unilateral-donor-recipient-gene-transfer` |
+| F52-Q111 | 7 | Sex pilus as the structure important in bacterial conjugation | `conjugation-sex-pilus-dna-transfer` · exact F29-Q06/F39-Q08 reuse |
+| F52-Q113 | 7 | Conjugation as donor-to-recipient DNA transfer after cell-to-cell contact | `conjugation-requires-direct-cell-contact` · exact F27-Q03/Q17 reuse |
+| F52-Q114 | 7 | Particular bacterial-DNA transfer by a temperate phage, with the expected specialized-transduction label absent from the options | `specialized-transduction-temperate-phage-particular-gene` · exact F27-Q23 reuse |
+| F52-Q115 | 7 | Temperate-phage nomenclature from ability to undergo a lysogenic cycle | `temperate-phage-lysogenic-cycle-nomenclature` |
+| F52-Q116 | 7 | Prophage nomenclature for a bacteriophage genome integrated at a bacterial-genome site during lysogeny | `prophage-integrated-bacteriophage-genome` · exact F16-Q02/F27-Q07 scope reuse |
+| F52-Q117 | 8 | Virulent-phage nomenclature from undergoing lytic cycles | `virulent-phage-lytic-cycle-nomenclature` · exact F47-Q117 reuse |
+| F52-Q118 | 8 | Generalized-transduction nomenclature for transfer of any bacterial gene through a virulent phage | `generalized-transduction-any-gene-virulent-phage` · exact F47-Q118 reuse |
+| F52-Q119 | 8 | Exception among high-transfer-frequency, wide-host-range, and multiple-determinant properties of conjugative plasmids | `conjugative-plasmid-property-exception` · exact F47-Q119 reuse |
+| F52-Q120 | 8 | Simple-transposition nomenclature for transposon excision from a donor and insertion into a recipient | `simple-transposition-excision-insertion` · exact F47-Q120 reuse |
+| F52-Q121 | 8 | Enzyme inactivation, altered receptor/target, and altered permeability as antimicrobial-resistance mechanism classes | `antimicrobial-resistance-mechanism-classes` · exact F12-A04/F47-Q121 reuse |
+| F52-Q122 | 8 | Absent-cell-wall mechanism for intrinsic Mycoplasma resistance to penicillin | `mycoplasma-intrinsic-penicillin-resistance` · exact F11-Q22/F47-Q122 reuse |
+
+There are no literal copies and all 48 prompt occurrences remain retained assessment records.
+Five same-source scope reductions occur after retention: Q78/Q92 collapse from two records to one
+genotype-definition handle; Q80/Q110/Q112 collapse from three to one phage-mediated-transduction
+handle; Q81/Q109 collapse to one naked-DNA transformation handle; and Q88/Q103 collapse to one
+mobile-transposon handle. Q111's sex-pilus relation remains distinct from Q113's direct-contact
+relation, Q87's general transposition definition remains distinct from Q120's simple-transposition
+mechanism, and Q114's specialized subtype remains distinct from generic Q80/Q110/Q112. Thus **48
+observed - 0 copies = 48 retained records**, and **48 retained - 5 semantic reductions = 43
+source-distinct tested handles**.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 43 handles received exactly four required source-first searches across live state,
+all pending import roots, and prior BMS-102 evidence: **172 required searches**. Literal runs were
+followed by targeted reopening of the short-form `reverse transcriptase`, `gene definition`,
+`phenotype definition`, `episome`, `bacteriocin`, `spontaneous mutation`, `induced mutation`,
+`mutagen`, `parasexuality`, `temperate phage`, and `prophage` results. External disposition is
+**0 live / 15 pending / 28 no same-scope**.
+
+| Handle · ref | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `bacterial-high-co2-growth-requirement` · Q75 | `bacteria high carbon dioxide growth`; `capnophilic bacteria high CO2`; `bacterial growth requires carbon dioxide`; `increased carbon dioxide bacterial culture` | pending `CON-INF-3D845DC6B07880`; exact capnophilic growth condition | exact F48-Q61/Q75 reuse |
+| `antibiotic-susceptibility-exponential-phase` · Q76 | `antibiotic susceptibility exponential growth phase`; `bacteria most susceptible during log phase`; `antimicrobials active rapidly dividing bacteria`; `exponential phase antibiotic sensitivity` | pending `CON-INF-2E629B81136A05`; exact phase-susceptibility relation | exact F48-Q56/Q76 reuse |
+| `bacterial-chromosome-property-exception-mitosis` · Q77 | `bacterial chromosome properties mitosis exception`; `bacteria chromosome no mitosis`; `bacterial chromosome single circular DNA mitotic division`; `prokaryotic chromosome property exception` | no same-scope | exact F48-Q77 reuse |
+| `genotype-genetic-constitution-definition` · Q78,Q92 | `genotype genetic constitution organism`; `genotype total genetic makeup`; `genotype definition hereditary constitution`; `genetic constitution genotype bacteria` | no same-scope | exact F48-Q78 reuse |
+| `bacterial-gene-transfer-method-exception-transcription` · Q79 | `bacterial gene transfer methods transcription exception`; `transformation transduction conjugation not transcription`; `horizontal gene transfer mechanism exception transcription`; `bacteria DNA transfer method not transcription` | no same-scope | exact F48-Q79 reuse |
+| `transduction-phage-mediated-host-dna-transfer` · Q80,Q110,Q112 | `transduction bacteriophage transfers bacterial DNA`; `phage mediated gene transfer transduction`; `bacteriophage host DNA transfer`; `bacterial transduction definition` | pending `CON-INF-E9C14F5981ACE5`; exact phage-mediated transfer definition | exact F27-Q18/F48-Q80 reuse |
+| `transformation-naked-dna-in-solution` · Q81,Q109 | `transformation uptake naked DNA bacteria`; `bacterial gene transfer free DNA solution`; `transformation exogenous naked DNA`; `bacteria take up DNA from environment` | pending `CON-INF-42D77BF4AB3ADD`; exact soluble-DNA definition | exact F27-Q21 reuse |
+| `bacterial-drug-resistance-mutation-r-factor-sources` · Q82 | `bacterial drug resistance mutation R factor`; `antibiotic resistance acquired mutation plasmid`; `drug resistance develops mutation resistance factor`; `bacterial resistance chromosomal mutation R plasmid` | no same-scope; mutation- and R-factor-specific records do not supply the joint source differential | none; delta |
+| `plasmid-mediated-conjugative-drug-resistance-nomenclature` · Q83 | `plasmid mediated drug resistance conjugation phenomenon`; `infectious drug resistance R factor conjugation`; `transferable antibiotic resistance plasmid conjugative`; `episomal resistance conjugation synonyms` | no same-scope; transfer-mechanism records omit the three-name terminology differential | none; F17-Q01/F20-Q03 test the transfer relation, so delta |
+| `resistance-determinant-plasmid-conjugative-self-transmissible` · Q84 | `resistance determinant plasmid self transmissible conjugation`; `conjugative resistance plasmid determinant transfer`; `R determinant self transmissible plasmid`; `drug resistance gene plasmid transferred conjugation` | no same-scope; conjugation and R-factor records split transfer from the combined classification | none; delta |
+| `mutational-drug-resistance-property-exception` · Q85 | `mutational drug resistance nontransferable single antibiotic`; `chromosomal mutation resistance properties exception`; `mutation mediated antibiotic resistance not transferable`; `mutational resistance spontaneous one drug` | no same-scope | none; delta |
+| `plasmid-mediated-drug-resistance-property-exception` · Q86 | `plasmid mediated drug resistance multiple antibiotics`; `R plasmid resistance properties exception`; `transferable multidrug resistance plasmid`; `plasmid resistance genes conjugation property` | no same-scope | none; delta |
+| `transposition-between-dna-molecules-definition` · Q87 | `transposition DNA segment moves between molecules`; `transposition transfer DNA from chromosome plasmid`; `mobile genetic element transposition definition`; `DNA movement one location another transposition` | pending `CON-INF-D6A264E108B348`; exact movement-between-DNA-locations definition | none; prior prompts identify the mobile element rather than name the process, so delta |
+| `transposon-mobile-bacterial-dna-segment` · Q88,Q103 | `transposon mobile bacterial DNA segment`; `transposable element moves chromosome plasmid`; `transposon definition mobile DNA`; `jumping gene bacterial transposon` | pending `CON-INF-D6A264E108B348`; exact mobile-DNA definition | exact F27-Q14 reuse |
+| `plasmid-bacteriophage-cloning-vector-types` · Q89 | `plasmid bacteriophage cloning vectors`; `DNA cloning vector plasmid phage`; `vectors include plasmids bacteriophages`; `genetic engineering vector types plasmid phage` | no same-scope | none; F12-G10 is a broader four-type enumeration, so delta |
+| `reverse-transcriptase-rna-template-dna-synthesis` · Q90 | `reverse transcriptase RNA template DNA synthesis`; `RNA dependent DNA polymerase`; `reverse transcription RNA to DNA`; `enzyme synthesizes DNA from RNA template` | pending AU-MED-102 reverse-transcriptase concept; exact RNA-template-to-DNA relation | none; delta |
+| `gene-specific-information-dna-segment-definition` · Q91 | `gene segment DNA specific information`; `gene functional unit DNA sequence information`; `gene definition DNA segment`; `DNA segment codes specific trait gene` | no same-scope | none; delta |
+| `phenotype-observed-environment-influenced-properties` · Q93 | `phenotype observable properties environment influenced`; `phenotype genotype environment expression`; `observable characteristics phenotype definition`; `phenotype physical traits environmental factors` | no same-scope | none; delta |
+| `bacterial-single-chromosome-number` · Q94 | `bacteria single chromosome number`; `most bacteria one chromosome`; `bacterial genome single circular chromosome`; `prokaryote chromosome number one` | no same-scope | exact F49-Q19 reuse |
+| `bacteria-haploid-genome` · Q95 | `bacteria haploid genome`; `bacterial chromosome haploid`; `prokaryotes haploid genetic material`; `bacterial cells one genome copy` | no same-scope | none; F48-Q77 includes haploidy only inside a composite exception, so delta |
+| `plasmid-properties-independent-chromosome-replication` · Q96 | `plasmid replicates independently chromosome`; `extrachromosomal DNA autonomous replication`; `plasmid independent replication property`; `bacterial plasmid separate chromosome replication` | no same-scope; the live extrachromosomal-DNA label is narrower | exact F27-Q13 reuse |
+| `episome-plasmid-host-chromosome-integration` · Q97 | `episome plasmid integrates host chromosome`; `episome definition integrated plasmid`; `plasmid can insert bacterial chromosome episome`; `episomal DNA chromosome integration` | no same-scope | none; delta |
+| `bacterial-multiple-plasmid-copies-types` · Q98 | `bacteria multiple plasmids copies types`; `bacterial cell can contain several plasmids`; `multiple plasmid types same bacterium`; `plasmid copy number bacterial cell` | no same-scope | none; delta |
+| `r-factor-multidrug-resistance` · Q99 | `R plasmid carries antibiotic resistance genes`; `resistance plasmid antibiotic genes`; `R factor confers drug resistance`; `bacterial plasmid encodes antimicrobial resistance` | pending `CON-INF-134BE2C9B827D5`; exact R-factor resistance-gene carriage | exact F11-Q23 reuse |
+| `bacteriocin-bacteria-against-bacteria-definition` · Q100 | `bacteriocin bacteria kills other bacteria`; `bacteriocin antimicrobial protein bacteria`; `bacterial toxin against closely related bacteria`; `bacteriocin definition` | no same-scope | none; F49-Q46 tests Col-factor carriage, so delta |
+| `f-plasmid-sex-pilus-formation` · Q101 | `F plasmid sex pilus formation`; `fertility plasmid encodes sex pilus`; `F factor bacterial pilus`; `conjugative plasmid pilus synthesis` | no same-scope | exact F49-Q32 reuse |
+| `conjugation-requires-fertility-factor` · Q102 | `conjugation requires fertility factor plasmid`; `bacterial conjugation F factor`; `F plasmid conjugative transfer`; `fertility factor enables conjugation` | pending `CON-INF-B7F47EC7A8F7FA`; exact F-plasmid requirement | exact F27-Q08 reuse |
+| `bacterial-mutation-dna-sequence-change` · Q104 | `bacterial mutation permanent DNA sequence change`; `mutation change nucleotide sequence`; `mutation heritable DNA alteration bacteria`; `genetic mutation definition DNA` | pending `CON-INF-3576B51A9E5B1B`; exact DNA-sequence definition | exact F27-Q15 reuse |
+| `spontaneous-mutation-without-mutagen` · Q105 | `spontaneous mutation without mutagen`; `mutation occurs naturally no external factor`; `spontaneous versus induced mutation`; `unprovoked bacterial mutation` | no same-scope | none; resistance-specific F11-Q25 is narrower, so delta |
+| `induced-mutation-mutagenic-factor` · Q106 | `induced mutation caused by mutagen`; `mutagenic agent induced mutation`; `radiation chemicals induce DNA mutation`; `induced bacterial genetic change` | no same-scope | none; delta |
+| `mutagenic-factor-exception-disinfectants` · Q107 | `mutagen exception disinfectants`; `physical chemical mutagenic agents`; `radiation chemicals biological mutagens`; `disinfectants cause mutation exception` | no same-scope; mutagenicity hits do not classify this option set | none; delta |
+| `parasexuality-unilateral-donor-recipient-gene-transfer` · Q108 | `bacterial parasexuality unilateral gene transfer`; `donor recipient unidirectional bacterial gene transfer`; `parasexual process bacteria definition`; `bacterial genetic recombination donor recipient` | no same-scope | none; delta |
+| `conjugation-sex-pilus-dna-transfer` · Q111 | `conjugation sex pilus DNA transfer`; `bacterial gene transfer through sex pilus`; `cell to cell DNA transfer pilus`; `conjugative pilus transfers genetic material` | pending `CON-INF-B7F47EC7A8F7FA`; exact sex-pilus mechanism | exact F29-Q06/F39-Q08 reuse |
+| `conjugation-requires-direct-cell-contact` · Q113 | `conjugation requires direct cell contact`; `bacterial gene transfer physical contact`; `conjugation donor recipient contact`; `horizontal transfer direct contact bacteria` | pending `CON-INF-B7F47EC7A8F7FA`; exact direct-contact mechanism | exact F27-Q03/Q17 reuse |
+| `specialized-transduction-temperate-phage-particular-gene` · Q114 | `specialized transduction temperate phage particular gene`; `lysogenic phage transfers specific bacterial genes`; `specialized transduction restricted genes`; `temperate bacteriophage specific gene transfer` | pending `CON-INF-E9C14F5981ACE5`; exact subtype property | exact F27-Q23 reuse |
+| `temperate-phage-lysogenic-cycle-nomenclature` · Q115 | `temperate phage lysogenic cycle`; `lysogenic bacteriophage temperate`; `phage capable lysogeny called temperate`; `temperate versus virulent phage cycle` | no same-scope | none; latent-state and lysogenic-cell prompts test different relations, so delta |
+| `prophage-integrated-bacteriophage-genome` · Q116 | `prophage integrated bacteriophage genome`; `phage DNA integrated bacterial chromosome`; `integrated viral genome prophage`; `lysogen contains integrated phage genome` | no same-scope; lysogenic-conversion records do not define the integrated genome | exact F16-Q02/F27-Q07 scope reuse |
+| `virulent-phage-lytic-cycle-nomenclature` · Q117 | `virulent phage lytic cycle`; `lytic bacteriophage called virulent`; `virulent versus temperate phage`; `phage causing lysis virulent` | no same-scope | exact F47-Q117 reuse |
+| `generalized-transduction-any-gene-virulent-phage` · Q118 | `generalized transduction any bacterial gene`; `virulent phage random host DNA transfer`; `general transduction all genes`; `lytic phage generalized transduction` | pending `CON-INF-E9C14F5981ACE5`; exact generalized-transduction scope | exact F47-Q118 reuse |
+| `conjugative-plasmid-property-exception` · Q119 | `conjugative plasmid property exception`; `self transmissible plasmid conjugation genes`; `conjugative plasmid carries transfer genes`; `nonconjugative plasmid versus conjugative property` | no same-scope | exact F47-Q119 reuse |
+| `simple-transposition-excision-insertion` · Q120 | `simple transposition excision insertion`; `transposon moves by excision and reinsertion`; `cut and paste transposition mechanism`; `simple transposition DNA element relocation` | no same-scope; mobility records omit the simple/nonreplicative distinction | exact F47-Q120 reuse |
+| `antimicrobial-resistance-mechanism-classes` · Q121 | `antimicrobial resistance mechanism classes`; `bacteria resistance drug inactivation target permeability bypass`; `antibiotic resistance major mechanisms`; `mechanisms of bacterial drug resistance differential` | no same-scope complete concept | exact F12-A04/F47-Q121 reuse |
+| `mycoplasma-intrinsic-penicillin-resistance` · Q122 | `mycoplasma intrinsic penicillin resistance`; `mycoplasma lacks cell wall beta lactam`; `natural resistance mycoplasma penicillin`; `penicillin ineffective against mycoplasma` | pending `CON-INF-DCD82D2A1D396C`; exact absent-target relation | exact F11-Q22/F47-Q122 reuse |
+
+The 24 prior-BMS exact handles are Q75, Q76, Q77, Q78/Q92, Q79, Q80/Q110/Q112,
+Q81/Q109, Q88/Q103, Q94, Q96, Q99, Q101, Q102, Q104, Q111, Q113, Q114, Q116,
+and Q117–Q122. Therefore **43 handles - 24 prior exact reuses = +19 concepts**.
+
+| Measure | Family 52 | Auxiliary cumulative (Families 12–52) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 48 | 417 | 765 | 1,182 |
+| Printed study-answer occurrences | 0 | 188 | 405 | 593 |
+| Retained question records | 48 | 413 | 552 | 965 |
+| Source-distinct tested handles / required searches | 43 / 172 | 397 / — | — | — |
+| External live / pending / no same-scope | 0 / 15 / 28 | — | — | family-local disposition |
+| Cross-family concept delta | +19 | +283 over primary | 372 | `372 + 283 = 655` |
+| **Distinct tested concepts** | **+19** | **283 auxiliary additions** | **372** | **655** |
+
+The checksum closes without remainder: prompt starts are `0 + 6 + 7 + 7 + 8 + 7 + 7 + 6 =
+48`; key alignment is `48 - 0 = 48` unkeyed; retention is `48 - 0 copies = 48`; handle
+assignment is `48 - 5 semantic reductions = 43`; assignment is `43 - 43 = 0` unassigned;
+searches are `43 × 4 = 172`; external disposition is `0 + 15 + 28 = 43`; and concept
+arithmetic is `43 - 24 = 19`. Auxiliary cumulative arithmetic is `369 + 48 = 417` prompts,
+`188 + 0 = 188` printed answers, `365 + 48 = 413` retained records, `354 + 43 = 397`
+source handles, and `264 + 19 = 283` concept additions over primary. All-eligible arithmetic is
+`765 + 417 = 1,182`, `405 + 188 = 593`, `552 + 413 = 965`, and `372 + 283 = 655`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**417 / 188 / 413 / 397 / +283**; and all eligible evidence is
+**1,182 / 593 / 965 / 655**. This tier-6 unkeyed excerpt cannot independently raise
+exam/sitting, recurrence, mark-weight, official-key, readiness, or claims status, so no readiness
+or claims file change is warranted.
+
+### Exact next debt after Family 52
+
+`src_c7c7410ffee344f41127` is exhausted across all eight pages: the cover, all 48 observed prompt
+occurrences, both internal heading boundaries, absence of a key convention, retained records,
+source handles, search rows, external dispositions, and prior-BMS decisions are assigned once,
+with **zero source remainder** and no Family-52 blocker. The next manifest-ordered BMS-102 record
+is tier-6 `src_d33fc22eea5100b6a142` · `hh lec revision .pdf`, SHA-256
+`d33fc22eea5100b6a142006128ffc4d049c4b956aa607ca6eba6c5ac9b0a3bf9`, 136,106 bytes, four
+native-text A4 pages under `Microbiology / Notes and Summaries`. The manifest spelling contains a
+space before `.pdf`, while the SHA-matching local file is present as `hh lec revision.pdf`; that
+path-normalization difference and the unread four-page source boundary are the next-source
+processing blocker. Fully render and visually adjudicate prompt, teaching, and answer conventions
+before admitting any count.
