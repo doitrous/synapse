@@ -30,8 +30,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "38f534c240f10ba80f89a51f322c7b495d61e7f5d2722c934b4fa055dcd138b1",
-    "readinessMarkdown": "21b33bfab4df5c97725c6e1b406f36a1effb021f5ecadd9efaf070e183f0b62d",
-    "triageMarkdown": "9f66d35777486d1f65cb880b7031dd70787d3ab84029d2313c4872c93aa6f113"
+    "readinessMarkdown": "d553d693747a2f76e812ab0815249726e6b61c5999bb4c73fe87809002f4eb29",
+    "triageMarkdown": "a003cfe814e5aac17782721f5f88bb4771712158e387c462b9b2eceda8addd87"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -71,6 +71,7 @@
       "4527ea2e576eacc579acad1c0f2456e6db51961ab7c16b260173fd8c956812d6",
       "48bfcc4cb860afa3c194ab6c85ebe20d0de0ff199317676884cbe902c4b1c88e",
       "4931e8f337b45786cb2c71f04a0d14b347a6824add714bda1f220d77e1935b2e",
+      "4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719",
       "565b37a652b38f5d1518e1c6da9fe922678aaf8b7d4f35d53fc82a74f02494d1",
       "59bb03c7cc2e5fa21dc9a715d601d67854aaf71f4a350b5c9a17a13914d3b6f3",
       "5da6cd6d288fb46dba2f3ed81b483a20eb6dd2935d65d2da42ea7e3efd1849eb",
@@ -121,7 +122,7 @@
       "f9d29c62e1a46e98c0574769747455b04d2b1a46ae90b89df424e7e5bda31b51",
       "fe9862ea46f61535b7856c7d6a8e28907f6ea8a96e104b49be012a8f4733c61d"
     ],
-    "uniqueSha256": 69
+    "uniqueSha256": 70
   },
   "completedSourceCoverage": [
     {
@@ -2135,37 +2136,75 @@
         "four exact normalized stems recur with different option sets at Q15/Q29, Q26/Q27, Q33/Q68 and Q53/Q54",
         "source spelling, punctuation, capitalization and academically questionable keyed choices remain uncorrected"
       ]
+    },
+    {
+      "sha256": "4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719",
+      "sourcePages": 19,
+      "renderedReadPages": "1-19",
+      "questionPages": "1-18",
+      "keyPages": "19",
+      "printedPromptObservations": 147,
+      "objectiveMcqPrompts": 147,
+      "printedKeyObservations": 147,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "normalizedUniqueStems": 142,
+      "normalizedDuplicateGroups": 4,
+      "normalizedDuplicateExtraOccurrences": 5,
+      "familyQuestionDelta": 147,
+      "familyAnswerDelta": 147,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "referenceConnectiveTissueAcceptedSourceHandles": 5,
+      "referenceConnectiveTissueSearchesRun": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorMskCollapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "named-person connective-tissue teaching MCQ bank carrying DR. AHMED ZAHRA on every page and produced through iOS 15.6.1 Quartz PDFContext on 16 October 2022; no institution, department, examiner, sitting, marks or official faculty-key claim appears",
+      "boundaryDisposition": "continuous Q1-Q147 conventional text-MCQ sequence on pages 1-18 followed by a complete Q1-Q147 model-answer table on page 19; no written, practical, image-identification, teaching-only, answer-only or source-unkeyed material",
+      "priorCarrierComparison": {
+        "sha256": "ee0ff6ce7f1dc6353f4aef429bece4e7bcf9e7d5d21ef36ae973c22e0820a0b7",
+        "disposition": "distinct prompt sequence from the completed Dr Abdelwahab carrier; all source-first connective-tissue scopes collapse to its completed five-handle family"
+      },
+      "preservedSourceDefects": [
+        "text extraction skips Q54 although visual page 7 confirms it is present",
+        "Q3/Q32/Q76, Q19/Q22, Q20/Q102 and Q41/Q42 repeat normalized stems",
+        "printed wording, option-label anomalies and academically questionable keyed choices remain uncorrected"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 6538,
-    "printedKeyObservations": 6348,
+    "printedPromptObservations": 6685,
+    "printedKeyObservations": 6495,
     "namedConceptsAssigned": 36,
     "liveHits": 0,
     "pendingHits": 1,
     "newConcepts": 35
   },
   "remaining": {
-    "inventoryMetadataRows": 33,
-    "uniqueSha256": 32,
-    "sortedNewlineSha256": "4d3e7cff29a1138ad05da1693a31e39d0142075cd013c0bcf57dbc850a6f3a93",
+    "inventoryMetadataRows": 32,
+    "uniqueSha256": 31,
+    "sortedNewlineSha256": "45d4a7054914f13334f8be79639b331624f952b023e7a28c1a392541adc9bd8c",
     "auditSampleStatusCounts": {
       "audit-not-found": 12,
       "empty-text": 7,
       "sparse-text": 5,
-      "substantive-text": 9
+      "substantive-text": 8
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 12,
     "empty-text": 7,
     "sparse-text": 5,
-    "substantive-text": 9
+    "substantive-text": 8
   },
   "reconciliation": {
     "selectedUniqueSha256": 101,
-    "processedUniqueSha256": 69,
-    "remainingUniqueSha256": 32,
+    "processedUniqueSha256": 70,
+    "remainingUniqueSha256": 31,
     "processedPlusRemaining": 101
   }
 }

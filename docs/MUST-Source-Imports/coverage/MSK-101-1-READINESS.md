@@ -8,11 +8,13 @@ This is source-file readiness evidence, not content authorization. No module ID,
 
 ## Current checkpoint
 
-The sixty-nine completed read-only source hashes cover seventy selected inventory paths, represent forty-nine distinct prompt families and yield **6538 questions / 6348 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 14-page `Connective Tissue mcq (by Μοχάναντ)` file, SHA-256 `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`, contains **77 conventional MCQs on pages 1–13 / 77 answer-bearing prompts completed by the page-14 table / 0 written / 0 practical or image-identification / 0 unkeyed prompts**. Q76/Q77 additionally carry red inline selections matching the table and are counted once. Four repeated normalized stems leave 73 unique stems. The filename-only attribution and Word metadata author do not establish an exam, and all source-first scopes collapse to the completed connective-tissue family. The exactly-four-search gate resolves to **0 surviving handles × 4 = 0 new searches**, contributing **+77 questions / +77 answers / +0 concepts**.
+The seventy completed read-only source hashes cover seventy-one selected inventory paths, represent fifty distinct prompt families and yield **6685 questions / 6495 answer-bearing prompt observations / 36 tested concepts**, split **0 live-hit / 1 pending-hit / 35 new**, with placement TBD. The newly completed 19-page `Histo MCQ by Dr.Zahra [Connective Tissue]` file, SHA-256 `4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719`, contains **147 conventional text MCQs on pages 1–18 / 147 answer-bearing prompts completed by the page-19 model-answer table / 0 written / 0 practical or image-identification / 0 unkeyed prompts**. Visual review confirms the extraction-layer omission of Q54 is not a source omission. Five repeated-stem extra occurrences leave 142 unique normalized stems. The repeated Dr. Ahmed Zahra header establishes named-person teaching provenance but no institution or exam authority, and all source-first scopes collapse to the completed connective-tissue family. The exactly-four-search gate resolves to **0 surviving handles × 4 = 0 new searches**, contributing **+147 questions / +147 answers / +0 concepts**.
 
-Latest processed family hash: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
+Latest processed family hash: `4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719`.
 
-Recent processed family hash retained for reconciliation: `1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c`.
+Recent processed family hash retained for reconciliation: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
+
+Earlier processed family hash retained for reconciliation: `1e8ca2d4f2e6d8fa227174b0c6792f7b5162d2e2112c320fd95e6374ef81c39c`.
 
 Earlier processed family hash retained for reconciliation: `6a81ff498811e9eb7afd369d62063a768fab0a216701ef40b408e39275d66609`.
 
@@ -36,8 +38,10 @@ Prior processed-family append: `a0e19bb1825adf8c56999323078b76f82f76628c62ba5174
 
 Current processed-family append: `26e3b17cb883a9e2fb168dfde1b9d0dd86eecf18735ea731b97a7f2b4b59d369`.
 
-Removing them leaves **33 inventory paths / 32 unique SHA-256s**, checksum `4d3e7cff29a1138ad05da1693a31e39d0142075cd013c0bcf57dbc850a6f3a93`. The pinned remaining audit-review debt is 9 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
+Current processed-family append: `4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719`.
 
-The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histo MCQ by Dr.Zahra [Connective Tissue].pdf`, SHA-256 `4e481d399b2ffd65b97a711e91a266f90ca19d522ed1f88d48526d81dc8ec719`, 19 pages.
+Removing them leaves **32 inventory paths / 31 unique SHA-256s**, checksum `45d4a7054914f13334f8be79639b331624f952b023e7a28c1a392541adc9bd8c`. The pinned remaining audit-review debt is 8 substantive-text / 5 sparse-text / 7 empty-text / 12 audit-not-found rows. These are inventory audit labels, not claims about current live source text.
 
-**BLOCKED — S1 cannot be approved:** 33 selected inventory paths / 32 unique hashes remain untriaged.
+The next evidence-ranked source is `Year 1/Semester 101/MSK 101-1/Histology/08 Midterm Exams/Histo midterm night exercises 2026.pdf`, SHA-256 `1f8f6e6fce4d4bf68951c22b18ac702032f3e201f3c665d7c381cb0698e26e76`, 6 pages.
+
+**BLOCKED — S1 cannot be approved:** 32 selected inventory paths / 31 unique hashes remain untriaged.
