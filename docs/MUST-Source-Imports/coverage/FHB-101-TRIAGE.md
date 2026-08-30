@@ -3629,3 +3629,122 @@ The next evidence-ranked substantive source is the single 98-page Histology `05 
 SHA-256 `6ea8ad8bf30d8191cb7aa1d1a073efa5c5e8832a9182c96264db8fe8a1622af6`.
 
 **BLOCKED — S1 cannot be approved:** 66 selected source paths remain untriaged.
+
+## Completed source — MCQs - FHB 101 Histology_BenAhmed
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - FHB 101 Histology_BenAhmed.pdf` | `6ea8ad8bf30d8191cb7aa1d1a073efa5c5e8832a9182c96264db8fe8a1622af6` | 98 | substantive-text | pages 1–98 rendered and read | Local 2024/2025 Mucize Team supplementary study bank led by Youssef BenAhmed and naming Jana Mohamed, Ahmed Salama, Muhannad Mahmoud and Shahd Mohamed as content reviewers. Its disclaimer directs students to official resources and faculty guidance; it makes no official-paper, department-key, sitting or marks claim. |
+
+### Exact assessment and printed-answer boundary
+
+Pages 1–4 are cover, contributors, disclaimer and index. Pages 5–48 reproduce the complete
+cytogenetics assessment from the immediately preceding 48-page companion: 125 Basic MCQs,
+25 Kasr MCQs, two five-row Kasr matching tables, 30 Kandel MCQs and 20 short essays, all with
+directly printed answers. Pages 49–75 add 135 Basic epithelium MCQs: Surface Q1–Q70,
+Glandular/Myo/Neuro Q1–Q35 and Junction Q1–Q30. Pages 76–87 print Kasr Q1–Q73; page 88
+prints their complete key and two five-row matching tables; page 89 prints a third five-row
+matching table and all three matching keys. Pages 90–98 print Kandel Q1–Q44 and their complete
+terminal key.
+
+The exact visual inventory is therefore **477 complete prompt occurrences / 477 directly
+printed answer occurrences**: `210 cytogenetics + 135 Basic epithelium + 73 Kasr MCQs + 15
+Kasr matching rows + 44 Kandel MCQs`. Q74 and Q75 are table containers, not extra prompts;
+their fifteen independently answered rows are the prompts. Page 42's cytogenetics explanation
+and all answer tables/model answers are answer material, not additional assessment prompts.
+There are no numbering gaps, missing keys or orphan answers, and no answer was inferred or
+medically corrected.
+
+The new epithelium letter ledger is retained exactly as printed:
+
+```text
+Surface Q1–Q70: D B D B C | B A C A D | D A A B B | D C A B B | D D B C C | D B C C D | B D A C B | D B A B D | A C C C C | B B C D C | D B B C D | A B B B C | A C D B C | C D C C A
+Glandular/Myo/Neuro Q1–Q35: B A A B C | B C A A A | D B C A C | C A A A B | B B A A C | B B B A B | B D C A A
+Junction Q1–Q30: D B A B A | C C D B B | B A C A C | A D B C A | A B C D B | D B C C A
+Kasr Q1–Q73: D D C C A | D D B A B | B B D C D | D D C A B | A B D D B | D C A C B | D D D C A | C B A C D | A A C C B | D D C D C | A D D C C | B B D A B | C A D D D | C C D B D | A B D
+Kasr matching tables 1–3: D F E C G | C E B A F | E F C G A
+Kandel Q1–Q44: A B D A B | A E C&D B A | B A D C D | C D A D C | C D A C A&B | A D D A B | C D B D C | C B C C C | B D B C
+```
+
+Multi-letter Kandel answers `C&D` and `A&B`, and all questionable source claims, are preserved
+verbatim at this low-authority study-bank level.
+
+### Source-first handles, four-search replay, and prior-FHB dedupe
+
+The 210 cytogenetics occurrences reproduce the preceding companion page-for-page and retain
+its exact 28-handle, 112-search ledger and source disposition of **1 live / 6 pending / 21 new**.
+All 28 are exact prior-FHB duplicates and add no concept.
+
+For the epithelium half, `S`, `G`, `J`, `K`, `KT1`–`KT3`, and `D` identify the Surface,
+Glandular/Myo/Neuro, Junction, Kasr, three Kasr matching tables, and Kandel sequences. Every
+source-distinct handle below received exactly the four printed find-existing searches.
+
+| Printed refs | Source-distinct tested concept (exactly four search phrases) | External and prior-FHB disposition |
+|---|---|---|
+| S1–S3,S5–S8; K1–K3,K15; D7 | General epithelial origin, polarity, avascularity and regenerative characteristics (`general characteristics epithelial tissue`; `epithelium three germ layers`; `epithelial cell polarity`; `epithelium avascular regenerative`) | new externally; exact prior-FHB general-characteristics reuse — duplicate. |
+| S9–S23; K4–K8,K10,K12,K36–K38,K43–K44; KT1-1; KT2-4; D4,D12 | Simple-squamous structure, function, sites, endothelium and mesothelium (`simple squamous epithelium structure function`; `simple squamous diffusion filtration`; `endothelium mesothelium`; `simple squamous sites`) | new; prior FHB owns vascular lining only, not this expanded scope — new addition. |
+| S24–S28; K9,K11,K14,K35; KT1-5; KT2-3; D11,D13 | Simple-cuboidal structure, function, sites and brush border (`simple cuboidal epithelium structure function`; `cuboidal epithelium secretion absorption`; `thyroid renal tubule cuboidal`; `brush border cubical cells`) | new; prior FHB owns renal-tubule lining only — new addition. |
+| S29–S33; K16,K19,K27,K39; KT2-1; D42 | Simple-columnar structure, secretion/absorption, sites and goblet cells (`simple columnar epithelium structure function`; `columnar epithelium secretion absorption`; `goblet cells columnar epithelium`; `stomach intestine columnar lining`) | new; prior FHB owns gastric lining only — new addition. |
+| S34–S42; K17–K18,K41,K46; KT1-4; D14 | Pseudostratified-columnar structure and respiratory/reproductive sites (`pseudostratified columnar epithelium`; `respiratory epithelium trachea`; `vas deferens epididymis epithelium`; `pseudostratified all cells basement membrane`) | pending-hit; prior FHB owns individual tracheal/vas-deferens examples, not this expanded scope — pending addition. |
+| S44–S53; K20–K21,K45,K47; KT1-2; KT2-2; D17,D30 | Stratified-squamous layers, protection, keratinisation and sites (`stratified squamous epithelium`; `keratinized nonkeratinized epithelium`; `esophagus epidermis epithelium`; `stratified squamous basal superficial layers`) | pending-hit; prior FHB owns oral lining only — pending addition. |
+| S54–S58 | Stratified-cuboidal structure, protection and duct sites (`stratified cuboidal epithelium`; `stratified cubical gland ducts`; `sweat gland stratified cuboidal`; `stratified cuboidal protection`) | new — addition. |
+| S63–S64; K30–K31; D19 | Stratified-columnar structure and sites (`stratified columnar epithelium`; `male urethra stratified columnar`; `large gland ducts columnar`; `stratified columnar sites`) | pending-hit — addition. |
+| S59–S62; K22–K29,K42; KT1-3; D5,D15,D18,D39,D43 | Transitional epithelium, urothelial distension, dome cells and sites (`transitional epithelium urothelium`; `bladder epithelium distension`; `dome shaped umbrella cells`; `transitional epithelium layers`) | new; prior FHB owns full-bladder layer change only — new addition. |
+| S65–S70; K49,K72–K73; D20 | Smoking- and bilharziasis-associated epithelial metaplasia and progression risk (`epithelial metaplasia smokers`; `bronchial squamous metaplasia`; `bilharziasis bladder metaplasia`; `metaplasia cancer progression`) | new — addition. |
+| S4; G1,G9–G16; K48; D31 | Endocrine, exocrine, mixed, unicellular and multicellular gland categories (`endocrine exocrine mixed glands`; `unicellular multicellular glands`; `exocrine ducts endocrine blood`; `glandular epithelium classification`) | new — addition. |
+| G3–G8; K53–K54,K56,K59; D9 | Merocrine, apocrine and holocrine mechanisms and examples (`merocrine apocrine holocrine secretion`; `exocrine gland secretion mechanisms`; `salivary mammary sebaceous secretion`; `cell destruction secretion mode`) | new externally; exact prior-FHB three-mode mechanism reuse — duplicate. |
+| G2,G17; K50; D34 | Serous, mucous and mixed secretory products/examples (`serous mucous mixed glands`; `mucoserous gland secretion`; `parotid serous secretion`; `mucous serous secretory products`) | new; prior FHB owns mucous secretion alone — new addition. |
+| G18–G19,G24–G25 | Simple/compound and branched/unbranched duct architecture (`simple compound exocrine glands`; `branched unbranched duct system`; `exocrine gland architecture`; `compound gland tree-like ducts`) | new; prior FHB owns isolated tubular examples only — new addition. |
+| G20–G23; K51–K52,K55,K57–K58,K60–K61; D10 | Tubular, alveolar and tubulo-alveolar secretory-unit shapes/sites (`tubular alveolar tubuloalveolar glands`; `secretory unit shape glands`; `gastric intestinal salivary gland morphology`; `simple coiled branched tubular gland`) | new; expands the prior tubular-gland scope — new addition. |
+| G26–G30; K62; D44 | Myoepithelial contractility, location and glandular role (`myoepithelial cells`; `basket cells exocrine gland`; `actin myosin myoepithelium`; `myoepithelial mammary salivary`) | pending externally; exact prior-FHB myoepithelial reuse — duplicate. |
+| G31–G35; K32–K33; D8 | Sensory neuroepithelium and taste, auditory/equilibrium sites (`neuroepithelial cells`; `taste bud organ of Corti`; `neuroepithelium sensory receptor`; `macula crista neuroepithelium`) | new externally; exact prior-FHB sensory-neuroepithelium reuse — duplicate. |
+| J1,J20; K13; D2,D6,D21,D35 | Microvilli, brush border and terminal-web support (`microvilli terminal web`; `brush border actin microfilaments`; `microvilli absorption surface area`; `terminal web spectrin actin`) | new; prior FHB owns intestinal actin only — new addition. |
+| J4,J6,J15; K40,K63; KT2-5; D32,D36,D41 | Ciliary/flagellar axoneme, beating, sites and sperm-tail form (`ciliary axoneme microtubules`; `cilia rhythmic beating fluids`; `flagellum sperm tail`; `motile cilia sites`) | new; prior FHB owns axonemal arrangement only — new addition. |
+| S43; J8,J11,J13,J17; K34; D33 | Stereocilia as long microvilli in epididymis/vas deferens (`stereocilia long microvilli`; `epididymis stereocilia`; `vas deferens stereocilia`; `stereocilia absorption`) | new; expands the prior vas-deferens site — new addition. |
+| J5,J12,J16,J21; K66; KT3-1; D23,D40 | Tight-junction belt, zero-gap morphology and barrier function (`zonula occludens tight junction`; `tight junction zero intercellular space`; `junction restrict paracellular passage`; `tight junction apical belt`) | new; expands the prior apical-junction identification — new addition. |
+| K67–K68; KT3-2; D24–D26 | Zonula-adherens belt, actin attachment and intercellular spacing (`zonula adherens`; `adherens junction actin belt`; `adherens intercellular space 20 nm`; `adherens junction epithelium`) | pending-hit — addition. |
+| J2,J9,J18,J22; K65; KT3-3; D16 | Desmosomal plaques, tonofilaments, spacing and tissue role (`desmosome macula adherens`; `desmosome tonofilaments plaques`; `desmosome intercellular space 30 nm`; `stratified squamous desmosomes`) | new; expands the prior isolated desmosome scope — new addition. |
+| J7,J19; K64; D1,D28–D29,D38 | Gap-junction connexons, ionic communication and structure (`gap junction connexon`; `gap junction ions communication`; `connexon six subunits`; `nexus narrow gap`) | new; expands the prior smooth-muscle communication scope — new addition. |
+| J3,J14; KT3-4; D37 | Hemidesmosomal epithelial attachment to basement membrane (`hemidesmosome basement membrane`; `hemidesmosome basal cells`; `hemidesmosome epithelial attachment`; `hemidesmosome anchoring`) | new externally; exact prior-FHB full-junction-classification reuse — duplicate. |
+| KT3-5; D27 | Epithelial junctional-complex membership and intestinal site (`epithelial junctional complex`; `tight adherens desmosome complex`; `junctional complex intestinal cells`; `epithelial junction classification`) | new externally; exact prior-FHB full-junction-classification reuse — duplicate. |
+| J23,J25–J30; K69–K70; D22 | Basement-membrane ultrastructure, formation, stain and collagen/anchoring composition (`basement membrane ultrastructure`; `basal lamina reticular lamina`; `lamina lucida lamina densa collagen IV`; `basement membrane PAS type VII collagen`) | new; expands the prior two-layer/collagen-IV scopes — new addition. |
+| J10,J24; K71; D3 | Basal infoldings and mitochondria in ion-transporting epithelia (`ion transporting epithelial cells`; `basal infoldings mitochondria`; `striated duct basal infoldings`; `kidney tubule ion transport epithelium`) | new — addition. |
+
+All **267 epithelium prompt occurrences** are assigned exactly once. They collapse to **28
+handles**, and the query ledger reconciles as **28 × 4 = 112 searches** with source disposition
+**0 live / 5 pending / 23 new**. Six handles exactly reuse prior-FHB scope: general epithelial
+characteristics, secretion modes, myoepithelium, neuroepithelium, hemidesmosomal attachment and
+the junctional complex. The epithelium post-prior-FHB result is therefore **0 live / 4 pending /
+18 new = 22**.
+
+Across the complete 98-page source, the source-first ledger is **56 handles × 4 = 224
+searches** with external disposition **1 live / 11 pending / 44 new**. Exact prior-FHB
+comparison removes the 28 companion cytogenetics handles and the six epithelium handles above,
+leaving **0 live / 4 pending / 18 new = 22** additions.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+477
+questions / +477 directly printed answers / +22 concepts = +0 live / +4 pending / +18 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 2609 | 2345 | 424 | 66 | 83 | 275 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 83 + 275 = 424`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one substantive-text path and its unique hash leaves **65 selected inventory
+paths / 63 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing newline,
+has checksum `b4bd89c832020f64d0cd104c964e2afba1ab5e5e2a3ca07dc5a1fc47717f30fa`.
+Pinned triage debt becomes **22 substantive-text / six sparse-text / 37 empty-text** rows, and
+unique-hash accounting is **`43 + 63 = 106`**.
+
+The next evidence-ranked substantive source is the single 98-page Histology `05 MCQs` path
+`Year 1/Semester 101/FHB 101/Histology/05 MCQs/MCQs - FHB 101
+Histology_BenAhmed_Puplish.pdf`, SHA-256
+`1e2b05e259ae2eca175f3c97a985e7c3a1b37d489ecedaed74fcd810998730a3`.
+
+**BLOCKED — S1 cannot be approved:** 65 selected source paths remain untriaged.
