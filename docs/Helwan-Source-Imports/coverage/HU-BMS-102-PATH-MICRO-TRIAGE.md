@@ -8017,3 +8017,173 @@ folder placement; PDF metadata title `on control` and author `h` are non-authori
 provenance, teaching/prompt/answer boundary, and prior-BMS relationship are the next-source
 processing blockers: fully render and visually adjudicate the complete source before admitting
 any count.
+
+## Family 71 — tier-4 Capital University hand-hygiene lecture stored in the Helwan corpus
+
+### Source identity, complete visual boundary, and provenance-conflict ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_173699352aab6917ba0e` · `Hand hygiene.pdf` |
+| Local path | `BMS 102/Microbiology/Theoretical/Lec 8 - Hand Hygiene/Hand hygiene.pdf` |
+| SHA-256 / size | `173699352aab6917ba0e2a0ec106fe2ba24ff46b23d3341ec2915dfdb2ce7ee5` · 4,841,961 bytes |
+| Format / read boundary | 72 native-text landscape 720×540-point pages; native text extracted, all 72 pages rendered at 105 dpi and read in nine ordered contact sheets, and every prompt-bearing or prompt-like page reopened at full-page resolution |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Theoretical` · tier 4; `originUniversityHint` is null |
+| Visible provenance | The p. 1 cover attributes `Hand hygiene` to Dr. Esraa Farag, Lecturer of Medical Microbiology & Immunology, Faculty of Medicine, **Capital University** |
+| Provenance adjudication | The explicit cover attribution controls authorship: this is Capital University teaching material stored inside the Helwan BMS-102 folder, not Helwan-authored material. PDF title `on control` and author `h` are incomplete software metadata and do not override the visible institutional attribution. The manifest is preserved unchanged. |
+| Authority | Externally authored theoretical teaching deck with embedded teaching questions and two blank competency checklists; no examiner, sitting, date, marks, candidate instructions, departmental question-bank designation, or official exam key |
+
+The deck uses three response patterns. Eighteen complete questions have an answer or teaching map
+printed on the same or immediately following slide. Pages 51–52 are blank Yes/No competency
+checklists: the response columns make each of their 32 procedural criteria a complete unkeyed
+prompt occurrence, while the ordered criteria collapse to one tested procedure handle per
+checklist. Page 44's six elliptical `Important tips` entries have question marks but lack a
+requested predicate, option set, response field, or mapped answer; they remain excluded prompt-
+like residues. Headings, objectives, diagrams, photographs, declarative procedures, and the p. 6
+infection-chain map are not recast as questions.
+
+| Physical pages | Complete content boundary | Prompt / printed-answer ruling |
+|---:|---|---:|
+| 1–2 | Capital University cover, main goal, and objectives | provenance/teaching only; **0 / 0** |
+| 3–5 | infection definition, infection-control definition, and why infection control is needed | **3 / 3** teaching-reveal mappings |
+| 6–8 | infection-chain diagram and standard-precaution transition | declarative/illustrative teaching only; **0 / 0** |
+| 9 | `What?`, `Why?`, and `When?` for standard precautions, each aligned to printed text | **3 / 3** |
+| 10–11 | standard-precaution map and number-one HAI-prevention question with hand-hygiene answer | **1 / 1** |
+| 12–23 | hand-hygiene history, resident/transient flora, hand transmission, missed areas, evidence images, and definition | declarative/illustrative teaching only; **0 / 0** |
+| 24 | why hand hygiene should be practised, with patient and provider benefits | **1 / 1** |
+| 25–27 | routine, antiseptic, and surgical hand-hygiene definitions and maps | declarative teaching only; **0 / 0** |
+| 28–29 | when/how to select alcohol rub versus soap/water, and the best point-of-care method | **2 / 2** |
+| 30–33 | time comparison, products, selection factors, and five-moments overview | declarative teaching only; **0 / 0** |
+| 34–38 | one examples question for each of five hand-hygiene indications, with printed example lists | **5 / 5**; identical wording retained because each slide supplies a different explicit indication/input |
+| 39–43 | hand-rub/handwash and surgical-hand-hygiene teaching diagrams and procedures | declarative teaching only; **0 / 0** |
+| 44 | six elliptical question-mark `Important tips` entries | **6 excluded residues / 0**; none enters prompt, retention, or handle totals |
+| 45–48 | products, contamination images, point-of-care examples, and compliance formula | declarative/illustrative teaching only; **0 / 0** |
+| 49 | how to improve compliance, with predisposing, enabling, and reinforcing factors | **1 / 1** |
+| 50 | `Now let's check` transition | transition only; **0 / 0** |
+| 51 | twelve-row alcohol-hand-rub performance checklist with blank Yes/No columns | **12 / 0** |
+| 52 | twenty-row soap-and-water performance checklist with blank Yes/No columns | **20 / 0** |
+| 53–55 | handwashing image, PPE heading, and PPE definition | declarative/illustrative teaching only; **0 / 0** |
+| 56 | how to select PPE, with transmission-risk-assessment answer | **1 / 1** |
+| 57–65 | PPE/glove types, indications, photographs, change rules, and mask types | declarative teaching only; **0 / 0** |
+| 66 | role of surgical masks, with three printed role statements | **1 / 1** |
+| 67–72 | respirators, eye/face protection, gowns, footwear, head cover, and closing | declarative/illustrative teaching only; **0 / 0** |
+
+The complete source therefore contains **50 complete prompt occurrences / 18 printed teaching-
+answer occurrences / 32 unkeyed prompt occurrences**. There are no literal prompt copies: the
+identically worded pp. 34–38 question is bound to five visibly different indication inputs, and
+shared rubbing actions on pp. 51–52 belong to two different evidenced procedures. All **50**
+records are retained. The 12 alcohol-rub criteria test one ordered performance sequence and the
+20 soap-and-water criteria test a second, producing `50 - 30 semantic reductions = 20 source-
+distinct tested handles`.
+
+### Prompt, teaching-answer, checklist, and prior-BMS assignment
+
+| Ref(s) | Page(s) | Complete source-tested scope / answer status | Handle / prior assignment |
+|---|---:|---|---|
+| F71-Q01 | 3 | Meaning of infection as parasite/pathogen contact with the host causing disease; printed definition | `infection-pathogenic-host-contact-disease-definition` · exact Family 7 Q02 general-infection-definition reuse |
+| F71-Q02 | 3–4 | Infection control as facility policies/procedures minimizing spread among patients, workers, and visitors; printed definition | `infection-control-facility-policy-procedure-definition` · new |
+| F71-Q03 | 5 | Why infection control is needed; close care, frequent infected/carrier–susceptible contact, and risky procedures | `infection-control-need-close-contact-susceptibility-procedures` · new |
+| F71-Q04 | 9 | What standard precautions are; universal treatment of body fluids, fresh tissue, and human cells as infected | `standard-precautions-universal-fluid-tissue-assumption-definition` · new |
+| F71-Q05 | 9 | Why standard precautions are needed; asymptomatic cases and carriers | `standard-precautions-asymptomatic-carrier-rationale` · new; distinct from prior carrier-significance prompts |
+| F71-Q06 | 9 | When standard precautions apply; at all times in all healthcare facilities | `standard-precautions-all-times-healthcare-facilities` · new |
+| F71-Q07 | 11 | Number-one way to prevent healthcare-associated infection; hand hygiene | `hand-hygiene-primary-healthcare-associated-infection-prevention` · exact Family 53 Q10 reuse |
+| F71-Q08 | 24 | Why practise hand hygiene; reduce spread to patients and provider colonization/infection | `hand-hygiene-benefits-patient-and-provider-transmission-reduction` · new |
+| F71-Q09 | 28 | When to use alcohol sanitizer versus soap and water; printed indication sets | `alcohol-rub-versus-soap-water-indications` · new; broader than prior single-scenario prompts |
+| F71-Q10 | 29 | Best point-of-care method; alcohol rub unless visibly soiled, with printed reasons | `point-of-care-alcohol-hand-rub-unless-visibly-soiled` · new; not the prior location/remote-sink scenario |
+| F71-Q11 | 34 | Examples for before touching a patient | `five-moments-before-patient-contact-examples` · new; broader than Family 53's first-moment identification |
+| F71-Q12 | 35 | Examples for before a clean/aseptic procedure | `five-moments-before-clean-aseptic-procedure-examples` · new |
+| F71-Q13 | 36 | Examples for after body-fluid-exposure risk | `five-moments-after-body-fluid-exposure-risk-examples` · new |
+| F71-Q14 | 37 | Examples for after touching a patient | `five-moments-after-patient-contact-examples` · new |
+| F71-Q15 | 38 | Examples for after touching patient surroundings | `five-moments-after-patient-surroundings-examples` · new |
+| F71-Q16 | 49 | How to improve compliance; predisposing, enabling, and reinforcing factor sets | `hand-hygiene-compliance-predisposing-enabling-reinforcing-factors` · new |
+| F71-Q17–Q28 | 51 | Twelve blank Yes/No criteria: jewellery removal, alcohol volume, palm/dorsum/interlaced-finger/back-of-finger/thumb/fingertip rubbing, and drying | `alcohol-hand-rub-observation-checklist-sequence` · 12 retained criteria collapse to one sequence handle; unkeyed; new |
+| F71-Q29–Q48 | 52 | Twenty blank Yes/No criteria: jewellery removal, water setup, soap, rubbing, rinse, single-use towel, drying, faucet closure, and disposal | `soap-water-handwashing-observation-checklist-sequence` · 20 retained criteria collapse to one sequence handle; unkeyed; new |
+| F71-Q49 | 56 | How to select PPE; assess transmission risk from worker/environment to patient and vice versa | `ppe-selection-transmission-risk-assessment` · new; distinct from Family 64's PPE purposes/scenarios |
+| F71-Q50 | 66 | Surgical-mask roles: not full respiratory protection, droplet/splash barrier, and source control | `surgical-mask-source-control-and-splash-barrier-roles` · exact Family 64 Q05 reuse |
+
+The p. 51 and p. 52 rows share several words and rubbing actions, but are not literal prompt
+copies: each row is visibly embedded in a different alcohol-compound versus soap/water form.
+Retention preserves every response line; handle collapse prevents component steps from falsely
+inflating the two source-tested procedural sequences.
+
+### Four-query search register and exact-scope adjudication
+
+Each of the 20 handles received exactly four fresh source-first searches across live state,
+every pending import root, and prior BMS-102 evidence: **80 required searches**. Reopened
+external disposition is **1 live / 0 pending / 19 no same-scope**. Live
+`CON-INF-30D065F4FAEC4A` supplies the central hand-hygiene/healthcare-infection-prevention
+relation for Q07; broader infection-control, aseptic-technique, transmission, or PPE records do
+not cover the other complete source scopes.
+
+| Handle · ref(s) | Exactly four required queries | External exact-scope result | Prior BMS-102 relation |
+|---|---|---|---|
+| `infection-pathogenic-host-contact-disease-definition` · Q01 | `infection parasite host contact disease definition`; `infection pathogenic microorganism invasion host`; `microbial infection definition host disease`; `infection process organism contacts host` | no same-scope | exact Family 7 Q02 reuse |
+| `infection-control-facility-policy-procedure-definition` · Q02 | `infection control policies procedures definition`; `infection control healthcare facility risk spread`; `infection prevention control definition policies`; `infection control minimises infection spread` | no same-scope | none; delta |
+| `infection-control-need-close-contact-susceptibility-procedures` · Q03 | `why infection control healthcare close contact`; `infection control frequent contact susceptible patients`; `procedures increase infection risk healthcare`; `need infection control hospitals workers patients` | no same-scope | none; delta |
+| `standard-precautions-universal-fluid-tissue-assumption-definition` · Q04 | `standard precautions definition all body fluids`; `standard precautions fresh tissue cells infected`; `universal precautions treat body fluids infected`; `first level precautions infection control` | no same-scope | none; delta |
+| `standard-precautions-asymptomatic-carrier-rationale` · Q05 | `standard precautions asymptomatic carrier rationale`; `why standard precautions asymptomatic cases`; `unrecognized infection carrier standard precaution`; `standard precautions regardless infection status` | no same-scope | none; delta |
+| `standard-precautions-all-times-healthcare-facilities` · Q06 | `standard precautions all times healthcare facilities`; `when apply standard precautions every patient`; `standard precautions always all healthcare settings`; `standard precautions routine patient care timing` | no same-scope | none; delta |
+| `hand-hygiene-primary-healthcare-associated-infection-prevention` · Q07 | `hand hygiene number one prevent healthcare associated infection`; `most effective HAI prevention hand hygiene`; `healthcare associated infection primary prevention handwashing`; `hospital infection prevention hand hygiene` | live `CON-INF-30D065F4FAEC4A`; same central prevention relation | exact Family 53 Q10 reuse |
+| `hand-hygiene-benefits-patient-and-provider-transmission-reduction` · Q08 | `hand hygiene protects patients healthcare providers`; `hand cleaning reduces germ spread provider colonization`; `benefits hand hygiene patient worker infection`; `hand hygiene prevent cross transmission both directions` | no complete bidirectional same-scope record | none; delta |
+| `alcohol-rub-versus-soap-water-indications` · Q09 | `alcohol hand rub versus soap water indications`; `visibly soiled infectious diarrhea spores soap water`; `when use sanitizer versus handwashing healthcare`; `hand hygiene method selection alcohol soap` | no same-scope | none; delta |
+| `point-of-care-alcohol-hand-rub-unless-visibly-soiled` · Q10 | `point of care alcohol hand rub unless visibly soiled`; `best hand hygiene method point of care`; `alcohol rub preferred when hands not visibly dirty`; `point of care hand sanitizer recommendation` | no same-scope | none; delta |
+| `five-moments-before-patient-contact-examples` · Q11 | `before touching patient hand hygiene examples`; `five moments moment one direct contact examples`; `hand hygiene before patient contact pulse blood pressure`; `WHO moment 1 patient contact activities` | no same-scope | none; delta |
+| `five-moments-before-clean-aseptic-procedure-examples` · Q12 | `before clean aseptic procedure hand hygiene examples`; `five moments moment two aseptic examples`; `hand hygiene before wound dressing catheter insertion`; `WHO moment 2 clean aseptic activities` | no same-scope | none; delta |
+| `five-moments-after-body-fluid-exposure-risk-examples` · Q13 | `after body fluid exposure risk hand hygiene examples`; `five moments moment three body fluids`; `hand hygiene after secretion aspiration waste handling`; `WHO moment 3 body fluid activities` | no same-scope | none; delta |
+| `five-moments-after-patient-contact-examples` · Q14 | `after touching patient hand hygiene examples`; `five moments moment four direct contact examples`; `hand hygiene after patient examination palpation`; `WHO moment 4 patient contact activities` | no same-scope | none; delta |
+| `five-moments-after-patient-surroundings-examples` · Q15 | `after touching patient surroundings examples`; `five moments moment five environment`; `hand hygiene bed rail bedside table linen`; `WHO moment 5 patient surroundings activities` | no same-scope | none; delta |
+| `hand-hygiene-compliance-predisposing-enabling-reinforcing-factors` · Q16 | `hand hygiene compliance predisposing enabling reinforcing factors`; `improve hand hygiene compliance knowledge skills feedback`; `hand hygiene compliance supervisor support equipment`; `infection control compliance behavioral factors` | no same-scope | none; delta |
+| `alcohol-hand-rub-observation-checklist-sequence` · Q17–Q28 | `alcohol hand rub observation checklist sequence`; `hand rub palm dorsum fingers thumbs fingertips`; `alcoholic compound cover all hand surfaces steps`; `WHO handrub technique competency checklist` | no same-scope | none; delta |
+| `soap-water-handwashing-observation-checklist-sequence` · Q29–Q48 | `soap water handwashing observation checklist sequence`; `hand wash rinse dry single use towel faucet`; `handwashing palm dorsum thumbs fingertips procedure`; `WHO handwash technique competency checklist` | no same-scope | none; delta |
+| `ppe-selection-transmission-risk-assessment` · Q49 | `PPE selection transmission risk assessment`; `select protective equipment risk microorganisms`; `personal protective equipment chosen by exposure risk`; `PPE risk from worker environment to patient` | no same-scope | none; delta |
+| `surgical-mask-source-control-and-splash-barrier-roles` · Q50 | `role surgical masks source control droplets splash barrier`; `surgical mask protects surroundings not wearer`; `surgical mask wound contamination healthcare worker droplets`; `surgical mask barrier nose mouth large droplet splash` | no same-scope | exact Family 64 Q05 reuse |
+
+Three handles are exact prior-BMS reuses: Q01, Q07, and Q50. Therefore **20 - 3 = +17
+concepts**.
+
+| Measure | Family 71 | Auxiliary cumulative (Families 12–71) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 50 | 723 | 765 | 1,488 |
+| Printed teaching-answer occurrences | 18 | 376 | 405 | 781 |
+| Complete unkeyed prompt occurrences | 32 | — | — | tracked separately |
+| Incomplete prompt-like residues | 6 excluded | — | — | tracked separately |
+| Retained question records | 50 | 686 | 552 | 1,238 |
+| Source-distinct tested handles / required searches | 20 / 80 | 621 / — | — | — |
+| External live / pending / no same-scope | 1 / 0 / 19 | — | — | family-local disposition |
+| Prior-BMS exact handle reuses | 3 | — | — | subtract before concept addition |
+| Cross-family concept delta | +17 | +433 over primary | 372 | `372 + 433 = 805` |
+| **Distinct tested concepts** | **+17** | **433 auxiliary additions** | **372** | **805** |
+
+The checksum closes without remainder: `50 complete prompts - 18 printed answers = 32`
+unkeyed occurrences; the six incomplete residues remain outside all prompt totals; retention is
+`50 - 0 copies = 50`; handle assignment is `50 - 30 semantic reductions = 20`; searches are
+`20 × 4 = 80`; external disposition is `1 + 0 + 19 = 20`; and concept arithmetic is `20 - 3
+prior exact reuses = 17`. Auxiliary cumulative arithmetic is `673 + 50 = 723` prompts, `358 +
+18 = 376` answers, `636 + 50 = 686` retained records, `601 + 20 = 621` source handles, and
+`416 + 17 = 433` concept additions. All eligible arithmetic is `765 + 723 = 1,488`, `405 + 376
+= 781`, `552 + 686 = 1,238`, and `372 + 433 = 805`.
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary is now
+**723 / 376 / 686 / 621 / +433**; and all eligible evidence is
+**1,488 / 781 / 1,238 / 805**. This externally authored teaching lecture contributes only
+auxiliary question/reveal and blank competency-checklist evidence. It cannot establish Helwan
+authorship or independently raise exam/sitting, recurrence, mark-weight, official-key,
+readiness, or claims status.
+
+### Exact next debt after Family 71
+
+`src_173699352aab6917ba0e` is exhausted across all 72 pages: every provenance/objective/
+closing page, declarative teaching slide, complete question, printed teaching answer, blank
+Yes/No response criterion, incomplete residue, retained record, semantic checklist collapse,
+handle, search row, prior-BMS reuse, and Capital-University-versus-Helwan-folder provenance
+decision is assigned once, with **zero source remainder** and no Family-71 blocker. The next
+manifest-ordered unprocessed BMS-102 record is tier-4 `src_96d779ff8df7da5cf16c` · `lec8
+General virology 2.pdf`, SHA-256
+`96d779ff8df7da5cf16c7a6349b8594fc8f1a9d34168df587302e5a86d82cbda`, 2,849,607 bytes, 53
+native-text landscape 720×540-point pages under `Microbiology / Theoretical / Lec 9 - General
+Virology & Mycology`. Its p. 1 cover attributes `General virology / General mycology` to Dr.
+Reem Abdelrahman, Lecturer of Microbiology and Immunology, Faculty of Medicine, Helwan
+University, for 2024–2025; PDF metadata title `Microbiology` and author `Esraa` require source-
+visible adjudication. Its unread teaching/prompt/answer boundary and metadata-versus-cover
+provenance are the next-source processing blockers: fully render and visually adjudicate the
+complete source before admitting any count.
