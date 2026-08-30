@@ -19676,3 +19676,103 @@ The exact next unprocessed manifest record is `src_d270bc32d14620134e75` ·
 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 1 - Orientation`.
 Its visible 2025/2026 authority boundary, complete teaching/prompt/callout/practical split,
 prior-BMS reuse, and subsequent exact next-source debt remain to be separately reconciled.
+
+## Family 187 — Nahed Soliman BMS-102 Introduction to Pathology and Adaptation lecture
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-4 `src_d270bc32d14620134e75` · `Main_stream_Lecture_1_introduction_to_pathology_adaptation_2026.pdf` under the exact local `Pathology / Theoretical / Lec 1 - Orientation` folder |
+| SHA-256 / exact size | `d270bc32d14620134e75fc33684afd3f45a1a98835dd77bfecf1ec1e7e16416a` · **3,736,657 bytes** |
+| Format / complete read | **82 native-text 960×540-point landscape pages**. All 82 pages were rendered into 82 non-empty 1467×825-pixel images and read individually at original detail. Coherent native extraction contains **2,438 words / 24,280 bytes** and agrees with the visible title, protocol forms, reports, labelled figures, interactive items, source-supplied answer, and terminal dysplasia slide. |
+| Visible current authority | Page 1 visibly prints Faculty of Medicine, Helwan University, Academic Year 2025/2026, Year 1, Semester 2, and Basic Medical Science `BMS-102`. Page 2 visibly credits **Nahed Soliman**, Assistant Professor of Pathology and Head of Pathology Department, and prints 20 February 2026; page 3 repeats `BMS-102`, Helwan, the date, and `Section Orientation & Adaptation — Part 1`. These current cover/author fields establish a dated Helwan BMS-102 teaching lecture. |
+| Reused-template cautions | Pages 4 and 63 alone carry the footer `PAT&THR-204`, and pp.65–67 show a Helwan National University logo while retaining the present-deck date/content. They are isolated imported-template residues inside the otherwise continuous BMS-102 carrier and do not override the current cover, author, module, year, or lecture identity. |
+| Metadata caution | PDF metadata names `Shaimaa Helmy` as author and Microsoft PowerPoint 2016 as creator/producer, with a 20 February 2026 creation/modification timestamp. The conflicting metadata author is retained as carrier history; the visible Nahed Soliman credit controls source-facing authorship. |
+| Authority | Current tier-4 Helwan theoretical teaching material with an explicit interactive-question block. It supports auxiliary prompt evidence, not an authenticated exam sitting, official departmental key, mark scheme, candidate response, or practical station. |
+
+### Complete page-first teaching, prompt, supplied-answer, callout, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–4 | Current cover, author/module/date, section title, and learning objectives | Provenance and completed teaching plan; objective verbs are curriculum statements, not candidate tasks; **0 prompts / 0 answers / 0 practical**. |
+| 5–32 | Resources; pathology definitions, signs/symptoms/lesions, branches; completed gross/cytology images; diagnostic-pathology and laboratory-method definitions | Declarative teaching and labelled illustrations; no image-identification request or response field; **0 / 0 / 0**. |
+| 33–36 | Surgical-pathology request/acquisition protocol and a blank example request form | The lines, check boxes, and patient/clinician fields are the object being taught, not a student response sheet or assessment blank; **0 / 0 / 0**. |
+| 37–56 | Fixation, gross room, processing, cryostat/H&E, pathology-report components and completed sample reports, special stains, IF/EM/IHC/molecular methods, and labelled renal technique examples | Completed teaching workflow, report examples, and diagnostic-method plates; **0 / 0 / 0**. |
+| 57–63 | Seven slides explicitly headed `INTERACTIVE QUESTION`: pathology definition; pathology as a basic/clinical-science link; body-fluid branch; cytopathology specimen type; disease sign; frozen-section use; and renal-glomerular IF use | **7 text MCQs / 0 supplied answers / 7 unkeyed**. Options have uniform formatting; stray literal `**` characters and repeated slide/page numbers are text/layout residue, not answer marks. |
+| 64 | `INTERACTIVE QUESTION`: differentiate anatomic from clinical pathology, followed on the same slide by both completed definitions | **1 written prompt / 1 source-supplied teaching answer / 0 unkeyed**. The adjacent answer is source evidence, not an official key. |
+| 65–68 | Response-to-injury and adaptation flowcharts, definition, types, and atrophy map | Completed teaching; **0 / 0 / 0**. |
+| 69–76 | Hypertrophy and hyperplasia sequence, then metaplasia definition/causes; command-form red headings ask to define/list/describe while the sequence immediately supplies the requested teaching content | **4 excluded lecture-outline callouts / 0 assessment prompts**. Pages 69 and 72 are section-preview scaffolds answered by the following teaching slides; pp.75–76 contain the requested definition/list directly on the same slide. None is headed interactive question, offers an assessment response frame, or carries an exam/station marker. |
+| 77–82 | Labelled epithelial, connective-tissue, and mesothelial metaplasia examples; dysplasia definition, features, grades, and fate | Completed teaching and labelled diagrams; **0 / 0 / 0**. |
+
+The exact governed assessment boundary is therefore **8 raw prompt occurrences = 7 text MCQs +
+1 written operation**, with **1 source-supplied answer + 7 visibly unkeyed operations**. There
+are **0 image prompts, 0 drawing tasks, 0 practical stations, 0 candidate responses, 0
+unassigned residues, and 4 excluded command-form teaching callouts**. All protocol-form blanks,
+sample-patient fields, sample reports, labelled photographs/micrographs, diagram nodes, teaching
+lists, asterisks, imported footers/logos, and page-number overlays are assigned without becoming
+extra prompts or answers.
+
+### Source-first handle inventory, exactly four searches each, and prior-BMS reconciliation
+
+All eight prompt wordings are complete and distinct, so the source retains **8 question records
+and 8 source-distinct tested handles**. Every handle received exactly four fresh searches across
+live governed state, `docs/questions-import-ready`, Helwan coverage, and prior BMS Families
+1–186: **`8 × 4 = 32 required and completed searches`**.
+
+| Ref / accepted handle | Exactly four required queries | External exact-scope disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| p.57 · `pathology-structural-functional-abnormalities-disease-definition` | `The science of pathology is best defined`; `study of structural and functional abnormalities due to disease`; `pathology structural functional abnormalities disease`; `pathology defined abnormal structural functional changes` | no same-scope | Family 125 tests pathology as study of disease at cell level, a different definition scope; **delta** |
+| p.58 · `pathology-link-basic-clinical-sciences` | `Pathology acts as a link between`; `basic medical sciences and clinical sciences`; `pathology bridge basic clinical sciences`; `pathology link clinical basic medical` | no same-scope | prior teaching states the bridge but no accepted prompt tests it; **delta** |
+| p.59 · `clinical-pathology-body-fluids-branch` | `branch dealing with body fluids such as blood and urine`; `body fluids blood urine clinical pathology`; `clinical pathology blood urine body fluids`; `clinical pathology disease changes body fluids secretions` | no same-scope | prior completed definitions do not create a tested handle; **delta** |
+| p.60 · `cytopathology-isolated-cells-fna-fluids` | `Cytopathology involves examination of`; `isolated cells from FNA or fluids`; `cytopathology FNA fluids isolated cells`; `cytopathology examination cells body fluids` | no same-scope | prior cytopathology teaching has no accepted same-scope prompt; **delta** |
+| p.61 · `disease-sign-objectively-detected-clinician` | `A sign of disease is`; `what is detected by a clinician`; `sign objective detected clinician`; `disease sign clinician detects` | no same-scope | prior sign/symptom definitions are teaching only; **delta** |
+| p.62 · `frozen-section-rapid-intraoperative-diagnosis` | `Frozen section is mainly used for`; `rapid intraoperative diagnosis`; `frozen section rapid diagnosis intraoperative`; `frozen section used during surgery diagnosis` | no same-scope | exact Family-98 tested-handle reuse, repeated in Family 125 |
+| p.63 · `renal-glomerular-disease-immunofluorescence` | `immunofluorescence study is commonly required`; `renal glomerular diseases immunofluorescence`; `immunofluorescence glomerular disease diagnosis`; `renal pathology immunofluorescence glomeruli` | no same-scope | exact Family-98 renal immune-deposit/immunofluorescence scope reuse |
+| p.64 · `anatomic-versus-clinical-pathology-tissue-fluid-comparison` | `Differentiate between anatomic pathology and clinical pathology`; `anatomic pathology clinical pathology tissue body fluids`; `anatomic clinical pathology difference`; `clinical pathology body fluids anatomic tissue organs` | no same-scope | prior completed comparisons are teaching only and no accepted handle tests the full contrast; **delta** |
+
+External exact-scope arithmetic is **0 live / 0 pending / 8 no same-scope**. Prior-BMS
+reconciliation assigns **2 exact handle reuses** and **6 new scopes**, so **`8 - 2 = +6
+concepts`**. Teaching overlap with Families 85 and 109 remains source support only and does not
+zero a genuine present interactive prompt.
+
+### Family-187 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 187 | Auxiliary cumulative (Families 12–187) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw prompt occurrences | 8 = 7 MCQ + 1 written | 2,475 | 762 | 3,237 |
+| Source-supplied answers | 1; 7 unkeyed | 1,668 | 405 | 2,073 |
+| Retained question records | 8 | 2,185 | 552 | 2,737 |
+| Accepted handles / required searches | 8 / 32 | 1,971 / — | — | — |
+| Prior-BMS handle reuses | 2 | — | — | — |
+| Cross-family concept delta | +6 | +953 over primary | 372 | 1,325 |
+| **Distinct tested concepts** | **8 source-local** | **953 additions** | **372** | **1,325** |
+
+Checksums: `7 + 1 = 8 prompts`; `1 + 7 = 8 answer states`; `8 - 0 literal exclusions = 8
+retained`; `8 - 0 semantic reductions = 8 handles`; `8 × 4 = 32 searches`; and `8 - 2 = +6`.
+Auxiliary arithmetic is `2,467 + 8 = 2,475`, `1,667 + 1 = 1,668`, `2,177 + 8 = 2,185`,
+`1,963 + 8 = 1,971`, and `947 + 6 = 953`. All eligible arithmetic is `762 + 2,475 =
+3,237`, `405 + 1,668 = 2,073`, `552 + 2,185 = 2,737`, and `372 + 953 = 1,325`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary is now **2,475 prompts / 1,668 answers /
+2,185 retained / 1,971 handles / +953 concepts**. All eligible is **3,237 / 2,073 / 2,737 /
+1,325**. Family 187 establishes current Helwan theoretical teaching and interactive-question
+evidence only, not an exam sitting, official departmental key, mark weight, candidate response,
+practical station, readiness, or claims status.
+
+### Exact next debt after Family 187
+
+`src_d270bc32d14620134e75` is exhausted across all 82 pages: every visible current-authority and
+metadata field, imported-template residue, teaching slide, protocol form, sample report, labelled
+image, interactive MCQ, written prompt, supplied/absent answer, command-form teaching callout,
+search packet, prior-family relation, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-187 blocker.
+
+The exact next unprocessed manifest record is tier-4 `src_1a05cf28311f19f1ef29` · `SMP neoplasia
+2 2026.pdf`, SHA-256
+`1a05cf28311f19f1ef298824a3b3c7c5b22ce8423cca16c9e47fd62eec94b6e6`, **4,765,724 bytes**,
+**97 native-text 960×540 landscape pages** under `Pathology / Theoretical / Lec 10 - Neoplasia
+2`. Its first visible text identifies Academic Year 2025/2026, Year 1, Semester 2, and BMS-102,
+while metadata names `Mohammed Abdel-Latif`; its complete visual authority, teaching/prompt/key/
+callout/practical boundary, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.

@@ -17954,3 +17954,110 @@ unencrypted; 367.7 × 520.118 pt; SHA-256
 is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 63
 tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 168 — Tier-6 skull, mandible and head-and-neck muscle-model atlas
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_772ad6c973b22b2c1ab4` / `772ad6c973b22b2c1ab442cee8b84ed520d4daec317bd89cf7513f98c495e389` |
+| File / boundary | `DOC-20250629-WA0056_250703_123608 (1).pdf` · 2,768,328 bytes · PDF 1.7 · unencrypted · 14 native-text pages · 367.7 × 520.118 pt |
+| Manifest placement | `HU-LCS-103` · All Subjects · Notes and Summaries · tier 6 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Notes and Summaries/DOC-20250629-WA0056_250703_123608 (1).pdf` |
+| Visible / metadata provenance | The pages print supplied handwritten labels and view-specific model photographs but no title page, author, institution, lecturer, module, citation, exam label or key convention. PDF metadata names PDFium creator/producer and supplies no dates or author. |
+| Authority finding | Manifest placement establishes course-local LCS-103 summary evidence. With no visible authorship or assessment convention, it is unattributed tertiary practical-teaching evidence, not a sitting, response form or official key. |
+
+The assigned SHA-256, byte size, 14-page count and page geometry were recomputed and match.
+All 14 pages were rendered at 140 dpi, inspected individually at full resolution and read
+against the complete native text layer. They contain external and inferior skull views,
+mandibular views, facial/scalp/neck models and suprahyoid/infrahyoid models. Pages 3, 4, 6 and
+7 contain two source-distinct views each, p. 8 contains three, and every other page contains
+one; the complete physical boundary is 20 model-view plates.
+
+There is **no assessment inventory**. No page prints an instruction to identify, response
+field, option set, blank, mark allocation, correctness mark, answer reveal or key convention.
+Page 14's numbered anatomy model supplies four legend entries but no prompt or answer
+instruction, so its six remaining numbers are governed as unresolved practical callouts, not
+silently promoted into assessment items. The exact assessment boundary is **0 eligible or
+external prompts / 0 keys-or-answers / 0 written prompts / 0 unkeyed prompts / 0 practical or
+station prompts / 0 practical assessment keys**.
+
+Source wording is preserved without correction, including `tempro-mandibular`, `condiloid`,
+`elabsoid`, `pelly`, `sternomastoid`, `genial tuberde`, `mylo-hyoid`, `occipto-frontalis` and
+the source's inconsistent hyphenation. No spelling or anatomical inference creates a mapping.
+
+### Complete practical-plate, mapping and residue inventory
+
+| Physical page | Source-first practical composition | Plates | Supplied mappings | Unresolved residues |
+|---:|---|---:|---:|---:|
+| 1 | lateral skull landmarks | 1 | 3 | 0 |
+| 2 | inferior skull-base landmarks | 1 | 4 | 0 |
+| 3 | two inferior skull-base attachment/joint views | 2 | 10 | 0 |
+| 4 | frontal and lateral skull muscle-attachment views | 2 | 3 | 0 |
+| 5 | lateral mandible landmarks | 1 | 6 | 0 |
+| 6 | two internal mandible attachment views | 2 | 3 | 0 |
+| 7 | lateral and medial mandible attachment/TMJ views | 2 | 8 | 0 |
+| 8 | platysma, geniohyoid/digastric and mylohyoid views | 3 | 4 | 0 |
+| 9 | half-face and anterior-neck model | 1 | 5 | 0 |
+| 10 | posterolateral scalp/neck model | 1 | 3 | 0 |
+| 11 | lateral facial/scalp/neck model | 1 | 6 | 0 |
+| 12 | sagittal suprahyoid/infrahyoid model | 1 | 4 | 0 |
+| 13 | deep posterior digastric/stylohyoid view | 1 | 2 | 0 |
+| 14 | numbered sagittal head model with a partial four-entry legend | 1 | 4 | 6 |
+| **Total** | **complete source practical boundary** | **20** | **65** | **6** |
+
+P. 14 visibly numbers structures 1–10 but supplies legend mappings only for **1 anterior belly
+of digastric, 9 posterior belly of digastric, 5 mylohyoid and 8 stylohyoid**. Numbers **2, 3,
+4, 6, 7 and 10** are retained as six unresolved residues and are not identified by inference.
+Every other mapping is a fully legible source-to-model pointer, view relation or supplied
+joint/type relation. Repeated names on different views remain separate physical mappings.
+
+### Source-first practical scopes, exact searches and prior-LCS reconciliation
+
+The 20 plates consolidate to four complete practical teaching handles:
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Prior-LCS result |
+|---|---|---|
+| `skull-external-base-landmarks-and-tmj-relations` · pp. 1–4 | lateral skull temporal fossa mastoid zygomatic; inferior skull pterygoid styloid mastoid; mandibular fossa temporomandibular joint; skull-base muscle attachment model | Accepted Families 37, 38 and 46 own the complete regional core — prior-LCS reuse. |
+| `mandible-landmarks-muscle-and-ligament-attachments` · pp. 5–8 | mandible coronoid condyloid ramus angle body; mandible mylohyoid digastric attachment; mandible temporalis masseter pterygoid attachment; temporomandibular stylo-mandibular ligament model | Accepted Families 37, 38 and 46 own the complete scope — prior-LCS reuse. |
+| `facial-scalp-and-superficial-neck-muscle-models` · pp. 9–11 | facial model orbicularis oculi oris; temporalis masseter buccinator model; occipitofrontalis frontal occipital belly; sternomastoid superficial neck model | Accepted Families 37–38 and the completed head-and-neck tier-3 families own the complete scope — prior-LCS reuse. |
+| `suprahyoid-and-infrahyoid-muscle-models` · pp. 12–14 | digastric anterior posterior belly model; mylohyoid geniohyoid model; stylohyoid model; sternohyoid omohyoid head neck model | Accepted Families 37–38 own the complete scope — prior-LCS reuse. |
+
+Each of the **four accepted handles** received exactly one search on each required surface:
+live state, pending/import-ready state, prior source-import lanes and the accepted LCS ledger.
+That is **4 × 4 = 16 required search invocations**. Broad term matches exist across the first
+three surfaces, but exact source-level comparison is decisive: accepted head-and-neck anatomy
+Families 37–38 and the later completed tier-3 families own all four regions. Final disposition
+is **4 prior-LCS practical-teaching reuses / 0 additive live / 0 additive pending / 0 additive
+new scopes**; practical teaching scopes remain **0 live / 0 pending / 92 new**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,070 observed questions / 703 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. The external-bank checkpoint
+remains **6,813 external prompts / 6,547 source keys-or-answers / 221 external concepts = 12
+live / 135 pending / 74 new**. Every assessment delta is zero.
+
+Practical totals advance from **20 prompts / 494 plates / 2,945 mappings / 150 residues / 13
+keys** by **+0 / +20 / +65 / +6 / +0** to **20 / 514 / 3,010 / 156 / 13**. Arithmetic
+checks are `494 + 20 = 514`, `2,945 + 65 = 3,010`, `150 + 6 = 156` and `13 + 0 = 13`.
+
+This source hash occurs once in Family 167's remainder. Removing its sole path leaves **62
+all-rank path instances / 58 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes **48
+paths / 47 unique hashes within tier**, and rank 9 remains **14 / 11**. Family 167's prior
+checksums are `6738f5919a82c4029f112028f1ad1715f252293ac051c58f1e750207de187550`
+(paths) and `162eab284483ddc1bed80c7591215937e31e5d340f14099ade6fa900662f319b`
+(unique hashes). For the exact post-Family-168 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`1c271326c5c3cba96736bf876341793d03de723bed04ac2c80a5eea106685b7d`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`89b731f1849588b9ed633c78818e1f87c465a84aed0f35e530939fa7d3f56d28`.
+
+The exact next manifest-order debt is tier-6 `src_120c4be86ff0896fa08d`, `Document (1).pdf`
+(263,481 bytes; 14 native-text US-Letter pages; unencrypted; 612 × 792 pt; SHA-256
+`120c4be86ff0896fa08da407ce8bd3d1665d4330d57b90c308daabe2a780def6`) under
+`Year 1/LCS 103/All Subjects/Notes and Summaries/`. It remains unclassified until every page
+is rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 62
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
