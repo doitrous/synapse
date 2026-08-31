@@ -29316,3 +29316,87 @@ The exact next unprocessed BMS-102 record is tier-4 `src_2ff64d93aee7fbe3cd7f` �
 Action`. Metadata names `mustafa elsayed`, Microsoft Word for Microsoft 365, and 10 March 2026.
 Its visible receptor/mechanism teaching boundary, authority, replay, assessment gate, arithmetic,
 and subsequent exact debt remain to be separately adjudicated.
+
+## Family 290 — metadata-attributed pharmacodynamic mechanisms teaching handout
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_2ff64d93aee7fbe3cd7f` · `Pharmacodynamic I (2).pdf` |
+| Exact object | SHA-256 `2ff64d93aee7fbe3cd7f453fb66d7cf55736a0f1f54da3e983b7d85363b0db1a` · **179,651 bytes** · **seven native portrait A4 pages** · 895 extracted words |
+| Full-read method | all seven pages rendered at 144 dpi and reviewed individually at original detail against complete layout-preserving native extraction |
+| Visible provenance | page 1 reads `Pharmacodynamic I`; pages 2–7 present completed pharmacodynamic definitions, classifications, mechanisms, examples, and receptor regulation. No visible author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, marks, candidate field, or key marker appears. |
+| Metadata caution | metadata names author `mustafa elsayed`, Microsoft Word for Microsoft 365 as Creator/Producer, and 10 March 2026 creation/modification. This export attribution/date is retained but cannot establish visible authorship, institution, delivery date, or assessment authority. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Authority / eligibility | local BMS-102 theoretical teaching handout. Folder placement and metadata do not make it a Helwan-authenticated assessment, official key, practical station, or dated sitting. |
+
+### Complete teaching, callout, prompt, answer, and practical boundary
+
+| Page | Exhausted visible content | Exact governed classification |
+|---:|---|---|
+| 1 | `Pharmacodynamic I` title | title only; **0 prompts / 0 answers** |
+| 2 | pharmacodynamics definition; local, systemic, and reflex actions; physical adsorption, osmosis, and demulcent mechanisms with examples | completed teaching. `What does the drug do to the body?` is an inline definitional gloss immediately supplied by the preceding definition, not a candidate response field. |
+| 3 | chemical neutralization/chelation with the HCl + NaHCO3 reaction and chelator examples; enzyme, cell-division, metabolic-pathway, and receptor mechanisms | completed definitions, reaction, classifications, and examples |
+| 4 | receptor and ligand definitions; location and mechanism classifications; ion-channel receptor structure, action, response speed, and examples | completed teaching; **0 candidate calculation / 0 practical** |
+| 5 | G-protein-coupled receptor structure/action and Gs, Gi, and Gq pathways | completed mechanistic explanation and supplied consequences |
+| 6 | G-protein response/examples; tyrosine-kinase and intracellular receptor structure, action, response, and examples | completed comparison and supplied examples |
+| 7 | agonist down-regulation and antagonist/endogenous-agonist-deficiency up-regulation | completed receptor-regulation teaching |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied assessment answers /
+0 answer-absent prompts / 0 candidate responses**. The title, bold inline gloss, enumerated
+actions/mechanisms, reaction equation, receptor lists, and regulatory statements are explanatory
+content with each asserted proposition or example supplied; no unknown, response space, command,
+or answer reveal creates an assessment operation.
+
+### Teaching replay and exact four-search gate
+
+The pharmacodynamics definition, drug-action mechanisms, receptor classes, G-protein pathways,
+and receptor-regulation propositions overlap prior BMS pharmacology teaching and question
+carriers. This carrier remains independently governed as source-local teaching evidence, but
+teaching replay is not a tested-handle occurrence. With **0 assessment prompts**, the accepted-
+handle set is **0**. Exactly four searches per accepted handle therefore requires and records
+**0 × 4 = 0 searches**. Prior-BMS accepted-handle reuse is **0** and the eligible concept delta is
+**+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 290 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,558 | 762 | 4,320 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,262 | 552 | 3,814 |
+| Accepted handles / required searches | 0 / 0 | 2,929 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,496 over primary | 372 | 1,868 |
+| **Distinct tested concepts** | **+0** | **1,496 additions** | **372** | **1,868** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,558 prompts / 2,541 answers /
+3,262 retained / 2,929 handles / +1,496 concepts**. All eligible remains **4,320 / 2,946 /
+3,814 / 1,868**. Family 290 adds metadata-attributed pharmacodynamic/receptor teaching and
+replay evidence only—not assessment, official-key, practical, verified-date, recurrence/readiness,
+or claims status.
+
+### Exact next debt and remaining manifest distance after Family 290
+
+`src_2ff64d93aee7fbe3cd7f` is exhausted across all seven pages: every title, definition, inline
+gloss, action/mechanism/receptor classification, reaction, pathway, example, regulation statement,
+authority limitation, metadata field, replay relation, zero gate, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-290 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 290 governs
+**1 selected path / 1 unique hash**. The governed set through Family 290 is therefore **357 paths /
+343 unique hashes**, leaving exactly **5 ungoverned selected paths / 5 unique hashes**. Checksums
+are **357 + 5 = 362 paths** and **343 + 5 = 348 unique hashes**. The ordered remaining-path ledger
+has SHA-256 `6e13a98d8d2159991c95d77b5ccb39d9f1802e90ae3e60335933a57dd73d6bfb`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`4393cf155b4c86274df5747e6b8be3713c717542581719d3e9661932ec894946`.
+
+The exact next unprocessed BMS-102 record is tier-4 preferred-name twin
+`src_e124048860d90d143788` · `Pharmacodynamic I.pdf`, SHA-256
+`e124048860d90d143788b829f79d437eae54c383ea02e327c7c7ed9a21f3b160`, **1,552,624 bytes**,
+**24 native 959.76×540-point landscape pages** under the same `Pharmacology / Theoretical /
+Lec 6 - Mechanism of Drug Action` folder. Metadata records PDFium and 10 March 2026 but no author;
+its first-page snippet reads `Pharmacodynamic I By Dr. Mostafa Ezz`. Its visible teaching/
+assessment boundary, authority, twin/replay reconciliation, four-search gate, arithmetic, and
+subsequent exact debt remain to be separately adjudicated.
