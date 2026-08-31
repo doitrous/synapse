@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "e7f7a468f245d482ee438b09ec1d6096735e9bec2ca513755bcb1e0a5617feaa",
-    "triageMarkdown": "e32a7829532aac96d02e2e040305acf7fbc85afb6c3cb5c4092f2ee5d10dca7a"
+    "readinessMarkdown": "d45cf01f62ea03d4238d4392e1f0043b8b8297b4ca43a6933e0477e952bdaeab",
+    "triageMarkdown": "65ccb0d86c57148ec57da4df6ce9b1a0464d9434640b2123accd5ab5ccf48cbb"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,6 +69,7 @@
   ],
   "processedFamilies": {
     "sha256": [
+      "0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194",
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
@@ -122,7 +123,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 52
+    "uniqueSha256": 53
   },
   "completedSourceCoverage": [
     {
@@ -3244,11 +3245,50 @@
         "official departmental teaching provenance is not promoted to an authenticated exam sitting or faculty key",
         "printed spelling, terminology and academically questionable prompt claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194",
+      "sourcePages": 19,
+      "renderedReadPages": "1-19",
+      "rawPracticalOrImagePrompts": 11,
+      "rawPrintedKeyObservations": 1,
+      "rawSourceAbsentAnswers": 10,
+      "mappedPriorPracticalFields": 9,
+      "acceptedFamilyPromptOccurrences": 2,
+      "acceptedFamilyAnswerOccurrences": 1,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "teachingOrReferencePages": 18,
+      "sourceFirstHandles": 3,
+      "priorFhb1022CollapsedHandles": 3,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSiblingSubset": false,
+      "familyQuestionDelta": 2,
+      "familyAnswerDelta": 1,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "arthropod and myiasis clinical identification",
+        "mosquito and sand-fly vector identification",
+        "vector-borne clinical transmission and diagnosis"
+      ],
+      "authorityDisposition": "student-authored PowerPoint parasitology teaching summary visibly signed Asma S.E with PDF author metadata asma sheriff; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "the fully rendered carrier contains eleven raw image-dependent practical fields, one source answer observation and ten source-absent fields; nine fields map to the completed Final Revision practical family, leaving two new family prompt occurrences and one associated source answer observation, with zero ordinary objective or standalone written prompts",
+      "preservedSourceDefects": [
+        "teaching/reference content and practical fields are non-additive page roles rather than separate prompt occurrences",
+        "nine mapped prior-family practical fields are not counted twice",
+        "ten raw source-absent fields remain absent rather than inferred",
+        "the single revealed answer is retained as student-source evidence rather than promoted to an authenticated faculty key",
+        "printed spelling, terminology and academically questionable claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4179,
-    "printedKeyObservations": 3981,
+    "printedPromptObservations": 4181,
+    "printedKeyObservations": 3982,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3566,33 +3606,39 @@
     "pages": 28,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftyThirdSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/📌para FHB-2 102 midterm (By Asma).pdf",
     "sha256": "0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194",
     "pages": 19,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - FHB-Pharma MCQ Questions.pdf",
+    "sha256": "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
+    "pages": 10,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 42,
-    "uniqueSha256": 42,
-    "sortedNewlineSha256": "cc5fcf73d838f1f56adc61149aec5b948489c95919a080ac5f9b1dc2fb726c1c",
+    "inventoryMetadataRows": 41,
+    "uniqueSha256": 41,
+    "sortedNewlineSha256": "8c897b920090f1d7f9b35362a513b8f2defd8bfa5d76be5f8be6bcf7b98e69c9",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
       "sparse-text": 10,
-      "substantive-text": 17
+      "substantive-text": 16
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
     "sparse-text": 10,
-    "substantive-text": 17
+    "substantive-text": 16
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 52,
-    "remainingUniqueSha256": 42,
+    "processedUniqueSha256": 53,
+    "remainingUniqueSha256": 41,
     "processedPlusRemaining": 94
   }
 }

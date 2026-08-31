@@ -1882,3 +1882,31 @@ Removing the fifty-two processed hashes leaves **42 selected inventory paths / 4
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/📌para FHB-2 102 midterm (By Asma).pdf`, SHA-256 `0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194`, 19 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 42 selected inventory paths / 42 unique hashes remain untriaged.
+
+## Completed source — Para FHB-2 102 midterm by Asma
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/📌para FHB-2 102 midterm (By Asma).pdf` | `0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194` | 19 | substantive-text | pages 1–19 rendered and read | Student-authored PowerPoint parasitology teaching summary visibly signed Asma S.E with PDF author metadata `asma sheriff`; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact practical, answer and teaching boundary
+
+The fully rendered carrier contains **11 raw image-dependent practical fields / 1 source answer observation / 10 source-absent fields / 0 ordinary objective MCQs / 0 standalone written prompts**. Teaching and reference content spans 18 non-additive pages: those page roles are not counted as separate prompt occurrences.
+
+Nine practical fields map to the completed Final Revision practical family and are not counted twice. Two family prompt occurrences survive that reconciliation, one with a revealed source answer. The ten raw source-absent fields remain absent rather than inferred, and the one revealed answer remains student-source evidence rather than an authenticated faculty key. Printed spelling, terminology and academically questionable claims remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The three source-first handles cover arthropod/myiasis clinical identification, mosquito/sand-fly vector identification and vector-borne clinical transmission/diagnosis. All three collapse to already represented FHB-102-2 evidence.
+
+Search arithmetic is **3 source-first − 3 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-third one-path hash is now `sourceProcessed=true`, adding **+2 questions / +1 answer / +0 concepts**. Cumulative triage is **4,181 questions / 3,982 answers / 62 concepts**.
+
+Removing the fifty-three processed hashes leaves **41 selected inventory paths / 41 unique SHA-256s**. Their sorted-newline checksum is `8c897b920090f1d7f9b35362a513b8f2defd8bfa5d76be5f8be6bcf7b98e69c9`. Remaining audit-review debt is **16 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`53 + 41 = 94`** and path accounting is **`55 + 41 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - FHB-Pharma MCQ Questions.pdf`, SHA-256 `68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169`, 10 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 41 selected inventory paths / 41 unique hashes remain untriaged.
