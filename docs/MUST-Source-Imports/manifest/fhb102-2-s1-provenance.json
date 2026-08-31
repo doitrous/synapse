@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "79a62311127081fc31ce31b1ea984dc74250112410d9ebaf7e7b868a0b75557e",
-    "triageMarkdown": "5fa8b59e5e049fb6f24a086fee9e7aef62521c85c7c177ee83e2089d0e8037c4"
+    "readinessMarkdown": "6ba37229b4ee1cbcba906bed0ad910bf5979523784671ddb14af581689196a2e",
+    "triageMarkdown": "e0fe2ed87ff6fa7036e4ab204e4d00a3f03fff835baf35d7e71fc082421ca220"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -77,9 +77,10 @@
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
+      "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
     ],
-    "uniqueSha256": 9
+    "uniqueSha256": 10
   },
   "completedSourceCoverage": [
     {
@@ -584,15 +585,63 @@
         "academically questionable highlighted options remain source truth without correction",
         "the inline highlights are source answer evidence rather than authenticated faculty-key observations"
       ]
+    },
+    {
+      "sha256": "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
+      "sourcePages": 4,
+      "renderedReadPages": "1-4",
+      "questionPages": "1-4",
+      "printedPromptObservations": 29,
+      "objectiveMcqPrompts": 23,
+      "writtenPrompts": 6,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 29,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "FHB102-2 formative paper",
+          "pages": "1-2",
+          "objectiveMcqPrompts": 13,
+          "writtenPrompts": 3,
+          "answers": 0
+        },
+        {
+          "section": "MSK102-2-labelled formative paper inside FHB inventory carrier",
+          "pages": "3-4",
+          "objectiveMcqPrompts": 10,
+          "writtenPrompts": 3,
+          "answers": 0
+        }
+      ],
+      "sourceFirstHandles": 7,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 3,
+      "searchesRun": 12,
+      "familyQuestionDelta": 29,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 3,
+      "sourceProcessed": true,
+      "authorityDisposition": "CamScanner carrier of two direct formative-paper scans with blank Name/I.D. fields; pages 1-2 are headed FORMATIVE EXAME -FHB102-2 and pages 3-4 Formative Exam for MSK 102-2; no institution, department, examiner, date, marks, answer key or authenticated faculty mark is visible, so paper format supports assessment intent but not an authenticated sitting or key",
+      "boundaryDisposition": "one FHB102-2 paper with thirteen objective MCQs plus three written prompts and one MSK102-2-labelled paper with ten objective MCQs plus three written prompts; twenty-nine visible assessment occurrences, all unkeyed; no practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "the second paper is explicitly labelled MSK 102-2 despite residing in an FHB 102-2 inventory path and is not silently relabelled",
+        "both independent numbering sequences are preserved",
+        "all twenty-nine prompts are unkeyed and no answers are inferred",
+        "show-through from reverse-side printing is not counted as an extra prompt occurrence",
+        "printed grammatical and academically questionable tokens remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 844,
+    "printedPromptObservations": 873,
     "printedKeyObservations": 836,
-    "namedConceptsAssigned": 56,
+    "namedConceptsAssigned": 59,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 56
+    "newConcepts": 59
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -648,20 +697,26 @@
     "pages": 1,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "tenthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative Micro.pdf",
     "sha256": "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
     "pages": 4,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative questions microbiology Spring 2026.pdf",
+    "sha256": "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
+    "pages": 6,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 87,
-    "uniqueSha256": 85,
-    "sortedNewlineSha256": "1c2346c95515a82669241d515077c3f3835a71c2d22077053c5012ac440552c9",
+    "inventoryMetadataRows": 86,
+    "uniqueSha256": 84,
+    "sortedNewlineSha256": "a089077e343bb481647c15e0e26ba910af769a6b3961cdfa6c4730933a111b4b",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
-      "empty-text": 15,
+      "empty-text": 14,
       "sparse-text": 23,
       "substantive-text": 36
     }
@@ -669,14 +724,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 2,
     "audit-not-found": 11,
-    "empty-text": 15,
+    "empty-text": 14,
     "sparse-text": 23,
     "substantive-text": 36
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 9,
-    "remainingUniqueSha256": 85,
+    "processedUniqueSha256": 10,
+    "remainingUniqueSha256": 84,
     "processedPlusRemaining": 94
   }
 }

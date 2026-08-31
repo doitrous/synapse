@@ -476,3 +476,45 @@ Removing the nine processed hashes leaves **87 selected inventory paths / 85 uni
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative Micro.pdf`, SHA-256 `d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc`, 4 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 87 selected inventory paths / 85 unique hashes remain untriaged.
+
+## Completed source — Formative Micro
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative Micro.pdf` | `d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc` | 4 | empty-text | pages 1–4 rendered and read | CamScanner carrier of two direct formative-paper scans with blank Name/I.D. fields: pages 1–2 are headed `FORMATIVE EXAME -FHB102-2`, while pages 3–4 are headed `Formative Exam for MSK 102-2`. Neither paper shows an institution, department, examiner, date, marks, answer key or authenticated faculty mark. The assessment-paper format is stronger than a revision-bank filename, but it does not authenticate a sitting or key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–2 contain one FHB102-2 paper with Q1–Q13 as thirteen conventional MCQs followed by three numbered written prompts. Pages 3–4 contain a separate paper explicitly labelled MSK102-2 with Q1–Q10 as ten conventional MCQs followed by three numbered written prompts. Both papers end with `END OF QUESTIONS`; neither supplies highlighted selections, handwritten responses, a printed answer table or a separate key.
+
+The full carrier boundary is **23 objective prompts / 6 written prompts / 0 prompt-matched answer observations / 29 source-absent answers / 0 practical or image / 0 teaching prompts**. The two paper labels and their independent numbering sequences are preserved. The MSK102-2-labelled second paper remains counted as visible source content while being explicitly flagged as an out-of-module-labelled segment in this FHB inventory carrier; it is not silently relabelled as FHB evidence.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The twenty-nine prompts collapse source-first into seven coherent handles. Four are already represented by completed FHB-102-2 concepts and receive no repeated search. The three surviving handles each received exactly four live-and-pending searches: **3 × 4 = 12 searches**. Every query returned no live or pending match.
+
+| Source handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Bacterial structure, growth, transduction and pathogenic relationships | prior envelope/wall, growth/division, horizontal-gene-transfer and infection-relationship handles | prior-FHB-102-2 collapse |
+| Exotoxins, virulence factors, clinical bacterial syndromes and antimicrobial resistance | prior virulence/toxin, clinical/laboratory bacterial-identification and antimicrobial-resistance handles | prior-FHB-102-2 collapse |
+| Fungal structure and Nystatin membrane action | prior fungal structure/classification and membrane-target handles | prior-FHB-102-2 collapse |
+| Viral capsid, genome and cytopathic effects | prior viral structure/genome/classification and replication/CPE handles | prior-FHB-102-2 collapse |
+| HBV occupational exposure prophylaxis | `HBV needlestick post exposure prophylaxis HBIG vaccination`; `unvaccinated healthcare worker HBsAg positive exposure HBIG vaccine`; `hepatitis B occupational exposure prophylaxis`; `HBV postexposure vaccine immunoglobulin` | no live/pending match — retained new/TBD |
+| Clinical viral syndromes, laboratory diagnosis and prevention across HSV, HPV, measles, varicella and mumps | `viral exanthem diagnosis HPV measles varicella HSV mumps microbiology`; `HPV genital warts types 6 11 skin tumor virus`; `Koplik spots measles varicella vesicular rash diagnosis`; `HSV laboratory diagnosis mumps prevention microbiology` | no live/pending match — retained new/TBD |
+| Standard precautions and prevention of hospital-acquired infection | `standard precautions prevent hospital acquired infections`; `healthcare associated infection prevention standard precautions`; `hand hygiene PPE sharps safety standard precautions`; `nosocomial infection control measures microbiology` | no live/pending match — retained new/TBD |
+
+Post-prior disposition is **0 live / 0 pending / 3 new**. No content record, missing-answer reconstruction, module relabelling, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This tenth one-path hash is now `sourceProcessed=true`. Its full-carrier delta is **+29 questions / +0 answers / +3 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|
+| FHB 102-2 | 873 | 836 | 59 | 0 | 0 | 59 | TBD |
+
+Removing the ten processed hashes leaves **86 selected inventory paths / 84 unique SHA-256s**. Their sorted-newline checksum is `a089077e343bb481647c15e0e26ba910af769a6b3961cdfa6c4730933a111b4b`. Remaining audit-review debt is **36 substantive-text / 23 sparse-text / 14 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`10 + 84 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative questions microbiology Spring 2026.pdf`, SHA-256 `f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd`, 6 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 86 selected inventory paths / 84 unique hashes remain untriaged.
