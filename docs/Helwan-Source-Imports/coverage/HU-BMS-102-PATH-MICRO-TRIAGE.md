@@ -23562,3 +23562,94 @@ visibly begins a `Pharmacology / Metabolism` definition/site/effect handout. Met
 visible provenance is read. Its complete render/native boundary, authority, teaching/prompt/key/
 practical ruling, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next
 debt remain to be separately adjudicated.
+
+## Family 233 — Dr El-Sawy metabolism and biotransformation teaching handout
+
+### Source identity, complete native/render boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_121467bdb521bc1adfda` · `Metabolism.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `121467bdb521bc1adfda474dc89be6f5aad1d79d9918f9cb7f61074c98714e70` · **914,895 bytes** |
+| Format / complete visual boundary | **Ten native-text A4 pages, PDF 1.7**. All ten pages were rendered at 180 dpi into non-empty images and read at original detail; pages 1–2 and 5–10 render as 1,489×2,105-pixel portraits, while the two wide tables on pages 3–4 render as 2,105×1,489-pixel landscapes. Every heading, table cell, diagram branch, formula, example, icon, footer, and terminal factor is assigned below; there is no page or crop remainder. |
+| Native-text reality | Layout extraction contains **1,026 words / 12,709 bytes** and raw extraction contains **1,024 words / 7,469 bytes**. Native text controlled wording and searchable structure; the renders controlled table geometry, flow arrows, icons, highlighted terms, and the two diagram-heavy pages. No form, JavaScript, encryption, interactive answer layer, or hidden prompt layer exists. |
+| Visible provenance | Every page visibly carries `Pharmacology`, `Metabolism`, and footer `DR. El-Sawy`; visible pages are numbered 0–9. This supports Dr El-Sawy authorship of a pharmacology teaching handout. No university/faculty name or logo, module code, academic year, sitting, candidate field, marks, or assessment title is visible, so local BMS-102 placement supplies context rather than authenticated Helwan assessment authority. |
+| Metadata caution | Metadata author is `Mamdouh`; creator/producer is Microsoft Word LTSC and creation/modification is 8 March 2026. The visible `DR. El-Sawy` attribution governs authorship; the conflicting metadata and export timestamp remain secondary provenance and do not establish a sitting or teaching year. |
+| Eligibility | In-scope tier-6 BMS teaching evidence, but no assessment prompt, key, or authenticated practical station survives the source-first boundary. It contributes zero to eligible question totals. |
+
+### Exhaustive page-first teaching, prompt, key, callout, and practical boundary
+
+| Visible page | Exhausted visible source content | Boundary ruling |
+|---:|---|---|
+| 0 | `METABOLISM \"BIO-TRANSFORMATION\"`: definition; liver and secondary sites; active→inactive, active→active, prodrug→active, and non-toxic→toxic conversions; aim of increasing water solubility and reducing penetration/reabsorption | Completed definitions, table, examples, and explanatory arrows: **0 prompts / 0 answers / 0 practical**. Small `MCQ` bubbles are emphasis tags beside disclosed facts, not question stems. |
+| 1 | Phase-I oxidation/reduction/hydrolysis versus Phase-II conjugation table; oxidation definition; microsomal oxidation principles; CYP450/mixed-function-oxidase system | Completed teaching: **0 / 0 / 0**. The `MCQ` icon points to supplied explanatory text and contains no response cue. |
+| 2 | Microsomal liver-enzyme induction versus inhibition table; enzyme quantity/onset/duration/dose consequences; rifampicin–contraceptive, phenytoin–cyclosporine, ciprofloxacin–warfarin, and erythromycin–theophylline clinical examples | Completed comparison and examples: **0 / 0 / 0**. `Written` and `MCQ` bubbles label revision emphasis but do not pose imperatives, options, or blanks. |
+| 3 | Complete lists and Arabic mnemonics for nine enzyme inducers and eleven enzyme inhibitors | Fully supplied reference list: **0 / 0 / 0**. |
+| 4 | Non-microsomal oxidation and its enzymes/examples; reduction by nitroreductase/carbonyl reductase; hydrolysis by esterases/peptidases; note that sufficiently water-soluble drugs need no metabolism | Completed teaching: **0 / 0 / 0**. Two `MCQ` bubbles are non-interactive callouts. |
+| 5 | Phase-II conjugation definition; glucuronide conjugation and enterohepatic circulation; glutathione, glycine, methylation, acetylation, and sulfation routes | Completed teaching: **0 / 0 / 0**. `Written`/`MCQ` icons do not create assessment units. |
+| 6 | Labelled enterohepatic-circulation anatomy diagram and complete lipophilic drug→Phase I/P450→polar metabolite→Phase II→very polar metabolite→bile/urine flow map | Diagnosis-disclosing/labelled teaching diagrams: **0 / 0 / 0**. No image-identification request, hidden label, station instruction, or learner operation appears. |
+| 7 | `Breakthrough Pregnancy` explanation linking estrogen conjugation, intestinal bacterial hydrolysis, and reabsorption; diagrams and note that broad-spectrum-antibiotic interaction is debated except proven rifampin/rifabutin induction | Completed clinical teaching narrative and diagrams: **0 / 0 / 0**. |
+| 8 | First-pass/pre-systemic elimination definition and oral gut/hepatic, lung, and skin/subcutaneous examples; avoidance by dose adjustment or route change; propranolol and sublingual nitroglycerin examples | Completed teaching: **0 / 0 / 0**. The `Written` bubble is a format hint only. |
+| 9 | Factors modifying metabolism: genetics, malnutrition, age extremes, liver disease/LCF, and enzyme induction/inhibition effects on dose, clearance, and half-life | Completed factor list and consequences: **0 / 0 / 0**. The terminal `Written` bubble has no stem or response field. |
+
+Across the ten pages, the yellow `MCQ` and `Written` speech bubbles never contain or introduce a
+question mark, command, option set, missing-term cue, candidate-response field, answer marker, or
+key. They point to already complete teaching propositions, so counting the labels as assessment
+would manufacture prompts from typography. Similarly, the labelled page-6 diagrams are teaching
+maps rather than practical stations or image questions.
+
+The governed source-local boundary is therefore **0 MCQs + 0 True/False + 0 written prompts + 0
+completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw prompt
+occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained records, and 0
+prompt-like residues**. Source wording and examples—including `sweet`, `Primary of this enzyme
+system`, `Phenotyoin`, `estrases`, `Glutathion`, and the stated propranolol dose comparison—are
+preserved as source truth rather than silently repaired, endorsed, or converted into medical
+guidance.
+
+### Zero-handle four-search gate, prior-BMS ruling, and cumulative arithmetic
+
+No assessment handle survives the source-first boundary. The standing search gate is therefore
+exactly **`0 accepted handles × 4 = 0 required and completed searches`**; no empty search packet or
+synthetic prior row is created. Biotransformation, CYP450 induction/inhibition, conjugation,
+enterohepatic circulation, first-pass metabolism, and metabolism-modifying factors overlap prior
+BMS pharmacology teaching, but completed teaching alone is not a tested-handle occurrence.
+Prior-BMS assessment reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 233 | Auxiliary cumulative (Families 12–233) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Eligible source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained eligible question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero prompts yield zero answers, retained records, handles, searches,
+prior reuses, or concept additions. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains
+**2,790 prompts / 1,828 answers / 2,494 retained / 2,227 handles / +1,110 concepts**. All eligible
+remains **3,552 / 2,233 / 3,046 / 1,482**. Family 233 establishes attributed metabolism-teaching
+and source-format evidence only, not an assessment, official key, authenticated practical,
+verified-year, medical-guidance, readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 233
+
+`src_121467bdb521bc1adfda` is exhausted across all ten pages: every native-text section, rendered
+table/diagram, example, icon, source irregularity, provenance term, zero gate, and arithmetic term
+is assigned once, with **zero source remainder** and no Family-233 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 233 is **294 paths / 287 unique hashes**, leaving exactly **68 selected paths / 61
+unique hashes**. Checksums are **294 + 68 = 362 paths** and **287 + 61 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `2f86286d36b6c8d43b41c001e0d82888e1485fb61a3cea514646daeab9052028`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`49f664a3ceeb6d4b933800c7fa7708c5de4f8ab6445d9913c6f0a5e7cc76b9af`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_7e731d09c16ea4349399` ·
+`Mind_Map_Drug_Absorbtion_1,2.pdf`, SHA-256
+`7e731d09c16ea43493995b5bcf3014cf41505c1ffa54f1cbae0873a91b9c801c`, **310,744 bytes**,
+**one OCR-needed 1,191×842-point landscape A3 page** under `Pharmacology / Notes and Summaries`.
+Its complete sectional render/OCR boundary, visible authority, teaching/prompt/key/practical
+ruling, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
