@@ -89,9 +89,6 @@ HU_Y1
 
 ## attachments
 
-## explanation
-The written response is assessed against the printed model-answer points. The Expects lines preserve the local mark-scheme scope. No unprinted mark value or outside answer was added.
-
 ## resource_ids
 
 ## estimated_seconds
@@ -224,9 +221,6 @@ HU_Y1
 
 ## attachments
 
-## explanation
-The written response is assessed against the printed model-answer points. The Expects lines preserve the local mark-scheme scope. No unprinted mark value or outside answer was added.
-
 ## resource_ids
 
 ## estimated_seconds
@@ -358,9 +352,6 @@ HU_Y1
 ## completion_text
 
 ## attachments
-
-## explanation
-The written response is assessed against the printed model-answer points. The Expects lines preserve the local mark-scheme scope. No unprinted mark value or outside answer was added.
 
 ## resource_ids
 

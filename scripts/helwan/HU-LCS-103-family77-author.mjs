@@ -246,7 +246,6 @@ const questionCommon = {
   labeling_points: '',
   completion_text: '',
   derived_from: '',
-  explanation: '',
   topic: 'Basic tissues',
   subtopic: 'Muscle Tissue',
   difficulty: 'Easy',

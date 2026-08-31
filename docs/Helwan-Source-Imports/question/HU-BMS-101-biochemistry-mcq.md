@@ -123,9 +123,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the elastin collagen comparison concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 1; printed key pp. 45–50.
 
@@ -263,9 +260,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the elastin collagen comparison concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 2; printed key pp. 45–50.
@@ -405,9 +399,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the nitrogenous base structure concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 3; printed key pp. 45–50.
 
@@ -545,9 +536,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the translation initiation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 4; printed key pp. 45–50.
@@ -687,9 +675,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sickle cell mutation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 5; printed key pp. 45–50.
 
@@ -827,9 +812,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the primase concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 6; printed key pp. 45–50.
@@ -969,9 +951,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the osteogenesis imperfecta concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 7; printed key pp. 45–50.
 
@@ -1109,9 +1088,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the prokaryotic transcription concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 8; printed key pp. 45–50.
@@ -1251,9 +1227,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the biotin carboxylation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 9; printed key pp. 45–50.
 
@@ -1391,9 +1364,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the ferroportin concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 10; printed key pp. 45–50.
@@ -1533,9 +1503,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the topoisomerase i vs ii concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 11; printed key pp. 45–50.
 
@@ -1673,9 +1640,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the histone chromatin regulation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 12; printed key pp. 45–50.
@@ -1815,9 +1779,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the primase concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 11–14, printed question 13; printed key pp. 45–50.
 
@@ -1955,9 +1916,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the oxygen dissociation curve concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 14; printed key pp. 45–50.
@@ -2097,9 +2055,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the linker histone concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 15; printed key pp. 45–50.
 
@@ -2237,9 +2192,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the gc base pairing concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 16; printed key pp. 45–50.
@@ -2379,9 +2331,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cyp polymorphism concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 17; printed key pp. 45–50.
 
@@ -2519,9 +2468,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the urease enzyme class concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 18; printed key pp. 45–50.
@@ -2661,9 +2607,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the mismatch repair hnpcc concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 19; printed key pp. 45–50.
 
@@ -2801,9 +2744,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the trna and aminoacylation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 20; printed key pp. 45–50.
@@ -2943,9 +2883,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the competitive inhibition concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 21; printed key pp. 45–50.
 
@@ -3083,9 +3020,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the tissue hypoxia concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 22; printed key pp. 45–50.
@@ -3225,9 +3159,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the vitamin a visual cycle concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 23; printed key pp. 45–50.
 
@@ -3365,9 +3296,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the allosteric kinetics concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 24; printed key pp. 45–50.
@@ -3507,9 +3435,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the creatine kinase isoenzymes concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 25; printed key pp. 45–50.
 
@@ -3647,9 +3572,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the promoter mutation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 14–18, printed question 26; printed key pp. 45–50.
@@ -3789,9 +3711,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the niacin deficiency concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 27; printed key pp. 45–50.
 
@@ -3929,9 +3848,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the promoter mutation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 28; printed key pp. 45–50.
@@ -4071,9 +3987,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the elastin elasticity amino acids concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 29; printed key pp. 45–50.
 
@@ -4211,9 +4124,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the vitamin d rickets concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 30; printed key pp. 45–50.
@@ -4353,9 +4263,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the trna and aminoacylation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 31; printed key pp. 45–50.
 
@@ -4493,9 +4400,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the translation initiation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 32; printed key pp. 45–50.
@@ -4635,9 +4539,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the primase concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 33; printed key pp. 45–50.
 
@@ -4775,9 +4676,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the two three bpg concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 34; printed key pp. 45–50.
@@ -4917,9 +4815,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the prokaryotic transcription concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 35; printed key pp. 45–50.
 
@@ -5057,9 +4952,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the competitive inhibition concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 36; printed key pp. 45–50.
@@ -5199,9 +5091,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the elastin collagen comparison concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 37; printed key pp. 45–50.
 
@@ -5339,9 +5228,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the trna and aminoacylation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 38; printed key pp. 45–50.
@@ -5481,9 +5367,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the copper dependent enzymes concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 18–21, printed question 39; printed key pp. 45–50.
 
@@ -5621,9 +5504,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cyp polymorphism concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 40; printed key pp. 45–50.
@@ -5763,9 +5643,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the niacin deficiency concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 41; printed key pp. 45–50.
 
@@ -5903,9 +5780,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the ldh isoenzymes concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 42; printed key pp. 45–50.
@@ -6045,9 +5919,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the lyase enzyme class concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 43; printed key pp. 45–50.
 
@@ -6185,9 +6056,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the z dna concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 44; printed key pp. 45–50.
@@ -6327,9 +6195,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the nucleosome function concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 45; printed key pp. 45–50.
 
@@ -6467,9 +6332,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the histone chromatin regulation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 46; printed key pp. 45–50.
@@ -6609,9 +6471,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the dna polymerase iii proofreading concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 47; printed key pp. 45–50.
 
@@ -6749,9 +6608,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the topoisomerase ii inhibition concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 48; printed key pp. 45–50.
@@ -6891,9 +6747,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the prokaryotic transcription concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 49; printed key pp. 45–50.
 
@@ -7031,9 +6884,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the mismatch repair hnpcc concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 50; printed key pp. 45–50.
@@ -7173,9 +7023,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the oxygen dissociation curve concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 21–25, printed question 51; printed key pp. 45–50.
 
@@ -7313,9 +7160,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the rna polymerase iii concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 7–8, printed question 27; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
@@ -7455,9 +7299,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the codon degeneracy concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 7–8, printed question 29; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -7595,9 +7436,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the lipid classification concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 7–8, printed question 30; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
@@ -7737,9 +7575,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sickle cell mutation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 7–8, printed question 31; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
 
@@ -7877,9 +7712,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the diphtheria ef2 concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 7–8, printed question 32; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -8019,9 +7851,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the etc complexes concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 8–9, printed question 33; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -8159,9 +7988,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the dna methylation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 8–9, printed question 34; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
@@ -8301,9 +8127,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the elastin elasticity amino acids concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 8–9, printed question 35; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
 
@@ -8441,9 +8264,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the dna polymerase iii proofreading concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 8–9, printed question 36; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -8583,9 +8403,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the competitive inhibition concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 8–9, printed question 37; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -8723,9 +8540,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the mismatch repair hnpcc concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 10, printed question 38; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
@@ -8865,9 +8679,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the mismatch repair hnpcc concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 10, printed question 39; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -9005,9 +8816,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the alternative splicing concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 10, printed question 40; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
@@ -9147,9 +8955,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the urease enzyme class concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 10, printed question 41; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -9287,9 +9092,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the mitochondrial dna polymerase concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 11, printed question 43; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -9429,9 +9231,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the xeroderma pigmentosum repair concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 11, printed question 44; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -9569,9 +9368,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the rna polymerase iii concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 11, printed question 45; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -9711,9 +9507,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the translation initiation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 11, printed question 46; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -9851,9 +9644,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the deoxy sugars concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 12–13, printed question 48; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
@@ -9993,9 +9783,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the nitrogenous base structure concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 12–13, printed question 49; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -10134,9 +9921,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cytokinesis concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 12–13, printed question 50; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
 
@@ -10274,9 +10058,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cytokinesis concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, pp. 12–13, printed question 52; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.

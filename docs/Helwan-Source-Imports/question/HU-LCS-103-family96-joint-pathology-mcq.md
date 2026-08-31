@@ -48,9 +48,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -238,9 +235,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -432,9 +426,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -622,9 +613,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -816,9 +804,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -1006,9 +991,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -1200,9 +1182,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -1390,9 +1369,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -1584,9 +1560,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -1774,9 +1747,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -1968,9 +1938,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -2158,9 +2125,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -2352,9 +2316,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -2542,9 +2503,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -2736,9 +2694,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -2926,9 +2881,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -3120,9 +3072,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -3310,9 +3259,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -3504,9 +3450,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -3694,9 +3637,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -3888,9 +3828,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -4078,9 +4015,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -4272,9 +4206,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -4462,9 +4393,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -4656,9 +4584,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -4848,9 +4773,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Musculoskeletal system
 
@@ -5038,9 +4960,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic

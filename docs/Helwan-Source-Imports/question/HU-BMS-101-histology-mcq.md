@@ -123,9 +123,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the connective tissue receptors concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 1; printed key pp. 45–50.
 
@@ -263,9 +260,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the astrocyte blood brain barrier maintenance concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 2; printed key pp. 45–50.
@@ -405,9 +399,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the desmin intermediate filament concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 3; printed key pp. 45–50.
 
@@ -545,9 +536,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the crossing over concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 4; printed key pp. 45–50.
@@ -687,9 +675,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sympathetic ganglion vascularity concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 5; printed key pp. 45–50.
 
@@ -827,9 +812,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the purkinje fibre size concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 6; printed key pp. 45–50.
@@ -969,9 +951,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the coronary artery elastic laminae concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 7; printed key pp. 45–50.
 
@@ -1109,9 +1088,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the nucleolar disappearance concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 8; printed key pp. 45–50.
@@ -1251,9 +1227,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the down syndrome concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 9; printed key pp. 45–50.
 
@@ -1391,9 +1364,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the turner syndrome concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 10; printed key pp. 45–50.
@@ -1533,9 +1503,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the dorsal root ganglion concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 28–31, printed question 11; printed key pp. 45–50.
 
@@ -1673,9 +1640,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sympathetic ganglion vascularity concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 12; printed key pp. 45–50.
@@ -1815,9 +1779,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the desmin intermediate filament concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 13; printed key pp. 45–50.
 
@@ -1955,9 +1916,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the mast cell histamine concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 14; printed key pp. 45–50.
@@ -2097,9 +2055,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the blind ended lymphatic capillaries concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 15; printed key pp. 45–50.
 
@@ -2237,9 +2192,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the coronary artery elastic laminae concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 16; printed key pp. 45–50.
@@ -2379,9 +2331,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the desmin intermediate filament concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 17; printed key pp. 45–50.
 
@@ -2519,9 +2468,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the pancreatic salivary ducts concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 18; printed key pp. 45–50.
@@ -2661,9 +2607,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the purkinje fibre subendocardial location concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 19; printed key pp. 45–50.
 
@@ -2801,9 +2744,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cellular pigments concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 20; printed key pp. 45–50.
@@ -2943,9 +2883,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the isochromosome transverse centromere division concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 21; printed key pp. 45–50.
 
@@ -3083,9 +3020,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cellular pigments concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 31–34, printed question 22; printed key pp. 45–50.
@@ -3225,9 +3159,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the astrocyte blood brain barrier maintenance concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 13, printed question 53; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
 
@@ -3365,9 +3296,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the collagen fibres concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 13, printed question 54; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
@@ -3507,9 +3435,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the purkinje fibre subendocardial location concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 13, printed question 55; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -3647,9 +3572,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the ubiquitin protein degradation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 14, printed question 56; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
@@ -3789,9 +3711,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the epidermal layers concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 14, printed question 57; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -3929,9 +3848,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the marfan fibrillin concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 14, printed question 58; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
@@ -4071,9 +3987,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sex chromosome karyotype concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 14, printed question 59; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
 
@@ -4211,9 +4124,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the venous smooth muscle concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 15, printed question 60; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -4353,9 +4263,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the neuron glial morphology concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 15, printed question 61; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -4493,9 +4400,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the brown adipose tissue concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 15, printed question 62; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
@@ -4635,9 +4539,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cellular pigments concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 15, printed question 63; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -4775,9 +4676,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the desmin intermediate filament concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 15, printed question 64; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -4917,9 +4815,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the thin versus thick skin concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 16, printed question 65; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -5057,9 +4952,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the epicardium concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 16, printed question 66; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -5199,9 +5091,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the trigeminal nucleus concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 16, printed question 67; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -5339,9 +5228,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the medium artery vein comparison concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 16, printed question 68; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -5481,9 +5367,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the venous smooth muscle concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 16, printed question 69; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -5621,9 +5504,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the umbilical cord connective tissue concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 17, printed question 70; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
@@ -5763,9 +5643,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the capillary types and sites concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 17, printed question 71; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -5903,9 +5780,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the hair follicle receptor concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 17, printed question 72; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
@@ -6045,9 +5919,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the vinca alkaloids concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 17, printed question 73; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -6185,9 +6056,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the blind ended lymphatic capillaries concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 17, printed question 74; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -6327,9 +6195,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cell cycle competence concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 18, printed question 75; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -6468,9 +6333,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the thermoregulatory av shunts concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 18, printed question 76; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -6608,9 +6470,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the adherens junction concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 18, printed question 77; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.

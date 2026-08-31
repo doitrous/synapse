@@ -503,7 +503,6 @@ const questionCommon = {
   labeling_points: '',
   completion_text: '',
   derived_from: '',
-  explanation: '',
   topic: 'Musculoskeletal system',
   subtopic: 'Joint diseases and tumours',
   difficulty: 'Easy',

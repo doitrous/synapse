@@ -123,9 +123,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the barbiturate neurotransmission concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 1; printed key pp. 45–50.
 
@@ -263,9 +260,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the synaptic fatigue concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 2; printed key pp. 45–50.
@@ -405,9 +399,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the age related sweating thermoregulation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 3; printed key pp. 45–50.
 
@@ -545,9 +536,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the thermoregulation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 4; printed key pp. 45–50.
@@ -687,9 +675,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the temporal summation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 5; printed key pp. 45–50.
 
@@ -827,9 +812,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the hyperkalaemic weakness concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 6; printed key pp. 45–50.
@@ -969,9 +951,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 7; printed key pp. 45–50.
 
@@ -1109,9 +1088,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the myelinated conduction concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 8; printed key pp. 45–50.
@@ -1251,9 +1227,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 9; printed key pp. 45–50.
 
@@ -1391,9 +1364,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 10; printed key pp. 45–50.
@@ -1533,9 +1503,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the calcium transmitter release concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 11; printed key pp. 45–50.
 
@@ -1673,9 +1640,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the body fluid osmolarity concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 12; printed key pp. 45–50.
@@ -1815,9 +1779,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the thermoregulation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 36–39, printed question 13; printed key pp. 45–50.
 
@@ -1955,9 +1916,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the calcium transmitter release concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 14; printed key pp. 45–50.
@@ -2097,9 +2055,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the intracellular potassium concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 15; printed key pp. 45–50.
 
@@ -2237,9 +2192,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the ipsp inhibitory neurotransmitter concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 16; printed key pp. 45–50.
@@ -2379,9 +2331,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cleavage lines concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 17; printed key pp. 45–50.
 
@@ -2519,9 +2468,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the hyperkalaemic weakness concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 18; printed key pp. 45–50.
@@ -2661,9 +2607,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the calcium homeostasis concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 19; printed key pp. 45–50.
 
@@ -2801,9 +2744,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the diffusion and facilitated diffusion concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 20; printed key pp. 45–50.
@@ -2943,9 +2883,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the convergence concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 21; printed key pp. 45–50.
 
@@ -3083,9 +3020,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the diffusion and facilitated diffusion concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 22; printed key pp. 45–50.
@@ -3225,9 +3159,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the body fluid volume calculation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 23; printed key pp. 45–50.
 
@@ -3365,9 +3296,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the potassium current driving force concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 24; printed key pp. 45–50.
@@ -3507,9 +3435,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the steady state osmolarity concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 25; printed key pp. 45–50.
 
@@ -3647,9 +3572,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the hyperkalaemic weakness concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_aa8bb730fbccdbf7d6e0 — HU-BMS-101 EOM 2024–2025, pp. 39–44, printed question 26; printed key pp. 45–50.
@@ -3789,9 +3711,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the ipsp inhibitory neurotransmitter concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 19, printed question 78; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -3929,9 +3848,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the diffusion and facilitated diffusion concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 19, printed question 79; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
@@ -4071,9 +3987,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the intracellular potassium concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 19, printed question 80; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
 
@@ -4211,9 +4124,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the diffusion and facilitated diffusion concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 20, printed question 83; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -4353,9 +4263,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the fluid shifts solute load concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 20, printed question 84; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -4493,9 +4400,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the diffusion and facilitated diffusion concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 20, printed question 85; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
@@ -4635,9 +4539,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the myelinated conduction concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 20, printed question 86; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -4775,9 +4676,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the temporal summation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 21, printed question 87; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
@@ -4917,9 +4815,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the thermoregulation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 21, printed question 88; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -5057,9 +4952,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the cleavage lines concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 21, printed question 89; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
@@ -5199,9 +5091,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the diffusion and facilitated diffusion concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 21, printed question 90; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -5339,9 +5228,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the carrier stereospecificity saturation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 22, printed question 92; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -5481,9 +5367,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the body fluid osmolarity concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 22, printed question 93; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -5621,9 +5504,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 22, printed question 94; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -5763,9 +5643,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the convergence concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 23, printed question 95; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option A.
 
@@ -5903,9 +5780,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the age related sweating thermoregulation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 23, printed question 96; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option C.
@@ -6045,9 +5919,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the synaptic fatigue concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 23, printed question 97; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
 
@@ -6185,9 +6056,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sodium channel block concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 23, printed question 98; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
@@ -6327,9 +6195,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the potassium equilibrium potential concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 24, printed question 99; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -6467,9 +6332,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sodium potassium atpase inhibition concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 24, printed question 100; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option D.
@@ -6609,9 +6471,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the myelinated conduction concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 24, printed question 101; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -6750,9 +6609,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the thermoregulation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_b7c0eb8f1cafb9f6c9d7 — HU-BMS-101 Batch 10 EOM 2025–2026, p. 25, printed question 102; src_f5f3ba808a5eb4afa3a0 solved overlay, highlighted option B.
 
@@ -6890,9 +6746,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the action potential upstroke concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, p. 2, printed question 1; printed answer follows the question.
@@ -7038,9 +6891,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the action potential upstroke concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 2 answer block), printed question 2; printed answer follows the question.
 
@@ -7184,9 +7034,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 3 answer block), printed question 3; printed answer follows the question.
@@ -7332,9 +7179,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 4 answer block), printed question 4; printed answer follows the question.
 
@@ -7478,9 +7322,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the action potential upstroke concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 5 answer block), printed question 5; printed answer follows the question.
@@ -7626,9 +7467,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the action potential upstroke concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 6 answer block), printed question 6; printed answer follows the question.
 
@@ -7767,9 +7605,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the body fluid osmolarity concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 7 answer block), printed question 7; printed answer follows the question.
 
@@ -7907,9 +7742,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the osmosis concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 8 answer block), printed question 8; printed answer follows the question.
@@ -8055,9 +7887,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the osmosis concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 9 answer block), printed question 9; printed answer follows the question.
 
@@ -8196,9 +8025,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the intracellular potassium concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 10 answer block), printed question 10; printed answer follows the question.
 
@@ -8336,9 +8162,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the body fluid volume calculation concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 11 answer block), printed question 11; printed answer follows the question.
@@ -8484,9 +8307,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the body fluid volume calculation concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 12 answer block), printed question 12; printed answer follows the question.
 
@@ -8630,9 +8450,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 13 answer block), printed question 13; printed answer follows the question.
@@ -8778,9 +8595,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the sodium potassium atpase inhibition concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 14 answer block), printed question 14; printed answer follows the question.
 
@@ -8925,9 +8739,6 @@ concept
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the resting membrane potential concept.
 
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
-
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, pp. 3–33 (question 15 answer block), printed question 15; printed answer follows the question.
 
@@ -9071,9 +8882,6 @@ concept
 
 ## learning_objective
 Identify the keyed HU-BMS-101 answer and relate it to the potassium current driving force concept.
-
-## explanation
-The printed key identifies the correct option for this source stem. The option explanations show why the keyed response is retained and how the distractors differ. Re-read the cited source before extending this local assessment wording.
 
 ## source_citation
 src_86786ce382d463dc3036 — HU-BMS-101 formative assessment, p. 33, printed question 16; printed answer follows the question.

@@ -48,9 +48,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Basic tissues
 
@@ -226,9 +223,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
@@ -408,9 +402,6 @@ single best answer
 ## derived_from
 
 
-## explanation
-
-
 ## topic
 Basic tissues
 
@@ -586,9 +577,6 @@ single best answer
 
 
 ## derived_from
-
-
-## explanation
 
 
 ## topic
