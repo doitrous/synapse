@@ -24515,3 +24515,126 @@ page begins a keyed `Sympathomimetics I` set covering adrenaline apnoea, dipivef
 intramuscular noradrenaline risk. Its visible authority, complete keyed/unkeyed, written/image/
 practical/teaching boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and
 subsequent exact next debt remain to be separately adjudicated.
+
+## Family 242 — anonymous keyed sympathomimetic-I revision set
+
+### Source identity, exhaustive visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_8c1ebe9861fc4c64e473` · `sympathomimetic drugs I.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `8c1ebe9861fc4c64e473a1941658ef2929d4bc71af3f4d4c301b9713576a182a` · **262,566 bytes** |
+| Format / exhaustive read | **8 native-text portrait US-letter pages, 612×792 points, PDF 1.7**. All 8 pages were rendered into 8 non-empty 1224×1584-pixel images and read individually at original detail. Coherent layout extraction contains **744 words / 5,692 bytes** and agrees with all 23 MCQ stems/options, two short-essay prompts and blanks, page continuations, the 23-letter key, and both supplied written answers. `pdfimages -list` reports no embedded raster image; there is no form, JavaScript, encryption, or hidden answer layer. |
+| Visible provenance | Page 1 visibly titles the carrier `Sympathomimetics I`; every page repeats only the Arabic devotional header `سبحان الله و بحمده / سبحان الله العظيم`. No person, university/faculty, MHU/Helwan, BMS-102/module code, academic year, sitting/date, marks, duration, candidate field, invigilation, or departmental approval is visible. |
+| Metadata caution | Metadata author is `Eman Ibrahem Hefny Ibrahem`, creator is Microsoft Word, and creation/modification is 12 August 2025. None is visibly corroborated, so author/date remain secondary metadata provenance only and establish neither teaching authorship nor an exam sitting/year. |
+| Authority | Anonymous tier-6 keyed revision material in the local BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, not an authenticated Helwan exam or official departmental key. |
+
+### Complete MCQ, written, key, teaching, image, and practical boundary
+
+| Physical pages / source refs | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q4 start | Adrenaline apnoea; dipivefrine/lipophilicity in open-angle glaucoma; intramuscular noradrenaline/gangrene; immediate treatment of severe peanut allergy | **4 keyed text MCQs**, with Q4 continuing on page 2. |
+| 2 · Q4 completion–Q8 start | Severe-allergy treatment; adrenaline added to local anaesthetic; ventricular-fibrillation risk; isoprenaline hypokalaemia; isoprenaline and increased pulse pressure | Q4 continuation plus **4 new keyed text MCQs**, with Q8 continuing on page 3. |
+| 3 · Q8 completion–Q12 start | Pulse-pressure mechanism; hypoglycaemic-coma use exception; beta-2 tremor; anaphylaxis route; adrenaline/lidocaine effect | Q8 continuation plus **4 new keyed text MCQs**, with Q12 continuing on page 4. Q5 and Q12 test the same local-anaesthetic prolongation/reduced-systemic-toxicity proposition. |
+| 4 · Q12 completion–Q16 | Local-anaesthetic completion; circumcision/end-artery gangrene; isoprenaline in AV block; adrenaline as physiological histamine antagonist; beta-2 agonist in acute asthma | Q12 continuation plus **4 new keyed text MCQs**. Q13 is replayed anatomically as Q22. |
+| 5 · Q17–Q21 start | Noradrenaline reflex bradycardia and atropine; adrenaline eye drops/alkaline tears; adrenaline after non-selective beta blockade; noradrenaline IV route; hemorrhagic shock/transfusion prerequisite | **5 keyed text MCQs**, with Q21 continuing on page 6. |
+| 6 · Q21 completion–Q23 + short essays | Hemorrhagic-shock prerequisite; toe/end-artery gangrene; adrenaline apnoea; `Precautions during IV infusion` with five blanks; and `Enumerate 3 contraindications of isoprenaline` with three blanks | Q21 continuation plus **2 new keyed text MCQs + 2 keyed written short-essay operations**. Q23 replays Q1; Q22 replays Q13. The infusion-precautions operation is theoretical written recall, not a performed practical station. |
+| 7 | `Key answers:` Q1–Q23 letters `B,D,C,C,A,C,B,C,B,A,C,D,D,B,A,C,B,A,C,D,C,A,B` | **23 source-supplied MCQ answer occurrences**, one per numbered MCQ. |
+| 8 | Supplied short-essay answers: slow IV infusion; monitor BP/heart rate; never stop suddenly; transfuse blood first in hemorrhagic shock; cover the ampule/add vitamin C; and isoprenaline contraindications of tachyarrhythmias, angina pectoris, and hypotension | **2 source-supplied composite written answer occurrences**, one per page-6 essay. Component bullets remain parts of their two answers, not additional prompts or answer records. |
+
+The exhaustive source-local boundary is **25 raw prompt occurrences = 23 MCQs + 2 written short
+essays**, with **25 source-supplied answers / 0 unkeyed prompts**. There are **0 image-
+identification operations, 0 authenticated practical stations, 0 drawings requested, 0 candidate
+responses, 0 standalone teaching records, and 0 prompt-like residues**. Continuations, devotional
+headers, blank lines, and answer components are assigned once. All printed letters, routes,
+wording, and clinical claims are preserved as source truth without medical correction or
+endorsement.
+
+### Retention, 22-handle registry, 88-search completion, and prior-BMS reconciliation
+
+All **25** prompt occurrences remain retained records; there is no literal replay exclusion. Q1
+and Q23 both test adrenaline apnoea; Q5 and Q12 both test adding adrenaline to local anaesthetic;
+and Q13 and Q22 both test end-artery gangrene after local adrenaline. Each occurrence and answer
+remains, but each pair collapses to one tested proposition. Thus **`25 retained - 3 semantic
+reductions = 22 accepted source-distinct handles`**.
+
+The complete accepted registry follows; each semicolon-delimited slug is one handle.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q8 | `adrenaline-apnoea-reflex-respiratory-inhibition` (Q1,Q23); `dipivefrine-glaucoma-lipophilic`; `intramuscular-noradrenaline-gangrene`; `adrenaline-anaphylaxis-immediate-treatment`; `adrenaline-local-anaesthetic-prolong-action-reduce-toxicity` (Q5,Q12); `adrenaline-ventricular-fibrillation`; `isoprenaline-hypokalaemia`; `isoprenaline-increased-pulse-pressure-systolic-diastolic` |
+| Q9–Q16 | `adrenaline-use-exception-hypoglycaemic-coma`; `beta2-agonist-hand-tremor`; `adrenaline-anaphylaxis-subcutaneous-route`; `adrenaline-local-anaesthetic-end-artery-gangrene` (Q13,Q22); `isoprenaline-av-block-diastolic-pressure-beta2`; `adrenaline-histamine-physiological-antagonist`; `beta2-agonist-acute-asthma` |
+| Q17–Q23 / essays | `noradrenaline-reflex-bradycardia-atropine`; `adrenaline-eye-drops-alkaline-tears-no-mydriasis`; `adrenaline-nonselective-beta-blocker-unopposed-hypertension`; `noradrenaline-intravenous-infusion-route`; `hemorrhagic-shock-blood-transfusion-before-noradrenaline`; `noradrenaline-intravenous-infusion-precautions-written`; `isoprenaline-contraindications-written` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written/practical state, `docs/questions-import-ready`, Helwan `pending-live`, and prior
+BMS-102 Families 1–241: **`22 × 4 = 88 required and completed searches`**. Each packet used the
+distinctive stem, tested proposition, answer/terminal phrase, and drug/topic or prior-handle
+variant. No live or pending Helwan carrier duplicates this object; search matches in the prior
+triage reflect the accepted composite pharmacology scopes described below and do not change
+source-local retention.
+
+Exactly **13** handles reuse accepted prior BMS scope: dipivefrine/glaucoma; intramuscular
+noradrenaline tissue-gangrene risk; adrenaline for anaphylaxis; adrenaline with local anaesthetic;
+adrenaline ventricular fibrillation/adverse effects; the adrenaline-use exception; the source's
+subcutaneous anaphylaxis route; end-artery gangrene; adrenaline/histamine physiological
+antagonism; beta-2 use in acute asthma; noradrenaline reflex bradycardia/actions; noradrenaline IV
+infusion route; and noradrenaline-infusion precautions. These map principally to Family 237's
+`adrenaline-local-and-systemic-uses`, `dipivefrine-more-effective-than-adrenaline-glaucoma`,
+`adrenaline-suppresses-allergy-physiological-antagonism`,
+`adrenaline-adverse-effects-contraindications`, and
+`noradrenaline-actions-uses-adverse-contraindications` handles; Family 238 independently reuses
+the histamine-antagonism proposition but adds no further current reuse. The other **9** handles
+have no accepted prior BMS question at the same tested scope. Therefore concept arithmetic is
+**`22 - 13 = +9`**.
+
+### Family-242 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 242 | Auxiliary cumulative (Families 12–242) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 25 = 23 MCQ + 2 written | 3,042 | 762 | 3,804 |
+| Eligible source-supplied answers | 25; 0 unkeyed | 2,077 | 405 | 2,482 |
+| Retained eligible question records | 25 | 2,746 | 552 | 3,298 |
+| Accepted handles / required searches | 22 / 88 | 2,464 / — | — | — |
+| Prior-BMS handle reuses | 13 | — | — | subtract before concept addition |
+| Cross-family concept delta | +9 | +1,280 over primary | 372 | 1,652 |
+| **Distinct tested concepts** | **22 source-local / +9** | **1,280 additions** | **372** | **1,652** |
+
+The checksum closes: **23 MCQ + 2 written = 25 prompts**; **25 answers + 0 unkeyed = 25 raw**;
+**25 raw - 0 literal exclusions = 25 retained**; **25 retained - 3 semantic reductions = 22
+handles**; **22 × 4 = 88 searches**; and **22 handles - 13 prior reuses = +9 concepts**.
+Auxiliary arithmetic is `3,017 + 25 = 3,042` prompts, `2,052 + 25 = 2,077` answers, `2,721 +
+25 = 2,746` retained, `2,442 + 22 = 2,464` handles, and `1,271 + 9 = 1,280` concept
+additions. All eligible arithmetic is `762 + 3,042 = 3,804`, `405 + 2,077 = 2,482`, `552 +
+2,746 = 3,298`, and `372 + 1,280 = 1,652`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,042 prompts / 2,077 answers /
+2,746 retained / 2,464 handles / +1,280 concepts**. All eligible becomes **3,804 / 2,482 /
+3,298 / 1,652**. Family 242 establishes low-authority keyed sympathomimetic-I revision evidence
+only, not official authorship, an authenticated exam/sitting, departmental key, recurrence,
+practical station, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 242
+
+`src_8c1ebe9861fc4c64e473` is exhausted across all 8 rendered/native pages: every visible source
+and metadata field, stem, option, continuation, answer token, written-answer component, duplicate
+proposition, search packet, prior-family relation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-242 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 242 is **303 paths / 296 unique hashes**, leaving exactly **59 selected paths / 52
+unique hashes**. Checksums are **303 + 59 = 362 paths** and **296 + 52 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `a52516b239a0adb34186ccff3fe5ccad335a800cdb691be428c434f7e6b7b76e`, and the first-
+occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`5765f6afcab6ddde0a4d6d5c5e9db03f0063d2a134f5a8b6ee7366bdeb81ba45`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_9e10639c82dfb8c3c6b3` ·
+`sympathomimetic drugs II.pdf`, SHA-256
+`9e10639c82dfb8c3c6b383134ba6a846bfea7662013a5f1f1dabd5ed261016e7`, **292,864 bytes**,
+**7 native-text portrait US-letter pages** under `Pharmacology / Notes and Summaries`. Its first
+page begins a keyed `Sympathomimetics II` set covering ephedrine as a BBB-penetrating nasal
+vasoconstrictor, acidification in amphetamine toxicity, and a stimulant-toxicity vignette. Its
+visible authority, complete keyed/unkeyed, written/image/practical/teaching boundary, four-search
+ledger, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
