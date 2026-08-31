@@ -2134,3 +2134,29 @@ Removing the sixty-one processed hashes leaves **33 selected inventory paths / 3
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy.pdf`, SHA-256 `751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165`, 9 pages, with a sparse-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 33 selected inventory paths / 33 unique hashes remain untriaged.
+
+## Completed source — Special Chemotherapy unkeyed sibling
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy.pdf` | `751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165` | 9 | sparse-text | pages 1–9 rendered and read | Direct FireShot capture of an active MUST Smart E-Learning Spring 2021 `Fundamentals of human body II` attempt titled `Special Chemotherapy revision`; strong platform/module assessment provenance, but the personal login and lack of examiner, result or official-key declaration limit authority. |
+
+### Exact boundary and answer state
+
+The nine long-form rendered pages contain one continuous **Q1–Q57** sequence. Every field is an ordinary text MCQ, visibly marked `Not complete`, with no selected response and no correct-answer disclosure. The exact boundary is **57 objective prompts / 0 answer observations / 57 source-absent answers / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. No answer is inferred from the keyed sibling; that sibling's disclosures remain the already-counted family answer observations. The personal login is excluded, and printed grammar, dated regimens and academically questionable claims remain source truth.
+
+### Exact sibling and search reconciliation
+
+An independent normalized stem-plus-option comparison found **57 unique fields in the unkeyed carrier, 57 unique fields in the ANSWERED carrier, and a 57/57 bijection with no unmatched fields**. The numbering is shuffled—for example, this carrier's Q1 maps to ANSWERED Q55—but the complete fields agree. Because the ANSWERED sibling already contributed the family occurrence and its 57 answer disclosures, the unkeyed carrier contributes **+0 questions / +0 answers / +0 concepts**.
+
+The same five source-first handles cover antituberculous and antileprosy pharmacology; antifungal pharmacology; antiamoebic pharmacology; antimalarial pharmacology; and antifolate/special-chemotherapy pharmacology. All five collapse to prior FHB-102-2 evidence. Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This sixty-second one-path hash is now `sourceProcessed=true`. Cumulative triage remains **4,926 questions / 4,693 answers / 62 concepts**.
+
+Removing the sixty-two processed hashes leaves **32 selected inventory paths / 32 unique SHA-256s**. Their sorted-newline checksum is `7a784cd3ef38db6c02e1eda3569996a8a64639571b60ef244f8104b452f6ef9e`. Remaining audit-review debt is **10 substantive-text / 7 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`62 + 32 = 94`** and path accounting is **`64 + 32 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - General Cemotherapy.pdf`, SHA-256 `d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225`, 14 pages, with an empty-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 32 selected inventory paths / 32 unique hashes remain untriaged.

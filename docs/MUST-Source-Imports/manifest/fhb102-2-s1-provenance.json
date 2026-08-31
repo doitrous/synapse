@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "777fe88621ff2f01467ac01ed0fcbdd628df3f6d4789d44a4f49780f9002cf5d",
-    "triageMarkdown": "c185a7b5e6c6efd7baf55955296587934de1d98effadc6afc6a91d16712365e1"
+    "readinessMarkdown": "598a4306c43f4477e84aac188fe6705d981b7af9ccb699770b4bccd172fb27b7",
+    "triageMarkdown": "0e0debffa43a6152149acf7b8352bf29710869592350e68fce6d058bb848ad6c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -93,6 +93,7 @@
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
       "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
+      "751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165",
       "79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
@@ -131,7 +132,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 61
+    "uniqueSha256": 62
   },
   "completedSourceCoverage": [
     {
@@ -3617,6 +3618,46 @@
         "printed grammar, spelling, outdated regimens and academically questionable platform answers remain source truth without correction",
         "the platform-disclosed answers are strong source answer observations but are not labelled as an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165",
+      "sourcePages": 9,
+      "renderedReadPages": "1-9",
+      "objectiveMcqPrompts": 57,
+      "writtenPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 57,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": true,
+      "exactSiblingSha256": "42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf",
+      "mappedSiblingPromptObservations": 57,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "antituberculous and antileprosy drug mechanisms regimens uses and adverse effects",
+        "antifungal mechanisms uses adverse effects and resistance",
+        "antiamoebic drug selection mechanisms and adverse effects",
+        "antimalarial mechanisms treatment prophylaxis and transmission prevention",
+        "antifolate and special-chemotherapy pharmacology"
+      ],
+      "authorityDisposition": "direct FireShot capture of an active MUST Smart E-Learning Spring 2021 Fundamentals of human body II attempt titled Special Chemotherapy revision; the platform, module and dated attempt context provide strong assessment provenance, while the named personal login and absence of examiner, result screen or faculty-key declaration limit authority",
+      "boundaryDisposition": "the nine rendered long-form capture pages contain one continuous Q1-Q57 sequence of fifty-seven ordinary text objective MCQs; every item is visibly Not complete and no response or correct-answer disclosure is present, yielding zero answer observations, fifty-seven source-absent answers and zero written, practical, image-dependent or teaching-only occurrence",
+      "replayDisposition": "normalized stem-plus-option comparison yields fifty-seven unique fields in each carrier and a complete fifty-seven-of-fifty-seven bijection to the completed ANSWERED sibling, despite shuffled numbering; the sibling already contributed the family occurrence and all answers, so this unkeyed carrier adds zero governed questions and zero answers",
+      "preservedSourceDefects": [
+        "all fifty-seven answers remain source-absent in this active-attempt capture and none is inferred as a new answer observation",
+        "the personal login name is excluded from durable evidence",
+        "printed grammar, spelling, outdated regimens and academically questionable prompt claims remain source truth without correction",
+        "question numbering differs from the ANSWERED sibling and is preserved as carrier-local order rather than treated as disagreement"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3993,33 +4034,39 @@
     "pages": 9,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "sixtySecondSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy.pdf",
     "sha256": "751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165",
     "pages": 9,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - General Cemotherapy.pdf",
+    "sha256": "d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225",
+    "pages": 14,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 33,
-    "uniqueSha256": 33,
-    "sortedNewlineSha256": "7f86a41d86f3593ae978bf649d83cd66c3a20ab713b87f8f133023b89171e313",
+    "inventoryMetadataRows": 32,
+    "uniqueSha256": 32,
+    "sortedNewlineSha256": "7a784cd3ef38db6c02e1eda3569996a8a64639571b60ef244f8104b452f6ef9e",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
-      "sparse-text": 8,
+      "sparse-text": 7,
       "substantive-text": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
-    "sparse-text": 8,
+    "sparse-text": 7,
     "substantive-text": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 61,
-    "remainingUniqueSha256": 33,
+    "processedUniqueSha256": 62,
+    "remainingUniqueSha256": 32,
     "processedPlusRemaining": 94
   }
 }
