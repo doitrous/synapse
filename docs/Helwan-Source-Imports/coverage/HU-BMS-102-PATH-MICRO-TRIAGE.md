@@ -24056,3 +24056,125 @@ page begins `1st year Pharma for Life` and numbered pharmacology MCQs, while met
 `lecture 1`, author is `zooma`, and creation/modification is 15 March 2021. Its visible MHU/Helwan
 authority, exact prompt/key/practical boundary, four-search ledger, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 238 — Dr Abd El Kader 2021 first-year keyed pharmacology revision set
+
+### Source identity, complete native/render boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_dcb156a3102b5f184df2` · `Pharma-Q-1st-MHU.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `dcb156a3102b5f184df2f532d62a00368324d53c05ecf6c71b206f72c758b730` · **516,522 bytes** |
+| Format / exhaustive read | **8 native-text portrait A4 pages, 595.44×841.92 points, PDF 1.7**. All 8 pages were rendered into 8 non-empty 1191×1684-pixel images and inspected individually at original detail. Coherent layout extraction contains **1,937 words / 16,288 bytes** and agrees with the rendered headings, 53 numbered stems, option sets, three graphs, key table, inline answer letters, numbering gaps, and footers. There is no form, JavaScript, encryption, or hidden answer layer. |
+| Visible provenance | Every page visibly prints `Pharma for Life` and `1st year`; pages 1–7 print `2021- Quest`, and the footer logo visibly names `DR ABD EL KADER`. Neither `MHU`, Helwan University, a faculty, BMS-102/module code, official exam label, marks, duration, candidate field, nor departmental approval is visible. `MHU` is filename-only and is not promoted into visible institutional evidence. |
+| Metadata caution | Metadata title is `lecture 1`, author is `zooma`, creator/producer is Microsoft Word 2016, and creation/modification is 15 March 2021. The visible Abd El Kader branding controls attribution; the metadata author is secondary/conflicting and the metadata date independently proves neither a sitting nor official administration. |
+| Authority | Local tier-6, first-year tutor-branded keyed revision material in the BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, but cannot establish an official MHU/Helwan exam, authenticated sitting, departmental key, recurrence, mark weight, or candidate response. |
+
+### Complete page-first objective, written, key, image, and practical boundary
+
+| Physical pages / source refs | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q7 | Drug mechanisms, pharmacokinetics/pharmacodynamics, simple diffusion, pindolol partial agonism, irritant aqueous injection route, and phase-I biotransformation | **7 keyed text MCQs**. |
+| 2 · Q8–Q16 | Plasma-protein binding, first-pass route, super-sensitivity, teratogenicity, allergy, physiological antagonism, IV bioavailability, elderly dosing, and bioavailability definition | **9 keyed text MCQs**. |
+| 3 · Q17–Q24 | Metabolism polarity, creatinine clearance, phase-II reactions, placental transfer, repeated teratogenicity, therapeutic index, G6PD/aspirin idiosyncrasy, and weak-base absorption | **8 keyed text MCQs**. Q21 repeats Q11's tested proposition but remains a source occurrence. |
+| 4 · Q25–Q30 | First-pass definition, enzyme inhibition, low volume of distribution, noncompetitive antagonism, propranolol, and antagonist properties | **6 keyed text MCQs**. |
+| 5 · Q31–Q35 | Efficacy, tetracycline/lactation, two antagonist dose-response figures, and LD50 properties | **5 keyed MCQs = 3 text + 2 graph/image MCQs**. Q33–Q34 are ordinary figure-bearing objective questions, not practical stations. |
+| 6 · Q36–Q41 | Active transport, therapeutic index, lethal-dose definition, loading dose, bicarbonate/excretion, and desferrioxamine | **6 keyed text MCQs**. |
+| 7 · Q42–Q45 and answer table | One graph asks for the most efficacious and most potent drug; then tolerance, idiosyncrasy, and enzyme induction. The table supplies Q1–Q45 answers, including composite Q42=`C,A`; its Q46–Q50 cells are visibly blank and have no corresponding stems in this carrier. | **4 keyed text MCQs + 1 keyed composite graph-written operation**. Q42 is a written graph-reading item with two requested/answered components but one numbered prompt/key occurrence. Blank Q46–Q50 forward-numbering cells are layout residue, not five prompts or unkeyed questions. |
+| 8 · second series Q1–Q8 | Inverse agonist, pharmacodynamics, mode of action, plasma-protein binding, antagonist, oily-drug route, protein-binding exception, and cimetidine | **8 keyed text MCQs** with isolated inline right-margin answer letters. The source's `e` answers for Q1 and Q4 and `d` for Q3 are retained as printed, not medically repaired. |
+
+The exhaustive source-local boundary is **53 raw prompt occurrences = 52 MCQs + 1 composite
+graph-written operation**, with **53 source-supplied answer occurrences / 0 unkeyed prompts**.
+Q42's two source tokens (`C,A`) remain attached to its one composite answer occurrence. The three
+graph-bearing operations are Q33–Q34 image MCQs and Q42 written graph interpretation; none is an
+authenticated practical station or specimen-identification record. There are **0 practical
+stations, 0 drawings requested, 0 candidate responses, and 0 prompt-like residues**. Stray source
+characters after Q15/Q36, blank Q46–Q50 key cells, typography, and footer/page numbers are assigned
+as layout evidence only. All answer letters and anomalies are source truth, not correction or
+endorsement.
+
+### Retention, 47-handle registry, 188-search completion, and prior-BMS reconciliation
+
+All **53** numbered prompt occurrences remain retained records: there is no literal replay row to
+exclude. Six same-source semantic reductions preserve every wording and key while avoiding tested-
+proposition double counting: Q11/Q21 (teratogenicity); Q3/page-8 Q2 (pharmacodynamics definition);
+Q22/Q37 (therapeutic-index ratio); Q28/Q34 (noncompetitive/irreversible antagonist curve); Q30/
+page-8 Q5 (antagonist affinity without efficacy); and Q35/Q38 (LD50). Thus **`53 retained - 6
+semantic reductions = 47 accepted source-distinct handles`**.
+
+The complete accepted registry follows; each semicolon-delimited slug is one handle.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q10 | `drug-mechanisms-exception-plasma-protein-binding`; `pharmacokinetics-adme-not-uses`; `pharmacodynamics-studies-drug-effects` (also page-8 Q2); `simple-diffusion-gradient-energy-carrier-ionization`; `pindolol-partial-agonist`; `irritant-aqueous-drug-intravenous-route`; `phase-one-biotransformation-outcomes-excludes-conjugation`; `protein-bound-drug-reservoir`; `oral-route-extensive-first-pass-unsuitable`; `super-sensitivity-exaggerated-normal-response` |
+| Q11–Q24 | `teratogenicity-fetal-malformation` (Q11,Q21); `allergic-reaction-manifestations-excludes-peptic-ulcer`; `adrenaline-histamine-physiological-antagonism`; `intravenous-bioavailability-100-percent`; `elderly-over70-smaller-dose`; `bioavailability-systemic-unchanged-fraction-first-pass`; `metabolism-less-lipid-soluble`; `creatinine-clearance-glomerular-filtration-rate`; `phase-two-excludes-hydrolysis`; `placental-drug-crossing-teratogenic`; `therapeutic-index-lethal-effective-ratio` (Q22,Q37); `aspirin-g6pd-hemolysis-idiosyncrasy`; `amphetamine-better-absorbed-intestine` |
+| Q25–Q41 | `first-pass-gut-liver-before-circulation`; `microsomal-enzyme-inhibitor-effect`; `low-vd-intravascular`; `noncompetitive-irreversible-antagonist-nonparallel-emax-reduction` (Q28,Q34); `propranolol-competitive-antagonist`; `antagonist-affinity-no-efficacy` (Q30/page-8 Q5); `maximal-efficacy-largest-response`; `tetracycline-lactation`; `reversible-antagonist-rightward-parallel-graph`; `ld50-definition-properties` (Q35,Q38); `active-transport-gradient-energy-saturability-competitor`; `loading-dose-initial-large-dose`; `bicarbonate-ephedrine-aspirin-excretion`; `desferrioxamine-ferric-iron` |
+| Q42–Q45 / page-8 survivors | `efficacy-potency-dose-response-graph`; `tolerance-decreased-response-usual-dose`; `idiosyncrasy-examples-exception`; `microsomal-enzyme-induction-characteristics`; `inverse-agonist-definition`; `mode-of-action-definition`; `plasma-protein-bound-drug-correct-anomaly`; `intramuscular-oily-drug-route`; `plasma-protein-binding-properties-exception`; `cimetidine-delays-drug-degradation` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written state, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102
+Families 1–237: **`47 × 4 = 188 required and completed searches`**. Packets used the distinctive
+stem, tested proposition, answer/terminal phrase, and drug/topic or prior-handle variant. Live and
+import-ready pharmacology records supplied overlap evidence for several propositions; no pending
+Helwan carrier duplicates this source. These external matches affect neither source occurrence
+retention nor the prior-BMS concept arithmetic below.
+
+Exactly **32** accepted handles reuse prior BMS assessment scope. Families 202/223 already cover
+pharmacokinetics/ADME, simple diffusion, irritant IV solution, phase-I outcomes, protein-bound
+reservoir, oral first pass, teratogenicity, IV bioavailability, elderly dosing, systemic-fraction
+bioavailability, metabolism polarity, phase-II exception, placental transfer, therapeutic index,
+idiosyncrasy, intestinal amphetamine absorption, gut/liver first pass, microsomal inhibition, low
+Vd, propranolol competitive antagonism, maximal efficacy, tetracycline/lactation, reversible-
+antagonist graph interpretation, active transport, loading dose, bicarbonate/excretion, efficacy-
+potency interpretation, enzyme induction, oily-drug IM route, and cimetidine inhibition. Family 237
+already tests adrenaline/histamine physiological antagonism. The other **15** handles have no prior
+BMS accepted handle at the same tested scope. Therefore concept arithmetic is **`47 - 32 = +15`**.
+
+### Family-238 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 238 | Auxiliary cumulative (Families 12–238) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 53 = 52 MCQ + 1 written | 2,948 | 762 | 3,710 |
+| Eligible source-supplied answers | 53; 0 unkeyed | 1,983 | 405 | 2,388 |
+| Retained eligible question records | 53 | 2,652 | 552 | 3,204 |
+| Accepted handles / required searches | 47 / 188 | 2,376 / — | — | — |
+| Prior-BMS handle reuses | 32 | — | — | subtract before concept addition |
+| Cross-family concept delta | +15 | +1,226 over primary | 372 | 1,598 |
+| **Distinct tested concepts** | **47 source-local / +15** | **1,226 additions** | **372** | **1,598** |
+
+The checksum closes: **52 + 1 = 53 prompts**; **53 supplied answers + 0 unkeyed = 53 raw**;
+**53 raw - 0 literal exclusions = 53 retained**; **53 retained - 6 semantic reductions = 47
+handles**; **47 × 4 = 188 searches**; and **47 handles - 32 prior reuses = +15 concepts**.
+Auxiliary arithmetic is `2,895 + 53 = 2,948` prompts, `1,930 + 53 = 1,983` answers, `2,599 +
+53 = 2,652` retained, `2,329 + 47 = 2,376` handles, and `1,211 + 15 = 1,226` concept
+additions. All eligible arithmetic is `762 + 2,948 = 3,710`, `405 + 1,983 = 2,388`, `552 +
+2,652 = 3,204`, and `372 + 1,226 = 1,598`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **2,948 prompts / 1,983 answers /
+2,652 retained / 2,376 handles / +1,226 concepts**. All eligible becomes **3,710 / 2,388 /
+3,204 / 1,598**. Family 238 establishes low-authority keyed first-year pharmacology revision
+evidence only, not an official exam, authenticated MHU/Helwan sitting, departmental answer key,
+recurrence, practical station, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 238
+
+`src_dcb156a3102b5f184df2` is exhausted across all 8 rendered/native pages: every visible source
+and metadata field, numbered stem, option, graph, answer token, duplicate proposition, blank key
+cell, anomaly, search packet, prior-family relation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-238 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 238 is **299 paths / 292 unique hashes**, leaving exactly **63 selected paths / 56
+unique hashes**. Checksums are **299 + 63 = 362 paths** and **292 + 56 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `947a63a564d40620dfdeb7a6c07deb521548d44e6ba9b2e5a1a2393a79d40ef1`, and the first-
+occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`d29c7e9071e751951c62bdbb0589ee52656dba2c1da19a825f43edc07175068b`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_5ee6650158c642a9f38b` · `beta
+blockers.pdf`, SHA-256 `5ee6650158c642a9f38b577d1e2acf46764c252967589e0b424704be3ec24c77`,
+**234,666 bytes**, **5 native-text portrait US-letter pages** under `Pharmacology / Notes and
+Summaries`. Its first page begins a numbered beta-blocker question set with a timolol/open-angle-
+glaucoma operation and a propranolol dog-lab scenario. Its visible authority, exact keyed/unkeyed,
+objective/written/image/practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic,
+and subsequent exact next debt remain to be separately adjudicated.
