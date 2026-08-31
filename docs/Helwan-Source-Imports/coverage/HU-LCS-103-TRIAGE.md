@@ -22335,3 +22335,100 @@ native-text A4 pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
 unclassified until all eight pages are rendered and read. **Overall LCS-103 remains `S1
 TRIAGE — NOT APPROVED`:** 17 tier-6/rank-9 path debts remain. No download, source edit, ID,
 content record, catalogue update, import or source copy was created.
+
+## Family 214 — Tier-6 named cardiac-and-smooth-muscle Histology teaching lecture
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f9349fe7df2a7ce9b655` / `f9349fe7df2a7ce9b655c218d869b3ffb737e942929776dde6f99d98d42de0dd` |
+| Exact path | `Year 1/LCS 103/Histology/Notes and Summaries/histo5.pdf` |
+| Physical verification | **1,652,598 bytes; eight native-text A4 pages; tagged; unencrypted; no form; PDF 1.7**. Full hash, size, page count and geometry match. All eight pages were rendered at 200 dpi to eight distinct images, inspected completely and read at original resolution; native extraction was checked page by page. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | Page 1 visibly prints `LEC 5`, `Cardiac & smooth Muscles`; all pages carry `Histology`, `Muscles` and `DR. Shaaban / spider medicine`. Metadata names `Mahmoud Yasser Elatawy` as author and records 23 April 2026 creation/modification. No page names Helwan, an institution, module 103, cohort, exam, sitting, marks or official key. |
+| Authority finding | Named teaching-summary evidence with topical LCS fit, but no eligible Helwan assessment authority. |
+
+The complete eight-page boundary is:
+
+| Page | Complete supplied composition |
+|---:|---|
+| 1 | overview and completed comparison of skeletal, cardiac and smooth muscle |
+| 2 | cardiac-muscle site, shape, surrounding connective tissue and LM appearance, with supplied comparison/micrograph panels |
+| 3 | cardiac sarcolemma, organelles, inclusions and atrial/brain natriuretic-factor teaching table |
+| 4 | supplied labelled cardiac EM/histology fields and intercalated-disc structure |
+| 5 | intercalated-disc functions, diads, Purkinje fibres and supplied conduction-system diagrams/micrograph |
+| 6 | cardiac regeneration and smooth-muscle sites, properties and LM appearance |
+| 7 | smooth-muscle EM features, caveolae and dense bodies with supplied electron micrographs/caption labels |
+| 8 | smooth-muscle contraction, filament arrangement and growth/regeneration |
+
+All headings, tables, arrows, micrographs and diagram labels are supplied teaching content.
+There is no question stem, learner command, answer area, option set, written task or answer
+key. Page 5 has exactly **one dash-only teaching cell** opposite `SAN, AVN, AVB, Bundle
+Branches`; it is an incomplete supplied table state rather than a learner-directed blank.
+Exact assessment delta is therefore **0 eligible prompts / 0 external prompts / 0 ordinary
+MCQs / 0 written prompts / 0 keys-or-answers / 0 unkeyed prompts**.
+
+Source truth remains literal and unrepaired. This includes `UMCs`, `glycogen :-(structure
+store energy)`, `BNF`, the printed `transmit impulses 5 times faster`, `No intercalated
+discs` for Purkinje fibres, `transition of nerve impulse`, `myofibrils` in the page-7
+caveolae description, and the page-5 dash-only cell. Inventory records rather than medically
+repairs or endorses those states.
+
+### Practical and image boundary
+
+The lecture uses completed, labelled LM/EM fields and explanatory cardiac-conduction,
+intercalated-disc and smooth-muscle diagrams. None is masked, numbered for learner
+identification, paired with a station command or supplied as a response task. Exact
+practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0
+practical teaching scopes**. The page-5 dash state is a theoretical teaching residue only.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The teaching content collapses source-first to six complete theoretical handles:
+
+| Handle / pages | One query on each required surface | Reconciliation |
+|---|---|---|
+| skeletal, cardiac and smooth muscle comparison · 1 | skeletal cardiac smooth muscle comparison striations nuclei sarcomere tubular system regeneration | prior-LCS theoretical reuse |
+| cardiac LM/EM structure, diads, organelles and inclusions · 2–3 | cardiac muscle histology branching central nucleus T-tubule diad mitochondria glycogen lipofuscin | prior-LCS theoretical reuse |
+| atrial and B-type natriuretic peptides · 3 | atrial natriuretic brain natriuretic B-type natriuretic BNP CHF | prior-LCS theoretical reuse |
+| intercalated discs and junctional complexes · 4–5 | intercalated disc fascia adherens desmosome gap junction cardiac muscle | prior-LCS theoretical reuse |
+| Purkinje/conduction fibres and cardiac regeneration · 5–6 | Purkinje fibers cardiac conduction hypertrophy fibrosis cardiac regeneration | prior-LCS theoretical reuse |
+| smooth-muscle LM/EM, caveolae, dense bodies, contraction and regeneration · 6–8 | smooth muscle caveolae dense bodies gap junction desmin pericyte regeneration | prior-LCS theoretical reuse |
+
+Each of the **six accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **6 x 4 =
+24 required search invocations**. Live file-match counts were **3 / 10 / 14 / 1 / 3 / 0**;
+pending/import-ready and prior-source counts were all **0**; all six accepted-LCS searches
+matched. Complete-scope comparison gives **6 prior-LCS theoretical reuses / 0 additive live /
+0 additive pending / 0 additive new teaching scopes**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,451 prompts / 7,175 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 214's
+assessment and practical deltas are entirely zero.
+
+Removing this source's sole path and unique hash changes the remainder from **17 paths / 16
+unique hashes** to **16 paths / 15 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**8 paths / 8 unique hashes within tier**, and rank 9 remains **8 paths / 7 unique hashes
+within rank**. Family 213's checksums were
+`a89b274bc1c57daf4b450a80ec3043899af00395fd873ca96f77828f42e2751e` (paths) and
+`9cc41f47cd6115410e1937d667a630275fe8049083b141a7f079fa86243e440e` (unique hashes).
+For the exact post-Family-214 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`c3e2db7ce52dc4d60761ceaba7c85d0df19278485beb584179aa31b358b67b7a`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`e8f4e2db309e8a225b15c6ea5fcfd79c0170d7b6aecda998db4f47ca35cc182d`.
+
+The exact next manifest-order debt is rank-9 `src_008f0ddf3fef93edce53`,
+`Year 1/LCS 103/Histology/Questions/Bone.QUES.pdf` (253,736 bytes; 12 native-text 612 x 792
+pt US-Letter pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
+`008f0ddf3fef93edce5379b9c254ba4bc623a777934950a8bb475f838ae2f436`). Its hash also
+occurs in the later `Histology Bone.QUES.pdf` path, so unique content must be inventoried
+once while preserving that later duplicate-path debt. It remains unclassified until all 12
+pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 16
+tier-6/rank-9 path debts remain. No download, source edit, ID, content record, catalogue
+update, import or source copy was created.
