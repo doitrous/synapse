@@ -1020,3 +1020,29 @@ Removing the twenty-three processed hashes leaves **73 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - general bacteria part 2 MCQs.pdf`, SHA-256 `86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c`, 8 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 73 selected inventory paths / 71 unique hashes remain untriaged.
+
+## Completed source — general bacteria part 2 MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - general bacteria part 2 MCQs.pdf` | `86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c` | 8 | substantive-text | pages 1–8 rendered and read | Named Dr. Kh. Mowafy General Bacteriology lecture/revision carrier labelled `2020-2021`, with a `General microbiology 2021` section headed `MCQs (previous exams)`. No institution, department, FHB 102-2 module authentication, exam sitting, marks, examiner signature or authenticated faculty-key claim is visible. The Q1–Q24 answer table is source answer evidence, not an official MUST key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is a non-assessment cover. Pages 2–5 contain one General microbiology 2021 Q1–Q24 objective sequence; page 6 begins with its complete twenty-four-token answer table. Pages 6–8 then contain eight independently numbered unkeyed `Mowafiat` objective prompts, including one image-supported growth-curve prompt at Q4. Page 8 ends with six independently numbered unkeyed written prompts. The exact boundary is **32 objective MCQs / 6 written prompts / 24 prompt-matched printed answer observations / 14 source-absent answers / 1 image-supported / 0 teaching prompts**.
+
+The printed `previous exams` heading and dated written-item annotations are preserved as source claims without authenticating an exam sitting. Duplicate option labels, spelling, the Arabic note at General microbiology Q19 and academically questionable wording or answer tokens remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The thirty-eight prompts collapse source-first into seven coherent handles: bacterial nutrition and growth factors; bacterial growth curve, oxygen relationships and clinical correlations; exotoxin/endotoxin plus bacterial products and enzymes; flagella, pili, capsule and adherence; spores and sporulation; Gram-positive versus Gram-negative envelope/peptidoglycan; and aerobic/anaerobic classification plus oxidative protective enzymes. All seven are established by prior module-wide, General Bacteriology & Mycology, Dr Alaa and bacterial-growth carriers, so **0 accepted × 4 = 0 searches**. The carrier is distinct rather than an exact normalized prompt-sequence sibling. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-fourth one-path hash is now `sourceProcessed=true`, adding **+38 questions / +24 answers / +0 concepts**. Cumulative triage is **2,507 questions / 2,351 answers / 62 concepts**.
+
+Removing the twenty-four processed hashes leaves **72 selected inventory paths / 70 unique SHA-256s**. Their sorted-newline checksum is `44bd73392491c1c88610358c1011f49aafa5784ac922af65822f91dea44b6072`. Remaining audit-review debt is **30 substantive-text / 19 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`24 + 70 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - mcq all.pdf`, SHA-256 `d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa`, 12 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 72 selected inventory paths / 70 unique hashes remain untriaged.
