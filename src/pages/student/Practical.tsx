@@ -483,7 +483,7 @@ function LabTab({ onOpen }: { onOpen: Open }) {
                 </span>
               </p>
             </div>
-            <Meter value={pct} tone="primary" className="w-28" />
+            <Meter value={pct} tone="primary" target className="w-28" />
             <Button
               variant="secondary"
               size="sm"

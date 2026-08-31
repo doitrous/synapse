@@ -192,7 +192,7 @@ export function CardRunner({ deckId, title, subjectId, cards, schedules, dailyCo
       <BackLink onExit={onExit} title={title} />
 
       <div className="mb-4 flex items-center gap-3">
-        <Meter value={position} max={total} className="flex-1" />
+        <Meter value={position} max={total} target className="flex-1" />
         <span className="tnum shrink-0 font-mono text-[12px] text-ink-3">{position} / {total}</span>
       </div>
 
