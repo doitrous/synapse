@@ -72,9 +72,12 @@ const PROCESSED_FAMILY_HASHES = [
   '42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf',
   '751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165',
   'd14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225',
+  'e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a',
+  '44571f8f9fc79493e261a97807914ab9e7127afc102b33fd997c71433eab6217',
+  'd787ff1868b620e9ffa46aacb390074c49aadaa67a4687b26792c3a625ea3fc7',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = 'a97cd6ce2911f714d0d0294a723c10e87a4ac2eede7f38fc023d742e86f46d04'
+const REMAINING_CHECKSUM = '4da703767ac5565696ba25839644b0fe76b530995e80d8e517bd72396ea35e1b'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -453,10 +456,28 @@ const SIXTY_THIRD_SOURCE = {
   pages: 14,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SIXTY_FOURTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - Special Chemotherapy.pdf',
   sha256: 'e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a',
   pages: 7,
+  sourceProcessed: true,
+}
+const SIXTY_FIFTH_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Questions] MCQs Abubakr (ASU) - General Cemotherapy.pdf',
+  sha256: '44571f8f9fc79493e261a97807914ab9e7127afc102b33fd997c71433eab6217',
+  pages: 14,
+  sourceProcessed: true,
+}
+const SIXTY_SIXTH_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Questions] MCQs Abubakr (ASU) - Special Chemotherapy.pdf',
+  sha256: 'd787ff1868b620e9ffa46aacb390074c49aadaa67a4687b26792c3a625ea3fc7',
+  pages: 7,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - mcq pharma1 FHB.pdf',
+  sha256: '1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea',
+  pages: 5,
   sourceProcessed: false,
 }
 
@@ -535,10 +556,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'empty-text': 3, 'sparse-text': 7, 'substantive-text': 10 }
+  const expected = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 10 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=10-substantive/7-sparse/3-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=10-substantive/7-sparse/0-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -611,6 +632,15 @@ for (const value of [SIXTY_SECOND_SOURCE.relativePath, SIXTY_SECOND_SOURCE.sha25
 for (const value of [SIXTY_THIRD_SOURCE.relativePath, SIXTY_THIRD_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
+for (const value of [SIXTY_FOURTH_SOURCE.relativePath, SIXTY_FOURTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
+for (const value of [SIXTY_FIFTH_SOURCE.relativePath, SIXTY_FIFTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
+for (const value of [SIXTY_SIXTH_SOURCE.relativePath, SIXTY_SIXTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
   throw new Error('Readiness/triage evidence missing selected-set path/hash boundary')
 }
@@ -654,7 +684,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 63 || remainingHashes.length !== 31 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 66 || remainingHashes.length !== 28 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -662,7 +692,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 3, 'sparse-text': 7, 'substantive-text': 10 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 10 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2812,8 +2842,95 @@ const provenance = {
       replayDisposition: 'normalized complete-field comparison maps source Q1 and Q2 exactly to the completed Mucize module-wide advanced-MCQ carrier, with both green-marked answers agreeing with the earlier printed answers; no other one of the fifty-three prompt-and-option fields matches a completed carrier, so two prompts and two answers collapse and fifty-one of each survive',
       preservedSourceDefects: ['the title spells the topic General chemotherapy while the inventory filename preserves Cemotherapy', 'green checks are retained as external application answer observations and not promoted to an authenticated faculty key', 'five page-boundary scroll overlaps are counted once by question number', 'printed spelling, grammar, dated recommendations and academically questionable answer claims remain source truth without correction'],
     },
+    {
+      sha256: SIXTY_FOURTH_SOURCE.sha256,
+      sourcePages: 7,
+      renderedReadPages: '1-7',
+      objectiveMcqPrompts: 25,
+      writtenPrompts: 0,
+      printedKeyObservations: 25,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 5,
+      priorFhb1022CollapsedHandles: 5,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      exactReplayPromptObservations: 0,
+      replayAnswerObservations: 0,
+      familyQuestionDelta: 25,
+      familyAnswerDelta: 25,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['antifungal mechanisms uses interactions and toxicity', 'antiamoebic and metronidazole pharmacology', 'antiviral and interferon pharmacology', 'anthelmintic drug selection mechanisms and toxicity', 'antimalarial and antifolate pharmacology'],
+      authorityDisposition: 'answer-reveal screenshots from an external Year 3 Pharmacology 9-Special chemotherapy application carrying an Abubakr logo and ASU filename attribution; no MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is visible, so the green checks are external application answer observations rather than official MUST evidence',
+      boundaryDisposition: 'seven rendered scroll-capture pages cover one continuous numbered Q1-Q25 sequence; repeated card portions at page boundaries collapse by question number, leaving twenty-five unique ordinary objective MCQs, twenty-five green-marked answer observations and zero absent, written, practical, image-dependent or teaching-only occurrences',
+      replayDisposition: 'complete stem-plus-option comparison against the completed FHB-102-2 pharmacology family, including the fifty-seven-item MUST-platform Special Chemotherapy family, finds no exact prior assessment-field replay, so all twenty-five questions and twenty-five answers survive',
+      preservedSourceDefects: ['green checks are retained as external application answer observations and not promoted to an authenticated faculty key', 'page-boundary scroll overlaps are counted once by question number', 'printed spelling, grammar, dated recommendations and academically questionable answer claims remain source truth without correction'],
+    },
+    {
+      sha256: SIXTY_FIFTH_SOURCE.sha256,
+      sourcePages: 14,
+      renderedReadPages: '1-14',
+      objectiveMcqPrompts: 53,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 53,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 8,
+      priorFhb1022CollapsedHandles: 8,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: true,
+      exactSiblingSha256: SIXTY_THIRD_SOURCE.sha256,
+      mappedSiblingPromptObservations: 53,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['penicillin cephalosporin carbapenem and monobactam pharmacology', 'aminoglycoside uses interactions and toxicity', 'macrolide tetracycline chloramphenicol and clindamycin pharmacology', 'sulfonamide trimethoprim pharmacology', 'fluoroquinolone pharmacology', 'antituberculous drug selection interactions and toxicity', 'vancomycin linezolid daptomycin streptogramin and resistant-organism therapy', 'antimicrobial pharmacodynamics clinical selection interactions and adverse effects'],
+      authorityDisposition: 'active-question screenshots from an external Year 3 Pharmacology 8-General chemotherapy application carrying an Abubakr logo and ASU filename attribution; no MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is visible',
+      boundaryDisposition: 'fourteen rendered scroll-capture pages cover the continuous Q1-Q53 sequence; five page-boundary cards are repeated views of the same numbered fields, leaving fifty-three unique ordinary objective MCQs, zero answers, fifty-three source-absent answers and zero written, practical, image-dependent or teaching-only occurrences',
+      replayDisposition: 'normalized complete stem-plus-option comparison proves a sequence-preserving fifty-three-of-fifty-three bijection to the completed General Chemotherapy answer carrier; that sibling already contributed the family occurrence after its two earlier Mucize replays, so this unkeyed carrier adds zero governed questions and zero answers',
+      preservedSourceDefects: ['all fifty-three answers remain source-absent in this carrier and none is inferred as a new observation from the sibling', 'the title spells the topic General chemotherapy while the inventory filename preserves Cemotherapy', 'page-boundary scroll overlaps are counted once by question number', 'printed spelling, grammar, dated recommendations and academically questionable prompt claims remain source truth without correction'],
+    },
+    {
+      sha256: SIXTY_SIXTH_SOURCE.sha256,
+      sourcePages: 7,
+      renderedReadPages: '1-7',
+      objectiveMcqPrompts: 25,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 25,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 5,
+      priorFhb1022CollapsedHandles: 5,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: true,
+      exactSiblingSha256: SIXTY_FOURTH_SOURCE.sha256,
+      mappedSiblingPromptObservations: 25,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['antifungal mechanisms uses interactions and toxicity', 'antiamoebic and metronidazole pharmacology', 'antiviral and interferon pharmacology', 'anthelmintic drug selection mechanisms and toxicity', 'antimalarial and antifolate pharmacology'],
+      authorityDisposition: 'active-question screenshots from an external Year 3 Pharmacology 9-Special chemotherapy application carrying an Abubakr logo and ASU filename attribution; no MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is visible',
+      boundaryDisposition: 'seven rendered scroll-capture pages cover the continuous Q1-Q25 sequence; repeated card portions at page boundaries collapse by question number, leaving twenty-five unique ordinary objective MCQs, zero answers, twenty-five source-absent answers and zero written, practical, image-dependent or teaching-only occurrences',
+      replayDisposition: 'normalized complete stem-plus-option comparison proves a sequence-preserving twenty-five-of-twenty-five bijection to the immediately preceding Special Chemotherapy answer carrier; the sibling already contributed every family question and answer, so this unkeyed carrier adds zero governed questions and zero answers',
+      preservedSourceDefects: ['all twenty-five answers remain source-absent in this carrier and none is inferred as a new observation from the sibling', 'page-boundary scroll overlaps are counted once by question number', 'printed spelling, grammar, dated recommendations and academically questionable prompt claims remain source truth without correction'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 4977, printedKeyObservations: 4744, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 5002, printedKeyObservations: 4769, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -2877,6 +2994,9 @@ const provenance = {
   sixtyFirstSourceCandidate: SIXTY_FIRST_SOURCE,
   sixtySecondSourceCandidate: SIXTY_SECOND_SOURCE,
   sixtyThirdSourceCandidate: SIXTY_THIRD_SOURCE,
+  sixtyFourthSourceCandidate: SIXTY_FOURTH_SOURCE,
+  sixtyFifthSourceCandidate: SIXTY_FIFTH_SOURCE,
+  sixtySixthSourceCandidate: SIXTY_SIXTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

@@ -2186,3 +2186,61 @@ Removing the sixty-three processed hashes leaves **31 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - Special Chemotherapy.pdf`, SHA-256 `e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a`, 7 pages, with an empty-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 31 selected inventory paths / 31 unique hashes remain untriaged.
+
+## Completed source — Abubakr/ASU Special Chemotherapy answers
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - Special Chemotherapy.pdf` | `e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a` | 7 | empty-text | pages 1–7 rendered and read | External Year 3 Pharmacology `9-Special chemotherapy` answer-reveal capture bearing an Abubakr logo and ASU filename attribution; no visible MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration. |
+
+### Exact boundary and answer state
+
+The seven rendered scroll-capture pages cover one continuous **Q1–Q25** sequence. Repeated card portions at page boundaries are scroll overlaps rather than new occurrences. The unique boundary is **25 ordinary objective MCQs / 25 green-marked answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. The green checks are external application observations rather than authenticated MUST faculty-key marks. Printed spelling, grammar, dated recommendations and academically questionable answers remain source truth.
+
+### Replay and exactly-four-search gate
+
+Complete stem-plus-option comparison against the completed FHB-102-2 pharmacology family, including the 57-item MUST-platform Special Chemotherapy family, finds no exact prior assessment-field replay. All **25 questions / 25 answers** therefore survive as this carrier's governed occurrence set.
+
+Five source-first handles cover antifungal pharmacology; antiamoebic and metronidazole pharmacology; antiviral and interferon pharmacology; anthelmintic drug selection and toxicity; and antimalarial/antifolate pharmacology. All five collapse to prior FHB-102-2 evidence. Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta and cumulative totals
+
+This sixty-fourth one-path hash is now `sourceProcessed=true`, adding **+25 questions / +25 answers / +0 concepts**. Cumulative triage is **5,002 questions / 4,769 answers / 62 concepts**.
+
+## Completed source — Abubakr/ASU General Chemotherapy unkeyed sibling
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Questions] MCQs Abubakr (ASU) - General Cemotherapy.pdf` | `44571f8f9fc79493e261a97807914ab9e7127afc102b33fd997c71433eab6217` | 14 | empty-text | pages 1–14 rendered and read | External Year 3 Pharmacology `8-General chemotherapy` active-question capture bearing an Abubakr logo and ASU filename attribution; no visible MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration. |
+
+### Exact boundary, sibling and search reconciliation
+
+The fourteen rendered scroll pages contain one continuous **Q1–Q53** sequence. Five page-boundary cards are repeated scroll views and collapse by question number, leaving **53 ordinary objective MCQs / 0 answers / 53 source-absent answers / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. No answer is imported from the answer carrier as a new observation.
+
+Normalized stem-plus-option comparison proves **53 unique fields in each General Chemotherapy carrier and a sequence-preserving 53/53 bijection with no unmatched field**. The answered sibling already contributed the family occurrence after collapsing its two Mucize replays; therefore this unkeyed sibling adds **+0 questions / +0 answers / +0 concepts**. The same eight source-first handles are prior-represented, so search arithmetic is **8 source-first − 8 prior-collapsed = 0 accepted; 0 × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta and cumulative totals
+
+This sixty-fifth one-path hash is now `sourceProcessed=true`. Cumulative triage remains **5,002 questions / 4,769 answers / 62 concepts**.
+
+## Completed source — Abubakr/ASU Special Chemotherapy unkeyed sibling
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Questions] MCQs Abubakr (ASU) - Special Chemotherapy.pdf` | `d787ff1868b620e9ffa46aacb390074c49aadaa67a4687b26792c3a625ea3fc7` | 7 | empty-text | pages 1–7 rendered and read | External Year 3 Pharmacology `9-Special chemotherapy` active-question capture bearing an Abubakr logo and ASU filename attribution; no visible MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration. |
+
+### Exact boundary, sibling and search reconciliation
+
+The seven rendered scroll pages contain one continuous **Q1–Q25** sequence. Repeated card portions at page boundaries collapse by question number, leaving **25 ordinary objective MCQs / 0 answers / 25 source-absent answers / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. No answer is imported from the answered sibling as a new observation.
+
+Normalized stem-plus-option comparison proves **25 unique fields in each Special Chemotherapy application carrier and a sequence-preserving 25/25 bijection with no unmatched field**. The answered sibling already contributed the complete family occurrence and answer set, so this unkeyed sibling adds **+0 questions / +0 answers / +0 concepts**. The same five handles are prior-represented, giving **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches** and **0 live / 0 pending / 0 new**.
+
+### Grouped-checkpoint cumulative totals and next source
+
+This sixty-sixth one-path hash is now `sourceProcessed=true`. The three-source grouped checkpoint adds **+25 questions / +25 answers / +0 concepts** in total, bringing cumulative triage to **5,002 questions / 4,769 answers / 62 concepts**.
+
+Removing the sixty-six processed hashes leaves **28 selected inventory paths / 28 unique SHA-256s**. Their sorted-newline checksum is `4da703767ac5565696ba25839644b0fe76b530995e80d8e517bd72396ea35e1b`. Remaining audit-review debt is **10 substantive-text / 7 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`66 + 28 = 94`** and path accounting is **`68 + 28 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - mcq pharma1 FHB.pdf`, SHA-256 `1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea`, 5 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 28 selected inventory paths / 28 unique hashes remain untriaged.
