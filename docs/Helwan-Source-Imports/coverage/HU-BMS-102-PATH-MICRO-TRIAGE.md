@@ -27630,3 +27630,108 @@ and 2018 modification; it also contains an AcroForm but no JavaScript or encrypt
 visible authority, complete prompt/key/written/image/practical boundary, source-local/prior
 collapse, external/eligible gate, arithmetic, and subsequent exact debt remain to be separately
 adjudicated.
+
+## Family 271 — KD Tripathi/Jaypee 2004 pharmacology MCQ textbook (external published reference)
+
+### Source identity, exhaustive 415-page visual/native boundary, form reality, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest / local carrier | Tier-9 `src_f8ba2f5470d39e210121` · `MCQs - Mcq pharma.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `f8ba2f5470d39e21012131a370fae9b1221b91d481cc76f10bf9b794dcb55ee7` · **1,294,229 bytes** |
+| Format / exhaustive visual boundary | **415 native-text portrait 324×504-point pages, PDF 1.6**. All 415 pages were rendered at 80 dpi into 415 non-empty images and inspected in 21 ordered contact sheets, with title/copyright/contents, all thirteen section openings/transitions, every numbered question page, every bottom answer strip, and the final item additionally checked against coherent native extraction. Extraction yields **70,464 words / 578,450 bytes**. Physical pages 1–8 are cover/title/copyright/preface/contents; physical pages 9–415 are printed content pages 1–407. No page, section, crop, answer strip, or terminal remainder exists. |
+| Visible publication provenance | Cover/title/copyright visibly identify **`MCQs in Pharmacology`, 3rd Edition**, based on *Tripathi's Essentials of Medical Pharmacology, Fifth Edition*, authored by **K.D. Tripathi**, published by **Jaypee Brothers Medical Publishers**, copyright/third edition **2004**. The preface is signed `KD Tripathi` and dated 1 May 2004. No Helwan, BMS-102, local instructor, sitting, marks, candidate, or departmental marker appears. |
+| Metadata caution | Metadata titles the object `MCQs in Pharmacology`, attributes it to `KD Tripathi`, records 2013 creation and 2018 modification, and names Acrobat/iTextSharp production. These later digital-carrier dates do not replace the visibly authored 2004 edition. |
+| AcroForm / hidden-layer reality | The catalog declares an AcroForm, but its canonical `/Fields` array is empty; there are no learner fields or stored responses. No JavaScript or encryption exists. Image enumeration finds cover/title artwork only on physical pages 1 and 4; the 407 question-body pages contain no image object or hidden alternate answer layer. |
+| Authority / eligibility | Affirmatively external, commercially published Indian pharmacology textbook/question bank. The local Helwan folder cannot convert it into a Helwan assessment. It is retained as source, format, and comparison evidence but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing external-source rule. |
+
+### Complete section, objective-answer, written, image, practical, and teaching boundary
+
+| Physical / printed pages | Visible section and item-number scope | Exact source-local keyed MCQs |
+|---:|---|---:|
+| 1–8 / front matter | Cover, half-title, title, copyright, preface, contents | **0**; structural/published teaching matter only |
+| 9–37 / 1–29 | `1 General Pharmacological Principles`, item groups 1.1–4.23 | **136** |
+| 38–68 / 30–60 | `2 Drugs Acting on Autonomic Nervous System`, 5.1–9.36 | **140** |
+| 69–99 / 61–91 | `3 Autacoids and Related Drugs`, 10.1–14.25 | **137** |
+| 100–109 / 92–101 | `4 Respiratory System Drugs`, 15.1–15.47 | **47** |
+| 110–155 / 102–147 | `5 Hormones and Related Drugs`, 16.1–22.14 | **218** |
+| 156–168 / 148–160 | `6 Drugs Acting on Peripheral (Somatic) Nervous System`, 23.1–24.30 | **55** |
+| 169–224 / 161–216 | `7 Drugs Acting on Central Nervous System`, 25.1–33.12 | **258** |
+| 225–266 / 217–258 | `8 Cardiovascular Drugs`, 34.1–38.42 | **173** |
+| 267–280 / 259–272 | `9 Drugs Acting on Kidney`, 39.1–40.12 | **53** |
+| 281–302 / 273–294 | `10 Drugs Affecting Blood and Blood Formation`, 41.1–43.24 | **91** |
+| 303–325 / 295–317 | `11 Gastrointestinal Drugs`, 44.1–46.35 | **98** |
+| 326–408 / 318–400 | `12 Antimicrobial Drugs`, 47.1–59.24 | **354** |
+| 409–415 / 401–407 | `13 Chemotherapy of Neoplastic Diseases`, 60.1–61.2 | **26** |
+
+The exact source-local checksum is **1,786 objective prompt occurrences = 136 + 140 + 137 + 47
++ 218 + 55 + 258 + 173 + 53 + 91 + 98 + 354 + 26**. Every item is explicitly under `CHOOSE
+THE MOST APPROPRIATE RESPONSE`, presents four option choices, cites the related Tripathi textbook
+page after the stem, and has a source-supplied answer letter in the bottom strip of its own printed
+page. Thus the carrier supplies **1,786 answers / 0 unkeyed prompts**. The cited textbook page is a
+reference, not an answer or second question occurrence.
+
+There are **0 free-response written operations, 0 True/False items, 0 matching operations, 0
+completion blanks, 0 drawings, 0 image-bearing assessment prompts, 0 authenticated practical
+stations, 0 candidate responses, and 0 prompt-like residues**. Clinical scenarios, dose choices,
+drug-interaction comparisons, and all numerical propositions remain keyed one-best-response MCQs.
+The cover artwork is decorative front matter. Preface, contents, publication data, section titles,
+and textbook-page citations are teaching/structural context—not assessment additions. All
+question wording and answer letters remain external source truth without silent correction or
+Helwan endorsement.
+
+### External-authority zero gate, replay ruling, searches, and eligible arithmetic
+
+Authority resolves before eligible semantic retention. All **1,786 source-local prompts / 1,786
+source-local answers** belong to the visibly authored KD Tripathi/Jaypee 2004 published carrier,
+with no affirmative Helwan counterevidence. Chapter-local themes and proposition variants were
+reviewed across the complete book and against prior BMS pharmacology scope, but excluded external
+occurrences cannot create an eligible same-source handle, prior reuse, or concept addition.
+Consequently **0 eligible retained records and 0 accepted handles** survive. The exact four-search
+gate is **`0 accepted handles × 4 = 0 required and completed searches`**; no artificial 7,144-query
+packet or synthetic reuse inventory is created. Prior-BMS eligible reuse is **0** and concept delta
+is **+0**.
+
+| Measure | Family 271 eligible delta | Auxiliary cumulative (Families 12–271) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+The eligible checksum closes at zero: external **1,786 / 1,786** does not enter Helwan arithmetic.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 271 establishes external published pharmacology MCQ and answer-strip
+evidence only—not a Helwan exam, official Helwan key, authenticated practical,
+recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 271
+
+`src_f8ba2f5470d39e210121` is exhausted across all 415 native/rendered pages: every cover/title/
+copyright/preface/contents page, section transition, item number, stem, option, cited textbook page,
+bottom answer strip, form limitation, authority term, zero gate, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-271 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 271
+governs **1 selected path / 1 unique hash**. The governed set through Family 271 is therefore
+**336 paths / 325 unique hashes**, leaving exactly **26 ungoverned selected paths / 23 unique
+hashes**. Checksums are **336 + 26 = 362 paths** and **325 + 23 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`a162553354025355603a8009de297d28d27a8013474784b67232127e025ce78b`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`7580bcf9328f0bc3583301edf688b8c9833606074e3d2f1413c16465a2ed5438`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_a15aa48df0c5a6974720` ·
+`MCQs - Mcq pharma2.pdf`, SHA-256
+`a15aa48df0c5a697472010d64c26372917f2594ae638d55c491abdb62e8edc5a`, **4,093,143 bytes**,
+**six OCR-needed portrait A4 pages** under `Pharmacology / Questions / MCQs`. Metadata has no
+title or author, identifies Nitro PDF Professional 7, modification on 19 February 2013, and
+keywords crediting scan/rearrangement/reupload to `Wesmosis 2013` with Doctors.ly/2mcq.ly links.
+Its exact visible authority, complete prompt/key/written/image/practical boundary, OCR/source-
+local/prior collapse, external/eligible gate, arithmetic, and subsequent exact debt remain to be
+separately adjudicated.
