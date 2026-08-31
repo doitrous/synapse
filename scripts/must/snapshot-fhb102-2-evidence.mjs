@@ -87,9 +87,10 @@ const PROCESSED_FAMILY_HASHES = [
   '1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a',
   '430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c',
   'e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556',
+  'cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = 'c769c7c7b67d7c44a5a848ead6f127258cfbf25a9e7fb1a5ffe0346ad7bf8210'
+const REMAINING_CHECKSUM = '8bfe0c676471b135eabdbbb9ca5e736012a601a99345d02d9cbde23f2cbdb81f'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -516,10 +517,16 @@ const SEVENTY_EIGHTH_SOURCE = {
   pages: 6,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SEVENTY_NINTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Exam Night Questions & Notes (Final).pdf',
   sha256: 'cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca',
   pages: 8,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Questions (Final).pdf',
+  sha256: '5b63fc5abbeced52990af9ad0f802fab2a95c00f10e8ec1e90e646c44310f1e8',
+  pages: 33,
   sourceProcessed: false,
 }
 const SIXTY_NINTH_SOURCE = {
@@ -639,10 +646,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'substantive-text': 5 }
+  const expected = { 'audit-not-found': 11, 'substantive-text': 4 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=5-substantive/0-sparse/0-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=4-substantive/0-sparse/0-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -730,7 +737,7 @@ for (const value of [SIXTY_SEVENTH_SOURCE.relativePath, SIXTY_SEVENTH_SOURCE.sha
 for (const value of [SIXTY_EIGHTH_SOURCE.relativePath, SIXTY_EIGHTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
-for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE, SEVENTY_SIXTH_SOURCE, SEVENTY_SEVENTH_SOURCE, SEVENTY_EIGHTH_SOURCE]) {
+for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE, SEVENTY_SIXTH_SOURCE, SEVENTY_SEVENTH_SOURCE, SEVENTY_EIGHTH_SOURCE, SEVENTY_NINTH_SOURCE]) {
   for (const value of [source.relativePath, source.sha256]) {
     if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
   }
@@ -778,7 +785,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 78 || remainingHashes.length !== 16 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 79 || remainingHashes.length !== 15 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -786,7 +793,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'substantive-text': 5 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'substantive-text': 4 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -3453,9 +3460,49 @@ const provenance = {
       boundaryDisposition: 'pages 1-5 contain one continuous Q1-Q40 ordinary text-MCQ sequence, with Q17, Q26 and Q35 spanning page boundaries; page 6 prints a complete forty-entry answer-letter table; the exact boundary is forty objective prompts and forty prompt-matched printed answer observations with zero absent, written, practical, image-dependent or teaching-only occurrences',
       preservedSourceDefects: ['the instruction that answer choices were redistributed to make the key balanced and varied is retained as source wording rather than authority evidence', 'printed wording, terminology and academically questionable questions or answer letters remain source truth without correction', 'the terminal answer table is counted as author-supplied printed observations and is not promoted to an authenticated faculty key'],
     },
+    {
+      sha256: SEVENTY_NINTH_SOURCE.sha256,
+      sourcePages: 8,
+      renderedReadPages: '1-8',
+      printedPromptObservations: 24,
+      distinctAssessmentPrompts: 24,
+      objectiveMcqPrompts: 24,
+      writtenPrompts: 0,
+      capturedQuestionLabels: 'Q1-Q24',
+      printedKeyObservations: 24,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 1,
+      sourceFirstHandles: 5,
+      priorFhb1022CollapsedHandles: 5,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      exactReplayPromptObservations: 2,
+      replayAnswerObservations: 2,
+      replayFamilySha256: ['3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b', '6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb'],
+      familyQuestionDelta: 22,
+      familyAnswerDelta: 22,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Opening Dr. Ahmed Isa question sequence', pages: '1-2', questionLabels: 'Q1-Q7', objectiveMcqPrompts: 7, printedKeyObservations: 0, teachingReferencePages: 0 },
+        { section: 'Antimicrobial and antifungal question sequence', pages: '3-4', questionLabels: 'Q8-Q15', objectiveMcqPrompts: 8, printedKeyObservations: 0, teachingReferencePages: 0 },
+        { section: 'Protein-inhibitor and antimicrobial selection sequence', pages: '5-6', questionLabels: 'Q16-Q23', objectiveMcqPrompts: 8, printedKeyObservations: 0, teachingReferencePages: 0 },
+        { section: 'Final question and complete answer table', pages: '7', questionLabels: 'Q24', objectiveMcqPrompts: 1, printedKeyObservations: 24, teachingReferencePages: 0 },
+        { section: 'Important Notes & Topics', pages: '8', objectiveMcqPrompts: 0, printedKeyObservations: 0, teachingReferencePages: 1 },
+      ],
+      sourceFirstHandleLabels: ['protein-synthesis inhibitors, clinical uses and toxicities', 'fluoroquinolones, rifampicin, mechanisms and interactions', 'tuberculosis prophylaxis, isoniazid and adverse effects', 'antifungal mechanisms, uses and toxicities', 'antimicrobial selection, surgical prophylaxis and pregnancy safety'],
+      replayDisposition: 'normalized stem screening and complete prompt-plus-option comparison against all seventy-eight processed FHB 102-2 families maps current Q4 to the earlier PentaGram Chemo 1 antifungal field and current Q7 to the earlier Mohamed Farid fluoroquinolone-interaction field; both prior answers agree with the current printed A observations, so two prompts and two answers collapse once; same-stem candidates for current Q6 and Q13 are rejected because their option fields differ, leaving twenty-two governed question-and-answer occurrences',
+      authorityDisposition: 'Microsoft Word-authored personal revision carrier titled Pharmacology FHB102-2 Exam Night Questions & Notes (Final), labelled Dr. Ahmed Isa’s questions, bearing 200057470-Abdel Salam Muhammad Abdel Salam Mahmoud author metadata and an Absalam101 & Shahd footer credit; no authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears',
+      boundaryDisposition: 'pages 1-7 contain one continuous Q1-Q24 ordinary text-MCQ sequence and page 7 also prints a complete twenty-four-entry answer-letter table; page 8 is a revealed Important Notes & Topics teaching list; the exact boundary is twenty-four objective prompts, twenty-four prompt-matched printed answer observations, zero absent, written, practical or image-dependent occurrences and one teaching-reference page',
+      preservedSourceDefects: ['malformed wording and pronoun shifts in Q12 and the malformed exception stem in Q14 remain literal source truth', 'printed terminology, spelling and academically questionable questions or answer letters remain uncorrected', 'the terminal answer table is retained as personal revision-source evidence rather than promoted to an authenticated faculty key', 'page 8 topic labels remain teaching notes and are not reverse-engineered into assessment prompts'],
+    },
   ],
   partialSourceCoverage: [],
-  triageCumulative: { printedPromptObservations: 5287, printedKeyObservations: 5054, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 5309, printedKeyObservations: 5076, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -3534,6 +3581,7 @@ const provenance = {
   seventySixthSourceCandidate: SEVENTY_SIXTH_SOURCE,
   seventySeventhSourceCandidate: SEVENTY_SEVENTH_SOURCE,
   seventyEighthSourceCandidate: SEVENTY_EIGHTH_SOURCE,
+  seventyNinthSourceCandidate: SEVENTY_NINTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

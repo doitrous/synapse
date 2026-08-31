@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "f344dfde3859e97d7df769b1d3c4cdb7f71bccc3c169f9b7487a932f80b61c12",
-    "triageMarkdown": "e26ecfb3a8525403a1cbfa52dd68a632f728d9e52ee692de329ba677f78a3c6d"
+    "readinessMarkdown": "2297996377c398d933f71476c94b0868168781a0d72daba83189b27ee278e663",
+    "triageMarkdown": "0fe97541e25ac2f4a6a63ceefa5257a2f4dd724a05da8217941e56ac4a3ed566"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -128,6 +128,7 @@
       "bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32",
       "be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1",
       "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
+      "cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca",
       "d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225",
       "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
@@ -148,7 +149,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 78
+    "uniqueSha256": 79
   },
   "completedSourceCoverage": [
     {
@@ -4705,12 +4706,100 @@
         "printed wording, terminology and academically questionable questions or answer letters remain source truth without correction",
         "the terminal answer table is counted as author-supplied printed observations and is not promoted to an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "printedPromptObservations": 24,
+      "distinctAssessmentPrompts": 24,
+      "objectiveMcqPrompts": 24,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "Q1-Q24",
+      "printedKeyObservations": 24,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 1,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 2,
+      "replayAnswerObservations": 2,
+      "replayFamilySha256": [
+        "3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b",
+        "6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb"
+      ],
+      "familyQuestionDelta": 22,
+      "familyAnswerDelta": 22,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Opening Dr. Ahmed Isa question sequence",
+          "pages": "1-2",
+          "questionLabels": "Q1-Q7",
+          "objectiveMcqPrompts": 7,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Antimicrobial and antifungal question sequence",
+          "pages": "3-4",
+          "questionLabels": "Q8-Q15",
+          "objectiveMcqPrompts": 8,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Protein-inhibitor and antimicrobial selection sequence",
+          "pages": "5-6",
+          "questionLabels": "Q16-Q23",
+          "objectiveMcqPrompts": 8,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Final question and complete answer table",
+          "pages": "7",
+          "questionLabels": "Q24",
+          "objectiveMcqPrompts": 1,
+          "printedKeyObservations": 24,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Important Notes & Topics",
+          "pages": "8",
+          "objectiveMcqPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [
+        "protein-synthesis inhibitors, clinical uses and toxicities",
+        "fluoroquinolones, rifampicin, mechanisms and interactions",
+        "tuberculosis prophylaxis, isoniazid and adverse effects",
+        "antifungal mechanisms, uses and toxicities",
+        "antimicrobial selection, surgical prophylaxis and pregnancy safety"
+      ],
+      "replayDisposition": "normalized stem screening and complete prompt-plus-option comparison against all seventy-eight processed FHB 102-2 families maps current Q4 to the earlier PentaGram Chemo 1 antifungal field and current Q7 to the earlier Mohamed Farid fluoroquinolone-interaction field; both prior answers agree with the current printed A observations, so two prompts and two answers collapse once; same-stem candidates for current Q6 and Q13 are rejected because their option fields differ, leaving twenty-two governed question-and-answer occurrences",
+      "authorityDisposition": "Microsoft Word-authored personal revision carrier titled Pharmacology FHB102-2 Exam Night Questions & Notes (Final), labelled Dr. Ahmed Isa’s questions, bearing 200057470-Abdel Salam Muhammad Abdel Salam Mahmoud author metadata and an Absalam101 & Shahd footer credit; no authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "pages 1-7 contain one continuous Q1-Q24 ordinary text-MCQ sequence and page 7 also prints a complete twenty-four-entry answer-letter table; page 8 is a revealed Important Notes & Topics teaching list; the exact boundary is twenty-four objective prompts, twenty-four prompt-matched printed answer observations, zero absent, written, practical or image-dependent occurrences and one teaching-reference page",
+      "preservedSourceDefects": [
+        "malformed wording and pronoun shifts in Q12 and the malformed exception stem in Q14 remain literal source truth",
+        "printed terminology, spelling and academically questionable questions or answer letters remain uncorrected",
+        "the terminal answer table is retained as personal revision-source evidence rather than promoted to an authenticated faculty key",
+        "page 8 topic labels remain teaching notes and are not reverse-engineered into assessment prompts"
+      ]
     }
   ],
   "partialSourceCoverage": [],
   "triageCumulative": {
-    "printedPromptObservations": 5287,
-    "printedKeyObservations": 5054,
+    "printedPromptObservations": 5309,
+    "printedKeyObservations": 5076,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -5184,29 +5273,35 @@
     "pages": 6,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "seventyNinthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Exam Night Questions & Notes (Final).pdf",
     "sha256": "cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca",
     "pages": 8,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Questions (Final).pdf",
+    "sha256": "5b63fc5abbeced52990af9ad0f802fab2a95c00f10e8ec1e90e646c44310f1e8",
+    "pages": 33,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 16,
-    "uniqueSha256": 16,
-    "sortedNewlineSha256": "c769c7c7b67d7c44a5a848ead6f127258cfbf25a9e7fb1a5ffe0346ad7bf8210",
+    "inventoryMetadataRows": 15,
+    "uniqueSha256": 15,
+    "sortedNewlineSha256": "8bfe0c676471b135eabdbbb9ca5e736012a601a99345d02d9cbde23f2cbdb81f",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
-      "substantive-text": 5
+      "substantive-text": 4
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
-    "substantive-text": 5
+    "substantive-text": 4
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 78,
-    "remainingUniqueSha256": 16,
+    "processedUniqueSha256": 79,
+    "remainingUniqueSha256": 15,
     "processedPlusRemaining": 94
   }
 }
