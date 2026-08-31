@@ -303,6 +303,22 @@ const adminApp = {
   ],
 }
 
+/**
+ * The site root belongs to whoever arrives: a signed-in student goes straight
+ * to their dashboard, everyone else gets the landing page. Only `/` behaves
+ * this way — `/en` and `/ar` are shared marketing URLs, and a link someone was
+ * sent should show the page they were sent, signed in or not. Demo builds keep
+ * the landing page too: "demo" is a mode, not a login. Downstream guards still
+ * decide what /app means for the arriving role (reviewers bounce to /admin,
+ * unverified accounts to verification), so nothing is re-checked here.
+ */
+function RootGate() {
+  const identity = useIdentity()
+  if (identity.status === 'loading') return <RouteLoading />
+  if (identity.status === 'authenticated') return <Navigate to="/app" replace />
+  return render(Landing)
+}
+
 export const router = createBrowserRouter([
   // On the admin domain the root is the dashboard. The public site and the student
   // app belong to the other origin, so they are handed over rather than rendered —
@@ -311,7 +327,7 @@ export const router = createBrowserRouter([
   // offered by a dismissible strip rather than an automatic redirect — a
   // redirect on `navigator.language` means a shared link shows the sender and
   // the receiver different pages, and splits what crawlers index.
-  { path: '/', element: adminHost ? <Navigate to="/admin" replace /> : render(Landing) },
+  { path: '/', element: adminHost ? <Navigate to="/admin" replace /> : <RootGate /> },
   { path: '/en', element: adminHost ? toStudentSite : render(Landing) },
   { path: '/ar', element: adminHost ? toStudentSite : render(LandingAr) },
   // Pricing is its own page rather than an anchor on the landing page: it is
