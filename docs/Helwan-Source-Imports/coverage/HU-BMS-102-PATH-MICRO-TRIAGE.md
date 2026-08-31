@@ -24966,3 +24966,110 @@ The exact next unprocessed BMS-102 record is tier-5 `src_b77199599f7f3f19d40f` �
 Virtual Lab 12 - Case of Herpes`. Its visible authority, complete teaching/case/prompt/key/image/
 practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and subsequent exact
 next debt remain to be separately adjudicated.
+
+## Family 246 — Fatma Tarek herpes-virus treatment virtual-lab case deck
+
+### Source identity, full visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_b77199599f7f3f19d40f` · `herpes_presentation.PDF` under `Pharmacology / Practical Labs / Virtual Lab 12 - Case of Herpes` |
+| SHA-256 / size | `b77199599f7f3f19d40f26d53c2300a69e89d828c04ec6e070c27e1777e34432` · **574,417 bytes** |
+| Format / complete audit | **20 native-text landscape US-letter pages**, each 792×612 points. All pages were rendered at 150 dpi into 20 non-empty 1650×1275-pixel images and read individually; two ordered contact sheets, layout extraction, and the complete image-object inventory were also inspected. There is no hidden page, option mark, answer register, response field, or image remainder. |
+| Native-text reality | Layout extraction contains **582 words / 4,199 bytes** and preserves all nine question wordings and the teaching text. Visual review controls the three clinical photographs, the chickenpox/shingles captions, the acyclovir mechanism diagram, and the prompt-to-teaching-answer relationship. The manifest's `native` label is accurate. |
+| Visible authority | Page 1 visibly reads `Herpes Virus & Its Treatment` and `DR FATMA TAREK`. No page visibly names Helwan University, a faculty, module, academic year, sitting, marks, candidate, or invigilator. Fatma Tarek is therefore the visible instructor/author; Helwan scope rests on the tier-5 virtual-lab folder and manifest placement. |
+| Metadata caution | No metadata author or title is present. Creation/modification timestamp is 20 April 2026 through an unidentified export workflow; this is production provenance only and not a verified lab date, academic year, or assessment sitting. |
+| Authority | Instructor-attributed virtual-lab teaching/case deck with nine case-image written operations and source-visible teaching answers. It is not an authenticated practical station set, administered exam, candidate response, or official answer key. |
+
+### Complete 20-page teaching, case, prompt, answer, and practical boundary
+
+| Pages | Complete visible content | Boundary ruling |
+|---:|---|---|
+| 1–7 | Cover; herpes-virus introduction/types; virion structure; latency/reactivation; clinical features and diagnostic methods; antiviral overview | Declarative and labelled teaching only; **0 prompts / 0 answers**. The oral-lesion photographs on p.6 are diagnosis-disclosing illustrations, not an image-identification task. |
+| 8–11 | Acyclovir pharmacokinetics, viral-thymidine-kinase activation, DNA-polymerase inhibition and chain termination; mechanism diagram; adverse effects/selectivity; antiviral comparison table | Completed teaching, including answer-bearing material later referenced by cases; **0 independent prompts**. |
+| 12–13 | Painful vesicular lip-lesion photograph asks the drug of choice; the following `Treatment regimen of herps simplex` table visibly supplies aciclovir or valaciclovir regimens | **1 image-bearing case written operation / 1 source-supplied teaching answer**. The source does not mark an official single-choice key, so the visible alternative-regimen ambiguity is preserved. |
+| 14–17 | Seven-year-old with fever, centripetal pruritic lesions in different stages and no varicella vaccination; p.15 asks diagnosis, causative organism, and treatment plan; its image visibly says `Chicken Pox Explained`; pp.16–17 supply supportive, antiviral, infection-control, and complication management, while p.3 visibly maps VZV to chickenpox | **3 image-bearing case written operations / 3 source-supplied teaching answers**. The image caption and vignette disclose chickenpox, the virus table supplies VZV, and the immediately following slides supply the plan. |
+| 18–20 | Sixty-five-year-old with unilateral painful vesicles in one dermatome; image visibly says `Shingles`; p.19 asks diagnosis, causative virus, reactivation reason, drug of choice, and drug mechanism; p.20 supplies zoster antiviral regimens, while pp.3, 5, and 8–9 supply VZV, reactivation triggers, and acyclovir activation/polymerase/chain-termination teaching | **5 image-bearing case written operations / 5 source-supplied teaching answers**. The source offers multiple acceptable zoster antivirals rather than selecting an official singular key; this ambiguity is retained rather than silently narrowed. |
+
+The exact source-local boundary is **9 image-bearing case written prompt occurrences / 9
+source-supplied teaching-answer occurrences / 0 unkeyed prompts**. All nine operations are retained.
+No wording is an answer-copy prompt and no two operations test the same complete proposition, so
+the source retains **9 source-distinct handles**. The three clinical photographs form case evidence,
+but virtual-lab placement and images do not authenticate practical stations: there are no station
+numbers, candidate/examiner instructions, timers, mark allocations, checklists, response fields,
+or student marks. There are **0 MCQs / 0 drawings / 0 authenticated practical records / 0
+prompt-like residues**.
+
+The answer count records visible information supplied by this teaching carrier, not an official
+key. In particular, the source's alternative HSV/zoster regimens are preserved as alternatives;
+they are not repaired into one exclusive “drug of choice.”
+
+### Source-first handle inventory, four-search ledger, and prior-BMS reconciliation
+
+| # | Accepted handle / source answer scope | Four corpus searches | Prior-BMS assignment |
+|---:|---|---:|---|
+| 1 | `herpes-labialis-antiviral-treatment-choice` · aciclovir/valaciclovir regimen | 0 live / 0 import-ready / 0 pending-live / 0 prior exact | New tested handle |
+| 2 | `child-varicella-centripetal-multistage-rash-diagnosis` · chickenpox | 0 / 0 / 0 / 0 | New |
+| 3 | `chickenpox-varicella-zoster-virus-cause` · VZV | 0 / 0 / 0 / 0 | New |
+| 4 | `childhood-varicella-supportive-antiviral-treatment-plan` · supportive care, conditional acyclovir, infection control/complications | 0 / 0 / 0 / 0 | New |
+| 5 | `unilateral-dermatomal-vesicular-rash-herpes-zoster-diagnosis` · shingles | 0 / 0 / 0 / 0 | New |
+| 6 | `herpes-zoster-varicella-zoster-virus-cause` · VZV | 0 / 0 / 0 / 0 | New |
+| 7 | `herpes-zoster-reactivation-trigger` · stress/immunosuppression teaching | 0 / 0 / 0 / 0 | New |
+| 8 | `herpes-zoster-antiviral-treatment-choice` · acyclovir/famciclovir/valaciclovir regimens | 0 / 0 / 0 / 0 | New |
+| 9 | `acyclovir-thymidine-kinase-dna-polymerase-chain-termination` · viral activation, polymerase inhibition, chain termination | 0 / 0 / 0 / 0 | New |
+
+Each accepted handle received exactly four fresh scope-specific searches across the live Helwan
+question/written/practical corpus, `docs/questions-import-ready`, Helwan pending-live, and prior
+BMS Families 1–245: **9 × 4 = 36 required and completed searches**. External disposition is
+**0 live / 0 pending / 9 no same-scope = 9 handles**. Families 226 and 229 contain completed
+acyclovir and antiviral teaching tables, but teaching-only mappings create no prior tested handle.
+Earlier pathology virus items concern other virus-disease or tumour associations rather than these
+case-treatment scopes. Prior exact question-handle reuse is therefore **0**, and Family 246 adds
+**+9 concepts**.
+
+### Family-246 checkpoint and cumulative arithmetic
+
+| Measure | Family 246 | Auxiliary cumulative (Families 12–246) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 9 | 3,091 | 762 | 3,853 |
+| Eligible source-supplied answers | 9 | 2,125 | 405 | 2,530 |
+| Retained eligible question records | 9 | 2,795 | 552 | 3,347 |
+| Accepted handles / required searches | 9 / 36 | 2,511 / — | — | — |
+| Prior exact question-handle reuses | 0 | — | — | — |
+| Cross-family concept delta | +9 | +1,310 over primary | 372 | 1,682 |
+| **Distinct tested concepts** | **9 current handles** | **1,310 additions** | **372** | **1,682** |
+
+The checksum closes independently: **9 prompts = 9 supplied teaching answers + 0 unkeyed**; all
+**9 raw = 9 retained = 9 handles**; **9 × 4 = 36 searches**; external disposition is **0 + 0 +
+9 = 9**; and **9 handles - 0 prior exact reuses = +9 concepts**. Primary remains **762 / 405 /
+552 / 372**. Auxiliary becomes **3,091 prompts / 2,125 answers / 2,795 retained / 2,511 handles /
++1,310 concepts**. All eligible becomes **3,853 prompts / 2,530 answers / 3,347 retained / 1,682
+distinct concepts**. Family 246 adds no official key, authenticated practical station, candidate
+response, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 246
+
+`src_b77199599f7f3f19d40f` is exhausted across all 20 rendered/native pages: every visible and
+metadata provenance field, teaching table/diagram, photograph, all nine case operations, all nine
+source-visible teaching answers and their alternative-regimen ambiguity, practical zero, search
+packet, prior-BMS relation, and arithmetic term is assigned, with **zero source remainder** and no
+Family-246 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 246
+governs **1 selected path / 1 unique hash**. The governed set through Family 246 is therefore
+**310 paths / 300 unique hashes**, leaving exactly **52 ungoverned selected paths / 48 unique
+hashes**. Checksums are **310 + 52 = 362 paths** and **300 + 48 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`450058b6af6d4496aeca89da1de2dc425c1b5335bd9b9963a4bd965cd00ee063`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`df911eb1df51deefbc7f7286363aef09893e9bc449627495a74437fed5d167a3`. The remaining set has zero
+hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 object is preferred tier-5 `src_2f784a73a34819eb6c47` ·
+`dosage form.PDF`, SHA-256
+`2f784a73a34819eb6c471daca652df4b0b48594343834a96fd69bd5b1dfaf146`, **1,545,360 bytes**,
+**33 native-text portrait US-letter 612×792-point pages** under `Pharmacology / Practical Labs /
+Virtual Lab 4 - Enteral dosage forms`. It has a byte-identical Virtual-Lab-5 alias. Its exact
+carrier authority, complete teaching/prompt/key/image/practical boundary, alias reconciliation,
+four-search ledger, prior-BMS relation, arithmetic, and subsequent exact next debt remain to be
+separately adjudicated.
