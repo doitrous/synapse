@@ -1574,3 +1574,31 @@ Removing the forty-one processed hashes leaves **53 selected inventory paths / 5
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - para all quizes.pdf`, SHA-256 `da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154`, 18 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 53 selected inventory paths / 53 unique hashes remain untriaged.
+
+## Completed source — para all quizes
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - para all quizes.pdf` | `da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154` | 18 | empty-text | pages 1–18 rendered and read | Anonymous Skia-generated consolidation of highlighted question-review screenshots. No visible institution, module, author, examiner, sitting, date, marks or authenticated key declaration appears. Its content authority derives only from exact reconciliation to the already completed direct SmartLearning sibling. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Pages 1–18 contain 38 complete text MCQs and one highlighted option per prompt. An exhaustive normalized prompt comparison maps every one of the 38 prompt occurrences one-for-one to the completed `fhb para All.pdf` SmartLearning review family, although the prompts are rearranged and consolidated differently. Every highlighted option agrees with the corresponding platform-confirmed answer in that prior carrier.
+
+The raw carrier boundary is **38 objective MCQs / 38 highlighted answer observations / 0 source-absent answers / 0 written / 0 practical or image prompts / 0 teaching prompts**. Because all 38 prompts and answers are exact sibling observations already governed in the prior family, the accepted family boundary is **+0 questions / +0 answers**. Anonymous highlighting is preserved as derivative evidence and is not promoted to an independent official faculty key.
+
+### Source-first handles and exactly-four-search gate
+
+The sibling reuses the same seventeen source-first handles already reconciled for `fhb para All.pdf`: leishmanial and trypanosomal diagnostic stages; parasite taxonomy and class identification; malaria vector and host roles; filarial vectors and transmission; vector transmission modes; mosquitoes and larval control; sand flies and leishmaniasis; ticks and tick-borne disease; soft ticks and relapsing fever; lice and louse-borne disease; fleas, plague and *Dipylidium caninum*; flies and myiasis; *Triatoma* and Chagas disease; *Bartonella* and sand-fly transmission; parasite-vector clinical identification; arthropod-borne epidemic control; and vector-borne disease diagnosis and prevention. All seventeen remain prior-represented.
+
+Search arithmetic is **17 source-first − 17 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-second one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **3,915 questions / 3,740 answers / 62 concepts**.
+
+Removing the forty-two processed hashes leaves **52 selected inventory paths / 52 unique SHA-256s**. Their sorted-newline checksum is `5196f76c49354f9a66b62ed8979fc184c5a32a2bf82ceb14fcce28fa989aade6`. Remaining audit-review debt is **22 substantive-text / 13 sparse-text / 5 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`42 + 52 = 94`** and path accounting is **`44 + 52 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - FHB 102 Final revision.pdf`, SHA-256 `b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3`, 116 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 52 selected inventory paths / 52 unique hashes remain untriaged.

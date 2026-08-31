@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "3228f1a0b4e548ad5616d9335076484f6347e65f28d6cdd250aea98f3d18b86d",
-    "triageMarkdown": "7ba8206b136c8ef17ee1ae76429ebbc3ad934f4caf9fbca9b0c5d379e3713f3b"
+    "readinessMarkdown": "dca63b37d085c5a005446c6924e6e3ef8985b78912f3ddcff2b27fb9b1cde3f9",
+    "triageMarkdown": "d962452ee47d05293df44cc75b804a7d7620bf51ed41474eca6defbc9c3a71b5"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -104,6 +104,7 @@
       "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
+      "da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
       "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
@@ -111,7 +112,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 41
+    "uniqueSha256": 42
   },
   "completedSourceCoverage": [
     {
@@ -2600,6 +2601,60 @@
         "clinical narratives remain ordinary text MCQs rather than image-dependent practical prompts",
         "printed spelling and academically questionable prompts or platform answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154",
+      "sourcePages": 18,
+      "renderedReadPages": "1-18",
+      "objectiveQuestionPages": "1-18",
+      "highlightedAnswerPages": "1-18",
+      "rawPromptObservations": 38,
+      "rawHighlightedAnswerObservations": 38,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 17,
+      "priorFhb1022CollapsedHandles": 17,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": true,
+      "exactSiblingSha256": "a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a",
+      "exactSiblingPromptMappings": 38,
+      "agreeingSiblingAnswers": 38,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "leishmanial and trypanosomal diagnostic stages",
+        "parasite taxonomy and class identification",
+        "malaria vector and host roles",
+        "filarial vectors and transmission",
+        "cyclopropagative, cyclodevelopmental and propagative transmission",
+        "mosquitoes and larval control",
+        "sand flies and leishmaniasis",
+        "ticks, Lyme disease and babesiosis",
+        "soft ticks and relapsing fever",
+        "lice and louse-borne disease",
+        "fleas, plague and Dipylidium caninum",
+        "flies and myiasis",
+        "Triatoma and Chagas disease",
+        "Bartonella and sand-fly transmission",
+        "parasite-vector clinical identification",
+        "arthropod-borne epidemic control",
+        "vector-borne disease diagnosis and prevention"
+      ],
+      "authorityDisposition": "anonymous Skia-generated consolidation of highlighted question-review screenshots with no visible institution, module, author, examiner, sitting, date, marks or authenticated key declaration; content authority derives only from exact reconciliation to the completed direct SmartLearning sibling",
+      "boundaryDisposition": "pages 1-18 contain thirty-eight complete text MCQs and one highlighted option per prompt; all thirty-eight normalized prompts map one-for-one to the completed fhb para All SmartLearning family despite rearrangement and consolidation, and all highlighted options agree with their platform-confirmed sibling answers; raw carrier boundary thirty-eight objective prompts and thirty-eight highlighted answers, but governed family delta zero questions and zero answers; zero source-absent, written, practical, image-dependent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "anonymous highlighting is retained as derivative answer evidence without promotion to an independent official faculty key",
+        "rearranged page and question order does not create new prompt occurrences when normalized content maps exactly",
+        "all thirty-eight answer agreements are recorded without double-counting prior platform-confirmed observations",
+        "printed spelling and academically questionable prompt or answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2856,20 +2911,26 @@
     "pages": 38,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortySecondSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - para all quizes.pdf",
     "sha256": "da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154",
     "pages": 18,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - FHB 102 Final revision.pdf",
+    "sha256": "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
+    "pages": 116,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 53,
-    "uniqueSha256": 53,
-    "sortedNewlineSha256": "de543441fd7aaf2c1911a70a7a51dcc102d917ffeb4b3e2be45d7f08d528dd7f",
+    "inventoryMetadataRows": 52,
+    "uniqueSha256": 52,
+    "sortedNewlineSha256": "5196f76c49354f9a66b62ed8979fc184c5a32a2bf82ceb14fcce28fa989aade6",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
-      "empty-text": 6,
+      "empty-text": 5,
       "sparse-text": 13,
       "substantive-text": 22
     }
@@ -2877,14 +2938,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 1,
     "audit-not-found": 11,
-    "empty-text": 6,
+    "empty-text": 5,
     "sparse-text": 13,
     "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 41,
-    "remainingUniqueSha256": 53,
+    "processedUniqueSha256": 42,
+    "remainingUniqueSha256": 52,
     "processedPlusRemaining": 94
   }
 }
