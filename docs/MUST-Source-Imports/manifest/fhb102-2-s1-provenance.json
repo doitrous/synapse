@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "d45cf01f62ea03d4238d4392e1f0043b8b8297b4ca43a6933e0477e952bdaeab",
-    "triageMarkdown": "65ccb0d86c57148ec57da4df6ce9b1a0464d9434640b2123accd5ab5ccf48cbb"
+    "readinessMarkdown": "95ce1bbddb1cb462fed6fb3eda8d78f424b978b9566c7e583fc09046a758fb8d",
+    "triageMarkdown": "8c6a8aadb27c477a5ba551481a02cf11ea4a89928428a63a5111ace46442448c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -82,6 +82,7 @@
       "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
+      "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
@@ -123,7 +124,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 53
+    "uniqueSha256": 54
   },
   "completedSourceCoverage": [
     {
@@ -3284,11 +3285,49 @@
         "the single revealed answer is retained as student-source evidence rather than promoted to an authenticated faculty key",
         "printed spelling, terminology and academically questionable claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
+      "sourcePages": 10,
+      "renderedReadPages": "1-10",
+      "objectiveMcqPrompts": 59,
+      "printedKeyObservations": 59,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 8,
+      "priorFhb1022CollapsedHandles": 8,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 59,
+      "familyAnswerDelta": 59,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "beta-lactam cell-wall synthesis inhibition",
+        "penicillin classes pharmacokinetics and clinical use",
+        "cephalosporin generations and uses",
+        "carbapenems monobactams and cilastatin",
+        "beta-lactamase inhibitors and combinations",
+        "vancomycin mechanism administration and toxicity",
+        "antipseudomonal and resistant-organism therapy",
+        "antibiotic-associated colitis and clinical antimicrobial selection"
+      ],
+      "authorityDisposition": "named student Microsoft Word compilation visibly marked MADE BY: KHALED HESHAM ABDELHAY with matching individual PDF author metadata; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "pages 1-8 contain one continuous sequence of fifty-nine conventional objective MCQs and pages 9-10 print a complete answer table for Q1-Q59; exact boundary fifty-nine objective prompts, fifty-nine prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching occurrences",
+      "preservedSourceDefects": [
+        "the complete answer table is retained as student-source answer evidence rather than promoted to an authenticated faculty key",
+        "printed spelling, grammar, numbering, terminology and academically questionable questions or answer tokens remain source truth without correction",
+        "repeated subject matter within the bank remains distinct physical prompt occurrence because no exact prompt sibling sequence is present"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4181,
-    "printedKeyObservations": 3982,
+    "printedPromptObservations": 4240,
+    "printedKeyObservations": 4041,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3612,33 +3651,39 @@
     "pages": 19,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftyFourthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - FHB-Pharma MCQ Questions.pdf",
     "sha256": "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
     "pages": 10,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Final_Lec_3_45_New_Exam_MCQs.pdf",
+    "sha256": "70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe",
+    "pages": 7,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 41,
-    "uniqueSha256": 41,
-    "sortedNewlineSha256": "8c897b920090f1d7f9b35362a513b8f2defd8bfa5d76be5f8be6bcf7b98e69c9",
+    "inventoryMetadataRows": 40,
+    "uniqueSha256": 40,
+    "sortedNewlineSha256": "cd5c12961f5802078c1982efc26bdc0163b77b0f8809c3454c85358b903607c0",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
       "sparse-text": 10,
-      "substantive-text": 16
+      "substantive-text": 15
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
     "sparse-text": 10,
-    "substantive-text": 16
+    "substantive-text": 15
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 53,
-    "remainingUniqueSha256": 41,
+    "processedUniqueSha256": 54,
+    "remainingUniqueSha256": 40,
     "processedPlusRemaining": 94
   }
 }

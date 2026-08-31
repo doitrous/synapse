@@ -1910,3 +1910,31 @@ Removing the fifty-three processed hashes leaves **41 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - FHB-Pharma MCQ Questions.pdf`, SHA-256 `68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169`, 10 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 41 selected inventory paths / 41 unique hashes remain untriaged.
+
+## Completed source — FHB-Pharma MCQ Questions
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - FHB-Pharma MCQ Questions.pdf` | `68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169` | 10 | substantive-text | pages 1–10 rendered and read | Named student Microsoft Word compilation visibly marked `MADE BY: KHALED HESHAM ABDELHAY` with individual PDF author metadata `200049807-Khaled Hisham AbdelHay Ramadan`; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact objective and answer boundary
+
+Pages 1–8 contain one continuous sequence of **59 conventional objective MCQs**. Pages 9–10 print a complete answer table for Q1–Q59, producing **59 prompt-matched source answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**.
+
+The complete table remains student-source answer evidence rather than an authenticated faculty key. Repeated subject matter remains distinct physical prompt occurrence because no exact prompt-sibling sequence is present. Printed spelling, grammar, numbering, terminology and academically questionable questions or answer tokens remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The eight source-first handles cover beta-lactam cell-wall inhibition, penicillin classes and uses, cephalosporins, carbapenems/monobactams, beta-lactamase inhibitors, vancomycin, resistant-organism/antipseudomonal therapy and antibiotic-associated colitis/clinical selection. All eight collapse to already represented FHB-102-2 evidence.
+
+Search arithmetic is **8 source-first − 8 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-fourth one-path hash is now `sourceProcessed=true`, adding **+59 questions / +59 answers / +0 concepts**. Cumulative triage is **4,240 questions / 4,041 answers / 62 concepts**.
+
+Removing the fifty-four processed hashes leaves **40 selected inventory paths / 40 unique SHA-256s**. Their sorted-newline checksum is `cd5c12961f5802078c1982efc26bdc0163b77b0f8809c3454c85358b903607c0`. Remaining audit-review debt is **15 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`54 + 40 = 94`** and path accounting is **`56 + 40 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Final_Lec_3_45_New_Exam_MCQs.pdf`, SHA-256 `70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe`, 7 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 40 selected inventory paths / 40 unique hashes remain untriaged.

@@ -62,9 +62,10 @@ const PROCESSED_FAMILY_HASHES = [
   'ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c',
   'be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1',
   '0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194',
+  '68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '8c897b920090f1d7f9b35362a513b8f2defd8bfa5d76be5f8be6bcf7b98e69c9'
+const REMAINING_CHECKSUM = 'cd5c12961f5802078c1982efc26bdc0163b77b0f8809c3454c85358b903607c0'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -383,10 +384,16 @@ const FIFTY_THIRD_SOURCE = {
   pages: 19,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const FIFTY_FOURTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - FHB-Pharma MCQ Questions.pdf',
   sha256: '68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169',
   pages: 10,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Final_Lec_3_45_New_Exam_MCQs.pdf',
+  sha256: '70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe',
+  pages: 7,
   sourceProcessed: false,
 }
 
@@ -465,10 +472,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 16 }
+  const expected = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 15 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=16-substantive/10-sparse/4-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=15-substantive/10-sparse/4-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -509,6 +516,9 @@ for (const value of [FIFTY_SECOND_SOURCE.relativePath, FIFTY_SECOND_SOURCE.sha25
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 for (const value of [FIFTY_THIRD_SOURCE.relativePath, FIFTY_THIRD_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
+for (const value of [FIFTY_FOURTH_SOURCE.relativePath, FIFTY_FOURTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -554,7 +564,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 53 || remainingHashes.length !== 41 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 54 || remainingHashes.length !== 40 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -562,7 +572,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 16 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 15 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2433,8 +2443,33 @@ const provenance = {
       boundaryDisposition: 'the fully rendered carrier contains eleven raw image-dependent practical fields, one source answer observation and ten source-absent fields; nine fields map to the completed Final Revision practical family, leaving two new family prompt occurrences and one associated source answer observation, with zero ordinary objective or standalone written prompts',
       preservedSourceDefects: ['teaching/reference content and practical fields are non-additive page roles rather than separate prompt occurrences', 'nine mapped prior-family practical fields are not counted twice', 'ten raw source-absent fields remain absent rather than inferred', 'the single revealed answer is retained as student-source evidence rather than promoted to an authenticated faculty key', 'printed spelling, terminology and academically questionable claims remain source truth without correction'],
     },
+    {
+      sha256: FIFTY_FOURTH_SOURCE.sha256,
+      sourcePages: 10,
+      renderedReadPages: '1-10',
+      objectiveMcqPrompts: 59,
+      printedKeyObservations: 59,
+      sourceAbsentAnswers: 0,
+      writtenPrompts: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 8,
+      priorFhb1022CollapsedHandles: 8,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      familyQuestionDelta: 59,
+      familyAnswerDelta: 59,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['beta-lactam cell-wall synthesis inhibition', 'penicillin classes pharmacokinetics and clinical use', 'cephalosporin generations and uses', 'carbapenems monobactams and cilastatin', 'beta-lactamase inhibitors and combinations', 'vancomycin mechanism administration and toxicity', 'antipseudomonal and resistant-organism therapy', 'antibiotic-associated colitis and clinical antimicrobial selection'],
+      authorityDisposition: 'named student Microsoft Word compilation visibly marked MADE BY: KHALED HESHAM ABDELHAY with matching individual PDF author metadata; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears',
+      boundaryDisposition: 'pages 1-8 contain one continuous sequence of fifty-nine conventional objective MCQs and pages 9-10 print a complete answer table for Q1-Q59; exact boundary fifty-nine objective prompts, fifty-nine prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching occurrences',
+      preservedSourceDefects: ['the complete answer table is retained as student-source answer evidence rather than promoted to an authenticated faculty key', 'printed spelling, grammar, numbering, terminology and academically questionable questions or answer tokens remain source truth without correction', 'repeated subject matter within the bank remains distinct physical prompt occurrence because no exact prompt sibling sequence is present'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 4181, printedKeyObservations: 3982, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 4240, printedKeyObservations: 4041, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -2488,6 +2523,7 @@ const provenance = {
   fiftyFirstSourceCandidate: FIFTY_FIRST_SOURCE,
   fiftySecondSourceCandidate: FIFTY_SECOND_SOURCE,
   fiftyThirdSourceCandidate: FIFTY_THIRD_SOURCE,
+  fiftyFourthSourceCandidate: FIFTY_FOURTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
