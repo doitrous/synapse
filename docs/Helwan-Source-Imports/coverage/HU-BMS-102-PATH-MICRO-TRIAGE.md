@@ -29223,3 +29223,96 @@ Lec 5 - Pharmacokinetic Parameters` folder. Metadata records PDFium and 10 March
 author. Its declarative teaching followed by post-closing assessment fields, answer-absence state,
 authority, four-search/prior reconciliation, arithmetic, and subsequent exact debt remain to be
 separately adjudicated.
+
+## Family 289 — anonymous pharmacokinetic teaching deck with post-closing unkeyed questions
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_ea74070cd4dad29fc6ad` · `Principles of Pharmacokinetics.pdf` |
+| Exact object | SHA-256 `ea74070cd4dad29fc6adefe4ecc4b01d89933832cc808b1c584693323d03375c` · **242,676 bytes** · **13 native 959.76×540-point landscape pages** · 714 extracted words |
+| Full-read method | all 13 pages rendered at 144 dpi and reviewed in two ordered visual sheets against complete layout-preserving native extraction |
+| Visible provenance | page 1 titles `Principles of Pharmacokinetics`; no author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, marks, candidate field, or key marker is visible. |
+| Metadata | PDFium creator/producer and 10 March 2026 creation date; no author/title field, form, JavaScript, encryption, or interactive answer layer. Metadata cannot establish institutional or assessment authority. |
+| Authority / eligibility | local BMS-102 theoretical carrier with a visibly separate post-closing question appendix. It supplies eligible low-authority auxiliary question evidence, not an official exam, departmental key, authenticated sitting, or practical record. |
+
+### Complete teaching, assessment, answer, and practical boundary
+
+| Pages | Exhausted visible content | Exact governed classification |
+|---|---|---|
+| 1–7 | title; plasma/elimination half-life, steady state, distribution/elimination phases, first- versus zero-order tables, biphasic drugs, and zero-order clinical significance | completed teaching; `Differentiate between` on p.2 is embedded in the supplied lecture sequence without a candidate field and is retained as a teaching callout, not a scored operation |
+| 8–9 | worked first-order 100-mg/dL/6-hour half-life schedule and worked zero-order 25-mg/hour schedules from 100/150 mg/dL | completed examples with all time/concentration cells supplied; **0 prompts / 0 answer-key events** |
+| 10 | `THANK YOU` | explicit end of teaching deck |
+| 11 · Q1 | first-order drug with 8-hour half-life: approximate time for elimination after stopping; options 8–16, 16–24, 32–40, 48–72 hours | **1 unkeyed four-option MCQ / 0 supplied answers** |
+| 12 · Q2 | characteristic of zero-order elimination: constant proportion, less accumulation/toxicity, rate independent of plasma concentration, or constant half-life | **1 unkeyed four-option MCQ / 0 supplied answers** |
+| 13 · Q3 | first-order drug at 200 mg/dL with four-hour half-life: calculate concentration after 12 hours without further dosing | **1 unkeyed free-response written calculation / 0 supplied answers** |
+
+The exact source-local assessment boundary is **3 raw prompt occurrences = 2 unkeyed four-option
+MCQs + 1 unkeyed free-response written calculation**, with **0 source-supplied answers / 3
+answer-absent prompts / 3 retained question records**. There are **0 True/False items, 0 matching
+items, 0 completion blanks, 0 drawings, 0 image-bearing prompts, 0 practical stations, and 0
+candidate responses**. The worked examples on pp.8–9 remain teaching; the distinct numbered fields
+after `THANK YOU` establish assessment directionality. Teaching content makes solutions inferable
+but does not repair the source's absent-answer state.
+
+### Three-handle registry, exactly 12 searches, and prior-BMS reconciliation
+
+All three occurrences are source-distinct and survive retention with no same-source semantic
+collapse: Q1 tests the 4–5-half-life body-elimination convention, Q2 tests the defining zero-order
+rate/concentration relation, and Q3 requires a numerical first-order decay calculation. Therefore
+**3 retained - 0 semantic reductions = 3 accepted handles**.
+
+| Source handle | Exactly four completed source-first searches | Governed disposition |
+|---|---|---|
+| Q1 · `first-order-half-life8-body-elimination-32to40h` | `4-5 half-lives eliminated`; `half-life time eliminated body`; `five half lives drug elimination`; `first-order elimination 8 hours` | no exact governed handle. Family 288 teaches the convention, while Family 264 tests related steady-state and decay endpoints rather than this body-elimination endpoint; **new tested handle** |
+| Q2 · `zero-order-rate-independent-plasma-concentration` | `zero-order elimination independent plasma concentration`; `constant amount eliminated per unit time`; `zero-order rate independent concentration`; `zero-order variable half-life` | exact proposition reuse of Family 264 Q8 `zero-order-rate-not-proportional-plasma-concentration` |
+| Q3 · `first-order-half-life4-200to25-after12h` | `200 mg/dL 4 hours 12 hours`; `first-order plasma concentration calculation`; `half-life concentration after three half-lives`; `plasma concentration after 12 hours` | same three-half-life 200-to-25 decay operation as Family 264 Q1, with altered half-life/time wording; prior tested-handle reuse |
+
+Exactly **`3 handles × 4 = 12 required and completed searches`** are recorded. Search packets
+produced no competing live/ready/pending exact object; the two semantic prior relations above are
+collapsed proposition-by-proposition without importing their source-supplied keys. Thus **2 prior-
+BMS handle reuses** and **`3 - 2 = +1` distinct tested concept**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 289 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | +3 | 3,558 | 762 | 4,320 |
+| Supplied answers | +0; 3 absent | 2,541 | 405 | 2,946 |
+| Retained eligible question records | +3 | 3,262 | 552 | 3,814 |
+| Accepted handles / required searches | +3 / 12 | 2,929 / — | — | — |
+| Prior-BMS handle reuses | 2 | — | — | subtract before concept addition |
+| Cross-family concept delta | +1 | +1,496 over primary | 372 | 1,868 |
+| **Distinct tested concepts** | **3 source-local / +1** | **1,496 additions** | **372** | **1,868** |
+
+The checksum closes: **3 prompts = 0 answers + 3 absent**; **3 raw = 3 retained**; **3 retained
+= 3 handles**; **3 × 4 = 12 searches**; and **3 handles - 2 prior reuses = +1 concept**.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,558 prompts / 2,541 answers /
+3,262 retained / 2,929 handles / +1,496 concepts**. All eligible becomes **4,320 / 2,946 /
+3,814 / 1,868**. Family 289 establishes low-authority unkeyed post-closing pharmacokinetic
+question evidence only—not an official exam, supplied key, authenticated sitting, practical,
+candidate response, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 289
+
+`src_ea74070cd4dad29fc6ad` is exhausted across all 13 pages: every teaching statement, worked
+example, closing, post-closing stem/option/calculation field, absent-answer state, authority
+limitation, metadata field, search packet, prior-family relation, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-289 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 289 governs
+**1 selected path / 1 unique hash**. The governed set through Family 289 is therefore **356 paths /
+342 unique hashes**, leaving exactly **6 ungoverned selected paths / 6 unique hashes**. Checksums
+are **356 + 6 = 362 paths** and **342 + 6 = 348 unique hashes**. The ordered remaining-path ledger
+has SHA-256 `dfced4aa3bc59860081ae8cc42a8755e930b23e6992f973a44925c5618b21a65`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`0215fe1db38fdc1f7da72a0ecadc8a3ff98763370661b4cbb8272b0fe1c37f52`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_2ff64d93aee7fbe3cd7f` ·
+`Pharmacodynamic I (2).pdf`, SHA-256
+`2ff64d93aee7fbe3cd7f453fb66d7cf55736a0f1f54da3e983b7d85363b0db1a`, **179,651 bytes**,
+**seven native portrait A4 pages** under `Pharmacology / Theoretical / Lec 6 - Mechanism of Drug
+Action`. Metadata names `mustafa elsayed`, Microsoft Word for Microsoft 365, and 10 March 2026.
+Its visible receptor/mechanism teaching boundary, authority, replay, assessment gate, arithmetic,
+and subsequent exact debt remain to be separately adjudicated.
