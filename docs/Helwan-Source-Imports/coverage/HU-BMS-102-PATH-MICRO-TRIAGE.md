@@ -28102,3 +28102,94 @@ The exact next unprocessed BMS-102 record is tier-9 `src_28b827d66d1c7097e303` �
 Producer, and records modification on 26 January 2025. Its exact visible authority, complete
 objective/written/key/image/practical boundary, source-local/prior collapse, eligible gate,
 arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 276 — external Medicine Way general-pharmacology compilation
+
+### Source identity, exhaustive visual/OCR boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_28b827d66d1c7097e303` · `MCQs - general pharma mcq , written _@Medicine_Way2.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `28b827d66d1c7097e30331ef758a356bf872936eebf57d925b5795266c091b7d` · **7,475,863 bytes** |
+| Format / complete read | **64 OCR-needed portrait A4 pages**, 595×842 points, PDF 1.7. Native extraction is only the repeated CamScanner watermark. All 64 pages were rendered at 180 dpi, OCRed page by page, reviewed against the original-detail renders, and reconciled across every mobile-capture overlap, printed-page transition, key strip, figure, table, footer, and blank region. There is no form, JavaScript, encryption, hidden key, or response layer. |
+| Visible provenance | Page 1 is a Medicine Way channel cover and visibly says in Arabic `تم عمل ورفع الكتاب من منصور الحداد` (the book was made and uploaded by Mansour Al-Haddad). Many later pages carry Medicine Way logos, CamScanner marks, mobile-view overlays, or both. Named subsections explicitly compile `General Pharmacology`, `Lippincott's Questions`, and `Katzung's Questions`. No page visibly names Helwan University, a Helwan faculty or instructor, BMS-102, a cohort, sitting, date, marks, or departmental approval. |
+| Metadata caution | Title/Subject are `general pharma mcq , written _@Medicine_Way2`; Author is CamScanner, Producer is intsig.com, and modification is 26 January 2025. Those fields describe scan/export provenance, not institutional authorship, an exam sitting, or current-year authority. |
+| Authority / eligibility | This is an **external Medicine Way channel compilation** of general-pharmacology and textbook question banks. Folder placement does not overcome the visible absence of a Helwan marker. It is excluded from Helwan primary, auxiliary, and all-eligible totals before handle searches or prior-family concept arithmetic. |
+
+### Exact objective, answer, teaching, replay, image, and practical boundary
+
+| Physical pages | Source-defined layer | Exhausted logical operations / answer state |
+|---:|---|---:|
+| 1 | Medicine Way cover / upload credit | Provenance only; **0 prompts / 0 answers**. |
+| 2–7 | `Pharmacokinetics`, Q1–Q34, including Q30–Q34 matching | **34 keyed objective operations**: 29 five-option MCQs + 5 matching statements; printed answer strips supply all 34 answers. |
+| 8–9 | `Problem solving I` and `Problem solving II` | Two clinical-pharmacokinetic cases with **6 keyed four-/five-option MCQs** and complete answer strips. The lower part of p8 and p9 repeat the same Problem II lead-in/Q1 capture; it remains one authored three-question case, not a seventh operation. |
+| 10–21 | `M.C.Qs` / `General Pharmacology Key Answers`, Q1–Q97 | **97 keyed text MCQs / 97 answer cells / 0 unkeyed**, an exact content replay of the 13-page external object already exhausted in Family 258. |
+| 22–23 | Numbered pharmacokinetic/pharmacodynamic statements 1–43, most with `As`/`Because` explanations | **43 teaching-only explanatory statements**, not questions, answer blanks, written operations, or practical stations. |
+| 24–43 | `Exam Questions (115 MCQs)`, Q1–Q115 | **115 unkeyed five-option MCQs**. Q112 and Q114 are two figure-dependent dose-response MCQs; the other 113 are text-only. |
+| 44–48 | `Problem Solving Questions (22 MCQs)`, Q1–Q22 | **22 unkeyed option-selection calculations/cases**; none requests free-response work. |
+| 48–51 | `Lippincott's Questions (11 MCQs)`: pharmacokinetics 1.1–1.8 and pharmacodynamics 2.1–2.3 | **11 unkeyed MCQs**. Pages 49 and 50 are a complete visual replay of 1.1–1.8 (p49 alone has a mobile overlay), while p48/p51 are bridge captures; all resolve to the source-defined 11 operations rather than duplicated authored occurrences. |
+| 52–64 | `Katzung's Questions (60 MCQ)`, Q1–Q60, with Q46–Q60 labelled problem solving | **60 unkeyed MCQs**. Nine are figure/table-dependent (Q19, Q23, Q30–Q32, Q50, and Q58–Q60); 51 are text-only. |
+
+Complete source-defined arithmetic is **345 objective prompts = 34 initial objective + 6 initial
+case MCQs + 97 keyed-bank MCQs + 115 exam MCQs + 22 problem-solving MCQs + 11 Lippincott MCQs
+and 60 Katzung MCQs**, with **137 source-supplied answers / 208 unkeyed prompts**. Format split is
+**340 option-selection MCQs + 5 matching statements**, where the five matching statements replace
+five of the 34 initial objective items rather than add to them. There are **11 image/table-bearing
+MCQs**, all asking objective interpretation within a printed question bank; there are **0 free-
+response written prompts, 0 drawings, 0 authenticated practical stations, 0 candidate responses,
+and 0 answer-reveal teaching plates**. The 43 explained declarative statements are teaching only.
+
+The tall mobile captures repeatedly bridge portions of adjacent printed pages. Those navigation
+overlaps and the complete p49/p50 Lippincott replay do not fabricate second authored question
+occurrences. Source truth nevertheless records them as capture-level replays. The Q1–Q97/key layer
+is a complete prior-object replay of Family 258. Many other propositions recur internally and in
+prior BMS families, but external exclusion resolves before accepted-handle construction; no
+external proposition is promoted merely because its topic resembles eligible material.
+
+### External-authority zero gate and eligible arithmetic
+
+All **345 source-local prompts / 137 answers / 208 absent answers** are external. Therefore **0
+eligible records and 0 accepted handles** survive. The standing search gate is exactly **`0
+accepted handles × 4 = 0 required and completed searches`**. The exact Family-258 replay and all
+other source-local or prior semantic overlap contribute **0 eligible prior-BMS reuses / +0 tested
+concepts**.
+
+| Measure | Family 276 eligible delta | Auxiliary cumulative (Families 12–276) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 276 establishes external compilation, keyed/unkeyed-bank, capture-replay,
+and figure-MCQ evidence only—not a Helwan assessment, official key, written exam, authenticated
+practical, 2025 sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 276
+
+`src_28b827d66d1c7097e303` is exhausted across all 64 pages: every cover, credit, printed question,
+answer strip/cell, teaching statement, figure/table dependency, duplicate capture, footer, mobile
+overlay, authority limitation, metadata field, zero gate, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-276 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 276 governs
+**1 selected path / 1 unique hash**. The governed set through Family 276 is therefore **341 paths /
+329 unique hashes**, leaving exactly **21 ungoverned selected paths / 19 unique hashes**. Checksums
+are **341 + 21 = 362 paths** and **329 + 19 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `99f14cd3eecd27c00bdc3e9682ab73a63e216b63f187fb8441204cb1e01ccfea`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`a94e3280fdc71414f52e027a404dd0f8e11377a8b3c2b26c4828c90885708322`.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_92ebe788475d97871f91` ·
+`MCQs - pharmacodynamic mcq __@Medicine_Way2.pdf`, SHA-256
+`92ebe788475d97871f919f569a20278d12860e6a01a771f0171eee24d5c1d49b`, **1,871,830 bytes**,
+**11 OCR-needed portrait A4 pages** under `Pharmacology / Questions / MCQs`. Metadata titles it
+`pharmacodynamic mcq __@Medicine_Way2`, names CamScanner as Author and intsig.com as Producer,
+and records modification on 26 January 2025. Its visible Medicine Way/CamScanner authority,
+complete 42-unkeyed-plus-57-keyed prompt boundary, external gate, replay reconciliation,
+arithmetic, and subsequent exact debt remain to be separately adjudicated.
