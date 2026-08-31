@@ -23798,3 +23798,112 @@ It remains unclassified until all eight pages are rendered and read. **Overall L
 `S1 TRIAGE — NOT APPROVED`:** 1 tier-6 path / 1 unique hash remains; rank-9 debt is
 exhausted. No download, source edit, ID, content record, catalogue update, import or source
 copy was created.
+
+## Family 230 — Final tier-6 attributed muscle-physiology teaching note with answered DMD case
+
+Exact source identity is `src_664ef17f29adc95509aa`,
+`Year 1/LCS 103/Physiology/Notes and Summaries/Muscle physiology.pdf`, 895,668 bytes,
+8 native portrait-A4 pages, and SHA-256
+`664ef17f29adc95509aa4e533ee08273839b2b8b4363a165fbe3d7167367a4de`.
+The physical file matches that manifest path, byte size, page count and digest. It is tagged,
+unencrypted, contains no form, identifies PDF 1.7, and passes a structural check without
+warning. All eight distinct pages were rendered at 180 dpi, native text was reviewed, and
+every page was visually read at full-page resolution.
+
+### Authority and complete teaching/assessment boundary
+
+Every page visibly names `Dr. Omar Sheashaa`; metadata independently names author `Omar
+Sheashaa`, Microsoft Word for Microsoft 365 as creator/producer and 27 May 2025 as the
+creation/modification date. Neither visible content nor metadata names Helwan, HU, a faculty,
+cohort, sitting, marks or official key. The folder establishes LCS module context only. This
+is therefore attributed module-fit teaching with an embedded answered case, not eligible
+Helwan sitting evidence; its three prompt/answer pairs enter the separated external ledger.
+
+The complete physical boundary is:
+
+| Page | Complete supplied composition | Assessment boundary |
+|---:|---|---|
+| 1 | muscle functions and completed skeletal/smooth/cardiac comparison by appearance, control, action-potential upstroke/plateau/duration, excitation-contraction coupling and molecular basis | declarative teaching/table only |
+| 2 | contractility, excitability, extensibility and elasticity; completed NMJ, muscle-cell, sarcotubular and dystrophin-complex figures; functional and structural filaments | completed teaching only |
+| 3 | dystrophin role/X-linkage; completed muscle-to-sarcomere organization, triad/coupling and resting-versus-contracted sarcomere figures | completed teaching only |
+| 4 | muscle terminology; one Duchenne muscular-dystrophy vignette and calf-hypertrophy photograph; inheritance, weakness-mechanism and next-diagnostic-step questions, each followed immediately by a source answer | **3 external written prompts / 3 source answers** |
+| 5 | completed excitation-contraction flow, cross-bridge cycle, action-potential/conductance, calcium/twitch and simple-twitch figures | completed teaching only |
+| 6 | isometric, concentric and eccentric contraction comparison; muscle-fatigue definition, causes and central/peripheral types | completed teaching only |
+| 7 | fatigue significance, oxygen debt and completed oxygen-consumption/energy-system figures | completed teaching only |
+| 8 | motor-unit/motoneuron-pool definitions, recruitment/size principle and small-versus-large motoneuron comparison with completed illustrations | completed teaching only |
+
+Exact assessment delta is **0 eligible / +3 external ordinary written prompts / +3 external
+source answers / 0 objective prompts / 0 unkeyed prompts / 0 concepts**. The three source
+answers print `X-linked recessive`; a dystrophin-gene/decreased-dystrophin sarcolemmal and
+mechanical-stress mechanism; and CK, genetic testing and muscle-biopsy findings. These are
+inventoried literally, not medically repaired or promoted to an official key.
+
+The source contains **19 completed teaching-figure occurrences** across pp. 2–8, including
+the photograph, composites, diagrams and curves. All labels and the bare `1`–`5`, `1`–`4`,
+`A`–`D` and panel-letter states are already part of simultaneous theoretical explanation;
+none is masked, presented as an identification task, or paired with a station command. Under
+the standing boundary used for Families 75, 173 and 183, these do not become practical
+plates, mappings or unresolved practical residues. Exact practical delta is therefore **0
+prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching
+scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The three assessment prompts remain three independently answerable handles:
+
+| Assessment handle | Exact four-surface query | Reconciliation |
+|---|---|---|
+| DMD X-linked inheritance | Duchenne X linked recessive inheritance maternal uncle affected boy | exact Family-75 inheritance handle; prior eligible-LCS reuse |
+| dystrophin loss and muscle weakness | Duchenne dystrophin mutation sarcolemma mechanical stress muscle weakness | exact Family-75 pathophysiology handle; prior eligible-LCS reuse |
+| DMD confirmatory work-up | Duchenne diagnostic workup creatine kinase genetic testing muscle biopsy absent dystrophin | Family-75 next-diagnostic-step handle; prior eligible-LCS reuse |
+
+The complete teaching collapses source-first to seven handles:
+
+| Teaching handle | Exact four-surface query | Reconciliation |
+|---|---|---|
+| muscle functions and three-type comparison | muscle functions skeletal smooth cardiac voluntary action potential excitation contraction comparison | prior Families 75 and 173 reuse |
+| fibre, sarcotubular and filament organization | sarcolemma sarcoplasmic reticulum T tubule actin myosin dystrophin titin nebulin | prior Families 60, 75, 173 and 183 reuse |
+| dystrophin and Duchenne phenotype | Duchenne muscular dystrophy X linked dystrophin Gower calf hypertrophy creatine kinase genetic biopsy | prior Families 52, 75, 173 and 180 reuse |
+| excitation-contraction coupling and cross-bridge cycle | skeletal muscle excitation contraction coupling troponin cross bridge calcium sarcoplasmic reticulum | prior Families 51, 75, 99, 144–148, 173 and 183 reuse |
+| twitch and contraction types | muscle twitch refractory intracellular calcium tension isometric concentric eccentric | prior Families 74–75, 97, 99, 144–147, 173 and 183 reuse |
+| fatigue, oxygen debt and energy systems | muscle fatigue central peripheral oxygen debt energy systems | prior Families 51, 54, 73, 75, 144 and 147 reuse |
+| motor units, recruitment and size principle | motor unit recruitment size principle small large motoneurons | prior Families 75, 97, 144, 146–147 and 229 reuse |
+
+Each of the **10 accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **10 x 4 =
+40 required search invocations**. Literal combined-phrase searches returned **0 / 0 / 0 /
+0** on the first nine handles and **0 / 0 / 0 / 1** on the motor-unit handle. Complete-scope
+comparison against the cited accepted families establishes **3 prior eligible-tested-handle
+reuses + 7 prior theoretical-teaching reuses / 0 additive live / 0 additive pending / 0
+additive new tested or teaching scopes**. Exact-query misses are not treated as novelty.
+
+### Consolidated cumulative arithmetic and zero-remainder proof
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment advances
+from **7,632 / 7,346 / 221** by **+3 / +3 / +0** to **7,635 prompts / 7,349 source
+keys-or-answers / 221 external concepts = 12 live / 135 pending / 74 new**. Arithmetic checks
+are `7,632 + 3 = 7,635`, `7,346 + 3 = 7,349`, `221 + 0 = 221`, `12 + 111 + 214 =
+337`, and `12 + 135 + 74 = 221`.
+
+Practical totals remain **94 prompts / 526 plates / 3,039 mappings / 173 residues / 87
+keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 230 adds no
+practical item or scope.
+
+Family 229 left exactly one all-rank debt row: this exact tier-6 path and this exact unique
+hash. Its checksums were `8ac904e23b18332074a75074721061c69e5635876bd32cae91f5183a06573495`
+(paths) and `1296982c721725f32803d50d04b57786dc2b0a8067ed9f7cc4d86da9931aa462`
+(unique hashes). Recomputed path, source ID, byte size and digest all match that sole row.
+Removing it yields **0 remaining paths / 0 remaining unique hashes**: tier 3 **0 / 0**, tier
+6 **0 / 0**, rank 9 **0 / 0**, and broader standing all-rank debt **0 / 0**. SHA-256 over the
+defined empty byte stream is
+`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`; therefore both the
+empty path-ledger checksum and empty unique-hash-ledger checksum are that exact digest.
+
+Every in-scope manifest path has now received source-first boundary review or an explicit
+bitwise duplicate-path adjudication; unique content was counted once, path multiplicity was
+preserved, all accepted handles received four searches, prior-module dedupe is recorded, and
+eligible, external and practical ledgers remain separated. **Overall HU-LCS-103 is `TRIAGE APPROVED`.**
+There is no exact next source because the standing tier-3/tier-6/rank-9 lane is
+exhausted. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
