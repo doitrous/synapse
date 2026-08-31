@@ -70,6 +70,7 @@ const Unsubscribe = lazyNamed(() => import('@/pages/Unsubscribe'), 'Unsubscribe'
 const SharedDocument = lazyNamed(() => import('@/pages/SharedDocument'), 'SharedDocument')
 
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
+const Learn = lazyNamed(() => import('@/pages/student/Learn'), 'Learn')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
 const QuestionBank = lazyNamed(() => import('@/pages/student/QuestionBank'), 'QuestionBank')
 const QuestionNotes = lazyNamed(() => import('@/pages/student/QuestionNotes'), 'QuestionNotes')
@@ -141,6 +142,7 @@ const GlossarySetup = lazyNamed(() => import('@/pages/admin/GlossarySetup'), 'Gl
 const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportPage'), 'GlossaryImportPage')
 
 const studentPages: Record<string, Preloadable> = {
+  learn: Learn,
   library: Library,
   qbank: QuestionBank,
   'question-notes': QuestionNotes,

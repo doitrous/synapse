@@ -1,27 +1,17 @@
 import type { LucideIcon } from 'lucide-react'
 import {
   LayoutDashboard,
-  BookOpen,
-  ListChecks,
-  Stethoscope,
+  Target,
   CalendarDays,
   LineChart,
-  FolderOpen,
   PenTool,
-  PenLine,
   Notebook,
   Users,
   CreditCard,
   UserCog,
-  Languages,
-  Compass,
-  Layers,
-  Gamepad2,
   Building2,
   GraduationCap,
-  StickyNote,
   MonitorPlay,
-  Flame,
 } from 'lucide-react'
 import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '@/data/adminTabs'
 
@@ -43,22 +33,9 @@ export const studentNav: NavGroup[] = [
   {
     items: [
       { label: 'Dashboard', to: '/app', icon: LayoutDashboard, end: true },
+      { label: 'Learn', to: '/app/learn', icon: Target },
       { label: 'University', to: '/app/university', icon: GraduationCap },
       { label: 'Calendar', to: '/app/calendar', icon: CalendarDays },
-    ],
-  },
-  {
-    label: 'Study',
-    items: [
-      { label: 'Library', to: '/app/library', icon: BookOpen },
-      { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
-      { label: 'Question of the Day', to: '/app/qotd', icon: Flame },
-      { label: 'Question Notes', to: '/app/question-notes', icon: StickyNote },
-      { label: 'Adaptive Study', to: '/app/adaptive', icon: Compass },
-      { label: 'Practical', to: '/app/practical', icon: Stethoscope },
-      { label: 'Essay questions', to: '/app/essays', icon: PenLine },
-      { label: 'Resources', to: '/app/resources', icon: FolderOpen },
-      { label: 'Medical Taxonomy', to: '/app/taxonomy', icon: Languages },
     ],
   },
   {
@@ -73,8 +50,6 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
       { label: 'Notebook', to: '/app/notebook', icon: Notebook },
-      { label: 'Flashcards', to: '/app/flashcards', icon: Layers },
-      { label: 'Minigames', to: '/app/minigames', icon: Gamepad2 },
       { label: 'Study Together', to: '/app/study-together', icon: Users },
       { label: 'Tutorials', to: '/app/tutorial', icon: MonitorPlay },
     ],

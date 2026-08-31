@@ -1094,7 +1094,6 @@ export const AR: Record<string, string> = {
   // ---- Learn hub --------------------------------------------------------
   'Every way to study, in one place.': 'كل طرق المذاكرة في مكان واحد.',
   'Jump to a group': 'انتقل إلى مجموعة',
-  Practice: 'تدرّب',
   'Hands-on': 'تطبيق عملي',
   Memorise: 'احفظ',
   Read: 'اقرأ',
@@ -1114,5 +1113,5 @@ export const AR: Record<string, string> = {
   'Every book and guideline, organised by subject': 'كل كتاب ودليل، منظّم حسب المادة',
   'Files, videos, and uploads in one place': 'ملفات وفيديوهات ورفعاتك في مكان واحد',
   'Look up terms and how concepts connect': 'ابحث عن المصطلحات وكيف ترتبط المفاهيم',
-  'authored packs ready': 'حزمة جاهزة',
+  'authored packs ready': 'حزم جاهزة',
 }
