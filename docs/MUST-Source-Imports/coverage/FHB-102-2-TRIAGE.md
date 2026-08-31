@@ -1854,3 +1854,31 @@ Removing the fifty-one processed hashes leaves **43 selected inventory paths / 4
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/revision after midterm FHB102.pdf`, SHA-256 `be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1`, 28 pages, with a sparse-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 43 selected inventory paths / 43 unique hashes remain untriaged.
+
+## Completed source — Revision after midterm FHB102
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/revision after midterm FHB102.pdf` | `be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1` | 28 | sparse-text | pages 1–28 rendered and read | Visible MUST Foundations of Human Body 102-2 `Vectors of Disease Transmission` webinar/revision deck by Prof. Heba Abdel Aaty with discussion and flipped-classroom objectives. This is strong departmental teaching/revision provenance, not an authenticated examination sitting, marks scheme or faculty key. |
+
+### Exact raw boundary and sibling-subset reconciliation
+
+Pages 1–3 are cover, objectives and FHB102-2 theme framing. Pages 4–28 contain **25 answerless conventional MCQs / 0 printed answers / 25 raw source-absent answers / 0 written / 0 practical or image prompts**. Exhaustive normalized comparison maps every prompt-and-option field one-for-one to a 25-item subset of the completed 27-question `Fhb para (answers & notes)` family.
+
+The governed family delta is therefore **+0 questions / +0 answers**. The answerless revision fields remain 25 raw source-absent observations without manufacturing answers; exact sibling-subset mapping prevents a second count; and official departmental teaching provenance is not promoted to an authenticated exam sitting or faculty key. Printed spelling, terminology and academically questionable prompt claims remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The carrier reuses the prior family's eleven handles across arthropod vectors, host/vector roles, transmission types, mosquitoes, flies/myiasis, lice, fleas, ticks, triatomine bugs, trypanosomes and clinical vector-borne diagnosis/prevention. All eleven remain prior-represented.
+
+Search arithmetic is **11 source-first − 11 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-second one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **4,179 questions / 3,981 answers / 62 concepts**.
+
+Removing the fifty-two processed hashes leaves **42 selected inventory paths / 42 unique SHA-256s**. Their sorted-newline checksum is `cc5fcf73d838f1f56adc61149aec5b948489c95919a080ac5f9b1dc2fb726c1c`. Remaining audit-review debt is **17 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`52 + 42 = 94`** and path accounting is **`54 + 42 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/📌para FHB-2 102 midterm (By Asma).pdf`, SHA-256 `0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194`, 19 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 42 selected inventory paths / 42 unique hashes remain untriaged.

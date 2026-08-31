@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "a01764a58e653c9b95b2c770ec866e8536cbbbbbb7764258308a44962ade993e",
-    "triageMarkdown": "200545e209e703299e70255aa349f0be2200ba3148550057a035aa969bb2ce55"
+    "readinessMarkdown": "e7f7a468f245d482ee438b09ec1d6096735e9bec2ca513755bcb1e0a5617feaa",
+    "triageMarkdown": "e32a7829532aac96d02e2e040305acf7fbc85afb6c3cb5c4092f2ee5d10dca7a"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -108,6 +108,7 @@
       "b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
+      "be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1",
       "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
       "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
@@ -121,7 +122,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 51
+    "uniqueSha256": 52
   },
   "completedSourceCoverage": [
     {
@@ -3194,6 +3195,55 @@
         "anonymous revision provenance and CamScanner metadata are not promoted to an authenticated examination or faculty key",
         "printed spelling, terminology and academically questionable prompt or answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1",
+      "sourcePages": 28,
+      "renderedReadPages": "1-28",
+      "coverObjectiveAndThemePages": "1-3",
+      "rawPromptObservations": 25,
+      "objectiveMcqPrompts": 25,
+      "rawPrintedKeyObservations": 0,
+      "rawSourceAbsentAnswers": 25,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 3,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 11,
+      "priorFhb1022CollapsedHandles": 11,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSiblingSubset": true,
+      "exactSiblingSha256": "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
+      "mappedSiblingPromptObservations": 25,
+      "siblingFamilyPromptObservations": 27,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "arthropod vector classification",
+        "parasite host and vector roles",
+        "biological transmission types",
+        "mosquitoes and vector control",
+        "flies and myiasis",
+        "lice and louse-borne disease",
+        "fleas and flea-borne disease",
+        "ticks and tick-borne disease",
+        "triatomine bugs and Chagas disease",
+        "trypanosomes and vector transmission",
+        "clinical vector-borne diagnosis and prevention"
+      ],
+      "authorityDisposition": "visible MUST Foundations of Human Body 102-2 Vectors of Disease Transmission webinar/revision deck by Prof. Heba Abdel Aaty, with explicit discussion and flipped-classroom objectives; this is strong departmental teaching/revision provenance, not an authenticated examination sitting, marks scheme or faculty key",
+      "boundaryDisposition": "pages 1-3 are cover, objectives and FHB102-2 theme framing; pages 4-28 contain twenty-five answerless conventional MCQs whose normalized prompt-and-option fields map one-for-one to a twenty-five-item subset of the completed twenty-seven-question Fhb para answers & notes family; raw boundary twenty-five objective prompts, zero printed answers and twenty-five source-absent answers, but governed sibling-family delta zero questions and zero answers",
+      "preservedSourceDefects": [
+        "the answerless revision fields are retained as twenty-five raw source-absent observations without manufacturing answers",
+        "exact normalized sibling-subset mapping prevents a second count of the already governed prompts",
+        "official departmental teaching provenance is not promoted to an authenticated exam sitting or faculty key",
+        "printed spelling, terminology and academically questionable prompt claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3510,33 +3560,39 @@
     "pages": 12,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftySecondSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/revision after midterm FHB102.pdf",
     "sha256": "be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1",
     "pages": 28,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/📌para FHB-2 102 midterm (By Asma).pdf",
+    "sha256": "0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194",
+    "pages": 19,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 43,
-    "uniqueSha256": 43,
-    "sortedNewlineSha256": "3f5a6f66f86ad4ce8090cddfc384e75db6c0f5d7a09890c8f40eee9f7975b78a",
+    "inventoryMetadataRows": 42,
+    "uniqueSha256": 42,
+    "sortedNewlineSha256": "cc5fcf73d838f1f56adc61149aec5b948489c95919a080ac5f9b1dc2fb726c1c",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
-      "sparse-text": 11,
+      "sparse-text": 10,
       "substantive-text": 17
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
-    "sparse-text": 11,
+    "sparse-text": 10,
     "substantive-text": 17
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 51,
-    "remainingUniqueSha256": 43,
+    "processedUniqueSha256": 52,
+    "remainingUniqueSha256": 42,
     "processedPlusRemaining": 94
   }
 }
