@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "912dd276b02555b397743d7fb8db9800a80ff6c20e44ed43ea7cfa4db48761e4",
-    "triageMarkdown": "ad538b1357612e00a908997541043111d2c4ef10776d9ea37dfec3c215fe4950"
+    "readinessMarkdown": "0c895bb996b7be9eca41db209bc033b7cbe44c2c1414611982dbf81af1a24505",
+    "triageMarkdown": "97739613d6509a00d7ca1d6bd90f4f432628b8504ab362a3720729a028cd4694"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -70,6 +70,7 @@
   "processedFamilies": {
     "sha256": [
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
+      "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
       "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
@@ -114,7 +115,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 44
+    "uniqueSha256": 45
   },
   "completedSourceCoverage": [
     {
@@ -2762,11 +2763,56 @@
         "sixteen unmatched sibling practical fields remain source-absent rather than inferred from adjacent teaching",
         "printed spelling, terminology, labels and academically questionable answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
+      "sourcePages": 23,
+      "renderedReadPages": "1-23",
+      "objectiveQuestionPages": "1-23",
+      "printedPromptObservations": 27,
+      "objectiveMcqPrompts": 27,
+      "printedKeyObservations": 27,
+      "handwrittenOrMarkedAnswerObservations": 27,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "explanatoryNoteBlocks": 7,
+      "studyTopicLabels": 13,
+      "sourceFirstHandles": 9,
+      "priorFhb1022CollapsedHandles": 9,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 27,
+      "familyAnswerDelta": 27,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "flies and myiasis",
+        "ticks and tick-borne disease",
+        "fleas and flea-borne disease",
+        "lice and louse-borne disease",
+        "triatomine bugs and Chagas disease",
+        "trypanosomes and vector transmission",
+        "sand flies and leishmaniasis",
+        "arthropod transmission modes",
+        "clinical vector-borne diagnosis and prevention"
+      ],
+      "authorityDisposition": "individual Dr Mohamed Ezzt parasitology question-and-revision compilation carried through CamScanner and iLovePDF; no authenticated MUST institution, faculty, department, module, examiner, sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "all twenty-three rendered pages contain conventional text MCQ material, producing twenty-seven physical prompt occurrences and twenty-seven prompt-matched blue pen-marked answer observations; seven explanatory note blocks and thirteen study-topic labels remain non-prompt annotations; zero source-absent, written, practical, image-dependent or teaching-only prompt occurrence",
+      "preservedSourceDefects": [
+        "blue pen marks are retained as individual source-answer observations rather than promoted to an authenticated faculty key",
+        "page count and study-topic labels are not used as proxy prompt counts",
+        "explanatory note blocks remain annotations rather than independent questions or answers",
+        "printed spelling, terminology and academically questionable prompt or answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 3997,
-    "printedKeyObservations": 3806,
+    "printedPromptObservations": 4024,
+    "printedKeyObservations": 3833,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3036,18 +3082,23 @@
     "pages": 117,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortyFifthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Parasitology FHB102-2 Exam Night Questions & Notes (Final).pdf",
     "sha256": "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
     "pages": 23,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Parasitology FHB102-2 Questions (Final).pdf",
+    "sha256": "b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f",
+    "pages": 42,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 50,
-    "uniqueSha256": 50,
-    "sortedNewlineSha256": "bc43e41dd912fed10fca6f154c2913df65e1d416931b881eec411bb437a2ec77",
+    "inventoryMetadataRows": 49,
+    "uniqueSha256": 49,
+    "sortedNewlineSha256": "075e5e8db4f22327bd7e9e649b2227295b50b2ef8d933d0529286a9e646fba0d",
     "auditSampleStatusCounts": {
-      "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 5,
       "sparse-text": 11,
@@ -3055,7 +3106,6 @@
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-extract-failed": 1,
     "audit-not-found": 11,
     "empty-text": 5,
     "sparse-text": 11,
@@ -3063,8 +3113,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 44,
-    "remainingUniqueSha256": 50,
+    "processedUniqueSha256": 45,
+    "remainingUniqueSha256": 49,
     "processedPlusRemaining": 94
   }
 }
