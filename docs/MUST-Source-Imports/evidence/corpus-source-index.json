@@ -1,0 +1,80 @@
+{
+ "note": "Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from the governed local-source manifest.",
+ "generatedFrom": [
+  "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
+ ],
+ "manifestGeneratedOn": "2026-08-31",
+ "count": 3,
+ "sources": {
+  "src_b9989e9ef3c314f6c771": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf"
+   ],
+   "sha256": "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
+   "processingStatus": "fully_governed",
+   "pageCount": 6,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "MCQs"
+   ]
+  },
+  "src_5c62279de4964083aecb": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf"
+   ],
+   "sha256": "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
+   "processingStatus": "fully_governed",
+   "pageCount": 10,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "MCQs",
+    "Teaching notes"
+   ]
+  },
+  "src_6fb474b2c5871480abef": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf"
+   ],
+   "sha256": "6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5",
+   "processingStatus": "fully_governed",
+   "pageCount": 6,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Teaching notes"
+   ]
+  }
+ }
+}
