@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "04836335674fd43d073ecb29ee4f6302bd6fa53296efbf617e1085048a48ea80",
-    "triageMarkdown": "8484ac7aacdeeb6ab6733874c1b5a5f8783f7344440c97a5d3891272ba68d9d9"
+    "readinessMarkdown": "847d60851ae5cad38005293b04e6fb478f7161bf8e2b458b43e391b8be1b1344",
+    "triageMarkdown": "6066f587c1bb9832fa0c17378850cbd7ca06824547dbe87245096a78b798d813"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -72,6 +72,7 @@
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
+      "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
@@ -87,7 +88,7 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 17
+    "uniqueSha256": 18
   },
   "completedSourceCoverage": [
     {
@@ -1067,11 +1068,69 @@
         "the bank is distinct rather than an exact normalized prompt-sequence sibling of the completed AE carrier despite broad concept overlap",
         "printed wording, deprecated terminology and academically questionable answers remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "coverPage": 1,
+      "mcqQuestionPages": "2-6",
+      "trueFalseQuestionPage": 7,
+      "answerPage": 8,
+      "printedPromptObservations": 85,
+      "objectiveMcqPrompts": 65,
+      "objectiveTrueFalsePrompts": 20,
+      "printedKeyObservations": 85,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Decontamination MCQs",
+          "questionPages": "2-4",
+          "questionLabels": "Q1-Q38",
+          "prompts": 38,
+          "answers": 38
+        },
+        {
+          "section": "Infection MCQs",
+          "questionPages": "4-6",
+          "questionLabels": "Q39-Q65",
+          "prompts": 27,
+          "answers": 27
+        },
+        {
+          "section": "True/false",
+          "questionPage": 7,
+          "questionLabels": "Q1-Q20",
+          "prompts": 20,
+          "answers": 20
+        }
+      ],
+      "sourceFirstHandles": 4,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 85,
+      "familyAnswerDelta": 85,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous CamScanner revision carrier headed Microbiology MCQ 4, General Bacteriology, Chapter 7 - Decontamination and Chapter 8 - Infection, with no visible institution, department, module, examiner, sitting, marks, date, author or authenticated faculty-key claim; the terminal answer tables are source evidence rather than an official faculty key",
+      "boundaryDisposition": "one cover page; sixty-five continuously numbered objective MCQs on pages 2-6, split into thirty-eight Decontamination and twenty-seven Infection items; twenty independently numbered true-or-false prompts on page 7; page 8 supplies complete keys for all eighty-five prompts; no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "the cover, chapter headings, terminal Questions / Answers artwork and true-or-false emblem are not assessment occurrences",
+        "the bank is distinct rather than an exact normalized prompt-sequence sibling despite broad overlap with prior Infection Control and AE carriers",
+        "printed wording, deprecated terminology and academically questionable answers remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1771,
-    "printedKeyObservations": 1633,
+    "printedPromptObservations": 1856,
+    "printedKeyObservations": 1718,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1179,21 +1238,27 @@
     "pages": 15,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eighteenthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 3.pdf",
     "sha256": "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
     "pages": 8,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq2.pdf",
+    "sha256": "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
+    "pages": 6,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 79,
-    "uniqueSha256": 77,
-    "sortedNewlineSha256": "3579b95226b803b6737921cfb2027e03b0d4bf9733fe86ac4f9e8b316b38d839",
+    "inventoryMetadataRows": 78,
+    "uniqueSha256": 76,
+    "sortedNewlineSha256": "d5421719322de4419f1e13b7593920e16aaee12e9a3ff2f57585844d04b51383",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 11,
-      "sparse-text": 21,
+      "sparse-text": 20,
       "substantive-text": 34
     }
   },
@@ -1201,13 +1266,13 @@
     "audit-extract-failed": 2,
     "audit-not-found": 11,
     "empty-text": 11,
-    "sparse-text": 21,
+    "sparse-text": 20,
     "substantive-text": 34
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 17,
-    "remainingUniqueSha256": 77,
+    "processedUniqueSha256": 18,
+    "remainingUniqueSha256": 76,
     "processedPlusRemaining": 94
   }
 }

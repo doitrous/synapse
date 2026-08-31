@@ -810,3 +810,42 @@ Removing the seventeen processed hashes leaves **79 selected inventory paths / 7
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 3.pdf`, SHA-256 `3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a`, 8 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 79 selected inventory paths / 77 unique hashes remain untriaged.
+
+## Completed source — Mcq 3
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 3.pdf` | `3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a` | 8 | sparse-text | pages 1–8 rendered and read | Anonymous CamScanner revision carrier headed `Microbiology MCQ 4`, `General Bacteriology`, `Chapter 7 - Decontamination` and `Chapter 8 - Infection`. No institution, department, module, examiner, sitting, marks, date, author or authenticated faculty-key claim is visible. The terminal answer tables are source evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is a cover. Pages 2–6 contain one continuous Q1–Q65 objective sequence: Decontamination Q1–Q38 and Infection Q39–Q65. Page 7 contains twenty independently numbered objective true/false statements. Page 8 supplies a complete 65-token MCQ key and a complete 20-token true/false key. The exact boundary is **85 objective prompts / 85 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, split **38 Decontamination MCQs / 27 Infection MCQs / 20 true/false prompts**.
+
+The cover, chapter headings, terminal `Questions / Answers` artwork and true/false emblem are not assessment occurrences. Printed wording, deprecated terminology and academically questionable answers remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The eighty-five prompts collapse source-first into four coherent handles. Every handle is already represented by concepts established in prior FHB-102-2 banks, especially the completed Infection Control and AE Microbiology carriers, so no genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**. The bank is distinct rather than an exact normalized prompt-sequence sibling and retains its full physical observation delta.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Cleaning, disinfection, sterilization, antisepsis, disinfectant levels and chemical agents | prior equipment-decontamination and infection-control handle | prior-FHB-102-2 collapse |
+| Physical and chemical sterilization methods, monitoring and equipment criticality | prior sterilization/disinfection/decontamination handle | prior-FHB-102-2 collapse |
+| Colonization, carriers, epidemiological distribution, transmission, stages, pathogenicity and infectious dose | prior infection-stage, epidemiology and carrier-state handles | prior-FHB-102-2 collapse |
+| Exotoxin, endotoxin, toxoid and virulence enzymes | prior toxin-mechanism and virulence handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This eighteenth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+85 questions / +85 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,856 | 1,718 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the eighteen processed hashes leaves **78 selected inventory paths / 76 unique SHA-256s**. Their sorted-newline checksum is `d5421719322de4419f1e13b7593920e16aaee12e9a3ff2f57585844d04b51383`. Remaining audit-review debt is **34 substantive-text / 20 sparse-text / 11 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`18 + 76 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq2.pdf`, SHA-256 `40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a`, 6 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 78 selected inventory paths / 76 unique hashes remain untriaged.
