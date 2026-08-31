@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "cc99cf978480ba445c434cbda516a6404a686db1c42bad74e7ca948fe0f23246",
-    "triageMarkdown": "f4e932f3af848564ca8f47ceb64bcdfed38afefdc2bb018640a9dd7eef78c0cd"
+    "readinessMarkdown": "04836335674fd43d073ecb29ee4f6302bd6fa53296efbf617e1085048a48ea80",
+    "triageMarkdown": "8484ac7aacdeeb6ab6733874c1b5a5f8783f7344440c97a5d3891272ba68d9d9"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -75,6 +75,7 @@
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+      "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
       "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
       "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
       "a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2",
@@ -86,7 +87,7 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 16
+    "uniqueSha256": 17
   },
   "completedSourceCoverage": [
     {
@@ -1013,11 +1014,64 @@
         "printed wording, duplicated numbering, deprecated terminology and academically questionable answers remain source truth without correction",
         "the title attribution to Dr Alaa is not treated as institution, sitting or authenticated faculty-key authority"
       ]
+    },
+    {
+      "sha256": "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
+      "sourcePages": 15,
+      "renderedReadPages": "1-15",
+      "coverPage": 1,
+      "generalMicrobiologyQuestionPages": "2-9",
+      "generalMicrobiologyAnswerPage": 9,
+      "geneticsQuestionPages": "10-14",
+      "geneticsAnswerPage": 15,
+      "printedPromptObservations": 142,
+      "objectiveMcqPrompts": 142,
+      "printedKeyObservations": 142,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "General Microbiology",
+          "questionPages": "2-9",
+          "questionLabels": "Q1-Q87",
+          "prompts": 87,
+          "answers": 87
+        },
+        {
+          "section": "Genetics",
+          "questionPages": "10-14",
+          "answerPage": 15,
+          "questionLabels": "Q1-Q55",
+          "prompts": 55,
+          "answers": 55
+        }
+      ],
+      "sourceFirstHandles": 8,
+      "priorFhb1022CollapsedHandles": 8,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 142,
+      "familyAnswerDelta": 142,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous CamScanner revision carrier whose cover says Micro Biology 1 MCQ Questions and whose second bank is headed Genetics, with no visible institution, department, module, examiner, sitting, marks, date, author or authenticated faculty-key claim; the two printed key tables are source evidence rather than an official faculty key",
+      "boundaryDisposition": "one cover page; one General Microbiology Q1-Q87 objective bank on pages 2-9 with a complete eighty-seven-token answer table on page 9; one separately numbered Genetics Q1-Q55 objective bank on pages 10-14 with a complete fifty-five-token answer table on page 15; 142 prompt occurrences and 142 prompt-matched answer observations with no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "decorative Extra, Clinical and red-X marks do not consistently indicate answer selections and are not counted as answer observations",
+        "the terminal Questions / Answers artwork and section headings are not assessment occurrences",
+        "the bank is distinct rather than an exact normalized prompt-sequence sibling of the completed AE carrier despite broad concept overlap",
+        "printed wording, deprecated terminology and academically questionable answers remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1629,
-    "printedKeyObservations": 1491,
+    "printedPromptObservations": 1771,
+    "printedKeyObservations": 1633,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1119,21 +1173,27 @@
     "pages": 12,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "seventeenthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 1.pdf",
     "sha256": "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
     "pages": 15,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 3.pdf",
+    "sha256": "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
+    "pages": 8,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 80,
-    "uniqueSha256": 78,
-    "sortedNewlineSha256": "2225074a7571d57a71e3f107017862e5ab1559b17ca054a545f123c43d380489",
+    "inventoryMetadataRows": 79,
+    "uniqueSha256": 77,
+    "sortedNewlineSha256": "3579b95226b803b6737921cfb2027e03b0d4bf9733fe86ac4f9e8b316b38d839",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 11,
-      "sparse-text": 22,
+      "sparse-text": 21,
       "substantive-text": 34
     }
   },
@@ -1141,13 +1201,13 @@
     "audit-extract-failed": 2,
     "audit-not-found": 11,
     "empty-text": 11,
-    "sparse-text": 22,
+    "sparse-text": 21,
     "substantive-text": 34
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 16,
-    "remainingUniqueSha256": 78,
+    "processedUniqueSha256": 17,
+    "remainingUniqueSha256": 77,
     "processedPlusRemaining": 94
   }
 }

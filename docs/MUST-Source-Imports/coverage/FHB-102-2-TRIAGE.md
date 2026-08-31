@@ -767,3 +767,46 @@ Removing the sixteen processed hashes leaves **80 selected inventory paths / 78 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 1.pdf`, SHA-256 `994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc`, 15 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 80 selected inventory paths / 78 unique hashes remain untriaged.
+
+## Completed source — Mcq 1
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 1.pdf` | `994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc` | 15 | sparse-text | pages 1–15 rendered and read | Anonymous CamScanner revision carrier whose cover says `Micro Biology 1 MCQ Questions` and whose second bank is headed `Genetics`. No institution, department, module, examiner, sitting, marks, date, author or authenticated faculty-key claim is visible. The two printed key tables are source evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is a cover. Pages 2–9 contain one continuous General Microbiology Q1–Q87 sequence; page 9 prints Q85–Q87 and a complete 87-token answer table. Pages 10–15 contain a separately numbered Genetics Q1–Q55 sequence; page 15 is answer-only and prints a complete 55-token table. The exact boundary is **142 objective prompts / 142 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, split **87 General Microbiology / 55 Genetics**.
+
+The decorative `Extra`, `Clinical` and red-X marks do not consistently indicate answer selections and are not counted as answer observations. Section headings and the terminal `Questions / Answers` artwork are not assessment occurrences. Printed wording, deprecated terminology and academically questionable answers remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 142 prompts collapse source-first into eight coherent handles. Every handle is already represented by concepts established in prior FHB-102-2 banks, especially the completed AE Microbiology bank, so no genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**. The bank is a distinct carrier rather than an exact normalized prompt-sequence sibling of AE and therefore retains its full physical observation delta.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Microbial cell classification, normal flora, opportunism and pathogenicity | prior organism-classification, normal-flora and virulence handles | prior-FHB-102-2 collapse |
+| Bacterial envelope, membrane, wall and wall-deficient forms | prior envelope, wall and membrane handles | prior-FHB-102-2 collapse |
+| Capsule, appendages, spores, inclusions and essential cell structures | prior capsule, pili, flagella, spore and inclusion handles | prior-FHB-102-2 collapse |
+| Nutritional, oxygen, temperature and pH growth requirements and growth curve | prior nutritional/environmental-growth and growth-curve handles | prior-FHB-102-2 collapse |
+| Bacteriophage lytic/lysogenic cycles and lysogenic conversion | prior bacteriophage and horizontal-transfer handles | prior-FHB-102-2 collapse |
+| Gene, genome, chromosome, plasmid, transposon, replication, transcription and mutation | prior bacterial-genetics and transposon/mutation handles | prior-FHB-102-2 collapse |
+| Transformation, transduction and conjugation | prior horizontal-gene-transfer handle | prior-FHB-102-2 collapse |
+| Gene cloning, restriction enzymes, PCR, RT-PCR and nucleic-acid probes | prior molecular-diagnostic and genetic-method handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This seventeenth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+142 questions / +142 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,771 | 1,633 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the seventeen processed hashes leaves **79 selected inventory paths / 77 unique SHA-256s**. Their sorted-newline checksum is `3579b95226b803b6737921cfb2027e03b0d4bf9733fe86ac4f9e8b316b38d839`. Remaining audit-review debt is **34 substantive-text / 21 sparse-text / 11 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`17 + 77 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 3.pdf`, SHA-256 `3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a`, 8 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 79 selected inventory paths / 77 unique hashes remain untriaged.
