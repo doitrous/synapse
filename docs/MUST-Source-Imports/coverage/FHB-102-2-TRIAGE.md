@@ -849,3 +849,43 @@ Removing the eighteen processed hashes leaves **78 selected inventory paths / 76
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq2.pdf`, SHA-256 `40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a`, 6 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 78 selected inventory paths / 76 unique hashes remain untriaged.
+
+## Completed source — Mcq2
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq2.pdf` | `40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a` | 6 | sparse-text | pages 1–6 rendered and read | Anonymous CamScanner revision carrier headed only `Antimicrobial Drugs`. No institution, department, module, examiner, sitting, marks, date, author or authenticated faculty-key claim is visible. The two printed answer tables are source evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–4 contain one continuous Q1–Q40 objective MCQ sequence. Page 5 supplies a complete 40-token MCQ answer table and a separate complete 30-token true/false answer table. Page 6 contains the corresponding independently numbered Q1–Q30 objective true/false statements. The exact boundary is **70 objective prompts / 70 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, split **40 antimicrobial-drug MCQs / 30 antimicrobial-drug true/false prompts**.
+
+The page-5 `MCQ Questions` and true/false artwork are not assessment occurrences. Printed wording, deprecated terminology and academically questionable answers remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The seventy prompts collapse source-first into five coherent handles. Every handle is already represented by concepts established in prior FHB-102-2 banks, especially the completed AE, Absalam101 and Mucize carriers, so no genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**. The bank is distinct rather than an exact normalized prompt-sequence sibling and retains its full physical observation delta.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Antimicrobial definitions, selective toxicity, bacteriostatic/bactericidal action and spectrum | prior antimicrobial-principles handle | prior-FHB-102-2 collapse |
+| Antibacterial and antifungal drug classes, mechanisms and cellular targets | prior antimicrobial-mechanism handles | prior-FHB-102-2 collapse |
+| Antimicrobial resistance mechanisms and genetic mediation | prior antimicrobial-resistance handle | prior-FHB-102-2 collapse |
+| Susceptibility testing, MIC/MBC, combination effects and prophylaxis | prior susceptibility-testing and antimicrobial-use handles | prior-FHB-102-2 collapse |
+| Clinical uses, adverse effects and contraindications of antimicrobial agents | prior antimicrobial-clinical-use handle | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This nineteenth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+70 questions / +70 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,926 | 1,788 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the nineteen processed hashes leaves **77 selected inventory paths / 75 unique SHA-256s**. Their sorted-newline checksum is `ffec53d1ef02649300a0f879060cc2812c427008448bd7a817b52007cf3dd58b`. Remaining audit-review debt is **34 substantive-text / 19 sparse-text / 11 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`19 + 75 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Micro and Immune Questions by Dr.Hesham [103].pdf`, SHA-256 `a3f83755f7a4921fd2bb614a3827af3a4bde8e86b40ce595e0d74dd30f578100`, 49 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 77 selected inventory paths / 75 unique hashes remain untriaged.

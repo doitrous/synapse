@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "847d60851ae5cad38005293b04e6fb478f7161bf8e2b458b43e391b8be1b1344",
-    "triageMarkdown": "6066f587c1bb9832fa0c17378850cbd7ca06824547dbe87245096a78b798d813"
+    "readinessMarkdown": "ecda66ea104934877cbf76ca5c087fa48f68ea64751ece38a1781d3c2b6f826a",
+    "triageMarkdown": "c071da1dd881ee14c515143dc0b1459db82bbaf628c7510637e30e461ada6997"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -73,6 +73,7 @@
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
+      "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
@@ -88,7 +89,7 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 18
+    "uniqueSha256": 19
   },
   "completedSourceCoverage": [
     {
@@ -1126,11 +1127,62 @@
         "the bank is distinct rather than an exact normalized prompt-sequence sibling despite broad overlap with prior Infection Control and AE carriers",
         "printed wording, deprecated terminology and academically questionable answers remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
+      "sourcePages": 6,
+      "renderedReadPages": "1-6",
+      "mcqQuestionPages": "1-4",
+      "mcqAnswerPage": 5,
+      "trueFalseQuestionPage": 6,
+      "trueFalseAnswerPage": 5,
+      "printedPromptObservations": 70,
+      "objectiveMcqPrompts": 40,
+      "objectiveTrueFalsePrompts": 30,
+      "printedKeyObservations": 70,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Antimicrobial-drug MCQs",
+          "questionPages": "1-4",
+          "questionLabels": "Q1-Q40",
+          "prompts": 40,
+          "answers": 40
+        },
+        {
+          "section": "Antimicrobial-drug true/false",
+          "questionPage": 6,
+          "questionLabels": "Q1-Q30",
+          "prompts": 30,
+          "answers": 30
+        }
+      ],
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 70,
+      "familyAnswerDelta": 70,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous CamScanner revision carrier headed only Antimicrobial Drugs, with no visible institution, department, module, examiner, sitting, marks, date, author or authenticated faculty-key claim; the two printed answer tables are source evidence rather than an official faculty key",
+      "boundaryDisposition": "forty continuously numbered objective MCQs on pages 1-4; page 5 supplies a complete forty-token MCQ key and a separate complete thirty-token true-or-false key; page 6 contains the corresponding thirty independently numbered objective true-or-false statements; seventy prompt occurrences and seventy prompt-matched answer observations with no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "the page-5 MCQ Questions and true-or-false artwork are not assessment occurrences",
+        "the bank is distinct rather than an exact normalized prompt-sequence sibling despite broad overlap with prior antimicrobial carriers",
+        "printed wording, deprecated terminology and academically questionable answers remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1856,
-    "printedKeyObservations": 1718,
+    "printedPromptObservations": 1926,
+    "printedKeyObservations": 1788,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1244,21 +1296,27 @@
     "pages": 8,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "nineteenthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq2.pdf",
     "sha256": "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
     "pages": 6,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Micro and Immune Questions by Dr.Hesham [103].pdf",
+    "sha256": "a3f83755f7a4921fd2bb614a3827af3a4bde8e86b40ce595e0d74dd30f578100",
+    "pages": 49,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 78,
-    "uniqueSha256": 76,
-    "sortedNewlineSha256": "d5421719322de4419f1e13b7593920e16aaee12e9a3ff2f57585844d04b51383",
+    "inventoryMetadataRows": 77,
+    "uniqueSha256": 75,
+    "sortedNewlineSha256": "ffec53d1ef02649300a0f879060cc2812c427008448bd7a817b52007cf3dd58b",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 11,
-      "sparse-text": 20,
+      "sparse-text": 19,
       "substantive-text": 34
     }
   },
@@ -1266,13 +1324,13 @@
     "audit-extract-failed": 2,
     "audit-not-found": 11,
     "empty-text": 11,
-    "sparse-text": 20,
+    "sparse-text": 19,
     "substantive-text": 34
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 18,
-    "remainingUniqueSha256": 76,
+    "processedUniqueSha256": 19,
+    "remainingUniqueSha256": 75,
     "processedPlusRemaining": 94
   }
 }
