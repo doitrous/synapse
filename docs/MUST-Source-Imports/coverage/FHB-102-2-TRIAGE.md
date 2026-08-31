@@ -2106,3 +2106,31 @@ Removing the sixty processed hashes leaves **34 selected inventory paths / 34 un
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy [ANSWERED].pdf`, SHA-256 `42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf`, 9 pages, with a sparse-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 34 selected inventory paths / 34 unique hashes remain untriaged.
+
+## Completed source — Special Chemotherapy ANSWERED
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy [ANSWERED].pdf` | `42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf` | 9 | sparse-text | pages 1–9 rendered and read | Direct FireShot capture of a finished MUST Smart E-Learning Spring 2021 `Fundamentals of human body II` review attempt titled `Special Chemotherapy revision`; strong platform/module/review provenance, but the personal login, zero-score unattempted state and lack of examiner or official-key declaration limit authority. |
+
+### Exact boundary and answer state
+
+The nine long-form rendered pages contain one continuous **Q1–Q57** sequence. Every field is an ordinary text MCQ and every prompt is followed by one platform-disclosed `The correct answer is:` line. The exact boundary is **57 objective prompts / 57 prompt-matched answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**.
+
+Every question is visibly marked `Not answered`, and the finished attempt reports `0.00/57.00`; therefore the answer lines are platform review disclosures rather than student selections. They are strong source-answer observations but are not explicitly declared an authenticated faculty key. The personal login name is excluded. Printed grammar, dated regimens and academically questionable platform answers remain source truth without correction.
+
+### Prior-family and exactly-four-search gate
+
+No completed sibling or multi-prompt replay family suppresses this carrier. The similarly named nine-page `Special Chemotherapy.pdf` remains unprocessed and will be reconciled later as the sibling, so all **57 questions / 57 answers** survive this first governed family occurrence.
+
+The five source-first handles cover antituberculous and antileprosy drug mechanisms, regimens, uses and adverse effects; antifungal mechanisms, uses, adverse effects and resistance; antiamoebic drug selection, mechanisms and adverse effects; antimalarial mechanisms, treatment, prophylaxis and transmission prevention; and antifolate/special-chemotherapy pharmacology. All five collapse to prior FHB-102-2 evidence. Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This sixty-first one-path hash is now `sourceProcessed=true`, adding **+57 questions / +57 answers / +0 concepts**. Cumulative triage is **4,926 questions / 4,693 answers / 62 concepts**.
+
+Removing the sixty-one processed hashes leaves **33 selected inventory paths / 33 unique SHA-256s**. Their sorted-newline checksum is `7f86a41d86f3593ae978bf649d83cd66c3a20ab713b87f8f133023b89171e313`. Remaining audit-review debt is **10 substantive-text / 8 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`61 + 33 = 94`** and path accounting is **`63 + 33 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy.pdf`, SHA-256 `751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165`, 9 pages, with a sparse-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 33 selected inventory paths / 33 unique hashes remain untriaged.

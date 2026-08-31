@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "961ea7a3554f47a02b1fc3d481bc3c58a7df1dd9d026fe1940748190c3ae5170",
-    "triageMarkdown": "fd62bc32bbefe11c647b73433f14920b7adbbc880a4aa22e5fe25f9ebd1f18ad"
+    "readinessMarkdown": "777fe88621ff2f01467ac01ed0fcbdd628df3f6d4789d44a4f49780f9002cf5d",
+    "triageMarkdown": "c185a7b5e6c6efd7baf55955296587934de1d98effadc6afc6a91d16712365e1"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -82,6 +82,7 @@
       "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
+      "42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
       "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
@@ -130,7 +131,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 60
+    "uniqueSha256": 61
   },
   "completedSourceCoverage": [
     {
@@ -3578,11 +3579,49 @@
         "the source prints adrenal insufficiency as the answer to the most serious ketoconazole adverse effect and other academically questionable answer claims; all remain source truth without repair",
         "red ANSWER marks are anonymous revision-source evidence rather than an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf",
+      "sourcePages": 9,
+      "renderedReadPages": "1-9",
+      "objectiveMcqPrompts": 57,
+      "writtenPrompts": 0,
+      "printedKeyObservations": 57,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 57,
+      "familyAnswerDelta": 57,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "antituberculous and antileprosy drug mechanisms regimens uses and adverse effects",
+        "antifungal mechanisms uses adverse effects and resistance",
+        "antiamoebic drug selection mechanisms and adverse effects",
+        "antimalarial mechanisms treatment prophylaxis and transmission prevention",
+        "antifolate and special-chemotherapy pharmacology"
+      ],
+      "authorityDisposition": "direct FireShot capture of a finished MUST Smart E-Learning Spring 2021 Fundamentals of human body II review attempt titled Special Chemotherapy revision; the platform, module and dated finished-attempt context provide strong sitting/review provenance, while the named personal login, zero-score unattempted state and lack of examiner or faculty-key declaration prevent promotion to an authenticated official key",
+      "boundaryDisposition": "the nine rendered long-form capture pages contain one continuous Q1-Q57 sequence of fifty-seven ordinary text objective MCQs; every prompt is followed by one platform-disclosed The correct answer is line, yielding fifty-seven prompt-matched answer observations and zero source-absent, written, practical, image-dependent or teaching-only occurrence",
+      "replayDisposition": "no completed sibling or multi-prompt replay family suppresses this carrier; the similarly named nine-page unkeyed Special Chemotherapy file remains unprocessed and will be reconciled as a later sibling rather than used to remove this first governed occurrence set",
+      "preservedSourceDefects": [
+        "the review attempt shows every question Not answered and records 0.00/57.00, so the displayed correct-answer lines are platform review disclosures rather than student selections",
+        "the personal login name is excluded from durable evidence",
+        "printed grammar, spelling, outdated regimens and academically questionable platform answers remain source truth without correction",
+        "the platform-disclosed answers are strong source answer observations but are not labelled as an authenticated faculty key"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4869,
-    "printedKeyObservations": 4636,
+    "printedPromptObservations": 4926,
+    "printedKeyObservations": 4693,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3948,33 +3987,39 @@
     "pages": 52,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "sixtyFirstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy [ANSWERED].pdf",
     "sha256": "42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf",
+    "pages": 9,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy.pdf",
+    "sha256": "751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165",
     "pages": 9,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 34,
-    "uniqueSha256": 34,
-    "sortedNewlineSha256": "c0b6f0a4f6adea42968aac5f7a8a38c37a89b7ad410abd0f004cad25011af3ae",
+    "inventoryMetadataRows": 33,
+    "uniqueSha256": 33,
+    "sortedNewlineSha256": "7f86a41d86f3593ae978bf649d83cd66c3a20ab713b87f8f133023b89171e313",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
-      "sparse-text": 9,
+      "sparse-text": 8,
       "substantive-text": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
-    "sparse-text": 9,
+    "sparse-text": 8,
     "substantive-text": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 60,
-    "remainingUniqueSha256": 34,
+    "processedUniqueSha256": 61,
+    "remainingUniqueSha256": 33,
     "processedPlusRemaining": 94
   }
 }
