@@ -1966,3 +1966,31 @@ Removing the fifty-five processed hashes leaves **39 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - MICRO_PHARMA FHB 102-2 BY SALAMA.pdf`, SHA-256 `3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456`, 48 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 39 selected inventory paths / 39 unique hashes remain untriaged.
+
+## Completed source — MICRO_PHARMA FHB 102-2 by Salama
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - MICRO_PHARMA FHB 102-2 BY SALAMA.pdf` | `3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456` | 48 | substantive-text | pages 1–48 rendered and read | Named Mohamed Salama Microsoft Word 365 revision carrier titled `micro fhb 102-2`, with matching visible footer attribution and author metadata; no authenticated MUST institution, faculty, department, examiner, examination sitting, marks scheme or official key declaration appears. |
+
+### Exact objective, written and answer boundary
+
+Physical page 1 is the cover. Pages 2–43 contain **130 conventional objective MCQs / 130 inline prompt-matched answers** across independently restarted microbiology, virology, mycology, medically important bacteria and infection-control sections. Pages 44–48 contain **35 standalone written prompts / 35 printed answers**. The complete physical boundary is therefore **165 prompts / 165 prompt-matched source answer observations / 0 source-absent answers / 0 practical or image-dependent / 0 teaching-only occurrences**.
+
+The independently restarted section numbering is preserved, with every distinct physical prompt counted once. The written answer to “Name two drugs belonging to the allylamines group” supplies only Terbinafine, while the answer to “Enumerate two antibiotics that inhibit cytoplasmic membrane function” supplies only the polymyxin group. These quantity mismatches, along with printed spelling, grammar, simplified mechanisms and academically questionable answer claims, remain source truth without repair. The complete answer set remains individual revision-source evidence rather than an authenticated faculty key.
+
+### Source-first handles and exactly-four-search gate
+
+The sixteen source-first handles cover antimicrobial action/classes/selective toxicity; antibacterial mechanisms; resistance and chemotherapy complications; general virology structure/genome; viral replication/pathogenesis/diagnosis; medically important bacterial morphology/disease; bacterial culture/diagnostics; healthcare-associated infection reservoirs/transmission; standard and transmission-based precautions; hand hygiene/PPE; sterilization/disinfection/equipment risk; occupational exposure/PEP; general mycology and mycoses; antifungal classes/mechanisms/uses; antibacterial target classes; and resistance mechanisms/stewardship. All sixteen collapse to already represented FHB-102-2 evidence.
+
+Search arithmetic is **16 source-first − 16 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**. No exact normalized prompt-sibling carrier was found, so all 165 distinct physical occurrences survive the family boundary.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-sixth one-path hash is now `sourceProcessed=true`, adding **+165 questions / +165 answers / +0 concepts**. Cumulative triage is **4,450 questions / 4,251 answers / 62 concepts**.
+
+Removing the fifty-six processed hashes leaves **38 selected inventory paths / 38 unique SHA-256s**. Their sorted-newline checksum is `78a61c6b756fe2993ad24b5c89702c2506aae33782219df7b516822be3556832`. Remaining audit-review debt is **13 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`56 + 38 = 94`** and path accounting is **`58 + 38 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - PentaGram Mohamed Farid(Pharma102)FHB-2.pdf`, SHA-256 `6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb`, 33 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 38 selected inventory paths / 38 unique hashes remain untriaged.

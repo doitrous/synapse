@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "ab93bc5333bf9feb3e7dabcd235e8e9baa412f332872ed30111b28a17994c8cb",
-    "triageMarkdown": "d857869ba8faa7933d45f2adc6234d66964e08de677724da29a765e392349007"
+    "readinessMarkdown": "98776e85c327bf58d8a7f09b089fea3b50d665424c5352005edd93a85ad674bd",
+    "triageMarkdown": "0188290a16a9b47f5a066643dd606eaa692fadfbcfa5d97f9b1c8339e9a86bb5"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -76,6 +76,7 @@
       "20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de",
       "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
+      "3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456",
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
       "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
@@ -125,7 +126,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 55
+    "uniqueSha256": 56
   },
   "completedSourceCoverage": [
     {
@@ -3359,11 +3360,61 @@
         "the complete answer table is retained as derivative-source evidence rather than promoted to an authenticated faculty key",
         "printed wording, terminology and academically questionable questions or answer tokens remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456",
+      "sourcePages": 48,
+      "renderedReadPages": "1-48",
+      "coverPages": 1,
+      "terminalBlankPages": 0,
+      "objectiveMcqPrompts": 130,
+      "writtenPrompts": 35,
+      "printedKeyObservations": 165,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 16,
+      "priorFhb1022CollapsedHandles": 16,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 165,
+      "familyAnswerDelta": 165,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "antimicrobial action classes and selective toxicity",
+        "antibacterial mechanisms of action",
+        "antimicrobial resistance and chemotherapy complications",
+        "general virology structure and genome",
+        "viral replication pathogenesis and diagnosis",
+        "medically important bacterial morphology and disease",
+        "bacterial culture and diagnostic methods",
+        "healthcare-associated infection reservoirs and transmission",
+        "standard and transmission-based precautions",
+        "hand hygiene and personal protective equipment",
+        "sterilization disinfection and equipment risk",
+        "occupational exposure and post-exposure prophylaxis",
+        "general mycology morphology and mycoses",
+        "antifungal classes mechanisms and uses",
+        "cell-wall protein-synthesis nucleic-acid and folate inhibitors",
+        "antimicrobial resistance mechanisms and stewardship"
+      ],
+      "authorityDisposition": "named Mohamed Salama Microsoft Word 365 revision carrier with title micro fhb 102-2 and matching visible footer attribution; no authenticated MUST institution, faculty, department, examiner, examination sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "physical page 1 is the cover; pages 2-43 contain one hundred thirty keyed objective MCQs across independently restarted microbiology, virology, mycology, medically important bacteria and infection-control sections; pages 44-48 contain thirty-five standalone written prompts with thirty-five printed answers; exact boundary one hundred sixty-five prompts and one hundred sixty-five prompt-matched answer observations, with zero absent, practical, image-dependent or teaching-only occurrences",
+      "preservedSourceDefects": [
+        "independently restarted section numbering is preserved and every distinct physical prompt is counted once",
+        "the printed answer to Name two drugs belonging to the allylamines group supplies only Terbinafine, and the answer to Enumerate two antibiotics that inhibit cytoplasmic membrane function supplies only the polymyxin group; these quantity mismatches remain source truth",
+        "printed spelling, grammar, simplified mechanisms and academically questionable questions or answer claims remain source truth without repair",
+        "the complete inline answer set remains individual revision-source evidence rather than an authenticated faculty key"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4285,
-    "printedKeyObservations": 4086,
+    "printedPromptObservations": 4450,
+    "printedKeyObservations": 4251,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3699,33 +3750,39 @@
     "pages": 7,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftySixthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - MICRO_PHARMA FHB 102-2 BY SALAMA.pdf",
     "sha256": "3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456",
     "pages": 48,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - PentaGram Mohamed Farid(Pharma102)FHB-2.pdf",
+    "sha256": "6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb",
+    "pages": 33,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 39,
-    "uniqueSha256": 39,
-    "sortedNewlineSha256": "75d425642fafb339594555a16beee08c4b8b0da8933b7ea0e70f77664c1f5d76",
+    "inventoryMetadataRows": 38,
+    "uniqueSha256": 38,
+    "sortedNewlineSha256": "78a61c6b756fe2993ad24b5c89702c2506aae33782219df7b516822be3556832",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
       "sparse-text": 10,
-      "substantive-text": 14
+      "substantive-text": 13
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
     "sparse-text": 10,
-    "substantive-text": 14
+    "substantive-text": 13
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 55,
-    "remainingUniqueSha256": 39,
+    "processedUniqueSha256": 56,
+    "remainingUniqueSha256": 38,
     "processedPlusRemaining": 94
   }
 }
