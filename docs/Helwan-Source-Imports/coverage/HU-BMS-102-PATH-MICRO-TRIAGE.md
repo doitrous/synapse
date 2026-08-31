@@ -23469,3 +23469,96 @@ required before eligibility; its first page visibly begins a dose-response-relat
 sheet. Its complete full-resolution/OCR boundary, provenance, teaching/prompt/key/practical ruling,
 four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 232 — Kasr-hinted NotebookLM dose-response teaching synthesis (external reference)
+
+### Source identity, complete render/OCR boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_ee3b50a7d8962978a76f` · `KASR Pharmacology_Dose-Response.pdf` under the local `Pharmacology / Notes and Summaries` folder |
+| SHA-256 / exact size | `ee3b50a7d8962978a76f23efa33af0045d7af8a3f15f96661008e8260a9f3889` · **16,725,824 bytes** |
+| Format / complete visual boundary | **Thirteen OCR-needed 1,376×768-point landscape pages, PDF 1.4**. Every page was rendered at 160 dpi into a non-empty 3,058×1,707-pixel image and read individually at original detail. Every heading, curve, axis, annotation, formula, comparison row, correction note, watermark, and terminal table cell is assigned below; there is no page or crop remainder. |
+| OCR/native reality | Layout and raw native extraction contain only 13 page-break characters and no words. Tesseract over all 13 full-page renders produced **1,394 words / 7,119 bytes**. OCR assisted navigation, while the rendered pages control formulas, subscripts, curve labels, and source wording. No form, JavaScript, encryption, interactive answer layer, or hidden native prompt layer exists. |
+| Visible provenance | Page 1 visibly carries `Pharmacology Department | General Pharmacology`; all pages carry a `NotebookLM` watermark. No university name/logo, instructor, module code, academic year, date, assessment title, candidate field, or marks are visible. The carrier is a visually synthesized teaching deck, not an original signed lecture or exam. |
+| External-origin evidence | The filename begins `KASR`, and the manifest explicitly records `originUniversityHint: ["Kasr Alainy"]`. The generic visible department header supplies no Helwan counter-marker. Local BMS-102 folder placement cannot convert an externally identified derivative into Helwan authority. |
+| Metadata caution | The PDF exposes no title, author, subject, keywords, creation/modification date, creator, or producer. There is therefore no metadata basis to override the Kasr filename/manifest evidence or establish authorship, date, or sitting. |
+| Authority / eligibility | External Kasr-hinted tier-6 NotebookLM teaching reference. Under the standing post-Family-10 no-external-university rule, it is indexed for provenance and teaching-format evidence but excluded from primary, auxiliary, and all-eligible Helwan assessment totals. |
+
+### Exhaustive page-first teaching, prompt, key, annotation, and practical boundary
+
+| Pages | Exhausted visible source content | Boundary ruling |
+|---:|---|---|
+| 1–2 | `Pharmacological Effect / Dose-response relationship curves`; division into graded and quantal response; graded-curve definition, one-tissue example, and clinical-significance list of ED50, E-max, and steepness | Completed overview/definition only: **0 prompts / 0 answers / 0 practical**. The `NB:` sticky note and decorative icons are layout elements, not learner response areas. |
+| 3–4 | Three labelled graded curves for Drugs A–C with supplied potency/efficacy interpretations; ED50 definition and three completed uses—potency, equieffective doses, and biological variation | Completed graphs and explanations: **0 / 0 / 0**. Drug letters and graph guide-lines are disclosed teaching labels. |
+| 5–6 | E-max/efficacy and intrinsic-activity explanation, full/partial agonist mapping, potency-versus-efficacy note; steep versus less-steep dose-response curves, toxicity timing, therapeutic-window implication, and an expert correction of `Sloop` to `Slope` | Completed definitions, graph mappings, and editorial correction: **0 / 0 / 0**. |
+| 7–9 | Quantal-response definition and group-of-animals/convulsion example; fully labelled phenobarbital curative/toxic curves with ED50, LD50, and therapeutic window; completed ED50/LD50 definitions and the statement that illustrated LD50 is ten-fold ED50 | Completed quantitative teaching example: **0 / 0 / 0**. No graph-reading question or blank value is posed. |
+| 10–12 | Completed therapeutic-index `TI = LD50 / ED50`, safety-index `SI = LD1 / ED99`, and protective-index `PI = LD50 / ED50` slides, each with supplied definitions, ratio interpretations, and testing context; page 12 includes an expert note expanding source shorthand | Completed formulas and supplied interpretations: **0 / 0 / 0**. Fraction bars and ratio branches are mathematical notation, not completion blanks. |
+| 13 | `The Grand Synthesis: Graded vs. Quantal Response`: six-row comparison covering scope, dose relation, receptor relation, study population, plotted measure, and clinical calculations, plus an editorial expert note | Completed summary table: **0 / 0 / 0**. |
+
+The source contains no question mark, assessment imperative, option set, candidate-response field,
+missing-term cue, answer marker, key register, image-identification request, or practical procedure.
+Headings such as `Clinical significance`, `Calculation`, and `Example` introduce fully disclosed
+teaching; every plotted curve, ED/LD guide-line, formula operand, and interpretation is already
+labelled.
+
+The governed source-local assessment boundary is therefore **0 MCQs + 0 True/False + 0 written
+prompts + 0 completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw
+prompt occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained question
+records, and 0 prompt-like residues**. Source-specific formulations—including page 10's wording
+about separation between `curative dose & therapeutic dose`, page 12's use of `LD50` for
+undesirable effects in its PI explanation, and NotebookLM's visible `Sloop`/`ttt` correction notes—
+are preserved as source truth rather than silently repaired or converted into medical guidance.
+
+### External-authority zero gate, prior-BMS ruling, and cumulative arithmetic
+
+No assessment handle exists, and the carrier independently fails Helwan authority through its Kasr
+filename/manifest origin with no visible Helwan counterevidence. The standing source-first gate is
+therefore exactly **`0 accepted handles × 4 = 0 required and completed searches`**. No empty search
+packet, external disposition, or prior-handle row is fabricated. Dose-response, potency, efficacy,
+ED50/LD50, therapeutic-index, safety-index, and protective-index teaching overlaps prior BMS
+concepts, but external completed teaching is not a new Helwan tested-handle occurrence. Prior-BMS
+assessment reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 232 | Auxiliary cumulative (Families 12–232) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Eligible source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained eligible question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero eligible prompts yield zero answers, retained records, handles,
+searches, external dispositions, prior-handle reuses, or concept additions. Primary remains **762 /
+405 / 552 / 372**. Auxiliary remains **2,790 prompts / 1,828 answers / 2,494 retained / 2,227
+handles / +1,110 concepts**. All eligible remains **3,552 / 2,233 / 3,046 / 1,482**. Family 232
+establishes external Kasr/NotebookLM provenance and completed dose-response teaching evidence only,
+not Helwan assessment, official-key, practical, verified-date, medical-guidance, readiness, or claims
+status.
+
+### Exact next debt and remaining manifest distance after Family 232
+
+`src_ee3b50a7d8962978a76f` is exhausted across all 13 pages: every definition, curve, label,
+formula, ratio interpretation, comparison cell, source irregularity, NotebookLM note/watermark,
+external-authority term, zero gate, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-232 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 232 is **293 paths / 286 unique hashes**, leaving exactly **69 selected paths / 62
+unique hashes**. Checksums are **293 + 69 = 362 paths** and **286 + 62 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `15d39bb2a7ed8cde2f1da540216218150f060e15952950e58d6c6bea74486da2`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`7032d1178d6893765664d1b5297be9a5a18485393d0214f3daa3f73e4694a030`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_121467bdb521bc1adfda` ·
+`Metabolism.pdf`, SHA-256
+`121467bdb521bc1adfda474dc89be6f5aad1d79d9918f9cb7f61074c98714e70`, **914,895 bytes**,
+**ten native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first page
+visibly begins a `Pharmacology / Metabolism` definition/site/effect handout. Metadata author is
+`Mamdouh` and creation/modification is 8 March 2026, which establish export history only until
+visible provenance is read. Its complete render/native boundary, authority, teaching/prompt/key/
+practical ruling, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next
+debt remain to be separately adjudicated.
