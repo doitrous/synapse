@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "7eb56eba418fe71c841f5bc4511cf52ae23f898256867bef92239f49184c4194",
-    "triageMarkdown": "cb6b76d12604b8a40f6898aef7c5cae9b6f4308b644744ab149c597946c0c969"
+    "readinessMarkdown": "1203f1b7819502f14780e4a5172d1619164ebbc1d8acec822f46d1e3d48ca795",
+    "triageMarkdown": "257d52b8d8d278dd46c93b59a5750a9757f78ac492b380fe51dda57d4c6f7465"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -101,9 +101,10 @@
       "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
-      "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
+      "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
+      "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 33
+    "uniqueSha256": 34
   },
   "completedSourceCoverage": [
     {
@@ -2056,11 +2057,114 @@
         "printed spelling, capitalization, classifications, organism descriptions and academically questionable teaching claims remain source truth",
         "fully labelled images, tables and numbered teaching lists are not reverse-engineered into questions or answer keys"
       ]
+    },
+    {
+      "sha256": "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201",
+      "sourcePages": 25,
+      "renderedReadPages": "1-25",
+      "coverOrDividerPages": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "historicalWrittenPages": "3-4",
+      "objectiveAndWrittenPages": "6-8,11-18,20-24",
+      "answerPages": [
+        9,
+        12,
+        18,
+        19,
+        25
+      ],
+      "printedPromptObservations": 168,
+      "objectivePrompts": 147,
+      "conventionalMcqPrompts": 95,
+      "trueFalsePrompts": 31,
+      "matchingPrompts": 21,
+      "writtenPrompts": 21,
+      "keyedWrittenCompletionPrompts": 2,
+      "unkeyedHistoricalWrittenPrompts": 19,
+      "printedKeyObservations": 149,
+      "sourceAbsentAnswers": 19,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Historical entomology written questions",
+          "pages": "3-4",
+          "writtenPrompts": 19,
+          "answers": 0,
+          "sourceAbsentAnswers": 19
+        },
+        {
+          "section": "General parasitology MCQ, completion and matching",
+          "questionPages": "6-8",
+          "answerPage": 9,
+          "mcqPrompts": 10,
+          "writtenCompletionPrompts": 2,
+          "matchingPrompts": 14,
+          "answers": 26
+        },
+        {
+          "section": "First entomology MCQ set",
+          "questionPages": "11-12",
+          "answerPage": 12,
+          "mcqPrompts": 12,
+          "answers": 12
+        },
+        {
+          "section": "Expanded entomology MCQ, true/false and matching set",
+          "questionPages": "13-18",
+          "answerPages": "18-19",
+          "mcqPrompts": 29,
+          "trueFalsePrompts": 31,
+          "matchingPrompts": 7,
+          "answers": 67
+        },
+        {
+          "section": "Final entomology MCQ set",
+          "questionPages": "20-24",
+          "answerPage": 25,
+          "mcqPrompts": 44,
+          "answers": 44
+        }
+      ],
+      "sourceFirstHandles": 8,
+      "priorFhb1022CollapsedHandles": 8,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 168,
+      "familyAnswerDelta": 149,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "general parasitology and host-parasite terminology",
+        "arthropod classification and morphology",
+        "vector transmission mechanisms",
+        "mosquitoes and sand flies",
+        "flies and myiasis",
+        "fleas, lice and bugs",
+        "ticks and mites",
+        "arthropod-borne disease and vector control"
+      ],
+      "authorityDisposition": "external Study Smart Notes & MCQ in Parasitology Module 2 compilation, marked New Edition 2020 and scanned by CamScanner; it shows no MUST university, college or department authentication, FHB module label, examiner, sitting, marks or authenticated faculty-key claim, and the year-labelled historical prompts are revision evidence rather than authenticated past papers",
+      "boundaryDisposition": "nineteen unkeyed historical written prompts on pages 3-4; ninety-five conventional MCQs, thirty-one true/false items and twenty-one matching items across pages 6-8, 11-18 and 20-24; two additional written completion prompts on page 7; source answer tables on pages 9, 12, 18-19 and 25 match all 147 objective prompts and both completion prompts, leaving only the nineteen historical written prompts without answers; zero practical, image-dependent or teaching prompt",
+      "preservedSourceDefects": [
+        "the first entomology set skips printed Q11-Q12 and prints Q13-Q14, and its answer table follows only the visible labels",
+        "the expanded entomology set begins at Q8, skips Q18-Q19 and Q37-Q38, while the true/false sequence skips Q31 and prints Q32",
+        "reused question numbers across physically distinct sections remain distinct prompt occurrences",
+        "matching tables and answer mappings retain their printed order and wording without inferred repairs",
+        "printed spelling, dated terminology and academically questionable questions or answer tokens remain source truth"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2727,
-    "printedKeyObservations": 2571,
+    "printedPromptObservations": 2895,
+    "printedKeyObservations": 2720,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2264,21 +2368,27 @@
     "pages": 26,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtyFourthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - AT - Book 3.pdf",
     "sha256": "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201",
     "pages": 25,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf",
+    "sha256": "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
+    "pages": 10,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 61,
-    "uniqueSha256": 61,
-    "sortedNewlineSha256": "2057487d48492ce0efaeb4ed5089bfd96f4dfaa40ebfb1fb81916afcab202e2d",
+    "inventoryMetadataRows": 60,
+    "uniqueSha256": 60,
+    "sortedNewlineSha256": "0f219a88931d74323492b438958cd9f94a12d3fe9fc9c548bad8805f85f76ec4",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 10,
-      "sparse-text": 15,
+      "sparse-text": 14,
       "substantive-text": 24
     }
   },
@@ -2286,13 +2396,13 @@
     "audit-extract-failed": 1,
     "audit-not-found": 11,
     "empty-text": 10,
-    "sparse-text": 15,
+    "sparse-text": 14,
     "substantive-text": 24
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 33,
-    "remainingUniqueSha256": 61,
+    "processedUniqueSha256": 34,
+    "remainingUniqueSha256": 60,
     "processedPlusRemaining": 94
   }
 }

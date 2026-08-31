@@ -1338,3 +1338,33 @@ Removing the thirty-three processed hashes leaves **61 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - AT - Book 3.pdf`, SHA-256 `fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201`, 25 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 61 selected inventory paths / 61 unique hashes remain untriaged.
+
+## Completed source — AT - Book 3
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - AT - Book 3.pdf` | `fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201` | 25 | sparse-text | pages 1–25 rendered and read | External Study Smart `Notes & MCQ in Parasitology Module 2` compilation marked `New Edition 2020` and scanned by CamScanner. No MUST university, college or department authentication, FHB module label, examiner, sitting, marks or authenticated faculty-key claim is visible; year-labelled historical questions are revision evidence rather than authenticated past papers. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Pages 1, 2, 5 and 10 are covers or dividers. Pages 3–4 contain nineteen historical written prompts with no answers. Pages 6–8 contain ten MCQs, two written completion prompts and fourteen matching prompts; page 9 answers all twenty-six. Pages 11–12 contain twelve MCQs and their answers. Pages 13–18 contain twenty-nine MCQs, thirty-one true/false prompts and seven matching prompts; pages 18–19 answer all sixty-seven. Pages 20–24 contain forty-four MCQs and page 25 answers all forty-four.
+
+The exact boundary is **147 objective prompts (95 conventional MCQs + 31 true/false + 21 matching) / 21 written prompts / 149 prompt-matched printed answer observations / 19 source-absent answers / 0 practical or image prompts / 0 teaching prompts**. The written split is **2 keyed completion prompts + 19 unkeyed historical long-answer prompts**. Reused printed numbers across physically separate sections remain separate prompt occurrences.
+
+The source's numbering defects remain literal: the first entomology set skips Q11–Q12 and prints Q13–Q14; the expanded set begins at Q8 and skips Q18–Q19 and Q37–Q38; and the true/false sequence skips Q31 but prints Q32. Matching order, dated terminology, spelling and academically questionable questions or answer tokens are not repaired.
+
+### Source-first handles and exactly-four-search gate
+
+The 168 physical prompts collapse into eight coherent source-first handles: general parasitology and host-parasite terminology; arthropod classification and morphology; vector transmission mechanisms; mosquitoes and sand flies; flies and myiasis; fleas, lice and bugs; ticks and mites; and arthropod-borne disease/vector control. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is therefore **8 source-first − 8 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-fourth one-path hash is now `sourceProcessed=true`, adding **+168 questions / +149 answers / +0 concepts**. Cumulative triage is **2,895 questions / 2,720 answers / 62 concepts**.
+
+Removing the thirty-four processed hashes leaves **60 selected inventory paths / 60 unique SHA-256s**. Their sorted-newline checksum is `0f219a88931d74323492b438958cd9f94a12d3fe9fc9c548bad8805f85f76ec4`. Remaining audit-review debt is **24 substantive-text / 14 sparse-text / 10 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`34 + 60 = 94`** and path accounting is **`36 + 60 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf`, SHA-256 `5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e`, 10 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 60 selected inventory paths / 60 unique hashes remain untriaged.
