@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Bell, BellRing, Check, Flame, Share2, Trophy, Users, X } from 'lucide-react'
+import { Bell, BellRing, Check, Share2, Target, Trophy, Users, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -293,7 +293,7 @@ export function QuestionOfTheDay() {
         <Panel>
           <PanelHeader
             title={t('Today’s question')}
-            icon={Flame}
+            icon={Target}
             hint={qotd.longest > 0 ? `${t('Longest streak')}: ${qotd.longest}` : undefined}
           />
           <div className="p-5">
@@ -304,7 +304,7 @@ export function QuestionOfTheDay() {
               </div>
             ) : !qotd.question ? (
               <EmptyState
-                icon={Flame}
+                icon={Target}
                 title={t('Nothing to answer right now')}
                 description={t('There is no question available for your cohort yet. Check back soon.')}
               />

@@ -1,8 +1,7 @@
-import { Flame } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { Panel } from '@/components/ui/Panel'
-import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
+import { StreakMark } from '@/components/ui/StreakMark'
 import { useT } from '@/lib/i18n'
 import { useQotd } from '@/lib/useQotd'
 import { cn } from '@/lib/cn'
@@ -22,7 +21,7 @@ export function QuestionOfTheDayCard({ compact = false }: { compact?: boolean })
       <Panel className={cn('flex h-full min-w-0 flex-1 flex-col transition-colors hover:border-ink-3/45', compact ? 'p-3' : 'p-4')}>
         <div className="flex items-start justify-between gap-2">
           <p className="text-[12.5px] font-medium text-ink-2">{t('Question of the Day')}</p>
-          <Icon icon={Flame} size={15} className={qotd.current > 0 ? 'text-primary' : 'text-ink-3'} />
+          <StreakMark size={15} active={qotd.current > 0} />
         </div>
         <div className={cn('flex items-baseline gap-1', compact ? 'mt-1' : 'mt-1.5')}>
           <span className={cn('tnum font-mono font-semibold leading-none tracking-tight text-ink', compact ? 'text-[27px]' : 'text-[32px]')}>

@@ -1097,4 +1097,11 @@ export const AR: Record<string, string> = {
   marked: 'مُصحَّح',
   'Nothing published yet': 'لا شيء منشور بعد',
   'Nothing has been published for your year yet.': 'لم يُنشَر شيء لسنتك الدراسية بعد.',
+  // ---- Study rhythm stat tiles -------------------------------------------
+  answered: 'إجابة',
+  'questions per active day': 'سؤالًا في اليوم النشط',
+  'days with at least one answer': 'يومًا فيه إجابة واحدة على الأقل',
+  'questions answered': 'سؤالًا مُجابًا',
+  'days in a row': 'يومًا متتاليًا',
+  'minutes per sitting': 'دقيقة في الجلسة',
 }

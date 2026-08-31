@@ -36,14 +36,14 @@ export function Dashboard() {
           </div>
         )}
 
-        <div className="w-full max-w-[46rem] min-w-0">
-          <QuestionOfTheDayCard />
-        </div>
-
         <ExamCountdown />
 
         <div className="w-full max-w-[46rem] min-w-0">
           <ProgressRingStack />
+        </div>
+
+        <div className="w-full max-w-[46rem] min-w-0">
+          <QuestionOfTheDayCard />
         </div>
 
         <div className="w-full max-w-[46rem] min-w-0">

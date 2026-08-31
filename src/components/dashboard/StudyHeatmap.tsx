@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { Activity } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
+import { StreakDots } from '@/components/ui/StreakDots'
 import { bySession, currentStreak, dailyCounts, longestStreak, type DayCount } from '@/data/attemptStats'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
 import { formatDayLabel } from '@/lib/format'
@@ -10,7 +11,6 @@ import { useT } from '@/lib/i18n'
 const DAY_MS = 86_400_000
 const WEEKS = 17
 const DAYS = WEEKS * 7
-const WEEKDAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const SCALE = [
   'var(--color-scale-0)',
   'var(--color-scale-1)',
@@ -89,16 +89,6 @@ export function StudyHeatmap() {
   // runs oldest-to-newest and ends today.
   const weeklyVolume = cells.slice(-7).reduce((sum, cell) => sum + cell.attempts, 0)
 
-  // The weekday that has pulled the most answers across the whole window —
-  // "useful" only once there is more than a few days to average over.
-  const bestWeekday = useMemo(() => {
-    const totals = new Array<number>(7).fill(0)
-    for (const cell of cells) totals[cell.day.getDay()] += cell.attempts
-    const max = Math.max(...totals)
-    if (max <= 0) return null
-    return WEEKDAY_NAMES[totals.indexOf(max)]
-  }, [cells])
-
   // Mean wall-clock length of a sitting, from the sessions the log actually
   // timed — a station ticked with no clock running contributes nothing here.
   const avgSessionMinutes = useMemo(() => {
@@ -116,7 +106,12 @@ export function StudyHeatmap() {
         action={
           <div className="flex items-center gap-1.5">
             <Badge tone="primary">{totalAnswered} {t('answered')}</Badge>
-            {streak > 0 && <Badge tone="success">{streak}{t('-day streak')}</Badge>}
+            {streak > 0 && (
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-primary-line bg-primary-tint py-1 ps-2.5 pe-3">
+                <StreakDots days={[...Array<'landed'>(Math.min(streak, 5)).fill('landed'), 'today']} size={6} />
+                <span className="text-[11.5px] font-semibold text-primary-strong">{streak}{t('-day streak')}</span>
+              </span>
+            )}
           </div>
         }
       />
@@ -177,21 +172,23 @@ export function StudyHeatmap() {
             <span>{t('More')}</span>
           </div>
         </div>
-        <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-4 lg:grid-cols-7">
+        <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-3 lg:grid-cols-5">
           {[
-            [t('Daily average'), activeDays ? `${dailyAverage} ${t('a day')}` : '—'],
-            [t('Days learned'), cells.length ? `${Math.round((activeDays / cells.length) * 100)}%` : '—'],
-            [t('Longest streak'), `${longest} ${t('days')}`],
-            [t('Current streak'), `${streak} ${t('days')}`],
-            [t('This week'), `${weeklyVolume} ${t('answered')}`],
-            [t('Best day'), bestWeekday ? t(bestWeekday) : '—'],
-            [t('Avg. session'), avgSessionMinutes ? `${avgSessionMinutes} ${t('min')}` : '—'],
-          ].map(([label, value]) => (
+            [t('Daily average'), activeDays ? String(dailyAverage) : '—', t('questions per active day')],
+            [t('Days learned'), cells.length ? `${activeDays} / ${cells.length}` : '—', t('days with at least one answer')],
+            [t('This week'), String(weeklyVolume), t('questions answered')],
+            [t('Longest streak'), `${longest}`, t('days in a row')],
+            [t('Avg. session'), avgSessionMinutes ? String(avgSessionMinutes) : '—', t('minutes per sitting')],
+          ].map(([label, value, unit]) => (
             <div key={label} className="bg-surface px-3 py-2.5">
-              <p className="tnum font-mono text-[14px] font-semibold text-ink">{value}</p>
-              <p className="mt-0.5 text-[11px] text-ink-3">{label}</p>
+              <p className="text-[11px] font-medium text-ink-2">{label}</p>
+              <p className="tnum mt-0.5 font-mono text-[16px] font-semibold leading-none text-ink">{value}</p>
+              <p className="mt-1 text-[10.5px] leading-tight text-ink-3">{unit}</p>
             </div>
           ))}
+          {/* keeps the grid's last row from showing the line-coloured gap
+              backdrop where five tiles don't fill the 2- and 3-column layouts */}
+          <div className="bg-surface lg:hidden" aria-hidden />
         </div>
       </div>
     </Panel>
