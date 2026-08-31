@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14, Q15, Q16, Q17, Q18 and Q19 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13 and Q20 are content/key-form holds. Q14 through Q19 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
 
 ## confidence
 0.55
@@ -709,6 +709,61 @@ All 23 pages were previously rendered and visually read under the governed FHB10
 
 ## confidence
 0.75
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_875c205531a585cd5b91
+
+## title
+Beta-Lactam and Vancomycin
+
+## institution
+Faculty of Medicine, Ain Shams University; Dr Esraa Mostafa Elnahas; no authenticated MUST institution, department, examiner, sitting or faculty-key declaration
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025-02-22
+
+## accessed_at
+2026-09-01
+
+## page_count
+40
+
+## sha256
+875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb
+
+## rights
+Locally supplied external-faculty teaching material; internal curriculum authoring only.
+
+## qualification
+All 40 pages were previously rendered and visually read under the governed FHB102-2 source triage. Pages 37–39 were directly rechecked for Q20. Page 37 introduces vancomycin; page 38 explicitly places red man syndrome under vancomycin adverse effects and attributes it to histamine release with rapid infusion. This directly contradicts the anonymous bank's printed B, teicoplanin, because the bank offers vancomycin as option C. The source is teaching evidence only and does not authenticate or replace the printed bank key.
+
+## confidence
+0.85
 
 ## is_assessment
 no
