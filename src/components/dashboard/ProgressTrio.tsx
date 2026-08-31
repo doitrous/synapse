@@ -1,18 +1,15 @@
-import { useMemo, type CSSProperties, type ReactNode } from 'react'
-import { TrendingUp } from 'lucide-react'
+import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from 'react'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
-import { Icon } from '@/components/ui/Icon'
-import { TargetRing } from '@/components/ui/TargetRing'
 import { cn } from '@/lib/cn'
-import { useT } from '@/lib/i18n'
+import { clamp } from '@/lib/format'
+import { useI18n, useT } from '@/lib/i18n'
 import { masteryBand } from '@/data/mastery'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
-import { summariseSkills } from '@/data/practicalProgress'
-import { dailyCounts, distinctItems, firstAttemptSplit } from '@/data/attemptStats'
+import { distinctItems, firstAttemptSplit } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { useAttemptHistory, useAttemptTotals } from '@/lib/useAttemptLog'
+import { useAttemptHistory } from '@/lib/useAttemptLog'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { useLivePracticals } from '@/lib/useLivePracticals'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
@@ -81,43 +78,164 @@ function ReadinessScale({ value }: { value: number }) {
 }
 
 /**
- * A trio metric drawn as the brand's own ring device.
- *
- * Accuracy is the hit — how many of the shots landed — so it takes the
- * crimson tone; coverage ("used") is the long-horizon field being explored,
- * so it takes the quiet blue. Both are already 0–100% meters, so the ring's
- * earned dot falls out for free: a perfect accuracy or a fully-used bank
- * completes its own mark exactly when it should.
+ * Three completion metrics drawn as one target: concentric rings closing on a
+ * shared bullseye instead of a row of separate meters. Ring order runs
+ * outside-in from the widest field to the narrowest — bank explored, then
+ * practicals attempted, then essays marked — and the crimson centre dot is
+ * earned only when all three rings close. Accuracy is a score, not a goal, so
+ * it rides in the legend as text rather than claiming a ring.
  */
-function RingReading({ value, label, tone = 'primary', compact = false }: { value: number; label: string; tone?: 'primary' | 'accent'; compact?: boolean }) {
+function RingStack({ rings, allEarned }: { rings: { value: number; color: string }[]; allEarned: boolean }) {
+  const { dir } = useI18n()
+  const size = 148
+  const center = size / 2
+  const radii = [62, 47, 32]
+  const thickness = 9
+  const [sweep, setSweep] = useState(false)
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setSweep(true))
+    return () => cancelAnimationFrame(id)
+  }, [])
+
+  const svgTransform = dir === 'rtl' ? 'rotate(-90deg) scaleX(-1)' : 'rotate(-90deg)'
+
   return (
-    <TargetRing
-      value={value}
-      max={100}
-      tone={tone}
-      size={compact ? 104 : 108}
-      thickness={7.5}
-      label={label}
-      aria-label={`${value}% ${label}`}
-    />
+    <div className="relative inline-grid shrink-0 place-items-center" style={{ width: size, height: size }} aria-hidden>
+      <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} style={{ transform: svgTransform, transformOrigin: '50% 50%' }}>
+        <circle cx={center} cy={center} r={20} fill="none" stroke="var(--color-grid-major)" strokeWidth="1" />
+        {rings.map((ring, i) => {
+          const radius = radii[i]
+          const circumference = 2 * Math.PI * radius
+          const pct = clamp(ring.value, 0, 100)
+          return (
+            <g key={i}>
+              <circle cx={center} cy={center} r={radius} fill="none" stroke="var(--color-inset)" strokeWidth={thickness} />
+              <circle
+                cx={center}
+                cy={center}
+                r={radius}
+                fill="none"
+                stroke={ring.color}
+                strokeWidth={thickness}
+                strokeLinecap="round"
+                strokeDasharray={circumference}
+                strokeDashoffset={sweep ? circumference * (1 - pct / 100) : circumference}
+                style={{ transition: 'stroke-dashoffset 700ms var(--ease-out-quint)' }}
+              />
+            </g>
+          )
+        })}
+      </svg>
+      {allEarned && (
+        <span
+          className="target-ring-dot pointer-events-none absolute inset-0 m-auto rounded-full"
+          style={{ width: 12, height: 12, backgroundColor: 'var(--color-primary)' }}
+        />
+      )}
+    </div>
   )
 }
 
-function DualReading({ accuracy, used, detail, compact = false }: { accuracy: number; used: number; detail: string; compact?: boolean }) {
+/**
+ * The dashboard's single progress panel: the ring stack beside a legend, one
+ * row per domain with its counts (and, for the bank, first-attempt accuracy
+ * as a note). Replaces the old three-card, six-ring row.
+ */
+export function ProgressRingStack() {
   const t = useT()
+  const questions = usePublishedQuestions()
+  const history = useAttemptHistory()
+  const { progress } = usePracticalProgress()
+  const { osceStations, clinicalCases, labImaging } = useLivePracticals()
+  const essays = useLiveEssays()
+  const { answers } = useEssayAnswers()
+
+  const qbankRecords = history.records.filter((record) => record.surface === 'qbank' || record.surface === 'room')
+  const seen = distinctItems(qbankRecords)
+  const bankTotal = questions.length
+  const bankPct = bankTotal ? Math.round((Math.min(seen, bankTotal) / bankTotal) * 100) : 0
+  const firstAccuracy = firstAttemptSplit(qbankRecords).first.accuracy
+
+  const practicalTotal = osceStations.length + clinicalCases.length + labImaging.length
+  const attempted = Object.keys(progress.stations).length
+    + Object.values(progress.cases).filter((entry) => entry.status !== 'not-started').length
+    + Object.values(progress.labs).filter((entry) => entry.done > 0).length
+  const practicalPct = practicalTotal ? Math.round((attempted / practicalTotal) * 100) : 0
+
+  const essayTotal = essays.length
+  let markedCount = 0
+  for (const essay of essays) {
+    const covered = coveredCount(answers[essay.id]?.ticked ?? null, essay.keyPoints.map((point) => point.id))
+    if (covered) markedCount += 1
+  }
+  const essayPct = essayTotal ? Math.round((markedCount / essayTotal) * 100) : 0
+
+  const rows = [
+    {
+      color: 'var(--color-accent)',
+      label: t('Question bank'),
+      pct: bankPct,
+      present: bankTotal > 0,
+      detail: `${seen.toLocaleString()} / ${bankTotal.toLocaleString()} ${t('questions')}`,
+      note: firstAccuracy === null ? null : `${Math.round(firstAccuracy * 100)}% ${t('first attempt')}`,
+    },
+    {
+      color: 'var(--color-accent-soft)',
+      label: t('Practical'),
+      pct: practicalPct,
+      present: practicalTotal > 0,
+      detail: `${attempted} / ${practicalTotal} ${t('items attempted')}`,
+      note: null,
+    },
+    {
+      color: 'var(--color-primary)',
+      label: t('Essay'),
+      pct: essayPct,
+      present: essayTotal > 0,
+      detail: `${markedCount} / ${essayTotal} ${t('marked')}`,
+      note: null,
+    },
+  ]
+
+  const shown = rows.filter((row) => row.present)
+  if (!shown.length) {
+    return (
+      <Panel className="p-4">
+        <p className="text-[12.5px] font-medium text-ink-2">{t('Progress')}</p>
+        <p className="mt-1.5 text-[12px] text-ink-3">{t('Nothing has been published for your year yet.')}</p>
+      </Panel>
+    )
+  }
+
+  const allEarned = shown.every((row) => row.pct >= 100)
+
   return (
-    <div>
-      <div className={cn('grid grid-cols-[1fr_auto_1fr] items-center', compact ? 'gap-2' : 'gap-3 py-1')}>
-        <div className="grid place-items-center">
-          <RingReading value={accuracy} label={t('Correct')} tone="primary" compact={compact} />
-        </div>
-        <div className={cn('w-px bg-line', compact ? 'h-16' : 'h-20')} aria-hidden />
-        <div className="grid place-items-center">
-          <RingReading value={used} label={t('Used')} tone="accent" compact={compact} />
+    <Panel className="p-4">
+      <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+        <RingStack rings={rows.map((row) => ({ value: row.present ? row.pct : 0, color: row.color }))} allEarned={allEarned} />
+        <div className="min-w-0 flex-1 basis-52" role="list" aria-label={t('Progress')}>
+          {rows.map((row) => (
+            <div
+              key={row.label}
+              role="listitem"
+              className="flex items-baseline gap-2.5 border-b border-line py-2.5 last:border-b-0 first:pt-1 last:pb-1"
+            >
+              <span className="relative top-[1px] size-2.5 shrink-0 rounded-full" style={{ backgroundColor: row.color }} aria-hidden />
+              <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-ink">{row.label}</span>
+              {row.present ? (
+                <>
+                  {row.note && <span className="hidden text-[11px] text-ink-3 sm:inline">{row.note}</span>}
+                  <span className="text-[11.5px] text-ink-3">{row.detail}</span>
+                  <span className="tnum w-10 text-right font-mono text-[13px] font-semibold text-ink">{row.pct}%</span>
+                </>
+              ) : (
+                <span className="text-[11.5px] text-ink-3">{t('Nothing published yet')}</span>
+              )}
+            </div>
+          ))}
         </div>
       </div>
-      <p className={cn('text-center font-mono text-ink-3', compact ? 'mt-0.5 text-[9.5px] leading-none' : 'mt-2 text-[10.5px]')}>{detail}</p>
-    </div>
+    </Panel>
   )
 }
 
@@ -207,149 +325,5 @@ export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
     >
       <ReadinessScale value={coverage} />
     </StatBox>
-  )
-}
-
-export function QuestionBankCard({ compact = false }: { compact?: boolean }) {
-  const t = useT()
-  const questions = usePublishedQuestions()
-  const { totals } = useAttemptTotals()
-  const history = useAttemptHistory()
-
-  const qbankRecords = history.records.filter((record) => record.surface === 'qbank' || record.surface === 'room')
-  const seen = distinctItems(qbankRecords)
-  const bankTotal = questions.length
-  const used = bankTotal ? Math.round((Math.min(seen, bankTotal) / bankTotal) * 100) : 0
-  // First-attempt accuracy, because repeat accuracy mostly measures recall of
-  // the answer rather than what the student knows.
-  const firstAccuracy = firstAttemptSplit(qbankRecords).first.accuracy
-  const thisWeek = dailyCounts(qbankRecords, 7).reduce((sum, day) => sum + day.attempts, 0)
-
-  if (!bankTotal) {
-    return <StatBox label={t('Question bank')} value="" sub={t('No questions have been published yet.')} compact={compact} />
-  }
-
-  return (
-    <StatBox
-      label={t('Question bank')}
-      value=""
-      sub={t('First attempt · whole bank')}
-      footer={thisWeek > 0 ? (
-        <span className="inline-flex items-center gap-1 text-[11.5px] font-medium text-success">
-          <Icon icon={TrendingUp} size={13} />
-          {thisWeek} {t('this week')}
-        </span>
-      ) : undefined}
-      compact={compact}
-    >
-      <DualReading
-        accuracy={firstAccuracy === null ? 0 : Math.round(firstAccuracy * 100)}
-        used={used}
-        detail={totals.attempts
-          ? `${seen.toLocaleString()} / ${bankTotal.toLocaleString()} ${t('questions')}`
-          : t('Not answered yet')}
-        compact={compact}
-      />
-    </StatBox>
-  )
-}
-
-export function PracticalSkillsCard({ compact = false }: { compact?: boolean }) {
-  const t = useT()
-  const { progress } = usePracticalProgress()
-  const { osceStations, clinicalCases, labImaging } = useLivePracticals()
-
-  const total = osceStations.length + clinicalCases.length + labImaging.length
-  const attempted = Object.keys(progress.stations).length
-    + Object.values(progress.cases).filter((entry) => entry.status !== 'not-started').length
-    + Object.values(progress.labs).filter((entry) => entry.done > 0).length
-  const skills = summariseSkills(progress, 0)
-
-  if (!total) {
-    return <StatBox label={t('Practical')} value="" sub={t('No practical items have been published yet.')} compact={compact} />
-  }
-
-  const stationRuns = Object.values(progress.stations)
-  // The mean of each station's best share of its own marks. Self-scored, so it
-  // is labelled "best score" rather than accuracy.
-  const bestShare = stationRuns.length
-    ? Math.round((stationRuns.reduce((sum, run) => sum + (run.outOf ? run.bestMarks / run.outOf : 0), 0) / stationRuns.length) * 100)
-    : 0
-
-  return (
-    <StatBox
-      label={t('Practical')}
-      value=""
-      sub={skills.ready ? `${skills.ready} ${t('skills marked ready')}` : t('Self-scored · your own mark scheme')}
-      compact={compact}
-    >
-      <DualReading
-        accuracy={bestShare}
-        used={Math.round((attempted / total) * 100)}
-        detail={attempted
-          ? `${attempted} / ${total} ${t('items attempted')}`
-          : t('Not started yet')}
-        compact={compact}
-      />
-    </StatBox>
-  )
-}
-
-/**
- * Written questions, marked the same way a practical station is: the student
- * ticks the key points they actually covered, and that ratio stands in for
- * accuracy. "Used" is how many of the published essays have been marked at
- * least once, not merely opened — an essay written but never checked has not
- * yet told the student anything about how they did.
- */
-export function EssayCard({ compact = false }: { compact?: boolean }) {
-  const t = useT()
-  const essays = useLiveEssays()
-  const { answers } = useEssayAnswers()
-
-  const total = essays.length
-  if (!total) {
-    return <StatBox label={t('Essay')} value="" sub={t('No written questions have been published yet.')} compact={compact} />
-  }
-
-  let markedCount = 0
-  let coverageSum = 0
-  for (const essay of essays) {
-    const covered = coveredCount(answers[essay.id]?.ticked ?? null, essay.keyPoints.map((point) => point.id))
-    if (!covered) continue
-    markedCount += 1
-    coverageSum += covered.total ? covered.covered / covered.total : 0
-  }
-  const accuracy = markedCount ? Math.round((coverageSum / markedCount) * 100) : 0
-  const used = Math.round((markedCount / total) * 100)
-
-  return (
-    <StatBox
-      label={t('Essay')}
-      value=""
-      sub={markedCount ? t('Self-marked · key points covered') : t('Self-scored · your own mark scheme')}
-      compact={compact}
-    >
-      <DualReading
-        accuracy={accuracy}
-        used={used}
-        detail={markedCount ? `${markedCount} / ${total} ${t('marked')}` : t('Not marked yet')}
-        compact={compact}
-      />
-    </StatBox>
-  )
-}
-
-export function ProgressTrio({ layout = 'row' }: { layout?: 'row' | 'stacked' }) {
-  const compact = layout === 'stacked'
-
-  return (
-    <div className={cn('grid gap-4', compact ? 'h-full grid-rows-3' : 'sm:grid-cols-3')}>
-      <ExamReadinessCard compact={compact} />
-
-      <QuestionBankCard compact={compact} />
-
-      <PracticalSkillsCard compact={compact} />
-    </div>
   )
 }

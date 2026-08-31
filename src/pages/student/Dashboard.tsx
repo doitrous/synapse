@@ -3,7 +3,7 @@ import { PageContainer } from '@/components/shell/Page'
 import { TodaysTarget } from '@/components/dashboard/TodaysTarget'
 import { ExamCountdown } from '@/components/dashboard/ExamCountdown'
 import { QuestionOfTheDayCard } from '@/components/dashboard/QuestionOfTheDayCard'
-import { EssayCard, PracticalSkillsCard, QuestionBankCard } from '@/components/dashboard/ProgressTrio'
+import { ProgressRingStack } from '@/components/dashboard/ProgressTrio'
 import { StudyHeatmap } from '@/components/dashboard/StudyHeatmap'
 import { useDueReviewSummary } from '@/components/dashboard/DueReviews'
 import { useI18n } from '@/lib/i18n'
@@ -42,10 +42,8 @@ export function Dashboard() {
 
         <ExamCountdown />
 
-        <div className="grid w-full max-w-[46rem] min-w-0 gap-3 sm:grid-cols-3">
-          <QuestionBankCard compact />
-          <EssayCard compact />
-          <PracticalSkillsCard compact />
+        <div className="w-full max-w-[46rem] min-w-0">
+          <ProgressRingStack />
         </div>
 
         <div className="w-full max-w-[46rem] min-w-0">

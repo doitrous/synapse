@@ -1090,4 +1090,11 @@ export const AR: Record<string, string> = {
   'Search title, note, category, reporter': 'ابحث في العنوان والملاحظة والفئة والمُبلِّغ',
   'Media requests reviewers handed up because they could not complete them safely.': 'طلبات وسائط رفعها المراجِعون لتعذّر إكمالها بأمان.',
   'Why are you returning, reassigning or resolving this?': 'لماذا تعيد هذا أو تعيد تعيينه أو تحلّه؟',
+  // ---- Dashboard progress ring stack ------------------------------------
+  Progress: 'التقدّم',
+  'first attempt': 'من أول محاولة',
+  'items attempted': 'عنصرًا مُجرَّبًا',
+  marked: 'مُصحَّح',
+  'Nothing published yet': 'لا شيء منشور بعد',
+  'Nothing has been published for your year yet.': 'لم يُنشَر شيء لسنتك الدراسية بعد.',
 }
