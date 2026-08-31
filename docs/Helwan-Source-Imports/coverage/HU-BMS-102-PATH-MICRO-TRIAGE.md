@@ -26717,7 +26717,6 @@ The exact next unprocessed BMS-102 record is tier-9 `src_e3bcf89c186c44f9b3d0` �
 written/image/practical boundary, same-source/prior collapse, eligible gate, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
 
-## Family 263 — Dr El-Sawy keyed receptor binding
 ## Family 263 — Dr El-Sawy keyed receptor binding, effectiveness, safety, and antagonism bank
 
 ### Source identity, exhaustive native/rendered boundary, and authority
