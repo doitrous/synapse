@@ -2327,11 +2327,11 @@ The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/0
 
 **BLOCKED — S1 cannot be approved:** 19 selected inventory paths / 19 unique hashes remain untriaged.
 
-## Partial source checkpoint — `EOM - Pharmacology FHB102-2 Final all`, pages 1–80
+## Partial source checkpoint — `EOM - Pharmacology FHB102-2 Final all`, pages 1–100
 
 | Source path | SHA-256 | Source pages | Audit class | Bounded visual read | Provenance / authority |
 |---|---|---:|---|---|---|
-| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf` | `1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a` | 168 | sparse-text | pages 1–80 rendered and read | Concatenated pharmacology teaching/reference carrier assembled under an `EOM` / `Final all` filename. The reviewed pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf` | `1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a` | 168 | sparse-text | pages 1–100 rendered and read | Concatenated pharmacology teaching/reference carrier assembled under an `EOM` / `Final all` filename. The reviewed pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration. |
 
 ### Exact bounded boundary and handle state
 
@@ -2343,12 +2343,14 @@ The latest pages 41–60 tranche contains clindamycin mechanism, uses, therapeut
 
 The latest pages 61–80 tranche continues folate-antagonist teaching through sulfonamides, trimethoprim and co-trimoxazole on pages 61–70; page 71 is a closing thank-you separator; pages 72–74 introduce nucleoprotein inhibition, protein synthesis and DNA replication; and pages 75–80 cover fluoroquinolone introduction, mechanism, spectrum, pharmacokinetics, clinical uses and adverse effects. The exact tranche has **19 teaching-reference pages / 1 non-assessment closing separator**.
 
-The exact pages 61–80 tranche is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 19 teaching-reference pages / 1 non-assessment closing separator**. The cumulative pages 1–80 boundary is therefore **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 77 teaching-reference pages / 3 non-assessment closing separators**. With no assessment prompt, the source-first assessment handle count is **0**, so **0 accepted × 4 = 0 searches** and **0 live / 0 pending / 0 new**. No answer is inferred and no declarative statement is reverse-engineered into a question.
+The latest pages 81–100 tranche covers rifampicin mechanism and uses on pages 81–84; metronidazole mechanism, uses and adverse effects on pages 85–89; treatment pharmacokinetics, stewardship and antimicrobial resistance on pages 90–93; a multilingual thank-you separator on page 94; a nucleoprotein-inhibitor recap on pages 95–97; and renewed fluoroquinolone mechanism and classification teaching on pages 98–100. The exact tranche has **19 teaching-reference pages / 1 non-assessment closing separator**.
+
+The exact pages 81–100 tranche is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 19 teaching-reference pages / 1 non-assessment closing separator**. The cumulative pages 1–100 boundary is therefore **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 96 teaching-reference pages / 4 non-assessment closing separators**. With no assessment prompt, the source-first assessment handle count is **0**, so **0 accepted × 4 = 0 searches** and **0 live / 0 pending / 0 new**. No answer is inferred and no declarative statement is reverse-engineered into a question.
 
 ### Partial-state reconciliation and next page
 
-This is not a completed source family: only pages **1–80 of 168** are adjudicated, pages **81–168** remain unread in this checkpoint, and the exact resume boundary is **page 81**. The hash remains `sourceProcessed=false` and stays in the remaining set. The latest-tranche and cumulative partial delta is **+0 questions / +0 answers / +0 concepts**, leaving cumulative triage at **5,207 questions / 4,974 answers / 62 concepts**.
+This is not a completed source family: only pages **1–100 of 168** are adjudicated, pages **101–168** remain unread in this checkpoint, and the exact resume boundary is **page 101**. The hash remains `sourceProcessed=false` and stays in the remaining set. The latest-tranche and cumulative partial delta is **+0 questions / +0 answers / +0 concepts**, leaving cumulative triage at **5,207 questions / 4,974 answers / 62 concepts**.
 
 Processed/remaining arithmetic therefore does not change: **75 processed unique hashes + 19 remaining unique hashes = 94**, with **77 processed paths + 19 remaining paths = 96**. The remaining checksum stays `720841e613b1513d016b3024fdac13b5f0d990d41c54f195330de4a1a93aa925`, and remaining audit debt stays **7 substantive-text / 1 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed**.
 
-**BLOCKED — S1 cannot be approved:** current source resumes at page 81; 19 selected inventory paths / 19 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** current source resumes at page 101; 19 selected inventory paths / 19 unique hashes remain untriaged.
