@@ -11,10 +11,13 @@ const trypConceptId = 'CON-INF-BEDAA24AD0E037'
 const trypArticleId = 'ART-INF-MUST-FHB1022-AFRICAN-TRYPANOSOMIASIS-STAGE'
 const lymeConceptId = 'CON-INF-D077623ED9EADA'
 const lymeArticleId = 'ART-INF-MUST-FHB1022-LYME-IXODES'
+const relapsingConceptId = 'CON-INF-0C6E9F7F6C60E2'
+const relapsingArticleId = 'ART-INF-MUST-FHB1022-EPIDEMIC-RELAPSING-FEVER'
 const assessmentResourceId = 'src_b9989e9ef3c314f6c771'
 const teachingResourceId = 'src_5c62279de4964083aecb'
 const definitionResourceId = 'src_6fb474b2c5871480abef'
 const ticksResourceId = 'src_08be9a1018b73dcd7c3'
+const liceResourceId = 'src_62dda2ba1dad2602f5db'
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -37,6 +40,12 @@ const outputs = {
   'docs/MUST-Source-Imports/concept/FHB-102-2-lyme-ixodes-concepts.md': lymeConcepts(),
   'docs/MUST-Source-Imports/article/FHB-102-2-lyme-ixodes-articles.md': lymeArticles(),
   'docs/MUST-Source-Imports/question/FHB-102-2-lyme-ixodes-mcq.md': lymeQuestions(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-epidemic-relapsing-fever-claims.md': relapsingClaims(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-epidemic-relapsing-fever-citations.md': relapsingCitations(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-epidemic-relapsing-fever-spans.md': relapsingSpans(),
+  'docs/MUST-Source-Imports/concept/FHB-102-2-epidemic-relapsing-fever-concepts.md': relapsingConcepts(),
+  'docs/MUST-Source-Imports/article/FHB-102-2-epidemic-relapsing-fever-articles.md': relapsingArticles(),
+  'docs/MUST-Source-Imports/question/FHB-102-2-epidemic-relapsing-fever-mcq.md': relapsingQuestions(),
   'docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md': coverage(),
 }
 
@@ -96,7 +105,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5 and Q7 are clean; Q2, Q3, Q4 and Q6 are held because their printed keys conflict with the wording or department evidence.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7 and Q8 are clean; Q2, Q3, Q4 and Q6 are held because their printed keys conflict with the wording or department evidence.
 
 ## confidence
 0.55
@@ -268,6 +277,61 @@ Officially branded MUST Faculty of Medicine Parasitology Department teaching dec
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+${liceResourceId}
+
+## title
+FHB102-2 Vectors of Disease Transmission — lice, fleas and bugs
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Parasitology Department; Eman El-Wakil, MD
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/4.Lice, Fleas & Bugs.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-08-31
+
+## page_count
+79
+
+## sha256
+62dda2ba1dad2602f5db3d4401fe589b853357b3a1105d39ce6c6f57356d53df
+
+## rights
+Faculty-distributed university teaching material; internal curriculum use.
+
+## qualification
+Officially branded MUST Faculty of Medicine FHB102-2 teaching deck. The cover names Eman El-Wakil, MD, while the PDF metadata names Winner; the visible teaching content, rather than an inferred metadata resolution, governs this Draft slice.
+
+## confidence
+0.9
+
+## is_assessment
+no
 `
 }
 
@@ -276,7 +340,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 4,
+    count: 5,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -323,6 +387,19 @@ function corpusSourceIndex() {
         sha256: '08be9a1018b73dcd7c3d97ef1e0502bcfa2c401d81aec2672c3e1a8e226cb955',
         processingStatus: 'fully_governed',
         pageCount: 40,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
+      },
+      [liceResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/4.Lice, Fleas & Bugs.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/4.Lice, Fleas & Bugs.pdf'],
+        sha256: '62dda2ba1dad2602f5db3d4401fe589b853357b3a1105d39ce6c6f57356d53df',
+        processingStatus: 'fully_governed',
+        pageCount: 79,
         languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
@@ -2316,6 +2393,695 @@ Printed source key: Q7 = B. The printed key agrees with the university teaching 
 `
 }
 
+function relapsingClaims() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-RELAPSING-01
+
+## concept_id
+${relapsingConceptId}
+
+## subject
+Louse-borne epidemic relapsing fever
+
+## predicate
+is_transmitted_by
+
+## object
+the body louse Pediculus humanus corporis; Borrelia recurrentis causes recurrent spirochaetemia with a 3–6-day febrile period followed by a 5–10-day afebrile period
+
+## display_text
+Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis; Borrelia recurrentis causes recurrent spirochaetemia with a 3–6-day febrile period followed by a 5–10-day afebrile period.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+organism: Borrelia recurrentis
+vector: Pediculus humanus corporis
+`
+}
+
+function relapsingCitations() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-RELAPSING-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-RELAPSING-01
+
+## resource_id
+${liceResourceId}
+
+## evidence_role
+local_curriculum
+
+## support_span
+Pediculus humanus corporis (Body louse); Epidemic relapsing fever; Borrelia recurrentis (Spirochaetes); crushing the louse on the skin or mucous membrane.
+
+## locator_type
+page
+
+## locator_page
+17
+
+## locator_section
+Order Anoplura — diseases transmitted by the body louse
+
+## locator_detail
+PDF page 17, body-louse disease table, epidemic-relapsing-fever row.
+
+## context_note
+The university-branded FHB102-2 teaching table directly names the body louse and Borrelia recurrentis for epidemic relapsing fever.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-RELAPSING-02
+
+## claim_id
+CLM-INF-MUST-FHB1022-RELAPSING-01
+
+## resource_id
+${liceResourceId}
+
+## evidence_role
+local_curriculum
+
+## support_span
+Recurrent fever corresponding to spirochaetemia; 3–6 days febrile period followed by 5–10 days afebrile period; a single relapse characterizes louse-borne relapsing fever; headache, boneache and rash.
+
+## locator_type
+page
+
+## locator_page
+26
+
+## locator_section
+Louse-borne epidemic relapsing fever — clinical pattern
+
+## locator_detail
+PDF page 26, clinical bullets matching the Q8 time course and symptoms.
+
+## context_note
+The clinical slide directly matches the stem's spirochaetemia, fever interval, headache, bony aches and rash.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+`
+}
+
+function relapsingSpans() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-RELAPSING-01
+
+## article_id
+${relapsingArticleId}
+
+## section_id
+art-inf-must-fhb1022-epidemic-relapsing-fever-definition
+
+## text
+Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis. Recurrent spirochaetemia produces a 3–6-day febrile period followed by a 5–10-day afebrile period.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-RELAPSING-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-RELAPSING-01
+CIT-INF-MUST-FHB1022-RELAPSING-02
+`
+}
+
+function relapsingConcepts() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+${relapsingConceptId}
+
+## label
+Body louse vector of epidemic relapsing fever
+
+## canonical_key
+parasitology.epidemic-relapsing-fever.body-louse-vector
+
+## aliases
+Louse-borne relapsing fever vector
+Pediculus humanus corporis and Borrelia recurrentis
+Epidemic relapsing fever transmission
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis. Borrelia recurrentis produces recurrent spirochaetemia with a 3–6-day febrile period followed by a 5–10-day afebrile period.
+
+## explicit_objective
+Identify the body louse as the vector when a Sudan epidemic vignette describes spirochaetemia with 3–6 febrile days followed by 5–10 afebrile days.
+
+## pitfalls
+Confusing louse-borne epidemic relapsing fever with flea-borne disease or selecting the head louse despite the explicit body-louse association.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Louse-borne disease
+
+## nanotopic
+
+
+## modules
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > Arthropods and vectors > Louse-borne disease
+
+## article_ids
+${relapsingArticleId}
+
+## related_article_ids
+${articleId}
+${lymeArticleId}
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+${liceResourceId}
+${assessmentResourceId}
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.65
+
+## exam_weight_by_year
+MUST_Y1=0.65
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.65
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-RELAPSING-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+${assessmentResourceId} | tier 3 | undated | p2 Q8; printed answer p5
+${liceResourceId} | tier 2 | undated | pp17,25–26 direct university teaching
+
+## original_wording
+Q8 describes a Sudan epidemic with 3–6 febrile days, 5–10 afebrile days, headache, bony aches, rash and blood-film spirochaetes, then asks for the vector; printed key A, body louse.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Q8. Its printed A agrees with the university lecture's Pediculus humanus corporis association. Q2, Q3, Q4 and Q6 remain separate authoring holds.
+
+## uncertainty
+The source bank contains punctuation and grammar defects; the Draft student-facing record standardises them without changing the tested meaning, option order or answer.
+
+## evidence_gaps
+The source set is local curriculum evidence. Independent standard-reference review remains required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+microtopicId: The canonical Parasitology taxonomy stops at the Arthropods and vectors topic for this lane; the narrower curriculum phrase is retained in module_subject rather than inventing a node.
+nanotopicId: No verified nanotopic below the selected discipline node exists for this concept.
+approvedFileResourceIds: Neither locally supplied PDF has been rights-cleared as a student-downloadable file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed FHB-102-2 evidence; no extraction occurrence record was minted.
+sourceCandidateIds: Searches for epidemic relapsing fever body-louse vector, Pediculus humanus corporis, Borrelia recurrentis, the fever interval and the exact clinical stem returned no live or pending record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after the first review is completed.
+relationships: This bounded slice has no necessary evidence-backed typed relation record; related reading points to prior local vector-transmission articles.
+`
+}
+
+function relapsingArticles() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+${relapsingArticleId}
+
+## title
+Body-louse transmission of epidemic relapsing fever
+
+## arabic_title
+
+
+## aliases
+Louse-borne epidemic relapsing fever
+Pediculus humanus corporis vector
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Louse-borne disease
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > Arthropods and vectors > Louse-borne disease
+
+## summary
+Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis. A Sudan vignette with recurrent spirochaetemia and a 3–6-day febrile period followed by a 5–10-day afebrile period points to this vector.
+
+## sections
+### Definition
+Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis. Recurrent spirochaetemia produces a 3–6-day febrile period followed by a 5–10-day afebrile period.
+
+### Mechanism
+The causative spirochaete is Borrelia recurrentis. Transmission occurs when an infected body louse is crushed on skin or mucous membrane, releasing organisms from its body fluids.
+
+### Key determinants
+Sudan exposure, an epidemic warning, recurrent fever, headache, bony aches, rash and spirochaetes seen during the febrile period form the recognition pattern. The interval between fever and afebrile periods identifies louse-borne epidemic relapsing fever.
+
+### Clinical significance
+Recognising the syndrome first allows the vector to be selected from morphologically and epidemiologically unrelated arthropod distractors.
+
+### Common misconceptions
+Do not choose a flea merely because it is an ectoparasite. The epidemic relapsing-fever pattern in this question is specifically linked to the body louse.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis.
+
+## lose_the_mark
+Missing the characteristic 3–6-day febrile and 5–10-day afebrile sequence in a spirochaetemia vignette.
+
+## callout_evidence
+### Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis.
+Claims: CLM-INF-MUST-FHB1022-RELAPSING-01
+Citations: CIT-INF-MUST-FHB1022-RELAPSING-01, CIT-INF-MUST-FHB1022-RELAPSING-02
+Reviewed by: pending medical review
+
+## related_concepts
+${relapsingConceptId}
+
+## related_articles
+${articleId}: Cyclopropagative transmission in arthropod vectors
+${lymeArticleId}: Ixodes and the clinical pattern of Lyme disease
+
+## question_ids
+QST-MUST-FHB1022-PARA-VECT-Q08
+
+## resource_ids
+${liceResourceId}
+${assessmentResourceId}
+
+## article_source_ids
+${liceResourceId}
+
+## claim_ids
+CLM-INF-MUST-FHB1022-RELAPSING-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-RELAPSING-01
+
+## university_notes
+must: Q8 comes from the governed FHB102-2 module-wide MCQ family and is corroborated by the university Parasitology Department lice, fleas and bugs lecture.
+
+## annotations
+### definition_of · ${relapsingConceptId}
+Quote: Epidemic relapsing fever is transmitted by the body louse Pediculus humanus corporis. Recurrent spirochaetemia produces a 3–6-day febrile period followed by a 5–10-day afebrile period.
+Block: body
+Id: ann-must-fhb1022-relapsing-001
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+MUST Faculty of Medicine Parasitology Department, FHB102-2 Vectors of Disease Transmission lice, fleas and bugs lecture, visually read pp1,17 and 25–26.
+Anonymous FHB102-2 MCQ bank, visually read p2 prompt Q8 and p5 printed answer A.
+
+## evidence_gaps
+Independent standard-reference review is required before publication.
+Q2, Q3, Q4 and Q6 remain outside this article as explicit key-conflict holds.
+
+## conflicts
+No key conflict affects authored Q8. The anonymous bank's printed A agrees with the university teaching table's body louse.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Fourth bounded question-led slice only. Q8 is the sole newly authored question; no held item is represented as a student-facing record, and no record is authorised for upload.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected discipline node exists for this article.
+media: The question is text-only and does not require a student-facing image.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after the first review is completed.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Prior local vector-transmission articles provide adjacent reading without requiring a new typed relation.
+`
+}
+
+function relapsingQuestions() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-VECT-Q08
+
+## title
+A worker in Sudan developed 3–6 days of fever followed by a 5–10-day afebrile period, with headache, bony aches and rash. Blood-film examination during the febrile period showed vector-borne spirochaetes, and the Ministry of Health warned of an epidemic. What is the vector?
+
+## question
+A worker in Sudan developed 3–6 days of fever followed by a 5–10-day afebrile period, with headache, bony aches and rash. Blood-film examination during the febrile period showed vector-borne spirochaetes, and the Ministry of Health warned of an epidemic. What is the vector?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed from ${assessmentResourceId}, with the printed key checked against ${liceResourceId}.
+
+## correct_answer
+A
+
+## answer_a
+Body louse
+
+## explanation_a
+Correct. Recurrent spirochaetemia with a 3–6-day febrile period followed by a 5–10-day afebrile period is the louse-borne epidemic relapsing-fever pattern. Its vector is Pediculus humanus corporis, the body louse. Therefore, body louse is the best answer.
+
+## answer_b
+Human flea
+
+## explanation_b
+Incorrect. The epidemic relapsing-fever pattern is linked to the body louse rather than the human flea.
+
+## answer_c
+Rat flea
+
+## explanation_c
+Incorrect. The recurrent spirochaetemia and fever interval point to a body-louse vector, not a rat flea.
+
+## answer_d
+Head louse
+
+## explanation_d
+Incorrect. The vector of louse-borne epidemic relapsing fever is the body louse, not the head louse.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+${relapsingConceptId}
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.65
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > Arthropods and vectors > Louse-borne disease
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+${relapsingArticleId}
+
+## resource_ids
+${assessmentResourceId}
+${liceResourceId}
+
+## learning_objective
+Identify the body louse as the vector in a Sudan epidemic-relapsing-fever vignette with recurrent spirochaetemia and the characteristic fever interval.
+
+## source_citation
+FHB102-2 anonymous MCQ bank, p2, printed key p5 (Q8 = A); MUST Faculty of Medicine Parasitology Department, FHB102-2 Vectors of Disease Transmission lice, fleas and bugs lecture, pp17 and 25–26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q8 = A. The printed key agrees with the university teaching table's body louse; no override was made. Source punctuation and grammar were standardised without changing the answer.
+`
+}
+
 function coverage() {
   return `# MUST FHB 102-2 — authoring progress
 
@@ -2325,16 +3091,16 @@ Generated by \`scripts/must/build-fhb102-2-authoring-slice.mjs\`. This file is a
 
 | Kind | Created | Status |
 |---|---:|---|
-| Evidence resources | 4 | local-only source records |
-| Claims | 3 | verified against local curriculum citations; independent review still owed |
-| Citations | 4 | local curriculum |
-| Article spans | 3 | linked to the clean-key claims |
-| Concepts | 3 | under review / needs evidence |
-| Articles | 3 | Draft |
-| Questions | 3 | Draft |
+| Evidence resources | 5 | local-only source records |
+| Claims | 4 | verified against local curriculum citations; independent review still owed |
+| Citations | 6 | local curriculum |
+| Article spans | 4 | linked to the clean-key claims |
+| Concepts | 4 | under review / needs evidence |
+| Articles | 4 | Draft |
+| Questions | 4 | Draft |
 | Question key-conflict holds | 4 | no student-facing record authored |
 
-The first slice authored Q1 with printed key D unchanged. The second slice authored Q5 with printed key C unchanged: the anonymous bank says trypomastigote and the MUST Parasitology Department carrier specifies polymorphic trypomastigote. The third slice authors Q7 with printed key B unchanged: the university ticks lecture directly pairs erythema chronicum migrans, large-joint arthritis and facial palsy with hard tick Ixodes. No answer override was made in any question.
+The first slice authored Q1 with printed key D unchanged. The second slice authored Q5 with printed key C unchanged: the anonymous bank says trypomastigote and the MUST Parasitology Department carrier specifies polymorphic trypomastigote. The third slice authored Q7 with printed key B unchanged: the university ticks lecture directly pairs erythema chronicum migrans, large-joint arthritis and facial palsy with hard tick Ixodes. The fourth slice authors Q8 with printed key A unchanged: the university lice lecture directly identifies the body louse and reproduces the stem's recurrent-spirochaetemia pattern. No answer override was made in any question.
 
 ### Second-slice delta
 
@@ -2350,6 +3116,13 @@ The first slice authored Q1 with printed key D unchanged. The second slice autho
 - +1 under-review concept, +1 Draft article and +1 Draft question.
 - 0 new holds: Q7's printed B agrees with the direct university teaching statement; Q2, Q3, Q4 and Q6 remain held.
 
+### Fourth-slice delta
+
+- +1 evidence resource: the official university FHB102-2 lice, fleas and bugs lecture used to check Q8.
+- +1 claim, +2 citations and +1 article span.
+- +1 under-review concept, +1 Draft article and +1 Draft question.
+- 0 new holds: Q8's printed A agrees with the university body-louse teaching; Q2, Q3, Q4 and Q6 remain held.
+
 ## Explicit key-conflict holds
 
 - **Q2 is held.** The anonymous bank prints **B, filariform**, while the malaria-pattern stem asks the stage inoculated by the vector and the department carrier states **I.S. → sporozoite** on p6. No Q2 student-facing record was authored, and no replacement answer was imported.
@@ -2359,15 +3132,15 @@ The first slice authored Q1 with printed key D unchanged. The second slice autho
 
 All four holds require an authorised medical reviewer to resolve the item disposition before authoring: retain verbatim with a formal source-key correction, rewrite and retire the source wording, or exclude the item.
 
-## Exact backlog after three slices
+## Exact backlog after four slices
 
-- Governed prompt observations: 5,444 total; 3 authored; **5,441 raw prompt observations remain**, including the 4 explicit holds.
-- Governed answer observations: 5,211 total; 3 clean source-keyed prompts authored; **5,208 raw answer observations remain**, including the 4 held printed-key observations.
-- Opening 32-prompt normalized family: 3 authored, 4 held, and **25 not yet assessed for authoring**; therefore **29 prompts remain in the authoring backlog**, of which Q32 is source-absent.
-- Record-level backlog is not asserted as 5,441 unique records: repeated and near-repeated prompts must still be deduplicated during authoring, per the one-question-one-record rule.
+- Governed prompt observations: 5,444 total; 4 authored; **5,440 raw prompt observations remain**, including the 4 explicit holds.
+- Governed answer observations: 5,211 total; 4 clean source-keyed prompts authored; **5,207 raw answer observations remain**, including the 4 held printed-key observations.
+- Opening 32-prompt normalized family: 4 authored, 4 held, and **24 not yet assessed for authoring**; therefore **28 prompts remain in the authoring backlog**, of which Q32 is source-absent.
+- Record-level backlog is not asserted as 5,440 unique records: repeated and near-repeated prompts must still be deduplicated during authoring, per the one-question-one-record rule.
 
 ## Upload state
 
-No MUST content has been uploaded or imported. All three student-facing articles and questions remain Draft; all three concepts use the concept schema's non-published \`under review\` state and \`publication_status: needs_evidence\`. Q2, Q3, Q4 and Q6 exist only as authoring-ledger holds.
+No MUST content has been uploaded or imported. All four student-facing articles and questions remain Draft; all four concepts use the concept schema's non-published \`under review\` state and \`publication_status: needs_evidence\`. Q2, Q3, Q4 and Q6 exist only as authoring-ledger holds.
 `
 }
