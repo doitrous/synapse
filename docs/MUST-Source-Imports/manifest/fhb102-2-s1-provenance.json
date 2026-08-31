@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "e9b6c50b9aa6590d2c15e58d84c29f7a8034320557453e16d8f72ec676c9b63d",
-    "triageMarkdown": "2b61d6a240a4ae02e3b1b7544052dabcf96b8c0373e885edf8b6a0da2bb87350"
+    "readinessMarkdown": "d50723ce56b4ae969e321325a33f3178ff3d6e24658cd9c02ebf126afd5c057b",
+    "triageMarkdown": "db8dad828afa5206cc2834525a256e330348292c63f4a8ccdfbe009b1eabba3b"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -72,6 +72,7 @@
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+      "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
       "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
@@ -84,7 +85,7 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 14
+    "uniqueSha256": 15
   },
   "completedSourceCoverage": [
     {
@@ -887,15 +888,63 @@
         "printed wording, deprecated terminology and academically questionable answers remain source truth without correction",
         "the answer key and model answers are source evidence rather than authenticated faculty-key observations"
       ]
+    },
+    {
+      "sha256": "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
+      "sourcePages": 12,
+      "renderedReadPages": "1-12",
+      "printedBookPages": "31-42",
+      "questionPages": "1-12",
+      "printedPromptObservations": 120,
+      "objectiveMcqPrompts": 120,
+      "completePreSectionPrompts": 7,
+      "infectionControlPrompts": 113,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 120,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "incompleteExcludedFragments": [
+        {
+          "label": "Q313",
+          "page": 1,
+          "visibleContent": "options b-d only; stem absent"
+        }
+      ],
+      "exactNormalizedPromptSibling": {
+        "sha256": "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
+        "questionLabels": "Q314-Q334",
+        "overlappingPrompts": 21,
+        "newPromptsAfterSiblingCollapse": 99
+      },
+      "sourceFirstHandles": 6,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 2,
+      "searchesRun": 8,
+      "familyQuestionDelta": 99,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 2,
+      "sourceProcessed": true,
+      "authorityDisposition": "CamScanner slice of printed book pages 31-42; exact normalized prompt and layout overlap Q314-Q334 establishes a partial sibling relationship to the completed professor-authored General Bacteriology & Mycology carrier, but this slice has no cover, institution, module, examiner, sitting, marks or authenticated key",
+      "boundaryDisposition": "one incomplete Q313 option tail excluded; one complete Q314, six independently labelled matching items Q315-Q320, and one continuous Infection Control sequence Q321-Q433; 120 complete objective prompts, zero answer observations and no written, practical, image-identification or teaching prompt boundary; exact sibling Q314-Q334 overlap collapses twenty-one prompts and leaves ninety-nine new unkeyed prompt occurrences",
+      "preservedSourceDefects": [
+        "the stem of Q313 is absent and its visible option tail is excluded",
+        "the printed 430. 430. duplication is one prompt occurrence",
+        "page-break continuations remain one occurrence",
+        "faint boxes and underlines inconsistently emphasize stems, distractors and whole text regions and are not treated as answer marks",
+        "printed wording, duplicated numbering, deprecated terminology and academically questionable statements remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1440,
+    "printedPromptObservations": 1539,
     "printedKeyObservations": 1401,
-    "namedConceptsAssigned": 60,
+    "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 60
+    "newConcepts": 62
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -981,20 +1030,26 @@
     "pages": 5,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fifteenthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Infection control MCQs.pdf",
     "sha256": "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
+    "pages": 12,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - MCQ Dr.Alaa د.علاء Microbiology.pdf",
+    "sha256": "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
     "pages": 12,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 82,
-    "uniqueSha256": 80,
-    "sortedNewlineSha256": "a8e72221eda3102dfe7b14b504fa7c711038f285cbb7f569739a978cb56f9331",
+    "inventoryMetadataRows": 81,
+    "uniqueSha256": 79,
+    "sortedNewlineSha256": "0b40997928690021fd7cb0e394ce9a77d214e00e238aa436c7cc861c78d4dfff",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
-      "empty-text": 12,
+      "empty-text": 11,
       "sparse-text": 23,
       "substantive-text": 34
     }
@@ -1002,14 +1057,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 2,
     "audit-not-found": 11,
-    "empty-text": 12,
+    "empty-text": 11,
     "sparse-text": 23,
     "substantive-text": 34
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 14,
-    "remainingUniqueSha256": 80,
+    "processedUniqueSha256": 15,
+    "remainingUniqueSha256": 79,
     "processedPlusRemaining": 94
   }
 }

@@ -682,3 +682,46 @@ Removing the fourteen processed hashes leaves **82 selected inventory paths / 80
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Infection control MCQs.pdf`, SHA-256 `885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03`, 12 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 82 selected inventory paths / 80 unique hashes remain untriaged.
+
+## Completed source — Infection control MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Infection control MCQs.pdf` | `885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03` | 12 | empty-text | pages 1–12 rendered and read | CamScanner slice of printed book pages 31–42. Exact normalized prompt and page-layout overlap Q314–Q334 establishes it as a partial sibling of the completed professor-authored `General Bacteriology & Mycology` question-book carrier. This slice itself has no cover, institution, module, examiner, sitting, marks or authenticated key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 begins with the final options of Q313, whose stem is absent; that incomplete fragment is excluded. The page then contains complete Q314 plus six independently labelled matching occurrences Q315–Q320. The `INFECTION CONTROL` section begins at Q321 and runs continuously through Q433 on page 12. Page-break continuations Q325, Q383, Q404, Q426 and Q431 remain one occurrence each. The duplicated printed number in `430. 430.` is one prompt, not two.
+
+The exact visible boundary is **120 complete objective prompts / 0 prompt-matched answer observations / 120 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, split **7 complete pre-section prompts (Q314–Q320) / 113 Infection Control prompts (Q321–Q433)**. Faint boxes and underlines mark stems, distractors and whole text regions inconsistently—including demonstrably non-answer emphasis—and are not adjudicated as answer selections. Printed wording, duplicated numbering, deprecated terminology and academically questionable statements remain source truth without correction.
+
+The first **21 complete prompts, Q314–Q334**, exactly reproduce the normalized prompt sequence already counted and keyed in the completed `General Bacteriology & Mycology` sibling. They add no questions or answer observations. Q335–Q433 are ninety-nine genuinely additional unkeyed prompts, giving a family delta of **+99 questions / +0 answers**.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 120 visible prompts collapse source-first into six coherent handles. Four are already represented by completed FHB-102-2 concepts. The two surviving handles each received exactly four live-and-pending searches: **2 × 4 = 8 searches**. Every query returned no live or pending match.
+
+| Source handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Toxin mechanisms in complete Q314–Q320 | exact prior-sibling Q314–Q320 plus prior virulence/toxin handles | prior-FHB-102-2 collapse |
+| Healthcare-associated infection, transmission routes and isolation precautions | exact prior-sibling Q321–Q334 plus prior standard-precautions handle | prior-FHB-102-2 collapse |
+| Hand hygiene, resident/transient flora, PPE, gloves and aseptic technique | prior standard precautions and hospital-acquired-infection prevention handle | prior-FHB-102-2 collapse |
+| Occupational blood exposure, sharps injury and HBV/HIV post-exposure response | prior HBV occupational-exposure and standard-precautions handles | prior-FHB-102-2 collapse |
+| Cleaning, antisepsis, disinfection, sterilization, HLD and equipment classification | `sterilization disinfection decontamination high level disinfection medical equipment`; `autoclave ethylene oxide glutaraldehyde high level disinfection`; `Spaulding critical semicritical noncritical disinfection sterilization`; `antiseptic disinfectant sterilization decontamination infection control` | no live/pending match — retained new/TBD |
+| Medical waste, linen, housekeeping, environmental cleaning and spill management | `medical waste sharps linen housekeeping infection control`; `healthcare waste color coding sharps red bag linen`; `environmental cleaning housekeeping blood spill chlorine healthcare`; `PPE donning doffing medical waste linen handling infection prevention` | no live/pending match — retained new/TBD |
+
+Post-prior disposition is **0 live / 0 pending / 2 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifteenth one-path hash is now `sourceProcessed=true`. After the 21-prompt exact sibling collapse, its family delta is **+99 questions / +0 answers / +2 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,539 | 1,401 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the fifteen processed hashes leaves **81 selected inventory paths / 79 unique SHA-256s**. Their sorted-newline checksum is `0b40997928690021fd7cb0e394ce9a77d214e00e238aa436c7cc861c78d4dfff`. Remaining audit-review debt is **34 substantive-text / 23 sparse-text / 11 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`15 + 79 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - MCQ Dr.Alaa د.علاء Microbiology.pdf`, SHA-256 `0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7`, 12 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 81 selected inventory paths / 79 unique hashes remain untriaged.
