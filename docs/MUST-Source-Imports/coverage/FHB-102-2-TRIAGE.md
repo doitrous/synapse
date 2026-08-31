@@ -2764,3 +2764,29 @@ Removing the ninety-one processed hashes leaves **3 selected inventory paths / 3
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/cell wall.pdf`, SHA-256 `be89e24f14a2b580bbd8a4ba954f4bdfa482fa054e5ebc791e82001b60eead6e`, 9 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 3 selected inventory paths / 3 unique hashes remain untriaged.
+
+## Completed source — `cell wall`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/cell wall.pdf` | `be89e24f14a2b580bbd8a4ba954f4bdfa482fa054e5ebc791e82001b60eead6e` | 9 | audit-not-found | pages 1–9 rendered and read | Metadata-silent PDF 1.7 teaching excerpt with creation and modification timestamps but no title or author metadata. The visible slides identify no authenticated MUST platform, institution, department, module, lecturer, examiner, sitting, marks scheme or faculty-key declaration. |
+
+### Exact boundary and answer state
+
+Page 1 covers monobactams and aztreonam. Pages 2–4 cover carbapenems, imipenem-cilastatin and meropenem. Pages 5–8 cover vancomycin mechanism, formulations, uses and adverse effects. Page 9 covers bacitracin. The file begins directly with monobactam content and ends directly with bacitracin content, so there is no separate cover or closing page. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 9 teaching-reference pages**.
+
+Numbered drug classes, mechanisms, uses, adverse effects and product images are declarative teaching structure rather than assessment fields. No answer is inferred and no teaching statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction. Metadata silence is retained without inventing lecturer, institution or authority.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This ninety-second one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the ninety-two processed hashes leaves **2 selected inventory paths / 2 unique SHA-256s**. Their sorted-newline checksum is `e03f959551db115e3fddceac5a191788dbb99e71e2d7e64c8d7ca456778bc123`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 2 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`92 + 2 = 94`** and path accounting is **`94 + 2 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/general antibacterial 1.pdf`, SHA-256 `160f09412500534a71cec2241c8b9d35ab03a8de5ed39409a84e529f87900c78`, 29 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 2 selected inventory paths / 2 unique hashes remain untriaged.
