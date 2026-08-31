@@ -206,24 +206,40 @@ const AU_MODULES: Record<string, [name: string, moduleId: string][]> = {
 }
 
 /**
+ * Helwan Year 1 module names and terms from the governed 2025-2026 schedules.
+ * BMS 101's own schedule identifies the first term. The LCS 103 schedule and
+ * the university's second-term examination schedule identify BMS 102 and LCS
+ * 103 as second-term modules; the PSY 104 portfolio dates its complete two-week
+ * timetable to 16-29 June 2026, inside that same second-term window.
+ */
+const HU_MODULES: Record<string, [name: string, moduleId: string, term: string][]> = {
+  'Year 1': [
+    ['BMS 101 - Basic Medical Science I', 'HU-BMS-101', 'Term 1'],
+    ['BMS 102 - Basic Medical Science II', 'HU-BMS-102', 'Term 2'],
+    ['LCS 103 - Locomotor and Coordination System', 'HU-LCS-103', 'Term 2'],
+    ['PSY 104 - Psychology', 'HU-PSY-104', 'Term 2'],
+  ],
+}
+
+/**
  * Fill a university's years with a named set of modules.
  *
  * Years the set says nothing about are left exactly as they were, empty — an
  * internship year with no modules recorded is a year with no modules recorded.
  */
-function withModules(years: UniYear[], modules: Record<string, [string, string][]>): UniYear[] {
+function withModules(years: UniYear[], modules: Record<string, [string, string, string?][]>): UniYear[] {
   return years.map((year) => {
     const list = modules[year.year]
     if (!list) return year
     return {
       ...year,
-      terms: ['Term 1'],
-      courses: list.map(([name, moduleId], index) => ({
+      terms: [...new Set(list.map(([, , term]) => term ?? 'Term 1'))],
+      courses: list.map(([name, moduleId, term = 'Term 1'], index) => ({
         id: `${year.id.toLowerCase()}-m${index + 1}`,
         name,
-        block: 'Term 1',
+        block: term,
         moduleId,
-        term: 'Term 1',
+        term,
       })),
     }
   })
@@ -233,7 +249,7 @@ export const universities: University[] = [
   { id: 'kau', name: 'Kasr Alainy - Cairo University', short: 'KAU', region: 'Cairo', years: withModules(buildYears('KAU'), KAU_MODULES) },
   { id: 'asu', name: 'Ain Shams University', short: 'ASU', region: 'Cairo', years: buildYears('ASU') },
   { id: 'au', name: 'Alexandria University', short: 'AU', region: 'Alexandria', years: withModules(buildYears('AU'), AU_MODULES) },
-  { id: 'hu', name: 'Helwan University', short: 'HU', region: 'Helwan, Cairo', years: buildYears('HU') },
+  { id: 'hu', name: 'Helwan University', short: 'HU', region: 'Helwan, Cairo', years: withModules(buildYears('HU'), HU_MODULES) },
   { id: 'bu', name: 'Beni Suef University', short: 'BU', region: 'Beni Suef', years: buildYears('BU') },
   { id: 'fu', name: 'Fayoum University', short: 'FU', region: 'Fayoum', years: buildYears('FU') },
   { id: 'mu', name: 'Menoufia University', short: 'MU', region: 'Menoufia', years: buildYears('MU') },
