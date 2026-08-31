@@ -84,9 +84,10 @@ const PROCESSED_FAMILY_HASHES = [
   '47c08908667b08b453d71594041a4e9ee2912b0e594bc80b5ef82658381f933d',
   'bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32',
   'd6c4b7b739a00dd96eb575836ca1ff2b64e4b006aa7cb6d32b2c995256418349',
+  '1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '720841e613b1513d016b3024fdac13b5f0d990d41c54f195330de4a1a93aa925'
+const REMAINING_CHECKSUM = '56c0efc2886c87663fcccb83c3c5bb374aed25da47e957205cb29567330b8478'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -495,12 +496,16 @@ const SIXTY_EIGHTH_SOURCE = {
   pages: 39,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SEVENTY_SIXTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf',
   sha256: '1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a',
   pages: 168,
-  reviewedPages: '1-160',
-  nextPage: 161,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_102_Final_40_MCQ (Tetracyclines & Aminoglycosides).pdf',
+  sha256: '430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c',
+  pages: 8,
   sourceProcessed: false,
 }
 const SIXTY_NINTH_SOURCE = {
@@ -620,10 +625,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'sparse-text': 1, 'substantive-text': 7 }
+  const expected = { 'audit-not-found': 11, 'substantive-text': 7 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=7-substantive/1-sparse/0-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=7-substantive/0-sparse/0-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -711,7 +716,7 @@ for (const value of [SIXTY_SEVENTH_SOURCE.relativePath, SIXTY_SEVENTH_SOURCE.sha
 for (const value of [SIXTY_EIGHTH_SOURCE.relativePath, SIXTY_EIGHTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
-for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE]) {
+for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE, SEVENTY_SIXTH_SOURCE]) {
   for (const value of [source.relativePath, source.sha256]) {
     if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
   }
@@ -759,7 +764,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 75 || remainingHashes.length !== 19 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 76 || remainingHashes.length !== 18 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -767,7 +772,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'sparse-text': 1, 'substantive-text': 7 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'substantive-text': 7 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -3302,30 +3307,26 @@ const provenance = {
       boundaryDisposition: 'all fourteen rendered pages are fully revealed summary notes on protein inhibitors, folate antagonists, TB and leprosy, and antifungal drugs; headings, explanatory paragraphs and lists are declarative teaching structure rather than assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence',
       preservedSourceDefects: ['the final-exam notes label is retained as an unverified provenance claim and not promoted to examination authority', 'summary wording, spelling, terminology and academically questionable pharmacology claims remain source truth without correction', 'declarative headings and lists are not reverse-engineered into questions or keys'],
     },
-  ],
-  partialSourceCoverage: [
     {
-      sha256: NEXT_SOURCE.sha256,
+      sha256: SEVENTY_SIXTH_SOURCE.sha256,
       sourcePages: 168,
-      renderedReadPages: '1-160',
-      nextPage: 161,
-      unreadPages: '161-168',
+      renderedReadPages: '1-168',
       printedPromptObservations: 0,
       objectiveMcqPrompts: 0,
       writtenPrompts: 0,
       printedKeyObservations: 0,
       sourceAbsentAnswers: 0,
       practicalOrImagePrompts: 0,
-      teachingReferencePages: 155,
-      nonAssessmentSeparatorPages: 5,
-      separatorPages: [49, 59, 71, 94, 142],
+      teachingReferencePages: 162,
+      nonAssessmentSeparatorPages: 6,
+      separatorPages: [49, 59, 71, 94, 142, 168],
       sourceFirstHandles: 0,
       acceptedSourceHandles: 0,
       searchesRun: 0,
       familyQuestionDelta: 0,
       familyAnswerDelta: 0,
       newConceptsAfterPriorFhb1022Collapse: 0,
-      sourceProcessed: false,
+      sourceProcessed: true,
       sectionBoundary: [
         { section: 'Protein-synthesis foundations', pages: '1-6', teachingReferencePages: 6, assessmentPrompts: 0 },
         { section: 'Aminoglycosides', pages: '7-11', teachingReferencePages: 5, assessmentPrompts: 0 },
@@ -3357,13 +3358,16 @@ const provenance = {
         { section: 'Antifungal title, front matter and objectives', pages: '143-146', teachingReferencePages: 4, assessmentPrompts: 0 },
         { section: 'Antifungal foundations, classification and mechanisms', pages: '147-153', teachingReferencePages: 7, assessmentPrompts: 0 },
         { section: 'Azoles', pages: '154-159', teachingReferencePages: 6, assessmentPrompts: 0 },
-        { section: 'Polyene antifungals', pages: '160', teachingReferencePages: 1, assessmentPrompts: 0 },
+        { section: 'Polyene antifungals', pages: '160-163', teachingReferencePages: 4, assessmentPrompts: 0 },
+        { section: 'Flucytosine', pages: '164-165', teachingReferencePages: 2, assessmentPrompts: 0 },
+        { section: 'Griseofulvin', pages: '166-167', teachingReferencePages: 2, assessmentPrompts: 0 },
       ],
-      authorityDisposition: 'partial review of a pharmacology teaching/reference compilation assembled under an EOM Final all filename; reviewed pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration',
-      boundaryDisposition: 'pages 1-160 contain 155 fully revealed declarative teaching/reference slides and five closing thank-you separators on pages 49, 59, 71, 94 and 142; labelled diagrams, bullet lists and product or clinical images are not assessment response fields; pages 161-168 remain unread in this checkpoint',
-      preservedSourceDefects: ['the carrier filename suggests a final exam but the reviewed pages contain teaching content only', 'declarative teaching statements are not reverse-engineered into questions or answers', 'closing thank-you slides are retained as non-assessment separators rather than teaching or assessment prompts', 'the hash remains unprocessed until pages 161-168 are adjudicated'],
+      authorityDisposition: 'complete review of a pharmacology teaching/reference compilation assembled under an EOM Final all filename; all pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration',
+      boundaryDisposition: 'all 168 pages contain 162 fully revealed declarative teaching/reference slides and six closing thank-you separators on pages 49, 59, 71, 94, 142 and 168; labelled diagrams, bullet lists and product or clinical images are not assessment response fields',
+      preservedSourceDefects: ['the carrier filename suggests a final exam but the complete source contains teaching content only', 'declarative teaching statements are not reverse-engineered into questions or answers', 'closing thank-you slides are retained as non-assessment separators rather than teaching or assessment prompts'],
     },
   ],
+  partialSourceCoverage: [],
   triageCumulative: { printedPromptObservations: 5207, printedKeyObservations: 4974, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
@@ -3440,6 +3444,7 @@ const provenance = {
   seventyThirdSourceCandidate: SEVENTY_THIRD_SOURCE,
   seventyFourthSourceCandidate: SEVENTY_FOURTH_SOURCE,
   seventyFifthSourceCandidate: SEVENTY_FIFTH_SOURCE,
+  seventySixthSourceCandidate: SEVENTY_SIXTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

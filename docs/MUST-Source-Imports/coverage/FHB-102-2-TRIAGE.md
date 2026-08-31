@@ -2327,11 +2327,11 @@ The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/0
 
 **BLOCKED — S1 cannot be approved:** 19 selected inventory paths / 19 unique hashes remain untriaged.
 
-## Partial source checkpoint — `EOM - Pharmacology FHB102-2 Final all`, pages 1–160
+## Completed source — `EOM - Pharmacology FHB102-2 Final all`
 
-| Source path | SHA-256 | Source pages | Audit class | Bounded visual read | Provenance / authority |
+| Source path | SHA-256 | Source pages | Audit class | Full visual read | Provenance / authority |
 |---|---|---:|---|---|---|
-| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf` | `1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a` | 168 | sparse-text | pages 1–160 rendered and read | Concatenated pharmacology teaching/reference carrier assembled under an `EOM` / `Final all` filename. The reviewed pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf` | `1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a` | 168 | sparse-text | pages 1–168 rendered and read | Concatenated pharmacology teaching/reference carrier assembled under an `EOM` / `Final all` filename. The complete source shows no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration. |
 
 ### Exact bounded boundary and handle state
 
@@ -2351,12 +2351,16 @@ The latest pages 121–140 tranche covers problems with TB therapy on page 121; 
 
 The latest pages 141–160 tranche closes the antileprotic-drug section with clofazimine mechanism and adverse effects on page 141; page 142 is a closing thank-you separator; pages 143–146 contain the antifungal title, Arabic college vision and mission, and lecture objectives; pages 147–153 cover fungal foundations, classification and mechanisms; pages 154–159 cover azoles; and page 160 introduces polyene antifungals. The exact tranche has **19 teaching-reference pages / 1 non-assessment closing separator**.
 
-The exact pages 141–160 tranche is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 19 teaching-reference pages / 1 non-assessment separator**. The cumulative pages 1–160 boundary is therefore **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 155 teaching-reference pages / 5 non-assessment closing separators**. With no assessment prompt, the source-first assessment handle count is **0**, so **0 accepted × 4 = 0 searches** and **0 live / 0 pending / 0 new**. No answer is inferred and no declarative statement is reverse-engineered into a question.
+The final pages 161–168 tranche continues amphotericin B mechanism and adverse effects on pages 161–163, covers flucytosine on pages 164–165 and griseofulvin on pages 166–167, and ends with a closing MUST thank-you separator on page 168. The exact tranche has **7 teaching-reference pages / 1 non-assessment closing separator**.
 
-### Partial-state reconciliation and next page
+The exact pages 161–168 tranche is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 7 teaching-reference pages / 1 non-assessment separator**. The complete pages 1–168 boundary is therefore **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 162 teaching-reference pages / 6 non-assessment closing separators**. With no assessment prompt, the source-first assessment handle count is **0**, so **0 accepted × 4 = 0 searches** and **0 live / 0 pending / 0 new**. No answer is inferred and no declarative statement is reverse-engineered into a question.
 
-This is not a completed source family: only pages **1–160 of 168** are adjudicated, pages **161–168** remain unread in this checkpoint, and the exact resume boundary is **page 161**. The hash remains `sourceProcessed=false` and stays in the remaining set. The latest-tranche and cumulative partial delta is **+0 questions / +0 answers / +0 concepts**, leaving cumulative triage at **5,207 questions / 4,974 answers / 62 concepts**.
+### Delta, cumulative totals and next source
 
-Processed/remaining arithmetic therefore does not change: **75 processed unique hashes + 19 remaining unique hashes = 94**, with **77 processed paths + 19 remaining paths = 96**. The remaining checksum stays `720841e613b1513d016b3024fdac13b5f0d990d41c54f195330de4a1a93aa925`, and remaining audit debt stays **7 substantive-text / 1 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed**.
+This seventy-sixth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts** and leaving cumulative triage at **5,207 questions / 4,974 answers / 62 concepts**.
 
-**BLOCKED — S1 cannot be approved:** current source resumes at page 161; 19 selected inventory paths / 19 unique hashes remain untriaged.
+Removing the seventy-six processed hashes leaves **18 selected inventory paths / 18 unique SHA-256s**. Their sorted-newline checksum is `56c0efc2886c87663fcccb83c3c5bb374aed25da47e957205cb29567330b8478`. Remaining audit-review debt is **7 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`76 + 18 = 94`** and path accounting is **`78 + 18 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_102_Final_40_MCQ (Tetracyclines & Aminoglycosides).pdf`, SHA-256 `430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c`, 8 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 18 selected inventory paths / 18 unique hashes remain untriaged.
