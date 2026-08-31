@@ -23653,3 +23653,91 @@ The exact next unprocessed BMS-102 record is tier-6 `src_7e731d09c16ea4349399` �
 Its complete sectional render/OCR boundary, visible authority, teaching/prompt/key/practical
 ruling, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 234 — anonymous XMind absorption-and-distribution teaching map
+
+### Source identity, full-page/sectional visual boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_7e731d09c16ea4349399` · `Mind_Map_Drug_Absorbtion_1,2.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `7e731d09c16ea43493995b5bcf3014cf41505c1ffa54f1cbae0873a91b9c801c` · **310,744 bytes** |
+| Format / complete visual boundary | **One nominally OCR-needed 1,191×842-point landscape A3 page, PDF 1.7**. The entire page was rendered at 300 dpi into a non-empty 4,963×3,509-pixel overview and reread through four overlapping 300-dpi section crops. Every central title, coloured branch, connector, node, formula, graph label, callout tag, source note, and footer is assigned below; there is no crop or page remainder. |
+| Text/OCR reality | The embedded but font-corrupted layout layer yields **1,534 words / 24,799 bytes**; much of it contains replacement characters and cannot control wording. Tesseract over the full render yields **339 words / 2,589 bytes** and assists navigation. The original-resolution render/crops govern the handwritten-style text, formulas, symbols, graph, and hierarchy. No form, JavaScript, encryption, interactive answer layer, or hidden prompt layer exists. |
+| Visible provenance | Central title is `Pharmacokinetics: Absorption & Distribution` with subtitle `First two body's processing of drugs: Absorption, Distribution`; footer is `Presented with xmind`. A terminal node cites `[Lecture 01: Slide 39]`. No author, instructor, university/faculty, module code, academic year, sitting, date, candidate field, marks, or assessment title is visible. The slide reference identifies a teaching antecedent but does not authenticate its institution or this derivative. |
+| Metadata caution | Creator is Mozilla Firefox 149.0, producer is cairo 1.18.0, and creation is 7 April 2026. These are browser-export fields only. The manifest's `instructor: Ug` is not visibly corroborated; neither it nor local folder placement establishes authorship, a delivery date, or assessment authority. |
+| Authority | Anonymous local tier-6 pharmacokinetics study map. It is useful teaching/format evidence, not an authenticated Helwan lecture, assessment, answer key, or practical station. |
+
+### Exhaustive branch-first teaching, prompt, answer, callout, and practical boundary
+
+| Main branch | Exhausted visible content | Boundary ruling |
+|---|---|---|
+| Core principles & absorption | Drug passage to systemic plasma; simple diffusion as most common; lipophilicity effect; ATP/carrier requirement for active transport; pinocytosis for molecular weight over 900; shock/blood-flow, gut-motility, acetaminophen, digoxin, and IV-versus-oral modifiers | Completed definitions, high-yield notes, mechanisms, exception, clinical effects, and comparison: **0 prompts / 0 answers / 0 practical**. |
+| pKa & ion trapping | pKa definition; unionized/lipid-soluble versus ionized/water-soluble states; acidic/basic drug ionization rules; aspirin stomach absorption/mucosal trapping; bicarbonate alkalinization for aspirin toxicity; urine acidification for amphetamine; trapped-ion mnemonic | Completed rules, correlates, and supplied management examples: **0 / 0 / 0**. Labels `[Rx]`, `[Hallmark]`, and `[Complication]` are teaching categories, not answer markers. |
+| Protein binding & barriers | Albumin binding of acidic/neutral drugs; bound versus free fractions; aspirin–warfarin displacement and low-albumin context; chloroquine/liver and iodine/thyroid tissue binding; tetracycline chelation; BBB/placental passage, inflamed-BBB penicillin exception, and teratogenicity/toxicity note | Completed definitions, examples, and exception notes: **0 / 0 / 0**. |
+| Volume of distribution | Apparent-volume definition and `Vd = Dose / Plasma Concentration`; total-body-water/plasma/interstitial/intracellular values; high-Vd tissue distribution; digoxin versus aspirin dialysis implications; `Loading Dose = Vd × Target Concentration` | Completed formula/reference nodes: **0 / 0 / 0**. |
+| Bioavailability & first pass | Bioavailability definition and `F = AUC oral / AUC IV`; IV `F = 100%`; a supplied concentration-time graph whose IV peak exceeds oral peak; pre-systemic hepatic/gut elimination; propranolol/nitroglycerin examples; bypass by sublingual, IV, or IM route; supplied gut→portal vein→liver routing note | Completed definitions, formula, graph interpretation, examples, and route map: **0 / 0 / 0**. `[SKETCH]` and `[PORTAL]` introduce already supplied visual content and contain no learner operation. |
+
+The bracketed tags—`Definition`, `HIGH YIELD`, `NUANCE`, `EXCEPTION`, `Clinical Impact`,
+`Hallmark`, `Complication`, `Formula`, `VERSUS`, `Mechanism`, `Rx`, `MNEMONIC`, `SKETCH`, and
+`PORTAL`—categorize complete teaching nodes. None supplies a question mark, imperative stem,
+option set, missing term, response field, answer marker, or key directionality. The graph and portal
+route are already drawn and interpreted, so they are not image-identification prompts, drawing
+tasks, or authenticated practical stations.
+
+The governed source-local assessment boundary is therefore **0 MCQs + 0 True/False + 0 written
+prompts + 0 completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw
+prompt occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained records, and
+0 prompt-like residues**. Source formulations—including `Absorbtion`, `First two body's`, the
+claimed molecular-weight threshold, the stated aspirin/amphetamine urine-pH examples, and other
+map shorthand—are preserved as source truth rather than silently repaired, endorsed, or converted
+into medical guidance.
+
+### Zero-handle four-search gate, prior-BMS ruling, and cumulative arithmetic
+
+No assessment handle survives the source-first boundary. The standing gate is exactly **`0
+accepted handles × 4 = 0 required and completed searches`**; no empty search packet, external
+disposition, or synthetic prior row is fabricated. The map revisits absorption, distribution,
+protein binding, ion trapping, bioavailability, volume of distribution, and first-pass concepts
+already present across Families 202–224, but teaching overlap is not a new tested-handle occurrence.
+Prior-BMS assessment reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 234 | Auxiliary cumulative (Families 12–234) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Eligible source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained eligible question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero prompts yield zero answers, retained records, handles, searches,
+prior reuses, or concept additions. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains
+**2,790 prompts / 1,828 answers / 2,494 retained / 2,227 handles / +1,110 concepts**. All eligible
+remains **3,552 / 2,233 / 3,046 / 1,482**. Family 234 establishes anonymous pharmacokinetics
+teaching and source-format evidence only, not assessment, official-key, authenticated practical,
+verified-year, medical-guidance, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 234
+
+`src_7e731d09c16ea4349399` is exhausted across its full A3 page and four overlapping sectional
+crops: every branch, node, connector, graph, formula, tag, source irregularity, provenance term,
+zero gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-234
+blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 234 is **295 paths / 288 unique hashes**, leaving exactly **67 selected paths / 60
+unique hashes**. Checksums are **295 + 67 = 362 paths** and **288 + 60 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `1d06f9bb2e05546a3fe37e4d72391b430802d954b68e4e8dd1a372be8f0d3abb`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`e05d7760b58a7ea94d8e5fe391b0191df9cb700a699d10c6d06dce99d84ba573`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_e1ff119ca2a6d824d547` ·
+`Mind_Map_Drug_Metabolism_Excretion_and_Clearance.pdf`, SHA-256
+`e1ff119ca2a6d824d54772170b7f516fb6dc370c4415fabb4df77591a26e5ebc`, **1,183,047 bytes**,
+**one OCR-needed 1,191×842-point landscape A3 page** under `Pharmacology / Notes and Summaries`.
+Its complete sectional render/OCR boundary, visible authority, teaching/prompt/key/practical
+ruling, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
+remain to be separately adjudicated.
