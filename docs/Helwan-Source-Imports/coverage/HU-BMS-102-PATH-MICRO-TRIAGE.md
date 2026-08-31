@@ -24638,3 +24638,124 @@ vasoconstrictor, acidification in amphetamine toxicity, and a stimulant-toxicity
 visible authority, complete keyed/unkeyed, written/image/practical/teaching boundary, four-search
 ledger, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 243 — anonymous keyed sympathomimetic-II revision set
+
+### Source identity, exhaustive visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_9e10639c82dfb8c3c6b3` · `sympathomimetic drugs II.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `9e10639c82dfb8c3c6b383134ba6a846bfea7662013a5f1f1dabd5ed261016e7` · **292,864 bytes** |
+| Format / exhaustive read | **7 native-text portrait US-letter pages, 612×792 points, PDF 1.7**. All 7 pages were rendered into 7 non-empty 1224×1584-pixel images and read individually at original detail. Coherent layout extraction contains **887 words / 6,648 bytes** and agrees with all 27 MCQ stems/options, the short-essay prompt/blanks, every page continuation, 27-letter key, and the supplied four-part written answer. `pdfimages -list` reports no embedded raster image; there is no form, JavaScript, encryption, or hidden answer layer. |
+| Visible provenance | Page 1 visibly titles the carrier `Sympathomimetics II`; every page repeats only the Arabic devotional header `سبحان الله و بحمده / سبحان الله العظيم`. No person, university/faculty, MHU/Helwan, BMS-102/module code, academic year, sitting/date, marks, duration, candidate field, invigilation, or departmental approval is visible. |
+| Metadata caution | Metadata author is `Eman Ibrahem Hefny Ibrahem`, creator is Microsoft Word, and creation/modification is 13 August 2025. None is visibly corroborated, so author/date remain secondary metadata provenance only and establish neither teaching authorship nor an exam sitting/year. |
+| Authority | Anonymous tier-6 keyed revision material in the local BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, not an authenticated Helwan exam or official departmental key. |
+
+### Complete MCQ, written, key, teaching, image, and practical boundary
+
+| Physical pages / source refs | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q5 start | Ephedrine nasal drop/vasoconstriction/BBB; acidic urine in amphetamine toxicity; amphetamine-versus-ephedrine toxicity clue; alpha-1 blockade for amphetamine hypertension; high-altitude ephedrine vignette | **5 keyed text MCQs**, with Q5 continuing on page 2. |
+| 2 · Q5 completion–Q9 start | Ephedrine toxic-dose convulsions; acidic urine and ephedrine excretion; fatal central respiratory failure in amphetamine toxicity; amphetamine mydriasis; local ephedrine use | Q5 continuation plus **4 new keyed text MCQs**, with Q9 continuing on page 3. |
+| 3 · Q9 completion–Q14 start | Nasal-decongestant use; ephedrine-versus-adrenaline CNS stimulation and duration; amphetamine/narcolepsy; ephedrine use exception; ephedrine anti-allergic-action exception | Q9 continuation plus **5 new keyed text MCQs**, with Q14 continuing on page 4. Q14 is replayed as Q15. |
+| 4 · Q14 completion–Q19 start | Anti-allergic exception; ephedrine/narcolepsy; unchanged urinary excretion and duration; amphetamine tolerance/dependence after weight-loss use; amphetamine anorexia | Q14 continuation plus **5 new keyed text MCQs**, with Q19 continuing on page 5. |
+| 5 · Q19 completion–Q24 start | Amphetamine anorexia; ephedrine convulsion mechanism; ephedrine tachyphylaxis; amphetamine addiction/euphoria; amphetamine CNS-effect exception; local ephedrine use | Q19 continuation plus **5 new keyed text MCQs**, with Q24 continuing on page 6. Q24 replays Q9's local-use proposition with a different supplied example. |
+| 6 · Q24 completion–Q27 + short essay | Ephedrine/fundus examination; tolerance/downregulation; alpha-1-mediated amphetamine mydriasis; indirect noradrenaline release; `Enumerate 4 non-catecholamine drugs` with four blanks | Q24 continuation plus **3 new keyed text MCQs + 1 keyed written enumeration**. The enumeration is theoretical written recall, not a practical station. |
+| 7 | `Key answers:` Q1–Q27 letters `B,B,C,B,B,B,C,C,C,C,B,C,C,A,B,B,D,C,C,C,C,B,C,B,C,B,D`, followed by the written answer `Ephedrine`, `Amphetamine`, `Selective α1 agonists`, and `Selective β2 agonists` | **27 source-supplied MCQ answer occurrences + 1 composite written answer occurrence**. The four listed classes/items are components of one answer, not four additional answer records. |
+
+The exhaustive source-local boundary is **28 raw prompt occurrences = 27 MCQs + 1 written
+enumeration**, with **28 source-supplied answers / 0 unkeyed prompts**. There are **0 image-
+identification operations, 0 authenticated practical stations, 0 drawings requested, 0 candidate
+responses, 0 standalone teaching records, and 0 prompt-like residues**. Continuations, devotional
+headers, blanks, and answer components are assigned once. All printed keys, wording, spelling,
+clinical claims, and source inconsistencies are preserved without medical correction or
+endorsement.
+
+### Retention, 26-handle registry, 104-search completion, and prior-BMS reconciliation
+
+All **28** prompt occurrences remain retained records; there is no literal replay exclusion. Q9
+and Q24 both ask a local use of ephedrine, while Q14 and Q15 both test the source's anti-allergic-
+activity exception. Each occurrence and answer remains, but each pair collapses to one tested
+proposition. Thus **`28 retained - 2 semantic reductions = 26 accepted source-distinct handles`**.
+Q1's combined drug-identification/BBB operation is not collapsed into the local-use pair; Q5/Q20,
+Q8/Q26, Q18/Q22, and Q21/Q25 respectively test outcome versus mechanism or a distinct clinical
+relationship and remain separate handles.
+
+The complete accepted registry follows; each semicolon-delimited slug is one handle.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q9 | `ephedrine-nasal-drop-vasoconstriction-bbb`; `amphetamine-acidic-urine-enhanced-excretion`; `amphetamine-versus-ephedrine-toxicity-bradycardia-source-key`; `amphetamine-hypertension-alpha1-blocker`; `ephedrine-toxic-dose-convulsions`; `ephedrine-acidic-urine-enhanced-excretion`; `amphetamine-toxicity-central-respiratory-failure-death`; `amphetamine-sympathomimetic-mydriasis`; `ephedrine-local-use` (Q9,Q24) |
+| Q10–Q18 | `ephedrine-versus-adrenaline-cns-stimulation`; `ephedrine-versus-adrenaline-slower-onset-longer-action`; `amphetamine-narcolepsy-use`; `ephedrine-use-exception-anaphylactic-shock`; `ephedrine-no-antiallergic-action` (Q14,Q15); `ephedrine-narcolepsy-use`; `ephedrine-long-duration-unchanged-urinary-excretion`; `amphetamine-tolerance-physical-dependence-after-weight-loss` |
+| Q19–Q27 / essay | `amphetamine-central-anorexia`; `ephedrine-convulsions-central-peripheral-excitation`; `ephedrine-tachyphylaxis`; `amphetamine-addiction-dopamine-euphoria`; `amphetamine-cns-effect-exception-sedation`; `ephedrine-tolerance-adrenergic-receptor-downregulation`; `amphetamine-alpha1-active-mydriasis`; `amphetamine-indirect-noradrenaline-release`; `noncatecholamine-sympathomimetic-drugs-written-enumeration` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written/practical state, `docs/questions-import-ready`, Helwan `pending-live`, and prior
+BMS-102 Families 1–242: **`26 × 4 = 104 required and completed searches`**. Each packet used the
+distinctive stem, tested proposition, answer/terminal phrase, and drug/topic or prior-handle
+variant. No live or pending Helwan carrier duplicates this object; matches in prior BMS evidence
+do not change source-local retention.
+
+Exactly **17** handles reuse accepted prior BMS scope: ephedrine nasal/BBB identification;
+amphetamine urine acidification; ephedrine toxic convulsions; ephedrine urine acidification; local
+ephedrine use; both adrenaline-versus-ephedrine comparison handles; amphetamine/narcolepsy;
+ephedrine's anaphylaxis-use exception; absent anti-allergic activity; ephedrine/narcolepsy;
+ephedrine duration/unchanged excretion; amphetamine anorexia; the ephedrine-convulsion mechanism;
+ephedrine tachyphylaxis; amphetamine dopamine/euphoria; and adrenergic downregulation with
+ephedrine tolerance. These reconcile principally to Family 223's weak-base/ephedrine-excretion,
+ephedrine-narcolepsy, and amphetamine-euphoria handles; Family 237's
+`adrenaline-versus-ephedrine` and `amphetamine-therapeutic-uses` scopes; and Family 238's
+`bicarbonate-ephedrine-aspirin-excretion` scope. The other **9** handles have no accepted prior BMS
+question at the same tested scope. Therefore concept arithmetic is **`26 - 17 = +9`**.
+
+### Family-243 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 243 | Auxiliary cumulative (Families 12–243) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 28 = 27 MCQ + 1 written | 3,070 | 762 | 3,832 |
+| Eligible source-supplied answers | 28; 0 unkeyed | 2,105 | 405 | 2,510 |
+| Retained eligible question records | 28 | 2,774 | 552 | 3,326 |
+| Accepted handles / required searches | 26 / 104 | 2,490 / — | — | — |
+| Prior-BMS handle reuses | 17 | — | — | subtract before concept addition |
+| Cross-family concept delta | +9 | +1,289 over primary | 372 | 1,661 |
+| **Distinct tested concepts** | **26 source-local / +9** | **1,289 additions** | **372** | **1,661** |
+
+The checksum closes: **27 MCQ + 1 written = 28 prompts**; **28 answers + 0 unkeyed = 28 raw**;
+**28 raw - 0 literal exclusions = 28 retained**; **28 retained - 2 semantic reductions = 26
+handles**; **26 × 4 = 104 searches**; and **26 handles - 17 prior reuses = +9 concepts**.
+Auxiliary arithmetic is `3,042 + 28 = 3,070` prompts, `2,077 + 28 = 2,105` answers, `2,746 +
+28 = 2,774` retained, `2,464 + 26 = 2,490` handles, and `1,280 + 9 = 1,289` concept
+additions. All eligible arithmetic is `762 + 3,070 = 3,832`, `405 + 2,105 = 2,510`, `552 +
+2,774 = 3,326`, and `372 + 1,289 = 1,661`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,070 prompts / 2,105 answers /
+2,774 retained / 2,490 handles / +1,289 concepts**. All eligible becomes **3,832 / 2,510 /
+3,326 / 1,661**. Family 243 establishes low-authority keyed sympathomimetic-II revision evidence
+only, not official authorship, an authenticated exam/sitting, departmental key, recurrence,
+practical station, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 243
+
+`src_9e10639c82dfb8c3c6b3` is exhausted across all 7 rendered/native pages: every visible source
+and metadata field, stem, option, continuation, key token, written-answer component, duplicate
+proposition, search packet, prior-family relation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-243 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 243 is **304 paths / 297 unique hashes**, leaving exactly **58 selected paths / 51
+unique hashes**. Checksums are **304 + 58 = 362 paths** and **297 + 51 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `1808429d9bce2062cd7389b3e30168fedf944f9fea9792476396f526178fe512`, and the first-
+occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`a4fe969c7249fd87faa92ad1da4989f051fda6bdca1cf0c47fcc1c78fcba50af`.
+
+The exact next unprocessed BMS-102 record is preferred tier-5 `src_0d25673e03af2f4063e9` ·
+`Routes of adminstration.pdf`, SHA-256
+`0d25673e03af2f4063e94c5a7d9b018a1a9488d64813bb5af427f28cf306e9c5`, **3,045,090 bytes**,
+**65 native-text landscape 720×540-point pages** under `Pharmacology / Practical Labs / Virtual
+Lab 1 - Enteral routes of administration`. The manifest records two byte-identical aliases in the
+Virtual Lab 2 and Virtual Lab 3 folders; all three carriers are one preferred object and must be
+reconciled without counting second content. Its visible Samar El-Sawaf/Helwan authority, complete
+teaching/prompt/key/image/practical boundary, four-search ledger, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
