@@ -23200,3 +23200,112 @@ SHA-256 `739b8e00ceaa08ad557162387381a2bceda494b62ddeabaf7e1384f59b833843`).
 It remains unclassified until all 10 pages are rendered and read. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 8 tier-6/rank-9 path debts remain. No download, source edit,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 223 — Tier-6 NSAID infographic deck with ten externally attributed unkeyed cases
+
+Exact source identity is `src_739b8e00ceaa08ad5571`,
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/NSAIDs -103-Helwan 2_260519_182240.pdf`,
+34,803,076 bytes, 10 native 593.33 x 840 pt pages, and SHA-256
+`739b8e00ceaa08ad557162387381a2bceda494b62ddeabaf7e1384f59b833843`.
+The physical file matches that manifest path, size, page count and digest. It is untagged,
+unencrypted, contains no form, and identifies PDF 1.7 with PDFium as creator/producer. All
+ten pages were rendered and read; all ten page renders are distinct and the structural check
+is clean.
+
+### Authority and complete teaching/assessment boundary
+
+The manifest filename contains `103-Helwan`, but no visible page names Helwan, HU, a
+faculty, cohort, sitting, exam, marks or official key. Visible headers say `1st Year
+Pharmacology`; every page is branded `Dr.Abdelkader` and carries an Abdelkader logo. The
+filename supplies topical/path context only. The teaching is named, while page 10's cases are
+external/review assessment evidence rather than eligible Helwan assessment.
+
+The complete physical boundary is:
+
+| Pages | Complete supplied composition |
+|---:|---|
+| 1 | completed central/peripheral analgesic classification infographic |
+| 2–3 | completed NSAID arachidonic-acid/COX, chemical and selectivity classifications |
+| 4–5 | completed salicylate-source/derivative and aspirin pharmacokinetic infographics |
+| 6 | completed aspirin/non-aspirin COX mechanism and low-dose antiplatelet teaching |
+| 7–9 | completed local/systemic analgesic, antipyretic and anti-inflammatory action infographics |
+| 10 | ten four-option clinical/application MCQs, each followed by an obscured `Answer:` field |
+
+Page 10 contains exactly **10 ordinary case MCQs / 40 option occurrences**. Their domains are:
+low-dose aspirin/TXA2, topical methyl salicylate, paracetamol selection, high-dose
+salicylate hyperthermia, irreversible aspirin acetylation, celecoxib selectivity, rofecoxib
+withdrawal, antipyretic sequence, diflunisal features and non-opioid analgesic classification.
+Every answer field is physically covered by an opaque white shape. No answer letter remains
+visible, and the native layer contains neither the case text nor a hidden answer. No answer is
+medically inferred. Exact assessment delta is therefore **0 eligible prompts / +10 external
+ordinary MCQs / 0 external source keys-or-answers / +10 unkeyed prompts / 0 written prompts /
+0 new external concepts**. The ten obscured answer positions are retained as **10 external
+answer residues outside the practical ledger**.
+
+The native text layer repeatedly exposes unrelated `Symphathomimetic :Direct`,
+`Adrenaline { Epinephrine }` material across all ten pages even though it is absent from
+every render. That hidden layer is source contamination, not a second visible teaching deck,
+and is excluded from inventory. Source truth otherwise remains literal and unrepaired,
+including `Counter-irritants`, the printed COX-3/paracetamol classification, the rofecoxib
+withdrawal note, the hyperpyrexia/oxidative-phosphorylation wording and the opaque answer
+shapes.
+
+### Visual and practical boundary
+
+Pages 1–9 are completed infographic teaching; page 10 uses decorative case icons. Every
+diagram, pathway, label and comparison is already supplied. None is masked for learner
+identification or paired with a station command. Exact practical delta is **0 prompts / 0
+teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**. The ten
+obscured answer positions are assessment-answer residues, not practical residues.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The visible teaching and ten cases collapse source-first to five complete
+theoretical/assessment handles:
+
+| Handle / pages and cases | One query on each required surface | Reconciliation |
+|---|---|---|
+| central/peripheral and opioid/non-opioid analgesic classification · 1; case 10 | central analgesics peripheral analgesics opioid non-opioid analgesics | prior LCS analgesic teaching/assessment reuse |
+| NSAID chemical/COX selectivity classification · 2–3; cases 3, 6–7 | NSAID chemical structure selective COX-2 inhibitors COX-3 paracetamol | prior LCS NSAID teaching/assessment reuse |
+| salicylate derivatives and pharmacokinetics · 4–5; cases 2 and 9 | salicylates methyl salicylate diflunisal sodium salicylate pharmacokinetics | prior LCS salicylate teaching/assessment reuse |
+| aspirin/salicylate mechanism, antiplatelet action and toxicity · 6; cases 1, 4–5 | aspirin irreversible COX TXA2 platelets salicylate oxidative phosphorylation | prior LCS aspirin teaching/assessment reuse |
+| analgesic, antipyretic and anti-inflammatory actions · 7–9; case 8 | NSAID analgesic antipyretic anti-inflammatory prostaglandin heat loss bradykinin | prior LCS NSAID teaching/assessment reuse |
+
+Each of the **five accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **5 x 4 =
+20 required search invocations**. Live file-match counts were all **0**;
+pending/import-ready counts were **0 / 0 / 0 / 3 / 0**; prior-source counts were all **0**;
+accepted-LCS counts were **0 / 0 / 1 / 1 / 0**. Complete source-scope comparison against the
+previously inventoried analgesic/NSAID lectures, revisions and question families establishes
+**5 prior-LCS teaching/assessment reuses / 0 additive live / 0 additive pending / 0 additive
+new external concepts**; exact-query misses are not promoted into new concepts.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment becomes
+**7,595 prompts / 7,309 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 223's
+governed delta is **+10 external ordinary MCQs / 0 source answers / +10 unkeyed / 0 eligible /
+0 external concepts / 0 practical**.
+
+Consuming this source's sole path and unique hash changes the remainder from **8 paths / 8
+unique hashes** to **7 paths / 7 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**2 paths / 2 unique hashes within tier**, and rank 9 remains **5 paths / 5 unique hashes
+within rank**. Family 222's checksums were
+`536292beeae08f52cd8848f6148697f9ae442652d1a58260b9f1f75fb8ef93bb` (paths) and
+`dc503ca81e5f4b091f3b318297bfcfe9fbc992637e195baa0e2d548ffeb19a7f` (unique hashes).
+For the exact post-Family-223 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`db985c24034451b855dd60e9c98f867b9987a759b83527a8cfdbfc02fbdd3e65`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`ceff039ca1b55bcef886bbdaf41cbab38802a4fa2deaa9db7c281f501d8a3ad5`.
+
+The exact next manifest-order debt is tier-6 `src_05e2184f9b07b2b05a08`,
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/The_Analgesic_Blueprint.pdf`
+(16,534,241 bytes; 15 OCR-needed 1376 x 768 pt pages; untagged; unencrypted; no form; PDF
+1.4; SHA-256 `05e2184f9b07b2b05a081da7f78e01112b95f8bab33b4fc3d8e3f6698edc0c71`).
+It remains unclassified until all 15 pages are rendered and read. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 7 tier-6/rank-9 path debts remain. No download, source edit,
+ID, content record, catalogue update, import or source copy was created.
