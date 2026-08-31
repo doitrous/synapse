@@ -558,3 +558,46 @@ Removing the eleven processed hashes leaves **85 selected inventory paths / 83 u
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Bacteriology & Mycology.pdf`, SHA-256 `9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19`, 44 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 85 selected inventory paths / 83 unique hashes remain untriaged.
+
+## Completed source — General Bacteriology & Mycology
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Bacteriology & Mycology.pdf` | `9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19` | 44 | empty-text | pages 1–44 rendered and read | CamScanner reproduction titled `Bacteriology & Mycology & Infection Control in Health Care Sittings`, visibly attributed to Amany Tharwat Abdel Rahman, Professor of Microbiology and Immunology. No institution, module, examiner, sitting, marks or authenticated faculty-key claim is visible. The terminal answer tables are source answer evidence, not an official MUST key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is the title cover. Pages 2–39 contain Q1–Q297 as conventional multi-option and matching items. Pages 39–42 continue with Q298–Q334 as thirty-seven true/false items. Pages 43–44 are answer-only tables that visibly enumerate every label Q1–Q334 with one answer token each. There is no separate written question, practical station, image-identification prompt, teaching passage or missing key token.
+
+The exact boundary is **334 objective prompts / 334 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, split **297 conventional multi-option or matching items / 37 true-or-false items**. Matching labels are independently numbered assessment occurrences and are counted once each. Page-break continuations remain one prompt occurrence. Printed spelling, deprecated terminology, internal contradictions and academically questionable answer tokens remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 334 prompts collapse source-first into eight coherent handles. Every handle is already represented by concepts established in the preceding FHB-102-2 banks, including the broad 177-question AE carrier and the module-wide microbiology/pharmacology sections. No genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Microbial classification, prokaryote/eukaryote distinction and bacterial morphology | prior microorganism-classification and bacterial-structure handles | prior-FHB-102-2 collapse |
+| Gram-positive/negative envelopes, membrane, capsule, pili, flagella, spores, ribosomes and plasmids | prior envelope/wall/membrane and appendage/capsule/spore/plasmid handles | prior-FHB-102-2 collapse |
+| Bacterial nutrition, oxygen/temperature requirements, division and growth curve | prior nutritional/environmental-growth and growth-curve/division handles | prior-FHB-102-2 collapse |
+| Chromosome, mutation, transposons, conjugation, transformation, transduction and bacteriophages | prior chromosome/mutation/transposon and horizontal-gene-transfer/phage handles | prior-FHB-102-2 collapse |
+| Antimicrobial principles, mechanisms, clinical uses, adverse effects, prophylaxis and resistance | prior antibacterial-pharmacology, antimicrobial-principles and resistance handles | prior-FHB-102-2 collapse |
+| Normal flora, symbiosis, carriers, transmission and infectious-disease epidemiology | prior normal-flora/ecological-relationship and infection-stage/epidemiology handles | prior-FHB-102-2 collapse |
+| Pathogenicity, invasion, endotoxin, exotoxin and toxoid | prior virulence, toxin, colonization and carrier handles | prior-FHB-102-2 collapse |
+| Fungal cellular structure and antifungal mechanisms | prior fungal structure/classification and antifungal-target handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, missing-answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This twelfth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+334 questions / +334 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,231 | 1,194 | 60 | 0 | 0 | 60 | TBD |
+
+Removing the twelve processed hashes leaves **84 selected inventory paths / 82 unique SHA-256s**. Their sorted-newline checksum is `01501d064cbdb2956ab7055cb13ca0d13d3875f09fc62c4deda233853b0743a9`. Remaining audit-review debt is **35 substantive-text / 23 sparse-text / 13 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`12 + 82 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Virology.pdf`, SHA-256 `e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def`, 20 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 84 selected inventory paths / 82 unique hashes remain untriaged.

@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "59e23da982f1f2c1135d3a1dd902ec8971be920fb64456da2021c78da0a965ee",
-    "triageMarkdown": "6fe8a134b12fb7437fa1c5bfb28a66599c26c4cef4d4299d427906ea45566292"
+    "readinessMarkdown": "592a3e68e4bd020c6e1b6a6ff19d3b4a42450b28407621958d3b529c9c38ad32",
+    "triageMarkdown": "6714e10f7089f7051c34a131716c3b5417f5f87232ee5196f24af82a7329a60d"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -73,6 +73,7 @@
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+      "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
       "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
@@ -81,7 +82,7 @@
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 11
+    "uniqueSha256": 12
   },
   "completedSourceCoverage": [
     {
@@ -682,11 +683,79 @@
         "the footer attribution and Spring 2026 filename are not treated as institution, exam-sitting or authenticated faculty-key authority",
         "the inline highlights are source answer evidence rather than authenticated faculty-key observations"
       ]
+    },
+    {
+      "sha256": "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
+      "sourcePages": 44,
+      "renderedReadPages": "1-44",
+      "nonAssessmentPages": "1",
+      "questionPages": "2-42",
+      "answerOnlyPages": "43-44",
+      "printedPromptObservations": 334,
+      "objectiveMcqPrompts": 334,
+      "conventionalMultipleChoiceOrMatchingPrompts": 297,
+      "trueFalsePrompts": 37,
+      "printedAnswerTokens": 334,
+      "printedKeyObservations": 334,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Microbial world and bacterial cell structure",
+          "questionPages": "2-16",
+          "questionLabels": "1-115"
+        },
+        {
+          "section": "Bacterial growth and physiology",
+          "questionPages": "16-20",
+          "questionLabels": "116-155"
+        },
+        {
+          "section": "Bacterial genetics",
+          "questionPages": "20-27",
+          "questionLabels": "156-199"
+        },
+        {
+          "section": "Antibacterial agents and chemotherapy",
+          "questionPages": "27-35",
+          "questionLabels": "200-271"
+        },
+        {
+          "section": "Host-microbe relationship and epidemiology of infectious diseases",
+          "questionPages": "35-39",
+          "questionLabels": "272-297"
+        },
+        {
+          "section": "True or false review",
+          "questionPages": "39-42",
+          "questionLabels": "298-334"
+        }
+      ],
+      "sourceFirstHandles": 8,
+      "priorFhb1022CollapsedHandles": 8,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 334,
+      "familyAnswerDelta": 334,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "CamScanner reproduction titled Bacteriology & Mycology & Infection Control in Health Care Sittings and visibly attributed to Amany Tharwat Abdel Rahman, Professor of Microbiology and Immunology; no institution, module, examiner, sitting, marks or authenticated faculty-key claim is visible; the terminal answer tables are source answer evidence rather than an official MUST key",
+      "boundaryDisposition": "one cover page; Q1-Q297 as conventional multi-option or matching items and Q298-Q334 as true-or-false items on pages 2-42; complete answer-only tables for Q1-Q334 on pages 43-44; 334 distinct objective prompts and 334 prompt-matched printed answer observations with no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "matching labels are independently numbered assessment occurrences and are counted once each",
+        "page-break continuations remain one prompt occurrence",
+        "printed spelling, deprecated terminology, internal contradictions and academically questionable answer tokens remain source truth without correction",
+        "the professor attribution and question-book title are not treated as MUST institution, exam-sitting or authenticated faculty-key authority"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 897,
-    "printedKeyObservations": 860,
+    "printedPromptObservations": 1231,
+    "printedKeyObservations": 1194,
     "namedConceptsAssigned": 60,
     "liveHits": 0,
     "pendingHits": 0,
@@ -758,20 +827,26 @@
     "pages": 6,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twelfthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Bacteriology & Mycology.pdf",
     "sha256": "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
     "pages": 44,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Virology.pdf",
+    "sha256": "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
+    "pages": 20,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 85,
-    "uniqueSha256": 83,
-    "sortedNewlineSha256": "bdce7443886490fe39cf7ba9434798f41f1be46e44e0891e566866ba6039a702",
+    "inventoryMetadataRows": 84,
+    "uniqueSha256": 82,
+    "sortedNewlineSha256": "01501d064cbdb2956ab7055cb13ca0d13d3875f09fc62c4deda233853b0743a9",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
-      "empty-text": 14,
+      "empty-text": 13,
       "sparse-text": 23,
       "substantive-text": 35
     }
@@ -779,14 +854,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 2,
     "audit-not-found": 11,
-    "empty-text": 14,
+    "empty-text": 13,
     "sparse-text": 23,
     "substantive-text": 35
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 11,
-    "remainingUniqueSha256": 83,
+    "processedUniqueSha256": 12,
+    "remainingUniqueSha256": 82,
     "processedPlusRemaining": 94
   }
 }
