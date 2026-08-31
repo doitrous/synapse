@@ -100,7 +100,7 @@ function downloadCsv(rows: AdminUser[]): void {
   const url = URL.createObjectURL(blob)
   const link = document.createElement('a')
   link.href = url
-  link.download = `maristana-users-${new Date().toISOString().slice(0, 10)}.csv`
+  link.download = `nishany-users-${new Date().toISOString().slice(0, 10)}.csv`
   link.click()
   URL.revokeObjectURL(url)
 }
