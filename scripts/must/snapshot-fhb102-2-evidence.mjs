@@ -86,9 +86,10 @@ const PROCESSED_FAMILY_HASHES = [
   'd6c4b7b739a00dd96eb575836ca1ff2b64e4b006aa7cb6d32b2c995256418349',
   '1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a',
   '430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c',
+  'e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '09f17661a418883cd5bef5aaf5d12a4038fc29bb7c999da43f25fb6a1983b7bd'
+const REMAINING_CHECKSUM = 'c769c7c7b67d7c44a5a848ead6f127258cfbf25a9e7fb1a5ffe0346ad7bf8210'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -509,10 +510,16 @@ const SEVENTY_SEVENTH_SOURCE = {
   pages: 8,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SEVENTY_EIGHTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_Final_MCQ_40 (Macrolides, Clindamycin & Chloramphenicol).pdf',
   sha256: 'e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556',
   pages: 6,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Exam Night Questions & Notes (Final).pdf',
+  sha256: 'cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca',
+  pages: 8,
   sourceProcessed: false,
 }
 const SIXTY_NINTH_SOURCE = {
@@ -632,10 +639,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'substantive-text': 6 }
+  const expected = { 'audit-not-found': 11, 'substantive-text': 5 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=6-substantive/0-sparse/0-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=5-substantive/0-sparse/0-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -723,7 +730,7 @@ for (const value of [SIXTY_SEVENTH_SOURCE.relativePath, SIXTY_SEVENTH_SOURCE.sha
 for (const value of [SIXTY_EIGHTH_SOURCE.relativePath, SIXTY_EIGHTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
-for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE, SEVENTY_SIXTH_SOURCE, SEVENTY_SEVENTH_SOURCE]) {
+for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE, SEVENTY_SIXTH_SOURCE, SEVENTY_SEVENTH_SOURCE, SEVENTY_EIGHTH_SOURCE]) {
   for (const value of [source.relativePath, source.sha256]) {
     if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
   }
@@ -771,7 +778,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 77 || remainingHashes.length !== 17 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 78 || remainingHashes.length !== 16 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -779,7 +786,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'substantive-text': 6 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'substantive-text': 5 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -3410,9 +3417,45 @@ const provenance = {
       boundaryDisposition: 'page 1 is a cover; pages 2-7 contain one continuous Q1-Q40 ordinary text-MCQ sequence; page 8 prints a complete forty-entry answer-letter table; the exact boundary is forty objective prompts and forty prompt-matched printed answer observations with zero absent, written, practical, image-dependent or teaching-only occurrences',
       preservedSourceDefects: ['the cover claim that answer letters are intentionally balanced and varied is retained as source wording rather than authority evidence', 'printed wording, terminology and academically questionable questions or answer letters remain source truth without correction', 'the terminal answer table is counted as author-supplied printed observations and is not promoted to an authenticated faculty key'],
     },
+    {
+      sha256: SEVENTY_EIGHTH_SOURCE.sha256,
+      sourcePages: 6,
+      renderedReadPages: '1-6',
+      printedPromptObservations: 40,
+      distinctAssessmentPrompts: 40,
+      objectiveMcqPrompts: 40,
+      writtenPrompts: 0,
+      capturedQuestionLabels: 'Q1-Q40',
+      printedKeyObservations: 40,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 4,
+      priorFhb1022CollapsedHandles: 4,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 40,
+      familyAnswerDelta: 40,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Macrolides, first sequence', pages: '1-3', questionLabels: 'Q1-Q17', objectiveMcqPrompts: 17, printedKeyObservations: 0 },
+        { section: 'Macrolides and opening clindamycin', pages: '3-5', questionLabels: 'Q18-Q35', objectiveMcqPrompts: 18, printedKeyObservations: 0 },
+        { section: 'Clindamycin and chloramphenicol', pages: '5', questionLabels: 'Q36-Q40', objectiveMcqPrompts: 5, printedKeyObservations: 0 },
+        { section: 'Answer key', pages: '6', objectiveMcqPrompts: 0, printedKeyObservations: 40 },
+      ],
+      sourceFirstHandleLabels: ['macrolide classification, absorption, distribution, metabolism and elimination', 'macrolide mechanism, spectrum, clinical uses and adverse effects', 'macrolide drug interactions, telithromycin and newer-macrolide comparisons', 'clindamycin and chloramphenicol mechanisms, uses and toxicities'],
+      replayDisposition: 'normalized stem screening of all forty fields against all previously processed FHB 102-2 text finds no same-stem assessment candidate; complete prompt-plus-option replay count is therefore zero and all forty physical fields survive as distinct occurrences',
+      authorityDisposition: 'anonymous ReportLab-generated revision handout labelled FHB2-102 Final Lec 2 and 40 Exam-Level MCQs; no visible author, MUST institution or platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration appears',
+      boundaryDisposition: 'pages 1-5 contain one continuous Q1-Q40 ordinary text-MCQ sequence, with Q17, Q26 and Q35 spanning page boundaries; page 6 prints a complete forty-entry answer-letter table; the exact boundary is forty objective prompts and forty prompt-matched printed answer observations with zero absent, written, practical, image-dependent or teaching-only occurrences',
+      preservedSourceDefects: ['the instruction that answer choices were redistributed to make the key balanced and varied is retained as source wording rather than authority evidence', 'printed wording, terminology and academically questionable questions or answer letters remain source truth without correction', 'the terminal answer table is counted as author-supplied printed observations and is not promoted to an authenticated faculty key'],
+    },
   ],
   partialSourceCoverage: [],
-  triageCumulative: { printedPromptObservations: 5247, printedKeyObservations: 5014, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 5287, printedKeyObservations: 5054, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -3490,6 +3533,7 @@ const provenance = {
   seventyFifthSourceCandidate: SEVENTY_FIFTH_SOURCE,
   seventySixthSourceCandidate: SEVENTY_SIXTH_SOURCE,
   seventySeventhSourceCandidate: SEVENTY_SEVENTH_SOURCE,
+  seventyEighthSourceCandidate: SEVENTY_EIGHTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

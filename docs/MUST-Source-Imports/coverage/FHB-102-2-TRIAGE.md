@@ -2392,3 +2392,31 @@ Removing the seventy-seven processed hashes leaves **17 selected inventory paths
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_Final_MCQ_40 (Macrolides, Clindamycin & Chloramphenicol).pdf`, SHA-256 `e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556`, 6 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 17 selected inventory paths / 17 unique hashes remain untriaged.
+
+## Completed source — `FHB2-102 Final Lec 2 MCQ`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_Final_MCQ_40 (Macrolides, Clindamycin & Chloramphenicol).pdf` | `e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556` | 6 | substantive-text | pages 1–6 rendered and read | Anonymous ReportLab revision handout labelled `FHB2-102 Final Lec 2` and `40 Exam-Level MCQs - Macrolides, Clindamycin & Chloramphenicol`. No visible author, MUST institution or platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Pages 1–5 contain one continuous Q1–Q40 sequence; Q17 crosses pages 2–3, Q26 crosses pages 3–4 and Q35 crosses pages 4–5. Page 6 prints a complete Q1–Q40 answer-letter table. The exact boundary is **40 ordinary objective MCQs / 40 prompt-matched printed answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. The terminal table is retained as an author-supplied printed answer observation rather than promoted to an authenticated faculty key.
+
+### Replay and exactly-four-search gate
+
+Normalized stem screening against all seventy-seven processed hash families finds **0 same-stem candidates**, so no complete prompt-plus-option replay exists and all **40 questions / 40 answers** survive as distinct physical occurrences.
+
+Four source-first handles cover macrolide classification, absorption, distribution, metabolism and elimination; macrolide mechanism, spectrum, uses and adverse effects; macrolide interactions, telithromycin and newer-macrolide comparisons; and clindamycin/chloramphenicol mechanisms, uses and toxicities. All four collapse to prior FHB-102-2 evidence. Search arithmetic is **4 source-first − 4 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+The cover's claim that choices were redistributed to make the answer key balanced and varied, along with printed wording and academically questionable question or answer claims, remains literal source truth without correction.
+
+### Delta, cumulative totals and next source
+
+This seventy-eighth one-path hash is now `sourceProcessed=true`, adding **+40 questions / +40 answers / +0 concepts**. Cumulative triage is **5,287 questions / 5,054 answers / 62 concepts**.
+
+Removing the seventy-eight processed hashes leaves **16 selected inventory paths / 16 unique SHA-256s**. Their sorted-newline checksum is `c769c7c7b67d7c44a5a848ead6f127258cfbf25a9e7fb1a5ffe0346ad7bf8210`. Remaining audit-review debt is **5 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`78 + 16 = 94`** and path accounting is **`80 + 16 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Exam Night Questions & Notes (Final).pdf`, SHA-256 `cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca`, 8 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 16 selected inventory paths / 16 unique hashes remain untriaged.

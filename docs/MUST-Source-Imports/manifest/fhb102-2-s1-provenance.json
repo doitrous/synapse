@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "a0f29b4e0b7aeca86a117621e200eb6981f2765f99068a926608f83c28861f03",
-    "triageMarkdown": "7b538bf7d448574fe6c395b0b0cc4bbceceece99098e2e364b81e9bb6ba82016"
+    "readinessMarkdown": "f344dfde3859e97d7df769b1d3c4cdb7f71bccc3c169f9b7487a932f80b61c12",
+    "triageMarkdown": "e26ecfb3a8525403a1cbfa52dd68a632f728d9e52ee692de329ba677f78a3c6d"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -139,6 +139,7 @@
       "da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
       "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
+      "e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556",
       "e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
@@ -147,7 +148,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 77
+    "uniqueSha256": 78
   },
   "completedSourceCoverage": [
     {
@@ -4636,12 +4637,80 @@
         "printed wording, terminology and academically questionable questions or answer letters remain source truth without correction",
         "the terminal answer table is counted as author-supplied printed observations and is not promoted to an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556",
+      "sourcePages": 6,
+      "renderedReadPages": "1-6",
+      "printedPromptObservations": 40,
+      "distinctAssessmentPrompts": 40,
+      "objectiveMcqPrompts": 40,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "Q1-Q40",
+      "printedKeyObservations": 40,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 4,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 40,
+      "familyAnswerDelta": 40,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Macrolides, first sequence",
+          "pages": "1-3",
+          "questionLabels": "Q1-Q17",
+          "objectiveMcqPrompts": 17,
+          "printedKeyObservations": 0
+        },
+        {
+          "section": "Macrolides and opening clindamycin",
+          "pages": "3-5",
+          "questionLabels": "Q18-Q35",
+          "objectiveMcqPrompts": 18,
+          "printedKeyObservations": 0
+        },
+        {
+          "section": "Clindamycin and chloramphenicol",
+          "pages": "5",
+          "questionLabels": "Q36-Q40",
+          "objectiveMcqPrompts": 5,
+          "printedKeyObservations": 0
+        },
+        {
+          "section": "Answer key",
+          "pages": "6",
+          "objectiveMcqPrompts": 0,
+          "printedKeyObservations": 40
+        }
+      ],
+      "sourceFirstHandleLabels": [
+        "macrolide classification, absorption, distribution, metabolism and elimination",
+        "macrolide mechanism, spectrum, clinical uses and adverse effects",
+        "macrolide drug interactions, telithromycin and newer-macrolide comparisons",
+        "clindamycin and chloramphenicol mechanisms, uses and toxicities"
+      ],
+      "replayDisposition": "normalized stem screening of all forty fields against all previously processed FHB 102-2 text finds no same-stem assessment candidate; complete prompt-plus-option replay count is therefore zero and all forty physical fields survive as distinct occurrences",
+      "authorityDisposition": "anonymous ReportLab-generated revision handout labelled FHB2-102 Final Lec 2 and 40 Exam-Level MCQs; no visible author, MUST institution or platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration appears",
+      "boundaryDisposition": "pages 1-5 contain one continuous Q1-Q40 ordinary text-MCQ sequence, with Q17, Q26 and Q35 spanning page boundaries; page 6 prints a complete forty-entry answer-letter table; the exact boundary is forty objective prompts and forty prompt-matched printed answer observations with zero absent, written, practical, image-dependent or teaching-only occurrences",
+      "preservedSourceDefects": [
+        "the instruction that answer choices were redistributed to make the key balanced and varied is retained as source wording rather than authority evidence",
+        "printed wording, terminology and academically questionable questions or answer letters remain source truth without correction",
+        "the terminal answer table is counted as author-supplied printed observations and is not promoted to an authenticated faculty key"
+      ]
     }
   ],
   "partialSourceCoverage": [],
   "triageCumulative": {
-    "printedPromptObservations": 5247,
-    "printedKeyObservations": 5014,
+    "printedPromptObservations": 5287,
+    "printedKeyObservations": 5054,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -5109,29 +5178,35 @@
     "pages": 8,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "seventyEighthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_Final_MCQ_40 (Macrolides, Clindamycin & Chloramphenicol).pdf",
     "sha256": "e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556",
     "pages": 6,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Exam Night Questions & Notes (Final).pdf",
+    "sha256": "cb110e4f11346fa2b531a29a7617ff9dd5c0c91f714d9efcd332826dee5c8fca",
+    "pages": 8,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 17,
-    "uniqueSha256": 17,
-    "sortedNewlineSha256": "09f17661a418883cd5bef5aaf5d12a4038fc29bb7c999da43f25fb6a1983b7bd",
+    "inventoryMetadataRows": 16,
+    "uniqueSha256": 16,
+    "sortedNewlineSha256": "c769c7c7b67d7c44a5a848ead6f127258cfbf25a9e7fb1a5ffe0346ad7bf8210",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
-      "substantive-text": 6
+      "substantive-text": 5
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
-    "substantive-text": 6
+    "substantive-text": 5
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 77,
-    "remainingUniqueSha256": 17,
+    "processedUniqueSha256": 78,
+    "remainingUniqueSha256": 16,
     "processedPlusRemaining": 94
   }
 }
