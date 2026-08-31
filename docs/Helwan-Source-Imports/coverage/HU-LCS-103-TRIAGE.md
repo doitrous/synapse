@@ -23521,3 +23521,89 @@ SHA-256 `edbe73fd733de82dd04e2cfad5553dd79cec594721e03a9b254e440351a77b3b`).
 It remains unclassified until both pages are rendered and read. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 5 tier-6/rank-9 path debts remain. No download, source edit,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 226 — Rank-9 named electrolyte/membrane-excitability teaching note
+
+Exact source identity is `src_edbe73fd733de82dd04e`,
+`Year 1/LCS 103/Physiology/Hyper- vs Hypo- Kalemia/Hyperkalemia vs hypokalemia.pdf`,
+73,197 bytes, 2 native 612 x 865 pt pages, and SHA-256
+`edbe73fd733de82dd04e2cfad5553dd79cec594721e03a9b254e440351a77b3b`.
+The physical file matches that path, size, page count and digest. It is untagged, unencrypted,
+contains no form, identifies PDF 1.4, and passes a structural check. Both pages were rendered
+at 180 dpi, native text was reviewed, and both distinct pages were visually read.
+
+### Authority and complete teaching/assessment boundary
+
+Both pages visibly name `Nermien Waly, PhD, MD.` Page 1's `our lecture discussion` wording
+supports lecturer-authored teaching, but neither page nor metadata names Helwan, HU, a
+faculty, cohort, sitting, exam, marks or official key. The folder supplies module context only.
+This is named LCS-fit teaching evidence, not eligible or external assessment evidence.
+
+Page 1 is headed `The effect of ECF potassium level imbalance on membrane excitability`.
+It states that hyperkalemia and hypokalemia can reduce neuronal firing/excitability and affect
+musculoskeletal, cardiac and smooth muscle. It then explains hyperkalemia as reduced
+transmembrane K+ concentration gradient, an RMP shift from the printed -70 mV example to
+-60 mV nearer the printed -58 mV threshold, Na+ channel inactivation and reduced
+excitability termed membrane accommodation. Page 2 completes hypokalemia: increased K+
+concentration gradient shifts RMP toward the printed -90 mV K+ equilibrium potential and
+away from threshold, producing hyperpolarization and reduced excitability, followed by a
+review suggestion for RMP/equilibrium-potential development.
+
+No page contains an interrogative stem, option set, response field, blank, learner command,
+written task, answer reveal or key. Exact assessment delta is **0 eligible prompts / 0
+external prompts / 0 ordinary objective prompts / 0 written prompts / 0 keys-or-answers / 0
+unkeyed prompts**. Source truth remains literal and unrepaired, including the note's claim
+that `depolarization` is an inaccurate term here and `accommodation` is more accurate.
+
+### Visual and practical boundary
+
+The two pages are continuous prose with coloured emphasis and no figure, table, specimen,
+model, curve, masked label or station command. Exact practical delta is **0 prompts / 0
+teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The complete teaching collapses source-first to two handles:
+
+| Handle | Exact four-surface query | Reconciliation |
+|---|---|---|
+| hyperkalemia, depolarization and accommodation | hyperkalemia potassium gradient depolarization resting membrane potential sodium channel inactivation accommodation | prior LCS membrane-excitability reuse |
+| hypokalemia, hyperpolarization and reduced excitability | hypokalemia potassium gradient hyperpolarization resting membrane potential reduced excitability | prior LCS membrane-excitability reuse |
+
+Each handle received exactly one search against live, pending/import-ready, prior
+source-import and accepted LCS: **2 x 4 = 8 required search invocations**. Exact-query
+file-match counts were **0 on every surface**. Full scope comparison against Family 225's
+retained cell/membrane boundary and the prior LCS muscle-physiology sources establishes **2
+prior-LCS theoretical reuses / 0 additive live / 0 additive pending / 0 additive new teaching
+scopes**; exact-query misses are not promoted into new scopes.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,632 prompts / 7,346 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 226's
+assessment, practical and disposition deltas are entirely zero.
+
+Consuming this source's sole path and unique hash changes the remainder from **5 paths / 5
+unique hashes** to **4 paths / 4 unique hashes**: tier 3 remains **0 / 0**, tier 6 remains
+**1 path / 1 unique hash within tier**, and rank 9 becomes **3 paths / 3 unique hashes within
+rank**. Family 225's checksums were
+`3d1fb32e10ed43fff0b22088cc50bb7866bcd8e2e41775d9bec3dd33ed949328` (paths) and
+`12f0cfaf6499720e425d1ee55ac9986cd0376a6d517a97aad391eef79e3c04ca` (unique hashes).
+For the exact post-Family-226 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`c7079efb5121dccb33c9ab6455c9fe2a521748821c2ca698272eefcd2ff96635`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`389beca1523a39ec5ec29d1a2a17b4a79dd23f54f7f8554f7754ecdeebdccc6d`.
+
+The exact next manifest-order debt is rank-9 `src_2b1ba8f9c9532c26b4f7`,
+`Year 1/LCS 103/Physiology/LCS questions/103-LCS-Questions and answers-MS-26.pdf`
+(418,682 bytes; 14 native 720 x 540 pt pages; PDF 1.5; SHA-256
+`2b1ba8f9c9532c26b4f7ab62e2865a1f4efa82f671a5d82db85fa6c170cd320c`).
+Family 187 already inventoried the bitwise-identical `All Subjects/Questions` path, so the
+next family requires duplicate-path adjudication with zero second content inventory.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 4 tier-6/rank-9 path debts remain.
+No download, source edit, ID, content record, catalogue update, import or source copy was
+created.
