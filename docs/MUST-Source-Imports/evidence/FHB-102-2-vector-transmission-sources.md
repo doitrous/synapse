@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14, Q15, Q16 and Q17 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14, Q15, Q16, Q17 and Q18 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
 
 ## confidence
 0.55
@@ -595,7 +595,7 @@ en
 Locally supplied teaching material; internal curriculum authoring only.
 
 ## qualification
-All 49 pages were previously rendered and visually read under the governed FHB102-2 source triage. Pages 26–32 were directly rechecked for Q16. Page 31 explicitly lists aplastic anemia under chloramphenicol adverse effects, supporting the anonymous bank's unchanged printed A without inference. The deck is teaching evidence only and contains no authenticated examiner key.
+All 49 pages were previously rendered and visually read under the governed FHB102-2 source triage. Pages 26–32 were directly rechecked for Q16 and Q18. Page 31 explicitly lists aplastic anemia and gray baby syndrome under chloramphenicol adverse effects, supporting both anonymous-bank printed keys without inference. The deck is teaching evidence only and contains no authenticated examiner key.
 
 ## confidence
 0.75
@@ -650,7 +650,7 @@ en
 Locally supplied teaching material; internal curriculum authoring only.
 
 ## qualification
-All 17 pages were rendered and visually read. The deck contains no visible institution, department, lecturer or examiner attribution. Page 12 directly lists pseudomembranous colitis and diarrhea under clindamycin adverse effects, supporting Q17's unchanged printed A without inference. The same deck's chloramphenicol section was used only as corroboration during Q16 assessment because it uses broader bone-marrow-depression wording rather than the exact aplastic-anemia term.
+All 17 pages were rendered and visually read. The deck contains no visible institution, department, lecturer or examiner attribution. Page 12 directly lists pseudomembranous colitis and diarrhea under clindamycin adverse effects, supporting Q17's unchanged printed A without inference. Page 15 directly names grey baby syndrome in neonates under chloramphenicol adverse effects, supporting Q18's unchanged printed B; the same slide's broader bone-marrow-depression wording was only corroborative for Q16 and was not rewritten into aplastic anemia.
 
 ## confidence
 0.75
