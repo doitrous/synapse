@@ -27080,3 +27080,111 @@ visibly reads `MCQ Module (103)` and **Dr. Ahmed Abdelrahman**; iOS/Quartz metad
 2021. Its exact module/institutional authority, prompt/key/written/image/practical boundary,
 same-source/prior collapse, eligible gate, arithmetic, and subsequent exact debt remain to be
 separately adjudicated.
+
+## Family 266 — external Module-103 Dr Ahmed Abdelrahman keyed general-pharmacology bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_0397c4fba588d2059357` · `MCQs - MCQ Module 103.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `0397c4fba588d205935706c6b90a48364c494b580517cba7baef74fcca29ef8c` · **2,214,785 bytes** |
+| Format / complete visual boundary | **Ten native-text portrait US-letter pages, PDF 1.3**. All ten pages were rendered at 160 dpi into ten non-empty 1,360×1,761-pixel images and read page by page at original detail. Coherent layout extraction contains **3,024 words / 19,711 bytes** and agrees with every cover element, source number, stem, option, blue response box, handwritten correction, answer-table token, footer, and printed page number. No form, JavaScript, encryption, hidden response layer, page, or crop remainder exists. |
+| Visible provenance | The cover visibly reads **`MCQ Module (103)`** and **`Dr. Ahmed Abdelrahman`**. Printed pages 1–9 contain the 67-question bank and terminal key. No page visibly names Helwan University, Faculty of Medicine Helwan, BMS-102, an academic year, examination sitting, marks, candidate, duration, or departmental approval. |
+| Metadata caution | Producer is iOS 14.5 Quartz PDFContext; creation and modification are both 5 May 2021. These capture fields establish only the export event, not authorship, institution, module authority, academic year, or sitting. |
+| Authority / eligibility | Visible **Module 103** conflicts with the governed **BMS-102** lane, and the local BMS-102 folder supplies no visible institutional counter-marker. The carrier is therefore preserved as an external/module-mismatched Dr Ahmed Abdelrahman revision bank, but excluded from primary, auxiliary, and all-eligible Helwan totals. It is not an official examination, authenticated departmental key, candidate response, or practical record. |
+
+### Complete prompt, answer, written, image, and practical boundary
+
+| Physical page / source refs | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1 | Cover only: `MCQ Module (103)` / Dr Ahmed Abdelrahman | **0 prompts**; provenance furniture only. |
+| 2 · Q1–Q8 | Pharmacokinetics/ADME, diffusion, active transport, lipid solubility, weak-acid ratio, first pass, IV bioavailability | **8 keyed five-option text MCQs**. |
+| 3 · Q9–Q15 | Bioavailability/AUC, IV route, plasma-protein binding, distribution, loading dose, placental transfer | **7 keyed five-option text MCQs**. |
+| 4 · Q16–Q23 | Quaternary drugs, hypoalbuminemia, Phase I/II, microsomal inhibition/induction | **8 keyed five-option text MCQs**. |
+| 5 · Q24–Q31 | Metabolic outcomes, prodrug, toxic metabolite, solubility, conjugation, CYP450 inhibition, urinary-pH trapping | **8 keyed five-option text MCQs**. |
+| 6 · Q32–Q39 | Renal excretion, zero-/first-order kinetics, steady state, efficacy | **8 keyed five-option text MCQs**. |
+| 7 · Q40–Q48 | Affinity/efficacy, partial agonism, antagonism, anaphylaxis, supersensitivity, teratogenicity | **9 keyed five-option text MCQs**. |
+| 8 · Q49–Q56 | Tolerance, idiosyncrasy/G6PD, teratogenicity, therapeutic index/margin of safety, elderly dosing | **8 keyed five-option text MCQs**. |
+| 9 · Q57–Q63 | Elderly pharmacokinetics, synergism, absorption/excretion interactions and mechanisms | **7 keyed five-option text MCQs**. |
+| 10 · Q64–Q67 + key | Mixed correctness statements, therapeutic index, allergy manifestations; terminal Q1–Q67 answer table | **4 keyed five-option text MCQs + complete source-supplied key**. |
+
+The exact source-local boundary is **67 raw prompt occurrences = 67 five-option text MCQs**, with
+**67 terminal answer entries / 0 unkeyed prompts**. There are **0 free-response written operations,
+0 drawings, 0 image-bearing prompts, 0 authenticated practical stations, 0 candidate responses,
+and 0 teaching-only callouts**. Blue boxes and handwritten annotations form a second visible
+solution layer, not additional prompts. All wording and source answer states are retained without
+silent correction or endorsement.
+
+Two source answer anomalies remain explicit. Q4's blue body box selects E while the terminal table
+keys D; D is retained as the terminal supplied key and E as a conflicting body annotation. Q44 has
+a singularly worded noncompetitive-antagonist stem, a blue body box on A, handwritten checks beside
+B/C/D and an `Except` correction, while the terminal table supplies multi-answer **BCD**. Q54's
+multi-answer **A,D** is consistent between body and terminal table and is not an anomaly.
+
+### Source-local replay, external zero gate, search ruling, and prior-BMS reconciliation
+
+All **67** source occurrences remain preserved external records. Ten semantic reductions avoid
+double-counting repeated tested propositions while retaining every occurrence and key: Q7/Q11
+(IV gives 100% bioavailability); Q30/Q32 (acidic urine increases weak-base excretion); Q33/Q36
+(zero order eliminates a constant amount, unlike first order); Q39/Q41 (efficacy is maximum effect);
+Q43/Q44 (noncompetitive antagonism lowers maximum response); Q48/Q52 (teratogenicity); Q50/Q53
+(genetic idiosyncrasy); Q54/Q55 (therapeutic index/safety ratio); and Q58/Q61/Q63 (synergism is
+greater than the sum, two reductions). Thus the carrier contains **57 source-local external
+proposition handles**, but none becomes an accepted Helwan handle.
+
+Authority exclusion occurs before the exactly-four-search gate: the visible Module-103 designation
+contradicts BMS-102 and no visible Helwan marker repairs that mismatch. Consequently **0 eligible
+records and 0 accepted Helwan handles survive, so exactly 0 four-search packets are required or
+performed**. This is a governed zero gate, not an incomplete search ledger.
+
+The external propositions visibly replay broad eligible BMS scope already represented in Families
+202, 223–224, 228–230, 233–240, 242–243, 251–253, and 257–265: ADME, bioavailability, distribution,
+metabolism, renal excretion, kinetic order, dose-response, antagonism, adverse reactions, safety,
+and drug interaction. Because external exclusion precedes eligible prior-family reconciliation,
+those relations cannot add or reuse an eligible tested handle. Prior-BMS reuse is **0** and concept
+delta is **+0**.
+
+### Family-266 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 266 eligible delta | Auxiliary cumulative (Families 12–266) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,431 | 762 | 4,193 |
+| Eligible source-supplied answers | 0 | 2,417 | 405 | 2,822 |
+| Retained eligible question records | 0 | 3,135 | 552 | 3,687 |
+| Accepted handles / required searches | 0 / 0 | 2,813 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,427 over primary | 372 | 1,799 |
+| **Distinct tested concepts** | **+0 eligible** | **1,427 additions** | **372** | **1,799** |
+
+The eligible checksum closes at zero: external source-local **67 prompts / 67 answers / 67 retained /
+57 proposition handles** do not enter Helwan arithmetic. Primary remains **762 / 405 / 552 / 372**.
+Auxiliary remains **3,431 prompts / 2,417 answers / 3,135 retained / 2,813 handles / +1,427
+concepts**. All eligible remains **4,193 / 2,822 / 3,687 / 1,799**. Family 266 establishes only
+external/module-mismatched revision-bank, annotation, and answer-layer evidence.
+
+### Exact next debt and remaining manifest distance after Family 266
+
+`src_0397c4fba588d2059357` is exhausted across all ten native/rendered pages: every cover element,
+question, option, answer token, blue box, handwritten correction, replay, authority limitation,
+metadata field, zero-gate term, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-266 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 266
+governs **1 selected path / 1 unique hash**. The governed set through Family 266 is therefore
+**331 paths / 320 unique hashes**, leaving exactly **31 ungoverned selected paths / 28 unique
+hashes**. Checksums are **331 + 31 = 362 paths** and **320 + 28 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`ca1d6df25d16c6506fc7e3e00c55d9c1b14a015af1a8d986bbd3a59f52ac8d33`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`de44847b9f273be0fc49593135b8237fd3ac50c278f9b16ffbc564a8b40e2088`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_c0a94a4717d5f478b235` ·
+`MCQs - MCQ PKa & Distribution.pdf`, SHA-256
+`c0a94a4717d5f478b23567e51883c12d1f6394ffafeb6f02cbc2404dc80788e3`, **282,755 bytes**,
+**11 native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. Its visible pages
+header `Pharmacology / MCQ` and footer **`DR . El-Sawy`**; metadata Author is `Mamdouh` and
+creation/modification are 20 April 2026. Its exact authority, prompt/key/written/image/practical
+boundary, source-local/prior collapse, eligible gate, arithmetic, and subsequent exact debt remain
+to be separately adjudicated.
