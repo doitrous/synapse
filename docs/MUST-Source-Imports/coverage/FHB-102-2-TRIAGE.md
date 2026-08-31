@@ -1546,3 +1546,31 @@ Removing the forty processed hashes leaves **54 selected inventory paths / 54 un
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - fhb para All.pdf`, SHA-256 `a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a`, 38 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 54 selected inventory paths / 54 unique hashes remain untriaged.
+
+## Completed source — fhb para All
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - fhb para All.pdf` | `a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a` | 38 | sparse-text | pages 1–38 rendered and read | CamScanner carrier of direct `smartlearning.must...` online quiz-review screenshots. This is direct MUST platform feedback evidence, but no visible quiz title, module, sitting, date, examiner, marks scheme or authenticated faculty-key declaration appears. The visible account label `Ahmed` is a platform-account label and is not promoted to personal authorship. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Each of the 38 pages is one distinct SmartLearning review screenshot. Every screenshot contains one complete text MCQ, shows the selected option marked correct, assigns full credit and prints a platform-confirmed correct-answer line. No exact screenshot or normalized prompt is duplicated within this carrier.
+
+The exact boundary is **38 objective MCQs / 38 platform-confirmed prompt-matched answer observations / 0 source-absent answers / 0 written / 0 practical or image prompts / 0 teaching prompts**. The clinical narratives remain ordinary text MCQs rather than image-dependent practical items. Direct platform feedback supports the answer observation, but the missing quiz identity and sitting metadata prevent upgrading it to an authenticated faculty key or examination. Printed spelling and academically questionable prompts or platform answer claims remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+The 38 prompts collapse into seventeen source-first handles: leishmanial and trypanosomal diagnostic stages; parasite taxonomy and class identification; malaria vector and host roles; filarial vectors and transmission; cyclopropagative, cyclodevelopmental and propagative transmission; mosquitoes and larval control; sand flies and leishmaniasis; ticks, Lyme disease and babesiosis; soft ticks and relapsing fever; lice and louse-borne disease; fleas, plague and *Dipylidium caninum*; flies and myiasis; *Triatoma* and Chagas disease; *Bartonella* and sand-fly transmission; parasite-vector clinical identification; arthropod-borne epidemic control; and vector-borne disease diagnosis and prevention. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is **17 source-first − 17 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-first one-path hash is now `sourceProcessed=true`, adding **+38 questions / +38 answers / +0 concepts**. Cumulative triage is **3,915 questions / 3,740 answers / 62 concepts**.
+
+Removing the forty-one processed hashes leaves **53 selected inventory paths / 53 unique SHA-256s**. Their sorted-newline checksum is `de543441fd7aaf2c1911a70a7a51dcc102d917ffeb4b3e2be45d7f08d528dd7f`. Remaining audit-review debt is **22 substantive-text / 13 sparse-text / 6 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`41 + 53 = 94`** and path accounting is **`43 + 53 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - para all quizes.pdf`, SHA-256 `da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154`, 18 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 53 selected inventory paths / 53 unique hashes remain untriaged.

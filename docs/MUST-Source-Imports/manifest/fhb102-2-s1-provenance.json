@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "0a1dd0a5a95a1e7bffd5cabd7604b33677371171054be3e95acc2fd22e5bfa84",
-    "triageMarkdown": "84ebba2c7a6abda27b873559125b6125add34085ee041d79d21b17214a14f099"
+    "readinessMarkdown": "3228f1a0b4e548ad5616d9335076484f6347e65f28d6cdd250aea98f3d18b86d",
+    "triageMarkdown": "7ba8206b136c8ef17ee1ae76429ebbc3ad934f4caf9fbca9b0c5d379e3713f3b"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -97,6 +97,7 @@
       "9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1",
       "a3f83755f7a4921fd2bb614a3827af3a4bde8e86b40ce595e0d74dd30f578100",
       "a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2",
+      "a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a",
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
@@ -110,7 +111,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 40
+    "uniqueSha256": 41
   },
   "completedSourceCoverage": [
     {
@@ -2546,11 +2547,64 @@
         "individual deck authorship is retained without upgrading the carrier to MUST module, examination or authenticated faculty-key authority",
         "printed spelling and academically questionable wording or answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a",
+      "sourcePages": 38,
+      "renderedReadPages": "1-38",
+      "objectiveQuestionPages": "1-38",
+      "answerPages": "1-38",
+      "printedPromptObservations": 38,
+      "objectiveMcqPrompts": 38,
+      "printedKeyObservations": 38,
+      "platformConfirmedAnswerObservations": 38,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 17,
+      "priorFhb1022CollapsedHandles": 17,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 38,
+      "familyAnswerDelta": 38,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "leishmanial and trypanosomal diagnostic stages",
+        "parasite taxonomy and class identification",
+        "malaria vector and host roles",
+        "filarial vectors and transmission",
+        "cyclopropagative, cyclodevelopmental and propagative transmission",
+        "mosquitoes and larval control",
+        "sand flies and leishmaniasis",
+        "ticks, Lyme disease and babesiosis",
+        "soft ticks and relapsing fever",
+        "lice and louse-borne disease",
+        "fleas, plague and Dipylidium caninum",
+        "flies and myiasis",
+        "Triatoma and Chagas disease",
+        "Bartonella and sand-fly transmission",
+        "parasite-vector clinical identification",
+        "arthropod-borne epidemic control",
+        "vector-borne disease diagnosis and prevention"
+      ],
+      "authorityDisposition": "CamScanner carrier of direct smartlearning.must online quiz-review screenshots; the screenshots provide direct MUST platform feedback, but show no visible quiz title, module, sitting, date, examiner, marks scheme or authenticated faculty-key declaration, and the visible Ahmed account label is not promoted to personal authorship",
+      "boundaryDisposition": "each of pages 1-38 is one distinct SmartLearning review screenshot containing one complete text MCQ, a selected option marked correct, full-credit feedback and a platform-confirmed correct-answer line; thirty-eight objective prompts and thirty-eight prompt-matched platform answers with no exact duplicate screenshot or normalized prompt, source-absent, written, practical, image-dependent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "direct platform feedback supports answer observations without authenticating an examination sitting or faculty key",
+        "the Ahmed platform-account label is not treated as source authorship",
+        "clinical narratives remain ordinary text MCQs rather than image-dependent practical prompts",
+        "printed spelling and academically questionable prompts or platform answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 3877,
-    "printedKeyObservations": 3702,
+    "printedPromptObservations": 3915,
+    "printedKeyObservations": 3740,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2796,21 +2850,27 @@
     "pages": 6,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortyFirstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - fhb para All.pdf",
     "sha256": "a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a",
     "pages": 38,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - para all quizes.pdf",
+    "sha256": "da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154",
+    "pages": 18,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 54,
-    "uniqueSha256": 54,
-    "sortedNewlineSha256": "07ff27235c8fae8fbd0f3f8fb9e5ff7565353bea145a37b64cb59c72912e445d",
+    "inventoryMetadataRows": 53,
+    "uniqueSha256": 53,
+    "sortedNewlineSha256": "de543441fd7aaf2c1911a70a7a51dcc102d917ffeb4b3e2be45d7f08d528dd7f",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 6,
-      "sparse-text": 14,
+      "sparse-text": 13,
       "substantive-text": 22
     }
   },
@@ -2818,13 +2878,13 @@
     "audit-extract-failed": 1,
     "audit-not-found": 11,
     "empty-text": 6,
-    "sparse-text": 14,
+    "sparse-text": 13,
     "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 40,
-    "remainingUniqueSha256": 54,
+    "processedUniqueSha256": 41,
+    "remainingUniqueSha256": 53,
     "processedPlusRemaining": 94
   }
 }

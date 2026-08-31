@@ -49,9 +49,10 @@ const PROCESSED_FAMILY_HASHES = [
   '8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901',
   '74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0',
   '30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2',
+  'a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '07ff27235c8fae8fbd0f3f8fb9e5ff7565353bea145a37b64cb59c72912e445d'
+const REMAINING_CHECKSUM = 'de543441fd7aaf2c1911a70a7a51dcc102d917ffeb4b3e2be45d7f08d528dd7f'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -292,10 +293,16 @@ const FORTIETH_SOURCE = {
   pages: 6,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const FORTY_FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - fhb para All.pdf',
   sha256: 'a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a',
   pages: 38,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - para all quizes.pdf',
+  sha256: 'da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154',
+  pages: 18,
   sourceProcessed: false,
 }
 
@@ -374,10 +381,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 6, 'sparse-text': 14, 'substantive-text': 22 }
+  const expected = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 6, 'sparse-text': 13, 'substantive-text': 22 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=22-substantive/14-sparse/6-empty/11-not-found/1-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=22-substantive/13-sparse/6-empty/11-not-found/1-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -393,7 +400,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, SEVENTH_SOURCE.relativePath, SEVENTH_SOURCE.sha256, EIGHTH_SOURCE.relativePath, EIGHTH_SOURCE.sha256, NINTH_SOURCE.relativePath, NINTH_SOURCE.sha256, TENTH_SOURCE.relativePath, TENTH_SOURCE.sha256, ELEVENTH_SOURCE.relativePath, ELEVENTH_SOURCE.sha256, TWELFTH_SOURCE.relativePath, TWELFTH_SOURCE.sha256, THIRTEENTH_SOURCE.relativePath, THIRTEENTH_SOURCE.sha256, FOURTEENTH_SOURCE.relativePath, FOURTEENTH_SOURCE.sha256, FIFTEENTH_SOURCE.relativePath, FIFTEENTH_SOURCE.sha256, SIXTEENTH_SOURCE.relativePath, SIXTEENTH_SOURCE.sha256, SEVENTEENTH_SOURCE.relativePath, SEVENTEENTH_SOURCE.sha256, EIGHTEENTH_SOURCE.relativePath, EIGHTEENTH_SOURCE.sha256, NINETEENTH_SOURCE.relativePath, NINETEENTH_SOURCE.sha256, TWENTIETH_SOURCE.relativePath, TWENTIETH_SOURCE.sha256, TWENTY_FIRST_SOURCE.relativePath, TWENTY_FIRST_SOURCE.sha256, TWENTY_SECOND_SOURCE.relativePath, TWENTY_SECOND_SOURCE.sha256, TWENTY_THIRD_SOURCE.relativePath, TWENTY_THIRD_SOURCE.sha256, TWENTY_FOURTH_SOURCE.relativePath, TWENTY_FOURTH_SOURCE.sha256, TWENTY_FIFTH_SOURCE.relativePath, TWENTY_FIFTH_SOURCE.sha256, TWENTY_SIXTH_SOURCE.relativePath, TWENTY_SIXTH_SOURCE.sha256, TWENTY_SEVENTH_SOURCE.relativePath, TWENTY_SEVENTH_SOURCE.sha256, TWENTY_EIGHTH_SOURCE.relativePath, TWENTY_EIGHTH_SOURCE.sha256, TWENTY_NINTH_SOURCE.relativePath, TWENTY_NINTH_SOURCE.sha256, THIRTIETH_SOURCE.relativePath, THIRTIETH_SOURCE.sha256, THIRTY_FIRST_SOURCE.relativePath, THIRTY_FIRST_SOURCE.sha256, THIRTY_SECOND_SOURCE.relativePath, THIRTY_SECOND_SOURCE.sha256, THIRTY_THIRD_SOURCE.relativePath, THIRTY_THIRD_SOURCE.sha256, THIRTY_FOURTH_SOURCE.relativePath, THIRTY_FOURTH_SOURCE.sha256, THIRTY_FIFTH_SOURCE.relativePath, THIRTY_FIFTH_SOURCE.sha256, THIRTY_SIXTH_SOURCE.relativePath, THIRTY_SIXTH_SOURCE.sha256, THIRTY_SEVENTH_SOURCE.relativePath, THIRTY_SEVENTH_SOURCE.sha256, THIRTY_EIGHTH_SOURCE.relativePath, THIRTY_EIGHTH_SOURCE.sha256, THIRTY_NINTH_SOURCE.relativePath, THIRTY_NINTH_SOURCE.sha256, FORTIETH_SOURCE.relativePath, FORTIETH_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
+for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, SEVENTH_SOURCE.relativePath, SEVENTH_SOURCE.sha256, EIGHTH_SOURCE.relativePath, EIGHTH_SOURCE.sha256, NINTH_SOURCE.relativePath, NINTH_SOURCE.sha256, TENTH_SOURCE.relativePath, TENTH_SOURCE.sha256, ELEVENTH_SOURCE.relativePath, ELEVENTH_SOURCE.sha256, TWELFTH_SOURCE.relativePath, TWELFTH_SOURCE.sha256, THIRTEENTH_SOURCE.relativePath, THIRTEENTH_SOURCE.sha256, FOURTEENTH_SOURCE.relativePath, FOURTEENTH_SOURCE.sha256, FIFTEENTH_SOURCE.relativePath, FIFTEENTH_SOURCE.sha256, SIXTEENTH_SOURCE.relativePath, SIXTEENTH_SOURCE.sha256, SEVENTEENTH_SOURCE.relativePath, SEVENTEENTH_SOURCE.sha256, EIGHTEENTH_SOURCE.relativePath, EIGHTEENTH_SOURCE.sha256, NINETEENTH_SOURCE.relativePath, NINETEENTH_SOURCE.sha256, TWENTIETH_SOURCE.relativePath, TWENTIETH_SOURCE.sha256, TWENTY_FIRST_SOURCE.relativePath, TWENTY_FIRST_SOURCE.sha256, TWENTY_SECOND_SOURCE.relativePath, TWENTY_SECOND_SOURCE.sha256, TWENTY_THIRD_SOURCE.relativePath, TWENTY_THIRD_SOURCE.sha256, TWENTY_FOURTH_SOURCE.relativePath, TWENTY_FOURTH_SOURCE.sha256, TWENTY_FIFTH_SOURCE.relativePath, TWENTY_FIFTH_SOURCE.sha256, TWENTY_SIXTH_SOURCE.relativePath, TWENTY_SIXTH_SOURCE.sha256, TWENTY_SEVENTH_SOURCE.relativePath, TWENTY_SEVENTH_SOURCE.sha256, TWENTY_EIGHTH_SOURCE.relativePath, TWENTY_EIGHTH_SOURCE.sha256, TWENTY_NINTH_SOURCE.relativePath, TWENTY_NINTH_SOURCE.sha256, THIRTIETH_SOURCE.relativePath, THIRTIETH_SOURCE.sha256, THIRTY_FIRST_SOURCE.relativePath, THIRTY_FIRST_SOURCE.sha256, THIRTY_SECOND_SOURCE.relativePath, THIRTY_SECOND_SOURCE.sha256, THIRTY_THIRD_SOURCE.relativePath, THIRTY_THIRD_SOURCE.sha256, THIRTY_FOURTH_SOURCE.relativePath, THIRTY_FOURTH_SOURCE.sha256, THIRTY_FIFTH_SOURCE.relativePath, THIRTY_FIFTH_SOURCE.sha256, THIRTY_SIXTH_SOURCE.relativePath, THIRTY_SIXTH_SOURCE.sha256, THIRTY_SEVENTH_SOURCE.relativePath, THIRTY_SEVENTH_SOURCE.sha256, THIRTY_EIGHTH_SOURCE.relativePath, THIRTY_EIGHTH_SOURCE.sha256, THIRTY_NINTH_SOURCE.relativePath, THIRTY_NINTH_SOURCE.sha256, FORTIETH_SOURCE.relativePath, FORTIETH_SOURCE.sha256, FORTY_FIRST_SOURCE.relativePath, FORTY_FIRST_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -439,7 +446,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 40 || remainingHashes.length !== 54 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 41 || remainingHashes.length !== 53 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -447,7 +454,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 6, 'sparse-text': 14, 'substantive-text': 22 }
+const expectedRemainingDebt = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 6, 'sparse-text': 13, 'substantive-text': 22 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -1895,8 +1902,38 @@ const provenance = {
       boundaryDisposition: 'page 1 contains Q1-Q5, pages 2 and 3 repeat the same Q6-Q10 prompt-and-answer slide, page 4 contains Q11-Q16, page 5 contains five matching prompts Q17-Q21 plus conventional Q22-Q23, and page 6 contains five matching prompts Q24-Q28 plus conventional Q29-Q30; the raw thirty-five prompt and answer observations collapse to thirty unique objective prompts and thirty matched inline answers after removing the exact normalized five-question repeat; zero source-absent, written, practical, image-dependent or teaching-only occurrence',
       preservedSourceDefects: ['pages 2 and 3 repeat the same Q6-Q10 slide and the second five-prompt observation is not double-counted', 'ten separately numbered matching labels are counted as ten objective prompt occurrences rather than two composite stems', 'individual deck authorship is retained without upgrading the carrier to MUST module, examination or authenticated faculty-key authority', 'printed spelling and academically questionable wording or answer claims remain source truth without correction'],
     },
+    {
+      sha256: FORTY_FIRST_SOURCE.sha256,
+      sourcePages: 38,
+      renderedReadPages: '1-38',
+      objectiveQuestionPages: '1-38',
+      answerPages: '1-38',
+      printedPromptObservations: 38,
+      objectiveMcqPrompts: 38,
+      printedKeyObservations: 38,
+      platformConfirmedAnswerObservations: 38,
+      sourceAbsentAnswers: 0,
+      writtenPrompts: 0,
+      practicalOrImagePrompts: 0,
+      teachingPrompts: 0,
+      sourceFirstHandles: 17,
+      priorFhb1022CollapsedHandles: 17,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 38,
+      familyAnswerDelta: 38,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['leishmanial and trypanosomal diagnostic stages', 'parasite taxonomy and class identification', 'malaria vector and host roles', 'filarial vectors and transmission', 'cyclopropagative, cyclodevelopmental and propagative transmission', 'mosquitoes and larval control', 'sand flies and leishmaniasis', 'ticks, Lyme disease and babesiosis', 'soft ticks and relapsing fever', 'lice and louse-borne disease', 'fleas, plague and Dipylidium caninum', 'flies and myiasis', 'Triatoma and Chagas disease', 'Bartonella and sand-fly transmission', 'parasite-vector clinical identification', 'arthropod-borne epidemic control', 'vector-borne disease diagnosis and prevention'],
+      authorityDisposition: 'CamScanner carrier of direct smartlearning.must online quiz-review screenshots; the screenshots provide direct MUST platform feedback, but show no visible quiz title, module, sitting, date, examiner, marks scheme or authenticated faculty-key declaration, and the visible Ahmed account label is not promoted to personal authorship',
+      boundaryDisposition: 'each of pages 1-38 is one distinct SmartLearning review screenshot containing one complete text MCQ, a selected option marked correct, full-credit feedback and a platform-confirmed correct-answer line; thirty-eight objective prompts and thirty-eight prompt-matched platform answers with no exact duplicate screenshot or normalized prompt, source-absent, written, practical, image-dependent or teaching-only occurrence',
+      preservedSourceDefects: ['direct platform feedback supports answer observations without authenticating an examination sitting or faculty key', 'the Ahmed platform-account label is not treated as source authorship', 'clinical narratives remain ordinary text MCQs rather than image-dependent practical prompts', 'printed spelling and academically questionable prompts or platform answer claims remain source truth without correction'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 3877, printedKeyObservations: 3702, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 3915, printedKeyObservations: 3740, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -1937,6 +1974,7 @@ const provenance = {
   thirtyEighthSourceCandidate: THIRTY_EIGHTH_SOURCE,
   thirtyNinthSourceCandidate: THIRTY_NINTH_SOURCE,
   fortiethSourceCandidate: FORTIETH_SOURCE,
+  fortyFirstSourceCandidate: FORTY_FIRST_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
