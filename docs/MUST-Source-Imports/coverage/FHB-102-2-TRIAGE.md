@@ -1176,3 +1176,60 @@ Removing the twenty-nine processed hashes leaves **67 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf`, SHA-256 `9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1`, 18 pages, with a sparse-text audit sample. This SHA is the recorded exact three-path duplicate family also stored under the Parasitology and Pharmacology `06 EOM Exams` folders; it will be read once and all three inventory paths reconciled together.
 
 **BLOCKED — S1 cannot be approved:** 67 selected inventory paths / 65 unique hashes remain untriaged.
+
+## Completed three-path family — Final OSPE Simulation FHB102_Mucize Doctors
+
+| Inventory path | SHA-256 | Pages | Audit class | Disposition |
+|---|---|---:|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf` | `9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1` | 18 | sparse-text | canonical read-once carrier |
+| `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf` | `9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1` | 18 | sparse-text | bitwise-identical duplicate path; reconciled without rereading or recounting |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf` | `9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1` | 18 | sparse-text | bitwise-identical duplicate path; reconciled without rereading or recounting |
+
+All three files are 1,113,272 bytes and bitwise identical. The canonical carrier was rendered and read on pages 1–18. It is a student-team Mucize Doctors `TRIAL MODEL` visibly credited to Youssef BenAhmed, Maii Mahmoud and Abdelsalam Mohamed. No MUST university, college or department authentication, examiner, sitting, marks or authenticated faculty-key claim is visible; the page-18 answers are source answer evidence rather than an official key.
+
+### Exact objective, written, practical, image and answer boundary
+
+Pages 1–2 are the cover and trial-model introduction. Pages 3–17 contain fifteen stations, each with separately lettered A and B prompts. Stations 1–10 use ten image plates and contribute **20 image-dependent practical prompts**. Stations 11–15 contribute **10 text-only practical prompts**. Page 18 supplies one matched source answer for each A/B prompt.
+
+The exact family boundary counted once is **0 ordinary objective MCQs / 0 standalone written prompts / 30 practical prompts / 30 prompt-matched source answer observations / 0 source-absent answers / 0 teaching prompts**. A prompt requesting multiple examples or effects remains one physical A/B prompt occurrence and one matched answer observation.
+
+Preserved source defects include: Station 1 asks for a slide name but its answer supplies morphology rather than an organism identity; Station 4 asks for a disposal site but answers `Incineration`; Station 5 asks for one or two sterilization methods but supplies one method class/example; Station 9 neither asks nor supplies an organism identity while mixing adult-abdomen and posterior-spiracle features; and the printed forms `Corynebacterium Diphtheria`, `Male anopheles`, generic `Topoisomerase`, plus simplified or questionable pharmacology claims remain uncorrected.
+
+### Source-first handles and prior-FHB-102-2 collapse
+
+The thirty physical prompts collapse into twenty coherent source-first handles. Every handle is already represented in the completed FHB-102-2 evidence, so none survives the external search gate.
+
+| Source-first handle | Prior-FHB-102-2 disposition |
+|---|---|
+| Gram morphology and stain | prior morphology/staining handle |
+| Loeffler medium type and use | prior culture-media handle |
+| Dark-ground microscopy and use | prior microscopy handle |
+| Infectious-waste bag and disposal | prior medical-waste/infection-control handle |
+| IV line identification and sterilization | prior sterilization/decontamination handle |
+| Xenopsylla identification and morphology | prior arthropod-morphology/vector handle |
+| Male Anopheles identification and morphology | prior mosquito-morphology handle |
+| Trematoda classification and morphology | prior parasite-classification handle |
+| Myiasis-fly abdomen and posterior spiracles | prior arthropod-morphology handle |
+| Chagas disease and vector | prior vector-transmission handle |
+| Antifungal ergosterol target | prior antifungal-mechanism handle |
+| Beta-lactam examples | prior beta-lactam handle |
+| Piperacillin–tazobactam combination | prior beta-lactam combination handle |
+| Clarithromycin dysgeusia | prior macrolide adverse-effect handle |
+| Cephalosporin uses | prior cephalosporin handle |
+| Vancomycin adverse effects | prior vancomycin handle |
+| Neomycin toxicity | prior aminoglycoside handle |
+| Penicillin cell-wall mechanism | prior penicillin/cell-wall handle |
+| Fluoroquinolone topoisomerase mechanism | prior fluoroquinolone mechanism handle |
+| Clindamycin uses | prior clindamycin handle |
+
+Search arithmetic is therefore **20 source-first − 20 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-family delta, cumulative totals and next source
+
+This thirtieth unique hash consumes all three selected inventory paths as one content object and is now `sourceProcessed=true`, adding **+30 questions / +30 answers / +0 concepts** once. Cumulative triage is **2,587 questions / 2,431 answers / 62 concepts**.
+
+Removing the thirty processed hashes leaves **64 selected inventory paths / 64 unique SHA-256s**. Their sorted-newline checksum is `4e5219910672e58ece12c7b4494ae9acefc355c5a6a7b16f92fbb242bec1196c`. Remaining audit-review debt is **27 substantive-text / 15 sparse-text / 10 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`30 + 64 = 94`** and path accounting is **`32 + 64 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Microbiology FHB102-2 Questions (Final).pdf`, SHA-256 `de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e`, 40 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 64 selected inventory paths / 64 unique hashes remain untriaged.
