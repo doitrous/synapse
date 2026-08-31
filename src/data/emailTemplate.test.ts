@@ -35,34 +35,34 @@ function withoutTheMark(html: string): string {
     .replace(/<!--\[if mso\]>([\s\S]*?)<!\[endif\]-->/g, (m, inner) => (inner.includes('<style') ? m : inner))
 }
 
-test('the mark is the M in MARISTANA, and the only image in the message', () => {
+test('the mark is the N in NISHANY, and the only image in the message', () => {
   const { html } = renderEmail(base)
   const images = html.match(/<img[^>]*>/g) ?? []
   assert.equal(images.length, 1, 'the mark is the one image a message is allowed')
-  assert.match(images[0], /src="https:\/\/[^"]+\/brand\/maristana-mark\.png"/)
+  assert.match(images[0], /src="https:\/\/[^"]+\/brand\/nishany-mark\.png"/)
   // Absolute, because a message is read outside the app.
   assert.doesNotMatch(images[0], /src="\//)
-  // One run: the mark, then ARISTANA. Never a duplicate M or a space.
+  // One run: the mark, then ISHANY. Never a duplicate N or a space.
   assert.match(html, /<!--\[if !mso\]><!--><img/)
-  assert.match(html, /-->ARISTANA<\/span>/)
+  assert.match(html, /-->ISHANY<\/span>/)
 })
 
 test('the masthead falls back to letters, so it is never a hole', () => {
   const { html } = renderEmail(base)
   const mark = (html.match(/<img[^>]*>/g) ?? [])[0]
   // Images off: the client draws the alt text using the styles on the <img>, so
-  // the M has to arrive in the same face and size as the run around it.
-  assert.match(mark, /alt="M"/)
+  // the N has to arrive in the same face and size as the run around it.
+  assert.match(mark, /alt="N"/)
   assert.match(mark, /font-family:Orbitron,/)
   assert.match(mark, /font-size:19px/)
   assert.match(mark, /color:#1553b3/)
   // Outlook draws a placeholder icon rather than honour alt text, so Word is
   // handed the letter directly and never sees the image at all.
-  assert.match(html, /<!--\[if mso\]>M<!\[endif\]-->/)
+  assert.match(html, /<!--\[if mso\]>N<!\[endif\]-->/)
   // Whichever way the image fails, what is left is the wordmark in full.
   const bare = withoutTheMark(html)
   assert.doesNotMatch(bare, /<img/)
-  assert.match(bare, /#161920;">MARISTANA<\/span>/)
+  assert.match(bare, /#161920;">NISHANY<\/span>/)
 })
 
 test('the rose rule sits above the card, and is the first brand chrome', () => {
@@ -154,8 +154,8 @@ test('a link in the note keeps the brand colour without becoming a second action
 
 test('the sign-off is outside the card, in the sender’s own name', () => {
   const { html } = renderEmail(base)
-  assert.doesNotMatch(card(html), /The Maristana team/)
-  assert.match(html, /— The Maristana team/)
+  assert.doesNotMatch(card(html), /The Nishany team/)
+  assert.match(html, /— The Nishany team/)
   assert.match(renderEmail({ ...base, sender: { name: 'Acme', postalAddress: 'Nowhere' } }).html, /— The Acme team/)
 })
 
@@ -247,7 +247,7 @@ test('the text alternative carries the heading, the link, the facts and the note
   assert.match(text, /See your result: https:\/\/x\.test\/r/)
   assert.match(text, /Score: 74%/)
   assert.match(text, /Performance \(https:\/\/x\.test\/p\)/)
-  assert.match(text, /— The Maristana team/)
+  assert.match(text, /— The Nishany team/)
   assert.doesNotMatch(text, /<[a-z]/i)
 })
 
