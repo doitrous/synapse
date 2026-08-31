@@ -1602,3 +1602,31 @@ Removing the forty-two processed hashes leaves **52 selected inventory paths / 5
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - FHB 102 Final revision.pdf`, SHA-256 `b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3`, 116 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 52 selected inventory paths / 52 unique hashes remain untriaged.
+
+## Completed source — FHB 102 Final revision
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - FHB 102 Final revision.pdf` | `b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3` | 116 | sparse-text | pages 1–116 rendered and read | Visible MUST-branded `Parasitology FHB-102 Final revision` teaching carrier. PowerPoint metadata names Mohamed Mostafa Mostafa Ahmed. This supports high-authority institutional revision/teaching provenance, but no authenticated examination sitting, examiner, marks scheme or faculty-key declaration appears. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Page 1 is the MUST revision cover, page 2 is an administrative reminder, and pages 3–116 interleave topic dividers, fully labelled practical-reference images, OSPE-style image-led prompts, clinical cases and prompt-reveal answers. The exact assessment boundary is **0 ordinary objective MCQs / 0 standalone written prompts / 82 image-dependent practical fields / 66 matched printed answers / 16 source-absent answers**. The source also contains **81 teaching/reference/divider pages**; this page count is intentionally non-additive because many labelled reveal pages both teach and answer practical fields.
+
+The source truth is preserved as printed. Revision provenance is not promoted to an authenticated examination or official faculty key; the sixteen unmatched practical fields remain source-absent rather than inferred from adjacent teaching; and spelling, terminology, labels and academically questionable answer claims are not repaired.
+
+### Source-first handles and exactly-four-search gate
+
+The fifteen source-first handles cover helminth class/specimen identification; nematode, cestode and trematode morphology; protozoal class/stage identification; arthropod classification; mosquito sex/genus/stage morphology; mosquito-borne vectors and transmission; sand-fly morphology and disease; flies, myiasis and posterior spiracles; biting flies and trypanosomiasis; fleas and flea-borne disease; ticks, mites and arachnid morphology; *Cyclops* morphology/vector roles; and clinical diagnosis, infective stages and vectors. All fifteen collapse to already represented FHB-102-2 evidence.
+
+Search arithmetic is **15 source-first − 15 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-third one-path hash is now `sourceProcessed=true`, adding **+82 questions / +66 answers / +0 concepts**. Cumulative triage is **3,997 questions / 3,806 answers / 62 concepts**.
+
+Removing the forty-three processed hashes leaves **51 selected inventory paths / 51 unique SHA-256s**. Their sorted-newline checksum is `2ba45f8dff6da9e20b1f6868b2f9fcc315b196b8bd3b8974c0e35b6594dc1bbe`. Remaining audit-review debt is **22 substantive-text / 12 sparse-text / 5 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`43 + 51 = 94`** and path accounting is **`45 + 51 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - Practical Final Para FHB-2 - Revision.pdf`, SHA-256 `95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42`, 117 pages, with a sparse-text audit sample. Its sibling relationship and exact accepted family delta remain to be governed.
+
+**BLOCKED — S1 cannot be approved:** 51 selected inventory paths / 51 unique hashes remain untriaged.

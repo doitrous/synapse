@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "dca63b37d085c5a005446c6924e6e3ef8985b78912f3ddcff2b27fb9b1cde3f9",
-    "triageMarkdown": "d962452ee47d05293df44cc75b804a7d7620bf51ed41474eca6defbc9c3a71b5"
+    "readinessMarkdown": "332689b13d2d68fbabdd24124abab3d24623c008a7c11ef8133746c4d98c3deb",
+    "triageMarkdown": "3e6b28a895f93add9545e430eb1542e63d3b0defebc781ebd32c2477c1668f2f"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -100,6 +100,7 @@
       "a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a",
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
+      "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
       "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
       "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
@@ -112,7 +113,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 42
+    "uniqueSha256": 43
   },
   "completedSourceCoverage": [
     {
@@ -2655,11 +2656,60 @@
         "all thirty-eight answer agreements are recorded without double-counting prior platform-confirmed observations",
         "printed spelling and academically questionable prompt or answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
+      "sourcePages": 116,
+      "renderedReadPages": "1-116",
+      "practicalQuestionAndRevealPages": "12-16, 20-21, 24, 26-28, 32-34, 39-47, 49-50, 53-71, 73-94, 96-102, 104-115",
+      "printedPromptObservations": 82,
+      "objectiveMcqPrompts": 0,
+      "standaloneWrittenPrompts": 0,
+      "practicalOrImagePrompts": 82,
+      "printedKeyObservations": 66,
+      "sourceAbsentAnswers": 16,
+      "teachingReferenceOrDividerPages": 81,
+      "sourceFirstHandles": 15,
+      "priorFhb1022CollapsedHandles": 15,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 82,
+      "familyAnswerDelta": 66,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "helminth class and specimen identification",
+        "nematode morphology and diagnostic features",
+        "cestode morphology and diagnostic features",
+        "trematode morphology and diagnostic features",
+        "protozoal class and stage identification",
+        "arthropod class identification",
+        "mosquito sex, genus and developmental-stage morphology",
+        "mosquito-borne disease vectors and transmission patterns",
+        "sand-fly morphology, diseases and transmission",
+        "flies, myiasis and posterior-spiracle identification",
+        "biting flies, trypanosomiasis and transmission",
+        "fleas and flea-borne disease",
+        "ticks, mites and arachnid morphology",
+        "Cyclops morphology and vector roles",
+        "clinical parasitology diagnosis, infective stages and vectors"
+      ],
+      "authorityDisposition": "visible MUST-branded Parasitology FHB-102 Final revision teaching carrier with PowerPoint metadata naming Mohamed Mostafa Mostafa Ahmed; the institutional revision attribution supports high-authority teaching provenance, but no authenticated examination sitting, examiner, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "page 1 is the MUST revision cover, page 2 is an administrative reminder, and pages 3-116 interleave teaching dividers, fully labelled practical references, OSPE-style image-led prompts, clinical cases and prompt-reveal answers; the exact assessment boundary is eighty-two image-dependent practical fields, sixty-six matched printed answers and sixteen source-absent answers, with zero ordinary objective MCQs and zero standalone written prompts; eighty-one pages contain teaching, reference or divider material, a non-additive page classification because some labelled reveal pages also answer practical fields",
+      "preservedSourceDefects": [
+        "revision and teaching provenance is not promoted to an authenticated examination or official faculty key",
+        "the eighty-one teaching/reference/divider pages are non-additive with prompt and answer occurrences because many reveal slides both teach and answer",
+        "sixteen practical fields lacking a matched printed answer remain source-absent rather than inferred from adjacent teaching material",
+        "printed spelling, terminology, labels and academically questionable answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 3915,
-    "printedKeyObservations": 3740,
+    "printedPromptObservations": 3997,
+    "printedKeyObservations": 3806,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2917,21 +2967,27 @@
     "pages": 18,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortyThirdSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - FHB 102 Final revision.pdf",
     "sha256": "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
     "pages": 116,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - Practical Final Para FHB-2 - Revision.pdf",
+    "sha256": "95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42",
+    "pages": 117,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 52,
-    "uniqueSha256": 52,
-    "sortedNewlineSha256": "5196f76c49354f9a66b62ed8979fc184c5a32a2bf82ceb14fcce28fa989aade6",
+    "inventoryMetadataRows": 51,
+    "uniqueSha256": 51,
+    "sortedNewlineSha256": "2ba45f8dff6da9e20b1f6868b2f9fcc315b196b8bd3b8974c0e35b6594dc1bbe",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 5,
-      "sparse-text": 13,
+      "sparse-text": 12,
       "substantive-text": 22
     }
   },
@@ -2939,13 +2995,13 @@
     "audit-extract-failed": 1,
     "audit-not-found": 11,
     "empty-text": 5,
-    "sparse-text": 13,
+    "sparse-text": 12,
     "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 42,
-    "remainingUniqueSha256": 52,
+    "processedUniqueSha256": 43,
+    "remainingUniqueSha256": 51,
     "processedPlusRemaining": 94
   }
 }
