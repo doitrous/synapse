@@ -26493,3 +26493,106 @@ Its metadata Title/Subject are `Pharmacology - INT`, Author is `CamScanner`, nat
 empty, and the filename carries the external `KASR` hint. Its full rendered/OCR authority,
 prompt/key/written/image/practical boundary, external/eligible gate, arithmetic, and subsequent
 exact debt remain to be separately adjudicated.
+
+## Family 261 — NERD INT-108 pharmacokinetics MCQ/key and answered short-essay excerpt (external)
+
+### Source identity, exhaustive rendered/OCR boundary, and authority separation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_ec50845c4498e17b9b6b` · `MCQs - KASR Pharmacology - INT mcq.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `ec50845c4498e17b9b6bc19dc429045cb7a0e4e847cf465f84f7e5b8c79e9310` · **3,852,337 bytes** |
+| Format / complete visual boundary | **16 scan-only portrait pages, 1,271×1,797 points, PDF 1.7**. All 16 were rendered at 120 dpi into 16 non-empty 2,119×2,995-pixel images, OCRed independently, and inspected page by page at original detail. Assisted OCR yields **2,786 words / 17,247 bytes**; rendered pages govern every title, name, copyright line, printed page number, prompt, option, key cell, written answer, divider, and decorative image. Native extraction is empty and no page or crop remainder remains. |
+| Physical-page map | Pages 1–3 are the NERD cover, title/credits, and contents; page 4 is the Section-I MCQ divider; page 5 is the Part-2 Pharmacology cover; pages 6–11 are printed pharmacokinetics pages 10–15 with MCQ Q1–Q51; page 12 is the complete Q1–Q51 key; page 13 is the Section-II Short Essay divider; page 14 repeats the Part-2 Pharmacology cover; pages 15–16 are printed Introduction pages 34–35 with answered short essays Q1–Q16. The wider book's contents list additional sections not physically present in this selected carrier; they are not fabricated as source remainder. |
+| Visible provenance | `NERD Medical Question Book`, **1st Edition**, `INT (108) Module Questions`; collected by **Mohamed Ramadan, Mayada Aziz, Nour Mohamed, and Mahmoud Abubakr**, under supervision of **Omar Elazab**. The title page visibly claims copyright **2025** and personal-use restriction. These are visible source attributions, not metadata inference. |
+| Metadata and filename caution | Metadata Title/Subject are `Pharmacology - INT`; Author/producer identify CamScanner/intsig and provide no date. `KASR` occurs only in the selected filename. No physical page visibly names Kasr/Cairo University, Helwan University, a faculty, BMS-102, sitting, or cohort. The filename is therefore an external-Kasr provenance hint, while the visible INT-108/2025/Nerd credits govern the excerpt's attributable source truth. |
+| Authority / eligibility | Named 2025 Module-108 student question-book excerpt with a filename-only Kasr hint and no Helwan counter-marker. It is retained as external question-bank, supplied-key, written-answer, and provenance evidence, but excluded from Helwan primary, auxiliary, and all-eligible totals. The visible credits do not authenticate an institutional exam or official faculty key. |
+
+### Exhaustive objective, written, key, replay, image, and practical boundary
+
+The objective section contains **51 four-option text MCQs**. The page-12 table supplies exactly one
+answer letter for Q1–Q51, so this layer is **51 prompts / 51 source-supplied answers / 0 unkeyed**.
+It covers biotransformation, enzyme induction/inhibition, protein binding, bioavailability,
+distribution, first-/zero-order kinetics, renal excretion, ion trapping, placental transfer,
+steady state, dose/clearance/volume calculations, simple diffusion, therapeutic index, and loading
+dose. Calculation stems remain keyed option-selection records, not free-response operations.
+
+The short-essay section contains **16 numbered written prompts**, each immediately followed by its
+source-supplied definition, enumeration, discussion, equation, or comparison. It covers
+pharmacology/drug/pharmacokinetics/pharmacodynamics/pharmacotherapeutics definitions; sources and
+names/classes of drugs; membrane passage; simple diffusion; ionisation/pKa/Henderson-Hasselbalch;
+pH-dependent absorption/excretion; and facilitated diffusion versus active transport. This layer
+is **16 written prompts / 16 supplied answers / 0 unkeyed**.
+
+Complete source-local arithmetic is therefore **67 raw prompt occurrences = 51 MCQs + 16 answered
+short essays**, with **67 source-supplied answers / 0 unkeyed prompts**. There are **0 T/F items,
+0 matching items, 0 completion blanks, 0 drawings, 0 image-bearing prompts, 0 authenticated
+practical stations, and 0 teaching-only callouts**. The four cover/divider images and MCQ-sheet
+photograph are layout art, not image questions or practical plates.
+
+Source-first comparison preserves all 67 occurrences and collapses five exact proposition/
+operation replays: Q42's zero-order constant-amount rule restates the proposition tested in Q29;
+Q39 repeats Q37's dose/plasma-concentration volume-of-distribution operation with new values; Q44
+inverts Q40's same loading-dose/volume/target-concentration equation and values; Q48 repeats Q46's
+alkaline-urine/weak-acid excretion proposition; and written Q3 restates the ADME pharmacokinetics
+scope tested by MCQ Q5. Related but nonidentical definition, application, and calculation prompts
+remain distinct. Thus **67 raw - 0 source-local exclusions = 67 preserved operations; 67 - 5
+same-source replays = 62 source-distinct external handles**.
+
+### External-authority zero gate, prior-source ruling, and eligible arithmetic
+
+Authority resolves before search retention. All **67 source-local prompts / 67 answers / 62
+source-distinct external handles** belong to the external INT-108 carrier and have no visible
+Helwan counterevidence. Consequently **0 eligible Helwan records and 0 accepted Helwan handles**
+survive. The standing gate is exactly **`0 accepted handles × 4 = 0 required and completed
+searches`**; no 248-query packet, empty search rows, or synthetic prior-reuse row is created for
+excluded external content.
+
+This is not byte-identical to Families 257–260. Its pharmacokinetic propositions strongly replay
+those and other eligible BMS sources, but external exclusion precedes eligible prior-family
+reconciliation. Excluded external handles cannot add or reuse an eligible tested handle. Prior-BMS
+reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 261 eligible delta | Auxiliary cumulative (Families 12–261) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,261 | 762 | 4,023 |
+| Eligible source-supplied answers | 0 | 2,247 | 405 | 2,652 |
+| Retained eligible question records | 0 | 2,965 | 552 | 3,517 |
+| Accepted handles / required searches | 0 / 0 | 2,666 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,357 over primary | 372 | 1,729 |
+| **Distinct tested concepts** | **+0** | **1,357 additions** | **372** | **1,729** |
+
+The eligible checksum closes at zero: external source-local **67 / 67 / 62** does not enter Helwan
+arithmetic. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,261 prompts / 2,247
+answers / 2,965 retained / 2,666 handles / +1,357 concepts**. All eligible remains **4,023 /
+2,652 / 3,517 / 1,729**. Family 261 establishes external NERD/INT-108/2025 question-book,
+MCQ-key, and answered-short-essay evidence only—not a Helwan assessment, authenticated Kasr exam,
+official institutional key, practical station, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 261
+
+`src_ec50845c4498e17b9b6b` is exhausted across all 16 rendered/OCR-assisted pages: every cover,
+credit, contents row, divider, decorative image, printed page number, stem, option, numerical
+operation, answer-table cell, written answer, same-source replay, authority limitation, metadata
+field, zero gate, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-261 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 261
+governs **1 selected path / 1 unique hash**. The governed set through Family 261 is therefore
+**326 paths / 315 unique hashes**, leaving exactly **36 ungoverned selected paths / 33 unique
+hashes**. Checksums are **326 + 36 = 362 paths** and **315 + 33 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`e3e4ce2838e6575fff15d35be63216542ab9e1ae68ff9824e90b70fd622c8c55`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`fd26005d7c565b68500d60e707dbe2fb8066538f2659155025655bc92c916567`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_4cd7ec4ece48e56b712e` ·
+`MCQs - MCQ Absorption.pdf`, SHA-256
+`4cd7ec4ece48e56b712e80a774254fe8c9cb28b9bb4ea5cd7b633747379bd30d`, **253,375 bytes**,
+**10 native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. It visibly begins a
+`Questions` bank carrying **Dr. El-Sawy** credit and inline answer letters; metadata Author is
+Hossam Mohammed and Word creation/modification are 5 March 2026. Its visible authority,
+prompt/key/written/image/practical boundary, same-source/prior collapse, eligible gate,
+arithmetic, and subsequent exact debt remain to be separately adjudicated.
