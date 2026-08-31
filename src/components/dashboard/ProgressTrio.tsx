@@ -3,6 +3,7 @@ import { TrendingUp } from 'lucide-react'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
+import { TargetRing } from '@/components/ui/TargetRing'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { masteryBand } from '@/data/mastery'
@@ -79,38 +80,26 @@ function ReadinessScale({ value }: { value: number }) {
   )
 }
 
-function RingReading({ value, label, tone = 'primary', compact = false }: { value: number; label: string; tone?: 'primary' | 'success'; compact?: boolean }) {
-  const radius = 34
-  const circumference = 2 * Math.PI * radius
-  const targetOffset = circumference * (1 - value / 100)
-  const color = tone === 'success' ? 'var(--color-success)' : 'var(--color-primary)'
-  const ringStyle = {
-    '--ring-circumference': circumference,
-    '--ring-target-offset': targetOffset,
-  } as CSSProperties
-
+/**
+ * A trio metric drawn as the brand's own ring device.
+ *
+ * Accuracy is the hit — how many of the shots landed — so it takes the
+ * crimson tone; coverage ("used") is the long-horizon field being explored,
+ * so it takes the quiet blue. Both are already 0–100% meters, so the ring's
+ * earned dot falls out for free: a perfect accuracy or a fully-used bank
+ * completes its own mark exactly when it should.
+ */
+function RingReading({ value, label, tone = 'primary', compact = false }: { value: number; label: string; tone?: 'primary' | 'accent'; compact?: boolean }) {
   return (
-    <div className={cn('relative shrink-0', compact ? 'size-[6.5rem]' : 'size-[6.75rem]')} aria-label={`${value}% ${label}`}>
-      <svg className="size-full -rotate-90" viewBox="0 0 84 84" aria-hidden>
-        <circle cx="42" cy="42" r={radius} fill="none" stroke="var(--color-inset)" strokeWidth="7.5" />
-        <circle
-          className="metric-ring-fill"
-          cx="42"
-          cy="42"
-          r={radius}
-          fill="none"
-          stroke={color}
-          strokeWidth="7.5"
-          strokeLinecap="round"
-          strokeDasharray={circumference}
-          style={ringStyle}
-        />
-      </svg>
-      <div className="absolute inset-0 grid place-content-center text-center">
-        <span className={cn('tnum font-mono font-semibold leading-none text-ink', compact ? 'text-[18px]' : 'text-[21px]')}>{value}%</span>
-        <span className={cn('mt-1 font-medium text-ink-3', compact ? 'text-[10px]' : 'text-[11px]')}>{label}</span>
-      </div>
-    </div>
+    <TargetRing
+      value={value}
+      max={100}
+      tone={tone}
+      size={compact ? 104 : 108}
+      thickness={7.5}
+      label={label}
+      aria-label={`${value}% ${label}`}
+    />
   )
 }
 
@@ -120,11 +109,11 @@ function DualReading({ accuracy, used, detail, compact = false }: { accuracy: nu
     <div>
       <div className={cn('grid grid-cols-[1fr_auto_1fr] items-center', compact ? 'gap-2' : 'gap-3 py-1')}>
         <div className="grid place-items-center">
-          <RingReading value={accuracy} label={t('Correct')} tone="success" compact={compact} />
+          <RingReading value={accuracy} label={t('Correct')} tone="primary" compact={compact} />
         </div>
         <div className={cn('w-px bg-line', compact ? 'h-16' : 'h-20')} aria-hidden />
         <div className="grid place-items-center">
-          <RingReading value={used} label={t('Used')} compact={compact} />
+          <RingReading value={used} label={t('Used')} tone="accent" compact={compact} />
         </div>
       </div>
       <p className={cn('text-center font-mono text-ink-3', compact ? 'mt-0.5 text-[9.5px] leading-none' : 'mt-2 text-[10.5px]')}>{detail}</p>

@@ -33,7 +33,7 @@ export function ContinueCard({
           <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-primary">{t('Still open')}</p>
           <p className="mt-0.5 truncate text-[15px] font-semibold text-ink">{name}</p>
           <div className="mt-2 flex items-center gap-2.5">
-            <Meter value={total ? (answered / total) * 100 : 0} tone="primary" className="w-32" />
+            <Meter value={total ? (answered / total) * 100 : 0} tone="primary" target className="w-32" />
             <span className="tnum font-mono text-[12px] text-ink-2">
               {answered} {t('of')} {total} {t('answered')}
             </span>
