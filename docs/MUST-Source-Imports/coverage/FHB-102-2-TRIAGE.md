@@ -725,3 +725,45 @@ Removing the fifteen processed hashes leaves **81 selected inventory paths / 79 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - MCQ Dr.Alaa د.علاء Microbiology.pdf`, SHA-256 `0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7`, 12 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 81 selected inventory paths / 79 unique hashes remain untriaged.
+
+## Completed source — MCQ Dr.Alaa Microbiology
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - MCQ Dr.Alaa د.علاء Microbiology.pdf` | `0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7` | 12 | sparse-text | pages 1–12 rendered and read | CamScanner revision carrier headed `MCQ Dr Alaa / General Microbiology 1 & 2`. No institution, department, module, examiner, sitting, marks, date or authenticated faculty-key claim is visible. The inline answer lines are source evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is a cover. Pages 2–12 contain ninety objective prompts with a complete printed answer line for every prompt. The section split is **Introduction/classification 14 / cell membrane and cytoplasm 6 / cell wall and toxins 22 / capsule and appendages 15 / spores 3 / bacterial pathogenesis 4 / growth and physiology 26**. The exact boundary is **90 objective prompts / 90 prompt-matched answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**.
+
+Page 4 prints Q1, Q2, a second Q2, then Q3–Q7; both Q2 occurrences are distinct physical prompts, and the answer line separately marks `2-d` and `2'-c`. Page 11 contains conventional Q9–Q10 followed by a separately structured matching sequence Q10–Q16; both Q10 occurrences are distinct prompts, and the answer line separately marks `10-a` and `10-g`. Printed wording, duplicated numbering and academically questionable keys remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The ninety prompts collapse source-first into seven coherent handles. Every handle is already represented by concepts established in prior FHB-102-2 banks, so no genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Microbial classification; prokaryotes, eukaryotes, viruses, viroids and prions | prior organism-classification and noncellular-agent handles | prior-FHB-102-2 collapse |
+| Bacterial membrane, wall, peptidoglycan and L-forms | prior bacterial-structure and cell-wall handles | prior-FHB-102-2 collapse |
+| Endotoxin, exotoxin and toxoid properties | prior toxin-mechanism handles | prior-FHB-102-2 collapse |
+| Capsule, glycocalyx, pili, flagella and spores | prior capsule, appendage and spore handles | prior-FHB-102-2 collapse |
+| Opportunistic pathogens and virulence | prior pathogenicity and virulence handles | prior-FHB-102-2 collapse |
+| Nutritional, oxygen and temperature growth requirements | prior bacterial growth-requirement handles | prior-FHB-102-2 collapse |
+| Growth curve, binary division, energy, respiration and fermentation | prior growth-curve, division and metabolism handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This sixteenth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+90 questions / +90 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,629 | 1,491 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the sixteen processed hashes leaves **80 selected inventory paths / 78 unique SHA-256s**. Their sorted-newline checksum is `2225074a7571d57a71e3f107017862e5ab1559b17ca054a545f123c43d380489`. Remaining audit-review debt is **34 substantive-text / 22 sparse-text / 11 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`16 + 78 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 1.pdf`, SHA-256 `994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc`, 15 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 80 selected inventory paths / 78 unique hashes remain untriaged.

@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "d50723ce56b4ae969e321325a33f3178ff3d6e24658cd9c02ebf126afd5c057b",
-    "triageMarkdown": "db8dad828afa5206cc2834525a256e330348292c63f4a8ccdfbe009b1eabba3b"
+    "readinessMarkdown": "cc99cf978480ba445c434cbda516a6404a686db1c42bad74e7ca948fe0f23246",
+    "triageMarkdown": "f4e932f3af848564ca8f47ceb64bcdfed38afefdc2bb018640a9dd7eef78c0cd"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -69,6 +69,7 @@
   ],
   "processedFamilies": {
     "sha256": [
+      "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
@@ -85,7 +86,7 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 15
+    "uniqueSha256": 16
   },
   "completedSourceCoverage": [
     {
@@ -936,11 +937,87 @@
         "faint boxes and underlines inconsistently emphasize stems, distractors and whole text regions and are not treated as answer marks",
         "printed wording, duplicated numbering, deprecated terminology and academically questionable statements remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
+      "sourcePages": 12,
+      "renderedReadPages": "1-12",
+      "coverPage": 1,
+      "questionAndAnswerPages": "2-12",
+      "printedPromptObservations": 90,
+      "objectiveMcqPrompts": 90,
+      "printedKeyObservations": 90,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Introduction and classification",
+          "questionPages": "2-3",
+          "prompts": 14,
+          "answers": 14
+        },
+        {
+          "section": "Cell membrane and cytoplasm",
+          "questionPage": "3",
+          "prompts": 6,
+          "answers": 6
+        },
+        {
+          "section": "Cell wall and toxins",
+          "questionPages": "4-6",
+          "prompts": 22,
+          "answers": 22
+        },
+        {
+          "section": "Capsule and appendages",
+          "questionPages": "7-8",
+          "prompts": 15,
+          "answers": 15
+        },
+        {
+          "section": "Spores",
+          "questionPage": "8",
+          "prompts": 3,
+          "answers": 3
+        },
+        {
+          "section": "Bacterial pathogenesis",
+          "questionPage": "9",
+          "prompts": 4,
+          "answers": 4
+        },
+        {
+          "section": "Bacterial growth and physiology",
+          "questionPages": "10-12",
+          "prompts": 26,
+          "answers": 26
+        }
+      ],
+      "sourceFirstHandles": 7,
+      "priorFhb1022CollapsedHandles": 7,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 90,
+      "familyAnswerDelta": 90,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "CamScanner revision carrier headed MCQ Dr Alaa / General Microbiology 1 & 2, with no visible institution, department, module, examiner, sitting, marks, date or authenticated faculty-key claim; inline answer lines are source evidence rather than an official faculty key",
+      "boundaryDisposition": "one cover page followed by ninety objective prompts with ninety prompt-matched printed answer observations across introduction and classification, bacterial structure, toxins, appendages, spores, pathogenesis, growth and physiology; no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "page 4 prints two distinct Q2 occurrences and the answer line separately marks 2-d and 2-prime-c",
+        "page 11 prints conventional Q10 and a distinct matching Q10 and the answer line separately marks 10-a and 10-g",
+        "printed wording, duplicated numbering, deprecated terminology and academically questionable answers remain source truth without correction",
+        "the title attribution to Dr Alaa is not treated as institution, sitting or authenticated faculty-key authority"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1539,
-    "printedKeyObservations": 1401,
+    "printedPromptObservations": 1629,
+    "printedKeyObservations": 1491,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1036,21 +1113,27 @@
     "pages": 12,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "sixteenthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - MCQ Dr.Alaa د.علاء Microbiology.pdf",
     "sha256": "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
     "pages": 12,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Mcq 1.pdf",
+    "sha256": "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
+    "pages": 15,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 81,
-    "uniqueSha256": 79,
-    "sortedNewlineSha256": "0b40997928690021fd7cb0e394ce9a77d214e00e238aa436c7cc861c78d4dfff",
+    "inventoryMetadataRows": 80,
+    "uniqueSha256": 78,
+    "sortedNewlineSha256": "2225074a7571d57a71e3f107017862e5ab1559b17ca054a545f123c43d380489",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 11,
-      "sparse-text": 23,
+      "sparse-text": 22,
       "substantive-text": 34
     }
   },
@@ -1058,13 +1141,13 @@
     "audit-extract-failed": 2,
     "audit-not-found": 11,
     "empty-text": 11,
-    "sparse-text": 23,
+    "sparse-text": 22,
     "substantive-text": 34
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 15,
-    "remainingUniqueSha256": 79,
+    "processedUniqueSha256": 16,
+    "remainingUniqueSha256": 78,
     "processedPlusRemaining": 94
   }
 }
