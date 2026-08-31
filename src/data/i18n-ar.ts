@@ -1104,4 +1104,12 @@ export const AR: Record<string, string> = {
   'questions answered': 'سؤالًا مُجابًا',
   'days in a row': 'يومًا متتاليًا',
   'minutes per sitting': 'دقيقة في الجلسة',
+  // ---- Question source picker (new-test builder) -------------------------
+  'Question source': 'مصدر الأسئلة',
+  'Department MCQs': 'أسئلة القسم',
+  'Department Book': 'كتاب القسم',
+  'Past Papers': 'امتحانات سابقة',
+  Unspecified: 'غير محدد',
+  'All sources. Pick one or more to narrow the test.': 'كل المصادر. اختر مصدرًا أو أكثر لتضييق الاختبار.',
+  'Only the selected sources are drawn from.': 'يُسحب فقط من المصادر المختارة.',
 }

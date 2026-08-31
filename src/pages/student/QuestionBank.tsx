@@ -79,9 +79,8 @@ import { useImmersion } from '@/components/shell/ImmersionContext'
 import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { answerPercentages } from '@/data/answerDistribution'
 import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
-import { FilterChip } from '@/components/ui/FilterChip'
 import { sourceOptions } from '@/data/sourceCoverage'
-import type { SourceBucket } from '@/data/questionSource'
+import { UNSPECIFIED_SOURCE, type SourceBucket } from '@/data/questionSource'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
@@ -1023,7 +1022,10 @@ export function QuestionBank() {
     [sourcePool, libraryTopics, scope],
   )
   const sourceOpts = useMemo(() => sourceOptions(scoped), [scoped])
-  const showSourceFilter = sourceOpts.length >= 2
+  // Shown whenever any question is actually tagged with a department source —
+  // one tagged bucket is already worth surfacing ("solve the department book"
+  // is the point of the feature), and only an entirely-untagged bank hides it.
+  const showSourceFilter = sourceOpts.some((o) => o.bucket !== UNSPECIFIED_SOURCE)
   // Drop any selected bucket no longer present under the current scope/pool, so a
   // stale selection can't silently empty the pool.
   const effectiveSources = useMemo(() => {
@@ -1614,6 +1616,50 @@ export function QuestionBank() {
           <Panel>
             <PanelHeader title={t('New session')} icon={GraduationCap} />
             <div className="space-y-6 p-5">
+              {showSourceFilter && (
+                <div>
+                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Question source')}</p>
+                  <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                    {sourceOpts.map((opt) => {
+                      const SourceIcon = opt.bucket === 'dept-book' ? BookOpen
+                        : opt.bucket === 'dept-mcq' ? ListChecks
+                        : opt.bucket === 'past-paper' ? GraduationCap
+                        : MoreHorizontal
+                      const active = effectiveSources.has(opt.bucket)
+                      return (
+                        <button
+                          key={opt.bucket}
+                          type="button"
+                          aria-pressed={active}
+                          onClick={() => setSourceSel((cur) => {
+                            const next = new Set(cur)
+                            if (next.has(opt.bucket)) next.delete(opt.bucket)
+                            else next.add(opt.bucket)
+                            return next
+                          })}
+                          className={cn(
+                            'flex min-h-[44px] flex-col items-start gap-1 rounded-lg border px-3 py-2.5 text-left transition-colors',
+                            active
+                              ? 'border-primary-line bg-primary-tint'
+                              : 'border-line-2 bg-surface hover:border-ink-3/45',
+                          )}
+                        >
+                          <Icon icon={SourceIcon} size={16} className={active ? 'text-primary-strong' : 'text-accent'} />
+                          <span className={cn('text-[12.5px] font-semibold leading-tight', active ? 'text-primary-strong' : 'text-ink')}>
+                            {t(opt.label)}
+                          </span>
+                          <span className="tnum font-mono text-[11px] text-ink-3">{opt.count} {t('questions')}</span>
+                        </button>
+                      )
+                    })}
+                  </div>
+                  <p className="mt-2 text-[11.5px] text-ink-3">
+                    {effectiveSources.size === 0
+                      ? t('All sources. Pick one or more to narrow the test.')
+                      : t('Only the selected sources are drawn from.')}
+                  </p>
+                </div>
+              )}
               <div>
                 <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Draw from')}</p>
                 <Segmented
@@ -1634,32 +1680,6 @@ export function QuestionBank() {
                     : t('Narrowed to one of your lists — combine it with a topic below.')}
                 </p>
               </div>
-              {showSourceFilter && (
-                <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('MCQ source')}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {sourceOpts.map((opt) => (
-                      <FilterChip
-                        key={opt.bucket}
-                        active={effectiveSources.has(opt.bucket)}
-                        onClick={() => setSourceSel((cur) => {
-                          const next = new Set(cur)
-                          if (next.has(opt.bucket)) next.delete(opt.bucket)
-                          else next.add(opt.bucket)
-                          return next
-                        })}
-                      >
-                        {t(opt.label)} <span className="tnum ml-1 font-mono text-ink-3">{opt.count}</span>
-                      </FilterChip>
-                    ))}
-                  </div>
-                  <p className="mt-2 text-[11.5px] text-ink-3">
-                    {effectiveSources.size === 0
-                      ? t('All sources. Pick one or more to narrow the test.')
-                      : t('Only the selected sources are drawn from.')}
-                  </p>
-                </div>
-              )}
               <div>
                 <div className="mb-2 flex items-center justify-between">
                   <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
