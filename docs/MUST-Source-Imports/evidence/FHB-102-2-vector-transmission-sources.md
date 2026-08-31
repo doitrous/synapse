@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23 and Q25 are content/key-form holds. Q14 through Q19, Q22 and Q24 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25 and Q26 are content/key-form holds. Q14 through Q19, Q22 and Q24 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
 
 ## confidence
 0.55
@@ -927,6 +927,61 @@ Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
 All 53 pages were rendered for bounded source location; pages 1, 4, 24–26 and 30 were directly visually read for Q25, and the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies MUST College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 25–26 define phenotypic variation as reversible, non-heritable, affected by environmental conditions and reversible when the environmental cause is removed. Page 25 places mutation and gene transfer under genotypic variation, while p30 describes mutation as heritable and irreversible. These statements directly contradict Q25's printed B and support offered option C, but do not authenticate or replace the bank key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_bbf7f72f08ce85032b4d
+
+## title
+Antifungal Drugs
+
+## institution
+Misr University for Science and Technology, College of Medicine; PDF metadata author Ahmed Bastawy
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/7. Antifungal_Drugs.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025-04-26
+
+## accessed_at
+2026-09-01
+
+## page_count
+26
+
+## sha256
+bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1 and 18 were rendered and visually read for the bounded Q26 assessment; the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies Misr University for Science and Technology and the College of Medicine. Page 18 identifies amphotericin B and nystatin as polyene antifungals and states that they create pores in the fungal cell membrane by binding its ergosterol. This directly supports offered option B and contradicts Q26's printed A, but it does not authenticate or replace the anonymous bank key.
 
 ## confidence
 0.95
