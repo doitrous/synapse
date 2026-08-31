@@ -2078,3 +2078,31 @@ Removing the fifty-nine processed hashes leaves **35 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma FHB revision MCQs.pdf`, SHA-256 `d948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114`, 52 pages, with a sparse-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 35 selected inventory paths / 35 unique hashes remain untriaged.
+
+## Completed source — Pharma FHB revision MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma FHB revision MCQs.pdf` | `d948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114` | 52 | sparse-text | pages 1–52 rendered and read | Anonymous PDFium-generated revision slide carrier; the terminal MUST-branded thank-you slide supplies design context only. No visible title, author, examiner, sitting, marks scheme or authenticated faculty-key declaration appears. |
+
+### Exact boundary and source truth
+
+Pages 1–35 and 37–50 contain **49 ordinary text objective MCQs**. Forty carry a visibly rendered red `ANSWER` token and nine remain visibly unkeyed. Pages 36 and 51 are explanatory teaching/reveal slides without a new assessment field, and page 52 is a non-assessment thank-you closer. The exact raw boundary is therefore **49 objective prompts / 40 prompt-matched source answer observations / 9 source-absent answers / 0 written / 0 practical or image-dependent / 2 teaching-reference pages**.
+
+The nine absent answers are not inferred from other carriers. Two prompts whose extract layer contains additional option text remain governed only by the physically rendered field because their last option is clipped outside the page. Red answer marks are anonymous revision-source evidence, not an authenticated faculty key. Printed wording, clipping and academically questionable answer claims remain source truth without repair.
+
+### Prior-family replay and four-search gate
+
+Normalized comparison against the completed Chemo 1 and Chemo 2 families proves **12 complete visible prompt-and-option replays**. Eleven carry agreeing answer observations and one is unkeyed in this carrier, so replay collapse removes twelve questions and eleven answers. Two further extract-layer string matches are not complete visible fields and are not collapsed. The governed delta is **49 − 12 = 37 questions** and **40 − 11 = 29 answers**.
+
+The six source-first handles cover antituberculous and antileprosy pharmacology; antifungal mechanisms, uses and toxicity; tetracycline, macrolide and other protein-synthesis inhibitors; aminoglycoside mechanisms, dosing, uses and toxicity; fluoroquinolone, sulfonamide and antifolate pharmacology; and general antimicrobial selection, pharmacodynamics, prophylaxis and adverse effects. All six collapse to prior evidence. Search arithmetic is **6 source-first − 6 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This sixtieth one-path hash is now `sourceProcessed=true`, adding **+37 questions / +29 answers / +0 concepts**. Cumulative triage is **4,869 questions / 4,636 answers / 62 concepts**.
+
+Removing the sixty processed hashes leaves **34 selected inventory paths / 34 unique SHA-256s**. Their sorted-newline checksum is `c0b6f0a4f6adea42968aac5f7a8a38c37a89b7ad410abd0f004cad25011af3ae`. Remaining audit-review debt is **10 substantive-text / 9 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`60 + 34 = 94`** and path accounting is **`62 + 34 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy [ANSWERED].pdf`, SHA-256 `42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf`, 9 pages, with a sparse-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 34 selected inventory paths / 34 unique hashes remain untriaged.

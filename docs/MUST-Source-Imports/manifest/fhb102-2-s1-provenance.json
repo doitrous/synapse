@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "44afbd9d0e744e39e7efda580afb418d8c4e4d550be7a431bdb4cd7ccceade98",
-    "triageMarkdown": "485e40a469b7a9f07917fcb554866baa48ba08e11f51deaea8ee485bd8474091"
+    "readinessMarkdown": "961ea7a3554f47a02b1fc3d481bc3c58a7df1dd9d026fe1940748190c3ae5170",
+    "triageMarkdown": "fd62bc32bbefe11c647b73433f14920b7adbbc880a4aa22e5fe25f9ebd1f18ad"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -119,6 +119,7 @@
       "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
+      "d948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114",
       "d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328",
       "da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
@@ -129,7 +130,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 59
+    "uniqueSha256": 60
   },
   "completedSourceCoverage": [
     {
@@ -3534,11 +3535,54 @@
         "printed spelling, grammar, outdated terminology and academically questionable questions or answer tokens remain source truth without correction",
         "the complete inline answer set remains personal revision-source evidence rather than an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "d948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114",
+      "sourcePages": 52,
+      "renderedReadPages": "1-52",
+      "objectiveMcqPrompts": 49,
+      "writtenPrompts": 0,
+      "printedKeyObservations": 40,
+      "sourceAbsentAnswers": 9,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 2,
+      "nonAssessmentCloserPages": 1,
+      "sourceFirstHandles": 6,
+      "priorFhb1022CollapsedHandles": 6,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 12,
+      "replayAnswerObservations": 11,
+      "clippedLatentTextMatchesExcluded": 2,
+      "familyQuestionDelta": 37,
+      "familyAnswerDelta": 29,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "antituberculous and antileprosy pharmacology",
+        "antifungal mechanisms uses and toxicity",
+        "tetracycline macrolide and other protein-synthesis inhibitors",
+        "aminoglycoside mechanisms dosing uses and toxicity",
+        "fluoroquinolone sulfonamide and antifolate pharmacology",
+        "general antimicrobial selection pharmacodynamics prophylaxis and adverse effects"
+      ],
+      "authorityDisposition": "anonymous PDFium-generated pharmacology revision slide carrier with no visible title, author, examiner, sitting, marks scheme or authenticated faculty-key declaration; the terminal MUST-branded thank-you slide establishes institutional design context only and does not authenticate the questions or red answer marks",
+      "boundaryDisposition": "pages 1-35 and 37-50 contain forty-nine ordinary text multiple-choice prompts; forty carry a visibly rendered red ANSWER token and nine remain source-absent; pages 36 and 51 are revealed explanatory teaching slides and page 52 is a non-assessment MUST thank-you closer; exact boundary forty-nine objective prompts, forty prompt-matched source answer observations, zero written, practical or image-dependent occurrences and two teaching-reference pages",
+      "replayDisposition": "twelve complete visibly rendered prompt-and-option fields map one-for-one to completed Chemo 1 or Chemo 2 family fields; eleven carry agreeing answer observations and one is unkeyed here, so those twelve prompts and eleven answers collapse once; two additional extract-layer string matches are not collapsed because the final option is physically clipped outside the rendered page and therefore not a complete visible field",
+      "preservedSourceDefects": [
+        "nine visibly unkeyed fields remain source-absent and no answer is inferred from prior carriers",
+        "two physically clipped question fields retain only their rendered boundary even though the hidden text layer contains additional option text",
+        "the source prints adrenal insufficiency as the answer to the most serious ketoconazole adverse effect and other academically questionable answer claims; all remain source truth without repair",
+        "red ANSWER marks are anonymous revision-source evidence rather than an authenticated faculty key"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4832,
-    "printedKeyObservations": 4607,
+    "printedPromptObservations": 4869,
+    "printedKeyObservations": 4636,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3898,33 +3942,39 @@
     "pages": 16,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "sixtiethSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma FHB revision MCQs.pdf",
     "sha256": "d948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114",
     "pages": 52,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Special Chemotherapy [ANSWERED].pdf",
+    "sha256": "42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf",
+    "pages": 9,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 35,
-    "uniqueSha256": 35,
-    "sortedNewlineSha256": "e34423d9aebdd72892dcc5f5476386254220a00feb5cdf42227c8c51ddc69541",
+    "inventoryMetadataRows": 34,
+    "uniqueSha256": 34,
+    "sortedNewlineSha256": "c0b6f0a4f6adea42968aac5f7a8a38c37a89b7ad410abd0f004cad25011af3ae",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
-      "sparse-text": 10,
+      "sparse-text": 9,
       "substantive-text": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
-    "sparse-text": 10,
+    "sparse-text": 9,
     "substantive-text": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 59,
-    "remainingUniqueSha256": 35,
+    "processedUniqueSha256": 60,
+    "remainingUniqueSha256": 34,
     "processedPlusRemaining": 94
   }
 }
