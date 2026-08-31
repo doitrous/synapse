@@ -2327,22 +2327,24 @@ The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/0
 
 **BLOCKED — S1 cannot be approved:** 19 selected inventory paths / 19 unique hashes remain untriaged.
 
-## Partial source checkpoint — `EOM - Pharmacology FHB102-2 Final all`, pages 1–20
+## Partial source checkpoint — `EOM - Pharmacology FHB102-2 Final all`, pages 1–40
 
 | Source path | SHA-256 | Source pages | Audit class | Bounded visual read | Provenance / authority |
 |---|---|---:|---|---|---|
-| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf` | `1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a` | 168 | sparse-text | pages 1–20 rendered and read | Concatenated pharmacology teaching/reference carrier assembled under an `EOM` / `Final all` filename. The reviewed pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf` | `1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a` | 168 | sparse-text | pages 1–40 rendered and read | Concatenated pharmacology teaching/reference carrier assembled under an `EOM` / `Final all` filename. The reviewed pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration. |
 
 ### Exact bounded boundary and handle state
 
-Pages 1–6 introduce bacterial protein inhibitors, replication/transcription/translation and prokaryotic/eukaryotic ribosomes. Pages 7–11 cover aminoglycoside pharmacokinetics, clinical uses, adverse effects and concentration-dependent killing. Pages 12–20 introduce tetracyclines and cover representative drugs, elimination, pharmacokinetics, spectrum, uses, acne-treatment imagery and doxycycline. All twenty pages are fully revealed declarative teaching/reference slides; labelled diagrams, bullet lists and product or clinical images are not assessment response fields.
+Pages 1–6 introduce bacterial protein inhibitors, replication/transcription/translation and prokaryotic/eukaryotic ribosomes. Pages 7–11 cover aminoglycoside pharmacokinetics, clinical uses, adverse effects and concentration-dependent killing. Pages 12–20 introduce tetracyclines and cover representative drugs, elimination, pharmacokinetics, spectrum, uses, acne-treatment imagery and doxycycline.
 
-The exact pages 1–20 boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 20 teaching-reference pages**. With no assessment prompt, the source-first assessment handle count is **0**, so **0 accepted × 4 = 0 searches** and **0 live / 0 pending / 0 new**. No answer is inferred and no declarative statement is reverse-engineered into a question.
+The latest pages 21–40 tranche continues with tetracycline adverse effects and mechanism on pages 21–25; chloramphenicol pharmacology, uses, adverse effects and interaction imagery on pages 26–32; macrolide pharmacokinetics, uses and adverse effects on pages 33–37; linezolid pharmacology on pages 38–39; and a clindamycin title/product slide on page 40. All twenty new pages are fully revealed declarative teaching/reference slides. Labelled diagrams, bullet lists and product or clinical images are not assessment response fields.
+
+The exact pages 21–40 tranche is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 20 teaching-reference pages**. The cumulative pages 1–40 boundary is therefore **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 40 teaching-reference pages**. With no assessment prompt, the source-first assessment handle count is **0**, so **0 accepted × 4 = 0 searches** and **0 live / 0 pending / 0 new**. No answer is inferred and no declarative statement is reverse-engineered into a question.
 
 ### Partial-state reconciliation and next page
 
-This is not a completed source family: only pages **1–20 of 168** are adjudicated, pages **21–168** remain unread in this checkpoint, and the exact resume boundary is **page 21**. The hash remains `sourceProcessed=false` and stays in the remaining set. The partial delta is **+0 questions / +0 answers / +0 concepts**, leaving cumulative triage at **5,207 questions / 4,974 answers / 62 concepts**.
+This is not a completed source family: only pages **1–40 of 168** are adjudicated, pages **41–168** remain unread in this checkpoint, and the exact resume boundary is **page 41**. The hash remains `sourceProcessed=false` and stays in the remaining set. The latest-tranche and cumulative partial delta is **+0 questions / +0 answers / +0 concepts**, leaving cumulative triage at **5,207 questions / 4,974 answers / 62 concepts**.
 
 Processed/remaining arithmetic therefore does not change: **75 processed unique hashes + 19 remaining unique hashes = 94**, with **77 processed paths + 19 remaining paths = 96**. The remaining checksum stays `720841e613b1513d016b3024fdac13b5f0d990d41c54f195330de4a1a93aa925`, and remaining audit debt stays **7 substantive-text / 1 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed**.
 
-**BLOCKED — S1 cannot be approved:** current source resumes at page 21; 19 selected inventory paths / 19 unique hashes remain untriaged.
+**BLOCKED — S1 cannot be approved:** current source resumes at page 41; 19 selected inventory paths / 19 unique hashes remain untriaged.
