@@ -1090,29 +1090,4 @@ export const AR: Record<string, string> = {
   'Search title, note, category, reporter': 'ابحث في العنوان والملاحظة والفئة والمُبلِّغ',
   'Media requests reviewers handed up because they could not complete them safely.': 'طلبات وسائط رفعها المراجِعون لتعذّر إكمالها بأمان.',
   'Why are you returning, reassigning or resolving this?': 'لماذا تعيد هذا أو تعيد تعيينه أو تحلّه؟',
-
-  // ---- Learn hub --------------------------------------------------------
-  'Every way to study, in one place.': 'كل طرق المذاكرة في مكان واحد.',
-  'Jump to a group': 'انتقل إلى مجموعة',
-  Practice: 'تدرّب',
-  'Hands-on': 'تطبيق عملي',
-  Memorise: 'احفظ',
-  Read: 'اقرأ',
-  // Nav labels that had no Arabic yet — now shown as Learn hub card titles.
-  'Question of the Day': 'سؤال اليوم',
-  'Question Notes': 'ملاحظات الأسئلة',
-  Minigames: 'ألعاب مصغّرة',
-  // Card purpose lines
-  'Solve past-paper MCQs by chapter or source': 'حل أسئلة اختيار من متعدد من امتحانات سابقة حسب الفصل أو المصدر',
-  'One daily question, building a personal streak': 'سؤال يومي واحد يبني تتابعك الشخصي',
-  'A personalised set that targets your weak spots': 'مجموعة أسئلة مخصّصة تستهدف نقاط ضعفك',
-  'Your notes from questions in the Question Bank': 'ملاحظاتك من أسئلة بنك الأسئلة',
-  'OSCE stations, spot diagnosis, and image questions': 'محطات OSCE، وتشخيص سريع، وأسئلة بالصور',
-  'Write full answers, then mark against key points': 'اكتب إجابات كاملة، ثم صحّحها على النقاط الأساسية',
-  'Spaced repetition so hard facts actually stick': 'تكرار متباعد يثبّت الحقائق الصعبة فعليًا',
-  'Quick matching and recall games between sessions': 'ألعاب مطابقة واسترجاع سريعة بين جلسات المذاكرة',
-  'Every book and guideline, organised by subject': 'كل كتاب ودليل، منظّم حسب المادة',
-  'Files, videos, and uploads in one place': 'ملفات وفيديوهات ورفعاتك في مكان واحد',
-  'Look up terms and how concepts connect': 'ابحث عن المصطلحات وكيف ترتبط المفاهيم',
-  'authored packs ready': 'حزمة جاهزة',
 }
