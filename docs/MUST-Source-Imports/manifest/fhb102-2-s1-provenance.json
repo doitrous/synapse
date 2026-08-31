@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "d0f4f60b7a97d6888c55df5c87d15d3f074d126c08d1f6cc52e30c97d74160b7",
-    "triageMarkdown": "cb6c303a7096168492c530d31fc0d38ae8fda01edd8749e01ed8b2265470f166"
+    "readinessMarkdown": "5db4c323fe3d243c98fefd6473cae438744f39a9556bd8954c28aef48e84ee6b",
+    "triageMarkdown": "db83691cc0e5bb65d9150416e0e1a6fc65c679d20fc6316fbb7e7689315876fd"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -75,6 +75,7 @@
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
       "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
+      "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
@@ -105,7 +106,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 35
+    "uniqueSha256": 36
   },
   "completedSourceCoverage": [
     {
@@ -2210,11 +2211,55 @@
         "the nineteen embedded teaching-note boxes are not reverse-engineered into questions or counted as answer observations",
         "printed spelling, abbreviations, deprecated terms and academically questionable highlighted answers or note claims remain source truth"
       ]
+    },
+    {
+      "sha256": "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "objectiveQuestionPages": "1-6",
+      "writtenQuestionPages": [
+        7
+      ],
+      "answerPages": [
+        8
+      ],
+      "printedPromptObservations": 35,
+      "objectiveMcqPrompts": 30,
+      "writtenPrompts": 5,
+      "printedKeyObservations": 35,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 35,
+      "familyAnswerDelta": 35,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "parasite definition and parasite-type classification",
+        "definitive, intermediate and reservoir hosts",
+        "biological vectors and transmission",
+        "zoonoses and accidental hosts",
+        "parasite habitat, entry routes and life-cycle importance"
+      ],
+      "authorityDisposition": "anonymous ReportLab-generated An Introduction to Medical Parasitology — Quiz derivative created in February 2026; it claims to be based strictly on an unspecified provided PDF but shows no MUST university, college or department authentication, module label, named author, examiner, sitting, marks or authenticated faculty-key claim",
+      "boundaryDisposition": "pages 1-6 contain thirty conventional objective MCQs, page 7 contains five written SAQs, and page 8 supplies a complete thirty-token MCQ key plus five prompt-matched SAQ model answers; thirty-five prompts and thirty-five source answer observations, with zero source-absent, practical, image-dependent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "the underlying provided PDF named by the derivative is neither identified nor authenticated within this carrier",
+        "the model answers and answer key remain anonymous derivative answer evidence rather than an official faculty key",
+        "printed simplifications, terminology and academically questionable prompts or model-answer claims remain source truth"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2922,
-    "printedKeyObservations": 2747,
+    "printedPromptObservations": 2957,
+    "printedKeyObservations": 2782,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2430,22 +2475,28 @@
     "pages": 10,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtySixthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Medical_Parasitology_Quiz_MCQs_SAQs.pdf",
     "sha256": "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
     "pages": 8,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - PARA MCQ by DR.KANDEEL [103].pdf",
+    "sha256": "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
+    "pages": 15,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 59,
-    "uniqueSha256": 59,
-    "sortedNewlineSha256": "c6cd81db9c59dbd587baf48b27d709473426c21a4626e5eb2d77a6d4ac549656",
+    "inventoryMetadataRows": 58,
+    "uniqueSha256": 58,
+    "sortedNewlineSha256": "4a4445926442b7157bfe7d131be524ec508dd027f6ff4a0cfe98407f37274abb",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 9,
       "sparse-text": 14,
-      "substantive-text": 24
+      "substantive-text": 23
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -2453,12 +2504,12 @@
     "audit-not-found": 11,
     "empty-text": 9,
     "sparse-text": 14,
-    "substantive-text": 24
+    "substantive-text": 23
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 35,
-    "remainingUniqueSha256": 59,
+    "processedUniqueSha256": 36,
+    "remainingUniqueSha256": 58,
     "processedPlusRemaining": 94
   }
 }

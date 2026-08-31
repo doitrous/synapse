@@ -1396,3 +1396,31 @@ Removing the thirty-five processed hashes leaves **59 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Medical_Parasitology_Quiz_MCQs_SAQs.pdf`, SHA-256 `41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c`, 8 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 59 selected inventory paths / 59 unique hashes remain untriaged.
+
+## Completed source — Medical_Parasitology_Quiz_MCQs_SAQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Medical_Parasitology_Quiz_MCQs_SAQs.pdf` | `41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c` | 8 | substantive-text | pages 1–8 rendered and read | Anonymous ReportLab-generated `An Introduction to Medical Parasitology — Quiz` derivative created in February 2026. Its subtitle says it is based strictly on an unspecified provided PDF, but no source, MUST institution, department, module, named author, examiner, sitting, marks or authenticated faculty-key claim is identified. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Pages 1–6 contain thirty conventional objective MCQs. Page 7 contains five written SAQs. Page 8 supplies one answer token for every MCQ and a model answer for every SAQ.
+
+The exact boundary is **30 objective prompts / 5 written prompts / 35 prompt-matched answer observations / 0 source-absent answers / 0 practical or image prompts / 0 teaching prompts**. The anonymous answer key and model answers remain derivative source-answer evidence, not an official faculty key. Printed simplifications, terminology and academically questionable prompts or answer claims remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+The thirty-five physical prompts collapse into five coherent source-first handles: parasite definitions/classification; definitive, intermediate and reservoir hosts; biological vectors/transmission; zoonoses/accidental hosts; and parasite habitat, entry routes and life-cycle importance. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-sixth one-path hash is now `sourceProcessed=true`, adding **+35 questions / +35 answers / +0 concepts**. Cumulative triage is **2,957 questions / 2,782 answers / 62 concepts**.
+
+Removing the thirty-six processed hashes leaves **58 selected inventory paths / 58 unique SHA-256s**. Their sorted-newline checksum is `4a4445926442b7157bfe7d131be524ec508dd027f6ff4a0cfe98407f37274abb`. Remaining audit-review debt is **23 substantive-text / 14 sparse-text / 9 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`36 + 58 = 94`** and path accounting is **`38 + 58 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - PARA MCQ by DR.KANDEEL [103].pdf`, SHA-256 `73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7`, 15 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 58 selected inventory paths / 58 unique hashes remain untriaged.

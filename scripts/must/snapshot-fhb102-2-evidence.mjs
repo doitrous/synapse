@@ -44,9 +44,10 @@ const PROCESSED_FAMILY_HASHES = [
   '80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631',
   'fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201',
   '5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e',
+  '41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = 'c6cd81db9c59dbd587baf48b27d709473426c21a4626e5eb2d77a6d4ac549656'
+const REMAINING_CHECKSUM = '4a4445926442b7157bfe7d131be524ec508dd027f6ff4a0cfe98407f37274abb'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -257,10 +258,16 @@ const THIRTY_FIFTH_SOURCE = {
   pages: 10,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const THIRTY_SIXTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Medical_Parasitology_Quiz_MCQs_SAQs.pdf',
   sha256: '41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c',
   pages: 8,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - PARA MCQ by DR.KANDEEL [103].pdf',
+  sha256: '73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7',
+  pages: 15,
   sourceProcessed: false,
 }
 
@@ -339,10 +346,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 9, 'sparse-text': 14, 'substantive-text': 24 }
+  const expected = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 9, 'sparse-text': 14, 'substantive-text': 23 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=24-substantive/14-sparse/9-empty/11-not-found/1-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=23-substantive/14-sparse/9-empty/11-not-found/1-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -358,7 +365,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, SEVENTH_SOURCE.relativePath, SEVENTH_SOURCE.sha256, EIGHTH_SOURCE.relativePath, EIGHTH_SOURCE.sha256, NINTH_SOURCE.relativePath, NINTH_SOURCE.sha256, TENTH_SOURCE.relativePath, TENTH_SOURCE.sha256, ELEVENTH_SOURCE.relativePath, ELEVENTH_SOURCE.sha256, TWELFTH_SOURCE.relativePath, TWELFTH_SOURCE.sha256, THIRTEENTH_SOURCE.relativePath, THIRTEENTH_SOURCE.sha256, FOURTEENTH_SOURCE.relativePath, FOURTEENTH_SOURCE.sha256, FIFTEENTH_SOURCE.relativePath, FIFTEENTH_SOURCE.sha256, SIXTEENTH_SOURCE.relativePath, SIXTEENTH_SOURCE.sha256, SEVENTEENTH_SOURCE.relativePath, SEVENTEENTH_SOURCE.sha256, EIGHTEENTH_SOURCE.relativePath, EIGHTEENTH_SOURCE.sha256, NINETEENTH_SOURCE.relativePath, NINETEENTH_SOURCE.sha256, TWENTIETH_SOURCE.relativePath, TWENTIETH_SOURCE.sha256, TWENTY_FIRST_SOURCE.relativePath, TWENTY_FIRST_SOURCE.sha256, TWENTY_SECOND_SOURCE.relativePath, TWENTY_SECOND_SOURCE.sha256, TWENTY_THIRD_SOURCE.relativePath, TWENTY_THIRD_SOURCE.sha256, TWENTY_FOURTH_SOURCE.relativePath, TWENTY_FOURTH_SOURCE.sha256, TWENTY_FIFTH_SOURCE.relativePath, TWENTY_FIFTH_SOURCE.sha256, TWENTY_SIXTH_SOURCE.relativePath, TWENTY_SIXTH_SOURCE.sha256, TWENTY_SEVENTH_SOURCE.relativePath, TWENTY_SEVENTH_SOURCE.sha256, TWENTY_EIGHTH_SOURCE.relativePath, TWENTY_EIGHTH_SOURCE.sha256, TWENTY_NINTH_SOURCE.relativePath, TWENTY_NINTH_SOURCE.sha256, THIRTIETH_SOURCE.relativePath, THIRTIETH_SOURCE.sha256, THIRTY_FIRST_SOURCE.relativePath, THIRTY_FIRST_SOURCE.sha256, THIRTY_SECOND_SOURCE.relativePath, THIRTY_SECOND_SOURCE.sha256, THIRTY_THIRD_SOURCE.relativePath, THIRTY_THIRD_SOURCE.sha256, THIRTY_FOURTH_SOURCE.relativePath, THIRTY_FOURTH_SOURCE.sha256, THIRTY_FIFTH_SOURCE.relativePath, THIRTY_FIFTH_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
+for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, SEVENTH_SOURCE.relativePath, SEVENTH_SOURCE.sha256, EIGHTH_SOURCE.relativePath, EIGHTH_SOURCE.sha256, NINTH_SOURCE.relativePath, NINTH_SOURCE.sha256, TENTH_SOURCE.relativePath, TENTH_SOURCE.sha256, ELEVENTH_SOURCE.relativePath, ELEVENTH_SOURCE.sha256, TWELFTH_SOURCE.relativePath, TWELFTH_SOURCE.sha256, THIRTEENTH_SOURCE.relativePath, THIRTEENTH_SOURCE.sha256, FOURTEENTH_SOURCE.relativePath, FOURTEENTH_SOURCE.sha256, FIFTEENTH_SOURCE.relativePath, FIFTEENTH_SOURCE.sha256, SIXTEENTH_SOURCE.relativePath, SIXTEENTH_SOURCE.sha256, SEVENTEENTH_SOURCE.relativePath, SEVENTEENTH_SOURCE.sha256, EIGHTEENTH_SOURCE.relativePath, EIGHTEENTH_SOURCE.sha256, NINETEENTH_SOURCE.relativePath, NINETEENTH_SOURCE.sha256, TWENTIETH_SOURCE.relativePath, TWENTIETH_SOURCE.sha256, TWENTY_FIRST_SOURCE.relativePath, TWENTY_FIRST_SOURCE.sha256, TWENTY_SECOND_SOURCE.relativePath, TWENTY_SECOND_SOURCE.sha256, TWENTY_THIRD_SOURCE.relativePath, TWENTY_THIRD_SOURCE.sha256, TWENTY_FOURTH_SOURCE.relativePath, TWENTY_FOURTH_SOURCE.sha256, TWENTY_FIFTH_SOURCE.relativePath, TWENTY_FIFTH_SOURCE.sha256, TWENTY_SIXTH_SOURCE.relativePath, TWENTY_SIXTH_SOURCE.sha256, TWENTY_SEVENTH_SOURCE.relativePath, TWENTY_SEVENTH_SOURCE.sha256, TWENTY_EIGHTH_SOURCE.relativePath, TWENTY_EIGHTH_SOURCE.sha256, TWENTY_NINTH_SOURCE.relativePath, TWENTY_NINTH_SOURCE.sha256, THIRTIETH_SOURCE.relativePath, THIRTIETH_SOURCE.sha256, THIRTY_FIRST_SOURCE.relativePath, THIRTY_FIRST_SOURCE.sha256, THIRTY_SECOND_SOURCE.relativePath, THIRTY_SECOND_SOURCE.sha256, THIRTY_THIRD_SOURCE.relativePath, THIRTY_THIRD_SOURCE.sha256, THIRTY_FOURTH_SOURCE.relativePath, THIRTY_FOURTH_SOURCE.sha256, THIRTY_FIFTH_SOURCE.relativePath, THIRTY_FIFTH_SOURCE.sha256, THIRTY_SIXTH_SOURCE.relativePath, THIRTY_SIXTH_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -404,7 +411,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 35 || remainingHashes.length !== 59 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 36 || remainingHashes.length !== 58 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -412,7 +419,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 9, 'sparse-text': 14, 'substantive-text': 24 }
+const expectedRemainingDebt = { 'audit-extract-failed': 1, 'audit-not-found': 11, 'empty-text': 9, 'sparse-text': 14, 'substantive-text': 23 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -1685,8 +1692,38 @@ const provenance = {
       boundaryDisposition: 'page 1 is the MUST departmental teaching cover; pages 2-10 contain three clinical single-best-answer MCQs apiece, for twenty-seven objective prompt occurrences, and every prompt has exactly one yellow-highlighted source answer; nineteen separate yellow teaching-note callouts accompany selected prompts but are fully revealed reference annotations rather than additional prompts, answers or teaching-only pages; zero written, practical, image-dependent or source-absent occurrence',
       preservedSourceDefects: ['departmental teaching authority is retained without upgrading handwritten or added highlighting to authenticated faculty-key authority', 'the nineteen embedded teaching-note boxes are not reverse-engineered into questions or counted as answer observations', 'printed spelling, abbreviations, deprecated terms and academically questionable highlighted answers or note claims remain source truth'],
     },
+    {
+      sha256: THIRTY_SIXTH_SOURCE.sha256,
+      sourcePages: 8,
+      renderedReadPages: '1-8',
+      objectiveQuestionPages: '1-6',
+      writtenQuestionPages: [7],
+      answerPages: [8],
+      printedPromptObservations: 35,
+      objectiveMcqPrompts: 30,
+      writtenPrompts: 5,
+      printedKeyObservations: 35,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingPrompts: 0,
+      sourceFirstHandles: 5,
+      priorFhb1022CollapsedHandles: 5,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 35,
+      familyAnswerDelta: 35,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['parasite definition and parasite-type classification', 'definitive, intermediate and reservoir hosts', 'biological vectors and transmission', 'zoonoses and accidental hosts', 'parasite habitat, entry routes and life-cycle importance'],
+      authorityDisposition: 'anonymous ReportLab-generated An Introduction to Medical Parasitology — Quiz derivative created in February 2026; it claims to be based strictly on an unspecified provided PDF but shows no MUST university, college or department authentication, module label, named author, examiner, sitting, marks or authenticated faculty-key claim',
+      boundaryDisposition: 'pages 1-6 contain thirty conventional objective MCQs, page 7 contains five written SAQs, and page 8 supplies a complete thirty-token MCQ key plus five prompt-matched SAQ model answers; thirty-five prompts and thirty-five source answer observations, with zero source-absent, practical, image-dependent or teaching-only occurrence',
+      preservedSourceDefects: ['the underlying provided PDF named by the derivative is neither identified nor authenticated within this carrier', 'the model answers and answer key remain anonymous derivative answer evidence rather than an official faculty key', 'printed simplifications, terminology and academically questionable prompts or model-answer claims remain source truth'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 2922, printedKeyObservations: 2747, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 2957, printedKeyObservations: 2782, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -1722,6 +1759,7 @@ const provenance = {
   thirtyThirdSourceCandidate: THIRTY_THIRD_SOURCE,
   thirtyFourthSourceCandidate: THIRTY_FOURTH_SOURCE,
   thirtyFifthSourceCandidate: THIRTY_FIFTH_SOURCE,
+  thirtySixthSourceCandidate: THIRTY_SIXTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
