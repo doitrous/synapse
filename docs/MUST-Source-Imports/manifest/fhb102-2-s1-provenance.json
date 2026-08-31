@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "742048f81b6b0dabc4f18583f17a84030e586c0530a2990ac84257c59723da02",
-    "triageMarkdown": "eefb77830589d224f9c1bfaad78af873a4ad6a57338826100b719b1ba16e76f5"
+    "readinessMarkdown": "ddadca4dbec23ad76e87a6a1ba91c0c201cdde77cc55bb8211239c5fc5a130f9",
+    "triageMarkdown": "32e3c66a828917b72cfbd51d75faea941d13545baf46f73fd263333cc6e6e0a2"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -105,6 +105,7 @@
       "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
       "751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165",
       "79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e",
+      "7a7e327a05a996ee0e64555cf28ef341734cd8d486dd8dabf3c13f04cf523085",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
@@ -150,7 +151,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 80
+    "uniqueSha256": 81
   },
   "completedSourceCoverage": [
     {
@@ -4878,12 +4879,86 @@
         "printed spelling such as candidias and Amphotreccin, wording, terminology and academically questionable answer letters remain literal source truth without correction",
         "the four terminal answer tables are retained as personal revision-source evidence rather than promoted to authenticated faculty keys"
       ]
+    },
+    {
+      "sha256": "7a7e327a05a996ee0e64555cf28ef341734cd8d486dd8dabf3c13f04cf523085",
+      "sourcePages": 4,
+      "renderedReadPages": "1-4",
+      "printedPromptObservations": 15,
+      "distinctAssessmentPrompts": 15,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 15,
+      "capturedQuestionLabels": "Q1-Q15",
+      "printedKeyObservations": 15,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 15,
+      "familyAnswerDelta": 15,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Opening written prompts and answers",
+          "pages": "1",
+          "questionLabels": "Q1-Q5",
+          "writtenPrompts": 5,
+          "printedKeyObservations": 5
+        },
+        {
+          "section": "Antimicrobial written prompts and answers",
+          "pages": "2",
+          "questionLabels": "Q6-Q11",
+          "writtenPrompts": 6,
+          "printedKeyObservations": 6
+        },
+        {
+          "section": "Tuberculosis, anemia and colitis written prompts and answers",
+          "pages": "3",
+          "questionLabels": "Q12-Q14",
+          "writtenPrompts": 3,
+          "printedKeyObservations": 3
+        },
+        {
+          "section": "Tetracycline written prompt and answer",
+          "pages": "4",
+          "questionLabels": "Q15",
+          "writtenPrompts": 1,
+          "printedKeyObservations": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [
+        "tuberculosis first- and second-line drugs and rifampicin/isoniazid pharmacology",
+        "antifolate uses, toxicity and anemia",
+        "azole and amphotericin B pharmacology and toxicity",
+        "fluoroquinolone, chloramphenicol and tetracycline mechanisms and toxicity",
+        "antimicrobial selection, interactions and pseudomembranous colitis"
+      ],
+      "replayDisposition": "exact normalized prompt-substring screening of all fifteen written fields against all eighty previously processed FHB 102-2 families finds zero same-stem assessment candidates; broader topic-phrase screening finds only semantic overlap in MCQs, teaching slides or explanatory prose rather than the same written prompt, so all fifteen prompts and fifteen answer observations survive as distinct physical occurrences",
+      "authorityDisposition": "Microsoft Word-authored personal revision carrier titled Pharmacology Written FHB102-2 Questions (Final), bearing 200057470-Abdel Salam Muhammad Abdel Salam Mahmoud author metadata and an Absalam101 footer credit; no authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "pages 1-4 contain one continuous Q1-Q15 written sequence, with every prompt immediately followed by printed answer text; the exact boundary is fifteen written prompts and fifteen prompt-matched printed answer observations with zero objective, absent, practical, image-dependent or teaching-only occurrences; sub-numbered lists inside the answers to Q1 and Q3 are answer structure rather than additional assessment prompts",
+      "preservedSourceDefects": [
+        "printed spelling and wording such as Fluroquinolones, difficle and Chlymadia remain literal source truth without correction",
+        "Q9 requests four gastrointestinal-upset drugs but its printed answer lists three, while Q10 requests two biliary-tract drugs but its printed answer lists four",
+        "Q11 retains the malformed wording two drug inducer drugs and Q12 retains its printed first-line and second-line tuberculosis wording",
+        "the immediately following answer text is retained as personal revision-source evidence rather than promoted to an authenticated faculty key",
+        "printed medically or academically questionable claims remain source truth without inference or correction"
+      ]
     }
   ],
   "partialSourceCoverage": [],
   "triageCumulative": {
-    "printedPromptObservations": 5429,
-    "printedKeyObservations": 5196,
+    "printedPromptObservations": 5444,
+    "printedKeyObservations": 5211,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -5369,29 +5444,35 @@
     "pages": 33,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightyFirstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology Written FHB102-2 Questions (Final).pdf",
     "sha256": "7a7e327a05a996ee0e64555cf28ef341734cd8d486dd8dabf3c13f04cf523085",
     "pages": 4,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/FHB Pharmacology Midterm Notes 2025.pdf",
+    "sha256": "09de94ee340a1967dae22c48850502fe9b15afbd7b3dba5594eb0c39ededc3b2",
+    "pages": 11,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 14,
-    "uniqueSha256": 14,
-    "sortedNewlineSha256": "61f3544240690292e1b2f797d51b9a51dd10691dbb52e56ad33e1c8b1aecc5e8",
+    "inventoryMetadataRows": 13,
+    "uniqueSha256": 13,
+    "sortedNewlineSha256": "f124750382f59e5762b570e2b2d9936db78f121568268662b611ef339aec4cc5",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
-      "substantive-text": 3
+      "substantive-text": 2
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
-    "substantive-text": 3
+    "substantive-text": 2
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 80,
-    "remainingUniqueSha256": 14,
+    "processedUniqueSha256": 81,
+    "remainingUniqueSha256": 13,
     "processedPlusRemaining": 94
   }
 }

@@ -2476,3 +2476,31 @@ Removing the eighty processed hashes leaves **14 selected inventory paths / 14 u
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology Written FHB102-2 Questions (Final).pdf`, SHA-256 `7a7e327a05a996ee0e64555cf28ef341734cd8d486dd8dabf3c13f04cf523085`, 4 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 14 selected inventory paths / 14 unique hashes remain untriaged.
+
+## Completed source — `Pharmacology Written FHB102-2 Questions (Final)`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology Written FHB102-2 Questions (Final).pdf` | `7a7e327a05a996ee0e64555cf28ef341734cd8d486dd8dabf3c13f04cf523085` | 4 | substantive-text | pages 1–4 rendered and read | Microsoft Word-authored personal revision carrier titled `Pharmacology Written FHB102-2 Questions (Final)`, bearing `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud` author metadata and an `Absalam101` footer credit. No authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Page 1 contains Q1–Q5, page 2 contains Q6–Q11, page 3 contains Q12–Q14 and page 4 contains Q15. Every written prompt is immediately followed by printed answer text. The exact boundary is **15 written prompts / 15 prompt-matched printed answer observations / 0 source-absent / 0 objective / 0 practical or image-dependent / 0 teaching-only occurrences**. Sub-numbered lists inside the answers to Q1 and Q3 are answer structure rather than additional assessment prompts. The printed answers are retained as personal revision-source observations rather than promoted to an authenticated faculty key.
+
+### Replay and exactly-four-search gate
+
+Exact normalized prompt-substring screening of all fifteen written fields against all eighty previously processed FHB-102-2 families finds **0 same-stem assessment candidates**. Broader topic-phrase screening finds only semantic overlap in MCQs, teaching slides or explanatory prose, not the same written prompt. All **15 questions / 15 answers** therefore survive as distinct physical occurrences.
+
+Five source-first handles cover tuberculosis first- and second-line drugs and rifampicin/isoniazid pharmacology; antifolate uses, toxicity and anemia; azole and amphotericin B pharmacology and toxicity; fluoroquinolone, chloramphenicol and tetracycline mechanisms and toxicity; and antimicrobial selection, interactions and pseudomembranous colitis. All five collapse to prior FHB-102-2 evidence. Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+Printed spelling and wording such as `Fluroquinolones`, `difficle` and `Chlymadia` remain literal source truth. Q9 requests four drugs but its answer lists three; Q10 requests two but its answer lists four; Q11 retains the malformed wording `two drug inducer drugs`; and printed medically or academically questionable answer claims remain uncorrected and uninferred.
+
+### Delta, cumulative totals and next source
+
+This eighty-first one-path hash is now `sourceProcessed=true`, adding **+15 questions / +15 answers / +0 concepts**. Cumulative triage is **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-one processed hashes leaves **13 selected inventory paths / 13 unique SHA-256s**. Their sorted-newline checksum is `f124750382f59e5762b570e2b2d9936db78f121568268662b611ef339aec4cc5`. Remaining audit-review debt is **2 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`81 + 13 = 94`** and path accounting is **`83 + 13 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/FHB Pharmacology Midterm Notes 2025.pdf`, SHA-256 `09de94ee340a1967dae22c48850502fe9b15afbd7b3dba5594eb0c39ededc3b2`, 11 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 13 selected inventory paths / 13 unique hashes remain untriaged.
