@@ -1368,3 +1368,31 @@ Removing the thirty-four processed hashes leaves **60 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf`, SHA-256 `5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e`, 10 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 60 selected inventory paths / 60 unique hashes remain untriaged.
+
+## Completed source — Fhb para (answers & notes)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf` | `5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e` | 10 | empty-text | pages 1–10 rendered and read | Page 1 is a visible official MUST Faculty of Medicine, Parasitology Department FHB102-2 teaching cover for `Vectors of Disease Transmission` by Prof. Heba Abdel Aaty. This authenticates departmental teaching attribution, not an exam sitting or faculty key; the later yellow option highlights and note-box annotations are not independently authenticated as official answers. |
+
+### Exact objective, written, practical, image, note and answer boundary
+
+Page 1 is the official teaching cover. Pages 2–10 contain three clinical single-best-answer MCQs apiece. Every prompt has exactly one yellow-highlighted option, producing **27 objective prompts / 27 highlighted source answer observations / 0 source-absent answers**. Nineteen separate yellow teaching-note callouts accompany selected questions; they are already-revealed reference annotations, not extra prompts or answer observations.
+
+The full boundary is therefore **27 objective / 0 written / 0 practical or image / 27 answers / 0 absent / 0 teaching-only prompts**, with **19 embedded teaching-note callouts** tracked separately. Printed spelling, abbreviations, deprecated terms and academically questionable highlighted answers or note claims remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+The 27 physical prompts collapse into eleven source-first handles: fleas/plague; lice/epidemic typhus; Triatoma/Chagas; epidemic and endemic relapsing fever; dog flea/Dipylidium; myiasis and fly-larva diagnosis; mosquito host roles and larval control; sand fly disease/control; Glossina/African trypanosomiasis; hard ticks/Babesia/paralysis/spotted fevers; and vector-transmission/host diagnosis. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is **11 source-first − 11 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-fifth one-path hash is now `sourceProcessed=true`, adding **+27 questions / +27 answers / +0 concepts**. Cumulative triage is **2,922 questions / 2,747 answers / 62 concepts**.
+
+Removing the thirty-five processed hashes leaves **59 selected inventory paths / 59 unique SHA-256s**. Their sorted-newline checksum is `c6cd81db9c59dbd587baf48b27d709473426c21a4626e5eb2d77a6d4ac549656`. Remaining audit-review debt is **24 substantive-text / 14 sparse-text / 9 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`35 + 59 = 94`** and path accounting is **`37 + 59 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Medical_Parasitology_Quiz_MCQs_SAQs.pdf`, SHA-256 `41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c`, 8 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 59 selected inventory paths / 59 unique hashes remain untriaged.

@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "1203f1b7819502f14780e4a5172d1619164ebbc1d8acec822f46d1e3d48ca795",
-    "triageMarkdown": "257d52b8d8d278dd46c93b59a5750a9757f78ac492b380fe51dda57d4c6f7465"
+    "readinessMarkdown": "d0f4f60b7a97d6888c55df5c87d15d3f074d126c08d1f6cc52e30c97d74160b7",
+    "triageMarkdown": "cb6c303a7096168492c530d31fc0d38ae8fda01edd8749e01ed8b2265470f166"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -76,6 +76,7 @@
       "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+      "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
@@ -104,7 +105,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 34
+    "uniqueSha256": 35
   },
   "completedSourceCoverage": [
     {
@@ -2160,11 +2161,60 @@
         "matching tables and answer mappings retain their printed order and wording without inferred repairs",
         "printed spelling, dated terminology and academically questionable questions or answer tokens remain source truth"
       ]
+    },
+    {
+      "sha256": "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
+      "sourcePages": 10,
+      "renderedReadPages": "1-10",
+      "officialTeachingCoverPages": [
+        1
+      ],
+      "assessmentPages": "2-10",
+      "printedPromptObservations": 27,
+      "objectiveMcqPrompts": 27,
+      "printedKeyObservations": 27,
+      "highlightedAnswerObservations": 27,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "embeddedTeachingNoteCallouts": 19,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 11,
+      "priorFhb1022CollapsedHandles": 11,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 27,
+      "familyAnswerDelta": 27,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "fleas and plague",
+        "lice and epidemic typhus",
+        "Triatoma and Chagas disease",
+        "epidemic and endemic relapsing fever",
+        "dog flea and Dipylidium caninum",
+        "myiasis and diagnostic fly larvae",
+        "mosquito host roles and larval control",
+        "sand fly disease and control",
+        "Glossina and African trypanosomiasis",
+        "hard ticks, babesiosis, paralysis and spotted fevers",
+        "vector transmission modes and host-parasite diagnosis"
+      ],
+      "authorityDisposition": "visible official MUST Faculty of Medicine, Parasitology Department FHB102-2 teaching carrier titled Vectors of Disease Transmission by Prof. Heba Abdel Aaty; authoritative for departmental teaching attribution, but the later yellow option highlights and yellow note-box annotations are not independently authenticated as an official faculty key or exam sitting",
+      "boundaryDisposition": "page 1 is the MUST departmental teaching cover; pages 2-10 contain three clinical single-best-answer MCQs apiece, for twenty-seven objective prompt occurrences, and every prompt has exactly one yellow-highlighted source answer; nineteen separate yellow teaching-note callouts accompany selected prompts but are fully revealed reference annotations rather than additional prompts, answers or teaching-only pages; zero written, practical, image-dependent or source-absent occurrence",
+      "preservedSourceDefects": [
+        "departmental teaching authority is retained without upgrading handwritten or added highlighting to authenticated faculty-key authority",
+        "the nineteen embedded teaching-note boxes are not reverse-engineered into questions or counted as answer observations",
+        "printed spelling, abbreviations, deprecated terms and academically questionable highlighted answers or note claims remain source truth"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2895,
-    "printedKeyObservations": 2720,
+    "printedPromptObservations": 2922,
+    "printedKeyObservations": 2747,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2374,20 +2424,26 @@
     "pages": 25,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtyFifthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Fhb para (answers & notes).pdf",
     "sha256": "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
     "pages": 10,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Medical_Parasitology_Quiz_MCQs_SAQs.pdf",
+    "sha256": "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
+    "pages": 8,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 60,
-    "uniqueSha256": 60,
-    "sortedNewlineSha256": "0f219a88931d74323492b438958cd9f94a12d3fe9fc9c548bad8805f85f76ec4",
+    "inventoryMetadataRows": 59,
+    "uniqueSha256": 59,
+    "sortedNewlineSha256": "c6cd81db9c59dbd587baf48b27d709473426c21a4626e5eb2d77a6d4ac549656",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
-      "empty-text": 10,
+      "empty-text": 9,
       "sparse-text": 14,
       "substantive-text": 24
     }
@@ -2395,14 +2451,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 1,
     "audit-not-found": 11,
-    "empty-text": 10,
+    "empty-text": 9,
     "sparse-text": 14,
     "substantive-text": 24
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 34,
-    "remainingUniqueSha256": 60,
+    "processedUniqueSha256": 35,
+    "remainingUniqueSha256": 59,
     "processedPlusRemaining": 94
   }
 }
