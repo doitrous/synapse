@@ -27833,3 +27833,111 @@ Metadata records iOS 14.3 Quartz creation/modification on 2 March 2021 and no ti
 subject, form, JavaScript, or encryption. Its exact visible authority, complete prompt/key/written/
 image/practical boundary, OCR/source-local/prior collapse, external/eligible gate, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
+
+## Family 273 — Cairo University applied-medical-pharmacology MCQ compilation (external)
+
+### Source identity, exhaustive 148-page rendered/OCR boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest / local carrier | Tier-9 `src_273bbd8bac604fe63fb0` · `MCQs - Pharma.mcq.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `273bbd8bac604fe63fb071d88a645e2d590a81214d370cf929166c71f4c45630` · **11,498,707 bytes** |
+| Format / complete visual and OCR boundary | **148 scanned portrait 612×867.291-point pages, PDF 1.3**. All 148 pages were rendered into 148 non-empty page images, inspected individually and in eight ordered contact sheets, and freshly OCRed. OCR yields **34,397 words / 224,505 bytes** and supports transcription; the scans govern identity, numbering, tables, and layout. Physical pages 1–6 are cover/blank/title/blank/contents/blank; physical pages 7–145 reproduce printed pages 5–143; physical pages 146–147 are blank/speckled terminal leaves and page 148 is decorative pill artwork. No form, JavaScript, encryption, hidden answer layer, page, crop, or terminal remainder exists. |
+| Visible provenance | The cover states **`Multiple Choice Questions on Applied Medical Pharmacology for Medical Students`**, **`By STAFF MEMBERS of MEDICAL PHARMACOLOGY DEPARTMENT`**, and **`Faculty of Medicine - Cairo University`**. The title page repeats the applied-medical-pharmacology MCQ identity. No Helwan University, Faculty of Medicine–Helwan, BMS-102, local instructor, academic year, sitting, candidate, marks, or departmental approval appears. |
+| Metadata caution | Title/author/subject are blank. iOS 14.3 Quartz records creation and modification on 2 March 2021. That carrier/capture date does not replace or localize the visibly named Cairo University departmental authority. |
+| Authority / eligibility | Affirmatively external Cairo University departmental question compilation. Its placement in a Helwan folder does not make it a Helwan assessment. It is retained as source, format, and comparison evidence but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing external-source rule. |
+
+### Complete section, objective/key, anomaly, written, image, practical, and teaching boundary
+
+| Physical / printed pages | Visible section and question/key scope | Exact source-local objective operations |
+|---:|---|---:|
+| 1–6 / front matter | Cover, blank leaves, title, contents | **0**; publication/structural matter only |
+| 7–19 / 5–17 | `GENERAL PHARMACOLOGY`: Q1–Q97 on printed pp.5–16; key p.17 | **97 keyed four-option MCQs** |
+| 20–40 / 18–38 | `AUTONOMIC NERVOUS SYSTEM`: Q1–Q141 on pp.18–36; key pp.37–38 | **141 keyed four-option MCQs** |
+| 41–42 / 39–40 | `EYE PHARMACOLOGY`: Q1–Q9; key p.40 | **9 keyed four-option MCQs** |
+| 43–45 / 41–43 | `SKELETAL MUSCLE RELAXANTS`: Q1–Q11; key p.43 | **11 keyed four-option MCQs** |
+| 46–53 / 44–51 | `AUTACOIDS`: Q1–Q54; key p.51 | **54 keyed four-option MCQs** |
+| 54–60 / 52–58 | `RESPIRATORY SYSTEM`: Q1–Q39; key p.58 | **39 keyed four-option MCQs** |
+| 61–72 / 59–70 | `CARDIOVASCULAR SYSTEM`: Q1–Q77; key p.70 | **77 keyed four-option MCQs** |
+| 73–82 / 71–80 | `RENAL PHARMACOLOGY`: Q1–Q57; key p.80 | **57 keyed four-option MCQs** |
+| 83–92 / 81–90 | Hematopoietic system, antihyperlipidemics, vitamins, chelating agents, and immunopharmacology: Q1–Q74; key p.90 | **74 keyed four-option MCQs** |
+| 93–112 / 91–110 | Central nervous system and anesthesia: Q1–Q171; key p.110 | **171 keyed four-option MCQs** |
+| 113–125 / 111–123 | Endocrine and reproductive pharmacology: Q1–Q95; key p.123 | **95 keyed four-option MCQs** |
+| 126–133 / 124–131 | `Gastrointestinal Tract Pharmacology`: Q1–Q52; key p.131 | **52 keyed four-option MCQs** |
+| 134–145 / 132–143 | `CHEMOTHERAPY`: Q1–Q94 plus an exact second printed Q80 occurrence, then Q95 as a four-pair matching item; key p.143 | **96 keyed objective occurrences = 95 four-option MCQ occurrences + 1 matching operation** |
+| 146–148 / terminal matter | Two blank/speckled leaves and decorative pill back-cover artwork | **0** |
+
+The exact raw source-local checksum is **973 keyed objective occurrences = 97 + 141 + 9 + 11 +
+54 + 39 + 77 + 57 + 74 + 171 + 95 + 52 + 96**. Of these, **972 are four-option
+MCQ occurrences** and **one is a four-pair matching operation**. Section key tables supply an
+answer for every numbered operation; the matching key supplies the four pair assignments. Thus
+the carrier supplies **973 source-resolvable answers / 0 unkeyed prompts**.
+
+Chemotherapy Q80 is printed twice consecutively with the same number, stem, and four choices on
+printed p.140. It is preserved as **two raw occurrences but one exact same-source proposition**;
+the single Q80 key applies to both copies. Consequently the raw 973 operations represent **972
+distinct source-local propositions** before authority gating. No question or answer is silently
+renumbered, corrected, or attributed to Helwan.
+
+There are **0 free-response written operations, 0 True/False items, 0 completion blanks, 0
+drawings, 0 image-bearing assessment prompts, 0 authenticated practical stations, 0 candidate
+responses, and 0 prompt-like residues**. Clinical vignettes, calculations, drug comparisons, and
+mechanism questions remain objective text items. Section titles, contents, page labels, answer-
+table headings, cover/title wording, blank leaves, and terminal pill artwork are structural,
+provenance, or decorative matter—not assessment additions or practical plates.
+
+### External-authority zero gate, replay ruling, searches, and eligible arithmetic
+
+Authority resolves before eligible semantic retention. All **973 source-local prompts / 973
+source-resolvable answers** belong to the visibly named Cairo University departmental carrier,
+with no affirmative Helwan counterevidence. The exact duplicated Q80 and the complete pharmacology
+scope were reviewed within the carrier and against prior BMS evidence, but excluded external
+occurrences cannot create an eligible same-source handle, prior reuse, answer addition, or concept
+addition. Consequently **0 eligible retained records and 0 accepted handles** survive. The exact
+four-search gate is **`0 accepted handles × 4 = 0 required and completed searches`**; no artificial
+3,888-query packet or synthetic reuse inventory is created. Prior-BMS eligible reuse is **0** and
+concept delta is **+0**.
+
+| Measure | Family 273 eligible delta | Auxiliary cumulative (Families 12–273) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+The eligible checksum closes at zero: external **973 / 973** does not enter Helwan arithmetic.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 273 establishes external departmental MCQ/key and exact-replay evidence
+only—not a Helwan exam, official Helwan key, authenticated practical, recurrence/readiness,
+candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 273
+
+`src_273bbd8bac604fe63fb0` is exhausted across all 148 rendered/OCR pages: every cover/title/
+contents line, printed page, section transition, question number, repeated Q80, matching pair,
+option, key-table entry, blank leaf, decorative image, authority term, metadata field, zero gate,
+and arithmetic term is assigned once, with **zero source remainder** and no Family-273 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 273
+governs **1 selected path / 1 unique hash**. The governed set through Family 273 is therefore
+**338 paths / 327 unique hashes**, leaving exactly **24 ungoverned selected paths / 21 unique
+hashes**. Checksums are **338 + 24 = 362 paths** and **327 + 21 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`db758d11c043b8e5411b218dfad9ba011679e606ebcd933462b4fcdf5494ef11`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`0f14e54bc808b4dded2ee2c534167f8c13665b9f5f2b6c50e65186e017eaae53`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_d71a0c43562136594534` ·
+`MCQs - Pharmacology mcq test.pdf`, SHA-256
+`d71a0c435621365945342887d58cfa35c1d62fce9dba1c6c8347bd51c70eaf58`, **15,908,763 bytes**,
+**504 native-text portrait 1224×1582-point pages** under `Pharmacology / Questions / MCQs`.
+Metadata titles it `Pharmacology Test Prep 1500 USMLE-Style Questions and Answers`, identifies
+ORB Reader, records 2014 creation and 2015 modification, and declares an AcroForm but no
+JavaScript or encryption. Its exact visible authority, complete prompt/key/written/image/practical
+boundary, form reality, source-local/prior collapse, external/eligible gate, arithmetic, and
+subsequent exact debt remain to be separately adjudicated.
