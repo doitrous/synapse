@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 18,
+ "count": 19,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -424,6 +424,30 @@
    "sha256": "bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32",
    "processingStatus": "partially_governed_selected_pages",
    "pageCount": 26,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_da7cc51e7ac1ee22c68a": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 4 - Bacterial Growth 2024.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 4 - Bacterial Growth 2024.pdf"
+   ],
+   "sha256": "da7cc51e7ac1ee22c68a6d16a89b5975e98a1274d6edaa6e046e5c99b072f7bc",
+   "processingStatus": "partially_governed_selected_pages",
+   "pageCount": 40,
    "languages": [
     "en"
    ],

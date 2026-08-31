@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25 and Q26 are content/key-form holds. Q14 through Q19, Q22, Q24 and Q27 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25, Q26 and Q28 are content/key-form holds. Q14 through Q19, Q22, Q24 and Q27 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
 
 ## confidence
 0.55
@@ -982,6 +982,61 @@ Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
 Pages 1 and 18 were rendered and visually read for the bounded Q26 assessment; the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies Misr University for Science and Technology and the College of Medicine. Page 18 identifies amphotericin B and nystatin as polyene antifungals and states that they create pores in the fungal cell membrane by binding its ergosterol. This directly supports offered option B and contradicts Q26's printed A, but it does not authenticate or replace the anonymous bank key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_da7cc51e7ac1ee22c68a
+
+## title
+Bacterial Growth
+
+## institution
+Misr University for Science and Technology, College of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 4 - Bacterial Growth 2024.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2024-02-28
+
+## accessed_at
+2026-09-01
+
+## page_count
+40
+
+## sha256
+da7cc51e7ac1ee22c68a6d16a89b5975e98a1274d6edaa6e046e5c99b072f7bc
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1 and 25–26 were rendered and visually read for the bounded Q28 assessment; the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Page 25 states that exacting heterotrophic bacteria require both organic forms of carbon and nitrogen for growth; page 26 describes parasitic heterotrophs. The page-25 statement directly supports offered option A and contradicts Q28's printed D, but it does not authenticate or replace the anonymous bank key.
 
 ## confidence
 0.95
