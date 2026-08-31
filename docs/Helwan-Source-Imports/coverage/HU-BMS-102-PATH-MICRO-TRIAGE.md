@@ -24759,3 +24759,96 @@ Virtual Lab 2 and Virtual Lab 3 folders; all three carriers are one preferred ob
 reconciled without counting second content. Its visible Samar El-Sawaf/Helwan authority, complete
 teaching/prompt/key/image/practical boundary, four-search ledger, prior-BMS reconciliation,
 arithmetic, and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 244 — Samar El-Sawaf routes-of-administration teaching deck and two exact aliases
+
+### Preferred object, three-carrier reconciliation, exhaustive visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Preferred manifest carrier | Tier-5 `src_0d25673e03af2f4063e9` · `Routes of adminstration.pdf` under `Pharmacology / Practical Labs / Virtual Lab 1 - Enteral routes of administration` |
+| SHA-256 / exact size | `0d25673e03af2f4063e94c5a7d9b018a1a9488d64813bb5af427f28cf306e9c5` · **3,045,090 bytes** |
+| Exact aliases | Files with the same name under `Virtual Lab 2 - Parenteral routes of administration` and `Virtual Lab 3 - Local routes of administration` recompute to the identical SHA and byte size. The manifest gives all three the same source ID and marks the Virtual-Lab-1 object preferred. They are three paths to one 65-page PDF object, not separate lectures or recurrent assessment evidence. |
+| Format / exhaustive read | **65 native-text landscape 720×540-point pages, PDF 1.7**. All 65 pages were rendered into 65 non-empty 960×720 images and read page by page at full detail; five independently inspected contact sheets preserve the complete sequence. Layout extraction contains **2,415 words / 20,278 bytes** and agrees with the rendered titles, diagrams, tables, callouts, and route comparisons. Embedded illustrations occur throughout, but there is no form, JavaScript, encryption, hidden answer layer, or unrendered content boundary. |
+| Visible provenance | Page 1 visibly reads `Route of Drug Administration (ROA)` and `BY Samar El-Sawaf`. No university/faculty, Helwan/MHU, BMS-102/module code, academic year, sitting/date, marks, candidate field, invigilation, or departmental approval is visible on any page. The organized BMS-102/Pharmacology path and manifest establish local Helwan placement, but cannot manufacture a visible institutional byline. |
+| Metadata conflict/caution | Metadata title is `Routes of Drug Administration`, subject is `Soph fall lecture`, author is `Robert L. Copeland, Jr.`, and Microsoft PowerPoint creation/modification is 26 December 2025. The metadata author conflicts with visible `Samar El-Sawaf`; visible slide authorship controls, while the metadata author/date remain secondary carrier provenance and prove neither Helwan authorship nor a current-year sitting. |
+| Authority | Instructor-named, locally organized pharmacology teaching material. It is **teaching authority only**, not an authenticated exam, official key, practical-station sheet, or student response. |
+
+### Complete 65-page teaching, callout, image, prompt/key, and practical boundary
+
+| Pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1–14 | Samar El-Sawaf cover; pharmacodynamics versus pharmacokinetics; ADME; route definition and overview illustrations; local/systemic classification; route-selection factors and acute/chronic patient chart; `Remember!!!` callout and classification tree | Completed titles, definitions, labelled diagrams, and teaching callouts: **0 prompts / 0 keys / 0 practical stations**. Image labels supply their own teaching meaning. |
+| 15–19 | Local topical, mucosal, transdermal, infiltration, buccal, inhalation, intra-articular/intrathecal/intra-arterial, rectal, suppository, and enema examples with completed procedural illustrations | Labelled route examples and illustrations, not unlabelled identify-the-route plates or tasks: **0 / 0 / 0**. |
+| 20–31 | Systemic/enteral classification; oral advantages and disadvantages; food, gut flora, unconscious-patient and first-pass teaching; first-pass definition and completed `How to overcome ??!!!!` answer | Completed teaching. The red question-styled page-31 heading is immediately answered on the same slide and supplies no response blank, instruction, mark, or key boundary; it is a rhetorical teaching callout: **0 / 0 / 0**. |
+| 32–40 | Sublingual/buccal advantages and disadvantages; rectal definition, photographs, advantages, uses and disadvantages; first `THANK YOU` transition | Completed explanatory text and labelled delivery photographs: **0 / 0 / 0**. |
+| 41–46 | Inhalation kinetics, local/systemic effects, equipment montage, advantages/disadvantage, parenteral route definitions, and labelled IV/IM/SC tissue diagram | Completed teaching and labelled images. No device-identification question, technique performance request, or observed student action: **0 / 0 / 0**. |
+| 47–57 | IV bioavailability/bolus/infusion; IV advantages/disadvantages; IM and SC advantages/disadvantages; transdermal mechanism/examples; route-to-effect timing table | Completed definitions, comparison points, supplied examples, and timing values: **0 / 0 / 0**. |
+| 58–65 | Summary advantage/disadvantage tables for oral, sublingual/buccal, rectal, inhalation, parenteral, IV, IM, SC, transdermal, and intranasal routes; final `THANK YOU` slide | Completed recap tables and closing slide: **0 / 0 / 0**. |
+
+The exhaustive boundary is **0 objective prompts / 0 written operations / 0 source-supplied
+answers / 0 unkeyed prompts / 0 drawings requested / 0 authenticated practical stations / 0
+candidate responses / 0 prompt-like residues**. All 65 pages are teaching material. Route images,
+anatomical schematics, device photographs, headings, red emphasis, smiles, `Remember!!!`, and
+`How to overcome ??!!!!` remain teaching decorations or answered callouts; the folder label
+`Practical Labs` and the three `Virtual Lab` paths do not convert them into assessment or station
+records.
+
+### Exact-alias zero gate, prior-BMS reconciliation, and search disposition
+
+The preferred carrier governs the complete 65-page object once. The Virtual-Lab-2 and
+Virtual-Lab-3 files add **0 second-content pages, prompts, answers, records, handles, concepts, or
+recurrence** because byte equality proves there is no differing route subset, prompt layer, key,
+annotation, or provenance page behind either alias.
+
+No assessment handle survives the teaching boundary, so the standing gate is **`0 accepted
+handles × 4 = 0 required and completed searches`**. Prior BMS families already teach or test many
+route, first-pass, bioavailability, and pharmacokinetic propositions, but teaching overlap cannot
+create a current assessment handle or concept delta. Prior reuse is therefore **0 current
+question-handle additions**, and Family 244 contributes **+0 concepts**.
+
+### Family-244 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Governed 65-page object | Family 244 addition | Auxiliary cumulative (Families 12–244) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 0 | 3,070 | 762 | 3,832 |
+| Eligible source-supplied answers | 0 | 0 | 2,105 | 405 | 2,510 |
+| Retained eligible question records | 0 | 0 | 2,774 | 552 | 3,326 |
+| Accepted handles / required searches | 0 / 0 | 0 / 0 | 2,490 / — | — | — |
+| Cross-family concept delta | +0 | +0 | +1,289 over primary | 372 | 1,661 |
+| **Distinct tested concepts** | **0 current assessment concepts** | **0 new** | **1,289 additions** | **372** | **1,661** |
+
+The checksum closes independently: **0 prompts = 0 answers + 0 unkeyed**; **0 retained = 0
+handles**; **0 × 4 = 0 searches**; and **0 handles - 0 prior question reuses = +0 concepts**.
+The two byte-identical aliases also add zero to every content term. Primary remains **762 / 405 /
+552 / 372**. Auxiliary remains **3,070 prompts / 2,105 answers / 2,774 retained / 2,490 handles /
++1,289 concepts**. All eligible remains **3,832 / 2,510 / 3,326 / 1,661**. Family 244 adds
+teaching-carrier and alias-governance evidence only, not an exam, answer key, recurrence, practical
+station, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 244
+
+`src_0d25673e03af2f4063e9` is exhausted across all 65 rendered/native pages and all three exact
+carrier paths: every visible author/title field, metadata conflict, definition, diagram, image,
+callout, table, closing slide, prompt/key/practical zero, alias relation, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-244 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 244
+governs **3 selected paths / 1 unique hash**: the preferred Virtual-Lab-1 path plus its later
+Virtual-Lab-2 and Virtual-Lab-3 aliases. The governed set through Family 244 is therefore **307
+paths / 298 unique hashes**, leaving exactly **55 ungoverned selected paths / 50 unique hashes**.
+Checksums are **307 + 55 = 362 paths** and **298 + 50 = 348 unique hashes**. The ordered remaining-
+path ledger preserves manifest order while excluding all three governed aliases and has SHA-256
+`0c4c8535903a5c450c5777d240441d909d05b9e2fc04569634cc8e2fdc5014f4`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`63a67e28689957baccc4d9396e9409ac5bc756b8188daf6399028cc4f6b4c979`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-5 `src_f6d1acc76da401584c2f` ·
+`Antihistamines and allergy cases.pdf`, SHA-256
+`f6d1acc76da401584c2fb65a77ae832a4079c046e282879128a3d6416d9a2fe3`, **846,884 bytes**,
+**41 native-text landscape 960×540-point pages** under `Pharmacology / Practical Labs / Virtual
+Lab 10 - A case of allergy (2nd gen antihistamines)`. Its first page begins a second-generation
+antihistamine lecture/case carrier. Its visible authority, complete teaching/case/prompt/key/image/
+practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and subsequent exact
+next debt remain to be separately adjudicated.
