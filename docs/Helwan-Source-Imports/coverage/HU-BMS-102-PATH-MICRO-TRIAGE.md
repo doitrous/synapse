@@ -26301,3 +26301,96 @@ is `108 pharmacology revision MCQ DR AMR part 1 ( kinetics )`, iOS Quartz captur
 answer. Its visible Dr Amr/108/Kasr authority, complete solved-form prompt/key/written/image/
 practical boundary, external zero gate, arithmetic, and subsequent exact debt remain to be
 separately adjudicated.
+
+## Family 259 — Dr Amr Module-108 pharmacokinetics scored-form revision (external)
+
+### Source identity, exhaustive native/rendered boundary, and authority separation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_11c69bfb5b9a69d12eea` · `MCQs - KASR Pharma MCQ by Dr.Amr [108 Part.1].pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `11c69bfb5b9a69d12eeaedbddd082bc9465e14351838a7990fccabd19d09cf74` · **160,270 bytes** |
+| Format / complete visual boundary | **20 native-text portrait A4 pages, PDF 1.4**. All 20 pages were extracted and rendered at 150 dpi into 20 non-empty images, then read page by page at original detail. Coherent extraction yields **1,511 words / 15,708 bytes** and agrees with every rendered title, score, email field, stem, option, selected response, correctness mark, supplied answer, and terminal Google Forms footer. No page or crop remainder remains. |
+| Visible source format | A static exported Google Forms response titled **`108 pharmacology revision MCQ DR AMR part 1 ( kinetics )`**, displaying total score **9/35** and submitted email `futuredoctor194@gmail.com`. Nine cards show a green `1/1` selected-correct state; 26 show a red `0/1` selected-wrong state plus a separate Arabic-labelled correct answer. This is a solved-response export, not an interactive form. |
+| Visible authority | The title visibly names **Dr Amr**, **108**, pharmacology revision, Part 1, and kinetics. No page visibly names Kasr/Cairo University, Helwan University, a faculty, department, BMS-102, sitting, cohort, or academic year. The filename's `KASR` plus the visible Module-108/Dr-Amr title establish an external Kasr-context revision attribution, but do not authenticate an institutional exam or official key. |
+| Metadata caution | Title matches the visible form title; Creator is Safari, Producer is iOS 16.3.1 Quartz, and creation/modification are 12 June 2023. These fields describe web capture/export and do not independently establish authorship, module ownership, sitting, or year. Google's terminal disclaimer explicitly says Google did not create or endorse the content. |
+| Authority / eligibility | External Dr Amr/Module-108 scored revision form with no Helwan counter-marker. It is preserved as external provenance, solved-form, and answer-layer evidence but excluded from Helwan primary, auxiliary, and all-eligible assessment totals. |
+
+### Exhaustive prompt, answer, replay, written, image, and practical boundary
+
+The complete source-local boundary is **35 raw prompt occurrences = 35 four-option text MCQs**.
+All 35 have source-supplied answer directionality: **9** through the green selected-correct `1/1`
+state and **26** through a separate correct-answer reveal after the red selected-wrong `0/1`
+state. Thus the carrier supplies **35 answer occurrences / 0 unkeyed prompts**. The score and
+incorrect submitted selections are response-state evidence, not additional answers or question
+records; the email field and Google Forms legal/footer text are structural provenance, not prompts.
+
+The questions cover microsomal-enzyme induction, loading/maintenance dose, absorption, first- and
+zero-order kinetics, half-life, plasma-protein binding, bioavailability/first pass, weak-acid/base
+ion trapping, breast-milk passage, metabolism/phase I/II, local-anaesthetic adrenaline,
+distribution volume, prodrugs, and dialysis. There are **0 T/F items, 0 matching items, 0
+completion blanks, 0 free-response written operations, 0 drawings, 0 image-bearing prompts, 0
+authenticated practical stations, and 0 teaching-only callouts**.
+
+Source-first comparison preserves all occurrences while identifying five same-carrier proposition
+replays: the second loading-dose definition replays the earlier loading-dose item; the second
+plasma-protein reservoir question replays the earlier reservoir item; the later urine-
+alkalinisation item replays the earlier weak-acid excretion proposition; the breast-milk ion-
+trapping example replays the earlier breast-milk accumulation item; and the terminal first-order-
+kinetics item replays the earlier constant-half-life item. Therefore **35 raw - 0 excluded
+source-local occurrences = 35 preserved operations; 35 - 5 semantic replays = 30 source-distinct
+external handles**. This internal collapse does not convert any handle into Helwan-eligible data.
+
+### External-authority zero gate, prior-handle ruling, and eligible arithmetic
+
+Authority resolves before search retention. All **35 source-local prompts / 35 source-local
+answers / 30 source-distinct external handles** belong to the external Dr Amr/Module-108 form and
+have no visible Helwan counterevidence. Consequently **0 eligible Helwan records and 0 accepted
+Helwan handles** survive. The standing gate is **`0 accepted handles × 4 = 0 required and
+completed searches`**; no 120-query packet or synthetic prior row is created for excluded
+external content. Its propositions strongly replay eligible Families 202, 223, 238, and 257, but
+excluded external handles cannot count as eligible prior reuses or concept additions. Prior-BMS
+reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 259 eligible delta | Auxiliary cumulative (Families 12–259) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,261 | 762 | 4,023 |
+| Eligible source-supplied answers | 0 | 2,247 | 405 | 2,652 |
+| Retained eligible question records | 0 | 2,965 | 552 | 3,517 |
+| Accepted handles / required searches | 0 / 0 | 2,666 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,357 over primary | 372 | 1,729 |
+| **Distinct tested concepts** | **+0** | **1,357 additions** | **372** | **1,729** |
+
+The eligible checksum closes at zero: external source-local **35 / 35 / 30** does not enter Helwan
+arithmetic. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,261 prompts / 2,247
+answers / 2,965 retained / 2,666 handles / +1,357 concepts**. All eligible remains **4,023 /
+2,652 / 3,517 / 1,729**. Family 259 establishes external Dr-Amr/108 pharmacokinetics revision,
+scored-response, answer-state, and replay evidence only—not a Helwan assessment, authenticated
+Kasr exam, official key, practical station, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 259
+
+`src_11c69bfb5b9a69d12eea` is exhausted across all 20 native/rendered pages: every title/score,
+email field, stem, option, selected response, green/red correctness state, correct-answer reveal,
+same-source replay, footer, authority limitation, metadata field, zero gate, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-259 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 259
+governs **1 selected path / 1 unique hash**. The governed set through Family 259 is therefore
+**324 paths / 313 unique hashes**, leaving exactly **38 ungoverned selected paths / 35 unique
+hashes**. Checksums are **324 + 38 = 362 paths** and **313 + 35 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`c78abe509cd3601705f82f2afef00e98811c55b9a1fbe9d984663007ecab1933`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`178d91b471c68b92ebdcdd6f236da1103401dd33b2240fdd70be258257c53a5c`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_81ab37f532d25f1d669e` ·
+`MCQs - KASR Pharma MCQ by Dr.Amr [108 Part.2].pdf`, SHA-256
+`81ab37f532d25f1d669eb9eb6226a08d1a56c51e9a40c5066502cd0dc40888e2`, **119,331 bytes**,
+**16 native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. Its visible title is
+`108 PHARMACOLOGY REVISION PART 2 ( DYNAMICS ) DR AMR`, it displays a Google-Forms-style **9/27**
+score and the same email, and iOS Quartz capture is dated 12 June 2023. Its complete dynamics
+prompt/answer/replay boundary, visible authority, external zero gate, arithmetic, and subsequent
+exact debt remain to be separately adjudicated.
