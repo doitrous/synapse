@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "598a4306c43f4477e84aac188fe6705d981b7af9ccb699770b4bccd172fb27b7",
-    "triageMarkdown": "0e0debffa43a6152149acf7b8352bf29710869592350e68fce6d058bb848ad6c"
+    "readinessMarkdown": "b649b8fa7e269d46f774bb5dad3d3e4d9f98a26912d03c9f16371a0fc4c2378f",
+    "triageMarkdown": "445cb57a4a6194f94a6e27622719e24a6ce48acf43bb6a27b1de1fd69115cceb"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -118,6 +118,7 @@
       "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
       "be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1",
       "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
+      "d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225",
       "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
@@ -132,7 +133,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 62
+    "uniqueSha256": 63
   },
   "completedSourceCoverage": [
     {
@@ -3658,11 +3659,55 @@
         "printed grammar, spelling, outdated regimens and academically questionable prompt claims remain source truth without correction",
         "question numbering differs from the ANSWERED sibling and is preserved as carrier-local order rather than treated as disagreement"
       ]
+    },
+    {
+      "sha256": "d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225",
+      "sourcePages": 14,
+      "renderedReadPages": "1-14",
+      "objectiveMcqPrompts": 53,
+      "writtenPrompts": 0,
+      "printedKeyObservations": 53,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 8,
+      "priorFhb1022CollapsedHandles": 8,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 2,
+      "replayAnswerObservations": 2,
+      "replaySourceSha256": "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
+      "familyQuestionDelta": 51,
+      "familyAnswerDelta": 51,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "penicillin cephalosporin carbapenem and monobactam pharmacology",
+        "aminoglycoside uses interactions and toxicity",
+        "macrolide tetracycline chloramphenicol and clindamycin pharmacology",
+        "sulfonamide trimethoprim pharmacology",
+        "fluoroquinolone pharmacology",
+        "antituberculous drug selection interactions and toxicity",
+        "vancomycin linezolid daptomycin streptogramin and resistant-organism therapy",
+        "antimicrobial pharmacodynamics clinical selection interactions and adverse effects"
+      ],
+      "authorityDisposition": "answer-reveal screenshots from an external Year 3 Pharmacology 8-General chemotherapy application carrying an Abubakr logo and ASU filename attribution; no MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is visible, so the green checks are external app answer observations rather than official MUST evidence",
+      "boundaryDisposition": "fourteen rendered scroll-capture pages cover one continuous numbered Q1-Q53 sequence; five card overlaps at page boundaries are repeated views of the same numbered fields and collapse within the carrier, leaving fifty-three unique ordinary objective MCQs, fifty-three green-marked answer observations and zero absent, written, practical, image-dependent or teaching-only occurrences",
+      "replayDisposition": "normalized complete-field comparison maps source Q1 and Q2 exactly to the completed Mucize module-wide advanced-MCQ carrier, with both green-marked answers agreeing with the earlier printed answers; no other one of the fifty-three prompt-and-option fields matches a completed carrier, so two prompts and two answers collapse and fifty-one of each survive",
+      "preservedSourceDefects": [
+        "the title spells the topic General chemotherapy while the inventory filename preserves Cemotherapy",
+        "green checks are retained as external application answer observations and not promoted to an authenticated faculty key",
+        "five page-boundary scroll overlaps are counted once by question number",
+        "printed spelling, grammar, dated recommendations and academically questionable answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4926,
-    "printedKeyObservations": 4693,
+    "printedPromptObservations": 4977,
+    "printedKeyObservations": 4744,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -4040,33 +4085,39 @@
     "pages": 9,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "sixtyThirdSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - General Cemotherapy.pdf",
     "sha256": "d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225",
     "pages": 14,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - Special Chemotherapy.pdf",
+    "sha256": "e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a",
+    "pages": 7,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 32,
-    "uniqueSha256": 32,
-    "sortedNewlineSha256": "7a784cd3ef38db6c02e1eda3569996a8a64639571b60ef244f8104b452f6ef9e",
+    "inventoryMetadataRows": 31,
+    "uniqueSha256": 31,
+    "sortedNewlineSha256": "a97cd6ce2911f714d0d0294a723c10e87a4ac2eede7f38fc023d742e86f46d04",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
-      "empty-text": 4,
+      "empty-text": 3,
       "sparse-text": 7,
       "substantive-text": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
-    "empty-text": 4,
+    "empty-text": 3,
     "sparse-text": 7,
     "substantive-text": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 62,
-    "remainingUniqueSha256": 32,
+    "processedUniqueSha256": 63,
+    "remainingUniqueSha256": 31,
     "processedPlusRemaining": 94
   }
 }

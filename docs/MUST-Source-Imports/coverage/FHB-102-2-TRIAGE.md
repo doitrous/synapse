@@ -2160,3 +2160,29 @@ Removing the sixty-two processed hashes leaves **32 selected inventory paths / 3
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - General Cemotherapy.pdf`, SHA-256 `d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225`, 14 pages, with an empty-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 32 selected inventory paths / 32 unique hashes remain untriaged.
+
+## Completed source — Abubakr/ASU General Chemotherapy answers
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - General Cemotherapy.pdf` | `d14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225` | 14 | empty-text | pages 1–14 rendered and read | External Year 3 Pharmacology `8-General chemotherapy` application answer-reveal capture bearing an Abubakr logo and ASU filename attribution; no visible MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration. |
+
+### Exact boundary and answer state
+
+The fourteen rendered scroll-capture pages cover one continuous **Q1–Q53** sequence. Five fields straddle adjacent screenshots—Q16, Q19, Q35, Q47 and Q50—and are repeated views of the same numbered cards, not new occurrences. The exact unique boundary is **53 ordinary objective MCQs / 53 green-marked answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. The green checks are external app disclosures, not authenticated MUST faculty-key marks. Printed spelling, grammar, dated recommendations and academically questionable answers remain source truth.
+
+### Replay and exactly-four-search gate
+
+Normalized complete stem-plus-option comparison proves that source Q1 and Q2 exactly reproduce the completed Mucize module-wide advanced-MCQ fields; their green-marked `Benzathine penicillin` and `Augmentin` answers agree with the earlier printed A and D answers. No other one of the 53 complete fields matches a completed carrier. Therefore **2 prompts / 2 answers collapse**, leaving governed **+51 questions / +51 answers**.
+
+Eight source-first handles cover penicillin/cephalosporin/carbapenem/monobactam pharmacology; aminoglycosides; macrolide/tetracycline/chloramphenicol/clindamycin pharmacology; sulfonamide/trimethoprim pharmacology; fluoroquinolones; antituberculous drugs; resistant-organism agents; and antimicrobial pharmacodynamics, selection, interactions and adverse effects. All eight collapse to prior FHB-102-2 evidence. Search arithmetic is **8 source-first − 8 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This sixty-third one-path hash is now `sourceProcessed=true`, adding **+51 questions / +51 answers / +0 concepts**. Cumulative triage is **4,977 questions / 4,744 answers / 62 concepts**.
+
+Removing the sixty-three processed hashes leaves **31 selected inventory paths / 31 unique SHA-256s**. Their sorted-newline checksum is `a97cd6ce2911f714d0d0294a723c10e87a4ac2eede7f38fc023d742e86f46d04`. Remaining audit-review debt is **10 substantive-text / 7 sparse-text / 3 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`63 + 31 = 94`** and path accounting is **`65 + 31 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - Special Chemotherapy.pdf`, SHA-256 `e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a`, 7 pages, with an empty-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 31 selected inventory paths / 31 unique hashes remain untriaged.

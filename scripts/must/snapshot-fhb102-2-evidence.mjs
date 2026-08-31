@@ -71,9 +71,10 @@ const PROCESSED_FAMILY_HASHES = [
   'd948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114',
   '42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf',
   '751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165',
+  'd14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '7a784cd3ef38db6c02e1eda3569996a8a64639571b60ef244f8104b452f6ef9e'
+const REMAINING_CHECKSUM = 'a97cd6ce2911f714d0d0294a723c10e87a4ac2eede7f38fc023d742e86f46d04'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -446,10 +447,16 @@ const SIXTY_SECOND_SOURCE = {
   pages: 9,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SIXTY_THIRD_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - General Cemotherapy.pdf',
   sha256: 'd14cd183898771cf094e221c221fbffc7b1965b4f6c07579f3ba2207abf7b225',
   pages: 14,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - [Answers] MCQs Abubakr (ASU) - Special Chemotherapy.pdf',
+  sha256: 'e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a',
+  pages: 7,
   sourceProcessed: false,
 }
 
@@ -528,10 +535,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 7, 'substantive-text': 10 }
+  const expected = { 'audit-not-found': 11, 'empty-text': 3, 'sparse-text': 7, 'substantive-text': 10 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=10-substantive/7-sparse/4-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=10-substantive/7-sparse/3-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -601,6 +608,9 @@ for (const value of [SIXTY_FIRST_SOURCE.relativePath, SIXTY_FIRST_SOURCE.sha256]
 for (const value of [SIXTY_SECOND_SOURCE.relativePath, SIXTY_SECOND_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
+for (const value of [SIXTY_THIRD_SOURCE.relativePath, SIXTY_THIRD_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
   throw new Error('Readiness/triage evidence missing selected-set path/hash boundary')
 }
@@ -644,7 +654,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 62 || remainingHashes.length !== 32 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 63 || remainingHashes.length !== 31 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -652,7 +662,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 7, 'substantive-text': 10 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 3, 'sparse-text': 7, 'substantive-text': 10 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2772,8 +2782,38 @@ const provenance = {
       replayDisposition: 'normalized stem-plus-option comparison yields fifty-seven unique fields in each carrier and a complete fifty-seven-of-fifty-seven bijection to the completed ANSWERED sibling, despite shuffled numbering; the sibling already contributed the family occurrence and all answers, so this unkeyed carrier adds zero governed questions and zero answers',
       preservedSourceDefects: ['all fifty-seven answers remain source-absent in this active-attempt capture and none is inferred as a new answer observation', 'the personal login name is excluded from durable evidence', 'printed grammar, spelling, outdated regimens and academically questionable prompt claims remain source truth without correction', 'question numbering differs from the ANSWERED sibling and is preserved as carrier-local order rather than treated as disagreement'],
     },
+    {
+      sha256: SIXTY_THIRD_SOURCE.sha256,
+      sourcePages: 14,
+      renderedReadPages: '1-14',
+      objectiveMcqPrompts: 53,
+      writtenPrompts: 0,
+      printedKeyObservations: 53,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 8,
+      priorFhb1022CollapsedHandles: 8,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      exactReplayPromptObservations: 2,
+      replayAnswerObservations: 2,
+      replaySourceSha256: FIFTH_SOURCE.sha256,
+      familyQuestionDelta: 51,
+      familyAnswerDelta: 51,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['penicillin cephalosporin carbapenem and monobactam pharmacology', 'aminoglycoside uses interactions and toxicity', 'macrolide tetracycline chloramphenicol and clindamycin pharmacology', 'sulfonamide trimethoprim pharmacology', 'fluoroquinolone pharmacology', 'antituberculous drug selection interactions and toxicity', 'vancomycin linezolid daptomycin streptogramin and resistant-organism therapy', 'antimicrobial pharmacodynamics clinical selection interactions and adverse effects'],
+      authorityDisposition: 'answer-reveal screenshots from an external Year 3 Pharmacology 8-General chemotherapy application carrying an Abubakr logo and ASU filename attribution; no MUST module, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is visible, so the green checks are external app answer observations rather than official MUST evidence',
+      boundaryDisposition: 'fourteen rendered scroll-capture pages cover one continuous numbered Q1-Q53 sequence; five card overlaps at page boundaries are repeated views of the same numbered fields and collapse within the carrier, leaving fifty-three unique ordinary objective MCQs, fifty-three green-marked answer observations and zero absent, written, practical, image-dependent or teaching-only occurrences',
+      replayDisposition: 'normalized complete-field comparison maps source Q1 and Q2 exactly to the completed Mucize module-wide advanced-MCQ carrier, with both green-marked answers agreeing with the earlier printed answers; no other one of the fifty-three prompt-and-option fields matches a completed carrier, so two prompts and two answers collapse and fifty-one of each survive',
+      preservedSourceDefects: ['the title spells the topic General chemotherapy while the inventory filename preserves Cemotherapy', 'green checks are retained as external application answer observations and not promoted to an authenticated faculty key', 'five page-boundary scroll overlaps are counted once by question number', 'printed spelling, grammar, dated recommendations and academically questionable answer claims remain source truth without correction'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 4926, printedKeyObservations: 4693, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 4977, printedKeyObservations: 4744, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -2836,6 +2876,7 @@ const provenance = {
   sixtiethSourceCandidate: SIXTIETH_SOURCE,
   sixtyFirstSourceCandidate: SIXTY_FIRST_SOURCE,
   sixtySecondSourceCandidate: SIXTY_SECOND_SOURCE,
+  sixtyThirdSourceCandidate: SIXTY_THIRD_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
