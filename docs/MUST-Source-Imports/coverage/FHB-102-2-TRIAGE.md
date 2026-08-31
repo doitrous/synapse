@@ -2712,3 +2712,29 @@ Removing the eighty-nine processed hashes leaves **5 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 2-1 (by Ezzeldin).pdf`, SHA-256 `2e3a3d7c65258e266942eb43e69b3f748a9a1adda761184b9f3c9f60379d15a1`, 15 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 5 selected inventory paths / 5 unique hashes remain untriaged.
+
+## Completed source — `General Antibacterial 2-1 (by Ezzeldin)`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 2-1 (by Ezzeldin).pdf` | `2e3a3d7c65258e266942eb43e69b3f748a9a1adda761184b9f3c9f60379d15a1` | 15 | audit-not-found | pages 1–15 rendered and read | PDFium-generated teaching deck whose visible cover names Dr Mohamed Abdel Aziz and separately states `Edited by Ezzeldin Emad`. The filename's `by Ezzeldin` credit is retained as file provenance rather than promoted to lecturer authorship. No authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Page 1 is the `Antimicrobials (chemotherapy)` title-and-credit cover. Page 2 covers monobactams and aztreonam. Pages 3–5 cover carbapenems, imipenem-cilastatin and meropenem. Pages 6–9 cover vancomycin mechanism, formulations, uses and adverse effects. Page 10 covers bacitracin. Page 11 covers chemoprophylaxis and a cell-membrane permeability note. Page 12 lists antimicrobials used in biliary-tract infection. Pages 13–15 cover concentration-dependent and time-dependent pharmacodynamics. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 14 teaching-reference pages / 1 non-assessment cover page**.
+
+Numbered drug classes, mechanisms, uses, adverse effects, product images and the pharmacodynamic comparison table are declarative teaching structure rather than assessment fields. No answer is inferred and no teaching statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction. The filename credit, lecturer credit and editing credit remain distinct without resolving or inventing authorship.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This ninetieth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the ninety processed hashes leaves **4 selected inventory paths / 4 unique SHA-256s**. Their sorted-newline checksum is `784c3946f1c76f0302d1cf256956b115bfdcfd6ae0c4ac31a930ad56462afece`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 4 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`90 + 4 = 94`** and path accounting is **`92 + 4 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Rivision cell wall inhibitors.pdf`, SHA-256 `79d7d18744b1f29557d8ce6bfc6948a37f4d0ce6ecec4ee6b6728446c106f2b3`, 37 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 4 selected inventory paths / 4 unique hashes remain untriaged.
