@@ -1098,3 +1098,29 @@ Removing the twenty-six processed hashes leaves **70 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - General Characteristics of Medically Important Bacteria (Final).pdf`, SHA-256 `7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072`, 1 page, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 70 selected inventory paths / 68 unique hashes remain untriaged.
+
+## Completed source — General Characteristics of Medically Important Bacteria (Final)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - General Characteristics of Medically Important Bacteria (Final).pdf` | `7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072` | 1 | substantive-text | page 1 rendered and read at original resolution | Single-page Canva teaching mind map visibly signed `AHMED ASHOUR`, with matching individual author metadata. No institution, department, FHB 102-2 authentication, examiner, sitting, marks or authenticated faculty-key claim is visible; the filename `Final` label does not establish assessment authority. |
+
+### Exact assessment, practical, image and teaching boundary
+
+The page is one fully labelled comparison mind map with five reference cards: Actinomyces, Nocardia, Pseudomonas aeruginosa, Clostridium perfringens and Pasteurella multocida. Each card already reveals gram/morphology, oxygen relationship, habitat, disease and virulence facts. These are teaching facts rather than prompts, image-identification tasks or prompt→reveal pairs.
+
+The exact boundary is **0 objective prompts / 0 written prompts / 0 practical or image assessment prompts / 0 prompt-matched answer observations / 0 source-absent answers / 5 teaching-reference cards**. The filename `Final` label is preserved without inferring an exam sitting. Printed spelling, organism descriptors and academically questionable claims remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+No assessment prompt is printed, so there is **0 source-first assessment handle / 0 accepted handle / 0 searches**. The exactly-four-search gate does not trigger. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-seventh one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **2,557 questions / 2,401 answers / 62 concepts**.
+
+Removing the twenty-seven processed hashes leaves **69 selected inventory paths / 67 unique SHA-256s**. Their sorted-newline checksum is `7ed42c809923cb27ffeca3f1ff511fdc1287e231dab96d4ab5c1d3340e061293`. Remaining audit-review debt is **28 substantive-text / 18 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`27 + 67 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - Micro FHB102-2 & MSK102-2 Subjects of Exam Final Spring 2025.pdf`, SHA-256 `3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5`, 3 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 69 selected inventory paths / 67 unique hashes remain untriaged.

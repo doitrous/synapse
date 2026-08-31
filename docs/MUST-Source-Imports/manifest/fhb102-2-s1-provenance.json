@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "f38ff17eef886d84071f789b9539dbdf7d52dba1bce42facddb697b21676ecde",
-    "triageMarkdown": "dabb3f1f720ad95c499ae892b1e0eaaf301c0044a441ebde79cd258b99ff20f9"
+    "readinessMarkdown": "ca07973bae805436ef683eeec5191f30013626e25addfbe354d4b3f0ade8a095",
+    "triageMarkdown": "1e818c0d08b678b1bb11915abb223d7e748d478c1021a8b95fa15cf90e15ffab"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -75,6 +75,7 @@
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+      "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
@@ -96,7 +97,7 @@
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 26
+    "uniqueSha256": 27
   },
   "completedSourceCoverage": [
     {
@@ -1603,6 +1604,48 @@
         "fully revealed labels are not reverse-engineered into questions or keys",
         "the departmental authority supports teaching provenance only, not an authenticated assessment or answer-key claim"
       ]
+    },
+    {
+      "sha256": "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "teachingPages": [
+        1
+      ],
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferenceCards": 5,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Fully labelled organism-comparison mind map",
+          "page": 1,
+          "labelledReferenceCards": 5,
+          "assessmentPrompts": 0
+        }
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "single-page Canva teaching mind map visibly signed AHMED ASHOUR and carrying matching individual author metadata; no institution, department, FHB 102-2 authentication, examiner, sitting, marks or authenticated faculty-key claim, and the filename Final label does not establish assessment authority",
+      "boundaryDisposition": "one fully labelled comparison mind map with five organism cards—Actinomyces, Nocardia, Pseudomonas aeruginosa, Clostridium perfringens and Pasteurella multocida—each giving gram/morphology, oxygen, habitat, disease and virulence facts; all facts are already revealed teaching content rather than questions or keys, so the source contributes zero assessment prompts and zero answer observations",
+      "preservedSourceDefects": [
+        "the filename Final label is preserved without inferring an exam sitting",
+        "fully revealed teaching cards are not reverse-engineered into questions or answer keys",
+        "printed spelling, organism descriptors and academically questionable claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1769,22 +1812,28 @@
     "pages": 52,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentySeventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - General Characteristics of Medically Important Bacteria (Final).pdf",
     "sha256": "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
     "pages": 1,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - Micro FHB102-2 & MSK102-2 Subjects of Exam Final Spring 2025.pdf",
+    "sha256": "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
+    "pages": 3,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 70,
-    "uniqueSha256": 68,
-    "sortedNewlineSha256": "49e5c3ece78c05e0b305f433c1ac63ac1e5a6f7b1e015463a6db664554e780a0",
+    "inventoryMetadataRows": 69,
+    "uniqueSha256": 67,
+    "sortedNewlineSha256": "7ed42c809923cb27ffeca3f1ff511fdc1287e231dab96d4ab5c1d3340e061293",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 18,
-      "substantive-text": 29
+      "substantive-text": 28
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1792,12 +1841,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 18,
-    "substantive-text": 29
+    "substantive-text": 28
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 26,
-    "remainingUniqueSha256": 68,
+    "processedUniqueSha256": 27,
+    "remainingUniqueSha256": 67,
     "processedPlusRemaining": 94
   }
 }
