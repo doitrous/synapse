@@ -76,9 +76,17 @@ const PROCESSED_FAMILY_HASHES = [
   '44571f8f9fc79493e261a97807914ab9e7127afc102b33fd997c71433eab6217',
   'd787ff1868b620e9ffa46aacb390074c49aadaa67a4687b26792c3a625ea3fc7',
   '1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea',
+  '346f87242b75a96f83216cf3975a04282624d76af6e8054c8730909926cacd2d',
+  '3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5',
+  '5dfd7701d995629e7c36c7967736e21927c28a3a5e89272f8c40e20cacbac952',
+  '1c098c79464fd2b1e47dce741c09a0c29fa2446feeb280ea1f7ff1ac91d7733f',
+  'fca512413dacd95eeb9c00487fa1a7f9fc7e78ab195f3aeb0ac3c295bc16398b',
+  '47c08908667b08b453d71594041a4e9ee2912b0e594bc80b5ef82658381f933d',
+  'bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32',
+  'd6c4b7b739a00dd96eb575836ca1ff2b64e4b006aa7cb6d32b2c995256418349',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '295118f20a2a18ca15e28163b908ed2229c365262c8d605391a3a8a986f2aa44'
+const REMAINING_CHECKSUM = '720841e613b1513d016b3024fdac13b5f0d990d41c54f195330de4a1a93aa925'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -481,11 +489,59 @@ const SIXTY_SEVENTH_SOURCE = {
   pages: 5,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SIXTY_EIGHTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - pharma fhb 102-2 by salama.pdf',
   sha256: '346f87242b75a96f83216cf3975a04282624d76af6e8054c8730909926cacd2d',
   pages: 39,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf',
+  sha256: '1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a',
+  pages: 168,
   sourceProcessed: false,
+}
+const SIXTY_NINTH_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf',
+  sha256: '3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5',
+  pages: 49,
+  sourceProcessed: true,
+}
+const SEVENTIETH_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 4. Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf',
+  sha256: '5dfd7701d995629e7c36c7967736e21927c28a3a5e89272f8c40e20cacbac952',
+  pages: 23,
+  sourceProcessed: true,
+}
+const SEVENTY_FIRST_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 5. Antifolate Drugs.pdf',
+  sha256: '1c098c79464fd2b1e47dce741c09a0c29fa2446feeb280ea1f7ff1ac91d7733f',
+  pages: 10,
+  sourceProcessed: true,
+}
+const SEVENTY_SECOND_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 5. Folate Antagonists (Dr. Esraa).pdf',
+  sha256: 'fca512413dacd95eeb9c00487fa1a7f9fc7e78ab195f3aeb0ac3c295bc16398b',
+  pages: 12,
+  sourceProcessed: true,
+}
+const SEVENTY_THIRD_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 6. TB and Leprosy (Dr. Esraa).pdf',
+  sha256: '47c08908667b08b453d71594041a4e9ee2912b0e594bc80b5ef82658381f933d',
+  pages: 48,
+  sourceProcessed: true,
+}
+const SEVENTY_FOURTH_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 7. Antifungal_Drugs.pdf',
+  sha256: 'bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32',
+  pages: 26,
+  sourceProcessed: true,
+}
+const SEVENTY_FIFTH_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - FHB Pharmacology 102 Final Exam Notes 2025.pdf',
+  sha256: 'd6c4b7b739a00dd96eb575836ca1ff2b64e4b006aa7cb6d32b2c995256418349',
+  pages: 14,
+  sourceProcessed: true,
 }
 
 function option(name) {
@@ -563,10 +619,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 9 }
+  const expected = { 'audit-not-found': 11, 'sparse-text': 1, 'substantive-text': 7 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=9-substantive/7-sparse/0-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=7-substantive/1-sparse/0-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -651,6 +707,14 @@ for (const value of [SIXTY_SIXTH_SOURCE.relativePath, SIXTY_SIXTH_SOURCE.sha256]
 for (const value of [SIXTY_SEVENTH_SOURCE.relativePath, SIXTY_SEVENTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
+for (const value of [SIXTY_EIGHTH_SOURCE.relativePath, SIXTY_EIGHTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
+for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE]) {
+  for (const value of [source.relativePath, source.sha256]) {
+    if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+  }
+}
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
   throw new Error('Readiness/triage evidence missing selected-set path/hash boundary')
 }
@@ -694,7 +758,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 67 || remainingHashes.length !== 27 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 75 || remainingHashes.length !== 19 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -702,7 +766,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 9 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'sparse-text': 1, 'substantive-text': 7 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2968,8 +3032,277 @@ const provenance = {
       replayDisposition: 'complete stem-plus-option comparison against the completed FHB-102-2 family finds no exact prior assessment-field replay, so all twenty questions and all twenty printed answers survive',
       preservedSourceDefects: ['the missing beta glyph is preserved as -lactam in questions four and twenty', 'the quick key is retained exactly as printed and is not promoted to authenticated faculty authority', 'printed simplifications, grammar and academically questionable claims remain source truth without correction'],
     },
+    {
+      sha256: SIXTY_EIGHTH_SOURCE.sha256,
+      sourcePages: 39,
+      renderedReadPages: '1-39',
+      objectiveMcqPrompts: 135,
+      writtenPrompts: 50,
+      printedKeyObservations: 185,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 5,
+      priorFhb1022CollapsedHandles: 5,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      exactReplayPromptObservations: 0,
+      replayAnswerObservations: 0,
+      familyQuestionDelta: 185,
+      familyAnswerDelta: 185,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['general antimicrobial mechanisms selection and adverse effects', 'antituberculous and antileprosy pharmacology', 'antiamoebic antimalarial and antifolate pharmacology', 'antifungal pharmacology', 'antiviral plus macrolide and clindamycin written pharmacology'],
+      authorityDisposition: 'Word-authored PHARMA FHB 102-2 review bank naming Mohamed Salama in the PDF metadata and throughout the cover and footer; no visible institution, MUST platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is present, so the answers remain author-attributed review observations',
+      boundaryDisposition: 'page one is a cover; pages two through thirteen contain general-chemotherapy MCQ 1-60, pages fourteen through twenty reset numbering for thirty-five antituberculous antiamoebic antimalarial antileprosy and antifolate MCQs, pages twenty-one through twenty-eight reset numbering for forty antifungal and antiviral MCQs, and pages twenty-nine through thirty-nine contain WRITTEN Q1-Q50; all one hundred eighty-five fields have adjacent printed answers',
+      replayDisposition: 'complete-field comparison against all sixty-seven processed hash families, including the earlier MICRO_PHARMA FHB 102-2 BY SALAMA carrier, finds zero exact prior prompt-plus-option replays among the one hundred thirty-five MCQs and zero exact prior written-prompt replays among the fifty written fields, so all one hundred eighty-five questions and answers survive',
+      preservedSourceDefects: ['the cover preserves the printed MOHAEMD SALAMA misspelling', 'printed capitalization answer-label inconsistencies and academically questionable answer claims remain source truth without correction', 'repeated topics inside the bank remain distinct authored fields rather than page overlaps'],
+    },
+    {
+      sha256: SIXTY_NINTH_SOURCE.sha256,
+      sourcePages: 49,
+      renderedReadPages: '1-49',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 49,
+      teachingPrompts: 0,
+      teachingTopicHandles: 6,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Protein synthesis foundations and ribosome targets', pages: '1-6', teachingReferencePages: 6, assessmentPrompts: 0 },
+        { section: 'Aminoglycosides', pages: '7-11', teachingReferencePages: 5, assessmentPrompts: 0 },
+        { section: 'Tetracyclines', pages: '12-25', teachingReferencePages: 14, assessmentPrompts: 0 },
+        { section: 'Chloramphenicol', pages: '26-31', teachingReferencePages: 6, assessmentPrompts: 0 },
+        { section: 'Macrolides, linezolid and clindamycin', pages: '32-44', teachingReferencePages: 13, assessmentPrompts: 0 },
+        { section: 'Tissue penetration, stewardship and resistance', pages: '45-49', teachingReferencePages: 5, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: '49-page Bacterial Protein Inhibitors lecture-slide carrier with no visible authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration; product images and diagrams are teaching aids only',
+      boundaryDisposition: 'all forty-nine rendered pages are fully revealed lecture/reference slides covering protein-synthesis foundations, aminoglycosides, tetracyclines, chloramphenicol, macrolides, linezolid, clindamycin, tissue penetration, stewardship and resistance; declarative bullets, diagrams and labeled drug images create zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['printed spelling, capitalization, terminology and academically questionable pharmacology claims remain source truth without correction', 'fully labeled diagrams and product or clinical images are not reverse-engineered into practical prompts', 'lecture bullets and mnemonic content are not manufactured into questions or keys'],
+    },
+    {
+      sha256: SEVENTIETH_SOURCE.sha256,
+      sourcePages: 23,
+      renderedReadPages: '1-23',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 23,
+      teachingPrompts: 0,
+      teachingTopicHandles: 5,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Nucleic-acid synthesis and protein-synthesis framing', pages: '1-3', teachingReferencePages: 3, assessmentPrompts: 0 },
+        { section: 'Fluoroquinolones', pages: '4-9', teachingReferencePages: 6, assessmentPrompts: 0 },
+        { section: 'Rifampicin', pages: '10-13', teachingReferencePages: 4, assessmentPrompts: 0 },
+        { section: 'Metronidazole', pages: '14-18', teachingReferencePages: 5, assessmentPrompts: 0 },
+        { section: 'Stewardship and antimicrobial resistance', pages: '19-23', teachingReferencePages: 5, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: '23-page Nucleoprotein (DNA & RNA) Inhibitors lecture-slide carrier with no visible authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration; diagrams and medicine images are teaching aids only',
+      boundaryDisposition: 'all twenty-three rendered pages are fully revealed lecture/reference slides covering fluoroquinolones, rifampicin, metronidazole, pharmacokinetics, stewardship and resistance; declarative bullets, diagrams and labeled medicine images create zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['the title, printed spelling, terminology and academically questionable pharmacology claims remain source truth without correction', 'the repeated pharmacokinetics and resistance slides are teaching recaps rather than assessment fields', 'fully labeled diagrams and product images are not reverse-engineered into practical prompts'],
+    },
+    {
+      sha256: SEVENTY_FIRST_SOURCE.sha256,
+      sourcePages: 10,
+      renderedReadPages: '1-10',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 10,
+      teachingPrompts: 0,
+      teachingTopicHandles: 5,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Antifolate classes and folate-pathway mechanism', pages: '1-3', teachingReferencePages: 3, assessmentPrompts: 0 },
+        { section: 'Sulfonamides and trimethoprim', pages: '4-7', teachingReferencePages: 4, assessmentPrompts: 0 },
+        { section: 'Uses, exclusions and closing recap', pages: '8-10', teachingReferencePages: 3, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: '10-page Antifolate Antimicrobials lecture-slide carrier with no visible authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration; clinical photographs and diagrams are teaching aids only',
+      boundaryDisposition: 'all ten rendered pages are fully revealed lecture/reference slides covering sulfonamides, trimethoprim, co-trimoxazole, folate-pathway mechanism, adverse effects and uses; declarative bullets, clinical photographs and labeled diagrams create zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['printed spelling, capitalization, terminology and academically questionable pharmacology claims remain source truth without correction', 'fixed-drug-eruption photographs and pathway diagrams are not reverse-engineered into practical prompts', 'the closing list of ineffective indications is declarative teaching content rather than a question or key'],
+    },
+    {
+      sha256: SEVENTY_SECOND_SOURCE.sha256,
+      sourcePages: 12,
+      renderedReadPages: '1-12',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 12,
+      teachingPrompts: 0,
+      teachingTopicHandles: 5,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Folate pathway and sulfonamides', pages: '1-6', teachingReferencePages: 6, assessmentPrompts: 0 },
+        { section: 'Trimethoprim and co-trimoxazole', pages: '7-10', teachingReferencePages: 4, assessmentPrompts: 0 },
+        { section: 'Exclusions and closing slide', pages: '11-12', teachingReferencePages: 2, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: '12-page Folate Antagonists lecture by Dr Esraa Mostafa Elnahas, Lecturer of Clinical Pharmacology, Faculty of Medicine, Ain Shams University; named lecturer provenance is retained but does not establish MUST examination or authenticated faculty-key authority',
+      boundaryDisposition: 'all twelve rendered pages are fully revealed lecture/reference slides covering sulfonamides, trimethoprim, co-trimoxazole, folate-pathway mechanism, adverse effects and uses; lecturer objectives and declarative bullets create zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['printed spelling, terminology and academically questionable pharmacology claims remain source truth without correction', 'the named Ain Shams lecturer provenance is not promoted to MUST authority', 'the thank-you slide and labeled clinical or pathway images are not manufactured into assessment prompts'],
+    },
+    {
+      sha256: SEVENTY_THIRD_SOURCE.sha256,
+      sourcePages: 48,
+      renderedReadPages: '1-48',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 48,
+      teachingPrompts: 0,
+      teachingTopicHandles: 8,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Nucleic-acid inhibitors and fluoroquinolones', pages: '1-10', teachingReferencePages: 10, assessmentPrompts: 0 },
+        { section: 'Rifampicin and antimicrobial resistance', pages: '11-16', teachingReferencePages: 6, assessmentPrompts: 0 },
+        { section: 'Tuberculosis overview, therapy and regimens', pages: '17-27', teachingReferencePages: 11, assessmentPrompts: 0 },
+        { section: 'Rifamycins and isoniazid', pages: '28-36', teachingReferencePages: 9, assessmentPrompts: 0 },
+        { section: 'Pyrazinamide and ethambutol', pages: '37-43', teachingReferencePages: 7, assessmentPrompts: 0 },
+        { section: 'Antileprotic drugs', pages: '44-48', teachingReferencePages: 5, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: '48-page Folate/Nucleoprotein and TB-Leprosy lecture-slide carrier by Dr Esraa Mostafa Elnahas, Lecturer of Clinical Pharmacology, Faculty of Medicine, Ain Shams University; named lecturer provenance is retained but does not establish MUST examination or authenticated faculty-key authority',
+      boundaryDisposition: 'all forty-eight rendered pages are fully revealed lecture/reference slides covering fluoroquinolones, rifampicin, tuberculosis therapy, isoniazid, pyrazinamide, ethambutol and antileprotic drugs; declarative bullets, regimen tables, diagrams and clinical images create zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['printed spelling, terminology, regimen claims and academically questionable pharmacology statements remain source truth without correction', 'the named Ain Shams lecturer provenance is not promoted to MUST authority', 'TB and leprosy photographs, microscopy and diagrams are fully labeled teaching aids and are not manufactured into practical prompts'],
+    },
+    {
+      sha256: SEVENTY_FOURTH_SOURCE.sha256,
+      sourcePages: 26,
+      renderedReadPages: '1-26',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 26,
+      teachingPrompts: 0,
+      teachingTopicHandles: 7,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Institutional cover, objectives and fungal introduction', pages: '1-9', teachingReferencePages: 9, assessmentPrompts: 0 },
+        { section: 'Antifungal classification and azoles', pages: '10-17', teachingReferencePages: 8, assessmentPrompts: 0 },
+        { section: 'Polyene, flucytosine and griseofulvin drugs', pages: '18-26', teachingReferencePages: 9, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: '26-page Antifungal Drugs lecture carrier visibly branded MUST University for Science and Technology, College of Medicine; institutional teaching provenance is strong, but no examination sitting, marks scheme or authenticated faculty-key declaration appears',
+      boundaryDisposition: 'all twenty-six rendered pages are fully revealed lecture/reference slides covering fungal biology, antifungal mechanisms, azoles, amphotericin B, flucytosine and griseofulvin; learning objectives, declarative bullets, clinical photographs and diagrams create zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['printed spelling, terminology and academically questionable pharmacology claims remain source truth without correction', 'the MUST institutional teaching cover is not promoted to an authenticated examination or faculty key', 'clinical photographs and labeled mechanisms are teaching aids and are not reverse-engineered into practical prompts'],
+    },
+    {
+      sha256: SEVENTY_FIFTH_SOURCE.sha256,
+      sourcePages: 14,
+      renderedReadPages: '1-14',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 14,
+      teachingPrompts: 0,
+      teachingTopicHandles: 4,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Bacterial protein inhibitors summary', pages: '1-4', teachingReferencePages: 4, assessmentPrompts: 0 },
+        { section: 'Folate antagonists summary', pages: '5-6', teachingReferencePages: 2, assessmentPrompts: 0 },
+        { section: 'TB and leprosy summary', pages: '7-10', teachingReferencePages: 4, assessmentPrompts: 0 },
+        { section: 'Antifungal drugs summary', pages: '11-14', teachingReferencePages: 4, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: '14-page typed pharmacology final-exam study-note carrier labelled 2025, with no visible authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration; its summaries remain revision teaching content',
+      boundaryDisposition: 'all fourteen rendered pages are fully revealed summary notes on protein inhibitors, folate antagonists, TB and leprosy, and antifungal drugs; headings, explanatory paragraphs and lists are declarative teaching structure rather than assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['the final-exam notes label is retained as an unverified provenance claim and not promoted to examination authority', 'summary wording, spelling, terminology and academically questionable pharmacology claims remain source truth without correction', 'declarative headings and lists are not reverse-engineered into questions or keys'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 5022, printedKeyObservations: 4789, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 5207, printedKeyObservations: 4974, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -3037,6 +3370,14 @@ const provenance = {
   sixtyFifthSourceCandidate: SIXTY_FIFTH_SOURCE,
   sixtySixthSourceCandidate: SIXTY_SIXTH_SOURCE,
   sixtySeventhSourceCandidate: SIXTY_SEVENTH_SOURCE,
+  sixtyEighthSourceCandidate: SIXTY_EIGHTH_SOURCE,
+  sixtyNinthSourceCandidate: SIXTY_NINTH_SOURCE,
+  seventiethSourceCandidate: SEVENTIETH_SOURCE,
+  seventyFirstSourceCandidate: SEVENTY_FIRST_SOURCE,
+  seventySecondSourceCandidate: SEVENTY_SECOND_SOURCE,
+  seventyThirdSourceCandidate: SEVENTY_THIRD_SOURCE,
+  seventyFourthSourceCandidate: SEVENTY_FOURTH_SOURCE,
+  seventyFifthSourceCandidate: SEVENTY_FIFTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

@@ -2270,3 +2270,59 @@ Removing the sixty-seven processed hashes leaves **27 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - pharma fhb 102-2 by salama.pdf`, SHA-256 `346f87242b75a96f83216cf3975a04282624d76af6e8054c8730909926cacd2d`, 39 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 27 selected inventory paths / 27 unique hashes remain untriaged.
+
+## Completed source — Mohamed Salama FHB 102-2 pharmacology bank
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - pharma fhb 102-2 by salama.pdf` | `346f87242b75a96f83216cf3975a04282624d76af6e8054c8730909926cacd2d` | 39 | substantive-text | pages 1–39 rendered and read | Word-authored `PHARMA FHB 102-2` review bank naming Mohamed Salama in the PDF metadata and throughout the cover/footer; no visible institution, MUST platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration. |
+
+### Exact boundary and answer state
+
+Page 1 is a cover. Pages 2–13 contain a continuous **general-chemotherapy MCQ 1–60** sequence; pages 14–20 reset numbering for **35 antituberculous, antiamoebic, antimalarial, antileprosy and antifolate MCQs**; pages 21–28 reset numbering for **40 antifungal and antiviral MCQs**; and pages 29–39 contain a `WRITTEN` Q1–Q50 sequence. Every occurrence has an adjacent printed answer. The exact boundary is **135 ordinary objective MCQs / 50 ordinary written prompts / 185 printed answer observations / 0 source-absent / 0 practical or image-dependent / 0 teaching-only occurrences**. The answers remain author-attributed review observations rather than authenticated faculty-key marks.
+
+### Replay and exactly-four-search gate
+
+Complete-field comparison against all sixty-seven processed hash families, including the earlier `MICRO_PHARMA FHB 102-2 BY SALAMA` carrier, finds **0 exact prior prompt-plus-option replays for the 135 MCQs and 0 exact prior written-prompt replays for the 50 written fields**. All **185 questions / 185 answers** therefore survive; repeated topics inside the source remain distinct authored occurrences rather than page overlaps.
+
+Five source-first handles cover general antimicrobial mechanisms, selection and adverse effects; antituberculous and antileprosy pharmacology; antiamoebic, antimalarial and antifolate pharmacology; antifungal pharmacology; and antiviral plus macrolide/clindamycin written pharmacology. All five collapse to prior FHB-102-2 evidence. Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This sixty-eighth one-path hash is now `sourceProcessed=true`, adding **+185 questions / +185 answers / +0 concepts**. Cumulative triage is **5,207 questions / 4,974 answers / 62 concepts**.
+
+Removing the sixty-eight processed hashes leaves **26 selected inventory paths / 26 unique SHA-256s**. Their sorted-newline checksum is `09ee2654bcfa6ba70bdac1180a1c1bb558f633afc603a4c72577f7c4c7114688`. Remaining audit-review debt is **8 substantive-text / 7 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`68 + 26 = 94`** and path accounting is **`70 + 26 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf`, SHA-256 `3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5`, 49 pages, with a sparse-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 26 selected inventory paths / 26 unique hashes remain untriaged.
+
+## Grouped completed checkpoint — pharmacology lecture/reference tail
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf` | `3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5` | 49 | sparse-text | pages 1–49 rendered and read | Bacterial Protein Inhibitors lecture slides; no authenticated MUST examination or faculty-key declaration. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 4. Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf` | `5dfd7701d995629e7c36c7967736e21927c28a3a5e89272f8c40e20cacbac952` | 23 | sparse-text | pages 1–23 rendered and read | Nucleoprotein inhibitors lecture slides; no authenticated MUST examination or faculty-key declaration. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 5. Antifolate Drugs.pdf` | `1c098c79464fd2b1e47dce741c09a0c29fa2446feeb280ea1f7ff1ac91d7733f` | 10 | sparse-text | pages 1–10 rendered and read | Antifolate antimicrobials lecture slides; no authenticated MUST examination or faculty-key declaration. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 5. Folate Antagonists (Dr. Esraa).pdf` | `fca512413dacd95eeb9c00487fa1a7f9fc7e78ab195f3aeb0ac3c295bc16398b` | 12 | sparse-text | pages 1–12 rendered and read | Dr Esraa Mostafa Elnahas, Lecturer of Clinical Pharmacology, Faculty of Medicine, Ain Shams University; named lecturer provenance, not MUST examination/key authority. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 6. TB and Leprosy (Dr. Esraa).pdf` | `47c08908667b08b453d71594041a4e9ee2912b0e594bc80b5ef82658381f933d` | 48 | sparse-text | pages 1–48 rendered and read | Dr Esraa Mostafa Elnahas, Lecturer of Clinical Pharmacology, Faculty of Medicine, Ain Shams University; named lecturer provenance, not MUST examination/key authority. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 7. Antifungal_Drugs.pdf` | `bbf7f72f08ce85032b4d64e013a499d0846398d04b970d9248198ad5c141be32` | 26 | sparse-text | pages 1–26 rendered and read | MUST University College of Medicine teaching deck; no examination sitting, marks scheme or authenticated faculty key. |
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - FHB Pharmacology 102 Final Exam Notes 2025.pdf` | `d6c4b7b739a00dd96eb575836ca1ff2b64e4b006aa7cb6d32b2c995256418349` | 14 | substantive-text | pages 1–14 rendered and read | Typed final-exam study notes; the label is unverified and not promoted to examination authority. |
+
+### Exact boundary and teaching-only disposition
+
+The seven carriers are fully revealed lecture/reference content. The protein-inhibitor deck covers synthesis foundations, aminoglycosides, tetracyclines, chloramphenicol, macrolides, linezolid, clindamycin, tissue penetration, stewardship and resistance; the nucleoprotein deck covers fluoroquinolones, rifampicin, metronidazole, pharmacokinetics and resistance; the two folate decks cover sulfonamides, trimethoprim, co-trimoxazole, mechanism, adverse effects and uses; the TB/leprosy deck covers fluoroquinolones, rifampicin, TB regimens, isoniazid, pyrazinamide, ethambutol and antileprotic drugs; the antifungal deck covers fungal biology, azoles, amphotericin B, flucytosine and griseofulvin; and the final notes summarize those same domains. Declarative bullets, learning objectives, regimen tables, labeled diagrams, photographs and thank-you slides are teaching structure, not assessment response fields. The exact grouped boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 175 teaching-reference pages**.
+
+### Replay and exactly-four-search gate
+
+No assessment prompt or answer observation exists in any of the seven carriers, so no replay mapping is required and no family occurrence is created. The source-first gate stops before search for every carrier: **0 accepted × 4 = 0 searches**, with **0 live / 0 pending / 0 new** dispositions throughout. Named Ain Shams and MUST teaching provenance remains descriptive only and is not promoted to official key authority.
+
+### Delta, cumulative totals and next source
+
+The sixty-ninth through seventy-fifth hashes are now `sourceProcessed=true`; the grouped checkpoint contributes **+0 questions / +0 answers / +0 concepts**. Cumulative triage is **5,207 questions / 4,974 answers / 62 concepts**.
+
+Removing the seventy-five processed hashes leaves **19 selected inventory paths / 19 unique SHA-256s**. Their sorted-newline checksum is `720841e613b1513d016b3024fdac13b5f0d990d41c54f195330de4a1a93aa925`. Remaining audit-review debt is **7 substantive-text / 1 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`75 + 19 = 94`** and path accounting is **`77 + 19 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf`, SHA-256 `1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a`, 168 pages, with a sparse-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 19 selected inventory paths / 19 unique hashes remain untriaged.
