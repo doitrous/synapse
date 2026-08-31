@@ -23098,3 +23098,105 @@ The exact next manifest-order debt is tier-6 `src_afdb8ede152decdf148a`,
 unclassified until all 9 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
 — NOT APPROVED`:** 9 tier-6/rank-9 path debts remain. No download, source edit, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 222 — Tier-6 attributed glucocorticoid handout without visible HU assessment authority
+
+Exact source identity is `src_afdb8ede152decdf148a`,
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/HU-CORTICOSTEROIDES.pdf`,
+1,536,767 bytes, 9 native portrait-A4 pages, and SHA-256
+`afdb8ede152decdf148a962d0f895504403a9636b85ddf08c93032ecabf5c196`. The physical
+file matches that manifest path, size, page count and digest. It is tagged, unencrypted,
+contains no form, and identifies PDF 1.6. Metadata names `Mamdouh` as author and Microsoft
+Word 2016 as creator/producer. All nine pages were rendered and read; all nine page renders
+are distinct and the structural check is clean.
+
+### Authority and complete teaching/assessment boundary
+
+The filename prefix `HU-` is path evidence only: no visible page names HU, Helwan, a
+faculty, cohort, exam, sitting, marks or official key. Every page instead carries
+`Pharmacology / Glucocorticoid Pharmacology` headers and a `DR. El-Sawy` footer. The
+visible material is therefore a named teaching handout, not eligible Helwan assessment
+evidence. Metadata author `Mamdouh` does not supply a sitting or key authority.
+
+The nine physical pages preserve printed handout pagination **2, 3, 4, 5, 8, 9, 10, 11,
+12**. Printed pages 6–7 are absent from this physical PDF and are not inferred. The complete
+physical boundary is:
+
+| Physical pages | Complete supplied composition |
+|---:|---|
+| 1–2 | glucocorticoid secretion/HPA regulation, physiologic effects, receptor/GRE mechanism and completed diagrams |
+| 3–4 | anti-inflammatory and leukocyte actions, systemic effects and a completed multi-system effects illustration |
+| 5–6 | inflammatory/autoimmune and other indications, replacement note, pharmacokinetics, routes and alternate-day therapy |
+| 7–8 | adverse effects, adrenal suppression and a completed labelled Cushing clinical-findings illustration |
+| 9 | completed glucocorticoid-antagonist/synthesis-inhibitor comparison and biosynthesis map |
+
+There is no interrogative stem, learner command, option set, response field, blank, case,
+written task, answer reveal or key. Exact assessment delta is **0 eligible prompts / 0
+external prompts / 0 ordinary objective prompts / 0 written prompts / 0 keys-or-answers / 0
+unkeyed prompts**.
+
+Source truth remains literal and unrepaired. This includes the missing printed pages 6–7,
+`DR . El-Sawy`, `Glucocorticoids indications :`, the printed hypercalcemia statement, the
+`PGs receptors` wording in the mifepristone cell, and the table's combined
+`Aminoglutethimide & Metyrapone` synthesis-inhibitor column. These are evidence states, not
+corrections or endorsements.
+
+### Visual and practical boundary
+
+Five completed diagram/illustration assets occur on physical pages 1, 2, 4, 8 and 9: HPA and
+steroid synthesis, intracellular receptor/GRE mechanism, systemic effects, Cushing clinical
+findings and steroid biosynthesis/inhibition. The surrounding tables and callouts are already
+filled and labelled. None is masked, numbered for learner identification or paired with a
+station command. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0
+residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The handout collapses source-first to six complete theoretical handles:
+
+| Handle / physical pages | One query on each required surface | Reconciliation |
+|---|---|---|
+| HPA secretion regulation and systemic glucocorticoid effects · 1–4 | glucocorticoid secretion HPA CRH ACTH cortisol | prior LCS corticosteroid teaching reuse |
+| receptor/GRE mechanism and anti-inflammatory action · 2–3 | glucocorticoid receptor GRE phospholipase A2 glucocorticoid | prior LCS corticosteroid teaching reuse |
+| inflammatory, autoimmune and replacement indications · 5 | glucocorticoid indications inhaled glucocorticoid bronchial asthma replacement hydrocortisone | prior LCS corticosteroid teaching reuse |
+| pharmacokinetics, administration and alternate-day therapy · 6 | glucocorticoid pharmacokinetics alternate-day therapy corticosteroid-binding globulin | prior LCS corticosteroid teaching reuse |
+| adverse effects, Cushing findings and adrenal suppression · 7–8 | iatrogenic Cushing glucocorticoid side effects acute adrenal suppression | prior LCS corticosteroid teaching reuse |
+| receptor antagonist and synthesis inhibitors · 9 | glucocorticoid antagonist mifepristone ketoconazole aminoglutethimide metyrapone cortisol | prior LCS corticosteroid teaching reuse |
+
+Each of the **six accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **6 x 4 =
+24 required search invocations**. Live file-match counts were **0 / 0 / 0 / 0 / 1 / 0**;
+pending/import-ready counts were **0 / 1 / 0 / 0 / 1 / 0**; prior-source counts were all
+**0**; accepted-LCS counts were **0 / 1 / 0 / 1 / 0 / 0**. Complete source-scope comparison
+against the previously inventoried corticosteroid lecture, revision and question families
+establishes **6 prior-LCS theoretical reuses / 0 additive live / 0 additive pending / 0
+additive new teaching scopes**; exact-query misses are not promoted into new scopes.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,585 prompts / 7,309 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 222's
+assessment, practical and disposition deltas are entirely zero.
+
+Consuming this source's sole path and unique hash changes the remainder from **9 paths / 9
+unique hashes** to **8 paths / 8 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**3 paths / 3 unique hashes within tier**, and rank 9 remains **5 paths / 5 unique hashes
+within rank**. Family 221's checksums were
+`f77a4e357fe59ef7496e2aa9b37ce6f9fa526a30a60cf564346605fb0476e8e8` (paths) and
+`d2151c65bd591156159a822cf9935c7da512199deb1518635c32b27bc77dfb2c` (unique hashes).
+For the exact post-Family-222 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`536292beeae08f52cd8848f6148697f9ae442652d1a58260b9f1f75fb8ef93bb`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`dc503ca81e5f4b091f3b318297bfcfe9fbc992637e195baa0e2d548ffeb19a7f`.
+
+The exact next manifest-order debt is tier-6 `src_739b8e00ceaa08ad5571`,
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/NSAIDs -103-Helwan 2_260519_182240.pdf`
+(34,803,076 bytes; 10 native 593.33 x 840 pt pages; untagged; unencrypted; no form; PDF 1.7;
+SHA-256 `739b8e00ceaa08ad557162387381a2bceda494b62ddeabaf7e1384f59b833843`).
+It remains unclassified until all 10 pages are rendered and read. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 8 tier-6/rank-9 path debts remain. No download, source edit,
+ID, content record, catalogue update, import or source copy was created.
