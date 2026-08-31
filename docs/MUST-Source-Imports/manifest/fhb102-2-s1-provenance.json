@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "a278dbc421e915a7bb277ae980f86ae63fb2fe745bd657769d72e61f9fad32ba",
-    "triageMarkdown": "fe58d6888c6a493a065f6667c8533dc0fc0a2df295249e0104b7f146b0671f87"
+    "readinessMarkdown": "31184f244c6cc5f676c7e539b8f3e5927579a12396d1d15a4c92a3c32295307d",
+    "triageMarkdown": "d249b1f44a63028900f7c2a384b020aab5072474cab0b4a7c65360925209cb37"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -76,6 +76,7 @@
       "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+      "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
@@ -98,7 +99,7 @@
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 28
+    "uniqueSha256": 29
   },
   "completedSourceCoverage": [
     {
@@ -1698,6 +1699,56 @@
         "FHB-102-2 and MSK-102-2 blueprint sections remain separated by their printed module labels",
         "topic bullets and format percentages are not counted as questions or answers"
       ]
+    },
+    {
+      "sha256": "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
+      "sourcePages": 52,
+      "renderedReadPages": "1-52",
+      "auditExtractFailedButVisuallyReadable": true,
+      "exactVisualSiblingOf": "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
+      "renderedPageSequenceMatch": {
+        "comparedPages": 52,
+        "dpi": 160,
+        "resizedRgbMeanAbsoluteErrorRange": "0.091-3.269/255",
+        "resizedRgbMeanAbsoluteErrorMean": "1.569/255"
+      },
+      "coverPages": [
+        1
+      ],
+      "institutionalTeachingPages": [
+        2
+      ],
+      "labelledTeachingReferencePages": "3-51",
+      "closingPages": [
+        52
+      ],
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferenceSlides": 49,
+      "teachingPrompts": 0,
+      "referenceSourceHandles": 0,
+      "referenceSearchesRun": 0,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "PDFium-generated image/flattened carrier of the official MUST College of Medicine Microbiology & Immunology department Final Practical Revision deck; the audit text extraction fails and reports repeated unknown ExtGState GS17 diagnostics, but every page renders and the complete visual sequence matches the already authenticated departmental teaching carrier",
+      "boundaryDisposition": "the complete fifty-two-page rendered sequence is the near-exact visual sibling of the twenty-sixth source: cover on page 1, institutional vision/mission on page 2, forty-nine fully labelled teaching-reference slides on pages 3-51, and good-luck closer on page 52; it is neither blank nor corrupt and contributes no new assessment occurrence or answer",
+      "preservedSourceDefects": [
+        "the inventory filename [Empty] and audit-extract-failed label describe extraction state, not visible content",
+        "repeated unknown ExtGState GS17 extraction/render diagnostics are preserved without treating the readable pages as corrupt",
+        "the image/flattened carrier is collapsed to the completed visual sibling and no labels are reverse-engineered into questions"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1876,18 +1927,24 @@
     "pages": 3,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentyNinthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - [Empty] FHB102 FINAL REVISION 2025.pdf",
     "sha256": "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
     "pages": 52,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf",
+    "sha256": "9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1",
+    "pages": 18,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 68,
-    "uniqueSha256": 66,
-    "sortedNewlineSha256": "ae4e2524dbfa41c74c7a1a7628b1fa3b8f580850f588783e6ae38b7b4f4da2a1",
+    "inventoryMetadataRows": 67,
+    "uniqueSha256": 65,
+    "sortedNewlineSha256": "2a980bf22eeb69899b7967378f1a2b02dfec903c915da58ee01c2ef85c920da1",
     "auditSampleStatusCounts": {
-      "audit-extract-failed": 2,
+      "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 18,
@@ -1895,7 +1952,7 @@
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-extract-failed": 2,
+    "audit-extract-failed": 1,
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 18,
@@ -1903,8 +1960,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 28,
-    "remainingUniqueSha256": 66,
+    "processedUniqueSha256": 29,
+    "remainingUniqueSha256": 65,
     "processedPlusRemaining": 94
   }
 }

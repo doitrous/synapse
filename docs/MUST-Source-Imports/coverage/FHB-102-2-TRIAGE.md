@@ -1150,3 +1150,29 @@ Removing the twenty-eight processed hashes leaves **68 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - [Empty] FHB102 FINAL REVISION 2025.pdf`, SHA-256 `6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901`, 52 pages, with an audit-extract-failed sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 68 selected inventory paths / 66 unique hashes remain untriaged.
+
+## Completed source — [Empty] FHB102 FINAL REVISION 2025
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - [Empty] FHB102 FINAL REVISION 2025.pdf` | `6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901` | 52 | audit-extract-failed | pages 1–52 rendered and read | PDFium-generated image/flattened carrier of the official MUST College of Medicine Microbiology & Immunology department `Final Practical Revision` deck. The audit text extraction fails and emits repeated unknown `ExtGState GS17` diagnostics, but every page renders and the complete visual sequence is a near-exact sibling of completed SHA-256 `eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8`. The carrier is neither blank nor corrupt. |
+
+### Exact visual-sibling, assessment and teaching boundary
+
+All 52 corresponding pages were compared after independent 160-dpi rendering. Resized-RGB mean absolute error ranges from **0.091–3.269/255**, with an overall mean of **1.569/255**. The complete ordered boundary matches the completed departmental sibling: page 1 official cover, page 2 institutional vision/mission, pages 3–51 **49 fully labelled practical-reference teaching slides**, and page 52 good-luck closer.
+
+Because every reference image is already labelled and no question or reveal sequence is printed, the exact assessment boundary is **0 objective prompts / 0 written prompts / 0 practical or image assessment prompts / 0 prompt-matched answer observations / 0 source-absent answers / 49 teaching-reference slides**. The inventory filename `[Empty]` and audit-extract-failed label describe extraction state rather than visible content; repeated extraction diagnostics remain preserved without treating the readable pages as corrupt.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+No assessment prompt is printed, so there is **0 source-first assessment handle / 0 accepted handle / 0 searches**. The already completed visual sibling supplies the family reconciliation, and the exactly-four-search gate does not trigger. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-ninth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **2,557 questions / 2,401 answers / 62 concepts**.
+
+Removing the twenty-nine processed hashes leaves **67 selected inventory paths / 65 unique SHA-256s**. Their sorted-newline checksum is `2a980bf22eeb69899b7967378f1a2b02dfec903c915da58ee01c2ef85c920da1`. Remaining audit-review debt is **27 substantive-text / 18 sparse-text / 10 empty-text / 11 audit-not-found / 1 audit-extract-failed row**, and unique-hash accounting is **`29 + 65 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Final OSPE Simulation FHB102_Mucize Doctors.pdf`, SHA-256 `9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1`, 18 pages, with a sparse-text audit sample. This SHA is the recorded exact three-path duplicate family also stored under the Parasitology and Pharmacology `06 EOM Exams` folders; it will be read once and all three inventory paths reconciled together.
+
+**BLOCKED — S1 cannot be approved:** 67 selected inventory paths / 65 unique hashes remain untriaged.
