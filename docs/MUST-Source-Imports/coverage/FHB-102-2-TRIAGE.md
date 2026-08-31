@@ -2686,3 +2686,29 @@ Removing the eighty-eight processed hashes leaves **6 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 1 (By Ezzeldin).pdf`, SHA-256 `e703dc230fcd16a3d4733d30b7babe17e7ff6e0f8d239d14e3f67c53b2e1ef2e`, 29 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 6 selected inventory paths / 6 unique hashes remain untriaged.
+
+## Completed source — `General Antibacterial 1 (By Ezzeldin)`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 1 (By Ezzeldin).pdf` | `e703dc230fcd16a3d4733d30b7babe17e7ff6e0f8d239d14e3f67c53b2e1ef2e` | 29 | audit-not-found | pages 1–29 rendered and read | PDFium-generated teaching deck whose visible cover names Dr Mohamed Abdel Aziz and separately states `Edited by Ezzeldin Emad`. The filename's `By Ezzeldin` credit is retained as file provenance rather than promoted to lecturer authorship. No authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Page 1 is the `Antimicrobials (chemotherapy)` title-and-credit cover. Pages 2–9 cover principles, spectrum, bactericidal and bacteriostatic concepts, uses and general adverse effects. Pages 10–13 cover cell-wall inhibition and penicillin mechanism diagrams. Pages 14–20 cover penicillin preparations and beta-lactamase inhibitors. Pages 21–25 cover penicillin uses, adverse effects and a labelled clinical-image reference. Pages 26–29 cover cephalosporin generations, resistance and adverse effects. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 28 teaching-reference pages / 1 non-assessment cover page**.
+
+Numbered definitions, drug classes, uses, adverse effects, diagrams and labelled clinical images are declarative teaching structure rather than assessment fields. No answer is inferred and no teaching statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction. The filename credit, lecturer credit and editing credit remain distinct without resolving or inventing authorship.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This eighty-ninth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-nine processed hashes leaves **5 selected inventory paths / 5 unique SHA-256s**. Their sorted-newline checksum is `33f742f6f3f2f1c01ac97e6362a479f195ac492ccc777883ad93844079334e7b`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 5 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`89 + 5 = 94`** and path accounting is **`91 + 5 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 2-1 (by Ezzeldin).pdf`, SHA-256 `2e3a3d7c65258e266942eb43e69b3f748a9a1adda761184b9f3c9f60379d15a1`, 15 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 5 selected inventory paths / 5 unique hashes remain untriaged.

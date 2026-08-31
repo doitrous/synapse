@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "7125eff17a8f44b0db420afe62b14c8edf1916740507a11de5302192d07167d7",
-    "triageMarkdown": "87c5aef2e5cfedf946ae6d9ae4198d5ba2fd4a9c6756b011e20ebb5f92543621"
+    "readinessMarkdown": "09a06b2d183eb6749a51116670b7c328393bc3c6ea6135907ae4f3e32faf3aa1",
+    "triageMarkdown": "1c60eff1f2647d70228bdcfebb0f3958ccffca3a0abd80cd8e47cba28e014f79"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -150,6 +150,7 @@
       "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
       "e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556",
       "e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a",
+      "e703dc230fcd16a3d4733d30b7babe17e7ff6e0f8d239d14e3f67c53b2e1ef2e",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3",
@@ -158,7 +159,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 88
+    "uniqueSha256": 89
   },
   "completedSourceCoverage": [
     {
@@ -5716,6 +5717,95 @@
         "the generic PDF title and iOS capture metadata are retained without inventing lecturer, institution or authority",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "e703dc230fcd16a3d4733d30b7babe17e7ff6e0f8d239d14e3f67c53b2e1ef2e",
+      "sourcePages": 29,
+      "renderedReadPages": "1-29",
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 28,
+      "nonAssessmentCoverPages": 1,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Antimicrobials (chemotherapy) title and credits",
+          "pages": "1",
+          "coverPages": 1,
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Principles, definitions, spectrum, bactericidal and bacteriostatic concepts, uses and general adverse effects",
+          "pages": "2-9",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 8
+        },
+        {
+          "section": "Cell-wall synthesis inhibition and penicillin mechanism diagrams",
+          "pages": "10-13",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Penicillin preparations and beta-lactamase inhibitors",
+          "pages": "14-20",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 7
+        },
+        {
+          "section": "Penicillin uses, adverse effects and labelled clinical-image reference",
+          "pages": "21-25",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 5
+        },
+        {
+          "section": "Cephalosporin generations, resistance and adverse effects",
+          "pages": "26-29",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all twenty-eight content pages are fully revealed teaching and reference slides with no assessment prompt field; numbered definitions, classes, uses, adverse effects, diagrams and labelled clinical images remain declarative teaching structure, so no prompt replay comparison is applicable and no teaching statement is reverse-engineered into a question",
+      "authorityDisposition": "PDFium-generated teaching deck whose visible cover names Dr Mohamed Abdel Aziz and separately credits editing by Ezzeldin Emad; the filename By Ezzeldin is retained as file provenance rather than promoted to lecturer authorship, and no authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "page 1 is the Antimicrobials (chemotherapy) title-and-credit cover, and pages 2-29 are declarative antimicrobial principles, cell-wall inhibition, penicillin and cephalosporin teaching/reference slides; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, twenty-eight teaching-reference pages and one non-assessment cover page",
+      "preservedSourceDefects": [
+        "the filename credit By Ezzeldin, visible lecturer credit Dr Mohamed Abdel Aziz and visible edited-by credit Ezzeldin Emad are retained distinctly without resolving or inventing authorship",
+        "printed spelling, grammar, diagrams, clinical images, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "numbered definitions, drug classes, uses, adverse effects, diagrams and labelled clinical images are declarative teaching structure rather than assessment prompts",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -6255,27 +6345,33 @@
     "pages": 26,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightyNinthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 1 (By Ezzeldin).pdf",
     "sha256": "e703dc230fcd16a3d4733d30b7babe17e7ff6e0f8d239d14e3f67c53b2e1ef2e",
     "pages": 29,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 2-1 (by Ezzeldin).pdf",
+    "sha256": "2e3a3d7c65258e266942eb43e69b3f748a9a1adda761184b9f3c9f60379d15a1",
+    "pages": 15,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 6,
-    "uniqueSha256": 6,
-    "sortedNewlineSha256": "dcee0bd3b8e8d28b1abb0ddff19d4e37023dba037b1083d6ede929ea43d4e575",
+    "inventoryMetadataRows": 5,
+    "uniqueSha256": 5,
+    "sortedNewlineSha256": "33f742f6f3f2f1c01ac97e6362a479f195ac492ccc777883ad93844079334e7b",
     "auditSampleStatusCounts": {
-      "audit-not-found": 6
+      "audit-not-found": 5
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 6
+    "audit-not-found": 5
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 88,
-    "remainingUniqueSha256": 6,
+    "processedUniqueSha256": 89,
+    "remainingUniqueSha256": 5,
     "processedPlusRemaining": 94
   }
 }
