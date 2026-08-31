@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "40a79fa1bf2a0ca86730a7ed1708f5ce34c1e1d2c7244f26b51335afc80d7078",
-    "triageMarkdown": "5a06255988422ff58b881216d679a5ee8777171aaef504d04dfce818fc6a9fe8"
+    "readinessMarkdown": "a0f29b4e0b7aeca86a117621e200eb6981f2765f99068a926608f83c28861f03",
+    "triageMarkdown": "7b538bf7d448574fe6c395b0b0cc4bbceceece99098e2e364b81e9bb6ba82016"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -88,6 +88,7 @@
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
       "42bc67ac2f79d260f47b534c735175f3e8ee8fc3f4bb9301ab1d00ee522f3aaf",
+      "430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c",
       "44571f8f9fc79493e261a97807914ab9e7127afc102b33fd997c71433eab6217",
       "47c08908667b08b453d71594041a4e9ee2912b0e594bc80b5ef82658381f933d",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
@@ -146,7 +147,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 76
+    "uniqueSha256": 77
   },
   "completedSourceCoverage": [
     {
@@ -4567,12 +4568,80 @@
         "declarative teaching statements are not reverse-engineered into questions or answers",
         "closing thank-you slides are retained as non-assessment separators rather than teaching or assessment prompts"
       ]
+    },
+    {
+      "sha256": "430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "coverPages": 1,
+      "printedPromptObservations": 40,
+      "distinctAssessmentPrompts": 40,
+      "objectiveMcqPrompts": 40,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "Q1-Q40",
+      "printedKeyObservations": 40,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 4,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 40,
+      "familyAnswerDelta": 40,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Cover",
+          "pages": "1",
+          "objectiveMcqPrompts": 0,
+          "printedKeyObservations": 0
+        },
+        {
+          "section": "Tetracyclines and tigecycline",
+          "pages": "2-4",
+          "questionLabels": "Q1-Q20",
+          "objectiveMcqPrompts": 20,
+          "printedKeyObservations": 0
+        },
+        {
+          "section": "Aminoglycosides",
+          "pages": "5-7",
+          "questionLabels": "Q21-Q40",
+          "objectiveMcqPrompts": 20,
+          "printedKeyObservations": 0
+        },
+        {
+          "section": "Answer key",
+          "pages": "8",
+          "objectiveMcqPrompts": 0,
+          "printedKeyObservations": 40
+        }
+      ],
+      "sourceFirstHandleLabels": [
+        "tetracycline classification, pharmacokinetics, chelation and renal use",
+        "tetracycline mechanism, uses, adverse effects and tigecycline",
+        "aminoglycoside mechanism, pharmacokinetics, spectrum and clinical uses",
+        "aminoglycoside toxicity, resistant-case drugs and combination therapy"
+      ],
+      "replayDisposition": "normalized stem screening against all previously processed FHB 102-2 text identified only three same-stem candidates; complete prompt-plus-option comparison rejects each candidate, so all forty physical fields survive as distinct occurrences",
+      "authorityDisposition": "python-docx/LibreOffice revision handout labelled FHB2-102 Final Lecture 1 MCQ Revision and prepared from the uploaded lecture paper only; no visible author, MUST institution or platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration appears",
+      "boundaryDisposition": "page 1 is a cover; pages 2-7 contain one continuous Q1-Q40 ordinary text-MCQ sequence; page 8 prints a complete forty-entry answer-letter table; the exact boundary is forty objective prompts and forty prompt-matched printed answer observations with zero absent, written, practical, image-dependent or teaching-only occurrences",
+      "preservedSourceDefects": [
+        "the cover claim that answer letters are intentionally balanced and varied is retained as source wording rather than authority evidence",
+        "printed wording, terminology and academically questionable questions or answer letters remain source truth without correction",
+        "the terminal answer table is counted as author-supplied printed observations and is not promoted to an authenticated faculty key"
+      ]
     }
   ],
   "partialSourceCoverage": [],
   "triageCumulative": {
-    "printedPromptObservations": 5207,
-    "printedKeyObservations": 4974,
+    "printedPromptObservations": 5247,
+    "printedKeyObservations": 5014,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -5034,29 +5103,35 @@
     "pages": 168,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "seventySeventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_102_Final_40_MCQ (Tetracyclines & Aminoglycosides).pdf",
     "sha256": "430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c",
     "pages": 8,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_Final_MCQ_40 (Macrolides, Clindamycin & Chloramphenicol).pdf",
+    "sha256": "e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556",
+    "pages": 6,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 18,
-    "uniqueSha256": 18,
-    "sortedNewlineSha256": "56c0efc2886c87663fcccb83c3c5bb374aed25da47e957205cb29567330b8478",
+    "inventoryMetadataRows": 17,
+    "uniqueSha256": 17,
+    "sortedNewlineSha256": "09f17661a418883cd5bef5aaf5d12a4038fc29bb7c999da43f25fb6a1983b7bd",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
-      "substantive-text": 7
+      "substantive-text": 6
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
-    "substantive-text": 7
+    "substantive-text": 6
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 76,
-    "remainingUniqueSha256": 18,
+    "processedUniqueSha256": 77,
+    "remainingUniqueSha256": 17,
     "processedPlusRemaining": 94
   }
 }

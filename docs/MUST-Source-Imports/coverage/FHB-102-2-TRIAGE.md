@@ -2364,3 +2364,31 @@ Removing the seventy-six processed hashes leaves **18 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_102_Final_40_MCQ (Tetracyclines & Aminoglycosides).pdf`, SHA-256 `430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c`, 8 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 18 selected inventory paths / 18 unique hashes remain untriaged.
+
+## Completed source — `FHB2-102 Final Lecture 1 MCQ Revision`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_102_Final_40_MCQ (Tetracyclines & Aminoglycosides).pdf` | `430a32d0b75f3f5b67f2c0dd874bb1709237131412f7f6a7a475d76053ea6b7c` | 8 | substantive-text | pages 1–8 rendered and read | Python-docx/LibreOffice revision handout labelled `FHB2-102 Final Lecture 1 MCQ Revision` and `Prepared from the uploaded lecture paper only`. No visible author, MUST institution or platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Page 1 is a cover. Pages 2–4 contain Part I, a continuous **Q1–Q20** sequence on tetracyclines and tigecycline. Pages 5–7 contain Part II, a continuous **Q21–Q40** sequence on aminoglycosides. Page 8 prints a complete Q1–Q40 answer-letter table. The exact boundary is **40 ordinary objective MCQs / 40 prompt-matched printed answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. The terminal table is retained as an author-supplied printed answer observation rather than promoted to an authenticated faculty key.
+
+### Replay and exactly-four-search gate
+
+Normalized stem screening against all seventy-six processed hash families produced three same-stem candidates. Complete prompt-plus-option comparison rejects each candidate because its option field differs or the apparent match occurs inside explanatory prose rather than as the same assessment field. All **40 questions / 40 answers** therefore survive as distinct physical occurrences.
+
+Four source-first handles cover tetracycline classification, pharmacokinetics, chelation and renal use; tetracycline mechanism, uses, adverse effects and tigecycline; aminoglycoside mechanism, pharmacokinetics, spectrum and clinical uses; and aminoglycoside toxicity, resistant-case drugs and combination therapy. All four collapse to prior FHB-102-2 evidence. Search arithmetic is **4 source-first − 4 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+The cover's claim that answer letters are intentionally balanced and varied, along with printed wording, terminology and academically questionable question or answer claims, remains literal source truth without correction.
+
+### Delta, cumulative totals and next source
+
+This seventy-seventh one-path hash is now `sourceProcessed=true`, adding **+40 questions / +40 answers / +0 concepts**. Cumulative triage is **5,247 questions / 5,014 answers / 62 concepts**.
+
+Removing the seventy-seven processed hashes leaves **17 selected inventory paths / 17 unique SHA-256s**. Their sorted-newline checksum is `09f17661a418883cd5bef5aaf5d12a4038fc29bb7c999da43f25fb6a1983b7bd`. Remaining audit-review debt is **6 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`77 + 17 = 94`** and path accounting is **`79 + 17 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - FHB2_Final_MCQ_40 (Macrolides, Clindamycin & Chloramphenicol).pdf`, SHA-256 `e14d492c47cf11ff3d6f9806bedb594e95221850ad36a4ba9ae50e996d169556`, 6 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 17 selected inventory paths / 17 unique hashes remain untriaged.
