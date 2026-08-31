@@ -28550,3 +28550,84 @@ Pharmacology of Serotonin`. Metadata names `mustafa elsayed` as Author, identifi
 365 as creator/producer, and records creation/modification on 30 March 2026. Its visible serotonin
 teaching boundary, absence of institutional/module/assessment markers, authority gate,
 arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 281 — anonymous serotonin/autacoid teaching handout
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_87a8ebd71f3fcb498258` · `Serotonin.pdf` |
+| Exact object | SHA-256 `87a8ebd71f3fcb498258bf0e952ec62f448003a3d15ce69b646b11ea40d4347e` · **150,785 bytes** · **6 native portrait A4 pages** · 541 extracted words |
+| Full-read method | all 6 pages rendered at 180 dpi and inspected individually at original detail against the complete layout-preserving native extraction |
+| Visible provenance | pages visibly supply only the topic title and declarative teaching content. No author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, candidate field, marks, or key marker is printed. |
+| Metadata | Author `mustafa elsayed`; Microsoft Word for Microsoft 365 creator/producer; created and modified 30 March 2026; no form, JavaScript, or encryption. Metadata is secondary export provenance and does not establish visible institutional or assessment authority. |
+| Authority / eligibility | BMS-102 theoretical-folder placement provides local teaching context only. This anonymous handout is not a Helwan-authenticated assessment, official key, or dated sitting. |
+
+### Complete teaching, prompt, answer, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1 | `Serotonin` | title only; **0 prompts / 0 answers** |
+| 2 | autacoid definition and chemical classification | completed declarative classification; no learner operation |
+| 3 | serotonin source, synthesis, storage, pharmacokinetics, metabolism, and receptor-signalling classes | supplied teaching prose and numbered facts; numbering organizes content rather than questions |
+| 4 | 5-HT receptor subtype/site/effect table and CNS actions | completed comparison table and action list; no blank or response field |
+| 5 | remaining CNS, GIT, respiratory, cardiovascular, and platelet actions, including the triphasic blood-pressure response | fully supplied teaching and mechanisms |
+| 6 | direct/indirect serotonin agonists and serotonin antagonists, with examples and uses | completed drug-class table and explanatory list; no candidate operation or key layer |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied answers / 0
+answer-absent prompts / 0 candidate responses**. Page headings, receptor tables, action lists, and
+numbered drug examples are declarative teaching content rather than questions or answer fields.
+
+### Teaching replay and exact four-search gate
+
+Page 2 closely re-expresses the autacoid classification governed in Family 280; pages 3–6 expand
+the serotonin branch through synthesis, PK, receptors, actions, and agonist/antagonist examples.
+Those propositions overlap broader receptor, autonomic, antiemetic, and CNS pharmacology teaching
+already present in prior families, but this carrier provides no tested operation. The occurrences
+remain teaching-replay evidence and cannot enter assessed-handle recurrence or concept arithmetic.
+
+The accepted-handle set is **0**. Exactly four searches per accepted handle therefore requires
+and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle reuse is **0** and the eligible
+concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 281 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 281 adds anonymous serotonin teaching and teaching-replay evidence only—
+not a Helwan assessment, official key, written exam, authenticated practical, dated sitting,
+recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 281
+
+`src_87a8ebd71f3fcb498258` is exhausted across all 6 pages: every title, classification, table,
+mechanism, action, drug example, authority limitation, metadata field, replay relation, zero gate,
+and arithmetic term is assigned once, with **zero source remainder** and no Family-281 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 281 governs
+**1 selected path / 1 unique hash**. The governed set through Family 281 is therefore **346 paths /
+334 unique hashes**, leaving exactly **16 ungoverned selected paths / 14 unique hashes**. Checksums
+are **346 + 16 = 362 paths** and **334 + 14 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `82bafc8997b2f5348d5f4cc46e30f800cb898a7b6802a991c2294a1665ef6170`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`e37b8a45b64c18b2b0734233ccd555da182088fb5ed5678ce91c5e7894d6aae4`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_bc68abc319ccacdad2f7` · `Antivirals
+(1).PDF`, SHA-256 `bc68abc319ccacdad2f75a4753c70dab2a5545bd2386538d644b695151b58c06`,
+**370,742 bytes**, **21 native landscape US-letter pages** under `Pharmacology / Theoretical /
+Lec 13 - Antiviral Drugs`. Metadata supplies no title or author and records creation/modification
+on 14 April 2026. Its visible antiviral teaching boundary, absence of institutional/module/
+assessment markers, authority gate, arithmetic, and subsequent exact debt remain to be separately
+adjudicated.
