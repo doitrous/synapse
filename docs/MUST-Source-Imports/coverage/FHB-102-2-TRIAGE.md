@@ -643,3 +643,42 @@ Removing the thirteen processed hashes leaves **83 selected inventory paths / 81
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General_Mycology_MCQ_SAQ.pdf`, SHA-256 `a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2`, 5 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 83 selected inventory paths / 81 unique hashes remain untriaged.
+
+## Completed source — General Mycology MCQ & SAQ
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General_Mycology_MCQ_SAQ.pdf` | `a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2` | 5 | substantive-text | pages 1–5 rendered and read | Anonymous ReportLab-generated revision carrier headed `General Mycology - MCQs & SAQs`. No visible author, institution, department, examiner, sitting, marks, module authentication or authenticated faculty-key claim appears. The terminal answer key and model answers are source evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–4 contain thirty conventional objective prompts divided into Easy E1–E10, Medium M1–M10 and Hard H1–H10. Page 5 begins `Answer Key and Model Answers`, supplies a complete thirty-token MCQ key, then prints five numbered SAQ prompts, each immediately followed by a model answer. The five SAQs are visible assessment prompts even though they first appear on the model-answer page and are counted once each.
+
+The exact boundary is **30 objective prompts / 5 written SAQ prompts / 35 prompt-matched answer observations / 0 source-absent answers / 0 practical or image / 0 teaching prompts**. Titles and instructions are not assessment occurrences. Printed wording, deprecated terminology and academically questionable answers remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The thirty-five prompts collapse source-first into four coherent handles. Every handle is already represented by concepts established in prior FHB-102-2 banks, so no genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Fungal eukaryotic structure, cell wall and membrane, morphology and classification | prior fungal structure and classification handles | prior-FHB-102-2 collapse |
+| Dimorphism and yeast-versus-mould growth forms and temperatures | prior fungal dimorphism and morphology handles | prior-FHB-102-2 collapse |
+| Mycological diagnosis by KOH, Gram, calcofluor, India ink, silver stain, latex antigen, Sabouraud culture, PCR and antibody | prior fungal diagnostic, culture and stain handles | prior-FHB-102-2 collapse |
+| Mycosis categories, mycotoxicosis, aflatoxin and hepatic carcinoma | prior mycosis classification/pathogenesis and mycotoxicosis handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, missing-answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This fourteenth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+35 questions / +35 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,440 | 1,401 | 60 | 0 | 0 | 60 | TBD |
+
+Removing the fourteen processed hashes leaves **82 selected inventory paths / 80 unique SHA-256s**. Their sorted-newline checksum is `a8e72221eda3102dfe7b14b504fa7c711038f285cbb7f569739a978cb56f9331`. Remaining audit-review debt is **34 substantive-text / 23 sparse-text / 12 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`14 + 80 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Infection control MCQs.pdf`, SHA-256 `885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03`, 12 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 82 selected inventory paths / 80 unique hashes remain untriaged.
