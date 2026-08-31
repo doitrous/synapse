@@ -101,9 +101,10 @@ const PROCESSED_FAMILY_HASHES = [
   '2e3a3d7c65258e266942eb43e69b3f748a9a1adda761184b9f3c9f60379d15a1',
   '79d7d18744b1f29557d8ce6bfc6948a37f4d0ce6ecec4ee6b6728446c106f2b3',
   'be89e24f14a2b580bbd8a4ba954f4bdfa482fa054e5ebc791e82001b60eead6e',
+  '160f09412500534a71cec2241c8b9d35ab03a8de5ed39409a84e529f87900c78',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = 'e03f959551db115e3fddceac5a191788dbb99e71e2d7e64c8d7ca456778bc123'
+const REMAINING_CHECKSUM = 'b2e50f0a114d59ba4937cbb94bfb577a3f9f96f06061dd924a646569eab53b7d'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -614,10 +615,16 @@ const NINETY_SECOND_SOURCE = {
   pages: 9,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const NINETY_THIRD_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/general antibacterial 1.pdf',
   sha256: '160f09412500534a71cec2241c8b9d35ab03a8de5ed39409a84e529f87900c78',
   pages: 29,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/general antibacterial 2.pdf',
+  sha256: '9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a',
+  pages: 15,
   sourceProcessed: false,
 }
 const SIXTY_NINTH_SOURCE = {
@@ -737,10 +744,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 2 }
+  const expected = { 'audit-not-found': 1 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/0-sparse/0-empty/2-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=0-substantive/0-sparse/0-empty/1-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -828,7 +835,7 @@ for (const value of [SIXTY_SEVENTH_SOURCE.relativePath, SIXTY_SEVENTH_SOURCE.sha
 for (const value of [SIXTY_EIGHTH_SOURCE.relativePath, SIXTY_EIGHTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
-for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE, SEVENTY_SIXTH_SOURCE, SEVENTY_SEVENTH_SOURCE, SEVENTY_EIGHTH_SOURCE, SEVENTY_NINTH_SOURCE, EIGHTIETH_SOURCE, EIGHTY_FIRST_SOURCE, EIGHTY_SECOND_SOURCE, EIGHTY_THIRD_SOURCE, EIGHTY_FOURTH_SOURCE, EIGHTY_FIFTH_SOURCE, EIGHTY_SIXTH_SOURCE, EIGHTY_SEVENTH_SOURCE, EIGHTY_EIGHTH_SOURCE, EIGHTY_NINTH_SOURCE, NINETIETH_SOURCE, NINETY_FIRST_SOURCE, NINETY_SECOND_SOURCE]) {
+for (const source of [SIXTY_NINTH_SOURCE, SEVENTIETH_SOURCE, SEVENTY_FIRST_SOURCE, SEVENTY_SECOND_SOURCE, SEVENTY_THIRD_SOURCE, SEVENTY_FOURTH_SOURCE, SEVENTY_FIFTH_SOURCE, SEVENTY_SIXTH_SOURCE, SEVENTY_SEVENTH_SOURCE, SEVENTY_EIGHTH_SOURCE, SEVENTY_NINTH_SOURCE, EIGHTIETH_SOURCE, EIGHTY_FIRST_SOURCE, EIGHTY_SECOND_SOURCE, EIGHTY_THIRD_SOURCE, EIGHTY_FOURTH_SOURCE, EIGHTY_FIFTH_SOURCE, EIGHTY_SIXTH_SOURCE, EIGHTY_SEVENTH_SOURCE, EIGHTY_EIGHTH_SOURCE, EIGHTY_NINTH_SOURCE, NINETIETH_SOURCE, NINETY_FIRST_SOURCE, NINETY_SECOND_SOURCE, NINETY_THIRD_SOURCE]) {
   for (const value of [source.relativePath, source.sha256]) {
     if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
   }
@@ -876,7 +883,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 92 || remainingHashes.length !== 2 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 93 || remainingHashes.length !== 1 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -884,7 +891,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 2 }
+const expectedRemainingDebt = { 'audit-not-found': 1 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -4146,6 +4153,47 @@ const provenance = {
       boundaryDisposition: 'pages 1-9 are declarative monobactam, carbapenem, vancomycin and bacitracin teaching/reference slides; the file begins directly with monobactam content and ends directly with bacitracin content, so there is no separate cover or closing page; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, and nine teaching-reference pages',
       preservedSourceDefects: ['the generic filename cell wall is retained as literal file provenance', 'printed spelling, grammar, product images, terminology and medically or academically questionable statements remain literal source truth without correction', 'numbered drug classes, mechanisms, uses, adverse effects and product images are declarative teaching structure rather than assessment prompts', 'metadata silence is retained without inventing lecturer, institution or authority', 'no answer is inferred and no teaching statement is converted into a question'],
     },
+    {
+      sha256: NINETY_THIRD_SOURCE.sha256,
+      sourcePages: 29,
+      renderedReadPages: '1-29',
+      printedPromptObservations: 0,
+      distinctAssessmentPrompts: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      capturedQuestionLabels: '',
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 28,
+      nonAssessmentCoverPages: 1,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      exactReplayPromptObservations: 0,
+      replayAnswerObservations: 0,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Antimicrobials chemotherapy title and lecturer credit', pages: '1', coverPages: 1, objectiveMcqPrompts: 0, writtenPrompts: 0, printedKeyObservations: 0, teachingReferencePages: 0 },
+        { section: 'Principles, spectrum, bactericidal or bacteriostatic concepts, sources, uses and general adverse effects', pages: '2-9', objectiveMcqPrompts: 0, writtenPrompts: 0, printedKeyObservations: 0, teachingReferencePages: 8 },
+        { section: 'Cell-wall classes and penicillin mechanism diagrams', pages: '10-13', objectiveMcqPrompts: 0, writtenPrompts: 0, printedKeyObservations: 0, teachingReferencePages: 4 },
+        { section: 'Penicillin preparations and beta-lactamase inhibitors', pages: '14-20', objectiveMcqPrompts: 0, writtenPrompts: 0, printedKeyObservations: 0, teachingReferencePages: 7 },
+        { section: 'Penicillin uses, adverse effects and clinical-image reference', pages: '21-25', objectiveMcqPrompts: 0, writtenPrompts: 0, printedKeyObservations: 0, teachingReferencePages: 5 },
+        { section: 'Cephalosporin generations, resistance and adverse effects', pages: '26-29', objectiveMcqPrompts: 0, writtenPrompts: 0, printedKeyObservations: 0, teachingReferencePages: 4 },
+      ],
+      sourceFirstHandleLabels: [],
+      replayDisposition: 'all twenty-eight content pages are fully revealed teaching and reference slides with no assessment prompt field; numbered definitions, drug classes, uses, adverse effects, diagrams and clinical images remain declarative teaching structure, so no prompt replay comparison is applicable and no teaching statement is reverse-engineered into a question',
+      authorityDisposition: 'metadata-silent PDF 1.7 teaching deck whose visible cover names Dr Mohamed Abdel Aziz; no authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears',
+      boundaryDisposition: 'page 1 is the Antimicrobials chemotherapy title-and-lecturer cover, and pages 2-29 are declarative antimicrobial principles, adverse effects, cell-wall inhibition, penicillin and cephalosporin teaching/reference slides; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, twenty-eight teaching-reference pages and one non-assessment cover page',
+      preservedSourceDefects: ['the generic lowercase filename is retained as literal file provenance', 'printed spelling, grammar, diagrams, clinical images, terminology and medically or academically questionable statements remain literal source truth without correction', 'numbered definitions, drug classes, uses, adverse effects, diagrams and clinical images are declarative teaching structure rather than assessment prompts', 'visible lecturer credit and metadata silence are retained without inventing institutional or assessment authority', 'no answer is inferred and no teaching statement is converted into a question'],
+    },
   ],
   partialSourceCoverage: [],
   triageCumulative: { printedPromptObservations: 5444, printedKeyObservations: 5211, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
@@ -4241,6 +4289,7 @@ const provenance = {
   ninetiethSourceCandidate: NINETIETH_SOURCE,
   ninetyFirstSourceCandidate: NINETY_FIRST_SOURCE,
   ninetySecondSourceCandidate: NINETY_SECOND_SOURCE,
+  ninetyThirdSourceCandidate: NINETY_THIRD_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
