@@ -25420,3 +25420,122 @@ while the exact-SHA local carrier is under `Pharmacology / Questions / MCQs`; it
 snippet is `parasympathetic self Assessment Dr Amr El Abd`. Full visible authority, prompt/key/
 image/practical boundary, four-search packets, prior-BMS reconciliation, arithmetic, and
 subsequent exact next debt remain to be separately adjudicated.
+
+## Family 251 — Dr Amr El Abd unkeyed parasympathetic self-assessment deck
+
+### Source identity, path discrepancy, exhaustive OCR/visual boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-3 `src_246d74bcfd26314a7bae` · `MCQs - Parasympathetic MCQ by Dr.Amr Elabd.pdf`, manifest path `Pharmacology / Practical` |
+| Exact-SHA local carrier | `/Users/doitrous/Desktop/helwan/Year 1/BMS 102/Pharmacology/Questions/MCQs/MCQs - Parasympathetic MCQ by Dr.Amr Elabd.pdf`. The manifest path is absent locally; the organized Questions/MCQs carrier has the required exact hash, size, and page count. This is a placement discrepancy, not a second source or content alias. |
+| SHA-256 / exact size | `246d74bcfd26314a7baef31804c9663e850b214e2a38cd93aacbefe631ea6490` · **2,071,748 bytes** |
+| Format / exhaustive read | **34 OCR-needed landscape A4 pages**, each 841.92×595.32 points. All 34 pages were rendered at 130 dpi into 34 non-empty 1521×1075-pixel images, read individually, and reviewed again in nine ordered contact sheets. Native extraction has only **3 words / 49 bytes**; page-image OCR produced **1,102 words / 7,482 bytes** and was checked against every original render. There is no form, JavaScript, encryption, hidden key, or response layer. |
+| Visible provenance | Page 1 visibly reads `parasympathetic self Assessment Dr Amr El Abd`; page 34 visibly closes with `Dr Amr El Abd`; page footers repeat `Dr Amr El Abd` and `02/06/2021`. Several pages carry a script `DR AMR` watermark. No page visibly names Helwan University, a faculty, BMS-102, an exam sitting, candidate, marks, duration, examiner directions, or departmental approval. |
+| Metadata caution | Metadata author `amr elsayed shehata elabd` corroborates the visible instructor name; Microsoft Word creation/modification on 2 June 2021 is consistent with the visible footer date. The date establishes the deck's visible production/version context, not an administered sitting or academic-year authority. |
+| Authority | Instructor-attributed dated **self-assessment/revision deck** in the Helwan BMS-102 corpus. It is eligible low-authority auxiliary question evidence, not an authenticated Helwan exam, official departmental key, or performed practical. |
+
+### Complete page-first prompt, key, image, teaching, and practical boundary
+
+| Physical pages | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 | Title, instructor, and date/footer | Provenance only; **0 prompts / 0 answers**. |
+| 2–8 | Seven MCQs: carbachol muscarinic/nicotinic and hydrolysis; dry-mouth drug; choline-ester uses exception; reversible-anticholinesterase exception; pilocarpine use; matched parasympathomimetic action; methacholine/asthma incorrect statement | **7 unkeyed text MCQ occurrences**. Page 5 preserves the source's apparent neostigmine self-comparison/BBB wording anomaly. Pages 3 and 6 test the same pilocarpine/dry-mouth proposition. |
+| 9–15 | Seven MCQs: organophosphate manifestations; poisoning mechanism; cause of death; emergency-drug exception; atropine-treatment endpoints; pralidoxime; therapeutic-use matching | **7 unkeyed text MCQ occurrences**. The farmer vignette is an objective text question, not a practical station. |
+| 16–23 | Eight MCQs: atropine action; two identical general-action-exception slides; two identical eye-action-exception slides; cardiovascular effect; therapeutic-use exception; contraindication | **8 unkeyed text MCQ occurrences**. Pages 17/18 and 19/20 are two exact same-source replay pairs. |
+| 24–31 | Eight MCQs: atropine-substitute matching; two related but non-identical parasympatholytic comparison sets; two identical parasympatholytic comparison slides; atropine correct statement; contraindication; benztropine/Parkinsonism | **8 unkeyed text MCQ occurrences**. Pages 27/28 are an exact replay pair. Pages 22, 29, and 30 all test the atropine/glaucoma use-contraindication proposition. Pages 25/26 remain distinct because their option sets and comparison operations differ. |
+| 32–33 | Atropine preanaesthetic action exception; why hyoscine is a better preanaesthetic | **2 unkeyed text MCQ occurrences**. |
+| 34 | Scenic closing slide and instructor name | Closing/provenance only. |
+
+The exhaustive source-local boundary is **32 raw prompt occurrences = 32 text MCQs**, with **0
+source-supplied answers / 32 unkeyed prompts**. There are **0 written-response prompts, 0 drawings,
+0 image-identification operations, 0 authenticated practical stations, 0 candidate responses, 0
+standalone answer reveals, and 0 prompt-like residues**. The script `DR AMR` is a repeated
+instructor watermark, not an answer selection. No answer is inferred from medical knowledge,
+typography, option order, title colour, or prior keyed sources. All wording and source anomalies are
+preserved without correction or endorsement.
+
+### Retention, 26-handle registry, 104-search completion, and prior-BMS reconciliation
+
+All **32** prompt occurrences remain retained records. Six semantic reductions preserve every
+occurrence while preventing proposition double counting: pages 3/6 (pilocarpine/dry mouth), 17/18
+(identical atropine-action replay), 19/20 (identical atropine-eye replay), 27/28 (identical
+parasympatholytic replay), and the three glaucoma variants on pages 22/29/30 (two reductions).
+Thus **`32 retained - 6 semantic reductions = 26 accepted source-distinct handles`**.
+
+| Source pages | Accepted source-first handles |
+|---|---|
+| 2–8 | `carbachol-muscarinic-nicotinic-cholinesterase-resistant`; `pilocarpine-dry-mouth-use` (pp.3,6); `choline-esters-therapeutic-uses-except-bradycardia`; `reversible-anticholinesterase-neostigmine-bbb-exception`; `bethanechol-intraocular-pressure-action-mismatch`; `methacholine-asthma-use-incorrect` |
+| 9–15 | `organophosphate-manifestations-decreased-secretions-exception`; `organophosphate-toxicity-decreased-acetylcholine-wrong`; `organophosphate-death-respiratory-failure-hypotension`; `organophosphate-emergency-drugs-except-physostigmine`; `atropine-organophosphate-therapy-endpoints-except`; `pralidoxime-cholinesterase-reactivator`; `parasympathomimetic-use-match-parathion-poisoning` |
+| 16–23 | `atropine-tachycardia-av-conduction-action`; `atropine-actions-except-parkinsonism-antiemesis` (pp.17,18); `atropine-eye-actions-duration-exception` (pp.19,20); `atropine-cardiovascular-tachycardia-no-bp-change`; `atropine-glaucoma-use-contraindication` (pp.22,29,30); `atropine-contraindicated-bph` |
+| 24–33 | `atropine-substitutes-tropicamide-glaucoma-mismatch`; `parasympatholytic-atropine-hyoscine-thyrotoxic-comparison`; `parasympatholytic-hyoscine-pirenzepine-comparison`; `parasympatholytic-glaucoma-ipratropium-emepronium-comparison` (pp.27,28); `benztropine-parkinsonism-use`; `atropine-preanaesthetic-actions-except-gut-motility`; `hyoscine-better-preanaesthetic-no-tachycardia` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written state, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102
+Families 1–250: **`26 × 4 = 104 required and completed searches`**. Each packet used the
+source-first handle, distinctive stem/proposition, terminal or option phrase, and drug/topic or
+prior-handle variant. No live, import-ready, or pending Helwan carrier duplicates this exact
+object; external matches do not alter source occurrence retention.
+
+Exactly **17** handles reuse accepted prior BMS assessment scope: carbachol's nicotinic profile;
+pilocarpine/dry mouth; physostigmine-versus-neostigmine BBB penetration; methacholine/asthma;
+organophosphate manifestations; reduced-acetylcholine mechanism error; emergency poisoning
+regimen; pralidoxime/oxime reactivation; atropine cardiac tachycardia/conduction; tachycardia with
+minimal blood-pressure change; atropine/glaucoma; atropine/BPH; the atropine-versus-hyoscine
+thyrotoxic comparison; the related hyoscine/pirenzepine set; the glaucoma/ipratropium/emepronium
+comparison; atropine's preanaesthetic actions; and hyoscine's preanaesthetic/tachycardia advantage.
+These reconcile principally to Families 223, 237, 240, and 241. The other **9** handles have no
+accepted prior BMS question at the same tested scope. Therefore concept arithmetic is **`26 - 17
+= +9`**.
+
+### Family-251 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 251 | Auxiliary cumulative (Families 12–251) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 32 MCQ | 3,123 | 762 | 3,885 |
+| Eligible source-supplied answers | 0; 32 unkeyed | 2,125 | 405 | 2,530 |
+| Retained eligible question records | 32 | 2,827 | 552 | 3,379 |
+| Accepted handles / required searches | 26 / 104 | 2,537 / — | — | — |
+| Prior-BMS handle reuses | 17 | — | — | subtract before concept addition |
+| Cross-family concept delta | +9 | +1,319 over primary | 372 | 1,691 |
+| **Distinct tested concepts** | **26 source-local / +9** | **1,319 additions** | **372** | **1,691** |
+
+The checksum closes: **32 prompts = 0 answers + 32 unkeyed**; **32 raw - 0 literal exclusions =
+32 retained**; **32 retained - 6 semantic reductions = 26 handles**; **26 × 4 = 104 searches**;
+and **26 handles - 17 prior reuses = +9 concepts**. Auxiliary arithmetic is `3,091 + 32 =
+3,123` prompts, `2,125 + 0 = 2,125` answers, `2,795 + 32 = 2,827` retained, `2,511 + 26
+= 2,537` handles, and `1,310 + 9 = 1,319` concept additions. All eligible arithmetic is `762
++ 3,123 = 3,885`, `405 + 2,125 = 2,530`, `552 + 2,827 = 3,379`, and `372 + 1,319 =
+1,691`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,123 prompts / 2,125 answers /
+2,827 retained / 2,537 handles / +1,319 concepts**. All eligible becomes **3,885 / 2,530 /
+3,379 / 1,691**. Family 251 establishes instructor-attributed unkeyed self-assessment evidence
+only, not an official exam, authenticated sitting, departmental key, practical station,
+recurrence, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 251
+
+`src_246d74bcfd26314a7bae` is exhausted across all 34 rendered/OCR'd/original-detail pages: every
+visible and metadata provenance field, path discrepancy, stem, option, replay, unkeyed state,
+watermark, search packet, prior-family relation, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-251 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 251
+governs **1 selected path / 1 unique hash**. The governed set through Family 251 is therefore
+**316 paths / 305 unique hashes**, leaving exactly **46 ungoverned selected paths / 43 unique
+hashes**. Checksums are **316 + 46 = 362 paths** and **305 + 43 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`cac8b084866f136c4844f1936ddd71c88a6f42888cb486a19b90c53996249efd`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`ee286d19a0d6446194172c0b5db0d17db888f1634bc230eb725b2a520e23c9ff`. The remaining set has zero
+hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_fe2395858a742cfa5fc9` ·
+`College MCQsquestions_autonomic.pdf`, SHA-256
+`fe2395858a742cfa5fc9fb5f2074be62bbfa42f42f7275d0ccd78f00de71f5b7`, **291,724 bytes**,
+**2 native-text portrait A4 pages** under `Pharmacology / Questions`. Its first page begins a
+drug/mechanism cross-match, a clinical-state/drug cross-match, and written `Give reason` prompts.
+Full visible authority, objective/written/key/image/practical boundary, four-search packets,
+prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
+adjudicated.
