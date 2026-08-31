@@ -22239,3 +22239,99 @@ with the same filename. It remains unclassified until all seven pages are render
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 18 tier-6/rank-9 path debts remain.
 No download, source edit, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 213 — Tier-6 named skeletal-muscle Histology teaching lecture
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_7a3c10dd61c432c91fe9` / `7a3c10dd61c432c91fe9b510dd8ce29974dc39b1507203f40aa299c435caeecf` |
+| Manifest / resolved local path | `Year 1/LCS 103/Histology/Notes and Summaries/histo lecture 4.pdf`; the existing exact-hash local file is `Year 1/LCS 103/Histology/Theoretical/histo lecture 4.pdf` |
+| Physical verification | **1,375,390 bytes; seven native-text A4 pages; tagged; unencrypted; no form; PDF 1.7**. Full hash, size, page count and geometry match. All seven pages were rendered at 200 dpi to seven distinct images, inspected completely and read at original resolution; native extraction was checked page by page. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | Page 1 visibly prints `LEC 4`, `Skeletal Muscles`; all pages carry `Histology`, `Muscles` and `DR. Shaaban / spider medicine`. Metadata names `Mahmoud Yasser Elatawy` as author and records 23 April 2026 creation/modification. No page names Helwan, an institution, module 103, cohort, exam, sitting, marks or official key. |
+| Authority finding | Named teaching-summary evidence with topical LCS fit, but no eligible Helwan assessment authority. |
+
+The complete seven-page boundary is:
+
+| Page | Complete supplied composition |
+|---:|---|
+| 1 | muscle origin/development, fibre terminology and comparison of skeletal, cardiac and smooth muscle |
+| 2 | skeletal-muscle sites, prenatal myotube formation, satellite cells, repair/regeneration and supplied developmental diagrams |
+| 3 | epimysium/perimysium/endomysium organization, supplied diagrams and labelled longitudinal/transverse light-microscopy fields |
+| 4 | sarcoplasm contents and myofibril bands through the I band, Z line, A band and accessory proteins |
+| 5 | M line plus supplied labelled electron-microscopy, band and relaxed/contracted sarcomere illustrations |
+| 6 | sarcomere definition/contraction changes, accessory proteins and the T-tubule/terminal-cisternae triad system |
+| 7 | skeletal-muscle fibre types and completed white-fast-glycolytic versus red-slow-oxidative comparison |
+
+All headings, tables, arrows, histology labels and diagram callouts are supplied teaching
+content. There is no question stem, command, learner answer area, option set, written task or
+answer key. Page 7 contains exactly **three dash-only teaching cells**: glycogen/myoglobin
+level, mitochondria-number basis, and the white-fibre reason-for-colour cell. They are
+incomplete teaching-table states, not learner-directed blanks. Exact assessment delta is
+therefore **0 eligible prompts / 0 external prompts / 0 ordinary MCQs / 0 written prompts / 0
+keys-or-answers / 0 unkeyed prompts**.
+
+Source truth remains literal and unrepaired, including `Undeferentiated`, page 2's
+`attached to the skeleton, Cylindrical not branched EXCEPT at:` construction, page 4's
+printed titin/dystrophin descriptions, the `A-l band junction`, `sarcomere has 2 triads`,
+and every dash-only cell. Inventory records rather than medically repairs or endorses those
+states.
+
+### Practical and image boundary
+
+The source includes developmental diagrams, supplied labelled muscle micrographs,
+sarcomere electron-microscopy fields and completed fibre/band diagrams. None is masked,
+numbered for identification, paired with a learner command or presented as a station. Exact
+practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0
+practical teaching scopes**. The three page-7 dash states are theoretical teaching residues
+only and do not enter the practical residue ledger.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The teaching content collapses source-first to six complete theoretical handles:
+
+| Handle / pages | One query on each required surface | Reconciliation |
+|---|---|---|
+| skeletal-muscle development, myoblasts/myotubes, satellite cells and regeneration · 1–2 | skeletal muscle myoblast myotube satellite cell regeneration | prior-LCS theoretical reuse |
+| epimysium, perimysium, endomysium and longitudinal/transverse LM appearance · 3 | skeletal muscle epimysium perimysium endomysium peripheral nuclei striations | prior-LCS theoretical reuse |
+| sarcoplasm, myofibrils, bands/lines and accessory proteins · 4–6 | sarcoplasm myofibril I band A band Z line H zone M line titin dystrophin alpha-actinin myomesin | prior-LCS theoretical reuse |
+| sarcomere structure and contraction changes · 5–6 | sarcomere contraction I band A band H zone actin myosin sliding filament | prior-LCS theoretical reuse |
+| T-tubules, terminal cisternae, triads and sarcoplasmic reticulum · 6 | T-tubule terminal cisternae triad sarcoplasmic reticulum | prior-LCS theoretical reuse |
+| slow-oxidative, fast-glycolytic and intermediate fibre types · 7 | slow oxidative fast glycolytic myoglobin mitochondria glycogen capillaries | prior-LCS theoretical reuse |
+
+Each of the **six accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **6 x 4 =
+24 required search invocations**. Live file-match counts were **1 / 1 / 5 / 14 / 0 / 2**;
+pending/import-ready and prior-source counts were all **0**; all six accepted-LCS searches
+matched. Complete-scope comparison gives **6 prior-LCS theoretical reuses / 0 additive live /
+0 additive pending / 0 additive new teaching scopes**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,451 prompts / 7,175 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 213's
+assessment and practical deltas are entirely zero.
+
+Removing this source's sole path and unique hash changes the remainder from **18 paths / 17
+unique hashes** to **17 paths / 16 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**9 paths / 9 unique hashes within tier**, and rank 9 remains **8 paths / 7 unique hashes
+within rank**. Family 212's checksums were
+`0c507891ee15c00a9eaaa2b9ea78cd0ffb1033629fe51e5d4adf74e3f980b27c` (paths) and
+`12b74515e918350b39c4660073098227dfa8da8488f911392eb141cadaf25bab` (unique hashes).
+For the exact post-Family-213 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`a89b274bc1c57daf4b450a80ec3043899af00395fd873ca96f77828f42e2751e`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`9cc41f47cd6115410e1937d667a630275fe8049083b141a7f079fa86243e440e`.
+
+The exact next manifest-order debt is tier-6 `src_f9349fe7df2a7ce9b655`,
+`Year 1/LCS 103/Histology/Notes and Summaries/histo5.pdf` (1,652,598 bytes; eight
+native-text A4 pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
+`f9349fe7df2a7ce9b655c218d869b3ffb737e942929776dde6f99d98d42de0dd`). It remains
+unclassified until all eight pages are rendered and read. **Overall LCS-103 remains `S1
+TRIAGE — NOT APPROVED`:** 17 tier-6/rank-9 path debts remain. No download, source edit, ID,
+content record, catalogue update, import or source copy was created.
