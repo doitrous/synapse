@@ -27941,3 +27941,106 @@ ORB Reader, records 2014 creation and 2015 modification, and declares an AcroFor
 JavaScript or encryption. Its exact visible authority, complete prompt/key/written/image/practical
 boundary, form reality, source-local/prior collapse, external/eligible gate, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
+
+## Family 274 — Babbini/Thomas 2015 USMLE-style pharmacology test-prep book (external published reference)
+
+### Source identity, exhaustive 504-page native/rendered boundary, form reality, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest / local carrier | Tier-9 `src_d71a0c43562136594534` · `MCQs - Pharmacology mcq test.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `d71a0c435621365945342887d58cfa35c1d62fce9dba1c6c8347bd51c70eaf58` · **15,908,763 bytes** |
+| Format / exhaustive visual-native boundary | **504 native-text portrait 1224×1582-point pages, PDF 1.6**. All 504 pages were rendered into 504 non-empty page images and inspected in 21 ordered contact sheets; cover/title/copyright/contents/preface, every question/answer transition, chapter key, graph/table stimulus, explanation page, terminal key, and blank leaf were checked against coherent layout-preserving native extraction. Extraction yields **579,044 words / 3,316,068 bytes**. Physical pages 1–12 are cover/blank/half-title/blank/title/copyright/four contents pages/preface/blank; physical pages 13–503 reproduce printed pages 1–491; physical page 504 is blank. No page, crop, prompt, key, or terminal remainder exists. |
+| Visible publication provenance | Cover/title/copyright identify **`Pharmacology Test Prep: 1500 USMLE-Style Questions & Answers`**, authors **Mario Babbini, MD, PhD** (Professor, Department of Pharmacology, Ross Medical School) and **Mary Thomas, PhD** (Professor Emeritus, Department of Pharmacology, University of Texas Medical Branch at Galveston), publisher **Thieme**, ISBN 978-1-62623-041-5, and copyright **2015**. The preface is signed by both authors and describes a USMLE-guideline test-prep book containing over 1,500 questions. No Helwan, BMS-102, local instructor, sitting, candidate, marks, or departmental approval appears. |
+| Metadata caution | Metadata title agrees with the visible book title; Creator is ORB Reader, Producer is Mac OS X 10.9.5 Quartz, and carrier creation/modification are 2014/2015. These carrier fields do not alter the visibly published authorship and 2015 edition. |
+| AcroForm / image-object reality | The catalog declares an AcroForm, but qpdf reports **`fields: []`**, `hasacroform: true`, and `needappearances: false`: there is no learner field or stored response. No JavaScript or encryption exists. Image enumeration finds the raster cover on physical page 1 and a title/brand graphic on page 3 only; the 491 printed content pages contain no raster image object. Native vector curves, plots, and tables embedded in some questions remain data stimuli, not photographs, specimen plates, hidden keys, or practical stations. |
+| Authority / eligibility | Affirmatively external commercially published USMLE-style pharmacology test-prep book. Local Helwan-folder placement cannot convert it into a Helwan assessment. It is retained as source, format, and comparison evidence but excluded from primary, auxiliary, and all-eligible Helwan totals under the standing external-source rule. |
+
+### Complete section, objective/answer, teaching, written, image, and practical boundary
+
+| Physical / printed pages | Published section boundary | Exact keyed one-best-answer MCQs |
+|---:|---|---:|
+| 1–12 / front matter | Cover, half-title, title/copyright, contents, preface, blank leaves | **0**; publication/structural teaching matter only |
+| 13–42 / 1–30 | Section I, `General Principles of Pharmacology`: questions then answers/explanations | **90** |
+| 43–88 / 31–76 | Section II, `Autonomic Nervous System`: questions then answers/explanations | **150** |
+| 89–202 / 77–190 | Section III, `Central Nervous System`: questions then answers/explanations | **393** |
+| 203–278 / 191–266 | Section IV, `Cardiovascular and Renal Systems`: questions then answers/explanations | **240** |
+| 279–344 / 267–332 | Section V, `Endocrine System`: questions then answers/explanations | **218** |
+| 345–374 / 333–362 | Section VI, `Respiratory, Gastrointestinal, and Hematopoietic Systems`: questions then answers/explanations | **106** |
+| 375–411 / 363–399 | Section VII, `Inflammation and Immunomodulation`: questions then answers/explanations | **130** |
+| 412–503 / 400–491 | Section VIII, `Chemotherapeutic Drugs`: questions then answers/explanations and terminal key | **309** |
+| 504 / terminal leaf | Blank | **0** |
+
+The exact source-local checksum is **1,636 keyed MCQ occurrences = 90 + 150 + 393 + 240 + 218
++ 106 + 130 + 309**. The title's `1500` is a rounded marketing label; the preface itself says
+`over 1500`, and the full difficulty-label/question inventory closes at **1,636**. Every item is a
+published one-best-answer MCQ, usually with five choices and occasionally six or seven, and every
+item has a source-supplied chapter answer-key entry, correct-answer explanation, distractor
+discussion, difficulty level, and learning objective. Thus the carrier supplies **1,636 answers /
+0 unkeyed prompts**. Answer keys, explanations, and learning objectives are answer/teaching layers
+of the same 1,636 prompts—not second question occurrences.
+
+There are **0 free-response written operations, 0 True/False items, 0 matching operations, 0
+completion blanks, 0 drawings, 0 raster/image-object assessment prompts, 0 authenticated
+practical stations, 0 candidate responses, and 0 prompt-like residues**. Native vector plots,
+concentration-time curves, dose-response curves, and typographic tables are integral data stimuli
+inside their one-best-answer MCQs; they do not disclose a diagnosis, create a separate image
+question, or authenticate an OSPE/practical station. Front matter, preface, contents, section and
+chapter titles, chapter keys, learning objectives, and explanations are structural or teaching
+context. Published wording and answers remain source truth without silent clinical correction or
+Helwan endorsement.
+
+### External-authority zero gate, replay ruling, searches, and eligible arithmetic
+
+Authority resolves before eligible semantic retention. All **1,636 source-local prompts / 1,636
+source-local answers** belong to the visibly authored Babbini/Thomas/Thieme 2015 book, with no
+affirmative Helwan counterevidence. The complete pharmacology scope was reviewed against prior BMS
+evidence, but excluded external occurrences cannot create an eligible same-source handle, prior
+reuse, answer addition, or concept addition. Consequently **0 eligible retained records and 0
+accepted handles** survive. The exact four-search gate is **`0 accepted handles × 4 = 0 required
+and completed searches`**; no artificial 6,544-query packet or synthetic reuse inventory is
+created. Prior-BMS eligible reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 274 eligible delta | Auxiliary cumulative (Families 12–274) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+The eligible checksum closes at zero: external **1,636 / 1,636** does not enter Helwan arithmetic.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 274 establishes external published USMLE-style MCQ, answer, explanation,
+learning-objective, vector-data-stimulus, and empty-form evidence only—not a Helwan exam, official
+Helwan key, authenticated practical, recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 274
+
+`src_d71a0c43562136594534` is exhausted across all 504 native/rendered pages: every publication
+marker, contents entry, question, option, difficulty label, vector/table stimulus, answer-key cell,
+explanation, learning objective, form limitation, blank leaf, authority term, metadata field, zero
+gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-274
+blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 274
+governs **1 selected path / 1 unique hash**. The governed set through Family 274 is therefore
+**339 paths / 328 unique hashes**, leaving exactly **23 ungoverned selected paths / 20 unique
+hashes**. Checksums are **339 + 23 = 362 paths** and **328 + 20 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`0ae86f7252e3bdecbde393ec503d40c3cd5977006cb9c32cfad231e76bfdf9b0`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`d906a591485865c24c68b60beacb0b40072e77c9daa7c29f51dbdb018b527988`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 selected-path record is tier-9 `src_cb6b50b3ccefb1576eb5` ·
+manifest `MCQs - general Pharma MCQ 2022.pdf`, SHA-256
+`cb6b50b3ccefb1576eb514ea0d757246db57a5b1162cdf90e3e7fa7cfe24112f`, **765,647 bytes**,
+**13 OCR-needed portrait pages** under `Pharmacology / Questions / MCQs`. It is an exact-SHA alias
+of the locally present preferred-name carrier `MCQs - KASR Pharma MCQ 2022.pdf`, already exhausted
+as Family 258. Its separate selected-path/duplicate-carrier reconciliation, zero-second-content
+arithmetic, and subsequent exact debt remain to be recorded without re-counting its 97 external
+questions or key.
