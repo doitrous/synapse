@@ -1072,3 +1072,29 @@ Removing the twenty-five processed hashes leaves **71 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - FHB102 FINAL REVISION 2025.pdf`, SHA-256 `eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8`, 52 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 71 selected inventory paths / 69 unique hashes remain untriaged.
+
+## Completed source — FHB102 FINAL REVISION 2025
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - FHB102 FINAL REVISION 2025.pdf` | `eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8` | 52 | sparse-text | pages 1–52 rendered and read | Official MUST College of Medicine `Microbiology & Immunology department` `Final Practical Revision` deck for FHB102-2, visibly authenticated by university, college and department branding. This is high-authority departmental teaching/revision evidence, not an exam sitting, question paper or answer key. |
+
+### Exact assessment, practical, image and teaching boundary
+
+Page 1 is the official title slide and page 2 is the institutional vision/mission slide. Pages 3–17 are fifteen fully labelled PPE, sharps, waste-segregation and hand-hygiene reference slides. Pages 18–30 are thirteen fully labelled microscopy, bacterial-morphology and staining reference slides. Pages 31–51 are twenty-one fully labelled culture-media, colony, sterilization and disinfection reference slides. Page 52 is a `GOOD LUCK` closer.
+
+The labels are already-revealed teaching content rather than image-identification prompts or prompt→reveal pairs. The exact boundary is therefore **0 objective prompts / 0 written prompts / 0 practical or image assessment prompts / 0 prompt-matched answer observations / 0 source-absent answers / 49 teaching-reference slides**. The filename year 2025 and `Final Practical Revision` title are preserved without inferring an exam sitting, and no questions or keys are reverse-engineered from teaching labels.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+No assessment prompt is printed, so there is **0 source-first assessment handle / 0 accepted handle / 0 searches**. The exactly-four-search gate does not trigger. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-sixth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **2,557 questions / 2,401 answers / 62 concepts**.
+
+Removing the twenty-six processed hashes leaves **70 selected inventory paths / 68 unique SHA-256s**. Their sorted-newline checksum is `49e5c3ece78c05e0b305f433c1ac63ac1e5a6f7b1e015463a6db664554e780a0`. Remaining audit-review debt is **29 substantive-text / 18 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`26 + 68 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - General Characteristics of Medically Important Bacteria (Final).pdf`, SHA-256 `7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072`, 1 page, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 70 selected inventory paths / 68 unique hashes remain untriaged.

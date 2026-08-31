@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "b04ed79ab34cda12d732f9f796365552fe64366b071ff0bb5e3623bbe4ecdb9b",
-    "triageMarkdown": "31c213384266913bdc63ff953c58c9ae79e14105248ac4742bcad3d0c0013538"
+    "readinessMarkdown": "f38ff17eef886d84071f789b9539dbdf7d52dba1bce42facddb697b21676ecde",
+    "triageMarkdown": "dabb3f1f720ad95c499ae892b1e0eaaf301c0044a441ebde79cd258b99ff20f9"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -93,9 +93,10 @@
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
+      "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 25
+    "uniqueSha256": 26
   },
   "completedSourceCoverage": [
     {
@@ -1531,6 +1532,77 @@
         "case stems and conventional items that test the same concept remain separate physical prompt occurrences",
         "printed wording, simplified clinical claims and academically questionable answer tokens remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
+      "sourcePages": 52,
+      "renderedReadPages": "1-52",
+      "coverPages": [
+        1
+      ],
+      "institutionalTeachingPages": [
+        2
+      ],
+      "labelledTeachingReferencePages": "3-51",
+      "closingPages": [
+        52
+      ],
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferenceSlides": 49,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Institutional title and vision/mission",
+          "pages": "1-2",
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "PPE, sharps, waste segregation and hand hygiene",
+          "pages": "3-17",
+          "labelledReferenceSlides": 15,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Microscopy, bacterial morphology and staining",
+          "pages": "18-30",
+          "labelledReferenceSlides": 13,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Culture media, colonies and sterilization/disinfection equipment",
+          "pages": "31-51",
+          "labelledReferenceSlides": 21,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Good-luck closer",
+          "page": 52,
+          "assessmentPrompts": 0
+        }
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "official MUST College of Medicine Microbiology & Immunology department Final Practical Revision deck for FHB102-2, authenticated by visible university, college and department branding; high-authority departmental teaching/revision evidence, but not an exam sitting, question paper or answer key",
+      "boundaryDisposition": "page 1 is the official title, page 2 is institutional vision/mission, pages 3-51 are forty-nine fully labelled practical-reference teaching slides, and page 52 is a good-luck closer; labels are already-revealed teaching content rather than identification prompts, so the source contributes zero assessment prompts, zero answer observations, zero written prompts and zero practical/image assessment prompts",
+      "preservedSourceDefects": [
+        "the filename year 2025 and Final Practical Revision title are preserved without inferring an exam sitting",
+        "fully revealed labels are not reverse-engineered into questions or keys",
+        "the departmental authority supports teaching provenance only, not an authenticated assessment or answer-key claim"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1691,21 +1763,27 @@
     "pages": 12,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentySixthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - FHB102 FINAL REVISION 2025.pdf",
     "sha256": "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
     "pages": 52,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - General Characteristics of Medically Important Bacteria (Final).pdf",
+    "sha256": "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
+    "pages": 1,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 71,
-    "uniqueSha256": 69,
-    "sortedNewlineSha256": "0c3b43f8f876c4b3d60979d53532ea8d2fb8aca511776d1f06bfa89a3e484663",
+    "inventoryMetadataRows": 70,
+    "uniqueSha256": 68,
+    "sortedNewlineSha256": "49e5c3ece78c05e0b305f433c1ac63ac1e5a6f7b1e015463a6db664554e780a0",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 10,
-      "sparse-text": 19,
+      "sparse-text": 18,
       "substantive-text": 29
     }
   },
@@ -1713,13 +1791,13 @@
     "audit-extract-failed": 2,
     "audit-not-found": 11,
     "empty-text": 10,
-    "sparse-text": 19,
+    "sparse-text": 18,
     "substantive-text": 29
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 25,
-    "remainingUniqueSha256": 69,
+    "processedUniqueSha256": 26,
+    "remainingUniqueSha256": 68,
     "processedPlusRemaining": 94
   }
 }
