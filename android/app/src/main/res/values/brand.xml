@@ -1,5 +1,5 @@
 <!-- res/values/brand.xml -->
 <resources>
     <!-- The mark is drawn for a light ground; color-paper is that ground. -->
-    <color name="brand_launcher_background">#F5F7FB</color>
+    <color name="brand_launcher_background">#FFFFFF</color>
 </resources>

@@ -1,4 +1,33 @@
 <!-- res/drawable/ic_launcher_foreground.xml -->
-<inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/brand_mark"
-    android:inset="26%" />
+<!-- The Noon Dot mark, scaled from its 64x64 canonical geometry into the
+     adaptive icon's centre 66x66 safe zone (scale 66/64, offset 21dp on
+     each side of the 108x108 viewport). Ring and bowl are open circle/arc
+     strokes built from Android vector path arcs (same `A`/`a` syntax as
+     the source SVG); the dot is a filled circle built from two half-circle
+     arcs, the usual vector-drawable idiom for a stroke-free disc. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ring -->
+    <path
+        android:pathData="M24.09375,54 A29.90625,29.90625 0 1,0 83.90625,54 A29.90625,29.90625 0 1,0 24.09375,54"
+        android:strokeColor="#C4D9F7"
+        android:strokeWidth="2.0625"
+        android:fillColor="#00000000" />
+
+    <!-- bowl -->
+    <path
+        android:pathData="M40.18125,43.4296875 A18.046875,18.046875 0 1,0 67.81875,43.4296875"
+        android:strokeColor="#1553B3"
+        android:strokeWidth="9.28125"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- dot -->
+    <path
+        android:pathData="M47.8125,50.390625 a6.1875,6.1875 0 1,0 12.375,0 a6.1875,6.1875 0 1,0 -12.375,0"
+        android:fillColor="#D13A63" />
+</vector>
