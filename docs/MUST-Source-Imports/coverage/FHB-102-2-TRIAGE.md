@@ -2660,3 +2660,29 @@ Removing the eighty-seven processed hashes leaves **7 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Chemotherapy lect 1.pdf`, SHA-256 `946d9eb2059efd759a36734b923702547f2345410a78a5c6e9414f7a37cd37df`, 26 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 7 selected inventory paths / 7 unique hashes remain untriaged.
+
+## Completed source — `Chemotherapy lect 1`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Chemotherapy lect 1.pdf` | `946d9eb2059efd759a36734b923702547f2345410a78a5c6e9414f7a37cd37df` | 26 | audit-not-found | pages 1–26 rendered and read | iOS 17.6.1 Quartz PDF capture titled `Chemotherapy lect 1`, passed through a `pdftopdf` filter. The file and visible slides identify no authenticated MUST platform, institution, department, module, lecturer, examiner, sitting, marks scheme or faculty-key declaration. |
+
+### Exact boundary and answer state
+
+Pages 1–4 cover antimicrobial chemotherapy definitions, targets and mechanisms. Pages 5–7 cover bacterial cell walls and cell-wall or membrane inhibition. Pages 8–12 cover protein-synthesis inhibition and antibacterial classes; page 13 covers nucleic-acid synthesis inhibition; pages 14–15 cover folate-pathway inhibition and TMP-SMX sequential blockade; page 16 summarizes bactericidal, bacteriostatic and spectrum concepts. Page 17 is the general adverse-effect section title; pages 18–19 cover gastrointestinal, allergy and blood adverse effects; pages 20–23 cover bacterial-flora effects and superinfection; pages 24–25 cover pseudomembranous colitis; and page 26 covers nephrotoxicity. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 26 teaching-reference pages**.
+
+Numbered mechanisms, adverse-effect categories, section-title slides, diagrams and image-only teaching pages remain declarative teaching structure rather than assessment fields. No answer is inferred and no list item, diagram or clinical image is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This eighty-eighth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-eight processed hashes leaves **6 selected inventory paths / 6 unique SHA-256s**. Their sorted-newline checksum is `dcee0bd3b8e8d28b1abb0ddff19d4e37023dba037b1083d6ede929ea43d4e575`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 6 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`88 + 6 = 94`** and path accounting is **`90 + 6 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 1 (By Ezzeldin).pdf`, SHA-256 `e703dc230fcd16a3d4733d30b7babe17e7ff6e0f8d239d14e3f67c53b2e1ef2e`, 29 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 6 selected inventory paths / 6 unique hashes remain untriaged.

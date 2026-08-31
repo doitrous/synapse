@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "53ce8c56d9b445394e73d37d697d46c0327b783e594d00dd9c03f5a592475c04",
-    "triageMarkdown": "11d9c86e6c87de48686e91e752a4e7e4d8d2edb841b5d785c682ddb1c22f789c"
+    "readinessMarkdown": "7125eff17a8f44b0db420afe62b14c8edf1916740507a11de5302192d07167d7",
+    "triageMarkdown": "87c5aef2e5cfedf946ae6d9ae4198d5ba2fd4a9c6756b011e20ebb5f92543621"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -119,6 +119,7 @@
       "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
+      "946d9eb2059efd759a36734b923702547f2345410a78a5c6e9414f7a37cd37df",
       "95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42",
       "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
       "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
@@ -157,7 +158,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 87
+    "uniqueSha256": 88
   },
   "completedSourceCoverage": [
     {
@@ -5588,6 +5589,133 @@
         "the absence of visible identifying provenance and metadata is retained without inventing lecturer, institution or authority",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "946d9eb2059efd759a36734b923702547f2345410a78a5c6e9414f7a37cd37df",
+      "sourcePages": 26,
+      "renderedReadPages": "1-26",
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 26,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Antimicrobial chemotherapy foundations, definitions, targets and action diagram",
+          "pages": "1-4",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Bacterial cell walls and cell-wall or membrane inhibition",
+          "pages": "5-7",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Protein-synthesis inhibition and antibacterial classes",
+          "pages": "8-12",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 5
+        },
+        {
+          "section": "Nucleic-acid synthesis inhibition",
+          "pages": "13",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Folate-pathway inhibition and TMP-SMX sequential blockade",
+          "pages": "14-15",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Bactericidal, bacteriostatic and spectrum summary",
+          "pages": "16",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "General antimicrobial-adverse-effect section title",
+          "pages": "17",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Gastrointestinal, allergy and blood adverse effects",
+          "pages": "18-19",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Bacterial-flora effects and superinfection",
+          "pages": "20-23",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Pseudomembranous colitis teaching and image reference",
+          "pages": "24-25",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Nephrotoxicity",
+          "pages": "26",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all twenty-six pages are fully revealed teaching and reference slides with no assessment prompt field; section-title slides, numbered mechanisms, diagrams and clinical images remain teaching structure, so no prompt replay comparison is applicable and no list item, diagram or image is reverse-engineered into a question",
+      "authorityDisposition": "iOS 17.6.1 Quartz PDF capture titled Chemotherapy lect 1 and passed through a pdftopdf filter; the file and visible slides identify no authenticated MUST platform, institution, department, module, lecturer, examiner, sitting, marks scheme or faculty-key declaration",
+      "boundaryDisposition": "pages 1-16 contain declarative antimicrobial chemotherapy foundations, mechanisms, antibacterial classes and spectrum teaching, while pages 17-26 contain general adverse-effect, flora, superinfection, pseudomembranous-colitis and nephrotoxicity teaching; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers and twenty-six teaching-reference pages",
+      "preservedSourceDefects": [
+        "printed spelling, grammar, diagrams, clinical images, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "numbered mechanisms, adverse-effect categories, section-title slides, diagrams and image-only teaching pages are declarative teaching structure rather than assessment prompts",
+        "the generic PDF title and iOS capture metadata are retained without inventing lecturer, institution or authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -6121,27 +6249,33 @@
     "pages": 29,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightyEighthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Chemotherapy lect 1.pdf",
     "sha256": "946d9eb2059efd759a36734b923702547f2345410a78a5c6e9414f7a37cd37df",
     "pages": 26,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/General Antibacterial 1 (By Ezzeldin).pdf",
+    "sha256": "e703dc230fcd16a3d4733d30b7babe17e7ff6e0f8d239d14e3f67c53b2e1ef2e",
+    "pages": 29,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 7,
-    "uniqueSha256": 7,
-    "sortedNewlineSha256": "45bad029e35e90125fa8970e1980ae1894f384c6f08efb6346e5dbf0254fa037",
+    "inventoryMetadataRows": 6,
+    "uniqueSha256": 6,
+    "sortedNewlineSha256": "dcee0bd3b8e8d28b1abb0ddff19d4e37023dba037b1083d6ede929ea43d4e575",
     "auditSampleStatusCounts": {
-      "audit-not-found": 7
+      "audit-not-found": 6
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 7
+    "audit-not-found": 6
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 87,
-    "remainingUniqueSha256": 7,
+    "processedUniqueSha256": 88,
+    "remainingUniqueSha256": 6,
     "processedPlusRemaining": 94
   }
 }
