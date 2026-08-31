@@ -840,6 +840,18 @@
   animation: cortex-performance-area 0.75s var(--ease-out-quint) 0.18s both;
 }
 
+/* The centre dot is earned: it mounts only once a ring or meter reaches its
+   target, so this is the one moment on a progress surface allowed a little
+   overshoot — the mark completing itself, not a loop or an ambient bounce. */
+@keyframes cortex-calibrate-pop {
+  from { opacity: 0; transform: scale(0.35); }
+  65% { opacity: 1; transform: scale(1.22); }
+  to { opacity: 1; transform: scale(1); }
+}
+.target-ring-dot {
+  animation: cortex-calibrate-pop var(--dur-calibrate) var(--ease-out-quint) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
