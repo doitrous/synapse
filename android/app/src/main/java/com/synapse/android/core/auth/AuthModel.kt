@@ -208,7 +208,7 @@ class AuthModel(
                 _state.value = AuthState.SignedOut
                 if (explainFailure) {
                     _message.value =
-                        AuthNotice.problem("Signed in, but Connect Cortex has no account for this address yet.")
+                        AuthNotice.problem("Signed in, but Nishany has no account for this address yet.")
                 }
             }
         } catch (e: ApiError.Unauthorized) {
@@ -222,7 +222,7 @@ class AuthModel(
                 // unconfigured server, a suspended account and a clock skew
                 // is invisible -- naming one would send the reader after the
                 // wrong thing.
-                var text = "Your password was accepted, but Connect Cortex rejected the session. " +
+                var text = "Your password was accepted, but Nishany rejected the session. " +
                     "Please try again, or contact support if it keeps happening."
                 // Mirrors ios/Synapse/Core/Auth/AuthModel.swift:142-144: the
                 // same silent-failure risk exists here, since accessToken()
@@ -314,8 +314,8 @@ class AuthModel(
         fun describe(error: Throwable): String = when (error) {
             ApiError.Unauthorized -> "That session is no longer valid. Please sign in again."
             ApiError.Forbidden -> "This account doesn't have access to that."
-            is ApiError.Transient -> "Couldn't reach Connect Cortex. Check your connection and try again."
-            is ApiError.Malformed -> "Connect Cortex sent back something unexpected. Please try again."
+            is ApiError.Transient -> "Couldn't reach Nishany. Check your connection and try again."
+            is ApiError.Malformed -> "Nishany sent back something unexpected. Please try again."
             else -> error.message ?: "Something went wrong."
         }
     }

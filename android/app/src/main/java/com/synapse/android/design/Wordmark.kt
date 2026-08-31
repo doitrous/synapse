@@ -33,7 +33,7 @@ fun Wordmark(modifier: Modifier = Modifier, height: Dp = 28.dp) {
         ),
         // The lockup reads "Connect Cortex"; that is its accessible name, and
         // the artwork must never be announced as a file name.
-        contentDescription = "Connect Cortex",
+        contentDescription = "Nishany",
         modifier = modifier.height(height),
         contentScale = ContentScale.Fit,
     )

@@ -167,7 +167,7 @@ final class AuthModel {
                 userCache.writeUser(nil)
                 state = .signedOut
                 if explainFailure {
-                    message = "Signed in, but Connect Cortex has no account for this address yet."
+                    message = "Signed in, but Nishany has no account for this address yet."
                 }
             }
         } catch APIError.unauthorized {
@@ -180,7 +180,7 @@ final class AuthModel {
                 // agree, and from here the difference between an unconfigured
                 // server, a suspended account and a clock skew is invisible —
                 // naming one would send the reader after the wrong thing.
-                message = "Your password was accepted, but Connect Cortex rejected the session. "
+                message = "Your password was accepted, but Nishany rejected the session. "
                     + "Please try again, or contact support if it keeps happening."
                 #if DEBUG
                 if let detail = SynapseAPI.lastDiagnostic { message! += "\n\n[\(detail)]" }
@@ -256,7 +256,7 @@ final class AuthModel {
         case APIError.forbidden:
             "This account doesn't have access to that."
         case APIError.transient:
-            "Couldn't reach Synapse. Check your connection and try again."
+            "Couldn't reach Nishany. Check your connection and try again."
         default:
             error.localizedDescription
         }

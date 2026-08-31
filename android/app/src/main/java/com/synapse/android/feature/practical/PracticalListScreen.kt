@@ -221,7 +221,7 @@ private fun SkillsTab(progress: PracticalProgress, onCycle: (String, String) -> 
         item {
             Text(
                 "This is your own record of what you have practised. A formal sign-off is given by an assessor " +
-                    "and is not recorded in Connect Cortex.",
+                    "and is not recorded in Nishany.",
                 style = MaterialTheme.typography.bodySmall,
             )
         }

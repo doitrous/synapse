@@ -29,7 +29,7 @@ struct SignedInView: View {
             } else if let failure {
                 EmptyStateView(
                     symbol: "exclamationmark.triangle",
-                    title: "Connect Cortex could not start",
+                    title: "Nishany could not start",
                     detail: failure
                 )
             } else {
