@@ -26208,3 +26208,96 @@ The exact next unprocessed BMS-102 record is tier-9 `src_cb6b50b3ccefb1576eb5` �
 dated 8 April 2023 but its first two native pages carry no extractable text; visible Kasr/2022
 authority, OCR/rendered prompt/key/written/image/practical boundary, four-search/prior-BMS
 reconciliation, arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 258 — externally named Kasr general-pharmacology MCQ excerpt
+
+### Source identity, exhaustive render/OCR boundary, and authority separation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_cb6b50b3ccefb1576eb5` · `MCQs - KASR Pharma MCQ 2022.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `cb6b50b3ccefb1576eb514ea0d757246db57a5b1162cdf90e3e7fa7cfe24112f` · **765,647 bytes** |
+| Format / complete visual boundary | **13 scanned portrait pages, 612×867.56 points, PDF 1.3**. All 13 pages were rendered at 180 dpi into 13 non-empty 1,530×2,169-pixel images, OCRed independently, and inspected page by page at original detail. Physical pages 1–12 contain Q1–Q97; physical page 13 is the complete answer table. Every stem, option, answer cell, printed page number, heading, scan edge, and whitespace region is assigned below; there is no page or crop remainder. |
+| OCR/native reality | Native extraction yields no substantive text. Each page is a full-page scan; Tesseract was used only to assist navigation and transcription, while the rendered scans govern numbering, wording, option geometry, and key directionality. No form, JavaScript, encryption, interactive response field, or hidden text key exists. |
+| Visible page evidence | The only repeated substantive heading is `GENERAL PHARMACOLOGY`; printed source pages run 5–17. No page visibly names Kasr/Cairo University, Helwan University, a faculty, instructor, module, sitting, cohort, or year. Q1 begins immediately on printed page 5 and the key closes printed page 17, so this is a self-contained question/key excerpt rather than proof that the omitted printed pages 1–4 belong to this exact carrier. |
+| Filename/metadata caution | `KASR` and `2022` occur only in the manifest/local filename. Producer is iOS 16.3.1 Quartz and creation/modification are 8 April 2023. The filename is an external-Kasr provenance hint, while the iOS timestamp is capture/export metadata; neither authenticates a 2022 exam, official Kasr key, author, or current teaching year. |
+| Authority / eligibility | The selected record is explicitly catalogued as a Kasr carrier and has no visible Helwan counter-marker. It is therefore retained conservatively as an **external, unauthenticated Kasr-context question-bank excerpt** and excluded from Helwan primary, auxiliary, and all-eligible totals. This ruling does not elevate the filename to visible institutional or sitting authority. |
+
+### Exhaustive prompt, answer, written, image, and practical boundary
+
+| Physical pages | Visible source boundary | Exhausted source-local operations / key state |
+|---:|---|---:|
+| 1–4 | Printed pages 5–8; Q1–Q35 | **35 four-option text MCQs** on mechanisms, pharmacokinetics, routes, absorption, metabolism, plasma binding, ADRs, interactions, bioavailability, tolerance, distribution, and kinetic order. |
+| 5–8 | Printed pages 9–12; Q36–Q68 | **33 four-option text MCQs** on distribution/ionisation, efficacy/affinity, dosage forms, AUC, receptor pharmacology, metabolism, renal clearance, dose/loading calculations, monitoring, and first-order kinetics. |
+| 9–12 | Printed pages 13–16; Q69–Q97 | **29 four-option text MCQs** on excretion, zero-order kinetics, placenta/teratogenicity, antagonism/synergism, drug interactions, safety, steady state, elderly effects, P450 inhibition, protein binding, and numerical kinetic/Vd/clearance/loading-dose operations. |
+| 13 | Printed page 17; `GENERAL PHARMACOLOGY KEY ANSWERS` | One visible table supplies an answer letter for every Q1–Q97: **97 answer occurrences / 0 unkeyed prompts**. |
+
+The complete source-local arithmetic is **97 raw prompt occurrences = 97 four-option text MCQs**,
+with **97 source-supplied answers / 0 unkeyed prompts**. All questions are objective option-
+selection records. The numerical and clinical-context stems remain keyed text MCQs, not free-
+response written operations or practical stations. There are **0 T/F items, 0 matching items, 0
+completion blanks, 0 free-response essays, 0 drawings, 0 image-bearing prompts, 0 authenticated
+practical stations, and 0 teaching-only callouts**.
+
+Source truth preserves several repeated propositions without silently deleting their occurrences:
+Q73 restates Q18's teratogenicity definition; Q86 restates Q22's 100% IV bioavailability; Q68
+retests Q37's first-order elimination property; Q77 restates Q41's efficacy/Emax proposition; Q76
+retests Q48's noncompetitive-antagonist Emax effect; Q79 applies the same G6PD/oxidant-haemolysis
+proposition as Q55; and Q88 retests Q20's greater-than-additive combination effect. The printed key
+is retained as the external carrier's supplied answer layer, including any spelling, wording,
+calculation, or answer anomaly, without medical endorsement or silent repair.
+
+### External-authority zero gate, search ruling, and eligible arithmetic
+
+Authority resolves before semantic retention. All **97 source-local prompts / 97 source-local
+answers** belong to the explicitly Kasr-named external record and carry no visible Helwan
+counterevidence. Therefore **0 eligible Helwan records and 0 accepted handles** survive. The
+standing gate is exactly **`0 accepted handles × 4 = 0 required and completed searches`**; no
+388-query workload, empty packet, or synthetic prior-BMS row is created for excluded external
+content. Although its general-pharmacology propositions extensively overlap Families 202, 223,
+238, and 257, excluded occurrences cannot add or reuse an eligible tested handle. Prior-BMS reuse
+is **0** and concept delta is **+0**.
+
+| Measure | Family 258 eligible delta | Auxiliary cumulative (Families 12–258) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,261 | 762 | 4,023 |
+| Eligible source-supplied answers | 0 | 2,247 | 405 | 2,652 |
+| Retained eligible question records | 0 | 2,965 | 552 | 3,517 |
+| Accepted handles / required searches | 0 / 0 | 2,666 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,357 over primary | 372 | 1,729 |
+| **Distinct tested concepts** | **+0** | **1,357 additions** | **372** | **1,729** |
+
+The eligible checksum closes at zero: external source-local **97 / 97** does not enter Helwan
+arithmetic. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,261 prompts / 2,247
+answers / 2,965 retained / 2,666 handles / +1,357 concepts**. All eligible remains **4,023 /
+2,652 / 3,517 / 1,729**. Family 258 establishes an external general-pharmacology MCQ/key format
+and source-replay evidence only—not a Helwan assessment, authenticated Kasr exam, official key,
+practical station, 2022 sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 258
+
+`src_cb6b50b3ccefb1576eb5` is exhausted across all 13 rendered/OCR-assisted pages: every stem,
+option, answer-table cell, numerical operation, repeated proposition, printed page number,
+authority limitation, metadata field, zero gate, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-258 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 258
+governs **1 selected path / 1 unique hash**. The governed set through Family 258 is therefore
+**323 paths / 312 unique hashes**, leaving exactly **39 ungoverned selected paths / 36 unique
+hashes**. Checksums are **323 + 39 = 362 paths** and **312 + 36 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`7ef144f3e080f7baa84b8542fc40716728953dd4ba424217053559c3c8fcdd69`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`fcc8a8f7a27a50afc8b182d868fb0a894d1664ed71985274df46460cc6aa068c`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_11c69bfb5b9a69d12eea` ·
+`MCQs - KASR Pharma MCQ by Dr.Amr [108 Part.1].pdf`, SHA-256
+`11c69bfb5b9a69d12eeaedbddd082bc9465e14351838a7990fccabd19d09cf74`, **160,270 bytes**,
+**20 native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. Its title metadata
+is `108 pharmacology revision MCQ DR AMR part 1 ( kinetics )`, iOS Quartz capture is dated 12 June
+2023, and page 1 visibly shows that title plus Google-Forms-style score/email fields and a supplied
+answer. Its visible Dr Amr/108/Kasr authority, complete solved-form prompt/key/written/image/
+practical boundary, external zero gate, arithmetic, and subsequent exact debt remain to be
+separately adjudicated.
