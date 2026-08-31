@@ -27419,3 +27419,123 @@ The exact next unprocessed BMS-102 record is tier-9 `src_016866b6af044415ee1a` �
 `A` and creation/modification are 24 April 2026. Its exact visible authority, prompt/key/written/
 image/practical boundary, source-local/prior collapse, eligible gate, arithmetic, and subsequent
 exact debt remain to be separately adjudicated.
+
+## Family 269 — Dr El-Sawy keyed posology and dose-adjustment MCQ bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_016866b6af044415ee1a` · `MCQs - MCQ Posology.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `016866b6af044415ee1a1751fd260aae32cf8bf8c7c2eb789b48f05b25714b10` · **163,092 bytes** |
+| Format / complete visual boundary | **Ten native-text portrait A4 pages, PDF 1.7**. All ten pages were rendered at 170 dpi into ten non-empty 1,406×1,988-pixel images and inspected individually at original detail. Coherent layout extraction agrees with every title, numbered stem, option, right-margin answer letter, footer, and `n of 10` marker. No form, JavaScript, encryption, hidden response layer, page, or crop remainder exists. |
+| Visible provenance | Page 1 visibly titles the carrier `MCQs`; every page headers `Pharma` and footers **`DR ELSAWY`**. No page visibly names a university/faculty, Helwan, BMS-102/module code, academic year, sitting, marks, candidate, duration, or departmental approval. |
+| Metadata caution | Metadata Author is only `A`; Creator/Producer are Microsoft Word LTSC; creation and modification are 24 April 2026. These sparse export fields are secondary to the visible Dr El-Sawy credit and establish neither institution, academic year, sitting, nor official-key status. |
+| Authority / eligibility | Instructor-attributed inline-keyed revision bank in the local Helwan BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary assessment evidence**, not an official Helwan examination, authenticated departmental key, sitting, candidate response, or practical record. |
+
+### Complete prompt, answer, written, image, and practical boundary
+
+| Physical page / source refs | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q5 | Posology, `posos`, dose, dosage regimen, and minimal effective dose | **5 keyed four-option text MCQs**. |
+| 2 · Q6–Q10 | Maximal tolerated dose; ED50, TD50, LD50; therapeutic-index formula | **5 keyed four-option text MCQs**. |
+| 3 · Q11–Q15 | MEC, MTC, therapeutic window, and below-/above-window effects | **5 keyed four-option text MCQs**. |
+| 4 · Q16–Q20 | Standard adult, neonatal, elderly, female-hormone, and menstruation dose factors | **5 keyed four-option text MCQs**. |
+| 5 · Q21–Q25 | Pregnancy, paediatric BSA method, pharmacogenomics, creatinine-clearance adjustment, and gentamicin | **5 keyed four-option text MCQs**. |
+| 6 · Q26–Q30 | Hepatic propranolol adjustment, night statins, meal timing, NSAIDs, and oral first pass | **5 keyed four-option text MCQs**. |
+| 7 · Q31–Q35 | SC-versus-IM dose, route-dependent magnesium-sulphate effects, and Young's rule | **5 keyed four-option text MCQs**. |
+| 8 · Q36–Q40 | Dilling's rule, Clark's rule, and one-/seven-year percentage dosing | **5 keyed four-option text MCQs**. |
+| 9 · Q41–Q45 | Twelve-year percentage dosing, repeated BSA accuracy, Mosteller formula, and elderly fractions | **5 keyed four-option text MCQs**. |
+| 10 · Q46–Q50 | Elderly hepatic/renal rationale; loading- and maintenance-dose purposes/formulas | **5 keyed four-option text MCQs**. |
+
+The exact source-local boundary is **50 raw prompt occurrences = 50 keyed four-option text MCQs**,
+with **50 right-margin source-supplied answer letters / 0 unkeyed prompts**. There are **0 True/
+False items, 0 matching items, 0 completion blanks, 0 free-response written operations, 0
+drawings, 0 image-bearing prompts, 0 authenticated practical stations, 0 candidate responses, 0
+teaching-only callouts, and 0 prompt-like residues**. All source spellings, generalizations, and
+answer letters are retained as source truth without silent medical correction or endorsement.
+
+### Retention, 49-handle registry, 196-search completion, and prior-BMS reconciliation
+
+All **50** occurrences remain retained. Q22 and Q42 ask the same proposition—surface-area dosing
+is the most accurate paediatric method—with only option-order/wording variation; both occurrences
+and keys remain preserved under one handle. Thus **`50 retained - 1 semantic reduction = 49
+accepted source-distinct handles`**.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q10 | `posology-determines-appropriate-dose`; `posos-means-how-much`; `dose-amount-at-one-time`; `dosage-regimen-dose-schedule`; `minimal-effective-dose-lowest-therapeutic`; `maximal-tolerated-dose-highest-safe`; `ed50-therapeutic-effect-fifty-percent`; `td50-toxic-effect-fifty-percent`; `ld50-death-fifty-percent`; `therapeutic-index-td50-over-ed50` |
+| Q11–Q20 | `mec-minimum-effective-concentration`; `mtc-minimum-toxic-concentration`; `therapeutic-window-effective-without-toxic`; `below-therapeutic-window-ineffective`; `above-therapeutic-window-toxic`; `standard-adult-dose-seventy-kg-age-eighteen-sixty-five`; `neonate-cyp450-underdeveloped`; `elderly-start-low-go-slow`; `female-sex-hormones-microsomal-enzyme-inhibitors`; `menstruation-avoid-aspirin` |
+| Q21–Q30 | `pregnancy-avoid-teratogenic-aspirin-cortisone`; `surface-area-most-accurate-paediatric-dosing` (Q22,Q42); `pharmacogenomics-ultrarapid-poor-metabolizers`; `renal-dose-reduction-creatinine-clearance`; `gentamicin-adjust-renal-impairment`; `propranolol-adjust-hepatic-disease`; `statins-night-cholesterol-synthesis`; `most-oral-drugs-before-meals`; `nsaids-after-meals`; `oral-dose-higher-first-pass-effect` |
+| Q31–Q40 | `subcutaneous-dose-higher-than-im-less-vascularity`; `oral-magnesium-sulphate-cholagogue-purgative`; `iv-magnesium-sulphate-anticonvulsant-muscle-relaxant`; `young-rule-age-one-twelve`; `young-rule-age-over-age-plus-twelve`; `dilling-rule-age-four-twenty`; `dilling-rule-age-over-twenty`; `clark-rule-body-weight`; `one-year-child-twenty-five-percent-adult-dose`; `seven-year-child-fifty-percent-adult-dose` |
+| Q41–Q50 survivors | `twelve-year-child-seventy-five-percent-adult-dose`; `mosteller-calculates-body-surface-area`; `elderly-sixty-seventy-two-thirds-adult-dose`; `elderly-over-seventy-half-adult-dose`; `elderly-dose-reduction-hepatic-and-renal`; `loading-dose-achieves-target-rapidly`; `loading-dose-vd-times-cp-over-f`; `maintenance-dose-replaces-eliminated-drug`; `maintenance-dose-cl-times-cp-times-t-over-f` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102 Families 1–268:
+**`49 × 4 = 196 required and completed searches`**. Each packet used the distinctive source-first
+stem, tested proposition, answer/terminal phrase, and a posology, dose, therapeutic-window,
+physiological/pathological-factor, paediatric-rule, administration-route, or loading/maintenance
+variant. No live, ready, or pending object duplicates this carrier.
+
+Exactly **8** handles reuse accepted prior BMS assessment scope: LD50 definition/properties
+(Family 238); therapeutic-index ratio (Families 223, 236, and 263); renal-impairment gentamicin
+adjustment (Families 223 and 264); higher oral dose from first pass (Families 223 and 262);
+SC-versus-IM low-vascularity dosing/absorption (Family 262); Young-rule formula/application
+(Family 236); loading dose's rapid-target purpose (Families 223, 264, and 267); and the
+bioavailability-adjusted loading-dose formula (Families 223 and 236). The remaining **41** handles
+have no accepted prior BMS question at the same tested scope. Family 236's other completed
+posology definitions, tables, graphs, paediatric references, elderly fractions, and maintenance
+formula are teaching evidence only and do not create assessment reuse. Therefore concept
+arithmetic is **`49 - 8 = +41`**.
+
+### Family-269 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 269 | Auxiliary cumulative (Families 12–269) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 50 MCQ | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 50; 0 unkeyed | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 50 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 49 / 196 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 8 | — | — | subtract before concept addition |
+| Cross-family concept delta | +41 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **49 source-local / +41** | **1,495 additions** | **372** | **1,867** |
+
+The checksum closes: **50 prompts = 50 answers + 0 unkeyed = 50 retained**; **50 retained - 1
+semantic reduction = 49 handles**; **49 × 4 = 196 searches**; and **49 - 8 prior reuses = +41
+concepts**. Auxiliary arithmetic is `3,505 + 50 = 3,555` prompts, `2,491 + 50 = 2,541`
+answers, `3,209 + 50 = 3,259` retained, `2,877 + 49 = 2,926` handles, and `1,454 + 41 =
+1,495` additions. All eligible arithmetic is `762 + 3,555 = 4,317`, `405 + 2,541 = 2,946`,
+`552 + 3,259 = 3,811`, and `372 + 1,495 = 1,867`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible becomes **4,317 / 2,946 /
+3,811 / 1,867**. Family 269 establishes low-authority instructor-attributed keyed posology
+revision evidence only—not an official exam, authenticated sitting, departmental key, practical
+station, recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 269
+
+`src_016866b6af044415ee1a` is exhausted across all ten native/rendered pages: every title, stem,
+option, answer token, replay, footer, authority limitation, metadata field, search packet,
+prior-family relation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-269 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 269
+governs **1 selected path / 1 unique hash**. The governed set through Family 269 is therefore
+**334 paths / 323 unique hashes**, leaving exactly **28 ungoverned selected paths / 25 unique
+hashes**. Checksums are **334 + 28 = 362 paths** and **323 + 25 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`718da40a7979e0b126556c7ec21f3d99c0e93bd8e271ac2e2c8ceaf10eda8ff2`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`b0b188c20697559c7b3af4bbeeb38cf9ec8b781a4e113a9207a85b835f5af8ad`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_576e087c6f6c8c390037` ·
+`MCQs - MCQ pharma Alex.pdf`, SHA-256
+`576e087c6f6c8c39003795a3c51a306d8afcdd21e4f7edd3295707a3175cf9ec`, **637,353 bytes**,
+**30 native-text portrait 595×770-point pages** under `Pharmacology / Questions / MCQs`.
+Metadata Author is `Babbini, Mariol; Mary Thomas`, creation is 26 October 2014, and modification
+is 27 May 2020; these fields and the `Alex` filename are authority hints only until visibly
+corroborated. Its exact visible authority, prompt/key/written/image/practical boundary,
+source-local/prior collapse, external/eligible gate, arithmetic, and subsequent exact debt remain
+to be separately adjudicated.
