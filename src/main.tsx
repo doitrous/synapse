@@ -10,11 +10,13 @@ import { isAdminHost } from './lib/portalHost'
 import { API_MODE } from './lib/api'
 
 // Self-hosted variable fonts (Fontsource) — offline, no external requests.
-// Orbitron is the logotype's own geometric sans: brand lockups only, never UI.
+// Baloo 2 / Baloo Bhaijaan 2 are the logotype's own rounded display faces:
+// brand lockups only, never UI.
 import '@fontsource-variable/source-serif-4'
 import '@fontsource-variable/geist'
 import '@fontsource-variable/geist-mono'
-import '@fontsource-variable/orbitron'
+import '@fontsource-variable/baloo-2'
+import '@fontsource-variable/baloo-bhaijaan-2'
 import './index.css'
 
 // Both domains serve one index.html, whose canonical, hreflang and Open Graph tags
