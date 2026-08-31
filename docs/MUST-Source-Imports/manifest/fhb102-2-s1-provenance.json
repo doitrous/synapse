@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "98776e85c327bf58d8a7f09b089fea3b50d665424c5352005edd93a85ad674bd",
-    "triageMarkdown": "0188290a16a9b47f5a066643dd606eaa692fadfbcfa5d97f9b1c8339e9a86bb5"
+    "readinessMarkdown": "16abb059f573cf7f9d8a9712c137366dbf1ae25e03e8ec10be7edc009bb24593",
+    "triageMarkdown": "5eba9215a7bc19c8953b8743ebfe67909b10a7c768e4edf40f677792f0011bc5"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -84,6 +84,7 @@
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
       "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
+      "6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb",
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5",
       "70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe",
@@ -126,7 +127,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 56
+    "uniqueSha256": 57
   },
   "completedSourceCoverage": [
     {
@@ -3410,11 +3411,53 @@
         "printed spelling, grammar, simplified mechanisms and academically questionable questions or answer claims remain source truth without repair",
         "the complete inline answer set remains individual revision-source evidence rather than an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb",
+      "sourcePages": 33,
+      "renderedReadPages": "1-33",
+      "objectiveMcqPrompts": 213,
+      "writtenPrompts": 20,
+      "printedKeyObservations": 207,
+      "sourceAbsentAnswers": 26,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 10,
+      "priorFhb1022CollapsedHandles": 10,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 233,
+      "familyAnswerDelta": 207,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "beta-lactam cell-wall agents and clinical use",
+        "protein-synthesis inhibitors mechanisms uses and toxicity",
+        "nucleic-acid folate and metronidazole pharmacology",
+        "antituberculous drugs regimens mechanisms and adverse effects",
+        "antifungal mechanisms uses and toxicity",
+        "antiamoebic drug selection regimens and adverse effects",
+        "antimalarial therapy and prophylaxis",
+        "general antimicrobial target classification",
+        "clinical antimicrobial selection prophylaxis and combination therapy",
+        "antimicrobial adverse effects interactions resistance and pharmacokinetics"
+      ],
+      "authorityDisposition": "personal pharmacology revision compilation visibly credited in Arabic and English to Mohamed Farid, with matching Dr.Mohammed Farid PDF author metadata and a 2020 Microsoft Word 2016 creation date; no authenticated MUST institution, faculty, department, examiner, examination sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "all thirty-three pages contain assessment material across eight labelled antimicrobial sections; exact physical boundary two hundred thirteen multiple-choice objective prompts plus twenty unkeyed red Answer-arrow completion or written prompts, totalling two hundred thirty-three prompts; two hundred seven objective fields carry visible selected or yellow-highlighted answers, while the six antimalarial multiple-choice fields on pages 28-29 and all twenty completion fields are visibly unkeyed, yielding twenty-six source-absent answers; zero practical, image-dependent or teaching-only occurrences",
+      "preservedSourceDefects": [
+        "the footer claim that the source contains 259 questions conflicts with the visible two-hundred-thirty-three-prompt boundary and is not used for counting",
+        "the six antimalarial multiple-choice fields are visibly unmarked and must not be promoted to answer observations merely because surrounding sections are highlighted",
+        "the twenty red Answer-arrow completion fields provide no visible answer text and remain source-absent written prompts",
+        "printed numbering, spelling, malformed Default Question Text artifacts, outdated regimens and academically questionable highlighted choices remain source truth without repair"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4450,
-    "printedKeyObservations": 4251,
+    "printedPromptObservations": 4683,
+    "printedKeyObservations": 4458,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3756,33 +3799,39 @@
     "pages": 48,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftySeventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - PentaGram Mohamed Farid(Pharma102)FHB-2.pdf",
     "sha256": "6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb",
     "pages": 33,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 1 (Q&A - Pentagram).pdf",
+    "sha256": "3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b",
+    "pages": 21,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 38,
-    "uniqueSha256": 38,
-    "sortedNewlineSha256": "78a61c6b756fe2993ad24b5c89702c2506aae33782219df7b516822be3556832",
+    "inventoryMetadataRows": 37,
+    "uniqueSha256": 37,
+    "sortedNewlineSha256": "95eb358d3f45ea6b88c139e5ce46fe1586845e7d8d3be56195d95a8e32ac8867",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
       "sparse-text": 10,
-      "substantive-text": 13
+      "substantive-text": 12
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
     "sparse-text": 10,
-    "substantive-text": 13
+    "substantive-text": 12
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 56,
-    "remainingUniqueSha256": 38,
+    "processedUniqueSha256": 57,
+    "remainingUniqueSha256": 37,
     "processedPlusRemaining": 94
   }
 }

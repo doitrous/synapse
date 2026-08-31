@@ -1994,3 +1994,31 @@ Removing the fifty-six processed hashes leaves **38 selected inventory paths / 3
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - PentaGram Mohamed Farid(Pharma102)FHB-2.pdf`, SHA-256 `6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb`, 33 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 38 selected inventory paths / 38 unique hashes remain untriaged.
+
+## Completed source — PentaGram Mohamed Farid Pharma102 FHB-2
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - PentaGram Mohamed Farid(Pharma102)FHB-2.pdf` | `6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb` | 33 | substantive-text | pages 1–33 rendered and read | Personal pharmacology revision compilation visibly credited in Arabic and English to Mohamed Farid, with matching `Dr.Mohammed Farid` PDF author metadata and a 2020 Microsoft Word 2016 creation date; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact objective, written and answer boundary
+
+All 33 pages contain assessment material across eight labelled antimicrobial sections. The exact physical boundary is **213 multiple-choice objective prompts + 20 red `Answer →` completion/written prompts = 233 questions**. Of the objective prompts, **207 carry visible selected radio buttons or yellow-highlighted answers**. The six antimalarial multiple-choice fields spanning physical pages 28–29 are visibly unmarked, while all twenty completion fields carry only an empty answer arrow. The resulting answer boundary is **207 prompt-matched source answer observations / 26 source-absent answers / 0 practical or image-dependent / 0 teaching-only occurrences**.
+
+The printed footer claim of 259 questions conflicts with the visible 233-prompt boundary and is not used. The six unmarked antimalarial MCQs are not promoted to answers merely because surrounding sections are highlighted. The twenty empty completion fields remain source-absent written prompts. Printed numbering, spelling, malformed `Default Question Text` artifacts, outdated regimens and academically questionable highlighted choices remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The ten source-first handles cover beta-lactam cell-wall agents and clinical use; protein-synthesis inhibitors; nucleic-acid/folate/metronidazole pharmacology; antituberculous drugs; antifungals; antiamoebics; antimalarials; general antimicrobial targets; clinical selection/prophylaxis/combinations; and antimicrobial adverse effects/interactions/resistance/pharmacokinetics. All ten collapse to already represented FHB-102-2 evidence.
+
+Search arithmetic is **10 source-first − 10 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**. No exact normalized prompt-sibling carrier was found, so all 233 distinct physical occurrences survive the family boundary.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-seventh one-path hash is now `sourceProcessed=true`, adding **+233 questions / +207 answers / +0 concepts**. Cumulative triage is **4,683 questions / 4,458 answers / 62 concepts**.
+
+Removing the fifty-seven processed hashes leaves **37 selected inventory paths / 37 unique SHA-256s**. Their sorted-newline checksum is `95eb358d3f45ea6b88c139e5ce46fe1586845e7d8d3be56195d95a8e32ac8867`. Remaining audit-review debt is **12 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`57 + 37 = 94`** and path accounting is **`59 + 37 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 1 (Q&A - Pentagram).pdf`, SHA-256 `3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b`, 21 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 37 selected inventory paths / 37 unique hashes remain untriaged.
