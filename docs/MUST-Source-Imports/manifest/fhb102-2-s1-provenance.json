@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "6f2b6b4852bb2931952befd32105af6017e8f2dc49a344e86ed5c43a371b0fce",
-    "triageMarkdown": "e440a3c4117cb992503a1b54037bb2ee69ab34e287db923499e4e7743ef797e5"
+    "readinessMarkdown": "4faffa9eb09194868d16e97d03d12c14eae8afacdca57b949b6a102fa0d4ad47",
+    "triageMarkdown": "5e01dce7e6798342eefc53774dcc2a6d623bf512d78150090924a296e65ee7da"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -126,6 +126,7 @@
       "95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42",
       "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
       "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
+      "9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a",
       "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
       "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
       "9d8fd6b6b5d51ccc5049efc430daa26267f57ac04dc11717686cfad21af7edf1",
@@ -163,7 +164,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 93
+    "uniqueSha256": 94
   },
   "completedSourceCoverage": [
     {
@@ -6203,6 +6204,112 @@
         "visible lecturer credit and metadata silence are retained without inventing institutional or assessment authority",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a",
+      "sourcePages": 15,
+      "renderedReadPages": "1-15",
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 14,
+      "nonAssessmentCoverPages": 1,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Antimicrobials chemotherapy title and lecturer credit",
+          "pages": "1",
+          "coverPages": 1,
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Monobactam and aztreonam pharmacology",
+          "pages": "2",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Carbapenem, imipenem-cilastatin and meropenem teaching plus product references",
+          "pages": "3-5",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Vancomycin mechanism, formulations, uses and adverse effects",
+          "pages": "6-9",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Bacitracin mechanism, indication and product reference",
+          "pages": "10",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Chemoprophylaxis and cell-membrane permeability note",
+          "pages": "11",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Antimicrobials used for biliary-tract infection",
+          "pages": "12",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Concentration-dependent and time-dependent pharmacodynamic teaching",
+          "pages": "13-15",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all fourteen content pages are fully revealed teaching and reference slides with no assessment prompt field; numbered drug classes, mechanisms, uses, adverse effects, product images and the pharmacodynamic comparison table remain declarative teaching structure, so no prompt replay comparison is applicable and no teaching statement is reverse-engineered into a question",
+      "authorityDisposition": "metadata-silent PDF 1.7 teaching deck whose visible cover names Dr Mohamed Abdel Aziz; no authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "page 1 is the Antimicrobials chemotherapy title-and-lecturer cover, and pages 2-15 are declarative monobactam, carbapenem, vancomycin, bacitracin, chemoprophylaxis, biliary-infection and pharmacodynamic teaching/reference slides; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, fourteen teaching-reference pages and one non-assessment cover page",
+      "preservedSourceDefects": [
+        "the generic lowercase filename is retained as literal file provenance",
+        "printed spelling, grammar, product images, comparison table, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "numbered drug classes, mechanisms, uses, adverse effects, product images and comparison tables are declarative teaching structure rather than assessment prompts",
+        "visible lecturer credit and metadata silence are retained without inventing institutional or assessment authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -6772,27 +6879,24 @@
     "pages": 29,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "ninetyFourthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/general antibacterial 2.pdf",
     "sha256": "9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a",
     "pages": 15,
-    "sourceProcessed": false
+    "sourceProcessed": true
   },
+  "nextSourceCandidate": null,
   "remaining": {
-    "inventoryMetadataRows": 1,
-    "uniqueSha256": 1,
-    "sortedNewlineSha256": "b2e50f0a114d59ba4937cbb94bfb577a3f9f96f06061dd924a646569eab53b7d",
-    "auditSampleStatusCounts": {
-      "audit-not-found": 1
-    }
+    "inventoryMetadataRows": 0,
+    "uniqueSha256": 0,
+    "sortedNewlineSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "auditSampleStatusCounts": {}
   },
-  "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 1
-  },
+  "triageCheckpointRemainingAuditDebt": {},
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 93,
-    "remainingUniqueSha256": 1,
+    "processedUniqueSha256": 94,
+    "remainingUniqueSha256": 0,
     "processedPlusRemaining": 94
   }
 }

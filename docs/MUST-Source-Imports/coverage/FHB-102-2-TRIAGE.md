@@ -1,8 +1,8 @@
-# MUST FHB 102-2 — S1 read-only triage checkpoint
+# MUST FHB 102-2 — S1 read-only triage
 
 ## Scope and decision
 
-This is an incomplete read-only S1 checkpoint. It covers the 96 inventory paths / 94 unique SHA-256s selected from module `FHB 102-2` and categories `05 MCQs`, `06 EOM Exams`, `07 EOY Exams`, and `08 Midterm Exams`. The sorted-newline selected-hash checksum is `3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313`. It does not mint IDs or student content; all future new-concept placement remains **TBD**.
+This read-only S1 triage is now **`TRIAGE APPROVED`**. All 96 inventory paths / 94 unique SHA-256s selected from module `FHB 102-2` and categories `05 MCQs`, `06 EOM Exams`, `07 EOY Exams`, and `08 Midterm Exams` have complete visual-boundary, answer-recovery, source-first search and prior-FHB dedupe evidence below. The sorted-newline selected-hash checksum is `3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313`. The approval does not mint IDs or student content; all new-concept placement remains **TBD**.
 
 ## Selection and priority evidence
 
@@ -2816,3 +2816,27 @@ Removing the ninety-three processed hashes leaves **1 selected inventory path / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/general antibacterial 2.pdf`, SHA-256 `9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a`, 15 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 1 selected inventory path / 1 unique hash remains untriaged.
+
+## Completed source — `general antibacterial 2`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/general antibacterial 2.pdf` | `9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a` | 15 | audit-not-found | pages 1–15 rendered and read | Metadata-silent PDF 1.7 teaching deck whose visible cover names Dr Mohamed Abdel Aziz. No authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Page 1 is the `Antimicrobials (chemotherapy)` title-and-lecturer cover. Page 2 covers monobactams and aztreonam. Pages 3–5 cover carbapenems, imipenem-cilastatin and meropenem. Pages 6–9 cover vancomycin mechanism, formulations, uses and adverse effects. Page 10 covers bacitracin. Page 11 covers chemoprophylaxis and a cell-membrane permeability note. Page 12 lists antimicrobials used in biliary-tract infection. Pages 13–15 cover concentration-dependent and time-dependent pharmacodynamics. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 14 teaching-reference pages / 1 non-assessment cover page**.
+
+Numbered drug classes, mechanisms, uses, adverse effects, product images and the pharmacodynamic comparison table are declarative teaching structure rather than assessment fields. No answer is inferred and no teaching statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction. The visible lecturer credit and metadata silence are retained without inventing institutional or assessment authority.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and completion
+
+This ninety-fourth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Final cumulative triage is **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing all ninety-four processed hashes leaves **0 selected inventory paths / 0 unique SHA-256s**. The empty-set checksum is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`; remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 0 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`94 + 0 = 94`** and path accounting is **`96 + 0 = 96`**.
+
+**TRIAGE APPROVED**
