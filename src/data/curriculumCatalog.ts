@@ -1,5 +1,5 @@
 /**
- * Maristana curriculum source of truth.
+ * Nishany curriculum source of truth.
  *
  * This file owns the stable Subjects & Topics hierarchy. Articles, concepts,
  * questions, resources, filters, and import preflight all reference these IDs;

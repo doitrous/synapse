@@ -29,7 +29,7 @@ export interface Note {
   /** Legacy inline image retained so existing notes never lose an attachment. */
   imageData?: string
   /**
-   * Documents this note is about — a Maristana resource, or a PDF the student
+   * Documents this note is about — a Nishany resource, or a PDF the student
    * uploaded themselves. Optional and additive, so every note written before
    * this existed is still a valid note.
    *

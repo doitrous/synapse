@@ -267,7 +267,7 @@ test('a plan with no price at all cannot be bought at any period', () => {
 
 /* ---- Offer selection ---------------------------------------------------- */
 
-test('the chosen Maristana period survives in an identifiers-only sign-up URL', () => {
+test('the chosen Nishany period survives in an identifiers-only sign-up URL', () => {
   const selection = offerSelectionFromSearch(initialPlanCatalog(), '?plan=maristana&period=month')
   assert.deepEqual(selection, { planId: 'maristana', periodId: 'month' })
   assert.equal(signupPathForOffer(selection), '/signup?plan=maristana&period=month')
