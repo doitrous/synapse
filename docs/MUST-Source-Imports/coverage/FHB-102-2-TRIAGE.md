@@ -1826,3 +1826,31 @@ Removing the fifty processed hashes leaves **44 selected inventory paths / 44 un
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/PARA FHB REVISION - MIDTERM 2026.pdf`, SHA-256 `ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c`, 12 pages, with an empty-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 44 selected inventory paths / 44 unique hashes remain untriaged.
+
+## Completed source — PARA FHB Revision Midterm 2026
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/PARA FHB REVISION - MIDTERM 2026.pdf` | `ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c` | 12 | empty-text | pages 1–12 rendered and read | Anonymous CamScanner/Quartz `PARA FHB REVISION - MIDTERM` carrier dated 2026; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact objective, answer and prompt-reveal boundary
+
+All twelve rendered pages show one MCQ field. Pages 5 and 7 repeat the complete prompts from pages 2 and 6 while adding visible `Answer` lines, so they are prompt-reveal repetitions rather than new occurrences. Collapsing those two repeats yields **10 unique objective MCQs / 3 prompt-matched printed answer observations / 7 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**.
+
+Only three visibly printed `Answer` lines are counted; the seven missing answers remain source-absent rather than inferred. Anonymous revision provenance and CamScanner metadata are not promoted to an authenticated examination or faculty key. Printed spelling, terminology and academically questionable prompt or answer claims remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The five source-first handles cover mosquitoes/vector transmission, insecticides/arthropod control, host-parasite relationships, myiasis/fly larvae and fly-borne mechanical or biological transmission. All five collapse to already represented FHB-102-2 evidence.
+
+Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-first one-path hash is now `sourceProcessed=true`, adding **+10 questions / +3 answers / +0 concepts**. Cumulative triage is **4,179 questions / 3,981 answers / 62 concepts**.
+
+Removing the fifty-one processed hashes leaves **43 selected inventory paths / 43 unique SHA-256s**. Their sorted-newline checksum is `3f5a6f66f86ad4ce8090cddfc384e75db6c0f5d7a09890c8f40eee9f7975b78a`. Remaining audit-review debt is **17 substantive-text / 11 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`51 + 43 = 94`** and path accounting is **`53 + 43 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/revision after midterm FHB102.pdf`, SHA-256 `be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1`, 28 pages, with a sparse-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 43 selected inventory paths / 43 unique hashes remain untriaged.

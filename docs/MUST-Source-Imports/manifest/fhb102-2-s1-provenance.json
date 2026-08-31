@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "83b06d1b1dbc9964f3fb92bb7d3fa29abe77d50049c14e7a41ea92610aa92f7a",
-    "triageMarkdown": "24dfc644c915e376fe769dda0ccfa1e53cd35ae722576f7e6d1e5060950bae66"
+    "readinessMarkdown": "a01764a58e653c9b95b2c770ec866e8536cbbbbbb7764258308a44962ade993e",
+    "triageMarkdown": "200545e209e703299e70255aa349f0be2200ba3148550057a035aa969bb2ce55"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -118,9 +118,10 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
+      "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 50
+    "uniqueSha256": 51
   },
   "completedSourceCoverage": [
     {
@@ -3142,11 +3143,62 @@
         "four declarative case-study lines are not reverse-engineered into prompts or keys",
         "printed spellings, distribution claims, transmission classifications and academically questionable teaching statements remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
+      "sourcePages": 12,
+      "renderedReadPages": "1-12",
+      "rawPromptPageObservations": 12,
+      "normalizedUniquePromptObservations": 10,
+      "promptRevealRepeatPairs": [
+        {
+          "promptPage": 2,
+          "revealPage": 5
+        },
+        {
+          "promptPage": 6,
+          "revealPage": 7
+        }
+      ],
+      "printedPromptObservations": 10,
+      "objectiveMcqPrompts": 10,
+      "printedKeyObservations": 3,
+      "sourceAbsentAnswers": 7,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 10,
+      "familyAnswerDelta": 3,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "mosquitoes and vector transmission",
+        "insecticides and arthropod control",
+        "host-parasite relationships",
+        "myiasis and fly larvae",
+        "flies and mechanical or biological disease transmission"
+      ],
+      "authorityDisposition": "anonymous CamScanner/Quartz PARA FHB REVISION - MIDTERM carrier dated 2026; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "the twelve rendered pages each show one MCQ field, but pages 5 and 7 repeat the complete prompts from pages 2 and 6 while adding visible Answer lines; collapsing those prompt-reveal repeats yields ten unique objective prompts, three prompt-matched printed answer observations and seven source-absent answers, with zero written, practical, image-dependent or teaching occurrence",
+      "preservedSourceDefects": [
+        "page 5 repeats page 2 and page 7 repeats page 6 as answer reveals rather than new prompt occurrences",
+        "only three visibly printed Answer lines are counted; seven missing answers remain source-absent rather than inferred",
+        "anonymous revision provenance and CamScanner metadata are not promoted to an authenticated examination or faculty key",
+        "printed spelling, terminology and academically questionable prompt or answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4169,
-    "printedKeyObservations": 3978,
+    "printedPromptObservations": 4179,
+    "printedKeyObservations": 3981,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3452,33 +3504,39 @@
     "pages": 2,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftyFirstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/PARA FHB REVISION - MIDTERM 2026.pdf",
     "sha256": "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
     "pages": 12,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/revision after midterm FHB102.pdf",
+    "sha256": "be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1",
+    "pages": 28,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 44,
-    "uniqueSha256": 44,
-    "sortedNewlineSha256": "97cf2f0f58fde05056cc5a8da749f08229b952cfb8d3b7ff329bdad4d1ca16d0",
+    "inventoryMetadataRows": 43,
+    "uniqueSha256": 43,
+    "sortedNewlineSha256": "3f5a6f66f86ad4ce8090cddfc384e75db6c0f5d7a09890c8f40eee9f7975b78a",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
-      "empty-text": 5,
+      "empty-text": 4,
       "sparse-text": 11,
       "substantive-text": 17
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
-    "empty-text": 5,
+    "empty-text": 4,
     "sparse-text": 11,
     "substantive-text": 17
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 50,
-    "remainingUniqueSha256": 44,
+    "processedUniqueSha256": 51,
+    "remainingUniqueSha256": 43,
     "processedPlusRemaining": 94
   }
 }
