@@ -27539,3 +27539,94 @@ is 27 May 2020; these fields and the `Alex` filename are authority hints only un
 corroborated. Its exact visible authority, prompt/key/written/image/practical boundary,
 source-local/prior collapse, external/eligible gate, arithmetic, and subsequent exact debt remain
 to be separately adjudicated.
+
+## Family 270 — Babbini/Thomas USMLE-style general-pharmacology excerpt (external published reference)
+
+### Source identity, exhaustive native/rendered boundary, and external authority
+
+| Field | Verified result |
+|---|---|
+| Manifest / local carrier | Tier-9 `src_576e087c6f6c8c390037` · `MCQs - MCQ pharma Alex.pdf` under `Pharmacology / Questions / MCQs`. `Alex` is a filename token only; no visible page expands it into an institution, instructor, module, or sitting. |
+| SHA-256 / exact size | `576e087c6f6c8c39003795a3c51a306d8afcdd21e4f7edd3295707a3175cf9ec` · **637,353 bytes** |
+| Format / complete visual boundary | **30 native-text portrait 595×770-point pages, PDF 1.7**. All 30 pages were rendered at 150 dpi into 30 non-empty 1,240×1,753-pixel images and inspected individually at original detail. Coherent extraction yields **18,913 words / 176,393 bytes** and agrees with every section transition, numbered stem, option, graph, table, answer/explanation heading, learning objective, and terminal answer key. No form, JavaScript, encryption, hidden response layer, page, crop, or text remainder exists. |
+| Visible source form | The excerpt visibly runs as printed book pages 1–30 under `I General Principles of Pharmacology`, with `Questions` followed by `Answers and Explanations`, per-item difficulty labels, learning objectives, distractor explanations, and terminal section answer keys. No cover or local course wrapper is present. |
+| Metadata / authorship | Metadata titles the object **`Pharmacology Test Prep: 1500 USMLE-Style Questions & Answers`**, authors it to **Mariol Babbini and Mary Thomas**, records Adobe InDesign CS6 / PSPDFKit production, creation on 26 October 2014, and modification on 27 May 2020. These coherent publication fields corroborate the visibly book-like excerpt; they do not confer Helwan authority. |
+| Authority / eligibility | External commercially published USMLE-style question-book excerpt. No page visibly names Helwan University, its Faculty of Medicine, BMS-102, a Helwan instructor, academic year, sitting, marks, candidate, or departmental approval. The local folder and `Alex` filename do not overcome affirmative external publication provenance. It is retained for source truth, format, and comparison evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Exhaustive prompt, answer, image, written, and practical boundary
+
+| Physical pages | Visible source block | Exhausted source-local operation / key state |
+|---:|---|---:|
+| 1–7 | `Questions: I-1 Pharmacokinetics`, Q1–Q40 | **40 five-/six-option keyed objective MCQs**. Q10, Q32, Q36, Q37, and Q39 are graph-bearing ordinary MCQs; all other items are text/table operations. |
+| 7–12 | `Questions: I-2 Pharmacodynamics`, Q1–Q30 | **30 five-/six-option keyed objective MCQs**. Q10–Q12 and Q28 are dose-response graph MCQs; the remaining items are text/table operations. |
+| 12–15 | `Questions: I-3 Adverse Effects of Drugs`, Q1–Q20 | **20 five-option keyed objective MCQs**, all text/table. |
+| 15–21 | `Answers and Explanations: I-1 Pharmacokinetics`, Q1–Q40 | **40 source answers**, each with a learning objective and explanatory rationale; page 21 supplies the complete section answer key. |
+| 21–26 | `Answers and Explanations: I-2 Pharmacodynamics`, Q1–Q30 | **30 source answers**, each with a learning objective and explanatory rationale; page 26 supplies the complete section answer key. |
+| 26–30 | `Answers and Explanations: I-3 Adverse Effects of Drugs`, Q1–Q20 | **20 source answers**, each with a learning objective and explanatory rationale; page 30 supplies the complete section answer key. |
+
+The exact source-local arithmetic is **90 objective prompt occurrences = 40 pharmacokinetics + 30
+pharmacodynamics + 20 adverse-effects MCQs**, with **90 source-supplied answers / 0 unkeyed
+prompts**. Exactly **9** are graph/image-bearing ordinary MCQs and **81** are text/table MCQs.
+Every numerical calculation, graph interpretation, and clinical vignette remains objective option
+selection. There are **0 free-response written operations, 0 True/False items, 0 matching items,
+0 completion blanks, 0 drawing tasks, 0 authenticated practical stations, 0 candidate responses,
+and 0 prompt-like residues**. The answer pages are keyed explanatory teaching material paired to
+the preceding questions—not second prompt occurrences or practical records. Source answer letters,
+wording, and explanations are preserved as external source truth without Helwan endorsement or
+silent medical correction.
+
+### External-authority zero gate, replay ruling, searches, and eligible arithmetic
+
+Authority resolves before eligible semantic retention. All **90 source-local prompts / 90
+source-local answers** belong to the externally authored published carrier and have no affirmative
+Helwan counterevidence. Repeated pharmacokinetic, pharmacodynamic, and adverse-effect topics were
+reviewed across the three source sections and against prior BMS assessment scope, but excluded
+occurrences cannot create an eligible same-source handle, prior reuse, or concept addition.
+Consequently **0 eligible retained records and 0 accepted handles** survive. The exact standing
+four-search gate is **`0 accepted handles × 4 = 0 required and completed searches`**; no artificial
+360-query packet or synthetic prior row is created. Prior-BMS eligible reuse is **0** and concept
+delta is **+0**.
+
+| Measure | Family 270 eligible delta | Auxiliary cumulative (Families 12–270) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+The eligible checksum closes at zero: external **90 / 90** does not enter Helwan arithmetic.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 270 establishes external publication provenance, fully keyed USMLE-style
+MCQ/graph format, and comparison evidence only—not a Helwan exam, official Helwan key,
+authenticated practical, recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 270
+
+`src_576e087c6f6c8c390037` is exhausted across all 30 native/rendered pages: every printed page,
+section transition, stem, option, graph/table, answer/explanation, learning objective, answer key,
+authority limitation, metadata field, zero gate, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-270 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 270
+governs **1 selected path / 1 unique hash**. The governed set through Family 270 is therefore
+**335 paths / 324 unique hashes**, leaving exactly **27 ungoverned selected paths / 24 unique
+hashes**. Checksums are **335 + 27 = 362 paths** and **324 + 24 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`2ec1580531136dee0533f584d3a1400043d78002968943757dcadd6a83cdd5d6`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`e683eec42719b34d52716bf460b792a0799f0255f55a0fe83a62a2e3aaeb21e7`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_f8ba2f5470d39e210121` ·
+`MCQs - Mcq pharma.pdf`, SHA-256
+`f8ba2f5470d39e21012131a370fae9b1221b91d481cc76f10bf9b794dcb55ee7`, **1,294,229 bytes**,
+**415 native-text portrait 324×504-point pages** under `Pharmacology / Questions / MCQs`.
+Metadata titles it `MCQs in Pharmacology`, attributes it to KD Tripathi, and records 2013 creation
+and 2018 modification; it also contains an AcroForm but no JavaScript or encryption. Its exact
+visible authority, complete prompt/key/written/image/practical boundary, source-local/prior
+collapse, external/eligible gate, arithmetic, and subsequent exact debt remain to be separately
+adjudicated.
