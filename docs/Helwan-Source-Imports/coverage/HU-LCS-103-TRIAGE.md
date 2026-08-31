@@ -22527,3 +22527,107 @@ The exact next manifest-order debt is rank-9 `src_f9de7fe86412cc4a3f26`,
 unclassified until all 10 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
 — NOT APPROVED`:** 15 tier-6/rank-9 path debts remain. No download, source edit, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 216 — Rank-9 named external cartilage-Histology keyed MCQ bank
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f9de7fe86412cc4a3f26` / `f9de7fe86412cc4a3f260bbab2e2847cf898272945af904ff5fe86da79f55d5c` |
+| Exact path | `Year 1/LCS 103/Histology/Questions/Cartilage.QUES.pdf` |
+| Physical verification | **217,942 bytes; 10 native-text 612 x 792 pt US-Letter pages; tagged; unencrypted; no form; PDF 1.7**. Full hash, size, page count and geometry match. All 10 pages were rendered at 200 dpi to 10 distinct images, inspected completely and read at original resolution; native extraction was reconciled against every visual page. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | Every page prints `Cartilage Questions`, `Histology` and `By Dr. Shaaban`. Metadata names `Ahmed Mohamed Shaaban` as author and records 19 July 2025 creation/modification. No page names Helwan, module 103, a cohort, exam, sitting, marks or official key. |
+| Authority finding | Named external/review-bank evidence. Lecturer attribution and topical fit do not establish eligible Helwan sitting authority. |
+
+The complete physical source boundary is exact:
+
+| Pages | Physical prompt occurrences | Printed keys |
+|---:|---:|---:|
+| 1–2 | Q1–8 | 8 inline right-column letters |
+| 3 | Q9–13 | 5 inline right-column letters |
+| 4–6 | Q14–25 | 12 inline right-column letters |
+| 7 | Q26–30 | 5 inline right-column letters |
+| 8 | Q31–34 | 4 inline right-column letters |
+| 9 | Q35, Q36, a second distinct Q36, Q37 | 4 inline right-column letters |
+| 10 | Q38 | 1 inline right-column letter |
+| **Total** | **39 MCQ occurrences** | **39 keys** |
+
+All 39 physical prompt rows have option sets and exactly one printed answer letter. The two
+rows labelled Q36 on page 9 are different prompts, with keys B and A respectively; they are
+therefore two physical assessment occurrences, not a duplicated extraction line and not a
+numbering repair. Exact source arithmetic is **39 ordinary MCQ prompts + 39 printed letter
+keys + 0 unkeyed prompts**. Because sitting authority is absent, exact assessment delta is
+**0 eligible prompts / 0 eligible keys**, **+39 external ordinary MCQs / +39 external keys**,
+and **0 written prompts**.
+
+Source truth remains literal and unrepaired. This includes `Which in the following`,
+`characters`, `EXCET`, `fibrocatrilage`, `Where can we found`, `ability to division`, Q28's C
+key, Q29's single malformed A option `Outer fibrous layer Inner cellular.`, Q30's C key,
+Q33's E=`All above`, Q34's C-keyed chondroblast, the two Q36 states, Q37's D key and Q38's D
+key. Printed wording and letters are evidence, not medically repaired or endorsed.
+
+### Practical and image boundary
+
+The bank is entirely typeset text, answer columns and table borders. It contains no specimen,
+model, micrograph, diagram, numbered image, masked label, response field or practical station.
+Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys /
+0 practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The 39 keyed MCQ occurrences collapse source-first to six complete external-assessment
+handles:
+
+| Handle / questions | One query on each required surface | Reconciliation |
+|---|---|---|
+| cartilage general character, avascular nutrition, perichondrium and origin · 1–9 | cartilage matrix flexibility avascular diffusion perichondrium mesoderm | prior-LCS external reuse |
+| hyaline, elastic and fibrocartilage matrix/fibre comparison · 10–19, 23 | hyaline elastic fibrocartilage collagen type I type II elastic fibers | prior-LCS external reuse |
+| cartilage sites and perichondrium exceptions · 8, 20–25, 28 | articular elastic hyaline fibrocartilage sites perichondrium semilunar intervertebral | prior-LCS external reuse |
+| perichondrium layers and chondrogenic/fibroblast cells · 24–30 | perichondrium outer fibrous inner cellular chondrogenic fibroblast blood vessels | prior-LCS external reuse |
+| chondroblast/chondrocyte maturation, activity and matrix secretion · 12, 27, 31–37 | chondroblast chondrocyte cell nest isogenous group matrix secretion basophilic GAG | prior-LCS external reuse |
+| interstitial cartilage growth · 38 | cartilage interstitial growth chondrocyte division isogenous groups | prior-LCS external reuse |
+
+Each of the **six accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **6 x 4 =
+24 required search invocations**. Live file-match counts were all **0**;
+pending/import-ready counts were all **1**; prior-source counts were all **0**; accepted-LCS
+counts were **1 / 1 / 1 / 0 / 1 / 0**. Complete source-level scope comparison against the
+previously inventoried LCS cartilage teaching and external banks gives **6 prior-LCS
+external-assessment reuses / 0 additive live / 0 additive pending / 0 additive new external
+concepts**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment becomes
+**7,537 prompts / 7,261 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Family 216 contributes **+39 external ordinary MCQs / 0 written / 0 practical
+prompts**; all six collapsed handles are prior-LCS reuses, so external concept count and
+disposition remain unchanged.
+
+Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues / 87 keys**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical delta is
+zero.
+
+Consuming this source's sole path and unique hash changes the remainder from **15 paths / 15
+unique hashes** to **14 paths / 14 unique hashes**: tier 3 remains **0 / 0**, tier 6 remains
+**8 paths / 8 unique hashes within tier**, and rank 9 becomes **6 paths / 6 unique hashes
+within rank**. Family 215's checksums were
+`27facebf1e6dd6ca11f14e562b583c11a877e5eff226d1dcb2329ea7ee662b18` (paths) and
+`e8f4e2db309e8a225b15c6ea5fcfd79c0170d7b6aecda998db4f47ca35cc182d` (unique hashes).
+For the exact post-Family-216 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`dd5783e34cf74e1b413e182ce730a940fa1e489603cc53b445308741d4dc1497`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`9e335962ffbfb098899f11140ad44022a76bab2cc89b3a4101dffe04896c0f78`.
+
+The exact next manifest-order debt is rank-9 `src_008f0ddf3fef93edce53`,
+`Year 1/LCS 103/Histology/Questions/Histology Bone.QUES.pdf` (253,736 bytes; 12 native-text
+612 x 792 pt US-Letter pages; SHA-256
+`008f0ddf3fef93edce5379b9c254ba4bc623a777934950a8bb475f838ae2f436`). Its hash and content
+are already inventoried in Family 215 through the exact-hash local `Bone.QUES.pdf`; the next
+step must consume only this separate manifest path with zero second content inventory after
+identity verification. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 14 tier-6/
+rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
+import or source copy was created.
