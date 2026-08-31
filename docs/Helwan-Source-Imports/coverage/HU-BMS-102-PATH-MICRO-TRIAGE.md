@@ -26963,3 +26963,120 @@ The exact next unprocessed BMS-102 record is tier-9 `src_bf798364bbdd9f654fc0` �
 Word creation is 17 February 2024, and modification is 20 April 2026. Its complete authority,
 prompt/key/written/image/practical boundary, same-source/prior collapse, eligible gate, arithmetic,
 and subsequent exact debt remain to be separately adjudicated.
+
+## Family 265 — Dr El-Sawy keyed metabolism and biotransformation MCQ bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_bf798364bbdd9f654fc0` · `MCQs - MCQ Metabolism.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `bf798364bbdd9f654fc009a31ac6eccb853192fc7ee9325cd91cee6df16ff0a0` · **626,472 bytes** |
+| Format / complete visual boundary | **Six native-text portrait A4 pages, PDF 1.6**. All six pages were rendered at 170 dpi into six non-empty 1,406×1,988-pixel images, read page by page at original detail, and reread in one ordered six-page contact sheet. Coherent layout extraction contains **781 words / 7,231 bytes** and agrees with every heading, source number, stem, option, answer letter, footer, and page number. No form, JavaScript, encryption, hidden response layer, page, or crop remainder exists. |
+| Visible provenance | Every page visibly headers `Pharmacology / MCQ`, titles the first page `MCQ ON METABOLISM`, and footers **`DR . El-Sawy`**. Printed page numbers run 2–7. No page visibly names a university/faculty, Helwan, BMS-102/module code, academic year, sitting, marks, candidate, duration, or departmental approval. |
+| Metadata caution | Metadata Author is `Mamdouh`; Creator/Producer are Microsoft Word 2016; creation is 17 February 2024 and modification is 20 April 2026. Those export fields are secondary to the visible Dr El-Sawy attribution and cannot establish teaching date, academic year, sitting, or institutional authority. |
+| Authority / eligibility | Instructor-attributed keyed revision bank in the local Helwan BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary assessment evidence**, not an official Helwan exam, departmental key, authenticated sitting, or practical record. |
+
+### Complete prompt, answer, written, image, and practical boundary
+
+| Physical page / source refs | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q4 | Competitive microsomal-enzyme metabolism inhibition; `hard drugs` excreted unchanged; major Phase-I enzyme; microsomal versus non-microsomal inducibility | **4 keyed four-option text MCQs**. |
+| 2 · Q5–Q8 | Glucuronyl-transferase coupling; metabolism-site exception; Phase-I reaction exception; CYP450 majority of Phase-I reactions | **4 keyed four-option text MCQs**. |
+| 3 · Q9–Q12 | Phase-I transformation set; conjugation definition; Phase-II reaction identification; enzyme-induction dose consequence | **4 keyed four-option text MCQs**. |
+| 4 · Q13–Q16 | Biotransformation solubility direction; Phase-I/Phase-II sequence; prodrug definition; inducible enzyme type | **4 keyed four-option text MCQs**. |
+| 5 · Q17–Q20 | Biotransformation/lipid-solubility direction; microsomal oxidation and water solubility; oral first pass; high hepatic first pass and oral bioavailability | **4 keyed four-option text MCQs**. |
+| 6 · Q21–Q23 | Acetylation as Phase II; Phase-II exception; biotransformation and urinary excretion | **3 keyed four-option text MCQs**. |
+
+The exact source-local boundary is **23 raw prompt occurrences = 23 keyed four-option text MCQs**,
+with **23 source-supplied answer letters / 0 unkeyed prompts**. There are **0 True/False items, 0
+matching items, 0 completion blanks, 0 free-response written operations, 0 drawings, 0 image-
+bearing prompts, 0 authenticated practical stations, 0 candidate responses, 0 teaching-only
+callouts, and 0 prompt-like residues**. All source wording, spelling, and answer letters are retained
+without silent medical correction or endorsement.
+
+### Retention, 19-handle registry, 76-search completion, and prior-BMS reconciliation
+
+All **23** source occurrences remain retained records. Four semantic reductions preserve every
+occurrence and key while avoiding proposition double counting: Q3/Q8 (CYP450 as the major Phase-I
+enzyme), Q5/Q11 (glucuronidation as a Phase-II reaction), Q7/Q9 (Phase I comprises oxidation,
+reduction, and hydrolysis rather than conjugation), and Q13/Q17 (biotransformation generally
+reduces lipid solubility/increases water solubility). The different Phase-II examples in Q11 and
+Q21 remain distinct, as do the general versus microsomal-oxidation consequences in Q13/Q17 and
+Q18. Thus **`23 retained - 4 semantic reductions = 19 accepted source-distinct handles`**.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q4 | `microsomal-enzyme-competition-decreases-drug-metabolism`; `hard-drug-not-metabolized-excreted-unchanged`; `cytochrome-p450-major-phase-one-enzyme` (Q3,Q8); `nonmicrosomal-enzymes-not-induced-or-inhibited` |
+| Q5–Q12 | `glucuronyl-transferase-coupling-phase-two-reaction` (Q5,Q11); `adrenal-glands-not-drug-metabolism-site`; `phase-one-oxidation-reduction-hydrolysis-not-conjugation` (Q7,Q9); `conjugation-couples-drug-endogenous-substrate`; `microsomal-enzyme-induction-requires-dose-increase` |
+| Q13–Q18 | `biotransformation-less-lipid-more-water-soluble` (Q13,Q17); `lipophilic-drug-phase-one-then-phase-two-water-solubilization`; `prodrug-inactive-transformed-active-metabolite`; `microsomal-enzymes-inducible`; `microsomal-oxidation-increases-ionization-water-solubility` |
+| Q19–Q23 | `oral-route-most-first-pass-metabolism`; `high-hepatic-first-pass-low-oral-bioavailability`; `acetylation-phase-two-reaction`; `phase-two-exception-reduction`; `biotransformation-faster-urinary-excretion` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+coverage, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102 Families 1–264:
+**`19 × 4 = 76 required and completed searches`**. Each packet used the accepted source-first
+slug/stem, tested proposition, answer/terminal phrase, and an enzyme, phase, solubility, first-pass,
+or prior-handle variant. Exact current slugs produced no competing live, ready, or pending object;
+semantic prior relations were adjudicated separately.
+
+Exactly **17** accepted handles reuse prior BMS assessment scope: microsomal-enzyme competition/
+inhibition; CYP450/Phase I; glucuronidation and acetylation as Phase II; liver/kidney/lung metabolism
+sites; oxidation/reduction/hydrolysis; conjugation with endogenous substrate; enzyme-induction dose
+increase; biotransformation toward water solubility and urinary excretion; Phase-I-to-Phase-II
+sequence; prodrug activation; microsomal inducibility; oral and hepatic first pass; low oral
+bioavailability; and reduction as the Phase-II exception. These reconcile principally to Families
+202, 223, 238, and 257. Only the carrier's `hard-drug` unchanged-excretion terminology and the
+non-microsomal non-inducibility operation lack prior accepted same-scope handles. Therefore concept
+arithmetic is **`19 - 17 = +2`**.
+
+### Family-265 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 265 | Auxiliary cumulative (Families 12–265) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 23 MCQ | 3,431 | 762 | 4,193 |
+| Eligible source-supplied answers | 23; 0 unkeyed | 2,417 | 405 | 2,822 |
+| Retained eligible question records | 23 | 3,135 | 552 | 3,687 |
+| Accepted handles / required searches | 19 / 76 | 2,813 / — | — | — |
+| Prior-BMS handle reuses | 17 | — | — | subtract before concept addition |
+| Cross-family concept delta | +2 | +1,427 over primary | 372 | 1,799 |
+| **Distinct tested concepts** | **19 source-local / +2** | **1,427 additions** | **372** | **1,799** |
+
+The checksum closes: **23 prompts = 23 answers + 0 unkeyed**; **23 raw - 0 literal exclusions =
+23 retained**; **23 retained - 4 semantic reductions = 19 handles**; **19 × 4 = 76 searches**;
+and **19 handles - 17 prior reuses = +2 concepts**. Auxiliary arithmetic is `3,408 + 23 =
+3,431` prompts, `2,394 + 23 = 2,417` answers, `3,112 + 23 = 3,135` retained, `2,794 + 19
+= 2,813` handles, and `1,425 + 2 = 1,427` concept additions. All eligible arithmetic is
+`762 + 3,431 = 4,193`, `405 + 2,417 = 2,822`, `552 + 3,135 = 3,687`, and `372 + 1,427 =
+1,799`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,431 prompts / 2,417 answers /
+3,135 retained / 2,813 handles / +1,427 concepts**. All eligible becomes **4,193 / 2,822 /
+3,687 / 1,799**. Family 265 establishes low-authority instructor-attributed keyed revision
+evidence only—not an official exam, authenticated sitting, departmental key, practical station,
+recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 265
+
+`src_bf798364bbdd9f654fc0` is exhausted across all six native/rendered pages: every heading, source
+number, stem, option, answer token, replay, footer, authority limitation, metadata field, search
+packet, prior-family relation, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-265 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 265
+governs **1 selected path / 1 unique hash**. The governed set through Family 265 is therefore
+**330 paths / 319 unique hashes**, leaving exactly **32 ungoverned selected paths / 29 unique
+hashes**. Checksums are **330 + 32 = 362 paths** and **319 + 29 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`4cf442b086e86dd5869b7f600470e58771ba9f6d0bc0dda397c3a4988e9fb5b8`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`16bab90627a7fbb156a30039bb762f6401df45f1bb5176cde93984481463b9bd`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_0397c4fba588d2059357` ·
+`MCQs - MCQ Module 103.pdf`, SHA-256
+`0397c4fba588d205935706c6b90a48364c494b580517cba7baef74fcca29ef8c`, **2,214,785 bytes**,
+**10 native-text portrait US-letter pages** under `Pharmacology / Questions / MCQs`. Its cover
+visibly reads `MCQ Module (103)` and **Dr. Ahmed Abdelrahman**; iOS/Quartz metadata capture is 5 May
+2021. Its exact module/institutional authority, prompt/key/written/image/practical boundary,
+same-source/prior collapse, eligible gate, arithmetic, and subsequent exact debt remain to be
+separately adjudicated.
