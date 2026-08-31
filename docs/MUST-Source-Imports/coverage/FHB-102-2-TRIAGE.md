@@ -2608,3 +2608,29 @@ Removing the eighty-five processed hashes leaves **9 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf`, SHA-256 `ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3`, 46 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 9 selected inventory paths / 9 unique hashes remain untriaged.
+
+## Completed source — `Antibiotics Introd Mechan`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf` | `ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3` | 46 | audit-not-found | pages 1–46 rendered and read | PowerPoint for Microsoft 365 teaching deck titled `Antimicrobial Agents` and carrying `Jost` author metadata. The visible slides contain no authenticated MUST platform, institution, department, module, lecturer, examiner, sitting, marks scheme or faculty-key declaration. |
+
+### Exact boundary and answer state
+
+Page 1 is an antibiotics word-cloud cover. Pages 2–5 establish antimicrobial chemotherapy, antibiotic definitions and the drug-host-bacteria relationship. Pages 6–13 cover bactericidal and bacteriostatic principles, ideal-agent criteria, antibiotic selection and combination therapy. Pages 14–24 cover post-antibiotic effect, MIC and antimicrobial pharmacodynamics. Pages 25–32 cover cell-wall structure, antibacterial targets and cell-wall-active agents. Pages 33–38 cover protein-synthesis inhibitor classes and mechanisms. Pages 39–45 cover nucleic-acid and folate inhibitors plus mechanism and spectrum summaries. Page 46 is a multilingual thank-you closer. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 44 teaching-reference pages / 1 non-assessment cover / 1 non-assessment closing page**.
+
+Rhetorical headings such as `What is an antibiotic?`, `What is the ideal antibiotic?` and `What influences the choice of antibiotic?` are immediately answered teaching headings rather than assessment fields. No answer is inferred and no diagram, graph, table or labelled mechanism is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This eighty-sixth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-six processed hashes leaves **8 selected inventory paths / 8 unique SHA-256s**. Their sorted-newline checksum is `344212354f8a2535cc717df3103fd37e80727ba4816b5a329253562a7ab2217b`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 8 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`86 + 8 = 94`** and path accounting is **`88 + 8 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/B-Lactam and Vancomycin.pdf`, SHA-256 `100c06013545f596ed39d298f3f9e8b2ec782c5dfdb42ddf8e5eb21c033c1fd4`, 29 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 8 selected inventory paths / 8 unique hashes remain untriaged.

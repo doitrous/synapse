@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "5eb02b092922eeef0fe5024cf0d63bc799a186cfcc8455ee9608f6f2c6e0e598",
-    "triageMarkdown": "79a7f8946b1632712622653c3d303025e88f7766c1aaf6f81091c69c186d5ba8"
+    "readinessMarkdown": "bc90f77598282a4c6a7687380251f81f8867f87cb431acd39051271f9743b088",
+    "triageMarkdown": "b940de1b7a357efed8a58b006f15ec868181a51ce73434bda51820f427355332"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -150,12 +150,13 @@
       "e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
+      "ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fca512413dacd95eeb9c00487fa1a7f9fc7e78ab195f3aeb0ac3c295bc16398b",
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 85
+    "uniqueSha256": 86
   },
   "completedSourceCoverage": [
     {
@@ -5366,6 +5367,116 @@
         "the named lecturer and conflicting Jost metadata are retained as separate provenance observations without promotion to authenticated MUST authority",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3",
+      "sourcePages": 46,
+      "renderedReadPages": "1-46",
+      "coverPages": 1,
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 44,
+      "nonAssessmentCloserPages": 1,
+      "closerPages": [
+        46
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Antibiotics word-cloud cover",
+          "pages": "1",
+          "coverPages": 1,
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Antimicrobial chemotherapy, antibiotic definitions and drug-host-bacteria foundation",
+          "pages": "2-5",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Bactericidal and bacteriostatic principles, ideal-agent criteria, selection and combination therapy",
+          "pages": "6-13",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 8
+        },
+        {
+          "section": "Post-antibiotic effect, MIC and antimicrobial pharmacodynamics",
+          "pages": "14-24",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 11
+        },
+        {
+          "section": "Cell-wall structure, antibacterial targets and cell-wall-active agents",
+          "pages": "25-32",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 8
+        },
+        {
+          "section": "Protein-synthesis inhibitor classes and mechanisms",
+          "pages": "33-38",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 6
+        },
+        {
+          "section": "Nucleic-acid and folate inhibitors plus mechanism and spectrum summaries",
+          "pages": "39-45",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 7
+        },
+        {
+          "section": "Multilingual thank-you closer",
+          "pages": "46",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0,
+          "nonAssessmentCloserPages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all forty-four content pages are fully revealed teaching and reference slides with no assessment prompt field; rhetorical heading questions such as What is an antibiotic and What is the ideal antibiotic are immediately answered teaching headings rather than assessment occurrences, so no prompt replay comparison is applicable and no diagram, table or labelled mechanism is reverse-engineered into a question",
+      "authorityDisposition": "PowerPoint for Microsoft 365 teaching deck titled Antimicrobial Agents and carrying Jost author metadata; the visible slides contain no authenticated MUST platform, institution, department, module, lecturer, examiner, sitting, marks scheme or faculty-key declaration",
+      "boundaryDisposition": "page 1 is an antibiotics word-cloud cover, pages 2-45 are declarative antimicrobial chemotherapy, pharmacodynamics and mechanism teaching/reference slides, and page 46 is a multilingual thank-you closer; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, forty-four teaching-reference pages, one non-assessment cover and one non-assessment closing page",
+      "preservedSourceDefects": [
+        "printed spelling, grammar, diagrams, tables, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "rhetorical headings, numbered mechanisms, arrows, graphs and labelled pathway diagrams are declarative teaching structure rather than assessment prompts",
+        "the Jost metadata author observation is retained without inventing lecturer identity or promoting the carrier to authenticated MUST authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -5887,27 +5998,33 @@
     "pages": 14,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightySixthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf",
     "sha256": "ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3",
     "pages": 46,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/B-Lactam and Vancomycin.pdf",
+    "sha256": "100c06013545f596ed39d298f3f9e8b2ec782c5dfdb42ddf8e5eb21c033c1fd4",
+    "pages": 29,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 9,
-    "uniqueSha256": 9,
-    "sortedNewlineSha256": "072630bf0c201686853e11d771113a2ef7c2b38bd8d45b0c174f7612abd89b67",
+    "inventoryMetadataRows": 8,
+    "uniqueSha256": 8,
+    "sortedNewlineSha256": "344212354f8a2535cc717df3103fd37e80727ba4816b5a329253562a7ab2217b",
     "auditSampleStatusCounts": {
-      "audit-not-found": 9
+      "audit-not-found": 8
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 9
+    "audit-not-found": 8
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 85,
-    "remainingUniqueSha256": 9,
+    "processedUniqueSha256": 86,
+    "remainingUniqueSha256": 8,
     "processedPlusRemaining": 94
   }
 }
