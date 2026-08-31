@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 6,
+ "count": 7,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -132,6 +132,30 @@
    "sha256": "b75f65f2298d0fcbc5f3a95d74b10caa96b314adada37f04fb78285f12f02247",
    "processingStatus": "fully_governed",
    "pageCount": 47,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_a82c32271ee38d0b2cad": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/7.Sandfly.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/7.Sandfly.pdf"
+   ],
+   "sha256": "a82c32271ee38d0b2cadb2f976a6eff205ab27693fab5f3906ea85798fc99bbd",
+   "processingStatus": "fully_governed",
+   "pageCount": 34,
    "languages": [
     "en"
    ],

@@ -327,3 +327,58 @@ Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 tea
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_a82c32271ee38d0b2cad
+
+## title
+FHB102-2 Arthropod Vectors for Disease Transmission — sandflies
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Parasitology Department; PDF metadata author HEBA
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/7.Sandfly.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-08-31
+
+## page_count
+34
+
+## sha256
+a82c32271ee38d0b2cadb2f976a6eff205ab27693fab5f3906ea85798fc99bbd
+
+## rights
+Faculty-distributed university teaching material; internal curriculum use.
+
+## qualification
+Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 13 and 24 directly connect Phlebotomus with Leishmania and the Sinai volcano-like cutaneous lesion pattern.
+
+## confidence
+0.9
+
+## is_assessment
+no
