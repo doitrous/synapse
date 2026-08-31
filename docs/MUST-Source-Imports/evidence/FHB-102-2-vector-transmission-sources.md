@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25 and Q26 are content/key-form holds. Q14 through Q19, Q22 and Q24 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25 and Q26 are content/key-form holds. Q14 through Q19, Q22, Q24 and Q27 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
 
 ## confidence
 0.55
@@ -926,7 +926,7 @@ a3d71ccbc276ec9032139e5e3dd914098fe589223320777a8df7d7051e21738e
 Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
-All 53 pages were rendered for bounded source location; pages 1, 4, 24–26 and 30 were directly visually read for Q25, and the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies MUST College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 25–26 define phenotypic variation as reversible, non-heritable, affected by environmental conditions and reversible when the environmental cause is removed. Page 25 places mutation and gene transfer under genotypic variation, while p30 describes mutation as heritable and irreversible. These statements directly contradict Q25's printed B and support offered option C, but do not authenticate or replace the bank key.
+All 53 pages were rendered for bounded source location; pages 1, 4, 24–26, 30–31, 33 and 35 were directly visually read for Q25–Q27, and the other pages are not claimed as visually governed in these slices. Page 1 visibly identifies MUST College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 25–26 define phenotypic variation as reversible, non-heritable, affected by environmental conditions and reversible when the environmental cause is removed. Page 25 places mutation and gene transfer under genotypic variation, while p30 describes mutation as heritable and irreversible. These statements directly contradict Q25's printed B and support offered option C, but do not authenticate or replace the bank key. Page 31 introduces transformation among gene-transfer mechanisms, page 33 defines transformation as transfer of free (naked) DNA from a donor to a recipient, and page 35 states that dying bacteria release free DNA which other bacteria can take up in nature. Those pages support Q27's unchanged printed A but do not authenticate its anonymous key.
 
 ## confidence
 0.95
