@@ -2448,3 +2448,31 @@ Removing the seventy-nine processed hashes leaves **15 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Questions (Final).pdf`, SHA-256 `5b63fc5abbeced52990af9ad0f802fab2a95c00f10e8ec1e90e646c44310f1e8`, 33 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 15 selected inventory paths / 15 unique hashes remain untriaged.
+
+## Completed source — `Pharmacology FHB102-2 Questions (Final)`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology FHB102-2 Questions (Final).pdf` | `5b63fc5abbeced52990af9ad0f802fab2a95c00f10e8ec1e90e646c44310f1e8` | 33 | substantive-text | pages 1–33 rendered and read | Microsoft Word-authored personal revision carrier titled `Pharmacology FHB102-2 Questions (Final)`, bearing `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud` author metadata and an `Absalam101` footer credit. No authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Pages 1–9 contain a Protein Synthesis Inhibitors Q1–Q30 sequence and complete answer table. Pages 10–17 contain an Anti-Folates Q1–Q30 sequence and complete answer table. Pages 18–25 contain a Nucleoprotein Inhibitors Q1–Q30 sequence and complete answer table. Pages 26–33 contain an Anti-Fungal Q1–Q30 sequence and complete answer table. The exact physical boundary is **120 ordinary objective MCQs / 120 prompt-matched printed answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. All 120 complete fields are internally unique. The four tables are retained as personal revision-source observations rather than promoted to authenticated faculty keys.
+
+### Replay and exactly-four-search gate
+
+Normalized stem screening against all seventy-nine prior processed families yields four candidates. Complete prompt-plus-option comparison rejects each: Protein Q8 is only a prefix of a longer calcifying-tissue question; Protein Q17 matches explanatory written-answer prose rather than the same assessment field; Nucleoprotein Q10 omits the prior slow-acetylator condition and changes its options; and Anti-Fungal Q28 is an optioned field while the prior occurrence is a longer unoptioned written prompt. The exact replay count is therefore **0 prompts / 0 answers**, and all **120 questions / 120 answers** survive.
+
+Eight source-first handles cover aminoglycoside and tetracycline pharmacology; chloramphenicol, macrolide, linezolid and clindamycin pharmacology; sulfonamide and trimethoprim mechanisms and pharmacokinetics; antifolate uses, adverse effects and interactions; fluoroquinolone and rifampicin pharmacology; tuberculosis and leprosy therapy; antifungal classes and mechanisms; and antifungal uses, adverse effects and interactions. All eight collapse to prior FHB-102-2 evidence. Search arithmetic is **8 source-first − 8 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+The cover's `120 Questions` claim agrees with the physical four-times-thirty boundary but does not establish examination authority. Protein Q26's five-option form, printed spelling such as `candidias` and `Amphotreccin`, and academically questionable answer claims remain literal source truth without correction.
+
+### Delta, cumulative totals and next source
+
+This eightieth one-path hash is now `sourceProcessed=true`, adding **+120 questions / +120 answers / +0 concepts**. Cumulative triage is **5,429 questions / 5,196 answers / 62 concepts**.
+
+Removing the eighty processed hashes leaves **14 selected inventory paths / 14 unique SHA-256s**. Their sorted-newline checksum is `61f3544240690292e1b2f797d51b9a51dd10691dbb52e56ad33e1c8b1aecc5e8`. Remaining audit-review debt is **3 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`80 + 14 = 94`** and path accounting is **`82 + 14 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM MCQs - Pharmacology Written FHB102-2 Questions (Final).pdf`, SHA-256 `7a7e327a05a996ee0e64555cf28ef341734cd8d486dd8dabf3c13f04cf523085`, 4 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 14 selected inventory paths / 14 unique hashes remain untriaged.
