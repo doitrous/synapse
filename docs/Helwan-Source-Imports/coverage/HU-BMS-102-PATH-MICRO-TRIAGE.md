@@ -23741,3 +23741,93 @@ The exact next unprocessed BMS-102 record is tier-6 `src_e1ff119ca2a6d824d547` �
 Its complete sectional render/OCR boundary, visible authority, teaching/prompt/key/practical
 ruling, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt
 remain to be separately adjudicated.
+
+## Family 235 — anonymous XMind metabolism, excretion, and clearance teaching map
+
+### Source identity, full-page/sectional visual boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_e1ff119ca2a6d824d547` · `Mind_Map_Drug_Metabolism_Excretion_and_Clearance.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `e1ff119ca2a6d824d54772170b7f516fb6dc370c4415fabb4df77591a26e5ebc` · **1,183,047 bytes** |
+| Format / complete visual boundary | **One nominally OCR-needed 1,191×842-point landscape A3 page, PDF 1.7**. The full page was rendered at 300 dpi into a non-empty 4,963×3,509-pixel overview and reread through four overlapping 300-dpi section crops. Every central title, coloured branch, connector, node, formula, mnemonic, diagram label, category tag, and footer is assigned below; there is no crop or page remainder. |
+| Text/OCR reality | The embedded but font-corrupted layout layer yields **1,690 words / 29,023 bytes**; replacement characters make it unsuitable as sole wording authority. Tesseract over the full render yields **404 words / 3,309 bytes** and assists navigation. Original-resolution render/crops control the handwritten-style wording, symbols, renal diagram, and branch hierarchy. No form, JavaScript, encryption, interactive answer layer, or hidden prompt layer exists. |
+| Visible provenance | Central title is `Pharmacokinetics: Metabolism & Excretion` with subtitle `Hepatic biotransformation and renal elimination dictating drug kinetics`; footer is `Presented with xmind`. No author, instructor, university/faculty, module code, academic year, sitting, date, candidate field, marks, or assessment title is visible. |
+| Metadata caution | Creator is Mozilla Firefox 149.0.2, producer is cairo 1.18.0, and creation is 11 April 2026. These browser-export fields do not establish authorship, academic year, delivery date, or sitting. The manifest's `instructor: Ug` is not visibly corroborated; local BMS-102 placement supplies context only. |
+| Authority | Anonymous local tier-6 pharmacokinetics study map. It is teaching/format evidence, not an authenticated Helwan lecture, assessment, answer key, or practical station. |
+
+### Exhaustive branch-first teaching, prompt, answer, callout, and practical boundary
+
+| Main branch | Exhausted visible content | Boundary ruling |
+|---|---|---|
+| Metabolism phases | Biotransformation objective and prodrug/toxic-metabolite examples; Phase-I polar-group unmasking by oxidation/reduction/hydrolysis, microsomal CYP450 and CYP3A4 note; Phase-II glucuronidation/acetylation/sulfation, polar inactive products, and glucuronidation exception | Completed definitions, mechanisms, examples, and exception notes: **0 prompts / 0 answers / 0 practical**. |
+| CYP450 modulators & genetics | Inducer mechanism, tolerance consequence, `GPRS Cell Phone` mnemonic, and inducer list; inhibitor mechanism, toxicity consequence, vitamin-K mnemonic, and inhibitor list; atypical-cholinesterase/succinylcholine, isoniazid acetylator, and neonatal CYP450/glucuronyl-transferase pharmacogenetic notes | Completed teaching classifications and supplied consequences: **0 / 0 / 0**. |
+| Elimination & ion trapping | Renal-clearance definition; GFR plus active tubular secretion; protein binding versus filtration; low-GFR consequence; ionized-excreted versus unionized-reabsorbed rule; supplied aspirin/amphetamine urine-pH examples; labelled charged-molecule/tubular-reabsorption diagram; breast-milk pH/fat and lactation examples | Completed definitions, rules, management examples, and supplied diagram: **0 / 0 / 0**. `[SKETCH]` introduces a diagram already present and labelled; it is not a drawing task or practical station. |
+| Pharmacokinetics & steady state | First- versus zero-order elimination, constant-fraction/constant-amount contrast, half-life/clearance consequences, and `Zero WATT Power` mnemonic; half-life definition, alpha/beta phases, approximate five-half-life steady-state/elimination notes; therapeutic-drug-monitoring definition, narrow-index use, drug classes, and prodrug exception | Completed comparison, mnemonic, definitions, and clinical-use notes: **0 / 0 / 0**. |
+
+The bracketed tags—`Definition`, `Mechanism`, `Adverse Effect`, `NUANCE`, `HIGH YIELD`,
+`Kinetics`, `Clinical Impact`, `Classification`, `EXCEPTION`, `VERSUS`, `Rx`, `MNEMONIC`, and
+`SKETCH`—categorize already complete teaching nodes. None contains or introduces a question mark,
+imperative stem, option set, missing-term cue, candidate-response field, answer marker, or key
+directionality. The single renal illustration discloses its charged-molecule and tubular-
+reabsorption relationship, so it is neither an image-identification prompt nor an authenticated
+practical operation.
+
+The governed source-local assessment boundary is therefore **0 MCQs + 0 True/False + 0 written
+prompts + 0 completion blanks + 0 image-identification prompts + 0 practical stations = 0 raw
+prompt occurrences**, with **0 source-supplied answers, 0 unkeyed prompts, 0 retained records, and
+0 prompt-like residues**. Source formulations—including `Zero WATT Power`, the stated CYP3A4
+percentage, `Vitamin K Cannot Cause Enzyme Inhibition`, and the displayed urine-pH examples—are
+preserved as source truth rather than silently repaired, endorsed, or converted into medical
+guidance.
+
+### Zero-handle four-search gate, prior-BMS ruling, and cumulative arithmetic
+
+No assessment handle survives the source-first boundary. The standing gate is exactly **`0
+accepted handles × 4 = 0 required and completed searches`**; no empty search packet, external
+disposition, or synthetic prior row is fabricated. The map revisits biotransformation, enzyme
+induction/inhibition, renal clearance, ion trapping, half-life, kinetic order, and monitoring
+concepts already taught or assessed across Families 202–234, but teaching overlap is not a new
+tested-handle occurrence. Prior-BMS assessment reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 235 | Auxiliary cumulative (Families 12–235) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 2,790 | 762 | 3,552 |
+| Eligible source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained eligible question records | 0 | 2,494 | 552 | 3,046 |
+| Accepted handles / required searches | 0 / 0 | 2,227 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,110 over primary | 372 | 1,482 |
+| **Distinct tested concepts** | **+0** | **1,110 additions** | **372** | **1,482** |
+
+The checksum closes at zero: zero prompts yield zero answers, retained records, handles, searches,
+prior reuses, or concept additions. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains
+**2,790 prompts / 1,828 answers / 2,494 retained / 2,227 handles / +1,110 concepts**. All eligible
+remains **3,552 / 2,233 / 3,046 / 1,482**. Family 235 establishes anonymous metabolism/excretion
+teaching and source-format evidence only, not assessment, official key, authenticated practical,
+verified year, medical guidance, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 235
+
+`src_e1ff119ca2a6d824d547` is exhausted across its full A3 page and four overlapping sectional
+crops: every branch, node, connector, diagram, mnemonic, category tag, source irregularity,
+provenance term, zero gate, and arithmetic term is assigned once, with **zero source remainder** and
+no Family-235 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 235 is **296 paths / 289 unique hashes**, leaving exactly **66 selected paths / 59
+unique hashes**. Checksums are **296 + 66 = 362 paths** and **289 + 59 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `b33041daea73989689f9c62f86c595a11e78103b8264955c14804b67b341fb7c`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`964f561d8d447c32a16a6130b43ae43e3a8798207819105d54196b619cc12dd9`.
+
+The exact next unprocessed BMS-102 record is tier-6 preferred name twin
+`src_ffd396e27faa828dcf46` · `POSOLOGY..pdf`, SHA-256
+`ffd396e27faa828dcf4628faa160dba6595ca843355f4d3029c5e134cdbe27de`, **381,293 bytes**,
+**six native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first page
+visibly begins `Pharmacology / Posology` and defines dose and dosage regimen; metadata author is
+`Mamdouh` and creation/modification is 6 April 2026. Its preferred-twin/near-duplicate relation,
+complete visual/native boundary, visible authority, teaching/prompt/key/practical ruling,
+four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to
+be separately adjudicated.
