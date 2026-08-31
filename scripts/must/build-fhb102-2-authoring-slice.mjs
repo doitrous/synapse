@@ -40,6 +40,7 @@ const mycologyResourceId = 'src_72a4c07c4877d4b58c3f'
 const bacterialGeneticsResourceId = 'src_a3d71ccbc276ec903213'
 const antifungalDrugResourceId = 'src_bbf7f72f08ce85032b4d'
 const bacterialGrowthResourceId = 'src_da7cc51e7ac1ee22c68a'
+const bacterialCellResourceId = 'src_88ddfa49fe01adee5444'
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -151,7 +152,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25, Q26 and Q28 are content/key-form holds. Q14 through Q19, Q22, Q24 and Q27 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25, Q26 and Q28 are content/key-form holds. Q14 through Q19, Q22, Q24, Q27 and Q29 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
 
 ## confidence
 0.55
@@ -1149,6 +1150,61 @@ Pages 1 and 25–26 were rendered and visually read for the bounded Q28 assessme
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+${bacterialCellResourceId}
+
+## title
+Introduction to Microbiology and Bacterial Cell Structure
+
+## institution
+Misr University for Science and Technology, College of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 1,2,3 INTRODUCTION_TO_MICROBIOLOGY_&_BACTERIAL_CELL_STRUCTURE.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025-02-08
+
+## accessed_at
+2026-09-01
+
+## page_count
+42
+
+## sha256
+88ddfa49fe01adee544433ce1dce313110c9dc622debf1dc3d6ef85a7606d674
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1 and 28–29 were rendered and visually read for the bounded Q29 assessment; the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Page 28 states that Gram-positive bacteria have a thick peptidoglycan layer, specified as 40 sheets and 50% of wall thickness, while Gram-negative bacteria have only 1–2 sheets; page 29 diagrams the peptidoglycan lattice. These pages support Q29's unchanged printed D but do not authenticate its anonymous key.
+
+## confidence
+0.95
+
+## is_assessment
+no
 `
 }
 
@@ -1157,7 +1213,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 19,
+    count: 20,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -1408,6 +1464,19 @@ function corpusSourceIndex() {
         sha256: 'da7cc51e7ac1ee22c68a6d16a89b5975e98a1274d6edaa6e046e5c99b072f7bc',
         processingStatus: 'partially_governed_selected_pages',
         pageCount: 40,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
+      },
+      [bacterialCellResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 1,2,3 INTRODUCTION_TO_MICROBIOLOGY_&_BACTERIAL_CELL_STRUCTURE.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 1,2,3 INTRODUCTION_TO_MICROBIOLOGY_&_BACTERIAL_CELL_STRUCTURE.pdf'],
+        sha256: '88ddfa49fe01adee544433ce1dce313110c9dc622debf1dc3d6ef85a7606d674',
+        processingStatus: 'partially_governed_selected_pages',
+        pageCount: 42,
         languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
@@ -6809,16 +6878,16 @@ Generated by \`scripts/must/build-fhb102-2-authoring-slice.mjs\`. This file is a
 
 | Kind | Created | Status |
 |---|---:|---|
-| Evidence resources | 19 | local-only source records; Q24–Q28 lecture records retain explicit bounded visual-read pages |
+| Evidence resources | 20 | local-only source records; Q24–Q29 lecture records retain explicit bounded visual-read pages |
 | Claims | 8 | verified against local curriculum citations; independent review still owed |
 | Citations | 13 | local curriculum |
 | Article spans | 8 | linked to the clean-key claims |
 | Concepts | 8 | under review / needs evidence |
 | Articles | 8 | Draft |
 | Questions | 8 | Draft |
-| Question authoring holds | 20 | no student-facing record authored |
+| Question authoring holds | 21 | no student-facing record authored |
 
-The first eight slices authored Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 with printed keys unchanged. The ninth slice assesses Q13 and Q14 but authors neither: Q13 is ambiguous because two offered answers are supported, while Q14's printed A is clean but its required reciprocal article update cannot pass the focused dependency contract without replacing older live links or introducing unrelated article updates. The tenth through fourteenth slices confirm the printed keys for Q15 through Q19 against governed local teaching but apply dependency-contract holds because no honest, standalone-complete related-article dependency exists inside each bounded slice. The fifteenth and sixteenth slices hold Q20 and Q21 because the governed teaching deck directly contradicts their printed keys. The seventeenth slice confirms Q22 but holds it because its exact pending concept cannot be resolved locally without pulling a broad cross-university article/evidence dependency chain into this bounded slice. The eighteenth slice holds Q23 because its printed keyed option says “transcription and translocation of viral particles,” while the governed local handout teaches distinct Transcription and Translation stages and does not support that wording. The nineteenth slice confirms Q24's printed C but holds it because its fungal eukaryote identity overlaps a pending broad cross-university concept/article chain that cannot be safely imported or duplicated inside one question. The twentieth slice holds Q25 because the official MUST genetics lecture identifies phenotypic variation as reversible and not a mutation, directly contradicting printed B. The twenty-first slice holds Q26 because the official MUST antifungal lecture identifies nystatin as a polyene that binds ergosterol and creates fungal-membrane pores, directly contradicting printed A and supporting offered B. The twenty-second slice confirms Q27's printed A but holds it because the exact transformation concept already exists in a pending broad cross-university genetics article chain that cannot be safely imported, duplicated or overwritten inside one question. The twenty-third slice holds Q28 because the official MUST bacterial-growth lecture states that exacting heterotrophs require organic forms of both carbon and nitrogen, directly contradicting printed D and supporting offered A. No key was changed and no Q13–Q28 student-facing record was created.
+The first eight slices authored Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 with printed keys unchanged. The ninth slice assesses Q13 and Q14 but authors neither: Q13 is ambiguous because two offered answers are supported, while Q14's printed A is clean but its required reciprocal article update cannot pass the focused dependency contract without replacing older live links or introducing unrelated article updates. The tenth through fourteenth slices confirm the printed keys for Q15 through Q19 against governed local teaching but apply dependency-contract holds because no honest, standalone-complete related-article dependency exists inside each bounded slice. The fifteenth and sixteenth slices hold Q20 and Q21 because the governed teaching deck directly contradicts their printed keys. The seventeenth slice confirms Q22 but holds it because its exact pending concept cannot be resolved locally without pulling a broad cross-university article/evidence dependency chain into this bounded slice. The eighteenth slice holds Q23 because its printed keyed option says “transcription and translocation of viral particles,” while the governed local handout teaches distinct Transcription and Translation stages and does not support that wording. The nineteenth slice confirms Q24's printed C but holds it because its fungal eukaryote identity overlaps a pending broad cross-university concept/article chain that cannot be safely imported or duplicated inside one question. The twentieth slice holds Q25 because the official MUST genetics lecture identifies phenotypic variation as reversible and not a mutation, directly contradicting printed B. The twenty-first slice holds Q26 because the official MUST antifungal lecture identifies nystatin as a polyene that binds ergosterol and creates fungal-membrane pores, directly contradicting printed A and supporting offered B. The twenty-second slice confirms Q27's printed A but holds it because the exact transformation concept already exists in a pending broad cross-university genetics article chain that cannot be safely imported, duplicated or overwritten inside one question. The twenty-third slice holds Q28 because the official MUST bacterial-growth lecture states that exacting heterotrophs require organic forms of both carbon and nitrogen, directly contradicting printed D and supporting offered A. The twenty-fourth slice confirms Q29's printed D but holds it because the Gram-positive thick-peptidoglycan identity already has two raw corpus candidates and an overlapping pending cross-university cell-wall chain that cannot be safely duplicated or overwritten inside one question. No key was changed and no Q13–Q29 student-facing record was created.
 
 ### Second-slice delta
 
@@ -6973,6 +7042,13 @@ The first eight slices authored Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 with printe
 - +1 explicit key-conflict hold: Q28's anonymous bank prints **D, Oxygen**. The official lecture states that exacting heterotrophic bacteria require both organic forms of carbon and nitrogen for growth, directly supporting offered **A, Organic source of carbon and nitrogen**. No replacement answer was imported and printed D remains source evidence only.
 - Search gate: \`exacting heterotrophic bacteria organic carbon nitrogen\`, \`exacting bacteria nutritional requirements\`, \`heterotrophic bacteria both organic carbon and nitrogen\`, \`fastidious bacteria organic carbon nitrogen\`, and the exact stem returned no tool match. Manual pending-doc review found exact pending ASU concept \`CON-INF-9386E80307EC94\` and article \`ART-INF-GROWTH-REQUIREMENTS-NUTRITION\`; they independently preserve the organic-carbon-and-nitrogen requirement but were not imported, duplicated or used to overwrite the MUST key.
 
+### Twenty-fourth-slice delta
+
+- +1 bounded evidence resource: pages 1 and 28–29 of the official 42-page MUST Introduction to Microbiology and Bacterial Cell Structure lecture were rendered and visually read for Q29; the other pages are not claimed as visually governed by this slice.
+- 0 claims, citations, article spans, concepts, articles or questions: no student-facing Q29 content was emitted.
+- +1 explicit dependency/identity hold: Q29's unchanged printed **D, Have cell wall containing multiple layers of peptidoglycan**, agrees with the lecture's statement that Gram-positive bacteria have a thick peptidoglycan layer of 40 sheets, versus 1–2 sheets in Gram-negative bacteria. Manual collision review found raw corpus candidates \`concept_5590f9ee7f2d30a322063e69\` and \`concept_c8d5af408cd7b5e10a8ed7d9\`, plus overlapping pending ASU concept \`CON-INF-7E3B831D71A008\` and broad article \`ART-INF-CELL-WALL-OUTER-MEMBRANE\`. No duplicate identity was minted and no cross-university chain was imported or overwritten.
+- Search gate: \`gram positive thick peptidoglycan cell wall\`, \`gram positive multiple peptidoglycan layers\`, \`gram positive cell wall composition\`, \`thick peptidoglycan gram positive bacteria\`, and the exact stem returned no tool match. Manual corpus and pending-doc review supplied the identity decision above.
+
 ## Explicit authoring holds
 
 - **Q2 is held.** The anonymous bank prints **B, filariform**, while the malaria-pattern stem asks the stage inoculated by the vector and the department carrier states **I.S. → sporozoite** on p6. No Q2 student-facing record was authored, and no replacement answer was imported.
@@ -6995,6 +7071,7 @@ The first eight slices authored Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 with printe
 - **Q26 is held.** The anonymous bank prints **A, Inhibit viral RNA synthesis**, while its options also include **B, interferes with fungal cell membrane function**. The official MUST Antifungal Drugs lecture identifies nystatin as a polyene on p18 and states that polyenes bind fungal-membrane ergosterol and create pores. No Q26 student-facing record was authored, and printed A was not corrected, replaced or silently taught as B.
 - **Q27 is held on the dependency/identity contract, not on its printed key.** The anonymous bank prints **A, Free bacteria DNA transfer to other bacteria**. The official MUST Bacterial Genetics lecture defines transformation on p33 as transfer of free (naked) DNA from a donor to a recipient and states on p35 that dying bacteria release free DNA which other bacteria take up in nature. The unchanged key is therefore clean. However, exact pending concept \`CON-INF-42D77BF4AB3ADD\` and broad pending article \`ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY\` already represent transformation within a multi-mechanism ASU genetics chain. No duplicate concept was minted, no cross-university chain was imported or overwritten, and no Q27 student-facing record was authored.
 - **Q28 is held.** The anonymous bank prints **D, Oxygen**, while its options also include **A, Organic source of carbon and nitrogen**. The official MUST Bacterial Growth lecture states on p25 that exacting heterotrophic bacteria require both organic forms of carbon and nitrogen for growth. Pending ASU concept \`CON-INF-9386E80307EC94\` independently preserves the same requirement. No Q28 student-facing record was authored, and printed D was not corrected, replaced or silently taught as A.
+- **Q29 is held on the dependency/identity contract, not on its printed key.** The anonymous bank prints **D, Have cell wall containing multiple layers of peptidoglycan**. The official MUST Introduction to Microbiology and Bacterial Cell Structure lecture states on p28 that Gram-positive bacteria have a thick peptidoglycan layer of 40 sheets and 50% of wall thickness, while Gram-negative bacteria have only 1–2 sheets. The unchanged key is therefore clean. However, two raw corpus candidates already express the thick-peptidoglycan identity and pending ASU concept/article \`CON-INF-7E3B831D71A008\` / \`ART-INF-CELL-WALL-OUTER-MEMBRANE\` overlap it inside a broader wall-composition chain. No duplicate concept was minted, no cross-university chain was imported or overwritten, and no Q29 student-facing record was authored.
 
 Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25, Q26 and Q28 require an authorised medical reviewer to resolve the item disposition before authoring: retain verbatim with a formal source-key correction, rewrite and retire the source wording, or exclude the item. Q14 through Q19 may proceed only when their article dependencies can be represented honestly without clobbering governed live links, inventing unrelated content or weakening the focused validator.
 
@@ -7004,15 +7081,17 @@ Q24 may proceed only after the fungal eukaryote identity is resolved against the
 
 Q27 may proceed only after its exact pending transformation concept and broad article/evidence dependencies are made live or can be represented as standalone-complete cross-university updates without overwriting ASU provenance.
 
-## Exact backlog after twenty-three slices
+Q29 may proceed only after the Gram-positive thick-peptidoglycan identity is reconciled across its raw corpus candidates and pending ASU wall-composition chain, or can be represented as a standalone-complete update without duplication or provenance loss.
 
-- Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including the 20 explicit holds.
-- Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 20 held printed-key observations.
-- Opening 32-prompt normalized family: 8 authored, 20 held, and **4 not yet assessed for authoring**; therefore **24 prompts remain in the authoring backlog**, of which Q32 is source-absent.
+## Exact backlog after twenty-four slices
+
+- Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including the 21 explicit holds.
+- Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 21 held printed-key observations.
+- Opening 32-prompt normalized family: 8 authored, 21 held, and **3 not yet assessed for authoring**; therefore **24 prompts remain in the authoring backlog**, of which Q32 is source-absent.
 - Record-level backlog is not asserted as 5,436 unique records: repeated and near-repeated prompts must still be deduplicated during authoring, per the one-question-one-record rule.
 
 ## Upload state
 
-No MUST content has been uploaded or imported. All eight student-facing articles and questions remain Draft; all eight concepts use the concept schema's non-published \`under review\` state and \`publication_status: needs_evidence\`. Q2, Q3, Q4, Q6, Q13 through Q28 exist only as authoring-ledger holds.
+No MUST content has been uploaded or imported. All eight student-facing articles and questions remain Draft; all eight concepts use the concept schema's non-published \`under review\` state and \`publication_status: needs_evidence\`. Q2, Q3, Q4, Q6, Q13 through Q29 exist only as authoring-ledger holds.
 `
 }

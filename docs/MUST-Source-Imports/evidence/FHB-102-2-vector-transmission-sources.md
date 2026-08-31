@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25, Q26 and Q28 are content/key-form holds. Q14 through Q19, Q22, Q24 and Q27 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23, Q25, Q26 and Q28 are content/key-form holds. Q14 through Q19, Q22, Q24, Q27 and Q29 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
 
 ## confidence
 0.55
@@ -1037,6 +1037,61 @@ Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
 Pages 1 and 25–26 were rendered and visually read for the bounded Q28 assessment; the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Page 25 states that exacting heterotrophic bacteria require both organic forms of carbon and nitrogen for growth; page 26 describes parasitic heterotrophs. The page-25 statement directly supports offered option A and contradicts Q28's printed D, but it does not authenticate or replace the anonymous bank key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_88ddfa49fe01adee5444
+
+## title
+Introduction to Microbiology and Bacterial Cell Structure
+
+## institution
+Misr University for Science and Technology, College of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/CH 1,2,3 INTRODUCTION_TO_MICROBIOLOGY_&_BACTERIAL_CELL_STRUCTURE.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025-02-08
+
+## accessed_at
+2026-09-01
+
+## page_count
+42
+
+## sha256
+88ddfa49fe01adee544433ce1dce313110c9dc622debf1dc3d6ef85a7606d674
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1 and 28–29 were rendered and visually read for the bounded Q29 assessment; the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Page 28 states that Gram-positive bacteria have a thick peptidoglycan layer, specified as 40 sheets and 50% of wall thickness, while Gram-negative bacteria have only 1–2 sheets; page 29 diagrams the peptidoglycan lattice. These pages support Q29's unchanged printed D but do not authenticate its anonymous key.
 
 ## confidence
 0.95
