@@ -73,6 +73,7 @@
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
+      "1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea",
       "20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de",
       "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
@@ -136,7 +137,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 66
+    "uniqueSha256": 67
   },
   "completedSourceCoverage": [
     {
@@ -3827,11 +3828,49 @@
         "page-boundary scroll overlaps are counted once by question number",
         "printed spelling, grammar, dated recommendations and academically questionable prompt claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea",
+      "sourcePages": 5,
+      "renderedReadPages": "1-5",
+      "objectiveMcqPrompts": 20,
+      "writtenPrompts": 0,
+      "printedKeyObservations": 20,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 4,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 20,
+      "familyAnswerDelta": 20,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "bactericidal and bacteriostatic selection plus Gram-stain framing",
+        "antimicrobial cell-wall and protein-synthesis mechanisms",
+        "nucleic-acid and folate-pathway inhibitors",
+        "antimicrobial adverse effects plus concentration-dependent and time-dependent pharmacodynamics"
+      ],
+      "authorityDisposition": "Word-authored LEC 1 general chemotherapy MCQ practice handout with Shady Mohammad Zaki in the PDF author property and FHB attribution only in the inventory filename; no visible institution, MUST platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is present, so the Quick Answer Key remains a handout answer observation",
+      "boundaryDisposition": "five rendered pages contain one continuous Q1-Q20 sequence; Q17 straddles pages four and five but remains one field, and the page-five Quick Answer Key supplies one printed answer for every question, leaving twenty ordinary objective MCQs, twenty answer observations and zero absent, written, practical, image-dependent or teaching-only occurrences",
+      "replayDisposition": "complete stem-plus-option comparison against the completed FHB-102-2 family finds no exact prior assessment-field replay, so all twenty questions and all twenty printed answers survive",
+      "preservedSourceDefects": [
+        "the missing beta glyph is preserved as -lactam in questions four and twenty",
+        "the quick key is retained exactly as printed and is not promoted to authenticated faculty authority",
+        "printed simplifications, grammar and academically questionable claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 5002,
-    "printedKeyObservations": 4769,
+    "printedPromptObservations": 5022,
+    "printedKeyObservations": 4789,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -4233,31 +4272,37 @@
     "pages": 7,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "sixtySeventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - mcq pharma1 FHB.pdf",
     "sha256": "1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea",
     "pages": 5,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - pharma fhb 102-2 by salama.pdf",
+    "sha256": "346f87242b75a96f83216cf3975a04282624d76af6e8054c8730909926cacd2d",
+    "pages": 39,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 28,
-    "uniqueSha256": 28,
-    "sortedNewlineSha256": "4da703767ac5565696ba25839644b0fe76b530995e80d8e517bd72396ea35e1b",
+    "inventoryMetadataRows": 27,
+    "uniqueSha256": 27,
+    "sortedNewlineSha256": "295118f20a2a18ca15e28163b908ed2229c365262c8d605391a3a8a986f2aa44",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "sparse-text": 7,
-      "substantive-text": 10
+      "substantive-text": 9
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "sparse-text": 7,
-    "substantive-text": 10
+    "substantive-text": 9
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 66,
-    "remainingUniqueSha256": 28,
+    "processedUniqueSha256": 67,
+    "remainingUniqueSha256": 27,
     "processedPlusRemaining": 94
   }
 }

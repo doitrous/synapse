@@ -2244,3 +2244,29 @@ Removing the sixty-six processed hashes leaves **28 selected inventory paths / 2
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - mcq pharma1 FHB.pdf`, SHA-256 `1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea`, 5 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 28 selected inventory paths / 28 unique hashes remain untriaged.
+
+## Completed source — `mcq pharma1 FHB` general-chemotherapy practice
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - mcq pharma1 FHB.pdf` | `1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea` | 5 | substantive-text | pages 1–5 rendered and read | Word-authored `LEC 1 general chemotherapy MCQ practice` handout with `Shady Mohammad Zaki` in the PDF author property and FHB attribution only in the inventory filename; no visible institution, MUST platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration. |
+
+### Exact boundary and answer state
+
+The five rendered pages contain one continuous **Q1–Q20** sequence: Q1–Q4 on page 1, Q5–Q8 on page 2, Q9–Q12 on page 3, Q13–Q17A on page 4, and Q17B–Q20 plus a complete `Quick Answer Key` on page 5. Q17 straddles the page boundary but is one field. The exact unique boundary is **20 ordinary objective MCQs / 20 printed answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**. The quick key is retained as a handout answer observation rather than promoted to authenticated faculty-key authority.
+
+### Replay and exactly-four-search gate
+
+Complete stem-plus-option comparison against the completed FHB-102-2 family finds no exact prior assessment-field replay, so all **20 questions / 20 answers** survive.
+
+Four source-first handles cover bactericidal/bacteriostatic selection and Gram-stain framing; antimicrobial cell-wall and protein-synthesis mechanisms; nucleic-acid and folate-pathway inhibitors; and antimicrobial adverse effects plus concentration/time-dependent pharmacodynamics. All four collapse to prior FHB-102-2 evidence. Search arithmetic is **4 source-first − 4 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This sixty-seventh one-path hash is now `sourceProcessed=true`, adding **+20 questions / +20 answers / +0 concepts**. Cumulative triage is **5,022 questions / 4,789 answers / 62 concepts**.
+
+Removing the sixty-seven processed hashes leaves **27 selected inventory paths / 27 unique SHA-256s**. Their sorted-newline checksum is `295118f20a2a18ca15e28163b908ed2229c365262c8d605391a3a8a986f2aa44`. Remaining audit-review debt is **9 substantive-text / 7 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`67 + 27 = 94`** and path accounting is **`69 + 27 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - pharma fhb 102-2 by salama.pdf`, SHA-256 `346f87242b75a96f83216cf3975a04282624d76af6e8054c8730909926cacd2d`, 39 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 27 selected inventory paths / 27 unique hashes remain untriaged.

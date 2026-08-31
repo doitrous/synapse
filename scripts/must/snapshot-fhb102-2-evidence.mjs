@@ -75,9 +75,10 @@ const PROCESSED_FAMILY_HASHES = [
   'e2dff78742250a8d7f778f2431724d8eedd21bea41cb4c9e9f04670beeab336a',
   '44571f8f9fc79493e261a97807914ab9e7127afc102b33fd997c71433eab6217',
   'd787ff1868b620e9ffa46aacb390074c49aadaa67a4687b26792c3a625ea3fc7',
+  '1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '4da703767ac5565696ba25839644b0fe76b530995e80d8e517bd72396ea35e1b'
+const REMAINING_CHECKSUM = '295118f20a2a18ca15e28163b908ed2229c365262c8d605391a3a8a986f2aa44'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -474,10 +475,16 @@ const SIXTY_SIXTH_SOURCE = {
   pages: 7,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const SIXTY_SEVENTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - mcq pharma1 FHB.pdf',
   sha256: '1f9a64fcab03438c34c7ba82cf11c620e4e6c6d2049ae93cc58dc5f545bb30ea',
   pages: 5,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - pharma fhb 102-2 by salama.pdf',
+  sha256: '346f87242b75a96f83216cf3975a04282624d76af6e8054c8730909926cacd2d',
+  pages: 39,
   sourceProcessed: false,
 }
 
@@ -556,10 +563,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 10 }
+  const expected = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 9 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=10-substantive/7-sparse/0-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=9-substantive/7-sparse/0-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -641,6 +648,9 @@ for (const value of [SIXTY_FIFTH_SOURCE.relativePath, SIXTY_FIFTH_SOURCE.sha256]
 for (const value of [SIXTY_SIXTH_SOURCE.relativePath, SIXTY_SIXTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
+for (const value of [SIXTY_SEVENTH_SOURCE.relativePath, SIXTY_SEVENTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
   throw new Error('Readiness/triage evidence missing selected-set path/hash boundary')
 }
@@ -684,7 +694,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 66 || remainingHashes.length !== 28 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 67 || remainingHashes.length !== 27 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -692,7 +702,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 10 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'sparse-text': 7, 'substantive-text': 9 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2929,8 +2939,37 @@ const provenance = {
       replayDisposition: 'normalized complete stem-plus-option comparison proves a sequence-preserving twenty-five-of-twenty-five bijection to the immediately preceding Special Chemotherapy answer carrier; the sibling already contributed every family question and answer, so this unkeyed carrier adds zero governed questions and zero answers',
       preservedSourceDefects: ['all twenty-five answers remain source-absent in this carrier and none is inferred as a new observation from the sibling', 'page-boundary scroll overlaps are counted once by question number', 'printed spelling, grammar, dated recommendations and academically questionable prompt claims remain source truth without correction'],
     },
+    {
+      sha256: SIXTY_SEVENTH_SOURCE.sha256,
+      sourcePages: 5,
+      renderedReadPages: '1-5',
+      objectiveMcqPrompts: 20,
+      writtenPrompts: 0,
+      printedKeyObservations: 20,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 4,
+      priorFhb1022CollapsedHandles: 4,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      exactReplayPromptObservations: 0,
+      replayAnswerObservations: 0,
+      familyQuestionDelta: 20,
+      familyAnswerDelta: 20,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['bactericidal and bacteriostatic selection plus Gram-stain framing', 'antimicrobial cell-wall and protein-synthesis mechanisms', 'nucleic-acid and folate-pathway inhibitors', 'antimicrobial adverse effects plus concentration-dependent and time-dependent pharmacodynamics'],
+      authorityDisposition: 'Word-authored LEC 1 general chemotherapy MCQ practice handout with Shady Mohammad Zaki in the PDF author property and FHB attribution only in the inventory filename; no visible institution, MUST platform, department, examiner, sitting, marks scheme or authenticated faculty-key declaration is present, so the Quick Answer Key remains a handout answer observation',
+      boundaryDisposition: 'five rendered pages contain one continuous Q1-Q20 sequence; Q17 straddles pages four and five but remains one field, and the page-five Quick Answer Key supplies one printed answer for every question, leaving twenty ordinary objective MCQs, twenty answer observations and zero absent, written, practical, image-dependent or teaching-only occurrences',
+      replayDisposition: 'complete stem-plus-option comparison against the completed FHB-102-2 family finds no exact prior assessment-field replay, so all twenty questions and all twenty printed answers survive',
+      preservedSourceDefects: ['the missing beta glyph is preserved as -lactam in questions four and twenty', 'the quick key is retained exactly as printed and is not promoted to authenticated faculty authority', 'printed simplifications, grammar and academically questionable claims remain source truth without correction'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 5002, printedKeyObservations: 4769, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 5022, printedKeyObservations: 4789, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -2997,6 +3036,7 @@ const provenance = {
   sixtyFourthSourceCandidate: SIXTY_FOURTH_SOURCE,
   sixtyFifthSourceCandidate: SIXTY_FIFTH_SOURCE,
   sixtySixthSourceCandidate: SIXTY_SIXTH_SOURCE,
+  sixtySeventhSourceCandidate: SIXTY_SEVENTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
