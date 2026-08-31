@@ -1046,3 +1046,29 @@ Removing the twenty-four processed hashes leaves **72 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - mcq all.pdf`, SHA-256 `d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa`, 12 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 72 selected inventory paths / 70 unique hashes remain untriaged.
+
+## Completed source — mcq all
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - mcq all.pdf` | `d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa` | 12 | substantive-text | pages 1–12 rendered and read | Anonymous Microsoft Word/python-docx revision bank created in June 2025. No author, institution, department, FHB 102-2 module authentication, examiner, sitting, marks or authenticated faculty-key claim is visible. Inline green-check answers are source answer evidence, not an official MUST key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–7 contain one numbered `30 MCQs with Answers` sequence. Pages 7–12 contain a separately numbered `20 Case-Based MCQs with Answers` sequence. Every prompt carries one inline `Answer` token. The exact boundary is **50 objective MCQs / 50 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, split **30 conventional / 20 case-based MCQs**.
+
+The two independently numbered sections remain distinct physical assessment sequences. Case stems and conventional items that test the same concept remain separate physical prompt occurrences. Printed wording, simplified clinical claims and academically questionable answer tokens remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The fifty prompts collapse source-first into seven coherent handles: bacterial genetics and resistance mechanisms; bacterial growth, nutrition and oxygen relationships; antibacterial mechanisms, classes, adverse effects and resistance; antiviral mechanisms, uses and adverse effects; bacteriophage structure and transduction; clinical bacteriology and healthcare-associated infection; and medical mycology plus antifungal therapy. All seven are established by prior module-wide, General Bacteriology & Mycology, General Virology, Micro–Immune, antimicrobial and bacterial-genetics/growth carriers, so **0 accepted × 4 = 0 searches**. The bank is distinct rather than an exact normalized prompt-sequence sibling. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-fifth one-path hash is now `sourceProcessed=true`, adding **+50 questions / +50 answers / +0 concepts**. Cumulative triage is **2,557 questions / 2,401 answers / 62 concepts**.
+
+Removing the twenty-five processed hashes leaves **71 selected inventory paths / 69 unique SHA-256s**. Their sorted-newline checksum is `0c3b43f8f876c4b3d60979d53532ea8d2fb8aca511776d1f06bfa89a3e484663`. Remaining audit-review debt is **29 substantive-text / 19 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`25 + 69 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - FHB102 FINAL REVISION 2025.pdf`, SHA-256 `eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8`, 52 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 71 selected inventory paths / 69 unique hashes remain untriaged.

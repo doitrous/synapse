@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "0fd4e47d38affca3f21d5bcadbb92bafd488efef90d5782abb0f750f2320c9f8",
-    "triageMarkdown": "0698ea9e69e7cbdaefe2824e6c4a333d96b4b8926eb19f27da51c6c8c3c8622f"
+    "readinessMarkdown": "b04ed79ab34cda12d732f9f796365552fe64366b071ff0bb5e3623bbe4ecdb9b",
+    "triageMarkdown": "31c213384266913bdc63ff953c58c9ae79e14105248ac4742bcad3d0c0013538"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -88,13 +88,14 @@
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
+      "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 24
+    "uniqueSha256": 25
   },
   "completedSourceCoverage": [
     {
@@ -1483,11 +1484,58 @@
         "the Mowafiat Q1-Q8 and Written Q1-Q6 remain explicitly unkeyed",
         "duplicate option labels, spelling, the Arabic note at General microbiology Q19 and academically questionable wording or answer tokens remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
+      "sourcePages": 12,
+      "renderedReadPages": "1-12",
+      "questionAndAnswerPages": "1-12",
+      "printedPromptObservations": 50,
+      "objectiveMcqPrompts": 50,
+      "conventionalMcqPrompts": 30,
+      "caseBasedMcqPrompts": 20,
+      "printedKeyObservations": 50,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "30 MCQs with Answers",
+          "questionAndAnswerPages": "1-7",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "20 Case-Based MCQs with Answers",
+          "questionAndAnswerPages": "7-12",
+          "prompts": 20,
+          "answers": 20
+        }
+      ],
+      "sourceFirstHandles": 7,
+      "priorFhb1022CollapsedHandles": 7,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 50,
+      "familyAnswerDelta": 50,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous python-docx Microsoft Word-generated revision bank created June 2025, with no visible author, institution, department, FHB 102-2 module authentication, examiner, sitting, marks or authenticated faculty-key claim; each inline green-check answer is source answer evidence rather than an official MUST key",
+      "boundaryDisposition": "pages 1-7 contain one numbered 30 MCQs with Answers sequence and pages 7-12 contain one independently numbered 20 Case-Based MCQs with Answers sequence; every prompt has one inline Answer token; fifty objective prompt occurrences and fifty prompt-matched answer observations with no written, practical, image-identification or teaching boundary",
+      "preservedSourceDefects": [
+        "the two independently numbered sections remain distinct physical assessment sequences",
+        "case stems and conventional items that test the same concept remain separate physical prompt occurrences",
+        "printed wording, simplified clinical claims and academically questionable answer tokens remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2507,
-    "printedKeyObservations": 2351,
+    "printedPromptObservations": 2557,
+    "printedKeyObservations": 2401,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1637,22 +1685,28 @@
     "pages": 8,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentyFifthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - mcq all.pdf",
     "sha256": "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
     "pages": 12,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - FHB102 FINAL REVISION 2025.pdf",
+    "sha256": "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
+    "pages": 52,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 72,
-    "uniqueSha256": 70,
-    "sortedNewlineSha256": "44bd73392491c1c88610358c1011f49aafa5784ac922af65822f91dea44b6072",
+    "inventoryMetadataRows": 71,
+    "uniqueSha256": 69,
+    "sortedNewlineSha256": "0c3b43f8f876c4b3d60979d53532ea8d2fb8aca511776d1f06bfa89a3e484663",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 19,
-      "substantive-text": 30
+      "substantive-text": 29
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1660,12 +1714,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 19,
-    "substantive-text": 30
+    "substantive-text": 29
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 24,
-    "remainingUniqueSha256": 70,
+    "processedUniqueSha256": 25,
+    "remainingUniqueSha256": 69,
     "processedPlusRemaining": 94
   }
 }
