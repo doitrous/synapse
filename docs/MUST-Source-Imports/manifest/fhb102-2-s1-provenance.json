@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "0c895bb996b7be9eca41db209bc033b7cbe44c2c1414611982dbf81af1a24505",
-    "triageMarkdown": "97739613d6509a00d7ca1d6bd90f4f432628b8504ab362a3720729a028cd4694"
+    "readinessMarkdown": "126f14428aa54a44da9ac6e6e0ab810140f50fc77f1a75e838adb5860d602829",
+    "triageMarkdown": "9cb890bb664efb4fe6c38cf260d8889791aa411c303441cf881c2ea6d730cfaa"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -101,6 +101,7 @@
       "a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2",
       "a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a",
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
+      "b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
       "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
@@ -115,7 +116,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 45
+    "uniqueSha256": 46
   },
   "completedSourceCoverage": [
     {
@@ -2808,11 +2809,90 @@
         "explanatory note blocks remain annotations rather than independent questions or answers",
         "printed spelling, terminology and academically questionable prompt or answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f",
+      "sourcePages": 42,
+      "renderedReadPages": "1-42",
+      "questionPages": "1-9, 11-18, 19-26, 27-34, 35-39, 41-42",
+      "answerTablePages": "10, 18, 26, 34, 40, 42",
+      "printedPromptObservations": 145,
+      "objectiveMcqPrompts": 145,
+      "printedKeyObservations": 145,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBreakdown": [
+        {
+          "section": "Pre-Midterm",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Lice",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Fleas & Bugs",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Ticks",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Cyclops & Scorpions",
+          "prompts": 20,
+          "answers": 20
+        },
+        {
+          "section": "Diagnostic Parasitology",
+          "prompts": 5,
+          "answers": 5
+        }
+      ],
+      "sourceFirstHandles": 11,
+      "priorFhb1022CollapsedHandles": 11,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "directPriorPromptReplays": 2,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 145,
+      "familyAnswerDelta": 145,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "host-parasite relationships",
+        "arthropod vector transmission modes",
+        "flies and myiasis",
+        "lice and louse-borne disease",
+        "fleas and flea-borne disease",
+        "triatomine bugs and Chagas disease",
+        "ticks and tick-borne disease",
+        "Cyclops morphology and vector roles",
+        "scorpions and envenomation",
+        "ectoparasite diagnosis and control",
+        "direct and indirect diagnostic parasitology"
+      ],
+      "authorityDisposition": "named Absalam101 FHB102-2 revision bank whose Microsoft Word metadata identifies 200057470-Abdel Salam Muhammad Abdel Salam Mahmoud; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "six independently numbered sections contain thirty Pre-Midterm, thirty Lice, thirty Fleas & Bugs, thirty Ticks, twenty Cyclops & Scorpions and five Diagnostic Parasitology conventional text MCQs, each with one prompt-matched answer-table token; exact total one hundred forty-five objective prompts and one hundred forty-five answers, with zero source-absent, written, practical, image-dependent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "the cover claim of 140 Questions conflicts with the visible 145-item six-section boundary and is preserved without governing the count",
+        "answer tables are source-answer evidence rather than an authenticated faculty key",
+        "two isolated direct prompt replays remain physical occurrences in this distinct non-sibling carrier",
+        "printed spelling, terminology and academically questionable prompt or answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4024,
-    "printedKeyObservations": 3833,
+    "printedPromptObservations": 4169,
+    "printedKeyObservations": 3978,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3088,33 +3168,39 @@
     "pages": 23,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortySixthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Parasitology FHB102-2 Questions (Final).pdf",
     "sha256": "b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f",
     "pages": 42,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Intro) Midterm Notes.pdf",
+    "sha256": "20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de",
+    "pages": 1,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 49,
-    "uniqueSha256": 49,
-    "sortedNewlineSha256": "075e5e8db4f22327bd7e9e649b2227295b50b2ef8d933d0529286a9e646fba0d",
+    "inventoryMetadataRows": 48,
+    "uniqueSha256": 48,
+    "sortedNewlineSha256": "991d2f782eb3d05808d32e138f74876945869a520d28856c18219008e0525740",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 5,
       "sparse-text": 11,
-      "substantive-text": 22
+      "substantive-text": 21
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 5,
     "sparse-text": 11,
-    "substantive-text": 22
+    "substantive-text": 21
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 45,
-    "remainingUniqueSha256": 49,
+    "processedUniqueSha256": 46,
+    "remainingUniqueSha256": 48,
     "processedPlusRemaining": 94
   }
 }

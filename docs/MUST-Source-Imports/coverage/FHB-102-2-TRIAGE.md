@@ -1686,3 +1686,31 @@ Removing the forty-five processed hashes leaves **49 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Parasitology FHB102-2 Questions (Final).pdf`, SHA-256 `b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f`, 42 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 49 selected inventory paths / 49 unique hashes remain untriaged.
+
+## Completed source — Parasitology FHB102-2 Questions Final
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Parasitology FHB102-2 Questions (Final).pdf` | `b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f` | 42 | substantive-text | pages 1–42 rendered and read | Named Absalam101 FHB102-2 revision bank whose Microsoft Word metadata identifies `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud`; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact objective, answer and section boundary
+
+The six independently numbered sections contain **30 Pre-Midterm + 30 Lice + 30 Fleas & Bugs + 30 Ticks + 20 Cyclops & Scorpions + 5 Diagnostic Parasitology = 145 conventional text MCQs**. Answer tables on pages 10, 18, 26, 34, 40 and 42 supply one token for every prompt: **145 prompt-matched answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**.
+
+The cover's printed claim of `140 Questions` conflicts with the visible 145-item boundary and does not govern the count. The answer tables remain source-answer evidence rather than an authenticated faculty key. Two isolated direct prior prompt replays remain physical occurrences in this distinct non-sibling carrier. Printed spelling, terminology and academically questionable prompt or answer claims remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The eleven source-first handles cover host-parasite relationships; arthropod vector transmission modes; flies and myiasis; lice and louse-borne disease; fleas and flea-borne disease; triatomine bugs and Chagas disease; ticks and tick-borne disease; *Cyclops* morphology and vector roles; scorpions and envenomation; ectoparasite diagnosis and control; and direct/indirect diagnostic parasitology. All eleven collapse to already represented FHB-102-2 evidence.
+
+Search arithmetic is **11 source-first − 11 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-sixth one-path hash is now `sourceProcessed=true`, adding **+145 questions / +145 answers / +0 concepts**. Cumulative triage is **4,169 questions / 3,978 answers / 62 concepts**.
+
+Removing the forty-six processed hashes leaves **48 selected inventory paths / 48 unique SHA-256s**. Their sorted-newline checksum is `991d2f782eb3d05808d32e138f74876945869a520d28856c18219008e0525740`. Remaining audit-review debt is **21 substantive-text / 11 sparse-text / 5 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`46 + 48 = 94`** and path accounting is **`48 + 48 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Intro) Midterm Notes.pdf`, SHA-256 `20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de`, 1 page, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 48 selected inventory paths / 48 unique hashes remain untriaged.
