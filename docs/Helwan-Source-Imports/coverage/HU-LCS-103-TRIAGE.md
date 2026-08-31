@@ -22783,3 +22783,104 @@ portrait-A4 pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
 unclassified until all 16 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
 — NOT APPROVED`:** 12 tier-6/rank-9 path debts remain. No download, source edit, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 219 — Tier-6 named soft-tissue and bone-tumor condensed teaching handout
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_95e1d8b89979af6413f1` / `95e1d8b89979af6413f119a5eb16f34f4952674f2c787b554b61d70a7ef5f041` |
+| Exact path | `Year 1/LCS 103/Pathology/Notes and Summaries/bone tumors.pdf` |
+| Physical verification | **1,343,201 bytes; 16 native-text 595.32 x 842.04 pt portrait-A4 pages; tagged; unencrypted; no form; PDF 1.7**. Full hash, size, page count and geometry match. All 16 pages were rendered at 160 dpi to 16 distinct images, inspected completely and reconciled against native extraction. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | Every page carries `PATHOLOGY`, `Soft Tissue & Bone Tumors` and the footer `DR . AHMED HASSAN`. Metadata names `Hossam mohammed` as author and records 21 May 2025 creation/modification. No page names Helwan, module 103, a cohort, exam, sitting, marks or answer key. |
+| Authority finding | Named teaching/summary evidence. Attribution and topical fit do not establish eligible sitting or key authority. |
+
+The complete 16-page boundary is:
+
+| Pages | Complete supplied composition |
+|---:|---|
+| 1 | tumor tissue origins, benign/malignant nomenclature and behavior, and soft-tissue category list |
+| 2 | completed lipoma and liposarcoma gross/histology comparisons |
+| 3–4 | completed fibroma, fibromatosis, fibrosarcoma and peripheral-nerve tumor comparisons |
+| 5–7 | completed smooth-muscle, skeletal-muscle, vascular and synovial-sarcoma teaching |
+| 8 | diagnostic-immunohistochemistry note, bone-tumor overview and completed tumor comparison table |
+| 9–10 | bone-forming tumors, osteoma/location fields, periosteal reactions, osteoid osteoma and osteoblastoma |
+| 11–12 | osteosarcoma definition, age/features, radiographs, gross specimen and histology |
+| 13–15 | osteochondroma, enchondroma, chondrosarcoma and the start of Ewing-sarcoma teaching |
+| 16 | Ewing treatment/radiology/histology and completed giant-cell-tumor comparison |
+
+All headings, tables, bullets, gross specimens, micrographs, radiographs and diagrams are
+supplied teaching content. `Diagnosis:` on page 8 is a content heading rather than a learner
+command. No page contains an option set, response area, written task, blank, key or answer
+reveal. Exact assessment delta is **0 eligible prompts / 0 external prompts / 0 ordinary
+MCQs / 0 written prompts / 0 keys-or-answers / 0 unkeyed prompts**.
+
+Source truth remains literal and unrepaired. This includes `Oma`, `A lipoblasts is seen`,
+`fibroblasts fairly defined borders`, page 5's generic second `Smooth muscle` heading,
+`Metastasis is the commonest bone tumors`, `Osteoid osteoma # Osteoblastoma`,
+`Chondromas` under Enchondroma, the split Ewing content across pages 15–16 and the
+`lobulated`/soap-bubble wording. These states are recorded rather than medically repaired
+or endorsed.
+
+### Practical and image boundary
+
+Exactly **14 pages** (2–7 and 9–16) contain supplied gross, histology, radiology or completed
+diagnostic-comparison fields; page 8 adds a completed reference table. Every image field is
+already named, captioned or context-complete. None is masked, numbered for learner
+identification, paired with a station command or supplied as a response task. Exact practical
+delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical
+teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The condensed handout collapses source-first to the same eight complete theoretical handles
+as Family 218:
+
+| Handle / pages | One query on each required surface | Reconciliation |
+|---|---|---|
+| soft-tissue tumor principles and categories · 1 | soft tissue tumors benign malignant sarcoma metastasis hemorrhage necrosis | direct Family-218/LCS theoretical reuse |
+| adipocytic, fibroblastic and peripheral-nerve tumors · 2–4 | lipoma liposarcoma fibroma fibromatosis fibrosarcoma schwannoma neurofibroma | direct Family-218/LCS theoretical reuse |
+| smooth- and skeletal-muscle tumors · 5–6 | leiomyoma leiomyosarcoma rhabdomyosarcoma smooth skeletal muscle tumor | direct Family-218/LCS theoretical reuse |
+| vascular tumors, synovial sarcoma and diagnostic immunohistochemistry · 6–8 | hemangioma angiosarcoma synovial sarcoma S-100 desmin vimentin cytokeratin | direct Family-218/LCS theoretical reuse |
+| bone-tumor overview, osteoma and periosteal reaction · 8–10 | bone tumors metastasis multiple myeloma osteoma periosteal reaction onion skin Codman sunburst | direct Family-218/LCS theoretical reuse |
+| osteoid osteoma, osteoblastoma and osteosarcoma · 10–12 | osteoid osteoma osteoblastoma osteosarcoma osteoid matrix NSAID Codman triangle | direct Family-218/LCS theoretical reuse |
+| cartilage-forming bone tumors · 13–15 | osteochondroma enchondroma chondrosarcoma cartilage forming tumors | direct Family-218/LCS theoretical reuse |
+| Ewing sarcoma and giant-cell tumor of bone · 15–16 | Ewing sarcoma giant cell tumor soap bubble small round cells onion skin | direct Family-218/LCS theoretical reuse |
+
+Each of the **eight accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **8 x 4 =
+32 required search invocations**. Live file-match counts were **0 / 0 / 0 / 0 / 1 / 0 / 0 /
+0**; pending/import-ready counts were all **1**; prior-source counts were all **0**; all
+eight accepted-LCS searches matched. Complete scope comparison gives **8 direct
+Family-218/prior-LCS theoretical reuses / 0 additive live / 0 additive pending / 0 additive
+new teaching scopes**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,537 prompts / 7,261 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 219's
+assessment, practical and disposition deltas are entirely zero.
+
+Consuming this source's sole path and unique hash changes the remainder from **12 paths / 12
+unique hashes** to **11 paths / 11 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**6 paths / 6 unique hashes within tier**, and rank 9 remains **5 paths / 5 unique hashes
+within rank**. Family 218's checksums were
+`9ad16200a43109300eb6349e1349f5f634e9f60bc62b74d17f572e651604ecfc` (paths) and
+`baad5a86158e6ee3076779911bc1875f43ded6909f3ee97ae8c2a097f004349c` (unique hashes).
+For the exact post-Family-219 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`391c81be0b999cf211877bd6fa0ac4464060a7f8162eb087a954afb80f7103ca`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`48f1a9e64c4809d36c816064c1b25f66fa63705344a82028582e6748889c3fb5`.
+
+The exact next manifest-order debt is tier-6 `src_d470a1596cb226545f92`,
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/103_Pharmacology_SEQ_#_CORTICOSTEROIDS_&_ANALGESICS_SHORT_ESSAY.pdf`
+(273,178 bytes; 42 native portrait-A4 pages; tagged; unencrypted; no form; PDF 1.4; SHA-256
+`d470a1596cb226545f929c88a66fc5b106b0ad49531542b0317ed868e0de1da7`). It remains
+unclassified until all 42 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
+— NOT APPROVED`:** 11 tier-6/rank-9 path debts remain. No download, source edit, ID, content
+record, catalogue update, import or source copy was created.
