@@ -24286,3 +24286,117 @@ page begins a keyed atropine/parasympathetic-depressant MCQ set, including an at
 item and a sunburned-skin/local-anaesthetic vignette. Its visible authority, complete keyed/unkeyed,
 written/image/practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and
 subsequent exact next debt remain to be separately adjudicated.
+
+## Family 240 — anonymous keyed parasympathetic-depressant revision set
+
+### Source identity, exhaustive visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_ff378adf26d980974974` · `parasympathetic depressants.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `ff378adf26d980974974108e0057af7efd49bc394021bab84217137d08263995` · **239,297 bytes** |
+| Format / exhaustive read | **9 native-text portrait US-letter pages, 612×792 points, PDF 1.7**. All 9 pages were rendered into 9 non-empty 1224×1584-pixel images and read individually at original detail. Coherent layout extraction contains **947 words / 7,137 bytes** and agrees with all 27 MCQ stems/options, the short-essay blank, page continuations, 27-letter key, and three-part essay answer. `pdfimages -list` reports no embedded raster image; there is no form, JavaScript, encryption, or hidden answer layer. |
+| Visible provenance | Page 1 visibly titles the carrier `Parasympathetic depressants:`; every page repeats only the Arabic devotional header `سبحان الله و بحمده / سبحان الله العظيم`. No person, university/faculty, MHU/Helwan, BMS-102/module code, academic year, sitting/date, marks, duration, candidate field, invigilation, or departmental approval is visible. |
+| Metadata caution | Metadata author is `Eman Ibrahem Hefny Ibrahem`, creator is Microsoft Word, and creation/modification is 14 August 2025. None is visibly corroborated, so author/date remain secondary metadata provenance only and establish neither teaching authorship nor an exam sitting/year. |
+| Authority | Anonymous tier-6 keyed revision material in the local BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, not an authenticated Helwan exam or official departmental key. |
+
+### Complete MCQ, written, key, teaching, image, and practical boundary
+
+| Physical pages / source refs | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q4 start | Atropine passive mydriasis; inflamed-skin local-anaesthetic vignette; mydriasis/cycloplegia muscles; initial IV bradycardia | **4 keyed text MCQs**, with Q4 continuing on page 2. |
+| 2 · Q4 completion–Q8 start | Initial-bradycardia exception; atropine vascular effect; acetylcholine after atropine; blockade of direct cholinomimetics; atropine and peptic ulcer | Q4 continuation plus **4 new keyed text MCQs**, with Q8 continuing on page 3. |
+| 3 · Q8 completion–Q12 start | Atropine/peptic-ulcer use; morphine toxicity clue; atropine/pilocarpine and fundus examination; heart-block treatment; atropine-toxicity CNS reversal | Q8 continuation plus **4 new keyed text MCQs**, with Q12 continuing on page 4. |
+| 4 · Q12 completion–Q16 | Neostigmine versus physostigmine; atropine cautions; scopolamine transdermal feature; preferred pre-anaesthetic; atropine-versus-hyoscine tachycardia | Q12 continuation plus **4 new keyed text MCQs**. |
+| 5 · Q17–Q20 | Pilocarpine after homatropine; tolterodine/M3; tiotropium/BBB; atropine methyl nitrate and infant pyloric spasm | **4 keyed text MCQs**. |
+| 6 · Q21–Q25 start | Propantheline/quaternary compound; tropicamide duration; hyoscine CNS effects; ipratropium/asthma; paediatric urinary-incontinence substitute | **5 keyed text MCQs**, with Q25 continuing on page 7. |
+| 7 · Q25 completion–Q27 + short essay | Emepronium, propantheline property, oxybutynin after urological surgery, and `what is the importance of atropine as pre-anaesthetic medication?` with three numbered answer blanks | Q25 continuation plus **2 new keyed text MCQs + 1 keyed written short-essay operation**. Q21/Q26 repeat the same propantheline/quaternary/limited-CNS tested proposition. |
+| 8 | `Key answers:` Q1–Q27 letters `B,C,A,B,B,C,D,C,A,A,B,A,B,C,B,D,B,A,C,C,B,B,B,C,B,D,C` | **27 source-supplied MCQ answer occurrences**, one per numbered MCQ. |
+| 9 | `Short essay answer:` followed by three red source lines about vagal stimulation/aspiration, respiratory-centre stimulation against morphine, and vomiting/aspiration | **1 source-supplied composite written answer occurrence** mapped to the page-7 essay. Wording and spelling are preserved as source truth, not medically repaired. |
+
+The exhaustive source-local boundary is **28 raw prompt occurrences = 27 MCQs + 1 written short
+essay**, with **28 source-supplied answers / 0 unkeyed prompts**. The essay's three lines are answer
+components of one written operation, not three additional answers. There are **0 image-
+identification operations, 0 authenticated practical stations, 0 drawings requested, 0 candidate
+responses, 0 standalone teaching records, and 0 prompt-like residues**. Layout frames, devotional
+headers, continuation text, and blank answer lines are assigned once and do not add records. All
+printed keys and essay claims are preserved without medical correction or endorsement.
+
+### Retention, 27-handle registry, 108-search completion, and prior-BMS reconciliation
+
+All **28** prompt occurrences remain retained records; there is no literal replay exclusion. Q21
+identifies propantheline from its quaternary/limited-CNS/colic-and-ulcer properties, while Q26 asks
+that same quaternary/limited-CNS proposition directly. Both occurrences and keys remain, but they
+collapse to one tested handle. Thus **`28 retained - 1 semantic reduction = 27 accepted source-
+distinct handles`**.
+
+The complete accepted registry is:
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q9 | `atropine-passive-mydriasis`; `atropine-damaged-inflamed-skin-local-anaesthetic`; `atropine-mydriasis-cycloplegia-constrictor-and-ciliary-muscles`; `intravenous-atropine-initial-bradycardia-mechanism-exception`; `atropine-no-significant-vascular-effect-normal-dose`; `acetylcholine-after-atropine-nicotinic-hypertension`; `atropine-abolishes-methacholine-pilocarpine-bethanechol`; `atropine-peptic-ulcer-use`; `morphine-effect-opposed-by-atropine-and-amphetamine-in-toxicity` |
+| Q10–Q18 | `atropine-pilocarpine-fundus-examination`; `atropine-initial-treatment-beta-blocker-digitalis-heart-block`; `neostigmine-ineffective-cns-atropine-toxicity`; `atropine-caution-bph-and-glaucoma`; `scopolamine-transdermal-absorption-versus-atropine`; `hyoscine-preferred-preanaesthetic`; `atropine-tachycardia-more-prominent-than-hyoscine`; `pilocarpine-antagonizes-homatropine-mydriasis`; `tolterodine-m3-urinary-incontinence-source-key` |
+| Q19–Q27 / essay | `tiotropium-no-bbb-minimal-cns`; `atropine-methyl-nitrate-infant-pyloric-spasm`; `propantheline-quaternary-colic-peptic-ulcer-limited-cns` (Q21,Q26); `tropicamide-shortest-mydriatic-duration`; `hyoscine-cns-depression-amnesia-hypnosis`; `ipratropium-asthma-no-mucociliary-impairment`; `emepronium-paediatric-urinary-incontinence`; `oxybutynin-post-urological-bladder-spasm`; `atropine-preanaesthetic-importance-short-essay` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written state, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102
+Families 1–239: **`27 × 4 = 108 required and completed searches`**. Each packet used the distinctive
+stem, tested proposition, answer/terminal phrase, and drug/topic or prior-handle variant. No pending
+Helwan carrier duplicates this object; external findings do not change source retention.
+
+Exactly **8** handles reuse accepted Family-237 written pharmacology scope: atropine peptic-ulcer
+use (Q8), atropine for bradycardia/heart block (Q11), atropine contraindications in BPH/glaucoma
+(Q13), the scopolamine-versus-atropine comparison (Q14), hyoscine preference as pre-anaesthetic
+(Q15), atropine-versus-hyoscine adverse-effect comparison (Q16), hyoscine CNS effects (Q23), and
+the atropine pre-anaesthetic rationale (essay). The other **19** handles have no accepted prior BMS
+question at the same tested scope. Therefore concept arithmetic is **`27 - 8 = +19`**.
+
+### Family-240 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 240 | Auxiliary cumulative (Families 12–240) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 28 = 27 MCQ + 1 written | 2,987 | 762 | 3,749 |
+| Eligible source-supplied answers | 28; 0 unkeyed | 2,022 | 405 | 2,427 |
+| Retained eligible question records | 28 | 2,691 | 552 | 3,243 |
+| Accepted handles / required searches | 27 / 108 | 2,413 / — | — | — |
+| Prior-BMS handle reuses | 8 | — | — | subtract before concept addition |
+| Cross-family concept delta | +19 | +1,248 over primary | 372 | 1,620 |
+| **Distinct tested concepts** | **27 source-local / +19** | **1,248 additions** | **372** | **1,620** |
+
+The checksum closes: **27 + 1 = 28 prompts**; **28 answers + 0 unkeyed = 28 raw**; **28 raw - 0
+literal exclusions = 28 retained**; **28 retained - 1 semantic reduction = 27 handles**; **27 × 4
+= 108 searches**; and **27 handles - 8 prior reuses = +19 concepts**. Auxiliary arithmetic is
+`2,959 + 28 = 2,987` prompts, `1,994 + 28 = 2,022` answers, `2,663 + 28 = 2,691` retained,
+`2,386 + 27 = 2,413` handles, and `1,229 + 19 = 1,248` concept additions. All eligible
+arithmetic is `762 + 2,987 = 3,749`, `405 + 2,022 = 2,427`, `552 + 2,691 = 3,243`, and
+`372 + 1,248 = 1,620`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **2,987 prompts / 2,022 answers /
+2,691 retained / 2,413 handles / +1,248 concepts**. All eligible becomes **3,749 / 2,427 /
+3,243 / 1,620**. Family 240 establishes low-authority keyed parasympathetic-depressant revision
+evidence only, not official authorship, an authenticated exam/sitting, departmental key, recurrence,
+practical station, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 240
+
+`src_ff378adf26d980974974` is exhausted across all 9 rendered/native pages: every visible source
+and metadata field, stem, option, continuation, answer token, written answer component, duplicate
+proposition, search packet, prior-family relation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-240 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 240 is **301 paths / 294 unique hashes**, leaving exactly **61 selected paths / 54
+unique hashes**. Checksums are **301 + 61 = 362 paths** and **294 + 54 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `f4986aa475a2a392f340e14d99b97e9fae27b413cb10be2ebd1d529939ec6ed2`, and the first-
+occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`9fdfc8635c0a4856653003409312e94eaaeb687d32fd5287700c680622f2616d`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_0d4fa2de42d5a5a70f2b` ·
+`parasympathomimtic drugs I, II and III.pdf`, SHA-256
+`0d4fa2de42d5a5a70f2bd884bc41b7b40aab7715c6ce1e20b5a8795fadfb706c`, **283,946 bytes**,
+**10 native-text portrait US-letter pages** under `Pharmacology / Notes and Summaries`. Its first
+page begins a keyed `Parasympathomimtics I` question set covering cholinesterases, acetylcholine
+hypotension, and carbachol. Its visible authority, complete keyed/unkeyed, written/image/practical/
+teaching boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and subsequent exact
+next debt remain to be separately adjudicated.
