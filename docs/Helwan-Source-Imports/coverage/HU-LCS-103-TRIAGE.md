@@ -21989,3 +21989,103 @@ PDF 1.7; SHA-256
 rendered and read. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 21 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 210 — Named-metadata Bio-103 MCQ bank with complete letter key
+
+### Exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_f6ac2b86172de3aa9150` / `f6ac2b86172de3aa9150b50ef92b343ba60dbea230b328c6c06309221e0dc807` |
+| Exact path | `Year 1/LCS 103/Biochemistry/Notes and Summaries/Bio 103.pdf` |
+| Manifest tier | **Tier 6** in the all-rank remainder row and manifest-order ledger. The dispatch called this source rank 9; the governed appendix preserves the manifest classification rather than silently changing it. |
+| Physical verification | **353,705 bytes; 14 native-text 612 x 792 pt US-Letter pages; tagged; unencrypted; no form; PDF 1.7 by pdfinfo**. Full hash, size, page count and geometry match. All 14 pages were rendered completely at 200 dpi to 14 distinct images, inspected at original resolution and read completely. Native extraction was checked against every visual page. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | Pages print only `Bio 103`, `Lecture 1`, `Lecture 2` and devotional headers. They print no institution, lecturer, cohort, exam, sitting, date, marks or official-key claim. Metadata names `Eman Ibrahem Hefny Ibrahem` as author and records 24 August 2025 creation/modification. |
+| Authority finding | Named-metadata but institutionally unattributed revision-bank evidence. The title establishes module fit; an author metadata field without visible Helwan/sitting authority does not make the MCQs eligible Helwan assessment. |
+
+The complete source-first boundary is exact:
+
+| Pages | Complete composition |
+|---:|---|
+| 1–6 | `Lecture 1`, questions 1–26: creatinine/creatine, phosphagen, anaerobic/aerobic muscle-energy systems and creatine synthesis |
+| 6–12 | `Lecture 2`, questions 27–55: glycogen-storage diseases, Duchenne muscular dystrophy and inherited cardiomyopathies |
+| 13 | red letter key 1–35 |
+| 14 | red letter key 36–55 |
+| **Total** | **55 numbered MCQs + 55 keyed letters** |
+
+Every page transition was reconciled: questions 5, 10, 15, 20, 25, 29, 34, 38, 43, 48
+and 53 continue onto the following page without creating a second occurrence. Questions 1,
+17, 18 and 52 have three options; the other 51 have four. Keys 1–55 are present once each,
+so exact source arithmetic is **55 MCQ prompts + 55 letter keys + 0 unkeyed prompts**.
+
+Because authority is insufficient for eligible assessment, exact delta is **0 eligible
+ordinary prompts / 0 eligible keys**, **+55 external ordinary MCQs / +55 external keys**, and
+**0 written prompts**. Source states remain literal and unrepaired, including `aerobic
+glycolysis`, the printed `38` ATP choice/key, `cant`, `ms disorders`, `follwoing`,
+`dyfunction`, `inheroted`, `alwaysCaused`, and every key letter. In particular, apparently
+questionable key states such as 27=`A`, 28=`A`, 29=`B`, 38=`B` and the lowercase 55=`c` are
+recorded as source evidence, not medically repaired or endorsed.
+
+### Practical and image boundary
+
+The PDF contains only typeset text, border decoration and the letter-key pages. It has no
+specimen, model, micrograph, graph, numbered image, masked label, station, response blank or
+practical-identification instruction. Exact practical delta is **0 prompts / 0 teaching
+plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The 55 keyed MCQs collapse to seven complete external-assessment handles:
+
+| Handle / questions | One query on each required surface | Complete-scope result |
+|---|---|---|
+| kidney testing and creatine synthesis/phosphorylation · 1, 21–26 | kidney creatinine creatine synthesis amidinotransferase methyltransferase creatine kinase | Families 49, 51–52 and 75 own the complete scope — prior-LCS reuse |
+| phosphagen/ATP immediate muscle energy · 3–7, 14, 17, 19 | phosphagen ATP creatine phosphate muscle contraction duration myokinase | Families 51, 75, 147–148 and later banks own the complete scope — prior-LCS reuse |
+| anaerobic glycolysis, lactate and cramps · 2, 8–10, 15, 19 | anaerobic glycolysis pyruvate lactate cramps ATP yield | Families 51–52, 75 and later banks own the complete scope — prior-LCS reuse |
+| aerobic respiration and fatty-acid muscle energy · 11–13, 16, 18, 20, 41, 45 | aerobic respiration fatty acid oxidation muscle energy ATP yield | Families 51–52 and 75 own the complete scope — prior-LCS reuse |
+| glycogen-storage types, inheritance, enzymes and phenotypes · 27–30, 34–38, 42–43, 47–49, 51–55 | glycogen storage disease inheritance enzyme deficiency Pompe McArdle Tarui Von Gierke Andersen | Family 52 and later physiology banks own the complete scope — prior-LCS reuse |
+| inherited-cardiomyopathy genetics, proteins and fuel · 32–33, 39, 41, 45–46 | inherited cardiomyopathy genetic heterogeneity allelic variation myosin fatty acid oxidation | Family 52 owns the complete scope — prior-LCS reuse |
+| Duchenne inheritance, signs and pathology · 31, 40, 44, 50 | Duchenne muscular dystrophy inheritance Gower creatine kinase pathology | Families 52, 54, 75, 77 and later banks own the complete scope — prior-LCS reuse |
+
+Each of the **seven accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **7 x 4 =
+28 required search invocations**. Live file-match counts were **9 / 72 / 47 / 60 / 195 / 22
+/ 22**; pending/import-ready counts were **183 / 245 / 153 / 265 / 223 / 206 / 173**; the
+prior-source lane returned no file match; and all seven accepted-LCS searches matched.
+Complete-scope comparison gives **7 prior-LCS external-assessment reuses / 0 additive live /
+0 additive pending / 0 additive new external concepts**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment becomes
+**7,451 prompts / 7,175 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Family 210 contributes **+55 external ordinary MCQs / 0 written / 0 practical
+prompts**; all seven collapsed handles are prior-LCS reuses, so the external concept count and
+disposition remain unchanged.
+
+Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues / 87 keys**;
+practical teaching scopes remain **0 live / 0 pending / 92 new**. Every practical delta is
+zero.
+
+This hash occurs once in Family 209's remainder. Removing its sole tier-6 path changes the
+remainder from **21 paths / 20 unique hashes** to **20 paths / 19 unique hashes**: tier 3
+remains **0 / 0**, tier 6 becomes **12 paths / 12 unique hashes within tier**, and rank 9
+remains **8 paths / 7 unique hashes within rank**. Family 209's checksums were
+`bfffaed6b069d6566ffbda6258376f375b85fff7a17197e7b23e4ae2164432fc` (paths) and
+`435983b7b0372a6c6c707ad4cb7bcb017ef7edd711501569c2b87c930bc58c37` (unique hashes).
+For the exact post-Family-210 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`795b53019b07b6ec7fb3e73fd3d3234e3ed0beea84c5a74cbeeb5be86e81a075`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`cd7e5b266bb0c23f9d4138b12f3f502b45887cdf36eb45f4727bed7d49e8e449`.
+
+The exact next manifest-order debt is the tier-6 duplicate path
+`src_033ed1d6b9fdd8722b7b`, `Student Summary - Histology Lecture 2 Bones Summary.pdf`
+(3,108,928 bytes; two OCR-needed 600 x 848 pt pages; untagged; unencrypted; no form; PDF 1.7;
+SHA-256 `033ed1d6b9fdd8722b7b20721a9012fba7ead0520326d11dec92d88d2f03af7d`)
+under `Year 1/LCS 103/Histology/Notes and Summaries/`. Family 174 already proved that hash's
+content through the separate `Notes_260514_181426 (1).pdf` path, so the next family requires
+path-only duplicate adjudication with zero second content inventory. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 20 tier-6/rank-9 path debts remain. No download, source edit,
+ID, content record, catalogue update, import or source copy was created.
