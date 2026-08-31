@@ -26394,3 +26394,102 @@ The exact next unprocessed BMS-102 record is tier-9 `src_81ab37f532d25f1d669e` �
 score and the same email, and iOS Quartz capture is dated 12 June 2023. Its complete dynamics
 prompt/answer/replay boundary, visible authority, external zero gate, arithmetic, and subsequent
 exact debt remain to be separately adjudicated.
+
+## Family 260 — Dr Amr Module-108 pharmacodynamics scored-form revision (external)
+
+### Source identity, exhaustive native/rendered boundary, and authority separation
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_81ab37f532d25f1d669e` · `MCQs - KASR Pharma MCQ by Dr.Amr [108 Part.2].pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `81ab37f532d25f1d669eb9eb6226a08d1a56c51e9a40c5066502cd0dc40888e2` · **119,331 bytes** |
+| Format / complete visual boundary | **16 native-text portrait A4 pages, PDF 1.4**. All 16 pages were extracted and rendered at 150 dpi into 16 non-empty images, then read page by page at original detail. Coherent extraction yields **924 words / 11,537 bytes** and agrees with every visible title, score, email field, stem, option, response state, correct-answer reveal, and terminal Google Forms footer. Pages 1–15 carry the form and all 27 questions; page 16 carries only the terminal privacy/Google Forms furniture. No page or crop remainder remains. |
+| Visible source format | Static exported Google Forms response titled **`108 PHARMACOLOGY REVISION PART 2 ( DYNAMICS ) DR AMR`**, showing score **9/27** and submitted email `futuredoctor194@gmail.com`. Nine cards show green selected-correct `1/1`; 18 show red selected-wrong `0/1` plus a separate Arabic-labelled correct answer. It is a solved-response export, not an interactive form. |
+| Visible authority | The title visibly names **Dr Amr**, **108**, pharmacology revision, Part 2, and dynamics. No page visibly names Kasr/Cairo University, Helwan University, a faculty, department, BMS-102, sitting, cohort, or academic year. The filename's `KASR` plus visible Module-108/Dr-Amr title establish an external Kasr-context revision attribution, not an authenticated institution, exam, or official key. |
+| Metadata caution | PDF Title matches the visible title; Creator is Safari, Producer is iOS 16.3.1 Quartz, and creation/modification are 12 June 2023. These describe web capture/export and do not independently establish authorship, institutional ownership, sitting, or year. The terminal Google disclaimer says Google did not create or endorse the content. |
+| Authority / eligibility | External Dr Amr/Module-108 pharmacodynamics revision with no Helwan counter-marker. Preserve as external provenance, solved-form, answer-state, and replay evidence, but exclude it from Helwan primary, auxiliary, and all-eligible totals. |
+
+### Exhaustive prompt, answer, replay, written, image, and practical boundary
+
+The complete source-local boundary is **27 raw objective prompt occurrences: 25 four-option text
+MCQs + 2 explicit T/F items**. Every prompt has source-supplied answer directionality: **9** via a
+green selected-correct `1/1` state and **18** via a separate correct-answer reveal following the
+red selected-wrong `0/1` state. Thus the carrier supplies **27 answer occurrences / 0 unkeyed
+prompts**. The total score and incorrect submitted choices are response-state evidence, not extra
+answers or records; the email field and Google legal/footer text are structural provenance, not
+prompts.
+
+The prompts exhaust antagonists and agonists, affinity/efficacy, competitive and noncompetitive
+antagonism, receptor regulation, supersensitivity/hypersensitivity, tolerance, teratogenicity,
+synergism/addition, and partial agonism. Both T/F cards are ordinary answered objective records:
+long antagonist use/upregulation and long agonist use/upregulation. There are **0 matching items,
+0 completion blanks, 0 free-response written operations, 0 drawings, 0 image-bearing prompts, 0
+authenticated practical stations, and 0 teaching-only callouts**.
+
+Source truth preserves every displayed response and answer, including awkward wording and the
+carrier's questionable alcohol-tolerance answer state, without silent repair or medical
+endorsement. One same-carrier semantic replay survives occurrence preservation: the later
+`tolerance = decreased or failed response` item restates the earlier `lack of sensitivity that
+responds to higher doses` definition. Closely related definition/application pairs remain distinct
+(general physiological antagonism versus the histamine/adrenaline example; teratogenic timing
+versus definition; and three different partial-agonist operations). Therefore **27 raw - 0
+excluded source-local occurrences = 27 preserved operations; 27 - 1 semantic replay = 26
+source-distinct external handles**.
+
+### External-authority zero gate, duplicate/prior ruling, and eligible arithmetic
+
+Authority resolves before search retention. All **27 source-local prompts / 27 source-local
+answers / 26 source-distinct external handles** belong to the external Dr Amr/Module-108 form and
+carry no visible Helwan counterevidence. Consequently **0 eligible Helwan records and 0 accepted
+Helwan handles** survive. The standing gate is exactly **`0 accepted handles × 4 = 0 required and
+completed searches`**; no 104-query packet, empty search rows, or synthetic reuse record is
+created for excluded external content.
+
+The file is not byte-identical to Family 259 and is the separately titled Part-2 dynamics
+companion, not a second carrier of Part 1. Its dynamics propositions nevertheless replay many
+eligible prior BMS sources and external Family 258, but authority exclusion occurs before eligible
+prior-handle reconciliation. Excluded external handles cannot add or reuse an eligible tested
+handle. Prior-BMS reuse is **0** and concept delta is **+0**.
+
+| Measure | Family 260 eligible delta | Auxiliary cumulative (Families 12–260) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,261 | 762 | 4,023 |
+| Eligible source-supplied answers | 0 | 2,247 | 405 | 2,652 |
+| Retained eligible question records | 0 | 2,965 | 552 | 3,517 |
+| Accepted handles / required searches | 0 / 0 | 2,666 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,357 over primary | 372 | 1,729 |
+| **Distinct tested concepts** | **+0** | **1,357 additions** | **372** | **1,729** |
+
+The eligible checksum closes at zero: external source-local **27 / 27 / 26** does not enter Helwan
+arithmetic. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,261 prompts / 2,247
+answers / 2,965 retained / 2,666 handles / +1,357 concepts**. All eligible remains **4,023 /
+2,652 / 3,517 / 1,729**. Family 260 establishes external Dr-Amr/108 pharmacodynamics revision,
+scored-response, answer-state, and replay evidence only—not a Helwan assessment, authenticated
+Kasr exam, official key, practical station, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 260
+
+`src_81ab37f532d25f1d669e` is exhausted across all 16 native/rendered pages: every title/score,
+email field, stem, option, T/F label, selected response, correctness state, answer reveal,
+same-source replay, footer, authority limitation, metadata field, zero gate, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-260 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 260
+governs **1 selected path / 1 unique hash**. The governed set through Family 260 is therefore
+**325 paths / 314 unique hashes**, leaving exactly **37 ungoverned selected paths / 34 unique
+hashes**. Checksums are **325 + 37 = 362 paths** and **314 + 34 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`232ea1fb620a8a120c5f1ba04bd2c039b46fedc2cd69554bd83a5ef8742ca084`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`017671aa4678283063f6869f815d029da3f0e3d3a9c42d2d6f6a2b851f85ae00`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_ec50845c4498e17b9b6b` ·
+`MCQs - KASR Pharmacology - INT mcq.pdf`, SHA-256
+`ec50845c4498e17b9b6bc19dc429045cb7a0e4e847cf465f84f7e5b8c79e9310`, **3,852,337 bytes**,
+**16 OCR-needed portrait pages (1,271×1,797 points)** under `Pharmacology / Questions / MCQs`.
+Its metadata Title/Subject are `Pharmacology - INT`, Author is `CamScanner`, native extraction is
+empty, and the filename carries the external `KASR` hint. Its full rendered/OCR authority,
+prompt/key/written/image/practical boundary, external/eligible gate, arithmetic, and subsequent
+exact debt remain to be separately adjudicated.
