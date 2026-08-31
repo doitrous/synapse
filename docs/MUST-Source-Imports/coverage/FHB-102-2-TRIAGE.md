@@ -1124,3 +1124,29 @@ Removing the twenty-seven processed hashes leaves **69 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - Micro FHB102-2 & MSK102-2 Subjects of Exam Final Spring 2025.pdf`, SHA-256 `3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5`, 3 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 69 selected inventory paths / 67 unique hashes remain untriaged.
+
+## Completed source — Micro FHB102-2 & MSK102-2 Subjects of Exam Final Spring 2025
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - Micro FHB102-2 & MSK102-2 Subjects of Exam Final Spring 2025.pdf` | `3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5` | 3 | substantive-text | pages 1–3 rendered and read | Official MUST Faculty of Medicine Microbiology & Immunology department Final Spring 2025 written-exam scope notice, visibly branded and signed by the department head. It is authoritative for exam format and syllabus scope, not a question paper, sitting capture or answer key. PDF title metadata says `Zagazig University`, conflicting with the visible MUST document; visible source content governs and the conflict remains preserved. |
+
+### Exact FHB-versus-MSK scope and assessment boundary
+
+Page 1 is the in-scope `FHB-102-2` blueprint. It declares single-best-answer MCQs as 70% of marks and short-answer questions as 30%, with five syllabus topic groups: antimicrobial drugs; bacterial growth/physiology; bacterial genetics; infection control; and general characteristics of five named medically important bacteria. Pages 2–3 are an explicitly separate `MSK-102-2` blueprint and are excluded from the FHB content scope.
+
+Neither module section prints a question, answer, practical/image task or reveal pair. The exact FHB boundary is **0 objective prompts / 0 written prompts / 0 practical or image prompts / 0 prompt-matched answer observations / 0 source-absent answers / 1 official exam-blueprint notice**. Topic bullets and percentages are not counted as questions or answers.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+No assessment prompt is printed, so there is **0 source-first assessment handle / 0 accepted handle / 0 searches**. The exactly-four-search gate does not trigger. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-eighth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **2,557 questions / 2,401 answers / 62 concepts**.
+
+Removing the twenty-eight processed hashes leaves **68 selected inventory paths / 66 unique SHA-256s**. Their sorted-newline checksum is `ae4e2524dbfa41c74c7a1a7628b1fa3b8f580850f588783e6ae38b7b4f4da2a1`. Remaining audit-review debt is **27 substantive-text / 18 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`28 + 66 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - [Empty] FHB102 FINAL REVISION 2025.pdf`, SHA-256 `6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901`, 52 pages, with an audit-extract-failed sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 68 selected inventory paths / 66 unique hashes remain untriaged.

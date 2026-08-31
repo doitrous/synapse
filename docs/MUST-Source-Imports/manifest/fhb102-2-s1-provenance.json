@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "ca07973bae805436ef683eeec5191f30013626e25addfbe354d4b3f0ade8a095",
-    "triageMarkdown": "1e818c0d08b678b1bb11915abb223d7e748d478c1021a8b95fa15cf90e15ffab"
+    "readinessMarkdown": "a278dbc421e915a7bb277ae980f86ae63fb2fe745bd657769d72e61f9fad32ba",
+    "triageMarkdown": "fe58d6888c6a493a065f6667c8533dc0fc0a2df295249e0104b7f146b0671f87"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -73,6 +73,7 @@
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
+      "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
@@ -97,7 +98,7 @@
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 27
+    "uniqueSha256": 28
   },
   "completedSourceCoverage": [
     {
@@ -1646,6 +1647,57 @@
         "fully revealed teaching cards are not reverse-engineered into questions or answer keys",
         "printed spelling, organism descriptors and academically questionable claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "inScopeFhb1022Pages": [
+        1
+      ],
+      "outOfScopeMsk1022Pages": "2-3",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "officialExamBlueprintNotices": 1,
+      "inScopeBlueprintTopicGroups": 5,
+      "sectionBoundary": [
+        {
+          "section": "FHB-102-2 Final Spring 2025 written-exam blueprint",
+          "page": 1,
+          "format": "single-best-answer MCQs 70% plus short-answer questions 30%",
+          "topicGroups": 5,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "MSK-102-2 Final Spring 2025 written-exam blueprint",
+          "pages": "2-3",
+          "scopeDisposition": "out-of-module",
+          "assessmentPrompts": 0
+        }
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "official MUST Faculty of Medicine Microbiology & Immunology department Final Spring 2025 written-exam scope notice, visibly branded and signed by the department head; authoritative for the declared FHB-102-2 exam format and syllabus scope, but not a question paper, sitting capture or answer key",
+      "boundaryDisposition": "page 1 is the in-scope FHB-102-2 blueprint declaring single-best-answer MCQs at 70% and short-answer questions at 30% plus five syllabus topic groups; pages 2-3 are an explicitly separate MSK-102-2 blueprint and are excluded from FHB content scope; neither section prints an assessment prompt or answer",
+      "preservedSourceDefects": [
+        "the PDF title metadata says Zagazig University while the visible document is branded Misr University for Science and Technology; visible source content governs and the conflict is preserved",
+        "FHB-102-2 and MSK-102-2 blueprint sections remain separated by their printed module labels",
+        "topic bullets and format percentages are not counted as questions or answers"
+      ]
     }
   ],
   "triageCumulative": {
@@ -1818,22 +1870,28 @@
     "pages": 1,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentyEighthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - Micro FHB102-2 & MSK102-2 Subjects of Exam Final Spring 2025.pdf",
     "sha256": "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
     "pages": 3,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM - [Empty] FHB102 FINAL REVISION 2025.pdf",
+    "sha256": "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
+    "pages": 52,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 69,
-    "uniqueSha256": 67,
-    "sortedNewlineSha256": "7ed42c809923cb27ffeca3f1ff511fdc1287e231dab96d4ab5c1d3340e061293",
+    "inventoryMetadataRows": 68,
+    "uniqueSha256": 66,
+    "sortedNewlineSha256": "ae4e2524dbfa41c74c7a1a7628b1fa3b8f580850f588783e6ae38b7b4f4da2a1",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 18,
-      "substantive-text": 28
+      "substantive-text": 27
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1841,12 +1899,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 18,
-    "substantive-text": 28
+    "substantive-text": 27
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 27,
-    "remainingUniqueSha256": 67,
+    "processedUniqueSha256": 28,
+    "remainingUniqueSha256": 66,
     "processedPlusRemaining": 94
   }
 }
