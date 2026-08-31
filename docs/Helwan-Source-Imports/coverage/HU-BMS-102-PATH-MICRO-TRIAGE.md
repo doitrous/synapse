@@ -23831,3 +23831,106 @@ visibly begins `Pharmacology / Posology` and defines dose and dosage regimen; me
 complete visual/native boundary, visible authority, teaching/prompt/key/practical ruling,
 four-search gate, prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to
 be separately adjudicated.
+
+## Family 236 — Dr El-Sawy posology teaching handout with three unkeyed calculations
+
+### Source identity, complete six-page boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 preferred name twin `src_ffd396e27faa828dcf46` · `POSOLOGY..pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `ffd396e27faa828dcf4628faa160dba6595ca843355f4d3029c5e134cdbe27de` · **381,293 bytes** |
+| Format / complete visual boundary | **Six native-text portrait A4 pages, PDF 1.7**. All six pages were rendered at 180 dpi into non-empty 1,489×2,105-pixel images and read visually at original detail; the native layout layer contains **1,034 words / 10,111 bytes**. Every heading, paragraph, table, graph, equation, example, footer, and question is assigned below, with no page or crop remainder. No form, JavaScript, encryption, interactive answer layer, or hidden prompt layer exists. |
+| Visible provenance | Every page is headed `Pharmacology` / `Posology`, footed `DR. El-Sawy`, and visibly numbered 1–6. No university/faculty, module code, academic year, sitting, candidate field, marks, or assessment title is visible. |
+| Metadata caution | Metadata author is `Mamdouh`; creator/producer is Microsoft Word LTSC; creation and modification are 6 April 2026. Those export fields do not override the visible Dr El-Sawy attribution or establish Helwan authorship, delivery year, or assessment sitting. Local BMS-102 placement supplies context only. |
+| Authority | Visibly attributed local pharmacology teaching/revision handout with a final unkeyed calculation section. It is not an authenticated Helwan exam, official key, or practical station carrier. |
+
+### Preferred-twin and near-duplicate adjudication
+
+| Carrier | Verified relationship and governing consequence |
+|---|---|
+| Current preferred `POSOLOGY..pdf` | SHA `ffd396e27faa828dcf4628faa160dba6595ca843355f4d3029c5e134cdbe27de`; six pages; Dr El-Sawy-designed colour handout with tables, therapeutic-window graphs, expanded Mosteller detail, and the three page-6 calculations. It governs this family's unique assessment evidence. |
+| Non-preferred theoretical `Posology.pdf` · `src_15a787e1203b5d1aed02` | SHA `15a787e1203b5d1aed02d388fb7cc6e52e51831271813303cd945816c0cc01e5`; six native pages under `Theoretical / Lec 9 - Posology`. All six pages were rendered and compared. Its title page plus five dense plain-text pages teach the same central propositions, but it has no question block. |
+
+The carriers are **not byte-identical** and no corresponding rendered page is image-identical.
+They are proposition-level near duplicates: the theoretical carrier is the plain teaching twin,
+while the current preferred carrier is a designed, expanded version and uniquely adds the three
+calculation prompts. The preferred carrier therefore contributes the prompt occurrences below;
+the later non-preferred twin must be reconciled as teaching overlap with **zero assessment
+replay**, not counted as a second source of these questions.
+
+### Exhaustive teaching, prompt, answer, and practical boundary
+
+| Page | Exhausted visible content | Boundary ruling |
+|---:|---|---|
+| 1 | Posology, dose, and dosage-regimen definitions; minimal effective, maximum tolerated, ED50, TD50, and LD50 doses; therapeutic index `TI = TD50 / ED50`; high- versus low-index comparison | Completed teaching definitions/formula/table: **0 prompts / 0 answers / 0 practical**. |
+| 2 | Right-dose determinants; MEC, MTC, therapeutic window, and supplied wide/narrow therapeutic-window graphs | Completed teaching and diagnosis-disclosing graphs: **0 / 0 / 0**. |
+| 3 | Physiological dose factors: age, sex, body weight/body-surface area, and genetics | Completed teaching list: **0 / 0 / 0**. Source generalizations are retained as source truth without endorsement. |
+| 4 | Renal/hepatic pathological factors, environmental and chronopharmacological factors, administration route, and supplied magnesium-sulfate examples | Completed teaching factors/examples: **0 / 0 / 0**. |
+| 5 | Young, Dilling, and Clark paediatric rules; age-percentage table; BSA dosing and Mosteller formula; elderly two-thirds and one-half rules | Completed formula/reference sheet: **0 / 0 / 0**. |
+| 6 | Loading- versus maintenance-dose definitions and formulas, then `QUESTIONS`: calculate a six-year-old child's dose from a 200-mg adult dose; calculate TI from TD50 500 mg and ED50 50 mg; calculate loading dose from target Cp 20 mg/L, Vd 50 L, and F 0.8 | **3 written calculation prompts / 0 supplied answers / 3 unkeyed / 3 retained / 3 accepted handles / 0 practical**. |
+
+The source supplies `LD = (Vd × Cp) / F` and `MD = (CL × Cp × T) / F` as teaching formulas,
+but it does not work or mark any of the three calculations. The page-2 graphs disclose their
+wide/narrow-window mapping and are teaching figures, not image-identification prompts. None of the
+calculation operations is labelled as an OSPE/OSCE station, uses apparatus/specimen interaction,
+or carries authenticated practical instructions. The governed source-local boundary is therefore
+**0 MCQs + 0 True/False + 3 written calculations + 0 completion blanks + 0 image-identification
+prompts + 0 practical stations = 3 raw prompt occurrences**, with **0 answers, 3 unkeyed, 3
+retained, and 0 prompt-like residues**.
+
+### Exactly four searches per accepted handle and prior-BMS reconciliation
+
+| Accepted handle | Four completed source-first searches | Disposition |
+|---|---|---|
+| `young-rule-six-year-old-adult-dose-200mg` | `6-year-old child standard adult dose 200 mg`; `Young rule pediatric dose child age adult dose`; `pediatric dose age divided age plus 12 adult dose`; `calculate dose child standard adult dose` | No exact current numeric operation occurs in live, pending, or prior BMS question evidence. Family 230 teaches paediatric dosing formulas but supplies no accepted numeric operation. **New handle / +1 concept**. |
+| `therapeutic-index-td50-500-ed50-50` | `TD50 500 mg ED50 50 mg therapeutic index`; `calculate therapeutic index TD50 ED50`; `therapeutic-index td50-ed50 calculation`; `toxic dose effective dose ratio question` | Numeric values are new wording, but the tested TD50/ED50 ratio proposition is already accepted as Family 223's `therapeutic-index-ld50-over-ed50` family and Family 202 Q22. **Prior-BMS reuse / +0 concepts**. |
+| `bioavailability-adjusted-loading-dose-cp20-vd50-f08` | `target plasma concentration 20 mg/L volume distribution 50 L bioavailability 0.8`; `calculate necessary loading dose Vd Cp F`; `loading-dose target-concentration volume-distribution bioavailability`; `patient target plasma concentration loading dose calculation` | Families 202 and 223 cover loading dose and Vd/target concentration, but the current operation uniquely requires division by explicit bioavailability 0.8. **New handle / +1 concept**. |
+
+Exactly **3 accepted handles × 4 = 12 required and completed searches**. No exact current numeric
+prompt was found in live or pending evidence; prior-BMS comparison yields **1 handle reuse and +2
+distinct tested concepts**. Same-source teaching formulas are prerequisites, not separate prompt
+records, and the near twin supplies no second prompt layer.
+
+### Family delta and cumulative arithmetic
+
+| Measure | Family 236 | Auxiliary cumulative (Families 12–236) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 3 | 2,793 | 762 | 3,555 |
+| Eligible source-supplied answers | 0 | 1,828 | 405 | 2,233 |
+| Retained eligible question records | 3 | 2,497 | 552 | 3,049 |
+| Accepted handles / required searches | 3 / 12 | 2,230 / — | — | — |
+| Prior-BMS handle reuses | 1 | — | — | one of three accepted handles |
+| Cross-family concept delta | +2 | +1,112 over primary | 372 | 1,484 |
+| **Distinct tested concepts** | **+2** | **1,112 additions** | **372** | **1,484** |
+
+The checksum closes: **3 raw − 0 same-source collapses = 3 retained**; **0 source answers + 3
+unkeyed = 3 raw**; **3 handles × 4 = 12 searches**; **3 handles − 1 prior reuse = +2 concepts**.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **2,793 prompts / 1,828 answers /
+2,497 retained / 2,230 handles / +1,112 concepts**. All eligible becomes **3,555 / 2,233 /
+3,049 / 1,484**. Family 236 establishes teaching provenance, three unkeyed calculation
+operations, and near-twin evidence only—not an official key, authenticated sitting, practical
+station, medical guidance, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 236
+
+`src_ffd396e27faa828dcf46` is exhausted across all six native/rendered pages, and all six pages of
+its non-preferred near twin were compared: every teaching unit, graph, formula, calculation prompt,
+answer absence, authority signal, twin difference, search packet, prior relation, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-236 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 236 is **297 paths / 290 unique hashes**, leaving exactly **65 selected paths / 58
+unique hashes**. Checksums are **297 + 65 = 362 paths** and **290 + 58 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `2511bfe875a629289faf4b2a5f0d071a2356a4f7b82d583c6894fe2a6cc3b0d8`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`2bd657b5d066070934cdfbe390a347bc09e194201a248ed6823e29bb650354cb`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_b4d37dd687fe8dc22fa6` · `Pharma
+Written by Dr.Amr [208].pdf`, SHA-256
+`b4d37dd687fe8dc22fa6b883936b60445bddc3979b30e32424af028d4ec26353`, **4,540,460 bytes**,
+**32 OCR-needed portrait pages** under `Pharmacology / Notes and Summaries`. Its iOS/Quartz
+metadata creation date of 16 June 2023 is secondary until visibly corroborated. Complete visual/OCR
+boundary, visible authority, assessment/key/practical classification, four-search gate, prior-BMS
+reconciliation, arithmetic, and subsequent exact next debt remain to be adjudicated separately.
