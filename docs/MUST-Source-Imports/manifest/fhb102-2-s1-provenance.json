@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "a29e3131cf156a17535da75ca355426d34632e3de405c37df2ff5db158220c62",
-    "triageMarkdown": "9cf7e50d47aca53a09fd47e4b87d9556aacf68d4b9e3c68a0ba28008c35ff38c"
+    "readinessMarkdown": "e2be1ffa9c621673313d357553861aab2ecf4a2c8b6618c4695f97f459484033",
+    "triageMarkdown": "3dffa9167ef2fdd194ed18cccd407e5e0b741024eb6836792b928c49ace454bb"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -82,6 +82,7 @@
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
+      "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
       "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
       "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
       "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
@@ -101,7 +102,7 @@
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 31
+    "uniqueSha256": 32
   },
   "completedSourceCoverage": [
     {
@@ -1922,6 +1923,63 @@
         "all printed and academically questionable questions or answer tokens remain uncorrected",
         "the answer tables are counted as source answer observations without upgrading them to authenticated faculty keys"
       ]
+    },
+    {
+      "sha256": "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
+      "sourcePages": 12,
+      "renderedReadPages": "1-12",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 12,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Introduction to Microbiology and Bacteriology",
+          "pages": "1-3",
+          "teachingReferencePages": 3,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Basic Virology",
+          "pages": "3-7",
+          "teachingReferencePages": 5,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Medical Mycology",
+          "pages": "8-9",
+          "teachingReferencePages": 2,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Host-Parasite Relationship",
+          "pages": "10-12",
+          "teachingReferencePages": 3,
+          "assessmentPrompts": 0
+        }
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "Microsoft Word 2016 teaching summary titled FHB: Microbiology with author metadata Ebedo; it shows no MUST university, college or department authentication, examiner, sitting, marks, question-paper status or authenticated faculty-key claim",
+      "boundaryDisposition": "all twelve pages are already-revealed teaching/reference prose, lists and comparison tables covering introduction and bacteriology on pages 1-3, virology across pages 3-7, mycology on pages 8-9 and host-parasite relationships on pages 10-12; numbered teaching enumerations are not assessment prompts, and the source contains zero objective, written, practical, image-dependent, answer or source-absent occurrences",
+      "preservedSourceDefects": [
+        "the printed section numbering jumps from III Medical Mycology to VI Host-Parasite Relationship and remains uncorrected",
+        "printed spelling, classifications, organism descriptions and academically questionable teaching claims remain source truth",
+        "fully revealed comparison tables and numbered explanatory lists are not reverse-engineered into questions or answer keys"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2118,22 +2176,28 @@
     "pages": 40,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtySecondSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/08 Midterm Exams/FHB Microbiology Midterm Notes.pdf",
     "sha256": "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
     "pages": 12,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/08 Midterm Exams/📌Microbiology Midterm [FHB part].pdf",
+    "sha256": "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
+    "pages": 26,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 63,
-    "uniqueSha256": 63,
-    "sortedNewlineSha256": "1a336a341fa201c294c0c77c608eae425535dd4e54b0d9484b34dae70a75b1ed",
+    "inventoryMetadataRows": 62,
+    "uniqueSha256": 62,
+    "sortedNewlineSha256": "ee457a24dc1431e05f46e57eccc184aba9b8dfa9cf5d56201559ce6d12d59619",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 15,
-      "substantive-text": 26
+      "substantive-text": 25
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -2141,12 +2205,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 15,
-    "substantive-text": 26
+    "substantive-text": 25
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 31,
-    "remainingUniqueSha256": 63,
+    "processedUniqueSha256": 32,
+    "remainingUniqueSha256": 62,
     "processedPlusRemaining": 94
   }
 }
