@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "fc67fcd71dfa911877786f3039191625cc41b1e7d0d9d73c01d5daec3b852ef1",
-    "triageMarkdown": "ee641d9f9b3be98b56df572c685fa4d00bafda96a1e076f6a2b5faa82c5cb48c"
+    "readinessMarkdown": "44afbd9d0e744e39e7efda580afb418d8c4e4d550be7a431bdb4cd7ccceade98",
+    "triageMarkdown": "485e40a469b7a9f07917fcb554866baa48ba08e11f51deaea8ee485bd8474091"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -119,6 +119,7 @@
       "d2c8016367c7ae6d5715097aa5845c2011f522daa64738dd3ece18ab7512edaa",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
+      "d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328",
       "da9693771205f98be44d941dc779e72b34ad73850efd0e34ec332a2d642a1154",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
       "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
@@ -128,7 +129,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 58
+    "uniqueSha256": 59
   },
   "completedSourceCoverage": [
     {
@@ -3495,11 +3496,49 @@
         "printed punctuation, spelling, simplified mechanisms and academically questionable questions or answer tokens remain source truth without correction",
         "the complete inline answer set remains personal revision-source evidence rather than an authenticated faculty key"
       ]
+    },
+    {
+      "sha256": "d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328",
+      "sourcePages": 16,
+      "renderedReadPages": "1-16",
+      "coverPages": 1,
+      "objectiveMcqPrompts": 68,
+      "writtenPrompts": 0,
+      "printedKeyObservations": 68,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 4,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 68,
+      "familyAnswerDelta": 68,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "antituberculous drugs mechanisms regimens resistance and toxicity",
+        "antimalarial therapy prophylaxis pregnancy use and toxicity",
+        "antiamoebic and metronidazole pharmacology",
+        "anthelmintic drug selection mechanisms and uses"
+      ],
+      "authorityDisposition": "personal PentaGram Pharma FHB Q and A 2 revision carrier bearing a Mohamed Eissa signature and Foxit PDF Creator metadata; no authenticated MUST institution, faculty, department, examiner, examination sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "physical page 1 is a cover and pages 2-16 contain sixty-eight ordinary text multiple-choice prompts, each immediately followed by a printed ANSWER token; exact boundary sixty-eight objective prompts, sixty-eight prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching-only occurrences",
+      "replayDisposition": "no normalized sibling or multi-prompt replay subset maps this carrier to the completed Chemo 1, fifty-nine-question student bank, Salama or Mohamed Farid pharmacology carriers, so all sixty-eight distinct physical prompt-and-answer occurrences survive the governed family boundary",
+      "preservedSourceDefects": [
+        "sparse and restarted printed numbering does not alter the physical prompt count",
+        "the malformed option sequence that prints Pyrazinamide followed by parenthetical Isoniazid remains source truth",
+        "printed spelling, grammar, outdated terminology and academically questionable questions or answer tokens remain source truth without correction",
+        "the complete inline answer set remains personal revision-source evidence rather than an authenticated faculty key"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4764,
-    "printedKeyObservations": 4539,
+    "printedPromptObservations": 4832,
+    "printedKeyObservations": 4607,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3853,33 +3892,39 @@
     "pages": 21,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftyNinthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 2 (Q&A - Pentagram).pdf",
     "sha256": "d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328",
     "pages": 16,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma FHB revision MCQs.pdf",
+    "sha256": "d948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114",
+    "pages": 52,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 36,
-    "uniqueSha256": 36,
-    "sortedNewlineSha256": "79fab508c8724e618176cae37d70d8ad9c7e2d2270c23cca330f0d9e743f9a71",
+    "inventoryMetadataRows": 35,
+    "uniqueSha256": 35,
+    "sortedNewlineSha256": "e34423d9aebdd72892dcc5f5476386254220a00feb5cdf42227c8c51ddc69541",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
       "sparse-text": 10,
-      "substantive-text": 11
+      "substantive-text": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
     "sparse-text": 10,
-    "substantive-text": 11
+    "substantive-text": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 58,
-    "remainingUniqueSha256": 36,
+    "processedUniqueSha256": 59,
+    "remainingUniqueSha256": 35,
     "processedPlusRemaining": 94
   }
 }

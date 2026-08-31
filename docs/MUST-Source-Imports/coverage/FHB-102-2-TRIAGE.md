@@ -2050,3 +2050,31 @@ Removing the fifty-eight processed hashes leaves **36 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 2 (Q&A - Pentagram).pdf`, SHA-256 `d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328`, 16 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 36 selected inventory paths / 36 unique hashes remain untriaged.
+
+## Completed source — Pharma Chemo 2 Q&A Pentagram
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 2 (Q&A - Pentagram).pdf` | `d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328` | 16 | substantive-text | pages 1–16 rendered and read | Personal PentaGram `Pharma FHB Q & A (2)` revision carrier bearing a Mohamed Eissa signature and Foxit PDF Creator metadata; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact objective, written and answer boundary
+
+Physical page 1 is a cover. Pages 2–16 contain **68 ordinary text multiple-choice prompts**, and every prompt is immediately followed by a printed `ANSWER` token. The exact source boundary is therefore **68 objective MCQs / 68 prompt-matched source answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**.
+
+Sparse and restarted numbering does not govern the count. The malformed option sequence that prints `Pyrazinamide` followed by parenthetical `Isoniazid`, plus source spelling, grammar, dated terminology and academically questionable answer claims, remains literal source truth. The inline answer set is personal revision-source evidence rather than an authenticated faculty key.
+
+### Prior-family reconciliation and exactly-four-search gate
+
+Normalized comparison finds no sibling or multi-prompt replay subset against the completed Chemo 1, 59-question student bank, Salama or Mohamed Farid pharmacology carriers. The isolated thematic and stem-level overlaps belong to a distinct non-sibling carrier and do not suppress its physical occurrences, so all **68 questions / 68 answers** survive the governed family boundary.
+
+The four source-first handles cover antituberculous drug mechanisms, regimens, resistance and toxicity; antimalarial therapy, prophylaxis, pregnancy use and toxicity; antiamoebic and metronidazole pharmacology; and anthelmintic drug selection, mechanisms and uses. All four collapse to prior FHB-102-2 evidence. Search arithmetic is **4 source-first − 4 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-ninth one-path hash is now `sourceProcessed=true`, adding **+68 questions / +68 answers / +0 concepts**. Cumulative triage is **4,832 questions / 4,607 answers / 62 concepts**.
+
+Removing the fifty-nine processed hashes leaves **35 selected inventory paths / 35 unique SHA-256s**. Their sorted-newline checksum is `e34423d9aebdd72892dcc5f5476386254220a00feb5cdf42227c8c51ddc69541`. Remaining audit-review debt is **10 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`59 + 35 = 94`** and path accounting is **`61 + 35 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma FHB revision MCQs.pdf`, SHA-256 `d948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114`, 52 pages, with a sparse-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 35 selected inventory paths / 35 unique hashes remain untriaged.

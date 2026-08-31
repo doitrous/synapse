@@ -67,9 +67,10 @@ const PROCESSED_FAMILY_HASHES = [
   '3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456',
   '6c0877cba2e6a0f9a92bc9c3cb1f9e40895afb1d8b1864205a668b62d610f7fb',
   '3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b',
+  'd97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '79fab508c8724e618176cae37d70d8ad9c7e2d2270c23cca330f0d9e743f9a71'
+const REMAINING_CHECKSUM = 'e34423d9aebdd72892dcc5f5476386254220a00feb5cdf42227c8c51ddc69541'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -418,10 +419,16 @@ const FIFTY_EIGHTH_SOURCE = {
   pages: 21,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const FIFTY_NINTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 2 (Q&A - Pentagram).pdf',
   sha256: 'd97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328',
   pages: 16,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma FHB revision MCQs.pdf',
+  sha256: 'd948497bb2689e89db0fcd72328049516cc34ec6255a346d032fbd83010c1114',
+  pages: 52,
   sourceProcessed: false,
 }
 
@@ -500,10 +507,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 11 }
+  const expected = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 10 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=11-substantive/10-sparse/4-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=10-substantive/10-sparse/4-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -561,6 +568,9 @@ for (const value of [FIFTY_SEVENTH_SOURCE.relativePath, FIFTY_SEVENTH_SOURCE.sha
 for (const value of [FIFTY_EIGHTH_SOURCE.relativePath, FIFTY_EIGHTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
+for (const value of [FIFTY_NINTH_SOURCE.relativePath, FIFTY_NINTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
   throw new Error('Readiness/triage evidence missing selected-set path/hash boundary')
 }
@@ -604,7 +614,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 58 || remainingHashes.length !== 36 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 59 || remainingHashes.length !== 35 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -612,7 +622,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 11 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 10 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2617,8 +2627,36 @@ const provenance = {
       replayDisposition: 'twenty-five normalized prompt-and-option fields map one-for-one to the completed fifty-nine-question FHB-Pharma MCQ Questions carrier and all twenty-five printed answers agree; those replay fields are collapsed once, leaving eighty-one governed question and answer occurrences from this partial-overlap carrier',
       preservedSourceDefects: ['sparse and restarted printed numbering, including long unnumbered stretches, does not alter the physical prompt count', 'orthographic variants such as amoxycillin, Lomofloxacin and Bezathine are retained while reconciling only the twenty-five established normalized replay fields', 'printed punctuation, spelling, simplified mechanisms and academically questionable questions or answer tokens remain source truth without correction', 'the complete inline answer set remains personal revision-source evidence rather than an authenticated faculty key'],
     },
+    {
+      sha256: FIFTY_NINTH_SOURCE.sha256,
+      sourcePages: 16,
+      renderedReadPages: '1-16',
+      coverPages: 1,
+      objectiveMcqPrompts: 68,
+      writtenPrompts: 0,
+      printedKeyObservations: 68,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 4,
+      priorFhb1022CollapsedHandles: 4,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 68,
+      familyAnswerDelta: 68,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['antituberculous drugs mechanisms regimens resistance and toxicity', 'antimalarial therapy prophylaxis pregnancy use and toxicity', 'antiamoebic and metronidazole pharmacology', 'anthelmintic drug selection mechanisms and uses'],
+      authorityDisposition: 'personal PentaGram Pharma FHB Q and A 2 revision carrier bearing a Mohamed Eissa signature and Foxit PDF Creator metadata; no authenticated MUST institution, faculty, department, examiner, examination sitting, marks scheme or official key declaration appears',
+      boundaryDisposition: 'physical page 1 is a cover and pages 2-16 contain sixty-eight ordinary text multiple-choice prompts, each immediately followed by a printed ANSWER token; exact boundary sixty-eight objective prompts, sixty-eight prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching-only occurrences',
+      replayDisposition: 'no normalized sibling or multi-prompt replay subset maps this carrier to the completed Chemo 1, fifty-nine-question student bank, Salama or Mohamed Farid pharmacology carriers, so all sixty-eight distinct physical prompt-and-answer occurrences survive the governed family boundary',
+      preservedSourceDefects: ['sparse and restarted printed numbering does not alter the physical prompt count', 'the malformed option sequence that prints Pyrazinamide followed by parenthetical Isoniazid remains source truth', 'printed spelling, grammar, outdated terminology and academically questionable questions or answer tokens remain source truth without correction', 'the complete inline answer set remains personal revision-source evidence rather than an authenticated faculty key'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 4764, printedKeyObservations: 4539, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 4832, printedKeyObservations: 4607, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -2677,6 +2715,7 @@ const provenance = {
   fiftySixthSourceCandidate: FIFTY_SIXTH_SOURCE,
   fiftySeventhSourceCandidate: FIFTY_SEVENTH_SOURCE,
   fiftyEighthSourceCandidate: FIFTY_EIGHTH_SOURCE,
+  fiftyNinthSourceCandidate: FIFTY_NINTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
