@@ -1714,3 +1714,31 @@ Removing the forty-six processed hashes leaves **48 selected inventory paths / 4
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Intro) Midterm Notes.pdf`, SHA-256 `20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de`, 1 page, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 48 selected inventory paths / 48 unique hashes remain untriaged.
+
+## Completed source — FHB Para Intro Midterm Notes
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Intro) Midterm Notes.pdf` | `20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de` | 1 | substantive-text | page 1 rendered and read | Single-page Microsoft Word 2016 teaching note titled `FHB-2: Parasitology` with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears. |
+
+### Exact teaching and assessment boundary
+
+The page consists entirely of fully revealed teaching prose under four headings: Basic Definitions, Classification of Parasites, Routes of Infection and Scientific Taxonomy. Numbered headings, nested taxonomy lists and examples are declarative structure rather than assessment prompts. The exact boundary is **0 objective / 0 written / 0 practical or image prompts / 0 answers / 0 source-absent / 1 teaching-reference page**.
+
+The abbreviated `FHB-2` title and Ebedo metadata are retained without promotion to official module authority. Teaching headings and nested lists are not reverse-engineered into questions or keys. Printed spelling, classifications and academically questionable teaching claims remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The teaching topics cover parasite/host definitions, parasite classification, routes of infection and scientific taxonomy; all are already represented. Because the page contains no assessment prompt, no assessment handle survives the source-first gate.
+
+Search arithmetic is **0 assessment handles − 0 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-seventh one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **4,169 questions / 3,978 answers / 62 concepts**.
+
+Removing the forty-seven processed hashes leaves **47 selected inventory paths / 47 unique SHA-256s**. Their sorted-newline checksum is `da55000bdad6291c656dde313b70f464eeb0e36c34659e5adb37ea801b9b6bd0`. Remaining audit-review debt is **20 substantive-text / 11 sparse-text / 5 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`47 + 47 = 94`** and path accounting is **`49 + 47 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Mosquitoes) Midterm Notes.pdf`, SHA-256 `89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7`, 3 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 47 selected inventory paths / 47 unique hashes remain untriaged.

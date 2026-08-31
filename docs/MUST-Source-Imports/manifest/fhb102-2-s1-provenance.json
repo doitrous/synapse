@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "126f14428aa54a44da9ac6e6e0ab810140f50fc77f1a75e838adb5860d602829",
-    "triageMarkdown": "9cb890bb664efb4fe6c38cf260d8889791aa411c303441cf881c2ea6d730cfaa"
+    "readinessMarkdown": "9abeb62c30d435d5afe6fe0dc93d1ae3a0a63f42864c8a467db7fec355ed4f9e",
+    "triageMarkdown": "556a37d808535fdaefec83ae29393c5e76154249767df0b6215bcfb14afc5d66"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -72,6 +72,7 @@
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
+      "20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de",
       "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
@@ -116,7 +117,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 46
+    "uniqueSha256": 47
   },
   "completedSourceCoverage": [
     {
@@ -2888,6 +2889,60 @@
         "two isolated direct prompt replays remain physical occurrences in this distinct non-sibling carrier",
         "printed spelling, terminology and academically questionable prompt or answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de",
+      "sourcePages": 1,
+      "renderedReadPages": "1",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 1,
+      "teachingPrompts": 0,
+      "teachingTopicHandles": 4,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Basic Definitions",
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Classification of Parasites",
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Routes of Infection",
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Scientific Taxonomy",
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0
+        }
+      ],
+      "authorityDisposition": "single-page Microsoft Word 2016 teaching note titled FHB-2: Parasitology with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears",
+      "boundaryDisposition": "the single rendered page is fully revealed teaching prose organized into Basic Definitions, Classification of Parasites, Routes of Infection and Scientific Taxonomy; numbered headings and taxonomy lists are declarative teaching structure, not assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence",
+      "preservedSourceDefects": [
+        "the abbreviated FHB-2 title and Ebedo metadata are retained without promotion to official module authority",
+        "numbered teaching headings and nested lists are not reverse-engineered into questions or keys",
+        "printed spelling, classifications and academically questionable teaching claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3174,33 +3229,39 @@
     "pages": 42,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortySeventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Intro) Midterm Notes.pdf",
     "sha256": "20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de",
     "pages": 1,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Mosquitoes) Midterm Notes.pdf",
+    "sha256": "89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7",
+    "pages": 3,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 48,
-    "uniqueSha256": 48,
-    "sortedNewlineSha256": "991d2f782eb3d05808d32e138f74876945869a520d28856c18219008e0525740",
+    "inventoryMetadataRows": 47,
+    "uniqueSha256": 47,
+    "sortedNewlineSha256": "da55000bdad6291c656dde313b70f464eeb0e36c34659e5adb37ea801b9b6bd0",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 5,
       "sparse-text": 11,
-      "substantive-text": 21
+      "substantive-text": 20
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 5,
     "sparse-text": 11,
-    "substantive-text": 21
+    "substantive-text": 20
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 46,
-    "remainingUniqueSha256": 48,
+    "processedUniqueSha256": 47,
+    "remainingUniqueSha256": 47,
     "processedPlusRemaining": 94
   }
 }

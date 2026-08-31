@@ -55,9 +55,10 @@ const PROCESSED_FAMILY_HASHES = [
   '95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42',
   '15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51',
   'b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f',
+  '20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = '991d2f782eb3d05808d32e138f74876945869a520d28856c18219008e0525740'
+const REMAINING_CHECKSUM = 'da55000bdad6291c656dde313b70f464eeb0e36c34659e5adb37ea801b9b6bd0'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -334,10 +335,16 @@ const FORTY_SIXTH_SOURCE = {
   pages: 42,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const FORTY_SEVENTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Intro) Midterm Notes.pdf',
   sha256: '20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de',
   pages: 1,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Mosquitoes) Midterm Notes.pdf',
+  sha256: '89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7',
+  pages: 3,
   sourceProcessed: false,
 }
 
@@ -416,10 +423,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 21 }
+  const expected = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 20 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=21-substantive/11-sparse/5-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=20-substantive/11-sparse/5-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -439,6 +446,9 @@ for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativ
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 for (const value of [FORTY_SIXTH_SOURCE.relativePath, FORTY_SIXTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
+for (const value of [FORTY_SEVENTH_SOURCE.relativePath, FORTY_SEVENTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -484,7 +494,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 46 || remainingHashes.length !== 48 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 47 || remainingHashes.length !== 47 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -492,7 +502,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 21 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 20 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2130,6 +2140,40 @@ const provenance = {
       boundaryDisposition: 'six independently numbered sections contain thirty Pre-Midterm, thirty Lice, thirty Fleas & Bugs, thirty Ticks, twenty Cyclops & Scorpions and five Diagnostic Parasitology conventional text MCQs, each with one prompt-matched answer-table token; exact total one hundred forty-five objective prompts and one hundred forty-five answers, with zero source-absent, written, practical, image-dependent or teaching-only occurrence',
       preservedSourceDefects: ['the cover claim of 140 Questions conflicts with the visible 145-item six-section boundary and is preserved without governing the count', 'answer tables are source-answer evidence rather than an authenticated faculty key', 'two isolated direct prompt replays remain physical occurrences in this distinct non-sibling carrier', 'printed spelling, terminology and academically questionable prompt or answer claims remain source truth without correction'],
     },
+    {
+      sha256: FORTY_SEVENTH_SOURCE.sha256,
+      sourcePages: 1,
+      renderedReadPages: '1',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      writtenPrompts: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 1,
+      teachingPrompts: 0,
+      teachingTopicHandles: 4,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Basic Definitions', teachingReferencePages: 1, assessmentPrompts: 0 },
+        { section: 'Classification of Parasites', teachingReferencePages: 1, assessmentPrompts: 0 },
+        { section: 'Routes of Infection', teachingReferencePages: 1, assessmentPrompts: 0 },
+        { section: 'Scientific Taxonomy', teachingReferencePages: 1, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: 'single-page Microsoft Word 2016 teaching note titled FHB-2: Parasitology with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears',
+      boundaryDisposition: 'the single rendered page is fully revealed teaching prose organized into Basic Definitions, Classification of Parasites, Routes of Infection and Scientific Taxonomy; numbered headings and taxonomy lists are declarative teaching structure, not assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['the abbreviated FHB-2 title and Ebedo metadata are retained without promotion to official module authority', 'numbered teaching headings and nested lists are not reverse-engineered into questions or keys', 'printed spelling, classifications and academically questionable teaching claims remain source truth without correction'],
+    },
   ],
   triageCumulative: { printedPromptObservations: 4169, printedKeyObservations: 3978, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
@@ -2178,6 +2222,7 @@ const provenance = {
   fortyFourthSourceCandidate: FORTY_FOURTH_SOURCE,
   fortyFifthSourceCandidate: FORTY_FIFTH_SOURCE,
   fortySixthSourceCandidate: FORTY_SIXTH_SOURCE,
+  fortySeventhSourceCandidate: FORTY_SEVENTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
