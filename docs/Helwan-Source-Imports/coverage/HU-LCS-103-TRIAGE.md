@@ -23708,3 +23708,93 @@ The exact next manifest-order debt is rank-9 `src_3be5832bb4de2e6a89da`,
 It remains unclassified until both pages are rendered and read. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 2 tier-6/rank-9 path debts remain. No download, source edit,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 229 — Rank-9 BRS motor-unit and muscle-spindle teaching extract
+
+Exact source identity is `src_3be5832bb4de2e6a89da`,
+`Year 1/LCS 103/Physiology/Muscle regulation/Muscle regulation-BRS.pdf`, 1,827,521
+bytes, 2 native 595.276 x 841.89 pt A4 pages, and SHA-256
+`3be5832bb4de2e6a89da211997fba60d5a77231558dde83fb8bce7f787e8c86d`.
+The physical file matches that path, size, page count and digest. It is untagged, unencrypted,
+contains no form and identifies PDF 1.3. A structural check succeeds with two handled
+zero-offset warnings. Both pages were rendered at 180 dpi, native text was reviewed, and both
+distinct pages were visually read.
+
+### Authority and complete teaching/assessment boundary
+
+Visible running headers identify `Chapter 2 Neurophysiology` and `Board Review Series:
+Physiology`, printed pages 47–48. Metadata titles the source `BRS Physiology (5th Ed.)`, names
+author `Nermien`, Preview as creator and macOS Quartz as producer. Page 2's Figure 2-8 is
+modified with permission from Matthews PBC, *Physiol Rev* 1964. No visible page or metadata
+names Helwan, HU, a faculty, cohort, sitting, exam, marks or official key. This is an external
+textbook extract with module-fit teaching, not eligible or external assessment evidence.
+
+Page 1 begins with the tail of taste-transduction teaching, then supplies `III. MOTOR
+SYSTEMS`: motor-unit/motoneuron-pool definitions, recruitment and the size principle; small-
+versus-large motoneuron thresholds/force; muscle sensors; and extrafusal-versus-intrafusal
+fibres. Page 2 completes intrafusal fibres, nuclear bag/chain fibres, group Ia/II sensing,
+the stretch-reflex sequence, gamma-motoneuron sensitivity and alpha/gamma coactivation, then
+supplies completed Figure 2-8 `Organization of the muscle spindle`.
+
+There is no interrogative stem, option set, response field, blank, learner command, written
+task, answer reveal or key. Exact assessment delta is **0 eligible prompts / 0 external
+prompts / 0 ordinary objective prompts / 0 written prompts / 0 keys-or-answers / 0 unkeyed
+prompts**. Source truth follows the visible Greek alpha/gamma labels rather than the degraded
+native extraction's backtick/`f` substitutions.
+
+### Visual and practical boundary
+
+Figure 2-8 is one completed teaching plate. It prints ten directly resolved mappings:
+`Dynamic gamma-motor fiber`, `Static gamma-motor fiber`, `Group Ia afferent`, `Group II
+afferent`, `Plate ending`, `Trail ending`, `Primary ending`, `Secondary ending`, `Nuclear bag
+fiber` and `Nuclear chain fiber`. The caption names the organization of the muscle spindle but
+does not create a separate mapping. No label is masked and no station command is present.
+Exact practical delta is therefore **0 prompts / +1 teaching plate / +10 mappings / 0
+residues / 0 keys / 0 new practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The complete LCS-fit teaching collapses source-first to three handles:
+
+| Handle | Exact four-surface query | Reconciliation |
+|---|---|---|
+| motor units, recruitment and size principle | motor unit recruitment size principle small large motoneurons force | prior LCS muscle-physiology reuse |
+| muscle sensors and fibre types | muscle sensors spindle Golgi tendon organ Pacinian extrafusal intrafusal | prior LCS muscle-sensor reuse |
+| spindle organization and stretch reflex | nuclear bag chain group Ia II alpha gamma motoneuron stretch reflex spindle | prior LCS spindle/reflex reuse |
+
+Each handle received exactly one search against live, pending/import-ready, prior
+source-import and accepted LCS: **3 x 4 = 12 required search invocations**. Exact-query
+file-match counts were **0 on every surface**. Full scope comparison against Families 73,
+75, 144–148, 183, 186 and 225 establishes **3 prior-LCS theoretical/practical-scope reuses /
+0 additive live / 0 additive pending / 0 additive new teaching scopes**; exact-query misses
+are not promoted into new scopes.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,632 prompts / 7,346 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals advance from **94 prompts / 525 plates / 3,029 mappings / 173
+residues / 87 keys** by **0 / +1 / +10 / 0 / 0** to **94 prompts / 526 plates / 3,039
+mappings / 173 residues / 87 keys**. Practical teaching scopes remain **0 live / 0 pending /
+92 new** because all three scopes are prior reuse.
+
+Consuming this source's sole path and unique hash changes the remainder from **2 paths / 2
+unique hashes** to **1 path / 1 unique hash**: tier 3 remains **0 / 0**, tier 6 remains **1
+path / 1 unique hash within tier**, and rank 9 becomes **0 / 0**. Family 228's checksums were
+`0df259b6ea9e88f3ac6ad4b9b11e1918e73fb749a1160733d531e60dff42e3ea` (paths) and
+`32bc6289b095d6cb319223f1678a3a7453c6e1eeb9dec54567b86053b67ae1cd` (unique hashes).
+For the exact post-Family-229 remainder, SHA-256 over the sole
+`corpusRelativePath<TAB>sha256<LF>` row is
+`8ac904e23b18332074a75074721061c69e5635876bd32cae91f5183a06573495`;
+SHA-256 over its sole `sha256<LF>` row is
+`1296982c721725f32803d50d04b57786dc2b0a8067ed9f7cc4d86da9931aa462`.
+
+The exact final manifest-order debt is tier-6 `src_664ef17f29adc95509aa`,
+`Year 1/LCS 103/Physiology/Notes and Summaries/Muscle physiology.pdf` (895,668 bytes; 8
+native portrait-A4 pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
+`664ef17f29adc95509aa4e533ee08273839b2b8b4363a165fbe3d7167367a4de`).
+It remains unclassified until all eight pages are rendered and read. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 1 tier-6 path / 1 unique hash remains; rank-9 debt is
+exhausted. No download, source edit, ID, content record, catalogue update, import or source
+copy was created.
