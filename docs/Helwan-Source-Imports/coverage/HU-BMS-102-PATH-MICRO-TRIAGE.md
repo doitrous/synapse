@@ -25979,3 +25979,109 @@ metadata records PyFPDF production and a 15 July 2025 timestamp but no author or
 Its visible authority, complete prompt/answer boundary, possible synthetic-generation indicators,
 four-search/prior-BMS reconciliation, arithmetic, and subsequent exact debt remain to be separately
 adjudicated.
+
+## Family 256 — anonymous programmatically typeset beta-blocker MCQ answer sheet
+
+### Source identity, complete visual/native boundary, authority, and generation caution
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_e6a1286ae1e208700710` · `MCQs - Beta_Blockers_MCQs.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `e6a1286ae1e2087007100dfcd105ee49f9e9a479cd32ccb293ab38ad9f0e3f7e` · **2,442 bytes** |
+| Format / complete boundary | **Two native-text portrait A4 pages, PDF 1.3**. Both pages were rendered at 180 dpi into two non-empty 1,489×2,105-pixel images and read individually at original detail. Coherent extraction yields **220 words / 1,597 bytes** and agrees with all seven numbered stems, 28 options, seven green inline answer lines, the page break, and terminal whitespace. Every visible unit is assigned below; there is no page or crop remainder. |
+| Visible provenance | Page 1 titles the carrier only `MCQ Questions on Beta Blockers`; page 2 continues Q5–Q7. No author, instructor, institution/faculty, Helwan/MHU marker, BMS-102 code, academic year, date, source citation, sitting, marks, candidate field, or departmental approval is visible. |
+| Metadata / generation caution | Producer is `PyFPDF 1.7.2` and creation is 15 July 2025; no title, author, subject, creator, or modification date exists. PyFPDF proves programmatic PDF typesetting and the tiny coherent object is consistent with generated export, but neither the library nor generic wording proves AI authorship, a human author, institutional source, teaching year, or sitting. The carrier is therefore described as programmatically typeset—not asserted to be AI-generated. |
+| Authority | Anonymous tier-9 local pharmacology revision sheet. In the absence of affirmative external authority or an exact replay exclusion, its visibly complete questions are eligible **low-authority auxiliary evidence**, not an authenticated Helwan assessment or official departmental key. |
+
+### Exhaustive prompt, answer, written, image, and practical boundary
+
+| Ref | Complete visible operation | Source-supplied answer / boundary |
+|---:|---|---|
+| Q1 | Primary mechanism of beta blockers | `C) Inhibition of beta-adrenergic receptors` · keyed text MCQ |
+| Q2 | Reason beta blockers are useful in angina | `C) Decrease heart rate and contractility` · keyed text MCQ |
+| Q3 | Patient most likely harmed by non-selective beta blockers | `C) A patient with asthma` · keyed text MCQ |
+| Q4 | Beta1-selective beta blocker | `C) Atenolol` · keyed text MCQ |
+| Q5 | Common beta-blocker adverse effect | `B) Hypoglycemia unawareness` · keyed text MCQ |
+| Q6 | Beta blocker used for CNS effects in performance anxiety | `D) Propranolol` · keyed case-based text MCQ |
+| Q7 | Consequence of abrupt withdrawal after long-term use | `B) Myocardial infarction` · keyed text MCQ |
+
+The source-local boundary is exactly **7 raw prompt occurrences = 7 four-option text MCQs**, with
+**7 source-supplied answers / 0 unkeyed prompts**. Each answer immediately follows its own option
+set in green, so directionality is explicit and no answer reconstruction is needed. There are **0
+free-response written prompts, 0 completion blanks, 0 matching items, 0 image-bearing prompts, 0
+drawing tasks, 0 authenticated practical stations, 0 teaching-only callouts, and 0 prompt-like
+residues**. Q3 and Q6 are short clinical contexts, not practical records. The answer text is
+preserved as source truth without medical endorsement or silent correction.
+
+### Seven-handle registry, 28-search completion, and prior-BMS reconciliation
+
+No literal or semantic same-source replay occurs, so all **7 raw prompts remain 7 retained records
+and 7 accepted source-distinct handles**:
+
+| Ref | Accepted handle | Prior eligible BMS disposition |
+|---:|---|---|
+| Q1 | `beta-blocker-beta-receptor-inhibition-primary-mechanism` | Reuses Family 237's beta-blocker mechanism/actions scope and the prior propranolol competitive-antagonism record. |
+| Q2 | `beta-blocker-angina-decrease-heart-rate-contractility` | Reuses Family 237's `beta-blocker-classic-not-variant-angina-rationale`. |
+| Q3 | `nonselective-beta-blocker-asthma-harm` | Reuses Family 239's propranolol/asthma contraindication and beta1-selective-substitution handle. |
+| Q4 | `atenolol-beta-one-selective` | Reuses Family 239's `atenolol-beta-one-selectivity-renin-versus-glucose`. |
+| Q5 | `beta-blocker-hypoglycemia-unawareness` | Reuses Family 239's `beta-blocker-masks-hypoglycemia-adrenergic-warning`. |
+| Q6 | `propranolol-performance-anxiety-cns-use` | Reuses Family 237's source-supplied beta-blocker therapeutic-uses scope, including anxiety use. |
+| Q7 | `beta-blocker-abrupt-withdrawal-myocardial-infarction` | Reuses Family 237's `beta-blocker-abrupt-withdrawal-rationale`. |
+
+Every accepted handle received exactly four fresh searches: one each across
+`docs/questions-import-ready`, Helwan `pending-live`, governed Helwan question/written output, and
+prior BMS-102 family evidence. That is **`7 × 4 = 28 required and completed searches`**. The first
+three surfaces return no competing live/pending object for any handle; the prior-family surface
+confirms the seven relations above. Thus prior-BMS reuse is exactly **7**, and concept arithmetic is
+**`7 handles - 7 prior reuses = +0 concepts`**.
+
+### Family-256 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 256 | Auxiliary cumulative (Families 12–256) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 7 MCQ | 3,164 | 762 | 3,926 |
+| Eligible source-supplied answers | 7; 0 unkeyed | 2,150 | 405 | 2,555 |
+| Retained eligible question records | 7 | 2,868 | 552 | 3,420 |
+| Accepted handles / required searches | 7 / 28 | 2,577 / — | — | — |
+| Prior-BMS handle reuses | 7 | — | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +1,325 over primary | 372 | 1,697 |
+| **Distinct tested concepts** | **7 source-local / +0** | **1,325 additions** | **372** | **1,697** |
+
+The checksum closes: **7 prompts = 7 answers + 0 unkeyed**; **7 raw - 0 exclusions = 7 retained
+= 7 handles**; **7 × 4 = 28 searches**; and **7 - 7 prior reuses = +0 concepts**. Auxiliary
+arithmetic is `3,157 + 7 = 3,164` prompts, `2,143 + 7 = 2,150` answers, `2,861 + 7 = 2,868`
+retained, `2,570 + 7 = 2,577` handles, and `1,325 + 0 = 1,325` concept additions. All eligible is
+`762 + 3,164 = 3,926`, `405 + 2,150 = 2,555`, `552 + 2,868 = 3,420`, and `372 + 1,325 = 1,697`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,164 prompts / 2,150 answers /
+2,868 retained / 2,577 handles / +1,325 concepts**. All eligible becomes **3,926 / 2,555 / 3,420
+/ 1,697**. Family 256 establishes anonymous low-authority, programmatically typeset beta-blocker
+revision evidence only—not AI authorship, official provenance, an authenticated exam/sitting,
+official key, practical station, recurrence/readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 256
+
+`src_e6a1286ae1e208700710` is exhausted across both native/rendered pages: every title, stem,
+option, green answer line, page break, whitespace residue, metadata field, generation limitation,
+search packet, prior-family relation, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-256 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 256
+governs **1 selected path / 1 unique hash**. The governed set through Family 256 is therefore
+**321 paths / 310 unique hashes**, leaving exactly **41 ungoverned selected paths / 38 unique
+hashes**. Checksums are **321 + 41 = 362 paths** and **310 + 38 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`21551765db1964eed1d449d90f048ee1308a4f20441370a2d17b3e17b98ec717`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`54e6dd5c4193a420066a7432f3bdddf1c7bdfd4511c40c701448755889998945`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_0041c6ef962476e3f9e0` ·
+`MCQs - College MCQs Pharmacology Question Bank-1 (1).pdf`, SHA-256
+`0041c6ef962476e3f9e081d7148d8068eeaffda20b7b49dad1b663dcf57c7dd9`, **720,234 bytes**,
+**18 native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. Page 1 visibly
+headers `Pharmacology BMS2` and begins numbered pharmacokinetics MCQs; metadata names `Ahmed Ramy`,
+Microsoft Word 2016, iLovePDF, and 9 February 2020, none of which alone establishes Helwan or
+assessment authority. Its full visual/native boundary, visible authorship/authority, prompt/key/
+written/image/practical split, four-search/prior-BMS reconciliation, arithmetic, and subsequent
+exact debt remain to be separately adjudicated.
