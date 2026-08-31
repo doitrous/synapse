@@ -23415,3 +23415,109 @@ unclassified until the relevant full-book/module boundary is established under r
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 6 tier-6/rank-9 path debts remain.
 No download, source edit, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 225 — Rank-9 external BRS physiology textbook with a narrow LCS assessment boundary
+
+Exact source identity is `src_4b4313d01812ad5bf79d`,
+`Year 1/LCS 103/Physiology/BRS - physiology book/BRS Physiology (Board Review Series), 7th Edition.pdf`,
+193,642,244 bytes, 337 OCR-layer 504 x 720 pt pages, and SHA-256
+`4b4313d01812ad5bf79d7e833767808880ddee937535e0f3428720ef23c50cf6`.
+The physical file matches that path, size, page count and digest. It is untagged, unencrypted,
+contains an AcroForm, identifies PDF 1.6, and passes a structural check. All 337 pages were
+rendered, OCR/native-text reviewed and visually read; 337 distinct page renders and 17
+twenty-page-or-smaller contact sheets establish complete physical coverage.
+
+### Authority and complete book/assessment boundary
+
+The visible title pages identify *BRS Physiology*, seventh edition, Linda S. Costanzo, PhD,
+and Wolters Kluwer. The preface describes a USMLE Step 1 review book. No page or metadata
+names Helwan, HU, an LCS cohort, sitting, marks or official module key. The source is therefore
+external reference and assessment evidence, never eligible Helwan assessment authority.
+
+The complete physical boundary is:
+
+| PDF pages | Complete supplied composition | Review prompts / answers |
+|---:|---|---:|
+| 1–12 | cover, title/copyright, preface, acknowledgements and contents | 0 / 0 |
+| 13–44 | Ch. 1 Cell teaching 13–35; review 36–40; explanations 41–44 | 36 / 36 |
+| 45–78 | Ch. 2 Neuro teaching 45–70; review 71–74; explanations 75–78 | 36 / 36 |
+| 79–127 | Ch. 3 Cardiovascular teaching 79–114; review 115–121; explanations 122–127 | 60 / 60 |
+| 128–159 | Ch. 4 Respiratory teaching 128–151; review 152–155; explanations 156–159 | 30 / 30 |
+| 160–206 | Ch. 5 Renal/acid-base teaching 160–196; review 197–201; explanations 202–206 | 42 / 42 |
+| 207–239 | Ch. 6 Gastrointestinal teaching 207–233; review 234–236; explanations 237–239 | 23 / 23 |
+| 240–284 | Ch. 7 Endocrine teaching 240–275; review 276–279; explanations 280–283; blank 284 | 34 / 34 |
+| 285–306 | comprehensive examination 285–295 and explanations 296–306 | 101 / 101 |
+| 307–337 | USMLE topic/question appendices, normal values and index | 0 / 0 |
+
+Thus the complete book contains **362 ordinary multiple-choice prompts / 362 printed answer
+explanations**. The direct LCS boundary retains **37 prompts / 37 answers**: Ch. 1 review
+Q2, Q4–6, Q8, Q10, Q12–16, Q20–21, Q24, Q26, Q29, Q33–34 (**18**);
+Ch. 2 Q10, Q14, Q28, Q32–34 (**6**); Ch. 7 Q6, Q16–18, Q28, Q32–34
+(**8**); and comprehensive Q12–13, Q15, Q23 and Q101 (**5**). These test nerve action
+potentials/NMJ, skeletal and smooth muscle contraction, stretch-reflex/spindle physiology,
+calcium/PTH/vitamin-D physiology and module-relevant glucocorticoid/adrenal physiology.
+The remaining **325 prompts / 325 answers** concern cardiovascular, respiratory, renal,
+gastrointestinal, reproductive, sensory, autonomic or other non-LCS systems and are excluded
+from governed external totals. Exact Family 225 assessment delta is therefore **0 eligible /
++37 external ordinary MCQs / +37 external source answers / 0 written / 0 unkeyed / 0 new
+external concepts**. No answer is inferred or medically repaired.
+
+### Visual and practical boundary
+
+The source supplies completed textbook figures, curves, tables, worked relationships and
+fully labelled diagrams. Review graphs are ordinary MCQ exhibits with complete answer
+explanations; no image is an LCS station plate, no label is masked, and no learner
+identification command appears. Exact practical delta is **0 prompts / 0 teaching plates / 0
+mappings / 0 residues / 0 keys / 0 practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The retained teaching and assessment collapse source-first to eight handles:
+
+| Handle | Exact four-surface query | Reconciliation |
+|---|---|---|
+| membrane transport and resting potential | membrane transport diffusion osmolarity resting membrane potential | prior LCS physiology reuse |
+| nerve action potential and NMJ | nerve action potential neuromuscular junction acetylcholine end plate | prior LCS physiology reuse |
+| skeletal excitation-contraction coupling | skeletal muscle excitation contraction troponin cross bridge sarcoplasmic reticulum | prior LCS muscle reuse |
+| muscle mechanics | muscle mechanics length tension force velocity twitch tetanus | prior LCS muscle reuse |
+| smooth-versus-skeletal contraction | smooth muscle calmodulin myosin light chain skeletal comparison | prior LCS muscle reuse |
+| stretch reflex and proprioceptors | stretch reflex muscle spindle Golgi tendon Ia afferent motoneuron | prior LCS nerve/muscle reuse |
+| calcium/PTH/vitamin-D physiology | calcium metabolism parathyroid hormone vitamin D calcitonin bone resorption | prior LCS calcium/bone reuse |
+| glucocorticoid/adrenal physiology | glucocorticoid cortisol ACTH adrenal cortex Cushing Addison | prior LCS corticosteroid reuse |
+
+Each accepted handle received exactly one search against live, pending/import-ready, prior
+source-import and accepted LCS: **8 x 4 = 32 required search invocations**. Exact-query
+file-match counts were **0 on every surface**. Full scope comparison against the already
+inventoried LCS muscle, nerve, calcium/bone and corticosteroid families establishes **8
+prior-LCS teaching/assessment reuses / 0 additive live / 0 additive pending / 0 additive new
+external concepts**; exact-query misses are not promoted into new concepts.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment becomes
+**7,632 prompts / 7,346 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 225's
+governed delta is **+37 external ordinary MCQs / +37 source answers / 0 eligible / 0 concepts /
+0 practical**.
+
+Consuming this source's sole path and unique hash changes the remainder from **6 paths / 6
+unique hashes** to **5 paths / 5 unique hashes**: tier 3 remains **0 / 0**, tier 6 remains
+**1 path / 1 unique hash within tier**, and rank 9 becomes **4 paths / 4 unique hashes within
+rank**. Family 224's checksums were
+`68e701008daec8678a5eb56ac0bba71a92690026880d2360b604bc8472101255` (paths) and
+`c2167477d38cf3b3de7d3a9f6e6399bf59fc6b416139eb1bf3e106f548b29ad8` (unique hashes).
+For the exact post-Family-225 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`3d1fb32e10ed43fff0b22088cc50bb7866bcd8e2e41775d9bec3dd33ed949328`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`12f0cfaf6499720e425d1ee55ac9986cd0376a6d517a97aad391eef79e3c04ca`.
+
+The exact next manifest-order debt is rank-9 `src_edbe73fd733de82dd04e`,
+`Year 1/LCS 103/Physiology/Hyper- vs Hypo- Kalemia/Hyperkalemia vs hypokalemia.pdf`
+(73,197 bytes; 2 native 612 x 865 pt pages; untagged; unencrypted; no form; PDF 1.4;
+SHA-256 `edbe73fd733de82dd04e2cfad5553dd79cec594721e03a9b254e440351a77b3b`).
+It remains unclassified until both pages are rendered and read. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 5 tier-6/rank-9 path debts remain. No download, source edit,
+ID, content record, catalogue update, import or source copy was created.
