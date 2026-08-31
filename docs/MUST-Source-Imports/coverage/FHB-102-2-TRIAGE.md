@@ -1770,3 +1770,31 @@ Removing the forty-eight processed hashes leaves **46 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf`, SHA-256 `6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5`, 6 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 46 selected inventory paths / 46 unique hashes remain untriaged.
+
+## Completed source — FHB Para Myiasis Midterm Notes
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf` | `6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5` | 6 | substantive-text | pages 1–6 rendered and read | Six-page Microsoft Word 2016 arthropod and myiasis teaching summary with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears. |
+
+### Exact teaching and assessment boundary
+
+All six pages are fully revealed teaching/reference prose, tables and lists covering arthropod classification and transmission, fly families, myiasis classification, clinical forms, diagnosis, treatment and prevention. Headings, case descriptions, treatment lists and numbered prevention steps are declarative teaching structure rather than assessment prompts. The exact boundary is **0 objective / 0 written / 0 practical or image prompts / 0 answers / 0 source-absent / 6 teaching-reference pages**.
+
+The generic `Arthropoda` opening title and Ebedo metadata are retained without promotion to official module authority. Teaching tables, case descriptions and nested lists are not reverse-engineered into questions or keys. Printed spellings, classifications, transmission claims, treatments and academically questionable teaching statements remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The five teaching-topic handles cover arthropod classification/transmission, fly families, myiasis classification, clinical diagnosis/treatment and prevention; all are already represented. Because the source contains no assessment prompt, no assessment handle survives the source-first gate.
+
+Search arithmetic is **0 assessment handles − 0 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-ninth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **4,169 questions / 3,978 answers / 62 concepts**.
+
+Removing the forty-nine processed hashes leaves **45 selected inventory paths / 45 unique SHA-256s**. Their sorted-newline checksum is `af2f9828f3144c9434f21988c3785cdc04237ca82d413d9b147650bcf93dc131`. Remaining audit-review debt is **18 substantive-text / 11 sparse-text / 5 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`49 + 45 = 94`** and path accounting is **`51 + 45 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Sand Fly) Midterm Notes.pdf`, SHA-256 `79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e`, 2 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 45 selected inventory paths / 45 unique hashes remain untriaged.
