@@ -1630,3 +1630,31 @@ Removing the forty-three processed hashes leaves **51 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - Practical Final Para FHB-2 - Revision.pdf`, SHA-256 `95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42`, 117 pages, with a sparse-text audit sample. Its sibling relationship and exact accepted family delta remain to be governed.
 
 **BLOCKED — S1 cannot be approved:** 51 selected inventory paths / 51 unique hashes remain untriaged.
+
+## Completed source — Practical Final Para FHB-2 Revision
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - Practical Final Para FHB-2 - Revision.pdf` | `95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42` | 117 | sparse-text | pages 1–117 rendered and read | Visible MUST-branded `Parasitology FHB-102 Final revision` teaching carrier naming Dr. Noran Mostafa; PowerPoint metadata names Mohamed Mostafa Mostafa Ahmed. This is institutional revision/teaching evidence, not an authenticated examination sitting, examiner, marks scheme or faculty key. |
+
+### Exact sibling, practical, answer and teaching boundary
+
+The raw carrier contains **82 image-dependent practical fields / 66 matched printed answers / 16 source-absent answers / 0 ordinary objective MCQs / 0 standalone written prompts / 82 non-additive teaching-reference-divider pages**. Exact sequence reconciliation maps pages 1–44 to prior-family pages 1–44 and pages 46–117 to prior-family pages 45–116. Page 45 is the only insertion: a fully labelled Aedes-egg reference slide with no question. Thus all 82 prompt fields, 66 answers and 16 absent fields are already governed by the completed 116-page sibling, while the inserted page is teaching-only.
+
+The governed family delta is **+0 questions / +0 answers**. Page-level formatting or attribution differences do not mint new assessment occurrences; the sixteen unkeyed practical fields remain absent rather than inferred; and printed terminology, spelling and questionable answer claims remain source truth.
+
+### Source-first handles and exactly-four-search gate
+
+The carrier reuses the prior family's fifteen handles: helminth class/specimen identification; nematode, cestode and trematode morphology; protozoal class/stage identification; arthropod classification; mosquito morphology and vector transmission; sand flies; flies/myiasis; biting flies/trypanosomiasis; fleas; ticks/mites; *Cyclops*; and clinical diagnosis, stages and vectors. All fifteen remain prior-represented.
+
+Search arithmetic is **15 source-first − 15 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-fourth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **3,997 questions / 3,806 answers / 62 concepts**.
+
+Removing the forty-four processed hashes leaves **50 selected inventory paths / 50 unique SHA-256s**. Their sorted-newline checksum is `bc43e41dd912fed10fca6f154c2913df65e1d416931b881eec411bb437a2ec77`. Remaining audit-review debt is **22 substantive-text / 11 sparse-text / 5 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`44 + 50 = 94`** and path accounting is **`46 + 50 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Parasitology FHB102-2 Exam Night Questions & Notes (Final).pdf`, SHA-256 `15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51`, 23 pages, with an audit-extract-failed sample.
+
+**BLOCKED — S1 cannot be approved:** 50 selected inventory paths / 50 unique hashes remain untriaged.

@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "332689b13d2d68fbabdd24124abab3d24623c008a7c11ef8133746c4d98c3deb",
-    "triageMarkdown": "3e6b28a895f93add9545e430eb1542e63d3b0defebc781ebd32c2477c1668f2f"
+    "readinessMarkdown": "912dd276b02555b397743d7fb8db9800a80ff6c20e44ed43ea7cfa4db48761e4",
+    "triageMarkdown": "ad538b1357612e00a908997541043111d2c4ef10776d9ea37dfec3c215fe4950"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -90,6 +90,7 @@
       "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
+      "95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42",
       "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
       "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
       "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
@@ -113,7 +114,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 43
+    "uniqueSha256": 44
   },
   "completedSourceCoverage": [
     {
@@ -2705,6 +2706,62 @@
         "sixteen practical fields lacking a matched printed answer remain source-absent rather than inferred from adjacent teaching material",
         "printed spelling, terminology, labels and academically questionable answer claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42",
+      "sourcePages": 117,
+      "renderedReadPages": "1-117",
+      "rawPromptObservations": 82,
+      "rawAnswerObservations": 66,
+      "rawSourceAbsentAnswers": 16,
+      "rawPracticalOrImagePrompts": 82,
+      "rawTeachingReferenceOrDividerPages": 82,
+      "objectiveMcqPrompts": 0,
+      "standaloneWrittenPrompts": 0,
+      "sourceFirstHandles": 15,
+      "priorFhb1022CollapsedHandles": 15,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": true,
+      "exactSiblingSha256": "b9a55266923a251cd30bb06bbe51efae146bcd6ea9a51b7489b76caf18fcf9f3",
+      "siblingPageMapping": "pages 1-44 map to prior pages 1-44; inserted page 45 is a fully labelled Aedes-egg teaching reference; pages 46-117 map to prior pages 45-116",
+      "mappedSiblingPromptObservations": 82,
+      "mappedSiblingAnswerObservations": 66,
+      "mappedSiblingAbsentAnswers": 16,
+      "insertedTeachingOnlyPages": [
+        45
+      ],
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "helminth class and specimen identification",
+        "nematode morphology and diagnostic features",
+        "cestode morphology and diagnostic features",
+        "trematode morphology and diagnostic features",
+        "protozoal class and stage identification",
+        "arthropod class identification",
+        "mosquito sex, genus and developmental-stage morphology",
+        "mosquito-borne disease vectors and transmission patterns",
+        "sand-fly morphology, diseases and transmission",
+        "flies, myiasis and posterior-spiracle identification",
+        "biting flies, trypanosomiasis and transmission",
+        "fleas and flea-borne disease",
+        "ticks, mites and arachnid morphology",
+        "Cyclops morphology and vector roles",
+        "clinical parasitology diagnosis, infective stages and vectors"
+      ],
+      "authorityDisposition": "visible MUST-branded Parasitology FHB-102 Final revision teaching carrier naming Dr. Noran Mostafa on the cover, with PowerPoint metadata naming Mohamed Mostafa Mostafa Ahmed; institutional teaching/revision provenance is retained without promotion to an authenticated examination sitting, examiner, marks scheme or faculty key",
+      "boundaryDisposition": "all eighty-two practical fields, sixty-six matched printed answers and sixteen source-absent fields map one-for-one to the completed 116-page revision family; the only inserted content is page 45, a fully labelled Aedes-egg teaching reference with no prompt; raw carrier boundary eighty-two image-dependent practical fields, sixty-six answers, sixteen absent and eighty-two non-additive teaching/reference/divider pages, but governed family delta zero questions and zero answers",
+      "preservedSourceDefects": [
+        "the inserted labelled Aedes-egg page is teaching-only and does not mint a question or answer occurrence",
+        "page-level design and attribution differences do not create new assessment occurrences when every practical field maps to the prior family",
+        "sixteen unmatched sibling practical fields remain source-absent rather than inferred from adjacent teaching",
+        "printed spelling, terminology, labels and academically questionable answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2973,21 +3030,27 @@
     "pages": 116,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortyFourthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM - Practical Final Para FHB-2 - Revision.pdf",
     "sha256": "95b68fdebb7014353e0ffce1ebde977607ff239132fef93f8184225775c8fe42",
     "pages": 117,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/06 EOM Exams/EOM MCQs - Parasitology FHB102-2 Exam Night Questions & Notes (Final).pdf",
+    "sha256": "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
+    "pages": 23,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 51,
-    "uniqueSha256": 51,
-    "sortedNewlineSha256": "2ba45f8dff6da9e20b1f6868b2f9fcc315b196b8bd3b8974c0e35b6594dc1bbe",
+    "inventoryMetadataRows": 50,
+    "uniqueSha256": 50,
+    "sortedNewlineSha256": "bc43e41dd912fed10fca6f154c2913df65e1d416931b881eec411bb437a2ec77",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 5,
-      "sparse-text": 12,
+      "sparse-text": 11,
       "substantive-text": 22
     }
   },
@@ -2995,13 +3058,13 @@
     "audit-extract-failed": 1,
     "audit-not-found": 11,
     "empty-text": 5,
-    "sparse-text": 12,
+    "sparse-text": 11,
     "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 43,
-    "remainingUniqueSha256": 51,
+    "processedUniqueSha256": 44,
+    "remainingUniqueSha256": 50,
     "processedPlusRemaining": 94
   }
 }
