@@ -26848,3 +26848,118 @@ The exact next unprocessed BMS-102 record is tier-9 `src_8da52ffc5f03ad0d951f` �
 `Mamdouh`, Word creation is 17 February 2024, and modification is 20 April 2026. Its complete
 authority, prompt/key/written/image/practical boundary, same-source/prior collapse, eligible gate,
 arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 264 — Dr El-Sawy keyed excretion, half-life, steady-state, and kinetics bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_8da52ffc5f03ad0d951f` · `MCQs - MCQ Excretion.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `8da52ffc5f03ad0d951f93af0dec5cfd845ed03e15ee90755c9989e3ea457284` · **692,355 bytes** |
+| Format / complete visual boundary | **Five native-text portrait A4 pages, PDF 1.6**. All five pages were rendered at 170 dpi into five non-empty 1,406×1,988-pixel images, read individually at original detail, and reread in one ordered contact sheet. Coherent layout extraction contains **840 words / 6,740 bytes** and agrees with every heading, numbered stem, option, formula/value, right-margin answer letter, footer, and page number. No form, JavaScript, encryption, hidden response layer, page, or crop remainder exists. |
+| Visible source structure | The pages visibly header `Pharmacology / MCQ`; every page footers **`DR . El-Sawy`**. Printed source page numbers run 2–6. The carrier contains the complete visible numbered run Q1–Q18 plus a separate source-numbered `35` item between Q12 and Q13; no missing-page or missing-question content is fabricated. |
+| Metadata caution | Metadata Author is `Mamdouh`; Creator/Producer are Microsoft Word 2016; creation is 17 February 2024 and modification is 20 April 2026. Those export fields are secondary to the visible Dr El-Sawy credit and cannot establish delivery date, academic year, sitting, or institutional authority. |
+| Authority / eligibility | Instructor-attributed keyed revision bank in the local Helwan BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, not an official Helwan exam, departmental key, authenticated sitting, or practical record. |
+
+### Complete prompt, answer, calculation, written, image, and practical boundary
+
+| Physical page / source refs | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q4 | Half-life amount-remaining calculation; continuous-infusion time to steady state; repeated-dose accumulation before the third dose; half-life determinant exception | **4 keyed four-option text/calculation MCQs**. |
+| 2 · Q5–Q9 | Opioid concentration-decay calculation; biliary elimination organ; therapeutic-drug-monitoring rationale; zero-order rate relation; loading-dose purpose | **5 keyed four-option text/calculation MCQs**. |
+| 3 · Q10–Q12 and `35` | Renal-impairment gentamicin dose adjustment; half-life and steady-state use; four-half-life steady-state percentage; separately numbered half-life/interdose-interval item | **4 keyed four-option text/calculation MCQs**. The visible jump to `35` is a source-number anomaly, not evidence for absent Q19–Q34. |
+| 4 · Q13–Q16 | Repeated continuous-infusion calculation; back-calculating IV dose from Vd, level, elapsed time, and half-life; first-order concentration series; ibuprofen amount after two half-lives | **4 keyed four-option text/calculation MCQs**. |
+| 5 · Q17–Q18 | Four-to-five-half-life steady-state rule; piroxicam 40-hour half-life/daily-dose steady-state calculation | **2 keyed four-option text/calculation MCQs**. |
+
+The exact source-local boundary is **19 raw prompt occurrences = 19 keyed four-option text/
+calculation MCQs**, with **19 source-supplied answer letters / 0 unkeyed prompts**. There are **0
+True/False items, 0 matching items, 0 completion blanks, 0 free-response written operations, 0
+drawings, 0 image-bearing prompts, 0 authenticated practical stations, 0 candidate responses, 0
+teaching-only callouts, and 0 prompt-like residues**. All equations and values are stem content;
+none creates a free-response or practical operation. The visible answer letters and source-number
+anomaly are retained without silent medical/arithmetic correction or endorsement.
+
+### Retention, 18-handle registry, 72-search completion, and prior-BMS reconciliation
+
+All **19** source occurrences remain retained records. Q2 and Q13 repeat the same continuous-
+infusion/10-hour-half-life time-to-steady-state operation with altered terminal options (`50 hours`
+versus `40 hours`); both occurrences and keys remain preserved but collapse to one tested handle.
+Q11, Q17, and source-numbered `35` remain distinct because they respectively ask what half-life
+determines, the number of half-lives to plateau, and the interdose-interval use. Thus **`19
+retained - 1 semantic reduction = 18 accepted source-distinct handles`**.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q5 | `half-life-dose-decay-200-to25-after6h`; `infusion-half-life10-steady-state-forty-to-fifty-hours` (Q2,Q13); `repeated-half-life-dose-before-third-75-percent-steady-state`; `half-life-not-dependent-absorption-time`; `opioid-32-to2-half-life6-takes24-hours` |
+| Q6–Q10 | `bile-drug-elimination-liver`; `tdm-avoids-toxicity-improves-efficacy`; `zero-order-rate-not-proportional-plasma-concentration`; `loading-dose-reaches-steady-state-quickly`; `renal-impairment-gentamicin-one-third-dose` |
+| Q11–Q12 / `35` | `half-life-determines-time-to-steady-state`; `four-half-lives-94-percent-steady-state`; `half-life-determines-interdose-interval` |
+| Q14–Q18 | `iv-dose-backcalculation-vd10-half-life3-level5-at6h`; `first-order-elimination-rate-proportional-dose-concentration`; `ibuprofen-two-half-lives-25-percent-remains`; `steady-state-reached-four-to-five-half-lives`; `piroxicam-40h-daily-steady-state-eighth-dose` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+coverage, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102 Families 1–263:
+**`18 × 4 = 72 required and completed searches`**. Each packet used the accepted source-first
+slug/stem, tested proposition, numerical/answer terminal, and a half-life, clearance, kinetics,
+monitoring, or prior-handle variant. Exact current slugs produced no competing live, ready, or
+pending object; semantic prior relations were adjudicated proposition by proposition.
+
+Exactly **12** handles reuse prior BMS assessment scope: the infusion/half-life time-to-steady-
+state operation; repeated-dose accumulation; half-life dependence on Vd/clearance rather than
+absorption time; biliary/liver elimination; zero-order non-proportional elimination; loading-dose
+rapid target/steady-state purpose; renal-impairment gentamicin maintenance-dose adjustment;
+half-life determination of steady-state time and interdose interval; the four-to-five-half-life
+steady-state rule and its 94% expression; and first-order rate proportionality. These reconcile
+principally to Families 202, 223, and 257. The other **6** handles are new same-scope calculations
+or monitoring operations. Therefore concept arithmetic is **`18 - 12 = +6`**.
+
+### Family-264 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 264 | Auxiliary cumulative (Families 12–264) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 19 MCQ | 3,408 | 762 | 4,170 |
+| Eligible source-supplied answers | 19; 0 unkeyed | 2,394 | 405 | 2,799 |
+| Retained eligible question records | 19 | 3,112 | 552 | 3,664 |
+| Accepted handles / required searches | 18 / 72 | 2,794 / — | — | — |
+| Prior-BMS handle reuses | 12 | — | — | subtract before concept addition |
+| Cross-family concept delta | +6 | +1,425 over primary | 372 | 1,797 |
+| **Distinct tested concepts** | **18 source-local / +6** | **1,425 additions** | **372** | **1,797** |
+
+The checksum closes: **19 prompts = 19 answers + 0 unkeyed**; **19 raw - 0 literal exclusions =
+19 retained**; **19 retained - 1 semantic reduction = 18 handles**; **18 × 4 = 72 searches**;
+and **18 handles - 12 prior reuses = +6 concepts**. Auxiliary arithmetic is `3,389 + 19 =
+3,408` prompts, `2,375 + 19 = 2,394` answers, `3,093 + 19 = 3,112` retained, `2,776 + 18
+= 2,794` handles, and `1,419 + 6 = 1,425` concept additions. All eligible arithmetic is
+`762 + 3,408 = 4,170`, `405 + 2,394 = 2,799`, `552 + 3,112 = 3,664`, and `372 + 1,425 =
+1,797`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,408 prompts / 2,394 answers /
+3,112 retained / 2,794 handles / +1,425 concepts**. All eligible becomes **4,170 / 2,799 /
+3,664 / 1,797**. Family 264 establishes low-authority instructor-attributed keyed revision and
+calculation evidence only—not an official exam, authenticated sitting, departmental key, practical
+station, recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 264
+
+`src_8da52ffc5f03ad0d951f` is exhausted across all five native/rendered pages: every heading, source
+number, stem, numerical operation, option, answer token, replay, anomaly, footer, authority
+limitation, metadata field, search packet, prior-family relation, and arithmetic term is assigned
+once, with **zero source remainder** and no Family-264 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 264
+governs **1 selected path / 1 unique hash**. The governed set through Family 264 is therefore
+**329 paths / 318 unique hashes**, leaving exactly **33 ungoverned selected paths / 30 unique
+hashes**. Checksums are **329 + 33 = 362 paths** and **318 + 30 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`65781fcd157222cebed4b09e7036e078f14826518c3fb75b9a4ba27e047ef7ec`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`8c89a3f266881b51c30d19943bec9e7c79012c27b3640a28ce8c5ba9fc3773c6`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_bf798364bbdd9f654fc0` ·
+`MCQs - MCQ Metabolism.pdf`, SHA-256
+`bf798364bbdd9f654fc009a31ac6eccb853192fc7ee9325cd91cee6df16ff0a0`, **626,472 bytes**,
+**six native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. It visibly begins
+`Pharmacology / MCQ` with Dr El-Sawy keyed metabolism questions; metadata Author is `Mamdouh`,
+Word creation is 17 February 2024, and modification is 20 April 2026. Its complete authority,
+prompt/key/written/image/practical boundary, same-source/prior collapse, eligible gate, arithmetic,
+and subsequent exact debt remain to be separately adjudicated.
