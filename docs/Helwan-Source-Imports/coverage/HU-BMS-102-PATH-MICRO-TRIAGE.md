@@ -27735,3 +27735,101 @@ keywords crediting scan/rearrangement/reupload to `Wesmosis 2013` with Doctors.l
 Its exact visible authority, complete prompt/key/written/image/practical boundary, OCR/source-
 local/prior collapse, external/eligible gate, arithmetic, and subsequent exact debt remain to be
 separately adjudicated.
+
+## Family 272 — Dr Alaswad annotated exam-question compilation (external redistributed excerpt)
+
+### Source identity, exhaustive rendered/OCR boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest / local carrier | Tier-9 `src_a15aa48df0c5a6974720` · `MCQs - Mcq pharma2.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `a15aa48df0c5a697472010d64c26372917f2594ae638d55c491abdb62e8edc5a` · **4,093,143 bytes** |
+| Format / complete visual boundary | **Six scanned portrait A4 pages, PDF 1.7**. All six pages were rendered at 200 dpi into six non-empty 1,637–1,645×2,337-pixel images and inspected individually at original detail. The PDF has no native text layer; fresh English OCR yields **1,162 words / 7,042 bytes** and supports transcription, while the scans govern numbering, circled/underlined response marks, handwritten corrections, Arabic provenance, stamp, and page gaps. No form, JavaScript, encryption, hidden answer layer, page, or crop remainder exists. |
+| Visible provenance | Page 1 titles the carrier Arabic **`تجميعة أسئلة الامتحانات`** (`Compilation of exam questions`), lists non-steroidal anti-inflammatory drugs, rheumatoid arthritis and gout, opioid analgesics, and Parkinson's disease, includes `بالتوفيق إن شاء الله`, and credits **`Dr. Alaswad, Abd-alhameed`**. A repeated Arabic `قاعة 2000` stationery/copy-shop stamp and handwritten `(1–8)`, `35`, and `CNS` are reproduction/bookkeeping marks, not an institution, sitting date, marks total, or Helwan counter-marker. |
+| Metadata / redistribution provenance | Title/author are blank; Creator is Nitro PDF Professional 7 and modification is 19 February 2013. Keywords explicitly credit scanning, rearrangement, cleaning, and reupload to `Wesmosis 2013` and name Doctors.ly / 2mcq.ly. These fields establish an external redistribution chain, not source authorship or Helwan authority. |
+| Authority / eligibility | Named non-Helwan instructor compilation carried through an explicitly external 2013 redistribution chain. No page or metadata field identifies Helwan University, Faculty of Medicine–Helwan, BMS-102, a Helwan academic year/sitting, candidate, marks, or departmental approval. It is retained as external provenance/format evidence and excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Complete prompt, response-mark, written, image, practical, and missing-page boundary
+
+| Physical page | Visible source numbering | Exact source-local operation / annotation state |
+|---:|---|---:|
+| 1 | Q1–Q5 | **5 four-option text MCQs**. All are answer-marked; Q1–Q4 have one circled option, while Q5 has circled `a` plus underlined/ticked `d` and is retained as a conflicting/revised annotation. |
+| 2 | Q6–Q12 | **7 four-option text MCQs**, each with one circled option. |
+| 3 | Q13–Q20 | **8 four-option text MCQs**, each with one circled option. |
+| 4 | Q21–Q28 | **8 four-option text MCQs**. Seven have one circled option; Q24 has both `a` and `c` circled/checked and is retained as a conflicting annotation. |
+| 5 | Q37–Q43 | **7 four-option text MCQs**. Six have one circled option; Q43 has both `a` and `b` circled and is retained as a conflicting annotation. |
+| 6 | Q51–Q54 | **4 four-option text MCQs**, each with one circled option. |
+
+The carrier contains exactly **39 raw objective MCQ occurrences = 5 + 7 + 8 + 8 + 7 + 4** and
+exactly **39 visibly answer-marked records / 0 wholly unmarked prompts**. Of those response states,
+**36 are single circled selections and 3 are conflicting/revised dual-mark anomalies (Q5, Q24,
+Q43)**. The marks are preserved as unauthenticated annotations—not silently promoted to an
+official answer key, official correction, or Helwan candidate record.
+
+Question numbering proves carrier incompleteness without creating synthetic records: Q28 is
+followed by Q37, and Q43 by Q51. Therefore Q29–Q36 (**8**) and Q44–Q50 (**7**) are absent from this
+six-page object. They are **15 missing source numbers, not prompts, unkeyed questions, or an
+unreviewed remainder**. Physical pages reproduce handwritten source-page numbers 1–4, 7, and 8,
+consistent with the two omitted spans.
+
+There are **0 free-response written operations, 0 True/False items, 0 matching operations, 0
+completion blanks, 0 drawings, 0 image-bearing assessment prompts, 0 authenticated practical
+stations, 0 supplied explanations, and 0 prompt-like residues**. The title/topic list, Arabic
+blessing, stationery stamp, handwritten page labels, and reproduction marks are structural or
+provenance matter. Clinical statements remain text MCQs; no image, apparatus, specimen, station
+instruction, timing, examiner field, or response sheet appears.
+
+### External-authority zero gate, replay ruling, searches, and eligible arithmetic
+
+Authority resolves before eligible semantic retention. All **39 source-local prompts / 39
+answer-marked response states** belong to the named, externally redistributed carrier and have no
+affirmative Helwan counterevidence. The repeated NSAID, gout, opioid, and antiparkinsonian scopes
+were reviewed within the carrier and against prior BMS pharmacology evidence, but excluded
+external occurrences cannot create an eligible same-source handle, prior reuse, answer addition,
+or concept addition. Consequently **0 eligible retained records and 0 accepted handles** survive.
+The exact four-search gate is **`0 accepted handles × 4 = 0 required and completed searches`**;
+no artificial 156-query packet or synthetic reuse row is created. Prior-BMS eligible reuse is
+**0** and concept delta is **+0**.
+
+| Measure | Family 272 eligible delta | Auxiliary cumulative (Families 12–272) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+The eligible checksum closes at zero: external **39 prompts / 39 marked response states** does not
+enter Helwan arithmetic. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555
+prompts / 2,541 answers / 3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains
+**4,317 / 2,946 / 3,811 / 1,867**. Family 272 establishes external annotated-MCQ and incomplete-
+carrier evidence only—not a Helwan exam, official Helwan key, authenticated practical,
+recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 272
+
+`src_a15aa48df0c5a6974720` is exhausted across all six rendered/OCR pages: every title/topic line,
+present question number, stem, option, response mark, correction anomaly, missing-number boundary,
+stamp, handwritten notation, authority limitation, metadata field, zero gate, and arithmetic term
+is assigned once, with **zero present-source remainder** and no Family-272 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 272
+governs **1 selected path / 1 unique hash**. The governed set through Family 272 is therefore
+**337 paths / 326 unique hashes**, leaving exactly **25 ungoverned selected paths / 22 unique
+hashes**. Checksums are **337 + 25 = 362 paths** and **326 + 22 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`3d438289be549905cf38c2adb395863c301b29bdb11bf054fb76ff84928b5f40`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`43cfa0c5fd9b2ad5f0df1445ff1a34e1adc8f131b9f6ed5b3007f6ee920da836`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_273bbd8bac604fe63fb0` ·
+`MCQs - Pharma.mcq.pdf`, SHA-256
+`273bbd8bac604fe63fb071d88a645e2d590a81214d370cf929166c71f4c45630`, **11,498,707 bytes**,
+**148 OCR-needed portrait 612×867.291-point pages** under `Pharmacology / Questions / MCQs`.
+Metadata records iOS 14.3 Quartz creation/modification on 2 March 2021 and no title, author,
+subject, form, JavaScript, or encryption. Its exact visible authority, complete prompt/key/written/
+image/practical boundary, OCR/source-local/prior collapse, external/eligible gate, arithmetic, and
+subsequent exact debt remain to be separately adjudicated.
