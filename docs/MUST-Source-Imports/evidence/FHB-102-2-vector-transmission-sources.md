@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14, Q15, Q16, Q17 and Q18 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14, Q15, Q16, Q17, Q18 and Q19 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
 
 ## confidence
 0.55
@@ -651,6 +651,61 @@ Locally supplied teaching material; internal curriculum authoring only.
 
 ## qualification
 All 17 pages were rendered and visually read. The deck contains no visible institution, department, lecturer or examiner attribution. Page 12 directly lists pseudomembranous colitis and diarrhea under clindamycin adverse effects, supporting Q17's unchanged printed A without inference. Page 15 directly names grey baby syndrome in neonates under chloramphenicol adverse effects, supporting Q18's unchanged printed B; the same slide's broader bone-marrow-depression wording was only corroborative for Q16 and was not rewritten into aplastic anemia.
+
+## confidence
+0.75
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_5dfd7701d995629e7c36
+
+## title
+FHB102-2 Antimicrobial Nucleoprotein (DNA and RNA) Inhibitors
+
+## institution
+Locally filed under MUST FHB102-2; no authenticated faculty, department, lecturer or examiner attribution is visible; PDF metadata author Jost
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025-04-01
+
+## accessed_at
+2026-09-01
+
+## page_count
+23
+
+## sha256
+5dfd7701d995629e7c36c7967736e21927c28a3a5e89272f8c40e20cacbac952
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+All 23 pages were previously rendered and visually read under the governed FHB102-2 source triage. Pages 4–9 were directly rechecked for Q19. Page 4 identifies fluoroquinolones and visibly includes ciprofloxacin; pages 7–8 retain ciprofloxacin within the class's pharmacokinetic and clinical-use teaching; page 9 directly states that fluoroquinolones may damage growing cartilage and cause arthropathy. Together these direct slide statements support Q19's unchanged printed C without importing an external correction. The deck is teaching evidence only and contains no authenticated examiner key.
 
 ## confidence
 0.75

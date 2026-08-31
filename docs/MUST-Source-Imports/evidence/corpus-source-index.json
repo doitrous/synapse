@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 12,
+ "count": 13,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -277,6 +277,31 @@
    "sha256": "57dd6426a8e11335031cbf486af522a93482fc0fc68f55ab98f1553da2adfb87",
    "processingStatus": "fully_governed",
    "pageCount": 17,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_5dfd7701d995629e7c36": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf",
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 4. Antimicrbial Nucleopotein (DNA and RNA) Inhibitors.pdf"
+   ],
+   "sha256": "5dfd7701d995629e7c36c7967736e21927c28a3a5e89272f8c40e20cacbac952",
+   "processingStatus": "fully_governed",
+   "pageCount": 23,
    "languages": [
     "en"
    ],
