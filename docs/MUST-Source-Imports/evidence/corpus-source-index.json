@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 8,
+ "count": 9,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -180,6 +180,30 @@
    "sha256": "2c1e04372fbb8b2607f73de38b26d4667d7f7408bcbd39ffc156aaea253dcd79",
    "processingStatus": "fully_governed",
    "pageCount": 58,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_51157599ec58c9f98c28": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/6.Anti-Tuberculous Drugs.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/6.Anti-Tuberculous Drugs.pdf"
+   ],
+   "sha256": "51157599ec58c9f98c28c085904d33e04803556d3154da417376d987d91e811d",
+   "processingStatus": "fully_governed",
+   "pageCount": 25,
    "languages": [
     "en"
    ],

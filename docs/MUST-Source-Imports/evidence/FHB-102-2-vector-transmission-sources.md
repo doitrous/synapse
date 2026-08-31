@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7 and Q8 are clean; Q2, Q3, Q4 and Q6 are held because their printed keys conflict with the wording or department evidence.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14's printed A agrees with the governed teaching, but Q14 remains un-authored on a dependency-contract hold rather than weakening or clobbering the live reciprocal article.
 
 ## confidence
 0.55
@@ -434,6 +434,61 @@ Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 tea
 
 ## confidence
 0.9
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_51157599ec58c9f98c28
+
+## title
+FHB102-2 Anti-Tuberculous Drugs
+
+## institution
+Misr University for Science and Technology (MUST), visibly identified on the terminal slide; PDF metadata author O6u Moodle
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/6.Anti-Tuberculous Drugs.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+25
+
+## sha256
+51157599ec58c9f98c28c085904d33e04803556d3154da417376d987d91e811d
+
+## rights
+Locally supplied university teaching material; internal curriculum use.
+
+## qualification
+All 25 pages were rendered and visually read. The terminal slide visibly identifies MUST and www.must.edu.eg; no named faculty, department, lecturer or examiner attribution is shown. Pages 15–16 directly support isoniazid-associated vitamin B6 depletion and pyridoxine co-administration; page 22 documents the two-option conflict that holds Q13.
+
+## confidence
+0.85
 
 ## is_assessment
 no
