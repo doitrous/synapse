@@ -28193,3 +28193,96 @@ The exact next unprocessed BMS-102 record is tier-9 `src_92ebe788475d97871f91` �
 and records modification on 26 January 2025. Its visible Medicine Way/CamScanner authority,
 complete 42-unkeyed-plus-57-keyed prompt boundary, external gate, replay reconciliation,
 arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 277 — external Medicine Way pharmacodynamics two-bank compilation
+
+### Source identity, format, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-9 `src_92ebe788475d97871f91` · `MCQs - pharmacodynamic mcq __@Medicine_Way2.pdf` |
+| Exact object | SHA-256 `92ebe788475d97871f919f569a20278d12860e6a01a771f0171eee24d5c1d49b` · **1,871,830 bytes** · **11 OCR-needed portrait A4 pages** |
+| Full-read method | all 11 pages rendered at 180 dpi, inspected at original detail, and independently OCRed page by page; the visual layer governs where OCR spacing or punctuation is noisy |
+| Metadata | title/subject `pharmacodynamic mcq __@Medicine_Way2`; Author `CamScanner`; Producer `intsig.com`; modified 26 January 2025; no form, JavaScript, or encryption |
+| Visible provenance | page 1 is a Medicine Way channel cover (`قناة Medicine Way`); later pages carry Medicine Way/CamScanner capture marks. No Helwan, Faculty of Medicine, BMS-102/module, lecturer, sitting, cohort, or official-key marker is visible. |
+| Authority ruling | **external channel compilation**. Its question and answer occurrences are preserved as source evidence, but the Helwan-eligible gate closes before handle construction or searches. CamScanner metadata is capture provenance, not academic authorship. |
+
+### Exact visual assessment and answer boundary
+
+| Pages | Visible unit | Exact governed classification |
+|---|---|---|
+| 1 | Medicine Way channel cover | provenance/cover only; no assessment operation |
+| 2–4 | `PART II PHARMACODYNAMICS`, Q001–Q042 | **42 unkeyed objective prompts**: 39 conventional four-option MCQs, Q026 and Q030 as true/false items, and Q042 as a two-choice therapeutic-index definition item. No answer strip, mark, reveal, or candidate response is visible. |
+| 5–6 | separate `Pharmacodynamics` bank, Q1–Q14 | Q1–Q6 are keyed MCQs; Q7–Q14 begin the numbered cross-match layer. The printed answer strip supplies one source answer for every numbered operation. |
+| 7–9 | keyed bank, Q15–Q46 | continuation of the cross-match layer, with complete numbered source-answer strips |
+| 10–11 | keyed bank, Q47–Q57 | 11 keyed MCQs with a complete source-answer strip |
+
+The second bank therefore contains **57 objective prompts / 57 supplied answers**: **17 MCQs**
+(Q1–Q6 and Q47–Q57) plus **40 numbered cross-match operations** (Q7–Q46). Across the complete
+carrier, the raw source boundary is exactly **99 objective prompts / 57 supplied answers / 42
+answer-absent prompts**. Format occurrences are **56 conventional MCQs + 40 matching operations,
+plus 2 true/false items + 1 two-choice item**. There are **0 free-response written prompts, 0
+practical stations, 0 image-identification prompts, and 0 candidate responses**.
+
+The two numbering systems are separate source layers rather than one 99-item official paper. The
+first layer is unkeyed; the second includes a printed answer layer. The supplied letters/numbers
+are recorded as compilation answers only and are not upgraded to a Helwan official key.
+
+### Same-source and prior-BMS replay disposition
+
+The two banks repeatedly test the same pharmacodynamics propositions—competitive and
+noncompetitive antagonism, partial agonism, potency versus efficacy, receptor/signalling
+mechanisms, therapeutic index, tolerance, idiosyncrasy, teratogenicity, and drug interactions.
+Those occurrences also substantially replay pharmacodynamics propositions already preserved in
+earlier BMS families, including the broader Medicine Way compilation governed in Family 276.
+Every occurrence and its keyed/unkeyed state remains visible in this family; none is silently
+discarded. Because visible authority resolves the complete carrier as an external channel
+compilation before eligible-handle construction, no external proposition is promoted into the
+Helwan recurrence or concept registers and no semantic-search packet is opened.
+
+### Four-search gate, eligible arithmetic, and cumulative result
+
+The accepted-handle set is **0**. Exactly four searches per accepted handle therefore requires
+and records **0 × 4 = 0 searches**. There are **0 prior-BMS accepted-handle reuses** and **+0
+eligible concepts**.
+
+| Metric | Family 277 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 277 adds external-source, keyed/unkeyed-bank, cross-match, and capture
+evidence only—not a Helwan assessment, official key, written exam, authenticated practical,
+2025 sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 277
+
+`src_92ebe788475d97871f91` is exhausted across all 11 pages: every cover, printed prompt, option,
+matching operation, answer strip, capture mark, authority limitation, metadata field, replay,
+zero gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-277
+blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 277 governs
+**1 selected path / 1 unique hash**. The governed set through Family 277 is therefore **342 paths /
+330 unique hashes**, leaving exactly **20 ungoverned selected paths / 18 unique hashes**. Checksums
+are **342 + 20 = 362 paths** and **330 + 18 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `38ad7677ac8aa0e5b326e478b547ee4c419c2069e018959a2a264eb0ffb23f74`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`5ed9bf23c2f94ec293dd45f4dce11bc8c0d736a43037b3d5abcaf86b4f2f01e5`.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_2dc34ff39e6b29f11675` · manifest
+`Pharmacokinetics 1 .pdf`, exact-SHA local carrier `Pharmacokinetics 1.pdf`, SHA-256
+`2dc34ff39e6b29f116753087c4299b1ee87f885064997d6088d0a5fcaec01984`, **1,540,437 bytes**,
+**63 native 720×540 landscape pages** under `Pharmacology / Theoretical / Lec 1 - Drug
+Absorption 1`. Metadata titles it `Slide 1`, names `Ramy` as Author, and records creation and
+modification on 27 February 2026. Its visible Dr. Mohamad Abd-Elghani provenance, recurring
+`Semester 1, Level 1, Module 1 A` footer and resulting BMS-101/module-placement conflict, two
+unkeyed review MCQs, teaching boundary, authority gate, arithmetic, and subsequent exact debt
+remain to be separately adjudicated.
