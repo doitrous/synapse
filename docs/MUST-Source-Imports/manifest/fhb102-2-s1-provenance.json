@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "5db4c323fe3d243c98fefd6473cae438744f39a9556bd8954c28aef48e84ee6b",
-    "triageMarkdown": "db83691cc0e5bb65d9150416e0e1a6fc65c679d20fc6316fbb7e7689315876fd"
+    "readinessMarkdown": "4dc6ef76a3d563aabe5eb1bd003c8b6961130ef16476afd33bd255499c35b34e",
+    "triageMarkdown": "f4736b53b00e89588424e03dbd786fb0c860177491ce8ab3d59a59dd0e38dabd"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -80,6 +80,7 @@
       "5c62279de4964083aecb96a5bd72d47690b0fb569a38779992c2b987d9ce7e8e",
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
+      "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
@@ -106,7 +107,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 36
+    "uniqueSha256": 37
   },
   "completedSourceCoverage": [
     {
@@ -2255,11 +2256,73 @@
         "the model answers and answer key remain anonymous derivative answer evidence rather than an official faculty key",
         "printed simplifications, terminology and academically questionable prompts or model-answer claims remain source truth"
       ]
+    },
+    {
+      "sha256": "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
+      "sourcePages": 15,
+      "renderedReadPages": "1-15",
+      "coverPages": [
+        1
+      ],
+      "matchingQuestionPages": [
+        2
+      ],
+      "objectiveQuestionPages": "2-4, 6-14",
+      "writtenQuestionPages": [
+        4
+      ],
+      "answerPages": "2, 5, 15",
+      "printedPromptObservations": 137,
+      "objectiveMcqPrompts": 132,
+      "matchingPrompts": 10,
+      "writtenPrompts": 5,
+      "printedKeyObservations": 137,
+      "orphanAnswerTokens": 18,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 15,
+      "priorFhb1022CollapsedHandles": 15,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 137,
+      "familyAnswerDelta": 137,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "general parasitology associations and parasite types",
+        "host types and host-parasite relationships",
+        "trematode morphology and life cycle",
+        "cestode morphology and host roles",
+        "nematode morphology and reproduction",
+        "protozoal reproduction",
+        "arthropod classes and metamorphosis",
+        "mechanical and biological vector transmission",
+        "mosquito biology, disease transmission and control",
+        "sand flies, transmitted disease and control",
+        "bugs and Trypanosoma cruzi transmission",
+        "fleas, plague, murine typhus and Tunga penetrans",
+        "lice, louse-borne diseases and control",
+        "ticks, tick-borne diseases and transmission",
+        "mites, mite-borne disease and storage mites"
+      ],
+      "authorityDisposition": "individual DR.KANDEEL Apple Notes/Quartz PARA.103 question compilation created in April 2021; visible attribution supports personal compilation provenance but no MUST university, faculty or department authentication, examiner, sitting, marks or authenticated faculty-key claim appears",
+      "boundaryDisposition": "page 1 is a cover; page 2 contains ten matching prompts with complete mappings plus a nineteen-token answer table whose Q1-Q8 have no visible prompts in this carrier; page 3 contains visible Q9-Q19; page 4 contains two give-reason prompts, three true-or-false-and-correct prompts and six MCQs, all answered on page 5; pages 6-8 contain visible Q1-Q38, pages 9-14 resume at Q49 and continue through Q115, and page 15 keys Q1-Q115, leaving Q39-Q48 as ten further orphan answer tokens; the governed boundary is 132 objective plus five written prompts, 137 prompt-matched answers and eighteen orphan answer tokens, with zero unanswered visible prompt, practical, image-dependent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "the page-2 nineteen-token answer table includes eight orphan Q1-Q8 tokens because only Q9-Q19 are visible in that bank",
+        "the large bank omits visible Q39-Q48 while page 15 still prints ten answer tokens for those labels",
+        "orphan answer tokens are preserved as source observations and never converted into manufactured prompts",
+        "independently numbered banks and matching sets remain distinct physical prompt sequences",
+        "printed spelling, dated terminology and academically questionable questions or answer tokens remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2957,
-    "printedKeyObservations": 2782,
+    "printedPromptObservations": 3094,
+    "printedKeyObservations": 2919,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2481,20 +2544,26 @@
     "pages": 8,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtySeventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - PARA MCQ by DR.KANDEEL [103].pdf",
     "sha256": "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
     "pages": 15,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para MCQ Dr Ayman Ibrahim.pdf",
+    "sha256": "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
+    "pages": 20,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 58,
-    "uniqueSha256": 58,
-    "sortedNewlineSha256": "4a4445926442b7157bfe7d131be524ec508dd027f6ff4a0cfe98407f37274abb",
+    "inventoryMetadataRows": 57,
+    "uniqueSha256": 57,
+    "sortedNewlineSha256": "7cc5a2d76ccfda7e1427837c32e1372db8ce1c662558365133670193d8dd54da",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
-      "empty-text": 9,
+      "empty-text": 8,
       "sparse-text": 14,
       "substantive-text": 23
     }
@@ -2502,14 +2571,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 1,
     "audit-not-found": 11,
-    "empty-text": 9,
+    "empty-text": 8,
     "sparse-text": 14,
     "substantive-text": 23
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 36,
-    "remainingUniqueSha256": 58,
+    "processedUniqueSha256": 37,
+    "remainingUniqueSha256": 57,
     "processedPlusRemaining": 94
   }
 }

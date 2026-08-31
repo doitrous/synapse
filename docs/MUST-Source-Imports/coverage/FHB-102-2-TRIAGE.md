@@ -1424,3 +1424,31 @@ Removing the thirty-six processed hashes leaves **58 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - PARA MCQ by DR.KANDEEL [103].pdf`, SHA-256 `73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7`, 15 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 58 selected inventory paths / 58 unique hashes remain untriaged.
+
+## Completed source — PARA MCQ by DR.KANDEEL [103]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - PARA MCQ by DR.KANDEEL [103].pdf` | `73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7` | 15 | empty-text | pages 1–15 rendered and read | Individual `DR.KANDEEL` Apple Notes/Quartz `PARA.103` question compilation created in April 2021. The visible attribution supports personal compilation provenance, but no MUST university, faculty or department authentication, examiner, sitting, marks or authenticated faculty-key claim appears. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Page 1 is the cover. Page 2 contains ten matching prompts with complete mappings, plus a separate nineteen-token answer table. Only Q9–Q19 of that table have visible prompts on page 3, leaving Q1–Q8 as eight orphan answer tokens. Page 4 contains two `Give reasons` prompts, three `true or false and correct` prompts and six MCQs; page 5 answers all eleven. Pages 6–8 contain visible main-bank Q1–Q38. Pages 9–14 resume at Q49 and continue through Q115; page 15 prints a complete Q1–Q115 key, so Q39–Q48 contribute ten further orphan answer tokens rather than visible prompts.
+
+The governed boundary is therefore **132 objective prompts (122 conventional MCQs + 10 matching prompts) / 5 written prompts / 137 prompt-matched answer observations / 18 orphan answer tokens / 0 unanswered visible prompts / 0 practical or image prompts / 0 teaching prompts**. The eighteen orphan tokens remain source-answer observations outside the matched-answer count and are never converted into manufactured questions. Independently numbered banks and matching sets remain distinct physical sequences. Printed spelling, dated terminology and academically questionable questions or key tokens remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+The 137 visible prompts collapse into fifteen coherent source-first handles: general parasitology associations and parasite types; host types and host-parasite relationships; trematode morphology and life cycle; cestode morphology and host roles; nematode morphology and reproduction; protozoal reproduction; arthropod classes and metamorphosis; mechanical and biological vector transmission; mosquito biology, disease transmission and control; sand flies, transmitted disease and control; bugs and *Trypanosoma cruzi* transmission; fleas, plague, murine typhus and *Tunga penetrans*; lice, louse-borne disease and control; ticks, tick-borne disease and transmission; and mites, mite-borne disease and storage mites. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is **15 source-first − 15 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-seventh one-path hash is now `sourceProcessed=true`, adding **+137 questions / +137 answers / +0 concepts**. Cumulative triage is **3,094 questions / 2,919 answers / 62 concepts**.
+
+Removing the thirty-seven processed hashes leaves **57 selected inventory paths / 57 unique SHA-256s**. Their sorted-newline checksum is `7cc5a2d76ccfda7e1427837c32e1372db8ce1c662558365133670193d8dd54da`. Remaining audit-review debt is **23 substantive-text / 14 sparse-text / 8 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`37 + 57 = 94`** and path accounting is **`39 + 57 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para MCQ Dr Ayman Ibrahim.pdf`, SHA-256 `8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901`, 20 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 57 selected inventory paths / 57 unique hashes remain untriaged.
