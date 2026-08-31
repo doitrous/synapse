@@ -25763,3 +25763,113 @@ Its filename and instructor field carry an explicit Kasr/Dr Abdelkader provenanc
 manifest first-page snippet is only `CamScanner`; full visible external-authority adjudication,
 render/native boundary, prompts/keys/images/practical units, four-search packets, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be separately completed.
+
+## Family 254 — Dr Abdelkader external pharmacology question-and-answer bank
+
+### Source identity, exhaustive render/OCR boundary, provenance, and external authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_d7a85d91b36eac14986b` · `KASR Pharma. questions. DrAbdelkader.pdf` under `Pharmacology / Questions` |
+| SHA-256 / exact size | `d7a85d91b36eac14986bc8651a61f1d428dbda5ce6f50e825daf0870fcd53fbc` · **39,729,268 bytes** |
+| Format / complete visual boundary | **111 portrait scan pages, each 1,836×2,376 points, PDF 1.7**. All 111 pages were rendered at 75 dpi into non-empty 1,913×2,475-pixel images, read page by page through 28 four-page visual sheets, and checked at original detail on the opening, transition, key, graph, anomaly, closing, and contents pages. Pages 1–110 carry question/key content; page 111 is the terminal contents page. Every stem, option, answer strip, inline key, graph, formula, matching column, completion line, True/False row, footer, contents entry, and scan residue is assigned below; there is no page or crop remainder. |
+| OCR/native reality | Native extraction yields only **111 words / 1,332 bytes** of repeated CamScanner watermark residue and cannot govern content. Each page is a full-page 1,836×2,376-pixel scan image plus a small CamScanner logo. Tesseract over all rendered pages produced **17,527 words** and assisted navigation; the original scans control exact wording, numbering, answer marks, and image geometry. No form, JavaScript, encryption, interactive answer layer, or hidden native key exists. |
+| Visible provenance | Every substantive page carries the printed instructor brand `DR.ABDELKADE` (visibly truncated in the template), while the closing page spells `Dr. Abdelkader`. Repeated course footers refer to first-year/Bio & Pharma material. The filename/title explicitly says `KASR`; no Helwan University, Helwan Faculty of Medicine, BMS-102, current Helwan year, sitting, candidate field, or Helwan departmental counter-marker appears. |
+| Metadata caution | Title and subject are `Pharma. questions. DrAbdelkader`; author is `CamScanner` and producer is `intsig.com pdf producer`, with no creation or modification date. CamScanner is the capture tool, not authorship or academic authority; it cannot override the visible Dr Abdelkader branding or establish a sitting/date. |
+| Authority / eligibility | Affirmative **external Kasr/Dr Abdelkader question-bank reference**. Local placement in the Helwan BMS-102 folder does not confer Helwan authority. Under the standing post-Family-10 external-university rule, all source-local questions and answers are preserved as provenance/format evidence but excluded from primary, auxiliary, and all-eligible Helwan totals. |
+
+### Complete 111-page prompt, key, image, written, and practical boundary
+
+| Physical pages | Source-local section | Exhausted source-local operations / answer state |
+|---:|---|---:|
+| 1–3 | Introduction; `ROA (lab)` | **8 + 11 = 19 objective operations**. Introduction Q1–7 have a supplied key; Introduction Q8 has no visible key. All 11 ROA operations are keyed. |
+| 4–10 | Absorption (two sets); distribution; metabolism (two sets); excretion | **16 + 8 + 16 + 7 = 47 keyed objective operations**. The reset numbering marks section-local sets rather than duplicate carrier pages. |
+| 11–12 | Pharmacokinetic cases | **6 keyed case-based objective operations**. These remain assessment prompts, not practical stations. |
+| 13–18 | `DOSAGE FORMS (LAB)` | **30 keyed objective operations**. The `LAB` topic label does not create an administered station: there is no station number, apparatus/specimen interaction, observation sheet, timing, examiner instruction, or candidate procedure. |
+| 19–24 | Pharmacodynamics, five numbered sets | **43 keyed objective operations**, including **four graph/data-reading operations** on pages 23–24. The dose-response curves are question stimuli, not diagnosis-disclosing teaching plates or authenticated practical stations. |
+| 25–26 | Pharmacodynamic cases | **7 keyed case/data operations**, including one graph-based affinity item on page 26. |
+| 27–31 | Side effects / adverse-response sets | **28 keyed objective operations** across two ten-item sets and an eight-item case/mixed set. |
+| 31–37 | `EXAM 1` pharmacology introduction | **40 keyed objective operations**; the answer table appears on page 37. `EXAM 1` is source-local external-bank formatting, not a Helwan sitting. |
+| 38–49 | Pharmacokinetic parameters; posology core | **20 + 20 = 40 keyed objective operations**. |
+| 49–53 | Posology practice | **40 keyed operations**: ten calculation MCQs, ten matching, ten completion items, and ten explicit True/False items. |
+| 54–59 | Autacoids theory | **20 keyed objective operations**. |
+| 60–65 | Autacoid cases | **19 keyed case-based objective operations**. |
+| 66–75 | Serotonin theory and cases | **29 + 10 = 39 keyed objective operations**. The theory numbering visibly jumps from Q27 to Q29, with Q28 absent; no missing page or inferred question is fabricated. |
+| 76–83 | Cytotoxic drugs theory and cases | **20 + 10 = 30 keyed objective operations**. |
+| 84–92 | Antiviral drugs | **30 keyed objective operations**. |
+| 93–96 | Antifungal drugs, modern and older sets | **10 + 12 = 22 keyed objective operations**. |
+| 97–104 | Adverse drug reactions | **30 keyed objective operations**. |
+| 105–110 | Drug-interaction cases | **20 keyed case-based objective operations**; page 110 closes with `Bye Bye Pharma` and `Dr. Abdelkader`. |
+| 111 | Contents | Structural index mapping printed topic pages 74–183; **0 prompts / 0 answers / 0 practical**. Its placement at the physical end is source order, not a missing-front-page defect. |
+
+The source-local arithmetic is **510 raw assessment operations = 480 option-selection/case/graph
+operations + 10 matching + 10 completion + 10 explicit True/False**. It supplies **509 answer
+occurrences and one unkeyed prompt** (Introduction Q8). Five of the 480 objective operations use
+visible dose-response graphs/data as stimuli: four in the pharmacodynamics sets and one in the
+pharmacodynamic-case set. They remain image-bearing external-bank questions; none is an
+authenticated practical station. The `ROA (lab)` and `DOSAGE FORMS (LAB)` headings classify
+topics, while their pages contain ordinary printed option-selection questions and disclosed keys.
+
+There are **0 free-response written essays, 0 drawing tasks, 0 image-identification prompts, and 0
+authenticated practical stations**. The source-supplied answer letters/text are preserved as this
+external bank's answer layer, not endorsed as official Helwan keys. Source truth also preserves the
+truncated `DR.ABDELKADE` brand, Introduction Q8's absent key, the missing serotonin Q28, reset
+numbering, printed topic pagination, original spelling, and any source answer/content anomaly
+without silent correction or inferred repair.
+
+### External-authority zero gate, search ruling, prior-BMS reconciliation, and arithmetic
+
+Authority resolves before semantic retention. All **510 source-local prompt occurrences / 509
+source-local answers** belong to an affirmative external Kasr/Dr Abdelkader carrier with no visible
+Helwan counterevidence. Therefore **0 eligible records and 0 accepted Helwan handles** survive.
+The exact standing gate is **`0 accepted handles × 4 = 0 required and completed searches`**; no
+510-prompt search workload, empty packet, or synthetic prior row is manufactured for excluded
+external content. Its pharmacokinetics, pharmacodynamics, dosage-form, posology, autacoid,
+serotonin, cytotoxic, antiviral, antifungal, ADR, and DDI propositions overlap prior BMS material,
+but excluded external occurrences cannot add or reuse an eligible Helwan handle. Prior-BMS reuse
+is **0** and concept delta is **+0**.
+
+| Measure | Family 254 eligible delta | Auxiliary cumulative (Families 12–254) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,157 | 762 | 3,919 |
+| Eligible source-supplied answers | 0 | 2,143 | 405 | 2,548 |
+| Retained eligible question records | 0 | 2,861 | 552 | 3,413 |
+| Accepted handles / required searches | 0 / 0 | 2,570 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,325 over primary | 372 | 1,697 |
+| **Distinct tested concepts** | **+0** | **1,325 additions** | **372** | **1,697** |
+
+The eligible checksum closes at zero despite the large source-local bank: external **510 / 509**
+does not enter Helwan arithmetic. Primary remains **762 / 405 / 552 / 372**. Auxiliary remains
+**3,157 prompts / 2,143 answers / 2,861 retained / 2,570 handles / +1,325 concepts**. All eligible
+remains **3,919 / 2,548 / 3,413 / 1,697**. Family 254 establishes external question-bank, answer-
+layer, image-question, and anomaly evidence only—not a Helwan exam, official Helwan key,
+authenticated practical, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 254
+
+`src_d7a85d91b36eac14986b` is exhausted across all 111 pages: every visible question, option,
+answer strip, inline solution, graph, formula, matching/completion/T/F operation, section reset,
+numbering anomaly, contents entry, watermark, external-authority term, zero gate, and arithmetic
+term is assigned once, with **zero source remainder** and no Family-254 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 254
+governs **1 selected path / 1 unique hash**. The governed set through Family 254 is therefore
+**319 paths / 308 unique hashes**, leaving exactly **43 ungoverned selected paths / 40 unique
+hashes**. Checksums are **319 + 43 = 362 paths** and **308 + 40 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`46f6e07f5823790192187541329d027bf58f58a785b52704e3138ddbce7854d7`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`8a7e41398ca6be99de77932f89f628c77b98dec10a96ef933b785b4a63a8216e`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_d5065f6f52600da6abbe` · manifest
+`MCQs - Ain_Shams_University_Pharmacology_MCQ_Ain_Shams_2019_2020_.pdf`, with normalized local
+carrier `MCQs - Ain_Shams_University_Pharmacology_MCQ_Ain_Shams_2019_2020.pdf`, SHA-256
+`d5065f6f52600da6abbebd9b219d495f6bc0d28c2cff96453413f5f7fdda262a`, **5,315,439 bytes**,
+**144 OCR-needed portrait pages** under `Pharmacology / Questions / MCQs`. Page 1 visibly states
+`Pharmacology Department / Faculty of Medicine / Ain Shams University / 2019/2020`; metadata
+records ScanSnap/Adobe scan tooling and October 2020 timestamps only. Its manifest/local filename
+normalization, exhaustive render/OCR boundary, affirmative Ain Shams external-authority ruling,
+prompt/key/image/practical inventory, external zero gate, arithmetic, and subsequent exact debt
+remain to be separately adjudicated.
