@@ -601,3 +601,45 @@ Removing the twelve processed hashes leaves **84 selected inventory paths / 82 u
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Virology.pdf`, SHA-256 `e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def`, 20 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 84 selected inventory paths / 82 unique hashes remain untriaged.
+
+## Completed source — General Virology
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Virology.pdf` | `e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def` | 20 | empty-text | pages 1–20 rendered and read | CamScanner reproduction headed `Medical Virology`, visibly attributed to Tahany Ahmad Abdel Raouf, Professor of Microbiology and Immunology. No institution, module, examiner, sitting, marks or authenticated faculty-key claim is visible. The answer tables are source answer evidence, not an official MUST key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Page 1 is the title cover. Pages 2–10 contain Q1–Q65 as conventional general-virology MCQs. The `Complete questions on general virology` sequence begins on page 10 and continues through page 15 as Q1–Q52; each numbered completion item is one written prompt even when it contains multiple blanks. The `True and false questions on general virology` sequence begins on page 15 and continues through page 17 as Q1–Q55. Page 17 then begins a distinct `MCQs on systemic virology` sequence containing only Q1–Q2 before the carrier ends. Page 18 provides complete answer tables for general MCQ Q1–Q65 and true/false Q1–Q55. Pages 19–20 provide numbered answers Q1–Q52 for the completion sequence. No answer is printed for the two terminal systemic-virology MCQs.
+
+The exact boundary is **122 objective prompts / 52 written completion prompts / 172 prompt-matched answer observations / 2 source-absent answers / 0 practical or image / 0 teaching prompts**. The objective split is **65 keyed general-virology MCQs / 55 keyed true-or-false items / 2 unkeyed systemic-virology MCQs**. Multi-blank completion items remain one assessment occurrence per printed number and one prompt-matched answer observation per numbered answer line. Page-break continuations remain one occurrence. Printed spelling, deprecated terminology, internal contradictions and academically questionable answers remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 174 prompts collapse source-first into seven coherent handles. Each is already represented by concepts established in the preceding FHB-102-2 sources, including the Absalam101 and AE general-virology sections and the formative carriers. No genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Viral structure, envelope, capsid, genome, symmetry, defective viruses, prions and bacteriophages | prior viral structure, genome and classification handles | prior-FHB-102-2 collapse |
+| Viral preservation, inactivation and environmental susceptibility | prior viral structure and preservation/inactivation question families | prior-FHB-102-2 collapse |
+| Viral replication, adsorption, penetration, uncoating, assembly and release | prior viral replication and cytopathic-effect handles | prior-FHB-102-2 collapse |
+| Viral cell culture, direct detection, serology, PCR and hybridization | prior viral diagnosis, culture and clinical/laboratory-detection handles | prior-FHB-102-2 collapse |
+| Viral infection patterns, latency, carriers, transformation, localized/systemic spread and transmission | prior infection-stage, carrier and clinical-viral-syndrome handles | prior-FHB-102-2 collapse |
+| Interferons, antibody classes, neutralization and antiviral immune response | prior viral immune-response and vaccine-platform handles | prior-FHB-102-2 collapse |
+| Attenuated/inactivated vaccines, passive immunization and systemic-virus family classification | prior vaccine-platform and general-virology classification handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, missing-answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirteenth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+174 questions / +172 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 1,405 | 1,366 | 60 | 0 | 0 | 60 | TBD |
+
+Removing the thirteen processed hashes leaves **83 selected inventory paths / 81 unique SHA-256s**. Their sorted-newline checksum is `6125bc441f96df6a27d82d670e67601bf265a2e42239d21b1817e42d9fa5b175`. Remaining audit-review debt is **35 substantive-text / 23 sparse-text / 12 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`13 + 81 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General_Mycology_MCQ_SAQ.pdf`, SHA-256 `a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2`, 5 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 83 selected inventory paths / 81 unique hashes remain untriaged.

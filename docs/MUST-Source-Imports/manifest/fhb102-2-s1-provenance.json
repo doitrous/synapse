@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "592a3e68e4bd020c6e1b6a6ff19d3b4a42450b28407621958d3b529c9c38ad32",
-    "triageMarkdown": "6714e10f7089f7051c34a131716c3b5417f5f87232ee5196f24af82a7329a60d"
+    "readinessMarkdown": "672eec3e259e545f3badff420292356274e46a665d7f7065d827214786594e1b",
+    "triageMarkdown": "a7301ef1bbf0fdf63fa9c9a494a284135299055bf021f065f18d412306d2300e"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -80,9 +80,10 @@
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
+      "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 12
+    "uniqueSha256": 13
   },
   "completedSourceCoverage": [
     {
@@ -751,11 +752,82 @@
         "printed spelling, deprecated terminology, internal contradictions and academically questionable answer tokens remain source truth without correction",
         "the professor attribution and question-book title are not treated as MUST institution, exam-sitting or authenticated faculty-key authority"
       ]
+    },
+    {
+      "sha256": "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
+      "sourcePages": 20,
+      "renderedReadPages": "1-20",
+      "nonAssessmentPages": "1",
+      "questionPages": "2-17",
+      "answerOnlyPages": "18-20",
+      "printedPromptObservations": 174,
+      "objectiveMcqPrompts": 122,
+      "generalVirologyMcqPrompts": 65,
+      "trueFalsePrompts": 55,
+      "systemicVirologyMcqPrompts": 2,
+      "writtenPrompts": 52,
+      "completionWrittenPrompts": 52,
+      "printedKeyObservations": 172,
+      "sourceAbsentAnswers": 2,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "General virology MCQs",
+          "questionPages": "2-10",
+          "questionLabels": "1-65",
+          "prompts": 65,
+          "answers": 65
+        },
+        {
+          "section": "Complete questions on general virology",
+          "questionPages": "10-15",
+          "answerPages": "19-20",
+          "questionLabels": "1-52",
+          "prompts": 52,
+          "answers": 52
+        },
+        {
+          "section": "True and false questions on general virology",
+          "questionPages": "15-17",
+          "answerPage": "18",
+          "questionLabels": "1-55",
+          "prompts": 55,
+          "answers": 55
+        },
+        {
+          "section": "MCQs on systemic virology",
+          "questionPage": "17",
+          "questionLabels": "1-2",
+          "prompts": 2,
+          "answers": 0,
+          "sourceAbsentAnswers": 2
+        }
+      ],
+      "sourceFirstHandles": 7,
+      "priorFhb1022CollapsedHandles": 7,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 174,
+      "familyAnswerDelta": 172,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "CamScanner reproduction headed Medical Virology and visibly attributed to Tahany Ahmad Abdel Raouf, Professor of Microbiology and Immunology; no institution, module, examiner, sitting, marks or authenticated faculty-key claim is visible; answer tables are source answer evidence rather than an official MUST key",
+      "boundaryDisposition": "one cover page; sixty-five general-virology MCQs, fifty-two numbered completion/written prompts, fifty-five true-or-false items, and two terminal systemic-virology MCQs on pages 2-17; pages 18-20 answer every prompt except the two systemic-virology MCQs; 174 prompt occurrences and 172 prompt-matched answer observations with no practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "the two systemic-virology MCQs on page 17 have no printed answer and none is inferred",
+        "multi-blank completion items remain one assessment occurrence and one answer observation per printed number",
+        "page-break continuations remain one prompt occurrence",
+        "printed spelling, deprecated terminology, internal contradictions and academically questionable answers remain source truth without correction",
+        "the professor attribution and Medical Virology heading are not treated as MUST institution, exam-sitting or authenticated faculty-key authority"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 1231,
-    "printedKeyObservations": 1194,
+    "printedPromptObservations": 1405,
+    "printedKeyObservations": 1366,
     "namedConceptsAssigned": 60,
     "liveHits": 0,
     "pendingHits": 0,
@@ -833,20 +905,26 @@
     "pages": 44,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirteenthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Virology.pdf",
     "sha256": "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
     "pages": 20,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General_Mycology_MCQ_SAQ.pdf",
+    "sha256": "a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2",
+    "pages": 5,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 84,
-    "uniqueSha256": 82,
-    "sortedNewlineSha256": "01501d064cbdb2956ab7055cb13ca0d13d3875f09fc62c4deda233853b0743a9",
+    "inventoryMetadataRows": 83,
+    "uniqueSha256": 81,
+    "sortedNewlineSha256": "6125bc441f96df6a27d82d670e67601bf265a2e42239d21b1817e42d9fa5b175",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
-      "empty-text": 13,
+      "empty-text": 12,
       "sparse-text": 23,
       "substantive-text": 35
     }
@@ -854,14 +932,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 2,
     "audit-not-found": 11,
-    "empty-text": 13,
+    "empty-text": 12,
     "sparse-text": 23,
     "substantive-text": 35
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 12,
-    "remainingUniqueSha256": 82,
+    "processedUniqueSha256": 13,
+    "remainingUniqueSha256": 81,
     "processedPlusRemaining": 94
   }
 }
