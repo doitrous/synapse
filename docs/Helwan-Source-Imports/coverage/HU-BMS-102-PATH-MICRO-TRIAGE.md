@@ -29058,3 +29058,89 @@ Absorption 2`. The same exact object also occupies the selected Lec 3 biotransfo
 excretion/clearance paths. Metadata titles it `PowerPoint Presentation`, names author `ASUS`, and
 records 4 March 2026. Its visible pharmacokinetics teaching boundary, three-path alias handling,
 authority, arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 287 — anonymous distribution/metabolism/excretion pharmacokinetics teaching object across three paths
+
+### Exact object, three-path identity, exhaustive read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Manifest object | tier-4 `src_e2be3dfcfb0a0eea5e91` · `PHARMACOKINETIC 2.pdf` |
+| Exact identity | SHA-256 `e2be3dfcfb0a0eea5e919fc92d1a918dd2624e89f01fe70358ef1e85152936e7` · **918,645 bytes** · **40 native 720×540-point landscape pages** · 2,035 extracted words |
+| Selected paths | the same verified bytes occupy `Lec 2 - Drug Absorption 2`, `Lec 3 - Biotransformation of Drugs`, and `Lec 4 - Excretion & Clearance of Drugs`. Each local carrier independently hashes to the exact identity above. This family therefore governs **3 selected paths / 1 unique hash**, with no second or third content pass. |
+| Full-read method | all 40 pages rendered at 120 dpi and reviewed in four ordered ten-page visual sheets against complete layout-preserving native extraction |
+| Visible provenance | page 1 visibly titles `PHARMACOKINETICS 2 / Drug Distribution & Metabolism`. No author, lecturer, university, faculty, department, Helwan, module, academic year, lecture date, sitting, marks, candidate field, or key marker is printed. |
+| Metadata caution | generic title `PowerPoint Presentation`, author `ASUS`, Microsoft PowerPoint LTSC, and 4 March 2026. These export fields do not establish visible authorship, institutional authority, or assessment status. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Authority / eligibility | local BMS-102 theoretical teaching object with no visible institutional/authorship authentication. It is not an assessment, official key, practical station, or dated sitting. |
+
+### Path/title mismatch and complete teaching boundary
+
+The visible title governs source truth: **Drug Distribution & Metabolism**. Content also extends
+through drug excretion, kinetic order, half-life, therapeutic monitoring, and fixed-dose
+combinations. The Lec 3 biotransformation path directly fits the deck; the Lec 2 `Drug Absorption
+2` label does not match the visible title, although absorption-related distribution factors appear;
+the Lec 4 excretion/clearance label describes the later deck portion rather than the object as a
+whole. Folder aliases are retained as manifest locations, not substituted titles or three lectures.
+
+| Pages | Exhausted visible content | Exact governed classification |
+|---|---|---|
+| 1–16 | title; distribution, bioequivalence/therapeutic equivalence, volume of distribution, tissue/lipid/plasma-protein binding, loading dose, BBB/CNS and placental passage | completed definitions, formulae, tables, examples, and labelled figures; **0 prompts / 0 answers / 0 practical** |
+| 17–28 | biotransformation purpose/consequences; Phase I/II reactions; microsomal/nonmicrosomal enzymes; factors, induction/inhibition mnemonics, prodrugs, and metabolic-reaction table/figure | declarative metabolism teaching; mnemonics and tables disclose content rather than request recall |
+| 29–32 | renal filtration/secretion, nonrenal routes, breastfeeding cautions, milk partition, and urine-pH ion trapping | completed excretion teaching and examples |
+| 33–37 | first- versus zero-order kinetics, pseudo-zero-order mnemonic, plasma half-life definitions/table, and accumulation graph | supplied comparisons, calculation relationships, mnemonic, and labelled graph; **0 candidate operations** |
+| 38–40 | therapeutic drug monitoring indications/exclusions and fixed-dose-combination advantages/disadvantages | completed reference lists; no response fields |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied assessment answers /
+0 answer-absent prompts / 0 candidate responses**. Formulae, labelled diagrams, drug examples,
+mnemonics, kinetic tables, half-life values, and monitoring/combination lists are completed teaching
+assets rather than assessment operations or keys.
+
+### Replay, exact four-search gate, and arithmetic
+
+Distribution, metabolism, excretion, half-life, TDM, and fixed-combination propositions overlap
+prior BMS teaching and question carriers, including Families 223–234 and 262–269. The current
+source adds three-path and source-layout evidence, but teaching propositions do not create tested
+occurrences. With **0 assessment prompts**, the accepted-handle set is **0**. Exactly four searches
+per accepted handle therefore requires and records **0 × 4 = 0 searches**. Prior-BMS accepted-
+handle reuse is **0** and the eligible concept delta is **+0**.
+
+| Metric | Family 287 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 287 adds one teaching object, three-path alias reconciliation, and
+distribution/metabolism/excretion source evidence only—not assessment, official-key, practical,
+verified-date, recurrence/readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 287
+
+`src_e2be3dfcfb0a0eea5e91` is exhausted across all 40 pages and all three selected paths: every
+title, folder/title mismatch, definition, formula, table, figure, example, mnemonic, teaching list,
+metadata limitation, alias relation, zero gate, and arithmetic term is assigned once, with **zero
+source remainder** and no Family-287 blocker. The two additional paths contribute **+2 governed
+paths / +0 unique hashes / +0 content or count delta** beyond the first carrier.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 287 governs
+**3 selected paths / 1 unique hash**. The governed set through Family 287 is therefore **354 paths /
+340 unique hashes**, leaving exactly **8 ungoverned selected paths / 8 unique hashes**. Checksums
+are **354 + 8 = 362 paths** and **340 + 8 = 348 unique hashes**. The ordered remaining-path ledger
+has SHA-256 `4c2ad5f728f1fd1cbed7c92d886e71a3e8dc11dfa134751149de9e583f822206`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`223f92e87ef7adba43deedd616d1116e3878c70077b60438e9eab4a1793b86c1`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_6ec8e354d9d887e7e1d0` · `Principles
+of Pharmacokinetics 2.pdf`, SHA-256
+`6ec8e354d9d887e7e1d0c36eff5828dceb6119af9fd87b8ded3723025c25a607`, **164,950 bytes**,
+**four native portrait A4 pages** under `Pharmacology / Theoretical / Lec 5 - Pharmacokinetic
+Parameters`. Metadata names author `mustafa`, Microsoft Word for Microsoft 365, and 10 March 2026.
+Its visible half-life/steady-state/kinetic-order teaching boundary, authority, arithmetic, and
+subsequent exact debt remain to be separately adjudicated.
