@@ -9,9 +9,12 @@ const conceptId = 'CON-INF-23265735EECCA1'
 const articleId = 'ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE'
 const trypConceptId = 'CON-INF-BEDAA24AD0E037'
 const trypArticleId = 'ART-INF-MUST-FHB1022-AFRICAN-TRYPANOSOMIASIS-STAGE'
+const lymeConceptId = 'CON-INF-D077623ED9EADA'
+const lymeArticleId = 'ART-INF-MUST-FHB1022-LYME-IXODES'
 const assessmentResourceId = 'src_b9989e9ef3c314f6c771'
 const teachingResourceId = 'src_5c62279de4964083aecb'
 const definitionResourceId = 'src_6fb474b2c5871480abef'
+const ticksResourceId = 'src_08be9a1018b73dcd7c3'
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -28,6 +31,12 @@ const outputs = {
   'docs/MUST-Source-Imports/concept/FHB-102-2-african-trypanosomiasis-concepts.md': trypConcepts(),
   'docs/MUST-Source-Imports/article/FHB-102-2-african-trypanosomiasis-articles.md': trypArticles(),
   'docs/MUST-Source-Imports/question/FHB-102-2-african-trypanosomiasis-mcq.md': trypQuestions(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-lyme-ixodes-claims.md': lymeClaims(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-lyme-ixodes-citations.md': lymeCitations(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-lyme-ixodes-spans.md': lymeSpans(),
+  'docs/MUST-Source-Imports/concept/FHB-102-2-lyme-ixodes-concepts.md': lymeConcepts(),
+  'docs/MUST-Source-Imports/article/FHB-102-2-lyme-ixodes-articles.md': lymeArticles(),
+  'docs/MUST-Source-Imports/question/FHB-102-2-lyme-ixodes-mcq.md': lymeQuestions(),
   'docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md': coverage(),
 }
 
@@ -87,7 +96,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1 is clean; Q3 and Q6 are held because their printed keys conflict with the wording or department evidence.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5 and Q7 are clean; Q2, Q3, Q4 and Q6 are held because their printed keys conflict with the wording or department evidence.
 
 ## confidence
 0.55
@@ -204,15 +213,70 @@ Non-official teaching summary. Page 2 directly defines the biological transmissi
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+${ticksResourceId}
+
+## title
+FHB102-2 Vectors of Disease Transmission — ticks
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Parasitology Department; presented by Associate Prof. Eman El-Wakil
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-08-31
+
+## page_count
+40
+
+## sha256
+08be9a1018b73dcd7c3d97ef1e0502bcfa2c401d81aec2672c3e1a8e226cb955
+
+## rights
+Faculty-distributed university teaching material; internal curriculum use.
+
+## qualification
+Officially branded MUST Faculty of Medicine Parasitology Department teaching deck for FHB102-2. The cover names Associate Prof. Eman El-Wakil as presenter while the PDF metadata names Heba Abdel Aaty as author; the visible teaching content, rather than an inferred authorship resolution, governs this Draft slice.
+
+## confidence
+0.9
+
+## is_assessment
+no
 `
 }
 
 function corpusSourceIndex() {
   return JSON.stringify({
-    note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from the governed local-source manifest.',
+    note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 3,
+    count: 4,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -252,6 +316,19 @@ function corpusSourceIndex() {
         yearIds: ['MUST_Y1'],
         moduleIds: [moduleId],
         categories: ['Teaching notes'],
+      },
+      [ticksResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf'],
+        sha256: '08be9a1018b73dcd7c3d97ef1e0502bcfa2c401d81aec2672c3e1a8e226cb955',
+        processingStatus: 'fully_governed',
+        pageCount: 40,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
       },
     },
   }, null, 1)
@@ -1592,6 +1669,653 @@ Printed source key: Q5 = C. The printed key agrees with the department carrier's
 `
 }
 
+function lymeClaims() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-LYME-01
+
+## concept_id
+${lymeConceptId}
+
+## subject
+Lyme disease vector
+
+## predicate
+is_transmitted_by
+
+## object
+the hard tick Ixodes; the associated clinical pattern includes erythema chronicum migrans, large-joint arthritis and facial palsy
+
+## display_text
+Lyme disease is transmitted by the hard tick Ixodes; the associated clinical pattern includes erythema chronicum migrans, large-joint arthritis and facial palsy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+organism: Borrelia burgdorferi
+`
+}
+
+function lymeCitations() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-LYME-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-LYME-01
+
+## resource_id
+${ticksResourceId}
+
+## evidence_role
+local_curriculum
+
+## support_span
+Lyme disease; Erythema Chronicum Migrans; Arthritis of large joints; Facial paralysis (palsy); Hard tick (Ixodes); Borrelia burgdorferi; Bite of Ticks.
+
+## locator_type
+page
+
+## locator_page
+29
+
+## locator_section
+Spirochaetal infections — Lyme disease
+
+## locator_detail
+PDF page 29, Lyme-disease row spanning the infection, clinical-features, tick, causative-organism and mode-of-infection columns.
+
+## context_note
+The university-branded FHB102-2 teaching table directly matches the bank vignette's geography and clinical features and names hard tick Ixodes as the vector.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+`
+}
+
+function lymeSpans() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-LYME-01
+
+## article_id
+${lymeArticleId}
+
+## section_id
+art-inf-must-fhb1022-lyme-ixodes-definition
+
+## text
+Lyme disease is transmitted by the hard tick Ixodes. Erythema migrans followed by large-joint arthritis and facial palsy is a characteristic clinical sequence.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-LYME-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-LYME-01
+`
+}
+
+function lymeConcepts() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+${lymeConceptId}
+
+## label
+Ixodes as the vector of Lyme disease
+
+## canonical_key
+parasitology.lyme-disease.ixodes-vector
+
+## aliases
+Lyme disease tick vector
+Hard tick vector of Borrelia burgdorferi
+Ixodes transmission of Lyme disease
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Lyme disease is transmitted by hard ticks of the genus Ixodes. The clinical pattern may begin with erythema migrans and later include large-joint arthritis and facial palsy.
+
+## explicit_objective
+Identify Ixodes as the vector when a Lyme disease vignette combines erythema migrans with later large-joint arthritis and facial palsy.
+
+## pitfalls
+Selecting another arthropod genus despite the characteristic Lyme disease sequence of erythema migrans, large-joint arthritis and facial palsy.
+
+## concept_type
+clinical_feature
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Tick-borne disease
+
+## nanotopic
+
+
+## modules
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > Arthropods and vectors > Tick-borne disease
+
+## article_ids
+${lymeArticleId}
+
+## related_article_ids
+${articleId}
+${trypArticleId}
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+${ticksResourceId}
+${assessmentResourceId}
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.65
+
+## exam_weight_by_year
+MUST_Y1=0.65
+
+## clinical_relevance
+0.75
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.65
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-LYME-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+${assessmentResourceId} | tier 3 | undated | p2 Q7; printed answer p5
+${ticksResourceId} | tier 2 | undated | p29 direct university teaching table
+
+## original_wording
+Q7 describes erythema migrans in the USA followed by knee arthritis and facial palsy, then asks for the vector; printed key B, Ixodes.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Q7. Its printed B agrees with the university teaching table's hard tick Ixodes. Q2, Q3, Q4 and Q6 remain separate authoring holds.
+
+## uncertainty
+The question bank misspells erythema migrans and several distractor genera; the Draft student-facing record standardises spelling without changing the tested meaning or answer.
+
+## evidence_gaps
+The source set is local curriculum evidence. Independent standard-reference review remains required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+microtopicId: The canonical Parasitology taxonomy stops at the Arthropods and vectors topic for this lane; the narrower curriculum phrase is retained in module_subject rather than inventing a node.
+nanotopicId: No verified nanotopic below the selected discipline node exists for this concept.
+approvedFileResourceIds: Neither locally supplied PDF has been rights-cleared as a student-downloadable file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed FHB-102-2 evidence; no extraction occurrence record was minted.
+sourceCandidateIds: Searches for Lyme disease Ixodes vector, erythema migrans with arthritis and facial palsy, Borrelia burgdorferi hard-tick vector, Ixodes transmission of Lyme disease and the exact stem phrase returned no live or pending record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after the first review is completed.
+relationships: This bounded slice has no necessary evidence-backed typed relation record; related reading points to the two previously authored local Parasitology articles.
+`
+}
+
+function lymeArticles() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+${lymeArticleId}
+
+## title
+Ixodes and the clinical pattern of Lyme disease
+
+## arabic_title
+
+
+## aliases
+Lyme disease vector
+Hard tick transmission of Lyme disease
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Tick-borne disease
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > Arthropods and vectors > Tick-borne disease
+
+## summary
+Lyme disease is transmitted by the hard tick Ixodes. A vignette that starts with erythema migrans and later develops large-joint arthritis and facial palsy is designed to identify that vector.
+
+## sections
+### Definition
+Lyme disease is transmitted by the hard tick Ixodes. Erythema migrans followed by large-joint arthritis and facial palsy is a characteristic clinical sequence.
+
+### Mechanism
+The tick bite transmits Borrelia burgdorferi. The question tests recognition of the vector from a time-linked clinical pattern rather than recognition from an image of the arthropod.
+
+### Key determinants
+The decisive features are exposure in the USA, an early erythema migrans lesion, later knee arthritis and facial palsy. Together they indicate Lyme disease, whose vector is Ixodes.
+
+### Clinical significance
+The rash-to-neurological-and-joint progression provides a compact way to distinguish Lyme disease from unrelated vector-borne syndromes.
+
+### Common misconceptions
+Do not select another named arthropod solely because it can transmit infection. First identify the Lyme disease syndrome, then choose its hard-tick vector, Ixodes.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Lyme disease is transmitted by the hard tick Ixodes.
+
+## lose_the_mark
+Failing to connect erythema migrans followed by large-joint arthritis and facial palsy with Lyme disease.
+
+## callout_evidence
+### Lyme disease is transmitted by the hard tick Ixodes.
+Claims: CLM-INF-MUST-FHB1022-LYME-01
+Citations: CIT-INF-MUST-FHB1022-LYME-01
+Reviewed by: pending medical review
+
+## related_concepts
+${lymeConceptId}
+
+## related_articles
+${articleId}: Cyclopropagative transmission in arthropod vectors
+${trypArticleId}: Diagnostic blood stage in West African trypanosomiasis
+
+## question_ids
+QST-MUST-FHB1022-PARA-VECT-Q07
+
+## resource_ids
+${ticksResourceId}
+${assessmentResourceId}
+
+## article_source_ids
+${ticksResourceId}
+
+## claim_ids
+CLM-INF-MUST-FHB1022-LYME-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-LYME-01
+
+## university_notes
+must: Q7 comes from the governed FHB102-2 module-wide MCQ family and is corroborated by the university Parasitology Department ticks lecture.
+
+## annotations
+### definition_of · ${lymeConceptId}
+Quote: Lyme disease is transmitted by the hard tick Ixodes. Erythema migrans followed by large-joint arthritis and facial palsy is a characteristic clinical sequence.
+Block: body
+Id: ann-must-fhb1022-lyme-001
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+MUST Faculty of Medicine Parasitology Department, FHB102-2 Vectors of Disease Transmission ticks lecture, visually read pp1 and 29–30.
+Anonymous FHB102-2 MCQ bank, visually read p2 prompt Q7 and p5 printed answer B.
+
+## evidence_gaps
+Independent standard-reference review is required before publication.
+Q2, Q3, Q4 and Q6 remain outside this article as explicit key-conflict holds.
+
+## conflicts
+No key conflict affects authored Q7. The anonymous bank's printed B agrees with the university teaching table's hard tick Ixodes.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Third bounded question-led slice only. Q7 is the sole newly authored question; no held item is represented as a student-facing record, and no record is authorised for upload.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected discipline node exists for this article.
+media: The source lecture includes an illustrative erythema-migrans slide, but the question is answerable from its text and no student-facing image is required.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after the first review is completed.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The two prior local Parasitology articles provide adjacent vector-transmission and parasite-stage reading.
+`
+}
+
+function lymeQuestions() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-VECT-Q07
+
+## title
+While in the USA, a university student developed erythema migrans on his back. Three months later he developed knee arthritis and facial palsy. Which vector would be expected in the surrounding park bushes?
+
+## question
+While in the USA, a university student developed erythema migrans on his back. Three months later he developed knee arthritis and facial palsy. Which vector would be expected in the surrounding park bushes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed from ${assessmentResourceId}, with the printed key checked against ${ticksResourceId}.
+
+## correct_answer
+B
+
+## answer_a
+Ornithodoros
+
+## explanation_a
+Incorrect. This vignette combines erythema migrans, large-joint arthritis and facial palsy, so the expected vector is Ixodes rather than Ornithodoros.
+
+## answer_b
+Ixodes
+
+## explanation_b
+Correct. Erythema migrans followed by large-joint arthritis and facial palsy is the characteristic Lyme disease pattern. Lyme disease is transmitted by the hard tick Ixodes. Therefore, Ixodes is the best answer.
+
+## answer_c
+Triatoma
+
+## explanation_c
+Incorrect. The clinical sequence identifies Lyme disease, whose hard-tick vector is Ixodes rather than Triatoma.
+
+## answer_d
+Trombicula
+
+## explanation_d
+Incorrect. The Lyme disease pattern in this vignette points to Ixodes rather than Trombicula.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+${lymeConceptId}
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.75
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.65
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > Arthropods and vectors > Tick-borne disease
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+${lymeArticleId}
+
+## resource_ids
+${assessmentResourceId}
+${ticksResourceId}
+
+## learning_objective
+Identify Ixodes as the vector in a Lyme disease vignette combining erythema migrans with later large-joint arthritis and facial palsy.
+
+## source_citation
+FHB102-2 anonymous MCQ bank, p2, printed key p5 (Q7 = B); MUST Faculty of Medicine Parasitology Department, FHB102-2 Vectors of Disease Transmission ticks lecture, p29.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q7 = B. The printed key agrees with the university teaching table's hard tick Ixodes; no override was made. Source spelling was standardised without changing the answer.
+`
+}
+
 function coverage() {
   return `# MUST FHB 102-2 — authoring progress
 
@@ -1601,16 +2325,16 @@ Generated by \`scripts/must/build-fhb102-2-authoring-slice.mjs\`. This file is a
 
 | Kind | Created | Status |
 |---|---:|---|
-| Evidence resources | 3 | local-only source records |
-| Claims | 2 | verified against local curriculum citations; independent review still owed |
-| Citations | 3 | local curriculum |
-| Article spans | 2 | linked to the clean-key claims |
-| Concepts | 2 | under review / needs evidence |
-| Articles | 2 | Draft |
-| Questions | 2 | Draft |
+| Evidence resources | 4 | local-only source records |
+| Claims | 3 | verified against local curriculum citations; independent review still owed |
+| Citations | 4 | local curriculum |
+| Article spans | 3 | linked to the clean-key claims |
+| Concepts | 3 | under review / needs evidence |
+| Articles | 3 | Draft |
+| Questions | 3 | Draft |
 | Question key-conflict holds | 4 | no student-facing record authored |
 
-The first slice authored Q1 with printed key D unchanged. The second slice authors Q5 with printed key C unchanged: the anonymous bank says trypomastigote and the MUST Parasitology Department carrier specifies polymorphic trypomastigote. No answer override was made in either question.
+The first slice authored Q1 with printed key D unchanged. The second slice authored Q5 with printed key C unchanged: the anonymous bank says trypomastigote and the MUST Parasitology Department carrier specifies polymorphic trypomastigote. The third slice authors Q7 with printed key B unchanged: the university ticks lecture directly pairs erythema chronicum migrans, large-joint arthritis and facial palsy with hard tick Ixodes. No answer override was made in any question.
 
 ### Second-slice delta
 
@@ -1618,6 +2342,13 @@ The first slice authored Q1 with printed key D unchanged. The second slice autho
 - +1 claim, +1 citation and +1 article span.
 - +1 under-review concept, +1 Draft article and +1 Draft question.
 - +2 explicit key-conflict holds from the intervening source order: Q2 and Q4.
+
+### Third-slice delta
+
+- +1 evidence resource: the official university FHB102-2 ticks lecture used to check Q7.
+- +1 claim, +1 citation and +1 article span.
+- +1 under-review concept, +1 Draft article and +1 Draft question.
+- 0 new holds: Q7's printed B agrees with the direct university teaching statement; Q2, Q3, Q4 and Q6 remain held.
 
 ## Explicit key-conflict holds
 
@@ -1628,15 +2359,15 @@ The first slice authored Q1 with printed key D unchanged. The second slice autho
 
 All four holds require an authorised medical reviewer to resolve the item disposition before authoring: retain verbatim with a formal source-key correction, rewrite and retire the source wording, or exclude the item.
 
-## Exact backlog after two slices
+## Exact backlog after three slices
 
-- Governed prompt observations: 5,444 total; 2 authored; **5,442 raw prompt observations remain**, including the 4 explicit holds.
-- Governed answer observations: 5,211 total; 2 clean source-keyed prompts authored; **5,209 raw answer observations remain**, including the 4 held printed-key observations.
-- Opening 32-prompt normalized family: 2 authored, 4 held, and **26 not yet assessed for authoring**; therefore **30 prompts remain in the authoring backlog**, of which Q32 is source-absent.
-- Record-level backlog is not asserted as 5,442 unique records: repeated and near-repeated prompts must still be deduplicated during authoring, per the one-question-one-record rule.
+- Governed prompt observations: 5,444 total; 3 authored; **5,441 raw prompt observations remain**, including the 4 explicit holds.
+- Governed answer observations: 5,211 total; 3 clean source-keyed prompts authored; **5,208 raw answer observations remain**, including the 4 held printed-key observations.
+- Opening 32-prompt normalized family: 3 authored, 4 held, and **25 not yet assessed for authoring**; therefore **29 prompts remain in the authoring backlog**, of which Q32 is source-absent.
+- Record-level backlog is not asserted as 5,441 unique records: repeated and near-repeated prompts must still be deduplicated during authoring, per the one-question-one-record rule.
 
 ## Upload state
 
-No MUST content has been uploaded or imported. Both student-facing articles and questions remain Draft; both concepts use the concept schema's non-published \`under review\` state and \`publication_status: needs_evidence\`. Q2, Q3, Q4 and Q6 exist only as authoring-ledger holds.
+No MUST content has been uploaded or imported. All three student-facing articles and questions remain Draft; all three concepts use the concept schema's non-published \`under review\` state and \`publication_status: needs_evidence\`. Q2, Q3, Q4 and Q6 exist only as authoring-ledger holds.
 `
 }

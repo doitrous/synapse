@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1 is clean; Q3 and Q6 are held because their printed keys conflict with the wording or department evidence.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5 and Q7 are clean; Q2, Q3, Q4 and Q6 are held because their printed keys conflict with the wording or department evidence.
 
 ## confidence
 0.55
@@ -159,6 +159,61 @@ Non-official teaching summary. Page 2 directly defines the biological transmissi
 
 ## confidence
 0.65
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_08be9a1018b73dcd7c3
+
+## title
+FHB102-2 Vectors of Disease Transmission — ticks
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Parasitology Department; presented by Associate Prof. Eman El-Wakil
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-08-31
+
+## page_count
+40
+
+## sha256
+08be9a1018b73dcd7c3d97ef1e0502bcfa2c401d81aec2672c3e1a8e226cb955
+
+## rights
+Faculty-distributed university teaching material; internal curriculum use.
+
+## qualification
+Officially branded MUST Faculty of Medicine Parasitology Department teaching deck for FHB102-2. The cover names Associate Prof. Eman El-Wakil as presenter while the PDF metadata names Heba Abdel Aaty as author; the visible teaching content, rather than an inferred authorship resolution, governs this Draft slice.
+
+## confidence
+0.9
 
 ## is_assessment
 no

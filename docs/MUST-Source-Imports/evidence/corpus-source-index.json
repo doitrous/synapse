@@ -1,10 +1,10 @@
 {
- "note": "Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from the governed local-source manifest.",
+ "note": "Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.",
  "generatedFrom": [
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 3,
+ "count": 4,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -74,6 +74,30 @@
    ],
    "categories": [
     "Teaching notes"
+   ]
+  },
+  "src_08be9a1018b73dcd7c3": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/6.Ticks.pdf"
+   ],
+   "sha256": "08be9a1018b73dcd7c3d97ef1e0502bcfa2c401d81aec2672c3e1a8e226cb955",
+   "processingStatus": "fully_governed",
+   "pageCount": 40,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
    ]
   }
  }
