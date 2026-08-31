@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "e81143bcf28a86b30c5fbfac7fce0ddafae80edc505c068e269b603ca5de52f0",
-    "triageMarkdown": "1d786c988497c50c01562a258c510bd743f2b881faea7a5dcb7069cefabc5c28"
+    "readinessMarkdown": "829353153c018bacdd98efd2a2a9fd681b89c9359c6659b090e55e89d9123baa",
+    "triageMarkdown": "f9c8fbaa4c5e0b8516c17c3c3f300bda6c9b6c2d20bc63246a7d70cc80a4c8bf"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -79,6 +79,7 @@
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
+      "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
       "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
       "9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc",
       "a3f83755f7a4921fd2bb614a3827af3a4bde8e86b40ce595e0d74dd30f578100",
@@ -92,7 +93,7 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 22
+    "uniqueSha256": 23
   },
   "completedSourceCoverage": [
     {
@@ -1358,11 +1359,72 @@
         "printed conjunction for conjugation, contagious for transposable, spelling and other academically questionable wording or answer tokens remain source truth without correction",
         "the FHB-2 heading and author credit are not treated as institution, exam-sitting or authenticated faculty-key authority"
       ]
+    },
+    {
+      "sha256": "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
+      "sourcePages": 4,
+      "renderedReadPages": "1-4",
+      "questionAndAnswerPages": "1-4",
+      "printedPromptObservations": 40,
+      "objectiveMcqPrompts": 40,
+      "conventionalMcqPrompts": 36,
+      "objectiveMatchingPrompts": 4,
+      "printedKeyObservations": 40,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 1,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Bacterial-growth questions 1-12",
+          "questionAndAnswerPage": 1,
+          "prompts": 12,
+          "answers": 12
+        },
+        {
+          "section": "Bacterial-growth questions 13-20",
+          "questionAndAnswerPage": 2,
+          "prompts": 8,
+          "answers": 8,
+          "imageSupportedPrompts": 1
+        },
+        {
+          "section": "Bacterial-growth questions 21-32",
+          "questionAndAnswerPage": 3,
+          "prompts": 12,
+          "answers": 12
+        },
+        {
+          "section": "Bacterial-growth questions 33-40",
+          "questionAndAnswerPage": 4,
+          "prompts": 8,
+          "answers": 8
+        }
+      ],
+      "sourceFirstHandles": 4,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 40,
+      "familyAnswerDelta": 40,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "PowerPoint-generated Micro MCQs / Bacterial growth (FHB-2) revision carrier visibly credited By: Asma S.E and carrying matching author metadata, but with no visible institution, department, module authentication, examiner, sitting, marks, date or authenticated faculty-key claim; inline answer lists are source evidence rather than an official MUST key",
+      "boundaryDisposition": "one continuous Q1-Q40 objective sequence over four pages with complete inline answer lists after Q12, Q20, Q32 and Q40; Q36-Q39 are four independently numbered matching prompts, and Q15 is one image-supported growth-curve MCQ; forty prompt occurrences and forty prompt-matched answer observations with no written or teaching boundary",
+      "preservedSourceDefects": [
+        "Q36-Q39 are independent matching occurrences rather than one composite",
+        "Q15 is counted once as an objective image-supported prompt",
+        "printed spelling, deprecated terms, internal inconsistencies and academically questionable wording or answer tokens remain source truth without correction",
+        "the FHB-2 heading and author credit are not treated as institution, exam-sitting or authenticated faculty-key authority"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2429,
-    "printedKeyObservations": 2287,
+    "printedPromptObservations": 2469,
+    "printedKeyObservations": 2327,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1500,22 +1562,28 @@
     "pages": 3,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentyThirdSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial growth mcqs.pdf",
     "sha256": "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
     "pages": 4,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - general bacteria part 2 MCQs.pdf",
+    "sha256": "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
+    "pages": 8,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 74,
-    "uniqueSha256": 72,
-    "sortedNewlineSha256": "a561317b32bdcb910a35b68faf00ff33d51c12a2c4a6b2719d319cd0c63d6b2b",
+    "inventoryMetadataRows": 73,
+    "uniqueSha256": 71,
+    "sortedNewlineSha256": "98fa968d2b4f382089177f59f4a1ee1dfd81d94742582e880517966698b4dc54",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 19,
-      "substantive-text": 32
+      "substantive-text": 31
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1523,12 +1591,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 19,
-    "substantive-text": 32
+    "substantive-text": 31
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 22,
-    "remainingUniqueSha256": 72,
+    "processedUniqueSha256": 23,
+    "remainingUniqueSha256": 71,
     "processedPlusRemaining": 94
   }
 }

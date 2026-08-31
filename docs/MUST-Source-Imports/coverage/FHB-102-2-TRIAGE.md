@@ -998,3 +998,25 @@ Removing the twenty-two processed hashes leaves **74 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial growth mcqs.pdf`, SHA-256 `99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438`, 4 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 74 selected inventory paths / 72 unique hashes remain untriaged.
+
+## Completed source — bacterial growth mcqs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial growth mcqs.pdf` | `99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438` | 4 | substantive-text | pages 1–4 rendered and read | PowerPoint-generated `Micro MCQs / Bacterial growth (FHB-2)` revision carrier visibly credited `By: Asma S.E`, with matching author metadata. No institution, department, module authentication, examiner, sitting, marks, date or authenticated faculty-key claim is visible. Inline answer lists are source evidence, not an official MUST key. |
+
+### Exact boundary and search gate
+
+Pages 1–4 contain Q1–Q40 with complete inline answer lists after Q12, Q20, Q32 and Q40. Q36–Q39 are four independent matching prompts; Q15 is one image-supported growth-curve MCQ. The exact boundary is **40 objective prompts / 40 prompt-matched answer observations / 0 absent answers / 0 written / 1 practical or image-supported / 0 teaching prompts**, split **36 conventional MCQs / 4 matching prompts**.
+
+Four source-first handles cover nutritional classification and requirements; oxygen relationships and protective enzymes; environmental temperature/salinity/CO2 requirements; and growth-curve phases, generation and clinical correlation. All collapse to prior FHB-102-2 concepts, so **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**. Printed wording and questionable answer tokens remain source truth.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-third one-path hash is now `sourceProcessed=true`, adding **+40 questions / +40 answers / +0 concepts**. Cumulative triage is **2,469 questions / 2,327 answers / 62 concepts**.
+
+Removing the twenty-three processed hashes leaves **73 selected inventory paths / 71 unique SHA-256s**. Their sorted-newline checksum is `98fa968d2b4f382089177f59f4a1ee1dfd81d94742582e880517966698b4dc54`. Remaining audit-review debt is **31 substantive-text / 19 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`23 + 71 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - general bacteria part 2 MCQs.pdf`, SHA-256 `86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c`, 8 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 73 selected inventory paths / 71 unique hashes remain untriaged.
