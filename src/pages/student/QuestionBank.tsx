@@ -80,7 +80,7 @@ import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { answerPercentages } from '@/data/answerDistribution'
 import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
 import { sourceOptions } from '@/data/sourceCoverage'
-import { UNSPECIFIED_SOURCE, type SourceBucket } from '@/data/questionSource'
+import { QUESTION_SOURCES, QUESTION_SOURCE_LABEL, UNSPECIFIED_SOURCE, UNSPECIFIED_SOURCE_LABEL, type SourceBucket } from '@/data/questionSource'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
@@ -1022,19 +1022,32 @@ export function QuestionBank() {
     [sourcePool, libraryTopics, scope],
   )
   const sourceOpts = useMemo(() => sourceOptions(scoped), [scoped])
-  // Shown whenever any question is actually tagged with a department source —
-  // one tagged bucket is already worth surfacing ("solve the department book"
-  // is the point of the feature), and only an entirely-untagged bank hides it.
-  const showSourceFilter = sourceOpts.some((o) => o.bucket !== UNSPECIFIED_SOURCE)
+  // The picker always renders: every canonical source is offered as a card,
+  // and one with nothing in it is disabled rather than hidden — the option
+  // stays discoverable even while the bank is still being tagged. Untagged
+  // questions get their own "Unspecified" card only once tagged ones exist;
+  // alone it would just be the whole bank wearing a confusing name.
+  const sourceCards = useMemo(() => {
+    const counts = new Map(sourceOpts.map((o) => [o.bucket, o.count]))
+    const cards = QUESTION_SOURCES.map((s) => ({
+      bucket: s as SourceBucket, label: QUESTION_SOURCE_LABEL[s], count: counts.get(s) ?? 0,
+    }))
+    const untagged = counts.get(UNSPECIFIED_SOURCE) ?? 0
+    if (untagged > 0 && cards.some((c) => c.count > 0)) {
+      cards.push({ bucket: UNSPECIFIED_SOURCE, label: UNSPECIFIED_SOURCE_LABEL, count: untagged })
+    }
+    return cards
+  }, [sourceOpts])
   // Drop any selected bucket no longer present under the current scope/pool, so a
   // stale selection can't silently empty the pool.
   const effectiveSources = useMemo(() => {
     const present = new Set(sourceOpts.map((o) => o.bucket))
     return new Set([...sourceSel].filter((b) => present.has(b)))
   }, [sourceSel, sourceOpts])
+  // An empty selection means "all sources", so the unfiltered case is unchanged.
   const available = useMemo(
-    () => (showSourceFilter ? questionsInSources(scoped, effectiveSources) : scoped),
-    [scoped, effectiveSources, showSourceFilter],
+    () => questionsInSources(scoped, effectiveSources),
+    [scoped, effectiveSources],
   )
 
   // The chapter tree's per-topic counts must reflect the same source filter as
@@ -1042,8 +1055,8 @@ export function QuestionBank() {
   // filter is active (the shipping all-Unspecified state) this is exactly the
   // previous `sourcePool`, so behaviour there is unchanged.
   const treeCountPool = useMemo(
-    () => (showSourceFilter ? questionsInSources(sourcePool, effectiveSources) : sourcePool),
-    [showSourceFilter, sourcePool, effectiveSources],
+    () => questionsInSources(sourcePool, effectiveSources),
+    [sourcePool, effectiveSources],
   )
 
   const collections: Collection[] = useMemo(() => [
@@ -1616,50 +1629,6 @@ export function QuestionBank() {
           <Panel>
             <PanelHeader title={t('New session')} icon={GraduationCap} />
             <div className="space-y-6 p-5">
-              {showSourceFilter && (
-                <div>
-                  <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Question source')}</p>
-                  <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-                    {sourceOpts.map((opt) => {
-                      const SourceIcon = opt.bucket === 'dept-book' ? BookOpen
-                        : opt.bucket === 'dept-mcq' ? ListChecks
-                        : opt.bucket === 'past-paper' ? GraduationCap
-                        : MoreHorizontal
-                      const active = effectiveSources.has(opt.bucket)
-                      return (
-                        <button
-                          key={opt.bucket}
-                          type="button"
-                          aria-pressed={active}
-                          onClick={() => setSourceSel((cur) => {
-                            const next = new Set(cur)
-                            if (next.has(opt.bucket)) next.delete(opt.bucket)
-                            else next.add(opt.bucket)
-                            return next
-                          })}
-                          className={cn(
-                            'flex min-h-[44px] flex-col items-start gap-1 rounded-lg border px-3 py-2.5 text-left transition-colors',
-                            active
-                              ? 'border-primary-line bg-primary-tint'
-                              : 'border-line-2 bg-surface hover:border-ink-3/45',
-                          )}
-                        >
-                          <Icon icon={SourceIcon} size={16} className={active ? 'text-primary-strong' : 'text-accent'} />
-                          <span className={cn('text-[12.5px] font-semibold leading-tight', active ? 'text-primary-strong' : 'text-ink')}>
-                            {t(opt.label)}
-                          </span>
-                          <span className="tnum font-mono text-[11px] text-ink-3">{opt.count} {t('questions')}</span>
-                        </button>
-                      )
-                    })}
-                  </div>
-                  <p className="mt-2 text-[11.5px] text-ink-3">
-                    {effectiveSources.size === 0
-                      ? t('All sources. Pick one or more to narrow the test.')
-                      : t('Only the selected sources are drawn from.')}
-                  </p>
-                </div>
-              )}
               <div>
                 <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Draw from')}</p>
                 <Segmented
@@ -1678,6 +1647,55 @@ export function QuestionBank() {
                   {source === 'all'
                     ? t('Every published question you have access to.')
                     : t('Narrowed to one of your lists — combine it with a topic below.')}
+                </p>
+              </div>
+              <div>
+                <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Question source')}</p>
+                <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                  {sourceCards.map((opt) => {
+                    const SourceIcon = opt.bucket === 'dept-book' ? BookOpen
+                      : opt.bucket === 'dept-mcq' ? ListChecks
+                      : opt.bucket === 'past-paper' ? GraduationCap
+                      : MoreHorizontal
+                    const active = effectiveSources.has(opt.bucket)
+                    const empty = opt.count === 0
+                    return (
+                      <button
+                        key={opt.bucket}
+                        type="button"
+                        aria-pressed={active}
+                        disabled={empty}
+                        onClick={() => setSourceSel((cur) => {
+                          const next = new Set(cur)
+                          if (next.has(opt.bucket)) next.delete(opt.bucket)
+                          else next.add(opt.bucket)
+                          return next
+                        })}
+                        className={cn(
+                          'flex min-h-[44px] flex-col items-start gap-1 rounded-lg border px-3 py-2.5 text-left transition-colors',
+                          active
+                            ? 'border-primary-line bg-primary-tint'
+                            : 'border-line-2 bg-surface',
+                          empty ? 'opacity-45' : !active && 'hover:border-ink-3/45',
+                        )}
+                      >
+                        <Icon icon={SourceIcon} size={16} className={active ? 'text-primary-strong' : 'text-accent'} />
+                        <span className={cn('text-[12.5px] font-semibold leading-tight', active ? 'text-primary-strong' : 'text-ink')}>
+                          {t(opt.label)}
+                        </span>
+                        <span className="tnum font-mono text-[11px] text-ink-3">
+                          {empty ? t('none yet') : `${opt.count} ${t('questions')}`}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </div>
+                <p className="mt-2 text-[11.5px] text-ink-3">
+                  {sourceCards.every((c) => c.count === 0)
+                    ? t('Nothing is tagged with a source yet — every question counts under all sources for now.')
+                    : effectiveSources.size === 0
+                      ? t('All sources. Pick one or more to narrow the test.')
+                      : t('Only the selected sources are drawn from.')}
                 </p>
               </div>
               <div>

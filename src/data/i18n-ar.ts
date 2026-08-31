@@ -1112,4 +1112,6 @@ export const AR: Record<string, string> = {
   Unspecified: 'غير محدد',
   'All sources. Pick one or more to narrow the test.': 'كل المصادر. اختر مصدرًا أو أكثر لتضييق الاختبار.',
   'Only the selected sources are drawn from.': 'يُسحب فقط من المصادر المختارة.',
+  'none yet': 'لا شيء بعد',
+  'Nothing is tagged with a source yet — every question counts under all sources for now.': 'لا توجد أسئلة موسومة بمصدر بعد — كل الأسئلة تُحسب ضمن جميع المصادر حاليًا.',
 }
