@@ -26717,6 +26717,7 @@ The exact next unprocessed BMS-102 record is tier-9 `src_e3bcf89c186c44f9b3d0` �
 written/image/practical boundary, same-source/prior collapse, eligible gate, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
 
+## Family 263 — Dr El-Sawy keyed receptor binding
 ## Family 263 — Dr El-Sawy keyed receptor binding, effectiveness, safety, and antagonism bank
 
 ### Source identity, exhaustive native/rendered boundary, and authority
@@ -29399,4 +29400,101 @@ The exact next unprocessed BMS-102 record is tier-4 preferred-name twin
 Lec 6 - Mechanism of Drug Action` folder. Metadata records PDFium and 10 March 2026 but no author;
 its first-page snippet reads `Pharmacodynamic I By Dr. Mostafa Ezz`. Its visible teaching/
 assessment boundary, authority, twin/replay reconciliation, four-search gate, arithmetic, and
+subsequent exact debt remain to be separately adjudicated.
+
+## Family 291 — Dr. Mostafa Ezz pharmacodynamics deck with post-closing unkeyed MCQs
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 preferred-name twin `src_e124048860d90d143788` · `Pharmacodynamic I.pdf` |
+| Exact object | SHA-256 `e124048860d90d143788b829f79d437eae54c383ea02e327c7c7ed9a21f3b160` · **1,552,624 bytes** · **24 native 959.76×540-point landscape pages** · 543 extracted words |
+| Full-read method | all 24 pages rendered at 144 dpi and reviewed individually at original detail against complete layout-preserving native extraction; rendered diagrams supply receptor-pathway detail reduced by the text layer |
+| Visible provenance | page 1 reads `Pharmacodynamic I` / `By Dr. Mostafa Ezz`. No visible university, faculty, department, Helwan, module code, academic year, lecture date, sitting, marks, candidate field, or official-key marker appears. |
+| Metadata caution | PDFium Creator/Producer and 10 March 2026 creation date; no author field, form, JavaScript, encryption, or interactive answer layer. Metadata cannot establish institutional or assessment authority. |
+| Authority / eligibility | instructor-attributed local BMS-102 theoretical deck with a visibly separate post-closing question appendix. Its four questions are eligible low-authority auxiliary evidence, not an official Helwan examination, departmental key, authenticated sitting, or practical record. |
+
+### Complete teaching, assessment, answer, and practical boundary
+
+| Pages | Exhausted visible content | Exact governed classification |
+|---:|---|---|
+| 1–4 | title/author; pharmacodynamics definition and inline `What does the drug do to the body?` gloss; pharmacological-action/mechanism overview; local, systemic, and reflex action diagram | completed teaching; the inline gloss is supplied by the preceding definition, not a response field |
+| 5–8 | physical/chemical/enzyme/metabolic/receptor mechanisms; charcoal, antacid, chelation, aspirin, organophosphorus, neostigmine, allopurinol, and sulphonamide examples; receptor/ligand definitions and classifications | completed definitions, reaction, and examples |
+| 9–19 | receptor-type overview; ionotropic, G-protein, tyrosine-kinase, and intracellular receptor diagrams/pathways; Gs/Gi/Gq signalling; receptor regulation | completed labelled diagrams and explanations; their numbered arrows and pathway steps disclose content rather than ask for it |
+| 20 | `THANK YOU` | explicit end of teaching deck |
+| 21 · Q1 | activated charcoal after aspirin overdose: osmosis, neutralization, chelation, or adsorption | **1 unkeyed four-option MCQ / 0 supplied answers** |
+| 22 · Q2 | irreversibly enzyme-inhibiting drug: allopurinol, sulphonamides, neostigmine, or aspirin | **1 unkeyed four-option MCQ / 0 supplied answers** |
+| 23 · Q3 | seven-transmembrane receptor using cAMP: G-protein coupled, ionotropic, tyrosine-kinase-linked, or gene-active | **1 unkeyed four-option MCQ / 0 supplied answers** |
+| 24 · Q4 | tyrosine-kinase receptor activation after ligand binding: GDP/GTP exchange, pore opening, alpha-subunit dissociation, or dimerization/autophosphorylation | **1 unkeyed four-option MCQ / 0 supplied answers** |
+
+The exact source-local assessment boundary is **4 raw prompt occurrences = 4 unkeyed four-option
+MCQs**, with **0 source-supplied answers / 4 answer-absent prompts / 4 retained question records**.
+There are **0 True/False items, 0 matching items, 0 completion blanks, 0 free-response written
+operations, 0 image-identification prompts, 0 practical stations, and 0 candidate responses**.
+The teaching diagrams and all pre-closing numbered items are explanatory; the four distinct fields
+after `THANK YOU` establish assessment directionality. Teaching makes the intended choices
+inferable but does not repair the source's absent-answer state.
+
+### Four-handle registry, exactly 16 searches, and prior-BMS reconciliation
+
+All four post-closing occurrences survive retention with no same-source semantic collapse: Q1 tests
+activated-charcoal adsorption, Q2 tests aspirin's irreversible enzyme inhibition, Q3 tests the
+seven-transmembrane/second-messenger GPCR identity, and Q4 tests receptor-tyrosine-kinase
+dimerization/autophosphorylation. Therefore **4 retained - 0 semantic reductions = 4 accepted
+handles**.
+
+| Source handle | Exactly four completed source-first searches | Governed disposition |
+|---|---|---|
+| Q1 · `activated-charcoal-aspirin-overdose-adsorption` | `activated charcoal aspirin overdose mechanism`; `activated charcoal acute toxicity adsorption`; `charcoal adsorbs drugs treatment`; `physical mechanism adsorption pharmacology` | no exact governed tested handle; prior Families 290/291 teaching supplies the example but not a tested occurrence; **new tested handle** |
+| Q2 · `aspirin-irreversible-cyclooxygenase-inhibition` | `aspirin irreversibly inhibits enzyme`; `aspirin cyclooxygenase irreversible inhibition`; `irreversible enzyme inhibitor aspirin`; `drug irreversibly inhibiting enzyme MCQ` | no exact governed tested handle; prior teaching supplies the fact but no assessment operation; **new tested handle** |
+| Q3 · `g-protein-receptor-seven-transmembrane-camp` | `seven transmembrane receptor cAMP`; `G protein receptor seven membrane subunits`; `G protein coupled receptor second messenger cAMP`; `GPCR structure cAMP` | exact reuse of Family 268 Q7 `g-protein-receptor-seven-transmembrane-subunits`; added cAMP wording does not change the receptor-identity operation |
+| Q4 · `tyrosine-kinase-receptor-dimerization-autophosphorylation` | `tyrosine kinase receptor dimerization autophosphorylation`; `receptor tyrosine kinase ligand dimerization`; `tyrosine kinase activation phosphorylation`; `RTK activation after ligand binds` | no exact governed tested handle. Family 268 tests tyrosine-kinase domains/examples/signalling proteins, not the dimerization/autophosphorylation activation step; **new tested handle** |
+
+Exactly **`4 handles × 4 = 16 required and completed searches`** are recorded. The source-first
+packets produced no competing live/ready/pending exact object. Thus **1 prior-BMS handle reuse**
+and **`4 - 1 = +3` distinct tested concepts**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 291 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | +4 | 3,562 | 762 | 4,324 |
+| Supplied answers | +0; 4 absent | 2,541 | 405 | 2,946 |
+| Retained eligible question records | +4 | 3,266 | 552 | 3,818 |
+| Accepted handles / required searches | +4 / 16 | 2,933 / — | — | — |
+| Prior-BMS handle reuses | 1 | — | — | subtract before concept addition |
+| Cross-family concept delta | +3 | +1,499 over primary | 372 | 1,871 |
+| **Distinct tested concepts** | **4 source-local / +3** | **1,499 additions** | **372** | **1,871** |
+
+The checksum closes: **4 prompts = 0 answers + 4 absent**; **4 raw = 4 retained = 4 handles**;
+**4 × 4 = 16 searches**; and **4 handles - 1 prior reuse = +3 concepts**. Primary remains
+**762 / 405 / 552 / 372**. Auxiliary becomes **3,562 prompts / 2,541 answers / 3,266 retained /
+2,933 handles / +1,499 concepts**. All eligible becomes **4,324 / 2,946 / 3,818 / 1,871**.
+Family 291 establishes instructor-attributed, unkeyed post-closing pharmacodynamic question
+evidence only—not an official exam, supplied key, authenticated sitting, practical, candidate
+response, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 291
+
+`src_e124048860d90d143788` is exhausted across all 24 pages: every title/author credit, definition,
+inline gloss, labelled action/mechanism/receptor diagram, pathway, regulation statement, closing,
+post-closing stem/option, absent-answer state, authority limitation, metadata field, search packet,
+prior-family relation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-291 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 291 governs
+**1 selected path / 1 unique hash**. The governed set through Family 291 is therefore **358 paths /
+344 unique hashes**, leaving exactly **4 ungoverned selected paths / 4 unique hashes**. Checksums
+are **358 + 4 = 362 paths** and **344 + 4 = 348 unique hashes**. The ordered remaining-path ledger
+has SHA-256 `5af620f5a9cb86587a7b99a65aaa7aef274933532b9970cdef0799f1aca30a86`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`465cd17d7ea9f9e90a3373fc51f771b7641c5fa4adab17b461607e930c802efa`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_75c93492c1ccc24b32ce` ·
+`Drug-receptor binding 2.pdf`, SHA-256
+`75c93492c1ccc24b32ce50d795f5eec69ed678905601433757f52aae2183901c`, **735,860 bytes**,
+**30 native 959.76×540-point landscape pages** under `Pharmacology / Theoretical / Lec 7 -
+Drug-Receptor Interactions`. Metadata records PDFium and 18 March 2026 but no author. Its visible
+drug-receptor teaching/assessment boundary, authority, replay, four-search gate, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
