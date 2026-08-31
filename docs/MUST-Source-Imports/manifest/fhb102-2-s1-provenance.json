@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "d1d46934d11c5e8d6b73ebc53c6347c37186059990003b202a849391611a760c",
-    "triageMarkdown": "b28b24d189636a51519396365b725bb0954acc60f4d64c6075c090c5790c675c"
+    "readinessMarkdown": "67d624b150cdfa915daa3639dec3545aec7162a368bcdd6a5cb13eb37248dee3",
+    "triageMarkdown": "371cc3e5f5c97c41ad90de4934d0f53305866390c7a7d27a15deb5a6b33afb95"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -81,6 +81,7 @@
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
+      "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
@@ -108,7 +109,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 38
+    "uniqueSha256": 39
   },
   "completedSourceCoverage": [
     {
@@ -2377,11 +2378,127 @@
         "pages 2 and 20 are blank and contribute no prompt, answer or teaching occurrence",
         "printed terminology, spelling and academically questionable questions or answer tokens remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
+      "sourcePages": 112,
+      "renderedReadPages": "1-112",
+      "frontMatterPages": "1-3",
+      "objectiveQuestionPages": "4-19, 21-27, 29-39, 41-72, 75-88, 90-111",
+      "answerPages": "20, 28, 40, 73-74, 89, 112",
+      "rawRenderedPromptObservations": 630,
+      "duplicatePromptObservationsCollapsed": 6,
+      "printedPromptObservations": 624,
+      "objectiveMcqPrompts": 624,
+      "printedKeyObservations": 624,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sections": [
+        {
+          "section": "Trematodes",
+          "questionPages": "4-19",
+          "answerPages": [
+            20
+          ],
+          "uniqueObjectivePrompts": 106,
+          "answers": 106
+        },
+        {
+          "section": "Cestodes",
+          "questionPages": "21-27",
+          "answerPages": [
+            28
+          ],
+          "uniqueObjectivePrompts": 43,
+          "answers": 43
+        },
+        {
+          "section": "Nematodes",
+          "questionPages": "29-39",
+          "answerPages": [
+            40
+          ],
+          "uniqueObjectivePrompts": 70,
+          "answers": 70
+        },
+        {
+          "section": "Protozoology",
+          "questionPages": "41-72",
+          "answerPages": "73-74",
+          "uniqueObjectivePrompts": 212,
+          "answers": 212
+        },
+        {
+          "section": "Entomology",
+          "questionPages": "75-88",
+          "answerPages": [
+            89
+          ],
+          "uniqueObjectivePrompts": 73,
+          "answers": 73
+        },
+        {
+          "section": "Revision",
+          "questionPages": "90-111",
+          "answerPages": [
+            112
+          ],
+          "uniqueObjectivePrompts": 120,
+          "answers": 120
+        }
+      ],
+      "duplicateLeafPages": [
+        109,
+        110
+      ],
+      "sourceFirstHandles": 20,
+      "priorFhb1022CollapsedHandles": 20,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 624,
+      "familyAnswerDelta": 624,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "general host-parasite relationships and terminology",
+        "trematode morphology and classification",
+        "trematode life cycles, intermediate hosts and transmission",
+        "trematode diagnosis, pathology and treatment",
+        "cestode morphology and larval stages",
+        "cestode hosts, transmission and disease",
+        "nematode morphology, reproduction and life cycles",
+        "intestinal nematodes",
+        "tissue and filarial nematodes",
+        "protozoal classification and locomotion",
+        "intestinal and urogenital protozoa",
+        "free-living amoebae",
+        "haemoflagellates and leishmaniasis",
+        "malaria, babesiosis and toxoplasmosis",
+        "protozoal diagnosis, treatment and prevention",
+        "arthropod classification and metamorphosis",
+        "mosquitoes and vector transmission",
+        "flies, myiasis, fleas, lice and bugs",
+        "ticks, mites and vector-borne disease",
+        "parasite transmission, clinical syndromes, diagnosis and immune evasion"
+      ],
+      "authorityDisposition": "external MCQ's in Medical Parasitology book by Prof. Dr. Khairy Abdel Hamid Mohammad, Professor of Medical Parasitology, Faculty of Medicine for Boys (Cairo), Al-Azhar University; identifiable external academic authorship, but no MUST university, FHB-102-2 module, MUST examiner, sitting, marks or authenticated MUST faculty-key claim appears",
+      "boundaryDisposition": "pages 1-3 are cover, title and Arabic dedication/preface; six independently numbered conventional text-MCQ sections occupy pages 4-112 and each has a printed answer table; the unique section totals are 106 trematodes, 43 cestodes, 70 nematodes, 212 protozoology, 73 entomology and 120 revision prompts, for 624 objective prompts and 624 matched answers; pages 109 and 110 are duplicate scans of the same revision Q110-Q115 leaf and collapse to one six-prompt sequence; zero source-absent, written, practical, image-dependent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "pages 109 and 110 duplicate one revision leaf and its six prompt occurrences are counted once",
+        "handwritten ticks, highlights and marginal notes are not upgraded to official answer or authority evidence",
+        "external Al-Azhar academic authorship is retained without upgrading the carrier to MUST module, examination or faculty-key authority",
+        "printed spelling, dated terminology and academically questionable questions or answer tokens remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 3223,
-    "printedKeyObservations": 3048,
+    "printedPromptObservations": 3847,
+    "printedKeyObservations": 3672,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2615,20 +2732,26 @@
     "pages": 20,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtyNinthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para Mcq Dr.khairy.pdf",
     "sha256": "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
     "pages": 112,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Ticks.pdf",
+    "sha256": "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
+    "pages": 6,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 56,
-    "uniqueSha256": 56,
-    "sortedNewlineSha256": "621f39ef9ff41b21447e4ee12d2d0ad402aef34a8ddf0fbf83da4557f80242f3",
+    "inventoryMetadataRows": 55,
+    "uniqueSha256": 55,
+    "sortedNewlineSha256": "c3c2ba674bfb96b1740bdaff2b35d2ae81608e50a27b65d09b060dade24d9c5a",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
-      "empty-text": 7,
+      "empty-text": 6,
       "sparse-text": 14,
       "substantive-text": 23
     }
@@ -2636,14 +2759,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 1,
     "audit-not-found": 11,
-    "empty-text": 7,
+    "empty-text": 6,
     "sparse-text": 14,
     "substantive-text": 23
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 38,
-    "remainingUniqueSha256": 56,
+    "processedUniqueSha256": 39,
+    "remainingUniqueSha256": 55,
     "processedPlusRemaining": 94
   }
 }

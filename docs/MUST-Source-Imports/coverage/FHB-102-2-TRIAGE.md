@@ -1480,3 +1480,41 @@ Removing the thirty-eight processed hashes leaves **56 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para Mcq Dr.khairy.pdf`, SHA-256 `74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0`, 112 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 56 selected inventory paths / 56 unique hashes remain untriaged.
+
+## Completed source — Para Mcq Dr.khairy
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para Mcq Dr.khairy.pdf` | `74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0` | 112 | empty-text | pages 1–112 rendered and read | External `MCQ's in Medical Parasitology` book by Prof. Dr. Khairy Abdel Hamid Mohammad, Professor of Medical Parasitology, Faculty of Medicine for Boys (Cairo), Al-Azhar University. This is identifiable external academic authorship, but no MUST university, FHB-102-2 module, MUST examiner, sitting, marks or authenticated MUST faculty-key claim appears. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Pages 1–3 are the cover, title and Arabic dedication/preface. The assessment body comprises six independently numbered conventional text-MCQ sections, each followed by its own printed answer table:
+
+| Section | Question pages | Answer pages | Unique objective prompts | Prompt-matched answers |
+|---|---|---|---:|---:|
+| Trematodes | 4–19 | 20 | 106 | 106 |
+| Cestodes | 21–27 | 28 | 43 | 43 |
+| Nematodes | 29–39 | 40 | 70 | 70 |
+| Protozoology | 41–72 | 73–74 | 212 | 212 |
+| Entomology | 75–88 | 89 | 73 | 73 |
+| Revision | 90–111 | 112 | 120 | 120 |
+| **Total** | **4–112** | **20, 28, 40, 73–74, 89, 112** | **624** | **624** |
+
+Pages 109 and 110 are duplicate scans of the same revision leaf carrying Q110–Q115. That leaf is counted once, rather than adding six duplicate prompt and answer observations. The exact governed boundary is therefore **624 objective MCQs / 624 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image prompts / 0 teaching prompts**. Handwritten ticks, highlights and marginal notes are not treated as additional answers or authority. Printed spelling, terminology and academically questionable questions or key tokens remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+The 624 unique prompt occurrences collapse into twenty source-first handles: general host–parasite relationships and terminology; trematode morphology and classification; trematode life cycles, intermediate hosts and transmission; trematode diagnosis, pathology and treatment; cestode morphology and larval stages; cestode hosts, transmission and disease; nematode morphology, reproduction and life cycles; intestinal nematodes; tissue and filarial nematodes; protozoal classification and locomotion; intestinal and urogenital protozoa; free-living amoebae; haemoflagellates and leishmaniasis; malaria, babesiosis and toxoplasmosis; protozoal diagnosis, treatment and prevention; arthropod classification and metamorphosis; mosquitoes and vector transmission; flies, myiasis, fleas, lice and bugs; ticks, mites and vector-borne disease; and parasite transmission, clinical syndromes, diagnosis and immune evasion. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is **20 source-first − 20 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-ninth one-path hash is now `sourceProcessed=true`, adding **+624 questions / +624 answers / +0 concepts**. Cumulative triage is **3,847 questions / 3,672 answers / 62 concepts**.
+
+Removing the thirty-nine processed hashes leaves **55 selected inventory paths / 55 unique SHA-256s**. Their sorted-newline checksum is `c3c2ba674bfb96b1740bdaff2b35d2ae81608e50a27b65d09b060dade24d9c5a`. Remaining audit-review debt is **23 substantive-text / 14 sparse-text / 6 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`39 + 55 = 94`** and path accounting is **`41 + 55 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Ticks.pdf`, SHA-256 `30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2`, 6 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 55 selected inventory paths / 55 unique hashes remain untriaged.
