@@ -10,11 +10,12 @@
 
   <!-- The Latin brand lockup stays LTR on the Arabic card. -->
   <g transform="translate(788 64) scale(.82)">
-    <path fill="#1553b3" d="M4 58V11C4 8.8 5.8 7 8 7h6l18 22v9c-7.7 0-14 6.3-14 14v6H4Z"/>
-    <path fill="#d13a63" d="M60 58V11c0-2.2-1.8-4-4-4h-6L32 29v9c7.7 0 14 6.3 14 14v6h14Z"/>
+    <circle cx="32" cy="32" r="29" stroke="#c4d9f7" stroke-width="2" fill="none"/>
+    <path d="M18.6 21.75 A17.5 17.5 0 1 0 45.4 21.75" stroke="#1553b3" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="32" cy="28.5" r="6" fill="#d13a63"/>
   </g>
-  <text x="849" y="101" fill="#161920" font-family="Orbitron, Jost, Futura, sans-serif" font-size="31" font-weight="700" letter-spacing="-.3">ARISTANA</text>
-  <text x="850" y="120" fill="#5d636f" font-family="Geist, Helvetica, Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="2.1">BY CONNECT ACADEMY</text>
+  <text x="849" y="101" fill="#161920" font-family="Baloo 2, Baloo, Century Gothic, sans-serif" font-size="31" font-weight="800" letter-spacing="0">nishany</text>
+  <text x="850" y="120" fill="#5d636f" font-family="Geist, Helvetica, Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="2.1">BY CONNECT</text>
   <line x1="80" y1="148" x2="1120" y2="148" stroke="#ccd3e0"/>
 
   <text x="1120" y="284" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="74" font-weight="700" fill="#161920">تعلّم الطب بالطريقة التي</text>
@@ -23,7 +24,7 @@
   <text x="1118" y="467" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="28" fill="#5d636f">بتدريب سريري مبني على المنهج الدولي.</text>
 
   <rect x="80" y="190" width="278" height="305" rx="10" fill="#fff" stroke="#ccd3e0"/>
-  <text x="334" y="226" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="17" font-weight="700" fill="#a82449">اليوم في مارستانا</text>
+  <text x="334" y="226" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="17" font-weight="700" fill="#a82449">اليوم في نيشاني</text>
   <line x1="104" y1="244" x2="334" y2="244" stroke="#e3e7ef"/>
   <rect x="329" y="266" width="5" height="54" fill="#1553b3"/>
   <text x="312" y="286" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="16" font-weight="700" fill="#161920">جلسة القلب والأوعية</text>
@@ -37,5 +38,5 @@
 
   <line x1="80" y1="545" x2="1120" y2="545" stroke="#f4c8d6"/>
   <text x="1120" y="589" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="25" font-weight="700" fill="#a82449">وصول كامل لمدة ٣ أيام. من غير بطاقة.</text>
-  <text x="80" y="584" font-family="Geist Mono, monospace" font-size="13" fill="#5d636f">MARISTANA · CONNECT ACADEMY, SINCE 2011</text>
+  <text x="80" y="584" font-family="Geist Mono, monospace" font-size="13" fill="#5d636f">NISHANY · BY CONNECT, SINCE 2011</text>
 </svg>
