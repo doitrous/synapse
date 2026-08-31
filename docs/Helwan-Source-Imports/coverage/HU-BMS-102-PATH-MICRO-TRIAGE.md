@@ -27188,3 +27188,123 @@ header `Pharmacology / MCQ` and footer **`DR . El-Sawy`**; metadata Author is `M
 creation/modification are 20 April 2026. Its exact authority, prompt/key/written/image/practical
 boundary, source-local/prior collapse, eligible gate, arithmetic, and subsequent exact debt remain
 to be separately adjudicated.
+
+## Family 267 — Dr El-Sawy keyed pKa, distribution, bioavailability, and loading-dose bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_c0a94a4717d5f478b235` · `MCQs - MCQ PKa & Distribution.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `c0a94a4717d5f478b23567e51883c12d1f6394ffafeb6f02cbc2404dc80788e3` · **282,755 bytes** |
+| Format / complete visual boundary | **Eleven native-text portrait A4 pages, PDF 1.7**. All eleven were rendered at 160 dpi into eleven non-empty 1,323×1,871-pixel images and read page by page at original detail. Coherent layout extraction contains **1,663 words / 14,236 bytes** and agrees with every header, stem, option, right-margin answer letter, footer, numbering reset, and printed page number. No form, JavaScript, encryption, hidden response layer, page, or crop remainder exists. |
+| Visible provenance | Every page visibly headers `Pharmacology / MCQ` and footers **`DR . El-Sawy`**. Pages 1–5 form a 22-question pKa/ionization set; pages 6–11 reset numbering and form a 23-question first-pass/distribution set. No page visibly names a university/faculty, Helwan, BMS-102/module code, academic year, sitting, marks, candidate, duration, or departmental approval. |
+| Metadata caution | Metadata Author is `Mamdouh`; Creator/Producer are Microsoft Word LTSC; creation and modification are 20 April 2026. These export fields are secondary to the visible Dr El-Sawy attribution and cannot establish institution, academic year, sitting, or official-key status. |
+| Authority / eligibility | Instructor-attributed inline-keyed revision bank in the local Helwan BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary assessment evidence**, not an official Helwan examination, authenticated departmental key, candidate response, or practical record. |
+
+### Complete prompt, answer, written, image, and practical boundary
+
+| Physical page / source refs | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · set A Q1–Q4 | Weak-acid urinary excretion/toxicity, stomach absorption by pKa, acidic-overdose gastric lavage | **4 keyed four-option text MCQs**. |
+| 2 · A Q5–Q9 | Ionized/lipid-insoluble membrane passage, pKa, acidic/basic media, BBB lipid solubility | **5 keyed four-option text MCQs**. |
+| 3 · A Q10–Q14 | Lipid-soluble absorption, aspirin in stomach, stomach-absorption pKa, urine pH, hydrophilic membrane passage | **5 keyed four-option text MCQs**. |
+| 4 · A Q15–Q18 | Urine acidification, weak-acid/base urinary trapping, weak-acid absorption, breast-milk ion trapping | **4 keyed four-option text MCQs**. |
+| 5 · A Q19–Q22 | Replayed bicarbonate and urine-acidification operations; IV 100% bioavailability | **4 keyed four-option text MCQs**. |
+| 6 · set B Q1–Q4 | Liver/oral first pass, oral-versus-IV AUC, volume-of-distribution inputs | **4 keyed four-option text MCQs**. |
+| 7 · B Q5–Q8 | Loading-dose purpose/governance and two Vd calculations | **4 keyed four-option text MCQs**. |
+| 8 · B Q9–Q12 | Hypoalbuminemia, albumin binding/competition, aspirin–warfarin displacement, local-anesthetic sodium channels | **4 keyed four-option text MCQs**. |
+| 9 · B Q13–Q17 | Vd definition, albumin, bioavailability definition/reference route, repeated Vd input | **5 keyed four-option text MCQs**. |
+| 10 · B Q18–Q21 | Tobramycin Vd calculation, repeated hypoalbuminemia, IV 100% bioavailability, repeated albumin competition | **4 keyed four-option text MCQs**. |
+| 11 · B Q22–Q23 | Liver damage/formulation and bioavailability; absorbed fraction definition | **2 keyed four-option text MCQs**. |
+
+The exact boundary is **45 raw prompt occurrences = 45 keyed four-option text MCQs**, with **45
+right-margin source-supplied answer letters / 0 unkeyed prompts**. There are **0 True/False items,
+0 matching items, 0 completion blanks, 0 free-response written operations, 0 drawings, 0 image-
+bearing prompts, 0 authenticated practical stations, 0 candidate responses, 0 teaching-only
+callouts, and 0 prompt-like residues**. All source wording, spelling, and answer letters are retained
+without silent medical correction or endorsement.
+
+### Retention, 35-handle registry, 140-search completion, and prior-BMS reconciliation
+
+All **45** source occurrences remain retained. Ten same-proposition reductions preserve every
+occurrence and key: A-Q1/A-Q19 (bicarbonate for acidic-drug excretion); A-Q3/A-Q12 (high-pKa weak
+base least absorbed in stomach); A-Q13/A-Q20 (lower urine pH increases weak-base excretion despite
+option reordering); A-Q15/A-Q21 (acidification and high-pKa weak-base excretion); A-Q22/B-Q20 (IV
+100% bioavailability); B-Q4/B-Q17 (Vd requires plasma concentration); B-Q8/B-Q18 (dose/plasma-
+concentration Vd calculation); B-Q9/B-Q19 (hypoalbuminemia/free-drug toxicity); B-Q10/B-Q21
+(albumin-bound drug competition); and B-Q15/B-Q23 (bioavailability/systemic-fraction definition).
+Thus **`45 retained - 10 reductions = 35 accepted source-distinct handles`**.
+
+| Source region | Accepted source-first handles |
+|---|---|
+| A Q1–Q9 | `bicarbonate-alkalinization-increases-weak-acid-excretion` (Q1,Q19); `acidic-drug-toxicity-treat-with-base`; `high-pka-weak-base-least-stomach-absorption` (Q3,Q12); `acidic-overdose-gastric-lavage-sodium-bicarbonate`; `ionized-lipid-insoluble-cannot-cross-cell-membrane`; `pka-determines-ionization-and-absorption`; `weak-acid-less-ionized-acidic-medium`; `weak-base-less-ionized-basic-medium`; `bbb-crossing-requires-lipid-solubility` |
+| A Q10–Q22 | `lipid-solubility-increases-drug-absorption`; `aspirin-nonionized-in-stomach`; `lower-urine-ph-increases-weak-base-excretion` (Q13,Q20); `hydrophilic-drug-low-membrane-penetration`; `urine-acidification-high-pka-weak-base-excretion` (Q15,Q21); `weak-acid-alkaline-weak-base-acidic-urine-excretion`; `higher-ph-decreases-weak-acid-absorption`; `amphetamine-ion-trapping-in-breast-milk`; `intravenous-bioavailability-100-percent` (A-Q22,B-Q20) |
+| B Q1–Q8 | `liver-first-pass-organ`; `oral-route-most-first-pass`; `oral-iv-auc-determines-oral-bioavailability`; `volume-distribution-requires-plasma-concentration` (Q4,Q17); `loading-dose-achieves-steady-state-quickly`; `loading-dose-governed-by-volume-distribution`; `total-body-water-loading-dose-calculation`; `volume-distribution-dose-over-plasma-concentration` (Q8,Q18) |
+| B Q9–Q23 | `hypoalbuminemia-increases-free-drug-toxicity` (Q9,Q19); `albumin-bound-drug-displacement-competition` (Q10,Q21); `warfarin-aspirin-displacement-increases-toxicity`; `local-anesthetic-blocks-voltage-sodium-channels`; `volume-of-distribution-apparent-volume-definition`; `albumin-main-plasma-drug-binding-protein`; `bioavailability-systemic-fraction-definition` (Q15,Q23); `bioavailability-reference-route-intravenous`; `liver-damage-affects-bioavailability` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102 Families 1–266:
+**`35 × 4 = 140 required and completed searches`**. Each packet used the distinctive source-first
+slug/stem, tested proposition, answer/terminal phrase, and a pKa, ionization, urine-pH, first-pass,
+bioavailability, Vd, protein-binding, or prior-handle variant. No live, ready, or pending object
+duplicates this carrier.
+
+Exactly **34** handles reuse accepted prior BMS assessment scope, principally Family 223's registry
+for pKa/ionization and stomach absorption, weak-acid/base urinary trapping, BBB/membrane passage,
+breast-milk ion trapping, first pass, IV/systemic bioavailability, Vd/loading-dose calculations,
+hypoalbuminemia, and albumin displacement, with supporting recurrence in Families 202, 224,
+238, 257, and 262–266. The local-anesthetic voltage-gated sodium-channel operation is the only
+accepted same-scope question absent from prior BMS evidence. Therefore concept arithmetic is
+**`35 - 34 = +1`**.
+
+### Family-267 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 267 | Auxiliary cumulative (Families 12–267) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 45 MCQ | 3,476 | 762 | 4,238 |
+| Eligible source-supplied answers | 45; 0 unkeyed | 2,462 | 405 | 2,867 |
+| Retained eligible question records | 45 | 3,180 | 552 | 3,732 |
+| Accepted handles / required searches | 35 / 140 | 2,848 / — | — | — |
+| Prior-BMS handle reuses | 34 | — | — | subtract before concept addition |
+| Cross-family concept delta | +1 | +1,428 over primary | 372 | 1,800 |
+| **Distinct tested concepts** | **35 source-local / +1** | **1,428 additions** | **372** | **1,800** |
+
+The checksum closes: **45 prompts = 45 answers + 0 unkeyed**; **45 retained - 10 reductions = 35
+handles**; **35 × 4 = 140 searches**; and **35 - 34 prior reuses = +1 concept**. Auxiliary
+arithmetic is `3,431 + 45 = 3,476` prompts, `2,417 + 45 = 2,462` answers, `3,135 + 45 =
+3,180` retained, `2,813 + 35 = 2,848` handles, and `1,427 + 1 = 1,428` additions. All eligible
+arithmetic is `762 + 3,476 = 4,238`, `405 + 2,462 = 2,867`, `552 + 3,180 = 3,732`, and
+`372 + 1,428 = 1,800`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,476 prompts / 2,462 answers /
+3,180 retained / 2,848 handles / +1,428 concepts**. All eligible becomes **4,238 / 2,867 /
+3,732 / 1,800**. Family 267 establishes low-authority instructor-attributed keyed revision evidence
+only—not an official exam, authenticated sitting, departmental key, practical station, recurrence/
+readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 267
+
+`src_c0a94a4717d5f478b235` is exhausted across all eleven native/rendered pages: every header,
+numbering reset, stem, option, answer token, replay, footer, authority limitation, metadata field,
+search packet, prior-family relation, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-267 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 267
+governs **1 selected path / 1 unique hash**. The governed set through Family 267 is therefore
+**332 paths / 321 unique hashes**, leaving exactly **30 ungoverned selected paths / 27 unique
+hashes**. Checksums are **332 + 30 = 362 paths** and **321 + 27 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`8295271d913a8a59c5c128c1b080907c511f2f96e1231b546a2e91ed51ef6016`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`f7e805ab9ab90fb2e51aa3b714dc435517fe92ac843a174a477a3b75f0bd12a2`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_6ad47652df65f020cf06` ·
+`MCQs - MCQ Pharmacodynamics.pdf`, SHA-256
+`6ad47652df65f020cf0608c011deb5b629d6b516aad25626458cc855894a2fb1`, **185,884 bytes**,
+**six native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. Its first page
+visibly titles `MCQs Pharmacodynamics` and supplies right-margin answer letters; metadata Author is
+`A` and creation/modification are 24 April 2026. Its exact visible authority, prompt/key/written/
+image/practical boundary, source-local/prior collapse, eligible gate, arithmetic, and subsequent
+exact debt remain to be separately adjudicated.
