@@ -25073,3 +25073,92 @@ Virtual Lab 4 - Enteral dosage forms`. It has a byte-identical Virtual-Lab-5 ali
 carrier authority, complete teaching/prompt/key/image/practical boundary, alias reconciliation,
 four-search ledger, prior-BMS relation, arithmetic, and subsequent exact next debt remain to be
 separately adjudicated.
+
+## Family 247 — Fatma Tarek dosage-forms teaching deck and exact Lab-4/Lab-5 aliases
+
+### Source identity, exact-carrier reconciliation, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Preferred manifest carrier | Tier-5 `src_2f784a73a34819eb6c47` · `dosage form.PDF` under `Pharmacology / Practical Labs / Virtual Lab 4 - Enteral dosage forms` |
+| Exact object | SHA-256 `2f784a73a34819eb6c471daca652df4b0b48594343834a96fd69bd5b1dfaf146`; **1,545,360 bytes**; **33 native-text portrait US-letter 612×792-point pages** |
+| Alias reconciliation | The preferred Lab-4 carrier and `Virtual Lab 5 - Parenteral dosage forms/dosage form.PDF` independently resolve to the same full digest, byte size, page count, geometry, native layer, images, and metadata. They are one content object. The Lab-5 alias adds **0 second-content pages, prompts, answers, handles, concepts, or recurrence**. |
+| Manifest-label caution | The preferred record's physical path says `Virtual Lab 4 - Enteral dosage forms`, while its manifest `subfolder` field says `Virtual Lab 5 - Parenteral dosage forms`. The exact path and twin flags control carrier identity; the inconsistent derived subfolder field does not create a third carrier or change content. |
+| Visible authority | Page 1 visibly reads `DOSAGE FORMS` and `DR Fatma Tarek`. No page visibly names Helwan University, faculty, module, academic year, lab date, assessment sitting, candidate, or examiner. Fatma Tarek is the visible instructor/author; Helwan scope rests on tier-5 folder/manifest placement. |
+| Metadata caution | No metadata author or title is present. Creation/modification timestamp is 2 March 2026 through an unidentified export workflow; this is production provenance only and cannot establish an academic year, delivery date, or sitting. |
+| Complete render/native audit | All 33 pages were rendered at 120 dpi into 33 non-empty 1020×1320-pixel images and read individually; four ordered contact sheets, layout extraction, and all 41 embedded image objects were inspected. Layout extraction contains **1,095 words / 7,337 bytes**. No hidden question, answer mark, response line, practical direction, or image remainder exists. |
+
+### Exhaustive 33-page teaching, image, prompt, key, and practical boundary
+
+| Pages | Complete visible content | Boundary ruling |
+|---:|---|---|
+| 1–2 | Cover; definitions of pharmacology and drug | Visible provenance and declarative teaching; **0 prompts / 0 answers**. |
+| 3–7 | Plant, animal, mineral, microorganism, and simple/complex synthetic drug sources with labelled examples and illustrations | Completed teaching/example images; **0 / 0**. Ellipses join examples to their sources and are not response blanks. |
+| 8–9 | Chemical, generic, and trade/brand nomenclature; dosage-form definition and completed classification table | Declarative and completed-table teaching; **0 / 0**. |
+| 10–15 | Aqueous solutions, syrups, suspensions, emulsions, decoctions, infusions; alcoholic tinctures, spirits, and elixirs; interleaved labelled product/example images | Completed teaching and diagnosis-disclosing examples; **0 / 0**. No image asks for identification. |
+| 16–23 | Powders, conventional/sugar-coated/effervescent/sublingual/buccal/chewable/vaginal tablets, lozenges, enteric and sustained-release tablets, pills, hard/soft/sustained-release capsules; labelled package and dosage-form photographs | Completed teaching/example plates; **0 / 0**. Source prose such as `dose-dumping` is a caution, not a question. |
+| 24–25 | Suppositories, ointments, creams, liniments, and gels with labelled semisolid examples | Completed semisolid-form teaching; **0 / 0**. |
+| 26–28 | Gases, volatile liquids, aerosol/nebulizer/atomizer and micronized powder/spinhaler forms with labelled devices and patient-use images | Completed gaseous/inhalation teaching; **0 / 0**. |
+| 29–30 | Classification by oral, rectal, inhalation, parenteral, and topical routes; ampoule/vial/bottle distinctions | Completed classification teaching; **0 / 0**. |
+| 31–32 | Product, vial, suppository, and injection photographs | Illustrative/labelled teaching images only; **0 prompts / 0 practical operations**. |
+| 33 | `THANK YOU` | Closing slide only. |
+
+The source contains exactly **0 MCQs / 0 written prompts / 0 drawing tasks / 0 image-identification
+operations / 0 source-supplied assessment answers / 0 unkeyed prompts / 0 authenticated practical
+stations / 0 candidate responses**. Its taxonomy headings, definition colons, dotted example
+leaders, completed classification table, product photographs, and route labels are declarative
+teaching, not learner operations. Folder names `Enteral dosage forms` and `Parenteral dosage forms`
+cannot convert the byte-identical general deck into separate practical sessions or stations.
+
+### Zero-handle search gate and prior-BMS reconciliation
+
+No assessment handle survives the complete teaching boundary, so the standing calculation is
+**0 accepted handles × 4 = 0 required and completed searches**. Prior BMS families already contain
+route-of-administration, formulation, pharmacokinetic, and drug-note teaching, including Family
+244's route deck, but teaching overlap cannot create a current tested handle or reuse assignment.
+Prior exact question-handle reuse is therefore **0**, and Family 247 contributes **+0 concepts**.
+The exact Lab-4/Lab-5 alias relation is resolved by SHA before content arithmetic and adds no second
+search gate.
+
+### Family-247 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Governed 33-page object | Family 247 addition | Auxiliary cumulative (Families 12–247) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 0 | 3,091 | 762 | 3,853 |
+| Eligible source-supplied answers | 0 | 0 | 2,125 | 405 | 2,530 |
+| Retained eligible question records | 0 | 0 | 2,795 | 552 | 3,347 |
+| Accepted handles / required searches | 0 / 0 | 0 / 0 | 2,511 / — | — | — |
+| Cross-family concept delta | +0 | +0 | +1,310 over primary | 372 | 1,682 |
+| **Distinct tested concepts** | **0 current assessment concepts** | **0 new** | **1,310 additions** | **372** | **1,682** |
+
+The arithmetic closes independently: **0 prompts = 0 answers + 0 unkeyed**; **0 retained = 0
+handles**; **0 × 4 = 0 searches**; and **0 handles - 0 prior question reuses = +0 concepts**.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,091 prompts / 2,125 answers /
+2,795 retained / 2,511 handles / +1,310 concepts**. All eligible remains **3,853 / 2,530 /
+3,347 / 1,682**. Family 247 adds teaching-carrier and exact-alias governance only, not an exam,
+key, authenticated station, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 247
+
+`src_2f784a73a34819eb6c47` is exhausted once across both byte-identical carriers and all 33 pages:
+every visible/metadata provenance field, definition, source/nomenclature/formulation/route row,
+classification table, image, prompt/key/practical zero, alias relation, search gate, prior-BMS
+relation, and arithmetic term is assigned, with **zero source remainder** and no Family-247 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 247
+governs **2 selected paths / 1 unique hash**. The governed set through Family 247 is therefore
+**312 paths / 301 unique hashes**, leaving exactly **50 ungoverned selected paths / 47 unique
+hashes**. Checksums are **312 + 50 = 362 paths** and **301 + 47 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`96cd680bdf0abdbb1aff38544343f4121dc3349c4ba9c245b27a518ade61fbf1`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`2eabff201201f44f7d779f4f65824bb2fe378668a126721bc0d3984b84e48222`. The remaining set has zero
+hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-5 `src_19711523ae04b54e29f0` ·
+`KINETIC DRUG INTERACTION.PDF`, SHA-256
+`19711523ae04b54e29f0fd7795f394233e1b1bd62c58966f565c2227503a6b6b`, **122,403 bytes**,
+**12 native-text portrait US-letter 612×792-point pages** under `Pharmacology / Practical Labs /
+Virtual Lab 6 - Kinetic drug interactions`. Its visible authority, complete teaching/prompt/key/
+image/practical boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
