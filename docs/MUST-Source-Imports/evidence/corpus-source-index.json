@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 5,
+ "count": 6,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -108,6 +108,30 @@
    "sha256": "62dda2ba1dad2602f5db3d4401fe589b853357b3a1105d39ce6c6f57356d53df",
    "processingStatus": "fully_governed",
    "pageCount": 79,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_b75f65f2298d0fcbc5f3": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/3 - Mosquitoes.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/3 - Mosquitoes.pdf"
+   ],
+   "sha256": "b75f65f2298d0fcbc5f3a95d74b10caa96b314adada37f04fb78285f12f02247",
+   "processingStatus": "fully_governed",
+   "pageCount": 47,
    "languages": [
     "en"
    ],

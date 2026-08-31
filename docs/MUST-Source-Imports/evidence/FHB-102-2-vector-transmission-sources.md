@@ -272,3 +272,58 @@ Officially branded MUST Faculty of Medicine FHB102-2 teaching deck. The cover na
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_b75f65f2298d0fcbc5f3
+
+## title
+FHB102-2 Arthropod Vectors for Disease Transmission — mosquitoes
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Parasitology Department; PDF metadata author HEBA
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/3 - Mosquitoes.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-08-31
+
+## page_count
+47
+
+## sha256
+b75f65f2298d0fcbc5f3a95d74b10caa96b314adada37f04fb78285f12f02247
+
+## rights
+Faculty-distributed university teaching material; internal curriculum use.
+
+## qualification
+Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Page 44 directly defines paratransgenesis using symbiont bacteria; no examiner or authenticated answer-key claim is inferred.
+
+## confidence
+0.9
+
+## is_assessment
+no
