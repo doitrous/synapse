@@ -22631,3 +22631,52 @@ step must consume only this separate manifest path with zero second content inve
 identity verification. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 14 tier-6/
 rank-9 path debts remain. No download, source edit, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 217 — Rank-9 duplicate-path reconciliation for the bone-Histology bank
+
+### Exact identity and zero-second-content ruling
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_008f0ddf3fef93edce53` / `008f0ddf3fef93edce5379b9c254ba4bc623a777934950a8bb475f838ae2f436` |
+| Separate manifest path | `Year 1/LCS 103/Histology/Questions/Histology Bone.QUES.pdf` |
+| Exact-hash local source | `Year 1/LCS 103/Histology/Questions/Bone.QUES.pdf` |
+| Physical proof | **253,736 bytes; 12 native-text 612 x 792 pt US-Letter pages; tagged; unencrypted; no form; PDF 1.7**. Fresh SHA-256, size and PDF metadata match the separate manifest record and Family 215 exactly; qpdf again reports no syntax or stream-encoding error. |
+| Reconciliation | The later manifest path resolves to the one extant exact-hash local object already rendered, read and inventoried in Family 215. It is a path duplicate, not new content. |
+
+Under the standing path-sensitive rule, this family consumes only the separate
+`Histology Bone.QUES.pdf` manifest path. It does **not** repeat Family 215's 47 keyed MCQs,
+seven external handles or page inventory. Exact assessment delta is **0 eligible prompts / 0
+external prompts / 0 ordinary MCQs / 0 written prompts / 0 keys-or-answers / 0 unkeyed
+prompts**. Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues
+/ 0 keys / 0 practical teaching scopes**. Because no content handle is accepted a second
+time, the exact search obligation is **0 handles x 4 = 0 search invocations**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,537 prompts / 7,261 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every content
+and disposition delta is zero.
+
+Removing the final path representing this already-inventoried hash changes the remainder
+from **14 paths / 14 unique hashes** to **13 paths / 13 unique hashes**: tier 3 remains
+**0 / 0**, tier 6 remains **8 paths / 8 unique hashes within tier**, and rank 9 becomes **5
+paths / 5 unique hashes within rank**. Family 216's checksums were
+`dd5783e34cf74e1b413e182ce730a940fa1e489603cc53b445308741d4dc1497` (paths) and
+`9e335962ffbfb098899f11140ad44022a76bab2cc89b3a4101dffe04896c0f78` (unique hashes).
+For the exact post-Family-217 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`6398236bc70a59a9a8dfaaf2a1fae34818321a44e0a8dcc1baf42fc65dd24821`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`5ab49a0f1b919b036cecb1b61e6a49f153834beb35ebc601c4abfb1add82eda8`.
+
+The exact next manifest-order debt is tier-6 `src_29cf1e8315129cd45736`,
+`Year 1/LCS 103/Pathology/Notes and Summaries/4-103 LCS Bone _ Soft Tissue Tumors (1)_240716_164356.pdf`
+(3,438,297 bytes; 48 native 960 x 540 pt pages; unencrypted; no form; PDF 1.7; SHA-256
+`29cf1e8315129cd45736b31c0529787514fd445a3c5cb447b460f1a5f2e6a51f`). It remains
+unclassified until all 48 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
+— NOT APPROVED`:** 13 tier-6/rank-9 path debts remain. No download, source edit, ID, content
+record, catalogue update, import or source copy was created.
