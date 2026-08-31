@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "4dc6ef76a3d563aabe5eb1bd003c8b6961130ef16476afd33bd255499c35b34e",
-    "triageMarkdown": "f4736b53b00e89588424e03dbd786fb0c860177491ce8ab3d59a59dd0e38dabd"
+    "readinessMarkdown": "d1d46934d11c5e8d6b73ebc53c6347c37186059990003b202a849391611a760c",
+    "triageMarkdown": "b28b24d189636a51519396365b725bb0954acc60f4d64c6075c090c5790c675c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -85,6 +85,7 @@
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
+      "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
       "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
@@ -107,7 +108,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 37
+    "uniqueSha256": 38
   },
   "completedSourceCoverage": [
     {
@@ -2318,11 +2319,69 @@
         "independently numbered banks and matching sets remain distinct physical prompt sequences",
         "printed spelling, dated terminology and academically questionable questions or answer tokens remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
+      "sourcePages": 20,
+      "renderedReadPages": "1-20",
+      "coverPages": [
+        1
+      ],
+      "blankPages": [
+        2,
+        20
+      ],
+      "objectiveQuestionPages": "3-19",
+      "answerPages": [
+        19
+      ],
+      "printedPromptObservations": 129,
+      "objectiveMcqPrompts": 129,
+      "ordinaryTextMcqPrompts": 115,
+      "practicalOrImagePrompts": 14,
+      "imageDependentQuestionLabels": "76-85, 109-112",
+      "printedKeyObservations": 129,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 12,
+      "priorFhb1022CollapsedHandles": 12,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 129,
+      "familyAnswerDelta": 129,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "general parasitology relationships, parasite types and host definitions",
+        "trematode morphology, eggs, larvae and life cycle",
+        "cestode morphology, eggs, larvae and host roles",
+        "nematode morphology, reproduction, oesophagus and larvae",
+        "parasite transmission, autoinfection, zoonosis and infection sources",
+        "parasite laboratory diagnosis, concentration, blood films and molecular methods",
+        "protozoal classes, locomotion, reproduction and nutrition",
+        "arthropod classification and metamorphosis",
+        "mechanical, biological and transovarian vector transmission",
+        "preventive measures and infection-source control",
+        "image-based parasite, egg, larva and class identification",
+        "host requirements, habitat and direct versus indirect life cycles"
+      ],
+      "authorityDisposition": "filename-attributed Dr Ayman Ibrahim 1st Year Infection Module 2021 MCQ revision carrier scanned on a Konica Minolta device; the visible pages show no author signature, MUST institution, faculty or department authentication, examiner, sitting, marks or authenticated faculty-key claim",
+      "boundaryDisposition": "page 1 is the Parasitology MCQ / 1st Year Infection Module 2021 cover, pages 2 and 20 are blank, and pages 3-19 contain a continuous Q1-Q129 objective sequence with a complete 129-token answer table at the bottom of page 19; Q76-Q85 and Q109-Q112 are fourteen image-dependent practical-identification MCQs embedded in that sequence and the remaining 115 are ordinary text MCQs; zero written, source-absent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "the filename attribution is retained without upgrading it to visible authorship, institutional authority or authenticated faculty-key authority",
+        "the fourteen image-dependent items remain objective MCQ occurrences and are additionally classified as practical/image-dependent rather than double-counted",
+        "pages 2 and 20 are blank and contribute no prompt, answer or teaching occurrence",
+        "printed terminology, spelling and academically questionable questions or answer tokens remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 3094,
-    "printedKeyObservations": 2919,
+    "printedPromptObservations": 3223,
+    "printedKeyObservations": 3048,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2550,20 +2609,26 @@
     "pages": 15,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtyEighthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para MCQ Dr Ayman Ibrahim.pdf",
     "sha256": "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
     "pages": 20,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para Mcq Dr.khairy.pdf",
+    "sha256": "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
+    "pages": 112,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 57,
-    "uniqueSha256": 57,
-    "sortedNewlineSha256": "7cc5a2d76ccfda7e1427837c32e1372db8ce1c662558365133670193d8dd54da",
+    "inventoryMetadataRows": 56,
+    "uniqueSha256": 56,
+    "sortedNewlineSha256": "621f39ef9ff41b21447e4ee12d2d0ad402aef34a8ddf0fbf83da4557f80242f3",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
-      "empty-text": 8,
+      "empty-text": 7,
       "sparse-text": 14,
       "substantive-text": 23
     }
@@ -2571,14 +2636,14 @@
   "triageCheckpointRemainingAuditDebt": {
     "audit-extract-failed": 1,
     "audit-not-found": 11,
-    "empty-text": 8,
+    "empty-text": 7,
     "sparse-text": 14,
     "substantive-text": 23
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 37,
-    "remainingUniqueSha256": 57,
+    "processedUniqueSha256": 38,
+    "remainingUniqueSha256": 56,
     "processedPlusRemaining": 94
   }
 }

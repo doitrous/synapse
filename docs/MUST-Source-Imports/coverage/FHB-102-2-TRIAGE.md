@@ -1452,3 +1452,31 @@ Removing the thirty-seven processed hashes leaves **57 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para MCQ Dr Ayman Ibrahim.pdf`, SHA-256 `8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901`, 20 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 57 selected inventory paths / 57 unique hashes remain untriaged.
+
+## Completed source — Para MCQ Dr Ayman Ibrahim
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para MCQ Dr Ayman Ibrahim.pdf` | `8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901` | 20 | empty-text | pages 1–20 rendered and read | Filename-attributed Dr Ayman Ibrahim `1st Year Infection Module 2021` MCQ revision carrier scanned on a Konica Minolta device. The visible pages show no author signature, MUST institution, faculty or department authentication, examiner, sitting, marks or authenticated faculty-key claim. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Page 1 is the Parasitology MCQ / `1st Year Infection Module 2021` cover. Pages 2 and 20 are blank. Pages 3–19 contain one continuous Q1–Q129 objective sequence, and page 19 ends with a complete 129-token answer table.
+
+The exact boundary is **129 objective MCQs / 129 prompt-matched answer observations / 0 source-absent answers / 0 written / 0 teaching prompts**. Q76–Q85 and Q109–Q112 are **14 image-dependent practical-identification MCQs** embedded in the objective sequence; the remaining **115** are ordinary text MCQs. These fourteen occurrences are counted once as objective questions and additionally classified by assessment dependency, not double-counted. Printed terminology, spelling and academically questionable questions or answer tokens remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+The 129 prompts collapse into twelve source-first handles: general parasitology relationships, parasite types and host definitions; trematode morphology, eggs, larvae and life cycle; cestode morphology, eggs, larvae and host roles; nematode morphology, reproduction, oesophagus and larvae; parasite transmission, autoinfection, zoonosis and infection sources; parasite laboratory diagnosis, concentration, blood films and molecular methods; protozoal classes, locomotion, reproduction and nutrition; arthropod classification and metamorphosis; mechanical, biological and transovarian vector transmission; preventive measures and infection-source control; image-based parasite, egg, larva and class identification; and host requirements, habitat and direct versus indirect life cycles. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is **12 source-first − 12 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-eighth one-path hash is now `sourceProcessed=true`, adding **+129 questions / +129 answers / +0 concepts**. Cumulative triage is **3,223 questions / 3,048 answers / 62 concepts**.
+
+Removing the thirty-eight processed hashes leaves **56 selected inventory paths / 56 unique SHA-256s**. Their sorted-newline checksum is `621f39ef9ff41b21447e4ee12d2d0ad402aef34a8ddf0fbf83da4557f80242f3`. Remaining audit-review debt is **23 substantive-text / 14 sparse-text / 7 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`38 + 56 = 94`** and path accounting is **`40 + 56 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Para Mcq Dr.khairy.pdf`, SHA-256 `74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0`, 112 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 56 selected inventory paths / 56 unique hashes remain untriaged.
