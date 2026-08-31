@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "bc90f77598282a4c6a7687380251f81f8867f87cb431acd39051271f9743b088",
-    "triageMarkdown": "b940de1b7a357efed8a58b006f15ec868181a51ce73434bda51820f427355332"
+    "readinessMarkdown": "53ce8c56d9b445394e73d37d697d46c0327b783e594d00dd9c03f5a592475c04",
+    "triageMarkdown": "11d9c86e6c87de48686e91e752a4e7e4d8d2edb841b5d785c682ddb1c22f789c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -74,6 +74,7 @@
       "0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648",
       "0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97",
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
+      "100c06013545f596ed39d298f3f9e8b2ec782c5dfdb42ddf8e5eb21c033c1fd4",
       "1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a",
       "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
       "1c098c79464fd2b1e47dce741c09a0c29fa2446feeb280ea1f7ff1ac91d7733f",
@@ -156,7 +157,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 86
+    "uniqueSha256": 87
   },
   "completedSourceCoverage": [
     {
@@ -5477,6 +5478,116 @@
         "the Jost metadata author observation is retained without inventing lecturer identity or promoting the carrier to authenticated MUST authority",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "100c06013545f596ed39d298f3f9e8b2ec782c5dfdb42ddf8e5eb21c033c1fd4",
+      "sourcePages": 29,
+      "renderedReadPages": "1-29",
+      "coverPages": 1,
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 27,
+      "nonAssessmentCloserPages": 1,
+      "closerPages": [
+        29
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Individual Groups antibiotics word-cloud cover",
+          "pages": "1",
+          "coverPages": 1,
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Cell-wall inhibitors, beta-lactam classes, mechanism, important points and spectrum",
+          "pages": "2-9",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 8
+        },
+        {
+          "section": "Penicillin classes, preparations, spectrum and adverse effects",
+          "pages": "10-16",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 7
+        },
+        {
+          "section": "Cephalosporin generations and pharmacology",
+          "pages": "17-20",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Monobactam",
+          "pages": "21-22",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Carbapenems",
+          "pages": "23-24",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Glycopeptides, vancomycin, pseudomembranous colitis and adverse effects",
+          "pages": "25-28",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Multilingual thank-you closer",
+          "pages": "29",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0,
+          "nonAssessmentCloserPages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all twenty-seven content pages are fully revealed teaching and reference slides with no assessment prompt field; the What about fourth generation cephalosporins heading on page 20 is immediately answered teaching content rather than an assessment occurrence, so no prompt replay comparison is applicable and no diagram, table, product image or labelled mechanism is reverse-engineered into a question",
+      "authorityDisposition": "anonymous metadata-silent PDF 1.7 teaching deck whose visible slides identify no authenticated MUST platform, institution, department, module, lecturer, examiner, sitting, marks scheme or faculty-key declaration",
+      "boundaryDisposition": "page 1 is an Individual Groups antibiotics word-cloud cover, pages 2-28 are declarative beta-lactam, penicillin, cephalosporin, monobactam, carbapenem, glycopeptide and vancomycin teaching/reference slides, and page 29 is a multilingual thank-you closer; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, twenty-seven teaching-reference pages, one non-assessment cover and one non-assessment closing page",
+      "preservedSourceDefects": [
+        "printed spelling, grammar, diagrams, tables, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "section-title slides, rhetorical headings, numbered drug classes, diagrams, product images and highlighted facts are declarative teaching structure rather than assessment prompts",
+        "the absence of visible identifying provenance and metadata is retained without inventing lecturer, institution or authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -6004,27 +6115,33 @@
     "pages": 46,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightySeventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/B-Lactam and Vancomycin.pdf",
     "sha256": "100c06013545f596ed39d298f3f9e8b2ec782c5dfdb42ddf8e5eb21c033c1fd4",
     "pages": 29,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Chemotherapy lect 1.pdf",
+    "sha256": "946d9eb2059efd759a36734b923702547f2345410a78a5c6e9414f7a37cd37df",
+    "pages": 26,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 8,
-    "uniqueSha256": 8,
-    "sortedNewlineSha256": "344212354f8a2535cc717df3103fd37e80727ba4816b5a329253562a7ab2217b",
+    "inventoryMetadataRows": 7,
+    "uniqueSha256": 7,
+    "sortedNewlineSha256": "45bad029e35e90125fa8970e1980ae1894f384c6f08efb6346e5dbf0254fa037",
     "auditSampleStatusCounts": {
-      "audit-not-found": 8
+      "audit-not-found": 7
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 8
+    "audit-not-found": 7
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 86,
-    "remainingUniqueSha256": 8,
+    "processedUniqueSha256": 87,
+    "remainingUniqueSha256": 7,
     "processedPlusRemaining": 94
   }
 }
