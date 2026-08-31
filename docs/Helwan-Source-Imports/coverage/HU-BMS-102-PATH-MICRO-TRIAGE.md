@@ -26596,3 +26596,123 @@ The exact next unprocessed BMS-102 record is tier-9 `src_4cd7ec4ece48e56b712e` �
 Hossam Mohammed and Word creation/modification are 5 March 2026. Its visible authority,
 prompt/key/written/image/practical boundary, same-source/prior collapse, eligible gate,
 arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 262 — Dr El-Sawy keyed absorption and first-pass MCQ bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_4cd7ec4ece48e56b712e` · `MCQs - MCQ Absorption.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `4cd7ec4ece48e56b712e80a774254fe8c9cb28b9bb4ea5cd7b633747379bd30d` · **253,375 bytes** |
+| Format / complete visual boundary | **10 native-text portrait A4 pages, PDF 1.7**. All ten pages were rendered at 150 dpi into ten non-empty 1,241×1,754-pixel images and read page by page at original detail. Coherent layout extraction contains **1,884 words / 16,512 bytes** and agrees with every visible heading, numbered stem, option, right-margin answer letter, credit, and page number. No form, JavaScript, encryption, hidden response layer, page, or crop remainder exists. |
+| Visible provenance | Every page visibly carries the generic heading `Questions`, the credit **`DR . El-Sawy`**, and page number 1–10. No page visibly names a university/faculty, Helwan, BMS-102/module code, academic year, sitting, marks, candidate, duration, or departmental approval. |
+| Metadata caution | Metadata Author is `Hossam mohammed`; Creator/Producer are Microsoft Word LTSC; creation/modification are 5 March 2026. The uncorroborated author conflicts with the visible Dr El-Sawy credit, and the timestamp is export provenance—not an academic year, delivery date, or sitting. |
+| Authority / eligibility | Instructor-attributed keyed revision bank in the local Helwan BMS-102 pharmacology corpus. The visible Dr El-Sawy credit and exact local placement make it eligible **low-authority auxiliary question evidence**, consistent with the separately governed Dr El-Sawy material; it is not an official Helwan exam, departmental key, authenticated sitting, or practical record. |
+
+### Complete page-first prompt, key, written, image, and practical boundary
+
+| Pages | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1–2 · Q1–Q9 | Drug, pharmacodynamics, receptor, ligand, agonist, antagonist, and affinity definitions; receptor occupancy; route-speed ordering | **9 keyed four-option text MCQs**. |
+| 3–4 · Q10–Q19 | IV immediacy/bioavailability, inhalation/alveoli, IM/SC vascularity, sublingual nitroglycerin, oral small-intestine absorption, fastest/slowest route, agonist/affinity, and receptor-ligand affinity | **10 keyed four-option text MCQs**. |
+| 5–6 · Q20–Q29 | Blood supply, malabsorption, metoclopramide effects on gastric emptying/paracetamol/digoxin, atropine, acidic/basic media, empty-stomach timing, and shock-related SC perfusion | **10 keyed four-option text MCQs**. |
+| 7–8 · Q30–Q39 | IV morphine in shock, intrinsic factor/B12, first-pass synonym, benzyl penicillin, oral insulin, gut-mucosal chlorpromazine, hepatic-versus-gut first pass, propranolol, lidocaine, and atenolol/nadolol | **10 keyed four-option text MCQs**. |
+| 9–10 · Q40–Q49 | First-pass avoidance, oral-dose examples, benzyl penicillin/IV, sublingual nitroglycerin, high-fat-meal exception, empty-stomach dilution, slowed gut motility, acidic drugs, intrinsic factor, and hepatic first pass | **10 keyed four-option text MCQs**. |
+
+The exact source-local boundary is **49 raw prompt occurrences = 49 four-option text MCQs**, each
+with one visibly aligned right-margin source answer letter. Therefore it supplies **49 answer
+occurrences / 0 unkeyed prompts**. There are **0 True/False items, 0 matching items, 0 completion
+blanks, 0 written-response operations, 0 drawings, 0 image-bearing prompts, 0 authenticated
+practical stations, 0 candidate responses, 0 teaching-only callouts, and 0 prompt-like residues**.
+Headings, page numbers, and the repeated instructor credit are provenance/layout evidence only.
+All source wording and answer letters are preserved without silent medical correction or endorsement.
+
+### Retention, 43-handle registry, 172-search completion, and prior-BMS reconciliation
+
+All **49** numbered occurrences remain retained records. Six source-local semantic reductions
+preserve every wording and answer while avoiding proposition double counting: Q7/Q19
+(affinity as receptor-ligand relation), Q14/Q43 (sublingual nitroglycerin/first-pass avoidance),
+Q26/Q47 (acidic-drug absorption in acidic medium), Q28/Q45 (empty stomach avoids food dilution),
+Q31/Q48 (intrinsic factor for B12), and Q33/Q42 (benzyl penicillin/IV avoids gastric-acid
+destruction). Thus **`49 retained - 6 semantic reductions = 43 accepted source-distinct handles`**.
+
+The complete accepted registry follows; every semicolon-delimited slug is one source-first handle.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q8 | `drug-definition-chemical-molecule-interacts-body-systems`; `pharmacodynamics-drug-effect-on-body`; `receptor-protein-macromolecule-binds-drug`; `ligand-molecule-combines-receptor`; `agonist-ligand-activates-receptor`; `antagonist-ligand-blocks-receptor`; `affinity-receptor-ligand-relation` (Q7,Q19); `affinity-determines-receptor-occupancy` |
+| Q9–Q19 | `absorption-rate-order-iv-inhalation-im-sc`; `intravenous-immediate-systemic-and-100-percent`; `inhalation-rapid-alveolar-surface-rich-blood`; `intramuscular-rapid-high-vascularity`; `subcutaneous-slower-than-im-low-vascularity`; `sublingual-nitroglycerin-avoids-git-liver-first-pass` (Q14,Q43); `small-intestine-main-oral-absorption-site`; `intravenous-most-rapid-route`; `intact-skin-slowest-listed-route`; `agonist-binds-activates-with-affinity` |
+| Q20–Q31 | `richer-absorbing-surface-blood-supply-increases-absorption`; `git-malabsorption-greatly-decreases-oral-absorption`; `metoclopramide-prokinetic-accelerates-gastric-emptying`; `metoclopramide-increases-paracetamol-absorption`; `metoclopramide-decreases-digoxin-absorption`; `atropine-inhibits-gut-motility-slows-emptying`; `acidic-aspirin-better-absorbed-acidic-medium` (Q26,Q47); `basic-ephedrine-amphetamine-better-absorbed-alkaline-medium`; `empty-stomach-avoids-food-dilution` (Q28,Q45); `shock-reduces-sc-perfusion-by-sympathetic-vasoconstriction`; `morphine-iv-in-shock-because-sc-absorption-unreliable`; `intrinsic-factor-required-vitamin-b12-absorption` (Q31,Q48) |
+| Q32–Q40 | `first-pass-effect-pre-systemic-metabolism-synonym`; `benzyl-penicillin-iv-avoids-gastric-acid-destruction` (Q33,Q42); `oral-insulin-destroyed-digestive-enzymes`; `chlorpromazine-gut-mucosal-metabolism`; `hepatic-first-pass-generally-more-important-than-gut`; `propranolol-large-hepatic-first-pass`; `lidocaine-near-complete-hepatic-metabolism`; `atenolol-nadolol-hydrophilic-minimal-hepatic-metabolism`; `first-pass-avoidance-increase-dose-or-change-route` |
+| Q41–Q49 survivors | `propranolol-nitroglycerin-higher-oral-dose-overcomes-first-pass`; `high-fat-meal-not-first-pass-avoidance`; `slowed-gut-motility-decreases-rapid-drug-absorption`; `lipophilic-extensive-liver-metabolism-is-hepatic-first-pass` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102 Families 1–261:
+**`43 × 4 = 172 required and completed searches`**. Each packet used the source-first handle/stem,
+tested proposition, answer/terminal phrase, and drug/topic or prior-handle variant. Exact-string
+scope results were **0 live / 0 import-ready / 0 pending / 43 no exact-string same-scope**; semantic
+prior-family relations were then adjudicated separately rather than hidden by spelling differences.
+
+Exactly **15** accepted handles reuse prior BMS assessment scope: pharmacodynamics as drug-on-body;
+antagonist blockade/affinity without efficacy; affinity as the receptor-ligand relation; IV
+immediacy/100% bioavailability; sublingual nitroglycerin/first-pass avoidance; small-intestine oral
+absorption; perfusion/blood-supply dependence; atropine reduction of gut motility; acidic aspirin;
+basic ephedrine/amphetamine intestinal absorption; pre-systemic/gut-hepatic first pass; increasing
+dose or changing route to overcome first pass; the propranolol/nitroglycerin dose-versus-route
+application; gut-motility effects on absorption; and liver/hepatic first-pass attribution. These
+reconcile principally to Families 223, 238, 251, and 257. The other **28** handles have no prior
+BMS accepted assessment handle at the same tested scope. Therefore concept arithmetic is
+**`43 - 15 = +28`**.
+
+### Family-262 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 262 | Auxiliary cumulative (Families 12–262) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 49 MCQ | 3,310 | 762 | 4,072 |
+| Eligible source-supplied answers | 49; 0 unkeyed | 2,296 | 405 | 2,701 |
+| Retained eligible question records | 49 | 3,014 | 552 | 3,566 |
+| Accepted handles / required searches | 43 / 172 | 2,709 / — | — | — |
+| Prior-BMS handle reuses | 15 | — | — | subtract before concept addition |
+| Cross-family concept delta | +28 | +1,385 over primary | 372 | 1,757 |
+| **Distinct tested concepts** | **43 source-local / +28** | **1,385 additions** | **372** | **1,757** |
+
+The checksum closes: **49 prompts = 49 answers + 0 unkeyed**; **49 raw - 0 literal exclusions =
+49 retained**; **49 retained - 6 semantic reductions = 43 handles**; **43 × 4 = 172 searches**;
+and **43 handles - 15 prior reuses = +28 concepts**. Auxiliary arithmetic is `3,261 + 49 =
+3,310` prompts, `2,247 + 49 = 2,296` answers, `2,965 + 49 = 3,014` retained, `2,666 + 43
+= 2,709` handles, and `1,357 + 28 = 1,385` concept additions. All eligible arithmetic is
+`762 + 3,310 = 4,072`, `405 + 2,296 = 2,701`, `552 + 3,014 = 3,566`, and `372 + 1,385 =
+1,757`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,310 prompts / 2,296 answers /
+3,014 retained / 2,709 handles / +1,385 concepts**. All eligible becomes **4,072 / 2,701 /
+3,566 / 1,757**. Family 262 establishes low-authority instructor-attributed keyed revision-bank
+evidence only—not an official exam, authenticated sitting, departmental key, practical station,
+recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 262
+
+`src_4cd7ec4ece48e56b712e` is exhausted across all ten native/rendered pages: every visible and
+metadata provenance field, numbered stem, option, answer letter, same-source reduction, search
+packet, prior-family relation, authority limitation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-262 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 262
+governs **1 selected path / 1 unique hash**. The governed set through Family 262 is therefore
+**327 paths / 316 unique hashes**, leaving exactly **35 ungoverned selected paths / 32 unique
+hashes**. Checksums are **327 + 35 = 362 paths** and **316 + 32 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`2127d4f9e88d80d146b3bed1ec8a9594a165b36388bd825c1340adf1cb5d7b5f`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`04bf9492f72544621e470136ffcf23edf2ae67eb3396f64abc4291f835fce483`. The remaining path ledger
+contains one selected-path alias whose hash was governed earlier; it adds no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_e3bcf89c186c44f9b3d0` ·
+`MCQs - MCQ Drug receptor binding.pdf`, SHA-256
+`e3bcf89c186c44f9b3d0b9b5fbfa9471bf8781f58d2350cd2b2bbd0b7f68d9e2`, **414,608 bytes**,
+**20 native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. It visibly begins
+`Pharma / MCQs-Drug receptor binding` with inline right-margin answer letters; metadata Author is
+`A` and Acrobat creation/modification are 24 April 2026. Its complete authority, prompt/key/
+written/image/practical boundary, same-source/prior collapse, eligible gate, arithmetic, and
+subsequent exact debt remain to be separately adjudicated.
