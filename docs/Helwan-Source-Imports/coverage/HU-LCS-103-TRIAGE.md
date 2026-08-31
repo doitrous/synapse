@@ -22089,3 +22089,58 @@ content through the separate `Notes_260514_181426 (1).pdf` path, so the next fam
 path-only duplicate adjudication with zero second content inventory. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 20 tier-6/rank-9 path debts remain. No download, source edit,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 211 — Tier-6 duplicate Histology bone-summary path
+
+### Exact duplicate-path adjudication
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_033ed1d6b9fdd8722b7b` / `033ed1d6b9fdd8722b7b20721a9012fba7ead0520326d11dec92d88d2f03af7d` |
+| Exact consumed path | `Year 1/LCS 103/Histology/Notes and Summaries/Student Summary - Histology Lecture 2 Bones Summary.pdf` |
+| Previously governed twin | Family 174, `Year 1/LCS 103/All Subjects/Notes and Summaries/Notes_260514_181426 (1).pdf` |
+| Physical verification | Both files are **3,108,928 bytes** and independently recompute to the same full SHA-256. Direct byte comparison passes. The consumed copy is two OCR-needed 600 x 848 pt pages; untagged; unencrypted; no form; PDF 1.7. Qpdf reports no syntax or stream-encoding error. |
+| Complete reread | Both pages were freshly rendered at 240 dpi to two distinct images, inspected at original resolution and read completely. Page 1 is the bone-cell/matrix summary and supplied comparison table; page 2 is the periosteum/endosteum map. They reproduce Family 174 exactly. |
+
+Family 174 already owns the unique source-first inventory: **3 completed teaching
+compositions**, its three reconciled theoretical handles and all literal handwriting/table
+states. The current path supplies no new byte, prompt, key, teaching plate, mapping, residue,
+scope or authority. Exact governed delta is therefore **0 eligible or external ordinary
+prompts / 0 written prompts / 0 keys-or-answers / 0 unkeyed prompts / 0 practical prompts /
+0 plates / 0 mappings / 0 residues / 0 practical keys / 0 theoretical or practical scopes**.
+
+No second four-surface search set was run: the bitwise identity resolves before handle
+formation, and Family 174's **3 x 4 = 12** searches and prior-LCS conclusions remain the sole
+content-level reconciliation. Running them again would double-count one hash rather than
+adjudicate this separate manifest path.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,451 prompts / 7,175 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Every content
+delta is zero.
+
+Consuming this final outstanding path for the already-governed hash changes the remainder
+from **20 paths / 19 unique hashes** to **19 paths / 18 unique hashes**: tier 3 remains **0 /
+0**, tier 6 becomes **11 paths / 11 unique hashes within tier**, and rank 9 remains **8 paths /
+7 unique hashes within rank**. Family 210's checksums were
+`795b53019b07b6ec7fb3e73fd3d3234e3ed0beea84c5a74cbeeb5be86e81a075` (paths) and
+`cd7e5b266bb0c23f9d4138b12f3f502b45887cdf36eb45f4727bed7d49e8e449` (unique hashes).
+For the exact post-Family-211 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`b03cc5df5c3e8d109a71fa6d9fafcfdb22ca7d92074e36c7f3340c476058bf1c`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`1081fb099ff2fc01282284dfc2d4f98fe422aa6de5abaf83083a6bf94aacd6ae`.
+
+The exact next manifest-order debt is tier-6 `src_8b56155bbda3e6cf2742`, manifest
+`Year 1/LCS 103/Histology/Notes and Summaries/histo lecture 3.pdf` (1,503,568 bytes; seven
+native-text A4 pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
+`8b56155bbda3e6cf2742065451ee1d48a50c6e857166a5256085c6dd863b28ad`).
+The existing exact-hash local file resolves under `Year 1/LCS 103/Histology/Theoretical/`
+with the same filename. It remains unclassified until all seven pages are rendered and read.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 19 tier-6/rank-9 path debts remain.
+No download, source edit, ID, content record, catalogue update, import or source copy was
+created.
