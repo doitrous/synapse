@@ -28975,3 +28975,86 @@ development.pdf`, SHA-256 `af52c0f1a6e36dce0163d8974d3b5974b28a7325e88cd4fe3d364
 Theoretical / Lec 16 - Drug Development`. Metadata supplies no title or author field. Its visible
 Dr Ahmed Taha attribution, teaching/callout/assessment boundary, authority, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
+
+## Family 286 — Dr Ahmed Taha drug-development teaching lecture
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_af52c0f1a6e36dce0163` · `Drug development.pdf` |
+| Exact object | SHA-256 `af52c0f1a6e36dce0163d8974d3b5974b28a7325e88cd4fe3d36471206a0b42d` · **2,367,955 bytes** · **25 native 791×593-point landscape pages** · 1,457 extracted words |
+| Full-read method | all 25 pages rendered at 144 dpi and reviewed in three ordered visual sheets against complete layout-preserving native extraction |
+| Visible provenance | page 1 visibly titles `DRUG DEVELOPMENT` and names `Dr. Ahmed Taha`. No university, faculty, department, Helwan, BMS-102/module code, academic year, lecture date, sitting, marks, candidate field, or key marker is printed. |
+| Metadata | no title or author field, no form, JavaScript, encryption, or interactive answer layer. Sparse export metadata cannot supersede the visible lecturer attribution or establish institutional/assessment authority. |
+| Authority / eligibility | instructor-attributed local theoretical teaching lecture. Folder placement supports BMS-102 teaching context, but the carrier is not a Helwan-authenticated assessment, official key, practical station, or dated sitting. |
+
+### Complete teaching, callout, prompt, answer, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1–2 | title/lecturer; objectives listing preclinical trials, toxicity, side effects, and clinical trials | title and supplied lecture roadmap; objective bullets are not candidate tasks |
+| 3 | `Q: What is drug development?` immediately followed on the same slide by the complete definition | rhetorical teaching heading with its answer visibly supplied in place; **0 assessment prompts / 0 answer-key event** |
+| 4–6 | development aim; discovery phase; preclinical-versus-clinical development diagram | completed teaching text and labelled diagrams |
+| 7–12 | preclinical definition/goals, animal progression, nine study types and details, acute-toxicity/LD50/histopathology, and preclinical importance | declarative teaching; numbered studies disclose content rather than request it |
+| 13–19 | drug toxicity/occurrence; side-effect definition, modifiers, medical-error distinction, outcomes, adverse-effect types, and a labelled side-effects illustration | completed notes and labelled figure; **0 image-identification or practical operation** |
+| 20–24 | clinical-tests overview and completed Phase I–IV descriptions, participant scale, aims, passage rates, approval, and postmarketing objectives | supplied clinical-trial teaching; no candidate response field |
+| 25 | `THANK YOU` and closing illustration | closing only |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied assessment answers /
+0 answer-absent prompts / 0 candidate responses**. Page 3's `Q:` is retained as a rhetorical
+teaching callout because its definition follows immediately on the same slide; it neither leaves
+an answer absent nor creates a source-key pair. Objectives, numbered preclinical steps, diagrams,
+phase labels, percentages, and illustrations all disclose completed reference material.
+
+### Teaching replay and exact four-search gate
+
+The lecture overlaps prior BMS pharmacology teaching on toxicity, adverse effects, kinetics, and
+monitoring, including Families 279 and 285, while its discovery/preclinical/Phase I–IV sequence
+adds source-local teaching detail. Teaching overlap or novelty does not create a tested proposition
+without a candidate operation. With **0 assessment prompts**, the accepted-handle set is **0**.
+Exactly four searches per accepted handle therefore requires and records **0 × 4 = 0 searches**.
+Prior-BMS accepted-handle reuse is **0** and the eligible concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 286 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 286 adds instructor-attributed drug-development, preclinical, toxicity,
+and clinical-phase teaching evidence only—not a Helwan assessment, official key, written exam,
+authenticated practical, dated sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 286
+
+`src_af52c0f1a6e36dce0163` is exhausted across all 25 pages: every title, objective, rhetorical
+callout and immediate definition, diagram, preclinical step, toxicity/adverse-effect statement,
+clinical phase, closing, authority limitation, metadata field, zero gate, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-286 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 286 governs
+**1 selected path / 1 unique hash**. The governed set through Family 286 is therefore **351 paths /
+339 unique hashes**, leaving exactly **11 ungoverned selected paths / 9 unique hashes**. Checksums
+are **351 + 11 = 362 paths** and **339 + 9 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `d8359a7321f4b57f2ac2731e0351a04c41aceb1b62e8119a230acb7db25e4b25`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`290e55db44869987720b393cadb0185a8908bbf21f16d28712ab702d79012c98`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_e2be3dfcfb0a0eea5e91` ·
+`PHARMACOKINETIC 2.pdf`, SHA-256
+`e2be3dfcfb0a0eea5e919fc92d1a918dd2624e89f01fe70358ef1e85152936e7`, **918,645 bytes**,
+**40 native 720×540-point landscape pages** under `Pharmacology / Theoretical / Lec 2 - Drug
+Absorption 2`. The same exact object also occupies the selected Lec 3 biotransformation and Lec 4
+excretion/clearance paths. Metadata titles it `PowerPoint Presentation`, names author `ASUS`, and
+records 4 March 2026. Its visible pharmacokinetics teaching boundary, three-path alias handling,
+authority, arithmetic, and subsequent exact debt remain to be separately adjudicated.
