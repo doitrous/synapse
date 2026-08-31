@@ -24852,3 +24852,117 @@ Lab 10 - A case of allergy (2nd gen antihistamines)`. Its first page begins a se
 antihistamine lecture/case carrier. Its visible authority, complete teaching/case/prompt/key/image/
 practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and subsequent exact
 next debt remain to be separately adjudicated.
+
+## Family 245 — Antihistamines and acute-allergy cases; exact Lab-9/Lab-10 carrier object
+
+### Source identity, carrier precedence, and visible authority
+
+| Field | Source-first finding |
+|---|---|
+| Assigned manifest record | Tier-5 `src_f6d1acc76da401584c2f` · `Antihistamines and allergy cases.pdf` under `Pharmacology / Practical Labs / Virtual Lab 10 - A case of allergy (2nd gen antihistamines)` |
+| Exact object | SHA-256 `f6d1acc76da401584c2fb65a77ae832a4079c046e282879128a3d6416d9a2fe3`; **846,884 bytes**; **41 native-text landscape 960×540-point pages** |
+| Exact carrier reconciliation | The assigned Lab-10 path and the manifest-preferred Lab-9 path, `Virtual Lab 9 - A case of allergy (1st gen antihistamines)/Antihistamines and allergy cases.pdf`, are byte-identical carriers of this one source object. Both resolve to the same full digest, page count, geometry, native text, images, prompts, and answers. The Lab-9 carrier supplies preference only; it creates no second content. |
+| Visible authority | Page 1 visibly reads **“Antihistamines and acute allergy Cases”** and **“By Samar El-Sawaf.”** No page visibly names Helwan University, a faculty, module, sitting, marks, candidate, or invigilator. Helwan scope is therefore folder/manifest placement, while Samar El-Sawaf is the visible author. |
+| Metadata caution | PDF metadata names `HP` as author and records 22 April 2026 creation/modification through PowerPoint LTSC. Neither field overrides the visible author; the metadata date is provenance-only and is not a verified teaching year or assessment date. |
+| Native/render audit | Native extraction contains 1,181 words / 8,916 bytes. All 41 pages were rendered and read, including photographs, drug-package images, red answer text, and the final closing slide; image-object inspection disclosed no hidden prompt, key, or station layer. |
+
+The task-addressed Lab-10 path is thus a nonpreferred exact alias of the Lab-9 carrier, not a
+second lecture or a distinct “second-generation” subset. Family 245 governs both selected paths
+once by exact hash and does not infer different content from their folder labels.
+
+### Exhaustive 41-page teaching, case, prompt, answer, and practical boundary
+
+| Pages | Visible source content | Classification |
+|---|---|---|
+| 1–12 | Cover; allergy definition/pathophysiology and photographs; treatment; H1 inverse agonists; clinical uses; first- versus second-generation agents/adverse effects; package images; pediatric and pregnancy cautions; anaphylaxis first-line intramuscular epinephrine | Labelled teaching/callout material only. The photographs and packages are illustrative and are not presented as image-identification prompts. |
+| 13–15 | Case 1 allergic-rhinitis vignette; three prompts; red supplied answers: diphenhydramine, blood-brain-barrier penetration, and first generation | **2 keyed MCQs + 1 keyed written prompt**. |
+| 16–18 | Case 2 drowsiness/dry mouth/urinary-retention vignette; two prompts; red supplied answers: chlorpheniramine and muscarinic-receptor blockade | **2 keyed MCQs**. |
+| 19–21 | Case 3 motion-sickness vignette; drug and generation prompts; red supplied answers: meclizine and first generation | **1 keyed MCQ + 1 keyed written prompt**. |
+| 22–24 | Case 4 chronic-urticaria/minimal-sedation vignette; drug and mechanism/class prompts; red supplied answers: fexofenadine and second-generation H1 blocker | **2 keyed MCQs**. |
+| 25–27 | Case 5 pregnancy/allergic-rhinitis vignette; drug prompt; red supplied answer: loratadine | **1 keyed MCQ**. |
+| 28–34 | Shrimp-triggered dyspnea, urticaria, hypotension and examination; diagnosis prompt and supplied answer “anaphylaxis / type-I IgE”; then pathophysiology and treatment teaching | **1 keyed written prompt**, followed by teaching. The vignette has no station directions, examiner script, timed task, specimen operation, or candidate-response field. |
+| 35 | Supportive-management list includes `IV fluids why ? Which solution ?` without any source-supplied answer | **1 unkeyed composite written prompt**. The two linked clauses require one management explanation and remain one occurrence/handle rather than two fabricated records. |
+| 36–40 | Prevention and special-population teaching: pregnancy/lactation, cardiac disease/beta blockers, asthma, and elderly patients | Teaching only. |
+| 41 | “Thank you” | Closing slide only. |
+
+The exact raw boundary is **12 assessment prompt occurrences = 8 MCQs + 4 written prompts**.
+Exactly **11 have visibly supplied source answers** and **1 is unkeyed**. All **12 are retained**.
+There is no drawing task, unlabelled plate, diagnosis-disclosing OSPE page, authenticated practical
+station, practical record, candidate response, or supplied answer beyond the visible red/key text.
+Case-associated photographs remain teaching evidence because the source asks no image-recognition
+operation.
+
+### Source-first retention and exactly-four-search reconciliation
+
+No two prompt occurrences are semantic replays. The retained handles and their four-query packets
+are:
+
+| # | Accepted handle | Four-search result |
+|---:|---|---|
+| 1 | `diphenhydramine-allergic-rhinitis-drowsiness` | 0 exact live / 0 import-ready / 0 pending-live / 0 prior-BMS |
+| 2 | `first-generation-antihistamine-bbb-sedation` | 0 / 0 / 0 / 0 |
+| 3 | `diphenhydramine-first-generation` | 0 / 0 / 0 / 0 |
+| 4 | `chlorpheniramine-antimuscarinic-adverse-effects` | 0 / 0 / 0 / 0 |
+| 5 | `first-generation-antihistamine-muscarinic-blockade-dry-mouth-retention` | 0 / 0 / 0 / 0 |
+| 6 | `meclizine-motion-sickness` | 0 / 0 / 0 / 0 |
+| 7 | `meclizine-first-generation` | 0 / 0 / 0 / 0 |
+| 8 | `fexofenadine-chronic-urticaria-minimal-sedation` | 0 / 0 / 0 / 0 |
+| 9 | `fexofenadine-second-generation` | 0 / 0 / 0 / 0 |
+| 10 | `loratadine-pregnancy-relative-safety` | 0 / 0 / 0 / 0 |
+| 11 | `shrimp-anaphylaxis-diagnosis` | 0 / 0 / 0 / 0 |
+| 12 | `anaphylaxis-iv-fluid-rationale-and-solution` | 0 / 0 / 0 / 0 |
+
+Exactly **12 accepted handles × 4 = 48 required and completed searches** were run across the live
+Helwan assessment/written/practical corpus, `docs/questions-import-ready`, Helwan pending-live, and
+the prior BMS family ledger. Earlier BMS sources contain teaching or assessment propositions about
+histamine, IgE-mediated permeability, and epinephrine treatment, but none supplies the same-scope
+shrimp-triggered diagnosis operation. Earlier teaching mentions of antihistamines do not create
+assessment-handle reuse, and no prior handle asks the source's IV-fluid rationale/solution
+operation. Therefore prior question-handle reuse is **0**, and the cross-family concept delta is
+**+12**.
+
+### Family-245 checkpoint and cumulative arithmetic
+
+| Measure | Family 245 raw | Family 245 retained/delta | Auxiliary cumulative (Families 12–245) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 12 | 12 | 3,082 | 762 | 3,844 |
+| Eligible source-supplied answers | 11 | 11 | 2,116 | 405 | 2,521 |
+| Retained eligible question records | 12 | 12 | 2,786 | 552 | 3,338 |
+| Accepted handles / required searches | 12 / 48 | 12 / 48 | 2,502 / — | — | — |
+| Cross-family concept delta | — | +12 | +1,301 over primary | 372 | 1,673 |
+| **Distinct tested concepts** | **12 current handles** | **12 new** | **1,301 additions** | **372** | **1,673** |
+
+The arithmetic closes independently: **12 prompts = 11 supplied answers + 1 unkeyed**; **12 raw =
+12 retained**; **12 retained = 12 handles**; **12 × 4 = 48 searches**; and **12 handles - 0 prior
+question reuses = +12 concepts**. Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes
+**3,082 prompts / 2,116 answers / 2,786 retained / 2,502 handles / +1,301 concepts**. All eligible
+becomes **3,844 prompts / 2,521 answers / 3,338 retained / 1,673 distinct concepts**. The exact
+Lab-9/Lab-10 carrier alias adds no second content term. Family 245 adds no practical station,
+candidate response, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 245
+
+`src_f6d1acc76da401584c2f` is exhausted across every one of its 41 rendered/native pages and both
+exact carrier paths: visible authorship, metadata conflict, every teaching slide, all 12 prompts,
+all 11 supplied answers, the one unkeyed composite operation, all images, practical zero, alias
+relation, searches, reuse, and arithmetic are assigned, with **zero source remainder** and no
+Family-245 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 245
+governs **2 selected paths / 1 unique hash**: the task-addressed Lab-10 path and its byte-identical
+manifest-preferred Lab-9 carrier. The governed set through Family 245 is therefore **309 paths /
+299 unique hashes**, leaving exactly **53 ungoverned selected paths / 49 unique hashes**.
+Checksums are **309 + 53 = 362 paths** and **299 + 49 = 348 unique hashes**. The ordered remaining-
+path ledger excludes both exact aliases and has SHA-256
+`361d9da0addc808be4bb22d98811f6ea52e5fb0548c8546851267b33a70fbaaf`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`b5f966bba4050b0ed0b3f53d968d113d780e09bbc2f468d730ee60d508d9a273`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-5 `src_b77199599f7f3f19d40f` ·
+`herpes_presentation.PDF`, SHA-256
+`b77199599f7f3f19d40f26d53c2300a69e89d828c04ec6e070c27e1777e34432`, **574,417 bytes**,
+**20 native-text landscape US-letter 792×612-point pages** under `Pharmacology / Practical Labs /
+Virtual Lab 12 - Case of Herpes`. Its visible authority, complete teaching/case/prompt/key/image/
+practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and subsequent exact
+next debt remain to be separately adjudicated.
