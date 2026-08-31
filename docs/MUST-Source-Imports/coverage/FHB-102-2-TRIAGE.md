@@ -2504,3 +2504,29 @@ Removing the eighty-one processed hashes leaves **13 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/FHB Pharmacology Midterm Notes 2025.pdf`, SHA-256 `09de94ee340a1967dae22c48850502fe9b15afbd7b3dba5594eb0c39ededc3b2`, 11 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 13 selected inventory paths / 13 unique hashes remain untriaged.
+
+## Completed source — `FHB Pharmacology Midterm Notes 2025`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/FHB Pharmacology Midterm Notes 2025.pdf` | `09de94ee340a1967dae22c48850502fe9b15afbd7b3dba5594eb0c39ededc3b2` | 11 | substantive-text | pages 1–11 rendered and read | Microsoft Word 2016-authored study-note carrier headed `FHB-2: Pharmacology` and bearing `Ebedo` author metadata. No authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Pages 1–3 contain antimicrobial-chemotherapy definitions, bacterial targets, action and spectrum classifications, mechanisms, pharmacodynamics and adverse effects. Pages 4–5 introduce beta-lactams and classify penicillins. Pages 6–7 cover penicillin pharmacokinetics, uses and adverse effects and open cephalosporins. Pages 8–9 cover cephalosporin generations and pharmacology and open carbapenems. Page 10 covers carbapenems, monobactams and beta-lactamase inhibitors. Page 11 covers vancomycin. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 11 teaching-reference pages**.
+
+All headings, numbered drug classes, tables and list items are declarative teaching structure, not assessment fields. No answer is inferred and no statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This eighty-second one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-two processed hashes leaves **12 selected inventory paths / 12 unique SHA-256s**. Their sorted-newline checksum is `d249888815b1dfc40017d53fa53b87995e33930f0ba8e4a702fc0590c9455e48`. Remaining audit-review debt is **1 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`82 + 12 = 94`** and path accounting is **`84 + 12 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Pharmacology FHB Midterm 2026.pdf`, SHA-256 `0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97`, 8 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 12 selected inventory paths / 12 unique hashes remain untriaged.
