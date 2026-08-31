@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21 and Q23 are content/key-form holds. Q14 through Q19 and Q22 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending exact concept.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21 and Q23 are content/key-form holds. Q14 through Q19, Q22 and Q24 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
 
 ## confidence
 0.55
@@ -819,6 +819,62 @@ All three pages were rendered and visually read for Q23. Page 3 lists the viral 
 
 ## confidence
 0.75
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_72a4c07c4877d4b58c3f
+
+## title
+General Mycology, Chapter 7
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abdel Rhman
+
+## processing_status
+visually_read_pages_1_7_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/2.General mycology (Ch 7).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+ar
+
+## publication_date
+2026-02-10
+
+## accessed_at
+2026-09-01
+
+## page_count
+34
+
+## sha256
+72a4c07c4877d4b58c3f378249ec654d9a889849a1eeb71394ff18a93c330162
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1–7 were rendered and visually read for the bounded Q24 assessment; the remaining pages were not claimed as visually governed in this slice. Page 1 visibly identifies MUST, the Faculty of Medicine Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abdel Rhman. Page 6 directly states that fungi are eukaryotic organisms containing a true nucleus; page 7 contrasts eukaryotic fungi with prokaryotic bacteria and the presence versus absence of a nuclear membrane. These statements support Q24's unchanged printed C. The lecture is teaching evidence only and contains no authenticated examiner key.
+
+## confidence
+0.9
 
 ## is_assessment
 no
