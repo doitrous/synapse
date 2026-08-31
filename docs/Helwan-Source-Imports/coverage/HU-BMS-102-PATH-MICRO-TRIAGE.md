@@ -28889,3 +28889,89 @@ Anticancer Drugs`. Metadata names `mustafa elsayed`, Microsoft Word for Microsof
 April 2026. Its exact teaching-replay relation to the current deck and Family 227, visible
 authority, assessment boundary, arithmetic, and subsequent exact debt remain to be separately
 adjudicated.
+
+## Family 285 — metadata-attributed cytotoxic-drugs prose teaching replay
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_198e387d31015a53da23` · `Cytotoxic Drugs.pdf` |
+| Exact object | SHA-256 `198e387d31015a53da238eff642e44339c02c32e64874fd94e2450b175f79e96` · **148,642 bytes** · **six native portrait A4 pages** · 645 extracted words |
+| Full-read method | all six pages rendered at 144 dpi and reviewed individually at page detail against complete layout-preserving native extraction |
+| Visible provenance | page 1 prints `Cytotoxic Drugs`; pages 2–6 contain prose, headings, numbered classes, indications, toxicities, and monitoring statements. No visible author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, marks, candidate field, or key marker appears. |
+| Metadata caution | metadata names `mustafa elsayed`, Microsoft Word for Microsoft 365, and 13 April 2026. That export attribution is retained as metadata evidence but cannot establish visible authorship, institution, delivery date, module, or assessment authority. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Authority / eligibility | BMS-102 theoretical-folder placement supplies local teaching context only. This visibly anonymous prose document is not a Helwan-authenticated assessment, official key, practical station, or dated sitting. |
+
+### Complete teaching, prompt, answer, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1 | `Cytotoxic Drugs` | title only; **0 prompts / 0 answers** |
+| 2 | definition/oncology context; six-class list; alkylating-agent DNA mechanism and cyclophosphamide, busulfan, and carmustine examples/uses | completed prose and classification; numbering organizes supplied content |
+| 3 | antimetabolite nucleotide/folate mechanism and examples; vinca/taxane mechanism; anthracycline mechanism and clinical scope | declarative teaching; no response fields |
+| 4 | bleomycin and platinum-agent mechanisms/uses; cancer and non-cancer indications across autoimmune, renal, gastrointestinal, and transplantation settings | completed mechanisms and indication list |
+| 5 | rapidly dividing-tissue rationale; marrow, gastrointestinal, hair, gonadal, and organ-specific toxicities plus management details | supplied adverse-effect teaching |
+| 6 | secondary malignancies, hypersensitivity/idiosyncrasy, and therapeutic-drug-monitoring rationale | conclusion teaching; **0 candidate operations / 0 practical** |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied answers / 0
+answer-absent prompts / 0 candidate responses**. The numbered drug classes, agents, conditions,
+toxicities, mechanism headings, and underlined monitoring statement are completed instructional
+prose rather than questions, response fields, or answer reveals.
+
+### Families 227/284 replay ruling and exact four-search gate
+
+This object differs from both earlier carriers in SHA, size, page count, and layout. It is a prose
+re-expression of Family 284's 16-slide teaching deck, preserving the same definition/classification,
+five detailed drug-class sections, indications, toxicities, and monitoring sequence while adding
+explanation. It is even closer textually to Family 227's five-page Dr El-Sawy handout: normalized
+extraction yields **92.8% Jaccard overlap across unique word tokens**, covering **97.3%** of the
+Family-227 vocabulary and **95.3%** of the present vocabulary. The relation is teaching
+derivative/reformat replay, not byte- or page identity. Family 227's visible Dr El-Sawy attribution
+does not transfer here, and the current metadata author does not overwrite that earlier visible
+source truth.
+
+With **0 assessment prompts**, the accepted-handle set is **0**. Exactly four searches per
+accepted handle therefore requires and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle
+reuse is **0** and the eligible concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 285 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 285 adds metadata-attributed cytotoxic-drug prose and teaching-replay
+evidence only—not a Helwan assessment, official key, written exam, authenticated practical, dated
+sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 285
+
+`src_198e387d31015a53da23` is exhausted across all six pages: every title, definition,
+classification, mechanism, agent, indication, toxicity, management statement, authority
+limitation, metadata field, replay relation, zero gate, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-285 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 285 governs
+**1 selected path / 1 unique hash**. The governed set through Family 285 is therefore **350 paths /
+338 unique hashes**, leaving exactly **12 ungoverned selected paths / 10 unique hashes**. Checksums
+are **350 + 12 = 362 paths** and **338 + 10 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `6164a61fe581e6f63b73fcc9e3cd2d3cc0cf9db073cbb0678f18153911e923a4`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`18b155045136baf4b09088f708233cf8a5bfb0fff69e05862db4dd0196c2c179`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_af52c0f1a6e36dce0163` · `Drug
+development.pdf`, SHA-256 `af52c0f1a6e36dce0163d8974d3b5974b28a7325e88cd4fe3d36471206a0b42d`,
+**2,367,955 bytes**, **25 native 791×593-point landscape pages** under `Pharmacology /
+Theoretical / Lec 16 - Drug Development`. Metadata supplies no title or author field. Its visible
+Dr Ahmed Taha attribution, teaching/callout/assessment boundary, authority, arithmetic, and
+subsequent exact debt remain to be separately adjudicated.
