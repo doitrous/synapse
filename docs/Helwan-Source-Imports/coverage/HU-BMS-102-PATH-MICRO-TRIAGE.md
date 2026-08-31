@@ -23934,3 +23934,125 @@ Written by Dr.Amr [208].pdf`, SHA-256
 metadata creation date of 16 June 2023 is secondary until visibly corroborated. Complete visual/OCR
 boundary, visible authority, assessment/key/practical classification, four-search gate, prior-BMS
 reconciliation, arithmetic, and subsequent exact next debt remain to be adjudicated separately.
+
+## Family 237 — anonymous solved handwritten autonomic/cardiovascular pharmacology notebook
+
+### Source identity, exhaustive render/OCR boundary, and visible authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_b4d37dd687fe8dc22fa6` · `Pharma Written by Dr.Amr [208].pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `b4d37dd687fe8dc22fa6b883936b60445bddc3979b30e32424af028d4ec26353` · **4,540,460 bytes** |
+| Format / OCR reality | **32 portrait pages, 612×779.302 points, PDF 1.3**. Native extraction yields only **14 words / 186 bytes**, so the carrier is a scan despite its PDF container. All 32 pages were rendered at 150 dpi into 32 non-empty page images, OCR'd in two segmentation modes, and read individually at original/high detail. The page-first OCR corpus contains **3,625 words** in the principal pass. There is no physical-page, crop, or hidden-text remainder. |
+| Visible source form | Photographs/scans of completed handwritten notebook leaves, mostly on matching Mickey/`Abou Soliman Group` stationery; many later leaves carry a CamScanner footer. Printed `Page`/`Date` fields remain blank. Visible section labels include autonomic drugs, diuretics, `Angina`, `hypertension`, `Heart failure`, `Blood`, and hypolipidemic drugs. |
+| Visible provenance | No page visibly names Dr Amr, a university/faculty, Helwan, BMS-102/module code, academic year, sitting, marks, duration, candidate, or departmental approval. The filename's `Dr.Amr [208]` is preserved as an uncorroborated carrier attribution, not promoted to visible authorship or module identity. Exact folder placement supplies local Helwan BMS-102 pharmacology context only. |
+| Metadata caution | Producer is iOS 16.4.1 Quartz PDFContext and creation/modification is 16 June 2023. That timestamp is secondary scan/container provenance; no visible page date corroborates it as a teaching date, assessment date, or sitting. |
+| Authority | Low-authority local tier-6 solved revision notebook. The handwritten completions are source-supplied study answers, not an authenticated Helwan exam, candidate script, official key, recurrence record, or medically endorsed correction. It is eligible auxiliary question evidence only. |
+
+### Complete page-first written-prompt, supplied-answer, callout, and practical boundary
+
+| Physical pages | Exhausted source block | Boundary ruling |
+|---:|---|---|
+| 1–8 | Autonomic/cholinergic and adrenergic drugs through beta blockers: pilocarpine, neostigmine, atropine/oximes, hyoscine, adrenaline/dipivefrine, noradrenaline, dopamine/dobutamine, ephedrine/amphetamine, prazosin/alpha blockade, and beta-blocker actions/uses/reasons/adverse effects | **41 written prompt occurrences / 41 supplied handwritten answers**. Source numbering runs Q1–31, skips Q32, resumes Q33–39, then repeats Q38 and Q39 before Q40. The two repeated numerals label different prompts, so every occurrence is preserved and the numbering defect is not silently repaired. |
+| 9–13 | Diuretic Q1–Q14: thiazide mechanism/uses/antihypertensive and heart-failure actions/adverse effects; furosemide mechanism/uses/adverse effects; spironolactone mechanism/uses/combination reason/adverse effects; triamterene/amiloride; mannitol | **14 written prompts / 14 supplied answers**. |
+| 13–18 | Angina Q1–Q14: nitrate mechanism/actions/uses/adverse effects; calcium-channel-blocker mechanism/actions/uses/adverse effects/interactions; beta-blocker desirability; nicorandil; trimetazidine/ranolazine/ivabradine; favourable combination | **14 written prompts / 14 supplied answers**. Q14 is answered only by a visible `page:134` pointer; that remains a source-supplied answer occurrence, not a reconstructed answer. |
+| 19–23 | Hypertension Q1–Q12: ACE-inhibitor mechanism/actions/advantages/uses/adverse effects/interactions/classification; alpha-methyldopa; clonidine; beta-blocker mechanism; labetalol; direct vasodilators | **12 written prompts / 12 supplied answers**. `ARBs → MCQ` is a revision callout, not an MCQ stem or extra prompt. Source page order places parts of the Q12 vasodilator answer before its framing line; they remain one composite answer. |
+| 24 | Heart-failure PDE-inhibitor mechanism/examples plus two explicit `give reason` operations for sacubitril/valsartan and avoiding sacubitril with an ACE inhibitor | **3 written prompts / 3 supplied answers**. |
+| 25–26 | Composite digitalis mechanism/use/contraindication/toxicity operation; amiodarone; dronedarone | **3 written prompts / 3 supplied answers**. Page 26 continues the toxicity part of page-25 digitalis Q1 rather than creating another prompt. `Antiarrhythmia MCQ` is a topic callout only. |
+| 27–29, 32 | Heparin composite; why LMWH replaced UFH; parenteral direct-thrombin inhibitors; warfarin; dabigatran; heparin-versus-warfarin comparison | **6 written prompts / 6 supplied answers**. The page-32 comparison is separately requested and remains a distinct operation. `Antiplatelet`/`thrombolytic drug MCQ` is a revision callout, not a supplied stem. |
+| 29–31 | Statin mechanism and use/adverse effects; niacin; fibrates; bile-acid resins; probucol; antihyperlipidemic combination; statin/resin rationale; fenofibrate/rosuvastatin toxicity rationale | **9 written prompts / 9 supplied answers**. |
+
+The exact source-local boundary is **102 raw prompt occurrences = 0 MCQs + 0 True/False + 102
+written operations + 0 completion blanks + 0 image-identification operations**. Every operation
+has immediate handwritten answer content or an explicit answer pointer, giving **102
+source-supplied answers / 0 unkeyed prompts**. There are **0 practical stations, 0 apparatus or
+specimen operations, 0 drawings requested, 0 candidate responses, and 0 prompt-like residues**.
+`MCQ` annotations and textbook-page pointers record revision emphasis/reference only; they do not
+supply missing stems, option sets, or official keys. All pharmacological statements are preserved
+as source truth without medical correction or endorsement.
+
+### Retention, 99-handle registry, 396-search completion, and prior-BMS reconciliation
+
+All **102** prompt wordings remain retained records. Three same-source semantic reductions avoid
+double-counting tested propositions while preserving every occurrence and answer: autonomic Q36
+explicitly refers back to the antianginal-reason portion of autonomic Q35; angina Q11 repeats that
+same beta-blocker/angina proposition; and hypertension Q10 repeats autonomic Q33's beta-blocker
+antihypertensive mechanism. Thus **`102 retained - 3 semantic reductions = 99 accepted
+source-distinct handles`**.
+
+The complete accepted registry is grouped below; each semicolon-delimited slug is one handle.
+
+| Source block | Accepted source-first handles |
+|---|---|
+| Autonomic/adrenergic/beta-blocker pages 1–8 | `pilocarpine-therapeutic-uses`; `neostigmine-pharmacokinetics-actions-uses`; `atropine-with-neostigmine-myasthenia-gravis`; `pyridostigmine-preferred-myasthenia-gravis`; `atropine-oxime-organophosphate-poisoning-rationale`; `organophosphate-poisoning-three-drugs-mechanisms`; `atropine-therapeutic-uses`; `atropine-preanesthetic-medication-rationale`; `atropine-contraindications`; `hyoscine-versus-atropine-comparison`; `hyoscine-therapeutic-uses`; `hyoscine-preanesthetic-better-than-atropine`; `adrenaline-local-and-systemic-uses`; `dipivefrine-more-effective-than-adrenaline-glaucoma`; `adrenaline-metabolic-effects`; `adrenaline-suppresses-allergy-physiological-antagonism`; `adrenaline-adverse-effects-contraindications`; `noradrenaline-actions-uses-adverse-contraindications`; `dopamine-pharmacodynamics`; `dopamine-therapeutic-uses`; `dopamine-toxicity`; `dobutamine-actions-uses`; `dopamine-versus-dobutamine`; `dopamine-in-shock-rationale`; `adrenaline-versus-ephedrine`; `amphetamine-therapeutic-uses`; `prazosin-vasodilation-without-reflex-tachycardia`; `prazosin-therapeutic-uses`; `alpha-blocker-therapeutic-uses`; `prazosin-adverse-effects`; `beta-blocker-cardiovascular-actions`; `beta-blocker-antihypertensive-mechanism` (also hypertension Q10); `beta-blocker-therapeutic-uses`; `beta-blocker-classic-not-variant-angina-rationale` (also autonomic Q36 and angina Q11); `beta-blocker-acute-myocardial-infarction-rationale`; `cardioselective-beta-blocker-advantages`; `beta-blocker-heart-failure-rationale`; `beta-blocker-contraindicated-diabetes-rationale`; `beta-blocker-abrupt-withdrawal-rationale`; `beta-blocker-adverse-effects-contraindications` |
+| Diuretic pages 9–13 | `thiazide-diuretic-mechanism`; `thiazide-therapeutic-uses`; `thiazide-antihypertensive-mechanism`; `thiazide-heart-failure-mechanism`; `thiazide-adverse-effects`; `furosemide-mechanism`; `furosemide-therapeutic-uses`; `furosemide-adverse-effects`; `spironolactone-mechanism`; `spironolactone-therapeutic-uses`; `spironolactone-with-thiazide-or-loop-rationale`; `spironolactone-adverse-effects`; `triamterene-amiloride-mechanism`; `mannitol-therapeutic-uses-adverse-effects` |
+| Angina pages 13–18 | `nitrate-mechanism-cgmp-mlck`; `nitrate-pharmacological-actions`; `nitrate-therapeutic-uses`; `nitrate-adverse-effects-contraindications`; `calcium-channel-blocker-mechanism`; `verapamil-diltiazem-cardiac-actions`; `nifedipine-pharmacological-actions`; `calcium-channel-blocker-therapeutic-uses`; `calcium-channel-blocker-adverse-effects`; `calcium-channel-blocker-drug-interactions`; `nicorandil-mechanism`; `trimetazidine-ranolazine-ivabradine-mechanisms`; `angina-favorable-drug-combination`; angina Q11→autonomic Q35/Q36 |
+| Hypertension pages 19–23 | `ace-inhibitor-mechanism`; `ace-inhibitor-pharmacological-actions`; `ace-inhibitor-advantages`; `ace-inhibitor-therapeutic-uses`; `ace-inhibitor-adverse-effects`; `ace-inhibitor-drug-interactions`; `ace-inhibitor-classification`; `alpha-methyldopa-mechanism-uses-adverse-contraindications`; `clonidine-uses-adverse-withdrawal`; `labetalol-therapeutic-uses`; `direct-vasodilator-drugs-mechanisms-uses-adverse-effects`; hypertension Q10→autonomic Q33 |
+| Heart failure / digitalis / antiarrhythmia pages 24–26 | `pde3-inhibitors-heart-failure`; `sacubitril-valsartan-combination-rationale`; `sacubitril-not-with-ace-inhibitor-rationale`; `digitalis-mechanism-uses-contraindications-toxicity`; `amiodarone-uses-half-life-adverse-effects`; `dronedarone-versus-amiodarone` |
+| Anticoagulant pages 27–29, 32 | `heparin-mechanism-uses-adverse-contraindications`; `lmwh-replaces-unfractionated-heparin-rationale`; `parenteral-direct-thrombin-inhibitors-mechanism-uses`; `warfarin-mechanism-overdose-treatment-adverse-effects`; `dabigatran-mechanism`; `heparin-versus-warfarin-comparison` |
+| Hypolipidemic pages 29–31 | `statin-mechanism`; `statin-uses-adverse-effects`; `niacin-mechanism-use`; `fibrate-mechanism-adverse-effects`; `bile-acid-resin-mechanism`; `probucol-ldl-oxidation-inhibitor`; `antihyperlipidemic-combination`; `statin-resin-combination-rationale`; `fenofibrate-rosuvastatin-combination-toxicity` |
+
+Every one of the **99** accepted handles received exactly four fresh searches across live governed
+question/written state, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102
+Families 1–236: **`99 × 4 = 396 required and completed searches`**. Each packet used the
+source-first handle/stem, proposition-bearing terms, answer/mechanism terms, and topic/drug variant.
+External exact-scope disposition is **0 live / 0 import-ready / 0 pending / 99 no same-scope**.
+
+Families 202 and 223 exhaust the prior accepted pharmacology assessment handles: they cover
+general ADME/kinetics and a small set of autonomic facts, but none asks one of the current complete
+written operations at the same tested scope. Families 203–222 and 224–235 are completed teaching
+maps/handouts with no accepted assessment handle; Family 236 contributes three unrelated posology
+calculations. Family 6's clinical acute-limb-ischaemia record mentions heparin as one management
+component but does not test the present heparin pharmacology operation. Therefore prior-BMS reuse
+is **0**, and concept arithmetic is **`99 - 0 = +99`**.
+
+### Family-237 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 237 | Auxiliary cumulative (Families 12–237) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 102 = 102 written | 2,895 | 762 | 3,657 |
+| Eligible source-supplied answers | 102; 0 unkeyed | 1,930 | 405 | 2,335 |
+| Retained eligible question records | 102 | 2,599 | 552 | 3,151 |
+| Accepted handles / required searches | 99 / 396 | 2,329 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no same-scope reuse |
+| Cross-family concept delta | +99 | +1,211 over primary | 372 | 1,583 |
+| **Distinct tested concepts** | **99 source-local / +99** | **1,211 additions** | **372** | **1,583** |
+
+The checksum closes: **102 raw - 0 literal exclusions = 102 retained**; **102 supplied answers + 0
+unkeyed = 102 raw**; **102 retained - 3 semantic reductions = 99 handles**; **99 × 4 = 396
+searches**; and **99 handles - 0 prior reuses = +99 concepts**. Auxiliary arithmetic is `2,793 +
+102 = 2,895` prompts, `1,828 + 102 = 1,930` answers, `2,497 + 102 = 2,599` retained,
+`2,230 + 99 = 2,329` handles, and `1,112 + 99 = 1,211` concept additions. All eligible
+arithmetic is `762 + 2,895 = 3,657`, `405 + 1,930 = 2,335`, `552 + 2,599 = 3,151`, and
+`372 + 1,211 = 1,583`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **2,895 prompts / 1,930 answers /
+2,599 retained / 2,329 handles / +1,211 concepts**. All eligible becomes **3,657 / 2,335 /
+3,151 / 1,583**. Family 237 establishes low-authority solved pharmacology revision evidence only,
+not an official exam, authenticated sitting/date, official key, recurrence, practical station,
+candidate response, medical guidance, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 237
+
+`src_b4d37dd687fe8dc22fa6` is exhausted across all 32 rendered/OCR'd/original-detail pages: every
+visible heading, numbered and misnumbered prompt, handwritten answer/pointer, composite continuation,
+MCQ/page callout, stationery/footer mark, provenance limitation, search packet, same-source collapse,
+prior-family relation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-237 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 237 is **298 paths / 291 unique hashes**, leaving exactly **64 selected paths / 57
+unique hashes**. Checksums are **298 + 64 = 362 paths** and **291 + 57 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `3f49183d6b9bef893ae1d436537c844e82a3f8f1dcd456cc01dd0ace78e6f798`,
+and the first-occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`fccdd0a2134c4b6a774597aff3ba170b01490829f014e7250cdd1ee2f2d73e11`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_dcb156a3102b5f184df2` ·
+`Pharma-Q-1st-MHU.pdf`, SHA-256
+`dcb156a3102b5f184df2f532d62a00368324d53c05ecf6c71b206f72c758b730`, **516,522 bytes**,
+**8 native-text portrait A4 pages** under `Pharmacology / Notes and Summaries`. Its first visible
+page begins `1st year Pharma for Life` and numbered pharmacology MCQs, while metadata title is
+`lecture 1`, author is `zooma`, and creation/modification is 15 March 2021. Its visible MHU/Helwan
+authority, exact prompt/key/practical boundary, four-search ledger, prior-BMS reconciliation,
+arithmetic, and subsequent exact next debt remain to be separately adjudicated.
