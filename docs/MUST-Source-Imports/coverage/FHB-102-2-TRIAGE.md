@@ -1938,3 +1938,31 @@ Removing the fifty-four processed hashes leaves **40 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Final_Lec_3_45_New_Exam_MCQs.pdf`, SHA-256 `70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe`, 7 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 40 selected inventory paths / 40 unique hashes remain untriaged.
+
+## Completed source — Final Lec 3, 45 New Exam-Style MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Final_Lec_3_45_New_Exam_MCQs.pdf` | `70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe` | 7 | substantive-text | pages 1–7 rendered and read | Anonymous ReportLab-generated May 2026 derivative labelled `FHB2-102 - Final Lec 3 | 45 New Exam-Style MCQs`, saying it is based only on an uploaded lecture file and citing Dr Ahmed Isa Final Lec 3 in the footer; no authenticated MUST institution, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact objective and answer boundary
+
+Pages 1–6 contain one continuous sequence of **45 conventional objective MCQs**. Page 7 prints a complete answer table for Q1–Q45, producing **45 prompt-matched source answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**.
+
+The source expressly states that answers are intentionally varied to avoid one repeated-choice pattern; this engineered distribution and derivative provenance remain authority limitations. The answer table is not promoted to an authenticated faculty key. Printed terminology and academically questionable questions or answer tokens remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The five handles cover streptogramin/oxazolidinone pharmacology, fluoroquinolone mechanisms and generations, fluoroquinolone uses/adverse effects/interactions, rifampicin mechanism/uses and rifampicin pharmacokinetics/adverse effects/interactions. All five collapse to already represented evidence.
+
+Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-fifth one-path hash is now `sourceProcessed=true`, adding **+45 questions / +45 answers / +0 concepts**. Cumulative triage is **4,285 questions / 4,086 answers / 62 concepts**.
+
+Removing the fifty-five processed hashes leaves **39 selected inventory paths / 39 unique SHA-256s**. Their sorted-newline checksum is `75d425642fafb339594555a16beee08c4b8b0da8933b7ea0e70f77664c1f5d76`. Remaining audit-review debt is **14 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`55 + 39 = 94`** and path accounting is **`57 + 39 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - MICRO_PHARMA FHB 102-2 BY SALAMA.pdf`, SHA-256 `3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456`, 48 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 39 selected inventory paths / 39 unique hashes remain untriaged.

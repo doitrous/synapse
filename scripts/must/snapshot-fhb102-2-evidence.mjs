@@ -63,9 +63,10 @@ const PROCESSED_FAMILY_HASHES = [
   'be9417870fcbd5a6a748bf8142b7d6ae5ed0bc4090f175f6dc2b50eb161b2ea1',
   '0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194',
   '68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169',
+  '70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = 'cd5c12961f5802078c1982efc26bdc0163b77b0f8809c3454c85358b903607c0'
+const REMAINING_CHECKSUM = '75d425642fafb339594555a16beee08c4b8b0da8933b7ea0e70f77664c1f5d76'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -390,10 +391,16 @@ const FIFTY_FOURTH_SOURCE = {
   pages: 10,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const FIFTY_FIFTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Final_Lec_3_45_New_Exam_MCQs.pdf',
   sha256: '70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe',
   pages: 7,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - MICRO_PHARMA FHB 102-2 BY SALAMA.pdf',
+  sha256: '3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456',
+  pages: 48,
   sourceProcessed: false,
 }
 
@@ -472,10 +479,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 15 }
+  const expected = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 14 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=15-substantive/10-sparse/4-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=14-substantive/10-sparse/4-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -521,6 +528,9 @@ for (const value of [FIFTY_THIRD_SOURCE.relativePath, FIFTY_THIRD_SOURCE.sha256]
 for (const value of [FIFTY_FOURTH_SOURCE.relativePath, FIFTY_FOURTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
+for (const value of [FIFTY_FIFTH_SOURCE.relativePath, FIFTY_FIFTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
   throw new Error('Readiness/triage evidence missing selected-set path/hash boundary')
 }
@@ -564,7 +574,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 54 || remainingHashes.length !== 40 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 55 || remainingHashes.length !== 39 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -572,7 +582,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 15 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 4, 'sparse-text': 10, 'substantive-text': 14 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2468,8 +2478,33 @@ const provenance = {
       boundaryDisposition: 'pages 1-8 contain one continuous sequence of fifty-nine conventional objective MCQs and pages 9-10 print a complete answer table for Q1-Q59; exact boundary fifty-nine objective prompts, fifty-nine prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching occurrences',
       preservedSourceDefects: ['the complete answer table is retained as student-source answer evidence rather than promoted to an authenticated faculty key', 'printed spelling, grammar, numbering, terminology and academically questionable questions or answer tokens remain source truth without correction', 'repeated subject matter within the bank remains distinct physical prompt occurrence because no exact prompt sibling sequence is present'],
     },
+    {
+      sha256: FIFTY_FIFTH_SOURCE.sha256,
+      sourcePages: 7,
+      renderedReadPages: '1-7',
+      objectiveMcqPrompts: 45,
+      printedKeyObservations: 45,
+      sourceAbsentAnswers: 0,
+      writtenPrompts: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 0,
+      sourceFirstHandles: 5,
+      priorFhb1022CollapsedHandles: 5,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      familyQuestionDelta: 45,
+      familyAnswerDelta: 45,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      priorHandleDisposition: ['streptogramin and oxazolidinone pharmacology', 'fluoroquinolone mechanism and generations', 'fluoroquinolone uses adverse effects and interactions', 'rifampicin mechanism and antimicrobial uses', 'rifampicin pharmacokinetics adverse effects and drug interactions'],
+      authorityDisposition: 'anonymous ReportLab-generated May 2026 derivative labelled FHB2-102 Final Lec 3 and based only on an uploaded lecture file; footer cites Dr Ahmed Isa Final Lec 3, but no authenticated MUST institution, examiner, sitting, marks scheme or official key declaration appears',
+      boundaryDisposition: 'pages 1-6 contain one continuous sequence of forty-five new exam-style objective MCQs and page 7 prints a complete answer table for Q1-Q45; exact boundary forty-five objective prompts, forty-five prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching occurrences',
+      preservedSourceDefects: ['the statement that answers are intentionally varied and the synthetic derivative construction are preserved as provenance limitations', 'the complete answer table is retained as derivative-source evidence rather than promoted to an authenticated faculty key', 'printed wording, terminology and academically questionable questions or answer tokens remain source truth without correction'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 4240, printedKeyObservations: 4041, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
+  triageCumulative: { printedPromptObservations: 4285, printedKeyObservations: 4086, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -2524,6 +2559,7 @@ const provenance = {
   fiftySecondSourceCandidate: FIFTY_SECOND_SOURCE,
   fiftyThirdSourceCandidate: FIFTY_THIRD_SOURCE,
   fiftyFourthSourceCandidate: FIFTY_FOURTH_SOURCE,
+  fiftyFifthSourceCandidate: FIFTY_FIFTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

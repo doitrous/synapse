@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "95ce1bbddb1cb462fed6fb3eda8d78f424b978b9566c7e583fc09046a758fb8d",
-    "triageMarkdown": "8c6a8aadb27c477a5ba551481a02cf11ea4a89928428a63a5111ace46442448c"
+    "readinessMarkdown": "ab93bc5333bf9feb3e7dabcd235e8e9baa412f332872ed30111b28a17994c8cb",
+    "triageMarkdown": "d857869ba8faa7933d45f2adc6234d66964e08de677724da29a765e392349007"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -85,6 +85,7 @@
       "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5",
+      "70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
       "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
@@ -124,7 +125,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 54
+    "uniqueSha256": 55
   },
   "completedSourceCoverage": [
     {
@@ -3323,11 +3324,46 @@
         "printed spelling, grammar, numbering, terminology and academically questionable questions or answer tokens remain source truth without correction",
         "repeated subject matter within the bank remains distinct physical prompt occurrence because no exact prompt sibling sequence is present"
       ]
+    },
+    {
+      "sha256": "70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe",
+      "sourcePages": 7,
+      "renderedReadPages": "1-7",
+      "objectiveMcqPrompts": 45,
+      "printedKeyObservations": 45,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "familyQuestionDelta": 45,
+      "familyAnswerDelta": 45,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "streptogramin and oxazolidinone pharmacology",
+        "fluoroquinolone mechanism and generations",
+        "fluoroquinolone uses adverse effects and interactions",
+        "rifampicin mechanism and antimicrobial uses",
+        "rifampicin pharmacokinetics adverse effects and drug interactions"
+      ],
+      "authorityDisposition": "anonymous ReportLab-generated May 2026 derivative labelled FHB2-102 Final Lec 3 and based only on an uploaded lecture file; footer cites Dr Ahmed Isa Final Lec 3, but no authenticated MUST institution, examiner, sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "pages 1-6 contain one continuous sequence of forty-five new exam-style objective MCQs and page 7 prints a complete answer table for Q1-Q45; exact boundary forty-five objective prompts, forty-five prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching occurrences",
+      "preservedSourceDefects": [
+        "the statement that answers are intentionally varied and the synthetic derivative construction are preserved as provenance limitations",
+        "the complete answer table is retained as derivative-source evidence rather than promoted to an authenticated faculty key",
+        "printed wording, terminology and academically questionable questions or answer tokens remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4240,
-    "printedKeyObservations": 4041,
+    "printedPromptObservations": 4285,
+    "printedKeyObservations": 4086,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3657,33 +3693,39 @@
     "pages": 10,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftyFifthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Final_Lec_3_45_New_Exam_MCQs.pdf",
     "sha256": "70dc21b86903e9b5dee9a0b5d7b33beff75e937cfd891dfb330682ec5ee5effe",
     "pages": 7,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - MICRO_PHARMA FHB 102-2 BY SALAMA.pdf",
+    "sha256": "3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456",
+    "pages": 48,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 40,
-    "uniqueSha256": 40,
-    "sortedNewlineSha256": "cd5c12961f5802078c1982efc26bdc0163b77b0f8809c3454c85358b903607c0",
+    "inventoryMetadataRows": 39,
+    "uniqueSha256": 39,
+    "sortedNewlineSha256": "75d425642fafb339594555a16beee08c4b8b0da8933b7ea0e70f77664c1f5d76",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
       "sparse-text": 10,
-      "substantive-text": 15
+      "substantive-text": 14
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
     "sparse-text": 10,
-    "substantive-text": 15
+    "substantive-text": 14
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 54,
-    "remainingUniqueSha256": 40,
+    "processedUniqueSha256": 55,
+    "remainingUniqueSha256": 39,
     "processedPlusRemaining": 94
   }
 }
