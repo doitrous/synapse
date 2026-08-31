@@ -1518,3 +1518,31 @@ Removing the thirty-nine processed hashes leaves **55 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Ticks.pdf`, SHA-256 `30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2`, 6 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 55 selected inventory paths / 55 unique hashes remain untriaged.
+
+## Completed source — Ticks
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Ticks.pdf` | `30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2` | 6 | substantive-text | pages 1–6 rendered and read | Individual PowerPoint-style `MCQs on ticks` slide deck visibly signed `Dr.Judy emadELdin`; no MUST university, faculty or department authentication, FHB module label, examiner, sitting, marks or authenticated faculty-key claim appears. |
+
+### Exact objective, written, practical, image and answer boundary
+
+Page 1 contains Q1–Q5 and five inline answers. Pages 2 and 3 are duplicate carriers of the same Q6–Q10 prompt-and-answer slide. Page 4 contains Q11–Q16 and six inline answers. Page 5 contains five matching prompts Q17–Q21 plus conventional Q22–Q23, all keyed inline. Page 6 contains five matching prompts Q24–Q28 plus conventional Q29–Q30, all keyed inline.
+
+The raw rendered boundary is **35 objective prompt observations / 35 answer observations**. Collapsing the exact normalized Q6–Q10 duplicate slide leaves **30 unique objective prompts (20 conventional MCQs + 10 matching prompts) / 30 prompt-matched inline answer observations / 0 source-absent answers / 0 written / 0 practical or image prompts / 0 teaching prompts**. The matching labels are independent objective prompt occurrences rather than one composite question. Printed spelling and academically questionable wording or answer claims remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+The thirty unique prompt occurrences collapse into five source-first handles: tick life cycle, classification and developmental stages; hard-versus-soft tick morphology and host attachment; tick habitat, host finding, removal and control; tick paralysis, dermatosis and clinical effects; and tick-borne babesiosis, Lyme disease, Q fever and Rocky Mountain spotted fever. Every handle is already represented in completed FHB-102-2 evidence.
+
+Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fortieth one-path hash is now `sourceProcessed=true`, adding **+30 questions / +30 answers / +0 concepts**. Cumulative triage is **3,877 questions / 3,702 answers / 62 concepts**.
+
+Removing the forty processed hashes leaves **54 selected inventory paths / 54 unique SHA-256s**. Their sorted-newline checksum is `07ff27235c8fae8fbd0f3f8fb9e5ff7565353bea145a37b64cb59c72912e445d`. Remaining audit-review debt is **22 substantive-text / 14 sparse-text / 6 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`40 + 54 = 94`** and path accounting is **`42 + 54 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - fhb para All.pdf`, SHA-256 `a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a`, 38 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 54 selected inventory paths / 54 unique hashes remain untriaged.

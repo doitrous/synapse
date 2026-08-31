@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "67d624b150cdfa915daa3639dec3545aec7162a368bcdd6a5cb13eb37248dee3",
-    "triageMarkdown": "371cc3e5f5c97c41ad90de4934d0f53305866390c7a7d27a15deb5a6b33afb95"
+    "readinessMarkdown": "0a1dd0a5a95a1e7bffd5cabd7604b33677371171054be3e95acc2fd22e5bfa84",
+    "triageMarkdown": "84ebba2c7a6abda27b873559125b6125add34085ee041d79d21b17214a14f099"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -71,6 +71,7 @@
     "sha256": [
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229",
+      "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
       "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
@@ -109,7 +110,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 39
+    "uniqueSha256": 40
   },
   "completedSourceCoverage": [
     {
@@ -2494,11 +2495,62 @@
         "external Al-Azhar academic authorship is retained without upgrading the carrier to MUST module, examination or faculty-key authority",
         "printed spelling, dated terminology and academically questionable questions or answer tokens remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
+      "sourcePages": 6,
+      "renderedReadPages": "1-6",
+      "objectiveQuestionPages": "1-6",
+      "answerPages": "1-6",
+      "rawRenderedPromptObservations": 35,
+      "rawRenderedAnswerObservations": 35,
+      "duplicatePromptObservationsCollapsed": 5,
+      "duplicateAnswerObservationsCollapsed": 5,
+      "printedPromptObservations": 30,
+      "objectiveMcqPrompts": 30,
+      "conventionalMcqPrompts": 20,
+      "matchingPrompts": 10,
+      "printedKeyObservations": 30,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "duplicateLeafPages": [
+        2,
+        3
+      ],
+      "duplicateQuestionLabels": "6-10",
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 30,
+      "familyAnswerDelta": 30,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "tick life cycle, classification and developmental stages",
+        "hard-versus-soft tick morphology and host attachment",
+        "tick habitat, host finding, removal and control",
+        "tick paralysis, dermatosis and clinical effects",
+        "tick-borne babesiosis, Lyme disease, Q fever and Rocky Mountain spotted fever"
+      ],
+      "authorityDisposition": "individual PowerPoint-style MCQs on ticks slide deck visibly signed Dr.Judy emadELdin; no MUST university, faculty or department authentication, FHB module label, examiner, sitting, marks or authenticated faculty-key claim appears",
+      "boundaryDisposition": "page 1 contains Q1-Q5, pages 2 and 3 repeat the same Q6-Q10 prompt-and-answer slide, page 4 contains Q11-Q16, page 5 contains five matching prompts Q17-Q21 plus conventional Q22-Q23, and page 6 contains five matching prompts Q24-Q28 plus conventional Q29-Q30; the raw thirty-five prompt and answer observations collapse to thirty unique objective prompts and thirty matched inline answers after removing the exact normalized five-question repeat; zero source-absent, written, practical, image-dependent or teaching-only occurrence",
+      "preservedSourceDefects": [
+        "pages 2 and 3 repeat the same Q6-Q10 slide and the second five-prompt observation is not double-counted",
+        "ten separately numbered matching labels are counted as ten objective prompt occurrences rather than two composite stems",
+        "individual deck authorship is retained without upgrading the carrier to MUST module, examination or authenticated faculty-key authority",
+        "printed spelling and academically questionable wording or answer claims remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 3847,
-    "printedKeyObservations": 3672,
+    "printedPromptObservations": 3877,
+    "printedKeyObservations": 3702,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2738,22 +2790,28 @@
     "pages": 112,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortiethSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - Ticks.pdf",
     "sha256": "30997b4bb2e13460089e4a1bdb97a022105d871cb28d70d0e95c63d1646e80a2",
     "pages": 6,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - fhb para All.pdf",
+    "sha256": "a81fc0d97fb235f673825d0c75a1c11527e5bdda44ae32b8a828948e7350334a",
+    "pages": 38,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 55,
-    "uniqueSha256": 55,
-    "sortedNewlineSha256": "c3c2ba674bfb96b1740bdaff2b35d2ae81608e50a27b65d09b060dade24d9c5a",
+    "inventoryMetadataRows": 54,
+    "uniqueSha256": 54,
+    "sortedNewlineSha256": "07ff27235c8fae8fbd0f3f8fb9e5ff7565353bea145a37b64cb59c72912e445d",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 6,
       "sparse-text": 14,
-      "substantive-text": 23
+      "substantive-text": 22
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -2761,12 +2819,12 @@
     "audit-not-found": 11,
     "empty-text": 6,
     "sparse-text": 14,
-    "substantive-text": 23
+    "substantive-text": 22
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 39,
-    "remainingUniqueSha256": 55,
+    "processedUniqueSha256": 40,
+    "remainingUniqueSha256": 54,
     "processedPlusRemaining": 94
   }
 }
