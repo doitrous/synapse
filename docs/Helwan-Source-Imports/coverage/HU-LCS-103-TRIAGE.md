@@ -22884,3 +22884,109 @@ The exact next manifest-order debt is tier-6 `src_d470a1596cb226545f92`,
 unclassified until all 42 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
 — NOT APPROVED`:** 11 tier-6/rank-9 path debts remain. No download, source edit, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 220 — Tier-6 Pharmacology short-essay answer bank without eligible sitting authority
+
+Exact source identity is `src_d470a1596cb226545f92`, manifest path
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/103_Pharmacology_SEQ_#_CORTICOSTEROIDS_&_ANALGESICS_SHORT_ESSAY.pdf`,
+273,178 bytes, 42 native portrait-A4 pages, and SHA-256
+`d470a1596cb226545f929c88a66fc5b106b0ad49531542b0317ed868e0de1da7`. The local physical
+file matches that path, size, page count and digest. It is tagged, unencrypted, contains no
+form, and identifies PDF 1.4. All 42 pages were rendered and read; the 42 page images are
+distinct and the structural check is clean.
+
+### Authority and complete source boundary
+
+The visible title is `103 Pharmacology SEQ # CORTICOSTEROIDS & ANALGESICS - SHORT ESSAY
+QUESTIONS`. Metadata names `Mohanad` as author and Canva as creator/producer, with creation
+and modification on 22 June 2026. Neither the visible pages nor metadata name Helwan, a
+course cohort, exam, sitting, marks or official answer authority. The `103` title and source
+folder establish topical/module fit but not eligible-sitting provenance. This is therefore an
+**external/review written bank**, not eligible Helwan assessment evidence.
+
+The complete physical boundary is **48 short-essay prompts / 48 supplied answer blocks**.
+Printed numbering is Q1–Q15, Q19–Q21 and Q23–Q52: Q16–Q18 and Q22 are absent, and no
+missing-number placeholder is supplied. Native extraction exposes each visible question
+label and answer label twice (**96 / 96**) because the PDF contains a doubled underlying text
+layer; page renders prove exactly one physical occurrence of each of the 48 prompts and 48
+answers, so the hidden duplication is not counted a second time.
+
+The source divides into corticosteroids (Q1–Q15), calcium homeostasis/metabolism (Q19–Q27)
+and analgesics/NSAIDs (Q28–Q52). Q5 supplies only the headings `A. Genomic Mechanism (Main
+Mechanism)` and `B. Non-Genomic Mechanism`; Q9 supplies only use-category headings A–F.
+They remain two materially skeletal **written-answer residues**, but each is still a visible
+answer block. Thus the exact assessment delta is **0 eligible prompts / +48 external written
+prompts / +48 external source answers / 0 ordinary objective prompts / 0 unkeyed prompts / 0
+new external concepts**.
+
+Source truth remains literal and unrepaired. This includes visible Markdown tokens (`**`,
+`###`, table pipes, `---` and `<br>`), the numbering gaps, the doubled hidden text layer, the
+two skeletal answer outlines, `NABQ` in place of NAPQI, and printed claims such as COX-3,
+`>5g`, `Prophylaxis of cataract/colon cancer`, `Vitamin C and NH4Cl reduce excretion`,
+aspirin antagonising other NSAIDs, `Hemodialysis (best within 12 hours)` and Sulindac use in
+`Cataract`. They are evidence states, not corrections or endorsements.
+
+### Practical and image boundary
+
+All content is text or completed teaching tables. There are **0 practical prompts / 0 teaching
+plates / 0 mappings / 0 practical residues / 0 practical keys / 0 practical teaching scopes**.
+The two incomplete answer outlines are written-source residues and do not enter the practical
+residue ledger.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The 48 prompts collapse source-first to ten complete theoretical handles:
+
+| Handle | One query on each required surface | Reconciliation |
+|---|---|---|
+| corticosteroid definition, classes and routes | corticosteroid definition classification routes administration | prior LCS Pharmacology reuse |
+| corticosteroid mechanisms, actions, uses and adverse effects | corticosteroid mechanism actions uses adverse effects | prior LCS Pharmacology reuse |
+| corticosteroid dosing, tapering and CYP3A4 | corticosteroid alternate day tapering withdrawal CYP3A4 interaction | prior LCS Pharmacology reuse |
+| calcium homeostasis, functions and hormonal control | calcium homeostasis functions PTH calcitonin vitamin D control | prior LCS Biochemistry/Pharmacology reuse |
+| calcium disorders and osteoporosis | hypocalcemia hypercalcemia osteoporosis calcium treatment | prior LCS Biochemistry/Pharmacology reuse |
+| analgesic classification, COX inhibition and advantages | analgesics NSAIDs classification cyclooxygenase COX advantages | prior LCS Pharmacology reuse |
+| salicylate mechanism and actions | aspirin salicylate mechanism pharmacological actions COX | prior LCS Pharmacology reuse |
+| salicylate uses, adverse effects, toxicity and interactions | aspirin uses adverse effects salicylism toxicity contraindications interactions | prior LCS Pharmacology reuse |
+| paracetamol and benorylate | paracetamol acetaminophen benorylate mechanism uses toxicity | prior LCS Pharmacology reuse |
+| phenylbutazone, indomethacin and sulindac | phenylbutazone indomethacin sulindac uses adverse effects | prior LCS Pharmacology reuse |
+
+Each of the **ten accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **10 x 4 =
+40 required search invocations**. Live file-match counts were all **0**;
+pending/import-ready counts were all **1**; prior-source counts were all **0**; accepted-LCS
+counts were **1 / 0 / 0 / 1 / 1 / 0 / 0 / 0 / 1 / 0**. Complete source-scope comparison,
+including the previously inventoried LCS lecture, revision and question families, establishes
+**10 prior-LCS external/written reuses / 0 additive live / 0 additive pending / 0 additive new
+external concepts**; exact-query misses are not promoted into new concepts.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment becomes
+**7,585 prompts / 7,309 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 220's
+governed delta is therefore **+48 external written prompts / +48 external source answers / 0
+eligible / 0 external concepts / 0 practical**.
+
+Consuming this source's sole path and unique hash changes the remainder from **11 paths / 11
+unique hashes** to **10 paths / 10 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**5 paths / 5 unique hashes within tier**, and rank 9 remains **5 paths / 5 unique hashes
+within rank**. Family 219's checksums were
+`391c81be0b999cf211877bd6fa0ac4464060a7f8162eb087a954afb80f7103ca` (paths) and
+`48f1a9e64c4809d36c816064c1b25f66fa63705344a82028582e6748889c3fb5` (unique hashes).
+For the exact post-Family-220 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`89bc085a586ad689528790a764b653b6fa08d2f627e4295ea0d7ad0137e473de`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`8422e0bcee1bfe4a8361379099dd6969459b14fdb82659fda5661a8543cf3538`.
+
+The exact next manifest-order debt is tier-6 `src_811b7c69a1d390c0268e`, manifest path
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/26 LECTURE ON CORTICOSTEROIDES PDF 1.pdf`,
+resolved exact-hash local file
+`Year 1/LCS 103/Pharmacology/Theoretical/26 LECTURE ON CORTICOSTEROIDES PDF 1.pdf`
+(6,406,261 bytes; 32 native 791 x 445 pt pages; untagged; unencrypted; no form; PDF 1.4;
+SHA-256 `811b7c69a1d390c0268e4418f7eda461d38f8adb4cdfaa74fdf53b9d6e93f98b`). It remains
+unclassified until all 32 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
+— NOT APPROVED`:** 10 tier-6/rank-9 path debts remain. No download, source edit, ID, content
+record, catalogue update, import or source copy was created.
