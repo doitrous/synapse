@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "86902e2ade2c5b5b661d1fa2824173c5648ce9b5b8d5ed0e26e812121d92eef9",
-    "triageMarkdown": "41c7f57d1c1046113b24ae808c2e5e54e613ca18c60ddd1fb278bebf30af4706"
+    "readinessMarkdown": "abf317565ec185344941b04530290ce5f1c3684a17ece5d9f892a3e18370d4ad",
+    "triageMarkdown": "31f58bee3e1c13bd50e6eb0d49abbfe56906562648728188cbc8ef633c3aa754"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -71,6 +71,7 @@
     "sha256": [
       "0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194",
       "09de94ee340a1967dae22c48850502fe9b15afbd7b3dba5594eb0c39ededc3b2",
+      "0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97",
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a",
       "15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51",
@@ -152,7 +153,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 82
+    "uniqueSha256": 83
   },
   "completedSourceCoverage": [
     {
@@ -5040,6 +5041,103 @@
         "headings, numbered drug classes and list items are declarative teaching structure rather than assessment prompts",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97",
+      "sourcePages": 8,
+      "renderedReadPages": "1-8",
+      "coverPages": 1,
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 7,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Antimicrobial chemotherapy cover",
+          "pages": "1",
+          "coverPages": 1,
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Chemotherapy foundations and antimicrobial adverse effects",
+          "pages": "2",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Cell-wall inhibition and penicillins",
+          "pages": "3",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Penicillin and cephalosporin pharmacology",
+          "pages": "4-5",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Vancomycin, teicoplanin and telavancin",
+          "pages": "6",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Daptomycin",
+          "pages": "7",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "FHB drug list",
+          "pages": "8",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all content after the cover is declarative teaching and drug-list reference material with no assessment prompt field; no prompt replay comparison is applicable and no declarative statement is reverse-engineered into a question",
+      "authorityDisposition": "iOS Quartz PDF capture whose pages 2-8 bear the By Dr/ Mo Haitham footer and whose cover reads antimicrobial chemotherapy 6th Edition; no authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "page 1 is a cover, pages 2-7 contain chemotherapy, beta-lactam, vancomycin and daptomycin teaching, and page 8 is an FHB drug-list reference; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, seven teaching-reference pages and one non-assessment cover page",
+      "preservedSourceDefects": [
+        "printed spelling, grammar, tables, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "numbered definitions, drug classes, uses, adverse effects and drug-list items are declarative teaching structure rather than assessment prompts",
+        "the cover edition wording and Dr Mo Haitham footer are retained as visible provenance claims without promotion to authenticated examination authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -5543,29 +5641,33 @@
     "pages": 11,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightyThirdSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Pharmacology FHB Midterm 2026.pdf",
     "sha256": "0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97",
     "pages": 8,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf",
+    "sha256": "875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb",
+    "pages": 40,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 12,
-    "uniqueSha256": 12,
-    "sortedNewlineSha256": "d249888815b1dfc40017d53fa53b87995e33930f0ba8e4a702fc0590c9455e48",
+    "inventoryMetadataRows": 11,
+    "uniqueSha256": 11,
+    "sortedNewlineSha256": "143dc0edfd44fb275ee6a2d8e97a8d03cd2c7ac351edeb714e90d87dc7094c06",
     "auditSampleStatusCounts": {
-      "audit-not-found": 11,
-      "substantive-text": 1
+      "audit-not-found": 11
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 11,
-    "substantive-text": 1
+    "audit-not-found": 11
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 82,
-    "remainingUniqueSha256": 12,
+    "processedUniqueSha256": 83,
+    "remainingUniqueSha256": 11,
     "processedPlusRemaining": 94
   }
 }

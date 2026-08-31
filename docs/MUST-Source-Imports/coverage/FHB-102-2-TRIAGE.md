@@ -2530,3 +2530,29 @@ Removing the eighty-two processed hashes leaves **12 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Pharmacology FHB Midterm 2026.pdf`, SHA-256 `0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97`, 8 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 12 selected inventory paths / 12 unique hashes remain untriaged.
+
+## Completed source — `Pharmacology FHB Midterm 2026`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Pharmacology FHB Midterm 2026.pdf` | `0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97` | 8 | substantive-text | pages 1–8 rendered and read | iOS Quartz PDF capture whose cover reads `antimicrobial chemotherapy 6th Edition` and whose pages 2–8 bear a `By Dr/ Mo Haitham` footer. No authenticated MUST platform, institution, department, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Page 1 is the antimicrobial-chemotherapy cover. Page 2 contains chemotherapy definitions and general adverse effects. Page 3 covers cell-wall inhibition and penicillins. Pages 4–5 cover penicillin and cephalosporin pharmacology, monobactam and carbapenem. Page 6 covers vancomycin, teicoplanin and telavancin. Page 7 covers daptomycin. Page 8 is an `FHB` drug-list reference. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 7 teaching-reference pages / 1 non-assessment cover page**.
+
+Numbered definitions, drug classes, uses, adverse effects and drug-list items are declarative teaching structure, not assessment fields. No answer is inferred and no statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This eighty-third one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-three processed hashes leaves **11 selected inventory paths / 11 unique SHA-256s**. Their sorted-newline checksum is `143dc0edfd44fb275ee6a2d8e97a8d03cd2c7ac351edeb714e90d87dc7094c06`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`83 + 11 = 94`** and path accounting is **`85 + 11 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf`, SHA-256 `875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb`, 40 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 11 selected inventory paths / 11 unique hashes remain untriaged.
