@@ -499,6 +499,8 @@ const NEXT_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - Pharmacology FHB102-2 Final all.pdf',
   sha256: '1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a',
   pages: 168,
+  reviewedPages: '1-20',
+  nextPage: 21,
   sourceProcessed: false,
 }
 const SIXTY_NINTH_SOURCE = {
@@ -543,7 +545,6 @@ const SEVENTY_FIFTH_SOURCE = {
   pages: 14,
   sourceProcessed: true,
 }
-
 function option(name) {
   const prefix = `${name}=`
   const value = process.argv.find((item) => item.startsWith(prefix))?.slice(prefix.length)
@@ -3300,6 +3301,37 @@ const provenance = {
       authorityDisposition: '14-page typed pharmacology final-exam study-note carrier labelled 2025, with no visible authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration; its summaries remain revision teaching content',
       boundaryDisposition: 'all fourteen rendered pages are fully revealed summary notes on protein inhibitors, folate antagonists, TB and leprosy, and antifungal drugs; headings, explanatory paragraphs and lists are declarative teaching structure rather than assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence',
       preservedSourceDefects: ['the final-exam notes label is retained as an unverified provenance claim and not promoted to examination authority', 'summary wording, spelling, terminology and academically questionable pharmacology claims remain source truth without correction', 'declarative headings and lists are not reverse-engineered into questions or keys'],
+    },
+  ],
+  partialSourceCoverage: [
+    {
+      sha256: NEXT_SOURCE.sha256,
+      sourcePages: 168,
+      renderedReadPages: '1-20',
+      nextPage: 21,
+      unreadPages: '21-168',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      writtenPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 20,
+      sourceFirstHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: false,
+      sectionBoundary: [
+        { section: 'Protein-synthesis foundations', pages: '1-6', teachingReferencePages: 6, assessmentPrompts: 0 },
+        { section: 'Aminoglycosides', pages: '7-11', teachingReferencePages: 5, assessmentPrompts: 0 },
+        { section: 'Tetracyclines', pages: '12-20', teachingReferencePages: 9, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: 'partial review of a pharmacology teaching/reference compilation assembled under an EOM Final all filename; reviewed pages show no examination fields, sitting, marks scheme, examiner or authenticated faculty-key declaration',
+      boundaryDisposition: 'pages 1-20 are fully revealed declarative teaching/reference slides; labelled diagrams, bullet lists and product or clinical images are not assessment response fields; pages 21-168 remain unread in this checkpoint',
+      preservedSourceDefects: ['the carrier filename suggests a final exam but the reviewed pages contain teaching content only', 'declarative teaching statements are not reverse-engineered into questions or answers', 'the hash remains unprocessed until pages 21-168 are adjudicated'],
     },
   ],
   triageCumulative: { printedPromptObservations: 5207, printedKeyObservations: 4974, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
