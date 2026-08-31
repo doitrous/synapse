@@ -518,3 +518,43 @@ Removing the ten processed hashes leaves **86 selected inventory paths / 84 uniq
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative questions microbiology Spring 2026.pdf`, SHA-256 `f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd`, 6 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 86 selected inventory paths / 84 unique hashes remain untriaged.
+
+## Completed source — Formative questions microbiology Spring 2026
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative questions microbiology Spring 2026.pdf` | `f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd` | 6 | substantive-text | pages 1–6 rendered and read | Named `Formative questions 102` revision carrier with `By / Dr Mo Haitham and Nour elganaihy` printed in every footer and March 2026 iOS Quartz metadata. The filename supplies a Spring 2026 label, but no institution, department, examiner, sitting, marks or authenticated faculty-key claim is visible. Highlighted options are source answer evidence, not an official faculty key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–3 contain three independent sets numbered Q1–Q8, for twenty-four conventional objective prompts. Pages 4–6 repeat the same three prompt sequences in the same order, with exactly one option highlighted yellow for every prompt. Pairing is page 1 with page 4, page 2 with page 5, and page 3 with page 6. The answer-bearing reveal pages therefore supply answer observations but do not create a second set of prompt occurrences.
+
+The exact boundary is **24 distinct objective prompts / 24 prompt-matched highlighted source-answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, plus twenty-four reveal-repeat prompt renderings excluded from the question count. Printed wording and academically questionable highlighted selections remain source truth without correction. In particular, the source's highlighted responses concerning dimorphic-fungus temperature, the Cryptococcus capsule, viral envelope, inactivated-vaccine production, bacterial–host relationships and fungal-versus-bacterial structure are preserved as observed rather than medically repaired.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The twenty-four prompts collapse source-first into five coherent handles. Four are already represented by completed FHB-102-2 concepts and receive no repeated search. The surviving vaccine-platform and immune-response handle received exactly four live-and-pending searches: **1 × 4 = 4 searches**. Every query returned no live or pending match.
+
+| Source handle | Four search phrases or prior-module reference | Disposition |
+|---|---|---|
+| Bacterial envelope, membrane, wall, plasmid and capsule physiology | prior bacterial envelope, wall, membrane and bacterial-structure handles | prior-FHB-102-2 collapse |
+| Fungal structure, dimorphism, direct diagnosis and Cryptococcus | prior fungal structure, classification and diagnostic handles | prior-FHB-102-2 collapse |
+| Viral envelope, capsid and replication | prior viral structure, genome and replication handles | prior-FHB-102-2 collapse |
+| Host–microbial relationships, endotoxin, exotoxin and virulence | prior infection-relationship, toxin and virulence handles | prior-FHB-102-2 collapse |
+| Vaccine platforms and immune-response properties | `vaccine types live attenuated inactivated subunit toxoid cellular immunity`; `live attenuated vaccine strongest cellular immunity`; `inactivated vaccine composition production microbiology`; `vaccine platform classification immune response live killed subunit toxoid` | no live/pending match — retained new/TBD |
+
+Post-prior disposition is **0 live / 0 pending / 1 new**. No content record, missing-answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This eleventh one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+24 questions / +24 answers / +1 concept**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 897 | 860 | 60 | 0 | 0 | 60 | TBD |
+
+Removing the eleven processed hashes leaves **85 selected inventory paths / 83 unique SHA-256s**. Their sorted-newline checksum is `bdce7443886490fe39cf7ba9434798f41f1be46e44e0891e566866ba6039a702`. Remaining audit-review debt is **35 substantive-text / 23 sparse-text / 14 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`11 + 83 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Bacteriology & Mycology.pdf`, SHA-256 `9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19`, 44 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 85 selected inventory paths / 83 unique hashes remain untriaged.

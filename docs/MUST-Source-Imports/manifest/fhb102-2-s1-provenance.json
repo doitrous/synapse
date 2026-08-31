@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "6ba37229b4ee1cbcba906bed0ad910bf5979523784671ddb14af581689196a2e",
-    "triageMarkdown": "e0fe2ed87ff6fa7036e4ab204e4d00a3f03fff835baf35d7e71fc082421ca220"
+    "readinessMarkdown": "59e23da982f1f2c1135d3a1dd902ec8971be920fb64456da2021c78da0a965ee",
+    "triageMarkdown": "6fe8a134b12fb7437fa1c5bfb28a66599c26c4cef4d4299d427906ea45566292"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -78,9 +78,10 @@
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
-      "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470"
+      "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
+      "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 10
+    "uniqueSha256": 11
   },
   "completedSourceCoverage": [
     {
@@ -633,15 +634,63 @@
         "show-through from reverse-side printing is not counted as an extra prompt occurrence",
         "printed grammatical and academically questionable tokens remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
+      "sourcePages": 6,
+      "renderedReadPages": "1-6",
+      "questionPages": "1-3",
+      "answerRevealPages": "4-6",
+      "promptRevealPairs": [
+        {
+          "questionPage": 1,
+          "answerRevealPage": 4
+        },
+        {
+          "questionPage": 2,
+          "answerRevealPage": 5
+        },
+        {
+          "questionPage": 3,
+          "answerRevealPage": 6
+        }
+      ],
+      "printedPromptObservations": 24,
+      "objectiveMcqPrompts": 24,
+      "answerRevealRepeatPrompts": 24,
+      "printedKeyObservations": 24,
+      "inlineHighlightedAnswerObservations": 24,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 1,
+      "searchesRun": 4,
+      "familyQuestionDelta": 24,
+      "familyAnswerDelta": 24,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 1,
+      "sourceProcessed": true,
+      "authorityDisposition": "named Formative questions 102 revision carrier with By / Dr Mo Haitham and Nour elganaihy printed in each footer and March 2026 iOS Quartz metadata; the filename supplies a Spring 2026 label, but no institution, department, examiner, sitting, marks or authenticated faculty-key claim is visible; highlighted options are source answer evidence rather than an official faculty key",
+      "boundaryDisposition": "three independent eight-question conventional objective sets on pages 1-3; pages 4-6 repeat the exact respective prompt sequences with one inline yellow-highlighted source answer each; twenty-four distinct prompts and twenty-four prompt-matched answer observations, with reveal repeats excluded from the question count and no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "pages 4-6 are answer-bearing reveal repeats of pages 1-3 and do not create twenty-four additional question occurrences",
+        "highlighted responses concerning dimorphic-fungus temperature, Cryptococcus capsule, viral envelope, inactivated-vaccine production, bacterial-host relationships and fungal-versus-bacterial structure remain source truth without medical correction",
+        "the footer attribution and Spring 2026 filename are not treated as institution, exam-sitting or authenticated faculty-key authority",
+        "the inline highlights are source answer evidence rather than authenticated faculty-key observations"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 873,
-    "printedKeyObservations": 836,
-    "namedConceptsAssigned": 59,
+    "printedPromptObservations": 897,
+    "printedKeyObservations": 860,
+    "namedConceptsAssigned": 60,
     "liveHits": 0,
     "pendingHits": 0,
-    "newConcepts": 59
+    "newConcepts": 60
   },
   "firstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf",
@@ -703,22 +752,28 @@
     "pages": 4,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eleventhSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative questions microbiology Spring 2026.pdf",
     "sha256": "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
     "pages": 6,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Bacteriology & Mycology.pdf",
+    "sha256": "9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19",
+    "pages": 44,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 86,
-    "uniqueSha256": 84,
-    "sortedNewlineSha256": "a089077e343bb481647c15e0e26ba910af769a6b3961cdfa6c4730933a111b4b",
+    "inventoryMetadataRows": 85,
+    "uniqueSha256": 83,
+    "sortedNewlineSha256": "bdce7443886490fe39cf7ba9434798f41f1be46e44e0891e566866ba6039a702",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 14,
       "sparse-text": 23,
-      "substantive-text": 36
+      "substantive-text": 35
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -726,12 +781,12 @@
     "audit-not-found": 11,
     "empty-text": 14,
     "sparse-text": 23,
-    "substantive-text": 36
+    "substantive-text": 35
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 10,
-    "remainingUniqueSha256": 84,
+    "processedUniqueSha256": 11,
+    "remainingUniqueSha256": 83,
     "processedPlusRemaining": 94
   }
 }

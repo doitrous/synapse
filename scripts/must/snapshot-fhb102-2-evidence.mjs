@@ -19,9 +19,10 @@ const PROCESSED_FAMILY_HASHES = [
   '1c477cdee3ad720f5e94adfd2eafd9908bbcd61f9622f7b60ec93c9cb7f3d229',
   '9cf944929a7cffa384d05bc660ce1fc449e47ab2c1920f09d4bf861d942092bc',
   'd81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc',
+  'f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = 'a089077e343bb481647c15e0e26ba910af769a6b3961cdfa6c4730933a111b4b'
+const REMAINING_CHECKSUM = 'bdce7443886490fe39cf7ba9434798f41f1be46e44e0891e566866ba6039a702'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -82,10 +83,16 @@ const TENTH_SOURCE = {
   pages: 4,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const ELEVENTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Formative questions microbiology Spring 2026.pdf',
   sha256: 'f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd',
   pages: 6,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - General Bacteriology & Mycology.pdf',
+  sha256: '9b3aae1b913cff2c41851e255119bc377a6b94cf089450fa7c9805b03234be19',
+  pages: 44,
   sourceProcessed: false,
 }
 
@@ -164,10 +171,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 14, 'sparse-text': 23, 'substantive-text': 36 }
+  const expected = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 14, 'sparse-text': 23, 'substantive-text': 35 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=36-substantive/23-sparse/14-empty/11-not-found/2-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=35-substantive/23-sparse/14-empty/11-not-found/2-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -183,7 +190,7 @@ const byPath = inspectedIndex(inspected)
 const readiness = readFileSync(options.readiness, 'utf8')
 const triage = readFileSync(options.triage, 'utf8')
 
-for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, SEVENTH_SOURCE.relativePath, SEVENTH_SOURCE.sha256, EIGHTH_SOURCE.relativePath, EIGHTH_SOURCE.sha256, NINTH_SOURCE.relativePath, NINTH_SOURCE.sha256, TENTH_SOURCE.relativePath, TENTH_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
+for (const value of [SELECTED_CHECKSUM, REMAINING_CHECKSUM, FIRST_SOURCE.relativePath, FIRST_SOURCE.sha256, SECOND_SOURCE.relativePath, SECOND_SOURCE.sha256, THIRD_SOURCE.relativePath, THIRD_SOURCE.sha256, FOURTH_SOURCE.relativePath, FOURTH_SOURCE.sha256, FIFTH_SOURCE.relativePath, FIFTH_SOURCE.sha256, SIXTH_SOURCE.relativePath, SIXTH_SOURCE.sha256, SEVENTH_SOURCE.relativePath, SEVENTH_SOURCE.sha256, EIGHTH_SOURCE.relativePath, EIGHTH_SOURCE.sha256, NINTH_SOURCE.relativePath, NINTH_SOURCE.sha256, TENTH_SOURCE.relativePath, TENTH_SOURCE.sha256, ELEVENTH_SOURCE.relativePath, ELEVENTH_SOURCE.sha256, NEXT_SOURCE.relativePath, NEXT_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -229,7 +236,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 10 || remainingHashes.length !== 84 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 11 || remainingHashes.length !== 83 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -237,7 +244,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 14, 'sparse-text': 23, 'substantive-text': 36 }
+const expectedRemainingDebt = { 'audit-extract-failed': 2, 'audit-not-found': 11, 'empty-text': 14, 'sparse-text': 23, 'substantive-text': 35 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -588,8 +595,38 @@ const provenance = {
       boundaryDisposition: 'one FHB102-2 paper with thirteen objective MCQs plus three written prompts and one MSK102-2-labelled paper with ten objective MCQs plus three written prompts; twenty-nine visible assessment occurrences, all unkeyed; no practical, image-identification or teaching prompt boundary',
       preservedSourceDefects: ['the second paper is explicitly labelled MSK 102-2 despite residing in an FHB 102-2 inventory path and is not silently relabelled', 'both independent numbering sequences are preserved', 'all twenty-nine prompts are unkeyed and no answers are inferred', 'show-through from reverse-side printing is not counted as an extra prompt occurrence', 'printed grammatical and academically questionable tokens remain source truth without correction'],
     },
+    {
+      sha256: ELEVENTH_SOURCE.sha256,
+      sourcePages: 6,
+      renderedReadPages: '1-6',
+      questionPages: '1-3',
+      answerRevealPages: '4-6',
+      promptRevealPairs: [{ questionPage: 1, answerRevealPage: 4 }, { questionPage: 2, answerRevealPage: 5 }, { questionPage: 3, answerRevealPage: 6 }],
+      printedPromptObservations: 24,
+      objectiveMcqPrompts: 24,
+      answerRevealRepeatPrompts: 24,
+      printedKeyObservations: 24,
+      inlineHighlightedAnswerObservations: 24,
+      sourceAbsentAnswers: 0,
+      writtenPrompts: 0,
+      practicalOrImagePrompts: 0,
+      teachingPrompts: 0,
+      sourceFirstHandles: 5,
+      priorFhb1022CollapsedHandles: 4,
+      acceptedSourceHandles: 1,
+      searchesRun: 4,
+      familyQuestionDelta: 24,
+      familyAnswerDelta: 24,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 1,
+      sourceProcessed: true,
+      authorityDisposition: 'named Formative questions 102 revision carrier with By / Dr Mo Haitham and Nour elganaihy printed in each footer and March 2026 iOS Quartz metadata; the filename supplies a Spring 2026 label, but no institution, department, examiner, sitting, marks or authenticated faculty-key claim is visible; highlighted options are source answer evidence rather than an official faculty key',
+      boundaryDisposition: 'three independent eight-question conventional objective sets on pages 1-3; pages 4-6 repeat the exact respective prompt sequences with one inline yellow-highlighted source answer each; twenty-four distinct prompts and twenty-four prompt-matched answer observations, with reveal repeats excluded from the question count and no written, practical, image-identification or teaching prompt boundary',
+      preservedSourceDefects: ['pages 4-6 are answer-bearing reveal repeats of pages 1-3 and do not create twenty-four additional question occurrences', 'highlighted responses concerning dimorphic-fungus temperature, Cryptococcus capsule, viral envelope, inactivated-vaccine production, bacterial-host relationships and fungal-versus-bacterial structure remain source truth without medical correction', 'the footer attribution and Spring 2026 filename are not treated as institution, exam-sitting or authenticated faculty-key authority', 'the inline highlights are source answer evidence rather than authenticated faculty-key observations'],
+    },
   ],
-  triageCumulative: { printedPromptObservations: 873, printedKeyObservations: 836, namedConceptsAssigned: 59, liveHits: 0, pendingHits: 0, newConcepts: 59 },
+  triageCumulative: { printedPromptObservations: 897, printedKeyObservations: 860, namedConceptsAssigned: 60, liveHits: 0, pendingHits: 0, newConcepts: 60 },
   firstSourceCandidate: FIRST_SOURCE,
   secondSourceCandidate: SECOND_SOURCE,
   thirdSourceCandidate: THIRD_SOURCE,
@@ -600,6 +637,7 @@ const provenance = {
   eighthSourceCandidate: EIGHTH_SOURCE,
   ninthSourceCandidate: NINTH_SOURCE,
   tenthSourceCandidate: TENTH_SOURCE,
+  eleventhSourceCandidate: ELEVENTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,
