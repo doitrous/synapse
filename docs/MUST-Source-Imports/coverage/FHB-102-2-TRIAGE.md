@@ -940,3 +940,33 @@ Removing the twenty processed hashes leaves **76 selected inventory paths / 74 u
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Virology_60MCQ_10SAQ.pdf`, SHA-256 `c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810`, 10 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 76 selected inventory paths / 74 unique hashes remain untriaged.
+
+## Completed source — Virology_60MCQ_10SAQ
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Virology_60MCQ_10SAQ.pdf` | `c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810` | 10 | substantive-text | pages 1–10 rendered and read | Anonymous ReportLab-generated revision carrier titled `General Virology 2025 — Question Bank`, created in February 2026. No author, institution, department, module authentication, examiner, sitting, marks or authenticated faculty-key claim is visible. The terminal key and inline model answers are source evidence, not an official MUST key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–4 contain Set 1 E1–E10, M11–M20 and H21–H30. Pages 5–8 contain Set 2 E31–E40, M41–M50 and H51–H60. Page 9 contains ten independently numbered written SAQs, each immediately paired with a model answer. Page 10 supplies a complete sixty-token MCQ answer key. The exact boundary is **60 objective MCQs / 10 written SAQs / 70 prompt-matched answer observations / 0 source-absent answers / 0 practical or image / 0 teaching prompts**.
+
+SAQ1/SAQ6, SAQ2/SAQ7, SAQ3/SAQ8 and SAQ4/SAQ10 are repeated or near-repeated physical prompts and remain distinct assessment occurrences. Headings and difficulty labels are not prompts. The title year 2025 and PDF creation date in 2026 are preserved without inferring a sitting, and printed wording or academically questionable answers remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The seventy prompts collapse source-first into six handles: viral structure/genomes/classification; envelope stability and virucidal agents; replication, eclipse and tropism; laboratory diagnosis and serology; culture effects, haemadsorption, interference, transformation and neutralization; and viral/immunoglobulin examples. All six are established by the prior General Virology, Micro–Immune and module-wide carriers, so **0 accepted × 4 = 0 searches**. This bank is distinct rather than an exact normalized prompt-sequence sibling. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-first one-path hash is now `sourceProcessed=true`, adding **+70 questions / +70 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 2,399 | 2,257 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the twenty-one processed hashes leaves **75 selected inventory paths / 73 unique SHA-256s**. Their sorted-newline checksum is `a8b3a940543ff395c0c4dcf4f0d7c93b27c9fff92f9f209fb9a75341ba762cc6`. Remaining audit-review debt is **33 substantive-text / 19 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`21 + 73 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial genetics MCQs.pdf`, SHA-256 `802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43`, 3 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 75 selected inventory paths / 73 unique hashes remain untriaged.

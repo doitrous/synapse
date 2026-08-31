@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "b472e34b5ac6579c966b7f1989ca00bd3ad73d547c304a3c77eb0fa429205932",
-    "triageMarkdown": "0bc1cfd3609871b7fcc3672d9943d8d3052186ce20776f1b246350c81a53e4b1"
+    "readinessMarkdown": "78be6813834b60e3bb8e242902825031c54aa1923f5bbce634c00d6a58b6e07d",
+    "triageMarkdown": "223f43841f8c3819cfbbebb483c7be84a78e51692dd474f5b08ed19e0528556c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -84,13 +84,14 @@
       "a50083b794e01754d76a6a129f9f61fceeaa6775e5b2b4e93c8a10d49a42cfa2",
       "ae85035d9ea693b962b7d4a1999b7e61bed472cf0127eb04e3dcf2bd90892f37",
       "b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063",
+      "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 20
+    "uniqueSha256": 21
   },
   "completedSourceCoverage": [
     {
@@ -1239,11 +1240,75 @@
         "printed spelling, deprecated terminology and academically questionable questions or answer tokens remain source truth without correction",
         "the Dr Hesham attribution is not treated as institution, exam-sitting or authenticated faculty-key authority"
       ]
+    },
+    {
+      "sha256": "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
+      "sourcePages": 10,
+      "renderedReadPages": "1-10",
+      "mcqQuestionPages": "1-8",
+      "writtenQuestionAndModelAnswerPage": 9,
+      "mcqAnswerPage": 10,
+      "printedPromptObservations": 70,
+      "objectiveMcqPrompts": 60,
+      "writtenPrompts": 10,
+      "writtenSaqPrompts": 10,
+      "printedKeyObservations": 70,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Set 1 MCQs",
+          "questionPages": "1-4",
+          "questionLabels": "E1-E10,M11-M20,H21-H30",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Set 2 MCQs",
+          "questionPages": "5-8",
+          "questionLabels": "E31-E40,M41-M50,H51-H60",
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Medium-difficulty SAQs with inline model answers",
+          "questionAndAnswerPage": 9,
+          "questionLabels": "SAQ1-SAQ10",
+          "prompts": 10,
+          "answers": 10
+        },
+        {
+          "section": "Terminal MCQ answer key",
+          "answerPage": 10,
+          "answerLabels": "E1-H60",
+          "answers": 60
+        }
+      ],
+      "sourceFirstHandles": 6,
+      "priorFhb1022CollapsedHandles": 6,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 70,
+      "familyAnswerDelta": 70,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "anonymous ReportLab-generated revision carrier titled General Virology 2025 — Question Bank and created in February 2026, with no visible author, institution, department, module authentication, examiner, sitting, marks or authenticated faculty-key claim; terminal key and inline model answers are source answer evidence rather than an official MUST key",
+      "boundaryDisposition": "sixty objective MCQs arranged as two thirty-item easy/medium/hard sets on pages 1-8; ten independently numbered written SAQs each paired inline with a model answer on page 9; complete sixty-token MCQ answer key on page 10; seventy prompt occurrences and seventy prompt-matched answer observations with no practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "SAQ1/SAQ6, SAQ2/SAQ7, SAQ3/SAQ8 and SAQ4/SAQ10 are intentionally repeated or near-repeated physical prompts and remain distinct occurrences",
+        "question stems and answers use ASCII arrow notation and printed wording exactly as supplied",
+        "academically questionable statements or answer tokens remain source truth without correction",
+        "the title year 2025 and PDF creation date in 2026 are preserved without inferring an exam sitting"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2329,
-    "printedKeyObservations": 2187,
+    "printedPromptObservations": 2399,
+    "printedKeyObservations": 2257,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1369,22 +1434,28 @@
     "pages": 49,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentyFirstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Virology_60MCQ_10SAQ.pdf",
     "sha256": "c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810",
     "pages": 10,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial genetics MCQs.pdf",
+    "sha256": "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
+    "pages": 3,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 76,
-    "uniqueSha256": 74,
-    "sortedNewlineSha256": "c3c08ac1930e1cff6adc0cab7e4886d7e5e57796103366b34abbe232810050a1",
+    "inventoryMetadataRows": 75,
+    "uniqueSha256": 73,
+    "sortedNewlineSha256": "a8b3a940543ff395c0c4dcf4f0d7c93b27c9fff92f9f209fb9a75341ba762cc6",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 19,
-      "substantive-text": 34
+      "substantive-text": 33
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1392,12 +1463,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 19,
-    "substantive-text": 34
+    "substantive-text": 33
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 20,
-    "remainingUniqueSha256": 74,
+    "processedUniqueSha256": 21,
+    "remainingUniqueSha256": 73,
     "processedPlusRemaining": 94
   }
 }
