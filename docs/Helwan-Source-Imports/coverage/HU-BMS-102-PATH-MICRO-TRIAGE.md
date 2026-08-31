@@ -25246,3 +25246,85 @@ SHA-256 `659dba2635cb391abe2ebfea372e597df661a86415eb5b421c8d891e3d5c806b`, **89
 Virtual Lab 7 - Dynamic drug interactions`. Its visible authority, complete teaching/prompt/key/
 image/practical boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent
 exact next debt remain to be separately adjudicated.
+
+## Family 249 — anonymous pharmacodynamic drug-interactions teaching companion
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_659dba2635cb391abe2e` · `Dynamic.PDF` under `Pharmacology / Practical Labs / Virtual Lab 7 - Dynamic drug interactions` |
+| SHA-256 / size | `659dba2635cb391abe2ebfea372e597df661a86415eb5b421c8d891e3d5c806b` · **89,195 bytes** |
+| Format / complete audit | **4 native-text portrait US-letter pages**, each 612×792 points. All four pages were rendered at 150 dpi into four non-empty 1275×1650-pixel images and read individually; one ordered contact sheet and complete layout/native extraction were also inspected. `pdfimages` reports no embedded raster objects. There is no hidden prompt, answer mark, response field, image task, or practical layer. |
+| Native-text reality | Layout extraction contains **84 words / 1,029 bytes** and preserves every interaction type, drug example, equation, and closing slide. The manifest's `native` classification is accurate. |
+| Visible authority | Page 1 visibly reads only `Dynamic drug interaction`. No page names an author, instructor, Helwan University, faculty, module, academic year, lab date, assessment sitting, candidate, or examiner. Helwan/module authority is limited to tier-5 folder and manifest placement. |
+| Metadata/sequence caution | No metadata author or title is present. Creation/modification timestamp is 30 March 2026, one minute after Family 248's export. Page 2 begins `II- Pharmacodynamic interactions`, which visibly makes this a content companion to Family 248's `I- Pharmacokinetic interactions`; timestamp adjacency supports export sequence only and does not establish authorship, academic year, or delivery date. The objects have different hashes and non-overlapping content. |
+| Authority | Anonymous virtual-lab teaching companion, not an administered assessment, authenticated practical, response sheet, or official answer key. |
+
+### Exhaustive four-page teaching, prompt, key, image, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---|
+| 1 | `Dynamic drug interaction` | Title only; **0 prompts / 0 answers**. |
+| 2 | Pharmacodynamic antagonism: competitive/noncompetitive receptor antagonism, adrenaline/histamine physiological antagonism, protamine/heparin physical antagonism; synergism examples with MAOI/TCA and morphine/diazepam; `1+1=2` | Completed declarative teaching; **0 / 0**. Drug pairs and the equation are supplied examples, not learner tasks. |
+| 3 | Potentiation with ethanol plus opioids/tranquilizers (`1+1>2`); intracellular/extracellular change with diuretic-induced hypokalemia increasing digitalis toxicity | Completed declarative teaching; **0 / 0**. |
+| 4 | `THANKS` | Closing slide only. |
+
+The complete source boundary is **0 MCQs / 0 written prompts / 0 drawing tasks / 0 image-bearing
+operations / 0 answers / 0 unkeyed prompts / 0 practical stations / 0 candidate responses**.
+Numbered interaction types, example drug pairs, arrows, and equations are completed teaching, not
+questions or answer reveals. Virtual-lab placement cannot authenticate a station without a task,
+candidate/examiner direction, timer, mark allocation, checklist, or response field.
+
+### Zero-handle search gate and prior-BMS reconciliation
+
+No assessment handle survives the exhaustive teaching boundary. The standing gate is therefore
+**0 accepted handles × 4 = 0 required and completed searches**. Family 248 provides the immediately
+preceding pharmacokinetic teaching half, and other prior BMS pharmacology families contain related
+drug/receptor and interaction teaching, but teaching overlap creates neither a current tested
+handle nor a prior-reuse assignment. Prior exact question-handle reuse is **0**, and Family 249
+contributes **+0 concepts**.
+
+### Family-249 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 249 addition | Auxiliary cumulative (Families 12–249) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,091 | 762 | 3,853 |
+| Eligible source-supplied answers | 0 | 2,125 | 405 | 2,530 |
+| Retained eligible question records | 0 | 2,795 | 552 | 3,347 |
+| Accepted handles / required searches | 0 / 0 | 2,511 / — | — | — |
+| Cross-family concept delta | +0 | +1,310 over primary | 372 | 1,682 |
+| **Distinct tested concepts** | **0 new** | **1,310 additions** | **372** | **1,682** |
+
+The arithmetic closes independently: **0 prompts = 0 answers + 0 unkeyed**; **0 retained = 0
+handles**; **0 × 4 = 0 searches**; and **0 handles - 0 prior question reuses = +0 concepts**.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,091 prompts / 2,125 answers /
+2,795 retained / 2,511 handles / +1,310 concepts**. All eligible remains **3,853 / 2,530 /
+3,347 / 1,682**. Family 249 adds teaching-companion evidence only, not an exam, key, authenticated
+station, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 249
+
+`src_659dba2635cb391abe2e` is exhausted across all four rendered/native pages: every visible and
+metadata provenance/sequence field, interaction type, example, equation, prompt/key/image/
+practical zero, search gate, prior-BMS relation, and arithmetic term is assigned, with **zero source
+remainder** and no Family-249 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 249
+governs **1 selected path / 1 unique hash**. The governed set through Family 249 is therefore
+**314 paths / 303 unique hashes**, leaving exactly **48 ungoverned selected paths / 45 unique
+hashes**. Checksums are **314 + 48 = 362 paths** and **303 + 45 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`746518130f99dc9581568223db1ad8537f92b5c2a15c3add738a5af27daa6471`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`3f69d30e3182fc390362c8a4895bc214582d240552d0e2e9572d9b6f1608fd3a`. The remaining set has zero
+hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-5 `src_92649f43ec72b43d2770` ·
+`4_5951720981625053205.pdf`, SHA-256
+`92649f43ec72b43d2770965b05798b0777ea3e38dbdaf2ec35a7b235b76081cd`, **804,958 bytes**,
+**14 native-text landscape 791×593-point pages** under `Pharmacology / Practical Labs / Virtual
+Lab 8 - Prescription writing`. Its first page visibly begins `Writing prescription Dr.Habiba
+Doha`; full visible authority, teaching/prompt/key/image/practical boundary, four-search gate,
+prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
+adjudicated.
