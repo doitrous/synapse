@@ -2582,3 +2582,29 @@ Removing the eighty-four processed hashes leaves **10 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf`, SHA-256 `0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648`, 14 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 10 selected inventory paths / 10 unique hashes remain untriaged.
+
+## Completed source — `Antibiotics Advrse effects`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf` | `0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648` | 14 | audit-not-found | pages 1–14 rendered and read | PowerPoint for Microsoft 365 teaching deck titled `Antimicrobial Agents`, visibly naming Prof. Ahmed Bastawy on the cover and carrying `Jost` author metadata. No authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Page 1 is the named adverse-effects lecture cover. Page 2 shows the drug-host-bacteria relationship. Pages 3–4 cover gastrointestinal, allergy and blood adverse effects. Pages 5–7 cover masking of infection, suppression of antibody formation and bacterial-flora effects. Pages 8–9 cover renal and hepatic toxicity. Pages 10–12 cover drug-metabolising enzymes, bones, teeth, joints, cation toxicity, the nervous system, fetus and newborn. Page 13 is a fully labelled clinical-image reference. Page 14 is a multilingual thank-you closer. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 12 teaching-reference pages / 1 non-assessment cover / 1 non-assessment closing page**.
+
+All numbered toxicity categories, arrows, examples, diagrams and labelled clinical images are declarative teaching structure rather than assessment fields. No answer is inferred and no teaching statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This eighty-fifth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-five processed hashes leaves **9 selected inventory paths / 9 unique SHA-256s**. Their sorted-newline checksum is `072630bf0c201686853e11d771113a2ef7c2b38bd8d45b0c174f7612abd89b67`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 9 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`85 + 9 = 94`** and path accounting is **`87 + 9 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf`, SHA-256 `ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3`, 46 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 9 selected inventory paths / 9 unique hashes remain untriaged.

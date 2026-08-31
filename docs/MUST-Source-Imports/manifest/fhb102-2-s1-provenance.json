@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "3a108fec111997d4e40f53d009427a2778d23ec43f3c016c9ddc0e4e469263f8",
-    "triageMarkdown": "1f97d643ec3e8a1cbeced48f3b902a10fa0c0e719ff8d94eb4034b6a772ff3cf"
+    "readinessMarkdown": "5eb02b092922eeef0fe5024cf0d63bc799a186cfcc8455ee9608f6f2c6e0e598",
+    "triageMarkdown": "79a7f8946b1632712622653c3d303025e88f7766c1aaf6f81091c69c186d5ba8"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -71,6 +71,7 @@
     "sha256": [
       "0444553891b39cf7fad5fad2c8c597923c785fb666e96503f313bf92f71d2194",
       "09de94ee340a1967dae22c48850502fe9b15afbd7b3dba5594eb0c39ededc3b2",
+      "0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648",
       "0f25e60600f5d3bc2321b0a5d82c61f2651ab86f79a440a60d4165c2045a1e97",
       "0f86d7d7304363f68752bc9ed54a7c7eab4ec3d21eca3ef59c25dc08d5c5a6a7",
       "1213f6e2c8296e7a93d709c9ee3eb3b038d02152339b968b392e37dcb510c68a",
@@ -154,7 +155,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 84
+    "uniqueSha256": 85
   },
   "completedSourceCoverage": [
     {
@@ -5255,6 +5256,116 @@
         "the named external Ain Shams teaching provenance is retained without promotion to MUST examination or faculty-key authority",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648",
+      "sourcePages": 14,
+      "renderedReadPages": "1-14",
+      "coverPages": 1,
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 12,
+      "nonAssessmentCloserPages": 1,
+      "closerPages": [
+        14
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Named adverse-effects lecture cover",
+          "pages": "1",
+          "coverPages": 1,
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Drug-host-bacteria relationship",
+          "pages": "2",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Gastrointestinal, allergy and blood adverse effects",
+          "pages": "3-4",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Masking infection, antibody suppression and bacterial-flora effects",
+          "pages": "5-7",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Renal and hepatic toxicity",
+          "pages": "8-9",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 2
+        },
+        {
+          "section": "Enzyme, bone, cation, nervous-system, fetal and newborn effects",
+          "pages": "10-12",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Fully labelled adverse-effect image reference",
+          "pages": "13",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Multilingual thank-you closer",
+          "pages": "14",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0,
+          "nonAssessmentCloserPages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all twelve content pages are fully revealed teaching and reference slides with no assessment prompt field; no prompt replay comparison is applicable and no declarative statement, diagram, numbered toxicity category or labelled clinical image is reverse-engineered into a question",
+      "authorityDisposition": "PowerPoint for Microsoft 365 teaching deck titled Antimicrobial Agents, visibly naming Prof. Ahmed Bastawy on the cover and carrying Jost author metadata; no authenticated MUST platform, institution, department, module, examiner, sitting, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "page 1 is the named adverse-effects lecture cover, pages 2-13 are declarative antimicrobial-adverse-effect teaching and labelled image reference, and page 14 is a multilingual thank-you closer; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, twelve teaching-reference pages, one non-assessment cover and one non-assessment closing page",
+      "preservedSourceDefects": [
+        "printed spelling, grammar, diagrams, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "numbered toxicity categories, arrows, examples and labelled clinical images are declarative teaching structure rather than assessment prompts",
+        "the named lecturer and conflicting Jost metadata are retained as separate provenance observations without promotion to authenticated MUST authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -5770,27 +5881,33 @@
     "pages": 40,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightyFifthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf",
     "sha256": "0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648",
     "pages": 14,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf",
+    "sha256": "ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3",
+    "pages": 46,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 10,
-    "uniqueSha256": 10,
-    "sortedNewlineSha256": "e7bf1ddd33e0e8d0932a43947322d1d1d64e1ec887b6b400fd2bd03ad4e85775",
+    "inventoryMetadataRows": 9,
+    "uniqueSha256": 9,
+    "sortedNewlineSha256": "072630bf0c201686853e11d771113a2ef7c2b38bd8d45b0c174f7612abd89b67",
     "auditSampleStatusCounts": {
-      "audit-not-found": 10
+      "audit-not-found": 9
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 10
+    "audit-not-found": 9
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 84,
-    "remainingUniqueSha256": 10,
+    "processedUniqueSha256": 85,
+    "remainingUniqueSha256": 9,
     "processedPlusRemaining": 94
   }
 }
