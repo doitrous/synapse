@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "16abb059f573cf7f9d8a9712c137366dbf1ae25e03e8ec10be7edc009bb24593",
-    "triageMarkdown": "5eba9215a7bc19c8953b8743ebfe67909b10a7c768e4edf40f677792f0011bc5"
+    "readinessMarkdown": "fc67fcd71dfa911877786f3039191625cc41b1e7d0d9d73c01d5daec3b852ef1",
+    "triageMarkdown": "ee641d9f9b3be98b56df572c685fa4d00bafda96a1e076f6a2b5faa82c5cb48c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -78,6 +78,7 @@
       "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
       "3c4f855a524545347d7ad2d5e54fee1d548b38d4c4ffca8bbaad0b2bc1cbe456",
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
+      "3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b",
       "3e0a1510ac1eee19dffd8c66c764b31ba5d9ba32c9a1327ba769cc45a26b8be5",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "41dce21bb593fae3d41ef4ae1f5728fdbe8db0ab363efde1b832d49734ea6f0c",
@@ -127,7 +128,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 57
+    "uniqueSha256": 58
   },
   "completedSourceCoverage": [
     {
@@ -3453,11 +3454,52 @@
         "the twenty red Answer-arrow completion fields provide no visible answer text and remain source-absent written prompts",
         "printed numbering, spelling, malformed Default Question Text artifacts, outdated regimens and academically questionable highlighted choices remain source truth without repair"
       ]
+    },
+    {
+      "sha256": "3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b",
+      "sourcePages": 21,
+      "renderedReadPages": "1-21",
+      "coverPages": 1,
+      "objectiveMcqPrompts": 106,
+      "writtenPrompts": 0,
+      "printedKeyObservations": 106,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 0,
+      "sourceFirstHandles": 5,
+      "priorFhb1022CollapsedHandles": 5,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 25,
+      "replayFamilySha256": "68c1cd690f5ff892c0de7c67f6a330c0358930834531624b19986bc635086169",
+      "familyQuestionDelta": 81,
+      "familyAnswerDelta": 81,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "beta-lactam and glycopeptide cell-wall inhibitors",
+        "protein-synthesis inhibitors",
+        "quinolone sulfonamide and other antibacterial pharmacology",
+        "antimicrobial clinical selection prophylaxis adverse effects and interactions",
+        "antifungal mechanisms uses and toxicity"
+      ],
+      "authorityDisposition": "personal PentaGram Pharma FHB Q and A 1 revision carrier bearing a Mohamed Eissa signature and Foxit PDF Creator metadata; no authenticated MUST institution, faculty, department, examiner, examination sitting, marks scheme or official key declaration appears",
+      "boundaryDisposition": "physical page 1 is a cover and pages 2-21 contain one hundred six ordinary text multiple-choice prompts, each immediately followed by a printed ANSWER token; exact boundary one hundred six objective prompts, one hundred six prompt-matched source answer observations, zero absent, written, practical, image-dependent or teaching-only occurrences",
+      "replayDisposition": "twenty-five normalized prompt-and-option fields map one-for-one to the completed fifty-nine-question FHB-Pharma MCQ Questions carrier and all twenty-five printed answers agree; those replay fields are collapsed once, leaving eighty-one governed question and answer occurrences from this partial-overlap carrier",
+      "preservedSourceDefects": [
+        "sparse and restarted printed numbering, including long unnumbered stretches, does not alter the physical prompt count",
+        "orthographic variants such as amoxycillin, Lomofloxacin and Bezathine are retained while reconciling only the twenty-five established normalized replay fields",
+        "printed punctuation, spelling, simplified mechanisms and academically questionable questions or answer tokens remain source truth without correction",
+        "the complete inline answer set remains personal revision-source evidence rather than an authenticated faculty key"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 4683,
-    "printedKeyObservations": 4458,
+    "printedPromptObservations": 4764,
+    "printedKeyObservations": 4539,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -3805,33 +3847,39 @@
     "pages": 33,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftyEighthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 1 (Q&A - Pentagram).pdf",
     "sha256": "3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b",
     "pages": 21,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 2 (Q&A - Pentagram).pdf",
+    "sha256": "d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328",
+    "pages": 16,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 37,
-    "uniqueSha256": 37,
-    "sortedNewlineSha256": "95eb358d3f45ea6b88c139e5ce46fe1586845e7d8d3be56195d95a8e32ac8867",
+    "inventoryMetadataRows": 36,
+    "uniqueSha256": 36,
+    "sortedNewlineSha256": "79fab508c8724e618176cae37d70d8ad9c7e2d2270c23cca330f0d9e743f9a71",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 4,
       "sparse-text": 10,
-      "substantive-text": 12
+      "substantive-text": 11
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 4,
     "sparse-text": 10,
-    "substantive-text": 12
+    "substantive-text": 11
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 57,
-    "remainingUniqueSha256": 37,
+    "processedUniqueSha256": 58,
+    "remainingUniqueSha256": 36,
     "processedPlusRemaining": 94
   }
 }

@@ -2022,3 +2022,31 @@ Removing the fifty-seven processed hashes leaves **37 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 1 (Q&A - Pentagram).pdf`, SHA-256 `3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b`, 21 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 37 selected inventory paths / 37 unique hashes remain untriaged.
+
+## Completed source — Pharma Chemo 1 Q&A Pentagram
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 1 (Q&A - Pentagram).pdf` | `3df95a463227dbe1fa28e03cb5d22b9f0e186ef1ab1a0826ac606af7fc20ee0b` | 21 | substantive-text | pages 1–21 rendered and read | Personal PentaGram `Pharma FHB Q & A (1)` revision carrier bearing a Mohamed Eissa signature and Foxit PDF Creator metadata; no authenticated MUST institution, faculty, department, examiner, sitting, marks scheme or official key declaration appears. |
+
+### Exact objective, written and answer boundary
+
+Physical page 1 is a cover. Pages 2–21 contain **106 ordinary text multiple-choice prompts**, and every prompt is immediately followed by a printed `ANSWER` token. The exact raw source boundary is therefore **106 objective MCQs / 106 prompt-matched source answer observations / 0 source-absent / 0 written / 0 practical or image-dependent / 0 teaching-only occurrences**.
+
+Sparse and restarted printed numbering does not govern the count: physically distinct prompt-and-option fields are counted once. Orthographic variants such as `amoxycillin`, `Lomofloxacin` and `Bezathine`, plus printed punctuation, simplified mechanisms and academically questionable questions or answer tokens, remain source truth without correction. The answer set remains personal revision-source evidence rather than an authenticated faculty key.
+
+### Prior-family replay reconciliation and exactly-four-search gate
+
+Normalized prompt-plus-option comparison against the completed `FHB-Pharma MCQ Questions.pdf` carrier identifies **25 one-for-one replay fields**, with all 25 printed answers agreeing. This is a partial-overlap carrier rather than an exact sibling: collapse of those 25 replay occurrences leaves **81 governed questions / 81 governed answers** from the 106 raw physical observations.
+
+The five source-first handles cover beta-lactam and glycopeptide cell-wall inhibitors; protein-synthesis inhibitors; quinolone, sulfonamide and other antibacterial pharmacology; antimicrobial clinical selection, prophylaxis, adverse effects and interactions; and antifungal mechanisms, uses and toxicity. All five collapse to prior FHB-102-2 evidence. Search arithmetic is **5 source-first − 5 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fifty-eighth one-path hash is now `sourceProcessed=true`, adding **+81 questions / +81 answers / +0 concepts**. Cumulative triage is **4,764 questions / 4,539 answers / 62 concepts**.
+
+Removing the fifty-eight processed hashes leaves **36 selected inventory paths / 36 unique SHA-256s**. Their sorted-newline checksum is `79fab508c8724e618176cae37d70d8ad9c7e2d2270c23cca330f0d9e743f9a71`. Remaining audit-review debt is **11 substantive-text / 10 sparse-text / 4 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`58 + 36 = 94`** and path accounting is **`60 + 36 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/05 MCQs/MCQs - Pharma Chemo 2 (Q&A - Pentagram).pdf`, SHA-256 `d97e9681737b5bcd5dd9a0527b523657b13bc6adb70aeaeae8d3efdb35367328`, 16 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 36 selected inventory paths / 36 unique hashes remain untriaged.
