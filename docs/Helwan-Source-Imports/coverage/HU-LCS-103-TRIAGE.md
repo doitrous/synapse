@@ -23658,3 +23658,53 @@ path, so the next family likewise requires duplicate-path adjudication with zero
 content inventory. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 3 tier-6/rank-9
 path debts remain. No download, source edit, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 228 — Rank-9 duplicate path for the Family-186 muscle-curve sheet
+
+### Exact duplicate-path adjudication
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_3935b14adafc945f79a7` / `3935b14adafc945f79a7340521b7177bd74fc8345057505b983ce24d0de58f1d` |
+| Remaining path | `Year 1/LCS 103/Physiology/Muscle Contraction Curves/curves.pdf` · 170,573 bytes · 2 OCR-needed native 612 x 792 pt US-Letter pages · tagged · unencrypted · no form · PDF 1.7 |
+| Previously inventoried path | `Year 1/LCS 103/All Subjects/Official Course Files/curves.pdf` · Family 186 |
+| Identity proof | Recomputed size and full SHA-256 match for both physical files; direct byte comparison returns equality; the remaining file passes a structural check. |
+
+Family 186 already rendered and read both pages and governed **0 assessment prompts / 0
+assessment keys / 9 practical-reference teaching plates / 13 printed mappings / 17 unresolved
+callout residues / 0 practical prompts / 0 practical keys**. Its nine figure occurrences,
+literal labels, unresolved `PS`/`A`–`D`/`PC1`–`PC3`/`B`/`S1`/`S2`/`C` callouts, anonymous
+visible authority and five searched prior-LCS practical-scope reuses govern this identical
+bitstream.
+
+Family 228 therefore receives **0 second content inventory / 0 second prompts / 0 second
+keys / 0 second plates / 0 second mappings / 0 second residues / 0 second concepts / 0 second
+searches / 0 assessment delta / 0 practical delta**. Only the separate manifest path is
+consumed; no curve, figure, label, mapping, residue, handle or disposition is counted twice.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,632 prompts / 7,346 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**.
+
+Consuming this duplicate path changes the remainder from **3 paths / 3 unique hashes** to **2
+paths / 2 unique hashes**: tier 3 remains **0 / 0**, tier 6 remains **1 path / 1 unique hash
+within tier**, and rank 9 becomes **1 path / 1 unique hash within rank**. Family 227's
+checksums were `5ac087d8d45c560368a54022334e78e65af4f27e83cb77de19cb9e68e85ee595`
+(paths) and `1e8d4674e7287614044079e9d2beecb722cd6751c7dd4e6f5c584c9267154f98`
+(unique hashes). For the exact post-Family-228 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`0df259b6ea9e88f3ac6ad4b9b11e1918e73fb749a1160733d531e60dff42e3ea`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`32bc6289b095d6cb319223f1678a3a7453c6e1eeb9dec54567b86053b67ae1cd`.
+
+The exact next manifest-order debt is rank-9 `src_3be5832bb4de2e6a89da`,
+`Year 1/LCS 103/Physiology/Muscle regulation/Muscle regulation-BRS.pdf` (1,827,521 bytes;
+2 native portrait-A4 pages; untagged; unencrypted; no form; PDF 1.3; SHA-256
+`3be5832bb4de2e6a89da211997fba60d5a77231558dde83fb8bce7f787e8c86d`).
+It remains unclassified until both pages are rendered and read. **Overall LCS-103 remains
+`S1 TRIAGE — NOT APPROVED`:** 2 tier-6/rank-9 path debts remain. No download, source edit,
+ID, content record, catalogue update, import or source copy was created.
