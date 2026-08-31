@@ -23607,3 +23607,54 @@ next family requires duplicate-path adjudication with zero second content invent
 **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 4 tier-6/rank-9 path debts remain.
 No download, source edit, ID, content record, catalogue update, import or source copy was
 created.
+
+## Family 227 — Rank-9 duplicate path for the Family-187 Capital University deck
+
+### Exact duplicate-path adjudication
+
+| Field | Verified value |
+|---|---|
+| Manifest source / SHA-256 | `src_2b1ba8f9c9532c26b4f7` / `2b1ba8f9c9532c26b4f7ab62e2865a1f4efa82f671a5d82db85fa6c170cd320c` |
+| Remaining path | `Year 1/LCS 103/Physiology/LCS questions/103-LCS-Questions and answers-MS-26.pdf` · 418,682 bytes · 14 native 720 x 540 pt pages · tagged · unencrypted · no form · PDF 1.5 |
+| Previously inventoried path | `Year 1/LCS 103/All Subjects/Questions/103-LCS-Questions and answers-MS-26.pdf` · Family 187 |
+| Identity proof | Recomputed size and full SHA-256 match for both physical files; direct byte comparison returns equality; the remaining file passes a structural check. |
+
+Family 187 already rendered and read all 14 pages and governed **14 external prompts / 14
+source answers / 10 prior-tested handles**, including **3 image-dependent practical prompts /
+3 practical keys**, with no written or unkeyed prompts and no new concepts. Its visible
+Capital University/Dr Hanan Essam authority, answer letters, anomalies, graph boundary,
+searches and source-first collapse govern this identical bitstream.
+
+Family 227 therefore receives **0 second content inventory / 0 second prompts / 0 second
+answers / 0 second written or unkeyed prompts / 0 second concepts / 0 second practical items /
+0 second searches / 0 assessment delta / 0 practical delta**. Only the separate manifest path
+is consumed; no page, prompt, graph, answer, key, handle or disposition is counted twice.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,632 prompts / 7,346 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**.
+
+Consuming this duplicate path changes the remainder from **4 paths / 4 unique hashes** to **3
+paths / 3 unique hashes**: tier 3 remains **0 / 0**, tier 6 remains **1 path / 1 unique hash
+within tier**, and rank 9 becomes **2 paths / 2 unique hashes within rank**. Family 226's
+checksums were `c7079efb5121dccb33c9ab6455c9fe2a521748821c2ca698272eefcd2ff96635`
+(paths) and `389beca1523a39ec5ec29d1a2a17b4a79dd23f54f7f8554f7754ecdeebdccc6d`
+(unique hashes). For the exact post-Family-227 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`5ac087d8d45c560368a54022334e78e65af4f27e83cb77de19cb9e68e85ee595`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`1e8d4674e7287614044079e9d2beecb722cd6751c7dd4e6f5c584c9267154f98`.
+
+The exact next manifest-order debt is rank-9 `src_3935b14adafc945f79a7`,
+`Year 1/LCS 103/Physiology/Muscle Contraction Curves/curves.pdf` (170,573 bytes; 2
+OCR-needed native US-Letter pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
+`3935b14adafc945f79a7340521b7177bd74fc8345057505b983ce24d0de58f1d`).
+Family 186 already inventoried the bitwise-identical `All Subjects/Official Course Files`
+path, so the next family likewise requires duplicate-path adjudication with zero second
+content inventory. **Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 3 tier-6/rank-9
+path debts remain. No download, source edit, ID, content record, catalogue update, import or
+source copy was created.
