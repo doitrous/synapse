@@ -259,6 +259,19 @@ const app = express()
  */
 app.use(compression())
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
+// The student site moved to nishany.com. Old links, bookmarks, and search
+// results still name synapse.doitrous.com, so its page requests are redirected
+// permanently. /api is exempt on purpose: the installed iOS and Android builds
+// have the old host compiled in as their API base and must keep working
+// without an app update — and only GETs move, so nothing mid-POST is dropped.
+// The Host header is read directly rather than via req.hostname because the
+// app runs behind Coolify's proxy without `trust proxy` set.
+const LEGACY_STUDENT_HOSTS = new Set(['synapse.doitrous.com', 'www.synapse.doitrous.com', 'www.nishany.com'])
+app.use((req, res, next) => {
+  const host = String(req.headers.host || '').toLowerCase().split(':')[0]
+  if (!LEGACY_STUDENT_HOSTS.has(host) || req.method !== 'GET' || req.path.startsWith('/api')) return next()
+  res.redirect(301, `https://nishany.com${req.originalUrl}`)
+})
 app.use(express.json({
   // The shared content documents are whole-document saves. The question ledger
   // alone is ~23 MB and growing, so 25 MB was one import away from rejecting
@@ -277,7 +290,7 @@ const resendReceiving = resendReceivingKey ? new Resend(resendReceivingKey) : nu
 const MAIL_FROM = process.env.MAIL_FROM || 'synapse@mail.doitrous.com'
 // Where unsubscribe links point. The student origin, not the admin one — the
 // reader of a campaign is a student, and the link has to work signed out.
-const PUBLIC_ORIGIN = (process.env.PUBLIC_ORIGIN || 'https://synapse.doitrous.com').replace(/\/$/, '')
+const PUBLIC_ORIGIN = (process.env.PUBLIC_ORIGIN || 'https://nishany.com').replace(/\/$/, '')
 
 /**
  * Mail nobody asked to stop receiving.

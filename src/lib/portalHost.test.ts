@@ -14,8 +14,16 @@ test('the two production hosts are told apart, and "adminsynapse" is not "synaps
   // the admin host too, and the admin domain would hand itself away.
   assert.equal(isStudentHost(), false)
 
+  at('nishany.com')
+  assert.equal(isAdminHost(), false)
+  assert.equal(isStudentHost(), true)
+
+  // The pre-rebrand domain still serves students (mobile API host, old links).
   at('synapse.doitrous.com')
   assert.equal(isAdminHost(), false)
+  assert.equal(isStudentHost(), true)
+
+  at('www.nishany.com')
   assert.equal(isStudentHost(), true)
 })
 

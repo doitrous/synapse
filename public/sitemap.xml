@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://synapse.doitrous.com/</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://synapse.doitrous.com/ar" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/en" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapse.doitrous.com/" />
+    <loc>https://nishany.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nishany.com/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nishany.com/" />
   </url>
   <url>
-    <loc>https://synapse.doitrous.com/ar</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://synapse.doitrous.com/ar" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/en" />
+    <loc>https://nishany.com/ar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nishany.com/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/en" />
   </url>
   <url>
-    <loc>https://synapse.doitrous.com/en</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://synapse.doitrous.com/ar" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/en" />
+    <loc>https://nishany.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nishany.com/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/en" />
   </url>
   <url>
-    <loc>https://synapse.doitrous.com/pricing</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://synapse.doitrous.com/ar/pricing" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/pricing" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://synapse.doitrous.com/pricing" />
+    <loc>https://nishany.com/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nishany.com/ar/pricing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/pricing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nishany.com/pricing" />
   </url>
   <url>
-    <loc>https://synapse.doitrous.com/ar/pricing</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://synapse.doitrous.com/ar/pricing" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/pricing" />
+    <loc>https://nishany.com/ar/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://nishany.com/ar/pricing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nishany.com/pricing" />
   </url>
 </urlset>

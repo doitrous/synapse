@@ -136,7 +136,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
     canonical: c.lang === 'ar' ? '/ar' : location.pathname === '/en' ? '/en' : '/',
     alternates: { en: '/en', ar: '/ar', 'x-default': '/' },
     ogImage: c.lang === 'ar' ? '/og-image-ar.png' : '/og-image.png',
-    jsonLd: [{ '@context': 'https://schema.org', '@type': 'EducationalOrganization', name: 'Nishany by Connect', foundingDate: '2011', url: 'https://synapse.doitrous.com' }],
+    jsonLd: [{ '@context': 'https://schema.org', '@type': 'EducationalOrganization', name: 'Nishany by Connect', foundingDate: '2011', url: 'https://nishany.com' }],
   })
 
   return (

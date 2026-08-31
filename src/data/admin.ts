@@ -169,7 +169,7 @@ export const consentSettings = API_MODE ? [] : [
 
 export const institution = API_MODE ? {
   name: 'Nishany',
-  domain: 'synapse.doitrous.com',
+  domain: 'nishany.com',
   region: 'Egypt',
   contact: '',
 } : {

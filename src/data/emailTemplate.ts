@@ -75,7 +75,7 @@ const BRAND = "Orbitron,'Century Gothic',Futura,'Avenir Next','Trebuchet MS',san
  *  path resolves against the mail client and 404s. Written out rather than
  *  imported from `pageMeta.ts` for the same reason the palette is: nothing in
  *  this file may depend on the running app, so that a server can render mail. */
-const MARK_URL = 'https://synapse.doitrous.com/brand/nishany-mark.png'
+const MARK_URL = 'https://nishany.com/brand/nishany-mark.png'
 
 /** Who is sending, and from where. Required in most jurisdictions, and filters look. */
 export interface EmailSender {

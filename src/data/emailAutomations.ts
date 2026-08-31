@@ -75,7 +75,7 @@ export const PLACEHOLDERS: Record<string, string> = {
   '{{studentName}}': 'Maya',
   '{{universityName}}': 'Kasr Alainy',
   '{{yearName}}': 'Year 3',
-  '{{actionUrl}}': 'https://synapse.doitrous.com/app',
+  '{{actionUrl}}': 'https://nishany.com/app',
   '{{amount}}': '£69.00',
   '{{planName}}': 'Student — annual',
   '{{date}}': '1 September 2026',
@@ -109,7 +109,7 @@ export function fillAutomation(automation: Automation, values: Record<string, st
 }
 
 /** Where a reader goes to switch a category off. Per-recipient in a real send. */
-export const UNSUBSCRIBE_URL = 'https://synapse.doitrous.com/unsubscribe?token=preview'
+export const UNSUBSCRIBE_URL = 'https://nishany.com/unsubscribe?token=preview'
 
 /**
  * One automation, as the message that goes out.

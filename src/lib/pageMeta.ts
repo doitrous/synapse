@@ -19,7 +19,7 @@ import { useEffect } from 'react'
  * `docs/pricing-page.md`.
  */
 
-export const SITE_ORIGIN = 'https://synapse.doitrous.com'
+export const SITE_ORIGIN = 'https://nishany.com'
 
 export interface PageMeta {
   title: string
