@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "5bce465ea14cd45eb17f94dee03a2166b0350def364af51d04aa78fb099a8ae8",
-    "triageMarkdown": "7087ed92d61fdf0295e98f85895d097d6097953d35d3633fc7b741956bc96dfc"
+    "readinessMarkdown": "a29e3131cf156a17535da75ca355426d34632e3de405c37df2ff5db158220c62",
+    "triageMarkdown": "9cf7e50d47aca53a09fd47e4b87d9556aacf68d4b9e3c68a0ba28008c35ff38c"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -96,11 +96,12 @@
       "d563da91fcfe9ac872abf66c7f91729535a895bcc329978a67321fcf4aec3f43",
       "d81b956eb2c8a26aada7ab5105d66d5a6c62a1047bfdf2a3c517b9966a3f00fc",
       "dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470",
+      "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 30
+    "uniqueSha256": 31
   },
   "completedSourceCoverage": [
     {
@@ -1825,11 +1826,107 @@
         "printed forms Corynebacterium Diphtheria, Male anopheles and generic Topoisomerase remain uncorrected",
         "simplified or academically questionable pharmacology claims and answer tokens remain source truth"
       ]
+    },
+    {
+      "sha256": "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
+      "sourcePages": 40,
+      "renderedReadPages": "1-40",
+      "coverClaimedQuestionCount": 120,
+      "actualQuestionCount": 140,
+      "printedPromptObservations": 140,
+      "objectiveMcqPrompts": 140,
+      "printedKeyObservations": 140,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Bacterial Growth",
+          "questionPages": "1-8",
+          "answerPages": [
+            9
+          ],
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Bacterial Genetics",
+          "questionPages": "10-17",
+          "answerPages": [
+            17
+          ],
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "Antimicrobial",
+          "questionPages": "18-25",
+          "answerPages": [
+            25
+          ],
+          "prompts": 30,
+          "answers": 30
+        },
+        {
+          "section": "General Characters of Medically Important Bacteria",
+          "questionPages": "26-30",
+          "answerPages": [
+            31
+          ],
+          "prompts": 20,
+          "answers": 20
+        },
+        {
+          "section": "Principles of Infection Prevention and Control",
+          "questionPages": "32-39",
+          "answerPages": [
+            40
+          ],
+          "prompts": 30,
+          "answers": 30
+        }
+      ],
+      "sourceFirstHandles": 14,
+      "priorFhb1022CollapsedHandles": 14,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 140,
+      "familyAnswerDelta": 140,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "priorHandleDisposition": [
+        "bacterial growth curve and generation time",
+        "bacterial nutritional and environmental growth requirements",
+        "bacterial oxygen relationships and reactive-oxygen detoxification",
+        "plasmids, transposons, bacteriophages and lysogenic conversion",
+        "mutation, variation and horizontal gene transfer",
+        "recombinant DNA, genetic engineering and gene therapy",
+        "antimicrobial classes, mechanisms and adverse effects",
+        "antimicrobial resistance mechanisms and stewardship",
+        "antifungal and antiviral mechanisms and resistance",
+        "Actinomyces, Nocardia, Pseudomonas, Clostridium and Pasteurella characteristics",
+        "infection-control principles, occupational exposure and patient isolation",
+        "standard precautions, PPE and transmission-based precautions",
+        "sterilization, disinfection and decontamination",
+        "medical waste, environmental cleaning and healthcare-associated infection prevention"
+      ],
+      "authorityDisposition": "individual Absalam101 Microsoft Word revision bank whose metadata identifies 200057470-Abdel Salam Muhammad Abdel Salam Mahmoud; it shows no MUST university, college or department authentication, examiner, sitting, marks or authenticated faculty-key claim, so all five answer tables are source answer evidence rather than an official key",
+      "boundaryDisposition": "the forty-page carrier contains five independently numbered conventional MCQ sections with complete answer tables: thirty Bacterial Growth prompts on pages 1-8 and answers on page 9; thirty Bacterial Genetics prompts on pages 10-17 with answers on page 17; thirty Antimicrobial prompts on pages 18-25 with answers on page 25; twenty General Characters of Medically Important Bacteria prompts on pages 26-30 and answers on page 31; and thirty Principles of Infection Prevention and Control prompts on pages 32-39 and answers on page 40; zero written, practical, image-dependent, source-absent or teaching prompt",
+      "preservedSourceDefects": [
+        "the cover claims 120 Questions although the five visible section counts total 140",
+        "printed section labels, capitalization, spelling and organism names remain source truth",
+        "all printed and academically questionable questions or answer tokens remain uncorrected",
+        "the answer tables are counted as source answer observations without upgrading them to authenticated faculty keys"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2587,
-    "printedKeyObservations": 2431,
+    "printedPromptObservations": 2727,
+    "printedKeyObservations": 2571,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -2015,22 +2112,28 @@
     "pages": 18,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtyFirstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Microbiology FHB102-2 Questions (Final).pdf",
     "sha256": "de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e",
     "pages": 40,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/08 Midterm Exams/FHB Microbiology Midterm Notes.pdf",
+    "sha256": "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
+    "pages": 12,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 64,
-    "uniqueSha256": 64,
-    "sortedNewlineSha256": "4e5219910672e58ece12c7b4494ae9acefc355c5a6a7b16f92fbb242bec1196c",
+    "inventoryMetadataRows": 63,
+    "uniqueSha256": 63,
+    "sortedNewlineSha256": "1a336a341fa201c294c0c77c608eae425535dd4e54b0d9484b34dae70a75b1ed",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 15,
-      "substantive-text": 27
+      "substantive-text": 26
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -2038,12 +2141,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 15,
-    "substantive-text": 27
+    "substantive-text": 26
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 30,
-    "remainingUniqueSha256": 64,
+    "processedUniqueSha256": 31,
+    "remainingUniqueSha256": 63,
     "processedPlusRemaining": 94
   }
 }

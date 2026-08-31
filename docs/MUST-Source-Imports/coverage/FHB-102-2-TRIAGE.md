@@ -1233,3 +1233,56 @@ Removing the thirty processed hashes leaves **64 selected inventory paths / 64 u
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Microbiology FHB102-2 Questions (Final).pdf`, SHA-256 `de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e`, 40 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 64 selected inventory paths / 64 unique hashes remain untriaged.
+
+## Completed source — Microbiology FHB102-2 Questions (Final)
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/06 EOM Exams/EOM MCQs - Microbiology FHB102-2 Questions (Final).pdf` | `de82a2be9297f187ff00807a2769b02a8c31cc4d8f9a0a5deb28fb4ad1067c9e` | 40 | substantive-text | pages 1–40 rendered and read | Individual Absalam101 Microsoft Word revision bank whose metadata identifies `200057470-Abdel Salam Muhammad Abdel Salam Mahmoud`. No MUST university, college or department authentication, examiner, sitting, marks or authenticated faculty-key claim is visible; the answer tables are source answer evidence rather than an official key. |
+
+### Exact objective, written, practical, image and answer boundary
+
+The source contains five independently numbered conventional MCQ sections with complete source answer tables:
+
+| Section | Question pages | Answer page | Objective prompts | Source answers |
+|---|---|---:|---:|---:|
+| Bacterial Growth | 1–8 | 9 | 30 | 30 |
+| Bacterial Genetics | 10–17 | 17 | 30 | 30 |
+| Antimicrobial | 18–25 | 25 | 30 | 30 |
+| General Characters of Medically Important Bacteria | 26–30 | 31 | 20 | 20 |
+| Principles of Infection Prevention and Control | 32–39 | 40 | 30 | 30 |
+
+The exact boundary is **140 objective prompts / 140 prompt-matched printed answer observations / 0 written prompts / 0 practical or image prompts / 0 source-absent answers / 0 teaching prompts**. The cover's printed claim of `120 Questions` conflicts with the five visible section counts totaling 140 and is preserved rather than used for counting. Printed capitalization, spelling, organism descriptions and academically questionable questions or answer tokens remain source truth without correction.
+
+### Source-first handles and prior-FHB-102-2 collapse
+
+The 140 physical prompts collapse into fourteen coherent source-first handles. Every handle is already represented in completed FHB-102-2 evidence, so none survives the external search gate.
+
+| Source-first handle | Prior-FHB-102-2 disposition |
+|---|---|
+| Bacterial growth curve and generation time | prior bacterial-growth handle |
+| Bacterial nutritional and environmental growth requirements | prior growth-requirements handle |
+| Bacterial oxygen relationships and reactive-oxygen detoxification | prior oxygen-relationship handle |
+| Plasmids, transposons, bacteriophages and lysogenic conversion | prior bacterial-genetics handle |
+| Mutation, variation and horizontal gene transfer | prior mutation/gene-transfer handle |
+| Recombinant DNA, genetic engineering and gene therapy | prior genetic-engineering handle |
+| Antimicrobial classes, mechanisms and adverse effects | prior antimicrobial handle |
+| Antimicrobial resistance mechanisms and stewardship | prior resistance/stewardship handle |
+| Antifungal and antiviral mechanisms and resistance | prior antiviral/antifungal handle |
+| Actinomyces, Nocardia, Pseudomonas, Clostridium and Pasteurella characteristics | prior medically important bacteria handle |
+| Infection-control principles, occupational exposure and patient isolation | prior infection-control handle |
+| Standard precautions, PPE and transmission-based precautions | prior precautions/PPE handle |
+| Sterilization, disinfection and decontamination | prior decontamination handle |
+| Medical waste, environmental cleaning and healthcare-associated infection prevention | prior waste/environmental-control handle |
+
+Search arithmetic is therefore **14 source-first − 14 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-first one-path hash is now `sourceProcessed=true`, adding **+140 questions / +140 answers / +0 concepts**. Cumulative triage is **2,727 questions / 2,571 answers / 62 concepts**.
+
+Removing the thirty-one processed hashes leaves **63 selected inventory paths / 63 unique SHA-256s**. Their sorted-newline checksum is `1a336a341fa201c294c0c77c608eae425535dd4e54b0d9484b34dae70a75b1ed`. Remaining audit-review debt is **26 substantive-text / 15 sparse-text / 10 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`31 + 63 = 94`** and path accounting is **`33 + 63 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/08 Midterm Exams/FHB Microbiology Midterm Notes.pdf`, SHA-256 `90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab`, 12 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 63 selected inventory paths / 63 unique hashes remain untriaged.
