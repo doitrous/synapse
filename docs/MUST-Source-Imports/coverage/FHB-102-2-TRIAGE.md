@@ -970,3 +970,31 @@ Removing the twenty-one processed hashes leaves **75 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial genetics MCQs.pdf`, SHA-256 `802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43`, 3 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 75 selected inventory paths / 73 unique hashes remain untriaged.
+
+## Completed source — bacterial genetics MCQs
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial genetics MCQs.pdf` | `802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43` | 3 | substantive-text | pages 1–3 rendered and read | PowerPoint-generated `Micro MCQs / Bacterial genetics (FHB-2)` revision carrier visibly credited `By: Asma S.E`, with matching author metadata. No institution, department, module authentication, examiner, sitting, marks, date or authenticated faculty-key claim is visible. Inline answer lists are source evidence, not an official MUST key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–3 contain one continuous Q1–Q30 sequence and complete inline answer lists after Q9, Q20 and Q30. Q17–Q20 are four independently numbered matching prompts. The exact boundary is **30 objective prompts / 30 prompt-matched printed answer observations / 0 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**, split **26 conventional MCQs / 4 matching prompts**.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The bank collapses into four handles: bacterial genetic elements and variation; transformation/conjugation/transduction; lytic and lysogenic phage cycles/conversion; and recombinant-DNA methods plus resistance-bearing elements. All are established by prior module-wide and bacterial-genetics banks, so **0 accepted × 4 = 0 searches**. It is distinct rather than an exact normalized prompt sibling. Post-prior disposition is **0 live / 0 pending / 0 new**. Printed spelling, `conjunction` for conjugation, `contagious` for transposable and academically questionable wording or answer tokens remain source truth without correction.
+
+### Completed-source delta, cumulative totals and next source
+
+This twenty-second one-path hash is now `sourceProcessed=true`, adding **+30 questions / +30 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 2,429 | 2,287 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the twenty-two processed hashes leaves **74 selected inventory paths / 72 unique SHA-256s**. Their sorted-newline checksum is `a561317b32bdcb910a35b68faf00ff33d51c12a2c4a6b2719d319cd0c63d6b2b`. Remaining audit-review debt is **32 substantive-text / 19 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`22 + 72 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial growth mcqs.pdf`, SHA-256 `99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438`, 4 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 74 selected inventory paths / 72 unique hashes remain untriaged.

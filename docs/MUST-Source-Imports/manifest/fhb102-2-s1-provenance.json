@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "78be6813834b60e3bb8e242902825031c54aa1923f5bbce634c00d6a58b6e07d",
-    "triageMarkdown": "223f43841f8c3819cfbbebb483c7be84a78e51692dd474f5b08ed19e0528556c"
+    "readinessMarkdown": "e81143bcf28a86b30c5fbfac7fce0ddafae80edc505c068e269b603ca5de52f0",
+    "triageMarkdown": "1d786c988497c50c01562a258c510bd743f2b881faea7a5dcb7069cefabc5c28"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -75,6 +75,7 @@
       "3caac35420de8faf6fcfeb9c291f2d6fcd464f5b3ebd288c5dc810defe4ed78a",
       "40f81a419bd6c6eab30d2835ed2b029111e96ab615c3db50618c52c8448d327a",
       "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+      "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "994657a11ad9f2f6192e8578cbf97e6142fc96452a0742a375b3ee86ab752ecc",
@@ -91,7 +92,7 @@
       "e783e4871dd209458fcd73b69c39fed532d4aee593fa4097c2d739b1df388def",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 21
+    "uniqueSha256": 22
   },
   "completedSourceCoverage": [
     {
@@ -1304,11 +1305,64 @@
         "academically questionable statements or answer tokens remain source truth without correction",
         "the title year 2025 and PDF creation date in 2026 are preserved without inferring an exam sitting"
       ]
+    },
+    {
+      "sha256": "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "questionAndAnswerPages": "1-3",
+      "printedPromptObservations": 30,
+      "objectiveMcqPrompts": 30,
+      "conventionalMcqPrompts": 26,
+      "objectiveMatchingPrompts": 4,
+      "printedKeyObservations": 30,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Bacterial-genetics questions 1-9",
+          "questionAndAnswerPage": 1,
+          "prompts": 9,
+          "answers": 9
+        },
+        {
+          "section": "Bacterial-genetics questions 10-20",
+          "questionAndAnswerPage": 2,
+          "prompts": 11,
+          "answers": 11
+        },
+        {
+          "section": "Bacterial-genetics questions 21-30",
+          "questionAndAnswerPage": 3,
+          "prompts": 10,
+          "answers": 10
+        }
+      ],
+      "sourceFirstHandles": 4,
+      "priorFhb1022CollapsedHandles": 4,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 30,
+      "familyAnswerDelta": 30,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "PowerPoint-generated Micro MCQs / Bacterial genetics (FHB-2) revision carrier visibly credited By: Asma S.E and carrying matching author metadata, but with no visible institution, department, module authentication, examiner, sitting, marks, date or authenticated faculty-key claim; inline answer lists are source evidence rather than an official MUST key",
+      "boundaryDisposition": "one continuous Q1-Q30 objective sequence over three pages with complete inline answer lists after Q9, Q20 and Q30; Q17-Q20 are four independently numbered matching prompts; thirty prompt occurrences and thirty prompt-matched answer observations with no written, practical, image-identification or teaching prompt boundary",
+      "preservedSourceDefects": [
+        "Q17-Q20 are independent matching occurrences rather than one composite",
+        "printed conjunction for conjugation, contagious for transposable, spelling and other academically questionable wording or answer tokens remain source truth without correction",
+        "the FHB-2 heading and author credit are not treated as institution, exam-sitting or authenticated faculty-key authority"
+      ]
     }
   ],
   "triageCumulative": {
-    "printedPromptObservations": 2399,
-    "printedKeyObservations": 2257,
+    "printedPromptObservations": 2429,
+    "printedKeyObservations": 2287,
     "namedConceptsAssigned": 62,
     "liveHits": 0,
     "pendingHits": 0,
@@ -1440,22 +1494,28 @@
     "pages": 10,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "twentySecondSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial genetics MCQs.pdf",
     "sha256": "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
     "pages": 3,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - bacterial growth mcqs.pdf",
+    "sha256": "99c432be9bba05e5b9cef41f9baa4d6ed2587fe2a8281ec93afafc19c5b52438",
+    "pages": 4,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 75,
-    "uniqueSha256": 73,
-    "sortedNewlineSha256": "a8b3a940543ff395c0c4dcf4f0d7c93b27c9fff92f9f209fb9a75341ba762cc6",
+    "inventoryMetadataRows": 74,
+    "uniqueSha256": 72,
+    "sortedNewlineSha256": "a561317b32bdcb910a35b68faf00ff33d51c12a2c4a6b2719d319cd0c63d6b2b",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 2,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 19,
-      "substantive-text": 33
+      "substantive-text": 32
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -1463,12 +1523,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 19,
-    "substantive-text": 33
+    "substantive-text": 32
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 21,
-    "remainingUniqueSha256": 73,
+    "processedUniqueSha256": 22,
+    "remainingUniqueSha256": 72,
     "processedPlusRemaining": 94
   }
 }
