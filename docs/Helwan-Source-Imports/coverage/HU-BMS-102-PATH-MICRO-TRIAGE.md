@@ -25328,3 +25328,95 @@ Lab 8 - Prescription writing`. Its first page visibly begins `Writing prescripti
 Doha`; full visible authority, teaching/prompt/key/image/practical boundary, four-search gate,
 prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
 adjudicated.
+
+## Family 250 — Habiba Doha prescription-writing virtual-lab teaching deck
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_92649f43ec72b43d2770` · `4_5951720981625053205.pdf` under `Pharmacology / Practical Labs / Virtual Lab 8 - Prescription writing` |
+| SHA-256 / size | `92649f43ec72b43d2770965b05798b0777ea3e38dbdaf2ec35a7b235b76081cd` · **804,958 bytes** |
+| Format / complete audit | **14 native-text landscape pages**, each 791×593 points. All 14 pages were rendered at 140 dpi into 14 non-empty 1538×1153-pixel images and read individually; four ordered contact sheets, complete layout extraction, and the embedded-image inventory were also inspected. There is no form, JavaScript, encryption, response field, hidden answer mark, or unrendered page. |
+| Native/image reality | Layout extraction contains **411 words / 2,961 bytes** and preserves all headings, rules, and explanatory text. Illustrative raster photographs and completed prescription examples occur on pages 1–5, 8–12, and 14; they are visible teaching art/examples rather than separate prompt or station layers. The manifest's `native` classification is accurate. |
+| Visible authority | Page 1 visibly names **Dr. Habiba Doha** beneath `Writing prescription`. No page visibly names Helwan University, a faculty, module, academic year, assessment sitting, candidate, examiner, or mark allocation. Helwan/module placement is supplied by the tier-5 folder and manifest, while instructor attribution is source-visible. |
+| Metadata caution | The PDF exposes no title, author, creation date, or modification date. Folder placement cannot supply an exam date, academic-year claim, or administered-station status. |
+| Authority | Instructor-attributed Helwan-folder virtual-lab **teaching deck**, not an administered assessment, authenticated practical station, candidate response, or official answer key. |
+
+### Exhaustive fourteen-page teaching, prompt, key, image, and practical boundary
+
+| Page | Complete visible content | Boundary ruling |
+|---:|---|---|
+| 1 | `Writing prescription`; Dr. Habiba Doha; prescription-writing photograph | Title/authority and decorative teaching image only; **0 prompts / 0 answers**. |
+| 2 | Prescription as physician-instruction message; six writing policies: no ready-written prescription, write without hesitation, avoid rewriting, clear handwriting, no patient conversation while writing, warn against prolonged use | Completed rules; imperative wording addresses prescriber conduct, not a learner task; **0 / 0**. |
+| 3 | Nine parts: prescriber information, date/patient information, superscription, inscription, subscription, label/transcription, physician signature, refill data, substitution permission; completed sample prescription image | Declarative inventory and example; **0 / 0**. |
+| 4 | Definitions of prescriber information and date/patient information; completed prescription image | Teaching/example; **0 / 0**. |
+| 5 | Superscription (`R/`, `Recipo`) and inscription components: full drug name, concentration, dosage form; annotated `CORRECT PRESCRIPTION` image | Fully labelled worked example, not an image question; **0 / 0**. |
+| 6 | Subscription directions to pharmacist; Arabic patient label/transcription; physician signature | Completed definitions; **0 / 0**. |
+| 7 | Refill data and substitution-permitted meaning | Completed definitions; **0 / 0**. |
+| 8 | Fully annotated prescription template with Bisoprolol 5 mg tablets, `One tab O.D.`, Arabic label, substitution/refill/signature fields | Completed structural model; no instruction asks the learner to fill, identify, correct, or submit it; **0 / 0** and **0 stations**. |
+| 9 | Narcotic-prescription definition and illustrative drug-label photograph; opium/cocaine examples | Declarative teaching; **0 / 0**. |
+| 10 | Narcotic rules 1–3: licensed doctor/special Ministry form, physician signature/address, patient name/age/sex/diagnosis/date | Completed rules; **0 / 0**. |
+| 11 | Narcotic rules 4–6: dose in numbers and letters, two copies, pharmacist retention/no repeat | Completed rules; **0 / 0**. |
+| 12 | Causes of prescription failure: diagnosis, drug/dose/duration choice, interactions, incompatibility, non-compliance | Completed teaching list; **0 / 0**. |
+| 13 | Patient non-compliance definition and disease-, drug-, doctor-, and patient-related factors | Completed teaching; **0 / 0**. |
+| 14 | `Thank you!!!` closing image | Closing art only; **0 / 0**. |
+
+The complete carrier boundary is **0 MCQs / 0 written prompts / 0 drawing tasks / 0 image-bearing
+operations / 0 answers / 0 unkeyed prompts / 0 practical stations / 0 candidate responses**.
+Prescription photographs, filled samples, labels, arrows, and the Bisoprolol template are
+diagnosis-disclosing or fully annotated teaching examples. Virtual-lab placement and imperative
+clinical rules do not authenticate a learner operation without a task instruction, examiner or
+candidate direction, response field, checklist, timer, or mark allocation.
+
+### Zero-handle search gate and prior-BMS reconciliation
+
+No assessment handle survives the exhaustive teaching boundary. The standing gate is therefore
+**0 accepted handles × 4 = 0 required and completed searches**. Earlier BMS pharmacology teaching
+families cover dose, route, dosage-form, adherence, and interaction concepts, but none converts
+these completed prescription-writing examples into a current question record. Prior exact
+question-handle reuse is **0**, and Family 250 contributes **+0 concepts**.
+
+### Family-250 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 250 addition | Auxiliary cumulative (Families 12–250) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,091 | 762 | 3,853 |
+| Eligible source-supplied answers | 0 | 2,125 | 405 | 2,530 |
+| Retained eligible question records | 0 | 2,795 | 552 | 3,347 |
+| Accepted handles / required searches | 0 / 0 | 2,511 / — | — | — |
+| Cross-family concept delta | +0 | +1,310 over primary | 372 | 1,682 |
+| **Distinct tested concepts** | **0 new** | **1,310 additions** | **372** | **1,682** |
+
+The arithmetic closes independently: **0 prompts = 0 answers + 0 unkeyed**; **0 retained = 0
+handles**; **0 × 4 = 0 searches**; and **0 handles - 0 prior question reuses = +0 concepts**.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,091 prompts / 2,125 answers /
+2,795 retained / 2,511 handles / +1,310 concepts**. All eligible remains **3,853 / 2,530 /
+3,347 / 1,682**. Family 250 adds instructor-attributed teaching evidence only, not an exam, key,
+authenticated station, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 250
+
+`src_92649f43ec72b43d2770` is exhausted across all fourteen rendered/native pages: every visible
+authority field, rule, example, prescription image, prompt/key/image/practical zero, search gate,
+prior-BMS relation, and arithmetic term is assigned, with **zero source remainder** and no
+Family-250 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 250
+governs **1 selected path / 1 unique hash**. The governed set through Family 250 is therefore
+**315 paths / 304 unique hashes**, leaving exactly **47 ungoverned selected paths / 44 unique
+hashes**. Checksums are **315 + 47 = 362 paths** and **304 + 44 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`7776950ee5d4b19c0b4397bc5953da1e1c29d4a4ffb3b193b506eb23a2b14ad5`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`a986d85aac14b25d76b0d4a043f909378b56f07e7e0a85b53d7f9c040918cb39`. The remaining set has zero
+hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-3 `src_246d74bcfd26314a7bae` ·
+`MCQs - Parasympathetic MCQ by Dr.Amr Elabd.pdf`, SHA-256
+`246d74bcfd26314a7baef31804c9663e850b214e2a38cd93aacbefe631ea6490`, **2,071,748 bytes**,
+**34 OCR-needed landscape A4 pages**. The manifest places it under `Pharmacology / Practical`,
+while the exact-SHA local carrier is under `Pharmacology / Questions / MCQs`; its first-page
+snippet is `parasympathetic self Assessment Dr Amr El Abd`. Full visible authority, prompt/key/
+image/practical boundary, four-search packets, prior-BMS reconciliation, arithmetic, and
+subsequent exact next debt remain to be separately adjudicated.
