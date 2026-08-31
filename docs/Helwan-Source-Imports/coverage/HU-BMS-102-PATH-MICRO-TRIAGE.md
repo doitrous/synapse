@@ -29497,3 +29497,147 @@ The exact next unprocessed BMS-102 record is tier-4 `src_75c93492c1ccc24b32ce` �
 Drug-Receptor Interactions`. Metadata records PDFium and 18 March 2026 but no author. Its visible
 drug-receptor teaching/assessment boundary, authority, replay, four-search gate, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
+## Family 292 — anonymous drug-receptor-binding teaching deck
+
+### Source identity, full read, authority, and boundary
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 src_75c93492c1ccc24b32ce · Drug-receptor binding 2.pdf |
+| Exact object | SHA-256 75c93492c1ccc24b32ce50d795f5eec69ed678905601433757f52aae2183901c · **735,860 bytes** · **30 native 959.76×540-point landscape pages** · 805 layout words |
+| Full-read method | all 30 pages rendered at 96 dpi, reviewed in page order, and reconciled to complete layout-preserving native extraction |
+| Provenance / authority | title only; PDFium Creator/Producer and 18 March 2026 creation; no visible or metadata author, university, Helwan, module code, year, sitting, marks, candidate field, or key. Local theoretical placement establishes BMS context only. |
+
+Pages 1–3 give title/outline and binding forces; pages 4–10 cover affinity, Bmax, efficacy and
+Emax; pages 11–20 cover agonist classes and dose-occupation/response relations; pages 21–29
+cover competitive and irreversible/noncompetitive antagonism and supplied curves; page 30 is
+THANK YOU. Every equation, curve, label, and example gives its result directly. There are **0
+prompts, 0 source-supplied answers, 0 retained records, 0 handles, 0 practical stations, and 0
+candidate responses**. Therefore the four-search gate is **0 × 4 = 0**; no empty search packet or
+synthetic reuse row is fabricated. The deck overlaps Family 293 teaching but no assessment
+operation exists to replay.
+
+### Arithmetic and remaining debt after Family 292
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,562 prompts / 2,541 answers /
+3,266 retained / 2,933 handles / +1,499 concepts**. All eligible remains **4,324 / 2,946 / 3,818
+/ 1,871**. The source is exhausted with zero remainder.
+
+The governed projection is **359 paths / 345 unique hashes**, leaving **3 paths / 3 hashes**:
+359 + 3 = 362 and 345 + 3 = 348. The remaining ordered path checksum is
+731d49965c54d0442dd8afa44168667011783f06f6b1125782ea6f272df38e63; the remaining
+first-occurrence hash checksum is
+662646abbe0162447ad8f8fc660361f2ef13fc7fe2594f6a3a0eeeb87da8351f. Exact next:
+src_76606ae907cf55755b51 · Drug-receptor binding.pdf · SHA-256
+76606ae907cf55755b51018d1c63d89760b3f29f09f6260abefc8fcca03e22e2.
+
+## Family 293 — Mustafa Elsayed drug-receptor-binding teaching handout
+
+### Source identity, full read, authority, and boundary
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 src_76606ae907cf55755b51 · Drug-receptor binding.pdf |
+| Exact object | SHA-256 76606ae907cf55755b51018d1c63d89760b3f29f09f6260abefc8fcca03e22e2 · **158,037 bytes** · **9 native A4 pages** · 1,231 layout words |
+| Full-read method | all nine pages rendered at 120 dpi, visually reviewed in order, and checked against complete native layout extraction |
+| Provenance / authority | metadata Author mustafa elsayed, Microsoft Word for Microsoft 365 Creator/Producer, 16 March 2026; no visible university, Helwan, module code, year, sitting, marks, candidate field, or key. |
+
+Pages 1–3 explain receptor-binding forces; page 4 gives Bmax, efficacy and Emax; pages 5–7 cover
+agonist occupation/rate and agonist types; page 8 explains antagonism; page 9 compares competitive
+and noncompetitive antagonism. It contains only completed teaching tables, statements, and curves:
+**0 prompts / 0 answers / 0 retained / 0 handles / 0 practical**. Its proposition-level overlap
+with Family 292 is teaching-only and neither carrier supplies an assessment layer. The required
+gate is **0 × 4 = 0**, prior-assessment reuse is zero, and concept delta is **+0**.
+
+### Arithmetic and remaining debt after Family 293
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,562 / 2,541 / 3,266 / 2,933 /
++1,499**; all eligible remains **4,324 / 2,946 / 3,818 / 1,871**. The governed projection is
+**360 paths / 346 unique hashes**, leaving **2 / 2**; checksums 360 + 2 = 362 and
+346 + 2 = 348. Remaining path checksum:
+89a0e217044a22c0662cb2c612c2d11e152461fd88b3ba8517ce53665b8ef690; remaining unique-hash
+checksum: 17abc13d3b1b5a1028e6984b09c3913d9888c858c139889d6c8758ee3e1bbdb1. Exact next:
+src_a9f16a8d350199f160fe · Posology 2.pdf · SHA-256
+a9f16a8d350199f160fec767c6e42f18938727fd02b87d6fb081aa7761ec4f93.
+
+## Family 294 — anonymous Posology deck with three unkeyed calculation replays
+
+### Source identity, exhaustive visual read, authority, and exact boundary
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 src_a9f16a8d350199f160fe · Posology 2.pdf |
+| Exact object | SHA-256 a9f16a8d350199f160fec767c6e42f18938727fd02b87d6fb081aa7761ec4f93 · **430,351 bytes** · **19 native 959.76×540-point landscape pages** · 611 layout words |
+| Full-read method | all 19 pages rendered at 144 dpi and visually reviewed, including individual original-detail pages 18–19, against native layout extraction |
+| Provenance / authority | PDFium Creator/Producer, 18 March 2026, no author field; no visible university, Helwan, module code, academic year, sitting, marks, candidate field, or key. |
+
+Pages 1–17 exhaustively teach posology, dose/regimen, ED50/TD50/LD50/TI, MEC/MTC/window,
+dosage factors, paediatric and elderly rules, and loading/maintenance formulas. Page 17 is
+Thank You; pages 18–19 then visibly present three separate unkeyed written calculations:
+
+| Source ref | Exact operation | Classification |
+|---|---|---|
+| p18 Q1 | six-year-old child, adult dose 200 mg | **1 unkeyed written calculation / 0 answer** |
+| p18 Q2 | TD50 500 mg and ED50 50 mg, calculate TI | **1 unkeyed written calculation / 0 answer** |
+| p19 Q3 | Cp 20 mg/L, Vd 50 L, F 0.8, calculate loading dose | **1 unkeyed written calculation / 0 answer** |
+
+Thus **3 raw = 3 retained = 3 handles**, **0 source-supplied answers / 3 absent answers**, and
+there are **0 MCQs, T/F, matching, blanks, image tasks, practical stations, or candidate
+responses**. The preceding formula pages disclose prerequisites but do not answer or key the
+calculations.
+
+### Four-search protocol and prior-BMS reconciliation
+
+| Handle | Four completed source-first searches | Disposition |
+|---|---|---|
+| young-rule-six-year-old-adult-dose-200mg | six-year-old child standard adult dose 200 mg; Young rule pediatric dose child age adult dose; pediatric dose age divided age plus 12 adult dose; calculate dose child standard adult dose | exact accepted replay of Family 236's same numeric operation; **prior reuse / +0** |
+| therapeutic-index-td50-500-ed50-50 | TD50 500 mg ED50 50 mg therapeutic index; calculate therapeutic index TD50 ED50; therapeutic-index td50-ed50 calculation; toxic dose effective dose ratio question | exact accepted replay of Family 236 (and its broader Family-223/202 ratio scope); **prior reuse / +0** |
+| bioavailability-adjusted-loading-dose-cp20-vd50-f08 | target plasma concentration 20 mg/L volume distribution 50 L bioavailability 0.8; calculate necessary loading dose Vd Cp F; loading-dose target-concentration volume-distribution bioavailability; patient target plasma concentration loading dose | exact accepted replay of Family 236's explicit-bioavailability calculation; **prior reuse / +0** |
+
+Exactly **3 × 4 = 12 searches** were completed. No live/ready/pending carrier changes the
+source-first conclusion. The three distinct source occurrences remain retained, while **3 prior
+reuses make the concept delta +0**.
+
+### Arithmetic and remaining debt after Family 294
+
+Family delta is **+3 prompts / +0 answers / +3 retained / +3 handles / 3 reuses / +0 concepts**.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,565 prompts / 2,541 answers /
+3,269 retained / 2,936 handles / +1,499 concepts**; all eligible becomes **4,327 / 2,946 / 3,821
+/ 1,871**.
+
+The governed projection is **361 paths / 347 unique hashes**, leaving **1 / 1**; checksums
+361 + 1 = 362 and 347 + 1 = 348. Remaining path checksum:
+769bb758934b5a8bcfe51b74cc0037e9a86467195e744cdf7b7f97dad9e4bfaf; remaining unique-hash
+checksum: 42611b75c06fadea6be128ac8bfb2417134f9bc2a4f596a3bc7a29275dd5cd53. Exact next:
+src_15a787e1203b5d1aed02 · Posology.pdf · SHA-256
+15a787e1203b5d1aed02d388fb7cc6e52e51831271813303cd945816c0cc01e5.
+
+## Family 295 — Posology teaching-only name twin
+
+### Source identity, full read, twin relation, and final closure
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 non-preferred name twin src_15a787e1203b5d1aed02 · Posology.pdf |
+| Exact object | SHA-256 15a787e1203b5d1aed02d388fb7cc6e52e51831271813303cd945816c0cc01e5 · **290,803 bytes** · **6 native A4 pages** |
+| Full-read method | all six pages rendered at 144 dpi and visually reviewed against complete native layout extraction |
+| Provenance / authority | metadata Author mustafa elsayed, Microsoft Word for Microsoft 365, 16 March 2026; no visible university, Helwan, module code, academic year, sitting, marks, candidate field, or key. |
+
+The six pages contain only completed Posology instruction: definitions, TI/MEC/MTC/window,
+physiological/pathological/environmental/route factors, paediatric/elderly rules, and
+loading/maintenance formulas. This is the plain six-page name twin identified against Family 236:
+it is not byte-identical, but overlaps the same propositions and has **no question block**. It
+therefore contributes **0 prompts / 0 answers / 0 retained / 0 handles / 0 practical**. No
+four-search packet or prior-handle row is warranted: **0 × 4 = 0**, reuse zero, concept delta
+**+0**.
+
+Family 295 closes at **primary 762 prompts / 405 answers / 552 retained / 372 concepts**;
+**auxiliary 3,565 prompts / 2,541 answers / 3,269 retained / 2,936 handles / +1,499 concepts**;
+and **all eligible 4,327 prompts / 2,946 answers / 3,821 retained / 1,871 concepts**.
+
+The HU-BMS-102 manifest is now fully governed: **362 selected paths / 348 unique hashes**, with
+**0 ungoverned paths / 0 ungoverned hashes**. Checksums close as 362 + 0 = 362 and
+348 + 0 = 348. Under the newline-terminated ordered-ledger convention, both empty remaining
+ledgers SHA-256 to
+01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b. There is no next source
+and no remaining source, assessment, authority, replay, arithmetic, path, or hash debt.
