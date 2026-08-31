@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14 and Q15 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14, Q15 and Q16 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
 
 ## confidence
 0.55
@@ -541,6 +541,61 @@ Locally supplied teaching material; internal curriculum authoring only.
 
 ## qualification
 All 22 pages were rendered and visually read. The deck contains no visible institution, department, lecturer or examiner attribution. Page 17 explicitly includes streptomycin in the aminoglycoside list; pages 18 and 20 teach aminoglycoside inner-ear accumulation and ototoxicity, including eighth-cranial-nerve injury. This supports Q15's unchanged printed C. The deck also teaches tetracycline phototoxicity and hepatotoxicity on page 13, keeping those Q15 distractors attached to a different 30S-inhibitor class rather than to streptomycin.
+
+## confidence
+0.75
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_3a69ab072e403a68f287
+
+## title
+FHB102-2 Antimicrobial Protein Inhibitors
+
+## institution
+Locally filed under MUST FHB102-2; no authenticated faculty, department, lecturer or examiner attribution is visible; PDF metadata author Jost
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025-04-05
+
+## accessed_at
+2026-09-01
+
+## page_count
+49
+
+## sha256
+3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+All 49 pages were previously rendered and visually read under the governed FHB102-2 source triage. Pages 26–32 were directly rechecked for Q16. Page 31 explicitly lists aplastic anemia under chloramphenicol adverse effects, supporting the anonymous bank's unchanged printed A without inference. The deck is teaching evidence only and contains no authenticated examiner key.
 
 ## confidence
 0.75

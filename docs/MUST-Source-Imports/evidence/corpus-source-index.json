@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 10,
+ "count": 11,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -228,6 +228,31 @@
    "sha256": "e059ca4507cf3177b36253ec15d510c14512bda3adcf17fd671f6fe9376b9f6c",
    "processingStatus": "fully_governed",
    "pageCount": 22,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_3a69ab072e403a68f287": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/06 EOM Exams/EOM - 3. Antimicrbial Protein inhibitors.pdf",
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/Antimicrbial Protein inhibitors.pdf"
+   ],
+   "sha256": "3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5",
+   "processingStatus": "fully_governed",
+   "pageCount": 49,
    "languages": [
     "en"
    ],
