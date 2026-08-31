@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { BookOpenCheck, CalendarDays, Check, CirclePause, CirclePlay, RotateCcw, Users } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
-import type { MaristanaLandingCopy } from './maristanaContent'
+import type { NishanyLandingCopy } from './nishanyContent'
 
 const STAGE_DELAY = 1800
 
@@ -20,7 +20,7 @@ function useReducedMotion(): boolean {
   return reduced
 }
 
-function StudySurface({ stage, c }: { stage: number; c: MaristanaLandingCopy }) {
+function StudySurface({ stage, c }: { stage: number; c: NishanyLandingCopy }) {
   const ar = c.lang === 'ar'
   const copy = {
     session: ar ? 'فشل القلب · الآليات والعلامات' : 'Heart failure · mechanisms & findings',
@@ -173,7 +173,7 @@ function StudySurface({ stage, c }: { stage: number; c: MaristanaLandingCopy }) 
   )
 }
 
-export function MaristanaShowcase({ c }: { c: MaristanaLandingCopy }) {
+export function NishanyShowcase({ c }: { c: NishanyLandingCopy }) {
   const [stage, setStage] = useState(0)
   const [playing, setPlaying] = useState(false)
   const [visible, setVisible] = useState(false)

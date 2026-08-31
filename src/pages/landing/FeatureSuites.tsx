@@ -6,9 +6,9 @@ import {
 } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
-import type { FeaturePreview, MaristanaLandingCopy } from './maristanaContent'
+import type { FeaturePreview, NishanyLandingCopy } from './nishanyContent'
 
-function PreviewFrame({ item, c }: { item: FeaturePreview; c: MaristanaLandingCopy }) {
+function PreviewFrame({ item, c }: { item: FeaturePreview; c: NishanyLandingCopy }) {
   const ar = c.lang === 'ar'
 
   return (
@@ -133,7 +133,7 @@ function GrowPreview({ ar }: { ar: boolean }) {
 }
 function Wing({ className, label }: { className: string; label: string }) { return <div className={cn('absolute grid place-items-center rounded-md border border-primary-line bg-primary-tint text-[8.5px] font-semibold text-primary-strong shadow-panel', className)}>{label}</div> }
 
-function DesktopSuites({ c }: { c: MaristanaLandingCopy }) {
+function DesktopSuites({ c }: { c: NishanyLandingCopy }) {
   const [suiteIndex, setSuiteIndex] = useState(0)
   const [itemIndex, setItemIndex] = useState(0)
   const suite = c.featureSuites[suiteIndex]
@@ -154,7 +154,7 @@ function DesktopSuites({ c }: { c: MaristanaLandingCopy }) {
   </div>
 }
 
-function MobileSuites({ c }: { c: MaristanaLandingCopy }) {
+function MobileSuites({ c }: { c: NishanyLandingCopy }) {
   const [open, setOpen] = useState(0)
   const [items, setItems] = useState<Record<number, number>>({})
   return <div className="space-y-3 lg:hidden">{c.featureSuites.map((suite, suiteIndex) => {
@@ -169,7 +169,7 @@ function MobileSuites({ c }: { c: MaristanaLandingCopy }) {
   })}</div>
 }
 
-export function FeatureSuites({ c }: { c: MaristanaLandingCopy }) {
+export function FeatureSuites({ c }: { c: NishanyLandingCopy }) {
   return <section id="practice-suite" className="scroll-mt-24 py-24 sm:py-28">
     <div className="mb-9 border-b-2 border-ink pb-4">
       <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-primary-strong">{c.suites.eyebrow}</p>

@@ -5,13 +5,13 @@ import { usePageMeta } from '@/lib/pageMeta'
 import { MarketingShell } from './MarketingShell'
 import { PricingTeaser } from './PricingTeaser'
 import { FeatureSuites } from './FeatureSuites'
-import { MaristanaShowcase } from './MaristanaShowcase'
-import { maristanaCopy } from './maristanaContent'
+import { NishanyShowcase } from './NishanyShowcase'
+import { nishanyCopy } from './nishanyContent'
 import type { LandingContent } from './content'
 
 const TRIAL_PATH = '/signup?plan=maristana&period=term'
 
-function TodaySurface({ c }: { c: ReturnType<typeof maristanaCopy> }) {
+function TodaySurface({ c }: { c: ReturnType<typeof nishanyCopy> }) {
   return (
     <div className="relative">
       <div className="absolute -inset-x-3 top-8 bottom-8 -z-10 border-y border-line bg-surface-2/45" aria-hidden />
@@ -45,9 +45,9 @@ function TodaySurface({ c }: { c: ReturnType<typeof maristanaCopy> }) {
   )
 }
 
-function Provenance({ c }: { c: ReturnType<typeof maristanaCopy> }) {
+function Provenance({ c }: { c: ReturnType<typeof nishanyCopy> }) {
   return (
-    <section id="why-maristana" className="scroll-mt-24 py-24 sm:py-28">
+    <section id="why-nishany" className="scroll-mt-24 py-24 sm:py-28">
       <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-primary-strong">{c.provenance.eyebrow}</p>
       <div className="mt-3 grid gap-5 lg:grid-cols-[1fr_0.7fr]">
         <h2 className="max-w-2xl font-serif text-[31px] font-semibold leading-tight tracking-[-0.02em] text-ink sm:text-[40px]">{c.provenance.title}</h2>
@@ -64,7 +64,7 @@ function Provenance({ c }: { c: ReturnType<typeof maristanaCopy> }) {
         </article>
         <article className="relative border-t border-line pt-8 md:border-t-0">
           <span className="absolute top-[-1px] size-9 rounded-full border border-primary bg-surface md:top-0" aria-hidden><span className="absolute inset-[11px] rounded-full bg-primary" /></span>
-          <p className="mt-6 font-brand text-[19px] font-semibold tracking-[0.1em] text-primary-strong">MARISTANA</p>
+          <p className="mt-6 font-brand text-[19px] font-semibold tracking-[0.1em] text-primary-strong">NISHANY</p>
           <h3 className="mt-3 font-serif text-[22px] font-semibold text-ink">{c.provenance.nowTitle}</h3>
           <p className="mt-2 max-w-md text-[13.5px] leading-relaxed text-ink-2">{c.provenance.nowBody}</p>
         </article>
@@ -73,7 +73,7 @@ function Provenance({ c }: { c: ReturnType<typeof maristanaCopy> }) {
   )
 }
 
-function Curriculum({ c }: { c: ReturnType<typeof maristanaCopy> }) {
+function Curriculum({ c }: { c: ReturnType<typeof nishanyCopy> }) {
   return (
     <section className="grid items-center gap-10 border-y border-line py-20 sm:py-24 lg:grid-cols-[0.82fr_1.18fr] lg:gap-16">
       <div>
@@ -98,7 +98,7 @@ function Curriculum({ c }: { c: ReturnType<typeof maristanaCopy> }) {
   )
 }
 
-function ValueClose({ c, legacyContent }: { c: ReturnType<typeof maristanaCopy>; legacyContent: LandingContent }) {
+function ValueClose({ c, legacyContent }: { c: ReturnType<typeof nishanyCopy>; legacyContent: LandingContent }) {
   const pricingHref = c.lang === 'ar' ? '/ar/pricing' : '/pricing'
   return (
     <>
@@ -127,16 +127,16 @@ function ValueClose({ c, legacyContent }: { c: ReturnType<typeof maristanaCopy>;
 }
 
 export function LandingShell({ content }: { content: LandingContent }) {
-  const c = maristanaCopy(content.lang)
+  const c = nishanyCopy(content.lang)
   const location = useLocation()
 
   usePageMeta({
-    title: c.lang === 'ar' ? 'Maristana · تعلّم الطب بالطريقة التي ستمارسه بها' : 'Maristana · Learn medicine the way you’ll practise it',
+    title: c.lang === 'ar' ? 'Nishany · تعلّم الطب بالطريقة التي ستمارسه بها' : 'Nishany · Learn medicine the way you’ll practise it',
     description: c.hero.body,
     canonical: c.lang === 'ar' ? '/ar' : location.pathname === '/en' ? '/en' : '/',
     alternates: { en: '/en', ar: '/ar', 'x-default': '/' },
     ogImage: c.lang === 'ar' ? '/og-image-ar.png' : '/og-image.png',
-    jsonLd: [{ '@context': 'https://schema.org', '@type': 'EducationalOrganization', name: 'Maristana by Connect Academy', foundingDate: '2011', url: 'https://synapse.doitrous.com' }],
+    jsonLd: [{ '@context': 'https://schema.org', '@type': 'EducationalOrganization', name: 'Nishany by Connect', foundingDate: '2011', url: 'https://synapse.doitrous.com' }],
   })
 
   return (
@@ -157,7 +157,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
 
       <Provenance c={c} />
       <Curriculum c={c} />
-      <MaristanaShowcase c={c} />
+      <NishanyShowcase c={c} />
       <FeatureSuites c={c} />
       <ValueClose c={c} legacyContent={content} />
     </MarketingShell>

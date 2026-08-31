@@ -31,7 +31,7 @@ export interface FeatureSuite {
   items: FeaturePreview[]
 }
 
-export interface MaristanaLandingCopy {
+export interface NishanyLandingCopy {
   lang: LandingLanguage
   nav: { why: string; practice: string; together: string; pricing: string; menu: string; close: string; start: string }
   hero: { title: string; body: string; primary: string; secondary: string; trust: string }
@@ -93,10 +93,10 @@ export interface MaristanaLandingCopy {
   footer: string
 }
 
-export const MARISTANA_EN: MaristanaLandingCopy = {
+export const NISHANY_EN: NishanyLandingCopy = {
   lang: 'en',
   nav: {
-    why: 'Why Maristana',
+    why: 'Why Nishany',
     practice: 'Practice Suite',
     together: 'Study together',
     pricing: 'Pricing',
@@ -106,13 +106,13 @@ export const MARISTANA_EN: MaristanaLandingCopy = {
   },
   hero: {
     title: 'Learn medicine the way you’ll practise it.',
-    body: 'Maristana is Connect Academy’s undergraduate platform: built around your Egyptian university curriculum, then taught through the international methods that shape excellent doctors and researchers.',
+    body: 'Nishany is Connect’s undergraduate platform: built around your Egyptian university curriculum, then taught through the international methods that shape excellent doctors and researchers.',
     primary: 'Start 3 days free',
-    secondary: 'See Maristana in action',
+    secondary: 'See Nishany in action',
     trust: 'Full access for 3 days. No card.',
   },
   today: {
-    title: 'Today in Maristana',
+    title: 'Today in Nishany',
     university: 'Kasr Al Ainy · Year 2',
     date: 'Monday · 21 October',
     institution: 'University session',
@@ -126,16 +126,16 @@ export const MARISTANA_EN: MaristanaLandingCopy = {
   provenance: {
     eyebrow: 'Experience brought forward',
     title: 'Built beside doctors. Now built for your first step.',
-    body: 'Medical students should not have to relearn how knowledge connects when postgraduate training begins. Maristana brings that perspective into the undergraduate years from day one.',
+    body: 'Medical students should not have to relearn how knowledge connects when postgraduate training begins. Nishany brings that perspective into the undergraduate years from day one.',
     startTitle: 'Connect Academy begins',
     startBody: 'Founded in 2011 by Dr. Ahmed Ghait, consultant interventional radiologist, Connect Academy has worked beside postgraduate doctors for more than a decade.',
-    nowTitle: 'Maristana opens that experience earlier',
+    nowTitle: 'Nishany opens that experience earlier',
     nowBody: 'Your university scope, serious practice, and an honest picture of what you understand—connected from the start.',
   },
   curriculum: {
     eyebrow: 'Your university is already here',
     title: 'Begin inside your actual year—not another search box.',
-    body: 'Choose your university and year once. Maristana brings in the published curriculum, modules, sessions, exams and finals, then makes room for your own study blocks in the same plan.',
+    body: 'Choose your university and year once. Nishany brings in the published curriculum, modules, sessions, exams and finals, then makes room for your own study blocks in the same plan.',
     university: 'Kasr Al Ainy',
     year: 'Year 2',
     module: 'Cardiovascular module',
@@ -145,7 +145,7 @@ export const MARISTANA_EN: MaristanaLandingCopy = {
     ready: 'Scope ready',
   },
   showcase: {
-    eyebrow: 'A day in Maristana',
+    eyebrow: 'A day in Nishany',
     title: 'Watch one study session become understanding.',
     body: 'The interface moves through the same chain you will: today’s schedule, a clinical problem, the explanation behind it, the concept record, then a room with friends.',
     play: 'Play',
@@ -244,14 +244,14 @@ export const MARISTANA_EN: MaristanaLandingCopy = {
     pricing: 'See pricing',
     primary: 'Start your first 3 days',
   },
-  footer: 'Maristana by Connect Academy · Undergraduate medical learning, built in Egypt.',
+  footer: 'Nishany by Connect · Undergraduate medical learning, built in Egypt.',
 }
 
-export const MARISTANA_AR: MaristanaLandingCopy = {
-  ...MARISTANA_EN,
+export const NISHANY_AR: NishanyLandingCopy = {
+  ...NISHANY_EN,
   lang: 'ar',
   nav: {
-    why: 'لماذا Maristana',
+    why: 'لماذا نيشاني',
     practice: 'مجموعة التدريب',
     together: 'ذاكروا معًا',
     pricing: 'الأسعار',
@@ -261,32 +261,32 @@ export const MARISTANA_AR: MaristanaLandingCopy = {
   },
   hero: {
     title: 'تعلّم الطب بالطريقة التي ستمارسه بها.',
-    body: 'Maristana هي منصة Connect Academy لطلاب الطب الجامعي: مبنية حول منهج جامعتك المصرية، وتقدّمه بأساليب التعلّم الدولية التي تصنع أطباء وباحثين متميزين.',
+    body: 'نيشاني هي منصة Connect لطلاب الطب الجامعي: مبنية حول منهج جامعتك المصرية، وتقدّمه بأساليب التعلّم الدولية التي تصنع أطباء وباحثين متميزين.',
     primary: 'ابدأ ٣ أيام مجانًا',
-    secondary: 'شاهد Maristana وهي تعمل',
+    secondary: 'شاهد نيشاني وهي تعمل',
     trust: 'وصول كامل لمدة ٣ أيام. من دون بطاقة.',
   },
   today: {
-    title: 'اليوم في Maristana', university: 'قصر العيني · السنة الثانية', date: 'الاثنين · ٢١ أكتوبر',
+    title: 'اليوم في نيشاني', university: 'قصر العيني · السنة الثانية', date: 'الاثنين · ٢١ أكتوبر',
     institution: 'جلسة الجامعة', personal: 'وقت مذاكرتك', next: 'المقترح التالي',
     module: 'وحدة القلب والأوعية · فشل القلب', institutionTime: '١٠:٠٠–١١:٣٠', personalTime: '١٨:٣٠–١٩:١٥', nextTime: '١٢ دقيقة',
   },
   provenance: {
     eyebrow: 'خبرة تصل إليك مبكرًا',
     title: 'بُنيت بجوار الأطباء. والآن تبدأ معك من خطوتك الأولى.',
-    body: 'لا ينبغي لطالب الطب أن يعيد تعلّم طريقة ترابط المعرفة حين يبدأ الدراسات العليا. تحمل Maristana هذه الرؤية إلى سنوات الجامعة منذ اليوم الأول.',
+    body: 'لا ينبغي لطالب الطب أن يعيد تعلّم طريقة ترابط المعرفة حين يبدأ الدراسات العليا. تحمل نيشاني هذه الرؤية إلى سنوات الجامعة منذ اليوم الأول.',
     startTitle: 'بداية Connect Academy',
     startBody: 'أسسها عام ٢٠١١ د. أحمد غيط، استشاري الأشعة التداخلية، وعملت Connect Academy إلى جوار أطباء الدراسات العليا لأكثر من عقد.',
-    nowTitle: 'Maristana تفتح هذه الخبرة مبكرًا',
+    nowTitle: 'نيشاني تفتح هذه الخبرة مبكرًا',
     nowBody: 'نطاق جامعتك، وتدريب جاد، وصورة صادقة لما تفهمه—مترابطة منذ البداية.',
   },
   curriculum: {
     eyebrow: 'جامعتك موجودة بالفعل', title: 'ابدأ من سنتك الفعلية—لا من مربع بحث جديد.',
-    body: 'اختر جامعتك وسنتك مرة واحدة. تستحضر Maristana المنهج والوحدات والجلسات والامتحانات والنهائيات، ثم تضع خطتك الشخصية بجانبها.',
+    body: 'اختر جامعتك وسنتك مرة واحدة. تستحضر نيشاني المنهج والوحدات والجلسات والامتحانات والنهائيات، ثم تضع خطتك الشخصية بجانبها.',
     university: 'قصر العيني', year: 'السنة الثانية', module: 'وحدة القلب والأوعية', exam: 'نهائي الوحدة · ١٢ نوفمبر', personal: 'أضف وقت مذاكرة', plan: 'خطة اليوم', ready: 'النطاق جاهز',
   },
   showcase: {
-    eyebrow: 'يوم داخل Maristana', title: 'شاهد جلسة مذاكرة تتحول إلى فهم.',
+    eyebrow: 'يوم داخل نيشاني', title: 'شاهد جلسة مذاكرة تتحول إلى فهم.',
     body: 'تتحرك الواجهة في المسار نفسه الذي ستسلكه: جدول اليوم، ثم مشكلة سريرية، والشرح خلفها، وسجل المفهوم، ثم غرفة مع أصدقائك.',
     play: 'تشغيل', pause: 'إيقاف مؤقت', replay: 'إعادة',
     stages: [
@@ -362,9 +362,9 @@ export const MARISTANA_AR: MaristanaLandingCopy = {
     scholarshipBody: 'تتوفر حتى ٢٠٠ منحة خاصة سنويًا لكل جامعة عبر ممثل دفعتك أو اتحاد الطلاب. لا تظهر حالة المنحة في الملف أو الترتيب أو المساحات الاجتماعية.',
     price: '١٬٠٠٠ ج.م', priceNote: 'فصل دراسي واحد · وفّر ٢٠٠ ج.م', pricing: 'شاهد الأسعار', primary: 'ابدأ أول ٣ أيام',
   },
-  footer: 'Maristana من Connect Academy · تعلّم طبي جامعي، مبني في مصر.',
+  footer: 'نيشاني من Connect · تعلّم طبي جامعي، مبني في مصر.',
 }
 
-export function maristanaCopy(lang: LandingLanguage): MaristanaLandingCopy {
-  return lang === 'ar' ? MARISTANA_AR : MARISTANA_EN
+export function nishanyCopy(lang: LandingLanguage): NishanyLandingCopy {
+  return lang === 'ar' ? NISHANY_AR : NISHANY_EN
 }
