@@ -100,8 +100,6 @@ export function MarketingShell({
 
           <nav aria-label={c.lang === 'ar' ? 'التنقل الرئيسي' : 'Primary navigation'} className="hidden items-center gap-5 lg:flex">
             <Link to={anchor('why-nishany')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.why}</Link>
-            <Link to={anchor('practice-suite')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.practice}</Link>
-            <Link to={anchor('study-together')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.together}</Link>
             <Link to={pricing.path} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{pricing.navLabel}</Link>
           </nav>
 
@@ -147,8 +145,6 @@ export function MarketingShell({
             <nav aria-label={c.lang === 'ar' ? 'قائمة الهاتف' : 'Mobile navigation'} className="mx-auto grid max-w-[1160px] gap-1">
               {[
                 [anchor('why-nishany'), m.nav.why],
-                [anchor('practice-suite'), m.nav.practice],
-                [anchor('study-together'), m.nav.together],
                 [pricing.path, pricing.navLabel],
               ].map(([href, label]) => (
                 <Link key={href} to={href} onClick={() => setMenuOpen(false)} className="flex min-h-11 items-center border-b border-line text-[13px] font-semibold text-ink-2 last:border-b-0">{label}</Link>

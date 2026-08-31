@@ -852,6 +852,38 @@
   animation: cortex-calibrate-pop var(--dur-calibrate) var(--ease-out-quint) both;
 }
 
+/* Landing hero: the Noon Dot drawn as an aiming target. One orchestrated
+   reveal on load — the bowl draws in, the dot settles, one pulse rings out.
+   The global prefers-reduced-motion rule collapses all three to their end
+   states, which is exactly the finished artwork. */
+.landing-target-bowl {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: landing-bowl-draw 0.9s cubic-bezier(0.5, 0, 0.2, 1) 0.1s forwards;
+}
+.landing-target-dot {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: landing-dot-settle 0.7s cubic-bezier(0.34, 1.45, 0.44, 1) 0.85s backwards;
+}
+.landing-target-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  opacity: 0;
+  animation: landing-pulse-out 1.5s cubic-bezier(0.2, 0.6, 0.3, 1) 1.5s forwards;
+}
+@keyframes landing-bowl-draw {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes landing-dot-settle {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+@keyframes landing-pulse-out {
+  from { transform: scale(1); opacity: 0.5; }
+  to { transform: scale(3); opacity: 0; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
