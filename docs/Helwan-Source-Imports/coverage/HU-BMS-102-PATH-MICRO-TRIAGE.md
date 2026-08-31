@@ -28715,3 +28715,90 @@ The exact next unprocessed BMS-102 record is tier-4 preferred-name twin
 Drugs`. Metadata supplies no title or author field. Its exact relation to the nonpreferred
 near-name carrier governed in Family 225, visible antifungal teaching boundary, authority gate,
 arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 283 — anonymous preferred-name antifungal teaching deck
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 preferred-name twin `src_a53dd0edb4292fff3839` · `Anti- Fungal drugs.pdf` |
+| Exact object | SHA-256 `a53dd0edb4292fff38395c5de3162bdea131b86019ed474dad24dd6b19becceb` · **487,255 bytes** · **21 native 791×445-point landscape pages** · 752 extracted words |
+| Full-read method | all 21 pages rendered at 144 dpi and reviewed in three ordered seven-page visual sheets against complete layout-preserving native extraction |
+| Visible provenance | pages visibly supply the title `Anti-Fungal drugs`, completed topic headings, diagrams, drug summaries, and `Thank You` only. No author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, candidate field, marks, or key marker is printed. |
+| Metadata | no title or author field, no form, JavaScript, encryption, or interactive answer layer. The metadata therefore cannot supply academic or assessment authority. |
+| Authority / eligibility | BMS-102 theoretical-folder placement and preferred manifest rank establish local teaching context, not a Helwan-authenticated lecture, assessment, official key, or dated sitting. The visible source remains anonymous. |
+
+### Complete teaching, prompt, answer, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1–3 | title; systemic-versus-local infection split; numbered systemic-drug classification for amphotericin B, flucytosine, azoles, and echinocandins | title and completed teaching diagrams; numbers label supplied classes rather than candidate operations |
+| 4–6 | amphotericin B source, chemistry, pharmacokinetics, ergosterol-pore mechanism, spectrum, uses, and infusion/dose/neurotoxicity | declarative teaching; **0 prompts / 0 answers / 0 practical** |
+| 7–8 | flucytosine source, chemistry, pharmacokinetics, fungal conversion/mechanism, spectrum, and adverse effects | completed drug summary; no response field |
+| 9–11 | azole members/PK, fungal-CYP450 mechanism, ketoconazole/fluconazole uses, and adverse/endocrine effects | supplied comparison and teaching statements |
+| 12–13 | echinocandin members/PK, beta-glucan-synthase mechanism, caspofungin/micafungin uses, and adverse effects | completed teaching notes |
+| 14–20 | local-infection classification; griseofulvin, terbinafine, voriconazole, nystatin, and topical-azole PK, mechanisms, uses, and adverse effects | completed classification and drug summaries; **0 candidate operations** |
+| 21 | `Thank You` | closing slide only |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied answers / 0
+answer-absent prompts / 0 candidate responses**. Numbered drug groups, labelled classification
+branches, pharmacokinetic bullets, mechanism headings, uses, and adverse-effect lists disclose
+reference content rather than requesting or revealing answers to assessment operations.
+
+### Family-225 twin/replay ruling and exact four-search gate
+
+Family 225 governs the nonpreferred near-name `Anti-fungal drugs.pdf` handout at a distinct SHA,
+size, six-page portrait-A4 layout, and visible `DR . El-Sawy` footer. The current preferred carrier
+is therefore neither byte- nor page-identical. Normalized extraction nevertheless shows very close
+content relation: the carriers share **93.1% Jaccard overlap across unique word tokens**, covering
+**96.8%** of the Family-225 token vocabulary and **96.1%** of this carrier's vocabulary. The same
+systemic/local split and the same amphotericin B, flucytosine, azole, echinocandin, griseofulvin,
+terbinafine, nystatin, and topical-azole teaching sequence are re-laid across 21 slides. This is a
+distinct carrier and teaching replay, not second assessment content. Family 225's visible Dr
+El-Sawy attribution is not transferred to the current anonymous source.
+
+With **0 assessment prompts**, the accepted-handle set is **0**. Exactly four searches per
+accepted handle therefore requires and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle
+reuse is **0** and the eligible concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 283 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 283 adds anonymous antifungal teaching and preferred/nonpreferred-
+carrier replay evidence only—not a Helwan assessment, official key, written exam, authenticated
+practical, dated sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 283
+
+`src_a53dd0edb4292fff3839` is exhausted across all 21 pages: every title, classification branch,
+drug summary, mechanism, use, toxicity, closing, authority limitation, metadata field, twin/replay
+relation, zero gate, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-283 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 283 governs
+**1 selected path / 1 unique hash**. The governed set through Family 283 is therefore **348 paths /
+336 unique hashes**, leaving exactly **14 ungoverned selected paths / 12 unique hashes**. Checksums
+are **348 + 14 = 362 paths** and **336 + 12 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `d1976065a2ffd09e0aa9018d217a7646fdc259c7fec110dfabdc80086a34bfc9`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`c25aff86e84d88de4c2db13cc6bfafa4aa9e8da1abad95e43aae3ef2d765f9dc`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_96783a34a995a335e2b9` · `Cytotoxic
+Drugs (1).PDF`, SHA-256 `96783a34a995a335e2b97434d0a7f2483e5d6888266376b7b55df40d4189b361`,
+**187,938 bytes**, **16 native landscape US-letter pages** under `Pharmacology / Theoretical /
+Lec 15 - Anticancer Drugs`. Metadata supplies no title or author field and records creation and
+modification on 14 April 2026. Its visible cytotoxic-drug teaching boundary, institutional/
+assessment authority, arithmetic, and subsequent exact debt remain to be separately adjudicated.
