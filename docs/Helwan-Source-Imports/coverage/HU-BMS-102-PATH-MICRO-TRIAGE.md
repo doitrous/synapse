@@ -28462,3 +28462,91 @@ creation on 1 November 2019 with modification on 6 April 2026. Its visible autac
 and appended ACE-inhibitor/ARB teaching boundary, absence of institutional/module/assessment
 markers, authority gate, arithmetic, and subsequent exact debt remain to be separately
 adjudicated.
+
+## Family 280 — anonymous autacoid deck with post-closing ACEI/ARB teaching append
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_9fc311cf066b725b794d` · `autacoids.pdf` |
+| Exact object | SHA-256 `9fc311cf066b725b794d7ff3fa8c07cfc1dadebdc96b64820c1026368c0c290a` · **888,029 bytes** · **20 native 960×540 landscape pages** · 590 extracted words |
+| Full-read method | all 20 pages rendered at 144 dpi and reviewed in two ordered ten-page visual sheets against the complete layout-preserving native extraction |
+| Visible provenance | every page carries a CamScanner mark. The substantive pages print topic headings only; no author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, candidate field, marks, or key marker is visible. |
+| Metadata | title `PowerPoint Presentation`; Author `Sherine Abdelmissih`; Aspose.Slides for Java 25.5 creator/producer; created 1 November 2019 and modified 6 April 2026; no form, JavaScript, or encryption. Metadata is uncorroborated export provenance, not visible academic authority. |
+| Authority / eligibility | BMS-102 theoretical-folder placement establishes local teaching context only. The carrier is an anonymous CamScanner-derived teaching compilation—not a Helwan-authenticated assessment, official key, or dated sitting. |
+
+### Complete teaching, prompt, answer, blank-page, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1 | `Autacoids` | title only; **0 prompts / 0 answers** |
+| 2–3 | autacoid definition and classes | completed declarative teaching |
+| 4–6 | histamine chemistry, sites, functions, receptors, signalling, and antagonist classes | supplied teaching tables/lists; no response field |
+| 7–12 | first- versus second-generation H1 blockers: names, pharmacokinetics, pharmacodynamics, uses, and adverse effects | completed classifications, comparisons, examples, and clinical-use lists; **0 candidate operations** |
+| 13 | `Thanks` | closing slide; it terminates the autacoid/antihistamine deck |
+| 14 | ACE-inhibitor mechanism and effects | unrelated post-closing teaching append; declarative content only |
+| 15 | visually empty except CamScanner mark | blank capture page; no prompt or concealed field |
+| 16 | ACE-inhibitor indications and members | unrelated post-closing teaching append |
+| 17 | visually empty except CamScanner mark | blank capture page |
+| 18–19 | ARB members, mechanism, side effects, and ACEI-intolerance alternative | unrelated post-closing teaching append; supplied facts only |
+| 20 | visually empty except CamScanner mark | blank terminal capture page |
+
+The exact page-role arithmetic is **15 teaching/reference pages + 1 title + 1 closing + 3 visibly
+blank pages = 20 pages**. The exhaustive assessment boundary is **0 objective prompts / 0
+free-response written prompts / 0 practical stations / 0 image-identification prompts / 0
+supplied answers / 0 answer-absent prompts / 0 candidate responses**. Headings, classifications,
+comparison columns, highlighted phrases, and CamScanner marks do not create response operations.
+
+### Teaching replay and exact four-search gate
+
+The autacoid/H1-antagonist material replays teaching scope already covered in Family 245, while
+the appended ACE-inhibitor/ARB material replays general cardiovascular pharmacology present in
+earlier pharmacology teaching and question families. The post-`Thanks` subject switch and three
+blank captures are retained as source-composition evidence; they do not create a second carrier or
+assessment. With **0 assessment prompts**, no tested handle survives for semantic reconciliation.
+
+The accepted-handle set is **0**. Exactly four searches per accepted handle therefore requires
+and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle reuse is **0** and the eligible
+concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 280 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 280 adds anonymous teaching, post-closing subject-switch, and blank-page
+evidence only—not a Helwan assessment, official key, written exam, authenticated practical,
+dated sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 280
+
+`src_9fc311cf066b725b794d` is exhausted across all 20 pages: every title, teaching slide, closing,
+post-closing append, blank capture, authority limitation, metadata field, replay relation, zero
+gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-280
+blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 280 governs
+**1 selected path / 1 unique hash**. The governed set through Family 280 is therefore **345 paths /
+333 unique hashes**, leaving exactly **17 ungoverned selected paths / 15 unique hashes**. Checksums
+are **345 + 17 = 362 paths** and **333 + 15 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `670fec1283116ccb8d3cadb09dee9e3298f80f51b8e3f8f563a7a56fffefffde`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`9150a0c94c01994993acd56b426a98758a3e188dccf1cd59587981bcb7968025`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_87a8ebd71f3fcb498258` · `Serotonin.pdf`,
+SHA-256 `87a8ebd71f3fcb498258bf0e952ec62f448003a3d15ce69b646b11ea40d4347e`,
+**150,785 bytes**, **6 native portrait A4 pages** under `Pharmacology / Theoretical / Lec 12 -
+Pharmacology of Serotonin`. Metadata names `mustafa elsayed` as Author, identifies Microsoft Word
+365 as creator/producer, and records creation/modification on 30 March 2026. Its visible serotonin
+teaching boundary, absence of institutional/module/assessment markers, authority gate,
+arithmetic, and subsequent exact debt remain to be separately adjudicated.
