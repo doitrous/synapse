@@ -29144,3 +29144,82 @@ of Pharmacokinetics 2.pdf`, SHA-256
 Parameters`. Metadata names author `mustafa`, Microsoft Word for Microsoft 365, and 10 March 2026.
 Its visible half-life/steady-state/kinetic-order teaching boundary, authority, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
+
+## Family 288 — metadata-attributed pharmacokinetic-parameters teaching handout
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_6ec8e354d9d887e7e1d0` · `Principles of Pharmacokinetics 2.pdf` |
+| Exact object | SHA-256 `6ec8e354d9d887e7e1d0c36eff5828dceb6119af9fd87b8ded3723025c25a607` · **164,950 bytes** · **four native portrait A4 pages** · 564 extracted words |
+| Full-read method | all four pages rendered at 144 dpi and reviewed individually at page detail against complete layout-preserving native extraction |
+| Visible provenance | page 1 titles `General Pharmacology (Principles of pharmacokinetics)`; pages 2–4 contain completed definitions, rules, and a kinetic-order table. No visible author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, marks, candidate field, or key marker appears. |
+| Metadata caution | metadata names author `mustafa`, Microsoft Word for Microsoft 365, and 10 March 2026. This export attribution/date is retained but cannot establish visible authorship, institution, delivery date, or assessment authority. No form, JavaScript, encryption, or interactive answer layer exists. |
+| Authority / eligibility | local BMS-102 theoretical teaching handout. Folder placement and metadata do not make it a Helwan-authenticated assessment, official key, practical station, or dated sitting. |
+
+### Complete teaching, callout, prompt, answer, and practical boundary
+
+| Page | Exhausted visible content | Exact governed classification |
+|---:|---|---|
+| 1 | general-pharmacology/principles-of-pharmacokinetics title | title only; **0 prompts / 0 answers** |
+| 2 | plasma/elimination and biological half-life definitions, clearance dependence, dose-interval peak/trough implications, 4–5-half-life elimination rule, and PPI example | completed teaching. `How long the drug stays in the blood?` and `How long the drug works?` are inline definitional glosses whose meanings are already supplied, not candidate response fields. |
+| 3 | steady-state definition, 4–5-half-life rule, input/output equality, IV-versus-oral pattern; distribution-alpha and elimination-beta phases | completed pharmacokinetic rules and classifications |
+| 4 | first- versus zero-order table, biphasic aspirin/phenytoin/alcohol statement, and clinical significance of zero-order kinetics | supplied comparison, examples, and consequences; **0 candidate calculation / 0 practical** |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied assessment answers /
+0 answer-absent prompts / 0 candidate responses**. The numerical half-life rules, peak/trough
+explanation, first/zero-order comparison, examples, and clinical-significance list are explanatory
+content; no unknown, response space, command, or answer reveal creates an assessment operation.
+
+### Teaching replay and exact four-search gate
+
+The half-life, steady-state, and kinetic-order propositions closely overlap completed teaching in
+Family 287 and prior pharmacokinetic notes/question banks. This carrier remains independently
+governed as source-local teaching evidence, but teaching replay is not a tested-handle occurrence.
+With **0 assessment prompts**, the accepted-handle set is **0**. Exactly four searches per accepted
+handle therefore requires and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle reuse is
+**0** and the eligible concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 288 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 288 adds metadata-attributed half-life, steady-state, and kinetic-order
+teaching/replay evidence only—not assessment, official-key, practical, verified-date,
+recurrence/readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 288
+
+`src_6ec8e354d9d887e7e1d0` is exhausted across all four pages: every title, definition, inline
+gloss, numerical rule, comparison row, example, clinical-significance statement, authority
+limitation, metadata field, replay relation, zero gate, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-288 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 288 governs
+**1 selected path / 1 unique hash**. The governed set through Family 288 is therefore **355 paths /
+341 unique hashes**, leaving exactly **7 ungoverned selected paths / 7 unique hashes**. Checksums
+are **355 + 7 = 362 paths** and **341 + 7 = 348 unique hashes**. The ordered remaining-path ledger
+has SHA-256 `19ae13bc1e2978386c13697d6ec1e7d61017511275e1983065d987d2022a39ae`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`2384a8124e34ed4f356cc0e53167b15a3101b28a1bd9eaf75a67851f0ffffe63`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_ea74070cd4dad29fc6ad` · `Principles
+of Pharmacokinetics.pdf`, SHA-256
+`ea74070cd4dad29fc6adefe4ecc4b01d89933832cc808b1c584693323d03375c`, **242,676 bytes**,
+**13 native 959.76×540-point landscape pages** under the same `Pharmacology / Theoretical /
+Lec 5 - Pharmacokinetic Parameters` folder. Metadata records PDFium and 10 March 2026 but no
+author. Its declarative teaching followed by post-closing assessment fields, answer-absence state,
+authority, four-search/prior reconciliation, arithmetic, and subsequent exact debt remain to be
+separately adjudicated.
