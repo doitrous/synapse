@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "abf317565ec185344941b04530290ce5f1c3684a17ece5d9f892a3e18370d4ad",
-    "triageMarkdown": "31f58bee3e1c13bd50e6eb0d49abbfe56906562648728188cbc8ef633c3aa754"
+    "readinessMarkdown": "3a108fec111997d4e40f53d009427a2778d23ec43f3c016c9ddc0e4e469263f8",
+    "triageMarkdown": "1f97d643ec3e8a1cbeced48f3b902a10fa0c0e719ff8d94eb4034b6a772ff3cf"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -111,6 +111,7 @@
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
+      "875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7",
       "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
@@ -153,7 +154,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 83
+    "uniqueSha256": 84
   },
   "completedSourceCoverage": [
     {
@@ -5138,6 +5139,122 @@
         "the cover edition wording and Dr Mo Haitham footer are retained as visible provenance claims without promotion to authenticated examination authority",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb",
+      "sourcePages": 40,
+      "renderedReadPages": "1-40",
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 39,
+      "nonAssessmentCloserPages": 1,
+      "closerPages": [
+        40
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Named lecture title, antibacterial mechanisms and cell-wall foundation",
+          "pages": "1-3",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Cell-wall inhibitors and beta-lactam classification",
+          "pages": "4-7",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Penicillin mechanism, preparations, resistance and routes",
+          "pages": "8-16",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 9
+        },
+        {
+          "section": "Penicillin pharmacokinetics, uses and adverse effects",
+          "pages": "17-24",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 8
+        },
+        {
+          "section": "Cephalosporin generations, pharmacokinetics and adverse effects",
+          "pages": "25-32",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 8
+        },
+        {
+          "section": "Beta-lactamase inhibitors",
+          "pages": "33",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Carbapenems and monobactams",
+          "pages": "34-36",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Vancomycin and drug-induced pseudomembranous colitis",
+          "pages": "37-39",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Thank-you closer",
+          "pages": "40",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0,
+          "nonAssessmentCloserPages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all thirty-nine content pages are fully revealed teaching and reference slides with no assessment prompt field; no prompt replay comparison is applicable and no declarative statement, diagram, numbered list or image label is reverse-engineered into a question",
+      "authorityDisposition": "named Dr Esraa Mostafa Elnahas teaching deck identifying the lecturer with the Faculty of Medicine, Ain Shams University, and carrying PowerPoint for Microsoft 365 metadata; no authenticated MUST platform, institution, module, examiner, sitting, marks scheme or faculty-key declaration appears",
+      "boundaryDisposition": "pages 1-39 form a declarative beta-lactam and vancomycin lecture sequence and page 40 is a thank-you closer; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, thirty-nine teaching-reference pages and one non-assessment closing page",
+      "preservedSourceDefects": [
+        "printed spelling, grammar, diagrams, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "headings, numbered drug classes, uses, adverse effects, diagrams and highlighted facts are declarative teaching structure rather than assessment prompts",
+        "the named external Ain Shams teaching provenance is retained without promotion to MUST examination or faculty-key authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -5647,27 +5764,33 @@
     "pages": 8,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "eightyFourthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf",
     "sha256": "875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb",
     "pages": 40,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf",
+    "sha256": "0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648",
+    "pages": 14,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 11,
-    "uniqueSha256": 11,
-    "sortedNewlineSha256": "143dc0edfd44fb275ee6a2d8e97a8d03cd2c7ac351edeb714e90d87dc7094c06",
+    "inventoryMetadataRows": 10,
+    "uniqueSha256": 10,
+    "sortedNewlineSha256": "e7bf1ddd33e0e8d0932a43947322d1d1d64e1ec887b6b400fd2bd03ad4e85775",
     "auditSampleStatusCounts": {
-      "audit-not-found": 11
+      "audit-not-found": 10
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 11
+    "audit-not-found": 10
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 83,
-    "remainingUniqueSha256": 11,
+    "processedUniqueSha256": 84,
+    "remainingUniqueSha256": 10,
     "processedPlusRemaining": 94
   }
 }

@@ -2556,3 +2556,29 @@ Removing the eighty-three processed hashes leaves **11 selected inventory paths 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf`, SHA-256 `875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb`, 40 pages, with an audit-not-found sample state.
 
 **BLOCKED — S1 cannot be approved:** 11 selected inventory paths / 11 unique hashes remain untriaged.
+
+## Completed source — `2. B-Lactam & Vancomycin`
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/2. B-Lactam & Vancomycin.pdf` | `875c205531a585cd5b91b7bd05257ca4f8a0052c7e6cfa32ddd8156c6a5c91fb` | 40 | audit-not-found | pages 1–40 rendered and read | Named Dr Esraa Mostafa Elnahas teaching deck identifying the lecturer with the Faculty of Medicine, Ain Shams University and carrying PowerPoint for Microsoft 365 metadata. No authenticated MUST platform, institution, module, examiner, sitting, marks scheme or faculty-key declaration appears. |
+
+### Exact boundary and answer state
+
+Pages 1–3 contain the named lecture title, antibacterial-mechanism overview and cell-wall foundation. Pages 4–7 introduce cell-wall inhibitors and beta-lactam classes. Pages 8–24 cover penicillin mechanism, preparations, resistance, routes, pharmacokinetics, uses and adverse effects. Pages 25–32 cover cephalosporin generations, pharmacokinetics and adverse effects. Page 33 covers beta-lactamase inhibitors; pages 34–36 cover carbapenems and monobactams; pages 37–39 cover vancomycin and drug-induced pseudomembranous colitis; page 40 is a thank-you closer. The exact boundary is **0 objective MCQs / 0 written prompts / 0 practical or image-dependent prompts / 0 printed answer observations / 0 source-absent answers / 39 teaching-reference pages / 1 non-assessment closing page**.
+
+All headings, numbered classes, diagrams, labelled images, uses, adverse effects and highlighted facts are declarative teaching structure rather than assessment fields. No answer is inferred and no teaching statement is reverse-engineered into a question. Printed spelling, grammar, terminology and medically or academically questionable claims remain literal source truth without correction.
+
+### Replay and exactly-four-search gate
+
+Because the complete source contains no assessment prompt, there is no prompt replay comparison to perform. The source-first assessment handle count is **0**, so search arithmetic is **0 accepted × 4 = 0 searches** and post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Delta, cumulative totals and next source
+
+This eighty-fourth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **5,444 questions / 5,211 answers / 62 concepts**.
+
+Removing the eighty-four processed hashes leaves **10 selected inventory paths / 10 unique SHA-256s**. Their sorted-newline checksum is `e7bf1ddd33e0e8d0932a43947322d1d1d64e1ec887b6b400fd2bd03ad4e85775`. Remaining audit-review debt is **0 substantive-text / 0 sparse-text / 0 empty-text / 10 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`84 + 10 = 94`** and path accounting is **`86 + 10 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf`, SHA-256 `0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648`, 14 pages, with an audit-not-found sample state.
+
+**BLOCKED — S1 cannot be approved:** 10 selected inventory paths / 10 unique hashes remain untriaged.
