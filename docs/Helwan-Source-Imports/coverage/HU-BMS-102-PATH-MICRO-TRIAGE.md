@@ -28044,3 +28044,61 @@ of the locally present preferred-name carrier `MCQs - KASR Pharma MCQ 2022.pdf`,
 as Family 258. Its separate selected-path/duplicate-carrier reconciliation, zero-second-content
 arithmetic, and subsequent exact debt remain to be recorded without re-counting its 97 external
 questions or key.
+
+## Family 275 — absent general-pharmacology selected-path alias of Family 258
+
+### Selected-path identity, exact-hash carrier reconciliation, and source boundary
+
+| Field | Verified result |
+|---|---|
+| Manifest selected path | Tier-9 `src_cb6b50b3ccefb1576eb5` · `MCQs - general Pharma MCQ 2022.pdf` under `Pharmacology / Questions / MCQs` |
+| Exact SHA-256 / size | `cb6b50b3ccefb1576eb514ea0d757246db57a5b1162cdf90e3e7fa7cfe24112f` · **765,647 bytes** |
+| Local-carrier reality | The manifest-spelled alias is absent locally. The exact-SHA preferred-name carrier `MCQs - KASR Pharma MCQ 2022.pdf` is present in the same organized MCQ folder and was already exhaustively governed as **Family 258**. The absent alias does not create a missing unique object or an unreviewed page boundary. |
+| Already-governed source boundary | Family 258 rendered/OCR-reviewed all **13 scanned portrait pages**: printed pp.5–16 contain **97 four-option text MCQs**, and printed p.17 supplies **97 answer-key cells / 0 unkeyed prompts**. It found 0 written operations, image-bearing prompts, practical stations, teaching-only callouts, or prompt-like residue. |
+| Authority / eligibility | Family 258 conservatively classified the filename-marked Kasr carrier as external and unauthenticated, with no visible Helwan counter-marker. The selected-path alias inherits that object-level authority ruling and cannot create Helwan eligibility. |
+
+### Duplicate-carrier zero-second-content ruling and arithmetic
+
+The selected path resolves to the exact object already exhausted under Family 258. It contributes
+**0 second-content prompts, 0 second-content answers, 0 retained records, 0 accepted handles, 0
+written operations, 0 image/practical records, 0 prior-BMS reuses, and +0 concepts**. The exact
+four-search gate is **`0 accepted handles × 4 = 0 required and completed searches`**. Repeating
+Family 258's 97 prompts, 97 key cells, render/OCR work, or external-source rows would double-count
+one byte-identical object, so none are replayed.
+
+| Measure | Family 275 eligible delta | Auxiliary cumulative (Families 12–275) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,555 | 762 | 4,317 |
+| Eligible source-supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 275 establishes selected-path provenance and exact-object reuse only—not
+a second source, new assessment, official key, authenticated practical, recurrence/readiness,
+candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 275
+
+`src_cb6b50b3ccefb1576eb5` is closed as one additional selected-path alias with **zero
+present-source remainder** and no Family-275 blocker. The HU-BMS-102 projection remains **362
+selected paths / 348 unique hashes**. Family 275 governs **1 selected path / 0 new unique hashes**.
+The governed set through Family 275 is therefore **340 paths / 328 unique hashes**, leaving exactly
+**22 ungoverned selected paths / 20 unique hashes**. Checksums are **340 + 22 = 362 paths** and
+**328 + 20 = 348 unique hashes**. The ordered remaining-path ledger has SHA-256
+`30b257e5ee1d1238d557e3c78093c8a0e45d350e92b5e9af428a4fff23c10428`; the first-occurrence
+ordered remaining-unique-hash ledger checksum remains
+`d906a591485865c24c68b60beacb0b40072e77c9daa7c29f51dbdb018b527988`.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_28b827d66d1c7097e303` ·
+`MCQs - general pharma mcq , written _@Medicine_Way2.pdf`, SHA-256
+`28b827d66d1c7097e30331ef758a356bf872936eebf57d925b5795266c091b7d`, **7,475,863 bytes**,
+**64 OCR-needed portrait A4 pages** under `Pharmacology / Questions / MCQs`. Metadata titles it
+`general pharma mcq , written _@Medicine_Way2`, names CamScanner as Author and intsig.com as
+Producer, and records modification on 26 January 2025. Its exact visible authority, complete
+objective/written/key/image/practical boundary, source-local/prior collapse, eligible gate,
+arithmetic, and subsequent exact debt remain to be separately adjudicated.
