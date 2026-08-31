@@ -28375,3 +28375,90 @@ Drug Adverse Effects`. Metadata names `mustafa elsayed` as Author, identifies Mi
 as creator/producer, and records creation/modification on 22 March 2026. Its visible adverse-drug-
 reaction teaching boundary, absence of institutional/module/assessment markers, authority gate,
 arithmetic, and subsequent exact debt remain to be separately adjudicated.
+
+## Family 279 — anonymous ADR and altered-drug-response teaching handout
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_0ba100e13b56925e738b` · `ADRs.pdf` |
+| Exact object | SHA-256 `0ba100e13b56925e738b956909329d71da567ee7ebb537148c3e54057baf898e` · **181,507 bytes** · **8 native portrait A4 pages** · 1,143 extracted words |
+| Full-read method | all 8 pages rendered at 180 dpi and inspected individually at original detail against the complete layout-preserving native extraction |
+| Visible provenance | visible pages supply only the title `Adverse Drug Reactions (ADRs)` and declarative content. No author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, exam/sitting, candidate field, marks, or key marker is printed. |
+| Metadata | Author `mustafa elsayed`; Microsoft Word for Microsoft 365 creator/producer; created and modified 22 March 2026; no form, JavaScript, or encryption. Metadata is secondary export provenance and cannot create visible institutional or assessment authority. |
+| Authority / eligibility | BMS-102 theoretical-folder placement establishes local corpus context only. With no visible institution/module marker and no assessment operation, this is an anonymous teaching handout—not a Helwan-authenticated assessment, official key, or dated sitting. |
+
+### Complete teaching, prompt, answer, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1 | `Adverse Drug Reactions (ADRs)` | title only; **0 prompts / 0 answers** |
+| 2 | ADE, ADR, and side-effect definitions; completed side-effect-versus-ADR table; start of Type-A classification | declarative teaching and supplied comparison table; no response field |
+| 3 | completion of Type A and definitions/examples for Types B–F | supplied classification, definitions, and examples; numbered type labels are content organization, not question numbers |
+| 4 | habituation-versus-addiction table; pharmacogenetic/idiosyncratic reduced-response conditions | completed teaching table and prose; no learner operation |
+| 5–6 | increased-response pharmacogenetic conditions, acetylator phenotypes, malignant hyperthermia, hyporeactivity, tolerance, tachyphylaxis, desensitization, and resistance | completed definitions, mechanisms, and examples; no prompt/key layer |
+| 7 | receptor desensitization-versus-down-regulation table; metabolic degradation, mediator exhaustion, and physiological adaptation | supplied comparison and mechanism teaching |
+| 8 | hyperreactivity, rebound/withdrawal, receptor up-regulation, prevention, and drug–clinical-situation–withdrawal table | completed teaching and examples; no candidate operation or answer reveal |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied answers / 0
+answer-absent prompts / 0 candidate responses**. Tables, numbered classifications, definitions,
+examples, and management statements are fully supplied reference material rather than blanks,
+questions, commands, or answer fields.
+
+### Teaching replay and exact four-search gate
+
+The handout re-expresses teaching propositions already present across prior eligible pharmacology
+families: Type A–F adverse reactions, tolerance/tachyphylaxis, dependence and withdrawal,
+idiosyncrasy/pharmacogenetics, G6PD deficiency, pseudocholinesterase deficiency, malignant
+hyperthermia, receptor regulation, and rebound after abrupt drug withdrawal. These are
+teaching-content replays only. With **0 assessment prompts**, no source handle can survive the
+assessment gate, so none is promoted into prior-BMS recurrence or concept arithmetic.
+
+The accepted-handle set is **0**. Exactly four searches per accepted handle therefore requires
+and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle reuse is **0** and the eligible
+concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 279 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 279 adds anonymous teaching-handout and teaching-replay evidence only—not
+a Helwan assessment, official key, written exam, authenticated practical, dated sitting,
+recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 279
+
+`src_0ba100e13b56925e738b` is exhausted across all 8 pages: every title, definition,
+classification, table, mechanism, example, authority limitation, metadata field, replay relation,
+zero gate, and arithmetic term is assigned once, with **zero source remainder** and no Family-279
+blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 279 governs
+**1 selected path / 1 unique hash**. The governed set through Family 279 is therefore **344 paths /
+332 unique hashes**, leaving exactly **18 ungoverned selected paths / 16 unique hashes**. Checksums
+are **344 + 18 = 362 paths** and **332 + 16 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `4e136e4ada901515885627962744acf6b82dc39ca88e3fe83ec1cb35f385ef83`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`99d084881266165ba0b4b2f6c4ee84635e46a5707cd57cca05ff365fd1924cb9`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_9fc311cf066b725b794d` · `autacoids.pdf`,
+SHA-256 `9fc311cf066b725b794d7ff3fa8c07cfc1dadebdc96b64820c1026368c0c290a`,
+**888,029 bytes**, **20 native 960×540 landscape pages** under `Pharmacology / Theoretical / Lec
+11 - Antihistaminic Drugs`. Metadata titles it `PowerPoint Presentation`, names `Sherine
+Abdelmissih` as Author, identifies Aspose Slides for Java 25.5 as creator/producer, and records
+creation on 1 November 2019 with modification on 6 April 2026. Its visible autacoid/antihistamine
+and appended ACE-inhibitor/ARB teaching boundary, absence of institutional/module/assessment
+markers, authority gate, arithmetic, and subsequent exact debt remain to be separately
+adjudicated.
