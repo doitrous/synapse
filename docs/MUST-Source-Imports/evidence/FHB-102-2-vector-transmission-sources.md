@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14's printed A agrees with the governed teaching, but Q14 remains un-authored on a dependency-contract hold rather than weakening or clobbering the live reciprocal article.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6 and Q13 are content/key-form holds. Q14 and Q15 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
 
 ## confidence
 0.55
@@ -489,6 +489,61 @@ All 25 pages were rendered and visually read. The terminal slide visibly identif
 
 ## confidence
 0.85
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_e059ca4507cf3177b362
+
+## title
+FHB102-2 Protein Synthesis Inhibitors (30S)
+
+## institution
+Locally filed under MUST FHB102-2 University Material; no visible institution, department, lecturer or examiner attribution; PDF metadata author pc
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/3.Protein Synthesis Inhibitors (30S).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2026-06-14
+
+## accessed_at
+2026-09-01
+
+## page_count
+22
+
+## sha256
+e059ca4507cf3177b36253ec15d510c14512bda3adcf17fd671f6fe9376b9f6c
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+All 22 pages were rendered and visually read. The deck contains no visible institution, department, lecturer or examiner attribution. Page 17 explicitly includes streptomycin in the aminoglycoside list; pages 18 and 20 teach aminoglycoside inner-ear accumulation and ototoxicity, including eighth-cranial-nerve injury. This supports Q15's unchanged printed C. The deck also teaches tetracycline phototoxicity and hepatotoxicity on page 13, keeping those Q15 distractors attached to a different 30S-inhibitor class rather than to streptomycin.
+
+## confidence
+0.75
 
 ## is_assessment
 no
