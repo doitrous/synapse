@@ -22990,3 +22990,111 @@ SHA-256 `811b7c69a1d390c0268e4418f7eda461d38f8adb4cdfaa74fdf53b9d6e93f98b`). It 
 unclassified until all 32 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
 — NOT APPROVED`:** 10 tier-6/rank-9 path debts remain. No download, source edit, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 221 — Tier-6 attributed corticosteroid teaching deck without assessment authority
+
+Exact source identity is `src_811b7c69a1d390c0268e`, manifest path
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/26 LECTURE ON CORTICOSTEROIDES PDF 1.pdf`,
+resolved exact-hash local file
+`Year 1/LCS 103/Pharmacology/Theoretical/26 LECTURE ON CORTICOSTEROIDES PDF 1.pdf`,
+6,406,261 bytes, 32 native 791 x 445 pt pages, and SHA-256
+`811b7c69a1d390c0268e4418f7eda461d38f8adb4cdfaa74fdf53b9d6e93f98b`. The physical
+file matches the manifest source ID, size, page count and digest. It is untagged, unencrypted,
+contains no form, and identifies PDF 1.4. All 32 pages were rendered and read; all 32 page
+renders are distinct and the structural check is clean.
+
+### Authority and complete teaching/assessment boundary
+
+Page 1 visibly identifies `BY PROFESSOR DR MOHAMED ABDELGHANY — CLINICAL PHARMACOLOGY`.
+This is direct named teaching attribution, but neither it nor any other page names Helwan, a
+cohort, exam, sitting, marks or official key. The manifest/local folder difference is
+path-normalization evidence only. The source is an attributed corticosteroid teaching deck,
+not eligible or external assessment evidence.
+
+The complete page boundary is:
+
+| Pages | Complete supplied composition |
+|---:|---|
+| 1–4 | title/attribution, adrenal-cortex zonation, handwritten steroidogenesis and HPA-axis teaching |
+| 5–10 | definition; physiological, duration and route classifications; chemistry and structure |
+| 11–17 | absorption, distribution, binding, metabolism, prodrug conversion, interactions, dosing pearls and pharmacokinetic summary |
+| 18–22 | genomic/non-genomic mechanism, anti-inflammatory/immunosuppressive/metabolic/endocrine actions and Cushing illustration |
+| 23–28 | therapeutic uses, adverse effects, withdrawal/adrenal crisis, contraindications, monitoring and clinical summary |
+| 29–32 | completed all-in-one infographic and three mnemonic/reference tables |
+
+There is no interrogative stem, learner command, option set, response field, blank, case,
+written task, answer reveal or key. The `CEREBRAL EDEMA??` annotation on page 24 is emphasis
+inside completed therapeutic-use teaching, not a learner prompt. Exact assessment delta is
+**0 eligible prompts / 0 external prompts / 0 ordinary objective prompts / 0 written prompts /
+0 keys-or-answers / 0 unkeyed prompts**.
+
+Source truth remains literal and unrepaired. It includes page 3's baked cropped mark at the
+upper edge and `pregnanolone`; the source-rendered command strings `uparrow`, `downarrow`,
+`rightarrow`, `xrightarrow{Liver}` and `approx` on pages 13–15; `CEREBRAL EDEMA??`;
+the red `No in viral infection` note; page 28's cropped upper annotation; `THARAPEUTIC` in
+the all-in-one infographic; and the printed `STAIR CASE`, `CUSHINGOID` and `Sugar High,
+Protein Die, Fat Fly` mnemonics. These are recorded rather than repaired or endorsed.
+
+### Visual and practical boundary
+
+The source supplies seven completed diagram/illustration assets across pages 2–4, 18, 22 and
+29: page 2 has separate adrenal-zonation and kidney/adrenal figures; pages 3 and 4 have
+steroidogenesis and HPA-axis schematics; page 18 has a completed mechanism infographic; page
+22 has a labelled Cushing illustration; and page 29 has a completed summary infographic.
+Tables, annotations and mnemonic grids are likewise already filled and labelled. None is
+masked, numbered for learner identification or paired with a station command. Exact practical
+delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical
+teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The 32-page deck collapses source-first to eight complete theoretical handles:
+
+| Handle / pages | One query on each required surface | Reconciliation |
+|---|---|---|
+| adrenal zonation, steroidogenesis and HPA feedback · 2–5 | adrenal cortex zona hypothalamo pituitary adrenal | prior LCS corticosteroid teaching reuse |
+| classification, potency, duration and routes · 6–10 | corticosteroid classification glucocorticoid duration hydrocortisone dexamethasone | prior LCS corticosteroid teaching reuse |
+| pharmacokinetics, protein binding, CYP3A4 and dosing · 11–17 | corticosteroid pharmacokinetic CYP3A4 corticosteroid binding globulin | prior LCS corticosteroid teaching reuse |
+| genomic and non-genomic mechanisms · 18–19 | glucocorticoid receptor response elements GRE non genomic corticosteroid | prior LCS corticosteroid teaching reuse |
+| anti-inflammatory, immune, metabolic and endocrine actions · 20–22 | phospholipase A2 gluconeogenesis immunosuppressive corticosteroid | prior LCS corticosteroid teaching reuse |
+| replacement, inflammatory, immune, neurologic, oncology and shock uses · 23–24 | corticosteroid therapeutic use adrenal insufficiency dexamethasone cerebral edema | prior LCS corticosteroid teaching reuse |
+| adverse effects, withdrawal, contraindications and monitoring · 25–29 | corticosteroid adverse effect cushingoid osteoporosis steroid withdrawal adrenal | prior LCS corticosteroid teaching reuse |
+| completed summary and mnemonic reference aids · 29–32 | STAIR CASE CUSHINGOID Sugar High Protein Die Fat Fly | prior LCS corticosteroid teaching reuse |
+
+Each of the **eight accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **8 x 4 =
+32 required search invocations**. Live file-match counts were **1 / 0 / 0 / 0 / 0 / 0 / 0 /
+0**; pending/import-ready counts were **1 / 0 / 0 / 0 / 14 / 0 / 0 / 1**; prior-source counts
+were all **0**; accepted-LCS counts were all **1**. Complete source-scope comparison,
+including Families 45, 51, 54, 67–72 and 220, establishes **8 prior-LCS theoretical reuses /
+0 additive live / 0 additive pending / 0 additive new teaching scopes**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,585 prompts / 7,309 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 221's
+assessment, practical and disposition deltas are entirely zero.
+
+Consuming this source's sole path and unique hash changes the remainder from **10 paths / 10
+unique hashes** to **9 paths / 9 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**4 paths / 4 unique hashes within tier**, and rank 9 remains **5 paths / 5 unique hashes
+within rank**. Family 220's checksums were
+`89bc085a586ad689528790a764b653b6fa08d2f627e4295ea0d7ad0137e473de` (paths) and
+`8422e0bcee1bfe4a8361379099dd6969459b14fdb82659fda5661a8543cf3538` (unique hashes).
+For the exact post-Family-221 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`f77a4e357fe59ef7496e2aa9b37ce6f9fa526a30a60cf564346605fb0476e8e8`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`d2151c65bd591156159a822cf9935c7da512199deb1518635c32b27bc77dfb2c`.
+
+The exact next manifest-order debt is tier-6 `src_afdb8ede152decdf148a`,
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/HU-CORTICOSTEROIDES.pdf`
+(1,536,767 bytes; 9 native portrait-A4 pages; tagged; unencrypted; no form; PDF 1.6; author
+`Mamdouh`; SHA-256
+`afdb8ede152decdf148a962d0f895504403a9636b85ddf08c93032ecabf5c196`). It remains
+unclassified until all 9 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
+— NOT APPROVED`:** 9 tier-6/rank-9 path debts remain. No download, source edit, ID, content
+record, catalogue update, import or source copy was created.
