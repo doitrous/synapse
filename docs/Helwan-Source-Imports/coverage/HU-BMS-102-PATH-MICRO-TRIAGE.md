@@ -25873,3 +25873,109 @@ records ScanSnap/Adobe scan tooling and October 2020 timestamps only. Its manife
 normalization, exhaustive render/OCR boundary, affirmative Ain Shams external-authority ruling,
 prompt/key/image/practical inventory, external zero gate, arithmetic, and subsequent exact debt
 remain to be separately adjudicated.
+
+## Family 255 — Ain Shams 2019/2020 comprehensive pharmacology MCQ book (external reference)
+
+### Source identity, exhaustive 144-page visual/OCR boundary, and external authority
+
+| Field | Verified result |
+|---|---|
+| Manifest / local carrier | Tier-9 `src_d5065f6f52600da6abbe` · manifest `MCQs - Ain_Shams_University_Pharmacology_MCQ_Ain_Shams_2019_2020_.pdf`; the exact-SHA local carrier normalizes the final stem to `MCQs - Ain_Shams_University_Pharmacology_MCQ_Ain_Shams_2019_2020.pdf` under `Pharmacology / Questions / MCQs`. The filename spelling difference is path normalization, not a second carrier. |
+| SHA-256 / exact size | `d5065f6f52600da6abbebd9b219d495f6bc0d28c2cff96453413f5f7fdda262a` · **5,315,439 bytes** |
+| Format / complete visual boundary | **144 scanned portrait pages, PDF 1.3**. All 144 pages were rendered at 80 dpi into 144 non-empty images, read page by page through 24 six-page visual sheets, and checked individually at original detail where keys, headings, matching columns, case transitions, and covers required it. Physical pages 5–142 are the complete question/key body; pages 1–4 and 143–144 are structural covers/blanks/contents. Every stem, option, cross-match column, case narrative, bottom-page answer box, heading, printed page number, cover element, blank, and scan edge is assigned below; there is no visual or page remainder. |
+| OCR/native reality | The scan has a searchable OCR layer yielding **24,920 words / 207,564 bytes**. It supports page navigation but visibly joins words, confuses punctuation/letters, and does not control answer-box geometry. The rendered scans govern exact question boundaries, section resets, answer directionality, and source anomalies. No form, JavaScript, encryption, interactive response field, or hidden alternate key exists. |
+| Visible authority | Both covers visibly state `Pharmacology Department / Faculty of Medicine / Ain Shams University / 2019/2020`; the contents and all question pages form one continuous departmental book. This is affirmative Ain Shams institutional/year authority. No Helwan University, Helwan Faculty of Medicine, BMS-102, Helwan sitting, candidate field, or Helwan departmental counter-marker is visible. |
+| Metadata caution | Creator is `PFU ScanSnap Organizer 4.1.11 #S1300`; producer is `Adobe PDF Scan Library 3.1`; creation/modification timestamps are 27–28 October 2020. These fields describe scanning/export and are consistent with, but do not independently author, the visibly dated departmental book. |
+| Authority / eligibility | External Ain Shams 2019/2020 departmental question bank. It is retained as provenance, format, and external comparison evidence but excluded from primary, auxiliary, and all-eligible Helwan assessment totals under the standing post-Family-10 external-university rule. |
+
+### Exhaustive section, prompt, answer, written, image, and practical boundary
+
+| Physical pages | Visible source section | Exhausted source-local operations / key state |
+|---:|---|---:|
+| 1–4 | Colour front cover; blank verso; monochrome title page; contents | Structural matter only: **0 prompts / 0 answers / 0 practical**. The cover drug photographs are decorative, not image questions. |
+| 5–20 | `General`: pharmacokinetics, two pharmacokinetic problem sets, pharmacodynamics, regulation, ADR/interactions, essential/orphan/OTC categories, dose calculations, dosage forms | **97 keyed operations**: 46 standalone option-selection items, 45 cross-match items, and 6 case-based option-selection items. |
+| 21–38 | `Autonomic Pharmacology`: adrenergic, cholinergic/neuromuscular, autacoids, migraine case | **161 keyed operations**: 69 standalone option-selection items, 88 cross-match items, and 4 case-based option-selection items. |
+| 39–45 | `Renal Pharmacology` | **43 keyed operations**: 31 standalone option-selection and 12 cross-match. |
+| 46–58 | `Cardiovascular Pharmacology` plus two problem-solving sets | **92 keyed operations**: 55 standalone option-selection, 29 cross-match, and 8 case-based option-selection. |
+| 59–68 | `Blood Pharmacology` plus DVT problem | **63 keyed operations**: 43 standalone option-selection, 18 cross-match, and 2 case-based option-selection. |
+| 69–78 | `Endocrine Pharmacology` | **70 keyed operations**: 55 standalone option-selection and 15 cross-match. |
+| 79–89 | `General Chemotherapy` | **83 keyed operations**: 56 standalone option-selection and 27 cross-match. |
+| 90–94 | `Special Chemotherapy` | **41 keyed operations**: 25 standalone option-selection and 16 cross-match. |
+| 95–100 | `Gastrointestinal Pharmacology` | **43 keyed operations**: 30 standalone option-selection and 13 cross-match. |
+| 101–115 | `CNS Pharmacology` | **104 keyed operations**: 83 standalone option-selection and 21 cross-match. |
+| 116–118 | `Non-Steroidal Anti-Inflammatory Drugs` | **21 keyed operations**: 18 standalone option-selection and 3 cross-match. |
+| 119–125 | `Respiratory Pharmacology` | **48 keyed operations**: 32 standalone option-selection and 16 cross-match. |
+| 126–133 | `Miscellaneous` | **99 keyed operations**: 31 standalone option-selection and 68 cross-match. |
+| 134–142 | `Problem Solving I–VII`: angina, digoxin toxicity, DVT, infection, asthma, osteoporosis, gout | **41 keyed case-based option-selection operations** across seven complete vignettes. They are written case questions, not practical stations. |
+| 143–144 | Blank inside-back page; colour back cover | Structural matter only: **0 / 0 / 0**. |
+
+The source-local arithmetic is exactly **1,006 objective assessment operations = 574 standalone
+option-selection + 371 cross-match + 61 case-based option-selection**. Every operation has a
+source-supplied answer in the answer box printed at the bottom of its question page, yielding
+**1,006 answer occurrences / 0 unkeyed prompts**. Section numbering resets are intentional and
+were counted once within their visible headings; neither the contents nor printed page numbers add
+question records.
+
+There are **0 free-response written essays, 0 completion blanks, 0 drawing tasks, 0
+image-identification prompts, and 0 authenticated practical stations**. The seven terminal
+problem-solving units and the earlier clinical vignettes are text-only, keyed option-selection
+assessment. No question-body page presents a graph, radiograph, specimen, apparatus, dosage-form
+plate, learner procedure, station number, examiner instruction, timing, or response sheet. Cover
+pill photographs remain decoration. All answer letters are preserved as this external book's
+supplied answers—not endorsed as Helwan keys—and OCR/spelling/numbering irregularities remain
+source truth rather than silently repaired.
+
+### External-authority zero gate, search ruling, prior-BMS reconciliation, and arithmetic
+
+Authority resolves before semantic retention. All **1,006 source-local prompts / 1,006
+source-local answers** belong to the visibly authenticated Ain Shams University 2019/2020 carrier
+and have no Helwan counterevidence. Consequently **0 eligible Helwan records and 0 accepted
+handles** survive. The standing gate is exactly **`0 accepted handles × 4 = 0 required and
+completed searches`**; no 4,024-query workload, empty packet, or synthetic prior row is created
+for excluded external questions. Although the book extensively overlaps prior BMS pharmacology,
+excluded occurrences cannot add or reuse an eligible tested handle. Prior-BMS reuse is **0** and
+concept delta is **+0**.
+
+| Measure | Family 255 eligible delta | Auxiliary cumulative (Families 12–255) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,157 | 762 | 3,919 |
+| Eligible source-supplied answers | 0 | 2,143 | 405 | 2,548 |
+| Retained eligible question records | 0 | 2,861 | 552 | 3,413 |
+| Accepted handles / required searches | 0 / 0 | 2,570 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,325 over primary | 372 | 1,697 |
+| **Distinct tested concepts** | **+0** | **1,325 additions** | **372** | **1,697** |
+
+The eligible checksum closes at zero: external **1,006 / 1,006** does not enter Helwan arithmetic.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,157 prompts / 2,143 answers /
+2,861 retained / 2,570 handles / +1,325 concepts**. All eligible remains **3,919 / 2,548 / 3,413
+/ 1,697**. Family 255 establishes external Ain Shams departmental, fully keyed MCQ/cross-match,
+case-format, and source-anomaly evidence only—not a Helwan exam, official Helwan key,
+authenticated practical, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 255
+
+`src_d5065f6f52600da6abbe` is exhausted across all 144 pages: every cover/blank/contents page,
+question, option, match column, vignette, bottom answer box, section reset, printed page number,
+OCR limitation, external-authority term, zero gate, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-255 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 255
+governs **1 selected path / 1 unique hash**. The governed set through Family 255 is therefore
+**320 paths / 309 unique hashes**, leaving exactly **42 ungoverned selected paths / 39 unique
+hashes**. Checksums are **320 + 42 = 362 paths** and **309 + 39 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`f0d2504f4ac9e215869c60a4e9c30b83e14629c0ee390c3fc19da8d28a27c5a9`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`6689dbf4cb76a57617be224b98a4878d12891a063c878186ae0a5eb7d027876c`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_e6a1286ae1e208700710` ·
+`MCQs - Beta_Blockers_MCQs.pdf`, SHA-256
+`e6a1286ae1e2087007100dfcd105ee49f9e9a479cd32ccb293ab38ad9f0e3f7e`, **2,442 bytes**,
+**two native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. It begins `MCQ
+Questions on Beta Blockers` and visibly supplies inline `Answer:` text after each question;
+metadata records PyFPDF production and a 15 July 2025 timestamp but no author or institution.
+Its visible authority, complete prompt/answer boundary, possible synthetic-generation indicators,
+four-search/prior-BMS reconciliation, arithmetic, and subsequent exact debt remain to be separately
+adjudicated.
