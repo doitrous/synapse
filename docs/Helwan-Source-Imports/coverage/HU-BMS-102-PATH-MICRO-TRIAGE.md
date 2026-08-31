@@ -25650,3 +25650,116 @@ answered adrenaline MCQs followed by answered short questions on cardiovascular 
 bronchial asthma. Full visible authority, prompt/key/image/practical boundary, four-search packets,
 prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
 adjudicated.
+
+## Family 253 — anonymous mixed-format adrenaline question sheet
+
+### Source identity, exhaustive native/render boundary, provenance, and tier-9 authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-9 `src_18e0caec9575b1c3571e` · `College MCQssympathomimetic questions.pdf` under the exact local `Pharmacology / Questions` path |
+| SHA-256 / exact size | `18e0caec9575b1c3571ec49a157fb40f6ca827f8d4dae8835c2bc10c689f0c73` · **73,915 bytes** |
+| Format / complete audit | **2 native-text portrait A4 pages**, each 595.32×841.92 points. Both pages were rendered at 150 dpi into two non-empty 1241×1754-pixel images and inspected at original detail; coherent layout extraction contains **300 words / 2,209 bytes** and agrees with every heading, stem, option, printed answer, answer-direction note, blank, and page transition. `pdfimages -list` reports no embedded raster image; there is no form, JavaScript, encryption, hidden key, or response layer. |
+| Visible provenance | Neither page names an author, instructor, university/faculty, Helwan/MHU, BMS-102, academic year, exam sitting, candidate, examiner, marks, duration, or departmental approval. The filename token `College MCQs` is not a visible institutional attribution. |
+| Metadata caution | Metadata author is `Fatma Tarek Fathy Shendy`, creator/producer is Microsoft Word for Microsoft 365, and creation/modification is 22 February 2025. None is visibly corroborated, so author/date remain secondary carrier history and establish neither question authorship nor a sitting/year. |
+| Authority / eligibility | Anonymous tier-9 adrenaline/sympathomimetic revision material with no competing external-university attribution, stored in the Helwan Year-1 BMS-102 question corpus. It qualifies only as **low-authority auxiliary evidence** under the standing narrow tier-9 rule, not an official Helwan/college exam or departmental key. |
+
+### Complete prompt, answer, anomaly, image, and practical boundary
+
+| Page / source block | Complete visible operation | Boundary ruling |
+|---:|---|---|
+| 1 · MCQ 1–2 | Adrenaline's primary mechanism; common adverse effect | **2 text MCQs / 2 source-supplied answers**. MCQ1 preserves an internal source anomaly: printed answer letter `B` points to option B, `Stimulation of alpha and beta-adrenergic receptors`, while the answer text itself says `Stimulation of beta-adrenergic receptors`. Neither side is repaired or selected over the other. MCQ2 is keyed `C) Tremors`. |
+| 1 · short answer 1–2 | Cardiovascular effects of adrenaline; clinical indications | **2 written prompts / 2 supplied answers**. The source answers heart rate/contractility/cardiac output/blood pressure and anaphylaxis/cardiac arrest/severe asthma respectively. |
+| 1–2 · essay 1–2 | Pharmacological effects, mechanism, and clinical applications of adrenaline; cardiovascular comparison of adrenaline and noradrenaline | **2 written essay prompts / 0 supplied answers / 2 unkeyed**. The first carries only a 500–750-word response-length instruction, not an answer. |
+| 2 · case 1–2 | Anaphylaxis treatment and adrenaline mechanism; risks and benefits of adrenaline during severe asthma in a patient with heart disease | **2 written case prompts / 0 supplied answers / 2 unkeyed**. Case 1's instruction to include treatment and pharmacological effects describes expected response scope, not a supplied answer. Both are theoretical clinical-reasoning operations, not performed practical stations. |
+| 2 · true/false 1–2 | Adrenaline as a selective beta-1 agonist; adrenaline for hypotension | **2 text true/false prompts / 2 inline supplied answers**: false with non-selective-agonist correction, and true. |
+| 2 · fill-in 1–2 | Alternative name of adrenaline; primary cardiac receptor subtype | **2 written fill-in prompts / 2 supplied answers**: epinephrine and beta-1 adrenergic receptor. |
+
+The exhaustive source-local boundary is **12 raw prompt occurrences = 2 MCQs + 6 extended/short
+written operations + 2 true/false operations + 2 fill-ins**, with **8 source-supplied answer
+occurrences / 4 unkeyed prompts**. All **12** remain retained. MCQ1 and true/false 1 test the same
+non-selective alpha/beta agonist proposition, so their two occurrences and answers are preserved but
+reduced to one tested handle. Thus **`12 retained - 1 semantic reduction = 11 accepted source-
+distinct handles`**. There are **0 image-identification operations, 0 drawings, 0 authenticated
+practical stations, 0 candidate responses, and 0 unassigned residues**. Response-length/scope notes
+are directions attached to their prompts, not answers. No unkeyed response is inferred from medical
+knowledge or prior sources.
+
+### Eleven-handle registry, 44-search completion, and prior-BMS reconciliation
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| MCQ 1 / T-F 1 | `adrenaline-alpha-beta-nonselective-agonist` |
+| MCQ 2 | `adrenaline-tremor-adverse-effect` |
+| Short 1–2 | `adrenaline-cardiovascular-heart-rate-contractility-output-pressure`; `adrenaline-clinical-indications-anaphylaxis-arrest-asthma` |
+| Essay 1–2 | `adrenaline-pharmacological-effects-mechanism-applications`; `adrenaline-versus-noradrenaline-cardiovascular-comparison` |
+| Case 1–2 | `anaphylaxis-adrenaline-treatment-and-mechanism-case`; `adrenaline-severe-asthma-heart-disease-risk-benefit-case` |
+| T-F 2 / fill-ins 1–2 | `adrenaline-hypotension-use`; `adrenaline-epinephrine-synonym`; `adrenaline-cardiac-beta-one-receptor` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written/practical state, `docs/questions-import-ready`, Helwan `pending-live`, and prior
+BMS-102 Families 1–252: **`11 × 4 = 44 required and completed searches`**. Each packet used the
+source-first proposition, a distinctive stem or answer phrase, its terminal/clinical qualifier,
+and a drug/topic or prior-handle variant. There are **0 live / 0 import-ready / 0 pending** exact-
+scope matches; prior-triage hits are reconciled below and do not alter source-local retention.
+
+Exactly **9** handles reuse accepted prior BMS assessment scope: adrenaline's non-selective
+alpha/beta action; adrenaline/beta-2 tremor; cardiovascular actions; clinical/systemic uses;
+the broad mechanism/effects/applications scope; anaphylaxis treatment plus pharmacological action;
+hypotension use; adrenaline/epinephrine synonymy; and beta-1 cardiac action. These reconcile
+principally to Families 223, 237, 242, 243, and 252. The two source-distinct relational operations—
+adrenaline-versus-noradrenaline cardiovascular comparison and the risk/benefit decision for
+adrenaline in severe asthma with heart disease—have no accepted prior BMS question at the same
+tested scope. Therefore concept arithmetic is **`11 - 9 = +2`**.
+
+### Family-253 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 253 | Auxiliary cumulative (Families 12–253) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 12 = 2 MCQ + 6 written + 2 T/F + 2 fill-in | 3,157 | 762 | 3,919 |
+| Eligible source-supplied answers | 8; 4 unkeyed | 2,143 | 405 | 2,548 |
+| Retained eligible question records | 12 | 2,861 | 552 | 3,413 |
+| Accepted handles / required searches | 11 / 44 | 2,570 / — | — | — |
+| Prior-BMS handle reuses | 9 | — | — | subtract before concept addition |
+| Cross-family concept delta | +2 | +1,325 over primary | 372 | 1,697 |
+| **Distinct tested concepts** | **11 source-local / +2** | **1,325 additions** | **372** | **1,697** |
+
+The checksum closes: **2 MCQ + 6 written + 2 T/F + 2 fill-in = 12 prompts**; **8 answers + 4
+unkeyed = 12 raw**; **12 raw - 0 exclusions = 12 retained**; **12 retained - 1 semantic reduction
+= 11 handles**; **11 × 4 = 44 searches**; and **11 handles - 9 prior reuses = +2 concepts**.
+Auxiliary arithmetic is `3,145 + 12 = 3,157` prompts, `2,135 + 8 = 2,143` answers, `2,849 +
+12 = 2,861` retained, `2,559 + 11 = 2,570` handles, and `1,323 + 2 = 1,325` concept
+additions. All eligible arithmetic is `762 + 3,157 = 3,919`, `405 + 2,143 = 2,548`, `552 +
+2,861 = 3,413`, and `372 + 1,325 = 1,697`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,157 prompts / 2,143 answers /
+2,861 retained / 2,570 handles / +1,325 concepts**. All eligible becomes **3,919 / 2,548 /
+3,413 / 1,697**. Family 253 establishes low-authority mixed keyed/unkeyed adrenaline revision
+evidence only, not an official exam, authenticated sitting, departmental key, practical station,
+candidate response, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 253
+
+`src_18e0caec9575b1c3571e` is exhausted across both rendered/native pages: every visible and
+metadata provenance field, heading, stem, option, answer, key/text inconsistency, response-scope
+direction, blank, unkeyed state, search packet, prior-family relation, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-253 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 253
+governs **1 selected path / 1 unique hash**. The governed set through Family 253 is therefore
+**318 paths / 307 unique hashes**, leaving exactly **44 ungoverned selected paths / 41 unique
+hashes**. Checksums are **318 + 44 = 362 paths** and **307 + 41 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`f86f57006b74a9a080edcb50795fa95cb8db6ca4f66d4417a7f72ad3a3a45445`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`fc916dbca99753db5488daa40e51acb13f7da9f36c17dcb5360dfb93be6b5107`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_d7a85d91b36eac14986b` ·
+`KASR Pharma. questions. DrAbdelkader.pdf`, SHA-256
+`d7a85d91b36eac14986bc8651a61f1d428dbda5ce6f50e825daf0870fcd53fbc`, **39,729,268 bytes**,
+**111 native-text portrait pages**, each 1836×2376 points, under `Pharmacology / Questions`.
+Its filename and instructor field carry an explicit Kasr/Dr Abdelkader provenance hint, while its
+manifest first-page snippet is only `CamScanner`; full visible external-authority adjudication,
+render/native boundary, prompts/keys/images/practical units, four-search packets, prior-BMS
+reconciliation, arithmetic, and subsequent exact next debt remain to be separately completed.
