@@ -28631,3 +28631,87 @@ Lec 13 - Antiviral Drugs`. Metadata supplies no title or author and records crea
 on 14 April 2026. Its visible antiviral teaching boundary, absence of institutional/module/
 assessment markers, authority gate, arithmetic, and subsequent exact debt remain to be separately
 adjudicated.
+
+## Family 282 — anonymous HCV/HBV/influenza/herpes antiviral teaching deck
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_bc68abc319ccacdad2f7` · `Antivirals (1).PDF` |
+| Exact object | SHA-256 `bc68abc319ccacdad2f75a4753c70dab2a5545bd2386538d644b695151b58c06` · **370,742 bytes** · **21 native landscape US-letter pages** · 617 extracted words |
+| Full-read method | all 21 pages rendered at 144 dpi and reviewed in three ordered visual sheets against the complete layout-preserving native extraction |
+| Visible provenance | pages visibly supply the `Anti-Viral drugs` title and declarative topic content only. No author, instructor, university, faculty, department, Helwan, module, academic year, lecture date, sitting, candidate field, marks, or key marker is printed. |
+| Metadata | no title or author field; created and modified 14 April 2026; no form, JavaScript, or encryption. The sparse metadata cannot supply academic or assessment authority. |
+| Authority / eligibility | BMS-102 theoretical-folder placement supplies local teaching context only. This anonymous deck is not a Helwan-authenticated assessment, official key, or dated sitting. |
+
+### Complete teaching, prompt, answer, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1 | `Anti-Viral drugs` | title only; **0 prompts / 0 answers** |
+| 2–3 | labelled virus-structure and viral-replication diagrams | completed teaching figures; all structural and replication stages are supplied, so neither is an image-identification operation |
+| 4–10 | HCV treatment goal; interferon, ribavirin, sofosbuvir, and ledipasvir PK, mechanisms, uses, and adverse effects | declarative drug teaching; numbered drug labels organize content rather than questions |
+| 11 | HBV treatment with lamivudine and interferon | completed mechanism/treatment list |
+| 12–14 | influenza agents; amantadine, oseltamivir, and zanamivir PK, mechanisms, uses, and adverse effects | supplied drug summaries; no response fields |
+| 15–20 | herpes agents; acyclovir, ganciclovir, and foscarnet PK, mechanisms, uses, and adverse effects | completed treatment teaching; **0 candidate operations** |
+| 21 | `Thank you` | closing slide only |
+
+The exhaustive assessment boundary is exactly **0 objective prompts / 0 free-response written
+prompts / 0 practical stations / 0 image-identification prompts / 0 supplied answers / 0
+answer-absent prompts / 0 candidate responses**. The labelled virus figures, drug headings,
+classification lists, mechanisms, treatment uses, and adverse-effect lists are fully supplied
+reference material rather than questions or answer reveals.
+
+### Teaching replay and exact four-search gate
+
+The carrier re-expresses broad antiviral teaching already governed in Family 226 and overlaps the
+herpes-focused presentation governed in Family 246. Every slide remains assigned as source-local
+teaching evidence, including the labelled diagrams and drug-specific toxicity statements. With
+**0 assessment prompts**, no tested proposition can enter eligible prior-family recurrence or
+concept arithmetic.
+
+The accepted-handle set is **0**. Exactly four searches per accepted handle therefore requires
+and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle reuse is **0** and the eligible
+concept delta is **+0**.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 282 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 282 adds anonymous antiviral teaching, labelled-figure, and teaching-
+replay evidence only—not a Helwan assessment, official key, written exam, authenticated
+practical, dated sitting, recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 282
+
+`src_bc68abc319ccacdad2f7` is exhausted across all 21 pages: every title, labelled figure,
+classification, mechanism, use, toxicity, closing, authority limitation, metadata field, replay
+relation, zero gate, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-282 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 282 governs
+**1 selected path / 1 unique hash**. The governed set through Family 282 is therefore **347 paths /
+335 unique hashes**, leaving exactly **15 ungoverned selected paths / 13 unique hashes**. Checksums
+are **347 + 15 = 362 paths** and **335 + 13 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `146437c10bb99fe2b220e4377205c610f77ca302f79d6e7e0d2eaa8fa9fd2b35`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`585f4a5e43dd0cda83920adbe4c50352b937154fba0d3de2b3372c183eaaf233`.
+
+The exact next unprocessed BMS-102 record is tier-4 preferred-name twin
+`src_a53dd0edb4292fff3839` · `Anti- Fungal drugs.pdf`, SHA-256
+`a53dd0edb4292fff38395c5de3162bdea131b86019ed474dad24dd6b19becceb`, **487,255 bytes**,
+**21 native 791×445 landscape pages** under `Pharmacology / Theoretical / Lec 14 - Antifungal
+Drugs`. Metadata supplies no title or author field. Its exact relation to the nonpreferred
+near-name carrier governed in Family 225, visible antifungal teaching boundary, authority gate,
+arithmetic, and subsequent exact debt remain to be separately adjudicated.
