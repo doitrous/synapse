@@ -25162,3 +25162,87 @@ The exact next unprocessed BMS-102 record is tier-5 `src_19711523ae04b54e29f0` �
 Virtual Lab 6 - Kinetic drug interactions`. Its visible authority, complete teaching/prompt/key/
 image/practical boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent
 exact next debt remain to be separately adjudicated.
+
+## Family 248 — anonymous kinetic drug-interactions teaching deck
+
+### Source identity, complete visual/native boundary, provenance, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-5 `src_19711523ae04b54e29f0` · `KINETIC DRUG INTERACTION.PDF` under `Pharmacology / Practical Labs / Virtual Lab 6 - Kinetic drug interactions` |
+| SHA-256 / size | `19711523ae04b54e29f0fd7795f394233e1b1bd62c58966f565c2227503a6b6b` · **122,403 bytes** |
+| Format / complete audit | **12 native-text portrait US-letter pages**, each 612×792 points. All pages were rendered at 120 dpi into 12 non-empty 1020×1320-pixel images and read individually; two ordered contact sheets and complete layout/native extraction were also inspected. `pdfimages` reports no embedded raster objects. There is no hidden question, response field, answer marker, image task, or practical layer. |
+| Native-text reality | Layout extraction contains **577 words / 5,235 bytes** and preserves every heading, numbered interaction, arrow, drug example, and closing slide. The manifest's `native` classification is accurate. |
+| Visible authority | Page 1 visibly reads only `Kinetic drug interactions`. No page names an author, instructor, Helwan University, faculty, module, academic year, lab date, assessment sitting, candidate, or examiner. Helwan/module authority is limited to the tier-5 folder and manifest placement. |
+| Metadata caution | No metadata author or title is present. Creation/modification timestamp is 30 March 2026 through an unidentified export workflow; this is production provenance only and cannot establish authorship, academic year, delivery date, or sitting. |
+| Authority | Anonymous tier-5 virtual-lab teaching carrier. It supplies pharmacokinetic-interaction reference content, not an administered assessment, authenticated practical, response sheet, or official key. |
+
+### Exhaustive 12-page teaching, prompt, key, image, and practical boundary
+
+| Pages | Complete visible content | Boundary ruling |
+|---:|---|---|
+| 1 | `Kinetic drug interactions` | Title only; **0 prompts / 0 answers**. |
+| 2 | Definition and circumstances making interactions important: narrow therapeutic index, small volume/high protein binding, and the source's Plavix/PPI caution | Completed declarative teaching; **0 / 0**. The visible numbering `1, 2, 4` omits `3`; this source anomaly is preserved and adds no missing item. |
+| 3 | Avoidance: avoid polypharmacy, choose alternatives, separate administration, monitor drug levels/action/vitals, and adjust dose | Completed management teaching; **0 / 0**. |
+| 4 | Pharmacokinetic interactions in vitro: drug-dextran and drug-heparin chemical complexes | Completed teaching examples; **0 / 0**. |
+| 5–7 | In-vivo absorption interactions: parenteral vasoconstriction; oral complexes/binding; motility; blocked absorption; food/fatty meal/tyramine; gastric-pH effects | Completed absorption teaching; **0 / 0**. |
+| 8 | Distribution through plasma-protein displacement: bilirubin/sulfonamides and warfarin/phenylbutazone | Completed distribution teaching; **0 / 0**. |
+| 9 | Metabolism through microsomal/nonmicrosomal inhibition or induction, including MAO inhibitors, allopurinol/6-mercaptopurine, and disulfiram | Completed metabolism teaching; **0 / 0**. |
+| 10–11 | Reduced urinary elimination, urine-pH and volume effects, mannitol/cisplatin, phenobarbital biliary excretion, and charcoal/cholestyramine interruption of enterohepatic circulation | Completed elimination teaching; **0 / 0**. The missing visible `Excretion` section heading and `Billiary` spelling are preserved source defects, not inferred prompts. |
+| 12 | `THANKS` | Closing slide only. |
+
+The complete source boundary is **0 MCQs / 0 written prompts / 0 drawing tasks / 0 image-bearing
+operations / 0 answers / 0 unkeyed prompts / 0 practical stations / 0 candidate responses**.
+Numbered lists, arrows, cause-effect examples, and the question-free `How to avoid` heading are
+completed teaching, not learner operations. Virtual-lab placement cannot manufacture a station
+without a task, candidate/examiner direction, timer, mark allocation, checklist, or response field.
+
+### Zero-handle search gate and prior-BMS reconciliation
+
+No assessment handle survives the exhaustive teaching boundary. The standing gate is therefore
+**0 accepted handles × 4 = 0 required and completed searches**. Prior BMS families already contain
+teaching on pharmacokinetic parameters, metabolism, renal clearance, and drug interactions, but
+teaching overlap does not create a current question handle, prior-reuse assignment, or concept
+delta. Prior exact question-handle reuse is **0**, and Family 248 contributes **+0 concepts**.
+
+### Family-248 zero-delta checkpoint and cumulative arithmetic
+
+| Measure | Family 248 addition | Auxiliary cumulative (Families 12–248) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 0 | 3,091 | 762 | 3,853 |
+| Eligible source-supplied answers | 0 | 2,125 | 405 | 2,530 |
+| Retained eligible question records | 0 | 2,795 | 552 | 3,347 |
+| Accepted handles / required searches | 0 / 0 | 2,511 / — | — | — |
+| Cross-family concept delta | +0 | +1,310 over primary | 372 | 1,682 |
+| **Distinct tested concepts** | **0 new** | **1,310 additions** | **372** | **1,682** |
+
+The arithmetic closes independently: **0 prompts = 0 answers + 0 unkeyed**; **0 retained = 0
+handles**; **0 × 4 = 0 searches**; and **0 handles - 0 prior question reuses = +0 concepts**.
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,091 prompts / 2,125 answers /
+2,795 retained / 2,511 handles / +1,310 concepts**. All eligible remains **3,853 / 2,530 /
+3,347 / 1,682**. Family 248 adds teaching-carrier evidence only, not an exam, key, authenticated
+station, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 248
+
+`src_19711523ae04b54e29f0` is exhausted across all 12 rendered/native pages: every visible and
+metadata provenance field, heading, interaction example, arrow, spelling/numbering anomaly,
+prompt/key/image/practical zero, search gate, prior-BMS relation, and arithmetic term is assigned,
+with **zero source remainder** and no Family-248 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 248
+governs **1 selected path / 1 unique hash**. The governed set through Family 248 is therefore
+**313 paths / 302 unique hashes**, leaving exactly **49 ungoverned selected paths / 46 unique
+hashes**. Checksums are **313 + 49 = 362 paths** and **302 + 46 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`8033fb34c7ba9e4e2926526cedba09206bb0a726074fe22434fb3e7883664386`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`00d01649fd2a3277e9e77151e6257520f1eb96c1b5acb7190f9b28ad44b08911`. The remaining set has zero
+hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-5 `src_659dba2635cb391abe2e` · `Dynamic.PDF`,
+SHA-256 `659dba2635cb391abe2ebfea372e597df661a86415eb5b421c8d891e3d5c806b`, **89,195 bytes**,
+**4 native-text portrait US-letter 612×792-point pages** under `Pharmacology / Practical Labs /
+Virtual Lab 7 - Dynamic drug interactions`. Its visible authority, complete teaching/prompt/key/
+image/practical boundary, four-search gate, prior-BMS reconciliation, arithmetic, and subsequent
+exact next debt remain to be separately adjudicated.
