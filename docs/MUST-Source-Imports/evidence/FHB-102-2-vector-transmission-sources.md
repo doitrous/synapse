@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13 and Q20 are content/key-form holds. Q14 through Q19 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20 and Q21 are content/key-form holds. Q14 through Q19 have clean printed keys but remain un-authored on dependency-contract holds rather than weakening or clobbering live article relationships or inventing artificial companion articles.
 
 ## confidence
 0.55
@@ -760,7 +760,7 @@ en
 Locally supplied external-faculty teaching material; internal curriculum authoring only.
 
 ## qualification
-All 40 pages were previously rendered and visually read under the governed FHB102-2 source triage. Pages 37–39 were directly rechecked for Q20. Page 37 introduces vancomycin; page 38 explicitly places red man syndrome under vancomycin adverse effects and attributes it to histamine release with rapid infusion. This directly contradicts the anonymous bank's printed B, teicoplanin, because the bank offers vancomycin as option C. The source is teaching evidence only and does not authenticate or replace the printed bank key.
+All 40 pages were previously rendered and visually read under the governed FHB102-2 source triage. Pages 37–39 were directly rechecked for Q20 and Q21. Page 38 explicitly places red man syndrome under vancomycin adverse effects, contradicting Q20's printed B, teicoplanin, because vancomycin is option C. Page 39 identifies metronidazole or oral vancomycin as treatment for drug-induced pseudomembranous colitis, contradicting Q21's printed C, piperacillin, because metronidazole is option B. The source is teaching evidence only and does not authenticate or replace either printed bank key.
 
 ## confidence
 0.85
