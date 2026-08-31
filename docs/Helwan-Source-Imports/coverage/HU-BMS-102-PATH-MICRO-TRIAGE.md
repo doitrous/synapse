@@ -25539,3 +25539,114 @@ drug/mechanism cross-match, a clinical-state/drug cross-match, and written `Give
 Full visible authority, objective/written/key/image/practical boundary, four-search packets,
 prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
 adjudicated.
+
+## Family 252 — anonymous mixed keyed/unkeyed autonomic pharmacology question sheet
+
+### Source identity, exhaustive native/render boundary, provenance, and tier-9 authority
+
+| Field | Verified result |
+|---|---|
+| Manifest/local carrier | Tier-9 `src_fe2395858a742cfa5fc9` · `College MCQsquestions_autonomic.pdf` under the exact local `Pharmacology / Questions` path |
+| SHA-256 / exact size | `fe2395858a742cfa5fc9fb5f2074be62bbfa42f42f7275d0ccd78f00de71f5b7` · **291,724 bytes** |
+| Format / complete audit | **2 native-text portrait A4 pages**, each 595.2×841.92 points. Both pages were rendered at 150 dpi into two non-empty 1240×1754-pixel images and inspected at original detail; coherent layout extraction contains **222 words / 1,467 bytes** and agrees with every heading, numbered component, matching letter, answer sentence, option bank, and page transition. There is no form, JavaScript, encryption, hidden key, image prompt, or response layer. |
+| Visible provenance | Neither page names an author, instructor, university/faculty, Helwan, BMS-102, academic year, exam sitting, candidate, examiner, marks, duration, or departmental approval. `College MCQs` is filename-only and names no institution. |
+| Metadata caution | Metadata author is `DR Ahmed`, creator is Microsoft Word 2016, producer is iLovePDF, and creation/modification is 30 April 2025. None is visibly corroborated, so author/date remain secondary carrier history and establish neither question authorship nor a sitting/year. |
+| Authority / eligibility | Anonymous tier-9 autonomic-pharmacology question material with no competing external-university attribution, stored in the Helwan Year-1 BMS-102 question corpus. It qualifies only as **low-authority auxiliary evidence** under the standing narrow tier-9 rule, not an official Helwan/college exam or departmental key. |
+
+### Complete two-page prompt, key, image, and practical boundary
+
+| Page / source block | Complete visible operation | Boundary ruling |
+|---|---|---|
+| 1 · Q1 cross-match | Five drugs mapped to mechanism letters: adrenaline→D, alpha-methyldopa→F, isoprenaline→C, clonidine→E, labetalol→A. Six mechanism choices are printed; short-acting β2 agonist `B` is unused. | **5 matching prompts / 5 source-supplied answers**. Each drug-letter relation is independently answerable and keyed inline. The unused option is a distractor, not a sixth prompt or answer. |
+| 1 · Q2 cross-match | Four clinical states—anaphylactic shock, cardiogenic shock, tobacco-withdrawal symptoms, hypertension—against clonidine, dopamine, and adrenaline | **4 matching prompts / 0 supplied answers / 4 unkeyed**. No relation is printed or inferred; one drug may serve more than one state. |
+| 1 · Q3 | Four written operations: reason adrenaline is not combined with local anaesthetic in fingers/toes; reason propranolol is not preferred in diabetes; reason haemodialysis is ineffective for high-Vd drugs; mechanism of beta-blocker antihypertensive effect | **4 written prompts / 1 supplied answer / 3 unkeyed**. Only the high-Vd operation is immediately answered: most drug is concentrated in tissues rather than plasma. |
+| 2 · Q5 cross-match | Pilocarpine→B (glaucoma/miotic/hair tonic/xerostomia); bethanechol→D (megacolon); neostigmine→E (curare antidote/myasthenia); physostigmine→C (atropine toxicity). Alzheimer dementia `A` is unused. | **4 matching prompts / 4 source-supplied answers**. The unused option is distractor residue. |
+| 2 · Q6 | Five written enumerations: first-pass metabolism definition/example/avoidance; plasma half-life definition/importance; receptor types/examples; antagonist types; idiosyncrasy definition/example | **5 written prompts / 0 supplied answers / 5 unkeyed**. Component requests within each numbered enumeration form one composite written operation. |
+
+The exact source boundary is **22 raw prompt occurrences = 13 matching operations + 9 written
+operations**, with **10 source-supplied answer occurrences / 12 unkeyed prompts**. All **22**
+remain retained and express **22 source-distinct handles**; there is no literal replay or semantic
+collapse. There are **0 MCQ option-selection prompts, 0 image operations, 0 drawings, 0 practical
+stations, 0 candidate responses, and 0 unassigned residues**. Inline letters are source keys only
+where visibly attached to a numbered drug; no answer is inferred for Q2 or Q6 from medical
+knowledge, prior sources, or the option bank.
+
+### Twenty-two-handle registry, 88-search completion, and prior-BMS reconciliation
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1.1–Q1.5 | `adrenaline-all-adrenergic-receptors`; `alpha-methyldopa-transmitter-synthesis-source-match`; `isoprenaline-beta-only-agonist`; `clonidine-alpha2-agonist`; `labetalol-alpha-beta-blocker` |
+| Q2.1–Q2.4 | `anaphylactic-shock-adrenaline`; `cardiogenic-shock-dopamine`; `smoking-withdrawal-clonidine`; `hypertension-clonidine` |
+| Q3.1–Q3.4 | `adrenaline-local-anaesthetic-fingers-toes`; `propranolol-diabetes-not-preferred`; `high-vd-hemodialysis-ineffective`; `beta-blocker-antihypertensive-mechanism` |
+| Q5.1–Q5.4 | `pilocarpine-indications-glaucoma-xerostomia`; `bethanechol-megacolon-use`; `neostigmine-curare-myasthenia-use`; `physostigmine-atropine-toxicity-use` |
+| Q6.1–Q6.5 | `first-pass-definition-example-overcome`; `plasma-half-life-definition-importance`; `receptor-types-and-examples`; `antagonist-types-enumeration`; `idiosyncrasy-definition-example` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written state, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102
+Families 1–251: **`22 × 4 = 88 required and completed searches`**. Each packet used the
+source-first handle, distinctive operation phrase, mapped answer/terminal where supplied, and a
+drug/topic or prior-handle variant. No live, import-ready, or pending Helwan carrier duplicates
+this exact object; external matches do not alter source-local retention.
+
+Exactly **18** handles reuse accepted prior BMS assessment scope: alpha-methyldopa mechanism;
+isoprenaline beta-receptor action; clonidine alpha-2 mechanism; adrenaline for anaphylaxis;
+dopamine for cardiogenic shock; clonidine for tobacco withdrawal and hypertension; avoidance of
+adrenaline/local anaesthetic in end arteries; propranolol/diabetes; high Vd/tissue concentration;
+beta-blocker antihypertensive mechanism; pilocarpine uses; neostigmine uses; physostigmine for
+atropine toxicity; first-pass metabolism; half-life importance; antagonist types; and
+idiosyncrasy. These reconcile principally to Families 202, 223, 237, 240–243, and 251. The other
+**4** handles—adrenaline's all-receptor mapping, labetalol's dual-blocker class mapping,
+bethanechol/megacolon, and generic receptor-types enumeration—have no accepted prior BMS question
+at the same tested scope. Therefore concept arithmetic is **`22 - 18 = +4`**.
+
+### Family-252 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 252 | Auxiliary cumulative (Families 12–252) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 22 = 13 matching + 9 written | 3,145 | 762 | 3,907 |
+| Eligible source-supplied answers | 10; 12 unkeyed | 2,135 | 405 | 2,540 |
+| Retained eligible question records | 22 | 2,849 | 552 | 3,401 |
+| Accepted handles / required searches | 22 / 88 | 2,559 / — | — | — |
+| Prior-BMS handle reuses | 18 | — | — | subtract before concept addition |
+| Cross-family concept delta | +4 | +1,323 over primary | 372 | 1,695 |
+| **Distinct tested concepts** | **22 source-local / +4** | **1,323 additions** | **372** | **1,695** |
+
+The checksum closes: **13 matching + 9 written = 22 prompts**; **10 answers + 12 unkeyed = 22
+raw**; **22 raw - 0 exclusions = 22 retained**; **22 retained - 0 reductions = 22 handles**;
+**22 × 4 = 88 searches**; and **22 handles - 18 prior reuses = +4 concepts**. Auxiliary
+arithmetic is `3,123 + 22 = 3,145` prompts, `2,125 + 10 = 2,135` answers, `2,827 + 22 =
+2,849` retained, `2,537 + 22 = 2,559` handles, and `1,319 + 4 = 1,323` concept additions.
+All eligible arithmetic is `762 + 3,145 = 3,907`, `405 + 2,135 = 2,540`, `552 + 2,849 =
+3,401`, and `372 + 1,323 = 1,695`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,145 prompts / 2,135 answers /
+2,849 retained / 2,559 handles / +1,323 concepts**. All eligible becomes **3,907 / 2,540 /
+3,401 / 1,695**. Family 252 establishes low-authority mixed keyed/unkeyed revision evidence only,
+not an official exam, authenticated sitting, departmental key, practical station, candidate
+response, recurrence, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 252
+
+`src_fe2395858a742cfa5fc9` is exhausted across both rendered/native pages: every visible and
+metadata provenance field, matching component, written subprompt, inline mapping, answer sentence,
+unused distractor, unkeyed state, search packet, prior-family relation, and arithmetic term is
+assigned once, with **zero source remainder** and no Family-252 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 252
+governs **1 selected path / 1 unique hash**. The governed set through Family 252 is therefore
+**317 paths / 306 unique hashes**, leaving exactly **45 ungoverned selected paths / 42 unique
+hashes**. Checksums are **317 + 45 = 362 paths** and **306 + 42 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`cc981f2c86b9af4bc5f7a70e6bfbf930ce26bfa73a0f9cb7fdd837643fb64ce9`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`1c5ccce2eec1aee3c57ac728335f878d15552acd3180cf02f6af73baf6b164db`. The remaining set has zero
+hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_18e0caec9575b1c3571e` ·
+`College MCQssympathomimetic questions.pdf`, SHA-256
+`18e0caec9575b1c3571ec49a157fb40f6ca827f8d4dae8835c2bc10c689f0c73`, **73,915 bytes**,
+**2 native-text portrait A4 pages** under `Pharmacology / Questions`. Its first page begins two
+answered adrenaline MCQs followed by answered short questions on cardiovascular effects and
+bronchial asthma. Full visible authority, prompt/key/image/practical boundary, four-search packets,
+prior-BMS reconciliation, arithmetic, and subsequent exact next debt remain to be separately
+adjudicated.
