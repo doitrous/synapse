@@ -23309,3 +23309,109 @@ The exact next manifest-order debt is tier-6 `src_05e2184f9b07b2b05a08`,
 It remains unclassified until all 15 pages are rendered and read. **Overall LCS-103 remains
 `S1 TRIAGE — NOT APPROVED`:** 7 tier-6/rank-9 path debts remain. No download, source edit,
 ID, content record, catalogue update, import or source copy was created.
+
+## Family 224 — Tier-6 NotebookLM analgesic blueprint with completed teaching only
+
+Exact source identity is `src_05e2184f9b07b2b05a08`,
+`Year 1/LCS 103/Pharmacology/Notes and Summaries/The_Analgesic_Blueprint.pdf`,
+16,534,241 bytes, 15 image-only 1376 x 768 pt pages, and SHA-256
+`05e2184f9b07b2b05a081da7f78e01112b95f8bab33b4fc3d8e3f6698edc0c71`.
+The physical file matches that manifest path, size, page count and digest. It is untagged,
+unencrypted, contains no form, and identifies PDF 1.4. Native extraction is empty. All 15
+pages were rendered at full resolution, OCR-reviewed and visually read; all 15 page renders
+are distinct and the structural check is clean.
+
+### Authority and complete teaching/assessment boundary
+
+Every page is branded `NotebookLM`. No page or metadata names an author, Helwan, HU, a
+faculty, cohort, sitting, exam, marks or official key. The source is therefore a synthetic
+NotebookLM study blueprint with topical/module fit, not eligible or external assessment
+authority.
+
+The complete page boundary is:
+
+| Pages | Complete supplied composition |
+|---:|---|
+| 1–3 | title/definition, analgesic taxonomy and non-opioid chemical/COX classification |
+| 4–5 | salicylate origins, derivatives, pharmacokinetics and irreversible aspirin action |
+| 6–8 | salicylate CNS/respiratory/inflammatory, blood/renal/GIT/metabolic actions, adverse effects, contraindications and toxicity |
+| 9–10 | paracetamol pharmacokinetics/actions and completed hepatotoxicity/antidote pathway |
+| 11–12 | phenylbutazone, indomethacin and sulindac completed drug profiles |
+| 13–15 | extended NSAID directory, completed diagnostic matrix and interaction rules |
+
+All pages are completed teaching/reference infographics. `What It LACKS / What It DOES` on
+page 9 and `Master Synthesis: NSAID Diagnostic Matrix` on page 14 are supplied comparison
+headings, not learner tasks. There is no interrogative stem, learner command, option set,
+response field, blank, written task, answer reveal or key. Exact assessment delta is **0
+eligible prompts / 0 external prompts / 0 ordinary objective prompts / 0 written prompts / 0
+keys-or-answers / 0 unkeyed prompts**.
+
+Source truth remains literal and unrepaired. It includes `Counter-irritants`; COX-3 /
+paracetamol classification; the `Baby Dose` pediatric/infantile aspirin protocol; printed
+dose/respiratory and uric-acid rules; `NABQ` rather than NAPQI; the 10–15 g toxic and >20 g
+fatal paracetamol labels; hemodialysis `<12h`; the sulindac `cataract prevention` and
+renal-sparing claims; the diagnostic matrix's `Extremely potent all 3`; and the Vitamin C /
+NH4Cl and aspirin/other-NSAID interaction claims. These are recorded rather than medically
+repaired or endorsed.
+
+### Visual and practical boundary
+
+All 15 pages are completed infographic canvases containing already labelled pathways,
+anatomical silhouettes, molecules, matrices, icons and comparison fields. None is masked,
+numbered for learner identification or paired with a station command. Exact practical delta
+is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys / 0 practical teaching
+scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The 15-page blueprint collapses source-first to seven complete theoretical handles:
+
+| Handle / pages | One query on each required surface | Reconciliation |
+|---|---|---|
+| analgesic taxonomy and non-opioid/COX classification · 1–3 | analgesic taxonomy non-opioid classification COX central peripheral | prior LCS analgesic teaching reuse |
+| salicylate derivatives and pharmacokinetics · 4 | salicylate derivatives diflunisal pharmacokinetics methylsalicylate aspirin | prior LCS salicylate teaching reuse |
+| aspirin mechanism and systemic actions · 5–7 | aspirin irreversible acetylation salicylate systemic actions baby dose | prior LCS aspirin teaching reuse |
+| salicylate adverse effects, contraindications and toxicity · 8 | salicylism Reye salicylate contraindications toxicity uncoupled oxidative phosphorylation | prior LCS salicylate teaching reuse |
+| paracetamol actions, toxicity and benorylate · 9–10 | paracetamol NABQ acetaminophen N-acetyl cysteine benorylate | prior LCS paracetamol teaching reuse |
+| phenylbutazone, indomethacin and sulindac · 11–12 | phenylbutazone oxyphenbutazone indomethacin sulindac renal-sparing | prior LCS NSAID teaching reuse |
+| extended NSAID directory, matrix and interactions · 13–15 | propionic acid derivatives oxicams NSAID diagnostic matrix interactions probenecid | prior LCS NSAID teaching reuse |
+
+Each of the **seven accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **7 x 4 =
+28 required search invocations**. Live, pending/import-ready and prior-source file-match
+counts were all **0**. Accepted-LCS counts were **1 / 1 / 1 / 1 / 1 / 1 / 0**. Complete
+source-scope comparison against the previously inventoried analgesic/NSAID lecture, revision,
+question and blueprint families establishes **7 prior-LCS theoretical reuses / 0 additive
+live / 0 additive pending / 0 additive new teaching scopes**; the final exact-query miss is
+not promoted into a new scope.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,595 prompts / 7,309 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 224's
+assessment, practical and disposition deltas are entirely zero.
+
+Consuming this source's sole path and unique hash changes the remainder from **7 paths / 7
+unique hashes** to **6 paths / 6 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**1 path / 1 unique hash within tier**, and rank 9 remains **5 paths / 5 unique hashes within
+rank**. Family 223's checksums were
+`db985c24034451b855dd60e9c98f867b9987a759b83527a8cfdbfc02fbdd3e65` (paths) and
+`ceff039ca1b55bcef886bbdaf41cbab38802a4fa2deaa9db7c281f501d8a3ad5` (unique hashes).
+For the exact post-Family-224 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`68e701008daec8678a5eb56ac0bba71a92690026880d2360b604bc8472101255`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`c2167477d38cf3b3de7d3a9f6e6399bf59fc6b416139eb1bf3e106f548b29ad8`.
+
+The exact next manifest-order debt is rank-9 `src_4b4313d01812ad5bf79d`,
+`Year 1/LCS 103/Physiology/BRS - physiology book/BRS Physiology (Board Review Series), 7th Edition.pdf`
+(193,642,244 bytes; 337 OCR-needed 504 x 720 pt pages; untagged; unencrypted; AcroForm;
+PDF 1.6; SHA-256
+`4b4313d01812ad5bf79d7e833767808880ddee937535e0f3428720ef23c50cf6`). It remains
+unclassified until the relevant full-book/module boundary is established under rank-9 rules.
+**Overall LCS-103 remains `S1 TRIAGE — NOT APPROVED`:** 6 tier-6/rank-9 path debts remain.
+No download, source edit, ID, content record, catalogue update, import or source copy was
+created.
