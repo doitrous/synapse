@@ -382,3 +382,58 @@ Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 tea
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_2c1e04372fbb8b2607f7
+
+## title
+FHB102-2 Flies and Myiasis
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Parasitology Department; PDF metadata author Heba Abdel Aaty
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/2.Flies & Myiasis.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2022-04-01
+
+## accessed_at
+2026-08-31
+
+## page_count
+58
+
+## sha256
+2c1e04372fbb8b2607f73de38b26d4667d7f7408bcbd39ffc156aaea253dcd79
+
+## rights
+Faculty-distributed university teaching material; internal curriculum use.
+
+## qualification
+Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 32, 46 and 57 directly support the Sarcophaga incomplete-peritreme and wound-myiasis identification.
+
+## confidence
+0.9
+
+## is_assessment
+no
