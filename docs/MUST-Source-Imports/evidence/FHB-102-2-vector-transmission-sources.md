@@ -45,7 +45,7 @@ b9989e9ef3c314f6c771c32a4ad2f096c02648a3b1f98281117ce7c4f5208063
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21 and Q23 are content/key-form holds. Q14 through Q19, Q22 and Q24 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
+Anonymous answer-bearing question bank. Its printed answer list is source evidence, not an authenticated faculty key. Q1, Q5, Q7, Q8, Q9, Q10, Q11 and Q12 are authored with unchanged clean keys. Q2, Q3, Q4, Q6, Q13, Q20, Q21, Q23 and Q25 are content/key-form holds. Q14 through Q19, Q22 and Q24 have clean printed keys but remain un-authored on dependency/identity-contract holds rather than weakening or clobbering live article relationships, inventing artificial companion articles or duplicating a pending concept.
 
 ## confidence
 0.55
@@ -875,6 +875,61 @@ Pages 1–7 were rendered and visually read for the bounded Q24 assessment; the 
 
 ## confidence
 0.9
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
+src_a3d71ccbc276ec903213
+
+## title
+Bacterial Genetics, Chapter 5
+
+## institution
+Misr University for Science and Technology, College of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/7.Bacterial genetics (Ch 5).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2024-11-18
+
+## accessed_at
+2026-09-01
+
+## page_count
+53
+
+## sha256
+a3d71ccbc276ec9032139e5e3dd914098fe589223320777a8df7d7051e21738e
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 53 pages were rendered for bounded source location; pages 1, 4, 24–26 and 30 were directly visually read for Q25, and the other pages are not claimed as visually governed in this slice. Page 1 visibly identifies MUST College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 25–26 define phenotypic variation as reversible, non-heritable, affected by environmental conditions and reversible when the environmental cause is removed. Page 25 places mutation and gene transfer under genotypic variation, while p30 describes mutation as heritable and irreversible. These statements directly contradict Q25's printed B and support offered option C, but do not authenticate or replace the bank key.
+
+## confidence
+0.95
 
 ## is_assessment
 no
