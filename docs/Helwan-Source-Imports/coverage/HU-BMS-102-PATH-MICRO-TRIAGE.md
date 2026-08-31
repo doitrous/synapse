@@ -24400,3 +24400,118 @@ page begins a keyed `Parasympathomimtics I` question set covering cholinesterase
 hypotension, and carbachol. Its visible authority, complete keyed/unkeyed, written/image/practical/
 teaching boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and subsequent exact
 next debt remain to be separately adjudicated.
+
+## Family 241 — anonymous keyed parasympathomimetic revision set
+
+### Source identity, exhaustive visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_0d4fa2de42d5a5a70f2b` · `parasympathomimtic drugs I, II and III.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `0d4fa2de42d5a5a70f2bd884bc41b7b40aab7715c6ce1e20b5a8795fadfb706c` · **283,946 bytes** |
+| Format / exhaustive read | **10 native-text portrait US-letter pages, 612×792 points, PDF 1.7**. All 10 pages were rendered into 10 non-empty 1224×1584-pixel images and read individually at original detail. Coherent layout extraction contains **1,298 words / 10,252 bytes** and agrees with all 30 MCQ stems/options, two case subquestions, page continuations, and both key pages. `pdfimages -list` reports no embedded raster image; there is no form, JavaScript, encryption, or hidden answer layer. |
+| Visible provenance | Page 1 visibly titles section I `Parasympathomimtics I`; page 5 visibly titles the second section `Parasympathomimtics II and II`, preserving the source's apparent repeated-`II` typo. Every page repeats only the Arabic devotional header `سبحان الله و بحمده / سبحان الله العظيم`. No person, university/faculty, MHU/Helwan, BMS-102/module code, academic year, sitting/date, marks, duration, candidate field, invigilation, or departmental approval is visible. |
+| Metadata caution | Metadata author is `Eman Ibrahem Hefny Ibrahem`, creator is Microsoft Word, and creation/modification is 13 August 2025. None is visibly corroborated, so author/date remain secondary metadata provenance only and establish neither teaching authorship nor an exam sitting/year. |
+| Authority | Anonymous tier-6 keyed revision material in the local BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, not an authenticated Helwan exam or official departmental key. |
+
+### Complete section, case, key, written, image, teaching, and practical boundary
+
+| Physical pages / source refs | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · section-I Q1–Q4 | Cholinesterase facts; acetylcholine hypotension; carbachol versus bethanechol; rapid acetylcholine hydrolysis | **4 keyed text MCQs**. |
+| 2 · section-I Q5–Q9 start | Blood-pressure reversal after atropine; M2 signaling; choline-ester contraindication; pseudocholinesterase deficiency; methacholine cardiovascular selectivity | **5 keyed text MCQs**, with Q9 continuing on page 3. |
+| 3 · section-I Q9 completion + Case 1.1–1.2 | Methacholine completion; garden-exposure cholinergic syndrome identifying indirect parasympathomimetics and M2/M3 mediation | Q9 continuation plus **2 keyed case MCQs**. The case is an objective vignette, not a practical station or performed procedure. |
+| 4 | `Key answers:` for section-I Q1–Q9 and Case 1–2: `D,D,C,C,C,B,B,B,C,C,B` | **11 source-supplied answer occurrences**, one for each of the 9 direct MCQs and 2 case subquestions. |
+| 5 · section-II/III Q1–Q4 | Pilocarpine chemistry, absorption/BBB, ocular actions, and diaphoresis | **4 keyed text MCQs**. |
+| 6 · section-II/III Q5–Q8 | Pilocarpine/sialagogue, muscarine, physostigmine carbamylation, and physostigmine-versus-neostigmine BBB penetration | **4 keyed text MCQs**. |
+| 7 · section-II/III Q9–Q12 | Physostigmine convulsions, neostigmine/myasthenia, tacrine hepatotoxicity, and edrophonium duration/diagnostic use | **4 keyed text MCQs**, with Q12 continuing on page 8. |
+| 8 · section-II/III Q12 completion–Q16 | Edrophonium in myasthenic versus cholinergic crisis; irreversible anticholinesterase bond; neostigmine route | Q12 continuation plus **4 new keyed text MCQs**. Q14 is replayed clinically as Q17. |
+| 9 · section-II/III Q17–Q19 | Edrophonium worsening identifies cholinergic crisis; atropine before neostigmine; pilocarpine/hair growth | **3 keyed case/text MCQs**. Q17 is a semantic replay of Q14, preserved as a separate occurrence/key. |
+| 10 | `Key answers:` Q1–Q19 letters `C,C,C,B,C,C,A,D,A,C,D,B,C,B,C,C,B,B,C` | **19 source-supplied answer occurrences**, one per second-section MCQ. |
+
+The exhaustive source-local boundary is **30 raw prompt occurrences = 30 MCQs**, with **30 source-
+supplied answers / 0 unkeyed prompts**. There are **0 written-response prompts, 0 image-
+identification operations, 0 authenticated practical stations, 0 drawings requested, 0 candidate
+responses, 0 standalone teaching records, and 0 prompt-like residues**. The two numbered Case-1
+subquestions and the later crisis vignettes are objective assessment operations, not practical
+records. All title/numbering anomalies and key letters are preserved without medical correction or
+endorsement.
+
+### Retention, 29-handle registry, 116-search completion, and prior-BMS reconciliation
+
+All **30** prompt occurrences remain retained records; there is no literal replay exclusion.
+Second-section Q14 asks the response of a cholinergic-crisis patient to edrophonium, and Q17 asks
+the diagnosis when edrophonium worsens weakness; both test the same worsening→cholinergic-crisis
+proposition. Both occurrences and keys remain but collapse to one handle. Thus **`30 retained - 1
+semantic reduction = 29 accepted source-distinct handles`**.
+
+The complete accepted registry follows; each semicolon-delimited slug is one handle.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Section-I Q1–Q9 | `cholinesterase-enzyme-true-statement-regeneration-three-months`; `acetylcholine-hypotension-m2-heart-m3-vessels`; `carbachol-versus-bethanechol-nicotinic-actions`; `acetylcholine-rapid-hydrolysis-both-cholinesterases`; `methacholine-least-blood-pressure-reversal-after-atropine`; `m2-gi-decreased-camp-open-potassium-channels`; `choline-ester-contraindication-bronchial-asthma`; `pseudocholinesterase-deficiency-not-fatal-regeneration-three-weeks`; `methacholine-selective-cardiovascular-bradycardia-hypotension` |
+| Section-I case | `indirect-parasympathomimetic-garden-poisoning-syndrome`; `poisoning-bradycardia-salivation-m2-m3` |
+| Section-II/III Q1–Q9 | `pilocarpine-alkaloid-tertiary-amine`; `pilocarpine-well-absorbed-oral-crosses-bbb`; `pilocarpine-eye-miosis-ciliary-contraction-decreased-iop`; `pilocarpine-diaphoresis-sweat-secretion`; `pilocarpine-dry-mouth-sialagogue`; `muscarine-not-used-obsolete-toxic`; `physostigmine-carbamylated-cholinesterase`; `physostigmine-versus-neostigmine-crosses-bbb`; `physostigmine-convulsions-versus-neostigmine` |
+| Section-II/III Q10–Q19 | `neostigmine-myasthenia-skeletal-muscle-nm`; `tacrine-alzheimer-hepatotoxicity`; `edrophonium-myasthenia-diagnosis-short-duration-iv`; `edrophonium-improves-myasthenic-crisis`; `edrophonium-worsens-cholinergic-crisis` (Q14,Q17); `irreversible-anticholinesterase-esteratic-site-bond`; `neostigmine-subcutaneous-intramuscular-route`; `atropine-before-neostigmine-muscarinic-side-effects`; `pilocarpine-historical-hair-growth-follicle-vasodilation` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written state, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102
+Families 1–240: **`29 × 4 = 116 required and completed searches`**. Each packet used the
+distinctive stem, tested mechanism, answer/terminal phrase, and drug/topic or prior-handle variant.
+No pending Helwan carrier duplicates this object; external results do not change source retention.
+
+Exactly **6** handles reuse accepted Family-237 scope: pilocarpine's dry-mouth/sialagogue use
+(section-II/III Q5), neostigmine's skeletal-muscle/myasthenia action (Q10), irreversible
+organophosphate-anticholinesterase binding (Q15), neostigmine routes/pharmacokinetics (Q16),
+atropine before neostigmine in myasthenia (Q18), and the historical pilocarpine therapeutic-use
+record (Q19). The other **23** handles have no accepted prior BMS question at the same tested scope.
+Therefore concept arithmetic is **`29 - 6 = +23`**.
+
+### Family-241 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 241 | Auxiliary cumulative (Families 12–241) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 30 MCQ | 3,017 | 762 | 3,779 |
+| Eligible source-supplied answers | 30; 0 unkeyed | 2,052 | 405 | 2,457 |
+| Retained eligible question records | 30 | 2,721 | 552 | 3,273 |
+| Accepted handles / required searches | 29 / 116 | 2,442 / — | — | — |
+| Prior-BMS handle reuses | 6 | — | — | subtract before concept addition |
+| Cross-family concept delta | +23 | +1,271 over primary | 372 | 1,643 |
+| **Distinct tested concepts** | **29 source-local / +23** | **1,271 additions** | **372** | **1,643** |
+
+The checksum closes: **30 prompts = 30 answers + 0 unkeyed**; **30 raw - 0 literal exclusions =
+30 retained**; **30 retained - 1 semantic reduction = 29 handles**; **29 × 4 = 116 searches**;
+and **29 handles - 6 prior reuses = +23 concepts**. Auxiliary arithmetic is `2,987 + 30 =
+3,017` prompts, `2,022 + 30 = 2,052` answers, `2,691 + 30 = 2,721` retained, `2,413 + 29 =
+2,442` handles, and `1,248 + 23 = 1,271` concept additions. All eligible arithmetic is `762 +
+3,017 = 3,779`, `405 + 2,052 = 2,457`, `552 + 2,721 = 3,273`, and `372 + 1,271 = 1,643`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,017 prompts / 2,052 answers /
+2,721 retained / 2,442 handles / +1,271 concepts**. All eligible becomes **3,779 / 2,457 /
+3,273 / 1,643**. Family 241 establishes low-authority keyed parasympathomimetic revision evidence
+only, not official authorship, an authenticated exam/sitting, departmental key, recurrence,
+practical station, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 241
+
+`src_0d4fa2de42d5a5a70f2b` is exhausted across all 10 rendered/native pages: every visible source
+and metadata field, section heading, stem, option, continuation, case subquestion, answer letter,
+duplicate proposition, search packet, prior-family relation, and arithmetic term is assigned once,
+with **zero source remainder** and no Family-241 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 241 is **302 paths / 295 unique hashes**, leaving exactly **60 selected paths / 53
+unique hashes**. Checksums are **302 + 60 = 362 paths** and **295 + 53 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `e83c62cbc7690baf51c6ad10d9936e6cf04b1e9515a7cab8dfd6ebaadbb14be5`, and the first-
+occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`450d503480b61038276c14edf33b4ad35e6409479eac04b26fd7bb2331a03ce7`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_8c1ebe9861fc4c64e473` ·
+`sympathomimetic drugs I.pdf`, SHA-256
+`8c1ebe9861fc4c64e473a1941658ef2929d4bc71af3f4d4c301b9713576a182a`, **262,566 bytes**,
+**8 native-text portrait US-letter pages** under `Pharmacology / Notes and Summaries`. Its first
+page begins a keyed `Sympathomimetics I` set covering adrenaline apnoea, dipivefrine/glaucoma, and
+intramuscular noradrenaline risk. Its visible authority, complete keyed/unkeyed, written/image/
+practical/teaching boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and
+subsequent exact next debt remain to be separately adjudicated.
