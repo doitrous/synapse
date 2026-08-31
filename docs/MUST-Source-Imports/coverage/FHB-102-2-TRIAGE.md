@@ -889,3 +889,54 @@ Removing the nineteen processed hashes leaves **77 selected inventory paths / 75
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Micro and Immune Questions by Dr.Hesham [103].pdf`, SHA-256 `a3f83755f7a4921fd2bb614a3827af3a4bde8e86b40ce595e0d74dd30f578100`, 49 pages, with an empty-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 77 selected inventory paths / 75 unique hashes remain untriaged.
+
+## Completed source — Micro and Immune Questions by Dr.Hesham [103]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Micro and Immune Questions by Dr.Hesham [103].pdf` | `a3f83755f7a4921fd2bb614a3827af3a4bde8e86b40ce595e0d74dd30f578100` | 49 | empty-text | pages 1–49 rendered and read | Named revision bank headed `Microbiology and Immunology Questions`, watermarked `Dr Hesham` and signed `Dr. Hesham Esmat`. No institution, department, module authentication, examiner, sitting, marks, date or authenticated faculty-key claim is visible. The terminal answer tables are source evidence, not an official MUST key. |
+
+### Exact prompt, answer, written, practical, image and teaching boundary
+
+Pages 1–22 contain General Bacteriology Q1–Q185. Pages 23–47 continue the same document-wide numbering with Immunology Q186–Q403. Of the **403 objective prompts**, Q1–Q137 and Q186–Q360 are **312 conventional MCQs**, while Q138–Q185 and Q361–Q403 are **91 independently numbered matching or association prompts**. Pages 48–49 contain terminal answer tables only for Q1–Q399. The exact boundary is therefore **403 objective prompts / 399 prompt-matched printed answer observations / 4 source-absent answers / 0 written / 0 practical or image / 0 teaching prompts**. Q400–Q403 remain visibly unkeyed and no answers are inferred.
+
+Matching and association labels are independent numbered assessment occurrences rather than one inseparable composite. Page-break continuations remain one prompt. Headings, instructions and the terminal sign-off are not assessment occurrences. The printed omission of a Chapter 8 heading in the bacteriology progression, spelling, deprecated terminology and academically questionable questions or answer tokens remain source truth without correction.
+
+### Source-first handles, prior-FHB-102-2 collapse and exactly-four-search gate
+
+The 403 prompts collapse source-first into sixteen coherent handles. Every handle is already represented by concepts established in the prior module-wide, bacteriology, virology, mycology, infection-control and formative carriers, so no genuinely new handle survives the gate: **0 accepted × 4 = 0 searches**. This is a distinct carrier rather than an exact normalized prompt-sequence sibling and therefore retains its full physical observation delta.
+
+| Source handle | Prior-FHB-102-2 reference | Disposition |
+|---|---|---|
+| Bacterial morphology, classification, envelope, capsule, pili and spores | prior bacterial-structure and envelope handles | prior-FHB-102-2 collapse |
+| Growth, metabolism, nutrition and environmental requirements | prior bacterial-growth and physiology handles | prior-FHB-102-2 collapse |
+| Bacteriophages, lysogeny and phage conversion | prior bacteriophage and lysogenic-conversion handles | prior-FHB-102-2 collapse |
+| Plasmids, mutation and horizontal gene transfer | prior bacterial-genetics handles | prior-FHB-102-2 collapse |
+| Antimicrobial action, susceptibility testing, resistance, combinations and prophylaxis | prior antimicrobial-principles and resistance handles | prior-FHB-102-2 collapse |
+| Virulence, toxins, infection stages, carriers and epidemiology | prior virulence, toxin and infection handles | prior-FHB-102-2 collapse |
+| General virology structure, replication, pathogenesis and antiviral control | prior general-virology handles | prior-FHB-102-2 collapse |
+| General mycology morphology, reproduction and antifungal principles | prior general-mycology handles | prior-FHB-102-2 collapse |
+| Innate/adaptive immunity, leukocytes, lymphoid organs and phagocytosis | prior immune-response and host-defense handles | prior-FHB-102-2 collapse |
+| Antigens, haptens, immunogenicity and antigenic determinants | prior antigen/immunogenicity handles | prior-FHB-102-2 collapse |
+| T cells, MHC, antigen presentation, activation, superantigens and NK cells | prior cellular-immunity handles | prior-FHB-102-2 collapse |
+| Cytokines, Th1/Th2 responses and interferons | prior cytokine and antiviral-immunity handles | prior-FHB-102-2 collapse |
+| B cells, antibody responses, immunoglobulins, opsonization and ADCC | prior humoral-immunity and antibody handles | prior-FHB-102-2 collapse |
+| Complement pathways, regulation and biological effects | prior complement handles | prior-FHB-102-2 collapse |
+| Active/passive immunity, vaccination and immunization schedules | prior vaccine-platform and immune-response handles | prior-FHB-102-2 collapse |
+| Host defense against bacterial, viral and fungal pathogens | prior pathogen-specific host-defense handles | prior-FHB-102-2 collapse |
+
+Post-prior disposition is **0 live / 0 pending / 0 new**. No content record, answer reconstruction, medical correction, placement or catalogue entry was created.
+
+### Completed-source delta, cumulative totals and next source
+
+This twentieth one-path hash is now `sourceProcessed=true`. Its distinct-bank delta is **+403 questions / +399 answers / +0 concepts**.
+
+| Module | Questions triaged | Answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 102-2 | 2,329 | 2,187 | 62 | 0 | 0 | 62 | TBD |
+
+Removing the twenty processed hashes leaves **76 selected inventory paths / 74 unique SHA-256s**. Their sorted-newline checksum is `c3c08ac1930e1cff6adc0cab7e4886d7e5e57796103366b34abbe232810050a1`. Remaining audit-review debt is **34 substantive-text / 19 sparse-text / 10 empty-text / 11 audit-not-found / 2 audit-extract-failed rows**, and unique-hash accounting is **`20 + 74 = 94`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/05 MCQs/MCQs - Virology_60MCQ_10SAQ.pdf`, SHA-256 `c425f8a253501a3f6712c64895221953df8961fd60f8326bed5fcf33453ca810`, 10 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 76 selected inventory paths / 74 unique hashes remain untriaged.
