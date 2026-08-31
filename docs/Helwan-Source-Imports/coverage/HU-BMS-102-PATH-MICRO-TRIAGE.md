@@ -24178,3 +24178,111 @@ Summaries`. Its first page begins a numbered beta-blocker question set with a ti
 glaucoma operation and a propranolol dog-lab scenario. Its visible authority, exact keyed/unkeyed,
 objective/written/image/practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic,
 and subsequent exact next debt remain to be separately adjudicated.
+
+## Family 239 — anonymous keyed beta-blocker clinical-MCQ revision set
+
+### Source identity, complete visual/native boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-6 `src_5ee6650158c642a9f38b` · `beta blockers.pdf` under `Pharmacology / Notes and Summaries` |
+| SHA-256 / exact size | `5ee6650158c642a9f38b577d1e2acf46764c252967589e0b424704be3ec24c77` · **234,666 bytes** |
+| Format / exhaustive read | **5 native-text portrait US-letter pages, 612×792 points, PDF 1.7**. All 5 pages were rendered into 5 non-empty 1224×1584-pixel images and inspected individually at original detail. Coherent layout extraction contains **690 words / 5,672 bytes** and agrees with all 11 numbered stems, option sets, two native tables, page continuations, and the 11-row key. `pdfimages -list` reports no embedded raster images; there is no form, JavaScript, encryption, or hidden answer layer. |
+| Visible provenance | Page 1 visibly titles the carrier `Beta blockers`; pages 1–5 repeat only the Arabic devotional header `سبحان الله و بحمده / سبحان الله العظيم`. No person, university/faculty, MHU/Helwan, BMS-102/module code, academic year, sitting/date, marks, duration, candidate field, invigilation, or departmental approval is visible. |
+| Metadata caution | Metadata author is `Eman Ibrahem Hefny Ibrahem`, creator is Microsoft Word, and creation/modification is 15 August 2025. Because none is corroborated visibly, the author/date remain metadata provenance only and do not establish teaching authorship, a sitting, or an academic year. |
+| Authority | Anonymous tier-6 keyed revision material in the local BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, not an authenticated Helwan exam or official departmental answer key. |
+
+### Complete objective, table, key, written, teaching, and practical boundary
+
+| Physical pages / source refs | Complete visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q3 start | Timolol/open-angle-glaucoma effect table; propranolol pretreatment in an animal-lab vignette; epinephrine-alone versus Drug-X renin/glucose table | **3 keyed MCQs**. Q1 and Q3 use native-text tables, not imported images. Q2 describes a laboratory experiment inside an objective vignette; it does not document a learner-performed practical, station, specimen, or requested procedure. |
+| 2 · Q3 completion–Q5 start | Drug-X identification, atenolol and glucose monitoring after myocardial infarction, and propranolol-associated cold extremities/claudication | Q3 continuation plus **2 new keyed MCQs**. |
+| 3 · Q5 completion–Q8 | Propranolol peripheral vasoconstriction, asthma/wheezing management, metoprolol after MI, and masked hypoglycaemia warnings | Q5 continuation plus **3 new keyed MCQs**. Q4 and Q8 test the same hypoglycaemia-warning proposition in different vignettes. |
+| 4 · Q9–Q11 | Clonidine for heroin-withdrawal autonomic symptoms, beta blocker not preferred for hypertension, and unchanged renal excretion | **3 keyed MCQs**. |
+| 5 | `Key answers:` followed by Q1–Q11 letters `B,A,C,B,C,C,B,B,B,A,C` | **11 source-supplied answer occurrences**, mapped one-to-one to Q1–Q11. No teaching paragraph, rationale, or extra prompt is present. |
+
+The complete source-local boundary is **11 raw prompt occurrences = 11 text/table MCQs**, with
+**11 source-supplied answers / 0 unkeyed prompts**. There are **0 written-response prompts, 0
+image-identification operations, 0 authenticated practical stations, 0 drawings requested, 0
+candidate responses, and 0 prompt-like residues**. Q2's words `lab experiment` are scenario facts,
+not a practical record. The source key is inventoried without medical correction or endorsement.
+
+### Retention, 10-handle registry, 40-search completion, and prior-BMS reconciliation
+
+All **11** numbered occurrences remain retained records. Q4 and Q8 independently present the same
+beta-blocker masking of adrenergic hypoglycaemia warnings; both occurrences and keys remain, but they
+collapse to one tested proposition. There are no literal replay exclusions. Thus **`11 retained -
+1 semantic reduction = 10 accepted source-distinct handles`**.
+
+The complete accepted registry is:
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q3 | `timolol-open-angle-glaucoma-intraocular-pressure-without-pupil-or-lens-change`; `propranolol-blocks-isoproterenol-hyperglycemia`; `atenolol-beta-one-selectivity-renin-versus-glucose` |
+| Q4–Q8 | `beta-blocker-masks-hypoglycemia-adrenergic-warning` (Q4,Q8); `propranolol-peripheral-vasoconstriction-claudication`; `propranolol-asthma-stop-and-consider-beta-one-selective`; `metoprolol-post-mi-arrhythmia-workload-benefit` |
+| Q9–Q11 | `clonidine-opioid-withdrawal-autonomic-symptoms`; `pindolol-not-preferred-hypertension-intrinsic-sympathomimetic-activity`; `sotalol-renal-excretion-unchanged` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+question/written state, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102
+Families 1–238: **`10 × 4 = 40 required and completed searches`**. Each packet used the distinctive
+stem/scenario, tested mechanism, key/terminal phrase, and drug/topic or prior-handle variant. No
+pending Helwan carrier duplicates this object, and external results do not change source retention.
+
+Exactly **7** handles reuse prior BMS assessment scope. Family 237 already tests cardioselective-
+beta-blocker advantages (Q3), beta blockers/diabetes and masked hypoglycaemia (Q4/Q8), peripheral
+adverse effects/contraindications (Q5), asthma contraindication and cardioselective substitution
+(Q6), the acute-MI beta-blocker rationale (Q7), and clonidine therapeutic uses (Q9). Family 238's
+pindolol-partial-agonist handle contains Q10's intrinsic-sympathomimetic tested basis. The more
+specific timolol ocular-effect pattern, propranolol/isoproterenol hyperglycaemia experiment, and
+sotalol unchanged renal excretion have no accepted prior BMS handle at the same tested scope.
+Therefore concept arithmetic is **`10 - 7 = +3`**.
+
+### Family-239 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 239 | Auxiliary cumulative (Families 12–239) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 11 MCQ | 2,959 | 762 | 3,721 |
+| Eligible source-supplied answers | 11; 0 unkeyed | 1,994 | 405 | 2,399 |
+| Retained eligible question records | 11 | 2,663 | 552 | 3,215 |
+| Accepted handles / required searches | 10 / 40 | 2,386 / — | — | — |
+| Prior-BMS handle reuses | 7 | — | — | subtract before concept addition |
+| Cross-family concept delta | +3 | +1,229 over primary | 372 | 1,601 |
+| **Distinct tested concepts** | **10 source-local / +3** | **1,229 additions** | **372** | **1,601** |
+
+The checksum closes: **11 prompts = 11 answers + 0 unkeyed**; **11 raw - 0 literal exclusions = 11
+retained**; **11 retained - 1 semantic reduction = 10 handles**; **10 × 4 = 40 searches**; and
+**10 handles - 7 prior reuses = +3 concepts**. Auxiliary arithmetic is `2,948 + 11 = 2,959`
+prompts, `1,983 + 11 = 1,994` answers, `2,652 + 11 = 2,663` retained, `2,376 + 10 = 2,386`
+handles, and `1,226 + 3 = 1,229` concept additions. All eligible arithmetic is `762 + 2,959 =
+3,721`, `405 + 1,994 = 2,399`, `552 + 2,663 = 3,215`, and `372 + 1,229 = 1,601`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **2,959 prompts / 1,994 answers /
+2,663 retained / 2,386 handles / +1,229 concepts**. All eligible becomes **3,721 / 2,399 /
+3,215 / 1,601**. Family 239 establishes low-authority keyed beta-blocker revision evidence only,
+not official authorship, an authenticated exam/sitting, departmental key, recurrence, practical
+station, candidate response, readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 239
+
+`src_5ee6650158c642a9f38b` is exhausted across all 5 rendered/native pages: every visible source and
+metadata field, numbered stem, option, table, continuation, answer letter, duplicate proposition,
+search packet, prior-family relation, and arithmetic term is assigned once, with **zero source
+remainder** and no Family-239 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. The prefix
+through Family 239 is **300 paths / 293 unique hashes**, leaving exactly **62 selected paths / 55
+unique hashes**. Checksums are **300 + 62 = 362 paths** and **293 + 55 = 348 unique hashes**; the
+remaining suffix has zero hash overlap with the processed prefix. The ordered remaining-path ledger
+checksum is SHA-256 `749d26f765c99caca9ae7ffafa5bc219d9864a96d89cff7bddcc4b9814420e85`, and the first-
+occurrence ordered remaining-unique-hash ledger checksum is SHA-256
+`c960a43cc4dba74ef557bded83d8e42a19aadf5c3b5a613b50d4a733a111a8ab`.
+
+The exact next unprocessed BMS-102 record is tier-6 `src_ff378adf26d980974974` ·
+`parasympathetic depressants.pdf`, SHA-256
+`ff378adf26d980974974108e0057af7efd49bc394021bab84217137d08263995`, **239,297 bytes**,
+**9 native-text portrait US-letter pages** under `Pharmacology / Notes and Summaries`. Its first
+page begins a keyed atropine/parasympathetic-depressant MCQ set, including an atropine mydriasis
+item and a sunburned-skin/local-anaesthetic vignette. Its visible authority, complete keyed/unkeyed,
+written/image/practical boundary, four-search ledger, prior-BMS reconciliation, arithmetic, and
+subsequent exact next debt remain to be separately adjudicated.
