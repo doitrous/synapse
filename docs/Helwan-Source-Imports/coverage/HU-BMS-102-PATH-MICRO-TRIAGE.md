@@ -26085,3 +26085,126 @@ Microsoft Word 2016, iLovePDF, and 9 February 2020, none of which alone establis
 assessment authority. Its full visual/native boundary, visible authorship/authority, prompt/key/
 written/image/practical split, four-search/prior-BMS reconciliation, arithmetic, and subsequent
 exact debt remain to be separately adjudicated.
+
+## Family 257 — Helwan Medical Students' Union Pharmacology BMS2 question bank
+
+### Source identity, complete native/rendered read, and visible authority
+
+- Source: tier-9 `src_0041c6ef962476e3f9e0` · `MCQs - College MCQs Pharmacology Question Bank-1 (1).pdf`
+- Exact local carrier: `Pharmacology / Questions / MCQs / MCQs - College MCQs Pharmacology Question Bank-1 (1).pdf`
+- Verified SHA-256: `0041c6ef962476e3f9e081d7148d8068eeaffda20b7b49dad1b663dcf57c7dd9`
+- Verified carrier: **720,234 bytes**, **18 native-text portrait A4 pages**, PDF 1.5, tagged, unencrypted, no form, and no JavaScript.
+- Inspection: all 18 pages were extracted natively and rendered at 120 dpi; three six-page visual
+  contact sheets and full-detail page 1/page 18 checks account for every page, stem, option, key
+  cell, watermark, footer, and terminal credit. The native layer is coherent (**3,825 words /
+  30,177 text bytes**) and agrees with the rendered pages; this is not an OCR reconstruction.
+
+Every page visibly headers **`Pharmacology BMS2`** and bears both **`Helwan Medical Students'
+Union`** and the Arabic **`اتحاد طلاب كلية طب حلوان`** watermark. Page 18 visibly credits the
+Pharmacology team—**Khloud Mohammed, Rawan Waleed, Mai Ayman, Ahmed Ramy, and Ahmed Abd El
+Aziz**—under supervision of the scientific committee student union. That visible evidence makes
+this a Helwan BMS2 student-union revision bank and visibly corroborates metadata author Ahmed
+Ramy as one team member. Microsoft Word 2016/iLovePDF and the 9 February 2020 metadata timestamp
+describe production/export only; no visible year or authenticated exam sitting appears. Authority
+is therefore eligible **low-authority auxiliary student-produced assessment evidence**, not an
+official department exam, official answer key, or current-year recurrence/readiness claim.
+
+### Exhaustive assessment, answer, written, image, and practical boundary
+
+Pages 1–17 contain a continuous **Q1–Q97** sequence and page 18 supplies one complete answer-letter
+table for Q1–Q97. The exact raw boundary is **97 prompt occurrences = 91 four-option text MCQs + 6
+explicit true/false items** (Q18, Q20, Q25, Q36, Q66, and Q70), with **97 source-supplied answers /
+0 unkeyed prompts**. The terminal table is a supplied student-bank key; it is preserved as source
+truth without medical endorsement or silent correction.
+
+There are **0 free-response written prompts, 0 completion blanks, 0 matching items, 0 image-bearing
+questions, 0 drawing tasks, 0 authenticated practical stations, 0 practical residues, and 0
+teaching-only callouts**. A few stems use short applied contexts or calculations, but all remain
+text MCQs rather than written operations or practical stations. The bilingual union watermark and
+page decoration establish provenance only.
+
+Eight terminal items replay earlier prompt propositions within the same carrier: **Q90→Q1,
+Q91→Q23, Q92→Q24, Q93→Q38, Q94→Q41, Q95→Q45, Q96→Q47, and Q97→Q51**. All 97 occurrences and
+their answer cells remain recorded; source-first semantic collapse removes only those eight second
+handles. Therefore **97 raw - 0 excluded = 97 retained records; 97 retained - 8 semantic replays =
+89 accepted source-distinct handles**.
+
+### Eighty-nine-handle registry, exactly 356 searches, and prior-BMS reconciliation
+
+The 89 accepted handles preserve the numbered source boundary in these auditable topic packets:
+
+| Source refs | Source-distinct handle packet |
+|---|---|
+| Q1–Q12 | pharmacokinetics definition; absorption; membrane permeability/active transport; bioavailability/first pass; rectal and oral routes |
+| Q13–Q25 | oral, sublingual, inhalational, IM/IV/SC route properties; distribution barriers; BBB; volume of distribution |
+| Q26–Q40 | biotransformation; enzyme induction; phase I/II reactions; conjugation; liver dysfunction; half-life and elimination constant |
+| Q41–Q59 | pharmacodynamics; receptor/affinity; agonist and antagonist classes; transmembrane signalling; second messengers; ion channels; efficacy/potency |
+| Q60–Q78 | therapeutic/toxic dose; accumulation; tolerance, resistance and dependence; pharmacokinetic/pharmacodynamic interactions; synergism and antagonism |
+| Q79–Q89 | teratogenicity; Vd calculation/determinants; first-order elimination; steady state; GPCR; receptor down-regulation; physiological/noncompetitive antagonism; weak-acid urinary trapping |
+| Q90–Q97 | preserved second occurrences collapsed to Q1, Q23, Q24, Q38, Q41, Q45, Q47, and Q51 respectively |
+
+Every accepted handle received exactly four fresh searches: one each across
+`docs/questions-import-ready`, Helwan `pending-live`, governed Helwan question/written output, and
+prior BMS-102 family evidence. This is **`89 × 4 = 356 required and completed searches`**. The
+first three surfaces return **0 ready / 0 pending / 0 governed-live competing objects**. The
+prior-family surface yields 461 broad token matches, which were adjudicated proposition by
+proposition rather than counted as reuse automatically.
+
+Prior eligible BMS evidence reuses **57** handles. Families 202 and 223 already govern the basic
+ADME, routes, first-pass, distribution, metabolism, elimination, half-life, and steady-state
+propositions; Family 238 and the later autonomic-question families govern the established
+receptor, agonist/antagonist, signalling, potency/efficacy, tolerance, down-regulation, and
+physiological-antagonism propositions. The **32 source-distinct concepts not already governed at
+the same tested-proposition scope** are Q13, Q15, Q21, Q22, Q28, Q37, Q38, Q40, Q44, Q46, Q52,
+Q54–Q58, Q60–Q62, Q64, Q66–Q76, and Q78. Consequently, concept arithmetic is **`89 handles - 57
+prior reuses = +32 concepts`**.
+
+### Family-257 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 257 | Auxiliary cumulative (Families 12–257) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 97 (91 MCQ + 6 T/F) | 3,261 | 762 | 4,023 |
+| Eligible source-supplied answers | 97; 0 unkeyed | 2,247 | 405 | 2,652 |
+| Retained eligible question records | 97 | 2,965 | 552 | 3,517 |
+| Accepted handles / required searches | 89 / 356 | 2,666 / — | — | — |
+| Prior-BMS handle reuses | 57 | — | — | subtract before concept addition |
+| Cross-family concept delta | +32 | +1,357 over primary | 372 | 1,729 |
+| **Distinct tested concepts** | **89 source-local / +32** | **1,357 additions** | **372** | **1,729** |
+
+The checksum closes: **97 prompts = 97 answers + 0 unkeyed**; **97 raw - 0 exclusions = 97
+retained**; **97 retained - 8 semantic replays = 89 handles**; **89 × 4 = 356 searches**; and
+**89 - 57 prior reuses = +32 concepts**. Auxiliary arithmetic is `3,164 + 97 = 3,261` prompts,
+`2,150 + 97 = 2,247` answers, `2,868 + 97 = 2,965` retained, `2,577 + 89 = 2,666` handles, and
+`1,325 + 32 = 1,357` concept additions. All eligible is `762 + 3,261 = 4,023`, `405 + 2,247 =
+2,652`, `552 + 2,965 = 3,517`, and `372 + 1,357 = 1,729`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,261 prompts / 2,247 answers /
+2,965 retained / 2,666 handles / +1,357 concepts**. All eligible becomes **4,023 / 2,652 /
+3,517 / 1,729**. Family 257 adds Helwan student-union assessment evidence, 97 source-supplied
+answer cells, and 32 new tested concepts—not official exam/key authority, a dated sitting,
+practical evidence, recurrence/readiness, or claims status.
+
+### Exact next debt and remaining manifest distance after Family 257
+
+`src_0041c6ef962476e3f9e0` is exhausted across all 18 native/rendered pages: every prompt, option,
+T/F label, answer-table cell, watermark, credit, metadata field, same-source replay, search packet,
+prior-family relation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-257 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 257
+governs **1 selected path / 1 unique hash**. The governed set through Family 257 is therefore
+**322 paths / 311 unique hashes**, leaving exactly **40 ungoverned selected paths / 37 unique
+hashes**. Checksums are **322 + 40 = 362 paths** and **311 + 37 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`5a48c8dcb46caed3d21ac296889d7f371d966880f774c46b3f87b80756685505`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`44b165ee09e8ffffa90544a14aa7d6992a86b41a2b1966645a756a15abc60701`. The remaining set has
+zero hash overlap with the governed set.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_cb6b50b3ccefb1576eb5` ·
+`MCQs - KASR Pharma MCQ 2022.pdf`, SHA-256
+`cb6b50b3ccefb1576eb514ea0d757246db57a5b1162cdf90e3e7fa7cfe24112f`, **765,647 bytes**,
+**13 native portrait pages** under `Pharmacology / Questions / MCQs`. Its iOS Quartz metadata is
+dated 8 April 2023 but its first two native pages carry no extractable text; visible Kasr/2022
+authority, OCR/rendered prompt/key/written/image/practical boundary, four-search/prior-BMS
+reconciliation, arithmetic, and subsequent exact debt remain to be separately adjudicated.
