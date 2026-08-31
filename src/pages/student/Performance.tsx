@@ -224,7 +224,7 @@ function YourStanding({ metric, viewer, records }: {
           <span>{t('Eligibility — verified answers this term')}</span>
           <span className="tnum font-mono font-semibold">{verified} / {required}</span>
         </div>
-        <Meter value={verified} max={required} tone={eligible ? 'success' : 'primary'} className="mt-1.5" />
+        <Meter value={verified} max={required} tone={eligible ? 'success' : 'primary'} target className="mt-1.5" />
         {!eligible && (
           <p className="mt-1.5 text-[11px] leading-relaxed text-ink-3">
             {Math.max(0, required - verified)} {t('more verified answers and you join the board — shared tests and readiness assessments count.')}

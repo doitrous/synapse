@@ -273,7 +273,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
             </span>{' '}
             mark-scheme steps ({pct}%) in {clock((target.minutes ?? 8) * 60 - seconds)}.
           </p>
-          <Meter value={pct} tone="primary" className="mx-auto mt-4 max-w-xs" />
+          <Meter value={pct} tone="primary" target className="mx-auto mt-4 max-w-xs" />
           <div className="mt-6 flex justify-center gap-2">
             <Button
               variant="secondary"
@@ -400,7 +400,7 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
                     <span className="text-[11px] text-ink-3">{checked.size} of {total} scoring points · pass mark 65%</span>
                   </div>
                 </div>
-                <div className="px-4 pt-3"><Meter value={pct} tone="primary" /></div>
+                <div className="px-4 pt-3"><Meter value={pct} tone="primary" target /></div>
                 {/* Ticking updates the live score above — weighted by section,
                     not by raw item count, so a light section can't outweigh a
                     heavy one. */}
