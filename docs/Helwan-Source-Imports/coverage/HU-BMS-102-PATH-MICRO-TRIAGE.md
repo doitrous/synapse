@@ -28286,3 +28286,92 @@ modification on 27 February 2026. Its visible Dr. Mohamad Abd-Elghani provenance
 `Semester 1, Level 1, Module 1 A` footer and resulting BMS-101/module-placement conflict, two
 unkeyed review MCQs, teaching boundary, authority gate, arithmetic, and subsequent exact debt
 remain to be separately adjudicated.
+
+## Family 278 — off-module Module-1-A pharmacokinetics teaching deck
+
+### Source identity, exhaustive visual/native read, and authority
+
+| Field | Source-first finding |
+|---|---|
+| Source | tier-4 `src_2dc34ff39e6b29f11675` · manifest `Pharmacokinetics 1 .pdf` · exact-SHA local carrier `Pharmacokinetics 1.pdf` |
+| Exact object | SHA-256 `2dc34ff39e6b29f116753087c4299b1ee87f885064997d6088d0a5fcaec01984` · **1,540,437 bytes** · **63 native 720×540 landscape pages** · 2,505 extracted words |
+| Full-read method | all 63 pages rendered at 144 dpi, reviewed in seven ordered nine-page visual sheets, and inspected against the complete layout-preserving native extraction; pages 2–3 and 44–45 were reread at original rendered detail |
+| Visible authorship | page 2 names **Dr. Mohamad Abd-Elghani** beneath `General principles of clinical pharmacology`. No university, faculty, department, Helwan, BMS-102, assessment sitting, or official-key marker is visible. |
+| Recurring module marker | the exact misspelled footer `Semetsr1- Level 1- Module 1 A` appears **40 times**, including both assessment pages. This is a deck-level Module-1-A identity, not an isolated copied-footer typo. |
+| Metadata | title `Slide 1`; Author `Ramy`; Microsoft PowerPoint LTSC creator/producer; created and modified 27 February 2026. Metadata records export provenance only and does not override visible Dr. Abd-Elghani authorship or the visible module footer. |
+| Authority / eligibility | The selected BMS-102 path supplies corpus context, but the repeated visible **Module 1 A** designation conflicts with BMS-102 and no visible Helwan/BMS-102 marker repairs it. Under the standing module-conflict rule, this is preserved as an **off-module teaching carrier** and excluded before eligible-handle construction. |
+
+### Complete teaching, prompt, answer, and practical boundary
+
+| Pages | Visible content | Exact governed classification |
+|---|---|---|
+| 1–3 | invocation; named title slide; pharmacokinetics learning objectives | cover/provenance/curriculum statements only; objective verbs are teaching goals, not learner response fields |
+| 4–12 | general pharmacology definitions, drug–body interaction, drug sources, synthetic examples, and pharmacokinetic/pharmacodynamic diagrams | completed declarative and labelled teaching material; **0 prompts / 0 answers** |
+| 13–22 | routes of administration and dosage forms, with completed diagrams, tables, examples, advantages, and disadvantages | teaching/reference material; images are labelled illustrations rather than identification tasks |
+| 23–43 | absorption sites and mechanisms, pKa/ionization, ADMET, bioavailability, AUC comparison, and factors affecting bioavailability | completed definitions, diagrams, tables, and clinical explanations; **0 candidate operations** |
+| 44 | `Bioavailability is the fraction or percentage ... via a given route as compared to what route?` with options Oral / IV / S.C. / CSF / I.M. | **1 unkeyed five-option text MCQ / 0 supplied answers**. No selection, reveal, or linked key is visible. |
+| 45 | `Review Q.7`: organ responsible for metabolism in the first-pass effect, with Brain / Heart / Kidney / Liver / Spleen | **1 unkeyed five-option text MCQ / 0 supplied answers**. The unexplained Q.7 label is preserved; no Q1–Q6 prompt set or answer layer is present elsewhere in this carrier. |
+| 46–51 | absorption factors, first-pass metabolism, toxicity, and absorption summary | declarative teaching continuation; surrounding facts do not constitute an explicit answer reveal for pages 44–45 |
+| 52–58 | drug nomenclature, essential/orphan drugs, new-drug evaluation, placebo, and bioequivalence | completed teaching/reference material |
+| 59–62 | drug distribution, apparent volume, perfusion/diffusion, lipophilicity, and target-site distribution | completed teaching/reference material |
+| 63 | `Thank you` | closing slide only |
+
+The exhaustive raw boundary is therefore **2 objective prompts / 0 supplied answers / 2
+answer-absent prompts**, specifically two unkeyed text MCQs. There are **0 free-response written
+prompts, 0 practical stations, 0 image-identification prompts, 0 candidate responses, and 0
+official or source-linked key cells**. The many rhetorical teaching headings, completed diagrams,
+learning objectives, and labelled clinical examples are not response fields.
+
+### Replay reconciliation and exact four-search gate
+
+The two source-local propositions are not novel to the governed corpus: page 44 replays the
+intravenous-route bioavailability reference proposition already represented in Family 223, and
+page 45 replays the liver-as-first-pass-organ proposition already represented in Family 267.
+Both occurrences remain preserved with their exact unkeyed state. Because the recurring Module-1-A
+identity closes eligibility before semantic promotion, neither becomes an accepted Helwan handle,
+prior-BMS accepted-handle reuse, or concept delta.
+
+The accepted-handle set is **0**. Exactly four searches per accepted handle therefore requires
+and records **0 × 4 = 0 searches**. Prior-BMS accepted-handle reuse is **0** and the eligible
+concept delta is **+0**; the replay statements above are source comparison evidence only.
+
+### Eligible arithmetic and cumulative result
+
+| Metric | Family 278 eligible delta | Auxiliary cumulative | Primary cumulative | All eligible cumulative |
+|---|---:|---:|---:|---:|
+| Objective + written prompts | 0 | 3,555 | 762 | 4,317 |
+| Supplied answers | 0 | 2,541 | 405 | 2,946 |
+| Retained eligible question records | 0 | 3,259 | 552 | 3,811 |
+| Accepted handles / required searches | 0 / 0 | 2,926 / — | — | — |
+| Prior-BMS handle reuses | 0 | — | — | no accepted handle |
+| Cross-family concept delta | +0 | +1,495 over primary | 372 | 1,867 |
+| **Distinct tested concepts** | **+0** | **1,495 additions** | **372** | **1,867** |
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary remains **3,555 prompts / 2,541 answers /
+3,259 retained / 2,926 handles / +1,495 concepts**. All eligible remains **4,317 / 2,946 /
+3,811 / 1,867**. Family 278 adds named-instructor, module-conflict, teaching-map, and two-unkeyed-
+MCQ evidence only—not a BMS-102/Helwan assessment, official key, written exam, authenticated
+practical, dated sitting, eligible recurrence/readiness, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 278
+
+`src_2dc34ff39e6b29f11675` is exhausted across all 63 pages: every title, footer occurrence,
+teaching panel, diagram, table, prompt, option, answer absence, module conflict, metadata field,
+replay relation, zero gate, and arithmetic term is assigned once, with **zero source remainder**
+and no Family-278 blocker.
+
+The HU-BMS-102 projection remains **362 selected paths / 348 unique hashes**. Family 278 governs
+**1 selected path / 1 unique hash**. The governed set through Family 278 is therefore **343 paths /
+331 unique hashes**, leaving exactly **19 ungoverned selected paths / 17 unique hashes**. Checksums
+are **343 + 19 = 362 paths** and **331 + 17 = 348 unique hashes**. The ordered remaining-path
+ledger has SHA-256 `3f22bc07e574d45863916b1302a28c4d8c5bd2c8f8deadaf45e199d455a868d5`;
+the first-occurrence ordered remaining-unique-hash ledger has SHA-256
+`b07e36fa39798872de72fa84a1c1a91ac837264306ed194b347d2589e60cf25e`.
+
+The exact next unprocessed BMS-102 record is tier-4 `src_0ba100e13b56925e738b` · `ADRs.pdf`,
+SHA-256 `0ba100e13b56925e738b956909329d71da567ee7ebb537148c3e54057baf898e`,
+**181,507 bytes**, **8 native portrait A4 pages** under `Pharmacology / Theoretical / Lec 10 -
+Drug Adverse Effects`. Metadata names `mustafa elsayed` as Author, identifies Microsoft Word 365
+as creator/producer, and records creation/modification on 22 March 2026. Its visible adverse-drug-
+reaction teaching boundary, absence of institutional/module/assessment markers, authority gate,
+arithmetic, and subsequent exact debt remain to be separately adjudicated.
