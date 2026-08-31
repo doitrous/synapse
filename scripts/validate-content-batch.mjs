@@ -935,7 +935,9 @@ if (kind === 'question') {
       // Options and their explanations. An option without an explanation teaches
       // nothing, which is the one thing this content type exists to do.
       const answered = data.answers.filter((answer) => answer.text.trim())
-      if (answered.length < 4 || answered.length > 5) {
+      if (format === 'true_false' && answered.length !== 2) {
+        errors.push(`${where}: ${answered.length} option${answered.length === 1 ? '' : 's'} — a true/false question requires exactly 2`)
+      } else if (format !== 'true_false' && (answered.length < 4 || answered.length > 5)) {
         errors.push(`${where}: ${answered.length} option${answered.length === 1 ? '' : 's'} — the contract is 4 to 5`)
       }
       for (const answer of answered) {

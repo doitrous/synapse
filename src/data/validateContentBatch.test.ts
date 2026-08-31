@@ -535,6 +535,55 @@ test('a question whose concept is nowhere fails, and says to try --with', () => 
   }
 })
 
+test('a true-or-false question accepts its exact two source options', () => {
+  // A genuine true/false item has two choices by definition. The importer
+  // already recognises this format, so applying the single-best-answer 4–5
+  // option floor here blocks exact source transcription and pressures authors
+  // to invent distractors that were never printed.
+  const module = authorModule()
+  try {
+    const questions = join(module.root, 'question')
+    mkdirSync(questions)
+    const batch = join(questions, 'true-false.md')
+    writeFileSync(batch, [
+      '# Item',
+      '## id',
+      'Q-TEST-TRUE-FALSE-01',
+      '## title',
+      'The sinoatrial node sets the heart rate',
+      '## subject',
+      'cvs',
+      '## format',
+      'true or false',
+      '## question',
+      'The sinoatrial node sets the heart rate.',
+      '## correct_answer',
+      'A',
+      '## answer_a',
+      'True',
+      '## answer_b',
+      'False',
+      '## explanation_a',
+      'Correct: the sinoatrial node has the fastest spontaneous depolarisation.',
+      '## explanation_b',
+      'Incorrect: another conducting tissue does not normally set the sinus rate.',
+      '## main_concept',
+      'CON-TEST-SA-NODE',
+      '## library_ids',
+      'ART-TEST-PACEMAKER',
+      '',
+    ].join('\n'))
+
+    const report = validate(batch, module.concepts, module.articles)
+    assert.ok(
+      !report.errors.some((error) => error.includes('2 options — the contract is 4 to 5')),
+      `two exact true/false options must be accepted, got ${JSON.stringify(report.errors)}`,
+    )
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})
+
 /* ---- source_candidate_ids on an update row ------------------------------- */
 
 test('a live concept may restate the candidate ids it already carries', () => {
