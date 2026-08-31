@@ -27308,3 +27308,114 @@ visibly titles `MCQs Pharmacodynamics` and supplies right-margin answer letters;
 `A` and creation/modification are 24 April 2026. Its exact visible authority, prompt/key/written/
 image/practical boundary, source-local/prior collapse, eligible gate, arithmetic, and subsequent
 exact debt remain to be separately adjudicated.
+
+## Family 268 — Dr El-Sawy keyed receptor-family and signal-transduction bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_6ad47652df65f020cf06` · `MCQs - MCQ Pharmacodynamics.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `6ad47652df65f020cf0608c011deb5b629d6b516aad25626458cc855894a2fb1` · **185,884 bytes** |
+| Format / complete visual boundary | **Six native-text portrait A4 pages, PDF 1.7**. All six were rendered at 160 dpi into six non-empty 1,323×1,871-pixel images and read individually at original detail. Coherent layout extraction contains **742 words / 6,685 bytes** and agrees with every title, numbered stem, option, superscript ion, right-margin answer letter, footer, and `n of 6` marker. No form, JavaScript, encryption, hidden response layer, page, or crop remainder exists. |
+| Visible provenance | Page 1 visibly titles `MCQs Pharmacodynamics`; every page headers `Pharma` and footers **`DR ELSAWY`**. No page visibly names a university/faculty, Helwan, BMS-102/module code, academic year, sitting, marks, candidate, duration, or departmental approval. |
+| Metadata caution | Metadata Author is only `A`; Creator/Producer are Microsoft Word LTSC; creation and modification are 24 April 2026. These sparse export fields are secondary to the visible Dr El-Sawy credit and establish neither institution, academic year, sitting, nor official-key status. |
+| Authority / eligibility | Instructor-attributed inline-keyed revision bank in the local Helwan BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary assessment evidence**, not an official Helwan examination, authenticated departmental key, sitting, candidate response, or practical record. |
+
+### Complete prompt, answer, written, image, and practical boundary
+
+| Physical page / source refs | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1 · Q1–Q5 | Ion-channel receptor subunits/action/speed; nicotinic sodium and GABA chloride channels | **5 keyed four-option text MCQs**. |
+| 2 · Q6–Q10 | Ion-channel speed; seven-transmembrane G-protein receptors; Gs/adenylyl cyclase/cAMP/protein kinase | **5 keyed four-option text MCQs**. |
+| 3 · Q11–Q15 | Alpha2/M2 Gi coupling; Gq→IP3/DAG; IP3→calcium; alpha1 Gq coupling | **5 keyed four-option text MCQs**. |
+| 4 · Q16–Q20 | M1/M3 Gq coupling; tyrosine-kinase receptor enzyme/domains/example/signaling proteins | **5 keyed four-option text MCQs**. |
+| 5 · Q21–Q25 | Intracellular-receptor location, transcription, cell entry, speed/protein synthesis, corticosteroid example | **5 keyed four-option text MCQs**. |
+| 6 · Q26–Q29 | Thyroxin and sex-hormone intracellular receptors; persistence and comparative receptor speed | **4 keyed four-option text MCQs**. |
+
+The exact source-local boundary is **29 raw prompt occurrences = 29 keyed four-option text MCQs**,
+with **29 right-margin source-supplied answer letters / 0 unkeyed prompts**. There are **0 True/
+False items, 0 matching items, 0 completion blanks, 0 free-response written operations, 0
+drawings, 0 image-bearing prompts, 0 authenticated practical stations, 0 candidate responses, 0
+teaching-only callouts, and 0 prompt-like residues**. `Thyroxin`, receptor/domain descriptions, and
+all answer letters are retained as source truth without silent spelling or medical correction.
+
+### Retention, 29-handle registry, 116-search completion, and prior-BMS reconciliation
+
+All **29** source occurrences remain **29 retained records and 29 accepted source-distinct
+handles**. No literal or same-proposition duplicate warrants collapse: adjacent speed questions
+separately test absolute response duration, fastest class, and an inter-class comparison; G-protein
+items separately test messenger pathways and receptor examples; intracellular items separately
+test location, entry, transcription, kinetics, persistence, and agonist classes.
+
+| Source refs | Accepted source-first handles |
+|---|---|
+| Q1–Q5 | `ion-channel-receptors-five-transmembrane-subunits`; `ion-channel-receptor-agonist-opens-channel`; `ion-channel-receptor-fast-short-response`; `nicotinic-motor-endplate-opens-sodium-channel`; `gaba-receptor-opens-chloride-channel` |
+| Q6–Q10 | `ion-channel-receptor-fastest-response`; `g-protein-receptor-seven-transmembrane-subunits`; `g-protein-receptor-slower-longer-than-ion-channel`; `gs-increases-adenylyl-cyclase-camp`; `camp-activates-protein-kinases` |
+| Q11–Q16 | `alpha-two-adrenergic-receptor-gi-coupled`; `m-two-muscarinic-receptor-gi-coupled`; `gq-increases-ip3-dag`; `ip3-increases-intracellular-calcium`; `alpha-one-adrenergic-receptor-gq-coupled`; `m-one-m-three-muscarinic-receptors-gq-coupled` |
+| Q17–Q20 | `tyrosine-kinase-receptor-intracellular-tk-enzyme`; `tyrosine-kinase-receptor-extracellular-hormone-intracellular-tk-domains`; `insulin-receptor-tyrosine-kinase-linked`; `tyrosine-kinase-receptor-activates-signaling-proteins` |
+| Q21–Q29 | `intracellular-receptor-cytoplasm-or-dna-location`; `intracellular-receptor-regulates-gene-transcription`; `intracellular-receptor-agonist-enters-cell`; `intracellular-receptor-slow-not-fast-protein-synthesis`; `corticosteroids-intracellular-receptor-agonists`; `thyroxin-acts-on-intracellular-receptor`; `sex-hormone-receptors-inside-cell`; `intracellular-receptor-effects-persist-after-agonist-removal`; `ion-channel-receptors-faster-than-intracellular-receptors` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed state,
+`docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102 Families 1–267:
+**`29 × 4 = 116 required and completed searches`**. Each packet used the distinctive source-first
+slug/stem, tested proposition, answer/terminal phrase, and an ion-channel, G-protein, second-
+messenger, tyrosine-kinase, intracellular-receptor, or prior-handle variant. No live, ready, or
+pending object duplicates this carrier.
+
+Exactly **3** accepted handles reuse prior BMS assessment scope: M2-muscarinic Gi coupling reuses
+Family 241's `m2-gi-decreased-camp-open-potassium-channels`; the Gq→IP3/DAG and alpha1→Gq
+operations both reconcile to Family 202's accepted `alpha1-gq-plc-ip3-dag` scope. Completed
+Family-204 G-protein teaching and Family-252's generic receptor-types enumeration provide useful
+context but cannot create additional same-scope assessment reuse. The other **26** handles have no
+accepted prior BMS question at the same tested scope. Therefore concept arithmetic is **`29 - 3 =
++26`**.
+
+### Family-268 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 268 | Auxiliary cumulative (Families 12–268) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 29 MCQ | 3,505 | 762 | 4,267 |
+| Eligible source-supplied answers | 29; 0 unkeyed | 2,491 | 405 | 2,896 |
+| Retained eligible question records | 29 | 3,209 | 552 | 3,761 |
+| Accepted handles / required searches | 29 / 116 | 2,877 / — | — | — |
+| Prior-BMS handle reuses | 3 | — | — | subtract before concept addition |
+| Cross-family concept delta | +26 | +1,454 over primary | 372 | 1,826 |
+| **Distinct tested concepts** | **29 source-local / +26** | **1,454 additions** | **372** | **1,826** |
+
+The checksum closes: **29 prompts = 29 answers + 0 unkeyed = 29 retained = 29 handles**; **29 ×
+4 = 116 searches**; and **29 - 3 prior reuses = +26 concepts**. Auxiliary arithmetic is `3,476
++ 29 = 3,505` prompts, `2,462 + 29 = 2,491` answers, `3,180 + 29 = 3,209` retained, `2,848
++ 29 = 2,877` handles, and `1,428 + 26 = 1,454` additions. All eligible arithmetic is `762 +
+3,505 = 4,267`, `405 + 2,491 = 2,896`, `552 + 3,209 = 3,761`, and `372 + 1,454 = 1,826`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,505 prompts / 2,491 answers /
+3,209 retained / 2,877 handles / +1,454 concepts**. All eligible becomes **4,267 / 2,896 /
+3,761 / 1,826**. Family 268 establishes low-authority instructor-attributed keyed receptor-
+signaling evidence only—not an official exam, authenticated sitting, departmental key, practical
+station, recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 268
+
+`src_6ad47652df65f020cf06` is exhausted across all six native/rendered pages: every header, stem,
+option, ion symbol, answer token, footer, authority limitation, metadata field, search packet,
+prior-family relation, and arithmetic term is assigned once, with **zero source remainder** and no
+Family-268 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 268
+governs **1 selected path / 1 unique hash**. The governed set through Family 268 is therefore
+**333 paths / 322 unique hashes**, leaving exactly **29 ungoverned selected paths / 26 unique
+hashes**. Checksums are **333 + 29 = 362 paths** and **322 + 26 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`48bb21f58ba2deea279161056a6908aa2c87ab739f7d9303b8ccb607085280bd`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`246018e3af6cf72fdd691230793e022e2c23095df13c7bc79c41aeaf257623eb`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_016866b6af044415ee1a` ·
+`MCQs - MCQ Posology.pdf`, SHA-256
+`016866b6af044415ee1a1751fd260aae32cf8bf8c7c2eb789b48f05b25714b10`, **163,092 bytes**,
+**ten native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. Metadata Author is
+`A` and creation/modification are 24 April 2026. Its exact visible authority, prompt/key/written/
+image/practical boundary, source-local/prior collapse, eligible gate, arithmetic, and subsequent
+exact debt remain to be separately adjudicated.
