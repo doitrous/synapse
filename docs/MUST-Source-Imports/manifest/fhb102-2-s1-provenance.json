@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "e2be1ffa9c621673313d357553861aab2ecf4a2c8b6618c4695f97f459484033",
-    "triageMarkdown": "3dffa9167ef2fdd194ed18cccd407e5e0b741024eb6836792b928c49ace454bb"
+    "readinessMarkdown": "7eb56eba418fe71c841f5bc4511cf52ae23f898256867bef92239f49184c4194",
+    "triageMarkdown": "cb6b76d12604b8a40f6898aef7c5cae9b6f4308b644744ab149c597946c0c969"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -79,6 +79,7 @@
       "6f8c8d58b36dce48323583f692c5774aed8593e6fa3d22305068d4a3036b3901",
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
+      "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
@@ -102,7 +103,7 @@
       "eb83aed17e5e468bc64ed11774fa1ccc548bb7c3c28ebe96f90e37d97d7e7bc8",
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd"
     ],
-    "uniqueSha256": 32
+    "uniqueSha256": 33
   },
   "completedSourceCoverage": [
     {
@@ -1980,6 +1981,81 @@
         "printed spelling, classifications, organism descriptions and academically questionable teaching claims remain source truth",
         "fully revealed comparison tables and numbered explanatory lists are not reverse-engineered into questions or answer keys"
       ]
+    },
+    {
+      "sha256": "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
+      "sourcePages": 26,
+      "renderedReadPages": "1-26",
+      "coverPages": [
+        1
+      ],
+      "labelledTeachingReferencePages": "2-26",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 25,
+      "teachingPrompts": 0,
+      "sectionBoundary": [
+        {
+          "section": "Cover — Fundamentals in Microbiology",
+          "pages": [
+            1
+          ],
+          "teachingReferencePages": 0,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Fundamentals and bacterial classification/structure",
+          "pages": "2-6",
+          "teachingReferencePages": 5,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Medical Mycology",
+          "pages": "7-9",
+          "teachingReferencePages": 3,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "General Virology",
+          "pages": "10-18",
+          "teachingReferencePages": 9,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Host-Parasite Relationship",
+          "pages": "19-21",
+          "teachingReferencePages": 3,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "General Characters of Medically Important Bacteria",
+          "pages": "22-26",
+          "teachingReferencePages": 5,
+          "assessmentPrompts": 0
+        }
+      ],
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "authorityDisposition": "individual Fundamentals in Microbiology teaching carrier whose pages 2-26 are visibly credited By/ Dr Mo. Haitham; it shows no MUST university, college or department authentication, FHB module mark, examiner, sitting, marks, question-paper status or authenticated faculty-key claim, and the filename FHB part label alone does not confer assessment authority",
+      "boundaryDisposition": "page 1 is a cover and pages 2-26 are twenty-five fully labelled teaching/reference pages spanning fundamentals and bacterial structure, mycology, virology, host-parasite relationships and medically important bacteria; diagrams, organism images, comparison tables and classification trees are already labelled and no prompt/reveal sequence is printed, so the source contributes zero objective, written, practical, image-dependent, answer or source-absent occurrences",
+      "preservedSourceDefects": [
+        "the filename and inventory folder are preserved without inferring an official FHB midterm paper",
+        "printed spelling, capitalization, classifications, organism descriptions and academically questionable teaching claims remain source truth",
+        "fully labelled images, tables and numbered teaching lists are not reverse-engineered into questions or answer keys"
+      ]
     }
   ],
   "triageCumulative": {
@@ -2182,22 +2258,28 @@
     "pages": 12,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "thirtyThirdSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/08 Midterm Exams/📌Microbiology Midterm [FHB part].pdf",
     "sha256": "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
     "pages": 26,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - AT - Book 3.pdf",
+    "sha256": "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201",
+    "pages": 25,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 62,
-    "uniqueSha256": 62,
-    "sortedNewlineSha256": "ee457a24dc1431e05f46e57eccc184aba9b8dfa9cf5d56201559ce6d12d59619",
+    "inventoryMetadataRows": 61,
+    "uniqueSha256": 61,
+    "sortedNewlineSha256": "2057487d48492ce0efaeb4ed5089bfd96f4dfaa40ebfb1fb81916afcab202e2d",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 1,
       "audit-not-found": 11,
       "empty-text": 10,
       "sparse-text": 15,
-      "substantive-text": 25
+      "substantive-text": 24
     }
   },
   "triageCheckpointRemainingAuditDebt": {
@@ -2205,12 +2287,12 @@
     "audit-not-found": 11,
     "empty-text": 10,
     "sparse-text": 15,
-    "substantive-text": 25
+    "substantive-text": 24
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 32,
-    "remainingUniqueSha256": 62,
+    "processedUniqueSha256": 33,
+    "remainingUniqueSha256": 61,
     "processedPlusRemaining": 94
   }
 }

@@ -1312,3 +1312,29 @@ Removing the thirty-two processed hashes leaves **62 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Microbiology/08 Midterm Exams/📌Microbiology Midterm [FHB part].pdf`, SHA-256 `80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631`, 26 pages, with a substantive-text audit sample. Its authority and exact visible boundary remain unadjudicated.
 
 **BLOCKED — S1 cannot be approved:** 62 selected inventory paths / 62 unique hashes remain untriaged.
+
+## Completed source — 📌Microbiology Midterm [FHB part]
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Microbiology/08 Midterm Exams/📌Microbiology Midterm [FHB part].pdf` | `80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631` | 26 | substantive-text | pages 1–26 rendered and read | Individual `Fundamentals in Microbiology` teaching carrier whose pages 2–26 are visibly credited `By/ Dr Mo. Haitham`. No MUST university, college or department authentication, FHB module mark, examiner, sitting, marks, question-paper status or authenticated faculty-key claim is visible; the filename `FHB part` label alone does not confer assessment authority. |
+
+### Exact assessment, practical, image and teaching boundary
+
+Page 1 is a cover. Pages 2–6 are labelled fundamentals, bacterial classification and bacterial-structure teaching pages. Pages 7–9 cover medical mycology; pages 10–18 general virology; pages 19–21 host-parasite relationships; and pages 22–26 medically important bacteria, principally Staphylococci and Streptococci. Every diagram, organism image, comparison table and classification tree is already labelled.
+
+The exact boundary is **0 objective prompts / 0 written prompts / 0 practical or image assessment prompts / 0 prompt-matched answer observations / 0 source-absent answers / 25 teaching-reference pages**. Fully revealed images, tables and numbered teaching lists are not reverse-engineered into prompts or keys. Printed spelling, capitalization, organism descriptions, classifications and academically questionable teaching claims remain source truth without correction.
+
+### Source-first handles and exactly-four-search gate
+
+No assessment prompt is printed, so there is **0 source-first assessment handle / 0 accepted handle / 0 searches**. The prior-FHB-102-2 collapse and exactly-four-search gate do not trigger. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This thirty-third one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **2,727 questions / 2,571 answers / 62 concepts**.
+
+Removing the thirty-three processed hashes leaves **61 selected inventory paths / 61 unique SHA-256s**. Their sorted-newline checksum is `2057487d48492ce0efaeb4ed5089bfd96f4dfaa40ebfb1fb81916afcab202e2d`. Remaining audit-review debt is **24 substantive-text / 15 sparse-text / 10 empty-text / 11 audit-not-found / 1 audit-extract-failed row**. Unique-hash accounting is **`33 + 61 = 94`** and path accounting is **`35 + 61 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/05 MCQs/MCQs - AT - Book 3.pdf`, SHA-256 `fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201`, 25 pages, with a sparse-text audit sample. Its authority and exact visible boundary remain unadjudicated.
+
+**BLOCKED — S1 cannot be approved:** 61 selected inventory paths / 61 unique hashes remain untriaged.
