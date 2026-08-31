@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "2ebbb5939641b768bb650fe155fae64f659a953f41bab2d9c51dc27f081b7672",
-    "triageMarkdown": "51af70e6f5f5c197b57fff5bca5879f76a588d8000dc56610f551276984fd97b"
+    "readinessMarkdown": "83b06d1b1dbc9964f3fb92bb7d3fa29abe77d50049c14e7a41ea92610aa92f7a",
+    "triageMarkdown": "24dfc644c915e376fe769dda0ccfa1e53cd35ae722576f7e6d1e5060950bae66"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -86,6 +86,7 @@
       "7382438a5e045c543427c3b242ee0274b8498e6f2b7cad6db1b93decf7665072",
       "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
       "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
+      "79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
@@ -119,7 +120,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 49
+    "uniqueSha256": 50
   },
   "completedSourceCoverage": [
     {
@@ -3083,6 +3084,64 @@
         "teaching tables, case descriptions, numbered prevention steps and nested lists are not reverse-engineered into questions or keys",
         "printed spellings, classifications, transmission claims, treatments and academically questionable teaching statements remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e",
+      "sourcePages": 2,
+      "renderedReadPages": "1-2",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 2,
+      "teachingPrompts": 0,
+      "declarativeCaseStudies": 4,
+      "teachingTopicHandles": 3,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Sand-fly overview, distribution, biology and ecology",
+          "pages": [
+            1
+          ],
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Leishmaniasis, sand-fly fever and Oroya fever",
+          "pages": "1-2",
+          "teachingReferencePages": 2,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Declarative case studies",
+          "pages": [
+            2
+          ],
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0,
+          "declarativeCases": 4
+        }
+      ],
+      "authorityDisposition": "two-page Microsoft Word 2016 sand-fly teaching summary with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears",
+      "boundaryDisposition": "both rendered pages are fully revealed teaching/reference prose and lists covering sand-fly morphology, distribution, biology, leishmaniasis, sand-fly fever and Oroya fever; four case-study lines are declarative clinical summaries without interrogative fields, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence",
+      "preservedSourceDefects": [
+        "the generic Sand Fly title and Ebedo metadata are retained without promotion to official module authority",
+        "four declarative case-study lines are not reverse-engineered into prompts or keys",
+        "printed spellings, distribution claims, transmission classifications and academically questionable teaching statements remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3387,33 +3446,39 @@
     "pages": 6,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fiftiethSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Sand Fly) Midterm Notes.pdf",
     "sha256": "79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e",
     "pages": 2,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/PARA FHB REVISION - MIDTERM 2026.pdf",
+    "sha256": "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
+    "pages": 12,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 45,
-    "uniqueSha256": 45,
-    "sortedNewlineSha256": "af2f9828f3144c9434f21988c3785cdc04237ca82d413d9b147650bcf93dc131",
+    "inventoryMetadataRows": 44,
+    "uniqueSha256": 44,
+    "sortedNewlineSha256": "97cf2f0f58fde05056cc5a8da749f08229b952cfb8d3b7ff329bdad4d1ca16d0",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 5,
       "sparse-text": 11,
-      "substantive-text": 18
+      "substantive-text": 17
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 5,
     "sparse-text": 11,
-    "substantive-text": 18
+    "substantive-text": 17
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 49,
-    "remainingUniqueSha256": 45,
+    "processedUniqueSha256": 50,
+    "remainingUniqueSha256": 44,
     "processedPlusRemaining": 94
   }
 }

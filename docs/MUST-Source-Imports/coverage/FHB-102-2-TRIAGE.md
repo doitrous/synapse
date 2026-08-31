@@ -1798,3 +1798,31 @@ Removing the forty-nine processed hashes leaves **45 selected inventory paths / 
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Sand Fly) Midterm Notes.pdf`, SHA-256 `79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e`, 2 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 45 selected inventory paths / 45 unique hashes remain untriaged.
+
+## Completed source — FHB Para Sand Fly Midterm Notes
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Sand Fly) Midterm Notes.pdf` | `79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e` | 2 | substantive-text | pages 1–2 rendered and read | Two-page Microsoft Word 2016 sand-fly teaching summary with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears. |
+
+### Exact teaching and assessment boundary
+
+Both pages are fully revealed teaching/reference prose and lists covering sand-fly morphology, distribution, biology, leishmaniasis, sand-fly fever and Oroya fever. The four page-2 case-study lines are declarative clinical summaries without interrogative fields. The exact boundary is **0 objective / 0 written / 0 practical or image prompts / 0 answers / 0 source-absent / 2 teaching-reference pages**.
+
+The generic `Sand Fly` title and Ebedo metadata are retained without promotion to official module authority. Four declarative case-study lines are not reverse-engineered into prompts or keys. Printed spellings, distribution claims, transmission classifications and academically questionable teaching statements remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The three teaching-topic handles cover sand-fly morphology/ecology, leishmaniasis and sand-fly/Oroya fevers; all are already represented. Because the source contains no assessment prompt, no assessment handle survives the source-first gate.
+
+Search arithmetic is **0 assessment handles − 0 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This fiftieth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **4,169 questions / 3,978 answers / 62 concepts**.
+
+Removing the fifty processed hashes leaves **44 selected inventory paths / 44 unique SHA-256s**. Their sorted-newline checksum is `97cf2f0f58fde05056cc5a8da749f08229b952cfb8d3b7ff329bdad4d1ca16d0`. Remaining audit-review debt is **17 substantive-text / 11 sparse-text / 5 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`50 + 44 = 94`** and path accounting is **`52 + 44 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/PARA FHB REVISION - MIDTERM 2026.pdf`, SHA-256 `ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c`, 12 pages, with an empty-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 44 selected inventory paths / 44 unique hashes remain untriaged.
