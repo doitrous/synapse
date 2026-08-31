@@ -15,7 +15,7 @@ self.addEventListener('push', (event) => {
   event.waitUntil(
     self.registration.showNotification(title, {
       body: data.body || "Today's question is waiting.",
-      icon: '/brand/maristana-mark.png',
+      icon: '/brand/nishany-mark.png',
       badge: '/favicon.png',
       data: { path: data.path || '/app/qotd' },
     }),

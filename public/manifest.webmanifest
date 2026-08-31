@@ -1,6 +1,6 @@
 {
-  "name": "Maristana",
-  "short_name": "Maristana",
+  "name": "Nishany",
+  "short_name": "Nishany",
   "description": "Egyptian university curricula, internationally grounded clinical practice, and a study workspace that stays with you.",
   "start_url": "/app",
   "scope": "/",
@@ -14,7 +14,7 @@
       "type": "image/png"
     },
     {
-      "src": "/brand/maristana-mark.png",
+      "src": "/brand/nishany-mark.png",
       "sizes": "512x512",
       "type": "image/png"
     }
