@@ -56,9 +56,10 @@ const PROCESSED_FAMILY_HASHES = [
   '15e37b0ef0fe721a4fd0c932ed1a5ba648fe4b14142adabc5e231bc3b8e24a51',
   'b2b07230ab691f6e8c14085685cddb1b593fd46759689966247d318b4af6311f',
   '20445c08505e59ae53e9c1b40465d5f329d4f51d03bdd615dd319dbd93e721de',
+  '89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7',
 ]
 const SELECTED_CHECKSUM = '3d7282909b1be0ee1a4b3ff7ae16d923505ab40926a44d97090c2e287e445313'
-const REMAINING_CHECKSUM = 'da55000bdad6291c656dde313b70f464eeb0e36c34659e5adb37ea801b9b6bd0'
+const REMAINING_CHECKSUM = 'da6447dff977f36c86676532a2922eb245ed0ad47bda3c6899c865cf25fcbc87'
 const FIRST_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/06 EOM Exams/EOM MCQs - 1)FHB 102-2 Online Final Exam - PentaGram.pdf',
   sha256: 'dd800ea485e532ad4b5fedc7070c3e410b1d3bf13b7589c2fd79b38287704470',
@@ -341,10 +342,16 @@ const FORTY_SEVENTH_SOURCE = {
   pages: 1,
   sourceProcessed: true,
 }
-const NEXT_SOURCE = {
+const FORTY_EIGHTH_SOURCE = {
   relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Mosquitoes) Midterm Notes.pdf',
   sha256: '89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7',
   pages: 3,
+  sourceProcessed: true,
+}
+const NEXT_SOURCE = {
+  relativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf',
+  sha256: '6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5',
+  pages: 6,
   sourceProcessed: false,
 }
 
@@ -423,10 +430,10 @@ function runAuditLabelStaticTest() {
   const ledger = readFileSync(resolve(ledgerPath), 'utf8')
   const provenance = JSON.parse(readFileSync(resolve(provenancePath), 'utf8'))
   if (!ledger.startsWith('relative_path\tbytes\tsha256\tyear\tsemester\tmodule\tsubject\tcategory\tpdf_pages\tpdf_error\taudit_sample_chars\taudit_sample_status\n')) throw new Error('Ledger header mismatch')
-  const expected = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 20 }
+  const expected = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 19 }
   if (JSON.stringify(provenance.triageCheckpointRemainingAuditDebt) !== JSON.stringify(expected)) throw new Error('Audit-label triage debt drift')
   if (provenance.liveSourceVerification !== false) throw new Error('Live-source declaration drift')
-  console.log('audit-label-static-test=pass remaining_audit_debt=20-substantive/11-sparse/5-empty/11-not-found/0-extract-failed')
+  console.log('audit-label-static-test=pass remaining_audit_debt=19-substantive/11-sparse/5-empty/11-not-found/0-extract-failed')
 }
 
 if (process.argv.includes('--self-test-metadata-only') || process.argv.includes('--self-test-audit-labels')) {
@@ -449,6 +456,9 @@ for (const value of [FORTY_SIXTH_SOURCE.relativePath, FORTY_SIXTH_SOURCE.sha256]
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 for (const value of [FORTY_SEVENTH_SOURCE.relativePath, FORTY_SEVENTH_SOURCE.sha256]) {
+  if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
+}
+for (const value of [FORTY_EIGHTH_SOURCE.relativePath, FORTY_EIGHTH_SOURCE.sha256]) {
   if (!readiness.includes(value) || !triage.includes(value)) throw new Error(`Readiness/triage evidence missing ${value}`)
 }
 if (!readiness.includes('96 paths / 94 unique SHA-256s') || !triage.includes('96 inventory paths / 94 unique SHA-256s')) {
@@ -494,7 +504,7 @@ const selectedHashes = [...new Set(ledgerRows.map((row) => row.sha256))].sort()
 if (selectedHashes.length !== 94 || sha256(selectedHashes.join('\n')) !== SELECTED_CHECKSUM) throw new Error('Selected hash-set drift')
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (processedHashes.length !== 47 || remainingHashes.length !== 47 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
+if (processedHashes.length !== 48 || remainingHashes.length !== 46 || processedHashes.length + remainingHashes.length !== 94) throw new Error('Processed/remaining reconciliation drift')
 if (sha256(remainingHashes.join('\n')) !== REMAINING_CHECKSUM) throw new Error('Remaining checksum drift')
 
 const header = ['relative_path', 'bytes', 'sha256', 'year', 'semester', 'module', 'subject', 'category', 'pdf_pages', 'pdf_error', 'audit_sample_chars', 'audit_sample_status']
@@ -502,7 +512,7 @@ const ledger = `${header.join('\t')}\n${ledgerRows.map((row) => header.map((fiel
 const countStatuses = (rows) => Object.fromEntries([...new Set(rows.map((row) => row.audit_sample_status))].sort().map((status) => [status, rows.filter((row) => row.audit_sample_status === status).length]))
 const remainingRows = ledgerRows.filter((row) => !processedHashes.includes(row.sha256))
 const remainingDebt = countStatuses(remainingRows)
-const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 20 }
+const expectedRemainingDebt = { 'audit-not-found': 11, 'empty-text': 5, 'sparse-text': 11, 'substantive-text': 19 }
 if (JSON.stringify(remainingDebt) !== JSON.stringify(expectedRemainingDebt)) throw new Error(`Remaining audit debt drift: ${JSON.stringify(remainingDebt)}`)
 
 const duplicateFamilies = [...new Set(ledgerRows.map((row) => row.sha256))]
@@ -2174,6 +2184,41 @@ const provenance = {
       boundaryDisposition: 'the single rendered page is fully revealed teaching prose organized into Basic Definitions, Classification of Parasites, Routes of Infection and Scientific Taxonomy; numbered headings and taxonomy lists are declarative teaching structure, not assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence',
       preservedSourceDefects: ['the abbreviated FHB-2 title and Ebedo metadata are retained without promotion to official module authority', 'numbered teaching headings and nested lists are not reverse-engineered into questions or keys', 'printed spelling, classifications and academically questionable teaching claims remain source truth without correction'],
     },
+    {
+      sha256: FORTY_EIGHTH_SOURCE.sha256,
+      sourcePages: 3,
+      renderedReadPages: '1-3',
+      printedPromptObservations: 0,
+      objectiveMcqPrompts: 0,
+      printedKeyObservations: 0,
+      sourceAbsentAnswers: 0,
+      writtenPrompts: 0,
+      practicalOrImagePrompts: 0,
+      teachingReferencePages: 3,
+      teachingPrompts: 0,
+      teachingTopicHandles: 5,
+      sourceFirstHandles: 0,
+      priorFhb1022CollapsedHandles: 0,
+      acceptedSourceHandles: 0,
+      searchesRun: 0,
+      exactNormalizedPromptSibling: false,
+      familyQuestionDelta: 0,
+      familyAnswerDelta: 0,
+      liveHits: 0,
+      pendingHits: 0,
+      newConceptsAfterPriorFhb1022Collapse: 0,
+      sourceProcessed: true,
+      sectionBoundary: [
+        { section: 'Mosquito introduction, morphology and life cycle', pages: [1], teachingReferencePages: 1, assessmentPrompts: 0 },
+        { section: 'Mosquito bionomics and medical importance', pages: '1-3', teachingReferencePages: 3, assessmentPrompts: 0 },
+        { section: 'Anopheles and malaria vectors', pages: '1-2', teachingReferencePages: 2, assessmentPrompts: 0 },
+        { section: 'Aedes and Culex-borne disease', pages: '2-3', teachingReferencePages: 2, assessmentPrompts: 0 },
+        { section: 'Mosquito control', pages: [3], teachingReferencePages: 1, assessmentPrompts: 0 },
+      ],
+      authorityDisposition: 'three-page Microsoft Word 2016 teaching summary titled Mosquitoes with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears',
+      boundaryDisposition: 'all three rendered pages are fully revealed teaching/reference prose and lists covering mosquito morphology, life cycle, bionomics, Anopheles, Aedes, Culex, mosquito-borne diseases and control; numbered sections and disease case bullets are declarative teaching structure rather than assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence',
+      preservedSourceDefects: ['Ebedo metadata and the generic Mosquitoes title are retained without promotion to official module authority', 'numbered teaching sections, cases and nested lists are not reverse-engineered into questions or keys', 'printed spellings, vector claims, classifications, control recommendations and academically questionable teaching statements remain source truth without correction'],
+    },
   ],
   triageCumulative: { printedPromptObservations: 4169, printedKeyObservations: 3978, namedConceptsAssigned: 62, liveHits: 0, pendingHits: 0, newConcepts: 62 },
   firstSourceCandidate: FIRST_SOURCE,
@@ -2223,6 +2268,7 @@ const provenance = {
   fortyFifthSourceCandidate: FORTY_FIFTH_SOURCE,
   fortySixthSourceCandidate: FORTY_SIXTH_SOURCE,
   fortySeventhSourceCandidate: FORTY_SEVENTH_SOURCE,
+  fortyEighthSourceCandidate: FORTY_EIGHTH_SOURCE,
   nextSourceCandidate: NEXT_SOURCE,
   remaining: { inventoryMetadataRows: remainingRows.length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: REMAINING_CHECKSUM, auditSampleStatusCounts: remainingDebt },
   triageCheckpointRemainingAuditDebt: remainingDebt,

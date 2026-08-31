@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "fc957d08baceefec0afe3e5e3a9481da1d101f9bc95374b69063f7568a01a343",
     "inspectedTextJson": "e4136200b0c4b41cbaa7d946582e63df2e3664a82e1744f18bba33c6a8ad75f8",
-    "readinessMarkdown": "9abeb62c30d435d5afe6fe0dc93d1ae3a0a63f42864c8a467db7fec355ed4f9e",
-    "triageMarkdown": "556a37d808535fdaefec83ae29393c5e76154249767df0b6215bcfb14afc5d66"
+    "readinessMarkdown": "420b260c35592d4cac6791a53793a3145e199ffa2c6362e6ddfc5cc79bfe1d48",
+    "triageMarkdown": "72e1a045f54273fee745d0a3d0e313d176c919be4c712b7f9c0a55f94a7bb673"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -89,6 +89,7 @@
       "80f72f43a806337f940d1c1813329f785cf787804b7c80e94cf000315dfec631",
       "86b794ed659d725a5d2a2f236a11bf14760c26e326febfb9fdbbbff8e5322e5c",
       "885851eac62894e336f52ce833475e15300986b2230ef6bb6cafa409bc1b4b03",
+      "89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7",
       "8a4ed429cba5061a07a77a9e9c657008946529fc3abc477adc1734283dc75901",
       "8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c",
       "90bde8572955a23f5602a2cd4c2a154f8b64bae1e0e6b6c5cadb766423dd28ab",
@@ -117,7 +118,7 @@
       "f7a3192de2d21063dabcb7c1316c8e8e71b05ada37f47cb1cb4fd8759ade2bdd",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 47
+    "uniqueSha256": 48
   },
   "completedSourceCoverage": [
     {
@@ -2943,6 +2944,74 @@
         "numbered teaching headings and nested lists are not reverse-engineered into questions or keys",
         "printed spelling, classifications and academically questionable teaching claims remain source truth without correction"
       ]
+    },
+    {
+      "sha256": "89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7",
+      "sourcePages": 3,
+      "renderedReadPages": "1-3",
+      "printedPromptObservations": 0,
+      "objectiveMcqPrompts": 0,
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "writtenPrompts": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 3,
+      "teachingPrompts": 0,
+      "teachingTopicHandles": 5,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Mosquito introduction, morphology and life cycle",
+          "pages": [
+            1
+          ],
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Mosquito bionomics and medical importance",
+          "pages": "1-3",
+          "teachingReferencePages": 3,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Anopheles and malaria vectors",
+          "pages": "1-2",
+          "teachingReferencePages": 2,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Aedes and Culex-borne disease",
+          "pages": "2-3",
+          "teachingReferencePages": 2,
+          "assessmentPrompts": 0
+        },
+        {
+          "section": "Mosquito control",
+          "pages": [
+            3
+          ],
+          "teachingReferencePages": 1,
+          "assessmentPrompts": 0
+        }
+      ],
+      "authorityDisposition": "three-page Microsoft Word 2016 teaching summary titled Mosquitoes with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears",
+      "boundaryDisposition": "all three rendered pages are fully revealed teaching/reference prose and lists covering mosquito morphology, life cycle, bionomics, Anopheles, Aedes, Culex, mosquito-borne diseases and control; numbered sections and disease case bullets are declarative teaching structure rather than assessment prompts, producing zero objective, written, practical, image-dependent, answer or source-absent occurrence",
+      "preservedSourceDefects": [
+        "Ebedo metadata and the generic Mosquitoes title are retained without promotion to official module authority",
+        "numbered teaching sections, cases and nested lists are not reverse-engineered into questions or keys",
+        "printed spellings, vector claims, classifications, control recommendations and academically questionable teaching statements remain source truth without correction"
+      ]
     }
   ],
   "triageCumulative": {
@@ -3235,33 +3304,39 @@
     "pages": 1,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "fortyEighthSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Mosquitoes) Midterm Notes.pdf",
     "sha256": "89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7",
     "pages": 3,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf",
+    "sha256": "6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5",
+    "pages": 6,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 47,
-    "uniqueSha256": 47,
-    "sortedNewlineSha256": "da55000bdad6291c656dde313b70f464eeb0e36c34659e5adb37ea801b9b6bd0",
+    "inventoryMetadataRows": 46,
+    "uniqueSha256": 46,
+    "sortedNewlineSha256": "da6447dff977f36c86676532a2922eb245ed0ad47bda3c6899c865cf25fcbc87",
     "auditSampleStatusCounts": {
       "audit-not-found": 11,
       "empty-text": 5,
       "sparse-text": 11,
-      "substantive-text": 20
+      "substantive-text": 19
     }
   },
   "triageCheckpointRemainingAuditDebt": {
     "audit-not-found": 11,
     "empty-text": 5,
     "sparse-text": 11,
-    "substantive-text": 20
+    "substantive-text": 19
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 47,
-    "remainingUniqueSha256": 47,
+    "processedUniqueSha256": 48,
+    "remainingUniqueSha256": 46,
     "processedPlusRemaining": 94
   }
 }

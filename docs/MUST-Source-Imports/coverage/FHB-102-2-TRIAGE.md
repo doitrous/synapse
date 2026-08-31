@@ -1742,3 +1742,31 @@ Removing the forty-seven processed hashes leaves **47 selected inventory paths /
 The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Mosquitoes) Midterm Notes.pdf`, SHA-256 `89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7`, 3 pages, with a substantive-text audit sample.
 
 **BLOCKED — S1 cannot be approved:** 47 selected inventory paths / 47 unique hashes remain untriaged.
+
+## Completed source — FHB Para Mosquitoes Midterm Notes
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Mosquitoes) Midterm Notes.pdf` | `89f9b50762f9efbed0c081ba949a24e4ccbceb062df871c77497b1a1cc2af3a7` | 3 | substantive-text | pages 1–3 rendered and read | Three-page Microsoft Word 2016 teaching summary titled `Mosquitoes` with author metadata Ebedo; no authenticated MUST institution, faculty, department, examiner, sitting, marks, question-paper status or official key declaration appears. |
+
+### Exact teaching and assessment boundary
+
+All three pages are fully revealed teaching/reference prose and lists covering mosquito morphology, life cycle, bionomics, *Anopheles*, *Aedes*, *Culex*, mosquito-borne diseases and mosquito control. Numbered sections, disease case bullets and nested lists are declarative teaching structure rather than assessment prompts. The exact boundary is **0 objective / 0 written / 0 practical or image prompts / 0 answers / 0 source-absent / 3 teaching-reference pages**.
+
+The Ebedo metadata and generic title are retained without promotion to official module authority. Teaching sections, case summaries and lists are not reverse-engineered into questions or keys. Printed spellings, vector claims, classifications, control recommendations and academically questionable teaching statements remain source truth without repair.
+
+### Source-first handles and exactly-four-search gate
+
+The five teaching-topic handles cover mosquito morphology/life cycle, mosquito bionomics, *Anopheles* and malaria, *Aedes*/*Culex*-borne disease, and mosquito control; all are already represented. Because the source contains no assessment prompt, no assessment handle survives the source-first gate.
+
+Search arithmetic is **0 assessment handles − 0 prior-collapsed = 0 accepted; 0 × 4 = 0 searches**. Post-prior disposition is **0 live / 0 pending / 0 new**.
+
+### Completed-source delta, cumulative totals and next source
+
+This forty-eighth one-path hash is now `sourceProcessed=true`, adding **+0 questions / +0 answers / +0 concepts**. Cumulative triage remains **4,169 questions / 3,978 answers / 62 concepts**.
+
+Removing the forty-eight processed hashes leaves **46 selected inventory paths / 46 unique SHA-256s**. Their sorted-newline checksum is `da6447dff977f36c86676532a2922eb245ed0ad47bda3c6899c865cf25fcbc87`. Remaining audit-review debt is **19 substantive-text / 11 sparse-text / 5 empty-text / 11 audit-not-found / 0 audit-extract-failed rows**. Unique-hash accounting is **`48 + 46 = 94`** and path accounting is **`50 + 46 = 96`**.
+
+The next evidence-ranked source is `Year 1/Semester 102/FHB 102-2/Parasitology/08 Midterm Exams/FHB Para (Myiasis) Midterm Notes.pdf`, SHA-256 `6fb474b2c5871480abefa3a6e738373c226ccb790af54bb01709f3bb833941d5`, 6 pages, with a substantive-text audit sample.
+
+**BLOCKED — S1 cannot be approved:** 46 selected inventory paths / 46 unique hashes remain untriaged.
