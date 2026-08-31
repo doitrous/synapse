@@ -26716,3 +26716,135 @@ The exact next unprocessed BMS-102 record is tier-9 `src_e3bcf89c186c44f9b3d0` �
 `A` and Acrobat creation/modification are 24 April 2026. Its complete authority, prompt/key/
 written/image/practical boundary, same-source/prior collapse, eligible gate, arithmetic, and
 subsequent exact debt remain to be separately adjudicated.
+
+## Family 263 — Dr El-Sawy keyed receptor binding, effectiveness, safety, and antagonism bank
+
+### Source identity, exhaustive native/rendered boundary, and authority
+
+| Field | Verified result |
+|---|---|
+| Manifest source | Tier-9 `src_e3bcf89c186c44f9b3d0` · `MCQs - MCQ Drug receptor binding.pdf` under `Pharmacology / Questions / MCQs` |
+| SHA-256 / exact size | `e3bcf89c186c44f9b3d0b9b5fbfa9471bf8781f58d2350cd2b2bbd0b7f68d9e2` · **414,608 bytes** |
+| Format / complete visual boundary | **20 native-text portrait A4 pages, PDF 1.7**. All 20 pages were rendered at 150 dpi into 20 non-empty 1,241×1,754-pixel images, read page by page at original detail, and reread through four ordered five-page contact sheets. Coherent layout extraction contains **2,975 words / 25,903 bytes** and agrees with every title, stem, option, graph, answer token, footer, and page number. No form, JavaScript, encryption, hidden response layer, physical-page, or crop remainder exists. |
+| Carrier composition | Physical pages 1–6 are the six-page `Pharma / MCQs-Drug receptor binding` set with Q1–Q30. Pages 7–20 are the 14-page `Pharmacology / MCQ / MCQ:EFFECTIVENESS, SAFETY & ANTAGONISM` set with a fresh Q1–Q49 sequence. Both are complete, keyed sections inside one governed carrier. |
+| Visible provenance | Every page visibly carries a **Dr El-Sawy** footer/credit (`DR ELSAWY` on the first section and `DR . El-Sawy` on the second). No page visibly names a university/faculty, Helwan, BMS-102/module code, academic year, sitting, marks, candidate, duration, or departmental approval. |
+| Metadata caution | Metadata Author is only `A`; Creator/Producer are Adobe Acrobat Pro DC 15.7.20033; creation/modification are 24 April 2026. Those sparse export fields are secondary to the visible Dr El-Sawy credit and cannot establish academic year, sitting, or institutional authority. |
+| Authority / eligibility | Instructor-attributed keyed revision bank in the local Helwan BMS-102 pharmacology corpus. It is eligible **low-authority auxiliary question evidence**, consistent with Families 225, 226, and 262, but not an official Helwan exam, departmental key, authenticated sitting, or practical record. |
+
+### Complete prompt, key, graph, written, and practical boundary
+
+| Physical pages / source refs | Exhausted visible source block | Boundary ruling |
+|---:|---|---|
+| 1–2 · receptor-binding Q1–Q10 | Ionic, covalent, and hydrogen bond properties/examples; receptor selectivity; receptor resynthesis after covalent binding; organophosphorus/cholinesterase | **10 keyed four-option text MCQs**. |
+| 3–6 · receptor-binding Q11–Q30 | Omeprazole/proton-pump covalence; full, partial, super-, co-, and inverse agonists; morphine, nalorphine, fentanyl, isoprenaline, carbachol, NMDA, losartan, and angiotensin-II applications | **20 keyed four-option text MCQs**. |
+| 7–9 · effectiveness Q1–Q12 | Affinity, efficacy, therapeutic index, potency, pindolol, and narrow-index definitions/applications | **12 keyed four-option text MCQs**. |
+| 10–12 · effectiveness Q13–Q22 | One graph-based therapeutic-index calculation with printed `10 & 100`; potency/full/partial-agonist text items; and one graph-based efficacy/potency identification with printed `C & A` | **8 keyed text MCQs + 2 source-answered graph-reading written operations**. The graphs request quantitative/curve interpretation but do not create practical stations. |
+| 13–17 · effectiveness Q23–Q42 | Competitive, noncompetitive, physiological, pharmacologic, and chemical antagonism; agonist/affinity/efficacy; therapeutic-index and potency definitions; heparin/protamine | **20 keyed objective text MCQs**: 19 four-option and Q41's visibly three-option item. Q30 prints answer `E` despite only A–D options; the impossible source key is retained as an anomaly, not repaired. |
+| 18–20 · effectiveness Q43–Q49 | Noncompetitive criterion; reversible- and irreversible-antagonist dose-response graphs; general, competitive, chemical, and noncompetitive antagonism | **7 keyed objective MCQs = 5 text + 2 graph-bearing**. |
+
+The exact source-local boundary is **79 raw prompt occurrences = 77 objective MCQs + 2
+graph-reading written operations**. The objective layer comprises **76 four-option items and one
+three-option item**; **four prompts are image-bearing** (two graph MCQs and the two written graph
+operations). Every prompt has visible answer directionality: 77 letters, Q13's `10 & 100`, and
+Q22's `C & A`, giving **79 source-supplied answer occurrences / 0 unkeyed prompts**.
+
+There are **0 True/False items, 0 matching items, 0 completion blanks, 0 drawings, 0 authenticated
+practical stations, 0 specimen/apparatus operations, 0 candidate responses, 0 teaching-only
+callouts, and 0 prompt-like residues**. The four embedded graphs remain assessment-image evidence
+for later authoring, but their ordinary bank framing, disclosed answers, and absence of station,
+specimen, timing, examiner, or performance directions prevent promotion to practical records.
+Source wording, answer tokens, and the Q30 impossible-letter anomaly are preserved without silent
+repair or medical endorsement.
+
+### Retention, 67-handle registry, 268-search completion, and prior-BMS reconciliation
+
+All **79** prompt occurrences remain retained records. Twelve semantic reductions preserve every
+wording/answer while avoiding proposition double counting: effectiveness Q1/Q7 (affinity);
+Q2/Q16 (maximal efficacy); Q4/Q5/Q10/Q11 (three reductions for the same therapeutic-index
+relation); Q8/Q14 (same lower-dose potency operation); Q12/Q17 (narrow index); Q15/Q18 (agonist
+definition); Q19/Q37 (competitive antagonist raises ED50); Q24/Q43 (noncompetitive Emax
+reduction); Q30/Q42 (independent-receptor physiological antagonism); and receptor-binding Q19 /
+effectiveness Q6 (partial agonist affinity with partial efficacy). Thus **`79 retained - 12
+semantic reductions = 67 accepted source-distinct handles`**.
+
+The complete accepted registry follows; every semicolon-delimited slug is one handle.
+
+| Source block | Accepted source-first handles |
+|---|---|
+| Binding Q1–Q12 | `ionic-bond-opposite-charge-attraction`; `ionic-bond-positive-drug-negative-amino-acid`; `covalent-strongest-drug-receptor-bond`; `covalent-superglue-connection`; `hydrogen-bond-short-distance`; `hydrogen-bond-easily-broken-reformed`; `acetylcholine-anionic-nicotinic-site-ionic-bond`; `hydrogen-bonds-drug-receptor-selectivity`; `covalent-drug-receptor-requires-new-receptor-synthesis`; `organophosphorus-cholinesterase-covalent-bond`; `omeprazole-proton-pump-covalent-bond`; `ionic-bond-firm-reversible-detachment` |
+| Binding Q13–Q30 | `full-agonist-maximal-emax-response`; `full-agonist-high-efficacy`; `morphine-opioid-full-agonist`; `partial-agonist-submaximal-even-full-occupancy`; `partial-agonist-antagonizes-full-agonist`; `nalorphine-opioid-partial-agonist`; `partial-agonist-affinity-low-efficacy` (also effectiveness Q6); `superagonist-greater-than-endogenous-response`; `fentanyl-superagonist`; `isoprenaline-adrenergic-superagonist`; `carbachol-muscarinic-superagonist`; `coagonist-two-agonists-same-receptor-system`; `nmda-glutamate-glycine-coagonists`; `inverse-agonist-opposite-agonist-effect`; `inverse-agonist-reduces-below-baseline`; `losartan-at1-inverse-agonist`; `angiotensin-ii-vasoconstriction-increased-bp`; `inverse-agonist-blocks-agonist-reduces-baseline` |
+| Effectiveness Q1–Q18 survivors | `affinity-ability-bind-receptor` (Q1,Q7); `maximal-efficacy-largest-response` (Q2,Q16); `receptor-complex-number-determined-affinity`; `therapeutic-index-desired-toxic-effect-relation` (Q4,Q5,Q10,Q11); `potency-lower-dose-same-response` (Q8,Q14); `pindolol-partial-agonist-context-dependent`; `narrow-therapeutic-index-dose-approaches-toxic` (Q12,Q17); `therapeutic-index-graph-side-effects-10-and-100`; `agonist-mimics-endogenous-and-stimulates-receptor` (Q15,Q18) |
+| Effectiveness Q19–Q34 | `competitive-antagonist-increases-ed50` (Q19,Q37); `partial-versus-full-agonist-potency-indeterminate`; `isoproterenol-full-agonist`; `dose-response-graph-most-efficacious-and-potent`; `antagonist-affinity-no-efficacy`; `noncompetitive-antagonist-decreases-max-response` (Q24,Q43); `terbutaline-leukotriene-physiological-antagonism`; `atracurium-direct-drug-interaction-chemical-antagonism`; `reversible-antagonist-overcome-increased-agonist`; `adrenaline-histamine-physiological-antagonism`; `naloxone-competitive-antagonist-morphine`; `physiological-antagonism-independent-receptors-opposite` (Q30,Q42); `agonist-affinity-and-efficacy`; `efficacy-response-after-receptor-binding`; `therapeutic-index-ld50-ed50-ratio`; `therapeutic-index-safety-measure` |
+| Effectiveness Q35–Q49 survivors | `high-therapeutic-index-safer-clinical-use`; `potency-dose-producing-fifty-percent-max-response`; `direct-agonist-interaction-chemical-antagonist`; `pharmacologic-antagonist-occupies-receptor-without-activation`; `low-therapeutic-index-toxicity-risk`; `heparin-protamine-antagonism-interaction`; `reversible-antagonist-parallel-right-shift-graph`; `irreversible-antagonist-norepinephrine-graph`; `antagonism-one-drug-abolishes-another`; `competitive-antagonism-same-receptor-site`; `chemical-antagonism-acid-base-precipitation`; `noncompetitive-antagonist-allosteric-site` |
+
+Every accepted handle received exactly four fresh source-first searches across live governed
+coverage, `docs/questions-import-ready`, Helwan `pending-live`, and prior BMS-102 Families 1–262:
+**`67 × 4 = 268 required and completed searches`**. Each packet used the accepted source-first
+slug/stem, tested proposition, answer/terminal phrase, and a drug/topic or prior-handle variant.
+Three exact handle strings recur in live/prior coverage; the remaining prior relations were found
+through proposition-level semantic variants rather than mistaken for new concepts because their
+spellings differed.
+
+Exactly **33** accepted handles reuse prior BMS assessment scope: the full-agonist/Emax and efficacy
+properties; partial-agonist antagonism in a full-agonist context; inverse-agonist effect/baseline
+properties; affinity definition and receptor occupancy; maximal efficacy; therapeutic-index
+definition, ratio, narrow/high/low safety interpretations; lower-dose potency and ED50; pindolol;
+agonist activation/affinity/efficacy; competitive-antagonist ED50 and same-site rules;
+efficacy/potency graph interpretation; antagonist affinity without efficacy; noncompetitive Emax
+reduction/allosteric action; reversible- and irreversible-antagonist curve/rule interpretation;
+adrenaline-histamine and general physiological antagonism; and pharmacologic receptor blockade.
+These reconcile principally to Families 223, 238, 257, and 262. The other **34** handles have no
+prior BMS accepted assessment handle at the same tested scope. Therefore concept arithmetic is
+**`67 - 33 = +34`**.
+
+### Family-263 auxiliary checkpoint and cumulative arithmetic
+
+| Measure | Family 263 | Auxiliary cumulative (Families 12–263) | Corrected primary | Corrected all eligible S1 |
+|---|---:|---:|---:|---:|
+| Raw eligible prompt occurrences | 79 = 77 objective + 2 graph-written | 3,389 | 762 | 4,151 |
+| Eligible source-supplied answers | 79; 0 unkeyed | 2,375 | 405 | 2,780 |
+| Retained eligible question records | 79 | 3,093 | 552 | 3,645 |
+| Accepted handles / required searches | 67 / 268 | 2,776 / — | — | — |
+| Prior-BMS handle reuses | 33 | — | — | subtract before concept addition |
+| Cross-family concept delta | +34 | +1,419 over primary | 372 | 1,791 |
+| **Distinct tested concepts** | **67 source-local / +34** | **1,419 additions** | **372** | **1,791** |
+
+The checksum closes: **77 objective + 2 written = 79 prompts**; **79 answers + 0 unkeyed = 79
+raw**; **79 raw - 0 literal exclusions = 79 retained**; **79 retained - 12 semantic reductions =
+67 handles**; **67 × 4 = 268 searches**; and **67 handles - 33 prior reuses = +34 concepts**.
+Auxiliary arithmetic is `3,310 + 79 = 3,389` prompts, `2,296 + 79 = 2,375` answers, `3,014 +
+79 = 3,093` retained, `2,709 + 67 = 2,776` handles, and `1,385 + 34 = 1,419` concept
+additions. All eligible arithmetic is `762 + 3,389 = 4,151`, `405 + 2,375 = 2,780`, `552 +
+3,093 = 3,645`, and `372 + 1,419 = 1,791`.
+
+Primary remains **762 / 405 / 552 / 372**. Auxiliary becomes **3,389 prompts / 2,375 answers /
+3,093 retained / 2,776 handles / +1,419 concepts**. All eligible becomes **4,151 / 2,780 /
+3,645 / 1,791**. Family 263 establishes low-authority instructor-attributed keyed revision-bank
+and graph-question evidence only—not an official exam, authenticated sitting, departmental key,
+practical station, recurrence/readiness, candidate response, or claims record.
+
+### Exact next debt and remaining manifest distance after Family 263
+
+`src_e3bcf89c186c44f9b3d0` is exhausted across all 20 native/rendered pages: every title, section,
+stem, option, graph, answer token, source replay, anomalous key, footer, authority limitation,
+metadata field, search packet, prior-family relation, and arithmetic term is assigned once, with
+**zero source remainder** and no Family-263 blocker.
+
+The HU-BMS-102 manifest projection remains **362 selected paths / 348 unique hashes**. Family 263
+governs **1 selected path / 1 unique hash**. The governed set through Family 263 is therefore
+**328 paths / 317 unique hashes**, leaving exactly **34 ungoverned selected paths / 31 unique
+hashes**. Checksums are **328 + 34 = 362 paths** and **317 + 31 = 348 unique hashes**. The ordered
+remaining-path ledger has SHA-256
+`db9ff259aa85a936c5891dfc6a9808938a0faf05c8bf98575e5231f6ba9b60cc`; the first-occurrence
+ordered remaining-unique-hash ledger checksum is SHA-256
+`49ee22301b02afedaf181164320d676f4e5e92e59151aa0eba17c264978d0feb`. The remaining path ledger
+contains selected-path aliases whose already-governed hashes add no second unique object.
+
+The exact next unprocessed BMS-102 record is tier-9 `src_8da52ffc5f03ad0d951f` ·
+`MCQs - MCQ Excretion.pdf`, SHA-256
+`8da52ffc5f03ad0d951f93af0dec5cfd845ed03e15ee90755c9989e3ea457284`, **692,355 bytes**,
+**five native-text portrait A4 pages** under `Pharmacology / Questions / MCQs`. It visibly begins
+`Pharmacology / MCQ` with keyed half-life and steady-state calculations; metadata Author is
+`Mamdouh`, Word creation is 17 February 2024, and modification is 20 April 2026. Its complete
+authority, prompt/key/written/image/practical boundary, same-source/prior collapse, eligible gate,
+arithmetic, and subsequent exact debt remain to be separately adjudicated.
