@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 11,
+ "count": 12,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -253,6 +253,30 @@
    "sha256": "3a69ab072e403a68f2876542ad6511dfa2dec9395a5cd0af0141e4bafb4792c5",
    "processingStatus": "fully_governed",
    "pageCount": 49,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_57dd6426a8e11335031c": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/4.Protein Synthesis Inhibitors (50S).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/4.Protein Synthesis Inhibitors (50S).pdf"
+   ],
+   "sha256": "57dd6426a8e11335031cbf486af522a93482fc0fc68f55ab98f1553da2adfb87",
+   "processingStatus": "fully_governed",
+   "pageCount": 17,
    "languages": [
     "en"
    ],
