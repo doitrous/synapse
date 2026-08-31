@@ -38,8 +38,8 @@
   "inputSha256": {
     "inventoryTsv": "e715d5e405dbd218c05689f7585c9a0d7738ad5b9eb55b3bbbd70e5c78244ab6",
     "inspectedTextJson": "302f91bfe6752556593eb34030b2e14d8cb9746dc0d96e53038e75142a742a62",
-    "readinessMarkdown": "2b77374f828b51db196af5a387563bc51e6c18cceb72b9857d728d7714235237",
-    "triageMarkdown": "4a5abfe886fa139281d86d8c14dadbb2da602b44e0875c260e48d59099ab2651"
+    "readinessMarkdown": "d2e1e069ed1fc4031890d1215fd5af585c08dc7de4fbb11512b1c44421a4fcb1",
+    "triageMarkdown": "bead503c30932d93aeac177c38efb7236aac7ba6d4763ccd0eeb7fe29101cdae"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -109,6 +109,7 @@
       "73d025d9708beea25421fcb3bb4add7b77a7eeb093fc4858235656e871f135a7",
       "74c0876fa0e94fd02511ec0f55f78b1c67aeee35bd6d96047a25aa8435583dc0",
       "751bfbee69cbb36e1f12ca0cf411ca57ad0eeeddefd8386d822fe606293c4165",
+      "79d7d18744b1f29557d8ce6bfc6948a37f4d0ce6ecec4ee6b6728446c106f2b3",
       "79db3ce9ae72b46dfb1eec91e0441e28543bd8eff4a743888958b412f9d62b0e",
       "7a7e327a05a996ee0e64555cf28ef341734cd8d486dd8dabf3c13f04cf523085",
       "802d971b877b6af90552beb6760e05b95cab046cc4de2971f13f8e3a01ef9f43",
@@ -160,7 +161,7 @@
       "ffd93da4358f3012ef44c154f62e4dde50a3d5378c0e2fa6188283ad4ff7844c",
       "fff8595dff5a949b535fb293c39c48a151e872b5af33df472b102924b655c201"
     ],
-    "uniqueSha256": 90
+    "uniqueSha256": 91
   },
   "completedSourceCoverage": [
     {
@@ -5912,6 +5913,130 @@
         "numbered drug classes, mechanisms, uses, adverse effects, product images and comparison tables are declarative teaching structure rather than assessment prompts",
         "no answer is inferred and no teaching statement is converted into a question"
       ]
+    },
+    {
+      "sha256": "79d7d18744b1f29557d8ce6bfc6948a37f4d0ce6ecec4ee6b6728446c106f2b3",
+      "sourcePages": 37,
+      "renderedReadPages": "1-37",
+      "printedPromptObservations": 0,
+      "distinctAssessmentPrompts": 0,
+      "objectiveMcqPrompts": 0,
+      "writtenPrompts": 0,
+      "capturedQuestionLabels": "",
+      "printedKeyObservations": 0,
+      "sourceAbsentAnswers": 0,
+      "practicalOrImagePrompts": 0,
+      "teachingReferencePages": 35,
+      "nonAssessmentCoverPages": 1,
+      "nonAssessmentCloserPages": 1,
+      "sourceFirstHandles": 0,
+      "priorFhb1022CollapsedHandles": 0,
+      "acceptedSourceHandles": 0,
+      "searchesRun": 0,
+      "exactNormalizedPromptSibling": false,
+      "exactReplayPromptObservations": 0,
+      "replayAnswerObservations": 0,
+      "familyQuestionDelta": 0,
+      "familyAnswerDelta": 0,
+      "liveHits": 0,
+      "pendingHits": 0,
+      "newConceptsAfterPriorFhb1022Collapse": 0,
+      "sourceProcessed": true,
+      "sectionBoundary": [
+        {
+          "section": "Antibiotics word-cloud cover",
+          "pages": "1",
+          "coverPages": 1,
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0
+        },
+        {
+          "section": "Fleming, antimicrobial chemotherapy, bactericidal or bacteriostatic principles and spectrum",
+          "pages": "2-5",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Post-antibiotic effect and beta-lactam pharmacodynamics",
+          "pages": "6-9",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Antimicrobial-mechanism divider, beta-lactam structure, cell-wall classes and mechanisms",
+          "pages": "10-14",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 5
+        },
+        {
+          "section": "Penicillin divider, classes, combinations and adverse effects",
+          "pages": "15-21",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 7
+        },
+        {
+          "section": "Cephalosporin divider, five generations and classification diagram",
+          "pages": "22-28",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 7
+        },
+        {
+          "section": "Monobactam and carbapenem divider plus class teaching",
+          "pages": "29-31",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 3
+        },
+        {
+          "section": "Vancomycin divider, mechanism, uses, adverse effects and pseudomembranous-colitis teaching",
+          "pages": "32-35",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 4
+        },
+        {
+          "section": "Cell-wall antibiotic summary",
+          "pages": "36",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 1
+        },
+        {
+          "section": "Multilingual thank-you closer",
+          "pages": "37",
+          "objectiveMcqPrompts": 0,
+          "writtenPrompts": 0,
+          "printedKeyObservations": 0,
+          "teachingReferencePages": 0,
+          "nonAssessmentCloserPages": 1
+        }
+      ],
+      "sourceFirstHandleLabels": [],
+      "replayDisposition": "all thirty-five content pages are fully revealed teaching and reference slides with no assessment prompt field; title dividers, numbered drug classes, mechanisms, uses, adverse effects, diagrams and summary lists remain declarative teaching structure, so no prompt replay comparison is applicable and no teaching statement is reverse-engineered into a question",
+      "authorityDisposition": "PowerPoint for Microsoft 365 teaching deck titled Antimicrobial Agents with Jost author metadata; the visible slides identify no authenticated MUST platform, institution, department, module, lecturer, examiner, sitting, marks scheme or faculty-key declaration",
+      "boundaryDisposition": "page 1 is an antibiotics word-cloud cover, pages 2-36 are declarative antimicrobial principles, pharmacodynamics, cell-wall mechanism, penicillin, cephalosporin, monobactam, carbapenem and vancomycin teaching/reference slides, and page 37 is a multilingual thank-you closer; the exact boundary is zero objective, written, practical or image-dependent prompts, zero printed or absent answers, thirty-five teaching-reference pages, one non-assessment cover and one non-assessment closing page",
+      "preservedSourceDefects": [
+        "the misspelled filename Rivision is retained as literal file provenance",
+        "printed spelling, grammar, diagrams, clinical images, terminology and medically or academically questionable statements remain literal source truth without correction",
+        "title dividers, numbered drug classes, mechanisms, uses, adverse effects, diagrams and summary lists are declarative teaching structure rather than assessment prompts",
+        "generic title and Jost metadata are retained without inventing lecturer, institution or authority",
+        "no answer is inferred and no teaching statement is converted into a question"
+      ]
     }
   ],
   "partialSourceCoverage": [],
@@ -6463,27 +6588,33 @@
     "pages": 15,
     "sourceProcessed": true
   },
-  "nextSourceCandidate": {
+  "ninetyFirstSourceCandidate": {
     "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Rivision cell wall inhibitors.pdf",
     "sha256": "79d7d18744b1f29557d8ce6bfc6948a37f4d0ce6ecec4ee6b6728446c106f2b3",
     "pages": 37,
+    "sourceProcessed": true
+  },
+  "nextSourceCandidate": {
+    "relativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/cell wall.pdf",
+    "sha256": "be89e24f14a2b580bbd8a4ba954f4bdfa482fa054e5ebc791e82001b60eead6e",
+    "pages": 9,
     "sourceProcessed": false
   },
   "remaining": {
-    "inventoryMetadataRows": 4,
-    "uniqueSha256": 4,
-    "sortedNewlineSha256": "784c3946f1c76f0302d1cf256956b115bfdcfd6ae0c4ac31a930ad56462afece",
+    "inventoryMetadataRows": 3,
+    "uniqueSha256": 3,
+    "sortedNewlineSha256": "c5d7aae464446e5d61fc2d083b958720ab56d4705d53e8fa2542bf2730c66d5c",
     "auditSampleStatusCounts": {
-      "audit-not-found": 4
+      "audit-not-found": 3
     }
   },
   "triageCheckpointRemainingAuditDebt": {
-    "audit-not-found": 4
+    "audit-not-found": 3
   },
   "reconciliation": {
     "selectedUniqueSha256": 94,
-    "processedUniqueSha256": 90,
-    "remainingUniqueSha256": 4,
+    "processedUniqueSha256": 91,
+    "remainingUniqueSha256": 3,
     "processedPlusRemaining": 94
   }
 }
