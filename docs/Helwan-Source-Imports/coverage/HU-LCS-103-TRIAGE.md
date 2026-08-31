@@ -22680,3 +22680,106 @@ The exact next manifest-order debt is tier-6 `src_29cf1e8315129cd45736`,
 unclassified until all 48 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
 — NOT APPROVED`:** 13 tier-6/rank-9 path debts remain. No download, source edit, ID, content
 record, catalogue update, import or source copy was created.
+
+## Family 218 — Tier-6 named soft-tissue and bone-tumor teaching deck
+
+### Corrected exact identity, authority and complete source-first boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source / authoritative SHA-256 | `src_29cf1e8315129cd45736` / `29cf1e8315129cd45736b31c0529787514fd445a3c5cb447b460f1a5f2e6a51f` |
+| Exact path | `Year 1/LCS 103/Pathology/Notes and Summaries/4-103 LCS Bone _ Soft Tissue Tumors (1)_240716_164356.pdf` |
+| Identity correction | The dispatch supplied a different full SHA after the shared `29cf1e8315129cd45736` prefix. Fresh physical hashing and the authoritative manifest entry agree on the SHA above; source ID, path, size and page count otherwise match. The incorrect dispatch SHA is not used as governed evidence. |
+| Physical verification | **3,438,297 bytes; 48 native-text 960 x 540 pt landscape pages; untagged; unencrypted; no form; PDF 1.7**. All 48 pages were rendered at 120 dpi, inspected completely and reconciled against native extraction. Render hashing gives 44 distinct images: pages 8/20, 11/15 and 26/38/43 are repeated decorative separator pairs/groups. Qpdf reports no syntax or stream-encoding error. |
+| Visible / metadata provenance | Page 1 names `SOFT TISSUE & BONE TUMORS — DR HEBAT ALLAH AMIN`; page 47 cites Robbins, WebPath and a `Locomotor Bank` URL on `helwanmed.ekb.eg` described for student self-study and assessment. Metadata identifies Samsung creation/production and a 16 July 2024 modification. No page presents an exam, sitting, marks or answer key. |
+| Authority finding | Named course-context teaching/support evidence with a visible Helwan repository reference, but not eligible sitting or key authority. |
+
+The complete 48-page boundary is:
+
+| Pages | Complete supplied composition |
+|---:|---|
+| 1–7 | title, objectives, tumor tissue origins, benign/malignant nomenclature and behavior, and soft-tissue category map |
+| 8–10 | decorative question-mark separator followed by completed lipoma/liposarcoma gross and histology teaching |
+| 11–16 | repeated separator; fibroma, fibromatosis, fibrosarcoma and peripheral-nerve tumor teaching |
+| 17–23 | leiomyoma, leiomyosarcoma, rhabdomyosarcoma, hemangioma, angiosarcoma and synovial-sarcoma teaching, with page 20's repeated separator |
+| 24–26 | `Diagnosis!!!` heading, completed immunohistochemistry teaching and a decorative separator |
+| 27–33 | bone-tumor overview/comparison, bone-forming tumors, osteoma, location charts and two completed periosteal-reaction panels |
+| 34–38 | osteoid osteoma/osteoblastoma and osteosarcoma teaching, followed by a decorative separator |
+| 39–43 | osteochondroma, enchondroma and chondrosarcoma teaching, followed by a decorative separator |
+| 44–48 | Ewing sarcoma, giant-cell tumor, summary, references and thank-you close |
+
+All objectives, bullets, tables, handwritten annotations, gross specimens, histology fields,
+radiographs and diagrams are supplied teaching content. The page-2 verbs describe lecture
+objectives; page 24's `Diagnosis!!!`, all repeated question-mark graphics and the page-46
+summary are headings/separators, not learner commands. There is no option set, response area,
+written task, blank, key or answer reveal. Exact assessment delta is therefore **0 eligible
+prompts / 0 external prompts / 0 ordinary MCQs / 0 written prompts / 0 keys-or-answers / 0
+unkeyed prompts**.
+
+Source truth remains literal and unrepaired. This includes `Oma`, `A lipoblasts is seen`,
+`apparently capsulated but it not capsulated`, `Ewing saecoma`, `Hair on end`, the
+printed/annotated periosteal-reaction labels, `Metastasis is the commonest bone tumors`,
+`one cell may have more than one nucleus`, the page-44 `II:22`/diaphysis/onion-skin notes
+and the page-45 `epiphysial`/soap-bubble annotations. These are recorded rather than
+medically repaired or endorsed.
+
+### Practical and image boundary
+
+Exactly **27 pages** contain supplied gross, histology, radiology or completed diagnostic
+comparison fields. Every field is already named, captioned or context-complete; none is
+masked, numbered for learner identification, paired with a station command or supplied as a
+response task. The decorative question-mark figures likewise carry no practical command.
+Exact practical delta is **0 prompts / 0 teaching plates / 0 mappings / 0 residues / 0 keys /
+0 practical teaching scopes**.
+
+### Source-first handles, exact searches and prior-LCS reconciliation
+
+The deck collapses source-first to eight complete theoretical handles:
+
+| Handle / pages | One query on each required surface | Reconciliation |
+|---|---|---|
+| soft-tissue tumor principles and categories · 2–7 | soft tissue tumors benign malignant sarcoma metastasis hemorrhage necrosis | prior-LCS theoretical reuse |
+| adipocytic, fibroblastic and peripheral-nerve tumors · 9–16 | lipoma liposarcoma fibroma fibromatosis fibrosarcoma schwannoma neurofibroma | prior-LCS theoretical reuse |
+| smooth- and skeletal-muscle tumors · 17–19 | leiomyoma leiomyosarcoma rhabdomyosarcoma smooth skeletal muscle tumor | prior-LCS theoretical reuse |
+| vascular tumors, synovial sarcoma and diagnostic immunohistochemistry · 21–25 | hemangioma angiosarcoma synovial sarcoma S-100 desmin vimentin cytokeratin | prior-LCS theoretical reuse |
+| bone-tumor overview, osteoma and periosteal reaction · 27–33 | bone tumors metastasis multiple myeloma osteoma periosteal reaction onion skin Codman sunburst | prior-LCS theoretical reuse |
+| osteoid osteoma, osteoblastoma and osteosarcoma · 34–37 | osteoid osteoma osteoblastoma osteosarcoma osteoid matrix NSAID Codman triangle | prior-LCS theoretical reuse |
+| cartilage-forming bone tumors · 39–42 | osteochondroma enchondroma chondrosarcoma cartilage forming tumors | prior-LCS theoretical reuse |
+| Ewing sarcoma and giant-cell tumor of bone · 44–45 | Ewing sarcoma giant cell tumor soap bubble small round cells onion skin | prior-LCS theoretical reuse |
+
+Each of the **eight accepted handles** received exactly one search against each required
+surface: live, pending/import-ready, prior source-import and accepted LCS. That is **8 x 4 =
+32 required search invocations**. Live file-match counts were **0 / 0 / 0 / 0 / 1 / 0 / 0 /
+0**; pending/import-ready counts were all **1**; prior-source counts were all **0**;
+accepted-LCS counts were **1 / 1 / 1 / 1 / 1 / 1 / 0 / 1**. Complete source-level comparison
+against the previously inventoried LCS pathology teaching gives **8 prior-LCS theoretical
+reuses / 0 additive live / 0 additive pending / 0 additive new teaching scopes**.
+
+### Cumulative assessment, practical and all-rank remainder checkpoint
+
+Eligible assessment remains **1,080 observed questions / 710 printed keys-or-answers / 337
+distinct tested concepts = 12 live / 111 pending / 214 new**. External assessment remains
+**7,537 prompts / 7,261 source keys-or-answers / 221 external concepts = 12 live / 135 pending /
+74 new**. Practical totals remain **94 prompts / 525 plates / 3,029 mappings / 173 residues /
+87 keys**; practical teaching scopes remain **0 live / 0 pending / 92 new**. Family 218's
+assessment, practical and disposition deltas are entirely zero.
+
+Consuming this source's sole path and unique hash changes the remainder from **13 paths / 13
+unique hashes** to **12 paths / 12 unique hashes**: tier 3 remains **0 / 0**, tier 6 becomes
+**7 paths / 7 unique hashes within tier**, and rank 9 remains **5 paths / 5 unique hashes
+within rank**. Family 217's checksums were
+`6398236bc70a59a9a8dfaaf2a1fae34818321a44e0a8dcc1baf42fc65dd24821` (paths) and
+`5ab49a0f1b919b036cecb1b61e6a49f153834beb35ebc601c4abfb1add82eda8` (unique hashes).
+For the exact post-Family-218 remainder, SHA-256 over bytewise sorted
+`corpusRelativePath<TAB>sha256<LF>` rows is
+`9ad16200a43109300eb6349e1349f5f634e9f60bc62b74d17f572e651604ecfc`;
+SHA-256 over sorted unique `sha256<LF>` rows is
+`baad5a86158e6ee3076779911bc1875f43ded6909f3ee97ae8c2a097f004349c`.
+
+The exact next manifest-order debt is tier-6 `src_95e1d8b89979af6413f1`,
+`Year 1/LCS 103/Pathology/Notes and Summaries/bone tumors.pdf` (1,343,201 bytes; 16 native
+portrait-A4 pages; tagged; unencrypted; no form; PDF 1.7; SHA-256
+`95e1d8b89979af6413f119a5eb16f34f4952674f2c787b554b61d70a7ef5f041`). It remains
+unclassified until all 16 pages are rendered and read. **Overall LCS-103 remains `S1 TRIAGE
+— NOT APPROVED`:** 12 tier-6/rank-9 path debts remain. No download, source edit, ID, content
+record, catalogue update, import or source copy was created.
