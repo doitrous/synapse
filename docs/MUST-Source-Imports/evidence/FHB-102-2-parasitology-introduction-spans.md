@@ -2571,3 +2571,25 @@ CLM-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Sandflies transmit viral sandfly fever.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZECASE6-Q01-01

@@ -4677,3 +4677,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official disease overview lists viral sandfly fever among diseases transmitted by sandflies, and the dedicated sandfly-fever slide states that the virus is transmitted by the bite of the sandfly.
+
+## locator_type
+page
+
+## locator_page
+10, 26
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly-transmitted disease
+
+## locator_detail
+PDF page 10, 26, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize case-based learning Case 6 Q1 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

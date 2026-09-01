@@ -5145,3 +5145,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize case-based learning Case 4 Q2
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
+
+## concept_id
+CON-INF-F538E763E1260E
+
+## subject
+Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever
+
+## predicate
+states
+
+## object
+Sandflies transmit viral sandfly fever.
+
+## display_text
+Sandflies transmit viral sandfly fever.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize case-based learning Case 6 Q1

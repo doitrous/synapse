@@ -10459,6 +10459,7 @@ CLM-INF-MUST-FHB1022-SAND2-Q13-01
 CLM-INF-MUST-FHB1022-SAND2-Q14-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
+CLM-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
 
 ## resource_occurrence_ids
 [clear]
@@ -10471,16 +10472,19 @@ src_8bd3b772b3b32db59726 | tier 3 | 2025 | p13 Sandfly Q13; printed answer p18
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p13 Sandfly Q14; printed answer p18
 src_352f47c6e866e76a9d8b | tier 3 | 2025 | p17 Mucize Parasitology core Q82; printed answer p17
 src_352f47c6e866e76a9d8b | tier 3 | 2025 | p17 Mucize Parasitology core Q83; printed answer p17
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p22 Mucize case-based learning Case 6 Q1; printed answer p23
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 26 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p26 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p26 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 26 direct university teaching
 
 ## original_wording
 What is the causative agent of sandfly fever? Printed key C; options retained in their original order.
 Which of the following diseases is NOT transmitted by sandflies? Printed key B; options retained in their original order.
 What is the causative agent of Sandfly fever? Printed key B; options retained in their original order.
 What is the mode of transmission of Sandfly fever? Printed key C; options retained in their original order.
+What is the vector? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -10489,7 +10493,7 @@ What is the mode of transmission of Sandfly fever? Printed key C; options retain
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q13. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q14. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q82. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q83. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q13. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q14. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q82. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q83. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize case-based learning Case 6 Q1. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
