@@ -1103,6 +1103,10 @@ Vancomycin binds to D-Ala-D-Ala on peptidoglycan precursors.
 Bacitracin inhibits transport of cell-wall precursors across the cytoplasmic membrane.
 Penicillins and cephalosporins are grouped as bactericidal beta-lactam cell-wall inhibitors.
 Cell-wall-active beta-lactam antibiotics are presented as time-dependent bactericidal drugs.
+The official deck directly states that vancomycin inhibits peptidoglycan synthesis.
+The deck labels carbapenems and monobactams as other beta-lactams and presents vancomycin as a non-beta-lactam antibiotic.
+The deck presents cephalosporins, carbapenems and monobactams as beta-lactams and vancomycin as non-beta-lactam.
+The official comparison states that beta-lactam antibiotics inhibit cell-wall peptidoglycan cross-linking.
 
 ## published_summary
 
@@ -1119,6 +1123,10 @@ Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
 Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.
 Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
 Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.
+Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.
+Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups.
+Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
 
 ## lose_the_mark
 Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis.
@@ -1129,6 +1137,10 @@ Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are bet
 Bacitracin is not identified here as a ribosomal, protein-synthesis or DNA-gyrase inhibitor.
 The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck.
 The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams.
+The governed slide does not assign vancomycin ribosomal inhibition, membrane-permeability alteration or DNA-gyrase inhibition.
+Cephalosporins, carbapenems and monobactams belong to the beta-lactam classification in the governed deck.
+Cefazolin, imipenem and aztreonam represent beta-lactam groups in the governed classification.
+The governed mechanism does not assign beta-lactams DNA, folate or RNA-polymerase inhibition.
 
 ## callout_evidence
 ### Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
@@ -1171,6 +1183,26 @@ Claims: CLM-INF-MUST-FHB1022-PHARM-Q150-01
 Citations: CIT-INF-MUST-FHB1022-PHARM-Q150-01
 Reviewed by: pending medical review
 
+### Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q14-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q14-01
+Reviewed by: pending medical review
+
+### Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q19-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q19-01
+Reviewed by: pending medical review
+
+### Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q24-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q24-01
+Reviewed by: pending medical review
+
+### Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q25-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q25-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-AF1A323DC43B0A
 CON-INF-D152917B8E5B0C
@@ -1192,15 +1224,22 @@ QST-MUST-FHB1022-PHARM-Q137
 QST-MUST-FHB1022-PHARM-Q138
 QST-MUST-FHB1022-PHARM-Q149
 QST-MUST-FHB1022-PHARM-Q150
+QST-MUST-FHB1022-PHARM2-Q14
+QST-MUST-FHB1022-PHARM2-Q19
+QST-MUST-FHB1022-PHARM2-Q24
+QST-MUST-FHB1022-PHARM2-Q25
 
 ## resource_ids
 src_ee1fb7a716a473eb2d98
 src_875c205531a585cd5b91
+src_060e284322ddf8fdf92c
 src_4bd3b78f762673d7eb7f
+src_8bd3b772b3b32db59726
 
 ## article_source_ids
 src_ee1fb7a716a473eb2d98
 src_875c205531a585cd5b91
+src_060e284322ddf8fdf92c
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-PHARM-Q126-01
@@ -1211,6 +1250,10 @@ CLM-INF-MUST-FHB1022-PHARM-Q137-01
 CLM-INF-MUST-FHB1022-PHARM-Q138-01
 CLM-INF-MUST-FHB1022-PHARM-Q149-01
 CLM-INF-MUST-FHB1022-PHARM-Q150-01
+CLM-INF-MUST-FHB1022-PHARM2-Q14-01
+CLM-INF-MUST-FHB1022-PHARM2-Q19-01
+CLM-INF-MUST-FHB1022-PHARM2-Q24-01
+CLM-INF-MUST-FHB1022-PHARM2-Q25-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-PHARM-Q126-01
@@ -1221,9 +1264,13 @@ SPN-INF-MUST-FHB1022-PHARM-Q137-01
 SPN-INF-MUST-FHB1022-PHARM-Q138-01
 SPN-INF-MUST-FHB1022-PHARM-Q149-01
 SPN-INF-MUST-FHB1022-PHARM-Q150-01
+SPN-INF-MUST-FHB1022-PHARM2-Q14-01
+SPN-INF-MUST-FHB1022-PHARM2-Q19-01
+SPN-INF-MUST-FHB1022-PHARM2-Q24-01
+SPN-INF-MUST-FHB1022-PHARM2-Q25-01
 
 ## university_notes
-must: Global Q126, Q127, Q128, Q129, Q137, Q138, Q149, Q150 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q126, Q127, Q128, Q129, Q137, Q138, Q149, Q150, Q14, Q19, Q24, Q25 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ### definition_of · CON-INF-AF1A323DC43B0A
@@ -1266,6 +1313,26 @@ Quote: Cell-wall-active beta-lactam antibiotics are presented as time-dependent 
 Block: body
 Id: ann-must-fhb1022-micro-q150
 
+### definition_of · CON-INF-2EF55DB215EF9D
+Quote: The official deck directly states that vancomycin inhibits peptidoglycan synthesis.
+Block: body
+Id: ann-must-fhb1022-micro-q14
+
+### definition_of · CON-INF-ED16D39441C89B
+Quote: The deck labels carbapenems and monobactams as other beta-lactams and presents vancomycin as a non-beta-lactam antibiotic.
+Block: body
+Id: ann-must-fhb1022-micro-q19
+
+### definition_of · CON-INF-ED16D39441C89B
+Quote: The deck presents cephalosporins, carbapenems and monobactams as beta-lactams and vancomycin as non-beta-lactam.
+Block: body
+Id: ann-must-fhb1022-micro-q24
+
+### definition_of · CON-INF-AF1A323DC43B0A
+Quote: The official comparison states that beta-lactam antibiotics inhibit cell-wall peptidoglycan cross-linking.
+Block: body
+Id: ann-must-fhb1022-micro-q25
+
 ## media
 
 
@@ -1275,6 +1342,7 @@ needs_evidence
 ## evidence_basis
 Official MUST FHB102-2 Antibiotics Introd Mechan deck, visually read on exact cited pages.
 Official MUST FHB102-2 2. B-Lactam & Vancomycin deck, visually read on exact cited pages.
+Official MUST FHB102-2 Cell Wall and Cell Membrane Inhibitors deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps
@@ -1631,6 +1699,829 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 2. B-Lactam & Vancomycin deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## title
+Cephalosporin generations and governed uses
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Cephalosporin classification
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Cephalosporin classification
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cephalosporin classification
+
+## summary
+The official MUST deck classifies cefazolin as first generation, cefaclor as second generation, cefepime as fourth generation and ceftaroline as fifth generation, with direct governed uses and spectrum statements.
+
+## sections
+### Definition
+Cephalosporins are beta-lactam cell-wall antibiotics divided into five generations. The governed deck places cefazolin in first generation, cefaclor in second generation, cefepime in fourth generation and ceftaroline in fifth generation.
+
+### Mechanism
+As beta-lactams, cephalosporins inhibit bacterial cell-wall synthesis; the governed generation tables then distinguish members by spectrum and named use.
+
+### Spectrum and use
+First-generation cefazolin is used for surgical prophylaxis. The second-generation group retains Gram-positive activity while increasing Gram-negative activity. Cefepime is used empirically for nosocomial infection. Ceftaroline has activity against MRSA.
+
+### Key determinants
+Generation labels, spectrum and named uses are kept separate. The bounded questions preserve the exact offered drug names and source keys.
+
+### Clinical significance
+Generation recognition supports selection by spectrum and the specific local-curriculum use statements.
+
+### Common misconceptions
+Do not move cefazolin, cefaclor, cefepime or ceftaroline between generations. The held prompts' unsupported skin-infection, sepsis and broadest-spectrum wording is not taught here.
+
+### Governed evidence statements
+The official deck places cefazolin in the first-generation cephalosporin group.
+The official deck classifies cefaclor with second-generation cephalosporins and describes that generation as less active on Gram-positive and more active on Gram-negative organisms.
+The official deck lists cefepime under fourth generation and states empirical treatment of nosocomial infections.
+The official fifth-generation slide explicitly lists ceftaroline with MRSA activity.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Cefazolin is a first-generation cephalosporin.
+Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.
+Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.
+Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.
+
+## lose_the_mark
+Cefuroxime is second generation, ceftriaxone is third generation and ceftaroline is fifth generation in the governed deck.
+Cefazolin is first generation, cefotaxime is third generation and cefepime is fourth generation.
+The deck does not assign cefepime to mild skin infection, community-acquired pneumonia or tuberculosis.
+The governed deck does not assign the offered earlier-generation agents this MRSA role.
+
+## callout_evidence
+### Cefazolin is a first-generation cephalosporin.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q1-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q1-01
+Reviewed by: pending medical review
+
+### Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q3-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q3-01
+Reviewed by: pending medical review
+
+### Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q5-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q5-01
+Reviewed by: pending medical review
+
+### Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q6-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q6-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-FB70E1C8BC4339
+CON-INF-9A9E7DD547B182
+CON-INF-7B464634F09F46
+CON-INF-71B43C95050406
+
+## related_articles
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM: Carbapenems and monobactams
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE: Vancomycin clinical profile and pseudomembranous colitis
+
+## question_ids
+QST-MUST-FHB1022-PHARM2-Q1
+QST-MUST-FHB1022-PHARM2-Q3
+QST-MUST-FHB1022-PHARM2-Q5
+QST-MUST-FHB1022-PHARM2-Q6
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_060e284322ddf8fdf92c
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q1-01
+CLM-INF-MUST-FHB1022-PHARM2-Q3-01
+CLM-INF-MUST-FHB1022-PHARM2-Q5-01
+CLM-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-PHARM2-Q1-01
+SPN-INF-MUST-FHB1022-PHARM2-Q3-01
+SPN-INF-MUST-FHB1022-PHARM2-Q5-01
+SPN-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## university_notes
+must: Global Q1, Q3, Q5, Q6 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-FB70E1C8BC4339
+Quote: The official deck places cefazolin in the first-generation cephalosporin group.
+Block: body
+Id: ann-must-fhb1022-micro-q1
+
+### definition_of · CON-INF-9A9E7DD547B182
+Quote: The official deck classifies cefaclor with second-generation cephalosporins and describes that generation as less active on Gram-positive and more active on Gram-negative organisms.
+Block: body
+Id: ann-must-fhb1022-micro-q3
+
+### definition_of · CON-INF-7B464634F09F46
+Quote: The official deck lists cefepime under fourth generation and states empirical treatment of nosocomial infections.
+Block: body
+Id: ann-must-fhb1022-micro-q5
+
+### definition_of · CON-INF-71B43C95050406
+Quote: The official fifth-generation slide explicitly lists ceftaroline with MRSA activity.
+Block: body
+Id: ann-must-fhb1022-micro-q6
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 Cell Wall and Cell Membrane Inhibitors deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## title
+Carbapenems and monobactams
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Carbapenem and monobactam pharmacology
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Carbapenem and monobactam pharmacology
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Carbapenem and monobactam pharmacology
+
+## summary
+Carbapenems provide broad Gram-positive, Gram-negative and anaerobic coverage; imipenem is paired with cilastatin. Aztreonam is a monobactam directed at aerobic Gram-negative organisms without beta-lactam cross-allergy or aminoglycoside nephrotoxicity.
+
+## sections
+### Definition
+Carbapenems and monobactams are beta-lactam antibiotic groups. Imipenem, meropenem and ertapenem are carbapenems; aztreonam is the named monobactam.
+
+### Mechanism
+The governed deck describes carbapenems as the broadest-spectrum beta-lactams across Gram-positive, Gram-negative and anaerobic organisms. Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+
+### Key determinants
+Imipenem is degraded by renal dipeptidase and therefore is combined with cilastatin. Aztreonam has no cross-allergy with other beta-lactams and is not nephrotoxic or ototoxic like aminoglycosides.
+
+### Clinical significance
+These properties distinguish the broad carbapenem group from the narrow, allergy-sparing monobactam profile.
+
+### Common misconceptions
+Do not assign cilastatin to meropenem. Do not expand aztreonam to Gram-positive, anaerobic or fungal activity. The held absolute beta-lactamase question is not taught here.
+
+### Governed evidence statements
+The official deck identifies aztreonam as the monobactam.
+The official monobactam slide states that aztreonam is effective against aerobic Gram-negative organisms.
+The official slide states that unlike aminoglycosides aztreonam is not nephrotoxic or ototoxic.
+The official deck states that imipenem must be combined with cilastatin to inhibit renal dipeptidase.
+The official carbapenem slide describes the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms.
+The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.
+The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Aztreonam is a monobactam antibiotic.
+Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides.
+Imipenem is combined with cilastatin to inhibit renal dipeptidase.
+Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes.
+Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching.
+Aztreonam can be used without beta-lactam cross-allergy in the governed comparison.
+
+## lose_the_mark
+Ceftriaxone is a cephalosporin, meropenem is a carbapenem and vancomycin is a non-beta-lactam glycopeptide.
+The slide does not assign aztreonam primary Gram-positive, anaerobic or fungal activity.
+Aztreonam is not selected here for MRSA activity, beta-lactamase production or protein-synthesis inhibition.
+The deck explicitly states that meropenem does not require cilastatin; the other options are not the governed pair.
+The governed spectrum is not restricted to one Gram group and does not include fungi.
+The deck explicitly assigns the no-cross-allergy advantage to aztreonam.
+The governed no-cross-allergy statement belongs specifically to aztreonam among these options.
+
+## callout_evidence
+### Aztreonam is a monobactam antibiotic.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q8-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q8-01
+Reviewed by: pending medical review
+
+### Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q9-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q9-01
+Reviewed by: pending medical review
+
+### Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q10-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q10-01
+Reviewed by: pending medical review
+
+### Imipenem is combined with cilastatin to inhibit renal dipeptidase.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q11-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q11-01
+Reviewed by: pending medical review
+
+### Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q12-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q12-01
+Reviewed by: pending medical review
+
+### Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q21-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q21-01
+Reviewed by: pending medical review
+
+### Aztreonam can be used without beta-lactam cross-allergy in the governed comparison.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q23-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q23-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-4B65EC8F5C6C30
+CON-INF-986A7758AADF33
+
+## related_articles
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS: Cephalosporin generations and governed uses
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE: Vancomycin clinical profile and pseudomembranous colitis
+
+## question_ids
+QST-MUST-FHB1022-PHARM2-Q8
+QST-MUST-FHB1022-PHARM2-Q9
+QST-MUST-FHB1022-PHARM2-Q10
+QST-MUST-FHB1022-PHARM2-Q11
+QST-MUST-FHB1022-PHARM2-Q12
+QST-MUST-FHB1022-PHARM2-Q21
+QST-MUST-FHB1022-PHARM2-Q23
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_060e284322ddf8fdf92c
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q8-01
+CLM-INF-MUST-FHB1022-PHARM2-Q9-01
+CLM-INF-MUST-FHB1022-PHARM2-Q10-01
+CLM-INF-MUST-FHB1022-PHARM2-Q11-01
+CLM-INF-MUST-FHB1022-PHARM2-Q12-01
+CLM-INF-MUST-FHB1022-PHARM2-Q21-01
+CLM-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-PHARM2-Q8-01
+SPN-INF-MUST-FHB1022-PHARM2-Q9-01
+SPN-INF-MUST-FHB1022-PHARM2-Q10-01
+SPN-INF-MUST-FHB1022-PHARM2-Q11-01
+SPN-INF-MUST-FHB1022-PHARM2-Q12-01
+SPN-INF-MUST-FHB1022-PHARM2-Q21-01
+SPN-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## university_notes
+must: Global Q8, Q9, Q10, Q11, Q12, Q21, Q23 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-4B65EC8F5C6C30
+Quote: The official deck identifies aztreonam as the monobactam.
+Block: body
+Id: ann-must-fhb1022-micro-q8
+
+### definition_of · CON-INF-4B65EC8F5C6C30
+Quote: The official monobactam slide states that aztreonam is effective against aerobic Gram-negative organisms.
+Block: body
+Id: ann-must-fhb1022-micro-q9
+
+### definition_of · CON-INF-4B65EC8F5C6C30
+Quote: The official slide states that unlike aminoglycosides aztreonam is not nephrotoxic or ototoxic.
+Block: body
+Id: ann-must-fhb1022-micro-q10
+
+### definition_of · CON-INF-986A7758AADF33
+Quote: The official deck states that imipenem must be combined with cilastatin to inhibit renal dipeptidase.
+Block: body
+Id: ann-must-fhb1022-micro-q11
+
+### definition_of · CON-INF-986A7758AADF33
+Quote: The official carbapenem slide describes the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms.
+Block: body
+Id: ann-must-fhb1022-micro-q12
+
+### definition_of · CON-INF-4B65EC8F5C6C30
+Quote: The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.
+Block: body
+Id: ann-must-fhb1022-micro-q21
+
+### definition_of · CON-INF-4B65EC8F5C6C30
+Quote: The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.
+Block: body
+Id: ann-must-fhb1022-micro-q23
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 Cell Wall and Cell Membrane Inhibitors deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## title
+Vancomycin clinical profile and pseudomembranous colitis
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Vancomycin use and safety
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin use and safety
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin use and safety
+
+## summary
+Vancomycin is a Gram-positive agent used for resistant staphylococcal infection including MRSA and orally for pseudomembranous colitis; rapid infusion produces histamine-mediated red man syndrome, prevented by slow infusion and antihistamine pretreatment.
+
+## sections
+### Definition
+Vancomycin is a non-beta-lactam cell-wall antibiotic directed primarily at Gram-positive organisms. The official deck lists resistant staphylococcal infection including MRSA among its uses.
+
+### Mechanism
+Oral vancomycin remains in the gut because it is unabsorbed, whereas rapid intravenous infusion can release histamine and produce red man syndrome.
+
+### Administration and colitis
+Vancomycin is unabsorbed orally, so systemic treatment uses intravenous infusion. Oral vancomycin acts locally in pseudomembranous colitis. The same teaching lists metronidazole or vancomycin for drug-induced pseudomembranous colitis and identifies clindamycin as a prominent inciting antibiotic.
+
+### Adverse effects
+Rapid infusion can trigger histamine-mediated red man syndrome. Slow infusion and antihistamine pretreatment are the governed prevention measures.
+
+### Key determinants
+Gram-positive spectrum, resistant staphylococcal use, oral treatment of pseudomembranous colitis and infusion-rate-dependent red man syndrome are the source-governed differentiators.
+
+### Clinical significance
+Route, spectrum and infusion rate determine whether vancomycin is being used appropriately and safely in the bounded curriculum context.
+
+### Common misconceptions
+Do not extend vancomycin to primary Gram-negative, fungal or viral activity. Hepatotoxicity and last-resort wording were not established by this deck, so those prompts remain held.
+
+### Governed evidence statements
+The official slide lists clindamycin under drugs inducing pseudomembranous colitis and explains C. difficile overgrowth.
+The official vancomycin slide places its spectrum in Gram-positive cocci and bacilli.
+The official deck states that oral vancomycin acts locally in pseudomembranous colitis.
+The official adverse-effect slide identifies red man syndrome with histamine release and states that slow infusion prevents it.
+The official vancomycin slide lists resistant staphylococcal infection and MRSA among its uses.
+The official adverse-effect slide states that red man syndrome is avoided by slow infusion and antihistamine pretreatment.
+The official slide lists metronidazole or vancomycin as treatment for drug-induced pseudomembranous colitis.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile.
+Vancomycin is primarily active against Gram-positive organisms.
+Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile.
+Rapid vancomycin infusion is associated with histamine-mediated red man syndrome.
+Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA.
+Antihistamine pretreatment helps prevent vancomycin red man syndrome.
+Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis.
+
+## lose_the_mark
+Vancomycin and metronidazole are listed as treatment; cholestyramine binds toxins rather than being the inciting antibiotic.
+The governed spectrum does not assign primary Gram-negative, fungal or viral activity.
+The deck does not assign oral vancomycin to tuberculosis, Pseudomonas infection or gonorrhea.
+The governed rapid-infusion association is red man syndrome, not the other offered reactions.
+The governed slide does not assign the same MRSA role to cefuroxime, aztreonam or imipenem in this option set.
+The deck does not name acetaminophen, NSAIDs or corticosteroids for this prevention step.
+Amoxicillin, cephalexin and ceftriaxone are not the treatments listed on the governed colitis slide.
+
+## callout_evidence
+### Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q13-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q13-01
+Reviewed by: pending medical review
+
+### Vancomycin is primarily active against Gram-positive organisms.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q15-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q15-01
+Reviewed by: pending medical review
+
+### Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q16-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q16-01
+Reviewed by: pending medical review
+
+### Rapid vancomycin infusion is associated with histamine-mediated red man syndrome.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q17-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q17-01
+Reviewed by: pending medical review
+
+### Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q20-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q20-01
+Reviewed by: pending medical review
+
+### Antihistamine pretreatment helps prevent vancomycin red man syndrome.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q27-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q27-01
+Reviewed by: pending medical review
+
+### Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis.
+Claims: CLM-INF-MUST-FHB1022-PHARM2-Q30-01
+Citations: CIT-INF-MUST-FHB1022-PHARM2-Q30-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-24E2225E607D87
+CON-INF-060E72B7954D75
+CON-INF-57B07058C89DE0
+CON-INF-D169E8142D077D
+
+## related_articles
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS: Cephalosporin generations and governed uses
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM: Carbapenems and monobactams
+
+## question_ids
+QST-MUST-FHB1022-PHARM2-Q13
+QST-MUST-FHB1022-PHARM2-Q15
+QST-MUST-FHB1022-PHARM2-Q16
+QST-MUST-FHB1022-PHARM2-Q17
+QST-MUST-FHB1022-PHARM2-Q20
+QST-MUST-FHB1022-PHARM2-Q27
+QST-MUST-FHB1022-PHARM2-Q30
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_060e284322ddf8fdf92c
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q13-01
+CLM-INF-MUST-FHB1022-PHARM2-Q15-01
+CLM-INF-MUST-FHB1022-PHARM2-Q16-01
+CLM-INF-MUST-FHB1022-PHARM2-Q17-01
+CLM-INF-MUST-FHB1022-PHARM2-Q20-01
+CLM-INF-MUST-FHB1022-PHARM2-Q27-01
+CLM-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-PHARM2-Q13-01
+SPN-INF-MUST-FHB1022-PHARM2-Q15-01
+SPN-INF-MUST-FHB1022-PHARM2-Q16-01
+SPN-INF-MUST-FHB1022-PHARM2-Q17-01
+SPN-INF-MUST-FHB1022-PHARM2-Q20-01
+SPN-INF-MUST-FHB1022-PHARM2-Q27-01
+SPN-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## university_notes
+must: Global Q13, Q15, Q16, Q17, Q20, Q27, Q30 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-24E2225E607D87
+Quote: The official slide lists clindamycin under drugs inducing pseudomembranous colitis and explains C. difficile overgrowth.
+Block: body
+Id: ann-must-fhb1022-micro-q13
+
+### definition_of · CON-INF-060E72B7954D75
+Quote: The official vancomycin slide places its spectrum in Gram-positive cocci and bacilli.
+Block: body
+Id: ann-must-fhb1022-micro-q15
+
+### definition_of · CON-INF-57B07058C89DE0
+Quote: The official deck states that oral vancomycin acts locally in pseudomembranous colitis.
+Block: body
+Id: ann-must-fhb1022-micro-q16
+
+### definition_of · CON-INF-D169E8142D077D
+Quote: The official adverse-effect slide identifies red man syndrome with histamine release and states that slow infusion prevents it.
+Block: body
+Id: ann-must-fhb1022-micro-q17
+
+### definition_of · CON-INF-060E72B7954D75
+Quote: The official vancomycin slide lists resistant staphylococcal infection and MRSA among its uses.
+Block: body
+Id: ann-must-fhb1022-micro-q20
+
+### definition_of · CON-INF-D169E8142D077D
+Quote: The official adverse-effect slide states that red man syndrome is avoided by slow infusion and antihistamine pretreatment.
+Block: body
+Id: ann-must-fhb1022-micro-q27
+
+### definition_of · CON-INF-57B07058C89DE0
+Quote: The official slide lists metronidazole or vancomycin as treatment for drug-induced pseudomembranous colitis.
+Block: body
+Id: ann-must-fhb1022-micro-q30
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 Cell Wall and Cell Membrane Inhibitors deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps

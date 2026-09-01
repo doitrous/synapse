@@ -3165,3 +3165,971 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Microbiology Chapter 10
 source question: Absalam Microbiology Chapter 10 Q29
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q1-01
+
+## concept_id
+CON-INF-FB70E1C8BC4339
+
+## subject
+Cefazolin is a first-generation cephalosporin
+
+## predicate
+states
+
+## object
+Cefazolin is a first-generation cephalosporin.
+
+## display_text
+Cefazolin is a first-generation cephalosporin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q1
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q3-01
+
+## concept_id
+CON-INF-9A9E7DD547B182
+
+## subject
+Cefaclor is a second-generation cephalosporin
+
+## predicate
+states
+
+## object
+Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.
+
+## display_text
+Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q3
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q5-01
+
+## concept_id
+CON-INF-7B464634F09F46
+
+## subject
+Cefepime is used empirically for serious nosocomial infection
+
+## predicate
+states
+
+## object
+Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.
+
+## display_text
+Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q5
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## concept_id
+CON-INF-71B43C95050406
+
+## subject
+Ceftaroline is a fifth-generation cephalosporin active against MRSA
+
+## predicate
+states
+
+## object
+Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.
+
+## display_text
+Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q6
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q8-01
+
+## concept_id
+CON-INF-4B65EC8F5C6C30
+
+## subject
+Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy
+
+## predicate
+states
+
+## object
+Aztreonam is a monobactam antibiotic.
+
+## display_text
+Aztreonam is a monobactam antibiotic.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q8
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q9-01
+
+## concept_id
+CON-INF-4B65EC8F5C6C30
+
+## subject
+Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy
+
+## predicate
+states
+
+## object
+Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+
+## display_text
+Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q9
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q10-01
+
+## concept_id
+CON-INF-4B65EC8F5C6C30
+
+## subject
+Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy
+
+## predicate
+states
+
+## object
+Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides.
+
+## display_text
+Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q10
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q11-01
+
+## concept_id
+CON-INF-986A7758AADF33
+
+## subject
+Imipenem is a broad-spectrum carbapenem combined with cilastatin
+
+## predicate
+states
+
+## object
+Imipenem is combined with cilastatin to inhibit renal dipeptidase.
+
+## display_text
+Imipenem is combined with cilastatin to inhibit renal dipeptidase.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q11
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q12-01
+
+## concept_id
+CON-INF-986A7758AADF33
+
+## subject
+Imipenem is a broad-spectrum carbapenem combined with cilastatin
+
+## predicate
+states
+
+## object
+Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes.
+
+## display_text
+Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q12
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q13-01
+
+## concept_id
+CON-INF-24E2225E607D87
+
+## subject
+Clindamycin can cause pseudomembranous colitis
+
+## predicate
+states
+
+## object
+Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile.
+
+## display_text
+Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q13
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q14-01
+
+## concept_id
+CON-INF-2EF55DB215EF9D
+
+## subject
+Vancomycin binds D-alanyl-D-alanyl peptidoglycan precursors
+
+## predicate
+states
+
+## object
+Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.
+
+## display_text
+Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q14
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q15-01
+
+## concept_id
+CON-INF-060E72B7954D75
+
+## subject
+Vancomycin is active against Gram-positive organisms including MRSA
+
+## predicate
+states
+
+## object
+Vancomycin is primarily active against Gram-positive organisms.
+
+## display_text
+Vancomycin is primarily active against Gram-positive organisms.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q15
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q16-01
+
+## concept_id
+CON-INF-57B07058C89DE0
+
+## subject
+Metronidazole or oral vancomycin treats pseudomembranous colitis
+
+## predicate
+states
+
+## object
+Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile.
+
+## display_text
+Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q16
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q17-01
+
+## concept_id
+CON-INF-D169E8142D077D
+
+## subject
+Slow infusion and antihistamine pretreatment prevent vancomycin red man syndrome
+
+## predicate
+states
+
+## object
+Rapid vancomycin infusion is associated with histamine-mediated red man syndrome.
+
+## display_text
+Rapid vancomycin infusion is associated with histamine-mediated red man syndrome.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q17
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q19-01
+
+## concept_id
+CON-INF-ED16D39441C89B
+
+## subject
+Vancomycin is a non-beta-lactam cell-wall inhibitor
+
+## predicate
+states
+
+## object
+Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups.
+
+## display_text
+Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q20-01
+
+## concept_id
+CON-INF-060E72B7954D75
+
+## subject
+Vancomycin is active against Gram-positive organisms including MRSA
+
+## predicate
+states
+
+## object
+Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA.
+
+## display_text
+Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q20
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q21-01
+
+## concept_id
+CON-INF-4B65EC8F5C6C30
+
+## subject
+Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy
+
+## predicate
+states
+
+## object
+Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching.
+
+## display_text
+Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q21
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## concept_id
+CON-INF-4B65EC8F5C6C30
+
+## subject
+Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy
+
+## predicate
+states
+
+## object
+Aztreonam can be used without beta-lactam cross-allergy in the governed comparison.
+
+## display_text
+Aztreonam can be used without beta-lactam cross-allergy in the governed comparison.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q23
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q24-01
+
+## concept_id
+CON-INF-ED16D39441C89B
+
+## subject
+Vancomycin is a non-beta-lactam cell-wall inhibitor
+
+## predicate
+states
+
+## object
+Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.
+
+## display_text
+Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q24
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q25-01
+
+## concept_id
+CON-INF-AF1A323DC43B0A
+
+## subject
+Beta-lactams inhibit bacterial cell-wall synthesis
+
+## predicate
+states
+
+## object
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+
+## display_text
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q25
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q27-01
+
+## concept_id
+CON-INF-D169E8142D077D
+
+## subject
+Slow infusion and antihistamine pretreatment prevent vancomycin red man syndrome
+
+## predicate
+states
+
+## object
+Antihistamine pretreatment helps prevent vancomycin red man syndrome.
+
+## display_text
+Antihistamine pretreatment helps prevent vancomycin red man syndrome.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q27
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## concept_id
+CON-INF-57B07058C89DE0
+
+## subject
+Metronidazole or oral vancomycin treats pseudomembranous colitis
+
+## predicate
+states
+
+## object
+Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis.
+
+## display_text
+Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q30

@@ -10941,3 +10941,3347 @@ yes
 
 ## author_notes
 Printed source key: Microbiology Chapter 10 Q29 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q1
+
+## title
+Which of the following is a first-generation cephalosporin?
+
+## question
+Which of the following is a first-generation cephalosporin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Cefuroxime
+
+## explanation_a
+Incorrect. Cefuroxime is second generation, ceftriaxone is third generation and ceftaroline is fifth generation in the governed deck. The supported answer is B, Cefazolin.
+
+## answer_b
+Cefazolin
+
+## explanation_b
+Cefazolin is a first-generation cephalosporin. The official MUST teaching directly supports Cefazolin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Ceftriaxone
+
+## explanation_c
+Incorrect. Cefuroxime is second generation, ceftriaxone is third generation and ceftaroline is fifth generation in the governed deck. The supported answer is B, Cefazolin.
+
+## answer_d
+Ceftaroline
+
+## explanation_d
+Incorrect. Cefuroxime is second generation, ceftriaxone is third generation and ceftaroline is fifth generation in the governed deck. The supported answer is B, Cefazolin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-FB70E1C8BC4339
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > First-generation cephalosporins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Classify cefazolin as a first-generation cephalosporin.
+
+## source_citation
+Absalam101 Part 2, p48, Pharmacology Q1, printed key p56 (1 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q1 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q3
+
+## title
+Which second-generation cephalosporin is active against both Gram-positive cocci and some Gram-negative bacilli?
+
+## question
+Which second-generation cephalosporin is active against both Gram-positive cocci and some Gram-negative bacilli?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Cefaclor
+
+## explanation_a
+Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity. The official MUST teaching directly supports Cefaclor for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Cefepime
+
+## explanation_b
+Incorrect. Cefazolin is first generation, cefotaxime is third generation and cefepime is fourth generation. The supported answer is A, Cefaclor.
+
+## answer_c
+Cefazolin
+
+## explanation_c
+Incorrect. Cefazolin is first generation, cefotaxime is third generation and cefepime is fourth generation. The supported answer is A, Cefaclor.
+
+## answer_d
+Cefotaxime
+
+## explanation_d
+Incorrect. Cefazolin is first generation, cefotaxime is third generation and cefepime is fourth generation. The supported answer is A, Cefaclor.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-9A9E7DD547B182
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Second-generation cephalosporins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify cefaclor as the offered second-generation cephalosporin with the stated mixed spectrum.
+
+## source_citation
+Absalam101 Part 2, p48, Pharmacology Q3, printed key p56 (3 = A); official MUST Cell Wall and Cell Membrane Inhibitors, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q3 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q5
+
+## title
+Fourth-generation cephalosporins like cefepime are mainly used for:
+
+## question
+Fourth-generation cephalosporins like cefepime are mainly used for:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Mild skin infections
+
+## explanation_a
+Incorrect. The deck does not assign cefepime to mild skin infection, community-acquired pneumonia or tuberculosis. The supported answer is C, Serious hospital-acquired infections.
+
+## answer_b
+Community-acquired pneumonia
+
+## explanation_b
+Incorrect. The deck does not assign cefepime to mild skin infection, community-acquired pneumonia or tuberculosis. The supported answer is C, Serious hospital-acquired infections.
+
+## answer_c
+Serious hospital-acquired infections
+
+## explanation_c
+Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection. The official MUST teaching directly supports Serious hospital-acquired infections for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Tuberculosis
+
+## explanation_d
+Incorrect. The deck does not assign cefepime to mild skin infection, community-acquired pneumonia or tuberculosis. The supported answer is C, Serious hospital-acquired infections.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-7B464634F09F46
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Fourth-generation cephalosporins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Recognise serious hospital-acquired infection as the governed cefepime use.
+
+## source_citation
+Absalam101 Part 2, p49, Pharmacology Q5, printed key p56 (5 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q5 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q6
+
+## title
+Which cephalosporin is effective against MRSA?
+
+## question
+Which cephalosporin is effective against MRSA?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Cefepime
+
+## explanation_a
+Incorrect. The governed deck does not assign the offered earlier-generation agents this MRSA role. The supported answer is C, Ceftaroline.
+
+## answer_b
+Cefuroxime
+
+## explanation_b
+Incorrect. The governed deck does not assign the offered earlier-generation agents this MRSA role. The supported answer is C, Ceftaroline.
+
+## answer_c
+Ceftaroline
+
+## explanation_c
+Ceftaroline is a fifth-generation cephalosporin with activity against MRSA. The official MUST teaching directly supports Ceftaroline for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Cefazolin
+
+## explanation_d
+Incorrect. The governed deck does not assign the offered earlier-generation agents this MRSA role. The supported answer is C, Ceftaroline.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-71B43C95050406
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Fifth-generation cephalosporins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify ceftaroline as the offered cephalosporin active against MRSA.
+
+## source_citation
+Absalam101 Part 2, p49, Pharmacology Q6, printed key p56 (6 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q6 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q8
+
+## title
+Which of the following is a monobactam antibiotic?
+
+## question
+Which of the following is a monobactam antibiotic?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Ceftriaxone
+
+## explanation_a
+Incorrect. Ceftriaxone is a cephalosporin, meropenem is a carbapenem and vancomycin is a non-beta-lactam glycopeptide. The supported answer is B, Aztreonam.
+
+## answer_b
+Aztreonam
+
+## explanation_b
+Aztreonam is a monobactam antibiotic. The official MUST teaching directly supports Aztreonam for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Meropenem
+
+## explanation_c
+Incorrect. Ceftriaxone is a cephalosporin, meropenem is a carbapenem and vancomycin is a non-beta-lactam glycopeptide. The supported answer is B, Aztreonam.
+
+## answer_d
+Vancomycin
+
+## explanation_d
+Incorrect. Ceftriaxone is a cephalosporin, meropenem is a carbapenem and vancomycin is a non-beta-lactam glycopeptide. The supported answer is B, Aztreonam.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-4B65EC8F5C6C30
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify aztreonam as the monobactam among the offered drugs.
+
+## source_citation
+Absalam101 Part 2, p50, Pharmacology Q8, printed key p56 (8 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p18, 24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q8 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q9
+
+## title
+Monobactams are primarily effective against:
+
+## question
+Monobactams are primarily effective against:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Gram-positive bacteria
+
+## explanation_a
+Incorrect. The slide does not assign aztreonam primary Gram-positive, anaerobic or fungal activity. The supported answer is C, Aerobic Gram-negative bacilli.
+
+## answer_b
+Anaerobic bacteria
+
+## explanation_b
+Incorrect. The slide does not assign aztreonam primary Gram-positive, anaerobic or fungal activity. The supported answer is C, Aerobic Gram-negative bacilli.
+
+## answer_c
+Aerobic Gram-negative bacilli
+
+## explanation_c
+Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms. The official MUST teaching directly supports Aerobic Gram-negative bacilli for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Fungi
+
+## explanation_d
+Incorrect. The slide does not assign aztreonam primary Gram-positive, anaerobic or fungal activity. The supported answer is C, Aerobic Gram-negative bacilli.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-4B65EC8F5C6C30
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify aerobic Gram-negative bacilli as the governed monobactam spectrum.
+
+## source_citation
+Absalam101 Part 2, p50, Pharmacology Q9, printed key p56 (9 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q9 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q10
+
+## title
+Monobactams are considered an alternative to aminoglycosides because of their:
+
+## question
+Monobactams are considered an alternative to aminoglycosides because of their:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Activity against MRSA
+
+## explanation_a
+Incorrect. Aztreonam is not selected here for MRSA activity, beta-lactamase production or protein-synthesis inhibition. The supported answer is B, Lack of nephrotoxicity.
+
+## answer_b
+Lack of nephrotoxicity
+
+## explanation_b
+Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides. The official MUST teaching directly supports Lack of nephrotoxicity for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Beta-lactamase production
+
+## explanation_c
+Incorrect. Aztreonam is not selected here for MRSA activity, beta-lactamase production or protein-synthesis inhibition. The supported answer is B, Lack of nephrotoxicity.
+
+## answer_d
+Ability to inhibit protein synthesis
+
+## explanation_d
+Incorrect. Aztreonam is not selected here for MRSA activity, beta-lactamase production or protein-synthesis inhibition. The supported answer is B, Lack of nephrotoxicity.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-4B65EC8F5C6C30
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify lack of nephrotoxicity as the offered advantage over aminoglycosides.
+
+## source_citation
+Absalam101 Part 2, p50, Pharmacology Q10, printed key p56 (10 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q10 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q11
+
+## title
+Which carbapenem is combined with cilastatin to prevent its breakdown in the kidneys?
+
+## question
+Which carbapenem is combined with cilastatin to prevent its breakdown in the kidneys?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Aztreonam
+
+## explanation_a
+Incorrect. The deck explicitly states that meropenem does not require cilastatin; the other options are not the governed pair. The supported answer is C, Imipenem.
+
+## answer_b
+Meropenem
+
+## explanation_b
+Incorrect. The deck explicitly states that meropenem does not require cilastatin; the other options are not the governed pair. The supported answer is C, Imipenem.
+
+## answer_c
+Imipenem
+
+## explanation_c
+Imipenem is combined with cilastatin to inhibit renal dipeptidase. The official MUST teaching directly supports Imipenem for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Cefepime
+
+## explanation_d
+Incorrect. The deck explicitly states that meropenem does not require cilastatin; the other options are not the governed pair. The supported answer is C, Imipenem.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-986A7758AADF33
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Carbapenems
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify imipenem as the carbapenem paired with cilastatin.
+
+## source_citation
+Absalam101 Part 2, p50, Pharmacology Q11, printed key p56 (11 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p19–20.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q11 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q12
+
+## title
+Carbapenems are known for their broad spectrum of activity against:
+
+## question
+Carbapenems are known for their broad spectrum of activity against:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Only Gram-negative bacteria
+
+## explanation_a
+Incorrect. The governed spectrum is not restricted to one Gram group and does not include fungi. The supported answer is C, Both Gram-positive and Gram-negative bacteria, including anaerobes.
+
+## answer_b
+Only Gram-positive bacteria
+
+## explanation_b
+Incorrect. The governed spectrum is not restricted to one Gram group and does not include fungi. The supported answer is C, Both Gram-positive and Gram-negative bacteria, including anaerobes.
+
+## answer_c
+Both Gram-positive and Gram-negative bacteria, including anaerobes
+
+## explanation_c
+Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes. The official MUST teaching directly supports Both Gram-positive and Gram-negative bacteria, including anaerobes for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Fungi
+
+## explanation_d
+Incorrect. The governed spectrum is not restricted to one Gram group and does not include fungi. The supported answer is C, Both Gram-positive and Gram-negative bacteria, including anaerobes.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-986A7758AADF33
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Carbapenems
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Recognise the broad bacterial and anaerobic spectrum of carbapenems.
+
+## source_citation
+Absalam101 Part 2, p50, Pharmacology Q12, printed key p56 (12 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p19.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q12 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q13
+
+## title
+Clostridium difficile-associated diarrhea (CDAD) is commonly caused by:
+
+## question
+Clostridium difficile-associated diarrhea (CDAD) is commonly caused by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Clindamycin
+
+## explanation_a
+Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile. The official MUST teaching directly supports Clindamycin for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Vancomycin
+
+## explanation_b
+Incorrect. Vancomycin and metronidazole are listed as treatment; cholestyramine binds toxins rather than being the inciting antibiotic. The supported answer is A, Clindamycin.
+
+## answer_c
+Metronidazole
+
+## explanation_c
+Incorrect. Vancomycin and metronidazole are listed as treatment; cholestyramine binds toxins rather than being the inciting antibiotic. The supported answer is A, Clindamycin.
+
+## answer_d
+Cholestyramine
+
+## explanation_d
+Incorrect. Vancomycin and metronidazole are listed as treatment; cholestyramine binds toxins rather than being the inciting antibiotic. The supported answer is A, Clindamycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-24E2225E607D87
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Drug-induced pseudomembranous colitis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify clindamycin as the offered drug associated with CDAD.
+
+## source_citation
+Absalam101 Part 2, p51, Pharmacology Q13, printed key p56 (13 = A); official MUST Cell Wall and Cell Membrane Inhibitors, p29.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q13 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q14
+
+## title
+What is the mechanism of action of vancomycin?
+
+## question
+What is the mechanism of action of vancomycin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Inhibition of protein synthesis
+
+## explanation_a
+Incorrect. The governed slide does not assign vancomycin ribosomal inhibition, membrane-permeability alteration or DNA-gyrase inhibition. The supported answer is C, Inhibition of peptidoglycan synthesis.
+
+## answer_b
+Alteration of cell membrane permeability
+
+## explanation_b
+Incorrect. The governed slide does not assign vancomycin ribosomal inhibition, membrane-permeability alteration or DNA-gyrase inhibition. The supported answer is C, Inhibition of peptidoglycan synthesis.
+
+## answer_c
+Inhibition of peptidoglycan synthesis
+
+## explanation_c
+Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage. The official MUST teaching directly supports Inhibition of peptidoglycan synthesis for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Inhibition of DNA gyrase
+
+## explanation_d
+Incorrect. The governed slide does not assign vancomycin ribosomal inhibition, membrane-permeability alteration or DNA-gyrase inhibition. The supported answer is C, Inhibition of peptidoglycan synthesis.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-2EF55DB215EF9D
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin mechanism
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify inhibition of peptidoglycan synthesis as vancomycin action.
+
+## source_citation
+Absalam101 Part 2, p51, Pharmacology Q14, printed key p56 (14 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q14 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q15
+
+## title
+Vancomycin is primarily active against:
+
+## question
+Vancomycin is primarily active against:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Gram-negative bacteria
+
+## explanation_a
+Incorrect. The governed spectrum does not assign primary Gram-negative, fungal or viral activity. The supported answer is B, Gram-positive bacteria.
+
+## answer_b
+Gram-positive bacteria
+
+## explanation_b
+Vancomycin is primarily active against Gram-positive organisms. The official MUST teaching directly supports Gram-positive bacteria for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Fungi
+
+## explanation_c
+Incorrect. The governed spectrum does not assign primary Gram-negative, fungal or viral activity. The supported answer is B, Gram-positive bacteria.
+
+## answer_d
+Viruses
+
+## explanation_d
+Incorrect. The governed spectrum does not assign primary Gram-negative, fungal or viral activity. The supported answer is B, Gram-positive bacteria.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-060E72B7954D75
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin spectrum and uses
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify Gram-positive bacteria as the primary vancomycin spectrum.
+
+## source_citation
+Absalam101 Part 2, p51, Pharmacology Q15, printed key p56 (15 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p27.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q15 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q16
+
+## title
+Oral vancomycin is used to treat:
+
+## question
+Oral vancomycin is used to treat:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Tuberculosis
+
+## explanation_a
+Incorrect. The deck does not assign oral vancomycin to tuberculosis, Pseudomonas infection or gonorrhea. The supported answer is C, Clostridium difficile infection.
+
+## answer_b
+Pseudomonas infections
+
+## explanation_b
+Incorrect. The deck does not assign oral vancomycin to tuberculosis, Pseudomonas infection or gonorrhea. The supported answer is C, Clostridium difficile infection.
+
+## answer_c
+Clostridium difficile infection
+
+## explanation_c
+Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile. The official MUST teaching directly supports Clostridium difficile infection for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Gonorrhea
+
+## explanation_d
+Incorrect. The deck does not assign oral vancomycin to tuberculosis, Pseudomonas infection or gonorrhea. The supported answer is C, Clostridium difficile infection.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-57B07058C89DE0
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Pseudomembranous colitis treatment
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify C. difficile infection as the governed oral-vancomycin use.
+
+## source_citation
+Absalam101 Part 2, p51, Pharmacology Q16, printed key p56 (16 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p27–29.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q16 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q17
+
+## title
+Rapid intravenous infusion of vancomycin can cause:
+
+## question
+Rapid intravenous infusion of vancomycin can cause:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Anaphylaxis
+
+## explanation_a
+Incorrect. The governed rapid-infusion association is red man syndrome, not the other offered reactions. The supported answer is B, Red man syndrome.
+
+## answer_b
+Red man syndrome
+
+## explanation_b
+Rapid vancomycin infusion is associated with histamine-mediated red man syndrome. The official MUST teaching directly supports Red man syndrome for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Stevens-Johnson syndrome
+
+## explanation_c
+Incorrect. The governed rapid-infusion association is red man syndrome, not the other offered reactions. The supported answer is B, Red man syndrome.
+
+## answer_d
+Hemolytic anemia
+
+## explanation_d
+Incorrect. The governed rapid-infusion association is red man syndrome, not the other offered reactions. The supported answer is B, Red man syndrome.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D169E8142D077D
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin adverse effects
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Recognise red man syndrome as the rapid-infusion reaction to vancomycin.
+
+## source_citation
+Absalam101 Part 2, p51, Pharmacology Q17, printed key p56 (17 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p30.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q17 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q19
+
+## title
+Beta-lactam antibiotics include all EXCEPT:
+
+## question
+Beta-lactam antibiotics include all EXCEPT:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Cephalosporins
+
+## explanation_a
+Incorrect. Cephalosporins, carbapenems and monobactams belong to the beta-lactam classification in the governed deck. The supported answer is C, Vancomycin.
+
+## answer_b
+Carbapenems
+
+## explanation_b
+Incorrect. Cephalosporins, carbapenems and monobactams belong to the beta-lactam classification in the governed deck. The supported answer is C, Vancomycin.
+
+## answer_c
+Vancomycin
+
+## explanation_c
+Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups. The official MUST teaching directly supports Vancomycin for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Monobactams
+
+## explanation_d
+Incorrect. Cephalosporins, carbapenems and monobactams belong to the beta-lactam classification in the governed deck. The supported answer is C, Vancomycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-ED16D39441C89B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cell-wall inhibitor classes
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Distinguish vancomycin from the offered beta-lactam groups.
+
+## source_citation
+Absalam101 Part 2, p52, Pharmacology Q19, printed key p56 (19 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p18, 25.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q19 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q20
+
+## title
+Which antibiotic is effective against multi-drug resistant Gram-positive organisms, including MRSA?
+
+## question
+Which antibiotic is effective against multi-drug resistant Gram-positive organisms, including MRSA?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Cefuroxime
+
+## explanation_a
+Incorrect. The governed slide does not assign the same MRSA role to cefuroxime, aztreonam or imipenem in this option set. The supported answer is B, Vancomycin.
+
+## answer_b
+Vancomycin
+
+## explanation_b
+Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA. The official MUST teaching directly supports Vancomycin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Aztreonam
+
+## explanation_c
+Incorrect. The governed slide does not assign the same MRSA role to cefuroxime, aztreonam or imipenem in this option set. The supported answer is B, Vancomycin.
+
+## answer_d
+Imipenem
+
+## explanation_d
+Incorrect. The governed slide does not assign the same MRSA role to cefuroxime, aztreonam or imipenem in this option set. The supported answer is B, Vancomycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-060E72B7954D75
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin spectrum and uses
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Select vancomycin for the offered resistant Gram-positive and MRSA profile.
+
+## source_citation
+Absalam101 Part 2, p52, Pharmacology Q20, printed key p56 (20 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p27.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q20 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q21
+
+## title
+Which beta-lactam has minimal risk of allergic reactions?
+
+## question
+Which beta-lactam has minimal risk of allergic reactions?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Cephalexin
+
+## explanation_a
+Incorrect. The deck explicitly assigns the no-cross-allergy advantage to aztreonam. The supported answer is B, Aztreonam.
+
+## answer_b
+Aztreonam
+
+## explanation_b
+Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching. The official MUST teaching directly supports Aztreonam for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Imipenem
+
+## explanation_c
+Incorrect. The deck explicitly assigns the no-cross-allergy advantage to aztreonam. The supported answer is B, Aztreonam.
+
+## answer_d
+Vancomycin
+
+## explanation_d
+Incorrect. The deck explicitly assigns the no-cross-allergy advantage to aztreonam. The supported answer is B, Aztreonam.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-4B65EC8F5C6C30
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify aztreonam as the offered beta-lactam with minimal cross-allergy risk.
+
+## source_citation
+Absalam101 Part 2, p53, Pharmacology Q21, printed key p56 (21 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q21 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q23
+
+## title
+Which antibiotic can be safely given to patients with a history of penicillin allergy?
+
+## question
+Which antibiotic can be safely given to patients with a history of penicillin allergy?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Cephalexin
+
+## explanation_a
+Incorrect. The governed no-cross-allergy statement belongs specifically to aztreonam among these options. The supported answer is B, Aztreonam.
+
+## answer_b
+Aztreonam
+
+## explanation_b
+Aztreonam can be used without beta-lactam cross-allergy in the governed comparison. The official MUST teaching directly supports Aztreonam for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Ceftriaxone
+
+## explanation_c
+Incorrect. The governed no-cross-allergy statement belongs specifically to aztreonam among these options. The supported answer is B, Aztreonam.
+
+## answer_d
+Imipenem
+
+## explanation_d
+Incorrect. The governed no-cross-allergy statement belongs specifically to aztreonam among these options. The supported answer is B, Aztreonam.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-4B65EC8F5C6C30
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Select aztreonam for the offered penicillin-allergy context.
+
+## source_citation
+Absalam101 Part 2, p53, Pharmacology Q23, printed key p56 (23 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q23 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q24
+
+## title
+Which antibiotic is NOT a beta-lactam?
+
+## question
+Which antibiotic is NOT a beta-lactam?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Cefazolin
+
+## explanation_a
+Incorrect. Cefazolin, imipenem and aztreonam represent beta-lactam groups in the governed classification. The supported answer is C, Vancomycin.
+
+## answer_b
+Imipenem
+
+## explanation_b
+Incorrect. Cefazolin, imipenem and aztreonam represent beta-lactam groups in the governed classification. The supported answer is C, Vancomycin.
+
+## answer_c
+Vancomycin
+
+## explanation_c
+Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam. The official MUST teaching directly supports Vancomycin for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Aztreonam
+
+## explanation_d
+Incorrect. Cefazolin, imipenem and aztreonam represent beta-lactam groups in the governed classification. The supported answer is C, Vancomycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-ED16D39441C89B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cell-wall inhibitor classes
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify vancomycin as the only non-beta-lactam in the offered set.
+
+## source_citation
+Absalam101 Part 2, p54, Pharmacology Q24, printed key p56 (24 = C); official MUST Cell Wall and Cell Membrane Inhibitors, p18, 25.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q24 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q25
+
+## title
+What is the primary function of beta-lactam antibiotics?
+
+## question
+What is the primary function of beta-lactam antibiotics?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Inhibit DNA replication
+
+## explanation_a
+Incorrect. The governed mechanism does not assign beta-lactams DNA, folate or RNA-polymerase inhibition. The supported answer is B, Inhibit bacterial cell wall synthesis.
+
+## answer_b
+Inhibit bacterial cell wall synthesis
+
+## explanation_b
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis. The official MUST teaching directly supports Inhibit bacterial cell wall synthesis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Inhibit folate metabolism
+
+## explanation_c
+Incorrect. The governed mechanism does not assign beta-lactams DNA, folate or RNA-polymerase inhibition. The supported answer is B, Inhibit bacterial cell wall synthesis.
+
+## answer_d
+Inhibit RNA polymerase
+
+## explanation_d
+Incorrect. The governed mechanism does not assign beta-lactams DNA, folate or RNA-polymerase inhibition. The supported answer is B, Inhibit bacterial cell wall synthesis.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-AF1A323DC43B0A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactam mechanism
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify bacterial cell-wall synthesis as the beta-lactam target process.
+
+## source_citation
+Absalam101 Part 2, p54, Pharmacology Q25, printed key p56 (25 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q25 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q27
+
+## title
+Which premedication can prevent red man syndrome?
+
+## question
+Which premedication can prevent red man syndrome?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Acetaminophen
+
+## explanation_a
+Incorrect. The deck does not name acetaminophen, NSAIDs or corticosteroids for this prevention step. The supported answer is B, Antihistamines.
+
+## answer_b
+Antihistamines
+
+## explanation_b
+Antihistamine pretreatment helps prevent vancomycin red man syndrome. The official MUST teaching directly supports Antihistamines for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+NSAIDs
+
+## explanation_c
+Incorrect. The deck does not name acetaminophen, NSAIDs or corticosteroids for this prevention step. The supported answer is B, Antihistamines.
+
+## answer_d
+Corticosteroids
+
+## explanation_d
+Incorrect. The deck does not name acetaminophen, NSAIDs or corticosteroids for this prevention step. The supported answer is B, Antihistamines.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D169E8142D077D
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin adverse effects
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Identify antihistamines as the governed premedication for red man syndrome.
+
+## source_citation
+Absalam101 Part 2, p54, Pharmacology Q27, printed key p56 (27 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p30.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q27 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM2-Q30
+
+## title
+Clostridium difficile-associated diarrhea is commonly treated with:
+
+## question
+Clostridium difficile-associated diarrhea is commonly treated with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_060e284322ddf8fdf92c without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Amoxicillin
+
+## explanation_a
+Incorrect. Amoxicillin, cephalexin and ceftriaxone are not the treatments listed on the governed colitis slide. The supported answer is B, Metronidazole.
+
+## answer_b
+Metronidazole
+
+## explanation_b
+Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis. The official MUST teaching directly supports Metronidazole for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Cephalexin
+
+## explanation_c
+Incorrect. Amoxicillin, cephalexin and ceftriaxone are not the treatments listed on the governed colitis slide. The supported answer is B, Metronidazole.
+
+## answer_d
+Ceftriaxone
+
+## explanation_d
+Incorrect. Amoxicillin, cephalexin and ceftriaxone are not the treatments listed on the governed colitis slide. The supported answer is B, Metronidazole.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-57B07058C89DE0
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Pseudomembranous colitis treatment
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_060e284322ddf8fdf92c
+
+## learning_objective
+Select metronidazole from the offered drugs for C. difficile-associated diarrhea.
+
+## source_citation
+Absalam101 Part 2, p55, Pharmacology Q30, printed key p56 (30 = B); official MUST Cell Wall and Cell Membrane Inhibitors, p29.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q30 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

@@ -1581,3 +1581,487 @@ CLM-INF-MUST-FHB1022-CH10-Q29-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-CH10-Q29-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q1-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Cefazolin is a first-generation cephalosporin.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q1-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q1-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q3-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q3-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q3-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q5-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q5-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q5-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q6-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q8-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Aztreonam is a monobactam antibiotic.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q8-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q8-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q9-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q9-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q9-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q10-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q10-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q10-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q11-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Imipenem is combined with cilastatin to inhibit renal dipeptidase.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q11-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q11-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q12-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q12-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q12-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q13-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q13-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q13-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q14-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q14-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q14-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q15-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Vancomycin is primarily active against Gram-positive organisms.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q15-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q15-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q16-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q16-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q16-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q17-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Rapid vancomycin infusion is associated with histamine-mediated red man syndrome.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q17-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q17-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q20-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q20-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q20-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q21-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q21-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q21-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Aztreonam can be used without beta-lactam cross-allergy in the governed comparison.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q23-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q24-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q24-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q24-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q25-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q25-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q25-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q27-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Antihistamine pretreatment helps prevent vancomycin red man syndrome.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q27-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q27-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM2-Q30-01

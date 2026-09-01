@@ -2877,3 +2877,883 @@ The official MUST teaching deck directly supports the unchanged printed Microbio
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q1-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q1-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck places cefazolin in the first-generation cephalosporin group.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — First-generation cephalosporins
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q1 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q3-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q3-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck classifies cefaclor with second-generation cephalosporins and describes that generation as less active on Gram-positive and more active on Gram-negative organisms.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Second-generation cephalosporins
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q3 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q5-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q5-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck lists cefepime under fourth generation and states empirical treatment of nosocomial infections.
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Fourth-generation cephalosporins
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q5 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official fifth-generation slide explicitly lists ceftaroline with MRSA activity.
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Fifth-generation cephalosporins
+
+## locator_detail
+PDF page 13, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q6 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q8-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q8-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck identifies aztreonam as the monobactam.
+
+## locator_type
+page
+
+## locator_page
+18, 24
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Aztreonam
+
+## locator_detail
+PDF page 18, 24, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q8 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q9-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q9-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official monobactam slide states that aztreonam is effective against aerobic Gram-negative organisms.
+
+## locator_type
+page
+
+## locator_page
+24
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Aztreonam
+
+## locator_detail
+PDF page 24, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q9 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q10-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q10-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states that unlike aminoglycosides aztreonam is not nephrotoxic or ototoxic.
+
+## locator_type
+page
+
+## locator_page
+24
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Aztreonam
+
+## locator_detail
+PDF page 24, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q10 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q11-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q11-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that imipenem must be combined with cilastatin to inhibit renal dipeptidase.
+
+## locator_type
+page
+
+## locator_page
+19–20
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Carbapenems
+
+## locator_detail
+PDF page 19–20, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q11 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q12-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q12-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official carbapenem slide describes the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms.
+
+## locator_type
+page
+
+## locator_page
+19
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Carbapenems
+
+## locator_detail
+PDF page 19, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q12 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q13-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q13-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide lists clindamycin under drugs inducing pseudomembranous colitis and explains C. difficile overgrowth.
+
+## locator_type
+page
+
+## locator_page
+29
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Drug-induced pseudomembranous colitis
+
+## locator_detail
+PDF page 29, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q13 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q14-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q14-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck directly states that vancomycin inhibits peptidoglycan synthesis.
+
+## locator_type
+page
+
+## locator_page
+26
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Vancomycin mechanism
+
+## locator_detail
+PDF page 26, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q14 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q15-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q15-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official vancomycin slide places its spectrum in Gram-positive cocci and bacilli.
+
+## locator_type
+page
+
+## locator_page
+27
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Vancomycin spectrum and uses
+
+## locator_detail
+PDF page 27, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q15 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q16-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q16-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that oral vancomycin acts locally in pseudomembranous colitis.
+
+## locator_type
+page
+
+## locator_page
+27–29
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Pseudomembranous colitis treatment
+
+## locator_detail
+PDF page 27–29, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q16 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q17-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q17-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official adverse-effect slide identifies red man syndrome with histamine release and states that slow infusion prevents it.
+
+## locator_type
+page
+
+## locator_page
+30
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Vancomycin adverse effects
+
+## locator_detail
+PDF page 30, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q17 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q19-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The deck labels carbapenems and monobactams as other beta-lactams and presents vancomycin as a non-beta-lactam antibiotic.
+
+## locator_type
+page
+
+## locator_page
+18, 25
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Cell-wall inhibitor classes
+
+## locator_detail
+PDF page 18, 25, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q19 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q20-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q20-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official vancomycin slide lists resistant staphylococcal infection and MRSA among its uses.
+
+## locator_type
+page
+
+## locator_page
+27
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Vancomycin spectrum and uses
+
+## locator_detail
+PDF page 27, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q20 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q21-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q21-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.
+
+## locator_type
+page
+
+## locator_page
+24
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Aztreonam
+
+## locator_detail
+PDF page 24, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q21 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.
+
+## locator_type
+page
+
+## locator_page
+24
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Aztreonam
+
+## locator_detail
+PDF page 24, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q23 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q24-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q24-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The deck presents cephalosporins, carbapenems and monobactams as beta-lactams and vancomycin as non-beta-lactam.
+
+## locator_type
+page
+
+## locator_page
+18, 25
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Cell-wall inhibitor classes
+
+## locator_detail
+PDF page 18, 25, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q24 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q25-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q25-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official comparison states that beta-lactam antibiotics inhibit cell-wall peptidoglycan cross-linking.
+
+## locator_type
+page
+
+## locator_page
+26
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Beta-lactam mechanism
+
+## locator_detail
+PDF page 26, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q25 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q27-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q27-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official adverse-effect slide states that red man syndrome is avoided by slow infusion and antihistamine pretreatment.
+
+## locator_type
+page
+
+## locator_page
+30
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Vancomycin adverse effects
+
+## locator_detail
+PDF page 30, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q27 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## resource_id
+src_060e284322ddf8fdf92c
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide lists metronidazole or vancomycin as treatment for drug-induced pseudomembranous colitis.
+
+## locator_type
+page
+
+## locator_page
+29
+
+## locator_section
+Cell Wall and Cell Membrane Inhibitors — Pseudomembranous colitis treatment
+
+## locator_detail
+PDF page 29, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q30 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

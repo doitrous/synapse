@@ -48,6 +48,7 @@ const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
 const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
 const antibioticsIntroResourceId = 'src_ee1fb7a716a473eb2d98'
 const gramPositiveCocciResourceId = 'src_e2832d7aebaad9c7b1fe'
+const cellWallTeachingResourceId = 'src_060e284322ddf8fdf92c'
 
 const introArticles = {
   definitions: 'ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS',
@@ -519,6 +520,9 @@ const microArticles = {
   staphylococci: 'ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION',
   streptococci: 'ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION',
   branchingGramPositive: 'ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA',
+  cephalosporins: 'ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS',
+  otherBetaLactams: 'ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM',
+  vancomycinClinical: 'ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE',
 }
 
 const microArticleRelations = {
@@ -536,6 +540,9 @@ const microArticleRelations = {
   staphylococci: ['streptococci'],
   streptococci: ['staphylococci', 'branchingGramPositive'],
   branchingGramPositive: ['streptococci'],
+  cephalosporins: ['otherBetaLactams', 'vancomycinClinical'],
+  otherBetaLactams: ['cephalosporins', 'vancomycinClinical'],
+  vancomycinClinical: ['cephalosporins', 'otherBetaLactams'],
 }
 
 const microItems = [
@@ -1051,6 +1058,38 @@ const chapter10Items = [
 }))
 
 microItems.push(...chapter10Items)
+
+const pharmacologyPart2Items = [
+  { q: 1, conceptId: 'CON-INF-FB70E1C8BC4339', canonicalKey: 'pharmacology.cephalosporins.first-generation-cefazolin', label: 'Cefazolin is a first-generation cephalosporin', aliases: ['Cefazolin generation', 'First-generation cefazolin'], conceptType: 'classification', article: 'cephalosporins', microtopic: 'First-generation cephalosporins', assessmentPage: 48, teachingPage: 7, stem: 'Which of the following is a first-generation cephalosporin?', key: 'B', options: ['Cefuroxime', 'Cefazolin', 'Ceftriaxone', 'Ceftaroline'], claim: 'Cefazolin is a first-generation cephalosporin.', support: 'The official deck places cefazolin in the first-generation cephalosporin group.', objective: 'Classify cefazolin as a first-generation cephalosporin.', pitfalls: 'Cefuroxime is second generation, ceftriaxone is third generation and ceftaroline is fifth generation in the governed deck.', rejected: [] },
+  { q: 3, conceptId: 'CON-INF-9A9E7DD547B182', canonicalKey: 'pharmacology.cephalosporins.second-generation-cefaclor', label: 'Cefaclor is a second-generation cephalosporin', aliases: ['Cefaclor generation', 'Second-generation cefaclor'], conceptType: 'classification', article: 'cephalosporins', microtopic: 'Second-generation cephalosporins', assessmentPage: 48, teachingPage: 8, stem: 'Which second-generation cephalosporin is active against both Gram-positive cocci and some Gram-negative bacilli?', key: 'A', options: ['Cefaclor', 'Cefepime', 'Cefazolin', 'Cefotaxime'], claim: 'Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.', support: 'The official deck classifies cefaclor with second-generation cephalosporins and describes that generation as less active on Gram-positive and more active on Gram-negative organisms.', objective: 'Identify cefaclor as the offered second-generation cephalosporin with the stated mixed spectrum.', pitfalls: 'Cefazolin is first generation, cefotaxime is third generation and cefepime is fourth generation.', rejected: [] },
+  { q: 5, conceptId: 'CON-INF-7B464634F09F46', canonicalKey: 'pharmacology.cephalosporins.fourth-generation-cefepime', label: 'Cefepime is used empirically for serious nosocomial infection', aliases: ['Fourth-generation cefepime', 'Cefepime nosocomial use'], conceptType: 'clinical use', article: 'cephalosporins', microtopic: 'Fourth-generation cephalosporins', assessmentPage: 49, teachingPage: 10, stem: 'Fourth-generation cephalosporins like cefepime are mainly used for:', key: 'C', options: ['Mild skin infections', 'Community-acquired pneumonia', 'Serious hospital-acquired infections', 'Tuberculosis'], claim: 'Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.', support: 'The official deck lists cefepime under fourth generation and states empirical treatment of nosocomial infections.', objective: 'Recognise serious hospital-acquired infection as the governed cefepime use.', pitfalls: 'The deck does not assign cefepime to mild skin infection, community-acquired pneumonia or tuberculosis.', rejected: [] },
+  { q: 6, conceptId: 'CON-INF-71B43C95050406', canonicalKey: 'pharmacology.cephalosporins.fifth-generation-ceftaroline-mrsa', label: 'Ceftaroline is a fifth-generation cephalosporin active against MRSA', aliases: ['Ceftaroline MRSA activity', 'Fifth-generation ceftaroline'], conceptType: 'classification', article: 'cephalosporins', microtopic: 'Fifth-generation cephalosporins', assessmentPage: 49, teachingPage: 13, stem: 'Which cephalosporin is effective against MRSA?', key: 'C', options: ['Cefepime', 'Cefuroxime', 'Ceftaroline', 'Cefazolin'], claim: 'Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.', support: 'The official fifth-generation slide explicitly lists ceftaroline with MRSA activity.', objective: 'Identify ceftaroline as the offered cephalosporin active against MRSA.', pitfalls: 'The governed deck does not assign the offered earlier-generation agents this MRSA role.', sourceCandidates: ['concept_3dac886699724745f861bfc5'], rejected: ['concept_3dac886699724745f861bfc5 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 8, conceptId: 'CON-INF-4B65EC8F5C6C30', canonicalKey: 'pharmacology.monobactams.aztreonam-profile', label: 'Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy', aliases: ['Aztreonam profile', 'Monobactam aztreonam'], conceptType: 'drug profile', article: 'otherBetaLactams', microtopic: 'Aztreonam', assessmentPage: 50, teachingPage: '18, 24', stem: 'Which of the following is a monobactam antibiotic?', key: 'B', options: ['Ceftriaxone', 'Aztreonam', 'Meropenem', 'Vancomycin'], claim: 'Aztreonam is a monobactam antibiotic.', support: 'The official deck identifies aztreonam as the monobactam.', objective: 'Identify aztreonam as the monobactam among the offered drugs.', pitfalls: 'Ceftriaxone is a cephalosporin, meropenem is a carbapenem and vancomycin is a non-beta-lactam glycopeptide.', sourceCandidates: ['concept_be9951c4f6e42dcf27a24b85'], rejected: ['concept_be9951c4f6e42dcf27a24b85 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 9, conceptId: 'CON-INF-4B65EC8F5C6C30', canonicalKey: 'pharmacology.monobactams.aztreonam-profile', label: 'Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy', aliases: ['Aztreonam profile', 'Monobactam aztreonam'], conceptType: 'drug profile', article: 'otherBetaLactams', microtopic: 'Aztreonam', assessmentPage: 50, teachingPage: 24, stem: 'Monobactams are primarily effective against:', key: 'C', options: ['Gram-positive bacteria', 'Anaerobic bacteria', 'Aerobic Gram-negative bacilli', 'Fungi'], claim: 'Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.', support: 'The official monobactam slide states that aztreonam is effective against aerobic Gram-negative organisms.', objective: 'Identify aerobic Gram-negative bacilli as the governed monobactam spectrum.', pitfalls: 'The slide does not assign aztreonam primary Gram-positive, anaerobic or fungal activity.', rejected: [] },
+  { q: 10, conceptId: 'CON-INF-4B65EC8F5C6C30', canonicalKey: 'pharmacology.monobactams.aztreonam-profile', label: 'Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy', aliases: ['Aztreonam profile', 'Monobactam aztreonam'], conceptType: 'drug profile', article: 'otherBetaLactams', microtopic: 'Aztreonam', assessmentPage: 50, teachingPage: 24, stem: 'Monobactams are considered an alternative to aminoglycosides because of their:', key: 'B', options: ['Activity against MRSA', 'Lack of nephrotoxicity', 'Beta-lactamase production', 'Ability to inhibit protein synthesis'], claim: 'Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides.', support: 'The official slide states that unlike aminoglycosides aztreonam is not nephrotoxic or ototoxic.', objective: 'Identify lack of nephrotoxicity as the offered advantage over aminoglycosides.', pitfalls: 'Aztreonam is not selected here for MRSA activity, beta-lactamase production or protein-synthesis inhibition.', rejected: [] },
+  { q: 11, conceptId: 'CON-INF-986A7758AADF33', canonicalKey: 'pharmacology.carbapenems.imipenem-spectrum-cilastatin', label: 'Imipenem is a broad-spectrum carbapenem combined with cilastatin', aliases: ['Imipenem cilastatin', 'Carbapenem spectrum'], conceptType: 'drug profile', article: 'otherBetaLactams', microtopic: 'Carbapenems', assessmentPage: 50, teachingPage: '19–20', stem: 'Which carbapenem is combined with cilastatin to prevent its breakdown in the kidneys?', key: 'C', options: ['Aztreonam', 'Meropenem', 'Imipenem', 'Cefepime'], claim: 'Imipenem is combined with cilastatin to inhibit renal dipeptidase.', support: 'The official deck states that imipenem must be combined with cilastatin to inhibit renal dipeptidase.', objective: 'Identify imipenem as the carbapenem paired with cilastatin.', pitfalls: 'The deck explicitly states that meropenem does not require cilastatin; the other options are not the governed pair.', sourceCandidates: ['concept_99b7d0d51903a771d753f386'], rejected: ['concept_99b7d0d51903a771d753f386 — broad raw extraction is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 12, conceptId: 'CON-INF-986A7758AADF33', canonicalKey: 'pharmacology.carbapenems.imipenem-spectrum-cilastatin', label: 'Imipenem is a broad-spectrum carbapenem combined with cilastatin', aliases: ['Imipenem cilastatin', 'Carbapenem spectrum'], conceptType: 'drug profile', article: 'otherBetaLactams', microtopic: 'Carbapenems', assessmentPage: 50, teachingPage: 19, stem: 'Carbapenems are known for their broad spectrum of activity against:', key: 'C', options: ['Only Gram-negative bacteria', 'Only Gram-positive bacteria', 'Both Gram-positive and Gram-negative bacteria, including anaerobes', 'Fungi'], claim: 'Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes.', support: 'The official carbapenem slide describes the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms.', objective: 'Recognise the broad bacterial and anaerobic spectrum of carbapenems.', pitfalls: 'The governed spectrum is not restricted to one Gram group and does not include fungi.', sourceCandidates: ['concept_58a1f480f0d4d45284eec26d'], rejected: ['concept_58a1f480f0d4d45284eec26d — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 13, conceptId: 'CON-INF-24E2225E607D87', canonicalKey: 'pharmacology.clindamycin.pseudomembranous-colitis', label: 'Clindamycin can cause pseudomembranous colitis', aliases: ['Clindamycin-associated colitis', 'Clindamycin CDAD risk'], conceptType: 'adverse effect', article: 'vancomycinClinical', microtopic: 'Drug-induced pseudomembranous colitis', assessmentPage: 51, teachingPage: 29, stem: 'Clostridium difficile-associated diarrhea (CDAD) is commonly caused by:', key: 'A', options: ['Clindamycin', 'Vancomycin', 'Metronidazole', 'Cholestyramine'], claim: 'Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile.', support: 'The official slide lists clindamycin under drugs inducing pseudomembranous colitis and explains C. difficile overgrowth.', objective: 'Identify clindamycin as the offered drug associated with CDAD.', pitfalls: 'Vancomycin and metronidazole are listed as treatment; cholestyramine binds toxins rather than being the inciting antibiotic.', rejected: [] },
+  { q: 14, conceptId: 'CON-INF-2EF55DB215EF9D', canonicalKey: 'pharmacology.cell-wall.vancomycin-d-ala-d-ala', label: 'Vancomycin binds D-alanyl-D-alanyl peptidoglycan precursors', aliases: ['Vancomycin D-Ala-D-Ala binding', 'Glycopeptide precursor binding'], conceptType: 'mechanism', article: 'cellWallAntibiotics', microtopic: 'Vancomycin mechanism', assessmentPage: 51, teachingPage: 26, stem: 'What is the mechanism of action of vancomycin?', key: 'C', options: ['Inhibition of protein synthesis', 'Alteration of cell membrane permeability', 'Inhibition of peptidoglycan synthesis', 'Inhibition of DNA gyrase'], claim: 'Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.', support: 'The official deck directly states that vancomycin inhibits peptidoglycan synthesis.', objective: 'Identify inhibition of peptidoglycan synthesis as vancomycin action.', pitfalls: 'The governed slide does not assign vancomycin ribosomal inhibition, membrane-permeability alteration or DNA-gyrase inhibition.', rejected: [] },
+  { q: 15, conceptId: 'CON-INF-060E72B7954D75', canonicalKey: 'pharmacology.vancomycin.gram-positive-mrsa', label: 'Vancomycin is active against Gram-positive organisms including MRSA', aliases: ['Vancomycin Gram-positive spectrum', 'Vancomycin MRSA use'], conceptType: 'drug profile', article: 'vancomycinClinical', microtopic: 'Vancomycin spectrum and uses', assessmentPage: 51, teachingPage: 27, stem: 'Vancomycin is primarily active against:', key: 'B', options: ['Gram-negative bacteria', 'Gram-positive bacteria', 'Fungi', 'Viruses'], claim: 'Vancomycin is primarily active against Gram-positive organisms.', support: 'The official vancomycin slide places its spectrum in Gram-positive cocci and bacilli.', objective: 'Identify Gram-positive bacteria as the primary vancomycin spectrum.', pitfalls: 'The governed spectrum does not assign primary Gram-negative, fungal or viral activity.', rejected: [] },
+  { q: 16, conceptId: 'CON-INF-57B07058C89DE0', canonicalKey: 'pharmacology.c-difficile.metronidazole-oral-vancomycin', label: 'Metronidazole or oral vancomycin treats pseudomembranous colitis', aliases: ['C. difficile colitis treatment', 'Oral vancomycin for pseudomembranous colitis'], conceptType: 'clinical use', article: 'vancomycinClinical', microtopic: 'Pseudomembranous colitis treatment', assessmentPage: 51, teachingPage: '27–29', stem: 'Oral vancomycin is used to treat:', key: 'C', options: ['Tuberculosis', 'Pseudomonas infections', 'Clostridium difficile infection', 'Gonorrhea'], claim: 'Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile.', support: 'The official deck states that oral vancomycin acts locally in pseudomembranous colitis.', objective: 'Identify C. difficile infection as the governed oral-vancomycin use.', pitfalls: 'The deck does not assign oral vancomycin to tuberculosis, Pseudomonas infection or gonorrhea.', rejected: [] },
+  { q: 17, conceptId: 'CON-INF-D169E8142D077D', canonicalKey: 'pharmacology.vancomycin.red-man-prevention', label: 'Slow infusion and antihistamine pretreatment prevent vancomycin red man syndrome', aliases: ['Vancomycin infusion reaction', 'Red man syndrome prevention'], conceptType: 'adverse effect', article: 'vancomycinClinical', microtopic: 'Vancomycin adverse effects', assessmentPage: 51, teachingPage: 30, stem: 'Rapid intravenous infusion of vancomycin can cause:', key: 'B', options: ['Anaphylaxis', 'Red man syndrome', 'Stevens-Johnson syndrome', 'Hemolytic anemia'], claim: 'Rapid vancomycin infusion is associated with histamine-mediated red man syndrome.', support: 'The official adverse-effect slide identifies red man syndrome with histamine release and states that slow infusion prevents it.', objective: 'Recognise red man syndrome as the rapid-infusion reaction to vancomycin.', pitfalls: 'The governed rapid-infusion association is red man syndrome, not the other offered reactions.', sourceCandidates: ['concept_2f8f468f2f638b724ef53978'], rejected: ['concept_2f8f468f2f638b724ef53978 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 19, conceptId: 'CON-INF-ED16D39441C89B', canonicalKey: 'pharmacology.cell-wall.vancomycin-non-beta-lactam', label: 'Vancomycin is a non-beta-lactam cell-wall inhibitor', aliases: ['Vancomycin non-beta-lactam classification', 'Glycopeptide cell-wall inhibitor'], conceptType: 'classification', article: 'cellWallAntibiotics', microtopic: 'Cell-wall inhibitor classes', assessmentPage: 52, teachingPage: '18, 25', stem: 'Beta-lactam antibiotics include all EXCEPT:', key: 'C', options: ['Cephalosporins', 'Carbapenems', 'Vancomycin', 'Monobactams'], claim: 'Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups.', support: 'The deck labels carbapenems and monobactams as other beta-lactams and presents vancomycin as a non-beta-lactam antibiotic.', objective: 'Distinguish vancomycin from the offered beta-lactam groups.', pitfalls: 'Cephalosporins, carbapenems and monobactams belong to the beta-lactam classification in the governed deck.', rejected: [] },
+  { q: 20, conceptId: 'CON-INF-060E72B7954D75', canonicalKey: 'pharmacology.vancomycin.gram-positive-mrsa', label: 'Vancomycin is active against Gram-positive organisms including MRSA', aliases: ['Vancomycin Gram-positive spectrum', 'Vancomycin MRSA use'], conceptType: 'drug profile', article: 'vancomycinClinical', microtopic: 'Vancomycin spectrum and uses', assessmentPage: 52, teachingPage: 27, stem: 'Which antibiotic is effective against multi-drug resistant Gram-positive organisms, including MRSA?', key: 'B', options: ['Cefuroxime', 'Vancomycin', 'Aztreonam', 'Imipenem'], claim: 'Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA.', support: 'The official vancomycin slide lists resistant staphylococcal infection and MRSA among its uses.', objective: 'Select vancomycin for the offered resistant Gram-positive and MRSA profile.', pitfalls: 'The governed slide does not assign the same MRSA role to cefuroxime, aztreonam or imipenem in this option set.', sourceCandidates: ['concept_28446335a5e8351d0759ed23'], rejected: ['concept_28446335a5e8351d0759ed23 — overlapping raw drug-profile extraction is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 21, conceptId: 'CON-INF-4B65EC8F5C6C30', canonicalKey: 'pharmacology.monobactams.aztreonam-profile', label: 'Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy', aliases: ['Aztreonam profile', 'Monobactam aztreonam'], conceptType: 'drug profile', article: 'otherBetaLactams', microtopic: 'Aztreonam', assessmentPage: 53, teachingPage: 24, stem: 'Which beta-lactam has minimal risk of allergic reactions?', key: 'B', options: ['Cephalexin', 'Aztreonam', 'Imipenem', 'Vancomycin'], claim: 'Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching.', support: 'The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.', objective: 'Identify aztreonam as the offered beta-lactam with minimal cross-allergy risk.', pitfalls: 'The deck explicitly assigns the no-cross-allergy advantage to aztreonam.', sourceCandidates: ['concept_7eb8fe997f9e9511d2e86baa'], rejected: ['concept_7eb8fe997f9e9511d2e86baa — overlapping raw aztreonam profile is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 23, conceptId: 'CON-INF-4B65EC8F5C6C30', canonicalKey: 'pharmacology.monobactams.aztreonam-profile', label: 'Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy', aliases: ['Aztreonam profile', 'Monobactam aztreonam'], conceptType: 'drug profile', article: 'otherBetaLactams', microtopic: 'Aztreonam', assessmentPage: 53, teachingPage: 24, stem: 'Which antibiotic can be safely given to patients with a history of penicillin allergy?', key: 'B', options: ['Cephalexin', 'Aztreonam', 'Ceftriaxone', 'Imipenem'], claim: 'Aztreonam can be used without beta-lactam cross-allergy in the governed comparison.', support: 'The official aztreonam slide states no cross-allergy with beta-lactam antibiotics.', objective: 'Select aztreonam for the offered penicillin-allergy context.', pitfalls: 'The governed no-cross-allergy statement belongs specifically to aztreonam among these options.', rejected: [] },
+  { q: 24, conceptId: 'CON-INF-ED16D39441C89B', canonicalKey: 'pharmacology.cell-wall.vancomycin-non-beta-lactam', label: 'Vancomycin is a non-beta-lactam cell-wall inhibitor', aliases: ['Vancomycin non-beta-lactam classification', 'Glycopeptide cell-wall inhibitor'], conceptType: 'classification', article: 'cellWallAntibiotics', microtopic: 'Cell-wall inhibitor classes', assessmentPage: 54, teachingPage: '18, 25', stem: 'Which antibiotic is NOT a beta-lactam?', key: 'C', options: ['Cefazolin', 'Imipenem', 'Vancomycin', 'Aztreonam'], claim: 'Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.', support: 'The deck presents cephalosporins, carbapenems and monobactams as beta-lactams and vancomycin as non-beta-lactam.', objective: 'Identify vancomycin as the only non-beta-lactam in the offered set.', pitfalls: 'Cefazolin, imipenem and aztreonam represent beta-lactam groups in the governed classification.', rejected: [] },
+  { q: 25, conceptId: 'CON-INF-AF1A323DC43B0A', canonicalKey: 'pharmacology.beta-lactams.cell-wall-inhibition', label: 'Beta-lactams inhibit bacterial cell-wall synthesis', aliases: ['Beta-lactam cell-wall inhibition', 'Penicillin and cephalosporin cell-wall mechanism'], conceptType: 'mechanism', article: 'cellWallAntibiotics', microtopic: 'Beta-lactam mechanism', assessmentPage: 54, teachingPage: 26, stem: 'What is the primary function of beta-lactam antibiotics?', key: 'B', options: ['Inhibit DNA replication', 'Inhibit bacterial cell wall synthesis', 'Inhibit folate metabolism', 'Inhibit RNA polymerase'], claim: 'Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.', support: 'The official comparison states that beta-lactam antibiotics inhibit cell-wall peptidoglycan cross-linking.', objective: 'Identify bacterial cell-wall synthesis as the beta-lactam target process.', pitfalls: 'The governed mechanism does not assign beta-lactams DNA, folate or RNA-polymerase inhibition.', sourceCandidates: ['concept_77cf288624b1c088ade0ab9d'], rejected: ['concept_77cf288624b1c088ade0ab9d — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'] },
+  { q: 27, conceptId: 'CON-INF-D169E8142D077D', canonicalKey: 'pharmacology.vancomycin.red-man-prevention', label: 'Slow infusion and antihistamine pretreatment prevent vancomycin red man syndrome', aliases: ['Vancomycin infusion reaction', 'Red man syndrome prevention'], conceptType: 'adverse effect', article: 'vancomycinClinical', microtopic: 'Vancomycin adverse effects', assessmentPage: 54, teachingPage: 30, stem: 'Which premedication can prevent red man syndrome?', key: 'B', options: ['Acetaminophen', 'Antihistamines', 'NSAIDs', 'Corticosteroids'], claim: 'Antihistamine pretreatment helps prevent vancomycin red man syndrome.', support: 'The official adverse-effect slide states that red man syndrome is avoided by slow infusion and antihistamine pretreatment.', objective: 'Identify antihistamines as the governed premedication for red man syndrome.', pitfalls: 'The deck does not name acetaminophen, NSAIDs or corticosteroids for this prevention step.', rejected: [] },
+  { q: 30, conceptId: 'CON-INF-57B07058C89DE0', canonicalKey: 'pharmacology.c-difficile.metronidazole-oral-vancomycin', label: 'Metronidazole or oral vancomycin treats pseudomembranous colitis', aliases: ['C. difficile colitis treatment', 'Oral vancomycin for pseudomembranous colitis'], conceptType: 'clinical use', article: 'vancomycinClinical', microtopic: 'Pseudomembranous colitis treatment', assessmentPage: 55, teachingPage: 29, stem: 'Clostridium difficile-associated diarrhea is commonly treated with:', key: 'B', options: ['Amoxicillin', 'Metronidazole', 'Cephalexin', 'Ceftriaxone'], claim: 'Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis.', support: 'The official slide lists metronidazole or vancomycin as treatment for drug-induced pseudomembranous colitis.', objective: 'Select metronidazole from the offered drugs for C. difficile-associated diarrhea.', pitfalls: 'Amoxicillin, cephalexin and ceftriaxone are not the treatments listed on the governed colitis slide.', rejected: [] },
+].map((item) => ({
+  idPrefix: 'PHARM2', bankQ: item.q, assessmentResourceId: absalamPart2AssessmentResourceId,
+  bankLabel: 'Pharmacology', answerPage: 56, teachingResourceId: cellWallTeachingResourceId,
+  teachingTitle: 'Cell Wall and Cell Membrane Inhibitors', topic: 'Pharmacology', subtopic: 'Antimicrobials',
+  primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+microItems.push(...pharmacologyPart2Items)
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -2455,6 +2494,61 @@ no
 # Item
 
 ## id
+${cellWallTeachingResourceId}
+
+## title
+Cell Wall and Cell Membrane Inhibitors
+
+## institution
+Misr University for Science and Technology; faculty-distributed Pharmacology teaching deck
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+36
+
+## sha256
+060e284322ddf8fdf92c49f28659b04afe98b1128fdd34a4d948da38e9ed3a38
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 36 pages were rendered and visually read for the bounded Pharmacology Q1–Q30 audit. Pages 7–13 govern the authored cephalosporin generation, spectrum and use items; pages 18–24 govern carbapenem and monobactam items; pages 25–30 govern vancomycin, pseudomembranous-colitis and red-man-syndrome items. The same read exposes eight explicit authority, ambiguity, conflict or non-unique-form holds. The deck is teaching evidence only and contains no authenticated examiner key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 ${absalamPart2AssessmentResourceId}
 
 ## title
@@ -2464,7 +2558,7 @@ FHB102-2 MCQs till Midterm by Absalam101 — Part 2
 Student-authored revision bank attributed to Absalam101; no institution, department, examiner, sitting or authenticated faculty-key declaration is visible
 
 ## processing_status
-visually_read_selected_pages_native_text
+fully_governed_visually_read_all_pages_native_text
 
 ## collection_id
 ${moduleId}
@@ -2497,7 +2591,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–9 were rendered and visually read for the complete Parasitology Mosquitoes Q1–Q30 boundary. Page 9 carries the complete thirty-token source answer table. Twenty-two prompts are approved for Draft authoring with their wording, options and keys unchanged; Q5, Q11–Q14, Q16, Q20 and Q25 remain explicit identity or dependency holds with no student-facing record. The source answers remain student-bank evidence rather than authenticated faculty keys.
+All 56 pages were rendered and visually read across the complete Part 2 Mosquitoes, Sandfly, Mycology, Virology, Microbiology Chapter 10 and Pharmacology boundaries. Pages 48–55 carry Pharmacology Q1–Q30 and page 56 carries its complete thirty-token source answer table. Twenty-two Pharmacology prompts are approved for Draft authoring with wording, options and printed keys unchanged; Q2, Q4, Q7, Q18, Q22, Q26, Q28 and Q29 remain explicit authority, ambiguity, conflict or non-unique-form holds with no student-facing record. The source answers remain student-bank evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6
@@ -2512,7 +2606,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 27,
+    count: 28,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -2757,6 +2851,19 @@ function corpusSourceIndex() {
         moduleIds: [moduleId],
         categories: ['University Material', 'Teaching'],
       },
+      [cellWallTeachingResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf'],
+        sha256: '060e284322ddf8fdf92c49f28659b04afe98b1128fdd34a4d948da38e9ed3a38',
+        processingStatus: 'fully_governed',
+        pageCount: 36,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
+      },
       [bacterialGeneticsResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/7.Bacterial genetics (Ch 5).pdf',
         sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/7.Bacterial genetics (Ch 5).pdf'],
@@ -2894,6 +3001,14 @@ function corpusConceptIndex() {
       concept_550a06f2f8cdb1283f34bc9b: { labels: ['Co-amoxiclav combines amoxicillin with clavulanic acid'], sources: ['4. Alexandria Uni Books/Pharma practical ID1 2022.pdf'], statements: ['Explain co-amoxiclav combines amoxicillin with clavulanic acid as taught by the source.'] },
       concept_ac6dc41e45d23db7b00bcdc0: { labels: ['Ampicillin-Sulbactam'], sources: ['9. Zagazig Uni Books/Renal Practical.pdf'], statements: [] },
       concept_b63d87129941d4e1074248e5: { labels: ['Beta-lactams are bactericidal time-dependent cell-wall inhibitors'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain beta-lactams are bactericidal time-dependent cell-wall inhibitors as taught by the source.'] },
+      concept_3dac886699724745f861bfc5: { labels: ['Ceftaroline is a fifth-generation cephalosporin active against MRSA'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain ceftaroline is a fifth-generation cephalosporin active against MRSA as taught by the source.'] },
+      concept_be9951c4f6e42dcf27a24b85: { labels: ['The spectrum guide lists aztreonam as a monobactam'], sources: ['4. Alexandria Uni Books/Pharma practical ID1 2022.pdf'], statements: ['Interpret the spectrum guide lists aztreonam as a monobactam from the cited prepared-Corpus structure.'] },
+      concept_7eb8fe997f9e9511d2e86baa: { labels: ['Aztreonam targets aerobic Gram-negative bacilli without penicillin cross-sensitivity'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain aztreonam targets aerobic Gram-negative bacilli without penicillin cross-sensitivity as taught by the source.'] },
+      concept_99b7d0d51903a771d753f386: { labels: ['Imipenem renal degradation and cilastatin combination'], sources: ['8. Tanta Uni Books/Tanta pharmacology book.pdf'], statements: [] },
+      concept_58a1f480f0d4d45284eec26d: { labels: ['Carbapenems cover broad Gram-negative Gram-positive and anaerobic organisms'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain carbapenems cover broad Gram-negative Gram-positive and anaerobic organisms as taught by the source.'] },
+      concept_2f8f468f2f638b724ef53978: { labels: ['Rapid vancomycin infusion can cause histamine-mediated red-man syndrome'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain rapid vancomycin infusion can cause histamine-mediated red-man syndrome as taught by the source.'] },
+      concept_28446335a5e8351d0759ed23: { labels: ['Vancomycin is a renal-eliminated Gram-positive agent active against MRSA'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain vancomycin is a renal-eliminated Gram-positive agent active against MRSA as taught by the source.'] },
+      concept_77cf288624b1c088ade0ab9d: { labels: ['Beta-lactams inhibit bacterial cell-wall synthesis'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain beta-lactams inhibit bacterial cell-wall synthesis as taught by the source.'] },
     },
   }, null, 1)
 }
@@ -10448,6 +10563,72 @@ Correct class and combination recognition guides spectrum and administration dec
 ### Common misconceptions
 Do not classify amoxicillin as natural or piperacillin as penicillinase resistant. Do not interchange amoxicillin-clavulanate, ampicillin-sulbactam and piperacillin-tazobactam. The held piperacillin-sulbactam source item is not taught here.`,
   },
+  cephalosporins: {
+    title: 'Cephalosporin generations and governed uses', microtopic: 'Cephalosporin classification',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'The official MUST deck classifies cefazolin as first generation, cefaclor as second generation, cefepime as fourth generation and ceftaroline as fifth generation, with direct governed uses and spectrum statements.',
+    sections: `### Definition
+Cephalosporins are beta-lactam cell-wall antibiotics divided into five generations. The governed deck places cefazolin in first generation, cefaclor in second generation, cefepime in fourth generation and ceftaroline in fifth generation.
+
+### Mechanism
+As beta-lactams, cephalosporins inhibit bacterial cell-wall synthesis; the governed generation tables then distinguish members by spectrum and named use.
+
+### Spectrum and use
+First-generation cefazolin is used for surgical prophylaxis. The second-generation group retains Gram-positive activity while increasing Gram-negative activity. Cefepime is used empirically for nosocomial infection. Ceftaroline has activity against MRSA.
+
+### Key determinants
+Generation labels, spectrum and named uses are kept separate. The bounded questions preserve the exact offered drug names and source keys.
+
+### Clinical significance
+Generation recognition supports selection by spectrum and the specific local-curriculum use statements.
+
+### Common misconceptions
+Do not move cefazolin, cefaclor, cefepime or ceftaroline between generations. The held prompts' unsupported skin-infection, sepsis and broadest-spectrum wording is not taught here.`,
+  },
+  otherBetaLactams: {
+    title: 'Carbapenems and monobactams', microtopic: 'Carbapenem and monobactam pharmacology',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'Carbapenems provide broad Gram-positive, Gram-negative and anaerobic coverage; imipenem is paired with cilastatin. Aztreonam is a monobactam directed at aerobic Gram-negative organisms without beta-lactam cross-allergy or aminoglycoside nephrotoxicity.',
+    sections: `### Definition
+Carbapenems and monobactams are beta-lactam antibiotic groups. Imipenem, meropenem and ertapenem are carbapenems; aztreonam is the named monobactam.
+
+### Mechanism
+The governed deck describes carbapenems as the broadest-spectrum beta-lactams across Gram-positive, Gram-negative and anaerobic organisms. Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+
+### Key determinants
+Imipenem is degraded by renal dipeptidase and therefore is combined with cilastatin. Aztreonam has no cross-allergy with other beta-lactams and is not nephrotoxic or ototoxic like aminoglycosides.
+
+### Clinical significance
+These properties distinguish the broad carbapenem group from the narrow, allergy-sparing monobactam profile.
+
+### Common misconceptions
+Do not assign cilastatin to meropenem. Do not expand aztreonam to Gram-positive, anaerobic or fungal activity. The held absolute beta-lactamase question is not taught here.`,
+  },
+  vancomycinClinical: {
+    title: 'Vancomycin clinical profile and pseudomembranous colitis', microtopic: 'Vancomycin use and safety',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'Vancomycin is a Gram-positive agent used for resistant staphylococcal infection including MRSA and orally for pseudomembranous colitis; rapid infusion produces histamine-mediated red man syndrome, prevented by slow infusion and antihistamine pretreatment.',
+    sections: `### Definition
+Vancomycin is a non-beta-lactam cell-wall antibiotic directed primarily at Gram-positive organisms. The official deck lists resistant staphylococcal infection including MRSA among its uses.
+
+### Mechanism
+Oral vancomycin remains in the gut because it is unabsorbed, whereas rapid intravenous infusion can release histamine and produce red man syndrome.
+
+### Administration and colitis
+Vancomycin is unabsorbed orally, so systemic treatment uses intravenous infusion. Oral vancomycin acts locally in pseudomembranous colitis. The same teaching lists metronidazole or vancomycin for drug-induced pseudomembranous colitis and identifies clindamycin as a prominent inciting antibiotic.
+
+### Adverse effects
+Rapid infusion can trigger histamine-mediated red man syndrome. Slow infusion and antihistamine pretreatment are the governed prevention measures.
+
+### Key determinants
+Gram-positive spectrum, resistant staphylococcal use, oral treatment of pseudomembranous colitis and infusion-rate-dependent red man syndrome are the source-governed differentiators.
+
+### Clinical significance
+Route, spectrum and infusion rate determine whether vancomycin is being used appropriately and safely in the bounded curriculum context.
+
+### Common misconceptions
+Do not extend vancomycin to primary Gram-negative, fungal or viral activity. Hepatotoxicity and last-resort wording were not established by this deck, so those prompts remain held.`,
+  },
   mycologyFoundations: {
     title: 'General mycology foundations', microtopic: 'Fungal form and terminology',
     topic: 'Microbiology', subtopic: 'General mycology', primaryNode: 'DIS-MIC', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
@@ -11167,6 +11348,26 @@ function microCoverage() {
 - **Chapter 10 Q30 is held as an unsupported genus/key-form hold.** The bank prints C, Bacillus. The official classification tree supports Bacillus as aerobic, spore-forming Gram-positive bacilli but does not state the offered combined nonmotile, chain-forming genus description.
 
 `
+  const pharmacologyPart2Delta = `### Absalam Part 2 Pharmacology Q1–Q30 delta
+
+- +1 evidence resource: the official 36-page MUST Cell Wall and Cell Membrane Inhibitors deck, all pages rendered and visually read. The existing Absalam Part 2 assessment resource is reused; assessment pages 48–55 and the printed answer table on page 56 were visually read.
+- +22 verified local-curriculum claims, +22 citations and +22 article spans for Pharmacology Q1, Q3, Q5, Q6, Q8–Q17, Q19–Q21, Q23–Q25, Q27 and Q30.
+- +10 under-review / needs-evidence concepts, with exact reuse of three governed local concepts, and +3 standalone-complete reciprocally linked Draft articles.
+- +22 Draft questions and +8 authority, ambiguity, conflict or non-unique-form holds with no student-facing record.
+- Every authored stem, option and printed key is unchanged. Q26 remains an uncorrected generation/spectrum conflict or ambiguity; Q28 remains non-unique under the governed resistance teaching. No key was repaired.
+- Absalam Part 2 Pharmacology Q1–Q30: **22 authored / 8 held / 0 unassessed**. All 56 pages and all six Part 2 thirty-prompt families are now fully dispositioned.
+
+`
+  const pharmacologyPart2Holds = `- **Pharmacology Q2 is held as an unsupported compound-use hold.** Printed C combines surgical prophylaxis with skin infections. The official deck directly supports cefazolin surgical prophylaxis but does not state the full keyed compound wording including skin infections; no partial answer was promoted.
+- **Pharmacology Q4 is held as an unsupported compound-use hold.** Printed B combines meningitis with sepsis. The official deck directly supports ceftriaxone entry into the CNS and use in meningitis but does not state the full keyed compound wording including sepsis.
+- **Pharmacology Q7 is held as a generation/spectrum ambiguity hold.** Printed D names fourth generation as the broadest spectrum including resistant Gram-positive and Gram-negative bacteria, while the official deck separately assigns fourth-generation resistant streptococcal/staphylococcal and nosocomial coverage and fifth-generation MRSA/VRSA coverage. It does not support the keyed superlative as written.
+- **Pharmacology Q18 is held as an unsupported negative-closure hold.** Printed C, hepatotoxicity, is absent from the deck's vancomycin adverse-effect list, but absence alone does not establish a safe universal “NOT” answer and hypotension overlaps the source's histamine-mediated shock wording.
+- **Pharmacology Q22 is held as an unsupported comparative-causation hold.** Printed B, beta-lactamase production, is mechanistically relevant in the governed slides, but the official deck does not establish it as the singular “primary reason” for beta-lactam resistance across the class.
+- **Pharmacology Q26 is held as an uncorrected generation/spectrum conflict or ambiguity.** Printed D names fifth generation as broadest including resistant Gram-negative organisms. The deck assigns fifth-generation ceftaroline MRSA/VRSA coverage while fourth generation and cefiderocol carry separate resistant Gram-negative statements; no answer was corrected or silently reconciled.
+- **Pharmacology Q28 is held as a non-unique/absolute-form hold.** Printed B, aztreonam, is described as resistant to beta-lactamase from most Gram-negative bacteria, but the deck also describes fourth-generation cephalosporin resistance and does not support the absolute “not susceptible” wording as uniquely true.
+- **Pharmacology Q29 is held as an unsupported superlative-use hold.** Printed B, vancomycin, is supported for resistant Gram-positive infection including MRSA, but the official deck does not state that it is the singular “last-resort antibiotic” for resistant infections.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -11229,7 +11430,15 @@ function microCoverage() {
     .replace('| Articles | 38 |', '| Articles | 41 |')
     .replace('| Questions | 132 |', '| Questions | 151 |')
     .replace('| Question authoring holds | 169 |', '| Question authoring holds | 180 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}`)
+    .replace('| Evidence resources | 27 |', '| Evidence resources | 28 |')
+    .replace('| Claims | 151 |', '| Claims | 173 |')
+    .replace('| Citations | 156 |', '| Citations | 178 |')
+    .replace('| Article spans | 151 |', '| Article spans | 173 |')
+    .replace('| Concepts | 129 |', '| Concepts | 139 |')
+    .replace('| Articles | 41 |', '| Articles | 44 |')
+    .replace('| Questions | 151 |', '| Questions | 173 |')
+    .replace('| Question authoring holds | 180 |', '| Question authoring holds | 188 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -11246,6 +11455,8 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 129 clean source-keyed prompts authored; **5,082 raw answer observations remain**, including the 142 held printed-key observations', 'Governed answer observations: 5,211 total; 132 clean source-keyed prompts authored; **5,079 raw answer observations remain**, including the 169 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 132 authored; **5,312 raw prompt observations remain**, including 169 explicit holds', 'Governed prompt observations: 5,444 total; 151 authored; **5,293 raw prompt observations remain**, including 180 explicit holds')
     .replace('Governed answer observations: 5,211 total; 132 clean source-keyed prompts authored; **5,079 raw answer observations remain**, including the 169 held printed-key observations', 'Governed answer observations: 5,211 total; 151 clean source-keyed prompts authored; **5,060 raw answer observations remain**, including the 180 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 151 authored; **5,293 raw prompt observations remain**, including 180 explicit holds', 'Governed prompt observations: 5,444 total; 173 authored; **5,271 raw prompt observations remain**, including 188 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 151 clean source-keyed prompts authored; **5,060 raw answer observations remain**, including the 180 held printed-key observations', 'Governed answer observations: 5,211 total; 173 clean source-keyed prompts authored; **5,038 raw answer observations remain**, including the 188 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
@@ -11254,6 +11465,7 @@ function microCoverage() {
     .replace('Record-level backlog is not asserted as 5,327 unique records', 'Record-level backlog is not asserted as 5,315 unique records')
     .replace('Record-level backlog is not asserted as 5,315 unique records', 'Record-level backlog is not asserted as 5,312 unique records')
     .replace('Record-level backlog is not asserted as 5,312 unique records', 'Record-level backlog is not asserted as 5,293 unique records')
+    .replace('Record-level backlog is not asserted as 5,293 unique records', 'Record-level backlog is not asserted as 5,271 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -11263,6 +11475,7 @@ function microCoverage() {
     .replace('All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts', 'All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts')
     .replace('All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts', 'All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts')
     .replace('All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts', 'All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts')
+    .replace('All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts', 'All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
@@ -11272,6 +11485,7 @@ function microCoverage() {
     .replace('All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -11279,4 +11493,5 @@ function microCoverage() {
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.')
+    .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; all six Part 2 families through Pharmacology Q1–Q30 are fully dispositioned. The Absalam Part 2 source is complete; the next question-bearing family must be selected from the governed FHB-102-2 source ranking.')
 }

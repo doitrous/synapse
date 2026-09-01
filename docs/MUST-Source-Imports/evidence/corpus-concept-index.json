@@ -120,6 +120,92 @@
    "statements": [
     "Explain beta-lactams are bactericidal time-dependent cell-wall inhibitors as taught by the source."
    ]
+  },
+  "concept_3dac886699724745f861bfc5": {
+   "labels": [
+    "Ceftaroline is a fifth-generation cephalosporin active against MRSA"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain ceftaroline is a fifth-generation cephalosporin active against MRSA as taught by the source."
+   ]
+  },
+  "concept_be9951c4f6e42dcf27a24b85": {
+   "labels": [
+    "The spectrum guide lists aztreonam as a monobactam"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Pharma practical ID1 2022.pdf"
+   ],
+   "statements": [
+    "Interpret the spectrum guide lists aztreonam as a monobactam from the cited prepared-Corpus structure."
+   ]
+  },
+  "concept_7eb8fe997f9e9511d2e86baa": {
+   "labels": [
+    "Aztreonam targets aerobic Gram-negative bacilli without penicillin cross-sensitivity"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain aztreonam targets aerobic Gram-negative bacilli without penicillin cross-sensitivity as taught by the source."
+   ]
+  },
+  "concept_99b7d0d51903a771d753f386": {
+   "labels": [
+    "Imipenem renal degradation and cilastatin combination"
+   ],
+   "sources": [
+    "8. Tanta Uni Books/Tanta pharmacology book.pdf"
+   ],
+   "statements": []
+  },
+  "concept_58a1f480f0d4d45284eec26d": {
+   "labels": [
+    "Carbapenems cover broad Gram-negative Gram-positive and anaerobic organisms"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain carbapenems cover broad Gram-negative Gram-positive and anaerobic organisms as taught by the source."
+   ]
+  },
+  "concept_2f8f468f2f638b724ef53978": {
+   "labels": [
+    "Rapid vancomycin infusion can cause histamine-mediated red-man syndrome"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain rapid vancomycin infusion can cause histamine-mediated red-man syndrome as taught by the source."
+   ]
+  },
+  "concept_28446335a5e8351d0759ed23": {
+   "labels": [
+    "Vancomycin is a renal-eliminated Gram-positive agent active against MRSA"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain vancomycin is a renal-eliminated Gram-positive agent active against MRSA as taught by the source."
+   ]
+  },
+  "concept_77cf288624b1c088ade0ab9d": {
+   "labels": [
+    "Beta-lactams inhibit bacterial cell-wall synthesis"
+   ],
+   "sources": [
+    "4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf"
+   ],
+   "statements": [
+    "Explain beta-lactams inhibit bacterial cell-wall synthesis as taught by the source."
+   ]
   }
  }
 }

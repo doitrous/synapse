@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 27,
+ "count": 28,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -424,6 +424,30 @@
    "sha256": "e2832d7aebaad9c7b1fefa847658799131875ed8ac508ca90f5380d69a8aa5f4",
    "processingStatus": "fully_governed",
    "pageCount": 25,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_060e284322ddf8fdf92c": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf"
+   ],
+   "sha256": "060e284322ddf8fdf92c49f28659b04afe98b1128fdd34a4d948da38e9ed3a38",
+   "processingStatus": "fully_governed",
+   "pageCount": 36,
    "languages": [
     "en"
    ],

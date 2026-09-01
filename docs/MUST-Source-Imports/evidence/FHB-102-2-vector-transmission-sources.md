@@ -1324,6 +1324,61 @@ no
 # Item
 
 ## id
+src_060e284322ddf8fdf92c
+
+## title
+Cell Wall and Cell Membrane Inhibitors
+
+## institution
+Misr University for Science and Technology; faculty-distributed Pharmacology teaching deck
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/2.Cell Wall & Cell Membrane Inhibitors.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+36
+
+## sha256
+060e284322ddf8fdf92c49f28659b04afe98b1128fdd34a4d948da38e9ed3a38
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 36 pages were rendered and visually read for the bounded Pharmacology Q1–Q30 audit. Pages 7–13 govern the authored cephalosporin generation, spectrum and use items; pages 18–24 govern carbapenem and monobactam items; pages 25–30 govern vancomycin, pseudomembranous-colitis and red-man-syndrome items. The same read exposes eight explicit authority, ambiguity, conflict or non-unique-form holds. The deck is teaching evidence only and contains no authenticated examiner key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 src_8bd3b772b3b32db59726
 
 ## title
@@ -1333,7 +1388,7 @@ FHB102-2 MCQs till Midterm by Absalam101 — Part 2
 Student-authored revision bank attributed to Absalam101; no institution, department, examiner, sitting or authenticated faculty-key declaration is visible
 
 ## processing_status
-visually_read_selected_pages_native_text
+fully_governed_visually_read_all_pages_native_text
 
 ## collection_id
 MUST-FHB-102-2
@@ -1366,7 +1421,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–9 were rendered and visually read for the complete Parasitology Mosquitoes Q1–Q30 boundary. Page 9 carries the complete thirty-token source answer table. Twenty-two prompts are approved for Draft authoring with their wording, options and keys unchanged; Q5, Q11–Q14, Q16, Q20 and Q25 remain explicit identity or dependency holds with no student-facing record. The source answers remain student-bank evidence rather than authenticated faculty keys.
+All 56 pages were rendered and visually read across the complete Part 2 Mosquitoes, Sandfly, Mycology, Virology, Microbiology Chapter 10 and Pharmacology boundaries. Pages 48–55 carry Pharmacology Q1–Q30 and page 56 carries its complete thirty-token source answer table. Twenty-two Pharmacology prompts are approved for Draft authoring with wording, options and printed keys unchanged; Q2, Q4, Q7, Q18, Q22, Q26, Q28 and Q29 remain explicit authority, ambiguity, conflict or non-unique-form holds with no student-facing record. The source answers remain student-bank evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6

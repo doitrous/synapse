@@ -3289,13 +3289,13 @@ Penicillin and cephalosporin cell-wall mechanism
 [clear]
 
 ## definition
-Beta-lactam antibiotics inhibit bacterial cell-wall synthesis. Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis. Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis. Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
 
 ## explicit_objective
-Identify bacterial cell-wall synthesis as the process inhibited by beta-lactam antibiotics. Recognise the shared cell-wall-synthesis mechanism of penicillins and cephalosporins.
+Identify bacterial cell-wall synthesis as the process inhibited by beta-lactam antibiotics. Recognise the shared cell-wall-synthesis mechanism of penicillins and cephalosporins. Identify bacterial cell-wall synthesis as the beta-lactam target process.
 
 ## pitfalls
-Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis. The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck.
+Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis. The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck. The governed mechanism does not assign beta-lactams DNA, folate or RNA-polymerase inhibition.
 
 ## concept_type
 mechanism
@@ -3379,6 +3379,7 @@ MUST_Y1=0.45
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-PHARM-Q126-01
 CLM-INF-MUST-FHB1022-PHARM-Q149-01
+CLM-INF-MUST-FHB1022-PHARM2-Q25-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3389,12 +3390,15 @@ concept_94077f144bd452aeaa123adf
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38 Pharmacology Q6; printed answer p45
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p44 Pharmacology Q29; printed answer p45
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p54 Pharmacology Q25; printed answer p56
 src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p30 direct MUST teaching
 src_875c205531a585cd5b91 | tier 1 local teaching | p6, 8 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p26 direct MUST teaching
 
 ## original_wording
 Beta-lactam antibiotics work by inhibiting: Printed key D; options retained in their original order.
 Which of the following statements is true about cephalosporins and penicillins? Printed key C; options retained in their original order.
+What is the primary function of beta-lactam antibiotics? Printed key B; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -3402,9 +3406,10 @@ Which of the following statements is true about cephalosporins and penicillins? 
 ## rejected_merge_candidate_ids
 concept_94077f144bd452aeaa123adf
 concept_94077f144bd452aeaa123adf
+concept_77cf288624b1c088ade0ab9d
 
 ## conflicts
-No key conflict affects authored Pharmacology Q6; printed D agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q29; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q6; printed D agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q29; printed C agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q25; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -3445,7 +3450,7 @@ approvedFileResourceIds: Neither local PDF has been rights-cleared for student d
 approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: Raw candidate concept_94077f144bd452aeaa123adf was retained as provenance but did not replace this narrower governed identity.
-rejectedMergeCandidateIds: concept_94077f144bd452aeaa123adf — broad raw beta-lactam mechanism candidate retained as lineage rather than imported as a governed record. concept_94077f144bd452aeaa123adf — broad raw mechanism candidate retained as lineage rather than imported.
+rejectedMergeCandidateIds: concept_94077f144bd452aeaa123adf — broad raw beta-lactam mechanism candidate retained as lineage rather than imported as a governed record. concept_94077f144bd452aeaa123adf — broad raw mechanism candidate retained as lineage rather than imported. concept_77cf288624b1c088ade0ab9d — exact raw extraction is retained as lineage but is not an import-ready governed concept record.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
@@ -3654,13 +3659,13 @@ Glycopeptide cell-wall inhibitor
 [clear]
 
 ## definition
-Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.
+Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams. Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups. Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.
 
 ## explicit_objective
-Distinguish vancomycin from the beta-lactam groups in the option set.
+Distinguish vancomycin from the beta-lactam groups in the option set. Distinguish vancomycin from the offered beta-lactam groups. Identify vancomycin as the only non-beta-lactam in the offered set.
 
 ## pitfalls
-Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification.
+Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification. Cephalosporins, carbapenems and monobactams belong to the beta-lactam classification in the governed deck. Cefazolin, imipenem and aztreonam represent beta-lactam groups in the governed classification.
 
 ## concept_type
 classification
@@ -3743,6 +3748,8 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-PHARM-Q128-01
+CLM-INF-MUST-FHB1022-PHARM2-Q19-01
+CLM-INF-MUST-FHB1022-PHARM2-Q24-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3752,10 +3759,16 @@ CLM-INF-MUST-FHB1022-PHARM-Q128-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38–39 Pharmacology Q8; printed answer p45
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p52 Pharmacology Q19; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p54 Pharmacology Q24; printed answer p56
 src_875c205531a585cd5b91 | tier 1 local teaching | p6 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p18, 25 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p18, 25 direct MUST teaching
 
 ## original_wording
 Which of the following drugs is NOT a beta-lactam? Printed key C; options retained in their original order.
+Beta-lactam antibiotics include all EXCEPT: Printed key C; options retained in their original order.
+Which antibiotic is NOT a beta-lactam? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -3764,7 +3777,7 @@ Which of the following drugs is NOT a beta-lactam? Printed key C; options retain
 concept_1add06a78a1c70b54159a262
 
 ## conflicts
-No key conflict affects authored Pharmacology Q8; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q8; printed C agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q19; printed C agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q24; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -5282,13 +5295,13 @@ Glycopeptide precursor binding
 [clear]
 
 ## definition
-Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
+Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors. Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.
 
 ## explicit_objective
-Identify vancomycin from its D-Ala-D-Ala binding mechanism.
+Identify vancomycin from its D-Ala-D-Ala binding mechanism. Identify inhibition of peptidoglycan synthesis as vancomycin action.
 
 ## pitfalls
-Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides.
+Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides. The governed slide does not assign vancomycin ribosomal inhibition, membrane-permeability alteration or DNA-gyrase inhibition.
 
 ## concept_type
 mechanism
@@ -5371,6 +5384,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-PHARM-Q137-01
+CLM-INF-MUST-FHB1022-PHARM2-Q14-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5380,10 +5394,13 @@ CLM-INF-MUST-FHB1022-PHARM-Q137-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q17; printed answer p45
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p51 Pharmacology Q14; printed answer p56
 src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p32 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p26 direct MUST teaching
 
 ## original_wording
 Which antibiotic binds to the D-alanyl-D-alanyl portion of peptidoglycan precursors? Printed key B; options retained in their original order.
+What is the mechanism of action of vancomycin? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -5392,7 +5409,7 @@ Which antibiotic binds to the D-alanyl-D-alanyl portion of peptidoglycan precurs
 [clear]
 
 ## conflicts
-No key conflict affects authored Pharmacology Q17; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q17; printed B agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q14; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -10911,6 +10928,1850 @@ approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
 rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-FB70E1C8BC4339
+
+## label
+Cefazolin is a first-generation cephalosporin
+
+## canonical_key
+pharmacology.cephalosporins.first-generation-cefazolin
+
+## aliases
+Cefazolin generation
+First-generation cefazolin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cefazolin is a first-generation cephalosporin.
+
+## explicit_objective
+Classify cefazolin as a first-generation cephalosporin.
+
+## pitfalls
+Cefuroxime is second generation, ceftriaxone is third generation and ceftaroline is fifth generation in the governed deck.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+First-generation cephalosporins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > First-generation cephalosporins
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q1-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p48 Pharmacology Q1; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p7 direct MUST teaching
+
+## original_wording
+Which of the following is a first-generation cephalosporin? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Pharmacology Q1; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-9A9E7DD547B182
+
+## label
+Cefaclor is a second-generation cephalosporin
+
+## canonical_key
+pharmacology.cephalosporins.second-generation-cefaclor
+
+## aliases
+Cefaclor generation
+Second-generation cefaclor
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.
+
+## explicit_objective
+Identify cefaclor as the offered second-generation cephalosporin with the stated mixed spectrum.
+
+## pitfalls
+Cefazolin is first generation, cefotaxime is third generation and cefepime is fourth generation.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Second-generation cephalosporins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Second-generation cephalosporins
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q3-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p48 Pharmacology Q3; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p8 direct MUST teaching
+
+## original_wording
+Which second-generation cephalosporin is active against both Gram-positive cocci and some Gram-negative bacilli? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Pharmacology Q3; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-7B464634F09F46
+
+## label
+Cefepime is used empirically for serious nosocomial infection
+
+## canonical_key
+pharmacology.cephalosporins.fourth-generation-cefepime
+
+## aliases
+Fourth-generation cefepime
+Cefepime nosocomial use
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.
+
+## explicit_objective
+Recognise serious hospital-acquired infection as the governed cefepime use.
+
+## pitfalls
+The deck does not assign cefepime to mild skin infection, community-acquired pneumonia or tuberculosis.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Fourth-generation cephalosporins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Fourth-generation cephalosporins
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q5-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p49 Pharmacology Q5; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p10 direct MUST teaching
+
+## original_wording
+Fourth-generation cephalosporins like cefepime are mainly used for: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Pharmacology Q5; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-71B43C95050406
+
+## label
+Ceftaroline is a fifth-generation cephalosporin active against MRSA
+
+## canonical_key
+pharmacology.cephalosporins.fifth-generation-ceftaroline-mrsa
+
+## aliases
+Ceftaroline MRSA activity
+Fifth-generation ceftaroline
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.
+
+## explicit_objective
+Identify ceftaroline as the offered cephalosporin active against MRSA.
+
+## pitfalls
+The governed deck does not assign the offered earlier-generation agents this MRSA role.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Fifth-generation cephalosporins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Fifth-generation cephalosporins
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q6-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_3dac886699724745f861bfc5
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p49 Pharmacology Q6; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p13 direct MUST teaching
+
+## original_wording
+Which cephalosporin is effective against MRSA? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_3dac886699724745f861bfc5
+
+## conflicts
+No key conflict affects authored Pharmacology Q6; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_3dac886699724745f861bfc5 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_3dac886699724745f861bfc5 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-4B65EC8F5C6C30
+
+## label
+Aztreonam is an aerobic Gram-negative monobactam without beta-lactam cross-allergy
+
+## canonical_key
+pharmacology.monobactams.aztreonam-profile
+
+## aliases
+Aztreonam profile
+Monobactam aztreonam
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Aztreonam is a monobactam antibiotic. Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms. Aztreonam is relatively nontoxic and lacks the nephrotoxicity associated with aminoglycosides. Aztreonam has no cross-allergy with other beta-lactam antibiotics in the governed teaching. Aztreonam can be used without beta-lactam cross-allergy in the governed comparison.
+
+## explicit_objective
+Identify aztreonam as the monobactam among the offered drugs. Identify aerobic Gram-negative bacilli as the governed monobactam spectrum. Identify lack of nephrotoxicity as the offered advantage over aminoglycosides. Identify aztreonam as the offered beta-lactam with minimal cross-allergy risk. Select aztreonam for the offered penicillin-allergy context.
+
+## pitfalls
+Ceftriaxone is a cephalosporin, meropenem is a carbapenem and vancomycin is a non-beta-lactam glycopeptide. The slide does not assign aztreonam primary Gram-positive, anaerobic or fungal activity. Aztreonam is not selected here for MRSA activity, beta-lactamase production or protein-synthesis inhibition. The deck explicitly assigns the no-cross-allergy advantage to aztreonam. The governed no-cross-allergy statement belongs specifically to aztreonam among these options.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Aztreonam
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam
+
+## article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q8-01
+CLM-INF-MUST-FHB1022-PHARM2-Q9-01
+CLM-INF-MUST-FHB1022-PHARM2-Q10-01
+CLM-INF-MUST-FHB1022-PHARM2-Q21-01
+CLM-INF-MUST-FHB1022-PHARM2-Q23-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_be9951c4f6e42dcf27a24b85
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p50 Pharmacology Q8; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p50 Pharmacology Q9; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p50 Pharmacology Q10; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p53 Pharmacology Q21; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p53 Pharmacology Q23; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p18, 24 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p24 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p24 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p24 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p24 direct MUST teaching
+
+## original_wording
+Which of the following is a monobactam antibiotic? Printed key B; options retained in their original order.
+Monobactams are primarily effective against: Printed key C; options retained in their original order.
+Monobactams are considered an alternative to aminoglycosides because of their: Printed key B; options retained in their original order.
+Which beta-lactam has minimal risk of allergic reactions? Printed key B; options retained in their original order.
+Which antibiotic can be safely given to patients with a history of penicillin allergy? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_be9951c4f6e42dcf27a24b85
+concept_7eb8fe997f9e9511d2e86baa
+
+## conflicts
+No key conflict affects authored Pharmacology Q8; printed B agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q9; printed C agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q10; printed B agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q21; printed B agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q23; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_be9951c4f6e42dcf27a24b85 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_be9951c4f6e42dcf27a24b85 — exact raw extraction is retained as lineage but is not an import-ready governed concept record. concept_7eb8fe997f9e9511d2e86baa — overlapping raw aztreonam profile is retained as lineage but is not an import-ready governed concept record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-986A7758AADF33
+
+## label
+Imipenem is a broad-spectrum carbapenem combined with cilastatin
+
+## canonical_key
+pharmacology.carbapenems.imipenem-spectrum-cilastatin
+
+## aliases
+Imipenem cilastatin
+Carbapenem spectrum
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Imipenem is combined with cilastatin to inhibit renal dipeptidase. Carbapenems cover Gram-positive and Gram-negative organisms, including anaerobes.
+
+## explicit_objective
+Identify imipenem as the carbapenem paired with cilastatin. Recognise the broad bacterial and anaerobic spectrum of carbapenems.
+
+## pitfalls
+The deck explicitly states that meropenem does not require cilastatin; the other options are not the governed pair. The governed spectrum is not restricted to one Gram group and does not include fungi.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Carbapenems
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Carbapenems
+
+## article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q11-01
+CLM-INF-MUST-FHB1022-PHARM2-Q12-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_99b7d0d51903a771d753f386
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p50 Pharmacology Q11; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p50 Pharmacology Q12; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p19–20 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p19 direct MUST teaching
+
+## original_wording
+Which carbapenem is combined with cilastatin to prevent its breakdown in the kidneys? Printed key C; options retained in their original order.
+Carbapenems are known for their broad spectrum of activity against: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_99b7d0d51903a771d753f386
+concept_58a1f480f0d4d45284eec26d
+
+## conflicts
+No key conflict affects authored Pharmacology Q11; printed C agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q12; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_99b7d0d51903a771d753f386 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_99b7d0d51903a771d753f386 — broad raw extraction is retained as lineage but is not an import-ready governed concept record. concept_58a1f480f0d4d45284eec26d — exact raw extraction is retained as lineage but is not an import-ready governed concept record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-24E2225E607D87
+
+## label
+Clindamycin can cause pseudomembranous colitis
+
+## canonical_key
+pharmacology.clindamycin.pseudomembranous-colitis
+
+## aliases
+Clindamycin-associated colitis
+Clindamycin CDAD risk
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Clindamycin is a prominent cause of drug-induced pseudomembranous colitis associated with Clostridium difficile.
+
+## explicit_objective
+Identify clindamycin as the offered drug associated with CDAD.
+
+## pitfalls
+Vancomycin and metronidazole are listed as treatment; cholestyramine binds toxins rather than being the inciting antibiotic.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Drug-induced pseudomembranous colitis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Drug-induced pseudomembranous colitis
+
+## article_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q13-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p51 Pharmacology Q13; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p29 direct MUST teaching
+
+## original_wording
+Clostridium difficile-associated diarrhea (CDAD) is commonly caused by: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Pharmacology Q13; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-060E72B7954D75
+
+## label
+Vancomycin is active against Gram-positive organisms including MRSA
+
+## canonical_key
+pharmacology.vancomycin.gram-positive-mrsa
+
+## aliases
+Vancomycin Gram-positive spectrum
+Vancomycin MRSA use
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Vancomycin is primarily active against Gram-positive organisms. Vancomycin is used for resistant Gram-positive staphylococcal infection including MRSA.
+
+## explicit_objective
+Identify Gram-positive bacteria as the primary vancomycin spectrum. Select vancomycin for the offered resistant Gram-positive and MRSA profile.
+
+## pitfalls
+The governed spectrum does not assign primary Gram-negative, fungal or viral activity. The governed slide does not assign the same MRSA role to cefuroxime, aztreonam or imipenem in this option set.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin spectrum and uses
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin spectrum and uses
+
+## article_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q15-01
+CLM-INF-MUST-FHB1022-PHARM2-Q20-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p51 Pharmacology Q15; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p52 Pharmacology Q20; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p27 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p27 direct MUST teaching
+
+## original_wording
+Vancomycin is primarily active against: Printed key B; options retained in their original order.
+Which antibiotic is effective against multi-drug resistant Gram-positive organisms, including MRSA? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_28446335a5e8351d0759ed23
+
+## conflicts
+No key conflict affects authored Pharmacology Q15; printed B agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q20; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_28446335a5e8351d0759ed23 — overlapping raw drug-profile extraction is retained as lineage but is not an import-ready governed concept record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-57B07058C89DE0
+
+## label
+Metronidazole or oral vancomycin treats pseudomembranous colitis
+
+## canonical_key
+pharmacology.c-difficile.metronidazole-oral-vancomycin
+
+## aliases
+C. difficile colitis treatment
+Oral vancomycin for pseudomembranous colitis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Oral vancomycin acts locally in pseudomembranous colitis caused by Clostridium difficile. Metronidazole is a listed treatment for Clostridium difficile-associated pseudomembranous colitis.
+
+## explicit_objective
+Identify C. difficile infection as the governed oral-vancomycin use. Select metronidazole from the offered drugs for C. difficile-associated diarrhea.
+
+## pitfalls
+The deck does not assign oral vancomycin to tuberculosis, Pseudomonas infection or gonorrhea. Amoxicillin, cephalexin and ceftriaxone are not the treatments listed on the governed colitis slide.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Pseudomembranous colitis treatment
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Pseudomembranous colitis treatment
+
+## article_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q16-01
+CLM-INF-MUST-FHB1022-PHARM2-Q30-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p51 Pharmacology Q16; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p55 Pharmacology Q30; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p27–29 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p29 direct MUST teaching
+
+## original_wording
+Oral vancomycin is used to treat: Printed key C; options retained in their original order.
+Clostridium difficile-associated diarrhea is commonly treated with: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Pharmacology Q16; printed C agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q30; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-D169E8142D077D
+
+## label
+Slow infusion and antihistamine pretreatment prevent vancomycin red man syndrome
+
+## canonical_key
+pharmacology.vancomycin.red-man-prevention
+
+## aliases
+Vancomycin infusion reaction
+Red man syndrome prevention
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Rapid vancomycin infusion is associated with histamine-mediated red man syndrome. Antihistamine pretreatment helps prevent vancomycin red man syndrome.
+
+## explicit_objective
+Recognise red man syndrome as the rapid-infusion reaction to vancomycin. Identify antihistamines as the governed premedication for red man syndrome.
+
+## pitfalls
+The governed rapid-infusion association is red man syndrome, not the other offered reactions. The deck does not name acetaminophen, NSAIDs or corticosteroids for this prevention step.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin adverse effects
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin adverse effects
+
+## article_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_060e284322ddf8fdf92c
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM2-Q17-01
+CLM-INF-MUST-FHB1022-PHARM2-Q27-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_2f8f468f2f638b724ef53978
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p51 Pharmacology Q17; printed answer p56
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p54 Pharmacology Q27; printed answer p56
+src_060e284322ddf8fdf92c | tier 1 local teaching | p30 direct MUST teaching
+src_060e284322ddf8fdf92c | tier 1 local teaching | p30 direct MUST teaching
+
+## original_wording
+Rapid intravenous infusion of vancomycin can cause: Printed key B; options retained in their original order.
+Which premedication can prevent red man syndrome? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_2f8f468f2f638b724ef53978
+
+## conflicts
+No key conflict affects authored Pharmacology Q17; printed B agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q27; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_2f8f468f2f638b724ef53978 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_2f8f468f2f638b724ef53978 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
