@@ -108,3 +108,25 @@ test('ocr fills in text for a scanned page, marks it ocr=yes, and show/index ref
   const md = readFileSync(outFile, 'utf8');
   assert.match(md, /scanned-page\.pdf \| 1 \| \d+ \| \d+ \| 1 \|/);
 });
+
+test('grep on a pdf finds a single matching line and reports the page', () => {
+  const r = run('grep', PDF, 'beta');
+  assert.equal(r.status, 0, r.stderr);
+  const matches = r.stdout.split('\n').filter((l) => l.includes(`${PDF} p2: `) && l.includes('PAGE TWO beta'));
+  assert.equal(matches.length, 1, r.stdout);
+  assert.match(r.stdout, /^1 hit\(s\) in 2 page\(s\) across 1 file\(s\)$/m);
+});
+
+test('grep with no matches prints the 0-hit summary and exits 1', () => {
+  const r = run('grep', PDF, 'zzzz');
+  assert.equal(r.status, 1, r.stderr);
+  assert.match(r.stdout, /^0 hit\(s\) in 2 page\(s\) across 1 file\(s\)$/m);
+});
+
+test('grep on a directory walks all pdfs and reports the two-page fixture', () => {
+  const r = run('grep', path.dirname(PDF), 'PAGE');
+  assert.equal(r.status, 0, r.stderr);
+  const lines = r.stdout.split('\n').filter((l) => / p\d+: /.test(l));
+  assert.ok(lines.length >= 2, r.stdout);
+  assert.ok(lines.some((l) => l.includes('two-pages.pdf')), r.stdout);
+});
