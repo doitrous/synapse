@@ -15,9 +15,6 @@ Functional residual capacity is measured by helium dilution
 ## modules
 +AU-MED-106
 
-## module_subject
-AU-MED-106 > Physiology > Pulmonary function testing > Closed-circuit (helium-dilution) FRC
-
 ## field_notes
 microtopicId: The canonical placement is already at microtopic depth; a university-overlay microtopic would restate the same location less precisely.
 nanotopicId: The respiratory curriculum overlay defines no nanotopic nodes for this cluster, so there is nothing to point at.
@@ -43,9 +40,6 @@ ECG manifestations of atrioventricular block
 
 ## modules
 +AU-MED-106
-
-## module_subject
-AU-MED-106 > Physiology > Cardiac electrophysiology > PR interval and AV conduction
 
 ## field_notes
 microtopicId: The canonical placement is already at microtopic depth; a university-overlay microtopic would restate the same location less precisely.
@@ -73,9 +67,6 @@ Determinants of mean arterial pressure
 ## modules
 +AU-MED-106
 
-## module_subject
-AU-MED-106 > Physiology > Blood pressure > Mean arterial pressure
-
 ## field_notes
 microtopicId: The canonical placement is already at microtopic depth; a university-overlay microtopic would restate the same location less precisely.
 nanotopicId: The respiratory curriculum overlay defines no nanotopic nodes for this cluster, so there is nothing to point at.
@@ -102,9 +93,6 @@ No Korotkoff sounds above systolic pressure
 ## modules
 +AU-MED-106
 
-## module_subject
-AU-MED-106 > Physiology > Blood pressure measurement > Korotkoff sounds
-
 ## field_notes
 microtopicId: The canonical placement is already at microtopic depth; a university-overlay microtopic would restate the same location less precisely.
 nanotopicId: The respiratory curriculum overlay defines no nanotopic nodes for this cluster, so there is nothing to point at.
@@ -130,9 +118,6 @@ Absence of discrete P waves in atrial fibrillation
 
 ## modules
 +AU-MED-106
-
-## module_subject
-AU-MED-106 > Physiology > Cardiac arrhythmias > Atrial fibrillation
 
 ## field_notes
 microtopicId: The canonical placement is already at microtopic depth; a university-overlay microtopic would restate the same location less precisely.

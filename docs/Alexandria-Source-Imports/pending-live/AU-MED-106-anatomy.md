@@ -9,8 +9,14 @@ The posterior intercostal veins end differently on the two sides: on the right d
 ## universities
 +au
 
+## learner_years
++1
+
 ## modules
 +AU-MED-106
+
+## exam_weight_by_year
+AU_Y1=0.5
 
 ## field_notes
 au_scope: AU-MED-106's practical bank (`src_fd99441a68dba7938dc2`/twin, ink-key confirmed 200 dpi, page 28) tests exactly this claim — a labelled posterior intercostal/azygos-tributary image, confirmed key D = left superior intercostal vein, matching this record's own statement that the left side drains through the (superior/inferior) hemiazygos route rather than directly into the azygos vein as the right side does. Straight match, no scope difference — sparse update only.
