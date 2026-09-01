@@ -72,6 +72,10 @@ function buildRow(seed, question) {
   const { lane, cluster, defaults } = seed;
   const key = question.key;
 
+  // Per-question value always overrides the seed-wide default; `??` means an
+  // explicit `null` in the question also falls through to the default.
+  const ov = (field) => question[field] ?? defaults[field];
+
   const options = question.options ?? {};
   const letters = OPTION_LETTERS.filter((l) => l in options);
   if (letters.length < 4 || letters.length > 5) {
@@ -100,55 +104,57 @@ function buildRow(seed, question) {
     die(`${key}: explanation for correct answer ${correct} has ${n} sentence${n === 1 ? '' : 's'} (need >= 3)`);
   }
 
-  const setting = question.setting ?? defaults.setting ?? 'Both';
+  const setting = ov('setting') ?? 'Both';
   const relevance = SETTING_RELEVANCE[setting] ?? SETTING_RELEVANCE.Both;
-  const cognitiveEffort = question.cognitive_effort ?? defaults.cognitive_effort ?? 'Medium';
-  const difficulty = question.difficulty ?? defaults.difficulty ?? 'Moderate';
+  const cognitiveEffort = ov('cognitive_effort') ?? 'Medium';
+  const difficulty = ov('difficulty') ?? 'Moderate';
 
-  const sourceCitation = (defaults.source_citation ?? '').replace('{page}', question.page ?? '');
+  const citationTemplate = ov('source_citation') ?? '';
+  const page = question.page ?? defaults.page ?? '';
+  const sourceCitation = citationTemplate.replace('{page}', page);
 
   const fieldNotesText = serializeFieldNotes(question.field_notes);
   const authorNotes = [fieldNotesText, question.author_notes ?? ''].filter((s) => s.trim()).join('\n');
 
   const row = {
     id: question.id?.trim() || defaultId(lane, cluster, key),
-    title: question.title ?? '',
-    question: question.question ?? '',
-    subject: question.subject ?? defaults.subject ?? '',
-    status: question.status ?? defaults.status ?? 'Draft',
-    owner: question.owner ?? defaults.owner ?? '',
-    vignette: question.vignette ?? '',
+    title: ov('title') ?? '',
+    question: ov('question') ?? '',
+    subject: ov('subject') ?? '',
+    status: ov('status') ?? 'Draft',
+    owner: ov('owner') ?? '',
+    vignette: ov('vignette') ?? '',
     correct_answer: correct,
-    topic: question.topic ?? '',
-    subtopic: question.subtopic ?? '',
-    main_concept: question.main_concept ?? '',
-    concept_ids: pipeJoin(question.concept_ids),
-    contextual_concept_ids: pipeJoin(question.contextual_concept_ids),
+    topic: ov('topic') ?? '',
+    subtopic: ov('subtopic') ?? '',
+    main_concept: ov('main_concept') ?? '',
+    concept_ids: pipeJoin(ov('concept_ids')),
+    contextual_concept_ids: pipeJoin(ov('contextual_concept_ids')),
     difficulty,
-    question_type: question.question_type ?? '',
+    question_type: ov('question_type') ?? '',
     cognitive_effort: cognitiveEffort,
-    cognitive_effort_score: String(question.cognitive_effort_score ?? COGNITIVE_EFFORT_SCORE[cognitiveEffort] ?? 0.5),
+    cognitive_effort_score: String(ov('cognitive_effort_score') ?? COGNITIVE_EFFORT_SCORE[cognitiveEffort] ?? 0.5),
     setting,
-    reasoning_level: String(question.reasoning_level ?? 2),
-    inferred_difficulty: String(question.inferred_difficulty ?? INFERRED_DIFFICULTY[difficulty] ?? 50),
-    exam_relevance: String(question.exam_relevance ?? 5),
-    clinical_relevance: String(question.clinical_relevance ?? relevance.clinical),
-    academic_relevance: String(question.academic_relevance ?? relevance.academic),
-    exam_weight_by_year: serializeWeightMap(defaults.exam_weight_by_year),
-    years: pipeJoin(defaults.years),
-    universities: pipeJoin(defaults.universities),
-    module: defaults.module ?? '',
-    module_subject: defaults.module_subject ?? '',
-    question_only_for: defaults.question_only_for ?? '',
-    library_ids: pipeJoin(defaults.library_ids),
-    resource_ids: pipeJoin(defaults.resource_ids),
-    learning_objective: question.learning_objective ?? '',
+    reasoning_level: String(ov('reasoning_level') ?? 2),
+    inferred_difficulty: String(ov('inferred_difficulty') ?? INFERRED_DIFFICULTY[difficulty] ?? 50),
+    exam_relevance: String(ov('exam_relevance') ?? 5),
+    clinical_relevance: String(ov('clinical_relevance') ?? relevance.clinical),
+    academic_relevance: String(ov('academic_relevance') ?? relevance.academic),
+    exam_weight_by_year: serializeWeightMap(ov('exam_weight_by_year')),
+    years: pipeJoin(ov('years')),
+    universities: pipeJoin(ov('universities')),
+    module: ov('module') ?? '',
+    module_subject: ov('module_subject') ?? '',
+    question_only_for: ov('question_only_for') ?? '',
+    library_ids: pipeJoin(ov('library_ids')),
+    resource_ids: pipeJoin(ov('resource_ids')),
+    learning_objective: ov('learning_objective') ?? '',
     source_citation: sourceCitation,
     attached_image: '',
     attachments: '',
-    media_recommendations: question.media_recommendations ?? '',
-    estimated_seconds: String(question.estimated_seconds ?? defaults.estimated_seconds ?? 60),
-    randomise_answers: (question.randomise_answers ?? defaults.randomise_answers ?? true) ? 'yes' : 'no',
+    media_recommendations: ov('media_recommendations') ?? '',
+    estimated_seconds: String(ov('estimated_seconds') ?? 60),
+    randomise_answers: (ov('randomise_answers') ?? true) ? 'yes' : 'no',
     author_notes: authorNotes,
   };
 
