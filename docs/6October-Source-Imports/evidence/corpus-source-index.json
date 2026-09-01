@@ -1,0 +1,20 @@
+{
+ "note": "O6U's own per-root corpus source index, mirroring the shape scripts/asu/build-source-index.ts and scripts/kasr's equivalent write into their own roots (validate-content-batch.mjs looks for one corpus-source-index.json beside the file being validated: dirname(dirname(file))/evidence/corpus-source-index.json). No scripts/o6u/ toolchain exists yet, so this is hand-written from docs/6October-Source-Imports/manifest/y1-sources.json rather than generated — the two src_ ids below are the first 20 hex characters of each PDF's sha256 from that manifest, the same minting convention docs/Ain-Shams-Source-Imports/manifest/asu-y1-sources.json uses for its own sourceId field (verified: src_1742646cadab6ed53c61 there is exactly sha256.slice(0,20) of that file). Neither PDF has been through the corpus/01-explicitly-taught extraction pipeline scripts/build-corpus-source-index.mjs reads (docs/medical-library-program/evidence/corpus-source-index.json has 267 entries, 0 matching 'bos 101' — checked 2026-09-02), so this index exists purely so O6U's own evidence-source records for these two PDFs pass the same-folder src_ existence check.",
+ "count": 2,
+ "sources": {
+  "src_488991ba0ec25addc3c8": {
+   "sourceRelativePath": "Year 1/IBS-IBF/_Telegram O6U Med Bot/mid module BOS 101 module 1 october.pdf",
+   "sha256": "488991ba0ec25addc3c89f943e24b2ff89f1fd52b881c6e9f0b266ebf648fe93",
+   "processingStatus": "native_text",
+   "pageCount": 9,
+   "languages": ["en"]
+  },
+  "src_79aa36cff3c93cfd5dcb": {
+   "sourceRelativePath": "Year 1/IBS-IBF/_Telegram O6U Med Bot/mid module BOS 101 module 2.pdf",
+   "sha256": "79aa36cff3c93cfd5dcb280325b6bb141ee2c7a238a1ba3b429386ac2fbeee5c",
+   "processingStatus": "native_text",
+   "pageCount": 9,
+   "languages": ["en"]
+  }
+ }
+}
