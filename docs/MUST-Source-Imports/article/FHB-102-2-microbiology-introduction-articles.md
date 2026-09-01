@@ -207,7 +207,7 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 Introduction to Microbiology and Bacterial Cell Structure deck, visually read on exact cited pages.
-Absalam101 Part 1 revision bank, visually read on prompt pages 19–26 and printed-answer page 27.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
@@ -222,7 +222,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-First and second bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -458,7 +458,7 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 Introduction to Microbiology and Bacterial Cell Structure deck, visually read on exact cited pages.
-Absalam101 Part 1 revision bank, visually read on prompt pages 19–26 and printed-answer page 27.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
@@ -473,7 +473,515 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-First and second bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## title
+Colonization, carriage and opportunistic disease
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Colonization and carrier states
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Colonization and carrier states
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Colonization and carrier states
+
+## summary
+The official MUST Chapter 6 teaching distinguishes colonization without clinical infection from asymptomatic carrier-state shedding and explains how normally harmless flora can become opportunistic pathogens after habitat change, broad-spectrum antimicrobial disruption or weakened host defenses.
+
+## sections
+### Definition
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or when it moves from its normal habitat. Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection. In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+
+### Mechanism
+Normal flora remain harmless in their usual niche while host defenses and the microbial community remain intact. A habitat change can place organisms in a vulnerable site; broad-spectrum antimicrobials can disrupt protective flora; and weak host immunity can permit organisms of otherwise limited pathogenicity to cause harm.
+
+Normal flora may produce harmful effects when host resistance is lowered or organisms move from their normal habitat. Harmful effects may follow a change in natural habitat, broad-spectrum antimicrobial use or lowered host resistance.
+
+### Key determinants
+Colonization is defined by establishment without clinical infection. Carrier state is defined by absent apparent symptoms despite possible organism shedding. Opportunism is defined by disease emerging under permissive host or habitat conditions rather than by obligatory pathogenicity.
+
+Carrier state: no apparent symptoms, but organisms may shed.
+
+### Clinical significance
+An asymptomatic carrier can still transmit an organism through shedding. Likewise, disturbing normal flora or host resistance can convert a previously harmless relationship into clinically important infection risk.
+
+### Common misconceptions
+Do not equate colonization with infectious disease: the governed deck lists elimination or incorporation into resident flora as colonization outcomes and treats infection as a separate branch. Do not treat carrier state as complete microbial elimination, and do not call every commensal relationship opportunistic disease.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes.
+Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity.
+Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.
+In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+
+## lose_the_mark
+Obligate pathogens are not defined by conditional disease, commensal describes a relationship without harm, and parasitic describes benefit at the host’s expense rather than this conditional state.
+Each of the three listed conditions is supported, so selecting only one omits other governed causes and does not satisfy the all-of-the-above item.
+Infection, pathogenesis and invasion imply a different or later host–microbe state than the no-clinical-infection state defined here.
+Carrier state is not rapid symptomatic progression, complete microbial elimination or successful resistance without infection.
+
+## callout_evidence
+### An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q94-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q94-01
+Reviewed by: pending medical review
+
+### Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q95-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q95-01
+Reviewed by: pending medical review
+
+### Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q99-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q99-01
+Reviewed by: pending medical review
+
+### In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q102-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q102-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-17893AA3303251
+CON-INF-00A6805689B2B8
+CON-INF-EF7040395A6C7A
+CON-INF-C4C74A0874FF61
+
+## related_articles
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION: Virulence, immune evasion and iron acquisition
+
+## question_ids
+QST-MUST-FHB1022-MICRO-INTRO-Q94
+QST-MUST-FHB1022-MICRO-INTRO-Q95
+QST-MUST-FHB1022-MICRO-INTRO-Q99
+QST-MUST-FHB1022-MICRO-INTRO-Q102
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_e4b2f7ce3e55fad37c9a
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q94-01
+CLM-INF-MUST-FHB1022-MICRO-Q95-01
+CLM-INF-MUST-FHB1022-MICRO-Q99-01
+CLM-INF-MUST-FHB1022-MICRO-Q102-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MICRO-Q94-01
+SPN-INF-MUST-FHB1022-MICRO-Q95-01
+SPN-INF-MUST-FHB1022-MICRO-Q99-01
+SPN-INF-MUST-FHB1022-MICRO-Q102-01
+
+## university_notes
+must: Global Q94, Q95, Q99, Q102 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-17893AA3303251
+Quote: Normal flora may produce harmful effects when host resistance is lowered or organisms move from their normal habitat.
+Block: body
+Id: ann-must-fhb1022-micro-q94
+
+### definition_of · CON-INF-00A6805689B2B8
+Quote: Harmful effects may follow a change in natural habitat, broad-spectrum antimicrobial use or lowered host resistance.
+Block: body
+Id: ann-must-fhb1022-micro-q95
+
+### definition_of · CON-INF-EF7040395A6C7A
+Quote: Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.
+Block: body
+Id: ann-must-fhb1022-micro-q99
+
+### definition_of · CON-INF-C4C74A0874FF61
+Quote: Carrier state: no apparent symptoms, but organisms may shed.
+Block: body
+Id: ann-must-fhb1022-micro-q102
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 Host-Microbe Relationship deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## title
+Virulence, immune evasion and iron acquisition
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Virulence mechanisms
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Virulence mechanisms
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Virulence mechanisms
+
+## summary
+Virulence is the degree of pathogenicity. The official MUST Chapter 6 deck identifies adherence, resistance to host defenses, antigenic variation, iron competition and toxin-mediated damage as virulence capabilities, and directly teaches coagulase, leukocidin, Protein A and siderophores as mechanisms that protect bacteria or support growth in the host.
+
+## sections
+### Definition
+Virulence is the degree of pathogenicity of a microorganism. Virulence factors are positive capabilities that help bacteria adhere, invade, resist host immune defenses, survive, obtain nutrients or damage the host.
+
+Virulence is the degree of pathogenicity. Virulence factors include ability to adhere, resist host immune defense and damage host cells by toxins.
+
+### Mechanism
+Antigenic variation changes surface antigens to avoid immune destruction. Protein A is antiphagocytic; leukocidin destroys neutrophils and macrophages; and coagulase converts plasma fibrinogen to fibrin, depositing a protective fibrin layer around the organism. Bacteria also produce iron-chelating siderophores to capture iron sequestered by host iron-binding proteins.
+
+Protein A is antiphagocytic; coagulase protects organisms from phagocytes; leukocidin destroys neutrophils and macrophages. Bacteria obtain iron by producing iron chelators called siderophores. Coagulase converts fibrinogen in plasma to fibrin and protects the organism from phagocytes.
+
+### Key determinants
+Virulence measures degree, not simply presence in a host. Adherence, immune-defense resistance and toxin production are virulence capabilities, whereas inability to survive is not. Coagulase, leukocidin and Protein A all contribute to escape from phagocytosis by different mechanisms.
+
+### Clinical significance
+Immune evasion and nutrient acquisition allow bacteria to persist and multiply despite host defenses. Recognising the distinct mechanisms prevents a named enzyme, surface protein or chelator from being assigned the wrong function.
+
+### Common misconceptions
+Do not substitute antibiotic resistance, spore formation or tissue-degrading enzymes for antigenic variation. Do not confuse siderophores with pili, capsule or exotoxins. Hyaluronidase, collagenase and lecithinase do not perform coagulase's fibrinogen-to-fibrin reaction.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Virulence is the degree of pathogenicity of a microorganism.
+Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor.
+Antigenic variation enables bacteria to change surface antigens and avoid immune destruction.
+Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis.
+Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins.
+Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes.
+
+## lose_the_mark
+Intrahost residence, mutualism and inability to cause disease do not express the degree of pathogenicity.
+Adherence, immune-defense resistance and toxin production are each explicitly listed virulence capabilities; the negatively worded inability-to-survive option is not.
+Tissue-degrading enzymes, spore formation and antibiotic resistance are different mechanisms from immune evasion by changing surface antigens.
+All three named factors are supported, so selecting only one does not satisfy the all-of-the-above item.
+Pili, exotoxins and capsule are not the iron-chelating molecules named in the governed teaching.
+Hyaluronidase and collagenase spread through connective tissue, while lecithinase disrupts phospholipid membranes; none performs the fibrinogen-to-fibrin step.
+
+## callout_evidence
+### Virulence is the degree of pathogenicity of a microorganism.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q104-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q104-01
+Reviewed by: pending medical review
+
+### Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q105-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q105-01
+Reviewed by: pending medical review
+
+### Antigenic variation enables bacteria to change surface antigens and avoid immune destruction.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q110-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q110-01
+Reviewed by: pending medical review
+
+### Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q115-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q115-01
+Reviewed by: pending medical review
+
+### Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q116-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q116-01
+Reviewed by: pending medical review
+
+### Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q117-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q117-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-73DB8EF3A6C468
+CON-INF-7569E187E87C2C
+CON-INF-DC0BD5BA2F6A45
+CON-INF-D777E19C7E75DB
+CON-INF-650AF5666E18A2
+CON-INF-8C390C9DA26E6D
+
+## related_articles
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE: Colonization, carriage and opportunistic disease
+
+## question_ids
+QST-MUST-FHB1022-MICRO-INTRO-Q104
+QST-MUST-FHB1022-MICRO-INTRO-Q105
+QST-MUST-FHB1022-MICRO-INTRO-Q110
+QST-MUST-FHB1022-MICRO-INTRO-Q115
+QST-MUST-FHB1022-MICRO-INTRO-Q116
+QST-MUST-FHB1022-MICRO-INTRO-Q117
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_e4b2f7ce3e55fad37c9a
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q104-01
+CLM-INF-MUST-FHB1022-MICRO-Q105-01
+CLM-INF-MUST-FHB1022-MICRO-Q110-01
+CLM-INF-MUST-FHB1022-MICRO-Q115-01
+CLM-INF-MUST-FHB1022-MICRO-Q116-01
+CLM-INF-MUST-FHB1022-MICRO-Q117-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MICRO-Q104-01
+SPN-INF-MUST-FHB1022-MICRO-Q105-01
+SPN-INF-MUST-FHB1022-MICRO-Q110-01
+SPN-INF-MUST-FHB1022-MICRO-Q115-01
+SPN-INF-MUST-FHB1022-MICRO-Q116-01
+SPN-INF-MUST-FHB1022-MICRO-Q117-01
+
+## university_notes
+must: Global Q104, Q105, Q110, Q115, Q116, Q117 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-73DB8EF3A6C468
+Quote: Virulence is the degree of pathogenicity.
+Block: body
+Id: ann-must-fhb1022-micro-q104
+
+### definition_of · CON-INF-7569E187E87C2C
+Quote: Virulence factors include ability to adhere, resist host immune defense and damage host cells by toxins.
+Block: body
+Id: ann-must-fhb1022-micro-q105
+
+### definition_of · CON-INF-DC0BD5BA2F6A45
+Quote: Antigenic variation changes surface antigens to avoid immune destruction.
+Block: body
+Id: ann-must-fhb1022-micro-q110
+
+### definition_of · CON-INF-D777E19C7E75DB
+Quote: Protein A is antiphagocytic; coagulase protects organisms from phagocytes; leukocidin destroys neutrophils and macrophages.
+Block: body
+Id: ann-must-fhb1022-micro-q115
+
+### definition_of · CON-INF-650AF5666E18A2
+Quote: Bacteria obtain iron by producing iron chelators called siderophores.
+Block: body
+Id: ann-must-fhb1022-micro-q116
+
+### definition_of · CON-INF-8C390C9DA26E6D
+Quote: Coagulase converts fibrinogen in plasma to fibrin and protects the organism from phagocytes.
+Block: body
+Id: ann-must-fhb1022-micro-q117
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 Host-Microbe Relationship deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.

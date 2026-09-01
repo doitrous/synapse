@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 22,
+ "count": 23,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -510,6 +510,30 @@
    "categories": [
     "Midterm Exams",
     "MCQs"
+   ]
+  },
+  "src_e4b2f7ce3e55fad37c9a": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf"
+   ],
+   "sha256": "e4b2f7ce3e55fad37c9a588f1b1c0f015b1d261369ed59d45a3715c9ffe02f2d",
+   "processingStatus": "fully_governed",
+   "pageCount": 41,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
    ]
   },
   "src_f65b3872022ca0b42a79": {

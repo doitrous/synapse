@@ -195,3 +195,223 @@ CLM-INF-MUST-FHB1022-MICRO-Q90-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MICRO-Q90-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q94-01
+
+## article_id
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## section_id
+art-inf-must-fhb1022-colonization-carriage-definition
+
+## text
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q94-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q94-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q95-01
+
+## article_id
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## section_id
+art-inf-must-fhb1022-colonization-carriage-definition
+
+## text
+Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q95-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q95-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q99-01
+
+## article_id
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## section_id
+art-inf-must-fhb1022-colonization-carriage-definition
+
+## text
+Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q99-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q99-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q102-01
+
+## article_id
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## section_id
+art-inf-must-fhb1022-colonization-carriage-definition
+
+## text
+In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q102-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q102-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q104-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## section_id
+art-inf-must-fhb1022-virulence-evasion-definition
+
+## text
+Virulence is the degree of pathogenicity of a microorganism.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q104-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q104-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q105-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## section_id
+art-inf-must-fhb1022-virulence-evasion-definition
+
+## text
+Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q105-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q105-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q110-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## section_id
+art-inf-must-fhb1022-virulence-evasion-definition
+
+## text
+Antigenic variation enables bacteria to change surface antigens and avoid immune destruction.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q110-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q110-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q115-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## section_id
+art-inf-must-fhb1022-virulence-evasion-definition
+
+## text
+Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q115-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q115-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q116-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## section_id
+art-inf-must-fhb1022-virulence-evasion-definition
+
+## text
+Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q116-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q116-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q117-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## section_id
+art-inf-must-fhb1022-virulence-evasion-definition
+
+## text
+Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q117-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q117-01

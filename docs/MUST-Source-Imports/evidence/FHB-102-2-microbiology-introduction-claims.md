@@ -39,7 +39,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q2 (global Q62)
 
 ---
@@ -83,7 +83,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q3 (global Q63)
 
 ---
@@ -127,7 +127,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q4 (global Q64)
 
 ---
@@ -171,7 +171,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q5 (global Q65)
 
 ---
@@ -215,7 +215,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q6 (global Q66)
 
 ---
@@ -259,7 +259,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q7 (global Q67)
 
 ---
@@ -303,7 +303,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q25 (global Q85)
 
 ---
@@ -347,7 +347,7 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q28 (global Q88)
 
 ---
@@ -391,5 +391,445 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+curriculum: MUST FHB102-2 Microbiology
 source question: Absalam Microbiology Q30 (global Q90)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q94-01
+
+## concept_id
+CON-INF-17893AA3303251
+
+## subject
+An opportunistic pathogen causes disease under permissive host or habitat conditions
+
+## predicate
+states
+
+## object
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes.
+
+## display_text
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q4 (global Q94)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q95-01
+
+## concept_id
+CON-INF-00A6805689B2B8
+
+## subject
+Habitat change, broad-spectrum antibiotics and weak immunity can make normal flora harmful
+
+## predicate
+states
+
+## object
+Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity.
+
+## display_text
+Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q5 (global Q95)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q99-01
+
+## concept_id
+CON-INF-EF7040395A6C7A
+
+## subject
+Colonization is microbial establishment without clinical infection
+
+## predicate
+states
+
+## object
+Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.
+
+## display_text
+Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q9 (global Q99)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q102-01
+
+## concept_id
+CON-INF-C4C74A0874FF61
+
+## subject
+Carrier state permits asymptomatic pathogen shedding
+
+## predicate
+states
+
+## object
+In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+
+## display_text
+In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q12 (global Q102)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q104-01
+
+## concept_id
+CON-INF-73DB8EF3A6C468
+
+## subject
+Virulence is the degree of pathogenicity
+
+## predicate
+states
+
+## object
+Virulence is the degree of pathogenicity of a microorganism.
+
+## display_text
+Virulence is the degree of pathogenicity of a microorganism.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q14 (global Q104)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q105-01
+
+## concept_id
+CON-INF-7569E187E87C2C
+
+## subject
+Virulence factors support adherence, immune evasion, survival and host damage
+
+## predicate
+states
+
+## object
+Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor.
+
+## display_text
+Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q15 (global Q105)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q110-01
+
+## concept_id
+CON-INF-DC0BD5BA2F6A45
+
+## subject
+Antigenic variation changes surface antigens to evade immune destruction
+
+## predicate
+states
+
+## object
+Antigenic variation enables bacteria to change surface antigens and avoid immune destruction.
+
+## display_text
+Antigenic variation enables bacteria to change surface antigens and avoid immune destruction.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q20 (global Q110)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q115-01
+
+## concept_id
+CON-INF-D777E19C7E75DB
+
+## subject
+Coagulase, leukocidin and Protein A help bacteria escape phagocytosis
+
+## predicate
+states
+
+## object
+Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis.
+
+## display_text
+Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q25 (global Q115)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q116-01
+
+## concept_id
+CON-INF-650AF5666E18A2
+
+## subject
+Siderophores acquire host-sequestered iron for bacterial growth
+
+## predicate
+states
+
+## object
+Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins.
+
+## display_text
+Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q26 (global Q116)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q117-01
+
+## concept_id
+CON-INF-8C390C9DA26E6D
+
+## subject
+Coagulase converts fibrinogen to protective fibrin around bacteria
+
+## predicate
+states
+
+## object
+Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes.
+
+## display_text
+Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 6
+source question: Absalam Microbiology Chapter 6 Q27 (global Q117)

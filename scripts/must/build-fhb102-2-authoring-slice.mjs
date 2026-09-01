@@ -43,6 +43,7 @@ const bacterialGrowthResourceId = 'src_da7cc51e7ac1ee22c68a'
 const bacterialCellResourceId = 'src_88ddfa49fe01adee5444'
 const absalamAssessmentResourceId = 'src_4bd3b78f762673d7eb7f'
 const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
+const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
 
 const introArticles = {
   definitions: 'ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS',
@@ -430,11 +431,15 @@ const introItems = [
 const microArticles = {
   foundations: 'ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS',
   organisation: 'ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION',
+  colonizationCarriage: 'ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE',
+  virulenceEvasion: 'ART-INF-MUST-FHB1022-VIRULENCE-EVASION',
 }
 
 const microArticleRelations = {
   foundations: ['organisation'],
   organisation: ['foundations'],
+  colonizationCarriage: ['virulenceEvasion'],
+  virulenceEvasion: ['colonizationCarriage'],
 }
 
 const microItems = [
@@ -545,6 +550,142 @@ const microItems = [
     objective: 'Select the peptidoglycan layer as the source-level bacterial target of penicillin among the offered structures.',
     pitfalls: 'The governed teaching links penicillin to peptidoglycan synthesis rather than to ribosomes, plasmids or the cytoplasmic membrane; the literal option wording is preserved without expanding it into an uncited molecular-target claim.',
     rejected: ['concept_2ea5d75f7d95e485adc3d8ef — covers carbapenem-specific PBP binding and cell-wall inhibition, not the broader source-level penicillin prompt.'],
+  },
+  {
+    q: 94, bankQ: 4, conceptId: 'CON-INF-17893AA3303251', canonicalKey: 'microbiology.opportunism.opportunistic-pathogen-definition',
+    label: 'An opportunistic pathogen causes disease under permissive host or habitat conditions', aliases: ['Opportunistic pathogen definition', 'Normally non-disease-causing microorganism becoming pathogenic'], conceptType: 'definition',
+    article: 'colonizationCarriage', microtopic: 'Opportunistic pathogens', assessmentPage: '28–29', teachingPage: '7–8', teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'What is the term for a microorganism that normally does not cause disease but can do so under certain conditions?', key: 'A', options: ['Opportunistic pathogen', 'Obligate pathogen', 'Commensal microbe', 'Parasitic microbe'],
+    claim: 'An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes.',
+    annotationQuote: 'Normal flora may produce harmful effects when host resistance is lowered or organisms move from their normal habitat.',
+    support: 'The governed teaching identifies normally harmless flora becoming harmful after weakened host defenses or a change from their natural habitat.',
+    objective: 'Identify an opportunistic pathogen from the condition-dependent ability of a normally harmless microorganism to cause disease.',
+    pitfalls: 'Obligate pathogens are not defined by conditional disease, commensal describes a relationship without harm, and parasitic describes benefit at the host’s expense rather than this conditional state.',
+    rejected: [],
+  },
+  {
+    q: 95, bankQ: 5, conceptId: 'CON-INF-00A6805689B2B8', canonicalKey: 'microbiology.normal-flora.harmful-change-antibiotics-immunosuppression',
+    label: 'Habitat change, broad-spectrum antibiotics and weak immunity can make normal flora harmful', aliases: ['Harmful effects of normal flora', 'Conditions disrupting normal flora'], conceptType: 'risk factor',
+    article: 'colonizationCarriage', microtopic: 'Normal-flora disruption', assessmentPage: 29, teachingPage: '7–8', teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'Which factor can lead to harmful effects of normal flora?', key: 'D', options: ['Change in natural habitat', 'Use of broad-spectrum antibiotics', 'Weak immune system', 'All of the above'],
+    claim: 'Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity.',
+    annotationQuote: 'Harmful effects may follow a change in natural habitat, broad-spectrum antimicrobial use or lowered host resistance.',
+    support: 'The governed teaching lists habitat change, broad-spectrum antimicrobial use and weak host defenses as conditions under which normal flora may cause harm.',
+    objective: 'Recognise all three governed conditions that can turn normal flora into a source of harm.',
+    pitfalls: 'Each of the three listed conditions is supported, so selecting only one omits other governed causes and does not satisfy the all-of-the-above item.',
+    rejected: [],
+  },
+  {
+    q: 99, bankQ: 9, conceptId: 'CON-INF-EF7040395A6C7A', canonicalKey: 'microbiology.colonization.without-clinical-infection',
+    label: 'Colonization is microbial establishment without clinical infection', aliases: ['Colonization without disease', 'Microbial presence without clinical infection'], conceptType: 'definition',
+    article: 'colonizationCarriage', microtopic: 'Colonization', assessmentPage: 30, teachingPage: 14, teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'What is the term for the presence of microbes on a host without causing disease?', key: 'B', options: ['Infection', 'Colonization', 'Pathogenesis', 'Invasion'],
+    claim: 'Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.',
+    annotationQuote: 'Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.',
+    support: 'The governed teaching defines colonization as proliferating microorganisms established on skin or mucous membranes without clinical evidence of infection.',
+    objective: 'Identify colonization as microbial presence and proliferation without clinical disease.',
+    pitfalls: 'Infection, pathogenesis and invasion imply a different or later host–microbe state than the no-clinical-infection state defined here.',
+    sourceCandidates: ['concept_25930191933ec8ce06dbcc36'],
+    rejected: ['concept_25930191933ec8ce06dbcc36 — raw corpus wording supports the same fact and is retained as extraction lineage; it is not an import-ready concept record and does not replace the governed MUST identity.'],
+  },
+  {
+    q: 102, bankQ: 12, conceptId: 'CON-INF-C4C74A0874FF61', canonicalKey: 'microbiology.infection.carrier-state-asymptomatic-shedding',
+    label: 'Carrier state permits asymptomatic pathogen shedding', aliases: ['Asymptomatic carrier state', 'Pathogen shedding without symptoms'], conceptType: 'definition',
+    article: 'colonizationCarriage', microtopic: 'Carrier state', assessmentPage: 31, teachingPage: 16, teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'The carrier state refers to:', key: 'A', options: ['A state where the individual has no symptoms but still sheds pathogens', 'An infection that rapidly progresses to disease', 'The complete elimination of microbes from the body', 'The host resisting infection successfully'],
+    claim: 'In the carrier state an infected individual has no apparent symptoms but may shed the organism.',
+    annotationQuote: 'Carrier state: no apparent symptoms, but organisms may shed.',
+    support: 'The governed infection-outcomes slide defines the carrier state as no apparent symptoms while organisms may shed.',
+    objective: 'Recognise asymptomatic organism shedding as the defining carrier-state feature.',
+    pitfalls: 'Carrier state is not rapid symptomatic progression, complete microbial elimination or successful resistance without infection.',
+    sourceCandidates: ['concept_a2b4b11a538e270f6ec8c386'],
+    rejected: ['concept_4c87e58ab0ec70b18fc6482e — organism-specific asymptomatic cyst shedding is narrower than the general carrier-state identity.'],
+  },
+  {
+    q: 104, bankQ: 14, conceptId: 'CON-INF-73DB8EF3A6C468', canonicalKey: 'microbiology.virulence.degree-of-pathogenicity',
+    label: 'Virulence is the degree of pathogenicity', aliases: ['Virulence definition', 'Degree of disease-causing ability'], conceptType: 'definition',
+    article: 'virulenceEvasion', microtopic: 'Virulence', assessmentPage: 31, teachingPage: 18, teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'Virulence is:', key: 'A', options: ['The degree of pathogenicity', 'The ability of bacteria to live inside a host', 'A type of mutualistic relationship', 'The inability of bacteria to cause disease'],
+    claim: 'Virulence is the degree of pathogenicity of a microorganism.',
+    annotationQuote: 'Virulence is the degree of pathogenicity.',
+    support: 'The governed teaching directly defines virulence as the degree of pathogenicity.',
+    objective: 'Define virulence as the degree, rather than the mere presence, of pathogenicity.',
+    pitfalls: 'Intrahost residence, mutualism and inability to cause disease do not express the degree of pathogenicity.',
+    sourceCandidates: ['concept_392ea19120acaefcbc4900f1'],
+    rejected: ['concept_392ea19120acaefcbc4900f1 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'],
+  },
+  {
+    q: 105, bankQ: 15, conceptId: 'CON-INF-7569E187E87C2C', canonicalKey: 'microbiology.virulence.factor-categories',
+    label: 'Virulence factors support adherence, immune evasion, survival and host damage', aliases: ['Bacterial virulence-factor categories', 'Adherence immune evasion and toxin virulence factors'], conceptType: 'classification',
+    article: 'virulenceEvasion', microtopic: 'Virulence factors', assessmentPage: 31, teachingPage: 19, teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'Which of the following is NOT a bacterial virulence factor?', key: 'C', options: ['Ability to adhere to host cells', 'Ability to resist host immune defenses', 'Inability to survive in the environment', 'Ability to produce toxins'],
+    claim: 'Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor.',
+    annotationQuote: 'Virulence factors include ability to adhere, resist host immune defense and damage host cells by toxins.',
+    support: 'The governed teaching lists adherence, resistance to host immune defense, intracellular survival, antigenic variation, iron competition and toxin or inflammatory damage as virulence factors.',
+    objective: 'Exclude inability to survive from the governed list of positive bacterial virulence capabilities.',
+    pitfalls: 'Adherence, immune-defense resistance and toxin production are each explicitly listed virulence capabilities; the negatively worded inability-to-survive option is not.',
+    sourceCandidates: ['concept_b346ddd4b96640338b4ed62b'],
+    rejected: ['concept_b346ddd4b96640338b4ed62b — broader raw five-stage taxonomy is retained as lineage without replacing this exact option-set identity.'],
+  },
+  {
+    q: 110, bankQ: 20, conceptId: 'CON-INF-DC0BD5BA2F6A45', canonicalKey: 'microbiology.virulence.antigenic-variation-immune-evasion',
+    label: 'Antigenic variation changes surface antigens to evade immune destruction', aliases: ['Antigenic variation immune evasion', 'Changing bacterial surface antigens'], conceptType: 'mechanism',
+    article: 'virulenceEvasion', microtopic: 'Antigenic variation', assessmentPage: 33, teachingPage: 31, teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'Which of the following is an example of antigenic variation?', key: 'A', options: ['Bacteria changing their surface proteins to evade the immune system', 'Bacteria producing enzymes to break down host tissue', 'Bacteria forming spores to survive harsh conditions', 'Bacteria developing resistance to antibiotics'],
+    claim: 'Antigenic variation enables bacteria to change surface antigens and avoid immune destruction.',
+    annotationQuote: 'Antigenic variation changes surface antigens to avoid immune destruction.',
+    support: 'The governed teaching defines antigenic variation as changing surface antigens to avoid immune destruction.',
+    objective: 'Identify immune-evasive alteration of bacterial surface antigens as antigenic variation.',
+    pitfalls: 'Tissue-degrading enzymes, spore formation and antibiotic resistance are different mechanisms from immune evasion by changing surface antigens.',
+    rejected: ['concept_011a8b112c2e6d90b35b02dd — gonococcal-pilus-specific antigenic variation is narrower than this general bacterial mechanism.', 'concept_e56d865081d328eda954a6dc — influenza-specific surface-glycoprotein variation is a viral identity, not this bacterial question.'],
+  },
+  {
+    q: 115, bankQ: 25, conceptId: 'CON-INF-D777E19C7E75DB', canonicalKey: 'microbiology.virulence.antiphagocytic-coagulase-leukocidin-protein-a',
+    label: 'Coagulase, leukocidin and Protein A help bacteria escape phagocytosis', aliases: ['Antiphagocytic bacterial virulence factors', 'Coagulase leukocidin and Protein A'], conceptType: 'classification',
+    article: 'virulenceEvasion', microtopic: 'Antiphagocytic factors', assessmentPage: 34, teachingPage: '27, 30', teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'Which of the following virulence factors helps bacteria escape phagocytosis?', key: 'D', options: ['Coagulase', 'Leukocidin', 'Protein A', 'All of the above'],
+    claim: 'Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis.',
+    annotationQuote: 'Protein A is antiphagocytic; coagulase protects organisms from phagocytes; leukocidin destroys neutrophils and macrophages.',
+    support: 'The governed teaching identifies Protein A as antiphagocytic and states that coagulase-mediated fibrin deposition and leukocidin-mediated phagocyte destruction help organisms escape phagocytosis.',
+    objective: 'Recognise coagulase, leukocidin and Protein A as three antiphagocytic virulence factors.',
+    pitfalls: 'All three named factors are supported, so selecting only one does not satisfy the all-of-the-above item.',
+    rejected: ['concept_5cfb260de37ac8a03997e635 — Protein A alone is narrower than the compound three-factor identity.', 'concept_968ea0ffa6916e64f08e13f2 — a Staphylococcus aureus product list does not itself encode the shared antiphagocytic function.', 'concept_dd998ed010a69462c6739f01 — capsule/M-protein/coagulase grouping is a different factor set.'],
+  },
+  {
+    q: 116, bankQ: 26, conceptId: 'CON-INF-650AF5666E18A2', canonicalKey: 'microbiology.virulence.siderophore-iron-acquisition',
+    label: 'Siderophores acquire host-sequestered iron for bacterial growth', aliases: ['Bacterial siderophore iron acquisition', 'Iron competition by siderophores'], conceptType: 'mechanism',
+    article: 'virulenceEvasion', microtopic: 'Iron acquisition', assessmentPage: 34, teachingPage: 32, teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'Bacteria obtain iron in the host using:', key: 'B', options: ['Pili', 'Siderophores', 'Exotoxins', 'Capsule'],
+    claim: 'Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins.',
+    annotationQuote: 'Bacteria obtain iron by producing iron chelators called siderophores.',
+    support: 'The governed teaching states that bacteria produce iron chelators called siderophores to trap iron sequestered by body iron-binding proteins.',
+    objective: 'Identify siderophores as the bacterial mechanism for obtaining host-sequestered iron.',
+    pitfalls: 'Pili, exotoxins and capsule are not the iron-chelating molecules named in the governed teaching.',
+    sourceCandidates: ['concept_ef140fbdea83f0ad8f632b5e'],
+    rejected: ['concept_ef140fbdea83f0ad8f632b5e — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'],
+  },
+  {
+    q: 117, bankQ: 27, conceptId: 'CON-INF-8C390C9DA26E6D', canonicalKey: 'microbiology.virulence.coagulase-fibrin-protection',
+    label: 'Coagulase converts fibrinogen to protective fibrin around bacteria', aliases: ['Coagulase fibrin protection', 'Fibrin deposition around bacteria'], conceptType: 'mechanism',
+    article: 'virulenceEvasion', microtopic: 'Coagulase', assessmentPage: '34–35', teachingPage: 30, teachingResourceId: hostMicrobeResourceId,
+    teachingTitle: 'Host-Microbe Relationship', bankLabel: 'Microbiology Chapter 6', answerPage: 36,
+    stem: 'Which bacterial enzyme converts fibrinogen into fibrin to protect bacteria from phagocytosis?', key: 'B', options: ['Hyaluronidase', 'Coagulase', 'Collagenase', 'Lecithinase'],
+    claim: 'Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes.',
+    annotationQuote: 'Coagulase converts fibrinogen in plasma to fibrin and protects the organism from phagocytes.',
+    support: 'The governed teaching states that coagulase converts plasma fibrinogen to fibrin, causing surface fibrin deposition that protects the organism from phagocytes.',
+    objective: 'Identify coagulase as the enzyme producing a protective fibrin coat around bacteria.',
+    pitfalls: 'Hyaluronidase and collagenase spread through connective tissue, while lecithinase disrupts phospholipid membranes; none performs the fibrinogen-to-fibrin step.',
+    sourceCandidates: ['concept_7e50394238ac7cb476935db2'],
+    rejected: ['concept_7e50394238ac7cb476935db2 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'],
   },
 ]
 
@@ -1724,6 +1865,61 @@ Pages 1, 9–15, 24, 28–30, 32–38 were rendered and visually read across the
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+${hostMicrobeResourceId}
+
+## title
+Host-Microbe Relationship, FHB102-2 Chapter 6
+
+## institution
+Misr University for Science and Technology, College of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+visually_read_all_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+41
+
+## sha256
+e4b2f7ce3e55fad37c9a588f1b1c0f015b1d261369ed59d45a3715c9ffe02f2d
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 41 pages were rendered and visually read for global Q91–Q120. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 3–38 directly support the ten authored questions and the twenty bounded hold decisions without authenticating the student-authored Absalam answer table. Global Q100 remains an uncorrected teaching conflict because page 15 limits colonization outcomes to elimination or resident flora, while global Q111 remains an authority/wording conflict because page 34 calls endotoxin an integral bacterial-cell-wall component rather than stating the bank's “released from” wording.
+
+## confidence
+0.95
+
+## is_assessment
+no
 `
 }
 
@@ -1732,7 +1928,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 22,
+    count: 23,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -2015,6 +2211,19 @@ function corpusSourceIndex() {
         yearIds: ['MUST_Y1'],
         moduleIds: [moduleId],
         categories: ['Midterm Exams', 'MCQs'],
+      },
+      [hostMicrobeResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf'],
+        sha256: 'e4b2f7ce3e55fad37c9a588f1b1c0f015b1d261369ed59d45a3715c9ffe02f2d',
+        processingStatus: 'fully_governed',
+        pageCount: 41,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
       },
       [introTeachingResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf',
@@ -8761,6 +8970,10 @@ function microCitationId(item) { return `CIT-INF-MUST-FHB1022-MICRO-Q${item.q}-0
 function microSpanId(item) { return `SPN-INF-MUST-FHB1022-MICRO-Q${item.q}-01` }
 function microQuestionId(item) { return `QST-MUST-FHB1022-MICRO-INTRO-Q${item.q}` }
 function microArticleSectionId(key) { return `${microArticles[key].toLowerCase()}-definition` }
+function microTeachingResource(item) { return item.teachingResourceId ?? bacterialCellResourceId }
+function microTeachingTitle(item) { return item.teachingTitle ?? 'Introduction to Microbiology and Bacterial Cell Structure' }
+function microBankLabel(item) { return item.bankLabel ?? 'Microbiology' }
+function microAnswerPage(item) { return item.answerPage ?? 27 }
 
 function microClaims() {
   return generatedItems(microItems.map((item) => `# Item
@@ -8802,8 +9015,8 @@ stable_local_curriculum_fact
 no
 
 ## qualifiers
-curriculum: MUST FHB102-2 Microbiology Chapters 1–3
-source question: Absalam Microbiology Q${item.bankQ} (global Q${item.q})`))
+curriculum: MUST FHB102-2 ${microBankLabel(item)}
+source question: Absalam ${microBankLabel(item)} Q${item.bankQ} (global Q${item.q})`))
 }
 
 function microCitations() {
@@ -8816,7 +9029,7 @@ ${microCitationId(item)}
 ${microClaimId(item)}
 
 ## resource_id
-${bacterialCellResourceId}
+${microTeachingResource(item)}
 
 ## evidence_role
 local_curriculum
@@ -8831,7 +9044,7 @@ page
 ${item.teachingPage}
 
 ## locator_section
-Introduction to Microbiology and Bacterial Cell Structure — ${item.microtopic}
+${microTeachingTitle(item)} — ${item.microtopic}
 
 ## locator_detail
 PDF page ${item.teachingPage}, visually read direct teaching statement.
@@ -8951,7 +9164,7 @@ ${microArticleRelations[item.article].map((key) => microArticles[key]).join('\n'
 [clear]
 
 ## resource_ids
-${bacterialCellResourceId}
+${microTeachingResource(item)}
 ${absalamAssessmentResourceId}
 
 ## approved_file_resource_ids
@@ -8994,8 +9207,8 @@ ${group.map(microClaimId).join('\n')}
 ${item.sourceCandidates?.join('\n') ?? '[clear]'}
 
 ## exam_signal
-${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage} Microbiology Q${entry.bankQ} (global Q${entry.q}); printed answer p27`).join('\n')}
-${group.map((entry) => `${bacterialCellResourceId} | tier 1 local teaching | 2025-02-08 | p${entry.teachingPage} direct MUST teaching`).join('\n')}
+${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage} ${microBankLabel(entry)} Q${entry.bankQ} (global Q${entry.q}); printed answer p${microAnswerPage(entry)}`).join('\n')}
+${group.map((entry) => `${microTeachingResource(entry)} | tier 1 local teaching | p${entry.teachingPage} direct MUST teaching`).join('\n')}
 
 ## original_wording
 ${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained in their original order.`).join('\n')}
@@ -9096,12 +9309,57 @@ This cellular framework explains why later microbiology teaching assigns differe
 ### Common misconceptions
 Do not classify viruses as prokaryotic cells. Do not use cell-wall presence as the universal separator: the governed comparison identifies the true nucleus as the defining distinction for that prompt. Capsule composition, nucleoid shape and growth pattern are not the stated basis of Gram differentiation. The penicillin item is kept at the deck's peptidoglycan-layer level and is not silently rewritten into a more specific uncited molecular-target question.`,
   },
+  colonizationCarriage: {
+    title: 'Colonization, carriage and opportunistic disease', microtopic: 'Colonization and carrier states',
+    summary: 'The official MUST Chapter 6 teaching distinguishes colonization without clinical infection from asymptomatic carrier-state shedding and explains how normally harmless flora can become opportunistic pathogens after habitat change, broad-spectrum antimicrobial disruption or weakened host defenses.',
+    sections: `### Definition
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or when it moves from its normal habitat. Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection. In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+
+### Mechanism
+Normal flora remain harmless in their usual niche while host defenses and the microbial community remain intact. A habitat change can place organisms in a vulnerable site; broad-spectrum antimicrobials can disrupt protective flora; and weak host immunity can permit organisms of otherwise limited pathogenicity to cause harm.
+
+Normal flora may produce harmful effects when host resistance is lowered or organisms move from their normal habitat. Harmful effects may follow a change in natural habitat, broad-spectrum antimicrobial use or lowered host resistance.
+
+### Key determinants
+Colonization is defined by establishment without clinical infection. Carrier state is defined by absent apparent symptoms despite possible organism shedding. Opportunism is defined by disease emerging under permissive host or habitat conditions rather than by obligatory pathogenicity.
+
+Carrier state: no apparent symptoms, but organisms may shed.
+
+### Clinical significance
+An asymptomatic carrier can still transmit an organism through shedding. Likewise, disturbing normal flora or host resistance can convert a previously harmless relationship into clinically important infection risk.
+
+### Common misconceptions
+Do not equate colonization with infectious disease: the governed deck lists elimination or incorporation into resident flora as colonization outcomes and treats infection as a separate branch. Do not treat carrier state as complete microbial elimination, and do not call every commensal relationship opportunistic disease.`,
+  },
+  virulenceEvasion: {
+    title: 'Virulence, immune evasion and iron acquisition', microtopic: 'Virulence mechanisms',
+    summary: 'Virulence is the degree of pathogenicity. The official MUST Chapter 6 deck identifies adherence, resistance to host defenses, antigenic variation, iron competition and toxin-mediated damage as virulence capabilities, and directly teaches coagulase, leukocidin, Protein A and siderophores as mechanisms that protect bacteria or support growth in the host.',
+    sections: `### Definition
+Virulence is the degree of pathogenicity of a microorganism. Virulence factors are positive capabilities that help bacteria adhere, invade, resist host immune defenses, survive, obtain nutrients or damage the host.
+
+Virulence is the degree of pathogenicity. Virulence factors include ability to adhere, resist host immune defense and damage host cells by toxins.
+
+### Mechanism
+Antigenic variation changes surface antigens to avoid immune destruction. Protein A is antiphagocytic; leukocidin destroys neutrophils and macrophages; and coagulase converts plasma fibrinogen to fibrin, depositing a protective fibrin layer around the organism. Bacteria also produce iron-chelating siderophores to capture iron sequestered by host iron-binding proteins.
+
+Protein A is antiphagocytic; coagulase protects organisms from phagocytes; leukocidin destroys neutrophils and macrophages. Bacteria obtain iron by producing iron chelators called siderophores. Coagulase converts fibrinogen in plasma to fibrin and protects the organism from phagocytes.
+
+### Key determinants
+Virulence measures degree, not simply presence in a host. Adherence, immune-defense resistance and toxin production are virulence capabilities, whereas inability to survive is not. Coagulase, leukocidin and Protein A all contribute to escape from phagocytosis by different mechanisms.
+
+### Clinical significance
+Immune evasion and nutrient acquisition allow bacteria to persist and multiply despite host defenses. Recognising the distinct mechanisms prevents a named enzyme, surface protein or chelator from being assigned the wrong function.
+
+### Common misconceptions
+Do not substitute antibiotic resistance, spore formation or tissue-degrading enzymes for antigenic variation. Do not confuse siderophores with pili, capsule or exotoxins. Hyaluronidase, collagenase and lecithinase do not perform coagulase's fibrinogen-to-fibrin reaction.`,
+  },
 } }
 
 function microArticleRecords() {
   const data = getMicroArticleData()
   return generatedItems(Object.entries(data).map(([key, article]) => {
     const articleItems = microItems.filter((item) => item.article === key)
+    const teachingResources = [...new Set(articleItems.map(microTeachingResource))]
     const related = microArticleRelations[key].map((other) => `${microArticles[other]}: ${data[other].title}`).join('\n')
     return `# Item
 
@@ -9215,11 +9473,11 @@ ${related}
 ${articleItems.map(microQuestionId).join('\n')}
 
 ## resource_ids
-${bacterialCellResourceId}
+${teachingResources.join('\n')}
 ${absalamAssessmentResourceId}
 
 ## article_source_ids
-${bacterialCellResourceId}
+${teachingResources.join('\n')}
 
 ## claim_ids
 ${articleItems.map(microClaimId).join('\n')}
@@ -9240,8 +9498,8 @@ ${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${i
 needs_evidence
 
 ## evidence_basis
-Official MUST FHB102-2 Introduction to Microbiology and Bacterial Cell Structure deck, visually read on exact cited pages.
-Absalam101 Part 1 revision bank, visually read on prompt pages 19–26 and printed-answer page 27.
+${[...new Set(articleItems.map((item) => `Official MUST FHB102-2 ${microTeachingTitle(item)} deck, visually read on exact cited pages.`))].join('\n')}
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
@@ -9256,7 +9514,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-First and second bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -9301,7 +9559,7 @@ Dr. Omar
 single best answer
 
 ## derived_from
-Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${bacterialCellResourceId} without treating the student bank as an authenticated faculty key.
+Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${microTeachingResource(item)} without treating the student bank as an authenticated faculty key.
 
 ## correct_answer
 ${item.key}
@@ -9376,13 +9634,13 @@ ${microArticles[item.article]}
 
 ## resource_ids
 ${absalamAssessmentResourceId}
-${bacterialCellResourceId}
+${microTeachingResource(item)}
 
 ## learning_objective
 ${item.objective}
 
 ## source_citation
-Absalam101 Part 1, p${item.assessmentPage}, Microbiology Q${item.bankQ} (global Q${item.q}), printed key p27 (${item.bankQ} = ${item.key}); official MUST Introduction to Microbiology and Bacterial Cell Structure, p${item.teachingPage}.
+Absalam101 Part 1, p${item.assessmentPage}, ${microBankLabel(item)} Q${item.bankQ} (global Q${item.q}), printed key p${microAnswerPage(item)} (${item.bankQ} = ${item.key}); official MUST ${microTeachingTitle(item)}, p${item.teachingPage}.
 
 ## attached_image
 
@@ -9400,7 +9658,7 @@ Absalam101 Part 1, p${item.assessmentPage}, Microbiology Q${item.bankQ} (global 
 yes
 
 ## author_notes
-Printed source key: Microbiology Q${item.bankQ} (global Q${item.q}) = ${item.key}. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.`
+Printed source key: ${microBankLabel(item)} Q${item.bankQ} (global Q${item.q}) = ${item.key}. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.`
   }))
 }
 
@@ -9453,7 +9711,42 @@ function microCoverage() {
 - **Q89 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed A, Gram-positive cell walls, is supported by official page 30, but pending \`CON-INF-7E3B831D71A008\` / \`ART-INF-CELL-WALL-OUTER-MEMBRANE\` already govern the Gram-positive wall identity. No unsafe dependency update was created.
 
 `
+  const thirdDelta = `### Absalam Microbiology Chapter 6 delta
+
+- +1 evidence resource: the official MUST Host-Microbe Relationship Chapter 6 deck, all 41 pages visually governed.
+- +10 verified local-curriculum claims, +10 citations and +10 article spans for global Q94, Q95, Q99, Q102, Q104, Q105, Q110, Q115, Q116 and Q117.
+- +10 under-review / needs-evidence concepts. Raw corpus identities retained as provenance never replace the narrower governed MUST records.
+- +2 standalone-complete reciprocal Draft articles and +10 Draft questions.
+- +20 explicit holds with no student-facing record: global Q91–Q93, Q96–Q98, Q100–Q101, Q103, Q106–Q109, Q111–Q114 and Q118–Q120.
+- Every authored stem, option and printed key is unchanged. Q100 and Q111 are retained as uncorrected authority conflicts; no answer was silently corrected or taught through a student-facing record.
+- Absalam Microbiology Chapter 6, global Q91–Q120: **10 authored / 20 held / 0 unassessed**.
+- Absalam source global Q1–Q120: **49 authored / 71 held / 0 unassessed**. The next unassessed boundary is global Q121–Q150, the final 30-prompt family.
+
+`
+  const thirdHolds = `- **Q91 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, Normal flora, is supported by official page 3, but pending \`ART-INF-HOST-RELATIONSHIPS-NORMAL-FLORA\` already governs the normal-flora identity; no duplicate or unsafe cross-university article update was created.
+- **Q92 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed C, Blood, is supported by official page 4, but pending sterile-site \`CON-INF-3E10BA25A4998E\` / \`ART-INF-HOST-RELATIONSHIPS-NORMAL-FLORA\` already governs this family. The lower-respiratory concept was not broadened into a different blood-site identity.
+- **Q93 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed D, All of the above, is supported by official pages 5–6, but exact pending \`CON-INF-C8EE841CE9808D\` / \`ART-INF-HOST-RELATIONSHIPS-NORMAL-FLORA\` already govern normal-flora functions.
+- **Q96 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed C, Both the microbe and host benefit, is supported by official page 10, but exact pending \`CON-INF-0B4BAFFD525FDF\` / \`ART-INF-HOST-RELATIONSHIPS-NORMAL-FLORA\` already govern mutualism.
+- **Q97 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed C, Commensal, is supported by official page 11, but the same pending relationship concept/article governs commensalism and a nearby pending ASU question tests the same identity.
+- **Q98 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed C, A virus causing disease in a human, is supported by official page 12, but the same pending relationship concept/article already governs parasitism.
+- **Q100 is held in the Absalam Microbiology Chapter 6 family as an uncorrected teaching conflict.** The bank prints D, All of the above, but official page 15 gives only elimination by host defenses or incorporation into resident flora as colonization outcomes and treats infection as a separate branch. The printed key was neither corrected nor promoted to student-facing content.
+- **Q101 is held in the Absalam Microbiology Chapter 6 family as an authority/form hold.** The bank prints B, “The invasion and growth of a microbe, causing harm,” but official pages 14–16 do not state that offered definition. No external definition was substituted.
+- **Q103 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed A, The ability of an organism to cause disease, is supported by official page 18, but pending \`CON-INF-A6DFAC5D14B3D4\` / \`ART-INF-BACTERIAL-INVASION-PATHOGENICITY\` already govern pathogenicity.
+- **Q106 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, Allowing bacteria to adhere to host cells, is supported by official page 20, but exact pending \`CON-INF-BC446C9816D9CE\` / \`ART-INF-SURFACE-APPENDAGES-MESOSOMES\` already govern ordinary-pilus adhesion.
+- **Q107 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, Allowing bacteria to enter host cells, is supported by official page 22, but exact pending \`CON-INF-59379B20FF9F38\` / \`ART-INF-BACTERIAL-INVASION-PATHOGENICITY\` already govern invasins.
+- **Q108 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, Hyaluronidase, is supported by official page 25, but pending \`CON-INF-1EAFF70A6FC769\` / \`ART-INF-BACTERIAL-INVASION-PATHOGENICITY\` already govern hyaluronidase among spreading factors.
+- **Q109 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, It provides resistance to phagocytosis, is supported by official page 27, but live \`CON-INF-7789C0F6154E35\` and \`ART-INF-TOP-1181606D78\` already govern the capsule function.
+- **Q111 is held in the Absalam Microbiology Chapter 6 family as an authority/wording conflict.** The bank prints B, “Released from the cell wall of Gram-negative bacteria,” while official page 34 calls endotoxin an integral part of bacterial cell walls and does not state the offered release wording. The key was not rewritten or silently taught.
+- **Q112 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, They are highly antigenic, is supported by official page 34, but pending \`CON-INF-C87DF729E2ADDF\` / \`ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK\` already govern the exotoxin/endotoxin identity.
+- **Q113 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, B subunit, is supported by official pages 35–36, but the AB-exotoxin dependency chain already runs through \`CON-INF-F6DC0E99178186\` / \`ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK\`; no unsafe broad update was made.
+- **Q114 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, They stimulate a massive immune response, is supported by official page 38, but pending \`CON-INF-6F8D6DE961F269\` / \`ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS\` already govern the superantigen mechanism.
+- **Q118 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed A, Hemolysin, is supported by official page 37, but exact pending \`CON-INF-2A6CE8EF5F40F7\` / \`ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS\` already govern membrane-disrupting hemolysins.
+- **Q119 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, They trigger fever and inflammation, is supported by official pages 34–35, but pending \`CON-INF-D60EAAF763C476\` / \`ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK\` already govern LPS-mediated host effects.
+- **Q120 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, It leads to inflammation and tissue damage, is supported by official page 35, but the same pending endotoxin article chain already governs complement-mediated inflammation and cannot be duplicated safely.
+
+`
   return coverage()
+    .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
     .replace('| Citations | 43 |', '| Citations | 52 |')
     .replace('| Article spans | 38 |', '| Article spans | 47 |')
@@ -9461,12 +9754,25 @@ function microCoverage() {
     .replace('| Articles | 21 |', '| Articles | 23 |')
     .replace('| Questions | 38 |', '| Questions | 47 |')
     .replace('| Question authoring holds | 53 |', '| Question authoring holds | 74 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}## Explicit authoring holds\n\n${holds}${secondHolds}`)
+    .replace('| Claims | 47 |', '| Claims | 57 |')
+    .replace('| Citations | 52 |', '| Citations | 62 |')
+    .replace('| Article spans | 47 |', '| Article spans | 57 |')
+    .replace('| Concepts | 43 |', '| Concepts | 53 |')
+    .replace('| Articles | 23 |', '| Articles | 25 |')
+    .replace('| Questions | 47 |', '| Questions | 57 |')
+    .replace('| Question authoring holds | 74 |', '| Question authoring holds | 94 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations', 'Governed answer observations: 5,211 total; 57 clean source-keyed prompts authored; **5,154 raw answer observations remain**, including the 94 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
+    .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
+    .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
 }

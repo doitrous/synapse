@@ -1098,3 +1098,58 @@ Pages 1, 9–15, 24, 28–30, 32–38 were rendered and visually read across the
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_e4b2f7ce3e55fad37c9a
+
+## title
+Host-Microbe Relationship, FHB102-2 Chapter 6
+
+## institution
+Misr University for Science and Technology, College of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+visually_read_all_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/4.Host-Microbe relationship (Ch 6).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+41
+
+## sha256
+e4b2f7ce3e55fad37c9a588f1b1c0f015b1d261369ed59d45a3715c9ffe02f2d
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 41 pages were rendered and visually read for global Q91–Q120. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 3–38 directly support the ten authored questions and the twenty bounded hold decisions without authenticating the student-authored Absalam answer table. Global Q100 remains an uncorrected teaching conflict because page 15 limits colonization outcomes to elimination or resident flora, while global Q111 remains an authority/wording conflict because page 34 calls endotoxin an integral bacterial-cell-wall component rather than stating the bank's “released from” wording.
+
+## confidence
+0.95
+
+## is_assessment
+no

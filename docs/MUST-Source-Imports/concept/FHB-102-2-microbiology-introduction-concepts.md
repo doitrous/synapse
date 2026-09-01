@@ -121,7 +121,7 @@ CLM-INF-MUST-FHB1022-MICRO-Q62-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p19 Microbiology Q2 (global Q62); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p9 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p9 direct MUST teaching
 
 ## original_wording
 Which of the following is NOT considered a microorganism? Printed key D; options retained in their original order.
@@ -302,7 +302,7 @@ CLM-INF-MUST-FHB1022-MICRO-Q63-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p19 Microbiology Q3 (global Q63); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p10 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p10 direct MUST teaching
 
 ## original_wording
 What is the main function of saprophytes? Printed key B; options retained in their original order.
@@ -483,7 +483,7 @@ CLM-INF-MUST-FHB1022-MICRO-Q64-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p19–20 Microbiology Q4 (global Q64); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p11 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p11 direct MUST teaching
 
 ## original_wording
 In the scientific nomenclature, which part of the name is capitalized? Printed key B; options retained in their original order.
@@ -666,8 +666,8 @@ CLM-INF-MUST-FHB1022-MICRO-Q66-01
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p20 Microbiology Q5 (global Q65); printed answer p27
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p20 Microbiology Q6 (global Q66); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p12 direct MUST teaching
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p12 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p12 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p12 direct MUST teaching
 
 ## original_wording
 Viruses are classified as: Printed key C; options retained in their original order.
@@ -850,7 +850,7 @@ CLM-INF-MUST-FHB1022-MICRO-Q67-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p20 Microbiology Q7 (global Q67); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p15 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p15 direct MUST teaching
 
 ## original_wording
 The main structural difference between prokaryotic and eukaryotic cells is: Printed key A; options retained in their original order.
@@ -1032,7 +1032,7 @@ CLM-INF-MUST-FHB1022-MICRO-Q85-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p25 Microbiology Q25 (global Q85); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p28 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p28 direct MUST teaching
 
 ## original_wording
 The Gram stain differentiates bacteria based on: Printed key B; options retained in their original order.
@@ -1213,7 +1213,7 @@ CLM-INF-MUST-FHB1022-MICRO-Q88-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p26 Microbiology Q28 (global Q88); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p24 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p24 direct MUST teaching
 
 ## original_wording
 The new system of classification is based on: Printed key A; options retained in their original order.
@@ -1394,7 +1394,7 @@ CLM-INF-MUST-FHB1022-MICRO-Q90-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p26 Microbiology Q30 (global Q90); printed answer p27
-src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p32 direct MUST teaching
+src_88ddfa49fe01adee5444 | tier 1 local teaching | p32 direct MUST teaching
 
 ## original_wording
 Which of the following is the primary target of antibiotics like penicillin? Printed key B; options retained in their original order.
@@ -1448,6 +1448,1819 @@ approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
 rejectedMergeCandidateIds: concept_2ea5d75f7d95e485adc3d8ef — covers carbapenem-specific PBP binding and cell-wall inhibition, not the broader source-level penicillin prompt.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-17893AA3303251
+
+## label
+An opportunistic pathogen causes disease under permissive host or habitat conditions
+
+## canonical_key
+microbiology.opportunism.opportunistic-pathogen-definition
+
+## aliases
+Opportunistic pathogen definition
+Normally non-disease-causing microorganism becoming pathogenic
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes.
+
+## explicit_objective
+Identify an opportunistic pathogen from the condition-dependent ability of a normally harmless microorganism to cause disease.
+
+## pitfalls
+Obligate pathogens are not defined by conditional disease, commensal describes a relationship without harm, and parasitic describes benefit at the host’s expense rather than this conditional state.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Opportunistic pathogens
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Opportunistic pathogens
+
+## article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q94-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p28–29 Microbiology Chapter 6 Q4 (global Q94); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p7–8 direct MUST teaching
+
+## original_wording
+What is the term for a microorganism that normally does not cause disease but can do so under certain conditions? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q94; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-00A6805689B2B8
+
+## label
+Habitat change, broad-spectrum antibiotics and weak immunity can make normal flora harmful
+
+## canonical_key
+microbiology.normal-flora.harmful-change-antibiotics-immunosuppression
+
+## aliases
+Harmful effects of normal flora
+Conditions disrupting normal flora
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity.
+
+## explicit_objective
+Recognise all three governed conditions that can turn normal flora into a source of harm.
+
+## pitfalls
+Each of the three listed conditions is supported, so selecting only one omits other governed causes and does not satisfy the all-of-the-above item.
+
+## concept_type
+risk factor
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Normal-flora disruption
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Normal-flora disruption
+
+## article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q95-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p29 Microbiology Chapter 6 Q5 (global Q95); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p7–8 direct MUST teaching
+
+## original_wording
+Which factor can lead to harmful effects of normal flora? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q95; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-EF7040395A6C7A
+
+## label
+Colonization is microbial establishment without clinical infection
+
+## canonical_key
+microbiology.colonization.without-clinical-infection
+
+## aliases
+Colonization without disease
+Microbial presence without clinical infection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection.
+
+## explicit_objective
+Identify colonization as microbial presence and proliferation without clinical disease.
+
+## pitfalls
+Infection, pathogenesis and invasion imply a different or later host–microbe state than the no-clinical-infection state defined here.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Colonization
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Colonization
+
+## article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q99-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_25930191933ec8ce06dbcc36
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p30 Microbiology Chapter 6 Q9 (global Q99); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p14 direct MUST teaching
+
+## original_wording
+What is the term for the presence of microbes on a host without causing disease? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_25930191933ec8ce06dbcc36
+
+## conflicts
+No key conflict affects authored global Q99; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_25930191933ec8ce06dbcc36 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_25930191933ec8ce06dbcc36 — raw corpus wording supports the same fact and is retained as extraction lineage; it is not an import-ready concept record and does not replace the governed MUST identity.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-C4C74A0874FF61
+
+## label
+Carrier state permits asymptomatic pathogen shedding
+
+## canonical_key
+microbiology.infection.carrier-state-asymptomatic-shedding
+
+## aliases
+Asymptomatic carrier state
+Pathogen shedding without symptoms
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+In the carrier state an infected individual has no apparent symptoms but may shed the organism.
+
+## explicit_objective
+Recognise asymptomatic organism shedding as the defining carrier-state feature.
+
+## pitfalls
+Carrier state is not rapid symptomatic progression, complete microbial elimination or successful resistance without infection.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Carrier state
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Carrier state
+
+## article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q102-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_a2b4b11a538e270f6ec8c386
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p31 Microbiology Chapter 6 Q12 (global Q102); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p16 direct MUST teaching
+
+## original_wording
+The carrier state refers to: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_4c87e58ab0ec70b18fc6482e
+
+## conflicts
+No key conflict affects authored global Q102; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_a2b4b11a538e270f6ec8c386 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_4c87e58ab0ec70b18fc6482e — organism-specific asymptomatic cyst shedding is narrower than the general carrier-state identity.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-73DB8EF3A6C468
+
+## label
+Virulence is the degree of pathogenicity
+
+## canonical_key
+microbiology.virulence.degree-of-pathogenicity
+
+## aliases
+Virulence definition
+Degree of disease-causing ability
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Virulence is the degree of pathogenicity of a microorganism.
+
+## explicit_objective
+Define virulence as the degree, rather than the mere presence, of pathogenicity.
+
+## pitfalls
+Intrahost residence, mutualism and inability to cause disease do not express the degree of pathogenicity.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Virulence
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Virulence
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q104-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_392ea19120acaefcbc4900f1
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p31 Microbiology Chapter 6 Q14 (global Q104); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p18 direct MUST teaching
+
+## original_wording
+Virulence is: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_392ea19120acaefcbc4900f1
+
+## conflicts
+No key conflict affects authored global Q104; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_392ea19120acaefcbc4900f1 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_392ea19120acaefcbc4900f1 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-7569E187E87C2C
+
+## label
+Virulence factors support adherence, immune evasion, survival and host damage
+
+## canonical_key
+microbiology.virulence.factor-categories
+
+## aliases
+Bacterial virulence-factor categories
+Adherence immune evasion and toxin virulence factors
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor.
+
+## explicit_objective
+Exclude inability to survive from the governed list of positive bacterial virulence capabilities.
+
+## pitfalls
+Adherence, immune-defense resistance and toxin production are each explicitly listed virulence capabilities; the negatively worded inability-to-survive option is not.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Virulence factors
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Virulence factors
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q105-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_b346ddd4b96640338b4ed62b
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p31 Microbiology Chapter 6 Q15 (global Q105); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p19 direct MUST teaching
+
+## original_wording
+Which of the following is NOT a bacterial virulence factor? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_b346ddd4b96640338b4ed62b
+
+## conflicts
+No key conflict affects authored global Q105; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_b346ddd4b96640338b4ed62b was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_b346ddd4b96640338b4ed62b — broader raw five-stage taxonomy is retained as lineage without replacing this exact option-set identity.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-DC0BD5BA2F6A45
+
+## label
+Antigenic variation changes surface antigens to evade immune destruction
+
+## canonical_key
+microbiology.virulence.antigenic-variation-immune-evasion
+
+## aliases
+Antigenic variation immune evasion
+Changing bacterial surface antigens
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Antigenic variation enables bacteria to change surface antigens and avoid immune destruction.
+
+## explicit_objective
+Identify immune-evasive alteration of bacterial surface antigens as antigenic variation.
+
+## pitfalls
+Tissue-degrading enzymes, spore formation and antibiotic resistance are different mechanisms from immune evasion by changing surface antigens.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Antigenic variation
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Antigenic variation
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q110-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p33 Microbiology Chapter 6 Q20 (global Q110); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p31 direct MUST teaching
+
+## original_wording
+Which of the following is an example of antigenic variation? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_011a8b112c2e6d90b35b02dd
+concept_e56d865081d328eda954a6dc
+
+## conflicts
+No key conflict affects authored global Q110; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_011a8b112c2e6d90b35b02dd — gonococcal-pilus-specific antigenic variation is narrower than this general bacterial mechanism. concept_e56d865081d328eda954a6dc — influenza-specific surface-glycoprotein variation is a viral identity, not this bacterial question.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-D777E19C7E75DB
+
+## label
+Coagulase, leukocidin and Protein A help bacteria escape phagocytosis
+
+## canonical_key
+microbiology.virulence.antiphagocytic-coagulase-leukocidin-protein-a
+
+## aliases
+Antiphagocytic bacterial virulence factors
+Coagulase leukocidin and Protein A
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis.
+
+## explicit_objective
+Recognise coagulase, leukocidin and Protein A as three antiphagocytic virulence factors.
+
+## pitfalls
+All three named factors are supported, so selecting only one does not satisfy the all-of-the-above item.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Antiphagocytic factors
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Antiphagocytic factors
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q115-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p34 Microbiology Chapter 6 Q25 (global Q115); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p27, 30 direct MUST teaching
+
+## original_wording
+Which of the following virulence factors helps bacteria escape phagocytosis? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_5cfb260de37ac8a03997e635
+concept_968ea0ffa6916e64f08e13f2
+concept_dd998ed010a69462c6739f01
+
+## conflicts
+No key conflict affects authored global Q115; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_5cfb260de37ac8a03997e635 — Protein A alone is narrower than the compound three-factor identity. concept_968ea0ffa6916e64f08e13f2 — a Staphylococcus aureus product list does not itself encode the shared antiphagocytic function. concept_dd998ed010a69462c6739f01 — capsule/M-protein/coagulase grouping is a different factor set.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-650AF5666E18A2
+
+## label
+Siderophores acquire host-sequestered iron for bacterial growth
+
+## canonical_key
+microbiology.virulence.siderophore-iron-acquisition
+
+## aliases
+Bacterial siderophore iron acquisition
+Iron competition by siderophores
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins.
+
+## explicit_objective
+Identify siderophores as the bacterial mechanism for obtaining host-sequestered iron.
+
+## pitfalls
+Pili, exotoxins and capsule are not the iron-chelating molecules named in the governed teaching.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Iron acquisition
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Iron acquisition
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q116-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_ef140fbdea83f0ad8f632b5e
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p34 Microbiology Chapter 6 Q26 (global Q116); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p32 direct MUST teaching
+
+## original_wording
+Bacteria obtain iron in the host using: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_ef140fbdea83f0ad8f632b5e
+
+## conflicts
+No key conflict affects authored global Q116; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_ef140fbdea83f0ad8f632b5e was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_ef140fbdea83f0ad8f632b5e — exact raw extraction is retained as lineage but is not an import-ready governed concept record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-8C390C9DA26E6D
+
+## label
+Coagulase converts fibrinogen to protective fibrin around bacteria
+
+## canonical_key
+microbiology.virulence.coagulase-fibrin-protection
+
+## aliases
+Coagulase fibrin protection
+Fibrin deposition around bacteria
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes.
+
+## explicit_objective
+Identify coagulase as the enzyme producing a protective fibrin coat around bacteria.
+
+## pitfalls
+Hyaluronidase and collagenase spread through connective tissue, while lecithinase disrupts phospholipid membranes; none performs the fibrinogen-to-fibrin step.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Coagulase
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Coagulase
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e4b2f7ce3e55fad37c9a
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q117-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_7e50394238ac7cb476935db2
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p34–35 Microbiology Chapter 6 Q27 (global Q117); printed answer p36
+src_e4b2f7ce3e55fad37c9a | tier 1 local teaching | p30 direct MUST teaching
+
+## original_wording
+Which bacterial enzyme converts fibrinogen into fibrin to protect bacteria from phagocytosis? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_7e50394238ac7cb476935db2
+
+## conflicts
+No key conflict affects authored global Q117; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_7e50394238ac7cb476935db2 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_7e50394238ac7cb476935db2 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

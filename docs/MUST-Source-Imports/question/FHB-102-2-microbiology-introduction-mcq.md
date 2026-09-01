@@ -1365,3 +1365,1523 @@ yes
 
 ## author_notes
 Printed source key: Microbiology Q30 (global Q90) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q94
+
+## title
+What is the term for a microorganism that normally does not cause disease but can do so under certain conditions?
+
+## question
+What is the term for a microorganism that normally does not cause disease but can do so under certain conditions?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Opportunistic pathogen
+
+## explanation_a
+An opportunistic pathogen is a microorganism that normally does not cause disease but can become pathogenic when host defenses weaken or its normal habitat changes. The official MUST teaching directly supports Opportunistic pathogen for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Obligate pathogen
+
+## explanation_b
+Incorrect. Obligate pathogens are not defined by conditional disease, commensal describes a relationship without harm, and parasitic describes benefit at the host’s expense rather than this conditional state. The supported answer is A, Opportunistic pathogen.
+
+## answer_c
+Commensal microbe
+
+## explanation_c
+Incorrect. Obligate pathogens are not defined by conditional disease, commensal describes a relationship without harm, and parasitic describes benefit at the host’s expense rather than this conditional state. The supported answer is A, Opportunistic pathogen.
+
+## answer_d
+Parasitic microbe
+
+## explanation_d
+Incorrect. Obligate pathogens are not defined by conditional disease, commensal describes a relationship without harm, and parasitic describes benefit at the host’s expense rather than this conditional state. The supported answer is A, Opportunistic pathogen.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-17893AA3303251
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Opportunistic pathogens
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Identify an opportunistic pathogen from the condition-dependent ability of a normally harmless microorganism to cause disease.
+
+## source_citation
+Absalam101 Part 1, p28–29, Microbiology Chapter 6 Q4 (global Q94), printed key p36 (4 = A); official MUST Host-Microbe Relationship, p7–8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q4 (global Q94) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q95
+
+## title
+Which factor can lead to harmful effects of normal flora?
+
+## question
+Which factor can lead to harmful effects of normal flora?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Change in natural habitat
+
+## explanation_a
+Incorrect. Each of the three listed conditions is supported, so selecting only one omits other governed causes and does not satisfy the all-of-the-above item. The supported answer is D, All of the above.
+
+## answer_b
+Use of broad-spectrum antibiotics
+
+## explanation_b
+Incorrect. Each of the three listed conditions is supported, so selecting only one omits other governed causes and does not satisfy the all-of-the-above item. The supported answer is D, All of the above.
+
+## answer_c
+Weak immune system
+
+## explanation_c
+Incorrect. Each of the three listed conditions is supported, so selecting only one omits other governed causes and does not satisfy the all-of-the-above item. The supported answer is D, All of the above.
+
+## answer_d
+All of the above
+
+## explanation_d
+Normal flora can become harmful after a change in natural habitat, broad-spectrum antimicrobial disruption or weakening of host immunity. The official MUST teaching directly supports All of the above for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-00A6805689B2B8
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Normal-flora disruption
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Recognise all three governed conditions that can turn normal flora into a source of harm.
+
+## source_citation
+Absalam101 Part 1, p29, Microbiology Chapter 6 Q5 (global Q95), printed key p36 (5 = D); official MUST Host-Microbe Relationship, p7–8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q5 (global Q95) = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q99
+
+## title
+What is the term for the presence of microbes on a host without causing disease?
+
+## question
+What is the term for the presence of microbes on a host without causing disease?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Infection
+
+## explanation_a
+Incorrect. Infection, pathogenesis and invasion imply a different or later host–microbe state than the no-clinical-infection state defined here. The supported answer is B, Colonization.
+
+## answer_b
+Colonization
+
+## explanation_b
+Colonization is the establishment of proliferating microorganisms on skin or mucous membranes without clinical evidence of infection. The official MUST teaching directly supports Colonization for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Pathogenesis
+
+## explanation_c
+Incorrect. Infection, pathogenesis and invasion imply a different or later host–microbe state than the no-clinical-infection state defined here. The supported answer is B, Colonization.
+
+## answer_d
+Invasion
+
+## explanation_d
+Incorrect. Infection, pathogenesis and invasion imply a different or later host–microbe state than the no-clinical-infection state defined here. The supported answer is B, Colonization.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-EF7040395A6C7A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Colonization
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Identify colonization as microbial presence and proliferation without clinical disease.
+
+## source_citation
+Absalam101 Part 1, p30, Microbiology Chapter 6 Q9 (global Q99), printed key p36 (9 = B); official MUST Host-Microbe Relationship, p14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q9 (global Q99) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q102
+
+## title
+The carrier state refers to:
+
+## question
+The carrier state refers to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+A state where the individual has no symptoms but still sheds pathogens
+
+## explanation_a
+In the carrier state an infected individual has no apparent symptoms but may shed the organism. The official MUST teaching directly supports A state where the individual has no symptoms but still sheds pathogens for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+An infection that rapidly progresses to disease
+
+## explanation_b
+Incorrect. Carrier state is not rapid symptomatic progression, complete microbial elimination or successful resistance without infection. The supported answer is A, A state where the individual has no symptoms but still sheds pathogens.
+
+## answer_c
+The complete elimination of microbes from the body
+
+## explanation_c
+Incorrect. Carrier state is not rapid symptomatic progression, complete microbial elimination or successful resistance without infection. The supported answer is A, A state where the individual has no symptoms but still sheds pathogens.
+
+## answer_d
+The host resisting infection successfully
+
+## explanation_d
+Incorrect. Carrier state is not rapid symptomatic progression, complete microbial elimination or successful resistance without infection. The supported answer is A, A state where the individual has no symptoms but still sheds pathogens.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-C4C74A0874FF61
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Carrier state
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Recognise asymptomatic organism shedding as the defining carrier-state feature.
+
+## source_citation
+Absalam101 Part 1, p31, Microbiology Chapter 6 Q12 (global Q102), printed key p36 (12 = A); official MUST Host-Microbe Relationship, p16.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q12 (global Q102) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q104
+
+## title
+Virulence is:
+
+## question
+Virulence is:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+The degree of pathogenicity
+
+## explanation_a
+Virulence is the degree of pathogenicity of a microorganism. The official MUST teaching directly supports The degree of pathogenicity for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+The ability of bacteria to live inside a host
+
+## explanation_b
+Incorrect. Intrahost residence, mutualism and inability to cause disease do not express the degree of pathogenicity. The supported answer is A, The degree of pathogenicity.
+
+## answer_c
+A type of mutualistic relationship
+
+## explanation_c
+Incorrect. Intrahost residence, mutualism and inability to cause disease do not express the degree of pathogenicity. The supported answer is A, The degree of pathogenicity.
+
+## answer_d
+The inability of bacteria to cause disease
+
+## explanation_d
+Incorrect. Intrahost residence, mutualism and inability to cause disease do not express the degree of pathogenicity. The supported answer is A, The degree of pathogenicity.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-73DB8EF3A6C468
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Virulence
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Define virulence as the degree, rather than the mere presence, of pathogenicity.
+
+## source_citation
+Absalam101 Part 1, p31, Microbiology Chapter 6 Q14 (global Q104), printed key p36 (14 = A); official MUST Host-Microbe Relationship, p18.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q14 (global Q104) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q105
+
+## title
+Which of the following is NOT a bacterial virulence factor?
+
+## question
+Which of the following is NOT a bacterial virulence factor?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Ability to adhere to host cells
+
+## explanation_a
+Incorrect. Adherence, immune-defense resistance and toxin production are each explicitly listed virulence capabilities; the negatively worded inability-to-survive option is not. The supported answer is C, Inability to survive in the environment.
+
+## answer_b
+Ability to resist host immune defenses
+
+## explanation_b
+Incorrect. Adherence, immune-defense resistance and toxin production are each explicitly listed virulence capabilities; the negatively worded inability-to-survive option is not. The supported answer is C, Inability to survive in the environment.
+
+## answer_c
+Inability to survive in the environment
+
+## explanation_c
+Bacterial virulence factors include adherence, resistance to host defenses and toxin-mediated damage; inability to survive is not a virulence factor. The official MUST teaching directly supports Inability to survive in the environment for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Ability to produce toxins
+
+## explanation_d
+Incorrect. Adherence, immune-defense resistance and toxin production are each explicitly listed virulence capabilities; the negatively worded inability-to-survive option is not. The supported answer is C, Inability to survive in the environment.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-7569E187E87C2C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Virulence factors
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Exclude inability to survive from the governed list of positive bacterial virulence capabilities.
+
+## source_citation
+Absalam101 Part 1, p31, Microbiology Chapter 6 Q15 (global Q105), printed key p36 (15 = C); official MUST Host-Microbe Relationship, p19.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q15 (global Q105) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q110
+
+## title
+Which of the following is an example of antigenic variation?
+
+## question
+Which of the following is an example of antigenic variation?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Bacteria changing their surface proteins to evade the immune system
+
+## explanation_a
+Antigenic variation enables bacteria to change surface antigens and avoid immune destruction. The official MUST teaching directly supports Bacteria changing their surface proteins to evade the immune system for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Bacteria producing enzymes to break down host tissue
+
+## explanation_b
+Incorrect. Tissue-degrading enzymes, spore formation and antibiotic resistance are different mechanisms from immune evasion by changing surface antigens. The supported answer is A, Bacteria changing their surface proteins to evade the immune system.
+
+## answer_c
+Bacteria forming spores to survive harsh conditions
+
+## explanation_c
+Incorrect. Tissue-degrading enzymes, spore formation and antibiotic resistance are different mechanisms from immune evasion by changing surface antigens. The supported answer is A, Bacteria changing their surface proteins to evade the immune system.
+
+## answer_d
+Bacteria developing resistance to antibiotics
+
+## explanation_d
+Incorrect. Tissue-degrading enzymes, spore formation and antibiotic resistance are different mechanisms from immune evasion by changing surface antigens. The supported answer is A, Bacteria changing their surface proteins to evade the immune system.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-DC0BD5BA2F6A45
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Antigenic variation
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Identify immune-evasive alteration of bacterial surface antigens as antigenic variation.
+
+## source_citation
+Absalam101 Part 1, p33, Microbiology Chapter 6 Q20 (global Q110), printed key p36 (20 = A); official MUST Host-Microbe Relationship, p31.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q20 (global Q110) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q115
+
+## title
+Which of the following virulence factors helps bacteria escape phagocytosis?
+
+## question
+Which of the following virulence factors helps bacteria escape phagocytosis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Coagulase
+
+## explanation_a
+Incorrect. All three named factors are supported, so selecting only one does not satisfy the all-of-the-above item. The supported answer is D, All of the above.
+
+## answer_b
+Leukocidin
+
+## explanation_b
+Incorrect. All three named factors are supported, so selecting only one does not satisfy the all-of-the-above item. The supported answer is D, All of the above.
+
+## answer_c
+Protein A
+
+## explanation_c
+Incorrect. All three named factors are supported, so selecting only one does not satisfy the all-of-the-above item. The supported answer is D, All of the above.
+
+## answer_d
+All of the above
+
+## explanation_d
+Coagulase, leukocidin and staphylococcal Protein A each contribute to escape from phagocytosis. The official MUST teaching directly supports All of the above for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-D777E19C7E75DB
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Antiphagocytic factors
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Recognise coagulase, leukocidin and Protein A as three antiphagocytic virulence factors.
+
+## source_citation
+Absalam101 Part 1, p34, Microbiology Chapter 6 Q25 (global Q115), printed key p36 (25 = D); official MUST Host-Microbe Relationship, p27, 30.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q25 (global Q115) = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q116
+
+## title
+Bacteria obtain iron in the host using:
+
+## question
+Bacteria obtain iron in the host using:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Pili
+
+## explanation_a
+Incorrect. Pili, exotoxins and capsule are not the iron-chelating molecules named in the governed teaching. The supported answer is B, Siderophores.
+
+## answer_b
+Siderophores
+
+## explanation_b
+Bacteria produce iron-chelating siderophores to obtain iron sequestered by host iron-binding proteins. The official MUST teaching directly supports Siderophores for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Exotoxins
+
+## explanation_c
+Incorrect. Pili, exotoxins and capsule are not the iron-chelating molecules named in the governed teaching. The supported answer is B, Siderophores.
+
+## answer_d
+Capsule
+
+## explanation_d
+Incorrect. Pili, exotoxins and capsule are not the iron-chelating molecules named in the governed teaching. The supported answer is B, Siderophores.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-650AF5666E18A2
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Iron acquisition
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Identify siderophores as the bacterial mechanism for obtaining host-sequestered iron.
+
+## source_citation
+Absalam101 Part 1, p34, Microbiology Chapter 6 Q26 (global Q116), printed key p36 (26 = B); official MUST Host-Microbe Relationship, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q26 (global Q116) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q117
+
+## title
+Which bacterial enzyme converts fibrinogen into fibrin to protect bacteria from phagocytosis?
+
+## question
+Which bacterial enzyme converts fibrinogen into fibrin to protect bacteria from phagocytosis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_e4b2f7ce3e55fad37c9a without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Hyaluronidase
+
+## explanation_a
+Incorrect. Hyaluronidase and collagenase spread through connective tissue, while lecithinase disrupts phospholipid membranes; none performs the fibrinogen-to-fibrin step. The supported answer is B, Coagulase.
+
+## answer_b
+Coagulase
+
+## explanation_b
+Coagulase converts plasma fibrinogen to fibrin, depositing fibrin on the organism and protecting it from phagocytes. The official MUST teaching directly supports Coagulase for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Collagenase
+
+## explanation_c
+Incorrect. Hyaluronidase and collagenase spread through connective tissue, while lecithinase disrupts phospholipid membranes; none performs the fibrinogen-to-fibrin step. The supported answer is B, Coagulase.
+
+## answer_d
+Lecithinase
+
+## explanation_d
+Incorrect. Hyaluronidase and collagenase spread through connective tissue, while lecithinase disrupts phospholipid membranes; none performs the fibrinogen-to-fibrin step. The supported answer is B, Coagulase.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-8C390C9DA26E6D
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Coagulase
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRULENCE-EVASION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_e4b2f7ce3e55fad37c9a
+
+## learning_objective
+Identify coagulase as the enzyme producing a protective fibrin coat around bacteria.
+
+## source_citation
+Absalam101 Part 1, p34–35, Microbiology Chapter 6 Q27 (global Q117), printed key p36 (27 = B); official MUST Host-Microbe Relationship, p30.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 6 Q27 (global Q117) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

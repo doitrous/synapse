@@ -357,3 +357,403 @@ The official MUST teaching deck directly supports the unchanged printed global Q
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q94-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q94-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching identifies normally harmless flora becoming harmful after weakened host defenses or a change from their natural habitat.
+
+## locator_type
+page
+
+## locator_page
+7–8
+
+## locator_section
+Host-Microbe Relationship — Opportunistic pathogens
+
+## locator_detail
+PDF page 7–8, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q94 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q95-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q95-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching lists habitat change, broad-spectrum antimicrobial use and weak host defenses as conditions under which normal flora may cause harm.
+
+## locator_type
+page
+
+## locator_page
+7–8
+
+## locator_section
+Host-Microbe Relationship — Normal-flora disruption
+
+## locator_detail
+PDF page 7–8, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q95 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q99-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q99-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching defines colonization as proliferating microorganisms established on skin or mucous membranes without clinical evidence of infection.
+
+## locator_type
+page
+
+## locator_page
+14
+
+## locator_section
+Host-Microbe Relationship — Colonization
+
+## locator_detail
+PDF page 14, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q99 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q102-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q102-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed infection-outcomes slide defines the carrier state as no apparent symptoms while organisms may shed.
+
+## locator_type
+page
+
+## locator_page
+16
+
+## locator_section
+Host-Microbe Relationship — Carrier state
+
+## locator_detail
+PDF page 16, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q102 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q104-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q104-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching directly defines virulence as the degree of pathogenicity.
+
+## locator_type
+page
+
+## locator_page
+18
+
+## locator_section
+Host-Microbe Relationship — Virulence
+
+## locator_detail
+PDF page 18, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q104 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q105-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q105-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching lists adherence, resistance to host immune defense, intracellular survival, antigenic variation, iron competition and toxin or inflammatory damage as virulence factors.
+
+## locator_type
+page
+
+## locator_page
+19
+
+## locator_section
+Host-Microbe Relationship — Virulence factors
+
+## locator_detail
+PDF page 19, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q105 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q110-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q110-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching defines antigenic variation as changing surface antigens to avoid immune destruction.
+
+## locator_type
+page
+
+## locator_page
+31
+
+## locator_section
+Host-Microbe Relationship — Antigenic variation
+
+## locator_detail
+PDF page 31, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q110 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q115-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q115-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching identifies Protein A as antiphagocytic and states that coagulase-mediated fibrin deposition and leukocidin-mediated phagocyte destruction help organisms escape phagocytosis.
+
+## locator_type
+page
+
+## locator_page
+27, 30
+
+## locator_section
+Host-Microbe Relationship — Antiphagocytic factors
+
+## locator_detail
+PDF page 27, 30, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q115 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q116-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q116-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching states that bacteria produce iron chelators called siderophores to trap iron sequestered by body iron-binding proteins.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Host-Microbe Relationship — Iron acquisition
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q116 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q117-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q117-01
+
+## resource_id
+src_e4b2f7ce3e55fad37c9a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching states that coagulase converts plasma fibrinogen to fibrin, causing surface fibrin deposition that protects the organism from phagocytes.
+
+## locator_type
+page
+
+## locator_page
+30
+
+## locator_section
+Host-Microbe Relationship — Coagulase
+
+## locator_detail
+PDF page 30, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q117 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
