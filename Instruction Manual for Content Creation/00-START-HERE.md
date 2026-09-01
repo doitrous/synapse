@@ -86,6 +86,34 @@ explanations lean on "the book says" is not finished, however clean `medical:bat
 
 ---
 
+## 0.5 · How an agent works — token discipline (in force 2026-09-01)
+
+Quality bars never move (the law of priority and the law of voice above, §3 ids, §4
+search-before-mint, 05's explanation bar). What changed is how you reach them:
+
+1. **Read the LANE-CARD first, the manual only at a wall.** Every lane has
+   `docs/<University>-Source-Imports/LANE-CARD.md` (≤ 2 pages). Your dispatch names it.
+   Do not open 00/05/13/SHARED-TOOLCHAIN unless the card's §8 sends you there for a
+   specific wall — then read that section only.
+2. **Text, not pictures.** Every PDF is extracted once and cached:
+   `node scripts/content/pagetext.mjs show "<pdf>" --pages a-b` (≤ 3 pages per call;
+   `status` first). A page may be rendered as an image only after `mark-garbled` — and
+   then only that page. Keys already recorded in a lane's triage file with page + method
+   are the authority; do not re-look.
+3. **Seed → emit → gate.** You write the medicine (stem, options, explanations, concept
+   choice) in a seed JSON (`scripts/content/seed.schema.md`); `emit-mcq.mjs` writes the
+   format. Never hand-edit a generated batch — fix the seed and re-emit.
+4. **Quiet gates.** `node scripts/content/gate.mjs batch|simulate|audit …` — read the
+   ≤ 12-line summary; the full log is in `.gates/` (gitignored) for when the summary
+   shows errors. `simulate` takes files positionally, in apply order, never `--with`.
+5. **Ledger, not archaeology.** Progress is `coverage/<lane>-LEDGER.md` from
+   `node scripts/content/ledger.mjs`. Never reconstruct "what is done" by reading batch
+   files.
+6. **One cluster per dispatch (~20–50 questions), commit + push every 5–10.** A death
+   costs minutes, not a module.
+
+---
+
 ## Roles and the chain of command
 
 The former per-lane "orchestrator" sessions and the single "chief of staff" session are
@@ -974,6 +1002,11 @@ below show `docs/import-ready/<kind>/` as the path — substitute your actual ro
 
 Verify these names against `package.json` before typing one from memory — the list above
 matches this checkout today, not a promise about tomorrow's.
+
+Run `medical:batch`, `medical:simulate` and `medical:audit` through
+`node scripts/content/gate.mjs batch|simulate|audit …` (§0.5) — same gates, same exit
+codes, summarised output (full JSON logged to `.gates/`). The other gates in the table
+above have no wrapper yet; run their npm scripts directly.
 
 - **Only `medical:batch` accepts `--with`.** That flag, and the *"name its concept file
   with `--with`"* hint, live solely in `scripts/validate-content-batch.mjs` — grep it,

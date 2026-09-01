@@ -20,6 +20,20 @@ The only columns a complete five-option question legitimately omits are `answer_
 
 ---
 
+## Authoring route: seed → emit-mcq
+
+For lanes that hand-write MCQ batches today (Ain Shams, Alexandria, MUST, future
+Mansoura/Menoufia), the default way to reach the field list below is a seed JSON
+(`scripts/content/seed.schema.md`) run through `node scripts/content/emit-mcq.mjs <seed>
+--out <batch.md>` — not typing the 50 columns by hand. The agent writes the medicine
+(stem, options, explanations, concept choice); the tool writes the format, deterministically,
+and enforces the explanation-length and printed-key rules at emit time. The field reference
+below is unchanged either way: it is what the emitted record contains, and it is exactly
+what a hand-authored written question still uses. Kasr keeps its own generator
+(`scripts/kasr/build-batches.ts`) and is not part of this route.
+
+---
+
 ## §A · The law of priority, for questions
 
 A question exists so a student can rehearse an exam their university actually sets. That

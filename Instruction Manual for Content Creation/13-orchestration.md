@@ -170,7 +170,8 @@ module's coverage ledger.
 | Stage | What happens | Output | Gate (npm script) | Sign-off |
 |---|---|---|---|---|
 | **S0 Intake** | Build the source manifest: sha256, `textLayer`, name-twins (`nameTwinOf` / `twinPreferred`), tier, sitting year by exam type, module | `manifest/` | manifest validates; twins resolved; tier ≤5 | Orchestrator |
-| **S1 Triage** | Read every printed question, recover keys, assign each question the concept it tests, search live + every `docs/*-Source-Imports` + `docs/import-ready` for that concept → live / pending / new | the triage table (§5) | the triage checkpoint itself | Orchestrator — **"TRIAGE APPROVED"** |
+| **S1b Extraction cache** | One `pagetext.mjs` pass per source PDF (extract once, sha256-keyed, cached outside the repo); commit `coverage/<lane>-readability-index.md` from `node scripts/content/pagetext.mjs index <dir> --out <file>` | `coverage/<lane>-readability-index.md` | index committed; garbled pages named | Orchestrator |
+| **S1 Triage** | Read every printed question via cached text (`pagetext.mjs show`/`status`, never re-extract), recover keys, assign each question the concept it tests, search live + every `docs/*-Source-Imports` + `docs/import-ready` for that concept → live / pending / new | the triage table (§5) | the triage checkpoint itself | Orchestrator — **"TRIAGE APPROVED"** |
 | **S2 Build** | Author concepts (definition, `explicit_objective`, `canonical_key`, `exam_signal`, `evidence_gaps`) → articles covering every tested concept → questions (MCQ / written / practical) | `concept/`, `article/`, `question/`, `written/`, `practical/` | `medical:batch`, `medical:concept-ids`, `medical:presence` | Subagent, gate lines in the commit body |
 | **S3 Tag & place** | Taxonomy placement (canonical node, subject ∈ the 20, module id with university prefix for non-Kasr, `module_subject`, microtopic), non-empty `universities`, years, blueprint weights, difficulty, cognitive fields, `exam_weight_by_year`. **Per-university completeness**: every university named in `universities` also has its own year id(s), module id(s), `module_subject` path and `exam_weight_by_year` key — see 00 §3, "Per-university traceability" | same files, in place | the catalogue check inside `medical:batch` (`57ef0d4`); placement resolves; no blank required tag; consistency check across `universities` ↔ `years` ↔ `module` ↔ `exam_weight_by_year` keys is in progress as of 2026-08-23, not yet enforced | Subagent |
 | **S4 Relate** | Typed concept relations with evidence (03); article ↔ concept links both directions (`article.related_concepts` and `concept.article_ids`) | `relations/` | relations batch validates; every question's main concept is covered by an article in its `library_ids` | Subagent |
@@ -438,20 +439,52 @@ One line each, with the date it actually bit, so nobody re-discovers these the h
 | Import batch "clear" vs. blank has two different meanings | Whether a blank cell means "leave the existing value alone" or "wipe the field" — and whether `[clear]` is even the right directive to force a wipe — depends on which kind of batch (concept/article/question/practical/etc.) is parsing the row; the same-looking cell is correct in one batch kind and silently wrong in another, and both wrong forms still pass every automated gate | Cross-university, recurring — check the specific kind's parser (`src/data/importSemantics.ts` and the per-kind batch builder) rather than assuming one convention holds everywhere |
 | Live-DB import can silently un-publish everything it just imported *(RESOLVED 2026-08-28 — fixed at the source)* | The import script used to record the *pre-import* value in the newest `app_state_versions` row, desyncing the version baseline from what was actually written — content landed live but any publish click on it then reverted, because the baseline the publish flow trusts was stale | Hit during the 2026-08-27 live import. `scripts/apply-content-import-to-db.mjs` now writes the newest `app_state_versions` row with the same value it commits to `app_state`, in the same transaction (see the callout in §2), so the desync can no longer occur — the separate `repair-content-version-baseline.mjs --commit` pass is no longer a required step. A post-import sanity check (newest version == `app_state`) is still good practice |
 | Law-of-voice backlog predates the rule | The law of voice (§3) — student-facing text states the medicine directly, never "the department book says" — was only imposed as a standing rule on 2026-08-28. On the day it was issued, roughly 2,857 existing student-facing lines already on `main` still violated it. It is a live authoring rule for everything written from here on, and a known, quantified, not-yet-scheduled cleanup debt for what was written before it, generated Kasr content included (fix the seed/extract input, then regenerate — never hand-edit the generated `.md`, per §9) | Identified 2026-08-28; cleanup pass not yet started as of this revision |
+| `medical:simulate --with` silently drops files | `medical:simulate` has no `--with` flag; passing one anyway is parsed as the value of a `--something` token, silently dropping every file after it, still exits 0, still reports `errors: []` | Use `node scripts/content/gate.mjs simulate <files, positional, apply order>` (§0.5 in `00-START-HERE.md`) — it rejects a `--with` outright instead of silently dropping the file |
+| Render-heavy lanes die at the 600 s watchdog | A subagent that renders every page to an image before reading it burns most of a dispatch's wall-clock budget on rendering alone, and a wave of such subagents gets killed mid-run when the watchdog fires | Cache text once per PDF (`pagetext.mjs`, S1b above) and render only pages `mark-garbled` has flagged — `render` itself refuses an unmarked page |
+| Stale brief triggers a re-derivation expedition | A dispatch brief written from memory of "what's probably left" sends a subagent re-triaging or re-reading material that is already done, burning a dispatch on rediscovery instead of new work | Every dispatch carries a ledger delta (`node scripts/content/ledger.mjs <seed-dir> --triage <keys> --out coverage/<lane>-LEDGER.md`, §11 below) — the ledger, not the brief author's memory, is the source of what remains |
+| Hand-edited generated batch destroyed by regen | Same failure as the `removeOrphans` and "hand edits to generated batches" hazards above, now with a seed-authored source: editing the `.md` `emit-mcq.mjs` produced looks safe until the seed is re-emitted (or the lane regenerates) and the hand edit vanishes with no warning | Seeds only — fix `scripts/content/emit-mcq.mjs`'s input JSON and re-run `content:emit`, never touch the emitted `.md` by hand |
 
 ---
 
 ## 11 · Templates
 
-### LANE-BRIEF skeleton
+### DISPATCH skeleton (one cluster)
 
-This grew out of the retired two-layer model, where each per-lane orchestrator session held
-one of these and kept it current. With that layer gone, the single orchestrator either
-keeps the equivalent content for itself (folded into `docs/chief-of-staff/BOARD.md` /
-`HANDOFF.md`, per §2) or bakes the same information straight into each subagent's dispatch
-prompt — but the shape below is still the right checklist for "what does a lane's context
-need to include" either way. No live example ships in this worktree; treat the shape below
-as the contract, not a file to go copy.
+Since the token-discipline pass (00 §0.5, 2026-09-01), a subagent's context is a
+LANE-CARD (`docs/<University>-Source-Imports/LANE-CARD.md`, ≤ 2 pages, Task 4 of the
+content-pipeline refit) plus one of these — not the manual, and not a full LANE-BRIEF.
+The orchestrator still keeps lane-level state for itself (folded into
+`docs/chief-of-staff/BOARD.md` / `HANDOFF.md`, per §2); this is what it hands a subagent
+per dispatch:
+
+```markdown
+### DISPATCH skeleton (one cluster)
+- Read: `docs/<Uni>-Source-Imports/LANE-CARD.md` (only).
+- Base: `<branch>@<sha>`. Worktree off it. `ln -s` node_modules from the main checkout.
+- Scope: cluster `<name>` — ledger delta: authored <n>, held <n>, remaining <n> (keys: <list or path>).
+- Sources: `<pdf path>` pages <a–b> via pagetext (already cached; garbled pages: <list>).
+- Do: seed → emit → gate batch (--with <files>) → gate simulate (<files, apply order>) → ledger → commit+push every 5–10 q.
+- Stop at: <n> questions or any wall. Report ≤ 20 lines, ends `HANDOFF: <branch>@<sha> · resume-first: <next>`.
+```
+
+**Standing law that still applies and is not restated on the card itself** (carried
+forward from the retired LANE-BRIEF skeleton — the card's own §2 "ten rules" covers the
+per-record ones; these are the dispatch-level ones):
+
+- Priority order (00 §0, the law of priority): papers+keys > department files >
+  notes/academy (tier ≤5) > textbooks (cited).
+- Triage checkpoint before minting (§5 of this file) — wait for "TRIAGE APPROVED"; a
+  cluster dispatch never mints a concept id the triage table did not already place.
+- One lane per (module, department); `CLAIMS.md` rows before writing, so two dispatches
+  never claim the same cluster.
+- Report format ≤ 20 lines (§3 of this file), ending with the `HANDOFF:` line above.
+
+### LANE-BRIEF skeleton (lane onboarding — one per session, not per dispatch)
+
+The DISPATCH skeleton above is what a subagent receives for one cluster of work. This is
+what still establishes a whole lane/session in the first place — university, roots,
+modules in scope — before any dispatch is written against it. No live example ships in
+this worktree; treat the shape below as the contract, not a file to go copy.
 
 ```markdown
 # LANE-BRIEF — <University> Year <N>
@@ -467,14 +500,11 @@ Import root: docs/<University>-Source-Imports/
 Subfolders: manifest/ coverage/ concept/ article/ question/ written/ practical/
             evidence/ relations/ glossary/ pending-live/
 Shared toolchain: scripts/<uni>/ (copied from scripts/kasr/, never edits Kasr's files)
+LANE-CARD: docs/<University>-Source-Imports/LANE-CARD.md (what every dispatch reads)
 
 ## Rules
-- Priority order (00 §A): papers+keys > department files > notes/academy (tier ≤5) >
-  textbooks (cited).
-- Search before mint (00 §4). Sparse update on a live or pending hit, never a full record.
-- Triage checkpoint before minting (§5 of this file) — wait for "TRIAGE APPROVED".
-- One lane per (module, department); CLAIMS.md rows before writing.
-- Report format §3 of this file, ≤20 lines, end of turn.
+See "Standing law" under the DISPATCH skeleton above, plus: search before mint (00 §4),
+sparse update on a live or pending hit, never a full record.
 
 ## Hazards specific to this lane
 <name-twin behaviour, missing Telegram source, curriculum-move modules, whatever this
