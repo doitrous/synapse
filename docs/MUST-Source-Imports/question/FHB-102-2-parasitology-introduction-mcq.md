@@ -18845,3 +18845,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize Advanced MCQ Q26 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q28
+
+## title
+What is the primary method of preventing mosquito-borne diseases in endemic areas?
+
+## question
+What is the primary method of preventing mosquito-borne diseases in endemic areas?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Vaccinating all domestic animals
+
+## explanation_a
+Incorrect. Vaccinating domestic animals, removing all standing water and spraying antibiotics are not the governed personal-protection measures for endemic-area prevention. The supported answer is B, Using mosquito nets and insect repellents.
+
+## answer_b
+Using mosquito nets and insect repellents
+
+## explanation_b
+Sleeping under insecticide-impregnated mosquito nets and using insect repellents such as citronella oil, eucalyptus oil or synthetic repellents are personal-protection measures recommended for endemic areas. The governed university slide directly supports Using mosquito nets and insect repellents for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Removing all standing water sources
+
+## explanation_c
+Incorrect. Vaccinating domestic animals, removing all standing water and spraying antibiotics are not the governed personal-protection measures for endemic-area prevention. The supported answer is B, Using mosquito nets and insect repellents.
+
+## answer_d
+Spraying adult mosquitoes with antibiotics
+
+## explanation_d
+Incorrect. Vaccinating domestic animals, removing all standing water and spraying antibiotics are not the governed personal-protection measures for endemic-area prevention. The supported answer is B, Using mosquito nets and insect repellents.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D74B6E15A2C938
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Personal mosquito protection
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify mosquito nets and insect repellents as personal-protection measures against mosquito-borne disease in endemic areas.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p27 Mucize Advanced MCQ Q28, printed key p28 (28 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p41–42.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Advanced MCQ Q28 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

@@ -5453,3 +5453,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Advanced MCQ Q26
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q28-01
+
+## concept_id
+CON-INF-D74B6E15A2C938
+
+## subject
+Mosquito nets and insect repellents are personal-protection measures in endemic areas
+
+## predicate
+states
+
+## object
+Sleeping under insecticide-impregnated mosquito nets and using insect repellents such as citronella oil, eucalyptus oil or synthetic repellents are personal-protection measures recommended for endemic areas.
+
+## display_text
+Sleeping under insecticide-impregnated mosquito nets and using insect repellents such as citronella oil, eucalyptus oil or synthetic repellents are personal-protection measures recommended for endemic areas.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Advanced MCQ Q28

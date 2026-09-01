@@ -2725,3 +2725,25 @@ CLM-INF-MUST-FHB1022-MUCIZEADV-Q26-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q28-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Sleeping under insecticide-impregnated mosquito nets and using insect repellents such as citronella oil, eucalyptus oil or synthetic repellents are personal-protection measures recommended for endemic areas.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q28-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q28-01

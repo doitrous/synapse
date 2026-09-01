@@ -4957,3 +4957,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q28-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q28-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official adult-control slide recommends sleeping under mosquito nets in endemic areas, with nets that may be impregnated with insecticides, and the following repellents slide lists citronella oil, eucalyptus oil and synthetic repellents such as Indalone applied to bare skin or clothing.
+
+## locator_type
+page
+
+## locator_page
+41–42
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Personal mosquito protection
+
+## locator_detail
+PDF page 41–42, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Advanced MCQ Q28 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
