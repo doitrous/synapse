@@ -2194,3 +2194,915 @@ rejectedMergeCandidateIds: concept_b976208980c6167c35ff80fa — broader list of 
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-A4C8D2136F90B7
+
+## label
+Insecta and Arachnida differ by leg-pair count
+
+## canonical_key
+parasitology.arthropods.insecta-arachnida-leg-count
+
+## aliases
+Insect and arachnid leg counts
+Three versus four pairs of arthropod legs
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Insects typically have three pairs of legs.
+
+## explicit_objective
+Identify three pairs of legs as the typical Class Insecta pattern.
+
+## pitfalls
+Four pairs of legs identifies Arachnida in the local classification; one or two pairs do not match either taught class.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Arthropod classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Arthropod classification
+
+## article_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q31-01
+CLM-INF-MUST-FHB1022-INTRO-Q32-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p10 Arthropoda Q1 (global Q31); printed answer p18
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p10 Arthropoda Q2 (global Q32); printed answer p18
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p3 direct university teaching
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p4 direct university teaching
+
+## original_wording
+How many pairs of legs do insects typically have? Printed key C; options retained in their original order.
+How many pairs of legs do arachnids have? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q31. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Absalam Introduction Q32. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-1E7B4A9D306FC2
+
+## label
+Complete metamorphosis is holometabolous
+
+## canonical_key
+parasitology.arthropods.complete-metamorphosis-holometabolous
+
+## aliases
+Holometabolous metamorphosis
+Complete arthropod metamorphosis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Complete metamorphosis is called holometabolous metamorphosis.
+
+## explicit_objective
+Identify holometabolous as the term for complete metamorphosis.
+
+## pitfalls
+Hemimetabolous describes incomplete metamorphosis and is not interchangeable with holometabolous.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Metamorphosis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Metamorphosis
+
+## article_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY
+ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q33-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p10 Arthropoda Q3 (global Q33); printed answer p18
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p7–8 direct university teaching
+
+## original_wording
+What type of metamorphosis is called complete metamorphosis? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_ee09278739800fd98031c61a
+concept_3f0bf457e07d8f6c5ffebc19
+concept_5ff9a835b91d24b057877b28
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q33. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_ee09278739800fd98031c61a — Chrysops-specific complete-metamorphosis example; not the general holometabolous definition. concept_3f0bf457e07d8f6c5ffebc19 — sand-fly-specific complete-metamorphosis example; not the general definition. concept_5ff9a835b91d24b057877b28 — housefly-specific complete-metamorphosis example; not the general definition.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-7C2E91B4F805AD
+
+## label
+Transovarian transmission passes pathogens to offspring
+
+## canonical_key
+parasitology.vector-transmission.transovarian
+
+## aliases
+Vertical arthropod transmission
+Pathogen passage through arthropod eggs
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
+## explicit_objective
+Identify transovarian transmission as arthropod-to-offspring pathogen passage.
+
+## pitfalls
+Propagative, cyclopropagative and cyclodevelopmental describe events in the vector rather than transmission to offspring.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Transovarian transmission
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Transovarian transmission
+
+## article_ids
+ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q40-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p12 Arthropoda Q10 (global Q40); printed answer p18
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p15 direct university teaching
+
+## original_wording
+What is the term for arthropods transmitting pathogens to offspring? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_649287c6052c87091710dd54
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q40. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_649287c6052c87091710dd54 — narrower hard-tick transovarian-maintenance example; not the general offspring-transmission definition.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-5D8A2F31C7E604
+
+## label
+Stomoxys has a piercing and sucking proboscis
+
+## canonical_key
+parasitology.muscidae.stomoxys-piercing-sucking-proboscis
+
+## aliases
+Stable-fly proboscis
+Stomoxys calcitrans mouthparts
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Stomoxys calcitrans has a piercing and sucking proboscis.
+
+## explicit_objective
+Identify the piercing and sucking proboscis as a distinguishing Stomoxys feature.
+
+## pitfalls
+The stable fly is winged and blood-feeding; its proboscis is not adapted only for nectar and does not bite without sucking.
+
+## concept_type
+morphology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Muscidae identification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Muscidae identification
+
+## article_ids
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q41-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p13 Arthropoda Q11 (global Q41); printed answer p18
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p22–23 direct university teaching
+
+## original_wording
+What is the distinguishing feature of Stomoxys calcitrans (Stable fly)? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q41. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-9B3C7E21A5D840
+
+## label
+Musca larva has a D-shaped posterior spiracle
+
+## canonical_key
+parasitology.muscidae.musca-posterior-spiracle
+
+## aliases
+Housefly posterior spiracle
+Musca domestica larval spiracle morphology
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
+## explicit_objective
+Recognise the D-shaped posterior spiracle, medial button and three M-shaped sinuous slits of Musca larvae.
+
+## pitfalls
+Triangular complete-peritreme and rounded incomplete-peritreme patterns belong to other fly larvae in the comparison table.
+
+## concept_type
+morphology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Muscidae identification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Muscidae identification
+
+## article_ids
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q44-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p14 Arthropoda Q14 (global Q44); printed answer p18
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p28 direct university teaching
+
+## original_wording
+What is the shape of Musca domestica larva’s posterior spiracle? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_c5d51a3d11cc596d324e5761
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q44. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_c5d51a3d11cc596d324e5761 — broader posterior-spiracle morphology identity; not the Musca-specific D-shaped pattern.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.

@@ -305,3 +305,135 @@ CLM-INF-MUST-FHB1022-INTRO-Q25-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-INTRO-Q25-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q31-01
+
+## article_id
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY
+
+## section_id
+art-inf-must-fhb1022-arthropod-class-morphology-definition
+
+## text
+Insects typically have three pairs of legs.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q31-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q31-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q32-01
+
+## article_id
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY
+
+## section_id
+art-inf-must-fhb1022-arthropod-class-morphology-definition
+
+## text
+Arachnids have four pairs of legs.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q32-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q32-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q33-01
+
+## article_id
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## section_id
+art-inf-must-fhb1022-arthropod-metamorphosis-definition
+
+## text
+Complete metamorphosis is called holometabolous metamorphosis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q33-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q33-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q40-01
+
+## article_id
+ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION
+
+## section_id
+art-inf-must-fhb1022-transovarian-transmission-definition
+
+## text
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q40-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q40-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q41-01
+
+## article_id
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-muscid-identification-definition
+
+## text
+Stomoxys calcitrans has a piercing and sucking proboscis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q41-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q41-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q44-01
+
+## article_id
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-muscid-identification-definition
+
+## text
+Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q44-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q44-01

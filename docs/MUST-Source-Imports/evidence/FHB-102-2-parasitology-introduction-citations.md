@@ -557,3 +557,243 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Q25
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q31-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q31-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Class Insecta: 3 pairs of legs.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Introduction to Medical Parasitology — Arthropod classification
+
+## locator_detail
+PDF page 3, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q31 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q32-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q32-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Class Arachnida: 4 pairs of legs.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Introduction to Medical Parasitology — Arthropod classification
+
+## locator_detail
+PDF page 4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q32 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q33-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q33-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Complete metamorphosis: Holometabolous.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Introduction to Medical Parasitology — Metamorphosis
+
+## locator_detail
+PDF page 7–8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q33 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q40-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q40-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Trans-ovarian transmission: the infective agent is passed to the offspring.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+Introduction to Medical Parasitology — Transovarian transmission
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q40 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q41-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q41-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Stomoxys calcitrans: proboscis piercing and sucking.
+
+## locator_type
+page
+
+## locator_page
+23
+
+## locator_section
+Introduction to Medical Parasitology — Muscidae identification
+
+## locator_detail
+PDF page 22–23, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q41 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q44-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q44-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Musca posterior spiracles: D-shaped, medial button, 3 M-shaped sinuous slits.
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Introduction to Medical Parasitology — Muscidae identification
+
+## locator_detail
+PDF page 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q44 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

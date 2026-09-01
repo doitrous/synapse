@@ -124,6 +124,7 @@ CON-INF-7400B05B6501D2
 
 ## related_articles
 ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE: Cyclopropagative transmission in arthropod vectors
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION: Muscidae identification: Stomoxys and Musca
 
 ## question_ids
 QST-MUST-FHB1022-PARA-VECT-Q12
@@ -184,4 +185,4 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after the first review is completed.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Prior local vector reading is linked without requiring a new typed relation.
+relatedArticles: The prior cyclopropagative link is preserved. The Muscidae identification article is a reciprocal complete record in the same bounded import and supplies a direct posterior-spiracle comparison.

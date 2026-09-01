@@ -613,3 +613,267 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Absalam Introduction Q25
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q31-01
+
+## concept_id
+CON-INF-A4C8D2136F90B7
+
+## subject
+Insecta and Arachnida differ by leg-pair count
+
+## predicate
+states
+
+## object
+Insects typically have three pairs of legs.
+
+## display_text
+Insects typically have three pairs of legs.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q1 (global Q31)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q32-01
+
+## concept_id
+CON-INF-A4C8D2136F90B7
+
+## subject
+Insecta and Arachnida differ by leg-pair count
+
+## predicate
+states
+
+## object
+Arachnids have four pairs of legs.
+
+## display_text
+Arachnids have four pairs of legs.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q2 (global Q32)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q33-01
+
+## concept_id
+CON-INF-1E7B4A9D306FC2
+
+## subject
+Complete metamorphosis is holometabolous
+
+## predicate
+states
+
+## object
+Complete metamorphosis is called holometabolous metamorphosis.
+
+## display_text
+Complete metamorphosis is called holometabolous metamorphosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q3 (global Q33)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q40-01
+
+## concept_id
+CON-INF-7C2E91B4F805AD
+
+## subject
+Transovarian transmission passes pathogens to offspring
+
+## predicate
+states
+
+## object
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
+## display_text
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q10 (global Q40)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q41-01
+
+## concept_id
+CON-INF-5D8A2F31C7E604
+
+## subject
+Stomoxys has a piercing and sucking proboscis
+
+## predicate
+states
+
+## object
+Stomoxys calcitrans has a piercing and sucking proboscis.
+
+## display_text
+Stomoxys calcitrans has a piercing and sucking proboscis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q11 (global Q41)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q44-01
+
+## concept_id
+CON-INF-9B3C7E21A5D840
+
+## subject
+Musca larva has a D-shaped posterior spiracle
+
+## predicate
+states
+
+## object
+Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
+## display_text
+Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q14 (global Q44)

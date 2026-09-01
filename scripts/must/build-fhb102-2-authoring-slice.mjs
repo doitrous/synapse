@@ -50,6 +50,11 @@ const introArticles = {
   helminths: 'ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY',
   locomotion: 'ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION',
   transmission: 'ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES',
+  arthropodClasses: 'ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY',
+  arthropodMetamorphosis: 'ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS',
+  transovarian: 'ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION',
+  muscidIdentification: 'ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION',
+  sarcophaga: sarcoArticleId,
 }
 
 const introArticleRelations = {
@@ -58,6 +63,10 @@ const introArticleRelations = {
   helminths: ['definitions', 'classification'],
   locomotion: ['classification', 'transmission'],
   transmission: ['classification', 'locomotion'],
+  arthropodClasses: ['arthropodMetamorphosis'],
+  arthropodMetamorphosis: ['arthropodClasses', 'transovarian'],
+  transovarian: ['arthropodMetamorphosis'],
+  muscidIdentification: ['sarcophaga'],
 }
 
 const introItems = [
@@ -214,6 +223,78 @@ const introItems = [
     objective: 'Identify complete host dependence as the defining feature of an obligatory parasite.',
     pitfalls: 'Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts.',
     rejected: ['concept_b976208980c6167c35ff80fa — broader list of endoparasite categories; not the complete host-dependence definition.'],
+  },
+  {
+    q: 31, bankQ: 1, conceptId: 'CON-INF-A4C8D2136F90B7', canonicalKey: 'parasitology.arthropods.insecta-arachnida-leg-count',
+    label: 'Insecta and Arachnida differ by leg-pair count', aliases: ['Insect and arachnid leg counts', 'Three versus four pairs of arthropod legs'], conceptType: 'classification',
+    article: 'arthropodClasses', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Arthropod classification', page: 3, assessmentPage: 10,
+    teachingResourceId: myiasisResourceId,
+    stem: 'How many pairs of legs do insects typically have?', key: 'C', options: ['1', '2', '3', '4'],
+    claim: 'Insects typically have three pairs of legs.',
+    support: 'Class Insecta: 3 pairs of legs.',
+    objective: 'Identify three pairs of legs as the typical Class Insecta pattern.',
+    pitfalls: 'Four pairs of legs identifies Arachnida in the local classification; one or two pairs do not match either taught class.',
+    rejected: [],
+  },
+  {
+    q: 32, bankQ: 2, conceptId: 'CON-INF-A4C8D2136F90B7', canonicalKey: 'parasitology.arthropods.insecta-arachnida-leg-count',
+    label: 'Insecta and Arachnida differ by leg-pair count', aliases: ['Insect and arachnid leg counts', 'Three versus four pairs of arthropod legs'], conceptType: 'classification',
+    article: 'arthropodClasses', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Arthropod classification', page: 4, assessmentPage: 10,
+    teachingResourceId: myiasisResourceId,
+    stem: 'How many pairs of legs do arachnids have?', key: 'C', options: ['2', '3', '4', '5'],
+    claim: 'Arachnids have four pairs of legs.',
+    support: 'Class Arachnida: 4 pairs of legs.',
+    objective: 'Identify four pairs of legs as the Class Arachnida pattern.',
+    pitfalls: 'Three pairs of legs identifies Insecta; two or five pairs do not match the local arthropod-classification slide.',
+    rejected: [],
+  },
+  {
+    q: 33, bankQ: 3, conceptId: 'CON-INF-1E7B4A9D306FC2', canonicalKey: 'parasitology.arthropods.complete-metamorphosis-holometabolous',
+    label: 'Complete metamorphosis is holometabolous', aliases: ['Holometabolous metamorphosis', 'Complete arthropod metamorphosis'], conceptType: 'definition',
+    article: 'arthropodMetamorphosis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Metamorphosis', page: 8, teachingPages: '7–8', assessmentPage: 10,
+    teachingResourceId: myiasisResourceId,
+    stem: 'What type of metamorphosis is called complete metamorphosis?', key: 'A', options: ['Holometabolous', 'Hemimetabolous', 'Both of them', 'None of the above'],
+    claim: 'Complete metamorphosis is called holometabolous metamorphosis.',
+    support: 'Complete metamorphosis: Holometabolous.',
+    objective: 'Identify holometabolous as the term for complete metamorphosis.',
+    pitfalls: 'Hemimetabolous describes incomplete metamorphosis and is not interchangeable with holometabolous.',
+    rejected: ['concept_ee09278739800fd98031c61a — Chrysops-specific complete-metamorphosis example; not the general holometabolous definition.', 'concept_3f0bf457e07d8f6c5ffebc19 — sand-fly-specific complete-metamorphosis example; not the general definition.', 'concept_5ff9a835b91d24b057877b28 — housefly-specific complete-metamorphosis example; not the general definition.'],
+  },
+  {
+    q: 40, bankQ: 10, conceptId: 'CON-INF-7C2E91B4F805AD', canonicalKey: 'parasitology.vector-transmission.transovarian',
+    label: 'Transovarian transmission passes pathogens to offspring', aliases: ['Vertical arthropod transmission', 'Pathogen passage through arthropod eggs'], conceptType: 'definition',
+    article: 'transovarian', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Transovarian transmission', page: 15, assessmentPage: 12,
+    teachingResourceId: myiasisResourceId,
+    stem: 'What is the term for arthropods transmitting pathogens to offspring?', key: 'C', options: ['Propagative', 'Cyclo-propagative', 'Transovarian', 'Cyclo-developmental'],
+    claim: 'Transovarian transmission passes a pathogen from an arthropod to its offspring.',
+    support: 'Trans-ovarian transmission: the infective agent is passed to the offspring.',
+    objective: 'Identify transovarian transmission as arthropod-to-offspring pathogen passage.',
+    pitfalls: 'Propagative, cyclopropagative and cyclodevelopmental describe events in the vector rather than transmission to offspring.',
+    rejected: ['concept_649287c6052c87091710dd54 — narrower hard-tick transovarian-maintenance example; not the general offspring-transmission definition.'],
+  },
+  {
+    q: 41, bankQ: 11, conceptId: 'CON-INF-5D8A2F31C7E604', canonicalKey: 'parasitology.muscidae.stomoxys-piercing-sucking-proboscis',
+    label: 'Stomoxys has a piercing and sucking proboscis', aliases: ['Stable-fly proboscis', 'Stomoxys calcitrans mouthparts'], conceptType: 'morphology',
+    article: 'muscidIdentification', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Muscidae identification', page: 23, teachingPages: '22–23', assessmentPage: 13,
+    teachingResourceId: myiasisResourceId,
+    stem: 'What is the distinguishing feature of Stomoxys calcitrans (Stable fly)?', key: 'A', options: ['Piercing and sucking proboscis', 'Biting without sucking blood', 'Proboscis adapted for nectar feeding', 'Absence of wings'],
+    claim: 'Stomoxys calcitrans has a piercing and sucking proboscis.',
+    support: 'Stomoxys calcitrans: proboscis piercing and sucking.',
+    objective: 'Identify the piercing and sucking proboscis as a distinguishing Stomoxys feature.',
+    pitfalls: 'The stable fly is winged and blood-feeding; its proboscis is not adapted only for nectar and does not bite without sucking.',
+    rejected: [],
+  },
+  {
+    q: 44, bankQ: 14, conceptId: 'CON-INF-9B3C7E21A5D840', canonicalKey: 'parasitology.muscidae.musca-posterior-spiracle',
+    label: 'Musca larva has a D-shaped posterior spiracle', aliases: ['Housefly posterior spiracle', 'Musca domestica larval spiracle morphology'], conceptType: 'morphology',
+    article: 'muscidIdentification', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Muscidae identification', page: 28, assessmentPage: 14,
+    teachingResourceId: myiasisResourceId,
+    stem: 'What is the shape of Musca domestica larva’s posterior spiracle?', key: 'B', options: ['Triangular with complete peritreme, 3 long. slits', 'D-shape, medial button 3 M-shaped sinuous slits', 'Rounded with incomplete peritreme, 3 long. slits', 'None of them'],
+    claim: 'Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.',
+    support: 'Musca posterior spiracles: D-shaped, medial button, 3 M-shaped sinuous slits.',
+    objective: 'Recognise the D-shaped posterior spiracle, medial button and three M-shaped sinuous slits of Musca larvae.',
+    pitfalls: 'Triangular complete-peritreme and rounded incomplete-peritreme patterns belong to other fly larvae in the comparison table.',
+    rejected: ['concept_c5d51a3d11cc596d324e5761 — broader posterior-spiracle morphology identity; not the Musca-specific D-shaped pattern.'],
   },
 ]
 
@@ -719,7 +800,7 @@ en
 Faculty-distributed university teaching material; internal curriculum use.
 
 ## qualification
-Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 32, 46 and 57 directly support the Sarcophaga incomplete-peritreme and wound-myiasis identification.
+Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 3–4, 7–8, 13–15, 20, 22–25, 28, 32, 36, 42–43, 46 and 57 were visually governed across the Sarcophaga and Absalam Arthropoda slices. The deck directly supports the six authored Arthropoda keys and the clean printed keys retained on the Q36/Q42 dependency holds, and it exposes Q38's unsupported “biological vector” wording: Stomoxys transmission of Trypanosoma and Leishmania is taught as direct mechanical transmission.
 
 ## confidence
 0.9
@@ -6858,6 +6939,7 @@ ${sarcoConceptId}
 
 ## related_articles
 ${articleId}: Cyclopropagative transmission in arthropod vectors
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION: Muscidae identification: Stomoxys and Musca
 
 ## question_ids
 QST-MUST-FHB1022-PARA-VECT-Q12
@@ -6918,7 +7000,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after the first review is completed.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Prior local vector reading is linked without requiring a new typed relation.
+relatedArticles: The prior cyclopropagative link is preserved. The Muscidae identification article is a reciprocal complete record in the same bounded import and supplies a direct posterior-spiracle comparison.
 `
 }
 
@@ -7378,7 +7460,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–8 and the complete printed answer table on page 9 were rendered and visually read for Parasitology Introduction Q1–Q30. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25 are authored with their printed wording, option order and keys unchanged. Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20 and Q26–Q30 remain explicit identity, evidence-scope, duplicate or key-form holds with no student-facing record.
+Pages 1–14 and the complete printed answer tables on pages 9 and 18 were rendered and visually read for the first 45 global prompts: Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q15 (global Q31–Q45). The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41 and Q44 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43 and Q45 remain explicit identity, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
 
 ## confidence
 0.6
@@ -7484,7 +7566,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q${item.q}`))
+source question: Absalam ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Introduction Q${item.q}`}`))
 }
 
 function introCitations() {
@@ -7497,7 +7579,7 @@ ${introCitationId(item)}
 ${introClaimId(item)}
 
 ## resource_id
-${introTeachingResourceId}
+${introTeachingResource(item)}
 
 ## evidence_role
 local_curriculum
@@ -7551,6 +7633,7 @@ ${introCitationId(item)}`))
 
 function introConcepts() {
   const conceptGroups = [...Map.groupBy(introItems, (item) => item.conceptId).values()]
+    .filter((group) => !group.every((item) => item.reuseExternal))
   return generatedItems(conceptGroups.map((group) => {
     const item = group[0]
     const relatedArticles = introArticleRelations[item.article].map((key) => introArticles[key]).join('\n')
@@ -7633,7 +7716,7 @@ ${relatedArticles}
 [clear]
 
 ## resource_ids
-${introTeachingResourceId}
+${[...new Set(group.map(introTeachingResource))].join('\n')}
 ${absalamAssessmentResourceId}
 
 ## approved_file_resource_ids
@@ -7676,8 +7759,8 @@ ${group.map(introClaimId).join('\n')}
 [clear]
 
 ## exam_signal
-${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage ?? '1–5'} Q${entry.q}; printed answer p9`).join('\n')}
-${group.map((entry) => `${introTeachingResourceId} | tier 2 | undated | p${entry.teachingPages ?? entry.page} direct university teaching`).join('\n')}
+${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage ?? '1–5'} ${entry.bankQ ? `Arthropoda Q${entry.bankQ} (global Q${entry.q}); printed answer p18` : `Q${entry.q}; printed answer p9`}`).join('\n')}
+${group.map((entry) => `${introTeachingResource(entry)} | tier 2 | ${entry.teachingResourceId ? '2022-04-01' : 'undated'} | p${entry.teachingPages ?? entry.page} direct university teaching`).join('\n')}
 
 ## original_wording
 ${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained in their original order.`).join('\n')}
@@ -7828,13 +7911,86 @@ Recognising source and entry route supports introductory reasoning about exposur
 ### Common misconceptions
 Vectors are not defined by nourishing parasites or always serving as reservoirs. Zoonoses are not restricted to protozoa or vector-only spread. Do not exclude one of the three directly taught entry routes.`,
   },
+  arthropodClasses: {
+    title: 'Arthropod class morphology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Arthropod classification',
+    summary: 'The local curriculum distinguishes Insecta by three pairs of legs and Arachnida by four pairs of legs.',
+    sections: `### Definition
+Insecta and Arachnida are arthropod classes distinguished in the local curriculum by their typical leg-pair counts.
+
+### Mechanism
+Insects typically have three pairs of legs. Arachnids have four pairs of legs. The count is applied at class level rather than inferred from a disease association.
+
+### Key determinants
+Three pairs selects Insecta. Four pairs selects Arachnida.
+
+### Clinical significance
+Class-level morphology provides the first recognition step when separating medically important insects from arachnids.
+
+### Common misconceptions
+Do not assign the four-pair arachnid pattern to insects or the three-pair insect pattern to arachnids.`,
+  },
+  arthropodMetamorphosis: {
+    title: 'Complete and incomplete arthropod metamorphosis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Metamorphosis',
+    summary: 'Complete metamorphosis is holometabolous, whereas incomplete metamorphosis is hemimetabolous.',
+    sections: `### Definition
+Complete metamorphosis is called holometabolous metamorphosis.
+
+### Mechanism
+The governed deck contrasts complete holometabolous development with incomplete hemimetabolous development.
+
+### Key determinants
+The word complete selects holometabolous. Hemimetabolous is the contrasting incomplete pattern.
+
+### Clinical significance
+Metamorphosis terminology supports classification of medically important arthropod life cycles.
+
+### Common misconceptions
+Do not treat holometabolous and hemimetabolous as interchangeable or select both for a prompt asking specifically about complete metamorphosis.`,
+  },
+  transovarian: {
+    title: 'Transovarian transmission in arthropods', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Transovarian transmission',
+    summary: 'Transovarian transmission passes an infectious agent from an arthropod to its offspring.',
+    sections: `### Definition
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
+### Mechanism
+The infected arthropod carries the agent into the next generation through its reproductive pathway.
+
+### Key determinants
+The offspring relationship identifies transovarian transmission. It is distinct from multiplication, developmental change, or their combination within one vector.
+
+### Clinical significance
+Recognising vertical vector transmission separates pathogen persistence across arthropod generations from the biological events used to classify vector transmission.
+
+### Common misconceptions
+Do not substitute propagative, cyclodevelopmental or cyclopropagative transmission when the prompt specifically asks about passage to offspring.`,
+  },
+  muscidIdentification: {
+    title: 'Muscidae identification: Stomoxys and Musca', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Muscidae identification',
+    summary: 'Stomoxys calcitrans has a piercing and sucking proboscis. Musca domestica larvae have D-shaped posterior spiracles with a medial button and three M-shaped sinuous slits.',
+    sections: `### Definition
+Adult mouthparts and larval posterior-spiracle morphology provide direct identification features for medically important muscid flies.
+
+### Mechanism
+Stomoxys calcitrans has a piercing and sucking proboscis. Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
+### Key determinants
+The piercing and sucking proboscis selects Stomoxys. The D-shaped spiracle, medial button and M-shaped sinuous slits select Musca.
+
+### Clinical significance
+These features separate adult stable flies and housefly larvae from alternative fly patterns in the local identification tables.
+
+### Common misconceptions
+Do not apply the rounded incomplete-peritreme Sarcophaga pattern or a triangular complete-peritreme pattern to Musca. Stomoxys is winged and blood-feeding.`,
+  },
 } }
 
 function introArticleRecords() {
   const introArticleData = getIntroArticleData()
   return generatedItems(Object.entries(introArticleData).map(([key, article]) => {
     const articleItems = introItems.filter((item) => item.article === key)
-    const related = introArticleRelations[key].map((other) => `${introArticles[other]}: ${introArticleData[other].title}`).join('\n')
+    const related = introArticleRelations[key].map((other) => `${introArticles[other]}: ${introArticleTitle(other, introArticleData)}`).join('\n')
+    const teachingResources = [...new Set(articleItems.map(introTeachingResource))]
     return `# Item
 
 ## id
@@ -7947,11 +8103,11 @@ ${related}
 ${articleItems.map(introQuestionId).join('\n')}
 
 ## resource_ids
-${introTeachingResourceId}
+${teachingResources.join('\n')}
 ${absalamAssessmentResourceId}
 
 ## article_source_ids
-${introTeachingResourceId}
+${teachingResources.join('\n')}
 
 ## claim_ids
 ${articleItems.map(introClaimId).join('\n')}
@@ -7960,7 +8116,7 @@ ${articleItems.map(introClaimId).join('\n')}
 ${articleItems.map(introSpanId).join('\n')}
 
 ## university_notes
-must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
 
 ## annotations
 ${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.claim}\nBlock: body\nId: ann-must-fhb1022-intro-q${String(item.q).padStart(2, '0')}`).join('\n\n')}
@@ -7972,8 +8128,8 @@ ${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${i
 needs_evidence
 
 ## evidence_basis
-MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -7988,7 +8144,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -7998,7 +8154,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.`
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.`
   }))
 }
 
@@ -8033,7 +8189,7 @@ Dr. Omar
 single best answer
 
 ## derived_from
-Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${introTeachingResourceId} without treating the student bank as an authenticated faculty key.
+Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${introTeachingResource(item)} without treating the student bank as an authenticated faculty key.
 
 ## correct_answer
 ${item.key}
@@ -8108,13 +8264,13 @@ ${introArticles[item.article]}
 
 ## resource_ids
 ${absalamAssessmentResourceId}
-${introTeachingResourceId}
+${introTeachingResource(item)}
 
 ## learning_objective
 ${item.objective}
 
 ## source_citation
-Absalam101 Part 1, p${item.assessmentPage ?? '1–5'} Q${item.q}, printed key p9 (${item.q} = ${item.key}); MUST FHB102-2 Introduction to Medical Parasitology, p${item.teachingPages ?? item.page}.
+Absalam101 Part 1, p${item.assessmentPage ?? '1–5'} ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q}), printed key p18 (${item.bankQ} = ${item.key})` : `Q${item.q}, printed key p9 (${item.q} = ${item.key})`}; MUST FHB102-2 ${item.teachingResourceId ? 'Flies and Myiasis' : 'Introduction to Medical Parasitology'}, p${item.teachingPages ?? item.page}.
 
 ## attached_image
 
@@ -8132,7 +8288,7 @@ Absalam101 Part 1, p${item.assessmentPage ?? '1–5'} Q${item.q}, printed key p9
 yes
 
 ## author_notes
-Printed source key: Q${item.q} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
+Printed source key: ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Q${item.q}`} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
   }))
 }
 
@@ -8158,6 +8314,19 @@ function coverage() {
 - Second 15-prompt Absalam introduction slice: **7 authored / 8 held / 0 unassessed**.
 - Absalam Parasitology Introduction Q1–Q30: **14 authored / 16 held / 0 unassessed**. The remaining source boundary is the four later 30-prompt sections, for **120 unassessed prompts** in this source.
 
+### First Absalam Arthropoda slice delta
+
+- +6 teaching claims, +6 citations and +6 article spans for global Q31, Q32, Q33, Q40, Q41 and Q44.
+- +5 under-review / needs-evidence concepts: the shared Insecta/Arachnida leg-count classification, complete holometabolous metamorphosis, transovarian transmission, Stomoxys proboscis morphology and Musca posterior-spiracle morphology.
+- +4 standalone-complete reciprocal Draft articles: arthropod class morphology, arthropod metamorphosis, transovarian transmission and Muscidae identification.
+- +1 exact-ID-preserving complete Draft article update: the Sarcophaga article retains its cyclopropagative link and gains the reciprocal Muscidae comparison. The cyclopropagative article remains byte-for-byte unchanged because its retained live Medical Parasitology relation cannot be widened safely inside this bounded batch.
+- +6 Draft questions: global Q31, Q32, Q33, Q40, Q41 and Q44.
+- +9 explicit holds with no student-facing record: global Q34–Q39, Q42–Q43 and Q45.
+- Global Q38 remains an uncorrected teaching-conflict hold: the student bank calls Stomoxys a biological vector for Leishmaniasis and Trypanosomiasis, while the official MUST deck teaches direct mechanical transmission. No answer correction or student-facing record was emitted.
+- Global Q36 and Q42 retain clean printed keys as source evidence only, but both are dependency-chain holds: the necessary exact-ID cyclopropagative article update cannot pass the focused contract without either dropping its existing Medical Parasitology relationship or recursively importing an unrelated live article graph. Neither unsafe action was taken.
+- First 15-prompt Absalam Arthropoda slice: **6 authored / 9 held / 0 unassessed**.
+- Absalam source global Q1–Q45: **20 authored / 25 held / 0 unassessed**. The remaining boundary is Arthropoda Q16–Q30 plus the three later 30-prompt sections, for **105 unassessed prompts** in this source.
+
 `
   const holds = `- **Q1 is held in the Absalam introduction family.** Its clean printed C is supported by the teaching deck, but raw identities \`concept_67e3dcb99284cae795d4cf8f\` and \`concept_8de933ca4fcbba40f533edac\` overlap the same medical-parasitology definition. No duplicate concept or student-facing record was minted.
 - **Q3 is held in the Absalam introduction family.** Its printed B is supported, but raw lice/ectoparasite identities \`concept_7bbc067f755c9cdfc88ab06c\` and \`concept_db670dbd615a4a13896cb1a4\` create unresolved identity overlap. No student-facing record was minted.
@@ -8175,23 +8344,32 @@ function coverage() {
 - **Q28 is held in the Absalam introduction family.** Its printed B, Live on the host’s external surface, is supported, but raw identity \`concept_5c4d7c3f025582504ad5e86a\` already represents the ectoparasite/endoparasite location classification. No duplicate was minted.
 - **Q29 is held in the Absalam introduction family.** Its printed B, Facilitate mechanical or biological transmission, is supported, but exact raw identity \`concept_cbe678b590c9d68db81d4ed5\` already states mechanical or biological arthropod transmission and the item overlaps Q19's vector scope. The prompts were not silently merged and no duplicate was minted.
 - **Q30 is held in the Absalam introduction family.** Its printed D, An infected mother transmits the parasite to her fetus, is supported, but raw identity \`concept_c623cf376abcb64b5fbc4e89\` already states transplacental transmission from mother to fetus. No duplicate was minted.
+- **Q34 is held in the Absalam Arthropoda family.** Its printed B, Sleeping sickness, is supported, but raw identity \`concept_7bf8806533d667d1cd65b96a\` already connects Glossina tsetse flies with African trypanosomiasis. No duplicate concept or student-facing record was minted.
+- **Q35 is held in the Absalam Arthropoda family.** Its printed B, The arthropod acts as a passive carrier, is supported, but exact raw identity \`concept_a42b36f3cee0d189109260e7\` already states mechanical transmission without multiplication or development, and \`concept_cbe678b590c9d68db81d4ed5\` overlaps the broader mechanical-versus-biological classification. No duplicate was minted.
+- **Q36 is held in the Absalam Arthropoda family as a dependency-chain hold.** Its printed C, Undergoes both multiplication and morphological changes, is directly supported and maps to existing concept \`CON-INF-23265735EECCA1\`. Authoring would require an exact-ID cyclopropagative article update whose retained live Medical Parasitology relation cannot satisfy the focused local dependency contract without recursively importing unrelated live articles. The existing relation was not dropped or clobbered, and no student-facing Q36 record was created.
+- **Q37 is held in the Absalam Arthropoda family.** Its printed B, Anopheles mosquito, is supported, but exact raw identities \`concept_7482060cb7f283619c078023\` and \`concept_c85bd6a9786422a574f8a50a\` already represent Anopheles transmission of malaria. No duplicate was minted.
+- **Q38 is held in the Absalam Arthropoda family as an uncorrected teaching conflict.** The bank asks for the biological vector and prints D, A & B, for Stomoxys transmission of Leishmaniasis and Trypanosomiasis. The official MUST Flies and Myiasis deck instead classifies both associations under direct mechanical transmission. Printed D remains source evidence only; no answer correction or student-facing record was created.
+- **Q39 is held in the Absalam Arthropoda family.** Its printed C, Intestinal, is supported as accidental myiasis associated with Musca, but exact raw identities \`concept_8d9cafb99baef390a663df18\` and \`concept_8f98d380a95e2bd806b1f319\` already represent accidental and intestinal myiasis. The source's truncated option A, “Gastri,” remains recorded only in the audit; no duplicate was minted.
+- **Q42 is held in the Absalam Arthropoda family as a dependency-chain hold.** Its printed B, Cyclo-propagative transmission, is directly supported and maps to existing concept \`CON-INF-23265735EECCA1\`. The same unsafe exact-ID article dependency chain that holds Q36 prevents a focused-gate-clean student-facing record; the printed key was not changed and no record was created.
+- **Q43 is held in the Absalam Arthropoda family.** Its printed B, Mechanical transmission, is supported, but exact raw identities \`concept_012efb068aac441646ea164f\` and \`concept_ed540a67619ad2d979d7558f\` already represent housefly mechanical carriage and contamination. The source typo “Musca domesticA” was not silently repaired through a student-facing record.
+- **Q45 is held in the Absalam Arthropoda family.** Its printed C, Flies, is supported, but exact raw identities \`concept_029a51c793d756b91bf5e550\` and \`concept_a0958f268e6d2701352c57da\` already define myiasis as invasion by dipterous fly larvae. No duplicate was minted.
 
 `
   return baseCoverage()
     .replace('| Evidence resources | 20 |', '| Evidence resources | 22 |')
-    .replace('| Claims | 8 |', '| Claims | 22 |')
-    .replace('| Citations | 13 |', '| Citations | 27 |')
-    .replace('| Article spans | 8 |', '| Article spans | 22 |')
-    .replace('| Concepts | 8 |', '| Concepts | 20 |')
-    .replace('| Articles | 8 |', '| Articles | 13 |')
-    .replace('| Questions | 8 |', '| Questions | 22 |')
-    .replace('| Question authoring holds | 23 |', '| Question authoring holds | 39 |')
+    .replace('| Claims | 8 |', '| Claims | 28 |')
+    .replace('| Citations | 13 |', '| Citations | 33 |')
+    .replace('| Article spans | 8 |', '| Article spans | 28 |')
+    .replace('| Concepts | 8 |', '| Concepts | 25 |')
+    .replace('| Articles | 8 |', '| Articles | 17 |')
+    .replace('| Questions | 8 |', '| Questions | 28 |')
+    .replace('| Question authoring holds | 23 |', '| Question authoring holds | 48 |')
     .replace('## Explicit authoring holds\n\n', `${delta}## Explicit authoring holds\n\n${holds}`)
-    .replace('Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including 23 explicit holds', 'Governed prompt observations: 5,444 total; 22 authored; **5,422 raw prompt observations remain**, including 39 explicit holds')
-    .replace('Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 23 held printed-key observations', 'Governed answer observations: 5,211 total; 22 clean source-keyed prompts authored; **5,189 raw answer observations remain**, including the 39 held printed-key observations')
-    .replace('Record-level backlog is not asserted as 5,436 unique records', 'Record-level backlog is not asserted as 5,422 unique records')
-    .replace('It has not been opened for downstream authoring in this slice.', 'Its Parasitology Introduction Q1–Q30 boundary is now fully dispositioned; the remaining four 30-prompt sections have not been opened for downstream authoring.')
-    .replace('All eight student-facing articles and questions remain Draft; all eight concepts', 'All thirteen student-facing articles and all twenty-two questions remain Draft; all twenty concepts')
+    .replace('Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including 23 explicit holds', 'Governed prompt observations: 5,444 total; 28 authored; **5,416 raw prompt observations remain**, including 48 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 23 held printed-key observations', 'Governed answer observations: 5,211 total; 28 clean source-keyed prompts authored; **5,183 raw answer observations remain**, including the 48 held printed-key observations')
+    .replace('Record-level backlog is not asserted as 5,436 unique records', 'Record-level backlog is not asserted as 5,416 unique records')
+    .replace('It has not been opened for downstream authoring in this slice.', 'Its Parasitology Introduction Q1–Q30 and first Arthropoda Q1–Q15 boundaries are fully dispositioned; Arthropoda Q16–Q30 and the three later 30-prompt sections remain unopened for downstream authoring.')
+    .replace('All eight student-facing articles and questions remain Draft; all eight concepts', 'All seventeen student-facing articles and all twenty-eight questions remain Draft; all twenty-five concepts')
 }
 
 function generatedItems(items) {
@@ -8203,3 +8381,9 @@ function introCitationId(item) { return `CIT-INF-MUST-FHB1022-INTRO-Q${String(it
 function introSpanId(item) { return `SPN-INF-MUST-FHB1022-INTRO-Q${String(item.q).padStart(2, '0')}-01` }
 function introQuestionId(item) { return `QST-MUST-FHB1022-PARA-INTRO-Q${String(item.q).padStart(2, '0')}` }
 function introArticleSectionId(key) { return `${introArticles[key].toLowerCase()}-definition` }
+function introTeachingResource(item) { return item.teachingResourceId ?? introTeachingResourceId }
+function introArticleTitle(key, data) {
+  if (data[key]) return data[key].title
+  if (key === 'sarcophaga') return 'Sarcophaga identification in traumatic wound myiasis'
+  throw new Error(`Unknown intro article key: ${key}`)
+}

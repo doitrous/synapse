@@ -2125,3 +2125,915 @@ yes
 
 ## author_notes
 Printed source key: Q25 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q31
+
+## title
+How many pairs of legs do insects typically have?
+
+## question
+How many pairs of legs do insects typically have?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+1
+
+## explanation_a
+Incorrect. Four pairs of legs identifies Arachnida in the local classification; one or two pairs do not match either taught class. The supported answer is C, 3.
+
+## answer_b
+2
+
+## explanation_b
+Incorrect. Four pairs of legs identifies Arachnida in the local classification; one or two pairs do not match either taught class. The supported answer is C, 3.
+
+## answer_c
+3
+
+## explanation_c
+Insects typically have three pairs of legs. The governed university slide directly supports 3 for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+4
+
+## explanation_d
+Incorrect. Four pairs of legs identifies Arachnida in the local classification; one or two pairs do not match either taught class. The supported answer is C, 3.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-A4C8D2136F90B7
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Arthropod classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify three pairs of legs as the typical Class Insecta pattern.
+
+## source_citation
+Absalam101 Part 1, p10 Arthropoda Q1 (global Q31), printed key p18 (1 = C); MUST FHB102-2 Flies and Myiasis, p3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q1 (global Q31) = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q32
+
+## title
+How many pairs of legs do arachnids have?
+
+## question
+How many pairs of legs do arachnids have?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+2
+
+## explanation_a
+Incorrect. Three pairs of legs identifies Insecta; two or five pairs do not match the local arthropod-classification slide. The supported answer is C, 4.
+
+## answer_b
+3
+
+## explanation_b
+Incorrect. Three pairs of legs identifies Insecta; two or five pairs do not match the local arthropod-classification slide. The supported answer is C, 4.
+
+## answer_c
+4
+
+## explanation_c
+Arachnids have four pairs of legs. The governed university slide directly supports 4 for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+5
+
+## explanation_d
+Incorrect. Three pairs of legs identifies Insecta; two or five pairs do not match the local arthropod-classification slide. The supported answer is C, 4.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-A4C8D2136F90B7
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Arthropod classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify four pairs of legs as the Class Arachnida pattern.
+
+## source_citation
+Absalam101 Part 1, p10 Arthropoda Q2 (global Q32), printed key p18 (2 = C); MUST FHB102-2 Flies and Myiasis, p4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q2 (global Q32) = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q33
+
+## title
+What type of metamorphosis is called complete metamorphosis?
+
+## question
+What type of metamorphosis is called complete metamorphosis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Holometabolous
+
+## explanation_a
+Complete metamorphosis is called holometabolous metamorphosis. The governed university slide directly supports Holometabolous for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Hemimetabolous
+
+## explanation_b
+Incorrect. Hemimetabolous describes incomplete metamorphosis and is not interchangeable with holometabolous. The supported answer is A, Holometabolous.
+
+## answer_c
+Both of them
+
+## explanation_c
+Incorrect. Hemimetabolous describes incomplete metamorphosis and is not interchangeable with holometabolous. The supported answer is A, Holometabolous.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Hemimetabolous describes incomplete metamorphosis and is not interchangeable with holometabolous. The supported answer is A, Holometabolous.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-1E7B4A9D306FC2
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Metamorphosis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify holometabolous as the term for complete metamorphosis.
+
+## source_citation
+Absalam101 Part 1, p10 Arthropoda Q3 (global Q33), printed key p18 (3 = A); MUST FHB102-2 Flies and Myiasis, p7–8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q3 (global Q33) = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q40
+
+## title
+What is the term for arthropods transmitting pathogens to offspring?
+
+## question
+What is the term for arthropods transmitting pathogens to offspring?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Propagative
+
+## explanation_a
+Incorrect. Propagative, cyclopropagative and cyclodevelopmental describe events in the vector rather than transmission to offspring. The supported answer is C, Transovarian.
+
+## answer_b
+Cyclo-propagative
+
+## explanation_b
+Incorrect. Propagative, cyclopropagative and cyclodevelopmental describe events in the vector rather than transmission to offspring. The supported answer is C, Transovarian.
+
+## answer_c
+Transovarian
+
+## explanation_c
+Transovarian transmission passes a pathogen from an arthropod to its offspring. The governed university slide directly supports Transovarian for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Cyclo-developmental
+
+## explanation_d
+Incorrect. Propagative, cyclopropagative and cyclodevelopmental describe events in the vector rather than transmission to offspring. The supported answer is C, Transovarian.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-7C2E91B4F805AD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Transovarian transmission
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify transovarian transmission as arthropod-to-offspring pathogen passage.
+
+## source_citation
+Absalam101 Part 1, p12 Arthropoda Q10 (global Q40), printed key p18 (10 = C); MUST FHB102-2 Flies and Myiasis, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q10 (global Q40) = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q41
+
+## title
+What is the distinguishing feature of Stomoxys calcitrans (Stable fly)?
+
+## question
+What is the distinguishing feature of Stomoxys calcitrans (Stable fly)?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Piercing and sucking proboscis
+
+## explanation_a
+Stomoxys calcitrans has a piercing and sucking proboscis. The governed university slide directly supports Piercing and sucking proboscis for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Biting without sucking blood
+
+## explanation_b
+Incorrect. The stable fly is winged and blood-feeding; its proboscis is not adapted only for nectar and does not bite without sucking. The supported answer is A, Piercing and sucking proboscis.
+
+## answer_c
+Proboscis adapted for nectar feeding
+
+## explanation_c
+Incorrect. The stable fly is winged and blood-feeding; its proboscis is not adapted only for nectar and does not bite without sucking. The supported answer is A, Piercing and sucking proboscis.
+
+## answer_d
+Absence of wings
+
+## explanation_d
+Incorrect. The stable fly is winged and blood-feeding; its proboscis is not adapted only for nectar and does not bite without sucking. The supported answer is A, Piercing and sucking proboscis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-5D8A2F31C7E604
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Muscidae identification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify the piercing and sucking proboscis as a distinguishing Stomoxys feature.
+
+## source_citation
+Absalam101 Part 1, p13 Arthropoda Q11 (global Q41), printed key p18 (11 = A); MUST FHB102-2 Flies and Myiasis, p22–23.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q11 (global Q41) = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q44
+
+## title
+What is the shape of Musca domestica larva’s posterior spiracle?
+
+## question
+What is the shape of Musca domestica larva’s posterior spiracle?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Triangular with complete peritreme, 3 long. slits
+
+## explanation_a
+Incorrect. Triangular complete-peritreme and rounded incomplete-peritreme patterns belong to other fly larvae in the comparison table. The supported answer is B, D-shape, medial button 3 M-shaped sinuous slits.
+
+## answer_b
+D-shape, medial button 3 M-shaped sinuous slits
+
+## explanation_b
+Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits. The governed university slide directly supports D-shape, medial button 3 M-shaped sinuous slits for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Rounded with incomplete peritreme, 3 long. slits
+
+## explanation_c
+Incorrect. Triangular complete-peritreme and rounded incomplete-peritreme patterns belong to other fly larvae in the comparison table. The supported answer is B, D-shape, medial button 3 M-shaped sinuous slits.
+
+## answer_d
+None of them
+
+## explanation_d
+Incorrect. Triangular complete-peritreme and rounded incomplete-peritreme patterns belong to other fly larvae in the comparison table. The supported answer is B, D-shape, medial button 3 M-shaped sinuous slits.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-9B3C7E21A5D840
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Muscidae identification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Recognise the D-shaped posterior spiracle, medial button and three M-shaped sinuous slits of Musca larvae.
+
+## source_citation
+Absalam101 Part 1, p14 Arthropoda Q14 (global Q44), printed key p18 (14 = B); MUST FHB102-2 Flies and Myiasis, p28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q14 (global Q44) = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

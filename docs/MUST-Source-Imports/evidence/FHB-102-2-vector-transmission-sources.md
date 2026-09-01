@@ -430,7 +430,7 @@ en
 Faculty-distributed university teaching material; internal curriculum use.
 
 ## qualification
-Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 32, 46 and 57 directly support the Sarcophaga incomplete-peritreme and wound-myiasis identification.
+Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 3–4, 7–8, 13–15, 20, 22–25, 28, 32, 36, 42–43, 46 and 57 were visually governed across the Sarcophaga and Absalam Arthropoda slices. The deck directly supports the six authored Arthropoda keys and the clean printed keys retained on the Q36/Q42 dependency holds, and it exposes Q38's unsupported “biological vector” wording: Stomoxys transmission of Trypanosoma and Leishmania is taught as direct mechanical transmission.
 
 ## confidence
 0.9

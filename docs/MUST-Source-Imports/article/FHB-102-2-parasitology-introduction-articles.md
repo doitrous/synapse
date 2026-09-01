@@ -175,7 +175,7 @@ SPN-INF-MUST-FHB1022-INTRO-Q05-01
 SPN-INF-MUST-FHB1022-INTRO-Q25-01
 
 ## university_notes
-must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
 
 ## annotations
 ### definition_of · CON-INF-04A996DBD345A9
@@ -205,8 +205,8 @@ Id: ann-must-fhb1022-intro-q25
 needs_evidence
 
 ## evidence_basis
-MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -221,7 +221,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -231,7 +231,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
 
 ---
 
@@ -412,7 +412,7 @@ SPN-INF-MUST-FHB1022-INTRO-Q21-01
 SPN-INF-MUST-FHB1022-INTRO-Q23-01
 
 ## university_notes
-must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
 
 ## annotations
 ### definition_of · CON-INF-829EB6EC11CC8F
@@ -442,8 +442,8 @@ Id: ann-must-fhb1022-intro-q23
 needs_evidence
 
 ## evidence_basis
-MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -458,7 +458,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -468,7 +468,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
 
 ---
 
@@ -625,7 +625,7 @@ SPN-INF-MUST-FHB1022-INTRO-Q14-01
 SPN-INF-MUST-FHB1022-INTRO-Q15-01
 
 ## university_notes
-must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
 
 ## annotations
 ### definition_of · CON-INF-F58CE242AA1B1E
@@ -645,8 +645,8 @@ Id: ann-must-fhb1022-intro-q15
 needs_evidence
 
 ## evidence_basis
-MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -661,7 +661,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -671,7 +671,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
 
 ---
 
@@ -817,7 +817,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q18-01
 SPN-INF-MUST-FHB1022-INTRO-Q18-01
 
 ## university_notes
-must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
 
 ## annotations
 ### definition_of · CON-INF-2A48E6BD3C1F70
@@ -832,8 +832,8 @@ Id: ann-must-fhb1022-intro-q18
 needs_evidence
 
 ## evidence_basis
-MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -848,7 +848,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -858,7 +858,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
 
 ---
 
@@ -1026,7 +1026,7 @@ SPN-INF-MUST-FHB1022-INTRO-Q22-01
 SPN-INF-MUST-FHB1022-INTRO-Q24-01
 
 ## university_notes
-must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
 
 ## annotations
 ### definition_of · CON-INF-8C35F4B1A206DE
@@ -1051,8 +1051,8 @@ Id: ann-must-fhb1022-intro-q24
 needs_evidence
 
 ## evidence_basis
-MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -1067,7 +1067,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -1077,4 +1077,781 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY
+
+## title
+Arthropod class morphology
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Arthropod classification
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Arthropod classification
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Arthropod classification
+
+## summary
+The local curriculum distinguishes Insecta by three pairs of legs and Arachnida by four pairs of legs.
+
+## sections
+### Definition
+Insecta and Arachnida are arthropod classes distinguished in the local curriculum by their typical leg-pair counts.
+
+### Mechanism
+Insects typically have three pairs of legs. Arachnids have four pairs of legs. The count is applied at class level rather than inferred from a disease association.
+
+### Key determinants
+Three pairs selects Insecta. Four pairs selects Arachnida.
+
+### Clinical significance
+Class-level morphology provides the first recognition step when separating medically important insects from arachnids.
+
+### Common misconceptions
+Do not assign the four-pair arachnid pattern to insects or the three-pair insect pattern to arachnids.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Insects typically have three pairs of legs.
+Arachnids have four pairs of legs.
+
+## lose_the_mark
+Four pairs of legs identifies Arachnida in the local classification; one or two pairs do not match either taught class.
+Three pairs of legs identifies Insecta; two or five pairs do not match the local arthropod-classification slide.
+
+## callout_evidence
+### Insects typically have three pairs of legs.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q31-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q31-01
+Reviewed by: pending medical review
+
+### Arachnids have four pairs of legs.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q32-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q32-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-A4C8D2136F90B7
+CON-INF-A4C8D2136F90B7
+
+## related_articles
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS: Complete and incomplete arthropod metamorphosis
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q31
+QST-MUST-FHB1022-PARA-INTRO-Q32
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q31-01
+CLM-INF-MUST-FHB1022-INTRO-Q32-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q31-01
+SPN-INF-MUST-FHB1022-INTRO-Q32-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-A4C8D2136F90B7
+Quote: Insects typically have three pairs of legs.
+Block: body
+Id: ann-must-fhb1022-intro-q31
+
+### definition_of · CON-INF-A4C8D2136F90B7
+Quote: Arachnids have four pairs of legs.
+Block: body
+Id: ann-must-fhb1022-intro-q32
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## title
+Complete and incomplete arthropod metamorphosis
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Metamorphosis
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Metamorphosis
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Metamorphosis
+
+## summary
+Complete metamorphosis is holometabolous, whereas incomplete metamorphosis is hemimetabolous.
+
+## sections
+### Definition
+Complete metamorphosis is called holometabolous metamorphosis.
+
+### Mechanism
+The governed deck contrasts complete holometabolous development with incomplete hemimetabolous development.
+
+### Key determinants
+The word complete selects holometabolous. Hemimetabolous is the contrasting incomplete pattern.
+
+### Clinical significance
+Metamorphosis terminology supports classification of medically important arthropod life cycles.
+
+### Common misconceptions
+Do not treat holometabolous and hemimetabolous as interchangeable or select both for a prompt asking specifically about complete metamorphosis.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Complete metamorphosis is called holometabolous metamorphosis.
+
+## lose_the_mark
+Hemimetabolous describes incomplete metamorphosis and is not interchangeable with holometabolous.
+
+## callout_evidence
+### Complete metamorphosis is called holometabolous metamorphosis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q33-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q33-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-1E7B4A9D306FC2
+
+## related_articles
+ART-INF-MUST-FHB1022-ARTHROPOD-CLASS-MORPHOLOGY: Arthropod class morphology
+ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION: Transovarian transmission in arthropods
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q33
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q33-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q33-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-1E7B4A9D306FC2
+Quote: Complete metamorphosis is called holometabolous metamorphosis.
+Block: body
+Id: ann-must-fhb1022-intro-q33
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION
+
+## title
+Transovarian transmission in arthropods
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Transovarian transmission
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Transovarian transmission
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Transovarian transmission
+
+## summary
+Transovarian transmission passes an infectious agent from an arthropod to its offspring.
+
+## sections
+### Definition
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
+### Mechanism
+The infected arthropod carries the agent into the next generation through its reproductive pathway.
+
+### Key determinants
+The offspring relationship identifies transovarian transmission. It is distinct from multiplication, developmental change, or their combination within one vector.
+
+### Clinical significance
+Recognising vertical vector transmission separates pathogen persistence across arthropod generations from the biological events used to classify vector transmission.
+
+### Common misconceptions
+Do not substitute propagative, cyclodevelopmental or cyclopropagative transmission when the prompt specifically asks about passage to offspring.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
+## lose_the_mark
+Propagative, cyclopropagative and cyclodevelopmental describe events in the vector rather than transmission to offspring.
+
+## callout_evidence
+### Transovarian transmission passes a pathogen from an arthropod to its offspring.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q40-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q40-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-7C2E91B4F805AD
+
+## related_articles
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS: Complete and incomplete arthropod metamorphosis
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q40
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q40-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q40-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-7C2E91B4F805AD
+Quote: Transovarian transmission passes a pathogen from an arthropod to its offspring.
+Block: body
+Id: ann-must-fhb1022-intro-q40
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION
+
+## title
+Muscidae identification: Stomoxys and Musca
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Muscidae identification
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Muscidae identification
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Muscidae identification
+
+## summary
+Stomoxys calcitrans has a piercing and sucking proboscis. Musca domestica larvae have D-shaped posterior spiracles with a medial button and three M-shaped sinuous slits.
+
+## sections
+### Definition
+Adult mouthparts and larval posterior-spiracle morphology provide direct identification features for medically important muscid flies.
+
+### Mechanism
+Stomoxys calcitrans has a piercing and sucking proboscis. Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
+### Key determinants
+The piercing and sucking proboscis selects Stomoxys. The D-shaped spiracle, medial button and M-shaped sinuous slits select Musca.
+
+### Clinical significance
+These features separate adult stable flies and housefly larvae from alternative fly patterns in the local identification tables.
+
+### Common misconceptions
+Do not apply the rounded incomplete-peritreme Sarcophaga pattern or a triangular complete-peritreme pattern to Musca. Stomoxys is winged and blood-feeding.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Stomoxys calcitrans has a piercing and sucking proboscis.
+Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
+## lose_the_mark
+The stable fly is winged and blood-feeding; its proboscis is not adapted only for nectar and does not bite without sucking.
+Triangular complete-peritreme and rounded incomplete-peritreme patterns belong to other fly larvae in the comparison table.
+
+## callout_evidence
+### Stomoxys calcitrans has a piercing and sucking proboscis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q41-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q41-01
+Reviewed by: pending medical review
+
+### Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q44-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q44-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-5D8A2F31C7E604
+CON-INF-9B3C7E21A5D840
+
+## related_articles
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS: Sarcophaga identification in traumatic wound myiasis
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q41
+QST-MUST-FHB1022-PARA-INTRO-Q44
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q41-01
+CLM-INF-MUST-FHB1022-INTRO-Q44-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q41-01
+SPN-INF-MUST-FHB1022-INTRO-Q44-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-5D8A2F31C7E604
+Quote: Stomoxys calcitrans has a piercing and sucking proboscis.
+Block: body
+Id: ann-must-fhb1022-intro-q41
+
+### definition_of · CON-INF-9B3C7E21A5D840
+Quote: Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+Block: body
+Id: ann-must-fhb1022-intro-q44
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
