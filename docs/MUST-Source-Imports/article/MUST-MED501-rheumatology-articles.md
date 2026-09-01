@@ -230,7 +230,7 @@ Claude
 CON-MSK-B13C7FC581085A
 CON-MSK-701B1D6D701748
 CON-MSK-619AD8682F0912
-CON-REN-B9E0531973510E
+CON-MSK-62481C7639A017
 CON-MSK-8A2645A63ADA75
 
 ## related_articles
@@ -273,6 +273,10 @@ Block: body
 
 ### definition_of · CON-MSK-619AD8682F0912
 Quote: starting it mid-attack can precipitate or worsen acute gouty arthritis, so it is begun only about four weeks after the last attack, with colchicine cover
+Block: body
+
+### definition_of · CON-MSK-62481C7639A017
+Quote: Joint aspiration examined by polarizing-light microscopy shows needle-shaped, negatively birefringent urate crystals in gout, versus rhomboid-shaped calcium pyrophosphate crystals in pseudogout.
 Block: body
 
 ---

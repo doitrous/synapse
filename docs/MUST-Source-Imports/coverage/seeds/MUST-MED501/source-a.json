@@ -280,9 +280,9 @@
         "D": "Incorrect. Niacin (vitamin B3) is unrelated to gout diagnosis; in fact niacin therapy can itself raise uric acid levels, but it is not a diagnostic test.",
         "E": "Incorrect. Alpha-fetoprotein is a tumour marker (used in hepatocellular carcinoma and germ cell tumours) and has no role in gout diagnosis."
       },
-      "main_concept": "CON-REN-B9E0531973510E",
+      "main_concept": "CON-MSK-62481C7639A017",
       "concept_ids": [
-        "CON-REN-B9E0531973510E"
+        "CON-MSK-62481C7639A017"
       ],
       "contextual_concept_ids": [],
       "topic": "Musculoskeletal system",
@@ -354,9 +354,9 @@
         "C": "Incorrect. Plain X-ray is often normal early in gout and, when abnormal (punched-out erosions), reflects chronic tophaceous disease rather than confirming an acute attack; it is not the gold-standard test.",
         "D": "Incorrect. Since option B is a genuine, correct gold-standard investigation, \"none of the above\" cannot be correct."
       },
-      "main_concept": "CON-REN-B9E0531973510E",
+      "main_concept": "CON-MSK-62481C7639A017",
       "concept_ids": [
-        "CON-REN-B9E0531973510E"
+        "CON-MSK-62481C7639A017"
       ],
       "contextual_concept_ids": [],
       "topic": "Musculoskeletal system",

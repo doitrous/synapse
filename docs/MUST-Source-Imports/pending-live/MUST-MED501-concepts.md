@@ -31,6 +31,26 @@
   (Helwan's concept dir listed first, per the dispatch instruction) — full
   records copied verbatim for my own reading to
   /private/tmp/.../scratchpad/helwan-joint/*.md (not committed; session-local).
+
+  CROSS-LANE ID COLLISION FOUND, flagged to the chief of staff, not silently
+  worked around: Helwan's own docs/Helwan-Source-Imports/concept/HU-LCS-103-
+  family163-q15-28-concepts.md prints `## id CON-REN-B9E0531973510E` on a
+  record labelled "Gout produces needle-shaped negatively birefringent urate
+  crystals and hyperuricaemia" — but that exact id is ALREADY LIVE-CORPUS
+  (pending, in docs/import-ready/concept/103-BMS-biochemistry-concepts.md and
+  103-BMS-mcq-purine-concepts.md, both also mirrored in docs/Kasr-Source-
+  Imports) as an UNRELATED biochemistry concept: "cancer, leukaemia and
+  psoriasis cause secondary metabolic gout through increased purine
+  catabolism" (canonical_key `teaching.bio2.secondary-metabolic-gout` on the
+  Kasr side). `gate.mjs simulate` caught this the hard way — not as a missing-
+  id error, but as a *silent* resolve to the wrong concept, only visible on
+  inspecting which record actually owns that id. Not used here: this lane
+  instead minted its own fresh id, CON-MSK-62481C7639A017 (canonical key
+  `gout.investigation.joint-aspiration-crystal-microscopy-and-uric-acid`),
+  authored as a full new record in ../concept/MUST-MED501-rheumatology-
+  concepts.md, covering A07/A09/B09. Whether Helwan's own record needs a
+  remint is Helwan's lane's call, not this one's — flagged here for the chief
+  of staff to route.
 -->
 
 # Item
@@ -90,36 +110,6 @@ src_92c2608c239affc24b1f | mcq_bank | | A03
 
 ## field_notes
 must: This Helwan record's own definition ("prolonged stiffness and swelling of hands and wrists ... rheumatoid-factor elevation in several unrelated diseases") independently teaches both A02 ("Typical feature of RA -> Prolonged morning stiffness") and A03 ("True about RF except -> seronegative excluded from RA") — one record answering two triage rows, per the tiebreaker rule in 00-START-HERE.md §4. Target: Helwan Year 1, codex/helwan-year1-content, docs/Helwan-Source-Imports/concept/HU-LCS-103-family143-q1-13-joint-concepts.md and HU-LCS-103-family96-joint-pathology-concepts.md (same id, two local restatements; status: under review, not live).
-
----
-
-# Item
-
-## id
-CON-REN-B9E0531973510E
-
-## universities
-+must
-
-## learner_years
-+5
-
-## modules
-+MUST-MED501
-
-## module_subject
-HU-LCS-103 > Integrated Musculoskeletal Assessment
-MUST-MED501 > Rheumatology and Immunology > Gout
-
-## exam_weight_by_year
-MUST_Y5=0.7
-
-## exam_signal
-src_92c2608c239affc24b1f | mcq_bank | | A07
-src_92c2608c239affc24b1f | mcq_bank | | A09
-
-## field_notes
-must: This Helwan record's own content (needle-shaped negatively birefringent urate crystals on polarized-light microscopy of joint aspirate, plus a printed uric-acid lab value) covers both the triage's row 7 (A09, "Most diagnostic investigation of gout -> Joint aspiration + polarized microscope") and row 8 (A07, "Best investigation to confirm -> S. uric acid") — one record answering two triage rows. Target: Helwan Year 1, codex/helwan-year1-content, docs/Helwan-Source-Imports/concept/HU-LCS-103-family163-q15-28-concepts.md (id prefixed CON-REN- from a legacy system code but tagged subject `msk`; status: under review, not live).
 
 ---
 

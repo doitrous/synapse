@@ -1655,3 +1655,97 @@ reviewer: Not yet named; MUST content is local-only Draft, per LANE-CARD.md.
 finalPublisher: Not applicable — MUST is never imported to production.
 sourceCandidateIds: find-existing.mjs run for "Raynaud" — no hit.
 exam_signal: The local lecture's Raynaud's treatment section (p21) names vasodilators (nifedipine, prazosin) as therapy but does not independently restate the beta-blocker exclusion in the pages read — this fact is bank-printed (B06), standard teaching; confidence set accordingly (0.75).
+
+---
+
+# Item
+
+## id
+CON-MSK-62481C7639A017
+
+## article_ids
+ART-MSK-MUST-MED501-GOUT-AND-PSEUDOGOUT
+
+## label
+Gout's gold-standard investigation is joint aspiration with polarized-light crystal microscopy; serum uric acid is a supportive, not diagnostic, test
+
+## canonical_key
+gout.investigation.joint-aspiration-crystal-microscopy-and-uric-acid
+
+## aliases
+Gout diagnosis
+Joint aspiration and polarized microscopy in gout
+Serum uric acid in gout
+
+## definition
+Joint aspiration examined by polarized-light microscopy is the gold-standard investigation for gout, demonstrating needle-shaped, negatively birefringent monosodium urate crystals in the synovial fluid — this definitively confirms the diagnosis and distinguishes gout from pseudogout (rhomboid, positively birefringent calcium pyrophosphate crystals). Serum uric acid is typically raised in gout (normal roughly 2-7 mg%) and is a useful supportive investigation, but it is neither as specific nor as diagnostic as crystal microscopy, since levels can be normal during an acute attack or elevated in asymptomatic hyperuricaemia without gout.
+
+## explicit_objective
+Rank joint aspiration with polarized-light crystal microscopy above serum uric acid as the gold-standard versus supportive investigation for gout, and recognise the crystal appearance (needle-shaped, negatively birefringent) that confirms it.
+
+## pitfalls
+Treating serum uric acid as sufficient on its own to confirm gout — a normal level during an acute attack does not exclude gout, and a raised level without symptoms does not diagnose it; only crystal visualisation is definitive.
+
+## concept_type
+investigation
+
+## status
+Draft
+
+## subject
+msk
+
+## topic
+Musculoskeletal system
+
+## subtopic
+Gout
+
+## universities
+must
+
+## learner_years
+5
+
+## modules
+MUST-MED501
+
+## module_subject
+MUST-MED501 > Rheumatology and Immunology > Gout
+
+## exam_weight_by_year
+MUST_Y5=0.75
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.6
+
+## confidence
+0.9
+
+## support_mode
+direct_statement
+
+## exam_signal
+src_92c2608c239affc24b1f | mcq_bank | | A07
+src_92c2608c239affc24b1f | mcq_bank | | A09
+src_23cd28c5b092d029d0af | mcq_bank | | B09
+src_a51388c9442af6f01df5 | lecture | | p1-2
+src_a51388c9442af6f01df5 | lecture | | p33
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+arabicLabel: No reviewed Arabic label available for this MUST slice.
+reviewer: Not yet named; MUST content is local-only Draft, per LANE-CARD.md.
+finalPublisher: Not applicable — MUST is never imported to production.
+sourceCandidateIds: find-existing.mjs run for "gout" and "joint aspiration" — no live/local hit teaching this exact investigation-hierarchy objective. A Helwan Y1 record (codex/helwan-year1-content, docs/Helwan-Source-Imports/concept/HU-LCS-103-family163-q15-28-concepts.md) prints this same fact under id CON-REN-B9E0531973510E, but that id is ALREADY LIVE-CORPUS as an unrelated Kasr biochemistry concept ("secondary metabolic gout" causes — cancer/leukaemia/psoriasis via increased purine catabolism, docs/import-ready/concept/103-BMS-biochemistry-concepts.md and 103-BMS-mcq-purine-concepts.md) — a genuine cross-lane id collision, not this lane's error, caught by gate.mjs simulate resolving to the wrong record. Not reused for that reason; minted fresh here instead. See ../pending-live/MUST-MED501-concepts.md's header for the full note, flagged to the chief of staff to route to Helwan's own lane.

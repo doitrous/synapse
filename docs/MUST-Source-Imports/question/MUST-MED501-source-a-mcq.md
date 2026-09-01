@@ -918,10 +918,10 @@ Musculoskeletal system
 Gout
 
 ## main_concept
-CON-REN-B9E0531973510E
+CON-MSK-62481C7639A017
 
 ## concept_ids
-CON-REN-B9E0531973510E
+CON-MSK-62481C7639A017
 
 ## contextual_concept_ids
 
@@ -1198,10 +1198,10 @@ Musculoskeletal system
 Gout
 
 ## main_concept
-CON-REN-B9E0531973510E
+CON-MSK-62481C7639A017
 
 ## concept_ids
-CON-REN-B9E0531973510E
+CON-MSK-62481C7639A017
 
 ## contextual_concept_ids
 
