@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -18,6 +19,8 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.repeatOnLifecycle
@@ -37,9 +40,16 @@ import com.synapse.android.core.model.Question
 import com.synapse.android.core.model.QuestionProjection
 import com.synapse.android.core.model.Practical
 import com.synapse.android.core.qbank.LiveSession
+import com.synapse.android.design.AccountGlyph
+import com.synapse.android.design.DailyGlyph
+import com.synapse.android.design.LocalCortex
+import com.synapse.android.design.NishanyMark
+import com.synapse.android.design.PracticalGlyph
+import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.feature.account.AccountScreen
 import com.synapse.android.feature.account.AccountViewModel
 import com.synapse.android.feature.auth.SignInScreen
+import com.synapse.android.feature.home.HomeRoute
 import com.synapse.android.feature.practical.PracticalListScreen
 import com.synapse.android.feature.qotd.QotdRoute
 import com.synapse.android.feature.practical.PracticalReaderScreen
@@ -56,6 +66,7 @@ import com.synapse.android.feature.qbank.TopicChooserScreen
 import java.time.Duration
 import kotlinx.coroutines.flow.first
 
+private const val ROUTE_HOME = "home"
 private const val ROUTE_QBANK = "qbank"
 private const val ROUTE_PRACTICAL = "practical"
 private const val ROUTE_QOTD = "qotd"
@@ -175,43 +186,77 @@ private fun RestoringScreen() {
 private fun SignedInNavHost(graph: AppGraph) {
     val navController = rememberNavController()
 
+    val cortex = LocalCortex.current
+
     Scaffold(
         bottomBar = {
             val backStackEntry by navController.currentBackStackEntryAsState()
             val currentRoute = backStackEntry?.destination?.route
-            NavigationBar {
+            // Container = surface (white on the light/warm themes) rather
+            // than Material's tonal-elevation tint, and no tonal elevation of
+            // its own, so the bar reads as the mock's plain top-hairline bar
+            // instead of gaining a translucent scrim as content scrolls
+            // beneath it.
+            NavigationBar(containerColor = cortex.surface, tonalElevation = 0.dp) {
+                val itemColors = NavigationBarItemDefaults.colors(
+                    selectedIconColor = cortex.primaryStrong,
+                    selectedTextColor = cortex.primaryStrong,
+                    unselectedIconColor = cortex.ink2,
+                    unselectedTextColor = cortex.ink2,
+                    indicatorColor = Color.Transparent,
+                )
+                NavigationBarItem(
+                    selected = currentRoute == ROUTE_HOME,
+                    onClick = { navController.navigateToTab(ROUTE_HOME) },
+                    icon = { NishanyMark() },
+                    label = { Text("Home") },
+                    colors = itemColors,
+                )
                 NavigationBarItem(
                     selected = currentRoute == ROUTE_QBANK,
                     onClick = { navController.navigateToTab(ROUTE_QBANK) },
-                    icon = {},
+                    icon = { QuestionBankGlyph() },
                     label = { Text("Question Bank") },
+                    colors = itemColors,
                 )
                 NavigationBarItem(
                     selected = currentRoute == ROUTE_PRACTICAL,
                     onClick = { navController.navigateToTab(ROUTE_PRACTICAL) },
-                    icon = {},
+                    icon = { PracticalGlyph() },
                     label = { Text("Practical") },
+                    colors = itemColors,
                 )
                 NavigationBarItem(
                     selected = currentRoute == ROUTE_QOTD,
                     onClick = { navController.navigateToTab(ROUTE_QOTD) },
-                    icon = {},
+                    icon = { DailyGlyph() },
                     label = { Text("Daily") },
+                    colors = itemColors,
                 )
                 NavigationBarItem(
                     selected = currentRoute == ROUTE_ACCOUNT,
                     onClick = { navController.navigateToTab(ROUTE_ACCOUNT) },
-                    icon = {},
+                    icon = { AccountGlyph() },
                     label = { Text("Account") },
+                    colors = itemColors,
                 )
             }
         },
     ) { padding ->
         NavHost(
             navController = navController,
-            startDestination = ROUTE_QBANK,
+            startDestination = ROUTE_HOME,
             modifier = Modifier.padding(padding),
         ) {
+            composable(ROUTE_HOME) {
+                HomeRoute(
+                    graph = graph,
+                    onOpenQuestionBank = { navController.navigateToTab(ROUTE_QBANK) },
+                    onOpenPractical = { navController.navigateToTab(ROUTE_PRACTICAL) },
+                    onOpenDaily = { navController.navigateToTab(ROUTE_QOTD) },
+                    onOpenAccount = { navController.navigateToTab(ROUTE_ACCOUNT) },
+                )
+            }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
             composable(ROUTE_PRACTICAL) { PracticalRoute(graph) }
             composable(ROUTE_QOTD) { QotdRoute(graph) }
