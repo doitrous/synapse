@@ -1141,3 +1141,148 @@ ASU_Y1=0.3
 university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.24 Q18 (translation ends when a stop codon enters the A site), p.26 Q32 (the hydrolytic release of the polypeptide from the ribosome is catalysed by peptidyl transferase).
 
 ---
+
+# Item
+
+## id
+CON-FND-1F66060A9C2625
+
+## label
+The proteins of the cell cycle and apoptosis divide into cycle regulators, the p53 guardian, the pro-apoptotic and anti-apoptotic Bcl-2 family, and the death receptors that start the extrinsic pathway
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg40 (printed p.39), Molecular Biology of Cancer Q44 ("Which of the following is the mechanism of action of p53 as a regulator of cell cycle?" ANSWER: c) Activation of p21 gene expression — matches this concept's own "p53 arrests the cycle in G1 through p21" clause exactly).
+
+---
+
+# Item
+
+## id
+CON-FND-FF40DB9ED068F9
+
+## label
+Growth-factor binding starts the cell cycle by inducing cyclins, which complex with specific CDKs to drive the cell past the late-G1 restriction point and through each subsequent transition
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg38 (printed p.37), Molecular Biology of Cancer Q23 ("Passage of a cell through stages of cell cycle is controlled by a protein kinase that phosphorylates many different proteins at appropriate times" ANSWER: b) Cyclins — this concept's own cyclin-CDK mechanism is exactly what the question is asking for).
+
+---
+
+# Item
+
+## id
+CON-FND-70E5BD77E8FE49
+
+## label
+Caspases are cysteine proteases activated by two apoptotic pathways — the extrinsic pathway through TNF/FAS receptor ligand binding, and the intrinsic pathway through mitochondrial cytochrome c release — both converging on caspase-activated DNase
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg38 (printed p.37), Molecular Biology of Cancer Q28 ("Caspase enzymes means... d) Contain cysteine in active site" ANSWER: d) — matches this concept's own "cysteine proteases" identity directly; the granular initiator/effector-caspase-per-pathway and apoptosome-composition facts (Q29-34, 36, 42, 43) are a distinct, more specific concept minted new rather than force-fit here — see CON-FND-BBCC9BC05C8C5F in the module's own concept batch.
+
+---
+
+# Item
+
+## id
+CON-FND-46B3AD5A2D8294
+
+## label
+An apoptotic cell shrinks with an intact membrane and breaks into apoptotic bodies
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+108 INT > Pathology > Cellular Response to Injury > Apoptosis > Morphological changes
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg36/pg39 (printed p.35/p.38), Molecular Biology of Cancer Q10 ("All the following is true about Apoptosis are all except: a) Inflammation is present" ANSWER: a) and Q27 ("Which of the followings is not a character of an apoptotic cell? ... d) It swells and ruptures" ANSWER: d) — both key on this concept's own pitfall (apoptotic cells shrink and stay non-inflammatory; swelling/rupture and inflammation are necrosis).
+
+---
+
+# Item
+
+## id
+CON-FND-A40D59DAB245EA
+
+## label
+Apoptosis has physiological causes as well as pathological ones
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+108 INT > Pathology > Cellular Response to Injury > Apoptosis > Causes of apoptosis
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg35/pg39 (printed p.34/p.38), Molecular Biology of Cancer Q4 ("Apoptosis is: a) Essential to normal development" ANSWER: a) and Q35 ("Which of the followings is not an example of apoptosis? ... d) Myocardial infarction" ANSWER: d) — Q4 restates this concept's physiological-causes clause (embryogenesis) directly, and Q35's distractors (finger development, endometrial shedding, breast involution, viral-infected-cell death) are this concept's own named physiological/pathological examples, with myocardial infarction (necrosis) as the one that is NOT apoptosis.
+
+---

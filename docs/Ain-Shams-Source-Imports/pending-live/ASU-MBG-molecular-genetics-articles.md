@@ -467,3 +467,81 @@ university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) 
 
 ## subject
 fnd
+
+---
+
+# Item
+
+## id
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+
+## title
+Cell cycle, apoptosis and tumour suppressor genes
+
+## topic
+Biochemistry
+
+## summary
+Four families of protein run this chapter, and the exam tests whether a student can put a named protein into the right one. Cyclins and cyclin-dependent kinases drive the cell from phase to phase. p53 is the guardian of the genome and decides between arrest and death. The Bcl-2 family splits into apoptotic and anti-apoptotic members and controls cytochrome c. The TNF and FAS receptors start the extrinsic pathway. Bcl-2 gives the family its name and is the anti-apoptotic one, which is where the marks go.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+arabicTitle: Teaching at Ain Shams is in English and this chapter's own revision compilation prints no Arabic term; students use the English one, matching this lane's established practice for other English-medium ASU-MBG chapters.
+university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) sits its own cell-cycle/p53/CDK/caspase questions on the same content (Molecular Biology of Cancer chapter, Q23, Q28, Q44), and mints its own companion articles (ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES, ART-FND-CASPASE-CASCADE-AND-APOPTOSOME) for the Rb/oncogene/apoptosome detail this article does not itself teach.
+
+## subject
+fnd
+
+---
+
+# Item
+
+## id
+ART-108-PAT-APOPTOSIS
+
+## title
+Apoptosis, and how it differs from necrosis
+
+## topic
+General pathology
+
+## summary
+Apoptosis is programmed cell death: energy-dependent, single-cell, membrane-intact, and silent to the immune system. The comparison with necrosis is the highest-value thing in this article, because a student who holds both definitions can still fail to tell them apart.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+108 INT > Pathology > Cellular Response to Injury > Apoptosis
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+arabicTitle: Teaching at Ain Shams is in English and this chapter's own revision compilation prints no Arabic term; students use the English one, matching this lane's established practice for other English-medium ASU-MBG chapters.
+university_notes: Kasr Al Ainy (108 INT) owns this article. Ain Shams (ASU-MBG) sits its own apoptosis-morphology and apoptosis-causes questions on the same content (Molecular Biology of Cancer chapter, Q4, Q10, Q27, Q35) — no wording difference identified yet; the chapter's own more granular initiator/effector-caspase and apoptosome-composition facts are taught by this lane's own new companion article, ART-FND-CASPASE-CASCADE-AND-APOPTOSOME, rather than here.
+
+## subject
+fnd
