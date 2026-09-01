@@ -1,0 +1,50 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Physiology section), question on an existing Kasr 103-BMS concept id. Key read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/Kasr-Source-Imports/article/103-BMS-physiology.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Physiology",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-103-PHY-SMOOTH-ELECTRICAL"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q7 (Menoufia MED104 MSK1 end-module exam, Physiology section)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q07",
+      "id": "QST-MUMED104-MFM42MSK1-Q07",
+      "title": "Depolarization type in uterine smooth muscle",
+      "question": "Which of the following is the type of depolarization in the muscle of the uterus?",
+      "subject": "msk",
+      "options": { "A": "Spike potential", "B": "Action potential with plateau", "C": "Slow-wave potential", "D": "Depolarization without action potential", "E": "Junctional potential" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A spike potential is the brief (roughly 50-millisecond) smooth-muscle action potential that resembles the skeletal-muscle spike or rides on top of a slow wave, and it is the pattern typical of tissues such as the ureter and some gut segments, not the uterus. Uterine smooth muscle instead shows a much more prolonged depolarisation, so this brief spike form does not describe it.",
+        "B": "Correct. Uterine smooth muscle generates an action potential with a plateau: it depolarises similarly to a spike, but its repolarisation is delayed for several hundred to several thousand milliseconds, and this prolonged plateau sustains the forceful, sustained contraction needed during labour. The plateau reflects the smooth-muscle membrane's abundant voltage-gated calcium channels and comparatively few voltage-gated sodium channels, so it is this calcium-dependent plateau form, not a brief spike, that characterises the uterus.",
+        "C": "Incorrect. A slow wave is a rhythmic, sub-threshold oscillation of the resting membrane potential seen in some visceral smooth muscle such as the gut, which only triggers an action potential — usually a spike — if it reaches threshold; it is not itself an action potential and is not the uterus's own depolarisation pattern.",
+        "D": "Incorrect. Depolarisation without a propagated action potential describes a graded, local response rather than a regenerative electrical event, and it is not how uterine smooth muscle depolarises when it contracts during labour, since the uterus relies on genuine, propagating action potentials with a plateau.",
+        "E": "Incorrect. A junctional (end-plate) potential is the graded depolarisation produced at a chemical synapse, such as the skeletal neuromuscular junction, by neurotransmitter binding; it is not a term used for uterine smooth muscle's own myogenic electrical activity, which arises intrinsically rather than from a discrete synaptic junction."
+      },
+      "main_concept": "CON-MSK-A10AC6BAF27F00",
+      "concept_ids": ["CON-MSK-A10AC6BAF27F00"],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Smooth muscle electrophysiology",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the action potential with a plateau as the depolarisation form used by uterine smooth muscle, and explain why its calcium-channel basis produces the plateau.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p2 (Q7)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q7, Physiology section" },
+      "author_notes": ""
+    }
+  ]
+}

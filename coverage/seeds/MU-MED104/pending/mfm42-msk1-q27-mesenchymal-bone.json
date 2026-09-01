@@ -1,0 +1,50 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Histology section), question on an existing Kasr 103-BMS concept id. Key read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md and docs/Kasr-Source-Imports/article/103-BMS-histology.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Histology",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-103-HIS-BONE-OSSIFICATION"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q27 (Menoufia MED104 MSK1 end-module exam, Histology section)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q27",
+      "id": "QST-MUMED104-MFM42MSK1-Q27",
+      "title": "Connective tissue that converts into spongy bone",
+      "question": "One of the following connective tissues converts into spongy bone:",
+      "subject": "msk",
+      "options": { "A": "Adipose", "B": "Loose", "C": "Mucoid", "D": "Mesenchymal", "E": "White fibrous" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Adipose tissue is specialised fat-storage connective tissue and is not a precursor tissue that ossifies into bone; it plays no role in either intramembranous or endochondral ossification.",
+        "B": "Incorrect. Loose (areolar) connective tissue is a general packing and support tissue found throughout the body, but it is not the specific embryonic tissue from which intramembranous ossification begins; that role belongs to mesenchymal connective tissue.",
+        "C": "Incorrect. Mucoid connective tissue, as in Wharton's jelly of the umbilical cord, is a jelly-like embryonic connective tissue adapted for cushioning and protection, not a tissue that undergoes ossification into spongy bone.",
+        "D": "Correct. Flat bones form by intramembranous ossification, in which mesenchymal connective tissue cells differentiate directly into osteoblasts that lay down bone matrix without a cartilage intermediate, producing spongy and ultimately compact bone. This mesenchymal-to-bone route is one of the two recognised methods of ossification, the other being endochondral ossification from a cartilage model.",
+        "E": "Incorrect. White fibrous (dense regular) connective tissue, as in tendons and ligaments, is built for tensile strength and is not the tissue that converts into bone; ossification from a soft connective tissue precursor proceeds specifically from mesenchymal tissue, not this mature fibrous type."
+      },
+      "main_concept": "CON-MSK-092F6F14307DB9",
+      "concept_ids": ["CON-MSK-092F6F14307DB9"],
+      "contextual_concept_ids": [],
+      "topic": "Histology",
+      "subtopic": "Bone ossification",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that mesenchymal connective tissue converts directly into bone by intramembranous ossification, and distinguish it from the endochondral route and from non-osteogenic connective tissues.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p8 (Q27)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q27, Histology section" },
+      "author_notes": ""
+    }
+  ]
+}

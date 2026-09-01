@@ -1,0 +1,50 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Histology section), question on an existing Kasr 101-ISK concept id. Key read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md and docs/Kasr-Source-Imports/article/101-ISK-histology-2.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Histology",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-101-HIS-CONNECTIVE-TISSUE-FIBRES"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q23 (Menoufia MED104 MSK1 end-module exam, Histology section)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q23",
+      "id": "QST-MUMED104-MFM42MSK1-Q23",
+      "title": "Collagen fibre type ossified during bone formation",
+      "question": "The following type of CT Fibers is ossified during bone formation:",
+      "subject": "fnd",
+      "options": { "A": "Collagen type I", "B": "Collagen type II", "C": "Collagen type VI", "D": "Elastic fibers", "E": "Reticular fibers" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Type I collagen is the commonest and strongest collagen type, arranged in thick bundles, and it is the type found in connective tissue proper, tendon and — critically here — bone, where it forms the organic (osteoid) matrix that is subsequently mineralised with calcium hydroxyapatite during ossification. Because bone's collagenous scaffold is built from type I fibres, it is this type, made by osteoblasts as well as fibroblasts elsewhere, that becomes ossified during bone formation.",
+        "B": "Incorrect. Type II collagen forms the fine fibres of cartilage matrix, made by chondroblasts, and cartilage is avascular tissue that is not itself mineralised the way bone's type I matrix is; even where cartilage acts as a template for endochondral ossification, it is replaced by newly deposited type I collagen-containing bone rather than the type II fibres themselves becoming ossified.",
+        "C": "Incorrect. Type VI collagen is a minor, microfibrillar collagen that helps anchor cells within connective tissue matrix rather than forming the bulk structural fibres of bone; it is not the fibre type whose bundles are mineralised to form bony matrix.",
+        "D": "Incorrect. Elastic fibres give tissues such as ligament, lung and blood vessel walls their reversible stretch and recoil, a property fundamentally different from bone's rigid mineralised matrix; elastic fibres are not the substrate ossified during bone formation.",
+        "E": "Incorrect. Reticular fibres are fine, type III collagen fibres that form delicate supporting networks in the stroma of organs such as lymphoid tissue and liver; they are not the fibre type that is laid down and mineralised to build bone."
+      },
+      "main_concept": "CON-FND-A635150A3F245D",
+      "concept_ids": ["CON-FND-A635150A3F245D"],
+      "contextual_concept_ids": [],
+      "topic": "Histology",
+      "subtopic": "Connective tissue fibres",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that bone's organic matrix is built from type I collagen, and distinguish it from the collagen and fibre types found in cartilage and other connective tissues.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p7 (Q23)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q23, Histology section" },
+      "author_notes": ""
+    }
+  ]
+}

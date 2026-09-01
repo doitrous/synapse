@@ -1,0 +1,50 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Histology section), question on an existing Kasr 103-BMS concept id. Key read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md and docs/Kasr-Source-Imports/article/103-BMS-histology.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Histology",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-103-HIS-CARTILAGE-TYPES"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q25 (Menoufia MED104 MSK1 end-module exam, Histology section)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q25",
+      "id": "QST-MUMED104-MFM42MSK1-Q25",
+      "title": "Cartilage type containing collagen type I",
+      "question": "Which of the following types of cartilage contains collagen type I?",
+      "subject": "msk",
+      "options": { "A": "Hyaline cartilage", "B": "Elastic cartilage", "C": "White Fibrocartilage", "D": "Articular cartilage", "E": "Costal cartilage" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Hyaline cartilage's matrix is built from fine type II collagen fibrils, not visible as bundles under the light microscope, together with an abundant, glassy ground substance — the same collagen type as articular and costal cartilage, not type I.",
+        "B": "Incorrect. Elastic cartilage has the same basic structure as hyaline cartilage, chiefly type II collagen, but with numerous additional branching elastic fibres embedded in its matrix, which is what gives the ear pinna and epiglottis their flexibility; it is not built from type I collagen.",
+        "C": "Correct. White fibrocartilage is a tough type of cartilage, intermediate in character between hyaline cartilage and dense regular connective tissue, formed of dense type I collagen fibres arranged in thick parallel bundles with scanty ground substance. It sits at sites needing tensile strength with limited mobility — the intervertebral discs, the pubic symphysis and the menisci among them — and it is the one cartilage type built on type I rather than type II collagen.",
+        "D": "Incorrect. Articular cartilage is a form of hyaline cartilage covering the ends of bones at synovial joints, and like other hyaline cartilage its matrix is built on type II collagen, not type I.",
+        "E": "Incorrect. Costal cartilage, connecting the ribs to the sternum, is also a hyaline cartilage and so is built on type II collagen fibres, not the type I collagen bundles that characterise white fibrocartilage."
+      },
+      "main_concept": "CON-MSK-0F4870E557FAF4",
+      "concept_ids": ["CON-MSK-0F4870E557FAF4"],
+      "contextual_concept_ids": [],
+      "topic": "Histology",
+      "subtopic": "Cartilage types",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify white fibrocartilage as the cartilage type built on type I collagen, and distinguish it from the type II collagen matrix of hyaline and elastic cartilage.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p8 (Q25)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q25, Histology section" },
+      "author_notes": ""
+    }
+  ]
+}

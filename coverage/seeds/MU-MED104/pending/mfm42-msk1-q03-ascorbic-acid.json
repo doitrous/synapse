@@ -1,0 +1,50 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Biochemistry section), question on an existing Alexandria AU-MED-102 concept id. Key read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-metabolism-concepts.md and docs/Alexandria-Source-Imports/article/AU-MED-102-biochem-metabolism-articles.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Biochemistry",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-FND-GLUCURONIC-ACID-PATHWAY"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q3 (Menoufia MED104 MSK1 end-module exam, Biochemistry section)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q03",
+      "id": "QST-MUMED104-MFM42MSK1-Q03",
+      "title": "False statement about ascorbic acid",
+      "question": "Which of the following statements is false about ascorbic acid?",
+      "subject": "fnd",
+      "options": { "A": "It shows antioxidant activity", "B": "It is a strong reducing agent", "C": "It can be synthesized in the body", "D": "Involved in hydroxylation of poly- and lysyl- residues of collagen", "E": "It converted to oxalic acid" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect — this statement is true. Ascorbic acid does show genuine antioxidant activity: it readily donates electrons to neutralise reactive oxygen species and regenerates other antioxidants such as vitamin E, protecting cells from oxidative damage. Because this statement correctly describes ascorbic acid, it is not the false one the question asks for.",
+        "B": "Incorrect — this statement is true. Ascorbic acid is a strong reducing agent, the same electron-donating property that gives it its antioxidant role, which is also why it can keep the iron ion in prolyl and lysyl hydroxylase in its active, reduced (Fe2+) state. Since this is an accurate statement about ascorbic acid, it is not the false statement being asked for.",
+        "C": "Correct — this is the false statement. Humans, along with other primates and guinea pigs, lack a functional L-gulonolactone oxidase, the terminal enzyme of the glucuronic acid pathway that in most other mammals converts glucuronate onward to L-ascorbic acid. Because that one step is missing, ascorbic acid cannot be synthesised in the human body at all and must be obtained entirely from the diet, which is exactly why it is classified as a vitamin. This makes 'it can be synthesized in the body' the false statement, and so the correct answer to this EXCEPT-style question.",
+        "D": "Incorrect — this statement is true. Ascorbic acid is an essential cofactor for prolyl hydroxylase and lysyl hydroxylase, the enzymes that hydroxylate proline and lysine residues in newly formed collagen chains; without it these hydroxylations fail, producing the unstable, poorly cross-linked collagen seen in scurvy. Because this correctly describes a real function of ascorbic acid, it is not the false statement.",
+        "E": "Incorrect — this statement is true. A portion of ascorbic acid is catabolised through oxidative pathways that ultimately yield oxalic acid (oxalate) as an end product, which is one reason very high-dose vitamin C supplementation has been linked to a modestly increased risk of oxalate kidney stones in susceptible individuals. Since this is an accurate statement about ascorbic acid's fate in the body, it is not the false one."
+      },
+      "main_concept": "CON-FND-6394F7DBD17F80",
+      "concept_ids": ["CON-FND-6394F7DBD17F80"],
+      "contextual_concept_ids": [],
+      "topic": "Biochemistry",
+      "subtopic": "Vitamins — Ascorbic acid",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that humans cannot synthesise ascorbic acid because the terminal enzyme of the glucuronic acid pathway (L-gulonolactone oxidase) is absent, and distinguish this from ascorbic acid's genuine roles.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p1 (Q3)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q3, Biochemistry section" },
+      "author_notes": ""
+    }
+  ]
+}

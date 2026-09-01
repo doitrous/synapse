@@ -1,0 +1,78 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Histology section), two questions on existing Kasr 103-BMS concept ids (both point at the same chondroblast/chondrocyte teaching article). Keys read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md and docs/Kasr-Source-Imports/article/103-BMS-histology.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Histology",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-103-HIS-CARTILAGE-CELLS"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Menoufia MED104 MSK1 end-module exam, Histology section",
+    "subject": "msk",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q26",
+      "id": "QST-MUMED104-MFM42MSK1-Q26",
+      "title": "Chondroblast electron-microscope features",
+      "question": "At electron microscope level (E/M), chondroblasts show all the features of:",
+      "options": { "A": "Absorption", "B": "Phagocytosis", "C": "Protein Synthesis", "D": "Lipid Synthesis", "E": "Inactive cells" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Absorption is not the electron-microscopic signature of the chondroblast; the chondroblast is a matrix-secreting cell, not one specialised for taking up and absorbing extracellular material.",
+        "B": "Incorrect. Phagocytosis is a feature of scavenging cells such as macrophages, which show abundant lysosomes and phagosomes; the chondroblast's ultrastructure instead reflects active synthesis and secretion, not phagocytic activity.",
+        "C": "Correct. By electron microscopy the chondroblast shows all the classic features of a protein-forming cell: a euchromatic nucleus, abundant ribosomes and rough endoplasmic reticulum, a prominent Golgi apparatus, and numerous mitochondria to power this synthetic activity. This machinery matches its job, secreting the type II collagen and ground substance of cartilage matrix as it drives appositional growth from the cartilage surface.",
+        "D": "Incorrect. Lipid synthesis is not the chondroblast's defining ultrastructural feature; that description fits cells such as adipocytes or steroid-secreting cells, which show abundant smooth endoplasmic reticulum and lipid droplets, not the rough-ER-and-ribosome-dominated profile of a chondroblast.",
+        "E": "Incorrect. Far from being inactive, the chondroblast is one of the most metabolically active cells in cartilage, its abundant rough endoplasmic reticulum, ribosomes and Golgi apparatus all pointing to vigorous ongoing protein synthesis and secretion rather than quiescence."
+      },
+      "main_concept": "CON-MSK-E198B099DCA0C0",
+      "concept_ids": ["CON-MSK-E198B099DCA0C0"],
+      "contextual_concept_ids": [],
+      "topic": "Histology",
+      "subtopic": "Cartilage cells",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the chondroblast's electron-microscopic features are those of a protein-forming cell (rough ER, ribosomes, Golgi, mitochondria), matching its matrix-secreting function.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p8 (Q26)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q26, Histology section" },
+      "author_notes": ""
+    },
+    {
+      "key": "med104-mfm42-end-msk1-q28",
+      "id": "QST-MUMED104-MFM42MSK1-Q28",
+      "title": "Cell type forming isogenous groups",
+      "question": "Isogenous groups are made of group of cells up to 8 cells of:",
+      "options": { "A": "Fibrocytes", "B": "Lymphocytes", "C": "Osteocytes", "D": "Chondrocytes", "E": "Adipocytes" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Fibrocytes are the mature, relatively inactive cells of fibrous connective tissue and do not divide within a shared lacuna to form isogenous groups; that clustering pattern is specific to cartilage's chondrocytes.",
+        "B": "Incorrect. Lymphocytes are free cells of the immune system, not resident matrix-forming cells of a supporting tissue, and they play no part in forming isogenous groups.",
+        "C": "Incorrect. Osteocytes are the mature cells of bone, each occupying its own individual lacuna within the mineralised matrix and connected to neighbours by canaliculi rather than by shared-lacuna clustering; they do not form isogenous groups the way chondrocytes do.",
+        "D": "Correct. Older, deeper chondrocytes divide once or twice within their lacuna to give clusters of 2 up to 8 cells, called isogenous groups (or cell nests), enclosed by a shared capsule of matrix. This clonal clustering is how cartilage achieves interstitial growth from within, as each chondrocyte in the nest continues secreting new matrix around itself.",
+        "E": "Incorrect. Adipocytes are fat-storing cells of adipose tissue and do not cluster into isogenous groups within a cartilage lacuna; that pattern of division and clustering is, among these choices, unique to the chondrocyte."
+      },
+      "main_concept": "CON-MSK-CB0E0F665E200B",
+      "concept_ids": ["CON-MSK-CB0E0F665E200B"],
+      "contextual_concept_ids": [],
+      "topic": "Histology",
+      "subtopic": "Cartilage cells",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that isogenous groups (cell nests of 2 to 8 cells sharing a lacuna) are formed by dividing chondrocytes, and explain their role in interstitial cartilage growth.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p8 (Q28)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q28, Histology section" },
+      "author_notes": ""
+    }
+  ]
+}
