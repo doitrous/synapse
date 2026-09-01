@@ -1,4 +1,4 @@
-# Synapse — Project Handover
+# Nishany — Project Handover
 
 A single, bilingual (Arabic-first + English, full RTL) clinical-study web app for
 undergraduate medicine: **student app** (library, question bank, practical,
@@ -55,7 +55,7 @@ in one tab push live to others).
 
 ## 3. Single source of truth: Subjects & Topics taxonomy
 
-`src/data/taxonomyStore.ts` (`useTaxonomyTree`, key `synapse-taxonomy-tree-v3`) is
+`src/data/taxonomyStore.ts` (`useTaxonomyTree`, key `nishany-taxonomy-tree-v3`) is
 the **single source** for the 5-level curriculum tree: **System → Topic → Subtopic
 → Microtopic → Nanotopic**, each with a stable visible ID (`SYS_/TPC_/SUB_/MIC_/NAN_`).
 Exposes mutation helpers: `renameTaxonomyNode`, `addTaxTopic`, `addTaxSub`.

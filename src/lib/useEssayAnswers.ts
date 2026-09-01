@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import { usePersistentState } from './usePersistentState'
 
-const ESSAY_ANSWERS_STORAGE_KEY = 'synapse.essay.answers.v1'
+const ESSAY_ANSWERS_STORAGE_KEY = 'nishany.essay.answers.v1'
 
 /**
  * One student's attempt at one written question.

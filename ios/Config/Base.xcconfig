@@ -6,7 +6,7 @@
 // Swift (see AppConfig). Keep it that way — a truncated URL fails at runtime
 // with a confusing error rather than at build time with a clear one.
 
-PRODUCT_BUNDLE_IDENTIFIER = com.synapse.app
+PRODUCT_BUNDLE_IDENTIFIER = com.nishany.app
 PRODUCT_NAME = Synapse
 MARKETING_VERSION = 0.1.0
 CURRENT_PROJECT_VERSION = 1
@@ -22,7 +22,7 @@ SWIFT_EMIT_LOC_STRINGS = YES
 
 // Arabic is a first-class language, not a translation bolted on, so the app is
 // built to mirror from the start rather than being audited for it later.
-INFOPLIST_KEY_CFBundleDisplayName = Connect Cortex
+INFOPLIST_KEY_CFBundleDisplayName = Nishany
 INFOPLIST_KEY_UILaunchScreen_Generation = YES
 INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
 INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight

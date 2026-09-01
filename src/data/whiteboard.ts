@@ -59,11 +59,23 @@ export interface BoardFile { id: string; x: number; y: number; documentId: strin
 export interface InkStroke { id: string; points: number[]; color: string; width: number }
 
 /**
+ * A ready-made item — from the shared icon library in `src/data/readyItems` —
+ * placed on the board.
+ *
+ * Only the item's id is stored, never its markup: the board document stays a
+ * small, portable shape, and a later change to the library's icon or label is
+ * picked up by every board that already placed it. Ordering within the array
+ * is its stacking order among other ready items, last painted last (topmost),
+ * the same convention `noteAt` uses for notes.
+ */
+export interface ReadyElement { id: string; x: number; y: number; width: number; height: number; readyItemId: string }
+
+/**
  * Everything on a board.
  *
- * The three collections added later are optional so that every board saved
- * before they existed still reads, and `items()` below is the single place that
- * turns a missing one into an empty list.
+ * The collections added after the original three are optional so that every
+ * board saved before they existed still reads, and the `...Of()` helpers below
+ * are the single place that turns a missing one into an empty list.
  */
 export interface BoardState {
   notes: Note[]
@@ -72,6 +84,14 @@ export interface BoardState {
   images?: BoardImage[]
   files?: BoardFile[]
   ink?: InkStroke[]
+  readyItems?: ReadyElement[]
+  /**
+   * Whether the freehand drawing paints above the notes/pictures/files or
+   * below them. Below — undefined, the original behaviour — is what every
+   * board saved before this existed keeps: a diagram is annotated around what
+   * is on the board, not over the top of it, unless the student says otherwise.
+   */
+  inkAbove?: boolean
 }
 
 export type WhiteboardPermission = 'owner' | 'view' | 'edit'
@@ -127,6 +147,8 @@ export const INK_WIDTHS = [2, 4, 8] as const
 export const IMAGE_W = 260
 export const FILE_W = 210
 export const FILE_H = 78
+/** A ready-made item is placed as a square icon this many board units wide. */
+export const READY_ITEM_SIZE = 72
 
 export type Tool = 'select' | 'pen' | 'eraser'
 
@@ -166,13 +188,14 @@ export const NOTE_H = NOTE_HEIGHT
  * written into a real student's account the first time they dragged anything.
  */
 export const INITIAL_BOARD: BoardState = { notes: [], links: [], frames: [] }
-export const WHITEBOARD_COLLECTION_KEY = 'synapse.whiteboard.boards.v1'
-export const LEGACY_WHITEBOARD_KEY = 'synapse.whiteboard.board'
+export const WHITEBOARD_COLLECTION_KEY = 'nishany.whiteboard.boards.v1'
+export const LEGACY_WHITEBOARD_KEY = 'nishany.whiteboard.board'
 
 /** A board's collection, whether or not it was saved before the field existed. */
 export const imagesOf = (board: BoardState) => board.images ?? []
 export const filesOf = (board: BoardState) => board.files ?? []
 export const inkOf = (board: BoardState) => board.ink ?? []
+export const readyItemsOf = (board: BoardState) => board.readyItems ?? []
 
 export function createWhiteboardDocument({
   id,

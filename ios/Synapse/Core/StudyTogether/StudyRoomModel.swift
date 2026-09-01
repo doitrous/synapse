@@ -54,7 +54,7 @@ final class StudyRoomModel {
             rooms = try await api.myRooms()
             message = nil
         } catch {
-            message = "Could not reach Synapse. A shared test needs a connection."
+            message = "Could not reach Nishany. A shared test needs a connection."
         }
     }
 

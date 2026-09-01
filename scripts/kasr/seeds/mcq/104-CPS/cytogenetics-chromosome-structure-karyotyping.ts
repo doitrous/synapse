@@ -24,7 +24,7 @@ export const LEAF: McqLeafSeed = {
       label: "Karyotyping studies chromosome number and type from a metaphase spread of leucocytes, refined by banding to stain individual genes",
       definition: "Karyotyping is the study of the number and type of chromosomes according to their length and the position of the centromere. Technique: leucocytes are the best cells to study; cells are allowed to divide by mitosis and then stopped at metaphase; the metaphase spread is photographed, matched into pairs and arranged in descending order of length; and chromosomes are studied with specialised computer software. Banding technique differentiates chromosomes further by staining different segments (genes) in different colours.",
       objective: "State what karyotyping studies, which cell type is used, at which stage of division the cells are stopped, and what banding adds.",
-      pitfall: "Assuming karyotyping needs a dividing tissue like bone marrow. The book specifies leucocytes — ordinary blood cells stimulated to divide in culture — as the cell of choice, which is what makes the test practical from a simple blood draw.",
+      pitfall: "Assuming karyotyping needs a dividing tissue like bone marrow. Leucocytes — ordinary blood cells stimulated to divide in culture — are the cell of choice, which is what makes the test practical from a simple blood draw.",
       subject: "fnd",
       primary: "DIS-HIS-T01",
       secondary: [],
@@ -37,7 +37,7 @@ export const LEAF: McqLeafSeed = {
       label: "Chromosomes are classed by gene content into autosomes and sex chromosomes, by centromere position into four shapes, and by length into seven groups",
       definition: "Chromosomes are classified three ways. By gene content: 22 homologous autosome pairs control somatic characters, and one pair of sex chromosomes controls sex — homologous (XX) in females, heterologous (XY) in males. By centromere position: metacentric, centromere central so the arms are equal; submetacentric, centromere midway between centre and end so the short arm is shorter than the long; acrocentric, centromere close to the upper end so the short arm is very short, and — except on the Y — some acrocentric chromosomes carry satellites, small chromatin masses on the short arm attached by a narrow secondary constriction containing rRNA genes; and telocentric, centromere terminal with no short arm, a type not present in humans. By length: the 22 homologous pairs are numbered 1 to 22 in descending order of length and grouped into seven groups, A through G; the sex chromosomes are placed either alone or with X in group C and Y in group G.",
       objective: "Name the three ways chromosomes are classified, and state the four centromere-position categories with which one does not occur in humans.",
-      pitfall: "Forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+      pitfall: "Forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
       subject: "fnd",
       primary: "DIS-HIS-T01",
       secondary: [],
@@ -68,10 +68,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "State that the drumstick-like Barr body appears in 3-5% of female blood neutrophils.",
       explanations: {
-        A: "Correct. The book gives the drumstick-shaped Barr body in 3-5% of female blood neutrophils, alongside the nuclear-envelope form in about 60% of buccal epithelial cells. A common trap: predicting Barr-body number from X-chromosome number by simple subtraction without the rule behind it — the number of Barr bodies is always one fewer than the number of X chromosomes present, because exactly one X per cell stays active and every other X is inactivated as a Barr body.",
-        B: "Eosinophils are not the cell the book names for this 3-5% figure.",
-        C: "Lymphocytes are not the cell the book names for the drumstick-shaped Barr body.",
-        D: "Monocytes are not the cell the book names for the drumstick-shaped Barr body.",
+        A: "The drumstick-shaped Barr body appears in 3-5% of female blood neutrophils, alongside the nuclear-envelope form in about 60% of buccal epithelial cells. A common trap: predicting Barr-body number from X-chromosome number by simple subtraction without the rule behind it — the number of Barr bodies is always one fewer than the number of X chromosomes present, because exactly one X per cell stays active and every other X is inactivated as a Barr body.",
+        B: "Eosinophils are not the cell for this 3-5% figure.",
+        C: "Lymphocytes are not the cell for the drumstick-shaped Barr body.",
+        D: "Monocytes are not the cell for the drumstick-shaped Barr body.",
       },
     },
     {
@@ -79,11 +79,11 @@ export const LEAF: McqLeafSeed = {
       conceptKey: "karyotyping.definition-technique-and-banding",
       difficulty: "Easy",
       questionType: "Definition",
-      learningObjective: "Name leucocytes as the book's stated best cell for chromosome study by karyotyping.",
+      learningObjective: "Name leucocytes as the stated best cell for chromosome study by karyotyping.",
       explanations: {
         A: "Platelets have no nucleus, so they carry no chromosomes to study.",
         B: "Red blood cells are anucleate in their mature form and carry no chromosomes either.",
-        C: "Correct. The book states leucocytes are the best cells to study chromosomes — they are allowed to divide by mitosis and stopped at metaphase for the spread. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.",
+        C: "Leucocytes are the best cells to study chromosomes — they are allowed to divide by mitosis and stopped at metaphase for the spread. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.",
         D: "Not applicable — a correct single answer is listed among the options.",
       },
     },
@@ -94,10 +94,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Structure and function",
       learningObjective: "Identify acrocentric chromosomes (like 21 and 14) as the type centric fusion occurs between.",
       explanations: {
-        A: "Metacentric chromosomes have a central centromere with equal arms — not the type the book's centric-fusion example (21 and 14) belongs to.",
+        A: "Metacentric chromosomes have a central centromere with equal arms — not the type the centric-fusion example (21 and 14) belongs to.",
         B: "Submetacentric chromosomes are not the type centric fusion is described between.",
-        C: "Telocentric chromosomes have no short arm at all and, the book notes, do not occur in humans.",
-        D: "Correct. Chromosomes 21 and 14, the book's own centric-fusion example in Down syndrome, are acrocentric — centromere very close to one end. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+        C: "Telocentric chromosomes have no short arm at all and do not occur in humans.",
+        D: "Chromosomes 21 and 14, the centric-fusion example in Down syndrome, are acrocentric — centromere very close to one end. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
       },
     },
     {
@@ -108,7 +108,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name submetacentric as the class whose centromere sits midway between the centre and the upper end.",
       explanations: {
         A: "Metacentric describes a centromere at the exact centre, with equal arms.",
-        B: "Correct. The book places the submetacentric centromere midway between the centre and the upper end, giving a short and a long arm. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+        B: "The submetacentric centromere sits midway between the centre and the upper end, giving a short and a long arm. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
         C: "Acrocentric describes a centromere very close to the upper end, not midway.",
         D: "Telocentric describes a terminal centromere with no short arm, not a midway one.",
       },
@@ -122,8 +122,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Metacentric has a centromere at the centre, not close to one end.",
         B: "Submetacentric has the centromere midway between centre and end, closer to the middle than acrocentric's is.",
-        C: "Correct. The book describes acrocentric chromosomes as having a centromere very close to the upper end, so the p arm is very short. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
-        D: "Telocentric would have no p arm at all, and the book states this type does not occur in humans.",
+        C: "Acrocentric chromosomes have a centromere very close to the upper end, so the p arm is very short. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+        D: "Telocentric would have no p arm at all, and this type does not occur in humans.",
       },
     },
     {
@@ -133,10 +133,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Mechanism",
       learningObjective: "State that isochromosome formation occurs mostly in submetacentric chromosomes.",
       explanations: {
-        A: "Metacentric chromosomes are not where the book locates this anomaly.",
-        B: "Correct. The book states isochromosomes occur mostly in submetacentric chromosomes, which divide transversely rather than longitudinally at the centromere during anaphase. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
-        C: "Acrocentric chromosomes are not where the book locates isochromosome formation.",
-        D: "Telocentric chromosomes do not occur in humans, per the book.",
+        A: "Metacentric chromosomes are not where this anomaly occurs.",
+        B: "Isochromosomes occur mostly in submetacentric chromosomes, which divide transversely rather than longitudinally at the centromere during anaphase. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+        C: "Acrocentric chromosomes are not where isochromosome formation occurs.",
+        D: "Telocentric chromosomes do not occur in humans.",
       },
     },
     {
@@ -148,7 +148,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Two chromatids joined at the centromere describes the d-chromosome itself, not the kinetochore.",
         B: "A gene, not a kinetochore, is the DNA segment coding for a protein.",
-        C: "Correct. The book defines kinetochores as two discs of protein located at the centromere, to which the spindle fibres attach during cell division. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.",
+        C: "Kinetochores are two discs of protein located at the centromere, to which the spindle fibres attach during cell division. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.",
         D: "A telomere, not a kinetochore, is the repeated-sequence region protecting the chromosome's end.",
       },
     },
@@ -160,9 +160,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that satellites attach to the short arm of acrocentric chromosomes generally, but not the Y.",
       explanations: {
         A: "Chromosome 21 is acrocentric and does carry a satellite, so this is not the exception.",
-        B: "The X chromosome is not an acrocentric chromosome and is not part of the book's satellite-bearing group at all, but the book's own stated exception is Y, named directly — not X.",
+        B: "The X chromosome is not an acrocentric chromosome and is not part of the satellite-bearing group at all, but the stated exception is Y, named directly — not X.",
         C: "Chromosome 14 is acrocentric and does carry a satellite, so this is not the exception.",
-        D: "Correct. The book states that among the acrocentric chromosomes, all except the Y carry a satellite mass of chromatin on the short arm — the Y is the book's own named exception. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+        D: "Among the acrocentric chromosomes, all except the Y carry a satellite mass of chromatin on the short arm — the Y is the named exception. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
       },
     },
     {
@@ -172,10 +172,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Structure and function",
       learningObjective: "Attribute the satellite (attached by a narrow stalk to the short arm) to acrocentric chromosomes.",
       explanations: {
-        A: "Metacentric chromosomes are not the type the book describes as carrying satellites.",
-        B: "Submetacentric chromosomes are not the type the book describes as carrying satellites.",
-        C: "Correct. The book states some acrocentric chromosomes (except the Y) carry a small satellite mass of chromatin attached to the short arm by a narrow stalk, containing rRNA genes. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
-        D: "Telocentric chromosomes do not occur in humans, per the book.",
+        A: "Metacentric chromosomes are not known for carrying satellites.",
+        B: "Submetacentric chromosomes are not known for carrying satellites.",
+        C: "Some acrocentric chromosomes (except the Y) carry a small satellite mass of chromatin attached to the short arm by a narrow stalk, containing rRNA genes. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+        D: "Telocentric chromosomes do not occur in humans.",
       },
     },
     {
@@ -188,7 +188,7 @@ export const LEAF: McqLeafSeed = {
         A: "Two chromatids connected at the centromere describes the d-chromosome, not the telomere.",
         B: "A gene, not a telomere, is the DNA segment coding for a protein.",
         C: "Two protein discs at the centromere describes the kinetochore, not the telomere.",
-        D: "Correct. The book defines telomeres as regions of repeated sequence at the chromosomal ends, protecting the end from destruction and preventing end-to-end fusion. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.",
+        D: "Telomeres are regions of repeated sequence at the chromosomal ends, protecting the end from destruction and preventing end-to-end fusion. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.",
       },
     },
     {
@@ -198,7 +198,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Classification",
       learningObjective: "Name metacentric as the class whose centromere is central, giving equal arms.",
       explanations: {
-        A: "Correct. The book defines metacentric as a centromere at the centre of the chromosome, so the two arms (p and q) are equal. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
+        A: "Metacentric describes a centromere at the centre of the chromosome, so the two arms (p and q) are equal. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — this exception is stated explicitly, and it is the kind of single-word qualifier a classification question is built to test.",
         B: "Submetacentric gives a short and a long arm, not equal ones.",
         C: "Acrocentric gives a very short p arm against a long q arm, not equal ones.",
         D: "Telocentric would have no short arm at all, and does not occur in humans.",
@@ -211,9 +211,9 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "State that karyotyping stops dividing cells at metaphase to obtain the chromosome spread.",
       explanations: {
-        A: "Prophase chromosomes are still condensing and not yet aligned — the book's technique stops cells later, at metaphase.",
+        A: "Prophase chromosomes are still condensing and not yet aligned — the technique stops cells later, at metaphase.",
         B: "Anaphase chromosomes are already separating toward opposite poles, past the point karyotyping captures them.",
-        C: "Correct. The book's karyotyping technique allows cells to divide by mitosis and stops them at metaphase, when the spread is photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.",
+        C: "The karyotyping technique allows cells to divide by mitosis and stops them at metaphase, when the spread is photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.",
         D: "Interphase chromosomes are uncondensed chromatin, not visible as the discrete metaphase spread karyotyping needs.",
       },
     },
@@ -224,10 +224,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "State that karyotyping stops the dividing cell at metaphase.",
       explanations: {
-        A: "Prophase precedes the point the book's technique stops cells at.",
-        B: "Correct. The book states the karyotyping technique stops the dividing cell at metaphase for the spread to be photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.",
+        A: "Prophase precedes the point the technique stops cells at.",
+        B: "The karyotyping technique stops the dividing cell at metaphase for the spread to be photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.",
         C: "Telophase is well past the metaphase point the technique actually captures.",
-        D: "Anaphase is past metaphase, the stage the book's technique actually stops the cell at.",
+        D: "Anaphase is past metaphase, the stage the technique actually stops the cell at.",
       },
     },
     {
@@ -238,7 +238,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that a d-chromosome's two chromatids, joined at the centromere into a short and long arm, are seen from late prophase through metaphase.",
       explanations: {
         A: "Anaphase is when the chromatids have already split apart at the centromere, past the stage of being joined as described here.",
-        B: "Correct. The book states that during late prophase and metaphase, each chromosome is formed of two chromatids connected at the centromere, dividing the d-chromosome into a short (p) and long (q) arm. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.",
+        B: "During late prophase and metaphase, each chromosome is formed of two chromatids connected at the centromere, dividing the d-chromosome into a short (p) and long (q) arm. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.",
         C: "Telophase is after the chromatids have already separated, not while they are still joined at the centromere as one d-chromosome.",
         D: "Anaphase, again, is after separation — this description of a still-joined d-chromosome belongs to late prophase and metaphase, not anaphase.",
       },

@@ -346,7 +346,7 @@ git commit -m "Let a deck be authored like every other piece of content"
 
 - [ ] **Step 2** — `AttemptSurface` gains `'card'`. Extend the existing comment: a flashcard grade is the student saying how well they knew something, so like a station and a written answer it carries `correct: null`.
 
-- [ ] **Step 3** — `src/lib/useDecks.ts` over `usePersistentState` on `synapse.flashcards.decks.v1`:
+- [ ] **Step 3** — `src/lib/useDecks.ts` over `usePersistentState` on `nishany.flashcards.decks.v1`:
 
 ```ts
 export interface StoredDeck {

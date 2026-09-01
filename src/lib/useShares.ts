@@ -55,7 +55,7 @@ export interface ShareSummary {
  * pressing Share on something already shared updates the existing link instead
  * of minting a second one nobody has.
  */
-export const SHARE_INDEX_STORAGE_KEY = 'synapse.account.shares.v1'
+export const SHARE_INDEX_STORAGE_KEY = 'nishany.account.shares.v1'
 
 export type ShareIndex = Record<string, string>
 

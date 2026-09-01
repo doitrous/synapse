@@ -1350,3 +1350,368 @@ au
 
 ## years
 AU_Y1
+---
+
+# Item
+
+## id
+ART-MSK-AU105-LEG-NERVES-CUTANEOUS
+
+## title
+The posterior compartment of the leg, the tibial nerve, and cutaneous nerve territories of the leg and foot
+
+## arabic_title
+الحجرة الخلفية للساق والعصب الظنبوبي والتوزيع الجلدي
+
+## aliases
+Posterior compartment of the leg
+Tibial nerve
+Cutaneous nerve territories
+Saphenous, sural and superficial peroneal nerve fields
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The tibial nerve alone drives the posterior compartment of the leg (superficial calf muscles plus the deep long flexors and tibialis posterior), producing plantarflexion and inversion — the mirror image of the deep-peroneal-driven anterior compartment. Five nerves divide the skin of the leg and foot between them: saphenous (medial leg), superficial peroneal (anterolateral leg and most of the dorsum), deep peroneal (only the first web space), sural (posterolateral leg and lateral foot), and the tibial nerve's plantar branches (the sole).
+
+## sections
+### Definition
+The posterior compartment of the leg has a superficial group — gastrocnemius, soleus and plantaris, converging on the tendo calcaneus to insert on the calcaneus — and a deep group — tibialis posterior, flexor digitorum longus, flexor hallucis longus and popliteus. Every muscle in both groups is supplied by the tibial nerve, which enters between the two heads of gastrocnemius and runs deep to soleus with the posterior tibial vessels. Cutaneously, the leg and foot are divided among five nerves: the saphenous nerve (sensory continuation of the femoral nerve) covers the medial leg down to, but not behind, the medial malleolus; the superficial peroneal nerve covers the anterolateral leg and almost the whole dorsum of the foot; the deep peroneal nerve, despite its motor dominance of the anterior compartment, is reduced cutaneously to the first web space; the sural nerve covers the lower posterolateral leg, passes behind the lateral malleolus with the small saphenous vein, and reaches the lateral border of the foot to the little toe; and the tibial nerve's medial and lateral plantar branches cover the whole sole.
+
+### Mechanism
+Because the whole posterior compartment answers to one nerve, a tibial nerve injury paralyses plantarflexion and inversion together and produces a calcaneovalgus-type gait, the functional opposite of the foot-drop pattern from a common peroneal (anterior/lateral compartment) injury. Because the cutaneous map does not track the motor map one-for-one — the deep peroneal nerve's huge motor territory corresponds to a tiny sensory patch — sensory findings alone can mislocalise a nerve injury unless the examiner checks the correct nerve's actual skin field. A sciatic nerve injury spares the medial leg specifically because that strip is saphenous (femoral-derived) territory, not sciatic, which is the standard way this bank distinguishes a sciatic-level lesion from a more distal one.
+
+### Key determinants
+Whether a foot's dorsiflexion/plantarflexion deficit is common-peroneal or tibial in origin depends on whether inversion (tibial, via tibialis posterior) or eversion (superficial peroneal, via peroneus longus/brevis) is also lost, since the two compartments' actions run in parallel pairs. Whether a patch of numb skin localises to a specific nerve depends on matching its exact borders (which malleolus, front or back, how far up the leg) to the five-nerve map rather than assuming "the leg" is a single territory.
+
+### Clinical significance
+Tibial nerve injury (rare compared with common peroneal injury, since it lies deeper and is better protected) causes loss of plantarflexion, inversion, and sole sensation, and is tested by asking the patient to stand on tiptoe. Sural nerve biopsy is a classical diagnostic procedure in peripheral neuropathy because the nerve is purely sensory and superficial behind the lateral malleolus, so its loss causes only a tolerable patch of numbness on the lateral foot.
+
+## published_summary
+
+
+## published_sections
+
+## hold_these
+Every muscle of the posterior leg compartment (superficial and deep) is supplied by the tibial nerve.
+The deep peroneal nerve's cutaneous field is only the first web space, despite driving the whole anterior compartment motor-wise.
+The saphenous nerve covers the medial leg but stops at the medial malleolus; it does not reach the foot.
+The sural nerve passes behind the lateral malleolus with the small saphenous vein and reaches the little toe.
+A sciatic nerve injury spares the medial leg because that territory is saphenous (femoral), not sciatic.
+
+## lose_the_mark
+Assuming the deep peroneal nerve's cutaneous territory matches its motor territory.
+Assuming any sensory loss "in the leg" localises to the sciatic nerve without checking whether it is in saphenous (spared) territory.
+Reversing which malleolus the saphenous nerve/great saphenous vein pass versus the sural nerve/small saphenous vein.
+
+## related_concepts
+CON-MSK-9180242FA01B58
+CON-MSK-583524B3AE47F7
+
+## related_articles
+ART-MSK-AU105-LEG-ANKLE-FOOT: the anterior compartment and deep peroneal nerve this article's posterior compartment mirrors
+
+## question_ids
+
+
+## resource_ids
+src_78b66af9c28aa239cdb7
+src_a2ec24de7b5561128fed
+
+## article_source_ids
+src_78b66af9c28aa239cdb7
+src_a2ec24de7b5561128fed
+
+## claim_ids
+
+
+## span_ids
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Department lecture slides and the lecturer's own MCQ/practical bank (bank-tier exam signal; no faculty department book or EOM/EOY paper exists for this module)
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## notes
+[clear]
+
+## module
+AU-MED-105
+
+## university_notes
+
+
+## conflicts
+
+
+## media
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## callout_evidence
+
+
+## field_notes
+questionIds: No question has been imported yet to link back; set when the question batch lands.
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` is left as free text.
+nanotopicId: No finer subdivision than microtopic exists in the source lecture.
+arabicAliases: No standard second Arabic alias beyond the title is in wide undergraduate use.
+module: AU-MED-105 is this article's sole owning module; module_subject is not a column on articles.
+media: No rights-cleared media asset exists yet for this article; needs are filed as concept-level media_recommendations on the questions that require them.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+universityNotes: Alexandria teaches this identically to the source lecture; no university-specific variation found.
+conflicts: None found between the bank questions and standard gross anatomy.
+
+## universities
+au
+
+## years
+AU_Y1
+
+---
+
+# Item
+
+## id
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS
+
+## title
+Sole muscle layers and plantar nerves, the knee joint's intracapsular structures, and the dorsalis pedis, posterior tibial and profunda femoris vessels
+
+## arabic_title
+طبقات باطن القدم والأربطة الصليبية والأوعية الظنبوبية والفخذية العميقة
+
+## aliases
+Layers of the sole
+Medial and lateral plantar nerves
+Cruciate ligaments and menisci
+Dorsalis pedis artery
+Posterior tibial artery
+Femoral vein tributaries
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The sole's four muscle layers split between the medial plantar nerve ("one and a half" muscles) and the lateral plantar nerve (everything else, including quadratus plantae); the knee's cruciate ligaments and menisci are intracapsular but extrasynovial, with only the medial meniscus fused to its collateral ligament; and the anterior tibial and posterior tibial arteries continue respectively as dorsalis pedis (ending in the sole) and the plantar arteries (via the peroneal artery), while in the thigh adductor longus separates the femoral artery from profunda femoris.
+
+## sections
+### Definition
+The sole's intrinsic muscles form four layers: layer 1 (abductor hallucis, flexor digitorum brevis, abductor digiti minimi), layer 2 (the long flexor tendons, quadratus plantae, the lumbricals), layer 3 (flexor hallucis brevis, adductor hallucis, flexor digiti minimi brevis) and layer 4 (the interossei, plus the tibialis posterior and peroneus longus tendons crossing the sole). The medial plantar nerve supplies only abductor hallucis, flexor digitorum brevis, flexor hallucis brevis and the first lumbrical; the lateral plantar nerve supplies everything else, including quadratus plantae and adductor hallucis. In the knee, both cruciate ligaments and both menisci lie inside the fibrous capsule but outside the true synovial cavity; the medial meniscus is fused to the medial collateral ligament while the lateral meniscus is separated from the lateral collateral ligament by popliteus; the suprapatellar bursa communicates with the joint cavity, the popliteal (semimembranosus) bursa does not. The anterior tibial artery becomes dorsalis pedis in front of the ankle and ends by diving into the sole to complete the deep plantar arch; the posterior tibial artery gives the peroneal artery (the leg's main supply and the fibula's nutrient artery) and ends behind the medial malleolus as the medial and lateral plantar arteries. In the thigh, adductor longus separates the femoral artery from profunda femoris, whose medial circumflex femoral branch and the femoral vein's deep tributaries (profunda femoris, circumflex femoral and deep external pudendal veins, but not the small saphenous vein) complete the region's vascular picture.
+
+### Mechanism
+The sole's nerve split follows a hand-like pattern (median-like medial plantar nerve, ulnar-like lateral plantar nerve), which is why quadratus plantae and adductor hallucis — despite sounding medial by name or position — are lateral-plantar-supplied exceptions worth memorising deliberately rather than inferring from position. The knee's intracapsular-but-extrasynovial arrangement of the cruciates and menisci explains why an isolated meniscal tear can be diagnosed and treated arthroscopically without opening the true joint cavity's synovial lining elsewhere, and why the medial meniscus's fixation to the medial collateral ligament (unlike the free lateral meniscus) makes it far more often torn in the same injury. The dorsalis-pedis/posterior-tibial split explains the two sites where a foot pulse is checked clinically (dorsum of foot, behind medial malleolus) and why occlusion proximal to the origin of profunda femoris in the thigh is far more dangerous than a distal one.
+
+### Key determinants
+Whether a sole muscle is medial- or lateral-plantar-supplied depends on the "one and a half muscles are medial, the rest are lateral" rule, not on the muscle's superficial-versus-deep layer. Whether a knee ligament/meniscus injury pattern links the medial or lateral side depends on which meniscus is fused to its collateral ligament (medial) versus free (lateral, separated by popliteus).
+
+### Clinical significance
+Absent dorsalis pedis and posterior tibial pulses together suggest peripheral arterial disease proximal to both branch points; the "unhappy triad" (ACL, medial collateral ligament, medial meniscus) reflects the medial meniscus's fixation to its ligament. A femoral or hip vascular injury's severity depends on its level relative to the origin of profunda femoris, since its perforating branches supply most of the thigh's muscle bulk once past the origin.
+
+## published_summary
+
+
+## published_sections
+
+## hold_these
+The medial plantar nerve supplies only abductor hallucis, flexor digitorum brevis, flexor hallucis brevis and the first lumbrical; the lateral plantar nerve supplies everything else in the sole, including quadratus plantae and adductor hallucis.
+Both cruciate ligaments and both menisci are intracapsular but extrasynovial; only the medial meniscus is fused to its collateral ligament.
+The suprapatellar bursa communicates with the knee joint cavity; the popliteal bursa does not.
+Dorsalis pedis is the anterior tibial artery's continuation and ends in the sole; the posterior tibial artery ends behind the medial malleolus as the plantar arteries.
+Adductor longus separates the femoral artery from profunda femoris in the thigh.
+
+## lose_the_mark
+Assigning quadratus plantae or adductor hallucis to the medial plantar nerve by name/position instead of the actual rule.
+Calling the cruciate ligaments "intra-synovial" rather than intracapsular-but-extrasynovial.
+Assuming the small saphenous vein drains into the femoral vein like the great saphenous vein does.
+
+## related_concepts
+CON-MSK-3F2004E89BDB84
+CON-MSK-96555E54E55FB1
+CON-MSK-0415214C935D2D
+CON-MSK-5428C841EE2214
+
+## related_articles
+ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE: the popliteus locking/unlocking mechanism and pes anserinus this article's knee section builds on
+ART-MSK-AU105-LL-VESSELS-LYMPHATICS: the popliteal artery and saphenous veins this article's vessel section continues distally and proximally
+ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL: the femoral sheath and canal this article's femoral-vein section extends
+
+## question_ids
+
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## article_source_ids
+src_a2ec24de7b5561128fed
+
+## claim_ids
+
+
+## span_ids
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Department lecture slides and the lecturer's own MCQ/practical bank (bank-tier exam signal; no faculty department book or EOM/EOY paper exists for this module)
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## notes
+[clear]
+
+## module
+AU-MED-105
+
+## university_notes
+
+
+## conflicts
+
+
+## media
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## callout_evidence
+
+
+## field_notes
+questionIds: No question has been imported yet to link back; set when the question batch lands.
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` is left as free text.
+nanotopicId: No finer subdivision than microtopic exists in the source lecture.
+arabicAliases: No standard second Arabic alias beyond the title is in wide undergraduate use.
+module: AU-MED-105 is this article's sole owning module; module_subject is not a column on articles.
+media: No rights-cleared media asset exists yet for this article; needs are filed as concept-level media_recommendations on the questions that require them.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+universityNotes: Alexandria teaches this identically to the source lecture; no university-specific variation found.
+conflicts: None found between the bank questions and standard gross anatomy.
+
+## universities
+au
+
+## years
+AU_Y1

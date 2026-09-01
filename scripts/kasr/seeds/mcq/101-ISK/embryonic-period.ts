@@ -49,9 +49,9 @@ export const LEAF: McqLeafSeed = {
       key: 'somite-period-dates-and-the-age-from-somite-number-formula',
       label: 'The first somite pair appears on day 20 and three pairs are added each day, so the number of somites gives the embryo\'s age',
       definition:
-        'The intra-embryonic mesoderm divides into its three parts on the 17th gestational day. The first pair of occipital somites separates on the 20th day, and from then three pairs are added each day until the 30th day; this stretch of regular segmentation, day 21 to day 30, is the somite period. Segmentation then continues at a slower and irregular rate until the 35th to 40th day, by which time 42–44 pairs are present. Because the rate is fixed while segmentation is regular, the number of somites dates the embryo, and the department book gives the arithmetic: age in days = (number of somites − 1) / 3 + 20.',
+        'The intra-embryonic mesoderm divides into its three parts on the 17th gestational day. The first pair of occipital somites separates on the 20th day, and from then three pairs are added each day until the 30th day; this stretch of regular segmentation, day 21 to day 30, is the somite period. Segmentation then continues at a slower and irregular rate until the 35th to 40th day, by which time 42–44 pairs are present. Because the rate is fixed while segmentation is regular, the number of somites dates the embryo, and the arithmetic follows: age in days = (number of somites − 1) / 3 + 20.',
       objective:
-        'Give the day the first somite appears and the rate at which pairs are added, and use the book\'s formula to date an embryo from its somite count.',
+        'Give the day the first somite appears and the rate at which pairs are added, and use the somite-age formula to date an embryo from its somite count.',
       pitfall:
         'Guessing the age instead of using the formula. Sixteen somites is not sixteen days or twenty-plus-sixteen; it is (16 − 1)/3 + 20 = 25 days, and the distractors are set one day either side so that only the arithmetic separates them.',
       subject: 'dev',
@@ -70,7 +70,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Developmental timing',
       learningObjective: 'Name where somite segmentation begins and infer the direction it runs.',
       explanations: {
-        A: 'Correct. Segmentation begins at the occipital region and extends caudally from there.',
+        A: 'Segmentation begins at the occipital region and extends caudally from there.',
         B: 'The cervical region is the first one most students think of, because the vertebral column is usually recited from the neck down. Segmentation has already passed through four occipital pairs by the time it reaches it.',
         C: 'The thoracic somites are the largest group, twelve pairs, which makes them memorable — but they are third in order, not first.',
         D: 'The lumbar region is nearly the end of the sequence. If segmentation began there the occipital and cervical somites would be the youngest, and the whole craniocaudal gradient of development would run backwards.',
@@ -85,9 +85,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'Neither printing of this question in the books carries a key. The department book\'s regional list on page 88 gives 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8–10 coccygeal pairs, so the answer is four.',
       explanations: {
-        A: 'Correct. Four pairs of occipital somites, the first of the six regional groups and the first to segment.',
-        B: 'Six is not a count in the book\'s regional list at all. It is the number a student reaches for when they remember the occipital group as a middling one rather than the smallest of the six.',
-        C: 'Three is the number of pairs added per day during the somite period, not the number in the occipital region. The two figures sit a line apart in the book and are easily transposed.',
+        A: 'Four pairs of occipital somites, the first of the six regional groups and the first to segment.',
+        B: 'Six is not a count in the regional list at all. It is the number a student reaches for when they remember the occipital group as a middling one rather than the smallest of the six.',
+        C: 'Three is the number of pairs added per day during the somite period, not the number in the occipital region. The two figures sit close together and are easily transposed.',
         D: 'Five is the count for both the lumbar and the sacral regions, and a student who has learnt the list as a run of numbers rather than as region-to-number pairs will often land on it.',
       },
     },
@@ -95,14 +95,14 @@ export const LEAF: McqLeafSeed = {
       key: 'the-age-of-an-embryo-with-16-pairs-of-somites-is-062154e3',
       conceptKey: 'somite-period-dates-and-the-age-from-somite-number-formula',
       difficulty: 'Hard', questionType: 'Calculation',
-      learningObjective: 'Apply the book\'s somite-age formula rather than estimating.',
+      learningObjective: 'Apply the somite-age formula rather than estimating.',
       answerOverride: 'C',
       answerOverrideReason:
         'None of the three printings of this question in the books carries a key. The department book\'s formula on page 88 is age in days = (number of somites − 1)/3 + 20, which for 16 somites gives (16 − 1)/3 + 20 = 5 + 20 = 25 days.',
       explanations: {
         A: '23 days is what comes out if the twenty-day starting point is kept but the three-pairs-a-day rate is applied to the wrong quantity — it corresponds to about ten somites, not sixteen.',
         B: '24 days is one day short, the answer of a student who divides sixteen by three and rounds down instead of subtracting the first pair before dividing. The "− 1" in the formula exists because the first pair marks day 20 itself.',
-        C: 'Correct. (16 − 1)/3 + 20 = 25 days.',
+        C: '(16 − 1)/3 + 20 = 25 days.',
         D: '26 days is one day long, from dividing sixteen by three and rounding up. Both neighbours are printed deliberately: the question is testing the arithmetic, not the recall.',
       },
     },

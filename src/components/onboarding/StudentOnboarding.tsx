@@ -26,7 +26,7 @@ interface StudentProfileDraft {
   iconId: string
 }
 
-const PROFILE_STORAGE_KEY = 'synapse.account.profile.v1'
+const PROFILE_STORAGE_KEY = 'nishany.account.profile.v1'
 
 /**
  * The three questions a new student is asked, in the order the answers depend

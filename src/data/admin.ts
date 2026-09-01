@@ -168,8 +168,8 @@ export const consentSettings = API_MODE ? [] : [
 /* ---- Settings ---------------------------------------------------------- */
 
 export const institution = API_MODE ? {
-  name: 'Maristana',
-  domain: 'synapse.doitrous.com',
+  name: 'Nishany',
+  domain: 'nishany.com',
   region: 'Egypt',
   contact: '',
 } : {
@@ -211,7 +211,7 @@ export const auditLog = API_MODE ? [] : [
 ]
 
 export const securityChecks = API_MODE ? [] : ([
-  { name: 'Two-factor authentication for staff', status: 'pass', detail: 'Enforced for all 57 staff accounts' },
+  { name: 'Two-factor authentication for staff', status: 'pass', detail: 'Enforced for admins and above; reviewers exempt' },
   { name: 'Data encryption at rest', status: 'pass', detail: 'AES-256 on all stores' },
   { name: 'Inactive admin sessions', status: 'warn', detail: '2 admin accounts inactive > 90 days' },
   { name: 'Backups', status: 'pass', detail: 'Last verified restore: 3 days ago' },

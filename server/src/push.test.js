@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import crypto from 'node:crypto'
 import {
   readConfig, isConfigured, buildProviderToken, buildPayload, isTokenDead, resetNudgeWindow,
+  buildAlertPayload, sendApnsAlert,
 } from './push.js'
 
 /** A throwaway P-256 key, so the signing path is exercised for real. */
@@ -11,7 +12,7 @@ function testKey() {
   return privateKey.export({ type: 'pkcs8', format: 'pem' })
 }
 
-const config = () => ({ keyId: 'ABC1234567', teamId: 'TEAM123456', bundleId: 'com.synapse.app', key: testKey() })
+const config = () => ({ keyId: 'ABC1234567', teamId: 'TEAM123456', bundleId: 'com.nishany.app', key: testKey() })
 
 test('an unconfigured server does not pretend it can send', () => {
   assert.equal(isConfigured(readConfig({})), false)
@@ -33,7 +34,7 @@ test('something that is not a key does not become one', () => {
 })
 
 test('the bundle id has a default, because only one app sends these', () => {
-  assert.equal(readConfig({}).bundleId, 'com.synapse.app')
+  assert.equal(readConfig({}).bundleId, 'com.nishany.app')
   assert.equal(readConfig({ APNS_BUNDLE_ID: 'com.other.app' }).bundleId, 'com.other.app')
 })
 
@@ -60,7 +61,7 @@ test('the provider token is signed the way Apple reads it, not the way Node writ
 })
 
 test('the payload wakes the app and does nothing else', () => {
-  const payload = JSON.parse(buildPayload('synapse.progress.attempts.v1'))
+  const payload = JSON.parse(buildPayload('nishany.progress.attempts.v1'))
   assert.equal(payload.aps['content-available'], 1)
   // Nothing a student would see or hear. This is a sync signal, not a message.
   assert.equal('alert' in payload.aps, false)
@@ -69,8 +70,8 @@ test('the payload wakes the app and does nothing else', () => {
 })
 
 test('the payload carries no student content, only which record moved', () => {
-  const payload = JSON.parse(buildPayload('synapse.progress.attempts.v1'))
-  assert.equal(payload.k, 'synapse.progress.attempts.v1')
+  const payload = JSON.parse(buildPayload('nishany.progress.attempts.v1'))
+  assert.equal(payload.k, 'nishany.progress.attempts.v1')
   assert.deepEqual(Object.keys(payload).sort(), ['aps', 'k'])
 })
 
@@ -131,4 +132,29 @@ test('the first nudge of a process is never swallowed', async () => {
   const { claimNudgeSlot } = await import('./push.js')
   resetNudgeWindow()
   assert.equal(claimNudgeSlot('user-fresh', 0), true)
+})
+
+/* ── Visible reminders ───────────────────────────────────────────────────── */
+
+test('the alert payload carries what a student is meant to see, and where the tap should go', () => {
+  const payload = JSON.parse(buildAlertPayload({
+    title: 'Question of the Day', body: 'Yours is waiting.', path: '/app/qotd',
+  }))
+  assert.deepEqual(payload.aps.alert, { title: 'Question of the Day', body: 'Yours is waiting.' })
+  // Unlike the silent nudge, this one is meant to be heard.
+  assert.equal(payload.aps.sound, 'default')
+  assert.equal(payload.path, '/app/qotd')
+})
+
+test('a visible reminder does not pretend to send from an unconfigured server either', async () => {
+  const result = await sendApnsAlert(
+    { token: 'abc', environment: 'sandbox' },
+    { title: 'Question of the Day', body: 'Yours is waiting.', path: '/app/qotd' },
+  )
+  assert.equal(result, false)
+})
+
+test('a visible reminder with no device to reach is not an error', async () => {
+  assert.equal(await sendApnsAlert({}, { title: 'x', body: 'y', path: '/app/qotd' }), false)
+  assert.equal(await sendApnsAlert(null, { title: 'x', body: 'y', path: '/app/qotd' }), false)
 })

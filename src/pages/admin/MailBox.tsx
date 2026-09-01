@@ -17,7 +17,7 @@ interface Attachment { id: string; filename: string; contentType: string; sizeBy
 interface MailFull extends MailRow { cc?: string; bcc?: string; html?: string; text?: string; attachments: Attachment[] }
 interface Draft { filename: string; contentType: string; size: number; content_b64: string }
 
-const DEFAULT_FROM = 'synapse@mail.doitrous.com'
+const DEFAULT_FROM = 'info@nishany.com'
 
 function statusTone(s: string): 'success' | 'primary' | 'warning' | 'danger' | 'neutral' {
   if (s === 'Delivered' || s === 'Opened') return 'success'
@@ -71,7 +71,7 @@ export function MailBox() {
   if (!API_MODE) {
     return (
       <PageContainer>
-        <PageHeader title="Mail Box" description="Send and receive email from your Maristana addresses." />
+        <PageHeader title="Mail Box" description="Send and receive email from your Nishany addresses." />
         <Panel className="p-8 text-center">
           <span className="mx-auto grid size-12 place-items-center rounded-xl bg-warning-tint text-warning"><Icon icon={Info} size={22} /></span>
           <h2 className="mt-4 font-serif text-[19px] font-semibold text-ink">The Mail Box needs the backend</h2>
@@ -159,7 +159,7 @@ function MailboxPanel({ box, mailboxes, onSelect, onCreated, onError }: { box: s
   const create = async () => {
     const l = local.trim().toLowerCase().replace(/[^a-z0-9._-]/g, '')
     if (!l) return
-    const address = `${l}@mail.doitrous.com`
+    const address = `${l}@nishany.com`
     try { await apiPost('/mailboxes', { address, label: address }); onCreated({ address, label: address }); setLocal(''); setAdding(false) }
     catch (e) { onError(e instanceof Error ? e.message : 'Failed to create address.') }
   }
@@ -175,7 +175,7 @@ function MailboxPanel({ box, mailboxes, onSelect, onCreated, onError }: { box: s
         {adding && (
           <form className="mt-2 flex items-center gap-1.5 border-t border-line pt-2" onSubmit={(e) => { e.preventDefault(); void create() }}>
             <TextInput value={local} onChange={(e) => setLocal(e.target.value)} placeholder="name" className="h-8 text-[12px]" autoFocus />
-            <span className="whitespace-nowrap text-[11px] text-ink-3">@mail.doitrous.com</span>
+            <span className="whitespace-nowrap text-[11px] text-ink-3">@nishany.com</span>
             <Button type="submit" variant="primary" size="sm">Add</Button>
           </form>
         )}

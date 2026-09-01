@@ -15,7 +15,7 @@ import type { BlueprintNode } from './blueprint.ts'
 import type { AdaptiveConfig } from './config.ts'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const COVERAGE_DEBT_STORAGE_KEY = 'synapse.progress.adaptive.coverageDebt.v1'
+export const COVERAGE_DEBT_STORAGE_KEY = 'nishany.progress.adaptive.coverageDebt.v1'
 
 export interface ConceptCoverage {
   conceptId: string

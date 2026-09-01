@@ -102,7 +102,7 @@ export function Tabs({
       {rule && (
         <span
           aria-hidden
-          className="cortex-tab-indicator left-0"
+          className="nishany-tab-indicator left-0"
           style={{
             width: rule.width,
             transform: `translateX(${rule.left}px)`,

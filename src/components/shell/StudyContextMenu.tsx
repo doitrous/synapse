@@ -2,10 +2,11 @@ import { useCallback, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   ArrowLeft, BookOpen, Copy, ExternalLink, FolderOpen, NotebookPen,
-  RotateCw, Search,
+  RotateCw, Search, Sparkles,
 } from 'lucide-react'
 import { ContextMenu, type ContextMenuItem } from '@/components/ui/ContextMenu'
 import { scopeItemsFor } from '@/lib/contextMenuScopes'
+import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { useT } from '@/lib/i18n'
 
 /**
@@ -74,6 +75,7 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
   const t = useT()
   const navigate = useNavigate()
   const [target, setTarget] = useState<Target | null>(null)
+  const [quickAddFront, setQuickAddFront] = useState<string | null>(null)
 
   useEffect(() => {
     function onContextMenu(event: MouseEvent) {
@@ -137,7 +139,13 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
 
   const close = useCallback(() => setTarget(null), [])
 
-  if (!target) return null
+  const quickAddDialog = quickAddFront !== null
+    ? <QuickAddFlashcardDialog initialFront={quickAddFront} onClose={() => setQuickAddFront(null)} />
+    : null
+
+  // The menu closes the instant an item is chosen, so the dialog it opens must
+  // render independently of `target` (which is null by then).
+  if (!target) return quickAddDialog
 
   const { selection, label, href, scoped } = target
   const items: ContextMenuItem[] = [...scoped]
@@ -158,9 +166,17 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
       // The notebook reads this on mount and starts a note from it, so the
       // student lands in the note rather than in an empty page.
       onSelect: () => {
-        try { sessionStorage.setItem('synapse.notebook.capture', selection) } catch { /* ignore */ }
+        try { sessionStorage.setItem('nishany.notebook.capture', selection) } catch { /* ignore */ }
         navigate('/app/notebook?capture=1')
       },
+    })
+    items.push({
+      id: 'flashcard',
+      label: t('Create a flashcard'),
+      icon: Sparkles,
+      // Opens a quick-capture dialog with the selection as the card front; it
+      // writes straight to the flashcards collection, so this works on any screen.
+      onSelect: () => setQuickAddFront(selection),
     })
     items.push({
       id: 'library',
@@ -221,5 +237,10 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
     ? (selection.length > HEADER_LIMIT ? `${selection.slice(0, HEADER_LIMIT)}…` : selection)
     : label
 
-  return <ContextMenu x={target.x} y={target.y} items={items} onClose={close} header={header} />
+  return (
+    <>
+      <ContextMenu x={target.x} y={target.y} items={items} onClose={close} header={header} />
+      {quickAddDialog}
+    </>
+  )
 }

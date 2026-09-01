@@ -7,17 +7,17 @@ type MarkProps = {
 }
 
 /**
- * Maristana's Courtyard M.
+ * Nishany's Noon Dot.
  *
- * Two mirrored architectural halves make the letterform. Their inner edges
- * stop around a negative-space doorway: the useful part of the mark is the
- * way through, not an ornament placed on top of it. Colours intentionally read
- * from the design-system tokens so the same vector belongs in light, warm and
+ * The bowl of the letter ن drawn as one thick stroke, its dot come to rest at
+ * the bullseye, inside a faint aiming ring. Colours intentionally read from
+ * the design-system tokens so the same vector belongs in light, warm and
  * dark themes without component-level theme branching.
  */
-export function MaristanaMark({ size = 28, className, monochrome = false }: MarkProps) {
-  const blue = monochrome ? 'currentColor' : 'var(--brand-blue)'
-  const rose = monochrome ? 'currentColor' : 'var(--brand-rose)'
+export function NishanyMark({ size = 28, className, monochrome = false }: MarkProps) {
+  const ring = monochrome ? 'currentColor' : 'var(--color-accent-line)'
+  const bowl = monochrome ? 'currentColor' : 'var(--brand-blue)'
+  const dot = monochrome ? 'currentColor' : 'var(--brand-rose)'
 
   return (
     <svg
@@ -28,26 +28,19 @@ export function MaristanaMark({ size = 28, className, monochrome = false }: Mark
       viewBox="0 0 64 64"
       width={size}
     >
+      <circle cx="32" cy="32" opacity="0.35" r="29" stroke={ring} strokeWidth="2" />
       <path
-        d="M4 58V11C4 8.8 5.8 7 8 7h6l18 22v9c-7.7 0-14 6.3-14 14v6H4Z"
-        fill={blue}
+        d="M18.6 21.75 A17.5 17.5 0 1 0 45.4 21.75"
+        stroke={bowl}
+        strokeLinecap="round"
+        strokeWidth="9"
       />
-      <path
-        d="M60 58V11c0-2.2-1.8-4-4-4h-6L32 29v9c7.7 0 14 6.3 14 14v6h14Z"
-        fill={rose}
-      />
+      <circle cx="32" cy="28.5" fill={dot} r="6" />
     </svg>
   )
 }
 
-/**
- * Compatibility export for integration points that historically used the old
- * component name. It renders the Maristana mark; no legacy artwork remains in
- * the visible product.
- */
-export const CortexMark = MaristanaMark
-
-/** Maristana lockup: the Courtyard M is the first character in the name. */
+/** Nishany lockup: the Noon Dot mark precedes the lowercase name. */
 export function Wordmark({
   collapsed = false,
   textSize = 20,
@@ -62,8 +55,8 @@ export function Wordmark({
   if (collapsed) {
     return (
       <span className={cn('inline-flex items-center text-[var(--color-ink)]', className)}>
-        <MaristanaMark size={28} />
-        <span className="sr-only">Maristana by Connect Academy</span>
+        <NishanyMark size={28} />
+        <span className="sr-only">Nishany by Connect</span>
       </span>
     )
   }
@@ -75,15 +68,15 @@ export function Wordmark({
       className={cn('inline-flex items-center gap-[0.24em] whitespace-nowrap', className)}
       style={{ fontSize: textSize }}
     >
-      <span className="sr-only">Maristana by Connect Academy</span>
-      <MaristanaMark size={markSize} />
+      <span className="sr-only">Nishany by Connect</span>
+      <NishanyMark size={markSize} />
       <span aria-hidden="true" className="flex min-w-0 flex-col justify-center leading-none">
-        <span className="font-brand font-bold tracking-[-0.01em] text-[var(--color-ink)]">
-          ARISTANA
+        <span className="font-brand font-extrabold tracking-normal text-[var(--color-ink)]">
+          nishany
         </span>
         {endorsement ? (
           <span className="mt-[0.38em] font-sans text-[max(8px,0.32em)] font-semibold tracking-[0.2em] text-[var(--color-ink-2)]">
-            BY CONNECT ACADEMY
+            BY CONNECT
           </span>
         ) : null}
       </span>

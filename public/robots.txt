@@ -7,4 +7,4 @@ Disallow: /signup
 Disallow: /logout
 Disallow: /auth/
 
-Sitemap: https://synapse.doitrous.com/sitemap.xml
+Sitemap: https://nishany.com/sitemap.xml

@@ -829,7 +829,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-List the six functions of the superficial fascia the department book gives.
+List the six functions of the superficial fascia.
 ## setting
 Academic
 ## academic_relevance
@@ -1078,7 +1078,7 @@ Moderate
 ## question_type
 Clinical application
 ## learning_objective
-Enumerate the congenital anomalies of the placenta under the six headings the department book uses.
+Enumerate the congenital anomalies of the placenta under the six headings.
 ## setting
 Academic
 ## academic_relevance

@@ -82,7 +82,7 @@ export function normalisePlan(plan) {
 function wrappingKey() {
   const secret = process.env.ASSISTANT_KEY_SECRET
   if (!secret || secret.length < 16) return null
-  return scryptSync(secret, 'synapse-assistant-key', 32)
+  return scryptSync(secret, 'nishany-assistant-key', 32)
 }
 
 export function keyStorageAvailable() {

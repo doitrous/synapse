@@ -693,6 +693,9 @@ import('./src/data/glossary.ts').then(({ MED_CATEGORIES }) => {
 - [ ] Definitions are one sentence, and the Arabic matches the English register
 - [ ] I checked `GLOSSARY_SEED` so my batch will not collide with the starter set
 - [ ] I did not run `medical:batch` on this file
+- [ ] No `def`, `definition_ar` or `example` contains a bare `---` line on its own — the check
+  script above (and the wizard) splits records on exactly that line, so one silently ends
+  the item and starts a broken second record
 
 ### The failures specific to the glossary
 
@@ -705,3 +708,4 @@ import('./src/data/glossary.ts').then(({ MED_CATEGORIES }) => {
 | A term shows **Incomplete** in admin | Missing `term`, `ar` or `def` |
 | Two items for one term | Different `term` spellings producing different derived IDs — check with `find-existing.mjs` first |
 | Your batch collides with the starter set | You did not check `GLOSSARY_SEED` |
+| An item (or everything after it) is missing or the count of items is wrong | A bare `---` line inside `def`/`definition_ar`/`example` ended the record early — strip stray horizontal rules from pasted source text |

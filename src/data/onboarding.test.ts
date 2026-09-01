@@ -67,7 +67,7 @@ test('the complete membership is offered only to cohorts it is aimed at', () => 
   assert.deepEqual(offered.map((plan) => plan.id), [])
 })
 
-test('with no targeting, Maristana is the only onboarding offer', () => {
+test('with no targeting, Nishany is the only onboarding offer', () => {
   const offered = offeredPlans(initialPlanCatalog(), { universityId: 'kau', year: 'Year 1' })
   assert.deepEqual(offered.map((plan) => plan.id), ['maristana'])
 })

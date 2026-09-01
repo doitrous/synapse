@@ -1,8 +1,9 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { chooserTopics, isQuestionTopic, questionsInScope, scopeCounts, topicKey } from './qbankScope.ts'
+import { chooserTopics, isQuestionTopic, questionsInScope, questionsInSources, scopeCounts, topicKey } from './qbankScope.ts'
 import type { Question } from './qbank.ts'
 import type { LibTopic } from './library.ts'
+import type { QuestionSource, SourceBucket } from './questionSource.ts'
 
 function question(id: string, subjectId: string, topic: string, refIds: string[] = []): Question {
   return {
@@ -99,4 +100,25 @@ test('library topics and question topics coexist', () => {
   const counts = scopeCounts(pool, topics)
   assert.equal(counts.topics.hf, 1)
   assert.equal(counts.topics[topics[1].id], 1)
+})
+
+function sourced(id: string, source?: QuestionSource): Question {
+  return { ...question(id, 'cardio', 'Topic'), source }
+}
+
+test('questionsInSources: empty set means all questions', () => {
+  const qs = [sourced('a', 'dept-mcq'), sourced('b', 'past-paper'), sourced('c', undefined)]
+  assert.equal(questionsInSources(qs, new Set()).length, 3)
+})
+
+test('questionsInSources: filters to the selected buckets', () => {
+  const qs = [sourced('a', 'dept-mcq'), sourced('b', 'past-paper'), sourced('c', undefined)]
+  const sel: Set<SourceBucket> = new Set(['dept-mcq'])
+  assert.deepEqual(questionsInSources(qs, sel).map((q) => q.id), ['a'])
+})
+
+test('questionsInSources: untagged questions match only when unspecified is selected', () => {
+  const qs = [sourced('a', 'dept-mcq'), sourced('c', undefined)]
+  assert.deepEqual(questionsInSources(qs, new Set(['unspecified'])).map((q) => q.id), ['c'])
+  assert.deepEqual(questionsInSources(qs, new Set(['dept-mcq'])).map((q) => q.id), ['a'])
 })

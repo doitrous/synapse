@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useLocalChoice, useLocalPreference } from '@/lib/useLocalPreference'
 import { clickableRow, stopRowClick } from '@/lib/clickableRow'
@@ -16,9 +16,12 @@ import {
   Folder,
   Upload,
   ImagePlus,
+  Images,
   Trash2,
   Pencil,
   X,
+  Eye,
+  EyeOff,
 } from 'lucide-react'
 import type { ResourceType } from '@/data/types'
 import { useLiveResources, type LiveResource } from '@/lib/useLiveResources'
@@ -28,9 +31,11 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { useRecentResources } from '@/lib/useRecentResources'
 import { useMyDocuments, type MyDocument } from '@/lib/useMyDocuments'
 import { uploadRouteId } from '@/lib/useReaderSource'
-import { apiDownload, apiOpenFile, API_MODE } from '@/lib/api'
+import { apiDownload, apiFetchBlob, apiOpenFile, API_MODE } from '@/lib/api'
+import { resolveMediaSource } from '@/lib/mediaStorage'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
+import { Collapse } from '@/components/ui/Collapse'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
@@ -52,7 +57,7 @@ import { filesOf, imagesOf, INITIAL_BOARD, type BoardState } from '@/data/whiteb
 const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
 
 /** Dotted, so `isUserOwnedState` routes bookmarks to the student's own record. */
-const SAVED_RESOURCES_STORAGE_KEY = 'synapse.bookmarks.resources.v1'
+const SAVED_RESOURCES_STORAGE_KEY = 'nishany.bookmarks.resources.v1'
 
 /**
  * Turn a recorded location into a PDF viewer fragment.
@@ -75,7 +80,7 @@ export function Resources() {
   const [section, setSection] = useState<'pdf' | 'video' | 'mine'>('mine')
   // Kept per device: how someone wants their resources laid out is not a
   // per-visit decision, and this reset to System on every mount.
-  const [groupBy, setGroupBy] = useLocalChoice('synapse.resources.groupBy', 'module', ['system', 'module'] as const)
+  const [groupBy, setGroupBy] = useLocalChoice('nishany.resources.groupBy', 'module', ['system', 'module'] as const)
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const [query, setQuery] = useState(params.get('q') ?? '')
   const [type, setType] = useState<ResourceType | 'all'>('all')
@@ -83,7 +88,7 @@ export function Resources() {
   const [uni, setUni] = useState('all')
   const [year, setYear] = useState('all')
   const [savedOnly, setSavedOnly] = useState(false)
-  const [filtersOpen, setFiltersOpen] = useLocalPreference('synapse.resources.filters', true)
+  const [filtersOpen, setFiltersOpen] = useLocalPreference('nishany.resources.filters', true)
   /** The row whose "no file uploaded" reference is currently expanded. */
   const [referenceOnlyId, setReferenceOnlyId] = useState<string | null>(null)
   const activeFilters = [query.trim() !== '', type !== 'all', subject !== 'all', uni !== 'all', year !== 'all', savedOnly]
@@ -523,17 +528,64 @@ export function Resources() {
  * lives: in demo mode it never leaves the browser, and pretending otherwise
  * would be a promise the deployment cannot keep.
  */
+/** State of one row's on-demand media preview. */
+interface PreviewEntry {
+  status: 'loading' | 'ready' | 'error'
+  url?: string
+  revoke?: boolean
+  message?: string
+}
+
+/**
+ * Resolve the bytes behind one media row, only when its preview button is pressed.
+ *
+ * `previewSource` covers everything already sitting in this browser or in the
+ * board/note document itself — a data URL, or an IndexedDB reference resolved
+ * the same way the whiteboard and notebook resolve their own images. A synced
+ * upload with no local bytes falls back to the same file endpoint the download
+ * button already calls; nothing here is fetched until asked for.
+ */
+async function loadPreviewSource(row: MediaRow): Promise<{ url: string; revoke: boolean }> {
+  if (row.previewSource) return resolveMediaSource(row.previewSource)
+  if (row.documentId && API_MODE) {
+    const blob = await apiFetchBlob(`/my-documents/${encodeURIComponent(row.documentId)}/file`)
+    return { url: URL.createObjectURL(blob), revoke: true }
+  }
+  throw new Error('No preview is available for this file.')
+}
+
+function canPreview(row: MediaRow): boolean {
+  return Boolean(row.previewSource) || (row.kind === 'image' && Boolean(row.documentId) && API_MODE)
+}
+
+function quotaShare(bytes: number, quotaBytes: number): number {
+  if (quotaBytes <= 0) return 0
+  return Math.max(0, Math.min(100, (bytes / quotaBytes) * 100))
+}
+
 function MyUploads() {
   const t = useT()
   const navigate = useNavigate()
   const documents = useMyDocuments()
-  const [notes] = usePersistentState<Note[]>('synapse.notebook.notes', initialNotes)
-  const [board] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
+  const [notes] = usePersistentState<Note[]>('nishany.notebook.notes', initialNotes)
+  const [board] = usePersistentState<BoardState>('nishany.whiteboard.board', INITIAL_BOARD)
   const [busy, setBusy] = useState<number | null>(null)
   const [failure, setFailure] = useState<string | null>(null)
+  const [mediaOpen, setMediaOpen] = useState(false)
+  const [previews, setPreviews] = useState<Record<string, PreviewEntry>>({})
+  const previewsRef = useRef(previews)
+  useEffect(() => { previewsRef.current = previews }, [previews])
+  // Object URLs are cheap to leak one at a time and easy to leak all at once —
+  // revoke whatever is still open when the page itself goes away.
+  useEffect(() => () => {
+    Object.values(previewsRef.current).forEach((entry) => { if (entry.url && entry.revoke) URL.revokeObjectURL(entry.url) })
+  }, [])
+
   const readable = documents.items.filter((item) => item.mediaType === 'pdf')
   const mediaRows = mediaInventory({ documents: documents.items, notes, board })
   const countedBytes = dedupedMediaBytes({ documents: documents.items, notes, board })
+  const documentBytes = useMemo(() => documents.items.reduce((sum, item) => sum + item.sizeBytes, 0), [documents.items])
+  const mediaOnlyBytes = Math.max(0, countedBytes - documentBytes)
 
   const accept = async (files: FileList | null) => {
     const file = files?.[0]
@@ -547,6 +599,22 @@ function MyUploads() {
     } finally {
       setBusy(null)
     }
+  }
+
+  function togglePreview(row: MediaRow) {
+    const existing = previews[row.id]
+    if (existing) {
+      if (existing.url && existing.revoke) URL.revokeObjectURL(existing.url)
+      setPreviews((current) => { const next = { ...current }; delete next[row.id]; return next })
+      return
+    }
+    setPreviews((current) => ({ ...current, [row.id]: { status: 'loading' } }))
+    void loadPreviewSource(row)
+      .then((result) => setPreviews((current) => ({ ...current, [row.id]: { status: 'ready', url: result.url, revoke: result.revoke } })))
+      .catch((cause) => setPreviews((current) => ({
+        ...current,
+        [row.id]: { status: 'error', message: cause instanceof Error ? cause.message : t('That could not be opened.') },
+      })))
   }
 
   return (
@@ -573,9 +641,21 @@ function MyUploads() {
           </label>
         </div>
         {documents.quotaBytes > 0 && (
-          <p className="tnum mt-3 font-mono text-[11px] text-ink-3">
-            {megabytes(countedBytes)} / {megabytes(documents.quotaBytes)} MB
-          </p>
+          <div className="mt-3">
+            <div className="flex items-center justify-between text-[12px] text-ink-2">
+              <span className="font-semibold text-ink">{t('Storage')}</span>
+              <span className="tnum font-mono text-ink-3">{megabytes(countedBytes)} / {megabytes(documents.quotaBytes)} MB</span>
+            </div>
+            <div className="mt-1.5 flex h-2 overflow-hidden rounded-full bg-inset">
+              <span className="h-full bg-primary" style={{ width: `${quotaShare(documentBytes, documents.quotaBytes)}%` }} />
+              <span className="h-full bg-accent" style={{ width: `${quotaShare(mediaOnlyBytes, documents.quotaBytes)}%` }} />
+            </div>
+            <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-[10.5px] text-ink-3">
+              <span className="inline-flex items-center gap-1.5"><span className="size-2 shrink-0 rounded-[2px] bg-primary" />{t('Documents')} · {megabytes(documentBytes)} MB</span>
+              <span className="inline-flex items-center gap-1.5"><span className="size-2 shrink-0 rounded-[2px] bg-accent" />{t('Media')} · {megabytes(mediaOnlyBytes)} MB</span>
+              <span>{t('Deduplicated — a file used twice counts once.')}</span>
+            </div>
+          </div>
         )}
         {(failure || documents.error) && (
           <p role="alert" className="mt-2 text-[12.5px] text-danger">{failure ?? documents.error}</p>
@@ -593,7 +673,8 @@ function MyUploads() {
           />
         </Panel>
       ) : (
-        <div className="grid gap-3 lg:grid-cols-2">
+        <div className="space-y-3">
+          {/* Documents are the primary list: always visible, front and centre. */}
           <Panel className="overflow-hidden">
             <div className="border-b border-line bg-surface-2/50 px-4 py-3">
               <h3 className="text-[13px] font-semibold text-ink">{t('Documents')}</h3>
@@ -625,26 +706,72 @@ function MyUploads() {
             )}
           </Panel>
 
+          {/* Media stays out of the way until asked for — a button reveals it,
+              never a permanent second column beside the documents. */}
           <Panel className="overflow-hidden">
-            <div className="border-b border-line bg-surface-2/50 px-4 py-3">
-              <h3 className="text-[13px] font-semibold text-ink">{t('Media')}</h3>
-              <p className="text-[11.5px] text-ink-3">{t('Images and non-reader files from resources, notebooks, and whiteboards.')}</p>
-            </div>
-            {mediaRows.length === 0 ? (
-              <p className="p-5 text-[12.5px] text-ink-3">{t('No media assets yet.')}</p>
-            ) : (
-              <ul className="divide-y divide-line">
-                {mediaRows.map((item) => (
-                  <li key={item.id} className="flex items-center gap-3 px-4 py-2.5">
-                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={item.kind === 'image' ? ImagePlus : Upload} size={16} /></span>
-                    <div className="min-w-0 flex-1">
-                      <p className="truncate text-[13.5px] font-medium text-ink">{item.title}</p>
-                      <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(item.sizeBytes)} MB · {t(item.sourceLabel)}</p>
-                    </div>
-                    {item.documentId && API_MODE && <IconButton icon={ChevronRight} label={t('Download')} size="sm" onClick={() => void apiDownload(`/my-documents/${encodeURIComponent(item.documentId!)}/file`, item.title)} />}
-                  </li>
-                ))}
-              </ul>
+            <button
+              type="button"
+              onClick={() => mediaRows.length > 0 && setMediaOpen((current) => !current)}
+              aria-expanded={mediaRows.length > 0 ? mediaOpen : undefined}
+              disabled={mediaRows.length === 0}
+              className={cn(
+                'flex w-full items-center gap-3 px-4 py-3 text-start',
+                mediaRows.length > 0 && 'hover:bg-inset/60',
+              )}
+            >
+              <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={Images} size={16} /></span>
+              <div className="min-w-0 flex-1">
+                <p className="text-[13px] font-semibold text-ink">{t('Media')}</p>
+                <p className="text-[11.5px] text-ink-3">{t('Images and files from resources, notebooks, and whiteboards.')}</p>
+              </div>
+              {mediaRows.length > 0 ? (
+                <>
+                  <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{mediaRows.length} · {megabytes(mediaRows.reduce((sum, r) => sum + r.sizeBytes, 0))} MB</span>
+                  <Icon icon={ChevronRight} size={16} className="chevron-turn shrink-0 text-ink-3" open={mediaOpen} />
+                </>
+              ) : (
+                <span className="shrink-0 text-[11.5px] italic text-ink-3">{t('No media yet')}</span>
+              )}
+            </button>
+            {mediaRows.length > 0 && (
+              <Collapse open={mediaOpen}>
+                <ul className="divide-y divide-line border-t border-line">
+                  {mediaRows.map((row) => {
+                    const entry = previews[row.id]
+                    return (
+                      <li key={row.id}>
+                        <div className="flex items-center gap-3 px-4 py-2.5">
+                          <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={row.kind === 'image' ? ImagePlus : Upload} size={16} /></span>
+                          <div className="min-w-0 flex-1">
+                            <p className="truncate text-[13.5px] font-medium text-ink">{row.title}</p>
+                            <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(row.sizeBytes)} MB · {t(row.sourceLabel)}</p>
+                          </div>
+                          {canPreview(row) && (
+                            <IconButton
+                              icon={entry ? EyeOff : Eye}
+                              label={entry ? t('Hide preview') : t('Preview')}
+                              size="sm"
+                              onClick={() => togglePreview(row)}
+                            />
+                          )}
+                          {row.documentId && API_MODE && (
+                            <IconButton icon={ChevronRight} label={t('Download')} size="sm" onClick={() => void apiDownload(`/my-documents/${encodeURIComponent(row.documentId!)}/file`, row.title)} />
+                          )}
+                        </div>
+                        {entry && (
+                          <div className="px-4 pb-3 ps-12">
+                            {entry.status === 'loading' && <p className="text-[12px] text-ink-3">{t('Loading…')}</p>}
+                            {entry.status === 'error' && <p role="alert" className="text-[12px] text-danger">{entry.message}</p>}
+                            {entry.status === 'ready' && entry.url && (
+                              <img src={entry.url} alt={row.title} className="max-h-52 w-auto max-w-full rounded-md border border-line object-contain" />
+                            )}
+                          </div>
+                        )}
+                      </li>
+                    )
+                  })}
+                </ul>
+              </Collapse>
             )}
           </Panel>
         </div>
@@ -666,6 +793,17 @@ interface MediaRow {
   sourceLabel: string
   kind: 'image' | 'file'
   documentId?: string
+  /**
+   * Something `resolveMediaSource` can turn into a renderable URL on demand —
+   * a legacy data URL or a stored-media reference. Absent for rows whose only
+   * copy lives on the server, where the preview button falls back to the same
+   * per-document file endpoint the download button already calls.
+   */
+  previewSource?: string
+}
+
+function isImageDocument(item: MyDocument): boolean {
+  return item.mediaType === 'image' || Boolean(item.mimeType?.startsWith('image/'))
 }
 
 function mediaInventory({ documents, notes, board }: MediaInventoryInput): MediaRow[] {
@@ -679,8 +817,9 @@ function mediaInventory({ documents, notes, board }: MediaInventoryInput): Media
       title: item.title,
       sizeBytes: item.sizeBytes,
       sourceLabel: item.sourceKind === 'notebook' ? 'Notebook' : item.sourceKind === 'whiteboard' ? 'Whiteboard' : 'Resources upload',
-      kind: 'file',
+      kind: isImageDocument(item) ? 'image' : 'file',
       documentId: item.id,
+      previewSource: item.ref,
     }))
 
   notes
@@ -691,6 +830,7 @@ function mediaInventory({ documents, notes, board }: MediaInventoryInput): Media
       sizeBytes: dataUrlBytes(note.imageData ?? ''),
       sourceLabel: 'Notebook',
       kind: 'image',
+      previewSource: note.imageData,
     }))
 
   imagesOf(board).filter((image) => !image.documentId || !byDocument.has(image.documentId)).forEach((image) => rows.push({
@@ -699,6 +839,7 @@ function mediaInventory({ documents, notes, board }: MediaInventoryInput): Media
     sizeBytes: dataUrlBytes(image.src ?? ''),
     sourceLabel: 'Whiteboard',
     kind: 'image',
+    previewSource: image.src,
   }))
 
   filesOf(board).filter((file) => !byDocument.has(file.documentId)).forEach((file) => {

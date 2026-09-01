@@ -19,10 +19,10 @@ is true of the app as it stands. Three things still need you:
 
 **Last updated: [DATE]**
 
-Connect Cortex is a study platform for undergraduate medical students, operated
+Nishany is a study platform for undergraduate medical students, operated
 by [LEGAL ENTITY], [ADDRESS]. This policy explains what we collect, why, and
-what you can do about it. It covers the Connect Cortex website and the Connect
-Cortex iOS app, which are one service and one account.
+what you can do about it. It covers the Nishany website and the Nishany iOS
+app, which are one service and one account.
 
 ### What we collect
 
@@ -115,7 +115,7 @@ complain to the Personal Data Protection Centre.
 
 ### Children
 
-Connect Cortex is for university students and is not directed at children. We do
+Nishany is for university students and is not directed at children. We do
 not knowingly collect data from anyone under 16. If you believe a child has an
 account, write to us and we will remove it.
 

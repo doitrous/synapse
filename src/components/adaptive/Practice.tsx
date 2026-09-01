@@ -38,6 +38,7 @@ import {
   feedbackVisible, useAdaptiveSession, type StoredDiagnostics,
 } from '@/lib/adaptive/useAdaptiveSession'
 import type { Confidence } from '@/data/adaptive/evidenceLedger'
+import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { cn } from '@/lib/cn'
 
 const SIZES = [20, 25, 30, 35, 40]
@@ -115,7 +116,6 @@ function BlockDiagnostics({ diagnostics, tolerance }: { diagnostics: StoredDiagn
       <div className="flex flex-wrap gap-2">
         <Badge tone="outline">{percent(diagnostics.unseenShare)} new to you</Badge>
         <Badge tone="outline">{percent(diagnostics.demandingShare)} demanding</Badge>
-        <Badge tone="outline">Seed <span className="tnum font-mono">{diagnostics.seed}</span></Badge>
         <Badge tone="outline">Config v{diagnostics.configVersion}</Badge>
       </div>
 
@@ -178,6 +178,15 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
     () => (session?.itemIds ?? []).map((id) => itemsById.get(id)).filter((item) => item !== undefined),
     [session, itemsById],
   )
+
+  // Peer answer breakdown for whatever question is on screen. Computed here,
+  // ahead of the early returns below, because hooks cannot run conditionally —
+  // the runner section further down reuses `previewItem`'s id and revealed
+  // state rather than recomputing them.
+  const previewIndex = Math.min(session?.cursor ?? 0, Math.max(0, activeItems.length - 1))
+  const previewItem = activeItems[previewIndex]
+  const previewRevealed = previewItem ? feedbackVisible(session, previewItem.id) : false
+  const distribution = useAnswerDistribution(previewItem?.question.id ?? null, previewRevealed)
 
   /**
    * The empty block, when the bank could not supply one.
@@ -394,6 +403,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
               chosen={given?.chosenIndex ?? null}
               revealed={revealed}
               correctIndex={correctOptionIndex(item)}
+              distribution={distribution}
               onChoose={(chosenIndex) => {
                 // Confidence is captured with the answer, not after it: asking
                 // afterwards in tutor mode would ask a student who has just been
@@ -420,7 +430,7 @@ export function Practice({ study }: { study: AdaptiveStudy }) {
                       seconds: given?.seconds ?? null,
                     })}
                     className={cn(
-                      'rounded-full border px-2.5 py-0.5 text-[12px] font-medium transition-colors',
+                      'rounded-md border px-2.5 py-0.5 text-[12px] font-medium transition-colors',
                       given?.confidence === level
                         ? 'border-primary bg-primary-tint text-primary-strong'
                         : 'border-line text-ink-2 hover:border-line-2 hover:text-ink',

@@ -1,3 +1,4 @@
+import { useRef } from 'react'
 import { Check, X } from 'lucide-react'
 import type { Question } from '@/data/qbank'
 import { Icon } from '@/components/ui/Icon'
@@ -7,9 +8,11 @@ import { ZoomableImage, MediaAttachmentView } from '@/components/ui/MediaAttachm
 import { PlacedMedia } from '@/components/ui/PlacedMedia'
 import { placementsFor } from '@/data/mediaPlacement'
 import { useMediaRecords } from '@/lib/useMediaRecords'
-import { ConceptText } from '@/components/concepts/ConceptText'
 import { getSubject } from '@/data/subjects'
 import { cn } from '@/lib/cn'
+import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
+import { answerPercentages, type AnswerDistribution } from '@/data/answerDistribution'
 
 /**
  * A question as it is put to a student — the same one everywhere.
@@ -38,6 +41,7 @@ export function QuestionView({
   revealed,
   correctIndex,
   onChoose,
+  distribution,
 }: {
   question: Question
   /** The option this student picked, or null before they have. */
@@ -50,9 +54,20 @@ export function QuestionView({
    */
   correctIndex?: number
   onChoose: (index: number) => void
+  /**
+   * The peer answer breakdown for this question, once revealed. Fetched by the
+   * caller (via `useAnswerDistribution`) and passed in — this component stays
+   * presentational and never fetches for itself. Absent, null, or ineligible
+   * all render exactly as if the feature did not exist.
+   */
+  distribution?: AnswerDistribution | null
 }) {
   const mediaRecords = useMediaRecords()
   const answer = correctIndex ?? question.options.findIndex((option) => option.correct)
+  const highlights = useQuestionHighlights(question.id)
+  const containerRef = useRef<HTMLDivElement>(null)
+  const showStats = revealed && Boolean(distribution?.eligible) && Boolean(distribution?.counts)
+  const percentages = showStats ? answerPercentages(distribution!.counts!, distribution!.total) : null
 
   function optionClasses(index: number): string {
     if (!revealed) {
@@ -66,7 +81,11 @@ export function QuestionView({
   }
 
   return (
-    <>
+    // `contents`: a DOM node to scope selection capture to, without taking part
+    // in this component's own box — every caller lays out its children as if
+    // this were still the bare fragment it used to be.
+    <div ref={containerRef} className="contents">
+      <HighlightSelectionPopover container={containerRef} highlights={highlights} />
       <div className="flex flex-wrap items-center gap-2">
         <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
           <SubjectDot id={question.subjectId} />
@@ -80,9 +99,9 @@ export function QuestionView({
       </div>
 
       {question.vignette && (
-        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><ConceptText text={question.vignette} enabled={revealed} /></p>
+        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><HighlightableText text={question.vignette} enabled={revealed} blockId="vignette" highlights={highlights} /></p>
       )}
-      <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><ConceptText text={question.stem} enabled={revealed} /></p>
+      <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><HighlightableText text={question.stem} enabled={revealed} blockId="stem" highlights={highlights} /></p>
 
       {question.attachedImage && (
         <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
@@ -117,7 +136,7 @@ export function QuestionView({
                     : LETTERS[index]}
               </span>
               <span className="flex-1 pt-0.5 text-[14px] text-ink">
-                <ConceptText text={option.text} enabled={revealed} />
+                <HighlightableText text={option.text} enabled={revealed} blockId={`option-${index}`} highlights={highlights} />
                 {/* Inside the option, so "which of these four radiographs" reads
                     as four options rather than four pictures and four labels. */}
                 <PlacedMedia placements={placementsFor(question.media, 'answer', LETTERS[index])} records={mediaRecords} />
@@ -125,13 +144,35 @@ export function QuestionView({
                   <PlacedMedia placements={placementsFor(question.media, 'explanation', LETTERS[index])} records={mediaRecords} />
                 )}
               </span>
+              {percentages && (
+                <span className="tnum shrink-0 self-start pt-0.5 font-mono text-[12px] font-semibold text-ink-2">
+                  {percentages[index] ?? 0}%
+                </span>
+              )}
             </>
           )
           const shape = cn('flex w-full items-start gap-3 rounded-xl border p-3.5 text-start transition-colors', optionClasses(index))
+          const tone = index === answer ? 'correct' as const : chosen === index ? 'wrong' as const : 'neutral' as const
           return revealed ? (
-            <div key={index} className={shape}>{body}</div>
+            <div key={index} className={cn(shape, 'relative overflow-hidden')}>
+              {body}
+              {percentages && <AnswerStatBar pct={percentages[index] ?? 0} tone={tone} />}
+            </div>
           ) : (
-            <button key={index} type="button" onClick={() => onChoose(index)} className={shape}>{body}</button>
+            <button
+              key={index}
+              type="button"
+              onClick={() => {
+                // A drag that ends inside this button still fires a click. Without
+                // this guard, dragging across an option's text to highlight it
+                // would also select that option as the answer.
+                if (window.getSelection()?.isCollapsed === false) return
+                onChoose(index)
+              }}
+              className={shape}
+            >
+              {body}
+            </button>
           )
         })}
       </div>
@@ -143,6 +184,6 @@ export function QuestionView({
       {revealed && (
         <PlacedMedia placements={placementsFor(question.media, 'explanation')} records={mediaRecords} className="mt-5" />
       )}
-    </>
+    </div>
   )
 }

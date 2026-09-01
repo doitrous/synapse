@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import {
   IMPORT_SCHEMAS, importRowToContent, validateImportRow,
   parseAnnotations, parseMediaRequests, parseCalloutEvidence, parseRelatedArticles, parseFieldNotes,
-  parseDecisions, parseLabQuestions, practicalDataFrom,
+  parseDecisions, parseLabQuestions, practicalDataFrom, parseVitals,
 } from './bulkImport.ts'
 import { mergeContentItem, materialiseNewItem } from './importMerge.ts'
 import { listDirective, applyListDirective, optionalList, isAppend } from './importSemantics.ts'
@@ -533,6 +533,20 @@ test('a created question still opens with the defaults it always had', () => {
   assert.deepEqual(item.questionData!.libraryIds, [])
 })
 
+test('an authored overall explanation overrides the derived one', () => {
+  const item = importRowToContent('question', { ...FULL_QUESTION, explanation: 'Overall: RCA territory covers the SA node in the dominant majority.' }, 'row-1')
+  assert.equal(item.fields.Explanation, 'Overall: RCA territory covers the SA node in the dominant majority.')
+})
+
+test('an absent overall explanation keeps the correct option’s rationale, unchanged', () => {
+  // FULL_QUESTION carries no `explanation` column at all — the long-standing case.
+  const withoutExplanationField = importRowToContent('question', FULL_QUESTION, 'row-1')
+  const withBlankExplanation = importRowToContent('question', { ...FULL_QUESTION, explanation: '   ' }, 'row-1')
+
+  assert.equal(withoutExplanationField.fields.Explanation, 'The RCA supplies the SA node in most people.')
+  assert.equal(withBlankExplanation.fields.Explanation, 'The RCA supplies the SA node in most people.')
+})
+
 const LAB_QUESTIONS = '### Rate\nQ: What is the rate?\n*= 75\nWhy: Count the R-R interval.\n- 60\nWhy: Too slow.\nMarks: 2\nConcept: med.concept.rate'
 
 const FULL_PRACTICAL: Record<string, string> = {
@@ -1060,4 +1074,28 @@ test('an update that omits module_subject leaves the live placement alone', () =
   // The same guard on every kind that carries the column.
   const practical = practicalDataFrom({ type: 'OSCE station' })
   assert.equal(practical.moduleSubjectPaths, undefined)
+})
+
+test('parseVitals reads labelled lines, keeps BP a string, flags abnormals', () => {
+  const vitals = parseVitals('HR: 118\nBP: 108/68\nRR: 30\nSpO2: 91\nTemp: 37.4\nGCS: 14\nGlucose: 6.1\nAbnormal: HR | RR | SpO2\nNote: room air')
+  assert.deepEqual(vitals, {
+    hr: 118, bp: '108/68', rr: 30, spo2: 91, temp: 37.4, gcs: 14, glucose: 6.1,
+    abnormal: ['hr', 'rr', 'spo2'], note: 'room air',
+  })
+})
+
+test('parseVitals keeps only the fields present and ignores unknown labels', () => {
+  const vitals = parseVitals('HR: 96\nSpO2: 94\nMood: cheerful')
+  assert.deepEqual(vitals, { hr: 96, spo2: 94 })
+})
+
+test('parseVitals returns undefined for a blank or fieldless block', () => {
+  assert.equal(parseVitals(''), undefined)
+  assert.equal(parseVitals('   \n  '), undefined)
+})
+
+test('a clinical case imports its vitals through practicalDataFrom', () => {
+  const data = practicalDataFrom({ type: 'Clinical case', vitals: 'HR: 118\nAbnormal: HR' })
+  assert.equal(data.format, 'case')
+  assert.deepEqual(data.format === 'case' ? data.vitals : null, { hr: 118, abnormal: ['hr'] })
 })

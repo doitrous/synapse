@@ -42,7 +42,7 @@ test('the client and the server hand every role the same tabs', () => {
 
 test('a role renders exactly the tabs it holds, in registry order', () => {
   const reviewer = tabViewsFor('reviewer', null).map((view) => view.id)
-  assert.deepEqual(reviewer, ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'])
+  assert.deepEqual(reviewer, ['media', 'reports'])
   assert.deepEqual(tabViewsFor('student', null), [])
   assert.equal(tabViewsFor('super_admin', null).length, TAB_IDS.length)
 })

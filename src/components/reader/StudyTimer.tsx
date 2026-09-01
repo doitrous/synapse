@@ -14,7 +14,7 @@ import { useT } from '@/lib/i18n'
  * a tab by accident should not reset the hour you have been sitting there.
  */
 
-const STORAGE_KEY = 'synapse.reader.timer.v1'
+const STORAGE_KEY = 'nishany.reader.timer.v1'
 
 interface Stored {
   startedAt: number | null

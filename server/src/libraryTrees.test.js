@@ -27,5 +27,5 @@ test('anything that is not a scope is refused rather than guessed', () => {
 })
 
 test('the document these live in is named once', () => {
-  assert.equal(LIBRARY_TREES_STATE_KEY, 'synapse-library-trees-v1')
+  assert.equal(LIBRARY_TREES_STATE_KEY, 'nishany-library-trees-v1')
 })

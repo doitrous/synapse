@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
-import { AudioLines, CloudRain, Headphones, Music2, Pause, Play, Volume2, Waves, Wind, X } from 'lucide-react'
+import { AudioLines, CloudRain, Headphones, Music2, Pause, Play, Volume1, Volume2, VolumeX, Waves, Wind, X } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useLocalJsonPreference } from '@/lib/useLocalPreference'
@@ -144,7 +144,7 @@ const FocusAudioContext = createContext<FocusAudioContextValue | null>(null)
 
 /** Keeps audio alive while the top bar temporarily disappears in focus mode. */
 export function FocusAudioProvider({ children }: { children: ReactNode }) {
-  const [preference, setPreference] = useLocalJsonPreference('synapse.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
+  const [preference, setPreference] = useLocalJsonPreference('nishany.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
   const [playing, setPlaying] = useState(false)
   const engine = useRef<AudioEngine | null>(null)
 
@@ -190,6 +190,19 @@ export function FocusAudioPlayer() {
   const [open, setOpen] = useState(false)
   const root = useRef<HTMLDivElement>(null)
   const selected = SOUNDS.find((sound) => sound.id === preference.sound) ?? SOUNDS[0]
+  const muted = preference.volume <= 0
+  // Remembers the level from before a mute so unmuting restores it, instead
+  // of guessing a volume — a plain on/off mute needs somewhere to keep it.
+  const preMuteVolume = useRef(preference.volume > 0 ? preference.volume : 0.32)
+  const volumeIcon = muted ? VolumeX : preference.volume < 0.35 ? Volume1 : Volume2
+
+  useEffect(() => {
+    if (preference.volume > 0) preMuteVolume.current = preference.volume
+  }, [preference.volume])
+
+  function toggleMute() {
+    setVolume(muted ? preMuteVolume.current : 0)
+  }
 
   useEffect(() => {
     function close(event: MouseEvent) {
@@ -244,12 +257,22 @@ export function FocusAudioPlayer() {
           </div>
 
           <div className="border-t border-line bg-surface-2/40 p-3">
-            <label className="flex items-center gap-3">
-              <Icon icon={Volume2} size={15} className="shrink-0 text-ink-3" />
-              <span className="sr-only">Volume</span>
-              <input type="range" min="0.05" max="0.75" step="0.01" value={preference.volume} onChange={(event) => setVolume(Number(event.target.value))} className="h-6 min-w-0 flex-1 accent-primary" />
-              <span className="tnum w-8 text-end font-mono text-[10.5px] text-ink-3">{Math.round(preference.volume * 100)}%</span>
-            </label>
+            <div className="flex items-center gap-3">
+              <button
+                type="button"
+                onClick={toggleMute}
+                aria-label={muted ? 'Unmute' : 'Mute'}
+                aria-pressed={muted}
+                className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary"
+              >
+                <Icon icon={volumeIcon} size={15} />
+              </button>
+              <label className="flex min-w-0 flex-1 items-center gap-3">
+                <span className="sr-only">Volume</span>
+                <input type="range" min="0" max="0.75" step="0.01" value={preference.volume} onChange={(event) => setVolume(Number(event.target.value))} className="h-6 min-w-0 flex-1 accent-primary" />
+                <span className="tnum w-8 text-end font-mono text-[10.5px] text-ink-3">{Math.round(preference.volume * 100)}%</span>
+              </label>
+            </div>
             <button type="button" onClick={() => void (playing ? pause() : play())} className="mt-2 inline-flex h-10 w-full items-center justify-center gap-2 rounded-lg border border-primary-strong/25 bg-primary text-[13px] font-semibold text-on-primary shadow-action transition-[background-color,transform] hover:bg-primary-hover active:scale-[0.96] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">
               <Icon icon={playing ? Pause : Play} size={15} /> {playing ? 'Pause' : `Play ${selected.label}`}
             </button>

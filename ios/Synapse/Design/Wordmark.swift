@@ -40,7 +40,7 @@ struct Wordmark: View {
             // The lockup is the product's name, so it is read out as one —
             // never as two words in two colours, which is what the artwork
             // would otherwise dictate.
-            .accessibilityLabel(strings("Connect Cortex"))
+            .accessibilityLabel(strings("Nishany"))
     }
 }
 

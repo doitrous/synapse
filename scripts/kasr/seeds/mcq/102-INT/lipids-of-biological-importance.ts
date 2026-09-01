@@ -36,7 +36,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Classify a named fatty acid as saturated or unsaturated, name margarine as the main dietary source of trans fat, and state the shared cardiovascular risk of saturated and trans fatty acids.',
       pitfall:
-        "Assuming trans fat is simply a kind of unsaturated (and therefore 'healthy') fat because it has a double bond. The book groups it with saturated fat by its biomedical effect: both are structurally straight enough to worsen hypercholesterolemia and atherosclerosis.",
+        "Assuming trans fat is simply a kind of unsaturated (and therefore 'healthy') fat because it has a double bond. Trans fat is grouped with saturated fat by its biomedical effect: both are structurally straight enough to worsen hypercholesterolemia and atherosclerosis.",
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -52,7 +52,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         "Assign a named fatty acid to its omega family (ω3, ω6) and to monoenoic or polyenoic status, and count arachidonic acid's double bonds from its structure.",
       pitfall:
-        "Treating 'polyunsaturated' as a single family. The book splits PUFA into two distinct families, ω3 and ω6, by where the first double bond sits counting from the terminal methyl carbon, and a fatty acid belongs to only one of them.",
+        "Treating 'polyunsaturated' as a single family. PUFA split into two distinct families, ω3 and ω6, by where the first double bond sits counting from the terminal methyl carbon, and a fatty acid belongs to only one of them.",
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -96,7 +96,7 @@ export const LEAF: McqLeafSeed = {
       label:
         'Lipids are classified by composition into simple lipids (fatty acid + alcohol only, e.g. triacylglycerol), compound lipids (fatty acid + alcohol + another group), and derived lipids (hydrolysis products such as free fatty acids and steroids, or substances associated with lipids in nature)',
       definition:
-        'Lipids are classified into three main groups by composition. Simple lipids are esters of fatty acids with various alcohols. Compound lipids contain fatty acids and alcohol plus another group besides. Derived lipids are fat-soluble products of hydrolysis of the first two groups, or substances present in association with them in nature; the book lists fatty acids, alcohols, steroids, the fat-soluble vitamins (A, D, E, K) and carotenoids under this heading. Triacylglycerol (TAG) — three fatty acids esterified to glycerol — is the book\'s example of a simple lipid, and steroids are its example of a derived lipid.',
+        'Lipids are classified into three main groups by composition. Simple lipids are esters of fatty acids with various alcohols. Compound lipids contain fatty acids and alcohol plus another group besides. Derived lipids are fat-soluble products of hydrolysis of the first two groups, or substances present in association with them in nature; this heading covers fatty acids, alcohols, steroids, the fat-soluble vitamins (A, D, E, K) and carotenoids. Triacylglycerol (TAG) — three fatty acids esterified to glycerol — is a simple lipid example, and steroids are a derived lipid example.',
       objective:
         'Sort a named lipid into simple, compound or derived by what its composition adds beyond fatty acid and alcohol.',
       pitfall:
@@ -112,11 +112,11 @@ export const LEAF: McqLeafSeed = {
       label:
         'Simple lipids split into neutral fats (triacylglycerol, three fatty acids on glycerol) and waxes (one fatty acid on a long-chain monohydroxy alcohol higher than glycerol, such as ceramide, cholesteryl esters, and vitamin A or D esters)',
       definition:
-        "Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use. Neutral fats (triacylglycerol, TAG) are esters of three fatty acids with glycerol; triglyceride is the book's other name for it. Waxes are esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol, and the book's examples are ceramide (sphingosine alcohol conjugated with fatty acid), cholesteryl esters, vitamin A (retinol) esters and vitamin D (calciferol) esters.",
+        "Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use. Neutral fats (triacylglycerol, TAG) are esters of three fatty acids with glycerol, also called triglyceride. Waxes are esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol, and examples include ceramide (sphingosine alcohol conjugated with fatty acid), cholesteryl esters, vitamin A (retinol) esters and vitamin D (calciferol) esters.",
       objective:
-        'Distinguish neutral fats from waxes by their alcohol (glycerol versus a longer-chain monohydroxy alcohol) and recognise the book\'s named wax examples.',
+        'Distinguish neutral fats from waxes by their alcohol (glycerol versus a longer-chain monohydroxy alcohol) and recognise the named wax examples.',
       pitfall:
-        'Assuming cholesteryl esters must be a derived lipid because cholesterol itself is one. The book classes the ester specifically — fatty acid joined to a monohydroxy alcohol higher than glycerol — as a wax, a simple lipid, even though the alcohol it is built from (cholesterol) is separately a derived lipid on its own.',
+        'Assuming cholesteryl esters must be a derived lipid because cholesterol itself is one. The ester is classed specifically — fatty acid joined to a monohydroxy alcohol higher than glycerol — as a wax, a simple lipid, even though the alcohol it is built from (cholesterol) is separately a derived lipid on its own.',
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -132,7 +132,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         "Reconstruct phosphatidic acid's substituent positions on glycerol and name the two hydrolysis products of removing its phosphate, and identify lecithin and cephalin as its derivatives.",
       pitfall:
-        "Losing track of which position the phosphate occupies. Glycerol has only three carbons, so a diacylglycerol numbered anywhere but 1,2 (leaving position 3 for phosphate) contradicts the book's own numbering of phosphatidic acid's substituents.",
+        "Losing track of which position the phosphate occupies. Glycerol has only three carbons, so a diacylglycerol numbered anywhere but 1,2 (leaving position 3 for phosphate) contradicts the standard numbering of phosphatidic acid's substituents.",
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -164,7 +164,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         "State cardiolipin's composition (two phosphatidic acids plus a connecting glycerol) and its near-exclusive location in the inner mitochondrial membrane.",
       pitfall:
-        'Placing cardiolipin in the plasma membrane with the other phospholipids. The book restricts it almost exclusively to the inner mitochondrial membrane, tying it to mitochondrial energy metabolism rather than to general membrane structure.',
+        'Placing cardiolipin in the plasma membrane with the other phospholipids. Cardiolipin is restricted almost exclusively to the inner mitochondrial membrane, tying it to mitochondrial energy metabolism rather than to general membrane structure.',
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -180,7 +180,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Identify plasmalogens by their fatty-alcohol-for-fatty-acid substitution at position 1, and state their association with platelet-activating factor and with Alzheimer disease.',
       pitfall:
-        "Filing plasmalogens as glycolipids because 'ether phospholipid' sounds like a separate category. The book keeps them among the glycerophospholipids — built on phosphatidic acid, like lecithin and cephalin — distinguished only by that one substituent.",
+        "Filing plasmalogens as glycolipids because 'ether phospholipid' sounds like a separate category. Plasmalogens belong among the glycerophospholipids — built on phosphatidic acid, like lecithin and cephalin — distinguished only by that one substituent.",
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -196,7 +196,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Trace the two-step assembly of sphingomyelin — fatty acid plus sphingosine to ceramide, ceramide plus phosphocholine to sphingomyelin — and classify sphingomyelin as a phospholipid.',
       pitfall:
-        'Classing sphingomyelin as a glycolipid because it shares the ceramide backbone with cerebrosides and gangliosides. The book\'s classification turns on what is attached to ceramide: phosphocholine makes a phospholipid (sphingomyelin), a carbohydrate makes a glycolipid.',
+        'Classing sphingomyelin as a glycolipid because it shares the ceramide backbone with cerebrosides and gangliosides. Classification turns on what is attached to ceramide: phosphocholine makes a phospholipid (sphingomyelin), a carbohydrate makes a glycolipid.',
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -227,7 +227,7 @@ export const LEAF: McqLeafSeed = {
         'Phosphatidylinositol, formed of phosphatidic acid and inositol, acts as a second messenger to many chemical transmitters, hormones and growth factors.',
       objective: "State phosphatidylinositol's role as a second messenger.",
       pitfall:
-        'Expecting the book to name inositol triphosphate and diacylglycerol as the specific messenger molecules. The book credits the second-messenger role to phosphatidylinositol itself, without separately naming the cleavage products a fuller biochemistry text would.',
+        'Expecting inositol triphosphate and diacylglycerol to be named as the specific messenger molecules. The second-messenger role is credited to phosphatidylinositol itself, without separately naming the cleavage products a fuller biochemistry text would.',
       subject: 'fnd',
       primary: 'DIS-BIO-T04',
       secondary: [],
@@ -244,7 +244,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'Glycolipids are formed of ceramide (sphingosine-fatty acid) and a carbohydrate radical; they include cerebrosides, sulfolipids (sulfatides) and gangliosides. They are found mainly in brain tissue, the myelin sheath and the cell membrane of red blood cells. They are components of cell membrane receptors for hormones and other ligands, providing recognition properties that let a cell communicate with its extracellular environment.',
       objective:
-        'Name the three glycolipid types the book lists and state their shared ceramide-plus-carbohydrate composition and receptor role.',
+        'Name the three glycolipid types and state their shared ceramide-plus-carbohydrate composition and receptor role.',
       pitfall:
         'Assuming any lipid found in brain tissue is automatically a glycolipid. Sphingomyelin and plasmalogens are also concentrated in nervous tissue; what makes a glycolipid distinct is the carbohydrate radical joined to its ceramide.',
       subject: 'fnd',
@@ -277,15 +277,15 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'fatty-acid-saturation-classification-sources-and-biomedical-effects',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: 'Identify stearic acid as a saturated fatty acid, distinguishing it from the book\'s unsaturated examples.',
+      learningObjective: 'Identify stearic acid as a saturated fatty acid, distinguishing it from the unsaturated examples.',
       answerOverride: 'b',
       answerOverrideReason:
         "The two OCR passes disagree on whether the printed key names (a) or (b); the department book resolves it directly — stearic acid is listed among the saturated fatty acids (p29: 'Stearic acid (C18) CH3-(CH2)16-COOH'), while oleic acid is listed among the monoenoic (unsaturated) acids (p30), so (b) is correct.",
       explanations: {
-        a: "Oleic acid is the book's own example of a monoenoic (unsaturated) fatty acid, not a saturated one — it carries one cis double bond.",
-        b: 'Correct. The book lists stearic acid among the saturated fatty acids, alongside acetic, butyric and palmitic acid — all with no double bonds.',
-        c: "Linoleic acid is the book's ω6 polyunsaturated example, not a saturated fatty acid.",
-        d: "Arachidonic acid is the book's ω6 polyunsaturated example with four double bonds, the opposite of saturated.",
+        a: "Oleic acid is a monoenoic (unsaturated) fatty acid example, not a saturated one — it carries one cis double bond.",
+        b: 'Stearic acid is listed among the saturated fatty acids, alongside acetic, butyric and palmitic acid — all with no double bonds.',
+        c: "Linoleic acid is an ω6 polyunsaturated example, not a saturated fatty acid.",
+        d: "Arachidonic acid is an ω6 polyunsaturated example with four double bonds, the opposite of saturated.",
       },
     },
     {
@@ -295,10 +295,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Name palmitic acid as the most important/common saturated fatty acid in human tissue, alongside stearic acid.',
       explanations: {
-        a: 'Correct. The book names palmitic acid, alongside stearic acid, as the most important saturated fatty acids, widely distributed in animal fats — the printed key identifies palmitic as the more common of the two in human tissue.',
-        b: "Timnodonic acid (EPA) does not appear among the book's saturated fatty acid examples at all.",
-        c: "Arachidonic acid is the book's polyunsaturated ω6 example, not a saturated fatty acid.",
-        d: "Linoleic acid is the book's polyunsaturated ω6 example, not a saturated fatty acid.",
+        a: 'Palmitic acid, alongside stearic acid, is the most important saturated fatty acid, widely distributed in animal fats — the printed key identifies palmitic as the more common of the two in human tissue.',
+        b: "Timnodonic acid (EPA) does not appear among the saturated fatty acid examples at all.",
+        c: "Arachidonic acid is a polyunsaturated ω6 example, not a saturated fatty acid.",
+        d: "Linoleic acid is a polyunsaturated ω6 example, not a saturated fatty acid.",
       },
     },
     {
@@ -306,15 +306,15 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'fatty-acid-omega-family-classification-and-arachidonic-acid-structure',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: "Identify oleic acid as the book's monounsaturated (monoenoic) fatty acid example.",
+      learningObjective: "Identify oleic acid as the monounsaturated (monoenoic) fatty acid example.",
       answerOverride: 'c',
       answerOverrideReason:
         "No OCR pass recovered a printed key; the book itself supplies the answer — oleic acid is listed as the book's monoenoic (one double bond) fatty acid example (p30), which is what 'monounsaturated' means, while palmitic and stearic are saturated and arachidonic is polyunsaturated.",
       explanations: {
-        a: "Palmitic acid is one of the book's saturated fatty acid examples, with no double bond at all.",
-        b: "Arachidonic acid is the book's polyunsaturated (four double bonds) example, not monounsaturated.",
-        c: 'Correct. Oleic acid (ω9) is the book\'s monoenoic — one double bond — fatty acid example, which is what monounsaturated means.',
-        d: "Stearic acid is one of the book's saturated fatty acid examples, with no double bond.",
+        a: "Palmitic acid is one of the saturated fatty acid examples, with no double bond at all.",
+        b: "Arachidonic acid is a polyunsaturated (four double bonds) example, not monounsaturated.",
+        c: 'Oleic acid (ω9) is a monoenoic — one double bond — fatty acid example, which is what monounsaturated means.',
+        d: "Stearic acid is one of the saturated fatty acid examples, with no double bond.",
       },
     },
     {
@@ -324,10 +324,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Name margarine (partially hydrogenated vegetable oil) as the main dietary source of trans fatty acids.',
       explanations: {
-        a: "Vegetables themselves are not named as a trans fat source; only small amounts of trans fat occur naturally (in butter), and the main dietary source the book names is processed — partially hydrogenated vegetable oil.",
-        b: 'Correct. The book states the main source of trans fatty acids in the human diet is partially hydrogenated vegetable oils, giving margarine as its example.',
-        c: "Ground nuts are a source of cis unsaturated fatty acids in the book's account, not the main dietary source of trans fat.",
-        d: 'Fruits are not named as a source of trans fatty acids anywhere in the book.',
+        a: "Vegetables themselves are not named as a trans fat source; only small amounts of trans fat occur naturally (in butter), and the main dietary source is processed — partially hydrogenated vegetable oil.",
+        b: 'The main source of trans fatty acids in the human diet is partially hydrogenated vegetable oils, with margarine as an example.',
+        c: "Ground nuts are a source of cis unsaturated fatty acids, not the main dietary source of trans fat.",
+        d: 'Fruits are not a named source of trans fatty acids.',
       },
     },
     {
@@ -335,12 +335,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'fatty-acid-omega-family-classification-and-arachidonic-acid-structure',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: "Name α-linolenic acid as the book's ω3 PUFA example.",
+      learningObjective: "Name α-linolenic acid as the ω3 PUFA example.",
       explanations: {
-        a: "Linoleic acid is the book's ω6, not ω3, PUFA example.",
-        b: 'Correct. The book lists linolenic (α-linolenic) acid under the ω3 PUFA family.',
-        c: "Nervonic acid does not appear anywhere among the book's named fatty acids.",
-        d: "Palmitic acid is a saturated fatty acid in the book's classification, with no double bonds to place it in any omega family.",
+        a: "Linoleic acid is an ω6, not ω3, PUFA example.",
+        b: 'Linolenic (α-linolenic) acid is listed under the ω3 PUFA family.',
+        c: "Nervonic acid does not appear anywhere among the named fatty acids.",
+        d: "Palmitic acid is a saturated fatty acid, with no double bonds to place it in any omega family.",
       },
     },
     {
@@ -348,12 +348,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'fatty-acid-omega-family-classification-and-arachidonic-acid-structure',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: "Name linoleic acid as the book's ω6 PUFA example.",
+      learningObjective: "Name linoleic acid as the ω6 PUFA example.",
       explanations: {
-        a: 'Omega-3 is the family the book assigns to linolenic acid, not linoleic acid.',
-        b: 'Correct. The book lists linoleic acid under the ω6 PUFA family, alongside arachidonic acid.',
+        a: 'Omega-3 is the family assigned to linolenic acid, not linoleic acid.',
+        b: 'Linoleic acid is listed under the ω6 PUFA family, alongside arachidonic acid.',
         c: 'Monoenoic means one double bond; linoleic acid, a PUFA, carries more than one, so it is polyenoic, not monoenoic.',
-        d: 'Linoleic acid is unsaturated (polyunsaturated, specifically), not saturated — the book lists it among the cis/PUFA fatty acids, not the saturated ones.',
+        d: 'Linoleic acid is unsaturated (polyunsaturated, specifically), not saturated — it belongs among the cis/PUFA fatty acids, not the saturated ones.',
       },
     },
     {
@@ -363,10 +363,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Identify α-linolenic acid as an essential fatty acid.',
       explanations: {
-        a: 'Correct. The book names α-linolenic acid, alongside linoleic acid, as one of the fatty acids the body cannot synthesise and must obtain from the diet.',
-        b: "Arachidonic acid is only conditionally essential in the book's account — the body normally makes it from linoleic acid, and it only becomes essential when linoleic acid is absent.",
-        c: "Oleic acid is a monounsaturated fatty acid the body makes for itself; it is not one of the book's named essential fatty acids.",
-        d: "Palmitic acid is a saturated, non-essential fatty acid in the book's account, made in the body mainly from carbohydrates.",
+        a: 'α-linolenic acid, alongside linoleic acid, is one of the fatty acids the body cannot synthesise and must obtain from the diet.',
+        b: "Arachidonic acid is only conditionally essential — the body normally makes it from linoleic acid, and it only becomes essential when linoleic acid is absent.",
+        c: "Oleic acid is a monounsaturated fatty acid the body makes for itself; it is not one of the named essential fatty acids.",
+        d: "Palmitic acid is a saturated, non-essential fatty acid, made in the body mainly from carbohydrates.",
       },
     },
     {
@@ -376,10 +376,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Classify stearic acid as both saturated and non-essential.',
       explanations: {
-        a: 'Correct. The book lists stearic acid among the saturated fatty acids, and non-essential fatty acids are defined as all fatty acids other than α-linolenic, linoleic (and conditionally arachidonic) acid — stearic acid is one of these, made in the body mainly from carbohydrates.',
-        b: 'Stearic acid has no double bonds in the book\'s account, so "monounsaturated" is wrong regardless of the essential/non-essential half of the option.',
-        c: "The book's named essential fatty acids are α-linolenic and linoleic acid (and conditionally arachidonic); stearic acid is not among them.",
-        d: 'Stearic acid has no double bonds in the book\'s account, so "polyunsaturated" is wrong regardless of the essential/non-essential half of the option.',
+        a: 'Stearic acid is listed among the saturated fatty acids, and non-essential fatty acids are defined as all fatty acids other than α-linolenic, linoleic (and conditionally arachidonic) acid — stearic acid is one of these, made in the body mainly from carbohydrates.',
+        b: 'Stearic acid has no double bonds, so "monounsaturated" is wrong regardless of the essential/non-essential half of the option.',
+        c: "The named essential fatty acids are α-linolenic and linoleic acid (and conditionally arachidonic); stearic acid is not among them.",
+        d: 'Stearic acid has no double bonds, so "polyunsaturated" is wrong regardless of the essential/non-essential half of the option.',
       },
     },
     {
@@ -389,10 +389,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'List fatty liver as a stated consequence of essential fatty acid deficiency.',
       explanations: {
-        a: 'Opacity of the cornea is not among the effects of essential fatty acid deficiency the book names — it lists dermatitis, fatty liver and growth retardation.',
-        b: 'Correct. The book states deficiency of essential fatty acids causes dermatitis, fatty liver, and growth retardation, especially in children.',
-        c: 'Spleen enlargement is not among the effects of essential fatty acid deficiency the book names.',
-        d: 'Renal failure is not among the effects of essential fatty acid deficiency the book names.',
+        a: 'Opacity of the cornea is not among the effects of essential fatty acid deficiency — these are dermatitis, fatty liver and growth retardation.',
+        b: 'Deficiency of essential fatty acids causes dermatitis, fatty liver, and growth retardation, especially in children.',
+        c: 'Spleen enlargement is not among the effects of essential fatty acid deficiency.',
+        d: 'Renal failure is not among the effects of essential fatty acid deficiency.',
       },
     },
     {
@@ -405,10 +405,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         "No usable printed key survives ('none', and option (a)'s text is OCR-corrupted). The book's own structural formula for arachidonic acid, CH3.(CH2)4.(CH=CH.CH2)4.(CH2)2.COOH (p30), shows four (CH=CH) units, i.e. four double bonds.",
       explanations: {
-        a: "This option's text did not survive the scan intact ('|'); read as a plausible original value it most likely intended '1', which is far below the four double bonds the book's own structural formula for arachidonic acid shows.",
-        b: "Two double bonds undercounts the four (CH=CH.CH2) repeats the book's formula for arachidonic acid shows.",
-        c: "Three double bonds undercounts the four (CH=CH.CH2) repeats the book's formula for arachidonic acid shows.",
-        d: "Correct. The book's structural formula for arachidonic acid, CH3.(CH2)4.(CH=CH.CH2)4.(CH2)2.COOH, contains four (CH=CH.CH2) repeats — four double bonds — consistent with its ω6 polyunsaturated classification.",
+        a: "This option's text did not survive the scan intact ('|'); read as a plausible original value it most likely intended '1', which is far below the four double bonds the structural formula for arachidonic acid shows.",
+        b: "Two double bonds undercounts the four (CH=CH.CH2) repeats shown in the structural formula for arachidonic acid.",
+        c: "Three double bonds undercounts the four (CH=CH.CH2) repeats shown in the structural formula for arachidonic acid.",
+        d: "The structural formula for arachidonic acid, CH3.(CH2)4.(CH=CH.CH2)4.(CH2)2.COOH, contains four (CH=CH.CH2) repeats — four double bonds — consistent with its ω6 polyunsaturated classification.",
       },
     },
     {
@@ -418,10 +418,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: "State that eicosanoids are C20 compounds, matching their arachidonic acid precursor.",
       explanations: {
-        a: "18 carbons describes fatty acids like stearic, oleic or linoleic acid, not the C20 backbone the book gives eicosanoids.",
-        b: 'Correct. The book defines eicosanoids as physiologically active compounds formed from C20 polyunsaturated fatty acids such as arachidonic acid.',
-        c: "22 carbons is not the carbon count the book gives eicosanoids; it names C20 specifically, matching arachidonic acid.",
-        d: "24 carbons describes a very-long-chain fatty acid in the book's chain-length classification, not the C20 eicosanoids.",
+        a: "18 carbons describes fatty acids like stearic, oleic or linoleic acid, not the C20 backbone of eicosanoids.",
+        b: 'Eicosanoids are physiologically active compounds formed from C20 polyunsaturated fatty acids such as arachidonic acid.',
+        c: "22 carbons is not the carbon count of eicosanoids; they are C20 specifically, matching arachidonic acid.",
+        d: "24 carbons describes a very-long-chain fatty acid by chain-length classification, not the C20 eicosanoids.",
       },
     },
     {
@@ -429,12 +429,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'lipid-three-way-classification-simple-compound-derived',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: "Identify triacylglycerol as the book's simple lipid example.",
+      learningObjective: "Identify triacylglycerol as the simple lipid example.",
       explanations: {
-        a: "Lecithin is a compound lipid in the book's classification — a phospholipid, since it contains fatty acid, alcohol and a phosphate group.",
-        b: "Fatty acid on its own is a derived lipid in the book's classification, a hydrolysis product, not a simple lipid (an ester).",
-        c: 'Correct. The book gives triacylglycerol (neutral fat) as its example of a simple lipid — an ester of fatty acids with the alcohol glycerol, nothing more added.',
-        d: "Steroids are derived lipids in the book's classification, not esters of fatty acid with alcohol at all.",
+        a: "Lecithin is a compound lipid — a phospholipid, since it contains fatty acid, alcohol and a phosphate group.",
+        b: "Fatty acid on its own is a derived lipid, a hydrolysis product, not a simple lipid (an ester).",
+        c: 'Triacylglycerol (neutral fat) is the example of a simple lipid — an ester of fatty acids with the alcohol glycerol, nothing more added.',
+        d: "Steroids are derived lipids, not esters of fatty acid with alcohol at all.",
       },
     },
     {
@@ -442,11 +442,11 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'simple-lipid-subtypes-neutral-fats-and-waxes',
       difficulty: 'Easy',
       questionType: 'Definition',
-      learningObjective: "Name 'neutral fats' as the book's other term for triacylglycerol/triglycerides.",
+      learningObjective: "Name 'neutral fats' as the other term for triacylglycerol/triglycerides.",
       explanations: {
         a: 'Sphingolipid is a different lipid family entirely, built on sphingosine rather than glycerol; it is not another name for triglyceride.',
         b: 'Lecithin is a specific phospholipid (phosphatidylcholine), a compound lipid, not another name for triglyceride.',
-        c: "Correct. The book gives 'neutral fats' as the other name for triacylglycerol (TAG), the simple-lipid subtype built from three fatty acids on glycerol.",
+        c: "'Neutral fats' is the other name for triacylglycerol (TAG), the simple-lipid subtype built from three fatty acids on glycerol.",
         d: "Waxes are the simple lipid's other subtype — one fatty acid on a monohydroxy alcohol higher than glycerol — not another name for the three-fatty-acid triglyceride.",
       },
     },
@@ -458,7 +458,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Define waxes as esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol.',
       explanations: {
         a: 'Neutral fats (TAG) use glycerol, not a longer-chain monohydroxy alcohol, and use three fatty acids, not one.',
-        b: 'Correct. The book defines waxes exactly this way: esters of one fatty acid with a long chain monohydroxy alcohol higher than glycerol.',
+        b: 'Waxes are defined exactly this way: esters of one fatty acid with a long chain monohydroxy alcohol higher than glycerol.',
         c: 'Sphingolipids are built on sphingosine joined to fatty acid by an amide bond, not an ester of fatty acid with a higher monohydroxy alcohol.',
         d: "Phospholipids add a phosphate group to a fatty-acid/alcohol ester; they are not defined by the alcohol being 'higher than glycerol'.",
       },
@@ -468,15 +468,15 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'simple-lipid-subtypes-neutral-fats-and-waxes',
       difficulty: 'Moderate',
       questionType: 'Classification',
-      learningObjective: "Recognise vitamin A esters as one of the book's named wax examples.",
+      learningObjective: "Recognise vitamin A esters as one of the named wax examples.",
       answerOverride: 'c',
       answerOverrideReason:
         "No printed key survives; the book's own list of wax examples names Vitamin A (retinol) esters directly (p32: 'b) Cholesteryl esters. c) Vitamin A (retinol) esters. d) Vitamin D (calciferol) esters'), unlike the other three options.",
       explanations: {
-        a: "Triacylglycerol is the book's neutral-fat subtype of simple lipid, not its wax subtype.",
-        b: "Cholesterol itself is a derived lipid (a sterol) in the book's classification; it is cholesteryl esters, not free cholesterol, that the book lists as a wax.",
-        c: "Correct. The book's own list of wax examples names vitamin A (retinol) esters directly, alongside ceramide, cholesteryl esters and vitamin D esters.",
-        d: "Lecithin is a compound lipid (phospholipid) in the book's classification, not a wax.",
+        a: "Triacylglycerol is the neutral-fat subtype of simple lipid, not the wax subtype.",
+        b: "Cholesterol itself is a derived lipid (a sterol); it is cholesteryl esters, not free cholesterol, that is listed as a wax.",
+        c: "Vitamin A (retinol) esters are named directly among the wax examples, alongside ceramide, cholesteryl esters and vitamin D esters.",
+        d: "Lecithin is a compound lipid (phospholipid), not a wax.",
       },
     },
     {
@@ -484,12 +484,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'simple-lipid-subtypes-neutral-fats-and-waxes',
       difficulty: 'Moderate',
       questionType: 'Classification',
-      learningObjective: "Identify cholesteryl esters as one of the book's wax examples.",
+      learningObjective: "Identify cholesteryl esters as one of the wax examples.",
       explanations: {
-        a: 'Correct. The book lists cholesteryl esters directly among its wax examples, alongside ceramide and the vitamin A/D esters.',
+        a: 'Cholesteryl esters are listed directly among the wax examples, alongside ceramide and the vitamin A/D esters.',
         b: 'Neutral fats are the triacylglycerol subtype of simple lipid — three fatty acids on glycerol — not cholesteryl esters.',
-        c: "Compound lipids add a phosphate or carbohydrate group beyond fatty acid and alcohol; cholesteryl esters, a wax, are a simple lipid in the book's classification.",
-        d: "Derived lipids are hydrolysis products such as free fatty acids and steroids; the book specifically files the ester form, cholesteryl esters, under waxes rather than derived lipids.",
+        c: "Compound lipids add a phosphate or carbohydrate group beyond fatty acid and alcohol; cholesteryl esters, a wax, are a simple lipid.",
+        d: "Derived lipids are hydrolysis products such as free fatty acids and steroids; the ester form, cholesteryl esters, is specifically filed under waxes rather than derived lipids.",
       },
     },
     {
@@ -497,11 +497,11 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'phosphatidic-acid-structure-hydrolysis-and-derivatives',
       difficulty: 'Moderate',
       questionType: 'Definition',
-      learningObjective: "Name diacylglycerol phosphate as the book's synonym for phosphatidic acid.",
+      learningObjective: "Name diacylglycerol phosphate as the synonym for phosphatidic acid.",
       explanations: {
-        a: "Correct. The book names phosphatidic acid's parenthetical synonym directly: 'Phosphatidic acid (Diacylglycerol phosphate)'.",
-        b: "Diphosphatidylglycerol is the book's name for cardiolipin, a different, larger molecule built from two phosphatidic acid units, not a synonym for phosphatidic acid itself.",
-        c: 'Lipositol is not a term the book uses; phosphatidylinositol (phosphatidic acid plus inositol) is the closest related compound, but it is not called phosphatidic acid.',
+        a: "Phosphatidic acid's parenthetical synonym is named directly: 'Phosphatidic acid (Diacylglycerol phosphate)'.",
+        b: "Diphosphatidylglycerol is the name for cardiolipin, a different, larger molecule built from two phosphatidic acid units, not a synonym for phosphatidic acid itself.",
+        c: 'Lipositol is not a standard term; phosphatidylinositol (phosphatidic acid plus inositol) is the closest related compound, but it is not called phosphatidic acid.',
         d: 'Cephalin is phosphatidic acid plus ethanolamine — a derivative of phosphatidic acid, not another name for it.',
       },
     },
@@ -512,10 +512,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: "Derive phosphatidic acid's hydrolysis products (1,2-diacylglycerol and phosphoric acid) from its stated substituent positions on glycerol.",
       explanations: {
-        a: "Correct. The book places phosphoric acid at position 3 of phosphatidic acid's glycerol backbone, with the two fatty acids at positions 1 and 2; hydrolysing off that phosphate leaves 1,2-diacylglycerol and phosphoric acid.",
-        b: "A 1,3-diacylglycerol would require the phosphate to sit at position 2, contradicting the book's own numbering, which places phosphoric acid at position 3 and the two fatty acids at positions 1 and 2.",
-        c: "Glycerol has only three carbons, so a '4' position does not exist on it — this option is not consistent with the book's own glycerol-based structure for phosphatidic acid.",
-        d: "Glycerol has only three carbons, so a '5' position does not exist on it — this option is not consistent with the book's own glycerol-based structure for phosphatidic acid.",
+        a: "Phosphoric acid sits at position 3 of phosphatidic acid's glycerol backbone, with the two fatty acids at positions 1 and 2; hydrolysing off that phosphate leaves 1,2-diacylglycerol and phosphoric acid.",
+        b: "A 1,3-diacylglycerol would require the phosphate to sit at position 2, contradicting the standard numbering, which places phosphoric acid at position 3 and the two fatty acids at positions 1 and 2.",
+        c: "Glycerol has only three carbons, so a '4' position does not exist on it — this option is not consistent with the glycerol-based structure of phosphatidic acid.",
+        d: "Glycerol has only three carbons, so a '5' position does not exist on it — this option is not consistent with the glycerol-based structure of phosphatidic acid.",
       },
     },
     {
@@ -525,8 +525,8 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Identify lecithin and cephalin as phosphatidic acid derivatives, distinct from the ceramide-based glycolipids.',
       explanations: {
-        a: 'Correct. The book builds both lecithin (phosphatidic acid plus choline) and cephalin (phosphatidic acid plus ethanolamine) directly on phosphatidic acid, so it is present in both.',
-        b: 'Cerebrosides are glycolipids, built from ceramide and a carbohydrate — the book does not build them from phosphatidic acid at all.',
+        a: 'Both lecithin (phosphatidic acid plus choline) and cephalin (phosphatidic acid plus ethanolamine) are built directly on phosphatidic acid, so it is present in both.',
+        b: 'Cerebrosides are glycolipids, built from ceramide and a carbohydrate, not from phosphatidic acid at all.',
         c: 'Gangliosides are glycolipids, built from ceramide and a carbohydrate radical, not from phosphatidic acid.',
         d: 'Gangliosides are glycolipids built from ceramide, not phosphatidic acid, so this pairing is wrong on the gangliosides half even though lecithin is correctly a phosphatidic acid derivative.',
       },
@@ -538,9 +538,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: "Name phosphatidylcholine as lecithin's other name.",
       explanations: {
-        a: "Correct. The book gives phosphatidylcholine directly as lecithin's other name.",
+        a: "Phosphatidylcholine is lecithin's other name.",
         b: 'Phosphatidylserine is phosphatidic acid plus serine, a separate glycerophospholipid from lecithin.',
-        c: "Cardiolipin is the book's name for diphosphatidylglycerol, an unrelated, larger molecule built from two phosphatidic acid units.",
+        c: "Cardiolipin is the name for diphosphatidylglycerol, an unrelated, larger molecule built from two phosphatidic acid units.",
         d: 'Sphingomyelins are built on sphingosine, not glycerol, and are a separate phospholipid subgroup from lecithin.',
       },
     },
@@ -551,10 +551,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Name dipalmitoyl-lecithin as the main constituent of lung surfactant.',
       explanations: {
-        a: 'Correct. The book states lung surfactant is formed mainly of dipalmitoyl-lecithin, secreted naturally by pneumocytes.',
-        b: "Phosphatidylethanolamine (cephalin) is not the surfactant lipid the book names; its own stated role is increasing thrombin formation for blood clotting.",
-        c: 'Ceramide is a sphingolipid building block, not the lipid the book credits with forming lung surfactant.',
-        d: "Phosphatidylinositol's stated role in the book is as a second messenger, not as the main constituent of lung surfactant.",
+        a: 'Lung surfactant is formed mainly of dipalmitoyl-lecithin, secreted naturally by pneumocytes.',
+        b: "Phosphatidylethanolamine (cephalin) is not the surfactant lipid; its own role is increasing thrombin formation for blood clotting.",
+        c: 'Ceramide is a sphingolipid building block, not the lipid credited with forming lung surfactant.',
+        d: "Phosphatidylinositol's role is as a second messenger, not as the main constituent of lung surfactant.",
       },
     },
     {
@@ -564,10 +564,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Investigation',
       learningObjective: 'Identify the L/S ratio of amniotic fluid as a marker of fetal lung maturity.',
       explanations: {
-        a: 'The book does not connect the L/S ratio to kidney maturity; it names fetal lung maturity specifically.',
-        b: 'Correct. The book states the lecithin/sphingomyelin (L/S) ratio of amniotic fluid is a marker of fetal lung maturity.',
-        c: 'The book does not connect the L/S ratio to brain maturity; it names fetal lung maturity specifically.',
-        d: 'The book does not connect the L/S ratio to liver maturity; it names fetal lung maturity specifically.',
+        a: 'The L/S ratio is not connected to kidney maturity; it marks fetal lung maturity specifically.',
+        b: 'The lecithin/sphingomyelin (L/S) ratio of amniotic fluid is a marker of fetal lung maturity.',
+        c: 'The L/S ratio is not connected to brain maturity; it marks fetal lung maturity specifically.',
+        d: 'The L/S ratio is not connected to liver maturity; it marks fetal lung maturity specifically.',
       },
     },
     {
@@ -575,12 +575,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'cardiolipin-mitochondrial-membrane-localization',
       difficulty: 'Moderate',
       questionType: 'Structure and function',
-      learningObjective: 'Name cardiolipin as the phospholipid the book locates almost exclusively in the inner mitochondrial membrane.',
+      learningObjective: 'Name cardiolipin as the phospholipid located almost exclusively in the inner mitochondrial membrane.',
       explanations: {
-        a: "Lecithin is a widely distributed membrane phospholipid in the book's account, not one singled out for the inner mitochondrial membrane specifically.",
+        a: "Lecithin is a widely distributed membrane phospholipid, not one singled out for the inner mitochondrial membrane specifically.",
         b: 'Cephalin is described by its role in blood clotting (increasing thrombin formation), not by a special inner-mitochondrial-membrane location.',
-        c: 'Correct. The book places cardiolipins almost exclusively in the inner mitochondrial membrane, involved in mitochondrial energy metabolism.',
-        d: "Ceramide is the sphingolipid backbone molecule, not a phospholipid the book places in the inner mitochondrial membrane.",
+        c: 'Cardiolipins sit almost exclusively in the inner mitochondrial membrane, involved in mitochondrial energy metabolism.',
+        d: "Ceramide is the sphingolipid backbone molecule, not a phospholipid located in the inner mitochondrial membrane.",
       },
     },
     {
@@ -588,15 +588,15 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'plasmalogen-ether-linkage-and-clinical-associations',
       difficulty: 'Hard',
       questionType: 'Structure and function',
-      learningObjective: "Identify plasmalogens as the phospholipid the book describes with a fatty-alcohol (ether-type) substitution.",
+      learningObjective: "Identify plasmalogens as the phospholipid with a fatty-alcohol (ether-type) substitution.",
       answerOverride: 'c',
       answerOverrideReason:
         "No printed key survives ('none'). The book's own description of plasmalogens — a fatty alcohol in place of the usual fatty acid at position 1 of the phosphatidic acid backbone (p33) — is the ether-type linkage the question's 'ether phospholipid' names; the other three options are all glycolipids in the book's classification, built from ceramide and a carbohydrate, with no ether linkage described.",
       explanations: {
-        a: "Gangliosides are glycolipids in the book's classification (ceramide plus carbohydrate), with no ether linkage described anywhere in the book.",
-        b: "Sulfolipids are glycolipids in the book's classification (ceramide plus carbohydrate), with no ether linkage described anywhere in the book.",
-        c: 'Correct. The book describes plasmalogens as carrying a fatty alcohol, rather than the usual fatty acid, at position 1 of the phosphatidic acid backbone — an ether-type substitution in place of the normal ester.',
-        d: "Cerebrosides are glycolipids in the book's classification (ceramide plus carbohydrate), with no ether linkage described anywhere in the book.",
+        a: "Gangliosides are glycolipids (ceramide plus carbohydrate), with no ether linkage involved.",
+        b: "Sulfolipids are glycolipids (ceramide plus carbohydrate), with no ether linkage involved.",
+        c: 'Plasmalogens carry a fatty alcohol, rather than the usual fatty acid, at position 1 of the phosphatidic acid backbone — an ether-type substitution in place of the normal ester.',
+        d: "Cerebrosides are glycolipids (ceramide plus carbohydrate), with no ether linkage involved.",
       },
     },
     {
@@ -604,12 +604,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'plasmalogen-ether-linkage-and-clinical-associations',
       difficulty: 'Moderate',
       questionType: 'Structure and function',
-      learningObjective: "Name plasmalogens as the phospholipid whose reduced levels the book associates with Alzheimer disease.",
+      learningObjective: "Name plasmalogens as the phospholipid whose reduced levels are associated with Alzheimer disease.",
       explanations: {
-        a: "Cardiolipins' book-stated location is the inner mitochondrial membrane; the book does not associate them with Alzheimer disease.",
-        b: "Lecithin's book-stated roles are as an acetylcholine precursor and lung surfactant component; the book does not associate it with Alzheimer disease.",
-        c: 'Correct. The book states plasmalogens\' reduced levels have been associated with Alzheimer disease.',
-        d: "Cephalin's book-stated role is increasing thrombin formation for blood clotting; the book does not associate it with Alzheimer disease.",
+        a: "Cardiolipins are located in the inner mitochondrial membrane; they are not associated with Alzheimer disease.",
+        b: "Lecithin's roles are as an acetylcholine precursor and lung surfactant component; it is not associated with Alzheimer disease.",
+        c: 'Plasmalogens\' reduced levels have been associated with Alzheimer disease.',
+        d: "Cephalin's role is increasing thrombin formation for blood clotting; it is not associated with Alzheimer disease.",
       },
     },
     {
@@ -619,10 +619,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: "Name fatty acid and sphingosine as ceramide's two building blocks.",
       explanations: {
-        a: "Glycerol and glucose are not ceramide's building blocks in the book's account; ceramide comes from sphingosine and fatty acid.",
-        b: "Fatty acid and choline combine (via phosphatidic acid) to make lecithin in the book's account, not ceramide, which needs sphingosine.",
-        c: "Fatty acid and serine combine (via phosphatidic acid) to make phosphatidylserine in the book's account, not ceramide, which needs sphingosine.",
-        d: "Correct (the trailing '17 (om' in this option's text is scanner noise, not part of the answer). The book states fatty acids link to sphingosine by an amide bond to form ceramide.",
+        a: "Glycerol and glucose are not ceramide's building blocks; ceramide comes from sphingosine and fatty acid.",
+        b: "Fatty acid and choline combine (via phosphatidic acid) to make lecithin, not ceramide, which needs sphingosine.",
+        c: "Fatty acid and serine combine (via phosphatidic acid) to make phosphatidylserine, not ceramide, which needs sphingosine.",
+        d: "Correct (the trailing '17 (om' in this option's text is scanner noise, not part of the answer). Fatty acids link to sphingosine by an amide bond to form ceramide.",
       },
     },
     {
@@ -632,10 +632,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Name ceramide as the molecule that combines with phosphocholine to form sphingomyelin.',
       explanations: {
-        a: "Pyruvate plays no role in the book's account of sphingomyelin formation.",
-        b: "Serine is not what connects to phosphocholine in the book's account; serine instead combines with phosphatidic acid to form phosphatidylserine, an unrelated glycerophospholipid.",
-        c: 'Correct. The book states ceramide is connected to phosphocholine to form sphingomyelin.',
-        d: "Glucose is not what connects to phosphocholine in the book's account of sphingomyelin formation; it is ceramide that does.",
+        a: "Pyruvate plays no role in sphingomyelin formation.",
+        b: "Serine is not what connects to phosphocholine; serine instead combines with phosphatidic acid to form phosphatidylserine, an unrelated glycerophospholipid.",
+        c: 'Ceramide is connected to phosphocholine to form sphingomyelin.',
+        d: "Glucose is not what connects to phosphocholine in sphingomyelin formation; it is ceramide that does.",
       },
     },
     {
@@ -646,9 +646,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Classify sphingomyelin as a phospholipid rather than a glycolipid, despite sharing the ceramide backbone with the glycolipids.',
       explanations: {
         a: 'Simple lipids are esters of fatty acid with alcohol alone; sphingomyelin adds a phosphocholine group, which makes it a phospholipid, not a simple lipid.',
-        b: "Correct. The book classes sphingomyelin, alongside the glycerophospholipids, under phospholipids — its subgroup whose alcohol is sphingosine rather than glycerol.",
-        c: 'Glycolipids are ceramide joined to a carbohydrate; sphingomyelin is ceramide joined to phosphocholine, which the book classes as a phospholipid instead.',
-        d: "Derived lipids are hydrolysis products such as free fatty acids and steroids; sphingomyelin is a compound lipid (a phospholipid) in the book's classification, not a derived one.",
+        b: "Sphingomyelin is classed, alongside the glycerophospholipids, under phospholipids — its subgroup whose alcohol is sphingosine rather than glycerol.",
+        c: 'Glycolipids are ceramide joined to a carbohydrate; sphingomyelin is ceramide joined to phosphocholine, which is classed as a phospholipid instead.',
+        d: "Derived lipids are hydrolysis products such as free fatty acids and steroids; sphingomyelin is a compound lipid (a phospholipid), not a derived one.",
       },
     },
     {
@@ -658,10 +658,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: "State that phospholipids' membrane role rests on their amphipathic structure — hydrophobic tails, hydrophilic heads.",
       explanations: {
-        a: "This reverses the book's own labelling of the bilayer diagram, which marks the tails hydrophobic (nonpolar) and the heads hydrophilic (polar), not the other way for both ends.",
-        b: 'Correct. The book describes phospholipids as amphipathic — nonpolar fatty acid tails and polar (glycerol/phosphate/head-group) regions — and its own membrane diagram labels the tails hydrophobic and the heads hydrophilic.',
-        c: "A large cyclic structure is not how the book describes phospholipids; it describes them as amphipathic molecules with fatty-acid tails and polar head groups, not as a ring system.",
-        d: "This exactly reverses the book's own bilayer diagram, which marks the tails hydrophobic and the heads hydrophilic — not heads hydrophobic and tails hydrophilic.",
+        a: "This reverses the standard labelling of the bilayer diagram, which marks the tails hydrophobic (nonpolar) and the heads hydrophilic (polar), not the other way for both ends.",
+        b: 'Phospholipids are amphipathic — nonpolar fatty acid tails and polar (glycerol/phosphate/head-group) regions — and the membrane diagram labels the tails hydrophobic and the heads hydrophilic.',
+        c: "A large cyclic structure is not how phospholipids are described; they are amphipathic molecules with fatty-acid tails and polar head groups, not a ring system.",
+        d: "This exactly reverses the standard bilayer diagram, which marks the tails hydrophobic and the heads hydrophilic — not heads hydrophobic and tails hydrophilic.",
       },
     },
     {
@@ -669,12 +669,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'phosphatidylinositol-second-messenger-role',
       difficulty: 'Hard',
       questionType: 'Mechanism',
-      learningObjective: 'Identify phosphatidylinositol as the phospholipid the book credits with a second-messenger role.',
+      learningObjective: 'Identify phosphatidylinositol as the phospholipid credited with a second-messenger role.',
       explanations: {
-        a: "Phosphatidylcholine (lecithin) is described by the book as an acetylcholine precursor and lung-surfactant component, not as a second messenger.",
-        b: "Phosphatidylserine has no stated second-messenger role in the book; it is only named as a phosphatidic acid derivative (with serine).",
-        c: "Correct, in the book's own (less detailed) terms: the book credits phosphatidylinositol itself with acting as a second messenger to many chemical transmitters, hormones and growth factors; this option names that role using its more familiar textbook form (its cleavage products, inositol triphosphate and diacylglycerol), a level of detail the department book itself does not spell out.",
-        d: "Plasmalogens are described by the book through their platelet-activating-factor and Alzheimer's associations, not as second messengers.",
+        a: "Phosphatidylcholine (lecithin) is an acetylcholine precursor and lung-surfactant component, not a second messenger.",
+        b: "Phosphatidylserine has no second-messenger role; it is only a phosphatidic acid derivative (with serine).",
+        c: "Phosphatidylinositol itself acts as a second messenger to many chemical transmitters, hormones and growth factors; this option names that role using its more familiar textbook form (its cleavage products, inositol triphosphate and diacylglycerol), a level of detail not otherwise spelled out here.",
+        d: "Plasmalogens are known for their platelet-activating-factor and Alzheimer's associations, not as second messengers.",
       },
     },
     {
@@ -682,12 +682,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'glycolipid-classification-and-tissue-distribution',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: "Name cerebrosides as one of the book's glycolipid examples.",
+      learningObjective: "Name cerebrosides as one of the glycolipid examples.",
       explanations: {
-        a: "Sphingomyelin is classed by the book as a phospholipid (ceramide plus phosphocholine), not a glycolipid.",
-        b: "Lecithin is a glycerophospholipid (phosphatidic acid plus choline) in the book's classification, not a glycolipid.",
-        c: "Plasmalogens are glycerophospholipids with a fatty-alcohol substitution in the book's classification, not glycolipids.",
-        d: "Correct. The book lists cerebrosides directly among its glycolipid examples, alongside sulfolipids and gangliosides.",
+        a: "Sphingomyelin is classed as a phospholipid (ceramide plus phosphocholine), not a glycolipid.",
+        b: "Lecithin is a glycerophospholipid (phosphatidic acid plus choline), not a glycolipid.",
+        c: "Plasmalogens are glycerophospholipids with a fatty-alcohol substitution, not glycolipids.",
+        d: "Cerebrosides are listed directly among the glycolipid examples, alongside sulfolipids and gangliosides.",
       },
     },
     {
@@ -695,12 +695,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'lipid-three-way-classification-simple-compound-derived',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: "Identify fatty acids as one of the book's derived lipid examples.",
+      learningObjective: "Identify fatty acids as one of the derived lipid examples.",
       explanations: {
-        a: "TAG (triacylglycerol) is the book's simple-lipid example, not a derived lipid.",
-        b: 'Correct. The book lists fatty acids first among its examples of derived lipids.',
-        c: "Lecithin is a compound lipid (phospholipid) in the book's classification, not a derived lipid.",
-        d: "Cardiolipin is a compound lipid (phospholipid) in the book's classification, not a derived lipid.",
+        a: "TAG (triacylglycerol) is the simple-lipid example, not a derived lipid.",
+        b: 'Fatty acids are listed first among the examples of derived lipids.',
+        c: "Lecithin is a compound lipid (phospholipid), not a derived lipid.",
+        d: "Cardiolipin is a compound lipid (phospholipid), not a derived lipid.",
       },
     },
     {
@@ -710,10 +710,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Classify steroids as derived lipids.',
       explanations: {
-        a: "Neutral fats are the book's simple-lipid (triacylglycerol) subtype, not where it places steroids.",
-        b: "Waxes are the book's other simple-lipid subtype, not where it places steroids.",
-        c: 'Correct. The book lists steroids as one of the derived lipid types, alongside fatty acids, alcohols, fat-soluble vitamins and carotenoids.',
-        d: "Compound lipids add a phosphate or carbohydrate group to fatty acid and alcohol; the book instead files steroids under derived lipids.",
+        a: "Neutral fats are the simple-lipid (triacylglycerol) subtype, not where steroids belong.",
+        b: "Waxes are the other simple-lipid subtype, not where steroids belong.",
+        c: 'Steroids are one of the derived lipid types, alongside fatty acids, alcohols, fat-soluble vitamins and carotenoids.',
+        d: "Compound lipids add a phosphate or carbohydrate group to fatty acid and alcohol; steroids are instead filed under derived lipids.",
       },
     },
     {
@@ -726,10 +726,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         "No printed key survives ('none'). The book states directly that cholesterol is an important constituent of cell membranes that controls their fluidity (p37), which none of the three sex-hormone options is credited with anywhere in the book.",
       explanations: {
-        a: "Estradiol is a steroid hormone (an estrogen) in the book's classification; membrane fluidity control is the role the book gives to cholesterol, not to the sex hormones built from it.",
-        b: 'Correct. The book states cholesterol is an important constituent of cell membranes that controls their fluidity.',
-        c: "Testosterone is a steroid hormone (a male sex hormone) in the book's classification, not the membrane-fluidity-controlling sterol.",
-        d: "Progesterone is a steroid hormone (a female sex hormone) in the book's classification, not the membrane-fluidity-controlling sterol.",
+        a: "Estradiol is a steroid hormone (an estrogen); membrane fluidity control is the role given to cholesterol, not to the sex hormones built from it.",
+        b: 'Cholesterol is an important constituent of cell membranes that controls their fluidity.',
+        c: "Testosterone is a steroid hormone (a male sex hormone), not the membrane-fluidity-controlling sterol.",
+        d: "Progesterone is a steroid hormone (a female sex hormone), not the membrane-fluidity-controlling sterol.",
       },
     },
     {
@@ -739,10 +739,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'State that free cholesterol contains 27 carbon atoms.',
       explanations: {
-        a: "24 carbon atoms is the book's threshold for a 'very long chain' fatty acid, not cholesterol's own carbon count.",
-        b: "25 carbon atoms is not the figure the book gives for cholesterol; it states 27.",
-        c: "26 carbon atoms is not the figure the book gives for cholesterol; it states 27.",
-        d: 'Correct. The book states free cholesterol contains 27 carbon atoms.',
+        a: "24 carbon atoms is the threshold for a 'very long chain' fatty acid, not cholesterol's own carbon count.",
+        b: "25 carbon atoms is not the figure for cholesterol, which contains 27.",
+        c: "26 carbon atoms is not the figure for cholesterol, which contains 27.",
+        d: 'Free cholesterol contains 27 carbon atoms.',
       },
     },
     {
@@ -752,10 +752,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: "Name vitamin D as one of cholesterol's derivatives, via 7-dehydrocholesterol.",
       explanations: {
-        a: "Vitamin E is a fat-soluble vitamin the book lists separately among the derived lipids; it does not describe cholesterol as its precursor.",
-        b: "Vitamin C is not a lipid-derived vitamin at all in the book's account, and is not listed among cholesterol's derivatives.",
-        c: 'Correct. The book states cholesterol can be oxidised in the liver into 7-dehydrocholesterol, converted into vitamin D3 in the skin by ultraviolet rays.',
-        d: "Vitamin B12 is not a lipid-derived vitamin in the book's account, and is not listed among cholesterol's derivatives.",
+        a: "Vitamin E is a fat-soluble vitamin listed separately among the derived lipids; cholesterol is not its precursor.",
+        b: "Vitamin C is not a lipid-derived vitamin at all, and is not listed among cholesterol's derivatives.",
+        c: 'Cholesterol can be oxidised in the liver into 7-dehydrocholesterol, converted into vitamin D3 in the skin by ultraviolet rays.',
+        d: "Vitamin B12 is not a lipid-derived vitamin, and is not listed among cholesterol's derivatives.",
       },
     },
     {
@@ -765,10 +765,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Name cholesterol as the precursor of bile acids.',
       explanations: {
-        a: 'Correct. The book states cholesterol is converted into bile acids and bile salts in the liver.',
-        b: "Amino acids are not what the book derives bile acids from; it names cholesterol specifically.",
-        c: "Fatty acids are not what the book derives bile acids from; it names cholesterol specifically.",
-        d: "Bilirubin is a heme breakdown product in the body, not the precursor the book gives for bile acids, which is cholesterol.",
+        a: 'Cholesterol is converted into bile acids and bile salts in the liver.',
+        b: "Amino acids are not the precursor of bile acids; cholesterol is.",
+        c: "Fatty acids are not the precursor of bile acids; cholesterol is.",
+        d: "Bilirubin is a heme breakdown product in the body, not the precursor of bile acids, which is cholesterol.",
       },
     },
 
@@ -789,7 +789,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Stearic acid is a saturated fatty acid with no double bonds — eicosanoid synthesis needs a polyunsaturated precursor, which stearic acid is not.',
         b: 'Palmitic acid is likewise saturated, with no double bonds to supply the eicosanoid pathway\'s downstream chemistry.',
-        c: 'Correct. Phospholipase A2 liberates arachidonic acid from membrane phospholipids, and it is arachidonic acid that prostaglandin H synthase and lipoxygenase convert into the various eicosanoids.',
+        c: 'Phospholipase A2 liberates arachidonic acid from membrane phospholipids, and it is arachidonic acid that prostaglandin H synthase and lipoxygenase convert into the various eicosanoids.',
         d: 'Lignoceric acid is a very-long-chain saturated fatty acid, not the eicosanoid pathway\'s substrate.',
       },
     },
@@ -802,7 +802,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Prostaglandins are cyclic eicosanoids, made from arachidonic acid by prostaglandin H synthase\'s cyclooxygenase activity — the opposite branch from the acyclic products.',
         b: 'Thromboxane is likewise a cyclic eicosanoid product of prostaglandin H synthase, not an acyclic one.',
-        c: 'Correct. Lipoxygenase converts arachidonic acid into the acyclic eicosanoids — the leukotrienes and lipoxins — as opposed to the cyclic products prostaglandin H synthase makes.',
+        c: 'Lipoxygenase converts arachidonic acid into the acyclic eicosanoids — the leukotrienes and lipoxins — as opposed to the cyclic products prostaglandin H synthase makes.',
         d: 'Prostacyclins are also cyclic eicosanoid products of prostaglandin H synthase, made in the vascular endothelium — not an acyclic product.',
       },
     },

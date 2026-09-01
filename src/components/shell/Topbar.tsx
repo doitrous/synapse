@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState, type RefObject } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, Maximize2, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, LogOut } from 'lucide-react'
+import { Menu, Maximize2, Maximize, Minimize, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, LogOut } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
+import { IconButton } from '@/components/ui/IconButton'
 import { Kbd } from '@/components/ui/Kbd'
 import { Tooltip } from '@/components/ui/Tooltip'
+import { useFullscreen } from '@/lib/useFullscreen'
 import { PomodoroTimer } from './PomodoroTimer'
 import { FocusAudioPlayer } from './FocusAudioPlayer'
 import { cn } from '@/lib/cn'
@@ -48,6 +50,7 @@ export function Topbar({
 }) {
   const { pathname } = useLocation()
   const { t } = useI18n()
+  const { isFullscreen, toggle: toggleFullscreen } = useFullscreen()
   const { audience, role, tabs } = useIdentity()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
@@ -55,7 +58,7 @@ export function Topbar({
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
   // The student's own notification preferences, from the Account page.
   const [prefs] = usePersistentState<{ reviewReminders: boolean; calendarReminders: boolean }>(
-    'synapse.account.prefs.v1',
+    'nishany.account.prefs.v1',
     { reviewReminders: true, calendarReminders: true },
   )
   const notifications = [
@@ -166,6 +169,12 @@ export function Topbar({
             <Icon icon={Maximize2} size={17} />
           </button>
         </Tooltip>
+
+        <IconButton
+          icon={isFullscreen ? Minimize : Maximize}
+          label={t(isFullscreen ? 'Exit fullscreen' : 'Enter fullscreen')}
+          onClick={toggleFullscreen}
+        />
 
         {/* Appearance and language live in the sidebar footer, above the
             student's own name — one home each, reachable at every width. */}

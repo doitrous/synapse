@@ -93,7 +93,7 @@ interface IdOnlyRow { id: string; module: string; file: string; line: number }
 const liveKeyById = new Map<string, string>()
 try {
   const live = JSON.parse(readFileSync(LIVE_LIBRARY_PATH, 'utf8'))
-  const concepts = live?.states?.['synapse-concept-graph-v2']?.concepts ?? []
+  const concepts = live?.states?.['nishany-concept-graph-v2']?.concepts ?? []
   for (const concept of concepts) {
     if (concept?.id) liveKeyById.set(concept.id, concept.canonicalKey ?? '')
   }

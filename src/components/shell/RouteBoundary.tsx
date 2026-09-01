@@ -18,7 +18,7 @@ import { isChunkLoadError, shouldReloadForChunk } from '@/lib/chunkReload'
  */
 
 /** Scoped per tab: two tabs recovering from the same deployment are independent. */
-const ATTEMPT_KEY = 'synapse.chunkReloadAt'
+const ATTEMPT_KEY = 'nishany.chunkReloadAt'
 
 function lastAttemptAt(): number | null {
   try {

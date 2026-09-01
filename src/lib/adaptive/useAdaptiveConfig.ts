@@ -17,7 +17,84 @@ import {
   ADAPTIVE_BLUEPRINT_STORAGE_KEY, blueprintFor, deriveBlueprint, resolveBlueprint,
   type Blueprint, type BlueprintNode,
 } from '@/data/adaptive/blueprint'
-import { CONCEPT_STORAGE_KEY, conceptGraphFromStorage, type ConceptGraph } from '@/data/conceptGraph'
+import { CONCEPT_STORAGE_KEY, conceptGraphFromStorage, type Concept, type ConceptGraph } from '@/data/conceptGraph'
+import { CURRICULUM_CATALOG } from '@/data/curriculumCatalog'
+import { subjectsById } from '@/data/subjects'
+
+/**
+ * A topic node anywhere in the catalogue, matched by its id or its `TPC_`
+ * tag.
+ *
+ * Deliberately not `findCurriculumPath`: that helper only checks the first
+ * system in the tree when a query carries a `topicId` but no `systemId`, so
+ * it silently misses every topic outside whichever system happens to be
+ * listed first. A concept here may carry a topic id with no system id beside
+ * it, so the search has to cover every system itself.
+ */
+function findTopicInCatalog(topicId: string): { tpcId: string; title: string } | null {
+  for (const system of CURRICULUM_CATALOG) {
+    for (const topicNode of system.topics) {
+      if (topicNode.id === topicId || topicNode.tpcId === topicId) {
+        return { tpcId: topicNode.tpcId, title: topicNode.title }
+      }
+    }
+  }
+  return null
+}
+
+/**
+ * A readable name from a raw id nothing in the curriculum catalogue
+ * recognises.
+ *
+ * A student must never see the backend code itself — `SYS_PHARM`, `haem`,
+ * `pharm-pharmacokinetics` — so an id that cannot be resolved through the
+ * catalogue is still turned into words rather than printed verbatim. This is
+ * a fallback, not the normal path: everything currently authored resolves
+ * through `groupForConcept` below.
+ */
+function humanizeCatalogId(id: string): string {
+  const withoutPrefix = id.replace(/^(SYS|TPC|SUB|MIC|NAN)_/, '')
+  const words = withoutPrefix.replace(/[_-]+/g, ' ').trim()
+  if (!words) return 'Other topics'
+  return words
+    .toLowerCase()
+    .split(' ')
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+
+/**
+ * The topic a concept is grouped under, as a name a student can read.
+ *
+ * A concept carries several ids of different granularity — a topic tag, a
+ * topic node id, a system id, a subject id — and the most specific one
+ * present wins, matching the order concepts are actually authored in. Every
+ * one of those ids is a catalogue code (`SYS_PHARM`, `TPC_...`, `haem`), never
+ * a name, so each is resolved through the curriculum catalogue (topic titles,
+ * system names) or the subject list before it reaches the screen. Only an id
+ * the catalogue has never heard of falls through to a humanised guess.
+ */
+function groupForConcept(concept: Concept): { id: string; label: string } {
+  const topicCandidate = concept.topicTagId || concept.topicId
+  if (topicCandidate) {
+    const topic = findTopicInCatalog(topicCandidate)
+    if (topic) return { id: topic.tpcId, label: topic.title }
+  }
+
+  if (concept.systemId) {
+    const system = CURRICULUM_CATALOG.find((s) => s.sysId === concept.systemId || s.id === concept.systemId)
+    if (system) return { id: system.sysId, label: system.name }
+  }
+
+  if (concept.subjectId) {
+    const subject = subjectsById[concept.subjectId]
+    if (subject) return { id: concept.subjectId, label: subject.name }
+  }
+
+  const rawId = concept.topicTagId || concept.topicId || concept.systemId || concept.subjectId || 'ungrouped'
+  return { id: rawId, label: rawId === 'ungrouped' ? 'Other topics' : humanizeCatalogId(rawId) }
+}
 
 export function useAdaptiveConfig() {
   return usePersistentState<AdaptiveConfig>(ADAPTIVE_CONFIG_STORAGE_KEY, defaultAdaptiveConfig)
@@ -96,7 +173,7 @@ export function useResolvedBlueprint(scope: {
 
   return useMemo(() => {
     const moduleIds = moduleKey ? moduleKey.split(',') : undefined
-    const derived = deriveBlueprint({ concepts: graph.concepts, universityId, yearId, moduleIds })
+    const derived = deriveBlueprint({ concepts: graph.concepts, universityId, yearId, moduleIds, groupFor: groupForConcept })
     const stored = blueprintFor(blueprints, { universityId, yearId, moduleIds })
     const nodes = resolveBlueprint(derived, stored)
 

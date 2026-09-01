@@ -30,7 +30,7 @@ import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
 const [input, output] = process.argv.slice(2)
 if (!input || !output) throw new Error('Usage: stage-import-bundle.mjs <live.json> <staged.json>')
 
-const TREE_KEY = 'synapse-taxonomy-tree-v4'
+const TREE_KEY = 'nishany-taxonomy-tree-v4'
 const bundle = JSON.parse(await readFile(input, 'utf8'))
 const live = bundle.states?.[TREE_KEY] ?? []
 

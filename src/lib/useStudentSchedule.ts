@@ -5,7 +5,7 @@ import { useIdentity } from './useIdentity'
 import type { ModuleScheduleStore } from '@/data/moduleSchedule'
 import { flattenSchedule, type ScheduledSession } from './studentSchedule'
 
-export const MODULE_SCHEDULE_STORAGE_KEY = 'synapse-module-schedules-v1'
+export const MODULE_SCHEDULE_STORAGE_KEY = 'nishany-module-schedules-v1'
 
 /** The same timetable for the signed-in student, from their stored audience. */
 export function useStudentSchedule(): { sessions: ScheduledSession[]; hasYear: boolean } {

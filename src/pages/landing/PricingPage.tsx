@@ -37,8 +37,8 @@ export function PricingPage({ content, pricing }: { content: LandingContent; pri
       {
         '@context': 'https://schema.org',
         '@type': 'Product',
-        name: 'Maristana complete membership',
-        brand: { '@type': 'Brand', name: 'Maristana by Connect Academy' },
+        name: 'Nishany complete membership',
+        brand: { '@type': 'Brand', name: 'Nishany by Connect' },
         offers: [
           { '@type': 'Offer', priceCurrency: 'EGP', price: monthPrice, url: `${SITE_ORIGIN}/signup?plan=maristana&period=month` },
           { '@type': 'Offer', priceCurrency: 'EGP', price: termPrice, url: `${SITE_ORIGIN}/signup?plan=maristana&period=term` },

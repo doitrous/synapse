@@ -19,7 +19,7 @@ export interface StorageLimits {
   byPlan: Record<string, number>
 }
 
-export const STORAGE_LIMITS_STORAGE_KEY = 'synapse-storage-limits-v1'
+export const STORAGE_LIMITS_STORAGE_KEY = 'nishany-storage-limits-v1'
 
 export const MEGABYTE = 1024 * 1024
 export const GIGABYTE = 1024 * MEGABYTE

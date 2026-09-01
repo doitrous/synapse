@@ -25,10 +25,10 @@ run the academic calendar, handle payments, and govern access.
 
 ## Product Purpose
 
-Synapse brings the library, question bank, practicals, resources, and schedule
+Nishany brings the library, question bank, practicals, resources, and schedule
 into one calm workspace and answers the student's real daily question — *what
 should I study next?* — using spaced-repetition review, progress signals, and a
-clear plan for the day. Success = the student opens Synapse and knows, within
+clear plan for the day. Success = the student opens Nishany and knows, within
 seconds, what deserves attention today.
 
 ## Positioning
@@ -63,8 +63,8 @@ route falls back to an "on the build plan" placeholder.
 
 ## Brand Commitments
 
-- Name: **Synapse** (the junction where one neuron's signal crosses to the
-  next). A deliberate reference — learning as connection, not a generated tech name.
+- Name: **Nishany** (نيشاني, “my target”) — a deliberate reference to studying
+  toward a goal, not a generated tech name.
 - Voice: precise, calm, clinical; never hype or gamified.
 - Anti-goal, set by the user: avoid "AI slop" — generic AI-dashboard aesthetics.
 

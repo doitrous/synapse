@@ -401,11 +401,27 @@ Good and bad reasons:
 
 ```markdown
 ## field_notes
-resource_occurrence_ids: Hand-authored from the topic blueprint; this concept has no corpus extraction record.
-source_candidate_ids: Searched the corpus for "frank starling" and "starling law" — no candidate record exists.
-modules: No verified live module ID was supplied; curriculum mapping remains explicit and unguessed.
-arabic_label: No standard Arabic term is in undergraduate use in Egypt; students use the English term.
+resourceOccurrenceIds: Hand-authored from the topic blueprint; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "frank starling" and "starling law" — no candidate record exists.
+moduleIds: No verified live module ID was supplied; curriculum mapping remains explicit and unguessed.
+arabicLabel: No standard Arabic term is in undergraduate use in Egypt; students use the English term.
 ```
+
+**The key before the colon must be the exact camelCase field name the audit checks, one
+per line — never the markdown column's `snake_case` spelling, and never two fields
+combined on one line with a slash.** `field_notes` is parsed by splitting each line on
+its first `:` and storing whatever text sits before it, verbatim, as the key
+(`parseFieldNotes` / `noteMap`) — there is no snake_case-to-camelCase conversion step.
+The audit then looks the blank field up by its JS property name: `resourceOccurrenceIds`,
+`sourceCandidateIds`, `moduleIds`, `arabicLabel`, not `resource_occurrence_ids`,
+`source_candidate_ids`, `modules`, `arabic_label`. Write `resource_occurrence_ids: …` and
+the note is saved under the key `resource_occurrence_ids`, which nothing ever reads — the
+audit still reports `resourceOccurrenceIds is blank without an explicit reason`, even
+though a reason is sitting right there under the wrong name. The same failure follows from
+combining two fields on one line (`arabicLabel/arabicAliases: reason`): the stored key is
+the literal string `arabicLabel/arabicAliases`, which matches neither field, so **both**
+come back flagged blank. One camelCase key, one colon, one line, every time — the block
+above is the correct shape, and so is the worked example's `field_notes` block below.
 
 `N/A`, `TODO`, `none`, and silence all fail the audit.
 
@@ -433,7 +449,7 @@ fact, not a piece of a map.
 
    ```bash
    node -e "
-   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-concept-graph-v2'];
+   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-concept-graph-v2'];
    const subj=process.argv[1], by={};
    for(const c of g.concepts) if(c.subjectId===subj) by[c.primaryNodeId||'(none)']=(by[c.primaryNodeId||'(none)']||0)+1;
    for(const [node,n] of Object.entries(by).sort((a,b)=>b[1]-a[1])) console.log(String(n).padStart(4), node);
@@ -452,7 +468,7 @@ fact, not a piece of a map.
 
    ```bash
    node -e "
-   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-concept-graph-v2'];
+   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-concept-graph-v2'];
    const node=process.argv[1];
    for(const c of g.concepts) if((c.primaryNodeId||'').startsWith(node)) console.log(c.id, c.label);
    " SYS-CVS-T01
@@ -725,6 +741,20 @@ npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 npm run medical:validate:authoring
 ```
 
+**`medical:simulate` takes every file as a positional argument and has no `--with`
+flag at all — unlike `medical:batch`, which does.** Its argument parser
+(`scripts/simulate-content-import.mjs`) treats any token immediately after a
+`--something`-shaped argument as that flag's value, so `medical:simulate a.md --with
+b.md --with c.md` — the exact shape `medical:batch --with` trains you to write —
+silently drops `b.md` and every other file introduced by its own `--with`, keeping
+only `a.md`. The run still exits 0 and reports `errors: []`, because the dropped
+files were simply never read, not rejected. List every sibling positionally, in
+import order, with no flag in front of any of them:
+
+```bash
+npm run medical:simulate -- a.md b.md c.md --emit /tmp/sim-$SCOPE.json
+```
+
 - [ ] I searched for the label, every alias, and the obvious synonym
 - [ ] Every `## id` came from `mint-concept-id.mjs`; none was left to the importer's fallback
 - [ ] Every field in *must carry a value* has one
@@ -746,3 +776,6 @@ npm run medical:validate:authoring
 | `X is blank without an explicit reason` | A *may be blank* field is empty with no `field_notes` line |
 | `X absent for <id>` | A *must be present* key is missing entirely — different from being empty |
 | Duplicate concept reaches the graph | You skipped step 1, or searched only the exact label |
+| `resourceOccurrenceIds is blank without an explicit reason` (or any other field) even though `field_notes` names it | The `field_notes` line used the `snake_case` column name or combined two fields with a slash instead of the exact camelCase key — see "Good and bad reasons" above |
+| `medical:simulate` exits 0 and reports `errors: []`, but a file you named after `--with` never applied | `medical:simulate` has no `--with` flag; the token after it was swallowed as that flag's value and silently dropped. Re-run with every file positional |
+| An extracted list value (e.g. an `exam_signal` line or an alias lifted from raw source text) resolves to an ID nothing matches | The extracted text began with a literal `+` — a positive lab value, a dosage increment, a printed `+`-graded sign — and the importer's leading-`+` append directive (see "Append to a list field" above) ate it before the value ever reached the record. Clean the seed/extraction input so real content never starts with `+`; only drop the row if the extraction is genuinely unreadable |

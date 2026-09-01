@@ -57,7 +57,7 @@ export interface Automation {
   note?: string
 }
 
-export const EMAIL_AUTOMATIONS_STORAGE_KEY = 'synapse-email-automations-v1'
+export const EMAIL_AUTOMATIONS_STORAGE_KEY = 'nishany-email-automations-v1'
 
 /** The order categories are rendered in. */
 export const automationCategories: AutomationCategory[] = [
@@ -75,7 +75,7 @@ export const PLACEHOLDERS: Record<string, string> = {
   '{{studentName}}': 'Maya',
   '{{universityName}}': 'Kasr Alainy',
   '{{yearName}}': 'Year 3',
-  '{{actionUrl}}': 'https://synapse.doitrous.com/app',
+  '{{actionUrl}}': 'https://nishany.com/app',
   '{{amount}}': '£69.00',
   '{{planName}}': 'Student — annual',
   '{{date}}': '1 September 2026',
@@ -109,7 +109,7 @@ export function fillAutomation(automation: Automation, values: Record<string, st
 }
 
 /** Where a reader goes to switch a category off. Per-recipient in a real send. */
-export const UNSUBSCRIBE_URL = 'https://synapse.doitrous.com/unsubscribe?token=preview'
+export const UNSUBSCRIBE_URL = 'https://nishany.com/unsubscribe?token=preview'
 
 /**
  * One automation, as the message that goes out.
@@ -153,19 +153,19 @@ export const initialAutomations: Automation[] = [
     audience: 'student',
     subject: 'Confirm your email address',
     preheader: 'One tap confirms your address and finishes setting up your account.',
-    body: `<p>Hello ${'{{studentName}}'},</p><p>Confirm your email address to finish setting up your Maristana account. It takes one tap and you will not be asked again.</p>`,
+    body: `<p>Hello ${'{{studentName}}'},</p><p>Confirm your email address to finish setting up your Nishany account. It takes one tap and you will not be asked again.</p>`,
     action: { label: 'Confirm my email', url: URL },
     note: 'If you did not create an account, no address has been confirmed and you can ignore this message.',
   },
   {
     id: 'au-welcome',
-    name: 'Welcome to Maristana',
+    name: 'Welcome to Nishany',
     description: 'The first email a new student receives once their address is confirmed.',
     trigger: 'Email confirmed',
     enabled: true,
     category: 'Onboarding',
     audience: 'student',
-    subject: 'Welcome to Maristana',
+    subject: 'Welcome to Nishany',
     preheader: 'Your library is ready, organised the way you study rather than the way it was filed.',
     body: `<p>Hello ${'{{studentName}}'},</p><p>Your ${'{{universityName}}'} ${'{{yearName}}'} library is ready. Everything is organised the way you study: by system, by discipline, by clinical skill, or straight from your curriculum.</p>`,
     action: { label: 'Open your library', url: URL },
@@ -237,7 +237,7 @@ export const initialAutomations: Automation[] = [
   /* ---- Collaboration --------------------------------------------------- */
   {
     id: 'au-study-invite',
-    name: 'A Maristana Study Invitation',
+    name: 'A Nishany Study Invitation',
     description: 'Invites a student to a shared Study Together session.',
     trigger: 'Study invite sent',
     enabled: true,
@@ -252,13 +252,13 @@ export const initialAutomations: Automation[] = [
   /* ---- Billing & subscription ------------------------------------------ */
   {
     id: 'au-receipt',
-    name: 'Maristana Payment Receipt',
+    name: 'Nishany Payment Receipt',
     description: 'Receipt for a successful payment.',
     trigger: 'Payment succeeded',
     enabled: true,
     category: 'Billing & subscription',
     audience: 'student',
-    subject: 'Your Maristana receipt',
+    subject: 'Your Nishany receipt',
     preheader: 'Payment received. Your receipt and billing history are below.',
     body: `<p>Hello ${'{{studentName}}'},</p><p>We received ${'{{amount}}'} for ${'{{planName}}'}. Thank you.</p>`,
     action: { label: 'View your billing history', url: URL },
@@ -270,7 +270,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-payment-attention',
-    name: 'Maristana Payment Needs Attention',
+    name: 'Nishany Payment Needs Attention',
     description: 'A payment failed and the student needs to update their method.',
     trigger: 'Payment failed',
     enabled: true,
@@ -288,13 +288,13 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-renewal',
-    name: 'Upcoming Maristana Renewal',
+    name: 'Upcoming Nishany Renewal',
     description: 'Reminder ahead of an automatic renewal.',
     trigger: '3 days to renewal',
     enabled: true,
     category: 'Billing & subscription',
     audience: 'student',
-    subject: `Your Maristana plan renews on ${'{{date}}'}`,
+    subject: `Your Nishany plan renews on ${'{{date}}'}`,
     preheader: 'Your plan renews automatically. No action is needed to continue.',
     body: `<p>Hello ${'{{studentName}}'},</p><p>${'{{planName}}'} renews on ${'{{date}}'} at ${'{{amount}}'}. No action is needed to continue.</p>`,
     action: { label: 'Manage your plan', url: URL },
@@ -306,7 +306,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-trial-ending',
-    name: 'Your Maristana Trial is Ending',
+    name: 'Your Nishany Trial is Ending',
     description: 'Reminder that a free trial is about to end.',
     trigger: '2 days to trial end',
     enabled: true,
@@ -320,13 +320,13 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-sub-cancelled',
-    name: 'Maristana Subscription cancelled',
+    name: 'Nishany Subscription cancelled',
     description: 'Confirms a subscription has been cancelled.',
     trigger: 'Subscription cancelled',
     enabled: true,
     category: 'Billing & subscription',
     audience: 'student',
-    subject: 'Your Maristana subscription is cancelled',
+    subject: 'Your Nishany subscription is cancelled',
     preheader: 'Cancelled and will not renew. Your access continues until the date below.',
     // No action: a cancellation confirmation that pitches is a cancellation
     // confirmation the reader does not trust.
@@ -341,7 +341,7 @@ export const initialAutomations: Automation[] = [
   // should not sit in the list looking active.
   {
     id: 'au-grace',
-    name: 'Your Maristana Grace Period Started',
+    name: 'Your Nishany Grace Period Started',
     description: 'A failed payment has entered its grace period before access is limited.',
     trigger: 'Grace period started',
     enabled: false,
@@ -358,7 +358,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-refund',
-    name: 'Maristana Refund Update',
+    name: 'Nishany Refund Update',
     description: 'Status update on a requested refund.',
     trigger: 'Refund processed',
     enabled: false,
@@ -402,7 +402,7 @@ export const initialAutomations: Automation[] = [
     enabled: true,
     category: 'Security & account',
     audience: 'student',
-    subject: 'Reset your Maristana password',
+    subject: 'Reset your Nishany password',
     preheader: 'Choose a new password. The link expires one hour after it was sent.',
     body: `<p>Hello ${'{{studentName}}'},</p><p>Use the button below to choose a new password. It expires in one hour, and it works once.</p>`,
     action: { label: 'Reset my password', url: URL },
@@ -410,7 +410,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-new-signin',
-    name: 'New Maristana Sign-In from a New Device',
+    name: 'New Nishany Sign-In from a New Device',
     description: 'Alerts on a sign-in from an unrecognised device.',
     trigger: 'New device sign-in',
     enabled: true,
@@ -456,7 +456,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-security-changed',
-    name: 'Your Maristana Security Changed',
+    name: 'Your Nishany Security Changed',
     description: 'Confirms a change to account security settings.',
     trigger: 'Security setting changed',
     enabled: true,
@@ -474,7 +474,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-support',
-    name: 'Maristana Support Update',
+    name: 'Nishany Support Update',
     description: 'Update on a support ticket the student raised.',
     trigger: 'Support ticket updated',
     // Student-facing, so it belongs with the student's own account mail rather
@@ -491,7 +491,7 @@ export const initialAutomations: Automation[] = [
   /* ---- Privacy & data --------------------------------------------------- */
   {
     id: 'au-export',
-    name: 'Your Maristana Export is Ready',
+    name: 'Your Nishany Export is Ready',
     description: 'A requested data export is ready to download.',
     trigger: 'Export completed',
     enabled: true,
@@ -499,13 +499,13 @@ export const initialAutomations: Automation[] = [
     audience: 'student',
     subject: 'Your data export is ready',
     preheader: 'The export you asked for is ready. The download link works for seven days.',
-    body: `<p>Hello ${'{{studentName}}'},</p><p>The export you asked for is ready. It contains everything held on your account, in a format you can open without Maristana.</p>`,
+    body: `<p>Hello ${'{{studentName}}'},</p><p>The export you asked for is ready. It contains everything held on your account, in a format you can open without Nishany.</p>`,
     action: { label: 'Download my data', url: URL },
     note: 'The link works for seven days, after which you can request the export again at any time.',
   },
   {
     id: 'au-privacy',
-    name: 'Maristana Privacy Request Update',
+    name: 'Nishany Privacy Request Update',
     description: 'Update on a privacy or data request (access, deletion).',
     trigger: 'Privacy request updated',
     enabled: true,
@@ -520,7 +520,7 @@ export const initialAutomations: Automation[] = [
   /* ---- Operations (admin-facing) ---------------------------------------- */
   {
     id: 'au-review-assigned',
-    name: 'A Maristana Review is Assigned',
+    name: 'A Nishany Review is Assigned',
     description: 'Assigns a content review task to a reviewer.',
     trigger: 'Review assigned',
     enabled: true,
@@ -537,7 +537,7 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-incident',
-    name: 'Maristana Operational Incident',
+    name: 'Nishany Operational Incident',
     description: 'Alerts admins to an operational incident.',
     trigger: 'Incident opened',
     enabled: true,
@@ -550,15 +550,15 @@ export const initialAutomations: Automation[] = [
   },
   {
     id: 'au-provider-outage',
-    name: 'Maristana Provider Outage',
+    name: 'Nishany Provider Outage',
     description: 'Notifies of a third-party provider outage affecting service.',
     trigger: 'Provider outage',
     enabled: true,
     category: 'Operations',
     audience: 'admin',
     subject: 'Third-party provider outage',
-    preheader: 'A provider outage is affecting Maristana. Status is below.',
-    body: `<p>A provider outage is affecting Maristana. Students may see failures in whatever depends on it until the provider recovers.</p>`,
+    preheader: 'A provider outage is affecting Nishany. Status is below.',
+    body: `<p>A provider outage is affecting Nishany. Students may see failures in whatever depends on it until the provider recovers.</p>`,
     action: { label: 'View status', url: URL },
   },
 ]

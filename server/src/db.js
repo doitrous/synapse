@@ -166,9 +166,9 @@ export async function migrate() {
     const [applied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [migrationId])
     if (!applied.length) {
       const cleanDocuments = new Map([
-        ['synapse-academic-universities-v1', '[]'],
-        ['synapse-course-curricula-v1', '{}'],
-        ['synapse-module-schedules-v1', '{}'],
+        ['nishany-academic-universities-v1', '[]'],
+        ['nishany-course-curricula-v1', '{}'],
+        ['nishany-module-schedules-v1', '{}'],
       ])
       await conn.beginTransaction()
       try {
@@ -201,7 +201,7 @@ export async function migrate() {
       try {
         await conn.query(
           'DELETE FROM app_state WHERE k IN (?, ?)',
-          ['synapse-concept-mastery-v1', 'synapse-qbank-question-notes-v1'],
+          ['nishany-concept-mastery-v1', 'nishany-qbank-question-notes-v1'],
         )
         await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [orphanId])
         await conn.commit()
@@ -224,7 +224,7 @@ export async function migrate() {
       try {
         await conn.query(
           'DELETE FROM app_state WHERE k IN (?, ?)',
-          ['synapse-onboarding-v1', 'synapse.myDocuments.v1'],
+          ['nishany-onboarding-v1', 'nishany.myDocuments.v1'],
         )
         await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [misroutedId])
         await conn.commit()
@@ -253,6 +253,184 @@ export async function migrate() {
         await conn.rollback()
         throw error
       }
+    }
+
+    // The platform rebranded to Nishany. Every persisted document used to be
+    // addressed with a `synapse…` key; the app and server now use `nishany…`.
+    // Rename the stored rows once so the row and the code agree — across
+    // app_state and user_state AND both of their version histories, renamed
+    // together so the merge-base invariant (app_state.k equals its newest
+    // version row's k) is preserved and no client is handed a phantom conflict.
+    // A browser still on the pre-rebrand bundle is handled separately, by
+    // canonicalStateKey mapping its `synapse…` request forward to the renamed
+    // row. Marker-guarded, so the (one-time, potentially large) rewrite runs at
+    // exactly the boot that ships this build. IGNORE skips the impossible case
+    // of a row already present under the new key, keeping the newer one.
+    const stateKeyRebrandId = '2026-09-01-rename-state-keys-to-nishany'
+    const [stateKeyRebrandApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [stateKeyRebrandId])
+    if (!stateKeyRebrandApplied.length) {
+      await conn.beginTransaction()
+      try {
+        for (const table of ['app_state', 'app_state_versions', 'user_state', 'user_state_versions']) {
+          await conn.query(
+            `UPDATE IGNORE ${table} SET k = CONCAT('nishany', SUBSTRING(k, 8))
+               WHERE k LIKE 'synapse-%' OR k LIKE 'synapse.%' OR k LIKE 'synapse:%'`,
+          )
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [stateKeyRebrandId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
+    // The rebrand also reached INSIDE document values, not just their keys: the
+    // media/document reference scheme embedded in saved content (`synapse-doc:` /
+    // `synapse-media:`), and the sender addresses, brand words and links stored
+    // in the email-automations document. Fix that data once. The reference
+    // tokens are colon-suffixed and unambiguous, so a blunt REPLACE is safe even
+    // across medical prose; the brand-word rewrite is scoped to the automations
+    // document, which never holds clinical text, so "Synapse" there is only ever
+    // the retired name. The read paths still accept the old prefixes, so this
+    // pass is a purge, not a correctness dependency.
+    const contentRebrandId = '2026-09-01-rebrand-content-refs-and-email-data'
+    const [contentRebrandApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [contentRebrandId])
+    if (!contentRebrandApplied.length) {
+      await conn.beginTransaction()
+      try {
+        for (const table of ['app_state', 'user_state']) {
+          await conn.query(
+            `UPDATE ${table} SET v = REPLACE(REPLACE(v, 'synapse-doc:', 'nishany-doc:'), 'synapse-media:', 'nishany-media:')
+               WHERE v LIKE '%synapse-doc:%' OR v LIKE '%synapse-media:%'`,
+          )
+        }
+        await conn.query(
+          `UPDATE app_state SET v = REPLACE(REPLACE(REPLACE(v,
+               'synapse@mail.doitrous.com', 'info@nishany.com'),
+               'no-reply@synapse.app', 'info@nishany.com'),
+               '@mail.doitrous.com', '@nishany.com')
+             WHERE v LIKE '%mail.doitrous.com%' OR v LIKE '%synapse.app%'`,
+        )
+        await conn.query(
+          `UPDATE app_state SET v = REPLACE(REPLACE(REPLACE(v,
+               'Connect Cortex', 'Nishany'),
+               'synapse.doitrous.com', 'nishany.com'),
+               'Synapse', 'Nishany')
+             WHERE k = 'nishany-email-automations-v1'`,
+        )
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [contentRebrandId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
+    // The mail addresses the platform sends from and receives at, on the new
+    // domain. Seeded so a fresh or rebranded install has the standard set;
+    // INSERT IGNORE leaves any address the admin already created untouched.
+    const mailboxSeedId = '2026-09-01-seed-nishany-mailboxes'
+    const [mailboxSeedApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [mailboxSeedId])
+    if (!mailboxSeedApplied.length) {
+      const defaultMailboxes = [
+        ['info@nishany.com', 'Info'],
+        ['admin@nishany.com', 'Admin'],
+        ['help@nishany.com', 'Help'],
+        ['reviewer@nishany.com', 'Reviewer'],
+        ['editor@nishany.com', 'Editor'],
+        ['superadmin@nishany.com', 'Super admin'],
+      ]
+      await conn.beginTransaction()
+      try {
+        for (const [address, label] of defaultMailboxes) {
+          await conn.query('INSERT IGNORE INTO mailboxes (address, label) VALUES (?, ?)', [address, label])
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [mailboxSeedId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
+    // Publishing an imported content item silently reverted to unpublished. The
+    // server rebuilds every client's optimistic-merge base from the newest
+    // app_state_versions row, which must equal app_state. An earlier import
+    // script recorded the PRE-import ledger in that row while app_state received
+    // the POST-import ledger, so each client merged its next edit against a
+    // document that predated the import — and publishing an imported item came
+    // back a phantom conflict and was reverted in the browser.
+    //
+    // Heal it once: for each shared, mergeable document whose newest version row
+    // disagrees with app_state, append a version row equal to app_state. This is
+    // append-only — app_state itself, what students and admins see, is never
+    // touched — and marker-guarded so it runs exactly once, at the boot that
+    // ships this build. See server/src/stateMerge.test.js and the standalone
+    // scripts/repair-content-version-baseline.mjs (same logic, for other DBs).
+    const versionBaselineId = '2026-08-27-repair-content-version-baseline'
+    const [versionBaselineApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [versionBaselineId])
+    if (!versionBaselineApplied.length) {
+      const sharedKeys = [
+        'nishany-admin-content-ledger-v4',
+        'nishany-concept-graph-v2',
+        'nishany-medical-evidence-v1',
+        'nishany-minigame-packs-v1',
+        'nishany-library-trees-v1',
+        'nishany-academic-universities-v1',
+        'nishany-media-library-v1',
+      ]
+      // Compare by structure, not by byte, so a re-serialisation is not "drift".
+      const canonical = (raw) => {
+        if (raw == null) return null
+        try { return JSON.stringify(JSON.parse(raw)) } catch { return raw }
+      }
+      await conn.beginTransaction()
+      try {
+        for (const key of sharedKeys) {
+          const [stateRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+          if (!stateRows.length) continue
+          const current = stateRows[0].v
+          const [versionRows] = await conn.query(
+            'SELECT v FROM app_state_versions WHERE k = ? ORDER BY id DESC LIMIT 1',
+            [key],
+          )
+          if (versionRows.length && canonical(versionRows[0].v) === canonical(current)) continue
+          await conn.query(
+            'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+            [key, current, `migration:${versionBaselineId}`],
+          )
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [versionBaselineId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
+    // QotD reminders: device_tokens gains web-push subscription columns and a
+    // wider platform enum. Guarded by lookups so a DB that already has them boots.
+    const [platformCol] = await conn.query(
+      `SELECT COLUMN_TYPE AS type FROM information_schema.columns
+        WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = 'platform'`,
+    )
+    if (platformCol.length && !platformCol[0].type.includes("'web'")) {
+      await conn.query(
+        "ALTER TABLE device_tokens MODIFY COLUMN platform ENUM('ios','android','web') NOT NULL DEFAULT 'ios'",
+      )
+    }
+    for (const [column, definition] of [
+      ['web_endpoint', 'TEXT NULL'],
+      ['web_p256dh', 'VARCHAR(255) NULL'],
+      ['web_auth', 'VARCHAR(255) NULL'],
+    ]) {
+      const [found] = await conn.query(
+        `SELECT 1 FROM information_schema.columns
+          WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = ?`,
+        [column],
+      )
+      if (!found.length) await conn.query(`ALTER TABLE device_tokens ADD COLUMN ${column} ${definition}`)
     }
   } finally {
     conn.release()

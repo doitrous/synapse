@@ -9,7 +9,7 @@
  * No database and no Express, so the rule is testable on its own.
  */
 
-export const LIBRARY_TREES_STATE_KEY = 'synapse-library-trees-v1'
+export const LIBRARY_TREES_STATE_KEY = 'nishany-library-trees-v1'
 
 const KINDS = ['module', 'year']
 

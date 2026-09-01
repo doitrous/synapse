@@ -347,7 +347,7 @@ Its comment already explains why a student-ticked item is recorded with `correct
 
 - [ ] **Step 3: Write the store**
 
-`src/lib/useEssayAnswers.ts` over `usePersistentState` on `synapse.essay.answers.v1`:
+`src/lib/useEssayAnswers.ts` over `usePersistentState` on `nishany.essay.answers.v1`:
 
 ```ts
 export interface EssayAnswer {

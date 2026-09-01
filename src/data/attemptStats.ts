@@ -1,6 +1,7 @@
 import type { AttemptRecord, AttemptSurface } from './attempts'
 import type { Difficulty } from './qbank'
 import { paceBand, type PaceBand } from './qbankSession.ts'
+import { bucketOf, type SourceBucket } from './questionSource.ts'
 
 /**
  * Every number the student sees about their own work, derived here.
@@ -73,6 +74,16 @@ export function bySubtopic(records: AttemptRecord[]): Breakdown<string>[] {
 
 export function byDifficulty(records: AttemptRecord[]): Breakdown<Difficulty>[] {
   return group(records, (record) => record.difficulty)
+}
+
+/**
+ * Attempts grouped by MCQ source bucket — same shape as `byDifficulty`. Marked
+ * vs unmarked answers are handled by `group`, exactly as every sibling
+ * breakdown. For a future per-source accuracy view; the coverage panel does not
+ * use this.
+ */
+export function bySource(records: AttemptRecord[]): Breakdown<SourceBucket>[] {
+  return group(records, (record) => bucketOf(record.source))
 }
 
 export function bySurface(records: AttemptRecord[]): Breakdown<string>[] {

@@ -123,7 +123,7 @@ export function StudyAssistant() {
             {turns.length === 0 && (
               <div>
                 <p className="text-[13px] leading-relaxed text-ink-2">
-                  {t('Ask about anything you are studying, or about how Maristana works.')}
+                  {t('Ask about anything you are studying, or about how Nishany works.')}
                 </p>
                 <div className="mt-3 grid gap-2">
                   {suggestions.map((suggestion) => (

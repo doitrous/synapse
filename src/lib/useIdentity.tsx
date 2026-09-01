@@ -187,7 +187,7 @@ function nameFor(profile: IdentityProfile | null, metadataName: string | null, e
  * The self-contained demo build has no server to hold it, so it keeps the
  * answer here. That path is unreachable whenever `API_MODE` is true.
  */
-export const SELF_AUDIENCE_STORAGE_KEY = 'synapse.account.audience.v1'
+export const SELF_AUDIENCE_STORAGE_KEY = 'nishany.account.audience.v1'
 
 export interface SelfDeclaredAudience {
   universityId: string
@@ -327,7 +327,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
    * Carry an enrolment forward from where it used to be kept.
    *
    * Before the server held this, onboarding wrote the university and year to
-   * `synapse.account.audience.v1` — a per-account document, so it is genuinely
+   * `nishany.account.audience.v1` — a per-account document, so it is genuinely
    * this student's answer and not a guess. Every student who signed up before
    * the change has one and has no roster row, and without this they would be
    * shown the onboarding screen again and asked to answer a question they

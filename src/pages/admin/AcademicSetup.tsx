@@ -4,6 +4,7 @@ import type { CurriculumCourse, University } from '@/data/universities'
 import { newUniversityYears, defaultModuleId, universityYearId } from '@/data/universities'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { Badge } from '@/components/ui/Badge'
 import { Button, ButtonLink } from '@/components/ui/Button'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -19,7 +20,7 @@ import { ModuleScheduleDialog } from '@/components/admin/ModuleScheduleDialog'
 import { ModuleEditDialog, type ModuleEditDraft } from '@/components/admin/ModuleEditDialog'
 import { ModuleSubjectsDialog } from '@/components/admin/ModuleSubjectsDialog'
 import { AcademicImportDialog } from '@/components/admin/AcademicImportDialog'
-import type { ModuleScheduleStore } from '@/data/moduleSchedule'
+import { isSchedulePublished, withSchedulePublished, type ModuleScheduleStore } from '@/data/moduleSchedule'
 import {
   DEFAULT_TERM, MODULE_SUBJECTS_STORAGE_KEY, mergeCurricula, moduleKey, moduleTotal, termsOf,
   type ModuleSubject, type ModuleSubjectStore,
@@ -49,7 +50,7 @@ export function AcademicSetup() {
   const [contentItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [conceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [curricula, setCurricula, curriculaStatus] = usePersistentState<Record<string, CourseCurriculumSelection>>(COURSE_CURRICULA_STORAGE_KEY, {})
-  const [schedules, setSchedules, scheduleStatus] = usePersistentState<ModuleScheduleStore>('synapse-module-schedules-v1', {})
+  const [schedules, setSchedules, scheduleStatus] = usePersistentState<ModuleScheduleStore>('nishany-module-schedules-v1', {})
   const [subjects, setSubjects, subjectStatus] = usePersistentState<ModuleSubjectStore>(MODULE_SUBJECTS_STORAGE_KEY, {})
   const [selectedId, setSelectedId] = useState(unis[0]?.id ?? '')
   const [addingUni, setAddingUni] = useState(false)
@@ -524,6 +525,7 @@ export function AcademicSetup() {
                         const chosen = moduleSubjects.reduce((sum, subject) => sum + curriculumCount(subject.curriculum), 0)
                         const marks = moduleTotal(moduleSubjects)
                         const scheduleCount = schedules[key]?.length ?? 0
+                        const schedulePublished = isSchedulePublished(schedules, key)
                         const fallbackModuleId = c.moduleId ?? defaultModuleId(c.name, y.courses.indexOf(c) + 1)
                         return (
                           <li key={c.id} className="group flex min-w-0 flex-wrap items-center gap-x-2.5 gap-y-2 px-4 py-3 2xl:flex-nowrap">
@@ -538,6 +540,9 @@ export function AcademicSetup() {
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={SlidersHorizontal} onClick={() => setCurriculumEditor(target)}>Curriculum{chosen > 0 ? ` · ${chosen}` : ''}</Button>
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={Scale} onClick={() => setMarksEditor(target)}>Marks &amp; exams{marks > 0 ? ` · ${marks}` : ''}</Button>
                             <Button className="flex-1 sm:flex-none" variant="secondary" size="sm" iconLeft={CalendarDays} onClick={() => setScheduleEditor(target)}>Schedule{scheduleCount > 0 ? ` · ${scheduleCount}` : ''}</Button>
+                            {scheduleCount > 0 && (
+                              <Badge tone={schedulePublished ? 'success' : 'warning'} dot>{schedulePublished ? 'Published' : 'Unpublished'}</Badge>
+                            )}
                             <button onClick={() => setModuleEditor(target)} className="grid size-10 shrink-0 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label={`Edit ${c.name}`}><Icon icon={Pencil} size={15} /></button>
                             <button onClick={() => removeCourse(i, c.id)} className="grid size-11 shrink-0 place-items-center rounded-lg text-ink-3 transition-opacity hover:bg-danger-tint hover:text-danger sm:size-10 sm:opacity-0 sm:focus:opacity-100 sm:group-hover:opacity-100" aria-label={`Remove ${c.name}`}><Icon icon={Trash2} size={15} /></button>
                           </li>
@@ -598,8 +603,10 @@ export function AcademicSetup() {
           items={contentItems}
           curriculum={mergeCurricula(subjects[scheduleEditor.key] ?? [])}
           value={schedules[scheduleEditor.key] ?? []}
+          published={isSchedulePublished(schedules, scheduleEditor.key)}
           onClose={() => setScheduleEditor(null)}
           onChange={(value) => setSchedules((current) => ({ ...current, [scheduleEditor.key]: value }))}
+          onPublishChange={(published) => setSchedules((current) => withSchedulePublished(current, scheduleEditor.key, published))}
         />
       )}
       <AcademicImportDialog

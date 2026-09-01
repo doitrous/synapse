@@ -18,7 +18,7 @@
 - **Tested modules import relatively with an explicit `.ts` extension** (`./qbankScope.ts`), because `node --test` cannot resolve the `@/` Vite alias. Untested modules and components use `@/`.
 - **Every student-facing string goes through `useT()`** — `t('Some text')`. The codebase is bilingual with full RTL.
 - **Use logical CSS properties** (`ps-`/`pe-`/`start-`/`end-`, never `pl-`/`pr-`/`left-`/`right-`) — the app runs RTL.
-- **Storage keys for student-owned state must start with `synapse.qbank.`** so `isUserOwnedState` routes them to the student's own record. Do not edit `src/lib/stateOwnership.ts` — the existing `/^synapse\.qbank\./` pattern already covers this plan's key.
+- **Storage keys for student-owned state must start with `nishany.qbank.`** so `isUserOwnedState` routes them to the student's own record. Do not edit `src/lib/stateOwnership.ts` — the existing `/^synapse\.qbank\./` pattern already covers this plan's key.
 - **Prune bound is 600 sittings**, exported as `MAX_STORED_SITTINGS`.
 - **Comments explain why, not what.** This codebase's comments state the problem the code solves. Match that; do not narrate the code.
 - **Commit after each task** with a message in the repo's voice — a plain sentence about what a person can now do, not a Conventional Commit prefix. See `git log` for the register.
@@ -447,7 +447,7 @@ import { createContext, useContext, useMemo, useState, type ReactNode } from 're
  * A surface asking for the chrome to get out of the way, for as long as it is
  * running.
  *
- * Deliberately not the stored `synapse.shell.sidebarCollapsed` preference: that
+ * Deliberately not the stored `nishany.shell.sidebarCollapsed` preference: that
  * belongs to the student, and sitting one test should not quietly change how
  * their app looks afterwards. This is a request that lasts as long as the
  * surface making it, and the preference is what the shell falls back to the
@@ -569,7 +569,7 @@ git commit -m "Give a running test the width, and give the menu back afterwards"
 - Consumes: `pruneManifests` and the `SessionManifests` type from Task 1. Not `MAX_STORED_SITTINGS` — it is the default parameter of `pruneManifests`, and importing it unused would fail `noUnusedLocals`.
 - Produces:
   - `useRecordAttempts(): (inputs: Array<Omit<AttemptRecord, 'id' | 'at'>>) => void` from `@/lib/useAttemptLog`
-  - Inside `QuestionBank`: `SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'`, `setSessionQuestions` (the setter alone — see Step 2), `beginSession(picked: Question[], id: string)`, `attemptFor(...)`, and `commitAnswers(): void`. Tasks 5, 8 and 9 all call these.
+  - Inside `QuestionBank`: `SESSION_QUESTIONS_STORAGE_KEY = 'nishany.qbank.sessionQuestions.v1'`, `setSessionQuestions` (the setter alone — see Step 2), `beginSession(picked: Question[], id: string)`, `attemptFor(...)`, and `commitAnswers(): void`. Tasks 5, 8 and 9 all call these.
 
 **Two defects are fixed here**, both because this task's feature cannot work around them:
 
@@ -634,7 +634,7 @@ Beside `SESSION_NAMES_STORAGE_KEY`, add:
  * other half of the pair: with both, "served but never attempted" is a fact
  * rather than a guess.
  */
-const SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'
+const SESSION_QUESTIONS_STORAGE_KEY = 'nishany.qbank.sessionQuestions.v1'
 ```
 
 Inside the component, beside `savedNames`:

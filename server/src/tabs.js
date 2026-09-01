@@ -14,76 +14,85 @@
 
 import { rank } from './roles.js'
 
-export const ROLE_TABS_STATE_KEY = 'synapse-role-tabs-v1'
+export const ROLE_TABS_STATE_KEY = 'nishany-role-tabs-v1'
 
 export const ADMIN_TABS = [
   { id: 'dashboard', to: '/admin', group: 'Overview', stateKeys: [], apiPrefixes: ['/api/admin/platform'] },
 
   { id: 'taxonomy', to: '/admin/taxonomy', group: 'Content',
-    stateKeys: ['synapse-taxonomy-tree-v4', 'synapse-medical-library-taxonomy-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-taxonomy-tree-v4', 'nishany-medical-library-taxonomy-v1'], apiPrefixes: [] },
   { id: 'glossary', to: '/admin/glossary', group: 'Content',
-    stateKeys: ['synapse-medical-glossary-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-medical-glossary-v1'], apiPrefixes: [] },
   { id: 'academic', to: '/admin/academic', group: 'Content',
-    stateKeys: ['synapse-academic-universities-v1', 'synapse-course-curricula-v1', 'synapse-module-schedules-v1', 'synapse-module-subjects-v1', 'synapse-assessment-schemes-v1', 'synapse-academic-source-provenance-v1'],
+    stateKeys: ['nishany-academic-universities-v1', 'nishany-course-curricula-v1', 'nishany-module-schedules-v1', 'nishany-module-subjects-v1', 'nishany-assessment-schemes-v1', 'nishany-academic-source-provenance-v1'],
     apiPrefixes: [] },
   { id: 'marks', to: '/admin/academic/marks', group: 'Content',
-    stateKeys: ['synapse-module-subjects-v1', 'synapse-assessment-schemes-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-module-subjects-v1', 'nishany-assessment-schemes-v1'], apiPrefixes: [] },
   { id: 'library', to: '/admin/library', group: 'Content',
     stateKeys: [
-      'synapse-admin-content-ledger-v4',
-      'synapse-medical-evidence-v1',
-      'synapse-medical-evidence-published-v1',
-      'synapse-import-journal-v1',
-      'synapse-library-trees-v1',
+      'nishany-admin-content-ledger-v4',
+      'nishany-medical-evidence-v1',
+      'nishany-medical-evidence-published-v1',
+      'nishany-import-journal-v1',
+      'nishany-library-trees-v1',
     ],
     apiPrefixes: ['/api/medical-library/coverage'] },
   { id: 'questions', to: '/admin/questions', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'adaptive', to: '/admin/adaptive', group: 'Content',
-    stateKeys: ['synapse-adaptive-config-v1', 'synapse-adaptive-blueprints-v1', 'synapse-adaptive-heldout-v1'],
+    stateKeys: ['nishany-adaptive-config-v1', 'nishany-adaptive-blueprints-v1', 'nishany-adaptive-heldout-v1'],
     apiPrefixes: [] },
   { id: 'practical', to: '/admin/practical', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-minigame-packs-v1', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-minigame-packs-v1', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'flashcards', to: '/admin/flashcards', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'written', to: '/admin/written', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'histology', to: '/admin/histology', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'concepts', to: '/admin/concepts', group: 'Content',
-    stateKeys: ['synapse-concept-graph-v2', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-concept-graph-v2', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'relationships', to: '/admin/relationships', group: 'Content',
-    stateKeys: ['synapse-concept-graph-v2', 'synapse-relation-types-v1', 'synapse-import-journal-v1'],
+    stateKeys: ['nishany-concept-graph-v2', 'nishany-relation-types-v1', 'nishany-import-journal-v1'],
     apiPrefixes: [] },
   { id: 'resources', to: '/admin/resources', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'],
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-media-library-v1'],
     apiPrefixes: ['/api/medical-resources', '/api/media'] },
   { id: 'media', to: '/admin/library/media', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-media-library-v1'], apiPrefixes: ['/api/media'] },
+  { id: 'escalations', to: '/admin/escalations', group: 'Content',
+    // A view onto media requests a reviewer has escalated. It owns no document of
+    // its own: returning, reassigning or resolving an escalation is a media-request
+    // edit on the content ledger, already governed by the owner tabs an editor
+    // holds and by the rank check in authoriseChanges. The tab is what keeps the
+    // queue out of a reviewer's and an admin's reach.
+    stateKeys: [], apiPrefixes: [] },
   { id: 'reports', to: '/admin/reports', group: 'Content',
-    stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-content-reports-v1'], apiPrefixes: [] },
+  { id: 'tutorial', to: '/admin/tutorial', group: 'Content',
+    stateKeys: ['nishany-tutorial-videos-v1'], apiPrefixes: [] },
 
   { id: 'email', to: '/admin/email', group: 'Operations',
-    stateKeys: ['synapse-email-automations-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-email-automations-v1'], apiPrefixes: [] },
   { id: 'mailbox', to: '/admin/mailbox', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/mail', '/api/mailboxes'] },
   { id: 'notifications', to: '/admin/notifications', group: 'Operations',
-    stateKeys: ['synapse-notification-campaigns-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-notification-campaigns-v1'], apiPrefixes: [] },
   { id: 'users', to: '/admin/users', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/admin/enrollment-change-requests'] },
   { id: 'students', to: '/admin/students', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/students'] },
   { id: 'payments', to: '/admin/payments', group: 'Operations',
-    stateKeys: ['synapse-plans-v1', 'synapse-plan-catalog-v1', 'synapse-student-id-discount-v1'],
+    stateKeys: ['nishany-plans-v1', 'nishany-plan-catalog-v1', 'nishany-student-id-discount-v1'],
     apiPrefixes: ['/api/admin/pricing'] },
   { id: 'vouchers', to: '/admin/vouchers', group: 'Operations',
-    stateKeys: ['synapse-vouchers-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-vouchers-v1'], apiPrefixes: [] },
   { id: 'assistant', to: '/admin/assistant', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/admin/assistant'] },
   { id: 'privacy', to: '/admin/privacy', group: 'Operations', stateKeys: [], apiPrefixes: [] },
 
   { id: 'settings', to: '/admin/settings', group: 'Governance', superAdminOnly: true,
-    stateKeys: ['synapse-storage-limits-v1', 'synapse-system-colors-v1', 'synapse-maristana-config-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-storage-limits-v1', 'nishany-system-colors-v1', 'nishany-maristana-config-v1'], apiPrefixes: [] },
   { id: 'audit', to: '/admin/audit', group: 'Governance', superAdminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/backups', '/api/launch'] },
   { id: 'access', to: '/admin/access', group: 'Governance', superAdminOnly: true,
@@ -100,7 +109,15 @@ export const DEFAULT_ROLE_TABS = {
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
   ],
-  reviewer: ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'],
+  // A reviewer holds exactly two surfaces: Media Requests, where they supply and
+  // escalate teaching media, and Content Reports, where they raise problems. Both
+  // are review actions, neither authors or destroys content. Everything a reviewer
+  // used to hold — Library, Questions, Practical, Flashcards, Written, Histology,
+  // Concepts, Resources — is editing power that is not theirs, so it is gone from
+  // the default and, because a hidden tab is a document they cannot write, gone as
+  // a capability too. `media` sorts before `reports` in the registry, so `/admin`
+  // lands a reviewer on Media Requests.
+  reviewer: ['media', 'reports'],
 }
 
 /**

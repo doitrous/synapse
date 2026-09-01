@@ -29,7 +29,7 @@ struct SignedInView: View {
             } else if let failure {
                 EmptyStateView(
                     symbol: "exclamationmark.triangle",
-                    title: "Connect Cortex could not start",
+                    title: "Nishany could not start",
                     detail: failure
                 )
             } else {
@@ -57,6 +57,15 @@ struct SignedInView: View {
             // before drawing itself.
             await assistant.loadStatus()
         }
+        // A tapped daily reminder brings the Today tab forward; DashboardView
+        // hosts the Question of the Day card and sheet, so it consumes the
+        // "/app/qotd" route and opens the screen. Any other route is handled
+        // (and consumed) here.
+        .onChange(of: PushRegistrar.shared.pendingRoute) { _, route in
+            guard let route else { return }
+            tab = .today
+            if route != "/app/qotd" { _ = PushRegistrar.shared.consumePendingRoute() }
+        }
     }
 
     /// Five tabs, deliberately.
@@ -72,7 +81,8 @@ struct SignedInView: View {
             Tab(strings("Today"), systemImage: "sun.max", value: Destination.today) {
                 DashboardView(
                     store: container.store, sync: container.sync,
-                    user: user, auth: auth, audienceStore: container.audienceStore
+                    user: user, auth: auth, audienceStore: container.audienceStore,
+                    openTab: { tab = $0 }
                 )
             }
             Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
@@ -115,7 +125,7 @@ struct SignedInView: View {
             // which then refreshes through the ordinary path. Set before the
             // first refresh so a nudge arriving during it is not dropped.
             PushRegistrar.shared.onNudge = { [weak sync] in await sync?.refresh() }
-            PushRegistrar.shared.start(api: auth.api)
+            await PushRegistrar.shared.start(api: auth.api)
 
             await sync.refresh()
             // After the sync: resolving the cohort needs the universities

@@ -23,7 +23,7 @@ import { voucherDiscount, voucherEligibility, voucherTrialDays, isTrialVoucher, 
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 
 /** Who to write to about a plan, since nobody can change one from this screen. */
-const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
+const SUPPORT_ADDRESS = 'help@nishany.com'
 
 const STATE_TONE: Record<Entitlement['state'], 'success' | 'primary' | 'warning' | 'neutral'> = {
   active: 'success',
@@ -141,7 +141,7 @@ export function Billing() {
 
   return (
     <PageContainer>
-      <PageHeader title={t('Billing')} description={t('Your plan and any voucher applied to it.')} />
+      <PageHeader title={t('Billing')} description={t('Your plan and any voucher applied to it.')} back={{ fallback: '/app' }} />
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.4fr)_minmax(16rem,0.6fr)]">
         <Panel>

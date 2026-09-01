@@ -369,7 +369,7 @@ enum StudySchedule {
         case .weakness: return "Repeated evidence points to gaps here.\(scope)"
         case .coverage: return "These blueprint areas have had little or no practice.\(scope)"
         case .review: return "Scheduled before this is likely to fade.\(scope)"
-        case .uncertainty: return "Nothing yet measures these, so a short check tells Connect Cortex where you stand.\(scope)"
+        case .uncertainty: return "Nothing yet measures these, so a short check tells Nishany where you stand.\(scope)"
         }
     }
 

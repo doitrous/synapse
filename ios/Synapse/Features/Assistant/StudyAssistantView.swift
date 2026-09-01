@@ -119,7 +119,7 @@ struct StudyAssistantView: View {
 
     private var opening: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text(strings("Ask about anything you are studying, or about how Connect Cortex works."))
+            Text(strings("Ask about anything you are studying, or about how Nishany works."))
                 .font(Theme.ui(13.5))
                 .foregroundStyle(Theme.ink2)
 

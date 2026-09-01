@@ -104,7 +104,7 @@ Three stages, one question at a time:
    never as a percentage, and never called a score.
 
 The answer and the ticked points are saved under
-`synapse.essay.answers.v1`, keyed by question id, with the most recent attempt
+`nishany.essay.answers.v1`, keyed by question id, with the most recent attempt
 kept. An attempt is logged with `surface: 'essay'`, `correct: null`.
 
 `AttemptSurface` gains `'essay'` alongside `'qbank' | 'case' | 'lab' |
@@ -112,14 +112,14 @@ kept. An attempt is logged with `surface: 'essay'`, `correct: null`.
 
 ### State ownership
 
-`synapse.essay.` is added to `USER_OWNED_PATTERNS` in
+`nishany.essay.` is added to `USER_OWNED_PATTERNS` in
 `src/lib/stateOwnership.ts` **and** to its hand-maintained port in
 `ios/Synapse/Core/Sync/StateOwnership.swift`. That file says it must stay a
 direct port, and the failure it warns about is quiet: the phone would write a
 student's answers to a key the web app never reads, and neither side would
 report an error.
 
-**The port has already drifted** — `synapse.myDocuments.` is in the web list
+**The port has already drifted** — `nishany.myDocuments.` is in the web list
 and missing from the Swift one. Nothing is losing data today, because that key
 is only used in demo mode and iOS never writes it, but it is exactly the drift
 the comment warns about. This slice restores it while it is in that file.

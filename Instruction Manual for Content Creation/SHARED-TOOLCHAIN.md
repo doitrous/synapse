@@ -9,6 +9,88 @@ each in its own worktree and branch, all writing into one `scripts/kasr/`.
 
 ---
 
+## Content CLI (`scripts/content/`)
+
+University-neutral, unlike everything else on this page — these three tools are shared
+by every lane (Ain Shams, Alexandria, MUST, future Mansoura/Menoufia), Kasr included for
+the gate wrapper and page cache. They wrap the existing gates and import format; they do
+not replace or re-implement either. Kasr's own generator (`scripts/kasr/build-batches.ts`,
+salted `mintConceptId`) is untouched and not part of this CLI — Kasr keeps generating its
+own batches the way §§1–6 above describe. Tests live next to each tool as
+`scripts/content/*.test.mjs`, run with `npm run test:content`.
+
+### `gate.mjs` — quiet wrapper over the content gates
+
+```
+node scripts/content/gate.mjs batch <batch.md> [--with <sibling.md> ...]
+node scripts/content/gate.mjs simulate <batch.md> [<batch.md> ...] [--emit <out.json>]
+node scripts/content/gate.mjs audit --source <emit.json> [--ids <regex>]
+```
+
+Runs the real gate (`scripts/validate-content-batch.mjs`, `scripts/simulate-content-import.mjs`,
+`scripts/audit-medical-content-fields.mjs`) unchanged and writes its full JSON output to
+`.gates/<subcommand>-<YYYYMMDD-HHMMSS>.json` (gitignored — derived, large). Stdout gets a
+short summary: one `GATE <subcommand> …: …` counts line, up to 5 error lines (≤200 chars
+each), then `full log: .gates/<file>`. Exit code mirrors the underlying gate's exit code,
+or 1 when its `errors` array is non-empty. A `--with` passed to `simulate` is refused
+outright (exit 2, "simulate has no --with flag") instead of being silently dropped —
+`medical:simulate` itself has no `--with`; only `medical:batch` does.
+
+### `pagetext.mjs` — page-text cache
+
+```
+node scripts/content/pagetext.mjs show <pdf> --pages 3-5
+node scripts/content/pagetext.mjs status <pdf>
+node scripts/content/pagetext.mjs mark-garbled <pdf> --pages 4   (and unmark-garbled)
+node scripts/content/pagetext.mjs ocr <pdf> --pages 4 [--dpi 300] [--force]
+node scripts/content/pagetext.mjs render <pdf> --pages 4 --out <dir>
+node scripts/content/pagetext.mjs index <dir-of-pdfs> --out <file.md>
+```
+
+Extracts a PDF once (`pdftotext -layout`, one page at a time), keyed by the file's
+sha256, so the same source reached from any worktree or Desktop path hits the same cache
+entry. Cache: `${NISHANY_PAGETEXT_CACHE:-$HOME/.cache/nishany-pagetext}/<sha256>.json` —
+outside the repo, not committed. `show` prints `=== page N ===` (or `=== page N (ocr) ===`
+once that page has been OCR'd) + text per requested page; `status` prints `p<N> words=<n>
+garbled=<yes|no> ocr=<yes|no>` (a 0-word page is auto-flagged garbled). `ocr` renders each
+selected 0-word page (`pdftoppm` → `tesseract --psm 6 -l eng`, falling back to `--psm 4`
+under 20 words) and caches the recognized text ONCE so no lane re-renders the same scanned
+page twice. `render` (200 dpi, via `pdftoppm`) **refuses** a page that is not marked
+garbled (exit 2) unless `--force` — rendering costs roughly 50× the tokens of reading the
+cached text, so it is gated behind an explicit "the text really is unusable" flag. `index`
+walks a directory recursively and writes the committed per-lane readability table
+(`| file | pages | words | garbled pages | ocr pages |`) — this is what a lane commits as
+`coverage/<lane>-readability-index.md` (13-orchestration.md §4, stage S1b).
+
+**Rule:** `status` → `show`; `words=0` → `ocr`; `render` ONLY that one page if the OCR text
+is unreadable.
+
+### `emit-mcq.mjs` + `ledger.mjs` — seed → generate, and the progress ledger
+
+```
+node scripts/content/emit-mcq.mjs <seed.json> [--out <batch.md>]
+node scripts/content/ledger.mjs <seed-dir> [--triage <keys.txt>] [--out <LEDGER.md>]
+```
+
+The full seed contract, with a worked example, is `scripts/content/seed.schema.md` — read
+that, not this page, before writing a seed. In short: an agent writes the medicine (stem,
+options, explanations, concept choice) into a seed JSON; `emit-mcq.mjs` serialises it into
+the hand-authored ASU/AU field order deterministically (same seed → byte-identical batch),
+enforcing the explanation-length and printed-key rules at emit time so a bad seed fails
+loudly instead of producing a batch that fails `medical:batch` later. Note: question
+records have no `field_notes` column in the real import contract — a seed's `field_notes`
+are folded into `author_notes` instead (still internal, never student-facing). A question
+entry with `"hold": "<reason>"` emits nothing but still counts in the ledger. Never
+hand-edit a generated `.md`; fix the seed and re-emit.
+
+`ledger.mjs` walks a seed directory, groups questions by each seed's `cluster`, and prints
+`| cluster | authored | held | remaining | total |` (`remaining` needs `--triage`, one key
+per line) plus `## Held` and `## Remaining` sections — the committed
+`coverage/<lane>-LEDGER.md` a dispatch's ledger delta is read from, so nobody
+re-derives "what's left" by reading batch files.
+
+---
+
 ## 1. Results are not module-namespaced
 
 Every path below is **tracked**, is rewritten by a module run, and carries no module in
@@ -647,7 +729,7 @@ Agreed by both, 2026-08-21. Each writes its **own** `CLAIMS.md` row — one agen
 
 | Holder | Scope |
 |---|---|
-| `101-isk` (`claude/synapse-content-extraction-plan-1ae3e0`) | sat papers, their concepts, articles, practical |
+| `101-isk` (`claude/nishany-content-extraction-plan-1ae3e0`) | sat papers, their concepts, articles, practical |
 | `101-isk-mcq` (`claude/sad-solomon-4bb999`) | `scripts/kasr/seeds/mcq/**`, `question/101-ISK-mcq.md`, `concept/101-ISK-mcq-concepts.md` |
 
 `101-isk` holds exactly one MCQ leaf — **`granular-leukocytes`** — and will add no more.

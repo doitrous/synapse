@@ -15,7 +15,7 @@ import { useCallback } from 'react'
 import { usePersistentState } from '@/lib/usePersistentState'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const CONCEPT_OVERRIDE_STORAGE_KEY = 'synapse.progress.adaptive.overrides.v1'
+export const CONCEPT_OVERRIDE_STORAGE_KEY = 'nishany.progress.adaptive.overrides.v1'
 
 export type OverrideMode = 'normal' | 'snoozed' | 'out-of-scope'
 

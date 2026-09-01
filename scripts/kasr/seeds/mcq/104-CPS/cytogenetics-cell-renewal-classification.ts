@@ -27,11 +27,11 @@ export const LEAF: McqLeafSeed = {
       conceptKey: "specialized-cell-renewal.classification-by-ability-to-reproduce",
       difficulty: "Easy",
       questionType: "Classification",
-      learningObjective: "Name sperms as the book's second example of a continuously renewing cell, alongside blood cells.",
+      learningObjective: "Name sperms as the second example of a continuously renewing cell, alongside blood cells.",
       explanations: {
         A: "Non-renewing cells are never replaced once lost; sperms, by contrast, are continually produced from stem cells throughout reproductive life.",
         B: "A potentially renewable cell can itself return to the cycle to divide, unlike the end-stage, non-dividing sperm.",
-        C: "Correct. The book names sperms, with blood cells, as its example of continuously renewing cells — end cells that cannot divide but are replaced from stem cells. A common trap: reading 'continuously renewing' as continuously dividing.",
+        C: "Sperms, with blood cells, are the example of continuously renewing cells — end cells that cannot divide but are replaced from stem cells. A common trap: reading 'continuously renewing' as continuously dividing.",
         D: "Not applicable — a correct answer is listed among the options.",
       },
     },

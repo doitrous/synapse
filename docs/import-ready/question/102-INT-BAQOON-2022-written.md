@@ -823,7 +823,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use, content the assigned department book does not teach.
+Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use.
 ## setting
 Academic
 ## academic_relevance

@@ -146,11 +146,11 @@ test('six expected versions are required before publish', () => {
     protectionViolations: [],
     fingerprints: {},
     versions: {
-      'synapse-academic-universities-v1': 1,
-      'synapse-course-curricula-v1': 1,
-      'synapse-module-schedules-v1': 1,
-      'synapse-module-subjects-v1': 1,
-      'synapse-academic-source-provenance-v1': 1,
+      'nishany-academic-universities-v1': 1,
+      'nishany-course-curricula-v1': 1,
+      'nishany-module-schedules-v1': 1,
+      'nishany-module-subjects-v1': 1,
+      'nishany-academic-source-provenance-v1': 1,
     },
   }), false)
   assert.equal(hasExpectedVersions({
@@ -160,12 +160,12 @@ test('six expected versions are required before publish', () => {
     protectionViolations: [],
     fingerprints: {},
     versions: {
-      'synapse-academic-universities-v1': 1,
-      'synapse-course-curricula-v1': 1,
-      'synapse-module-schedules-v1': 1,
-      'synapse-module-subjects-v1': 1,
-      'synapse-academic-source-provenance-v1': 1,
-      'synapse-assessment-schemes-v1': null,
+      'nishany-academic-universities-v1': 1,
+      'nishany-course-curricula-v1': 1,
+      'nishany-module-schedules-v1': 1,
+      'nishany-module-subjects-v1': 1,
+      'nishany-academic-source-provenance-v1': 1,
+      'nishany-assessment-schemes-v1': null,
     },
   }), true)
 })

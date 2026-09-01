@@ -110,6 +110,20 @@ procedure, not the "separate file" or "highlight" variant.
   re-read of just the seven answer pages (13, and the last page of each of the other five
   files/sub-sections), not a re-extraction of the whole corpus.
 
+**Correction (2026-09-01, W1-105-ANAT-Q2), Lower limb part 1 (Thigh) only.** The "column-garbled"
+diagnosis above describes `pdftotext`'s linear reading order specifically, not the page itself.
+A full-resolution page render of `src_f0b73dc856d890ca9c58`'s own answer table (its page 11, a
+clean two-column 1–50/letter grid) is legible and correctly ordered at a glance — no
+reconstruction needed, and it was read directly (all 50 letters) rather than reconstructed from
+the garbled linear extraction. This is exactly the render-based recovery this section already
+anticipated as "Step 3 work"; it has now been done for this one bank
+(`question/AU-MED-105-anatomy-mcq.md` + `pending-live/AU-MED-105-anatomy-questions.md`, see
+CLAIMS.md row `W1-105-ANAT-Q2`). The other four lettered-MCQ banks/sub-sections (LL part 2, LL
+part 3, UL, EOM-UL) have **not** been render-checked yet — the "unresolved, Step 3 work" status
+stands for their answer pages until someone renders them the same way. Do not assume they will
+all be as clean as this one (LL part 3 in particular lost more of its table on extraction, per
+the Hazards note below, which may or may not reflect the underlying page render quality).
+
 ## Ordered list of distinct ideas tested (= concepts), grouped by lecture chapter
 
 Chapters are Dr Ayman Khanfour's own lecture folders (`Anatomy/Dr_ Ayman Khanfour/{Upper

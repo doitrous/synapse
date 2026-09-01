@@ -18,7 +18,7 @@ import {
 import type { AdaptiveStudy } from './useAdaptiveStudy'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const READINESS_SESSION_STORAGE_KEY = 'synapse.progress.adaptive.readinessSession.v1'
+export const READINESS_SESSION_STORAGE_KEY = 'nishany.progress.adaptive.readinessSession.v1'
 
 export interface ReadinessSession {
   id: string

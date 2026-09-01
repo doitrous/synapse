@@ -134,7 +134,7 @@ export const LEAF: McqLeafSeed = {
         'Place DNA replication specifically in the S (synthesis) phase of the cell cycle.',
       explanations: {
         a: 'G1 is a growth phase in which the cell increases in size before committing to divide; DNA is not yet being copied.',
-        b: "Correct. S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated.",
+        b: "S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated.",
         c: 'M phase is mitosis, separating the already-duplicated genetic material into two daughter cells — no new DNA synthesis happens here.',
         d: 'G2 is a further growth phase that prepares the cell for mitosis, after DNA has already been duplicated in S phase.',
       },
@@ -150,7 +150,7 @@ export const LEAF: McqLeafSeed = {
         a: 'G1 is still part of the active cycle — the cell is growing and preparing to divide, not resting outside the cycle.',
         b: 'S phase is when DNA is actively being copied, the opposite of a resting quiescent state.',
         c: 'M phase is active mitosis, the most dynamic part of the cycle, not a resting state.',
-        d: 'Correct. G0 is the quiescent phase a cell enters after G1 if it stops dividing; the cell rests, performing its function without dividing, and for some cells (like most adult neurons) this is permanent.',
+        d: 'G0 is the quiescent phase a cell enters after G1 if it stops dividing; the cell rests, performing its function without dividing, and for some cells (like most adult neurons) this is permanent.',
       },
     },
     {
@@ -163,7 +163,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'G1 phase is a growth stage before division, not the stage where the cell actually splits into two.',
         b: 'S phase duplicates the genetic material but does not itself produce two separate cells.',
-        c: "Correct. M phase is mitosis, the stage where the cell separates the two copies of its genetic material into two identical daughter cells.",
+        c: "M phase is mitosis, the stage where the cell separates the two copies of its genetic material into two identical daughter cells.",
         d: 'G2 phase is a further growth and preparation stage that precedes mitosis, not the division itself.',
       },
       answerOverride: 'c',
@@ -178,9 +178,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that binding of a growth factor to its receptor is what initiates the cell cycle.',
       explanations: {
-        a: 'An enzyme in general is too vague and is not what the book names as the initiating signal — the specific trigger is a growth factor binding its receptor.',
-        b: 'Correct. The book states the cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane, which triggers an intracellular signalling cascade that induces cyclin genes.',
-        c: "A hormone is a different kind of signalling molecule from the growth factor the book specifically names as the cycle's initiating ligand.",
+        a: 'An enzyme in general is too vague and is not what is named as the initiating signal — the specific trigger is a growth factor binding its receptor.',
+        b: 'The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane, which triggers an intracellular signalling cascade that induces cyclin genes.',
+        c: "A hormone is a different kind of signalling molecule from the growth factor specifically named as the cycle's initiating ligand.",
         d: 'A transcription factor acts downstream, inside the nucleus, once the signalling cascade is already running — it is not itself the initiating binding event at the membrane.',
       },
     },
@@ -192,9 +192,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Pair CDK4 with cyclin D as the complex that drives progression past the G1/S restriction point.',
       explanations: {
-        a: 'Cyclin A pairs with CDK1 (G2/M transition) or CDK2 (S phase initiation) in the book\'s table, not with CDK4.',
+        a: 'Cyclin A pairs with CDK1 (G2/M transition) or CDK2 (S phase initiation) in the table, not with CDK4.',
         b: 'Cyclin B pairs with CDK1 for the G2-to-M transition, not with CDK4.',
-        c: 'Correct. The book\'s table pairs CDK4 (and CDK6) with cyclin D for progression past the restriction point at the G1/S boundary.',
+        c: 'The table pairs CDK4 (and CDK6) with cyclin D for progression past the restriction point at the G1/S boundary.',
         d: 'Cyclin E pairs with CDK2 for initiation of DNA synthesis in early S phase, not with CDK4.',
       },
     },
@@ -206,10 +206,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that the spindle assembly checkpoint verifies proper chromosome-to-spindle attachment before the cell divides.',
       explanations: {
-        a: 'Correct. The book states the spindle assembly checkpoint checks for proper attachment of chromosomes to the spindle.',
+        a: 'The spindle assembly checkpoint checks for proper attachment of chromosomes to the spindle.',
         b: 'Checking cell size belongs to the G1 and G2 checkpoints, not to the spindle assembly checkpoint.',
         c: "Checking for DNA damage belongs to the G1 and G2 checkpoints; the spindle checkpoint's job is specifically about chromosome-spindle attachment.",
-        d: 'Checking for growth factors is part of the G1 checkpoint, which also verifies nutrients and cell size — not a job the book assigns to the spindle assembly checkpoint.',
+        d: 'Checking for growth factors is part of the G1 checkpoint, which also verifies nutrients and cell size — not a job assigned to the spindle assembly checkpoint.',
       },
     },
     {
@@ -222,7 +222,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Checking for DNA damage is the job of the G1 and G2 checkpoints, a separate mechanism from the restriction point.',
         b: 'Ensuring normal cell size is part of what the G1 (and G2) checkpoints verify, not what defines the restriction point itself.',
-        c: 'Correct. The book states the restriction point (R), located in late G1, is the point beyond which cells that pass through will enter S phase and complete the entire cycle independently of the presence of growth factors.',
+        c: 'The restriction point (R), located in late G1, is the point beyond which cells that pass through will enter S phase and complete the entire cycle independently of the presence of growth factors.',
         d: 'DNA replication happens afterward, in S phase — the restriction point is the commitment point that precedes and permits entry into S phase, not replication itself.',
       },
     },
@@ -236,7 +236,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Necrosis is unplanned cell death caused by injury, not the genetically directed process the question describes.',
         b: 'A mutation is a change in DNA sequence, not a description of a cell-death process at all.',
-        c: "Correct. The book defines apoptosis as 'a programmed genetically directed cell death (physiological cell suicide program).'",
+        c: "Apoptosis is 'a programmed genetically directed cell death (physiological cell suicide program).'",
         d: 'A transversion is a specific type of point mutation (purine-for-pyrimidine substitution), unrelated to programmed cell death.',
       },
       answerOverride: 'c',
@@ -251,10 +251,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Identify caspases as a class of cysteine proteases activated during apoptosis.',
       explanations: {
-        a: 'Serine proteases are a different enzyme class (e.g., trypsin, chymotrypsin) from the one the book assigns to caspases.',
-        b: "Correct, allowing for the book's own spelling ('cystine' rather than 'cysteine'). The book states caspases are intracellular cysteine proteases.",
-        c: 'Aspartate proteases are a different enzyme class (e.g., pepsin) from the one the book assigns to caspases.',
-        d: 'Hydrolases is too broad a category — proteases are a subclass of hydrolases, but the question asks for the specific class, which the book gives as cysteine proteases.',
+        a: 'Serine proteases are a different enzyme class (e.g., trypsin, chymotrypsin) from the one assigned to caspases.',
+        b: "Allowing for a spelling variant ('cystine' rather than 'cysteine'), caspases are intracellular cysteine proteases.",
+        c: 'Aspartate proteases are a different enzyme class (e.g., pepsin) from the one assigned to caspases.',
+        d: 'Hydrolases is too broad a category — proteases are a subclass of hydrolases, but the question asks for the specific class, which is given as cysteine proteases.',
       },
     },
     {
@@ -266,9 +266,9 @@ export const LEAF: McqLeafSeed = {
         'Name mitochondria as the organelle whose cytochrome c release initiates the intrinsic apoptotic pathway.',
       explanations: {
         a: 'The nucleus houses the DNA whose damage can trigger apoptosis, but the intrinsic pathway itself is initiated by mitochondria releasing cytochrome c, not by the nucleus directly.',
-        b: 'Correct. The book names the intrinsic (mitochondrial) pathway for cellular stress that promotes release of cytochrome c from mitochondria into the cytosol, activating caspases.',
-        c: 'The endoplasmic reticulum is not the organelle the book names for initiating the intrinsic apoptotic pathway.',
-        d: 'Lysosomes are not the organelle the book names for initiating the intrinsic apoptotic pathway.',
+        b: 'Named the intrinsic (mitochondrial) pathway for cellular stress that promotes release of cytochrome c from mitochondria into the cytosol, activating caspases.',
+        c: 'The endoplasmic reticulum is not the organelle named for initiating the intrinsic apoptotic pathway.',
+        d: 'Lysosomes are not the organelle named for initiating the intrinsic apoptotic pathway.',
       },
     },
     {
@@ -279,7 +279,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that cellular stress, including DNA damage, is what triggers mitochondrial cytochrome c release in the intrinsic pathway.',
       explanations: {
-        a: 'Correct. The book states the intrinsic pathway is used extensively in response to different forms of cellular stress, and stressors — including DNA damage — promote the release of cytochrome c from mitochondria into the cytosol.',
+        a: 'The intrinsic pathway is used extensively in response to different forms of cellular stress, and stressors — including DNA damage — promote the release of cytochrome c from mitochondria into the cytosol.',
         b: "Caspase 8 acts downstream of the extrinsic pathway's receptor activation, not as the trigger for cytochrome c release.",
         c: 'Caspase 9 is activated after cytochrome c is released, as part of the intrinsic pathway\'s downstream cascade — it is a consequence, not the trigger, of the release.',
         d: 'Caspase-activated DNase acts even further downstream, cutting genomic DNA after caspases are already active — it does not trigger the initial cytochrome c release.',
@@ -296,7 +296,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Bax is one of the pro-apoptotic members of the Bcl-2 family, controlling cytochrome c release — the opposite of anti-apoptotic.',
         b: 'Bok, like Bax, is a pro-apoptotic member of the Bcl-2 family, not the anti-apoptotic one.',
         c: 'Bak is also a pro-apoptotic member of the Bcl-2 family.',
-        d: 'Correct. Bcl-2 is the anti-apoptotic member of the family named after it — under physiological conditions it balances the pro-apoptotic Bax, Bak and Bok.',
+        d: 'Bcl-2 is the anti-apoptotic member of the family named after it — under physiological conditions it balances the pro-apoptotic Bax, Bak and Bok.',
       },
     },
 
@@ -308,7 +308,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Name CDK1 as cyclin B\'s partner kinase, driving the G2-to-M transition.',
       explanations: {
-        a: 'Correct. CDK1 complexes with cyclin A or cyclin B to drive the transition from G2 into M phase — cyclin B is the book\'s named partner for the G2/M step specifically.',
+        a: 'CDK1 complexes with cyclin A or cyclin B to drive the transition from G2 into M phase, with cyclin B as its specific partner for the G2/M step.',
         b: 'CDK2 pairs with cyclin E or cyclin A to drive initiation of DNA synthesis in early S phase, not with cyclin B at G2/M.',
         c: 'CDK4 pairs with cyclin D to drive progression past the G1/S restriction point, an earlier step than cyclin B\'s.',
         d: 'CDK6 likewise pairs with cyclin D at the G1/S restriction point, not with cyclin B at the G2/M transition.',
@@ -323,7 +323,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Caspase 9 acts downstream, inside the pathway, once it has already been triggered — it is not what starts the extrinsic pathway.',
         b: 'Caspase 8 is likewise a downstream effector activated after receptor engagement, not the initiating event itself.',
-        c: 'Correct. The extrinsic pathway begins when a ligand binds the tumour necrosis factor (TNF) or FAS receptor, which then activates the caspase cascade.',
+        c: 'The extrinsic pathway begins when a ligand binds the tumour necrosis factor (TNF) or FAS receptor, which then activates the caspase cascade.',
         d: 'Cytochrome c release from mitochondria is what starts the intrinsic (mitochondrial) pathway, the extrinsic pathway\'s counterpart, not the extrinsic pathway itself.',
       },
     },
@@ -334,7 +334,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Identify Bax as a pro-apoptotic member of the Bcl-2 family.',
       explanations: {
-        a: 'Correct. Bax is one of the pro-apoptotic members of the Bcl-2 family (alongside Bak and Bok), controlling cytochrome c release from mitochondria.',
+        a: 'Bax is one of the pro-apoptotic members of the Bcl-2 family (alongside Bak and Bok), controlling cytochrome c release from mitochondria.',
         b: 'BCL-2 is the anti-apoptotic member the family is named after — the opposite role to what this question asks for.',
         c: 'Bcl-x is likewise an anti-apoptotic family member, not a pro-apoptotic one.',
         d: 'MYC is a proliferation-driving proto-oncogene, not one of the Bcl-2 family\'s named pro- or anti-apoptotic members.',

@@ -1,6 +1,6 @@
-# Maristana Platform (Synapse)
+# Nishany Platform
 
-Maristana by Connect Academy is the undergraduate medical learning platform in this repository; `synapse` remains the internal application/package name and storage-key namespace. It combines a React/Vite student app, a protected administration console, a Node/Express API, MariaDB persistence, Supabase Auth, Resend email, managed medical media, content-import tooling, and an in-progress native iOS student client.
+Nishany (نيشاني, “my target”) by Connect is the undergraduate medical learning platform in this repository; `synapse` remains the internal application/package name and storage-key namespace from the platform's previous identity (see docs/rebrand/BRAND.md). It combines a React/Vite student app, a protected administration console, a Node/Express API, MariaDB persistence, Supabase Auth, Resend email, managed medical media, content-import tooling, and an in-progress native iOS student client.
 
 The same repository can run in two modes:
 
@@ -181,7 +181,7 @@ Authoring guidance lives in `Instruction Manual for Content Creation/`. Start wi
 
 The canonical import-contract registry is `src/data/importContract.ts`. It is shared by manual-heading parity checks, schemas, parsers, merging, validators, and round-trip tests. Supported contracts include subjects, evidence resources/claims/citations/spans, catalogue resources, articles, concepts, relationships, practicals, questions, glossary terms, decks, essays, histology slides, and authored medicine minigame packs.
 
-Authored minigames are imported through `/admin/import/minigame`. The minigame contract covers Clinical Sequence, Mechanism Chain, and Red Flag Sort packs, including source/reviewer metadata, ordered steps or findings/lanes/rationales, and validation through `validateMiniGamePack`. Valid imported packs enter the `synapse-minigame-packs-v1` library as **In review** and stay out of solo and party games until a reviewer explicitly publishes the validated pack library.
+Authored minigames are imported through `/admin/import/minigame`. The minigame contract covers Clinical Sequence, Mechanism Chain, and Red Flag Sort packs, including source/reviewer metadata, ordered steps or findings/lanes/rationales, and validation through `validateMiniGamePack`. Valid imported packs enter the `nishany-minigame-packs-v1` library as **In review** and stay out of solo and party games until a reviewer explicitly publishes the validated pack library.
 Important import locations:
 
 - `docs/import-ready/` - validated batches staged for manual admin import.

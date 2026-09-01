@@ -20,13 +20,13 @@ test('the year is shown without an invented price and cannot be bought yet', () 
   assert.equal(isPurchasable(maristana, periodById(catalog, 'term')!), true)
 })
 
-test('the launch catalogue is versioned and carries the authoritative Maristana prices', () => {
+test('the launch catalogue is versioned and carries the authoritative Nishany prices', () => {
   const catalog = initialPlanCatalog()
   const maristana = findPlan(catalog, 'maristana')!
   assert.equal(catalog.schemaVersion, PLAN_CATALOG_SCHEMA_VERSION)
   assert.deepEqual(maristana.prices, { month: 400, term: 1000 })
-  assert.equal(maristana.name.en, 'MARISTANA')
-  assert.equal(maristana.name.ar, 'MARISTANA')
+  assert.equal(maristana.name.en, 'NISHANY')
+  assert.equal(maristana.name.ar, 'NISHANY')
 })
 
 test('every plan carries both languages', () => {
@@ -47,7 +47,7 @@ test('the free plan no longer promises a seven-day trial', () => {
   assert.doesNotMatch(free.entitlement.en, /7-day/)
 })
 
-test('Maristana is the only new student offer', () => {
+test('Nishany is the only new student offer', () => {
   const catalog = initialPlanCatalog()
   assert.deepEqual(plansFor(catalog, 'primary').map((plan) => plan.id), ['maristana'])
   assert.deepEqual(plansFor(catalog, 'secondary').map((plan) => plan.id), [])

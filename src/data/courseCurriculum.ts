@@ -8,7 +8,7 @@
  */
 
 /** Keyed `${universityId}:${yearId}:${courseId}`. */
-export const COURSE_CURRICULA_STORAGE_KEY = 'synapse-course-curricula-v1'
+export const COURSE_CURRICULA_STORAGE_KEY = 'nishany-course-curricula-v1'
 
 export interface CourseCurriculumSelection {
   articleIds: string[]

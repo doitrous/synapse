@@ -14,7 +14,7 @@ import {
 } from './minigamePacks.ts'
 
 test('the canonical imported-pack document is review-gated', () => {
-  assert.equal(MINIGAME_PACKS_STORAGE_KEY, 'synapse-minigame-packs-v1')
+  assert.equal(MINIGAME_PACKS_STORAGE_KEY, 'nishany-minigame-packs-v1')
   assert.equal(EMPTY_MINIGAME_PACK_DOCUMENT.status, 'In review')
   assert.equal(EMPTY_MINIGAME_PACK_DOCUMENT.validationStatus, 'validated')
   assert.deepEqual(EMPTY_MINIGAME_PACK_DOCUMENT.packs, [])

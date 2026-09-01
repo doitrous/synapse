@@ -6,7 +6,7 @@ import { Icon } from '@/components/ui/Icon'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { pricingFor } from './pricingContent'
-import { maristanaCopy } from './maristanaContent'
+import { nishanyCopy } from './nishanyContent'
 import type { LandingContent } from './content'
 
 /**
@@ -31,7 +31,7 @@ import type { LandingContent } from './content'
  * engines index. So this is a strip, dismissible, remembered per device.
  */
 function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: string }) {
-  const [dismissed, setDismissed] = useLocalPreference('synapse.landing.langOffer.dismissed', false)
+  const [dismissed, setDismissed] = useLocalPreference('nishany.landing.langOffer.dismissed', false)
   const [prefersOther, setPrefersOther] = useState(false)
 
   useEffect(() => {
@@ -69,7 +69,7 @@ export function MarketingShell({
   children: ReactNode
 }) {
   const pricing = pricingFor(c.lang)
-  const m = maristanaCopy(c.lang)
+  const m = nishanyCopy(c.lang)
   const location = useLocation()
   const toOther = otherHref ?? c.otherHref
   const toOtherAtPlace = `${toOther}${location.hash}`
@@ -93,15 +93,13 @@ export function MarketingShell({
 
       <header className="sticky top-0 z-30 border-b border-line bg-paper">
         <div className="mx-auto flex min-h-[68px] max-w-[1160px] items-center justify-between gap-3 px-5 sm:px-8">
-          <Link to={toHome} aria-label="Maristana home" className="shrink-0">
+          <Link to={toHome} aria-label="Nishany home" className="shrink-0">
             <span className="hidden sm:inline-flex"><Wordmark textSize={18} /></span>
             <span className="inline-flex sm:hidden"><Wordmark collapsed /></span>
           </Link>
 
           <nav aria-label={c.lang === 'ar' ? 'التنقل الرئيسي' : 'Primary navigation'} className="hidden items-center gap-5 lg:flex">
-            <Link to={anchor('why-maristana')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.why}</Link>
-            <Link to={anchor('practice-suite')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.practice}</Link>
-            <Link to={anchor('study-together')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.together}</Link>
+            <Link to={anchor('why-nishany')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.why}</Link>
             <Link to={pricing.path} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{pricing.navLabel}</Link>
           </nav>
 
@@ -146,9 +144,7 @@ export function MarketingShell({
           <div id="marketing-mobile-menu" className="border-t border-line bg-paper px-5 py-4 sm:px-8 lg:hidden">
             <nav aria-label={c.lang === 'ar' ? 'قائمة الهاتف' : 'Mobile navigation'} className="mx-auto grid max-w-[1160px] gap-1">
               {[
-                [anchor('why-maristana'), m.nav.why],
-                [anchor('practice-suite'), m.nav.practice],
-                [anchor('study-together'), m.nav.together],
+                [anchor('why-nishany'), m.nav.why],
                 [pricing.path, pricing.navLabel],
               ].map(([href, label]) => (
                 <Link key={href} to={href} onClick={() => setMenuOpen(false)} className="flex min-h-11 items-center border-b border-line text-[13px] font-semibold text-ink-2 last:border-b-0">{label}</Link>

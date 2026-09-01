@@ -99,9 +99,9 @@ async function knownIds() {
   try {
     const bundle = JSON.parse(await readFile(bundlePath, 'utf8'))
     const states = bundle.states ?? {}
-    for (const concept of states['synapse-concept-graph-v2']?.concepts ?? []) ids.add(concept.id)
-    for (const item of states['synapse-admin-content-ledger-v4'] ?? []) ids.add(item.id)
-    for (const resource of states['synapse-medical-evidence-v1']?.resources ?? []) ids.add(resource.id)
+    for (const concept of states['nishany-concept-graph-v2']?.concepts ?? []) ids.add(concept.id)
+    for (const item of states['nishany-admin-content-ledger-v4'] ?? []) ids.add(item.id)
+    for (const resource of states['nishany-medical-evidence-v1']?.resources ?? []) ids.add(resource.id)
   } catch (error) {
     console.error(`WARNING: could not read live bundle: ${error.message}`)
   }

@@ -1,4 +1,5 @@
 import type { Difficulty } from './qbank'
+import type { QuestionSource } from './questionSource.ts'
 
 /**
  * What a student actually did, item by item.
@@ -58,6 +59,12 @@ export interface AttemptRecord {
   /** The most specific authored curriculum label available for this item. */
   subtopic?: string
   /**
+   * The question's MCQ source, snapshotted at attempt time so per-source stats
+   * stay stable even if the question is later re-tagged — the same reason
+   * `subjectId` and `difficulty` are snapshotted here rather than looked up.
+   */
+  source?: QuestionSource
+  /**
    * Whole-sitting timing, repeated on the records written at submission.
    * Legacy records have neither field and continue to use their per-question
    * timings. The report takes the maximum rather than summing duplicates.
@@ -97,7 +104,7 @@ export interface AttemptIndex {
   totals: AttemptTotals
 }
 
-export const ATTEMPT_INDEX_KEY = 'synapse.progress.attemptIndex.v1'
+export const ATTEMPT_INDEX_KEY = 'nishany.progress.attemptIndex.v1'
 
 /** `YYYY-MM` — the shard a timestamp belongs to. */
 export function attemptMonth(at: string | Date): string {
@@ -106,7 +113,7 @@ export function attemptMonth(at: string | Date): string {
 }
 
 export function attemptMonthKey(month: string): string {
-  return `synapse.progress.attempts.${month}`
+  return `nishany.progress.attempts.${month}`
 }
 
 export const EMPTY_INDEX: AttemptIndex = {

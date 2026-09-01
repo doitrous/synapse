@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#f5f7fb" />
     <!-- Theme before first paint. Without this the page paints in the default
@@ -11,7 +12,8 @@
     <script>
       (function () {
         try {
-          var t = localStorage.getItem('synapse-theme');
+          var t = localStorage.getItem('nishany-theme');
+          if (t === null) { t = localStorage.getItem('synapse-theme'); if (t !== null) { try { localStorage.setItem('nishany-theme', t); localStorage.removeItem('synapse-theme'); } catch (e2) {} } }
           if (t !== 'light' && t !== 'warm' && t !== 'dark') t = 'light';
           document.documentElement.dataset.theme = t;
           var m = document.querySelector('meta[name="theme-color"]');
@@ -23,40 +25,40 @@
     </script>
     <meta
       name="description"
-      content="Connect Cortex — أداة سريرية واحدة لمذاكرة الطب: المكتبة وبنك الأسئلة والتدريب العملي وجدول يريك ما يستحق انتباهك اليوم."
+      content="نيشاني — أداة سريرية واحدة لمذاكرة الطب: المكتبة وبنك الأسئلة والتدريب العملي وجدول يريك ما يستحق انتباهك اليوم."
     />
-    <title>Connect Cortex · مذاكرة الطب، في مكان واحد</title>
+    <title>نيشاني · مذاكرة الطب، في مكان واحد</title>
 
-    <link rel="canonical" href="https://synapse.doitrous.com/ar" />
-    <link rel="alternate" hreflang="ar" href="https://synapse.doitrous.com/ar" />
-    <link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/en" />
-    <link rel="alternate" hreflang="x-default" href="https://synapse.doitrous.com/" />
+    <link rel="canonical" href="https://nishany.com/ar" />
+    <link rel="alternate" hreflang="ar" href="https://nishany.com/ar" />
+    <link rel="alternate" hreflang="en" href="https://nishany.com/en" />
+    <link rel="alternate" hreflang="x-default" href="https://nishany.com/" />
 
     <!-- Open Graph — WhatsApp, iMessage, Facebook, LinkedIn, Slack -->
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Connect Cortex" />
+    <meta property="og:site_name" content="Nishany" />
     <meta property="og:locale" content="ar_AR" />
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:title" content="Connect Cortex · اعرف بالضبط ما تذاكره تاليًا" />
+    <meta property="og:title" content="نيشاني · اعرف بالضبط ما تذاكره تاليًا" />
     <meta
       property="og:description"
       content="منصة دراسة سريرية هادئة لطلاب الطب — المكتبة وبنك الأسئلة والتدريب العملي وجدول يريك ما يستحق انتباهك اليوم."
     />
-    <meta property="og:url" content="https://synapse.doitrous.com/ar" />
-    <meta property="og:image" content="https://synapse.doitrous.com/og-image-ar.png" />
+    <meta property="og:url" content="https://nishany.com/ar" />
+    <meta property="og:image" content="https://nishany.com/og-image-ar.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Connect Cortex — اعرف بالضبط ما تذاكره تاليًا" />
+    <meta property="og:image:alt" content="نيشاني — اعرف بالضبط ما تذاكره تاليًا" />
 
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Connect Cortex · اعرف بالضبط ما تذاكره تاليًا" />
+    <meta name="twitter:title" content="نيشاني · اعرف بالضبط ما تذاكره تاليًا" />
     <meta
       name="twitter:description"
       content="منصة دراسة سريرية هادئة لطلاب الطب، تتكيف مع تقدمك."
     />
-    <meta name="twitter:image" content="https://synapse.doitrous.com/og-image-ar.png" />
+    <meta name="twitter:image" content="https://nishany.com/og-image-ar.png" />
   </head>
   <body>
     <div id="root"></div>

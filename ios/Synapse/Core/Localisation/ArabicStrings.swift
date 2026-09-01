@@ -8,7 +8,7 @@ import Foundation
 /// with no Arabic behind it falls back to the English it was written from, so
 /// partial coverage reads as English rather than as a missing string.
 ///
-/// 625 entries. Regenerate rather than edit by hand.
+/// 637 entries. Regenerate rather than edit by hand.
 enum ArabicStrings {
 
     static let table: [String: String] = [
@@ -28,7 +28,7 @@ enum ArabicStrings {
         "Practical": "العملي",
         "Resources": "المصادر",
         "Plan": "التخطيط",
-        "Performance": "الأداء",
+        "Performance": "أدائي",
         "Medical Taxonomy": "المصطلحات الطبية",
         "A bilingual dictionary of the basic medical terms — with Arabic translations and plain explanations to help you build vocabulary fast.": "قاموس ثنائي اللغة لأهم المصطلحات الطبية — بترجمة عربية وشرح مبسّط لتبني حصيلتك اللغوية بسرعة.",
         "Search a term in Arabic or English…": "ابحث عن مصطلح بالعربية أو الإنجليزية…",
@@ -547,7 +547,7 @@ enum ArabicStrings {
         "Adaptive practice chooses what to study": "التدريب التكيّفي يختار ما تدرسه",
         "Readiness assessment measures where you stand": "تقييم الجاهزية يقيس موضعك الحالي",
         "Two systems, measured separately": "نظامان يُقاسان بشكل منفصل",
-        "What Connect Cortex measures": "ما يقيسه Connect Cortex",
+        "What Nishany measures": "ما يقيسه نيشاني",
         "What it does not measure": "ما لا يقيسه",
         "How your next block is put together": "كيف تُبنى مجموعتك التالية",
         "Rules that are never relaxed": "قواعد لا يجري التساهل فيها أبدًا",
@@ -599,7 +599,7 @@ enum ArabicStrings {
         "Status": "الحالة",
         "Meaning": "المعنى",
         "Not enough distinct questions yet to say anything about this.": "لا توجد أسئلة مختلفة كافية بعد لقول أي شيء عن هذا.",
-        "One recent answer went wrong. Connect Cortex will check this again — this is not a weakness label.": "إجابة حديثة واحدة كانت خاطئة. سيتحقق Connect Cortex من هذا مرة أخرى — وهذا ليس وصفًا بالضعف.",
+        "One recent answer went wrong. Nishany will check this again — this is not a weakness label.": "إجابة حديثة واحدة كانت خاطئة. سيتحقق نيشاني من هذا مرة أخرى — وهذا ليس وصفًا بالضعف.",
         "Repeated evidence across different questions points to a real gap here.": "أدلة متكررة عبر أسئلة مختلفة تشير إلى وجود فجوة حقيقية هنا.",
         "Measurable, but not yet strong enough to count as secure.": "قابل للقياس، لكنه ليس قويًا بما يكفي بعد ليُعدّ راسخًا.",
         "Answered correctly across several distinct questions, including one after a gap of at least two days.": "أُجيب عنه إجابة صحيحة في عدة أسئلة مختلفة، منها سؤال بعد فاصل لا يقل عن يومين.",
@@ -615,7 +615,7 @@ enum ArabicStrings {
         "Derived from concept weights": "مشتق من أوزان المفاهيم",
         "Concepts in scope": "المفاهيم ضمن النطاق",
         "No changes recorded yet.": "لم تُسجَّل أي تغييرات بعد.",
-        "Connect Cortex keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.": "يواصل Connect Cortex اكتشاف ما يُرجَّح أن تنساه أو تسيء فهمه، ويعيده إليك في الوقت المناسب، ويُبقي تدريبك متوافقًا مع مخطط امتحانك.",
+        "Nishany keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.": "يواصل نيشاني اكتشاف ما يُرجَّح أن تنساه أو تسيء فهمه، ويعيده إليك في الوقت المناسب، ويُبقي تدريبك متوافقًا مع مخطط امتحانك.",
         "Algorithm": "الخوارزمية",
         "days to exam": "يومًا حتى الامتحان",
         "Your university and year are not set": "لم تُحدَّد جامعتك وسنتك الدراسية",
@@ -628,7 +628,7 @@ enum ArabicStrings {
         "Thinking…": "يفكّر…",
         "left today": "متبقٍ اليوم",
         "No messages left today": "لا رسائل متبقية اليوم",
-        "Ask about anything you are studying, or about how Connect Cortex works.": "اسأل عن أي شيء تذاكره، أو عن طريقة عمل Connect Cortex.",
+        "Ask about anything you are studying, or about how Nishany works.": "اسأل عن أي شيء تذاكره، أو عن طريقة عمل نيشاني.",
         "What should I study today?": "ماذا أذاكر اليوم؟",
         "Explain preload and afterload": "اشرح الحمل القبلي والحمل البعدي",
         "Where is heart failure covered?": "أين يُغطّى قصور القلب؟",
@@ -637,5 +637,19 @@ enum ArabicStrings {
         "The assistant is unavailable right now.": "المساعد غير متاح في الوقت الحالي.",
         "That did not go through. Your message is back in the box — try again.": "لم تمرّ الرسالة. أعدناها إلى الصندوق — حاول مرة أخرى.",
         "A study tool, not clinical guidance. Never use it for a decision about a patient.": "أداة مذاكرة، وليست إرشادًا سريريًا. لا تستخدمها أبدًا في قرار يخص مريضًا.",
+
+        // ---- Home dashboard redesign --------------------------------------
+        "Today's target": "هدف اليوم",
+        "Continue session": "تابع الجلسة",
+        "Pick up where you left off": "تابع من حيث توقفت",
+        "Resume": "متابعة",
+        "Reviews": "المراجعات",
+        "due": "اليوم",
+        "Medical library": "المكتبة الطبية",
+        "Concepts & sources": "مفاهيم ومصادر",
+        "Study rhythm": "إيقاع المذاكرة",
+        "Target hit for today — nice shooting": "أصبت هدف اليوم — رمية موفقة",
+        "questions done": "سؤالًا",
+        "more to hit your mark.": "سؤالًا لتصيب هدفك.",
     ]
 }

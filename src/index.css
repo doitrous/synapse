@@ -1,17 +1,16 @@
 @import "tailwindcss";
 
 /* =========================================================================
-   MARISTANA · "The Clinical Chart"
+   NISHANY · "The Clinical Chart"
    The visual language of medicine's own instruments: ruled vitals charts,
    graph/ECG paper, formulary tables, fine anatomical line-work.
 
-   A restrained two-hue brand taken from the split-hemisphere mark: cortex
-   crimson is the right hemisphere and the working accent (actions, active
-   navigation, links, meters); cortex blue is the left hemisphere and the
-   secondary, structural one (sources, concept chips, categorical marks).
-   The blue lives in the ground, the red in the controls — that division is
-   what keeps a two-hue brand calm. Roughly 70% neutral / 25% crimson /
-   5% blue per screen. Never a red→blue gradient.
+   A restrained two-hue brand taken from the Noon Dot mark: nishan crimson is
+   the hit — the working accent (actions, active navigation, links, meters);
+   field blue is the ground — the secondary, structural one (sources, concept
+   chips, categorical marks). The blue lives in the ground, the red in the
+   controls — that division is what keeps a two-hue brand calm. Roughly 70%
+   neutral / 25% crimson / 5% blue per screen. Never a crimson→blue gradient.
 
    Light-first, built for long reading. No glass, no gradients-as-decoration,
    no glow.
@@ -22,8 +21,8 @@
   --font-sans: "Geist Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-serif: "Source Serif 4 Variable", Georgia, "Times New Roman", serif;
   --font-mono: "Geist Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
-  /* The logotype's own geometric sans. Brand lockups only — never UI, never body. */
-  --font-brand: "Orbitron Variable", "Century Gothic", system-ui, sans-serif;
+  /* The logotype's own rounded display face. Brand lockups only — never UI, never body. */
+  --font-brand: "Baloo 2 Variable", "Baloo Bhaijaan 2 Variable", system-ui, sans-serif;
 
   /* ---- Ground & ink -------------------------------------------------- */
   --color-paper: #f5f7fb;      /* page ground — a very light hint of the brand blue */
@@ -87,6 +86,66 @@
   --color-scale-3: #e37fa0;
   --color-scale-4: #d13a63;
   --color-scale-5: #a82449;
+
+  /* Study Rhythm heatmap ramps — level 0 (no data) through 5 (max intensity).
+     0 is shared across all six schemes and mirrors --color-scale-0 so empty
+     cells always match the surface; crimson 0-5 equals --color-scale-0..5
+     exactly, so the default scheme is pixel-identical to today's heatmap. */
+  --rhythm-crimson-0: #e8ecf4;
+  --rhythm-crimson-1: #fbdde3;
+  --rhythm-crimson-2: #f5b4c2;
+  --rhythm-crimson-3: #e37fa0;
+  --rhythm-crimson-4: #d13a63;
+  --rhythm-crimson-5: #a82449;
+
+  --rhythm-blue-0: #e8ecf4;
+  --rhythm-blue-1: #dbe7fb;
+  --rhythm-blue-2: #a9cbf5;
+  --rhythm-blue-3: #6a9de8;
+  --rhythm-blue-4: #1553b3;
+  --rhythm-blue-5: #0e3f8c;
+
+  --rhythm-teal-0: #e8ecf4;
+  --rhythm-teal-1: #d7f0ef;
+  --rhythm-teal-2: #a3ddda;
+  --rhythm-teal-3: #5cb8b9;
+  --rhythm-teal-4: #1c93a2;
+  --rhythm-teal-5: #146e79;
+
+  --rhythm-amber-0: #e8ecf4;
+  --rhythm-amber-1: #fbeecb;
+  --rhythm-amber-2: #f0cf85;
+  --rhythm-amber-3: #d9a13e;
+  --rhythm-amber-4: #b17a12;
+  --rhythm-amber-5: #8a5a0a;
+
+  --rhythm-violet-0: #e8ecf4;
+  --rhythm-violet-1: #e9e3fa;
+  --rhythm-violet-2: #c9b8f0;
+  --rhythm-violet-3: #a189e3;
+  --rhythm-violet-4: #7b5bd0;
+  --rhythm-violet-5: #5638a8;
+
+  /* mono: theme-safe greyscale for high-contrast/colour-blind use, built
+     from the existing neutral ramp (line-2 / ink-3 / ink-2 / near-ink). */
+  --rhythm-mono-0: #e8ecf4;
+  --rhythm-mono-1: #dde1ea;
+  --rhythm-mono-2: #ccd3e0;
+  --rhythm-mono-3: #949aa8;
+  --rhythm-mono-4: #5d636f;
+  --rhythm-mono-5: #23262e;
+
+  /* Study flags (Anki's seven, in order). Functional signal colours: a flag
+     never stands on colour alone — it carries its name in the tooltip and is
+     searchable by name — so seven distinct hues are acceptable here where they
+     would not be on a decorative surface. Warm inherits these; dark lifts them. */
+  --color-flag-red: #cf3a4a;
+  --color-flag-orange: #bd6a17;
+  --color-flag-green: #2f8f5b;
+  --color-flag-blue: #2f6fd0;
+  --color-flag-pink: #d15a9e;
+  --color-flag-turquoise: #1c93a2;
+  --color-flag-purple: #7b5bd0;
 
   /* ---- Radius -------------------------------------------------------- */
   --radius-sm: 6px;
@@ -180,6 +239,58 @@
   --color-scale-0: #ece4d6;
   --color-scale-1: #f8dcdd;
 
+  /* Study Rhythm heatmap ramps — see the light theme for the full rationale.
+     0 is shared across all six schemes and mirrors --color-scale-0. Crimson
+     0-1 equals --color-scale-0..1 (warm's own override); crimson 2-5 equals
+     the light theme's --color-scale-2..5, since those cascade through
+     unchanged here — same brand hue holding across themes. The other five
+     schemes follow the identical pattern: a warmed level-1 tint, then the
+     same hue-bearing levels 2-5 as light (only the paper-facing step warms). */
+  --rhythm-crimson-0: #ece4d6;
+  --rhythm-crimson-1: #f8dcdd;
+  --rhythm-crimson-2: #f5b4c2;
+  --rhythm-crimson-3: #e37fa0;
+  --rhythm-crimson-4: #d13a63;
+  --rhythm-crimson-5: #a82449;
+
+  --rhythm-blue-0: #ece4d6;
+  --rhythm-blue-1: #d9e3f4;
+  --rhythm-blue-2: #a9cbf5;
+  --rhythm-blue-3: #6a9de8;
+  --rhythm-blue-4: #1553b3;
+  --rhythm-blue-5: #0e3f8c;
+
+  --rhythm-teal-0: #ece4d6;
+  --rhythm-teal-1: #d5ece9;
+  --rhythm-teal-2: #a3ddda;
+  --rhythm-teal-3: #5cb8b9;
+  --rhythm-teal-4: #1c93a2;
+  --rhythm-teal-5: #146e79;
+
+  --rhythm-amber-0: #ece4d6;
+  --rhythm-amber-1: #f9ecc5;
+  --rhythm-amber-2: #f0cf85;
+  --rhythm-amber-3: #d9a13e;
+  --rhythm-amber-4: #b17a12;
+  --rhythm-amber-5: #8a5a0a;
+
+  --rhythm-violet-0: #ece4d6;
+  --rhythm-violet-1: #e7e0f2;
+  --rhythm-violet-2: #c9b8f0;
+  --rhythm-violet-3: #a189e3;
+  --rhythm-violet-4: #7b5bd0;
+  --rhythm-violet-5: #5638a8;
+
+  /* mono: unlike the other five schemes, mono is theme-relative rather than a
+     fixed brand hue, so it is rebuilt from warm's own neutral ramp
+     (line-2 / ink-3 / ink-2 / near-ink) instead of reusing light's values. */
+  --rhythm-mono-0: #ece4d6;
+  --rhythm-mono-1: #ddd4c5;
+  --rhythm-mono-2: #d7ccb9;
+  --rhythm-mono-3: #9b9284;
+  --rhythm-mono-4: #675e51;
+  --rhythm-mono-5: #2e2921;
+
   --shadow-panel: 0 1px 2px rgba(31, 27, 22, 0.05), 0 1px 1px rgba(31, 27, 22, 0.03);
   --shadow-raised: 0 4px 16px -6px rgba(31, 27, 22, 0.13), 0 1px 2px rgba(31, 27, 22, 0.05);
   --shadow-pop: 0 14px 34px -12px rgba(31, 27, 22, 0.22), 0 3px 8px rgba(31, 27, 22, 0.08);
@@ -245,6 +356,64 @@
   --color-scale-4: #bb416b;
   --color-scale-5: #e8759a;
 
+  /* Study Rhythm heatmap ramps — dark ascends in brightness like the crimson
+     ramp above, so level 5 is the brightest/most saturated step rather than
+     the darkest. 0 is shared across all six schemes and mirrors
+     --color-scale-0; crimson 0-5 equals --color-scale-0..5 exactly. */
+  --rhythm-crimson-0: #1a212b;
+  --rhythm-crimson-1: #3b1d29;
+  --rhythm-crimson-2: #5f2739;
+  --rhythm-crimson-3: #8d3253;
+  --rhythm-crimson-4: #bb416b;
+  --rhythm-crimson-5: #e8759a;
+
+  --rhythm-blue-0: #1a212b;
+  --rhythm-blue-1: #16294a;
+  --rhythm-blue-2: #24406b;
+  --rhythm-blue-3: #2c5697;
+  --rhythm-blue-4: #3f74d0;
+  --rhythm-blue-5: #6fa5ff;
+
+  --rhythm-teal-0: #1a212b;
+  --rhythm-teal-1: #14464a;
+  --rhythm-teal-2: #1c6169;
+  --rhythm-teal-3: #2b8f9a;
+  --rhythm-teal-4: #55c6d2;
+  --rhythm-teal-5: #7fdbe4;
+
+  --rhythm-amber-0: #1a212b;
+  --rhythm-amber-1: #543f10;
+  --rhythm-amber-2: #7a5c15;
+  --rhythm-amber-3: #a67d1f;
+  --rhythm-amber-4: #e3a83f;
+  --rhythm-amber-5: #f3c977;
+
+  --rhythm-violet-0: #1a212b;
+  --rhythm-violet-1: #241a42;
+  --rhythm-violet-2: #3a2a68;
+  --rhythm-violet-3: #563f92;
+  --rhythm-violet-4: #8168c4;
+  --rhythm-violet-5: #ab93ec;
+
+  /* mono: theme-safe greyscale for high-contrast/colour-blind use, ascending
+     toward the strongest ink (ink-2 reused at level 4; level 5 sits just
+     below full --color-ink so it still reads as a fill, not text). */
+  --rhythm-mono-0: #1a212b;
+  --rhythm-mono-1: #262f3c;
+  --rhythm-mono-2: #4a535f;
+  --rhythm-mono-3: #74808c;
+  --rhythm-mono-4: #a2abbb;
+  --rhythm-mono-5: #d3d9e4;
+
+  /* Flags, lifted for the dark ground. */
+  --color-flag-red: #f2778a;
+  --color-flag-orange: #e0a05a;
+  --color-flag-green: #63c58f;
+  --color-flag-blue: #6fa3f0;
+  --color-flag-pink: #ef9bc9;
+  --color-flag-turquoise: #55c6d2;
+  --color-flag-purple: #ab93ec;
+
   /* On a dark ground a shadow cannot be seen; separation comes from the
      surface being lighter than the paper, so shadows survive only on
      genuinely floating things. */
@@ -261,12 +430,96 @@
   --brand-rose: var(--color-primary-strong);
 }
 
+/* OLED / Black — a fourth mode, not "Dark taken further". Dark's ground
+   (#0d1117) deliberately keeps a hint of the brand blue so it never reads as
+   pure absence; OLED inverts that call on purpose: the page itself goes to
+   true #000000 so an OLED panel actually turns those pixels off, and every
+   surface above it is a small, deliberate step up from nothing rather than a
+   tinted variant of it. Brand and status hues are carried over unchanged
+   from Dark — same rose, same blue, same signals — so the four themes still
+   read as one brand; only the neutral ramp (ground/surface/ink/line/grid)
+   is re-derived for a true-black stage. Text is held a shade under white
+   (same instinct as Dark's "not #ffffff — glare at 2am") even though the
+   ratios land higher than Dark's, because the ground itself is now the
+   darkest possible value. */
+:root[data-theme='oled'] {
+  --color-paper: #000000;      /* true black — the OLED-off ground */
+  --color-surface: #0a0a0c;    /* card / panel field — the smallest deliberate lift off nothing */
+  --color-surface-2: #16171b;  /* raised-but-quiet fill */
+  /* Dark sends its inset *below* the page (#0a0e14 under #0d1117). Paper is
+     already the floor here, so inset instead becomes the dimmest lift above
+     it — closer to "off" than any other surface, which still reads as
+     recessed against surface/surface-2 sitting above it. */
+  --color-inset: #050506;
+
+  --color-ink: #dfe2e8;        /* ~16.2:1 on paper, ~15.2:1 on surface — legible without glaring */
+  --color-ink-2: #9aa1af;      /* ~8.1:1 on paper, ~7.6:1 on surface */
+  --color-ink-3: #6b7280;      /* faint, decorative-only — ~4.3:1 on paper */
+
+  --color-line: #1e1f24;
+  --color-line-2: #32333a;
+  --color-grid: #131317;
+  --color-grid-major: #1c1d22;
+
+  /* Same fills as Dark — already tuned for a near-black ground, and only
+     more legible against a truer one. */
+  --color-primary: #d13a63;
+  --color-primary-hover: #e0537a;
+  --color-primary-strong: #f193ab;
+  --color-primary-soft: #8c2745;
+  --color-primary-tint: #2a141d;
+  --color-primary-line: #4a2130;
+  --color-on-primary: #ffffff;
+
+  --color-accent: #6fa5ff;
+  --color-accent-strong: #a3c5ff;
+  --color-accent-soft: #2c5697;
+  --color-accent-tint: #11203a;
+  --color-accent-line: #24406b;
+  --color-on-accent: #0a1120;
+
+  --color-success: #4dc79b;
+  --color-success-tint: #0e2b23;
+  --color-warning: #e3a83f;
+  --color-warning-tint: #2e2410;
+  --color-danger: #ff6b6b;
+  --color-danger-tint: #331416;
+
+  --color-on-success: #06130f;
+  --color-on-warning: #1a1305;
+  --color-on-danger: #1a0708;
+
+  /* Same rose ascension as Dark, but step 0 drops Dark's blue cast — on a
+     hueless black stage an "empty" cell should read as neutral charcoal,
+     not tinted, or it would look like a stray colour rather than "nothing
+     recorded yet". */
+  --color-scale-0: #17181c;
+  --color-scale-1: #3b1d29;
+  --color-scale-2: #5f2739;
+  --color-scale-3: #8d3253;
+  --color-scale-4: #bb416b;
+  --color-scale-5: #e8759a;
+
+  /* Black-based shadows still separate genuinely floating elements from the
+     surfaces beneath them; against true black they simply fade to the
+     ground rather than reading as a halo, which is the correct behaviour. */
+  --shadow-panel: 0 1px 0 rgba(0, 0, 0, 0.5);
+  --shadow-raised: 0 4px 16px rgba(0, 0, 0, 0.55);
+  --shadow-pop: 0 14px 34px rgba(0, 0, 0, 0.65);
+  --shadow-control: 0 1px 1px rgba(0, 0, 0, 0.45);
+  --shadow-action: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-action-hover: 0 2px 6px rgba(0, 0, 0, 0.55);
+
+  --brand-rose: var(--color-primary-strong);
+}
+
 @layer base {
   :root {
     color-scheme: light;
   }
 
-  :root[data-theme='dark'] {
+  :root[data-theme='dark'],
+  :root[data-theme='oled'] {
     color-scheme: dark;
   }
 
@@ -302,7 +555,8 @@
     overflow-x: clip;
   }
 
-  :root[data-theme='dark'] body {
+  :root[data-theme='dark'] body,
+  :root[data-theme='oled'] body {
     background-image: none;
   }
 
@@ -403,43 +657,43 @@
    screen. `backwards` still holds the *first* frame through any
    animation-delay — all `stagger` needs — and leaves the element with no
    transform of its own once it has arrived. */
-@keyframes cortex-fade {
+@keyframes nishany-fade {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-@keyframes cortex-pop {
+@keyframes nishany-pop {
   from { opacity: 0; transform: translateY(6px) scale(0.985); }
   to { opacity: 1; transform: none; }
 }
-@keyframes cortex-rise {
+@keyframes nishany-rise {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: none; }
 }
-@keyframes cortex-slide-x {
+@keyframes nishany-slide-x {
   from { transform: translateX(-100%); }
   to { transform: none; }
 }
-@keyframes cortex-slide-x-rtl {
+@keyframes nishany-slide-x-rtl {
   from { transform: translateX(100%); }
   to { transform: none; }
 }
 
 @utility animate-fade {
-  animation: cortex-fade var(--dur-fast) var(--ease-out-quint) backwards;
+  animation: nishany-fade var(--dur-fast) var(--ease-out-quint) backwards;
 }
 @utility animate-pop {
-  animation: cortex-pop var(--dur-base) var(--ease-out-quint) backwards;
+  animation: nishany-pop var(--dur-base) var(--ease-out-quint) backwards;
 }
 @utility animate-rise {
-  animation: cortex-rise 0.5s var(--ease-out-quint) backwards;
+  animation: nishany-rise 0.5s var(--ease-out-quint) backwards;
 }
 @utility animate-slide-x {
-  animation: cortex-slide-x 0.24s var(--ease-out-quint) backwards;
+  animation: nishany-slide-x 0.24s var(--ease-out-quint) backwards;
 }
 
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
 [dir="rtl"] .animate-slide-x {
-  animation-name: cortex-slide-x-rtl;
+  animation-name: nishany-slide-x-rtl;
 }
 
 /* ---- Screen and list entrances -----------------------------------------
@@ -449,7 +703,7 @@
    background tab, an offscreen thumbnail iframe, a print pass, a DOM-capture
    screenshot. Motion may refine how content arrives; it may never be the
    thing that makes content visible. */
-@keyframes cortex-screen-in {
+@keyframes nishany-screen-in {
   from { transform: translateY(8px); }
   to { transform: none; }
 }
@@ -458,14 +712,14 @@
    changes. 8px, not 24px: the shell stays put, only the page beneath it
    re-settles. Applied to a wrapper keyed on the route, so React remounts it. */
 @utility animate-screen-in {
-  animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
+  animation: nishany-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
 }
 
 /* A list or grid whose rows settle in sequence. Capped at 8 — past that the
    last row arrives late enough to feel broken rather than composed. */
 @utility stagger {
   & > * {
-    animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
+    animation: nishany-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
   }
   & > *:nth-child(1) { animation-delay: 0ms; }
   & > *:nth-child(2) { animation-delay: calc(var(--stagger-step) * 1); }
@@ -481,15 +735,15 @@
    The height is measured and set inline by the Collapse component, because a
    transition to `auto` does not animate. This owns only the easing and the
    fade of the content inside. */
-.cortex-collapse {
+.nishany-collapse {
   overflow: hidden;
   transition: height var(--dur-collapse) var(--ease-out-quint);
 }
-.cortex-collapse > * {
+.nishany-collapse > * {
   transition: opacity var(--dur-collapse) var(--ease-out-quint);
 }
-.cortex-collapse[data-open='false'] > * { opacity: 0; }
-.cortex-collapse[data-open='true'] > * { opacity: 1; }
+.nishany-collapse[data-open='false'] > * { opacity: 0; }
+.nishany-collapse[data-open='true'] > * { opacity: 1; }
 
 /* A disclosure chevron turns rather than swapping glyph. */
 @utility chevron-turn {
@@ -522,7 +776,7 @@
    One rule that *slides* between tabs rather than one rule per tab appearing
    and disappearing; the movement is what tells you where the selection went.
    Position is measured from the active button. */
-.cortex-tab-indicator {
+.nishany-tab-indicator {
   position: absolute;
   bottom: -1px;
   height: 2px;
@@ -547,43 +801,87 @@
 /* ---- The authored moment ----------------------------------------------
    Percentage gauges draw once on page entry, like a calibrated instrument
    settling on its reading. The final value remains visible after motion. */
-@keyframes cortex-ring-fill {
+@keyframes nishany-ring-fill {
   from { stroke-dashoffset: var(--ring-circumference); }
   to { stroke-dashoffset: var(--ring-target-offset); }
 }
-@keyframes cortex-readiness-fill {
+@keyframes nishany-readiness-fill {
   from { left: 0%; }
   to { left: var(--readiness-value); }
 }
-@keyframes cortex-performance-line {
+@keyframes nishany-performance-line {
   from { stroke-dashoffset: 1000; }
   to { stroke-dashoffset: 0; }
 }
-@keyframes cortex-performance-area {
+@keyframes nishany-performance-area {
   from { opacity: 0; transform: scaleX(0); }
   to { opacity: 0.55; transform: scaleX(1); }
 }
 
 .metric-ring-fill {
   stroke-dashoffset: var(--ring-target-offset);
-  animation: cortex-ring-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
+  animation: nishany-ring-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .readiness-marker-fill {
   left: var(--readiness-value);
-  animation: cortex-readiness-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
+  animation: nishany-readiness-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .performance-line-fill {
   stroke-dasharray: 1000;
   stroke-dashoffset: 0;
-  animation: cortex-performance-line var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
+  animation: nishany-performance-line var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .performance-area-fill {
   transform-box: fill-box;
   transform-origin: left center;
-  animation: cortex-performance-area 0.75s var(--ease-out-quint) 0.18s both;
+  animation: nishany-performance-area 0.75s var(--ease-out-quint) 0.18s both;
+}
+
+/* The centre dot is earned: it mounts only once a ring or meter reaches its
+   target, so this is the one moment on a progress surface allowed a little
+   overshoot — the mark completing itself, not a loop or an ambient bounce. */
+@keyframes nishany-calibrate-pop {
+  from { opacity: 0; transform: scale(0.35); }
+  65% { opacity: 1; transform: scale(1.22); }
+  to { opacity: 1; transform: scale(1); }
+}
+.target-ring-dot {
+  animation: nishany-calibrate-pop var(--dur-calibrate) var(--ease-out-quint) both;
+}
+
+/* Landing hero: the Noon Dot drawn as an aiming target. One orchestrated
+   reveal on load — the bowl draws in, the dot settles, one pulse rings out.
+   The global prefers-reduced-motion rule collapses all three to their end
+   states, which is exactly the finished artwork. */
+.landing-target-bowl {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: landing-bowl-draw 0.9s cubic-bezier(0.5, 0, 0.2, 1) 0.1s forwards;
+}
+.landing-target-dot {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: landing-dot-settle 0.7s cubic-bezier(0.34, 1.45, 0.44, 1) 0.85s backwards;
+}
+.landing-target-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  opacity: 0;
+  animation: landing-pulse-out 1.5s cubic-bezier(0.2, 0.6, 0.3, 1) 1.5s forwards;
+}
+@keyframes landing-bowl-draw {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes landing-dot-settle {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+@keyframes landing-pulse-out {
+  from { transform: scale(1); opacity: 0.5; }
+  to { transform: scale(3); opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -596,12 +894,56 @@
     scroll-behavior: auto !important;
   }
 
-  .cortex-collapse,
-  .cortex-collapse > *,
+  .nishany-collapse,
+  .nishany-collapse > *,
   .chevron-turn,
-  .cortex-tab-indicator,
+  .nishany-tab-indicator,
   .lift {
     transition: none !important;
   }
   .lift:hover { transform: none; }
+}
+
+/* =========================================================================
+   FORCED COLORS (Windows High Contrast)
+   The browser's own forced-colour palette already overrides ordinary
+   author colours (text, backgrounds, real borders) with the user's chosen
+   system colours — that part needs no help here. What it explicitly does
+   NOT touch is box-shadow and background-image, so anything drawn with
+   those disappears rather than being recoloured: the focus ring tint
+   (--ring-field), the box-shadow spine `.nav-selected` uses for the active
+   nav row, the sliding `.nishany-tab-indicator` if it were ever shadow-based,
+   and the decorative paper grain / vitals-chart grids. Redeclare the pieces
+   that carry real meaning in system colour keywords, and let the purely
+   decorative ones drop out cleanly instead of leaving a colourless smear.
+   ========================================================================= */
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+
+  /* `.nav-selected` marks the current nav/tab/option with a tint plus a
+     box-shadow hairline + spine — invisible in this mode. A real, system-
+     coloured outline keeps "which one is selected" answerable without it. */
+  .nav-selected {
+    outline: 1px solid Highlight;
+    outline-offset: -1px;
+  }
+
+  /* The sliding tab underline is a solid background-color fill (a property
+     forced-colors *does* respect), but pin it to the system accent so it
+     never quietly inherits a brand colour the palette would rather replace. */
+  .nishany-tab-indicator {
+    background: Highlight;
+  }
+
+  /* Decorative-only: neither the SVG paper grain nor the graph-paper grid
+     utilities carry information, so let the system flatten them instead of
+     rendering as noise the palette can't recolour. */
+  body,
+  .grid-chart,
+  .grid-chart-major {
+    background-image: none;
+  }
 }

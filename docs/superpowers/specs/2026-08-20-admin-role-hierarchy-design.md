@@ -28,7 +28,7 @@ Three consequences.
 3. **Concurrent admin writes silently destroy work.** Every content surface
    persists by `PUT /api/state/:key` (`server/src/index.js:579`), which replaces
    a whole JSON document. All articles, questions, practicals and resources live
-   in one document, `synapse-admin-content-ledger-v4`. Two people editing at the
+   in one document, `nishany-admin-content-ledger-v4`. Two people editing at the
    same time means the second save erases the first's. With two admins that is
    rare. With a team of reviewers it is the normal case.
 
@@ -168,11 +168,11 @@ same diff the merge computes (§3):
 
 | Document | Item | Owning tab |
 |---|---|---|
-| `synapse-admin-content-ledger-v4` | `item.kind === 'article'` | Library Setup |
+| `nishany-admin-content-ledger-v4` | `item.kind === 'article'` | Library Setup |
 | | `item.kind === 'question'` | Questions Setup |
 | | `item.kind === 'practical'` | Practical Setup |
 | | `item.kind === 'resource'` | Resources & Media |
-| `synapse-concept-graph-v2` | `concepts[]` | Concepts |
+| `nishany-concept-graph-v2` | `concepts[]` | Concepts |
 | | `relations[]` | Relationships |
 
 `mediaRequests` live inside their owner item, so a Media Requests write is a
@@ -247,7 +247,7 @@ first tab the caller holds — Library Setup for a Reviewer under these defaults
 
 ### Where the configuration lives
 
-A new app_state key, `synapse-role-tabs-v1`, shaped
+A new app_state key, `nishany-role-tabs-v1`, shaped
 `Record<'editor' | 'admin' | 'reviewer', string[]>`, owned by the Access Control
 tab — so it is super-admin-only by the same mechanism that governs everything
 else, with no bespoke guard. A role missing from the document falls back to the
@@ -350,8 +350,8 @@ rejected one.
 
 | Document | Behaviour |
 |---|---|
-| `synapse-admin-content-ledger-v4` | Merge, keyed by `item.id` |
-| `synapse-concept-graph-v2` | Merge, `concepts[]` and `relations[]` each keyed by `id` |
+| `nishany-admin-content-ledger-v4` | Merge, keyed by `item.id` |
+| `nishany-concept-graph-v2` | Merge, `concepts[]` and `relations[]` each keyed by `id` |
 | Everything else | Whole-document write, plus the `baseVersion` check |
 
 Non-mergeable documents therefore gain a `409` and a reload prompt where today

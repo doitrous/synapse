@@ -101,6 +101,11 @@ export async function sendPasswordReset(id: string, body: { reason: string }) {
   return apiPost<{ ok: boolean; actionLink: string | null }>(`/admin/users/${encodeURIComponent(id)}/password-reset`, body)
 }
 
+/** Set a password directly. Editor-and-above; the server refuses targets at editor or above. */
+export async function changePassword(id: string, body: { password: string; reason: string }) {
+  return apiPost<{ ok: boolean }>(`/admin/users/${encodeURIComponent(id)}/password`, body)
+}
+
 export async function updateProfile(id: string, body: Record<string, unknown>) {
   return apiSend(`/admin/users/${encodeURIComponent(id)}`, 'PATCH', body)
 }
@@ -119,6 +124,34 @@ export async function setUserScope(id: string, body: { moduleIds: string[]; year
   return apiPost<{ ok: boolean; scope: { moduleIds: string[]; yearIds: string[] } | null }>(
     `/admin/users/${encodeURIComponent(id)}/scope`, body,
   )
+}
+
+/** Where a student stood, or now stands, in the catalogue. */
+export interface EnrollmentSnapshot {
+  universityId: string | null
+  year: string | null
+  yearId: string | null
+}
+
+export interface EnrollmentChangeResult {
+  ok: boolean
+  from: EnrollmentSnapshot
+  to: EnrollmentSnapshot
+  /** The cached aggregates as reset to the destination cohort. */
+  aggregates: { questionsAnswered: number; accuracy: number }
+}
+
+/**
+ * Move a student to a new university and year.
+ *
+ * Editor-and-above only — the server refuses anyone under rank 2 with a 403,
+ * and refuses a no-op move (already that university and year) with a 409. This
+ * resets what the destination cohort's progress looks like (a clean slate on a
+ * new one, the old numbers exactly on a return), so it is deliberately its own
+ * audited action rather than a field on the plain profile edit.
+ */
+export async function changeEnrollment(id: string, body: { universityId: string; year: string; reason: string }) {
+  return apiPost<EnrollmentChangeResult>(`/admin/users/${encodeURIComponent(id)}/enrollment`, body)
 }
 
 /**

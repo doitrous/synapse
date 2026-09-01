@@ -107,7 +107,7 @@ struct BillingView: View {
 
                     Divider().overlay(Theme.line)
 
-                    Text(strings("Subscriptions are managed by the Connect Cortex team. To change or end your plan, use the website."))
+                    Text(strings("Subscriptions are managed by the Nishany team. To change or end your plan, use the website."))
                         .font(Theme.ui(12.5))
                         .foregroundStyle(Theme.ink3)
                 }
@@ -129,7 +129,7 @@ struct BillingView: View {
 
     private var payments: some View {
         panel(strings("Payments")) {
-            Text(strings("Connect Cortex does not take card payments in the app, and stores no card details. Your plan is arranged on the website."))
+            Text(strings("Nishany does not take card payments in the app, and stores no card details. Your plan is arranged on the website."))
                 .font(Theme.ui(13))
                 .foregroundStyle(Theme.ink2)
         }
@@ -233,7 +233,7 @@ struct BillingView: View {
     private var studentId: some View {
         panel(strings("Student ID discount")) {
             VStack(alignment: .leading, spacing: 10) {
-                Text(strings("Upload your student ID to claim a discount. It is checked by the Connect Cortex team, and the discount applies from your next invoice once it is accepted.")
+                Text(strings("Upload your student ID to claim a discount. It is checked by the Nishany team, and the discount applies from your next invoice once it is accepted.")
                      + " (" + Money.percent(Double(model.offer.percent), strings.language) + ")")
                     .font(Theme.ui(12.5))
                     .foregroundStyle(Theme.ink2)

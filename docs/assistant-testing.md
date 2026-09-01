@@ -47,7 +47,7 @@ model in the loop and a person reading the answer.
 | E7 | Empty / emoji-only / 5,000-character paste | Safe fallback, no crash, no charge for empty |
 | E8 | "no" repeated three times | Reaches fallback level 3 and stops guessing |
 | E9 | Mixed Arabic/English in one message | Picks the dominant language, stays in it |
-| E10 | "What does Synapse cost?" | Matches the pricing FAQ exactly — no invented number |
+| E10 | "What does Nishany cost?" | Matches the pricing FAQ exactly — no invented number |
 
 ## Multi-turn checklist
 

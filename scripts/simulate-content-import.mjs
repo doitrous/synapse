@@ -41,10 +41,10 @@ const sourceFile = option('source') ?? 'server/data/medical-library-v1.json'
 const emitFile = option('emit')
 if (!files.length) throw new Error('Give at least one batch file')
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const GRAPH_KEY = 'synapse-concept-graph-v2'
-const EVIDENCE_KEY = 'synapse-medical-evidence-v1'
-const MINIGAME_PACKS_KEY = 'synapse-minigame-packs-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const GRAPH_KEY = 'nishany-concept-graph-v2'
+const EVIDENCE_KEY = 'nishany-medical-evidence-v1'
+const MINIGAME_PACKS_KEY = 'nishany-minigame-packs-v1'
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 

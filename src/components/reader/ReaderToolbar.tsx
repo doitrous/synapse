@@ -97,14 +97,14 @@ export function ReaderToolbar({
   onToggleTimer: () => void
 }) {
   const t = useT()
-  const [edge, setEdge] = useLocalChoice<Edge>('synapse.reader.toolbarEdge', 'left', EDGES)
+  const [edge, setEdge] = useLocalChoice<Edge>('nishany.reader.toolbarEdge', 'left', EDGES)
   const [offset, setOffset] = useState(0.18)
   const [open, setOpen] = useState(true)
   const dragging = useRef(false)
   const panel = usePopoverTrigger()
 
   useEffect(() => {
-    const stored = Number(localStorage.getItem('synapse.reader.toolbarOffset'))
+    const stored = Number(localStorage.getItem('nishany.reader.toolbarOffset'))
     if (Number.isFinite(stored) && stored > 0 && stored < 1) setOffset(stored)
   }, [])
 
@@ -121,7 +121,7 @@ export function ReaderToolbar({
     if (!dragging.current) return
     dragging.current = false
     ;(event.currentTarget as HTMLElement).releasePointerCapture?.(event.pointerId)
-    try { localStorage.setItem('synapse.reader.toolbarOffset', String(offset)) } catch { /* nothing to remember with */ }
+    try { localStorage.setItem('nishany.reader.toolbarOffset', String(offset)) } catch { /* nothing to remember with */ }
   }
 
   const hasSettings = tool !== 'pan' && tool !== 'laser'

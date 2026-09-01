@@ -25,24 +25,26 @@ test('an editor holds everything except the super-admin-only tabs', () => {
   assert.equal(held.length, TAB_IDS.length - superOnly.length)
 })
 
-test('admin is operations and reviewer is content, and they barely overlap', () => {
+test('a reviewer holds exactly Media Requests and Content Reports', () => {
   const admin = new Set(tabsForRole('admin', null))
-  const reviewer = new Set(tabsForRole('reviewer', null))
+  const reviewer = tabsForRole('reviewer', null)
+  assert.deepEqual(reviewer, ['media', 'reports'])
+  // None of the surfaces that author or destroy content are a reviewer's. Each
+  // used to be in the default; removing the tab removes the write capability,
+  // not only the link.
+  for (const id of ['library', 'questions', 'practical', 'flashcards', 'written',
+    'histology', 'concepts', 'relationships', 'resources', 'taxonomy']) {
+    assert.equal(reviewer.includes(id), false, `reviewer must not hold ${id}`)
+  }
+  // Nor operations.
+  assert.equal(reviewer.includes('users'), false)
+  assert.equal(reviewer.includes('dashboard'), false)
+  // Admin keeps operations; Content Reports is the one surface both can open — a
+  // reviewer to raise a problem, an admin to see the queue. What a reviewer may
+  // actually do there is narrowed by role in authoriseChanges, not by the tab.
+  assert.deepEqual(reviewer.filter((id) => admin.has(id)), ['reports'])
   assert.equal(admin.has('users'), true)
-  assert.equal(admin.has('questions'), false)
-  assert.equal(reviewer.has('questions'), true)
-  assert.equal(reviewer.has('media'), true)
-  // Flashcards, written answers and histology are medical content too, and all
-  // three live in the same ledger the other kinds do.
-  assert.equal(reviewer.has('flashcards'), true)
-  assert.equal(reviewer.has('written'), true)
-  assert.equal(reviewer.has('histology'), true)
-  assert.equal(reviewer.has('users'), false)
-  assert.equal(reviewer.has('dashboard'), false)
-  // Systems & Topics is editor-and-above this phase: its nodes carry no module
-  // or year, so a reviewer's scope could not be enforced on it.
-  assert.equal(reviewer.has('taxonomy'), false)
-  assert.deepEqual([...admin].filter((id) => reviewer.has(id)), [])
+  assert.equal(admin.has('media'), false)
 })
 
 test('a student holds nothing', () => {
@@ -63,22 +65,22 @@ test('a stored configuration replaces a role default, and junk in it is ignored'
 test('the tabs are returned in registry order, so the first one is predictable', () => {
   const held = tabsForRole('reviewer', null)
   assert.deepEqual(held, TAB_IDS.filter((id) => held.includes(id)))
-  assert.equal(held[0], 'library')
+  assert.equal(held[0], 'media')
 })
 
 test('a state key resolves to the tabs that may write it', () => {
-  assert.deepEqual(tabsForStateKey('synapse-vouchers-v1'), ['vouchers'])
+  assert.deepEqual(tabsForStateKey('nishany-vouchers-v1'), ['vouchers'])
   assert.deepEqual(
-    tabsForStateKey('synapse-admin-content-ledger-v4'),
+    tabsForStateKey('nishany-admin-content-ledger-v4'),
     ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'resources', 'media'],
   )
   assert.deepEqual(tabsForStateKey(ROLE_TABS_STATE_KEY), ['access'])
-  assert.deepEqual(tabsForStateKey('synapse-media-library-v1'), ['resources', 'media'])
-  assert.deepEqual(tabsForStateKey('synapse-library-trees-v1'), ['library'])
+  assert.deepEqual(tabsForStateKey('nishany-media-library-v1'), ['resources', 'media'])
+  assert.deepEqual(tabsForStateKey('nishany-library-trees-v1'), ['library'])
 })
 
 test('an unregistered key belongs to no tab, so only a super admin may write it', () => {
-  assert.deepEqual(tabsForStateKey('synapse-something-nobody-declared'), [])
+  assert.deepEqual(tabsForStateKey('nishany-something-nobody-declared'), [])
   assert.equal(holdsTab(tabsForRole('editor', null), []), false)
   assert.equal(holdsTab(tabsForRole('editor', null), ['questions']), true)
   assert.equal(holdsTab(tabsForRole('admin', null), ['questions']), false)

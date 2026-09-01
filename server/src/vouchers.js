@@ -2,7 +2,7 @@
  * Voucher redemption, decided by the server.
  *
  * Eligibility used to be evaluated in the browser, and the redemption count was
- * incremented by the student's own `PUT /api/state/synapse-vouchers-v1` — a
+ * incremented by the student's own `PUT /api/state/nishany-vouchers-v1` — a
  * request the API refuses, so applying a voucher failed silently and retried
  * every two seconds forever. Worse, had it succeeded, two students applying the
  * same last-seat voucher would each have read the same count and written the
@@ -13,7 +13,7 @@
  */
 import { pool } from './db.js'
 
-const VOUCHER_KEY = 'synapse-vouchers-v1'
+const VOUCHER_KEY = 'nishany-vouchers-v1'
 
 /** Typed refusals, so the UI can say which rule was not met. */
 export const REFUSALS = {

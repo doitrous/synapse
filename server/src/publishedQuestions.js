@@ -17,8 +17,8 @@ import { questionKeysFromLedger } from './questionKey.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { releasedMediaIdsFromDocument } from './studentLedger.js'
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const ACADEMIC_CATALOGUE_KEY = 'synapse-academic-universities-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const ACADEMIC_CATALOGUE_KEY = 'nishany-academic-universities-v1'
 
 let questionSnapshot = null
 let questionSnapshotVersion = null

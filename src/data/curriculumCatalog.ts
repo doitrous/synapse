@@ -1,5 +1,5 @@
 /**
- * Maristana curriculum source of truth.
+ * Nishany curriculum source of truth.
  *
  * This file owns the stable Subjects & Topics hierarchy. Articles, concepts,
  * questions, resources, filters, and import preflight all reference these IDs;
@@ -654,22 +654,32 @@ export function findCurriculumPath(
   tree: CurriculumSystem[],
   query: { systemId?: string; topicId?: string; subtopicId?: string; microtopicId?: string; nanotopicId?: string },
 ) {
+  // Each level below only narrows the search within the branch that already
+  // matched above it — it must never fall back to a sibling in a different
+  // branch, and it must never stop scanning the remaining systems just
+  // because the current one ran out of candidates at some level. Only a
+  // `return` inside a level's loop body means an actual match; falling off
+  // the end of any loop means "no match at this level" and control simply
+  // continues at the loop above.
   for (const system of tree) {
     if (query.systemId && system.id !== query.systemId && system.sysId !== query.systemId) continue
+    if (!query.topicId) return { system, topic: undefined, subtopic: undefined, microtopic: undefined, nanotopic: undefined }
+
     for (const topicNode of system.topics) {
-      if (query.topicId && topicNode.id !== query.topicId && topicNode.tpcId !== query.topicId) continue
+      if (topicNode.id !== query.topicId && topicNode.tpcId !== query.topicId) continue
+      if (!query.subtopicId) return { system, topic: topicNode, subtopic: undefined, microtopic: undefined, nanotopic: undefined }
+
       for (const subtopicNode of topicNode.subs) {
-        if (query.subtopicId && subtopicNode.id !== query.subtopicId && subtopicNode.subId !== query.subtopicId) continue
+        if (subtopicNode.id !== query.subtopicId && subtopicNode.subId !== query.subtopicId) continue
+        if (!query.microtopicId) return { system, topic: topicNode, subtopic: subtopicNode, microtopic: undefined, nanotopic: undefined }
+
         for (const microtopicNode of subtopicNode.micros) {
-          if (query.microtopicId && microtopicNode.id !== query.microtopicId && microtopicNode.micId !== query.microtopicId) continue
+          if (microtopicNode.id !== query.microtopicId && microtopicNode.micId !== query.microtopicId) continue
           const nanotopicNode = microtopicNode.nanos.find((node) => !query.nanotopicId || node.id === query.nanotopicId || node.nanId === query.nanotopicId)
           return { system, topic: topicNode, subtopic: subtopicNode, microtopic: microtopicNode, nanotopic: nanotopicNode }
         }
-        return { system, topic: topicNode, subtopic: subtopicNode, microtopic: undefined, nanotopic: undefined }
       }
-      return { system, topic: topicNode, subtopic: undefined, microtopic: undefined, nanotopic: undefined }
     }
-    return { system, topic: undefined, subtopic: undefined, microtopic: undefined, nanotopic: undefined }
   }
   return undefined
 }

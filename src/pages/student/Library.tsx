@@ -26,6 +26,9 @@ import {
   Film,
   AudioLines,
   Expand,
+  Bookmark,
+  BookmarkPlus,
+  BookmarkMinus,
 } from 'lucide-react'
 import type { LibBlock } from '@/data/library'
 import type { ArticleMediaRecord } from '@/data/contentControl'
@@ -52,9 +55,7 @@ import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type
 import { ConceptText } from '@/components/concepts/ConceptText'
 import { ConceptChip } from '@/components/concepts/ConceptChip'
 import { apiOpenFile } from '@/lib/api'
-import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
-import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
-import { AtlasNavigation, LibraryLanding, LibraryViewTabs, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
+import { LibraryModuleNav } from '@/components/library/MedicalLibraryAtlas'
 import {
   MarkNotePopover, MarkSelectionToolbar, MarkedPhrase, YourMarksPanel, useArticleMarks,
   type ArticleMarks,
@@ -64,6 +65,7 @@ import { orderedSegments } from '@/lib/library/textAnchor'
 import type { LibraryMark } from '@/data/libraryMarks'
 import { PlacedAsset } from '@/components/ui/PlacedMedia'
 import { useMediaRecords } from '@/lib/useMediaRecords'
+import { Popover } from '@/components/ui/Popover'
 
 /**
  * Article prose, with the search term marked where there is one.
@@ -338,6 +340,56 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
   )
 }
 
+/**
+ * Header control that reveals an article's media without leaving the page.
+ *
+ * Absent when the article has none — a disabled button with nothing behind it
+ * is a dead end dressed up as a control. Pressing it opens a popover in place,
+ * never a second pane, so the student's spot in the prose never moves.
+ */
+function ArticleMediaButton({ media, onOpenMedia, t }: { media: ArticleMediaRecord[]; onOpenMedia: (item: ArticleMediaRecord) => void; t: (value: string) => string }) {
+  const [anchor, setAnchor] = useState<HTMLElement | null>(null)
+  if (!media.length) return null
+  return (
+    <>
+      <Button
+        variant="secondary"
+        size="sm"
+        iconLeft={ImageIcon}
+        onClick={(event) => setAnchor((current) => (current ? null : event.currentTarget))}
+        aria-haspopup="dialog"
+        aria-expanded={Boolean(anchor)}
+      >
+        {t('Media')} · {media.length}
+      </Button>
+      {anchor && (
+        <Popover anchor={anchor} onClose={() => setAnchor(null)} placement="bottom-start" label={t('Media in this article')} className="w-80 max-w-[85vw]">
+          <div className="border-b border-line px-3.5 py-2.5">
+            <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{t('Media in this article')}</p>
+          </div>
+          <ul className="max-h-80 divide-y divide-line overflow-y-auto">
+            {media.map((item) => (
+              <li key={item.id}>
+                <button
+                  type="button"
+                  onClick={() => { setAnchor(null); onOpenMedia(item) }}
+                  className="group flex w-full items-start gap-2.5 px-3.5 py-2.5 text-start transition-colors hover:bg-primary-tint/25"
+                >
+                  <span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset text-ink-3"><Icon icon={MEDIA_ICON[item.type]} size={14} /></span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-[12.5px] font-medium text-ink-2 group-hover:text-ink">{item.caption || item.altText || MEDIA_LABEL[item.type]}</span>
+                    <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{item.anchor?.quote ? `${t('Linked to')} “${item.anchor.quote}”` : t('Whole article')}</span>
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </Popover>
+      )}
+    </>
+  )
+}
+
 /* ---- Reading blocks ---------------------------------------------------- */
 
 function Callout({ tone, title, text, query, media, onOpenMedia, blockId, marks, onOpenMark }: { tone: 'primary' | 'warning'; title: string; text: string; query: string; media?: ArticleMediaRecord[]; onOpenMedia?: (item: ArticleMediaRecord) => void; blockId?: string; marks?: ArticleMarks; onOpenMark?: (mark: LibraryMark, anchor: HTMLElement) => void }) {
@@ -566,7 +618,7 @@ function PersonalTagStrip({
         {tags.map((tag) => (
           <span
             key={tag}
-            className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong"
+            className="inline-flex items-center gap-1 rounded-md border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong"
           >
             {tag}
             <button
@@ -589,7 +641,7 @@ function PersonalTagStrip({
           }}
           placeholder={t('Add a tag…')}
           aria-label={`${t('Add a tag…')} ${articleId}`}
-          className="h-7 min-w-[7rem] rounded-full border border-line bg-surface px-3 text-[12px] text-ink focus:border-primary focus:outline-none"
+          className="h-7 min-w-[7rem] rounded-md border border-line bg-surface px-3 text-[12px] text-ink focus:border-primary focus:outline-none"
         />
       </div>
       {suggestions.length > 0 && (
@@ -599,7 +651,7 @@ function PersonalTagStrip({
             <button
               key={tag}
               onClick={() => add(tag)}
-              className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong"
+              className="rounded-md border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong"
             >
               + {tag}
             </button>
@@ -622,6 +674,8 @@ function Reader({
   onBrowseSubject,
   onBrowseTopic,
   cameFrom,
+  heldIds,
+  onToggleHeld,
 }: {
   article: LiveSubtopic
   tags: string[]
@@ -633,11 +687,14 @@ function Reader({
   onBrowseTopic?: () => void
   /** The article this one was reached from, when it was reached from one. */
   cameFrom?: { title: string; onBack: () => void }
+  /** Ids of every article the student is holding, most recently held first. */
+  heldIds: string[]
+  onToggleHeld: (articleId: string) => void
 }) {
   const t = useT()
   const location = useLocation()
   const [universityCatalogue] = useUniversityCatalogue()
-  const { topics: libraryTopics, updatedAtFor } = useLiveLibrary()
+  const { topics: libraryTopics, subtopics: allSubtopics, updatedAtFor } = useLiveLibrary()
   const st = article
   const id = article.id
   const subject = getSubject(st.subjectId)
@@ -648,7 +705,7 @@ function Reader({
   const [selectedSpanId, setSelectedSpanId] = useState<string | null>(null)
   const selectedSpan = evidence.articleSpans.find((span) => span.id === selectedSpanId)
   const chapterIndex = libraryTopics.find((topic) => topic.id === st.topicId)?.subtopics.findIndex((item) => item.id === id) ?? 0
-  const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('synapse.library.read', {})
+  const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('nishany.library.read', {})
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   // Traps come from the projection, which has already applied the callout
   // evidence policy. Nothing is invented here when an article has none.
@@ -657,6 +714,20 @@ function Reader({
   const isRead = Boolean(readArticles[id])
   const [openMedia, setOpenMedia] = useState<ArticleMediaRecord | null>(null)
   const media = st.media ?? []
+  const isHeld = heldIds.includes(id)
+  /**
+   * The student's holding shelf: everything they are actively working
+   * through, minus the article on screen — seeing it listed under itself
+   * would be a rail pointing nowhere.
+   */
+  const heldShelf = useMemo(
+    () => heldIds
+      .filter((heldId) => heldId !== id)
+      .map((heldId) => allSubtopics.find((item) => item.id === heldId))
+      .filter((item): item is LiveSubtopic => Boolean(item))
+      .slice(0, 6),
+    [allSubtopics, heldIds, id],
+  )
 
   /**
    * Every run of text the student can mark, by the id the reader gives it.
@@ -772,7 +843,7 @@ function Reader({
             iconLeft={NotebookPen}
             onClick={() => {
               try {
-                sessionStorage.setItem('synapse.notebook.capture', JSON.stringify({
+                sessionStorage.setItem('nishany.notebook.capture', JSON.stringify({
                   quote: st.summary,
                   sourceTitle: st.title,
                   articleId: st.id,
@@ -787,6 +858,15 @@ function Reader({
           <ButtonLink to={`/app/qbank?article=${st.id}`} variant="primary" size="sm" iconLeft={ListChecks}>
             {t('Test yourself')}
           </ButtonLink>
+          <ArticleMediaButton media={media} onOpenMedia={setOpenMedia} t={t} />
+          <Button
+            variant={isHeld ? 'secondary' : 'ghost'}
+            size="sm"
+            iconLeft={isHeld ? BookmarkMinus : BookmarkPlus}
+            onClick={() => onToggleHeld(id)}
+          >
+            {isHeld ? t('On your shelf') : t('Hold this article')}
+          </Button>
           <Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'library article', id: st.id, title: st.title })}>{t('Report')}</Button>
         </div>
       </div>
@@ -839,7 +919,7 @@ function Reader({
           iconLeft={NotebookPen}
           onClick={() => {
             try {
-              sessionStorage.setItem('synapse.notebook.capture', JSON.stringify({
+              sessionStorage.setItem('nishany.notebook.capture', JSON.stringify({
                 quote: st.summary,
                 sourceTitle: st.title,
                 articleId: st.id,
@@ -856,6 +936,39 @@ function Reader({
     {/* min-w-0: on mobile the aside shares one grid column with the article, so
         without it the widest sidebar row sets the column width for both. */}
     <aside className="min-w-0 space-y-3 lg:sticky lg:top-[4.75rem]">
+      {/* The shelf of articles the student is holding onto — real, persisted
+          state (`onToggleHeld`), never mocked. The current article is left off
+          its own list; press "Hold this article" above to start filling it. */}
+      {heldShelf.length > 0 && (
+      <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
+        <div className="flex items-center gap-2"><Icon icon={Bookmark} size={15} className="text-primary" /><h2 className="text-[13px] font-semibold text-ink">{t('Your shelf')}</h2></div>
+        <ul className="mt-2.5 divide-y divide-line">
+          {heldShelf.map((heldArticle) => (
+            <li key={heldArticle.id} className="group flex items-start gap-1">
+              <button
+                type="button"
+                onClick={() => onOpenArticle(heldArticle.id)}
+                className="flex min-w-0 flex-1 items-start gap-2.5 py-2.5 text-start"
+              >
+                <span className="mt-1 h-3.5 w-[3px] shrink-0 rounded-full bg-primary" />
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate text-[12.5px] font-medium text-ink-2 group-hover:text-ink">{heldArticle.title}</span>
+                  <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{heldArticle.topicTitle}</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                onClick={() => onToggleHeld(heldArticle.id)}
+                aria-label={`${t('Remove from your shelf')}: ${heldArticle.title}`}
+                className="mt-2.5 grid size-6 shrink-0 place-items-center rounded-md text-ink-3 opacity-0 transition-opacity hover:bg-inset hover:text-danger focus-visible:opacity-100 group-hover:opacity-100"
+              >
+                <Icon icon={X} size={13} />
+              </button>
+            </li>
+          ))}
+        </ul>
+      </section>
+      )}
       <YourMarksPanel marks={marks} onSelect={revealMark} onOpenNote={(mark, anchor) => setOpenNote({ mark, anchor })} />
       {st.keyPoints.length > 0 && (
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
@@ -1005,37 +1118,28 @@ function UserReader({
 export function Library() {
   const t = useT()
   const { subtopics: allSubtopics, availability } = useLiveLibrary()
-  const [taxonomy] = useMedicalTaxonomy()
-  const taxonomyIndex = useMemo(() => indexMedicalTaxonomy(taxonomy), [taxonomy])
   const [params, setParams] = useSearchParams()
   const paramId = params.get('s')
-  const paramView = params.get('view')
-  const paramNode = params.get('node')
-  const initialView: MedicalLibraryView = ['system', 'discipline', 'skills', 'knowledge', 'module', 'year'].includes(paramView ?? '') ? paramView as MedicalLibraryView : paramId ? 'system' : 'module'
   const [userArticles, setUserArticles] = usePersistentState<UserArticle[]>(USER_ARTICLES_KEY, [])
   const [personalTags, setPersonalTags] = usePersistentState<Record<string, string[]>>(PERSONAL_TAGS_KEY, {})
+  // Articles the student is actively holding onto, most recently held first.
+  // A student-side reading shelf — nothing here is authored content.
+  const [heldArticles, setHeldArticles] = usePersistentState<string[]>('nishany.library.held', [])
+  const toggleHeld = (articleId: string) =>
+    setHeldArticles((prev) => (prev.includes(articleId) ? prev.filter((id) => id !== articleId) : [articleId, ...prev].slice(0, 24)))
   const [selectedId, setSelectedId] = useState(allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : '')
-  const [selectedNodeId, setSelectedNodeId] = useState<string | undefined>(() => {
-    if (paramNode && taxonomyIndex.byId.has(paramNode)) return paramNode
-    if (['system', 'discipline', 'skills', 'knowledge'].includes(initialView)) return taxonomyIndex.roots(initialView as Exclude<MedicalLibraryView, 'home' | 'module' | 'year'>)[0]?.id
-    return undefined
-  })
-  const [view, setView] = useState<MedicalLibraryView>(initialView)
   const [treeOpen, setTreeOpen] = useState(false)
   const [creating, setCreating] = useState(false)
   // The rail is a device preference — a wide monitor and a laptop want
-  // different answers.
-  const [railOpen, setRailOpen] = useLocalPreference('synapse.library.rail', true)
+  // different answers. It only ever governs the split view below, reached
+  // once an article is open: with nothing open, the module menu is the whole
+  // page (see `hasSelection`), so a stale "collapsed" preference from a past
+  // session can never leave a student staring at an empty canvas.
+  const [railOpen, setRailOpen] = useLocalPreference('nishany.library.rail', true)
   const railCollapseTimer = useRef<number | null>(null)
   /** Articles jumped from, most recent last — the way back out of "Read next". */
   const [trail, setTrail] = useState<string[]>([])
   const { role } = useIdentity()
-  const atlasArticles = useMemo<AtlasArticle[]>(() => allSubtopics.map((article) => ({ id: article.id, title: article.title, summary: article.summary, subjectId: article.subjectId, topicTitle: article.topicTitle, primaryNodeId: article.primaryNodeId, secondaryNodeIds: article.secondaryNodeIds })), [allSubtopics])
-
-  const defaultNodeFor = (nextView: MedicalLibraryView): string | undefined => {
-    if (nextView === 'home' || nextView === 'module' || nextView === 'year') return undefined
-    return taxonomyIndex.roots(nextView)[0]?.id
-  }
 
   function cancelRailAutoCollapse() {
     if (railCollapseTimer.current != null) window.clearTimeout(railCollapseTimer.current)
@@ -1053,18 +1157,17 @@ export function Library() {
 
   useEffect(() => () => cancelRailAutoCollapse(), [])
 
-  // Follow ?s= when arriving from a question's reference link.
+  // Follow ?s= when arriving from a question's reference link. A `?view=…`
+  // left over from before the library had only one view is simply never
+  // read — the deep link still opens straight to the article either way, and
+  // with nothing to open it lands on the module menu rather than an error or
+  // a blank page.
   useEffect(() => {
     if (paramId && allSubtopics.some((s) => s.id === paramId)) {
       setSelectedId(paramId)
-      const article = allSubtopics.find((item) => item.id === paramId)
-      const node = article?.primaryNodeId ? taxonomyIndex.byId.get(article.primaryNodeId) : undefined
-      if (node) {
-        setSelectedNodeId(node.id)
-        setView(node.division)
-      } else if (view === 'home') setView('system')
+      setRailOpen(true)
     }
-  }, [allSubtopics, paramId, taxonomyIndex, view])
+  }, [allSubtopics, paramId, setRailOpen])
 
   const reusableTags = useMemo(() => {
     const set = new Set<string>()
@@ -1081,33 +1184,22 @@ export function Library() {
     })
 
   const selectedUserArticle = userArticles.find((a) => a.id === selectedId)
-
-  const openView = (nextView: Exclude<MedicalLibraryView, 'home'>, nodeId?: string) => {
-    cancelRailAutoCollapse()
-    setView(nextView)
-    setSelectedId('')
-    const nextNodeId = nodeId ?? defaultNodeFor(nextView)
-    setSelectedNodeId(nextNodeId)
-    const next = new URLSearchParams()
-    next.set('view', nextView)
-    if (nextNodeId) next.set('node', nextNodeId)
-    setParams(next)
-  }
+  const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
+  // Deciding by what actually resolved rather than by the raw id covers the
+  // same case a bad `?view=` used to: a `selectedId` left over from a link or
+  // an id that stopped resolving (unpublished, archived, deleted) reads as
+  // "nothing selected" too, so it falls back to the module menu rather than
+  // an empty split view with no reader in it.
+  const hasSelection = Boolean(selectedUserArticle || selectedPublishedArticle)
 
   /** Navigate to an article. Says nothing about how the student got there. */
   const showArticle = (articleId: string) => {
-    const article = allSubtopics.find((item) => item.id === articleId)
-    const node = article?.primaryNodeId ? taxonomyIndex.byId.get(article.primaryNodeId) : undefined
-    const nextView: MedicalLibraryView = node?.division ?? (view === 'home' || view === 'module' || view === 'year' ? 'system' : view)
-    setView(nextView)
-    setSelectedNodeId(node?.id)
+    if (!allSubtopics.some((item) => item.id === articleId) && !userArticles.some((item) => item.id === articleId)) return
     setSelectedId(articleId)
     setRailOpen(true)
     scheduleRailAutoCollapse()
     const next = new URLSearchParams()
-    next.set('view', nextView)
     next.set('s', articleId)
-    if (node) next.set('node', node.id)
     setParams(next)
   }
 
@@ -1137,77 +1229,46 @@ export function Library() {
     showArticle(previous)
   }
 
-  const changeView = (nextView: MedicalLibraryView) => {
+  /** Close whatever is open and return to the module menu. Also the one
+   *  place a stray `?view=`/`?node=` from a pre-module-only link is dropped. */
+  const closeArticle = () => {
     cancelRailAutoCollapse()
-    if (nextView === 'home') {
-      setView('home')
-      setSelectedId('')
-      setSelectedNodeId(undefined)
-      setParams(new URLSearchParams())
-      return
-    }
-    openView(nextView)
-  }
-
-  const selectNode = (nodeId: string) => {
-    const node = taxonomyIndex.byId.get(nodeId)
-    if (!node) return
-    // A topic is a step in browsing, not the end of it: the tree stays.
-    cancelRailAutoCollapse()
-    setRailOpen(true)
-    setTrail([])
-    setSelectedNodeId(nodeId)
     setSelectedId('')
-    setView(node.division)
-    const next = new URLSearchParams()
-    next.set('view', node.division)
-    next.set('node', nodeId)
-    setParams(next)
+    setTrail([])
+    setRailOpen(true)
+    setParams(new URLSearchParams())
   }
 
-  // "On a route" means a view has been chosen or an article opened — the two
-  // states in which the tab strip is a navigation aid rather than a duplicate.
-  const onRoute = view !== 'home' || Boolean(selectedId)
   const cameFromArticle = allSubtopics.find((item) => item.id === trail[trail.length - 1])
-  const selectedNode = selectedNodeId ? taxonomyIndex.byId.get(selectedNodeId) : undefined
-  const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
-  // The top of the open article's branch — where "Cardiovascular System" in its
-  // breadcrumb should lead. Undefined for an article with no placement, in which
-  // case that crumb stays plain text rather than pretending to be a link.
-  const placementRoot = selectedPublishedArticle?.primaryNodeId
-    ? taxonomyIndex.lineage(selectedPublishedArticle.primaryNodeId)[0]?.id
-    : undefined
 
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
-        {/* The topic tree's toggle, directly above the tree it opens. It used to
-            sit at the far right of this header — the full width of the page away
-            from the panel it controls, on the opposite side from where that
-            panel appears. */}
-        {onRoute && (
-          <MenuToggle
-            open={railOpen}
-            onToggle={() => {
-              cancelRailAutoCollapse()
-              setRailOpen((current) => !current)
-            }}
-            label="topics"
-            direction="vertical"
-            className="shrink-0 max-lg:hidden"
-          />
+        {/* Always live: pressing it while reading returns to the module menu,
+            and it also clears any stray query params a bookmarked pre-refit
+            link might still carry. */}
+        <button type="button" className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0 sm:min-w-0 sm:justify-start" onClick={closeArticle}><Icon icon={BookOpen} size={16} className="text-primary" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
+        <span className="flex-1" />
+        {/* The rail toggle and the mobile drawer only make sense once there is
+            a reader on screen for them to sit beside — with nothing open the
+            module menu already fills the page, so offering a way to "open the
+            menu" would be offering to open what the student is already
+            looking at. */}
+        {hasSelection && (
+          <>
+            <MenuToggle
+              open={railOpen}
+              onToggle={() => {
+                cancelRailAutoCollapse()
+                setRailOpen((current) => !current)
+              }}
+              label="modules"
+              direction="vertical"
+              className="shrink-0 max-lg:hidden"
+            />
+            <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse modules')}</Button>
+          </>
         )}
-        <button type="button" className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0 sm:min-w-0 sm:justify-start" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-primary" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
-        {/* The home state offers these same five routes as cards in the page.
-            Showing them as tabs at the same time was two menus for one choice,
-            so the strip appears only once a route has been picked — and then
-            folded away, because the route was just chosen on the page behind it.
-            It reopens from the same three lines the rest of the app uses. */}
-        {onRoute && <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />}
-        {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
-        {onRoute ? <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" /> : <span className="flex-1" />}
-        <span className="flex-1 sm:hidden" />
-        {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
         {/* Authoring belongs to the console, not to one role within it. A
             student's own notes belong in the notebook, which is where they
             already are. */}
@@ -1225,12 +1286,23 @@ export function Library() {
                 : t('Your library is being written. Reviewed articles will appear here as they are published.'),
             }}
           />
-        ) : view === 'home' && !selectedId ? <LibraryLanding taxonomy={taxonomy} articles={atlasArticles} onOpenView={openView} onOpenArticle={openArticle} /> : (
+        ) : !hasSelection ? (
+          // No article open: the module menu itself is the page, on every
+          // screen size — never a placeholder pointing at a menu that might
+          // be collapsed or hidden behind a drawer. This is what closes the
+          // empty-canvas gap: there is no state left in which nothing is open
+          // and nothing is visible either.
+          <div className="h-full min-h-0 overflow-y-auto">
+            <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={openArticle} variant="landing" />
+          </div>
+        ) : (
           <div className="flex h-full min-h-0">
             {/* Width rather than presence, so opening and closing the tree is a
                 movement instead of a jump. The inner column keeps its own width
                 while the outer one animates, or the tree would reflow itself
-                narrower on every frame of its own collapse. */}
+                narrower on every frame of its own collapse. Only reachable with
+                an article open — see `hasSelection` above — so collapsing it
+                never leaves the page blank. */}
             <div
               inert={!railOpen}
               onMouseEnter={cancelRailAutoCollapse}
@@ -1241,64 +1313,57 @@ export function Library() {
               )}
             >
               <div className="grid h-full min-h-0 w-72 grid-cols-1">
-                <AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={selectNode} onArticleSelect={openArticle} />
+                <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={openArticle} />
               </div>
             </div>
             <main className="min-w-0 flex-1 overflow-y-auto">
               {selectedUserArticle ? (
-          <UserReader
-            article={selectedUserArticle}
-            tags={personalTags[selectedUserArticle.id] ?? []}
-            reusable={reusableTags}
-            onTagsChange={(next) => setTagsFor(selectedUserArticle.id, next)}
-            onDelete={() => {
-              setUserArticles((prev) => prev.filter((a) => a.id !== selectedUserArticle.id))
-              setTagsFor(selectedUserArticle.id, [])
-              setSelectedId('')
-            }}
-            query=""
-          />
-        ) : selectedPublishedArticle ? (
-          <Reader
-            article={selectedPublishedArticle}
-            tags={personalTags[selectedId] ?? []}
-            reusable={reusableTags}
-            onTagsChange={(next) => setTagsFor(selectedId, next)}
-            query=""
-            onOpenArticle={openRelatedArticle}
-            onBrowseSubject={placementRoot ? () => selectNode(placementRoot) : undefined}
-            onBrowseTopic={selectedPublishedArticle.primaryNodeId ? () => selectNode(selectedPublishedArticle.primaryNodeId!) : undefined}
-            cameFrom={cameFromArticle ? { title: cameFromArticle.title, onBack: goBackInTrail } : undefined}
-          />
-        ) : view === 'module' || view === 'year' ? (
-          <div className="grid min-h-full place-items-center px-6 py-10 text-center">
-            <div className="max-w-md">
-              <span className="mx-auto grid size-11 place-items-center rounded-xl bg-primary-tint text-primary-strong"><Icon icon={BookOpen} size={20} /></span>
-              <h1 className="mt-4 font-serif text-[22px] font-semibold text-ink">{view === 'module' ? t('Choose a module article') : t('Choose a year article')}</h1>
-              <p className="mt-2 text-[13px] leading-relaxed text-ink-3">{t('Use the library tree to open material scoped to your registered university and year.')}</p>
-            </div>
-          </div>
-        ) : (
-          <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} onSelectNode={selectNode} />
-        )}
+                <UserReader
+                  article={selectedUserArticle}
+                  tags={personalTags[selectedUserArticle.id] ?? []}
+                  reusable={reusableTags}
+                  onTagsChange={(next) => setTagsFor(selectedUserArticle.id, next)}
+                  onDelete={() => {
+                    setUserArticles((prev) => prev.filter((a) => a.id !== selectedUserArticle.id))
+                    setTagsFor(selectedUserArticle.id, [])
+                    setSelectedId('')
+                  }}
+                  query=""
+                />
+              ) : selectedPublishedArticle ? (
+                <Reader
+                  article={selectedPublishedArticle}
+                  tags={personalTags[selectedId] ?? []}
+                  reusable={reusableTags}
+                  onTagsChange={(next) => setTagsFor(selectedId, next)}
+                  query=""
+                  onOpenArticle={openRelatedArticle}
+                  cameFrom={cameFromArticle ? { title: cameFromArticle.title, onBack: goBackInTrail } : undefined}
+                  heldIds={heldArticles}
+                  onToggleHeld={toggleHeld}
+                />
+              ) : null}
             </main>
           </div>
         )}
       </div>
 
-      {/* Mobile navigator */}
+      {/* Mobile navigator — reached only while reading, to jump to a
+          different module article without losing your place. With nothing
+          open the module menu already fills the page above, full width. */}
       {treeOpen && overlayPortal(
         <div className="fixed inset-0 z-40 lg:hidden">
           <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={() => setTreeOpen(false)} aria-label={t('Close library navigation')} />
           <div className="animate-slide-x absolute inset-y-0 start-0 flex w-[min(22rem,90vw)] flex-col bg-surface shadow-pop">
             <div className="flex h-12 items-center justify-between border-b border-line px-4">
-              <span className="font-serif text-[16px] font-semibold text-ink">{t('Library')}</span>
+              <span className="font-serif text-[16px] font-semibold text-ink">{t('Your modules')}</span>
               <button type="button" onClick={() => setTreeOpen(false)} className="grid size-9 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close library navigation">
                 <Icon icon={X} size={18} />
               </button>
             </div>
-            <div className="border-b border-line px-2 py-2"><LibraryViewTabs view={view} onViewChange={(next) => { changeView(next); if (next === 'home') setTreeOpen(false) }} /></div>
-            <div className="grid min-h-0 flex-1 grid-cols-1"><AtlasNavigation taxonomy={taxonomy} articles={atlasArticles} view={view === 'home' ? 'system' : view} selectedNodeId={selectedNodeId} selectedArticleId={selectedId} onNodeSelect={(nodeId) => { selectNode(nodeId); setTreeOpen(false) }} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} /></div>
+            <div className="grid min-h-0 flex-1 grid-cols-1">
+              <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} />
+            </div>
           </div>
         </div>
       )}
@@ -1311,7 +1376,6 @@ export function Library() {
           setUserArticles((prev) => [article, ...prev])
           if (article.tags.length) setTagsFor(article.id, article.tags)
           setSelectedId(article.id)
-          setView('system')
         }}
       />
     </div>

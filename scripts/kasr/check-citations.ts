@@ -44,7 +44,7 @@ const known = new Set<string>(manifest.sources.map((source: { sourceId: string }
 const LIVE = 'server/data/medical-library-v1.json'
 let live = new Set<string>()
 try {
-  const state = JSON.parse(readFileSync(LIVE, 'utf8')).states['synapse-medical-evidence-v1']
+  const state = JSON.parse(readFileSync(LIVE, 'utf8')).states['nishany-medical-evidence-v1']
   live = new Set<string>((state?.resources ?? []).map((r: { id: string }) => r.id))
 } catch {
   // No live state in this checkout — every ID is then judged against the

@@ -1,24 +1,42 @@
 import { createHash } from 'node:crypto'
 
 export const ACADEMIC_STATE_KEYS = [
-  'synapse-academic-universities-v1',
-  'synapse-course-curricula-v1',
-  'synapse-module-schedules-v1',
-  'synapse-module-subjects-v1',
-  'synapse-assessment-schemes-v1',
-  'synapse-academic-source-provenance-v1',
+  'nishany-academic-universities-v1',
+  'nishany-course-curricula-v1',
+  'nishany-module-schedules-v1',
+  'nishany-module-subjects-v1',
+  'nishany-assessment-schemes-v1',
+  'nishany-academic-source-provenance-v1',
 ]
 
-export const UNIVERSITY_KEY = 'synapse-academic-universities-v1'
-export const CURRICULA_KEY = 'synapse-course-curricula-v1'
-export const SCHEDULE_KEY = 'synapse-module-schedules-v1'
-export const SUBJECTS_KEY = 'synapse-module-subjects-v1'
-export const ASSESSMENT_SCHEMES_KEY = 'synapse-assessment-schemes-v1'
-export const PROVENANCE_KEY = 'synapse-academic-source-provenance-v1'
+export const UNIVERSITY_KEY = 'nishany-academic-universities-v1'
+export const CURRICULA_KEY = 'nishany-course-curricula-v1'
+export const SCHEDULE_KEY = 'nishany-module-schedules-v1'
+export const SUBJECTS_KEY = 'nishany-module-subjects-v1'
+export const ASSESSMENT_SCHEMES_KEY = 'nishany-assessment-schemes-v1'
+export const PROVENANCE_KEY = 'nishany-academic-source-provenance-v1'
 
 const DEFAULT_TERM = 'Term 1'
 const HIDDEN_STATES = new Set(['draft', 'conflicted'])
 const REVIEW_ONLY_STATES = new Set(['ambiguous'])
+
+/**
+ * A module's schedule is invisible to students until an admin explicitly
+ * publishes it. The flag lives inside the SCHEDULE_KEY document itself, under
+ * one reserved key mapping module key -> boolean (see
+ * `src/data/moduleSchedule.ts`, which owns the same convention client-side),
+ * rather than on the per-module block array — a plain array has no room for
+ * metadata. A module missing from that map is unpublished: that is the
+ * migration for every schedule saved before this existed, and needs no
+ * rewrite.
+ */
+export const SCHEDULE_PUBLISH_STATE_KEY = '__schedulePublishState__'
+
+export function isSchedulePublished(scheduleDoc, key) {
+  if (!key) return false
+  const state = scheduleDoc?.[SCHEDULE_PUBLISH_STATE_KEY]
+  return Boolean(state && typeof state === 'object' && state[key] === true)
+}
 
 const HELWAN_YEAR_ONE_ID = 'HU_Y1'
 const HELWAN_YEAR_ONE_TOKENS = [
@@ -389,7 +407,11 @@ export function studentUniversityProjection(profile, academicDocuments) {
     if (isHiddenRecord(provenance)) continue
     const { subjects, coverage: subjectCoverage } = subjectTreeAndCoverage(moduleSubjects)
     const coverage = compactSelection(mergeSelection({ ...subjectCoverage }, moduleCurriculum))
-    const schedule = asArray(moduleSchedule).map(scheduleProjection).filter(Boolean)
+    // A schedule with content that has never been published stays out of the
+    // student projection entirely — the module still shows up, just with no
+    // timetable rows, which the client already renders as "schedule pending."
+    const schedulePublished = isSchedulePublished(docs[SCHEDULE_KEY], key) || isSchedulePublished(docs[SCHEDULE_KEY], legacyKey)
+    const schedule = schedulePublished ? asArray(moduleSchedule).map(scheduleProjection).filter(Boolean) : []
     const term = String(course.term ?? course.block ?? DEFAULT_TERM)
     const entry = {
       id: course.id,

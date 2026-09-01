@@ -58,7 +58,7 @@ export function readConfig(env = process.env) {
   return {
     keyId: (env.APNS_KEY_ID || '').trim(),
     teamId: (env.APNS_TEAM_ID || '').trim(),
-    bundleId: (env.APNS_BUNDLE_ID || 'com.synapse.app').trim(),
+    bundleId: (env.APNS_BUNDLE_ID || 'com.nishany.app').trim(),
     // Accepted either as the PEM itself or base64-encoded, because a private
     // key with newlines in it survives very few deployment forms intact.
     key: key.includes('BEGIN') ? key : decodeBase64Key(key),
@@ -130,7 +130,7 @@ export function buildPayload(key) {
   return JSON.stringify({ aps: { 'content-available': 1 }, k: key ?? null })
 }
 
-async function post({ host, token, deviceToken, payload, config }) {
+async function post({ host, token, deviceToken, payload, config, pushType = 'background', priority = '5' }) {
   return new Promise((resolve) => {
     const client = http2.connect(host)
     // Without this a gateway that never answers holds a connection, and enough
@@ -150,8 +150,11 @@ async function post({ host, token, deviceToken, payload, config }) {
       ':path': `/3/device/${deviceToken}`,
       authorization: `bearer ${token}`,
       'apns-topic': config.bundleId,
-      'apns-push-type': 'background',
-      'apns-priority': '5',
+      // 'background'/5 for the silent sync nudge (Apple rejects priority 10
+      // for a silent push); 'alert'/10 for a visible reminder — the caller
+      // decides, but a call that says nothing gets the nudge's own behaviour.
+      'apns-push-type': pushType,
+      'apns-priority': priority,
       'content-type': 'application/json',
     })
 
@@ -236,6 +239,61 @@ export async function sendSilentNudge({ userId, exceptToken = null, key = null, 
   }
 
   return { sent, of: devices.length }
+}
+
+/* ── Visible reminders ───────────────────────────────────────────────────── */
+
+/**
+ * The payload for a reminder someone is meant to see.
+ *
+ * Unlike `buildPayload`, this carries content — that is the whole point of a
+ * visible push — so it carries only what the notification already says: a
+ * title, a body, and where a tap should go. Nothing else about the student
+ * rides along.
+ */
+export function buildAlertPayload(notification) {
+  return JSON.stringify({
+    aps: { alert: { title: notification.title, body: notification.body }, sound: 'default' },
+    path: notification.path,
+  })
+}
+
+/**
+ * "Your Question of the Day is waiting" — a reminder, not a sync signal.
+ *
+ * Reuses everything `sendSilentNudge` does to reach Apple's gateway: the
+ * provider token, the per-device sandbox/production host, the dead-token
+ * cleanup. It differs only in what it asks Apple to do with the push —
+ * `alert`/`10` instead of `background`/`5`, because a reminder nobody sees is
+ * not a reminder. No-op until APNs is configured, and never throws: a failed
+ * push must not fail the dispatch loop that is still sending everyone else's.
+ */
+export async function sendApnsAlert(device, notification) {
+  const config = readConfig()
+  if (!isConfigured(config) || !device?.token) return false
+
+  const token = providerToken(config)
+  const host = device.environment === 'sandbox' ? SANDBOX : PRODUCTION
+  const payload = buildAlertPayload(notification)
+
+  let result
+  try {
+    result = await post({
+      host, token, deviceToken: device.token, payload, config, pushType: 'alert', priority: '10',
+    })
+  } catch {
+    return false
+  }
+
+  if (result.status === 200) return true
+  if (isTokenDead(result.status, result.reason)) {
+    // Same reasoning as the silent nudge: Apple says this device is gone, and
+    // the row would otherwise sit there for years addressed to a deleted app.
+    try {
+      await pool.query('DELETE FROM device_tokens WHERE token = ?', [device.token])
+    } catch { /* the row can go next time */ }
+  }
+  return false
 }
 
 /** Test seam: the debounce is process-wide and would otherwise leak between tests. */

@@ -18,7 +18,7 @@ import type { AllocationNeed } from './config.ts'
 import { ALLOCATION_NEEDS } from './config.ts'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const STUDY_PLAN_STORAGE_KEY = 'synapse.progress.adaptive.plan.v1'
+export const STUDY_PLAN_STORAGE_KEY = 'nishany.progress.adaptive.plan.v1'
 
 export type TaskTier = 'minimum' | 'recommended' | 'stretch'
 
@@ -286,7 +286,7 @@ function reasonFor(need: AllocationNeed, concepts: number): string {
     case 'weakness': return `Repeated evidence points to gaps here.${scope}`
     case 'coverage': return `These blueprint areas have had little or no practice.${scope}`
     case 'review': return `Scheduled before this is likely to fade.${scope}`
-    case 'uncertainty': return `Nothing yet measures these, so a short check tells Maristana where you stand.${scope}`
+    case 'uncertainty': return `Nothing yet measures these, so a short check tells Nishany where you stand.${scope}`
   }
 }
 

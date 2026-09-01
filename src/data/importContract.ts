@@ -280,7 +280,7 @@ export const OSCE_MAP = {
   difficulty: 'difficulty',
 }
 
-export const CASE_MAP = { ...PRACTICAL_COMMON_MAP, format: 'type', decisions: 'decisions', debrief: 'debrief' }
+export const CASE_MAP = { ...PRACTICAL_COMMON_MAP, format: 'type', decisions: 'decisions', debrief: 'debrief', vitals: 'vitals' }
 
 export const LAB_MAP = { ...PRACTICAL_COMMON_MAP, format: 'type', subtype: 'lab_subtype', questions: 'lab_questions' }
 

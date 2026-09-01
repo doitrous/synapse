@@ -1,6 +1,6 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose'
 import { pool } from './db.js'
-import { effectiveRole, hasConsoleAccess, parseSuperAdminEmails, rank } from './roles.js'
+import { effectiveRole, hasConsoleAccess, mfaEnforced, parseSuperAdminEmails, rank } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForRole } from './tabs.js'
 
 const supabaseUrl = process.env.SUPABASE_URL?.replace(/\/$/, '')
@@ -87,8 +87,9 @@ async function supabaseIdentity(token) {
     // confined, and a reviewer with nothing assigned holds nothing.
     contentScope: rank(role) >= 2 ? null : readContentScope(access.content_scope),
     aal: payload.aal === 'aal2' ? 'aal2' : 'aal1',
-    // Kept for students who asked for a second factor voluntarily. Console
-    // roles are held to aal2 regardless — see `mfaSatisfied`.
+    // Kept for students and reviewers who asked for a second factor
+    // voluntarily. Admin and above are held to aal2 regardless — see
+    // `mfaSatisfied`.
     mfaRequired: Boolean(access.mfa_required),
   }
 }
@@ -177,17 +178,19 @@ export async function apiAuthGate(req, res, next) {
 /**
  * Whether this identity has cleared its second-factor requirement.
  *
- * MFA used to be opt-in for everyone. It is now a consequence of rank: any
- * account that can open the console must present aal2, because the console
- * decides who else can open it. The `mfa_required` column survives for students
- * who asked for a second factor voluntarily.
+ * MFA used to be opt-in for everyone. For most console roles it is now a
+ * consequence of rank: any account that can hand out console access — admin and
+ * above — must present aal2. `reviewer` is deliberately exempt: it can open the
+ * console but holds no role-management power, so it is not forced to enrol and
+ * falls through to the opt-in path like a student. The `mfa_required` column
+ * survives for anyone — student or reviewer — who asked for a factor voluntarily.
  *
  * Exported because `GET /api/state/:key` repeats the check inline and the two
  * must never disagree about what counts as sufficient.
  */
 export function mfaSatisfied(identity) {
   if (!identity) return false
-  if (hasConsoleAccess(identity.role)) return identity.aal === 'aal2'
+  if (mfaEnforced(identity.role)) return identity.aal === 'aal2'
   return !identity.mfaRequired || identity.aal === 'aal2'
 }
 

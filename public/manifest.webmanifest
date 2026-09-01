@@ -1,0 +1,22 @@
+{
+  "name": "Nishany",
+  "short_name": "Nishany",
+  "description": "Egyptian university curricula, internationally grounded clinical practice, and a study workspace that stays with you.",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#f5f7fb",
+  "background_color": "#f5f7fb",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/nishany-mark.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

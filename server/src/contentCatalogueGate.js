@@ -1,6 +1,6 @@
 import { pool } from './db.js'
 
-const LOCK_NAME = 'synapse-question-catalogue-mutation-v1'
+const LOCK_NAME = 'nishany-question-catalogue-mutation-v1'
 
 // Do not let same-process waiters each occupy one connection from the shared
 // pool while MariaDB serializes them. One local contender reaches GET_LOCK at

@@ -18,13 +18,23 @@ const H: Record<'sm' | 'md' | 'lg', string> = {
   lg: 'h-2.5',
 }
 
-/** A linear reading against a track. Tick marks make it read as a scale. */
+/**
+ * A linear reading against a track. Tick marks make it read as a scale.
+ *
+ * `target` draws the "approach" device from the brand's target-as-progress
+ * vocabulary: a hollow bullseye waiting just past the track's end, and a
+ * crimson leading dot riding the fill edge toward it. Only meaningful for a
+ * goal-like meter (e.g. "reviews cleared") — a plain distribution bar should
+ * leave it off. Default behaviour with the prop unset is unchanged: the
+ * returned element is still the bare track div, nothing wraps it.
+ */
 export function Meter({
   value,
   max = 100,
   tone = 'primary',
   size = 'md',
   ticks = false,
+  target = false,
   className,
 }: {
   value: number
@@ -32,6 +42,7 @@ export function Meter({
   tone?: Tone
   size?: 'sm' | 'md' | 'lg'
   ticks?: boolean
+  target?: boolean
   className?: string
 }) {
   const p = clamp((value / max) * 100, 0, 100)
@@ -40,10 +51,16 @@ export function Meter({
     const id = requestAnimationFrame(() => setW(p))
     return () => cancelAnimationFrame(id)
   }, [p])
+  const earned = target && p >= 100
 
-  return (
+  const track = (
     <div
-      className={cn('relative w-full overflow-hidden rounded-full bg-inset', H[size], className)}
+      className={cn(
+        'relative overflow-hidden rounded-full bg-inset',
+        H[size],
+        target ? 'min-w-0 flex-1' : 'w-full',
+        !target && className,
+      )}
       role="meter"
       aria-valuenow={Math.round(value)}
       aria-valuemin={0}
@@ -65,6 +82,27 @@ export function Meter({
             aria-hidden
           />
         ))}
+      {target && !earned && (
+        <span
+          aria-hidden
+          className="absolute top-1/2 size-2.5 -translate-y-1/2 -translate-x-1/2 rtl:translate-x-1/2 rounded-full bg-primary ring-2 ring-surface"
+          style={{ insetInlineStart: `${w}%` }}
+        />
+      )}
+    </div>
+  )
+
+  if (!target) return track
+
+  return (
+    <div className={cn('flex items-center gap-2', className)}>
+      {track}
+      <span
+        aria-hidden
+        className="relative grid size-3.5 shrink-0 place-items-center rounded-full border-[1.5px] border-accent-line"
+      >
+        <span className={cn('size-1.5 rounded-full transition-colors duration-300', earned ? 'bg-primary' : 'bg-inset')} />
+      </span>
     </div>
   )
 }

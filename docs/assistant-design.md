@@ -6,7 +6,7 @@ The in-app assistant for students. Built with the method from the
 directly rather than through its five-agent pipeline.
 
 The harness assumes a task bot: an intent classifier, a slot filler, a
-scripted flow per intent. Synapse's assistant is an LLM, so the taxonomy below
+scripted flow per intent. Nishany's assistant is an LLM, so the taxonomy below
 is not a classifier to train. It is the **contract the system prompt is written
 against and the test suite is written from** — the set of things the assistant
 must handle, and the shape of the answer for each.
@@ -31,7 +31,7 @@ no bulleted summary of what it is about to say before it says it.
 
 ### The one thing it must never be
 
-Synapse is **not clinical guidance** and neither is the assistant. Anything
+Nishany is **not clinical guidance** and neither is the assistant. Anything
 that reads as a request for a decision about a real patient gets refused, in
 both languages, without exception and without hedging. That is `safety.clinical`
 below, and it is the highest-priority intent — it is checked before the
@@ -71,7 +71,7 @@ behaviours that genuinely differ.
 | Intent | Trigger | Behaviour |
 |---|---|---|
 | `meta.smalltalk` | Greeting, thanks, "who are you" | One line, then offer the three things it is good at |
-| `meta.out_of_scope` | Anything not medical study or Synapse | Declines in one sentence, names what it does cover |
+| `meta.out_of_scope` | Anything not medical study or Nishany | Declines in one sentence, names what it does cover |
 | `safety.clinical` | **Any** request for a decision about a real person | Refuses. See below. |
 | `fallback.unclear` | Nothing above fits | Level 1 of the fallback ladder |
 
@@ -155,7 +155,7 @@ Defaults, all editable in Admin → AI Assistant:
 |---|---|---|
 | `free` | 10 | Matches the free plan's 10 questions a day |
 | `qbank` | 60 | Enough to lean on it through a study session |
-| `adaptive` | 200 | The plan whose whole promise is that Synapse plans for you |
+| `adaptive` | 200 | The plan whose whole promise is that Nishany plans for you |
 | `sprint` | 200 | Exam-period intensity |
 | `campus` | 200 | Institutional |
 | *(unknown plan)* | falls back to `free` | Fails closed |

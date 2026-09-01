@@ -1,4 +1,5 @@
 import { MEDIA_STATE_KEY, isMediaReleased } from './mediaLibrary.js'
+import { SCHEDULE_KEY, SCHEDULE_PUBLISH_STATE_KEY, isSchedulePublished } from './academic.js'
 
 /**
  * What a student is allowed to receive of the admin content ledger.
@@ -101,6 +102,10 @@ export const PUBLIC_FIELDS = new Set([
   'references', 'conceptTags', 'format', 'candidateInstructions',
   'actorOpening', 'actorSections', 'actorFlags', 'markSections', 'difficulty',
   'decisions', 'debrief', 'subtype', 'questions',
+  // A clinical case's vital-signs strip. The student reasons about the case from
+  // it — it renders in the practical runner (VitalsStrip) — so it is presented,
+  // not withheld, exactly like candidateInstructions and decisions above.
+  'vitals',
   // The image a station or a case decision turns on. A student cannot answer
   // "what does this film show" without the film.
   'mediaUrl', 'mediaType', 'mediaMimeType',
@@ -132,6 +137,13 @@ export const PUBLIC_FIELDS = new Set([
   'examRelevance', 'contextualConceptIds', 'questionType', 'mainConceptIds',
   'clinicalRelevance', 'academicRelevance', 'cognitiveEffortScore',
   'examWeightByYear', 'questionOnlyFor',
+  // The student-facing MCQ source bucket (Department MCQs / Department Book /
+  // Past Papers). Deliberately public and distinct from the private `source`/
+  // `sourceCitation` provenance above: the student filters tests by it and sees
+  // per-source coverage, so it must survive redaction to reach their screen —
+  // withholding it would leave `Question.source` empty in live mode and break
+  // the feature. It names a source *category*, never which paper an item came from.
+  'sourceCategory',
 ])
 
 /** Remove every private key at any depth, leaving the rest untouched. */
@@ -490,8 +502,38 @@ export function redactMediaForStudent(document) {
   }
 }
 
+/**
+ * What a student is allowed to receive of the raw module-schedule store.
+ *
+ * The document is one map from module key (current and legacy forms both
+ * appear as literal keys) to that module's array of schedule blocks, plus one
+ * reserved key — `SCHEDULE_PUBLISH_STATE_KEY` — recording which of those module
+ * keys an admin has published. `studentUniversityProjection` in `academic.js`
+ * already withholds a module's blocks from its own student-facing projection
+ * until that flag is set; this document was never supposed to bypass that by
+ * being independently readable at `/api/state/nishany-module-schedules-v1`,
+ * which returns the store as stored — every module's blocks, published or not.
+ *
+ * This applies the identical rule at the one other place blocks leave the
+ * server, using the same helper (`isSchedulePublished`) so the two decisions
+ * cannot drift. The publish-state map itself stays intact: it names which
+ * modules are published, not what is inside them, and the admin schedule
+ * editor reads this same key unredacted (see `/api/state/:key` in
+ * `index.js`, which only calls this for non-console callers) so leaving it
+ * shaped identically for both audiences keeps one client contract.
+ */
+export function redactModuleSchedulesForStudent(document) {
+  if (!document || typeof document !== 'object' || Array.isArray(document)) return document
+  const out = {}
+  for (const [key, value] of Object.entries(document)) {
+    out[key] = key === SCHEDULE_PUBLISH_STATE_KEY || isSchedulePublished(document, key) ? value : []
+  }
+  return out
+}
+
 /** The keys that need redacting on the way out, by key name. */
 export const REDACTED_STATE_KEYS = new Map([
-  ['synapse-admin-content-ledger-v4', redactLedgerForStudent],
+  ['nishany-admin-content-ledger-v4', redactLedgerForStudent],
   [MEDIA_STATE_KEY, redactMediaForStudent],
+  [SCHEDULE_KEY, redactModuleSchedulesForStudent],
 ])

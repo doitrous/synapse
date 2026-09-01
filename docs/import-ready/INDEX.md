@@ -19,12 +19,12 @@ filename alone never did.
 | Folder | Admin page | Files | Records |
 |---|---|---:|---:|
 | [`academic/`](academic/) | Academic setup › Import | 2 | 54 |
-| [`concept/`](concept/) | Concepts › Import | 31 | 1111 |
-| [`article/`](article/) | Bulk import → **article** | 29 | 220 |
-| [`question/`](question/) | Bulk import → **question** | 35 | 2704 |
+| [`concept/`](concept/) | Concepts › Import | 37 | 1250 |
+| [`article/`](article/) | Bulk import → **article** | 35 | 256 |
+| [`question/`](question/) | Bulk import → **question** | 41 | 2874 |
 | [`practical/`](practical/) | Bulk import → **practical** | 36 | 200 |
 | [`relations/`](relations/) | Relationships › Import | 3 | 500 |
-| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span | 47 | 2981 |
+| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span (1 file is the "A" catalogue schema, imported at **Bulk import → resource** instead — see AU-MED-105) | 73 | 3345 |
 | [`subjects/`](subjects/) | Taxonomy › Import | — | — |
 | [`glossary/`](glossary/) | Glossary › Import | 7 | 480 |
 | [`resource/`](resource/) | Bulk import → **resource** | — | — |
@@ -845,11 +845,495 @@ relations batch in this pass claims.
 
 ---
 
+### Ain Shams University ASU-INF (Microbiology, full module, Chapters 1-10) — 8 files across 4 folders
+
+Staged 2026-08-28 by the chief-of-staff staging lane, from the completed authoring branch
+`asu-inf-author3` (HEAD `d248b43b`, five blocks A-E across four commits). Copied verbatim
+from `docs/Ain-Shams-Source-Imports/{resource,article,concept,evidence,question}/ASU-INF-*`
+— the *only* edits made after copying were a law-of-voice wording pass and adding missing
+`field_notes` reasons, both described below, both independently re-verified with the gates
+unchanged (0 errors, same item counts) after each edit.
+
+**Apply in this order** (`academic/asu-modules.md` — ASU selected — must already be applied
+so `ASU-INF` exists):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/ASU-INF-microbiology-sources.md` | Bulk import evidence · Resource | 1 (the source PDF; this is the *evidence*-kind resource citations resolve against — do not confuse with row 2) | On |
+| 1 | `resource/ASU-INF-microbiology-resources.md` | Bulk import → **resource** | 1 (catalogue/deck entry, same `src_…` id, different kind — `medical:batch` reports it as `catalogue-resource`) | On |
+| 2 | `article/ASU-INF-microbiology-articles.md` | Bulk import → **article** | 28 | On |
+| 3 | `concept/ASU-INF-microbiology-concepts.md` | Concepts › Import | 118 (111 new + 7 sparse updates onto ids already live in production — see below) | **Must be On** — the 7 update rows share an id with a live concept |
+| 4 | `evidence/ASU-INF-microbiology-claims.md` | Bulk import evidence · Claim | 111 | On |
+| 5 | `evidence/ASU-INF-microbiology-citations.md` | Bulk import evidence · Citation | 111 | On |
+| 6 | `evidence/ASU-INF-microbiology-spans.md` | Bulk import evidence · Span | 111 | On |
+| 7 | `question/ASU-INF-microbiology-mcq.md` | Bulk import → **question** | 156 | On |
+
+Row 1 appears twice on purpose: `evidence/…-sources.md` (kind `resource`, what citations
+point at) and `resource/…-resources.md` (kind `catalogue-resource`, the Resource Library deck
+listing) declare the *same* `src_68fe9409ae4ab90d025e` id for two different record kinds — the
+first `medical:simulate` run of this batch silently rejected all 111 citations
+(`Resource … does not exist`) because only the catalogue-resource file was in the apply list;
+adding the evidence sources file fixed it. Apply both.
+
+**7 sparse concept updates, all onto ids already live in production** (verified against
+`server/data/medical-library-v1.json`, not assumed from the branch's own commit message):
+`CON-INF-3E6590C8AC2166` (endospores), `CON-INF-6B7D8A0C6A464E` (Lancefield classification),
+`CON-INF-7789C0F6154E35` (antiphagocytic capsule), `CON-INF-80960EC6FD48EC` (capsomers),
+`CON-INF-86D082D1785D7A` (superinfection — see the duplicate-concept note below),
+`CON-INF-8E477AF19762BE` (glycocalyx), `CON-INF-A6D04F194FA5FB` (gonococcal IgA protease).
+Each row only adds `+asu` / `+ASU-INF` module tagging, `module_subject` and
+`exam_weight_by_year` — none rewrites the existing label, definition or evidence.
+
+**Reconcile note — live duplicate concept found, not fixed here.** The task brief asked this
+lane to check for an IMM/INF "superinfection" duplicate flagged in
+`coverage/ASU-INF-triage.md`. Checked against the live snapshot directly (not just batch
+text): **both `CON-IMM-703027CACF3ADF`** ("Antibiotic suppression of normal flora can permit
+superinfection by potential pathogens") **and `CON-INF-86D082D1785D7A`** ("Antibiotic
+eradication of susceptible normal flora can permit resistant organisms to cause
+superinfection") **are already live in production** — the same idea, minted twice under two
+module namespaces before either authoring session cross-checked the other's. This predates
+this staging pass; the sparse-update row above only adds ASU-INF tagging to the existing
+`CON-INF-…` id (correct practice given the current landscape — it does not create a third id
+or worsen the duplicate). Merging the two into one canonical id per the unsalted-mint law
+means picking a winner and re-pointing every article/question/claim/citation/span that
+references the loser — a live-data migration, not a staging edit. Left for the chief of
+staff / Omar to rule on which id is canonical; recorded here rather than fixed unilaterally.
+
+**Gate status, independently re-run 2026-08-28 against this staged copy** (not trusted from
+the branch's own commit message):
+
+- `medical:batch` per file: concept `items 118, fieldsUsed 53, errors []`; article
+  `items 28, fieldsUsed 52, errors []`; question (`--with` concept/article/resource)
+  `items 156, fieldsUsed 50, errors []`; claims/spans (`--with` their concept/article/source
+  siblings) `errors []` each. Citations standalone/`--with` reports 111 "is not a source the
+  corpus contains" lines — this is the same pre-existing shared-toolchain gap already
+  documented against 103 BMS above (`corpus-source-index.json`'s checked-in snapshot doesn't
+  cover this university's sources; confirmed by running the identical check against an
+  already-staged `AU-MED-102-anatomy-citations.md`, which fails it too); `medical:simulate`
+  does not read that index and is unaffected.
+- `medical:simulate` (all 8 files above, resource → article → concept → evidence → question):
+  `created 111 concepts (7 updated) / 28 articles / 111 claims / 111 citations / 111 spans /
+  156 questions, errors: [], rejected: 0, skipped: []`.
+- `medical:audit` against that simulated state: a baseline audit of the pre-existing shipped
+  state (`server/data/medical-library-v1.json` alone) returns **0 errors**, so every error
+  below is attributable to this batch. First run: **458 error lines** — 456 of them the same
+  five per-concept fields and one per-article field (`microtopicId`, `nanotopicId`,
+  `approvedFileResourceIds`, `approvedVideoResourceIds`, `resourceOccurrenceIds`, article
+  `aliases`) sitting blank without the `field_notes` justification this repo's convention
+  requires — a convention 31/118 concepts and 7/28 articles in this same file already
+  followed, just not consistently across blocks A-E. Fixed by adding the same boilerplate
+  reason already used elsewhere in this file (94 concepts, 21 articles touched; verified none
+  of them actually had a non-blank value being wrongly annotated). Re-run: **2 error lines**
+  — `concept.relatedArticleIds missing` (87/118 concepts) and
+  `article.articleData.relatedArticleIds missing` (21/28 articles).
+- **2026-08-28, finishing pass (two-sided coverage lane).** Both lines closed — see
+  "Further-reading cross-links — closed" below. Re-ran the full sequence from scratch
+  (`medical:batch` on both files, `medical:simulate` in the same 8-file apply order,
+  `medical:audit --source` against the fresh emit): `medical:batch` concept
+  `items 118, fieldsUsed 53, errors []`; article `items 28, fieldsUsed 52, errors []`;
+  `medical:simulate` `created 111 concepts (7 updated) / 28 articles / 111 claims /
+  111 citations / 111 spans / 156 questions, errors: [], skipped: []` — identical to the
+  prior run, confirming nothing else moved; `medical:audit --source` against that emit:
+  **0 errors, library-wide** (not just 0 for this module's own ids — the whole simulated
+  state, every lane's batch included). `medical:duplicate-keys`: 0 canonical-key collisions
+  (the 1 label collision it reports is the pre-existing, unrelated Kasr aspirin/102-INT
+  pair, not ASU-INF). `medical:validate:authoring` / `medical:validate:taxonomy`: both clean.
+
+**Law of voice — checked and fixed.** ~20 sentences across the article's `sections` fields
+and the question's `explanation_*` fields attributed a medical fact's truth to "the
+source"/"this source"/"this module" instead of stating it directly (e.g. "the source's
+correct answer is 'b or c'", "this source names X as determining Y", "the standard virology
+**textbook** definition"). Reworded to state the medicine directly in all cases; one edit
+(the antibiotic-resistance article's "Key determinants" section) required syncing the
+matching `## annotations` quote (`ann-inf-plasmidvschrom-001`) so the verbatim-quote check in
+`medical:batch` kept passing — caught by re-running the gate, not assumed. Left untouched: the
+`## field_notes` / `author_notes` / `source_citation` fields (provenance's correct home) and
+the "as tested by Chapters N" scope-description convention already used the same way in
+already-staged `AU-MED-102-embryology-articles.md` ("cross-checked against the module's own
+End of Module exam paper, which tests the volume…").
+
+**Reviewer / final publisher.** All 28 article records already carry the standing ruling
+(`reviewer: Medical team, Admin team` / `final_publisher: Admin team`) — checked every record,
+no fix needed.
+
+**Media-required, Draft-until-media.** Two questions cite a bacterial-growth-curve figure not
+reproduced here per media policy: `QST-ASU-INF-CH123-Q29` (`Priority: required`) and
+`QST-ASU-INF-CH123-Q22` (`Priority: strongly` recommended). Both already sit under
+`status: Draft` along with the rest of this module — no additional gate needed beyond the
+existing Draft status until the diagram is supplied via Library Setup → Media requests.
+
+**Answer-key gap, flagged for reviewer confirmation, not fixed by inventing a source.**
+`QST-ASU-INF-CH8910-Q18` (viral interference) has an unrecoverable printed key ("XXX",
+confirmed by direct visual read, not an OCR artifact). `correct_answer C` was set from
+independent standard-virology verification, not transcribed — disclosed in the question's own
+`explanation_c`, `author_notes` and `source_citation`, and in the concept's `uncertainty`
+field.
+
+**Further-reading cross-links — closed 2026-08-28.** The 87 concepts and 21 articles
+flagged above with no `related_article_ids` / `related_articles` cross-reference (distinct
+from `article_ids`/`related_concepts`, which were already two-sided) are now filled, on a
+real subject-matter read of each flagged article's own concept content, not by title alone.
+The 21 remaining articles group into content-verified clusters — pathogenicity/toxins
+(invasion, host-flora, exotoxin/endotoxin, membrane-toxins/superantigens), genetics
+(variation/transfer, conjugation/lysogeny), diagnostic bacteriology (Staph/Strep ID,
+staining limitations, Enterobacteriaceae, case organisms), antibiotics (resistance
+mechanisms, stewardship), fungi (morphology, diagnosis/antifungals), virology (structure,
+infection patterns, culture/entry/replication, oncogenesis/tropism) and infection control
+(sharps safety, isolation precautions, aseptic technique/HAI) — each pair cross-linked for a
+checkable reason (e.g. Enterobacteriaceae ↔ exotoxin/endotoxin for LPS-mediated septic
+shock; fungal wall ↔ antifungal mechanisms for the actual echinocandin/beta-glucan and
+polyene/ergosterol drug targets named in both records). Each concept then carries one bare
+related-article id drawn from its own teaching article's new `related_articles` set, matching
+the single-bare-id convention the original 24 already-filled concepts (the Chapters 1-3
+physiology cluster) established. No medicine, question keys or law-of-voice prose touched —
+graph linkage only. Identical content backported to
+`docs/Ain-Shams-Source-Imports/{concept,article}/ASU-INF-microbiology-*.md`, which did not
+previously exist there — the branch this module was authored on (`asu-inf-author3`) carries
+the pre-field_notes-fix version of these two files under `Ain-Shams-Source-Imports/`, but
+that branch was never merged, so only the `import-ready` copy ever reached `main`. Backporting
+now closes that gap for the two files this pass touched; the module's other 6 files (evidence
+×4, resource, question) still exist only in `import-ready`, not yet in `Ain-Shams-Source-Imports`
+— a residual staging gap, flagged for the staging lane, not fixed here (out of this pass's
+scope, and none of those 6 needed the field this pass was closing).
+
+---
+
+### Alexandria University AU-MED-103 (Blood and Immune System & Medical Terminology) — 22 files across 4 folders
+
+Staged 2026-08-28 by a chief-of-staff staging subagent, independently re-verifying every
+gate rather than trusting the lane's own prior claims. Copied verbatim from
+`docs/Alexandria-Source-Imports/{concept,article,evidence,question}/AU-MED-103-*` across 3
+department sub-lanes (Biochemistry, Histology, Physiology). No `relations/`, `glossary/`, or
+`practical/` batch exists for this module in this pass. `pending-live/INDEX.md` is the
+companion apply-order for everything below that overlays a Kasr id not yet applied instead of
+standing alone.
+
+**Apply in this order** (`academic/au-modules.md` — AU selected — must already be applied so
+`AU-MED-103` exists; see the Alexandria academic section above):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/AU-MED-103-{biochemistry,histology}-resources.md`, `-physiology-resources.md`, `-physiology-sources.md` (4 files) | Bulk import evidence · Resource | 19 | On |
+| 2 | `article/AU-MED-103-{biochemistry,histology,physiology}-articles.md` (3 files) | Bulk import → article | 18 | On |
+| 3 | `concept/AU-MED-103-{biochemistry,histology,physiology}-concepts.md` (3 files) | Concepts › Import | 72 (50 new + 22 sparse updates onto ids already staged in `docs/import-ready/concept/102-INT-*` and `103-BMS-*`, Kasr Al Ainy files) | **Must be On** — 22 rows share an id with an already-staged concept |
+| 4 | `evidence/AU-MED-103-{biochemistry,physiology}-claims.md`, `-histology-generated-claims.md` (3 files) | Bulk import evidence · Claim | 57 | On |
+| 5 | `evidence/AU-MED-103-{biochemistry,physiology}-citations.md`, `-histology-generated-citations.md` (3 files) | Bulk import evidence · Citation | 39 | On |
+| 6 | `evidence/AU-MED-103-{biochemistry,histology,physiology}-spans.md` (3 files) | Bulk import evidence · Span | 40 | On |
+| 7 | `question/AU-MED-103-{biochemistry,histology,physiology}-mcq.md` (3 files) | Bulk import → question | 89 | On |
+
+**Gate status.** `medical:batch` per file: 0 errors on every concept file standalone; 0 errors
+on `biochemistry-articles.md` and `physiology-articles.md`; `histology-articles.md` reports 3
+notes (`related article ART-{HEM,IMM}-TOP-* is authored nowhere in the batch directory`) — the
+documented directory-scope false-alarm class (these are curriculum topic-node placeholders not
+authored by any lane yet, own-module content is unaffected), not a defect. Each question file
+needs `--with` its own concept + article + evidence resource file(s) — `physiology-mcq.md`
+needed **both** `-physiology-resources.md` and `-physiology-sources.md` named (the `src_*` ids
+its questions cite are declared in `-sources.md`, not `-resources.md`); 0 errors on all 3 once
+given the right `--with` set. Chained `medical:simulate` in the apply order above (resources(4)
+→ articles(3) → concepts(3) → claims(3) → citations(3) → spans(3) → questions(3)): `errors: []`,
+`rejected: 0` at every step — resources 12 created/7 updated, articles 18 created, concepts 50
+created/22 updated, claims 57 created, citations 39 created, spans 40 created, questions 89
+created. Combined `medical:simulate` over the whole `docs/import-ready/` tree (276 files, this
+module plus everything already staged): `errors: []`, only the 4 expected skips (`INDEX.md`,
+2 `academic/*.md` files, `glossary/INDEX.md`, all "detected as unknown" by design).
+`medical:audit` before/after diff (254-file baseline without this module vs. 276 files with
+it): the error array is byte-identical, 346 = 346, **0 new, 0 resolved** — concepts
+2883→2933 (+50, exactly this module's created count), articles 468→486 (+18). The only 6 audit
+lines mentioning any AU-MED-103 concept id are pre-existing `no evidence chain` relation notes
+from `relations/102-INT-relations.md` (a Kasr file already staged before this pass), present
+identically in the baseline run — not introduced by this staging.
+
+**Reviewer / final publisher.** All 3 article files already carried `reviewer: Medical team,
+Admin team` / `final_publisher: Admin team` on every record — no fix needed this pass.
+
+**Law of voice — 1 fix this pass.** `question/AU-MED-103-physiology-mcq.md` had 5 questions
+(leukocytopenia/transfusion indication; sickle-cell-vs-anaemia altitude case; an
+immunoglobulin-diagram item; erythropoietin/polycythaemia; immunoglobulin chain-type
+classification) whose `explanation_a`–`explanation_d` / `learning_objective` text cited "the
+printed key" / "the source paper's" / "the paper's own" as the reason an option scores correct
+or incorrect. Rewritten to state the medical assessment directly (or "marked correct for this
+item" where only the platform's own scoring is being described), preserving every substantive
+clinical caveat the lane deliberately disclosed (e.g. a printed key that looks physiologically
+inconsistent with the given values). `source_citation` and `author_notes` — already the correct
+provenance location — untouched. No other law-of-voice violations found in this module's
+concept/article/question fields; every other "the department book" / "the source" mention is
+correctly confined to `field_notes`, `evidence_basis`, `evidence_gaps`, `conflicts`,
+`uncertainty`, or `## notes` (internal/provenance fields), not the student-facing text.
+
+**Traceability.** 60 of 72 own-lane concepts (83%) are named as `main_concept` or in
+`concept_ids` by at least one of the 89 staged questions.
+
+**Pending-live — apply only after the named file is live** (nothing below is staged here or
+anywhere in `docs/import-ready/`, by design):
+
+| Kasr / system file this depends on | AU pending-live file(s) |
+|---|---|
+| `docs/Kasr-Source-Imports/concept/103-BMS-mcq-heme-concepts.md` | `AU-MED-103-biochemistry.md` (7 ids) |
+| `docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md` | `AU-MED-103-biochemistry.md` (21 ids) + `-biochemistry-questions.md` (15 questions) |
+| `docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md` | `AU-MED-103-biochemistry.md` (7 ids) + `-biochemistry-questions.md` (6 + 1 questions) |
+| `docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md` | `AU-MED-103-biochemistry.md` (1 id) + `-biochemistry-questions.md` (1 question) |
+| `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` (+article) | `AU-MED-103-biochemistry.md` (2 ids) + `-biochemistry-questions.md` (2 questions); `AU-MED-103-physiology.md` (1 id) + `-physiology-questions.md` (1 question) |
+| `docs/Kasr-Source-Imports/concept/103-BMS-mcq-heme-concepts.md`, `103-BMS-mcq-carbohydrate-concepts.md` | `AU-MED-103-biochemistry-questions.md` (7 + 6 questions) |
+| `docs/Kasr-Source-Imports/concept/101-ISK-concepts.md`, `101-ISK-mcq-concepts.md`, `104-CPS-concepts.md`, `104-CPS-practical-concepts.md` (all 4) | `AU-MED-103-histology.md` (20 sparse updates — matching questions file OWED, not authored) |
+| Same 6 Kasr files above + `article/101-ISK-histology.md` + `article/104-CPS-articles.md` | `AU-MED-103-histology-questions.md` (13 questions on 13 of the 20 ids; 3 ids have no owning Kasr article yet, flagged) |
+| Same dependencies as `-histology-questions.md` + this module's own staged histology concept/article | `AU-MED-103-histology-practical-written.md` (9 structured-written items, one per Histology "Spot"; every item needs media, `Priority: required`, none sourced) |
+
+Full per-row detail (target ids, `medical:simulate` proof) already recorded in
+`pending-live/INDEX.md` — not re-derived here.
+
+**Media-required, Draft-until-media.** All 18 article files carry `status: Draft` uniformly,
+including the 6 with a `Priority: required` media recommendation (biochemistry: haem
+coordination-bond diagram, deoxy-HbS polymerisation, glycogen branch point, immunoglobulin
+Y-structure; histology: erythroid/granulocytic maturation series; physiology: 1 mechanism
+diagram) — none has a rights-cleared asset yet. One physiology question
+(`QST-HEM-AU103-EOM2-Q29`, the immunoglobulin-diagram item) also needs media before it can be
+answered from a real image; its explanation already discloses the image is not yet available.
+
+---
+
+### Alexandria University AU-MED-105 (Upper and Lower Limb) — 22 files across 4 folders
+
+Staged 2026-08-28 by a chief-of-staff staging subagent, independently re-verifying every
+gate. Copied verbatim from `docs/Alexandria-Source-Imports/{concept,article,evidence,
+question}/AU-MED-105-*` across 3 department sub-lanes (Anatomy, Histology, Physiology). No
+`relations/`, `glossary/`, or `practical/` batch exists for this module in this pass.
+
+**Apply in this order** (`academic/au-modules.md` — AU selected — must already be applied so
+`AU-MED-105` exists):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/AU-MED-105-{anatomy,histology,physiology}-sources.md` (3 files) | Bulk import evidence · Resource | 19 | On |
+| 1b | `evidence/AU-MED-105-physiology-resources.md` (1 file — the "A" catalogue schema, `subject`/`type`/`source`, not the evidence-store "B" schema the other 3 files use; the file's own header documents this and instructs "validate with `medical:simulate` only", `medical:batch` has no branch for it) | **Bulk import → resource**, not Bulk import evidence | 3 | On |
+| 2 | `article/AU-MED-105-{anatomy,histology,physiology}-articles.md` (3 files) | Bulk import → article | 18 | On |
+| 3 | `concept/AU-MED-105-{anatomy,histology,physiology}-concepts.md` (3 files) | Concepts › Import | 67 (56 new + 11 sparse updates onto ids already live) | **Must be On** — 11 rows share an id with a live concept |
+| 4 | `evidence/AU-MED-105-{anatomy,histology,physiology}-claims.md` (3 files) | Bulk import evidence · Claim | 148 | On |
+| 5 | `evidence/AU-MED-105-{anatomy,histology,physiology}-citations.md` (3 files) | Bulk import evidence · Citation | 21 | On |
+| 6 | `evidence/AU-MED-105-{anatomy,histology,physiology}-spans.md` (3 files) | Bulk import evidence · Span | 25 | On |
+| 7 | `question/AU-MED-105-histology-mcq.md`, `-physiology-mcq.md` (2 files) | Bulk import → question | 52 | On |
+| 7b | `question/AU-MED-105-anatomy-practical-mcq.md` (1 file) | Bulk import → question | 29 — **not importable yet**, see below | — |
+
+**Gate status.** `medical:batch` per file: 0 errors on every concept and article file
+standalone (no directory-scope notes at all this time). `histology-mcq.md` and
+`physiology-mcq.md` each pass `--with` their own concept + article + evidence-source file: 0
+errors. `anatomy-practical-mcq.md` needed a much larger `--with` set — 4 Kasr concept files
+(`101-ISK-concepts.md`, `-mcq-concepts.md`, `-practical-concepts.md`, `103-BMS-anatomy-
+concepts.md`) and 7 Kasr/own article files — because most of its 29 practical-spot items test
+Kasr Upper/Lower Limb concepts directly, not this module's own. Once given the full set, only
+one error class remains: **"A labelling question needs an image — there is nothing to label
+without one"**, on all 29 of 29 records. Chained `medical:simulate` in the order above:
+resources 19 created, catalogue-resource 3 created, articles 18 created, concepts 56
+created/11 updated, claims 148 created, citations 21 created, spans 25 created,
+`histology-mcq.md` 33 created, `physiology-mcq.md` 19 created — `anatomy-practical-mcq.md`:
+**0 created, 29 rejected**, all on the same image gap. Combined `medical:simulate` over the
+whole `docs/import-ready/` tree (298 files, this module plus everything already staged): the
+only top-level errors are those same 29 image-gap lines, 0 non-image errors, only the 4
+expected academic/glossary skips. `medical:audit` before/after diff (276-file baseline
+including AU-MED-103 vs. 298 with AU-MED-105 added): 5 new / 2 superseded lines, all
+accounted for as the same running "field missing across every article" check re-stringified
+with 105's own new ids appended — not a regression on any pre-existing content. Traced: 3 of
+those new mentions are AU-MED-105's **own** 3 new physiology articles
+(`ART-CVS-CARDIAC-PACEMAKER-AP`, `ART-CVS-CONDUCTION-CONTRACTILITY`,
+`ART-NEU-CONTINUOUS-CONDUCTION` — minted under the shared system-topic id namespace per the
+university-blind mint convention; confirmed these ids exist nowhere else in the tree, so this
+is new content, not an overwrite of a live Kasr/system article). concepts 2933→2989 (+56,
+matches created), articles 486→504 (+18, matches created).
+
+**Not importable yet — real gap, not a fix I'm authorized to make.**
+`question/AU-MED-105-anatomy-practical-mcq.md` (29 records, all `status: Draft`) rejects in
+full under `medical:simulate` — every record needs a labelled image before it can be imported
+at all, not merely hidden as Draft. None of the 29 has a sourced image yet; each carries its
+own `media_recommendations` block already. This is more severe than the usual
+Draft-until-media pattern (those articles still import, just stay hidden) — this file cannot
+be committed via Bulk import → question until images exist for at least the records being
+imported.
+
+**Reviewer / final publisher.** All 3 article files already carried `reviewer: Medical team,
+Admin team` / `final_publisher: Admin team` on every record — no fix needed this pass.
+
+**Law of voice — 1 fix this pass.** `question/AU-MED-105-histology-mcq.md` had 6
+diagram-labelling questions (bone-canal identification ×2, unsheathed-neuron-parts grouping
+×2, myelination/nerve-type, sarcomere-band shortening) whose explanations cited "the printed
+key" as the reason a labelled option is correct or incorrect. Rewritten to assess the option
+directly against "this diagram" (the actual object in question) rather than an external
+answer-key authority, with no change to the underlying claim. Phrasing describing what a
+diagram's own labels show (e.g. "printed as lacking a covering sheath") was left as-is — that
+describes the diagram's content directly, not a citation to an external authority. No other
+law-of-voice violations found in this module.
+
+**Small authoring gap — fixed.** All 3 of AU-MED-105-physiology-articles.md's new articles
+(`ART-CVS-CARDIAC-PACEMAKER-AP`, `ART-NEU-CONTINUOUS-CONDUCTION`, `ART-CVS-CONDUCTION-
+CONTRACTILITY`) had a blank `## notes` field — `articleData.notes` is in the audit's
+always-populated list, with no `field_notes` bypass — and a blank `questionIds` with no
+recorded reason. `notes` is now filled with each article's real, already-on-record sourcing
+story (own AU-MED-105 department book for the nerve-conduction article; the sibling
+AU-MED-106 department book, per the chief-of-staff ruling already in `field_notes.
+universityNotes`, for the two cardiac electrophysiology articles). `questionIds` stays empty
+with a `field_notes` reason: `AU-MED-105-physiology-mcq.md` does test every one of these
+articles' concepts (traced by `main_concept` — 1 question for the nerve article, 6 for the
+pacemaker article, 5 for the conduction/contractility article) but that question batch mints
+no stable `## id` of its own, so no real id exists yet to write without inventing one.
+`medical:batch` on the file: 0 errors, `fieldsUsed` 52. `medical:audit --source` against the
+resulting whole-tree state: 0 errors mention any of these 3 article ids (before the fix each
+one contributed a `questionIds is blank without an explicit reason` line, plus `notes` was on
+the audit's shared, always-populated `article.articleData.notes missing for …` line). Whole-
+tree `medical:simulate` re-run after the fix: same 29 image-gap-only errors as before, 0
+regressions elsewhere.
+
+**Traceability.** 47 of 67 own-lane concepts (70%) are named as `main_concept` or in
+`concept_ids` by at least one of the 81 authored questions (52 currently importable + 29
+image-blocked).
+
+**Media-required, Draft-until-media.** All 18 articles carry `status: Draft` uniformly; none
+declared a `Priority: required` media recommendation this module (all image needs are
+concentrated in the anatomy practical-question file instead, see above).
+
+**No pending-live table needed for this staging pass.** `pending-live/AU-MED-105-anatomy.md`,
+`-histology.md`, `-histology-questions.md`, `-physiology.md`, and `-physiology-questions.md`
+already exist and are documented in full in `pending-live/INDEX.md` (dependencies: `101-ISK-
+concepts.md`/`-mcq-concepts.md`/`-practical-concepts.md`, `103-BMS-anatomy-concepts.md`, and
+`101-ISK-mcq-concepts.md`/`103-BMS-histology-concepts.md`/`103-BMS-mcq-vitamins-nerve-
+concepts.md` for histology). Nothing in `pending-live/` is staged here or anywhere in
+`docs/import-ready/`, by design.
+
+---
+
+### Ain Shams University ASU-IBM (Introduction to Medical Biochemistry — Protein/Carbohydrate/Lipid chemistry) — 9 files across 4 folders
+
+Staged from the completed authoring branch `asu-ibm-author13` (HEAD `b5a528d5`), continuing a
+salvaged staging pass (`staging/asu-ibm-verify` → this branch). Copied verbatim from
+`docs/Ain-Shams-Source-Imports/{article,concept,evidence,question}/ASU-IBM-biochem-mcq-*` — the
+only edits made after copying are the two described below (reviewer/publisher fix, two-sided
+further-reading gap), both independently re-verified with the gates unchanged.
+
+**Apply in this order** (`academic/asu-modules.md` — ASU selected — must already be applied so
+`ASU-IBM` exists):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/ASU-IBM-biochem-mcq-resources.md` | Bulk import evidence · Resource | 1 | On |
+| 2 | `article/ASU-IBM-biochem-mcq-articles.md` | Bulk import → article | 7 | On |
+| 3 | `concept/ASU-IBM-biochem-mcq-concepts.md` | Concepts › Import | 20 (all new — no id here is shared with a live concept) | On |
+| 4 | `evidence/ASU-IBM-biochem-mcq-claims.md` | Bulk import evidence · Claim | 20 | On |
+| 5 | `evidence/ASU-IBM-biochem-mcq-citations.md` | Bulk import evidence · Citation | 20 | On |
+| 6 | `evidence/ASU-IBM-biochem-mcq-spans.md` | Bulk import evidence · Span | 20 | On |
+| 7 | `question/ASU-IBM-protein-chemistry-mcq.md`, `-carbohydrates-mcq.md`, `-lipids-mcq.md` (3 files) | Bulk import → question | 168 (79 Protein + 37 Carb + 52 Lipids) | On |
+
+No `relations/`, `glossary/`, or `practical/` batch exists for this module in this pass.
+
+**Gate status, independently re-run against this staged copy.**
+
+- `medical:batch` per file: concept `items 20, fieldsUsed 54, errors []`; article
+  `items 7, fieldsUsed 50, errors []`. Each question file needs a large `--with` set beyond its
+  own concept/article/resource siblings, because many items test a concept or cite an article
+  this bank doesn't own — it shares 28 concepts and 10 articles with Kasr's `102 INT`/`101 ISK`
+  and Alexandria's `AU-MED-102` (via the pending-live overlay, below). Given the full set
+  (own 3 files + the 6 real Kasr/Alexandria concept/article files each question file actually
+  needs), all three are `errors: []`: protein-chemistry `items 79, fieldsUsed 49`,
+  carbohydrates `items 37, fieldsUsed 49`, lipids `items 52, fieldsUsed 49`. Run without that
+  full set, the same 3 files report 124/66/68 "is not a concept/article that exists" lines —
+  the standard `medical:batch` directory-scope limitation (00-START-HERE.md §8), not a defect;
+  confirmed by re-running with the full set and watching every one of those lines disappear.
+- `medical:simulate`, whole `docs/import-ready/` tree (315 files, positional, this module plus
+  everything already staged): `delta: {"articles":394,"concepts":1402,"relations":824,
+  "claims":2745,"citations":1224,"resources":225,"articleSpans":975,"glossaryTerms":596}`,
+  this module's own batch rows — `resource created:1`, `article created:7`,
+  `concept created:20`, `claim/citation/span created:20` each, `protein-chemistry-mcq
+  created:79`, `carbohydrates-mcq created:37`, `lipids-mcq created:52`, all `rejected: 0`.
+  **29 total errors in the whole 315-file tree, all 29 the pre-existing, documented AU-105
+  anatomy-practical labelling-image gap** (`00-START-HERE.md` §8's warning about that file) —
+  0 regressions, 0 errors traceable to ASU-IBM.
+- `medical:audit` against that emit: 346 errors library-wide, **0 mentioning any ASU-IBM
+  concept or article id** after the further-reading fix below (before the fix, 2 of those 346
+  lines carried ASU-IBM ids inside a shared multi-university list — see next section).
+- `medical:duplicate-keys`: 0 canonical-key collisions; the 1 label collision reported
+  (`aspirin-cox-inhibition-mi-prevention` vs `aspirin-platelet-aggregation-and-bleeding-time`,
+  both pre-existing Kasr `102 INT` ids) predates this module and is unrelated to it.
+  `medical:validate:authoring` / `medical:validate:taxonomy`: both `"passed": true`, 0 errors.
+
+**Further-reading cross-links — closed.** `medical:audit`'s two `relatedArticleIds missing`
+lines (one covering `article.articleData.relatedArticleIds` library-wide, one covering
+`concept.relatedArticleIds`) each named some ASU-IBM ids inside their combined list: 2 of this
+module's 7 articles had an empty `related_articles` field (the other 5 already had a genuine
+same-bank companion), and 18 of its 20 concepts had `related_article_ids` missing entirely (the
+other 2 already pointed at their teaching article's companion). Closed with genuine topical
+links only, the same convention ASU-INF's finishing pass established: the carbohydrate-general-
+properties article (`ART-FND-ASU-IBM-CARBOHYDRATE-GENERAL-PROPERTIES`) now links to Kasr's own
+`ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE`, verified to state the same Cn(H2O)n
+general formula in its own live text; the lipid-autoimmune/neonatal article
+(`ART-FND-ASU-IBM-LIPID-AUTOIMMUNE-NEONATAL`) links to this bank's own
+`ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION`, which names cardiolipin (the antiphospholipid-
+syndrome antigen) and lecithin (the surfactant phospholipid deficient in neonatal RDS) by name
+in its own concepts. Each of the 18 concepts then received one `related_article_id` drawn from
+its own teaching article's `related_articles` set — matching the single-bare-id convention the
+other 2 already-filled concepts and ASU-INF's fix both established. No medicine, question keys,
+or law-of-voice prose touched — graph linkage only. `medical:batch` unchanged (0 errors) on
+both files after the edit; whole-tree `medical:simulate` re-run: identical delta, still 29
+image-gap-only errors; `medical:audit` re-run: the same two lines shrank by exactly 2 and 18
+ids respectively, 0 ASU-IBM ids remaining in either.
+
+**Reviewer / final publisher — 2 fixes this pass.** Articles already carried the standing
+ruling (`reviewer: Medical team, Admin team` / `final_publisher: Admin team`) from the prior
+staging commit. **Concepts did not** — all 20 still carried the `Dr. Omar` / `Dr. Omar`
+placeholder (this is the uncommitted edit lost when the original staging session was
+interrupted; re-derived here, not assumed from the branch history). Fixed on all 20 records in
+both `docs/import-ready/concept/` and `docs/Ain-Shams-Source-Imports/concept/`; `## owner`
+(also `Dr. Omar` on every record) was left untouched — only `reviewer`/`final_publisher` carry
+the ruling. `medical:batch` unaffected (0 errors before and after).
+
+**Traceability — 100%.** All 168 questions together test exactly 48 distinct concepts: all 20
+of this module's own new concepts, and all 28 concepts named in the pending-live overlay
+(below). Every own concept and every overlay concept has at least one authored question; no
+authored-but-untested concept and no orphan question in this module.
+
+**Law of voice.** Grep-scanned concepts, articles and all three question files for the
+documented violation patterns ("the department book", "the book says", "according to the
+text/book", "the textbook says/states", "the lecture notes", "as per the source/handout", "the
+book's table", "the department book's own") — 0 hits in student-facing fields. No fix needed.
+
+**Media.** No `media_recommendations` blocks in this module; no image-dependent items.
+
+**Pending-live — apply only after the named Kasr/Alexandria files are live** (full detail,
+line-by-line dependency table and eviction-hazard fix, in
+`docs/Ain-Shams-Source-Imports/pending-live/INDEX.md`; nothing in `pending-live/` is staged
+here or anywhere in `docs/import-ready/`, by design):
+
+| File | Applies after | Records |
+|---|---|---|
+| `pending-live/ASU-IBM-biochem-mcq-overlay-concepts.md` | `docs/Kasr-Source-Imports/concept/102-INT-concepts.md`, `-mcq-concepts.md`, `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md`, `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md` are all live | 28 sparse updates (`+asu`, `+ASU_Y1`, `+ASU-IBM`) |
+| `pending-live/ASU-IBM-biochem-mcq-overlay-articles.md` | `docs/Kasr-Source-Imports/article/102-INT-biochemistry.md`, `docs/Kasr-Source-Imports/article/101-ISK-histology-2.md`, `docs/Alexandria-Source-Imports/article/AU-MED-102-biochem-structural-articles.md` are all live | 10 sparse updates |
+
+**Dependency status.** Per `docs/chief-of-staff/BOARD.md` (2026-08-27 ~13:55Z / ~14:16Z),
+`101 ISK`, `102 INT` and `AU-MED-102` were all applied to production in that day's live-DB
+import — this checkout's own extraction snapshot just predates it (`generatedAt:
+2026-08-11T03:09:06Z`), so the ids read as absent locally without being absent in production;
+`medical:snapshot-staleness` could not be re-run here (`MEDICAL_API_BASE`/`MEDICAL_API_TOKEN`
+unset in this environment) to pull a fresh copy. `medical:simulate`, run positionally with the
+real Kasr/Alexandria files first, confirms both overlay files as genuine updates against those
+files' own ids: `created: 0, updated: 28, errors: []` (concepts) and
+`created: 0, updated: 10, errors: []` (articles) — not a guess from the branch's commit
+message.
+
+**Eviction hazard found and fixed this pass.** Both overlay files were originally written with
+`module_subject` (and, on concepts, `exam_signal`) restated as **only** the new ASU-IBM line —
+since neither field takes a `+`-append (00-START-HERE.md §3), applying them as first written
+would have silently dropped the pre-existing Kasr/Alexandria path and, on concepts, every
+pre-existing page-cited exam-evidence line, off a now-live shared record. Restored the missing
+live lines ahead of each row's own addition, across all 10 article rows and 28 concept rows,
+verified individually against the four live source files (module_subject and exam_signal both
+confirmed 0 missing lines afterward). Also found and merged one literal duplicate row
+(`ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE` appeared twice in the articles file, one copy
+carrying a fabricated, non-verbatim `summary` that would have overwritten the live Kasr text)
+and corrected one paraphrased `university_notes` line back to the live text verbatim. Full
+detail in `pending-live/INDEX.md`.
+
+---
+
 ## Before applying anything
 
 ```bash
-npm run medical:simulate -- "docs/import-ready/"*/*.md --emit /tmp/synapse-sim.json
-npm run medical:audit -- --source /tmp/synapse-sim.json
+npm run medical:simulate -- "docs/import-ready/"*/*.md --emit /tmp/nishany-sim.json
+npm run medical:audit -- --source /tmp/nishany-sim.json
 ```
 
 The first applies every pending batch to a copy of live state and reports the delta. The

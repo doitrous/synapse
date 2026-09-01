@@ -105,7 +105,7 @@ export function primaryConcept(item: AdaptiveItem): string | null {
  * impossible to select, not merely unlikely to win.
  *
  * Empty means unrestricted, matching how scope already works everywhere else in
- * Maristana. `questionOnlyFor` is the exception — when an author sets it, it is an
+ * Nishany. `questionOnlyFor` is the exception — when an author sets it, it is an
  * allow-list and nothing outside it qualifies.
  */
 export function itemInScope(

@@ -37,51 +37,126 @@ department-book chapter — never wider. Inside a module, work in this order:
 **Sequence: articles before questions.** The validator refuses a question whose main
 concept has no covering article — write or claim the article first, in the same batch.
 
-**Answers come only from an official key or the department book**, page cited, never
-reconciled by hand. A questionable printed key is recorded as printed, not silently
-corrected. A garbled key is rendered by eye with the method recorded — or, failing that,
-the question is left unkeyed and unauthored. An item that depends on an image becomes a
-media request (§6), never a prose rewrite of what the image would have shown.
+**Answers come only from an official key, a department book, or — failing both — sound
+editorial reasoning**, page cited where one exists, never reconciled by hand against what
+"should" be right. The **answer-key ruling (2026-08-27)** governs every case:
+
+- A printed key on a **real exam paper** stands **as printed**, full stop, even if it
+  looks wrong — never silently corrected. Keep it, and `explanation_<correct>` teaches
+  the correct reasoning and names the discrepancy explicitly.
+- A key in a **question bank that is not an official exam paper**, and that is outright
+  medically wrong (a factual error, not a convention clash between universities), is
+  corrected — field-noted with the original printed key and why it was overridden.
+- A **missing key** — nothing printed, nothing recoverable from any assigned source — is
+  keyed **editorially** from authoritative subject knowledge: field-noted "keyed
+  editorially, no printed key", with an explanation of at least three sentences. A
+  missing key is never a reason to leave a question unauthored.
+
+A garbled (not missing) key is rendered by eye first, with the method recorded; only if
+it truly cannot be read at all does it fall to the missing-key case above. An item that
+depends on an image becomes a media request (§6), never a prose rewrite of what the image
+would have shown.
 
 **Worked example.** A Kasr renal paper has a garbled MCQ key next to a clean
 department-book chapter that never mentions the drug the question's stem names. You do
-not average the two. You record the printed key as printed — or unkeyed, if it truly
-cannot be read — and you write the article from the department book, not from the
-question stem: a past paper is a source of *what was asked*, never of medical fact.
+not average the two. If the key can be read by eye, you record it as printed, with the
+method noted. If it truly cannot be read and no other assigned source recovers it, this
+is the missing-key case: key it editorially from standard pharmacology, field-note
+"keyed editorially, no printed key," and write the article from the department book, not
+from the question stem — a past paper is a source of *what was asked*, never of medical
+fact.
+
+### The law of voice
+
+Everything a student reads must sound like an authoritative, professional question bank —
+not a study guide narrating its own sources. In every **student-facing** field — question
+stems, options and explanations; article prose; concept `definition` / `explicit_objective`
+/ `pitfalls`; glossary bodies — state the medicine **directly, on its own authority**. Never
+refer to the study material itself: no "the department book says", "according to the
+textbook", "the lecture notes state", "as per the source/handout", "the book's table gives",
+"the department book's own worked example", or any variant. Source provenance is metadata —
+it lives in `field_notes`, `evidence`, `citations` and `source_citation`, never in the
+sentence a student sees.
+
+This does not soften the answer rule above: answers still come only from a real key or the
+department book, page-cited **in the metadata**. And a corrected or convention-flagged key is
+stated about the **answer** — "the exam's printed key marks X, but Y is correct because…" —
+never about the book. British spelling; exam-grade prose throughout. A batch whose
+explanations lean on "the book says" is not finished, however clean `medical:batch` runs.
+
+---
+
+## 0.5 · How an agent works — token discipline (in force 2026-09-01)
+
+Quality bars never move (the law of priority and the law of voice above, §3 ids, §4
+search-before-mint, 05's explanation bar). What changed is how you reach them:
+
+1. **Read the LANE-CARD first, the manual only at a wall.** Every lane has
+   `docs/<University>-Source-Imports/LANE-CARD.md` (≤ 2 pages). Your dispatch names it.
+   Do not open 00/05/13/SHARED-TOOLCHAIN unless the card's §8 sends you there for a
+   specific wall — then read that section only.
+2. **Text, not pictures.** Every PDF is extracted once and cached:
+   `node scripts/content/pagetext.mjs show "<pdf>" --pages a-b` (≤ 3 pages per call;
+   `status` first). A page may be rendered as an image only after `mark-garbled` — and
+   then only that page. Keys already recorded in a lane's triage file with page + method
+   are the authority; do not re-look.
+3. **Seed → emit → gate.** You write the medicine (stem, options, explanations, concept
+   choice) in a seed JSON (`scripts/content/seed.schema.md`); `emit-mcq.mjs` writes the
+   format. Never hand-edit a generated batch — fix the seed and re-emit.
+4. **Quiet gates.** `node scripts/content/gate.mjs batch|simulate|audit …` — read the
+   ≤ 12-line summary; the full log is in `.gates/` (gitignored) for when the summary
+   shows errors. `simulate` takes files positionally, in apply order, never `--with`.
+5. **Ledger, not archaeology.** Progress is `coverage/<lane>-LEDGER.md` from
+   `node scripts/content/ledger.mjs`. Never reconstruct "what is done" by reading batch
+   files.
+6. **One cluster per dispatch (~20–50 questions), commit + push every 5–10.** A death
+   costs minutes, not a module.
 
 ---
 
 ## Roles and the chain of command
 
+The former per-lane "orchestrator" sessions and the single "chief of staff" session are
+**both retired**, merged into one role. The chain is now two levels deep below Omar:
+
 - **Omar (owner).** The only human. Imports batches by hand via admin Bulk Import.
   Decides product questions. Supplies tokens, Telegram channel links, reviewers.
-- **Chief of staff (one session).** The single channel every lane reports to — lanes
-  never message each other. Issues standing orders, rulings, the browser queue,
-  pause/resume. Audits lane self-reports with independent read-only subagents.
-  Escalates to Omar only what genuinely needs him. Keeps `docs/chief-of-staff/BOARD.md`.
-- **Orchestrator** (one session per university-year lane — Kasr Y1, Kasr Y2–5,
-  Alexandria, Ain Shams, Helwan). Plans its lane, dispatches Sonnet subagents with
-  explicit file ownership, holds a LANE-BRIEF, consolidates reports, runs the triage
-  checkpoint. Never authors content itself. Commits checkpoints on its own branch, never
-  pushes.
-- **Validator / shared-tooling lane.** Owns the gates and the importer, serves the
-  content lanes, lands on `main`, reports hashes to the chief of staff.
-- **Subagent / authoring lane** — you, most of the time. Reads this file plus one type
-  manual, writes batches, runs the gates, and reports in ≤20 lines: lane · produced ·
-  validation · traceable-to-question share · drift to rule on · blockers · next. Ends its
-  turn with a `BLOCKED` section when stuck, rather than guessing.
+- **Orchestrator (one session).** The address Omar messages, and the only session that
+  messages Omar. Unifies what used to be the chief-of-staff session and every per-lane
+  orchestrator session. Plans across every university and lane, dispatches Sonnet
+  subagents directly — one subagent per `(module, department/cluster)` task — holds
+  `docs/chief-of-staff/BOARD.md`, decides rulings delegated to it, closes stale PRs, and
+  drives the live-DB import itself as the **sole hands-on exception** to "the Orchestrator
+  does no task work itself." Audits subagent self-reports with independent read-only
+  subagents. Escalates to Omar only what genuinely needs him.
+- **Subagent (Sonnet)** — you, most of the time. A **fresh** session off a named branch,
+  **never resumed** — a resumed subagent arrives context-bloated and stalls; when more
+  work is needed on the same task, the Orchestrator dispatches a new subagent off that
+  branch instead. Works in its own isolated worktree, reads this file plus one type
+  manual, authors and gates its own output, and commits fast — the first commit lands in
+  minutes, not at the end of the whole task. Pushes its own gate-clean work: authoring
+  work lands on the subagent's own branch, staging / backlog / documentation work lands
+  straight on `main` (Omar approved 2026-08-27 — supersedes any older rule that only a
+  validator lane may push). If context grows large before the task is finished, the
+  subagent checkpoints what it has and ends its turn with a
+  `HANDOFF: <branch>@<sha> · resume-first: <next step>` line instead of pushing on into a
+  bloated context. Reports in ≤20 lines: lane · produced · validation ·
+  traceable-to-question share · drift to rule on · blockers · next. Ends its turn with a
+  `BLOCKED` section when stuck, rather than guessing. **Never** messages another
+  subagent, never runs `removeOrphans` / `--sweep`, and never imports.
 
 **Report discipline.** ≤20 lines. Numbers come from scripts, never estimates. **A claim
 of green gates without pasted output is not green** — gate summary lines belong in the
 commit body, or in `coverage/<module>-GATES.md`.
 
-**The triage checkpoint.** Before any lane mints a single record, its orchestrator sends
-the chief of staff one table — questions triaged · distinct concepts tested ·
-live-hit / pending-hit / new — and waits for **TRIAGE APPROVED** before anyone writes.
+**The triage checkpoint.** Before a subagent mints a single record for a new module or
+cluster, it sends the Orchestrator one table — questions triaged · distinct concepts
+tested · live-hit / pending-hit / new — and waits for **TRIAGE APPROVED** before writing
+anything.
 
-The full operating procedure — LANE-BRIEF format, the browser queue, escalation paths —
-is [13-orchestration.md](13-orchestration.md). This file covers what every lane needs;
-that one covers how lanes are run.
+The full operating procedure — dispatch format, the browser queue, escalation paths —
+is [13-orchestration.md](13-orchestration.md). This file covers what every subagent
+needs; that one covers how the Orchestrator runs them.
 
 ---
 
@@ -424,6 +499,16 @@ pending batches.
 Kasr's own pipeline salts concept ids per module, so two minters currently exist in this
 repo with different behaviour on the same input — which one a new lane should use is an
 open product question, not yours to resolve by guessing.
+
+**A generator's own duplicate check is not a substitute for `find-existing.mjs` or
+`medical:duplicate-keys`.** Kasr's MCQ-authoring pipeline (`scripts/kasr`) carries its own
+`existingConceptIds()` check, but it can be **blind to concepts minted by the
+`GENERATED_BY` written-paper pipeline, and to other-year catalogues** — verified
+2026-08-28 on Kasr 104 CPS, where a live written-paper surfactant concept and Year-3
+pulmonology-catalogue concepts were both invisible to it and nearly re-minted as
+duplicates. Before minting from inside a generator like this, grep the target subject's
+live concepts and its written-paper batches directly; do not trust the generator's own
+dedup check alone.
 
 ### Per-university traceability on shared records
 
@@ -885,6 +970,13 @@ exist, and you write both.
 A concept with no article is an orphan. An article whose concepts do not list it back is a
 broken link. Neither errors at import; both are found by `npm run medical:audit`.
 
+**Two-sided coverage (ruling 2026-08-23)** is stricter than row three above. A concept's
+`article_ids` populated only by the heuristic term-overlap pass (`build-article-links.ts`)
+is **not** coverage on its own. Hand-over requires, for every tested concept: it is named
+explicitly in some article's `related_concepts`, **and** that article actually teaches it
+— not merely mentions it. Verify both directions by hand, per module, before writing
+`INDEX.md`; do not trust the heuristic link alone.
+
 ---
 
 ## 8 · Gates
@@ -911,12 +1003,29 @@ below show `docs/import-ready/<kind>/` as the path — substitute your actual ro
 Verify these names against `package.json` before typing one from memory — the list above
 matches this checkout today, not a promise about tomorrow's.
 
-- **`--with` for sibling batches.** `medical:simulate` and the presence/citations/
-  concept-id checks resolve ids against live state plus whatever files you pass with
-  `--with`. A question batch validated without its own concept batch beside it errors on
-  the unresolved concept — a real error, not a silent skip — and since daf0d4d that error
-  now adds *"name its concept file with `--with`"*. Pass every sibling batch your ids
-  resolve against.
+Run `medical:batch`, `medical:simulate` and `medical:audit` through
+`node scripts/content/gate.mjs batch|simulate|audit …` (§0.5) — same gates, same exit
+codes, summarised output (full JSON logged to `.gates/`). The other gates in the table
+above have no wrapper yet; run their npm scripts directly.
+
+- **Only `medical:batch` accepts `--with`.** That flag, and the *"name its concept file
+  with `--with`"* hint, live solely in `scripts/validate-content-batch.mjs` — grep it,
+  they are nowhere else. `medical:simulate` takes every file as a plain positional
+  argument and has **no** `--with` flag: its parser
+  (`scripts/simulate-content-import.mjs`) treats any token right after a
+  `--something`-shaped argument as that flag's value, so `medical:simulate a.md --with
+  b.md` silently drops `b.md` — the run still exits 0 and reports `errors: []`, falsely
+  clean, because the dropped file was never read, not rejected. List every sibling
+  positionally, in apply order, with no flag in front of any of them.
+- **The presence/citations/concept-id checks don't take `--with` either, and work
+  differently from each other.** `medical:presence` also takes plain positional file
+  args (a stray `--with` there is read as a literal filename and crashes on a missing
+  file, not a silent drop) — but its npm script already globs every Kasr concept/article
+  file by default, so you rarely need to name files at all. `medical:citations` takes
+  **no** file arguments whatsoever; it walks the entire `docs/Kasr-Source-Imports` tree
+  against the manifest on every run. `medical:concept-ids` scans globally regardless of
+  arguments too — naming a file only narrows which already-found problems count toward
+  *your* exit code, it does not add that file's ids to the scan.
 - **The catalogue check runs inside `medical:batch`** (57ef0d4), not as a separate
   script. It checks who a record is claimed for (`universities`, `module`) against
   `src/data/universities.ts` — it is what refuses a non-Kasr module id without its
@@ -1052,11 +1161,17 @@ live or be sitting in the same batch folder.
 
 ## Telegram and other fetches
 
-Telegram runs through Omar's own logged-in Chrome, one lane at a time, with the chief of
-staff holding the queue. Only listed channel links and the in-app search box — never
-click **Join**, log "needs Omar to join" instead; never use **addlist**; no video or
-audio downloads. Dedupe by sha256, tier ≤5 like every other source, and another
-university's past papers are never this university's examinable signal. Full procedure:
+**Telegram fetching is retired (Omar 2026-08-27), for every session, current and
+upcoming — no exceptions.** Do not open Telegram for any lane. If a gap can only be
+closed by a source that would have come from Telegram, log it as "needs Omar sources" and
+move on; do not attempt to fetch it yourself.
+
+The rest of this section is kept only as a record of the retired procedure, in case a
+future ruling reinstates some form of it: fetching ran through Omar's own logged-in
+Chrome, one lane at a time, with the Orchestrator holding the queue; only listed channel
+links and the in-app search box, never **Join** or **addlist**, no video or audio
+downloads; dedupe by sha256, tier ≤5 like every other source; another university's past
+papers were never this university's examinable signal. Full historical procedure:
 [13-orchestration.md](13-orchestration.md).
 
 ---

@@ -1,5 +1,5 @@
 /**
- * What Maristana sells, defined once.
+ * What Nishany sells, defined once.
  *
  * Plans used to be written twice: a `PlanDef[]` the admin console edited and
  * Billing read, and a separate hardcoded `Plan[]` in the landing content that
@@ -93,12 +93,12 @@ export interface PlanCatalog {
 }
 
 /**
- * Version 1 was the unversioned Maristana tier catalogue. Version 2 is
- * the Maristana launch catalogue: one complete membership, with the legacy
+ * Version 1 was the unversioned Nishany tier catalogue. Version 2 is
+ * the Nishany launch catalogue: one complete membership, with the legacy
  * plan records retained only so existing subscriptions continue to resolve.
  */
 export const PLAN_CATALOG_SCHEMA_VERSION = 2
-export const PLAN_CATALOG_STORAGE_KEY = 'synapse-plan-catalog-v1'
+export const PLAN_CATALOG_STORAGE_KEY = 'nishany-plan-catalog-v1'
 export const MARISTANA_PLAN_ID = 'maristana'
 export const DEFAULT_PURCHASE_PERIOD_ID = 'term'
 
@@ -132,7 +132,7 @@ export function priceAt(
   if (wanted && has(wanted)) return { amount: plan.prices[wanted.id], period: wanted }
 
   // A coming-soon period with no price is an announcement, not a request to
-  // extrapolate a shorter price. In particular, Maristana's year must never
+  // extrapolate a shorter price. In particular, Nishany's year must never
   // display a made-up annual amount or a term price that looks annual.
   if (wanted?.comingSoon) return null
 
@@ -339,7 +339,7 @@ export interface OfferSelection {
  * A public offer carried between pricing, sign-up and the future checkout.
  *
  * Unknown, inactive and coming-soon values are reduced to the one current
- * Maristana offer. This is intentionally identifiers-only: a browser may carry
+ * Nishany offer. This is intentionally identifiers-only: a browser may carry
  * the chosen period, but the authoritative EGP amount must be resolved from
  * the server-side catalogue rather than trusted from a query string.
  */

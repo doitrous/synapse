@@ -15,6 +15,9 @@ import { cn } from '@/lib/cn'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
+import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
+import { useOpenEscalationCount } from '@/lib/useEscalationBadge'
+import { useQotd } from '@/lib/useQotd'
 
 export function Sidebar({
   portal,
@@ -31,6 +34,11 @@ export function Sidebar({
   const { t } = useI18n()
   const identity = useIdentity()
   const groups = navFor(portal, identity.tabs)
+  const escalationCount = useOpenEscalationCount()
+  // Only the student sidebar renders the dot this feeds, so the hook does no
+  // work (and makes no request) off the student app.
+  const qotd = useQotd(portal === 'student')
+  const qotdUnanswered = portal === 'student' && !qotd.loading && !qotd.answered
   // `audience`, not `profile`: the roster record is authoritative but often
   // absent, and `audience` is the merge of it with what the student told
   // onboarding. Reading `profile` here showed nothing to every student whose
@@ -38,15 +46,24 @@ export function Sidebar({
   const universityShort = useUniversityName(identity.audience.universityId, 'short')
   const universityName = useUniversityName(identity.audience.universityId)
 
-  // Whatever the account actually says, and nothing more: the line falls back
-  // to "Medicine" rather than inventing a cohort this person may not be in.
+  // The admin line names the actual role — Reviewer, Editor, Admin, Super admin —
+  // never a single blanket title, so a reviewer is never labelled as more than
+  // they are. The student line falls back to "Medicine" rather than inventing a
+  // cohort this person may not be in.
+  const roleLabel = t(ROLE_LABEL[identity.role as EffectiveRole] ?? 'Team')
   const detail = portal === 'admin'
-    ? t('Curriculum admin')
+    ? roleLabel
     : [universityShort, identity.audience.year].filter(Boolean).join(' · ') || t('Medicine')
   const detailTitle = portal === 'admin'
-    ? t('Curriculum admin')
+    ? roleLabel
     : [universityName, identity.audience.year].filter(Boolean).join(' · ')
   const profile = { name: identity.displayName, detail }
+  // Never point somebody at a screen their role cannot open. Only a super admin
+  // holds Settings; everyone else on the admin side lands on their console home,
+  // which resolves to the first surface they actually hold.
+  const accountHref = portal === 'admin'
+    ? (identity.tabs.includes('settings') ? '/admin/settings' : '/admin')
+    : '/app/account'
 
   return (
     <div className="flex h-full flex-col bg-surface">
@@ -114,6 +131,28 @@ export function Sidebar({
                         ) : (
                           <OverflowText>{t(item.label)}</OverflowText>
                         )}
+                        {item.to === '/admin/escalations' && escalationCount > 0 && (
+                          collapsed ? (
+                            <span className="absolute end-1.5 top-1.5 h-2 w-2 rounded-full bg-danger" aria-hidden="true" />
+                          ) : (
+                            <span
+                              className="ms-auto inline-flex min-w-5 items-center justify-center rounded-full bg-danger px-1.5 text-[10.5px] font-bold text-on-danger"
+                              aria-label={t('{count} open escalations').replace('{count}', String(escalationCount))}
+                            >
+                              {escalationCount}
+                            </span>
+                          )
+                        )}
+                        {item.to === '/app/qotd' && qotdUnanswered && (
+                          collapsed ? (
+                            <span className="absolute end-1.5 top-1.5 h-2 w-2 rounded-full bg-primary" aria-hidden="true" />
+                          ) : (
+                            <span
+                              className="ms-auto h-2 w-2 shrink-0 rounded-full bg-primary"
+                              aria-label={t('Not answered yet today')}
+                            />
+                          )
+                        )}
                       </>
                     )}
                   </NavLink>
@@ -142,7 +181,7 @@ export function Sidebar({
       {/* User */}
       <div className="shrink-0 border-t border-line p-2">
         <NavLink
-          to={portal === 'admin' ? '/admin/settings' : '/app/account'}
+          to={accountHref}
           className={cn(
             'flex w-full items-center gap-2.5 rounded-md py-1.5 text-start transition-colors hover:bg-inset',
             collapsed ? 'justify-center px-0' : 'px-2',

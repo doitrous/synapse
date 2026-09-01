@@ -1,6 +1,6 @@
 import { pool } from '../src/db.js'
-const [[l]] = await pool.query("SELECT v FROM app_state WHERE k='synapse-admin-content-ledger-v4'")
-const [[g]] = await pool.query("SELECT v FROM app_state WHERE k='synapse-concept-graph-v2'")
+const [[l]] = await pool.query("SELECT v FROM app_state WHERE k='nishany-admin-content-ledger-v4'")
+const [[g]] = await pool.query("SELECT v FROM app_state WHERE k='nishany-concept-graph-v2'")
 const ledger = JSON.parse(l.v), graph = JSON.parse(g.v)
 const VALID = new Set(['cvs','resp','renal','gi','neuro','endo','msk','pharm','fnd','dev','haem','imm','inf','obs','gyn','androl','psy','derm','mul','pop'])
 const badItems = ledger.filter((i) => i.subjectId && !VALID.has(i.subjectId))

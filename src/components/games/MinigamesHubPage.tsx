@@ -61,6 +61,7 @@ export function MinigamesHubPage() {
       <PageHeader
         title={t('Minigames')}
         description={t('Short, authored practice games for terms, slides, mechanisms and red flags.')}
+        back={{ fallback: '/app' }}
       />
 
       <Panel className="mb-4 p-4">

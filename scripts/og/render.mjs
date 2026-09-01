@@ -1,5 +1,7 @@
-// Rasterizes the Maristana identity assets and Open Graph cards.
+// Rasterizes the Nishany identity assets and Open Graph cards.
 // Run with: npm run og. The committed PNGs in public/ are what ships.
+// The nishany-lockup*.png files (which need real Baloo 2 rendering, not
+// resvg's system-font fallback) are generated separately — see BRAND.md.
 import { Resvg } from '@resvg/resvg-js'
 import { copyFileSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
@@ -8,13 +10,11 @@ const PAPER = '#f5f7fb' // --color-paper
 const FONT = { loadSystemFonts: true }
 
 const jobs = [
-  { src: '../../public/brand/maristana-mark.svg', out: '../../public/brand/maristana-mark.png', width: 512 },
-  { src: '../../public/brand/maristana-mark-dark.svg', out: '../../public/brand/maristana-mark-dark.png', width: 512 },
-  { src: '../../public/brand/maristana-mark-mono.svg', out: '../../public/brand/maristana-mark-mono.png', width: 512 },
-  { src: '../../public/brand/maristana-mark-white.svg', out: '../../public/brand/maristana-mark-white.png', width: 512 },
-  { src: '../../public/brand/maristana-lockup.svg', out: '../../public/brand/maristana-lockup.png', width: 800 },
-  { src: '../../public/brand/maristana-lockup-dark.svg', out: '../../public/brand/maristana-lockup-dark.png', width: 800 },
-  { src: '../../public/brand/maristana-mark.svg', out: '../../public/favicon.png', width: 128 },
+  { src: '../../public/brand/nishany-mark.svg', out: '../../public/brand/nishany-mark.png', width: 512 },
+  { src: '../../public/brand/nishany-mark-dark.svg', out: '../../public/brand/nishany-mark-dark.png', width: 512 },
+  { src: '../../public/brand/nishany-mark-mono.svg', out: '../../public/brand/nishany-mark-mono.png', width: 512 },
+  { src: '../../public/brand/nishany-mark-white.svg', out: '../../public/brand/nishany-mark-white.png', width: 512 },
+  { src: '../../public/brand/nishany-mark.svg', out: '../../public/favicon.png', width: 128 },
   { src: './og-image.svg', out: '../../public/og-image.png', width: 1200, background: PAPER },
   { src: './og-image-ar.svg', out: '../../public/og-image-ar.png', width: 1200, background: PAPER },
 ]

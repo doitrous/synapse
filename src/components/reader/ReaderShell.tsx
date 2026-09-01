@@ -61,6 +61,14 @@ export function ReaderShell() {
   const { id = '' } = useParams()
   const { noteOpened } = useRecentResources()
   const source = useReaderSource(id)
+  // The previous screen when this tab has one to go back to — a fresh tab, a
+  // bookmark, or a deep link into a specific resource does not, so those land
+  // on the catalogue this reader is drilled into from instead.
+  const goBack = useCallback(() => {
+    const historyIndex = (window.history.state as { idx?: number } | null)?.idx
+    if (typeof historyIndex === 'number' && historyIndex > 0) navigate(-1)
+    else navigate('/app/resources')
+  }, [navigate])
 
   const scrollerRef = useRef<HTMLDivElement>(null)
   const { doc, sizes, outline, loading, error } = usePdfDocument(
@@ -69,7 +77,7 @@ export function ReaderShell() {
     t('This file could not be opened here.'),
   )
 
-  const [fit, setFit] = useLocalChoice<FitMode>('synapse.reader.fit', 'closer', FIT_MODES)
+  const [fit, setFit] = useLocalChoice<FitMode>('nishany.reader.fit', 'closer', FIT_MODES)
   const [scale, setScale] = useState(1)
   const [viewport, setViewport] = useState({ width: 0, height: 0 })
   const [current, setCurrent] = useState(1)
@@ -450,7 +458,7 @@ export function ReaderShell() {
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
-        <button type="button" onClick={() => navigate(-1)} className="inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">
+        <button type="button" onClick={goBack} className="inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">
           <Icon icon={ArrowLeft} size={15} />
           <span className="hidden sm:inline">{t('Back')}</span>
         </button>

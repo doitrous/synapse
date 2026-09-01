@@ -16,6 +16,11 @@ struct PerformanceSummary: Equatable, Sendable {
     var lastAt: Date?
     /// Consecutive days ending today (or yesterday) with at least one attempt.
     var streak = 0
+    /// Attempts made today on a surface that counts toward the daily target —
+    /// question bank and study-room sittings, the same filter the web's
+    /// `TodaysTarget` applies. A flashcard review or a whiteboard session is
+    /// not "a question" in the sense the target means, so it is excluded.
+    var todayQuestions = 0
     /// Accuracy per subject, for subjects with enough answers to mean anything.
     var bySubject: [SubjectAccuracy] = []
     var byDifficulty: [DifficultyAccuracy] = []
@@ -124,6 +129,7 @@ final class PerformanceModel {
         var bySubject: [String: (subjectId: String, topic: String, marked: Int, correct: Int)] = [:]
         var byDifficulty: [String: (marked: Int, correct: Int)] = [:]
         var perDay: [Date: Int] = [:]
+        let today = calendar.startOfDay(for: now)
 
         for record in records {
             summary.attempts += 1
@@ -134,6 +140,9 @@ final class PerformanceModel {
                 if summary.lastAt == nil || at > summary.lastAt! { summary.lastAt = at }
                 let day = calendar.startOfDay(for: at)
                 perDay[day, default: 0] += 1
+                if day == today, record.surface == "qbank" || record.surface == "room" {
+                    summary.todayQuestions += 1
+                }
             }
 
             // Unmarked work counts as practice but never as accuracy.

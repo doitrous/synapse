@@ -65,7 +65,7 @@ export interface MyDocumentSource {
 
 /** What a single request carries, well under the server's chunk ceiling. */
 const CHUNK_BYTES = 8 * 1024 * 1024
-const DEMO_KEY = 'synapse.myDocuments.v1'
+const DEMO_KEY = 'nishany.myDocuments.v1'
 
 const NO_DOCUMENTS: MyDocument[] = []
 

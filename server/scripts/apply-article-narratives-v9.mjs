@@ -27,7 +27,7 @@ import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const requiredMigrationId = '2026-08-12-article-narrative-v9'
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
 
 const args = process.argv.slice(2)
 const commit = args.includes('--commit')

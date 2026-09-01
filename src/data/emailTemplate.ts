@@ -61,21 +61,21 @@ const COLOR = {
   primaryLine: '#f2dfe3',
   /** White, not `--color-on-accent` (#f8fbff): mail wants the full 4.7:1. */
   onAccent: '#ffffff',
-  /** The structural half of Maristana's Courtyard M. */
+  /** The bowl of Nishany's Noon Dot mark. */
   brandBlue: '#1553b3',
 }
 
 const SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
 const SERIF = "Georgia,'Times New Roman',Times,serif"
-/** The logotype is set in Orbitron. No client will fetch a web font, so this falls
- *  through the geometric sans-serifs that ship on real machines. */
-const BRAND = "Orbitron,'Century Gothic',Futura,'Avenir Next','Trebuchet MS',sans-serif"
+/** The logotype is set in Space Grotesk. No client will fetch a web font, so this
+ *  falls through the geometric sans-serifs that ship on real machines. */
+const BRAND = "'Space Grotesk','Century Gothic',Futura,'Avenir Next','Trebuchet MS',sans-serif"
 
 /** The brand mark, absolute. A message is read outside the app, so a relative
  *  path resolves against the mail client and 404s. Written out rather than
  *  imported from `pageMeta.ts` for the same reason the palette is: nothing in
  *  this file may depend on the running app, so that a server can render mail. */
-const MARK_URL = 'https://synapse.doitrous.com/brand/maristana-mark.png'
+const MARK_URL = 'https://nishany.com/brand/nishany-mark.png'
 
 /** Who is sending, and from where. Required in most jurisdictions, and filters look. */
 export interface EmailSender {
@@ -85,7 +85,7 @@ export interface EmailSender {
 }
 
 export const DEFAULT_SENDER: EmailSender = {
-  name: 'Maristana',
+  name: 'Nishany',
   postalAddress: 'Cairo, Egypt',
 }
 
@@ -296,28 +296,28 @@ ${facts.map((fact, index) => {
 
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:100%;">
 
-<!-- MASTHEAD. The lockup as the product sets it: the Courtyard mark IS the M,
-     followed by ARISTANA in the brand face.
+<!-- MASTHEAD. The lockup as the product sets it: the Noon Dot mark IS the N,
+     followed by ISHANY in the brand face.
 
      The masthead still may never depend on an image loading — most clients block
-     them by default, and a grey box is worse than one made of type. So the O is
+     them by default, and a grey box is worse than one made of type. So the mark is
      the only image in the message, and it is given two ways to fail into the
      letter it stands in for:
 
-       A styled alt="M". Clients that block images draw the alt text with the
+       A styled alt="N". Clients that block images draw the alt text with the
        styles carried on the image itself, so the letter arrives in the same
        face, size and blue as the run around it.
 
        An mso branch, because Word draws a placeholder icon rather than honour
        alt text. Outlook gets the letter directly and never sees the image.
 
-     Images on, the mark. Images off or Outlook, MARISTANA in letters—an
+     Images on, the mark. Images off or Outlook, NISHANY in letters—an
      approved lockup, not a fallback that looks
      broken. There is no state where the masthead is a hole.
      The word stays ink so it remains AA-safe in mail clients. -->
 <tr>
 <td style="padding:0 4px 14px;">
-<span style="font-family:${BRAND};font-size:19px;font-weight:700;letter-spacing:0.025em;text-transform:uppercase;white-space:nowrap;mso-line-height-rule:exactly;line-height:19px;color:${COLOR.ink};"><!--[if !mso]><!--><img src="${MARK_URL}" width="24" height="24" alt="M" style="width:24px;height:24px;line-height:24px;vertical-align:-7px;border:0;outline:none;text-decoration:none;font-family:${BRAND};font-size:19px;font-weight:700;color:${COLOR.brandBlue};"><!--<![endif]--><!--[if mso]>M<![endif]-->ARISTANA</span>
+<span style="font-family:${BRAND};font-size:19px;font-weight:700;letter-spacing:0.025em;text-transform:uppercase;white-space:nowrap;mso-line-height-rule:exactly;line-height:19px;color:${COLOR.ink};"><!--[if !mso]><!--><img src="${MARK_URL}" width="24" height="24" alt="N" style="width:24px;height:24px;line-height:24px;vertical-align:-7px;border:0;outline:none;text-decoration:none;font-family:${BRAND};font-size:19px;font-weight:700;color:${COLOR.brandBlue};"><!--<![endif]--><!--[if mso]>N<![endif]-->ISHANY</span>
 </td>
 </tr>
 

@@ -64,6 +64,50 @@ export async function unlinkAccount(userId) {
 }
 
 /**
+ * The other students this one's Facebook friends turn out to be.
+ *
+ * `fbFriendIds` is whatever the browser read back from Facebook's own
+ * `/me/friends` for the connected account — Meta already restricts that list
+ * to friends who use this app and granted the same permission, so nothing
+ * here re-checks it against Facebook; `matchFriends` only has to intersect it
+ * with who has linked. Shaped exactly like `directorySearch`'s result (same
+ * fields, same "already a pending/accepted friend is left out") so the panel
+ * can hand it to the same "Add" button with no special case.
+ */
+export async function matchFacebookFriends(userId, fbFriendIds) {
+  const wanted = Array.isArray(fbFriendIds) ? fbFriendIds.map(String) : []
+  if (!wanted.length) return []
+
+  const [rows] = await pool.query(
+    `SELECT fl.user_id AS userId, fl.fb_user_id AS fbUserId,
+            COALESCE(s.name, s.email, a.email) AS name, s.university_id AS universityId, s.year
+       FROM facebook_links fl
+       JOIN user_access a ON a.user_id = fl.user_id
+       LEFT JOIN students s ON s.user_id = fl.user_id
+      WHERE fl.unlinked_at IS NULL
+        AND fl.user_id <> ?
+        AND NOT EXISTS (
+          SELECT 1 FROM friendships f
+           WHERE f.user_a = LEAST(fl.user_id, ?) AND f.user_b = GREATEST(fl.user_id, ?)
+             AND f.status IN ('pending', 'accepted')
+        )`,
+    [userId, userId, userId],
+  )
+
+  const matchedIds = matchFriends(wanted, rows)
+  const byId = new Map(rows.map((row) => [row.userId, row]))
+  return matchedIds
+    .map((id) => byId.get(id))
+    .filter(Boolean)
+    .map((row) => ({
+      userId: row.userId,
+      displayName: row.name ? String(row.name).split('@')[0] : 'Student',
+      universityId: row.universityId ?? null,
+      year: row.year ?? null,
+    }))
+}
+
+/**
  * Meta's data-deletion callback.
  *
  * Required for App Review, and built with the link rather than after it: an

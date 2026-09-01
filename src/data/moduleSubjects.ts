@@ -52,7 +52,7 @@ export interface ModuleSubject {
 /** Keyed `${universityId}:${year.id}:${courseId}` — a stable id, never a label. */
 export type ModuleSubjectStore = Record<string, ModuleSubject[]>
 
-export const MODULE_SUBJECTS_STORAGE_KEY = 'synapse-module-subjects-v1'
+export const MODULE_SUBJECTS_STORAGE_KEY = 'nishany-module-subjects-v1'
 
 /** The term a module sits in when it has never been told one. */
 export const DEFAULT_TERM = 'Term 1'

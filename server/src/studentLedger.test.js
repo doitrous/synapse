@@ -14,11 +14,13 @@ import {
   redactItem,
   redactLedgerForStudent,
   redactMediaForStudent,
+  redactModuleSchedulesForStudent,
   releasedMediaIdsFromDocument,
   MEDIA_PRIVATE_FIELDS,
   MEDIA_STUDENT_FIELDS,
   REDACTED_STATE_KEYS,
 } from './studentLedger.js'
+import { SCHEDULE_KEY, SCHEDULE_PUBLISH_STATE_KEY } from './academic.js'
 
 const academicCatalogue = [{
   id: 'kau', short: 'KAU', name: 'Kasr Alainy',
@@ -281,6 +283,47 @@ test('the publication write gate reports exactly which published items are media
   )
 })
 
+test('supplying verified media to a published item is not blocked by the descriptive save still being in flight', () => {
+  // A reviewer supplies media to an already-published question. The placement
+  // rides the ledger save; the media record's alt text and rights ride a second,
+  // separate save to the media document. If the ledger lands first, the media id
+  // is not yet "released", which used to refuse the supply and lose the reviewer's
+  // work. The state route now counts the just-supplied, verified id as acceptable
+  // (see enforceMediaSupply.readyMediaIds) — modelled here by adding it to the
+  // after-released set — while a managed id NOT part of the supply is still blocked.
+  const before = authoredQuestion({
+    id: 'q-pub',
+    questionData: { ...authoredQuestion().questionData, media: [], mediaRequests: [{ priority: 'optional', status: 'needed' }] },
+  })
+  const supplied = authoredQuestion({
+    id: 'q-pub',
+    questionData: {
+      ...authoredQuestion().questionData,
+      media: [{ id: 'plc-1', mediaId: 'med-supplied', slot: 'stem' }],
+      mediaRequests: [{ priority: 'optional', status: 'supplied', mediaId: 'med-supplied' }],
+    },
+  })
+  const storedReleased = new Set() // the descriptive media save has not landed yet
+  const withSupply = new Set([...storedReleased, 'med-supplied'])
+  assert.deepEqual(
+    newlyMediaBlockedPublishedItems([before], storedReleased, [supplied], withSupply),
+    [],
+    'a verified supply is accepted even before its descriptive record is released',
+  )
+
+  // But media that was never supplied through a request must still be released.
+  const sneaky = authoredQuestion({
+    id: 'q-pub2',
+    questionData: { ...authoredQuestion().questionData, media: [{ id: 'plc-9', mediaId: 'med-unsupplied', slot: 'stem' }] },
+  })
+  const beforeSneaky = authoredQuestion({ id: 'q-pub2', questionData: { ...authoredQuestion().questionData, media: [] } })
+  assert.deepEqual(
+    newlyMediaBlockedPublishedItems([beforeSneaky], storedReleased, [sneaky], withSupply).map((item) => item.id),
+    ['q-pub2'],
+    'managed media outside the supply is still gated on release',
+  )
+})
+
 /** A published question carrying everything an author would put on one. */
 function authoredQuestion(overrides = {}) {
   return {
@@ -507,7 +550,7 @@ describe('The media library a student receives', () => {
   })
 
   test('the media key is redacted on the way out', () => {
-    assert.equal(REDACTED_STATE_KEYS.get('synapse-media-library-v1'), redactMediaForStudent)
+    assert.equal(REDACTED_STATE_KEYS.get('nishany-media-library-v1'), redactMediaForStudent)
   })
 
   test('every field of MediaRecord is classified, so a new one cannot leak by being forgotten', async () => {
@@ -528,5 +571,40 @@ describe('The media library a student receives', () => {
     const unclassified = declared.filter((field) => !classified.has(field))
     assert.deepEqual(unclassified, [],
       `unclassified MediaRecord fields — add each to MEDIA_STUDENT_FIELDS or MEDIA_PRIVATE_FIELDS: ${unclassified.join(', ')}`)
+  })
+})
+
+describe('redactModuleSchedulesForStudent', () => {
+  const document = {
+    'kau::KAU_Y1::course-1': [{ id: 'block-1', title: 'Published block' }],
+    'kau::KAU_Y1::course-2': [{ id: 'block-2', title: 'Unpublished block' }],
+    'legacy::kau::Year 1::course-2': [{ id: 'block-2-legacy', title: 'Unpublished legacy block' }],
+    [SCHEDULE_PUBLISH_STATE_KEY]: { 'kau::KAU_Y1::course-1': true },
+  }
+
+  test('a student receives no blocks for a module missing from the publish map', () => {
+    const redacted = redactModuleSchedulesForStudent(document)
+    assert.deepEqual(redacted['kau::KAU_Y1::course-2'], [])
+    assert.deepEqual(redacted['legacy::kau::Year 1::course-2'], [])
+  })
+
+  test('a student receives the blocks of a published module', () => {
+    const redacted = redactModuleSchedulesForStudent(document)
+    assert.deepEqual(redacted['kau::KAU_Y1::course-1'], document['kau::KAU_Y1::course-1'])
+  })
+
+  test('the publish-state map itself is left intact', () => {
+    const redacted = redactModuleSchedulesForStudent(document)
+    assert.deepEqual(redacted[SCHEDULE_PUBLISH_STATE_KEY], document[SCHEDULE_PUBLISH_STATE_KEY])
+  })
+
+  test('a malformed document is returned unchanged rather than thrown', () => {
+    for (const bad of [null, undefined, [], 'nope', 42]) {
+      assert.equal(redactModuleSchedulesForStudent(bad), bad)
+    }
+  })
+
+  test('the schedule key is redacted on the way out', () => {
+    assert.equal(REDACTED_STATE_KEYS.get(SCHEDULE_KEY), redactModuleSchedulesForStudent)
   })
 })

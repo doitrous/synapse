@@ -9,7 +9,7 @@ import {
 } from './planCatalog.ts'
 
 /**
- * The catalogue Maristana starts with, and how an older one is carried into it.
+ * The catalogue Nishany starts with, and how an older one is carried into it.
  *
  * The plans lived in `src/pages/landing/content.ts` as two hand-written lists —
  * one English, one Arabic — beside a third hand-written comparison table. The
@@ -125,10 +125,10 @@ export function initialPlanCatalog(): PlanCatalog {
       },
       {
         id: MARISTANA_PLAN_ID,
-        name: bi('MARISTANA', 'MARISTANA'),
+        name: bi('NISHANY', 'NISHANY'),
         entitlement: bi(
-          'Complete Maristana access for your university and year, with a 3-day full trial and no card required.',
-          'وصول كامل إلى Maristana لجامعتك وسنتك، مع تجربة كاملة لمدة ٣ أيام دون بطاقة.',
+          'Complete Nishany access for your university and year, with a 3-day full trial and no card required.',
+          'وصول كامل إلى نيشاني لجامعتك وسنتك، مع تجربة كاملة لمدة ٣ أيام دون بطاقة.',
         ),
         features: structuredClone(MARISTANA_FEATURES),
         prices: { month: 400, term: 1000 },
@@ -248,7 +248,7 @@ export function carryOverLegacyPlans(catalog: PlanCatalog, legacy: readonly Lega
       prices: { month: plan.priceEGP },
       cta: bi('Subscribe', 'اشترك'),
       prominence: 'secondary' as const,
-      // Legacy admin offers remain resolvable, but Maristana is the only new
+      // Legacy admin offers remain resolvable, but Nishany is the only new
       // paid offer. Their original active state is historical data, not a
       // licence to surface another acquisition card after the migration.
       active: false,
@@ -259,7 +259,7 @@ export function carryOverLegacyPlans(catalog: PlanCatalog, legacy: readonly Lega
   return extra.length ? { ...catalog, plans: [...catalog.plans, ...extra] } : catalog
 }
 
-/** The unversioned shape persisted before the Maristana launch. */
+/** The unversioned shape persisted before the Nishany launch. */
 export type StoredPlanCatalog = Omit<PlanCatalog, 'schemaVersion'> & { schemaVersion?: number }
 
 /**

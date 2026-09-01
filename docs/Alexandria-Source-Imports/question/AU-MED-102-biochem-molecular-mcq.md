@@ -5906,3 +5906,727 @@ yes
 ## author_notes
 Stem and options are the source's own wording, corroborated against the AFM master bank where noted; explanations authored to teach the mechanism, not just mark the key.
 
+
+---
+
+# Item
+
+## id
+QST-FND-5B8E3A-01
+
+## title
+Replication is characterised by all of the following EXCEPT:
+
+## question
+Replication is characterised by all of the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+It is semiconservative
+
+## explanation_a
+This is a true statement about replication, so it is not the exception this question asks for: each daughter duplex keeps one parental strand and synthesises one new strand, which is exactly what 'semiconservative' means.
+
+## answer_b
+It requires DNA polymerases
+
+## explanation_b
+This is a true statement about replication, so it is not the exception: DNA polymerase is the enzyme that extends the new strand from an existing 3'-OH, and no replication happens without it.
+
+## answer_c
+It occurs from the 3' to 5' direction
+
+## explanation_c
+Correct — this is the false statement, and the exception being asked for. DNA polymerase can only add nucleotides to an existing 3'-OH end, so the new strand is always built 5' to 3', never 3' to 5'. The trap is that the template strand is read 3' to 5' by the polymerase — a student who conflates the template's reading direction with the new strand's synthesis direction picks this option as if it were true, when it describes the wrong strand.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. This would only be correct if all three preceding statements were true, but option C is false — replication does not occur 3' to 5' on the new strand — so 'none of the above' cannot be the exception.
+
+## topic
+Molecular biology
+
+## subtopic
+DNA replication
+
+## main_concept
+CON-FND-5B8E3AAFEB6C35
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.55
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > DNA replication
+
+## question_only_for
+
+
+## library_ids
+ART-FND-DNA-REPLICATION-REPAIR-PCR
+
+## resource_ids
+src_80f6b1121bd3b85f8886
+
+## learning_objective
+Identify that DNA synthesis always proceeds 5' to 3' on the new strand, distinguishing this from the template's 3' to 5' reading direction.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, DNA & RNA MCQ bank (Dr. Mohamed Agha, "The Genius in Biochemistry"), Q13, answer table p16.
+
+## author_notes
+Transcribed verbatim (stem and all four options) from the department's own DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886), Q13; key visually confirmed against the bank's own printed answer table (p16: "13.c"), which reads clearly and without ambiguity. This lane's earlier concept-authoring pass had flagged this item's key as OCR-garbled ('0') and left it unauthored; a direct page render of the answer table shows a clean 'c', so the item is authored here with the key read by eye rather than left unresolved.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-CA2D65-01
+
+## title
+The acceptor arm of tRNA terminates at its 3' OH end with:
+
+## question
+The acceptor arm of tRNA terminates at its 3' OH end with:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+5'-ACC-3'
+
+## explanation_a
+Incorrect. This reverses the order of the correct sequence — the terminal three bases run C-C-A from 5' to 3', not A-C-C; a student who recalls the three letters but not their order picks this option.
+
+## answer_b
+3'-CAC
+
+## explanation_b
+Incorrect. This both reorders the bases and mislabels which end is 3' — the acceptor arm's defining feature is that its 3' end (not a 3'-to-5' reading) carries the terminal adenosine where the amino acid attaches.
+
+## answer_c
+5'-CCA-3'
+
+## explanation_c
+Correct. Every tRNA molecule, regardless of which amino acid it carries, terminates its acceptor arm at the 3' end with the same sequence: 5'-...C-C-A-3'. The terminal adenosine's 3'-hydroxyl is the exact site where the corresponding amino acid is esterified by its aminoacyl-tRNA synthetase, which is why this universal CCA end matters functionally and not just as a sequence to memorise. Because the sequence is identical across every tRNA species, it is the synthetase's recognition of the anticodon and acceptor-stem body, not the CCA end itself, that ensures the right amino acid is loaded onto the right tRNA.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Option C, 5'-CCA-3', is correct, so 'none of the above' cannot be the answer.
+
+## topic
+Molecular biology
+
+## subtopic
+Translation
+
+## main_concept
+CON-FND-CA2D65E688434A
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+58
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Translation
+
+## question_only_for
+
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_80f6b1121bd3b85f8886
+
+## learning_objective
+State that every tRNA's acceptor arm ends 5'-CCA-3', and that the terminal adenosine is where the amino acid attaches.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, DNA & RNA MCQ bank (Dr. Mohamed Agha, "The Genius in Biochemistry"), Q25, answer table p16.
+
+## author_notes
+Transcribed verbatim (stem and all four options) from the department's own DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886), Q25; key visually confirmed against the bank's own printed answer table (p16: "25.c"), which reads clearly and without ambiguity. As with QST-FND-5B8E3A-01, this lane's earlier pass had flagged the key as OCR-garbled and left it unauthored; a direct page render resolves it cleanly.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-252B3C-01
+
+## title
+What is the function of DNA ligase?
+
+## question
+What is the function of DNA ligase?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Works with continuous 5' to 3' synthesis
+
+## explanation_a
+Incorrect. Continuous 5' to 3' synthesis describes the leading strand's own polymerase activity, not ligase's job — ligase acts only at the end of that process, sealing gaps, not synthesising a continuous new strand.
+
+## answer_b
+Undoes the work of DNA polymerase
+
+## explanation_b
+Incorrect. Ligase does not reverse or undo polymerase's work — it completes it, by sealing the nick left after polymerase has replaced an RNA primer with DNA on the lagging strand.
+
+## answer_c
+Joins the Okazaki fragments
+
+## explanation_c
+Correct. The lagging strand is synthesised discontinuously as short Okazaki fragments, each starting from its own RNA primer. After the primers are removed and replaced with DNA, DNA ligase forms the final phosphodiester bond that seals the nick between adjacent fragments, joining them into one continuous strand — a role distinct from DNA polymerase, which synthesises the fragments themselves but cannot seal the join between them. Without ligase's sealing step, the lagging strand would remain a series of separate fragments rather than one intact daughter strand, even though every fragment had been correctly synthesised.
+
+## answer_d
+Winds the leading and lagging strands together
+
+## explanation_d
+Incorrect. Winding or unwinding the double helix is the job of helicase (unwinding) and topoisomerase (relieving supercoiling), not ligase — ligase's action is sealing a nick in the sugar-phosphate backbone, not coiling strands.
+
+## topic
+Molecular biology
+
+## subtopic
+DNA replication
+
+## main_concept
+CON-FND-252B3C77D181DA
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > DNA replication
+
+## question_only_for
+
+
+## library_ids
+ART-FND-DNA-REPLICATION-REPAIR-PCR
+
+## resource_ids
+src_80f6b1121bd3b85f8886
+
+## learning_objective
+State that DNA ligase seals the nicks between Okazaki fragments, distinguishing its role from DNA polymerase, helicase and topoisomerase.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, DNA & RNA MCQ bank (Dr. Mohamed Agha, "The Genius in Biochemistry"), Q29, answer table p16.
+
+## author_notes
+Transcribed verbatim (stem and all four options) from the department's own DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886), Q29; key confirmed against the bank's own printed answer table (p16: "29.c"). This concept had no question authored in any prior pass (it is not named among this file's own documented exclusions); this closes that oversight.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-A1FC2F-01
+
+## title
+Which of the following amino acids does not have a specific codon on DNA?
+
+## question
+Which of the following amino acids does not have a specific codon on DNA?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Cysteine
+
+## explanation_a
+Incorrect. Cysteine is one of the twenty standard amino acids and is directly specified by its own codons (e.g. UGU, UGC) — it is the codon-specified residue that cystine is later made from, not the exception this question asks for.
+
+## answer_b
+Alanine
+
+## explanation_b
+Incorrect. Alanine is a standard proteinogenic amino acid with its own codons (GCU, GCC, GCA, GCG) directly specified by the genetic code.
+
+## answer_c
+Valine
+
+## explanation_c
+Incorrect. Valine is a standard proteinogenic amino acid with its own codons (GUU, GUC, GUA, GUG), directly specified by the genetic code like the other nineteen.
+
+## answer_d
+Cystine
+
+## explanation_d
+Correct. The genetic code specifies cysteine, which does have codons — but cystine, two cysteine molecules joined by a disulfide bond, is produced only after translation, by oxidation of two cysteine side chains. Because cystine is a post-translational product rather than a residue built directly during protein synthesis, no codon specifies it, unlike cysteine and the other amino acids listed, which are all directly translated. This is the general pattern behind every amino acid that lacks a codon: if it is generated by modifying an already-translated residue, rather than being incorporated as itself during translation, it cannot appear in the genetic code.
+
+## topic
+Molecular biology
+
+## subtopic
+The genetic code
+
+## main_concept
+CON-FND-A1FC2FAF9F0211
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Genetic code
+
+## question_only_for
+
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Explain why cystine, unlike cysteine and the other nineteen standard amino acids, has no direct codon — because it is formed post-translationally from two cysteine residues.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Dr. Mohamed Agha, "The Genius in Biochemistry"), Q74, answer table p13.
+
+## author_notes
+Transcribed verbatim (stem and all four options) from the department's own Protein MCQ bank (src_4852d425a88297af190e), Q74, the bank's final item; key confirmed against the bank's own printed answer table (p13), which runs unbroken from Q1 to Q74 with every row filled, ending "74. d". This lane's earlier concept-authoring pass had tagged this item "department_bank_unkeyed" (based on this same bank's general 57-keyed/17-unkeyed characterisation); a direct page read of this specific table shows no gap at Q74, so the item is authored here as cleanly keyed rather than editorially guessed.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-9D5D62-01
+
+## title
+What may shut down the translation of a processed mRNA?
+
+## question
+What may shut down the translation of a processed mRNA?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Decapping
+
+## explanation_a
+Correct. Removal of an mRNA's 5' 7-methylguanosine cap (decapping) shuts down translation of that transcript in two connected ways: it removes the structure the small ribosomal subunit recognises to begin scanning for the start codon, blocking further initiation, and it exposes the now-uncapped 5' end to 5'-to-3' exonucleolytic degradation. Decapping is therefore both a translation switch-off and the trigger for the transcript's destruction, which is why it is the standard answer among the options offered. This coupling of 'stop reading it' to 'start destroying it' is exactly what a cell needs to permanently silence an mRNA rather than merely pausing its translation.
+
+## answer_b
+Detailing
+
+## explanation_b
+Incorrect. 'Detailing' is not a recognised step in mRNA processing or turnover — it names no real molecular event, unlike decapping, which is a defined, well-characterised regulatory step.
+
+## answer_c
+A protein that binds to the 3' end tail
+
+## explanation_c
+Incorrect. This describes the opposite of a shutdown signal: poly(A)-binding protein coats the 3' poly(A) tail and, together with the 5' cap, normally protects and promotes translation of the mRNA (via the closed-loop mechanism), rather than silencing it.
+
+## answer_d
+RNA editing
+
+## explanation_d
+Incorrect, though this is the option the source paper's own marginal note also floats as a possibility. RNA editing changes the base sequence of an mRNA (altering which amino acid a codon specifies), which can change the protein produced — it does not, by itself, halt translation the way removing the 5' cap does; editing and translational shutdown are different kinds of event.
+
+## topic
+Molecular biology
+
+## subtopic
+Transcription
+
+## main_concept
+CON-FND-9D5D6275474035
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+38
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Transcription
+
+## question_only_for
+
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_80f6b1121bd3b85f8886
+
+## learning_objective
+Identify decapping as the event that shuts down translation of a processed mRNA and marks it for degradation, distinguishing it from poly(A)-tail binding and RNA editing.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, DNA & RNA MCQ bank (Dr. Mohamed Agha, "The Genius in Biochemistry"), Q64, answer table p16.
+
+## author_notes
+Transcribed verbatim (stem and all four options) from src_80f6b1121bd3b85f8886, Q64. The bank's own printed answer table records this single item as genuinely ambiguous — "64. A or D" with a handwritten marginal note in Arabic reading "my own opinion" (رأيي أنا) — rather than a clean, confident key; this is recorded as printed, not silently resolved. The correct option is determined here as A (decapping) on independent biochemical grounds: decapping is the well-established mechanism that both halts translation initiation and triggers 5'-to-3' exonucleolytic decay, whereas RNA editing (D) changes coding sequence but does not itself halt translation. This is the one item in this batch where the printed source itself expresses uncertainty rather than a firm answer; flagged for chief-of-staff awareness given the ambiguous source.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations

@@ -5,9 +5,9 @@ import { useEffect } from 'react'
  *
  * `index.html` carries the head for the site as a whole, which is the right
  * default for a single-page app and the wrong one for a page that has its own
- * search intent. Somebody searching "Maristana pricing" should land on a result
+ * search intent. Somebody searching "Nishany pricing" should land on a result
  * whose title and snippet are about pricing, and an answer engine asked "does
- * Maristana refund?" should find the answer as structured data rather than infer
+ * Nishany refund?" should find the answer as structured data rather than infer
  * it from a paragraph.
  *
  * Everything set here is reverted on unmount, so navigating away restores the
@@ -19,7 +19,7 @@ import { useEffect } from 'react'
  * `docs/pricing-page.md`.
  */
 
-export const SITE_ORIGIN = 'https://synapse.doitrous.com'
+export const SITE_ORIGIN = 'https://nishany.com'
 
 export interface PageMeta {
   title: string

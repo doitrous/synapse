@@ -12,8 +12,8 @@
  * later reader does not mistake a starting point for a finding.
  */
 
-/** Admin-owned, so this is a shared catalogue document rather than `synapse.progress.*`. */
-export const ADAPTIVE_CONFIG_STORAGE_KEY = 'synapse-adaptive-config-v1'
+/** Admin-owned, so this is a shared catalogue document rather than `nishany.progress.*`. */
+export const ADAPTIVE_CONFIG_STORAGE_KEY = 'nishany-adaptive-config-v1'
 
 /**
  * The four things a slot can be bought with.
@@ -444,7 +444,7 @@ export const DEFAULT_ADAPTIVE_CONFIG: AdaptiveConfig = {
     {
       version: 1,
       at: '2026-07-19',
-      author: 'Maristana',
+      author: 'Nishany',
       note: 'Initial published configuration. All weights, thresholds and intervals are launch hypotheses awaiting local held-out calibration.',
     },
   ],

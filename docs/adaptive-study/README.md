@@ -1,6 +1,6 @@
 # Adaptive Study
 
-Synapse selects the most useful next learning action while preserving exam
+Nishany selects the most useful next learning action while preserving exam
 coverage, medical-content safety, student autonomy, and an auditable
 explanation. It optimises **preparation quality** — not engagement volume, and
 not a guaranteed exam result.

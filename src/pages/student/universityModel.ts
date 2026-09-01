@@ -235,6 +235,41 @@ function labelsFor(record: unknown): string[] {
   ])
 }
 
+/**
+ * A module's coverage, merged from every subject beneath it — any depth.
+ *
+ * Coverage is chosen per subject, so "what does this module cover" has to walk
+ * the whole tree, the same way `mergeCurricula` walks the admin-side
+ * `ModuleSubject` tree it is chosen on. This is the read-only counterpart: the
+ * source here is whatever `ProjectionSubject[]` a student's own page actually
+ * receives, live from the server or from the demo projection (whose
+ * `coverage` field mirrors `ModuleSubject.curriculum` field-for-field).
+ *
+ * Only `articleIds` and `topicNodeIds` are merged — the two lists a caller
+ * needs to resolve "which library articles does this module cover" — but the
+ * shape is easy to widen if a future caller needs the other lists too.
+ */
+export function mergeModuleCoverage(module: Pick<ProjectionModule, 'coverage' | 'subjects'>): { articleIds: string[]; topicNodeIds: string[] } {
+  const articleIds = new Set<string>()
+  const topicNodeIds = new Set<string>()
+  const absorb = (coverage: ProjectionCoverage | undefined) => {
+    coverage?.articleIds?.forEach((id) => articleIds.add(id))
+    coverage?.topicNodeIds?.forEach((id) => topicNodeIds.add(id))
+  }
+  const visit = (list: ProjectionSubject[] | undefined) => {
+    (list ?? []).forEach((subject) => {
+      absorb(subject.coverage)
+      visit(subject.children)
+    })
+  }
+  // A module may carry its own coverage directly (a server could choose to
+  // roll it up server-side) in addition to whatever its subjects carry — both
+  // are absorbed so neither source can be silently dropped.
+  absorb(module.coverage)
+  visit(module.subjects)
+  return { articleIds: [...articleIds], topicNodeIds: [...topicNodeIds] }
+}
+
 function countCoverage(coverage: ProjectionCoverage | undefined): number {
   if (!coverage) return 0
   if (coverage.counts) {
@@ -246,6 +281,45 @@ function countCoverage(coverage: ProjectionCoverage | undefined): number {
     coverage.articleIds, coverage.questionIds, coverage.practicalIds,
     coverage.topicNodeIds, coverage.conceptIds, coverage.resourceIds,
   ].reduce((sum, values) => sum + (values?.length ?? 0), 0)
+}
+
+/**
+ * A plain-language label for an assessment component when the record itself
+ * carries none. Kinds are a closed, faculty-facing vocabulary (`eom`, `saq`,
+ * `pass-fail`...); this is the one place they are translated into wording a
+ * student would recognise from their own exam timetable, rather than printed
+ * as-is on a screen that never shows anything else internal.
+ */
+const KIND_LABEL: Partial<Record<string, string>> = {
+  eom: 'Written · end of module',
+  eoy: 'Written · end of year',
+  midterm: 'Midterm exam',
+  quiz: 'Quiz',
+  coursework: 'Coursework',
+  assignments: 'Assignments',
+  'final-written': 'Final written exam',
+  saq: 'Short-answer questions',
+  mcq: 'MCQ exam',
+  case: 'Case-based exam',
+  practical: 'Practical exam',
+  ospe: 'OSPE',
+  osce: 'OSCE',
+  oral: 'Oral exam',
+  portfolio: 'Portfolio',
+  attendance: 'Attendance',
+  logbook: 'Logbook',
+  'pass-fail': 'Pass/fail component',
+  custom: 'Assessment component',
+}
+
+function flattenSubjectNames(subjects: readonly StudentSubjectMap[]): Record<string, string> {
+  const map: Record<string, string> = {}
+  const visit = (list: readonly StudentSubjectMap[]) => list.forEach((subject) => {
+    map[subject.id] = subject.name
+    visit(subject.children)
+  })
+  visit(subjects)
+  return map
 }
 
 function formatDisplayMarks(value: number | null | undefined | 'unavailable'): string {
@@ -262,18 +336,20 @@ function localDateTime(date: string | null | undefined, time: string | null | un
   return Number.isFinite(out.getTime()) ? out : null
 }
 
-function normalizeAssessment(input: ProjectionAssessment | undefined): StudentAssessmentMap {
+function normalizeAssessment(input: ProjectionAssessment | undefined, subjectNames: Record<string, string> = {}): StudentAssessmentMap {
   const components = (input?.components ?? [])
     .filter((component) => component.marks !== null && component.marks !== undefined)
     .map<StudentAssessmentComponent>((component, index) => ({
       id: component.id ?? `component-${index + 1}`,
-      label: component.label ?? component.kind ?? 'Assessment',
+      label: component.label || KIND_LABEL[component.kind ?? ''] || 'Assessment component',
       kind: component.kind ?? 'custom',
       marks: component.marks ?? null,
       displayMarks: formatDisplayMarks(component.marks),
+      // Never the raw subjectId: an unresolved allocation reads as a plain,
+      // still-informative "Allocation 2" rather than an internal identifier.
       allocations: (component.subjectAllocations ?? []).map((allocation, allocationIndex) => ({
         subjectId: allocation.subjectId ?? null,
-        label: allocation.label ?? allocation.subjectId ?? `Allocation ${allocationIndex + 1}`,
+        label: allocation.label || (allocation.subjectId ? subjectNames[allocation.subjectId] : undefined) || `Allocation ${allocationIndex + 1}`,
         marks: allocation.marks ?? null,
         displayMarks: formatDisplayMarks(allocation.marks),
       })),
@@ -365,7 +441,7 @@ export function normalizeStudentUniversityProjection(
         moduleId: raw.moduleId || raw.id,
         term: raw.term || term.term || DEFAULT_TERM,
         labels: unique([...(raw.labels ?? []), raw.evidenceState ?? null]),
-        assessment: normalizeAssessment(raw.assessment),
+        assessment: normalizeAssessment(raw.assessment, flattenSubjectNames(subjects)),
         subjects,
         subjectCount: countSubjectNodes(subjects),
         schedule,
@@ -427,7 +503,9 @@ function projectionAssessmentFromScheme(scheme: AssessmentScheme | null | undefi
       marks: marksToNumber(component.marks),
       subjectAllocations: (component.subjectAllocations ?? []).map((allocation) => ({
         subjectId: allocation.subjectId,
-        label: allocation.subjectId,
+        // No label here: `normalizeAssessment` resolves it to the subject's
+        // real name, or a plain "Allocation N" — never the raw subjectId.
+        label: null,
         marks: marksToNumber(allocation.marks),
       })),
       passRule: component.passRule ?? null,

@@ -10,7 +10,7 @@ import { usePersistentState } from './usePersistentState'
  * actually opened, and empty until then.
  */
 
-export const RECENT_RESOURCES_STORAGE_KEY = 'synapse.progress.recentResources.v1'
+export const RECENT_RESOURCES_STORAGE_KEY = 'nishany.progress.recentResources.v1'
 
 /** Enough to fill the panel and show a little history, without unbounded growth. */
 const LIMIT = 10

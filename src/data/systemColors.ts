@@ -6,8 +6,8 @@ import { getSubject } from '@/data/subjects'
  * colours (seeded from the subject palette); admins can override any system's
  * colour in Subjects & Topics, and every SystemMark across the app reflects it.
  */
-export const SYSTEM_COLORS_KEY = 'synapse-system-colors-v1'
-const CHANGE_EVENT = 'synapse-system-colors-change'
+export const SYSTEM_COLORS_KEY = 'nishany-system-colors-v1'
+const CHANGE_EVENT = 'nishany-system-colors-change'
 
 /**
  * A curated palette of common chapter colours for the picker. Categorical and

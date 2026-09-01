@@ -12,12 +12,12 @@ import { migrateLegacyLocalKey, usePersistentState } from '@/lib/usePersistentSt
 import { useT } from '@/lib/i18n'
 
 /**
- * Dotted so `isUserOwnedState` matches `synapse.qbank.*` and these notes land in
+ * Dotted so `isUserOwnedState` matches `nishany.qbank.*` and these notes land in
  * the student's own record. The hyphenated key it replaces matched no pattern,
  * so every student's private notes were routed to one shared admin document.
  */
-export const QBANK_NOTES_STORAGE_KEY = 'synapse.qbank.questionNotes.v1'
-const LEGACY_QBANK_NOTES_STORAGE_KEY = 'synapse-qbank-question-notes-v1'
+export const QBANK_NOTES_STORAGE_KEY = 'nishany.qbank.questionNotes.v1'
+const LEGACY_QBANK_NOTES_STORAGE_KEY = 'nishany-qbank-question-notes-v1'
 
 migrateLegacyLocalKey(LEGACY_QBANK_NOTES_STORAGE_KEY, QBANK_NOTES_STORAGE_KEY)
 

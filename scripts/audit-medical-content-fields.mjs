@@ -8,10 +8,10 @@ const here = dirname(fileURLToPath(import.meta.url))
 const sourceFlag = process.argv.indexOf('--source')
 const sourceFile = sourceFlag === -1 ? join(here, '..', 'server', 'data', 'medical-library-v1.json') : process.argv[sourceFlag + 1]
 const launch = JSON.parse(await readFile(sourceFile, 'utf8'))
-const ledger = launch.states['synapse-admin-content-ledger-v4'] || []
+const ledger = launch.states['nishany-admin-content-ledger-v4'] || []
 const articles = ledger.filter((item) => item.kind === 'article')
-const graph = launch.states['synapse-concept-graph-v2'] || { concepts: [], relations: [] }
-const evidence = launch.states['synapse-medical-evidence-v1'] || { claims: [], citations: [], articleSpans: [], resources: [] }
+const graph = launch.states['nishany-concept-graph-v2'] || { concepts: [], relations: [] }
+const evidence = launch.states['nishany-medical-evidence-v1'] || { claims: [], citations: [], articleSpans: [], resources: [] }
 const errors = []
 
 const get = (value, path) => path.split('.').reduce((current, key) => current?.[key], value)

@@ -126,7 +126,7 @@ for (const [id, r] of Object.entries(j.sources))
 >
 > ```bash
 > node -e "
-> const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-medical-evidence-v1'];
+> const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-medical-evidence-v1'];
 > const id=process.argv[1];
 > const hit=ev.resources.find(r=>r.id===id);
 > console.log(hit ? 'LIVE: '+hit.title : 'not a live source either — this one really is invented');
@@ -372,9 +372,21 @@ from the corpus index rather than typed from the file. That is the only way to b
 
 ```bash
 npm run medical:batch -- "docs/import-ready/evidence/<your-source-file>.md"
-npm run medical:simulate -- "docs/import-ready/resource/"*.md "docs/import-ready/evidence/"*.md --emit /tmp/synapse-sim.json
-npm run medical:audit -- --source /tmp/synapse-sim.json
+npm run medical:simulate -- "docs/import-ready/resource/"*.md "docs/import-ready/evidence/"*.md --emit /tmp/nishany-sim.json
+npm run medical:audit -- --source /tmp/nishany-sim.json
 ```
+
+**`medical:simulate` has no `--with` flag — only `medical:batch` does.** If you widen
+`medical:batch`'s directory scope with `--with <file>`, do not carry that flag over to
+`medical:simulate`: its parser reads the token right after any `--flag` as that flag's own
+value, so `--with sibling.md` silently drops `sibling.md` from the run while the command
+still exits 0 with `errors: []`. List every file positionally, as the command above already
+does.
+
+**A bare `---` line inside `description`, `qualification` or `concept_locations` ends the
+record early** — the importer splits a file into records on any line that is only `---`,
+the same separator used between `# Item` blocks. Strip a stray horizontal rule out of any
+pasted source text before saving the batch.
 
 - [ ] I wrote **both** records if a student should open it and a claim should cite it, with the same `id`
 - [ ] Every `src_…` ID came from the corpus index — I invented none
@@ -395,3 +407,5 @@ npm run medical:audit -- --source /tmp/synapse-sim.json
 | `… matches no contract this validator knows` | You ran `medical:batch` on a **catalogue** resource file. Wrong tool, not a bad file. |
 | An invented ID passes | `corpus-source-index.json` is missing from the folder, so the check was skipped. |
 | A concept still says no resource has cleared rights | Name the concept in the catalogue record's `included_concepts`. |
+| `medical:simulate` reports `errors: []`, but a sibling file's IDs still resolve as missing | You passed it after `--with`; `medical:simulate` has no such flag and silently dropped it — list every file positionally instead |
+| A record (or everything after it) is missing or the record looks truncated | A bare `---` line inside `description`/`qualification`/`concept_locations` ended the record early — strip stray horizontal rules from pasted source text |

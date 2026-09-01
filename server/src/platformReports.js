@@ -78,8 +78,8 @@ export async function platformReport() {
     pool.query('SELECT COUNT(*) AS verifiedAnswers, COUNT(DISTINCT user_id) AS activeAnswerers FROM qbank_attempts WHERE verified_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)'),
     pool.query("SELECT COUNT(*) AS pending FROM enrollment_change_requests WHERE status = 'pending'"),
     pool.query('SELECT threshold_gb AS thresholdGb, acknowledged_by AS acknowledgedBy, acknowledged_at AS acknowledgedAt FROM storage_threshold_acknowledgements ORDER BY threshold_gb DESC LIMIT 1'),
-    pool.query("SELECT v FROM app_state WHERE k = 'synapse-admin-content-ledger-v4' LIMIT 1"),
-    pool.query("SELECT v FROM app_state WHERE k = 'synapse-content-reports-v1' LIMIT 1"),
+    pool.query("SELECT v FROM app_state WHERE k = 'nishany-admin-content-ledger-v4' LIMIT 1"),
+    pool.query("SELECT v FROM app_state WHERE k = 'nishany-content-reports-v1' LIMIT 1"),
     pool.query("SELECT COUNT(*) AS sent30d, SUM(status <> 'sent' AND status <> 'delivered') AS problem30d FROM emails WHERE direction = 'outbound' AND created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)"),
   ])
   const ledger = safeJson(ledgerRows[0]?.v, [])
@@ -121,7 +121,13 @@ export async function platformReport() {
     },
     contentHealth: content.contentHealth,
     mediaBlockedContent: content.mediaBlocked,
-    reports: Array.isArray(reports) ? { open: reports.filter((report) => report?.status !== 'closed').length, total: reports.length } : { open: 0, total: 0 },
+    // "Open" is the live queue: anything not yet decided. Resolved, dismissed and
+    // archived reports are done, so they leave the count. (An earlier version
+    // compared against a 'closed' status that this vocabulary never had, so every
+    // report read as open.)
+    reports: Array.isArray(reports)
+      ? { open: reports.filter((report) => report?.status === 'Open' || report?.status === 'In review').length, total: reports.length }
+      : { open: 0, total: 0 },
     pendingEnrollmentChanges: Number(pendingEnrollmentRows[0]?.pending ?? 0),
     notificationDelivery: {
       outbound30d: Number(mailRows[0]?.sent30d ?? 0),

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
-import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Link2, Star, Bell, Users } from 'lucide-react'
+import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Link2, Star, Bell, Users, ArrowLeft } from 'lucide-react'
 import { ensureNotebookEditor, initialNotes, notePlainText, plainTextToEditorJson } from '@/data/notebook'
 import type { Note } from '@/data/notebook'
 import { Button } from '@/components/ui/Button'
@@ -27,6 +27,13 @@ import { useMyDocuments, type MyDocument } from '@/lib/useMyDocuments'
 
 type NotebookTab = 'your' | 'shared'
 
+// Keyed on the ShareAccess enum — never render its raw values to a student.
+const SHARE_ACCESS_LABEL: Record<string, string> = {
+  private: 'Private',
+  view: 'Can view',
+  edit: 'Can edit',
+}
+
 interface NoteCapturePayload {
   quote: string
   sourceTitle?: string
@@ -42,7 +49,7 @@ export function Notebook() {
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
   const { subtopics: allSubtopics } = useLiveLibrary()
-  const [notes, setNotes] = usePersistentState<Note[]>('synapse.notebook.notes', initialNotes)
+  const [notes, setNotes] = usePersistentState<Note[]>('nishany.notebook.notes', initialNotes)
   // Was hardcoded to the demo note id `nb1`, so a student whose notes did not
   // include it opened on "No note selected" even with notes in the list.
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -51,6 +58,7 @@ export function Notebook() {
   const [listOpen, setListOpen] = useState(false)
   const [tagOpen, setTagOpen] = useState(false)
   const [newTag, setNewTag] = useState('')
+  const [focusMode, setFocusMode] = usePersistentState<boolean>('nishany.notebook.focusMode', false)
   const [imageError, setImageError] = useState<string | null>(null)
   const [sharing, setSharing] = useState(false)
   const [pendingCapture, setPendingCapture] = useState<NoteCapturePayload | null>(null)
@@ -104,8 +112,8 @@ export function Notebook() {
     handledCapture.current = true
     let captured: string | null = null
     try {
-      captured = sessionStorage.getItem('synapse.notebook.capture')
-      sessionStorage.removeItem('synapse.notebook.capture')
+      captured = sessionStorage.getItem('nishany.notebook.capture')
+      sessionStorage.removeItem('nishany.notebook.capture')
     } catch { /* ignore */ }
     if (!captured) return
     setPendingCapture(parseCapture(captured))
@@ -276,27 +284,41 @@ export function Notebook() {
 
   return (
     <div className="flex h-[calc(100dvh-3.5rem-env(safe-area-inset-top))]">
-      <aside className="hidden w-72 shrink-0 flex-col border-r border-line bg-surface lg:flex">
-        <div className="flex h-12 items-center gap-2 border-b border-line px-4">
-          <Icon icon={NotebookIcon} size={16} className="text-primary" />
-          <span className="font-serif text-[16px] font-semibold text-ink">Notebook</span>
-          <span className="tnum ml-auto font-mono text-[12px] text-ink-3">{notes.length}</span>
-        </div>
-        {listPane}
-      </aside>
+      {!focusMode && (
+        <aside className="hidden w-72 shrink-0 flex-col border-r border-line bg-surface lg:flex">
+          <div className="flex h-12 items-center gap-2 border-b border-line px-4">
+            <Icon icon={NotebookIcon} size={16} className="text-primary" />
+            <span className="font-serif text-[16px] font-semibold text-ink">Notebook</span>
+            <span className="tnum ml-auto font-mono text-[12px] text-ink-3">{notes.length}</span>
+          </div>
+          {listPane}
+        </aside>
+      )}
 
       <div className="flex-1 overflow-y-auto">
-        <div className="flex items-center gap-2 border-b border-line px-4 py-2 lg:hidden">
-          <Button variant="secondary" size="sm" iconLeft={NotebookIcon} onClick={() => setListOpen(true)}>
-            All notes
-          </Button>
-          <Button variant="secondary" size="sm" iconLeft={Plus} onClick={newNote}>
-            New
-          </Button>
-        </div>
+        {!focusMode && (
+          <div className="flex items-center gap-2 border-b border-line px-4 py-2 lg:hidden">
+            <Button variant="secondary" size="sm" iconLeft={NotebookIcon} onClick={() => setListOpen(true)}>
+              All notes
+            </Button>
+            <Button variant="secondary" size="sm" iconLeft={Plus} onClick={newNote}>
+              New
+            </Button>
+          </div>
+        )}
 
         {editorNote && note ? (
           <div className="mx-auto max-w-[46rem] px-5 py-8 sm:px-8">
+            <div className="mb-3 lg:hidden">
+              <button
+                type="button"
+                onClick={() => setListOpen(true)}
+                className="inline-flex max-w-full items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:text-primary-strong"
+              >
+                <Icon icon={ArrowLeft} size={15} className="shrink-0 rtl:-scale-x-100" />
+                <span className="truncate">{t('Back to notes')}</span>
+              </button>
+            </div>
             <div className="mb-4 flex items-center justify-between gap-3">
               {editorNote.subtopicId ? (
                 <Link
@@ -325,11 +347,11 @@ export function Notebook() {
 
             <div className="relative mt-4 flex flex-wrap items-center gap-1.5 border-y border-line py-3">
               <span className="mr-1 text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Tags</span>
-              {editorNote.tags.map((tag) => <span key={tag} className="inline-flex items-center gap-1 rounded-full border border-line-2 bg-surface-2 py-1 pl-2.5 pr-1.5 text-[11.5px] font-medium text-ink-2">{tag}<button type="button" onClick={() => removeTag(tag)} aria-label={`Remove ${tag}`} className="rounded-full p-0.5 text-ink-3 hover:bg-inset hover:text-ink"><Icon icon={X} size={11} /></button></span>)}
-              <button type="button" onClick={() => setTagOpen((open) => !open)} className="grid size-11 place-items-center rounded-full border border-dashed border-line-2 text-ink-3 transition-colors hover:border-primary hover:bg-primary-tint hover:text-primary sm:size-7" aria-label="Add a tag"><Icon icon={Plus} size={14} strokeWidth={2.4} /></button>
+              {editorNote.tags.map((tag) => <span key={tag} className="inline-flex items-center gap-1 rounded-md border border-line-2 bg-surface-2 py-1 pl-2.5 pr-1.5 text-[11.5px] font-medium text-ink-2">{tag}<button type="button" onClick={() => removeTag(tag)} aria-label={`Remove ${tag}`} className="rounded-md p-0.5 text-ink-3 hover:bg-inset hover:text-ink"><Icon icon={X} size={11} /></button></span>)}
+              <button type="button" onClick={() => setTagOpen((open) => !open)} className="grid size-11 place-items-center rounded-md border border-dashed border-line-2 text-ink-3 transition-colors hover:border-primary hover:bg-primary-tint hover:text-primary sm:size-7" aria-label="Add a tag"><Icon icon={Plus} size={14} strokeWidth={2.4} /></button>
               {tagOpen && <div className="absolute left-10 top-[calc(100%+0.4rem)] z-20 w-72 rounded-xl border border-line bg-surface p-3 shadow-pop">
                 <p className="text-[11.5px] font-bold text-ink">Tag a subject or create your own</p>
-                <div className="mt-2 flex flex-wrap gap-1.5">{subjects.filter((subject) => !editorNote.tags.includes(subject.name)).map((subject) => <button type="button" key={subject.id} onClick={() => addTag(subject.name)} className="rounded-full border border-line bg-surface-2 px-2.5 py-1 text-[11px] font-medium text-ink-2 hover:border-primary-line hover:text-ink">{subject.name}</button>)}</div>
+                <div className="mt-2 flex flex-wrap gap-1.5">{subjects.filter((subject) => !editorNote.tags.includes(subject.name)).map((subject) => <button type="button" key={subject.id} onClick={() => addTag(subject.name)} className="rounded-md border border-line bg-surface-2 px-2.5 py-1 text-[11px] font-medium text-ink-2 hover:border-primary-line hover:text-ink">{subject.name}</button>)}</div>
                 <div className="mt-3 flex gap-1.5"><input value={newTag} onChange={(event) => setNewTag(event.target.value)} onKeyDown={(event) => { if (event.key === 'Enter') addTag(newTag) }} placeholder="New tag…" className="h-11 min-w-0 flex-1 rounded-lg border border-line-2 bg-surface px-2.5 text-[12px] text-ink outline-none focus:border-primary sm:h-8" /><Button size="sm" variant="primary" onClick={() => addTag(newTag)} disabled={!newTag.trim()}>Add</Button></div>
                 <div className="mt-3 flex justify-end border-t border-line pt-3"><Button size="sm" variant="secondary" onClick={() => setTagOpen(false)}>{t('Done')}</Button></div>
               </div>}
@@ -355,9 +377,16 @@ export function Notebook() {
                 onChange={(next) => update(editorNote.id, { editorJson: next.editorJson, plainText: next.plainText })}
                 onPaste={pasteImage}
                 placeholder={t('Start writing, or paste a copied image…')}
+                attachedMediaCount={editorNote.imageDocumentId || editorNote.imageData ? 1 : 0}
+                notePosition={{ index: Math.max(1, notes.findIndex((entry) => entry.id === editorNote.id) + 1), total: notes.length }}
+                focusMode={focusMode}
+                onToggleFocus={() => setFocusMode((current) => !current)}
+                uploadImage={(file) => documents.upload(file, undefined, { kind: 'notebook', id: editorNote.id })}
+                drawing={editorNote.drawing}
+                onDrawingChange={(next) => update(editorNote.id, { drawing: next })}
               />
             </div>
-            <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Paste an image from your clipboard directly into this note.')}</p>
+            <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Insert an image inline from the Insert tab, or paste a copied image directly into this note.')}</p>
             {imageError && <p role="status" className="mt-1.5 text-[11.5px] text-danger">{imageError}</p>}
 
             {/* Published as its own copy under its own link — see `ShareDialog`.
@@ -573,7 +602,7 @@ function SharedNotesList({
               <li key={item.id} className="rounded-lg border border-line bg-surface p-2">
                 <Link to={`/s/${item.id}`} onClick={onClose} className="block">
                   <p className="truncate text-[13px] font-semibold text-ink">{item.title}</p>
-                  <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{item.ownerName ?? t('Shared by a classmate')} · {t(item.permission ?? item.access)}</p>
+                  <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{item.ownerName ?? t('Shared by a classmate')} · {t(SHARE_ACCESS_LABEL[item.permission ?? item.access] ?? (item.permission ?? item.access))}</p>
                 </Link>
                 <div className="mt-2 flex items-center gap-1.5 text-[11px] text-ink-3">
                   <span className="inline-flex items-center gap-1"><Icon icon={Star} size={12} />{item.starCount ?? 0}</span>
