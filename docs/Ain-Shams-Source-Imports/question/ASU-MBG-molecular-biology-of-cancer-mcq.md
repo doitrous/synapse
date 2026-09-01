@@ -3134,3 +3134,858 @@ yes
 Third of three questions (Q3, Q17, Q22) keying the same "silencing does NOT activate" fact, this time via promoter deletion specifically.
 
 ---
+
+# Item
+
+## id
+
+## title
+The kinase that drives passage through cell-cycle stages
+
+## question
+Passage of a cell through stages of cell cycle is controlled by a protein kinase that phosphorylates many different proteins at appropriate times:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Tyrosine kinase.
+
+## explanation_a
+Incorrect. Tyrosine kinases (such as growth-factor receptors) act upstream, initiating signalling into the cycle, but they are not the kinase that phosphorylates the many cell-cycle substrate proteins through each phase transition.
+
+## answer_b
+Cyclins.
+
+## explanation_b
+Incorrect. Cyclins are regulatory proteins, not kinases themselves — they activate and direct CDKs but carry no catalytic phosphorylating activity of their own.
+
+## answer_c
+cAMP-dependent protein kinase.
+
+## explanation_c
+Incorrect. cAMP-dependent protein kinase (protein kinase A) is a distinct signalling kinase not classically described as the driver of cell-cycle phase transitions.
+
+## answer_d
+Cyclin-dependent kinase.
+
+## explanation_d
+Correct. Passage through the stages of the cell cycle is driven by cyclin-dependent kinases (CDKs) — protein kinases that, once activated by binding their partner cyclin, phosphorylate a wide range of substrate proteins at the appropriate points in the cycle to trigger each transition. The cyclin itself is a regulatory subunit that activates the CDK and determines its substrate specificity and timing, but it is the CDK, not the cyclin, that is the actual kinase carrying out the phosphorylation. This is the same cyclin-CDK machinery that phosphorylates Rb at the restriction point tested earlier in this chapter.
+
+## answer_e
+CDK activating kinase.
+
+## explanation_e
+Incorrect. CDK-activating kinase (CAK) phosphorylates CDKs themselves to fully activate them; it is not itself the kinase that phosphorylates the many downstream cell-cycle substrate proteins.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-FF40DB9ED068F9
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+72
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify cyclin-dependent kinase, not cyclin itself, as the kinase driving cell-cycle phase transitions.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q23, p.38.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+main_concept reuses this lane's pending-hit overlay of Kasr's cyclin-CDK/restriction-point concept (CON-FND-FF40DB9ED068F9) rather than the newly minted Rb/E2F concept — the question tests CDK identity generically, not Rb specifically. Caught and corrected during authoring: the printed answer table keys d (Cyclin-dependent kinase), not b (Cyclins) — verified twice against the source image before finalising.
+
+---
+
+# Item
+
+## id
+
+## title
+Correct statement about Rb, first asking
+
+## question
+Which of the following about Rb tumor suppressor protein is correct?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It prevents cells from triggering apoptosis
+
+## explanation_a
+Incorrect. Rb's defining role in this chapter is restraining the cell cycle by sequestering E2F, not preventing apoptosis.
+
+## answer_b
+When a mitogenic signal is received, it binds the transcription factor E2F and thus stimulates the cell to enter S phase
+
+## explanation_b
+Incorrect. This distractor reverses the correct causality — a mitogenic signal triggers Rb's phosphorylation and release (not binding) of E2F, and it is the release of E2F, not Rb binding it, that stimulates S-phase entry.
+
+## answer_c
+It binds E2F transcription factor and prevents cell from entering [S phase]
+
+## explanation_c
+Correct. The Rb tumor suppressor protein, in its active (hypophosphorylated) state, binds the E2F transcription factor and prevents the cell from entering S phase; only once cyclin-CDK complexes phosphorylate Rb is E2F released, permitting progression. This restraining, rather than stimulating, action is exactly why Rb is classified as a tumor suppressor, and it is the same fact tested again from a different option set at Q41 later in this chapter.
+
+## answer_d
+It is a transcription factor
+
+## explanation_d
+Incorrect. Rb regulates the transcription factor E2F by binding and sequestering it, but Rb itself is not classified as a transcription factor.
+
+## answer_e
+It is activated when phosphorylated by Cdk.
+
+## explanation_e
+Incorrect. Rb is inactivated, not activated, when phosphorylated by CDK — phosphorylation releases E2F and permits cycle progression, the opposite of Rb "activation."
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-05748BDCBE10A5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+82
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify the correct statement of the Rb-E2F mechanism among several plausible-sounding but reversed distractors.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q24, p.38.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Caught and corrected during authoring: the printed answer table keys c ("binds E2F and prevents entry"), not b ("mitogenic signal... binds E2F and stimulates entry") — option b reverses the true causality and is the keyed-wrong distractor, verified twice against the source image and cross-checked against Q41's own, differently-worded restatement of the same correct fact before finalising.
+
+---
+
+# Item
+
+## id
+
+## title
+Accurate comparison of tumor suppressor genes and proto-oncogenes
+
+## question
+Which of the following accurately compares tumor suppressor genes and proto-oncogenes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Proto-oncogenes code for growth factors, while tumor suppressor genes inhibit cell division of damaged cells.
+
+## explanation_a
+Correct. Proto-oncogenes' normal products include growth factors (and their receptors and downstream signalling proteins) that promote division, while tumor suppressor genes' normal products restrain division, particularly of cells carrying damage — this functional contrast is the single accurate comparison between the two gene classes offered here. Every other option in this question misstates how the two classes relate to one another, whether by claiming automatic disease, by converting one class into the other on mutation, or by giving both classes an active cancer-fighting role neither performs. Keeping the two classes' opposite normal functions straight — one promoting, one restraining — is the reasoning skill this question, and several others in this chapter, are built to test.
+
+## answer_b
+A person who has both tumor suppressor and proto-oncogenes will always develop cancer.
+
+## explanation_b
+Incorrect. Carrying both proto-oncogenes and tumor suppressor genes (which every person does, since both are normal parts of the genome) does not by itself guarantee cancer; disease requires specific activating or inactivating mutations, not merely possessing the genes.
+
+## answer_c
+When a proto-oncogene mutates, it becomes a tumor suppressor gene.
+
+## explanation_c
+Incorrect. A proto-oncogene does not become a tumor suppressor gene through mutation; a gain-of-function mutation converts it into an oncogene, a functionally different outcome.
+
+## answer_d
+When tumor suppressor gene mutates, it becomes oncogene.
+
+## explanation_d
+Incorrect. A tumor suppressor gene does not become an oncogene through mutation; a loss-of-function mutation simply inactivates it, removing a growth-restraining function rather than creating a growth-promoting one.
+
+## answer_e
+Both tumor suppressor and proto-oncogenes prevent the spread of cancer by targeting and destroying existing cancer cells.
+
+## explanation_e
+Incorrect. Neither gene class works by destroying already-existing cancer cells; they act earlier, preventing the initiating mutations or removing damaged cells before malignant transformation occurs.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-1BCB86AE1C6B66
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+78
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify the accurate functional comparison between proto-oncogenes and tumor suppressor genes among common misconceptions.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q25, p.38.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+Which listed factor can stimulate the cell cycle
+
+## question
+Which of the followings can stimulate cell cycle?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+CDK-inhibitor.
+
+## explanation_a
+Incorrect. CDK inhibitors restrain, rather than stimulate, cyclin-CDK activity and cell-cycle progression.
+
+## answer_b
+Retinoblastoma
+
+## explanation_b
+Incorrect. Retinoblastoma protein (Rb), in its active state, restrains passage through the restriction point rather than stimulating the cycle.
+
+## answer_c
+P53 protein.
+
+## explanation_c
+Incorrect. p53 halts, rather than stimulates, the cell cycle in response to DNA damage.
+
+## answer_d
+Hypophosphorylation of Rb.
+
+## explanation_d
+Incorrect. Hypophosphorylated Rb is its active, restraining state — it sequesters E2F and blocks progression, the opposite of stimulating the cycle.
+
+## answer_e
+Growth factor.
+
+## explanation_e
+Correct. A growth factor binding its receptor is the physiological signal that starts the cell cycle, inducing cyclin gene expression and ultimately activating the cyclin-CDK complexes that drive the cell forward — making it the one option here that genuinely stimulates, rather than restrains, cell-cycle progression. Every other option listed here (CDK inhibitors, Rb, p53, hypophosphorylated Rb) is a restraining factor, which is precisely the contrast this question tests.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-1BCB86AE1C6B66
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-05748BDCBE10A5
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify growth factor as the one genuinely stimulatory signal among several cell-cycle-restraining distractors.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q26, p.38.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+The one apoptotic-cell feature that is NOT true (swelling and rupture)
+
+## question
+Which of the followings is not a character of an apoptotic cell?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Activated caspase cascade.
+
+## explanation_a
+Not the exception — this is true. Activation of the caspase cascade is central to executing apoptosis.
+
+## answer_b
+Fragmentation of DNA.
+
+## explanation_b
+Not the exception — this is true. DNA fragmentation, driven by caspase-activated DNase, is a hallmark biochemical feature of apoptosis.
+
+## answer_c
+blebbing
+
+## explanation_c
+Not the exception — this is true. Membrane blebbing, preceding formation of apoptotic bodies, is a classic morphological feature of apoptosis.
+
+## answer_d
+It swells and ruptures.
+
+## explanation_d
+Correct — this is the exception. Swelling and rupture describe necrosis, not apoptosis: an apoptotic cell shrinks with its plasma membrane remaining intact until it is packaged into membrane-bound apoptotic bodies, in direct contrast to the loss of membrane integrity, swelling and content-spilling rupture that characterise necrotic cell death. This same shrink-versus-swell contrast is the exact fact tested from the opposite chapter section at Q10 earlier in this chapter.
+
+## answer_e
+Phosphatidyl serin appears on the outer leaflet of cell membrane.
+
+## explanation_e
+Not the exception — this is true. Externalisation of phosphatidylserine to the outer membrane leaflet is a recognised apoptotic marker, signalling the cell for phagocytic clearance.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-46B3AD5A2D8294
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+72
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-108-PAT-APOPTOSIS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise that apoptotic cells shrink with intact membranes, unlike the swelling and rupture of necrosis.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q27, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Companion to Q10 — same apoptosis-vs-necrosis morphology concept, this time listing the caspase/DNA-fragmentation/blebbing/phosphatidylserine features as the true statements and swelling/rupture as the one false one.
+
+---
+
+# Item
+
+## id
+
+## title
+What "caspase" means, chemically
+
+## question
+Caspase enzymes means
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cleave proteins after Cysteine
+
+## explanation_a
+Incorrect. Caspases cleave their substrate proteins after an aspartate residue, not after cysteine; the confusion here swaps the enzyme's active-site residue with its substrate-recognition residue.
+
+## answer_b
+Contain aspartic acid in active site
+
+## explanation_b
+Incorrect. Caspases contain cysteine, not aspartic acid, in their active site; aspartate is the residue in the substrate that caspases cleave after, not a component of the enzyme's own catalytic site.
+
+## answer_c
+Cleave proteins after asparagine
+
+## explanation_c
+Incorrect. Caspases cleave after an aspartate residue in their substrate, not after asparagine.
+
+## answer_d
+Contain cysteine in active site
+
+## explanation_d
+Correct. Caspases are cysteine proteases — they carry a cysteine residue in their catalytic active site, which is the defining chemical feature of this enzyme class and the property "caspase" (cysteine-aspartate protease) itself names. This is distinct from the sequence they cleave after, which is an aspartate residue in the substrate, not the enzyme's own active-site chemistry. Getting the two residues (cysteine in the enzyme, aspartate in the substrate) straight is exactly what the four distractor options test.
+
+## answer_e
+
+## explanation_e
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-70E5BD77E8FE49
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+68
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name caspases as cysteine proteases, distinguishing the enzyme's active-site residue from its substrate-cleavage residue.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q28, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Four-option item in the source (no printed option e); left blank rather than invented. main_concept reuses this lane's pending-hit overlay of the general caspases concept — the granular initiator/effector-per-pathway and apoptosome facts (Q29-34, 36, 42, 43) are a distinct, more specific concept minted new rather than force-fit here.
+
+---
