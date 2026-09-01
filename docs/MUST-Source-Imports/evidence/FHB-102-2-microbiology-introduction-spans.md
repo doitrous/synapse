@@ -1163,3 +1163,421 @@ CLM-INF-MUST-FHB1022-VIRO2-Q26-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-VIRO2-Q26-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q1-01
+
+## article_id
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-staphylococci-identification-definition
+
+## text
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q1-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q1-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q2-01
+
+## article_id
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-staphylococci-identification-definition
+
+## text
+In Greek, staphyle means bunch of grapes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q2-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q2-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q3-01
+
+## article_id
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-staphylococci-identification-definition
+
+## text
+All staphylococci are catalase positive.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q3-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q3-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q6-01
+
+## article_id
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-staphylococci-identification-definition
+
+## text
+Staphylococcus aureus produces a golden-yellow endopigment.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q6-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q6-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q7-01
+
+## article_id
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-staphylococci-identification-definition
+
+## text
+Staphylococcus aureus is beta-hemolytic on blood agar.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q7-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q7-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q9-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Streptococci are Gram-positive cocci arranged in chains or pairs.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q9-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q9-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q10-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+All streptococci are catalase negative.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q10-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q10-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q11-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Viridans streptococci are alpha-hemolytic streptococci.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q11-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q11-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q13-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Streptococcus pyogenes belongs to Lancefield group A.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q13-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q13-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q14-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Streptococcus pyogenes displays beta hemolysis on blood agar.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q14-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q14-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q15-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Enterococci are classified as nonhemolytic in the governed streptococcal table.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q15-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q15-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q16-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q16-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q16-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q17-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q17-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q17-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q18-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q18-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q18-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## section_id
+art-inf-must-fhb1022-staphylococci-identification-definition
+
+## text
+The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q26-01
+
+## article_id
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## section_id
+art-inf-must-fhb1022-branching-gram-positive-bacteria-definition
+
+## text
+Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q26-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q26-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q27-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Streptococcal hemolytic activity is observed and classified on blood agar.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q27-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q27-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q28-01
+
+## article_id
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## section_id
+art-inf-must-fhb1022-branching-gram-positive-bacteria-definition
+
+## text
+Actinomyces is anaerobic and non-acid fast.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q28-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q28-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-CH10-Q29-01
+
+## article_id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-streptococci-classification-definition
+
+## text
+Griffith classification of streptococci uses M protein.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q29-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-CH10-Q29-01

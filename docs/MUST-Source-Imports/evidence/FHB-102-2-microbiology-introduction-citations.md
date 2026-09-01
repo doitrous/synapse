@@ -2117,3 +2117,763 @@ The official MUST teaching deck directly supports the unchanged printed Virology
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q1-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q1-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture describes staphylococci as Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+
+## locator_type
+page
+
+## locator_page
+4–5
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Staphylococcal arrangement
+
+## locator_detail
+PDF page 4–5, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q1 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q2-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q2-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that in Greek staphyle means bunch of grapes.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Staphylococcal arrangement
+
+## locator_detail
+PDF page 4, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q2 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q3-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q3-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that all staphylococci are catalase positive.
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Catalase differentiation
+
+## locator_detail
+PDF page 5, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q3 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q6-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q6-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture states “aureus = gold” and that S. aureus produces golden-yellow endopigment.
+
+## locator_type
+page
+
+## locator_page
+8–9
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Staphylococcus aureus characteristics
+
+## locator_detail
+PDF page 8–9, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q6 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q7-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q7-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture lists beta hemolysis among the major characteristics of S. aureus.
+
+## locator_type
+page
+
+## locator_page
+9, 11
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Staphylococcus aureus characteristics
+
+## locator_detail
+PDF page 9, 11, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q7 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q9-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q9-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly describes streptococci as Gram-positive cocci arranged in chains or pairs.
+
+## locator_type
+page
+
+## locator_page
+14
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Streptococcal arrangement
+
+## locator_detail
+PDF page 14, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q9 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q10-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q10-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that all streptococci are catalase negative.
+
+## locator_type
+page
+
+## locator_page
+14
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Catalase differentiation
+
+## locator_detail
+PDF page 14, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q10 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q11-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q11-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture places viridans streptococci in the alpha-hemolytic group.
+
+## locator_type
+page
+
+## locator_page
+15–16, 19–21
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Hemolytic classification
+
+## locator_detail
+PDF page 15–16, 19–21, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q11 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q13-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q13-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Lancefield classification diagram places Streptococcus pyogenes under group A.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Lancefield classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q13 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q14-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q14-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture classifies S. pyogenes among beta-hemolytic streptococci and lists beta hemolysis as its major characteristic.
+
+## locator_type
+page
+
+## locator_page
+16–18
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Hemolytic classification
+
+## locator_detail
+PDF page 16–18, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q14 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q15-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q15-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture places enterococci under nonhemolytic streptococci and lists them as nonhemolytic.
+
+## locator_type
+page
+
+## locator_page
+15–16, 20
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Hemolytic classification
+
+## locator_detail
+PDF page 15–16, 20, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q15 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q16-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q16-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture identifies Peptostreptococci as anaerobic streptococci and Gram-positive cocci arranged in chains.
+
+## locator_type
+page
+
+## locator_page
+22
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Peptostreptococci
+
+## locator_detail
+PDF page 22, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q16 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q17-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q17-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture lists the mouth, upper respiratory tract, intestine and female genital tract as the normal commensal reservoir.
+
+## locator_type
+page
+
+## locator_page
+22
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Peptostreptococci
+
+## locator_detail
+PDF page 22, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q17 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q18-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q18-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly lists mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+
+## locator_type
+page
+
+## locator_page
+22
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Peptostreptococci
+
+## locator_detail
+PDF page 22, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q18 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q19-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official assignment identifies the catalase test as the test differentiating staphylococci from streptococci.
+
+## locator_type
+page
+
+## locator_page
+23
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Catalase differentiation
+
+## locator_detail
+PDF page 23, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q19 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q26-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q26-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Gram-positive classification diagram labels Nocardia weak acid fast and Actinomyces non-acid fast.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Branching Gram-positive bacteria
+
+## locator_detail
+PDF page 3, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q26 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q27-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q27-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture classifies streptococci according to their effect on blood agar into beta, alpha and nonhemolytic groups.
+
+## locator_type
+page
+
+## locator_page
+15–16
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Hemolytic classification
+
+## locator_detail
+PDF page 15–16, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q27 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q28-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q28-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Gram-positive classification diagram labels Actinomyces anaerobic and non-acid fast.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Branching Gram-positive bacteria
+
+## locator_detail
+PDF page 3, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q28 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-CH10-Q29-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-CH10-Q29-01
+
+## resource_id
+src_e2832d7aebaad9c7b1fe
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official classification diagram states “According M protein (Griffith classification).”
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+General Characteristics of Medically Relevant Bacteria, Chapter 10 — Griffith classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 10 Q29 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

@@ -8053,3 +8053,2891 @@ yes
 
 ## author_notes
 Printed source key: Virology Q26 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q1
+
+## title
+Which of the following best describes the arrangement of staphylococci?
+
+## question
+Which of the following best describes the arrangement of staphylococci?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Chains
+
+## explanation_a
+Incorrect. Chains and pairs describe the contrasting streptococcal arrangement; tetrads are not the arrangement stated here. The supported answer is C, Grape-like clusters.
+
+## answer_b
+Pairs
+
+## explanation_b
+Incorrect. Chains and pairs describe the contrasting streptococcal arrangement; tetrads are not the arrangement stated here. The supported answer is C, Grape-like clusters.
+
+## answer_c
+Grape-like clusters
+
+## explanation_c
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches. The official MUST teaching directly supports Grape-like clusters for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Tetrads
+
+## explanation_d
+Incorrect. Chains and pairs describe the contrasting streptococcal arrangement; tetrads are not the arrangement stated here. The supported answer is C, Grape-like clusters.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-85A1E8CB2272AA
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcal arrangement
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Recognise grape-like clusters as the characteristic staphylococcal arrangement.
+
+## source_citation
+Absalam101 Part 2, p39, Microbiology Chapter 10 Q1, printed key p47 (1 = C); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p4–5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q1 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q2
+
+## title
+In Greek, what does “staphyle” mean?
+
+## question
+In Greek, what does “staphyle” mean?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Cocci
+
+## explanation_a
+Incorrect. The source phrase is the full “bunch of grapes,” not the shorter distractors cocci, chain or cluster. The supported answer is D, Bunch of grapes.
+
+## answer_b
+Chain
+
+## explanation_b
+Incorrect. The source phrase is the full “bunch of grapes,” not the shorter distractors cocci, chain or cluster. The supported answer is D, Bunch of grapes.
+
+## answer_c
+Cluster
+
+## explanation_c
+Incorrect. The source phrase is the full “bunch of grapes,” not the shorter distractors cocci, chain or cluster. The supported answer is D, Bunch of grapes.
+
+## answer_d
+Bunch of grapes
+
+## explanation_d
+In Greek, staphyle means bunch of grapes. The official MUST teaching directly supports Bunch of grapes for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-85A1E8CB2272AA
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcal arrangement
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Recall the source meaning of staphyle.
+
+## source_citation
+Absalam101 Part 2, p39, Microbiology Chapter 10 Q2, printed key p47 (2 = D); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q2 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q3
+
+## title
+Which enzyme is produced by all staphylococci?
+
+## question
+Which enzyme is produced by all staphylococci?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Catalase
+
+## explanation_a
+All staphylococci are catalase positive. The official MUST teaching directly supports Catalase for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Coagulase
+
+## explanation_b
+Incorrect. Coagulase separates staphylococcal groups and is not produced by all species. The supported answer is A, Catalase.
+
+## answer_c
+Oxidase
+
+## explanation_c
+Incorrect. Coagulase separates staphylococcal groups and is not produced by all species. The supported answer is A, Catalase.
+
+## answer_d
+DNase
+
+## explanation_d
+Incorrect. Coagulase separates staphylococcal groups and is not produced by all species. The supported answer is A, Catalase.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-C74F8450F57CB5
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Catalase differentiation
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify catalase as the enzyme produced by all staphylococci in the governed comparison.
+
+## source_citation
+Absalam101 Part 2, p39, Microbiology Chapter 10 Q3, printed key p47 (3 = A); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q3 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q6
+
+## title
+What characteristic pigment does Staphylococcus aureus produce?
+
+## question
+What characteristic pigment does Staphylococcus aureus produce?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Green pigment
+
+## explanation_a
+Incorrect. Green, red and blue are not the pigment stated in the governed lecture. The supported answer is C, Golden yellow pigment.
+
+## answer_b
+Red pigment
+
+## explanation_b
+Incorrect. Green, red and blue are not the pigment stated in the governed lecture. The supported answer is C, Golden yellow pigment.
+
+## answer_c
+Golden yellow pigment
+
+## explanation_c
+Staphylococcus aureus produces a golden-yellow endopigment. The official MUST teaching directly supports Golden yellow pigment for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Blue pigment
+
+## explanation_d
+Incorrect. Green, red and blue are not the pigment stated in the governed lecture. The supported answer is C, Golden yellow pigment.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-5D9131404ADD15
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcus aureus characteristics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify the characteristic golden-yellow pigment of S. aureus.
+
+## source_citation
+Absalam101 Part 2, p40, Microbiology Chapter 10 Q6, printed key p47 (6 = C); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p8–9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q6 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q7
+
+## title
+On blood agar, Staphylococcus aureus typically exhibits which type of hemolysis?
+
+## question
+On blood agar, Staphylococcus aureus typically exhibits which type of hemolysis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Alpha hemolysis
+
+## explanation_a
+Incorrect. Alpha and nonhemolytic patterns are assigned to other coccal groups in the source. The supported answer is B, Beta hemolysis.
+
+## answer_b
+Beta hemolysis
+
+## explanation_b
+Staphylococcus aureus is beta-hemolytic on blood agar. The official MUST teaching directly supports Beta hemolysis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Gamma hemolysis (no hemolysis)
+
+## explanation_c
+Incorrect. Alpha and nonhemolytic patterns are assigned to other coccal groups in the source. The supported answer is B, Beta hemolysis.
+
+## answer_d
+Non-hemolytic
+
+## explanation_d
+Incorrect. Alpha and nonhemolytic patterns are assigned to other coccal groups in the source. The supported answer is B, Beta hemolysis.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-A4A63ADF8BDCFF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcus aureus characteristics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify beta hemolysis as the governed S. aureus blood-agar pattern.
+
+## source_citation
+Absalam101 Part 2, p40, Microbiology Chapter 10 Q7, printed key p47 (7 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p9, 11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q7 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q9
+
+## title
+Streptococci are generally arranged in which pattern?
+
+## question
+Streptococci are generally arranged in which pattern?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Clusters
+
+## explanation_a
+Incorrect. Clusters and irregular bunches describe staphylococci in the governed comparison. The supported answer is B, Chains or pairs.
+
+## answer_b
+Chains or pairs
+
+## explanation_b
+Streptococci are Gram-positive cocci arranged in chains or pairs. The official MUST teaching directly supports Chains or pairs for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Tetrads
+
+## explanation_c
+Incorrect. Clusters and irregular bunches describe staphylococci in the governed comparison. The supported answer is B, Chains or pairs.
+
+## answer_d
+Irregular groups
+
+## explanation_d
+Incorrect. Clusters and irregular bunches describe staphylococci in the governed comparison. The supported answer is B, Chains or pairs.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-3F856387656D8F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Streptococcal arrangement
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Recognise chains or pairs as the streptococcal arrangement.
+
+## source_citation
+Absalam101 Part 2, p41, Microbiology Chapter 10 Q9, printed key p47 (9 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q9 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q10
+
+## title
+All streptococci are negative for which enzyme?
+
+## question
+All streptococci are negative for which enzyme?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Coagulase
+
+## explanation_a
+Incorrect. The source contrast is catalase-positive staphylococci versus catalase-negative streptococci. The supported answer is B, Catalase.
+
+## answer_b
+Catalase
+
+## explanation_b
+All streptococci are catalase negative. The official MUST teaching directly supports Catalase for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+DNase
+
+## explanation_c
+Incorrect. The source contrast is catalase-positive staphylococci versus catalase-negative streptococci. The supported answer is B, Catalase.
+
+## answer_d
+Mannitol fermentation enzyme
+
+## explanation_d
+Incorrect. The source contrast is catalase-positive staphylococci versus catalase-negative streptococci. The supported answer is B, Catalase.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-C74F8450F57CB5
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Catalase differentiation
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify catalase negativity as the governed streptococcal characteristic.
+
+## source_citation
+Absalam101 Part 2, p41, Microbiology Chapter 10 Q10, printed key p47 (10 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q10 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q11
+
+## title
+Which of the following is an example of alpha-hemolytic streptococci?
+
+## question
+Which of the following is an example of alpha-hemolytic streptococci?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Streptococcus pyogenes
+
+## explanation_a
+Incorrect. S. pyogenes and S. agalactiae are beta-hemolytic; enterococci are nonhemolytic in the governed table. The supported answer is C, Viridans streptococci.
+
+## answer_b
+Streptococcus agalactiae
+
+## explanation_b
+Incorrect. S. pyogenes and S. agalactiae are beta-hemolytic; enterococci are nonhemolytic in the governed table. The supported answer is C, Viridans streptococci.
+
+## answer_c
+Viridans streptococci
+
+## explanation_c
+Viridans streptococci are alpha-hemolytic streptococci. The official MUST teaching directly supports Viridans streptococci for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Enterococci
+
+## explanation_d
+Incorrect. S. pyogenes and S. agalactiae are beta-hemolytic; enterococci are nonhemolytic in the governed table. The supported answer is C, Viridans streptococci.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-7075A185535054
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Select viridans streptococci as the alpha-hemolytic example.
+
+## source_citation
+Absalam101 Part 2, p41, Microbiology Chapter 10 Q11, printed key p47 (11 = C); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p15–16, 19–21.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q11 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q13
+
+## title
+Streptococcus pyogenes belongs to which Lancefield group?
+
+## question
+Streptococcus pyogenes belongs to which Lancefield group?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Group A
+
+## explanation_a
+Streptococcus pyogenes belongs to Lancefield group A. The official MUST teaching directly supports Group A for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Group B
+
+## explanation_b
+Incorrect. The same diagram places S. agalactiae under group B; groups C and D are not assigned to S. pyogenes. The supported answer is A, Group A.
+
+## answer_c
+Group C
+
+## explanation_c
+Incorrect. The same diagram places S. agalactiae under group B; groups C and D are not assigned to S. pyogenes. The supported answer is A, Group A.
+
+## answer_d
+Group D
+
+## explanation_d
+Incorrect. The same diagram places S. agalactiae under group B; groups C and D are not assigned to S. pyogenes. The supported answer is A, Group A.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-AA64B806DA081E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Lancefield classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Assign S. pyogenes to Lancefield group A.
+
+## source_citation
+Absalam101 Part 2, p42, Microbiology Chapter 10 Q13, printed key p47 (13 = A); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q13 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q14
+
+## title
+What hemolytic pattern does Streptococcus pyogenes display on blood agar?
+
+## question
+What hemolytic pattern does Streptococcus pyogenes display on blood agar?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Alpha hemolysis
+
+## explanation_a
+Incorrect. Alpha and nonhemolytic patterns are assigned to different streptococcal groups. The supported answer is B, Beta hemolysis.
+
+## answer_b
+Beta hemolysis
+
+## explanation_b
+Streptococcus pyogenes displays beta hemolysis on blood agar. The official MUST teaching directly supports Beta hemolysis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Gamma hemolysis
+
+## explanation_c
+Incorrect. Alpha and nonhemolytic patterns are assigned to different streptococcal groups. The supported answer is B, Beta hemolysis.
+
+## answer_d
+Non-hemolysis
+
+## explanation_d
+Incorrect. Alpha and nonhemolytic patterns are assigned to different streptococcal groups. The supported answer is B, Beta hemolysis.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-E7624BD37294C8
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify beta hemolysis as the S. pyogenes blood-agar pattern.
+
+## source_citation
+Absalam101 Part 2, p42, Microbiology Chapter 10 Q14, printed key p47 (14 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p16–18.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q14 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q15
+
+## title
+Which characteristic is associated with enterococci?
+
+## question
+Which characteristic is associated with enterococci?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Beta hemolysis
+
+## explanation_a
+Incorrect. Beta hemolysis, coagulase positivity and catalase positivity are not assigned to enterococci in the governed table. The supported answer is C, Non-hemolytic activity.
+
+## answer_b
+Coagulase positivity
+
+## explanation_b
+Incorrect. Beta hemolysis, coagulase positivity and catalase positivity are not assigned to enterococci in the governed table. The supported answer is C, Non-hemolytic activity.
+
+## answer_c
+Non-hemolytic activity
+
+## explanation_c
+Enterococci are classified as nonhemolytic in the governed streptococcal table. The official MUST teaching directly supports Non-hemolytic activity for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Catalase positivity
+
+## explanation_d
+Incorrect. Beta hemolysis, coagulase positivity and catalase positivity are not assigned to enterococci in the governed table. The supported answer is C, Non-hemolytic activity.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-61038BEB1BE8C6
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify nonhemolytic activity as the associated enterococcal characteristic.
+
+## source_citation
+Absalam101 Part 2, p42–43, Microbiology Chapter 10 Q15, printed key p47 (15 = C); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p15–16, 20.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q15 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q16
+
+## title
+Peptostreptococci are best described as:
+
+## question
+Peptostreptococci are best described as:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Aerobic Gram-positive cocci in clusters
+
+## explanation_a
+Incorrect. They are not aerobic clustered cocci, Gram-negative rods or spore-forming bacilli. The supported answer is B, Anaerobic cocci arranged in chains.
+
+## answer_b
+Anaerobic cocci arranged in chains
+
+## explanation_b
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains. The official MUST teaching directly supports Anaerobic cocci arranged in chains for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Gram-negative rods
+
+## explanation_c
+Incorrect. They are not aerobic clustered cocci, Gram-negative rods or spore-forming bacilli. The supported answer is B, Anaerobic cocci arranged in chains.
+
+## answer_d
+Spore-forming bacilli
+
+## explanation_d
+Incorrect. They are not aerobic clustered cocci, Gram-negative rods or spore-forming bacilli. The supported answer is B, Anaerobic cocci arranged in chains.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-B0D1AC6F58565C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Peptostreptococci
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Recognise Peptostreptococci as anaerobic chain-forming Gram-positive cocci.
+
+## source_citation
+Absalam101 Part 2, p43, Microbiology Chapter 10 Q16, printed key p47 (16 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q16 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q17
+
+## title
+What is the normal reservoir for Peptostreptococci?
+
+## question
+What is the normal reservoir for Peptostreptococci?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Skin
+
+## explanation_a
+Incorrect. Skin, urinary tract alone and blood do not reproduce the stated reservoir list. The supported answer is C, Mouth, upper respiratory tract, intestine, and female genital tract.
+
+## answer_b
+Urinary tract
+
+## explanation_b
+Incorrect. Skin, urinary tract alone and blood do not reproduce the stated reservoir list. The supported answer is C, Mouth, upper respiratory tract, intestine, and female genital tract.
+
+## answer_c
+Mouth, upper respiratory tract, intestine, and female genital tract
+
+## explanation_c
+The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract. The official MUST teaching directly supports Mouth, upper respiratory tract, intestine, and female genital tract for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Blood
+
+## explanation_d
+Incorrect. Skin, urinary tract alone and blood do not reproduce the stated reservoir list. The supported answer is C, Mouth, upper respiratory tract, intestine, and female genital tract.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-B0D1AC6F58565C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Peptostreptococci
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify the complete governed reservoir list for Peptostreptococci.
+
+## source_citation
+Absalam101 Part 2, p43, Microbiology Chapter 10 Q17, printed key p47 (17 = C); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q17 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q18
+
+## title
+In clinical settings, Peptostreptococci are most commonly associated with:
+
+## question
+In clinical settings, Peptostreptococci are most commonly associated with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Pneumonia
+
+## explanation_a
+Incorrect. The source presents a multisite mixed-infection pattern rather than isolated pneumonia, urinary infection or meningitis. The supported answer is C, Mixed anaerobic infections of wounds, abdomen, lung, and genital tract.
+
+## answer_b
+Urinary tract infections
+
+## explanation_b
+Incorrect. The source presents a multisite mixed-infection pattern rather than isolated pneumonia, urinary infection or meningitis. The supported answer is C, Mixed anaerobic infections of wounds, abdomen, lung, and genital tract.
+
+## answer_c
+Mixed anaerobic infections of wounds, abdomen, lung, and genital tract
+
+## explanation_c
+Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract. The official MUST teaching directly supports Mixed anaerobic infections of wounds, abdomen, lung, and genital tract for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Meningitis
+
+## explanation_d
+Incorrect. The source presents a multisite mixed-infection pattern rather than isolated pneumonia, urinary infection or meningitis. The supported answer is C, Mixed anaerobic infections of wounds, abdomen, lung, and genital tract.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-B0D1AC6F58565C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Peptostreptococci
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Recognise the governed mixed-anaerobic infection profile of Peptostreptococci.
+
+## source_citation
+Absalam101 Part 2, p43, Microbiology Chapter 10 Q18, printed key p47 (18 = C); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q18 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q19
+
+## title
+Which test is commonly used to differentiate between staphylococci and streptococci?
+
+## question
+Which test is commonly used to differentiate between staphylococci and streptococci?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Catalase test
+
+## explanation_a
+The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci. The official MUST teaching directly supports Catalase test for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Coagulase test
+
+## explanation_b
+Incorrect. Coagulase and mannitol tests further classify staphylococci rather than establishing this two-group distinction. The supported answer is A, Catalase test.
+
+## answer_c
+Mannitol fermentation test
+
+## explanation_c
+Incorrect. Coagulase and mannitol tests further classify staphylococci rather than establishing this two-group distinction. The supported answer is A, Catalase test.
+
+## answer_d
+Oxidase test
+
+## explanation_d
+Incorrect. Coagulase and mannitol tests further classify staphylococci rather than establishing this two-group distinction. The supported answer is A, Catalase test.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-C74F8450F57CB5
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Catalase differentiation
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Select the catalase test for the governed staphylococcal-versus-streptococcal distinction.
+
+## source_citation
+Absalam101 Part 2, p43–44, Microbiology Chapter 10 Q19, printed key p47 (19 = A); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p23.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q19 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q26
+
+## title
+Which of the following differentiates Nocardia from Actinomyces?
+
+## question
+Which of the following differentiates Nocardia from Actinomyces?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Anaerobic growth
+
+## explanation_a
+Incorrect. Anaerobic growth characterises Actinomyces rather than Nocardia, and the diagram does not use endospores or motility for this distinction. The supported answer is B, Weak acid-fast staining.
+
+## answer_b
+Weak acid-fast staining
+
+## explanation_b
+Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast. The official MUST teaching directly supports Weak acid-fast staining for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Endospore formation
+
+## explanation_c
+Incorrect. Anaerobic growth characterises Actinomyces rather than Nocardia, and the diagram does not use endospores or motility for this distinction. The supported answer is B, Weak acid-fast staining.
+
+## answer_d
+Motility
+
+## explanation_d
+Incorrect. Anaerobic growth characterises Actinomyces rather than Nocardia, and the diagram does not use endospores or motility for this distinction. The supported answer is B, Weak acid-fast staining.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-72D859013C49CF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Branching Gram-positive bacteria
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Use weak acid-fast staining to distinguish Nocardia from Actinomyces.
+
+## source_citation
+Absalam101 Part 2, p45–46, Microbiology Chapter 10 Q26, printed key p47 (26 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q26 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q27
+
+## title
+Which test is used to observe hemolytic activity in streptococci?
+
+## question
+Which test is used to observe hemolytic activity in streptococci?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Mannitol salt agar
+
+## explanation_a
+Incorrect. Mannitol salt agar, catalase and coagulase serve different identification purposes. The supported answer is B, Blood agar hemolysis test.
+
+## answer_b
+Blood agar hemolysis test
+
+## explanation_b
+Streptococcal hemolytic activity is observed and classified on blood agar. The official MUST teaching directly supports Blood agar hemolysis test for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Catalase test
+
+## explanation_c
+Incorrect. Mannitol salt agar, catalase and coagulase serve different identification purposes. The supported answer is B, Blood agar hemolysis test.
+
+## answer_d
+Coagulase test
+
+## explanation_d
+Incorrect. Mannitol salt agar, catalase and coagulase serve different identification purposes. The supported answer is B, Blood agar hemolysis test.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-A68F484AA15268
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify blood agar as the medium used to observe streptococcal hemolytic activity.
+
+## source_citation
+Absalam101 Part 2, p46, Microbiology Chapter 10 Q27, printed key p47 (27 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p15–16.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q27 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q28
+
+## title
+Which of the following is anaerobic, non-acid fast?
+
+## question
+Which of the following is anaerobic, non-acid fast?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Nocardia
+
+## explanation_a
+Incorrect. Nocardia is shown as aerobic and weak acid fast; the other offered genera are not assigned this combined branch identity. The supported answer is B, Actinomyces.
+
+## answer_b
+Actinomyces
+
+## explanation_b
+Actinomyces is anaerobic and non-acid fast. The official MUST teaching directly supports Actinomyces for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Propionibacterium
+
+## explanation_c
+Incorrect. Nocardia is shown as aerobic and weak acid fast; the other offered genera are not assigned this combined branch identity. The supported answer is B, Actinomyces.
+
+## answer_d
+Clostridium
+
+## explanation_d
+Incorrect. Nocardia is shown as aerobic and weak acid fast; the other offered genera are not assigned this combined branch identity. The supported answer is B, Actinomyces.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-72D859013C49CF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Branching Gram-positive bacteria
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Identify Actinomyces from the combined anaerobic and non-acid-fast properties.
+
+## source_citation
+Absalam101 Part 2, p46, Microbiology Chapter 10 Q28, printed key p47 (28 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q28 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-CH10-Q29
+
+## title
+Which classification method for streptococci utilizes the M protein?
+
+## question
+Which classification method for streptococci utilizes the M protein?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_e2832d7aebaad9c7b1fe without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Lancefield classification
+
+## explanation_a
+Incorrect. Lancefield classification uses the C cell-wall carbohydrate antigen, while catalase and coagulase are tests rather than this typing method. The supported answer is B, Griffith classification.
+
+## answer_b
+Griffith classification
+
+## explanation_b
+Griffith classification of streptococci uses M protein. The official MUST teaching directly supports Griffith classification for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Catalase test
+
+## explanation_c
+Incorrect. Lancefield classification uses the C cell-wall carbohydrate antigen, while catalase and coagulase are tests rather than this typing method. The supported answer is B, Griffith classification.
+
+## answer_d
+Coagulase test
+
+## explanation_d
+Incorrect. Lancefield classification uses the C cell-wall carbohydrate antigen, while catalase and coagulase are tests rather than this typing method. The supported answer is B, Griffith classification.
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## main_concept
+CON-INF-B41082B3611139
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Griffith classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_e2832d7aebaad9c7b1fe
+
+## learning_objective
+Associate M-protein typing with Griffith classification.
+
+## source_citation
+Absalam101 Part 2, p46, Microbiology Chapter 10 Q29, printed key p47 (29 = B); official MUST General Characteristics of Medically Relevant Bacteria, Chapter 10, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Chapter 10 Q29 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

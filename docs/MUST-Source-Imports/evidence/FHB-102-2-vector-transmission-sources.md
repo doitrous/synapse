@@ -939,6 +939,61 @@ no
 # Item
 
 ## id
+src_e2832d7aebaad9c7b1fe
+
+## title
+General Characteristics of Medically Relevant Bacteria, Chapter 10
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/5.General characteristics of medically relevant bacteria (Ch 10).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+25
+
+## sha256
+e2832d7aebaad9c7b1fefa847658799131875ed8ac508ca90f5380d69a8aa5f4
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 25 pages were rendered and visually read for the bounded Chapter 10 Q1–Q30 audit. Page 1 visibly identifies MUST, the Faculty of Medicine Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 3–23 govern the Gram-positive classification tree, staphylococcal arrangement, catalase and coagulase properties, S. aureus phenotype, streptococcal arrangement and hemolytic classification, Peptostreptococci, and the catalase differentiation assignment. The deck directly supports the 19 authored prompts, exposes the unsupported precision of Q20, Q21, Q24 and Q30, and contradicts Q25's printed A by identifying S. epidermidis—not Nocardia—as a skin commensal. It is teaching evidence only and contains no authenticated examiner key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 src_a3d71ccbc276ec903213
 
 ## title

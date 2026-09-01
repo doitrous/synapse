@@ -2329,3 +2329,839 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Virology
 source question: Absalam Virology Q26
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q1-01
+
+## concept_id
+CON-INF-85A1E8CB2272AA
+
+## subject
+Staphylococci form grape-like clusters named from staphyle
+
+## predicate
+states
+
+## object
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+
+## display_text
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q1
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q2-01
+
+## concept_id
+CON-INF-85A1E8CB2272AA
+
+## subject
+Staphylococci form grape-like clusters named from staphyle
+
+## predicate
+states
+
+## object
+In Greek, staphyle means bunch of grapes.
+
+## display_text
+In Greek, staphyle means bunch of grapes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q2
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q3-01
+
+## concept_id
+CON-INF-C74F8450F57CB5
+
+## subject
+Catalase distinguishes staphylococci from streptococci
+
+## predicate
+states
+
+## object
+All staphylococci are catalase positive.
+
+## display_text
+All staphylococci are catalase positive.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q3
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q6-01
+
+## concept_id
+CON-INF-5D9131404ADD15
+
+## subject
+Staphylococcus aureus produces golden-yellow pigment
+
+## predicate
+states
+
+## object
+Staphylococcus aureus produces a golden-yellow endopigment.
+
+## display_text
+Staphylococcus aureus produces a golden-yellow endopigment.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q6
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q7-01
+
+## concept_id
+CON-INF-A4A63ADF8BDCFF
+
+## subject
+Staphylococcus aureus is beta-hemolytic on blood agar
+
+## predicate
+states
+
+## object
+Staphylococcus aureus is beta-hemolytic on blood agar.
+
+## display_text
+Staphylococcus aureus is beta-hemolytic on blood agar.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q7
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q9-01
+
+## concept_id
+CON-INF-3F856387656D8F
+
+## subject
+Streptococci are arranged in chains or pairs
+
+## predicate
+states
+
+## object
+Streptococci are Gram-positive cocci arranged in chains or pairs.
+
+## display_text
+Streptococci are Gram-positive cocci arranged in chains or pairs.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q9
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q10-01
+
+## concept_id
+CON-INF-C74F8450F57CB5
+
+## subject
+Catalase distinguishes staphylococci from streptococci
+
+## predicate
+states
+
+## object
+All streptococci are catalase negative.
+
+## display_text
+All streptococci are catalase negative.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q10
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q11-01
+
+## concept_id
+CON-INF-7075A185535054
+
+## subject
+Viridans streptococci are alpha-hemolytic
+
+## predicate
+states
+
+## object
+Viridans streptococci are alpha-hemolytic streptococci.
+
+## display_text
+Viridans streptococci are alpha-hemolytic streptococci.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q11
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q13-01
+
+## concept_id
+CON-INF-AA64B806DA081E
+
+## subject
+Streptococcus pyogenes belongs to Lancefield group A
+
+## predicate
+states
+
+## object
+Streptococcus pyogenes belongs to Lancefield group A.
+
+## display_text
+Streptococcus pyogenes belongs to Lancefield group A.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q13
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q14-01
+
+## concept_id
+CON-INF-E7624BD37294C8
+
+## subject
+Streptococcus pyogenes is beta-hemolytic
+
+## predicate
+states
+
+## object
+Streptococcus pyogenes displays beta hemolysis on blood agar.
+
+## display_text
+Streptococcus pyogenes displays beta hemolysis on blood agar.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q14
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q15-01
+
+## concept_id
+CON-INF-61038BEB1BE8C6
+
+## subject
+Enterococci are nonhemolytic in the governed classification
+
+## predicate
+states
+
+## object
+Enterococci are classified as nonhemolytic in the governed streptococcal table.
+
+## display_text
+Enterococci are classified as nonhemolytic in the governed streptococcal table.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q15
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q16-01
+
+## concept_id
+CON-INF-B0D1AC6F58565C
+
+## subject
+Peptostreptococci are anaerobic chain-forming commensals linked to mixed infections
+
+## predicate
+states
+
+## object
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains.
+
+## display_text
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q16
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q17-01
+
+## concept_id
+CON-INF-B0D1AC6F58565C
+
+## subject
+Peptostreptococci are anaerobic chain-forming commensals linked to mixed infections
+
+## predicate
+states
+
+## object
+The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract.
+
+## display_text
+The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q17
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q18-01
+
+## concept_id
+CON-INF-B0D1AC6F58565C
+
+## subject
+Peptostreptococci are anaerobic chain-forming commensals linked to mixed infections
+
+## predicate
+states
+
+## object
+Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+
+## display_text
+Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q18
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q19-01
+
+## concept_id
+CON-INF-C74F8450F57CB5
+
+## subject
+Catalase distinguishes staphylococci from streptococci
+
+## predicate
+states
+
+## object
+The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci.
+
+## display_text
+The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q26-01
+
+## concept_id
+CON-INF-72D859013C49CF
+
+## subject
+Weak acid-fast staining differentiates Nocardia from anaerobic non-acid-fast Actinomyces
+
+## predicate
+states
+
+## object
+Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast.
+
+## display_text
+Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q26
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q27-01
+
+## concept_id
+CON-INF-A68F484AA15268
+
+## subject
+Blood agar demonstrates streptococcal hemolytic activity
+
+## predicate
+states
+
+## object
+Streptococcal hemolytic activity is observed and classified on blood agar.
+
+## display_text
+Streptococcal hemolytic activity is observed and classified on blood agar.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q27
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q28-01
+
+## concept_id
+CON-INF-72D859013C49CF
+
+## subject
+Weak acid-fast staining differentiates Nocardia from anaerobic non-acid-fast Actinomyces
+
+## predicate
+states
+
+## object
+Actinomyces is anaerobic and non-acid fast.
+
+## display_text
+Actinomyces is anaerobic and non-acid fast.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q28
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-CH10-Q29-01
+
+## concept_id
+CON-INF-B41082B3611139
+
+## subject
+Griffith classification of streptococci uses M protein
+
+## predicate
+states
+
+## object
+Griffith classification of streptococci uses M protein.
+
+## display_text
+Griffith classification of streptococci uses M protein.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapter 10
+source question: Absalam Microbiology Chapter 10 Q29

@@ -8528,3 +8528,2389 @@ rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survive
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-85A1E8CB2272AA
+
+## label
+Staphylococci form grape-like clusters named from staphyle
+
+## canonical_key
+microbiology.ch10.staphylococci-grape-clusters-etymology
+
+## aliases
+Staphylococcal grape clusters
+Staphyle means bunch of grapes
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches. In Greek, staphyle means bunch of grapes.
+
+## explicit_objective
+Recognise grape-like clusters as the characteristic staphylococcal arrangement. Recall the source meaning of staphyle.
+
+## pitfalls
+Chains and pairs describe the contrasting streptococcal arrangement; tetrads are not the arrangement stated here. The source phrase is the full “bunch of grapes,” not the shorter distractors cocci, chain or cluster.
+
+## concept_type
+morphology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Staphylococcal arrangement
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcal arrangement
+
+## article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q1-01
+CLM-INF-MUST-FHB1022-CH10-Q2-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p39 Microbiology Chapter 10 Q1; printed answer p47
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p39 Microbiology Chapter 10 Q2; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p4–5 direct MUST teaching
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p4 direct MUST teaching
+
+## original_wording
+Which of the following best describes the arrangement of staphylococci? Printed key C; options retained in their original order.
+In Greek, what does “staphyle” mean? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q1; printed C agrees with the governed MUST teaching. No key conflict affects authored Microbiology Chapter 10 Q2; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-C74F8450F57CB5
+
+## label
+Catalase distinguishes staphylococci from streptococci
+
+## canonical_key
+microbiology.ch10.catalase-staphylococci-streptococci
+
+## aliases
+Staphylococci catalase positive
+Streptococci catalase negative
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+All staphylococci are catalase positive. All streptococci are catalase negative. The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci.
+
+## explicit_objective
+Identify catalase as the enzyme produced by all staphylococci in the governed comparison. Identify catalase negativity as the governed streptococcal characteristic. Select the catalase test for the governed staphylococcal-versus-streptococcal distinction.
+
+## pitfalls
+Coagulase separates staphylococcal groups and is not produced by all species. The source contrast is catalase-positive staphylococci versus catalase-negative streptococci. Coagulase and mannitol tests further classify staphylococci rather than establishing this two-group distinction.
+
+## concept_type
+diagnostic principle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Catalase differentiation
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Catalase differentiation
+
+## article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q3-01
+CLM-INF-MUST-FHB1022-CH10-Q10-01
+CLM-INF-MUST-FHB1022-CH10-Q19-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p39 Microbiology Chapter 10 Q3; printed answer p47
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p41 Microbiology Chapter 10 Q10; printed answer p47
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p43–44 Microbiology Chapter 10 Q19; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p5 direct MUST teaching
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p14 direct MUST teaching
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p23 direct MUST teaching
+
+## original_wording
+Which enzyme is produced by all staphylococci? Printed key A; options retained in their original order.
+All streptococci are negative for which enzyme? Printed key B; options retained in their original order.
+Which test is commonly used to differentiate between staphylococci and streptococci? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q3; printed A agrees with the governed MUST teaching. No key conflict affects authored Microbiology Chapter 10 Q10; printed B agrees with the governed MUST teaching. No key conflict affects authored Microbiology Chapter 10 Q19; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-5D9131404ADD15
+
+## label
+Staphylococcus aureus produces golden-yellow pigment
+
+## canonical_key
+microbiology.ch10.s-aureus-golden-pigment
+
+## aliases
+S. aureus golden pigment
+Aureus means gold
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Staphylococcus aureus produces a golden-yellow endopigment.
+
+## explicit_objective
+Identify the characteristic golden-yellow pigment of S. aureus.
+
+## pitfalls
+Green, red and blue are not the pigment stated in the governed lecture.
+
+## concept_type
+property
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Staphylococcus aureus characteristics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcus aureus characteristics
+
+## article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q6-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p40 Microbiology Chapter 10 Q6; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p8–9 direct MUST teaching
+
+## original_wording
+What characteristic pigment does Staphylococcus aureus produce? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q6; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-A4A63ADF8BDCFF
+
+## label
+Staphylococcus aureus is beta-hemolytic on blood agar
+
+## canonical_key
+microbiology.ch10.s-aureus-beta-hemolysis
+
+## aliases
+S. aureus beta hemolysis
+Beta-hemolytic Staphylococcus aureus
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Staphylococcus aureus is beta-hemolytic on blood agar.
+
+## explicit_objective
+Identify beta hemolysis as the governed S. aureus blood-agar pattern.
+
+## pitfalls
+Alpha and nonhemolytic patterns are assigned to other coccal groups in the source.
+
+## concept_type
+laboratory finding
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Staphylococcus aureus characteristics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcus aureus characteristics
+
+## article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q7-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p40 Microbiology Chapter 10 Q7; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p9, 11 direct MUST teaching
+
+## original_wording
+On blood agar, Staphylococcus aureus typically exhibits which type of hemolysis? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q7; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-3F856387656D8F
+
+## label
+Streptococci are arranged in chains or pairs
+
+## canonical_key
+microbiology.ch10.streptococci-chains-pairs
+
+## aliases
+Streptococcal chains
+Streptococcal pairs
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Streptococci are Gram-positive cocci arranged in chains or pairs.
+
+## explicit_objective
+Recognise chains or pairs as the streptococcal arrangement.
+
+## pitfalls
+Clusters and irregular bunches describe staphylococci in the governed comparison.
+
+## concept_type
+morphology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Streptococcal arrangement
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Streptococcal arrangement
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q9-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p41 Microbiology Chapter 10 Q9; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p14 direct MUST teaching
+
+## original_wording
+Streptococci are generally arranged in which pattern? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q9; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-7075A185535054
+
+## label
+Viridans streptococci are alpha-hemolytic
+
+## canonical_key
+microbiology.ch10.viridans-alpha-hemolysis
+
+## aliases
+Viridans alpha hemolysis
+Alpha-hemolytic viridans streptococci
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Viridans streptococci are alpha-hemolytic streptococci.
+
+## explicit_objective
+Select viridans streptococci as the alpha-hemolytic example.
+
+## pitfalls
+S. pyogenes and S. agalactiae are beta-hemolytic; enterococci are nonhemolytic in the governed table.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Hemolytic classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q11-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p41 Microbiology Chapter 10 Q11; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p15–16, 19–21 direct MUST teaching
+
+## original_wording
+Which of the following is an example of alpha-hemolytic streptococci? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q11; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-AA64B806DA081E
+
+## label
+Streptococcus pyogenes belongs to Lancefield group A
+
+## canonical_key
+microbiology.ch10.s-pyogenes-lancefield-group-a
+
+## aliases
+S. pyogenes group A
+Group A streptococcus
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Streptococcus pyogenes belongs to Lancefield group A.
+
+## explicit_objective
+Assign S. pyogenes to Lancefield group A.
+
+## pitfalls
+The same diagram places S. agalactiae under group B; groups C and D are not assigned to S. pyogenes.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Lancefield classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Lancefield classification
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q13-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p42 Microbiology Chapter 10 Q13; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Streptococcus pyogenes belongs to which Lancefield group? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q13; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-E7624BD37294C8
+
+## label
+Streptococcus pyogenes is beta-hemolytic
+
+## canonical_key
+microbiology.ch10.s-pyogenes-beta-hemolysis
+
+## aliases
+S. pyogenes beta hemolysis
+Beta-hemolytic group A streptococcus
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Streptococcus pyogenes displays beta hemolysis on blood agar.
+
+## explicit_objective
+Identify beta hemolysis as the S. pyogenes blood-agar pattern.
+
+## pitfalls
+Alpha and nonhemolytic patterns are assigned to different streptococcal groups.
+
+## concept_type
+laboratory finding
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Hemolytic classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q14-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p42 Microbiology Chapter 10 Q14; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p16–18 direct MUST teaching
+
+## original_wording
+What hemolytic pattern does Streptococcus pyogenes display on blood agar? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q14; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-61038BEB1BE8C6
+
+## label
+Enterococci are nonhemolytic in the governed classification
+
+## canonical_key
+microbiology.ch10.enterococci-nonhemolytic
+
+## aliases
+Nonhemolytic enterococci
+Enterococcal hemolysis classification
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Enterococci are classified as nonhemolytic in the governed streptococcal table.
+
+## explicit_objective
+Identify nonhemolytic activity as the associated enterococcal characteristic.
+
+## pitfalls
+Beta hemolysis, coagulase positivity and catalase positivity are not assigned to enterococci in the governed table.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Hemolytic classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q15-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p42–43 Microbiology Chapter 10 Q15; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p15–16, 20 direct MUST teaching
+
+## original_wording
+Which characteristic is associated with enterococci? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q15; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-B0D1AC6F58565C
+
+## label
+Peptostreptococci are anaerobic chain-forming commensals linked to mixed infections
+
+## canonical_key
+microbiology.ch10.peptostreptococci-profile
+
+## aliases
+Peptostreptococci profile
+Anaerobic streptococci
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains. The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract. Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+
+## explicit_objective
+Recognise Peptostreptococci as anaerobic chain-forming Gram-positive cocci. Identify the complete governed reservoir list for Peptostreptococci. Recognise the governed mixed-anaerobic infection profile of Peptostreptococci.
+
+## pitfalls
+They are not aerobic clustered cocci, Gram-negative rods or spore-forming bacilli. Skin, urinary tract alone and blood do not reproduce the stated reservoir list. The source presents a multisite mixed-infection pattern rather than isolated pneumonia, urinary infection or meningitis.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Peptostreptococci
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Peptostreptococci
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q16-01
+CLM-INF-MUST-FHB1022-CH10-Q17-01
+CLM-INF-MUST-FHB1022-CH10-Q18-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p43 Microbiology Chapter 10 Q16; printed answer p47
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p43 Microbiology Chapter 10 Q17; printed answer p47
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p43 Microbiology Chapter 10 Q18; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p22 direct MUST teaching
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p22 direct MUST teaching
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p22 direct MUST teaching
+
+## original_wording
+Peptostreptococci are best described as: Printed key B; options retained in their original order.
+What is the normal reservoir for Peptostreptococci? Printed key C; options retained in their original order.
+In clinical settings, Peptostreptococci are most commonly associated with: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q16; printed B agrees with the governed MUST teaching. No key conflict affects authored Microbiology Chapter 10 Q17; printed C agrees with the governed MUST teaching. No key conflict affects authored Microbiology Chapter 10 Q18; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-72D859013C49CF
+
+## label
+Weak acid-fast staining differentiates Nocardia from anaerobic non-acid-fast Actinomyces
+
+## canonical_key
+microbiology.ch10.nocardia-actinomyces-acid-fast-oxygen
+
+## aliases
+Nocardia versus Actinomyces
+Weak acid-fast Nocardia
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast. Actinomyces is anaerobic and non-acid fast.
+
+## explicit_objective
+Use weak acid-fast staining to distinguish Nocardia from Actinomyces. Identify Actinomyces from the combined anaerobic and non-acid-fast properties.
+
+## pitfalls
+Anaerobic growth characterises Actinomyces rather than Nocardia, and the diagram does not use endospores or motility for this distinction. Nocardia is shown as aerobic and weak acid fast; the other offered genera are not assigned this combined branch identity.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Branching Gram-positive bacteria
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Branching Gram-positive bacteria
+
+## article_ids
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q26-01
+CLM-INF-MUST-FHB1022-CH10-Q28-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p45–46 Microbiology Chapter 10 Q26; printed answer p47
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p46 Microbiology Chapter 10 Q28; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p3 direct MUST teaching
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p3 direct MUST teaching
+
+## original_wording
+Which of the following differentiates Nocardia from Actinomyces? Printed key B; options retained in their original order.
+Which of the following is anaerobic, non-acid fast? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q26; printed B agrees with the governed MUST teaching. No key conflict affects authored Microbiology Chapter 10 Q28; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-A68F484AA15268
+
+## label
+Blood agar demonstrates streptococcal hemolytic activity
+
+## canonical_key
+microbiology.ch10.blood-agar-hemolysis
+
+## aliases
+Streptococcal blood agar hemolysis
+Blood agar hemolysis test
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Streptococcal hemolytic activity is observed and classified on blood agar.
+
+## explicit_objective
+Identify blood agar as the medium used to observe streptococcal hemolytic activity.
+
+## pitfalls
+Mannitol salt agar, catalase and coagulase serve different identification purposes.
+
+## concept_type
+diagnostic principle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Hemolytic classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Hemolytic classification
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q27-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p46 Microbiology Chapter 10 Q27; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p15–16 direct MUST teaching
+
+## original_wording
+Which test is used to observe hemolytic activity in streptococci? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q27; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-B41082B3611139
+
+## label
+Griffith classification of streptococci uses M protein
+
+## canonical_key
+microbiology.ch10.griffith-m-protein
+
+## aliases
+Griffith M-protein classification
+Streptococcal M-protein typing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Griffith classification of streptococci uses M protein.
+
+## explicit_objective
+Associate M-protein typing with Griffith classification.
+
+## pitfalls
+Lancefield classification uses the C cell-wall carbohydrate antigen, while catalase and coagulase are tests rather than this typing method.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Griffith classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Griffith classification
+
+## article_ids
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q29-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p46 Microbiology Chapter 10 Q29; printed answer p47
+src_e2832d7aebaad9c7b1fe | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Which classification method for streptococci utilizes the M protein? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Microbiology Chapter 10 Q29; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

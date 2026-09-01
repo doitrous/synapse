@@ -47,6 +47,7 @@ const absalamPart2AssessmentResourceId = 'src_8bd3b772b3b32db59726'
 const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
 const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
 const antibioticsIntroResourceId = 'src_ee1fb7a716a473eb2d98'
+const gramPositiveCocciResourceId = 'src_e2832d7aebaad9c7b1fe'
 
 const introArticles = {
   definitions: 'ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS',
@@ -515,6 +516,9 @@ const microArticles = {
   mycologyDiagnosis: 'ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS',
   virusSusceptibility: 'ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS',
   viralCarrier: 'ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION',
+  staphylococci: 'ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION',
+  streptococci: 'ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION',
+  branchingGramPositive: 'ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA',
 }
 
 const microArticleRelations = {
@@ -529,6 +533,9 @@ const microArticleRelations = {
   mycologyDiagnosis: ['mycologyFoundations', 'mycologyDisease'],
   virusSusceptibility: ['viralCarrier'],
   viralCarrier: ['virusSusceptibility'],
+  staphylococci: ['streptococci'],
+  streptococci: ['staphylococci', 'branchingGramPositive'],
+  branchingGramPositive: ['streptococci'],
 }
 
 const microItems = [
@@ -1015,6 +1022,35 @@ const virologyItems = [
 }))
 
 microItems.push(...virologyItems)
+
+const chapter10Items = [
+  { q: 1, conceptId: 'CON-INF-85A1E8CB2272AA', canonicalKey: 'microbiology.ch10.staphylococci-grape-clusters-etymology', label: 'Staphylococci form grape-like clusters named from staphyle', aliases: ['Staphylococcal grape clusters', 'Staphyle means bunch of grapes'], conceptType: 'morphology', article: 'staphylococci', microtopic: 'Staphylococcal arrangement', assessmentPage: 39, teachingPage: '4–5', stem: 'Which of the following best describes the arrangement of staphylococci?', key: 'C', options: ['Chains', 'Pairs', 'Grape-like clusters', 'Tetrads'], claim: 'Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches.', support: 'The official lecture describes staphylococci as Gram-positive cocci arranged in grape-like irregular clusters or bunches.', objective: 'Recognise grape-like clusters as the characteristic staphylococcal arrangement.', pitfalls: 'Chains and pairs describe the contrasting streptococcal arrangement; tetrads are not the arrangement stated here.', rejected: [] },
+  { q: 2, conceptId: 'CON-INF-85A1E8CB2272AA', canonicalKey: 'microbiology.ch10.staphylococci-grape-clusters-etymology', label: 'Staphylococci form grape-like clusters named from staphyle', aliases: ['Staphylococcal grape clusters', 'Staphyle means bunch of grapes'], conceptType: 'morphology', article: 'staphylococci', microtopic: 'Staphylococcal arrangement', assessmentPage: 39, teachingPage: 4, stem: 'In Greek, what does “staphyle” mean?', key: 'D', options: ['Cocci', 'Chain', 'Cluster', 'Bunch of grapes'], claim: 'In Greek, staphyle means bunch of grapes.', support: 'The official lecture directly states that in Greek staphyle means bunch of grapes.', objective: 'Recall the source meaning of staphyle.', pitfalls: 'The source phrase is the full “bunch of grapes,” not the shorter distractors cocci, chain or cluster.', rejected: [] },
+  { q: 3, conceptId: 'CON-INF-C74F8450F57CB5', canonicalKey: 'microbiology.ch10.catalase-staphylococci-streptococci', label: 'Catalase distinguishes staphylococci from streptococci', aliases: ['Staphylococci catalase positive', 'Streptococci catalase negative'], conceptType: 'diagnostic principle', article: 'staphylococci', microtopic: 'Catalase differentiation', assessmentPage: 39, teachingPage: 5, stem: 'Which enzyme is produced by all staphylococci?', key: 'A', options: ['Catalase', 'Coagulase', 'Oxidase', 'DNase'], claim: 'All staphylococci are catalase positive.', support: 'The official lecture directly states that all staphylococci are catalase positive.', objective: 'Identify catalase as the enzyme produced by all staphylococci in the governed comparison.', pitfalls: 'Coagulase separates staphylococcal groups and is not produced by all species.', rejected: [] },
+  { q: 6, conceptId: 'CON-INF-5D9131404ADD15', canonicalKey: 'microbiology.ch10.s-aureus-golden-pigment', label: 'Staphylococcus aureus produces golden-yellow pigment', aliases: ['S. aureus golden pigment', 'Aureus means gold'], conceptType: 'property', article: 'staphylococci', microtopic: 'Staphylococcus aureus characteristics', assessmentPage: 40, teachingPage: '8–9', stem: 'What characteristic pigment does Staphylococcus aureus produce?', key: 'C', options: ['Green pigment', 'Red pigment', 'Golden yellow pigment', 'Blue pigment'], claim: 'Staphylococcus aureus produces a golden-yellow endopigment.', support: 'The official lecture states “aureus = gold” and that S. aureus produces golden-yellow endopigment.', objective: 'Identify the characteristic golden-yellow pigment of S. aureus.', pitfalls: 'Green, red and blue are not the pigment stated in the governed lecture.', rejected: [] },
+  { q: 7, conceptId: 'CON-INF-A4A63ADF8BDCFF', canonicalKey: 'microbiology.ch10.s-aureus-beta-hemolysis', label: 'Staphylococcus aureus is beta-hemolytic on blood agar', aliases: ['S. aureus beta hemolysis', 'Beta-hemolytic Staphylococcus aureus'], conceptType: 'laboratory finding', article: 'staphylococci', microtopic: 'Staphylococcus aureus characteristics', assessmentPage: 40, teachingPage: '9, 11', stem: 'On blood agar, Staphylococcus aureus typically exhibits which type of hemolysis?', key: 'B', options: ['Alpha hemolysis', 'Beta hemolysis', 'Gamma hemolysis (no hemolysis)', 'Non-hemolytic'], claim: 'Staphylococcus aureus is beta-hemolytic on blood agar.', support: 'The official lecture lists beta hemolysis among the major characteristics of S. aureus.', objective: 'Identify beta hemolysis as the governed S. aureus blood-agar pattern.', pitfalls: 'Alpha and nonhemolytic patterns are assigned to other coccal groups in the source.', rejected: [] },
+  { q: 9, conceptId: 'CON-INF-3F856387656D8F', canonicalKey: 'microbiology.ch10.streptococci-chains-pairs', label: 'Streptococci are arranged in chains or pairs', aliases: ['Streptococcal chains', 'Streptococcal pairs'], conceptType: 'morphology', article: 'streptococci', microtopic: 'Streptococcal arrangement', assessmentPage: 41, teachingPage: 14, stem: 'Streptococci are generally arranged in which pattern?', key: 'B', options: ['Clusters', 'Chains or pairs', 'Tetrads', 'Irregular groups'], claim: 'Streptococci are Gram-positive cocci arranged in chains or pairs.', support: 'The official lecture directly describes streptococci as Gram-positive cocci arranged in chains or pairs.', objective: 'Recognise chains or pairs as the streptococcal arrangement.', pitfalls: 'Clusters and irregular bunches describe staphylococci in the governed comparison.', rejected: [] },
+  { q: 10, conceptId: 'CON-INF-C74F8450F57CB5', canonicalKey: 'microbiology.ch10.catalase-staphylococci-streptococci', label: 'Catalase distinguishes staphylococci from streptococci', aliases: ['Staphylococci catalase positive', 'Streptococci catalase negative'], conceptType: 'diagnostic principle', article: 'streptococci', microtopic: 'Catalase differentiation', assessmentPage: 41, teachingPage: 14, stem: 'All streptococci are negative for which enzyme?', key: 'B', options: ['Coagulase', 'Catalase', 'DNase', 'Mannitol fermentation enzyme'], claim: 'All streptococci are catalase negative.', support: 'The official lecture directly states that all streptococci are catalase negative.', objective: 'Identify catalase negativity as the governed streptococcal characteristic.', pitfalls: 'The source contrast is catalase-positive staphylococci versus catalase-negative streptococci.', rejected: [] },
+  { q: 11, conceptId: 'CON-INF-7075A185535054', canonicalKey: 'microbiology.ch10.viridans-alpha-hemolysis', label: 'Viridans streptococci are alpha-hemolytic', aliases: ['Viridans alpha hemolysis', 'Alpha-hemolytic viridans streptococci'], conceptType: 'classification', article: 'streptococci', microtopic: 'Hemolytic classification', assessmentPage: 41, teachingPage: '15–16, 19–21', stem: 'Which of the following is an example of alpha-hemolytic streptococci?', key: 'C', options: ['Streptococcus pyogenes', 'Streptococcus agalactiae', 'Viridans streptococci', 'Enterococci'], claim: 'Viridans streptococci are alpha-hemolytic streptococci.', support: 'The official lecture places viridans streptococci in the alpha-hemolytic group.', objective: 'Select viridans streptococci as the alpha-hemolytic example.', pitfalls: 'S. pyogenes and S. agalactiae are beta-hemolytic; enterococci are nonhemolytic in the governed table.', rejected: [] },
+  { q: 13, conceptId: 'CON-INF-AA64B806DA081E', canonicalKey: 'microbiology.ch10.s-pyogenes-lancefield-group-a', label: 'Streptococcus pyogenes belongs to Lancefield group A', aliases: ['S. pyogenes group A', 'Group A streptococcus'], conceptType: 'classification', article: 'streptococci', microtopic: 'Lancefield classification', assessmentPage: 42, teachingPage: 15, stem: 'Streptococcus pyogenes belongs to which Lancefield group?', key: 'A', options: ['Group A', 'Group B', 'Group C', 'Group D'], claim: 'Streptococcus pyogenes belongs to Lancefield group A.', support: 'The official Lancefield classification diagram places Streptococcus pyogenes under group A.', objective: 'Assign S. pyogenes to Lancefield group A.', pitfalls: 'The same diagram places S. agalactiae under group B; groups C and D are not assigned to S. pyogenes.', rejected: [] },
+  { q: 14, conceptId: 'CON-INF-E7624BD37294C8', canonicalKey: 'microbiology.ch10.s-pyogenes-beta-hemolysis', label: 'Streptococcus pyogenes is beta-hemolytic', aliases: ['S. pyogenes beta hemolysis', 'Beta-hemolytic group A streptococcus'], conceptType: 'laboratory finding', article: 'streptococci', microtopic: 'Hemolytic classification', assessmentPage: 42, teachingPage: '16–18', stem: 'What hemolytic pattern does Streptococcus pyogenes display on blood agar?', key: 'B', options: ['Alpha hemolysis', 'Beta hemolysis', 'Gamma hemolysis', 'Non-hemolysis'], claim: 'Streptococcus pyogenes displays beta hemolysis on blood agar.', support: 'The official lecture classifies S. pyogenes among beta-hemolytic streptococci and lists beta hemolysis as its major characteristic.', objective: 'Identify beta hemolysis as the S. pyogenes blood-agar pattern.', pitfalls: 'Alpha and nonhemolytic patterns are assigned to different streptococcal groups.', rejected: [] },
+  { q: 15, conceptId: 'CON-INF-61038BEB1BE8C6', canonicalKey: 'microbiology.ch10.enterococci-nonhemolytic', label: 'Enterococci are nonhemolytic in the governed classification', aliases: ['Nonhemolytic enterococci', 'Enterococcal hemolysis classification'], conceptType: 'classification', article: 'streptococci', microtopic: 'Hemolytic classification', assessmentPage: '42–43', teachingPage: '15–16, 20', stem: 'Which characteristic is associated with enterococci?', key: 'C', options: ['Beta hemolysis', 'Coagulase positivity', 'Non-hemolytic activity', 'Catalase positivity'], claim: 'Enterococci are classified as nonhemolytic in the governed streptococcal table.', support: 'The official lecture places enterococci under nonhemolytic streptococci and lists them as nonhemolytic.', objective: 'Identify nonhemolytic activity as the associated enterococcal characteristic.', pitfalls: 'Beta hemolysis, coagulase positivity and catalase positivity are not assigned to enterococci in the governed table.', rejected: [] },
+  { q: 16, conceptId: 'CON-INF-B0D1AC6F58565C', canonicalKey: 'microbiology.ch10.peptostreptococci-profile', label: 'Peptostreptococci are anaerobic chain-forming commensals linked to mixed infections', aliases: ['Peptostreptococci profile', 'Anaerobic streptococci'], conceptType: 'clinical association', article: 'streptococci', microtopic: 'Peptostreptococci', assessmentPage: 43, teachingPage: 22, stem: 'Peptostreptococci are best described as:', key: 'B', options: ['Aerobic Gram-positive cocci in clusters', 'Anaerobic cocci arranged in chains', 'Gram-negative rods', 'Spore-forming bacilli'], claim: 'Peptostreptococci are anaerobic Gram-positive cocci arranged in chains.', support: 'The official lecture identifies Peptostreptococci as anaerobic streptococci and Gram-positive cocci arranged in chains.', objective: 'Recognise Peptostreptococci as anaerobic chain-forming Gram-positive cocci.', pitfalls: 'They are not aerobic clustered cocci, Gram-negative rods or spore-forming bacilli.', rejected: [] },
+  { q: 17, conceptId: 'CON-INF-B0D1AC6F58565C', canonicalKey: 'microbiology.ch10.peptostreptococci-profile', label: 'Peptostreptococci are anaerobic chain-forming commensals linked to mixed infections', aliases: ['Peptostreptococci profile', 'Anaerobic streptococci'], conceptType: 'clinical association', article: 'streptococci', microtopic: 'Peptostreptococci', assessmentPage: 43, teachingPage: 22, stem: 'What is the normal reservoir for Peptostreptococci?', key: 'C', options: ['Skin', 'Urinary tract', 'Mouth, upper respiratory tract, intestine, and female genital tract', 'Blood'], claim: 'The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract.', support: 'The official lecture lists the mouth, upper respiratory tract, intestine and female genital tract as the normal commensal reservoir.', objective: 'Identify the complete governed reservoir list for Peptostreptococci.', pitfalls: 'Skin, urinary tract alone and blood do not reproduce the stated reservoir list.', rejected: [] },
+  { q: 18, conceptId: 'CON-INF-B0D1AC6F58565C', canonicalKey: 'microbiology.ch10.peptostreptococci-profile', label: 'Peptostreptococci are anaerobic chain-forming commensals linked to mixed infections', aliases: ['Peptostreptococci profile', 'Anaerobic streptococci'], conceptType: 'clinical association', article: 'streptococci', microtopic: 'Peptostreptococci', assessmentPage: 43, teachingPage: 22, stem: 'In clinical settings, Peptostreptococci are most commonly associated with:', key: 'C', options: ['Pneumonia', 'Urinary tract infections', 'Mixed anaerobic infections of wounds, abdomen, lung, and genital tract', 'Meningitis'], claim: 'Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract.', support: 'The official lecture directly lists mixed anaerobic infections of wounds, abdomen, lung and genital tract.', objective: 'Recognise the governed mixed-anaerobic infection profile of Peptostreptococci.', pitfalls: 'The source presents a multisite mixed-infection pattern rather than isolated pneumonia, urinary infection or meningitis.', rejected: [] },
+  { q: 19, conceptId: 'CON-INF-C74F8450F57CB5', canonicalKey: 'microbiology.ch10.catalase-staphylococci-streptococci', label: 'Catalase distinguishes staphylococci from streptococci', aliases: ['Staphylococci catalase positive', 'Streptococci catalase negative'], conceptType: 'diagnostic principle', article: 'staphylococci', microtopic: 'Catalase differentiation', assessmentPage: '43–44', teachingPage: 23, stem: 'Which test is commonly used to differentiate between staphylococci and streptococci?', key: 'A', options: ['Catalase test', 'Coagulase test', 'Mannitol fermentation test', 'Oxidase test'], claim: 'The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci.', support: 'The official assignment identifies the catalase test as the test differentiating staphylococci from streptococci.', objective: 'Select the catalase test for the governed staphylococcal-versus-streptococcal distinction.', pitfalls: 'Coagulase and mannitol tests further classify staphylococci rather than establishing this two-group distinction.', rejected: [] },
+  { q: 26, conceptId: 'CON-INF-72D859013C49CF', canonicalKey: 'microbiology.ch10.nocardia-actinomyces-acid-fast-oxygen', label: 'Weak acid-fast staining differentiates Nocardia from anaerobic non-acid-fast Actinomyces', aliases: ['Nocardia versus Actinomyces', 'Weak acid-fast Nocardia'], conceptType: 'classification', article: 'branchingGramPositive', microtopic: 'Branching Gram-positive bacteria', assessmentPage: '45–46', teachingPage: 3, stem: 'Which of the following differentiates Nocardia from Actinomyces?', key: 'B', options: ['Anaerobic growth', 'Weak acid-fast staining', 'Endospore formation', 'Motility'], claim: 'Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast.', support: 'The official Gram-positive classification diagram labels Nocardia weak acid fast and Actinomyces non-acid fast.', objective: 'Use weak acid-fast staining to distinguish Nocardia from Actinomyces.', pitfalls: 'Anaerobic growth characterises Actinomyces rather than Nocardia, and the diagram does not use endospores or motility for this distinction.', rejected: [] },
+  { q: 27, conceptId: 'CON-INF-A68F484AA15268', canonicalKey: 'microbiology.ch10.blood-agar-hemolysis', label: 'Blood agar demonstrates streptococcal hemolytic activity', aliases: ['Streptococcal blood agar hemolysis', 'Blood agar hemolysis test'], conceptType: 'diagnostic principle', article: 'streptococci', microtopic: 'Hemolytic classification', assessmentPage: 46, teachingPage: '15–16', stem: 'Which test is used to observe hemolytic activity in streptococci?', key: 'B', options: ['Mannitol salt agar', 'Blood agar hemolysis test', 'Catalase test', 'Coagulase test'], claim: 'Streptococcal hemolytic activity is observed and classified on blood agar.', support: 'The official lecture classifies streptococci according to their effect on blood agar into beta, alpha and nonhemolytic groups.', objective: 'Identify blood agar as the medium used to observe streptococcal hemolytic activity.', pitfalls: 'Mannitol salt agar, catalase and coagulase serve different identification purposes.', rejected: [] },
+  { q: 28, conceptId: 'CON-INF-72D859013C49CF', canonicalKey: 'microbiology.ch10.nocardia-actinomyces-acid-fast-oxygen', label: 'Weak acid-fast staining differentiates Nocardia from anaerobic non-acid-fast Actinomyces', aliases: ['Nocardia versus Actinomyces', 'Weak acid-fast Nocardia'], conceptType: 'classification', article: 'branchingGramPositive', microtopic: 'Branching Gram-positive bacteria', assessmentPage: 46, teachingPage: 3, stem: 'Which of the following is anaerobic, non-acid fast?', key: 'B', options: ['Nocardia', 'Actinomyces', 'Propionibacterium', 'Clostridium'], claim: 'Actinomyces is anaerobic and non-acid fast.', support: 'The official Gram-positive classification diagram labels Actinomyces anaerobic and non-acid fast.', objective: 'Identify Actinomyces from the combined anaerobic and non-acid-fast properties.', pitfalls: 'Nocardia is shown as aerobic and weak acid fast; the other offered genera are not assigned this combined branch identity.', rejected: [] },
+  { q: 29, conceptId: 'CON-INF-B41082B3611139', canonicalKey: 'microbiology.ch10.griffith-m-protein', label: 'Griffith classification of streptococci uses M protein', aliases: ['Griffith M-protein classification', 'Streptococcal M-protein typing'], conceptType: 'classification', article: 'streptococci', microtopic: 'Griffith classification', assessmentPage: 46, teachingPage: 15, stem: 'Which classification method for streptococci utilizes the M protein?', key: 'B', options: ['Lancefield classification', 'Griffith classification', 'Catalase test', 'Coagulase test'], claim: 'Griffith classification of streptococci uses M protein.', support: 'The official classification diagram states “According M protein (Griffith classification).”', objective: 'Associate M-protein typing with Griffith classification.', pitfalls: 'Lancefield classification uses the C cell-wall carbohydrate antigen, while catalase and coagulase are tests rather than this typing method.', rejected: [] },
+].map((item) => ({
+  idPrefix: 'CH10', bankQ: item.q, assessmentResourceId: absalamPart2AssessmentResourceId,
+  bankLabel: 'Microbiology Chapter 10', answerPage: 47, teachingResourceId: gramPositiveCocciResourceId,
+  teachingTitle: 'General Characteristics of Medically Relevant Bacteria, Chapter 10', topic: 'Microbiology', subtopic: 'Medical bacteriology',
+  primaryNode: 'DIS-MIC-T01', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'], ...item,
+}))
+
+microItems.push(...chapter10Items)
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -2034,6 +2070,61 @@ no
 # Item
 
 ## id
+${gramPositiveCocciResourceId}
+
+## title
+General Characteristics of Medically Relevant Bacteria, Chapter 10
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abd El Rhman
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/5.General characteristics of medically relevant bacteria (Ch 10).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+25
+
+## sha256
+e2832d7aebaad9c7b1fefa847658799131875ed8ac508ca90f5380d69a8aa5f4
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 25 pages were rendered and visually read for the bounded Chapter 10 Q1–Q30 audit. Page 1 visibly identifies MUST, the Faculty of Medicine Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 3–23 govern the Gram-positive classification tree, staphylococcal arrangement, catalase and coagulase properties, S. aureus phenotype, streptococcal arrangement and hemolytic classification, Peptostreptococci, and the catalase differentiation assignment. The deck directly supports the 19 authored prompts, exposes the unsupported precision of Q20, Q21, Q24 and Q30, and contradicts Q25's printed A by identifying S. epidermidis—not Nocardia—as a skin commensal. It is teaching evidence only and contains no authenticated examiner key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 ${bacterialGeneticsResourceId}
 
 ## title
@@ -2421,7 +2512,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 26,
+    count: 27,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -2646,6 +2737,19 @@ function corpusSourceIndex() {
         sha256: '09b0450fc24387f2504910346d8b5471c1221af9274d4e6101cd27684ba687ac',
         processingStatus: 'fully_governed',
         pageCount: 60,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
+      },
+      [gramPositiveCocciResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/5.General characteristics of medically relevant bacteria (Ch 10).pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/5.General characteristics of medically relevant bacteria (Ch 10).pdf'],
+        sha256: 'e2832d7aebaad9c7b1fefa847658799131875ed8ac508ca90f5380d69a8aa5f4',
+        processingStatus: 'fully_governed',
+        pageCount: 25,
         languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
@@ -10037,6 +10141,8 @@ function microConcepts() {
   const groups = [...Map.groupBy(microItems, (item) => item.conceptId).values()]
   return generatedItems(groups.map((group) => {
     const item = group[0]
+    const articleKeys = [...new Set(group.map((entry) => entry.article))]
+    const relatedArticleKeys = [...new Set(articleKeys.flatMap((key) => microArticleRelations[key]))].filter((key) => !articleKeys.includes(key))
     const rejected = [...new Set(group.flatMap((entry) => entry.rejected))]
     const rejectedIds = rejected.length ? rejected.map((entry) => entry.split(' — ')[0]).join('\n') : '[clear]'
     const rejectedNotes = rejected.length ? rejected.join(' ') : 'No exact live, pending or raw-corpus identity survived the manual search gate.'
@@ -10106,10 +10212,10 @@ ${moduleId}
 ${moduleId} > ${microTopic(item)} > ${microSubtopic(item)} > ${item.microtopic}
 
 ## article_ids
-${microArticles[item.article]}
+${articleKeys.map((key) => microArticles[key]).join('\n')}
 
 ## related_article_ids
-${microArticleRelations[item.article].map((key) => microArticles[key]).join('\n')}
+${relatedArticleKeys.map((key) => microArticles[key]).join('\n')}
 
 ## related_concept_ids
 [clear]
@@ -10439,6 +10545,69 @@ Continued secretion after apparent recovery creates an ongoing transmission conc
 
 ### Common misconceptions
 Do not equate clinical recovery with complete virological resolution. Do not replace chronic carriage with latent infection without shedding or rapid host death.`,
+  },
+  staphylococci: {
+    title: 'Staphylococcal arrangement, catalase and S. aureus phenotype', microtopic: 'Staphylococcal identification',
+    topic: 'Microbiology', subtopic: 'Medical bacteriology', primaryNode: 'DIS-MIC-T01', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'The governed MUST Chapter 10 teaching identifies staphylococci as grape-like clustered catalase-positive cocci and records the golden-yellow pigment and beta hemolysis of Staphylococcus aureus.',
+    sections: `### Definition
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches. The Greek word staphyle means bunch of grapes.
+
+### Mechanism
+All staphylococci are catalase positive. Catalase activity distinguishes them from catalase-negative streptococci in the governed comparison.
+
+### Key determinants
+Staphylococcus aureus produces a golden-yellow endopigment and is beta-hemolytic. These source-stated features are kept separate from the held coagulase and mannitol identities already governed elsewhere.
+
+### Clinical significance
+Arrangement, catalase activity, pigment and hemolysis provide a staged laboratory framework for recognising staphylococci and narrowing toward S. aureus.
+
+### Common misconceptions
+Do not describe staphylococci as chains or pairs. Coagulase is not produced by every staphylococcus. The existing coagulase and mannitol identities are not duplicated or silently widened here.`,
+  },
+  streptococci: {
+    title: 'Streptococcal arrangement, hemolysis and classification', microtopic: 'Streptococcal classification',
+    topic: 'Microbiology', subtopic: 'Medical bacteriology', primaryNode: 'DIS-MIC-T01', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'The governed MUST Chapter 10 teaching describes catalase-negative streptococci in chains or pairs, classifies their blood-agar hemolysis, assigns S. pyogenes to group A, uses M protein for Griffith typing, and profiles Peptostreptococci.',
+    sections: `### Definition
+Streptococci are Gram-positive cocci arranged in chains or pairs, and all streptococci are catalase negative. Blood agar separates beta-hemolytic, alpha-hemolytic and nonhemolytic groups.
+
+### Mechanism
+Catalase testing separates catalase-negative streptococci from catalase-positive staphylococci. Growth on blood agar then reveals beta, alpha or absent hemolysis for the source-level classification.
+
+### Classification
+Viridans streptococci are alpha-hemolytic. Streptococcus pyogenes belongs to Lancefield group A and displays beta hemolysis. Enterococci are nonhemolytic in the governed table. Griffith classification uses M protein.
+
+### Anaerobic streptococci
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains. Their normal commensal reservoirs include the mouth, upper respiratory tract, intestine and female genital tract. They participate in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+
+### Key determinants
+Chains or pairs and catalase negativity identify the broad streptococcal profile. Blood-agar effect, Lancefield group and Griffith M-protein typing answer different classification questions and must not be interchanged.
+
+### Clinical significance
+Arrangement, catalase activity and blood-agar effect distinguish major coccal groups before species-level interpretation. Reservoir and mixed-infection context help identify the anaerobic streptococcal profile.
+
+### Common misconceptions
+Do not assign clustered arrangement to streptococci. Do not classify viridans as beta-hemolytic or enterococci as catalase positive. Lancefield's carbohydrate-antigen identity remains held because it already exists live; it is not duplicated by this article.`,
+  },
+  branchingGramPositive: {
+    title: 'Nocardia and Actinomyces in the Gram-positive classification tree', microtopic: 'Branching Gram-positive bacteria',
+    topic: 'Microbiology', subtopic: 'Medical bacteriology', primaryNode: 'DIS-MIC-T01', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'The governed MUST classification tree separates aerobic weakly acid-fast Nocardia from anaerobic non-acid-fast Actinomyces.',
+    sections: `### Definition
+The Chapter 10 Gram-positive classification tree places Nocardia and Actinomyces among branching Gram-positive bacteria.
+
+### Mechanism
+The weak acid-fast property belongs to Nocardia, whereas Actinomyces is non-acid fast; the oxygen relationship runs in parallel, with Nocardia aerobic and Actinomyces anaerobic.
+
+### Key determinants
+Nocardia is aerobic and weakly acid fast. Actinomyces is anaerobic and non-acid fast. Weak acid-fast staining therefore distinguishes Nocardia from Actinomyces in this bounded comparison.
+
+### Clinical significance
+Using the oxygen and acid-fast pair together prevents the two branching Gram-positive genera from being interchanged.
+
+### Common misconceptions
+Do not assign anaerobic growth to Nocardia or weak acid-fast staining to Actinomyces. The source does not use endospores or motility for this specific distinction, and unsupported species-level bacillary claims remain held.`,
   },
 } }
 
@@ -10975,6 +11144,29 @@ function microCoverage() {
 - **Virology Q30 is held as a raw-identity hold.** Printed B is supported, but exact \`concept_08c5f780c446991dba7ada3a\` already governs viral-vector delivery of foreign genetic material.
 
 `
+  const chapter10Delta = `### Absalam Part 2 Microbiology Chapter 10 Q1–Q30 delta
+
+- +1 evidence resource: the official 25-page MUST General Characteristics of Medically Relevant Bacteria Chapter 10 deck, all pages rendered and visually read. The existing Absalam Part 2 assessment resource is reused; assessment pages 39–46 and the printed answer table on page 47 were visually read.
+- +19 verified local-curriculum claims, +19 citations and +19 article spans for Chapter 10 Q1–Q3, Q6, Q7, Q9–Q11, Q13–Q19 and Q26–Q29.
+- +13 under-review / needs-evidence concepts and +3 standalone-complete reciprocally linked Draft articles.
+- +19 Draft questions and +11 exact identity, unsupported-precision or key-conflict holds with no student-facing record.
+- Every authored stem, option and printed key is unchanged. Q25 remains an uncorrected key conflict; Q20, Q21, Q24 and Q30 remain unsupported precision holds. No key was repaired.
+- Absalam Part 2 Microbiology Chapter 10 Q1–Q30: **19 authored / 11 held / 0 unassessed**. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.
+
+`
+  const chapter10Holds = `- **Chapter 10 Q4 is held as an exact live-identity/dependency hold.** Printed B is supported, but live \`CON-INF-329FB33012ABFC\` and \`CON-INF-542EE15AEA860B\` already govern coagulase as a principal S. aureus marker and the coagulase-positive versus coagulase-negative division. No duplicate or partial live-article update was created.
+- **Chapter 10 Q5 is held as an exact live-identity/dependency hold.** Printed C is supported, but the same live coagulase classification chain already governs S. aureus as coagulase positive.
+- **Chapter 10 Q8 is held as an exact live-identity hold.** Printed C is supported, but live \`CON-INF-DED05E5A2620BC\` already governs mannitol salt agar and S. aureus mannitol fermentation.
+- **Chapter 10 Q12 is held as an exact live-identity hold.** Printed B is supported, but live \`CON-INF-6B7D8A0C6A464E\` already governs Lancefield classification by group-specific cell-wall carbohydrate antigen.
+- **Chapter 10 Q20 is held as an unsupported species/morphology precision hold.** The bank prints B, Corynebacterium diphtheriae. The official Chapter 10 deck places Corynebacterium among non-spore-forming Gram-positive bacilli but does not state the offered club-shaped “Chinese letters” morphology or authenticate the species-level key.
+- **Chapter 10 Q21 is held as an unsupported species precision hold.** The bank prints C, Clostridium perfringens. The official classification tree supports Clostridium generally as anaerobic, spore-forming Gram-positive bacilli but does not make the offered species-level statement.
+- **Chapter 10 Q22 is held as an exact live-identity hold.** Printed B is supported, but live \`CON-INF-B08918C582699C\` already governs S. epidermidis among coagulase-negative staphylococci.
+- **Chapter 10 Q23 is held as an exact pending-identity hold.** Printed B is supported, but pending \`CON-INF-8C390C9DA26E6D\` already governs coagulase conversion of fibrinogen to fibrin. No duplicate question dependency was minted.
+- **Chapter 10 Q24 is held as an unsupported precision hold.** The bank prints C, Capsulated. The official Chapter 10 deck does not state capsulation of Clostridium perfringens, so no external fact was substituted.
+- **Chapter 10 Q25 is held as an uncorrected key conflict.** The bank prints A, Nocardia, while the official deck identifies S. epidermidis as a skin commensal and provides no support for Nocardia as the keyed skin-flora opportunist. Although option C may appear plausible externally, it is not taught by this governed deck; no answer was corrected or silently taught.
+- **Chapter 10 Q30 is held as an unsupported genus/key-form hold.** The bank prints C, Bacillus. The official classification tree supports Bacillus as aerobic, spore-forming Gram-positive bacilli but does not state the offered combined nonmotile, chain-forming genus description.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -11029,7 +11221,15 @@ function microCoverage() {
     .replace('| Articles | 36 |', '| Articles | 38 |')
     .replace('| Questions | 129 |', '| Questions | 132 |')
     .replace('| Question authoring holds | 142 |', '| Question authoring holds | 169 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}`)
+    .replace('| Evidence resources | 26 |', '| Evidence resources | 27 |')
+    .replace('| Claims | 132 |', '| Claims | 151 |')
+    .replace('| Citations | 137 |', '| Citations | 156 |')
+    .replace('| Article spans | 132 |', '| Article spans | 151 |')
+    .replace('| Concepts | 116 |', '| Concepts | 129 |')
+    .replace('| Articles | 38 |', '| Articles | 41 |')
+    .replace('| Questions | 132 |', '| Questions | 151 |')
+    .replace('| Question authoring holds | 169 |', '| Question authoring holds | 180 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -11044,6 +11244,8 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 117 clean source-keyed prompts authored; **5,094 raw answer observations remain**, including the 124 held printed-key observations', 'Governed answer observations: 5,211 total; 129 clean source-keyed prompts authored; **5,082 raw answer observations remain**, including the 142 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 129 authored; **5,315 raw prompt observations remain**, including 142 explicit holds', 'Governed prompt observations: 5,444 total; 132 authored; **5,312 raw prompt observations remain**, including 169 explicit holds')
     .replace('Governed answer observations: 5,211 total; 129 clean source-keyed prompts authored; **5,082 raw answer observations remain**, including the 142 held printed-key observations', 'Governed answer observations: 5,211 total; 132 clean source-keyed prompts authored; **5,079 raw answer observations remain**, including the 169 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 132 authored; **5,312 raw prompt observations remain**, including 169 explicit holds', 'Governed prompt observations: 5,444 total; 151 authored; **5,293 raw prompt observations remain**, including 180 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 132 clean source-keyed prompts authored; **5,079 raw answer observations remain**, including the 169 held printed-key observations', 'Governed answer observations: 5,211 total; 151 clean source-keyed prompts authored; **5,060 raw answer observations remain**, including the 180 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
@@ -11051,6 +11253,7 @@ function microCoverage() {
     .replace('Record-level backlog is not asserted as 5,346 unique records', 'Record-level backlog is not asserted as 5,327 unique records')
     .replace('Record-level backlog is not asserted as 5,327 unique records', 'Record-level backlog is not asserted as 5,315 unique records')
     .replace('Record-level backlog is not asserted as 5,315 unique records', 'Record-level backlog is not asserted as 5,312 unique records')
+    .replace('Record-level backlog is not asserted as 5,312 unique records', 'Record-level backlog is not asserted as 5,293 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -11059,6 +11262,7 @@ function microCoverage() {
     .replace('All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts', 'All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts')
     .replace('All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts', 'All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts')
     .replace('All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts', 'All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts')
+    .replace('All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts', 'All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
@@ -11067,10 +11271,12 @@ function microCoverage() {
     .replace('All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.')
+    .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.')
 }

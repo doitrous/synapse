@@ -2776,3 +2776,844 @@ reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
 relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION
+
+## title
+Staphylococcal arrangement, catalase and S. aureus phenotype
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Staphylococcal identification
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Staphylococcal identification
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Staphylococcal identification
+
+## summary
+The governed MUST Chapter 10 teaching identifies staphylococci as grape-like clustered catalase-positive cocci and records the golden-yellow pigment and beta hemolysis of Staphylococcus aureus.
+
+## sections
+### Definition
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches. The Greek word staphyle means bunch of grapes.
+
+### Mechanism
+All staphylococci are catalase positive. Catalase activity distinguishes them from catalase-negative streptococci in the governed comparison.
+
+### Key determinants
+Staphylococcus aureus produces a golden-yellow endopigment and is beta-hemolytic. These source-stated features are kept separate from the held coagulase and mannitol identities already governed elsewhere.
+
+### Clinical significance
+Arrangement, catalase activity, pigment and hemolysis provide a staged laboratory framework for recognising staphylococci and narrowing toward S. aureus.
+
+### Common misconceptions
+Do not describe staphylococci as chains or pairs. Coagulase is not produced by every staphylococcus. The existing coagulase and mannitol identities are not duplicated or silently widened here.
+
+### Governed evidence statements
+The official lecture describes staphylococci as Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+The official lecture directly states that in Greek staphyle means bunch of grapes.
+The official lecture directly states that all staphylococci are catalase positive.
+The official lecture states “aureus = gold” and that S. aureus produces golden-yellow endopigment.
+The official lecture lists beta hemolysis among the major characteristics of S. aureus.
+The official assignment identifies the catalase test as the test differentiating staphylococci from streptococci.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+In Greek, staphyle means bunch of grapes.
+All staphylococci are catalase positive.
+Staphylococcus aureus produces a golden-yellow endopigment.
+Staphylococcus aureus is beta-hemolytic on blood agar.
+The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci.
+
+## lose_the_mark
+Chains and pairs describe the contrasting streptococcal arrangement; tetrads are not the arrangement stated here.
+The source phrase is the full “bunch of grapes,” not the shorter distractors cocci, chain or cluster.
+Coagulase separates staphylococcal groups and is not produced by all species.
+Green, red and blue are not the pigment stated in the governed lecture.
+Alpha and nonhemolytic patterns are assigned to other coccal groups in the source.
+Coagulase and mannitol tests further classify staphylococci rather than establishing this two-group distinction.
+
+## callout_evidence
+### Staphylococci are Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q1-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q1-01
+Reviewed by: pending medical review
+
+### In Greek, staphyle means bunch of grapes.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q2-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q2-01
+Reviewed by: pending medical review
+
+### All staphylococci are catalase positive.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q3-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q3-01
+Reviewed by: pending medical review
+
+### Staphylococcus aureus produces a golden-yellow endopigment.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q6-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q6-01
+Reviewed by: pending medical review
+
+### Staphylococcus aureus is beta-hemolytic on blood agar.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q7-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q7-01
+Reviewed by: pending medical review
+
+### The catalase test differentiates catalase-positive staphylococci from catalase-negative streptococci.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q19-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q19-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-85A1E8CB2272AA
+CON-INF-C74F8450F57CB5
+CON-INF-5D9131404ADD15
+CON-INF-A4A63ADF8BDCFF
+
+## related_articles
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION: Streptococcal arrangement, hemolysis and classification
+
+## question_ids
+QST-MUST-FHB1022-CH10-Q1
+QST-MUST-FHB1022-CH10-Q2
+QST-MUST-FHB1022-CH10-Q3
+QST-MUST-FHB1022-CH10-Q6
+QST-MUST-FHB1022-CH10-Q7
+QST-MUST-FHB1022-CH10-Q19
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_e2832d7aebaad9c7b1fe
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q1-01
+CLM-INF-MUST-FHB1022-CH10-Q2-01
+CLM-INF-MUST-FHB1022-CH10-Q3-01
+CLM-INF-MUST-FHB1022-CH10-Q6-01
+CLM-INF-MUST-FHB1022-CH10-Q7-01
+CLM-INF-MUST-FHB1022-CH10-Q19-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-CH10-Q1-01
+SPN-INF-MUST-FHB1022-CH10-Q2-01
+SPN-INF-MUST-FHB1022-CH10-Q3-01
+SPN-INF-MUST-FHB1022-CH10-Q6-01
+SPN-INF-MUST-FHB1022-CH10-Q7-01
+SPN-INF-MUST-FHB1022-CH10-Q19-01
+
+## university_notes
+must: Global Q1, Q2, Q3, Q6, Q7, Q19 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-85A1E8CB2272AA
+Quote: The official lecture describes staphylococci as Gram-positive cocci arranged in grape-like irregular clusters or bunches.
+Block: body
+Id: ann-must-fhb1022-micro-q1
+
+### definition_of · CON-INF-85A1E8CB2272AA
+Quote: The official lecture directly states that in Greek staphyle means bunch of grapes.
+Block: body
+Id: ann-must-fhb1022-micro-q2
+
+### definition_of · CON-INF-C74F8450F57CB5
+Quote: The official lecture directly states that all staphylococci are catalase positive.
+Block: body
+Id: ann-must-fhb1022-micro-q3
+
+### definition_of · CON-INF-5D9131404ADD15
+Quote: The official lecture states “aureus = gold” and that S. aureus produces golden-yellow endopigment.
+Block: body
+Id: ann-must-fhb1022-micro-q6
+
+### definition_of · CON-INF-A4A63ADF8BDCFF
+Quote: The official lecture lists beta hemolysis among the major characteristics of S. aureus.
+Block: body
+Id: ann-must-fhb1022-micro-q7
+
+### definition_of · CON-INF-C74F8450F57CB5
+Quote: The official assignment identifies the catalase test as the test differentiating staphylococci from streptococci.
+Block: body
+Id: ann-must-fhb1022-micro-q19
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Characteristics of Medically Relevant Bacteria, Chapter 10 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION
+
+## title
+Streptococcal arrangement, hemolysis and classification
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Streptococcal classification
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Streptococcal classification
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Streptococcal classification
+
+## summary
+The governed MUST Chapter 10 teaching describes catalase-negative streptococci in chains or pairs, classifies their blood-agar hemolysis, assigns S. pyogenes to group A, uses M protein for Griffith typing, and profiles Peptostreptococci.
+
+## sections
+### Definition
+Streptococci are Gram-positive cocci arranged in chains or pairs, and all streptococci are catalase negative. Blood agar separates beta-hemolytic, alpha-hemolytic and nonhemolytic groups.
+
+### Mechanism
+Catalase testing separates catalase-negative streptococci from catalase-positive staphylococci. Growth on blood agar then reveals beta, alpha or absent hemolysis for the source-level classification.
+
+### Classification
+Viridans streptococci are alpha-hemolytic. Streptococcus pyogenes belongs to Lancefield group A and displays beta hemolysis. Enterococci are nonhemolytic in the governed table. Griffith classification uses M protein.
+
+### Anaerobic streptococci
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains. Their normal commensal reservoirs include the mouth, upper respiratory tract, intestine and female genital tract. They participate in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+
+### Key determinants
+Chains or pairs and catalase negativity identify the broad streptococcal profile. Blood-agar effect, Lancefield group and Griffith M-protein typing answer different classification questions and must not be interchanged.
+
+### Clinical significance
+Arrangement, catalase activity and blood-agar effect distinguish major coccal groups before species-level interpretation. Reservoir and mixed-infection context help identify the anaerobic streptococcal profile.
+
+### Common misconceptions
+Do not assign clustered arrangement to streptococci. Do not classify viridans as beta-hemolytic or enterococci as catalase positive. Lancefield's carbohydrate-antigen identity remains held because it already exists live; it is not duplicated by this article.
+
+### Governed evidence statements
+The official lecture directly describes streptococci as Gram-positive cocci arranged in chains or pairs.
+The official lecture directly states that all streptococci are catalase negative.
+The official lecture places viridans streptococci in the alpha-hemolytic group.
+The official Lancefield classification diagram places Streptococcus pyogenes under group A.
+The official lecture classifies S. pyogenes among beta-hemolytic streptococci and lists beta hemolysis as its major characteristic.
+The official lecture places enterococci under nonhemolytic streptococci and lists them as nonhemolytic.
+The official lecture identifies Peptostreptococci as anaerobic streptococci and Gram-positive cocci arranged in chains.
+The official lecture lists the mouth, upper respiratory tract, intestine and female genital tract as the normal commensal reservoir.
+The official lecture directly lists mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+The official lecture classifies streptococci according to their effect on blood agar into beta, alpha and nonhemolytic groups.
+The official classification diagram states “According M protein (Griffith classification).”
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Streptococci are Gram-positive cocci arranged in chains or pairs.
+All streptococci are catalase negative.
+Viridans streptococci are alpha-hemolytic streptococci.
+Streptococcus pyogenes belongs to Lancefield group A.
+Streptococcus pyogenes displays beta hemolysis on blood agar.
+Enterococci are classified as nonhemolytic in the governed streptococcal table.
+Peptostreptococci are anaerobic Gram-positive cocci arranged in chains.
+The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract.
+Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+Streptococcal hemolytic activity is observed and classified on blood agar.
+Griffith classification of streptococci uses M protein.
+
+## lose_the_mark
+Clusters and irregular bunches describe staphylococci in the governed comparison.
+The source contrast is catalase-positive staphylococci versus catalase-negative streptococci.
+S. pyogenes and S. agalactiae are beta-hemolytic; enterococci are nonhemolytic in the governed table.
+The same diagram places S. agalactiae under group B; groups C and D are not assigned to S. pyogenes.
+Alpha and nonhemolytic patterns are assigned to different streptococcal groups.
+Beta hemolysis, coagulase positivity and catalase positivity are not assigned to enterococci in the governed table.
+They are not aerobic clustered cocci, Gram-negative rods or spore-forming bacilli.
+Skin, urinary tract alone and blood do not reproduce the stated reservoir list.
+The source presents a multisite mixed-infection pattern rather than isolated pneumonia, urinary infection or meningitis.
+Mannitol salt agar, catalase and coagulase serve different identification purposes.
+Lancefield classification uses the C cell-wall carbohydrate antigen, while catalase and coagulase are tests rather than this typing method.
+
+## callout_evidence
+### Streptococci are Gram-positive cocci arranged in chains or pairs.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q9-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q9-01
+Reviewed by: pending medical review
+
+### All streptococci are catalase negative.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q10-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q10-01
+Reviewed by: pending medical review
+
+### Viridans streptococci are alpha-hemolytic streptococci.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q11-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q11-01
+Reviewed by: pending medical review
+
+### Streptococcus pyogenes belongs to Lancefield group A.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q13-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q13-01
+Reviewed by: pending medical review
+
+### Streptococcus pyogenes displays beta hemolysis on blood agar.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q14-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q14-01
+Reviewed by: pending medical review
+
+### Enterococci are classified as nonhemolytic in the governed streptococcal table.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q15-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q15-01
+Reviewed by: pending medical review
+
+### Peptostreptococci are anaerobic Gram-positive cocci arranged in chains.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q16-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q16-01
+Reviewed by: pending medical review
+
+### The normal reservoir of Peptostreptococci includes the mouth, upper respiratory tract, intestine and female genital tract.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q17-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q17-01
+Reviewed by: pending medical review
+
+### Peptostreptococci are involved in mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q18-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q18-01
+Reviewed by: pending medical review
+
+### Streptococcal hemolytic activity is observed and classified on blood agar.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q27-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q27-01
+Reviewed by: pending medical review
+
+### Griffith classification of streptococci uses M protein.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q29-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q29-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-3F856387656D8F
+CON-INF-C74F8450F57CB5
+CON-INF-7075A185535054
+CON-INF-AA64B806DA081E
+CON-INF-E7624BD37294C8
+CON-INF-61038BEB1BE8C6
+CON-INF-B0D1AC6F58565C
+CON-INF-A68F484AA15268
+CON-INF-B41082B3611139
+
+## related_articles
+ART-INF-MUST-FHB1022-STAPHYLOCOCCI-IDENTIFICATION: Staphylococcal arrangement, catalase and S. aureus phenotype
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA: Nocardia and Actinomyces in the Gram-positive classification tree
+
+## question_ids
+QST-MUST-FHB1022-CH10-Q9
+QST-MUST-FHB1022-CH10-Q10
+QST-MUST-FHB1022-CH10-Q11
+QST-MUST-FHB1022-CH10-Q13
+QST-MUST-FHB1022-CH10-Q14
+QST-MUST-FHB1022-CH10-Q15
+QST-MUST-FHB1022-CH10-Q16
+QST-MUST-FHB1022-CH10-Q17
+QST-MUST-FHB1022-CH10-Q18
+QST-MUST-FHB1022-CH10-Q27
+QST-MUST-FHB1022-CH10-Q29
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_e2832d7aebaad9c7b1fe
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q9-01
+CLM-INF-MUST-FHB1022-CH10-Q10-01
+CLM-INF-MUST-FHB1022-CH10-Q11-01
+CLM-INF-MUST-FHB1022-CH10-Q13-01
+CLM-INF-MUST-FHB1022-CH10-Q14-01
+CLM-INF-MUST-FHB1022-CH10-Q15-01
+CLM-INF-MUST-FHB1022-CH10-Q16-01
+CLM-INF-MUST-FHB1022-CH10-Q17-01
+CLM-INF-MUST-FHB1022-CH10-Q18-01
+CLM-INF-MUST-FHB1022-CH10-Q27-01
+CLM-INF-MUST-FHB1022-CH10-Q29-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-CH10-Q9-01
+SPN-INF-MUST-FHB1022-CH10-Q10-01
+SPN-INF-MUST-FHB1022-CH10-Q11-01
+SPN-INF-MUST-FHB1022-CH10-Q13-01
+SPN-INF-MUST-FHB1022-CH10-Q14-01
+SPN-INF-MUST-FHB1022-CH10-Q15-01
+SPN-INF-MUST-FHB1022-CH10-Q16-01
+SPN-INF-MUST-FHB1022-CH10-Q17-01
+SPN-INF-MUST-FHB1022-CH10-Q18-01
+SPN-INF-MUST-FHB1022-CH10-Q27-01
+SPN-INF-MUST-FHB1022-CH10-Q29-01
+
+## university_notes
+must: Global Q9, Q10, Q11, Q13, Q14, Q15, Q16, Q17, Q18, Q27, Q29 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-3F856387656D8F
+Quote: The official lecture directly describes streptococci as Gram-positive cocci arranged in chains or pairs.
+Block: body
+Id: ann-must-fhb1022-micro-q9
+
+### definition_of · CON-INF-C74F8450F57CB5
+Quote: The official lecture directly states that all streptococci are catalase negative.
+Block: body
+Id: ann-must-fhb1022-micro-q10
+
+### definition_of · CON-INF-7075A185535054
+Quote: The official lecture places viridans streptococci in the alpha-hemolytic group.
+Block: body
+Id: ann-must-fhb1022-micro-q11
+
+### definition_of · CON-INF-AA64B806DA081E
+Quote: The official Lancefield classification diagram places Streptococcus pyogenes under group A.
+Block: body
+Id: ann-must-fhb1022-micro-q13
+
+### definition_of · CON-INF-E7624BD37294C8
+Quote: The official lecture classifies S. pyogenes among beta-hemolytic streptococci and lists beta hemolysis as its major characteristic.
+Block: body
+Id: ann-must-fhb1022-micro-q14
+
+### definition_of · CON-INF-61038BEB1BE8C6
+Quote: The official lecture places enterococci under nonhemolytic streptococci and lists them as nonhemolytic.
+Block: body
+Id: ann-must-fhb1022-micro-q15
+
+### definition_of · CON-INF-B0D1AC6F58565C
+Quote: The official lecture identifies Peptostreptococci as anaerobic streptococci and Gram-positive cocci arranged in chains.
+Block: body
+Id: ann-must-fhb1022-micro-q16
+
+### definition_of · CON-INF-B0D1AC6F58565C
+Quote: The official lecture lists the mouth, upper respiratory tract, intestine and female genital tract as the normal commensal reservoir.
+Block: body
+Id: ann-must-fhb1022-micro-q17
+
+### definition_of · CON-INF-B0D1AC6F58565C
+Quote: The official lecture directly lists mixed anaerobic infections of wounds, abdomen, lung and genital tract.
+Block: body
+Id: ann-must-fhb1022-micro-q18
+
+### definition_of · CON-INF-A68F484AA15268
+Quote: The official lecture classifies streptococci according to their effect on blood agar into beta, alpha and nonhemolytic groups.
+Block: body
+Id: ann-must-fhb1022-micro-q27
+
+### definition_of · CON-INF-B41082B3611139
+Quote: The official classification diagram states “According M protein (Griffith classification).”
+Block: body
+Id: ann-must-fhb1022-micro-q29
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Characteristics of Medically Relevant Bacteria, Chapter 10 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-BRANCHING-GRAM-POSITIVE-BACTERIA
+
+## title
+Nocardia and Actinomyces in the Gram-positive classification tree
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Branching Gram-positive bacteria
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+Medical bacteriology
+
+## microtopic
+Branching Gram-positive bacteria
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > Medical bacteriology > Branching Gram-positive bacteria
+
+## summary
+The governed MUST classification tree separates aerobic weakly acid-fast Nocardia from anaerobic non-acid-fast Actinomyces.
+
+## sections
+### Definition
+The Chapter 10 Gram-positive classification tree places Nocardia and Actinomyces among branching Gram-positive bacteria.
+
+### Mechanism
+The weak acid-fast property belongs to Nocardia, whereas Actinomyces is non-acid fast; the oxygen relationship runs in parallel, with Nocardia aerobic and Actinomyces anaerobic.
+
+### Key determinants
+Nocardia is aerobic and weakly acid fast. Actinomyces is anaerobic and non-acid fast. Weak acid-fast staining therefore distinguishes Nocardia from Actinomyces in this bounded comparison.
+
+### Clinical significance
+Using the oxygen and acid-fast pair together prevents the two branching Gram-positive genera from being interchanged.
+
+### Common misconceptions
+Do not assign anaerobic growth to Nocardia or weak acid-fast staining to Actinomyces. The source does not use endospores or motility for this specific distinction, and unsupported species-level bacillary claims remain held.
+
+### Governed evidence statements
+The official Gram-positive classification diagram labels Nocardia weak acid fast and Actinomyces non-acid fast.
+The official Gram-positive classification diagram labels Actinomyces anaerobic and non-acid fast.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast.
+Actinomyces is anaerobic and non-acid fast.
+
+## lose_the_mark
+Anaerobic growth characterises Actinomyces rather than Nocardia, and the diagram does not use endospores or motility for this distinction.
+Nocardia is shown as aerobic and weak acid fast; the other offered genera are not assigned this combined branch identity.
+
+## callout_evidence
+### Nocardia is weakly acid fast, whereas Actinomyces is non-acid fast.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q26-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q26-01
+Reviewed by: pending medical review
+
+### Actinomyces is anaerobic and non-acid fast.
+Claims: CLM-INF-MUST-FHB1022-CH10-Q28-01
+Citations: CIT-INF-MUST-FHB1022-CH10-Q28-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-72D859013C49CF
+
+## related_articles
+ART-INF-MUST-FHB1022-STREPTOCOCCI-CLASSIFICATION: Streptococcal arrangement, hemolysis and classification
+
+## question_ids
+QST-MUST-FHB1022-CH10-Q26
+QST-MUST-FHB1022-CH10-Q28
+
+## resource_ids
+src_e2832d7aebaad9c7b1fe
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_e2832d7aebaad9c7b1fe
+
+## claim_ids
+CLM-INF-MUST-FHB1022-CH10-Q26-01
+CLM-INF-MUST-FHB1022-CH10-Q28-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-CH10-Q26-01
+SPN-INF-MUST-FHB1022-CH10-Q28-01
+
+## university_notes
+must: Global Q26, Q28 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-72D859013C49CF
+Quote: The official Gram-positive classification diagram labels Nocardia weak acid fast and Actinomyces non-acid fast.
+Block: body
+Id: ann-must-fhb1022-micro-q26
+
+### definition_of · CON-INF-72D859013C49CF
+Quote: The official Gram-positive classification diagram labels Actinomyces anaerobic and non-acid fast.
+Block: body
+Id: ann-must-fhb1022-micro-q28
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Characteristics of Medically Relevant Bacteria, Chapter 10 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
