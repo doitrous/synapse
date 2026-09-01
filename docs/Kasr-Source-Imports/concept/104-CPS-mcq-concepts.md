@@ -4,6 +4,7 @@
     Aortic Arch Relations and Cardiac Plexuses — 13 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Anatomy Cardiovascular System — The Heart's Conducting System (components) — 6 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings — 12 questions, 6 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
@@ -281,6 +282,227 @@ src_c30d947377670cb99a40 | question_book | | p10 | 104 CPS
 +ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
 ## field_notes
 canonical_key "conducting-system-of-heart.components" already has a pinned id in this module (CON-CVS-6799821893D6D2); mintConceptId derives the same id fresh (CON-CVS-6799821893D6D2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-2A21F1B4F30B61
+## label
+The right coronary artery runs the coronary sulcus to give the marginal and posterior interventricular arteries, supplying the whole right side of the heart and, in most people, the whole conducting system
+## canonical_key
+right-coronary-artery.course-and-distribution
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p11 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p11 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "right-coronary-artery.course-and-distribution" already has a pinned id in this module (CON-CVS-2A21F1B4F30B61); mintConceptId derives the same id fresh (CON-CVS-2A21F1B4F30B61) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-1F1AB4B70AB06D
+## label
+The left coronary artery divides into the anterior interventricular and circumflex arteries, together supplying the left atrium, most of the left ventricle and the anterior two thirds of the septum
+## canonical_key
+left-coronary-artery.branches-and-distribution
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p10 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "left-coronary-artery.branches-and-distribution" already has a pinned id in this module (CON-CVS-1F1AB4B70AB06D); mintConceptId derives the same id fresh (CON-CVS-1F1AB4B70AB06D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-929D9DDCB95482
+## label
+Most cardiac veins end in the coronary sinus, which lies in the posterior coronary sulcus and receives the great, middle and small cardiac veins and the oblique vein of the left atrium
+## canonical_key
+coronary-venous-drainage.coronary-sinus-and-cardiac-veins
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "coronary-venous-drainage.coronary-sinus-and-cardiac-veins" already has a pinned id in this module (CON-CVS-929D9DDCB95482); mintConceptId derives the same id fresh (CON-CVS-929D9DDCB95482) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-A723ADE6F4E726
+## label
+The pulmonary trunk runs entirely within the fibrous pericardium and ends at the sternal angle level by dividing into right and left pulmonary arteries, joined to the aortic arch by the ligamentum arteriosum
+## canonical_key
+pulmonary-trunk.origin-course-and-ligamentum-arteriosum
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p23 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "pulmonary-trunk.origin-course-and-ligamentum-arteriosum" already has a pinned id in this module (CON-CVS-A723ADE6F4E726); mintConceptId derives the same id fresh (CON-CVS-A723ADE6F4E726) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-B12EDEA332E53F
+## label
+The heart's autonomic supply is parasympathetic from the two vagi and sympathetic from the upper five thoracic segments, meeting in superficial and deep cardiac plexuses that only modulate rate, never initiate it
+## canonical_key
+heart.nerve-supply-and-cardiac-plexuses
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## field_notes
+canonical_key "heart.nerve-supply-and-cardiac-plexuses" already has a pinned id in this module (CON-CVS-B12EDEA332E53F); mintConceptId derives the same id fresh (CON-CVS-B12EDEA332E53F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The four heart valves' surface markings run PAMT from above downwards behind the coronary sulcus, each has three cusps except the two-cusped mitral valve, and each valve's sound is heard best at a separate auscultatory area, not its own anatomical projection
+## id
+CON-CVS-521D893B2D1374
+## canonical_key
+cardiac-valve.surface-markings-cusp-counts-and-auscultatory-areas
+## definition
+The surface markings of the four cardiac valves are arranged, from above downwards and to the right, in the order Pulmonary, Aortic, Mitral, Tricuspid (PAMT), all lying on or below and to the left of the coronary sulcus: the pulmonary valve behind the third left costal cartilage at its sternal junction; the aortic valve behind the left margin of the sternum opposite the third left intercostal space; the mitral valve behind the left half of the sternal body opposite the fourth left sternocostal junction; and the tricuspid valve behind the centre of the sternum opposite the fourth intercostal space. Each valve has three cusps except the mitral, which has two: the tricuspid has anterior, posterior and septal cusps; the pulmonary has two anterior and one posterior cusp; the aortic has one anterior and two posterior cusps. Because of how heart sounds physically propagate, none of the four valves is heard best over its own anatomical projection — clinically, the pulmonary valve is heard best at the second left sternocostal junction, the aortic valve at the second right sternocostal junction, the mitral valve at the apex of the heart, and the tricuspid valve at the xiphisternal junction.
+## explicit_objective
+State the PAMT order and costal-cartilage level of each valve's surface projection, each valve's cusp count and naming, and each valve's separate auscultatory area.
+## pitfalls
+Assuming a valve's surface (anatomical) projection is where its sound is best heard. The department book states this explicitly is not so: sound propagation carries each valve's closure sound to a separate auscultatory area, distinct from its own surface marking — most strikingly for the pulmonary valve, whose projection (3rd left costal cartilage) and auscultatory area (2nd left sternocostal junction) sit one full space apart.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+SYS-CVS-T01-S01-M02
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Cardiovascular System
+## aliases
+PAMT mnemonic | Valve surface markings | Valve auscultatory areas | Pulmonary valve projection
+## article_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding the heart valves, which of the followings is correct?
+## conflicts
+CON-CVS-CD77400CEDD059 (live, cross-catalogue, no 104-CPS module) states the pulmonary valve's own surface projection alone, sourced from the same department-book page (CIT-124A496DEA7B9E). Not reused: existingConceptIds() for module '104 CPS' only scans docs/Kasr-Source-Imports/concept/104-CPS-*.md, so a live record outside that scope is invisible to this build, and mintConceptId under this canonical_key would not reproduce that record's own id in any case — the same 'different pipeline, no safe sparse-update path' situation documented repeatedly elsewhere in this branch. Minted fresh under 104 CPS instead, as the full four-valve PAMT/cusp-count/auscultatory-area synthesis this leaf's own bank rows need, not a duplicate of the single pulmonary-valve fact alone.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-HEART-CHAMBERS | ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---

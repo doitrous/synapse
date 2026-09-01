@@ -4,6 +4,7 @@
     Aortic Arch Relations and Cardiac Plexuses — 13 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Anatomy Cardiovascular System — The Heart's Conducting System (components) — 6 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings — 12 questions, 6 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
@@ -1575,6 +1576,1126 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p10 q39. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-655C7F841A11
+## title
+Blood flows into the coronary arteries arises from the:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Blood flows into the coronary arteries arises from the:
+## answer_a
+descending aorta.
+## explanation_a
+The descending aorta lies well beyond the aortic sinuses, giving rise to the intercostal, subcostal, bronchial and oesophageal branches — not the coronary arteries.
+## answer_b
+ascending aorta.
+## explanation_b
+Correct. Blood flows into the coronary arteries from the ascending aorta's own aortic sinuses, immediately above the aortic valve — the right coronary artery from the anterior sinus, the left from the left posterior sinus — which is exactly why coronary filling depends on aortic root pressure and occurs predominantly during diastole, when the aortic valve cusps are closed.
+
+Why this is right:
+- The right coronary artery arises from the anterior aortic sinus of the ascending aorta, passes between the pulmonary trunk and right auricle to the anterior coronary sulcus, descends to the junction of the right and inferior borders where it gives the marginal artery, then turns back along the posterior sulcus to give the posterior (inferior) interventricular artery — which also supplies the AV node and bundle — before anastomosing with the circumflex artery.
+## answer_c
+pulmonary trunk.
+## explanation_c
+The pulmonary trunk carries deoxygenated blood to the lungs and plays no normal role in coronary artery origin.
+## answer_d
+superior vena cava.
+## explanation_d
+The superior vena cava is a systemic vein returning blood to the right atrium; it has no arterial branches and cannot be a source of the coronary arteries.
+## correct_answer
+B
+## main_concept
+CON-CVS-2A21F1B4F30B61
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+State that both coronary arteries arise from the ascending aorta's own aortic sinuses, not the descending aorta, pulmonary trunk or superior vena cava.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p11 q87. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EB21D3E0A19C
+## title
+Regarding the coronary arteries, all the following statements are true, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the coronary arteries, all the following statements are true, EXCEPT:
+## answer_a
+The left coronary artery arises from the left posterior aortic sinus
+## explanation_a
+True, so not the exception. The left coronary artery does arise from the left posterior aortic sinus, one of its defining anatomical facts.
+## answer_c
+The A-V node usually receives arterial supply from the left coronary artery
+## explanation_c
+The exception, and the answer. In the great majority of hearts, the AV node and bundle receive their arterial supply from the RIGHT coronary artery (in about 80% of people), via its posterior interventricular branch — not the left coronary artery, which supplies the AV node in only about 20%.
+
+Why this is right:
+- The right coronary artery arises from the anterior aortic sinus of the ascending aorta, passes between the pulmonary trunk and right auricle to the anterior coronary sulcus, descends to the junction of the right and inferior borders where it gives the marginal artery, then turns back along the posterior sulcus to give the posterior (inferior) interventricular artery — which also supplies the AV node and bundle — before anastomosing with the circumflex artery.
+## answer_d
+The anterior interventricular artery is a branch of the left coronary artery
+## explanation_d
+True, so not the exception. The anterior interventricular artery is indeed a branch of the left coronary artery, descending in the anterior interventricular groove to supply the anterior two thirds of the septum.
+## answer_e
+Coronary filling occurs during ventricular diastole
+## explanation_e
+True, so not the exception. Coronary filling does occur predominantly during ventricular diastole, when the aortic valve cusps are closed and the intramural vessels are no longer compressed by systolic contraction.
+## correct_answer
+C
+## main_concept
+CON-CVS-2A21F1B4F30B61
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that the AV node usually receives arterial supply from the RIGHT, not the left, coronary artery as the exception among otherwise true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p11 q42. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AA0F679162DF
+## title
+Regarding the coronary arteries, the following statements are correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the coronary arteries, the following statements are correct, EXCEPT:
+## answer_a
+They are branches of the ascending aorta
+## explanation_a
+True, so not the exception. Both coronary arteries are branches of the ascending aorta, arising from its right and left posterior aortic sinuses respectively.
+## answer_b
+They are considered as end arteries
+## explanation_b
+True, so not the exception. The coronary arteries are considered functional end arteries — anastomoses between them are present but poor, especially in youth, and inadequate to provide efficient collateral flow if a large branch is suddenly blocked.
+## answer_c
+Coronary filling occurs during diastole
+## explanation_c
+True, so not the exception. Coronary filling occurs predominantly during diastole, when the intramural vessels are no longer compressed by ventricular systole.
+## answer_d
+The left coronary artery is the usual source of blood supply to the sinoatrial
+## explanation_d
+The exception, and the answer. The RIGHT coronary artery, not the left, is the usual (majority) source of blood supply to the sinoatrial node — in about 60% of people, against the left coronary artery's 40%.
+
+Why this is right:
+- The right coronary artery arises from the anterior aortic sinus of the ascending aorta, passes between the pulmonary trunk and right auricle to the anterior coronary sulcus, descends to the junction of the right and inferior borders where it gives the marginal artery, then turns back along the posterior sulcus to give the posterior (inferior) interventricular artery — which also supplies the AV node and bundle — before anastomosing with the circumflex artery.
+## correct_answer
+D
+## main_concept
+CON-CVS-2A21F1B4F30B61
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that the RIGHT, not the left, coronary artery is the usual source of blood supply to the sinoatrial node as the exception among otherwise true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p14 q55. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C695914F8E0C
+## title
+Regarding the right coronary artery, select the correct statement:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the right coronary artery, select the correct statement:
+## answer_a
+Course through the left auricle and infundibulum
+## explanation_a
+The right coronary artery courses between the pulmonary trunk and the RIGHT auricle, not the left auricle, on its way to the anterior coronary sulcus; the infundibulum is supplied along the way by its small conus branch, not itself part of the artery's own course.
+## answer_b
+Supplies the AV node in 60% of population
+## explanation_b
+The right coronary artery supplies the AV node in about 80% of people, not 60% — 60% is instead the figure for its share of the SA node.
+## answer_c
+Usually has a posterior interventricular branch
+## explanation_c
+Correct. The right coronary artery usually has a posterior (inferior) interventricular branch, given after it reaches the posterior part of the coronary sulcus, running towards the apex to supply the adjoining parts of both ventricles, the posterior third of the septum and the AV node and bundle.
+
+Why this is right:
+- The right coronary artery arises from the anterior aortic sinus of the ascending aorta, passes between the pulmonary trunk and right auricle to the anterior coronary sulcus, descends to the junction of the right and inferior borders where it gives the marginal artery, then turns back along the posterior sulcus to give the posterior (inferior) interventricular artery — which also supplies the AV node and bundle — before anastomosing with the circumflex artery.
+## answer_d
+Supplies 30% of SA nodes
+## explanation_d
+The right coronary artery supplies the SA node in about 60% of people, not 30% — an understated figure for what is in fact the majority share.
+## correct_answer
+C
+## main_concept
+CON-CVS-2A21F1B4F30B61
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the right coronary artery usually gives a posterior interventricular branch, as opposed to incorrect course, AV-node-percentage and SA-node-percentage statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q9. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7E10D836DE47
+## title
+Regarding the arterial supply of the heart, the following statements are true, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the arterial supply of the heart, the following statements are true, EXCEPT:
+## answer_a
+The right coronary artery arises from the anterior aortic sinus,
+## explanation_a
+True, so not the exception (despite the bank's own unverified editorial key marking it as the answer). The department book states plainly that the right coronary artery 'arises from the anterior aortic sinus of the ascending aorta' (p.83) — a genuinely true statement, not the exception this EXCEPT-question is looking for.
+## answer_b
+The right coronary artery gives the anterior interventricular artery
+## explanation_b
+The exception, and the correct answer (overridden against the department book, p.86, which states the anterior interventricular artery 'descends with the great cardiac vein' as a branch of the LEFT, not the right, coronary artery). The right coronary artery's own terminal branch, given once it reaches the posterior coronary sulcus, is instead the posterior (inferior) interventricular artery — a different vessel entirely.
+
+Why this is right:
+- The right coronary artery arises from the anterior aortic sinus of the ascending aorta, passes between the pulmonary trunk and right auricle to the anterior coronary sulcus, descends to the junction of the right and inferior borders where it gives the marginal artery, then turns back along the posterior sulcus to give the posterior (inferior) interventricular artery — which also supplies the AV node and bundle — before anastomosing with the circumflex artery.
+## answer_c
+The left marginal artery is a branch of the circumflex artery
+## explanation_c
+True, so not the exception. The left marginal artery is indeed a branch of the circumflex artery, descending along the left aspect of the heart to supply the left ventricle down to the apex.
+## answer_d
+The right marginal artery runs along the inferior border of the heart
+## explanation_d
+True, so not the exception. The right marginal artery runs close to the inferior border of the heart towards the apex, accompanied by the small cardiac vein.
+## answer_e
+The coronary arteries are considered as end-arteries
+## explanation_e
+True, so not the exception. The coronary arteries are considered functional end arteries, since the anastomoses between them are poor and inadequate for efficient collateral flow if a large branch is suddenly blocked.
+## correct_answer
+B
+## main_concept
+CON-CVS-2A21F1B4F30B61
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that the RIGHT coronary artery does NOT give the anterior interventricular artery — that branch belongs to the left coronary artery — as the exception among otherwise true statements about the heart's arterial supply.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p14 q54. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The department anatomy book (pagetext.mjs, p.86, under the left coronary artery's own branches) states without qualification that the anterior interventricular artery 'descends with the great cardiac vein in the anterior interventricular groove' as a branch of the LEFT coronary artery — directly contradicting the bank's own unverified editorial key (A, 'the right coronary artery arises from the anterior aortic sinus', which the same book (p.83) independently confirms as TRUE, the opposite of what an EXCEPT-question's answer should be). Overridden to B, the department book's own stated exception.
+
+
+---
+
+# Item
+## id
+QM-104-C3270BDCFD51
+## title
+The anterior interventricular artery is accompanied by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The anterior interventricular artery is accompanied by:
+## answer_a
+Anterior cardiac vein
+## explanation_a
+The anterior cardiac veins are a separate set of 3-4 small veins on the right ventricle's own sternocostal surface that bypass the coronary sinus entirely, unrelated to the anterior interventricular artery's own course.
+## answer_b
+Great cardiac vein
+## explanation_b
+Correct (overridden against the department book, p.89, which states the great cardiac vein 'ascends in anterior interventricular groove in company with anterior interventricular artery'). The great cardiac vein begins near the apex on the sternocostal surface and ascends alongside this artery through the whole of the anterior interventricular groove, before curving back in the coronary sulcus to join the coronary sinus's own left end.
+
+Why this is right:
+- The left coronary artery, larger than the right, arises from the left posterior aortic sinus, passes between the pulmonary trunk and left auricle to the top of the anterior interventricular groove, and ends by dividing into the anterior interventricular artery — which descends with the great cardiac vein in the anterior interventricular groove, turns round the inferior border and anastomoses with the right coronary artery's posterior interventricular branch, supplying the sternocostal surface of the left ventricle, a strip of the right ventricle and the anterior two thirds of the septum — and the circumflex artery, which supplies the left atrium and, through its marginal branch, the left ventricle down to the apex, and the SA node in 40% and the AV node in 20% of people.
+## answer_c
+Coronary sinus
+## explanation_c
+The coronary sinus itself lies in the posterior part of the coronary sulcus, receiving the great cardiac vein at its termination rather than running alongside the anterior interventricular artery through the groove.
+## answer_d
+Middle cardiac vein
+## explanation_d
+This is the bank's own externally-recovered (but incorrect) answer. The middle cardiac vein instead runs in the POSTERIOR (inferior) interventricular groove, in company with the posterior interventricular artery — a different vessel-artery pair on the opposite surface of the heart.
+## answer_e
+Small cardiac vein
+## explanation_e
+The small cardiac vein runs close to the inferior border of the heart in company with the marginal branch of the right coronary artery, an entirely different course from the anterior interventricular groove.
+## correct_answer
+B
+## main_concept
+CON-CVS-1F1AB4B70AB06D
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State that the anterior interventricular artery is accompanied by the great cardiac vein, not the middle, small or anterior cardiac vein or the coronary sinus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p10 q40. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The department anatomy book (pagetext.mjs, p.89) states without qualification that the great cardiac vein 'ascends in anterior interventricular groove in company with anterior interventricular artery', and separately (same page) that the middle cardiac vein 'runs backwards in the posterior (inferior) interventricular groove in company with the posterior (inferior) interventricular artery' — a different vessel pair on the opposite surface. The bank's own externally-recovered answer (D, middle cardiac vein) directly contradicts this directly re-verified page; overridden to B.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-0A87D1851CAD
+## title
+One of the followings is correct concerning the coronary sinus of the heart:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the followings is correct concerning the coronary sinus of the heart:
+## answer_a
+It is a short venous channel about 3-4 inch long
+## explanation_a
+The coronary sinus is a short, wide venous channel about 3-4 CENTIMETRES long, not 3-4 inches — a tenfold overstatement of its true length.
+## answer_b
+It lies in the anterior part of coronary sulcus
+## explanation_b
+The coronary sinus lies in the POSTERIOR part of the coronary sulcus, between the base of the heart and its diaphragmatic surface, not the anterior part.
+## answer_c
+It begins as a continuation of middle cardiac vein
+## explanation_c
+The coronary sinus begins as a continuation of the GREAT cardiac vein, not the middle cardiac vein, which is instead one of its four tributaries joining it partway along its own course.
+## answer_d
+It ends in the right atrium between the opening of inferior vena cave and right A-V orifice
+## explanation_d
+Correct. The coronary sinus ends by opening into the right atrium between the opening of the inferior vena cava and the right atrioventricular orifice, guarded by a small semilunar valve.
+
+Why this is right:
+- The coronary sinus is a short, wide venous channel (3-4 cm) in the posterior coronary sulcus, beginning as the continuation of the great cardiac vein and opening into the right atrium between the IVC opening and the tricuspid orifice, guarded by a small valve.
+## correct_answer
+D
+## main_concept
+CON-CVS-929D9DDCB95482
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the coronary sinus ends in the right atrium between the openings of the IVC and the right atrioventricular orifice, as opposed to incorrect length, position and origin statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q20. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-34D29291123C
+## title
+Regarding the cardiac veins, one is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cardiac veins, one is true:
+## answer_a
+The great cardiac vein accompanies the posterior descending interventricular artery
+## explanation_a
+The great cardiac vein accompanies the ANTERIOR interventricular artery, ascending in the anterior interventricular groove, not the posterior descending (inferior interventricular) artery — that pairing instead belongs to the middle cardiac vein.
+## answer_b
+The middle cardiac vein ends in the right atrium
+## explanation_b
+The middle cardiac vein ends by joining the CORONARY SINUS at its middle, not the right atrium directly — it is one of the sinus's own four tributaries, not one of the veins that bypasses it.
+## answer_c
+The anterior cardiac vein ends in the right atrium
+## explanation_c
+Correct. The anterior cardiac veins are one of the two vein types that bypass the coronary sinus entirely, crossing the anterior coronary sulcus to open directly into the right atrium — 3-4 small veins lying on the right ventricle's own sternocostal surface.
+
+Why this is right:
+- The coronary sinus is a short, wide venous channel (3-4 cm) in the posterior coronary sulcus, beginning as the continuation of the great cardiac vein and opening into the right atrium between the IVC opening and the tricuspid orifice, guarded by a small valve.
+## answer_d
+The oblique veins of the left atrium end in the left atrium
+## explanation_d
+The oblique vein of the left atrium ends by joining the CORONARY SINUS near its left end, not the left atrium itself — despite descending on the back of the left atrium along its own course.
+## correct_answer
+C
+## main_concept
+CON-CVS-929D9DDCB95482
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the anterior cardiac vein ends in the right atrium directly, bypassing the coronary sinus, as opposed to incorrect statements about the great, middle and oblique veins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q27. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BA4F458B80F7
+## title
+Structures passing between arch - 0 pene a and pulmonary trunk, mark
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Structures passing between arch - 0 pene a and pulmonary trunk, mark
+## answer_a
+Ligamentum arteriosum
+## explanation_a
+True on its own: the ligamentum arteriosum, the obliterated fetal ductus arteriosus, is a flattened fibrous band running between the left pulmonary artery and the concavity of the aortic arch, directly in this space. Combined with B and C, this makes D the correct comprehensive answer.
+## answer_b
+Superficial cardiac plexus
+## explanation_b
+True on its own: the superficial cardiac plexus lies in the concavity of the aortic arch on the ligamentum arteriosum, on the ligament's own right anterior aspect.
+## answer_c
+Left recurrent laryngeal nerve
+## explanation_c
+True on its own: the left recurrent laryngeal nerve hooks around the arch of the aorta immediately lateral to the ligamentum arteriosum, on its own left posterior aspect, before ascending in the tracheo-oesophageal groove.
+## answer_d
+All the above
+## explanation_d
+Correct. All three structures — the ligamentum arteriosum, the superficial cardiac plexus and the left recurrent laryngeal nerve — genuinely occupy this same crowded space between the arch of the aorta and the pulmonary trunk, which is exactly why questions and clinical teaching (the recurrent laryngeal nerve's vulnerability during PDA ligation) treat them as a set rather than testing each in isolation.
+
+Why this is right:
+- The pulmonary trunk carries deoxygenated blood from the right ventricle to the lungs.
+## answer_e
+None of the above
+## explanation_e
+Incorrect, since A, B and C are each independently true — 'none of the above' cannot be right when real structures do occupy this space.
+## correct_answer
+D
+## main_concept
+CON-CVS-A723ADE6F4E726
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comprehensive true/false combination
+## learning_objective
+State that the ligamentum arteriosum, the superficial cardiac plexus and the left recurrent laryngeal nerve all occupy the space between the arch of the aorta and the pulmonary trunk.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p23 q91. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2CB0DFCA4FBC
+## title
+With respect to the cardiac plexuses, one is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+With respect to the cardiac plexuses, one is true:
+## answer_a
+the superficial plexus lies to the right of the ligamentum arteriosum, in front of the tracheal
+## explanation_a
+The superficial cardiac plexus lies in the concavity of the aortic arch, in front of the ligamentum arteriosum, not to its right — a subtly reversed position from the true relation.
+## answer_b
+the deep plexus is smaller and lies in front of the ligamentum arteriosum
+## explanation_b
+The deep cardiac plexus lies in front of the tracheal bifurcation, deep to the arch of the aorta, not in front of the ligamentum arteriosum — that position instead belongs to the superficial plexus.
+## answer_c
+the plexuses consist only of sympathetic fibres
+## explanation_c
+The cardiac plexuses carry both sympathetic AND parasympathetic (vagal) fibres together, not sympathetic fibres alone — the two divisions converge here before distributing to the heart.
+## answer_d
+The sympathetic fibers of both plexuses arises from 3 cervical and upper 4-5 thoracic ganglia of both
+## explanation_d
+Correct. The sympathetic fibres of both cardiac plexuses arise from the cervical sympathetic ganglia and the upper four to five thoracic sympathetic ganglia, having relayed there after leaving the spinal cord's own upper thoracic segments — a shared origin for the sympathetic contribution to both plexuses.
+
+Why this is right:
+- The heart's rate and contractile strength are controlled by autonomic fibres, sympathetic increasing both and parasympathetic decreasing them; neither initiates or propagates the cardiac impulse, which is the conducting system's own job.
+## correct_answer
+D
+## main_concept
+CON-CVS-B12EDEA332E53F
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the sympathetic fibres of both cardiac plexuses arise from the cervical and upper thoracic sympathetic ganglia, as opposed to incorrect superficial-plexus-position, deep-plexus-size and plexus-composition statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q12. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D33BCF310D54
+## title
+Regarding the heart valves, which of the followings is correct?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the heart valves, which of the followings is correct?
+## answer_a
+the aortic valve usually has two semilunar cusps
+## explanation_a
+The aortic valve has THREE semilunar cusps (one anterior and two posterior), not two — a common undercount of the standard three-cusp semilunar-valve pattern shared by both the aortic and pulmonary valves.
+## answer_b
+the pulmonary valve lies at the level of the 3rd left costal cartilage
+## explanation_b
+Correct. The pulmonary valve's surface marking is a horizontal line lying behind the third left costal cartilage at its junction with the sternum — the topmost of the four valve projections in the department book's own PAMT (Pulmonary, Aortic, Mitral, Tricuspid) surface-marking sequence.
+
+Why this is right:
+- The surface markings of the four cardiac valves are arranged, from above downwards and to the right, in the order Pulmonary, Aortic, Mitral, Tricuspid (PAMT), all lying on or below and to the left of the coronary sulcus: the pulmonary valve behind the third left costal cartilage at its sternal junction; the aortic valve behind the left margin of the sternum opposite the third left intercostal space; the mitral valve behind the left half of the sternal body opposite the fourth left sternocostal junction; and the tricuspid valve behind the centre of the sternum opposite the fourth intercostal space.
+## answer_c
+the tricuspid valve has anterior, posterior and medial cusps
+## explanation_c
+The tricuspid valve's three cusps are named anterior, posterior and SEPTAL, not 'medial' — the septal cusp lies against the interventricular septum, matching the right ventricle's own septal papillary muscle.
+## answer_d
+the mitral valve lies at the level of the 6th costal cartilage
+## explanation_d
+The mitral valve's surface projection lies opposite the FOURTH left sternocostal junction, not the sixth — one full valve-level below the pulmonary valve in the PAMT sequence, not two.
+## correct_answer
+B
+## main_concept
+CON-CVS-521D893B2D1374
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the pulmonary valve's surface projection lies at the level of the third left costal cartilage, as opposed to incorrect aortic-cusp-count, tricuspid-cusp-naming and mitral-level statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q2. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C0608F49E2AD
+## title
+The pulmonary valve sound is best heard at; indicate the correct answer:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The pulmonary valve sound is best heard at; indicate the correct answer:
+## answer_a
+The third left sternocostal junction
+## explanation_a
+The third left sternocostal junction is the pulmonary valve's own anatomical surface projection, not its auscultatory area — the department book states explicitly that a valve's sound is not heard best over its own anatomical position, because of how sound propagates through the tissues.
+## answer_b
+The second left sternocostal junction
+## explanation_b
+Correct. Because of the mechanics of sound propagation, the pulmonary valve's closure sound is heard best not over its own surface marking but at its separate auscultatory area, the second left sternocostal junction — one intercostal space above the valve's own anatomical projection.
+
+Why this is right:
+- The surface markings of the four cardiac valves are arranged, from above downwards and to the right, in the order Pulmonary, Aortic, Mitral, Tricuspid (PAMT), all lying on or below and to the left of the coronary sulcus: the pulmonary valve behind the third left costal cartilage at its sternal junction; the aortic valve behind the left margin of the sternum opposite the third left intercostal space; the mitral valve behind the left half of the sternal body opposite the fourth left sternocostal junction; and the tricuspid valve behind the centre of the sternum opposite the fourth intercostal space.
+## answer_c
+The second right sternocostal junction
+## explanation_c
+The second right sternocostal junction is the AORTIC valve's own auscultatory area, its mirror-image partner across the sternum, not the pulmonary valve's.
+## answer_d
+The apex of the heart
+## explanation_d
+The apex of the heart is the MITRAL valve's own auscultatory area, reflecting where its sound is transmitted along the direction of blood flow into the left ventricle — not the pulmonary valve's.
+## answer_e
+The right half of the lower end of the sternum
+## explanation_e
+The right half of the lower sternum approximates the TRICUSPID valve's own auscultatory area (more precisely, the xiphisternal junction), not the pulmonary valve's.
+## correct_answer
+B
+## main_concept
+CON-CVS-521D893B2D1374
+## library_ids
+ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the pulmonary valve's sound is heard best at the second left sternocostal junction (its auscultatory area), not at its own anatomical surface projection or another valve's auscultatory area.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p13 q51. Manifest src_c30d947377670cb99a40.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
