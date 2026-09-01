@@ -3343,3 +3343,262 @@ no
 ## qualifiers
 source_scope: ASU Year 1 Immunology, Term 1
 
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-LYMPHNODE-NOT-BMATURATION-01
+
+## concept_id
+CON-IMM-6EC39000EE8227
+
+## subject
+Lymph nodes are secondary lymphoid organs, not a B-cell maturation site
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch1 Q2
+
+## display_text
+Lymph nodes trap antigen draining from tissues, filter tissue-derived lymph, initiate immune responses, and harbour large numbers of APCs, B cells and T cells — but B-lymphocyte maturation is not one of their functions; B cells mature in the bone marrow.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-THYMUS-TCELL-DEPENDENCY-01
+
+## concept_id
+CON-IMM-49628CE665F61D
+
+## subject
+Thymus removal impairs T-lymphocyte function, since the thymus is the T-cell maturation site
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch1 Q3
+
+## display_text
+The thymus is the primary lymphoid organ where T lymphocytes complete maturation and selection; removing it selectively impairs T-lymphocyte function, while B lymphocytes, granulocytes, monocytes and NK cells are unaffected.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-NEUTROPHIL-ACUTE-BACTERIAL-01
+
+## concept_id
+CON-IMM-CF06206A26DEBF
+
+## subject
+Neutrophils are the leukocyte that characteristically rises in acute bacterial infection
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch1 Q4
+
+## display_text
+Acute bacterial infection characteristically drives neutrophilia, reflecting the neutrophil's role as first-responder phagocyte against extracellular bacteria, in contrast with the lymphocytosis of viral infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-LYMPHOCYTE-VIRAL-01
+
+## concept_id
+CON-IMM-56DAACFE50CD3E
+
+## subject
+Lymphocytes are the leukocyte that characteristically rises in viral infection
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch1 Q6
+
+## display_text
+Viral infection characteristically drives lymphocytosis, reflecting expansion of antiviral T- and NK-cell responses, in contrast with the neutrophilia of acute bacterial infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-NEUTROPHIL-LYSOSOMAL-01
+
+## concept_id
+CON-IMM-F55C4C1C4906D9
+
+## subject
+Neutrophils kill ingested pathogens chiefly using lysosomal enzymes
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch1 Q10
+
+## display_text
+After phagocytosing a pathogen, the neutrophil's principal killing mechanism is degranulation of lysosomal enzymes into the phagosome, alongside the oxidative burst, distinguishing it from perforin/granzyme killing by NK and cytotoxic T cells.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-HSC-PLURIPOTENCY-01
+
+## concept_id
+CON-IMM-008B922672728F
+
+## subject
+Haematopoietic stem cells are pluripotent, able to develop into any blood cell lineage
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch1 Q12
+
+## display_text
+Haematopoietic stem cells in the bone marrow are pluripotent — a single stem cell can give rise to any blood cell lineage, myeloid or lymphoid, rather than being antigen-specific or restricted to one lineage.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1

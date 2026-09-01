@@ -14437,3 +14437,1122 @@ uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagg
 
 ---
 
+
+---
+
+# Item
+
+## id
+CON-IMM-6EC39000EE8227
+
+## label
+Lymph nodes are secondary lymphoid organs, not a B-cell maturation site
+
+## canonical_key
+lymphnode.function.not-b-cell-maturation-site
+
+## aliases
+Lymph node functions vs B-cell maturation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Lymph nodes trap antigen draining from tissues, act as an immunological filter of tissue-derived lymph, are a site of initiation of immune responses, and harbour large numbers of APCs, B cells and T cells — but B-lymphocyte maturation is not one of their functions; B cells mature in the bone marrow before ever reaching a lymph node.
+
+## explicit_objective
+Identify that B-cell maturation is NOT a lymph-node function, distinguishing it from the lymph node's genuine roles of trapping antigen, filtering lymph, initiating immune responses, and harbouring APCs/B/T cells.
+
+## pitfalls
+Confusing the lymph node's role in housing, activating and expanding B cells with maturing them; B lymphocytes mature in the bone marrow and only traffic to, and are activated within, the lymph node afterward.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Organs and cells of the immune system
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-SECONDARY-LYMPHOID-ORGANS
+
+## related_article_ids
+ART-ASU-IMM-LYMPHOID-ORGANS
+
+## related_concept_ids
+CON-IMM-73557EF9FDCC99
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-LYMPHNODE-NOT-BMATURATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+2- Which of the following statements isn't true about lymph nodes?
+a. Trap microbes entering tissues.
+b. Site of initiation of immune response.
+c. Act as immunological filter of tissues.
+d. Site of maturation of B cells
+e. Harbor large number of APCs, B & T cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch1 Q2
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "lymph node" returned CON-IMM-73557EF9FDCC99 (primary lymphoid organs) and other lymph-node-adjacent records, none testing this specific "not a B-maturation site" exception fact; linked via related_concept_ids instead of merged.
+relatedArticleIds: This fact is fully covered by its own article_ids (ART-ASU-IMM-SECONDARY-LYMPHOID-ORGANS); no additional related article is needed.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-49628CE665F61D
+
+## label
+Thymus removal impairs T-lymphocyte function, since the thymus is the T-cell maturation site
+
+## canonical_key
+thymus.function.t-lymphocyte-generation-dependency
+
+## aliases
+Thymectomy effect on T cells
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The thymus is the primary lymphoid organ where T lymphocytes complete their maturation and selection. Removal of the thymus therefore selectively impairs T-lymphocyte generation and function, while B lymphocytes, granulocytes, monocytes and NK cells — which do not depend on thymic education — are unaffected.
+
+## explicit_objective
+State that thymus removal affects T-lymphocyte function specifically, because the thymus (not the bone marrow or another organ) is where T cells mature.
+
+## pitfalls
+Assuming thymus removal affects every lymphocyte lineage; only T cells depend on thymic maturation, since B cells mature in the bone marrow independent of the thymus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Organs and cells of the immune system
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-LYMPHOID-ORGANS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-73557EF9FDCC99
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-THYMUS-TCELL-DEPENDENCY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+3- Removal of thymus affects the function of:
+a. B lymphocytes
+b. Granulocytes
+c. T lymphocytes
+d. Monocytes
+e. NK cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch1 Q3
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "thymus" returned CON-IMM-73557EF9FDCC99 (primary lymphoid organs, general dev/maturation role) and thymus-dependent-antigen concepts; none test this specific thymectomy/T-cell-selectivity fact.
+relatedArticleIds: This fact is fully covered by its own article_ids (ART-ASU-IMM-LYMPHOID-ORGANS); no additional related article is needed.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-CF06206A26DEBF
+
+## label
+Neutrophils are the leukocyte that characteristically rises in acute bacterial infection
+
+## canonical_key
+neutrophil.count.rises-in-acute-bacterial-infection
+
+## aliases
+Neutrophilia in acute bacterial infection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Acute infections of bacterial origin characteristically drive a rise in circulating neutrophils (neutrophilia), reflecting the neutrophil's role as the first-responder phagocyte recruited to clear extracellular bacteria — in contrast with the lymphocytosis of viral infection and the eosinophilia of parasitic/allergic disease.
+
+## explicit_objective
+State that neutrophils are the leukocyte that rises in acute bacterial infection, distinguishing this from the leukocyte response pattern of viral and parasitic infection.
+
+## pitfalls
+Confusing the leukocyte differential response pattern across infection types; acute bacterial infection raises neutrophils, viral infection raises lymphocytes, and parasitic/allergic disease raises eosinophils.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Organs and cells of the immune system
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+CON-IMM-56DAACFE50CD3E
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-NEUTROPHIL-ACUTE-BACTERIAL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+4- Which type of cells is increased in acute infections of bacterial origin:
+a. Basophils
+b. Eosinophils
+c. Lymphocytes
+d. NK cells
+e. Neutrophils
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch1 Q4
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "acute bacterial infection neutrophil" and "neutrophil" returned only chemotaxis/recruitment-mediator concepts, none testing this leukocyte-differential-by-infection-type fact.
+relatedArticleIds: This fact is fully covered by its own article_ids (ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY); no additional related article is needed.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-56DAACFE50CD3E
+
+## label
+Lymphocytes are the leukocyte that characteristically rises in viral infection
+
+## canonical_key
+lymphocyte.count.rises-in-viral-infection
+
+## aliases
+Lymphocytosis in viral infection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Viral infections characteristically drive a rise in circulating lymphocytes (lymphocytosis), reflecting the expansion of antiviral T- and NK-cell responses — in contrast with the neutrophilia of acute bacterial infection.
+
+## explicit_objective
+State that lymphocytes are the leukocyte that rises in viral infection, distinguishing this from the neutrophil response of acute bacterial infection.
+
+## pitfalls
+Confusing the leukocyte differential response pattern across infection types; viral infection raises lymphocytes, acute bacterial infection raises neutrophils.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Organs and cells of the immune system
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+CON-IMM-CF06206A26DEBF
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-LYMPHOCYTE-VIRAL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+6- Which type of cells is increased in viral infection:
+a. Lymphocytes
+b. Neutrophils
+c. Eosinophils
+d. Basophils
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch1 Q6
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "viral infection lymphocyte" and "lymphocytosis" returned CON-IMM-ABEE5FB1526C61 (chronic infections such as TB/whooping cough causing lymphocytosis) — a distinct chronic-bacterial-infection fact, not this acute-viral-vs-bacterial differential; not merged.
+relatedArticleIds: This fact is fully covered by its own article_ids (ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY); no additional related article is needed.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-F55C4C1C4906D9
+
+## label
+Neutrophils kill ingested pathogens chiefly using lysosomal enzymes
+
+## canonical_key
+neutrophil.killing.lysosomal-enzyme-mechanism
+
+## aliases
+Neutrophil lysosomal killing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+After phagocytosing a pathogen, the neutrophil's principal killing mechanism is degranulation of lysosomal (azurophilic and specific granule) enzymes into the phagosome, working alongside the oxidative burst to destroy the ingested organism — the cell type in this bank's option list best characterised by this mechanism among NK cells, cytotoxic T cells and helper T cells, none of which kill via lysosomal enzyme release.
+
+## explicit_objective
+Identify the neutrophil as the cell type that utilises lysosomal enzymes to kill ingested pathogens.
+
+## pitfalls
+Confusing lysosomal-enzyme killing (neutrophils, phagocytes) with perforin/granzyme killing (NK cells, cytotoxic T cells) — both destroy targets, but by different mechanisms and against different target types (ingested extracellular pathogens vs infected/tumour host cells).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Organs and cells of the immune system
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-NEUTROPHIL-LYSOSOMAL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+10- A cell utilizing lysosomal enzymes to kill pathogens is:
+a. NK cells
+b. Tc cells
+c. Neutrophils
+d. Th cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch1 Q10
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "neutrophil lysosomal killing" and "lysosomal enzymes" returned no existing record.
+relatedArticleIds: This fact is fully covered by its own article_ids (ART-ASU-IMM-INNATE-BASICS); no additional related article is needed.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-008B922672728F
+
+## label
+Haematopoietic stem cells are pluripotent, able to develop into any blood cell lineage
+
+## canonical_key
+hematopoieticstemcell.property.pluripotency
+
+## aliases
+HSC pluripotency
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Haematopoietic stem cells in the bone marrow are pluripotent: a single stem cell can give rise to any blood cell lineage (both myeloid and lymphoid), rather than being restricted to a single lineage, restricted to producing T & B cells of different specificities, or being antigen-specific.
+
+## explicit_objective
+State that "pluripotent" haematopoietic stem cells means they can develop into any blood cell type, not that they are antigen-specific or lineage-restricted.
+
+## pitfalls
+Confusing stem-cell pluripotency (can become any blood cell lineage) with lymphocyte antigen specificity (T and B cells recognising different antigens) — these are different properties of different cell populations.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Organs and cells of the immune system
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-LYMPHOID-ORGANS
+
+## related_article_ids
+ART-ASU-IMM-SECONDARY-LYMPHOID-ORGANS
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-HSC-PLURIPOTENCY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+12- Haematopoietic stem cells are pleuripotent as:
+a. They are Ag specific cells
+b. They are T & B cells of different specificities
+c. They can develop into any blood cell
+d. They produce cells of a single lineage
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch1 Q12
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "hematopoietic stem cell" and "pluripotent" returned no existing record.
+relatedArticleIds: This fact is fully covered by its own article_ids (ART-ASU-IMM-LYMPHOID-ORGANS); no additional related article is needed.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.

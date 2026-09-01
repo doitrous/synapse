@@ -3012,3 +3012,235 @@ The support span is the verbatim MCQ stem and options as printed in the departme
 ## counts_as_claim_evidence
 no
 
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-LYMPHNODE-NOT-BMATURATION-01
+
+## claim_id
+CLM-IMM-LYMPHNODE-NOT-BMATURATION-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+2- Which of the following statements isn't true about lymph nodes?
+a. Trap microbes entering tissues.
+b. Site of initiation of immune response.
+c. Act as immunological filter of tissues.
+d. Site of maturation of B cells
+e. Harbor large number of APCs, B & T cells
+
+## locator_type
+page
+
+## locator_detail
+Chapter 1, page 1 of hegazy.pdf, rendered at 300dpi and read directly as an image (tesseract OCR on this file is heavily garbled); printed answer-key table at the foot of the same page read directly from the image (Q2 = d).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank — a past-paper source of what was asked.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-THYMUS-TCELL-DEPENDENCY-01
+
+## claim_id
+CLM-IMM-THYMUS-TCELL-DEPENDENCY-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+3- Removal of thymus affects the function of:
+a. B lymphocytes
+b. Granulocytes
+c. T lymphocytes
+d. Monocytes
+e. NK cells
+
+## locator_type
+page
+
+## locator_detail
+Chapter 1, page 1 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table at the foot of the same page read directly from the image (Q3 = c).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-NEUTROPHIL-ACUTE-BACTERIAL-01
+
+## claim_id
+CLM-IMM-NEUTROPHIL-ACUTE-BACTERIAL-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+4- Which type of cells is increased in acute infections of bacterial origin:
+a. Basophils
+b. Eosinophils
+c. Lymphocytes
+d. NK cells
+e. Neutrophils
+
+## locator_type
+page
+
+## locator_detail
+Chapter 1, page 1 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table at the foot of the same page read directly from the image (Q4 = e).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-LYMPHOCYTE-VIRAL-01
+
+## claim_id
+CLM-IMM-LYMPHOCYTE-VIRAL-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+6- Which type of cells is increased in viral infection:
+a. Lymphocytes
+b. Neutrophils
+c. Eosinophils
+d. Basophils
+
+## locator_type
+page
+
+## locator_detail
+Chapter 1, page 1 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table at the foot of the same page read directly from the image (Q6 = a).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-NEUTROPHIL-LYSOSOMAL-01
+
+## claim_id
+CLM-IMM-NEUTROPHIL-LYSOSOMAL-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+10- A cell utilizing lysosomal enzymes to kill pathogens is:
+a. NK cells
+b. Tc cells
+c. Neutrophils
+d. Th cells
+
+## locator_type
+page
+
+## locator_detail
+Chapter 1, page 3 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table at the foot of the same page read directly from the image (Q10 = c).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-HSC-PLURIPOTENCY-01
+
+## claim_id
+CLM-IMM-HSC-PLURIPOTENCY-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+12- Haematopoietic stem cells are pleuripotent as:
+a. They are Ag specific cells
+b. They are T & B cells of different specificities
+c. They can develop into any blood cell
+d. They produce cells of a single lineage
+
+## locator_type
+page
+
+## locator_detail
+Chapter 1, page 3 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table at the foot of the same page read directly from the image (Q12 = c).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no

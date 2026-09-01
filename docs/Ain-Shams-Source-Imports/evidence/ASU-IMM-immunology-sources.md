@@ -455,3 +455,49 @@ Native-text department MCQ bank on cytokines, printed key at foot of page 2. A p
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+src_834aba143e85f6c3efce
+
+## title
+Ain Shams Year 1 Immunology — hegazy.pdf (6-chapter MCQ review bank)
+
+## institution
+Ain Shams University — Faculty of Medicine
+
+## collection_id
+asu-y1
+
+## source_relative_path
+Year 1/Term 1/Immunology/Immunology/Questions/MCQs/MCQs - hegazy.pdf
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## page_count
+24
+
+## sha256
+834aba143e85f6c3efceab02e52f657aa9719b1a05452e85de0c8ab269ec5698
+
+## processing_status
+pending
+
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image or long verbatim passage is published from it.
+
+## qualification
+CamScanner photo-scan MCQ review bank, chaptered into 6 sections with per-chapter question numbering; no native text layer, and tesseract OCR on this file is heavily garbled (layout tables mis-parse into scattered noise). Recovered by rendering at 300dpi and reading page images directly, including the embedded per-chapter answer-key tables. A past-paper source of what was asked; not used as a source of medical fact.
+
+## confidence
+0.8
+
+## is_assessment
+yes
