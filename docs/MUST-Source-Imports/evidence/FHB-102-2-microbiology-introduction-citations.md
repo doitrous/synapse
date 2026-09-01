@@ -1997,3 +1997,123 @@ The official MUST teaching deck directly supports the unchanged printed Mycology
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-VIRO2-Q2-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-VIRO2-Q2-01
+
+## resource_id
+src_09b0450fc24387f25049
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official MUST general-virology slide states that most viruses are heat susceptible above 60°C for 30 minutes except hepatitis B virus.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+General Virology, Chapter 8 — Physical susceptibility
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Virology Q2 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## resource_id
+src_09b0450fc24387f25049
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official MUST structure slide lists nucleic acid, protein coat or capsid, and an envelope in some viruses; ribosomes are absent from the governed component list.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+General Virology, Chapter 8 — Viral components
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Virology Q5 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## resource_id
+src_09b0450fc24387f25049
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official MUST infection-pattern slide states that in chronic carrier infection the virus is secreted from the infected individual for some time after clinical recovery.
+
+## locator_type
+page
+
+## locator_page
+33
+
+## locator_section
+General Virology, Chapter 8 — Persistent infection
+
+## locator_detail
+PDF page 33, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Virology Q26 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

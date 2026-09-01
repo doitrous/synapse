@@ -37,6 +37,7 @@ const nucleoproteinResourceId = 'src_5dfd7701d995629e7c36'
 const vancomycinResourceId = 'src_875c205531a585cd5b91'
 const basicVirologyResourceId = 'src_b500ffe881ed0f4ace5c'
 const mycologyResourceId = 'src_72a4c07c4877d4b58c3f'
+const generalVirologyResourceId = 'src_09b0450fc24387f25049'
 const bacterialGeneticsResourceId = 'src_a3d71ccbc276ec903213'
 const antifungalDrugResourceId = 'src_bbf7f72f08ce85032b4d'
 const bacterialGrowthResourceId = 'src_da7cc51e7ac1ee22c68a'
@@ -512,6 +513,8 @@ const microArticles = {
   mycologyFoundations: 'ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS',
   mycologyDisease: 'ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES',
   mycologyDiagnosis: 'ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS',
+  virusSusceptibility: 'ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS',
+  viralCarrier: 'ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION',
 }
 
 const microArticleRelations = {
@@ -524,6 +527,8 @@ const microArticleRelations = {
   mycologyFoundations: ['mycologyDisease', 'mycologyDiagnosis'],
   mycologyDisease: ['mycologyFoundations', 'mycologyDiagnosis'],
   mycologyDiagnosis: ['mycologyFoundations', 'mycologyDisease'],
+  virusSusceptibility: ['viralCarrier'],
+  viralCarrier: ['virusSusceptibility'],
 }
 
 const microItems = [
@@ -970,6 +975,46 @@ const mycologyItems = [
 }))
 
 microItems.push(...mycologyItems)
+
+const virologyItems = [
+  {
+    q: 2, conceptId: 'CON-INF-7C3A2B8E914F60', canonicalKey: 'microbiology.virology.hbv-heat-exception-60c-30min',
+    label: 'HBV is an exception to usual viral heat susceptibility at 60°C for 30 minutes', aliases: ['HBV heat resistance exception', 'Viral heat susceptibility exception'], conceptType: 'property',
+    article: 'virusSusceptibility', microtopic: 'Physical susceptibility', assessmentPage: 30, teachingPage: 15,
+    stem: 'Which virus is an exception to heat susceptibility at 60°C for 30 minutes?', key: 'B', options: ['Influenza virus', 'Hepatitis B Virus (HBV)', 'Poliovirus', 'Herpes virus'],
+    claim: 'Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes.',
+    support: 'The official MUST general-virology slide states that most viruses are heat susceptible above 60°C for 30 minutes except hepatitis B virus.',
+    objective: 'Identify HBV as the stated heat-susceptibility exception.',
+    pitfalls: 'The governed exception is HBV, not influenza, poliovirus or herpes virus.', rejected: [],
+  },
+  {
+    q: 5, conceptId: 'CON-INF-4A6E8D2B91C735', canonicalKey: 'microbiology.virology.ribosomes-not-viral-component',
+    label: 'Ribosomes are not structural components of viruses', aliases: ['Viruses lack ribosomes', 'Viral structural components exclude ribosomes'], conceptType: 'structure',
+    article: 'virusSusceptibility', microtopic: 'Viral components', assessmentPage: 31, teachingPage: 6,
+    stem: 'Which component is NOT part of a virus?', key: 'C', options: ['Capsid', 'Envelope', 'Ribosomes', 'Nucleic acid'],
+    claim: 'Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope.',
+    support: 'The official MUST structure slide lists nucleic acid, protein coat or capsid, and an envelope in some viruses; ribosomes are absent from the governed component list.',
+    objective: 'Identify ribosomes as outside the governed viral structural components.',
+    pitfalls: 'Capsid and nucleic acid are basic viral components, while an envelope is present in some viruses.', rejected: [],
+  },
+  {
+    q: 26, conceptId: 'CON-INF-8F2C6A4D913B70', canonicalKey: 'microbiology.virology.chronic-carrier-virus-secretion-post-recovery',
+    label: 'Chronic carrier infection permits virus secretion after clinical recovery', aliases: ['Chronic viral carrier', 'Post-recovery virus secretion'], conceptType: 'infection pattern',
+    article: 'viralCarrier', microtopic: 'Persistent infection', assessmentPage: 36, teachingPage: 33,
+    stem: 'Chronic carrier infections are characterized by:', key: 'C', options: ['Complete resolution after infection', 'Latent virus with no shedding', 'Continuous virus secretion post-recovery', 'Rapid host death'],
+    claim: 'A chronic carrier infection is characterized by continued virus secretion after clinical recovery.',
+    support: 'The official MUST infection-pattern slide states that in chronic carrier infection the virus is secreted from the infected individual for some time after clinical recovery.',
+    objective: 'Recognise post-recovery virus secretion as the chronic-carrier pattern.',
+    pitfalls: 'The chronic carrier pattern is not complete resolution, non-shedding latency or rapid host death.', rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'VIRO2', bankQ: item.q, assessmentResourceId: absalamPart2AssessmentResourceId,
+  bankLabel: 'Virology', answerPage: 38, teachingResourceId: generalVirologyResourceId,
+  teachingTitle: 'General Virology, Chapter 8', topic: 'Microbiology', subtopic: 'General virology',
+  primaryNode: 'DIS-MIC-T01', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'], ...item,
+}))
+
+microItems.push(...virologyItems)
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -1934,6 +1979,61 @@ no
 # Item
 
 ## id
+${generalVirologyResourceId}
+
+## title
+General Virology, Chapter 8
+
+## institution
+Misr University for Science and Technology; the deck carries the MUST institutional mark throughout
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/3.General virology (Ch 8).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+60
+
+## sha256
+09b0450fc24387f2504910346d8b5471c1221af9274d4e6101cd27684ba687ac
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 60 pages were rendered and visually read for the bounded Virology Q1–Q30 audit. Page 15 identifies HBV as the stated exception to usual viral heat susceptibility at 60°C for 30 minutes; page 6 lists nucleic acid, capsid and an optional envelope as viral components and does not include ribosomes; page 33 defines chronic carrier infection by continued virus secretion after clinical recovery. The remaining pages were read to classify support, identity collisions and the explicit Q14 and Q25 authority-form holds. The lecture is teaching evidence only and contains no authenticated examiner key.
+
+## confidence
+0.9
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 ${bacterialGeneticsResourceId}
 
 ## title
@@ -2321,7 +2421,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 25,
+    count: 26,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -2534,6 +2634,19 @@ function corpusSourceIndex() {
         processingStatus: 'fully_governed',
         pageCount: 34,
         languages: ['en', 'ar'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
+      },
+      [generalVirologyResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/3.General virology (Ch 8).pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/3.General virology (Ch 8).pdf'],
+        sha256: '09b0450fc24387f2504910346d8b5471c1221af9274d4e6101cd27684ba687ac',
+        processingStatus: 'fully_governed',
+        pageCount: 60,
+        languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
         yearIds: ['MUST_Y1'],
@@ -10289,6 +10402,44 @@ The tested methods distinguish a molecular target, a microscopy appearance and a
 ### Common misconceptions
 Do not substitute latex antigen detection for PCR, or assign the main antibody-detection use to superficial or cutaneous mycosis. Held stain, culture and antigen questions remain outside this article.`,
   },
+  virusSusceptibility: {
+    title: 'Viral components and physical susceptibility', microtopic: 'Viral structure and heat susceptibility',
+    topic: 'Microbiology', subtopic: 'General virology', primaryNode: 'DIS-MIC-T01', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'The governed MUST teaching lists nucleic acid and capsid as basic viral components, an envelope in some viruses, and no ribosomes; it also identifies HBV as an exception to usual heat susceptibility at 60°C for 30 minutes.',
+    sections: `### Definition
+Viruses contain nucleic acid and a protein coat or capsid. Some viruses also possess an envelope. Ribosomes are not listed as a viral structural component.
+
+### Mechanism
+Most viruses are stated to be heat susceptible above 60°C for 30 minutes, with hepatitis B virus identified as the exception in the governed lecture.
+
+### Key determinants
+Ribosomes are excluded from the component list. HBV is the named heat-susceptibility exception.
+
+### Clinical significance
+Separating viral components from host-cell machinery and recognising an explicitly taught susceptibility exception prevents bacterial cell structures from being assigned to viruses.
+
+### Common misconceptions
+Do not remove capsid or nucleic acid from the viral component list. Do not treat the optional envelope as a ribosome, and do not substitute influenza, poliovirus or herpes virus for the stated HBV exception.`,
+  },
+  viralCarrier: {
+    title: 'Chronic carrier viral infection', microtopic: 'Persistent viral infection',
+    topic: 'Microbiology', subtopic: 'General virology', primaryNode: 'DIS-MIC-T01', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'The governed MUST teaching defines chronic carrier infection by continued virus secretion after clinical recovery.',
+    sections: `### Definition
+In chronic carrier infection, virus continues to be secreted from the infected individual for some time after clinical recovery.
+
+### Mechanism
+Clinical recovery does not necessarily mean immediate cessation of viral shedding in the chronic-carrier pattern.
+
+### Key determinants
+Post-recovery secretion distinguishes the governed chronic-carrier pattern from complete resolution and from non-shedding latency.
+
+### Clinical significance
+Continued secretion after apparent recovery creates an ongoing transmission concern despite improvement in symptoms.
+
+### Common misconceptions
+Do not equate clinical recovery with complete virological resolution. Do not replace chronic carriage with latent infection without shedding or rapid host death.`,
+  },
 } }
 
 function microArticleRecords() {
@@ -10785,6 +10936,45 @@ function microCoverage() {
 - **Mycology Q30 is held as an uncorrected authority/key conflict.** The bank prints B, Inhibits bacterial contamination. Official page 30 attributes bacterial-contamination minimisation and saprophytic-fungus suppression to the combined addition of chloramphenicol and cycloheximide and does not assign the bacterial effect to cycloheximide alone. The printed key was neither corrected nor promoted.
 
 `
+  const virologyDelta = `### Absalam Part 2 Virology Q1–Q30 delta
+
+- +1 evidence resource: the official 60-page MUST General Virology Chapter 8 deck, all pages rendered and visually read. The existing Absalam Part 2 assessment resource is reused; assessment pages 30–37 and printed answers on page 38 were visually read.
+- +3 verified local-curriculum claims, +3 citations and +3 article spans for Virology Q2, Q5 and Q26.
+- +3 under-review / needs-evidence concepts and +2 standalone-complete reciprocal Draft articles.
+- +3 Draft questions and +27 explicit identity, dependency, authority-form or key-form holds with no student-facing record.
+- Every authored stem, option and printed key is unchanged. Q14 remains a non-unique key-form hold because the teaching supports B, C and D during eclipse; Q25 remains an unsupported comparative-authority hold. No key was repaired.
+- Absalam Part 2 Virology Q1–Q30: **3 authored / 27 held / 0 unassessed**.
+
+`
+  const virologyHolds = `- **Virology Q1 is held as an identity/dependency hold.** Printed C is supported, but live \`CON-INF-1165F8B9564697\` and \`ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID\` already govern the DNA-or-RNA viral-property identity; no duplicate or partial live-article update was created.
+- **Virology Q3 is held as an exact identity/dependency hold.** Printed C is supported, but the same live general-properties concept already states that a viral genome is DNA or RNA, never both.
+- **Virology Q4 is held as an identity/dependency hold.** Printed B is supported, but live structure concepts including \`CON-INF-9C0D5FBED79267\` already occupy the nucleic-acid/capsid/envelope composition chain.
+- **Virology Q6 is held as an identity/dependency hold.** Printed A is supported, but live envelope concept \`CON-INF-7952070C4BD8AF\` and the existing viral-structure article already govern envelope susceptibility.
+- **Virology Q7 is held as a raw-identity hold.** Printed B is supported, but exact raw candidate \`concept_6a9ebe37944de9e2c237a143\` already occupies bacteriophage head-and-tail morphology.
+- **Virology Q8 is held as an exact live-identity hold.** Printed B is supported, but \`CON-INF-6EE705523FD61C\` already governs circular RNA without a protein coat.
+- **Virology Q9 is held as an exact live-identity hold.** Printed C is supported, but \`CON-INF-7952070C4BD8AF\` already governs host-membrane derivation of the viral envelope. The source's stray leading “W” was recorded but not normalized into a question.
+- **Virology Q10 is held as an exact live-identity hold.** Printed B is supported, but \`CON-INF-1165F8B9564697\` already governs viral non-susceptibility to antibiotics.
+- **Virology Q11 is held as a raw-identity hold.** Printed C is supported, but raw classification candidate \`concept_3df1ddd197fac04c440106f5\` already occupies viral classification criteria.
+- **Virology Q12 is held as a raw-identity hold.** Printed B is supported by official pages 21–22, but raw \`concept_2fa34c2867939a07564033a1\` already governs herpesviruses as double-stranded DNA viruses.
+- **Virology Q13 is held as a raw-identity hold.** Printed A is supported, but raw \`concept_965009168cb0925e5509b54a\` already governs the segmented rotavirus genome.
+- **Virology Q14 is held as a non-unique key-form conflict.** The bank prints D, but official page 26 also supports option B, structural-protein synthesis, and option C, genome replication, during the eclipse period. No option was corrected or promoted.
+- **Virology Q15 is held as a dependency-chain hold.** Printed B is supported, but budding/release belongs to existing \`ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION\`; no partial exact-ID article update was created.
+- **Virology Q16 is held as a dependency-chain hold.** Printed B is supported, but the isolation-system scope belongs to the same existing viral culture/replication article chain.
+- **Virology Q17 is held as an exact live-identity hold.** Printed D is supported, but \`CON-INF-CE64E7CD7B4393\` already governs receptor, proteolytic-enzyme and local-condition determinants of cell tropism.
+- **Virology Q18 is held as an exact live-identity hold.** Printed A is supported, but \`CON-INF-8989679385BD3C\` already governs rabies-associated Negri bodies.
+- **Virology Q19 is held as a raw-identity hold.** Printed C is supported, but \`concept_9158d0ea377c345d36c8b7e9\` already states that IgM indicates recent primary infection.
+- **Virology Q20 is held as a raw-identity hold.** Printed B is supported, but \`concept_f66e9e09c6cf77d93e704b57\` already governs the interferon-induced antiviral state in uninfected cells.
+- **Virology Q21 is held as a raw-identity hold.** Printed A is supported, but viral-antigen ELISA candidates including \`concept_22df42119d8b19b9b2da0f12\` already occupy the diagnostic identity.
+- **Virology Q22 is held as a raw-identity hold.** Printed B is supported, but raw cytopathic-effect identities including \`concept_540c5b040f5782052b027c0a\` already govern morphological changes in infected culture cells.
+- **Virology Q23 is held as a raw-identity hold.** Printed B is supported, but exact \`concept_9bc7df59ff7b140112a1e52e\` already governs Sabin as a live attenuated vaccine.
+- **Virology Q24 is held as a raw-identity hold.** Printed B is supported, but exact \`concept_b4c15496b4ae04abc15d36b8\` already governs mRNA delivery of an immunizing protein code.
+- **Virology Q25 is held as an unsupported comparative-authority hold.** The bank prints A, but official teaching distinguishes active and passive immunization without stating that active immunization is the uniquely “most effective” long-term method.
+- **Virology Q27 is held as a raw-identity hold.** Printed B is supported, but raw viral-cytology candidates including \`concept_d2eff968111204a7d8263fed\` already govern syncytia formation.
+- **Virology Q28 is held as a raw-identity hold.** Printed C is supported, but exact \`concept_d11e2f053f9ed77216024361\` already governs hemagglutination inhibition.
+- **Virology Q29 is held as a raw-identity hold.** Printed B is supported, but existing vaccine-platform and subunit candidates including \`concept_aa94332d7b3ae24367c3fff0\` already occupy the identity.
+- **Virology Q30 is held as a raw-identity hold.** Printed B is supported, but exact \`concept_08c5f780c446991dba7ada3a\` already governs viral-vector delivery of foreign genetic material.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -10831,7 +11021,15 @@ function microCoverage() {
     .replace('| Articles | 33 |', '| Articles | 36 |')
     .replace('| Questions | 117 |', '| Questions | 129 |')
     .replace('| Question authoring holds | 124 |', '| Question authoring holds | 142 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}`)
+    .replace('| Evidence resources | 25 |', '| Evidence resources | 26 |')
+    .replace('| Claims | 129 |', '| Claims | 132 |')
+    .replace('| Citations | 134 |', '| Citations | 137 |')
+    .replace('| Article spans | 129 |', '| Article spans | 132 |')
+    .replace('| Concepts | 113 |', '| Concepts | 116 |')
+    .replace('| Articles | 36 |', '| Articles | 38 |')
+    .replace('| Questions | 129 |', '| Questions | 132 |')
+    .replace('| Question authoring holds | 142 |', '| Question authoring holds | 169 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -10844,12 +11042,15 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 98 clean source-keyed prompts authored; **5,113 raw answer observations remain**, including the 113 held printed-key observations', 'Governed answer observations: 5,211 total; 117 clean source-keyed prompts authored; **5,094 raw answer observations remain**, including the 124 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 117 authored; **5,327 raw prompt observations remain**, including 124 explicit holds', 'Governed prompt observations: 5,444 total; 129 authored; **5,315 raw prompt observations remain**, including 142 explicit holds')
     .replace('Governed answer observations: 5,211 total; 117 clean source-keyed prompts authored; **5,094 raw answer observations remain**, including the 124 held printed-key observations', 'Governed answer observations: 5,211 total; 129 clean source-keyed prompts authored; **5,082 raw answer observations remain**, including the 142 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 129 authored; **5,315 raw prompt observations remain**, including 142 explicit holds', 'Governed prompt observations: 5,444 total; 132 authored; **5,312 raw prompt observations remain**, including 169 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 129 clean source-keyed prompts authored; **5,082 raw answer observations remain**, including the 142 held printed-key observations', 'Governed answer observations: 5,211 total; 132 clean source-keyed prompts authored; **5,079 raw answer observations remain**, including the 169 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
     .replace('Record-level backlog is not asserted as 5,368 unique records', 'Record-level backlog is not asserted as 5,346 unique records')
     .replace('Record-level backlog is not asserted as 5,346 unique records', 'Record-level backlog is not asserted as 5,327 unique records')
     .replace('Record-level backlog is not asserted as 5,327 unique records', 'Record-level backlog is not asserted as 5,315 unique records')
+    .replace('Record-level backlog is not asserted as 5,315 unique records', 'Record-level backlog is not asserted as 5,312 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -10857,6 +11058,7 @@ function microCoverage() {
     .replace('All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts', 'All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts')
     .replace('All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts', 'All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts')
     .replace('All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts', 'All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts')
+    .replace('All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts', 'All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
@@ -10864,9 +11066,11 @@ function microCoverage() {
     .replace('All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.')
+    .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.')
 }

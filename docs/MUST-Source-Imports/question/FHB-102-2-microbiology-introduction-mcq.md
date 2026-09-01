@@ -7597,3 +7597,459 @@ yes
 
 ## author_notes
 Printed source key: Mycology Q27 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-VIRO2-Q2
+
+## title
+Which virus is an exception to heat susceptibility at 60°C for 30 minutes?
+
+## question
+Which virus is an exception to heat susceptibility at 60°C for 30 minutes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_09b0450fc24387f25049 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Influenza virus
+
+## explanation_a
+Incorrect. The governed exception is HBV, not influenza, poliovirus or herpes virus. The supported answer is B, Hepatitis B Virus (HBV).
+
+## answer_b
+Hepatitis B Virus (HBV)
+
+## explanation_b
+Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes. The official MUST teaching directly supports Hepatitis B Virus (HBV) for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Poliovirus
+
+## explanation_c
+Incorrect. The governed exception is HBV, not influenza, poliovirus or herpes virus. The supported answer is B, Hepatitis B Virus (HBV).
+
+## answer_d
+Herpes virus
+
+## explanation_d
+Incorrect. The governed exception is HBV, not influenza, poliovirus or herpes virus. The supported answer is B, Hepatitis B Virus (HBV).
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## main_concept
+CON-INF-7C3A2B8E914F60
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Physical susceptibility
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_09b0450fc24387f25049
+
+## learning_objective
+Identify HBV as the stated heat-susceptibility exception.
+
+## source_citation
+Absalam101 Part 2, p30, Virology Q2, printed key p38 (2 = B); official MUST General Virology, Chapter 8, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Virology Q2 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-VIRO2-Q5
+
+## title
+Which component is NOT part of a virus?
+
+## question
+Which component is NOT part of a virus?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_09b0450fc24387f25049 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Capsid
+
+## explanation_a
+Incorrect. Capsid and nucleic acid are basic viral components, while an envelope is present in some viruses. The supported answer is C, Ribosomes.
+
+## answer_b
+Envelope
+
+## explanation_b
+Incorrect. Capsid and nucleic acid are basic viral components, while an envelope is present in some viruses. The supported answer is C, Ribosomes.
+
+## answer_c
+Ribosomes
+
+## explanation_c
+Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope. The official MUST teaching directly supports Ribosomes for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Nucleic acid
+
+## explanation_d
+Incorrect. Capsid and nucleic acid are basic viral components, while an envelope is present in some viruses. The supported answer is C, Ribosomes.
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## main_concept
+CON-INF-4A6E8D2B91C735
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Viral components
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_09b0450fc24387f25049
+
+## learning_objective
+Identify ribosomes as outside the governed viral structural components.
+
+## source_citation
+Absalam101 Part 2, p31, Virology Q5, printed key p38 (5 = C); official MUST General Virology, Chapter 8, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Virology Q5 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-VIRO2-Q26
+
+## title
+Chronic carrier infections are characterized by:
+
+## question
+Chronic carrier infections are characterized by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_09b0450fc24387f25049 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Complete resolution after infection
+
+## explanation_a
+Incorrect. The chronic carrier pattern is not complete resolution, non-shedding latency or rapid host death. The supported answer is C, Continuous virus secretion post-recovery.
+
+## answer_b
+Latent virus with no shedding
+
+## explanation_b
+Incorrect. The chronic carrier pattern is not complete resolution, non-shedding latency or rapid host death. The supported answer is C, Continuous virus secretion post-recovery.
+
+## answer_c
+Continuous virus secretion post-recovery
+
+## explanation_c
+A chronic carrier infection is characterized by continued virus secretion after clinical recovery. The official MUST teaching directly supports Continuous virus secretion post-recovery for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Rapid host death
+
+## explanation_d
+Incorrect. The chronic carrier pattern is not complete resolution, non-shedding latency or rapid host death. The supported answer is C, Continuous virus secretion post-recovery.
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## main_concept
+CON-INF-8F2C6A4D913B70
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Persistent infection
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_09b0450fc24387f25049
+
+## learning_objective
+Recognise post-recovery virus secretion as the chronic-carrier pattern.
+
+## source_citation
+Absalam101 Part 2, p36, Virology Q26, printed key p38 (26 = C); official MUST General Virology, Chapter 8, p33.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Virology Q26 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

@@ -884,6 +884,61 @@ no
 # Item
 
 ## id
+src_09b0450fc24387f25049
+
+## title
+General Virology, Chapter 8
+
+## institution
+Misr University for Science and Technology; the deck carries the MUST institutional mark throughout
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/3.General virology (Ch 8).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+60
+
+## sha256
+09b0450fc24387f2504910346d8b5471c1221af9274d4e6101cd27684ba687ac
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 60 pages were rendered and visually read for the bounded Virology Q1–Q30 audit. Page 15 identifies HBV as the stated exception to usual viral heat susceptibility at 60°C for 30 minutes; page 6 lists nucleic acid, capsid and an optional envelope as viral components and does not include ribosomes; page 33 defines chronic carrier infection by continued virus secretion after clinical recovery. The remaining pages were read to classify support, identity collisions and the explicit Q14 and Q25 authority-form holds. The lecture is teaching evidence only and contains no authenticated examiner key.
+
+## confidence
+0.9
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 src_a3d71ccbc276ec903213
 
 ## title

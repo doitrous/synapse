@@ -1097,3 +1097,69 @@ CLM-INF-MUST-FHB1022-MYCO2-Q27-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MYCO2-Q27-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-VIRO2-Q2-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## section_id
+art-inf-must-fhb1022-virus-susceptibility-components-definition
+
+## text
+Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q2-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-VIRO2-Q2-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## section_id
+art-inf-must-fhb1022-virus-susceptibility-components-definition
+
+## text
+Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-VIRO2-Q5-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## article_id
+ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION
+
+## section_id
+art-inf-must-fhb1022-viral-carrier-infection-definition
+
+## text
+A chronic carrier infection is characterized by continued virus secretion after clinical recovery.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-VIRO2-Q26-01

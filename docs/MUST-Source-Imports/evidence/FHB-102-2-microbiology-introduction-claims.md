@@ -2197,3 +2197,135 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Mycology
 source question: Absalam Mycology Q27
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-VIRO2-Q2-01
+
+## concept_id
+CON-INF-7C3A2B8E914F60
+
+## subject
+HBV is an exception to usual viral heat susceptibility at 60°C for 30 minutes
+
+## predicate
+states
+
+## object
+Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes.
+
+## display_text
+Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Virology
+source question: Absalam Virology Q2
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## concept_id
+CON-INF-4A6E8D2B91C735
+
+## subject
+Ribosomes are not structural components of viruses
+
+## predicate
+states
+
+## object
+Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope.
+
+## display_text
+Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Virology
+source question: Absalam Virology Q5
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## concept_id
+CON-INF-8F2C6A4D913B70
+
+## subject
+Chronic carrier infection permits virus secretion after clinical recovery
+
+## predicate
+states
+
+## object
+A chronic carrier infection is characterized by continued virus secretion after clinical recovery.
+
+## display_text
+A chronic carrier infection is characterized by continued virus secretion after clinical recovery.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Virology
+source question: Absalam Virology Q26

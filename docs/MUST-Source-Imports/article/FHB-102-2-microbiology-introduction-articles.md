@@ -2381,3 +2381,398 @@ reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
 relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## title
+Viral components and physical susceptibility
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Viral structure and heat susceptibility
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## microtopic
+Viral structure and heat susceptibility
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Viral structure and heat susceptibility
+
+## summary
+The governed MUST teaching lists nucleic acid and capsid as basic viral components, an envelope in some viruses, and no ribosomes; it also identifies HBV as an exception to usual heat susceptibility at 60°C for 30 minutes.
+
+## sections
+### Definition
+Viruses contain nucleic acid and a protein coat or capsid. Some viruses also possess an envelope. Ribosomes are not listed as a viral structural component.
+
+### Mechanism
+Most viruses are stated to be heat susceptible above 60°C for 30 minutes, with hepatitis B virus identified as the exception in the governed lecture.
+
+### Key determinants
+Ribosomes are excluded from the component list. HBV is the named heat-susceptibility exception.
+
+### Clinical significance
+Separating viral components from host-cell machinery and recognising an explicitly taught susceptibility exception prevents bacterial cell structures from being assigned to viruses.
+
+### Common misconceptions
+Do not remove capsid or nucleic acid from the viral component list. Do not treat the optional envelope as a ribosome, and do not substitute influenza, poliovirus or herpes virus for the stated HBV exception.
+
+### Governed evidence statements
+The official MUST general-virology slide states that most viruses are heat susceptible above 60°C for 30 minutes except hepatitis B virus.
+The official MUST structure slide lists nucleic acid, protein coat or capsid, and an envelope in some viruses; ribosomes are absent from the governed component list.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes.
+Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope.
+
+## lose_the_mark
+The governed exception is HBV, not influenza, poliovirus or herpes virus.
+Capsid and nucleic acid are basic viral components, while an envelope is present in some viruses.
+
+## callout_evidence
+### Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes.
+Claims: CLM-INF-MUST-FHB1022-VIRO2-Q2-01
+Citations: CIT-INF-MUST-FHB1022-VIRO2-Q2-01
+Reviewed by: pending medical review
+
+### Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope.
+Claims: CLM-INF-MUST-FHB1022-VIRO2-Q5-01
+Citations: CIT-INF-MUST-FHB1022-VIRO2-Q5-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-7C3A2B8E914F60
+CON-INF-4A6E8D2B91C735
+
+## related_articles
+ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION: Chronic carrier viral infection
+
+## question_ids
+QST-MUST-FHB1022-VIRO2-Q2
+QST-MUST-FHB1022-VIRO2-Q5
+
+## resource_ids
+src_09b0450fc24387f25049
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_09b0450fc24387f25049
+
+## claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q2-01
+CLM-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-VIRO2-Q2-01
+SPN-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## university_notes
+must: Global Q2, Q5 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-7C3A2B8E914F60
+Quote: The official MUST general-virology slide states that most viruses are heat susceptible above 60°C for 30 minutes except hepatitis B virus.
+Block: body
+Id: ann-must-fhb1022-micro-q2
+
+### definition_of · CON-INF-4A6E8D2B91C735
+Quote: The official MUST structure slide lists nucleic acid, protein coat or capsid, and an envelope in some viruses; ribosomes are absent from the governed component list.
+Block: body
+Id: ann-must-fhb1022-micro-q5
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Virology, Chapter 8 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION
+
+## title
+Chronic carrier viral infection
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Persistent viral infection
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## microtopic
+Persistent viral infection
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Persistent viral infection
+
+## summary
+The governed MUST teaching defines chronic carrier infection by continued virus secretion after clinical recovery.
+
+## sections
+### Definition
+In chronic carrier infection, virus continues to be secreted from the infected individual for some time after clinical recovery.
+
+### Mechanism
+Clinical recovery does not necessarily mean immediate cessation of viral shedding in the chronic-carrier pattern.
+
+### Key determinants
+Post-recovery secretion distinguishes the governed chronic-carrier pattern from complete resolution and from non-shedding latency.
+
+### Clinical significance
+Continued secretion after apparent recovery creates an ongoing transmission concern despite improvement in symptoms.
+
+### Common misconceptions
+Do not equate clinical recovery with complete virological resolution. Do not replace chronic carriage with latent infection without shedding or rapid host death.
+
+### Governed evidence statements
+The official MUST infection-pattern slide states that in chronic carrier infection the virus is secreted from the infected individual for some time after clinical recovery.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+A chronic carrier infection is characterized by continued virus secretion after clinical recovery.
+
+## lose_the_mark
+The chronic carrier pattern is not complete resolution, non-shedding latency or rapid host death.
+
+## callout_evidence
+### A chronic carrier infection is characterized by continued virus secretion after clinical recovery.
+Claims: CLM-INF-MUST-FHB1022-VIRO2-Q26-01
+Citations: CIT-INF-MUST-FHB1022-VIRO2-Q26-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-8F2C6A4D913B70
+
+## related_articles
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS: Viral components and physical susceptibility
+
+## question_ids
+QST-MUST-FHB1022-VIRO2-Q26
+
+## resource_ids
+src_09b0450fc24387f25049
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_09b0450fc24387f25049
+
+## claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## university_notes
+must: Global Q26 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-8F2C6A4D913B70
+Quote: The official MUST infection-pattern slide states that in chronic carrier infection the virus is secreted from the infected individual for some time after clinical recovery.
+Block: body
+Id: ann-must-fhb1022-micro-q26
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Virology, Chapter 8 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.

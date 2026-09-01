@@ -7985,3 +7985,546 @@ rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survive
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-7C3A2B8E914F60
+
+## label
+HBV is an exception to usual viral heat susceptibility at 60°C for 30 minutes
+
+## canonical_key
+microbiology.virology.hbv-heat-exception-60c-30min
+
+## aliases
+HBV heat resistance exception
+Viral heat susceptibility exception
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Hepatitis B virus is the stated exception to the usual viral heat susceptibility at 60°C for 30 minutes.
+
+## explicit_objective
+Identify HBV as the stated heat-susceptibility exception.
+
+## pitfalls
+The governed exception is HBV, not influenza, poliovirus or herpes virus.
+
+## concept_type
+property
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## microtopic
+Physical susceptibility
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Physical susceptibility
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_09b0450fc24387f25049
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q2-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p30 Virology Q2; printed answer p38
+src_09b0450fc24387f25049 | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Which virus is an exception to heat susceptibility at 60°C for 30 minutes? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Virology Q2; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-4A6E8D2B91C735
+
+## label
+Ribosomes are not structural components of viruses
+
+## canonical_key
+microbiology.virology.ribosomes-not-viral-component
+
+## aliases
+Viruses lack ribosomes
+Viral structural components exclude ribosomes
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Ribosomes are not part of the viral structure, whereas nucleic acid and capsid are basic viral components and some viruses also have an envelope.
+
+## explicit_objective
+Identify ribosomes as outside the governed viral structural components.
+
+## pitfalls
+Capsid and nucleic acid are basic viral components, while an envelope is present in some viruses.
+
+## concept_type
+structure
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## microtopic
+Viral components
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Viral components
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_09b0450fc24387f25049
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q5-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p31 Virology Q5; printed answer p38
+src_09b0450fc24387f25049 | tier 1 local teaching | p6 direct MUST teaching
+
+## original_wording
+Which component is NOT part of a virus? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Virology Q5; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-8F2C6A4D913B70
+
+## label
+Chronic carrier infection permits virus secretion after clinical recovery
+
+## canonical_key
+microbiology.virology.chronic-carrier-virus-secretion-post-recovery
+
+## aliases
+Chronic viral carrier
+Post-recovery virus secretion
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A chronic carrier infection is characterized by continued virus secretion after clinical recovery.
+
+## explicit_objective
+Recognise post-recovery virus secretion as the chronic-carrier pattern.
+
+## pitfalls
+The chronic carrier pattern is not complete resolution, non-shedding latency or rapid host death.
+
+## concept_type
+infection pattern
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General virology
+
+## microtopic
+Persistent infection
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General virology > Persistent infection
+
+## article_ids
+ART-INF-MUST-FHB1022-VIRAL-CARRIER-INFECTION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-VIRUS-SUSCEPTIBILITY-COMPONENTS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_09b0450fc24387f25049
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-VIRO2-Q26-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p36 Virology Q26; printed answer p38
+src_09b0450fc24387f25049 | tier 1 local teaching | p33 direct MUST teaching
+
+## original_wording
+Chronic carrier infections are characterized by: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Virology Q26; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
