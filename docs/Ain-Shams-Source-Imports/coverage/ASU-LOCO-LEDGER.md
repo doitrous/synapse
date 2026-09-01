@@ -3,7 +3,7 @@
 | calcium | 11 | 1 | 0 | 12 |
 | collagen | 26 | 4 | 0 | 30 |
 | important | 0 | 0 | 4 | 4 |
-| muscle | 0 | 0 | 25 | 25 |
+| muscle | 25 | 0 | 0 | 25 |
 | purine | 14 | 2 | 0 | 16 |
 
 ## Held
@@ -20,28 +20,3 @@
 - important-q02
 - important-q03
 - important-q04
-- muscle-q01
-- muscle-q02
-- muscle-q03
-- muscle-q04
-- muscle-q05
-- muscle-q06
-- muscle-q07
-- muscle-q08
-- muscle-q09
-- muscle-q10
-- muscle-q11
-- muscle-q12
-- muscle-q13
-- muscle-q14
-- muscle-q15
-- muscle-q16
-- muscle-q17
-- muscle-q18
-- muscle-q19
-- muscle-q20
-- muscle-q21
-- muscle-q22
-- muscle-q23
-- muscle-q24
-- muscle-q25
