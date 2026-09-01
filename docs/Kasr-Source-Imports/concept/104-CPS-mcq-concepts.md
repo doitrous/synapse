@@ -24,7 +24,7 @@
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
-    Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart (external features) — 7 questions, 3 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 17 questions, 4 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
@@ -3539,10 +3539,47 @@ The heart lies obliquely in the middle mediastinum, one third to the right and t
 heart.external-features
 ## exam_signal
 src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-ANA-HEART-CHAMBERS
 ## field_notes
 canonical_key "heart.external-features" already has a pinned id in this module (CON-CVS-74C0F9BB0D3490); mintConceptId derives the same id fresh (CON-CVS-74C0F9BB0D3490) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-42C907CE4749DC
+## label
+The right atrium is split by the crista terminalis into a rough atrium proper and a smooth sinus venarum; the right ventricle has an inflow part with three papillary muscles and a smooth infundibulum
+## canonical_key
+heart.right-chambers-interior
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p27 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-CHAMBERS
+## field_notes
+canonical_key "heart.right-chambers-interior" already has a pinned id in this module (CON-CVS-42C907CE4749DC); mintConceptId derives the same id fresh (CON-CVS-42C907CE4749DC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-ECDC97B24BB5DE
+## label
+The left atrium receives four pulmonary veins and is mostly smooth; the left ventricle's inflow part has two papillary muscles feeding the mitral valve and its outflow part is the fibrous aortic vestibule
+## canonical_key
+heart.left-chambers-interior
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-CHAMBERS
+## field_notes
+canonical_key "heart.left-chambers-interior" already has a pinned id in this module (CON-CVS-ECDC97B24BB5DE); mintConceptId derives the same id fresh (CON-CVS-ECDC97B24BB5DE) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

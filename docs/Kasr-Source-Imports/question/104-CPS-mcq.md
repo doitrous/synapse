@@ -24,7 +24,7 @@
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
-    Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart (external features) — 7 questions, 3 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 17 questions, 4 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
@@ -18888,6 +18888,562 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-E3FC589A3160
+## title
+In the anatomical position, the heart has a:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In the anatomical position, the heart has a:
+## answer_a
+right border formed of right atrium and right ventricle
+## explanation_a
+The right border of the heart is formed by the right atrium alone, not by the right atrium and right ventricle together — the right ventricle lies more anteriorly, contributing to the sternocostal surface instead of the right border.
+## answer_b
+sternocostal surface formed of right atrium, right ventricle, left auricle and a strip of left ventricle
+## explanation_b
+Correct. The sternocostal (anterior) surface is formed mainly by the right atrium and right ventricle, with the left auricle contributing a small part at its upper left and a narrow strip of the left ventricle showing at its left edge, next to the anterior interventricular groove.
+
+Why this is right:
+- The heart is a hollow muscular pump lying inside the pericardium in the middle mediastinum, behind the sternum and adjoining costal cartilages, one third of its bulk to the right of the median plane and two thirds to the left.
+## answer_c
+posterior surface formed of right atrium, 4 pulmonary veins and left ventricle
+## explanation_c
+The posterior surface (base) of the heart is formed mainly by the LEFT atrium, receiving the four pulmonary veins, together with a small part of the right atrium — not the right atrium and left ventricle as this option states.
+## answer_d
+diaphragmatic surface formed of left atrium, inferior vena cava and right ventricle
+## explanation_d
+The diaphragmatic (inferior) surface is formed mainly by the LEFT ventricle, with a strip of the right ventricle, and does not include the left atrium or the inferior vena cava as named surface-forming structures here.
+## correct_answer
+B
+## main_concept
+CON-CVS-74C0F9BB0D3490
+## library_ids
+ART-104-ANA-HEART-CHAMBERS
+## topic
+Anatomy Cardiovascular System — The Heart (external features)
+## subtopic
+Anatomy Cardiovascular System — The Heart (external features)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify the correct composition of the heart's sternocostal surface (right atrium, right ventricle, left auricle and a strip of left ventricle), as opposed to incorrect right-border, posterior-surface and diaphragmatic-surface statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q16. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-20A157724ECB
+## title
+Which of the following structures open into the left atrium?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following structures open into the left atrium?
+## answer_a
+Pulmonary veins
+## explanation_a
+Correct. The four pulmonary veins open into the left atrium's posterior wall, the vessels that return oxygenated blood from the lungs to the heart — besides the left atrioventricular orifice, they are the only structures opening into this chamber.
+
+Why this is right:
+- The left atrium, smaller than the right, forms most of the base and upper border of the heart; it is smooth except for a few musculi pectinati in its auricle, and receives the four pulmonary veins on its posterior wall in addition to the left atrioventricular orifice.
+## answer_b
+Anterior cardiac vein
+## explanation_b
+The anterior cardiac veins bypass the coronary sinus entirely and open directly into the RIGHT atrium, not the left.
+## answer_c
+Coronary sinus
+## explanation_c
+The coronary sinus, draining most of the heart's own venous blood, opens into the RIGHT atrium, between the IVC opening and the right atrioventricular orifice — not the left atrium.
+## answer_d
+Superior vena cava
+## explanation_d
+The superior vena cava opens into the upper part of the RIGHT atrium, not the left — one of the great veins that, together with the IVC and coronary sinus, defines the right atrium's own smooth sinus venarum.
+## correct_answer
+A
+## main_concept
+CON-CVS-ECDC97B24BB5DE
+## library_ids
+ART-104-ANA-HEART-CHAMBERS
+## topic
+Anatomy Cardiovascular System — The Heart (external features)
+## subtopic
+Anatomy Cardiovascular System — The Heart (external features)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+State that the pulmonary veins open into the left atrium, not the anterior cardiac vein, coronary sinus or superior vena cava, all of which open into the right atrium instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q19. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-7CAA10D0B669
+## title
+All the following are correct except :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following are correct except :
+## answer_a
+the left atrial wall is about the same thickness as the right atrium
+## explanation_a
+True, so not the exception. The right atrial wall and the left atrial wall are comparably thin, both considerably thinner than either ventricle's own muscular wall.
+## answer_b
+the left ventricle is separated from the left atrium by a bicuspid valve .
+## explanation_b
+True, so not the exception. The left ventricle is separated from the left atrium by the bicuspid (mitral) valve, whose two cusps' chordae anchor to the ventricle's two papillary muscles.
+## answer_c
+Purkinje system allows the excitation of all ventricular muscle fibers to occur at nearly the same time .
+## explanation_c
+True, so not the exception. The Purkinje system's fast, near-simultaneous conduction lets all parts of the ventricular myocardium begin contracting together, rather than as a slow, spreading, uncoordinated wave.
+## answer_d
+the right heart receives oxygenated blood from the four pulmonary veins
+## explanation_d
+The exception, and the answer. The four pulmonary veins open into the LEFT atrium, not the right — they carry oxygenated blood returning from the lungs specifically to the chamber that then passes it, via the mitral valve, into the left ventricle for systemic distribution. The right heart instead receives deoxygenated blood from the systemic venous system (SVC, IVC, coronary sinus).
+
+Why this is right:
+- The left atrium, smaller than the right, forms most of the base and upper border of the heart; it is smooth except for a few musculi pectinati in its auricle, and receives the four pulmonary veins on its posterior wall in addition to the left atrioventricular orifice.
+## correct_answer
+D
+## main_concept
+CON-CVS-ECDC97B24BB5DE
+## library_ids
+ART-104-ANA-HEART-CHAMBERS
+## topic
+Physiology
+## subtopic
+Anatomy Cardiovascular System — The Heart (external features)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that the four pulmonary veins drain oxygenated blood into the LEFT, not the right, atrium as the exception among otherwise true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p1 q5. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7A6E1DFB1A4D
+## title
+The internal structure of left ventricle, one is correct:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The internal structure of left ventricle, one is correct:
+## answer_a
+Its wall is thinner three times than the right ventricle
+## explanation_a
+Backwards. The left ventricle's wall is roughly THREE TIMES THICKER than the right ventricle's, not thinner — it must generate systemic, not pulmonary, pressures.
+## answer_b
+The trabeculae carneae is fine and numerous
+## explanation_b
+Correct. The department book's own comparison of the two ventricles states the left ventricle's trabeculae carneae as fine and numerous, against the right ventricle's few and coarse ones — the opposite pairing from what intuition (thicker wall, therefore coarser features) might suggest.
+
+Why this is right:
+- The left atrium, smaller than the right, forms most of the base and upper border of the heart; it is smooth except for a few musculi pectinati in its auricle, and receives the four pulmonary veins on its posterior wall in addition to the left atrioventricular orifice.
+## answer_c
+The septomarginal band extends from anterior wall to interventricular septum
+## explanation_c
+The septomarginal trabecula (moderator band), carrying the right bundle branch to the anterior papillary muscle, is a RIGHT ventricular structure with no left-ventricular counterpart at all.
+## answer_d
+Three papillary muscles are present, anterior, posterior and septal
+## explanation_d
+The left ventricle has only TWO papillary muscles, anterior and posterior, matching its valve's two cusps — three papillary muscles (anterior, posterior and septal) is the right ventricle's own count, matching the tricuspid valve's three cusps.
+## correct_answer
+B
+## main_concept
+CON-CVS-ECDC97B24BB5DE
+## library_ids
+ART-104-ANA-HEART-CHAMBERS
+## topic
+Anatomy Cardiovascular System — The Heart (external features)
+## subtopic
+Anatomy Cardiovascular System — The Heart (external features)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the left ventricle's trabeculae carneae are fine and numerous, as opposed to incorrect wall-thickness, moderator-band and papillary-muscle-count statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q22. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7B42F54EFFDA
+## title
+The following structure is present in the cavity of the right ventricle:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure is present in the cavity of the right ventricle:
+## answer_a
+crista terminalis
+## explanation_a
+The crista terminalis is a right ATRIAL structure, the muscular ridge separating the atrium's rough and smooth parts — not a feature of the right ventricle's own cavity.
+## answer_b
+musculipectinati
+## explanation_b
+Musculi pectinati are the comb-like ridges of the right atrium's rough anterior part and auricle, not a right ventricular feature; the right ventricle's own ridged feature is trabeculae carneae, a different structure.
+## answer_c
+septomarginal (moderator) band
+## explanation_c
+Correct. The septomarginal trabecula (moderator band) runs from the interventricular septum to the base of the anterior papillary muscle within the right ventricle's own cavity, bracing the ventricle and carrying the right bundle branch of the conducting system to the ventricular wall.
+
+Why this is right:
+- The right atrium's cavity is divided by the crista terminalis, a muscular ridge between the openings of the superior and inferior venae cavae, into an anterior rough atrium proper, roughened by the comb-like musculi pectinati, and a posterior smooth sinus venarum.
+## answer_d
+fossa ovalis Page 13 of
+## explanation_d
+The fossa ovalis is a right ATRIAL structure, on the interatrial septal wall — the remnant of the fetal foramen ovale — not a feature of the right ventricle's own cavity.
+## correct_answer
+C
+## main_concept
+CON-CVS-42C907CE4749DC
+## library_ids
+ART-104-ANA-HEART-CHAMBERS
+## topic
+Anatomy Cardiovascular System — The Heart (external features)
+## subtopic
+Anatomy Cardiovascular System — The Heart (external features)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify the septomarginal trabecula (moderator band) as present in the right ventricle's cavity, as opposed to the crista terminalis, musculi pectinati or fossa ovalis, all of which are atrial structures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p14 q116. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-17A4C76548E8
+## title
+The right ventricle contains all the following structures, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The right ventricle contains all the following structures, EXCEPT:
+## answer_a
+Papillary muscles
+## explanation_a
+True, so not the exception. The right ventricle's inflow part carries three papillary muscles — anterior, posterior and septal — whose chordae anchor the tricuspid valve's three cusps.
+## answer_b
+Chorda tendinae
+## explanation_b
+True, so not the exception. Chordae tendinae connect the tricuspid valve's cusps to the papillary muscles within the right ventricle's own cavity.
+## answer_c
+Pectinate muscles
+## explanation_c
+The exception, and the answer. Pectinate (musculi pectinati) muscles are an ATRIAL feature — the comb-like ridges of the right atrium's rough anterior part and auricle — not a right ventricular structure at all; the ventricle's own analogous ridged feature is instead trabeculae carneae.
+
+Why this is right:
+- The right atrium's cavity is divided by the crista terminalis, a muscular ridge between the openings of the superior and inferior venae cavae, into an anterior rough atrium proper, roughened by the comb-like musculi pectinati, and a posterior smooth sinus venarum.
+## answer_d
+Trabeculae carnae
+## explanation_d
+True, so not the exception. Trabeculae carneae are the right ventricle's own coarse muscular ridges, part of its rough inflow part.
+## answer_e
+Moderator band (septomarginal trabeculae)
+## explanation_e
+True, so not the exception. The moderator band (septomarginal trabecula) runs from the septum to the anterior papillary muscle within the right ventricle, bracing it and carrying the right bundle branch.
+## correct_answer
+C
+## main_concept
+CON-CVS-42C907CE4749DC
+## library_ids
+ART-104-ANA-HEART-CHAMBERS
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart (external features)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify pectinate (musculi pectinati) muscles as an atrial, not ventricular, feature — the exception among genuine right ventricular structures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p27 q109. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
