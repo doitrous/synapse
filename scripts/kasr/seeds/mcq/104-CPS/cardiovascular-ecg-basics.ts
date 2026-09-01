@@ -470,6 +470,18 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // Only 3 options survive (A, B, C — no D), below the platform's
+      // 4-to-5-option import contract.
+      key: "the-average-normal-electrical-axis-of-the-heart-is-6e612f34",
+      conceptKey: "ecg.recording-technique.paper-speed-and-limb-leads",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, B, C — no D or E), below the platform's 4-to-5-option import contract ('3 options — the contract is 4 to 5'). This leaf has no other row testing the normal QRS electrical axis range, so the fact itself is a genuine, not merely duplicate, loss — flagged for whoever next finds a clean-option copy of this same question in the corpus.",
+    },
+    {
       key: "cardiac-muscle-cannot-be-tetanized-because-of-e311a248",
       conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
       difficulty: "Hard",

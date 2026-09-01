@@ -302,5 +302,34 @@ export const LEAF: McqLeafSeed = {
         D: "Correct. The Purkinje fibres, the slowest tier of the pacemaker hierarchy, have an intrinsic rhythmic rate of roughly 15-40 per minute — a genuine characteristic of the conducting system, consistent with their role as a last-resort escape pacemaker rather than the normal rhythm-setter.",
       },
     },
+    {
+      // Stem is an incomplete sentence with no actual question attached
+      // ("Cells in the SA node", full stop, nothing else recoverable), and
+      // the surviving options mix three cell-type names (SA node, AV nodal
+      // cells, working myocardial cells) with one unrelated ionic-current
+      // term ("Outward Na+ current") — inconsistent option semantics that
+      // suggest a merge with a different question's own options, not a
+      // single coherent item. Not sittable as extracted.
+      key: "cells-in-the-sa-node-d8679a3c",
+      conceptKey: "sa-node-pacemaker-potential.phase-4.ionic-basis",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Stem is an incomplete sentence with no question attached ('Cells in the SA node' and nothing more), and the surviving options mix three cell-type names with one unrelated ionic-current term ('Outward Na+ current') — inconsistent option semantics indicating a merge with a different question, not a genuine single item that can be shown to a student.",
+    },
+    {
+      // Only 2 options survive (A, C — no B, D or E), below the platform's
+      // 4-to-5-option import contract.
+      key: "regarding-the-s-a-node-2d9ef5ca",
+      conceptKey: "sa-node-pacemaker-potential.phase-4.ionic-basis",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 2 options (A, C — no B, D or E), well below the platform's 4-to-5-option import contract. The tested fact (SA node cells act as pacemaker because their membrane depolarizes spontaneously) is already taught cleanly by this concept's own kept questions in this file.",
+    },
   ],
 }

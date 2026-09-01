@@ -100,5 +100,22 @@ export const LEAF: McqLeafSeed = {
         D: "True, so not the exception. Purkinje fibres conduct impulses through gap junctions at a speed comparable to nerve fibres — fast, uniform propagation — which is exactly the property that makes their true (muscular) tissue identity a common point of confusion.",
       },
     },
+    {
+      // Only 3 options survive (A, C, D — no B), below the platform's
+      // 4-to-5-option import contract. The identical fact (papillary muscle
+      // is not part of the specialized conducting system) is already tested
+      // by the sibling 4-option row which-of-the-following-is-not-a-part-
+      // of-the-specialized-seij-44db1b50, kept elsewhere in this leaf's own
+      // Electrical-Activity-of-the-Heart batch, so no unique teaching
+      // content is lost.
+      key: "which-is-not-a-part-of-the-specialized-self-excitable-conduc-a538dc86",
+      conceptKey: "cardiac-conducting-system.purkinje-fibre-site-and-histological-characteristics",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, C, D — no B), below the platform's 4-to-5-option import contract. The identical fact (papillary muscle is not part of the specialized self-excitable conducting system) is already kept as a clean 4-option row elsewhere in this run's own batch (which-of-the-following-is-not-a-part-of-the-specialized-seij-44db1b50, in anatomy-conducting-system-of-heart.ts), so no unique teaching content is lost.",
+    },
   ],
 }

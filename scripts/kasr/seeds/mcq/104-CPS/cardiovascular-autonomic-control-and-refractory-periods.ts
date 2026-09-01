@@ -429,5 +429,32 @@ export const LEAF: McqLeafSeed = {
         D: "Hypokalemia is more classically associated with increased cardiac excitability and arrhythmogenic risk than with a straightforward negative chronotropic effect on the SA node.",
       },
     },
+    {
+      // Only 3 options survive (A, C, D — no B), below the platform's
+      // 4-to-5-option import contract. Duplicate of the phase-4/phase-0-3
+      // sibling rows already kept in cardiovascular-pacemaker-
+      // electrophysiology.ts and this file's own av-nodal-delay questions,
+      // so no unique teaching content is lost.
+      key: "conduction-speed-is-slowest-in-the-tepret-abe02b6a",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "5 lettered options survive (A-E), but D and E are OCR-garbled fragments of two DIFFERENT, unrelated exam items ('P-R segment corresponds to the plateau of ventricular myocyte action potential' and 'In ECG, atrial fibrillation shows:') rather than genuine distractors for 'conduction speed is slowest in the:' — presenting them to a student as answer options would be incoherent. The identical, cleanly-extracted fact (AV node slowest) is already kept as the sibling row conduction-speed-is-slowest-in-the-99b22b7b, so no unique teaching content is lost.",
+    },
+    {
+      // Only 3 options survive (A, C, D — no B), below the platform's
+      // 4-to-5-option import contract.
+      key: "the-fibers-of-the-a-v-bundle-its-branches-e7478cf8",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, C, D — no B), below the platform's 4-to-5-option import contract. The tested fact (AV bundle fibres are modified muscle fibres, not nerve fibres) is already taught by the sibling Purkinje-histology concept in cardiovascular-conducting-system-histology.ts ('specialised cardiac muscle fibres... not nerve tissue').",
+    },
   ],
 }
