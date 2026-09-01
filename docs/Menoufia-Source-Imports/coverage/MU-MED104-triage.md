@@ -64,14 +64,24 @@ sourceIds verified against `manifest/y1-sources.json` (`relativePath` match), 20
 | 7 | Vit D deficiency in chronic renal disease — which enzyme defect | Renal 1-alpha-hydroxylase activates 25(OH)D → 1,25(OH)₂D₃; CKD impairs this step | b) Alpha-1 hydroxylase enzyme | **Live** — `CON-END-1DE2C490ABBA64` "PTH and decreased phosphate activate proximal-tubular 1-alpha-hydroxylase to form 1,25-dihydroxyvitamin D3" — same mechanism, CKD-defect framing is the new angle to add as an overlay, not a new concept |
 | 8 | Sequestrum definition | Sequestrum = dead bone fragment (osteomyelitis) | b) Dead bone | **New** — `find-existing "osteomyelitis"` hits an unrelated Pasteurella/cat-bite concept (ASU-INF); no hit for the sequestrum definition itself |
 
+## Bonus batch: a fourth source, found via the OCR/watermark trap (§ below)
+
+While OCR'ing `Final 41.pdf` (a fully-garbled tier-1 EOY paper, see `MU-Y1-readability-summary.md`), the OCR text came back near-empty (13 words/page) even after the tool's own psm-4 fallback. Rendering page 1 to diagnose why showed why: it is a **photographed page** (angled, page-curl, phone-camera lighting) with a diagonal red "MFM/SUPPORT41" watermark plus a footer "Protected with free version of Make Watermark" stamp — tesseract locks onto the watermark text and returns almost nothing else. The page is otherwise a clean, real Anatomy (lower-limb) exam with the same grey-highlight key convention already seen in MED102. Three more questions triaged from that one already-rendered page (no extra render cost):
+
+| # | Question (short) | Concept | Recovered key | Live / Pending / New |
+|---|---|---|---|---|
+| 9 | Adductor-canal infection — which structure stays intact | Adductor canal contents (femoral artery/vein, saphenous nerve) vs. the great saphenous vein, which runs superficial to the canal | d) Great saphenous vein | **Live** — `CON-MSK-594BD65D8C0D7A` "Anterior relations in adductor canal" + sibling live concepts on adductor-canal contents; the "which structure is NOT in the canal" framing is a new angle on the same concept cluster |
+| 10 | Greater-trochanter fracture — which hip muscle keeps working | Gluteus maximus inserts on the gluteal tuberosity/IT band, not the greater trochanter, so a trochanteric fracture spares it | d) Gluteus maximus | **New** — `find-existing "greater trochanter fracture"` no hit; `"gluteus maximus"` hits are generic definitional concepts (103-BMS, AU-MED-105), not this clinical-correlation angle |
+| 11 | Leg trauma, can't plantarflex/invert foot — muscle affected | Deep posterior compartment of the leg (tibialis posterior, tibial nerve) — plantarflexion + inversion | b) Tibialis posterior | **Pending** — `docs/import-ready/concept/AU-MED-105-anatomy-concepts.md` "deep group (tibialis posterior...) ... plantarflex and invert the foot" (Alexandria AU-MED-105), same idea |
+
 ## Checkpoint table (13-orchestration.md §5 shape)
 
 | Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
 |---|--:|--:|--:|--:|--:|--:|---|
-| MU-MED104 (sample) | 8 | 8 | 8 | 1 | 2 | 5 | Menkes disease, Ca²⁺-pH absorption, Vit-D-as-hormone criteria → `fnd` (biochemistry, no live subject yet, per 00-START-HERE §3); Giant cell tumor of bone, Sequestrum/osteomyelitis → `msk` |
+| MU-MED104 (sample) | 11 | 11 | 11 | 2 | 3 | 6 | Menkes disease, Ca²⁺-pH absorption, Vit-D-as-hormone criteria → `fnd` (biochemistry, no live subject yet, per 00-START-HERE §3); Giant cell tumor of bone, Sequestrum/osteomyelitis, greater-trochanter/gluteus-maximus clinical correlation → `msk` |
 
-This is a **sample**, not the full module: 3 of MED104's 27 tier-1 paper files were
-rendered (one page each). The remaining 24 paper files, 57 bank files and 9 department-book
+This is a **sample**, not the full module: 4 of MED104's 27 tier-1 paper files were
+rendered (one page each). The remaining 23 paper files, 57 bank files and 9 department-book
 files (see `coverage/MU-Y1-priority-sources.md`, `MU-MED104` section) are triaged-but-not-
 keyed at this checkpoint — their question stems are readable via cached text (no render
 needed for the stem, only for the key), so the next pass can triage question content freely
@@ -82,6 +92,12 @@ and defer render calls to key-recovery only, file by file.
 - Which visual key-marking convention (colour, underline, highlight) a given source uses is
   not predictable from the filename — each source needs at least one rendered page to
   determine its convention before bulk key recovery.
+- Some scanned sources are angled phone-camera photos carrying a "Make Watermark" free-tier
+  stamp (`Final 41.pdf`, sourceId `mu_672c9c5ed72e56514295`) — default tesseract OCR fails on
+  these (locks onto the watermark, <20 words/page); they still render fine and are readable
+  by eye. Worth a second OCR pass with deskew/watermark-aware settings before assuming a
+  "fully garbled" file in `MU-Y1-readability-summary.md` is unusable — several may just need
+  a render, not a rewrite of the OCR pipeline.
 - MED106's semester-map marks (30) vs subject-component marks (45) conflict is unresolved —
   see `academic/MU-Y1-modules.md`. Not blocking for MED104 triage.
 - `fnd` and `msk` subject placements above are provisional (this triage's own read of
