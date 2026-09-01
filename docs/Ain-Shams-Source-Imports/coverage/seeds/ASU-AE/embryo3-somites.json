@@ -1,6 +1,6 @@
 {
   "lane": "ASU-AE",
-  "cluster": "embryo3-somites",
+  "cluster": "embryo3",
   "header": "ASU-AE · Embryology > Questions > Embryo 3 — somite-count-by-day cluster, sparse overlay onto Kasr 101-ISK's own `CON-DEV-3AB7E19B99F387` (somite-period-dates-and-the-age-from-somite-number-formula), which already states the day-20 onset and the +3-pairs-per-day rate this source's own answer-key remarks derive by hand (\"Day20->1 somite. Day21->1+3=4. Day22->4+3=7\"). 5 printed items test this one timetable; 2 authored, 3 held as duplicates.",
   "defaults": {
     "subject": "dev",

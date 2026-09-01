@@ -1,6 +1,6 @@
 {
   "lane": "ASU-AE",
-  "cluster": "embryo3-newfacts",
+  "cluster": "embryo3",
   "header": "ASU-AE · Embryology > Questions > Embryo 3 — the only 3 genuinely new facts this cluster produced after search-before-mint: adrenal cortex/medulla germ-layer split, teratogen critical-period + heparin-not-teratogenic, and polyhydramnios-from-GI-atresia. Minted as CON-DEV-ASU-AE-ADRENAL-ORIGIN, CON-DEV-ASU-AE-TERATOGEN-PRINCIPLES and CON-DEV-ASU-AE-POLYHYDRAMNIOS-GI (docs/Ain-Shams-Source-Imports/concept/ASU-AE-embryo3-new-facts-concepts.md), one shared article (ASU-AE-embryo3-new-facts-articles.md). 8 printed items across the three facts; 4 authored, 4 held as duplicates.",
   "defaults": {
     "subject": "dev",

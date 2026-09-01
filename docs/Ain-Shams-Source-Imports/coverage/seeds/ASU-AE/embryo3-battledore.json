@@ -1,6 +1,6 @@
 {
   "lane": "ASU-AE",
-  "cluster": "embryo3-battledore",
+  "cluster": "embryo3",
   "header": "ASU-AE · Embryology > Questions > Embryo 3 — single sparse overlay onto Kasr's own pending `CON-DEV-3E918A4C74B56D` (umbilical-cord-anomalies) concept, whose definition already lists battledore placenta as one of the named cord-attachment anomalies ('abnormal attachment to the placenta -- battledore, at the margin, or velamentous'). A separate live record (`CON-OBS-C095B75A61EA4F`, Battledore cord attachment) also states this exact fact but has no locally-known article id to satisfy the library_ids gate, so the pending Kasr concept is used instead -- both describe the same fact and either would be a correct overlay target.",
   "defaults": {
     "subject": "dev",

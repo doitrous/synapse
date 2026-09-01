@@ -1,6 +1,6 @@
 {
   "lane": "ASU-AE",
-  "cluster": "embryo3-syndromes",
+  "cluster": "embryo3",
   "header": "ASU-AE · Embryology > Questions > Embryo 3 — chromosomal-syndrome genotype cluster, sparse overlay onto Kasr 101-ISK's own `CON-FND-5097CA5BAB2E51` (chromosomal-abnormalities-and-the-syndromes-they-cause), which already names Down/Turner/Klinefelter/cri-du-chat with the same '44+' autosome-pair notation this source uses. 20 of the paper's 104 printed items (3, 7, 8, 15, 19, 21, 27, 31, 43, 55-59, 60-64, 98) test this one fact from different angles; 3 authored (one per named syndrome this bank actually keys), 17 held as duplicates or as the matching-format cluster Embryo 1's own triage already excluded.",
   "defaults": {
     "subject": "fnd",

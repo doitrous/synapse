@@ -1,6 +1,6 @@
 {
   "lane": "ASU-AE",
-  "cluster": "embryo3-amnioticfluid",
+  "cluster": "embryo3",
   "header": "ASU-AE · Embryology > Questions > Embryo 3 — amniotic-fluid-volume cluster, sparse overlay onto Alexandria's own pending `AU-MED-102-embryology-concepts.md` record `CON-DEV-3D26C14BF0AA28` (Oligohydramnios is amniotic fluid under 400 mL), whose own definition already states both the oligohydramnios threshold and the normal term range ('roughly 800-1500 mL') plus the renal-agenesis mechanism this source's own answer-key remark gives verbatim ('Renal agenesis causes oligohydramnios'). 3 printed items; 2 authored, 1 held as a duplicate.",
   "defaults": {
     "subject": "dev",

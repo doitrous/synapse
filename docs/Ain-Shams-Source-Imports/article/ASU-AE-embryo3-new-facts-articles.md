@@ -149,7 +149,7 @@ Quote: the cortex, from mesoderm, and the medulla, from neural crest cells
 Block: body
 
 ### definition_of · CON-DEV-ASU-AE-TERATOGEN-PRINCIPLES
-Quote: the embryonic period (roughly the first trimester, when organs are being laid down) is when a teratogen does the most damage ... heparin is the standard teaching example of a safe anticoagulant in pregnancy because its large molecular size prevents placental transfer
+Quote: the embryonic period (roughly the first trimester, when organs are being laid down) is when a teratogen does the most damage
 Block: body
 
 ### definition_of · CON-DEV-ASU-AE-POLYHYDRAMNIOS-GI

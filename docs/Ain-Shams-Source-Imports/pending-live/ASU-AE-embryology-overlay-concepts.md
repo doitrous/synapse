@@ -342,6 +342,7 @@ Heuser's membrane lines the primary yolk sac, the allantois buds from the second
 ## module_subject
 101 ISK > Anatomy > General Embryology > Fetal Membranes
 ASU-AE > Embryology > Questions > Embryo 2
+ASU-AE > Embryology > Questions > Embryo 3
 
 ## exam_signal
 src_12d639a625d8305c4454 | question_book | | p9 | 101 ISK
@@ -351,9 +352,11 @@ src_764a2521809818b8abdc | question_book | | p98 | 101 ISK
 src_08bc782553366518791e | question_book | | p125 | 101 ISK
 src_16f747e1171423933757 | question_book | | p11 | 101 ISK
 src_a7e3b821ab294015c05f | question_book | | p13 | ASU-AE
+src_3448fabd352cb8018ed3 | question_book | | p14 | ASU-AE
+src_3448fabd352cb8018ed3 | question_book | | p15 | ASU-AE
 
 ## field_notes
-overlay: Sparse update only -- live-hit (101 ISK, live 2026-08-27). ASU-AE Embryo 2 Q7 ("The blastocoele becomes the:" -- b. Yolk sac) tests this record's own first step (Heuser's membrane lining the blastocele on day 9 to form the primary yolk sac). This row only adds ASU/ASU-AE traceability and the module_subject/exam_signal union; every other field is left as the live record holds it. Source: ASU-AE Embryology, "MCQs - Embryo 2.pdf" (src_a7e3b821ab294015c05f), question 7; answer key page 13, row 7 = b.
+overlay: Sparse update only -- live-hit (101 ISK, live 2026-08-27). ASU-AE Embryo 2 Q7 ("The blastocoele becomes the:" -- b. Yolk sac) tests this record's own first step (Heuser's membrane lining the blastocele on day 9 to form the primary yolk sac). This row only adds ASU/ASU-AE traceability and the module_subject/exam_signal union; every other field is left as the live record holds it. Source: ASU-AE Embryology, "MCQs - Embryo 2.pdf" (src_a7e3b821ab294015c05f), question 7; answer key page 13, row 7 = b. Extended 2026-09-02 (author5 pass) for "MCQs - Embryo 3.pdf" (src_3448fabd352cb8018ed3): Q91 ("The definitive yolk sac: ... c. Is found in the umbilical cord") and Q99 ("As regards the allantois, choose the correct statement: ... a. Is a diverticulum of hindgut") both test this same record's yolk-sac/allantois definition from its two other stated facts (the definitive yolk sac's fate, and the allantois's own hindgut-diverticulum origin). Embryo 3's own Q92 (secondary yolk sac lined by endoderm) duplicates the fact Embryo 2's Q7 already tests here and was held rather than re-authored. Answer key page 19, row 91 = c, row 99 = a.
 
 ---
 

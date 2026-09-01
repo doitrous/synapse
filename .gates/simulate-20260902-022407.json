@@ -1,0 +1,201 @@
+{
+ "source": "server/data/medical-library-v1.json",
+ "emitted": "/tmp/sim-ASU-AE-embryo3.json",
+ "batches": [
+  {
+   "file": "docs/Ain-Shams-Source-Imports/resource/ASU-AE-embryo3-resources.md",
+   "kind": "catalogue-resource",
+   "created": 1,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Kasr-Source-Imports/article/101-ISK-anatomy.md",
+   "kind": "article",
+   "created": 39,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Kasr-Source-Imports/article/101-ISK-anatomy-2.md",
+   "kind": "article",
+   "created": 9,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Kasr-Source-Imports/article/101-ISK-histology-2.md",
+   "kind": "article",
+   "created": 12,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Alexandria-Source-Imports/article/AU-MED-102-embryology-articles.md",
+   "kind": "article",
+   "created": 3,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/article/ASU-AE-embryo3-new-facts-articles.md",
+   "kind": "article",
+   "created": 0,
+   "updated": 0,
+   "rejected": 1
+  },
+  {
+   "file": "docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md",
+   "kind": "concept",
+   "created": 260,
+   "updated": 0
+  },
+  {
+   "file": "docs/Alexandria-Source-Imports/concept/AU-MED-102-embryology-concepts.md",
+   "kind": "concept",
+   "created": 4,
+   "updated": 1
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/concept/ASU-AE-embryo3-new-facts-concepts.md",
+   "kind": "concept",
+   "created": 3,
+   "updated": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-embryology-overlay-concepts.md",
+   "kind": "concept",
+   "created": 0,
+   "updated": 13
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-EMBRYO3-overlay-concepts.md",
+   "kind": "concept",
+   "created": 0,
+   "updated": 14
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-syndromes-mcq.md",
+   "kind": "question",
+   "created": 3,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-somites-mcq.md",
+   "kind": "question",
+   "created": 2,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-battledore-mcq.md",
+   "kind": "question",
+   "created": 1,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-amnioticfluid-mcq.md",
+   "kind": "question",
+   "created": 2,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-newfacts-mcq.md",
+   "kind": "question",
+   "created": 0,
+   "updated": 0,
+   "rejected": 4
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-neuralmesoderm-mcq.md",
+   "kind": "question",
+   "created": 6,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-placentacord-mcq.md",
+   "kind": "question",
+   "created": 11,
+   "updated": 0,
+   "rejected": 0
+  },
+  {
+   "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-gastrulation-mcq.md",
+   "kind": "question",
+   "created": 13,
+   "updated": 0,
+   "rejected": 0
+  }
+ ],
+ "before": {
+  "articles": 145,
+  "concepts": 1718,
+  "relations": 47,
+  "claims": 1741,
+  "citations": 1818,
+  "resources": 47,
+  "articleSpans": 1720,
+  "minigamePacks": 0,
+  "glossaryTerms": 0
+ },
+ "after": {
+  "articles": 208,
+  "concepts": 1985,
+  "relations": 47,
+  "claims": 1741,
+  "citations": 1818,
+  "resources": 47,
+  "articleSpans": 1720,
+  "minigamePacks": 0,
+  "glossaryTerms": 0
+ },
+ "delta": {
+  "articles": 63,
+  "concepts": 267,
+  "relations": 0,
+  "claims": 0,
+  "citations": 0,
+  "resources": 0,
+  "articleSpans": 0,
+  "minigamePacks": 0,
+  "glossaryTerms": 0
+ },
+ "conceptsNowCarryingVerifiedClaims": [
+  {
+   "conceptId": "CON-FND-7EC14E00DE2EAE",
+   "label": "Formation of the facial vein",
+   "publicationStatus": "needs_evidence",
+   "verifiedClaims": 1
+  },
+  {
+   "conceptId": "CON-FND-10446D757EB8E7",
+   "label": "Main veins draining the face",
+   "publicationStatus": "needs_evidence",
+   "verifiedClaims": 1
+  },
+  {
+   "conceptId": "CON-FND-30C2D97803C2F4",
+   "label": "Termination of retromandibular vein",
+   "publicationStatus": "needs_evidence",
+   "verifiedClaims": 1
+  },
+  {
+   "conceptId": "CON-FND-280060832C51CD",
+   "label": "Scope of histology",
+   "publicationStatus": "needs_evidence",
+   "verifiedClaims": 1
+  }
+ ],
+ "skipped": [],
+ "errors": [
+  "docs/Ain-Shams-Source-Imports/article/ASU-AE-embryo3-new-facts-articles.md row 2: Annotation 2 (CON-DEV-ASU-AE-TERATOGEN-PRINCIPLES): the quote \"the embryonic period (roughly the first trimeste…\" does not appear in the body block",
+  "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-newfacts-mcq.md row 2: article ART-DEV-ASU-AE-EMBRYO3-NEW-FACTS does not exist",
+  "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-newfacts-mcq.md row 3: article ART-DEV-ASU-AE-EMBRYO3-NEW-FACTS does not exist",
+  "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-newfacts-mcq.md row 4: article ART-DEV-ASU-AE-EMBRYO3-NEW-FACTS does not exist",
+  "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-newfacts-mcq.md row 5: article ART-DEV-ASU-AE-EMBRYO3-NEW-FACTS does not exist"
+ ]
+}

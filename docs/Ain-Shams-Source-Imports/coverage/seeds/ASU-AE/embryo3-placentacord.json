@@ -1,6 +1,6 @@
 {
   "lane": "ASU-AE",
-  "cluster": "embryo3-placentacord",
+  "cluster": "embryo3",
   "header": "ASU-AE · Embryology > Questions > Embryo 3 — notochord (`CON-DEV-1BCF37C48AF307`), umbilical-cord-development (`CON-DEV-134C8B5E98D759`), umbilical-cord-anomalies (`CON-DEV-3E918A4C74B56D`), yolk-sac/allantois (`CON-DEV-1D10DF3B716A70`, the same id Embryo 2's own overlay already targets) and amniotic-fluid-functions (`CON-DEV-F356C3B8CFD31E`) -- five sparse overlays onto Kasr's own pending 101-ISK records, all taught by the same 101-ISK chorionic-villi/placenta article. 18 printed items; 11 authored, 7 held as duplicates.",
   "defaults": {
     "subject": "dev",
