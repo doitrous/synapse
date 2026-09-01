@@ -158,4 +158,22 @@ hegazy-ch5-q35
 hegazy-ch5-q36
 hegazy-ch5-q37
 hegazy-ch5-q38
-# Chapter 6 (Complement, 17 Qs): not yet authored this sitting
+# Chapter 6 (Complement), 17/17 keyed and authored — all keys read from page-image render, no holds
+hegazy-ch6-q01
+hegazy-ch6-q02
+hegazy-ch6-q03
+hegazy-ch6-q04
+hegazy-ch6-q05
+hegazy-ch6-q06
+hegazy-ch6-q07
+hegazy-ch6-q08
+hegazy-ch6-q09
+hegazy-ch6-q10
+hegazy-ch6-q11
+hegazy-ch6-q12
+hegazy-ch6-q13
+hegazy-ch6-q14
+hegazy-ch6-q15
+hegazy-ch6-q16
+hegazy-ch6-q17
+# hegazy.pdf is now fully exhausted (Ch1-6 + Cytokines mini-section) — the 241-bank Q181-241 editorial path is the next open lane

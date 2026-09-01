@@ -1,0 +1,572 @@
+{
+  "lane": "ASU-IMM",
+  "cluster": "hegazy-ch6",
+  "header": "ASU-IMM · hegazy.pdf Chapter 6 (Complement) — 17/17 questions, all keyed from the printed per-block answer-key strips at the bottom of pages 23-24, read directly from 300dpi page images (tesseract OCR mangled these embedded key tables).",
+  "defaults": {
+    "subject": "imm",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-IMM",
+    "module_subject": "ASU-IMM > Immunology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.3"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-ASU-IMM-COMPLEMENT",
+      "ART-ASU-IMM-HUMORAL-IMMUNITY",
+      "ART-ASU-IMM-INFLAMMATION-CYTOKINES",
+      "ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS"
+    ],
+    "resource_ids": [
+      "src_834aba143e85f6c3efce"
+    ],
+    "source_citation": "Ain Shams University Immunology Department, hegazy MCQ bank, Chapter 6 (Complement), Q{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "hegazy-ch6-q01",
+      "page": "23",
+      "title": "Regarding effector functions of complement, which isn't true:",
+      "question": "Regarding effector functions of complement, which isn't true:",
+      "options": {
+        "A": "Attract phagocytes to the site of infection",
+        "B": "Opsonization",
+        "C": "Increase blood vessel permeability",
+        "D": "Presenting antigen to B cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS a true complement function). Attracting phagocytes (chemotaxis) is a genuine complement effector function.",
+        "B": "Incorrect (this IS a true complement function). Opsonization, chiefly via C3b, is a genuine complement effector function.",
+        "C": "Incorrect (this IS a true complement function). Increasing vascular permeability, via the anaphylatoxins C3a and C5a, is a genuine complement effector function.",
+        "D": "Correct — this is the false statement. Presenting antigen to B cells is not a complement function. It is instead carried out by professional antigen-presenting cells such as dendritic cells and macrophages."
+      },
+      "main_concept": "CON-IMM-963100482154AC",
+      "topic": "Complement",
+      "subtopic": "Complement effector functions",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify antigen presentation as not a complement effector function.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q1, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q02",
+      "page": "23",
+      "title": "Complement:",
+      "question": "Complement:",
+      "options": {
+        "A": "Group of active proteolytic enzymes found in serum",
+        "B": "Secreted by hepatocytes",
+        "C": "Don't participate in innate immune response",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect alone. Being a group of proteolytic serum enzymes is a true feature of complement, but so is being hepatocyte-secreted, so this alone is incomplete as the single best answer.",
+        "B": "Correct. Complement proteins are secreted chiefly by hepatocytes in the liver, and this is the specific fact singled out here as the correct description. This liver origin is why circulating complement levels can fall in severe hepatic disease, alongside other liver-synthesised plasma proteins.",
+        "C": "Incorrect. Complement is a genuine and central participant in innate immune defence, not excluded from it.",
+        "D": "Incorrect. Because option C is false (complement DOES participate in innate immunity), 'all of the above' cannot be correct."
+      },
+      "main_concept": "CON-IMM-290AF025BC8ADB",
+      "topic": "Complement",
+      "subtopic": "Complement source",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify hepatocytes as the chief source of complement proteins.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q2, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q03",
+      "page": "23",
+      "title": "Complement is:",
+      "question": "Complement is:",
+      "options": {
+        "A": "Activated by binding to specific complement receptors",
+        "B": "Antigen specific",
+        "C": "Present in circulation in an inactive form",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Complement is activated through pathway-specific triggers (antigen-antibody complexes, foreign surfaces, mannose-binding lectin), not by binding a dedicated 'complement receptor' analogous to an antigen receptor.",
+        "B": "Incorrect. Complement is not antigen specific; its activation triggers act broadly, unlike the highly specific recognition of an antibody or TCR.",
+        "C": "Correct. Complement proteins circulate in blood in an inactive (zymogen) form, becoming activated only once a pathway-specific trigger initiates sequential proteolytic cleavage. This inactive-until-triggered design prevents complement from attacking host tissue indiscriminately, only unleashing its cascade where a genuine activation signal is present.",
+        "D": "Incorrect. Since option C correctly describes complement, 'none of the above' does not apply."
+      },
+      "main_concept": "CON-IMM-0E4B8F1F0FA45D",
+      "topic": "Complement",
+      "subtopic": "Complement activation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that complement circulates in an inactive form until activated.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q3, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q04",
+      "page": "23",
+      "title": "The alternative pathway of complement:",
+      "question": "The alternative pathway of complement:",
+      "options": {
+        "A": "Cause tissue damage in the absence of C1 inhibitor",
+        "B": "Occurs after activation of the classical pathway",
+        "C": "Require C3",
+        "D": "Require C4"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. C1-inhibitor deficiency is relevant to inappropriate classical-pathway/kinin activation (as in hereditary angioedema), not to how the alternative pathway is defined.",
+        "B": "Incorrect. The alternative pathway operates independently of the classical pathway; it does not require prior classical-pathway activation.",
+        "C": "Correct. The alternative pathway requires C3, which spontaneously hydrolyses at a low baseline rate and amplifies on foreign surfaces, forming the alternative-pathway C3 convertase. This pathway operates independently of the classical pathway, so it does not need prior antigen-antibody activation to proceed.",
+        "D": "Incorrect. C4 is a classical-pathway component; the alternative pathway does not require it."
+      },
+      "main_concept": "CON-IMM-3BF6BBC114AB23",
+      "topic": "Complement",
+      "subtopic": "Alternative pathway",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the alternative pathway requires C3 and is independent of the classical pathway.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q4, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q05",
+      "page": "23",
+      "title": "Classical pathway for complement activation is initiated by:",
+      "question": "Classical pathway for complement activation is initiated by:",
+      "options": {
+        "A": "Foreign polysaccharide",
+        "B": "Antigen - Antibody reaction",
+        "C": "C5-C9",
+        "D": "Factors released from macrophages"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Foreign polysaccharide surfaces trigger the alternative pathway, not the classical pathway.",
+        "B": "Correct. The classical pathway is triggered specifically by antigen-antibody (immune complex) reaction, which engages C1q and starts the classical cascade. This antibody dependence distinguishes the classical pathway from the alternative pathway (foreign polysaccharide) and the lectin pathway (mannose-binding lectin), neither of which needs antibody.",
+        "C": "Incorrect. C5-C9 form the terminal Membrane Attack Complex, downstream of pathway initiation, not the trigger for the classical pathway.",
+        "D": "Incorrect. Factors released from macrophages are not what initiates the classical complement pathway."
+      },
+      "main_concept": "CON-IMM-BFA60A06BF7648",
+      "topic": "Complement",
+      "subtopic": "Classical pathway",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify antigen-antibody reaction as the classical pathway's trigger.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q5, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q06",
+      "page": "23",
+      "title": "Which complement component is composed of 3 separate proteins:",
+      "question": "Which complement component is composed of 3 separate proteins:",
+      "options": {
+        "A": "C1",
+        "B": "C2",
+        "C": "C3",
+        "D": "C4",
+        "E": "C5"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. C1 is uniquely composed of three separate proteins bound together in a complex. C1q recognises the antibody Fc region, while C1r and C1s are serine proteases activated once C1q engages its target. No other early complement component (C2, C3, C4 or C5) shares this three-protein structure.",
+        "B": "Incorrect. C2 is a single protein, not a three-protein complex.",
+        "C": "Incorrect. C3 is a single protein, not a three-protein complex.",
+        "D": "Incorrect. C4 is a single protein, not a three-protein complex.",
+        "E": "Incorrect. C5 is a single protein, not a three-protein complex."
+      },
+      "main_concept": "CON-IMM-8EFFCE3660F1D2",
+      "topic": "Complement",
+      "subtopic": "C1 structure",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify C1 as the complement component composed of three separate proteins.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q6, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q07",
+      "page": "23",
+      "title": "C3b:",
+      "question": "C3b:",
+      "options": {
+        "A": "Chemotactic",
+        "B": "Anaphylatoxin",
+        "C": "Opsonizes bacteria",
+        "D": "Is the inactive form of C3"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Chemotactic activity is a property of the smaller anaphylatoxin fragments (C3a, C5a), not C3b.",
+        "B": "Incorrect. C3a, not C3b, is the anaphylatoxin fragment of C3; C3b is the larger, surface-binding fragment.",
+        "C": "Correct. C3b, generated by cleavage of C3 during complement activation, binds covalently to a pathogen surface and opsonizes it, markedly enhancing phagocytosis by cells bearing complement receptors. This opsonizing role is distinct from the smaller C3a fragment, which instead acts as an anaphylatoxin driving inflammation rather than coating pathogens.",
+        "D": "Incorrect. C3b is the ACTIVE cleavage product of C3, not an inactive form; it is C3 itself that circulates inactive before cleavage."
+      },
+      "main_concept": "CON-IMM-26B010AA844D8F",
+      "topic": "Complement",
+      "subtopic": "C3b function",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify opsonization of bacteria as the function of C3b.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q7, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q08",
+      "page": "23",
+      "title": "The Membrane Attack Complex is:",
+      "question": "The Membrane Attack Complex is:",
+      "options": {
+        "A": "C3b3bBb",
+        "B": "Properdin",
+        "C": "C3, C4, C5",
+        "D": "C5b6789"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. This garbled combination does not describe the Membrane Attack Complex; C3-related convertases are separate from the terminal MAC.",
+        "B": "Incorrect. Properdin is a stabilising factor for the alternative-pathway C3 convertase, not the terminal lytic complex itself.",
+        "C": "Incorrect. Simply listing C3, C4 and C5 does not describe the terminal complex; the MAC is specifically composed of C5b plus C6, C7, C8 and multiple C9 molecules.",
+        "D": "Correct. The Membrane Attack Complex is composed of C5b, C6, C7, C8 and multiple C9 molecules (C5b6789), assembling into a pore in the target-cell membrane that causes osmotic lysis. Assembly of the MAC is the shared terminal step that every complement pathway converges on, regardless of how it was initially triggered."
+      },
+      "main_concept": "CON-IMM-8FAEB790724DA0",
+      "topic": "Complement",
+      "subtopic": "Membrane Attack Complex",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify C5b6789 as the composition of the Membrane Attack Complex.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q8, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q09",
+      "page": "23",
+      "title": "The properdin pathway is initiated by:",
+      "question": "The properdin pathway is initiated by:",
+      "options": {
+        "A": "Respiratory burst of activity",
+        "B": "Low oxygen environment",
+        "C": "High acid environment",
+        "D": "Foreign polysaccharide"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A respiratory burst is a phagocyte oxidative-killing mechanism, unrelated to what initiates the properdin (alternative) pathway.",
+        "B": "Incorrect. A low-oxygen environment does not initiate the properdin pathway.",
+        "C": "Incorrect. A high-acid environment does not initiate the properdin pathway.",
+        "D": "Correct. The properdin (alternative) pathway is triggered by foreign polysaccharide surfaces, such as bacterial cell walls, which allow C3b to bind and remain stable, amplifying the cascade. No respiratory burst, low-oxygen state or high-acid environment is needed to start this pathway; the foreign surface itself is the trigger."
+      },
+      "main_concept": "CON-IMM-1D0D474E931587",
+      "topic": "Complement",
+      "subtopic": "Alternative pathway",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify foreign polysaccharide as the trigger for the properdin pathway.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.23)",
+        "hegazy": "Chapter 6 Q9, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q10",
+      "page": "24",
+      "title": "Order of action of complement factors in the classical pathway:",
+      "question": "Order of action of complement factors in the classical pathway:",
+      "options": {
+        "A": "C1, C2, C3, C4",
+        "B": "C2, C1, C4, C3",
+        "C": "C1, C4, C2, C3",
+        "D": "C3, C1, C2, C4"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. This is the intuitive numerical order, but the classical pathway does not follow it: C4 is actually activated before C2.",
+        "B": "Incorrect. C1 must be activated first (by the antigen-antibody complex), not second.",
+        "C": "Correct. Once antigen-antibody complexes engage C1, the classical pathway activates its components in the order C1, then C4, then C2, then C3. C4 is activated before C2, despite the numbering, forming the classical C3 convertase C4b2b.",
+        "D": "Incorrect. C1 must be activated first, not C3; C3 is a downstream product of this sequence, not its starting point."
+      },
+      "main_concept": "CON-IMM-3C3285EE61DF7E",
+      "topic": "Complement",
+      "subtopic": "Classical pathway order",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State the correct classical-pathway activation order: C1, C4, C2, C3.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q10, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q11",
+      "page": "24",
+      "title": "A one-year-old boy had several bouts of pneumonia. Upon investigation, normal values for all immunoglobulin isotypes were detected. Depressed serum level of which complement component may predispose to this condition:",
+      "question": "A one-year-old boy had several bouts of pneumonia. Upon investigation, normal values for all immunoglobulin isotypes were detected. Depressed serum level of which complement component may predispose to this condition:",
+      "options": {
+        "A": "C1",
+        "B": "C2",
+        "C": "C3",
+        "D": "C4",
+        "E": "C5"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. C1 deficiency is more classically linked to lupus-like autoimmune disease from impaired immune-complex clearance, not primarily to this recurrent-pneumonia pattern.",
+        "B": "Incorrect. C2 deficiency is a relatively common classical-pathway deficiency but is not the component singled out as the answer here.",
+        "C": "Correct. C3 sits at the convergence point of all three complement pathways and is essential for opsonization and Membrane Attack Complex formation. With normal immunoglobulin isotypes already ruling out an antibody defect, a C3 deficiency is the complement defect that best explains recurrent pyogenic bacterial infections such as this boy's repeated pneumonia.",
+        "D": "Incorrect. C4 deficiency is again more classically linked to autoimmune (lupus-like) disease than to this recurrent-pneumonia pattern.",
+        "E": "Incorrect. C5 deficiency classically predisposes to Neisseria (meningococcal/gonococcal) infection specifically, a narrower pattern than this boy's recurrent pneumonia."
+      },
+      "main_concept": "CON-IMM-F5FC3C8440BA16",
+      "topic": "Complement",
+      "subtopic": "Complement deficiency",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify C3 deficiency as the cause of recurrent bacterial infection despite normal immunoglobulin isotypes.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q11, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q12",
+      "page": "24",
+      "title": "MBL is structurally similar to:",
+      "question": "MBL is structurally similar to:",
+      "options": {
+        "A": "Factor B",
+        "B": "Factor H",
+        "C": "C1q",
+        "D": "C3"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Factor B is an alternative-pathway component, structurally and functionally unrelated to MBL's role.",
+        "B": "Incorrect. Factor H is an alternative-pathway regulator, not MBL's structural analogue.",
+        "C": "Correct. Mannose-binding lectin, which initiates the lectin pathway by binding mannose residues on microbial surfaces, is structurally similar to C1q. Both are collagen-like, multimeric pattern-recognition molecules that activate associated serine proteases once they bind their target.",
+        "D": "Incorrect. C3 is a central convergence-point protein, not the structural analogue of MBL."
+      },
+      "main_concept": "CON-IMM-EA70B5CB79EEF1",
+      "topic": "Complement",
+      "subtopic": "Lectin pathway",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify C1q as the complement protein structurally similar to MBL.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q12, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q13",
+      "page": "24",
+      "title": "How does CD59 play a control role in complement activation:",
+      "question": "How does CD59 play a control role in complement activation:",
+      "options": {
+        "A": "Inactivates C3b",
+        "B": "Inhibit C9 polymerization",
+        "C": "Inhibit C1q activation",
+        "D": "Inhibit formation of C3 convertase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Inactivating C3b is the role of other regulators (such as Factor I with Factor H), not CD59.",
+        "B": "Correct. CD59 (protectin) is a host-cell surface regulatory protein that inhibits C9 polymerization, blocking assembly of the full Membrane Attack Complex and protecting host cells from complement-mediated lysis. This terminal-step regulation is a different mechanism from regulators that instead inactivate C3b or block C3-convertase formation earlier in the cascade.",
+        "C": "Incorrect. Inhibiting C1q activation is not CD59's mechanism; CD59 acts at the terminal, MAC-forming step instead.",
+        "D": "Incorrect. Blocking C3-convertase formation is the role of earlier-acting regulators (such as DAF), not CD59, which acts later at the C9 step."
+      },
+      "main_concept": "CON-IMM-D8AEFEBFC3EE8D",
+      "topic": "Complement",
+      "subtopic": "Complement regulation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that CD59 protects host cells by inhibiting C9 polymerization.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q13, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q14",
+      "page": "24",
+      "title": "Which of the following mechanisms act in concert with IgG to clear extracellular bacterial infections:",
+      "question": "Which of the following mechanisms act in concert with IgG to clear extracellular bacterial infections:",
+      "options": {
+        "A": "Antibody dependent cell mediated cytotoxicity",
+        "B": "Complement mediated opsonization",
+        "C": "Extracellular killing by cytotoxic T lymphocytes",
+        "D": "Extracellular killing by NK cells",
+        "E": "Degranulation of eosinophils"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. ADCC directly lyses antibody-coated infected host cells, not the mechanism that clears free extracellular bacteria alongside IgG here.",
+        "B": "Correct. Antibody-mediated opsonization and complement-mediated opsonization act together to clear extracellular bacterial infections: IgG coats the bacterium, and complement (activated via the classical pathway, triggered by that same IgG) further opsonizes it, both markedly enhancing phagocytosis. Cell-mediated mechanisms such as ADCC, CTLs and NK cells instead clear already-infected host cells, a separate category of target from the free extracellular bacteria this question describes.",
+        "C": "Incorrect. Cytotoxic T lymphocytes kill infected host cells presenting foreign antigen on MHC class I, not free extracellular bacteria.",
+        "D": "Incorrect. NK cells kill infected or altered host cells, not free extracellular bacteria.",
+        "E": "Incorrect. Eosinophil degranulation is chiefly an antiparasitic and allergic-response mechanism, not the process that clears extracellular bacteria alongside IgG here."
+      },
+      "main_concept": "CON-IMM-77B61C4222A097",
+      "topic": "Complement",
+      "subtopic": "Extracellular bacterial clearance",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify complement-mediated opsonization as acting alongside IgG to clear extracellular bacteria.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q14, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q15",
+      "page": "24",
+      "title": "Formation of C3a & C5a results in:",
+      "question": "Formation of C3a & C5a results in:",
+      "options": {
+        "A": "Opsonization",
+        "B": "Acute inflammation",
+        "C": "Endotoxic shock",
+        "D": "Interferon activation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Opsonization is the function of C3b, a different complement fragment from the anaphylatoxins C3a and C5a.",
+        "B": "Correct. C3a and C5a act as anaphylatoxins: they trigger mast-cell degranulation and increase vascular permeability, together producing acute inflammation at the site of complement activation. This is distinct from C3b's separate opsonizing role, since C3a and C5a act on blood vessels and mast cells rather than coating the pathogen itself.",
+        "C": "Incorrect. Endotoxic shock is a distinct, LPS-driven systemic phenomenon, not the defining result of C3a/C5a formation.",
+        "D": "Incorrect. Interferon activation is unrelated to the anaphylatoxin function of C3a and C5a."
+      },
+      "main_concept": "CON-IMM-177C4E3BCE9911",
+      "topic": "Complement",
+      "subtopic": "Anaphylatoxins",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify acute inflammation as the result of C3a and C5a anaphylatoxin activity.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q15, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q16",
+      "page": "24",
+      "title": "C3 convertase in the alternative pathway is:",
+      "question": "C3 convertase in the alternative pathway is:",
+      "options": {
+        "A": "C4bC2b",
+        "B": "C3bBb",
+        "C": "C4bC2bC3b",
+        "D": "C3bBbC3b"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. C4bC2b is the CLASSICAL pathway's C3 convertase, not the alternative pathway's.",
+        "B": "Correct. In the alternative pathway, C3b binds Factor B, which is then cleaved by Factor D to leave Bb bound to C3b, forming the alternative-pathway C3 convertase, C3bBb. This differs from the alternative pathway's own C5 convertase, C3bBbC3b, which forms once an additional C3b binds, and from the classical pathway's C3 convertase, C4bC2b.",
+        "C": "Incorrect. This combination does not correctly describe either pathway's convertase.",
+        "D": "Incorrect. C3bBbC3b is the alternative pathway's C5 convertase (with an extra C3b added), not its C3 convertase."
+      },
+      "main_concept": "CON-IMM-C478E8CBC69FE4",
+      "topic": "Complement",
+      "subtopic": "Alternative pathway convertase",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify C3bBb as the alternative pathway's C3 convertase.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q16, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch6-q17",
+      "page": "24",
+      "title": "A work up on an ill child revealed low levels of complement C3 in her blood. Which one of the following presentations did the child most likely manifest?",
+      "question": "A work up on an ill child revealed low levels of complement C3 in her blood. Which one of the following presentations did the child most likely manifest?",
+      "options": {
+        "A": "Chronic eczema",
+        "B": "Immune hemolytic anaemia",
+        "C": "Incomplete recovery from viral infection",
+        "D": "Poor response to vaccination",
+        "E": "Recurrent infection with extracellular bacteria"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Chronic eczema is an atopic/dermatological condition, not the classic presentation of C3 deficiency.",
+        "B": "Incorrect. Immune hemolytic anaemia is an antibody-mediated process against red cells, not the typical presentation of low C3.",
+        "C": "Incorrect. Antiviral clearance depends more on cell-mediated immunity (CTLs, NK, interferons) than on complement C3, so this is not the classic C3-deficiency presentation.",
+        "D": "Incorrect. Poor vaccine response points more toward a B-cell or antibody-production defect, not specifically a C3 deficiency.",
+        "E": "Correct. C3 sits at the convergence point of all three complement pathways and is essential for opsonization and Membrane Attack Complex formation. Low C3 classically presents as recurrent infection with extracellular (pyogenic) bacteria, since C3-mediated opsonization and downstream complement activity are central to clearing this category of pathogen."
+      },
+      "main_concept": "CON-IMM-F5FC3C8440BA16",
+      "topic": "Complement",
+      "subtopic": "Complement deficiency",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify recurrent extracellular bacterial infection as the classic presentation of C3 deficiency.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.24)",
+        "hegazy": "Chapter 6 Q17, key = e"
+      }
+    }
+  ]
+}

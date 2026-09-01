@@ -1492,3 +1492,212 @@ nanotopicId: No verified nanotopic ID was supplied.
 media: No rights-cleared asset exists yet; requests are filed in media_recommendations.
 lastReviewed: New record; not yet reviewed.
 reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-ASU-IMM-COMPLEMENT
+
+## title
+Complement: pathways, activation products and regulation
+
+## arabic_title
+
+
+## aliases
+Classical, alternative and lectin complement pathways
+Membrane Attack Complex
+Complement deficiencies
+
+## subject
+imm
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Complement is a group of proteolytic serum proteins, secreted chiefly by hepatocytes, that circulate in an inactive form until one of three convergent pathways triggers them: the classical pathway (antigen-antibody complexes engaging C1q), the alternative/properdin pathway (foreign polysaccharide surfaces, requiring C3), and the lectin pathway (mannose-binding lectin, structurally similar to C1q). All three converge on C3 cleavage and proceed through C5 to assemble the Membrane Attack Complex (C5b6789), which lyses the target; along the way, C3b opsonizes pathogens and C3a/C5a act as anaphylatoxins driving acute inflammation. Host cells are protected from their own complement by regulators such as CD59 (which blocks C9 polymerization), and deficiency of a central component such as C3 predisposes to recurrent extracellular bacterial infection despite normal antibody levels.
+
+## sections
+### Definition
+Complement is a system of proteolytic enzymes circulating in serum in an inactive form, not antigen specific, and secreted chiefly by hepatocytes. It is a genuine component of innate immune defence, activated through sequential proteolytic cleavage once a pathway-specific trigger occurs, rather than through binding a dedicated antigen-specific receptor.
+
+### Mechanism
+Three pathways converge on the same terminal sequence. The classical pathway is triggered by antigen-antibody (immune complex) reaction, engaging C1 — itself uniquely composed of three separate proteins, C1q, C1r and C1s — and then activating its components in the order C1, C4, C2, C3 (C4 before C2, despite the numbering), forming the classical C3 convertase C4b2b. The alternative (properdin) pathway is triggered by foreign polysaccharide surfaces and requires C3, forming its own C3 convertase, C3bBb (from C3b binding Factor B, cleaved by Factor D); it operates independently of prior classical-pathway activation. The lectin pathway is triggered when mannose-binding lectin (MBL) — structurally similar to C1q — binds mannose residues on a microbial surface. All three pathways converge on C3 cleavage: the resulting C3b opsonizes bacteria (promoting phagocytosis), while C3a and C5a act as anaphylatoxins that trigger mast-cell degranulation and increased vascular permeability, producing acute inflammation. Downstream, C5 cleavage leads to assembly of the Membrane Attack Complex, C5b6789, which forms a membrane pore causing osmotic lysis of the target cell.
+
+### Key determinants
+Complement's genuine effector functions are chemotaxis (attracting phagocytes), opsonization and increasing vascular permeability — not presenting antigen to B cells, which is a cellular (antigen-presenting-cell) function instead. Host cells are protected from complement's own destructive potential by regulatory proteins: CD59 (protectin) inhibits C9 polymerization, blocking inappropriate Membrane Attack Complex assembly on self cells, a distinct mechanism from regulators that instead inactivate C3b or block C3-convertase formation earlier in the cascade.
+
+### Clinical significance
+Antibody-mediated (IgG) opsonization together with complement-mediated opsonization act in concert to clear extracellular bacterial infections, distinct from the cell-mediated mechanisms (ADCC, CTLs, NK cells) that instead clear infected host cells. A deficiency of a central, convergence-point component such as C3 predisposes to recurrent infection with extracellular (pyogenic) bacteria despite otherwise normal immunoglobulin isotypes, since C3-mediated opsonization and downstream Membrane Attack Complex formation — not antibody itself — are what is missing; this is the classic exam pattern that distinguishes a complement deficiency from a humoral (antibody) immunodeficiency.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+The classical pathway activates C1, then C4, then C2, then C3 — C4 before C2, despite the numbering, a frequently tested exception.
+C3b opsonizes; C3a and C5a are the anaphylatoxins that drive acute inflammation — different fragments, different jobs.
+The Membrane Attack Complex is C5b6789, distinct from the C3 convertases (C4b2b classical, C3bBb alternative) that precede it.
+A child with recurrent extracellular bacterial infection but NORMAL immunoglobulin isotypes points to a complement (often C3) deficiency, not an antibody defect.
+CD59 blocks C9 polymerization (protecting host cells from MAC); this is a different mechanism from regulators that inactivate C3b or block C3-convertase formation.
+
+## lose_the_mark
+Assuming the alternative pathway only fires after the classical pathway; the two are independent routes that converge on C3.
+Crediting complement with antigen presentation; that is a cellular (APC) function, not a complement effector function.
+Confusing MBL's structural analogue (C1q) with alternative-pathway regulators such as Factor B or Factor H.
+
+## callout_evidence
+
+
+## related_concepts
+CON-IMM-963100482154AC
+CON-IMM-290AF025BC8ADB
+CON-IMM-0E4B8F1F0FA45D
+CON-IMM-3BF6BBC114AB23
+CON-IMM-BFA60A06BF7648
+CON-IMM-8EFFCE3660F1D2
+CON-IMM-26B010AA844D8F
+CON-IMM-8FAEB790724DA0
+CON-IMM-1D0D474E931587
+CON-IMM-3C3285EE61DF7E
+CON-IMM-F5FC3C8440BA16
+CON-IMM-EA70B5CB79EEF1
+CON-IMM-D8AEFEBFC3EE8D
+CON-IMM-177C4E3BCE9911
+CON-IMM-C478E8CBC69FE4
+
+## related_articles
+ART-ASU-IMM-INFLAMMATION-CYTOKINES: the acute-phase and chemotactic mediators that act alongside complement's own inflammatory anaphylatoxins
+ART-ASU-IMM-HUMORAL-IMMUNITY: the antibody (IgG/IgM) that triggers the classical pathway and cooperates with complement-mediated opsonization
+
+## question_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## article_source_ids
+src_834aba143e85f6c3efce
+
+## universities
+asu
+
+## years
+ASU_Y1
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## university_notes
+asu: Ain Shams Year 1 Immunology, Term 1 (hegazy.pdf Chapter 6, Complement, 17 Qs).
+
+## annotations
+### definition_of · CON-IMM-0E4B8F1F0FA45D
+Quote: circulating in serum in an inactive form, not antigen specific
+Block: body
+
+## media
+
+
+## media_recommendations
+### diagram · Three complement pathways converging on C3, then C5, then MAC
+Purpose: The classical/alternative/lectin triggers and the C4-before-C2 activation order are easy to confuse under exam pressure; a single converging-pathway diagram (each pathway's trigger, its own C3 convertase, then the shared terminal sequence to C5b6789) fixes both the trigger-matching and the ordering questions this chapter tests.
+Priority: strongly helpful
+Status: needed
+Section: Mechanism
+Source direction: openly licensed immunology textbook figure
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 1 Immunology lecture corpus cross-read against the department's hegazy.pdf MCQ bank, Chapter 6 (Complement, pages 23-24), for exam-tested framing.
+
+## claim_ids
+CLM-IMM-COMPLEMENT-INACTIVE-CIRCULATION-01
+CLM-IMM-CLASSICAL-PATHWAY-ORDER-01
+
+## span_ids
+SPN-IMM-COMPLEMENT-01
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached beyond the ASU lecture/tutorial corpus and department MCQ bank.
+
+## conflicts
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Authored from hegazy.pdf Chapter 6 (Complement, 17 questions, pages 23-24), read via 300dpi page-image render (tesseract OCR mangled the embedded per-block answer-key strips). First ASU-IMM article on complement; no existing ASU-IMM article covered this pathway-level detail, though Q14 and Q17's extracellular-bacteria-clearance framing reuses the existing humoral-immunity opsonization concept (CON-IMM-77B61C4222A097).
+
+## field_notes
+arabicTitle: No standard Arabic title is in undergraduate use beyond the English term; left empty rather than guessed.
+questionIds: The question batch authored alongside this article tests it; question_ids is populated on import, not by the author.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+media: No rights-cleared asset exists yet; requests are filed in media_recommendations.
+lastReviewed: New record; not yet reviewed.
+reviewDue: Set when the first review completes.
